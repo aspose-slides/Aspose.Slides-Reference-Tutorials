@@ -1,6 +1,6 @@
 ---
 title: Achieving PDF/A and PDF/UA Conformance with Aspose.Slides
-linktitle: Achieving PDF/A and PDF/UA Conformance with Aspose.Slides
+linktitle: Achieving PDF/A and PDF/UA Conformance
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ensure PDF/A and PDF/UA compliance with Aspose.Slides for .NET. Create accessible and preservable presentations easily.
 type: docs

@@ -18,7 +18,7 @@ FODP stands for Flat OpenDocument Presentation, which is an XML-based file forma
 
 ## Installing Aspose.Slides for .NET
 
-Before we begin, you need to have Aspose.Slides for .NET installed. You can download the library from the official website or use NuGet for a seamless installation process.
+Before we begin, you need to have Aspose.Slides for .NET installed. You can download the library from the Aspose.Releases or use NuGet for a seamless installation process.
 
 ## Setting Up Your Development Environment
 

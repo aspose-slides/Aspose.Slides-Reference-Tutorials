@@ -18,7 +18,7 @@ Mathematics plays a crucial role in many presentations, especially those involvi
 
 ### Setting Up the Project Environment
 
-Before we dive into the code, make sure you have a working .NET development environment set up. If you don't have Visual Studio installed, download and install it from the official website.
+Before we dive into the code, make sure you have a working .NET development environment set up. If you don't have Visual Studio installed, download and install it from the Aspose.Releases.
 
 ### Adding Aspose.Slides to Your .NET Project
 

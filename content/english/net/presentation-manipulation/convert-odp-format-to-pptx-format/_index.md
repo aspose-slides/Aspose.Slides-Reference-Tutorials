@@ -72,7 +72,7 @@ Converting ODP format to PPTX format is made easy with Aspose.Slides for .NET. B
 
 ### How can I obtain Aspose.Slides for .NET?
 
-You can download Aspose.Slides for .NET from the official releases page: [here](https://releases.aspose.com/slides/net)
+You can download Aspose.Slides for .NET from the Aspose.Releases page: [here](https://releases.aspose.com/slides/net)
 
 ### Is Aspose.Slides suitable for other programming languages?
 

@@ -25,7 +25,7 @@ Before we begin, make sure you have the following:
 
 ## Installation and Setup
 
-1. Download and install the Aspose.Slides for .NET library from the official website: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
+1. Download and install the Aspose.Slides for .NET library from the Aspose.Releases: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
 2. Create a new C# project in your preferred development environment.
 
 ## Loading the Presentation
@@ -97,7 +97,7 @@ In this guide, we explored how to export media files to HTML from a PowerPoint p
 
 ### How can I obtain the Aspose.Slides for .NET library?
 
-You can download the Aspose.Slides for .NET library from the official releases page: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
+You can download the Aspose.Slides for .NET library from the Aspose.Releases page: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
 
 ### Can I use Aspose.Slides for other presentation-related tasks?
 
@@ -105,7 +105,7 @@ Absolutely! Aspose.Slides for .NET provides a wide range of features beyond medi
 
 ### Is there a trial version available for Aspose.Slides?
 
-Yes, you can explore the capabilities of Aspose.Slides by downloading the trial version from their official website.
+Yes, you can explore the capabilities of Aspose.Slides by downloading the trial version from Aspose.Releases.
 
 ### What formats does Aspose.Slides support for export?
 
@@ -113,4 +113,4 @@ Aspose.Slides supports exporting presentations to various formats, including PDF
 
 ### How can I learn more about using Aspose.Slides for .NET?
 
-For comprehensive documentation and examples, refer to the official Aspose.Slides for .NET documentation: [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
+For comprehensive documentation and examples, refer to the Aspose.Slides for .NET documentation: [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
