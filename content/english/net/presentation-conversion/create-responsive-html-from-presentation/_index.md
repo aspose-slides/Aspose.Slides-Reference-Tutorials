@@ -24,7 +24,7 @@ To get started with creating responsive HTML from a presentation using Aspose.Sl
 
 1. Install Visual Studio: If you haven't already, download and install Visual Studio, a popular integrated development environment (IDE) for .NET development.
 
-2. Install Aspose.Slides for .NET: You can obtain Aspose.Slides for .NET from the official website or by using NuGet Package Manager in Visual Studio.
+2. Install Aspose.Slides for .NET: You can obtain Aspose.Slides for .NET from the Aspose.Releases or by using NuGet Package Manager in Visual Studio.
 
 ## Creating a new project
 

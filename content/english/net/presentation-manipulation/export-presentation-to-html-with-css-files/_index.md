@@ -16,7 +16,7 @@ Aspose.Slides for .NET is a comprehensive library that allows developers to work
 
 ## Installing and Setting Up Aspose.Slides
 
-To get started, you need to install Aspose.Slides for .NET. You can download the library from the official website or use NuGet package manager to install it into your project.
+To get started, you need to install Aspose.Slides for .NET. You can download the library from the Aspose.Releases or use NuGet package manager to install it into your project.
 
 ```csharp
 // Install the Aspose.Slides package using NuGet

@@ -85,7 +85,7 @@ Yes, you can control the background color and transparency settings of the SVG o
 
 ### Where can I find more information about SVG conversion options?
 
-For more detailed information about SVG conversion options and other features of Aspose.Slides for .NET, you can refer to the [official documentation](https://reference.aspose.com/slides/net/).
+For more detailed information about SVG conversion options and other features of Aspose.Slides for .NET, you can refer to the [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
 
 ## Conclusion
 

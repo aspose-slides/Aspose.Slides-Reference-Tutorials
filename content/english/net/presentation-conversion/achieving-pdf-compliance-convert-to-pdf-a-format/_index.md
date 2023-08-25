@@ -30,7 +30,7 @@ Aspose.Slides for .NET is a powerful library that enables developers to create, 
 
 ## Step 1: Installation and Setup
 
-To get started, you'll need to install the Aspose.Slides for .NET library. You can download it from the official website or use a package manager like NuGet.
+To get started, you'll need to install the Aspose.Slides for .NET library. You can download it from the Aspose.Releases or use a package manager like NuGet.
 
 ```csharp
 // Install-Package Aspose.Slides
@@ -153,7 +153,7 @@ In this guide, we've explored the importance of PDF/A compliance and demonstrate
 
 ### How can I obtain Aspose.Slides for .NET?
 
-You can download Aspose.Slides for .NET from the official website: [Download Aspose.Slides](https://releases.aspose.com/slides/net).
+You can download Aspose.Slides for .NET from the Aspose.Releases: [Download Aspose.Slides](https://releases.aspose.com/slides/net).
 
 ### Does PDF/A compliance impact document size?
 
