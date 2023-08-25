@@ -1,7 +1,7 @@
 ---
 title: Convert Specific Slide to PDF Format
 linktitle: Convert Specific Slide to PDF Format
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to convert specific PowerPoint slides to PDF format using Aspose.Slides for .NET. Step-by-step guide with code examples.
 type: docs
 weight: 19

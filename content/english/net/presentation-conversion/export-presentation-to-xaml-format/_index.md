@@ -1,7 +1,7 @@
 ---
 title: Export Presentation to XAML Format
 linktitle: Export Presentation to XAML Format
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to export presentations to XAML format using Aspose.Slides for .NET. Create interactive content effortlessly!
 type: docs
 weight: 27

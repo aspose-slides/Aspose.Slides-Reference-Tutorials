@@ -1,7 +1,7 @@
 ---
 title: Convert Presentation to PDF with Progress Update
 linktitle: Convert Presentation to PDF with Progress Update
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to convert presentations to PDF with progress updates using Aspose.Slides for .NET. Step-by-step guide with source code included.
 type: docs
 weight: 29

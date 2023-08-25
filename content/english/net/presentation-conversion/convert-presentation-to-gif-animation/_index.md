@@ -1,7 +1,7 @@
 ---
 title: Convert Presentation to GIF Animation
 linktitle: Convert Presentation to GIF Animation
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Create captivating presentations with GIF animations using Aspose.Slides for .NET. Transform static slides into dynamic visual experiences.
 type: docs
 weight: 20

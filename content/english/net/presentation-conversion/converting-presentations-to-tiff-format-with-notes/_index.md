@@ -1,7 +1,7 @@
 ---
 title: Converting Presentations to TIFF Format with Notes
 linktitle: Converting Presentations to TIFF Format with Notes
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Convert PowerPoint presentations to TIFF format with speaker's notes using Aspose.Slides for .NET. High-quality, efficient conversion.
 type: docs
 weight: 10

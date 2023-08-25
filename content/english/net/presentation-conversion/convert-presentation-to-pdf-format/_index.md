@@ -1,7 +1,7 @@
 ---
 title: Convert Presentation to PDF Format
 linktitle: Convert Presentation to PDF Format
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to convert presentations to PDF using Aspose.Slides for .NET. Step-by-step guide with source code. Efficient and effective conversion.
 type: docs
 weight: 24

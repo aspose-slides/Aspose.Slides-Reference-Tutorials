@@ -1,7 +1,7 @@
 ---
 title: Create Responsive HTML from Presentation
 linktitle: Create Responsive HTML from Presentation
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to convert presentations to responsive HTML using Aspose.Slides for .NET. Create engaging content that adapts seamlessly across devices.
 type: docs
 weight: 17

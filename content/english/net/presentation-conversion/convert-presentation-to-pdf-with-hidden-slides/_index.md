@@ -1,7 +1,7 @@
 ---
 title: Convert Presentation to PDF with Hidden Slides
 linktitle: Convert Presentation to PDF with Hidden Slides
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to use Aspose.Slides for .NET to convert presentations to PDF with hidden slides seamlessly.
 type: docs
 weight: 26

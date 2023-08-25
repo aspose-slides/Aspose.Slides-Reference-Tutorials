@@ -1,7 +1,7 @@
 ---
 title: Preserving Original Fonts - Convert Presentation to HTML
 linktitle: Preserving Original Fonts - Convert Presentation to HTML
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to preserve original fonts while converting presentations to HTML using Aspose.Slides for .NET. Ensure font consistency and visual impact effortlessly.
 type: docs
 weight: 14

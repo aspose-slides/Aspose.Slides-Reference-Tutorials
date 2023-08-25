@@ -1,7 +1,7 @@
 ---
 title: Convert Slides to PDF with Notes
 linktitle: Convert Slides to PDF with Notes
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Effortlessly convert presentation slides with speaker notes to PDF using Aspose.Slides for .NET. Preserve content and context seamlessly.
 type: docs
 weight: 18

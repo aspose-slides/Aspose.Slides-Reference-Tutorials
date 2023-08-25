@@ -1,7 +1,7 @@
 ---
 title: How to Convert Individual Presentation Slides
 linktitle: How to Convert Individual Presentation Slides
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to effortlessly convert individual presentation slides using Aspose.Slides for .NET. Create, manipulate, and save slides programmatically.
 type: docs
 weight: 12

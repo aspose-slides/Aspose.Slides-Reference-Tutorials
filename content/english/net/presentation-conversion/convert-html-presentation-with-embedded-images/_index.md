@@ -1,7 +1,7 @@
 ---
 title: Convert HTML Presentation with Embedded Images
 linktitle: Convert HTML Presentation with Embedded Images
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Convert HTML presentations with embedded images effortlessly using Aspose.Slides for .NET. Create, customize, and save PowerPoint files seamlessly.
 type: docs
 weight: 11

@@ -1,7 +1,7 @@
 ---
 title: Convert Presentation to HTML5 Format
 linktitle: Convert Presentation to HTML5 Format
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations to HTML5 format using Aspose.Slides for .NET. Easy and efficient conversion for web sharing.
 type: docs
 weight: 22

@@ -1,7 +1,7 @@
 ---
 title: Achieving PDF Compliance - Convert to PDF/A Format
 linktitle: Achieving PDF Compliance - Convert to PDF/A Format
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to achieve PDF compliance by converting to PDF/A format using Aspose.Slides for .NET. Ensure document longevity and accessibility.
 type: docs
 weight: 25

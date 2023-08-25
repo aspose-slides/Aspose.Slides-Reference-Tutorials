@@ -1,7 +1,7 @@
 ---
 title: Convert Presentations to HTML with Embedded Fonts
 linktitle: Convert Presentations to HTML with Embedded Fonts
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Convert PowerPoint presentations to HTML with embedded fonts using Aspose.Slides for .NET. Maintain originality seamlessly.
 type: docs
 weight: 13

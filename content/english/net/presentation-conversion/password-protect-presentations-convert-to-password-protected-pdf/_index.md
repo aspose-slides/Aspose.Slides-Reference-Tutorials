@@ -1,7 +1,7 @@
 ---
 title: Password-Protect Presentations - Convert to Password-Protected PDF
 linktitle: Password-Protect Presentations - Convert to Password-Protected PDF
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to secure presentations by password-protecting and converting them to PDFs using Aspose.Slides for .NET. Enhance data security now.
 type: docs
 weight: 16
