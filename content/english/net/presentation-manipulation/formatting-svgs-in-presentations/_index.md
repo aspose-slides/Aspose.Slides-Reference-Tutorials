@@ -1,7 +1,7 @@
 ---
 title: Formatting SVGs in Presentations
 linktitle: Formatting SVGs in Presentations
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: 
 type: docs
 weight: 31

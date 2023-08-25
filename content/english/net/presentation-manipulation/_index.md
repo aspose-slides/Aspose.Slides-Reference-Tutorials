@@ -1,7 +1,7 @@
 ---
 title: Presentation Manipulation
 linktitle: Presentation Manipulation
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: 
 type: docs
 weight: 11

@@ -1,7 +1,7 @@
 ---
 title: Render Notes while Converting Presentation to HTML
 linktitle: Render Notes while Converting Presentation to HTML
-second_title: Aspose.Email .NET PowerPoint Processing API
+second_title: Aspose.Slides .NET PowerPoint Processing API
 description: 
 type: docs
 weight: 28
