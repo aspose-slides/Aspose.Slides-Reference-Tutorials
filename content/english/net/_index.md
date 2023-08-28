@@ -20,3 +20,32 @@ Unleash your creativity and efficiency in presentation manipulation using Aspose
 Elevate your skills with Aspose.Slides for .NET tutorials. Learn presentation conversion and PowerPoint processing step-by-step. Transform your workflow today!
 ### [Presentation Manipulation](./presentation-manipulation/)
 Unlock the potential of presentation manipulation with Aspose.Slides for .NET tutorials. Learn how to dynamically create, customize, and enhance PowerPoint presentations programmatically. Elevate your PowerPoint processing skills today!
+### [Slide Access and Manipulation](./slide-access-and-manipulation/)
+
+### [Slide Background Manipulation](./slide-background-manipulation/)
+
+### [Slide Comments Manipulation](./slide-comments-manipulation/)
+
+### [Hyperlink Manipulation](./hyperlink-manipulation/)
+
+### [Chart Creation and Customization](./chart-creation-and-customization/)
+
+### [Audio and Video Extraction](./audio-and-video-extraction/)
+
+### [Notes Slide Manipulation](./notes-slide-manipulation/)
+
+### [Slide Thumbnail Generation](./slide-thumbnail-generation/)
+
+### [Slide Animation Control](./slide-animation-control/)
+
+### [Slide Transition Effects](./slide-transition-effects/)
+
+### [Slide View and Layout Manipulation](./slide-view-and-layout-manipulation/)
+
+### [Licensing and Formatting](./licensing-and-formatting/)
+
+### [Chart Formatting and Animation](./chart-formatting-and-animation/)
+
+### [Advanced Chart Customization](./advanced-chart-customization/)
+
+### [Additional Chart Features](./additional-chart-features/)
