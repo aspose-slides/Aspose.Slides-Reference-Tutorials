@@ -145,4 +145,4 @@ You can use a loop to iterate through all the slides in the presentation and acc
 
 ### Is it possible to delete a notes slide?
 
-Yes, you can delete a notes slide using the `NotesSlideManager` class. Refer to the official [documentation](https://reference.aspose.com/slides/net/aspose.slides/notesslide/) for more information.
+Yes, you can delete a notes slide using the `NotesSlideManager` class. Refer to the [documentation](https://reference.aspose.com/slides/net/aspose.slides/notesslide/) for more information.

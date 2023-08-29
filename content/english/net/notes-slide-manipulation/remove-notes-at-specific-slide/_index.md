@@ -21,7 +21,7 @@ Before you begin, make sure you have the following:
 
 ## Installation of Aspose.Slides for .NET
 
-To get started, you need to install the Aspose.Slides for .NET library. You can download it from the official Aspose website or use NuGet Package Manager in Visual Studio.
+To get started, you need to install the Aspose.Slides for .NET library. You can download it from the Aspose website or use NuGet Package Manager in Visual Studio.
 
 ## Using NuGet Package Manager
 
@@ -132,4 +132,4 @@ Absolutely! Aspose.Slides provides a wide range of features for manipulating sli
 
 ### How do I report issues or seek help regarding Aspose.Slides?
 
-If you encounter any issues or need assistance, you can visit the Aspose forums or support center, accessible through the official Aspose website.
+If you encounter any issues or need assistance, you can visit the Aspose forums or support center, accessible through the Aspose website.

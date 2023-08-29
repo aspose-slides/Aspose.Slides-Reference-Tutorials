@@ -74,7 +74,7 @@ Yes, Aspose.Slides for .NET supports various PowerPoint formats, including PPT, 
 
 ### How can I learn more about using Aspose.Slides for .NET?
 
-You can refer to the official [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) for detailed information, code examples, and API reference. The documentation provides comprehensive guidance on using the library for various tasks.
+You can refer to the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) for detailed information, code examples, and API reference. The documentation provides comprehensive guidance on using the library for various tasks.
 
 ### Where can I access the source code for this guide?
 
