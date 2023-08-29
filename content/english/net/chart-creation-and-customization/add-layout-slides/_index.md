@@ -2,7 +2,7 @@
 title: Add Layout Slides to Presentation
 linktitle: Add Layout Slides to Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Enhance presentations using Aspose.Slides for .NET: Add layout slides seamlessly for visually compelling content.
+description: Enhance presentations using Aspose.Slides for .NET Add layout slides seamlessly for visually compelling content.
 type: docs
 weight: 11
 url: /net/chart-creation-and-customization/add-layout-slides/
