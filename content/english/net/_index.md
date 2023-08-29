@@ -49,3 +49,13 @@ Unlock the potential of presentation manipulation with Aspose.Slides for .NET tu
 ### [Advanced Chart Customization](./advanced-chart-customization/)
 
 ### [Additional Chart Features](./additional-chart-features/)
+
+### [Printing and Rendering in Slides](./printing-and-rendering-in-slides/)
+
+### [Shape Effects and Manipulation in Slides](./shape-effects-and-manipulation-in-slides/)
+
+### [Image and Video Manipulation in Slides](./image-and-video-manipulation-in-slides/)
+
+### [Shape Geometry and Positioning in Slides](./shape-geometry-and-positioning-in-slides/)
+
+### [Shape Alignment and Formatting in Slides](./shape-alignment-and-formatting-in-slides/)
