@@ -113,4 +113,4 @@ You can run the presentation in a PowerPoint viewer or editor to test the hyperl
 
 ### Where can I download the Aspose.Slides for .NET library?
 
-You can download the Aspose.Slides for .NET library from the official Aspose website: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net).
+You can download the Aspose.Slides for .NET library from the  Aspose website: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net).

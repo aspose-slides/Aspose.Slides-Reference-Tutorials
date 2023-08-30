@@ -22,7 +22,7 @@ Before we dive into the implementation, make sure you have the following prerequ
 
 ## Installing Aspose.Slides for .NET
 
-To get started, you need to install the Aspose.Slides for .NET library. You can download the library from the official website or use a package manager like NuGet. Here's how you can install it using NuGet:
+To get started, you need to install the Aspose.Slides for .NET library. You can download the library from the  website or use a package manager like NuGet. Here's how you can install it using NuGet:
 
 ```csharp
 Install-Package Aspose.Slides

@@ -84,7 +84,7 @@ In this guide, you've learned how to add simple slide transitions to your PowerP
 
 ### How can I download the Aspose.Slides for .NET library?
 
-You can download the Aspose.Slides for .NET library from their official website [here](https://releases.aspose.com/slides/net/).
+You can download the Aspose.Slides for .NET library from their  website [here](https://releases.aspose.com/slides/net/).
 
 ### Can I apply different transitions to each slide?
 

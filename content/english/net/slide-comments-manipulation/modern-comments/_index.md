@@ -64,7 +64,7 @@ Modern comments management using Aspose.Slides brings numerous benefits to the t
 ## Leveraging Aspose.Slides for Modern Comments Management: A Step-by-Step Guide
 
 1. ### Setting Up the Environment:
-   Begin by downloading and installing the Aspose.Slides library from the official website: [Download Aspose.Slides](https://releases.aspose.com/slides/net/).
+   Begin by downloading and installing the Aspose.Slides library from the  website: [Download Aspose.Slides](https://releases.aspose.com/slides/net/).
 
 2. ### Creating a New Presentation:
    Use Aspose.Slides to create a new PowerPoint presentation programmatically. Define slides, content, and placeholders as needed.
@@ -119,7 +119,7 @@ Modern comments management using Aspose.Slides brings numerous benefits to the t
 ## FAQs
 
 ### How do I install Aspose.Slides?
-To install Aspose.Slides, visit the official releases page: [Aspose.Slides Releases](https://releases.aspose.com/slides/net/).
+To install Aspose.Slides, visit the  releases page: [Aspose.Slides Releases](https://releases.aspose.com/slides/net/).
 
 ### Can I collaborate with remote team members using Aspose.Slides?
 Absolutely. Aspose.Slides enables real-time collaboration, allowing remote team members to provide feedback and engage in discussions seamlessly.

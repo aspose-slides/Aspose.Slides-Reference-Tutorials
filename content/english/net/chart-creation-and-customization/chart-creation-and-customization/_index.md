@@ -14,7 +14,7 @@ Aspose.Slides is a robust library that provides APIs for working with PowerPoint
 
 ## Setting Up Your Project
 
-Before we begin, make sure you have the Aspose.Slides library installed in your .NET project. You can download it from the official Aspose website or install it via NuGet package manager.
+Before we begin, make sure you have the Aspose.Slides library installed in your .NET project. You can download it from the  Aspose website or install it via NuGet package manager.
 
 ```csharp
 // Install Aspose.Slides via NuGet

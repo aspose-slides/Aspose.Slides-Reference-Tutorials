@@ -17,7 +17,7 @@ In today's business landscape, presentation slides have become a powerful medium
 
 Before we dive into integrating light rig data, it's essential to have the Aspose.Slides API properly set up in your .NET project. Follow these steps:
 
-1. Download Aspose.Slides: Begin by downloading the latest version of Aspose.Slides from the [official download link](https://releases.aspose.com/slides/net/).
+1. Download Aspose.Slides: Begin by downloading the latest version of Aspose.Slides from the [ download link](https://releases.aspose.com/slides/net/).
 
 2. Install the NuGet Package: Open your project in Visual Studio and install the Aspose.Slides NuGet package using the Package Manager Console:
    ```bash

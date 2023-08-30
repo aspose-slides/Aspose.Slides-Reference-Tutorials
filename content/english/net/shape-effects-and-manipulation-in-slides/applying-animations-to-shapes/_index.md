@@ -74,7 +74,7 @@ Adding animations to shapes in presentation slides using Aspose.Slides for .NET 
 
 ### How can I download and install Aspose.Slides for .NET?
 
-You can download the Aspose.Slides library from the official website and follow the installation instructions provided in the documentation.
+You can download the Aspose.Slides library from the  website and follow the installation instructions provided in the documentation.
 
 ### Can I apply multiple animations to a single shape?
 

@@ -20,7 +20,7 @@ Setting an image as a slide background is a powerful way to infuse your presenta
 
 ### 1. Installation and Setup
 
-Before you begin, make sure you have the Aspose.Slides for .NET library installed in your project. You can download the library from the official Aspose website [here](https://releases.aspose.com/slides/net/). Follow the installation instructions to integrate it into your project.
+Before you begin, make sure you have the Aspose.Slides for .NET library installed in your project. You can download the library from the  Aspose website [here](https://releases.aspose.com/slides/net/). Follow the installation instructions to integrate it into your project.
 
 ### 2. Loading a Presentation
 

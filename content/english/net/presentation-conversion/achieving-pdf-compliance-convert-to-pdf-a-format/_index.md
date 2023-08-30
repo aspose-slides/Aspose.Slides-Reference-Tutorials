@@ -129,7 +129,7 @@ The format preserves the document's visual appearance, including fonts, layouts,
 
 ## Compliance with Archiving Standards
 
-PDF/A compliance aligns with archival standards, making it suitable for legal and official document archiving.
+PDF/A compliance aligns with archival standards, making it suitable for legal and  document archiving.
 
 ## Potential Challenges and How to Address Them
 

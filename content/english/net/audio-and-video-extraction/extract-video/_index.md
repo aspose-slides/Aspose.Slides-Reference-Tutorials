@@ -76,11 +76,11 @@ Aspose.Slides for .NET simplifies the task of extracting videos from PowerPoint 
 
 ### How can I access Aspose.Slides documentation?
 
-You can refer to the official documentation for Aspose.Slides for .NET at [here](https://reference.aspose.com/slides/net/).
+You can refer to the  documentation for Aspose.Slides for .NET at [here](https://reference.aspose.com/slides/net/).
 
 ### Is Aspose.Slides available for other programming languages?
 
-Yes, Aspose.Slides is available for multiple programming languages, including Java. You can find the appropriate libraries on the official Aspose website.
+Yes, Aspose.Slides is available for multiple programming languages, including Java. You can find the appropriate libraries on the  Aspose website.
 
 ### Can I extract audio using the same approach?
 
@@ -88,7 +88,7 @@ No, the provided example is specifically for extracting videos. To extract audio
 
 ### Are there any licensing fees for using Aspose.Slides?
 
-Yes, Aspose.Slides is a commercial product. You can find detailed information about licensing and pricing on the official Aspose website.
+Yes, Aspose.Slides is a commercial product. You can find detailed information about licensing and pricing on the  Aspose website.
 
 ### How do I access the extracted video's properties?
 

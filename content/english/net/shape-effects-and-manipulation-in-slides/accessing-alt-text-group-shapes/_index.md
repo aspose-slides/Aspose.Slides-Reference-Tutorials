@@ -20,7 +20,7 @@ Before you dive into the code, make sure you have a suitable development environ
 
 - Visual Studio: If you're not already using it, download and install Visual Studio, a popular integrated development environment for .NET applications.
 
-- Aspose.Slides for .NET Library: Obtain the Aspose.Slides for .NET library and add it as a reference in your project. You can download it from the official [Aspose website](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET Library: Obtain the Aspose.Slides for .NET library and add it as a reference in your project. You can download it from the  [Aspose website](https://reference.aspose.com/slides/net/).
 
 ## Loading a Presentation
 
@@ -101,11 +101,11 @@ In this guide, we've explored the process of accessing alternative text in group
 
 ### How can I install Aspose.Slides for .NET?
 
-You can download Aspose.Slides for .NET from the official [Aspose website](https://reference.aspose.com/slides/net/). Follow the installation instructions provided to set up the library in your project.
+You can download Aspose.Slides for .NET from the  [Aspose website](https://reference.aspose.com/slides/net/). Follow the installation instructions provided to set up the library in your project.
 
 ### Can I use Aspose.Slides for other programming languages?
 
-Yes, Aspose.Slides provides APIs for various programming languages, including Java. Make sure to check the official documentation for language-specific details.
+Yes, Aspose.Slides provides APIs for various programming languages, including Java. Make sure to check the  documentation for language-specific details.
 
 ### What is the purpose of alternative text in presentations?
 

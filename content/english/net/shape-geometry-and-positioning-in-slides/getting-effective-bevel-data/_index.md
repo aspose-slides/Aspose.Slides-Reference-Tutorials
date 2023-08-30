@@ -77,7 +77,7 @@ presentation.Save("modified_sample.pptx", SaveFormat.Pptx);
 
 ### How do I install Aspose.Slides for .NET?
 
-Visit the official Aspose website and download the library from [here](https://releases.aspose.com/slides/net/).
+Visit the  Aspose website and download the library from [here](https://releases.aspose.com/slides/net/).
 
 ### Can I apply multiple bevel effects to a single shape?
 

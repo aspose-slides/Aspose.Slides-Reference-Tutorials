@@ -99,7 +99,7 @@ Incorporating animated series elements in charts using Aspose.Slides for .NET ca
 
 ### How can I install Aspose.Slides for .NET?
 
-You can download Aspose.Slides for .NET from the official releases page: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net).
+You can download Aspose.Slides for .NET from the  releases page: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net).
 
 ### Can I preview my animated presentation within the development environment?
 

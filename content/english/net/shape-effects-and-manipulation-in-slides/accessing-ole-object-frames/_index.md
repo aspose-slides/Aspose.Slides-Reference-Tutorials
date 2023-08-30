@@ -16,7 +16,7 @@ In the realm of dynamic and interactive presentations, Object Linking and Embedd
 
 ### 1. Setting Up Your Environment
 
-Before diving into the world of OLE object frames, ensure you have the necessary tools in place. Download and install the Aspose.Slides for .NET library from the official website[^1]. Once installed, you're ready to embark on your OLE object manipulation journey.
+Before diving into the world of OLE object frames, ensure you have the necessary tools in place. Download and install the Aspose.Slides for .NET library from the  website[^1]. Once installed, you're ready to embark on your OLE object manipulation journey.
 
 ### 2. Loading a Presentation
 

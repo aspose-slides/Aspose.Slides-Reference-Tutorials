@@ -20,7 +20,7 @@ Before we delve into the implementation, ensure you have the following prerequis
 
 ## Step 1: Setting Up Your Project
 
-To get started, create a new project in your preferred IDE and include the Aspose.Slides for .NET library. You can either download the library from the official website or install it using NuGet Package Manager.
+To get started, create a new project in your preferred IDE and include the Aspose.Slides for .NET library. You can either download the library from the  website or install it using NuGet Package Manager.
 
 ## Step 2: Adding a Video Frame to a Slide
 

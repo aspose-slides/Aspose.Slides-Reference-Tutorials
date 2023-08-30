@@ -18,7 +18,7 @@ Change Normal Slide Background is a feature that allows you to replace the defau
 
 ## Getting Started: Using Aspose.Slides for .NET
 
-Aspose.Slides for .NET is a powerful library that provides extensive capabilities for working with PowerPoint presentations programmatically. To begin, make sure you have the library installed in your project. You can obtain the library from the official [Aspose.Slides website](https://reference.aspose.com/slides/net/) or download it from [Aspose's releases](https://releases.aspose.com/slides/net/).
+Aspose.Slides for .NET is a powerful library that provides extensive capabilities for working with PowerPoint presentations programmatically. To begin, make sure you have the library installed in your project. You can obtain the library from the  [Aspose.Slides website](https://reference.aspose.com/slides/net/) or download it from [Aspose's releases](https://releases.aspose.com/slides/net/).
 
 Once you've integrated Aspose.Slides into your project, you're ready to dive into the process of changing the normal slide background. The following sections will guide you through the steps, complete with source code examples.
 

@@ -85,7 +85,7 @@ Aspose.Slides offers more than just basic comment functionality. You can also:
 
 - If comments are not displaying as expected, ensure you're using the latest version of Aspose.Slides and that the comments are properly added to the slide's collection.
 
-- If you encounter any issues, refer to the official [Aspose.Slides documentation](https://reference.aspose.com/slides/net/) for troubleshooting and solutions.
+- If you encounter any issues, refer to the  [Aspose.Slides documentation](https://reference.aspose.com/slides/net/) for troubleshooting and solutions.
 
 ## FAQs
 

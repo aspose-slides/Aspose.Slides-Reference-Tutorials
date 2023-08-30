@@ -17,7 +17,7 @@ When it comes to creating captivating presentations, visual aesthetics play a si
 
 Before diving into the implementation, ensure you have the following prerequisites in place:
 
-- Aspose.Slides for .NET: Make sure you have the latest version of Aspose.Slides for .NET installed. You can download it from the [official releases page](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Make sure you have the latest version of Aspose.Slides for .NET installed. You can download it from the [ releases page](https://releases.aspose.com/slides/net/).
 
 ## Step-by-Step Guide
 

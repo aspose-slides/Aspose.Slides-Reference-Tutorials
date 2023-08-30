@@ -101,7 +101,7 @@ Incorporating animated series in charts can transform your presentations from st
 
 ### How do I install Aspose.Slides for .NET?
 
-You can install Aspose.Slides for .NET using NuGet. Refer to the official documentation for detailed installation instructions: [Documentation Link](https://docs.aspose.com/slides/net/installation/)
+You can install Aspose.Slides for .NET using NuGet. Refer to the  documentation for detailed installation instructions: [Documentation Link](https://docs.aspose.com/slides/net/installation/)
 
 ### Can I customize the animation effects?
 
@@ -117,4 +117,4 @@ Indeed, Aspose.Slides supports exporting presentations to various formats, inclu
 
 ### Where can I access the Aspose.Slides for .NET documentation?
 
-You can find comprehensive documentation and examples on the official Aspose.Slides documentation page: [Documentation Link](https://docs.aspose.com/slides/net/)
+You can find comprehensive documentation and examples on the  Aspose.Slides documentation page: [Documentation Link](https://docs.aspose.com/slides/net/)

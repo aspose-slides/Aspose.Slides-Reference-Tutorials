@@ -18,7 +18,7 @@ In the realm of modern communication, visual aids play a pivotal role in conveyi
 
 Before we delve into the process of adding plain lines to presentation slides, it's essential to set up the development environment. Follow these steps to ensure a smooth workflow:
 
-1. Install Aspose.Slides: Begin by downloading and installing the Aspose.Slides for .NET library. You can download it from the official [Aspose.Slides .NET API Reference](https://reference.aspose.com/slides/net/) page.
+1. Install Aspose.Slides: Begin by downloading and installing the Aspose.Slides for .NET library. You can download it from the  [Aspose.Slides .NET API Reference](https://reference.aspose.com/slides/net/) page.
 
 2. Create a New Project: Open your preferred integrated development environment (IDE) and create a new project. Make sure to reference the Aspose.Slides library in your project.
 

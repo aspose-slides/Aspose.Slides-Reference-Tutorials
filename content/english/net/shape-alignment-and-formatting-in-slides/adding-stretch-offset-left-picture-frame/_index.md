@@ -97,7 +97,7 @@ In this tutorial, you've learned how to add a stretch offset to the left for a p
 
 ### How can I install Aspose.Slides for .NET?
 
-You can download Aspose.Slides for .NET from the official website [here](https://releases.aspose.com/slides/net/).
+You can download Aspose.Slides for .NET from the  website [here](https://releases.aspose.com/slides/net/).
 
 ### Can I use Aspose.Slides for other PowerPoint manipulation tasks?
 

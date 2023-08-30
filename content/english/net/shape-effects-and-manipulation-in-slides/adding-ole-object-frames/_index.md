@@ -18,7 +18,7 @@ In the dynamic world of presentations, visual elements play a pivotal role in co
 
 Before we dive into the technical aspects, it's crucial to ensure that you have the necessary tools in place. Here's what you'll need:
 
-1. Aspose.Slides for .NET: Download and install the latest version from the official [Aspose.Slides releases](https://releases.aspose.com/slides/net/) page.
+1. Aspose.Slides for .NET: Download and install the latest version from the  [Aspose.Slides releases](https://releases.aspose.com/slides/net/) page.
 
 2. Integrated Development Environment (IDE): Choose your preferred IDE for .NET development.
 

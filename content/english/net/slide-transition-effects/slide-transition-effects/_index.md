@@ -15,7 +15,7 @@ Slide transition effects are animations that occur between slides during a prese
 
 ## Setting Up Your Development Environment
 
-Before we begin, make sure you have Aspose.Slides for .NET installed in your project. You can download it from the official website [here](https://releases.aspose.com/slides/net/).
+Before we begin, make sure you have Aspose.Slides for .NET installed in your project. You can download it from the  website [here](https://releases.aspose.com/slides/net/).
 
 ## Creating a Basic Presentation
 

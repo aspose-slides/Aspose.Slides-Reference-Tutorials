@@ -18,7 +18,7 @@ In today's fast-paced world, delivering information in a visually appealing and 
 
 ### Setting Up Your Environment
 
-Before we dive into the technical details, make sure you have Aspose.Slides for .NET installed. If you haven't already, you can download it from the official [Aspose website](https://releases.aspose.com/slides/net/). Once installed, you're ready to embark on this exciting journey of elevating your presentations.
+Before we dive into the technical details, make sure you have Aspose.Slides for .NET installed. If you haven't already, you can download it from the  [Aspose website](https://releases.aspose.com/slides/net/). Once installed, you're ready to embark on this exciting journey of elevating your presentations.
 
 ### Creating a New Presentation
 

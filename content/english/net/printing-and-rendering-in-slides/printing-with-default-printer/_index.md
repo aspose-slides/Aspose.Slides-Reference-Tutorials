@@ -22,7 +22,7 @@ Before you begin, make sure you have the following:
 
 ## Installation and Setup
 
-1. **Download Aspose.Slides for .NET**: You can download the library from the [official Aspose website](https://releases.aspose.com/slides/net/).
+1. **Download Aspose.Slides for .NET**: You can download the library from the [ Aspose website](https://releases.aspose.com/slides/net/).
 
 2. **Install the Library**: After downloading, run the installer to install Aspose.Slides for .NET on your machine.
 

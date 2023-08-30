@@ -19,7 +19,7 @@ Before we begin, ensure you have the following in place:
 - Basic understanding of C# programming
 
 ## Getting Started
-1. Download and Install Aspose.Slides: You can download the Aspose.Slides library from the [official website](https://releases.aspose.com/slides/net/). After downloading, install it in your project.
+1. Download and Install Aspose.Slides: You can download the Aspose.Slides library from the [ website](https://releases.aspose.com/slides/net/). After downloading, install it in your project.
 
 2. Create a New Project: Open your Visual Studio and create a new project.
 

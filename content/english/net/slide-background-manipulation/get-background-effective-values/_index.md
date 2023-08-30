@@ -18,7 +18,7 @@ The background of a slide encompasses various attributes, including color, gradi
 
 ### Step 1: Installation and Setup
 
-Before we begin, ensure you have the Aspose.Slides API for .NET installed in your project. You can download it from the official [Download link](https://releases.aspose.com/slides/net/). Once installed, include the necessary namespaces in your code:
+Before we begin, ensure you have the Aspose.Slides API for .NET installed in your project. You can download it from the  [Download link](https://releases.aspose.com/slides/net/). Once installed, include the necessary namespaces in your code:
 
 ```csharp
 using Aspose.Slides;

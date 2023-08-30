@@ -81,7 +81,7 @@ Absolutely! You can apply various formatting options to the slides before genera
 
 ### What other features does Aspose.Slides for .NET offer?
 
-Aspose.Slides for .NET offers a wide range of features, including slide manipulation, adding animations, working with text and shapes, exporting to various formats, and more. Check out the official documentation for a comprehensive list of capabilities.
+Aspose.Slides for .NET offers a wide range of features, including slide manipulation, adding animations, working with text and shapes, exporting to various formats, and more. Check out the  documentation for a comprehensive list of capabilities.
 
 ### Where can I access the Aspose.Slides for .NET documentation and download the library?
 

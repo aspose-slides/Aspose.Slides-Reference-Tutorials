@@ -16,7 +16,7 @@ In the world of software development, presentations are a powerful means of conv
 
 To get started with comparing slides within presentations using Aspose.Slides for .NET, follow these steps:
 
-1. Installing Aspose.Slides for .NET: First, you need to install the Aspose.Slides for .NET library. You can download the library from the official [Aspose.Slides website](https://releases.aspose.com/slides/net/). After downloading, add the library as a reference to your project.
+1. Installing Aspose.Slides for .NET: First, you need to install the Aspose.Slides for .NET library. You can download the library from the  [Aspose.Slides website](https://releases.aspose.com/slides/net/). After downloading, add the library as a reference to your project.
 
 2. Creating a New Project: Create a new .NET project using your preferred development environment. You can use Visual Studio or any other compatible IDE.
 
@@ -126,7 +126,7 @@ Comparing slides within presentations is a valuable feature offered by Aspose.Sl
 
 ### How can I obtain Aspose.Slides for .NET?
 
-You can download Aspose.Slides for .NET from the official [Aspose.Slides website](https://releases.aspose.com/slides/net/).
+You can download Aspose.Slides for .NET from the  [Aspose.Slides website](https://releases.aspose.com/slides/net/).
 
 ### Is Aspose.Slides suitable for handling presentations with complex animations?
 

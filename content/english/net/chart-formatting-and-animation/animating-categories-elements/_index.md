@@ -93,7 +93,7 @@ Incorporating animations into your charts using Aspose.Slides for .NET can trans
 
 ### How do I download Aspose.Slides for .NET?
 
-You can download Aspose.Slides for .NET from the official releases page: [here](https://releases.aspose.com/slides/net).
+You can download Aspose.Slides for .NET from the  releases page: [here](https://releases.aspose.com/slides/net).
 
 ### Can I use different animation effects for different chart elements?
 
@@ -109,7 +109,7 @@ Absolutely! Aspose.Slides for .NET supports exporting your animated presentation
 
 ### Where can I access more detailed documentation for Aspose.Slides for .NET?
 
-You can find comprehensive documentation and examples on the official Aspose.Slides for .NET documentation page: [here](https://reference.aspose.com/slides/net).
+You can find comprehensive documentation and examples on the  Aspose.Slides for .NET documentation page: [here](https://reference.aspose.com/slides/net).
 
 ### Can I animate multiple categories at once?
 

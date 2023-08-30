@@ -86,7 +86,7 @@ Gradients can infuse your slides with dynamic visual appeal. Aspose.Slides simpl
 ## FAQs
 
 ### How do I access the Aspose.Slides API documentation?
-You can find the official API documentation at [Aspose.Slides API References](https://reference.aspose.com/slides/net/).
+You can find the  API documentation at [Aspose.Slides API References](https://reference.aspose.com/slides/net/).
 
 ### What are the supported background types in Aspose.Slides?
 Aspose.Slides supports solid color, gradient, and picture backgrounds for slides.
