@@ -77,7 +77,7 @@ Slide slide = presentation.Slides[0];
 // أضف مربع نص
 ITextFrame textFrame = slide.Shapes.AddTextFrame("Your Text Here");
 
-// تطبيق الخط المخصص على النص
+//تطبيق الخط المخصص على النص
 textFrame.Paragraphs[0].Portions[0].PortionFormat.LatinFont = fontDefinition;
 ```
 

@@ -16,7 +16,7 @@ url: /ru/net/presentation-manipulation/import-pdf-content-into-presentations/
 ### Предварительные условия
 Прежде чем начать, убедитесь, что у вас есть следующие предварительные условия:
 - Visual Studio или любая установленная .NET IDE.
-- Aspose.Slides для библиотеки .NET (скачать с сайта[здесь](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides для библиотеки .NET (скачать с сайта[здесь](https://releases.aspose.com/slides/net/))
 
 ### Шаг 1. Создайте новый проект .NET.
 Начните с создания нового проекта .NET в предпочитаемой вами IDE и настройте его по мере необходимости.
@@ -62,7 +62,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## Часто задаваемые вопросы
 
 ### Где я могу скачать библиотеку Aspose.Slides для .NET?
-Вы можете скачать библиотеку Aspose.Slides для .NET со страницы релизов.[здесь](https://releases.aspose.com/slides/net/).
+ Вы можете скачать библиотеку Aspose.Slides для .NET со страницы релизов.[здесь](https://releases.aspose.com/slides/net/).
 
 ### Могу ли я импортировать контент с нескольких страниц PDF-файла?
  Да, вы можете указать несколько номеров страниц в`ProcessPages` массив для импорта содержимого с разных страниц PDF-файла.

@@ -2,7 +2,7 @@
 title: Sunumları Notlarla TIFF Formatına Dönüştürme
 linktitle: Sunumları Notlarla TIFF Formatına Dönüştürme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını konuşmacı notlarıyla birlikte TIFF formatına dönüştürün. Yüksek kaliteli, verimli dönüştürme.
+description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını konuşmacı notlarıyla birlikte TIFF formatına dönüştürün. Yüksek kaliteli, verimli dönüşüm.
 type: docs
 weight: 10
 url: /tr/net/presentation-conversion/converting-presentations-to-tiff-format-with-notes/
@@ -14,7 +14,7 @@ Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı ol
 
 ## Geliştirme Ortamınızı Kurma
 
-Koda dalmadan önce geliştirme ortamımızın doğru şekilde kurulduğundan emin olalım. Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net). İndirdikten sonra yükleyin ve Visual Studio'da yeni bir proje oluşturun.
+ Koda dalmadan önce geliştirme ortamımızın doğru şekilde kurulduğundan emin olalım. Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net). İndirdikten sonra yükleyin ve Visual Studio'da yeni bir proje oluşturun.
 
 ## Sunum Dosyalarını Yükleme ve Erişme
 
@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 TIFF (Etiketli Görüntü Dosyası Formatı), yüksek kaliteli grafikleri destekleyen, yaygın olarak kullanılan bir görüntü formatıdır. Sunumları TIFF formatına dönüştürmek arşivleme veya yazdırma amaçları için faydalı olabilir. Aspose.Slides for .NET'i kullanarak bu dönüşümü sorunsuz bir şekilde gerçekleştirebilirsiniz.
 
 ```csharp
-// Sunumu TIFF'e dönüştürün
+// Sunuyu TIFF'e dönüştürün
 using (Presentation presentation = new Presentation("your-presentation.pptx"))
 {
     TiffOptions options = new TiffOptions(TiffCompression.Default);
@@ -85,7 +85,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     options.DpiX = 300;
     options.DpiY = 300;
     
-    // Renkli ve gri tonlamalı çıktı arasında seçim yapın
+    //Renkli ve gri tonlamalı çıktı arasında seçim yapın
     options.BlackWhite = false; // Gri tonlama için true olarak ayarla
     
     presentation.Save("output-custom-options.tiff", SaveFormat.Tiff, options);
@@ -113,7 +113,7 @@ class Program
             options.DpiX = 300;
             options.DpiY = 300;
 
-            //TIFF olarak dönüştürün ve kaydedin
+            // TIFF olarak dönüştürün ve kaydedin
             presentation.Save("output.tiff", SaveFormat.Tiff, options);
         }
     }

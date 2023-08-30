@@ -107,4 +107,4 @@ Sí, Aspose.Slides brinda soporte para muchas animaciones y transiciones de Powe
 
 ### ¿Hay una versión de prueba disponible?
 
-Sí, puede descargar una versión de prueba gratuita de Aspose.Slides para .NET desde[aquí](https://products.aspose.com/slides/net).
+ Sí, puede descargar una versión de prueba gratuita de Aspose.Slides para .NET desde[aquí](https://products.aspose.com/slides/net).

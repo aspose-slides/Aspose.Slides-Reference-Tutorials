@@ -10,7 +10,7 @@ url: /tr/net/presentation-manipulation/render-notes-while-converting-presentatio
 
 ## giriiş
 
-Sunumlardaki konuşmacı notları, sunum yapan kişilere ek bağlam ve rehberlik sağlamak açısından çok değerlidir. Sunumları HTML'ye dönüştürürken içeriğin anlaşılırlığını sağlamak için bu notları saklamak çok önemlidir. Bu kılavuzda, .NET için güçlü Aspose.Slides kütüphanesini kullanarak sunumları HTML'ye dönüştürme sürecinde konuşmacı notlarının nasıl oluşturulacağını ve korunacağını keşfedeceğiz.
+Sunumlardaki konuşmacı notları, sunum yapan kişilere ek bağlam ve rehberlik sağlamak açısından çok değerlidir. Sunumları HTML'ye dönüştürürken içeriğin anlaşılırlığını sağlamak için bu notları saklamak çok önemlidir. Bu kılavuzda, .NET için güçlü Aspose.Slides kütüphanesini kullanarak sunumları HTML'ye dönüştürme sürecinde konuşmacı notlarının nasıl oluşturulacağını ve korunacağını inceleyeceğiz.
 
 ## Notları Oluşturmak için Adım Adım Kılavuz
 
@@ -18,7 +18,7 @@ Konuşmacı notlarını korurken bir sunumu HTML formatına dönüştürmek, hem
 
 ### Adım 1: Aspose.Slides for .NET'i yükleme
 
- Devam etmeden önce Aspose.Slides for .NET'in kurulu olduğundan emin olun. Değilse, şuradan indirin:[Burada](https://releases.aspose.com/slides/net/) ve belgelerde verilen kurulum talimatlarını izleyin.
+ Devam etmeden önce Aspose.Slides for .NET'in kurulu olduğundan emin olun. Değilse, şuradan indirin:[Burada](https://releases.aspose.com/slides/net/)ve belgelerde verilen kurulum talimatlarını izleyin.
 
 ### Adım 2: Sunumu Yükleme
 
@@ -77,7 +77,7 @@ Aspose.Slides tarafından sağlanan HTML seçeneklerini ayarlayarak konuşmacı 
 
 Kesinlikle. Konuşmacı notlarını HTML'ye dönüştürürken, ortaya çıkan içeriğin, ekran okuyuculara güvenenler de dahil olmak üzere tüm kullanıcılar tarafından erişilebilir olduğundan emin olun. Erişilebilirliğini doğrulamak için HTML çıktısını test edin.
 
-### Konuşmacı notlarının HTML düzeni içindeki konumunu ayarlayabilir miyim?
+### Konuşmacı notlarının HTML düzenindeki konumunu ayarlayabilir miyim?
 
 Evet, konuşmacı notlarının HTML düzeni içindeki konumunu belirtebilirsiniz. Aspose.Slides, notları her slaydın üstüne, altına veya başka konumlara yerleştirme seçenekleri sunar.
 

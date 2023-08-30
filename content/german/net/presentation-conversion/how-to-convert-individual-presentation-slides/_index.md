@@ -42,7 +42,7 @@ using var presentation = new Presentation("path_to_your_presentation.pptx");
 Als nächstes greifen wir auf einzelne Folien innerhalb der Präsentation zu:
 
 ```csharp
-// Greifen Sie über den Index auf eine bestimmte Folie zu (0-basiert)
+//Greifen Sie über den Index auf eine bestimmte Folie zu (0-basiert)
 var targetSlide = presentation.Slides[slideIndex];
 ```
 

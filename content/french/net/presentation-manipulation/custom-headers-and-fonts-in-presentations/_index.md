@@ -77,7 +77,7 @@ Slide slide = presentation.Slides[0];
 // Ajouter une zone de texte
 ITextFrame textFrame = slide.Shapes.AddTextFrame("Your Text Here");
 
-// Appliquer la police personnalisée au texte
+//Appliquer la police personnalisée au texte
 textFrame.Paragraphs[0].Portions[0].PortionFormat.LatinFont = fontDefinition;
 ```
 

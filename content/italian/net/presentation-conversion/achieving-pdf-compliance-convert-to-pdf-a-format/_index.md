@@ -1,6 +1,6 @@
 ---
-title: Raggiungere la conformità PDF converti in formato PDF/A
-linktitle: Raggiungere la conformità PDF converti in formato PDF/A
+title:Raggiungere la conformità PDF: converti in formato PDF/A
+linktitle:Raggiungere la conformità PDF: converti in formato PDF/A
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come ottenere la conformità PDF convertendo in formato PDF/A utilizzando Aspose.Slides per .NET. Garantire la longevità e l'accessibilità dei documenti.
 type: docs
@@ -129,7 +129,7 @@ Il formato preserva l'aspetto visivo del documento, inclusi caratteri, layout e 
 
 ## Conformità agli standard di archiviazione
 
-La conformità PDF/A si allinea agli standard di archiviazione, rendendolo adatto all'archiviazione di documenti legali e ufficiali.
+La conformità PDF/A si allinea agli standard di archiviazione, rendendolo adatto all'archiviazione legale e di documenti.
 
 ## Potenziali sfide e come affrontarle
 

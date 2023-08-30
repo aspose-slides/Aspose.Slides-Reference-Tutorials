@@ -105,7 +105,7 @@ using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
         newPresentation.Slides.AddClone(slide);
     }
 
-    // Salva la presentazione convertita
+    //Salva la presentazione convertita
     newPresentation.Save("converted_presentation.pptx", SaveFormat.Pptx);
 }
 ```
@@ -120,7 +120,7 @@ Se il tuo PPT contiene contenuti multimediali o oggetti incorporati, Aspose.Slid
 
 ## Conclusione
 
-La conversione delle presentazioni dal formato PPT al formato PPTX è essenziale per stare al passo con i moderni standard e compatibilità dei file. Con Aspose.Slides per .NET, questa attività diventa semplice e può essere eseguita a livello di codice. Seguendo i passaggi descritti in questa guida, puoi convertire senza problemi i file PPT nel formato PPTX più efficiente e versatile.
+La conversione delle presentazioni dal formato PPT al formato PPTX è essenziale per stare al passo con i moderni standard e compatibilità dei file. Con Aspose.Slides per .NET, questa attività diventa semplice e può essere eseguita a livello di programmazione. Seguendo i passaggi descritti in questa guida, puoi convertire senza problemi i file PPT nel formato PPTX più efficiente e versatile.
 
 ## Domande frequenti
 

@@ -86,6 +86,6 @@ targetPresentation.Save(targetFilePath, SaveFormat.Pptx);
 
 是的，Aspose.Slides 提供了一套用于处理演示文稿的全面功能，包括幻灯片创建、操作、动画等。
 
-### 有 Aspose.Slides 的官方文档吗？
+### 有 Aspose.Slides 的文档吗？
 
-是的，您可以参考官方文档了解详细信息和示例：[这里](https://reference.aspose.com/slides/net)
+是的，您可以参考文档了解详细信息和示例：[这里](https://reference.aspose.com/slides/net)

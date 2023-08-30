@@ -47,7 +47,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 Als nächstes müssen wir die Mediendateien (Bilder, Videos, Audio) aus der Präsentation extrahieren. Aspose.Slides bietet eine unkomplizierte Möglichkeit, dies zu erreichen. Hier ist ein Beispiel:
 
 ```csharp
-// Gehen Sie jede Folie in der Präsentation durch
+//Gehen Sie jede Folie in der Präsentation durch
 foreach (ISlide slide in presentation.Slides)
 {
     // Durchlaufen Sie jede Form auf der Folie

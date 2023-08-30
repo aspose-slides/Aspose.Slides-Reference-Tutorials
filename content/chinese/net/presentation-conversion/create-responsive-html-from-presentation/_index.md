@@ -22,7 +22,7 @@ Aspose.Slides 以其全面的功能、卓越的性能和跨平台支持而脱颖
 
 ## 安装所需的工具
 
-1. 安装 Visual Studio：如果尚未安装，请下载并安装 Visual Studio，这是一种用于 .NET 开发的流行集成开发环境 (IDE)。
+1. 安装 Visual Studio：如果尚未安装，请下载并安装 Visual Studio，它是一种流行的用于 .NET 开发的集成开发环境 (IDE)。
 
 2. 安装 Aspose.Slides for .NET：您可以从 Aspose.Releases 或使用 Visual Studio 中的 NuGet 包管理器获取 Aspose.Slides for .NET。
 

@@ -40,7 +40,7 @@ using var presentation = new Presentation("your-presentation.pptx");
 Aspose.Slides für .NET bietet eine einfache Möglichkeit, die Notizen-Folienansicht in das PDF-Format zu konvertieren. Der folgende Codeausschnitt demonstriert diesen Vorgang:
 
 ```csharp
-// Konvertieren Sie die Notizen-Folienansicht in PDF
+//Konvertieren Sie die Notizen-Folienansicht in PDF
 using var outputStream = new FileStream("output.pdf", FileMode.Create);
 presentation.Save(outputStream, SaveFormat.PdfNotes);
 ```
@@ -74,7 +74,7 @@ namespace PresentationConverter
             // Laden Sie die Präsentation
             using var presentation = new Presentation("your-presentation.pptx");
 
-            // Konvertieren Sie die Notizen-Folienansicht in PDF
+            //Konvertieren Sie die Notizen-Folienansicht in PDF
             using var outputStream = new FileStream("output.pdf", FileMode.Create);
             presentation.Save(outputStream, SaveFormat.PdfNotes);
         }

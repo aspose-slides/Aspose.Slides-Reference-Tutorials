@@ -47,7 +47,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 بعد ذلك، نحتاج إلى استخراج ملفات الوسائط (الصور ومقاطع الفيديو والصوت) من العرض التقديمي. يوفر Aspose.Slides طريقة مباشرة لتحقيق ذلك. هنا مثال:
 
 ```csharp
-// كرر خلال كل شريحة في العرض التقديمي
+//كرر خلال كل شريحة في العرض التقديمي
 foreach (ISlide slide in presentation.Slides)
 {
     // كرر من خلال كل شكل على الشريحة

@@ -49,7 +49,7 @@ presentation.Save("output.html", SaveFormat.Html, options);
 
 ## CSS'yi HTML'ye gömmek
 
-Dışa aktarılan HTML sunumunun amaçlandığı gibi görünmesini sağlamak için, daha önce tanımladığınız CSS stillerini HTML dosyasına yerleştirmeniz gerekir. Bu, bir`<link>` HTML'deki etiket`<head>` bölüm.
+ Dışa aktarılan HTML sunumunun amaçlandığı gibi görünmesini sağlamak için, daha önce tanımladığınız CSS stillerini HTML dosyasına yerleştirmeniz gerekir. Bu, bir`<link>` HTML'deki etiket`<head>` bölüm.
 
 ## HTML Çıktısını Sonlandırma
 
@@ -89,7 +89,7 @@ Evet, Aspose.Slides for .NET platformlar arası geliştirme için kullanılabili
 
 ### Aspose.Slides'ı kullanarak animasyonlu karmaşık sunumları HTML'ye dönüştürebilir miyim?
 
-Aspose.Slides for .NET, animasyonlu sunumları HTML'ye dönüştürme desteği sağlayarak, animasyonların çıktıda korunmasını sağlar.
+Aspose.Slides for .NET, animasyonlu sunumları HTML'ye dönüştürme desteği sağlayarak animasyonların çıktıda korunmasını sağlar.
 
 ### Aspose.Slides for .NET için teknik destek mevcut mu?
 

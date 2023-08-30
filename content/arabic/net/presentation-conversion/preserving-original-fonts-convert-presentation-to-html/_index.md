@@ -55,7 +55,7 @@ var options = new HtmlOptions
     HtmlFormatterEmbedFonts = HtmlFormatterEmbedFontEnum.EmbedAll
 };
 
-//تحويل العرض التقديمي إلى HTML
+// تحويل العرض التقديمي إلى HTML
 presentation.Save("output.html", SaveFormat.Html, options);
 ```
 

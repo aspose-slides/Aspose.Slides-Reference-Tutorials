@@ -81,7 +81,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
 ### PDF çıktısı için slayt boyutlarını özelleştirebilir miyim?
 
- Kesinlikle! Slayt boyutlarını kullanarak özelleştirebilirsiniz.`SlideSize` sunumun özelliği.
+Kesinlikle! Slayt boyutlarını kullanarak özelleştirebilirsiniz.`SlideSize` sunumun özelliği.
 
 ### Aspose.Slides for .NET yazı tipi yerleştirmeyi destekliyor mu?
 
@@ -93,4 +93,4 @@ Evet, Aspose.Slides for .NET, dönüştürme işlemi sırasında köprüleri ve 
 
 ### Daha fazla belge ve örneği nerede bulabilirim?
 
-Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).
+ Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).

@@ -18,7 +18,7 @@ Découvrez comment créer des présentations par programmation à l'aide d'Aspos
 ### [En-têtes et polices personnalisés dans les présentations](./custom-headers-and-fonts-in-presentations/)
 Découvrez comment personnaliser les en-têtes et les polices dans les présentations à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec des exemples de code. Améliorez l’attrait visuel et l’image de marque sans effort.
 ### [Options de conversion PDF personnalisées pour les présentations](./custom-pdf-conversion-options-for-presentations/)
-Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd'hui.
+Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd’hui.
 ### [Formatage des formes SVG dans les présentations](./formatting-svg-shapes-in-presentations/)
 Découvrez comment formater des formes SVG dans des présentations à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec le code source. Améliorez le design de votre présentation dès aujourd'hui !
 ### [Exporter des paragraphes mathématiques vers MathML dans des présentations](./export-math-paragraphs-to-mathml-in-presentations/)

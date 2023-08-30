@@ -117,7 +117,7 @@ Kesinlikle! Aspose.Slides for .NET, masaüstü ve web uygulamaları da dahil olm
 
 ### Aspose.Slides for .NET hakkında nasıl daha fazla bilgi edinebilirim?
 
-Kapsamlı olanı keşfedebilirsiniz[dokümantasyon](https://reference.aspose.com/slides/net/) Aspose web sitesinde mevcuttur. Kitaplıktan en iyi şekilde yararlanmanıza yardımcı olacak ayrıntılı kılavuzlar, kod örnekleri ve API referansları içerir.
+ Kapsamlı olanı keşfedebilirsiniz[dokümantasyon](https://reference.aspose.com/slides/net/) Aspose web sitesinde mevcuttur. Kitaplıktan en iyi şekilde yararlanmanıza yardımcı olacak ayrıntılı kılavuzlar, kod örnekleri ve API referansları içerir.
 
 ### Aspose.Slides kütüphanesini nereden indirebilirim?
 

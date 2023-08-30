@@ -18,7 +18,7 @@ Convertir una presentación a formato HTML manteniendo las notas del orador requ
 
 ### Paso 1: Instalar Aspose.Slides para .NET
 
- Antes de continuar, asegúrese de tener instalado Aspose.Slides para .NET. Si no, descárgalo de[aquí](https://releases.aspose.com/slides/net/) y siga las instrucciones de instalación proporcionadas en la documentación.
+ Antes de continuar, asegúrese de tener instalado Aspose.Slides para .NET. Si no, descárgalo de[aquí](https://releases.aspose.com/slides/net/) siga las instrucciones de instalación proporcionadas en la documentación.
 
 ### Paso 2: cargar la presentación
 

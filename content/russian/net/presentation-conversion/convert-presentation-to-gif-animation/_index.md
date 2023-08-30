@@ -39,7 +39,7 @@ using Presentation presentation = new Presentation("your-presentation.pptx");
 // Создайте экземпляр класса параметров GIF.
 GifOptions gifOptions = new GifOptions();
 
-//Определите размеры слайда и интервал кадров
+// Определите размеры слайда и интервал кадров
 gifOptions.SlideTransitions = true;
 gifOptions.Width = 800;
 gifOptions.Height = 600;
@@ -87,7 +87,7 @@ foreach (ISlide slide in presentation.Slides)
 
 ## Дополнительные возможности
 
-Aspose.Slides для .NET предлагает множество дополнительных функций, включая добавление звука, управление элементами слайдов и работу с фигурами PowerPoint. Исследовать[документация](https://reference.aspose.com/slides/net) чтобы раскрыть весь потенциал этой библиотеки.
+ Aspose.Slides для .NET предлагает множество дополнительных функций, включая добавление звука, управление элементами слайдов и работу с фигурами PowerPoint. Исследовать[документация](https://reference.aspose.com/slides/net) чтобы раскрыть весь потенциал этой библиотеки.
 
 ## Заключение
 

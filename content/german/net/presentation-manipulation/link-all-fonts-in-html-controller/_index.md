@@ -16,7 +16,7 @@ Bei der Erstellung von Präsentationen mit dynamischen Inhalten ist die Wahrung 
 ### Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 - Visual Studio oder eine beliebige .NET-IDE installiert
-- Aspose.Slides für .NET-Bibliothek (Download von[Hier](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides für .NET-Bibliothek (Download von[Hier](https://releases.aspose.com/slides/net/))
 
 ### Schritt 1: Erstellen Sie ein neues .NET-Projekt
 Erstellen Sie zunächst ein neues .NET-Projekt in Ihrer bevorzugten IDE und richten Sie das Projekt mit den erforderlichen Konfigurationen ein.
@@ -73,7 +73,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## FAQs
 
 ### Wo kann ich die Aspose.Slides für .NET-Bibliothek herunterladen?
-Sie können die Aspose.Slides für .NET-Bibliothek von der Release-Seite herunterladen[Hier](https://releases.aspose.com/slides/net/).
+ Sie können die Aspose.Slides für .NET-Bibliothek von der Release-Seite herunterladen[Hier](https://releases.aspose.com/slides/net/).
 
 ### Kann ich mit Aspose.Slides für .NET alle Arten von Schriftarten verknüpfen?
 Ja, Sie können TrueType-Schriftarten, OpenType-Schriftarten und andere unterstützte Schriftarten mit Aspose.Slides für .NET verknüpfen.

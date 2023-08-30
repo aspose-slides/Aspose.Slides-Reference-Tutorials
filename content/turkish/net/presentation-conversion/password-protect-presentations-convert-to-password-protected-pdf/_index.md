@@ -95,11 +95,11 @@ Bu makalede, sunumlarınızı şifreyle koruyarak ve Aspose.Slides for .NET kull
 
 ### Parola korumalı PDF'lere filigran ekleyebilir miyim?
 
-Evet, Aspose.Slides for .NET'i kullanarak şifre korumalı PDF'lere filigran ekleyebilirsiniz. Makaledeki örnek kod bunun nasıl yapılacağını gösterir.
+Evet, Aspose.Slides for .NET'i kullanarak parola korumalı PDF'lere filigran ekleyebilirsiniz. Makaledeki örnek kod bunun nasıl yapılacağını gösterir.
 
 ### Dönüştürme sürecini otomatikleştirmek mümkün mü?
 
-Kesinlikle! Aspose.Slides for .NET'i kullanarak sunumları parola korumalı PDF'lere dönüştürme sürecini otomatikleştirmek için bir işlev veya komut dosyası oluşturabilirsiniz.
+Kesinlikle! Aspose.Slides for .NET'i kullanarak sunumları şifre korumalı PDF'lere dönüştürme sürecini otomatikleştirmek için bir işlev veya komut dosyası oluşturabilirsiniz.
 
 ### Parola korumalı PDF'ler güvenli midir?
 

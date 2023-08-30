@@ -129,7 +129,7 @@ Biçim, yazı tipleri, düzenler ve grafikler de dahil olmak üzere belgenin gö
 
 ## Arşivleme Standartlarına Uygunluk
 
-PDF/A uyumluluğu arşiv standartlarıyla uyumlu olduğundan yasal ve resmi belge arşivlemeye uygundur.
+PDF/A uyumluluğu arşiv standartlarıyla uyumlu olduğundan yasal arşivleme ve belge arşivleme için uygundur.
 
 ## Potansiyel Zorluklar ve Bunlarla Nasıl Başa Çıkılacağı
 

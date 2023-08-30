@@ -42,7 +42,7 @@ using var presentation = new Presentation("path_to_your_presentation.pptx");
 Ensuite, accédons aux diapositives individuelles de la présentation :
 
 ```csharp
-// Accéder à une diapositive spécifique par index (basé sur 0)
+//Accéder à une diapositive spécifique par index (basé sur 0)
 var targetSlide = presentation.Slides[slideIndex];
 ```
 

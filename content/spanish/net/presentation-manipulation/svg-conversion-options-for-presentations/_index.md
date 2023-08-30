@@ -18,7 +18,7 @@ La conversión de presentaciones al formato SVG implica varios pasos para garant
 
 ### Paso 1: Instalar Aspose.Slides para .NET
 
- Antes de comenzar, asegúrese de tener instalado Aspose.Slides para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/)Una vez descargado, siga las instrucciones de instalación proporcionadas en la documentación.
+ Antes de comenzar, asegúrese de tener instalado Aspose.Slides para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/). Una vez descargado, siga las instrucciones de instalación proporcionadas en la documentación.
 
 ### Paso 2: cargar la presentación
 
@@ -55,7 +55,7 @@ El proceso de conversión SVG ofrece varias opciones de personalización para ga
 
 - **Slide Size**: Ajuste las dimensiones del SVG de salida para que coincida con sus requisitos, ya sean tamaños estándar o personalizados.
 
-- **Content Scaling**controla cómo se escala el contenido para que se ajuste al lienzo SVG. Puede optar por ajustar el contenido dentro del lienzo o desbordarlo si es necesario.
+- **Content Scaling**: controla cómo se escala el contenido para que se ajuste al lienzo SVG. Puede optar por ajustar el contenido dentro del lienzo o desbordarlo si es necesario.
 
 - **Text Handling**: Aspose.Slides le permite elegir entre conservar el texto como texto o convertirlo en rutas en SVG. Esto es particularmente útil para mantener la coherencia de las fuentes.
 
@@ -85,7 +85,7 @@ Sí, puedes controlar el color de fondo y la configuración de transparencia de 
 
 ### ¿Dónde puedo encontrar más información sobre las opciones de conversión SVG?
 
- Para obtener información más detallada sobre las opciones de conversión SVG y otras características de Aspose.Slides para .NET, puede consultar el[Aspose.Slides para referencia de API .NET](https://reference.aspose.com/slides/net/).
+Para obtener información más detallada sobre las opciones de conversión SVG y otras características de Aspose.Slides para .NET, puede consultar el[Aspose.Slides para referencia de API .NET](https://reference.aspose.com/slides/net/).
 
 ## Conclusión
 

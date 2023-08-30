@@ -58,7 +58,7 @@ namespace PresentationToHTML5Converter
 }
 ```
 
- يستبدل`"input.pptx"` مع المسار إلى عرض الإدخال الخاص بك و`"output.html"` مع مسار ملف HTML الناتج المطلوب.
+ يستبدل`"input.pptx"`مع المسار إلى عرض الإدخال الخاص بك و`"output.html"` مع مسار ملف HTML الناتج المطلوب.
 
 ## قم بتشغيل التطبيق
 

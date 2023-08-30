@@ -1,6 +1,6 @@
 ---
-title: Lograr la compatibilidad con PDF convertir a formato PDF/A
-linktitle: Lograr la compatibilidad con PDF convertir a formato PDF/A
+title:Lograr la compatibilidad con PDF: convertir a formato PDF/A
+linktitle:Lograr la compatibilidad con PDF: convertir a formato PDF/A
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo lograr la compatibilidad con PDF mediante la conversión al formato PDF/A utilizando Aspose.Slides para .NET. Garantizar la longevidad y accesibilidad de los documentos.
 type: docs
@@ -129,7 +129,7 @@ El formato conserva la apariencia visual del documento, incluidas las fuentes, l
 
 ## Cumplimiento de los estándares de archivo
 
-La compatibilidad con PDF/A se alinea con los estándares de archivo, lo que lo hace adecuado para el archivo de documentos legales y oficiales.
+La compatibilidad con PDF/A se alinea con los estándares de archivo, lo que lo hace adecuado para el archivo legal y de documentos.
 
 ## Desafíos potenciales y cómo abordarlos
 

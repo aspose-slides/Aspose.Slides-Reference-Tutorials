@@ -53,7 +53,7 @@ Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
    // Slayt oluştur
    ISlide slide = slides.AddEmptySlide();
 
-   //Slayta HTML içeriği ekleme
+   // Slayta HTML içeriği ekleme
    IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
    textShape.TextFrame.Text = htmlContent;
    ```
@@ -114,7 +114,7 @@ Evet, Aspose.Slides kütüphanesinin sağladığı çeşitli özellik ve yöntem
 
 ### Aspose.Slides for .NET'in tam belgelerini nerede bulabilirim?
 
- Aspose.Slides for .NET'in tüm belgelerini ve API referansını bulabilirsiniz[Burada](https://reference.aspose.com/slides/net).
+Aspose.Slides for .NET'in tüm belgelerini ve API referansını bulabilirsiniz[Burada](https://reference.aspose.com/slides/net).
 
 ### Aspose.Slides for .NET'in en son sürümünü nereden indirebilirim?
 

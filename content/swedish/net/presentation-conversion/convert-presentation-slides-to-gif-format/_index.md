@@ -113,7 +113,7 @@ class Program
 
 ## Slutsats
 
-I den här artikeln undersökte vi hur man konverterar presentationsbilder till GIF-format med Aspose.Slides för .NET. Vi täckte installationen av biblioteket, laddade en presentation, anpassade GIF-alternativ och hanterade undantag. Genom att följa den steg-för-steg-guide och använda de medföljande kodavsnitten kan du enkelt integrera den här funktionen i dina applikationer och förbättra det visuella tilltalande av dina presentationer.
+den här artikeln undersökte vi hur man konverterar presentationsbilder till GIF-format med Aspose.Slides för .NET. Vi täckte installationen av biblioteket, laddade en presentation, anpassade GIF-alternativ och hanterade undantag. Genom att följa den steg-för-steg-guide och använda de medföljande kodavsnitten kan du enkelt integrera den här funktionen i dina applikationer och förbättra det visuella tilltalande av dina presentationer.
 
 ## FAQ's
 

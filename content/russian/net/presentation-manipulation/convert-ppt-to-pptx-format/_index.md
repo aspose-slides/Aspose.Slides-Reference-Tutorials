@@ -105,7 +105,7 @@ using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
         newPresentation.Slides.AddClone(slide);
     }
 
-    // Сохраните преобразованную презентацию
+    //Сохраните преобразованную презентацию
     newPresentation.Save("converted_presentation.pptx", SaveFormat.Pptx);
 }
 ```

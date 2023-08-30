@@ -44,10 +44,10 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Extraer archivos multimedia
 
-continuación, debemos extraer los archivos multimedia (imágenes, vídeos, audio) de la presentación. Aspose.Slides proporciona una forma sencilla de lograrlo. He aquí un ejemplo:
+A continuación, debemos extraer los archivos multimedia (imágenes, vídeos, audio) de la presentación. Aspose.Slides proporciona una forma sencilla de lograrlo. He aquí un ejemplo:
 
 ```csharp
-// Iterar a través de cada diapositiva de la presentación.
+//Iterar a través de cada diapositiva de la presentación.
 foreach (ISlide slide in presentation.Slides)
 {
     // Iterar a través de cada forma en la diapositiva

@@ -53,7 +53,7 @@ Prima di iniziare, assicurati di avere a disposizione quanto segue:
    // Crea una diapositiva
    ISlide slide = slides.AddEmptySlide();
 
-   //Aggiungi contenuto HTML alla diapositiva
+   // Aggiungi contenuto HTML alla diapositiva
    IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
    textShape.TextFrame.Text = htmlContent;
    ```
@@ -114,7 +114,7 @@ Sì, puoi personalizzare l'aspetto delle diapositive convertite utilizzando vari
 
 ### Dove posso trovare la documentazione completa per Aspose.Slides per .NET?
 
- È possibile trovare la documentazione completa e il riferimento API per Aspose.Slides per .NET[Qui](https://reference.aspose.com/slides/net).
+È possibile trovare la documentazione completa e il riferimento API per Aspose.Slides per .NET[Qui](https://reference.aspose.com/slides/net).
 
 ### Dove posso scaricare l'ultima versione di Aspose.Slides per .NET?
 

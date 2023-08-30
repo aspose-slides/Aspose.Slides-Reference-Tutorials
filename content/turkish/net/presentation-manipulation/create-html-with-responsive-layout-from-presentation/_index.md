@@ -98,7 +98,7 @@ File.WriteAllText("output.html", document.OuterHtml);
 
 ## Çözüm
 
-Sunumları duyarlı HTML'ye dönüştürmek artık göz korkutucu bir iş değil. Aspose.Slides for .NET ile görsel çekiciliğini ve etkileşimini korurken dinamik sunumlarınızı sorunsuz bir şekilde web dostu formatlara dönüştürebilirsiniz.
+Sunumları duyarlı HTML'ye dönüştürmek artık göz korkutucu bir iş değil. Aspose.Slides for .NET ile dinamik sunumlarınızı görsel çekiciliğini ve etkileşimini korurken sorunsuz bir şekilde web dostu formatlara dönüştürebilirsiniz.
 
 ## SSS
 

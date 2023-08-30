@@ -40,7 +40,7 @@ using var presentation = new Presentation("your-presentation.pptx");
 Aspose.Slides per .NET fornisce un modo semplice per convertire la visualizzazione diapositive di Notes in formato PDF. Il seguente frammento di codice illustra questo processo:
 
 ```csharp
-// Converti la vista diapositiva delle note in PDF
+//Converti la vista diapositiva delle note in PDF
 using var outputStream = new FileStream("output.pdf", FileMode.Create);
 presentation.Save(outputStream, SaveFormat.PdfNotes);
 ```
@@ -74,7 +74,7 @@ namespace PresentationConverter
             // Carica la presentazione
             using var presentation = new Presentation("your-presentation.pptx");
 
-            // Converti la vista diapositiva delle note in PDF
+            //Converti la vista diapositiva delle note in PDF
             using var outputStream = new FileStream("output.pdf", FileMode.Create);
             presentation.Save(outputStream, SaveFormat.PdfNotes);
         }

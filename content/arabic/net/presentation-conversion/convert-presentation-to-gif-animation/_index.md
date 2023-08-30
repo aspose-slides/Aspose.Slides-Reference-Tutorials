@@ -39,7 +39,7 @@ using Presentation presentation = new Presentation("your-presentation.pptx");
 // قم بإنشاء مثيل لفئة خيارات GIF
 GifOptions gifOptions = new GifOptions();
 
-//تحديد أبعاد الشريحة والفاصل الزمني للإطار
+// تحديد أبعاد الشريحة والفاصل الزمني للإطار
 gifOptions.SlideTransitions = true;
 gifOptions.Width = 800;
 gifOptions.Height = 600;
@@ -87,7 +87,7 @@ foreach (ISlide slide in presentation.Slides)
 
 ## ميزات إضافية
 
-يوفر Aspose.Slides for .NET عددًا كبيرًا من الميزات الإضافية، بما في ذلك إضافة الصوت وإدارة عناصر الشرائح والعمل مع أشكال PowerPoint. اكتشف ال[توثيق](https://reference.aspose.com/slides/net) لفتح الإمكانات الكاملة لهذه المكتبة.
+ يوفر Aspose.Slides for .NET عددًا كبيرًا من الميزات الإضافية، بما في ذلك إضافة الصوت وإدارة عناصر الشرائح والعمل مع أشكال PowerPoint. اكتشف ال[توثيق](https://reference.aspose.com/slides/net) لفتح الإمكانات الكاملة لهذه المكتبة.
 
 ## خاتمة
 

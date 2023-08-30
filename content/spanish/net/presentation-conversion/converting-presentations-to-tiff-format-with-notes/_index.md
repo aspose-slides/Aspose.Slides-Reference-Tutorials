@@ -14,7 +14,7 @@ Aspose.Slides para .NET es una poderosa biblioteca que permite a los desarrollad
 
 ## Configurar su entorno de desarrollo
 
-Antes de profundizar en el código, asegurémonos de que nuestro entorno de desarrollo esté configurado correctamente. Puede descargar la biblioteca Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net). Una vez descargado, instálelo y cree un nuevo proyecto en Visual Studio.
+ Antes de profundizar en el código, asegurémonos de que nuestro entorno de desarrollo esté configurado correctamente. Puede descargar la biblioteca Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net). Una vez descargado, instálelo y cree un nuevo proyecto en Visual Studio.
 
 ## Cargar y acceder a archivos de presentación
 
@@ -85,7 +85,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     options.DpiX = 300;
     options.DpiY = 300;
     
-    // Elija entre salida en color y en escala de grises
+    //Elija entre salida en color y en escala de grises
     options.BlackWhite = false; // Establecer en verdadero para escala de grises
     
     presentation.Save("output-custom-options.tiff", SaveFormat.Tiff, options);
@@ -113,7 +113,7 @@ class Program
             options.DpiX = 300;
             options.DpiY = 300;
 
-            //Convertir y guardar como TIFF
+            // Convertir y guardar como TIFF
             presentation.Save("output.tiff", SaveFormat.Tiff, options);
         }
     }

@@ -16,12 +16,12 @@ Dans le monde des présentations, la personnalisation et la personnalisation jou
 ### Conditions préalables
 Avant de plonger dans le processus de publipostage, assurez-vous que les conditions préalables suivantes sont en place :
 - Visual Studio ou tout autre IDE .NET installé
-- Bibliothèque Aspose.Slides pour .NET (téléchargement depuis[ici](https://releases.aspose.com/slides/net/))
+-  Bibliothèque Aspose.Slides pour .NET (téléchargement depuis[ici](https://releases.aspose.com/slides/net/))
 
 ### Étape 1 : Créer un nouveau projet .NET
 Commencez par créer un nouveau projet .NET dans votre IDE préféré. Configurez le projet avec les configurations nécessaires.
 
-### Étape 2 : Ajouter une référence à Aspose.Slides
+### Étape 2 : ajouter une référence à Aspose.Slides
 Dans votre projet, ajoutez une référence à la bibliothèque Aspose.Slides que vous avez téléchargée précédemment. Cela vous permettra d'utiliser ses fonctionnalités pour le publipostage.
 
 ### Étape 3 : Charger la présentation
@@ -62,7 +62,7 @@ presentation.Save("merged-presentation.pptx", SaveFormat.Pptx);
 ## FAQ
 
 ### Comment puis-je télécharger la bibliothèque Aspose.Slides pour .NET ?
-Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de la page des versions[ici](https://releases.aspose.com/slides/net/).
+ Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de la page des versions[ici](https://releases.aspose.com/slides/net/).
 
 ### Aspose.Slides convient-il à la fois aux développeurs et aux présentateurs ?
 Oui, Aspose.Slides pour .NET s'adresse à la fois aux développeurs et aux présentateurs. Les développeurs peuvent utiliser sa puissante API pour automatiser des tâches telles que le publipostage, tandis que les présentateurs peuvent bénéficier de présentations personnalisées.

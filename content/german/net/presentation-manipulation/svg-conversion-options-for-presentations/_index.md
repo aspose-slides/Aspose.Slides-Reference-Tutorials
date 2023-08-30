@@ -18,7 +18,7 @@ Das Konvertieren von Präsentationen in das SVG-Format erfordert mehrere Schritt
 
 ### Schritt 1: Aspose.Slides für .NET installieren
 
- Bevor wir beginnen, stellen Sie sicher, dass Aspose.Slides für .NET installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/)Befolgen Sie nach dem Herunterladen die Installationsanweisungen in der Dokumentation.
+ Bevor wir beginnen, stellen Sie sicher, dass Aspose.Slides für .NET installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/). Befolgen Sie nach dem Herunterladen die Installationsanweisungen in der Dokumentation.
 
 ### Schritt 2: Laden der Präsentation
 
@@ -55,7 +55,7 @@ Der SVG-Konvertierungsprozess bietet mehrere Anpassungsoptionen, um die beste Au
 
 - **Slide Size**: Passen Sie die Abmessungen der Ausgabe-SVG an Ihre Anforderungen an, unabhängig davon, ob es sich um Standard- oder benutzerdefinierte Größen handelt.
 
-- **Content Scaling**Steuern Sie, wie der Inhalt skaliert wird, um ihn an die SVG-Leinwand anzupassen. Bei Bedarf können Sie wählen, ob Inhalte in die Leinwand eingepasst oder überlaufen werden sollen.
+- **Content Scaling**: Steuern Sie, wie der Inhalt skaliert wird, um ihn an die SVG-Leinwand anzupassen. Bei Bedarf können Sie wählen, ob Inhalte in die Leinwand eingepasst oder überlaufen werden sollen.
 
 - **Text Handling**: Mit Aspose.Slides können Sie wählen, ob Sie Text als Text beibehalten oder ihn in Pfade im SVG konvertieren möchten. Dies ist besonders nützlich, um die Schriftartkonsistenz aufrechtzuerhalten.
 
@@ -85,7 +85,7 @@ Ja, Sie können die Einstellungen für Hintergrundfarbe und Transparenz der SVG-
 
 ### Wo finde ich weitere Informationen zu SVG-Konvertierungsoptionen?
 
- Ausführlichere Informationen zu SVG-Konvertierungsoptionen und anderen Funktionen von Aspose.Slides für .NET finden Sie im[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/).
+Ausführlichere Informationen zu SVG-Konvertierungsoptionen und anderen Funktionen von Aspose.Slides für .NET finden Sie im[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/).
 
 ## Abschluss
 

@@ -53,7 +53,7 @@ url: /ar/net/presentation-conversion/convert-html-presentation-with-embedded-ima
    // قم بإنشاء شريحة
    ISlide slide = slides.AddEmptySlide();
 
-   //أضف محتوى HTML إلى الشريحة
+   // أضف محتوى HTML إلى الشريحة
    IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
    textShape.TextFrame.Text = htmlContent;
    ```
@@ -114,7 +114,7 @@ namespace HTMLToPPTConversion
 
 ### أين يمكنني العثور على الوثائق الكاملة لـ Aspose.Slides لـ .NET؟
 
- يمكنك العثور على الوثائق الكاملة ومرجع واجهة برمجة التطبيقات لـ Aspose.Slides for .NET[هنا](https://reference.aspose.com/slides/net).
+يمكنك العثور على الوثائق الكاملة ومرجع واجهة برمجة التطبيقات لـ Aspose.Slides for .NET[هنا](https://reference.aspose.com/slides/net).
 
 ### أين يمكنني تنزيل أحدث إصدار من Aspose.Slides لـ .NET؟
 

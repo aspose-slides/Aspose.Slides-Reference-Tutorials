@@ -16,8 +16,8 @@ url: /zh/net/presentation-conversion/convert-presentation-to-gif-animation/
 
 在我们深入编码之前，请确保您已准备好以下内容：
 
-- 安装了.NET框架的Visual Studio
--  Aspose.Slides for .NET 库（从[这里](https://releases.aspose.com/slides/net)
+- 安装了 .NET 框架的 Visual Studio
+- Aspose.Slides for .NET 库（从[这里](https://releases.aspose.com/slides/net)
 
 ## 设置项目
 

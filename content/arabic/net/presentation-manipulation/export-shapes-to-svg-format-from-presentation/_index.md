@@ -76,7 +76,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx); // حفظ التغييرات 
 
 ### كيف أقوم بتحميل عرض PowerPoint التقديمي باستخدام Aspose.Slides؟
 
- يمكنك تحميل العرض التقديمي باستخدام`Presentation` منشئ الطبقة. قم بتوفير المسار إلى ملف PowerPoint كمعلمة.
+ يمكنك تحميل العرض التقديمي باستخدام`Presentation`منشئ الطبقة. قم بتوفير المسار إلى ملف PowerPoint كمعلمة.
 
 ### كيف يمكنني تصدير شكل إلى تنسيق SVG؟
 

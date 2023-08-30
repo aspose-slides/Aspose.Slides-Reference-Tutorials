@@ -49,7 +49,7 @@ presentation.Save("output.html", SaveFormat.Html, options);
 
 ## Intégrer du CSS dans le HTML
 
-Pour garantir que la présentation HTML exportée se présente comme prévu, vous devez intégrer les styles CSS que vous avez définis précédemment dans le fichier HTML. Ceci peut être réalisé en incluant un`<link>` balise dans le HTML`<head>` section.
+ Pour garantir que la présentation HTML exportée se présente comme prévu, vous devez intégrer les styles CSS que vous avez définis précédemment dans le fichier HTML. Ceci peut être réalisé en incluant un`<link>` balise dans le HTML`<head>` section.
 
 ## Finalisation de la sortie HTML
 

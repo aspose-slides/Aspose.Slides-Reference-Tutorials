@@ -14,7 +14,7 @@ Aspose.Slides för .NET är ett funktionsrikt bibliotek som ger utvecklare möjl
 
 ## Installation av Aspose.Slides för .NET
 
-Innan vi dyker in i konverteringsprocessen måste du ha Aspose.Slides för .NET installerat i din utvecklingsmiljö. Du kan ladda ner och installera biblioteket genom att följa instruktionerna i[dokumentation](https://releases.aspose.com/email/net/).
+ Innan vi dyker in i konverteringsprocessen måste du ha Aspose.Slides för .NET installerat i din utvecklingsmiljö. Du kan ladda ner och installera biblioteket genom att följa instruktionerna i[dokumentation](https://releases.aspose.com/email/net/).
 
 ## Grundläggande kunskaper i C#-programmering
 
@@ -28,7 +28,7 @@ För att komma igång, se till att du har PowerPoint-presentationsfilen (PPT ell
 
 Varje bild i en PowerPoint-presentation kan ha åtföljande talaranteckningar som ger presentatören ytterligare sammanhang. Dessa anteckningar är värdefulla när du konverterar bilder till PDF, eftersom de förbättrar förståelsen av innehållet.
 
-## Konvertera bilder till PDF med Notes
+## Konvertera diabilder till PDF med Notes
 
 Låt oss nu gå vidare till den mest avgörande delen: konvertera bilder tillsammans med deras anteckningar till ett PDF-dokument. Aspose.Slides för .NET förenklar denna process.
 
@@ -53,7 +53,7 @@ class Program
                 // Få åtkomst till bildanteckningar
                 string slideNotes = slide.NotesText;
 
-                // Konvertera bild och anteckningar till PDF
+                //Konvertera bild och anteckningar till PDF
                 // Kod för PDF-konvertering
             }
         }

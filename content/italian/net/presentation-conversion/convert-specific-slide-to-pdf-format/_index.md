@@ -117,7 +117,7 @@ Assolutamente! Aspose.Slides per .NET è adatto a vari tipi di applicazioni, com
 
 ### Come posso saperne di più su Aspose.Slides per .NET?
 
-Puoi esplorare il completo[documentazione](https://reference.aspose.com/slides/net/) disponibile sul sito Aspose. Include guide dettagliate, esempi di codice e riferimenti API per aiutarti a ottenere il massimo dalla libreria.
+ Puoi esplorare il completo[documentazione](https://reference.aspose.com/slides/net/) disponibile sul sito Aspose. Include guide dettagliate, esempi di codice e riferimenti API per aiutarti a ottenere il massimo dalla libreria.
 
 ### Dove posso scaricare la libreria Aspose.Slides?
 

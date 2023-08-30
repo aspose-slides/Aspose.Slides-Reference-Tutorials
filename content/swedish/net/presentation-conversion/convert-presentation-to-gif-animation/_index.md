@@ -39,7 +39,7 @@ using Presentation presentation = new Presentation("your-presentation.pptx");
 // Skapa en instans av klassen GIF-alternativ
 GifOptions gifOptions = new GifOptions();
 
-//Definiera diadimensioner och ramintervall
+// Definiera diadimensioner och ramintervall
 gifOptions.SlideTransitions = true;
 gifOptions.Width = 800;
 gifOptions.Height = 600;
@@ -87,7 +87,7 @@ Se till att du hanterar undantag graciöst för att ge en sömlös användaruppl
 
 ## Ytterligare egenskaper
 
-Aspose.Slides för .NET erbjuder en uppsjö av ytterligare funktioner, inklusive att lägga till ljud, hantera bildelement och arbeta med PowerPoint-former. Utforska[dokumentation](https://reference.aspose.com/slides/net) för att låsa upp det här bibliotekets fulla potential.
+ Aspose.Slides för .NET erbjuder en uppsjö av ytterligare funktioner, inklusive att lägga till ljud, hantera bildelement och arbeta med PowerPoint-former. Utforska[dokumentation](https://reference.aspose.com/slides/net) för att låsa upp det här bibliotekets fulla potential.
 
 ## Slutsats
 

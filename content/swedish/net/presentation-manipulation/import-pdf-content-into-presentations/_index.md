@@ -16,7 +16,7 @@ Att införliva innehåll från olika källor i dina presentationer kan lyfta de 
 ### Förutsättningar
 Innan du börjar, se till att du har följande förutsättningar på plats:
 - Visual Studio eller någon .NET IDE installerad
-- Aspose.Slides för .NET-biblioteket (ladda ner från[här](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides för .NET-biblioteket (ladda ner från[här](https://releases.aspose.com/slides/net/))
 
 ### Steg 1: Skapa ett nytt .NET-projekt
 Börja med att skapa ett nytt .NET-projekt i din föredragna IDE och konfigurera det efter behov.
@@ -62,7 +62,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## Vanliga frågor
 
 ### Var kan jag ladda ner Aspose.Slides för .NET-biblioteket?
-Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
+ Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
 
 ### Kan jag importera innehåll från flera sidor i en PDF?
  Ja, du kan ange flera sidnummer i`ProcessPages` array för att importera innehåll från olika sidor i en PDF.

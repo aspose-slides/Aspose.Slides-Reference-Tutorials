@@ -77,7 +77,7 @@ Slide slide = presentation.Slides[0];
 // Fügen Sie ein Textfeld hinzu
 ITextFrame textFrame = slide.Shapes.AddTextFrame("Your Text Here");
 
-// Wenden Sie die benutzerdefinierte Schriftart auf den Text an
+//Wenden Sie die benutzerdefinierte Schriftart auf den Text an
 textFrame.Paragraphs[0].Portions[0].PortionFormat.LatinFont = fontDefinition;
 ```
 

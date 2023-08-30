@@ -47,7 +47,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 Daha sonra sunumdan medya dosyalarını (resimler, videolar, ses) çıkarmamız gerekiyor. Aspose.Slides bunu başarmanın kolay bir yolunu sunuyor. İşte bir örnek:
 
 ```csharp
-// Sunumdaki her slaytta yineleme yapın
+//Sunumdaki her slaytta yineleme yapın
 foreach (ISlide slide in presentation.Slides)
 {
     // Slayttaki her şekli yineleyin
@@ -101,7 +101,7 @@ Bu kılavuzda Aspose.Slides for .NET kullanarak medya dosyalarını bir PowerPoi
 
 ### Aspose.Slides'ı sunumla ilgili diğer görevler için kullanabilir miyim?
 
-Kesinlikle! Aspose.Slides for .NET, sunumları programlı olarak oluşturma, düzenleme ve dönüştürme dahil, medya çıkarmanın ötesinde çok çeşitli özellikler sağlar.
+Kesinlikle! Aspose.Slides for .NET, sunumların programlı olarak oluşturulması, düzenlenmesi ve dönüştürülmesi de dahil olmak üzere medya çıkarmanın ötesinde çok çeşitli özellikler sağlar.
 
 ### Aspose.Slides'ın deneme sürümü mevcut mu?
 

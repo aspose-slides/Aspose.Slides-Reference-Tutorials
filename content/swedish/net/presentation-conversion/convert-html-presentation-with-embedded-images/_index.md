@@ -53,7 +53,7 @@ Innan du börjar, se till att du har följande på plats:
    // Skapa en bild
    ISlide slide = slides.AddEmptySlide();
 
-   //Lägg till HTML-innehåll på bilden
+   // Lägg till HTML-innehåll på bilden
    IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
    textShape.TextFrame.Text = htmlContent;
    ```
@@ -114,7 +114,7 @@ Ja, du kan anpassa utseendet på de konverterade bilderna med hjälp av olika eg
 
 ### Var kan jag hitta den fullständiga dokumentationen för Aspose.Slides för .NET?
 
- Du kan hitta den fullständiga dokumentationen och API-referensen för Aspose.Slides för .NET[här](https://reference.aspose.com/slides/net).
+Du kan hitta den fullständiga dokumentationen och API-referensen för Aspose.Slides för .NET[här](https://reference.aspose.com/slides/net).
 
 ### Var kan jag ladda ner den senaste versionen av Aspose.Slides för .NET?
 

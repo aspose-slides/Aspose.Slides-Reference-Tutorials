@@ -16,7 +16,7 @@ url: /ru/net/presentation-manipulation/link-all-fonts-in-html-controller/
 ### Предварительные условия
 Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
 - Visual Studio или любая установленная .NET IDE.
-- Aspose.Slides для библиотеки .NET (скачать с сайта[здесь](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides для библиотеки .NET (скачать с сайта[здесь](https://releases.aspose.com/slides/net/))
 
 ### Шаг 1. Создайте новый проект .NET.
 Начните с создания нового проекта .NET в предпочитаемой вами IDE и настройки проекта с необходимыми конфигурациями.
@@ -73,7 +73,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## Часто задаваемые вопросы
 
 ### Где я могу скачать библиотеку Aspose.Slides для .NET?
-Вы можете скачать библиотеку Aspose.Slides для .NET со страницы релизов.[здесь](https://releases.aspose.com/slides/net/).
+ Вы можете скачать библиотеку Aspose.Slides для .NET со страницы релизов.[здесь](https://releases.aspose.com/slides/net/).
 
 ### Могу ли я связать все типы шрифтов с помощью Aspose.Slides для .NET?
 Да, вы можете связать шрифты TrueType, шрифты OpenType и другие поддерживаемые типы шрифтов с помощью Aspose.Slides для .NET.

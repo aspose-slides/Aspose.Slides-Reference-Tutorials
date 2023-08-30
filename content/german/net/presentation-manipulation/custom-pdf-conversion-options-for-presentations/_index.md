@@ -81,7 +81,7 @@ Benutzerdefinierte PDF-Konvertierungsoptionen für Präsentationen sind unerläs
 
 ### Kann ich die Folienabmessungen für die PDF-Ausgabe anpassen?
 
- Absolut! Sie können die Folienabmessungen mit anpassen`SlideSize` Eigentum der Präsentation.
+Absolut! Sie können die Folienabmessungen mit anpassen`SlideSize` Eigentum der Präsentation.
 
 ### Unterstützt Aspose.Slides für .NET das Einbetten von Schriftarten?
 
@@ -93,4 +93,4 @@ Ja, mit Aspose.Slides für .NET können Sie Hyperlinks und Lesezeichen während 
 
 ### Wo finde ich weitere Dokumentation und Beispiele?
 
-Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/).
+ Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/).

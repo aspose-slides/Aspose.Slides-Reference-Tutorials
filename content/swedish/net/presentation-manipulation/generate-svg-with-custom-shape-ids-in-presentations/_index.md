@@ -14,7 +14,7 @@ dagens teknikdrivna värld spelar visuella presentationer en avgörande roll fö
 
 Aspose.Slides för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med PowerPoint-presentationer programmatiskt. Oavsett om du bygger stationära applikationer, webbaserade lösningar eller molntjänster, förenklar Aspose.Slides processen att skapa, redigera och manipulera presentationer.
 
-## Förstå SVG:n och Custom Shape ID:n
+## Förstå SVG:er och Custom Shape ID:n
 
 Scalable Vector Graphics (SVG) är ett allmänt använt XML-baserat format för att beskriva tvådimensionell vektorgrafik. Det är ett idealiskt val för att skapa grafik som kan skalas sömlöst utan kvalitetsförlust. Med anpassade form-ID:n kan du unikt identifiera specifika former i en SVG, vilket möjliggör riktade interaktioner och modifieringar.
 
@@ -111,7 +111,7 @@ Ja, SVG:erna som genereras med Aspose.Slides kan användas i olika applikationer
 
 Absolut! Aspose.Slides är mångsidig och kan användas för att utveckla både skrivbords- och webbapplikationer för att skapa dynamiska presentationer.
 
-### Hur kan jag lägga till animationer till mina anpassade SVG:er?
+### Hur kan jag lägga till animationer i mina anpassade SVG?
 
 För att lägga till animationer kan du infoga JavaScript-bibliotek som GreenSock Animation Platform (GSAP) i dina webbaserade applikationer.
 

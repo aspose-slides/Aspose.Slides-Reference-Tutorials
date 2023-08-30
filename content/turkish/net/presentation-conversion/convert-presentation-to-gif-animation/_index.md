@@ -39,7 +39,7 @@ using Presentation presentation = new Presentation("your-presentation.pptx");
 // GIF seçenekleri sınıfının bir örneğini oluşturun
 GifOptions gifOptions = new GifOptions();
 
-//Slayt boyutlarını ve çerçeve aralığını tanımlayın
+// Slayt boyutlarını ve çerçeve aralığını tanımlayın
 gifOptions.SlideTransitions = true;
 gifOptions.Width = 800;
 gifOptions.Height = 600;
@@ -87,7 +87,7 @@ Sorunsuz bir kullanıcı deneyimi sağlamak için istisnaları incelikle ele ald
 
 ## Ek özellikler
 
-Aspose.Slides for .NET, ses ekleme, slayt öğelerini yönetme ve PowerPoint şekilleriyle çalışma gibi çok sayıda ek özellik sunar. Keşfedin[dokümantasyon](https://reference.aspose.com/slides/net) Bu kütüphanenin tüm potansiyelini ortaya çıkarmak için.
+ Aspose.Slides for .NET, ses ekleme, slayt öğelerini yönetme ve PowerPoint şekilleriyle çalışma gibi çok sayıda ek özellik sunar. Keşfedin[dokümantasyon](https://reference.aspose.com/slides/net) Bu kütüphanenin tüm potansiyelini ortaya çıkarmak için.
 
 ## Çözüm
 

@@ -18,7 +18,7 @@ url: /ar/net/presentation-manipulation/render-notes-while-converting-presentatio
 
 ### الخطوة 1: تثبيت Aspose.Slides لـ .NET
 
- قبل المتابعة، تأكد من تثبيت Aspose.Slides for .NET. إذا لم يكن الأمر كذلك، قم بتنزيله من[هنا](https://releases.aspose.com/slides/net/) واتبع تعليمات التثبيت المتوفرة في الوثائق.
+ قبل المتابعة، تأكد من تثبيت Aspose.Slides for .NET. إذا لم يكن الأمر كذلك، قم بتنزيله من[هنا](https://releases.aspose.com/slides/net/)واتبع تعليمات التثبيت المتوفرة في الوثائق.
 
 ### الخطوة 2: تحميل العرض التقديمي
 

@@ -10,7 +10,7 @@ url: /sv/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-
 
 ## Konvertera presentation till TIFF med anpassat bildformat med Aspose.Slides för .NET
 
-I den här guiden går vi igenom processen att konvertera en presentation till TIFF-format med ett anpassat bildformat. Vi kommer att använda Aspose.Slides för .NET, ett kraftfullt bibliotek för att arbeta med PowerPoint-filer i .NET-applikationer. Det anpassade bildformatet låter dig ange avancerade alternativ för bildkonvertering.
+den här guiden går vi igenom processen att konvertera en presentation till TIFF-format med ett anpassat bildformat. Vi kommer att använda Aspose.Slides för .NET, ett kraftfullt bibliotek för att arbeta med PowerPoint-filer i .NET-applikationer. Det anpassade bildformatet låter dig ange avancerade alternativ för bildkonvertering.
 
 ## Förutsättningar
 
@@ -33,7 +33,7 @@ Lägg till en referens till Aspose.Slides för .NET-biblioteket i ditt projekt. 
 
 ## 3. Skriv konverteringskoden
 
- Öppna projektets huvudkodfil (t.ex.`Program.cs`) och lägg till följande med sats:
+ Öppna ditt projekts huvudkodfil (t.ex.`Program.cs`) och lägg till följande med sats:
 
 ```csharp
 using Aspose.Slides;

@@ -18,7 +18,7 @@ Att konvertera en presentation till HTML-format samtidigt som talaranteckningar 
 
 ### Steg 1: Installera Aspose.Slides för .NET
 
- Innan vi fortsätter, se till att du har Aspose.Slides för .NET installerat. Om inte, ladda ner den från[här](https://releases.aspose.com/slides/net/) och följ installationsinstruktionerna i dokumentationen.
+ Innan vi fortsätter, se till att du har Aspose.Slides för .NET installerat. Om inte, ladda ner den från[här](https://releases.aspose.com/slides/net/)och följ installationsinstruktionerna i dokumentationen.
 
 ### Steg 2: Laddar presentationen
 

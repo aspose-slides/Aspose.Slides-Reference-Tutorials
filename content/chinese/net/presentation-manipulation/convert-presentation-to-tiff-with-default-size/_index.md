@@ -17,7 +17,7 @@ Aspose.Slides for .NET 是一个强大的库，提供以编程方式创建、修
 在我们深入编码过程之前，您需要确保满足以下先决条件：
 
 - Visual Studio 或任何其他 .NET 开发环境
--  Aspose.Slides for .NET 库（从[这里](https://downloads.aspose.com/slides/net)
+- Aspose.Slides for .NET 库（从[这里](https://downloads.aspose.com/slides/net)
 - C# 编程基础知识
 
 ## 安装 Aspose.Slides for .NET

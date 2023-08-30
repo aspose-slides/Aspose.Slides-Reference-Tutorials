@@ -35,7 +35,7 @@ Lär dig hur du konverterar FODP-presentationer till olika format med Aspose.Sli
 Skapa engagerande presentationer med anpassade SVG-former och ID:n med Aspose.Slides för .NET. Lär dig hur du skapar interaktiva bilder steg för steg med exempel på källkod. Förbättra visuellt tilltal och användarinteraktion i dina presentationer.
 ### [Länka alla teckensnitt i HTML Controller](./link-all-fonts-in-html-controller/)
 Lär dig hur du länkar alla teckensnitt i en HTML-kontroller med Aspose.Slides för .NET. Den här steg-för-steg-guiden med källkod hjälper dig att säkerställa konsekvent teckensnittsrendering i dina presentationer. 
-### [Utför koppling av brev i presentationer](./perform-mail-merge-in-presentations/)
+### [Utför sammankoppling av brev i presentationer](./perform-mail-merge-in-presentations/)
 Lär dig hur du utför sammanslagning i presentationer med Aspose.Slides för .NET i den här omfattande steg-för-steg-guiden. Skapa personliga och dynamiska presentationer med lätthet.
 ### [Konvertera ODP-format till PPTX-format](./convert-odp-format-to-pptx-format/)
 Lär dig hur du enkelt konverterar ODP till PPTX med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för sömlös konvertering av presentationsformat.

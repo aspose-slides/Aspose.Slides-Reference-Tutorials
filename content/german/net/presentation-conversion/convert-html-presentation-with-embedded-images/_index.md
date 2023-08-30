@@ -53,7 +53,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Folgendes vorhanden ist:
    // Erstellen Sie eine Folie
    ISlide slide = slides.AddEmptySlide();
 
-   //Fügen Sie der Folie HTML-Inhalte hinzu
+   // Fügen Sie der Folie HTML-Inhalte hinzu
    IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
    textShape.TextFrame.Text = htmlContent;
    ```
@@ -114,8 +114,8 @@ Ja, Sie können das Erscheinungsbild der konvertierten Folien mithilfe verschied
 
 ### Wo finde ich die vollständige Dokumentation für Aspose.Slides für .NET?
 
- Sie finden die vollständige Dokumentation und API-Referenz für Aspose.Slides für .NET[Hier](https://reference.aspose.com/slides/net).
+Sie finden die vollständige Dokumentation und API-Referenz für Aspose.Slides für .NET[Hier](https://reference.aspose.com/slides/net).
 
 ### Wo kann ich die neueste Version von Aspose.Slides für .NET herunterladen?
 
- Sie können die neueste Version von Aspose.Slides für .NET von der Aspose-Releases-Seite herunterladen:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net).
+ Sie können die neueste Version von Aspose.Slides für .NET von der Aspose-Release-Seite herunterladen:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net).

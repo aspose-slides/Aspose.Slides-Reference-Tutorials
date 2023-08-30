@@ -10,7 +10,7 @@ url: /sv/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-wi
 
 ## Introduktion
 
-en värld av digitala dokument är det av största vikt att säkerställa kompatibilitet och tillgänglighet. PDF/A och PDF/UA är två standarder som tar itu med dessa problem. PDF/A fokuserar på arkivering, medan PDF/UA betonar tillgänglighet för användare med funktionsnedsättning. Aspose.Slides för .NET erbjuder ett effektivt sätt att uppnå både PDF/A- och PDF/UA-överensstämmelse, vilket gör dina presentationer universellt användbara.
+I en värld av digitala dokument är det av största vikt att säkerställa kompatibilitet och tillgänglighet. PDF/A och PDF/UA är två standarder som tar itu med dessa problem. PDF/A fokuserar på arkivering, medan PDF/UA betonar tillgänglighet för användare med funktionsnedsättning. Aspose.Slides för .NET erbjuder ett effektivt sätt att uppnå både PDF/A- och PDF/UA-överensstämmelse, vilket gör dina presentationer universellt användbara.
 
 ## Förstå PDF/A och PDF/UA
 

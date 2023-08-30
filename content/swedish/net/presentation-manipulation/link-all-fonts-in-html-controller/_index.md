@@ -16,7 +16,7 @@ När du skapar presentationer med dynamiskt innehåll är det avgörande att bib
 ### Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar på plats:
 - Visual Studio eller någon .NET IDE installerad
-- Aspose.Slides för .NET-biblioteket (ladda ner från[här](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides för .NET-biblioteket (ladda ner från[här](https://releases.aspose.com/slides/net/))
 
 ### Steg 1: Skapa ett nytt .NET-projekt
 Börja med att skapa ett nytt .NET-projekt i din föredragna IDE och konfigurera projektet med nödvändiga konfigurationer.
@@ -73,7 +73,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## Vanliga frågor
 
 ### Var kan jag ladda ner Aspose.Slides för .NET-biblioteket?
-Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
+ Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
 
 ### Kan jag länka alla typer av typsnitt med Aspose.Slides för .NET?
 Ja, du kan länka TrueType-teckensnitt, OpenType-teckensnitt och andra teckensnitt som stöds med Aspose.Slides för .NET.

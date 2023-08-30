@@ -81,7 +81,7 @@ Anpassade PDF-konverteringsalternativ för presentationer är viktiga när du vi
 
 ### Kan jag anpassa diadimensionerna för PDF-utdata?
 
- Absolut! Du kan anpassa diadimensionerna med hjälp av`SlideSize` egenskapen för presentationen.
+Absolut! Du kan anpassa diadimensionerna med hjälp av`SlideSize` egenskapen för presentationen.
 
 ### Stöder Aspose.Slides för .NET inbäddning av teckensnitt?
 
@@ -93,4 +93,4 @@ Ja, Aspose.Slides för .NET låter dig bevara hyperlänkar och bokmärken under 
 
 ### Var kan jag hitta ytterligare dokumentation och exempel?
 
-För detaljerad dokumentation och exempel, se[Aspose.Slides för .NET API Referens](https://reference.aspose.com/slides/net/).
+ För detaljerad dokumentation och exempel, se[Aspose.Slides för .NET API Referens](https://reference.aspose.com/slides/net/).

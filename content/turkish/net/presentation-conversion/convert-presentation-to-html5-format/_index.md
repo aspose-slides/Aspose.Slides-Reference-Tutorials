@@ -58,7 +58,7 @@ namespace PresentationToHTML5Converter
 }
 ```
 
- Yer değiştirmek`"input.pptx"` giriş sunumunuza giden yol ve`"output.html"` İstenilen çıktı HTML dosyası yolu ile.
+ Yer değiştirmek`"input.pptx"`giriş sunumunuza giden yol ve`"output.html"` İstenilen çıktı HTML dosyası yolu ile.
 
 ## Uygulamayı Çalıştır
 

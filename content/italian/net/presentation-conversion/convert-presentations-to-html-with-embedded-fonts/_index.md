@@ -72,8 +72,8 @@ In questa guida, abbiamo esplorato il processo di conversione delle presentazion
 
 ### Posso convertire le presentazioni PowerPoint anche in altri formati?
 
-Sì, Aspose.Slides per .NET supporta un'ampia gamma di formati per la conversione di presentazioni, inclusi PDF, immagini e altro. Controlla il[documentazione](https://reference.aspose.com/slides/net/) per un elenco completo dei formati supportati.
+ Sì, Aspose.Slides per .NET supporta un'ampia gamma di formati per la conversione di presentazioni, inclusi PDF, immagini e altro. Controlla il[documentazione](https://reference.aspose.com/slides/net/) per un elenco completo dei formati supportati.
 
 ### Aspose.Slides per .NET è adatto sia per applicazioni desktop che web?
 
- Sì, Aspose.Slides per .NET è versatile e può essere utilizzato sia in applicazioni desktop che web. Fornisce API compatibili con vari framework .NET. Controlla il[documentazione](https://docs.aspose.com/slides/net/product-support/) per maggiori informazioni.
+Sì, Aspose.Slides per .NET è versatile e può essere utilizzato sia in applicazioni desktop che web. Fornisce API compatibili con vari framework .NET. Controlla il[documentazione](https://docs.aspose.com/slides/net/product-support/) per maggiori informazioni.

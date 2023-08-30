@@ -9,14 +9,14 @@ url: /es/net/presentation-manipulation/link-all-fonts-in-html-controller/
 ---
 
 ## Introducción
-Al crear presentaciones con contenido dinámico, es fundamental mantener la coherencia de las fuentes en diferentes plataformas y dispositivos. Aspose.Slides para .NET proporciona una solución poderosa para vincular todas las fuentes en un controlador HTML, asegurando que sus presentaciones representen las fuentes con precisión. En esta guía completa, lo guiaremos a través del proceso de vincular fuentes en un controlador HTML usando Aspose.Slides para .NET, completo con ejemplos detallados de código fuente. Ya sea que sea desarrollador o diseñador de presentaciones, esta guía lo ayudará a lograr una representación de fuentes consistente en sus presentaciones.
+Al crear presentaciones con contenido dinámico, es fundamental mantener la coherencia de las fuentes en diferentes plataformas y dispositivos. Aspose.Slides para .NET proporciona una poderosa solución para vincular todas las fuentes en un controlador HTML, asegurando que sus presentaciones representen las fuentes con precisión. En esta guía completa, lo guiaremos a través del proceso de vincular fuentes en un controlador HTML usando Aspose.Slides para .NET, completo con ejemplos detallados de código fuente. Ya sea que sea desarrollador o diseñador de presentaciones, esta guía lo ayudará a lograr una representación de fuentes consistente en sus presentaciones.
 
 ## Vincular todas las fuentes en el controlador HTML usando Aspose.Slides para .NET
 
 ### Requisitos previos
 Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 - Visual Studio o cualquier IDE .NET instalado
-- Biblioteca Aspose.Slides para .NET (descargar desde[aquí](https://releases.aspose.com/slides/net/))
+-  Biblioteca Aspose.Slides para .NET (descargar desde[aquí](https://releases.aspose.com/slides/net/))
 
 ### Paso 1: crear un nuevo proyecto .NET
 Comience creando un nuevo proyecto .NET en su IDE preferido y configurando el proyecto con las configuraciones necesarias.
@@ -73,7 +73,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## Preguntas frecuentes
 
 ### ¿Dónde puedo descargar la biblioteca Aspose.Slides para .NET?
-Puede descargar la biblioteca Aspose.Slides para .NET desde la página de lanzamientos[aquí](https://releases.aspose.com/slides/net/).
+ Puede descargar la biblioteca Aspose.Slides para .NET desde la página de lanzamientos[aquí](https://releases.aspose.com/slides/net/).
 
 ### ¿Puedo vincular todo tipo de fuentes usando Aspose.Slides para .NET?
 Sí, puede vincular fuentes TrueType, fuentes OpenType y otros tipos de fuentes compatibles utilizando Aspose.Slides para .NET.

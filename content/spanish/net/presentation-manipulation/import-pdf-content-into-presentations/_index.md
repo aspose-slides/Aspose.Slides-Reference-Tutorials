@@ -16,7 +16,7 @@ La incorporación de contenido de diversas fuentes a sus presentaciones puede me
 ### Requisitos previos
 Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 - Visual Studio o cualquier IDE .NET instalado
-- Biblioteca Aspose.Slides para .NET (descargar desde[aquí](https://releases.aspose.com/slides/net/))
+-  Biblioteca Aspose.Slides para .NET (descargar desde[aquí](https://releases.aspose.com/slides/net/))
 
 ### Paso 1: crear un nuevo proyecto .NET
 Comience creando un nuevo proyecto .NET en su IDE preferido y configúrelo según sea necesario.
@@ -62,7 +62,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## Preguntas frecuentes
 
 ### ¿Dónde puedo descargar la biblioteca Aspose.Slides para .NET?
-Puede descargar la biblioteca Aspose.Slides para .NET desde la página de lanzamientos[aquí](https://releases.aspose.com/slides/net/).
+ Puede descargar la biblioteca Aspose.Slides para .NET desde la página de lanzamientos[aquí](https://releases.aspose.com/slides/net/).
 
 ### ¿Puedo importar contenido de varias páginas de un PDF?
  Sí, puede especificar varios números de página en el`ProcessPages` matriz para importar contenido de diferentes páginas de un PDF.

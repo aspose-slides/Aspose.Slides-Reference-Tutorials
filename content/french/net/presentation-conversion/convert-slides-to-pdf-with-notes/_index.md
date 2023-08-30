@@ -14,7 +14,7 @@ Aspose.Slides for .NET est une bibliothèque riche en fonctionnalités qui perme
 
 ## Installation d'Aspose.Slides pour .NET
 
-Avant de plonger dans le processus de conversion, vous devez avoir installé Aspose.Slides pour .NET dans votre environnement de développement. Vous pouvez télécharger et installer la bibliothèque en suivant les instructions fournies dans le[Documentation](https://releases.aspose.com/email/net/).
+ Avant de plonger dans le processus de conversion, vous devez avoir installé Aspose.Slides pour .NET dans votre environnement de développement. Vous pouvez télécharger et installer la bibliothèque en suivant les instructions fournies dans le[Documentation](https://releases.aspose.com/email/net/).
 
 ## Connaissance de base de la programmation C#
 
@@ -53,7 +53,7 @@ class Program
                 // Accéder aux notes des diapositives
                 string slideNotes = slide.NotesText;
 
-                // Convertir les diapositives et les notes en PDF
+                //Convertir les diapositives et les notes en PDF
                 // Code pour la conversion PDF
             }
         }

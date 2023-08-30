@@ -14,7 +14,7 @@ Aspose.Slides ist eine .NET-Bibliothek, die es Entwicklern ermöglicht, programm
 
 ## Einrichten der Umgebung
 
- Bevor wir beginnen, muss Aspose.Slides für .NET in Ihrer Entwicklungsumgebung installiert sein. Sie können es herunterladen und installieren[Hier](https://releases.aspose.com/slides/net/).
+Bevor wir beginnen, muss Aspose.Slides für .NET in Ihrer Entwicklungsumgebung installiert sein. Sie können es herunterladen und installieren[Hier](https://releases.aspose.com/slides/net/).
 
 Erstellen Sie nach der Installation ein neues .NET-Projekt in Ihrer bevorzugten Entwicklungsumgebung.
 

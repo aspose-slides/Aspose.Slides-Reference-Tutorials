@@ -39,7 +39,7 @@ using Presentation presentation = new Presentation("your-presentation.pptx");
 // Créer une instance de la classe d'options GIF
 GifOptions gifOptions = new GifOptions();
 
-//Définir les dimensions des diapositives et l'intervalle entre les images
+// Définir les dimensions des diapositives et l'intervalle entre les images
 gifOptions.SlideTransitions = true;
 gifOptions.Width = 800;
 gifOptions.Height = 600;
@@ -87,7 +87,7 @@ Assurez-vous de gérer les exceptions avec élégance pour offrir une expérienc
 
 ## Caractéristiques supplémentaires
 
-Aspose.Slides pour .NET offre une multitude de fonctionnalités supplémentaires, notamment l'ajout d'audio, la gestion des éléments de diapositive et l'utilisation de formes PowerPoint. Explore le[Documentation](https://reference.aspose.com/slides/net) pour libérer tout le potentiel de cette bibliothèque.
+ Aspose.Slides pour .NET offre une multitude de fonctionnalités supplémentaires, notamment l'ajout d'audio, la gestion des éléments de diapositive et l'utilisation de formes PowerPoint. Explore le[Documentation](https://reference.aspose.com/slides/net) pour libérer tout le potentiel de cette bibliothèque.
 
 ## Conclusion
 

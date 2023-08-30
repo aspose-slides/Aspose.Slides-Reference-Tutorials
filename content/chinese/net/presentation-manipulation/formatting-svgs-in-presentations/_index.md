@@ -34,7 +34,7 @@ SVG 是基于 XML 的矢量图像格式，用于描述二维图形。与光栅�
 
 首先，请确保您已安装 Aspose.Slides for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/slides/net/).
 
-下载后，按照安装说明在您的项目中设置库。
+下载后，按照安装说明在您的项目中设置该库。
 
 #### 加载演示文稿
 
@@ -75,7 +75,7 @@ using (FileStream svgStream = new FileStream(svgPath, FileMode.Open))
 
 根据需要调整插入的 SVG 的大小和位置：
 ```csharp
-//假设“shape”是SVG图片框架
+//假设“shape”是SVG图片框
 shape.Width = newWidth;
 shape.Height = newHeight;
 shape.X = newX;
@@ -86,7 +86,7 @@ shape.Y = newY;
 
 通过更改 SVG 的样式和颜色来修改 SVG 的外观：
 ```csharp
-//假设“shape”是SVG图片框架
+//假设“shape”是SVG图片框
 shape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 shape.FillFormat.SolidFillColor.Color = Color.LightBlue;
 ```
@@ -95,7 +95,7 @@ shape.FillFormat.SolidFillColor.Color = Color.LightBlue;
 
 如果 SVG 包含文本元素，您可以使用 Aspose.Slides 操作它们：
 ```csharp
-//假设“shape”是SVG图片框架
+//假设“shape”是SVG图片框
 var svgText = shape.TextFrame.Text;
 
 //修改SVG文本
@@ -108,7 +108,7 @@ svgText = "New Text Content";
 
 通过动画 SVG 增强您的演示文稿：
 ```csharp
-//假设“shape”是SVG图片框架
+//假设“shape”是SVG图片框
 ITransition transition = shape.Transition;
 transition.Type = TransitionType.Fade;
 transition.Speed = TransitionSpeed.Slow;

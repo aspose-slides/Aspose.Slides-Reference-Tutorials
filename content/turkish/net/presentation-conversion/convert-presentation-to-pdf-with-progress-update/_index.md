@@ -14,7 +14,7 @@ Aspose.Slides, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çal
 
 ## Ortamın Ayarlanması
 
- Başlamadan önce, geliştirme ortamınızda Aspose.Slides for .NET'in kurulu olması gerekir. adresinden indirip kurabilirsiniz[Burada](https://releases.aspose.com/slides/net/).
+Başlamadan önce, geliştirme ortamınızda Aspose.Slides for .NET'in kurulu olması gerekir. adresinden indirip kurabilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
 Kurulduktan sonra tercih ettiğiniz geliştirme ortamında yeni bir .NET projesi oluşturun.
 

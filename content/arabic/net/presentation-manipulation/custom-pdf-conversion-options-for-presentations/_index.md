@@ -81,7 +81,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
 ### هل يمكنني تخصيص أبعاد الشريحة لمخرجات PDF؟
 
- قطعاً! يمكنك تخصيص أبعاد الشريحة باستخدام`SlideSize` خاصية العرض.
+قطعاً! يمكنك تخصيص أبعاد الشريحة باستخدام`SlideSize` خاصية العرض.
 
 ### هل يدعم Aspose.Slides for .NET تضمين الخطوط؟
 
@@ -93,4 +93,4 @@ presentation.Save("output.pdf", SaveFormat.Pdf);
 
 ### أين يمكنني العثور على مزيد من الوثائق والأمثلة؟
 
-للحصول على وثائق وأمثلة مفصلة، راجع[Aspose.Slides لمرجع .NET API](https://reference.aspose.com/slides/net/).
+ للحصول على وثائق وأمثلة مفصلة، راجع[Aspose.Slides لمرجع .NET API](https://reference.aspose.com/slides/net/).

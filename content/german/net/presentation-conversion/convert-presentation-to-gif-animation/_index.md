@@ -39,7 +39,7 @@ using Presentation presentation = new Presentation("your-presentation.pptx");
 // Erstellen Sie eine Instanz der GIF-Optionsklasse
 GifOptions gifOptions = new GifOptions();
 
-//Definieren Sie Folienabmessungen und Rahmenintervalle
+// Definieren Sie Folienabmessungen und Rahmenintervalle
 gifOptions.SlideTransitions = true;
 gifOptions.Width = 800;
 gifOptions.Height = 600;
@@ -87,7 +87,7 @@ Stellen Sie sicher, dass Sie Ausnahmen ordnungsgemäß behandeln, um ein nahtlos
 
 ## Zusatzfunktionen
 
-Aspose.Slides für .NET bietet eine Fülle zusätzlicher Funktionen, darunter das Hinzufügen von Audio, die Verwaltung von Folienelementen und die Arbeit mit PowerPoint-Formen. Entdecke die[Dokumentation](https://reference.aspose.com/slides/net) um das volle Potenzial dieser Bibliothek auszuschöpfen.
+ Aspose.Slides für .NET bietet eine Fülle zusätzlicher Funktionen, darunter das Hinzufügen von Audio, die Verwaltung von Folienelementen und die Arbeit mit PowerPoint-Formen. Entdecke die[Dokumentation](https://reference.aspose.com/slides/net) um das volle Potenzial dieser Bibliothek auszuschöpfen.
 
 ## Abschluss
 

@@ -81,7 +81,7 @@ Las opciones de conversión de PDF personalizadas para presentaciones son esenci
 
 ### ¿Puedo personalizar las dimensiones de la diapositiva para la salida PDF?
 
- ¡Absolutamente! Puede personalizar las dimensiones de la diapositiva usando el`SlideSize` propiedad de la presentación.
+¡Absolutamente! Puede personalizar las dimensiones de la diapositiva usando el`SlideSize` propiedad de la presentación.
 
 ### ¿Aspose.Slides para .NET admite la incrustación de fuentes?
 
@@ -93,4 +93,4 @@ Sí, Aspose.Slides para .NET le permite conservar hipervínculos y marcadores du
 
 ### ¿Dónde puedo encontrar más documentación y ejemplos?
 
-Para obtener documentación detallada y ejemplos, consulte la[Aspose.Slides para referencia de API .NET](https://reference.aspose.com/slides/net/).
+ Para obtener documentación detallada y ejemplos, consulte la[Aspose.Slides para referencia de API .NET](https://reference.aspose.com/slides/net/).

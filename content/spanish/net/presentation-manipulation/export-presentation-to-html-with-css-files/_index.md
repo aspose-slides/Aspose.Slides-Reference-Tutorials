@@ -49,7 +49,7 @@ presentation.Save("output.html", SaveFormat.Html, options);
 
 ## Incrustar CSS en el HTML
 
-Para garantizar que la presentación HTML exportada tenga el aspecto previsto, debe incrustar los estilos CSS que definió anteriormente en el archivo HTML. Esto se puede lograr incluyendo una`<link>` etiqueta en el HTML`<head>` sección.
+ Para garantizar que la presentación HTML exportada tenga el aspecto previsto, debe incrustar los estilos CSS que definió anteriormente en el archivo HTML. Esto se puede lograr incluyendo una`<link>` etiqueta en el HTML`<head>` sección.
 
 ## Finalizando la salida HTML
 
@@ -57,7 +57,7 @@ Después de incrustar los estilos CSS, su presentación HTML debería estar casi
 
 ## Probando la presentación HTML
 
-Antes de implementar la presentación HTML, es esencial probarla exhaustivamente en diferentes navegadores y dispositivos para garantizar que el diseño y el formato sean consistentes.
+Antes de implementar la presentación HTML, es esencial probarla minuciosamente en diferentes navegadores y dispositivos para garantizar que el diseño y el formato sean consistentes.
 
 ## Beneficios de usar Aspose.Slides para .NET
 
