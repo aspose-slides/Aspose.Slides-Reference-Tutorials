@@ -34,7 +34,7 @@ using var presentation = new Presentation("presentation.pptx");
 
 ```csharp
 //通过索引获取所需的幻灯片
-var slideIndex = 2; //例如，幻灯片#3
+var slideIndex = 2; //例如，幻灯片 #3
 var selectedSlide = presentation.Slides[slideIndex];
 ```
 
@@ -79,7 +79,7 @@ namespace SlideToPdfConverter
             using var presentation = new Presentation("presentation.pptx");
 
             //通过索引获取所需的幻灯片
-            var slideIndex = 2; //例如，幻灯片#3
+            var slideIndex = 2; //例如，幻灯片 #3
             var selectedSlide = presentation.Slides[slideIndex];
 
             //初始化 PDF 选项

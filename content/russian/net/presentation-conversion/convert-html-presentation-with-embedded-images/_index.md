@@ -53,7 +53,7 @@ url: /ru/net/presentation-conversion/convert-html-presentation-with-embedded-ima
    // Создать слайд
    ISlide slide = slides.AddEmptySlide();
 
-   //Добавьте HTML-содержимое на слайд
+   // Добавьте HTML-содержимое на слайд
    IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
    textShape.TextFrame.Text = htmlContent;
    ```
@@ -114,7 +114,7 @@ namespace HTMLToPPTConversion
 
 ### Где я могу найти полную документацию по Aspose.Slides для .NET?
 
- Вы можете найти полную документацию и справочник по API для Aspose.Slides для .NET.[здесь](https://reference.aspose.com/slides/net).
+Вы можете найти полную документацию и справочник по API для Aspose.Slides для .NET.[здесь](https://reference.aspose.com/slides/net).
 
 ### Где я могу скачать последнюю версию Aspose.Slides для .NET?
 

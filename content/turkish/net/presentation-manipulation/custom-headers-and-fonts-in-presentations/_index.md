@@ -10,7 +10,7 @@ url: /tr/net/presentation-manipulation/custom-headers-and-fonts-in-presentations
 
 ## giriiş
 
-Sunumlar bilginin etkili bir şekilde aktarılmasında hayati bir rol oynamaktadır. Başlıkları ve yazı tiplerini özelleştirmek, sunumlarınızın görsel çekiciliğini ve markalaşmasını artırır. Aspose.Slides, PowerPoint dosyalarını programlı olarak işlemek için kapsamlı bir dizi özellik sunarak bu süreci basitleştirir.
+Sunumlar bilginin etkili bir şekilde aktarılmasında hayati bir rol oynar. Başlıkları ve yazı tiplerini özelleştirmek, sunumlarınızın görsel çekiciliğini ve markalaşmasını artırır. Aspose.Slides, PowerPoint dosyalarını programlı olarak işlemek için kapsamlı bir dizi özellik sunarak bu süreci basitleştirir.
 
 ## Önkoşullar
 
@@ -77,7 +77,7 @@ Slide slide = presentation.Slides[0];
 // Metin kutusu ekleme
 ITextFrame textFrame = slide.Shapes.AddTextFrame("Your Text Here");
 
-// Özel yazı tipini metne uygulama
+//Özel yazı tipini metne uygulama
 textFrame.Paragraphs[0].Portions[0].PortionFormat.LatinFont = fontDefinition;
 ```
 

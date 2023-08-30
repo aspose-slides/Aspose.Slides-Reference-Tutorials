@@ -77,7 +77,7 @@ Slide slide = presentation.Slides[0];
 // Agregar un cuadro de texto
 ITextFrame textFrame = slide.Shapes.AddTextFrame("Your Text Here");
 
-// Aplicar la fuente personalizada al texto.
+//Aplicar la fuente personalizada al texto.
 textFrame.Paragraphs[0].Portions[0].PortionFormat.LatinFont = fontDefinition;
 ```
 

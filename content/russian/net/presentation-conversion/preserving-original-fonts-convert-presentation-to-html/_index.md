@@ -55,7 +55,7 @@ var options = new HtmlOptions
     HtmlFormatterEmbedFonts = HtmlFormatterEmbedFontEnum.EmbedAll
 };
 
-//Преобразовать презентацию в HTML
+// Преобразовать презентацию в HTML
 presentation.Save("output.html", SaveFormat.Html, options);
 ```
 

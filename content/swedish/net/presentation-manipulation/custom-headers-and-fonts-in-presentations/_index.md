@@ -77,7 +77,7 @@ Slide slide = presentation.Slides[0];
 // Lägg till en textruta
 ITextFrame textFrame = slide.Shapes.AddTextFrame("Your Text Here");
 
-// Använd det anpassade teckensnittet på texten
+//Använd det anpassade teckensnittet på texten
 textFrame.Paragraphs[0].Portions[0].PortionFormat.LatinFont = fontDefinition;
 ```
 

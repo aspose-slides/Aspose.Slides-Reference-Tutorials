@@ -37,12 +37,12 @@ using Aspose.Slides;
 using var presentation = new Presentation("path_to_your_presentation.pptx");
 ```
 
-## Tillgång till individuella bilder
+## Få åtkomst till individuella bilder
 
 Låt oss sedan komma åt enskilda bilder i presentationen:
 
 ```csharp
-// Få åtkomst till en specifik bild per index (0-baserad)
+//Få åtkomst till en specifik bild per index (0-baserad)
 var targetSlide = presentation.Slides[slideIndex];
 ```
 

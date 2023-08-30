@@ -16,7 +16,7 @@ En el mundo de las presentaciones, la personalización y la personalización des
 ### Requisitos previos
 Antes de sumergirnos en el proceso de combinación de correspondencia, asegúrese de cumplir con los siguientes requisitos previos:
 - Visual Studio o cualquier IDE .NET instalado
-- Biblioteca Aspose.Slides para .NET (descargar desde[aquí](https://releases.aspose.com/slides/net/))
+-  Biblioteca Aspose.Slides para .NET (descargar desde[aquí](https://releases.aspose.com/slides/net/))
 
 ### Paso 1: crear un nuevo proyecto .NET
 Comience creando un nuevo proyecto .NET en su IDE preferido. Configure el proyecto con las configuraciones necesarias.
@@ -62,7 +62,7 @@ presentation.Save("merged-presentation.pptx", SaveFormat.Pptx);
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo descargar la biblioteca Aspose.Slides para .NET?
-Puede descargar la biblioteca Aspose.Slides para .NET desde la página de lanzamientos[aquí](https://releases.aspose.com/slides/net/).
+ Puede descargar la biblioteca Aspose.Slides para .NET desde la página de lanzamientos[aquí](https://releases.aspose.com/slides/net/).
 
 ### ¿Aspose.Slides es adecuado tanto para desarrolladores como para presentadores?
 Sí, Aspose.Slides para .NET está dirigido tanto a desarrolladores como a presentadores. Los desarrolladores pueden utilizar su potente API para automatizar tareas como la combinación de correspondencia, mientras que los presentadores pueden beneficiarse de presentaciones personalizadas.

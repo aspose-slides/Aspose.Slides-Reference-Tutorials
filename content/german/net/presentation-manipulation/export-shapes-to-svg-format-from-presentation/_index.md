@@ -76,7 +76,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx); // Speichern Sie Änderungen 
 
 ### Wie lade ich eine PowerPoint-Präsentation mit Aspose.Slides?
 
- Sie können eine Präsentation mit laden`Presentation` Klassenkonstruktor. Geben Sie den Pfad zur PowerPoint-Datei als Parameter an.
+ Sie können eine Präsentation mit laden`Presentation`Klassenkonstruktor. Geben Sie den Pfad zur PowerPoint-Datei als Parameter an.
 
 ### Wie exportiere ich eine Form in das SVG-Format?
 

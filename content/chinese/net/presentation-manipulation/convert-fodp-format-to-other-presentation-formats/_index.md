@@ -77,7 +77,7 @@ for (int i = 0; i < presentation.Slides.Count; i++)
 
 ## 处理高级转换选项
 
-Aspose.Slides for .NET 提供了许多选项来微调转换过程。这些选项包括指定幻灯片范围、控制布局、管理字体等等。
+Aspose.Slides for .NET 提供了许多选项来微调转换过程。这些选项包括指定幻灯片范围、控制布局、管理字体等。
 
 ## 向转换后的演示文稿添加自定义
 

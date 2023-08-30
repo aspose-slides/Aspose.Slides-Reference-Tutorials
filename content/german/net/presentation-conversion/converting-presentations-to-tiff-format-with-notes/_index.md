@@ -14,7 +14,7 @@ Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern 
 
 ## Einrichten Ihrer Entwicklungsumgebung
 
-Bevor wir uns mit dem Code befassen, stellen wir sicher, dass unsere Entwicklungsumgebung ordnungsgemäß eingerichtet ist. Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[Hier](https://releases.aspose.com/slides/net). Nach dem Herunterladen installieren Sie es und erstellen Sie ein neues Projekt in Visual Studio.
+ Bevor wir uns mit dem Code befassen, stellen wir sicher, dass unsere Entwicklungsumgebung ordnungsgemäß eingerichtet ist. Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[Hier](https://releases.aspose.com/slides/net). Nach dem Herunterladen installieren Sie es und erstellen Sie ein neues Projekt in Visual Studio.
 
 ## Präsentationsdateien laden und darauf zugreifen
 
@@ -42,7 +42,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Konvertieren von Präsentationen in das TIFF-Format
 
-TIFF (Tagged Image File Format) ist ein weit verbreitetes Bildformat, das hochwertige Grafiken unterstützt. Das Konvertieren von Präsentationen in das TIFF-Format kann für Archivierungs- oder Druckzwecke nützlich sein. Durch die Verwendung von Aspose.Slides für .NET können Sie diese Konvertierung nahtlos erreichen.
+TIFF (Tagged Image File Format) ist ein weit verbreitetes Bildformat, das hochwertige Grafiken unterstützt. Das Konvertieren von Präsentationen in das TIFF-Format kann für Archivierungs- oder Druckzwecke nützlich sein. Durch die Verwendung von Aspose.Slides für .NET können Sie diese Konvertierung nahtlos durchführen.
 
 ```csharp
 // Konvertieren Sie die Präsentation in TIFF
@@ -85,7 +85,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     options.DpiX = 300;
     options.DpiY = 300;
     
-    // Wählen Sie zwischen Farb- und Graustufenausgabe
+    //Wählen Sie zwischen Farb- und Graustufenausgabe
     options.BlackWhite = false; // Für Graustufen auf „true“ setzen
     
     presentation.Save("output-custom-options.tiff", SaveFormat.Tiff, options);
@@ -113,7 +113,7 @@ class Program
             options.DpiX = 300;
             options.DpiY = 300;
 
-            //Konvertieren und als TIFF speichern
+            // Konvertieren und als TIFF speichern
             presentation.Save("output.tiff", SaveFormat.Tiff, options);
         }
     }

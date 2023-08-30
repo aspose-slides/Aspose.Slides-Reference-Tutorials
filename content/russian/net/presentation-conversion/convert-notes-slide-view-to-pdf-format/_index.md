@@ -40,7 +40,7 @@ using var presentation = new Presentation("your-presentation.pptx");
 Aspose.Slides для .NET предоставляет простой способ конвертировать режим слайдов заметок в формат PDF. Следующий фрагмент кода демонстрирует этот процесс:
 
 ```csharp
-// Преобразование слайдов заметок в PDF
+//Преобразование слайдов заметок в PDF
 using var outputStream = new FileStream("output.pdf", FileMode.Create);
 presentation.Save(outputStream, SaveFormat.PdfNotes);
 ```
@@ -74,7 +74,7 @@ namespace PresentationConverter
             // Загрузите презентацию
             using var presentation = new Presentation("your-presentation.pptx");
 
-            // Преобразование слайдов заметок в PDF
+            //Преобразование слайдов заметок в PDF
             using var outputStream = new FileStream("output.pdf", FileMode.Create);
             presentation.Save(outputStream, SaveFormat.PdfNotes);
         }

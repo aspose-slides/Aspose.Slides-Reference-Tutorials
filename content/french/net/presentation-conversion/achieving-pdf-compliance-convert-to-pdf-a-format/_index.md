@@ -129,7 +129,7 @@ Le format préserve l'apparence visuelle du document, y compris les polices, les
 
 ## Conformité aux normes d'archivage
 
-La conformité PDF/A est conforme aux normes d'archivage, ce qui le rend adapté à l'archivage de documents légaux et officiels.
+La conformité PDF/A est conforme aux normes d'archivage, ce qui la rend adaptée à l'archivage légal et documentaire.
 
 ## Défis potentiels et comment les relever
 

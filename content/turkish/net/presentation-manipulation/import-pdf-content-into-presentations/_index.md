@@ -16,7 +16,7 @@ Sunumlarınıza çeşitli kaynaklardan içerik eklemek, slaytlarınızın görse
 ### Önkoşullar
 Başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 - Visual Studio veya yüklü herhangi bir .NET IDE
-- Aspose.Slides for .NET kitaplığı (şu adresten indirin:[Burada](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides for .NET kitaplığı (şu adresten indirin:[Burada](https://releases.aspose.com/slides/net/))
 
 ### Adım 1: Yeni Bir .NET Projesi Oluşturun
 Tercih ettiğiniz IDE'de yeni bir .NET projesi oluşturarak ve bunu gerektiği gibi yapılandırarak başlayın.
@@ -62,7 +62,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## SSS
 
 ### Aspose.Slides for .NET kütüphanesini nereden indirebilirim?
-Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
+ Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
 
 ### Bir PDF'nin birden fazla sayfasından içerik aktarabilir miyim?
  Evet, birden fazla sayfa numarası belirtebilirsiniz.`ProcessPages` PDF'nin farklı sayfalarından içerik içe aktarmak için dizi.

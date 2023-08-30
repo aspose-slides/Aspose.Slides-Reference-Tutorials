@@ -111,4 +111,4 @@ Ja, Sie können das Erscheinungsbild der MathML-Ausgabe mithilfe verschiedener F
 
 ### Ist Aspose.Slides für die Verarbeitung anderer Arten von Inhalten in Präsentationen geeignet?
 
-Absolut! Aspose.Slides bietet eine breite Palette von Funktionen für den Umgang mit Text, Bildern, Formen, Animationen und mehr in Präsentationen.
+Absolut! Aspose.Slides bietet eine breite Palette an Funktionen für den Umgang mit Text, Bildern, Formen, Animationen und mehr in Präsentationen.

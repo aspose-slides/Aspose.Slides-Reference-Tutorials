@@ -76,7 +76,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx); // Sunudaki değişiklikleri 
 
 ### Aspose.Slides'ı kullanarak bir PowerPoint sunumunu nasıl yüklerim?
 
- kullanarak bir sunum yükleyebilirsiniz.`Presentation` sınıf yapıcısı. PowerPoint dosyasının yolunu parametre olarak belirtin.
+ kullanarak bir sunum yükleyebilirsiniz.`Presentation`sınıf yapıcısı. PowerPoint dosyasının yolunu parametre olarak belirtin.
 
 ### Bir şekli SVG formatına nasıl aktarırım?
 

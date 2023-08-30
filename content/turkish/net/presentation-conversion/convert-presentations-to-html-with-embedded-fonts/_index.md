@@ -72,8 +72,8 @@ Bu kılavuzda Aspose.Slides for .NET kullanarak sunumları gömülü yazı tiple
 
 ### PowerPoint sunumlarını diğer formatlara da dönüştürebilir miyim?
 
-Evet, Aspose.Slides for .NET sunumları dönüştürmek için PDF, görseller ve daha fazlasını içeren çok çeşitli formatları destekler. Kontrol edin[dokümantasyon](https://reference.aspose.com/slides/net/) Desteklenen formatların tam listesi için.
+ Evet, Aspose.Slides for .NET sunumları dönüştürmek için PDF, görseller ve daha fazlasını içeren çok çeşitli formatları destekler. Kontrol edin[dokümantasyon](https://reference.aspose.com/slides/net/) Desteklenen formatların tam listesi için.
 
 ### Aspose.Slides for .NET hem masaüstü hem de web uygulamaları için uygun mu?
 
- Evet, Aspose.Slides for .NET çok yönlüdür ve hem masaüstü hem de web uygulamalarında kullanılabilir. Çeşitli .NET çerçeveleriyle uyumlu API'ler sağlar. Kontrol edin[dokümantasyon](https://docs.aspose.com/slides/net/product-support/) daha fazla bilgi için.
+Evet, Aspose.Slides for .NET çok yönlüdür ve hem masaüstü hem de web uygulamalarında kullanılabilir. Çeşitli .NET çerçeveleriyle uyumlu API'ler sağlar. Kontrol edin[dokümantasyon](https://docs.aspose.com/slides/net/product-support/) daha fazla bilgi için.

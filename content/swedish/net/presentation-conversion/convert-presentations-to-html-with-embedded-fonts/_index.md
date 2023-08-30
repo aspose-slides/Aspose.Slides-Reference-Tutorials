@@ -72,8 +72,8 @@ I den här guiden utforskade vi processen att konvertera presentationer till HTM
 
 ### Kan jag konvertera PowerPoint-presentationer till andra format också?
 
-Ja, Aspose.Slides för .NET stöder ett brett utbud av format för konvertering av presentationer, inklusive PDF, bilder och mer. Kolla[dokumentation](https://reference.aspose.com/slides/net/) för en komplett lista över format som stöds.
+ Ja, Aspose.Slides för .NET stöder ett brett utbud av format för konvertering av presentationer, inklusive PDF, bilder och mer. Kolla[dokumentation](https://reference.aspose.com/slides/net/) för en komplett lista över format som stöds.
 
 ### Är Aspose.Slides för .NET lämplig för både skrivbords- och webbapplikationer?
 
- Ja, Aspose.Slides för .NET är mångsidig och kan användas i både skrivbords- och webbapplikationer. Det tillhandahåller API:er som är kompatibla med olika .NET-ramverk. Kolla[dokumentation](https://docs.aspose.com/slides/net/product-support/) för mer information.
+Ja, Aspose.Slides för .NET är mångsidig och kan användas i både skrivbords- och webbapplikationer. Det tillhandahåller API:er som är kompatibla med olika .NET-ramverk. Kolla[dokumentation](https://docs.aspose.com/slides/net/product-support/) för mer information.

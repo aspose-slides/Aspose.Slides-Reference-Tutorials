@@ -18,7 +18,7 @@ La conversione delle presentazioni in formato SVG prevede diversi passaggi per g
 
 ### Passaggio 1: installazione di Aspose.Slides per .NET
 
- Prima di iniziare, assicurati di avere Aspose.Slides per .NET installato. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net/)Una volta scaricato, seguire le istruzioni di installazione fornite nella documentazione.
+ Prima di iniziare, assicurati di avere Aspose.Slides per .NET installato. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net/). Una volta scaricato, seguire le istruzioni di installazione fornite nella documentazione.
 
 ### Passaggio 2: caricamento della presentazione
 
@@ -55,7 +55,7 @@ Il processo di conversione SVG offre diverse opzioni di personalizzazione per ga
 
 - **Slide Size**: regola le dimensioni dell'SVG di output in base alle tue esigenze, siano esse dimensioni standard o personalizzate.
 
-- **Content Scaling**controlla il modo in cui il contenuto viene ridimensionato per adattarsi all'area di disegno SVG. Puoi scegliere di adattare il contenuto all'interno dell'area di disegno o di traboccarlo, se necessario.
+- **Content Scaling**: controlla il modo in cui il contenuto viene ridimensionato per adattarsi all'area di disegno SVG. Puoi scegliere di adattare il contenuto all'interno dell'area di disegno o di traboccarlo, se necessario.
 
 - **Text Handling**: Aspose.Slides ti consente di scegliere tra preservare il testo come testo o convertirlo in percorsi nell'SVG. Ciò è particolarmente utile per mantenere la coerenza dei caratteri.
 
@@ -85,7 +85,7 @@ Sì, puoi controllare il colore di sfondo e le impostazioni di trasparenza dell'
 
 ### Dove posso trovare ulteriori informazioni sulle opzioni di conversione SVG?
 
- Per informazioni più dettagliate sulle opzioni di conversione SVG e altre funzionalità di Aspose.Slides per .NET, è possibile fare riferimento al[Aspose.Slides per riferimento all'API .NET](https://reference.aspose.com/slides/net/).
+Per informazioni più dettagliate sulle opzioni di conversione SVG e altre funzionalità di Aspose.Slides per .NET, è possibile fare riferimento al[Aspose.Slides per riferimento all'API .NET](https://reference.aspose.com/slides/net/).
 
 ## Conclusione
 

@@ -107,4 +107,4 @@ Ja, Aspose.Slides ger stöd för många PowerPoint-animationer och övergångar 
 
 ### Finns det en testversion tillgänglig?
 
-Ja, du kan ladda ner en gratis testversion av Aspose.Slides för .NET från[här](https://products.aspose.com/slides/net).
+ Ja, du kan ladda ner en gratis testversion av Aspose.Slides för .NET från[här](https://products.aspose.com/slides/net).

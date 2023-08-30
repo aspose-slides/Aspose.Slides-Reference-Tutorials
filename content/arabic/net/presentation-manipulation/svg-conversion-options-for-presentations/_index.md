@@ -18,7 +18,7 @@ url: /ar/net/presentation-manipulation/svg-conversion-options-for-presentations/
 
 ### الخطوة 1: تثبيت Aspose.Slides لـ .NET
 
- قبل أن نبدأ، تأكد من تثبيت Aspose.Slides for .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/)بمجرد التنزيل، اتبع تعليمات التثبيت الواردة في الوثائق.
+ قبل أن نبدأ، تأكد من تثبيت Aspose.Slides for .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/). بمجرد التنزيل، اتبع تعليمات التثبيت الواردة في الوثائق.
 
 ### الخطوة 2: تحميل العرض التقديمي
 
@@ -55,7 +55,7 @@ presentation.Save("output.svg", SaveFormat.Svg, svgOptions);
 
 - **Slide Size**: اضبط أبعاد مخرجات SVG لتتوافق مع متطلباتك، سواء كانت أحجامًا قياسية أو مخصصة.
 
-- **Content Scaling**التحكم في كيفية تغيير حجم المحتوى ليناسب لوحة SVG. يمكنك اختيار احتواء المحتوى داخل اللوحة القماشية أو التجاوز إذا لزم الأمر.
+- **Content Scaling**: التحكم في كيفية تغيير حجم المحتوى ليناسب لوحة SVG. يمكنك اختيار احتواء المحتوى داخل اللوحة القماشية أو التجاوز إذا لزم الأمر.
 
 - **Text Handling**: يتيح لك Aspose.Slides الاختيار بين الاحتفاظ بالنص كنص أو تحويله إلى مسارات في SVG. وهذا مفيد بشكل خاص للحفاظ على تناسق الخط.
 
@@ -85,7 +85,7 @@ presentation.Save("output.svg", SaveFormat.Svg, svgOptions);
 
 ### أين يمكنني العثور على مزيد من المعلومات حول خيارات تحويل SVG؟
 
- للحصول على معلومات أكثر تفصيلاً حول خيارات تحويل SVG والميزات الأخرى لـ Aspose.Slides for .NET، يمكنك الرجوع إلى[Aspose.Slides لمرجع .NET API](https://reference.aspose.com/slides/net/).
+للحصول على معلومات أكثر تفصيلاً حول خيارات تحويل SVG والميزات الأخرى لـ Aspose.Slides for .NET، يمكنك الرجوع إلى[Aspose.Slides لمرجع .NET API](https://reference.aspose.com/slides/net/).
 
 ## خاتمة
 

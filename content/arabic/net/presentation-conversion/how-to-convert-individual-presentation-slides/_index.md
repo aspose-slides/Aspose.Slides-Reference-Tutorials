@@ -42,7 +42,7 @@ using var presentation = new Presentation("path_to_your_presentation.pptx");
 بعد ذلك، دعنا نصل إلى الشرائح الفردية داخل العرض التقديمي:
 
 ```csharp
-// الوصول إلى شريحة محددة حسب الفهرس (يعتمد على 0)
+//الوصول إلى شريحة محددة حسب الفهرس (يعتمد على 0)
 var targetSlide = presentation.Slides[slideIndex];
 ```
 

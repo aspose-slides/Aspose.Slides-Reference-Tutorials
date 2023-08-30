@@ -64,7 +64,7 @@ if (svg != null)
     svg.LineFormat.DashStyle = LineDashStyle.DashDot;
     
     // Otras opciones de formato
-    // svg.LineFormat.FillFormat.SolidFillColor.Color = Color.Azul;
+    //svg.LineFormat.FillFormat.SolidFillColor.Color = Color.Azul;
     // svg.LineFormat.Style = LineStyle.ThickBetweenThin;
 }
 ```
@@ -80,7 +80,7 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ## Preguntas frecuentes
 
 ### ¿Cómo puedo instalar Aspose.Slides para .NET?
-Puede descargar e instalar la biblioteca Aspose.Slides para .NET desde la página de lanzamientos:[Descargar Aspose.Slides para .NET](https://releases.aspose.com/slides/net/)
+ Puede descargar e instalar la biblioteca Aspose.Slides para .NET desde la página de lanzamientos:[Descargar Aspose.Slides para .NET](https://releases.aspose.com/slides/net/)
 
 ### ¿Cómo cargo una presentación existente usando Aspose.Slides?
  Puedes cargar una presentación usando el`Presentation` clase. He aquí un ejemplo:

@@ -79,7 +79,7 @@ using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
 {
     var newPresentation = new Presentation();
 
-    // Copiar diapositivas de PPT a PPTX
+    // Copie diapositivas de PPT a PPTX
     foreach (ISlide slide in presentation.Slides)
     {
         newPresentation.Slides.AddClone(slide);
@@ -105,7 +105,7 @@ using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
         newPresentation.Slides.AddClone(slide);
     }
 
-    // Guarde la presentación convertida
+    //Guarde la presentación convertida
     newPresentation.Save("converted_presentation.pptx", SaveFormat.Pptx);
 }
 ```

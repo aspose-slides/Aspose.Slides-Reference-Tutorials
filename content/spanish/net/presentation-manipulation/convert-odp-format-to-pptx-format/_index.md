@@ -86,6 +86,6 @@ Sí, Aspose.Slides admite varios lenguajes de programación, incluido Java. Pued
 
 Sí, Aspose.Slides proporciona un conjunto completo de funciones para trabajar con presentaciones, incluida la creación, manipulación, animaciones y más de diapositivas.
 
-### ¿Existe alguna documentación oficial para Aspose.Slides?
+### ¿Existe alguna documentación para Aspose.Slides?
 
- Sí, puede consultar la documentación oficial para obtener información detallada y ejemplos:[aquí](https://reference.aspose.com/slides/net)
+Sí, puede consultar la documentación para obtener información detallada y ejemplos:[aquí](https://reference.aspose.com/slides/net)

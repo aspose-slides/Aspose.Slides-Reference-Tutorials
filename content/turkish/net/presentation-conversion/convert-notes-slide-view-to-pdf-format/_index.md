@@ -40,7 +40,7 @@ using var presentation = new Presentation("your-presentation.pptx");
 Aspose.Slides for .NET, Notes Slayt Görünümünü PDF formatına dönüştürmenin basit bir yolunu sunar. Aşağıdaki kod parçacığı bu işlemi göstermektedir:
 
 ```csharp
-// Not Slayt Görünümünü PDF'ye Dönüştür
+//Not Slayt Görünümünü PDF'ye Dönüştür
 using var outputStream = new FileStream("output.pdf", FileMode.Create);
 presentation.Save(outputStream, SaveFormat.PdfNotes);
 ```
@@ -74,7 +74,7 @@ namespace PresentationConverter
             // Sunuyu yükle
             using var presentation = new Presentation("your-presentation.pptx");
 
-            // Not Slayt Görünümünü PDF'ye Dönüştür
+            //Not Slayt Görünümünü PDF'ye Dönüştür
             using var outputStream = new FileStream("output.pdf", FileMode.Create);
             presentation.Save(outputStream, SaveFormat.PdfNotes);
         }

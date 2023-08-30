@@ -18,7 +18,7 @@ Sunumları SVG formatına dönüştürmek, en iyi sonuçları elde etmek için b
 
 ### Adım 1: Aspose.Slides for .NET'i yükleme
 
- Başlamadan önce Aspose.Slides for .NET'in kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/)İndirdikten sonra belgelerde verilen kurulum talimatlarını izleyin.
+ Başlamadan önce Aspose.Slides for .NET'in kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/). İndirdikten sonra belgelerde verilen kurulum talimatlarını izleyin.
 
 ### Adım 2: Sunumu Yükleme
 
@@ -55,7 +55,7 @@ SVG dönüştürme işlemi, en iyi çıktıyı sağlamak için çeşitli özelle
 
 - **Slide Size**: Çıktı SVG'nin boyutlarını, ister standart ister özel boyut olsun, gereksinimlerinize uyacak şekilde ayarlayın.
 
-- **Content Scaling**İçeriğin SVG tuvaline sığacak şekilde nasıl ölçeklendirileceğini kontrol edin. İçeriği tuvalin içine sığdırmayı veya gerekirse taşmayı seçebilirsiniz.
+- **Content Scaling**: İçeriğin SVG tuvaline sığacak şekilde nasıl ölçeklendirileceğini kontrol edin. İçeriği tuvalin içine sığdırmayı veya gerekirse taşmayı seçebilirsiniz.
 
 - **Text Handling**: Aspose.Slides, metni metin olarak koruma veya SVG'deki yollara dönüştürme arasında seçim yapmanızı sağlar. Bu özellikle yazı tipi tutarlılığını korumak için kullanışlıdır.
 
@@ -85,7 +85,7 @@ Evet, SVG çıktısının arka plan rengini ve şeffaflık ayarlarını kontrol 
 
 ### SVG dönüştürme seçenekleri hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Aspose.Slides for .NET'in SVG dönüştürme seçenekleri ve diğer özellikleri hakkında daha ayrıntılı bilgi için şu adrese başvurabilirsiniz:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).
+Aspose.Slides for .NET'in SVG dönüştürme seçenekleri ve diğer özellikleri hakkında daha ayrıntılı bilgi için şu adrese başvurabilirsiniz:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).
 
 ## Çözüm
 

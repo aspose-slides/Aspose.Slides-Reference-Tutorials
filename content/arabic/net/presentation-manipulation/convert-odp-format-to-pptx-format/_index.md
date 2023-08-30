@@ -86,6 +86,6 @@ targetPresentation.Save(targetFilePath, SaveFormat.Pptx);
 
 نعم، يوفر Aspose.Slides مجموعة شاملة من الميزات للعمل مع العروض التقديمية، بما في ذلك إنشاء الشرائح والمعالجة والرسوم المتحركة والمزيد.
 
-### هل هناك أي وثائق رسمية لـ Aspose.Slides؟
+### هل هناك أي وثائق لـ Aspose.Slides؟
 
- نعم، يمكنك الرجوع إلى الوثائق الرسمية للحصول على معلومات وأمثلة مفصلة:[هنا](https://reference.aspose.com/slides/net)
+نعم، يمكنك الرجوع إلى الوثائق للحصول على معلومات وأمثلة مفصلة:[هنا](https://reference.aspose.com/slides/net)

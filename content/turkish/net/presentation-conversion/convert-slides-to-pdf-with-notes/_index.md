@@ -14,7 +14,7 @@ Aspose.Slides for .NET, geliştiricilerin çeşitli formatlardaki PowerPoint sun
 
 ## Aspose.Slides for .NET'in kurulumu
 
-Dönüştürme sürecine dalmadan önce, geliştirme ortamınızda Aspose.Slides for .NET'in kurulu olması gerekir. Kitaplığı, verilen talimatları izleyerek indirip yükleyebilirsiniz.[dokümantasyon](https://releases.aspose.com/email/net/).
+ Dönüştürme sürecine dalmadan önce, geliştirme ortamınızda Aspose.Slides for .NET'in kurulu olması gerekir. Kitaplığı, verilen talimatları izleyerek indirip yükleyebilirsiniz.[dokümantasyon](https://releases.aspose.com/email/net/).
 
 ## C# programlamaya ilişkin temel bilgiler
 
@@ -53,7 +53,7 @@ class Program
                 // Slayt notlarına erişme
                 string slideNotes = slide.NotesText;
 
-                // Slaydı ve notları PDF'ye dönüştürün
+                //Slaydı ve notları PDF'ye dönüştürün
                 // PDF dönüştürme kodu
             }
         }

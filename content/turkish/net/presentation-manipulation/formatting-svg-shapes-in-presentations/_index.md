@@ -64,7 +64,7 @@ if (svg != null)
     svg.LineFormat.DashStyle = LineDashStyle.DashDot;
     
     // Diğer biçimlendirme seçenekleri
-    // svg.LineFormat.FillFormat.SolidFillColor.Color = Color.Blue;
+    //svg.LineFormat.FillFormat.SolidFillColor.Color = Color.Blue;
     // svg.LineFormat.Style = LineStyle.ThickBetweenThin;
 }
 ```
@@ -80,7 +80,7 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ## SSS
 
 ### Aspose.Slides for .NET'i nasıl kurabilirim?
-Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirip kurabilirsiniz:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/)
+ Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirip kurabilirsiniz:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/)
 
 ### Aspose.Slides'ı kullanarak mevcut bir sunumu nasıl yüklerim?
  kullanarak bir sunum yükleyebilirsiniz.`Presentation` sınıf. İşte bir örnek:

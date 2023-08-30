@@ -86,6 +86,6 @@ Absolut! Aspose.Slides unterstützt eine Vielzahl von Präsentationsformaten, so
 
 Ja, Aspose.Slides bietet umfassende Funktionen für die Arbeit mit Präsentationen, einschließlich Folienerstellung, -bearbeitung, Animationen und mehr.
 
-### Gibt es eine offizielle Dokumentation für Aspose.Slides?
+### Gibt es eine Dokumentation für Aspose.Slides?
 
- Ja, detaillierte Informationen und Beispiele finden Sie in der offiziellen Dokumentation:[Hier](https://reference.aspose.com/slides/net)
+Ja, detaillierte Informationen und Beispiele finden Sie in der Dokumentation:[Hier](https://reference.aspose.com/slides/net)

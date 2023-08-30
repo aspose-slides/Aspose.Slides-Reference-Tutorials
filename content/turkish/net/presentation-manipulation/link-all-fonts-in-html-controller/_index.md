@@ -16,7 +16,7 @@ Dinamik içeriğe sahip sunumlar oluştururken farklı platformlar ve cihazlar a
 ### Önkoşullar
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 - Visual Studio veya yüklü herhangi bir .NET IDE
-- Aspose.Slides for .NET kitaplığı (şu adresten indirin:[Burada](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides for .NET kitaplığı (şu adresten indirin:[Burada](https://releases.aspose.com/slides/net/))
 
 ### Adım 1: Yeni Bir .NET Projesi Oluşturun
 Tercih ettiğiniz IDE'de yeni bir .NET projesi oluşturarak ve projeyi gerekli yapılandırmalarla kurarak başlayın.
@@ -73,7 +73,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## SSS
 
 ### Aspose.Slides for .NET kütüphanesini nereden indirebilirim?
-Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
+ Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
 
 ### Aspose.Slides for .NET'i kullanarak tüm yazı tiplerini bağlayabilir miyim?
 Evet, Aspose.Slides for .NET'i kullanarak TrueType yazı tiplerini, OpenType yazı tiplerini ve desteklenen diğer yazı tipi türlerini bağlayabilirsiniz.

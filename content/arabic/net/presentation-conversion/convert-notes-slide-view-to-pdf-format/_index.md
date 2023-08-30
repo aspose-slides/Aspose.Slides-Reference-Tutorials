@@ -40,7 +40,7 @@ using var presentation = new Presentation("your-presentation.pptx");
 يوفر Aspose.Slides for .NET طريقة بسيطة لتحويل عرض شرائح Notes إلى تنسيق PDF. يوضح مقتطف التعليمات البرمجية التالي هذه العملية:
 
 ```csharp
-// تحويل عرض شرائح الملاحظات إلى PDF
+//تحويل عرض شرائح الملاحظات إلى PDF
 using var outputStream = new FileStream("output.pdf", FileMode.Create);
 presentation.Save(outputStream, SaveFormat.PdfNotes);
 ```
@@ -74,7 +74,7 @@ namespace PresentationConverter
             // قم بتحميل العرض التقديمي
             using var presentation = new Presentation("your-presentation.pptx");
 
-            // تحويل عرض شرائح الملاحظات إلى PDF
+            //تحويل عرض شرائح الملاحظات إلى PDF
             using var outputStream = new FileStream("output.pdf", FileMode.Create);
             presentation.Save(outputStream, SaveFormat.PdfNotes);
         }
@@ -117,7 +117,7 @@ namespace PresentationConverter
 
 ### هل هناك نسخة تجريبية متاحة؟
 
-نعم، يقدم Aspose.Slides for .NET إصدارًا تجريبيًا مجانيًا يمكنك استكشافه قبل إجراء عملية شراء.
+نعم، يقدم Aspose.Slides for .NET إصدارًا تجريبيًا مجانيًا يمكنك استكشافه قبل إجراء عملية الشراء.
 
 ### هل يمكنني تحويل العروض التقديمية إلى تنسيقات أخرى أيضًا؟
 

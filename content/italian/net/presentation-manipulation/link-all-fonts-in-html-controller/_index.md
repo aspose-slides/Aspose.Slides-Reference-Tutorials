@@ -16,7 +16,7 @@ Quando si creano presentazioni con contenuti dinamici, è fondamentale mantenere
 ### Prerequisiti
 Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 - Visual Studio o qualsiasi IDE .NET installato
-- Aspose.Slides per la libreria .NET (scarica da[Qui](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides per la libreria .NET (scarica da[Qui](https://releases.aspose.com/slides/net/))
 
 ### Passaggio 1: crea un nuovo progetto .NET
 Inizia creando un nuovo progetto .NET nel tuo IDE preferito e impostando il progetto con le configurazioni necessarie.
@@ -73,7 +73,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## Domande frequenti
 
 ### Dove posso scaricare la libreria Aspose.Slides per .NET?
-È possibile scaricare la libreria Aspose.Slides per .NET dalla pagina delle versioni[Qui](https://releases.aspose.com/slides/net/).
+ È possibile scaricare la libreria Aspose.Slides per .NET dalla pagina delle versioni[Qui](https://releases.aspose.com/slides/net/).
 
 ### Posso collegare tutti i tipi di carattere utilizzando Aspose.Slides per .NET?
 Sì, puoi collegare caratteri TrueType, caratteri OpenType e altri tipi di caratteri supportati utilizzando Aspose.Slides per .NET.

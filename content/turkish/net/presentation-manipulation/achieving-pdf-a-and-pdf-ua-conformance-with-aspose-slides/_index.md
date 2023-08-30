@@ -144,7 +144,7 @@ presentation.Save("accessible_output.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## Çözüm
 
-Aspose.Slides for .NET ile PDF/A ve PDF/UA uyumluluğuna ulaşmak, hem arşivlenebilir hem de erişilebilir belgeler oluşturmanıza olanak tanır. Bu kılavuzda özetlenen adımları izleyerek ve sağlanan kaynak kodu örneklerini kullanarak sunumlarınızın en yüksek uyumluluk ve kapsayıcılık standartlarını karşılamasını sağlayabilirsiniz.
+Aspose.Slides for .NET ile PDF/A ve PDF/UA uyumluluğuna ulaşmak, hem arşivlenebilir hem de erişilebilir belgeler oluşturmanıza olanak sağlar. Bu kılavuzda özetlenen adımları izleyerek ve sağlanan kaynak kodu örneklerini kullanarak sunumlarınızın en yüksek uyumluluk ve kapsayıcılık standartlarını karşılamasını sağlayabilirsiniz.
 
 ## SSS'ler
 

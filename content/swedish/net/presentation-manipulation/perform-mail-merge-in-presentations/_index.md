@@ -1,6 +1,6 @@
 ---
-title: Utför koppling av brev i presentationer
-linktitle: Utför koppling av brev i presentationer
+title: Utför sammankoppling av brev i presentationer
+linktitle: Utför sammankoppling av brev i presentationer
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du utför sammanslagning i presentationer med Aspose.Slides för .NET i den här omfattande steg-för-steg-guiden. Skapa personliga och dynamiska presentationer med lätthet.
 type: docs
@@ -16,7 +16,7 @@ presentationsvärlden spelar personalisering och anpassning en avgörande roll f
 ### Förutsättningar
 Innan vi dyker in i kopplingsprocessen, se till att du har följande förutsättningar:
 - Visual Studio eller någon .NET IDE installerad
-- Aspose.Slides för .NET-biblioteket (ladda ner från[här](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides för .NET-biblioteket (ladda ner från[här](https://releases.aspose.com/slides/net/))
 
 ### Steg 1: Skapa ett nytt .NET-projekt
 Börja med att skapa ett nytt .NET-projekt i din föredragna IDE. Ställ in projektet med nödvändiga konfigurationer.
@@ -62,7 +62,7 @@ presentation.Save("merged-presentation.pptx", SaveFormat.Pptx);
 ## Vanliga frågor
 
 ### Hur kan jag ladda ner Aspose.Slides för .NET-biblioteket?
-Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
+ Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
 
 ### Är Aspose.Slides lämplig för både utvecklare och presentatörer?
 Ja, Aspose.Slides för .NET vänder sig till både utvecklare och presentatörer. Utvecklare kan använda dess kraftfulla API för att automatisera uppgifter som e-postsammankoppling, medan presentatörer kan dra nytta av personliga presentationer.

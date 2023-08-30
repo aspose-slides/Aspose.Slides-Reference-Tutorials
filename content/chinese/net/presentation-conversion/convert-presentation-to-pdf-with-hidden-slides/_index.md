@@ -36,7 +36,7 @@ using var presentation = new Presentation("sample.pptx");
 
 ## 识别并包含隐藏的幻灯片
 
-Aspose.Slides 提供了一种识别演示文稿中隐藏幻灯片并在转换过程中包含它们的方法。这可以通过迭代幻灯片并检查其可见性属性来实现：
+Aspose.Slides 提供了一种识别演示文稿中隐藏幻灯片并在转换期间包含它们的方法。这可以通过迭代幻灯片并检查其可见性属性来实现：
 
 ```csharp
 foreach (var slide in presentation.Slides)

@@ -77,7 +77,7 @@ Slide slide = presentation.Slides[0];
 // Добавить текстовое поле
 ITextFrame textFrame = slide.Shapes.AddTextFrame("Your Text Here");
 
-// Примените пользовательский шрифт к тексту
+//Примените пользовательский шрифт к тексту
 textFrame.Paragraphs[0].Portions[0].PortionFormat.LatinFont = fontDefinition;
 ```
 

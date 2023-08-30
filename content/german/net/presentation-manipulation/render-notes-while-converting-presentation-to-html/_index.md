@@ -18,7 +18,7 @@ Das Konvertieren einer Präsentation in das HTML-Format unter Beibehaltung der V
 
 ### Schritt 1: Aspose.Slides für .NET installieren
 
- Bevor wir fortfahren, stellen Sie sicher, dass Aspose.Slides für .NET installiert ist. Wenn nicht, laden Sie es herunter von[Hier](https://releases.aspose.com/slides/net/) und befolgen Sie die Installationsanweisungen in der Dokumentation.
+ Bevor wir fortfahren, stellen Sie sicher, dass Aspose.Slides für .NET installiert ist. Wenn nicht, laden Sie es herunter von[Hier](https://releases.aspose.com/slides/net/)und befolgen Sie die Installationsanweisungen in der Dokumentation.
 
 ### Schritt 2: Laden der Präsentation
 

@@ -42,7 +42,7 @@ using var presentation = new Presentation("path_to_your_presentation.pptx");
 Şimdi sunumdaki slaytlara tek tek erişelim:
 
 ```csharp
-// Belirli bir slayta dizine göre erişme (0 tabanlı)
+//Belirli bir slayta dizine göre erişme (0 tabanlı)
 var targetSlide = presentation.Slides[slideIndex];
 ```
 

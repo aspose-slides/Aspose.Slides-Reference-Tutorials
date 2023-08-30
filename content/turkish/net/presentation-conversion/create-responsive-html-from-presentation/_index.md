@@ -53,7 +53,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
  Tek tek slaytlara ve bunların öğelerine şu düğmeyi kullanarak erişebilirsiniz:`Slides` Aspose.Slides tarafından sağlanan koleksiyon ve özellikler ve yöntemler.
 
 ```csharp
-// Slaytlara erişim
+// Slaytlara erişme
 ISlideCollection slides = presentation.Slides;
 
 // Slayt öğelerine erişme

@@ -16,7 +16,7 @@ url: /zh/net/presentation-manipulation/link-all-fonts-in-html-controller/
 ### 先决条件
 在我们开始之前，请确保您具备以下先决条件：
 - Visual Studio 或任何已安装的 .NET IDE
-- Aspose.Slides for .NET 库（从[这里](https://releases.aspose.com/slides/net/）)
+-  Aspose.Slides for .NET 库（从[这里](https://releases.aspose.com/slides/net/）)
 
 ### 第 1 步：创建一个新的 .NET 项目
 首先在您首选的 IDE 中创建一个新的 .NET 项目，并使用必要的配置设置该项目。

@@ -2,7 +2,7 @@
 title: Options de conversion PDF personnalisées pour les présentations
 linktitle: Options de conversion PDF personnalisées pour les présentations
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd'hui.
+description: Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd’hui.
 type: docs
 weight: 12
 url: /fr/net/presentation-manipulation/custom-pdf-conversion-options-for-presentations/
@@ -81,7 +81,7 @@ Les options de conversion PDF personnalisées pour les présentations sont essen
 
 ### Puis-je personnaliser les dimensions des diapositives pour la sortie PDF ?
 
- Absolument! Vous pouvez personnaliser les dimensions de la diapositive à l'aide de l'icône`SlideSize` propriété de la présentation.
+Absolument! Vous pouvez personnaliser les dimensions de la diapositive à l'aide de l'icône`SlideSize` propriété de la présentation.
 
 ### Aspose.Slides pour .NET prend-il en charge l’intégration de polices ?
 
@@ -93,4 +93,4 @@ Oui, Aspose.Slides pour .NET vous permet de conserver les hyperliens et les sign
 
 ### Où puis-je trouver de la documentation supplémentaire et des exemples ?
 
-Pour une documentation détaillée et des exemples, reportez-vous au[Aspose.Slides pour la référence de l'API .NET](https://reference.aspose.com/slides/net/).
+ Pour une documentation détaillée et des exemples, reportez-vous au[Aspose.Slides pour la référence de l'API .NET](https://reference.aspose.com/slides/net/).

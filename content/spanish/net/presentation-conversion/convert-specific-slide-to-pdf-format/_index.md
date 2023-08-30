@@ -117,7 +117,7 @@ Sí, puede personalizar la salida del PDF ajustando varias opciones proporcionad
 
 ### ¿Cómo puedo obtener más información sobre Aspose.Slides para .NET?
 
-Puedes explorar el completo[documentación](https://reference.aspose.com/slides/net/) disponible en el sitio web de Aspose. Incluye guías detalladas, ejemplos de código y referencias de API para ayudarle a aprovechar al máximo la biblioteca.
+ Puedes explorar el completo[documentación](https://reference.aspose.com/slides/net/) disponible en el sitio web de Aspose. Incluye guías detalladas, ejemplos de código y referencias de API para ayudarle a aprovechar al máximo la biblioteca.
 
 ### ¿Dónde puedo descargar la biblioteca Aspose.Slides?
 

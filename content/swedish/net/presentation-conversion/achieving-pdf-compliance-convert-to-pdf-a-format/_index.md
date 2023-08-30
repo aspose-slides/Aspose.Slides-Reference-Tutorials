@@ -119,7 +119,7 @@ Spara det PDF/A-kompatibla dokumentet:
 pdfDocument.Save("output_pdfa.pdf");
 ```
 
-## Säkerställa långsiktig tillgänglighet
+## Säkerställ långsiktig tillgänglighet
 
 PDF/A-kompatibilitet säkerställer att dina dokument förblir tillgängliga och renderbara över tid, oavsett tekniska förändringar.
 
@@ -129,7 +129,7 @@ Formatet bevarar dokumentets visuella utseende, inklusive teckensnitt, layouter 
 
 ## Överensstämmelse med arkiveringsstandarder
 
-PDF/A-överensstämmelse är i linje med arkivstandarder, vilket gör den lämplig för juridisk och officiell dokumentarkivering.
+PDF/A-överensstämmelse är i linje med arkivstandarder, vilket gör den lämplig för juridisk arkivering och dokumentarkivering.
 
 ## Potentiella utmaningar och hur man hanterar dem
 

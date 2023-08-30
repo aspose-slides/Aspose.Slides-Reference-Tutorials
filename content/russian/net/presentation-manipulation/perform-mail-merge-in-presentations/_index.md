@@ -16,7 +16,7 @@ url: /ru/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ### Предварительные условия
 Прежде чем мы углубимся в процесс слияния почты, убедитесь, что у вас есть следующие предварительные условия:
 - Visual Studio или любая установленная .NET IDE.
-- Aspose.Slides для библиотеки .NET (скачать с сайта[здесь](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides для библиотеки .NET (скачать с сайта[здесь](https://releases.aspose.com/slides/net/))
 
 ### Шаг 1. Создайте новый проект .NET.
 Начните с создания нового проекта .NET в предпочитаемой вами IDE. Настройте проект с необходимыми конфигурациями.
@@ -62,7 +62,7 @@ presentation.Save("merged-presentation.pptx", SaveFormat.Pptx);
 ## Часто задаваемые вопросы
 
 ### Как загрузить библиотеку Aspose.Slides для .NET?
-Вы можете скачать библиотеку Aspose.Slides для .NET со страницы релизов.[здесь](https://releases.aspose.com/slides/net/).
+ Вы можете скачать библиотеку Aspose.Slides для .NET со страницы релизов.[здесь](https://releases.aspose.com/slides/net/).
 
 ### Подходит ли Aspose.Slides как разработчикам, так и докладчикам?
 Да, Aspose.Slides для .NET подходит как разработчикам, так и докладчикам. Разработчики могут использовать мощный API для автоматизации таких задач, как слияние почты, а докладчики могут воспользоваться персонализированными презентациями.

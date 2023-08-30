@@ -86,6 +86,6 @@ Kesinlikle! Aspose.Slides çok çeşitli sunum formatlarını destekleyerek bunl
 
 Evet, Aspose.Slides sunumlarla çalışmak için slayt oluşturma, düzenleme, animasyonlar ve daha fazlasını içeren kapsamlı özellikler sunar.
 
-### Aspose.Slides için herhangi bir resmi belge var mı?
+### Aspose.Slides için herhangi bir belge var mı?
 
- Evet, ayrıntılı bilgi ve örnekler için resmi belgelere başvurabilirsiniz:[Burada](https://reference.aspose.com/slides/net)
+Evet, ayrıntılı bilgi ve örnekler için belgelere başvurabilirsiniz:[Burada](https://reference.aspose.com/slides/net)

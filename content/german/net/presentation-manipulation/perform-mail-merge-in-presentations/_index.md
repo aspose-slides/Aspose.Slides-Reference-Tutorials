@@ -16,7 +16,7 @@ In der Welt der Präsentationen spielen Personalisierung und Individualisierung 
 ### Voraussetzungen
 Bevor wir uns mit dem Serienbriefprozess befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 - Visual Studio oder eine beliebige .NET-IDE installiert
-- Aspose.Slides für .NET-Bibliothek (Download von[Hier](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides für .NET-Bibliothek (Download von[Hier](https://releases.aspose.com/slides/net/))
 
 ### Schritt 1: Erstellen Sie ein neues .NET-Projekt
 Beginnen Sie mit der Erstellung eines neuen .NET-Projekts in Ihrer bevorzugten IDE. Richten Sie das Projekt mit den erforderlichen Konfigurationen ein.
@@ -32,7 +32,7 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### Schritt 4: Datenquelle vorbereiten
-Bereiten Sie die Datenquelle für den Serienbrief vor. Dabei kann es sich um eine Datenbank, eine Excel-Tabelle oder eine andere Datenstruktur handeln, die die erforderlichen Informationen enthält.
+Bereiten Sie die Datenquelle für den Seriendruck vor. Dabei kann es sich um eine Datenbank, eine Excel-Tabelle oder eine andere Datenstruktur handeln, die die erforderlichen Informationen enthält.
 
 ### Schritt 5: Führen Sie den Seriendruck durch
 Jetzt kommt der spannende Teil – die Durchführung des eigentlichen Seriendrucks. Durchlaufen Sie die Folien und Formen in Ihrer Präsentation und ersetzen Sie Platzhalter durch Daten aus Ihrer Datenquelle. Hier ist ein vereinfachter Codeausschnitt:
@@ -62,7 +62,7 @@ presentation.Save("merged-presentation.pptx", SaveFormat.Pptx);
 ## FAQs
 
 ### Wie kann ich die Aspose.Slides für .NET-Bibliothek herunterladen?
-Sie können die Aspose.Slides für .NET-Bibliothek von der Release-Seite herunterladen[Hier](https://releases.aspose.com/slides/net/).
+ Sie können die Aspose.Slides für .NET-Bibliothek von der Release-Seite herunterladen[Hier](https://releases.aspose.com/slides/net/).
 
 ### Ist Aspose.Slides sowohl für Entwickler als auch für Präsentatoren geeignet?
 Ja, Aspose.Slides für .NET richtet sich sowohl an Entwickler als auch an Präsentatoren. Entwickler können die leistungsstarke API nutzen, um Aufgaben wie den Seriendruck zu automatisieren, während Präsentatoren von personalisierten Präsentationen profitieren können.

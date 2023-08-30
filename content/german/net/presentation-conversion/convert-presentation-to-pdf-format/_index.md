@@ -107,4 +107,4 @@ Ja, Aspose.Slides bietet Unterstützung für viele PowerPoint-Animationen und Ü
 
 ### Gibt es eine Testversion?
 
-Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET herunterladen[Hier](https://products.aspose.com/slides/net).
+ Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET herunterladen[Hier](https://products.aspose.com/slides/net).

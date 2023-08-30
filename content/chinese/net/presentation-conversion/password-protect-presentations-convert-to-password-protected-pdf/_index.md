@@ -21,7 +21,7 @@ Aspose.Slides for .NET 是一个功能强大的库，允许开发人员以编程
 首先，您需要安装 Aspose.Slides for .NET 库。按着这些次序：
 
 1. 参观[Aspose.Slides for .NET 文档](https://docs.aspose.com/slides/net/)获取安装说明。
-2. 使用 NuGet 包管理器或通过添加对项目的引用来下载并安装库。
+2. 使用 NuGet 包管理器或添加对项目的引用来下载并安装库。
 
 ## 加载演示文稿
 

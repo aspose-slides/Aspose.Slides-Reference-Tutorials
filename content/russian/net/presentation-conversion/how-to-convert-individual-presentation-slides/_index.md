@@ -42,7 +42,7 @@ using var presentation = new Presentation("path_to_your_presentation.pptx");
 Далее давайте получим доступ к отдельным слайдам презентации:
 
 ```csharp
-// Доступ к определенному слайду по индексу (отсчет от 0)
+//Доступ к определенному слайду по индексу (отсчет от 0)
 var targetSlide = presentation.Slides[slideIndex];
 ```
 

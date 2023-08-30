@@ -49,7 +49,7 @@ presentation.Save("output.html", SaveFormat.Html, options);
 
 ## Einbetten von CSS in den HTML-Code
 
-Um sicherzustellen, dass die exportierte HTML-Präsentation wie beabsichtigt aussieht, müssen Sie die zuvor definierten CSS-Stile in die HTML-Datei einbetten. Dies kann erreicht werden, indem a`<link>` Tag im HTML`<head>` Abschnitt.
+ Um sicherzustellen, dass die exportierte HTML-Präsentation wie beabsichtigt aussieht, müssen Sie die zuvor definierten CSS-Stile in die HTML-Datei einbetten. Dies kann erreicht werden, indem a`<link>` Tag im HTML`<head>` Abschnitt.
 
 ## Finalisierung der HTML-Ausgabe
 

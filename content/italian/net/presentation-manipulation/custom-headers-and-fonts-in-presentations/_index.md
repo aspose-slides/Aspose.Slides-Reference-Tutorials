@@ -77,7 +77,7 @@ Slide slide = presentation.Slides[0];
 // Aggiungi una casella di testo
 ITextFrame textFrame = slide.Shapes.AddTextFrame("Your Text Here");
 
-// Applica il carattere personalizzato al testo
+//Applica il carattere personalizzato al testo
 textFrame.Paragraphs[0].Portions[0].PortionFormat.LatinFont = fontDefinition;
 ```
 

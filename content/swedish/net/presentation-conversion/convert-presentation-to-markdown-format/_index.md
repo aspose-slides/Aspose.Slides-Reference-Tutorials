@@ -29,7 +29,7 @@ För att börja måste du installera Aspose.Slides för .NET-biblioteket. Följ 
 
 ## Laddar en presentation
 
-det här steget laddar vi en presentationsfil med Aspose.Slides för .NET:
+I det här steget laddar vi en presentationsfil med Aspose.Slides för .NET:
 
 ```csharp
 using Aspose.Slides;

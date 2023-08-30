@@ -16,7 +16,7 @@ Sunum dünyasında kişiselleştirme ve kişiselleştirme, bilginin etkili bir �
 ### Önkoşullar
 Adres-mektup birleştirme sürecine dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 - Visual Studio veya yüklü herhangi bir .NET IDE
-- Aspose.Slides for .NET kitaplığı (şu adresten indirin:[Burada](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides for .NET kitaplığı (şu adresten indirin:[Burada](https://releases.aspose.com/slides/net/))
 
 ### Adım 1: Yeni Bir .NET Projesi Oluşturun
 Tercih ettiğiniz IDE'de yeni bir .NET projesi oluşturarak başlayın. Projeyi gerekli konfigürasyonlarla kurun.
@@ -62,7 +62,7 @@ presentation.Save("merged-presentation.pptx", SaveFormat.Pptx);
 ## SSS
 
 ### Aspose.Slides for .NET kütüphanesini nasıl indirebilirim?
-Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
+ Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
 
 ### Aspose.Slides hem geliştiriciler hem de sunucular için uygun mu?
 Evet, Aspose.Slides for .NET hem geliştiricilere hem de sunuculara hitap ediyor. Geliştiriciler, adres-mektup birleştirme gibi görevleri otomatikleştirmek için güçlü API'sini kullanabilir, sunum yapan kişiler ise kişiselleştirilmiş sunumlardan yararlanabilir.

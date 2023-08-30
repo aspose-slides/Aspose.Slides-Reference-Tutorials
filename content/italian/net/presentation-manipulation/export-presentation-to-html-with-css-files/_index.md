@@ -49,7 +49,7 @@ presentation.Save("output.html", SaveFormat.Html, options);
 
 ## Incorporamento di CSS nell'HTML
 
-Per garantire che la presentazione HTML esportata abbia l'aspetto previsto, è necessario incorporare gli stili CSS definiti in precedenza nel file HTML. Ciò può essere ottenuto includendo a`<link>` tag nell'HTML`<head>` sezione.
+ Per garantire che la presentazione HTML esportata abbia l'aspetto previsto, è necessario incorporare gli stili CSS definiti in precedenza nel file HTML. Ciò può essere ottenuto includendo a`<link>` tag nell'HTML`<head>` sezione.
 
 ## Finalizzazione dell'output HTML
 

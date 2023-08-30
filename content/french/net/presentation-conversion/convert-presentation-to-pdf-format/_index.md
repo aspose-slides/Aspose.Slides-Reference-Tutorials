@@ -107,4 +107,4 @@ Oui, Aspose.Slides prend en charge de nombreuses animations et transitions Power
 
 ### Existe-t-il une version d'essai disponible ?
 
-Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Slides pour .NET à partir du[ici](https://products.aspose.com/slides/net).
+ Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Slides pour .NET à partir du[ici](https://products.aspose.com/slides/net).

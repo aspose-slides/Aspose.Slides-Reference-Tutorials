@@ -76,7 +76,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx); // Enregistrer les modificati
 
 ### Comment charger une présentation PowerPoint à l’aide d’Aspose.Slides ?
 
- Vous pouvez charger une présentation en utilisant le`Presentation` constructeur de classe. Fournissez le chemin d'accès au fichier PowerPoint en tant que paramètre.
+ Vous pouvez charger une présentation en utilisant le`Presentation`constructeur de classe. Fournissez le chemin d'accès au fichier PowerPoint en tant que paramètre.
 
 ### Comment exporter une forme au format SVG ?
 

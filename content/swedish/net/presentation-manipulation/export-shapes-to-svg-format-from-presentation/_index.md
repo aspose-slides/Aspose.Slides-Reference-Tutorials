@@ -27,7 +27,7 @@ Följ dessa steg för att exportera former till SVG-format från en presentation
 
 ### 2. Lägg till referens till Aspose.Slides
 
-ditt projekt högerklickar du på "Referenser" i Solution Explorer och klickar sedan på "Lägg till referens". Bläddra och välj Aspose.Slides DLL du laddade ner.
+I ditt projekt högerklickar du på "Referenser" i Solution Explorer och klickar sedan på "Lägg till referens". Bläddra och välj Aspose.Slides DLL du laddade ner.
 
 ### 3. Ladda presentationen
 
@@ -76,7 +76,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx); // Spara ändringar i present
 
 ### Hur laddar jag en PowerPoint-presentation med Aspose.Slides?
 
- Du kan ladda en presentation med hjälp av`Presentation` klass konstruktör. Ange sökvägen till PowerPoint-filen som en parameter.
+ Du kan ladda en presentation med hjälp av`Presentation`klass konstruktör. Ange sökvägen till PowerPoint-filen som en parameter.
 
 ### Hur exporterar jag en form till SVG-format?
 
@@ -84,6 +84,6 @@ presentation.Save("output.pptx", SaveFormat.Pptx); // Spara ändringar i present
 
 ## Slutsats
 
-den här handledningen lärde du dig hur du exporterar former från en PowerPoint-presentation till SVG-format med Aspose.Slides för .NET-biblioteket. Detta kan vara användbart när du behöver extrahera individuella former för användning i andra applikationer eller plattformar som stöder SVG-grafik. Aspose.Slides ger ett enkelt och effektivt sätt att uppnå detta programmatiskt.
+I den här handledningen lärde du dig hur du exporterar former från en PowerPoint-presentation till SVG-format med Aspose.Slides för .NET-biblioteket. Detta kan vara användbart när du behöver extrahera individuella former för användning i andra applikationer eller plattformar som stöder SVG-grafik. Aspose.Slides ger ett enkelt och effektivt sätt att uppnå detta programmatiskt.
 
  För mer information och avancerade funktioner, se[Aspose.Slides för .NET API Referens](https://reference.aspose.com/slides/net/).

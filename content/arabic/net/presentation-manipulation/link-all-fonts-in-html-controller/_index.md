@@ -16,7 +16,7 @@ url: /ar/net/presentation-manipulation/link-all-fonts-in-html-controller/
 ### المتطلبات الأساسية
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 - Visual Studio أو أي برنامج .NET IDE مثبت
-- Aspose.Slides لمكتبة .NET (التنزيل من[هنا](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides لمكتبة .NET (التنزيل من[هنا](https://releases.aspose.com/slides/net/))
 
 ### الخطوة 1: إنشاء مشروع .NET جديد
 ابدأ بإنشاء مشروع .NET جديد في بيئة التطوير المتكاملة (IDE) المفضلة لديك وإعداد المشروع بالتكوينات اللازمة.
@@ -73,7 +73,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ## الأسئلة الشائعة
 
 ### أين يمكنني تنزيل Aspose.Slides لمكتبة .NET؟
-يمكنك تنزيل مكتبة Aspose.Slides for .NET من صفحة الإصدارات[هنا](https://releases.aspose.com/slides/net/).
+ يمكنك تنزيل مكتبة Aspose.Slides for .NET من صفحة الإصدارات[هنا](https://releases.aspose.com/slides/net/).
 
 ### هل يمكنني ربط جميع أنواع الخطوط باستخدام Aspose.Slides لـ .NET؟
 نعم، يمكنك ربط خطوط TrueType وخطوط OpenType وأنواع الخطوط المدعومة الأخرى باستخدام Aspose.Slides لـ .NET.

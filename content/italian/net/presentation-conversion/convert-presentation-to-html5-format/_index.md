@@ -58,7 +58,7 @@ namespace PresentationToHTML5Converter
 }
 ```
 
- Sostituire`"input.pptx"` con il percorso della presentazione di input e`"output.html"` con il percorso del file HTML di output desiderato.
+ Sostituire`"input.pptx"`con il percorso della presentazione di input e`"output.html"` con il percorso del file HTML di output desiderato.
 
 ## Eseguire l'applicazione
 

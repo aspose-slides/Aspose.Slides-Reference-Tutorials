@@ -107,4 +107,4 @@ Evet, Aspose.Slides dönüştürme sırasında birçok PowerPoint animasyonu ve 
 
 ### Deneme sürümü mevcut mu?
 
-Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://products.aspose.com/slides/net).
+ Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://products.aspose.com/slides/net).

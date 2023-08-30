@@ -107,4 +107,4 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 
 ### Доступна ли пробная версия?
 
-Да, вы можете загрузить бесплатную пробную версию Aspose.Slides для .NET с сайта[здесь](https://products.aspose.com/slides/net).
+ Да, вы можете загрузить бесплатную пробную версию Aspose.Slides для .NET с сайта[здесь](https://products.aspose.com/slides/net).

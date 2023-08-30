@@ -129,7 +129,7 @@ Das Format behält das visuelle Erscheinungsbild des Dokuments bei, einschließl
 
 ## Einhaltung von Archivierungsstandards
 
-Die PDF/A-Konformität entspricht den Archivierungsstandards und eignet sich daher für die Archivierung von rechtlichen und offiziellen Dokumenten.
+Die PDF/A-Konformität entspricht den Archivierungsstandards und eignet sich daher für die Archivierung von Rechts- und Dokumentendokumenten.
 
 ## Potenzielle Herausforderungen und wie man sie angeht
 
