@@ -10,3 +10,4 @@ url: /java/java-slides-licensing-and-initialization/
 
 ## Java Slides Licensing and Initialization Tutorials
 ### [Metered Licensing in Java Slides](./metered-licensing-java-slides/)
+Optimize your Aspose.Slides for Java usage with Metered Licensing. Learn how to set it up and monitor your API consumption.
