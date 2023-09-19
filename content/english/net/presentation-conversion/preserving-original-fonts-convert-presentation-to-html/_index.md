@@ -8,93 +8,94 @@ weight: 14
 url: /net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
 
-## Introduction
+In this comprehensive guide, we will walk you through the process of preserving original fonts when converting a presentation to HTML using Aspose.Slides for .NET. We'll provide you with the necessary C# source code and explain each step in detail. By the end of this tutorial, you'll be able to ensure that the fonts in your converted HTML document remain faithful to the original presentation.
 
-In the digital era, presentations have evolved from traditional slide decks to dynamic multimedia experiences. When you convert a presentation to HTML, it's crucial to maintain the visual integrity, especially when it comes to fonts. Aspose.Slides for .NET is a powerful library that provides a seamless solution for this requirement.
+## 1. Introduction
 
-## Understanding the Importance of Font Preservation
+When converting PowerPoint presentations to HTML, it's crucial to maintain the original fonts to ensure the visual consistency of your content. Aspose.Slides for .NET provides a powerful solution for achieving this. In this tutorial, we'll guide you through the steps needed to preserve the original fonts during the conversion process.
 
-Fonts are a fundamental aspect of any presentation's design and branding. They convey a specific tone, enhance readability, and reflect your message's essence. When converting presentations to HTML, preserving these fonts ensures a consistent and immersive user experience.
+## 2. Prerequisites
 
-## Getting Started with Aspose.Slides for .NET
+Before we begin, make sure you have the following prerequisites in place:
 
-## Installation
+- Visual Studio installed on your machine.
+- Aspose.Slides for .NET library added to your project.
 
-To begin, you need to install the Aspose.Slides for .NET library. You can do this via NuGet, a package manager for .NET. Open your NuGet Package Manager Console and run the following command:
+## 3. Setting Up Your Project
 
-```bash
-Install-Package Aspose.Slides
-```
+To get started, create a new project in Visual Studio and add the Aspose.Slides for .NET library as a reference.
 
-## Loading a Presentation
+## 4. Loading the Presentation
 
-Once you have the library installed, you can start using it in your .NET application. Load your presentation using the following code snippet:
-
-```csharp
-using Aspose.Slides;
-
-// Load the presentation
-using var presentation = new Presentation("your-presentation.pptx");
-```
-
-## Preserving Original Fonts
-
-To ensure the preservation of original fonts during the conversion, you need to set the appropriate options. Aspose.Slides allows you to control how fonts are embedded in the HTML output. Here's how you can do it:
-
-## Code Implementation
+Use the following code to load your PowerPoint presentation:
 
 ```csharp
-using Aspose.Slides.Export;
+string dataDir = "Your Document Directory";
 
-// Create an instance of HTML options
-var options = new HtmlOptions
+using (Presentation pres = new Presentation("input.pptx"))
 {
-    FontsFolder = "fonts", // Folder where fonts will be saved
-    HtmlFormatter = HtmlFormatter.CreateDocumentFormatter("", false),
-    HtmlFormatterExternalResources = false,
-    HtmlFormatterEmbedFonts = HtmlFormatterEmbedFontEnum.EmbedAll
-};
-
-// Convert presentation to HTML
-presentation.Save("output.html", SaveFormat.Html, options);
+    // Your code here
+}
 ```
 
-## Additional Customizations
+Replace `"Your Document Directory"` with the path to your presentation file.
 
-## Handling CSS for Fonts
+## 5. Excluding Default Fonts
 
-While the above code preserves fonts, you might want to fine-tune the CSS to ensure consistent rendering across different devices. You can include the font styles in the CSS file and link it to your HTML output.
+To exclude default fonts like Calibri and Arial, use the following code:
 
-## Dealing with External Resources
+```csharp
+string[] fontNameExcludeList = { "Calibri", "Arial" };
+```
 
-If your presentation contains external resources like images or videos, you should manage their paths appropriately in the HTML file to maintain the presentation's integrity.
+You can customize this list as needed.
 
-## Testing and Quality Assurance
+## 6. Embedding All Fonts
 
-Before finalizing your HTML presentation, perform thorough testing on various devices and browsers to ensure that fonts are rendered correctly. This step guarantees that your audience experiences the presentation as intended.
+Next, we'll embed all the fonts in the HTML document. This ensures that the original fonts are preserved. Use the following code:
 
-## Conclusion
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 
-Preserving original fonts when converting presentations to HTML is crucial for maintaining the visual impact and readability of your content. Aspose.Slides for .NET simplifies this process, allowing you to seamlessly convert presentations while ensuring font consistency.
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(embedFontsController)
+};
+```
 
-## FAQ's
+## 7. Saving as HTML
 
-## How does Aspose.Slides handle font embedding?
+Now, save the presentation as an HTML document with embedded fonts:
 
-Aspose.Slides offers different font embedding options. You can choose to embed all fonts, only embed those used in the presentation, or not embed any fonts at all.
+```csharp
+pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
+```
 
-## Can I customize the HTML output further?
+Replace `"output.html"` with your desired output file name.
 
-Absolutely! You can modify the CSS styles, add interactivity with JavaScript, and optimize the HTML structure for SEO and performance.
+## 8. Conclusion
 
-## What other formats can Aspose.Slides convert presentations to?
+In this tutorial, we've demonstrated how to preserve original fonts when converting a PowerPoint presentation to HTML using Aspose.Slides for .NET. By following these steps, you can ensure that your converted HTML document maintains the visual integrity of the original presentation.
 
-Apart from HTML, Aspose.Slides supports conversion to various formats, including PDF, images, and SVG.
+## 9. FAQs
 
-## Is Aspose.Slides suitable for both simple and complex presentations?
+### Q1: Can I customize the list of excluded fonts?
 
-Yes, Aspose.Slides is versatile and can handle presentations of varying complexity, ensuring consistent font preservation throughout the conversion process.
+Yes, you can. Modify the `fontNameExcludeList` array to include or exclude specific fonts according to your requirements.
 
-## How frequently is Aspose.Slides updated?
+### Q2: What if I don't want to embed all fonts?
 
-Aspose.Slides is regularly updated to incorporate new features, improvements, and compatibility enhancements, ensuring a reliable and up-to-date solution for presentation conversion.
+If you want to embed only specific fonts, you can modify the code accordingly. Consult the Aspose.Slides for .NET documentation for more details.
+
+### Q3: Are there any licensing requirements for using Aspose.Slides for .NET?
+
+Yes, you may need a valid license to use Aspose.Slides for .NET in your projects. Refer to the official Aspose website for licensing information.
+
+### Q4: Can I convert other file formats to HTML using Aspose.Slides for .NET?
+
+Aspose.Slides for .NET primarily focuses on PowerPoint presentations. For converting other file formats to HTML, you may need to explore other Aspose products tailored for those formats.
+
+### Q5: Where can I access additional resources and support?
+
+You can find more documentation, tutorials, and support on the Aspose website. Visit [Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/) for detailed information.
+

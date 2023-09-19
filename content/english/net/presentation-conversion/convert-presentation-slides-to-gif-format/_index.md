@@ -44,14 +44,12 @@ pres.Save(gifStream, SaveFormat.Gif);
 You can customize the GIF generation process by adjusting parameters like slide duration, size, and quality. For example, to set the slide duration to 2 seconds and the output GIF size to 800x600 pixels, use the following code:
 
 ```csharp
-GifOptions gifOptions = new GifOptions();
-gifOptions.SlideTransitions = true;
-gifOptions.SlideTransitionsTransparency = true;
-gifOptions.Quality = 80;
-gifOptions.SlideSize = new Size(800, 600);
-gifOptions.TimeResolution = 2000; // 2 seconds
-
-pres.Save(gifStream, SaveFormat.Gif);
+GifOptions gifOptions = new GifOptions(){
+FrameSize = new Size(800, 600), // the size of the resulted GIF
+DefaultDelay = 2000, // how long each slide will be showed until it will be changed to the next one
+TransitionFps = 35 // increase FPS to better transition animation quality
+}
+pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 ```
 
 ## Saving and Exporting the GIF
@@ -95,15 +93,14 @@ class Program
     {
         using Presentation pres = new Presentation("presentation.pptx");
 
-        GifOptions gifOptions = new GifOptions();
-        gifOptions.SlideTransitions = true;
-        gifOptions.SlideTransitionsTransparency = true;
-        gifOptions.Quality = 80;
-        gifOptions.SlideSize = new Size(800, 600);
-        gifOptions.TimeResolution = 2000; // 2 seconds
+        GifOptions gifOptions = new GifOptions(){
+        FrameSize = new Size(800, 600), // the size of the resulted GIF
+        DefaultDelay = 2000, // how long each slide will be showed until it will be changed to the next one
+        TransitionFps = 35 // increase FPS to better transition animation quality
+        }
 
         using MemoryStream gifStream = new MemoryStream();
-        pres.Save(gifStream, SaveFormat.Gif);
+        pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 
         using FileStream gifFile = new FileStream("output.gif", FileMode.Create);
         gifStream.WriteTo(gifFile);
