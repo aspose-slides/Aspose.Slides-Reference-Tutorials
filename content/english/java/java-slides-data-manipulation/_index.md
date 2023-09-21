@@ -34,6 +34,7 @@ Learn how to get values and unit scale from axes in Java Slides using Aspose.Sli
 ### [Get Width and Height from Chart Plot Area in Java Slides](./get-width-height-chart-plot-area-java-slides/)
 Learn how to retrieve chart plot area dimensions in Java Slides using Aspose.Slides for Java. Enhance your PowerPoint automation skills
 ### [Validate Chart Layout Added in Java Slides](./validate-chart-layout-added-java-slides/)
+Master chart layout validation in PowerPoint with Aspose.Slides for Java. Learn to manipulate charts programmatically for stunning presentations.
 ### [Invert If Negative for Individual Series in Java Slides](./invert-if-negative-individual-series-java-slides/)
 Learn how to use the Invert If Negative feature in Aspose.Slides for Java to enhance chart visuals in PowerPoint presentations.
 ### [Leader Line Color in Java Slides](./leader-line-color-java-slides/)
@@ -55,8 +56,14 @@ Learn how to set external workbooks in Java Slides using Aspose.Slides for Java.
 ### [Set External Workbook With Update Chart Data in Java Slides](./set-external-workbook-update-chart-data-java-slides/)
 Learn how to set external workbooks and update chart data in Java Slides using Aspose.Slides for Java. Enhance your PowerPoint automation skills.
 ### [Set Gap Width in Java Slides](./set-gap-width-java-slides/)
+Learn how to set Gap Width in Java Slides with Aspose.Slides for Java. Enhance chart visuals for your PowerPoint presentations.
 ### [Set Invert Fill Color Chart in Java Slides](./set-invert-fill-color-chart-java-slides/)
+Learn how to set invert fill colors for Java Slides charts using Aspose.Slides. Enhance your chart visualizations with this step-by-step guide and source code.
 ### [Set Layout Mode in Java Slides](./set-layout-mode-java-slides/)
+Learn how to set layout modes for Java slides using Aspose.Slides. Customize chart positioning and sizing in this step-by-step guide with source code.
 ### [Setting Automatic Pie Chart Slice Colors in Java Slides](./setting-automatic-pie-chart-slice-colors-java-slides/)
+Learn how to create dynamic pie charts with automatic slice colors in Java PowerPoint presentations using Aspose.Slides for Java. Step-by-step guide with source code.
 ### [Setting Callout For Data Label in Java Slides](./setting-callout-data-label-java-slides/)
+Learn How to Set Up Callouts for Data Labels in Aspose.Slides for Java. Step-by-step guide with source code.
 ### [Setting Date Format For Category Axis in Java Slides](./setting-date-format-category-axis-java-slides/)
+Learn how to set a date format for the category axis in a PowerPoint chart using Aspose.Slides for Java. Step-by-step guide with source code.
