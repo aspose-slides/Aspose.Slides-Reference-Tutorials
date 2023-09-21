@@ -15,12 +15,8 @@ Explore our Presentation Manipulation tutorials and discover the capabilities of
 ## Presentation Manipulation Tutorials
 ### [Create New Presentations Programmatically](./create-new-presentations-programmatically/)
 Learn how to create presentations programmatically using Aspose.Slides for .NET. Step-by-step guide with source code for efficient automation.
-### [Custom Headers and Fonts in Presentations](./custom-headers-and-fonts-in-presentations/)
-Learn how to customize headers and fonts in presentations using Aspose.Slides for .NET. Step-by-step guide with code examples. Enhance visual appeal and branding effortlessly.
 ### [Custom PDF Conversion Options for Presentations](./custom-pdf-conversion-options-for-presentations/)
 Enhance your PDF conversion options for presentations using Aspose.Slides for .NET. This step-by-step guide covers how to achieve custom PDF conversion settings, ensuring precise control over your output. Optimize your presentation conversions today.
-### [Formatting SVG Shapes in Presentations](./formatting-svg-shapes-in-presentations/)
-Learn how to format SVG shapes in presentations using Aspose.Slides for .NET. Step-by-step guide with source code. Elevate your presentation design today!
 ### [Export Math Paragraphs to MathML in Presentations](./export-math-paragraphs-to-mathml-in-presentations/)
 Enhance your presentations by exporting math paragraphs to MathML using Aspose.Slides for .NET. Follow our step-by-step guide for accurate mathematical rendering. Download Aspose.Slides and start creating compelling presentations today.
 ### [Export Media Files to HTML from Presentation](./export-media-files-to-html-from-presentation/)
@@ -33,8 +29,6 @@ Learn how to convert presentations into responsive HTML using Aspose.Slides for 
 Learn how to convert FODP presentations to various formats using Aspose.Slides for .NET. Create, customize, and optimize with ease.
 ### [Generate SVG with Custom Shape IDs in Presentations](./generate-svg-with-custom-shape-ids-in-presentations/)
 Generate engaging presentations with custom SVG shapes and IDs using Aspose.Slides for .NET. Learn how to create interactive slides step by step with source code examples. Enhance visual appeal and user interaction in your presentations.
-### [Link All Fonts in HTML Controller](./link-all-fonts-in-html-controller/)
-Learn how to link all fonts in an HTML controller using Aspose.Slides for .NET. This step-by-step guide with source code will help you ensure consistent font rendering in your presentations. 
 ### [Perform Mail Merge in Presentations](./perform-mail-merge-in-presentations/)
 Learn how to perform mail merge in presentations using Aspose.Slides for .NET in this comprehensive step-by-step guide. Create personalized and dynamic presentations with ease.
 ### [Convert ODP Format to PPTX Format](./convert-odp-format-to-pptx-format/)

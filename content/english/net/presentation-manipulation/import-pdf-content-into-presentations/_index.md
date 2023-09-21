@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### Step 4: Import PDF Content
-Use the `PdfContentEditor` class from Aspose.PDF to extract content from the PDF file and convert it into an image. Then, create a new slide in your presentation and add the imported image to it. Here's a simplified code snippet:
+With Aspose.Slides, you can seamlessly import content from the loaded PDF document into the newly created presentation. Here's a simplified code snippet:
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; // Choose the page to import
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        // Create a new slide and add the image to it
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### Step 5: Save the Presentation
