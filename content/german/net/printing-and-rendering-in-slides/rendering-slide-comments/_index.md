@@ -108,7 +108,7 @@ foreach (var slide in presentation.Slides)
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
         
-        // Passen Sie die Position des Textfelds an
+        //Passen Sie die Position des Textfelds an
         textBox.Top = slide.SlideSize.Size.Height - margin;
         margin += 30; // Erhöhen Sie den Rand für den nächsten Kommentar
     }

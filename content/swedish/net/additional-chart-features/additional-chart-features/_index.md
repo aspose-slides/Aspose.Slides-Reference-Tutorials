@@ -14,7 +14,7 @@ Aspose.Slides är ett kraftfullt .NET-bibliotek som gör det möjligt för utvec
 
 ## Ställa in miljön
 
- Innan du dyker in i implementeringen, se till att du har Aspose.Slides för .NET installerat. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/net).
+Innan du dyker in i implementeringen, se till att du har Aspose.Slides för .NET installerat. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/net).
 
 När biblioteket är installerat skapar du ett nytt .NET-projekt i din föredragna utvecklingsmiljö.
 
@@ -39,7 +39,7 @@ IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 3
 IChartDataWorkbook dataWorkbook = chart.ChartData.ChartDataWorkbook;
 ```
 
-## Anpassa diagramets utseende
+## Anpassa diagrammets utseende
 
 För att göra ditt diagram visuellt tilltalande kan du anpassa dess utseende. Låt oss utforska några anpassningsalternativ.
 

@@ -120,7 +120,7 @@ using Aspose.Slides;
 // Загрузите презентацию
 using Presentation presentation = new Presentation("your-presentation.pptx");
 
-//Выровняйте верхние и нижние колонтитулы
+// Выровняйте верхние и нижние колонтитулы
 foreach (ISlide slide in presentation.Slides)
 {
     slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;

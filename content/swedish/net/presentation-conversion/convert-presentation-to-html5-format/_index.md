@@ -9,7 +9,7 @@ url: /sv/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
 ## Konvertera presentation till HTML5-format med Aspose.Slides för .NET
 
-den här guiden går vi igenom processen att konvertera en PowerPoint-presentation (PPT/PPTX) till HTML5-format med hjälp av Aspose.Slides för .NET-biblioteket. Aspose.Slides är ett kraftfullt bibliotek som låter dig manipulera och konvertera PowerPoint-presentationer i olika format.
+I den här guiden går vi igenom processen att konvertera en PowerPoint-presentation (PPT/PPTX) till HTML5-format med hjälp av Aspose.Slides för .NET-biblioteket. Aspose.Slides är ett kraftfullt bibliotek som låter dig manipulera och konvertera PowerPoint-presentationer i olika format.
 
 ## Förutsättningar
 
@@ -58,7 +58,7 @@ namespace PresentationToHTML5Converter
 }
 ```
 
- Byta ut`"input.pptx"`med vägen till din input presentation och`"output.html"` med önskad HTML-filsökväg.
+ Byta ut`"input.pptx"` med vägen till din input presentation och`"output.html"` med önskad HTML-filsökväg.
 
 ## Kör applikationen
 
@@ -72,7 +72,7 @@ Genom att följa dessa steg kan du enkelt konvertera PowerPoint-presentationer t
 
 ### Hur kan jag anpassa utseendet på HTML5-utdata?
 
- Du kan anpassa utseendet på HTML5-utdata genom att ställa in olika alternativ i`Html5Options` klass. Referera till[dokumentation](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) för tillgängliga anpassningsalternativ.
+ Du kan anpassa utseendet på HTML5-utdata genom att ställa in olika alternativ i`Html5Options` klass. Referera till[dokumentation](https://reference.aspose.com/slides/net/aspose.slides.export/html5options)för tillgängliga anpassningsalternativ.
 
 ### Kan jag konvertera presentationer med animationer och övergångar?
 

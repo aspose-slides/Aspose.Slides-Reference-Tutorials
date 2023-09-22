@@ -65,7 +65,7 @@ if (oleObject.ObjectData is OleEmbeddedData oleData)
 После успешного внесения желаемых изменений в данные объекта OLE не забудьте сохранить презентацию, чтобы сохранить изменения:
 
 ```csharp
-//Сохраните презентацию с изменениями.
+// Сохраните презентацию с изменениями.
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

@@ -2,7 +2,7 @@
 title: Manipolazione della presentazione
 linktitle: Manipolazione della presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Sblocca il potenziale della manipolazione delle presentazioni con Aspose.Slides per tutorial .NET. Scopri come creare, personalizzare e migliorare dinamicamente le presentazioni PowerPoint a livello di codice. Migliora oggi stesso le tue capacità di elaborazione di PowerPoint!
+description: Sblocca il potenziale della manipolazione delle presentazioni con Aspose.Slides per tutorial .NET. Scopri come creare, personalizzare e migliorare dinamicamente le presentazioni PowerPoint a livello di programmazione. Migliora oggi stesso le tue capacità di elaborazione di PowerPoint!
 type: docs
 weight: 11
 url: /it/net/presentation-manipulation/
@@ -15,12 +15,8 @@ Esplora i nostri tutorial sulla manipolazione delle presentazioni e scopri le fu
 ## Esercitazioni sulla manipolazione della presentazione
 ### [Crea nuove presentazioni a livello di codice](./create-new-presentations-programmatically/)
 Scopri come creare presentazioni a livello di codice utilizzando Aspose.Slides per .NET. Guida passo passo con codice sorgente per un'automazione efficiente.
-### [Intestazioni e caratteri personalizzati nelle presentazioni](./custom-headers-and-fonts-in-presentations/)
-Scopri come personalizzare intestazioni e caratteri nelle presentazioni utilizzando Aspose.Slides per .NET. Guida passo passo con esempi di codice. Migliora l'attrattiva visiva e il branding senza sforzo.
 ### [Opzioni di conversione PDF personalizzate per presentazioni](./custom-pdf-conversion-options-for-presentations/)
 Migliora le tue opzioni di conversione PDF per le presentazioni utilizzando Aspose.Slides per .NET. Questa guida passo passo spiega come ottenere impostazioni di conversione PDF personalizzate, garantendo un controllo preciso sul tuo output. Ottimizza le conversioni della tua presentazione oggi stesso.
-### [Formattazione di forme SVG nelle presentazioni](./formatting-svg-shapes-in-presentations/)
-Scopri come formattare le forme SVG nelle presentazioni utilizzando Aspose.Slides per .NET. Guida passo passo con il codice sorgente. Migliora il design della tua presentazione oggi!
 ### [Esporta paragrafi matematici in MathML nelle presentazioni](./export-math-paragraphs-to-mathml-in-presentations/)
 Migliora le tue presentazioni esportando paragrafi di matematica in MathML utilizzando Aspose.Slides per .NET. Segui la nostra guida passo passo per un rendering matematico accurato. Scarica Aspose.Slides e inizia a creare presentazioni avvincenti oggi stesso.
 ### [Esporta file multimediali in HTML dalla presentazione](./export-media-files-to-html-from-presentation/)
@@ -33,8 +29,6 @@ Scopri come convertire le presentazioni in HTML reattivo utilizzando Aspose.Slid
 Scopri come convertire le presentazioni FODP in vari formati utilizzando Aspose.Slides per .NET. Crea, personalizza e ottimizza con facilità.
 ### [Genera SVG con ID forma personalizzati nelle presentazioni](./generate-svg-with-custom-shape-ids-in-presentations/)
 Genera presentazioni accattivanti con forme e ID SVG personalizzati utilizzando Aspose.Slides per .NET. Scopri come creare diapositive interattive passo dopo passo con esempi di codice sorgente. Migliora l'attrattiva visiva e l'interazione dell'utente nelle tue presentazioni.
-### [Collega tutti i caratteri nel controller HTML](./link-all-fonts-in-html-controller/)
-Scopri come collegare tutti i caratteri in un controller HTML utilizzando Aspose.Slides per .NET. Questa guida passo passo con codice sorgente ti aiuterà a garantire un rendering coerente dei caratteri nelle tue presentazioni. 
 ### [Esegui la stampa unione nelle presentazioni](./perform-mail-merge-in-presentations/)
 Scopri come eseguire la stampa unione nelle presentazioni utilizzando Aspose.Slides per .NET in questa guida passo passo completa. Crea presentazioni personalizzate e dinamiche con facilità.
 ### [Converti il formato ODP nel formato PPTX](./convert-odp-format-to-pptx-format/)

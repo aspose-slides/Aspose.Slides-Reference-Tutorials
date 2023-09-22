@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 // Yeni slaytlar ekle
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-// Gerektiğinde daha fazla slayt ekleyin
+//Gerektiğinde daha fazla slayt ekleyin
 ```
 
 ### Ok Şekilli Çizgiler Ekleme
@@ -85,11 +85,11 @@ Kesinlikle! Aspose.Slides for .NET, ok başı stillerini, boyutlarını ve renkl
 
 ### Aspose.Slides'ı kullanmak için kodlama deneyimi gerekli mi?
 
-Bazı kodlama bilgileri faydalı olsa da, sağlanan adım adım kılavuz süreci basitleştirir. .NET programlamaya ilişkin temel bir anlayışla sunumlarınızı kolayca takip edebilir ve geliştirebilirsiniz.
+Bazı kodlama bilgileri faydalı olsa da, sağlanan adım adım kılavuz süreci basitleştirir. Temel .NET programlama anlayışıyla sunumlarınızı kolayca takip edebilir ve geliştirebilirsiniz.
 
 ### Mevcut sunumlara ok şeklinde çizgiler ekleyebilir miyim?
 
-Evet yapabilirsin! Aspose.Slides for .NET, mevcut sunumları yüklemenize, istediğiniz slaytları tanımlamanıza ve ok şeklinde çizgiler eklemenize olanak sağlar.
+Evet yapabilirsin! Aspose.Slides for .NET, mevcut sunumları yüklemenize, istediğiniz slaytları belirlemenize ve ok şeklinde çizgiler eklemenize olanak tanır.
 
 ### Ok şeklindeki çizgiler yalnızca iş sunumları için mi uygundur?
 

@@ -43,7 +43,7 @@ var destPresentation = new Presentation("destination.pptx");
 لنسخ شريحة من العرض التقديمي المصدر إلى العرض التقديمي الوجهة مع الاحتفاظ بالشريحة الرئيسية، استخدم الكود التالي:
 
 ```csharp
-// انسخ الشريحة من المصدر إلى الوجهة
+//انسخ الشريحة من المصدر إلى الوجهة
 var sourceSlide = sourcePresentation.Slides[0];
 var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 ```
@@ -76,7 +76,7 @@ namespace SlideCopyApp
             // تحميل العرض التقديمي للوجهة
             var destPresentation = new Presentation("destination.pptx");
 
-            // انسخ الشريحة من المصدر إلى الوجهة
+            //انسخ الشريحة من المصدر إلى الوجهة
             var sourceSlide = sourcePresentation.Slides[0];
             var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 
@@ -95,7 +95,7 @@ namespace SlideCopyApp
 
 ### كيف يمكنني تثبيت Aspose.Slides لمكتبة .NET؟
 
- يمكنك تنزيل مكتبة Aspose.Slides for .NET من[Aspose.Slides لموقع ويب .NET](https://releases.aspose.com/slides/net/)اتبع تعليمات التثبيت الخاصة بهم لدمجها في مشروعك.
+يمكنك تنزيل مكتبة Aspose.Slides for .NET من[Aspose.Slides لموقع ويب .NET](https://releases.aspose.com/slides/net/). اتبع تعليمات التثبيت الخاصة بهم لدمجها في مشروعك.
 
 ### هل يمكنني نسخ شرائح متعددة مرة واحدة باستخدام هذه الطريقة؟
 

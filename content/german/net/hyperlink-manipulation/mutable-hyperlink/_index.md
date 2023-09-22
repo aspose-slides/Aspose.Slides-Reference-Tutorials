@@ -14,7 +14,7 @@ Veränderbare Hyperlinks sind Hyperlinks innerhalb einer Präsentation, die basi
 
 ## Einrichten der Entwicklungsumgebung
 
- Um zu beginnen, müssen Sie die Aspose.Slides für .NET-Bibliothek installieren. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/). Befolgen Sie nach dem Herunterladen die Installationsanweisungen.
+Um zu beginnen, müssen Sie die Aspose.Slides für .NET-Bibliothek installieren. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/). Befolgen Sie nach dem Herunterladen die Installationsanweisungen.
 
 ## Erstellen einer neuen Präsentation
 
@@ -43,7 +43,7 @@ Formatieren Sie den Inhalt nach Bedarf mit Eigenschaften wie Schriftgröße und 
 
 ## Hyperlinks in Aspose.Slides verstehen
 
-Aspose.Slides unterstützt verschiedene Arten von Hyperlinks, einschließlich Weblinks, E-Mail-Adressen und Links zu anderen Folien innerhalb der Präsentation. Benutzen Sie die`HyperlinkManager` Klasse zum Arbeiten mit Hyperlinks.
+ Aspose.Slides unterstützt verschiedene Arten von Hyperlinks, einschließlich Weblinks, E-Mail-Adressen und Links zu anderen Folien innerhalb der Präsentation. Benutzen Sie die`HyperlinkManager` Klasse zum Arbeiten mit Hyperlinks.
 
 ## Hinzufügen veränderlicher Hyperlinks
 

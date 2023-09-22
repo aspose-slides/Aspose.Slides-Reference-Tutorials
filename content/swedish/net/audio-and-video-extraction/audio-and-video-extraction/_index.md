@@ -60,7 +60,7 @@ foreach (var slide in presentation.Slides)
     {
         if (shape is IVideoFrame videoFrame)
         {
-            //Extrahera video från videoramen
+            // Extrahera video från videoramen
             byte[] videoData = videoFrame.EmbeddedVideo.BinaryData;
             // Bearbeta videodata efter behov
         }
@@ -93,7 +93,7 @@ I den här guiden har vi utforskat hur man extraherar ljud- och videoinnehåll f
 
 ### Hur installerar jag Aspose.Slides för .NET?
 
- Du kan ladda ner Aspose.Slides för .NET-biblioteket från[här](https://releases.aspose.com/slides/net)och följ installationsinstruktionerna i dokumentationen.
+ Du kan ladda ner Aspose.Slides för .NET-biblioteket från[här](https://releases.aspose.com/slides/net) och följ installationsinstruktionerna i dokumentationen.
 
 ### Kan jag extrahera flera mediefiler från en enda bild?
 

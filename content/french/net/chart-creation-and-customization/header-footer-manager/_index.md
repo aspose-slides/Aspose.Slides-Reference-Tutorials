@@ -2,7 +2,7 @@
 title: Gérer l'en-tête et le pied de page dans les diapositives
 linktitle: Gérer l'en-tête et le pied de page dans les diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment gérer les en-têtes et les pieds de page des diapositives à l'aide d'Aspose.Slides pour .NET. Personnalisez vos présentations avec facilité et précision.
+description: Découvrez comment gérer les en-têtes et les pieds de page dans les diapositives à l'aide d'Aspose.Slides pour .NET. Personnalisez vos présentations avec facilité et précision.
 type: docs
 weight: 14
 url: /fr/net/chart-creation-and-customization/header-footer-manager/
@@ -120,7 +120,7 @@ using Aspose.Slides;
 // Charger la présentation
 using Presentation presentation = new Presentation("your-presentation.pptx");
 
-//Aligner les en-têtes et les pieds de page
+// Aligner les en-têtes et les pieds de page
 foreach (ISlide slide in presentation.Slides)
 {
     slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;

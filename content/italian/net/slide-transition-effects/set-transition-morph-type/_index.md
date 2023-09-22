@@ -2,7 +2,7 @@
 title: Imposta il tipo di morphing della transizione sulla diapositiva
 linktitle: Imposta il tipo di morphing della transizione sulla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come impostare il tipo di morph di transizione sulle diapositive utilizzando Aspose.Slides per .NET. Guida passo passo con esempi di codice. Migliora le tue presentazioni adesso!
+description: Scopri come impostare il tipo di morph di transizione sulle diapositive utilizzando Aspose.Slides per .NET. Guida passo passo con esempi di codice. Migliora le tue presentazioni ora!
 type: docs
 weight: 12
 url: /it/net/slide-transition-effects/set-transition-morph-type/

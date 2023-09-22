@@ -48,7 +48,7 @@ IChart chart = (IChart)slide.Shapes[0];
 // İlk seriyi temizlemek istediğinizi varsayarsak
 IChartSeries series = chart.ChartData.Series[0];
 
-// Veri noktalarını yineleyin ve temizlenecek olanları belirleyin
+//Veri noktalarını yineleyin ve temizlenecek olanları belirleyin
 List<int> dataPointsToRemove = new List<int> { 2, 4, 6 }; // Örnek veri noktası endeksleri
 ```
 

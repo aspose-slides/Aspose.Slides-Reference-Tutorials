@@ -98,7 +98,7 @@ presentation.Save(modifiedPath, SaveFormat.Pptx);
 
 绝对地！ Aspose.Slides 旨在满足各种项目的需求，包括个人、教育和商业项目。
 
-### 我需要丰富的编程知识才能使用 Aspose.Slides for .NET 吗？
+### 我是否需要丰富的编程知识才能使用 Aspose.Slides for .NET？
 
 虽然基本的编程知识很有用，但 Aspose.Slides 提供了全面的文档和示例来指导您完成整个过程。
 

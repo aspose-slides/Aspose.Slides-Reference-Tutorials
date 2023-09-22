@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### 第 4 步：导入 PDF 内容
-使用`PdfContentEditor`Aspose.PDF 中的类从 PDF 文件中提取内容并将其转换为图像。然后，在演示文稿中创建一个新幻灯片并将导入的图像添加到其中。这是一个简化的代码片段：
+使用Aspose.Slides，您可以将加载的PDF文档中的内容无缝导入到新创建的演示文稿中。这是一个简化的代码片段：
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; //选择要导入的页面
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        //创建一个新幻灯片并将图像添加到其中
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### 第 5 步：保存演示文稿

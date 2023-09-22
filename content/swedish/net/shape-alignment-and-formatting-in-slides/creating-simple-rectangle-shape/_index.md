@@ -47,7 +47,7 @@ class Program
 }
 ```
 
-## Lägga till en rektangelform till bilden
+## Lägga till en rektangelform på bilden
 
 Nu när vi har vår presentationsbild redo, låt oss fortsätta att lägga till en rektangelform till den.
 

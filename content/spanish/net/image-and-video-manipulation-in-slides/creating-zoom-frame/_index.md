@@ -110,7 +110,7 @@ Sí, puede aplicar el efecto de zoom a varias diapositivas iterando a través de
 
 ### ¿Puedo animar el cuadro de zoom durante una presentación de diapositivas?
 
- Sí, puede animar el cuadro de zoom para que se produzca durante una presentación de diapositivas utilizando el`AddEffect` método de la`IShape` interfaz. De esta manera, el marco de zoom se puede activar en un punto específico de la presentación.
+Sí, puede animar el cuadro de zoom para que se produzca durante una presentación de diapositivas utilizando el`AddEffect` método de la`IShape` interfaz. De esta manera, el marco de zoom se puede activar en un punto específico de la presentación.
 
 ### ¿Cómo elimino el efecto de zoom de una diapositiva?
 

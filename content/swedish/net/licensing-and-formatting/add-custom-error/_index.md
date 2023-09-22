@@ -131,7 +131,7 @@ Du kan lägga till felstaplar till flera serier i ett diagram. Låt oss lägga t
 // Gå till den andra serien
 IChartSeries secondSeries = chart.ChartData.Series[1];
 
-// Lägg till felstaplar i den andra serien
+// Lägg till felstaplar till den andra serien
 IErrorBarsFormat secondSeriesErrorBars = secondSeries.ErrorBarsFormat.Add();
 secondSeriesErrorBars.Type = ErrorBarType.Percent;
 

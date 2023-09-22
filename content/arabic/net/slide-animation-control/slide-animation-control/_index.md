@@ -14,7 +14,7 @@ url: /ar/net/slide-animation-control/slide-animation-control/
 
 ## إعداد بيئة التطوير الخاصة بك
 
- قبل أن نتعمق في التعليمات البرمجية، تأكد من تثبيت Aspose.Slides for .NET في مشروعك. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/net/) . بعد التنزيل، اتبع تعليمات التثبيت الموجودة في[توثيق](https://reference.aspose.com/slides/net/).
+قبل أن نتعمق في التعليمات البرمجية، تأكد من تثبيت Aspose.Slides for .NET في مشروعك. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/net/) . بعد التنزيل، اتبع تعليمات التثبيت الموجودة في[توثيق](https://reference.aspose.com/slides/net/).
 
 ## الخطوة 1: إضافة الشرائح إلى العرض التقديمي
 
@@ -95,9 +95,9 @@ presentation.Save("animated_presentation.pdf", SaveFormat.Pdf);
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
 
- يمكنك تنزيل Aspose.Slides لـ .NET من[هذا الرابط](https://releases.aspose.com/slides/net/) واتبع تعليمات التثبيت الواردة في[توثيق](https://reference.aspose.com/slides/net/).
+ يمكنك تنزيل Aspose.Slides لـ .NET من[هذا الرابط](https://releases.aspose.com/slides/net/)واتبع تعليمات التثبيت الواردة في[توثيق](https://reference.aspose.com/slides/net/).
 
-### هل يمكنني تطبيق الرسوم المتحركة على عناصر شريحة معينة؟
+### هل يمكنني تطبيق الرسوم المتحركة على عناصر شريحة محددة؟
 
 نعم، يمكنك تطبيق الرسوم المتحركة على عناصر الشرائح الفردية مثل الأشكال والصور باستخدام Aspose.Slides for .NET.
 

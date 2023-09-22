@@ -24,7 +24,7 @@ Geometri şekillerinden segmentlerin çıkarılmasına geçmeden önce geliştir
 
 1.  Kurulum: Aspose.Slides for .NET kütüphanesini indirip kurarak başlayın. En son sürümü bulabilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-2.  API Referansı:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/) Çok çeşitli özellikleri ve işlevleri keşfetmek için.
+2.  API Referansı:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/)Çok çeşitli özellikleri ve işlevleri keşfetmek için.
 
 ## Segmentleri Kaldırma: Adım Adım
 
@@ -61,7 +61,7 @@ Segmentleri geometri şekillerinden seçerek kaldırarak, hedef kitlenizde yank�
 
 ### Aspose.Slides for .NET'i nasıl indirebilirim?
 
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Aspose sürümler sayfası](https://releases.aspose.com/slides/net/). 
+Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Aspose sürümler sayfası](https://releases.aspose.com/slides/net/). 
 
 ### Aspose.Slides'ta segment kaldırma işlemini geri alabilir miyim?
 

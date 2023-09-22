@@ -14,7 +14,7 @@ url: /ru/net/slide-animation-control/slide-animation-control/
 
 ## Настройка среды разработки
 
- Прежде чем мы углубимся в код, убедитесь, что в вашем проекте установлен Aspose.Slides for .NET. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/net/) . После загрузки следуйте инструкциям по установке в[документация](https://reference.aspose.com/slides/net/).
+Прежде чем мы углубимся в код, убедитесь, что в вашем проекте установлен Aspose.Slides for .NET. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/net/) . После загрузки следуйте инструкциям по установке в[документация](https://reference.aspose.com/slides/net/).
 
 ## Шаг 1. Добавление слайдов в презентацию
 
@@ -95,9 +95,9 @@ presentation.Save("animated_presentation.pdf", SaveFormat.Pdf);
 
 ### Как установить Aspose.Slides для .NET?
 
- Вы можете скачать Aspose.Slides для .NET с сайта[эта ссылка](https://releases.aspose.com/slides/net/) и следуйте инструкциям по установке, приведенным в[документация](https://reference.aspose.com/slides/net/).
+ Вы можете скачать Aspose.Slides для .NET с сайта[эта ссылка](https://releases.aspose.com/slides/net/)и следуйте инструкциям по установке, приведенным в[документация](https://reference.aspose.com/slides/net/).
 
-### Могу ли я применить анимацию к определенным элементам слайда?
+### Могу ли я применять анимацию к определенным элементам слайда?
 
 Да, вы можете применять анимацию к отдельным элементам слайда, таким как фигуры и изображения, с помощью Aspose.Slides для .NET.
 

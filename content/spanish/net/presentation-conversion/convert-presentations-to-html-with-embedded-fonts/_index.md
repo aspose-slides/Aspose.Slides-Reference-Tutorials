@@ -8,72 +8,115 @@ weight: 13
 url: /es/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
 
-## Introducción a convertir presentaciones a HTML con fuentes incrustadas
+En la era digital actual, compartir presentaciones y documentos en línea se ha convertido en una práctica común. Sin embargo, un desafío que surge a menudo es garantizar que las fuentes se muestren correctamente al convertir presentaciones a HTML. Este tutorial paso a paso lo guiará a través del proceso de uso de Aspose.Slides para .NET para convertir presentaciones a HTML con fuentes incrustadas, asegurando que sus documentos se vean tal como usted esperaba.
 
-Convertir presentaciones a formato HTML puede ser esencial por varias razones, como compartir contenido en línea, incrustar presentaciones en sitios web o hacerlas accesibles a través de diferentes dispositivos. Sin embargo, mantener el aspecto y las fuentes originales de la presentación es fundamental para garantizar la coherencia y la legibilidad. Aspose.Slides para .NET es una biblioteca confiable que permite a los desarrolladores realizar este tipo de conversiones conservando las fuentes incrustadas.
+## Introducción a Aspose.Slides para .NET
+
+Antes de sumergirnos en el tutorial, presentemos brevemente Aspose.Slides para .NET. Es una poderosa biblioteca que permite a los desarrolladores trabajar con presentaciones de PowerPoint en aplicaciones .NET. Con Aspose.Slides, puede crear, modificar y convertir archivos de PowerPoint mediante programación.
 
 ## Requisitos previos
 
-Antes de sumergirnos en el proceso de conversión, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Conocimientos básicos del lenguaje de programación C#.
-- Visual Studio instalado
-- Aspose.Slides para la biblioteca .NET
+-  Aspose.Slides para .NET: debe tener la biblioteca Aspose.Slides instalada en su proyecto. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/).
 
-## Instalación de Aspose.Slides para .NET
+## Paso 1: configura tu proyecto
 
-Para comenzar, siga estos pasos para instalar Aspose.Slides para .NET:
+1. Cree un nuevo proyecto o abra uno existente en su entorno de desarrollo .NET preferido.
 
-1. Abra Visual Studio y cree un nuevo proyecto de C#.
-2. Haga clic derecho en el proyecto en el Explorador de soluciones y seleccione "Administrar paquetes NuGet".
-3. Busque "Aspose.Slides" e instale el paquete.
+2. Agregue una referencia a la biblioteca Aspose.Slides en su proyecto.
 
-## Cargando presentación
+3. Importe los espacios de nombres necesarios en su código:
 
-Una vez que tenga la biblioteca instalada, puede comenzar el proceso de conversión. A continuación se explica cómo cargar una presentación:
+   ```csharp
+   using Aspose.Slides;
+   ```
 
-```csharp
-using Aspose.Slides;
+## Paso 2: cargue su presentación
 
-// Cargar la presentación
-using Presentation presentation = new Presentation("your-presentation.pptx");
-```
-
-## Incrustar fuentes
-
-Para asegurarse de que las fuentes estén incrustadas en la salida HTML, debe incluir el siguiente código:
+ Para comenzar, debes cargar la presentación que deseas convertir a HTML. Reemplazar`"Your Document Directory"` con el directorio real donde se encuentra su archivo de presentación.
 
 ```csharp
-// Incrustar todas las fuentes utilizadas en la presentación.
-foreach (var font in presentation.FontsManager.GetFonts())
+string dataDir = "Your Document Directory";
+using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    presentation.EmbedFontsManager.AddEmbeddedFont(font);
+    // Tu código va aquí
 }
 ```
 
-## Convirtiendo a HTML
+## Paso 3: excluir las fuentes de presentación predeterminadas
 
-Con las fuentes incrustadas, ahora puedes proceder a convertir la presentación a HTML:
+En este paso, puede especificar cualquier fuente de presentación predeterminada que desee excluir de la incrustación. Esto puede ayudar a optimizar el tamaño del archivo HTML resultante.
 
 ```csharp
-// Guarde la presentación como HTML con fuentes incrustadas
-presentation.Save("output.html", SaveFormat.Html);
+string[] fontNameExcludeList = { };
+```
+
+## Paso 4: elija un controlador HTML
+
+Ahora tienes dos opciones para incrustar fuentes en HTML:
+
+### Opción 1: incrustar todas las fuentes
+
+ Para incrustar todas las fuentes utilizadas en la presentación, utilice el`EmbedAllFontsHtmlController`.
+
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
+```
+
+### Opción 2: vincular todas las fuentes
+
+ Para vincular todas las fuentes utilizadas en la presentación, utilice el`LinkAllFontsHtmlController`. Debe especificar el directorio donde se encuentran las fuentes en su sistema.
+
+```csharp
+LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
+```
+
+## Paso 5: definir las opciones HTML
+
+ Crear un`HtmlOptions` objeto y configure el formateador HTML al que seleccionó en el paso anterior.
+
+```csharp
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Utilice embedFontsController para incrustar todas las fuentes
+};
+```
+
+## Paso 6: guardar como HTML
+
+ Finalmente, guarde la presentación como un archivo HTML. Puedes elegir cualquiera`SaveFormat.Html` o`SaveFormat.Html5` dependiendo de sus requisitos.
+
+```csharp
+pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
 ## Conclusión
 
-En esta guía, exploramos el proceso de conversión de presentaciones a HTML con fuentes incrustadas usando Aspose.Slides para .NET. Cubrimos los requisitos previos, la instalación de la biblioteca, la carga de una presentación, la incorporación de fuentes y la realización de la conversión. Si sigue estos pasos, podrá asegurarse de que sus presentaciones se conviertan con precisión al formato HTML manteniendo las fuentes originales.
+¡Felicidades! Ha convertido con éxito su presentación a HTML con fuentes incrustadas usando Aspose.Slides para .NET. Esto garantiza que sus fuentes se mostrarán correctamente al compartir sus presentaciones en línea.
+
+Ahora puede compartir fácilmente sus presentaciones bellamente formateadas con confianza, sabiendo que su audiencia las verá exactamente como usted esperaba.
+
+ Para obtener más información y referencias API detalladas, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
 
 ## Preguntas frecuentes
 
-### ¿Cómo puedo instalar Aspose.Slides para .NET?
+### 1. ¿Puedo convertir presentaciones de PowerPoint a HTML usando Aspose.Slides para .NET en modo por lotes?
 
- Puede instalar Aspose.Slides para .NET utilizando el administrador de paquetes NuGet. Para obtener instrucciones detalladas, consulte la[documentación](https://docs.aspose.com/slides/net/installation/).
+Sí, puede convertir por lotes varias presentaciones a HTML usando Aspose.Slides para .NET recorriendo sus archivos de presentación y aplicando el proceso de conversión a cada uno.
 
-### ¿Puedo convertir presentaciones de PowerPoint a otros formatos también?
+### 2. ¿Existe alguna forma de personalizar la apariencia de la salida HTML?
 
- Sí, Aspose.Slides para .NET admite una amplia gama de formatos para convertir presentaciones, incluidos PDF, imágenes y más. Comprobar el[documentación](https://reference.aspose.com/slides/net/) para obtener una lista completa de formatos compatibles.
+¡Ciertamente! Aspose.Slides para .NET proporciona varias opciones para personalizar la apariencia y el formato de la salida HTML, como ajustar colores, fuentes y diseño.
 
-### ¿Aspose.Slides para .NET es adecuado tanto para aplicaciones web como de escritorio?
+### 3. ¿Existe alguna limitación para incrustar fuentes en HTML usando Aspose.Slides para .NET?
 
-Sí, Aspose.Slides para .NET es versátil y se puede utilizar tanto en aplicaciones web como de escritorio. Proporciona API que son compatibles con varios marcos .NET. Comprobar el[documentación](https://docs.aspose.com/slides/net/product-support/) para más información.
+Si bien Aspose.Slides para .NET ofrece excelentes capacidades de incrustación de fuentes, tenga en cuenta que el tamaño de sus archivos HTML puede aumentar al incrustar fuentes. Asegúrese de optimizar sus opciones de fuente para el uso web.
+
+### 4. ¿Puedo convertir presentaciones de PowerPoint a otros formatos con Aspose.Slides para .NET?
+
+Sí, Aspose.Slides para .NET admite una amplia gama de formatos de salida, incluidos PDF, imágenes y más. Puede convertir fácilmente sus presentaciones al formato que elija.
+
+### 5. ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Slides para .NET?
+
+ Puede acceder a una gran cantidad de recursos, incluida documentación, en el[Aspose.Slides para referencia de API .NET](https://reference.aspose.com/slides/net/).

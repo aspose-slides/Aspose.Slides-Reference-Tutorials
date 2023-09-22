@@ -115,7 +115,7 @@ class Program
                     {
                         emphasisEffect.Type = EmphasisAnimationType.GrowWithColor;
                     }
-                    //Hantera andra animationstyper på liknande sätt
+                    // Hantera andra animationstyper på liknande sätt
                 }
             }
 
@@ -140,7 +140,7 @@ den här omfattande guiden har utrustat dig med expertis för att utnyttja kraft
 
 ### Kan jag ändra animeringar av rörelsebanan med Aspose.Slides?
 
- Ja, du kan ändra animeringar av rörelsebanan med Aspose.Slides genom att öppna`MotionPathEffect` egenskaper och anpassa dem därefter.
+ Ja, du kan ändra animeringar av rörelsebanan med Aspose.Slides genom att öppna`MotionPathEffect`egenskaper och anpassa dem därefter.
 
 ### Är det möjligt att lägga till anpassade animationer till element i en bild?
 

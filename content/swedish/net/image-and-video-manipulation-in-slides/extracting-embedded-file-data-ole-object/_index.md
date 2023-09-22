@@ -21,7 +21,7 @@ OLE-objekt används i Microsoft Office-program för att möjliggöra inbäddning
 Innan vi börjar, se till att du har följande förutsättningar på plats:
 
 - Visual Studio eller någon annan .NET-utvecklingsmiljö.
--  Aspose.Slides för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
+- Aspose.Slides för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
 
 ## Konfigurera projektet
 

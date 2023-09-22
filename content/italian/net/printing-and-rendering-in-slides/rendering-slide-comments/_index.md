@@ -108,7 +108,7 @@ foreach (var slide in presentation.Slides)
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
         
-        // Regola la posizione della casella di testo
+        //Regola la posizione della casella di testo
         textBox.Top = slide.SlideSize.Size.Height - margin;
         margin += 30; // Aumenta il margine per il commento successivo
     }

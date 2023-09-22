@@ -92,7 +92,7 @@ slide.Shapes.DistributeHorizontally();
 Se la tua presentazione contiene forme raggruppate, puoi allineare l'intero gruppo:
 
 ```csharp
-//Accedi a una forma raggruppata
+// Accedi a una forma raggruppata
 IGroupShape groupShape = (IGroupShape)slide.Shapes[2];
 
 // Allinea il gruppo orizzontalmente

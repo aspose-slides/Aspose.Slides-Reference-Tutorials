@@ -8,94 +8,93 @@ weight: 18
 url: /ar/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
 
-## مقدمة إلى Aspose.Slides لـ .NET
+# اكتب دليلًا تعليميًا خطوة بخطوة حول تحويل الشرائح إلى PDF مع الملاحظات باستخدام Aspose.Slides for .NET
 
-Aspose.Slides for .NET هي مكتبة غنية بالميزات تمكن المطورين من إنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها بتنسيقات مختلفة برمجيًا. سواء كنت تعمل مع شرائح أو أشكال أو صور أو رسوم متحركة أو ملاحظات المتحدث، فإن Aspose.Slides for .NET يوفر مجموعة شاملة من الأدوات لتلبية احتياجاتك.
+هل تبحث عن طريقة موثوقة لتحويل شرائح PowerPoint إلى تنسيق PDF مع الحفاظ على جميع الملاحظات المهمة؟ لا مزيد من البحث! في هذا البرنامج التعليمي الشامل، سنرشدك خلال عملية استخدام Aspose.Slides for .NET لتحقيق هذه المهمة خطوة بخطوة.
 
-## تثبيت Aspose.Slides لـ .NET
+## 1 المقدمة
 
- قبل أن نتعمق في عملية التحويل، تحتاج إلى تثبيت Aspose.Slides for .NET في بيئة التطوير لديك. يمكنك تنزيل المكتبة وتثبيتها باتباع الإرشادات الواردة في ملف[توثيق](https://releases.aspose.com/email/net/).
+يمكن أن يكون تحويل شرائح PowerPoint إلى PDF مع الملاحظات أداة قيمة لمشاركة العروض التقديمية مع ضمان الاحتفاظ بالسياق والتعليقات المهمة. يوفر Aspose.Slides for .NET حلاً قويًا لهذه المهمة.
 
-## المعرفة الأساسية ببرمجة C#
+## 2. إعداد بيئتك
 
-على الرغم من أنك لا تحتاج إلى أن تكون خبيرًا في لغة C#، إلا أن الفهم الأساسي لمفاهيم برمجة C# سيكون مفيدًا أثناء المضي قدمًا في تنفيذ التعليمات البرمجية.
+قبل أن نتعمق في عملية البرمجة، تأكد من إعداد البيئة اللازمة لديك. انك سوف تحتاج:
 
-## جارٍ تحميل ملف العرض التقديمي
+- Visual Studio أو بيئة التطوير .NET المفضلة لديك.
+- تم تثبيت Aspose.Slides لمكتبة .NET.
+- عرض تقديمي لـ PowerPoint يحتوي على الملاحظات التي تريد تحويلها.
 
-للبدء، تأكد من أن لديك ملف العرض التقديمي PowerPoint (PPT أو PPTX) الذي تريد تحويله إلى PDF مع الملاحظات. يمكنك استخدام ملفات العرض التقديمي النموذجية لأغراض الاختبار.
+## 3. تحميل العرض التقديمي
 
-## الوصول إلى ملاحظات الشرائح
-
-يمكن أن تحتوي كل شريحة في عرض PowerPoint التقديمي على ملاحظات المحاضر المصاحبة التي توفر سياقًا إضافيًا للمقدم. تعتبر هذه الملاحظات ذات قيمة عند تحويل الشرائح إلى PDF، لأنها تعزز فهم المحتوى.
-
-## تحويل الشرائح إلى PDF مع الملاحظات
-
-الآن، دعنا ننتقل إلى الجزء الأكثر أهمية: تحويل الشرائح مع ملاحظاتها إلى مستند PDF. يعمل Aspose.Slides for .NET على تبسيط هذه العملية.
-
-## تنفيذ الكود
-
-فيما يلي مثال مبسط لكيفية تحويل الشرائح إلى PDF مع الملاحظات باستخدام Aspose.Slides for .NET:
+في كود C# الخاص بك، تحتاج إلى تحميل عرض PowerPoint التقديمي الذي تريد تحويله. وإليك كيف يمكنك القيام بذلك:
 
 ```csharp
-using Aspose.Slides;
-using System;
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-class Program
-{
-    static void Main()
-    {
-        // قم بتحميل العرض التقديمي
-        using (Presentation presentation = new Presentation("your-presentation.pptx"))
-        {
-            // كرر من خلال كل شريحة
-            foreach (ISlide slide in presentation.Slides)
-            {
-                // الوصول إلى ملاحظات الشرائح
-                string slideNotes = slide.NotesText;
-
-                //تحويل الشرائح والملاحظات إلى PDF
-                // كود تحويل PDF
-            }
-        }
-    }
-}
+Presentation presentation = new Presentation(dataDir + "SelectedSlides.pptx");
 ```
 
-لاحظ أن هذا مثال مبسط، وستحتاج إلى دمج منطق تحويل PDF بناءً على متطلباتك.
+## 4. استنساخ الشريحة
 
-## التخصيص المتقدم (اختياري)
+للتأكد من أن ملف PDF الخاص بك يتضمن جميع الشرائح الضرورية مع الملاحظات، يمكنك استنساخها من العرض التقديمي الأصلي. إليك الطريقة:
 
-يوفر Aspose.Slides for .NET خيارات تخصيص متنوعة لتحسين مظهر وبنية ملف PDF المحول. يمكنك استكشاف هذه الخيارات في الوثائق.
+```csharp
+Presentation auxPresentation = new Presentation();
+ISlide slide = presentation.Slides[0];
+auxPresentation.Slides.InsertClone(0, slide);
+```
 
-## فوائد استخدام Aspose.Slides لـ .NET
+## 5. ضبط حجم الشريحة
 
-- تحويل سلس للشرائح والملاحظات إلى PDF
-- واجهة برمجة التطبيقات الشاملة للتعامل مع عروض PowerPoint التقديمية
-- دعم عبر الأنظمة الأساسية
-- تحديثات منتظمة ودعم مخصص
+قد ترغب في ضبط حجم الشريحة ليناسب ملف PDF الخاص بك. يتيح لك Aspose.Slides for .NET القيام بذلك بسهولة:
 
-## خاتمة
+```csharp
+auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
+```
 
-أصبح تحويل الشرائح إلى PDF مع الملاحظات أمرًا سهلاً وفعالاً باستخدام Aspose.Slides for .NET. باتباع الخطوات الموضحة في هذا الدليل، يمكنك التأكد من الحفاظ على محتوى وسياق العرض التقديمي الخاص بك بسلاسة بتنسيق PDF.
+## 6. تكوين خيارات PDF
 
-## الأسئلة الشائعة
+للتحكم في كيفية عرض ملاحظاتك في ملف PDF، يمكنك تكوين خيارات PDF:
 
-## كيف يمكنني الوصول إلى ملاحظات المتحدث لكل شريحة؟
+```csharp
+PdfOptions pdfOptions = new PdfOptions();
+INotesCommentsLayoutingOptions options = pdfOptions.NotesCommentsLayouting;
+options.NotesPosition = NotesPositions.BottomFull;
+```
 
- للوصول إلى ملاحظات المحاضر لكل شريحة، يمكنك استخدام`NotesText` ملكية`ISlide` الواجهة المقدمة من Aspose.Slides لـ .NET.
+## 7. الحفظ بصيغة PDF مع الملاحظات
 
-## هل يتوافق Aspose.Slides for .NET مع تنسيقي PPT وPPTX؟
+وأخيرًا، يمكنك حفظ العرض التقديمي الخاص بك كملف PDF مع الملاحظات:
 
-نعم، Aspose.Slides for .NET متوافق مع كل من تنسيقات PPT وPPTX، مما يسمح لك بالعمل مع مجموعة واسعة من ملفات PowerPoint التقديمية.
+```csharp
+auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
+```
 
-## هل يمكنني تخصيص مظهر ملف PDF المحول؟
+## 8. الاستنتاج
 
-قطعاً! يوفر Aspose.Slides for .NET خيارات تخصيص متنوعة تسمح لك بالتحكم في مظهر وتخطيط وبنية ملف PDF المحول.
+تهانينا! لقد نجحت في تحويل شرائح PowerPoint الخاصة بك إلى تنسيق PDF مع الحفاظ على جميع الملاحظات المهمة. يجعل Aspose.Slides for .NET هذه العملية واضحة وفعالة.
 
-## هل Aspose.Slides for .NET مناسب للتطوير عبر الأنظمة الأساسية؟
+## 9. الأسئلة الشائعة
 
-نعم، تم تصميم Aspose.Slides for .NET لدعم التطوير عبر الأنظمة الأساسية، مما يجعله متعدد الاستخدامات لبيئات التطبيقات المختلفة.
+### س1: هل يمكنني تخصيص تخطيط الملاحظات في ملف PDF؟
 
-## أين يمكنني العثور على مزيد من المعلومات حول الميزات والأمثلة المتقدمة؟
+ نعم، يمكنك تخصيص تخطيط الملاحظات باستخدام`INotesCommentsLayoutingOptions` في خيارات PDF.
 
- للحصول على المزيد من الميزات المتقدمة وأمثلة التعليمات البرمجية والوثائق التفصيلية، راجع[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+### س2: هل يدعم Aspose.Slides for .NET تنسيقات الإخراج الأخرى إلى جانب PDF؟
+
+نعم، يدعم Aspose.Slides for .NET تنسيقات الإخراج المختلفة، بما في ذلك PPTX وDOCX والمزيد.
+
+### س3: هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ .NET؟
+
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ .NET على[https://releases.aspose.com/](https://releases.aspose.com/).
+
+### س4: أين يمكنني الحصول على دعم Aspose.Slides لـ .NET؟
+
+ يمكنك العثور على الدعم والمناقشات المجتمعية على[https://forum.aspose.com/](https://forum.aspose.com/).
+
+### س5: هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
+
+ نعم، يمكنك شراء ترخيص مؤقت من[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+
+في الختام، باستخدام Aspose.Slides for .NET، يمكنك بسهولة تحويل شرائح PowerPoint إلى تنسيق PDF مع الحفاظ على الملاحظات سليمة. إنها أداة قيمة للمحترفين الذين يحتاجون إلى مشاركة العروض التقديمية مع الزملاء والعملاء مع ضمان عدم فقدان السياق المهم.

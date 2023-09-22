@@ -8,90 +8,108 @@ weight: 27
 url: /fr/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
 
+Dans le monde du développement de logiciels, il est essentiel de disposer d'outils capables de simplifier des tâches complexes. Aspose.Slides for .NET est l'un de ces outils qui vous permet de travailler avec des présentations PowerPoint par programme. Dans ce didacticiel étape par étape, nous explorerons comment exporter une présentation au format XAML à l'aide d'Aspose.Slides pour .NET. 
+
 ## Introduction à Aspose.Slides pour .NET
 
-Aspose.Slides pour .NET est une API complète qui permet aux développeurs .NET de créer, manipuler et convertir des présentations dans différents formats. Il offre un large éventail de fonctionnalités, notamment l'exportation de présentations au format XAML.
+Avant de plonger dans le didacticiel, présentons brièvement Aspose.Slides pour .NET. Il s'agit d'une bibliothèque puissante qui permet aux développeurs de créer, modifier, convertir et gérer des présentations PowerPoint sans avoir recours à Microsoft PowerPoint lui-même. Avec Aspose.Slides pour .NET, vous pouvez automatiser diverses tâches liées aux présentations PowerPoint, rendant ainsi votre processus de développement plus efficace.
 
-## Comprendre le format XAML
+## Conditions préalables
 
-XAML est un langage de balisage déclaratif utilisé pour concevoir des interfaces utilisateur et des graphiques. Il est très polyvalent et prend en charge les graphiques vectoriels, les animations et autres éléments interactifs. La conversion des présentations au format XAML permet une intégration transparente de ces fonctionnalités.
+Pour suivre ce didacticiel, vous aurez besoin des éléments suivants :
 
-## Installation d'Aspose.Slides pour .NET
+1. Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides pour .NET est installée et prête à être utilisée dans votre projet .NET.
 
- Pour commencer, vous devez installer Aspose.Slides pour .NET. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/net).
+2. Présentation source : disposez d'une présentation PowerPoint (PPTX) que vous souhaitez exporter au format XAML. Assurez-vous de connaître le chemin d’accès à cette présentation.
 
-## Chargement d'une présentation
+3. Répertoire de sortie : choisissez un répertoire dans lequel vous souhaitez enregistrer les fichiers XAML générés.
 
-Une fois la bibliothèque installée, vous pouvez commencer par charger une présentation en utilisant le code suivant :
+## Étape 1 : Configurez votre projet
+
+Dans cette première étape, nous mettrons en place notre projet et nous assurerons que tous les composants nécessaires sont prêts. Assurez-vous d'avoir ajouté une référence à la bibliothèque Aspose.Slides for .NET dans votre projet.
 
 ```csharp
-// Charger la présentation
-using (var presentation = new Presentation("presentation.pptx"))
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
+// Présentation du chemin d'accès à la source
+string presentationFileName = Path.Combine(dataDir, "XamlEtalon.pptx");
+```
+
+ Remplacer`"Your Document Directory"` avec le chemin d'accès au répertoire contenant votre présentation PowerPoint source. Spécifiez également le répertoire de sortie dans lequel les fichiers XAML générés seront enregistrés.
+
+## Étape 2 : exporter la présentation vers XAML
+
+Passons maintenant à l'exportation de la présentation PowerPoint au format XAML. Nous utiliserons Aspose.Slides pour .NET pour y parvenir. 
+
+```csharp
+using (Presentation pres = new Presentation(presentationFileName))
 {
-    // Votre code ici
+    // Créer des options de conversion
+    XamlOptions xamlOptions = new XamlOptions();
+    xamlOptions.ExportHiddenSlides = true;
+
+    // Définissez votre propre service d'économie de production
+    NewXamlSaver newXamlSaver = new NewXamlSaver();
+    xamlOptions.OutputSaver = newXamlSaver;
+
+    // Convertir des diapositives
+    pres.Save(xamlOptions);
+
+    // Enregistrer les fichiers XAML dans un répertoire de sortie
+    foreach (var pair in newXamlSaver.Results)
+    {
+        File.AppendAllText(Path.Combine(outPath, pair.Key), pair.Value);
+    }
 }
 ```
 
-## Conversion au format XAML
+ Dans cet extrait de code, nous chargeons la présentation source, créons des options de conversion XAML et définissons un service personnalisé d'économie de sortie à l'aide de`NewXamlSaver`Nous enregistrons ensuite les fichiers XAML dans le répertoire de sortie spécifié.
 
-Pour exporter la présentation chargée au format XAML, utilisez le code suivant :
+## Étape 3 : Classe d'économiseur XAML personnalisée
+
+ Pour implémenter l'économiseur XAML personnalisé, nous allons créer une classe nommée`NewXamlSaver` qui met en œuvre le`IXamlOutputSaver` interface.
 
 ```csharp
-// Convertir en XAML
-var options = new XamlOptions();
-presentation.Save("presentation.xaml", SaveFormat.Xaml, options);
+class NewXamlSaver : IXamlOutputSaver
+{
+    private Dictionary<string, string> m_result = new Dictionary<string, string>();
+
+    public Dictionary<string, string> Results
+    {
+        get { return m_result; }
+    }
+
+    public void Save(string path, byte[] data)
+    {
+        string name = Path.GetFileName(path);
+        Results[name] = Encoding.UTF8.GetString(data);
+    }
+}
 ```
 
-## Personnalisation de la conversion
-
-Aspose.Slides pour .NET propose diverses options pour personnaliser le processus de conversion. Vous pouvez spécifier la plage de diapositives à convertir, contrôler la taille de sortie et gérer d'autres aspects de la conversion.
-
-## Gestion des fonctionnalités avancées
-
-Le format XAML prend en charge des fonctionnalités avancées telles que les animations, les dégradés et les éléments interactifs. Aspose.Slides pour .NET garantit que ces fonctionnalités sont exportées avec précision au format XAML.
-
-## Avantages du format XAML pour les présentations
-
-- Évolutivité : les graphiques XAML peuvent être mis à l’échelle sans perte de qualité.
-- Interactivité : XAML permet de créer des présentations interactives.
-- Compatibilité : XAML peut être intégré à diverses plates-formes et applications.
-
-## Cas d'utilisation de présentations au format XAML
-
-- Interface utilisateur de l'application : les présentations au format XAML peuvent être utilisées pour concevoir des interfaces d'application.
-- E-Learning : des modules d'apprentissage en ligne interactifs peuvent être créés à l'aide de graphiques XAML.
-
-## Guide étape par étape
-
-1. Installez Aspose.Slides pour .NET : téléchargez et installez la bibliothèque à partir du lien fourni.
-2. Charger la présentation : utilisez le code fourni pour charger votre présentation.
-3. Convertir en XAML : utilisez l'extrait de code pour exporter la présentation au format XAML.
-4. Personnalisez si nécessaire : modifiez les options de conversion en fonction de vos besoins.
-5. Explorez les fonctionnalités avancées : exploitez les capacités de XAML pour améliorer votre présentation.
-6. Enregistrer et intégrer : enregistrez la présentation au format XAML et intégrez-la dans votre application ou plateforme.
+Cette classe gérera l'enregistrement des fichiers XAML dans le répertoire de sortie.
 
 ## Conclusion
 
-En conclusion, l'exportation de présentations au format XAML à l'aide d'Aspose.Slides pour .NET ouvre un monde de possibilités pour créer un contenu interactif et visuellement attrayant. Le guide étape par étape fourni ici devrait vous aider à convertir en toute transparence vos présentations au format XAML tout en conservant leur qualité et leurs fonctionnalités.
+Toutes nos félicitations! Vous avez appris avec succès comment exporter une présentation PowerPoint au format XAML à l'aide d'Aspose.Slides pour .NET. Cela peut s'avérer une compétence précieuse lorsque vous travaillez sur des projets impliquant la manipulation de présentations.
+
+N'hésitez pas à explorer davantage de fonctionnalités et de capacités d'Aspose.Slides pour .NET pour améliorer vos tâches d'automatisation PowerPoint.
 
 ## FAQ
 
-### Comment installer Aspose.Slides pour .NET ?
+1. ### Qu’est-ce qu’Aspose.Slides pour .NET ?
+Aspose.Slides for .NET est une bibliothèque .NET permettant de travailler avec des présentations PowerPoint par programme.
 
- Vous pouvez télécharger Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/slides/net).
+2. ### Où puis-je obtenir Aspose.Slides pour .NET ?
+ Vous pouvez télécharger Aspose.Slides pour .NET à partir de[ici](https://purchase.aspose.com/buy).
 
-### Puis-je personnaliser la conversion XAML ?
+3. ### Existe-t-il un essai gratuit disponible ?
+ Oui, vous pouvez obtenir un essai gratuit d'Aspose.Slides pour .NET[ici](https://releases.aspose.com/).
 
-Oui, vous pouvez personnaliser le processus de conversion en utilisant diverses options fournies par Aspose.Slides pour .NET.
+4. ### Comment puis-je obtenir une licence temporaire pour Aspose.Slides pour .NET ?
+ Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
-### XAML est-il adapté aux présentations interactives ?
+5. ### Où puis-je obtenir de l’assistance pour Aspose.Slides pour .NET ?
+Vous pouvez trouver du soutien et des discussions communautaires[ici](https://forum.aspose.com/).
 
-Absolument! XAML prend en charge les éléments interactifs, ce qui en fait un excellent choix pour créer des présentations attrayantes.
-
-### Quels sont quelques cas d’utilisation de présentations au format XAML ?
-
-Les présentations au format XAML peuvent être utilisées pour concevoir des interfaces d'application, des modules d'apprentissage en ligne, etc.
-
-### Comment XAML améliore-t-il la compatibilité ?
-
-XAML peut être facilement intégré à diverses plates-formes et applications, garantissant ainsi la compatibilité entre différents environnements.
+ Pour plus de didacticiels et de ressources, visitez le[Documentation de l'API Aspose.Slides](https://reference.aspose.com/slides/net/).

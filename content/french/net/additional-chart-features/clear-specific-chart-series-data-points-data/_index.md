@@ -48,7 +48,7 @@ Maintenant, identifiez les séries spécifiques et les points de données que vo
 // En supposant que vous souhaitiez effacer la première série
 IChartSeries series = chart.ChartData.Series[0];
 
-// Parcourez les points de données et identifiez ceux à effacer
+//Parcourez les points de données et identifiez ceux à effacer
 List<int> dataPointsToRemove = new List<int> { 2, 4, 6 }; // Exemples d'indices de points de données
 ```
 

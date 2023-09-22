@@ -18,7 +18,7 @@ Bu eğitimde Aspose.Slides for .NET kullanarak PowerPoint sunumlarından ses ve 
 
 ## Ses ve Video Çıkarımı Neden Önemlidir:
 
-Multimedya öğeleri ilgi çekici ve dinamik sunumlar oluşturmada çok önemli bir rol oynar. İster e-öğrenme modülleri, ister kurumsal sunumlar, ister etkileşimli slayt gösterileri oluşturuyor olun, ses ve video içeriğini programlı olarak çıkarma ve değiştirme yeteneği, bir olasılıklar dünyasının kapılarını açar. Aspose.Slides bu süreci basitleştirerek uygulamanızın ihtiyaçlarına göre özelleştirilmiş multimedya deneyimlerini birleştirerek sunumlarınızı geliştirmenize olanak tanır.
+Multimedya öğeleri ilgi çekici ve dinamik sunumlar oluşturmada çok önemli bir rol oynar. İster e-öğrenme modülleri, kurumsal sunumlar veya etkileşimli slayt gösterileri oluşturuyor olun, ses ve video içeriğini programlı olarak çıkarma ve değiştirme yeteneği, bir olasılıklar dünyasının kapılarını açar. Aspose.Slides bu süreci basitleştirerek uygulamanızın ihtiyaçlarına göre özelleştirilmiş multimedya deneyimlerini birleştirerek sunumlarınızı geliştirmenize olanak tanır.
 
 ## Ses ve Video Çıkarma Eğitimleri
 ### [Aspose.Slides kullanarak Slaytlardan Ses ve Video Çıkarma](./audio-and-video-extraction/)

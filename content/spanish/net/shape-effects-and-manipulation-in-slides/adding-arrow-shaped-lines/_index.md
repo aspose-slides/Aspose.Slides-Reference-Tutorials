@@ -74,7 +74,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 Aspose.Slides le permite personalizar formas y estilos de flechas para alinearlos con el tema visual de su presentación. Puede ajustar propiedades como el estilo de la punta de flecha, el color, el grosor de la línea y más.
 
-## Aprovechando la animación para generar impacto
+## Aprovechando la animación para lograr impacto
 
 Animar líneas en forma de flecha puede agregar una capa adicional de participación a su presentación. Utilice las funciones de animación de Aspose.Slides para hacer que sus flechas aparezcan dinámicamente durante su presentación.
 

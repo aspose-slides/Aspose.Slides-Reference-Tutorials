@@ -33,7 +33,7 @@ Lägg till referenser till Aspose.Slides för .NET-biblioteket i ditt projekt. F
 
 ## Steg 3: Initiera presentationen
 
-I det här steget initierar du ett presentationsobjekt och laddar den befintliga PowerPoint-presentationsfilen där du vill infoga ytterligare bilder.
+det här steget initierar du ett presentationsobjekt och laddar den befintliga PowerPoint-presentationsfilen där du vill infoga ytterligare bilder.
 
 ```csharp
 using Aspose.Slides;

@@ -8,76 +8,215 @@ weight: 21
 url: /sv/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
 
+Inom mjukvaruutveckling är det ett vanligt krav att skapa dynamiska och personliga presentationer. Företag behöver ofta skapa presentationer som är skräddarsydda för specifik data, och det är här funktionen för e-postsammankoppling kommer in i bilden. I den här handledningen kommer vi att guida dig genom processen att utföra e-postsammanfogning i presentationer med Aspose.Slides för .NET.
+
 ## Introduktion
-presentationsvärlden spelar personalisering och anpassning en avgörande roll för att förmedla information effektivt. Aspose.Slides för .NET erbjuder en kraftfull lösning för att utföra sammanslagning i presentationer, så att du enkelt kan skapa dynamiska och personliga bilder. I den här artikeln kommer vi att tillhandahålla en detaljerad steg-för-steg-guide, komplett med källkod, om hur man uppnår kopplingsfunktionalitet med Aspose.Slides för .NET. Oavsett om du är en utvecklare eller en presentatör som vill förbättra dina bilder, har den här guiden dig täckt.
 
-## Steg-för-steg-guide om hur du utför koppling av brev i presentationer
+Mail merge är en kraftfull teknik som låter dig fylla presentationsmallar med data från olika källor, som databaser eller XML-filer. I den här handledningen kommer vi att fokusera på att använda Aspose.Slides för .NET för att utföra e-postsammanfogning i presentationer steg för steg.
 
-### Förutsättningar
-Innan vi dyker in i kopplingsprocessen, se till att du har följande förutsättningar:
-- Visual Studio eller någon .NET IDE installerad
--  Aspose.Slides för .NET-biblioteket (ladda ner från[här](https://releases.aspose.com/slides/net/))
+## Ställa in din miljö
 
-### Steg 1: Skapa ett nytt .NET-projekt
-Börja med att skapa ett nytt .NET-projekt i din föredragna IDE. Ställ in projektet med nödvändiga konfigurationer.
+Innan vi dyker in i e-postsammanfogningsprocessen måste du konfigurera din utvecklingsmiljö. Se till att du har följande förutsättningar:
 
-### Steg 2: Lägg till referens till Aspose.Slides
-I ditt projekt lägger du till en referens till Aspose.Slides-biblioteket som du laddade ner tidigare. Detta gör att du kan använda dess funktioner för e-postsammanfogning.
+- Visual Studio eller någon annan C#-utvecklingsmiljö.
+-  Aspose.Slides för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/slides/net/).
 
-### Steg 3: Ladda presentationen
-Ladda presentationsfilen som du vill utföra sammanslagningen på. Använd följande kodavsnitt för att uppnå detta:
+## Förstå datakällan
 
-```csharp
-Presentation presentation = new Presentation("your-presentation.pptx");
+För e-postsammanfogning behöver du en datakälla. I den här handledningen kommer vi att använda en XML-fil som vår datakälla. Här är ett exempel på hur din datakälla kan se ut:
+
+```xml
+<!-- TestData.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<MailMerge>
+    <TestTable>
+        <Id>1</Id>
+        <Code>105</Code>
+        <Name>Samuel Ellington</Name>
+        <Department>Legal Department</Department> <Img></Img>
+    </TestTable>
+    <StaffList>
+        <Id>18</Id>
+        <UserId>1</UserId>
+        <Name>Amelia Walker</Name>
+    </StaffList>
+    <Plan_Fact>
+        <Id>1</Id>
+        <UserId>1</UserId>
+        <OnDate>2020/01</OnDate>
+        <PlanData>2,0</PlanData>
+        <FactData>2,8</FactData>
+    </Plan_Fact>
+</MailMerge>
 ```
 
-### Steg 4: Förbered datakälla
-Förbered datakällan för sammanslagning. Det kan vara en databas, ett Excel-ark eller någon annan datastruktur som innehåller den information som krävs.
+## Skapa presentationsmallen
 
-### Steg 5: Utför Mail Merge
-Nu kommer den spännande delen - att utföra själva brevkopplingen. Iterera genom bilderna och formerna i din presentation och ersätt platshållare med data från din datakälla. Här är ett förenklat kodavsnitt:
+För att utföra sammanslagning behöver du en presentationsmall (PPTX-fil) som definierar layouten för dina slutliga presentationer. Du kan skapa den här mallen med Microsoft PowerPoint eller något annat valfritt verktyg.
+
+## E-postsammanfogningsprocess
+
+Låt oss nu dyka in i själva e-postsammanfogningsprocessen med Aspose.Slides för .NET. Vi delar upp det i steg:
+
+1. Ladda presentationsmallen.
+2. Fyll textrutor med data från datakällan.
+3. Infoga bilder i presentationen.
+4. Förbered och fyll textramar.
+5. Spara de enskilda presentationerna.
+
+Här är ett utdrag av C#-kod som utför dessa steg:
 
 ```csharp
-foreach (var slide in presentation.Slides)
-{
-    foreach (var shape in slide.Shapes)
+string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
+    string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
+
+    // Vägen till data.
+    // XML-data är ett av exemplen på möjliga MailMerge-datakällor (bland RDBMS och andra typer av datakällor).
+    string dataPath = Path.Combine(dataDir, "TestData.xml");
+
+    // Kontrollera om resultatsökvägen finns
+    if (!Directory.Exists(resultPath))
+        Directory.CreateDirectory(resultPath);
+
+    // Skapa datauppsättning med XML-data
+    using (DataSet dataSet = new DataSet())
     {
-        if (shape is ITextFrame)
+        dataSet.ReadXml(dataPath);
+
+        DataTableCollection dataTables = dataSet.Tables;
+        DataTable usersTable = dataTables["TestTable"];
+        DataTable staffListTable = dataTables["StaffList"];
+        DataTable planFactTable = dataTables["Plan_Fact"];
+
+        // För alla poster i huvudtabellen kommer vi att skapa en separat presentation
+        foreach (DataRow userRow in usersTable.Rows)
         {
-            ITextFrame textFrame = (ITextFrame)shape;
-            string placeholder = textFrame.Text;
-            // Ersätt platshållaren med motsvarande data från datakällan
+            // skapa resultat (individuellt) presentationsnamn
+            string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
+
+            //Ladda presentationsmall
+            using (Presentation pres = new Presentation(presTemplatePath))
+            {
+                // Fyll textrutor med data från databasens huvudtabell
+                ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text =
+                    "Chief of the department - " + userRow["Name"];
+                ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
+
+                // Hämta bild från databasen
+                byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
+
+                // infoga bilden i bildramen för presentationen
+                IPPImage image = pres.Images.AddImage(bytes);
+                IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
+                pf.PictureFormat.Picture.Image.ReplaceImage(image);
+
+                // Få en abd förbered textram för att fylla den med data
+                IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
+                ITextFrame textFrame = list.TextFrame;
+
+                textFrame.Paragraphs.Clear();
+                Paragraph para = new Paragraph();
+                para.Text = "Department Staff:";
+                textFrame.Paragraphs.Add(para);
+
+                // fylla i personaluppgifter
+                FillStaffList(textFrame, userRow, staffListTable);
+
+                // fyll i planfakta
+                FillPlanFact(pres, userRow, planFactTable);
+
+                pres.Save(presPath, SaveFormat.Pptx);
+            }
+        }
+    }
+
+static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
+{
+    foreach (DataRow listRow in staffListTable.Rows)
+    {
+        if (listRow["UserId"].ToString() == userRow["Id"].ToString())
+        {
+            Paragraph para = new Paragraph();
+            para.ParagraphFormat.Bullet.Type = BulletType.Symbol;
+            para.ParagraphFormat.Bullet.Char = Convert.ToChar(8226);
+            para.Text = listRow["Name"].ToString();
+            para.ParagraphFormat.Bullet.Color.ColorType = ColorType.RGB;
+            para.ParagraphFormat.Bullet.Color.Color = Color.Black;
+            para.ParagraphFormat.Bullet.IsBulletHardColor = NullableBool.True;
+            para.ParagraphFormat.Bullet.Height = 100;
+            textFrame.Paragraphs.Add(para);
         }
     }
 }
+
+// Fyller datadiagram från den sekundära planFact-tabellen
+static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
+{
+    IChart chart = pres.Slides[0].Shapes[3] as Chart;
+    IChartTitle chartTitle = chart.ChartTitle;
+    chartTitle.TextFrameForOverriding.Text = row["Name"] + " : Plan / Fact";
+
+    DataRow[] selRows = planFactTable.Select("UserId = " + row["Id"]);
+    string range = chart.ChartData.GetRange();
+
+    IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
+    int worksheetIndex = 0;
+
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 1, 1,
+            double.Parse(selRows[0]["PlanData"].ToString())));
+    chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 1, 2,
+            double.Parse(selRows[0]["FactData"].ToString())));
+
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 2, 1,
+            double.Parse(selRows[1]["PlanData"].ToString())));
+    chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 2, 2,
+            double.Parse(selRows[1]["FactData"].ToString())));
+
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 3, 1,
+            double.Parse(selRows[2]["PlanData"].ToString())));
+    chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 3, 2,
+            double.Parse(selRows[2]["FactData"].ToString())));
+
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 3, 1,
+            double.Parse(selRows[3]["PlanData"].ToString())));
+    chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 3, 2,
+            double.Parse(selRows[3]["FactData"].ToString())));
+
+    chart.ChartData.SetRange(range);
+}		
 ```
 
-### Steg 6: Spara den sammanslagna presentationen
-När du har slutfört sammanfogningen sparar du den ändrade presentationen i en ny fil. Detta säkerställer att din ursprungliga mall förblir intakt.
+## Sparar resultatet
 
-```csharp
-presentation.Save("merged-presentation.pptx", SaveFormat.Pptx);
-```
+När du har slutfört sammankopplingsprocessen för alla poster i din datakälla har du individuella presentationer redo. Du kan spara dem på önskad plats.
+
+## Slutsats
+
+Att utföra sammanslagning i presentationer med Aspose.Slides för .NET öppnar upp en värld av möjligheter för att skapa skräddarsydda och datadrivna presentationer. Denna handledning har guidat dig genom de väsentliga stegen för att uppnå detta sömlöst.
 
 ## Vanliga frågor
 
-### Hur kan jag ladda ner Aspose.Slides för .NET-biblioteket?
- Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
+**Q1: Is Aspose.Slides for .NET the only library for mail merge in presentations?**
+S1: Även om Aspose.Slides för .NET är ett kraftfullt val, erbjuder andra bibliotek och verktyg liknande funktionalitet. Det beror i slutändan på dina specifika krav och preferenser.
 
-### Är Aspose.Slides lämplig för både utvecklare och presentatörer?
-Ja, Aspose.Slides för .NET vänder sig till både utvecklare och presentatörer. Utvecklare kan använda dess kraftfulla API för att automatisera uppgifter som e-postsammankoppling, medan presentatörer kan dra nytta av personliga presentationer.
+**Q2: Can I use different data sources apart from XML files?**
+S2: Ja, Aspose.Slides för .NET stöder olika datakällor, inklusive databaser och anpassade datastrukturer.
 
-### Kan jag använda olika datakällor för sammanslagning?
-Absolut. Aspose.Slides låter dig använda olika datakällor som databaser, Excel-filer och till och med anpassade datastrukturer för att utföra sammanslagning.
+**Q3: How can I format the merged presentations further?**
+S3: Du kan använda ytterligare formatering, stilar och animationer på de sammanslagna presentationerna med Aspose.Slides rika funktionsuppsättning.
 
-### Finns det några begränsningar för kopplingsprocessen?
-Även om Aspose.Slides erbjuder en robust lösning, är det viktigt att se till att din datakälla och mall är väl anpassade. Att hantera komplex formatering i platshållare kan kräva ytterligare kodning.
+**Q4: Is there a trial version of Aspose.Slides for .NET available?**
+ S4: Ja, du kan få en gratis provversion av Aspose.Slides för .NET[här](https://releases.aspose.com/).
 
-### Kan jag integrera mail Merge i min .NET-applikation?
-Säkert. Aspose.Slides tillhandahåller omfattande dokumentation och exempel som hjälper dig att sömlöst integrera funktionerna för sammankoppling av e-post i dina .NET-applikationer.
+**Q5: Where can I get support for Aspose.Slides for .NET?**
+ S5: För teknisk support och diskussioner kan du besöka[Aspose.Slides forum](https://forum.aspose.com/).
 
-### Är Aspose.Slides lämplig för att skapa dynamiska presentationer?
-Ja, Aspose.Slides ger dig möjlighet att skapa dynamiska presentationer genom att kombinera mallbilder med datadrivet innehåll, vilket gör dina presentationer engagerande och personliga.
-
-## Slutsats
-Att införliva kopplingsfunktioner i dina presentationer med Aspose.Slides för .NET kan avsevärt förbättra din förmåga att leverera anpassat innehåll till din publik. Med vår steg-för-steg-guide och medföljande källkodsavsnitt är du väl rustad att skapa dynamiska och personliga presentationer som lämnar ett bestående intryck.
+Nu när du har lärt dig hur du utför sammanslagning i presentationer med Aspose.Slides för .NET, kan du börja skapa dynamiska och datarika presentationer för dina projekt. Glad kodning!

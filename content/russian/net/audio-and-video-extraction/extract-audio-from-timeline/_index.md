@@ -47,7 +47,7 @@ using var presentation = new Presentation("presentation.pptx");
 // Доступ к первому слайду
 var slide = presentation.Slides[0];
 
-//Доступ к временной шкале слайда
+// Доступ к временной шкале слайда
 var timeline = slide.Timeline;
 ```
 
@@ -61,7 +61,7 @@ foreach (var timeLineShape in timeline.Shapes)
     if (timeLineShape.MediaType == MediaType.Audio)
     {
         var audio = (IAudioFrame)timeLineShape;
-        // Извлеките код обработки звука здесь
+        //Извлеките код обработки звука здесь
     }
 }
 ```

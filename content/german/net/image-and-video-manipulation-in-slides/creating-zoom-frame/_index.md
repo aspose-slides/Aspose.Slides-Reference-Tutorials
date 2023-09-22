@@ -110,7 +110,7 @@ Absolut! Mit Aspose.Slides für .NET können Sie den Zoomeffekt mit anderen Übe
 
 ### Kann ich den Zoomrahmen während einer Diashow animieren?
 
- Ja, Sie können den Zoomrahmen so animieren, dass er während einer Diashow angezeigt wird, indem Sie verwenden`AddEffect` Methode aus der`IShape` Schnittstelle. Auf diese Weise kann der Zoomrahmen an einer bestimmten Stelle Ihrer Präsentation ausgelöst werden.
+Ja, Sie können den Zoomrahmen so animieren, dass er während einer Diashow angezeigt wird, indem Sie verwenden`AddEffect` Methode aus der`IShape` Schnittstelle. Auf diese Weise kann der Zoomrahmen an einer bestimmten Stelle Ihrer Präsentation ausgelöst werden.
 
 ### Wie entferne ich den Zoomeffekt von einer Folie?
 

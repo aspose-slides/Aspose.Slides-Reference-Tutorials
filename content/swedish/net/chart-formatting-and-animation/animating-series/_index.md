@@ -62,7 +62,7 @@ using (Presentation presentation = new Presentation())
 }
 ```
 
-## Anpassa diagramets utseende
+## Anpassa diagrammets utseende
 
 Du kan förbättra diagrammets utseende ytterligare genom att anpassa färger, teckensnitt och andra visuella element. Aspose.Slides tillhandahåller omfattande alternativ för att modifiera dessa attribut programmatiskt.
 

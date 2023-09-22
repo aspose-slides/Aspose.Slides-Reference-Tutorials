@@ -8,109 +8,80 @@ weight: 29
 url: /ar/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
 
-## مقدمة إلى Aspose.Slides لـ .NET
+في العصر الرقمي الحالي، يعد تحويل العروض التقديمية إلى PDF مطلبًا شائعًا، خاصة في قطاعي الأعمال والتعليم. يوفر Aspose.Slides for .NET حلاً قويًا لإنجاز هذه المهمة بسهولة. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية تحويل العرض التقديمي إلى PDF مع تتبع تقدم التحويل.
 
-Aspose.Slides هي مكتبة .NET تمكن المطورين من العمل مع عروض PowerPoint التقديمية برمجياً. وهو يقدم مجموعة واسعة من الميزات، بما في ذلك القراءة والكتابة والتلاعب وتحويل العروض التقديمية. عندما يتعلق الأمر بتحويل العروض التقديمية إلى PDF، يوفر Aspose.Slides for .NET حلاً سلسًا يحافظ على تخطيط العرض التقديمي الأصلي ومحتواه.
+## مقدمة
 
-## تهيئة البيئة
+في هذا البرنامج التعليمي، سوف نستخدم Aspose.Slides for .NET لتحويل عرض PowerPoint التقديمي إلى مستند PDF. سنقوم أيضًا بتنفيذ ميزة تحديث التقدم لإبقائك على علم بحالة التحويل.
 
-قبل أن نبدأ، تحتاج إلى تثبيت Aspose.Slides for .NET في بيئة التطوير لديك. يمكنك تنزيله وتثبيته من[هنا](https://releases.aspose.com/slides/net/).
+## المتطلبات الأساسية
 
-بمجرد التثبيت، قم بإنشاء مشروع .NET جديد في بيئة التطوير المفضلة لديك.
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-## تحميل وتحليل العرض التقديمي
+1. Visual Studio أو أي محرر أكواد مفضل.
+2. تم تثبيت Aspose.Slides لمكتبة .NET.
+3. ملف عرض تقديمي لـ PowerPoint للتحويل (على سبيل المثال، "ConvertToPDF.pptx").
 
- للبدء، قم بتحميل ملف العرض التقديمي الذي تريد تحويله. يمكنك استخدام ال`Presentation` فئة مقدمة من Aspose.Slides لهذا الغرض:
+## الخطوة 1: إعداد البيئة
+
+أولاً، قم بإنشاء مشروع C# جديد في Visual Studio أو محرر التعليمات البرمجية المفضل لديك. تأكد من أنك قمت بإضافة مرجع إلى مكتبة Aspose.Slides for .NET في مشروعك.
+
+## الخطوة 2: كتابة الكود
+
+الآن، دعنا نتعمق في التعليمات البرمجية التي ستقوم بإجراء تحويل العرض التقديمي إلى PDF مع تحديثات التقدم. استخدم كود المصدر التالي:
 
 ```csharp
-using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using var presentation = new Presentation("presentation.pptx");
+using (Presentation presentation = new Presentation(dataDir + "ConvertToPDF.pptx"))
+{
+    ISaveOptions saveOptions = new PdfOptions();
+    saveOptions.ProgressCallback = new ExportProgressHandler();
+    presentation.Save(dataDir + "ConvertToPDF.pdf", SaveFormat.Pdf, saveOptions);
+}
 ```
 
-بعد تحميل العرض التقديمي، يمكنك تحليل شرائحه وعناصر الشرائح لمزيد من المعالجة.
+ في مقتطف الكود هذا، نفتح عرض PowerPoint التقديمي باستخدام Aspose.Slides ونحدد تنسيق PDF للحفظ. قمنا أيضًا بتعيين`ProgressCallback` الخاصية إلى مثيل`ExportProgressHandler` فصل.
 
-## تهيئة تتبع التقدم
+## الخطوة 3: تنفيذ رد الاتصال التقدم
 
-يعد تتبع التقدم ضروريًا لتزويد المستخدمين بالتحديثات في الوقت الفعلي أثناء عملية التحويل. قم بإنشاء فئة تعقب التقدم التي ستكون مسؤولة عن تحديث التقدم:
+ نحن بحاجة الآن إلى تنفيذ`ExportProgressHandler` فئة للتعامل مع تحديثات التقدم أثناء عملية التحويل. إليك الرمز الخاص بـ`ExportProgressHandler` فصل:
 
 ```csharp
-public class ConversionProgressTracker
+class ExportProgressHandler : IProgressCallback
 {
-    public event EventHandler<int> ProgressUpdated;
-
-    public void UpdateProgress(int percentage)
+    public void Reporting(double progressValue)
     {
-        ProgressUpdated?.Invoke(this, percentage);
+        // استخدم قيمة النسبة المئوية للتقدم هنا
+        int progress = Convert.ToInt32(progressValue);
+        Console.WriteLine(progress + "% file converted");
     }
 }
 ```
 
-## تحويل العرض التقديمي إلى PDF
+ تنفذ هذه الفئة`IProgressCallback` واجهة ويحدد`Reporting` طريقة للتعامل مع تحديثات التقدم. يقوم بطباعة نسبة التقدم الحالية إلى وحدة التحكم.
 
- يعمل Aspose.Slides على تبسيط عملية تحويل العروض التقديمية إلى PDF. يمكنك استخدام ال`PdfOptions` فئة لتحديد إعدادات التحويل:
+## الخطوة 4: تشغيل الكود
 
-```csharp
-var pdfOptions = new PdfOptions();
-presentation.Save("output.pdf", SaveFormat.Pdf, pdfOptions);
-```
-
-يمكنك أيضًا تطبيق خيارات التنسيق للتأكد من أن مخرجات PDF تبدو كما هو متوقع.
-
-## عرض التقدم في الوقت الحقيقي
-
-قم بدمج متتبع التقدم في عملية التحويل لتوفير تحديثات في الوقت الفعلي للمستخدم:
-
-```csharp
-var progressTracker = new ConversionProgressTracker();
-progressTracker.ProgressUpdated += (sender, percentage) =>
-{
-    Console.WriteLine($"Conversion progress: {percentage}%");
-};
-
-// تحويل مع تتبع التقدم
-presentation.Save("output.pdf", SaveFormat.Pdf, pdfOptions, progressTracker);
-```
-
-## معالجة الأخطاء والإكمال
-
-أثناء عملية التحويل، من المهم التعامل مع أي استثناءات قد تحدث:
-
-```csharp
-try
-{
-    presentation.Save("output.pdf", SaveFormat.Pdf, pdfOptions, progressTracker);
-    Console.WriteLine("Conversion completed successfully!");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"An error occurred: {ex.Message}");
-}
-```
+تجميع وتشغيل المشروع الخاص بك. ستلاحظ تحديثات التقدم في وحدة التحكم أثناء تحويل العرض التقديمي إلى PDF.
 
 ## خاتمة
 
-أصبح تحويل العروض التقديمية إلى PDF مع تحديثات التقدم أمرًا سهلاً باستخدام Aspose.Slides for .NET. توفر هذه المكتبة حلاً شاملاً للعمل مع عروض PowerPoint التقديمية برمجياً، كما تعمل ميزة تتبع التقدم الخاصة بها على تحسين تجربة المستخدم أثناء التحويلات.
+تهانينا! لقد نجحت في إنشاء برنامج تعليمي خطوة بخطوة لتحويل عرض تقديمي إلى PDF مع تحديثات التقدم باستخدام Aspose.Slides for .NET. يمكن أن تكون هذه المهارة لا تقدر بثمن في سيناريوهات مختلفة، مثل إنشاء التقارير أو أرشفة العروض التقديمية.
+
+ لمزيد من التخصيص والميزات المتقدمة، راجع Aspose.Slides لوثائق .NET على[https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/).
 
 ## الأسئلة الشائعة
 
-### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
+### س: هل يمكنني تحويل العروض التقديمية إلى تنسيقات أخرى باستخدام Aspose.Slides لـ .NET؟
+ج: نعم، يدعم Aspose.Slides for .NET تنسيقات الإخراج المختلفة، بما في ذلك PDF وPPTX والمزيد.
 
- يمكنك تنزيل وتثبيت Aspose.Slides لـ .NET من[هذا الرابط](https://releases.aspose.com/slides/net/).
+### س: هل يتوافق Aspose.Slides for .NET مع أحدث إطار عمل .NET؟
+ج: نعم، يتم تحديث Aspose.Slides for .NET بانتظام لدعم أحدث إصدارات إطار عمل .NET.
 
-### هل يمكنني تخصيص إعدادات تحويل PDF؟
+### س: كيف يمكنني معالجة الأخطاء أثناء عملية التحويل؟
+ج: يمكنك تنفيذ آليات معالجة الأخطاء داخل التعليمات البرمجية الخاصة بك لإدارة أي أخطاء تحويل بشكل أنيق.
 
- نعم يمكنك استخدام`PdfOptions` فئة لتحديد إعدادات مختلفة، مثل جودة الصورة وتضمين الخط، لتحويل PDF.
+### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ .NET؟
+ ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية على[https://releases.aspose.com/](https://releases.aspose.com/).
 
-### هل تتبع التقدم متاح للتنسيقات الأخرى أيضًا؟
-
-يوفر Aspose.Slides إمكانية تتبع التقدم أثناء عملية التحويل لتنسيقات الإخراج المختلفة، بما في ذلك PDF وPPTX والمزيد.
-
-### كيف يمكنني معالجة الأخطاء التي تحدث أثناء التحويل؟
-
-قم بتغليف رمز التحويل في كتلة محاولة التقاط أي استثناءات قد تحدث. يتيح لك هذا التعامل مع الأخطاء بأمان وتقديم رسائل خطأ مفيدة.
-
-### أين يمكنني العثور على مزيد من الوثائق حول Aspose.Slides لـ .NET؟
-
- يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/) للحصول على معلومات شاملة حول استخدام Aspose.Slides لـ .NET.
+### س: أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
+ ج: يمكنك العثور على الدعم والمناقشات المجتمعية على[https://forum.aspose.com/](https://forum.aspose.com/).

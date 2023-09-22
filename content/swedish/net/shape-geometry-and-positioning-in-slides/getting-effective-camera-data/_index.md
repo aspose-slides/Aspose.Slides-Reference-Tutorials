@@ -63,7 +63,7 @@ double cameraZ = camera.Position.Z;
 När du har extraherat kameradata kan du använda den för att optimera din presentation för olika scenarier. Du kanske till exempel vill justera kamerans position för att fokusera på specifikt innehåll eller justera synfältet för olika skärmstorlekar. Här är ett enkelt exempel på hur du justerar kamerans position:
 
 ```csharp
-// Förutsatt att du har kameraparametrar från steg 2
+//Förutsatt att du har kameraparametrar från steg 2
 
 // Justera kamerapositionen
 cameraX += 10;
@@ -94,7 +94,7 @@ slide.SetCamera(defaultCamera);
 
 ### Kan jag animera kamerarörelser i min presentation?
 
-Ja, Aspose.Slides låter dig skapa animationer, inklusive kamerarörelser, i din presentation. Du kan definiera nyckelrutor för kamerapositionen och andra parametrar för att skapa dynamiska övergångar. Referera till[Aspose.Slides dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information om animationstekniker.
+ Ja, Aspose.Slides låter dig skapa animationer, inklusive kamerarörelser, i din presentation. Du kan definiera nyckelrutor för kamerapositionen och andra parametrar för att skapa dynamiska övergångar. Referera till[Aspose.Slides dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information om animationstekniker.
 
 ## Slutsats
 

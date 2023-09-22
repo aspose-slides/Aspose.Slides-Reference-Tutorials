@@ -13,55 +13,99 @@ url: /ru/net/presentation-conversion/how-to-convert-individual-presentation-slid
 Aspose.Slides for .NET — это многофункциональная библиотека, которая позволяет разработчикам программно работать с презентациями PowerPoint. Он предоставляет обширный набор классов и методов, которые позволяют создавать, манипулировать и конвертировать файлы презентаций в различные форматы.
 
 ## Предварительные условия
+Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
 
-Прежде чем мы углубимся в процесс конвертации, вам необходимо выполнить несколько предварительных условий:
+-  Aspose.Slides для .NET: убедитесь, что Aspose.Slides для .NET установлен и настроен в вашей среде разработки. Вы можете скачать его с сайта[Веб-сайт](https://releases.aspose.com/slides/net/).
 
-- Visual Studio: убедитесь, что у вас установлена Visual Studio или любая другая совместимая интегрированная среда разработки (IDE).
--  Библиотека Aspose.Slides для .NET: Вы можете загрузить библиотеку с сайта[здесь](https://releases.aspose.com/slides/net).
-- Базовые знания C#: Знакомство с языком программирования C# будет полезным.
+- Файл презентации: вам понадобится файл презентации PowerPoint (PPTX), содержащий слайды, которые вы хотите преобразовать. Убедитесь, что у вас готов необходимый файл презентации.
 
-## Монтаж
+- Редактор кода: используйте предпочитаемый вами редактор кода для реализации предоставленного исходного кода. Подойдет любой редактор кода, поддерживающий C#.
 
-1. Загрузите библиотеку Aspose.Slides для .NET по предоставленной ссылке.
-2. Создайте новый проект C# в Visual Studio.
-3. Добавьте ссылку на загруженную библиотеку Aspose.Slides в свой проект.
+## Настройка среды
+Начнем с настройки среды разработки, чтобы подготовить проект к преобразованию отдельных слайдов. Следуй этим шагам:
+
+1. Откройте редактор кода и создайте новый проект или откройте существующий, в котором вы хотите реализовать функцию преобразования слайдов.
+
+2. Добавьте ссылку на библиотеку Aspose.Slides for .NET в свой проект. Обычно это можно сделать, щелкнув правой кнопкой мыши свой проект в обозревателе решений, выбрав «Добавить», а затем «Ссылка». Перейдите к DLL-файлу Aspose.Slides, который вы скачали ранее, и добавьте его в качестве ссылки.
+
+3. Теперь вы готовы интегрировать предоставленный исходный код в свой проект. Убедитесь, что у вас есть исходный код, готовый для следующего шага.
 
 ## Загрузка презентации
-
-Для начала вам понадобится файл презентации PowerPoint для работы. Вот как можно загрузить презентацию:
+Первый раздел кода посвящен загрузке презентации PowerPoint. Этот шаг необходим для доступа и работы со слайдами в презентации.
 
 ```csharp
-using Aspose.Slides;
-
-// Загрузите презентацию
-using var presentation = new Presentation("path_to_your_presentation.pptx");
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "Individual-Slide.pptx"))
+{
+    // Код для преобразования слайдов находится здесь
+}
 ```
 
-## Доступ к отдельным слайдам
+ Обязательно замените`"Your Document Directory"` с фактическим путем к каталогу, в котором находится файл презентации.
 
-Далее давайте получим доступ к отдельным слайдам презентации:
+## Параметры преобразования HTML
+В этой части кода обсуждаются параметры преобразования HTML. Вы узнаете, как настроить эти параметры в соответствии с вашими требованиями.
 
 ```csharp
-//Доступ к определенному слайду по индексу (отсчет от 0)
-var targetSlide = presentation.Slides[slideIndex];
+HtmlOptions htmlOptions = new HtmlOptions();
+htmlOptions.HtmlFormatter = HtmlFormatter.CreateCustomFormatter(new CustomFormattingController());
+INotesCommentsLayoutingOptions notesOptions = htmlOptions.NotesCommentsLayouting;
+notesOptions.NotesPosition = NotesPositions.BottomFull;
 ```
 
-## Преобразование слайдов в разные форматы
+Настройте эти параметры, чтобы управлять форматированием и макетом преобразованных HTML-слайдов.
 
-Aspose.Slides for .NET позволяет конвертировать слайды в различные форматы, такие как изображения или PDF-файлы. Давайте посмотрим, как преобразовать слайд в изображение:
+## Перелистывание слайдов
+В этом разделе мы объясним, как просмотреть каждый слайд презентации, чтобы убедиться, что каждый слайд обработан.
 
 ```csharp
-// Преобразование слайда в изображение
-var renderedImage = targetSlide.GetThumbnail(new Size(imageWidth, imageHeight));
+for (int i = 0; i < presentation.Slides.Count; i++)
+{
+    // Здесь находится код для сохранения слайдов в формате HTML.
+}
 ```
 
-## Сохранение конвертированного слайда
+Этот цикл проходит по всем слайдам презентации.
 
-После преобразования слайда вы можете сохранить результат в файл:
+## Сохранение в формате HTML
+Последняя часть кода посвящена сохранению каждого слайда как отдельного HTML-файла.
 
 ```csharp
-// Сохраните визуализированное изображение в файл
-renderedImage.Save("output_image.png", ImageFormat.Png);
+presentation.Save(dataDir + "Individual Slide" + (i + 1) + "_out.html", new[] { i + 1 }, SaveFormat.Html, htmlOptions);
+```
+
+Здесь код сохраняет каждый слайд как HTML-файл с уникальным именем, основанным на номере слайда.
+
+## Шаг 5. Пользовательское форматирование (необязательно)
+ Если вы хотите применить собственное форматирование к выводу HTML, вы можете использовать команду`CustomFormattingController` сорт. Этот раздел позволяет управлять форматированием отдельных слайдов.
+```csharp
+public class CustomFormattingController : IHtmlFormattingController
+        {
+            void IHtmlFormattingController.WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteSlideStart(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(string.Format(SlideHeader, generator.SlideIndex + 1));
+            }
+
+            void IHtmlFormattingController.WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(SlideFooter);
+            }
+
+            void IHtmlFormattingController.WriteShapeStart(IHtmlGenerator generator, IShape shape)
+            {}
+
+            void IHtmlFormattingController.WriteShapeEnd(IHtmlGenerator generator, IShape shape)
+            {}
+
+            private const string SlideHeader = "<div class=\"slide\" name=\"slide\" id=\"slide{0}\">";
+            private const string SlideFooter = "</div>";
+        }
 ```
 
 ## Обработка ошибок

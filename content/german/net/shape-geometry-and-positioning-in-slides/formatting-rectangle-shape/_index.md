@@ -84,7 +84,7 @@ rectangle.TextFrame.Paragraphs[0].Alignment = TextAlignment.Center; // Text ausr
 Sie können Ihre Rechteckform interaktiv gestalten, indem Sie Hyperlinks hinzufügen:
 
 ```csharp
-string url = "https://www.aspose.com“;
+string url = "https://www.aspose.com";
 portion.HyperlinkClick = new HyperlinkClick(new Uri(url));
 ```
 

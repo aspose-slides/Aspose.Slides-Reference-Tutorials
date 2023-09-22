@@ -73,7 +73,6 @@ Aspose.Slides 还允许您在 PDF 转换期间控制幻灯片过渡：
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.ShowHiddenSlides = true;
-pdfOptions.SlidesTransitions = SlideTransitions.None;
 
 //使用过渡设置将演示文稿转换为 PDF
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);

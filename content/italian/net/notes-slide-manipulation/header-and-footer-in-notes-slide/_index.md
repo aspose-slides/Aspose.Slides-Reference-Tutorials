@@ -10,7 +10,7 @@ url: /it/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 
 ## Introduzione ad Aspose.Slides per .NET
 
-Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di lavorare con file di Microsoft PowerPoint a livello di codice. Consente la manipolazione e la creazione di presentazioni, diapositive, forme e vari elementi al loro interno. In questa guida, ci concentreremo su come gestire gli elementi di intestazione e piè di pagina nella diapositiva delle note utilizzando Aspose.Slides per .NET.
+Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di lavorare con file di Microsoft PowerPoint a livello di programmazione. Consente la manipolazione e la creazione di presentazioni, diapositive, forme e vari elementi al loro interno. In questa guida, ci concentreremo su come gestire gli elementi di intestazione e piè di pagina nella diapositiva delle note utilizzando Aspose.Slides per .NET.
 
 ## Aggiunta di una diapositiva di note a una presentazione
 

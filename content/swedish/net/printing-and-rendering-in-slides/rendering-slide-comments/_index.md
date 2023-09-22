@@ -108,7 +108,7 @@ foreach (var slide in presentation.Slides)
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
         
-        // Justera textrutans position
+        //Justera textrutans position
         textBox.Top = slide.SlideSize.Size.Height - margin;
         margin += 30; // Öka marginalen för nästa kommentar
     }
@@ -126,7 +126,7 @@ presentation.Save("rendered_presentation.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-den här guiden har vi utforskat hur man renderar bildkommentarer i PowerPoint-presentationer med Aspose.Slides för .NET. Genom att följa stegen som beskrivs ovan kan du programmässigt komma åt och visa kommentarer, vilket förbättrar samarbete och kommunikation inom dina bildspel.
+I den här guiden har vi utforskat hur man renderar bildkommentarer i PowerPoint-presentationer med Aspose.Slides för .NET. Genom att följa stegen som beskrivs ovan kan du programmässigt komma åt och visa kommentarer, vilket förbättrar samarbete och kommunikation inom dina bildspel.
 
 ## FAQ's
 
@@ -140,7 +140,7 @@ Ja, du kan anpassa utseendet på de renderade kommentarerna, inklusive teckensto
 
 ### Hur kommer jag åt enskilda kommentarsegenskaper?
 
- Du kan komma åt kommentarsegenskaper som författare och text med hjälp av`Author` och`Text` egenskaper för kommentarsobjektet.
+ Du kan komma åt kommentarsegenskaper som författare och text med hjälp av`Author` och`Text` egenskaper för kommentarobjektet.
 
 ### Kan jag återge kommentarer som länktexter istället för textrutor?
 

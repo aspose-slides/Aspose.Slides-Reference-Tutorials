@@ -47,7 +47,7 @@ using (Presentation presentation = new Presentation())
     int width = 200;
     int height = 150;
 
-    // Slayta elips şekli ekleme
+    // Slayda elips şekli ekleme
     IAutoShape ellipse = slide.Shapes.AddAutoShape(ShapeType.Ellipse, x, y, width, height);
 
     // Elipsin görünümünü özelleştirme

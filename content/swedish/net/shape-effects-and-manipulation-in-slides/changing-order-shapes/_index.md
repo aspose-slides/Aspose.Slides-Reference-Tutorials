@@ -12,7 +12,7 @@ url: /sv/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 
 sfären av moderna presentationer spelar det visuella arrangemanget av former en avgörande roll för att förmedla information effektivt. Aspose.Slides för .NET ger utvecklare möjlighet att sömlöst manipulera ordningen på former i presentationsbilder, vilket ger oöverträffad kontroll över design och innehållsflöde. Den här guiden dyker djupt ner i konsten att ändra ordningen på former med Aspose.Slides, och ger steg-för-steg-instruktioner, källkodsexempel och värdefulla insikter för att skapa dynamiska och effektfulla presentationer.
 
-## Ändra ordning av former i presentationsbilder
+## Ändra ordning på former i presentationsbilder
 
 Att arrangera om former i presentationsbilder är en kraftfull teknik som gör att presentatörer kan betona nyckelpunkter, skapa visuella hierarkier och förbättra det övergripande berättandet. Aspose.Slides för .NET förenklar denna process, vilket gör det möjligt för utvecklare att programmatiskt justera positionen och skiktningen av former, vilket låser upp oändliga möjligheter för kreativa uttryck.
 

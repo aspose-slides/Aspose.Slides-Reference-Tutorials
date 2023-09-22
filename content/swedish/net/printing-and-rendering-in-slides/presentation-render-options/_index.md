@@ -85,13 +85,13 @@ catch (Exception ex)
 
 ## Slutsats
 
-I den här guiden har vi utforskat hur man använder Aspose.Slides för .NET för att rendera presentationsbilder programmatiskt. Vi täckte inläsning av presentationer, grundläggande bildrendering, anpassning av renderingsalternativ, lagring av den renderade utdata och hantering av undantag. Med denna kunskap kan du förbättra din applikations förmåga att dynamiskt generera visuellt tilltalande presentationer.
+den här guiden har vi utforskat hur man använder Aspose.Slides för .NET för att rendera presentationsbilder programmatiskt. Vi täckte inläsning av presentationer, grundläggande bildrendering, anpassning av renderingsalternativ, lagring av den renderade utdata och hantering av undantag. Med denna kunskap kan du förbättra din applikations förmåga att dynamiskt generera visuellt tilltalande presentationer.
 
 ## FAQ's
 
 ### Hur installerar jag Aspose.Slides för .NET?
 
-För att installera Aspose.Slides för .NET, ladda ner biblioteket från[här](https://releases.aspose.com/slides/net/) och följ installationsanvisningarna.
+ För att installera Aspose.Slides för .NET, ladda ner biblioteket från[här](https://releases.aspose.com/slides/net/) och följ installationsanvisningarna.
 
 ### Kan jag anpassa renderingskvaliteten för bilder?
 
@@ -107,4 +107,4 @@ Visst, Aspose.Slides ger finkornig kontroll över renderingen. Du kan välja att
 
 ### Vilka andra funktioner erbjuder Aspose.Slides för .NET?
 
-Förutom rendering erbjuder Aspose.Slides för .NET ett brett utbud av funktioner för att skapa, redigera och konvertera PowerPoint-presentationer. Du kan utforska dessa funktioner i[dokumentation](https://reference.aspose.com/slides/net/).
+ Förutom rendering erbjuder Aspose.Slides för .NET ett brett utbud av funktioner för att skapa, redigera och konvertera PowerPoint-presentationer. Du kan utforska dessa funktioner i[dokumentation](https://reference.aspose.com/slides/net/).

@@ -24,7 +24,7 @@ Avant de nous lancer dans la suppression de segments des formes géométriques, 
 
 1.  Installation : commencez par télécharger et installer la bibliothèque Aspose.Slides pour .NET. Vous pouvez trouver la dernière version[ici](https://releases.aspose.com/slides/net/).
 
-2.  Référence API : Familiarisez-vous avec[Documentation de l'API Aspose.Slides](https://reference.aspose.com/slides/net/) pour explorer le large éventail de caractéristiques et de fonctionnalités.
+2.  Référence API : Familiarisez-vous avec[Documentation de l'API Aspose.Slides](https://reference.aspose.com/slides/net/)pour explorer le large éventail de caractéristiques et de fonctionnalités.
 
 ## Suppression de segments : étape par étape
 
@@ -61,7 +61,7 @@ En supprimant sélectivement des segments des formes géométriques, vous pouvez
 
 ### Comment puis-je télécharger Aspose.Slides pour .NET ?
 
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir du[Page des versions d'Aspose](https://releases.aspose.com/slides/net/). 
+Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir du[Page des versions d'Aspose](https://releases.aspose.com/slides/net/). 
 
 ### Puis-je annuler la suppression de segments dans Aspose.Slides ?
 

@@ -88,7 +88,7 @@ Incorporare effetti di transizione nelle diapositive della presentazione può mi
 
 ### Posso applicare effetti di transizione diversi a ciascuna diapositiva?
 
- Sì, puoi applicare diversi effetti di transizione a ciascuna diapositiva impostando il file`SlideShowTransition`proprietà per ogni diapositiva individualmente.
+ Sì, puoi applicare diversi effetti di transizione a ciascuna diapositiva impostando il file`SlideShowTransition` proprietà per ogni diapositiva individualmente.
 
 ### È possibile aggiungere effetti sonori alle transizioni?
 

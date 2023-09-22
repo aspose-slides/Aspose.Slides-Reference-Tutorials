@@ -10,7 +10,7 @@ url: /tr/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-rela
 
 ## giriiş
 
-Sunumların dinamik dünyasında görsel öğeler, bilginin etkili bir şekilde aktarılmasında önemli bir rol oynar. Aspose.Slides for .NET, temel bilgilerin ötesine geçmenizi ve göreceli ölçek yüksekliğinde resim çerçeveleri ekleyerek sunumlarınızı geliştirmenizi sağlar. Bu kılavuz size süreci adım adım anlatacak ve görsel açıdan büyüleyici, öne çıkan slaytlar oluşturma becerileri sağlayacaktır. İster deneyimli bir geliştirici olun ister Aspose.Slides'ı yeni kullanmaya başlayın, bu kılavuz göreceli ölçek yüksekliğinde resim çerçeveleri ekleme sanatında ustalaşmanıza yardımcı olacaktır.
+Sunumların dinamik dünyasında görsel öğeler, bilginin etkili bir şekilde aktarılmasında önemli bir rol oynamaktadır. Aspose.Slides for .NET, temel bilgilerin ötesine geçmenizi ve göreceli ölçek yüksekliğinde resim çerçeveleri ekleyerek sunumlarınızı geliştirmenizi sağlar. Bu kılavuz size süreci adım adım anlatacak ve görsel açıdan büyüleyici, öne çıkan slaytlar oluşturma becerileri sağlayacaktır. İster deneyimli bir geliştirici olun ister Aspose.Slides'ı yeni kullanmaya başlayın, bu kılavuz göreceli ölçek yüksekliğinde resim çerçeveleri ekleme sanatında ustalaşmanıza yardımcı olacaktır.
 
 ## Aspose.Slides'ta Göreli Ölçek Yüksekliğine Sahip Resim Çerçeveleri Ekleme
 

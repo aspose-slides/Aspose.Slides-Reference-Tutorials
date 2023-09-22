@@ -7,115 +7,86 @@ type: docs
 weight: 11
 url: /ar/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-## مقدمة لتحويل عرض HTML مع الصور المضمنة 
 
-في هذا الدليل، سنتعرف على عملية تحويل عرض تقديمي بتنسيق HTML يحتوي على صور مضمنة إلى تنسيق عرض تقديمي لـ PowerPoint (PPTX) باستخدام Aspose.Slides for .NET. Aspose.Slides هي مكتبة قوية تسمح لك بالعمل مع عروض PowerPoint التقديمية برمجياً. 
+## 1 المقدمة
 
-## المتطلبات الأساسية
-قبل البدء، تأكد من توفر ما يلي:
-- تم تثبيت Visual Studio أو أي بيئة تطوير .NET أخرى.
--  Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://downloads.aspose.com/slides/net).
-- المعرفة الأساسية بتطوير C# و.NET.
+يوفر Aspose.Slides for .NET طريقة ملائمة لتحويل عروض PowerPoint التقديمية إلى تنسيق HTML5 مع الحفاظ على الصور المضمنة. يمكن أن يكون هذا مفيدًا بشكل لا يصدق لعرض العروض التقديمية على مواقع الويب أو في تطبيقات الويب.
 
-## خطوات
+## 2. المتطلبات الأساسية
 
-1. إنشاء مشروع C# جديد:
-   افتح Visual Studio الخاص بك وقم بإنشاء مشروع C# جديد.
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-2. تثبيت Aspose.Slides لـ .NET:
-   قم بتثبيت Aspose.Slides لمكتبة .NET في مشروعك باستخدام NuGet Package Manager أو عن طريق إضافة مرجع إلى ملف DLL الذي تم تنزيله.
+- Visual Studio أو أي بيئة تطوير C#.
+- Aspose.Slides لمكتبة .NET.
+- نموذج لعرض PowerPoint التقديمي مع الصور المضمنة.
+- المعرفة الأساسية ببرمجة C#.
 
-3. تضمين مساحات الأسماء الضرورية:
-   في ملف التعليمات البرمجية الخاص بك، قم بتضمين مساحات الأسماء الضرورية:
-   ```csharp
-   using Aspose.Slides;
-   using Aspose.Slides.Export;
-   using System.IO;
-   ```
+## 3. إعداد مشروعك
 
-4. تحميل محتوى HTML:
-   قم بتحميل محتوى HTML للعرض التقديمي في سلسلة. يمكنك استرداد HTML من ملف أو مصدر ويب.
-   ```csharp
-   string htmlContent = File.ReadAllText("path_to_your_html_file.html");
-   ```
+ابدأ بإنشاء مشروع C# جديد في بيئة التطوير المفضلة لديك. تأكد من أن مكتبة Aspose.Slides for .NET تمت الإشارة إليها بشكل صحيح في مشروعك.
 
-5. إنشاء عرض تقديمي جديد:
-    إنشاء مثيل جديد لـ`Presentation` فصل.
-   ```csharp
-   using Presentation presentation = new Presentation();
-   ```
-
-6. أضف شرائح تحتوي على محتوى HTML:
-   أضف شرائح إلى العرض التقديمي وقم بتعيين محتوى HTML لكل شريحة.
-   ```csharp
-   ISlideCollection slides = presentation.Slides;
-
-   // قم بإنشاء شريحة
-   ISlide slide = slides.AddEmptySlide();
-
-   // أضف محتوى HTML إلى الشريحة
-   IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
-   textShape.TextFrame.Text = htmlContent;
-   ```
-
-7. حفظ العرض التقديمي:
-   احفظ العرض التقديمي بتنسيق PPTX.
-   ```csharp
-   presentation.Save("output_presentation.pptx", SaveFormat.Pptx);
-   ```
-
-8. تشغيل التطبيق:
-   بناء وتشغيل التطبيق الخاص بك. سيتم تحويل العرض التقديمي بتنسيق HTML مع الصور المضمنة إلى عرض تقديمي لـ PowerPoint.
-
-## رمز المثال
+## 4. تحميل العرض التقديمي المصدر
 
 ```csharp
-using Aspose.Slides;
-using Aspose.Slides.Export;
-using System.IO;
+string dataDir = "Your Document Directory";
+string presentationName = Path.Combine(dataDir, "PresentationDemo.pptx");
 
-namespace HTMLToPPTConversion
+using (Presentation pres = new Presentation(presentationName))
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // تحميل محتوى HTML من الملف
-            string htmlContent = File.ReadAllText("path_to_your_html_file.html");
-
-            // إنشاء عرض تقديمي جديد
-            using Presentation presentation = new Presentation();
-
-            // أضف شريحة تحتوي على محتوى HTML
-            ISlide slide = presentation.Slides.AddEmptySlide();
-            IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
-            textShape.TextFrame.Text = htmlContent;
-
-            // احفظ العرض التقديمي بتنسيق PPTX
-            presentation.Save("output_presentation.pptx", SaveFormat.Pptx);
-        }
-    }
+    // الكود الخاص بك لمعالجة العرض التقديمي موجود هنا
 }
 ```
 
-## خاتمة
+## 5. تكوين خيارات تحويل HTML
 
-أصبح تحويل عروض HTML التقديمية التي تحتوي على صور مضمنة إلى PowerPoint أمرًا بسيطًا باستخدام Aspose.Slides for .NET. تعمل هذه المكتبة على تبسيط العملية وتوفر أدوات شاملة لإدارة التحويل بدقة.
+ لتكوين خيارات تحويل HTML، يمكنك استخدام`Html5Options` فصل. فيما يلي مثال لكيفية تعيين بعض الخيارات:
 
-## الأسئلة الشائعة
+```csharp
+Html5Options options = new Html5Options()
+{
+    EmbedImages = false, // لا تقم بحفظ الصور في مستند HTML5
+    OutputPath = "Your Output Directory" // ضبط المسار للصور الخارجية
+};
+```
 
-### كيف يمكنني تضمين صور خارجية في العرض التقديمي بتنسيق HTML؟
+## 6. إنشاء دليل الإخراج
 
-إذا كان عرض HTML التقديمي الخاص بك يتضمن صورًا خارجية، فتأكد من توفير عناوين URL الصحيحة للصور. سيتعامل Aspose.Slides تلقائيًا مع تضمين هذه الصور عند إضافة محتوى HTML إلى الشريحة.
+قبل حفظ العرض التقديمي بتنسيق HTML5، من الممارسات الجيدة إنشاء دليل الإخراج إذا لم يكن موجودًا بالفعل:
 
-### هل يمكنني تخصيص مظهر الشرائح المحولة؟
+```csharp
+string outFilePath = Path.Combine(outPath, "HTMLConversion");
 
-نعم، يمكنك تخصيص مظهر الشرائح المحولة باستخدام الخصائص والأساليب المتنوعة التي توفرها مكتبة Aspose.Slides. يمكنك تعديل الخطوط والألوان والأنماط والمزيد.
+if (!Directory.Exists(outFilePath))
+{
+    Directory.CreateDirectory(outFilePath);
+}
+```
 
-### أين يمكنني العثور على الوثائق الكاملة لـ Aspose.Slides لـ .NET؟
+## 7. حفظ العرض التقديمي بتنسيق HTML5
 
-يمكنك العثور على الوثائق الكاملة ومرجع واجهة برمجة التطبيقات لـ Aspose.Slides for .NET[هنا](https://reference.aspose.com/slides/net).
+الآن، لنحفظ العرض التقديمي بتنسيق HTML5:
 
-### أين يمكنني تنزيل أحدث إصدار من Aspose.Slides لـ .NET؟
+```csharp
+pres.Save(Path.Combine(outFilePath, "pres.html"), SaveFormat.Html5, options);
+```
 
- يمكنك تنزيل أحدث إصدار من Aspose.Slides for .NET من صفحة إصدارات Aspose:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net).
+## 8. الاستنتاج
+
+تهانينا! لقد نجحت في تحويل عرض تقديمي لـ PowerPoint يحتوي على صور مضمنة إلى تنسيق HTML5 باستخدام Aspose.Slides لـ .NET. يمكن أن تكون هذه أداة قيمة لمشاركة عروضك التقديمية عبر الإنترنت.
+
+## 9. الأسئلة الشائعة
+
+**Q1: Can I customize the appearance of the HTML5 presentation?**
+نعم، يمكنك تخصيص المظهر عن طريق تعديل ملفات HTML وCSS التي تم إنشاؤها بواسطة Aspose.Slides.
+
+**Q2: Does Aspose.Slides for .NET support other output formats?**
+نعم، فهو يدعم تنسيقات الإخراج المختلفة، بما في ذلك PDF والصور والمزيد.
+
+**Q3: Are there any limitations to converting presentations with embedded images?**
+على الرغم من قوة Aspose.Slides for .NET، فقد تواجه بعض القيود في العروض التقديمية شديدة التعقيد.
+
+**Q4: Is Aspose.Slides for .NET compatible with the latest PowerPoint versions?**
+نعم، فهو متوافق مع ملفات PowerPoint من إصدارات مختلفة، بما في ذلك الإصدارات الأحدث.
+
+**Q5: Where can I find more documentation and resources for Aspose.Slides for .NET?**
+ للحصول على وثائق وموارد شاملة، قم بزيارة[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).

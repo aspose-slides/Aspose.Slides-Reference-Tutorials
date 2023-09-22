@@ -50,7 +50,7 @@ Nu när vi har laddat presentationen kan vi fortsätta att ta bort en bild. Slid
 presentation.Slides.RemoveAt(2);
 ```
 
-I koden ovan tar vi bort bilden vid index 2. Se till att justera indexet enligt den bild du vill ta bort.
+koden ovan tar vi bort bilden vid index 2. Se till att justera indexet enligt den bild du vill ta bort.
 
 ## Sparar den ändrade presentationen
 

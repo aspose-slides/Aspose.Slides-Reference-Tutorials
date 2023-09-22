@@ -58,7 +58,7 @@ namespace PresentationToHTML5Converter
 }
 ```
 
- Ersetzen`"input.pptx"`mit dem Pfad zu Ihrer Eingabepräsentation und`"output.html"` mit dem gewünschten Ausgabe-HTML-Dateipfad.
+ Ersetzen`"input.pptx"` mit dem Pfad zu Ihrer Eingabepräsentation und`"output.html"` mit dem gewünschten Ausgabe-HTML-Dateipfad.
 
 ## Führen Sie die Anwendung aus
 
@@ -72,7 +72,7 @@ Wenn Sie diese Schritte befolgen, können Sie PowerPoint-Präsentationen mithilf
 
 ### Wie kann ich das Erscheinungsbild der HTML5-Ausgabe anpassen?
 
- Sie können das Erscheinungsbild der HTML5-Ausgabe anpassen, indem Sie verschiedene Optionen im festlegen`Html5Options` Klasse. Siehe die[Dokumentation](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) für verfügbare Anpassungsoptionen.
+ Sie können das Erscheinungsbild der HTML5-Ausgabe anpassen, indem Sie verschiedene Optionen im festlegen`Html5Options` Klasse. Siehe die[Dokumentation](https://reference.aspose.com/slides/net/aspose.slides.export/html5options)für verfügbare Anpassungsoptionen.
 
 ### Kann ich Präsentationen mit Animationen und Übergängen konvertieren?
 

@@ -40,7 +40,7 @@ Führen Sie die folgenden Schritte aus, um mit der Verwendung von Aspose.Slides 
 
 ## Initialisieren der Metered-Lizenz
 
- Verwenden Sie in Ihrem Code das erhaltene`AppSID` Und`AppKey` So initialisieren Sie die Metered-Lizenz:
+Verwenden Sie in Ihrem Code das erhaltene`AppSID` Und`AppKey` So initialisieren Sie die Metered-Lizenz:
 
 ```csharp
 Aspose.Slides.License license = new Aspose.Slides.License();

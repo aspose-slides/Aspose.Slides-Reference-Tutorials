@@ -8,7 +8,7 @@ weight: 28
 url: /tr/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
 
-Bağlayıcı çizgiler, iyi yapılandırılmış ve görsel olarak çekici sunum slaytları oluşturmada çok önemli bir rol oynar. Bir slayttaki farklı öğeler arasında ilişkiler kurulmasına yardımcı olarak bilgilerin netliğini artırırlar. Güçlü bir .NET API olan Aspose.Slides, bu bağlantı çizgilerini yönetmek için açılarını ayarlamak da dahil olmak üzere çeşitli özellikler sunar. Bu eğitimde Aspose.Slides for .NET kullanarak sunum slaytlarında bağlayıcı çizgi açılarının nasıl ayarlanacağını inceleyeceğiz.
+Bağlayıcı çizgiler, iyi yapılandırılmış ve görsel olarak çekici sunum slaytları oluşturmada çok önemli bir rol oynar. Bir slayttaki farklı öğeler arasında ilişkiler kurulmasına yardımcı olarak bilginin netliğini artırırlar. Güçlü bir .NET API olan Aspose.Slides, bu bağlantı çizgilerini yönetmek için açılarını ayarlamak da dahil olmak üzere çeşitli özellikler sunar. Bu eğitimde Aspose.Slides for .NET kullanarak sunum slaytlarında bağlayıcı çizgi açılarının nasıl ayarlanacağını inceleyeceğiz.
 
 ## Konnektör Hatlarına Giriş
 
@@ -98,7 +98,7 @@ slide.Shapes.Remove(connectorLine);
 lineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ```
 
-### Bağlantı çizgilerine ok uçları eklemek mümkün müdür?
+### Bağlantı çizgilerine ok uçları eklemek mümkün mü?
 
  Kesinlikle! Bağlantı çizgilerini değiştirerek ok uçları ekleyebilirsiniz.`LineFormat` mülk:
 

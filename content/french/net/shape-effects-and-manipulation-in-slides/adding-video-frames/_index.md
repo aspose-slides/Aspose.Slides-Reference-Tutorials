@@ -103,7 +103,7 @@ L'intégration d'images vidéo dans vos diapositives de présentation à l'aide 
 
 ## FAQ
 
-### Comment ajouter plusieurs vidéos à une seule diapositive ?
+### Comment ajouter plusieurs vidéos à une seule diapositive ?
 
 Parcourez vos fichiers vidéo et ajoutez des images vidéo à la diapositive souhaitée à l'aide du code fourni.
 

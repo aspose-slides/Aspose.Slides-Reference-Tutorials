@@ -73,7 +73,6 @@ Aspose.Slides ti consente anche di controllare le transizioni delle diapositive 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.ShowHiddenSlides = true;
-pdfOptions.SlidesTransitions = SlideTransitions.None;
 
 // Converti la presentazione in PDF con le impostazioni di transizione
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);

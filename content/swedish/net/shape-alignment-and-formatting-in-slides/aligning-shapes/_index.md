@@ -92,7 +92,7 @@ slide.Shapes.DistributeHorizontally();
 Om din presentation innehåller grupperade former kan du justera hela gruppen:
 
 ```csharp
-//Få tillgång till en grupperad form
+// Få tillgång till en grupperad form
 IGroupShape groupShape = (IGroupShape)slide.Shapes[2];
 
 // Rikta in gruppen horisontellt

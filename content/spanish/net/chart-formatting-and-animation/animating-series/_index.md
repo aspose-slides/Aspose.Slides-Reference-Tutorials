@@ -2,7 +2,7 @@
 title: Serie animada en gráfico
 linktitle: Serie animada en gráfico
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda a animar series de gráficos utilizando Aspose.Slides para .NET. Cree presentaciones dinámicas con visualizaciones de datos atractivas.
+description: Aprenda a animar series de gráficos usando Aspose.Slides para .NET. Cree presentaciones dinámicas con visualizaciones de datos atractivas.
 type: docs
 weight: 12
 url: /es/net/chart-formatting-and-animation/animating-series/

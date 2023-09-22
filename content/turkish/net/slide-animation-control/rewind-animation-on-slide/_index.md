@@ -89,4 +89,4 @@ Kesinlikle! Aspose.Slides, animasyon davranışını özelleştirmek için bir d
 
 ### Daha fazla kaynak ve belgeyi nerede bulabilirim?
 
-Kapsamlı belgeler, eğitimler ve kod örnekleri için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+ Kapsamlı belgeler, eğitimler ve kod örnekleri için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).

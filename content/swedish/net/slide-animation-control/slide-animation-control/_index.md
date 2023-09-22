@@ -14,7 +14,7 @@ Bildanimationer blåser liv i dina presentationer genom att introducera rörelse
 
 ## Konfigurera din utvecklingsmiljö
 
- Innan vi dyker in i koden, se till att du har Aspose.Slides för .NET installerat i ditt projekt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/net/) . Efter nedladdning, följ installationsinstruktionerna i[dokumentation](https://reference.aspose.com/slides/net/).
+Innan vi dyker in i koden, se till att du har Aspose.Slides för .NET installerat i ditt projekt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/net/) . Efter nedladdning, följ installationsinstruktionerna i[dokumentation](https://reference.aspose.com/slides/net/).
 
 ## Steg 1: Lägga till bilder i presentationen
 
@@ -95,7 +95,7 @@ I den här guiden undersökte vi hur du kan använda Aspose.Slides för .NET fö
 
 ### Hur installerar jag Aspose.Slides för .NET?
 
- Du kan ladda ner Aspose.Slides för .NET från[den här länken](https://releases.aspose.com/slides/net/) och följ installationsinstruktionerna i[dokumentation](https://reference.aspose.com/slides/net/).
+ Du kan ladda ner Aspose.Slides för .NET från[den här länken](https://releases.aspose.com/slides/net/)och följ installationsinstruktionerna i[dokumentation](https://reference.aspose.com/slides/net/).
 
 ### Kan jag använda animationer på specifika bildelement?
 

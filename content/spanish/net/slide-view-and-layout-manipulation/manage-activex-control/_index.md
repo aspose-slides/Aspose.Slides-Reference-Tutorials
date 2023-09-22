@@ -98,7 +98,7 @@ Si desea eliminar un control ActiveX de una diapositiva, siga estos pasos:
 
 1.  Acceder al Control: Obtenga una referencia al control ActiveX usando el`IOleObjectFrame` referencia como se mostró anteriormente.
 
-2. Eliminar el control: utilice el siguiente código para eliminar el control de la diapositiva:
+2. Eliminar el control: use el siguiente código para eliminar el control de la diapositiva:
 
 ```csharp
 slide.Shapes.Remove(oleObjectFrame);

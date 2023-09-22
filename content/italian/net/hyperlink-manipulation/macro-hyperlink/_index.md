@@ -102,7 +102,7 @@ foreach (Hyperlink hyperlink in HyperlinkManager.GetAllHyperlinks(presentation))
 
 ## Automatizzazione della gestione dei collegamenti ipertestuali con le macro
 
-Le macro forniscono un modo efficace per automatizzare le attività di gestione dei collegamenti ipertestuali. Ecco come scrivere macro per gestire i collegamenti ipertestuali utilizzando Aspose.Slides per .NET.
+Le macro forniscono un modo potente per automatizzare le attività di gestione dei collegamenti ipertestuali. Ecco come scrivere macro per gestire i collegamenti ipertestuali utilizzando Aspose.Slides per .NET.
 
 ## Introduzione alle macro in Aspose.Slides
 

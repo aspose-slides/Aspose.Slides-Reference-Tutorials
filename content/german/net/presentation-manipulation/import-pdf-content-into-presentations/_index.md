@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### Schritt 4: PDF-Inhalt importieren
- Benutzen Sie die`PdfContentEditor` Klasse aus Aspose.PDF, um Inhalte aus der PDF-Datei zu extrahieren und in ein Bild zu konvertieren. Erstellen Sie dann eine neue Folie in Ihrer Präsentation und fügen Sie das importierte Bild hinzu. Hier ist ein vereinfachter Codeausschnitt:
+Mit Aspose.Slides können Sie Inhalte aus dem geladenen PDF-Dokument nahtlos in die neu erstellte Präsentation importieren. Hier ist ein vereinfachter Codeausschnitt:
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; // Wählen Sie die zu importierende Seite aus
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        // Erstellen Sie eine neue Folie und fügen Sie das Bild hinzu
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### Schritt 5: Speichern Sie die Präsentation
@@ -65,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  Sie können die Aspose.Slides für .NET-Bibliothek von der Release-Seite herunterladen[Hier](https://releases.aspose.com/slides/net/).
 
 ### Kann ich Inhalte aus mehreren Seiten einer PDF-Datei importieren?
- Ja, Sie können im Dokument mehrere Seitenzahlen angeben`ProcessPages` Array zum Importieren von Inhalten aus verschiedenen Seiten einer PDF-Datei.
+Ja, Sie können im Dokument mehrere Seitenzahlen angeben`ProcessPages` Array zum Importieren von Inhalten aus verschiedenen Seiten einer PDF-Datei.
 
 ### Gibt es Einschränkungen beim Importieren von PDF-Inhalten?
 Obwohl Aspose.Slides eine leistungsstarke Lösung bietet, kann die Formatierung importierter Inhalte je nach Komplexität der PDF-Datei variieren. Möglicherweise sind einige Anpassungen erforderlich.

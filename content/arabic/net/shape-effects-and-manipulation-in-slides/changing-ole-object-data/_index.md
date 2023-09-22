@@ -16,7 +16,7 @@ url: /ar/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 
 ### الشروع في العمل مع Aspose.Slides
 
- للشروع في هذه الرحلة لمعالجة كائنات OLE، تحتاج إلى تثبيت Aspose.Slides for .NET في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، فتوجه إلى[مرجع Aspose.Slides API](https://reference.aspose.com/slides/net/) و[Aspose.Slides الإصدارات](https://releases.aspose.com/slides/net/) قم بتنزيل وإعداد الموارد المطلوبة.
+ للشروع في هذه الرحلة لمعالجة كائنات OLE، تحتاج إلى تثبيت Aspose.Slides for .NET في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، فتوجه إلى[مرجع Aspose.Slides API](https://reference.aspose.com/slides/net/) و[Aspose.Slides الإصدارات](https://releases.aspose.com/slides/net/) تنزيل وإعداد الموارد المطلوبة.
 
 ### تحميل عرض تقديمي
 
@@ -65,7 +65,7 @@ if (oleObject.ObjectData is OleEmbeddedData oleData)
 بمجرد إجراء التغييرات المطلوبة بنجاح على بيانات كائن OLE، لا تنس حفظ العرض التقديمي للحفاظ على تعديلاتك:
 
 ```csharp
-//احفظ العرض التقديمي بالتغييرات
+// احفظ العرض التقديمي مع التغييرات
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

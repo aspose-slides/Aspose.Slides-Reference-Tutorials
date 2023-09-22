@@ -8,72 +8,115 @@ weight: 13
 url: /de/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
 
-## Einführung in die Konvertierung von Präsentationen in HTML mit eingebetteten Schriftarten
+Im heutigen digitalen Zeitalter ist der Online-Austausch von Präsentationen und Dokumenten zu einer gängigen Praxis geworden. Eine häufige Herausforderung besteht jedoch darin, sicherzustellen, dass Ihre Schriftarten beim Konvertieren von Präsentationen in HTML korrekt angezeigt werden. Dieses Schritt-für-Schritt-Tutorial führt Sie durch den Prozess der Verwendung von Aspose.Slides für .NET zum Konvertieren von Präsentationen in HTML mit eingebetteten Schriftarten und stellt sicher, dass Ihre Dokumente genau so aussehen, wie Sie es beabsichtigt haben.
 
-Das Konvertieren von Präsentationen in das HTML-Format kann aus verschiedenen Gründen unerlässlich sein, z. B. um Inhalte online zu teilen, Präsentationen in Websites einzubetten oder sie auf verschiedenen Geräten zugänglich zu machen. Allerdings ist die Beibehaltung des ursprünglichen Aussehens und der Schriftarten der Präsentation von entscheidender Bedeutung, um Konsistenz und Lesbarkeit zu gewährleisten. Aspose.Slides für .NET ist eine zuverlässige Bibliothek, die es Entwicklern ermöglicht, solche Konvertierungen durchzuführen und dabei eingebettete Schriftarten beizubehalten.
+## Einführung in Aspose.Slides für .NET
+
+Bevor wir uns mit dem Tutorial befassen, stellen wir Aspose.Slides für .NET kurz vor. Es handelt sich um eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, mit PowerPoint-Präsentationen in .NET-Anwendungen zu arbeiten. Mit Aspose.Slides können Sie PowerPoint-Dateien programmgesteuert erstellen, ändern und konvertieren.
 
 ## Voraussetzungen
 
-Bevor wir mit dem Konvertierungsprozess beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Grundlegendes Verständnis der Programmiersprache C#
-- Visual Studio installiert
-- Aspose.Slides für .NET-Bibliothek
+-  Aspose.Slides für .NET: In Ihrem Projekt sollte die Aspose.Slides-Bibliothek installiert sein. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
 
-## Aspose.Slides für .NET installieren
+## Schritt 1: Richten Sie Ihr Projekt ein
 
-Führen Sie zunächst die folgenden Schritte aus, um Aspose.Slides für .NET zu installieren:
+1. Erstellen Sie ein neues Projekt oder öffnen Sie ein vorhandenes in Ihrer bevorzugten .NET-Entwicklungsumgebung.
 
-1. Öffnen Sie Visual Studio und erstellen Sie ein neues C#-Projekt.
-2. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf das Projekt und wählen Sie „NuGet-Pakete verwalten“.
-3. Suchen Sie nach „Aspose.Slides“ und installieren Sie das Paket.
+2. Fügen Sie in Ihrem Projekt einen Verweis auf die Aspose.Slides-Bibliothek hinzu.
 
-## Präsentation wird geladen
+3. Importieren Sie die erforderlichen Namespaces in Ihren Code:
 
-Sobald Sie die Bibliothek installiert haben, können Sie mit dem Konvertierungsprozess beginnen. So laden Sie eine Präsentation:
+   ```csharp
+   using Aspose.Slides;
+   ```
 
-```csharp
-using Aspose.Slides;
+## Schritt 2: Laden Sie Ihre Präsentation
 
-// Laden Sie die Präsentation
-using Presentation presentation = new Presentation("your-presentation.pptx");
-```
-
-## Einbetten von Schriftarten
-
-Um sicherzustellen, dass die Schriftarten in die HTML-Ausgabe eingebettet werden, müssen Sie den folgenden Code einbinden:
+ Zunächst müssen Sie die Präsentation laden, die Sie in HTML konvertieren möchten. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Verzeichnis, in dem sich Ihre Präsentationsdatei befindet.
 
 ```csharp
-// Betten Sie alle in der Präsentation verwendeten Schriftarten ein
-foreach (var font in presentation.FontsManager.GetFonts())
+string dataDir = "Your Document Directory";
+using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    presentation.EmbedFontsManager.AddEmbeddedFont(font);
+    // Ihr Code kommt hierher
 }
 ```
 
-## Konvertieren in HTML
+## Schritt 3: Standard-Präsentationsschriftarten ausschließen
 
-Nachdem die Schriftarten eingebettet sind, können Sie nun mit der Konvertierung der Präsentation in HTML fortfahren:
+In diesem Schritt können Sie alle Standard-Präsentationsschriftarten angeben, die Sie von der Einbettung ausschließen möchten. Dies kann dabei helfen, die Größe der resultierenden HTML-Datei zu optimieren.
 
 ```csharp
-// Speichern Sie die Präsentation als HTML mit eingebetteten Schriftarten
-presentation.Save("output.html", SaveFormat.Html);
+string[] fontNameExcludeList = { };
+```
+
+## Schritt 4: Wählen Sie einen HTML-Controller
+
+Nun haben Sie zwei Möglichkeiten, Schriftarten in den HTML-Code einzubetten:
+
+### Option 1: Alle Schriftarten einbetten
+
+ Um alle in der Präsentation verwendeten Schriftarten einzubetten, verwenden Sie die`EmbedAllFontsHtmlController`.
+
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
+```
+
+### Option 2: Alle Schriftarten verknüpfen
+
+ Um eine Verknüpfung zu allen in der Präsentation verwendeten Schriftarten herzustellen, verwenden Sie die`LinkAllFontsHtmlController`. Sie sollten das Verzeichnis angeben, in dem sich die Schriftarten auf Ihrem System befinden.
+
+```csharp
+LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
+```
+
+## Schritt 5: HTML-Optionen definieren
+
+ Erstelle ein`HtmlOptions` Objekt und stellen Sie den HTML-Formatierer auf den ein, den Sie im vorherigen Schritt ausgewählt haben.
+
+```csharp
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Verwenden Sie embedFontsController zum Einbetten aller Schriftarten
+};
+```
+
+## Schritt 6: Als HTML speichern
+
+ Speichern Sie abschließend die Präsentation als HTML-Datei. Sie können beides wählen`SaveFormat.Html` oder`SaveFormat.Html5` je nach Ihren Anforderungen.
+
+```csharp
+pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
 ## Abschluss
 
-In diesem Leitfaden haben wir den Prozess der Konvertierung von Präsentationen in HTML mit eingebetteten Schriftarten mithilfe von Aspose.Slides für .NET untersucht. Wir haben die Voraussetzungen, die Installation der Bibliothek, das Laden einer Präsentation, das Einbetten von Schriftarten und die Durchführung der Konvertierung behandelt. Wenn Sie diese Schritte befolgen, können Sie sicherstellen, dass Ihre Präsentationen korrekt in das HTML-Format konvertiert werden und dabei die Originalschriftarten erhalten bleiben.
+Glückwunsch! Sie haben Ihre Präsentation mit Aspose.Slides für .NET erfolgreich in HTML mit eingebetteten Schriftarten konvertiert. Dadurch wird sichergestellt, dass Ihre Schriftarten korrekt angezeigt werden, wenn Sie Ihre Präsentationen online teilen.
+
+Jetzt können Sie Ihre schön formatierten Präsentationen ganz einfach mit der Gewissheit teilen, dass Ihr Publikum sie genau so sieht, wie Sie es beabsichtigt haben.
+
+ Weitere Informationen und detaillierte API-Referenzen finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
 
 ## FAQs
 
-### Wie kann ich Aspose.Slides für .NET installieren?
+### 1. Kann ich PowerPoint-Präsentationen mit Aspose.Slides für .NET im Batch-Modus in HTML konvertieren?
 
- Sie können Aspose.Slides für .NET mit dem NuGet-Paketmanager installieren. Ausführliche Anweisungen finden Sie im[Dokumentation](https://docs.aspose.com/slides/net/installation/).
+Ja, Sie können mit Aspose.Slides für .NET mehrere Präsentationen stapelweise in HTML konvertieren, indem Sie Ihre Präsentationsdateien durchlaufen und den Konvertierungsprozess auf jede einzelne anwenden.
 
-### Kann ich PowerPoint-Präsentationen auch in andere Formate konvertieren?
+### 2. Gibt es eine Möglichkeit, das Erscheinungsbild der HTML-Ausgabe anzupassen?
 
- Ja, Aspose.Slides für .NET unterstützt eine Vielzahl von Formaten zum Konvertieren von Präsentationen, darunter PDF, Bilder und mehr. Überprüf den[Dokumentation](https://reference.aspose.com/slides/net/) Eine vollständige Liste der unterstützten Formate finden Sie hier.
+Sicherlich! Aspose.Slides für .NET bietet verschiedene Optionen zum Anpassen des Erscheinungsbilds und der Formatierung der HTML-Ausgabe, z. B. das Anpassen von Farben, Schriftarten und Layout.
 
-### Ist Aspose.Slides für .NET sowohl für Desktop- als auch für Webanwendungen geeignet?
+### 3. Gibt es Einschränkungen beim Einbetten von Schriftarten in HTML mit Aspose.Slides für .NET?
 
-Ja, Aspose.Slides für .NET ist vielseitig und kann sowohl in Desktop- als auch in Webanwendungen verwendet werden. Es stellt APIs bereit, die mit verschiedenen .NET-Frameworks kompatibel sind. Überprüf den[Dokumentation](https://docs.aspose.com/slides/net/product-support/) für mehr Informationen.
+Obwohl Aspose.Slides für .NET hervorragende Funktionen zum Einbetten von Schriftarten bietet, bedenken Sie, dass sich die Größe Ihrer HTML-Dateien beim Einbetten von Schriftarten erhöhen kann. Achten Sie darauf, Ihre Schriftartenauswahl für die Webnutzung zu optimieren.
+
+### 4. Kann ich PowerPoint-Präsentationen mit Aspose.Slides für .NET in andere Formate konvertieren?
+
+Ja, Aspose.Slides für .NET unterstützt eine Vielzahl von Ausgabeformaten, darunter PDF, Bilder und mehr. Sie können Ihre Präsentationen ganz einfach in das Format Ihrer Wahl konvertieren.
+
+### 5. Wo finde ich zusätzliche Ressourcen und Unterstützung für Aspose.Slides für .NET?
+
+ Sie können auf eine Fülle von Ressourcen, einschließlich Dokumentation, zugreifen[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/).

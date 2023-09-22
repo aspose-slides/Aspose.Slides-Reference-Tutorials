@@ -108,7 +108,7 @@ foreach (var slide in presentation.Slides)
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
         
-        // ضبط موضع مربع النص
+        //ضبط موضع مربع النص
         textBox.Top = slide.SlideSize.Size.Height - margin;
         margin += 30; // قم بزيادة هامش التعليق التالي
     }

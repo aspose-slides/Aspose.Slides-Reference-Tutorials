@@ -170,7 +170,7 @@ Evet, çizgi stili, renk ve kalınlık gibi nitelikleri ayarlayarak trend çizgi
 
 ### Veri noktalarına ek açıklamalar eklemek mümkün mü?
 
- Kesinlikle! İşaretleyici niteliklerini değiştirerek ve bağlamsal bilgiler ekleyerek veri noktalarına açıklama ekleyebilirsiniz. Daha fazla bilgi edinin[dokümantasyon](https://reference.aspose.com/slides/net/).
+Kesinlikle! İşaretleyici niteliklerini değiştirerek ve bağlamsal bilgiler ekleyerek veri noktalarına açıklama ekleyebilirsiniz. Daha fazla bilgi edinin[dokümantasyon](https://reference.aspose.com/slides/net/).
 
 ### Grafiğimi farklı formatlarda nasıl kaydedebilirim?
 

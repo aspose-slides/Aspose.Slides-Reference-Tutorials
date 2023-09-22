@@ -8,87 +8,106 @@ weight: 28
 url: /ar/net/presentation-conversion/convert-presentation-to-swf-format/
 ---
 
-## مقدمة إلى Aspose.Slides لـ .NET
+في العصر الرقمي الحالي، تعد العروض التقديمية متعددة الوسائط وسيلة قوية للاتصال. في بعض الأحيان، قد ترغب في مشاركة عروضك التقديمية بطريقة أكثر ديناميكية، مثل تحويلها إلى تنسيق SWF (Shockwave Flash). سيرشدك هذا الدليل خلال عملية تحويل العرض التقديمي إلى تنسيق SWF باستخدام Aspose.Slides لـ .NET.
 
-Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من العمل مع عروض PowerPoint التقديمية برمجياً في تطبيقات .NET. فهو يوفر مجموعة واسعة من الميزات، بما في ذلك إنشاء العروض التقديمية وتحريرها وتحويلها ومعالجتها.
+## ماذا ستحتاج
 
-## المتطلبات الأساسية
+قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك ما يلي:
 
-قبل أن نتعمق في عملية التحويل، تأكد من توفر المتطلبات الأساسية التالية:
+-  Aspose.Slides for .NET: إذا لم يكن لديك بالفعل، فيمكنك ذلك[قم بتنزيله هنا](https://releases.aspose.com/slides/net/).
 
-- Visual Studio أو أي بيئة تطوير .NET متوافقة.
-- المعرفة الأساسية ببرمجة C#.
--  Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
+- ملف العرض التقديمي: ستحتاج إلى ملف العرض التقديمي PowerPoint الذي تريد تحويله إلى تنسيق SWF.
 
-## تثبيت Aspose.Slides لـ .NET
+## الخطوة 1: إعداد بيئتك
 
-1. قم بتنزيل مكتبة Aspose.Slides for .NET من الرابط المتوفر.
-2. قم بتثبيت المكتبة عن طريق إضافتها كمرجع في مشروع .NET الخاص بك.
-3. تأكد من حصولك على الترخيص المطلوب لاستخدام Aspose.Slides لـ .NET.
-
-## تحميل عرض تقديمي
-
-للبدء، لنقم بتحميل عرض PowerPoint التقديمي باستخدام Aspose.Slides لـ .NET:
+للبدء، قم بإنشاء دليل لمشروعك. دعنا نسميه "دليل مشروعك". داخل هذا الدليل، ستحتاج إلى وضع كود المصدر التالي:
 
 ```csharp
-using Aspose.Slides;
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-// قم بتحميل العرض التقديمي
-using var presentation = new Presentation("your-presentation.pptx");
+// إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف العرض التقديمي
+using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
+{
+    SwfOptions swfOptions = new SwfOptions();
+    swfOptions.ViewerIncluded = false;
+
+    INotesCommentsLayoutingOptions notesOptions = swfOptions.NotesCommentsLayouting;
+    notesOptions.NotesPosition = NotesPositions.BottomFull;
+
+    // حفظ صفحات العرض والملاحظات
+    presentation.Save(dataDir + "SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
+    swfOptions.ViewerIncluded = true;
+    presentation.Save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
+}
 ```
 
-## التحويل إلى تنسيق SWF
+ تأكد من استبدال`"Your Document Directory"` و`"Your Output Directory"` بالمسارات الفعلية حيث يوجد ملف العرض التقديمي الخاص بك والمكان الذي تريد حفظ ملفات SWF فيه.
 
-الآن بعد أن قمنا بتحميل العرض التقديمي، فلنتابع تحويله إلى تنسيق SWF:
+## الخطوة 2: تحميل العرض التقديمي
+
+في هذه الخطوة، نقوم بتحميل عرض PowerPoint التقديمي باستخدام Aspose.Slides:
 
 ```csharp
-// تحويل إلى تنسيق SWF
-var options = new Aspose.Slides.Export.SwfOptions();
-presentation.Save("output-presentation.swf", Aspose.Slides.Export.SaveFormat.Swf);
+using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
 ```
 
-## تخصيص التحويل
+ يستبدل`"HelloWorld.pptx"` مع اسم ملف العرض التقديمي الخاص بك.
 
-يسمح لك Aspose.Slides for .NET بتخصيص عملية التحويل. يمكنك تعيين خيارات متنوعة مثل تأثيرات الانتقال وأبعاد الشريحة والمزيد:
+## الخطوة 3: تكوين خيارات تحويل SWF
+
+نقوم بتكوين خيارات تحويل SWF لتخصيص الإخراج:
 
 ```csharp
-// تخصيص خيارات التحويل
-options.SwfTransitions = true;
-options.SlideWidth = 800;
-options.SlideHeight = 600;
-// تعيين المزيد من الخيارات...
+SwfOptions swfOptions = new SwfOptions();
+swfOptions.ViewerIncluded = false;
 
-// تحويل مع خيارات مخصصة
-presentation.Save("output-presentation.swf", new Aspose.Slides.Export.SwfOptions(), Aspose.Slides.Export.SaveFormat.Swf);
+INotesCommentsLayoutingOptions notesOptions = swfOptions.NotesCommentsLayouting;
+notesOptions.NotesPosition = NotesPositions.BottomFull;
 ```
 
-## حفظ ملف SWF
+يمكنك ضبط هذه الخيارات وفقًا لمتطلباتك.
 
-بمجرد تكوين خيارات التحويل، يمكنك حفظ ملف SWF:
+## الخطوة 4: احفظ بتنسيق SWF
+
+الآن نقوم بحفظ العرض التقديمي كملف SWF:
 
 ```csharp
-// احفظ ملف SWF
-presentation.Save("output-presentation.swf", Aspose.Slides.Export.SaveFormat.Swf);
+presentation.Save(dataDir + "SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
 ```
+
+سيحفظ هذا السطر العرض التقديمي الرئيسي كملف SWF.
+
+## الخطوة 5: حفظ مع الملاحظات
+
+إذا كنت تريد تضمين الملاحظات، استخدم هذا الرمز:
+
+```csharp
+swfOptions.ViewerIncluded = true;
+presentation.Save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
+```
+
+يحفظ هذا الرمز العرض التقديمي مع الملاحظات بتنسيق SWF.
 
 ## خاتمة
 
-في هذه المقالة، اكتشفنا كيفية تحويل عرض PowerPoint التقديمي إلى تنسيق SWF باستخدام Aspose.Slides لـ .NET. بفضل واجهة برمجة التطبيقات البديهية والميزات القوية، يعمل Aspose.Slides على تبسيط عملية العمل مع العروض التقديمية برمجيًا، مما يوفر للمطورين المرونة اللازمة لإنشاء محتوى ديناميكي وجذاب.
+تهانينا! لقد نجحت في تحويل عرض PowerPoint التقديمي إلى تنسيق SWF باستخدام Aspose.Slides لـ .NET. يمكن أن يكون هذا مفيدًا بشكل خاص عندما تحتاج إلى مشاركة عروضك التقديمية عبر الإنترنت أو تضمينها في صفحات الويب.
+
+ لمزيد من المعلومات والوثائق التفصيلية، يمكنك زيارة[Aspose.Slides كمرجع .NET](https://reference.aspose.com/slides/net/).
 
 ## الأسئلة الشائعة
 
-### هل يمكنني تحويل العروض التقديمية إلى تنسيقات أخرى باستخدام Aspose.Slides؟
+### ما هو تنسيق SWF؟
+SWF (Shockwave Flash) هو تنسيق وسائط متعددة يستخدم للرسوم المتحركة والألعاب والمحتوى التفاعلي على الويب.
 
-نعم، يدعم Aspose.Slides for .NET تنسيقات الإخراج المختلفة، بما في ذلك PDF وXPS والصور والمزيد.
-
-### هل Aspose.Slides for .NET مناسب لكل من المشاريع الشخصية والتجارية؟
-
-نعم، يمكن استخدام Aspose.Slides for .NET في كل من المشاريع الشخصية والتجارية. ومع ذلك، تأكد من حصولك على الترخيص المناسب للاستخدام التجاري.
-
-### كيف يمكنني الحصول على الدعم إذا واجهت أية مشكلات أثناء استخدام Aspose.Slides لـ .NET؟
-
- يمكنك الوصول إلى الوثائق وموارد الدعم على موقع Aspose.Slides:[هنا](https://docs.aspose.com/slides/net/).
+### هل Aspose.Slides لـ .NET مجاني للاستخدام؟
+ يقدم Aspose.Slides for .NET نسخة تجريبية مجانية، ولكن للحصول على الوظائف الكاملة، قد تحتاج إلى شراء ترخيص. يمكنك التحقق من تفاصيل الأسعار والترخيص[هنا](https://purchase.aspose.com/buy).
 
 ### هل يمكنني تجربة Aspose.Slides لـ .NET قبل شراء الترخيص؟
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/).
 
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides for .NET من موقعهم على الويب:[هنا](https://downloads.aspose.com/slides/net).
+### هل أحتاج إلى مهارات البرمجة لاستخدام Aspose.Slides لـ .NET؟
+نعم، يجب أن يكون لديك بعض المعرفة ببرمجة C# لاستخدام Aspose.Slides بشكل فعال.
+
+### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
+إذا كان لديك أي أسئلة أو كنت بحاجة إلى المساعدة، يمكنك زيارة[Aspose.Slides لمنتدى .NET](https://forum.aspose.com/) للحصول على الدعم ومساعدة المجتمع.

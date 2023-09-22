@@ -44,14 +44,12 @@ pres.Save(gifStream, SaveFormat.Gif);
 Du kan anpassa GIF-genereringsprocessen genom att justera parametrar som bildens varaktighet, storlek och kvalitet. Om du till exempel vill ställa in bildens varaktighet till 2 sekunder och GIF-utdatastorleken till 800x600 pixlar använder du följande kod:
 
 ```csharp
-GifOptions gifOptions = new GifOptions();
-gifOptions.SlideTransitions = true;
-gifOptions.SlideTransitionsTransparency = true;
-gifOptions.Quality = 80;
-gifOptions.SlideSize = new Size(800, 600);
-gifOptions.TimeResolution = 2000; // 2 sekunder
-
-pres.Save(gifStream, SaveFormat.Gif);
+GifOptions gifOptions = new GifOptions(){
+FrameSize = new Size(800, 600), // storleken på den resulterande GIF-filen
+DefaultDelay = 2000, // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
+TransitionFps = 35 // öka FPS till bättre övergångsanimationskvalitet
+}
+pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 ```
 
 ## Spara och exportera GIF
@@ -95,15 +93,14 @@ class Program
     {
         using Presentation pres = new Presentation("presentation.pptx");
 
-        GifOptions gifOptions = new GifOptions();
-        gifOptions.SlideTransitions = true;
-        gifOptions.SlideTransitionsTransparency = true;
-        gifOptions.Quality = 80;
-        gifOptions.SlideSize = new Size(800, 600);
-        gifOptions.TimeResolution = 2000; // 2 sekunder
+        GifOptions gifOptions = new GifOptions(){
+        FrameSize = new Size(800, 600), // storleken på den resulterande GIF-filen
+        DefaultDelay = 2000, // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
+        TransitionFps = 35 // öka FPS till bättre övergångsanimationskvalitet
+        }
 
         using MemoryStream gifStream = new MemoryStream();
-        pres.Save(gifStream, SaveFormat.Gif);
+        pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 
         using FileStream gifFile = new FileStream("output.gif", FileMode.Create);
         gifStream.WriteTo(gifFile);
@@ -113,7 +110,7 @@ class Program
 
 ## Slutsats
 
-den här artikeln undersökte vi hur man konverterar presentationsbilder till GIF-format med Aspose.Slides för .NET. Vi täckte installationen av biblioteket, laddade en presentation, anpassade GIF-alternativ och hanterade undantag. Genom att följa den steg-för-steg-guide och använda de medföljande kodavsnitten kan du enkelt integrera den här funktionen i dina applikationer och förbättra det visuella tilltalande av dina presentationer.
+I den här artikeln undersökte vi hur man konverterar presentationsbilder till GIF-format med Aspose.Slides för .NET. Vi täckte installationen av biblioteket, laddade en presentation, anpassade GIF-alternativ och hanterade undantag. Genom att följa den steg-för-steg-guide och använda de medföljande kodavsnitten kan du enkelt integrera den här funktionen i dina applikationer och förbättra det visuella tilltalande av dina presentationer.
 
 ## FAQ's
 

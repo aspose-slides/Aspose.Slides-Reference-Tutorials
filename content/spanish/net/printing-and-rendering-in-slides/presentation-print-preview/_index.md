@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Vista previa de la salida de impresión
 
- Para obtener una vista previa de la salida impresa de la presentación, puede utilizar el`Print` método proporcionado por el`PrintManager` clase. Este método le permite generar una imagen de vista previa de impresión de la presentación. Así es como puedes hacerlo:
+ Para obtener una vista previa de la salida impresa de la presentación, puede utilizar el`Print`método proporcionado por el`PrintManager` clase. Este método le permite generar una imagen de vista previa de impresión de la presentación. Así es como puedes hacerlo:
 
 ```csharp
 using Aspose.Slides.Export;
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Generar la imagen de vista previa de impresión
     using (Bitmap previewImage = printManager.Print())
     {
-        //Su código para mostrar o guardar la imagen de vista previa
+        // Su código para mostrar o guardar la imagen de vista previa
     }
 }
 ```
@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Genere la imagen de vista previa de impresión con configuraciones personalizadas
     using (Bitmap previewImage = printManager.Print())
     {
-        //Su código para mostrar o guardar la imagen de vista previa
+        // Su código para mostrar o guardar la imagen de vista previa
     }
 }
 ```
@@ -106,7 +106,7 @@ using (Bitmap previewImage = /* Obtain the preview image */)
 }
 ```
 
- Reemplazar`"print-preview.png"`con la ruta y el nombre del archivo deseado.
+ Reemplazar`"print-preview.png"` con la ruta y el nombre del archivo deseado.
 
 ## Conclusión
 
@@ -116,11 +116,11 @@ En esta guía, cubrimos el proceso de uso de Aspose.Slides para .NET para obtene
 
 ### ¿Cómo puedo personalizar aún más la configuración de impresión?
 
- Puede explorar las diversas propiedades disponibles en el`PrintManager.Settings` objeto de ajustar la configuración de impresión de acuerdo con sus requisitos específicos. Ajuste parámetros como las transiciones de diapositivas, la escala y la orientación de la página para lograr el resultado de impresión deseado.
+ Puede explorar las diversas propiedades disponibles en el`PrintManager.Settings`objeto de ajustar la configuración de impresión de acuerdo con sus requisitos específicos. Ajuste parámetros como transiciones de diapositivas, escala y orientación de la página para lograr el resultado de impresión deseado.
 
 ### ¿Puedo obtener una vista previa de diapositivas específicas en lugar de la presentación completa?
 
- Sí, puedes usar el`PrintManager.Print`método con parámetros adicionales para especificar el rango de diapositivas que desea obtener una vista previa. Esto le permite centrarse en partes específicas de la presentación durante el proceso de vista previa de impresión.
+ Sí, puedes usar el`PrintManager.Print` método con parámetros adicionales para especificar el rango de diapositivas que desea obtener una vista previa. Esto le permite centrarse en partes específicas de la presentación durante el proceso de vista previa de impresión.
 
 ### ¿Es posible integrar la funcionalidad de vista previa de impresión en una aplicación de Windows Forms?
 

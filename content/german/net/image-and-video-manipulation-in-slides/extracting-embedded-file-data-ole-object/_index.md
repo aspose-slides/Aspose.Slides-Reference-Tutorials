@@ -21,7 +21,7 @@ OLE-Objekte werden in Microsoft Office-Anwendungen verwendet, um die Einbettung 
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - Visual Studio oder eine andere .NET-Entwicklungsumgebung.
--  Aspose.Slides für .NET-Bibliothek installiert. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
+- Aspose.Slides für .NET-Bibliothek installiert. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
 
 ## Einrichten des Projekts
 

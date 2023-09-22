@@ -40,31 +40,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("presentation.pptx");
 ```
 
-## PDF/المطابقة
-
-## التحقق من صحة التوافق مع PDF/A
-
-قبل تحويل العرض التقديمي إلى تنسيق PDF/A، من الضروري التأكد من أنه يلبي معايير التوافق مع PDF/A:
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-// التحقق من صحة التوافق مع PDF/A
-var validationErrors = presentation.ValidatePdfa(PdfaFormat.PDF_A_1B);
-if (validationErrors.Length == 0)
-{
-    Console.WriteLine("Presentation is PDF/A compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/A compliant.");
-    foreach (var error in validationErrors)
-    {
-        Console.WriteLine(error.Description);
-    }
-}
-```
-
 ## التحويل إلى تنسيق PDF/A
 
 لتحويل عرض تقديمي إلى تنسيق PDF/A، يمكنك استخدام مقتطف التعليمات البرمجية التالي:
@@ -78,25 +53,6 @@ var options = new PdfOptions
     Compliance = PdfCompliance.PdfA1b
 };
 presentation.Save("output.pdf", SaveFormat.Pdf, options);
-```
-
-## التحقق من توافق PDF/UA
-
-للتحقق مما إذا كان العرض التقديمي يتوافق مع معيار PDF/UA:
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-// تحقق من توافق PDF/UA
-var pdfuaCompliance = presentation.ValidatePdfua();
-if (pdfuaCompliance)
-{
-    Console.WriteLine("Presentation is PDF/UA compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/UA compliant.");
-}
 ```
 
 ## تنفيذ ميزات إمكانية الوصول
@@ -170,4 +126,4 @@ Install-Package Aspose.Slides
 
 ### هل التوافق مع PDF/UA ضروري لجميع المستندات؟
 
-يعد التوافق مع PDF/UA مهمًا بشكل خاص للمستندات التي يُقصد منها أن تكون متاحة للمستخدمين ذوي الإعاقة. ومع ذلك، فإن ضرورة التوافق مع PDF/UA تعتمد على المتطلبات المحددة لجمهورك المستهدف.
+يُعد التوافق مع PDF/UA مهمًا بشكل خاص للمستندات التي يُقصد منها أن تكون متاحة للمستخدمين ذوي الإعاقة. ومع ذلك، فإن ضرورة التوافق مع PDF/UA تعتمد على المتطلبات المحددة لجمهورك المستهدف.

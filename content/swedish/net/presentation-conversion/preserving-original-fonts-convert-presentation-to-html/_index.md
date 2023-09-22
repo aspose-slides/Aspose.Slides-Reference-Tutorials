@@ -8,93 +8,93 @@ weight: 14
 url: /sv/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
 
-## Introduktion
+I den här omfattande guiden går vi igenom processen att bevara originaltypsnitt när du konverterar en presentation till HTML med Aspose.Slides för .NET. Vi kommer att förse dig med den nödvändiga C#-källkoden och förklara varje steg i detalj. I slutet av denna handledning kommer du att kunna se till att typsnitten i ditt konverterade HTML-dokument förblir trogna den ursprungliga presentationen.
 
-I den digitala eran har presentationer utvecklats från traditionella bildspel till dynamiska multimediaupplevelser. När du konverterar en presentation till HTML är det avgörande att behålla den visuella integriteten, särskilt när det kommer till typsnitt. Aspose.Slides för .NET är ett kraftfullt bibliotek som tillhandahåller en sömlös lösning för detta krav.
+## 1. Introduktion
 
-## Förstå vikten av att bevara teckensnitt
+När du konverterar PowerPoint-presentationer till HTML är det viktigt att behålla de ursprungliga typsnitten för att säkerställa den visuella konsekvensen i ditt innehåll. Aspose.Slides för .NET ger en kraftfull lösning för att uppnå detta. I den här handledningen guidar vi dig genom stegen som behövs för att bevara de ursprungliga teckensnitten under konverteringsprocessen.
 
-Teckensnitt är en grundläggande aspekt av varje presentations design och varumärke. De förmedlar en specifik ton, förbättrar läsbarheten och återspeglar ditt budskaps väsen. När du konverterar presentationer till HTML säkerställer bevarandet av dessa typsnitt en konsekvent och uppslukande användarupplevelse.
+## 2. Förutsättningar
 
-## Komma igång med Aspose.Slides för .NET
+Innan vi börjar, se till att du har följande förutsättningar på plats:
 
-## Installation
+- Visual Studio installerat på din dator.
+- Aspose.Slides för .NET-bibliotek har lagts till i ditt projekt.
 
-För att börja måste du installera Aspose.Slides för .NET-biblioteket. Du kan göra detta via NuGet, en pakethanterare för .NET. Öppna din NuGet Package Manager Console och kör följande kommando:
+## 3. Konfigurera ditt projekt
 
-```bash
-Install-Package Aspose.Slides
-```
+För att komma igång, skapa ett nytt projekt i Visual Studio och lägg till Aspose.Slides för .NET-biblioteket som referens.
 
-## Laddar en presentation
+## 4. Laddar presentationen
 
-När du har installerat biblioteket kan du börja använda det i din .NET-applikation. Ladda din presentation med följande kodavsnitt:
-
-```csharp
-using Aspose.Slides;
-
-// Ladda presentationen
-using var presentation = new Presentation("your-presentation.pptx");
-```
-
-## Bevara originalteckensnitt
-
-För att säkerställa bevarandet av originaltypsnitt under konverteringen måste du ställa in lämpliga alternativ. Aspose.Slides låter dig styra hur typsnitt är inbäddade i HTML-utdata. Så här kan du göra det:
-
-## Kodimplementering
+Använd följande kod för att ladda din PowerPoint-presentation:
 
 ```csharp
-using Aspose.Slides.Export;
+string dataDir = "Your Document Directory";
 
-// Skapa en instans av HTML-alternativ
-var options = new HtmlOptions
+using (Presentation pres = new Presentation("input.pptx"))
 {
-    FontsFolder = "fonts", // Mapp där teckensnitt kommer att sparas
-    HtmlFormatter = HtmlFormatter.CreateDocumentFormatter("", false),
-    HtmlFormatterExternalResources = false,
-    HtmlFormatterEmbedFonts = HtmlFormatterEmbedFontEnum.EmbedAll
-};
-
-// Konvertera presentation till HTML
-presentation.Save("output.html", SaveFormat.Html, options);
+    // Din kod här
+}
 ```
 
-## Ytterligare anpassningar
+ Byta ut`"Your Document Directory"` med sökvägen till din presentationsfil.
 
-## Hanterar CSS för typsnitt
+## 5. Exklusive standardteckensnitt
 
-Även om koden ovan bevarar teckensnitt, kanske du vill finjustera CSS för att säkerställa konsekvent rendering på olika enheter. Du kan inkludera teckensnittsstilarna i CSS-filen och länka den till din HTML-utdata.
+För att utesluta standardteckensnitt som Calibri och Arial, använd följande kod:
 
-## Hantera externa resurser
+```csharp
+string[] fontNameExcludeList = { "Calibri", "Arial" };
+```
 
-Om din presentation innehåller externa resurser som bilder eller videor bör du hantera deras sökvägar på lämpligt sätt i HTML-filen för att upprätthålla presentationens integritet.
+Du kan anpassa den här listan efter behov.
 
-## Testning och kvalitetssäkring
+## 6. Bädda in alla teckensnitt
 
-Innan du slutför din HTML-presentation, utför noggranna tester på olika enheter och webbläsare för att säkerställa att teckensnitt renderas korrekt. Detta steg garanterar att din publik upplever presentationen som den är tänkt.
+Därefter bäddar vi in alla teckensnitt i HTML-dokumentet. Detta säkerställer att de ursprungliga typsnitten bevaras. Använd följande kod:
 
-## Slutsats
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 
-Att bevara originaltypsnitt när du konverterar presentationer till HTML är avgörande för att upprätthålla den visuella effekten och läsbarheten av ditt innehåll. Aspose.Slides för .NET förenklar denna process, vilket gör att du kan konvertera presentationer sömlöst samtidigt som du säkerställer teckensnittskonsistens.
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(embedFontsController)
+};
+```
 
-## FAQ's
+## 7. Spara som HTML
 
-## Hur hanterar Aspose.Slides inbäddning av teckensnitt?
+Spara nu presentationen som ett HTML-dokument med inbäddade typsnitt:
 
-Aspose.Slides erbjuder olika typsnittsinbäddningsalternativ. Du kan välja att bädda in alla typsnitt, bara bädda in de som används i presentationen eller inte bädda in några typsnitt alls.
+```csharp
+pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
+```
 
-## Kan jag anpassa HTML-utdata ytterligare?
+ Byta ut`"output.html"` med önskat utdatafilnamn.
 
-Absolut! Du kan modifiera CSS-stilarna, lägga till interaktivitet med JavaScript och optimera HTML-strukturen för SEO och prestanda.
+## 8. Slutsats
 
-## Vilka andra format kan Aspose.Slides konvertera presentationer till?
+den här handledningen har vi visat hur man bevarar originaltypsnitt när man konverterar en PowerPoint-presentation till HTML med Aspose.Slides för .NET. Genom att följa dessa steg kan du säkerställa att ditt konverterade HTML-dokument behåller den visuella integriteten hos den ursprungliga presentationen.
 
-Förutom HTML stöder Aspose.Slides konvertering till olika format, inklusive PDF, bilder och SVG.
+## 9. Vanliga frågor
 
-## Är Aspose.Slides lämplig för både enkla och komplexa presentationer?
+### F1: Kan jag anpassa listan över uteslutna typsnitt?
 
-Ja, Aspose.Slides är mångsidig och kan hantera presentationer av varierande komplexitet, vilket säkerställer konsekvent teckensnittsbevarande under hela konverteringsprocessen.
+ Jo det kan du. Ändra`fontNameExcludeList` array för att inkludera eller utesluta specifika teckensnitt enligt dina krav.
 
-## Hur ofta uppdateras Aspose.Slides?
+### F2: Vad händer om jag inte vill bädda in alla teckensnitt?
 
-Aspose.Slides uppdateras regelbundet för att införliva nya funktioner, förbättringar och kompatibilitetsförbättringar, vilket säkerställer en pålitlig och uppdaterad lösning för presentationskonvertering.
+Om du bara vill bädda in specifika typsnitt kan du ändra koden därefter. Se Aspose.Slides för .NET-dokumentationen för mer information.
+
+### F3: Finns det några licenskrav för att använda Aspose.Slides för .NET?
+
+Ja, du kan behöva en giltig licens för att använda Aspose.Slides för .NET i dina projekt. Se Asposes webbplats för licensinformation.
+
+### F4: Kan jag konvertera andra filformat till HTML med Aspose.Slides för .NET?
+
+Aspose.Slides för .NET fokuserar främst på PowerPoint-presentationer. För att konvertera andra filformat till HTML kan du behöva utforska andra Aspose-produkter som är skräddarsydda för dessa format.
+
+### F5: Var kan jag få tillgång till ytterligare resurser och support?
+
+ Du kan hitta mer dokumentation, handledning och support på Asposes webbplats. Besök[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information.

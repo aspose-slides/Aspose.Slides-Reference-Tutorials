@@ -14,7 +14,7 @@ Les animations de diapositives donnent vie à vos présentations en introduisant
 
 ## Configuration de votre environnement de développement
 
- Avant de plonger dans le code, assurez-vous que Aspose.Slides pour .NET est installé dans votre projet. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/net/) . Après le téléchargement, suivez les instructions d'installation dans le[Documentation](https://reference.aspose.com/slides/net/).
+Avant de plonger dans le code, assurez-vous que Aspose.Slides pour .NET est installé dans votre projet. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/net/) . Après le téléchargement, suivez les instructions d'installation dans le[Documentation](https://reference.aspose.com/slides/net/).
 
 ## Étape 1 : Ajout de diapositives à la présentation
 
@@ -95,7 +95,7 @@ Dans ce guide, nous avons exploré comment exploiter Aspose.Slides pour .NET pou
 
 ### Comment installer Aspose.Slides pour .NET ?
 
- Vous pouvez télécharger Aspose.Slides pour .NET à partir de[ce lien](https://releases.aspose.com/slides/net/) et suivez les instructions d'installation fournies dans le[Documentation](https://reference.aspose.com/slides/net/).
+ Vous pouvez télécharger Aspose.Slides pour .NET à partir de[ce lien](https://releases.aspose.com/slides/net/)et suivez les instructions d'installation fournies dans le[Documentation](https://reference.aspose.com/slides/net/).
 
 ### Puis-je appliquer des animations à des éléments de diapositive spécifiques ?
 

@@ -65,7 +65,7 @@ if (oleObject.ObjectData is OleEmbeddedData oleData)
 Una vez que haya realizado con éxito los cambios deseados en los datos del objeto OLE, no olvide guardar la presentación para conservar sus modificaciones:
 
 ```csharp
-//Guardar la presentación con cambios.
+// Guardar la presentación con cambios.
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -97,4 +97,4 @@ Cuando se trata de presentaciones grandes, se recomienda utilizar prácticas de 
 
 ### Conclusión
 
-En el panorama en constante evolución de las presentaciones, los objetos OLE se presentan como herramientas versátiles para transmitir información de forma dinámica. Con el poder de Aspose.Slides para .NET, el proceso de cambio de datos de objetos OLE se vuelve accesible y eficiente. A través de esta guía, ha adquirido los conocimientos necesarios para identificar, modificar y mejorar objetos OLE, enriqueciendo sus presentaciones y cautivando a su público.
+En el panorama en constante evolución de las presentaciones, los objetos OLE se presentan como herramientas versátiles para transmitir información de forma dinámica. Con el poder de Aspose.Slides para .NET, el proceso de cambio de datos de objetos OLE se vuelve accesible y eficiente. A través de esta guía, obtendrá el conocimiento para identificar, modificar y mejorar objetos OLE, enriqueciendo sus presentaciones y cautivando a su público.

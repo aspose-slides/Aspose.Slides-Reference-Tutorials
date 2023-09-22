@@ -15,12 +15,8 @@ Entdecken Sie unsere Tutorials zur Präsentationsmanipulation und entdecken Sie 
 ## Tutorials zur Präsentationsmanipulation
 ### [Erstellen Sie programmgesteuert neue Präsentationen](./create-new-presentations-programmatically/)
 Erfahren Sie, wie Sie Präsentationen programmgesteuert mit Aspose.Slides für .NET erstellen. Schritt-für-Schritt-Anleitung mit Quellcode für effiziente Automatisierung.
-### [Benutzerdefinierte Kopfzeilen und Schriftarten in Präsentationen](./custom-headers-and-fonts-in-presentations/)
-Erfahren Sie, wie Sie mit Aspose.Slides für .NET Kopfzeilen und Schriftarten in Präsentationen anpassen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie mühelos die visuelle Attraktivität und das Branding.
 ### [Benutzerdefinierte PDF-Konvertierungsoptionen für Präsentationen](./custom-pdf-conversion-options-for-presentations/)
 Erweitern Sie Ihre PDF-Konvertierungsoptionen für Präsentationen mit Aspose.Slides für .NET. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie benutzerdefinierte PDF-Konvertierungseinstellungen erreichen und so eine präzise Kontrolle über Ihre Ausgabe gewährleisten. Optimieren Sie noch heute Ihre Präsentationskonvertierungen.
-### [Formatieren von SVG-Formen in Präsentationen](./formatting-svg-shapes-in-presentations/)
-Erfahren Sie, wie Sie SVG-Formen in Präsentationen mit Aspose.Slides für .NET formatieren. Schritt-für-Schritt-Anleitung mit Quellcode. Verbessern Sie noch heute Ihr Präsentationsdesign!
 ### [Exportieren Sie mathematische Absätze in Präsentationen nach MathML](./export-math-paragraphs-to-mathml-in-presentations/)
 Verbessern Sie Ihre Präsentationen, indem Sie mathematische Absätze mit Aspose.Slides für .NET nach MathML exportieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine genaue mathematische Darstellung. Laden Sie Aspose.Slides herunter und beginnen Sie noch heute mit der Erstellung überzeugender Präsentationen.
 ### [Exportieren Sie Mediendateien aus der Präsentation in HTML](./export-media-files-to-html-from-presentation/)
@@ -33,8 +29,6 @@ Erfahren Sie, wie Sie Präsentationen mit Aspose.Slides für .NET in responsives
 Erfahren Sie, wie Sie FODP-Präsentationen mit Aspose.Slides für .NET in verschiedene Formate konvertieren. Erstellen, anpassen und optimieren Sie ganz einfach.
 ### [Generieren Sie SVG mit benutzerdefinierten Form-IDs in Präsentationen](./generate-svg-with-custom-shape-ids-in-presentations/)
 Erstellen Sie ansprechende Präsentationen mit benutzerdefinierten SVG-Formen und IDs mit Aspose.Slides für .NET. Erfahren Sie anhand von Quellcode-Beispielen Schritt für Schritt, wie Sie interaktive Folien erstellen. Verbessern Sie die visuelle Attraktivität und Benutzerinteraktion Ihrer Präsentationen.
-### [Verknüpfen Sie alle Schriftarten im HTML-Controller](./link-all-fonts-in-html-controller/)
-Erfahren Sie, wie Sie mit Aspose.Slides für .NET alle Schriftarten in einem HTML-Controller verknüpfen. Diese Schritt-für-Schritt-Anleitung mit Quellcode hilft Ihnen dabei, eine konsistente Schriftwiedergabe in Ihren Präsentationen sicherzustellen. 
 ### [Führen Sie den Serienbrief in Präsentationen durch](./perform-mail-merge-in-presentations/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für .NET einen Seriendruck in Präsentationen durchführen. Erstellen Sie ganz einfach personalisierte und dynamische Präsentationen.
 ### [Konvertieren Sie das ODP-Format in das PPTX-Format](./convert-odp-format-to-pptx-format/)

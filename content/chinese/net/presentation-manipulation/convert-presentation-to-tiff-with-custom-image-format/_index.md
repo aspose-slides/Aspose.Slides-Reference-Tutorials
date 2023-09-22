@@ -52,8 +52,7 @@ class Program
         {
             //使用自定义设置初始化 TIFF 选项
             TiffOptions tiffOptions = new TiffOptions();
-            tiffOptions.CompressionType = TiffCompressionTypes.Lzw;
-            tiffOptions.PixelFormat = ImagePixelFormat.Format16BppRgb555;
+            tiffOptions.PixelFormat = ImagePixelFormat.Format8bppIndexed;
 
             //使用自定义选项将演示文稿另存为 TIFF
             presentation.Save("output.tiff", SaveFormat.Tiff, tiffOptions);

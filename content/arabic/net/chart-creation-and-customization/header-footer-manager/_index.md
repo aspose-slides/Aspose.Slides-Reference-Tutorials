@@ -120,7 +120,7 @@ using Aspose.Slides;
 // قم بتحميل العرض التقديمي
 using Presentation presentation = new Presentation("your-presentation.pptx");
 
-//محاذاة الرؤوس والتذييلات
+// محاذاة الرؤوس والتذييلات
 foreach (ISlide slide in presentation.Slides)
 {
     slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;
@@ -247,7 +247,7 @@ presentation.Save("presentation.png", SaveFormat.Png);
 
 نعم، يدعم Aspose.Slides مجموعة واسعة من تنسيقات الشرائح، بما في ذلك PowerPoint (.pptx) وPDF.
 
-### هل يمكنني تخصيص الرؤوس والتذييلات لشرائح محددة؟
+### هل يمكنني تخصيص الرؤوس والتذييلات لشرائح معينة؟
 
 قطعاً! يسمح لك Aspose.Slides بتخصيص الرؤوس والتذييلات على أساس كل شريحة، مما يمنحك التحكم الكامل في مظهر العرض التقديمي الخاص بك.
 

@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Aperçu de la sortie d'impression
 
- Pour prévisualiser la sortie imprimée de la présentation, vous pouvez utiliser le`Print` méthode fournie par le`PrintManager` classe. Cette méthode vous permet de générer une image d’aperçu avant impression de la présentation. Voici comment procéder :
+ Pour prévisualiser la sortie imprimée de la présentation, vous pouvez utiliser le`Print`méthode fournie par le`PrintManager` classe. Cette méthode vous permet de générer une image d’aperçu avant impression de la présentation. Voici comment procéder :
 
 ```csharp
 using Aspose.Slides.Export;
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Générer l'image d'aperçu avant impression
     using (Bitmap previewImage = printManager.Print())
     {
-        //Votre code pour afficher ou enregistrer l'image d'aperçu
+        // Votre code pour afficher ou enregistrer l'image d'aperçu
     }
 }
 ```
@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Générer l'image d'aperçu avant impression avec des paramètres personnalisés
     using (Bitmap previewImage = printManager.Print())
     {
-        //Votre code pour afficher ou enregistrer l'image d'aperçu
+        // Votre code pour afficher ou enregistrer l'image d'aperçu
     }
 }
 ```
@@ -106,7 +106,7 @@ using (Bitmap previewImage = /* Obtain the preview image */)
 }
 ```
 
- Remplacer`"print-preview.png"`avec le chemin et le nom du fichier souhaité.
+ Remplacer`"print-preview.png"` avec le chemin et le nom du fichier souhaité.
 
 ## Conclusion
 
@@ -116,11 +116,11 @@ Dans ce guide, nous avons couvert le processus d'utilisation d'Aspose.Slides pou
 
 ### Comment puis-je personnaliser davantage les paramètres d'impression ?
 
- Vous pouvez explorer les différentes propriétés disponibles dans le`PrintManager.Settings` s'opposer à affiner les paramètres d'impression en fonction de vos besoins spécifiques. Ajustez les paramètres tels que les transitions des diapositives, la mise à l'échelle et l'orientation de la page pour obtenir la sortie d'impression souhaitée.
+ Vous pouvez explorer les différentes propriétés disponibles dans le`PrintManager.Settings`s'opposer à affiner les paramètres d'impression en fonction de vos besoins spécifiques. Ajustez les paramètres tels que les transitions des diapositives, la mise à l'échelle et l'orientation de la page pour obtenir la sortie d'impression souhaitée.
 
 ### Puis-je prévisualiser des diapositives spécifiques au lieu de la présentation entière ?
 
- Oui, vous pouvez utiliser le`PrintManager.Print`méthode avec des paramètres supplémentaires pour spécifier la plage de diapositives que vous souhaitez prévisualiser. Cela vous permet de vous concentrer sur des parties spécifiques de la présentation pendant le processus d'aperçu avant impression.
+ Oui, vous pouvez utiliser le`PrintManager.Print` méthode avec des paramètres supplémentaires pour spécifier la plage de diapositives que vous souhaitez prévisualiser. Cela vous permet de vous concentrer sur des parties spécifiques de la présentation pendant le processus d'aperçu avant impression.
 
 ### Est-il possible d'intégrer la fonctionnalité d'aperçu avant impression dans une application Windows Forms ?
 

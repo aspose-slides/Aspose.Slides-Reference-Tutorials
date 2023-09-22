@@ -14,7 +14,7 @@ Slayt animasyonları, slaytlar ve slayt öğeleri arasında hareket ve geçişle
 
 ## Geliştirme Ortamınızı Kurma
 
- Koda dalmadan önce projenizde Aspose.Slides for .NET'in kurulu olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/) . İndirdikten sonra, kurulum talimatlarını izleyin.[dokümantasyon](https://reference.aspose.com/slides/net/).
+Koda dalmadan önce projenizde Aspose.Slides for .NET'in kurulu olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/) . İndirdikten sonra, kurulum talimatlarını izleyin.[dokümantasyon](https://reference.aspose.com/slides/net/).
 
 ## 1. Adım: Sunuya Slaytlar Ekleme
 
@@ -95,7 +95,7 @@ Bu kılavuzda, PowerPoint sunumlarınızda slayt animasyonlarını kontrol etmek
 
 ### Aspose.Slides for .NET'i nasıl yüklerim?
 
- Aspose.Slides for .NET'i şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/) ve verilen kurulum talimatlarını izleyin.[dokümantasyon](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET'i şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/)ve verilen kurulum talimatlarını izleyin.[dokümantasyon](https://reference.aspose.com/slides/net/).
 
 ### Animasyonları belirli slayt öğelerine uygulayabilir miyim?
 

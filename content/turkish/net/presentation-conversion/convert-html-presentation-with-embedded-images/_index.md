@@ -7,115 +7,86 @@ type: docs
 weight: 11
 url: /tr/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-## Gömülü Görüntülerle HTML Sunumunu Dönüştürmeye Giriş 
 
-Bu kılavuzda, Aspose.Slides for .NET'i kullanarak gömülü görseller içeren bir HTML sunumunu PowerPoint sunumu (PPTX) formatına dönüştürme sürecini anlatacağız. Aspose.Slides, PowerPoint sunumlarıyla programlı olarak çalışmanıza olanak tanıyan güçlü bir kütüphanedir. 
+## 1. Giriş
 
-## Önkoşullar
-Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
-- Visual Studio veya başka herhangi bir .NET geliştirme ortamı kurulu.
--  Aspose.Slides for .NET kitaplığı. Şuradan indirebilirsiniz[Burada](https://downloads.aspose.com/slides/net).
-- C# ve .NET geliştirme konusunda temel bilgiler.
+Aspose.Slides for .NET, gömülü görüntüleri korurken PowerPoint sunumlarını HTML5 formatına dönüştürmenin kullanışlı bir yolunu sunar. Bu, sunumlarınızı web sitelerinde veya web uygulamalarında görüntülemek için inanılmaz derecede yararlı olabilir.
 
-## Adımlar
+## 2. Önkoşullar
 
-1. Yeni bir C# projesi oluşturun:
-   Visual Studio'nuzu açın ve yeni bir C# projesi oluşturun.
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-2. Aspose.Slides for .NET'i yükleyin:
-   Aspose.Slides for .NET kitaplığını projenize NuGet Paket Yöneticisi'ni kullanarak veya indirilen DLL dosyasına bir referans ekleyerek yükleyin.
+- Visual Studio veya herhangi bir C# geliştirme ortamı.
+- Aspose.Slides for .NET kitaplığı.
+- Gömülü görseller içeren örnek bir PowerPoint sunumu.
+- Temel C# programlama bilgisi.
 
-3. Gerekli ad alanlarını ekleyin:
-   Kod dosyanıza gerekli ad alanlarını ekleyin:
-   ```csharp
-   using Aspose.Slides;
-   using Aspose.Slides.Export;
-   using System.IO;
-   ```
+## 3. Projenizi Kurma
 
-4. HTML içeriğini yükleyin:
-   Sununun HTML içeriğini bir dizeye yükleyin. HTML'yi bir dosyadan veya bir web kaynağından alabilirsiniz.
-   ```csharp
-   string htmlContent = File.ReadAllText("path_to_your_html_file.html");
-   ```
+Tercih ettiğiniz geliştirme ortamında yeni bir C# projesi oluşturarak başlayın. Projenizde Aspose.Slides for .NET kitaplığına doğru şekilde başvurulduğundan emin olun.
 
-5. Yeni bir sunu oluşturun:
-    Yeni bir örneğini oluşturun`Presentation` sınıf.
-   ```csharp
-   using Presentation presentation = new Presentation();
-   ```
-
-6. HTML içeriğine sahip slaytlar ekleyin:
-   Sunuya slaytlar ekleyin ve her slayt için HTML içeriğini ayarlayın.
-   ```csharp
-   ISlideCollection slides = presentation.Slides;
-
-   // Slayt oluştur
-   ISlide slide = slides.AddEmptySlide();
-
-   // Slayta HTML içeriği ekleme
-   IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
-   textShape.TextFrame.Text = htmlContent;
-   ```
-
-7. Sunuyu kaydedin:
-   Sunuyu PPTX formatında kaydedin.
-   ```csharp
-   presentation.Save("output_presentation.pptx", SaveFormat.Pptx);
-   ```
-
-8. Uygulamayı çalıştırın:
-   Uygulamanızı oluşturun ve çalıştırın. Gömülü görüntüler içeren HTML sunumunu bir PowerPoint sunumuna dönüştürecektir.
-
-## Örnek Kod
+## 4. Kaynak Sunumunu Yükleme
 
 ```csharp
-using Aspose.Slides;
-using Aspose.Slides.Export;
-using System.IO;
+string dataDir = "Your Document Directory";
+string presentationName = Path.Combine(dataDir, "PresentationDemo.pptx");
 
-namespace HTMLToPPTConversion
+using (Presentation pres = new Presentation(presentationName))
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Dosyadan HTML içeriğini yükle
-            string htmlContent = File.ReadAllText("path_to_your_html_file.html");
-
-            // Yeni bir sunu oluşturma
-            using Presentation presentation = new Presentation();
-
-            // HTML içeriğine sahip bir slayt ekleyin
-            ISlide slide = presentation.Slides.AddEmptySlide();
-            IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
-            textShape.TextFrame.Text = htmlContent;
-
-            // Sunuyu PPTX formatında kaydedin
-            presentation.Save("output_presentation.pptx", SaveFormat.Pptx);
-        }
-    }
+    // Sunuyu işlemeye yönelik kodunuz buraya gelecek
 }
 ```
 
-## Çözüm
+## 5. HTML Dönüştürme Seçeneklerini Yapılandırma
 
-Aspose.Slides for .NET ile HTML sunumlarını gömülü görsellerle PowerPoint'e dönüştürmek artık çok kolay. Bu kitaplık süreci kolaylaştırır ve dönüşümün hassas bir şekilde yönetilmesi için kapsamlı araçlar sağlar.
+ HTML dönüştürme seçeneklerini yapılandırmak için`Html5Options` sınıf. Bazı seçeneklerin nasıl ayarlanacağına dair bir örnek:
 
-## SSS'ler
+```csharp
+Html5Options options = new Html5Options()
+{
+    EmbedImages = false, // Görüntüleri HTML5 belgesine kaydetmeyin
+    OutputPath = "Your Output Directory" // Harici görüntülerin yolunu ayarlayın
+};
+```
 
-### HTML sunumuna harici görselleri nasıl ekleyebilirim?
+## 6. Çıkış Dizini Oluşturma
 
-HTML sununuz harici görseller içeriyorsa görseller için doğru URL'leri sağladığınızdan emin olun. Aspose.Slides, HTML içeriğini slayda eklediğinizde bu görsellerin yerleştirilmesini otomatik olarak gerçekleştirecektir.
+Sunuyu HTML5 formatında kaydetmeden önce, eğer mevcut değilse çıktı dizinini oluşturmak iyi bir uygulamadır:
 
-### Dönüştürülen slaytların görünümünü özelleştirebilir miyim?
+```csharp
+string outFilePath = Path.Combine(outPath, "HTMLConversion");
 
-Evet, Aspose.Slides kütüphanesinin sağladığı çeşitli özellik ve yöntemleri kullanarak dönüştürülen slaytların görünümünü özelleştirebilirsiniz. Yazı tiplerini, renkleri, stilleri ve daha fazlasını değiştirebilirsiniz.
+if (!Directory.Exists(outFilePath))
+{
+    Directory.CreateDirectory(outFilePath);
+}
+```
 
-### Aspose.Slides for .NET'in tam belgelerini nerede bulabilirim?
+## 7. Sunumu HTML5 Formatında Kaydetmek
 
-Aspose.Slides for .NET'in tüm belgelerini ve API referansını bulabilirsiniz[Burada](https://reference.aspose.com/slides/net).
+Şimdi sunuyu HTML5 formatında kaydedelim:
 
-### Aspose.Slides for .NET'in en son sürümünü nereden indirebilirim?
+```csharp
+pres.Save(Path.Combine(outFilePath, "pres.html"), SaveFormat.Html5, options);
+```
 
- Aspose.Slides for .NET'in en son sürümünü Aspose sürümler sayfasından indirebilirsiniz:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net).
+## 8. Sonuç
+
+Tebrikler! Gömülü görseller içeren bir PowerPoint sunumunu Aspose.Slides for .NET'i kullanarak başarıyla HTML5 formatına dönüştürdünüz. Bu, sunumlarınızı çevrimiçi paylaşmak için değerli bir araç olabilir.
+
+## 9. SSS
+
+**Q1: Can I customize the appearance of the HTML5 presentation?**
+Evet, Aspose.Slides tarafından oluşturulan HTML ve CSS dosyalarını değiştirerek görünümü özelleştirebilirsiniz.
+
+**Q2: Does Aspose.Slides for .NET support other output formats?**
+Evet, PDF, resimler ve daha fazlası dahil olmak üzere çeşitli çıktı formatlarını destekler.
+
+**Q3: Are there any limitations to converting presentations with embedded images?**
+Aspose.Slides for .NET güçlü olsa da, oldukça karmaşık sunumlarda bazı sınırlamalarla karşılaşabilirsiniz.
+
+**Q4: Is Aspose.Slides for .NET compatible with the latest PowerPoint versions?**
+Evet, en son sürümler de dahil olmak üzere farklı sürümlerdeki PowerPoint dosyalarıyla uyumludur.
+
+**Q5: Where can I find more documentation and resources for Aspose.Slides for .NET?**
+ Kapsamlı belgeler ve kaynaklar için şu adresi ziyaret edin:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).

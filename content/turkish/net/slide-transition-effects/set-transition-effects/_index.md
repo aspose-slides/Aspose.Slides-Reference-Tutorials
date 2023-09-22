@@ -88,7 +88,7 @@ Geçiş efektlerini sunum slaytlarınıza dahil etmek, içeriğinizin izleyiciye
 
 ### Her slayta farklı geçiş efektleri uygulayabilir miyim?
 
- Evet, her slayda farklı geçiş efektleri uygulayabilirsiniz.`SlideShowTransition`Her slaytın özellikleri ayrı ayrı.
+ Evet, her slayda farklı geçiş efektleri uygulayabilirsiniz.`SlideShowTransition` Her slaytın özellikleri ayrı ayrı.
 
 ### Geçişlere ses efektleri eklemek mümkün mü?
 

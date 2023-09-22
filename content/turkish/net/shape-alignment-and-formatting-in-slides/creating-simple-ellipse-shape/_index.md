@@ -61,7 +61,7 @@ IAutoShape ellipseShape = slide.Shapes.AddAutoShape(ShapeType.Ellipse, x, y, wid
 // Elipsin dolgu rengini ayarlayın
 ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
 
-// Anahat rengini ve genişliğini ayarlama
+//Anahat rengini ve genişliğini ayarlama
 ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ellipseShape.LineFormat.Width = 2;
 

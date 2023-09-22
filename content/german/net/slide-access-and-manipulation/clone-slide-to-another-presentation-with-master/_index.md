@@ -43,7 +43,7 @@ var destPresentation = new Presentation("destination.pptx");
 Um eine Folie von der Quellpräsentation in die Zielpräsentation zu kopieren und dabei die Masterfolie beizubehalten, verwenden Sie den folgenden Code:
 
 ```csharp
-// Kopieren Sie die Folie von der Quelle zum Ziel
+//Kopieren Sie die Folie von der Quelle zum Ziel
 var sourceSlide = sourcePresentation.Slides[0];
 var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 ```
@@ -76,7 +76,7 @@ namespace SlideCopyApp
             // Zielpräsentation laden
             var destPresentation = new Presentation("destination.pptx");
 
-            // Kopieren Sie die Folie von der Quelle zum Ziel
+            //Kopieren Sie die Folie von der Quelle zum Ziel
             var sourceSlide = sourcePresentation.Slides[0];
             var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 
@@ -95,7 +95,7 @@ In dieser Anleitung haben wir den schrittweisen Prozess des Kopierens einer Foli
 
 ### Wie kann ich die Aspose.Slides für .NET-Bibliothek installieren?
 
- Sie können die Aspose.Slides für .NET-Bibliothek von herunterladen[Aspose.Slides für .NET-Website](https://releases.aspose.com/slides/net/)Befolgen Sie die Installationsanweisungen, um es in Ihr Projekt zu integrieren.
+Sie können die Aspose.Slides für .NET-Bibliothek von herunterladen[Aspose.Slides für .NET-Website](https://releases.aspose.com/slides/net/). Befolgen Sie die Installationsanweisungen, um es in Ihr Projekt zu integrieren.
 
 ### Kann ich mit dieser Methode mehrere Folien gleichzeitig kopieren?
 

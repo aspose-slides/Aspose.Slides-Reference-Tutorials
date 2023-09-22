@@ -44,14 +44,12 @@ pres.Save(gifStream, SaveFormat.Gif);
 Sie können den GIF-Generierungsprozess anpassen, indem Sie Parameter wie Foliendauer, Größe und Qualität anpassen. Um beispielsweise die Foliendauer auf 2 Sekunden und die Ausgabe-GIF-Größe auf 800 x 600 Pixel festzulegen, verwenden Sie den folgenden Code:
 
 ```csharp
-GifOptions gifOptions = new GifOptions();
-gifOptions.SlideTransitions = true;
-gifOptions.SlideTransitionsTransparency = true;
-gifOptions.Quality = 80;
-gifOptions.SlideSize = new Size(800, 600);
-gifOptions.TimeResolution = 2000; // 2 Sekunden
-
-pres.Save(gifStream, SaveFormat.Gif);
+GifOptions gifOptions = new GifOptions(){
+FrameSize = new Size(800, 600), // die Größe des resultierenden GIF
+DefaultDelay = 2000, // wie lange jede Folie angezeigt wird, bis zur nächsten gewechselt wird
+TransitionFps = 35 // Erhöhen Sie die FPS, um die Qualität der Übergangsanimationen zu verbessern
+}
+pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 ```
 
 ## Speichern und Exportieren des GIF
@@ -95,15 +93,14 @@ class Program
     {
         using Presentation pres = new Presentation("presentation.pptx");
 
-        GifOptions gifOptions = new GifOptions();
-        gifOptions.SlideTransitions = true;
-        gifOptions.SlideTransitionsTransparency = true;
-        gifOptions.Quality = 80;
-        gifOptions.SlideSize = new Size(800, 600);
-        gifOptions.TimeResolution = 2000; // 2 Sekunden
+        GifOptions gifOptions = new GifOptions(){
+        FrameSize = new Size(800, 600), // die Größe des resultierenden GIF
+        DefaultDelay = 2000, // wie lange jede Folie angezeigt wird, bis zur nächsten gewechselt wird
+        TransitionFps = 35 // Erhöhen Sie die FPS, um die Qualität der Übergangsanimationen zu verbessern
+        }
 
         using MemoryStream gifStream = new MemoryStream();
-        pres.Save(gifStream, SaveFormat.Gif);
+        pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 
         using FileStream gifFile = new FileStream("output.gif", FileMode.Create);
         gifStream.WriteTo(gifFile);

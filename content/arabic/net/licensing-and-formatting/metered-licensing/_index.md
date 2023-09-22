@@ -40,7 +40,7 @@ url: /ar/net/licensing-and-formatting/metered-licensing/
 
 ## تهيئة الترخيص المقنن
 
- في التعليمات البرمجية الخاصة بك، استخدم ما تم الحصول عليه`AppSID` و`AppKey` لتهيئة الترخيص المقنن:
+في التعليمات البرمجية الخاصة بك، استخدم ما تم الحصول عليه`AppSID` و`AppKey` لتهيئة الترخيص المقنن:
 
 ```csharp
 Aspose.Slides.License license = new Aspose.Slides.License();

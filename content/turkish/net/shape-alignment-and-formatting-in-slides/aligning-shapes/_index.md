@@ -68,7 +68,7 @@ shape1.TextFrame.TextFrameFormat.AnchoringType = TextAnchorType.Top;
 shape2.TextFrame.TextFrameFormat.AnchoringType = TextAnchorType.Top;
 ```
 
-## Slayta Hizalama
+## Slayda Hizalama
 
  Şekilleri slayta göre hizalamak için`AlignToSlide` yöntem:
 
@@ -92,7 +92,7 @@ slide.Shapes.DistributeHorizontally();
 Sununuz gruplandırılmış şekiller içeriyorsa grubun tamamını hizalayabilirsiniz:
 
 ```csharp
-//Gruplandırılmış bir şekle erişme
+// Gruplandırılmış bir şekle erişme
 IGroupShape groupShape = (IGroupShape)slide.Shapes[2];
 
 // Grubu yatay olarak hizalayın

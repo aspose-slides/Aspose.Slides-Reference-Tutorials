@@ -8,138 +8,74 @@ weight: 25
 url: /ar/net/presentation-manipulation/convert-ppt-to-pptx-format/
 ---
 
-## مقدمة لتحويل تنسيق الملف
+إذا كنت بحاجة في أي وقت إلى تحويل ملفات PowerPoint من تنسيق PPT الأقدم إلى تنسيق PPTX الأحدث باستخدام .NET، فأنت في المكان الصحيح. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال العملية باستخدام Aspose.Slides for .NET API. باستخدام هذه المكتبة القوية، يمكنك التعامل مع مثل هذه التحويلات بسهولة. هيا بنا نبدأ!
 
-يتضمن تحويل تنسيق الملف تغيير ملف من تنسيق إلى آخر مع الحفاظ على محتواه وبنيته. في سياق العروض التقديمية، يوفر التحويل من PPT إلى PPTX فوائد مثل الضغط المحسن واستعادة البيانات بشكل أفضل والتوافق المحسن مع البرامج الحديثة.
+## المتطلبات الأساسية
 
-## حول Aspose.Slides لـ .NET
+قبل أن نتعمق في الكود، تأكد من أن لديك الإعداد التالي:
 
-Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من إنشاء عروض PowerPoint التقديمية وتعديلها وتحويلها برمجياً. وهو يدعم مجموعة واسعة من الميزات، بما في ذلك معالجة الشرائح وتنسيق النص والرسوم المتحركة وبالطبع تحويل التنسيق.
+- Visual Studio: تأكد من تثبيت Visual Studio وجاهز لتطوير .NET.
+-  Aspose.Slides for .NET: قم بتنزيل وتثبيت Aspose.Slides for .NET Library من[هنا](https://releases.aspose.com/slides/net/).
 
-## إعداد بيئة التطوير الخاصة بك
+## إعداد المشروع
 
-قبل أن نتعمق في عملية التحويل، فلنقم بإعداد بيئة التطوير الخاصة بنا:
+1. إنشاء مشروع جديد: افتح Visual Studio وقم بإنشاء مشروع C# جديد.
 
-1.  قم بتنزيل وتثبيت Visual Studio من[هنا](https://visualstudio.microsoft.com).
-2. قم بإنشاء مشروع .NET جديد في Visual Studio.
+2. إضافة مرجع إلى Aspose.Slides: انقر بزر الماوس الأيمن على مشروعك في Solution Explorer، واختر "إدارة حزم NuGet"، وابحث عن "Aspose.Slides". قم بتثبيت الحزمة.
 
-## تحميل ملف PPT باستخدام Aspose.Slides
-
-لبدء عملية التحويل، نحتاج إلى تحميل ملف PPT الموجود باستخدام مكتبة Aspose.Slides. وإليك كيف يمكنك القيام بذلك:
+3. استيراد مساحات الأسماء المطلوبة:
 
 ```csharp
 using Aspose.Slides;
-
-// قم بتحميل ملف PPT
-using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
-{
-    // سيتم وضع رمز التحويل الخاص بك هنا
-}
 ```
 
-## تحويل PPT إلى PPTX: خطوة بخطوة
+## تحويل PPT إلى PPTX
 
-## فتح ملف PPT
-
-أولاً، لنفتح ملف PPT باستخدام Aspose.Slides:
+الآن وبعد أن قمنا بإعداد مشروعنا، فلنكتب الكود لتحويل ملف PPT إلى PPTX.
 
 ```csharp
-using Aspose.Slides;
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
-{
-    // سيتم وضع رمز التحويل الخاص بك هنا
-}
+string srcFileName = dataDir + "Conversion PPT to PPTX.ppt";
+string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
+
+// إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف PPT
+Presentation pres = new Presentation(srcFileName);
+
+// حفظ العرض التقديمي بتنسيق PPTX
+pres.Save(outPath, SaveFormat.Pptx);
 ```
 
-## إنشاء عرض تقديمي PPTX جديد
+في مقتطف الشفرة هذا:
 
-بعد ذلك، قم بإنشاء عرض تقديمي جديد لـ PPTX والذي سنقوم بنسخ الشرائح إليه:
-
-```csharp
-using Aspose.Slides;
-
-using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
-{
-    // إنشاء عرض تقديمي PPTX جديد
-    var newPresentation = new Presentation();
-    
-    // سيتم وضع رمز التحويل الخاص بك هنا
-}
-```
-
-## نسخ الشرائح من PPT إلى PPTX
-
-الآن، لننسخ الشرائح من العرض التقديمي PPT الأصلي إلى العرض التقديمي PPTX الذي تم إنشاؤه حديثًا:
-
-```csharp
-using Aspose.Slides;
-
-using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
-{
-    var newPresentation = new Presentation();
-
-    // انسخ الشرائح من PPT إلى PPTX
-    foreach (ISlide slide in presentation.Slides)
-    {
-        newPresentation.Slides.AddClone(slide);
-    }
-    
-    // سيتم وضع رمز التحويل الخاص بك هنا
-}
-```
-
-## حفظ العرض التقديمي المحول
-
-بعد نسخ الشرائح، يمكننا حفظ العرض التقديمي المحول بتنسيق PPTX:
-
-```csharp
-using Aspose.Slides;
-
-using (var presentation = new Presentation("path_to_your_ppt_file.ppt"))
-{
-    var newPresentation = new Presentation();
-    
-    foreach (ISlide slide in presentation.Slides)
-    {
-        newPresentation.Slides.AddClone(slide);
-    }
-
-    //احفظ العرض التقديمي المحول
-    newPresentation.Save("converted_presentation.pptx", SaveFormat.Pptx);
-}
-```
-
-## الخطوط والتنسيق
-
-أثناء عملية التحويل، تأكد من بقاء الخطوط والتنسيقات متسقة. يوفر Aspose.Slides طرقًا لإدارة الخطوط والأنماط للحفاظ على سلامة العرض التقديمي.
-
-## الوسائط والكائنات المضمنة
-
-إذا كان ملف PPT الخاص بك يحتوي على وسائط أو كائنات مضمنة، فإن Aspose.Slides يوفر خيارات للتعامل مع هذه العناصر بشكل مناسب أثناء التحويل.
+- `dataDir`يجب استبداله بمسار الدليل حيث يوجد ملف PPT الخاص بك.
+- `outPath` يجب استبداله بالدليل الذي تريد حفظ ملف PPTX المحول فيه.
+- `srcFileName` هو اسم ملف الإدخال PPT الخاص بك.
+- `destFileName` هو الاسم المطلوب لملف الإخراج PPTX.
 
 ## خاتمة
 
-يعد تحويل العروض التقديمية من تنسيق PPT إلى تنسيق PPTX أمرًا ضروريًا لمواكبة معايير الملفات الحديثة وتوافقها. باستخدام Aspose.Slides for .NET، تصبح هذه المهمة واضحة ويمكن إنجازها برمجيًا. باتباع الخطوات الموضحة في هذا الدليل، يمكنك تحويل ملفات PPT بسلاسة إلى تنسيق PPTX الأكثر كفاءة وتنوعًا.
+تهانينا! لقد نجحت في تحويل عرض تقديمي لـ PowerPoint من تنسيق PPT إلى تنسيق PPTX باستخدام Aspose.Slides for .NET API. تعمل هذه المكتبة القوية على تبسيط المهام المعقدة مثل هذه، مما يجعل تجربة تطوير .NET الخاصة بك أكثر سلاسة.
 
-## الأسئلة الشائعة
+ إذا لم تكن قد فعلت ذلك بالفعل،[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/) واستكشاف قدراتها بشكل أكبر.
 
-## كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
+ لمزيد من الدروس والنصائح، قم بزيارة موقعنا[توثيق](https://reference.aspose.com/slides/net/).
 
- يمكنك تنزيل Aspose.Slides for .NET من موقع الويب:[هنا](https://downloads.aspose.com/slides/net)
+## أسئلة مكررة
 
-## هل يدعم Aspose.Slides لغات البرمجة الأخرى؟
+### 1. ما هو Aspose.Slides لـ .NET؟
+Aspose.Slides for .NET هي مكتبة .NET تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجيًا.
 
-نعم، Aspose.Slides متاح للعديد من لغات البرمجة، بما في ذلك Java وPython. يمكنك العثور على مزيد من المعلومات في الوثائق.
+### 2. هل يمكنني تحويل التنسيقات الأخرى إلى PPTX باستخدام Aspose.Slides لـ .NET؟
+نعم، يدعم Aspose.Slides for .NET العديد من التنسيقات، بما في ذلك PPT وPPTX وODP والمزيد.
 
-## هل يمكنني تخصيص عملية التحويل بشكل أكبر؟
+### 3. هل Aspose.Slides for .NET مجاني للاستخدام؟
+ لا، إنها مكتبة تجارية، ولكن يمكنك استكشاف[تجربة مجانية](https://releases.aspose.com/) لتقييم ميزاته.
 
-قطعاً! يوفر Aspose.Slides نطاقًا واسعًا من الخيارات لتخصيص عملية التحويل، بما في ذلك التعامل مع عناصر الشرائح والتخطيطات والانتقالات المحددة.
+### 4. هل هناك أي تنسيقات مستندات أخرى يدعمها Aspose.Slides لـ .NET؟
+نعم، يدعم Aspose.Slides for .NET أيضًا العمل مع مستندات Word وجداول بيانات Excel وتنسيقات الملفات الأخرى.
 
-## هل Aspose.Slides مناسب لكل من المشاريع الشخصية والتجارية؟
+### 5. أين يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.Slides for .NET؟
+ يمكنك العثور على إجابات لأسئلتك وطلب الدعم في[منتديات Aspose.Slides](https://forum.aspose.com/).
 
-نعم، يمكن استخدام Aspose.Slides لكل من المشاريع الشخصية والتجارية. ومع ذلك، تأكد من مراجعة شروط الترخيص على موقع Aspose.
-
-## أين يمكنني العثور على وثائق مفصلة عن Aspose.Slides؟
-
- يمكنك الرجوع إلى الوثائق للحصول على معلومات شاملة وأمثلة على التعليمات البرمجية:[Aspose.توثيق الشرائح](https://docs.aspose.com/slides/net/)

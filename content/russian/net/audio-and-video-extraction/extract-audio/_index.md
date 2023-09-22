@@ -16,7 +16,7 @@ url: /ru/net/audio-and-video-extraction/extract-audio/
 
 Чтобы начать извлекать аудио из слайдов с помощью Aspose.Slides for .NET, вам необходимо выполнить следующие шаги:
 
-1. Установите Aspose.Slides: Вы можете загрузить и установить библиотеку Aspose.Slides для .NET с веб-сайта:[здесь](https://products.aspose.com/slides/net).
+1.  Установите Aspose.Slides: Вы можете загрузить и установить библиотеку Aspose.Slides для .NET с веб-сайта:[здесь](https://products.aspose.com/slides/net).
 
 2. Добавить ссылку. После загрузки и установки библиотеки добавьте ссылку в свой проект. Это позволит вам получить доступ к API Aspose.Slides в вашем .NET-приложении.
 
@@ -48,7 +48,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Ваш код для обработки аудиобайтов
+        // Ваш код для обработки аудиобайтов
     }
 }
 ```
@@ -88,7 +88,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Ваш код для обработки аудиобайтов
+        // Ваш код для обработки аудиобайтов
     }
 }
 ```

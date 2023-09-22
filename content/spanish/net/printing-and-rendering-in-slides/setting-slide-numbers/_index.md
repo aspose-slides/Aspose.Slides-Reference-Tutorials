@@ -91,7 +91,7 @@ presentation.Save("output-presentation.pptx", SaveFormat.Pptx);
 
 ## Conclusión
 
-En esta guía, exploramos cómo mejorar sus presentaciones agregando y personalizando números de diapositivas usando Aspose.Slides para .NET. Si sigue los pasos proporcionados y los ejemplos de código, puede automatizar el proceso de agregar números de diapositiva y crear presentaciones de apariencia profesional.
+En esta guía, exploramos cómo mejorar sus presentaciones agregando y personalizando números de diapositivas usando Aspose.Slides para .NET. Si sigue los pasos proporcionados y los ejemplos de código, puede automatizar el proceso de agregar números de diapositiva y crear presentaciones de aspecto profesional.
 
 ## Preguntas frecuentes
 

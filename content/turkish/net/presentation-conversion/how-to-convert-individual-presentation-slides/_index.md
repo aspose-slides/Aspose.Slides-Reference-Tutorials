@@ -13,55 +13,99 @@ url: /tr/net/presentation-conversion/how-to-convert-individual-presentation-slid
 Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasını sağlayan, zengin özelliklere sahip bir kitaplıktır. Çeşitli formatlarda sunum dosyaları oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanıyan kapsamlı bir sınıf ve yöntem seti sağlar.
 
 ## Önkoşullar
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-Dönüştürme sürecine geçmeden önce birkaç ön koşulun yerine getirilmesi gerekir:
+-  Aspose.Slides for .NET: Geliştirme ortamınızda Aspose.Slides for .NET'in kurulu ve yapılandırılmış olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
 
-- Visual Studio: Visual Studio'nun veya başka bir uyumlu tümleşik geliştirme ortamının (IDE) kurulu olduğundan emin olun.
--  Aspose.Slides for .NET Library: Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net).
-- Temel C# Bilgisi: C# programlama diline aşinalık faydalı olacaktır.
+- Sunum Dosyası: Dönüştürmek istediğiniz slaytları içeren bir PowerPoint sunum dosyasına (PPTX) ihtiyacınız olacaktır. Gerekli sunum dosyasının hazır olduğundan emin olun.
 
-## Kurulum
+- Kod Düzenleyici: Sağlanan kaynak kodunu uygulamak için tercih ettiğiniz kod düzenleyiciyi kullanın. C#'ı destekleyen herhangi bir kod düzenleyici yeterli olacaktır.
 
-1. Sağlanan bağlantıdan Aspose.Slides for .NET kitaplığını indirin.
-2. Visual Studio'nuzda yeni bir C# projesi oluşturun.
-3. İndirdiğiniz Aspose.Slides kütüphanesine projenize bir referans ekleyin.
+## Ortamın Ayarlanması
+Projenizi tek tek slaytları dönüştürmeye hazırlamak için geliştirme ortamınızı ayarlayarak başlayalım. Bu adımları takip et:
 
-## Sunum Yükleme
+1. Kod düzenleyicinizi açın ve yeni bir proje oluşturun veya slayt dönüştürme işlevini uygulamak istediğiniz mevcut bir projeyi açın.
 
-Başlamak için üzerinde çalışabileceğiniz bir PowerPoint sunum dosyasına ihtiyacınız var. Bir sunumu şu şekilde yükleyebilirsiniz:
+2. Projenize Aspose.Slides for .NET kitaplığına bir referans ekleyin. Bunu genellikle Solution Explorer'da projenize sağ tıklayıp "Ekle"yi ve ardından "Referans"ı seçerek yapabilirsiniz. Daha önce indirdiğiniz Aspose.Slides DLL dosyasına göz atın ve onu referans olarak ekleyin.
+
+3. Artık sağlanan kaynak kodunu projenize entegre etmeye hazırsınız. Bir sonraki adım için kaynak kodunun hazır olduğundan emin olun.
+
+## Sunumu Yükleme
+Kodun ilk bölümü PowerPoint sunumunu yüklemeye odaklanıyor. Bu adım, sunumdaki slaytlara erişmek ve slaytlarla çalışmak için gereklidir.
 
 ```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-using var presentation = new Presentation("path_to_your_presentation.pptx");
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "Individual-Slide.pptx"))
+{
+    // Slayt dönüştürme kodu buraya gelecek
+}
 ```
 
-## Bireysel Slaytlara Erişim
+ Değiştirdiğinizden emin olun`"Your Document Directory"` sunum dosyanızın bulunduğu gerçek dizin yolu ile.
 
-Şimdi sunumdaki slaytlara tek tek erişelim:
+## HTML Dönüştürme Seçenekleri
+Kodun bu bölümünde HTML dönüştürme seçenekleri anlatılmaktadır. Bu seçenekleri gereksinimlerinize uyacak şekilde nasıl özelleştireceğinizi öğreneceksiniz.
 
 ```csharp
-//Belirli bir slayta dizine göre erişme (0 tabanlı)
-var targetSlide = presentation.Slides[slideIndex];
+HtmlOptions htmlOptions = new HtmlOptions();
+htmlOptions.HtmlFormatter = HtmlFormatter.CreateCustomFormatter(new CustomFormattingController());
+INotesCommentsLayoutingOptions notesOptions = htmlOptions.NotesCommentsLayouting;
+notesOptions.NotesPosition = NotesPositions.BottomFull;
 ```
 
-## Slaytları Farklı Formatlara Dönüştürme
+Dönüştürülen HTML slaytlarınızın biçimlendirmesini ve düzenini kontrol etmek için bu seçenekleri özelleştirin.
 
-Aspose.Slides for .NET, slaytları resimler veya PDF'ler gibi çeşitli formatlara dönüştürmenize olanak tanır. Bir slaydın görüntüye nasıl dönüştürüleceğini görelim:
+## Slaytlar Arasında Döngü Yapmak
+Bu bölümde, her slaytın işlenmesini sağlamak için sunumdaki her slaytta nasıl döngü oluşturulacağını açıklıyoruz.
 
 ```csharp
-// Slaydı resme dönüştürün
-var renderedImage = targetSlide.GetThumbnail(new Size(imageWidth, imageHeight));
+for (int i = 0; i < presentation.Slides.Count; i++)
+{
+    // Slaytları HTML olarak kaydetme kodu buraya gelir
+}
 ```
 
-## Dönüştürülen Slaydı Kaydetme
+Bu döngü sunumdaki tüm slaytlar boyunca yinelenir.
 
-Bir slaydı dönüştürdükten sonra çıktıyı bir dosyaya kaydedebilirsiniz:
+## HTML olarak kaydetme
+Kodun son kısmı, her slaydın ayrı bir HTML dosyası olarak kaydedilmesiyle ilgilidir.
 
 ```csharp
-// İşlenen görüntüyü bir dosyaya kaydedin
-renderedImage.Save("output_image.png", ImageFormat.Png);
+presentation.Save(dataDir + "Individual Slide" + (i + 1) + "_out.html", new[] { i + 1 }, SaveFormat.Html, htmlOptions);
+```
+
+Burada kod, her slaydı, slayt numarasına göre benzersiz bir adla bir HTML dosyası olarak kaydeder.
+
+## Adım 5: Özel Biçimlendirme (İsteğe Bağlı)
+ HTML çıktınıza özel biçimlendirme uygulamak isterseniz,`CustomFormattingController` sınıf. Bu bölüm, tek tek slaytların biçimlendirmesini kontrol etmenizi sağlar.
+```csharp
+public class CustomFormattingController : IHtmlFormattingController
+        {
+            void IHtmlFormattingController.WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteSlideStart(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(string.Format(SlideHeader, generator.SlideIndex + 1));
+            }
+
+            void IHtmlFormattingController.WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(SlideFooter);
+            }
+
+            void IHtmlFormattingController.WriteShapeStart(IHtmlGenerator generator, IShape shape)
+            {}
+
+            void IHtmlFormattingController.WriteShapeEnd(IHtmlGenerator generator, IShape shape)
+            {}
+
+            private const string SlideHeader = "<div class=\"slide\" name=\"slide\" id=\"slide{0}\">";
+            private const string SlideFooter = "</div>";
+        }
 ```
 
 ## Hata yönetimi

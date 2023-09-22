@@ -16,7 +16,7 @@ I dagens snabba värld av presentationer och multimediainnehåll har möjlighete
 
 För att börja extrahera ljud från bilder med Aspose.Slides för .NET måste du följa dessa steg:
 
-1. Installera Aspose.Slides: Du kan ladda ner och installera Aspose.Slides för .NET-biblioteket från webbplatsen:[här](https://products.aspose.com/slides/net).
+1.  Installera Aspose.Slides: Du kan ladda ner och installera Aspose.Slides för .NET-biblioteket från webbplatsen:[här](https://products.aspose.com/slides/net).
 
 2. Lägg till referens: När du har laddat ner och installerat biblioteket, lägg till en referens till ditt projekt. Detta gör att du kommer åt Aspose.Slides API i din .NET-applikation.
 
@@ -48,14 +48,14 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Din kod för att bearbeta ljudbytes
+        // Din kod för att bearbeta ljudbytes
     }
 }
 ```
 
 ## Spara ljud i olika format
 
-Efter att ha extraherat ljud från bilder, kanske du vill spara ljudet i olika format som MP3 eller WAV. Med Aspose.Slides kan du enkelt uppnå detta:
+Efter att ha extraherat ljud från bilder, kanske du vill spara ljudet i olika format som MP3 eller WAV. Aspose.Slides låter dig enkelt uppnå detta:
 
 ```csharp
 // Konvertera ljudbytes till ett annat format
@@ -88,7 +88,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Din kod för att bearbeta ljudbytes
+        // Din kod för att bearbeta ljudbytes
     }
 }
 ```

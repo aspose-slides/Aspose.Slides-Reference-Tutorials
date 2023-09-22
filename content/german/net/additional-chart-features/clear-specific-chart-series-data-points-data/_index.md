@@ -48,7 +48,7 @@ Identifizieren Sie nun die spezifischen Serien und Datenpunkte, die Sie löschen
 // Angenommen, Sie möchten die erste Serie löschen
 IChartSeries series = chart.ChartData.Series[0];
 
-// Durchlaufen Sie Datenpunkte und identifizieren Sie diejenigen, die gelöscht werden müssen
+//Durchlaufen Sie Datenpunkte und identifizieren Sie diejenigen, die gelöscht werden müssen
 List<int> dataPointsToRemove = new List<int> { 2, 4, 6 }; // Beispieldatenpunktindizes
 ```
 

@@ -45,7 +45,10 @@ Nach dem Laden der Präsentation besteht der nächste Schritt darin, sie unter B
 
 ```csharp
 // In TIFF mit Standardgröße konvertieren
-var options = new TiffOptions(TiffCompression.Default);
+var options = new TiffOptions()
+{
+    CompressionType = TiffCompressionTypes.Default;
+};
 presentation.Save("output.tiff", SaveFormat.Tiff, options);
 ```
 
@@ -55,7 +58,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff, options);
 
 ```csharp
 // Speichern Sie das TIFF-Bild
-presentation.Save("output.tiff", SaveFormat.Tiff);
+presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ```
 
 ## Abschluss
@@ -66,11 +69,11 @@ In diesem Tutorial haben wir den Prozess der Konvertierung einer Präsentation i
 
 ### Wie kann ich die TIFF-Bildqualität während der Konvertierung anpassen?
 
-Sie können die TIFF-Bildqualität steuern, indem Sie die Komprimierungsoptionen ändern. Stellen Sie verschiedene Komprimierungsstufen ein, um die gewünschte Bildqualität zu erreichen.
+Sie können die TIFF-Bildqualität steuern, indem Sie die Komprimierungsoptionen ändern. Stellen Sie verschiedene Komprimierungsstufen ein, um die gewünschte Bildqualität zu erzielen.
 
 ### Kann ich statt der gesamten Präsentation auch einzelne Folien konvertieren?
 
- Ja, Sie können bestimmte Folien mithilfe von selektiv in das TIFF-Format konvertieren`SlideEx` Klasse, um auf einzelne Folien zuzugreifen und diese dann als TIFF-Bilder zu konvertieren und zu speichern.
+ Ja, Sie können bestimmte Folien mithilfe von selektiv in das TIFF-Format konvertieren`Slide` Klasse, um auf einzelne Folien zuzugreifen und diese dann als TIFF-Bilder zu konvertieren und zu speichern.
 
 ### Ist Aspose.Slides für .NET mit verschiedenen PowerPoint-Versionen kompatibel?
 

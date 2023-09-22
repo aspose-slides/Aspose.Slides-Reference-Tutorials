@@ -13,55 +13,99 @@ url: /de/net/presentation-conversion/how-to-convert-individual-presentation-slid
 Aspose.Slides für .NET ist eine funktionsreiche Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten. Es bietet einen umfangreichen Satz an Klassen und Methoden, mit denen Sie Präsentationsdateien in verschiedenen Formaten erstellen, bearbeiten und konvertieren können.
 
 ## Voraussetzungen
+Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-Bevor wir uns mit dem Konvertierungsprozess befassen, müssen einige Voraussetzungen erfüllt sein:
+-  Aspose.Slides für .NET: Stellen Sie sicher, dass Aspose.Slides für .NET in Ihrer Entwicklungsumgebung installiert und konfiguriert ist. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/slides/net/).
 
-- Visual Studio: Stellen Sie sicher, dass Visual Studio oder eine andere kompatible integrierte Entwicklungsumgebung (IDE) installiert ist.
--  Aspose.Slides für .NET-Bibliothek: Sie können die Bibliothek herunterladen von[Hier](https://releases.aspose.com/slides/net).
-- Grundkenntnisse in C#: Vertrautheit mit der Programmiersprache C# ist hilfreich.
+- Präsentationsdatei: Sie benötigen eine PowerPoint-Präsentationsdatei (PPTX), die die Folien enthält, die Sie konvertieren möchten. Stellen Sie sicher, dass Sie die erforderliche Präsentationsdatei bereit haben.
 
-## Installation
+- Code-Editor: Verwenden Sie Ihren bevorzugten Code-Editor, um den bereitgestellten Quellcode zu implementieren. Jeder Code-Editor, der C# unterstützt, reicht aus.
 
-1. Laden Sie die Aspose.Slides für .NET-Bibliothek über den bereitgestellten Link herunter.
-2. Erstellen Sie ein neues C#-Projekt in Ihrem Visual Studio.
-3. Fügen Sie in Ihrem Projekt einen Verweis auf die heruntergeladene Aspose.Slides-Bibliothek hinzu.
+## Einrichten der Umgebung
+Beginnen wir mit der Einrichtung Ihrer Entwicklungsumgebung, um Ihr Projekt für die Konvertierung einzelner Folien vorzubereiten. Folge diesen Schritten:
 
-## Laden einer Präsentation
+1. Öffnen Sie Ihren Code-Editor und erstellen Sie ein neues Projekt oder öffnen Sie ein vorhandenes, in dem Sie die Folienkonvertierungsfunktion implementieren möchten.
 
-Zunächst benötigen Sie eine PowerPoint-Präsentationsdatei, mit der Sie arbeiten können. So können Sie eine Präsentation laden:
+2. Fügen Sie in Ihrem Projekt einen Verweis auf die Aspose.Slides for .NET-Bibliothek hinzu. Normalerweise können Sie dies tun, indem Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt klicken, „Hinzufügen“ und dann „Referenz“ auswählen. Navigieren Sie zur Aspose.Slides-DLL-Datei, die Sie zuvor heruntergeladen haben, und fügen Sie sie als Referenz hinzu.
+
+3. Sie können nun den bereitgestellten Quellcode in Ihr Projekt integrieren. Stellen Sie sicher, dass Sie den Quellcode für den nächsten Schritt bereit haben.
+
+## Laden der Präsentation
+Der erste Abschnitt des Codes konzentriert sich auf das Laden der PowerPoint-Präsentation. Dieser Schritt ist für den Zugriff auf und die Arbeit mit den Folien innerhalb der Präsentation unerlässlich.
 
 ```csharp
-using Aspose.Slides;
-
-// Laden Sie die Präsentation
-using var presentation = new Presentation("path_to_your_presentation.pptx");
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "Individual-Slide.pptx"))
+{
+    // Code für die Folienkonvertierung finden Sie hier
+}
 ```
 
-## Zugriff auf einzelne Folien
+ Stellen Sie sicher, dass Sie ersetzen`"Your Document Directory"` mit dem tatsächlichen Verzeichnispfad, in dem sich Ihre Präsentationsdatei befindet.
 
-Als nächstes greifen wir auf einzelne Folien innerhalb der Präsentation zu:
+## HTML-Konvertierungsoptionen
+In diesem Teil des Codes werden HTML-Konvertierungsoptionen erläutert. Sie erfahren, wie Sie diese Optionen an Ihre Anforderungen anpassen können.
 
 ```csharp
-//Greifen Sie über den Index auf eine bestimmte Folie zu (0-basiert)
-var targetSlide = presentation.Slides[slideIndex];
+HtmlOptions htmlOptions = new HtmlOptions();
+htmlOptions.HtmlFormatter = HtmlFormatter.CreateCustomFormatter(new CustomFormattingController());
+INotesCommentsLayoutingOptions notesOptions = htmlOptions.NotesCommentsLayouting;
+notesOptions.NotesPosition = NotesPositions.BottomFull;
 ```
 
-## Konvertieren von Folien in verschiedene Formate
+Passen Sie diese Optionen an, um die Formatierung und das Layout Ihrer konvertierten HTML-Folien zu steuern.
 
-Mit Aspose.Slides für .NET können Sie Folien in verschiedene Formate wie Bilder oder PDFs konvertieren. Sehen wir uns an, wie man eine Folie in ein Bild umwandelt:
+## Durch Folien blättern
+In diesem Abschnitt erklären wir, wie Sie jede Folie in der Präsentation durchlaufen, um sicherzustellen, dass jede Folie verarbeitet wird.
 
 ```csharp
-// Konvertieren Sie die Folie in ein Bild
-var renderedImage = targetSlide.GetThumbnail(new Size(imageWidth, imageHeight));
+for (int i = 0; i < presentation.Slides.Count; i++)
+{
+    // Code zum Speichern von Folien als HTML finden Sie hier
+}
 ```
 
-## Speichern der konvertierten Folie
+Diese Schleife durchläuft alle Folien in der Präsentation.
 
-Sobald Sie eine Folie konvertiert haben, können Sie die Ausgabe in einer Datei speichern:
+## Als HTML speichern
+Der letzte Teil des Codes befasst sich mit dem Speichern jeder Folie als einzelne HTML-Datei.
 
 ```csharp
-// Speichern Sie das gerenderte Bild in einer Datei
-renderedImage.Save("output_image.png", ImageFormat.Png);
+presentation.Save(dataDir + "Individual Slide" + (i + 1) + "_out.html", new[] { i + 1 }, SaveFormat.Html, htmlOptions);
+```
+
+Hier speichert der Code jede Folie als HTML-Datei mit einem eindeutigen Namen, der auf der Foliennummer basiert.
+
+## Schritt 5: Benutzerdefinierte Formatierung (optional)
+ Wenn Sie eine benutzerdefinierte Formatierung auf Ihre HTML-Ausgabe anwenden möchten, können Sie die verwenden`CustomFormattingController` Klasse. In diesem Abschnitt können Sie die Formatierung einzelner Folien steuern.
+```csharp
+public class CustomFormattingController : IHtmlFormattingController
+        {
+            void IHtmlFormattingController.WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteSlideStart(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(string.Format(SlideHeader, generator.SlideIndex + 1));
+            }
+
+            void IHtmlFormattingController.WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(SlideFooter);
+            }
+
+            void IHtmlFormattingController.WriteShapeStart(IHtmlGenerator generator, IShape shape)
+            {}
+
+            void IHtmlFormattingController.WriteShapeEnd(IHtmlGenerator generator, IShape shape)
+            {}
+
+            private const string SlideHeader = "<div class=\"slide\" name=\"slide\" id=\"slide{0}\">";
+            private const string SlideFooter = "</div>";
+        }
 ```
 
 ## Fehlerbehandlung

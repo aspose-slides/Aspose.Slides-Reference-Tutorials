@@ -106,7 +106,7 @@ presentation.Save(outputPath, SaveFormat.Pdf);
 
 ## Slutsats
 
-den här handledningen har vi fördjupat oss i den spännande världen av 3D-effekter i presentationsbilder med Aspose.Slides för .NET. Du har lärt dig hur du skapar en presentation, lägger till 3D-modeller, justerar effekter och egenskaper, lägger till animationer, applicerar ljus och material och exporterar slutresultatet. Med dessa färdigheter i hand kan du nu skapa visuellt fantastiska presentationer som lämnar ett bestående intryck på din publik.
+I den här handledningen har vi fördjupat oss i den spännande världen av 3D-effekter i presentationsbilder med Aspose.Slides för .NET. Du har lärt dig hur du skapar en presentation, lägger till 3D-modeller, justerar effekter och egenskaper, lägger till animationer, applicerar ljus och material och exporterar slutresultatet. Med dessa färdigheter i hand kan du nu skapa visuellt fantastiska presentationer som lämnar ett bestående intryck på din publik.
 
 ## FAQ's
 
@@ -124,7 +124,7 @@ Absolut! Aspose.Slides för .NET stöder export av presentationer till olika for
 
 ### Hur kan jag skapa komplexa animationer för 3D-modeller?
 
-Du kan skapa komplexa animationer genom att använda animeringseffekterna från Aspose.Slides. Utforska[animationsdokumentation](https://reference.aspose.com/slides/net/aspose.slides.animation/) för detaljerad information.
+ Du kan skapa komplexa animationer genom att använda animeringseffekterna från Aspose.Slides. Utforska[animationsdokumentation](https://reference.aspose.com/slides/net/aspose.slides.animation/) för detaljerad information.
 
 ### Var kan jag hitta fler kodexempel och resurser?
 

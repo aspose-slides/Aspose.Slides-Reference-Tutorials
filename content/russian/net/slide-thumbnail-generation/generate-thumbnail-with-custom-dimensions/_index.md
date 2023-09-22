@@ -28,7 +28,7 @@ url: /ru/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimension
 1. Создайте новый проект в Visual Studio.
 2. Установите библиотеку Aspose.Slides для .NET через менеджер пакетов NuGet.
 
-## Шаг 3. Загрузка презентации
+## Шаг 3. Загрузка презентации
 
 ```csharp
 using Aspose.Slides;

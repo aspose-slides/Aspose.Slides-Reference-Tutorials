@@ -8,109 +8,79 @@ weight: 15
 url: /sv/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
 
-I dagens digitala tidsålder har presentationer blivit en integrerad del av kommunikationen. Att införliva mediefiler, som bilder och videor, förbättrar effektiviteten i presentationer. Men att dela dessa presentationer med andra kan ibland vara en utmaning, särskilt när mottagarna kanske inte har tillgång till den ursprungliga programvaran som användes för att skapa dem. Det är här Aspose.Slides för .NET-biblioteket kommer till undsättning. Den här steg-för-steg-guiden leder dig genom processen att exportera mediafiler till HTML från en presentation med Aspose.Slides för .NET.
+I den här handledningen går vi igenom processen att exportera mediafiler till HTML från en presentation med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt API som låter dig arbeta med PowerPoint-presentationer programmatiskt. I slutet av den här guiden kommer du att kunna konvertera dina presentationer till HTML-format med lätthet. Så, låt oss komma igång!
 
+## 1. Introduktion
 
-## Introduktion till Aspose.Slides för .NET
+PowerPoint-presentationer innehåller ofta multimediaelement som videor, och du kan behöva exportera dessa presentationer till HTML-format för webbkompatibilitet. Aspose.Slides för .NET är ett bekvämt sätt att utföra denna uppgift programmatiskt.
 
-Aspose.Slides för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med PowerPoint-presentationer programmatiskt. Det ger ett brett utbud av funktioner, inklusive att skapa, redigera och konvertera presentationer. I den här guiden kommer vi att fokusera på att använda Aspose.Slides för .NET för att exportera mediafiler från en presentation till HTML.
+## 2. Förutsättningar
 
-## Förutsättningar
+Innan vi börjar, se till att du har följande förutsättningar på plats:
 
-Innan vi börjar, se till att du har följande:
+-  Aspose.Slides för .NET: Du bör ha Aspose.Slides för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
 
-- Visual Studio eller någon kompatibel utvecklingsmiljö
-- Aspose.Slides för .NET-bibliotek
-- Grundläggande förståelse för programmeringsspråket C#
+## 3. Ladda en presentation
 
-## Installation och installation
-
-1.  Ladda ner och installera Aspose.Slides for .NET-biblioteket från Aspose.Releases:[Ladda ner Aspose.Slides för .NET](https://releases.aspose.com/slides/net/)
-2. Skapa ett nytt C#-projekt i din föredragna utvecklingsmiljö.
-
-## Laddar presentationen
-
-För att komma igång, låt oss ladda PowerPoint-presentationen med Aspose.Slides-biblioteket. Du kan använda följande kodavsnitt som referens:
+För att börja måste du ladda PowerPoint-presentationen du vill konvertera till HTML. Du måste också ange utdatakatalogen där HTML-filen ska sparas. Här är koden för att ladda en presentation:
 
 ```csharp
-using Aspose.Slides;
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-// Ladda presentationen
-using (Presentation presentation = new Presentation("your-presentation.pptx"))
+// Laddar en presentation
+using (Presentation pres = new Presentation(dataDir + "example.pptx"))
 {
-    // Din kod för att extrahera och exportera mediefiler kommer hit
+    // Din kod här
 }
 ```
 
-## Extrahera mediafiler
+## 4. Ställa in HTML-alternativ
 
-Därefter måste vi extrahera mediefilerna (bilder, videor, ljud) från presentationen. Aspose.Slides ger ett enkelt sätt att uppnå detta. Här är ett exempel:
-
-```csharp
-//Iterera genom varje bild i presentationen
-foreach (ISlide slide in presentation.Slides)
-{
-    // Iterera genom varje form på bilden
-    foreach (IShape shape in slide.Shapes)
-    {
-        // Kontrollera om formen är en mediaram
-        if (shape is IMediaFrame)
-        {
-            IMediaFrame mediaFrame = (IMediaFrame)shape;
-
-            // Extrahera mediafil från ramen
-            byte[] mediaBytes = mediaFrame.MediaData.BinaryData;
-            
-            // Din kod för att exportera mediabytes kommer hit
-        }
-    }
-}
-```
-
-## Exportera mediafiler till HTML
-
-Med mediafilerna extraherade kan vi fortsätta att exportera dem till HTML. För detta kommer vi att använda funktionerna i Aspose.Slides för att generera HTML-representationer av mediafilerna. Här är hur:
+Låt oss nu ställa in HTML-alternativen för konverteringen. Vi konfigurerar en HTML-kontroller, HTML-formaterare och bildformat. Denna kod säkerställer att din HTML-fil innehåller de komponenter som krävs för att visa multimediaelement.
 
 ```csharp
-using Aspose.Slides.Export;
+const string fileName = "video.html";
+const string baseUri = "http://www.example.com/";
 
-// Antag att mediaBytes innehåller mediafilbyte
-using (MemoryStream stream = new MemoryStream(mediaBytes))
-{
-    // Spara media i HTML-format
-    using (HtmlOptions htmlOptions = new HtmlOptions())
-    {
-        presentation.MediaEncoder.EncodeToHtml(stream, htmlOptions);
-    }
-}
+VideoPlayerHtmlController controller = new VideoPlayerHtmlController(path: path, fileName: fileName, baseUri: baseUri);
+
+// Ställa in HTML-alternativ
+HtmlOptions htmlOptions = new HtmlOptions(controller);
+SVGOptions svgOptions = new SVGOptions(controller);
+
+htmlOptions.HtmlFormatter = HtmlFormatter.CreateCustomFormatter(controller);
+htmlOptions.SlideImageFormat = SlideImageFormat.Svg(svgOptions);
 ```
 
-## Hantera utdata
+## 5. Spara HTML-filen
 
-När mediafilerna har exporterats till HTML kan du spara dem i en angiven mapp eller ladda upp dem till en webbserver. Se till att hantera eventuella filnamn och organisationskonventioner efter behov.
+ Med HTML-alternativen konfigurerade kan du nu spara HTML-filen. De`Save` metoden för presentationsobjektet genererar HTML-filen med inbäddade multimediaelement.
 
-## Slutsats
+```csharp
+// Sparar filen
+pres.Save(outPath + fileName, SaveFormat.Html, htmlOptions);
+```
 
-den här guiden undersökte vi hur man exporterar mediefiler till HTML från en PowerPoint-presentation med Aspose.Slides för .NET. Detta kraftfulla bibliotek förenklar processen att arbeta med presentationer programmatiskt, och erbjuder utvecklare flexibiliteten att integrera medierikt innehåll sömlöst. Genom att följa stegen som beskrivs i den här guiden kan du förbättra tillgängligheten och delningsmöjligheterna för dina presentationer.
+## 6. Sammanfattning
 
-## Vanliga frågor
+Grattis! Du har framgångsrikt exporterat mediafiler till HTML från en PowerPoint-presentation med Aspose.Slides för .NET. Detta gör att du enkelt kan dela dina presentationer online och se till att multimediaelement visas korrekt.
 
-### Hur får jag Aspose.Slides för .NET-biblioteket?
+## 7. Vanliga frågor
 
- Du kan ladda ner Aspose.Slides för .NET-biblioteket från Aspose.Releases-sidan:[Ladda ner Aspose.Slides för .NET](https://releases.aspose.com/slides/net/)
+### F1: Är Aspose.Slides för .NET ett gratis bibliotek?
+ S1: Aspose.Slides för .NET är ett kommersiellt bibliotek, men du kan få en gratis provperiod från[här](https://releases.aspose.com/) att prova det.
 
-### Kan jag använda Aspose.Slides för andra presentationsrelaterade uppgifter?
+### F2: Kan jag anpassa HTML-utdata ytterligare?
+S2: Ja, du kan anpassa HTML-utdata genom att ändra HTML-alternativen i koden.
 
-Absolut! Aspose.Slides för .NET tillhandahåller ett brett utbud av funktioner utöver mediaextraktion, inklusive att skapa, redigera och konvertera presentationer programmatiskt.
+### F3: Stöder Aspose.Slides för .NET andra exportformat?
+S3: Ja, Aspose.Slides för .NET stöder olika exportformat, inklusive PDF, bildformat och mer.
 
-### Finns det en testversion tillgänglig för Aspose.Slides?
+### F4: Var kan jag få support för Aspose.Slides för .NET?
+ S4: Du kan hitta support och ställa frågor på Aspose-forumen[här](https://forum.aspose.com/).
 
-Ja, du kan utforska funktionerna i Aspose.Slides genom att ladda ner testversionen från Aspose.Releases.
+### F5: Hur köper jag en licens för Aspose.Slides för .NET?
+ S5: Du kan köpa en licens från[den här länken](https://purchase.aspose.com/buy).
 
-### Vilka format stöder Aspose.Slides för export?
-
-Aspose.Slides stöder export av presentationer till olika format, inklusive PDF, HTML, bilder och mer.
-
-### Hur kan jag lära mig mer om att använda Aspose.Slides för .NET?
-
- För omfattande dokumentation och exempel, se Aspose.Slides för .NET-dokumentationen:[Aspose.Slides för .NET API Referens](https://reference.aspose.com/slides/net/)
+Nu när du har slutfört den här handledningen har du färdigheter att exportera mediefiler till HTML från PowerPoint-presentationer med Aspose.Slides för .NET. Njut av att dela dina multimediarika presentationer online!

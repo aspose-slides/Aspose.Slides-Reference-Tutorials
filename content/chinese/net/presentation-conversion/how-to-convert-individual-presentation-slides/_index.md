@@ -13,55 +13,99 @@ url: /zh/net/presentation-conversion/how-to-convert-individual-presentation-slid
 Aspose.Slides for .NET 是一个功能丰富的库，使开发人员能够以编程方式处理 PowerPoint 演示文稿。它提供了一组广泛的类和方法，允许您创建、操作和转换各种格式的演示文稿文件。
 
 ## 先决条件
+在我们开始之前，请确保您具备以下先决条件：
 
-在我们深入研究转换过程之前，您需要满足一些先决条件：
+-  Aspose.Slides for .NET：确保您的开发环境中安装并配置了 Aspose.Slides for .NET。您可以从[网站](https://releases.aspose.com/slides/net/).
 
-- Visual Studio：确保安装了 Visual Studio 或任何其他兼容的集成开发环境 (IDE)。
--  Aspose.Slides for .NET Library：您可以从以下位置下载该库：[这里](https://releases.aspose.com/slides/net).
-- C# 基础知识：熟悉 C# 编程语言将会有所帮助。
+- 演示文稿文件：您需要一个包含要转换的幻灯片的 PowerPoint 演示文稿文件 (PPTX)。确保您已准备好必要的演示文件。
 
-## 安装
+- 代码编辑器：使用您喜欢的代码编辑器来实现提供的源代码。任何支持 C# 的代码编辑器就足够了。
 
-1. 从提供的链接下载 Aspose.Slides for .NET 库。
-2. 在 Visual Studio 中创建一个新的 C# 项目。
-3. 在项目中添加对下载的 Aspose.Slides 库的引用。
+## 设置环境
+让我们首先设置您的开发环境，为转换单个幻灯片的项目做好准备。按着这些次序：
+
+1. 打开代码编辑器并创建一个新项目或打开要在其中实现幻灯片转换功能的现有项目。
+
+2. 在项目中添加对 Aspose.Slides for .NET 库的引用。通常，您可以通过在解决方案资源管理器中右键单击您的项目，选择“添加”，然后选择“引用”来完成此操作。浏览到您之前下载的 Aspose.Slides DLL 文件并将其添加为参考。
+
+3. 您现在已准备好将提供的源代码集成到您的项目中。确保您已准备好用于下一步的源代码。
 
 ## 加载演示文稿
-
-首先，您需要一个 PowerPoint 演示文稿文件来使用。以下是加载演示文稿的方法：
+代码的第一部分重点是加载 PowerPoint 演示文稿。此步骤对于访问和使用演示文稿中的幻灯片至关重要。
 
 ```csharp
-using Aspose.Slides;
-
-//加载演示文稿
-using var presentation = new Presentation("path_to_your_presentation.pptx");
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "Individual-Slide.pptx"))
+{
+    //幻灯片转换代码在这里
+}
 ```
 
-## 访问单独的幻灯片
+确保更换`"Your Document Directory"`与演示文稿文件所在的实际目录路径。
 
-接下来，让我们访问演示文稿中的各个幻灯片：
+## HTML 转换选项
+这部分代码讨论 HTML 转换选项。您将了解如何自定义这些选项以满足您的要求。
 
 ```csharp
-//按索引访问特定幻灯片（从 0 开始）
-var targetSlide = presentation.Slides[slideIndex];
+HtmlOptions htmlOptions = new HtmlOptions();
+htmlOptions.HtmlFormatter = HtmlFormatter.CreateCustomFormatter(new CustomFormattingController());
+INotesCommentsLayoutingOptions notesOptions = htmlOptions.NotesCommentsLayouting;
+notesOptions.NotesPosition = NotesPositions.BottomFull;
 ```
 
-## 将幻灯片转换为不同的格式
+自定义这些选项以控制转换后的 HTML 幻灯片的格式和布局。
 
-Aspose.Slides for .NET 允许您将幻灯片转换为各种格式，例如图像或 PDF。让我们看看如何将幻灯片转换为图像：
+## 循环播放幻灯片
+在本节中，我们将解释如何循环浏览演示文稿中的每张幻灯片以确保每张幻灯片都得到处理。
 
 ```csharp
-//将幻灯片转换为图像
-var renderedImage = targetSlide.GetThumbnail(new Size(imageWidth, imageHeight));
+for (int i = 0; i < presentation.Slides.Count; i++)
+{
+    //将幻灯片另存为 HTML 的代码位于此处
+}
 ```
 
-## 保存转换后的幻灯片
+此循环将迭代演示文稿中的所有幻灯片。
 
-转换幻灯片后，您可以将输出保存到文件中：
+## 另存为 HTML
+代码的最后部分涉及将每张幻灯片保存为单独的 HTML 文件。
 
 ```csharp
-//将渲染图像保存到文件中
-renderedImage.Save("output_image.png", ImageFormat.Png);
+presentation.Save(dataDir + "Individual Slide" + (i + 1) + "_out.html", new[] { i + 1 }, SaveFormat.Html, htmlOptions);
+```
+
+此处，代码将每张幻灯片保存为 HTML 文件，并具有基于幻灯片编号的唯一名称。
+
+## 第 5 步：自定义格式（可选）
+如果您希望将自定义格式应用于 HTML 输出，您可以使用`CustomFormattingController`班级。此部分允许您控制单个幻灯片的格式。
+```csharp
+public class CustomFormattingController : IHtmlFormattingController
+        {
+            void IHtmlFormattingController.WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteSlideStart(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(string.Format(SlideHeader, generator.SlideIndex + 1));
+            }
+
+            void IHtmlFormattingController.WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(SlideFooter);
+            }
+
+            void IHtmlFormattingController.WriteShapeStart(IHtmlGenerator generator, IShape shape)
+            {}
+
+            void IHtmlFormattingController.WriteShapeEnd(IHtmlGenerator generator, IShape shape)
+            {}
+
+            private const string SlideHeader = "<div class=\"slide\" name=\"slide\" id=\"slide{0}\">";
+            private const string SlideFooter = "</div>";
+        }
 ```
 
 ## 错误处理

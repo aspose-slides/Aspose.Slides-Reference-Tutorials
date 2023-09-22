@@ -32,7 +32,7 @@ HyperlinkManager.ModifyHyperlinkUrl(shape, "https://yeniurl.com");
 
 ## Köprüleri Kaldırma
 
-Bir şekilden bir köprüyü kaldırmak istiyorsanız Aspose.Slides for .NET bunu yapmak için basit bir yöntem sunar.
+Bir şekilden bir köprüyü kaldırmak istiyorsanız Aspose.Slides for .NET bunu yapmak için basit bir yöntem sağlar.
 
 ```csharp
 // Bir şekilden köprüyü kaldırmak için kod örneği

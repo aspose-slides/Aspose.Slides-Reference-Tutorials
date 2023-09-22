@@ -92,7 +92,7 @@ slide.Shapes.DistributeHorizontally();
 Si tu presentación contiene formas agrupadas, puedes alinear todo el grupo:
 
 ```csharp
-//Acceder a una forma agrupada
+// Acceder a una forma agrupada
 IGroupShape groupShape = (IGroupShape)slide.Shapes[2];
 
 // Alinear el grupo horizontalmente

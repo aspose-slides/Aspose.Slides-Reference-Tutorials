@@ -124,7 +124,7 @@ En este tutorial, hemos profundizado en el apasionante mundo de los efectos 3D e
 
 ### ¿Cómo puedo crear animaciones complejas para modelos 3D?
 
-Puede crear animaciones complejas utilizando los efectos de animación proporcionados por Aspose.Slides. Explorar el[documentación de animación](https://reference.aspose.com/slides/net/aspose.slides.animation/) para obtener información detallada.
+ Puede crear animaciones complejas utilizando los efectos de animación proporcionados por Aspose.Slides. Explorar el[documentación de animación](https://reference.aspose.com/slides/net/aspose.slides.animation/) para obtener información detallada.
 
 ### ¿Dónde puedo encontrar más ejemplos de código y recursos?
 

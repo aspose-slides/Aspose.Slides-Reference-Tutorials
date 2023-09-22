@@ -94,7 +94,7 @@ catch (Exception ex)
 
 ## Slutsats
 
-I den här guiden lärde vi oss hur man skriver ut specifika bilder från en PowerPoint-presentation med Aspose.Slides för .NET. Vi täckte in att ladda presentationer, skriva ut bilder, anpassa utskriftsinställningar och hantera undantag. Aspose.Slides för .NET gör det enkelt att automatisera PowerPoint-relaterade uppgifter och uppnå effektiva resultat.
+den här guiden lärde vi oss hur man skriver ut specifika bilder från en PowerPoint-presentation med Aspose.Slides för .NET. Vi täckte in att ladda presentationer, skriva ut bilder, anpassa utskriftsinställningar och hantera undantag. Aspose.Slides för .NET gör det enkelt att automatisera PowerPoint-relaterade uppgifter och uppnå effektiva resultat.
 
 ## FAQ's
 

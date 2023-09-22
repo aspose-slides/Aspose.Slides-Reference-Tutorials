@@ -24,7 +24,7 @@ url: /ar/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry
 
 1.  التثبيت: ابدأ بتنزيل وتثبيت Aspose.Slides لمكتبة .NET. يمكنك العثور على أحدث إصدار[هنا](https://releases.aspose.com/slides/net/).
 
-2.  مرجع واجهة برمجة التطبيقات: تعرف على[وثائق Aspose.Slides API](https://reference.aspose.com/slides/net/) لاستكشاف مجموعة واسعة من الميزات والوظائف.
+2.  مرجع واجهة برمجة التطبيقات: تعرف على[وثائق Aspose.Slides API](https://reference.aspose.com/slides/net/)لاستكشاف مجموعة واسعة من الميزات والوظائف.
 
 ## إزالة القطاعات: خطوة بخطوة
 
@@ -61,7 +61,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
 
- يمكنك تنزيل مكتبة Aspose.Slides for .NET من[صفحة الإصدارات Aspose](https://releases.aspose.com/slides/net/). 
+يمكنك تنزيل مكتبة Aspose.Slides for .NET من[صفحة الإصدارات Aspose](https://releases.aspose.com/slides/net/). 
 
 ### هل يمكنني التراجع عن إزالة المقطع في Aspose.Slides؟
 

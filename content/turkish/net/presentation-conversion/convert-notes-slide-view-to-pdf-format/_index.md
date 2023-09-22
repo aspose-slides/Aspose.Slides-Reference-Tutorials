@@ -8,121 +8,73 @@ weight: 15
 url: /tr/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
 
-## Aspose.Slides for .NET'e Giriş
+Bu kapsamlı kılavuzda, Aspose.Slides for .NET'i kullanarak Notes Slayt Görünümünü PDF Formatına dönüştürme sürecinde size yol göstereceğiz. Bu görevi zahmetsizce gerçekleştirmek için ayrıntılı talimatlar ve kod parçacıkları bulacaksınız.
 
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. Çeşitli formatlarda sunumlar oluşturma, değiştirme ve dönüştürme yeteneği de dahil olmak üzere çok çeşitli özellikler sunar. Bu kılavuzda Notes Slayt Görünümünü PDF'ye dönüştürme yeteneğine odaklanacağız.
+## 1. Giriş
 
-## Notların Slayt Görünümünü ve Önemini Anlamak
+Not Slayt Görünümünü PDF Formatına Dönüştürme, PowerPoint sunumlarıyla çalışırken yaygın bir gereksinimdir. Aspose.Slides for .NET, bu görevi verimli bir şekilde gerçekleştirmek için güçlü bir araç seti sağlar.
 
-Bir sunumdaki konuşmacı notları, canlı bir sunum sırasında izleyicilerin göremeyebileceği değerli bilgiler içerir. Bu notlar sunum yapan kişiye bağlam, konuşma noktaları ve açıklamalar sağlar. Bu notları eklerken sunumu PDF'ye dönüştürmek, alıcının amaçlanan içeriğin tamamını almasını sağlayarak onu eğitim, iş ve eğitim amaçlı kullanışlı bir araç haline getirir.
+## 2. Önkoşullar
 
-## Aspose.Slides for .NET'in kurulumu
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-Koda dalmadan önce Aspose.Slides for .NET kütüphanesini kurmanız gerekiyor. Web sitesinden indirebilir veya .NET projeleri için popüler bir paket yöneticisi olan NuGet'i kullanabilirsiniz.
+- Visual Studio veya herhangi bir C# geliştirme ortamı.
+-  Aspose.Slides for .NET kitaplığı. İndirebilirsin[Burada](https://releases.aspose.com/slides/net/).
 
-NuGet Kurulumu:
+## 3. Ortamınızı Kurmak
 
-```bash
-Install-Package Aspose.Slides
-```
+Başlamak için geliştirme ortamınızda yeni bir C# projesi oluşturun. Projenizde Aspose.Slides for .NET kitaplığına başvurduğunuzdan emin olun.
 
-## Sunumu Konuşmacı Notlarıyla Yükleme
+## 4. Sunumun Yüklenmesi
 
-Başlamak için konuşmacı notlarını içeren bir PowerPoint sunumu yükleyelim. Sunum dosyasının proje dizininizde bulunduğundan emin olun.
-
-```csharp
-// Sunuyu yükle
-using var presentation = new Presentation("your-presentation.pptx");
-```
-
-## Not Slayt Görünümünü PDF'ye Dönüştürme
-
-Aspose.Slides for .NET, Notes Slayt Görünümünü PDF formatına dönüştürmenin basit bir yolunu sunar. Aşağıdaki kod parçacığı bu işlemi göstermektedir:
+ C# kodunuzda, PDF'ye dönüştürmek istediğiniz PowerPoint sunumunu yükleyin. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
 
 ```csharp
-//Not Slayt Görünümünü PDF'ye Dönüştür
-using var outputStream = new FileStream("output.pdf", FileMode.Create);
-presentation.Save(outputStream, SaveFormat.PdfNotes);
-```
-
-## PDF Dönüşümünü Özelleştirme
-
-Çeşitli ayarları yaparak PDF dönüştürme sürecini özelleştirebilirsiniz. Örneğin oluşturulan PDF'nin düzenini, görünümünü ve içeriğini kontrol edebilirsiniz.
-
-## Dönüştürülen PDF'yi Kaydetme
-
-Dönüştürme ayarlarını yapılandırdıktan sonra sıra dönüştürülen PDF dosyasını kaydetmeye gelir:
-
-```csharp
-presentation.Save("output.pdf", SaveFormat.PdfNotes);
-```
-
-## Örnek Kod Çözüm Yolu
-
-Notes Slayt Görünümünü PDF'ye dönüştürmek için kodun tamamını burada bulabilirsiniz:
-
-```csharp
-using Aspose.Slides;
-using System.IO;
-
-namespace PresentationConverter
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "NotesFile.pptx"))
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Sunuyu yükle
-            using var presentation = new Presentation("your-presentation.pptx");
-
-            //Not Slayt Görünümünü PDF'ye Dönüştür
-            using var outputStream = new FileStream("output.pdf", FileMode.Create);
-            presentation.Save(outputStream, SaveFormat.PdfNotes);
-        }
-    }
+    // Kodunuz burada
 }
 ```
 
-## Aspose.Slides for .NET Kullanmanın Yararları
+## 5. PDF Seçeneklerini Yapılandırma
 
-- PowerPoint sunumlarını sorunsuz bir şekilde PDF formatına dönüştürün.
-- Konuşmacı notlarını saklayın ve tüm bağlamın korunduğundan emin olun.
-- Düzen, görünüm ve daha fazlası için özelleştirme seçenekleri.
-- .NET geliştiricileri için sağlam ve iyi belgelenmiş kitaplık.
+Not slayt görünümüne ilişkin PDF seçeneklerini yapılandırmak için aşağıdaki kod parçacığını kullanın:
 
-## Yaygın Kullanım Durumları
+```csharp
+PdfOptions pdfOptions = new PdfOptions();
+INotesCommentsLayoutingOptions options = pdfOptions.NotesCommentsLayouting;
+options.NotesPosition = NotesPositions.BottomFull;
+```
 
-- Ayrıntılı açıklamalar içeren eğitim materyalleri.
-- Ek konuşma noktaları içeren iş sunumları.
-- Eğitim oturumları ve çalıştaylar.
+## 6. Sunumu PDF Olarak Kaydetmek
 
-## Verimli Sunum Dönüşümü İçin İpuçları
+Şimdi aşağıdaki kodu kullanarak sunuyu notlar slayt görünümü içeren bir PDF dosyası olarak kaydedin:
 
-1. Netlik sağlamak için konuşmacı notlarını etkili bir şekilde düzenleyin.
-2. Notların sağlam olduğunu doğrulamak için PDF çıktısını önizleyin.
-3. PDF'nin okunabilirliğini geliştirmek için biçimlendirme seçeneklerini kullanın.
+```csharp
+presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
+```
 
-## Çözüm
+## 7. Karar
 
-Notes Slayt Görünümünü PDF formatına dönüştürmek, hayati bağlamı kaybetmeden kapsamlı sunumları paylaşmanın değerli bir yoludur. Aspose.Slides for .NET, bu süreci kusursuz ve özelleştirilebilir hale getirerek farklı sektörlerdeki çeşitli kullanım durumlarına uyum sağlar.
+Tebrikler! Aspose.Slides for .NET'i kullanarak Notes Slayt Görünümünü başarıyla PDF Formatına dönüştürdünüz. Bu güçlü kitaplık, bunun gibi karmaşık görevleri basitleştirerek PowerPoint sunumlarıyla programlı olarak çalışmak için mükemmel bir seçimdir.
 
-## SSS'ler
+## 8. SSS
 
-### Aspose.Slides for .NET'i nasıl yüklerim?
+### S1: Aspose.Slides for .NET'i ticari bir projede kullanabilir miyim?
 
-Aspose.Slides for .NET'i NuGet paket yöneticisini kullanarak veya web sitesinden indirerek kurabilirsiniz.
+Evet, Aspose.Slides for .NET hem kişisel hem de ticari kullanım için mevcuttur.
 
-### Dönüştürülen PDF'nin görünümünü özelleştirebilir miyim?
+### S2: Herhangi bir sorun veya sorum için nasıl destek alabilirim?
 
-Evet, Aspose.Slides for .NET'i kullanarak dönüştürülen PDF'nin görünümünü, düzenini ve diğer özelliklerini özelleştirebilirsiniz.
+ Şu adreste destek bulabilirsiniz:[Aspose.Slides for .NET web sitesi](https://forum.aspose.com/slides/net/).
 
-### Deneme sürümü mevcut mu?
+### S3: PDF çıktısının düzenini özelleştirebilir miyim?
 
-Evet, Aspose.Slides for .NET, satın almadan önce keşfedebileceğiniz ücretsiz bir deneme sürümü sunuyor.
+Kesinlikle! Aspose.Slides for .NET, düzen ve biçimlendirme de dahil olmak üzere PDF çıktısını özelleştirmek için çeşitli seçenekler sunar.
 
-### Sunumları başka formatlara da dönüştürebilir miyim?
+### S4: Aspose.Slides for .NET için daha fazla eğitim ve örneği nerede bulabilirim?
 
-Kesinlikle! Aspose.Slides for .NET; resimler, PDF'ler ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler.
+ Ek eğitimleri ve örnekleri inceleyebilirsiniz.[Aspose.Slides for .NET API belgeleri](https://reference.aspose.com/slides/net/).
 
-### Konuşmacı notlarının dönüştürme için iyi biçimlendirildiğinden nasıl emin olabilirim?
-
-PowerPoint sununuzda konuşmacı notlarınızı net ve yapılandırılmış bir şekilde düzenlediğinizden emin olun. Bu, bunların doğru bir şekilde PDF formatına dönüştürülmesini sağlayacaktır.
+Artık Notes Slayt Görünümünü başarıyla PDF Formatına dönüştürdüğünüze göre, PowerPoint otomasyon görevlerinizi geliştirmek için Aspose.Slides for .NET'in daha fazla özelliğini ve yeteneğini keşfedebilirsiniz. Mutlu kodlama!

@@ -9,7 +9,7 @@ url: /ar/net/presentation-manipulation/import-pdf-content-into-presentations/
 ---
 
 ## مقدمة
-يمكن أن يؤدي دمج محتوى من مصادر مختلفة في عروضك التقديمية إلى رفع مستوى الجوانب المرئية والإعلامية لشرائحك. يوفر Aspose.Slides for .NET حلاً قويًا لاستيراد محتوى PDF إلى العروض التقديمية، مما يسمح لك بتحسين شرائحك بمعلومات خارجية. في هذا الدليل الشامل، سنرشدك خلال عملية استيراد محتوى PDF باستخدام Aspose.Slides for .NET. بفضل الإرشادات التفصيلية خطوة بخطوة وأمثلة التعليمات البرمجية المصدر، ستتمكن من دمج محتوى PDF بسلاسة في عروضك التقديمية.
+يمكن أن يؤدي دمج محتوى من مصادر مختلفة في عروضك التقديمية إلى تحسين الجوانب المرئية والإعلامية لشرائحك. يوفر Aspose.Slides for .NET حلاً قويًا لاستيراد محتوى PDF إلى العروض التقديمية، مما يسمح لك بتحسين شرائحك بمعلومات خارجية. في هذا الدليل الشامل، سنرشدك خلال عملية استيراد محتوى PDF باستخدام Aspose.Slides for .NET. بفضل الإرشادات التفصيلية خطوة بخطوة وأمثلة التعليمات البرمجية المصدر، ستتمكن من دمج محتوى PDF بسلاسة في عروضك التقديمية.
 
 ## كيفية استيراد محتوى PDF إلى العروض التقديمية باستخدام Aspose.Slides لـ .NET
 
@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### الخطوة 4: استيراد محتوى PDF
- استخدم ال`PdfContentEditor` فئة من Aspose.PDF لاستخراج المحتوى من ملف PDF وتحويله إلى صورة. بعد ذلك، قم بإنشاء شريحة جديدة في العرض التقديمي الخاص بك وأضف الصورة المستوردة إليها. فيما يلي مقتطف رمز مبسط:
+باستخدام Aspose.Slides، يمكنك استيراد المحتوى بسلاسة من مستند PDF الذي تم تحميله إلى العرض التقديمي الذي تم إنشاؤه حديثًا. فيما يلي مقتطف رمز مبسط:
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; // اختر الصفحة المراد استيرادها
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        // أنشئ شريحة جديدة وأضف الصورة إليها
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### الخطوة 5: احفظ العرض التقديمي
@@ -65,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  يمكنك تنزيل مكتبة Aspose.Slides for .NET من صفحة الإصدارات[هنا](https://releases.aspose.com/slides/net/).
 
 ### هل يمكنني استيراد محتوى من صفحات متعددة من ملف PDF؟
- نعم، يمكنك تحديد أرقام صفحات متعددة في ملف`ProcessPages` مجموعة لاستيراد المحتوى من صفحات مختلفة من ملف PDF.
+نعم، يمكنك تحديد أرقام صفحات متعددة في ملف`ProcessPages` مجموعة لاستيراد المحتوى من صفحات مختلفة من ملف PDF.
 
 ### هل هناك أي قيود على استيراد محتوى PDF؟
 على الرغم من أن Aspose.Slides يوفر حلاً قويًا، إلا أن تنسيق المحتوى المستورد قد يختلف بناءً على مدى تعقيد ملف PDF. قد تكون هناك حاجة لبعض التعديلات.

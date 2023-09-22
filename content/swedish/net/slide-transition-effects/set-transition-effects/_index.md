@@ -88,7 +88,7 @@ Att införliva övergångseffekter i dina presentationsbilder kan avsevärt för
 
 ### Kan jag använda olika övergångseffekter på varje bild?
 
- Ja, du kan använda olika övergångseffekter på varje bild genom att ställa in`SlideShowTransition`egenskaper för varje objektglas individuellt.
+ Ja, du kan använda olika övergångseffekter på varje bild genom att ställa in`SlideShowTransition` egenskaper för varje objektglas individuellt.
 
 ### Är det möjligt att lägga till ljudeffekter i övergångar?
 

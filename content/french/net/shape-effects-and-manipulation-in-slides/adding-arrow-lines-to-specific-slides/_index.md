@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 // Ajouter de nouvelles diapositives
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-// Ajoutez plus de diapositives si nécessaire
+//Ajoutez plus de diapositives si nécessaire
 ```
 
 ### Ajout de lignes en forme de flèche

@@ -16,7 +16,7 @@ url: /ar/net/audio-and-video-extraction/extract-audio/
 
 لبدء استخراج الصوت من الشرائح باستخدام Aspose.Slides لـ .NET، يتعين عليك اتباع الخطوات التالية:
 
-1. تثبيت Aspose.Slides: يمكنك تنزيل وتثبيت Aspose.Slides لمكتبة .NET من موقع الويب:[هنا](https://products.aspose.com/slides/net).
+1.  تثبيت Aspose.Slides: يمكنك تنزيل وتثبيت Aspose.Slides لمكتبة .NET من موقع الويب:[هنا](https://products.aspose.com/slides/net).
 
 2. إضافة مرجع: بمجرد تنزيل المكتبة وتثبيتها، أضف مرجعًا إلى مشروعك. سيمكنك هذا من الوصول إلى Aspose.Slides API في تطبيق .NET الخاص بك.
 
@@ -48,7 +48,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //الكود الخاص بك لمعالجة البايتات الصوتية
+        // الكود الخاص بك لمعالجة البايتات الصوتية
     }
 }
 ```
@@ -88,7 +88,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //الكود الخاص بك لمعالجة البايتات الصوتية
+        // الكود الخاص بك لمعالجة البايتات الصوتية
     }
 }
 ```

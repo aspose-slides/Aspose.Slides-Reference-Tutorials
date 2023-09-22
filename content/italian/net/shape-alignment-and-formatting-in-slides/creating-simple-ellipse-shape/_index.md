@@ -61,7 +61,7 @@ IAutoShape ellipseShape = slide.Shapes.AddAutoShape(ShapeType.Ellipse, x, y, wid
 // Imposta il colore di riempimento dell'ellisse
 ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
 
-// Imposta il colore e la larghezza del contorno
+//Imposta il colore e la larghezza del contorno
 ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ellipseShape.LineFormat.Width = 2;
 

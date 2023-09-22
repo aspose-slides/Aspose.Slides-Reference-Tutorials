@@ -15,7 +15,7 @@ Diagramme sind eine leistungsstarke Möglichkeit, Daten in verschiedenen Anwendu
 Bevor wir uns mit der Implementierung befassen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 - Grundkenntnisse der C#-Programmierung.
--  Aspose.Slides für .NET-Bibliothek installiert. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net).
+- Aspose.Slides für .NET-Bibliothek installiert. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net).
 
 ## Einrichten des Projekts
 Erstellen Sie zunächst ein neues C#-Projekt in Ihrer bevorzugten Entwicklungsumgebung. Installieren Sie dann die Aspose.Slides-Bibliothek mit dem NuGet-Paketmanager. Dies kann durch Ausführen des folgenden Befehls in der NuGet Package Manager-Konsole erreicht werden:
@@ -61,7 +61,7 @@ Speichern Sie die extrahierten Daten im Speicher und führen Sie die erforderlic
 
 ```csharp
 // Konvertieren Sie dataRange in ein verwendbares Format (z. B. Excel-Zellenbereich).
-// Extrahieren und bearbeiten Sie Daten nach Bedarf
+//Extrahieren und bearbeiten Sie Daten nach Bedarf
 ```
 
 ## Daten anzeigen oder verarbeiten
@@ -76,7 +76,7 @@ Nutzen Sie die extrahierten Daten zur Analyse oder Visualisierung:
 Speichern Sie die geänderte Präsentation und exportieren Sie die Daten zur externen Verwendung:
 
 ```csharp
-//Speichern Sie die Präsentation mit den Änderungen
+// Speichern Sie die Präsentation mit den Änderungen
 presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

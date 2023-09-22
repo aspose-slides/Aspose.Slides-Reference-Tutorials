@@ -61,7 +61,7 @@ Puedes personalizar la apariencia de la forma de elipse usando varias propiedade
 // Establecer el color de relleno de la elipse.
 ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
 
-// Establecer el color y el ancho del contorno
+//Establecer el color y el ancho del contorno
 ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ellipseShape.LineFormat.Width = 2;
 

@@ -40,7 +40,7 @@ Para comenzar a usar Aspose.Slides para .NET con licencia medida, siga estos pas
 
 ## Inicialización de la licencia medida
 
- En su código, utilice el obtenido`AppSID` y`AppKey` para inicializar la licencia medida:
+En su código, utilice el obtenido`AppSID` y`AppKey` para inicializar la licencia medida:
 
 ```csharp
 Aspose.Slides.License license = new Aspose.Slides.License();

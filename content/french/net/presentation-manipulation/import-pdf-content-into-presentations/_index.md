@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### Étape 4 : Importer du contenu PDF
- Utilisez le`PdfContentEditor` classe d’Aspose.PDF pour extraire le contenu du fichier PDF et le convertir en image. Ensuite, créez une nouvelle diapositive dans votre présentation et ajoutez-y l'image importée. Voici un extrait de code simplifié :
+Avec Aspose.Slides, vous pouvez importer en toute transparence le contenu du document PDF chargé dans la présentation nouvellement créée. Voici un extrait de code simplifié :
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; // Choisissez la page à importer
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        // Créez une nouvelle diapositive et ajoutez-y l'image
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### Étape 5 : Enregistrez la présentation
@@ -65,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de la page des versions[ici](https://releases.aspose.com/slides/net/).
 
 ### Puis-je importer le contenu de plusieurs pages d'un PDF ?
- Oui, vous pouvez spécifier plusieurs numéros de page dans le`ProcessPages` tableau pour importer le contenu de différentes pages d’un PDF.
+Oui, vous pouvez spécifier plusieurs numéros de page dans le`ProcessPages` tableau pour importer le contenu de différentes pages d’un PDF.
 
 ### Existe-t-il des limites à l'importation de contenu PDF ?
 Bien qu'Aspose.Slides fournisse une solution puissante, le formatage du contenu importé peut varier en fonction de la complexité du PDF. Certains ajustements pourraient être nécessaires.

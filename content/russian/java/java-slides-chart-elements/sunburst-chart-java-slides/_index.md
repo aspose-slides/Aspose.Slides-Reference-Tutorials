@@ -1,0 +1,170 @@
+---
+title: Диаграмма солнечных лучей в слайдах Java
+linktitle: Диаграмма солнечных лучей в слайдах Java
+second_title: Aspose.Slides API обработки Java PowerPoint
+description: Создавайте потрясающие диаграммы солнечных лучей в слайдах Java с помощью Aspose.Slides. Изучите пошаговое создание диаграмм и манипулирование данными.
+type: docs
+weight: 16
+url: /ru/java/chart-elements/sunburst-chart-java-slides/
+---
+
+## Введение в диаграмму солнечных лучей в слайдах Java с помощью Aspose.Slides
+
+В этом уроке вы узнаете, как создать диаграмму Sunburst в презентации PowerPoint с помощью API Aspose.Slides для Java. Диаграмма солнечных лучей — это радиальная диаграмма, используемая для представления иерархических данных. Мы предоставим пошаговые инструкции вместе с исходным кодом.
+
+## Предварительные условия
+
+Прежде чем начать, убедитесь, что в вашем Java-проекте установлена и настроена библиотека Aspose.Slides for Java. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/java/).
+
+## Шаг 1. Импортируйте необходимые библиотеки
+
+Сначала импортируйте необходимые библиотеки для работы с Aspose.Slides и создайте диаграмму Sunburst в своем Java-приложении.
+
+```java
+import com.aspose.slides.*;
+```
+
+## Шаг 2. Инициализируйте презентацию
+
+Инициализируйте презентацию PowerPoint и укажите каталог, в котором будет сохранен файл презентации.
+
+```java
+String dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "test.pptx");
+```
+
+## Шаг 3. Создайте диаграмму солнечных лучей
+
+Создайте диаграмму солнечных лучей на слайде. Указываем положение (X, Y) и размеры (ширина, высота) графика.
+
+```java
+IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 50, 50, 500, 400);
+```
+
+## Шаг 4. Подготовьте данные диаграммы
+
+Удалите все существующие данные категорий и рядов из диаграммы и создайте книгу данных для диаграммы.
+
+```java
+chart.getChartData().getCategories().clear();
+chart.getChartData().getSeries().clear();
+IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
+wb.clear(0);
+```
+
+## Шаг 5: Определите иерархию диаграммы
+
+Определите иерархическую структуру диаграммы солнечных лучей. Вы можете добавлять ветки, стебли и листья в качестве категорий.
+
+```java
+// Филиал 1
+IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
+leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
+leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
+chart.getChartData().getCategories().add(wb.getCell(0, "C2", "Leaf2"));
+leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C3", "Leaf3"));
+leaf.getGroupingLevels().setGroupingItem(1, "Stem2");
+chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
+
+// Филиал 2
+leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
+leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
+leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
+chart.getChartData().getCategories().add(wb.getCell(0, "C6", "Leaf6"));
+leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C7", "Leaf7"));
+leaf.getGroupingLevels().setGroupingItem(1, "Stem4");
+chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
+```
+
+## Шаг 6. Добавьте данные в диаграмму
+
+Добавьте точки данных в серию диаграмм Sunburst.
+
+```java
+IChartSeries series = chart.getChartData().getSeries().add(ChartType.Sunburst);
+series.getLabels().getDefaultDataLabelFormat().setShowCategoryName(true);
+series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D1", 4));
+series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D2", 5));
+series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D3", 3));
+series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D4", 6));
+series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D5", 9));
+series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D6", 9));
+series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D7", 4));
+series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
+```
+
+## Шаг 7: Сохраните презентацию
+
+Наконец, сохраните презентацию с диаграммой Sunburst.
+
+```java
+pres.save("Sunburst.pptx", SaveFormat.Pptx);
+```
+
+## Полный исходный код диаграммы солнечных лучей в слайдах Java
+
+```java
+String dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "test.pptx");
+try
+{
+	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Sunburst, 50, 50, 500, 400);
+	chart.getChartData().getCategories().clear();
+	chart.getChartData().getSeries().clear();
+	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
+	wb.clear(0);
+	//филиал 1
+	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
+	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
+	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
+	chart.getChartData().getCategories().add(wb.getCell(0, "C2", "Leaf2"));
+	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C3", "Leaf3"));
+	leaf.getGroupingLevels().setGroupingItem(1, "Stem2");
+	chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
+	//филиал 2
+	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
+	leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
+	leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
+	chart.getChartData().getCategories().add(wb.getCell(0, "C6", "Leaf6"));
+	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C7", "Leaf7"));
+	leaf.getGroupingLevels().setGroupingItem(1, "Stem4");
+	chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
+	IChartSeries series = chart.getChartData().getSeries().add(ChartType.Sunburst);
+	series.getLabels().getDefaultDataLabelFormat().setShowCategoryName(true);
+	series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D1", 4));
+	series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D2", 5));
+	series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D3", 3));
+	series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D4", 6));
+	series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D5", 9));
+	series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D6", 9));
+	series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D7", 4));
+	series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
+	pres.save("Sunburst.pptx", SaveFormat.Pptx);
+}
+finally
+{
+	if (pres != null) pres.dispose();
+}
+```
+
+## Заключение
+
+В этом уроке вы узнали, как создать диаграмму Sunburst в презентации PowerPoint с помощью API Aspose.Slides для Java. Вы видели, как инициализировать презентацию, создать диаграмму, определить иерархию диаграммы, добавить точки данных и сохранить презентацию. Теперь вы можете использовать эти знания для создания интерактивных и информативных диаграмм солнечных лучей в своих приложениях Java.
+
+## Часто задаваемые вопросы
+
+### Как настроить внешний вид диаграммы Sunburst?
+
+Вы можете настроить внешний вид диаграммы солнечных лучей, изменив такие свойства, как цвета, метки и стили. Подробные параметры настройки см. в документации Aspose.Slides.
+
+### Могу ли я добавить на диаграмму больше точек данных?
+
+ Да, вы можете добавить на диаграмму больше точек данных, используя`series.getDataPoints().addDataPointForSunburstSeries()` метод для каждой точки данных, которую вы хотите включить.
+
+### Как добавить всплывающие подсказки к диаграмме Sunburst?
+
+Чтобы добавить всплывающие подсказки к диаграмме Sunburst, вы можете установить формат метки данных для отображения дополнительной информации, такой как значения или описания, при наведении курсора на сегменты диаграммы.
+
+### Можно ли создавать интерактивные диаграммы Sunburst с гиперссылками?
+
+Да, вы можете создавать интерактивные диаграммы Sunburst с гиперссылками, добавляя гиперссылки к определенным элементам или сегментам диаграммы. Подробную информацию о добавлении гиперссылок см. в документации Aspose.Slides.

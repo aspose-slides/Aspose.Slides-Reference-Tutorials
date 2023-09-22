@@ -45,7 +45,10 @@ Sunuyu yükledikten sonraki adım, varsayılan boyutu koruyarak sunuyu TIFF gör
 
 ```csharp
 // Varsayılan boyutta TIFF'e dönüştür
-var options = new TiffOptions(TiffCompression.Default);
+var options = new TiffOptions()
+{
+    CompressionType = TiffCompressionTypes.Default;
+};
 presentation.Save("output.tiff", SaveFormat.Tiff, options);
 ```
 
@@ -55,7 +58,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff, options);
 
 ```csharp
 // TIFF görüntüsünü kaydedin
-presentation.Save("output.tiff", SaveFormat.Tiff);
+presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ```
 
 ## Çözüm
@@ -70,7 +73,7 @@ Sıkıştırma seçeneklerini değiştirerek TIFF görüntü kalitesini kontrol 
 
 ### Sununun tamamı yerine belirli slaytları dönüştürebilir miyim?
 
- Evet, belirli slaytları seçerek TIFF formatına dönüştürebilirsiniz.`SlideEx` bireysel slaytlara erişmek ve ardından bunları dönüştürüp TIFF görüntüleri olarak kaydetmek için sınıf.
+ Evet, belirli slaytları seçerek TIFF formatına dönüştürebilirsiniz.`Slide` bireysel slaytlara erişmek ve ardından bunları dönüştürüp TIFF görüntüleri olarak kaydetmek için sınıf.
 
 ### Aspose.Slides for .NET, PowerPoint'in farklı sürümleriyle uyumlu mu?
 

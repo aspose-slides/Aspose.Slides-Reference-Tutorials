@@ -46,7 +46,7 @@ namespace SlideBackgroundTutorial
 För att kunna ändra bildbakgrundsmastern måste du först komma åt den. Så här kan du göra det:
 
 ```csharp
-// Öppna bildbakgrundsmastern
+// Gå till bildbakgrundsmastern
 ISlideMaster slideMaster = presentation.Masters.SlideMaster;
 ```
 

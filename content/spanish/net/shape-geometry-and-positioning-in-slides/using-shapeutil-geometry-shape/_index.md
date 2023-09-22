@@ -34,7 +34,7 @@ ISlide slide = presentation.Slides.AddEmptySlide();
 
 ## Agregar formas geométricas a las diapositivas
 
-Para agregar formas geométricas a las diapositivas, puede usar la clase ShapeUtil.
+Para agregar formas geométricas a las diapositivas, puede utilizar la clase ShapeUtil.
 
 ```csharp
 // Añade una forma de rectángulo a la diapositiva.
@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil también proporciona métodos para organizar y alinear formas en diapositivas.
 
 ```csharp
-// Organizar formas horizontalmente
+//Organizar formas horizontalmente
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Alinear formas al centro
@@ -91,7 +91,7 @@ ShapeUtil le permite aplicar formato a las formas, incluidos estilos de relleno 
 // Aplicar color de relleno
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
-//Aplicar color y estilo de línea
+// Aplicar color y estilo de línea
 ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
 ```
 
@@ -159,7 +159,7 @@ Install-Package Aspose.Slides
 
 ### ¿Cómo puedo aplicar formato a formas geométricas?
 
- Con ShapeUtil, puede aplicar formato a formas geométricas utilizando métodos como`ApplyFillColor` y`ApplyLineColor` para establecer colores de relleno y estilos de línea.
+Con ShapeUtil, puede aplicar formato a formas geométricas utilizando métodos como`ApplyFillColor` y`ApplyLineColor` para establecer colores de relleno y estilos de línea.
 
 ### ¿Cuál es el propósito del orden Z en las formas?
 

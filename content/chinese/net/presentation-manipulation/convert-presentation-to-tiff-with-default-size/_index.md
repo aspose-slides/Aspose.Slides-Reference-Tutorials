@@ -45,7 +45,10 @@ using var presentation = new Presentation("your-presentation.pptx");
 
 ```csharp
 //转换为默认大小的 TIFF
-var options = new TiffOptions(TiffCompression.Default);
+var options = new TiffOptions()
+{
+    CompressionType = TiffCompressionTypes.Default;
+};
 presentation.Save("output.tiff", SaveFormat.Tiff, options);
 ```
 
@@ -55,7 +58,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff, options);
 
 ```csharp
 //保存 TIFF 图像
-presentation.Save("output.tiff", SaveFormat.Tiff);
+presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ```
 
 ## 结论
@@ -70,7 +73,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
 ### 我可以转换特定幻灯片而不是整个演示文稿吗？
 
-是的，您可以使用以下命令有选择地将特定幻灯片转换为 TIFF 格式`SlideEx`类来访问各个幻灯片，然后将它们转换并保存为 TIFF 图像。
+是的，您可以使用以下命令有选择地将特定幻灯片转换为 TIFF 格式`Slide`类来访问各个幻灯片，然后将它们转换并保存为 TIFF 图像。
 
 ### Aspose.Slides for .NET 是否与不同版本的 PowerPoint 兼容？
 

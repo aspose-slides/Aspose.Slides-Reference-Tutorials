@@ -108,7 +108,7 @@ foreach (var slide in presentation.Slides)
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
         
-        // Metin kutusu konumunu ayarla
+        //Metin kutusu konumunu ayarla
         textBox.Top = slide.SlideSize.Size.Height - margin;
         margin += 30; // Bir sonraki yorumun kenar boşluğunu artırın
     }

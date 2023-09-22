@@ -18,7 +18,7 @@ Before we dive into the tutorials, let's get a brief understanding of what Aspos
 
 ### Installation and Setup
 
-To embark on your journey with Aspose.Slides for Java, you'll first need to install the library. You can easily download it from the [Aspose website](https://releases.aspose.com/slides/java/). Once downloaded, follow the installation instructions to get it up and running in your Java project.
+To embark on your journey with Aspose.Slides for Java, you'll first need to install the library. You can easily download it from the [Aspose Releases](https://releases.aspose.com/slides/java/). Once downloaded, follow the installation instructions to get it up and running in your Java project.
 
 ### Exploring the Documentation
 

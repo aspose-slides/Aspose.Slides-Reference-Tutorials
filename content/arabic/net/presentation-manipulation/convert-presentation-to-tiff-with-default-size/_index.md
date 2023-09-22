@@ -45,7 +45,10 @@ using var presentation = new Presentation("your-presentation.pptx");
 
 ```csharp
 // تحويل إلى TIFF بالحجم الافتراضي
-var options = new TiffOptions(TiffCompression.Default);
+var options = new TiffOptions()
+{
+    CompressionType = TiffCompressionTypes.Default;
+};
 presentation.Save("output.tiff", SaveFormat.Tiff, options);
 ```
 
@@ -55,7 +58,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff, options);
 
 ```csharp
 // احفظ صورة TIFF
-presentation.Save("output.tiff", SaveFormat.Tiff);
+presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ```
 
 ## خاتمة
@@ -70,7 +73,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
 ### هل يمكنني تحويل شرائح معينة بدلاً من العرض التقديمي بأكمله؟
 
- نعم، يمكنك تحويل شرائح معينة بشكل انتقائي إلى تنسيق TIFF باستخدام`SlideEx` للوصول إلى الشرائح الفردية ثم تحويلها وحفظها كصور TIFF.
+ نعم، يمكنك تحويل شرائح معينة بشكل انتقائي إلى تنسيق TIFF باستخدام`Slide` للوصول إلى الشرائح الفردية ثم تحويلها وحفظها كصور TIFF.
 
 ### هل يتوافق Aspose.Slides for .NET مع الإصدارات المختلفة من PowerPoint؟
 

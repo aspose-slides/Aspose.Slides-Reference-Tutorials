@@ -170,7 +170,7 @@ Ja, Sie können Trendlinien anpassen, indem Sie Attribute wie Linienstil, Farbe 
 
 ### Ist es möglich, Anmerkungen zu Datenpunkten hinzuzufügen?
 
- Absolut! Sie können Datenpunkte mit Anmerkungen versehen, indem Sie Markierungsattribute ändern und Kontextinformationen hinzufügen. Erfahren Sie mehr im[Dokumentation](https://reference.aspose.com/slides/net/).
+Absolut! Sie können Datenpunkte mit Anmerkungen versehen, indem Sie Markierungsattribute ändern und Kontextinformationen hinzufügen. Erfahren Sie mehr im[Dokumentation](https://reference.aspose.com/slides/net/).
 
 ### Wie kann ich mein Diagramm in verschiedenen Formaten speichern?
 

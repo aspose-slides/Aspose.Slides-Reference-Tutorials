@@ -14,7 +14,7 @@ Föränderliga hyperlänkar är hyperlänkar i en presentation som kan uppdatera
 
 ## Ställa in utvecklingsmiljön
 
- För att komma igång måste du installera Aspose.Slides för .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/). När du har laddat ner, följ installationsinstruktionerna.
+För att komma igång måste du installera Aspose.Slides för .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/). När du har laddat ner, följ installationsinstruktionerna.
 
 ## Skapa en ny presentation
 
@@ -43,7 +43,7 @@ Formatera innehållet efter behov med hjälp av egenskaper som teckenstorlek och
 
 ## Förstå hyperlänkar i Aspose.Slides
 
-Aspose.Slides stöder olika typer av hyperlänkar, inklusive webblänkar, e-postadresser och länkar till andra bilder i presentationen. Använd`HyperlinkManager` klass för att arbeta med hyperlänkar.
+ Aspose.Slides stöder olika typer av hyperlänkar, inklusive webblänkar, e-postadresser och länkar till andra bilder i presentationen. Använd`HyperlinkManager` klass för att arbeta med hyperlänkar.
 
 ## Lägga till föränderliga hyperlänkar
 

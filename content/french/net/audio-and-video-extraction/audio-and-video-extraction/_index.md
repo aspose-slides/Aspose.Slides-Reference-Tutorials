@@ -60,7 +60,7 @@ foreach (var slide in presentation.Slides)
     {
         if (shape is IVideoFrame videoFrame)
         {
-            //Extraire la vidéo de l'image vidéo
+            // Extraire la vidéo de l'image vidéo
             byte[] videoData = videoFrame.EmbeddedVideo.BinaryData;
             // Traitez les données vidéo selon vos besoins
         }
@@ -93,7 +93,7 @@ Dans ce guide, nous avons expliqué comment extraire le contenu audio et vidéo 
 
 ### Comment installer Aspose.Slides pour .NET ?
 
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/slides/net)et suivez les instructions d'installation fournies dans la documentation.
+ Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/slides/net) et suivez les instructions d'installation fournies dans la documentation.
 
 ### Puis-je extraire plusieurs fichiers multimédias d’une seule diapositive ?
 

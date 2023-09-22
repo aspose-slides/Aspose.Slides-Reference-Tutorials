@@ -24,7 +24,7 @@ url: /ru/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry
 
 1.  Установка: Начните с загрузки и установки библиотеки Aspose.Slides for .NET. Вы можете найти последнюю версию[здесь](https://releases.aspose.com/slides/net/).
 
-2.  Справочник по API: ознакомьтесь с[Документация по API Aspose.Slides](https://reference.aspose.com/slides/net/) изучить широкий спектр функций и возможностей.
+2.  Справочник по API: ознакомьтесь с[Документация по API Aspose.Slides](https://reference.aspose.com/slides/net/)изучить широкий спектр функций и возможностей.
 
 ## Удаление сегментов: шаг за шагом
 
@@ -61,7 +61,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ### Как загрузить Aspose.Slides для .NET?
 
- Вы можете загрузить библиотеку Aspose.Slides для .NET с сайта[Страница релизов Aspose](https://releases.aspose.com/slides/net/). 
+Вы можете загрузить библиотеку Aspose.Slides для .NET с сайта[Страница релизов Aspose](https://releases.aspose.com/slides/net/). 
 
 ### Могу ли я отменить удаление сегмента в Aspose.Slides?
 

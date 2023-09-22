@@ -69,7 +69,7 @@ url: /zh/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 
 7. ### 保存演示文稿
 
-   对您的创作感到满意后，请将演示文稿保存为您所需的格式。
+   对您的创作感到满意后，请将演示文稿保存为您想要的格式。
 
    ```csharp
    presentation.Save("output.pptx", SaveFormat.Pptx);

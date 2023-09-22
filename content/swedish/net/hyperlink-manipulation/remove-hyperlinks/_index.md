@@ -54,7 +54,7 @@ foreach (ISlide slide in presentation.Slides)
         {
             foreach (IHyperlink hyperlink in autoShape.HyperlinkQueries)
             {
-                //Ta bort eller inaktivera hyperlänken efter behov
+                // Ta bort eller inaktivera hyperlänken efter behov
             }
         }
     }
@@ -82,7 +82,7 @@ presentation.Save(modifiedPath, SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här guiden har vi utforskat hur man tar bort hyperlänkar från bilder med Aspose.Slides för .NET. Detta mångsidiga bibliotek förenklar processen att arbeta med PowerPoint-presentationer programmatiskt, så att du effektivt kan hantera olika element i dina bilder. Oavsett om du förbättrar användarupplevelsen eller förbereder professionella presentationer, ger Aspose.Slides dig möjlighet att uppnå dina önskade resultat sömlöst.
+den här guiden har vi utforskat hur man tar bort hyperlänkar från bilder med Aspose.Slides för .NET. Detta mångsidiga bibliotek förenklar processen att arbeta med PowerPoint-presentationer programmatiskt, så att du effektivt kan hantera olika element i dina bilder. Oavsett om du förbättrar användarupplevelsen eller förbereder professionella presentationer, ger Aspose.Slides dig möjlighet att uppnå dina önskade resultat sömlöst.
 
 ## FAQ's
 

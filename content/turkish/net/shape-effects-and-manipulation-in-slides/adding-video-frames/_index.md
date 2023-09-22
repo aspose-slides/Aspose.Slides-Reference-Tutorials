@@ -115,7 +115,7 @@ Video dosyalarınızı yineleyin ve sağlanan kodu kullanarak istediğiniz slayd
 
 Aspose.Slides, MP4, AVI, WMV ve daha fazlası dahil olmak üzere çeşitli video formatlarını destekler.
 
-### C#'ta programlı olarak video eklemek mümkün mü?
+### C#'ta programlı olarak video eklemek mümkün müdür?
 
 Kesinlikle Aspose.Slides for .NET, C# kullanarak programlı olarak slaytlara video eklemek için kullanıcı dostu bir API sağlar.
 

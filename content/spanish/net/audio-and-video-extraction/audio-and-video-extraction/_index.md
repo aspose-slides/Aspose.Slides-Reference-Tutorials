@@ -10,7 +10,7 @@ url: /es/net/audio-and-video-extraction/audio-and-video-extraction/
 
 ## Introducción a Aspose.Slides
 
-Aspose.Slides es una potente biblioteca .NET que proporciona una funcionalidad integral para crear, manipular y convertir presentaciones de PowerPoint. Además de crear y editar diapositivas, también ofrece funciones para extraer varios elementos multimedia, incluidos audio y vídeo, de las diapositivas.
+Aspose.Slides es una poderosa biblioteca .NET que proporciona una funcionalidad integral para crear, manipular y convertir presentaciones de PowerPoint. Además de crear y editar diapositivas, también ofrece funciones para extraer varios elementos multimedia, incluidos audio y vídeo, de las diapositivas.
 
 ## Requisitos previos
 
@@ -60,7 +60,7 @@ foreach (var slide in presentation.Slides)
     {
         if (shape is IVideoFrame videoFrame)
         {
-            //Extraer video del cuadro de video
+            // Extraer video del cuadro de video
             byte[] videoData = videoFrame.EmbeddedVideo.BinaryData;
             // Procese los datos de vídeo según sea necesario
         }
@@ -93,7 +93,7 @@ En esta guía, exploramos cómo extraer contenido de audio y video de diapositiv
 
 ### ¿Cómo instalo Aspose.Slides para .NET?
 
- Puede descargar la biblioteca Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net) siga las instrucciones de instalación proporcionadas en la documentación.
+ Puede descargar la biblioteca Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net) y siga las instrucciones de instalación proporcionadas en la documentación.
 
 ### ¿Puedo extraer varios archivos multimedia de una sola diapositiva?
 

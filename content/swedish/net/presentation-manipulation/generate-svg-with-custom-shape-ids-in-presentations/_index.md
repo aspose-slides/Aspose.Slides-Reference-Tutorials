@@ -8,113 +8,73 @@ weight: 19
 url: /sv/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
 
-dagens teknikdrivna värld spelar visuella presentationer en avgörande roll för att förmedla information effektivt. Aspose.Slides för .NET ger utvecklare möjlighet att skapa dynamiska presentationer med anpassade SVG-former och ID:n, vilket förbättrar det visuella tilltalande och interaktiva funktionerna i sina applikationer. Den här steg-för-steg-guiden leder dig genom processen att generera SVG:n med anpassade form-ID:n i presentationer med Aspose.Slides för .NET.
+Vill du utnyttja kraften i Aspose.Slides för .NET för att generera SVG-filer med anpassade form-ID:n? Du är på rätt plats! I denna steg-för-steg handledning guidar vi dig genom processen med hjälp av följande källkodsavsnitt. I slutet kommer du att vara väl rustad för att skapa SVG-filer med anpassade form-ID:n i dina presentationer.
 
-## Introduktion till Aspose.Slides för .NET
+### Komma igång
 
-Aspose.Slides för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med PowerPoint-presentationer programmatiskt. Oavsett om du bygger stationära applikationer, webbaserade lösningar eller molntjänster, förenklar Aspose.Slides processen att skapa, redigera och manipulera presentationer.
+Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
 
-## Förstå SVG:er och Custom Shape ID:n
+1. Aspose.Slides för .NET: Se till att du har Aspose.Slides-biblioteket installerat och klart att använda.
 
-Scalable Vector Graphics (SVG) är ett allmänt använt XML-baserat format för att beskriva tvådimensionell vektorgrafik. Det är ett idealiskt val för att skapa grafik som kan skalas sömlöst utan kvalitetsförlust. Med anpassade form-ID:n kan du unikt identifiera specifika former i en SVG, vilket möjliggör riktade interaktioner och modifieringar.
+2. Exempelpresentation: Du behöver en presentationsfil (t.ex. "presentation.pptx") med former som du vill exportera till SVG.
 
-## Konfigurera din utvecklingsmiljö
+3. Utdatakatalog: Definiera katalogen där du vill spara din SVG-fil (t.ex. "Din utdatakatalog").
 
-Innan du börjar, se till att du har följande på plats:
-- Visual Studio installerat
-- Aspose.Slides för .NET-bibliotek
+Låt oss nu dela upp koden steg för steg.
 
- Du kan ladda ner Aspose.Slides för .NET-biblioteket från[här](https://releases.aspose.com/slides/net/).
+### Steg 1: Konfigurera miljön
 
-## Skapa en ny presentation
-
-Låt oss börja med att skapa en ny presentation med Aspose.Slides för .NET. Följ dessa steg:
+I det här steget initierar vi de nödvändiga variablerna och laddar vår presentationsfil.
 
 ```csharp
-using Aspose.Slides;
-// Annat nödvändigt med hjälp av uttalanden
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-class Program
+using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    static void Main(string[] args)
+    // Din kod kommer hit
+}
+```
+
+ Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil.
+
+### Steg 2: Skriva former som SVG
+
+I det här avsnittet kommer vi att skriva formerna från presentationen som SVG-filer. Vi kommer också att specificera en anpassad formformateringskontroller för mer kontroll över SVG-utdata.
+
+```csharp
+using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode.OpenOrCreate))
+{
+    SVGOptions svgOptions = new SVGOptions
     {
-        // Skapa en ny presentation
-        using (Presentation presentation = new Presentation())
-        {
-            // Din kod för att lägga till bilder och innehåll
-        }
-    }
+        ShapeFormattingController = new CustomSvgShapeFormattingController()
+    };
+
+    pres.Slides[0].WriteAsSvg(stream, svgOptions);
 }
 ```
 
-## Lägga till anpassade former till bilder
+ Se till att du byter ut`"pptxFileName.svg"` med önskat utdatafilnamn.
 
-För att lägga till anpassade former till bilder, använd de inbyggda metoder som tillhandahålls av Aspose.Slides för .NET:
+### Slutsats
 
-```csharp
-// Inuti det använda presentationsblocket
-ISlide slide = presentation.Slides[0]; // Få önskad bild
-IAutoShape customShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
-// Anpassa formegenskaperna
-```
-
-## Tilldela ID:n till anpassade former
-
- Att tilldela anpassade ID:n till former är viktigt för senare identifiering. Du kan använda`AlternativeText` egendom för att lagra det anpassade ID:t:
-
-```csharp
-customShape.AlternativeText = "custom_shape_1";
-```
-
-## Generera SVG:er med Custom Shape ID:n
-
-Låt oss nu generera en SVG-bild med anpassade form-ID:n:
-
-```csharp
-using (MemoryStream svgStream = new MemoryStream())
-{
-    slide.WriteAsSvg(svgStream);
-    string svgContent = Encoding.UTF8.GetString(svgStream.ToArray());
-    // Manipulera SVG-innehållet om det behövs
-}
-```
-
-## Inkluderar interaktiva funktioner
-
-SVG:er med anpassade form-ID:n möjliggör interaktiva funktioner som klickbara områden eller dynamiska animationer. Du kan använda JavaScript-bibliotek för att lägga till interaktivitet.
-
-## Spara och dela din presentation
-
-När du är nöjd med din presentation sparar du den för vidare användning:
-
-```csharp
-presentation.Save("your_presentation.pptx", SaveFormat.Pptx);
-```
-
-## Slutsats
-
-I den här guiden undersökte vi hur man kan utnyttja Aspose.Slides för .NET för att generera SVG:er med anpassade form-ID:n i presentationer. Detta förbättrar den visuella upplevelsen och ger möjligheter till engagerande interaktioner. Med kraften i Aspose.Slides kan du skapa dynamiska presentationer som fängslar din publik.
-
- Gå till Aspose.Slides-dokumentationen för mer information om[Aspose.Slides API-referens](https://reference.aspose.com/slides/net/).
+Och där har du det! Du har framgångsrikt skapat SVG-filer med anpassade form-ID:n med Aspose.Slides för .NET. Denna kraftfulla funktion låter dig anpassa din SVG-utdata för att möta dina specifika behov.
 
 ### Vanliga frågor
 
-### Hur laddar jag ner Aspose.Slides för .NET?
+1. ### Vad är Aspose.Slides för .NET?
+   Aspose.Slides för .NET är ett robust bibliotek för att arbeta med PowerPoint-presentationer i .NET-applikationer. Den tillhandahåller olika funktioner för att skapa, redigera och manipulera presentationer programmatiskt.
 
- Du kan ladda ner den senaste versionen av Aspose.Slides för .NET från[här](https://releases.aspose.com/slides/net/).
+2. ### Varför är anpassad formformatering viktigt i SVG-generering?
+   Anpassad formformatering låter dig ha finkornig kontroll över utseendet och attributen för former i din SVG-utdata.
 
-### Kan jag använda anpassade SVG:er i andra applikationer?
+3. ### Kan jag använda Aspose.Slides för .NET med andra programmeringsspråk?
+   Aspose.Slides för .NET är speciellt utformad för .NET-applikationer. Men Aspose tillhandahåller även bibliotek för andra plattformar och språk.
 
-Ja, SVG:erna som genereras med Aspose.Slides kan användas i olika applikationer och plattformar som stöder SVG-format.
+4. ### Finns det några begränsningar för SVG-generering med Aspose.Slides för .NET?
+   Medan Aspose.Slides för .NET erbjuder kraftfulla SVG-genereringsmöjligheter, är det viktigt att förstå bibliotekets dokumentation för att maximera dess potential.
 
-### Är Aspose.Slides lämplig för både skrivbords- och webbapplikationer?
+5. ### Var kan jag hitta fler resurser och support för Aspose.Slides för .NET?
+    För ytterligare dokumentation, besök[Aspose.Slides för .NET API Referens](https://reference.aspose.com/slides/net/).
 
-Absolut! Aspose.Slides är mångsidig och kan användas för att utveckla både skrivbords- och webbapplikationer för att skapa dynamiska presentationer.
-
-### Hur kan jag lägga till animationer i mina anpassade SVG?
-
-För att lägga till animationer kan du infoga JavaScript-bibliotek som GreenSock Animation Platform (GSAP) i dina webbaserade applikationer.
-
-### Är Aspose.Slides lämpliga för nybörjare?
-
-Även om viss förståelse för .NET-utveckling är fördelaktig, tillhandahåller Aspose.Slides omfattande dokumentation och kodexempel som kan hjälpa nybörjare att komma igång effektivt.
+Gå nu vidare och utforska de oändliga möjligheterna med SVG-generering med Aspose.Slides för .NET. Glad kodning!

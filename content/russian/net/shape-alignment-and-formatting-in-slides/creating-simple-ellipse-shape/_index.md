@@ -61,7 +61,7 @@ IAutoShape ellipseShape = slide.Shapes.AddAutoShape(ShapeType.Ellipse, x, y, wid
 // Установите цвет заливки эллипса
 ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
 
-// Установите цвет и ширину контура
+//Установите цвет и ширину контура
 ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ellipseShape.LineFormat.Width = 2;
 

@@ -130,7 +130,7 @@ Evet, Aspose.Slides hem .NET Framework hem de .NET Core'u destekleyerek seçtiğ
 
 ### Aspose.Slides'ı kullanarak sunumları diğer formatlara dönüştürebilir miyim?
 
-Kesinlikle Aspose.Slides sunumlarınızı PDF, resim formatları ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmenize olanak sağlar.
+Kesinlikle Aspose.Slides, sunumlarınızı PDF, görüntü formatları ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmenize olanak tanır.
 
 ### Aspose.Slides kullanarak slaytlara animasyon efektlerini nasıl uygularım?
 

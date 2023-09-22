@@ -65,7 +65,7 @@ if (oleObject.ObjectData is OleEmbeddedData oleData)
 Nachdem Sie die gewünschten Änderungen an den OLE-Objektdaten erfolgreich vorgenommen haben, vergessen Sie nicht, die Präsentation zu speichern, um Ihre Änderungen beizubehalten:
 
 ```csharp
-//Speichern Sie die Präsentation mit den Änderungen
+// Speichern Sie die Präsentation mit den Änderungen
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

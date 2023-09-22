@@ -14,7 +14,7 @@ Välkommen till Aspose.Slides-handledningen om extrahering av ljud och video i .
 
 ## Extrahera ljud- och videoinnehåll:
 
-I den här handledningen får du lära dig hur du extraherar ljud- och videoelement från PowerPoint-presentationer med Aspose.Slides för .NET. Vi kommer att täcka olika scenarier, inklusive att extrahera individuella ljud- och videoklipp, hantera uppspelningsinställningar och exportera dessa multimediaelement till olika format. Med steg-för-steg-instruktioner och källkodsexempel kommer du att kunna integrera ljud- och videoextraktion sömlöst i dina applikationer.
+den här handledningen får du lära dig hur du extraherar ljud- och videoelement från PowerPoint-presentationer med Aspose.Slides för .NET. Vi kommer att täcka olika scenarier, inklusive att extrahera individuella ljud- och videoklipp, hantera uppspelningsinställningar och exportera dessa multimediaelement till olika format. Med steg-för-steg-instruktioner och källkodsexempel kommer du att kunna integrera ljud- och videoextraktion sömlöst i dina applikationer.
 
 ## Varför ljud- och videoextraktion är viktig:
 

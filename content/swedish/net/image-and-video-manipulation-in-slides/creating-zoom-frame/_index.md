@@ -110,7 +110,7 @@ Absolut! Aspose.Slides för .NET låter dig kombinera zoomeffekten med andra öv
 
 ### Kan jag animera zoomramen under ett bildspel?
 
- Ja, du kan animera zoomramen så att den inträffar under ett bildspel genom att använda`AddEffect` metod från`IShape` gränssnitt. På så sätt kan zoomramen utlösas vid en specifik punkt i din presentation.
+Ja, du kan animera zoomramen så att den inträffar under ett bildspel genom att använda`AddEffect` metod från`IShape` gränssnitt. På så sätt kan zoomramen utlösas vid en specifik punkt i din presentation.
 
 ### Hur tar jag bort zoomeffekten från en bild?
 

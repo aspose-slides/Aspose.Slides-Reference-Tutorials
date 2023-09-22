@@ -124,7 +124,7 @@ Kesinlikle! Aspose.Slides for .NET, sunumların PPTX, PDF, TIFF ve daha fazlası
 
 ### 3D modeller için karmaşık animasyonları nasıl oluşturabilirim?
 
-Aspose.Slides'ın sağladığı animasyon efektlerini kullanarak karmaşık animasyonlar oluşturabilirsiniz. Keşfedin[animasyon belgeleri](https://reference.aspose.com/slides/net/aspose.slides.animation/) detaylı bilgi için.
+ Aspose.Slides'ın sağladığı animasyon efektlerini kullanarak karmaşık animasyonlar oluşturabilirsiniz. Keşfedin[animasyon belgeleri](https://reference.aspose.com/slides/net/aspose.slides.animation/) detaylı bilgi için.
 
 ### Daha fazla kod örneğini ve kaynağı nerede bulabilirim?
 

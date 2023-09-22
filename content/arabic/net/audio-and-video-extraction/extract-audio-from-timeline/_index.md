@@ -47,7 +47,7 @@ using var presentation = new Presentation("presentation.pptx");
 // الوصول إلى الشريحة الأولى
 var slide = presentation.Slides[0];
 
-//الوصول إلى الجدول الزمني للشريحة
+// الوصول إلى الجدول الزمني للشريحة
 var timeline = slide.Timeline;
 ```
 
@@ -61,7 +61,7 @@ foreach (var timeLineShape in timeline.Shapes)
     if (timeLineShape.MediaType == MediaType.Audio)
     {
         var audio = (IAudioFrame)timeLineShape;
-        // قم باستخراج كود معالجة الصوت هنا
+        //قم باستخراج كود معالجة الصوت هنا
     }
 }
 ```
@@ -95,7 +95,7 @@ audio.AudioData.WriteToFile("extracted_audio.mp3");
 
 ### هل أحتاج إلى تثبيت Microsoft Office لاستخدام Aspose.Slides؟
 
-لا، لا تحتاج إلى تثبيت Microsoft Office. يوفر Aspose.Slides for .NET كافة الوظائف الضرورية للعمل مع عروض PowerPoint التقديمية برمجيًا.
+لا، لا تحتاج إلى تثبيت Microsoft Office. يوفر Aspose.Slides for .NET كافة الوظائف الضرورية للعمل مع عروض PowerPoint التقديمية برمجياً.
 
 ### هل Aspose.Slides مناسب للمشاريع التجارية؟
 

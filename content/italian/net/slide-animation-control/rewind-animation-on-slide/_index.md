@@ -89,4 +89,4 @@ Assolutamente! Aspose.Slides fornisce una gamma di proprietà e metodi per perso
 
 ### Dove posso trovare ulteriori risorse e documentazione?
 
-Per documentazione completa, esercitazioni ed esempi di codice, fare riferimento a[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
+ Per documentazione completa, esercitazioni ed esempi di codice, fare riferimento a[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).

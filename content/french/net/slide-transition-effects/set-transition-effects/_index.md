@@ -59,7 +59,7 @@ transition.Speed = TransitionSpeed.Medium; // Définir la vitesse de transition
 Vous pouvez personnaliser davantage les paramètres de transition en fonction de votre style de présentation. Voici quelques paramètres supplémentaires que vous pouvez ajuster :
 
 - Direction : contrôlez la direction de la transition, par exemple gauche, droite, haut ou bas.
-- Effet sonore : ajoutez un effet sonore pour accompagner la transition.
+- Effet sonore : Ajoutez un effet sonore pour accompagner la transition.
 - Avancer au clic : Déterminez si la transition avance au clic de la souris.
 
 Voici un exemple de personnalisation du sens de la transition :
@@ -88,7 +88,7 @@ L'intégration d'effets de transition dans vos diapositives de présentation peu
 
 ### Puis-je appliquer différents effets de transition à chaque diapositive ?
 
- Oui, vous pouvez appliquer différents effets de transition à chaque diapositive en définissant le`SlideShowTransition`propriétés pour chaque diapositive individuellement.
+ Oui, vous pouvez appliquer différents effets de transition à chaque diapositive en définissant le`SlideShowTransition` propriétés pour chaque diapositive individuellement.
 
 ### Est-il possible d'ajouter des effets sonores aux transitions ?
 

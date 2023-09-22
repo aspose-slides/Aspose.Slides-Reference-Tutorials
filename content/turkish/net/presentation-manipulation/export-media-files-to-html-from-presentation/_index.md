@@ -8,109 +8,79 @@ weight: 15
 url: /tr/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
 
-Günümüzün dijital çağında sunumlar iletişimin ayrılmaz bir parçası haline geldi. Görüntüler ve videolar gibi medya dosyalarının dahil edilmesi sunumların etkinliğini artırır. Ancak bu sunumları başkalarıyla paylaşmak bazen zor olabilir, özellikle de alıcıların bunları oluşturmak için kullanılan orijinal yazılıma erişimi olmadığı durumlarda. Aspose.Slides for .NET kütüphanesinin imdadımıza yetiştiği yer burasıdır. Bu adım adım kılavuz, Aspose.Slides for .NET kullanarak medya dosyalarını bir sunumdan HTML'ye aktarma sürecinde size yol gösterecektir.
+Bu eğitimde, Aspose.Slides for .NET kullanarak medya dosyalarını bir sunumdan HTML'ye aktarma sürecinde size yol göstereceğiz. Aspose.Slides, PowerPoint sunumlarıyla programlı olarak çalışmanıza olanak tanıyan güçlü bir API'dir. Bu kılavuzun sonunda sunumlarınızı kolaylıkla HTML formatına dönüştürebileceksiniz. Öyleyse başlayalım!
 
+## 1. Giriş
 
-## Aspose.Slides for .NET'e Giriş
+PowerPoint sunumları genellikle videolar gibi multimedya öğeleri içerir ve web uyumluluğu için bu sunumları HTML formatına aktarmanız gerekebilir. Aspose.Slides for .NET bu görevi programlı olarak gerçekleştirmenin kolay bir yolunu sunar.
 
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. Sunum oluşturma, düzenleme ve dönüştürme dahil çok çeşitli özellikler sunar. Bu kılavuzda, medya dosyalarını bir sunumdan HTML'ye aktarmak için Aspose.Slides for .NET'i kullanmaya odaklanacağız.
+## 2. Önkoşullar
 
-## Önkoşullar
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+-  Aspose.Slides for .NET: Aspose.Slides for .NET kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-- Visual Studio veya herhangi bir uyumlu geliştirme ortamı
-- Aspose.Slides for .NET kitaplığı
-- C# programlama dilinin temel anlayışı
+## 3. Sunum Yükleme
 
-## Kurulum ve Kurulum
-
-1.  Aspose.Releases'ten Aspose.Slides for .NET kütüphanesini indirip yükleyin:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/)
-2. Tercih ettiğiniz geliştirme ortamında yeni bir C# projesi oluşturun.
-
-## Sunumu Yükleme
-
-Başlamak için Aspose.Slides kütüphanesini kullanarak PowerPoint sunumunu yükleyelim. Referans olarak aşağıdaki kod parçacığını kullanabilirsiniz:
+Başlamak için HTML'ye dönüştürmek istediğiniz PowerPoint sunumunu yüklemeniz gerekir. Ayrıca HTML dosyasının kaydedileceği çıktı dizinini de belirtmeniz gerekecektir. İşte bir sunumu yükleme kodu:
 
 ```csharp
-using Aspose.Slides;
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-// Sunuyu yükle
-using (Presentation presentation = new Presentation("your-presentation.pptx"))
+// Sunum yükleniyor
+using (Presentation pres = new Presentation(dataDir + "example.pptx"))
 {
-    // Medya dosyalarını çıkarmaya ve dışa aktarmaya yönelik kodunuz buraya gelecek
+    // Kodunuz burada
 }
 ```
 
-## Medya Dosyalarını Çıkarma
+## 4. HTML Seçeneklerini Ayarlama
 
-Daha sonra sunumdan medya dosyalarını (resimler, videolar, ses) çıkarmamız gerekiyor. Aspose.Slides bunu başarmanın kolay bir yolunu sunuyor. İşte bir örnek:
-
-```csharp
-//Sunumdaki her slaytta yineleme yapın
-foreach (ISlide slide in presentation.Slides)
-{
-    // Slayttaki her şekli yineleyin
-    foreach (IShape shape in slide.Shapes)
-    {
-        // Şeklin bir medya çerçevesi olup olmadığını kontrol edin
-        if (shape is IMediaFrame)
-        {
-            IMediaFrame mediaFrame = (IMediaFrame)shape;
-
-            // Medya dosyasını çerçeveden çıkarın
-            byte[] mediaBytes = mediaFrame.MediaData.BinaryData;
-            
-            // Medya baytlarını dışa aktarma kodunuz buraya gelecek
-        }
-    }
-}
-```
-
-## Medya Dosyalarını HTML'ye Aktarma
-
-Çıkarılan medya dosyalarıyla bunları HTML'ye aktarmaya devam edebiliriz. Bunun için medya dosyalarının HTML gösterimlerini oluşturmak amacıyla Aspose.Slides'ın yeteneklerini kullanacağız. İşte nasıl:
+Şimdi dönüşüm için HTML seçeneklerini ayarlayalım. Bir HTML denetleyicisi, HTML biçimlendiricisi ve slayt görüntü biçimini yapılandıracağız. Bu kod, HTML dosyanızın multimedya öğelerini görüntülemek için gerekli bileşenleri içermesini sağlayacaktır.
 
 ```csharp
-using Aspose.Slides.Export;
+const string fileName = "video.html";
+const string baseUri = "http://www.example.com/";
 
-// MediaBytes'ın medya dosyası baytlarını içerdiğini varsayalım
-using (MemoryStream stream = new MemoryStream(mediaBytes))
-{
-    // Medyayı HTML formatında kaydedin
-    using (HtmlOptions htmlOptions = new HtmlOptions())
-    {
-        presentation.MediaEncoder.EncodeToHtml(stream, htmlOptions);
-    }
-}
+VideoPlayerHtmlController controller = new VideoPlayerHtmlController(path: path, fileName: fileName, baseUri: baseUri);
+
+// HTML seçeneklerini ayarlama
+HtmlOptions htmlOptions = new HtmlOptions(controller);
+SVGOptions svgOptions = new SVGOptions(controller);
+
+htmlOptions.HtmlFormatter = HtmlFormatter.CreateCustomFormatter(controller);
+htmlOptions.SlideImageFormat = SlideImageFormat.Svg(svgOptions);
 ```
 
-## Çıkış İşleme
+## 5. HTML Dosyasını Kaydetme
 
-Medya dosyaları HTML'ye aktarıldıktan sonra bunları belirlenmiş bir klasöre kaydedebilir veya bir web sunucusuna yükleyebilirsiniz. Gerektiğinde tüm dosya adlandırma ve organizasyon kurallarını uyguladığınızdan emin olun.
+ HTML seçenekleri yapılandırıldığında artık HTML dosyasını kaydedebilirsiniz.`Save` Sunum nesnesinin yöntemi, gömülü multimedya öğeleri içeren HTML dosyasını oluşturacaktır.
 
-## Çözüm
+```csharp
+// Dosyayı kaydetme
+pres.Save(outPath + fileName, SaveFormat.Html, htmlOptions);
+```
 
-Bu kılavuzda Aspose.Slides for .NET kullanarak medya dosyalarını bir PowerPoint sunumundan HTML'ye nasıl aktaracağımızı araştırdık. Bu güçlü kitaplık, sunumlarla programlı olarak çalışma sürecini basitleştirerek geliştiricilere medya açısından zengin içeriği sorunsuz bir şekilde birleştirme esnekliği sunar. Bu kılavuzda özetlenen adımları izleyerek sunumlarınızın erişilebilirliğini ve paylaşım özelliklerini geliştirebilirsiniz.
+## 6. Sonuç
 
-## SSS
+Tebrikler! Aspose.Slides for .NET'i kullanarak medya dosyalarını PowerPoint sunumundan başarıyla HTML'ye aktardınız. Bu, sunumlarınızı çevrimiçi olarak kolaylıkla paylaşmanıza ve multimedya öğelerinin düzgün şekilde görüntülendiğinden emin olmanıza olanak tanır.
 
-### Aspose.Slides for .NET kütüphanesini nasıl edinebilirim?
+## 7. SSS
 
- Aspose.Slides for .NET kütüphanesini Aspose.Releases sayfasından indirebilirsiniz:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/)
+### S1: Aspose.Slides for .NET ücretsiz bir kütüphane midir?
+ Cevap1: Aspose.Slides for .NET ticari bir kütüphanedir ancak şu adresten ücretsiz deneme sürümü edinebilirsiniz:[Burada](https://releases.aspose.com/) denemek için.
 
-### Aspose.Slides'ı sunumla ilgili diğer görevler için kullanabilir miyim?
+### S2: HTML çıktısını daha da özelleştirebilir miyim?
+Cevap2: Evet, koddaki HTML seçeneklerini değiştirerek HTML çıktısını özelleştirebilirsiniz.
 
-Kesinlikle! Aspose.Slides for .NET, sunumların programlı olarak oluşturulması, düzenlenmesi ve dönüştürülmesi de dahil olmak üzere medya çıkarmanın ötesinde çok çeşitli özellikler sağlar.
+### S3: Aspose.Slides for .NET diğer dışa aktarma formatlarını destekliyor mu?
+Cevap3: Evet, Aspose.Slides for .NET, PDF, görüntü formatları ve daha fazlası dahil olmak üzere çeşitli dışa aktarma formatlarını destekler.
 
-### Aspose.Slides'ın deneme sürümü mevcut mu?
+### S4: Aspose.Slides for .NET desteğini nereden alabilirim?
+ Cevap4: Aspose forumlarında destek bulabilir ve soru sorabilirsiniz[Burada](https://forum.aspose.com/).
 
-Evet, Aspose.Releases'ten deneme sürümünü indirerek Aspose.Slides'ın yeteneklerini keşfedebilirsiniz.
+### S5: Aspose.Slides for .NET lisansını nasıl satın alabilirim?
+ Cevap5: Şu adresten lisans satın alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/buy).
 
-### Aspose.Slides dışa aktarma için hangi formatları destekliyor?
-
-Aspose.Slides, sunumların PDF, HTML, resimler ve daha fazlası dahil olmak üzere çeşitli formatlara aktarılmasını destekler.
-
-### Aspose.Slides for .NET kullanımı hakkında nasıl daha fazla bilgi edinebilirim?
-
- Kapsamlı belgeler ve örnekler için Aspose.Slides for .NET belgelerine bakın:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/)
+Artık bu eğitimi tamamladığınıza göre, Aspose.Slides for .NET kullanarak medya dosyalarını PowerPoint sunumlarından HTML'ye aktarma becerisine sahipsiniz. Multimedya açısından zengin sunumlarınızı çevrimiçi paylaşmanın tadını çıkarın!

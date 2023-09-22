@@ -8,291 +8,82 @@ weight: 10
 url: /ar/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
 
+إذا كنت تتطلع إلى إنشاء عروض تقديمية برمجيًا في .NET، فإن Aspose.Slides for .NET هي أداة قوية تساعدك على تحقيق هذه المهمة بكفاءة. سيرشدك هذا البرنامج التعليمي خطوة بخطوة خلال عملية إنشاء عروض تقديمية جديدة باستخدام كود المصدر المقدم.
+
 ## مقدمة إلى Aspose.Slides لـ .NET
 
-Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من إنشاء عروض PowerPoint التقديمية وتعديلها وتحويلها برمجياً. فهو يوفر مجموعة واسعة من الميزات للعمل مع الشرائح والأشكال والنصوص والصور والرسوم المتحركة والمزيد. باستخدام Aspose.Slides، يمكنك أتمتة عملية إنشاء العرض التقديمي بالكامل، مما يسمح لك بالتركيز على المحتوى والتصميم.
+Aspose.Slides for .NET هي مكتبة قوية تسمح للمطورين بالعمل مع عروض PowerPoint التقديمية برمجياً. سواء كنت بحاجة إلى إنشاء تقارير، أو أتمتة العروض التقديمية، أو التعامل مع الشرائح، فإن Aspose.Slides يوفر مجموعة واسعة من الميزات لتسهيل مهمتك.
 
-## إعداد بيئة التطوير الخاصة بك
+## الخطوة 1: إعداد بيئتك
 
-قبل أن تتعمق في إنشاء العروض التقديمية، تحتاج إلى إعداد بيئة التطوير الخاصة بك. اتبع هذه الخطوات للبدء:
+قبل أن نتعمق في التعليمات البرمجية، ستحتاج إلى إعداد بيئة التطوير الخاصة بك. تأكد من أن لديك المتطلبات الأساسية التالية:
 
-## تثبيت Aspose.Slides عبر NuGet
+- Visual Studio أو أي بيئة تطوير .NET.
+-  Aspose.Slides لمكتبة .NET (يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/)).
 
-لتثبيت Aspose.Slides لـ .NET، يمكنك استخدام NuGet، وهو مدير حزم لمشاريع .NET. وإليك كيف يمكنك القيام بذلك:
+## الخطوة 2: إنشاء عرض تقديمي
 
-1. افتح مشروع Visual Studio الخاص بك.
-2. انقر بزر الماوس الأيمن على مشروعك في Solution Explorer.
-3. حدد "إدارة حزم NuGet".
-4. ابحث عن "Aspose.Slides" وقم بتثبيت الإصدار الأحدث.
-5. بمجرد التثبيت، تصبح جاهزًا لبدء استخدام Aspose.Slides في مشروعك.
-
-## إنشاء عرض تقديمي أساسي
-
-الآن بعد أن قمت بإعداد Aspose.Slides في مشروعك، فلنقم بإنشاء عرض تقديمي أساسي خطوة بخطوة:
-
-## إضافة الشرائح
-
- لإضافة شرائح إلى العرض التقديمي الخاص بك، يمكنك استخدام`Presentation` الطبقة و`Slides` مجموعة:
+لنبدأ بإنشاء عرض تقديمي جديد باستخدام الكود التالي:
 
 ```csharp
-using Aspose.Slides;
-
-// إنشاء عرض تقديمي جديد
-Presentation presentation = new Presentation();
-
-// إضافة شرائح جديدة
-Slide slide1 = presentation.Slides.AddEmptySlide();
-Slide slide2 = presentation.Slides.AddEmptySlide();
+// إنشاء عرض تقديمي
+Presentation pres = new Presentation();
 ```
 
-## إضافة المحتوى إلى الشرائح
+يقوم هذا الرمز بتهيئة كائن عرض تقديمي جديد، والذي يعمل كأساس لملف PowerPoint الخاص بك.
 
-بمجرد الانتهاء من وضع الشرائح في مكانها الصحيح، يمكنك البدء في إضافة محتوى إليها. فيما يلي كيفية إضافة عنوان ومحتوى إلى الشريحة:
+## الخطوة 3: إضافة شريحة عنوان
+
+في معظم العروض التقديمية، تكون الشريحة الأولى عبارة عن شريحة عنوان. إليك كيفية إضافة واحدة:
 
 ```csharp
-// أضف العنوان والمحتوى إلى الشريحة
-TextFrame titleFrame = slide1.Shapes.AddTextFrame("Title", 50, 50, 600, 100);
-TextFrame contentFrame = slide1.Shapes.AddTextFrame("This is the content.", 50, 150, 600, 300);
+// أضف شريحة العنوان
+Slide slide = pres.AddTitleSlide();
 ```
 
-## ضبط تخطيطات الشرائح
+يضيف هذا الرمز شريحة عنوان إلى العرض التقديمي الخاص بك.
 
-يمكنك أيضًا تعيين تخطيط الشرائح باستخدام تخطيطات محددة مسبقًا:
+## الخطوة 4: تحديد العنوان والعنوان الفرعي
+
+الآن، لنقم بتعيين العنوان والعنوان الفرعي لشريحة العنوان الخاصة بك:
 
 ```csharp
-// تعيين تخطيط الشريحة
-slide1.LayoutSlide = presentation.MasterSlide.LayoutSlides[LayoutType.Title];
-slide2.LayoutSlide = presentation.MasterSlide.LayoutSlides[LayoutType.Content];
+// قم بتعيين نص العنوان
+((TextHolder)slide.Placeholders[0]).Text = "Slide Title Heading";
+
+// قم بتعيين نص الترجمة
+((TextHolder)slide.Placeholders[1]).Text = "Slide Title Sub-Heading";
 ```
 
-## العمل مع النص والتنسيق
+استبدل "عنوان عنوان الشريحة" و"العنوان الفرعي لعنوان الشريحة" بالعناوين التي تريدها.
 
-تعد إضافة النص وتنسيقه جانبًا مهمًا في إنشاء العروض التقديمية:
+## الخطوة 5: حفظ العرض التقديمي الخاص بك
 
-## إضافة العناوين والنص
-
- لإضافة عناوين ونصوص إلى الشرائح، يمكنك استخدام`TextFrame` فصل:
+أخيرًا، لنحفظ عرضك التقديمي في ملف:
 
 ```csharp
-TextFrame titleFrame = slide1.Shapes.AddTextFrame("Main Title", 50, 50, 600, 100);
-TextFrame contentFrame = slide1.Shapes.AddTextFrame("This is the content.", 50, 150, 600, 300);
+// كتابة الإخراج على القرص
+pres.Write("outAsposeSlides.ppt");
 ```
 
-## تنسيق النص
-
-يمكنك تنسيق النص باستخدام خصائص مختلفة مثل حجم الخط واللون والمحاذاة:
-
-```csharp
-titleFrame.TextFrameFormat.Text = "Formatted Title";
-titleFrame.TextFrameFormat.FontHeight = 36;
-titleFrame.TextFrameFormat.FillFormat.SolidFillColor.Color = Color.Blue;
-titleFrame.TextFrameFormat.TextFrame.Text = "Formatted Content";
-contentFrame.TextFrameFormat.Paragraphs[0].Portions[0].FontHeight = 18;
-```
-
-## دمج الصور والوسائط
-
-يمكن للعناصر المرئية مثل الصور والوسائط أن تجعل عروضك التقديمية أكثر جاذبية:
-
-## إضافة الصور إلى الشرائح
-
- لإضافة صور إلى الشرائح، يمكنك استخدام`PictureFrame` فصل:
-
-```csharp
-PictureFrame pictureFrame = slide1.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, 300, 200);
-pictureFrame.PictureFillFormat.Picture.Image = new Bitmap("image.jpg");
-```
-
-## تضمين الصوت والفيديو
-
-يمكنك أيضًا تضمين ملفات الصوت والفيديو في العرض التقديمي الخاص بك:
-
-```csharp
-AudioFrame audioFrame = slide2.Shapes.AddAudioFrameEmbedded(50, 150, 300, 50, "audio.mp3");
-VideoFrame videoFrame = slide2.Shapes.AddVideoFrameEmbedded(50, 220, 300, 200, "video.mp4");
-```
-
-## التحسين باستخدام الرسوم المتحركة والانتقالات
-
-يمكن أن تؤدي إضافة الرسوم المتحركة والانتقالات إلى إضفاء الحيوية على عروضك التقديمية:
-
-## تطبيق انتقالات الشرائح
-
-يمكنك تطبيق انتقالات الشرائح للحصول على تأثيرات ديناميكية:
-
-```csharp
-slide1.SlideShowTransition.Type = TransitionType.Fade;
-slide1.SlideShowTransition.Speed = TransitionSpeed.Slow;
-```
-
-## إضافة الرسوم المتحركة إلى الكائنات
-
-تحريك الكائنات الفردية على الشريحة:
-
-```csharp
-AutoShape shape = slide2.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 300, 100);
-Effect effect = shape.AnimationSettings.AddAppearEffect(EffectChartDirection.FromLeft, EffectTriggerType.AfterPrevious);
-effect.Timing.TriggerDelayTime = 2; // تأخير الرسوم المتحركة لمدة 2 ثانية
-```
-
-## إدارة عناصر الشريحة
-
-تتضمن إدارة عناصر الشريحة مهام مثل إعادة ترتيب الشرائح وتكرارها وحذفها:
-
-## إعادة ترتيب الشرائح
-
-تغيير ترتيب الشرائح في العرض التقديمي الخاص بك:
-
-```csharp
-presentation.Slides.Reorder(1, 0); // انقل الشريحة 1 إلى البداية
-```
-
-## تكرار الشرائح
-
-إنشاء نسخ مكررة من الشرائح:
-
-```csharp
-Slide duplicateSlide = presentation.Slides.AddClone(slide1);
-```
-
-## حذف الشرائح
-
-إزالة الشرائح غير المرغوب فيها:
-
-```
-
-csharp
-presentation.Slides.RemoveAt(2); // قم بإزالة الشريحة الثالثة
-```
-
-## حفظ وتصدير العروض التقديمية
-
-بعد إنشاء العرض التقديمي وتحسينه، حان الوقت لحفظه وتصديره:
-
-## الحفظ بتنسيقات مختلفة
-
-احفظ العرض التقديمي بتنسيقات مختلفة:
-
-```csharp
-presentation.Save("presentation.pptx", SaveFormat.Pptx);
-presentation.Save("presentation.pdf", SaveFormat.Pdf);
-```
-
-## التصدير بصيغة PDF أو صور
-
-تصدير الشرائح كصور فردية أو مستند PDF:
-
-```csharp
-presentation.Save("slide_images/", SaveFormat.Png);
-presentation.Save("presentation_images.pdf", SaveFormat.Pdf);
-```
-
-## الميزات المتقدمة لـ Aspose.Slides
-
-يقدم Aspose.Slides ميزات متقدمة لجعل عروضك التقديمية أكثر إفادة وجاذبية بصريًا:
-
-## إضافة المخططات والرسوم البيانية
-
-دمج المخططات والرسوم البيانية المستندة إلى البيانات:
-
-```csharp
-Slide slide3 = presentation.Slides.AddEmptySlide();
-Chart chart = slide3.Shapes.AddChart(ChartType.ClusteredColumn, 50, 100, 500, 300);
-chart.ChartData.Series[0].DataPoints.AddDataPointForBarSeries(presentation.Slides[0].Shapes[1].TextFrame.Text);
-```
-
-## العمل مع سمارت آرت
-
-إنشاء رسوم تخطيطية ديناميكية باستخدام SmartArt:
-
-```csharp
-SmartArt smartArt = slide3.Shapes.AddSmartArt(50, 100, 400, 300, SmartArtLayoutType.BasicBlockList);
-smartArt.Nodes[0].TextFrame.Text = "Node 1";
-smartArt.Nodes.AddNode().TextFrame.Text = "Node 2";
-```
-
-## التعامل مع الشرائح الرئيسية
-
-تخصيص الشرائح الرئيسية لتصميم متسق:
-
-```csharp
-IMasterSlide masterSlide = presentation.MasterSlide;
-masterSlide.Background.Type = BackgroundType.OwnBackground;
-masterSlide.Background.FillFormat.SolidFillColor.Color = Color.LightGray;
-```
-
-## التكامل مع مصادر البيانات
-
-يمكنك دمج العرض التقديمي الخاص بك مع مصادر البيانات الخارجية:
-
-## الربط بمجموعات البيانات
-
-ربط العرض التقديمي الخاص بك بالبيانات من مجموعات البيانات:
-
-```csharp
-DataTable dataTable = new DataTable("SampleTable");
-dataTable.Columns.Add("Name");
-dataTable.Columns.Add("Value");
-dataTable.Rows.Add("Item 1", 100);
-```
-
-## إنشاء المحتوى الديناميكي
-
-إنشاء محتوى ديناميكي بناءً على البيانات:
-
-```csharp
-TextFrame dynamicFrame = slide3.Shapes.AddTextFrame("", 50, 150, 600, 300);
-dynamicFrame.TextFrameFormat.Text = "Total Value: " + dataTable.Rows[0]["Value"];
-```
-
-## أفضل الممارسات للأداء
-
-لضمان الأداء الأمثل، اتبع أفضل الممارسات التالية:
-
-## حمامات الشرائح
-
-إعادة استخدام كائنات الشرائح لتقليل استخدام الذاكرة:
-
-```csharp
-SlidePool slidePool = new SlidePool();
-slidePool.Add(slide1);
-slidePool.Add(slide2);
-```
-
-## العمليات غير المتزامنة
-
-استخدم العمليات غير المتزامنة للمهام كثيفة الاستخدام للموارد:
-
-```csharp
-await Task.Run(() => GenerateSlidesAsync());
-```
-
-## استكشاف المشكلات الشائعة وإصلاحها
-
- إذا واجهت أي مشاكل، استشر[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net) أو منتديات المجتمع للحلول.
+يحفظ هذا الرمز العرض التقديمي الخاص بك باسم "outAsposeSlides.ppt" في دليل المشروع الخاص بك.
 
 ## خاتمة
 
-يفتح إنشاء العروض التقديمية برمجيًا باستخدام Aspose.Slides for .NET إمكانيات لا حصر لها لأتمتة المحتوى الخاص بك وتخصيصه. بدءًا من إضافة الشرائح إلى دمج عناصر الوسائط المتعددة والرسوم المتحركة، لديك الآن المعرفة اللازمة لإنشاء عروض تقديمية ديناميكية مصممة خصيصًا لتلبية احتياجاتك.
+تهانينا! لقد قمت للتو بإنشاء عرض تقديمي لـ PowerPoint برمجيًا باستخدام Aspose.Slides لـ .NET. تمنحك هذه المكتبة القوية المرونة اللازمة لأتمتة عروضك التقديمية وتخصيصها بسهولة.
+
+الآن، يمكنك البدء في دمج هذا الرمز في مشاريع .NET الخاصة بك لإنشاء عروض تقديمية ديناميكية مصممة خصيصًا لتلبية احتياجاتك الخاصة.
 
 ## الأسئلة الشائعة
 
-### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
+1. ### هل Aspose.Slides لـ .NET مجاني للاستخدام؟
+    لا، Aspose.Slides for .NET هي مكتبة تجارية. يمكنك العثور على معلومات التسعير والترخيص[هنا](https://purchase.aspose.com/buy).
 
-يمكنك تثبيت Aspose.Slides لـ .NET باستخدام NuGet. تحقق من قسم التثبيت أعلاه للحصول على خطوات تفصيلية.
+2. ### هل أحتاج إلى أي أذونات خاصة لاستخدام Aspose.Slides لـ .NET في مشاريعي؟
+    ستحتاج إلى ترخيص صالح لاستخدام Aspose.Slides لـ .NET. يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للتقييم.
 
-### هل يمكنني إضافة رسوم متحركة إلى كائنات فردية؟
+3. ### أين يمكنني العثور على دعم لـ Aspose.Slides لـ .NET؟
+    للحصول على المساعدة الفنية والمناقشات، يمكنك زيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/).
 
-نعم، يمكنك إضافة رسوم متحركة إلى كائنات فردية مثل الأشكال والصور. راجع قسم "التحسين باستخدام الرسوم المتحركة والانتقالات" للحصول على إرشادات.
-
-### هل من الممكن تصدير الشرائح كصور؟
-
-قطعاً! يمكنك تصدير الشرائح كصور فردية عن طريق تحديد تنسيق الصورة المطلوب أثناء عملية التصدير.
-
-### أين يمكنني العثور على مزيد من المعلومات حول الميزات المتقدمة؟
-
- لمزيد من الميزات المتقدمة والمعلومات التفصيلية، قم بزيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides).
-
-### ماذا علي أن أفعل إذا واجهت مشاكل أثناء استخدام Aspose.Slides؟
-
- إذا واجهت أي تحديات أو مشاكل، استشر[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net) أو التفاعل مع مجتمع Aspose من خلال منتدياتهم.
+4. ### هل يمكنني تجربة Aspose.Slides لـ .NET قبل الشراء؟
+    نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/)الإصدار التجريبي له قيود، لذا تأكد من التحقق مما إذا كان يلبي متطلباتك.

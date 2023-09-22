@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### Steg 4: Importera PDF-innehåll
- Använd`PdfContentEditor` klass från Aspose.PDF för att extrahera innehåll från PDF-filen och konvertera den till en bild. Skapa sedan en ny bild i din presentation och lägg till den importerade bilden till den. Här är ett förenklat kodavsnitt:
+Med Aspose.Slides kan du sömlöst importera innehåll från det laddade PDF-dokumentet till den nyskapade presentationen. Här är ett förenklat kodavsnitt:
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; // Välj sidan att importera
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        // Skapa en ny bild och lägg till bilden i den
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### Steg 5: Spara presentationen
@@ -65,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
 
 ### Kan jag importera innehåll från flera sidor i en PDF?
- Ja, du kan ange flera sidnummer i`ProcessPages` array för att importera innehåll från olika sidor i en PDF.
+Ja, du kan ange flera sidnummer i`ProcessPages` array för att importera innehåll från olika sidor i en PDF.
 
 ### Finns det några begränsningar för att importera PDF-innehåll?
 Även om Aspose.Slides tillhandahåller en kraftfull lösning, kan formateringen av importerat innehåll variera beroende på PDF:ens komplexitet. Vissa justeringar kan behövas.

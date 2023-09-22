@@ -58,13 +58,13 @@ Aspose.Slides bietet verschiedene Optionen zum Anpassen der Videowiedergabe in I
 // Holen Sie sich den Videorahmen auf die Folie
 IVideoFrame videoFrame = (IVideoFrame)slide.Shapes[0];
 
-//Aktivieren Sie Autoplay
+// Aktivieren Sie Autoplay
 videoFrame.PlayMode = VideoPlayModePreset.Auto;
 
 // Schleife aktivieren
 videoFrame.PlayLoopMode = VideoPlayLoopMode.Loop;
 
-// Schalten Sie das Video stumm
+//Schalten Sie das Video stumm
 videoFrame.Volume = AudioVolumeMode.Mute;
 ```
 

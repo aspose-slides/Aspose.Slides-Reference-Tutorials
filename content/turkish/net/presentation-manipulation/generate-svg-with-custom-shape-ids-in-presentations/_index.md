@@ -8,113 +8,73 @@ weight: 19
 url: /tr/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
 
-Günümüzün teknoloji odaklı dünyasında görsel sunumlar, bilginin etkili bir şekilde aktarılmasında hayati bir rol oynamaktadır. Aspose.Slides for .NET, geliştiricilere özel SVG şekilleri ve kimlikleri ile dinamik sunumlar oluşturma olanağı vererek, uygulamalarının görsel çekiciliğini ve etkileşimli yeteneklerini geliştirir. Bu adım adım kılavuz, Aspose.Slides for .NET kullanarak sunumlarda özel şekil kimlikleriyle SVG'ler oluşturma sürecinde size yol gösterecektir.
+Özel şekil kimliklerine sahip SVG dosyaları oluşturmak için Aspose.Slides for .NET'in gücünden yararlanmak mı istiyorsunuz? Doğru yerdesiniz! Bu adım adım eğitimde, aşağıdaki kaynak kod parçasını kullanarak süreç boyunca size yol göstereceğiz. Sonunda, sunumlarınızda özel şekil kimliklerine sahip SVG dosyaları oluşturmak için gerekli donanıma sahip olacaksınız.
 
-## Aspose.Slides for .NET'e Giriş
+### Başlarken
 
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. İster masaüstü uygulamaları, web tabanlı çözümler veya bulut hizmetleri oluşturuyor olun, Aspose.Slides sunum oluşturma, düzenleme ve değiştirme sürecini basitleştirir.
+Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-## SVG'leri ve Özel Şekil Kimliklerini Anlama
+1. Aspose.Slides for .NET: Aspose.Slides kütüphanesinin kurulu ve kullanıma hazır olduğundan emin olun.
 
-Ölçeklenebilir Vektör Grafikleri (SVG), iki boyutlu vektör grafiklerini tanımlamak için yaygın olarak kullanılan XML tabanlı bir formattır. Kalite kaybı olmadan sorunsuz bir şekilde ölçeklenebilen grafikler oluşturmak için ideal bir seçimdir. Özel şekil kimlikleri, bir SVG içindeki belirli şekilleri benzersiz şekilde tanımlamanıza olanak tanıyarak hedeflenen etkileşimlere ve değişikliklere olanak tanır.
+2. Örnek Sunum: SVG'ye aktarmak istediğiniz şekillerin bulunduğu bir sunum dosyasına (örneğin, "sunum.pptx") ihtiyacınız olacaktır.
 
-## Geliştirme Ortamınızı Kurma
+3. Çıkış Dizini: SVG dosyanızı kaydetmek istediğiniz dizini tanımlayın (örneğin, "Çıktı Dizininiz").
 
-Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
-- Visual Studio yüklü
-- Aspose.Slides for .NET kitaplığı
+Şimdi kodu adım adım inceleyelim.
 
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net/).
+### Adım 1: Ortamı Ayarlama
 
-## Yeni Bir Sunu Oluşturma
-
-Aspose.Slides for .NET'i kullanarak yeni bir sunum oluşturarak başlayalım. Bu adımları takip et:
+Bu adımda gerekli değişkenleri başlatacağız ve sunum dosyamızı yükleyeceğiz.
 
 ```csharp
-using Aspose.Slides;
-// Diğer gerekli kullanım ifadeleri
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-class Program
+using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    static void Main(string[] args)
+    // Kodunuz buraya gelecek
+}
+```
+
+ Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+
+### Adım 2: Şekilleri SVG Olarak Yazma
+
+Bu bölümde sunumdaki şekilleri SVG dosyası olarak yazacağız. Ayrıca SVG çıktısı üzerinde daha fazla kontrol sağlamak için özel bir şekil biçimlendirme denetleyicisi de belirleyeceğiz.
+
+```csharp
+using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode.OpenOrCreate))
+{
+    SVGOptions svgOptions = new SVGOptions
     {
-        // Yeni bir sunu oluşturma
-        using (Presentation presentation = new Presentation())
-        {
-            // Slayt ve içerik ekleme kodunuz
-        }
-    }
+        ShapeFormattingController = new CustomSvgShapeFormattingController()
+    };
+
+    pres.Slides[0].WriteAsSvg(stream, svgOptions);
 }
 ```
 
-## Slaytlara Özel Şekiller Ekleme
+ Değiştirdiğinizden emin olun`"pptxFileName.svg"` İstediğiniz çıktı dosyası adı ile.
 
-Slaytlara özel şekiller eklemek için Aspose.Slides for .NET tarafından sağlanan yerleşik yöntemleri kullanın:
+### Çözüm
 
-```csharp
-// Kullanım Sunumu bloğunun içinde
-ISlide slide = presentation.Slides[0]; // İstediğiniz slaytı alın
-IAutoShape customShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
-// Şekil özelliklerini özelleştirme
-```
-
-## Özel Şekillere Kimlik Atama
-
- Şekillere özel kimlikler atamak daha sonraki tanımlamalar için önemlidir. Şunu kullanabilirsiniz:`AlternativeText` özel kimliği saklayacak özellik:
-
-```csharp
-customShape.AlternativeText = "custom_shape_1";
-```
-
-## Özel Şekil Kimlikleriyle SVG'ler Oluşturma
-
-Şimdi özel şekil kimlikleriyle bir SVG görüntüsü oluşturalım:
-
-```csharp
-using (MemoryStream svgStream = new MemoryStream())
-{
-    slide.WriteAsSvg(svgStream);
-    string svgContent = Encoding.UTF8.GetString(svgStream.ToArray());
-    // Gerekirse SVG içeriğini değiştirin
-}
-```
-
-## İnteraktif Özelliklerin Birleştirilmesi
-
-Özel şekil kimliklerine sahip SVG'ler, tıklanabilir alanlar veya dinamik animasyonlar gibi etkileşimli özellikleri etkinleştirir. Etkileşim eklemek için JavaScript kitaplıklarını kullanabilirsiniz.
-
-## Sunumunuzu Kaydetme ve Paylaşma
-
-Sununuzdan memnun kaldığınızda, daha sonra kullanmak üzere kaydedin:
-
-```csharp
-presentation.Save("your_presentation.pptx", SaveFormat.Pptx);
-```
-
-## Çözüm
-
-Bu kılavuzda, sunumlarda özel şekil kimliklerine sahip SVG'ler oluşturmak için Aspose.Slides for .NET'ten nasıl yararlanılacağını araştırdık. Bu, görsel deneyimi geliştirir ve ilgi çekici etkileşimler için fırsatlar sunar. Aspose.Slides'ın gücüyle izleyicilerinizi büyüleyecek dinamik sunumlar oluşturabilirsiniz.
-
- Daha fazla bilgi için Aspose.Slides belgelerine erişin[Aspose.Slides API Referansı](https://reference.aspose.com/slides/net/).
+İşte buyur! Aspose.Slides for .NET'i kullanarak özel şekil kimliklerine sahip SVG dosyalarını başarıyla oluşturdunuz. Bu güçlü özellik, SVG çıktınızı özel ihtiyaçlarınızı karşılayacak şekilde özelleştirmenize olanak tanır.
 
 ### SSS
 
-### Aspose.Slides for .NET'i nasıl indirebilirim?
+1. ### Aspose.Slides for .NET nedir?
+   Aspose.Slides for .NET, .NET uygulamalarında PowerPoint sunumlarıyla çalışmaya yönelik güçlü bir kitaplıktır. Sunumları programlı olarak oluşturmak, düzenlemek ve değiştirmek için çeşitli özellikler sağlar.
 
- Aspose.Slides for .NET'in en son sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net/).
+2. ### SVG oluşturmada özel şekil biçimlendirme neden önemlidir?
+   Özel şekil biçimlendirme, SVG çıktınızdaki şekillerin görünümü ve nitelikleri üzerinde ayrıntılı kontrole sahip olmanızı sağlar.
 
-### Özel SVG'leri diğer uygulamalarda kullanabilir miyim?
+3. ### Aspose.Slides for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
+   Aspose.Slides for .NET, özellikle .NET uygulamaları için tasarlanmıştır. Ancak Aspose diğer platformlar ve diller için de kütüphaneler sağlıyor.
 
-Evet, Aspose.Slides kullanılarak oluşturulan SVG'ler, SVG formatını destekleyen çeşitli uygulama ve platformlarda kullanılabilir.
+4. ### Aspose.Slides for .NET ile SVG oluşturmada herhangi bir sınırlama var mı?
+   Aspose.Slides for .NET güçlü SVG oluşturma yetenekleri sunarken, potansiyelini en üst düzeye çıkarmak için kütüphanenin belgelerini anlamak çok önemlidir.
 
-### Aspose.Slides hem masaüstü hem de web uygulamaları için uygun mu?
+5. ### Aspose.Slides for .NET için daha fazla kaynağı ve desteği nerede bulabilirim?
+    Ek belgeler için şu adresi ziyaret edin:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).
 
-Kesinlikle! Aspose.Slides çok yönlüdür ve dinamik sunumlar oluşturmak için hem masaüstü hem de web uygulamaları geliştirmek için kullanılabilir.
-
-### Özel SVG'lerime nasıl animasyon ekleyebilirim?
-
-Animasyon eklemek için GreenSock Animasyon Platformu (GSAP) gibi JavaScript kitaplıklarını web tabanlı uygulamalarınıza dahil edebilirsiniz.
-
-### Aspose.Slides yeni başlayanlar için uygun mu?
-
-.NET geliştirmeyi biraz anlamak faydalı olsa da Aspose.Slides, yeni başlayanların etkili bir şekilde başlamalarına yardımcı olabilecek kapsamlı belgeler ve kod örnekleri sağlar.
+Şimdi devam edin ve Aspose.Slides for .NET ile SVG oluşturmanın sonsuz olanaklarını keşfedin. Mutlu kodlama!

@@ -16,7 +16,7 @@ Günümüzün hızlı tempolu sunum ve multimedya içeriği dünyasında, slaytl
 
 Aspose.Slides for .NET kullanarak slaytlardan ses çıkarmaya başlamak için şu adımları izlemeniz gerekir:
 
-1. Aspose.Slides'ı yükleyin: Aspose.Slides for .NET kütüphanesini şu web sitesinden indirip kurabilirsiniz:[Burada](https://products.aspose.com/slides/net).
+1.  Aspose.Slides'ı yükleyin: Aspose.Slides for .NET kütüphanesini şu web sitesinden indirip kurabilirsiniz:[Burada](https://products.aspose.com/slides/net).
 
 2. Referans Ekle: Kitaplığı indirip yükledikten sonra projenize bir referans ekleyin. Bu, .NET uygulamanızda Aspose.Slides API'sine erişmenizi sağlayacaktır.
 
@@ -48,7 +48,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Ses baytlarını işlemek için kodunuz
+        // Ses baytlarını işlemek için kodunuz
     }
 }
 ```
@@ -88,7 +88,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Ses baytlarını işlemek için kodunuz
+        // Ses baytlarını işlemek için kodunuz
     }
 }
 ```

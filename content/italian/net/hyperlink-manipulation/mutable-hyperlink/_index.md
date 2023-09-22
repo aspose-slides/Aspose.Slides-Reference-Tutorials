@@ -10,11 +10,11 @@ url: /it/net/hyperlink-manipulation/mutable-hyperlink/
 
 ## Introduzione ai collegamenti ipertestuali mutabili
 
-collegamenti ipertestuali modificabili sono collegamenti ipertestuali all'interno di una presentazione che possono essere aggiornati dinamicamente in base alle modifiche del contenuto. Questi collegamenti ipertestuali forniscono un'esperienza utente fluida adattandosi a nuove diapositive o contenuti modificati, garantendo che il tuo pubblico abbia sempre accesso alle informazioni più pertinenti.
+I collegamenti ipertestuali modificabili sono collegamenti ipertestuali all'interno di una presentazione che possono essere aggiornati dinamicamente in base alle modifiche del contenuto. Questi collegamenti ipertestuali forniscono un'esperienza utente fluida adattandosi a nuove diapositive o contenuti modificati, garantendo che il tuo pubblico abbia sempre accesso alle informazioni più pertinenti.
 
 ## Impostazione dell'ambiente di sviluppo
 
- Per iniziare, è necessario installare la libreria Aspose.Slides per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net/). Una volta scaricato, seguire le istruzioni di installazione.
+Per iniziare, è necessario installare la libreria Aspose.Slides per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net/). Una volta scaricato, seguire le istruzioni di installazione.
 
 ## Creazione di una nuova presentazione
 
@@ -31,7 +31,7 @@ Aggiungi diapositive alla presentazione:
 ISlide slide = presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
 ```
 
-## Aggiunta di contenuti alle diapositive
+## Aggiunta di contenuto alle diapositive
 
 Puoi aggiungere vari tipi di contenuto, come testo e immagini, alle tue diapositive. Per aggiungere testo:
 
@@ -43,7 +43,7 @@ Formatta il contenuto secondo necessità utilizzando proprietà come dimensione 
 
 ## Comprensione dei collegamenti ipertestuali in Aspose.Slides
 
-Aspose.Slides supporta diversi tipi di collegamenti ipertestuali, inclusi collegamenti Web, indirizzi e-mail e collegamenti ad altre diapositive all'interno della presentazione. Usa il`HyperlinkManager` classe per lavorare con i collegamenti ipertestuali.
+ Aspose.Slides supporta diversi tipi di collegamenti ipertestuali, inclusi collegamenti Web, indirizzi e-mail e collegamenti ad altre diapositive all'interno della presentazione. Usa il`HyperlinkManager` classe per lavorare con i collegamenti ipertestuali.
 
 ## Aggiunta di collegamenti ipertestuali mutabili
 

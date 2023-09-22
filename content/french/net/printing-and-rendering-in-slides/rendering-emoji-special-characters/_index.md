@@ -103,7 +103,7 @@ Pour garantir le rendu correct des emojis, veillez à utiliser des polices prena
 
 Différents logiciels peuvent gérer les emojis différemment. Testez votre présentation exportée dans plusieurs visionneuses pour garantir la compatibilité.
 
-### Y a-t-il des limites au nombre d’émojis que je peux utiliser dans une seule diapositive ?
+### a-t-il des limites au nombre d’émojis que je peux utiliser dans une seule diapositive ?
 
 Bien qu'il n'y ait pas de limite stricte, il est essentiel de maintenir la clarté visuelle. Surcharger une diapositive avec trop d’émojis peut réduire son efficacité.
 

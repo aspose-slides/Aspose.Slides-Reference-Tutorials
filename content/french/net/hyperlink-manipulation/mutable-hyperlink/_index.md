@@ -14,7 +14,7 @@ Les hyperliens mutables sont des hyperliens au sein d'une présentation qui peuv
 
 ## Configuration de l'environnement de développement
 
- Pour commencer, vous devez installer la bibliothèque Aspose.Slides pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/). Une fois téléchargé, suivez les instructions d'installation.
+Pour commencer, vous devez installer la bibliothèque Aspose.Slides pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/). Une fois téléchargé, suivez les instructions d'installation.
 
 ## Créer une nouvelle présentation
 
@@ -43,7 +43,7 @@ Formatez le contenu selon vos besoins en utilisant des propriétés telles que l
 
 ## Comprendre les hyperliens dans Aspose.Slides
 
-Aspose.Slides prend en charge différents types de liens hypertexte, notamment des liens Web, des adresses e-mail et des liens vers d'autres diapositives de la présentation. Utilisez le`HyperlinkManager` classe pour travailler avec des hyperliens.
+ Aspose.Slides prend en charge différents types de liens hypertexte, notamment des liens Web, des adresses e-mail et des liens vers d'autres diapositives de la présentation. Utilisez le`HyperlinkManager` classe pour travailler avec des hyperliens.
 
 ## Ajout de liens hypertextes mutables
 

@@ -48,7 +48,7 @@ IChart chart = (IChart)slide.Shapes[0];
 // على افتراض أنك تريد مسح السلسلة الأولى
 IChartSeries series = chart.ChartData.Series[0];
 
-// كرر من خلال نقاط البيانات وحدد تلك التي يجب مسحها
+//كرر من خلال نقاط البيانات وحدد تلك التي يجب مسحها
 List<int> dataPointsToRemove = new List<int> { 2, 4, 6 }; // مثال على مؤشرات نقطة البيانات
 ```
 

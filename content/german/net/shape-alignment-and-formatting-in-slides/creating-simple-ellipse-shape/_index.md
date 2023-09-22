@@ -61,7 +61,7 @@ Sie können das Erscheinungsbild der Ellipsenform mithilfe verschiedener Eigensc
 // Legen Sie die Füllfarbe der Ellipse fest
 ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
 
-// Legen Sie die Umrissfarbe und -breite fest
+//Legen Sie die Umrissfarbe und -breite fest
 ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ellipseShape.LineFormat.Width = 2;
 

@@ -47,7 +47,7 @@ Efter att ha laddat presentationen kan du komma åt tidslinjen och dess tillhör
 // Gå till den första bilden
 var slide = presentation.Slides[0];
 
-//Gå till bildens tidslinje
+// Gå till bildens tidslinje
 var timeline = slide.Timeline;
 ```
 
@@ -61,7 +61,7 @@ foreach (var timeLineShape in timeline.Shapes)
     if (timeLineShape.MediaType == MediaType.Audio)
     {
         var audio = (IAudioFrame)timeLineShape;
-        // Extrahera ljudbearbetningskoden här
+        //Extrahera ljudbearbetningskoden här
     }
 }
 ```

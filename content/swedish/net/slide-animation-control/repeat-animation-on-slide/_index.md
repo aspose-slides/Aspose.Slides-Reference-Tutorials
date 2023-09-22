@@ -64,7 +64,7 @@ presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-den här guiden har vi utforskat hur man upprepar animationer på en bild med Aspose.Slides för .NET. Vi började med att introducera biblioteket och sätta upp utvecklingsmiljön. Sedan laddade vi en PowerPoint-presentation, fick åtkomst till och modifierade animationer och implementerade slutligen funktionen för upprepad animering. Aspose.Slides för .NET ger utvecklare möjlighet att skapa dynamiska och engagerande presentationer programmatiskt.
+I den här guiden har vi utforskat hur man upprepar animationer på en bild med Aspose.Slides för .NET. Vi började med att introducera biblioteket och sätta upp utvecklingsmiljön. Sedan laddade vi en PowerPoint-presentation, fick åtkomst till och modifierade animationer och implementerade slutligen funktionen för upprepad animering. Aspose.Slides för .NET ger utvecklare möjlighet att skapa dynamiska och engagerande presentationer programmatiskt.
 
 ## FAQ's
 

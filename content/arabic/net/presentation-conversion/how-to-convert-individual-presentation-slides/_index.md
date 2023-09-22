@@ -13,55 +13,99 @@ url: /ar/net/presentation-conversion/how-to-convert-individual-presentation-slid
 Aspose.Slides for .NET هي مكتبة غنية بالميزات تمكن المطورين من العمل مع عروض PowerPoint التقديمية برمجياً. فهو يوفر مجموعة واسعة من الفئات والأساليب التي تسمح لك بإنشاء ملفات العرض التقديمي ومعالجتها وتحويلها بتنسيقات مختلفة.
 
 ## المتطلبات الأساسية
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-قبل أن نتعمق في عملية التحويل، يجب أن يكون لديك بعض المتطلبات الأساسية:
+-  Aspose.Slides for .NET: تأكد من تثبيت Aspose.Slides for .NET وتكوينه في بيئة التطوير الخاصة بك. يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/slides/net/).
 
-- Visual Studio: تأكد من تثبيت Visual Studio أو أي بيئة تطوير متكاملة أخرى متوافقة (IDE).
--  Aspose.Slides for .NET Library: يمكنك تنزيل المكتبة من[هنا](https://releases.aspose.com/slides/net).
-- المعرفة الأساسية بـ C#: الإلمام بلغة البرمجة C# سيكون مفيدًا.
+- ملف العرض التقديمي: ستحتاج إلى ملف عرض تقديمي لـ PowerPoint (PPTX) يحتوي على الشرائح التي تريد تحويلها. تأكد من أن ملف العرض التقديمي اللازم جاهز.
 
-## تثبيت
+- محرر التعليمات البرمجية: استخدم محرر التعليمات البرمجية المفضل لديك لتنفيذ التعليمات البرمجية المصدر المتوفرة. سيكون أي محرر أكواد يدعم C# كافيًا.
 
-1. قم بتنزيل مكتبة Aspose.Slides for .NET من الرابط المتوفر.
-2. قم بإنشاء مشروع C# جديد في Visual Studio الخاص بك.
-3. أضف مرجعًا إلى مكتبة Aspose.Slides التي تم تنزيلها في مشروعك.
+## تهيئة البيئة
+لنبدأ بإعداد بيئة التطوير الخاصة بك لإعداد مشروعك لتحويل الشرائح الفردية. اتبع الخطوات التالية:
 
-## تحميل عرض تقديمي
+1. افتح محرر التعليمات البرمجية الخاص بك وقم بإنشاء مشروع جديد أو افتح مشروعًا موجودًا حيث تريد تنفيذ وظيفة تحويل الشرائح.
 
-للبدء، تحتاج إلى ملف عرض تقديمي لـ PowerPoint للعمل معه. إليك كيفية تحميل العرض التقديمي:
+2. أضف مرجعًا إلى مكتبة Aspose.Slides for .NET في مشروعك. يمكنك عادةً القيام بذلك عن طريق النقر بزر الماوس الأيمن على مشروعك في "مستكشف الحلول"، وتحديد "إضافة"، ثم "مرجع". استعرض للوصول إلى ملف Aspose.Slides DLL الذي قمت بتنزيله مسبقًا وأضفه كمرجع.
+
+3. أنت الآن جاهز لدمج كود المصدر المقدم في مشروعك. تأكد من أن الكود المصدري لديك جاهز للخطوة التالية.
+
+## جارٍ تحميل العرض التقديمي
+يركز القسم الأول من الكود على تحميل عرض PowerPoint التقديمي. هذه الخطوة ضرورية للوصول إلى الشرائح والعمل معها داخل العرض التقديمي.
 
 ```csharp
-using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using var presentation = new Presentation("path_to_your_presentation.pptx");
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "Individual-Slide.pptx"))
+{
+    // رمز تحويل الشرائح موجود هنا
+}
 ```
 
-## الوصول إلى الشرائح الفردية
+ تأكد من استبدال`"Your Document Directory"` باستخدام مسار الدليل الفعلي حيث يوجد ملف العرض التقديمي الخاص بك.
 
-بعد ذلك، دعنا نصل إلى الشرائح الفردية داخل العرض التقديمي:
+## خيارات تحويل HTML
+يناقش هذا الجزء من التعليمات البرمجية خيارات تحويل HTML. ستتعلم كيفية تخصيص هذه الخيارات لتتناسب مع متطلباتك.
 
 ```csharp
-//الوصول إلى شريحة محددة حسب الفهرس (يعتمد على 0)
-var targetSlide = presentation.Slides[slideIndex];
+HtmlOptions htmlOptions = new HtmlOptions();
+htmlOptions.HtmlFormatter = HtmlFormatter.CreateCustomFormatter(new CustomFormattingController());
+INotesCommentsLayoutingOptions notesOptions = htmlOptions.NotesCommentsLayouting;
+notesOptions.NotesPosition = NotesPositions.BottomFull;
 ```
 
-## تحويل الشرائح إلى صيغ مختلفة
+قم بتخصيص هذه الخيارات للتحكم في تنسيق وتخطيط شرائح HTML المحولة.
 
-يسمح لك Aspose.Slides for .NET بتحويل الشرائح إلى تنسيقات مختلفة، مثل الصور أو ملفات PDF. دعونا نرى كيفية تحويل الشريحة إلى صورة:
+## التكرار عبر الشرائح
+في هذا القسم، نشرح كيفية تكرار كل شريحة في العرض التقديمي لضمان معالجة كل شريحة.
 
 ```csharp
-// تحويل الشريحة إلى صورة
-var renderedImage = targetSlide.GetThumbnail(new Size(imageWidth, imageHeight));
+for (int i = 0; i < presentation.Slides.Count; i++)
+{
+    // رمز حفظ الشرائح أثناء ظهور HTML هنا
+}
 ```
 
-## حفظ الشريحة المحولة
+تتكرر هذه الحلقة عبر جميع الشرائح في العرض التقديمي.
 
-بمجرد تحويل الشريحة، يمكنك حفظ الإخراج إلى ملف:
+## الحفظ بتنسيق HTML
+يتعامل الجزء الأخير من الكود مع حفظ كل شريحة كملف HTML فردي.
 
 ```csharp
-// احفظ الصورة المقدمة في ملف
-renderedImage.Save("output_image.png", ImageFormat.Png);
+presentation.Save(dataDir + "Individual Slide" + (i + 1) + "_out.html", new[] { i + 1 }, SaveFormat.Html, htmlOptions);
+```
+
+هنا، يحفظ الكود كل شريحة كملف HTML باسم فريد يعتمد على رقم الشريحة.
+
+## الخطوة 5: التنسيق المخصص (اختياري)
+ إذا كنت ترغب في تطبيق تنسيق مخصص على مخرجات HTML، فيمكنك استخدام`CustomFormattingController` فصل. يتيح لك هذا القسم التحكم في تنسيق الشرائح الفردية.
+```csharp
+public class CustomFormattingController : IHtmlFormattingController
+        {
+            void IHtmlFormattingController.WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
+            {}
+
+            void IHtmlFormattingController.WriteSlideStart(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(string.Format(SlideHeader, generator.SlideIndex + 1));
+            }
+
+            void IHtmlFormattingController.WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
+            {
+                generator.AddHtml(SlideFooter);
+            }
+
+            void IHtmlFormattingController.WriteShapeStart(IHtmlGenerator generator, IShape shape)
+            {}
+
+            void IHtmlFormattingController.WriteShapeEnd(IHtmlGenerator generator, IShape shape)
+            {}
+
+            private const string SlideHeader = "<div class=\"slide\" name=\"slide\" id=\"slide{0}\">";
+            private const string SlideFooter = "</div>";
+        }
 ```
 
 ## معالجة الأخطاء

@@ -40,7 +40,7 @@ Presentation presentation = new Presentation();
 Maintenant que notre présentation est prête, ajoutons une forme d'ellipse à une diapositive.
 
 ```csharp
-// Accédez à la première slide de la présentation
+// Accédez à la première diapositive de la présentation
 ISlide slide = presentation.Slides[0];
 
 // Définir les dimensions et la position de l'ellipse
@@ -61,7 +61,7 @@ Vous pouvez personnaliser l’apparence de la forme elliptique à l’aide de di
 // Définir la couleur de remplissage de l'ellipse
 ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
 
-// Définir la couleur et la largeur du contour
+//Définir la couleur et la largeur du contour
 ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ellipseShape.LineFormat.Width = 2;
 
