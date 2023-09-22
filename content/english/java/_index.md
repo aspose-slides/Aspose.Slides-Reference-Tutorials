@@ -51,3 +51,14 @@ Learn how to create dynamic Java slides with charts using Aspose.Slides for Java
 Learn how to convert Java slides presentations effortlessly with Aspose.Slides for Java. Comprehensive tutorials and step-by-step guides await you.
 ### [Java Slides Data Manipulation](./data-manipulation/)
 Enhance your Java Slides data manipulation skills with Aspose.Slides for Java tutorials. Learn step by step to create, edit, and transform presentations efficiently.
+### [Java Slides Additional Utilities](./java-slides-additional-utilities/)
+
+### [Java Slides Presentation Properties](./java-slides-presentation-properties/)
+
+### [Java Slides Media Controls](./java-slides-media-controls/)
+
+### [Java Slides Image Handling](./java-slides-image-handling/)
+
+### [Java Slides Document Protection](./java-slides-document-protection/)
+
+### [Java Slides Saving Options](./java-slides-saving-options/)
