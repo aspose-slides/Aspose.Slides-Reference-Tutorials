@@ -110,7 +110,7 @@ Absolument! Aspose.Slides pour .NET vous permet de combiner l'effet de zoom avec
 
 ### Puis-je animer le cadre de zoom pendant un diaporama ?
 
- Oui, vous pouvez animer le cadre de zoom pour qu'il se produise pendant un diaporama en utilisant l'option`AddEffect` méthode de la`IShape` interface. De cette façon, le cadre de zoom peut être déclenché à un moment précis de votre présentation.
+Oui, vous pouvez animer le cadre de zoom pour qu'il se produise pendant un diaporama en utilisant l'option`AddEffect` méthode de la`IShape` interface. De cette façon, le cadre de zoom peut être déclenché à un moment précis de votre présentation.
 
 ### Comment supprimer l’effet de zoom d’une diapositive ?
 

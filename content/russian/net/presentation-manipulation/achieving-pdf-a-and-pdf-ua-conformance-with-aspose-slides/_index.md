@@ -40,31 +40,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("presentation.pptx");
 ```
 
-## Соответствие PDF/A
-
-## Проверка соответствия PDF/A
-
-Прежде чем конвертировать презентацию в формат PDF/A, важно убедиться, что она соответствует стандартам PDF/A:
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-// Проверка соответствия PDF/A
-var validationErrors = presentation.ValidatePdfa(PdfaFormat.PDF_A_1B);
-if (validationErrors.Length == 0)
-{
-    Console.WriteLine("Presentation is PDF/A compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/A compliant.");
-    foreach (var error in validationErrors)
-    {
-        Console.WriteLine(error.Description);
-    }
-}
-```
-
 ## Преобразование в формат PDF/A
 
 Чтобы преобразовать презентацию в формат PDF/A, вы можете использовать следующий фрагмент кода:
@@ -78,25 +53,6 @@ var options = new PdfOptions
     Compliance = PdfCompliance.PdfA1b
 };
 presentation.Save("output.pdf", SaveFormat.Pdf, options);
-```
-
-## Проверка соответствия PDF/UA
-
-Чтобы проверить, соответствует ли презентация стандарту PDF/UA:
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-// Проверьте соответствие PDF/UA
-var pdfuaCompliance = presentation.ValidatePdfua();
-if (pdfuaCompliance)
-{
-    Console.WriteLine("Presentation is PDF/UA compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/UA compliant.");
-}
 ```
 
 ## Реализация функций доступности

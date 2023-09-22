@@ -1,6 +1,6 @@
 ---
-title: Miniaturansicht aus Folie in Notizen generieren
-linktitle: Miniaturansicht aus Folie in Notizen generieren
+title: Miniaturansicht aus Folie in Notizen erstellen
+linktitle: Miniaturansicht aus Folie in Notizen erstellen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Generieren Sie Miniaturansichten von Folien, die Notizen enthalten, mit Aspose.Slides für .NET. Erfahren Sie Schritt für Schritt, wie Sie Notizen extrahieren, Miniaturansichten erstellen und Ihre PowerPoint-Bearbeitung verbessern.
 type: docs

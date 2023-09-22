@@ -37,7 +37,7 @@ Presentation presentation = new Presentation();
 
 ## إضافة شكل القطع الناقص
 
-الآن وبعد أن أصبح عرضنا التقديمي جاهزًا، فلنضيف شكلًا بيضاويًا إلى الشريحة.
+الآن بعد أن أصبح عرضنا التقديمي جاهزًا، فلنضيف شكلًا بيضاويًا إلى الشريحة.
 
 ```csharp
 // الوصول إلى الشريحة الأولى من العرض التقديمي
@@ -61,7 +61,7 @@ IAutoShape ellipseShape = slide.Shapes.AddAutoShape(ShapeType.Ellipse, x, y, wid
 // تعيين لون التعبئة للقطع الناقص
 ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
 
-// اضبط لون المخطط التفصيلي وعرضه
+//اضبط لون المخطط التفصيلي وعرضه
 ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ellipseShape.LineFormat.Width = 2;
 

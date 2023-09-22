@@ -40,31 +40,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("presentation.pptx");
 ```
 
-## PDF/A Uyumluluğu
-
-## PDF/A Uyumluluğunu Doğrulama
-
-Bir sunumu PDF/A formatına dönüştürmeden önce, sunumun PDF/A uyumluluk standartlarını karşıladığından emin olmak önemlidir:
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-// PDF/A uyumluluğunu doğrulayın
-var validationErrors = presentation.ValidatePdfa(PdfaFormat.PDF_A_1B);
-if (validationErrors.Length == 0)
-{
-    Console.WriteLine("Presentation is PDF/A compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/A compliant.");
-    foreach (var error in validationErrors)
-    {
-        Console.WriteLine(error.Description);
-    }
-}
-```
-
 ## PDF/A Formatına Dönüştürme
 
 Bir sunuyu PDF/A biçimine dönüştürmek için aşağıdaki kod parçacığını kullanabilirsiniz:
@@ -78,25 +53,6 @@ var options = new PdfOptions
     Compliance = PdfCompliance.PdfA1b
 };
 presentation.Save("output.pdf", SaveFormat.Pdf, options);
-```
-
-## PDF/UA Uyumluluğunu Kontrol Etme
-
-Bir sunumun PDF/UA standardına uygun olup olmadığını kontrol etmek için:
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-// PDF/UA uyumluluğunu kontrol edin
-var pdfuaCompliance = presentation.ValidatePdfua();
-if (pdfuaCompliance)
-{
-    Console.WriteLine("Presentation is PDF/UA compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/UA compliant.");
-}
 ```
 
 ## Erişilebilirlik Özelliklerini Uygulama

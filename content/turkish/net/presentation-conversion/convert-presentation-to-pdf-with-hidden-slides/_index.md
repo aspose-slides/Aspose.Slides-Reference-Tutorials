@@ -34,24 +34,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("sample.pptx");
 ```
 
-## Gizli Slaytları Belirleme ve Dahil Etme
-
-Aspose.Slides, bir sunumdaki gizli slaytları tanımlamanın ve dönüştürme sırasında bunları dahil etmenin bir yolunu sunar. Bu, slaytları yineleyerek ve görünürlük özelliklerini kontrol ederek başarılabilir:
-
-```csharp
-foreach (var slide in presentation.Slides)
-{
-    if (slide.SlideShowTransition.Hidden)
-    {
-        // Gizli slaytı dönüşüm mantığına dahil et
-    }
-    else
-    {
-        // Görünür slaytı dönüşüm mantığına dahil et
-    }
-}
-```
-
 ## Sunumu Gizli Slaytlarla PDF'ye Dönüştürme
 
 Artık gizli slaytları tanımlayabildiğimize göre, gizli slaytların dahil edildiğinden emin olarak sunuyu PDF'ye dönüştürmeye devam edelim:

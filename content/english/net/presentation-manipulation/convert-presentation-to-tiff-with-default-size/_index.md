@@ -45,7 +45,10 @@ After loading the presentation, the next step is to convert it to a TIFF image f
 
 ```csharp
 // Convert to TIFF with default size
-var options = new TiffOptions(TiffCompression.Default);
+var options = new TiffOptions()
+{
+    CompressionType = TiffCompressionTypes.Default;
+};
 presentation.Save("output.tiff", SaveFormat.Tiff, options);
 ```
 
@@ -55,7 +58,7 @@ Finally, save the generated TIFF image to the desired location using the `Save` 
 
 ```csharp
 // Save the TIFF image
-presentation.Save("output.tiff", SaveFormat.Tiff);
+presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ```
 
 ## Conclusion
@@ -70,7 +73,7 @@ You can control the TIFF image quality by modifying the compression options. Set
 
 ### Can I convert specific slides instead of the entire presentation?
 
-Yes, you can selectively convert specific slides to TIFF format by using the `SlideEx` class to access individual slides and then converting and saving them as TIFF images.
+Yes, you can selectively convert specific slides to TIFF format by using the `Slide` class to access individual slides and then converting and saving them as TIFF images.
 
 ### Is Aspose.Slides for .NET compatible with different versions of PowerPoint?
 

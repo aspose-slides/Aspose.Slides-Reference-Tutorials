@@ -120,7 +120,7 @@ using Aspose.Slides;
 // Ladda presentationen
 using Presentation presentation = new Presentation("your-presentation.pptx");
 
-//Justera sidhuvuden och sidfötter
+// Justera sidhuvuden och sidfötter
 foreach (ISlide slide in presentation.Slides)
 {
     slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;

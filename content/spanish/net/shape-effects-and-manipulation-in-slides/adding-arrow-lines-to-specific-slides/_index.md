@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 // Agregar nuevas diapositivas
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-// Agregue más diapositivas según sea necesario
+//Agregue más diapositivas según sea necesario
 ```
 
 ### Agregar líneas en forma de flecha
@@ -81,7 +81,7 @@ Las líneas en forma de flecha dirigen la atención de su audiencia y enfatizan 
 
 ### ¿Puedo personalizar la apariencia de las puntas de flecha?
 
-¡Absolutamente! Aspose.Slides para .NET le permite personalizar estilos, tamaños y colores de puntas de flecha, brindándole control total sobre la estética visual de sus líneas en forma de flecha.
+¡Absolutamente! Aspose.Slides para .NET le permite personalizar estilos, tamaños y colores de puntas de flecha, brindándole un control total sobre la estética visual de sus líneas en forma de flecha.
 
 ### ¿Es necesaria experiencia en codificación para utilizar Aspose.Slides?
 

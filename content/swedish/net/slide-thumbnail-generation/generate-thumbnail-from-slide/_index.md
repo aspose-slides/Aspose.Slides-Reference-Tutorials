@@ -53,7 +53,7 @@ foreach (var slide in presentation.Slides)
 }
 ```
 
-## Anpassa miniatyrbildsutseende
+## Anpassa utseendet på miniatyrbilder
 
 Du kan anpassa utseendet på miniatyrerna efter dina krav. Detta inkluderar justering av storlek, bakgrundsfärg och mer.
 

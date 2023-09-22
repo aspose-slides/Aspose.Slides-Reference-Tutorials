@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 // Fügen Sie neue Folien hinzu
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-// Fügen Sie nach Bedarf weitere Folien hinzu
+//Fügen Sie nach Bedarf weitere Folien hinzu
 ```
 
 ### Hinzufügen pfeilförmiger Linien

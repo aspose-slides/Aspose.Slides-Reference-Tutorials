@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil bietet auch Methoden zum Anordnen und Ausrichten von Formen auf Folien.
 
 ```csharp
-// Formen horizontal anordnen
+//Formen horizontal anordnen
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Richten Sie die Formen in der Mitte aus
@@ -91,7 +91,7 @@ Mit ShapeUtil können Sie Formatierungen auf Formen anwenden, einschließlich F�
 // Füllfarbe anwenden
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
-//Wenden Sie Linienfarbe und -stil an
+// Wenden Sie Linienfarbe und -stil an
 ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
 ```
 
@@ -159,7 +159,7 @@ Install-Package Aspose.Slides
 
 ### Wie kann ich Formatierungen auf Geometrieformen anwenden?
 
- Mit ShapeUtil können Sie Formatierungen auf Geometrieformen anwenden, indem Sie Methoden wie verwenden`ApplyFillColor` Und`ApplyLineColor` um Füllfarben und Linienstile festzulegen.
+Mit ShapeUtil können Sie Formatierungen auf Geometrieformen anwenden, indem Sie Methoden wie verwenden`ApplyFillColor` Und`ApplyLineColor` um Füllfarben und Linienstile festzulegen.
 
 ### Was ist der Zweck der Z-Reihenfolge in Formen?
 

@@ -47,7 +47,7 @@ Nach dem Laden der Präsentation können Sie auf die Timeline und die zugehörig
 // Greifen Sie auf die erste Folie zu
 var slide = presentation.Slides[0];
 
-//Greifen Sie auf die Zeitleiste der Folie zu
+// Greifen Sie auf die Zeitleiste der Folie zu
 var timeline = slide.Timeline;
 ```
 
@@ -61,7 +61,7 @@ foreach (var timeLineShape in timeline.Shapes)
     if (timeLineShape.MediaType == MediaType.Audio)
     {
         var audio = (IAudioFrame)timeLineShape;
-        // Extrahieren Sie hier den Audioverarbeitungscode
+        //Extrahieren Sie hier den Audioverarbeitungscode
     }
 }
 ```

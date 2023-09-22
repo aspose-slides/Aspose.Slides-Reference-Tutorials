@@ -48,7 +48,7 @@ Identifiera nu den specifika serie och datapunkter som du vill rensa. Detta gör
 // Förutsatt att du vill rensa den första serien
 IChartSeries series = chart.ChartData.Series[0];
 
-// Iterera genom datapunkter och identifiera de som ska renas
+//Iterera genom datapunkter och identifiera de som ska renas
 List<int> dataPointsToRemove = new List<int> { 2, 4, 6 }; // Exempel på datapunktsindex
 ```
 

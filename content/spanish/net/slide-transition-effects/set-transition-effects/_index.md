@@ -11,7 +11,7 @@ Agregar atractivos efectos de transición a las diapositivas de su presentación
 
 ## Introducción a los efectos de transición
 
-Los efectos de transición son efectos visuales que se aplican a las diapositivas durante la transición de una diapositiva a otra. Estos efectos añaden un toque profesional a su presentación y ayudan a mantener el interés de la audiencia. Los efectos de transición comunes incluyen desvanecer, disolver, deslizar, voltear y más. Aspose.Slides para .NET proporciona un potente conjunto de herramientas para aplicar fácilmente estos efectos de transición a las diapositivas de su presentación.
+Los efectos de transición son efectos visuales que se aplican a las diapositivas durante la transición de una diapositiva a otra. Estos efectos añaden un toque profesional a su presentación y ayudan a mantener el interés de la audiencia. Los efectos de transición comunes incluyen desvanecer, disolver, deslizar, voltear y más. Aspose.Slides para .NET proporciona un poderoso conjunto de herramientas para aplicar fácilmente estos efectos de transición a las diapositivas de su presentación.
 
 ## Configurar el entorno
 
@@ -88,7 +88,7 @@ La incorporación de efectos de transición en las diapositivas de su presentaci
 
 ### ¿Puedo aplicar diferentes efectos de transición a cada diapositiva?
 
- Sí, puedes aplicar diferentes efectos de transición a cada diapositiva configurando el`SlideShowTransition`propiedades para cada diapositiva individualmente.
+ Sí, puedes aplicar diferentes efectos de transición a cada diapositiva configurando el`SlideShowTransition` propiedades para cada diapositiva individualmente.
 
 ### ¿Es posible agregar efectos de sonido a las transiciones?
 

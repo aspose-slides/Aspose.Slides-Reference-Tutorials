@@ -43,7 +43,7 @@ var destPresentation = new Presentation("destination.pptx");
 Om du vill kopiera en bild från källpresentationen till målpresentationen samtidigt som huvudbilden bevaras använder du följande kod:
 
 ```csharp
-// Kopiera bilden från källa till destination
+//Kopiera bilden från källa till destination
 var sourceSlide = sourcePresentation.Slides[0];
 var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 ```
@@ -76,7 +76,7 @@ namespace SlideCopyApp
             // Ladda destinationspresentation
             var destPresentation = new Presentation("destination.pptx");
 
-            // Kopiera bilden från källa till destination
+            //Kopiera bilden från källa till destination
             var sourceSlide = sourcePresentation.Slides[0];
             var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 
@@ -95,7 +95,7 @@ I den här guiden har vi gått igenom processen steg-för-steg att kopiera en bi
 
 ### Hur kan jag installera Aspose.Slides för .NET-biblioteket?
 
- Du kan ladda ner Aspose.Slides för .NET-biblioteket från[Aspose.Slides för .NET webbplats](https://releases.aspose.com/slides/net/)Följ deras installationsinstruktioner för att integrera den i ditt projekt.
+Du kan ladda ner Aspose.Slides för .NET-biblioteket från[Aspose.Slides för .NET webbplats](https://releases.aspose.com/slides/net/). Följ deras installationsinstruktioner för att integrera den i ditt projekt.
 
 ### Kan jag kopiera flera bilder samtidigt med den här metoden?
 

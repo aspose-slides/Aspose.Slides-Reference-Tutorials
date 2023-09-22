@@ -89,4 +89,4 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 
 ### أين يمكنني العثور على المزيد من الموارد والوثائق؟
 
-للحصول على الوثائق الشاملة والبرامج التعليمية ونماذج التعليمات البرمجية، راجع[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+ للحصول على الوثائق الشاملة والبرامج التعليمية ونماذج التعليمات البرمجية، راجع[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).

@@ -170,7 +170,7 @@ Ja, du kan anpassa trendlinjer genom att justera attribut som linjestil, färg o
 
 ### Är det möjligt att lägga till kommentarer till datapunkter?
 
- Absolut! Du kan kommentera datapunkter genom att ändra markörattribut och lägga till kontextuell information. Läs mer i[dokumentation](https://reference.aspose.com/slides/net/).
+Absolut! Du kan kommentera datapunkter genom att ändra markörattribut och lägga till kontextuell information. Läs mer i[dokumentation](https://reference.aspose.com/slides/net/).
 
 ### Hur kan jag spara mitt diagram i olika format?
 

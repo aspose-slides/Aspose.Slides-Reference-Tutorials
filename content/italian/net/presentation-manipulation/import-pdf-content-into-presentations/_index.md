@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### Passaggio 4: importa contenuto PDF
- Usa il`PdfContentEditor` classe da Aspose.PDF per estrarre il contenuto dal file PDF e convertirlo in un'immagine. Quindi, crea una nuova diapositiva nella presentazione e aggiungivi l'immagine importata. Ecco uno snippet di codice semplificato:
+Con Aspose.Slides, puoi importare senza problemi il contenuto dal documento PDF caricato nella presentazione appena creata. Ecco uno snippet di codice semplificato:
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; // Scegli la pagina da importare
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        // Crea una nuova diapositiva e aggiungici l'immagine
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### Passaggio 5: salva la presentazione
@@ -65,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  È possibile scaricare la libreria Aspose.Slides per .NET dalla pagina delle versioni[Qui](https://releases.aspose.com/slides/net/).
 
 ### Posso importare contenuti da più pagine di un PDF?
- Sì, puoi specificare più numeri di pagina nel file`ProcessPages` array per importare contenuto da diverse pagine di un PDF.
+Sì, puoi specificare più numeri di pagina nel file`ProcessPages` array per importare contenuto da diverse pagine di un PDF.
 
 ### Esistono limitazioni all'importazione di contenuti PDF?
 Sebbene Aspose.Slides fornisca una soluzione potente, la formattazione del contenuto importato può variare in base alla complessità del PDF. Potrebbero essere necessari alcuni aggiustamenti.

@@ -43,7 +43,7 @@ var destPresentation = new Presentation("destination.pptx");
 Per copiare una diapositiva dalla presentazione di origine alla presentazione di destinazione preservando la diapositiva master, utilizza il seguente codice:
 
 ```csharp
-// Copia la diapositiva dall'origine alla destinazione
+//Copia la diapositiva dall'origine alla destinazione
 var sourceSlide = sourcePresentation.Slides[0];
 var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 ```
@@ -76,7 +76,7 @@ namespace SlideCopyApp
             // Carica la presentazione di destinazione
             var destPresentation = new Presentation("destination.pptx");
 
-            // Copia la diapositiva dall'origine alla destinazione
+            //Copia la diapositiva dall'origine alla destinazione
             var sourceSlide = sourcePresentation.Slides[0];
             var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 
@@ -95,7 +95,7 @@ In questa guida, abbiamo trattato il processo passo passo per copiare una diapos
 
 ### Come posso installare la libreria Aspose.Slides per .NET?
 
- È possibile scaricare la libreria Aspose.Slides per .NET da[Aspose.Slides per il sito Web .NET](https://releases.aspose.com/slides/net/)Segui le istruzioni di installazione per integrarlo nel tuo progetto.
+È possibile scaricare la libreria Aspose.Slides per .NET da[Aspose.Slides per il sito Web .NET](https://releases.aspose.com/slides/net/). Segui le istruzioni di installazione per integrarlo nel tuo progetto.
 
 ### Posso copiare più diapositive contemporaneamente utilizzando questo metodo?
 

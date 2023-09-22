@@ -21,7 +21,7 @@ url: /ru/net/image-and-video-manipulation-in-slides/extracting-embedded-file-dat
 Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
 
 - Visual Studio или любая другая среда разработки .NET.
--  Установлена библиотека Aspose.Slides для .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/net/).
+- Установлена библиотека Aspose.Slides для .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/net/).
 
 ## Настройка проекта
 

@@ -47,7 +47,7 @@ Después de cargar la presentación, puedes acceder a la línea de tiempo y sus 
 // Accede a la primera diapositiva
 var slide = presentation.Slides[0];
 
-//Accede a la línea de tiempo de la diapositiva.
+// Accede a la línea de tiempo de la diapositiva.
 var timeline = slide.Timeline;
 ```
 
@@ -61,7 +61,7 @@ foreach (var timeLineShape in timeline.Shapes)
     if (timeLineShape.MediaType == MediaType.Audio)
     {
         var audio = (IAudioFrame)timeLineShape;
-        // Extraiga el código de procesamiento de audio aquí
+        //Extraiga el código de procesamiento de audio aquí
     }
 }
 ```

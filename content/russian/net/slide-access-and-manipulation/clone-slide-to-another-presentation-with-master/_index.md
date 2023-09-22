@@ -43,7 +43,7 @@ var destPresentation = new Presentation("destination.pptx");
 Чтобы скопировать слайд из исходной презентации в целевую презентацию, сохранив при этом мастер-слайд, используйте следующий код:
 
 ```csharp
-// Скопируйте слайд из источника в место назначения
+//Скопируйте слайд из источника в место назначения
 var sourceSlide = sourcePresentation.Slides[0];
 var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 ```
@@ -76,7 +76,7 @@ namespace SlideCopyApp
             // Загрузить презентацию пункта назначения
             var destPresentation = new Presentation("destination.pptx");
 
-            // Скопируйте слайд из источника в место назначения
+            //Скопируйте слайд из источника в место назначения
             var sourceSlide = sourcePresentation.Slides[0];
             var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 
@@ -95,7 +95,7 @@ namespace SlideCopyApp
 
 ### Как установить библиотеку Aspose.Slides для .NET?
 
- Вы можете загрузить библиотеку Aspose.Slides для .NET с сайта[Веб-сайт Aspose.Slides для .NET](https://releases.aspose.com/slides/net/)Следуйте инструкциям по установке, чтобы интегрировать его в свой проект.
+Вы можете загрузить библиотеку Aspose.Slides для .NET с сайта[Веб-сайт Aspose.Slides для .NET](https://releases.aspose.com/slides/net/). Следуйте инструкциям по установке, чтобы интегрировать его в свой проект.
 
 ### Могу ли я скопировать несколько слайдов одновременно, используя этот метод?
 

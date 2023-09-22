@@ -44,7 +44,7 @@ Scopri come migliorare le tue presentazioni aggiungendo fotogrammi video utilizz
 ### [Aggiunta di fotogrammi video dalla sorgente Web nelle diapositive della presentazione con Aspose.Slides](./adding-video-frames-from-web-source/)
 Scopri come migliorare le diapositive della tua presentazione aggiungendo fotogrammi video da fonti Web utilizzando Aspose.Slides per .NET. Crea presentazioni multimediali accattivanti con istruzioni dettagliate ed esempi di codice sorgente.
 ### [Applicazione di animazioni alle forme nelle diapositive della presentazione con Aspose.Slides](./applying-animations-to-shapes/)
-Scopri come applicare animazioni accattivanti alle forme di presentazione utilizzando Aspose.Slides per .NET. Guida passo passo con codice sorgente per la creazione di diapositive dinamiche. Migliora le tue presentazioni adesso!
+Scopri come applicare animazioni accattivanti alle forme di presentazione utilizzando Aspose.Slides per .NET. Guida passo passo con codice sorgente per la creazione di diapositive dinamiche. Migliora le tue presentazioni ora!
 ### [Impostazione degli obiettivi di animazione per le forme delle diapositive della presentazione utilizzando Aspose.Slides](./setting-animation-targets-shapes/)
 Scopri come impostare obiettivi di animazione per le forme delle diapositive della presentazione utilizzando Aspose.Slides. Crea presentazioni accattivanti con animazioni dinamiche.
 ### [Applicazione dell'effetto rotazione 3D sulle forme nelle diapositive della presentazione con Aspose.Slides](./applying-3d-rotation-effect-shapes/)

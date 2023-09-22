@@ -44,14 +44,12 @@ pres.Save(gifStream, SaveFormat.Gif);
 您可以通过调整幻灯片持续时间、大小和质量等参数来自定义 GIF 生成过程。例如，要将幻灯片持续时间设置为 2 秒，并将输出 GIF 大小设置为 800x600 像素，请使用以下代码：
 
 ```csharp
-GifOptions gifOptions = new GifOptions();
-gifOptions.SlideTransitions = true;
-gifOptions.SlideTransitionsTransparency = true;
-gifOptions.Quality = 80;
-gifOptions.SlideSize = new Size(800, 600);
-gifOptions.TimeResolution = 2000; // 2秒
-
-pres.Save(gifStream, SaveFormat.Gif);
+GifOptions gifOptions = new GifOptions(){
+FrameSize = new Size(800, 600), //结果 GIF 的大小
+DefaultDelay = 2000, //每张幻灯片将显示多长时间直至更改为下一张
+TransitionFps = 35 //提高 FPS 以获得更好的过渡动画质量
+}
+pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 ```
 
 ## 保存并导出 GIF
@@ -95,15 +93,14 @@ class Program
     {
         using Presentation pres = new Presentation("presentation.pptx");
 
-        GifOptions gifOptions = new GifOptions();
-        gifOptions.SlideTransitions = true;
-        gifOptions.SlideTransitionsTransparency = true;
-        gifOptions.Quality = 80;
-        gifOptions.SlideSize = new Size(800, 600);
-        gifOptions.TimeResolution = 2000; // 2秒
+        GifOptions gifOptions = new GifOptions(){
+        FrameSize = new Size(800, 600), //结果 GIF 的大小
+        DefaultDelay = 2000, //每张幻灯片将显示多长时间直至更改为下一张
+        TransitionFps = 35 //提高 FPS 以获得更好的过渡动画质量
+        }
 
         using MemoryStream gifStream = new MemoryStream();
-        pres.Save(gifStream, SaveFormat.Gif);
+        pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 
         using FileStream gifFile = new FileStream("output.gif", FileMode.Create);
         gifStream.WriteTo(gifFile);

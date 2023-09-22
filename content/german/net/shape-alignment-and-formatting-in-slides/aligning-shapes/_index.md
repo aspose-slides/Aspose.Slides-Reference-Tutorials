@@ -92,7 +92,7 @@ slide.Shapes.DistributeHorizontally();
 Wenn Ihre Präsentation gruppierte Formen enthält, können Sie die gesamte Gruppe ausrichten:
 
 ```csharp
-//Greifen Sie auf eine gruppierte Form zu
+// Greifen Sie auf eine gruppierte Form zu
 IGroupShape groupShape = (IGroupShape)slide.Shapes[2];
 
 // Richten Sie die Gruppe horizontal aus

@@ -56,7 +56,7 @@ foreach (ISlide slide in presentation.Slides)
 }
 ```
 
-## Anpassa miniatyrbildsutseende
+## Anpassa utseendet på miniatyrbilder
 
  Du kan anpassa miniatyrbilden genom att ändra`thumbnailOptions`. Du kan till exempel ställa in mått, bakgrundsfärg och mer.
 

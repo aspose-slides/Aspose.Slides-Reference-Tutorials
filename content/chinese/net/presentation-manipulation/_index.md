@@ -15,12 +15,8 @@ url: /zh/net/presentation-manipulation/
 ## 演示文稿操作教程
 ### [以编程方式创建新演示文稿](./create-new-presentations-programmatically/)
 了解如何使用 Aspose.Slides for .NET 以编程方式创建演示文稿。带有源代码的分步指南，可实现高效自动化。
-### [演示文稿中的自定义标题和字体](./custom-headers-and-fonts-in-presentations/)
-了解如何使用 Aspose.Slides for .NET 自定义演示文稿中的标题和字体。带有代码示例的分步指南。轻松增强视觉吸引力和品牌形象。
 ### [演示文稿的自定义 PDF 转换选项](./custom-pdf-conversion-options-for-presentations/)
 使用 Aspose.Slides for .NET 增强演示文稿的 PDF 转换选项。本分步指南介绍了如何实现自定义 PDF 转换设置，确保精确控制您的输出。立即优化您的演示文稿转换。
-### [设置演示文稿中 SVG 形状的格式](./formatting-svg-shapes-in-presentations/)
-了解如何使用 Aspose.Slides for .NET 在演示文稿中设置 SVG 形状的格式。带有源代码的分步指南。立即提升您的演示设计！
 ### [在演示文稿中将数学段落导出到 MathML](./export-math-paragraphs-to-mathml-in-presentations/)
 使用 Aspose.Slides for .NET 将数学段落导出到 MathML，从而增强您的演示文稿。请按照我们的分步指南进行准确的数学渲染。立即下载 Aspose.Slides 并开始创建引人注目的演示文稿。
 ### [将媒体文件从演示文稿导出为 HTML](./export-media-files-to-html-from-presentation/)
@@ -33,8 +29,6 @@ url: /zh/net/presentation-manipulation/
 了解如何使用 Aspose.Slides for .NET 将 FODP 演示文稿转换为各种格式。轻松创建、定制和优化。
 ### [在演示文稿中使用自定义形状 ID 生成 SVG](./generate-svg-with-custom-shape-ids-in-presentations/)
 使用 Aspose.Slides for .NET 使用自定义 SVG 形状和 ID 生成引人入胜的演示文稿。了解如何通过源代码示例逐步创建交互式幻灯片。增强演示文稿中的视觉吸引力和用户交互。
-### [链接 HTML 控制器中的所有字体](./link-all-fonts-in-html-controller/)
-了解如何使用 Aspose.Slides for .NET 链接 HTML 控制器中的所有字体。这个包含源代码的分步指南将帮助您确保演示文稿中字体呈现的一致性。 
 ### [在演示文稿中执行邮件合并](./perform-mail-merge-in-presentations/)
 在此综合分步指南中了解如何使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并。轻松创建个性化的动态演示文稿。
 ### [将 ODP 格式转换为 PPTX 格式](./convert-odp-format-to-pptx-format/)
@@ -52,7 +46,7 @@ url: /zh/net/presentation-manipulation/
 ### [将演示文稿转换为 HTML 时渲染注释](./render-notes-while-converting-presentation-to-html/)
 了解如何使用 Aspose.Slides for .NET 将演示文稿转换为 HTML 时有效地呈现演讲者注释。本分步指南提供了源代码示例和见解，可帮助您通过注释保存实现无缝转换。 
 ### [使用 CSS 文件将演示文稿导出为 HTML](./export-presentation-to-html-with-css-files/)
-了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿导出为包含 CSS 文件的 HTML。无缝转换的分步指南。保留风格和布局！ 
+了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿导出为带有 CSS 文件的 HTML。无缝转换的分步指南。保留风格和布局！ 
 ### [演示文稿的 SVG 转换选项](./svg-conversion-options-for-presentations/)
 了解如何使用 Aspose.Slides for .NET 对演示文稿执行 SVG 转换。该综合指南涵盖分步说明、源代码示例和各种 SVG 转换选项。
 ### [设置演示文稿中 SVG 的格式](./formatting-svgs-in-presentations/)

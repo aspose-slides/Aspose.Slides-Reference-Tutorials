@@ -34,24 +34,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("sample.pptx");
 ```
 
-## Identifiera och inkludera dolda bilder
-
-Aspose.Slides ger ett sätt att identifiera dolda bilder i en presentation och inkludera dem under konverteringen. Detta kan uppnås genom att iterera genom bilderna och kontrollera deras synbarhetsegenskaper:
-
-```csharp
-foreach (var slide in presentation.Slides)
-{
-    if (slide.SlideShowTransition.Hidden)
-    {
-        // Inkludera dold bild i konverteringslogiken
-    }
-    else
-    {
-        // Inkludera synlig bild i konverteringslogiken
-    }
-}
-```
-
 ## Konvertera presentation till PDF med dolda bilder
 
 Nu när vi kan identifiera dolda bilder, låt oss fortsätta att konvertera presentationen till PDF samtidigt som vi ser till att dolda bilder ingår:

@@ -26,7 +26,7 @@ Un arrière-plan de couleur unie peut fournir une toile de fond propre et ciblé
    Presentation presentation = new Presentation();
    ```
 
-2. ### Accéder à l'objet diapositive : obtenez la diapositive que vous souhaitez modifier.
+2. ### Accéder à l'objet de la diapositive : obtenez la diapositive que vous souhaitez modifier.
    
    ```csharp
    ISlide slide = presentation.Slides[0];

@@ -14,7 +14,7 @@ Los hipervínculos mutables son hipervínculos dentro de una presentación que s
 
 ## Configurar el entorno de desarrollo
 
- Para comenzar, debe instalar la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/). Una vez descargado, siga las instrucciones de instalación.
+Para comenzar, debe instalar la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/). Una vez descargado, siga las instrucciones de instalación.
 
 ## Crear una nueva presentación
 
@@ -43,7 +43,7 @@ Formatee el contenido según sea necesario utilizando propiedades como el tamañ
 
 ## Comprender los hipervínculos en Aspose.Slides
 
-Aspose.Slides admite diferentes tipos de hipervínculos, incluidos enlaces web, direcciones de correo electrónico y enlaces a otras diapositivas dentro de la presentación. Utilizar el`HyperlinkManager` clase para trabajar con hipervínculos.
+ Aspose.Slides admite diferentes tipos de hipervínculos, incluidos enlaces web, direcciones de correo electrónico y enlaces a otras diapositivas dentro de la presentación. Utilizar el`HyperlinkManager` clase para trabajar con hipervínculos.
 
 ## Agregar hipervínculos mutables
 

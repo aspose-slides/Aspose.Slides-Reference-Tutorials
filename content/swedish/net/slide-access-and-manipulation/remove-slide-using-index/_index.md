@@ -63,7 +63,7 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 
 ## Slutsats
 
-den här guiden har du lärt dig hur du raderar bilder efter deras sekventiella index med Aspose.Slides för .NET. Vi gick igenom stegen från att ställa in ditt projekt till att ladda en presentation, radera bilder och spara den ändrade presentationen. Med Aspose.Slides kan du enkelt automatisera bildmanipuleringsuppgifter, vilket gör det till ett värdefullt verktyg för .NET-utvecklare som arbetar med PowerPoint-presentationer.
+I den här guiden har du lärt dig hur du raderar bilder efter deras sekventiella index med Aspose.Slides för .NET. Vi gick igenom stegen från att ställa in ditt projekt till att ladda en presentation, radera bilder och spara den ändrade presentationen. Med Aspose.Slides kan du enkelt automatisera bildmanipuleringsuppgifter, vilket gör det till ett värdefullt verktyg för .NET-utvecklare som arbetar med PowerPoint-presentationer.
 
 ## FAQ's
 

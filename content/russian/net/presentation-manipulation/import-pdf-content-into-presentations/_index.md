@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### Шаг 4. Импортируйте PDF-контент
- Использовать`PdfContentEditor` класс из Aspose.PDF для извлечения содержимого из PDF-файла и преобразования его в изображение. Затем создайте новый слайд в презентации и добавьте в него импортированное изображение. Вот упрощенный фрагмент кода:
+С помощью Aspose.Slides вы можете легко импортировать контент из загруженного PDF-документа во вновь созданную презентацию. Вот упрощенный фрагмент кода:
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; // Выберите страницу для импорта
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        // Создайте новый слайд и добавьте к нему изображение.
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### Шаг 5. Сохраните презентацию
@@ -65,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  Вы можете скачать библиотеку Aspose.Slides для .NET со страницы релизов.[здесь](https://releases.aspose.com/slides/net/).
 
 ### Могу ли я импортировать контент с нескольких страниц PDF-файла?
- Да, вы можете указать несколько номеров страниц в`ProcessPages` массив для импорта содержимого с разных страниц PDF-файла.
+Да, вы можете указать несколько номеров страниц в`ProcessPages` массив для импорта содержимого с разных страниц PDF-файла.
 
 ### Существуют ли какие-либо ограничения на импорт содержимого PDF?
 Хотя Aspose.Slides представляет собой мощное решение, форматирование импортированного контента может различаться в зависимости от сложности PDF-файла. Возможно, потребуются некоторые корректировки.

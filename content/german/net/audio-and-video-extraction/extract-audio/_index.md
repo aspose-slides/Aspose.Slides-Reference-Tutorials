@@ -16,7 +16,7 @@ In der heutigen schnelllebigen Welt der Präsentationen und Multimedia-Inhalte i
 
 Um mit dem Extrahieren von Audio aus Folien mit Aspose.Slides für .NET zu beginnen, müssen Sie die folgenden Schritte ausführen:
 
-1. Aspose.Slides installieren: Sie können die Aspose.Slides für .NET-Bibliothek von der Website herunterladen und installieren:[Hier](https://products.aspose.com/slides/net).
+1.  Aspose.Slides installieren: Sie können die Aspose.Slides für .NET-Bibliothek von der Website herunterladen und installieren:[Hier](https://products.aspose.com/slides/net).
 
 2. Referenz hinzufügen: Nachdem Sie die Bibliothek heruntergeladen und installiert haben, fügen Sie eine Referenz zu Ihrem Projekt hinzu. Dadurch können Sie in Ihrer .NET-Anwendung auf die Aspose.Slides-API zugreifen.
 
@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 
 ## Identifizieren von Audioelementen
 
-Moderne Präsentationen enthalten häufig Audioelemente wie Hintergrundmusik, Erzählung oder Soundeffekte. Aspose.Slides bietet Tools zum Identifizieren dieser Audioelemente in Ihren Folien.
+Moderne Präsentationen enthalten häufig Audioelemente wie Hintergrundmusik, Kommentare oder Soundeffekte. Aspose.Slides bietet Tools zum Identifizieren dieser Audioelemente in Ihren Folien.
 
 ## Extrahieren von Audio mit Aspose.Slides
 
@@ -48,7 +48,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Ihr Code zur Verarbeitung der Audiobytes
+        // Ihr Code zur Verarbeitung der Audiobytes
     }
 }
 ```
@@ -88,7 +88,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Ihr Code zur Verarbeitung der Audiobytes
+        // Ihr Code zur Verarbeitung der Audiobytes
     }
 }
 ```

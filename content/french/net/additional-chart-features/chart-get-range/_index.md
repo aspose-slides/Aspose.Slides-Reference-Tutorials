@@ -15,7 +15,7 @@ Les graphiques constituent un moyen puissant de représenter visuellement des do
 Avant de nous lancer dans la mise en œuvre, assurez-vous de disposer des conditions préalables suivantes :
 
 - Connaissance de base de la programmation C#.
--  Aspose.Slides pour la bibliothèque .NET installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net).
+- Aspose.Slides pour la bibliothèque .NET installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net).
 
 ## Mise en place du projet
 Pour commencer, créez un nouveau projet C# dans votre environnement de développement préféré. Ensuite, installez la bibliothèque Aspose.Slides à l'aide du gestionnaire de packages NuGet. Cela peut être réalisé en exécutant la commande suivante dans la console NuGet Package Manager :
@@ -61,7 +61,7 @@ Stockez les données extraites en mémoire et effectuez les opérations requises
 
 ```csharp
 // Convertir dataRange en format utilisable (par exemple, plage de cellules Excel)
-// Extraire et manipuler les données selon les besoins
+//Extraire et manipuler les données selon les besoins
 ```
 
 ## Affichage ou traitement des données
@@ -76,7 +76,7 @@ Utilisez les données extraites pour l’analyse ou la visualisation :
 Enregistrez la présentation modifiée et exportez les données pour un usage externe :
 
 ```csharp
-//Enregistrez la présentation avec les modifications
+// Enregistrez la présentation avec les modifications
 presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

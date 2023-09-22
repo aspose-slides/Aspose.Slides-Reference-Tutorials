@@ -24,7 +24,7 @@ url: /ru/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape
    Install-Package Aspose.Slides
    ```
 
-2. Импорт пространства имен: импортируйте пространство имен Aspose.Slides в файл кода.
+2. Импорт пространства имен. Импортируйте пространство имен Aspose.Slides в файл кода.
 
    ```csharp
    using Aspose.Slides;

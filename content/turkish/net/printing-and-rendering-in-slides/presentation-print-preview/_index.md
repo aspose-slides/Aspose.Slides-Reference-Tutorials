@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Yazdırma Çıktısının Önizlenmesi
 
- Sunumun çıktı çıktısını önizlemek için şunları kullanabilirsiniz:`Print` tarafından sağlanan yöntem`PrintManager` sınıf. Bu yöntem sunumun baskı önizleme görüntüsünü oluşturmanıza olanak tanır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+ Sunumun çıktı çıktısını önizlemek için şunları kullanabilirsiniz:`Print`tarafından sağlanan yöntem`PrintManager` sınıf. Bu yöntem sunumun baskı önizleme görüntüsünü oluşturmanıza olanak tanır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
 using Aspose.Slides.Export;
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Baskı önizleme görüntüsünü oluşturun
     using (Bitmap previewImage = printManager.Print())
     {
-        //Önizleme resmini görüntülemek veya kaydetmek için kodunuz
+        // Önizleme resmini görüntülemek veya kaydetmek için kodunuz
     }
 }
 ```
@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Özelleştirilmiş ayarlarla baskı önizleme görüntüsünü oluşturun
     using (Bitmap previewImage = printManager.Print())
     {
-        //Önizleme resmini görüntülemek veya kaydetmek için kodunuz
+        // Önizleme resmini görüntülemek veya kaydetmek için kodunuz
     }
 }
 ```
@@ -106,7 +106,7 @@ using (Bitmap previewImage = /* Obtain the preview image */)
 }
 ```
 
- Yer değiştirmek`"print-preview.png"`İstenilen dosya yolu ve adı ile.
+ Yer değiştirmek`"print-preview.png"` İstenilen dosya yolu ve adı ile.
 
 ## Çözüm
 
@@ -116,11 +116,11 @@ Bu kılavuzda, sunumların çıktı çıktısının önizlemesini yapmak için A
 
 ### Yazdırma ayarlarını nasıl daha da özelleştirebilirim?
 
- Mevcut çeşitli özellikleri keşfedebilirsiniz.`PrintManager.Settings` Özel gereksinimlerinize göre yazdırma ayarlarında ince ayar yapılmasına itiraz edin. İstediğiniz yazdırma çıktısını elde etmek için slayt geçişleri, ölçekleme ve sayfa yönü gibi parametreleri ayarlayın.
+ Mevcut çeşitli özellikleri keşfedebilirsiniz.`PrintManager.Settings`Özel gereksinimlerinize göre yazdırma ayarlarında ince ayar yapılmasına itiraz edin. İstediğiniz yazdırma çıktısını elde etmek için slayt geçişleri, ölçekleme ve sayfa yönü gibi parametreleri ayarlayın.
 
 ### Sununun tamamı yerine belirli slaytların önizlemesini görebilir miyim?
 
- Evet, kullanabilirsiniz`PrintManager.Print`Önizlemek istediğiniz slayt aralığını belirtmek için ek parametreler içeren yöntem. Bu, baskı önizleme işlemi sırasında sunumun belirli bölümlerine odaklanmanıza olanak tanır.
+ Evet, kullanabilirsiniz`PrintManager.Print` Önizlemek istediğiniz slayt aralığını belirtmek için ek parametreler içeren yöntem. Bu, baskı önizleme işlemi sırasında sunumun belirli bölümlerine odaklanmanıza olanak tanır.
 
 ### Baskı önizleme işlevini bir Windows Forms uygulamasına entegre etmek mümkün mü?
 

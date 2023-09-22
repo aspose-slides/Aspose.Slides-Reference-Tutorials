@@ -35,7 +35,7 @@ using Aspose.Slides;
 Presentation presentation = new Presentation();
 ```
 
-4. Agregar formas: A continuación, agreguemos formas a su presentación. Por ejemplo, agregando un rectángulo:
+4. Agregar formas: a continuación, agreguemos formas a su presentación. Por ejemplo, agregando un rectángulo:
 
 ```csharp
 ISlide slide = presentation.Slides[0];
@@ -99,4 +99,4 @@ Se pueden agregar sitios de conexión a muchos tipos de formas, como rectángulo
 
 ## Conclusión
 
-Dominar el arte de conectar formas utilizando sitios de conexión en diapositivas de presentación con Aspose.Slides abre un mundo de posibilidades creativas para sus presentaciones. Con la guía paso a paso y los ejemplos de código proporcionados en este artículo, estará bien equipado para mejorar sus habilidades de presentación y cautivar a su audiencia. Aprovecha el poder de Aspose.Slides y eleva tus presentaciones al siguiente nivel.
+Dominar el arte de conectar formas utilizando sitios de conexión en diapositivas de presentación con Aspose.Slides abre un mundo de posibilidades creativas para sus presentaciones. Con la guía paso a paso y los ejemplos de código que se proporcionan en este artículo, estará bien equipado para mejorar sus habilidades de presentación y cautivar a su audiencia. Aprovecha el poder de Aspose.Slides y eleva tus presentaciones al siguiente nivel.

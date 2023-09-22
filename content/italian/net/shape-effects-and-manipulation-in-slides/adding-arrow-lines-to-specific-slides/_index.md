@@ -28,12 +28,12 @@ Nel mondo frenetico di oggi, fornire informazioni in modo visivamente accattivan
 Presentation presentation = new Presentation();
 ```
 
-2. Aggiungi diapositive alla presentazione secondo necessità.
+2. Aggiungi diapositive alla tua presentazione secondo necessità.
 ```csharp
 // Aggiungi nuove diapositive
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-// Aggiungi più diapositive secondo necessità
+//Aggiungi più diapositive secondo necessità
 ```
 
 ### Aggiunta di linee a forma di freccia

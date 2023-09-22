@@ -52,8 +52,7 @@ class Program
         {
             // Inizializza le opzioni TIFF con impostazioni personalizzate
             TiffOptions tiffOptions = new TiffOptions();
-            tiffOptions.CompressionType = TiffCompressionTypes.Lzw;
-            tiffOptions.PixelFormat = ImagePixelFormat.Format16BppRgb555;
+            tiffOptions.PixelFormat = ImagePixelFormat.Format8bppIndexed;
 
             // Salva la presentazione come TIFF utilizzando le opzioni personalizzate
             presentation.Save("output.tiff", SaveFormat.Tiff, tiffOptions);

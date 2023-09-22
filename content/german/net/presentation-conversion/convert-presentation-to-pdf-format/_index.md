@@ -73,7 +73,6 @@ Mit Aspose.Slides können Sie auch Folienübergänge während der PDF-Konvertier
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.ShowHiddenSlides = true;
-pdfOptions.SlidesTransitions = SlideTransitions.None;
 
 // Konvertieren Sie die Präsentation mit Übergangseinstellungen in PDF
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);

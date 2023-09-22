@@ -99,7 +99,7 @@ Aspose.Slides for .NET'i kullanarak grafiklerinize animasyonlar eklemek, sunumla
 
 Evet, Aspose.Slides for .NET, çeşitli grafik öğelerine farklı animasyon efektleri uygulamanıza olanak tanıyarak görsel deneyim üzerinde tam kontrol sahibi olmanızı sağlar.
 
-### Aspose.Slides for .NET'i kullanmak için kodlama deneyimi gerekli midir?
+### Aspose.Slides for .NET'i kullanmak için kodlama deneyimi gerekli mi?
 
 Kodlama deneyimi faydalı olsa da Aspose.Slides for .NET, sunumlar ve animasyonlarla çalışma sürecini kolaylaştıran kullanıcı dostu bir API sağlar.
 

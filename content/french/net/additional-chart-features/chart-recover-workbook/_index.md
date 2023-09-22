@@ -2,7 +2,7 @@
 title: Récupérer un classeur à partir d'un graphique
 linktitle: Récupérer un classeur à partir d'un graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment récupérer un classeur à partir d'un graphique à l'aide d'Aspose.Slides pour .NET. Extrayez les données du graphique et créez des classeurs Excel par programme.
+description: Découvrez comment récupérer un classeur à partir d'un graphique à l'aide d'Aspose.Slides pour .NET. Extrayez les données du graphique et créez des classeurs Excel par programmation.
 type: docs
 weight: 12
 url: /fr/net/additional-chart-features/chart-recover-workbook/
@@ -114,7 +114,7 @@ Oui, Aspose.Slides pour .NET prend en charge différents types de graphiques, no
 
 ### Aspose.Slides pour .NET est-il adapté à un usage professionnel ?
 
-Absolument! Aspose.Slides pour .NET est une bibliothèque robuste utilisée par les développeurs pour travailler efficacement avec des présentations PowerPoint.
+Absolument! Aspose.Slides for .NET est une bibliothèque robuste utilisée par les développeurs pour travailler efficacement avec des présentations PowerPoint.
 
 ### Existe-t-il des conditions de licence pour utiliser Aspose.Slides pour .NET ?
 

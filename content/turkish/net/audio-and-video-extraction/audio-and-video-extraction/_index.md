@@ -60,7 +60,7 @@ foreach (var slide in presentation.Slides)
     {
         if (shape is IVideoFrame videoFrame)
         {
-            //Video çerçevesinden video çıkarın
+            // Video çerçevesinden video çıkarın
             byte[] videoData = videoFrame.EmbeddedVideo.BinaryData;
             // Video verilerini gerektiği gibi işleyin
         }
@@ -93,7 +93,7 @@ Bu kılavuzda Aspose.Slides for .NET kullanarak slaytlardan ses ve video içeri�
 
 ### Aspose.Slides for .NET'i nasıl yüklerim?
 
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net)ve belgelerde verilen kurulum talimatlarını izleyin.
+ Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net) ve belgelerde verilen kurulum talimatlarını izleyin.
 
 ### Tek bir slayttan birden fazla medya dosyasını çıkarabilir miyim?
 

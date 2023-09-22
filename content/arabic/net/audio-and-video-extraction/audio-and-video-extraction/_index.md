@@ -60,7 +60,7 @@ foreach (var slide in presentation.Slides)
     {
         if (shape is IVideoFrame videoFrame)
         {
-            //استخراج الفيديو من إطار الفيديو
+            // استخراج الفيديو من إطار الفيديو
             byte[] videoData = videoFrame.EmbeddedVideo.BinaryData;
             // معالجة بيانات الفيديو حسب الحاجة
         }
@@ -93,7 +93,7 @@ File.WriteAllBytes("extracted-video.mp4", videoData);
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
 
- يمكنك تنزيل مكتبة Aspose.Slides for .NET من[هنا](https://releases.aspose.com/slides/net)واتبع تعليمات التثبيت المتوفرة في الوثائق.
+ يمكنك تنزيل مكتبة Aspose.Slides for .NET من[هنا](https://releases.aspose.com/slides/net) واتبع تعليمات التثبيت المتوفرة في الوثائق.
 
 ### هل يمكنني استخراج ملفات وسائط متعددة من شريحة واحدة؟
 

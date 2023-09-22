@@ -2,7 +2,7 @@
 title: 使用 Aspose.Slides 格式化演示幻灯片中的线条
 linktitle: 使用 Aspose.Slides 格式化演示幻灯片中的线条
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 探索如何使用 Aspose.Slides for .NET 通过精确的形状几何和定位来增强演示文稿。通过代码示例逐步学习。
+description: 探索如何使用 Aspose.Slides for .NET 通过精确的形状几何和定位来增强您的演示文稿。通过代码示例逐步学习。
 type: docs
 weight: 10
 url: /zh/net/shape-geometry-and-positioning-in-slides/formatting-lines/

@@ -170,7 +170,7 @@ Sí, puede personalizar las líneas de tendencia ajustando atributos como el est
 
 ### ¿Es posible agregar anotaciones a puntos de datos?
 
- ¡Absolutamente! Puede anotar puntos de datos modificando los atributos del marcador y agregando información contextual. Obtenga más información en el[documentación](https://reference.aspose.com/slides/net/).
+¡Absolutamente! Puede anotar puntos de datos modificando los atributos del marcador y agregando información contextual. Obtenga más información en el[documentación](https://reference.aspose.com/slides/net/).
 
 ### ¿Cómo puedo guardar mi gráfico en diferentes formatos?
 

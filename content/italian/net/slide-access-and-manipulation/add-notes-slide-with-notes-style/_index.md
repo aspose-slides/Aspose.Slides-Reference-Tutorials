@@ -80,7 +80,7 @@ portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.DarkBlue;
 
 ## Conclusione:
 
-In questo tutorial, abbiamo imparato come utilizzare Aspose.Slides per .NET per aggiungere una diapositiva di note con formattazione elegante a una presentazione di PowerPoint. Abbiamo trattato la creazione di una presentazione, l'aggiunta di una diapositiva delle note e l'applicazione della formattazione al contenuto delle note. Aspose.Slides per .NET fornisce agli sviluppatori un potente toolkit per migliorare le loro presentazioni PowerPoint a livello di codice.
+In questo tutorial, abbiamo imparato come utilizzare Aspose.Slides per .NET per aggiungere una diapositiva di note con formattazione elegante a una presentazione di PowerPoint. Abbiamo trattato la creazione di una presentazione, l'aggiunta di una diapositiva delle note e l'applicazione della formattazione al contenuto delle note. Aspose.Slides per .NET fornisce agli sviluppatori un potente toolkit per migliorare le loro presentazioni PowerPoint a livello di programmazione.
 
 ## Domande frequenti
 

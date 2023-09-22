@@ -45,7 +45,10 @@ Dopo aver caricato la presentazione, il passaggio successivo è convertirla in u
 
 ```csharp
 // Converti in TIFF con dimensione predefinita
-var options = new TiffOptions(TiffCompression.Default);
+var options = new TiffOptions()
+{
+    CompressionType = TiffCompressionTypes.Default;
+};
 presentation.Save("output.tiff", SaveFormat.Tiff, options);
 ```
 
@@ -55,7 +58,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff, options);
 
 ```csharp
 // Salva l'immagine TIFF
-presentation.Save("output.tiff", SaveFormat.Tiff);
+presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ```
 
 ## Conclusione
@@ -70,7 +73,7 @@ In questo tutorial, abbiamo esaminato il processo di conversione di una presenta
 
 ### Posso convertire diapositive specifiche invece dell'intera presentazione?
 
- Sì, puoi convertire selettivamente diapositive specifiche in formato TIFF utilizzando il file`SlideEx` class per accedere alle singole diapositive e quindi convertirle e salvarle come immagini TIFF.
+ Sì, puoi convertire selettivamente diapositive specifiche in formato TIFF utilizzando il file`Slide` class per accedere alle singole diapositive e quindi convertirle e salvarle come immagini TIFF.
 
 ### Aspose.Slides per .NET è compatibile con diverse versioni di PowerPoint?
 

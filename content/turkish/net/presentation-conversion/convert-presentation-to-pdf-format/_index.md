@@ -73,7 +73,6 @@ Aspose.Slides ayrıca PDF dönüştürme sırasında slayt geçişlerini kontrol
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.ShowHiddenSlides = true;
-pdfOptions.SlidesTransitions = SlideTransitions.None;
 
 // Geçiş ayarlarıyla sunuyu PDF'ye dönüştürün
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);

@@ -43,7 +43,7 @@ var destPresentation = new Presentation("destination.pptx");
 Ana slaydı korurken bir slaydı kaynak sunudan hedef sunuya kopyalamak için aşağıdaki kodu kullanın:
 
 ```csharp
-// Slaydı kaynaktan hedefe kopyalayın
+//Slaydı kaynaktan hedefe kopyalayın
 var sourceSlide = sourcePresentation.Slides[0];
 var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 ```
@@ -76,7 +76,7 @@ namespace SlideCopyApp
             // Hedef sunumunu yükle
             var destPresentation = new Presentation("destination.pptx");
 
-            // Slaydı kaynaktan hedefe kopyalayın
+            //Slaydı kaynaktan hedefe kopyalayın
             var sourceSlide = sourcePresentation.Slides[0];
             var copiedSlide = destPresentation.Slides.AddClone(sourceSlide);
 
@@ -95,7 +95,7 @@ Bu kılavuzda, Aspose.Slides for .NET'i kullanarak ana slaydı korurken bir slay
 
 ### Aspose.Slides for .NET kütüphanesini nasıl kurabilirim?
 
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Aspose.Slides for .NET web sitesi](https://releases.aspose.com/slides/net/)Projenize entegre etmek için kurulum talimatlarını izleyin.
+Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Aspose.Slides for .NET web sitesi](https://releases.aspose.com/slides/net/). Projenize entegre etmek için kurulum talimatlarını izleyin.
 
 ### Bu yöntemi kullanarak birden fazla slaytı aynı anda kopyalayabilir miyim?
 

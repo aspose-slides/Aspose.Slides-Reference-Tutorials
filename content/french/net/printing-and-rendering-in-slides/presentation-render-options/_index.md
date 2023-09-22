@@ -91,7 +91,7 @@ Dans ce guide, nous avons exploré comment utiliser Aspose.Slides pour .NET pour
 
 ### Comment installer Aspose.Slides pour .NET ?
 
-Pour installer Aspose.Slides pour .NET, téléchargez la bibliothèque depuis[ici](https://releases.aspose.com/slides/net/) et suivez les instructions d'installation.
+ Pour installer Aspose.Slides pour .NET, téléchargez la bibliothèque depuis[ici](https://releases.aspose.com/slides/net/) et suivez les instructions d'installation.
 
 ### Puis-je personnaliser la qualité de rendu des diapositives ?
 
@@ -107,4 +107,4 @@ Certes, Aspose.Slides offre un contrôle précis sur le rendu. Vous pouvez chois
 
 ### Quelles autres fonctionnalités Aspose.Slides pour .NET offre-t-il ?
 
-Outre le rendu, Aspose.Slides pour .NET offre un large éventail de fonctionnalités pour créer, éditer et convertir des présentations PowerPoint. Vous pouvez explorer ces fonctionnalités dans le[Documentation](https://reference.aspose.com/slides/net/).
+ Outre le rendu, Aspose.Slides pour .NET offre un large éventail de fonctionnalités pour créer, éditer et convertir des présentations PowerPoint. Vous pouvez explorer ces fonctionnalités dans le[Documentation](https://reference.aspose.com/slides/net/).

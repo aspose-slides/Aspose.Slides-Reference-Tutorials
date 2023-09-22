@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 يوفر ShapeUtil أيضًا طرقًا لترتيب الأشكال ومحاذاتها على الشرائح.
 
 ```csharp
-// ترتيب الأشكال أفقيا
+//ترتيب الأشكال أفقيا
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // محاذاة الأشكال إلى المركز
@@ -91,7 +91,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 // تطبيق لون التعبئة
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
-//تطبيق لون الخط والأسلوب
+// تطبيق لون الخط والأسلوب
 ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
 ```
 
@@ -159,7 +159,7 @@ Install-Package Aspose.Slides
 
 ### كيف يمكنني تطبيق التنسيق على الأشكال الهندسية؟
 
- باستخدام ShapeUtil، يمكنك تطبيق التنسيق على الأشكال الهندسية باستخدام طرق مثل`ApplyFillColor` و`ApplyLineColor` لتعيين ألوان التعبئة وأنماط الخطوط.
+باستخدام ShapeUtil، يمكنك تطبيق التنسيق على الأشكال الهندسية باستخدام طرق مثل`ApplyFillColor` و`ApplyLineColor` لتعيين ألوان التعبئة وأنماط الخطوط.
 
 ### ما هو الغرض من الترتيب Z في الأشكال؟
 

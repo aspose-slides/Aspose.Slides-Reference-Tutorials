@@ -61,7 +61,7 @@ Du kan anpassa utseendet på ellipsformen med olika egenskaper.
 // Ställ in fyllningsfärgen för ellipsen
 ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
 
-// Ställ in konturfärg och bredd
+//Ställ in konturfärg och bredd
 ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ellipseShape.LineFormat.Width = 2;
 

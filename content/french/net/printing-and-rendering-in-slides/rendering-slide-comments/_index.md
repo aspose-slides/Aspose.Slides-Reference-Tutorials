@@ -108,7 +108,7 @@ foreach (var slide in presentation.Slides)
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
         textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
         
-        // Ajuster la position de la zone de texte
+        //Ajuster la position de la zone de texte
         textBox.Top = slide.SlideSize.Size.Height - margin;
         margin += 30; // Augmenter la marge pour le prochain commentaire
     }

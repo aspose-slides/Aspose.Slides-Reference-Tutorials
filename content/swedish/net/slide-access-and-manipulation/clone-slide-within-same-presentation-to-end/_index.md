@@ -40,7 +40,7 @@ class Program
 För att duplicera en bild måste vi först välja den bild vi vill duplicera. Sedan klonar vi den för att skapa en identisk kopia. Så här kan du göra det:
 
 ```csharp
-// Välj bilden som ska dupliceras (index börjar från 0)
+//Välj bilden som ska dupliceras (index börjar från 0)
 ISlide sourceSlide = presentation.Slides[0];
 
 // Klona den valda bilden
@@ -73,13 +73,13 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-den här guiden har vi utforskat hur man duplicerar en bild och lägger till den i slutet av en befintlig PowerPoint-presentation med Aspose.Slides för .NET. Detta kraftfulla bibliotek förenklar processen att arbeta med presentationer programmatiskt, och erbjuder ett brett utbud av funktioner för olika uppgifter.
+I den här guiden har vi utforskat hur man duplicerar en bild och lägger till den i slutet av en befintlig PowerPoint-presentation med Aspose.Slides för .NET. Detta kraftfulla bibliotek förenklar processen att arbeta med presentationer programmatiskt, och erbjuder ett brett utbud av funktioner för olika uppgifter.
 
 ## FAQ's
 
 ### Hur får jag Aspose.Slides för .NET?
 
- Du kan skaffa Aspose.Slides för .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/slides/net/). Se till att följa installationsinstruktionerna på webbplatsen.
+Du kan skaffa Aspose.Slides för .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/slides/net/). Se till att följa installationsinstruktionerna på webbplatsen.
 
 ### Kan jag duplicera flera bilder samtidigt?
 

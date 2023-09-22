@@ -88,7 +88,7 @@ Die Integration von Übergangseffekten in Ihre Präsentationsfolien kann die Art
 
 ### Kann ich auf jede Folie unterschiedliche Übergangseffekte anwenden?
 
- Ja, Sie können auf jede Folie unterschiedliche Übergangseffekte anwenden, indem Sie festlegen`SlideShowTransition`Eigenschaften für jede Folie einzeln festlegen.
+ Ja, Sie können auf jede Folie unterschiedliche Übergangseffekte anwenden, indem Sie festlegen`SlideShowTransition` Eigenschaften für jede Folie einzeln festlegen.
 
 ### Ist es möglich, Übergängen Soundeffekte hinzuzufügen?
 

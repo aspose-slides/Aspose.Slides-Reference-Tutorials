@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil tillhandahåller också metoder för att arrangera och justera former på bilder.
 
 ```csharp
-// Ordna former horisontellt
+//Ordna former horisontellt
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Rikta in former till mitten
@@ -91,7 +91,7 @@ ShapeUtil låter dig tillämpa formatering på former, inklusive fyllnings- och 
 // Applicera fyllningsfärg
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
-//Applicera linjefärg och stil
+// Applicera linjefärg och stil
 ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
 ```
 
@@ -137,7 +137,7 @@ presentation.Save("Presentation.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen utforskade vi funktionerna hos Aspose.Slides och ShapeUtil för att arbeta med geometriska former i presentationsbilder med .NET. Vi täckte processen att skapa en ny presentation, lägga till geometriska former, ändra deras egenskaper, tillämpa formatering, lägga till text, hantera hyperlänkar och mer. Genom att utnyttja funktionerna i Aspose.Slides och ShapeUtil kan du förbättra det visuella tilltalande och effektiviteten hos dina presentationer.
+den här handledningen utforskade vi funktionerna hos Aspose.Slides och ShapeUtil för att arbeta med geometriska former i presentationsbilder med .NET. Vi täckte processen att skapa en ny presentation, lägga till geometriska former, ändra deras egenskaper, tillämpa formatering, lägga till text, hantera hyperlänkar och mer. Genom att utnyttja funktionerna i Aspose.Slides och ShapeUtil kan du förbättra det visuella tilltalande och effektiviteten hos dina presentationer.
 
 ## Vanliga frågor
 
@@ -159,7 +159,7 @@ Install-Package Aspose.Slides
 
 ### Hur kan jag använda formatering på geometriska former?
 
- Med ShapeUtil kan du tillämpa formatering på geometriska former med metoder som`ApplyFillColor` och`ApplyLineColor` för att ställa in fyllningsfärger och linjestilar.
+Med ShapeUtil kan du tillämpa formatering på geometriska former med metoder som`ApplyFillColor` och`ApplyLineColor` för att ställa in fyllningsfärger och linjestilar.
 
 ### Vad är syftet med Z-ordningen i former?
 

@@ -40,31 +40,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("presentation.pptx");
 ```
 
-## PDF/A 一致性
-
-## 验证 PDF/A 合规性
-
-在将演示文稿转换为 PDF/A 格式之前，必须确保其符合 PDF/A 合规性标准：
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-//验证 PDF/A 合规性
-var validationErrors = presentation.ValidatePdfa(PdfaFormat.PDF_A_1B);
-if (validationErrors.Length == 0)
-{
-    Console.WriteLine("Presentation is PDF/A compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/A compliant.");
-    foreach (var error in validationErrors)
-    {
-        Console.WriteLine(error.Description);
-    }
-}
-```
-
 ## 转换为 PDF/A 格式
 
 要将演示文稿转换为 PDF/A 格式，您可以使用以下代码片段：
@@ -78,25 +53,6 @@ var options = new PdfOptions
     Compliance = PdfCompliance.PdfA1b
 };
 presentation.Save("output.pdf", SaveFormat.Pdf, options);
-```
-
-## 检查 PDF/UA 合规性
-
-要检查演示文稿是否符合 PDF/UA 标准：
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-//检查 PDF/UA 合规性
-var pdfuaCompliance = presentation.ValidatePdfua();
-if (pdfuaCompliance)
-{
-    Console.WriteLine("Presentation is PDF/UA compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/UA compliant.");
-}
 ```
 
 ## 实施辅助功能

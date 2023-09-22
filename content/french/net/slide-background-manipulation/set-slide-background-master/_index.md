@@ -56,7 +56,7 @@ Maintenant, définissons la couleur ou l'image d'arrière-plan du masque des dia
 
 #### Définir la couleur d'arrière-plan :
 ```csharp
-// Définir la couleur d’arrière-plan
+// Définir la couleur d'arrière-plan
 slideMaster.Background.Type = BackgroundType.OwnBackground;
 slideMaster.Background.FillFormat.SolidFillColor.Color = Color.LightBlue;
 ```

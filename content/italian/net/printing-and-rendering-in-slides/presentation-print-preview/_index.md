@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Anteprima dell'output di stampa
 
- Per visualizzare in anteprima l'output di stampa della presentazione, è possibile utilizzare il file`Print` metodo previsto dal`PrintManager` classe. Questo metodo consente di generare un'immagine di anteprima di stampa della presentazione. Ecco come puoi farlo:
+ Per visualizzare in anteprima l'output di stampa della presentazione, è possibile utilizzare il file`Print`metodo previsto dal`PrintManager` classe. Questo metodo consente di generare un'immagine di anteprima di stampa della presentazione. Ecco come puoi farlo:
 
 ```csharp
 using Aspose.Slides.Export;
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Genera l'immagine di anteprima di stampa
     using (Bitmap previewImage = printManager.Print())
     {
-        //Il tuo codice per visualizzare o salvare l'immagine di anteprima
+        // Il tuo codice per visualizzare o salvare l'immagine di anteprima
     }
 }
 ```
@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Genera l'immagine di anteprima di stampa con impostazioni personalizzate
     using (Bitmap previewImage = printManager.Print())
     {
-        //Il tuo codice per visualizzare o salvare l'immagine di anteprima
+        // Il tuo codice per visualizzare o salvare l'immagine di anteprima
     }
 }
 ```
@@ -106,7 +106,7 @@ using (Bitmap previewImage = /* Obtain the preview image */)
 }
 ```
 
- Sostituire`"print-preview.png"`con il percorso e il nome del file desiderati.
+ Sostituire`"print-preview.png"` con il percorso e il nome del file desiderati.
 
 ## Conclusione
 
@@ -116,11 +116,11 @@ In questa guida, abbiamo trattato il processo di utilizzo di Aspose.Slides per .
 
 ### Come posso personalizzare ulteriormente le impostazioni di stampa?
 
- Puoi esplorare le varie proprietà disponibili nel file`PrintManager.Settings` opporsi per ottimizzare le impostazioni di stampa in base alle proprie esigenze specifiche. Regola parametri quali transizioni delle diapositive, ridimensionamento e orientamento della pagina per ottenere l'output di stampa desiderato.
+ Puoi esplorare le varie proprietà disponibili nel file`PrintManager.Settings`opporsi per ottimizzare le impostazioni di stampa in base alle proprie esigenze specifiche. Regola parametri quali transizioni delle diapositive, ridimensionamento e orientamento della pagina per ottenere l'output di stampa desiderato.
 
 ### Posso visualizzare in anteprima diapositive specifiche anziché l'intera presentazione?
 
- Sì, puoi usare il`PrintManager.Print`metodo con parametri aggiuntivi per specificare l'intervallo di diapositive che desideri visualizzare in anteprima. Ciò ti consente di concentrarti su parti specifiche della presentazione durante il processo di anteprima di stampa.
+ Sì, puoi usare il`PrintManager.Print` metodo con parametri aggiuntivi per specificare l'intervallo di diapositive che desideri visualizzare in anteprima. Ciò ti consente di concentrarti su parti specifiche della presentazione durante il processo di anteprima di stampa.
 
 ### È possibile integrare la funzionalità di anteprima di stampa in un'applicazione Windows Forms?
 

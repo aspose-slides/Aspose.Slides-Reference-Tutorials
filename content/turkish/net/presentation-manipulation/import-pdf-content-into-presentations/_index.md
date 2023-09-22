@@ -32,24 +32,13 @@ Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ### 4. Adım: PDF İçeriğini İçe Aktarın
- Kullan`PdfContentEditor` PDF dosyasından içerik çıkarmak ve onu bir görüntüye dönüştürmek için Aspose.PDF'den sınıf. Ardından sununuzda yeni bir slayt oluşturun ve içe aktarılan görüntüyü buna ekleyin. İşte basitleştirilmiş bir kod pasajı:
+Aspose.Slides ile yüklenen PDF belgesindeki içeriği yeni oluşturulan sunuma sorunsuz bir şekilde aktarabilirsiniz. İşte basitleştirilmiş bir kod pasajı:
 
 ```csharp
-using (PdfContentEditor pdfEditor = new PdfContentEditor())
-{
-    pdfEditor.BindPdf("external-content.pdf");
-    pdfEditor.ProcessPages = new int[] { 1 }; // İçe aktarılacak sayfayı seçin
-
-    using (MemoryStream imageStream = new MemoryStream())
+    using (Presentation presentation = new Presentation())
     {
-        pdfEditor.ExtractImage();
-        pdfEditor.SaveAsTIFF(imageStream);
-        
-        // Yeni bir slayt oluşturun ve görüntüyü buna ekleyin
-        ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-        slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, presentation.SlideSize.Width, presentation.SlideSize.Height, imageStream);
+        presentation.Slides.AddFromPdf(pdfFileName);
     }
-}
 ```
 
 ### Adım 5: Sunuyu Kaydetme
@@ -65,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
 
 ### Bir PDF'nin birden fazla sayfasından içerik aktarabilir miyim?
- Evet, birden fazla sayfa numarası belirtebilirsiniz.`ProcessPages` PDF'nin farklı sayfalarından içerik içe aktarmak için dizi.
+Evet, birden fazla sayfa numarası belirtebilirsiniz.`ProcessPages` PDF'nin farklı sayfalarından içerik içe aktarmak için dizi.
 
 ### PDF içeriğini içe aktarmada herhangi bir sınırlama var mı?
 Aspose.Slides güçlü bir çözüm sunarken, içe aktarılan içeriğin formatı PDF'nin karmaşıklığına göre değişiklik gösterebilir. Bazı ayarlamalar gerekebilir.

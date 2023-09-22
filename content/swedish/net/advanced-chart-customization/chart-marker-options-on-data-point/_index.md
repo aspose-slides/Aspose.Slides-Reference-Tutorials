@@ -2,13 +2,13 @@
 title: Kartmarköralternativ på datapunkt
 linktitle: Kartmarköralternativ på datapunkt
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du förbättrar dina datavisualiseringar med Aspose.Slides för .NET. Utforska diagrammarköralternativ steg för steg.
+description: Lär dig hur du förbättrar dina datavisualiseringar med Aspose.Slides för .NET. Utforska diagrammarkeringsalternativ steg för steg.
 type: docs
 weight: 11
 url: /sv/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
-## Introduktion till diagrammarköralternativ
+## Introduktion till diagrammarkörsalternativ
 
 Alternativ för diagrammarkörer är visuella förbättringar som kan tillämpas på enskilda datapunkter i ett diagram. Dessa markörer hjälper till att framhäva specifika datavärden, vilket gör det lättare för publiken att tolka informationen som presenteras. Genom att använda diagrammarkeringsalternativ kan du uppmärksamma viktiga datapunkter och framhäva trender eller extremvärden.
 
@@ -197,7 +197,7 @@ Investerare kan använda marköralternativ för att identifiera betydande aktiek
 
 Tänk på dessa bästa metoder när du skapar diagram.
 
-## Att hålla diagram enkla och tydliga
+## Hålla diagram enkla och tydliga
 
 Enkelhet ökar förståelsen. Undvik överfulla diagram med överdrivna markörer.
 

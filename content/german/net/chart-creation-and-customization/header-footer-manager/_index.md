@@ -120,7 +120,7 @@ using Aspose.Slides;
 // Laden Sie die Präsentation
 using Presentation presentation = new Presentation("your-presentation.pptx");
 
-//Kopf- und Fußzeilen ausrichten
+// Kopf- und Fußzeilen ausrichten
 foreach (ISlide slide in presentation.Slides)
 {
     slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;

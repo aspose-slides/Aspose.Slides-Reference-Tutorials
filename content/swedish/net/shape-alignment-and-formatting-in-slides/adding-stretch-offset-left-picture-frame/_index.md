@@ -79,7 +79,7 @@ namespace PictureFrameStretchOffsetExample
 }
 ```
 
-I det här exemplet laddar vi en presentation, itererar genom formerna på den första bilden, och om vi hittar en bildramsform tillämpar vi en sträckförskjutning på -10 till vänster.
+det här exemplet laddar vi en presentation, itererar genom formerna på den första bilden, och om vi hittar en bildramsform tillämpar vi en sträckförskjutning på -10 till vänster.
 
 ## Testa applikationen
 

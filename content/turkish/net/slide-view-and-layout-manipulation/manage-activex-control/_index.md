@@ -136,7 +136,7 @@ ActiveX kontrollerini PowerPoint sunumlarınıza dahil etmek, hedef kitlenizin e
 
  Evet, Aspose.Slides for .NET'i kullanarak ActiveX kontrollerini programlı olarak değiştirebilirsiniz. Referans alarak`IOleObjectFrame` Denetimi temsil ederek, yöntemleri çağırabilir ve özellikleri denetimle dinamik olarak etkileşim kuracak şekilde ayarlayabilirsiniz.
 
-### Olayları nasıl halledebilirim
+### Olayları nasıl ele alacağım
 
  ActiveX denetimleri tarafından mı tetikleniyor?
 

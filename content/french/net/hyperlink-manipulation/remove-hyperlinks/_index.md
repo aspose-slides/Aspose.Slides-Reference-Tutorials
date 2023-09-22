@@ -54,7 +54,7 @@ foreach (ISlide slide in presentation.Slides)
         {
             foreach (IHyperlink hyperlink in autoShape.HyperlinkQueries)
             {
-                //Supprimez ou désactivez le lien hypertexte si nécessaire
+                // Supprimez ou désactivez le lien hypertexte si nécessaire
             }
         }
     }

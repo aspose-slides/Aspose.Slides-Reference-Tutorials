@@ -40,7 +40,7 @@ class Program
 Para duplicar una diapositiva, primero necesitaremos seleccionar la diapositiva que queremos duplicar. Luego, lo clonaremos para crear una copia idéntica. Así es como puedes hacerlo:
 
 ```csharp
-// Seleccione la diapositiva que desea duplicar (el índice comienza desde 0)
+//Seleccione la diapositiva que desea duplicar (el índice comienza desde 0)
 ISlide sourceSlide = presentation.Slides[0];
 
 // Clonar la diapositiva seleccionada
@@ -79,7 +79,7 @@ En esta guía, exploramos cómo duplicar una diapositiva y agregarla al final de
 
 ### ¿Cómo puedo obtener Aspose.Slides para .NET?
 
- Puede obtener la biblioteca Aspose.Slides para .NET en[enlace de descarga](https://releases.aspose.com/slides/net/). Asegúrese de seguir las instrucciones de instalación proporcionadas en el sitio web.
+Puede obtener la biblioteca Aspose.Slides para .NET en[enlace de descarga](https://releases.aspose.com/slides/net/). Asegúrese de seguir las instrucciones de instalación proporcionadas en el sitio web.
 
 ### ¿Puedo duplicar varias diapositivas a la vez?
 

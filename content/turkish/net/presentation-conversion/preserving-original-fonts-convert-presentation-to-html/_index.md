@@ -8,93 +8,93 @@ weight: 14
 url: /tr/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
 
-## giriiş
+Bu kapsamlı kılavuzda, Aspose.Slides for .NET kullanarak bir sunumu HTML'ye dönüştürürken orijinal yazı tiplerini koruma sürecinde size yol göstereceğiz. Size gerekli C# kaynak kodunu sağlayacağız ve her adımı ayrıntılı olarak açıklayacağız. Bu eğitimin sonunda, dönüştürülmüş HTML belgenizdeki yazı tiplerinin orijinal sunuma sadık kalmasını sağlayabileceksiniz.
 
-Dijital çağda sunumlar geleneksel slayt sunumlarından dinamik multimedya deneyimlerine doğru evrildi. Bir sunumu HTML'ye dönüştürdüğünüzde, özellikle yazı tipleri söz konusu olduğunda görsel bütünlüğü korumak çok önemlidir. Aspose.Slides for .NET, bu gereksinime kusursuz bir çözüm sağlayan güçlü bir kütüphanedir.
+## 1. Giriş
 
-## Yazı Tipi Korumanın Önemini Anlamak
+PowerPoint sunumlarını HTML'ye dönüştürürken, içeriğinizin görsel tutarlılığını sağlamak için orijinal yazı tiplerini korumak çok önemlidir. Aspose.Slides for .NET bunu başarmak için güçlü bir çözüm sunuyor. Bu eğitimde, dönüştürme işlemi sırasında orijinal yazı tiplerini korumak için gereken adımlarda size yol göstereceğiz.
 
-Yazı tipleri, herhangi bir sunumun tasarımının ve markalamasının temel bir unsurudur. Belirli bir tonu aktarırlar, okunabilirliği artırırlar ve mesajınızın özünü yansıtırlar. Sunumları HTML'ye dönüştürürken bu yazı tiplerinin korunması tutarlı ve sürükleyici bir kullanıcı deneyimi sağlar.
+## 2. Önkoşullar
 
-## Aspose.Slides for .NET'e Başlarken
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-## Kurulum
+- Makinenizde Visual Studio yüklü.
+- Aspose.Slides for .NET kütüphanesi projenize eklendi.
 
-Başlamak için Aspose.Slides for .NET kitaplığını yüklemeniz gerekir. Bunu .NET için bir paket yöneticisi olan NuGet aracılığıyla yapabilirsiniz. NuGet Paket Yönetici Konsolunuzu açın ve aşağıdaki komutu çalıştırın:
+## 3. Projenizi Kurma
 
-```bash
-Install-Package Aspose.Slides
-```
+Başlamak için Visual Studio'da yeni bir proje oluşturun ve Aspose.Slides for .NET kitaplığını referans olarak ekleyin.
 
-## Sunum Yükleme
+## 4. Sunumun Yüklenmesi
 
-Kütüphaneyi kurduktan sonra .NET uygulamanızda kullanmaya başlayabilirsiniz. Sununuzu aşağıdaki kod parçacığını kullanarak yükleyin:
-
-```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-using var presentation = new Presentation("your-presentation.pptx");
-```
-
-## Orijinal Yazı Tiplerini Koruma
-
-Dönüştürme sırasında orijinal yazı tiplerinin korunmasını sağlamak için uygun seçenekleri ayarlamanız gerekir. Aspose.Slides, yazı tiplerinin HTML çıktısına nasıl gömüleceğini kontrol etmenize olanak tanır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
-
-## Kod Uygulaması
+PowerPoint sunumunuzu yüklemek için aşağıdaki kodu kullanın:
 
 ```csharp
-using Aspose.Slides.Export;
+string dataDir = "Your Document Directory";
 
-// HTML seçeneklerinin bir örneğini oluşturun
-var options = new HtmlOptions
+using (Presentation pres = new Presentation("input.pptx"))
 {
-    FontsFolder = "fonts", // Yazı tiplerinin kaydedileceği klasör
-    HtmlFormatter = HtmlFormatter.CreateDocumentFormatter("", false),
-    HtmlFormatterExternalResources = false,
-    HtmlFormatterEmbedFonts = HtmlFormatterEmbedFontEnum.EmbedAll
-};
-
-// Sunuyu HTML'ye dönüştürün
-presentation.Save("output.html", SaveFormat.Html, options);
+    // Kodunuz burada
+}
 ```
 
-## Ek Özelleştirmeler
+ Yer değiştirmek`"Your Document Directory"` sunum dosyanızın yolu ile birlikte.
 
-## Yazı Tipleri için CSS'yi Kullanma
+## 5. Varsayılan Yazı Tiplerini Hariç Tutmak
 
-Yukarıdaki kod yazı tiplerini korurken, farklı cihazlarda tutarlı görüntü oluşturmayı sağlamak için CSS'de ince ayar yapmak isteyebilirsiniz. Yazı tipi stillerini CSS dosyasına ekleyebilir ve onu HTML çıktınıza bağlayabilirsiniz.
+Calibri ve Arial gibi varsayılan yazı tiplerini hariç tutmak için aşağıdaki kodu kullanın:
 
-## Dış Kaynaklarla İlişkiler
+```csharp
+string[] fontNameExcludeList = { "Calibri", "Arial" };
+```
 
-Sununuz resimler veya videolar gibi harici kaynaklar içeriyorsa sunumun bütünlüğünü korumak için HTML dosyasındaki yollarını uygun şekilde yönetmelisiniz.
+Bu listeyi ihtiyacınıza göre özelleştirebilirsiniz.
 
-## Test ve Kalite Güvencesi
+## 6. Tüm Yazı Tiplerini Gömme
 
-HTML sunumunuzu tamamlamadan önce, yazı tiplerinin doğru şekilde oluşturulduğundan emin olmak için çeşitli cihazlarda ve tarayıcılarda kapsamlı testler yapın. Bu adım, izleyicilerinizin sunumu amaçlandığı gibi deneyimlemesini garanti eder.
+Daha sonra tüm yazı tiplerini HTML belgesine gömeceğiz. Bu, orijinal yazı tiplerinin korunmasını sağlar. Aşağıdaki kodu kullanın:
 
-## Çözüm
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 
-Sunumları HTML'ye dönüştürürken orijinal yazı tiplerini korumak, içeriğinizin görsel etkisini ve okunabilirliğini korumak açısından çok önemlidir. Aspose.Slides for .NET bu süreci basitleştirerek, yazı tipi tutarlılığını sağlarken sunumları sorunsuz bir şekilde dönüştürmenize olanak tanır.
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(embedFontsController)
+};
+```
 
-## SSS'ler
+## 7. HTML olarak kaydetme
 
-## Aspose.Slides yazı tipi yerleştirmeyi nasıl yönetiyor?
+Şimdi sunuyu gömülü yazı tipleriyle bir HTML belgesi olarak kaydedin:
 
-Aspose.Slides farklı yazı tipi yerleştirme seçenekleri sunar. Tüm yazı tiplerini gömmeyi, yalnızca sunuda kullanılanları gömmeyi veya hiçbir yazı tipini gömmemeyi seçebilirsiniz.
+```csharp
+pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
+```
 
-## HTML çıktısını daha da özelleştirebilir miyim?
+ Yer değiştirmek`"output.html"` İstediğiniz çıktı dosyası adı ile.
 
-Kesinlikle! CSS stillerini değiştirebilir, JavaScript ile etkileşim ekleyebilir ve HTML yapısını SEO ve performans için optimize edebilirsiniz.
+## 8. Sonuç
 
-## Aspose.Slides sunumları başka hangi formatlara dönüştürebilir?
+Bu eğitimde, Aspose.Slides for .NET kullanarak bir PowerPoint sunumunu HTML'ye dönüştürürken orijinal yazı tiplerinin nasıl korunacağını gösterdik. Bu adımları izleyerek, dönüştürülen HTML belgenizin orijinal sunumun görsel bütünlüğünü korumasını sağlayabilirsiniz.
 
-Aspose.Slides, HTML'nin yanı sıra PDF, görseller ve SVG gibi çeşitli formatlara dönüştürmeyi de destekler.
+## 9. SSS
 
-## Aspose.Slides hem basit hem de karmaşık sunumlara uygun mu?
+### S1: Hariç tutulan yazı tiplerinin listesini özelleştirebilir miyim?
 
-Evet, Aspose.Slides çok yönlüdür ve değişen karmaşıklıktaki sunumları işleyebilir, dönüştürme süreci boyunca tutarlı yazı tipi koruması sağlar.
+ Evet yapabilirsin. Değiştirmek`fontNameExcludeList` Gereksinimlerinize göre belirli yazı tiplerini dahil etmek veya hariç tutmak için dizi.
 
-## Aspose.Slides ne sıklıkta güncellenir?
+### S2: Tüm yazı tiplerini gömmek istemezsem ne olur?
 
-Aspose.Slides, yeni özellikleri, iyileştirmeleri ve uyumluluk geliştirmelerini içerecek şekilde düzenli olarak güncellenerek sunum dönüşümü için güvenilir ve güncel bir çözüm sağlar.
+Yalnızca belirli yazı tiplerini gömmek istiyorsanız kodu buna göre değiştirebilirsiniz. Daha fazla ayrıntı için Aspose.Slides for .NET belgelerine bakın.
+
+### S3: Aspose.Slides for .NET'i kullanmak için herhangi bir lisans gereksinimi var mı?
+
+Evet, Aspose.Slides for .NET'i projelerinizde kullanmak için geçerli bir lisansa ihtiyacınız olabilir. Lisans bilgileri için Aspose web sitesine bakın.
+
+### S4: Aspose.Slides for .NET'i kullanarak diğer dosya formatlarını HTML'ye dönüştürebilir miyim?
+
+Aspose.Slides for .NET öncelikle PowerPoint sunumlarına odaklanır. Diğer dosya formatlarını HTML'ye dönüştürmek için bu formatlara uygun diğer Aspose ürünlerini keşfetmeniz gerekebilir.
+
+### S5: Ek kaynaklara ve desteğe nereden erişebilirim?
+
+ Aspose web sitesinde daha fazla belge, eğitim ve destek bulabilirsiniz. Ziyaret etmek[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/) detaylı bilgi için.

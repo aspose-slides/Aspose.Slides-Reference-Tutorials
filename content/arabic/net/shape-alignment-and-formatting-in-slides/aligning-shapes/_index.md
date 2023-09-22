@@ -92,7 +92,7 @@ slide.Shapes.DistributeHorizontally();
 إذا كان العرض التقديمي يحتوي على أشكال مجمعة، فيمكنك محاذاة المجموعة بأكملها:
 
 ```csharp
-//الوصول إلى شكل مجمع
+// الوصول إلى شكل مجمع
 IGroupShape groupShape = (IGroupShape)slide.Shapes[2];
 
 // قم بمحاذاة المجموعة أفقيًا

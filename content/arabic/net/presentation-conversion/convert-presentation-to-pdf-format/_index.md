@@ -73,7 +73,6 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.ShowHiddenSlides = true;
-pdfOptions.SlidesTransitions = SlideTransitions.None;
 
 // تحويل العرض التقديمي إلى PDF مع إعدادات الانتقال
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);

@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil fornisce anche metodi per disporre e allineare le forme sulle diapositive.
 
 ```csharp
-// Disporre le forme orizzontalmente
+//Disporre le forme orizzontalmente
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Allinea le forme al centro
@@ -91,7 +91,7 @@ ShapeUtil ti consente di applicare la formattazione alle forme, inclusi gli stil
 // Applica il colore di riempimento
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
-//Applicare il colore e lo stile della linea
+// Applicare il colore e lo stile della linea
 ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
 ```
 
@@ -159,7 +159,7 @@ Install-Package Aspose.Slides
 
 ### Come posso applicare la formattazione alle forme geometriche?
 
- Con ShapeUtil puoi applicare la formattazione alle forme geometriche utilizzando metodi come`ApplyFillColor` E`ApplyLineColor` per impostare i colori di riempimento e gli stili di linea.
+Con ShapeUtil puoi applicare la formattazione alle forme geometriche utilizzando metodi come`ApplyFillColor` E`ApplyLineColor` per impostare i colori di riempimento e gli stili di linea.
 
 ### Qual è lo scopo dell'ordine Z nelle forme?
 

@@ -20,7 +20,7 @@ Dans ce didacticiel, nous explorerons les différents aspects de la manipulation
 ### [Création et personnalisation de graphiques dans Aspose.Slides](./chart-creation-and-customization/)
 Découvrez comment créer et personnaliser de superbes graphiques à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec des exemples de code.
 ### [Ajouter des diapositives de mise en page à la présentation](./add-layout-slides/)
-Améliorez les présentations à l'aide d'Aspose.Slides pour .NET : ajoutez des diapositives de mise en page de manière transparente pour un contenu visuellement attrayant.
+Améliorez les présentations à l'aide d'Aspose.Slides pour .NET : ajoutez des diapositives de mise en page de manière transparente pour un contenu visuellement convaincant.
 ### [Comparer les diapositives dans la présentation](./check-slides-comparison/)
 Découvrez comment comparer des diapositives dans des présentations à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source pour des comparaisons précises.
 ### [Obtenir un exemple d'espace réservé de base](./get-base-placeholder-example/)

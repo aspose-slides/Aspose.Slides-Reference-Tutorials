@@ -42,7 +42,7 @@ class Program
 
 ## Hämtar alla bilder
 
-När presentationen är laddad kan du enkelt hämta alla bilder med hjälp av`Slides` samling. Här är hur:
+ När presentationen är laddad kan du enkelt hämta alla bilder med hjälp av`Slides` samling. Här är hur:
 
 ```csharp
 // Hämta alla bilder

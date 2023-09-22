@@ -8,72 +8,116 @@ weight: 13
 url: /net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
 
-## Introduction to Convert Presentations to HTML with Embedded Fonts
+In today's digital age, sharing presentations and documents online has become a common practice. However, one challenge that often arises is ensuring that your fonts are correctly displayed when converting presentations to HTML. This step-by-step tutorial will guide you through the process of using Aspose.Slides for .NET to convert presentations to HTML with embedded fonts, ensuring that your documents look just as you intended them to.
 
-Converting presentations to HTML format can be essential for various reasons, such as sharing content online, embedding presentations in websites, or making them accessible across different devices. However, maintaining the original look and fonts of the presentation is crucial to ensure consistency and readability. Aspose.Slides for .NET is a reliable library that allows developers to perform such conversions while retaining embedded fonts.
+## Introduction to Aspose.Slides for .NET
+
+Before we dive into the tutorial, let's briefly introduce Aspose.Slides for .NET. It is a powerful library that allows developers to work with PowerPoint presentations in .NET applications. With Aspose.Slides, you can create, modify, and convert PowerPoint files programmatically.
 
 ## Prerequisites
 
-Before we dive into the conversion process, make sure you have the following prerequisites in place:
+Before you get started, make sure you have the following prerequisites in place:
 
-- Basic understanding of C# programming language
-- Visual Studio installed
-- Aspose.Slides for .NET library
+- Aspose.Slides for .NET: You should have the Aspose.Slides library installed in your project. You can download it from [here](https://releases.aspose.com/slides/net/).
 
-## Installing Aspose.Slides for .NET
+## Step 1: Set Up Your Project
 
-To get started, follow these steps to install Aspose.Slides for .NET:
+1. Create a new project or open an existing one in your preferred .NET development environment.
 
-1. Open Visual Studio and create a new C# project.
-2. Right-click on the project in the Solution Explorer and select "Manage NuGet Packages."
-3. Search for "Aspose.Slides" and install the package.
+2. Add a reference to the Aspose.Slides library in your project.
 
-## Loading Presentation
+3. Import the necessary namespaces in your code:
 
-Once you have the library installed, you can begin the conversion process. Here's how to load a presentation:
+   ```csharp
+   using Aspose.Slides;
+   ```
 
-```csharp
-using Aspose.Slides;
+## Step 2: Load Your Presentation
 
-// Load the presentation
-using Presentation presentation = new Presentation("your-presentation.pptx");
-```
-
-## Embedding Fonts
-
-To ensure that the fonts are embedded in the HTML output, you need to include the following code:
+To begin, you need to load the presentation you want to convert to HTML. Replace `"Your Document Directory"` with the actual directory where your presentation file is located.
 
 ```csharp
-// Embed all the fonts used in the presentation
-foreach (var font in presentation.FontsManager.GetFonts())
+string dataDir = "Your Document Directory";
+using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    presentation.EmbedFontsManager.AddEmbeddedFont(font);
+    // Your code goes here
 }
 ```
 
-## Converting to HTML
+## Step 3: Exclude Default Presentation Fonts
 
-With the fonts embedded, you can now proceed to convert the presentation to HTML:
+In this step, you can specify any default presentation fonts that you want to exclude from embedding. This can help optimize the size of the resulting HTML file.
 
 ```csharp
-// Save the presentation as HTML with embedded fonts
-presentation.Save("output.html", SaveFormat.Html);
+string[] fontNameExcludeList = { };
+```
+
+## Step 4: Choose an HTML Controller
+
+Now, you have two options for embedding fonts in the HTML:
+
+### Option 1: Embed All Fonts
+
+To embed all fonts used in the presentation, use the `EmbedAllFontsHtmlController`.
+
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
+```
+
+### Option 2: Link All Fonts
+
+To link to all fonts used in the presentation, use the `LinkAllFontsHtmlController`. You should specify the directory where the fonts are located on your system.
+
+```csharp
+LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
+```
+
+## Step 5: Define HTML Options
+
+Create an `HtmlOptions` object and set the HTML formatter to the one you selected in the previous step.
+
+```csharp
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Use embedFontsController for embedding all fonts
+};
+```
+
+## Step 6: Save as HTML
+
+Finally, save the presentation as an HTML file. You can choose either `SaveFormat.Html` or `SaveFormat.Html5` depending on your requirements.
+
+```csharp
+pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
 ## Conclusion
 
-In this guide, we explored the process of converting presentations to HTML with embedded fonts using Aspose.Slides for .NET. We covered the prerequisites, installation of the library, loading a presentation, embedding fonts, and performing the conversion. By following these steps, you can ensure that your presentations are accurately converted to HTML format while maintaining the original fonts.
+Congratulations! You have successfully converted your presentation to HTML with embedded fonts using Aspose.Slides for .NET. This ensures that your fonts will display correctly when sharing your presentations online.
 
-## FAQ's
+Now, you can easily share your beautifully formatted presentations with confidence, knowing that your audience will see them exactly as you intended.
 
-### How can I install Aspose.Slides for .NET?
+For more information and detailed API references, check out the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
 
-You can install Aspose.Slides for .NET using NuGet package manager. For detailed instructions, refer to the [documentation](https://docs.aspose.com/slides/net/installation/).
+## FAQs
 
-### Can I convert PowerPoint presentations to other formats as well?
+### 1. Can I convert PowerPoint presentations to HTML using Aspose.Slides for .NET in batch mode?
 
-Yes, Aspose.Slides for .NET supports a wide range of formats for converting presentations, including PDF, images, and more. Check the [documentation](https://reference.aspose.com/slides/net/) for a complete list of supported formats.
+Yes, you can batch convert multiple presentations to HTML using Aspose.Slides for .NET by looping through your presentation files and applying the conversion process to each one.
 
-### Is Aspose.Slides for .NET suitable for both desktop and web applications?
+### 2. Is there a way to customize the appearance of the HTML output?
 
-Yes, Aspose.Slides for .NET is versatile and can be used in both desktop and web applications. It provides APIs that are compatible with various .NET frameworks. Check the [documentation](https://docs.aspose.com/slides/net/product-support/) for more information.
+Certainly! Aspose.Slides for .NET provides various options to customize the appearance and formatting of the HTML output, such as adjusting colors, fonts, and layout.
+
+### 3. Are there any limitations to embedding fonts in HTML using Aspose.Slides for .NET?
+
+While Aspose.Slides for .NET offers excellent font embedding capabilities, keep in mind that the size of your HTML files may increase when embedding fonts. Make sure to optimize your font choices for web usage.
+
+### 4. Can I convert PowerPoint presentations to other formats with Aspose.Slides for .NET?
+
+Yes, Aspose.Slides for .NET supports a wide range of output formats, including PDF, images, and more. You can easily convert your presentations to the format of your choice.
+
+### 5. Where can I find additional resources and support for Aspose.Slides for .NET?
+
+You can access a wealth of resources, including documentation, on the [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
+

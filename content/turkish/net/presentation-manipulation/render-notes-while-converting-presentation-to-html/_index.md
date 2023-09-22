@@ -8,83 +8,74 @@ weight: 28
 url: /tr/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
 
-## giriiş
+Günümüzün dijital çağında sunumları HTML formatına dönüştürmek yaygın bir gereksinim haline geldi. Sunumlarınızı web üzerinde kolayca paylaşmanıza olanak tanıyarak daha geniş bir kitleye ulaşmasını sağlar. Aspose.Slides for .NET bu süreci kolaylaştıran güçlü bir araçtır. Bu adım adım eğitimde, Aspose.Slides for .NET kullanarak bir sunumu HTML'ye dönüştürme sürecinde size rehberlik edeceğiz.
 
-Sunumlardaki konuşmacı notları, sunum yapan kişilere ek bağlam ve rehberlik sağlamak açısından çok değerlidir. Sunumları HTML'ye dönüştürürken içeriğin anlaşılırlığını sağlamak için bu notları saklamak çok önemlidir. Bu kılavuzda, .NET için güçlü Aspose.Slides kütüphanesini kullanarak sunumları HTML'ye dönüştürme sürecinde konuşmacı notlarının nasıl oluşturulacağını ve korunacağını inceleyeceğiz.
+## 1. Giriş
 
-## Notları Oluşturmak için Adım Adım Kılavuz
+Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışmanıza olanak tanıyan güçlü bir .NET API'sidir. Temel özelliklerinden biri, sunumları HTML dahil çeşitli formatlara dönüştürme yeteneğidir. Bu eğitimde bu dönüşümün sorunsuz bir şekilde nasıl gerçekleştirileceğine odaklanacağız.
 
-Konuşmacı notlarını korurken bir sunumu HTML formatına dönüştürmek, hem içeriğin hem de meta verilerin dikkatli bir şekilde ele alınmasını gerektirir. Aspose.Slides for .NET'i kullanarak bunu başarmak için gerekli adımları izleyelim.
+## 2. Önkoşullar
 
-### Adım 1: Aspose.Slides for .NET'i yükleme
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
- Devam etmeden önce Aspose.Slides for .NET'in kurulu olduğundan emin olun. Değilse, şuradan indirin:[Burada](https://releases.aspose.com/slides/net/)ve belgelerde verilen kurulum talimatlarını izleyin.
+- Sisteminizde Visual Studio yüklü.
+- Aspose.Slides for .NET kütüphanesi projenize eklendi.
 
-### Adım 2: Sunumu Yükleme
+## 3. Ortamı Kurmak
 
-Konuşmacı notları da dahil olmak üzere HTML'ye dönüştürmek istediğiniz sunuyu yükleyerek başlayın. Aşağıdaki kod parçacığını kullanın:
+Başlamak için Visual Studio'da yeni bir C# projesi oluşturun. Aspose.Slides kütüphanesine projenizde doğru şekilde referans verildiğinden emin olun.
 
-```csharp
-using Aspose.Slides;
-// ...
-Presentation presentation = new Presentation("your-presentation.pptx");
-```
+## 4. Sunumun Yüklenmesi
 
- Yer değiştirmek`"your-presentation.pptx"` sunum dosyanızın yolu ile birlikte.
-
-### 3. Adım: Konuşmacı Notlarını Oluşturma
-
-Aspose.Slides, her slaytla ilişkili konuşmacı notlarına erişmenizi sağlar. Bu notları çıkarabilir ve HTML çıktısına dahil edebilirsiniz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+C# kodunuzda sunuyu yüklemek için aşağıdaki kod parçacığını kullanın:
 
 ```csharp
-using Aspose.Slides.Export;
-// ...
-HtmlOptions htmlOptions = new HtmlOptions();
-htmlOptions.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomFull;
-presentation.Save("output.html", SaveFormat.Html, htmlOptions);
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
+
+using (Presentation pres = new Presentation(dataDir + "Presentation.pptx"))
+{
+    // Kodunuz burada
+}
 ```
 
- Bu kodda, bir örneğini oluşturuyoruz`HtmlOptions` ve her slaydın alt kısmında konuşmacı notlarının konumunun belirtilmesi. Sunum daha sonra adlı bir HTML dosyası olarak kaydedilir.`"output.html"`.
+## 5. HTML Seçeneklerini Yapılandırma
 
-### Adım 4: HTML Çıktısını Özelleştirme
+Daha sonra HTML dönüştürme seçeneklerini yapılandırmamız gerekiyor. Özellikle notları HTML sayfalarının alt kısmına yerleştirmek istiyoruz. Seçenekleri ayarlamak için aşağıdaki kod pasajını kullanın:
 
- Aspose.Slides, HTML çıktısı için çeşitli özelleştirme seçenekleri sunar. Konuşmacı notlarının, slayt geçişlerinin, yazı tiplerinin ve daha fazlasının görünümünü kontrol edebilirsiniz. Bakın[Aspose.Slides API Referansı](https://reference.aspose.com/slides/net/) Mevcut seçenekler hakkında ayrıntılı bilgi için.
+```csharp
+HtmlOptions opt = new HtmlOptions();
+INotesCommentsLayoutingOptions options = opt.NotesCommentsLayouting;
+options.NotesPosition = NotesPositions.BottomFull;
+```
 
-## HTML Dönüşümünde Konuşmacı Notlarını Koruma
+## 6. HTML Çıktısını Kaydetme
 
-Sunumları HTML'ye dönüştürürken, sunumun değerini korumak için konuşmacı notlarını korumak çok önemlidir. Başarılı bir koruma sağlamak için bazı hususlar şunlardır:
+Artık sunuyu yüklediğimize ve HTML seçeneklerini yapılandırdığımıza göre, HTML çıktısını kaydetme zamanı geldi. Bunu yapmak için aşağıdaki kodu kullanın:
 
-### Not Konumu: 
-	Choose where the speaker notes should appear in the HTML layout, such as at the bottom of each slide.
+```csharp
+pres.Save(dataDir + "Output.html", SaveFormat.Html, opt);
+```
 
-### Düzen Biçimlendirmesi: 
-	Ensure that the speaker notes are properly formatted and aligned within the HTML output for easy readability.
+## 7. Karar
 
-## İçerik Erişilebilirliği: 
-	Verify that the converted HTML maintains the accessibility of speaker notes for users who rely on screen readers.
+Bu eğitimde, Aspose.Slides for .NET kullanarak bir PowerPoint sunumunu HTML'ye dönüştürme işlemini adım adım anlattık. Bu güçlü API, görevi basitleştirerek sunumlarınızı çevrimiçi paylaşmanızı kolaylaştırır.
 
-## Sıkça Sorulan Sorular
+## 8. Sıkça Sorulan Sorular (SSS)
 
-### Aspose.Slides for .NET kullanarak konuşmacı notlarını HTML'ye dönüştürebilir miyim?
+### S1. Aspose.Slides for .NET'i HTML dönüşümü için kullanmanın avantajları nelerdir?
+Aspose.Slides for .NET, dönüştürme süreci üzerinde hassas kontrol sunarak yüksek kaliteli HTML çıktısı sağlar. Ayrıca çok çeşitli PowerPoint özelliklerini de destekler.
 
-Evet, Aspose.Slides for .NET, konuşmacı notlarını oluştururken ve korurken sunumlarınızı HTML formatına dönüştürmenize olanak tanır. Başarılı dönüşüm için bu kılavuzda özetlenen adımları izleyin.
+### Q2. HTML çıktısını daha da özelleştirebilir miyim?
+Evet, HTMLOptions nesnesini değiştirerek HTML çıktısını özelleştirebilirsiniz. Yazı tipleri, görüntü kalitesi ve daha fazlası gibi dönüşümün çeşitli yönlerini kontrol edebilirsiniz.
 
-### HTML çıktısındaki konuşmacı notlarının görünümünü nasıl özelleştiririm?
+### S3. Aspose.Slides for .NET farklı PowerPoint formatlarıyla uyumlu mu?
+Evet, Aspose.Slides for .NET, PPT, PPTX ve daha fazlası dahil olmak üzere çeşitli PowerPoint formatlarını destekler.
 
-Aspose.Slides tarafından sağlanan HTML seçeneklerini ayarlayarak konuşmacı notlarının görünümünü özelleştirebilirsiniz. Buna konumlandırma, biçimlendirme ve düzen ayarları dahildir.
+### S4. Lisanslamayla ilgili herhangi bir husus var mı?
+ Aspose.Slides for .NET'i projenizde kullanmak için Aspose'tan lisans almanız gerekecektir. Lisanslama hakkında daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
-### Notları HTML'ye dönüştürürken erişilebilirlikle ilgili herhangi bir husus var mı?
+### S5. Aspose.Slides for .NET için nereden destek alabilirim?
+ Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresten yardım isteyebilirsiniz:[Aspose.Slides forumu](https://forum.aspose.com/).
 
-Kesinlikle. Konuşmacı notlarını HTML'ye dönüştürürken, ortaya çıkan içeriğin, ekran okuyuculara güvenenler de dahil olmak üzere tüm kullanıcılar tarafından erişilebilir olduğundan emin olun. Erişilebilirliğini doğrulamak için HTML çıktısını test edin.
-
-### Konuşmacı notlarının HTML düzenindeki konumunu ayarlayabilir miyim?
-
-Evet, konuşmacı notlarının HTML düzeni içindeki konumunu belirtebilirsiniz. Aspose.Slides, notları her slaydın üstüne, altına veya başka konumlara yerleştirme seçenekleri sunar.
-
-### Aspose.Slides'taki HTML dönüştürme seçenekleri hakkında daha fazla bilgiyi nerede bulabilirim?
-
- Aspose.Slides for .NET'in HTML dönüştürme seçenekleri ve diğer özellikleri hakkında daha ayrıntılı bilgi için[Aspose.Slides API Referansı](https://reference.aspose.com/slides/net/).
-
-## Çözüm
-
-Sunumları HTML'ye dönüştürürken konuşmacı notlarının korunması, değerli bağlam ve bilgilerin korunmasını sağlar. Aspose.Slides for .NET sayesinde bu süreç sorunsuz bir şekilde gerçekleştirilebiliyor ve sunum yapan kişilerin çevrimiçi sunumlar sırasında önemli bilgilere erişmesine olanak sağlanıyor. Bu kılavuzda özetlenen adımları takip ederek, sunumları HTML'ye dönüştürürken konuşmacı notlarını etkili bir şekilde oluşturabilecek donanıma sahip olacaksınız.
+Bu adımları izleyerek PowerPoint sunumlarınızı Aspose.Slides for .NET kullanarak kolayca HTML'ye dönüştürebilirsiniz. Sunumlarınızı daha geniş bir kitleyle çevrimiçi paylaşmanın tadını çıkarın!

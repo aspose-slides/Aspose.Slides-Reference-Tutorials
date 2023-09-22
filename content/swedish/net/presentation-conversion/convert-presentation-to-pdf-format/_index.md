@@ -73,7 +73,6 @@ Aspose.Slides låter dig också kontrollera bildövergångar under PDF-konverter
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.ShowHiddenSlides = true;
-pdfOptions.SlidesTransitions = SlideTransitions.None;
 
 // Konvertera presentation till PDF med övergångsinställningar
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);

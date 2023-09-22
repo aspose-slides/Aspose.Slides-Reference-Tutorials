@@ -18,7 +18,7 @@ Kodlara dalmadan önce geliştirme ortamımızı ayarlayalım. Bu adımları tak
 
 1.  Aspose.Slides for .NET'i indirin:[indirme sayfası](https://releases.aspose.com/slides/net/) ve projenizle uyumlu sürümü seçin.
 
-2. Aspose.Slides'ı yükleyin: İndirdikten sonra, DLL referansını projenize ekleyerek Aspose.Slides'ı kurun.
+2. Aspose.Slides'ı yükleyin: İndirdikten sonra, DLL referansını projenize ekleyerek Aspose.Slides'ı yükleyin.
 
 3. Yeni Bir Proje Oluşturun: Tercih ettiğiniz geliştirme ortamını (örneğin, Visual Studio) kullanarak yeni bir .NET projesi oluşturun.
 
@@ -52,7 +52,7 @@ class Program
 Artık sunum slaytımız hazır olduğuna göre ona dikdörtgen şekli eklemeye geçelim.
 
 ```csharp
-// Slayda dikdörtgen şekli ekleme
+// Slayta dikdörtgen şekli ekleme
 double x = 100; // Şeklin X koordinatı
 double y = 100; // Şeklin Y koordinatı
 double width = 200; // Şeklin genişliği

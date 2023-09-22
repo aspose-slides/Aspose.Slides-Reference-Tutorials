@@ -2,7 +2,7 @@
 title: Applicazione di animazioni alle forme nelle diapositive della presentazione con Aspose.Slides
 linktitle: Applicazione di animazioni alle forme nelle diapositive della presentazione con Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come applicare animazioni accattivanti alle forme di presentazione utilizzando Aspose.Slides per .NET. Guida passo passo con codice sorgente per la creazione di diapositive dinamiche. Migliora le tue presentazioni adesso!
+description: Scopri come applicare animazioni accattivanti alle forme di presentazione utilizzando Aspose.Slides per .NET. Guida passo passo con codice sorgente per la creazione di diapositive dinamiche. Migliora le tue presentazioni ora!
 type: docs
 weight: 21
 url: /it/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/

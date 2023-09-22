@@ -8,76 +8,215 @@ weight: 21
 url: /fr/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
 
+Dans le domaine du développement de logiciels, la création de présentations dynamiques et personnalisées est une exigence courante. Les entreprises ont souvent besoin de générer des présentations adaptées à des données spécifiques, et c'est là que la fonctionnalité de publipostage entre en jeu. Dans ce didacticiel, nous vous guiderons tout au long du processus de fusion et de publipostage dans des présentations à l'aide d'Aspose.Slides pour .NET.
+
 ## Introduction
-Dans le monde des présentations, la personnalisation et la personnalisation jouent un rôle essentiel dans la transmission efficace des informations. Aspose.Slides for .NET offre une solution puissante pour effectuer du publipostage dans des présentations, vous permettant de créer des diapositives dynamiques et personnalisées sans effort. Dans cet article, nous fournirons un guide détaillé étape par étape, complet avec le code source, sur la façon d'obtenir la fonctionnalité de publipostage à l'aide d'Aspose.Slides pour .NET. Que vous soyez un développeur ou un présentateur souhaitant améliorer vos diapositives, ce guide est là pour vous.
 
-## Guide étape par étape pour effectuer un publipostage dans des présentations
+Le publipostage est une technique puissante qui vous permet de remplir des modèles de présentation avec des données provenant de diverses sources, telles que des bases de données ou des fichiers XML. Dans ce didacticiel, nous nous concentrerons sur l'utilisation d'Aspose.Slides pour .NET pour effectuer un publipostage dans des présentations, étape par étape.
 
-### Conditions préalables
-Avant de plonger dans le processus de publipostage, assurez-vous que les conditions préalables suivantes sont en place :
-- Visual Studio ou tout autre IDE .NET installé
--  Bibliothèque Aspose.Slides pour .NET (téléchargement depuis[ici](https://releases.aspose.com/slides/net/))
+## Configuration de votre environnement
 
-### Étape 1 : Créer un nouveau projet .NET
-Commencez par créer un nouveau projet .NET dans votre IDE préféré. Configurez le projet avec les configurations nécessaires.
+Avant de plonger dans le processus de fusion et de publipostage, vous devez configurer votre environnement de développement. Assurez-vous d'avoir les conditions préalables suivantes en place :
 
-### Étape 2 : ajouter une référence à Aspose.Slides
-Dans votre projet, ajoutez une référence à la bibliothèque Aspose.Slides que vous avez téléchargée précédemment. Cela vous permettra d'utiliser ses fonctionnalités pour le publipostage.
+- Visual Studio ou tout autre environnement de développement C#.
+-  Aspose.Slides pour la bibliothèque .NET installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/slides/net/).
 
-### Étape 3 : Charger la présentation
-Chargez le fichier de présentation sur lequel vous souhaitez effectuer le publipostage. Utilisez l'extrait de code suivant pour y parvenir :
+## Comprendre la source de données
 
-```csharp
-Presentation presentation = new Presentation("your-presentation.pptx");
+Pour le publipostage, vous aurez besoin d’une source de données. Dans ce didacticiel, nous utiliserons un fichier XML comme source de données. Voici un exemple de ce à quoi pourrait ressembler votre source de données :
+
+```xml
+<!-- TestData.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<MailMerge>
+    <TestTable>
+        <Id>1</Id>
+        <Code>105</Code>
+        <Name>Samuel Ellington</Name>
+        <Department>Legal Department</Department> <Img></Img>
+    </TestTable>
+    <StaffList>
+        <Id>18</Id>
+        <UserId>1</UserId>
+        <Name>Amelia Walker</Name>
+    </StaffList>
+    <Plan_Fact>
+        <Id>1</Id>
+        <UserId>1</UserId>
+        <OnDate>2020/01</OnDate>
+        <PlanData>2,0</PlanData>
+        <FactData>2,8</FactData>
+    </Plan_Fact>
+</MailMerge>
 ```
 
-### Étape 4 : Préparer la source de données
-Préparez la source de données pour le publipostage. Il peut s'agir d'une base de données, d'une feuille Excel ou de toute autre structure de données contenant les informations requises.
+## Création du modèle de présentation
 
-### Étape 5 : Effectuer un publipostage
-Vient maintenant la partie passionnante : effectuer le publipostage proprement dit. Parcourez les diapositives et les formes de votre présentation, en remplaçant les espaces réservés par les données de votre source de données. Voici un extrait de code simplifié :
+Pour effectuer un publipostage, vous aurez besoin d'un modèle de présentation (fichier PPTX) qui définit la mise en page de vos présentations finales. Vous pouvez créer ce modèle à l'aide de Microsoft PowerPoint ou de tout autre outil de votre choix.
+
+## Processus de fusion et de publipostage
+
+Passons maintenant au processus de fusion de courrier réel à l'aide d'Aspose.Slides pour .NET. Nous allons le décomposer en étapes :
+
+1. Chargez le modèle de présentation.
+2. Remplissez les zones de texte avec les données de la source de données.
+3. Insérez des images dans la présentation.
+4. Préparez et remplissez les blocs de texte.
+5. Enregistrez les présentations individuelles.
+
+Voici un extrait de code C# qui accomplit ces étapes :
 
 ```csharp
-foreach (var slide in presentation.Slides)
-{
-    foreach (var shape in slide.Shapes)
+string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
+    string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
+
+    // Chemin d'accès aux données.
+    // Les données XML sont l'un des exemples de sources de données MailMerge possibles (parmi les SGBDR et autres types de sources de données).
+    string dataPath = Path.Combine(dataDir, "TestData.xml");
+
+    // Vérifiez si le chemin du résultat existe
+    if (!Directory.Exists(resultPath))
+        Directory.CreateDirectory(resultPath);
+
+    // Création d'un DataSet à l'aide de données XML
+    using (DataSet dataSet = new DataSet())
     {
-        if (shape is ITextFrame)
+        dataSet.ReadXml(dataPath);
+
+        DataTableCollection dataTables = dataSet.Tables;
+        DataTable usersTable = dataTables["TestTable"];
+        DataTable staffListTable = dataTables["StaffList"];
+        DataTable planFactTable = dataTables["Plan_Fact"];
+
+        // Pour tous les enregistrements de la table principale, nous créerons une présentation distincte
+        foreach (DataRow userRow in usersTable.Rows)
         {
-            ITextFrame textFrame = (ITextFrame)shape;
-            string placeholder = textFrame.Text;
-            // Remplacer l'espace réservé par les données correspondantes de la source de données
+            // créer le nom de la présentation du résultat (individuel)
+            string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
+
+            //Charger le modèle de présentation
+            using (Presentation pres = new Presentation(presTemplatePath))
+            {
+                // Remplissez les zones de texte avec les données de la table principale de la base de données
+                ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text =
+                    "Chief of the department - " + userRow["Name"];
+                ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
+
+                // Récupérer l'image de la base de données
+                byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
+
+                // insérer l'image dans le cadre photo de la présentation
+                IPPImage image = pres.Images.AddImage(bytes);
+                IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
+                pf.PictureFormat.Picture.Image.ReplaceImage(image);
+
+                // Obtenez et préparez le cadre de texte pour le remplir avec des données
+                IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
+                ITextFrame textFrame = list.TextFrame;
+
+                textFrame.Paragraphs.Clear();
+                Paragraph para = new Paragraph();
+                para.Text = "Department Staff:";
+                textFrame.Paragraphs.Add(para);
+
+                // remplir les données du personnel
+                FillStaffList(textFrame, userRow, staffListTable);
+
+                // remplir les données de fait du plan
+                FillPlanFact(pres, userRow, planFactTable);
+
+                pres.Save(presPath, SaveFormat.Pptx);
+            }
+        }
+    }
+
+static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
+{
+    foreach (DataRow listRow in staffListTable.Rows)
+    {
+        if (listRow["UserId"].ToString() == userRow["Id"].ToString())
+        {
+            Paragraph para = new Paragraph();
+            para.ParagraphFormat.Bullet.Type = BulletType.Symbol;
+            para.ParagraphFormat.Bullet.Char = Convert.ToChar(8226);
+            para.Text = listRow["Name"].ToString();
+            para.ParagraphFormat.Bullet.Color.ColorType = ColorType.RGB;
+            para.ParagraphFormat.Bullet.Color.Color = Color.Black;
+            para.ParagraphFormat.Bullet.IsBulletHardColor = NullableBool.True;
+            para.ParagraphFormat.Bullet.Height = 100;
+            textFrame.Paragraphs.Add(para);
         }
     }
 }
+
+// Remplit le graphique de données de la table planFact secondaire
+static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
+{
+    IChart chart = pres.Slides[0].Shapes[3] as Chart;
+    IChartTitle chartTitle = chart.ChartTitle;
+    chartTitle.TextFrameForOverriding.Text = row["Name"] + " : Plan / Fact";
+
+    DataRow[] selRows = planFactTable.Select("UserId = " + row["Id"]);
+    string range = chart.ChartData.GetRange();
+
+    IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
+    int worksheetIndex = 0;
+
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 1, 1,
+            double.Parse(selRows[0]["PlanData"].ToString())));
+    chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 1, 2,
+            double.Parse(selRows[0]["FactData"].ToString())));
+
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 2, 1,
+            double.Parse(selRows[1]["PlanData"].ToString())));
+    chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 2, 2,
+            double.Parse(selRows[1]["FactData"].ToString())));
+
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 3, 1,
+            double.Parse(selRows[2]["PlanData"].ToString())));
+    chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 3, 2,
+            double.Parse(selRows[2]["FactData"].ToString())));
+
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 3, 1,
+            double.Parse(selRows[3]["PlanData"].ToString())));
+    chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
+        cellsFactory.GetCell(worksheetIndex, 3, 2,
+            double.Parse(selRows[3]["FactData"].ToString())));
+
+    chart.ChartData.SetRange(range);
+}		
 ```
 
-### Étape 6 : Enregistrez la présentation fusionnée
-Une fois le publipostage terminé, enregistrez la présentation modifiée dans un nouveau fichier. Cela garantit que votre modèle original reste intact.
+## Sauvegarde du résultat
 
-```csharp
-presentation.Save("merged-presentation.pptx", SaveFormat.Pptx);
-```
+Une fois que vous avez terminé le processus de fusion et de publipostage pour tous les enregistrements de votre source de données, vous disposerez de présentations individuelles prêtes. Vous pouvez les enregistrer à l'emplacement souhaité.
+
+## Conclusion
+
+Effectuer un publipostage dans des présentations à l'aide d'Aspose.Slides pour .NET ouvre un monde de possibilités pour créer des présentations personnalisées et basées sur les données. Ce tutoriel vous a guidé à travers les étapes essentielles pour y parvenir en toute transparence.
 
 ## FAQ
 
-### Comment puis-je télécharger la bibliothèque Aspose.Slides pour .NET ?
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de la page des versions[ici](https://releases.aspose.com/slides/net/).
+**Q1: Is Aspose.Slides for .NET the only library for mail merge in presentations?**
+A1 : Bien qu'Aspose.Slides pour .NET soit un choix puissant, d'autres bibliothèques et outils offrent également des fonctionnalités similaires. En fin de compte, cela dépend de vos besoins et préférences spécifiques.
 
-### Aspose.Slides convient-il à la fois aux développeurs et aux présentateurs ?
-Oui, Aspose.Slides pour .NET s'adresse à la fois aux développeurs et aux présentateurs. Les développeurs peuvent utiliser sa puissante API pour automatiser des tâches telles que le publipostage, tandis que les présentateurs peuvent bénéficier de présentations personnalisées.
+**Q2: Can I use different data sources apart from XML files?**
+A2 : Oui, Aspose.Slides pour .NET prend en charge diverses sources de données, notamment des bases de données et des structures de données personnalisées.
 
-### Puis-je utiliser différentes sources de données pour le publipostage ?
-Absolument. Aspose.Slides vous permet d'utiliser diverses sources de données telles que des bases de données, des fichiers Excel et même des structures de données personnalisées pour effectuer un publipostage.
+**Q3: How can I format the merged presentations further?**
+A3 : Vous pouvez appliquer une mise en forme, des styles et des animations supplémentaires aux présentations fusionnées à l'aide du riche ensemble de fonctionnalités d'Aspose.Slides.
 
-### Y a-t-il des limites au processus de publipostage ?
-Bien qu'Aspose.Slides offre une solution robuste, il est essentiel de garantir que votre source de données et votre modèle sont bien alignés. La gestion d'un formatage complexe dans les espaces réservés peut nécessiter un codage supplémentaire.
+**Q4: Is there a trial version of Aspose.Slides for .NET available?**
+ A4 : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Slides pour .NET[ici](https://releases.aspose.com/).
 
-### Puis-je intégrer le publipostage dans mon application .NET ?
-Certainement. Aspose.Slides fournit une documentation complète et des exemples pour vous aider à intégrer de manière transparente les fonctionnalités de publipostage dans vos applications .NET.
+**Q5: Where can I get support for Aspose.Slides for .NET?**
+ A5 : Pour une assistance technique et des discussions, vous pouvez visiter le[Forum Aspose.Slides](https://forum.aspose.com/).
 
-### Aspose.Slides est-il adapté à la création de présentations dynamiques ?
-Oui, Aspose.Slides vous permet de créer des présentations dynamiques en combinant des modèles de diapositives avec du contenu basé sur les données, rendant ainsi vos présentations attrayantes et personnalisées.
-
-## Conclusion
-L'intégration d'une fonctionnalité de publipostage dans vos présentations à l'aide d'Aspose.Slides pour .NET peut améliorer considérablement votre capacité à fournir un contenu personnalisé à votre public. Grâce à notre guide étape par étape et aux extraits de code source fournis, vous êtes bien équipé pour créer des présentations dynamiques et personnalisées qui laissent une impression durable.
+Maintenant que vous avez appris à effectuer un publipostage dans des présentations avec Aspose.Slides pour .NET, vous pouvez commencer à créer des présentations dynamiques et riches en données pour vos projets. Bon codage !

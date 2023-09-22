@@ -13,14 +13,10 @@ Dans le domaine du traitement PowerPoint, Aspose.Slides pour .NET apparaît comm
 Explorez nos didacticiels de manipulation de présentation et découvrez les capacités d'Aspose.Slides pour .NET. Apprenez à créer, modifier et améliorer par programmation des présentations PowerPoint à l'aide de diverses fonctionnalités et techniques. De la gestion des diapositives et du contenu à l'intégration d'éléments multimédias, ces didacticiels fournissent des conseils pratiques pour un traitement de présentation efficace et dynamique, vous permettant de rationaliser vos tâches d'automatisation PowerPoint et d'obtenir des résultats professionnels. Commencez dès aujourd’hui votre voyage dans le monde de la manipulation de présentations avec Aspose.Slides pour .NET.
 
 ## Tutoriels de manipulation de présentation
-### [Créer de nouvelles présentations par programmation](./create-new-presentations-programmatically/)
+### [Créer de nouvelles présentations par programme](./create-new-presentations-programmatically/)
 Découvrez comment créer des présentations par programmation à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source pour une automatisation efficace.
-### [En-têtes et polices personnalisés dans les présentations](./custom-headers-and-fonts-in-presentations/)
-Découvrez comment personnaliser les en-têtes et les polices dans les présentations à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec des exemples de code. Améliorez l’attrait visuel et l’image de marque sans effort.
 ### [Options de conversion PDF personnalisées pour les présentations](./custom-pdf-conversion-options-for-presentations/)
 Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd’hui.
-### [Formatage des formes SVG dans les présentations](./formatting-svg-shapes-in-presentations/)
-Découvrez comment formater des formes SVG dans des présentations à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec le code source. Améliorez le design de votre présentation dès aujourd'hui !
 ### [Exporter des paragraphes mathématiques vers MathML dans des présentations](./export-math-paragraphs-to-mathml-in-presentations/)
 Améliorez vos présentations en exportant des paragraphes mathématiques vers MathML à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour un rendu mathématique précis. Téléchargez Aspose.Slides et commencez à créer des présentations convaincantes dès aujourd'hui.
 ### [Exporter des fichiers multimédias au format HTML à partir d'une présentation](./export-media-files-to-html-from-presentation/)
@@ -33,8 +29,6 @@ Découvrez comment convertir des présentations en HTML réactif à l'aide d'Asp
 Découvrez comment convertir des présentations FODP en différents formats à l'aide d'Aspose.Slides pour .NET. Créez, personnalisez et optimisez facilement.
 ### [Générer du SVG avec des ID de forme personnalisés dans les présentations](./generate-svg-with-custom-shape-ids-in-presentations/)
 Générez des présentations attrayantes avec des formes et des identifiants SVG personnalisés à l'aide d'Aspose.Slides pour .NET. Apprenez à créer des diapositives interactives étape par étape avec des exemples de code source. Améliorez l’attrait visuel et l’interaction des utilisateurs dans vos présentations.
-### [Lier toutes les polices dans le contrôleur HTML](./link-all-fonts-in-html-controller/)
-Découvrez comment lier toutes les polices dans un contrôleur HTML à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape avec le code source vous aidera à garantir un rendu cohérent des polices dans vos présentations. 
 ### [Effectuer un publipostage dans des présentations](./perform-mail-merge-in-presentations/)
 Découvrez comment effectuer un publipostage dans des présentations à l'aide d'Aspose.Slides pour .NET dans ce guide complet étape par étape. Créez facilement des présentations personnalisées et dynamiques.
 ### [Convertir le format ODP en format PPTX](./convert-odp-format-to-pptx-format/)

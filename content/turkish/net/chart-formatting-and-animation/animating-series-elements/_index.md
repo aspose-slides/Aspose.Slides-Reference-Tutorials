@@ -86,7 +86,7 @@ series.AnimationSettings.AnimationOrder = 1;
 presentation.Save("AnimatedChartPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Animasyonlu Grafikler için En İyi Uygulamalar
+## Animasyonlu Grafikler İçin En İyi Uygulamalar
 
 1. Grafiği çok fazla animasyonla aşırı doldurmaktan kaçının.
 2. Sunum boyunca animasyon stillerinde tutarlılığı koruyun.

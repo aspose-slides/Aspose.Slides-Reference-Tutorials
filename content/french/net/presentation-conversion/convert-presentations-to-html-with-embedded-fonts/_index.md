@@ -8,72 +8,115 @@ weight: 13
 url: /fr/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
 
-## Introduction à la conversion de présentations en HTML avec des polices intégrées
+À l’ère numérique d’aujourd’hui, le partage de présentations et de documents en ligne est devenu une pratique courante. Cependant, un défi qui se pose souvent est de garantir que vos polices s'affichent correctement lors de la conversion de présentations au format HTML. Ce didacticiel étape par étape vous guidera tout au long du processus d'utilisation d'Aspose.Slides pour .NET pour convertir des présentations au format HTML avec des polices intégrées, garantissant ainsi que vos documents ressemblent exactement à ce que vous souhaitiez.
 
-La conversion de présentations au format HTML peut être essentielle pour diverses raisons, telles que le partage de contenu en ligne, l'intégration de présentations dans des sites Web ou les rendre accessibles sur différents appareils. Cependant, il est essentiel de conserver l’apparence et les polices d’origine de la présentation pour garantir la cohérence et la lisibilité. Aspose.Slides pour .NET est une bibliothèque fiable qui permet aux développeurs d'effectuer de telles conversions tout en conservant les polices intégrées.
+## Introduction à Aspose.Slides pour .NET
+
+Avant de plonger dans le didacticiel, présentons brièvement Aspose.Slides pour .NET. Il s'agit d'une bibliothèque puissante qui permet aux développeurs de travailler avec des présentations PowerPoint dans des applications .NET. Avec Aspose.Slides, vous pouvez créer, modifier et convertir des fichiers PowerPoint par programme.
 
 ## Conditions préalables
 
-Avant de nous lancer dans le processus de conversion, assurez-vous que les conditions préalables suivantes sont remplies :
+Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-- Compréhension de base du langage de programmation C#
-- Visual Studio installé
-- Aspose.Slides pour la bibliothèque .NET
+-  Aspose.Slides pour .NET : la bibliothèque Aspose.Slides doit être installée dans votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
 
-## Installation d'Aspose.Slides pour .NET
+## Étape 1 : Configurez votre projet
 
-Pour commencer, suivez ces étapes pour installer Aspose.Slides pour .NET :
+1. Créez un nouveau projet ou ouvrez-en un existant dans votre environnement de développement .NET préféré.
 
-1. Ouvrez Visual Studio et créez un nouveau projet C#.
-2. Cliquez avec le bouton droit sur le projet dans l'Explorateur de solutions et sélectionnez « Gérer les packages NuGet ».
-3. Recherchez « Aspose.Slides » et installez le package.
+2. Ajoutez une référence à la bibliothèque Aspose.Slides dans votre projet.
 
-## Chargement de la présentation
+3. Importez les espaces de noms nécessaires dans votre code :
 
-Une fois la bibliothèque installée, vous pouvez commencer le processus de conversion. Voici comment charger une présentation :
+   ```csharp
+   using Aspose.Slides;
+   ```
 
-```csharp
-using Aspose.Slides;
+## Étape 2 : Chargez votre présentation
 
-// Charger la présentation
-using Presentation presentation = new Presentation("your-presentation.pptx");
-```
-
-## Incorporation de polices
-
-Pour garantir que les polices sont intégrées dans la sortie HTML, vous devez inclure le code suivant :
+ Pour commencer, vous devez charger la présentation que vous souhaitez convertir en HTML. Remplacer`"Your Document Directory"` avec le répertoire réel où se trouve votre fichier de présentation.
 
 ```csharp
-// Intégrez toutes les polices utilisées dans la présentation
-foreach (var font in presentation.FontsManager.GetFonts())
+string dataDir = "Your Document Directory";
+using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    presentation.EmbedFontsManager.AddEmbeddedFont(font);
+    // Votre code va ici
 }
 ```
 
-## Conversion en HTML
+## Étape 3 : exclure les polices de présentation par défaut
 
-Avec les polices intégrées, vous pouvez maintenant procéder à la conversion de la présentation en HTML :
+Au cours de cette étape, vous pouvez spécifier toutes les polices de présentation par défaut que vous souhaitez exclure de l'intégration. Cela peut aider à optimiser la taille du fichier HTML résultant.
 
 ```csharp
-// Enregistrez la présentation au format HTML avec les polices intégrées
-presentation.Save("output.html", SaveFormat.Html);
+string[] fontNameExcludeList = { };
+```
+
+## Étape 4 : Choisissez un contrôleur HTML
+
+Vous disposez désormais de deux options pour intégrer des polices dans le HTML :
+
+### Option 1 : Incorporer toutes les polices
+
+ Pour intégrer toutes les polices utilisées dans la présentation, utilisez le`EmbedAllFontsHtmlController`.
+
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
+```
+
+### Option 2 : lier toutes les polices
+
+ Pour créer un lien vers toutes les polices utilisées dans la présentation, utilisez le`LinkAllFontsHtmlController`. Vous devez spécifier le répertoire où se trouvent les polices sur votre système.
+
+```csharp
+LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
+```
+
+## Étape 5 : Définir les options HTML
+
+ Créé un`HtmlOptions` objet et définissez le formateur HTML sur celui que vous avez sélectionné à l’étape précédente.
+
+```csharp
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Utilisez embedFontsController pour intégrer toutes les polices
+};
+```
+
+## Étape 6 : Enregistrer au format HTML
+
+ Enfin, enregistrez la présentation sous forme de fichier HTML. Vous pouvez choisir soit`SaveFormat.Html` ou`SaveFormat.Html5` en fonction de vos besoins.
+
+```csharp
+pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
 ## Conclusion
 
-Dans ce guide, nous avons exploré le processus de conversion de présentations en HTML avec des polices intégrées à l'aide d'Aspose.Slides pour .NET. Nous avons couvert les prérequis, l'installation de la bibliothèque, le chargement d'une présentation, l'intégration des polices et la conversion. En suivant ces étapes, vous pouvez vous assurer que vos présentations sont converties avec précision au format HTML tout en conservant les polices d'origine.
+Toutes nos félicitations! Vous avez converti avec succès votre présentation en HTML avec des polices intégrées à l'aide d'Aspose.Slides pour .NET. Cela garantit que vos polices s'afficheront correctement lors du partage de vos présentations en ligne.
+
+Désormais, vous pouvez facilement partager vos présentations magnifiquement formatées en toute confiance, sachant que votre public les verra exactement comme vous le souhaitiez.
+
+ Pour plus d'informations et des références API détaillées, consultez le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
 
 ## FAQ
 
-### Comment puis-je installer Aspose.Slides pour .NET ?
+### 1. Puis-je convertir des présentations PowerPoint en HTML à l'aide d'Aspose.Slides pour .NET en mode batch ?
 
- Vous pouvez installer Aspose.Slides pour .NET à l'aide du gestionnaire de packages NuGet. Pour des instructions détaillées, reportez-vous au[Documentation](https://docs.aspose.com/slides/net/installation/).
+Oui, vous pouvez convertir par lots plusieurs présentations en HTML à l'aide d'Aspose.Slides pour .NET en parcourant vos fichiers de présentation et en appliquant le processus de conversion à chacun.
 
-### Puis-je également convertir des présentations PowerPoint vers d’autres formats ?
+### 2. Existe-t-il un moyen de personnaliser l’apparence de la sortie HTML ?
 
- Oui, Aspose.Slides pour .NET prend en charge un large éventail de formats de conversion de présentations, notamment des PDF, des images, etc. Vérifier la[Documentation](https://reference.aspose.com/slides/net/) pour une liste complète des formats pris en charge.
+Certainement! Aspose.Slides pour .NET propose diverses options pour personnaliser l'apparence et le formatage de la sortie HTML, telles que l'ajustement des couleurs, des polices et de la mise en page.
 
-### Aspose.Slides pour .NET convient-il aux applications de bureau et Web ?
+### 3. Existe-t-il des limites à l'intégration de polices dans HTML à l'aide d'Aspose.Slides pour .NET ?
 
-Oui, Aspose.Slides pour .NET est polyvalent et peut être utilisé à la fois dans des applications de bureau et Web. Il fournit des API compatibles avec divers frameworks .NET. Vérifier la[Documentation](https://docs.aspose.com/slides/net/product-support/) pour plus d'informations.
+Bien qu'Aspose.Slides pour .NET offre d'excellentes capacités d'intégration de polices, gardez à l'esprit que la taille de vos fichiers HTML peut augmenter lors de l'intégration de polices. Assurez-vous d'optimiser vos choix de polices pour l'utilisation du Web.
+
+### 4. Puis-je convertir des présentations PowerPoint vers d'autres formats avec Aspose.Slides pour .NET ?
+
+Oui, Aspose.Slides pour .NET prend en charge un large éventail de formats de sortie, notamment PDF, images, etc. Vous pouvez facilement convertir vos présentations au format de votre choix.
+
+### 5. Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Slides pour .NET ?
+
+ Vous pouvez accéder à une multitude de ressources, y compris de la documentation, sur le[Aspose.Slides pour la référence de l'API .NET](https://reference.aspose.com/slides/net/).

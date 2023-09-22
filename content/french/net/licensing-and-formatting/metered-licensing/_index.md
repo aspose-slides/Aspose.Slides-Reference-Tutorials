@@ -40,7 +40,7 @@ Pour commencer à utiliser Aspose.Slides pour .NET avec une licence mesurée, pr
 
 ## Initialisation de la licence limitée
 
- Dans votre code, utilisez le résultat obtenu`AppSID` et`AppKey` pour initialiser la licence mesurée :
+Dans votre code, utilisez le résultat obtenu`AppSID` et`AppKey` pour initialiser la licence mesurée :
 
 ```csharp
 Aspose.Slides.License license = new Aspose.Slides.License();

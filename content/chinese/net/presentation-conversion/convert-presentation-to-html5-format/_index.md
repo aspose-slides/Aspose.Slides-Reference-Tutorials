@@ -58,7 +58,7 @@ namespace PresentationToHTML5Converter
 }
 ```
 
-代替`"input.pptx"`与您的输入演示文稿的路径和`"output.html"`以及所需的输出 HTML 文件路径。
+代替`"input.pptx"`与您的输入演示文稿的路径和`"output.html"`与所需的输出 HTML 文件路径。
 
 ## 运行应用程序
 

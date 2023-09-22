@@ -48,7 +48,7 @@ IChart chart = (IChart)slide.Shapes[0];
 // Предполагая, что вы хотите очистить первую серию
 IChartSeries series = chart.ChartData.Series[0];
 
-// Перебирать точки данных и определять те, которые нужно очистить.
+//Перебирать точки данных и определять те, которые нужно очистить.
 List<int> dataPointsToRemove = new List<int> { 2, 4, 6 }; // Пример индексов точек данных
 ```
 

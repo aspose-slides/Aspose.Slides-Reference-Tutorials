@@ -8,94 +8,93 @@ weight: 18
 url: /sv/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
 
-## Introduktion till Aspose.Slides för .NET
+# Skriv steg för steg handledning om att konvertera diabilder till PDF med anteckningar med Aspose.Slides för .NET
 
-Aspose.Slides för .NET är ett funktionsrikt bibliotek som ger utvecklare möjlighet att skapa, manipulera och konvertera PowerPoint-presentationer i olika format programmatiskt. Oavsett om du arbetar med bilder, former, bilder, animationer eller talaranteckningar, erbjuder Aspose.Slides för .NET en omfattande uppsättning verktyg för att tillgodose dina behov.
+Letar du efter ett pålitligt sätt att konvertera dina PowerPoint-bilder till PDF-format samtidigt som du bevarar alla viktiga anteckningar? Kolla inte vidare! I denna omfattande handledning kommer vi att guida dig genom processen att använda Aspose.Slides för .NET för att utföra denna uppgift steg för steg.
 
-## Installation av Aspose.Slides för .NET
+## 1. Introduktion
 
- Innan vi dyker in i konverteringsprocessen måste du ha Aspose.Slides för .NET installerat i din utvecklingsmiljö. Du kan ladda ner och installera biblioteket genom att följa instruktionerna i[dokumentation](https://releases.aspose.com/email/net/).
+Att konvertera PowerPoint-bilder till PDF med anteckningar kan vara ett värdefullt verktyg för att dela presentationer samtidigt som man säkerställer att viktiga sammanhang och kommentarer behålls. Aspose.Slides för .NET ger en kraftfull lösning för denna uppgift.
 
-## Grundläggande kunskaper i C#-programmering
+## 2. Ställa in din miljö
 
-Även om du inte behöver vara en C#-expert, kommer en grundläggande förståelse av C#-programmeringskoncept att vara till hjälp när vi fortsätter med kodimplementeringen.
+Innan vi dyker in i kodningsprocessen, se till att du har den nödvändiga miljön inställd. Du kommer att behöva:
 
-## Laddar presentationsfil
+- Visual Studio eller din föredragna .NET-utvecklingsmiljö.
+- Aspose.Slides för .NET-biblioteket installerat.
+- En PowerPoint-presentation med anteckningar som du vill konvertera.
 
-För att komma igång, se till att du har PowerPoint-presentationsfilen (PPT eller PPTX) som du vill konvertera till PDF med anteckningar. Du kan använda exempel på presentationsfiler för teständamål.
+## 3. Laddar presentationen
 
-## Få åtkomst till bildanteckningar
-
-Varje bild i en PowerPoint-presentation kan ha åtföljande talaranteckningar som ger presentatören ytterligare sammanhang. Dessa anteckningar är värdefulla när du konverterar bilder till PDF, eftersom de förbättrar förståelsen av innehållet.
-
-## Konvertera diabilder till PDF med Notes
-
-Låt oss nu gå vidare till den mest avgörande delen: konvertera bilder tillsammans med deras anteckningar till ett PDF-dokument. Aspose.Slides för .NET förenklar denna process.
-
-## Kodimplementering
-
-Nedan finns ett förenklat exempel på hur du kan konvertera bilder till PDF med anteckningar med Aspose.Slides för .NET:
+I din C#-kod måste du ladda PowerPoint-presentationen som du vill konvertera. Så här kan du göra det:
 
 ```csharp
-using Aspose.Slides;
-using System;
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-class Program
-{
-    static void Main()
-    {
-        // Ladda presentationen
-        using (Presentation presentation = new Presentation("your-presentation.pptx"))
-        {
-            // Iterera genom varje bild
-            foreach (ISlide slide in presentation.Slides)
-            {
-                // Få åtkomst till bildanteckningar
-                string slideNotes = slide.NotesText;
-
-                //Konvertera bild och anteckningar till PDF
-                // Kod för PDF-konvertering
-            }
-        }
-    }
-}
+Presentation presentation = new Presentation(dataDir + "SelectedSlides.pptx");
 ```
 
-Observera att detta är ett förenklat exempel och att du måste införliva PDF-konverteringslogiken baserat på dina krav.
+## 4. Klona objektglaset
 
-## Avancerad anpassning (valfritt)
+För att säkerställa att din PDF innehåller alla nödvändiga bilder med anteckningar kan du klona dem från den ursprungliga presentationen. Här är hur:
 
-Aspose.Slides för .NET erbjuder olika anpassningsalternativ för att förbättra utseendet och strukturen på din konverterade PDF. Du kan utforska dessa alternativ i dokumentationen.
+```csharp
+Presentation auxPresentation = new Presentation();
+ISlide slide = presentation.Slides[0];
+auxPresentation.Slides.InsertClone(0, slide);
+```
 
-## Fördelar med att använda Aspose.Slides för .NET
+## 5. Justera objektglasets storlek
 
-- Sömlös konvertering av bilder och anteckningar till PDF
-- Omfattande API för att manipulera PowerPoint-presentationer
-- Stöd över plattformar
-- Regelbundna uppdateringar och dedikerad support
+Du kanske vill justera bildstorleken så att den passar din PDF. Aspose.Slides för .NET låter dig göra detta enkelt:
 
-## Slutsats
+```csharp
+auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
+```
 
-Konvertering av bilder till PDF med anteckningar görs enkelt och effektivt med Aspose.Slides för .NET. Genom att följa stegen som beskrivs i den här guiden kan du säkerställa att presentationens innehåll och sammanhang bevaras sömlöst i PDF-formatet.
+## 6. Konfigurera PDF-alternativ
 
-## FAQ's
+För att styra hur dina anteckningar kommer att visas i PDF:en kan du konfigurera PDF-alternativen:
 
-## Hur kommer jag åt talaranteckningar för varje bild?
+```csharp
+PdfOptions pdfOptions = new PdfOptions();
+INotesCommentsLayoutingOptions options = pdfOptions.NotesCommentsLayouting;
+options.NotesPosition = NotesPositions.BottomFull;
+```
 
- För att komma åt talaranteckningar för varje bild kan du använda`NotesText` egendom av`ISlide` gränssnitt från Aspose.Slides för .NET.
+## 7. Spara som PDF med Notes
 
-## Är Aspose.Slides för .NET kompatibelt med både PPT- och PPTX-format?
+Slutligen kan du spara din presentation som en PDF med anteckningar:
 
-Ja, Aspose.Slides för .NET är kompatibelt med både PPT- och PPTX-format, vilket gör att du kan arbeta med ett brett utbud av PowerPoint-presentationsfiler.
+```csharp
+auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
+```
 
-## Kan jag anpassa utseendet på den konverterade PDF-filen?
+## 8. Slutsats
 
-Absolut! Aspose.Slides för .NET tillhandahåller olika anpassningsalternativ som låter dig kontrollera utseendet, layouten och strukturen för den konverterade PDF-filen.
+Grattis! Du har framgångsrikt konverterat dina PowerPoint-bilder till ett PDF-format samtidigt som du har bevarat alla viktiga anteckningar. Aspose.Slides för .NET gör denna process enkel och effektiv.
 
-## Är Aspose.Slides för .NET lämpligt för plattformsoberoende utveckling?
+## 9. Vanliga frågor
 
-Ja, Aspose.Slides för .NET är utformad för att stödja plattformsoberoende utveckling, vilket gör den mångsidig för olika applikationsmiljöer.
+### F1: Kan jag anpassa layouten för anteckningarna i PDF-filen?
 
-## Var kan jag hitta mer information om avancerade funktioner och exempel?
+ Ja, du kan anpassa layouten för anteckningarna med hjälp av`INotesCommentsLayoutingOptions` i PDF-alternativen.
 
- För mer avancerade funktioner, kodexempel och detaljerad dokumentation, se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+### F2: Stöder Aspose.Slides för .NET andra utdataformat förutom PDF?
+
+Ja, Aspose.Slides för .NET stöder olika utdataformat, inklusive PPTX, DOCX och mer.
+
+### F3: Finns det en testversion tillgänglig för Aspose.Slides för .NET?
+
+ Ja, du kan få en gratis provversion av Aspose.Slides för .NET på[https://releases.aspose.com/](https://releases.aspose.com/).
+
+### F4: Var kan jag få support för Aspose.Slides för .NET?
+
+ Du kan hitta stöd och diskussioner i samhället på[https://forum.aspose.com/](https://forum.aspose.com/).
+
+### F5: Kan jag köpa en tillfällig licens för Aspose.Slides för .NET?
+
+ Ja, du kan köpa en tillfällig licens på[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+
+Sammanfattningsvis, med Aspose.Slides för .NET kan du enkelt konvertera PowerPoint-bilder till PDF-format med anteckningar intakta. Det är ett värdefullt verktyg för proffs som behöver dela presentationer med kollegor och kunder samtidigt som det säkerställer att viktiga sammanhang inte går förlorade.

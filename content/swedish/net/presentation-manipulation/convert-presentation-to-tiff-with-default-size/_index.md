@@ -45,7 +45,10 @@ Efter att ha laddat presentationen är nästa steg att konvertera den till ett T
 
 ```csharp
 // Konvertera till TIFF med standardstorlek
-var options = new TiffOptions(TiffCompression.Default);
+var options = new TiffOptions()
+{
+    CompressionType = TiffCompressionTypes.Default;
+};
 presentation.Save("output.tiff", SaveFormat.Tiff, options);
 ```
 
@@ -55,7 +58,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff, options);
 
 ```csharp
 // Spara TIFF-bilden
-presentation.Save("output.tiff", SaveFormat.Tiff);
+presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ```
 
 ## Slutsats
@@ -70,7 +73,7 @@ Du kan styra TIFF-bildkvaliteten genom att ändra komprimeringsalternativen. St�
 
 ### Kan jag konvertera specifika bilder istället för hela presentationen?
 
- Ja, du kan selektivt konvertera specifika bilder till TIFF-format genom att använda`SlideEx` klass för att komma åt enskilda bilder och sedan konvertera och spara dem som TIFF-bilder.
+ Ja, du kan selektivt konvertera specifika bilder till TIFF-format genom att använda`Slide` klass för att komma åt enskilda bilder och sedan konvertera och spara dem som TIFF-bilder.
 
 ### Är Aspose.Slides för .NET kompatibelt med olika versioner av PowerPoint?
 

@@ -142,7 +142,7 @@ Evet, Aspose.Slides'ın animasyon özelliklerini kullanarak slayt öğelerine ö
 
 kullanarak slayt geçişlerini programlı olarak tetikleyebilirsiniz.`SlideShowSettings` sınıf ve yöntemleri.
 
-### Belirli slaytlara geçiş sesleri eklemek mümkün müdür?
+### Belirli slaytlara geçiş sesleri eklemek mümkün mü?
 
 Kesinlikle! Aspose.Slides, gelişmiş sunum deneyimleri için geçiş ses efektlerini birleştirmenize olanak tanır.
 

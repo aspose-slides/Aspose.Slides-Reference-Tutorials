@@ -12,7 +12,7 @@ Im heutigen digitalen Zeitalter spielen visuelle Inhalte eine entscheidende Roll
 
 ## Voraussetzungen
 
-Bevor wir uns mit der technischen Umsetzung befassen, stellen Sie sicher, dass die folgenden Voraussetzungen gegeben sind:
+Bevor wir uns mit der technischen Umsetzung befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - Visual Studio ist auf Ihrem Computer installiert
 - Grundlegendes Verständnis der Programmiersprache C#

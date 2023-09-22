@@ -20,7 +20,7 @@ Präsentationen enthalten oft sensible Daten, komplexe Diagramme oder Elemente, 
 
 Bevor wir uns mit den technischen Details befassen, stellen wir sicher, dass wir alles für die Arbeit mit Aspose.Slides eingerichtet haben.
 
-1.  Installation: Laden Sie zunächst die Aspose.Slides für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/slides/net/) . Sie können sich auch die ausführliche API-Referenz unter ansehen[API-Referenz](https://reference.aspose.com/slides/net/).
+1. Installation: Laden Sie zunächst die Aspose.Slides für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/slides/net/) . Sie können sich auch die ausführliche API-Referenz unter ansehen[API-Referenz](https://reference.aspose.com/slides/net/).
 
 2. Erstellen eines Projekts: Starten Sie ein neues .NET-Projekt in Ihrer bevorzugten Entwicklungsumgebung. Stellen Sie sicher, dass Sie über die erforderlichen Verweise auf die Aspose.Slides-Bibliothek verfügen.
 
@@ -60,7 +60,7 @@ foreach (IShape shape in slide.Shapes)
 
 ## Verborgene Formen anzeigen
 
- Natürlich müssen Sie irgendwann auch diese verborgenen Formen aufdecken. Setzen Sie einfach die Sichtbarkeitseigenschaft wieder auf`true`:
+Natürlich müssen Sie irgendwann auch diese verborgenen Formen aufdecken. Setzen Sie einfach die Sichtbarkeitseigenschaft wieder auf`true`:
 
 ```csharp
 foreach (IShape shape in slide.Shapes)
@@ -126,7 +126,7 @@ Wenn Sie mit Aspose.Slides die Kunst beherrschen, Formen in Präsentationsfolien
 
 ### Wie kann ich eine Form in einer Präsentationsfolie einblenden?
 
- Um eine Form einzublenden, setzen Sie einfach ihre Sichtbarkeitseigenschaft auf`true`.
+Um eine Form einzublenden, setzen Sie einfach ihre Sichtbarkeitseigenschaft auf`true`.
 
 ### Kann ich Animationen auf ausgeblendete Formen anwenden?
 

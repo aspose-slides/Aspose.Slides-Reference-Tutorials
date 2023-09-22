@@ -44,14 +44,12 @@ pres.Save(gifStream, SaveFormat.Gif);
 Puoi personalizzare il processo di generazione della GIF regolando parametri come durata, dimensione e qualità della diapositiva. Ad esempio, per impostare la durata della diapositiva su 2 secondi e la dimensione GIF di output su 800x600 pixel, utilizza il seguente codice:
 
 ```csharp
-GifOptions gifOptions = new GifOptions();
-gifOptions.SlideTransitions = true;
-gifOptions.SlideTransitionsTransparency = true;
-gifOptions.Quality = 80;
-gifOptions.SlideSize = new Size(800, 600);
-gifOptions.TimeResolution = 2000; // 2 secondi
-
-pres.Save(gifStream, SaveFormat.Gif);
+GifOptions gifOptions = new GifOptions(){
+FrameSize = new Size(800, 600), // la dimensione della GIF risultante
+DefaultDelay = 2000, // per quanto tempo verrà mostrata ciascuna diapositiva prima di passare a quella successiva
+TransitionFps = 35 // aumentare gli FPS per migliorare la qualità dell'animazione di transizione
+}
+pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 ```
 
 ## Salvataggio ed esportazione della GIF
@@ -95,15 +93,14 @@ class Program
     {
         using Presentation pres = new Presentation("presentation.pptx");
 
-        GifOptions gifOptions = new GifOptions();
-        gifOptions.SlideTransitions = true;
-        gifOptions.SlideTransitionsTransparency = true;
-        gifOptions.Quality = 80;
-        gifOptions.SlideSize = new Size(800, 600);
-        gifOptions.TimeResolution = 2000; // 2 secondi
+        GifOptions gifOptions = new GifOptions(){
+        FrameSize = new Size(800, 600), // la dimensione della GIF risultante
+        DefaultDelay = 2000, // per quanto tempo verrà mostrata ciascuna diapositiva prima di passare a quella successiva
+        TransitionFps = 35 // aumentare gli FPS per migliorare la qualità dell'animazione di transizione
+        }
 
         using MemoryStream gifStream = new MemoryStream();
-        pres.Save(gifStream, SaveFormat.Gif);
+        pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 
         using FileStream gifFile = new FileStream("output.gif", FileMode.Create);
         gifStream.WriteTo(gifFile);
@@ -113,7 +110,7 @@ class Program
 
 ## Conclusione
 
-In questo articolo, abbiamo esplorato come convertire le diapositive della presentazione in formato GIF utilizzando Aspose.Slides per .NET. Abbiamo trattato l'installazione della libreria, il caricamento di una presentazione, la personalizzazione delle opzioni GIF e la gestione delle eccezioni. Seguendo la guida passo passo e utilizzando i frammenti di codice forniti, puoi facilmente integrare questa funzionalità nelle tue applicazioni e migliorare l'impatto visivo delle tue presentazioni.
+In questo articolo, abbiamo esplorato come convertire le diapositive della presentazione in formato GIF utilizzando Aspose.Slides per .NET. Abbiamo trattato l'installazione della libreria, il caricamento di una presentazione, la personalizzazione delle opzioni GIF e la gestione delle eccezioni. Seguendo la guida passo passo e utilizzando i frammenti di codice forniti, puoi facilmente integrare questa funzionalità nelle tue applicazioni e migliorare l'attrattiva visiva delle tue presentazioni.
 
 ## Domande frequenti
 

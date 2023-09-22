@@ -18,7 +18,7 @@ En el ámbito de la comunicación moderna, las ayudas visuales desempeñan un pa
 
 Antes de profundizar en el proceso de agregar líneas simples a las diapositivas de una presentación, es esencial configurar el entorno de desarrollo. Siga estos pasos para garantizar un flujo de trabajo fluido:
 
-1.  Instale Aspose.Slides: comience descargando e instalando la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde el[Referencia de API de Aspose.Slides .NET](https://reference.aspose.com/slides/net/) página.
+1.  Instale Aspose.Slides: comience descargando e instalando la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde el[Referencia de la API .NET de Aspose.Slides](https://reference.aspose.com/slides/net/) página.
 
 2. Cree un nuevo proyecto: abra su entorno de desarrollo integrado (IDE) preferido y cree un nuevo proyecto. Asegúrese de hacer referencia a la biblioteca Aspose.Slides en su proyecto.
 
@@ -75,7 +75,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 ## Preguntas frecuentes
 
 ### ¿Cómo instalo la biblioteca Aspose.Slides?
- Para instalar la biblioteca Aspose.Slides, visite el[Referencia de API de Aspose.Slides .NET](https://reference.aspose.com/slides/net/) página y descargar la biblioteca. Siga las instrucciones de instalación proporcionadas para integrarlo en su proyecto .NET.
+ Para instalar la biblioteca Aspose.Slides, visite el[Referencia de la API .NET de Aspose.Slides](https://reference.aspose.com/slides/net/) página y descargar la biblioteca. Siga las instrucciones de instalación proporcionadas para integrarlo en su proyecto .NET.
 
 ### ¿Puedo personalizar el color de las líneas simples?
  Sí, puedes personalizar el color de las líneas simples modificando el`SolidFillColor` propiedad de la`LineFormat` Objeto asociado con la forma de la línea. Simplemente configure el color al valor deseado usando RGB u otros formatos de color.

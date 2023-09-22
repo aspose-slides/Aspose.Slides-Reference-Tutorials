@@ -8,94 +8,93 @@ weight: 18
 url: /tr/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
 
-## Aspose.Slides for .NET'e Giriş
+# Aspose.Slides for .NET Kullanarak Slaytları Notlarla PDF'ye Dönüştürmeye İlişkin Adım Adım Eğitim Kılavuzu Yazma
 
-Aspose.Slides for .NET, geliştiricilerin çeşitli formatlardaki PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan, zengin özelliklere sahip bir kitaplıktır. İster slaytlarla, şekillerle, resimlerle, animasyonlarla, ister konuşmacı notlarıyla çalışıyor olun, Aspose.Slides for .NET ihtiyaçlarınızı karşılayacak kapsamlı bir araç seti sunar.
+Tüm önemli notları korurken PowerPoint slaytlarınızı PDF formatına dönüştürmenin güvenilir bir yolunu mu arıyorsunuz? Başka yerde arama! Bu kapsamlı eğitimde, bu görevi adım adım gerçekleştirmek için Aspose.Slides for .NET'i kullanma sürecinde size rehberlik edeceğiz.
 
-## Aspose.Slides for .NET'in kurulumu
+## 1. Giriş
 
- Dönüştürme sürecine dalmadan önce, geliştirme ortamınızda Aspose.Slides for .NET'in kurulu olması gerekir. Kitaplığı, verilen talimatları izleyerek indirip yükleyebilirsiniz.[dokümantasyon](https://releases.aspose.com/email/net/).
+PowerPoint slaytlarını notlarla birlikte PDF'ye dönüştürmek, önemli bağlam ve yorumların korunmasını sağlarken sunumları paylaşmak için değerli bir araç olabilir. Aspose.Slides for .NET bu görev için güçlü bir çözüm sunar.
 
-## C# programlamaya ilişkin temel bilgiler
+## 2. Ortamınızı Kurmak
 
-Bir C# uzmanı olmanıza gerek olmasa da, kod uygulamaya devam ederken C# programlama kavramlarına ilişkin temel bir anlayış faydalı olacaktır.
+Kodlama sürecine geçmeden önce gerekli ortamın kurulduğundan emin olun. İhtiyacın olacak:
 
-## Sunum Dosyası Yükleniyor
+- Visual Studio veya tercih ettiğiniz .NET geliştirme ortamı.
+- Aspose.Slides for .NET kütüphanesi kuruldu.
+- Dönüştürmek istediğiniz notları içeren bir PowerPoint sunumu.
 
-Başlamak için, notları içeren PDF'ye dönüştürmek istediğiniz PowerPoint sunum dosyasının (PPT veya PPTX) elinizde olduğundan emin olun. Örnek sunum dosyalarını test amacıyla kullanabilirsiniz.
+## 3. Sunumun Yüklenmesi
 
-## Slayt Notlarına Erişim
-
-Bir PowerPoint sunumundaki her slayda, sunum yapan kişiye ek bağlam sağlayan konuşmacı notları eşlik edebilir. Bu notlar, içeriğin anlaşılmasını iyileştirdiğinden slaytları PDF'ye dönüştürürken değerlidir.
-
-## Slaytları Notlarla PDF'ye Dönüştürme
-
-Şimdi en önemli kısma geçelim: Slaytları notlarıyla birlikte PDF belgesine dönüştürme. Aspose.Slides for .NET bu süreci basitleştirir.
-
-## Kod Uygulaması
-
-Aşağıda Aspose.Slides for .NET kullanarak slaytları notlarla birlikte PDF'ye nasıl dönüştürebileceğinizin basitleştirilmiş bir örneğini bulabilirsiniz:
+C# kodunuzda dönüştürmek istediğiniz PowerPoint sunumunu yüklemeniz gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
-using Aspose.Slides;
-using System;
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
 
-class Program
-{
-    static void Main()
-    {
-        // Sunuyu yükle
-        using (Presentation presentation = new Presentation("your-presentation.pptx"))
-        {
-            // Her slaytta yineleme yapın
-            foreach (ISlide slide in presentation.Slides)
-            {
-                // Slayt notlarına erişme
-                string slideNotes = slide.NotesText;
-
-                //Slaydı ve notları PDF'ye dönüştürün
-                // PDF dönüştürme kodu
-            }
-        }
-    }
-}
+Presentation presentation = new Presentation(dataDir + "SelectedSlides.pptx");
 ```
 
-Bunun basitleştirilmiş bir örnek olduğunu ve gereksinimlerinize göre PDF dönüştürme mantığını dahil etmeniz gerekeceğini unutmayın.
+## 4. Slaytın Klonlanması
 
-## Gelişmiş Özelleştirme (İsteğe Bağlı)
+PDF'nizin notlarla birlikte gerekli tüm slaytları içerdiğinden emin olmak için bunları orijinal sunumdan kopyalayabilirsiniz. İşte nasıl:
 
-Aspose.Slides for .NET, dönüştürülen PDF'nizin görünümünü ve yapısını geliştirmek için çeşitli özelleştirme seçenekleri sunar. Bu seçenekleri belgelerde keşfedebilirsiniz.
+```csharp
+Presentation auxPresentation = new Presentation();
+ISlide slide = presentation.Slides[0];
+auxPresentation.Slides.InsertClone(0, slide);
+```
 
-## Aspose.Slides for .NET Kullanmanın Yararları
+## 5. Slayt Boyutunun Ayarlanması
 
-- Slaytların ve notların PDF'ye sorunsuz dönüştürülmesi
-- PowerPoint sunumlarını düzenlemek için kapsamlı API
-- Platformlar arası destek
-- Düzenli güncellemeler ve özel destek
+Slayt boyutunu PDF'nize uyacak şekilde ayarlamak isteyebilirsiniz. Aspose.Slides for .NET bunu kolaylıkla yapmanızı sağlar:
 
-## Çözüm
+```csharp
+auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
+```
 
-Aspose.Slides for .NET ile slaytları notlarla birlikte PDF'ye dönüştürmek kolay ve verimli hale geldi. Bu kılavuzda özetlenen adımları izleyerek sunumunuzun içeriğinin ve bağlamının PDF formatında sorunsuz bir şekilde korunmasını sağlayabilirsiniz.
+## 6. PDF Seçeneklerini Yapılandırma
 
-## SSS'ler
+Notlarınızın PDF'de nasıl görüntüleneceğini kontrol etmek için PDF seçeneklerini yapılandırabilirsiniz:
 
-## Her slaydın konuşmacı notlarına nasıl erişebilirim?
+```csharp
+PdfOptions pdfOptions = new PdfOptions();
+INotesCommentsLayoutingOptions options = pdfOptions.NotesCommentsLayouting;
+options.NotesPosition = NotesPositions.BottomFull;
+```
 
- Her slaydın konuşmacı notlarına erişmek için`NotesText` mülkiyeti`ISlide` Aspose.Slides for .NET tarafından sağlanan arayüz.
+## 7. Notlarla PDF olarak kaydetme
 
-## Aspose.Slides for .NET hem PPT hem de PPTX formatlarıyla uyumlu mu?
+Son olarak sunumunuzu notlarla birlikte PDF olarak kaydedebilirsiniz:
 
-Evet, Aspose.Slides for .NET hem PPT hem de PPTX formatlarıyla uyumludur ve çok çeşitli PowerPoint sunum dosyalarıyla çalışmanıza olanak tanır.
+```csharp
+auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
+```
 
-## Dönüştürülen PDF'nin görünümünü özelleştirebilir miyim?
+## 8. Sonuç
 
-Kesinlikle! Aspose.Slides for .NET, dönüştürülen PDF'nin görünümünü, düzenini ve yapısını kontrol etmenize olanak tanıyan çeşitli özelleştirme seçenekleri sunar.
+Tebrikler! Tüm önemli notları korurken PowerPoint slaytlarınızı başarıyla PDF biçimine dönüştürdünüz. Aspose.Slides for .NET bu süreci basit ve verimli hale getirir.
 
-## Aspose.Slides for .NET platformlar arası geliştirmeye uygun mu?
+## 9. SSS
 
-Evet, Aspose.Slides for .NET, platformlar arası geliştirmeyi destekleyecek şekilde tasarlanmıştır, bu da onu çeşitli uygulama ortamları için çok yönlü hale getirir.
+### S1: PDF'deki notların düzenini özelleştirebilir miyim?
 
-## Gelişmiş özellikler ve örnekler hakkında daha fazla bilgiyi nerede bulabilirim?
+ Evet, notların düzenini kullanarak özelleştirebilirsiniz.`INotesCommentsLayoutingOptions` PDF seçeneklerinde.
 
- Daha gelişmiş özellikler, kod örnekleri ve ayrıntılı belgeler için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+### S2: Aspose.Slides for .NET, PDF'nin yanı sıra diğer çıktı formatlarını da destekliyor mu?
+
+Evet, Aspose.Slides for .NET, PPTX, DOCX ve daha fazlası dahil olmak üzere çeşitli çıktı formatlarını destekler.
+
+### S3: Aspose.Slides for .NET'in deneme sürümü mevcut mu?
+
+ Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[https://releases.aspose.com/](https://releases.aspose.com/).
+
+### S4: Aspose.Slides for .NET desteğini nereden alabilirim?
+
+ Destek ve topluluk tartışmalarını şu adreste bulabilirsiniz:[https://forum.aspose.com/](https://forum.aspose.com/).
+
+### S5: Aspose.Slides for .NET için geçici bir lisans satın alabilir miyim?
+
+ Evet, şu adresten geçici bir lisans satın alabilirsiniz:[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+
+Sonuç olarak, Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarını notları bozulmadan kolayca PDF formatına dönüştürebilirsiniz. Önemli bağlamın kaybolmamasını sağlarken sunumlarını iş arkadaşları ve müşterileriyle paylaşmaya ihtiyaç duyan profesyoneller için değerli bir araçtır.

@@ -44,14 +44,12 @@ pres.Save(gifStream, SaveFormat.Gif);
 Вы можете настроить процесс создания GIF, настроив такие параметры, как продолжительность, размер и качество слайда. Например, чтобы установить продолжительность слайда 2 секунды и размер выходного GIF-файла 800x600 пикселей, используйте следующий код:
 
 ```csharp
-GifOptions gifOptions = new GifOptions();
-gifOptions.SlideTransitions = true;
-gifOptions.SlideTransitionsTransparency = true;
-gifOptions.Quality = 80;
-gifOptions.SlideSize = new Size(800, 600);
-gifOptions.TimeResolution = 2000; // 2 секунды
-
-pres.Save(gifStream, SaveFormat.Gif);
+GifOptions gifOptions = new GifOptions(){
+FrameSize = new Size(800, 600), // размер полученного GIF
+DefaultDelay = 2000, // как долго будет отображаться каждый слайд, пока он не будет заменен на следующий
+TransitionFps = 35 // увеличьте FPS, чтобы улучшить качество анимации перехода
+}
+pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 ```
 
 ## Сохранение и экспорт GIF
@@ -95,15 +93,14 @@ class Program
     {
         using Presentation pres = new Presentation("presentation.pptx");
 
-        GifOptions gifOptions = new GifOptions();
-        gifOptions.SlideTransitions = true;
-        gifOptions.SlideTransitionsTransparency = true;
-        gifOptions.Quality = 80;
-        gifOptions.SlideSize = new Size(800, 600);
-        gifOptions.TimeResolution = 2000; // 2 секунды
+        GifOptions gifOptions = new GifOptions(){
+        FrameSize = new Size(800, 600), // размер полученного GIF
+        DefaultDelay = 2000, // как долго будет отображаться каждый слайд, пока он не будет заменен на следующий
+        TransitionFps = 35 // увеличьте FPS, чтобы улучшить качество анимации перехода
+        }
 
         using MemoryStream gifStream = new MemoryStream();
-        pres.Save(gifStream, SaveFormat.Gif);
+        pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 
         using FileStream gifFile = new FileStream("output.gif", FileMode.Create);
         gifStream.WriteTo(gifFile);

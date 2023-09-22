@@ -47,7 +47,7 @@ Sunuyu yükledikten sonra zaman çizelgesine ve ilgili ses parçalarına erişeb
 // İlk slayda erişin
 var slide = presentation.Slides[0];
 
-//Slaydın zaman çizelgesine erişin
+// Slaydın zaman çizelgesine erişin
 var timeline = slide.Timeline;
 ```
 
@@ -61,7 +61,7 @@ foreach (var timeLineShape in timeline.Shapes)
     if (timeLineShape.MediaType == MediaType.Audio)
     {
         var audio = (IAudioFrame)timeLineShape;
-        // Ses işleme kodunu buraya çıkarın
+        //Ses işleme kodunu buraya çıkarın
     }
 }
 ```

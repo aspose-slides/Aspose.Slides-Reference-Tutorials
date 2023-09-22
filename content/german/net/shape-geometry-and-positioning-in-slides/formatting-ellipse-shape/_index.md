@@ -95,7 +95,7 @@ ellipse.Height = newHeight;
 
 ## Text zu Ellipsenformen hinzufügen
 
-Das Einfügen von Text in Ellipsenformen kann Kontext bieten und die von Ihnen vermittelte Botschaft verstärken. So können Sie Text innerhalb einer Ellipsenform hinzufügen und formatieren:
+Durch die Einbindung von Text in Ellipsenformen können Sie Kontext schaffen und die von Ihnen vermittelte Botschaft verstärken. So können Sie Text innerhalb einer Ellipsenform hinzufügen und formatieren:
 
 ```csharp
 // Greifen Sie auf die Ellipsenform zu

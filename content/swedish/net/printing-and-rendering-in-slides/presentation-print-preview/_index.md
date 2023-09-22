@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Förhandsgranska utskrifter
 
- För att förhandsgranska utskriften av presentationen kan du använda`Print` metod som tillhandahålls av`PrintManager` klass. Med den här metoden kan du skapa en förhandsgranskningsbild av presentationen. Så här kan du göra det:
+ För att förhandsgranska utskriften av presentationen kan du använda`Print`metod som tillhandahålls av`PrintManager` klass. Med den här metoden kan du skapa en förhandsgranskningsbild av presentationen. Så här kan du göra det:
 
 ```csharp
 using Aspose.Slides.Export;
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Skapa förhandsgranskningsbilden för utskrift
     using (Bitmap previewImage = printManager.Print())
     {
-        //Din kod för att visa eller spara förhandsgranskningsbilden
+        // Din kod för att visa eller spara förhandsgranskningsbilden
     }
 }
 ```
@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Skapa förhandsgranskningsbilden med anpassade inställningar
     using (Bitmap previewImage = printManager.Print())
     {
-        //Din kod för att visa eller spara förhandsgranskningsbilden
+        // Din kod för att visa eller spara förhandsgranskningsbilden
     }
 }
 ```
@@ -106,7 +106,7 @@ using (Bitmap previewImage = /* Obtain the preview image */)
 }
 ```
 
- Byta ut`"print-preview.png"`med önskad sökväg och namn.
+ Byta ut`"print-preview.png"` med önskad sökväg och namn.
 
 ## Slutsats
 
@@ -116,11 +116,11 @@ I den här guiden har vi täckt processen med att använda Aspose.Slides för .N
 
 ### Hur kan jag anpassa utskriftsinställningarna ytterligare?
 
- Du kan utforska de olika fastigheterna som finns tillgängliga i`PrintManager.Settings` invända mot att finjustera utskriftsinställningarna enligt dina specifika krav. Justera parametrar som bildövergångar, skalning och sidorientering för att uppnå önskad utskrift.
+ Du kan utforska de olika fastigheterna som finns tillgängliga i`PrintManager.Settings`invända mot att finjustera utskriftsinställningarna enligt dina specifika krav. Justera parametrar som bildövergångar, skalning och sidorientering för att uppnå önskad utskrift.
 
 ### Kan jag förhandsgranska specifika bilder istället för hela presentationen?
 
- Ja, du kan använda`PrintManager.Print`metod med ytterligare parametrar för att ange intervallet av bilder du vill förhandsgranska. Detta gör att du kan fokusera på specifika delar av presentationen under förhandsgranskningen.
+ Ja, du kan använda`PrintManager.Print` metod med ytterligare parametrar för att ange intervallet av bilder du vill förhandsgranska. Detta gör att du kan fokusera på specifika delar av presentationen under förhandsgranskningen.
 
 ### Är det möjligt att integrera funktionalitet för förhandsgranskning i ett Windows Forms-program?
 

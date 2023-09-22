@@ -40,31 +40,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("presentation.pptx");
 ```
 
-## PDF/A Conformance
-
-## Validating PDF/A Compliance
-
-Before converting a presentation to the PDF/A format, it's essential to ensure that it meets the PDF/A compliance standards:
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-// Validate PDF/A compliance
-var validationErrors = presentation.ValidatePdfa(PdfaFormat.PDF_A_1B);
-if (validationErrors.Length == 0)
-{
-    Console.WriteLine("Presentation is PDF/A compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/A compliant.");
-    foreach (var error in validationErrors)
-    {
-        Console.WriteLine(error.Description);
-    }
-}
-```
-
 ## Converting to PDF/A Format
 
 To convert a presentation to the PDF/A format, you can use the following code snippet:
@@ -78,25 +53,6 @@ var options = new PdfOptions
     Compliance = PdfCompliance.PdfA1b
 };
 presentation.Save("output.pdf", SaveFormat.Pdf, options);
-```
-
-## Checking PDF/UA Compliance
-
-To check if a presentation conforms to the PDF/UA standard:
-
-```csharp
-using Aspose.Slides.Export.Pdf;
-
-// Check PDF/UA compliance
-var pdfuaCompliance = presentation.ValidatePdfua();
-if (pdfuaCompliance)
-{
-    Console.WriteLine("Presentation is PDF/UA compliant.");
-}
-else
-{
-    Console.WriteLine("Presentation is not PDF/UA compliant.");
-}
 ```
 
 ## Implementing Accessibility Features

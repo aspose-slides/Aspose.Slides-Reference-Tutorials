@@ -36,7 +36,7 @@ using (Presentation presentation = new Presentation(presentationPath))
 
 ## Paso 2: acceder a diapositivas y animaciones
 
-continuación, debemos acceder a la diapositiva específica y sus animaciones. En este paso, nos centraremos en la diapositiva que contiene la animación que desea rebobinar. Así es cómo:
+A continuación, debemos acceder a la diapositiva específica y sus animaciones. En este paso, nos centraremos en la diapositiva que contiene la animación que desea rebobinar. Así es cómo:
 
 ```csharp
 // Supongamos que el índice de la diapositiva es 0 (primera diapositiva)
@@ -89,4 +89,4 @@ Sí, Aspose.Slides admite varios formatos de PowerPoint, incluidos PPTX, PPT, PP
 
 ### ¿Dónde puedo encontrar más recursos y documentación?
 
-Para obtener documentación completa, tutoriales y ejemplos de código, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
+ Para obtener documentación completa, tutoriales y ejemplos de código, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).

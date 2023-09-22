@@ -37,7 +37,7 @@ Med presentationen laddad är det dags att identifiera och komma åt OLE-objekte
 // Gå till den första bilden
 ISlide slide = presentation.Slides[0];
 
-// Få tillgång till OLE-formerna på bilden
+// Få åtkomst till OLE-formerna på bilden
 foreach (IShape shape in slide.Shapes)
 {
     if (shape is IOleObjectFrame oleObject)
@@ -65,7 +65,7 @@ if (oleObject.ObjectData is OleEmbeddedData oleData)
 När du har gjort de önskade ändringarna av OLE-objektdata, glöm inte att spara presentationen för att bevara dina ändringar:
 
 ```csharp
-//Spara presentationen med ändringar
+// Spara presentationen med ändringar
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

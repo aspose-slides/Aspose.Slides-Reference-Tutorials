@@ -15,12 +15,8 @@ Sunum Manipülasyonu eğitimlerimizi inceleyin ve Aspose.Slides for .NET'in yete
 ## Sunum Düzenleme Eğitimleri
 ### [Program Aracılığıyla Yeni Sunumlar Oluşturun](./create-new-presentations-programmatically/)
 Aspose.Slides for .NET'i kullanarak programlı olarak nasıl sunum oluşturacağınızı öğrenin. Verimli otomasyon için kaynak kodlu adım adım kılavuz.
-### [Sunumlardaki Özel Başlıklar ve Yazı Tipleri](./custom-headers-and-fonts-in-presentations/)
-Aspose.Slides for .NET kullanarak sunumlardaki başlıkları ve yazı tiplerini nasıl özelleştireceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz. Görsel çekiciliği ve marka bilinci oluşturmayı zahmetsizce geliştirin.
 ### [Sunumlar için Özel PDF Dönüştürme Seçenekleri](./custom-pdf-conversion-options-for-presentations/)
 Aspose.Slides for .NET kullanarak sunumlar için PDF dönüştürme seçeneklerinizi geliştirin. Bu adım adım kılavuz, özel PDF dönüştürme ayarlarının nasıl elde edileceğini anlatarak çıktınız üzerinde hassas kontrol sağlar. Sunum dönüşümlerinizi bugün optimize edin.
-### [Sunumlarda SVG Şekillerini Biçimlendirme](./formatting-svg-shapes-in-presentations/)
-Aspose.Slides for .NET kullanarak sunumlarda SVG şekillerini nasıl formatlayacağınızı öğrenin. Kaynak koduyla adım adım kılavuz. Sunum tasarımınızı bugün yükseltin!
 ### [Sunumlarda Matematik Paragraflarını MathML'ye Aktarma](./export-math-paragraphs-to-mathml-in-presentations/)
 Aspose.Slides for .NET'i kullanarak matematik paragraflarını MathML'ye aktararak sunumlarınızı geliştirin. Doğru matematiksel işleme için adım adım kılavuzumuzu izleyin. Aspose.Slides'ı indirin ve etkileyici sunumlar oluşturmaya bugün başlayın.
 ### [Medya Dosyalarını Sunumdan HTML'ye Aktarma](./export-media-files-to-html-from-presentation/)
@@ -33,8 +29,6 @@ Aspose.Slides for .NET kullanarak sunumları duyarlı HTML'ye nasıl dönüştü
 Aspose.Slides for .NET kullanarak FODP sunumlarını çeşitli formatlara nasıl dönüştüreceğinizi öğrenin. Kolayca oluşturun, özelleştirin ve optimize edin.
 ### [Sunumlarda Özel Şekil Kimlikleriyle SVG Oluşturun](./generate-svg-with-custom-shape-ids-in-presentations/)
 Aspose.Slides for .NET'i kullanarak özel SVG şekilleri ve kimlikleriyle ilgi çekici sunumlar oluşturun. Kaynak kodu örnekleriyle adım adım etkileşimli slaytlar oluşturmayı öğrenin. Sunumlarınızda görsel çekiciliği ve kullanıcı etkileşimini geliştirin.
-### [HTML Denetleyicisindeki Tüm Yazı Tiplerini Bağla](./link-all-fonts-in-html-controller/)
-Aspose.Slides for .NET kullanarak bir HTML denetleyicideki tüm yazı tiplerini nasıl bağlayacağınızı öğrenin. Kaynak kodu içeren bu adım adım kılavuz, sunumlarınızda tutarlı yazı tipi oluşturma sağlamanıza yardımcı olacaktır. 
 ### [Sunumlarda Adres Mektup Birleştirme Gerçekleştirme](./perform-mail-merge-in-presentations/)
 Bu kapsamlı adım adım kılavuzdan Aspose.Slides for .NET kullanarak sunumlarda adres-mektup birleştirmenin nasıl gerçekleştirileceğini öğrenin. Kolaylıkla kişiselleştirilmiş ve dinamik sunumlar oluşturun.
 ### [ODP Formatını PPTX Formatına Dönüştür](./convert-odp-format-to-pptx-format/)

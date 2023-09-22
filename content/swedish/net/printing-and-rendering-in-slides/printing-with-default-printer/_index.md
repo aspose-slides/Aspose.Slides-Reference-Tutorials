@@ -104,7 +104,7 @@ catch (Exception ex)
 
 ## Slutsats
 
-I den här guiden har vi utforskat hur du skriver ut presentationer med standardskrivaren med Aspose.Slides för .NET. Vi täckte installationen och inställningen av biblioteket, laddning av en presentation, grundläggande och avancerade utskriftsalternativ, samt undantagshantering. Aspose.Slides förenklar processen att arbeta med PowerPoint-filer programmatiskt, och erbjuder ett brett utbud av funktioner för utvecklare.
+den här guiden har vi utforskat hur du skriver ut presentationer med standardskrivaren med Aspose.Slides för .NET. Vi täckte installationen och inställningen av biblioteket, laddning av en presentation, grundläggande och avancerade utskriftsalternativ, samt undantagshantering. Aspose.Slides förenklar processen att arbeta med PowerPoint-filer programmatiskt, och erbjuder ett brett utbud av funktioner för utvecklare.
 
 ## FAQ's
 

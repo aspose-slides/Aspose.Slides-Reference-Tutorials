@@ -120,7 +120,7 @@ using Aspose.Slides;
 // Sunuyu yükle
 using Presentation presentation = new Presentation("your-presentation.pptx");
 
-//Üstbilgileri ve altbilgileri hizalayın
+// Üstbilgileri ve altbilgileri hizalayın
 foreach (ISlide slide in presentation.Slides)
 {
     slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;

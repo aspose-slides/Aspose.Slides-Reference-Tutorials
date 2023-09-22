@@ -47,7 +47,7 @@ Après avoir chargé la présentation, vous pouvez accéder à la timeline et à
 // Accédez à la première diapositive
 var slide = presentation.Slides[0];
 
-//Accéder à la chronologie de la diapositive
+// Accéder à la chronologie de la diapositive
 var timeline = slide.Timeline;
 ```
 
@@ -61,7 +61,7 @@ foreach (var timeLineShape in timeline.Shapes)
     if (timeLineShape.MediaType == MediaType.Audio)
     {
         var audio = (IAudioFrame)timeLineShape;
-        // Extrayez le code de traitement audio ici
+        //Extrayez le code de traitement audio ici
     }
 }
 ```

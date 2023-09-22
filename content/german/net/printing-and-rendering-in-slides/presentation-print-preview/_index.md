@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Vorschau der Druckausgabe
 
- Um eine Vorschau der Druckausgabe der Präsentation anzuzeigen, können Sie die verwenden`Print` Methode, die von der bereitgestellt wird`PrintManager` Klasse. Mit dieser Methode können Sie ein Druckvorschaubild der Präsentation erstellen. So können Sie es machen:
+ Um eine Vorschau der Druckausgabe der Präsentation anzuzeigen, können Sie die verwenden`Print`Methode, die von der bereitgestellt wird`PrintManager` Klasse. Mit dieser Methode können Sie ein Druckvorschaubild der Präsentation erstellen. So können Sie es machen:
 
 ```csharp
 using Aspose.Slides.Export;
@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Erzeugen Sie das Druckvorschaubild
     using (Bitmap previewImage = printManager.Print())
     {
-        //Ihr Code zum Anzeigen oder Speichern des Vorschaubildes
+        // Ihr Code zum Anzeigen oder Speichern des Vorschaubildes
     }
 }
 ```
@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Generieren Sie das Druckvorschaubild mit benutzerdefinierten Einstellungen
     using (Bitmap previewImage = printManager.Print())
     {
-        //Ihr Code zum Anzeigen oder Speichern des Vorschaubildes
+        // Ihr Code zum Anzeigen oder Speichern des Vorschaubildes
     }
 }
 ```
@@ -106,7 +106,7 @@ using (Bitmap previewImage = /* Obtain the preview image */)
 }
 ```
 
- Ersetzen`"print-preview.png"`mit dem gewünschten Dateipfad und Namen.
+ Ersetzen`"print-preview.png"` mit dem gewünschten Dateipfad und Namen.
 
 ## Abschluss
 
@@ -116,11 +116,11 @@ In diesem Handbuch haben wir den Prozess der Verwendung von Aspose.Slides für .
 
 ### Wie kann ich die Druckeinstellungen weiter anpassen?
 
- Sie können die verschiedenen verfügbaren Immobilien erkunden`PrintManager.Settings` Sie möchten die Druckeinstellungen entsprechend Ihren spezifischen Anforderungen optimieren. Passen Sie Parameter wie Folienübergänge, Skalierung und Seitenausrichtung an, um die gewünschte Druckausgabe zu erzielen.
+ Sie können die verschiedenen verfügbaren Immobilien erkunden`PrintManager.Settings`Sie möchten die Druckeinstellungen entsprechend Ihren spezifischen Anforderungen optimieren. Passen Sie Parameter wie Folienübergänge, Skalierung und Seitenausrichtung an, um die gewünschte Druckausgabe zu erzielen.
 
 ### Kann ich statt der gesamten Präsentation eine Vorschau bestimmter Folien anzeigen?
 
- Ja, Sie können das verwenden`PrintManager.Print`-Methode mit zusätzlichen Parametern, um den Bereich der Folien anzugeben, die Sie in der Vorschau anzeigen möchten. Dadurch können Sie sich während der Druckvorschau auf bestimmte Teile der Präsentation konzentrieren.
+ Ja, Sie können das verwenden`PrintManager.Print` -Methode mit zusätzlichen Parametern, um den Bereich der Folien anzugeben, die Sie in der Vorschau anzeigen möchten. Dadurch können Sie sich während der Druckvorschau auf bestimmte Teile der Präsentation konzentrieren.
 
 ### Ist es möglich, die Druckvorschaufunktion in eine Windows Forms-Anwendung zu integrieren?
 

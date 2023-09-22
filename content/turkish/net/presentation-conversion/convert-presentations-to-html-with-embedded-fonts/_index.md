@@ -8,72 +8,115 @@ weight: 13
 url: /tr/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
 
-## Sunumları Gömülü Yazı Tipleriyle HTML'ye Dönüştürmeye Giriş
+Günümüzün dijital çağında sunum ve dokümanların çevrimiçi olarak paylaşılması yaygın bir uygulama haline geldi. Ancak sıklıkla karşılaşılan zorluklardan biri, sunumları HTML'ye dönüştürürken yazı tiplerinizin doğru şekilde görüntülenmesini sağlamaktır. Bu adım adım eğitim, Aspose.Slides for .NET'i kullanarak sunumları gömülü yazı tipleriyle HTML'ye dönüştürme sürecinde size rehberlik edecek ve belgelerinizin tam istediğiniz gibi görünmesini sağlayacaktır.
 
-Sunumların HTML formatına dönüştürülmesi, içeriğin çevrimiçi olarak paylaşılması, sunumların web sitelerine yerleştirilmesi veya farklı cihazlardan erişilebilir hale getirilmesi gibi çeşitli nedenlerle gerekli olabilir. Ancak sunumun orijinal görünümünü ve yazı tiplerini korumak tutarlılık ve okunabilirliği sağlamak açısından çok önemlidir. Aspose.Slides for .NET, geliştiricilerin gömülü yazı tiplerini korurken bu tür dönüşümleri gerçekleştirmesine olanak tanıyan güvenilir bir kitaplıktır.
+## Aspose.Slides for .NET'e Giriş
+
+Eğitime dalmadan önce Aspose.Slides for .NET'i kısaca tanıtalım. Geliştiricilerin .NET uygulamalarında PowerPoint sunumlarıyla çalışmasına olanak tanıyan güçlü bir kitaplıktır. Aspose.Slides ile PowerPoint dosyalarını programlı olarak oluşturabilir, değiştirebilir ve dönüştürebilirsiniz.
 
 ## Önkoşullar
 
-Dönüşüm sürecine dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- C# programlama dilinin temel anlayışı
-- Visual Studio yüklü
-- Aspose.Slides for .NET kitaplığı
+-  Aspose.Slides for .NET: Projenizde Aspose.Slides kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-## Aspose.Slides for .NET'i Yükleme
+## 1. Adım: Projenizi Kurun
 
-Başlamak için Aspose.Slides for .NET'i yüklemek üzere şu adımları izleyin:
+1. Tercih ettiğiniz .NET geliştirme ortamında yeni bir proje oluşturun veya mevcut bir projeyi açın.
 
-1. Visual Studio'yu açın ve yeni bir C# projesi oluşturun.
-2. Solution Explorer'da projeye sağ tıklayın ve "NuGet Paketlerini Yönet" seçeneğini seçin.
-3. "Aspose.Slides"ı arayın ve paketi yükleyin.
+2. Projenize Aspose.Slides kütüphanesine bir referans ekleyin.
 
-## Sunum Yükleniyor
+3. Gerekli ad alanlarını kodunuza aktarın:
 
-Kütüphaneyi kurduktan sonra dönüştürme işlemine başlayabilirsiniz. Bir sunumu nasıl yükleyeceğiniz aşağıda açıklanmıştır:
+   ```csharp
+   using Aspose.Slides;
+   ```
 
-```csharp
-using Aspose.Slides;
+## 2. Adım: Sunumunuzu Yükleyin
 
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-```
-
-## Yazı Tiplerini Gömme
-
-Yazı tiplerinin HTML çıktısına gömülmesini sağlamak için aşağıdaki kodu eklemeniz gerekir:
+ Başlamak için HTML'ye dönüştürmek istediğiniz sunumu yüklemeniz gerekir. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın bulunduğu gerçek dizinle.
 
 ```csharp
-// Sunuda kullanılan tüm yazı tiplerini gömün
-foreach (var font in presentation.FontsManager.GetFonts())
+string dataDir = "Your Document Directory";
+using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    presentation.EmbedFontsManager.AddEmbeddedFont(font);
+    // Kodunuz buraya gelecek
 }
 ```
 
-## HTML'ye dönüştürme
+## 3. Adım: Varsayılan Sunum Yazı Tiplerini Hariç Tut
 
-Gömülü yazı tipleri ile artık sunumu HTML'ye dönüştürmeye devam edebilirsiniz:
+Bu adımda, yerleştirmenin dışında bırakmak istediğiniz varsayılan sunum yazı tiplerini belirtebilirsiniz. Bu, ortaya çıkan HTML dosyasının boyutunun optimize edilmesine yardımcı olabilir.
 
 ```csharp
-// Sunuyu gömülü yazı tipleriyle HTML olarak kaydedin
-presentation.Save("output.html", SaveFormat.Html);
+string[] fontNameExcludeList = { };
+```
+
+## Adım 4: Bir HTML Denetleyicisi seçin
+
+Artık yazı tiplerini HTML'ye gömmek için iki seçeneğiniz var:
+
+### 1. Seçenek: Tüm Yazı Tiplerini Göm
+
+ Sunuda kullanılan tüm yazı tiplerini gömmek için`EmbedAllFontsHtmlController`.
+
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
+```
+
+### Seçenek 2: Tüm Yazı Tiplerini Bağla
+
+ Sunumda kullanılan tüm yazı tiplerine bağlantı vermek için`LinkAllFontsHtmlController`. Sisteminizde fontların bulunduğu dizini belirtmelisiniz.
+
+```csharp
+LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
+```
+
+## Adım 5: HTML Seçeneklerini Tanımlayın
+
+ Oluşturduğunuz bir`HtmlOptions` nesnesini seçin ve HTML biçimlendiriciyi önceki adımda seçtiğiniz biçime ayarlayın.
+
+```csharp
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) // Tüm yazı tiplerini gömmek için embedFontsController'ı kullanın
+};
+```
+
+## Adım 6: HTML olarak kaydedin
+
+ Son olarak sunuyu HTML dosyası olarak kaydedin. İkisinden birini seçebilirsiniz`SaveFormat.Html` veya`SaveFormat.Html5` gereksinimlerinize bağlı olarak.
+
+```csharp
+pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ```
 
 ## Çözüm
 
-Bu kılavuzda Aspose.Slides for .NET kullanarak sunumları gömülü yazı tipleriyle HTML'ye dönüştürme sürecini inceledik. Önkoşulları, kitaplığın kurulumunu, sunumu yüklemeyi, yazı tiplerini yerleştirmeyi ve dönüştürmeyi gerçekleştirmeyi anlattık. Bu adımları izleyerek sunumlarınızın orijinal yazı tipleri korunurken doğru bir şekilde HTML formatına dönüştürülmesini sağlayabilirsiniz.
+Tebrikler! Aspose.Slides for .NET'i kullanarak sunumunuzu gömülü yazı tipleriyle başarıyla HTML'ye dönüştürdünüz. Bu, sunumlarınızı çevrimiçi paylaşırken yazı tiplerinizin doğru şekilde görüntülenmesini sağlar.
 
-## SSS'ler
+Artık güzel biçimlendirilmiş sunumlarınızı güvenle, izleyicilerinizin onları tam olarak istediğiniz gibi göreceğini bilerek kolayca paylaşabilirsiniz.
 
-### Aspose.Slides for .NET'i nasıl kurabilirim?
+ Daha fazla bilgi ve ayrıntılı API referansları için şu adrese göz atın:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
 
- Aspose.Slides for .NET'i NuGet paket yöneticisini kullanarak yükleyebilirsiniz. Ayrıntılı talimatlar için bkz.[dokümantasyon](https://docs.aspose.com/slides/net/installation/).
+## SSS
 
-### PowerPoint sunumlarını diğer formatlara da dönüştürebilir miyim?
+### 1. Aspose.Slides for .NET'i toplu modda kullanarak PowerPoint sunumlarını HTML'ye dönüştürebilir miyim?
 
- Evet, Aspose.Slides for .NET sunumları dönüştürmek için PDF, görseller ve daha fazlasını içeren çok çeşitli formatları destekler. Kontrol edin[dokümantasyon](https://reference.aspose.com/slides/net/) Desteklenen formatların tam listesi için.
+Evet, Aspose.Slides for .NET'i kullanarak sunum dosyalarınız arasında dolaşıp dönüştürme işlemini her birine uygulayarak birden fazla sunumu toplu olarak HTML'ye dönüştürebilirsiniz.
 
-### Aspose.Slides for .NET hem masaüstü hem de web uygulamaları için uygun mu?
+### 2. HTML çıktısının görünümünü özelleştirmenin bir yolu var mı?
 
-Evet, Aspose.Slides for .NET çok yönlüdür ve hem masaüstü hem de web uygulamalarında kullanılabilir. Çeşitli .NET çerçeveleriyle uyumlu API'ler sağlar. Kontrol edin[dokümantasyon](https://docs.aspose.com/slides/net/product-support/) daha fazla bilgi için.
+Kesinlikle! Aspose.Slides for .NET, HTML çıktısının görünümünü ve formatını özelleştirmek için renkleri, yazı tiplerini ve düzeni ayarlama gibi çeşitli seçenekler sunar.
+
+### 3. Aspose.Slides for .NET kullanarak HTML'ye yazı tipi yerleştirme konusunda herhangi bir sınırlama var mı?
+
+Aspose.Slides for .NET mükemmel yazı tipi yerleştirme yetenekleri sunsa da, yazı tiplerini gömerken HTML dosyalarınızın boyutunun artabileceğini unutmayın. Yazı tipi seçimlerinizi web kullanımı için optimize ettiğinizden emin olun.
+
+### 4. Aspose.Slides for .NET ile PowerPoint sunumlarını diğer formatlara dönüştürebilir miyim?
+
+Evet, Aspose.Slides for .NET, PDF, görseller ve daha fazlasını içeren çok çeşitli çıktı formatlarını destekler. Sunumlarınızı dilediğiniz formata kolaylıkla dönüştürebilirsiniz.
+
+### 5. Aspose.Slides for .NET için ek kaynakları ve desteği nerede bulabilirim?
+
+ Belgeler de dahil olmak üzere çok sayıda kaynağa şu adresten erişebilirsiniz:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).

@@ -16,7 +16,7 @@ Dans le monde actuel des présentations et du contenu multimédia, en évolution
 
 Pour commencer à extraire l'audio des diapositives à l'aide d'Aspose.Slides pour .NET, vous devez suivre ces étapes :
 
-1. Installer Aspose.Slides : Vous pouvez télécharger et installer la bibliothèque Aspose.Slides pour .NET à partir du site Web :[ici](https://products.aspose.com/slides/net).
+1.  Installer Aspose.Slides : Vous pouvez télécharger et installer la bibliothèque Aspose.Slides pour .NET à partir du site Web :[ici](https://products.aspose.com/slides/net).
 
 2. Ajouter une référence : une fois que vous avez téléchargé et installé la bibliothèque, ajoutez une référence à votre projet. Cela vous permettra d'accéder à l'API Aspose.Slides dans votre application .NET.
 
@@ -48,7 +48,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Votre code pour traiter les octets audio
+        // Votre code pour traiter les octets audio
     }
 }
 ```
@@ -88,7 +88,7 @@ foreach (IShape shape in slide.Shapes)
         AudioFrame audioFrame = (AudioFrame)shape;
         byte[] audioBytes = audioFrame.EmbeddedAudio.BinaryData;
         
-        //Votre code pour traiter les octets audio
+        // Votre code pour traiter les octets audio
     }
 }
 ```

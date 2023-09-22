@@ -81,7 +81,7 @@ thumbnail.Save("slide-thumbnail.png", ImageFormat.Png);
 
  يمكنك تنزيل مكتبة Aspose.Slides for .NET من[هنا](https://releases.aspose.com/slides/net/).
 
-### هل يمكنني إنشاء صور مصغرة لشرائح معينة فقط؟
+### هل يمكنني إنشاء صور مصغرة لشرائح محددة فقط؟
 
 نعم، يمكنك إنشاء صور مصغرة لشرائح محددة عن طريق توفير فهرس الشريحة المقابل لملف`SlideUtil.GetSlideThumbnail` طريقة.
 

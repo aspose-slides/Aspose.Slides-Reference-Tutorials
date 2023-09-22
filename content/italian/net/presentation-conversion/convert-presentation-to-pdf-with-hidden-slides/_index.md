@@ -34,24 +34,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("sample.pptx");
 ```
 
-## Identificazione e inclusione delle diapositive nascoste
-
-Aspose.Slides fornisce un modo per identificare le diapositive nascoste all'interno di una presentazione e includerle durante la conversione. Ciò può essere ottenuto scorrendo le diapositive e controllandone le proprietà di visibilità:
-
-```csharp
-foreach (var slide in presentation.Slides)
-{
-    if (slide.SlideShowTransition.Hidden)
-    {
-        // Includi diapositiva nascosta nella logica di conversione
-    }
-    else
-    {
-        // Includi la diapositiva visibile nella logica di conversione
-    }
-}
-```
-
 ## Conversione di presentazioni in PDF con diapositive nascoste
 
 Ora che possiamo identificare le diapositive nascoste, procediamo a convertire la presentazione in PDF assicurandoci che siano incluse le diapositive nascoste:

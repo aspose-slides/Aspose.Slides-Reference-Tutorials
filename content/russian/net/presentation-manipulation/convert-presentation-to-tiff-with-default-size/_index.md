@@ -45,7 +45,10 @@ using var presentation = new Presentation("your-presentation.pptx");
 
 ```csharp
 // Конвертировать в TIFF с размером по умолчанию
-var options = new TiffOptions(TiffCompression.Default);
+var options = new TiffOptions()
+{
+    CompressionType = TiffCompressionTypes.Default;
+};
 presentation.Save("output.tiff", SaveFormat.Tiff, options);
 ```
 
@@ -55,7 +58,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff, options);
 
 ```csharp
 // Сохраните изображение TIFF.
-presentation.Save("output.tiff", SaveFormat.Tiff);
+presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ```
 
 ## Заключение
@@ -70,7 +73,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 
 ### Могу ли я конвертировать отдельные слайды, а не всю презентацию?
 
- Да, вы можете выборочно конвертировать отдельные слайды в формат TIFF, используя`SlideEx` класс для доступа к отдельным слайдам, а затем их преобразования и сохранения в виде изображений TIFF.
+ Да, вы можете выборочно конвертировать отдельные слайды в формат TIFF, используя`Slide` класс для доступа к отдельным слайдам, а затем их преобразования и сохранения в виде изображений TIFF.
 
 ### Совместим ли Aspose.Slides for .NET с различными версиями PowerPoint?
 

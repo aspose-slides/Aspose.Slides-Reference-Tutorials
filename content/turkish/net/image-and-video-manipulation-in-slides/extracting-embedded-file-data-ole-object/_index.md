@@ -21,7 +21,7 @@ OLE nesneleri, Microsoft Office uygulamalarında harici dosyaların belgelere ye
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 - Visual Studio veya başka herhangi bir .NET geliştirme ortamı.
--  Aspose.Slides for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
 ## Projenin Kurulumu
 

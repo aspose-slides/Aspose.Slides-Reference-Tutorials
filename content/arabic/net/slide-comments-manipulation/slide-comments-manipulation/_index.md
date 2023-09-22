@@ -22,7 +22,7 @@ url: /ar/net/slide-comments-manipulation/slide-comments-manipulation/
 	 ابدأ بتنزيل وتثبيت مكتبة Aspose.Slides. يمكنك العثور على أحدث إصدار[هنا](https://releases.aspose.com/slides/net/).
 
 2. ### وثائق واجهة برمجة التطبيقات: 
-	 تعرف على وثائق Aspose.Slides API المتوفرة[هنا](https://reference.aspose.com/slides/net/). تعمل هذه الوثائق كمورد قيم لفهم الأساليب والفئات والخصائص المختلفة المتعلقة بمعالجة تعليقات الشرائح.
+	 تعرف على وثائق Aspose.Slides API المتاحة[هنا](https://reference.aspose.com/slides/net/). تعمل هذه الوثائق كمورد قيم لفهم الأساليب والفئات والخصائص المختلفة المتعلقة بمعالجة تعليقات الشرائح.
 
 ## إضافة تعليقات الشرائح
 

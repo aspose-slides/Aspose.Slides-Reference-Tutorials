@@ -34,24 +34,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("sample.pptx");
 ```
 
-## Identifizieren und Einbinden versteckter Folien
-
-Aspose.Slides bietet eine Möglichkeit, versteckte Folien in einer Präsentation zu identifizieren und sie bei der Konvertierung einzubeziehen. Dies kann erreicht werden, indem die Folien durchlaufen und ihre Sichtbarkeitseigenschaften überprüft werden:
-
-```csharp
-foreach (var slide in presentation.Slides)
-{
-    if (slide.SlideShowTransition.Hidden)
-    {
-        // Beziehen Sie versteckte Folien in die Konvertierungslogik ein
-    }
-    else
-    {
-        // Beziehen Sie sichtbare Folien in die Konvertierungslogik ein
-    }
-}
-```
-
 ## Konvertieren einer Präsentation in PDF mit versteckten Folien
 
 Nachdem wir nun versteckte Folien identifizieren können, fahren wir mit der Konvertierung der Präsentation in PDF fort und stellen dabei sicher, dass versteckte Folien enthalten sind:

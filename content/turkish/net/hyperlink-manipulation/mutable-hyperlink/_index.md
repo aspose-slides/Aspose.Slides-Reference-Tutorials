@@ -14,7 +14,7 @@ Değiştirilebilir köprüler, bir sunum içindeki, içerikteki değişikliklere
 
 ## Geliştirme Ortamını Kurma
 
- Başlamak için Aspose.Slides for .NET kitaplığını yüklemeniz gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/). İndirdikten sonra kurulum talimatlarını izleyin.
+Başlamak için Aspose.Slides for .NET kitaplığını yüklemeniz gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/). İndirdikten sonra kurulum talimatlarını izleyin.
 
 ## Yeni Bir Sunu Oluşturma
 
@@ -43,7 +43,7 @@ Yazı tipi boyutu ve rengi gibi özellikleri kullanarak içeriği gerektiği gib
 
 ## Aspose.Slides'ta Köprüleri Anlamak
 
-Aspose.Slides; web bağlantıları, e-posta adresleri ve sunumdaki diğer slaytlara bağlantılar dahil olmak üzere farklı türdeki köprüleri destekler. Kullan`HyperlinkManager` köprülerle çalışmak için sınıf.
+ Aspose.Slides; web bağlantıları, e-posta adresleri ve sunumdaki diğer slaytlara bağlantılar dahil olmak üzere farklı türdeki köprüleri destekler. Kullan`HyperlinkManager` köprülerle çalışmak için sınıf.
 
 ## Değiştirilebilir Köprüler Ekleme
 

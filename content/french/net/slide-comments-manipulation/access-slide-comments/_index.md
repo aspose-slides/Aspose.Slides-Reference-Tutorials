@@ -62,7 +62,7 @@ foreach (Comment comment in comments)
 
 ### Affichage des informations sur les commentaires
 
-Vous pouvez afficher les informations de commentaire récupérées dans l'interface utilisateur de votre application ou les enregistrer pour une analyse plus approfondie. Cela permet une communication et une collaboration transparentes entre les utilisateurs travaillant sur des présentations.
+Vous pouvez afficher les informations de commentaire récupérées dans l'interface utilisateur de votre application ou les enregistrer pour une analyse plus approfondie. Cela permet une communication et une collaboration transparentes entre les utilisateurs travaillant avec des présentations.
 
 ## FAQ
 

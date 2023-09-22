@@ -15,7 +15,7 @@ Grafikler, çeşitli uygulamalardaki verileri görsel olarak temsil etmenin gü�
 Uygulamaya geçmeden önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 - Temel C# programlama bilgisi.
--  Aspose.Slides for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net).
+- Aspose.Slides for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net).
 
 ## Projenin Kurulumu
 Başlamak için tercih ettiğiniz geliştirme ortamında yeni bir C# projesi oluşturun. Ardından NuGet paket yöneticisini kullanarak Aspose.Slides kitaplığını yükleyin. Bu, NuGet Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırarak gerçekleştirilebilir:
@@ -61,7 +61,7 @@ string dataRange = chart.ChartData.GetRange();
 
 ```csharp
 // dataRange'ı kullanılabilir formata dönüştürün (örneğin, Excel hücre aralığı)
-// Gerektiğinde verileri çıkarın ve işleyin
+//Gerektiğinde verileri çıkarın ve işleyin
 ```
 
 ## Verileri Görüntüleme veya İşleme
@@ -76,7 +76,7 @@ string dataRange = chart.ChartData.GetRange();
 Değiştirilen sunumu kaydedin ve verileri harici kullanım için dışa aktarın:
 
 ```csharp
-//Sunuyu değişikliklerle birlikte kaydedin
+// Sunuyu değişikliklerle birlikte kaydedin
 presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

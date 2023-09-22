@@ -14,7 +14,7 @@ Folienanimationen hauchen Ihren Präsentationen Leben ein, indem sie Bewegungen 
 
 ## Einrichten Ihrer Entwicklungsumgebung
 
- Bevor wir uns mit dem Code befassen, stellen Sie sicher, dass Aspose.Slides für .NET in Ihrem Projekt installiert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/net/) . Befolgen Sie nach dem Herunterladen die Installationsanweisungen im[Dokumentation](https://reference.aspose.com/slides/net/).
+Bevor wir uns mit dem Code befassen, stellen Sie sicher, dass Aspose.Slides für .NET in Ihrem Projekt installiert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/net/) . Befolgen Sie nach dem Herunterladen die Installationsanweisungen im[Dokumentation](https://reference.aspose.com/slides/net/).
 
 ## Schritt 1: Folien zur Präsentation hinzufügen
 
@@ -95,7 +95,7 @@ In diesem Leitfaden haben wir untersucht, wie Sie Aspose.Slides für .NET nutzen
 
 ### Wie installiere ich Aspose.Slides für .NET?
 
- Sie können Aspose.Slides für .NET unter herunterladen[dieser Link](https://releases.aspose.com/slides/net/) und befolgen Sie die Installationsanweisungen im[Dokumentation](https://reference.aspose.com/slides/net/).
+ Sie können Aspose.Slides für .NET unter herunterladen[dieser Link](https://releases.aspose.com/slides/net/)und befolgen Sie die Installationsanweisungen im[Dokumentation](https://reference.aspose.com/slides/net/).
 
 ### Kann ich Animationen auf bestimmte Folienelemente anwenden?
 

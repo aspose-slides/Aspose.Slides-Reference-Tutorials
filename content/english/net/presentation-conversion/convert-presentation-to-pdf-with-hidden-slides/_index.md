@@ -34,24 +34,6 @@ using Aspose.Slides;
 using var presentation = new Presentation("sample.pptx");
 ```
 
-## Identifying and Including Hidden Slides
-
-Aspose.Slides provides a way to identify hidden slides within a presentation and include them during conversion. This can be achieved by iterating through the slides and checking their visibility properties:
-
-```csharp
-foreach (var slide in presentation.Slides)
-{
-    if (slide.SlideShowTransition.Hidden)
-    {
-        // Include hidden slide in conversion logic
-    }
-    else
-    {
-        // Include visible slide in conversion logic
-    }
-}
-```
-
 ## Converting Presentation to PDF with Hidden Slides
 
 Now that we can identify hidden slides, let's proceed to convert the presentation to PDF while ensuring that hidden slides are included:

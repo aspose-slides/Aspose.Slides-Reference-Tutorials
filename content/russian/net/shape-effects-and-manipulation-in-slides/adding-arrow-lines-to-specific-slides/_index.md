@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 // Добавить новые слайды
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-// При необходимости добавьте дополнительные слайды
+//При необходимости добавьте дополнительные слайды
 ```
 
 ### Добавление линий в форме стрелок

@@ -74,7 +74,7 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 
 ### 我如何了解有关使用 Aspose.Slides for .NET 的更多信息？
 
-您可以参考[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/)了解详细信息、代码示例和 API 参考。该文档提供了有关使用该库执行各种任务的全面指南。
+您可以参考[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/)了解详细信息、代码示例和 API 参考。该文档提供了有关使用该库执行各种任务的全面指导。
 
 ### 在哪里可以访问本指南的源代码？
 

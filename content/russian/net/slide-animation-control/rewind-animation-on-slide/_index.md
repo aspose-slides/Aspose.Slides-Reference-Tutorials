@@ -89,4 +89,4 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 
 ### Где я могу найти дополнительные ресурсы и документацию?
 
-Подробную документацию, учебные пособия и примеры кода см.[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).
+ Подробную документацию, учебные пособия и примеры кода см.[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).

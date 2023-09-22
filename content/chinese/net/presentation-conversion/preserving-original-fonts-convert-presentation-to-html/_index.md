@@ -8,93 +8,93 @@ weight: 14
 url: /zh/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
 
-## 介绍
+在这份综合指南中，我们将引导您完成使用 Aspose.Slides for .NET 将演示文稿转换为 HTML 时保留原始字体的过程。我们将为您提供必要的 C# 源代码并详细解释每个步骤。学完本教程后，您将能够确保转换后的 HTML 文档中的字体与原始演示文稿保持一致。
 
-在数字时代，演示文稿已从传统的幻灯片演变为动态的多媒体体验。将演示文稿转换为 HTML 时，保持视觉完整性至关重要，尤其是在字体方面。 Aspose.Slides for .NET 是一个功能强大的库，可为这一需求提供无缝的解决方案。
+## 一、简介
 
-## 了解字体保护的重要性
+将 PowerPoint 演示文稿转换为 HTML 时，保留原始字体以确保内容的视觉一致性至关重要。 Aspose.Slides for .NET 为实现这一目标提供了强大的解决方案。在本教程中，我们将指导您完成在转换过程中保留原始字体所需的步骤。
 
-字体是任何演示文稿设计和品牌的基本方面。它们传达特定的语气、增强可读性并反映消息的本质。将演示文稿转换为 HTML 时，保留这些字体可确保一致且身临其境的用户体验。
+## 2. 前提条件
 
-## .NET 的 Aspose.Slides 入门
+在我们开始之前，请确保您具备以下先决条件：
 
-## 安装
+- Visual Studio 安装在您的计算机上。
+- Aspose.Slides for .NET 库已添加到您的项目中。
 
-首先，您需要安装 Aspose.Slides for .NET 库。您可以通过 NuGet（.NET 的包管理器）来执行此操作。打开 NuGet 包管理器控制台并运行以下命令：
+## 3. 设置您的项目
 
-```bash
-Install-Package Aspose.Slides
-```
+首先，在 Visual Studio 中创建一个新项目并添加 Aspose.Slides for .NET 库作为参考。
 
-## 加载演示文稿
+## 4. 加载演示文稿
 
-安装该库后，您就可以开始在 .NET 应用程序中使用它。使用以下代码片段加载您的演示文稿：
-
-```csharp
-using Aspose.Slides;
-
-//加载演示文稿
-using var presentation = new Presentation("your-presentation.pptx");
-```
-
-## 保留原始字体
-
-为了确保在转换过程中保留原始字体，您需要设置适当的选项。 Aspose.Slides 允许您控制字体在 HTML 输出中的嵌入方式。您可以这样做：
-
-## 代码实现
+使用以下代码加载您的 PowerPoint 演示文稿：
 
 ```csharp
-using Aspose.Slides.Export;
+string dataDir = "Your Document Directory";
 
-//创建 HTML 选项的实例
-var options = new HtmlOptions
+using (Presentation pres = new Presentation("input.pptx"))
 {
-    FontsFolder = "fonts", //保存字体的文件夹
-    HtmlFormatter = HtmlFormatter.CreateDocumentFormatter("", false),
-    HtmlFormatterExternalResources = false,
-    HtmlFormatterEmbedFonts = HtmlFormatterEmbedFontEnum.EmbedAll
-};
-
-//将演示文稿转换为 HTML
-presentation.Save("output.html", SaveFormat.Html, options);
+    //你的代码在这里
+}
 ```
 
-## 额外的定制
+代替`"Your Document Directory"`以及演示文稿文件的路径。
 
-## 处理字体的 CSS
+## 5. 排除默认字体
 
-虽然上面的代码保留了字体，但您可能需要微调 CSS 以确保在不同设备上呈现一致的渲染。您可以在 CSS 文件中包含字体样式并将其链接到 HTML 输出。
+要排除 Calibri 和 Arial 等默认字体，请使用以下代码：
 
-## 处理外部资源
+```csharp
+string[] fontNameExcludeList = { "Calibri", "Arial" };
+```
 
-如果您的演示文稿包含图像或视频等外部资源，您应该在 HTML 文件中适当管理它们的路径，以保持演示文稿的完整性。
+您可以根据需要自定义此列表。
 
-## 测试和质量保证
+## 6. 嵌入所有字体
 
-在最终完成 HTML 演示文稿之前，请在各种设备和浏览器上执行彻底的测试，以确保字体正确呈现。此步骤可确保您的观众按预期体验演示。
+接下来，我们将在 HTML 文档中嵌入所有字体。这可确保保留原始字体。使用以下代码：
 
-## 结论
+```csharp
+EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 
-将演示文稿转换为 HTML 时保留原始字体对于保持内容的视觉效果和可读性至关重要。 Aspose.Slides for .NET 简化了这一过程，使您能够无缝转换演示文稿，同时确保字体一致性。
+HtmlOptions htmlOptionsEmbed = new HtmlOptions
+{
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(embedFontsController)
+};
+```
 
-## 常见问题解答
+## 7.另存为 HTML
 
-## Aspose.Slides 如何处理字体嵌入？
+现在，将演示文稿另存为带有嵌入字体的 HTML 文档：
 
-Aspose.Slides 提供不同的字体嵌入选项。您可以选择嵌入所有字体、仅嵌入演示文稿中使用的字体或根本不嵌入任何字体。
+```csharp
+pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
+```
 
-## 我可以进一步自定义 HTML 输出吗？
+代替`"output.html"`与您想要的输出文件名。
 
-绝对地！您可以修改 CSS 样式、添加与 JavaScript 的交互性，并优化 HTML 结构以实现 SEO 和性能。
+## 八、结论
 
-## Aspose.Slides 还可以将演示文稿转换为哪些其他格式？
+在本教程中，我们演示了如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿转换为 HTML 时保留原始字体。通过执行这些步骤，您可以确保转换后的 HTML 文档保持原始演示文稿的视觉完整性。
 
-除了 HTML 之外，Aspose.Slides 还支持转换为各种格式，包括 PDF、图像和 SVG。
+## 9. 常见问题解答
 
-## Aspose.Slides 适合简单和复杂的演示吗？
+### Q1：我可以自定义排除字体列表吗？
 
-是的，Aspose.Slides 用途广泛，可以处理不同复杂程度的演示文稿，确保在整个转换过程中保持一致的字体。
+是的你可以。修改`fontNameExcludeList`数组根据您的要求包含或排除特定字体。
 
-## Aspose.Slides 多久更新一次？
+### Q2：如果我不想嵌入所有字体怎么办？
 
-Aspose.Slides 定期更新以纳入新功能、改进和兼容性增强，确保为演示文稿转换提供可靠且最新的解决方案。
+如果您只想嵌入特定字体，可以相应地修改代码。有关更多详细信息，请参阅 Aspose.Slides for .NET 文档。
+
+### Q3：使用 Aspose.Slides for .NET 有任何许可要求吗？
+
+是的，您可能需要有效的许可证才能在项目中使用 Aspose.Slides for .NET。请参阅 Aspose 网站了解许可信息。
+
+### Q4：我可以使用 Aspose.Slides for .NET 将其他文件格式转换为 HTML 吗？
+
+Aspose.Slides for .NET 主要专注于 PowerPoint 演示文稿。要将其他文件格式转换为 HTML，您可能需要探索为这些格式量身定制的其他 Aspose 产品。
+
+### 问题 5：我在哪里可以获得更多资源和支持？
+
+您可以在 Aspose 网站上找到更多文档、教程和支持。访问[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/)获取详细信息。

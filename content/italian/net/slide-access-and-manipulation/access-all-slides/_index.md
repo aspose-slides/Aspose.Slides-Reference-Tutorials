@@ -42,7 +42,7 @@ class Program
 
 ## Recupero di tutte le diapositive
 
-Una volta caricata la presentazione, puoi recuperare facilmente tutte le diapositive utilizzando il file`Slides` collezione. Ecco come:
+ Una volta caricata la presentazione, puoi recuperare facilmente tutte le diapositive utilizzando il file`Slides` collezione. Ecco come:
 
 ```csharp
 // Recupera tutte le diapositive

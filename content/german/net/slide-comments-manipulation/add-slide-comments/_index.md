@@ -124,7 +124,7 @@ File.WriteAllText("comments.txt", string.Join(Environment.NewLine, slide.Comment
 
 ### Kann ich Kommentare zu bestimmten Formen innerhalb einer Folie hinzufügen?
 
-Ja, Sie können Kommentare zu einzelnen Formen auf die gleiche Weise hinzufügen wie das Hinzufügen von Kommentaren zur Folie selbst.
+Ja, Sie können Kommentare zu einzelnen Formen hinzufügen, indem Sie auf die gleiche Weise vorgehen wie beim Hinzufügen von Kommentaren zur Folie selbst.
 
 ### Sind Kommentare während einer Diashow sichtbar?
 
@@ -134,4 +134,4 @@ Nein, Kommentare sind während einer Diashow nicht sichtbar. Sie sollen dem Prä
 
 Das Verbessern Ihrer Präsentationen mit Kommentaren mithilfe von Aspose.Slides ist ein Game-Changer. Es verwandelt Ihre Folien von statischen Bildern in interaktive Lernwerkzeuge. Indem Sie die in diesem Leitfaden beschriebenen Schritte befolgen, können Sie mühelos Kommentare zu Ihren Folien hinzufügen und Ihre Präsentationen auf ein neues Niveau an Engagement und Interaktivität heben.
 
-Denken Sie daran, dass Kommentare nicht nur Anmerkungen sind. Sie bieten die Möglichkeit, mit Ihrem Publikum in Kontakt zu treten, Einblicke zu gewähren und sinnvolle Diskussionen anzustoßen. Warum also warten? Beginnen Sie noch heute damit, Kommentare in Ihre Präsentationen zu integrieren und erleben Sie, welche Wirkung sie haben können.
+Denken Sie daran, dass Kommentare nicht nur Anmerkungen sind; Sie bieten die Möglichkeit, mit Ihrem Publikum in Kontakt zu treten, Einblicke zu gewähren und sinnvolle Diskussionen anzustoßen. Warum also warten? Beginnen Sie noch heute damit, Kommentare in Ihre Präsentationen zu integrieren und erleben Sie, welche Wirkung sie haben können.

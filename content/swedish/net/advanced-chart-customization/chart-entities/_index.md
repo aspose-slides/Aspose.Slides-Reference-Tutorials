@@ -54,7 +54,7 @@ worksheet.Cells["B3"].Value = 40;
 // ...
 ```
 
-## Anpassa diagramets utseende
+## Anpassa diagrammets utseende
 
 Att formatera ett diagram förbättrar dess visuella tilltalande. Låt oss undersöka hur man formaterar olika aspekter av ett diagram:
 

@@ -2,7 +2,7 @@
 title: كيانات المخطط وتنسيقه
 linktitle: كيانات المخطط وتنسيقه
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعلم كيفية إنشاء وتنسيق المخططات الديناميكية في PowerPoint باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع كود المصدر.
+description: تعلم كيفية إنشاء وتنسيق المخططات الديناميكية في PowerPoint باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة مع كود المصدر.
 type: docs
 weight: 13
 url: /ar/net/advanced-chart-customization/chart-entities/

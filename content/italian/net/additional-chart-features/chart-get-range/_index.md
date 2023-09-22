@@ -9,13 +9,13 @@ url: /it/net/additional-chart-features/chart-get-range/
 ---
 
 ## introduzione
-grafici rappresentano un modo potente per rappresentare visivamente i dati in varie applicazioni. Aspose.Slides per .NET è una libreria completa che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice. In questa guida, ti guideremo attraverso il processo per ottenere l'intervallo di dati del grafico utilizzando Aspose.Slides per .NET. Alla fine di questo tutorial, avrai una chiara comprensione di come estrarre i dati dai grafici in modo efficiente.
+I grafici rappresentano un modo potente per rappresentare visivamente i dati in varie applicazioni. Aspose.Slides per .NET è una libreria completa che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice. In questa guida, ti guideremo attraverso il processo per ottenere l'intervallo di dati del grafico utilizzando Aspose.Slides per .NET. Alla fine di questo tutorial, avrai una chiara comprensione di come estrarre i dati dai grafici in modo efficiente.
 
 ## Prerequisiti
 Prima di approfondire l'implementazione, assicurati di disporre dei seguenti prerequisiti:
 
 - Conoscenza base della programmazione C#.
--  Aspose.Slides per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net).
+- Aspose.Slides per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net).
 
 ## Impostazione del progetto
 Per iniziare, crea un nuovo progetto C# nel tuo ambiente di sviluppo preferito. Quindi, installa la libreria Aspose.Slides utilizzando il gestore pacchetti NuGet. Ciò può essere ottenuto eseguendo il comando seguente nella console di gestione pacchetti NuGet:
@@ -61,7 +61,7 @@ Archiviare i dati estratti in memoria ed eseguire le operazioni richieste:
 
 ```csharp
 // Converti dataRange in un formato utilizzabile (ad esempio, intervallo di celle Excel)
-// Estrarre e manipolare i dati secondo necessità
+//Estrarre e manipolare i dati secondo necessità
 ```
 
 ## Visualizzazione o elaborazione dei dati
@@ -76,7 +76,7 @@ Utilizza i dati estratti per l'analisi o la visualizzazione:
 Salvare la presentazione modificata ed esportare i dati per uso esterno:
 
 ```csharp
-//Salva la presentazione con le modifiche
+// Salva la presentazione con le modifiche
 presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

@@ -40,7 +40,7 @@ Aspose.Slides for .NET'i Ölçülü Lisanslama ile kullanmaya başlamak için ş
 
 ## Ölçülü Lisansın Başlatılması
 
- Kodunuzda elde edilenleri kullanın`AppSID` Ve`AppKey` Ölçülü Lisansı başlatmak için:
+Kodunuzda elde edilenleri kullanın`AppSID` Ve`AppKey` Ölçülü Lisansı başlatmak için:
 
 ```csharp
 Aspose.Slides.License license = new Aspose.Slides.License();

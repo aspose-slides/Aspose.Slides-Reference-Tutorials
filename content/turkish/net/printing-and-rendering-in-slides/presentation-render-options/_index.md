@@ -91,7 +91,7 @@ Bu kılavuzda, sunum slaytlarını programlı bir şekilde işlemek için Aspose
 
 ### Aspose.Slides for .NET'i nasıl yüklerim?
 
-Aspose.Slides for .NET'i yüklemek için kütüphaneyi şu adresten indirin:[Burada](https://releases.aspose.com/slides/net/) ve kurulum talimatlarını takip edin.
+ Aspose.Slides for .NET'i yüklemek için kütüphaneyi şu adresten indirin:[Burada](https://releases.aspose.com/slides/net/) ve kurulum talimatlarını takip edin.
 
 ### Slaytların görüntü oluşturma kalitesini özelleştirebilir miyim?
 
@@ -107,4 +107,4 @@ Kesinlikle Aspose.Slides, renderleme üzerinde ayrıntılı kontrol sağlıyor. 
 
 ### Aspose.Slides for .NET başka hangi özellikleri sunuyor?
 
-Aspose.Slides for .NET, render almanın yanı sıra PowerPoint sunumları oluşturmak, düzenlemek ve dönüştürmek için de çok çeşitli özellikler sunar. Bu özellikleri şurada keşfedebilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET, render almanın yanı sıra PowerPoint sunumları oluşturmak, düzenlemek ve dönüştürmek için de çok çeşitli özellikler sunar. Bu özellikleri şurada keşfedebilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/net/).

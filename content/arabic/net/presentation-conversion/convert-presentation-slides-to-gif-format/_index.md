@@ -44,14 +44,12 @@ pres.Save(gifStream, SaveFormat.Gif);
 يمكنك تخصيص عملية إنشاء صور GIF عن طريق ضبط المعلمات مثل مدة الشريحة وحجمها وجودتها. على سبيل المثال، لتعيين مدة الشريحة إلى ثانيتين وحجم GIF الناتج إلى 800 × 600 بكسل، استخدم الكود التالي:
 
 ```csharp
-GifOptions gifOptions = new GifOptions();
-gifOptions.SlideTransitions = true;
-gifOptions.SlideTransitionsTransparency = true;
-gifOptions.Quality = 80;
-gifOptions.SlideSize = new Size(800, 600);
-gifOptions.TimeResolution = 2000; // 2 ثانية
-
-pres.Save(gifStream, SaveFormat.Gif);
+GifOptions gifOptions = new GifOptions(){
+FrameSize = new Size(800, 600), // حجم ملف GIF الناتج
+DefaultDelay = 2000, // كم من الوقت سيتم عرض كل شريحة حتى يتم تغييرها إلى الشريحة التالية
+TransitionFps = 35 // زيادة FPS لتحسين جودة الرسوم المتحركة الانتقالية
+}
+pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 ```
 
 ## حفظ وتصدير GIF
@@ -95,15 +93,14 @@ class Program
     {
         using Presentation pres = new Presentation("presentation.pptx");
 
-        GifOptions gifOptions = new GifOptions();
-        gifOptions.SlideTransitions = true;
-        gifOptions.SlideTransitionsTransparency = true;
-        gifOptions.Quality = 80;
-        gifOptions.SlideSize = new Size(800, 600);
-        gifOptions.TimeResolution = 2000; // 2 ثانية
+        GifOptions gifOptions = new GifOptions(){
+        FrameSize = new Size(800, 600), // حجم ملف GIF الناتج
+        DefaultDelay = 2000, // كم من الوقت سيتم عرض كل شريحة حتى يتم تغييرها إلى الشريحة التالية
+        TransitionFps = 35 // زيادة FPS لتحسين جودة الرسوم المتحركة الانتقالية
+        }
 
         using MemoryStream gifStream = new MemoryStream();
-        pres.Save(gifStream, SaveFormat.Gif);
+        pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 
         using FileStream gifFile = new FileStream("output.gif", FileMode.Create);
         gifStream.WriteTo(gifFile);

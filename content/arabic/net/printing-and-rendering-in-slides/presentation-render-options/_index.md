@@ -91,7 +91,7 @@ catch (Exception ex)
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
 
-لتثبيت Aspose.Slides لـ .NET، قم بتنزيل المكتبة من[هنا](https://releases.aspose.com/slides/net/) واتبع تعليمات التثبيت.
+ لتثبيت Aspose.Slides لـ .NET، قم بتنزيل المكتبة من[هنا](https://releases.aspose.com/slides/net/) واتبع تعليمات التثبيت.
 
 ### هل يمكنني تخصيص جودة عرض الشرائح؟
 
@@ -107,4 +107,4 @@ catch (Exception ex)
 
 ### ما هي الميزات الأخرى التي يقدمها Aspose.Slides لـ .NET؟
 
-وبصرف النظر عن العرض، يقدم Aspose.Slides for .NET مجموعة واسعة من الميزات لإنشاء عروض PowerPoint التقديمية وتحريرها وتحويلها. يمكنك استكشاف هذه الميزات في[توثيق](https://reference.aspose.com/slides/net/).
+ وبصرف النظر عن العرض، يقدم Aspose.Slides for .NET مجموعة واسعة من الميزات لإنشاء عروض PowerPoint التقديمية وتحريرها وتحويلها. يمكنك استكشاف هذه الميزات في[توثيق](https://reference.aspose.com/slides/net/).

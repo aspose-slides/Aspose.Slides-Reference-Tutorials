@@ -89,4 +89,4 @@ Absolut! Aspose.Slides bietet eine Reihe von Eigenschaften und Methoden zum Anpa
 
 ### Wo finde ich weitere Ressourcen und Dokumentation?
 
-Eine umfassende Dokumentation, Tutorials und Codebeispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+ Eine umfassende Dokumentation, Tutorials und Codebeispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).

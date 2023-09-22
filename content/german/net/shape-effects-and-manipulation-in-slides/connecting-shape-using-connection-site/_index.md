@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /de/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
-Das Verbinden von Formen und die Schaffung eines nahtlosen Flusses in Präsentationsfolien ist für die effektive Vermittlung von Ideen unerlässlich. Mit Aspose.Slides, einer leistungsstarken API für die Arbeit mit Präsentationsdateien, können Sie dies ganz einfach erreichen. In diesem umfassenden Leitfaden untersuchen wir den Prozess des Verbindens von Formen mithilfe von Verbindungsstellen in Präsentationsfolien. Ganz gleich, ob Sie ein erfahrener Moderator sind oder gerade erst damit beginnen: In diesem Artikel finden Sie Schritt-für-Schritt-Anleitungen, Codebeispiele und Einblicke in die Beherrschung dieser Technik.
+Das Verbinden von Formen und die Schaffung eines nahtlosen Flusses in Präsentationsfolien ist für die effektive Vermittlung von Ideen unerlässlich. Mit Aspose.Slides, einer leistungsstarken API für die Arbeit mit Präsentationsdateien, können Sie dies ganz einfach erreichen. In diesem umfassenden Leitfaden untersuchen wir den Prozess des Verbindens von Formen mithilfe von Verbindungsstellen in Präsentationsfolien. Unabhängig davon, ob Sie ein erfahrener Moderator sind oder gerade erst damit beginnen, bietet Ihnen dieser Artikel Schritt-für-Schritt-Anleitungen, Codebeispiele und Einblicke, um diese Technik zu beherrschen.
 
 ## Einführung
 

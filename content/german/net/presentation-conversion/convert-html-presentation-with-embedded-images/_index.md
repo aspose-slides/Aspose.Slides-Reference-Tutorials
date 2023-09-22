@@ -7,115 +7,86 @@ type: docs
 weight: 11
 url: /de/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-## Einführung in die Konvertierung von HTML-Präsentationen mit eingebetteten Bildern 
 
-In dieser Anleitung werden wir den Prozess der Konvertierung einer HTML-Präsentation mit eingebetteten Bildern in das PowerPoint-Präsentationsformat (PPTX) mithilfe von Aspose.Slides für .NET Schritt für Schritt durchführen. Aspose.Slides ist eine leistungsstarke Bibliothek, mit der Sie programmgesteuert mit PowerPoint-Präsentationen arbeiten können. 
+## 1. Einleitung
 
-## Voraussetzungen
-Bevor Sie beginnen, stellen Sie sicher, dass Folgendes vorhanden ist:
-- Visual Studio oder eine andere .NET-Entwicklungsumgebung installiert.
--  Aspose.Slides für .NET-Bibliothek. Sie können es herunterladen unter[Hier](https://downloads.aspose.com/slides/net).
-- Grundkenntnisse in C#- und .NET-Entwicklung.
+Aspose.Slides für .NET bietet eine praktische Möglichkeit, PowerPoint-Präsentationen in das HTML5-Format zu konvertieren und dabei eingebettete Bilder beizubehalten. Dies kann für die Anzeige Ihrer Präsentationen auf Websites oder in Webanwendungen äußerst nützlich sein.
 
-## Schritte
+## 2. Voraussetzungen
 
-1. Erstellen Sie ein neues C#-Projekt:
-   Öffnen Sie Ihr Visual Studio und erstellen Sie ein neues C#-Projekt.
+Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-2. Installieren Sie Aspose.Slides für .NET:
-   Installieren Sie die Aspose.Slides für .NET-Bibliothek in Ihrem Projekt mit NuGet Package Manager oder indem Sie einen Verweis auf die heruntergeladene DLL hinzufügen.
+- Visual Studio oder eine beliebige C#-Entwicklungsumgebung.
+- Aspose.Slides für .NET-Bibliothek.
+- Eine Beispiel-PowerPoint-Präsentation mit eingebetteten Bildern.
+- Grundkenntnisse der C#-Programmierung.
 
-3. Beziehen Sie die erforderlichen Namespaces ein:
-   Fügen Sie in Ihre Codedatei die erforderlichen Namespaces ein:
-   ```csharp
-   using Aspose.Slides;
-   using Aspose.Slides.Export;
-   using System.IO;
-   ```
+## 3. Einrichten Ihres Projekts
 
-4. HTML-Inhalt laden:
-   Laden Sie den HTML-Inhalt der Präsentation in eine Zeichenfolge. Sie können den HTML-Code aus einer Datei oder einer Webquelle abrufen.
-   ```csharp
-   string htmlContent = File.ReadAllText("path_to_your_html_file.html");
-   ```
+Erstellen Sie zunächst ein neues C#-Projekt in Ihrer bevorzugten Entwicklungsumgebung. Stellen Sie sicher, dass in Ihrem Projekt ordnungsgemäß auf die Aspose.Slides for .NET-Bibliothek verwiesen wird.
 
-5. Erstellen Sie eine neue Präsentation:
-    Erstellen Sie eine neue Instanz von`Presentation` Klasse.
-   ```csharp
-   using Presentation presentation = new Presentation();
-   ```
-
-6. Fügen Sie Folien mit HTML-Inhalt hinzu:
-   Fügen Sie der Präsentation Folien hinzu und legen Sie den HTML-Inhalt für jede Folie fest.
-   ```csharp
-   ISlideCollection slides = presentation.Slides;
-
-   // Erstellen Sie eine Folie
-   ISlide slide = slides.AddEmptySlide();
-
-   // Fügen Sie der Folie HTML-Inhalte hinzu
-   IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
-   textShape.TextFrame.Text = htmlContent;
-   ```
-
-7. Speichern Sie die Präsentation:
-   Speichern Sie die Präsentation im PPTX-Format.
-   ```csharp
-   presentation.Save("output_presentation.pptx", SaveFormat.Pptx);
-   ```
-
-8. Führen Sie die Anwendung aus:
-   Erstellen Sie Ihre Anwendung und führen Sie sie aus. Die HTML-Präsentation mit eingebetteten Bildern wird in eine PowerPoint-Präsentation konvertiert.
-
-## Beispielcode
+## 4. Laden der Quellpräsentation
 
 ```csharp
-using Aspose.Slides;
-using Aspose.Slides.Export;
-using System.IO;
+string dataDir = "Your Document Directory";
+string presentationName = Path.Combine(dataDir, "PresentationDemo.pptx");
 
-namespace HTMLToPPTConversion
+using (Presentation pres = new Presentation(presentationName))
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Laden Sie HTML-Inhalte aus einer Datei
-            string htmlContent = File.ReadAllText("path_to_your_html_file.html");
-
-            // Erstellen Sie eine neue Präsentation
-            using Presentation presentation = new Presentation();
-
-            // Fügen Sie eine Folie mit HTML-Inhalt hinzu
-            ISlide slide = presentation.Slides.AddEmptySlide();
-            IAutoShape textShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 600, 400);
-            textShape.TextFrame.Text = htmlContent;
-
-            // Speichern Sie die Präsentation im PPTX-Format
-            presentation.Save("output_presentation.pptx", SaveFormat.Pptx);
-        }
-    }
+    // Hier finden Sie Ihren Code zur Verarbeitung der Präsentation
 }
 ```
 
-## Abschluss
+## 5. Konfigurieren der HTML-Konvertierungsoptionen
 
-Das Konvertieren von HTML-Präsentationen mit eingebetteten Bildern in PowerPoint wird mit Aspose.Slides für .NET zum Kinderspiel. Diese Bibliothek rationalisiert den Prozess und bietet umfangreiche Tools für die präzise Verwaltung der Konvertierung.
+ Um HTML-Konvertierungsoptionen zu konfigurieren, können Sie die verwenden`Html5Options` Klasse. Hier ist ein Beispiel für das Festlegen einiger Optionen:
 
-## FAQs
+```csharp
+Html5Options options = new Html5Options()
+{
+    EmbedImages = false, // Speichern Sie keine Bilder im HTML5-Dokument
+    OutputPath = "Your Output Directory" // Legen Sie den Pfad für externe Bilder fest
+};
+```
 
-### Wie kann ich externe Bilder in die HTML-Präsentation einbinden?
+## 6. Erstellen des Ausgabeverzeichnisses
 
-Wenn Ihre HTML-Präsentation externe Bilder enthält, stellen Sie sicher, dass Sie die richtigen URLs für die Bilder angeben. Aspose.Slides übernimmt automatisch die Einbettung dieser Bilder, wenn Sie den HTML-Inhalt zur Folie hinzufügen.
+Bevor Sie die Präsentation im HTML5-Format speichern, empfiehlt es sich, das Ausgabeverzeichnis zu erstellen, falls es noch nicht vorhanden ist:
 
-### Kann ich das Erscheinungsbild der konvertierten Folien anpassen?
+```csharp
+string outFilePath = Path.Combine(outPath, "HTMLConversion");
 
-Ja, Sie können das Erscheinungsbild der konvertierten Folien mithilfe verschiedener Eigenschaften und Methoden anpassen, die von der Aspose.Slides-Bibliothek bereitgestellt werden. Sie können Schriftarten, Farben, Stile und mehr ändern.
+if (!Directory.Exists(outFilePath))
+{
+    Directory.CreateDirectory(outFilePath);
+}
+```
 
-### Wo finde ich die vollständige Dokumentation für Aspose.Slides für .NET?
+## 7. Speichern der Präsentation im HTML5-Format
 
-Sie finden die vollständige Dokumentation und API-Referenz für Aspose.Slides für .NET[Hier](https://reference.aspose.com/slides/net).
+Speichern wir nun die Präsentation im HTML5-Format:
 
-### Wo kann ich die neueste Version von Aspose.Slides für .NET herunterladen?
+```csharp
+pres.Save(Path.Combine(outFilePath, "pres.html"), SaveFormat.Html5, options);
+```
 
- Sie können die neueste Version von Aspose.Slides für .NET von der Aspose-Release-Seite herunterladen:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net).
+## 8. Fazit
+
+Glückwunsch! Sie haben eine PowerPoint-Präsentation mit eingebetteten Bildern mit Aspose.Slides für .NET erfolgreich in das HTML5-Format konvertiert. Dies kann ein wertvolles Tool zum Teilen Ihrer Präsentationen online sein.
+
+## 9. FAQs
+
+**Q1: Can I customize the appearance of the HTML5 presentation?**
+Ja, Sie können das Erscheinungsbild anpassen, indem Sie die von Aspose.Slides generierten HTML- und CSS-Dateien ändern.
+
+**Q2: Does Aspose.Slides for .NET support other output formats?**
+Ja, es unterstützt verschiedene Ausgabeformate, darunter PDF, Bilder und mehr.
+
+**Q3: Are there any limitations to converting presentations with embedded images?**
+Obwohl Aspose.Slides für .NET leistungsstark ist, können bei hochkomplexen Präsentationen einige Einschränkungen auftreten.
+
+**Q4: Is Aspose.Slides for .NET compatible with the latest PowerPoint versions?**
+Ja, es ist mit PowerPoint-Dateien verschiedener Versionen kompatibel, einschließlich der neuesten.
+
+**Q5: Where can I find more documentation and resources for Aspose.Slides for .NET?**
+ Umfassende Dokumentation und Ressourcen finden Sie unter[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).

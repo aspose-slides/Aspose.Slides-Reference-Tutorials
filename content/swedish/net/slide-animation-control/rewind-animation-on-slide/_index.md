@@ -89,4 +89,4 @@ Absolut! Aspose.Slides tillhandahåller en rad egenskaper och metoder för att a
 
 ### Var kan jag hitta mer resurser och dokumentation?
 
-För omfattande dokumentation, handledning och kodexempel, se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+ För omfattande dokumentation, handledning och kodexempel, se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).

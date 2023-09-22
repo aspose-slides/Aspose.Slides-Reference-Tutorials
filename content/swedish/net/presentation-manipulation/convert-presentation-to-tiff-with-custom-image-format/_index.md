@@ -33,7 +33,7 @@ Lägg till en referens till Aspose.Slides för .NET-biblioteket i ditt projekt. 
 
 ## 3. Skriv konverteringskoden
 
- Öppna ditt projekts huvudkodfil (t.ex.`Program.cs`) och lägg till följande med sats:
+ Öppna projektets huvudkodfil (t.ex.`Program.cs`) och lägg till följande med sats:
 
 ```csharp
 using Aspose.Slides;
@@ -52,8 +52,7 @@ class Program
         {
             // Initiera TIFF-alternativ med anpassade inställningar
             TiffOptions tiffOptions = new TiffOptions();
-            tiffOptions.CompressionType = TiffCompressionTypes.Lzw;
-            tiffOptions.PixelFormat = ImagePixelFormat.Format16BppRgb555;
+            tiffOptions.PixelFormat = ImagePixelFormat.Format8bppIndexed;
 
             // Spara presentationen som TIFF med de anpassade alternativen
             presentation.Save("output.tiff", SaveFormat.Tiff, tiffOptions);

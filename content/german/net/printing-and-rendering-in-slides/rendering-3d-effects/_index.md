@@ -124,7 +124,7 @@ Absolut! Aspose.Slides für .NET unterstützt den Export von Präsentationen in 
 
 ### Wie kann ich komplexe Animationen für 3D-Modelle erstellen?
 
-Sie können komplexe Animationen erstellen, indem Sie die von Aspose.Slides bereitgestellten Animationseffekte verwenden. Entdecke die[Animationsdokumentation](https://reference.aspose.com/slides/net/aspose.slides.animation/) für detaillierte Informationen.
+ Sie können komplexe Animationen erstellen, indem Sie die von Aspose.Slides bereitgestellten Animationseffekte verwenden. Entdecke die[Animationsdokumentation](https://reference.aspose.com/slides/net/aspose.slides.animation/) für detaillierte Informationen.
 
 ### Wo finde ich weitere Codebeispiele und Ressourcen?
 

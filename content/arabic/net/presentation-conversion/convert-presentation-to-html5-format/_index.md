@@ -58,7 +58,7 @@ namespace PresentationToHTML5Converter
 }
 ```
 
- يستبدل`"input.pptx"`مع المسار إلى عرض الإدخال الخاص بك و`"output.html"` مع مسار ملف HTML الناتج المطلوب.
+ يستبدل`"input.pptx"` مع المسار إلى عرض الإدخال الخاص بك و`"output.html"` مع مسار ملف HTML الناتج المطلوب.
 
 ## قم بتشغيل التطبيق
 
@@ -72,7 +72,7 @@ namespace PresentationToHTML5Converter
 
 ### كيف يمكنني تخصيص مظهر مخرجات HTML5؟
 
- يمكنك تخصيص مظهر مخرجات HTML5 عن طريق تعيين خيارات متنوعة في ملف`Html5Options` فصل. الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) لخيارات التخصيص المتاحة.
+ يمكنك تخصيص مظهر مخرجات HTML5 عن طريق تعيين خيارات متنوعة في ملف`Html5Options` فصل. الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/aspose.slides.export/html5options)لخيارات التخصيص المتاحة.
 
 ### هل يمكنني تحويل العروض التقديمية باستخدام الرسوم المتحركة والانتقالات؟
 

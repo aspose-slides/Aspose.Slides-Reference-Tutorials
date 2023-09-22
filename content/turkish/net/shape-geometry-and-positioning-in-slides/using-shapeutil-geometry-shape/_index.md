@@ -37,7 +37,7 @@ ISlide slide = presentation.Slides.AddEmptySlide();
 Slaytlara geometri şekilleri eklemek için ShapeUtil sınıfını kullanabilirsiniz.
 
 ```csharp
-// Slayda dikdörtgen şekli ekleme
+// Slayta dikdörtgen şekli ekleme
 IShape rectangle = ShapeUtil.AddRectangle(slide, 100, 100, 200, 150);
 ```
 
@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil ayrıca slaytlardaki şekilleri düzenlemek ve hizalamak için yöntemler de sağlar.
 
 ```csharp
-// Şekilleri yatay olarak düzenleme
+//Şekilleri yatay olarak düzenleme
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Şekilleri merkeze hizalayın
@@ -91,7 +91,7 @@ ShapeUtil, dolgu ve çizgi stilleri de dahil olmak üzere şekillere biçimlendi
 // Dolgu rengini uygula
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
-//Çizgi rengini ve stilini uygulama
+// Çizgi rengini ve stilini uygulama
 ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
 ```
 
@@ -159,7 +159,7 @@ Install-Package Aspose.Slides
 
 ### Biçimlendirmeyi geometri şekillerine nasıl uygulayabilirim?
 
- ShapeUtil ile aşağıdaki yöntemleri kullanarak geometri şekillerine formatlama uygulayabilirsiniz:`ApplyFillColor` Ve`ApplyLineColor` dolgu renklerini ve çizgi stillerini ayarlamak için.
+ShapeUtil ile aşağıdaki yöntemleri kullanarak geometri şekillerine formatlama uygulayabilirsiniz:`ApplyFillColor` Ve`ApplyLineColor` dolgu renklerini ve çizgi stillerini ayarlamak için.
 
 ### Şekillerdeki Z sırasının amacı nedir?
 

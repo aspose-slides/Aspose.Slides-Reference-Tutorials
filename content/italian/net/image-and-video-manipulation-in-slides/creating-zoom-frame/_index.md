@@ -43,7 +43,7 @@ class Program
 }
 ```
 
-## Aggiunta di contenuti alle diapositive
+## Aggiunta di contenuto alle diapositive
 
 Successivamente, aggiungiamo contenuto alle diapositive prima di implementare la funzionalità di zoom. Puoi aggiungere testo, immagini, forme e altri elementi per rendere la tua presentazione visivamente accattivante.
 
@@ -110,7 +110,7 @@ Assolutamente! Aspose.Slides per .NET ti consente di combinare l'effetto zoom co
 
 ### Posso animare il riquadro di zoom durante una presentazione?
 
- Sì, puoi animare il riquadro di zoom in modo che venga visualizzato durante una presentazione utilizzando il comando`AddEffect` metodo da`IShape` interfaccia. In questo modo, il riquadro di zoom può essere attivato in un punto specifico della presentazione.
+Sì, puoi animare il riquadro di zoom in modo che venga visualizzato durante una presentazione utilizzando il comando`AddEffect` metodo da`IShape` interfaccia. In questo modo, il riquadro di zoom può essere attivato in un punto specifico della presentazione.
 
 ### Come rimuovo l'effetto zoom da una diapositiva?
 

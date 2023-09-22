@@ -40,7 +40,7 @@ Per iniziare a utilizzare Aspose.Slides per .NET con licenze a consumo, atteners
 
 ## Inizializzazione della licenza a consumo
 
- Nel tuo codice, usa il file ottenuto`AppSID` E`AppKey` per inizializzare la licenza a consumo:
+Nel tuo codice, usa il file ottenuto`AppSID` E`AppKey` per inizializzare la licenza a consumo:
 
 ```csharp
 Aspose.Slides.License license = new Aspose.Slides.License();

@@ -10,7 +10,7 @@ url: /tr/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 
 ## Sunum Slaytlarında Yakınlaştırma Çerçevesi Oluşturmaya Giriş
 
-Dinamik ve ilgi çekici sunumlar dünyasında etkileşimli unsurların dahil edilmesi mesajınızın etkinliğini önemli ölçüde artırabilir. Sunum slaytlarınıza yakınlaştırma çerçevesi eklemek, hedef kitlenizin dikkatini belirli ayrıntılara çekebilir ve içeriğinizi daha ilgi çekici hale getirebilir. Aspose.Slides for .NET'in gücüyle, sunum slaytlarınızda kolaylıkla bir yakınlaştırma çerçevesi oluşturabilir, izleyicilerinize kesintisiz ve büyüleyici bir deneyim sunabilirsiniz. Bu adım adım kılavuzda, Aspose.Slides for .NET'i kullanarak yakınlaştırma çerçevesi oluşturma sürecinde size yol göstereceğiz.
+Dinamik ve ilgi çekici sunumlar dünyasında etkileşimli unsurların dahil edilmesi mesajınızın etkinliğini önemli ölçüde artırabilir. Sunum slaytlarınıza yakınlaştırma çerçevesi eklemek, hedef kitlenizin dikkatini belirli ayrıntılara çekebilir ve içeriğinizi daha ilgi çekici hale getirebilir. Aspose.Slides for .NET'in gücüyle, sunum slaytlarınızda kolaylıkla bir yakınlaştırma çerçevesi oluşturabilir, izleyicilerinize kusursuz ve büyüleyici bir deneyim sunabilirsiniz. Bu adım adım kılavuzda, Aspose.Slides for .NET'i kullanarak yakınlaştırma çerçevesi oluşturma sürecinde size yol göstereceğiz.
 
 ## Ortamın Ayarlanması
 
@@ -110,7 +110,7 @@ Kesinlikle! Aspose.Slides for .NET, dinamik ve görsel olarak çekici slayt geç
 
 ### Slayt gösterisi sırasında yakınlaştırma çerçevesine animasyon uygulayabilir miyim?
 
- Evet, slayt gösterisi sırasında oluşacak yakınlaştırma çerçevesini, düğmesini kullanarak canlandırabilirsiniz.`AddEffect` gelen yöntem`IShape` arayüz. Bu şekilde yakınlaştırma çerçevesi sunumunuzun belirli bir noktasında tetiklenebilir.
+Evet, slayt gösterisi sırasında oluşacak yakınlaştırma çerçevesini, düğmesini kullanarak canlandırabilirsiniz.`AddEffect` gelen yöntem`IShape` arayüz. Bu şekilde yakınlaştırma çerçevesi sunumunuzun belirli bir noktasında tetiklenebilir.
 
 ### Slayttaki yakınlaştırma efektini nasıl kaldırabilirim?
 

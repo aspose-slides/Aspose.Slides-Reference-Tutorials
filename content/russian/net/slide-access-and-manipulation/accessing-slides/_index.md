@@ -84,7 +84,7 @@ foreach (var shape in shapes)
 var newSlide = slides.AddEmptySlide(presentation.LayoutSlides[0]);
 
 // Настройте новый слайд
-// Ваш код для добавления содержимого на новый слайд
+// Ваш код для добавления контента на новый слайд
 ```
 
 ## Удаление слайдов

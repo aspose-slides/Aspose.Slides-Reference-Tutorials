@@ -20,7 +20,7 @@ Las presentaciones suelen contener datos confidenciales, diagramas complejos o e
 
 Antes de profundizar en los detalles técnicos, asegurémonos de tener todo configurado para funcionar con Aspose.Slides.
 
-1.  Instalación: Para comenzar, descargue e instale la biblioteca Aspose.Slides para .NET desde[Enlace de descarga](https://releases.aspose.com/slides/net/) . También puede explorar la referencia detallada de API en[Referencia de API](https://reference.aspose.com/slides/net/).
+1. Instalación: Para comenzar, descargue e instale la biblioteca Aspose.Slides para .NET desde[Enlace de descarga](https://releases.aspose.com/slides/net/) . También puede explorar la referencia detallada de API en[Referencia de API](https://reference.aspose.com/slides/net/).
 
 2. Creación de un proyecto: inicie un nuevo proyecto .NET en su entorno de desarrollo preferido. Asegúrese de tener las referencias necesarias a la biblioteca Aspose.Slides.
 
@@ -60,7 +60,7 @@ foreach (IShape shape in slide.Shapes)
 
 ## Mostrar formas ocultas
 
- Por supuesto, también necesitarás revelar esas formas ocultas en algún momento. Simplemente establezca la propiedad de visibilidad nuevamente en`true`:
+Por supuesto, también necesitarás revelar esas formas ocultas en algún momento. Simplemente establezca la propiedad de visibilidad nuevamente en`true`:
 
 ```csharp
 foreach (IShape shape in slide.Shapes)
@@ -126,7 +126,7 @@ Dominar el arte de ocultar formas en diapositivas de presentación usando Aspose
 
 ### ¿Cómo puedo mostrar una forma en una diapositiva de presentación?
 
- Para mostrar una forma, simplemente establezca su propiedad de visibilidad en`true`.
+Para mostrar una forma, simplemente establezca su propiedad de visibilidad en`true`.
 
 ### ¿Puedo aplicar animaciones a formas ocultas?
 

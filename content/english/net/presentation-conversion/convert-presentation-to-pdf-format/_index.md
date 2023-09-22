@@ -73,7 +73,6 @@ Aspose.Slides also allows you to control slide transitions during PDF conversion
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.ShowHiddenSlides = true;
-pdfOptions.SlidesTransitions = SlideTransitions.None;
 
 // Convert presentation to PDF with transition settings
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);

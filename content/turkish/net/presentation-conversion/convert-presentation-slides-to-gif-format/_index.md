@@ -44,14 +44,12 @@ pres.Save(gifStream, SaveFormat.Gif);
 Slayt süresi, boyutu ve kalitesi gibi parametreleri ayarlayarak GIF oluşturma sürecini özelleştirebilirsiniz. Örneğin, slayt süresini 2 saniyeye ve çıktı GIF boyutunu 800x600 piksele ayarlamak için aşağıdaki kodu kullanın:
 
 ```csharp
-GifOptions gifOptions = new GifOptions();
-gifOptions.SlideTransitions = true;
-gifOptions.SlideTransitionsTransparency = true;
-gifOptions.Quality = 80;
-gifOptions.SlideSize = new Size(800, 600);
-gifOptions.TimeResolution = 2000; // 2 saniye
-
-pres.Save(gifStream, SaveFormat.Gif);
+GifOptions gifOptions = new GifOptions(){
+FrameSize = new Size(800, 600), // sonuçta ortaya çıkan GIF'in boyutu
+DefaultDelay = 2000, // her slaytın bir sonrakine geçinceye kadar ne kadar süreyle gösterileceği
+TransitionFps = 35 // Daha iyi geçiş animasyonu kalitesi için FPS'yi artırın
+}
+pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 ```
 
 ## GIF'i Kaydetme ve Dışa Aktarma
@@ -95,15 +93,14 @@ class Program
     {
         using Presentation pres = new Presentation("presentation.pptx");
 
-        GifOptions gifOptions = new GifOptions();
-        gifOptions.SlideTransitions = true;
-        gifOptions.SlideTransitionsTransparency = true;
-        gifOptions.Quality = 80;
-        gifOptions.SlideSize = new Size(800, 600);
-        gifOptions.TimeResolution = 2000; // 2 saniye
+        GifOptions gifOptions = new GifOptions(){
+        FrameSize = new Size(800, 600), // sonuçta ortaya çıkan GIF'in boyutu
+        DefaultDelay = 2000, // her slaytın bir sonrakine geçinceye kadar ne kadar süreyle gösterileceği
+        TransitionFps = 35 // Daha iyi geçiş animasyonu kalitesi için FPS'yi artırın
+        }
 
         using MemoryStream gifStream = new MemoryStream();
-        pres.Save(gifStream, SaveFormat.Gif);
+        pres.Save(gifStream, SaveFormat.Gif, gifOptions);
 
         using FileStream gifFile = new FileStream("output.gif", FileMode.Create);
         gifStream.WriteTo(gifFile);

@@ -8,90 +8,108 @@ weight: 27
 url: /tr/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
 
+Yazılım geliştirme dünyasında karmaşık görevleri basitleştirebilecek araçlara sahip olmak çok önemlidir. Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışmanıza olanak tanıyan araçlardan biridir. Bu adım adım eğitimde, Aspose.Slides for .NET kullanarak bir sunumun XAML formatına nasıl aktarılacağını keşfedeceğiz. 
+
 ## Aspose.Slides for .NET'e Giriş
 
-Aspose.Slides for .NET, .NET geliştiricilerine çeşitli formatlarda sunumlar oluşturma, düzenleme ve dönüştürme olanağı sağlayan kapsamlı bir API'dir. Sunumların XAML formatına aktarılması da dahil olmak üzere çok çeşitli özellikler sunar.
+Eğitime dalmadan önce Aspose.Slides for .NET'i kısaca tanıtalım. Geliştiricilerin Microsoft PowerPoint'e ihtiyaç duymadan PowerPoint sunumları oluşturmasına, değiştirmesine, dönüştürmesine ve yönetmesine olanak tanıyan güçlü bir kitaplıktır. Aspose.Slides for .NET ile PowerPoint sunumlarıyla ilgili çeşitli görevleri otomatikleştirerek geliştirme sürecinizi daha verimli hale getirebilirsiniz.
 
-## XAML Formatını Anlamak
+## Önkoşullar
 
-XAML, kullanıcı arayüzleri ve grafikleri tasarlamak için kullanılan bildirimsel bir işaretleme dilidir. Oldukça çok yönlüdür ve vektör grafiklerini, animasyonları ve diğer etkileşimli öğeleri destekler. Sunumların XAML formatına dönüştürülmesi, bu özelliklerin sorunsuz entegrasyonuna olanak tanır.
+Bu öğreticiyi takip etmek için aşağıdakilere ihtiyacınız olacak:
 
-## Aspose.Slides for .NET'i Yükleme
+1. Aspose.Slides for .NET: .NET projenizde Aspose.Slides for .NET kitaplığının kurulu ve kullanıma hazır olduğundan emin olun.
 
- Başlamak için Aspose.Slides for .NET'i yüklemeniz gerekir. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net).
+2. Kaynak Sunumu: XAML formatına aktarmak istediğiniz bir PowerPoint sunumunuz (PPTX) olsun. Bu sunumun yolunu bildiğinizden emin olun.
 
-## Sunum Yükleme
+3. Çıkış Dizini: Oluşturulan XAML dosyalarını kaydetmek istediğiniz dizini seçin.
 
-Kitaplığı yükledikten sonra aşağıdaki kodu kullanarak bir sunum yükleyerek başlayabilirsiniz:
+## 1. Adım: Projenizi Kurun
+
+Bu ilk adımda projemizi oluşturacağız ve gerekli tüm bileşenlerin hazır olduğundan emin olacağız. Projenize Aspose.Slides for .NET kitaplığına bir referans eklediğinizden emin olun.
 
 ```csharp
-// Sunuyu yükle
-using (var presentation = new Presentation("presentation.pptx"))
+string dataDir = "Your Document Directory";
+string outPath = "Your Output Directory";
+// Kaynak sunumuna giden yol
+string presentationFileName = Path.Combine(dataDir, "XamlEtalon.pptx");
+```
+
+ Yer değiştirmek`"Your Document Directory"` Kaynak PowerPoint sunumunuzu içeren dizinin yolu ile birlikte. Ayrıca oluşturulan XAML dosyalarının kaydedileceği çıkış dizinini de belirtin.
+
+## 2. Adım: Sunumu XAML'e Aktarın
+
+Şimdi PowerPoint sunumunu XAML formatına aktarmaya devam edelim. Bunu başarmak için Aspose.Slides for .NET'i kullanacağız. 
+
+```csharp
+using (Presentation pres = new Presentation(presentationFileName))
 {
-    // Kodunuz burada
+    // Dönüşüm seçenekleri oluşturun
+    XamlOptions xamlOptions = new XamlOptions();
+    xamlOptions.ExportHiddenSlides = true;
+
+    // Kendi çıktı tasarrufu hizmetinizi tanımlayın
+    NewXamlSaver newXamlSaver = new NewXamlSaver();
+    xamlOptions.OutputSaver = newXamlSaver;
+
+    // Slaytları dönüştür
+    pres.Save(xamlOptions);
+
+    // XAML dosyalarını bir çıktı dizinine kaydetme
+    foreach (var pair in newXamlSaver.Results)
+    {
+        File.AppendAllText(Path.Combine(outPath, pair.Key), pair.Value);
+    }
 }
 ```
 
-## XAML Formatına Dönüştürme
+ Bu kod parçacığında kaynak sunumunu yüklüyoruz, XAML dönüştürme seçeneklerini oluşturuyoruz ve kullanarak özel bir çıktı kaydetme hizmeti tanımlıyoruz.`NewXamlSaver`Daha sonra XAML dosyalarını belirtilen çıktı dizinine kaydediyoruz.
 
-Yüklenen sunuyu XAML biçimine aktarmak için aşağıdaki kodu kullanın:
+## 3. Adım: Özel XAML Tasarruf Sınıfı
+
+ Özel XAML koruyucuyu uygulamak için adında bir sınıf oluşturacağız.`NewXamlSaver` bunu uygulayan`IXamlOutputSaver` arayüz.
 
 ```csharp
-// XAML'ye dönüştür
-var options = new XamlOptions();
-presentation.Save("presentation.xaml", SaveFormat.Xaml, options);
+class NewXamlSaver : IXamlOutputSaver
+{
+    private Dictionary<string, string> m_result = new Dictionary<string, string>();
+
+    public Dictionary<string, string> Results
+    {
+        get { return m_result; }
+    }
+
+    public void Save(string path, byte[] data)
+    {
+        string name = Path.GetFileName(path);
+        Results[name] = Encoding.UTF8.GetString(data);
+    }
+}
 ```
 
-## Dönüşümü Özelleştirme
-
-Aspose.Slides for .NET, dönüştürme sürecini özelleştirmek için çeşitli seçenekler sunar. Dönüştürülecek slayt aralığını belirleyebilir, çıktı boyutunu kontrol edebilir ve dönüşümün diğer yönlerini yönetebilirsiniz.
-
-## Gelişmiş Özelliklerin Kullanımı
-
-XAML formatı animasyonlar, degradeler ve etkileşimli öğeler gibi gelişmiş özellikleri destekler. Aspose.Slides for .NET, bu özelliklerin doğru bir şekilde XAML formatına aktarılmasını sağlar.
-
-## Sunumlar için XAML Formatının Avantajları
-
-- Ölçeklenebilirlik: XAML grafikleri kalite kaybı olmadan ölçeklenebilir.
-- Etkileşim: XAML etkileşimli sunumlar oluşturmaya olanak tanır.
-- Uyumluluk: XAML çeşitli platformlara ve uygulamalara entegre edilebilir.
-
-## XAML Biçimli Sunumların Kullanım Örnekleri
-
-- Uygulama kullanıcı arayüzü: XAML formatlı sunumlar, uygulama arayüzlerini tasarlamak için kullanılabilir.
-- E-Öğrenim: Etkileşimli e-öğrenme modülleri XAML grafikleri kullanılarak oluşturulabilir.
-
-## Adım adım rehber
-
-1. Aspose.Slides for .NET'i yükleyin: Sağlanan bağlantıdan kitaplığı indirip yükleyin.
-2. Sunumu Yükle: Sununuzu yüklemek için verilen kodu kullanın.
-3. XAML'ye dönüştür: Sunuyu XAML biçimine aktarmak için kod parçacığını kullanın.
-4. Gerekirse Özelleştir: Dönüştürme seçeneklerini gereksinimlerinize göre değiştirin.
-5. Gelişmiş Özellikleri Keşfedin: Sununuzu geliştirmek için XAML'in yeteneklerinden yararlanın.
-6. Kaydet ve Bütünleştir: XAML formatlı sunuyu kaydedin ve uygulamanıza veya platformunuza entegre edin.
+Bu sınıf, XAML dosyalarının çıktı dizinine kaydedilmesini yönetecektir.
 
 ## Çözüm
 
-Sonuç olarak, Aspose.Slides for .NET kullanarak sunumları XAML formatına aktarmak, görsel olarak çekici ve etkileşimli içerik oluşturmak için bir olasılıklar dünyasının kapılarını açıyor. Burada sağlanan adım adım kılavuz, sunumlarınızı kalitesini ve işlevselliğini korurken sorunsuz bir şekilde XAML biçimine dönüştürmenize yardımcı olacaktır.
+Tebrikler! Aspose.Slides for .NET'i kullanarak bir PowerPoint sunumunu XAML formatına nasıl aktaracağınızı başarıyla öğrendiniz. Bu, sunumların manipülasyonunu içeren projeler üzerinde çalışırken değerli bir beceri olabilir.
 
-## SSS'ler
+PowerPoint otomasyon görevlerinizi geliştirmek için Aspose.Slides for .NET'in diğer özelliklerini ve yeteneklerini keşfetmekten çekinmeyin.
 
-### Aspose.Slides for .NET'i nasıl yüklerim?
+## SSS
 
- Aspose.Slides for .NET'i şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net).
+1. ### Aspose.Slides for .NET nedir?
+Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışmaya yönelik bir .NET kitaplığıdır.
 
-### XAML dönüşümünü özelleştirebilir miyim?
+2. ### Aspose.Slides for .NET'i nereden edinebilirim?
+ Aspose.Slides for .NET'i şu adresten indirebilirsiniz:[Burada](https://purchase.aspose.com/buy).
 
-Evet, Aspose.Slides for .NET tarafından sağlanan çeşitli seçenekleri kullanarak dönüştürme sürecini özelleştirebilirsiniz.
+3. ### Ücretsiz deneme mevcut mu?
+ Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
 
-### XAML etkileşimli sunumlar için uygun mu?
+4. ### Aspose.Slides for .NET için nasıl geçici lisans alabilirim?
+ Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
-Kesinlikle! XAML etkileşimli öğeleri desteklediğinden ilgi çekici sunumlar oluşturmak için mükemmel bir seçimdir.
+5. ### Aspose.Slides for .NET için nereden destek alabilirim?
+Destek ve topluluk tartışmalarını bulabilirsiniz[Burada](https://forum.aspose.com/).
 
-### XAML biçimli sunumların bazı kullanım durumları nelerdir?
-
-XAML formatlı sunumlar uygulama arayüzlerini, e-öğrenme modüllerini ve daha fazlasını tasarlamak için kullanılabilir.
-
-### XAML uyumluluğu nasıl geliştirir?
-
-XAML, çeşitli platformlara ve uygulamalara kolayca entegre edilebilir, böylece farklı ortamlar arasında uyumluluk sağlanır.
+ Daha fazla eğitim ve kaynak için şu adresi ziyaret edin:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/).

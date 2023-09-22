@@ -120,7 +120,7 @@ using Aspose.Slides;
 // Carica la presentazione
 using Presentation presentation = new Presentation("your-presentation.pptx");
 
-//Allinea intestazioni e piè di pagina
+// Allinea intestazioni e piè di pagina
 foreach (ISlide slide in presentation.Slides)
 {
     slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;
