@@ -60,7 +60,7 @@ Congratulations! You've successfully converted a PowerPoint presentation from PP
 
 If you haven't already, [download Aspose.Slides for .NET](https://releases.aspose.com/slides/net/) and explore its capabilities further.
 
-For more tutorials and tips, visit our [official documentation](https://reference.aspose.com/slides/net/).
+For more tutorials and tips, visit our [documentation](https://reference.aspose.com/slides/net/).
 
 ## Frequently Asked Questions
 

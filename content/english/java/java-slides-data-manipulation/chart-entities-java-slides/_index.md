@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to create and customize Java Slides charts with Aspose.Slides. Enhance your presentations with powerful chart entities.
 type: docs
 weight: 13
-url: /java/java-slides-data-manipulation/chart-entities-java-slides/
+url: /java/data-manipulation/chart-entities-java-slides/
 ---
 
 ## Introduction to Chart Entities in Java Slides

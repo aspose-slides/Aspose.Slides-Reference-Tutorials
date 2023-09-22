@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set external workbooks in Java Slides using Aspose.Slides for Java. Create dynamic presentations with Excel data integration.
 type: docs
 weight: 19
-url: /java/java-slides-data-manipulation/set-external-workbook-java-slides/
+url: /java/data-manipulation/set-external-workbook-java-slides/
 ---
 
 ## Introduction to Set External Workbook in Java Slides

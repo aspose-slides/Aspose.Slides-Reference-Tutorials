@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set data ranges in Java slides effortlessly with Aspose.Slides for Java. Create dynamic and data-driven presentations with this step-by-step guide. 
 type: docs
 weight: 18
-url: /java/java-slides-data-manipulation/set-data-range-java-slides/
+url: /java/data-manipulation/set-data-range-java-slides/
 ---
 
 ## Introduction to Set Data Range in Java Slides

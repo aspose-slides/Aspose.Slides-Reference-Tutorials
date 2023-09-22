@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set external workbooks and update chart data in Java Slides using Aspose.Slides for Java. Enhance your PowerPoint automation skills.
 type: docs
 weight: 20
-url: /java/java-slides-data-manipulation/set-external-workbook-update-chart-data-java-slides/
+url: /java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
 
 ## Introduction to Set External Workbook With Update Chart Data in Java Slides

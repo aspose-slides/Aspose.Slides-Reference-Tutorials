@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Convert PowerPoint presentations to HTML while preserving original fonts using Aspose.Slides for Java.
 type: docs
 weight: 14
-url: /java/java-slides-presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
+url: /java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
 
 ## Introduction to Converting Presentation to HTML with Preserving Original Fonts in Java Slides

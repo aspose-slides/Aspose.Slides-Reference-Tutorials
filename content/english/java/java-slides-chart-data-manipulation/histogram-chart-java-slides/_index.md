@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Histogram Charts in PowerPoint presentations using Aspose.Slides for Java. Step-by-step guide with source code for data visualization.
 type: docs
 weight: 19
-url: /java/java-slides-chart-data-manipulation/histogram-chart-java-slides/
+url: /java/chart-data-manipulation/histogram-chart-java-slides/
 ---
 
 ## Introduction to Histogram Chart in Java Slides using Aspose.Slides

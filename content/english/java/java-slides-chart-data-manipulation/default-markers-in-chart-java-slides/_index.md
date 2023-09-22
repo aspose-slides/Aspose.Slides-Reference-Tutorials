@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Java Slides with default markers in charts using Aspose.Slides for Java. Step-by-step guide with source code.
 type: docs
 weight: 16
-url: /java/java-slides-chart-data-manipulation/default-markers-in-chart-java-slides/
+url: /java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
 
 ## Introduction to Default Markers in Chart in Java Slides

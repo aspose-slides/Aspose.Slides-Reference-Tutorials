@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to create Funnel Charts in PowerPoint presentations with Aspose.Slides for Java. Step-by-step guide with source code for effective data visualization.
 type: docs
 weight: 18
-url: /java/java-slides-chart-data-manipulation/funnel-chart-java-slides/
+url: /java/chart-data-manipulation/funnel-chart-java-slides/
 ---
 
 ## Introduction to Creating a Funnel Chart in Aspose.Slides for Java

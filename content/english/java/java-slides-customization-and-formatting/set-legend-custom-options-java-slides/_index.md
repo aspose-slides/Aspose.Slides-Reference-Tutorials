@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set custom legend options in Java Slides using Aspose.Slides for Java. Customize legend position and size in your PowerPoint charts.
 type: docs
 weight: 14
-url: /java/java-slides-customization-and-formatting/set-legend-custom-options-java-slides/
+url: /java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
 
 ## Introduction to Set Legend Custom Options in Java Slides

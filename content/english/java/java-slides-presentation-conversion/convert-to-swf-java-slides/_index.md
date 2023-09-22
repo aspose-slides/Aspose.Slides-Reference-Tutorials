@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Convert PowerPoint presentations to SWF format in Java using Aspose.Slides. Follow our step-by-step guide with source code for seamless conversion.
 type: docs
 weight: 35
-url: /java/java-slides-presentation-conversion/convert-to-swf-java-slides/
+url: /java/presentation-conversion/convert-to-swf-java-slides/
 ---
 
 ## Introduction to Convert PowerPoint Presentation to SWF in Java using Aspose.Slides

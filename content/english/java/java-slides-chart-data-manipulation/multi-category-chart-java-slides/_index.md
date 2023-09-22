@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Multi-Category Charts in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for impressive data visualization in presentations.
 type: docs
 weight: 20
-url: /java/java-slides-chart-data-manipulation/multi-category-chart-java-slides/
+url: /java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
 
 ## Introduction to Multi-Category Chart in Java Slides with Aspose.Slides

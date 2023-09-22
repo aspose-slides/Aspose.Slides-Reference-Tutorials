@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set layout modes for Java slides using Aspose.Slides. Customize chart positioning and sizing in this step-by-step guide with source code.
 type: docs
 weight: 23
-url: /java/java-slides-data-manipulation/set-layout-mode-java-slides/
+url: /java/data-manipulation/set-layout-mode-java-slides/
 ---
 
 ## Introduction to Set Layout Mode in Java Slides

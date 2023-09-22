@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert presentations to responsive HTML in Java Slides effortlessly with Aspose.Slides. Make your content accessible on any device.
 type: docs
 weight: 18
-url: /java/java-slides-presentation-conversion/convert-presentation-responsive-html-java-slides/
+url: /java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
 
 ## Introduction to Convert Presentation to Responsive HTML in Java Slides

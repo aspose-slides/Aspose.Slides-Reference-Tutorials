@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Aspose.Slides for Java usage with Metered Licensing. Learn how to set it up and monitor your API consumption.
 type: docs
 weight: 10
-url: /java/java-slides-licensing-and-initialization/metered-licensing-java-slides/
+url: /java/licensing-and-initialization/metered-licensing-java-slides/
 ---
 
 ## Introduction to Metered Licensing in Aspose.Slides for Java
@@ -90,7 +90,7 @@ Implementing metered licensing in Aspose.Slides for Java allows you to monitor y
 
 ### How do I obtain metered licensing keys?
 
-You can obtain metered licensing keys from Aspose. Contact their support or visit their official website for more information.
+You can obtain metered licensing keys from Aspose. Contact their support or visit their website for more information.
 
 ### Is metered licensing required for using Aspose.Slides for Java?
 

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn How to Set Up Callouts for Data Labels in Aspose.Slides for Java. Step-by-step guide with source code.
 type: docs
 weight: 25
-url: /java/java-slides-data-manipulation/setting-callout-data-label-java-slides/
+url: /java/data-manipulation/setting-callout-data-label-java-slides/
 ---
 
 ## Introduction to Setting Callout for Data Label in Aspose.Slides for Java

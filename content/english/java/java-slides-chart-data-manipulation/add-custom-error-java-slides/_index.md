@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add custom error bars to PowerPoint charts in Java Slides using Aspose.Slides. Step-by-step guide with source code for precise data visualization.
 type: docs
 weight: 11
-url: /java/java-slides-chart-data-manipulation/add-custom-error-java-slides/
+url: /java/chart-data-manipulation/add-custom-error-java-slides/
 ---
 
 ## Introduction to Adding Custom Error Bars in Java Slides using Aspose.Slides

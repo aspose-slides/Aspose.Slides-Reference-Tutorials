@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert presentations to HTML with embedded fonts using Aspose.Slides for Java. This step-by-step guide ensures consistent formatting for seamless sharing.
 type: docs
 weight: 13
-url: /java/java-slides-presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
+url: /java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
 
 ## Introduction to Converting Presentation to HTML with Embed All Fonts in Java Slides

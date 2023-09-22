@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Java slides with Aspose.Slides for Java. Learn to setting rotation angles for text elements. Step-by-step guide with source code.
 type: docs
 weight: 17
-url: /java/java-slides-customization-and-formatting/setting-rotation-angle-java-slides/
+url: /java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
 
 ## Introduction to Setting Rotation Angle in Java Slides

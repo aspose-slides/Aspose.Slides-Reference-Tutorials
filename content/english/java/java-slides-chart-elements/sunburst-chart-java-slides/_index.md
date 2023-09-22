@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Stunning Sunburst Charts in Java Slides with Aspose.Slides. Learn Step-by-Step Chart Creation and Data Manipulation.
 type: docs
 weight: 16
-url: /java/java-slides-chart-elements/sunburst-chart-java-slides/
+url: /java/chart-elements/sunburst-chart-java-slides/
 ---
 
 ## Introduction to Sunburst Chart in Java Slides with Aspose.Slides

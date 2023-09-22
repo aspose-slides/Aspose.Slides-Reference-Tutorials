@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance Chart Font Properties in Java Slides with Aspose.Slides for Java. Customize font size, style, and color for impactful presentations.
 type: docs
 weight: 11
-url: /java/java-slides-customization-and-formatting/font-properties-for-chart-java-slides/
+url: /java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
 
 ## Introduction to Font Properties for Chart in Java Slides

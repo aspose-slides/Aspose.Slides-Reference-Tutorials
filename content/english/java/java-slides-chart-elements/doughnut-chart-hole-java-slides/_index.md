@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Doughnut Charts with Custom Hole Sizes in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for chart customization.
 type: docs
 weight: 11
-url: /java/java-slides-chart-elements/doughnut-chart-hole-java-slides/
+url: /java/chart-elements/doughnut-chart-hole-java-slides/
 ---
 
 ## Introduction to Doughnut Chart with a Hole in Java Slides
@@ -14,7 +14,7 @@ In this tutorial, we will guide you through creating a doughnut chart with a hol
 
 ## Prerequisites
 
-Before you begin, make sure you have the Aspose.Slides for Java library installed and set up in your Java project. You can download it from the [official Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/).
+Before you begin, make sure you have the Aspose.Slides for Java library installed and set up in your Java project. You can download it from the [Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/).
 
 ## Step 1: Import the Required Libraries
 

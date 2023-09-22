@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set chart data cell formulas in Java PowerPoint presentations using Aspose.Slides for Java. Create dynamic charts with formulas.
 type: docs
 weight: 11
-url: /java/java-slides-data-manipulation/chart-data-cell-formulas-java-slides/
+url: /java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
 
 ## Introduction to Chart Data Cell Formulas in Aspose.Slides for Java

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to calculate formulas in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for dynamic PowerPoint presentations.
 type: docs
 weight: 10
-url: /java/java-slides-data-manipulation/calculate-formulas-java-slides/
+url: /java/data-manipulation/calculate-formulas-java-slides/
 ---
 
 ## Introduction to Calculating Formulas in Java Slides using Aspose.Slides

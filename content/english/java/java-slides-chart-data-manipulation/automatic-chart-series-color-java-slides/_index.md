@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create dynamic charts with automatic series color in PowerPoint presentations using Aspose.Slides for Java. Enhance your data visualizations effortlessly.
 type: docs
 weight: 14
-url: /java/java-slides-chart-data-manipulation/automatic-chart-series-color-java-slides/
+url: /java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
 
 ## Introduction to Automatic Chart Series Color in Aspose.Slides for Java

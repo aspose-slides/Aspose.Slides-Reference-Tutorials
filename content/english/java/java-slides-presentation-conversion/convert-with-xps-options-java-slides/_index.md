@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations to XPS format in Java using Aspose.Slides. Customize options for a seamless conversion process.
 type: docs
 weight: 34
-url: /java/java-slides-presentation-conversion/convert-with-xps-options-java-slides/
+url: /java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
 
 ## Introduction to Convert with XPS Options in Java Slides

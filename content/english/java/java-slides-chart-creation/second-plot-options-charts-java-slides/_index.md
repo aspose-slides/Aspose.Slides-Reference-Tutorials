@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to customize charts in Java Slides using Aspose.Slides for Java. Explore second plot options and enhance your presentations.
 type: docs
 weight: 12
-url: /java/java-slides-chart-creation/second-plot-options-charts-java-slides/
+url: /java/chart-creation/second-plot-options-charts-java-slides/
 ---
 
 ## Introduction to Second Plot Options for Charts in Java Slides

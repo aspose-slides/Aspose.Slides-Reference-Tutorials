@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Normal Charts in Java Slides with Aspose.Slides for Java. Step-by-step guide and source code for creating, customizing, and saving charts in PowerPoint presentations.
 type: docs
 weight: 21
-url: /java/java-slides-chart-data-manipulation/normal-charts-java-slides/
+url: /java/chart-data-manipulation/normal-charts-java-slides/
 ---
 
 ## Introduction to Normal Charts in Java Slides

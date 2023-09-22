@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to create stunning charts and manage properties in Java slides with Aspose.Slides. Step-by-step guide with source code for powerful presentations.
 type: docs
 weight: 13
-url: /java/java-slides-data-manipulation/manage-properties-charts-java-slides/
+url: /java/data-manipulation/manage-properties-charts-java-slides/
 ---
 
 ## Introduction to Managing Properties and Charts in Java Slides using Aspose.Slides

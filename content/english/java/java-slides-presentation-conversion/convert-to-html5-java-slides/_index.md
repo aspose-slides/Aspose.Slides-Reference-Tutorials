@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Convert PowerPoint presentations to HTML5 in Java using Aspose.Slides. Learn to automate the conversion process with step-by-step code examples.
 type: docs
 weight: 23
-url: /java/java-slides-presentation-conversion/convert-to-html5-java-slides/
+url: /java/presentation-conversion/convert-to-html5-java-slides/
 ---
 
 ## Introduction to Convert PowerPoint Presentation to HTML5 in Java using Aspose.Slides

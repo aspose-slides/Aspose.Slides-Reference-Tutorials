@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create stunning Pie Charts in PowerPoint presentations using Aspose.Slides for Java. Step-by-step guide with source code for Java developers.
 type: docs
 weight: 23
-url: /java/java-slides-chart-data-manipulation/pie-chart-java-slides/
+url: /java/chart-data-manipulation/pie-chart-java-slides/
 ---
 
 ## Introduction to Creating a Pie Chart in Java Slides using Aspose.Slides

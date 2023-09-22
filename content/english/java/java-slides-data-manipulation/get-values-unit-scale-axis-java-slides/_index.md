@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to get values and unit scale from axes in Java Slides using Aspose.Slides for Java. Enhance your data analysis capabilities.
 type: docs
 weight: 20
-url: /java/java-slides-data-manipulation/get-values-unit-scale-axis-java-slides/
+url: /java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
 
 ## Introduction to Get Values and Unit Scale from Axis in Java Slides

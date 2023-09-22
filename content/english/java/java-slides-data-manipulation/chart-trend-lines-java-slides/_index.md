@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add various trend lines to Java Slides using Aspose.Slides for Java. Step-by-step guide with code examples for effective data visualization.
 type: docs
 weight: 15
-url: /java/java-slides-data-manipulation/chart-trend-lines-java-slides/
+url: /java/data-manipulation/chart-trend-lines-java-slides/
 ---
 
 ## Introduction to Chart Trend Lines in Java Slides: A Step-by-Step Guide

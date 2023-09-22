@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert presentations to HTML with media files using Java Slides. Follow our step-by-step guide with Aspose.Slides for Java API.
 type: docs
 weight: 30
-url: /java/java-slides-presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
+url: /java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
 
 ## Introduction to Convert Whole Presentation to HTML with Media Files in Java Slides

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set a date format for the category axis in a PowerPoint chart using Aspose.Slides for Java. Step-by-step guide with source code.
 type: docs
 weight: 26
-url: /java/java-slides-data-manipulation/setting-date-format-category-axis-java-slides/
+url: /java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
 
 ## Introduction to Setting Date Format For Category Axis in Java Slides

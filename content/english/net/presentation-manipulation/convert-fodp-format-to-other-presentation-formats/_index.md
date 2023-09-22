@@ -66,11 +66,11 @@ If you encounter any issues or have questions, don't hesitate to seek help on th
 
 ### 1. Is Aspose.Slides for .NET free to use?
 
-No, Aspose.Slides for .NET is a commercial library, and you can find pricing and licensing information on the [official purchase page](https://purchase.aspose.com/buy).
+No, Aspose.Slides for .NET is a commercial library, and you can find pricing and licensing information on the [purchase page](https://purchase.aspose.com/buy).
 
 ### 2. Can I try Aspose.Slides for .NET before purchasing?
 
-Yes, you can download a free trial from the [official releases page](https://releases.aspose.com/). The trial allows you to evaluate the library's features before making a purchase.
+Yes, you can download a free trial from the [releases page](https://releases.aspose.com/). The trial allows you to evaluate the library's features before making a purchase.
 
 ### 3. How can I get a temporary license for Aspose.Slides for .NET?
 

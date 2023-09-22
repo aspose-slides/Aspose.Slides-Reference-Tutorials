@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance PowerPoint presentations with custom font styles, sizes, and colors for individual legends in Java Slides using Aspose.Slides for Java.
 type: docs
 weight: 12
-url: /java/java-slides-customization-and-formatting/font-properties-individual-legend-java-slides/
+url: /java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
 
 ## Introduction to Font Properties for Individual Legend in Java Slides

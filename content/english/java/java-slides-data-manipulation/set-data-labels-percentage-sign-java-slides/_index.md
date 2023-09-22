@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set data labels with percentage signs in PowerPoint presentations using Aspose.Slides for Java. Create engaging charts with step-by-step guidance and source code.
 type: docs
 weight: 17
-url: /java/java-slides-data-manipulation/set-data-labels-percentage-sign-java-slides/
+url: /java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
 
 ## Introduction to Set Data Labels Percentage Sign in Aspose.Slides for Java

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to hide chart elements in Java Slides with Aspose.Slides for Java. Customize presentations for clarity and aesthetics with step-by-step guidance and source code.
 type: docs
 weight: 13
-url: /java/java-slides-customization-and-formatting/hide-information-chart-java-slides/
+url: /java/customization-and-formatting/hide-information-chart-java-slides/
 ---
 
 ## Introduction to Hide Information from Chart in Java Slides

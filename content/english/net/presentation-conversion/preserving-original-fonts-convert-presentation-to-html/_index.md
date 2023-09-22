@@ -89,7 +89,7 @@ If you want to embed only specific fonts, you can modify the code accordingly. C
 
 ### Q3: Are there any licensing requirements for using Aspose.Slides for .NET?
 
-Yes, you may need a valid license to use Aspose.Slides for .NET in your projects. Refer to the official Aspose website for licensing information.
+Yes, you may need a valid license to use Aspose.Slides for .NET in your projects. Refer to the Aspose website for licensing information.
 
 ### Q4: Can I convert other file formats to HTML using Aspose.Slides for .NET?
 

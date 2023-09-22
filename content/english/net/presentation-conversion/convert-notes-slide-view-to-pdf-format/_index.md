@@ -67,7 +67,7 @@ Yes, Aspose.Slides for .NET is available for both personal and commercial use.
 
 ### Q2: How can I get support for any issues or questions I have?
 
-You can find support on the official [Aspose.Slides for .NET website](https://forum.aspose.com/slides/net/).
+You can find support on the [Aspose.Slides for .NET website](https://forum.aspose.com/slides/net/).
 
 ### Q3: Can I customize the layout of the PDF output?
 

@@ -75,7 +75,7 @@ You can apply various formatting and styling options to your slides before conve
 
 ### 4. Are there any licensing requirements for using Aspose.Slides for .NET?
 
-Yes, Aspose.Slides for .NET requires a valid license for commercial use. You can obtain a license from the official Aspose website.
+Yes, Aspose.Slides for .NET requires a valid license for commercial use. You can obtain a license from the Aspose website.
 
 ### 5. Where can I find more resources and support for Aspose.Slides for .NET?
 

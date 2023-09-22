@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert notes slide views in Java Slides using Aspose.Slides for Java. Step-by-step guide with code examples for efficient PowerPoint manipulation.
 type: docs
 weight: 15
-url: /java/java-slides-presentation-conversion/convert-notes-slide-view-java-slides/
+url: /java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
 
 ## Introduction to Convert Notes Slide View in Java Slides Using Aspose.Slides

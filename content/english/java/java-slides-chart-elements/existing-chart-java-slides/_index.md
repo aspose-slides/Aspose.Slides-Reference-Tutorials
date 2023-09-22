@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance your PowerPoint presentations with Aspose.Slides for Java. Learn to modify existing charts programmatically. Step-by-step guide with source code for chart customization.
 type: docs
 weight: 12
-url: /java/java-slides-chart-elements/existing-chart-java-slides/
+url: /java/chart-elements/existing-chart-java-slides/
 ---
 
 ## Introduction to Existing Chart in Java Slides using Aspose.Slides for Java

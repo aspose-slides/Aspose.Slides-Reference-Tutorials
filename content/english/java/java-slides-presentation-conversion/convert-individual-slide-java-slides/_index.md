@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert individual PowerPoint slides to HTML step by step with code examples using Aspose.Slides for Java.
 type: docs
 weight: 12
-url: /java/java-slides-presentation-conversion/convert-individual-slide-java-slides/
+url: /java/presentation-conversion/convert-individual-slide-java-slides/
 ---
 
 ## Introduction to Convert Individual Slide in Java Slides

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance Your Java Slides with Custom Lines. Step-by-step guide using Aspose.Slides for Java. Learn to add and customize lines in presentations for impactful visuals.
 type: docs
 weight: 10
-url: /java/java-slides-customization-and-formatting/adding-custom-lines-java-slides/
+url: /java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
 
 ## Introduction to Adding Custom Lines in Java Slides

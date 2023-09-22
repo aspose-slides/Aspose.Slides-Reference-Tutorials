@@ -14,7 +14,7 @@ In the world of document management and manipulation, Aspose.Slides for .NET sta
 
 Before we begin, make sure you have the following:
 
-- **Aspose.Slides for .NET:** If you haven't already, download and install Aspose.Slides for .NET from the [official website](https://releases.aspose.com/slides/net/).
+- **Aspose.Slides for .NET:** If you haven't already, download and install Aspose.Slides for .NET from the [website](https://releases.aspose.com/slides/net/).
 
 ## Step 1: Set up Your Project
 
@@ -79,7 +79,7 @@ Yes, Aspose.Slides for .NET supports various document formats, not just PowerPoi
 
 ### 2. Are there any licensing options available?
 
-Yes, you can explore licensing options on the [official Aspose website](https://purchase.aspose.com/buy).
+Yes, you can explore licensing options on the [Aspose website](https://purchase.aspose.com/buy).
 
 ### 3. Is there a free trial available?
 

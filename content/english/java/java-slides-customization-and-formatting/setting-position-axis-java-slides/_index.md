@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance Your Charts with Aspose.Slides for Java. Learn how to setting the position axis in Java slides, create stunning presentations, and customize chart layouts with ease.
 type: docs
 weight: 16
-url: /java/java-slides-customization-and-formatting/setting-position-axis-java-slides/
+url: /java/customization-and-formatting/setting-position-axis-java-slides/
 ---
 
 ## Introduction to Setting Position Axis in Aspose.Slides for Java

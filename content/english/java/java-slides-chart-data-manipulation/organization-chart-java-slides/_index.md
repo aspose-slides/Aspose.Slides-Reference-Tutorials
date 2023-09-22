@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create stunning organization charts in Java Slides with step-by-step Aspose.Slides tutorials. Customize and visualize your organizational structure effortlessly.
 type: docs
 weight: 22
-url: /java/java-slides-chart-data-manipulation/organization-chart-java-slides/
+url: /java/chart-data-manipulation/organization-chart-java-slides/
 ---
 
 ## Introduction to Creating an Organization Chart in Java Slides using Aspose.Slides

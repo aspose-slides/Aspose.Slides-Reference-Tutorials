@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Java presentations with Aspose.Slides for Java. Learn how to animate category elements in PowerPoint slides step-by-step.
 type: docs
 weight: 10
-url: /java/java-slides-animation-and-layout/animating-categories-elements-java-slides/
+url: /java/animation-and-layout/animating-categories-elements-java-slides/
 ---
 
 ## Introduction to Animating Categories Elements in Java Slides

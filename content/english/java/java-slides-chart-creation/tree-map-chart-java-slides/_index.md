@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Tree Map Charts in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for visualizing hierarchical data.
 type: docs
 weight: 13
-url: /java/java-slides-chart-creation/tree-map-chart-java-slides/
+url: /java/chart-creation/tree-map-chart-java-slides/
 ---
 
 ## Introduction to Tree Map Chart in Java Slides

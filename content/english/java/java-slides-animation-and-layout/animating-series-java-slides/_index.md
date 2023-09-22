@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your presentations with series animations in Aspose.Slides for Java. Follow our step-by-step guide with source code examples to create engaging PowerPoint animations.
 type: docs
 weight: 11
-url: /java/java-slides-animation-and-layout/animating-series-java-slides/
+url: /java/animation-and-layout/animating-series-java-slides/
 ---
 
 ## Introduction to Animating Series in Aspose.Slides for Java

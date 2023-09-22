@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations to PDF with hidden slides using Aspose.Slides for Java. Follow our step-by-step guide with source code for seamless PDF generation.
 type: docs
 weight: 27
-url: /java/java-slides-presentation-conversion/convert-pdf-hidden-slides-java-slides/
+url: /java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
 
 ## Introduction to Convert PowerPoint Presentation to PDF with Hidden Slides using Aspose.Slides for Java

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to clear specific data points from a chart series in Java Slides with Aspose.Slides for Java. Step-by-step guide with source code for effective data visualization management.
 type: docs
 weight: 15
-url: /java/java-slides-chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
+url: /java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
 
 ## Introduction to Clear Specific Chart Series Data Points Data in Java Slides

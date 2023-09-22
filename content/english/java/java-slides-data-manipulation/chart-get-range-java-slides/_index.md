@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to retrieve chart ranges in Java Slides using Aspose.Slides for Java API. Step-by-step guide with source code for effective chart data access.
 type: docs
 weight: 16
-url: /java/java-slides-data-manipulation/chart-get-range-java-slides/
+url: /java/data-manipulation/chart-get-range-java-slides/
 ---
 
 ## Introduction to Chart Get Range in Java Slides

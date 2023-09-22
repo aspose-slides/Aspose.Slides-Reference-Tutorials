@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Stunning Map Charts in PowerPoint Presentations with Aspose.Slides for Java. Step-by-step guide and source code for Java developers.
 type: docs
 weight: 15
-url: /java/java-slides-chart-elements/map-chart-java-slides/
+url: /java/chart-elements/map-chart-java-slides/
 ---
 
 ## Introduction to Map Chart in Java Slides using Aspose.Slides for Java

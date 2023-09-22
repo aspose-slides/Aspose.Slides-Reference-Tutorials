@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations to TIFF images with custom size using Aspose.Slides for Java. Step-by-step guide with code examples for developers.
 type: docs
 weight: 31
-url: /java/java-slides-presentation-conversion/convert-custom-size-java-slides/
+url: /java/presentation-conversion/convert-custom-size-java-slides/
 ---
 
 ## Introduction to Convert with Custom Size in Java Slides

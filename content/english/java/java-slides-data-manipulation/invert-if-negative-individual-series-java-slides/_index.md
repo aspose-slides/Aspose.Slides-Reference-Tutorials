@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to use the Invert If Negative feature in Aspose.Slides for Java to enhance chart visuals in PowerPoint presentations.
 type: docs
 weight: 11
-url: /java/java-slides-data-manipulation/invert-if-negative-individual-series-java-slides/
+url: /java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
 
 ## Introduction to Invert If Negative for Individual Series in Java Slides

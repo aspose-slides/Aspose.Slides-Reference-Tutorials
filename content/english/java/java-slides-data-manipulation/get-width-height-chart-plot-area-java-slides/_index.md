@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to retrieve chart plot area dimensions in Java Slides using Aspose.Slides for Java. Enhance your PowerPoint automation skills.
 type: docs
 weight: 21
-url: /java/java-slides-data-manipulation/get-width-height-chart-plot-area-java-slides/
+url: /java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
 
 ## Introduction

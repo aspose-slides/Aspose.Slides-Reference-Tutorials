@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create dynamic pie charts with automatic slice colors in Java PowerPoint presentations using Aspose.Slides for Java. Step-by-step guide with source code.
 type: docs
 weight: 24
-url: /java/java-slides-data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
+url: /java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
 
 ## Introduction to Setting Automatic Pie Chart Slice Colors in Java Slides

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set automatic series fill color in Java Slides using Aspose.Slides for Java. Step-by-step guide with code examples for dynamic presentations.
 type: docs
 weight: 14
-url: /java/java-slides-data-manipulation/set-automatic-series-fill-color-java-slides/
+url: /java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
 
 ## Introduction to Set Automatic Series Fill Color in Java Slides

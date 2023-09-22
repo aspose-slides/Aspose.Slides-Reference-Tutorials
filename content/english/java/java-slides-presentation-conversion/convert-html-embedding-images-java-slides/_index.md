@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Convert PowerPoint to HTML with Embedded Images. Step-by-step guide using Aspose.Slides for Java. Learn to automate presentation conversions in Java effortlessly.
 type: docs
 weight: 11
-url: /java/java-slides-presentation-conversion/convert-html-embedding-images-java-slides/
+url: /java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
 
 ## Introduction to Convert HTML Embedding Images in Java Slides

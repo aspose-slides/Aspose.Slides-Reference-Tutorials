@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set invert fill colors for Java Slides charts using Aspose.Slides. Enhance your chart visualizations with this step-by-step guide and source code.
 type: docs
 weight: 22
-url: /java/java-slides-data-manipulation/set-invert-fill-color-chart-java-slides/
+url: /java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
 
 ## Introduction to Set Invert Fill Color Chart in Java Slides

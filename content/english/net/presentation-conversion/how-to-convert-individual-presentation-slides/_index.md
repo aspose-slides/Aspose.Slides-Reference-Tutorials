@@ -15,7 +15,7 @@ Aspose.Slides for .NET is a feature-rich library that enables developers to work
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites in place:
 
-- Aspose.Slides for .NET: Make sure you have Aspose.Slides for .NET installed and configured in your development environment. You can download it from the [official website](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Make sure you have Aspose.Slides for .NET installed and configured in your development environment. You can download it from the [website](https://releases.aspose.com/slides/net/).
 
 - Presentation File: You'll need a PowerPoint presentation file (PPTX) containing the slides you want to convert. Ensure you have the necessary presentation file ready.
 

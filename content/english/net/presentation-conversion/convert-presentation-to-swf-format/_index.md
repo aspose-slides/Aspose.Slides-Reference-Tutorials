@@ -93,7 +93,7 @@ This code saves the presentation with notes in SWF format.
 
 Congratulations! You've successfully converted a PowerPoint presentation to SWF format using Aspose.Slides for .NET. This can be especially useful when you need to share your presentations online or embed them into web pages.
 
-For more information and detailed documentation, you can visit the [official Aspose.Slides for .NET reference](https://reference.aspose.com/slides/net/).
+For more information and detailed documentation, you can visit the [Aspose.Slides for .NET reference](https://reference.aspose.com/slides/net/).
 
 ## FAQs
 

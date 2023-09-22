@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Scatter Charts in Java using Aspose.Slides. Step-by-step guide with Java source code for data visualization in presentations.
 type: docs
 weight: 11
-url: /java/java-slides-chart-creation/scattered-chart-java-slides/
+url: /java/chart-creation/scattered-chart-java-slides/
 ---
 
 ## Introduction to Scattered Chart in Aspose.Slides for Java

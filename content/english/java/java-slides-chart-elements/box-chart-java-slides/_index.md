@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Box Charts in Java presentations with Aspose.Slides. Step-by-step guide and source code included for effective data visualization.
 type: docs
 weight: 10
-url: /java/java-slides-chart-elements/box-chart-java-slides/
+url: /java/chart-elements/box-chart-java-slides/
 ---
 
 ## Introduction to Box Chart in Aspose.Slides for Java

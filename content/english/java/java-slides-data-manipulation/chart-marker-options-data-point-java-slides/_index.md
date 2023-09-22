@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Java Slides with Custom Chart Marker Options. Learn to enhance data points visually using Aspose.Slides for Java. Explore step-by-step guidance and FAQs.
 type: docs
 weight: 14
-url: /java/java-slides-data-manipulation/chart-marker-options-data-point-java-slides/
+url: /java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
 
 ## Introduction to Chart Marker Options on Data Point in Java Slides

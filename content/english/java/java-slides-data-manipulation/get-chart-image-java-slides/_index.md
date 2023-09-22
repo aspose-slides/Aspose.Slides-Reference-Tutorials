@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to obtain chart images in Java Slides using Aspose.Slides for Java. This step-by-step guide provides source code and tips for seamless integration.
 type: docs
 weight: 19
-url: /java/java-slides-data-manipulation/get-chart-image-java-slides/
+url: /java/data-manipulation/get-chart-image-java-slides/
 ---
 
 ## Introduction to Get Chart Image in Java Slides

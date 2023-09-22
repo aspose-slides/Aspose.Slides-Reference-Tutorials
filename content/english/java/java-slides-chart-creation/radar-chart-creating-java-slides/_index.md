@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Radar Charts in Java PowerPoint presentations using Aspose.Slides for Java API.
 type: docs
 weight: 10
-url: /java/java-slides-chart-creation/radar-chart-creating-java-slides/
+url: /java/chart-creation/radar-chart-creating-java-slides/
 ---
 
 ## Introduction to Creating a Radar Chart in Java Slides

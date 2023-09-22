@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to Add Doughnut Callouts in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for enhanced presentations.
 type: docs
 weight: 12
-url: /java/java-slides-chart-data-manipulation/add-doughnut-callout-java-slides/
+url: /java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
 
 ## Introduction to Add a Doughnut Callout in Java Slides using Aspose.Slides for Java

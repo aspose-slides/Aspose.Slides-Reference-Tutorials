@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to get the actual position of chart data labels in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code.
 type: docs
 weight: 18
-url: /java/java-slides-data-manipulation/actual-position-chart-data-label-java-slides/
+url: /java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
 
 ## Introduction to Get Actual Position of Chart Data Label in Java Slides

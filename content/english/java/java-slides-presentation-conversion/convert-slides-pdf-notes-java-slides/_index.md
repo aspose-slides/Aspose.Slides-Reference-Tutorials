@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint slides to PDF with notes in Java using Aspose.Slides for Java. Step-by-step guide for Java developers. Enhance your presentation sharing.
 type: docs
 weight: 19
-url: /java/java-slides-presentation-conversion/convert-slides-pdf-notes-java-slides/
+url: /java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
 
 ## Introduction to Convert Slides to PDF with Notes in Java

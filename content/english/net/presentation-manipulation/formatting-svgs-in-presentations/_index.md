@@ -86,7 +86,7 @@ In this tutorial, we've explored how to format SVG shapes in presentations using
 
 Don't hesitate to experiment with different SVG shapes and formatting options to unleash your creativity. Aspose.Slides for .NET provides a powerful platform to elevate your presentation design.
 
-For more information, detailed documentation, and support, visit the official Aspose.Slides for .NET resources:
+For more information, detailed documentation, and support, visit the Aspose.Slides for .NET resources:
 
 - [API Documentation](https://reference.aspose.com/slides/net/): Explore the API reference for in-depth details.
 - [Download](https://releases.aspose.com/slides/net/): Get the latest Aspose.Slides for .NET version.
@@ -106,7 +106,7 @@ SVG formatting refers to the styling and design of Scalable Vector Graphics used
 Aspose.Slides for .NET is primarily designed for C#, but it also works with other .NET languages like VB.NET.
 
 ### Is there a trial version of Aspose.Slides for .NET available?
-Yes, you can try Aspose.Slides for .NET for free by downloading the trial version from the official website.
+Yes, you can try Aspose.Slides for .NET for free by downloading the trial version from the website.
 
 ### How can I get technical support for Aspose.Slides for .NET?
 You can visit the Aspose community forum (link provided above) to seek technical support and engage in discussions with experts and fellow developers.

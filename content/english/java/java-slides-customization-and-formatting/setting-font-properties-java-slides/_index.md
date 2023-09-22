@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to setting font properties in Java slides using Aspose.Slides for Java. This step-by-step guide includes code examples and FAQs.
 type: docs
 weight: 15
-url: /java/java-slides-customization-and-formatting/setting-font-properties-java-slides/
+url: /java/customization-and-formatting/setting-font-properties-java-slides/
 ---
 
 ## Introduction to Setting Font Properties in Java Slides

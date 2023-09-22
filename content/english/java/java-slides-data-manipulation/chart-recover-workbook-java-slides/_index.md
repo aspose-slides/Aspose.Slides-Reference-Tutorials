@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to recover workbooks from charts in Java Slides with Aspose.Slides. Step-by-step guide for PowerPoint automation.
 type: docs
 weight: 17
-url: /java/java-slides-data-manipulation/chart-recover-workbook-java-slides/
+url: /java/data-manipulation/chart-recover-workbook-java-slides/
 ---
 
 ## Introduction to Chart Recover Workbook in Java Slides

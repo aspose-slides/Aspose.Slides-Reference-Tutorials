@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations to XAML in Java with Aspose.Slides. Follow our step-by-step guide for seamless integration.
 type: docs
 weight: 28
-url: /java/java-slides-presentation-conversion/convert-to-xaml-java-slides/
+url: /java/presentation-conversion/convert-to-xaml-java-slides/
 ---
 
 ## Introduction Convert to XAML in Java Slides

@@ -56,7 +56,7 @@ In this tutorial, we've demonstrated how to export a PowerPoint presentation to 
 ## 7. FAQs
 
 ### Q1: How can I install Aspose.Slides for .NET?
-You can download Aspose.Slides for .NET from the official website: [Download Aspose.Slides](https://releases.aspose.com/slides/net/)
+You can download Aspose.Slides for .NET from the website: [Download Aspose.Slides](https://releases.aspose.com/slides/net/)
 
 ### Q2: Do I need a license for Aspose.Slides for .NET?
 Yes, you can obtain a license from [Aspose](https://purchase.aspose.com/buy) to use the full features of the API.

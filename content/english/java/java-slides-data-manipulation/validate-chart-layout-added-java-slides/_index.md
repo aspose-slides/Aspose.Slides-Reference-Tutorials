@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master chart layout validation in PowerPoint with Aspose.Slides for Java. Learn to manipulate charts programmatically for stunning presentations.
 type: docs
 weight: 10
-url: /java/java-slides-data-manipulation/validate-chart-layout-added-java-slides/
+url: /java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
 
 ## Introduction to Validating Chart Layout in Aspose.Slides for Java

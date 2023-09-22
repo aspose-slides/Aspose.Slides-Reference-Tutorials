@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to edit chart data in an external workbook using Aspose.Slides for Java. Step-by-step guide with source code.
 type: docs
 weight: 17
-url: /java/java-slides-chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
+url: /java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
 
 ## Introduction to Edit Chart Data in External Workbook in Java Slides
