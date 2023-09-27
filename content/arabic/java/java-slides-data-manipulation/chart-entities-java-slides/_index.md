@@ -39,7 +39,7 @@ Presentation pres = new Presentation();
 // الوصول إلى الشريحة الأولى
 ISlide slide = pres.getSlides().get_Item(0);
 
-//إضافة نموذج الرسم البياني
+// إضافة نموذج الرسم البياني
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
 
@@ -161,7 +161,7 @@ try
 {
 	// الوصول إلى الشريحة الأولى
 	ISlide slide = pres.getSlides().get_Item(0);
-	//إضافة نموذج الرسم البياني
+	// إضافة نموذج الرسم البياني
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 	// تحديد عنوان المخطط
 	chart.setTitle(true);

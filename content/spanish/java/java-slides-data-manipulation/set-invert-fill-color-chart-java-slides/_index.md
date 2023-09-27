@@ -136,7 +136,7 @@ En esta sección, abordaremos algunas preguntas comunes relacionadas con la conf
 
 ### ¿Puedo personalizar el color del relleno invertido en la serie de gráficos?
 
- Sí, puedes personalizar el color del relleno invertido en la serie de gráficos. En el ejemplo de código proporcionado, el`series.getInvertedSolidFillColor().setColor(Color.RED)` La línea establece el color en rojo para el relleno invertido. puedes reemplazar`Color.RED` con cualquier otro color de tu elección.
+Sí, puedes personalizar el color del relleno invertido en la serie de gráficos. En el ejemplo de código proporcionado, el`series.getInvertedSolidFillColor().setColor(Color.RED)` La línea establece el color en rojo para el relleno invertido. puedes reemplazar`Color.RED` con cualquier otro color de tu elección.
 
 ### ¿Cómo puedo modificar el tipo de gráfico en Aspose.Slides para Java?
 
@@ -144,7 +144,7 @@ En esta sección, abordaremos algunas preguntas comunes relacionadas con la conf
 
 ### ¿Cómo agrego varias series de datos a un gráfico?
 
- Para agregar varias series de datos a un gráfico, puede utilizar el`chart.getChartData().getSeries().add(...)`método para cada serie que desee agregar. Asegúrese de proporcionar los puntos de datos y las etiquetas adecuados para cada serie para completar su gráfico con varias series.
+ Para agregar varias series de datos a un gráfico, puede utilizar el`chart.getChartData().getSeries().add(...)` método para cada serie que desee agregar. Asegúrese de proporcionar los puntos de datos y las etiquetas adecuados para cada serie para completar su gráfico con varias series.
 
 ### ¿Existe alguna forma de personalizar otros aspectos de la apariencia del gráfico?
 

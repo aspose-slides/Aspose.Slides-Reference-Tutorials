@@ -106,7 +106,7 @@ gradient.GradientStops.Add(1, Color.Yellow);
 
 Kesinlikle! Her slayt için arka plan çıkarma ve ayarlama işlemini tekrarlayarak farklı slaytlara farklı arka planlar uygulayabilirsiniz.
 
-### Slayttaki arka plan resmini kaldırmak mümkün müdür?
+### Slayttaki arka plan resmini kaldırmak mümkün mü?
 
  Evet, arka plan resmini slayttan kaldırabilirsiniz.`Picture` mülkiyet`null`:
 

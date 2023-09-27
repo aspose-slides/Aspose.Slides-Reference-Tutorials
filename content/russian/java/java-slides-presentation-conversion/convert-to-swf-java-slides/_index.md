@@ -25,7 +25,7 @@ url: /ru/java/presentation-conversion/convert-to-swf-java-slides/
 
 ## Шаг 2. Инициализация объекта презентации Aspose.Slides
 
- На этом этапе вы создадите`Presentation`объект для загрузки презентации PowerPoint. Заменять`"Your Document Directory"` с фактическим путем к файлу PowerPoint.
+На этом этапе вы создадите`Presentation` объект для загрузки презентации PowerPoint. Заменять`"Your Document Directory"` с фактическим путем к файлу PowerPoint.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -69,7 +69,7 @@ presentation.save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 
 ## Шаг 6: Очистка
 
- Наконец, обязательно утилизируйте`Presentation` возражать против освобождения каких-либо ресурсов.
+ Наконец, обязательно утилизируйте`Presentation`возражать против освобождения каких-либо ресурсов.
 
 ```java
 if (presentation != null) presentation.dispose();

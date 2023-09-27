@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Çalışma kitabı verileri üzerinde işlemleri burada gerçekleştirin
+    //Çalışma kitabı verileri üzerinde işlemleri burada gerçekleştirin
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ Bu kılavuzda, Aspose.Slides for Java kullanarak Java Slides'daki bir grafikten 
 
 ### Aspose.Slides for Java'yı nasıl yüklerim?
 
- Aspose.Slides for Java, kütüphaneyi aşağıdaki web sitesinden indirerek kolayca kurulabilir:[Burada](https://releases.aspose.com/slides/java/)Java projenize entegre etmek için sağlanan kurulum talimatlarını izleyin.
+ Aspose.Slides for Java, kütüphaneyi aşağıdaki web sitesinden indirerek kolayca kurulabilir:[Burada](https://releases.aspose.com/slides/java/). Java projenize entegre etmek için sağlanan kurulum talimatlarını izleyin.
 
 ### Bir PowerPoint sunumundaki herhangi bir grafikten çalışma kitabı verilerini kurtarabilir miyim?
 
@@ -104,7 +104,7 @@ Evet, Aspose.Slides for Java, grafik verileriyle çalışmak için çok çeşitl
 
 ### Aspose.Slides for Java profesyonel PowerPoint otomasyonuna uygun mu?
 
-Kesinlikle! Aspose.Slides for Java, PowerPoint görevlerini otomatikleştirmeye yönelik güçlü bir kitaplıktır; bu da onu hem temel hem de ileri düzey profesyonel kullanım örneklerine uygun hale getirir. PowerPoint sunumlarını programlı olarak oluşturmak, değiştirmek ve yönetmek için kapsamlı özellikler sağlar.
+Kesinlikle! Aspose.Slides for Java, PowerPoint görevlerini otomatikleştirmeye yönelik güçlü bir kitaplıktır ve onu hem temel hem de ileri düzey profesyonel kullanım örneklerine uygun hale getirir. PowerPoint sunumlarını programlı olarak oluşturmak, değiştirmek ve yönetmek için kapsamlı özellikler sağlar.
 
 ### Aspose.Slides for Java ile ilgili diğer belgelere nasıl erişebilirim?
 

@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Eseguire qui le operazioni sui dati della cartella di lavoro
+    //Eseguire qui le operazioni sui dati della cartella di lavoro
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ In questa guida, abbiamo esaminato il processo di recupero di una cartella di la
 
 ### Come installo Aspose.Slides per Java?
 
- Aspose.Slides per Java può essere facilmente installato scaricando la libreria dal sito Web all'indirizzo[Qui](https://releases.aspose.com/slides/java/)Segui le istruzioni di installazione fornite per integrarlo nel tuo progetto Java.
+ Aspose.Slides per Java può essere facilmente installato scaricando la libreria dal sito Web all'indirizzo[Qui](https://releases.aspose.com/slides/java/). Segui le istruzioni di installazione fornite per integrarlo nel tuo progetto Java.
 
 ### Posso recuperare i dati della cartella di lavoro da qualsiasi grafico in una presentazione di PowerPoint?
 

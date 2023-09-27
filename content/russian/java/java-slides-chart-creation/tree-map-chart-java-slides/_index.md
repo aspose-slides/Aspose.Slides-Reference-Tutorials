@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Создать ветку 1
+    //Создать ветку 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -151,4 +151,4 @@ finally
 
 ### Как сохранить презентацию с древовидной диаграммой?
 
- Использовать`pres.save()`метод сохранения презентации с древовидной диаграммой в нужном формате (например, PPTX).
+ Использовать`pres.save()` метод сохранения презентации с древовидной диаграммой в нужном формате (например, PPTX).

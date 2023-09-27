@@ -93,7 +93,7 @@ In diesem Leitfaden haben wir untersucht, wie Sie mit Aspose.Slides für .NET Au
 
 ### Wie installiere ich Aspose.Slides für .NET?
 
- Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[Hier](https://releases.aspose.com/slides/net) und befolgen Sie die Installationsanweisungen in der Dokumentation.
+ Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[Hier](https://releases.aspose.com/slides/net)und befolgen Sie die Installationsanweisungen in der Dokumentation.
 
 ### Kann ich mehrere Mediendateien aus einer einzelnen Folie extrahieren?
 

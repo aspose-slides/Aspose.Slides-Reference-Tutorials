@@ -91,6 +91,6 @@ finally
 
  Ja, du kan lägga till etiketter till segmenten i munkdiagrammet med hjälp av`setDataPointsLabelValue` metod på`IChart` objekt.
 
-### Är det möjligt att lägga till en titel till diagrammet?
+### Är det möjligt att lägga till en titel i diagrammet?
 
  Säkert! Du kan lägga till en titel till diagrammet med hjälp av`setTitle` metod på`IChart` objekt och tillhandahålla önskad titeltext.

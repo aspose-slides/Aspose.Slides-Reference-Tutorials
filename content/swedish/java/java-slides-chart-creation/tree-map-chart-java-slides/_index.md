@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Skapa gren 1
+    //Skapa gren 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -151,4 +151,4 @@ Ja, du kan skapa flera trädkartor i en enda presentation genom att följa samma
 
 ### Hur sparar jag presentationen med trädkartan?
 
- Använd`pres.save()`metod för att spara presentationen med trädkartan i önskat format (t.ex. PPTX).
+ Använd`pres.save()` metod för att spara presentationen med trädkartan i önskat format (t.ex. PPTX).

@@ -63,7 +63,7 @@ String outPath = "Your Output Directory/ConvertToGif.gif";
 presentation.save(outPath, SaveFormat.Gif, gifOptions);
 ```
 
-E questo è tutto! Hai convertito con successo una presentazione di PowerPoint in una GIF utilizzando Java e Aspose.Slides per Java.
+questo è tutto! Hai convertito con successo una presentazione di PowerPoint in una GIF utilizzando Java e Aspose.Slides per Java.
 
 ## Codice sorgente completo per convertire in GIF in diapositive Java
 
@@ -98,7 +98,7 @@ In questa guida, ti abbiamo mostrato come convertire le presentazioni PowerPoint
 
 ### Posso regolare il ritardo tra le diapositive nella GIF?
 
-Sì, puoi regolare il ritardo tra le diapositive modificando il valore in`setDefaultDelay`. È specificato in millisecondi, quindi impostalo sul tempo di ritardo desiderato.
+ Sì, puoi regolare il ritardo tra le diapositive modificando il valore in`setDefaultDelay`. È specificato in millisecondi, quindi impostalo sul tempo di ritardo desiderato.
 
 ### Qual è l'FPS consigliato per la conversione GIF?
 

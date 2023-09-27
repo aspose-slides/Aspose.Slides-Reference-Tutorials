@@ -14,7 +14,7 @@ url: /ar/java/chart-creation/radar-chart-creating-java-slides/
 
 ## المتطلبات الأساسية
 
-قبل أن نبدأ، تأكد من دمج مكتبة Aspose.Slides for Java في مشروعك. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/java/).
+ قبل أن نبدأ، تأكد من دمج مكتبة Aspose.Slides for Java في مشروعك. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/java/).
 
 ## الخطوة 1: إعداد العرض التقديمي
 
@@ -99,7 +99,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 دعونا نخصص المحور ووسائل الإيضاح لمخطط الرادار الخاص بنا.
 
 ```java
-//تعيين موقف أسطورة
+// تعيين موقف أسطورة
 ichart.getLegend().setPosition(LegendPositionType.Bottom);
 
 // ضبط خصائص نص محور الفئة
@@ -199,7 +199,7 @@ try
 	// ضبط لون السلسلة
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
-	//تعيين موقف أسطورة
+	// تعيين موقف أسطورة
 	ichart.getLegend().setPosition(LegendPositionType.Bottom);
 	// ضبط خصائص نص محور الفئة
 	IChartPortionFormat txtCat = ichart.getAxes().getHorizontalAxis().getTextFormat().getPortionFormat();
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### كيف يمكنني حفظ المخطط بتنسيق ملف مختلف؟
 
- يمكنك تغيير تنسيق الإخراج عن طريق تعديل امتداد الملف في ملف`outPath`المتغير واستخدام المناسب`SaveFormat` . على سبيل المثال، للحفظ بصيغة PDF، استخدم`SaveFormat.Pdf`.
+ يمكنك تغيير تنسيق الإخراج عن طريق تعديل امتداد الملف في ملف`outPath` المتغير واستخدام المناسب`SaveFormat` . على سبيل المثال، للحفظ بصيغة PDF، استخدم`SaveFormat.Pdf`.

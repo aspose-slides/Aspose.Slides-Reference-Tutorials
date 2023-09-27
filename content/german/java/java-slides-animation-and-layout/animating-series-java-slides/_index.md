@@ -26,7 +26,7 @@ Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfü
 ```java
 // Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
-// Instanziieren Sie eine Präsentationsklasse, die eine Präsentationsdatei darstellt
+//Instanziieren Sie eine Präsentationsklasse, die eine Präsentationsdatei darstellt
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -43,10 +43,10 @@ IChart chart = (IChart) shapes.get_Item(0);
 
 ## Schritt 3: Animationen hinzufügen
 
-Nun fügen wir der Reihe innerhalb des Diagramms Animationen hinzu. Wir werden einen Einblendeffekt verwenden und jede Serie nacheinander erscheinen lassen.
+Fügen wir nun der Reihe innerhalb des Diagramms Animationen hinzu. Wir werden einen Einblendeffekt verwenden und jede Serie nacheinander erscheinen lassen.
 
 ```java
-//Animieren Sie das gesamte Diagramm
+// Animieren Sie das gesamte Diagramm
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Fügen Sie jeder Serie Animationen hinzu (vorausgesetzt, es gibt 4 Serien).
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Der Pfad zum Dokumentenverzeichnis.
 String dataDir = "Your Document Directory";
-// Instanziieren Sie eine Präsentationsklasse, die eine Präsentationsdatei darstellt
+//Instanziieren Sie eine Präsentationsklasse, die eine Präsentationsdatei darstellt
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {

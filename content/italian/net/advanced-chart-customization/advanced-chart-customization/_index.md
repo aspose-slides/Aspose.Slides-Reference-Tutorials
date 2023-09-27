@@ -36,7 +36,7 @@ using Aspose.Slides.Charts;
 using Presentation presentation = new Presentation();
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Aggiungi un grafico alla diapositiva
+//Aggiungi un grafico alla diapositiva
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 
 // Aggiungi alcuni dati di esempio al grafico

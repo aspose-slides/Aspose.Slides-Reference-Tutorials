@@ -74,7 +74,7 @@ pres.save(outPath, SaveFormat.Pptx);
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Få lebels av den första serien
             IDataLabelCollection labels = series.get_Item(0).getLabels();
-            //Byt färg på alla ledarlinjer i kollektionen
+            // Byt färg på alla ledarlinjer i kollektionen
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
             // Spara resultatet
             pres.save(outPath, SaveFormat.Pptx);
@@ -85,7 +85,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man ändrar ledarlinjens färg i ett PowerPoint-diagram med Aspose.Slides för Java. Du kan anpassa färgen och andra formateringsalternativ för att möta dina specifika behov. Detta kan vara särskilt användbart när du vill markera vissa datapunkter i dina diagram för bättre visualisering.
+den här handledningen har vi lärt oss hur man ändrar ledarlinjens färg i ett PowerPoint-diagram med Aspose.Slides för Java. Du kan anpassa färgen och andra formateringsalternativ för att möta dina specifika behov. Detta kan vara särskilt användbart när du vill markera vissa datapunkter i dina diagram för bättre visualisering.
 
 ## FAQ's
 

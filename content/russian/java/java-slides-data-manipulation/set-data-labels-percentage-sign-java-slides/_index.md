@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Мы добавляем данные на диаграмму, создавая ряды и точки данных. В этом примере мы добавляем две серии с соответствующими точками данных.
 
 ```java
-// Получение листа данных диаграммы
+//Получение листа данных диаграммы
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Добавить новую серию
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Получение листа данных диаграммы
+//Получение листа данных диаграммы
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Добавить новую серию
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -161,7 +161,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Заключение
 
-Следуя этому руководству, вы научились создавать привлекательные презентации с метками данных в процентах, что может быть особенно полезно для эффективной передачи информации в бизнес-отчетах, учебных материалах и т. д.
+Следуя этому руководству, вы научились создавать привлекательные презентации с метками данных в процентах, что может быть особенно полезно для эффективной передачи информации в бизнес-отчетах, учебных материалах и т. д.
 
 ## Часто задаваемые вопросы
 

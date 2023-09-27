@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Vorschau der Druckausgabe
 
- Um eine Vorschau der Druckausgabe der Präsentation anzuzeigen, können Sie die verwenden`Print`Methode, die von der bereitgestellt wird`PrintManager` Klasse. Mit dieser Methode können Sie ein Druckvorschaubild der Präsentation erstellen. So können Sie es machen:
+ Um eine Vorschau der Druckausgabe der Präsentation anzuzeigen, können Sie die verwenden`Print` Methode, die von der bereitgestellt wird`PrintManager`Klasse. Mit dieser Methode können Sie ein Druckvorschaubild der Präsentation erstellen. So können Sie es machen:
 
 ```csharp
 using Aspose.Slides.Export;

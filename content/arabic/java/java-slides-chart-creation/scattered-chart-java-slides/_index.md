@@ -56,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0
 // الحصول على فهرس ورقة عمل بيانات المخطط الافتراضي
 int defaultWorksheetIndex = 0;
 
-// الحصول على ورقة عمل بيانات المخطط
+//الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // حذف السلسلة التجريبية
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // الحصول على فهرس ورقة عمل بيانات المخطط الافتراضي
 int defaultWorksheetIndex = 0;
-// الحصول على ورقة عمل بيانات المخطط
+//الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // حذف السلسلة التجريبية
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // إضافة نقطة جديدة (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-// إضافة نقطة جديدة (2:2)
+//إضافة نقطة جديدة (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // إضافة نقطة جديدة (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني تغيير نوع الرسم البياني؟
 
- لتغيير نوع المخطط، استخدم`setType`الطريقة على سلسلة المخططات وتوفير نوع المخطط المطلوب. على سبيل المثال،`series.setType(ChartType.Line)` سيغير السلسلة إلى مخطط خطي.
+ لتغيير نوع المخطط، استخدم`setType` الطريقة على سلسلة المخططات وتوفير نوع المخطط المطلوب. على سبيل المثال،`series.setType(ChartType.Line)` سيغير السلسلة إلى مخطط خطي.
 
 ### كيف يمكنني تخصيص حجم العلامة ونمطها؟
 

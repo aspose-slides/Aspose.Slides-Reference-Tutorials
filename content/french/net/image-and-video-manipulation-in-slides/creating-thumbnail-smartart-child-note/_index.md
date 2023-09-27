@@ -2,7 +2,7 @@
 title: Création d'une vignette pour la note enfant SmartArt dans Aspose.Slides
 linktitle: Création d'une vignette pour la note enfant SmartArt dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment créer des miniatures pour les notes enfants SmartArt à l’aide d’Aspose.Slides pour .NET. Guide étape par étape avec le code source complet.
+description: Découvrez comment créer des vignettes pour les notes enfants SmartArt à l’aide d’Aspose.Slides pour .NET. Guide étape par étape avec le code source complet.
 type: docs
 weight: 15
 url: /fr/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/

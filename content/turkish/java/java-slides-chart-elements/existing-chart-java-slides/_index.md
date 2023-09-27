@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
 
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Grafik kategorisi adlarını değiştirme
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Grafik Kategori Adını değiştirme
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
@@ -167,7 +167,7 @@ Bu kapsamlı eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumun
 
 ### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü kullanarak değiştirebilirsiniz.`chart.setType(ChartType.ChartTypeHere)` yöntem. Yer değiştirmek`ChartTypeHere` istenilen grafik türüyle, örneğin`ChartType.ClusteredCylinder` bizim örneğimizde.
+ Grafik türünü kullanarak değiştirebilirsiniz.`chart.setType(ChartType.ChartTypeHere)` yöntem. Yer değiştirmek`ChartTypeHere` İstenilen grafik türüyle, örneğin`ChartType.ClusteredCylinder` bizim örneğimizde.
 
 ### Bir seriye daha fazla veri noktası ekleyebilir miyim?
 

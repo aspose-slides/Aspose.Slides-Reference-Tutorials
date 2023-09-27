@@ -10,7 +10,7 @@ url: /sv/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 
 ## Introduktion till Hämta värden och enhetsskala från Axis i Java Slides
 
-den här handledningen kommer vi att utforska hur man hämtar värden och enhetsskala från en axel i Java Slides med hjälp av Aspose.Slides för Java API. Oavsett om du arbetar med ett datavisualiseringsprojekt eller behöver analysera diagramdata i dina Java-applikationer, är det viktigt att förstå hur du kommer åt axelvärden. Vi kommer att leda dig genom processen steg för steg och tillhandahåller kodexempel längs vägen.
+I den här handledningen kommer vi att utforska hur man hämtar värden och enhetsskala från en axel i Java Slides med hjälp av Aspose.Slides för Java API. Oavsett om du arbetar med ett datavisualiseringsprojekt eller behöver analysera diagramdata i dina Java-applikationer, är det viktigt att förstå hur du kommer åt axelvärden. Vi kommer att leda dig genom processen steg för steg och tillhandahåller kodexempel längs vägen.
 
 ## Förutsättningar
 
@@ -18,7 +18,7 @@ Innan vi dyker in i koden, se till att du har följande förutsättningar på pl
 
 1. Java-utvecklingsmiljö: Se till att du har Java installerat på ditt system och är bekant med Java-programmeringskoncept.
 
-2.  Aspose.Slides for Java: Ladda ner och installera Aspose.Slides for Java-biblioteket från[nedladdningslänk](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Ladda ner och installera Aspose.Slides for Java-biblioteket från[nedladdningslänk](https://releases.aspose.com/slides/java/).
 
 ## Steg 1: Skapa en presentation
 
@@ -99,7 +99,7 @@ finally
 
 ## Slutsats
 
-den här handledningen har vi utforskat hur man får värden och enhetsskala från axlar i Java Slides med Aspose.Slides för Java. Detta kan vara otroligt värdefullt när du arbetar med diagram och analyserar data i dina Java-applikationer. Aspose.Slides för Java tillhandahåller de verktyg du behöver för att arbeta med presentationer programmatiskt, vilket ger dig kontroll över diagramdata och mycket mer.
+I den här handledningen har vi utforskat hur man får värden och enhetsskala från axlar i Java Slides med Aspose.Slides för Java. Detta kan vara otroligt värdefullt när du arbetar med diagram och analyserar data i dina Java-applikationer. Aspose.Slides för Java tillhandahåller de verktyg du behöver för att arbeta med presentationer programmatiskt, vilket ger dig kontroll över diagramdata och mycket mer.
 
 ## FAQ's
 

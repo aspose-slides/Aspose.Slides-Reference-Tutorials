@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 // Fügen Sie eine Folie hinzu
 ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.TitleAndContent);
 
-// Fügen Sie der Folie ein Diagramm hinzu
+//Fügen Sie der Folie ein Diagramm hinzu
 IChart chart = slide.Shapes.AddChart(ChartType.Line, 100, 100, 500, 300);
 
 // Fügen Sie Daten zum Diagramm hinzu

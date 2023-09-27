@@ -10,7 +10,7 @@ url: /tr/net/chart-formatting-and-animation/chart-formatting-and-animation/
 
 ## Aspose.Slides'a Giriş ve Özellikleri
 
-Aspose.Slides, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasını sağlayan bir .NET kitaplığıdır. Slaytlar, şekiller, metinler, resimler ve grafikler oluşturma, değiştirme ve işleme dahil olmak üzere çok çeşitli özellikler sunar. Sezgisel API'si sayesinde geliştiriciler sunum oluşturma sürecini otomatikleştirebilir ve bu da onu sunum oluşturma iş akışını kolaylaştırmak isteyenler için değerli bir varlık haline getirebilir.
+Aspose.Slides, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasını sağlayan bir .NET kitaplığıdır. Slaytlar, şekiller, metinler, resimler ve grafikler oluşturma, değiştirme ve işleme dahil olmak üzere çok çeşitli özellikler sunar. Sezgisel API'si sayesinde geliştiriciler sunum oluşturma sürecini otomatik hale getirebilir ve bu da onu sunum oluşturma iş akışını kolaylaştırmak isteyenler için değerli bir varlık haline getirebilir.
 
 ## Aspose.Slides ile Yeni Sunum Oluşturma
 

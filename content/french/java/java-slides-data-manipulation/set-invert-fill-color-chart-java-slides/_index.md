@@ -136,7 +136,7 @@ Dans cette section, nous aborderons quelques questions courantes liées à la d�
 
 ### Puis-je personnaliser la couleur du remplissage inversé dans la série de graphiques ?
 
- Oui, vous pouvez personnaliser la couleur du remplissage inversé dans la série de graphiques. Dans l'exemple de code fourni, le`series.getInvertedSolidFillColor().setColor(Color.RED)` La ligne définit la couleur sur rouge pour le remplissage inversé. Vous pouvez remplacer`Color.RED` avec toute autre couleur de votre choix.
+Oui, vous pouvez personnaliser la couleur du remplissage inversé dans la série de graphiques. Dans l'exemple de code fourni, le`series.getInvertedSolidFillColor().setColor(Color.RED)` La ligne définit la couleur sur rouge pour le remplissage inversé. Vous pouvez remplacer`Color.RED` avec toute autre couleur de votre choix.
 
 ### Comment puis-je modifier le type de graphique dans Aspose.Slides pour Java ?
 
@@ -144,7 +144,7 @@ Dans cette section, nous aborderons quelques questions courantes liées à la d�
 
 ### Comment ajouter plusieurs séries de données à un graphique ?
 
- Pour ajouter plusieurs séries de données à un graphique, vous pouvez utiliser l'outil`chart.getChartData().getSeries().add(...)`méthode pour chaque série que vous souhaitez ajouter. Assurez-vous de fournir les points de données et les étiquettes appropriés pour chaque série afin de remplir votre graphique avec plusieurs séries.
+ Pour ajouter plusieurs séries de données à un graphique, vous pouvez utiliser l'outil`chart.getChartData().getSeries().add(...)` méthode pour chaque série que vous souhaitez ajouter. Assurez-vous de fournir les points de données et les étiquettes appropriés pour chaque série afin de remplir votre graphique avec plusieurs séries.
 
 ### Existe-t-il un moyen de personnaliser d’autres aspects de l’apparence du graphique ?
 

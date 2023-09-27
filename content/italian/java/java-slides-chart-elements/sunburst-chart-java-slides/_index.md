@@ -14,7 +14,7 @@ In questo tutorial imparerai come creare un grafico Sunburst in una presentazion
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto Java. È possibile scaricare la libreria da[Qui](https://releases.aspose.com/slides/java/).
+ Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto Java. È possibile scaricare la libreria da[Qui](https://releases.aspose.com/slides/java/).
 
 ## Passaggio 1: importa le librerie richieste
 
@@ -163,7 +163,7 @@ In questo tutorial, hai imparato come creare un grafico Sunburst in una presenta
 
 ### Come posso aggiungere suggerimenti al grafico Sunburst?
 
-Per aggiungere descrizioni comando al grafico Sunburst, puoi impostare il formato dell'etichetta dati per visualizzare informazioni aggiuntive, come valori o descrizioni, quando si passa con il mouse sui segmenti del grafico.
+Per aggiungere descrizioni comandi al grafico Sunburst, puoi impostare il formato dell'etichetta dati per visualizzare informazioni aggiuntive, come valori o descrizioni, quando si passa con il mouse sui segmenti del grafico.
 
 ### È possibile creare grafici Sunburst interattivi con collegamenti ipertestuali?
 

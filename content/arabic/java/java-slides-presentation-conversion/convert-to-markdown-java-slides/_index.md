@@ -21,7 +21,7 @@ url: /ar/java/presentation-conversion/convert-to-markdown-java-slides/
 
 ## الخطوة 1: استيراد مكتبة Aspose.Slides
 
-أولاً، تحتاج إلى استيراد مكتبة Aspose.Slides إلى مشروع Java الخاص بك. يمكنك القيام بذلك عن طريق إضافة تبعية Maven التالية إلى مشروعك`pom.xml` ملف:
+ أولاً، تحتاج إلى استيراد مكتبة Aspose.Slides إلى مشروع Java الخاص بك. يمكنك القيام بذلك عن طريق إضافة تبعية Maven التالية إلى مشروعك`pom.xml` ملف:
 
 ```xml
 <dependency>
@@ -35,7 +35,7 @@ url: /ar/java/presentation-conversion/convert-to-markdown-java-slides/
 
 ## الخطوة 2: قم بتحميل عرض PowerPoint التقديمي
 
-بعد ذلك، ستقوم بتحميل عرض PowerPoint التقديمي الذي تريد تحويله إلى Markdown. في هذا المثال، نفترض أن لديك ملف عرض تقديمي باسم "PresentationDemo.pptx".
+بعد ذلك، ستقوم بتحميل عرض PowerPoint التقديمي الذي تريد تحويله إلى Markdown. في هذا المثال، نفترض أن لديك ملف عرض تقديمي باسم "PresentationDemo.pptx."
 
 ```java
 // المسار إلى العرض التقديمي المصدر

@@ -98,7 +98,7 @@ try
 {
 	// Создание пузырьковой диаграммы
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	//Добавление пользовательских полос ошибок и настройка их формата
+	// Добавление пользовательских полос ошибок и настройка их формата
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();

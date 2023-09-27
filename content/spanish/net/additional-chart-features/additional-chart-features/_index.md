@@ -10,11 +10,11 @@ url: /es/net/additional-chart-features/additional-chart-features/
 
 ## Introducción a Aspose.Slides
 
-Aspose.Slides es una poderosa biblioteca .NET que permite a los desarrolladores trabajar con presentaciones de PowerPoint mediante programación. Ofrece funciones integrales para crear, editar y manipular elementos de presentación, incluidos gráficos. Con Aspose.Slides, puede ir más allá de lo básico e incorporar funciones de gráficos avanzadas que hacen que sus presentaciones sean más atractivas e informativas.
+Aspose.Slides es una potente biblioteca .NET que permite a los desarrolladores trabajar con presentaciones de PowerPoint mediante programación. Ofrece funciones integrales para crear, editar y manipular elementos de presentación, incluidos gráficos. Con Aspose.Slides, puede ir más allá de lo básico e incorporar funciones de gráficos avanzadas que hacen que sus presentaciones sean más atractivas e informativas.
 
 ## Configurar el entorno
 
-Antes de profundizar en la implementación, asegúrese de tener instalado Aspose.Slides para .NET. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/net).
+ Antes de profundizar en la implementación, asegúrese de tener instalado Aspose.Slides para .NET. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/net).
 
 Una vez instalada la biblioteca, cree un nuevo proyecto .NET en su entorno de desarrollo preferido.
 
@@ -32,7 +32,7 @@ Presentation presentation = new Presentation();
 // Agregar una diapositiva
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Agregar un gráfico a la diapositiva
+//Agregar un gráfico a la diapositiva
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 
 // Agregar datos al gráfico

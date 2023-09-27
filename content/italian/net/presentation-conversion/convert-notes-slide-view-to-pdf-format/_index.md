@@ -57,7 +57,7 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## 7. Conclusione
 
-Congratulazioni! Hai convertito con successo la visualizzazione diapositive di Notes in formato PDF utilizzando Aspose.Slides per .NET. Questa potente libreria semplifica attività complesse come questa, rendendola una scelta eccellente per lavorare con le presentazioni PowerPoint a livello di codice.
+Congratulazioni! Hai convertito con successo la visualizzazione diapositive di Notes in formato PDF utilizzando Aspose.Slides per .NET. Questa potente libreria semplifica attività complesse come questa, rendendola una scelta eccellente per lavorare con le presentazioni PowerPoint a livello di programmazione.
 
 ## 8. Domande frequenti
 

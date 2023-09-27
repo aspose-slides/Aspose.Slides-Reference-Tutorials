@@ -26,7 +26,7 @@ url: /ar/java/animation-and-layout/animating-series-java-slides/
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-// إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
+//إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -46,7 +46,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 الآن، دعونا نضيف الرسوم المتحركة إلى السلسلة داخل المخطط. سوف نستخدم تأثير التلاشي ونجعل كل سلسلة تظهر واحدة تلو الأخرى.
 
 ```java
-//تحريك المخطط بأكمله
+// تحريك المخطط بأكمله
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // أضف رسومًا متحركة إلى كل سلسلة (بافتراض وجود 4 سلاسل)
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-// إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
+//إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {

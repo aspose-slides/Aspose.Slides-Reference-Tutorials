@@ -98,7 +98,7 @@ try
 {
 	// إنشاء مخطط فقاعي
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	//إضافة أشرطة خطأ مخصصة وتحديد تنسيقها
+	// إضافة أشرطة خطأ مخصصة وتحديد تنسيقها
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();

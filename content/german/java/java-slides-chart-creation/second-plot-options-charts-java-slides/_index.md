@@ -46,7 +46,7 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPie
 // Teilen Sie den Kuchen prozentual auf
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-//Legen Sie die Position der Teilung fest
+// Legen Sie die Position der Teilung fest
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
@@ -88,7 +88,7 @@ In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java zweite
 
 ###  Was macht`PieSplitBy` control in a Pie of Pie chart?
 
- Der`PieSplitBy` Die Eigenschaft steuert, wie das Kreisdiagramm aufgeteilt wird. Sie können es auf beides einstellen`PieSplitType.ByPercentage` oder`PieSplitType.ByValue` um das Diagramm prozentual bzw. nach einem bestimmten Wert aufzuteilen.
+ Der`PieSplitBy`Die Eigenschaft steuert, wie das Kreisdiagramm aufgeteilt wird. Sie können es auf beides einstellen`PieSplitType.ByPercentage` oder`PieSplitType.ByValue` um das Diagramm prozentual bzw. nach einem bestimmten Wert aufzuteilen.
 
 ### Wie lege ich die Position der Teilung in einem Kreisdiagramm fest?
 

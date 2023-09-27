@@ -93,7 +93,7 @@ In questa guida, abbiamo esplorato come estrarre contenuti audio e video dalle d
 
 ### Come installo Aspose.Slides per .NET?
 
- È possibile scaricare la libreria Aspose.Slides per .NET da[Qui](https://releases.aspose.com/slides/net) e seguire le istruzioni di installazione fornite nella documentazione.
+ È possibile scaricare la libreria Aspose.Slides per .NET da[Qui](https://releases.aspose.com/slides/net) seguire le istruzioni di installazione fornite nella documentazione.
 
 ### Posso estrarre più file multimediali da una singola diapositiva?
 

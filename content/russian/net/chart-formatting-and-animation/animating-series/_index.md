@@ -46,7 +46,7 @@ using (Presentation presentation = new Presentation())
     // Добавить слайд
     ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.Blank);
 
-    // Добавьте диаграмму на слайд
+    //Добавьте диаграмму на слайд
     IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 600, 400);
 
     // Добавьте ряд данных на диаграмму
@@ -89,7 +89,7 @@ series.ParentShape.AnimationSettings.EntryEffect = AnimationEffect.Zoom;
 series.ParentShape.AnimationSettings.AdvanceTime = 2000; // Продолжительность анимации в миллисекундах
 ```
 
-## Экспорт и обмен вашей анимированной презентацией
+## Экспорт и публикация вашей анимированной презентации
 
 Добавив анимацию в серию диаграмм, вы можете экспортировать презентацию в различные форматы, например PowerPoint (PPTX) или PDF, и поделиться ею со своей аудиторией.
 

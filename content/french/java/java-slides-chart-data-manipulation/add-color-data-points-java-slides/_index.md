@@ -27,7 +27,7 @@ Tout d’abord, nous allons créer une nouvelle présentation à l’aide d’As
 Presentation pres = new Presentation();
 ```
 
-## Étape 2 : ajouter un graphique Sunburst
+## Étape 2 : Ajouter un graphique Sunburst
 
 Maintenant, ajoutons un graphique Sunburst à la présentation. Nous spécifions le type, la position et la taille du graphique.
 
@@ -112,7 +112,7 @@ Pour modifier la couleur d'autres points de données, vous pouvez suivre une app
 
 ### Puis-je personnaliser d’autres aspects du graphique ?
 
-Oui, vous pouvez personnaliser divers aspects du graphique, notamment les polices, les étiquettes, les titres, etc. Se référer au[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/) pour des options de personnalisation détaillées.
+ Oui, vous pouvez personnaliser divers aspects du graphique, notamment les polices, les étiquettes, les titres, etc. Se référer au[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/) pour des options de personnalisation détaillées.
 
 ### Où puis-je trouver plus d’exemples et de documentation ?
 

@@ -32,7 +32,7 @@ import com.aspose.slides.*;
 
 ## Étape 2 : Charger la présentation PowerPoint
 
-Ensuite, vous devrez charger la présentation PowerPoint que vous souhaitez convertir en image TIFF. Remplacer`"Your Document Directory"` avec le chemin réel vers votre fichier de présentation.
+ Ensuite, vous devrez charger la présentation PowerPoint que vous souhaitez convertir en image TIFF. Remplacer`"Your Document Directory"` avec le chemin réel vers votre fichier de présentation.
 
 ```java
 // Le chemin d'accès au répertoire des documents.
@@ -94,7 +94,7 @@ try
 	// Aucun - Spécifie aucune compression.
 	// CCITT3
 	// CCITT4
-	//LZW
+	// LZW
 	// RLE
 	// La profondeur dépend du type de compression et ne peut pas être définie manuellement.
 	// L'unité de résolution est toujours égale à « 2 » (points par pouce)
@@ -124,11 +124,11 @@ Toutes nos félicitations! Vous avez converti avec succès une présentation Pow
 
 ### Puis-je ajuster le DPI (points par pouce) de l’image TIFF ?
 
- Oui, vous pouvez ajuster le DPI en utilisant le`setDpiX` et`setDpiY` méthodes dans le`TiffOptions` classe. Définissez simplement les valeurs souhaitées pour contrôler la résolution de l’image.
+Oui, vous pouvez ajuster le DPI en utilisant le`setDpiX` et`setDpiY` méthodes dans le`TiffOptions` classe. Définissez simplement les valeurs souhaitées pour contrôler la résolution de l’image.
 
 ### Quelles sont les options disponibles pour la position des notes dans l'image TIFF ?
 
-La position des notes dans l'image TIFF peut être configurée à l'aide du`setNotesPosition` méthode avec des options telles que BottomFull, BottomTruncated et SlideOnly. Choisissez celui qui correspond le mieux à vos besoins.
+ La position des notes dans l'image TIFF peut être configurée à l'aide du`setNotesPosition` méthode avec des options telles que BottomFull, BottomTruncated et SlideOnly. Choisissez celui qui correspond le mieux à vos besoins.
 
 ### Est-il possible de spécifier une taille d'image personnalisée pour la conversion TIFF ?
 

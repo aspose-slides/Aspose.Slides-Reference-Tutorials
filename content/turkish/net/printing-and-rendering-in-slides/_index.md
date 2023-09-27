@@ -34,7 +34,7 @@ Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarına nasıl emoji ve öze
 ### [Aspose.Slides'ta Sunum Slaytları için İşleme Seçeneklerini Keşfetme](./presentation-render-options/)
 Aspose.Slides for .NET kullanarak sunum slaytlarının oluşturulmasına ilişkin kaynak kodlu kapsamlı adım adım kılavuzu keşfedin. Program aracılığıyla geliştirme becerilerinizi nasıl geliştireceğinizi ve görsel olarak büyüleyici sunumlar oluşturmayı öğrenin.
 ### [Aspose.Slides kullanarak Sunumlar için Slayt Numaralarını Ayarlama](./setting-slide-numbers/)
-Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarına slayt numaralarını nasıl ekleyeceğinizi ve özelleştireceğinizi öğrenin. Bu adım adım kılavuz, projeyi ayarlamak, bir sunumu yüklemek, slayt numaraları eklemek, formatlarını özelleştirmek ve yerleşimlerini ayarlamak için kaynak kodu örnekleri sağlar.
+Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarına slayt numaralarını nasıl ekleyeceğinizi ve özelleştireceğinizi öğrenin. Bu adım adım kılavuz, projeyi ayarlamak, sunumu yüklemek, slayt numaraları eklemek, formatlarını özelleştirmek ve yerleşimlerini ayarlamak için kaynak kodu örnekleri sağlar.
 ### [Aspose.Slides'ta Sunum Slaytları için Yakınlaştırma Düzeyini Ayarlama](./adjusting-zoom-level/)
 Aspose.Slides for .NET ile sunum slaytlarınızı nasıl geliştireceğinizi öğrenin. Büyüleyici görseller için yakınlaştırma düzeylerini ayarlamaya ilişkin kaynak kodlu adım adım kılavuzu keşfedin.
 ### [Aspose.Slides ile Belirli Sunum Slaytlarını Yazdırma](./printing-specific-slides/)

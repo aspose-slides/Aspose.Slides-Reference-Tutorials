@@ -83,7 +83,7 @@ presentation.SlideShowSettings.AdvanceToNextSlide();
 
 ## التعامل مع الأحداث الانتقالية
 
-يتيح لك Aspose.Slides التعامل مع أحداث الانتقال، مثل "OnSlideTransitionAnimationTriggered"، مما يتيح لك المزيد من التحكم في تدفق العرض التقديمي. هنا مثال:
+يتيح لك Aspose.Slides التعامل مع الأحداث الانتقالية، مثل "OnSlideTransitionAnimationTriggered"، مما يتيح لك المزيد من التحكم في تدفق العرض التقديمي. هنا مثال:
 
 ```csharp
 // اشترك في الحدث
@@ -142,7 +142,7 @@ presentation.Save("MyPresentationWithTransitions.pptx", SaveFormat.Pptx);
 
 يمكنك تشغيل انتقالات الشرائح برمجيًا باستخدام`SlideShowSettings` الطبقة وأساليبها.
 
-### هل من الممكن إضافة أصوات انتقالية إلى شرائح محددة؟
+### هل من الممكن إضافة أصوات انتقالية إلى شرائح معينة؟
 
 قطعاً! يسمح لك Aspose.Slides بدمج المؤثرات الصوتية الانتقالية لتحسين تجارب العرض التقديمي.
 

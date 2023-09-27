@@ -10,7 +10,7 @@ url: /it/java/chart-data-manipulation/clear-specific-chart-series-data-points-ja
 
 ## Introduzione alla cancellazione dei dati dei punti dati di serie di grafici specifici nelle diapositive Java
 
-In questo tutorial, ti guideremo attraverso il processo di cancellazione di punti dati specifici da una serie di grafici in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Ciò può essere utile quando desideri rimuovere determinati punti dati da un grafico per aggiornare o modificare la visualizzazione dei dati.
+In questo tutorial ti guideremo attraverso il processo di cancellazione di punti dati specifici da una serie di grafici in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Ciò può essere utile quando desideri rimuovere determinati punti dati da un grafico per aggiornare o modificare la visualizzazione dei dati.
 
 ## Prerequisiti
 

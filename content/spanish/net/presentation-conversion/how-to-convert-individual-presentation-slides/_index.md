@@ -37,7 +37,7 @@ La primera sección del código se centra en cargar la presentación de PowerPoi
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation(dataDir + "Individual-Slide.pptx"))
 {
-    // El código para la conversión de diapositivas va aquí
+    // El código para la conversión de diapositivas va aquí.
 }
 ```
 

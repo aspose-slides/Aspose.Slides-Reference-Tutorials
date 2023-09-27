@@ -10,7 +10,7 @@ url: /de/java/chart-data-manipulation/edit-chart-data-external-workbook-java-sli
 
 ## Einführung in das Bearbeiten von Diagrammdaten in externen Arbeitsmappen in Java-Folien
 
-In dieser Anleitung zeigen wir, wie Sie Diagrammdaten in einer externen Arbeitsmappe mit Aspose.Slides für Java bearbeiten. Sie erfahren, wie Sie Diagrammdaten innerhalb einer PowerPoint-Präsentation programmgesteuert ändern. Stellen Sie sicher, dass in Ihrem Projekt die Aspose.Slides-Bibliothek für Java installiert und konfiguriert ist.
+In dieser Anleitung zeigen wir, wie Sie Diagrammdaten in einer externen Arbeitsmappe mit Aspose.Slides für Java bearbeiten. Sie erfahren, wie Sie Diagrammdaten in einer PowerPoint-Präsentation programmgesteuert ändern. Stellen Sie sicher, dass in Ihrem Projekt die Aspose.Slides-Bibliothek für Java installiert und konfiguriert ist.
 
 ## Voraussetzungen
 

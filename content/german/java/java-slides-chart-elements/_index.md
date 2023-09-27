@@ -22,7 +22,7 @@ Bevor wir uns mit den Einzelheiten befassen, wollen wir verstehen, warum Java Sl
 
 - Interaktivität: Beeindrucken Sie Ihr Publikum mit interaktiven Diagrammen, die während der Präsentation erkundet werden können.
 
-- Anpassung: Passen Sie Ihre Diagramme an die Ästhetik Ihrer Marke an und vermitteln Sie Ihre Botschaft wirkungsvoll.
+- Anpassung: Passen Sie Ihre Diagramme an die Ästhetik Ihrer Marke an und vermitteln Sie Ihre Botschaft effektiv.
 
 Nachdem Sie nun die Leistungsfähigkeit von Java Slides verstanden haben, sehen wir uns die Tutorials an, die Sie in einen Präsentationsprofi verwandeln.
 

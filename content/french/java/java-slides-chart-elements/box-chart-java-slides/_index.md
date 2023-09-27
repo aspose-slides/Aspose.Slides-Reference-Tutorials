@@ -67,7 +67,7 @@ Dans cette étape, nous créons une forme de diagramme en boîte sur la premièr
 
 Ici, nous créons une série BoxAndWhisker pour le graphique et configurons diverses options telles que la méthode quartile, la ligne moyenne, les marqueurs moyens, les points internes et les points aberrants.
 
-## Étape 5 : ajouter des points de données
+## Étape 5 : Ajouter des points de données
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));

@@ -136,7 +136,7 @@ Bu bölümde Aspose.Slides for Java kullanarak Java Slides'ta bir grafik için t
 
 ### Grafik serisindeki ters dolgunun rengini özelleştirebilir miyim?
 
- Evet, grafik serisindeki ters dolgunun rengini özelleştirebilirsiniz. Sağlanan kod örneğinde,`series.getInvertedSolidFillColor().setColor(Color.RED)` çizgisi, ters dolgunun rengini kırmızıya ayarlar. Değiştirebilirsin`Color.RED` dilediğiniz diğer renk ile.
+Evet, grafik serisindeki ters dolgunun rengini özelleştirebilirsiniz. Sağlanan kod örneğinde,`series.getInvertedSolidFillColor().setColor(Color.RED)` çizgisi, ters dolgunun rengini kırmızıya ayarlar. Değiştirebilirsin`Color.RED` dilediğiniz diğer renk ile.
 
 ### Aspose.Slides for Java'da grafik türünü nasıl değiştirebilirim?
 
@@ -144,7 +144,7 @@ Bu bölümde Aspose.Slides for Java kullanarak Java Slides'ta bir grafik için t
 
 ### Bir grafiğe birden fazla veri serisini nasıl eklerim?
 
- Bir grafiğe birden fazla veri serisi eklemek için`chart.getChartData().getSeries().add(...)`Eklemek istediğiniz her seri için yöntem. Grafiğinizi birden fazla seriyle doldurmak için her seriye uygun veri noktalarını ve etiketleri sağladığınızdan emin olun.
+ Bir grafiğe birden fazla veri serisi eklemek için`chart.getChartData().getSeries().add(...)` Eklemek istediğiniz her seri için yöntem. Grafiğinizi birden fazla seriyle doldurmak için her seriye uygun veri noktalarını ve etiketleri sağladığınızdan emin olun.
 
 ### Grafik görünümünün diğer yönlerini özelleştirmenin bir yolu var mı?
 

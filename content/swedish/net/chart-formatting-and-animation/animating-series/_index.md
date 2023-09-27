@@ -46,7 +46,7 @@ using (Presentation presentation = new Presentation())
     // Lägg till en bild
     ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.Blank);
 
-    // Lägg till ett diagram på bilden
+    //Lägg till ett diagram på bilden
     IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 600, 400);
 
     // Lägg till dataserier i diagrammet
@@ -62,7 +62,7 @@ using (Presentation presentation = new Presentation())
 }
 ```
 
-## Anpassa diagrammets utseende
+## Anpassa diagramets utseende
 
 Du kan förbättra diagrammets utseende ytterligare genom att anpassa färger, teckensnitt och andra visuella element. Aspose.Slides tillhandahåller omfattande alternativ för att modifiera dessa attribut programmatiskt.
 

@@ -25,7 +25,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 ## Adım 2: Aspose.Slides Sunum Nesnesini Başlatın
 
- Bu adımda, bir oluşturacaksınız`Presentation`PowerPoint sunumunuzu yüklemek için nesneyi seçin. Yer değiştirmek`"Your Document Directory"` PowerPoint dosyanızın gerçek yolunu belirtin.
+Bu adımda, bir oluşturacaksınız`Presentation` PowerPoint sunumunuzu yüklemek için nesneyi seçin. Yer değiştirmek`"Your Document Directory"` PowerPoint dosyanızın gerçek yolunu belirtin.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -69,7 +69,7 @@ presentation.save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 
 ## Adım 6: Temizleme
 
- Son olarak, çöpe attığınızdan emin olun.`Presentation` herhangi bir kaynağın serbest bırakılmasına itiraz edin.
+ Son olarak, çöpe attığınızdan emin olun.`Presentation`herhangi bir kaynağın serbest bırakılmasına itiraz edin.
 
 ```java
 if (presentation != null) presentation.dispose();

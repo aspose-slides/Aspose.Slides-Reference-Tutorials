@@ -26,7 +26,7 @@ url: /ru/java/animation-and-layout/animating-series-java-slides/
 ```java
 // Путь к каталогу документов.
 String dataDir = "Your Document Directory";
-// Создать класс Presentation, представляющий файл презентации.
+//Создать класс Presentation, представляющий файл презентации.
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -46,7 +46,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 Теперь давайте добавим анимацию к рядам на диаграмме. Мы будем использовать эффект постепенного появления и заставим каждую серию появляться одну за другой.
 
 ```java
-//Анимировать всю диаграмму
+// Анимировать всю диаграмму
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Добавьте анимацию в каждую серию (при условии, что серий 4)
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Путь к каталогу документов.
 String dataDir = "Your Document Directory";
-// Создать класс Presentation, представляющий файл презентации.
+//Создать класс Presentation, представляющий файл презентации.
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {

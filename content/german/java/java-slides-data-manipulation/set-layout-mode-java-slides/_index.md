@@ -34,7 +34,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-## Schritt 3: Legen Sie das Diagrammlayout fest
+## Schritt 3: Diagrammlayout festlegen
 
  Legen wir nun das Layout für das Diagramm fest. Wir passen die Position und Größe des Diagramms innerhalb der Folie mithilfe von an`setX`, `setY`, `setWidth`, `setHeight` Methoden. Zusätzlich werden wir die festlegen`LayoutTargetType` um den Layoutmodus zu bestimmen.
 
@@ -80,7 +80,7 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java den Layoutmodus für ein Diagramm in Java-Folien festlegt. Sie können die Position und Größe des Diagramms entsprechend Ihren spezifischen Anforderungen anpassen, indem Sie die Werte im anpassen`setX`, `setY`, `setWidth`, `setHeight` , Und`setLayoutTargetType` Methoden. Dadurch haben Sie die Kontrolle über die Platzierung von Diagrammen in Ihren Folien.
+ In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java den Layoutmodus für ein Diagramm in Java-Folien festlegt. Sie können die Position und Größe des Diagramms entsprechend Ihren spezifischen Anforderungen anpassen, indem Sie die Werte im anpassen`setX`, `setY`, `setWidth`, `setHeight` , Und`setLayoutTargetType`Methoden. Dadurch haben Sie die Kontrolle über die Platzierung von Diagrammen in Ihren Folien.
 
 ## FAQs
 
@@ -94,4 +94,4 @@ In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java den La
 
 ### Wo finde ich weitere Informationen zu Aspose.Slides für Java?
 
- Weitere Informationen zu Aspose.Slides für Java finden Sie im[Dokumentation](https://reference.aspose.com/slides/java/)Es enthält detaillierte API-Referenzen und Beispiele, die Ihnen helfen, effektiv mit Folien und Diagrammen in Java zu arbeiten.
+ Weitere Informationen zu Aspose.Slides für Java finden Sie im[Dokumentation](https://reference.aspose.com/slides/java/). Es enthält detaillierte API-Referenzen und Beispiele, die Ihnen helfen, effektiv mit Folien und Diagrammen in Java zu arbeiten.

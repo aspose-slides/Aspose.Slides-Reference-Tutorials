@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Crea ramo 1
+    //Crea ramo 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -151,4 +151,4 @@ Sì, puoi creare più grafici ad albero in un'unica presentazione seguendo gli s
 
 ### Come faccio a salvare la presentazione con il grafico della mappa ad albero?
 
- Usa il`pres.save()`metodo per salvare la presentazione con il grafico della Mappa ad Albero nel formato desiderato (es. PPTX).
+ Usa il`pres.save()` metodo per salvare la presentazione con il grafico della Mappa ad Albero nel formato desiderato (es. PPTX).

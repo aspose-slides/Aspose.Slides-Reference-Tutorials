@@ -51,3 +51,15 @@ Découvrez comment créer des diapositives Java dynamiques avec des graphiques �
 Apprenez à convertir des présentations de diapositives Java sans effort avec Aspose.Slides for Java. Des tutoriels complets et des guides étape par étape vous attendent.
 ### [Manipulation des données des diapositives Java](./data-manipulation/)
 Améliorez vos compétences en manipulation de données Java Slides avec les didacticiels Aspose.Slides pour Java. Apprenez étape par étape à créer, modifier et transformer efficacement des présentations.
+### [Utilitaires supplémentaires des diapositives Java](./additional-utilities/)
+Découvrez des utilitaires supplémentaires pour Java Slides à l’aide des didacticiels Aspose.Slides pour Java. Améliorez vos présentations avec des fonctionnalités puissantes. Explorez maintenant !
+### [Propriétés de la présentation des diapositives Java](./presentation-properties/)
+Découvrez comment améliorer les propriétés de votre présentation de diapositives Java avec les didacticiels Aspose.Slides pour Java. Découvrez des trucs et astuces pour des présentations dynamiques.
+### [Contrôles multimédias Java Slides](./media-controls/)
+Découvrez comment implémenter des contrôles multimédias dans les diapositives Java à l'aide des didacticiels Aspose.Slides pour Java. Améliorez vos présentations avec de l'audio et de la vidéo en toute transparence.
+### [Gestion des images de diapositives Java](./image-handling/)
+Apprenez à gérer les images dans les diapositives Java à l'aide des didacticiels Aspose.Slides pour Java. Découvrez des conseils étape par étape pour une gestion efficace des images.
+### [Protection des documents de diapositives Java](./document-protection/)
+Découvrez comment améliorer la sécurité de vos documents Java Slides avec Aspose.Slides. Explorez des didacticiels étape par étape pour la protection des documents.
+### [Options d'enregistrement des diapositives Java](./saving-options/)
+Découvrez les options d’enregistrement de Java Slides avec Aspose.Slides pour Java. Explorez des didacticiels et des guides complets pour une gestion et une personnalisation efficaces des diapositives.

@@ -21,7 +21,7 @@ Los objetos OLE se utilizan en aplicaciones de Microsoft Office para permitir la
 Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
 - Visual Studio o cualquier otro entorno de desarrollo .NET.
-- Aspose.Slides para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/).
 
 ## Configurando el proyecto
 

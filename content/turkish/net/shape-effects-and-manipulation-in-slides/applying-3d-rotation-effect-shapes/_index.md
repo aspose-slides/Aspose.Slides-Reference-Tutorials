@@ -107,7 +107,7 @@ Evet, sununuzdaki metin kutularına veya diğer şekillere 3B döndürme efektle
 
 ### Aspose.Slides farklı PowerPoint sürümleriyle uyumlu mu?
 
-Evet, Aspose.Slides çeşitli PowerPoint sürümleriyle uyumludur ve farklı PowerPoint yazılımları tarafından açılıp görüntülenebilen sunumlar oluşturmanıza olanak tanır.
+Evet, Aspose.Slides çeşitli PowerPoint sürümleriyle uyumludur ve farklı PowerPoint yazılımlarıyla açılıp görüntülenebilen sunumlar oluşturmanıza olanak tanır.
 
 ### Tek bir şekle birden fazla 3B efekt uygulayabilir miyim?
 

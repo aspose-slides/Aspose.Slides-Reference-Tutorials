@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Führen Sie hier Vorgänge an den Arbeitsmappendaten durch
+    //Führen Sie hier Vorgänge an den Arbeitsmappendaten durch
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ In dieser Anleitung haben wir den Prozess der Wiederherstellung einer Arbeitsmap
 
 ### Wie installiere ich Aspose.Slides für Java?
 
- Aspose.Slides für Java kann einfach installiert werden, indem die Bibliothek von der Website unter heruntergeladen wird[Hier](https://releases.aspose.com/slides/java/)Befolgen Sie die bereitgestellten Installationsanweisungen, um es in Ihr Java-Projekt zu integrieren.
+ Aspose.Slides für Java kann einfach installiert werden, indem die Bibliothek von der Website unter heruntergeladen wird[Hier](https://releases.aspose.com/slides/java/). Befolgen Sie die bereitgestellten Installationsanweisungen, um es in Ihr Java-Projekt zu integrieren.
 
 ### Kann ich Arbeitsmappendaten aus jedem Diagramm in einer PowerPoint-Präsentation wiederherstellen?
 

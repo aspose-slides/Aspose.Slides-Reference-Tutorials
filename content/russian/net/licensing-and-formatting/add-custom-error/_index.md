@@ -100,7 +100,7 @@ presentation.Save("CustomErrorValuesChart.pptx", SaveFormat.Pptx);
 ```csharp
 // Настройте внешний вид панели ошибок
 errorBarsFormat.LineFormat.Width = 2; // Установить ширину линии
-errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; //Установить цвет линии
+errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; // Установить цвет линии
 
 // Сохраните обновленную презентацию
 presentation.Save("StyledErrorBarsChart.pptx", SaveFormat.Pptx);

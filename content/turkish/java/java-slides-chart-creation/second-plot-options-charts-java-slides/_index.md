@@ -46,7 +46,7 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPie
 // Pastayı yüzdeye göre böl
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-//Bölmenin konumunu ayarlayın
+// Bölmenin konumunu ayarlayın
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
@@ -88,7 +88,7 @@ Bu eğitimde, Aspose.Slides for Java kullanarak Java Slides'daki grafiklere ikin
 
 ###  Nedir`PieSplitBy` control in a Pie of Pie chart?
 
-`PieSplitBy` özellik pasta grafiğinin nasıl bölündüğünü kontrol eder. İkisinden birine ayarlayabilirsiniz`PieSplitType.ByPercentage` veya`PieSplitType.ByValue` Grafiği sırasıyla yüzdeye veya belirli bir değere göre bölmek için.
+`PieSplitBy`özellik pasta grafiğinin nasıl bölündüğünü kontrol eder. İkisinden birine ayarlayabilirsiniz`PieSplitType.ByPercentage` veya`PieSplitType.ByValue` Grafiği sırasıyla yüzdeye veya belirli bir değere göre bölmek için.
 
 ### Pie of Pie grafiğinde bölünmenin konumunu nasıl ayarlarım?
 

@@ -25,7 +25,7 @@ using Aspose.Slides.Charts;
 Presentation presentation = new Presentation();
 ISlide slide = presentation.Slides.AddSlide(0, presentation.SlideSize);
 
-// Slayta grafik ekleme
+//Slayta grafik ekleme
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 400);
 
 // Grafiğe örnek veriler ekleme

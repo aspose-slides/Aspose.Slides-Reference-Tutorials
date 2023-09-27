@@ -18,7 +18,7 @@ url: /ru/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-da
 
 1.  Установка: Для начала вам необходимо установить библиотеку Aspose.Slides for .NET. Скачать библиотеку можно с сайта Aspose.[здесь](https://releases.aspose.com/slides/net/).
 
-2.  Документация: см.[Ссылки на API Aspose.Slides](https://reference.aspose.com/slides/net/) подробную документацию и руководства.
+2.  Документация: см.[Ссылки на API Aspose.Slides](https://reference.aspose.com/slides/net/) для получения подробной документации и руководств.
 
 3.  Пример презентации. Для целей данного руководства предположим, что у вас есть образец презентации с именем`sample.pptx` который вы хотите улучшить с помощью эффектов скоса.
 

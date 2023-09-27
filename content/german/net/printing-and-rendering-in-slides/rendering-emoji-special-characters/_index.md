@@ -14,7 +14,7 @@ Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler 
 
 ## Verstehen, wie wichtig es ist, Emojis und Sonderzeichen darzustellen
 
-Emojis und Sonderzeichen sorgen für einen visuellen Reiz und vermitteln Emotionen, die mit einfachen Texten möglicherweise nicht erreicht werden könnten. Ganz gleich, ob Sie Bildungspräsentationen, Geschäftsberichte oder Marketingmaterialien erstellen, der Einsatz von Emojis kann die Gesamtbotschaft und das Engagement Ihres Publikums verbessern.
+Emojis und Sonderzeichen sorgen für einen visuellen Reiz und vermitteln Emotionen, die mit einfachen Texten möglicherweise nicht erreicht werden könnten. Ganz gleich, ob Sie Bildungspräsentationen, Geschäftsberichte oder Marketingmaterialien erstellen, die Verwendung von Emojis kann die Gesamtbotschaft und das Engagement Ihres Publikums verbessern.
 
 ## Einrichten Ihrer Entwicklungsumgebung
 

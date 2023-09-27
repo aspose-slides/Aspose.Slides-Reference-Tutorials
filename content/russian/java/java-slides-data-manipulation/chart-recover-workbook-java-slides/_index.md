@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Здесь можно выполнять операции с данными книги.
+    //Здесь можно выполнять операции с данными книги.
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ finally
 
 ### Как установить Aspose.Slides для Java?
 
- Aspose.Slides for Java можно легко установить, загрузив библиотеку с веб-сайта по адресу[здесь](https://releases.aspose.com/slides/java/)Следуйте инструкциям по установке, чтобы интегрировать его в свой проект Java.
+ Aspose.Slides for Java можно легко установить, загрузив библиотеку с веб-сайта по адресу[здесь](https://releases.aspose.com/slides/java/). Следуйте инструкциям по установке, чтобы интегрировать его в свой проект Java.
 
 ### Могу ли я восстановить данные книги из любой диаграммы в презентации PowerPoint?
 

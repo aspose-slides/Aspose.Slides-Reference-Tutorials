@@ -14,7 +14,7 @@ url: /ar/java/data-manipulation/validate-chart-layout-added-java-slides/
 
 ## الخطوة 1: تهيئة العرض التقديمي
 
- أولاً، نحتاج إلى تهيئة كائن عرض تقديمي وتحميل عرض تقديمي موجود في PowerPoint. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك (`test.pptx` في هذا المثال).
+أولاً، نحتاج إلى تهيئة كائن عرض تقديمي وتحميل عرض تقديمي موجود في PowerPoint. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك (`test.pptx` في هذا المثال).
 
 ```java
 // المسار إلى دليل المستندات.

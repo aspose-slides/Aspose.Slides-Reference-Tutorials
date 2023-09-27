@@ -197,7 +197,7 @@ Los inversores pueden utilizar opciones de marcadores para identificar fluctuaci
 
 Al crear gráficos, tenga en cuenta estas mejores prácticas.
 
-## Mantener los gráficos simples y claros
+## Mantener gráficos simples y claros
 
 La simplicidad mejora la comprensión. Evite abarrotar los gráficos con marcadores excesivos.
 

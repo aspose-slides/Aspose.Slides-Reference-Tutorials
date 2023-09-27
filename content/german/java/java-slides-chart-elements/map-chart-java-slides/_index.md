@@ -122,7 +122,7 @@ In diesem Tutorial haben wir den Prozess der Erstellung eines Kartendiagramms in
 
 ### Wie kann ich das Erscheinungsbild des Kartendiagramms anpassen?
 
-Sie können das Erscheinungsbild des Diagramms anpassen, indem Sie die Eigenschaften des ändern`dataPoint` Objekt in Schritt 6. Sie können Farben, Werte und mehr ändern.
+ Sie können das Erscheinungsbild des Diagramms anpassen, indem Sie die Eigenschaften des ändern`dataPoint` Objekt in Schritt 6. Sie können Farben, Werte und mehr ändern.
 
 ### Kann ich weitere Datenpunkte und Kategorien hinzufügen?
 

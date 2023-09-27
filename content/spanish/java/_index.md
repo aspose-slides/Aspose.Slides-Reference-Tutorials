@@ -51,3 +51,15 @@ Aprenda a crear diapositivas Java dinámicas con gráficos utilizando Aspose.Sli
 Aprenda cómo convertir presentaciones de diapositivas Java sin esfuerzo con Aspose.Slides para Java. Te esperan completos tutoriales y guías paso a paso.
 ### [Manipulación de datos de diapositivas Java](./data-manipulation/)
 Mejore sus habilidades de manipulación de datos de Java Slides con los tutoriales de Aspose.Slides para Java. Aprende paso a paso a crear, editar y transformar presentaciones de manera eficiente.
+### [Utilidades adicionales de diapositivas de Java](./additional-utilities/)
+Descubra utilidades adicionales para Java Slides utilizando los tutoriales de Aspose.Slides para Java. Mejore sus presentaciones con potentes funciones. ¡Explora ahora!
+### [Propiedades de presentación de diapositivas de Java](./presentation-properties/)
+Aprenda cómo mejorar las propiedades de su presentación de diapositivas Java con los tutoriales de Aspose.Slides para Java. Descubra consejos y trucos para presentaciones dinámicas.
+### [Controles multimedia de diapositivas de Java](./media-controls/)
+Aprenda a implementar controles multimedia en diapositivas de Java utilizando los tutoriales de Aspose.Slides para Java. Mejore sus presentaciones con audio y video sin problemas.
+### [Manejo de imágenes de diapositivas Java](./image-handling/)
+Aprenda a manejar imágenes en diapositivas de Java utilizando los tutoriales de Aspose.Slides para Java. Explore la guía paso a paso para una gestión eficiente de las imágenes.
+### [Protección de documentos de diapositivas de Java](./document-protection/)
+Aprenda cómo mejorar la seguridad de sus documentos de Java Slides con Aspose.Slides. Explore tutoriales paso a paso para la protección de documentos.
+### [Opciones para guardar diapositivas de Java](./saving-options/)
+Obtenga más información sobre las opciones para guardar Presentaciones de Java con Aspose.Slides para Java. Explore guías y tutoriales completos para una gestión y personalización eficientes de las diapositivas.

@@ -37,7 +37,7 @@ Med presentationen laddad är det dags att identifiera och komma åt OLE-objekte
 // Gå till den första bilden
 ISlide slide = presentation.Slides[0];
 
-// Få åtkomst till OLE-formerna på bilden
+// Få tillgång till OLE-formerna på bilden
 foreach (IShape shape in slide.Shapes)
 {
     if (shape is IOleObjectFrame oleObject)

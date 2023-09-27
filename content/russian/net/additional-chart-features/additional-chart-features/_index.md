@@ -14,7 +14,7 @@ Aspose.Slides — это мощная библиотека .NET, которая 
 
 ## Настройка среды
 
-Прежде чем приступить к реализации, убедитесь, что у вас установлен Aspose.Slides for .NET. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/net).
+ Прежде чем приступить к реализации, убедитесь, что у вас установлен Aspose.Slides for .NET. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/net).
 
 После установки библиотеки создайте новый проект .NET в предпочитаемой вами среде разработки.
 
@@ -32,7 +32,7 @@ Presentation presentation = new Presentation();
 // Добавить слайд
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Добавьте диаграмму на слайд
+//Добавьте диаграмму на слайд
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 
 // Добавьте данные на диаграмму

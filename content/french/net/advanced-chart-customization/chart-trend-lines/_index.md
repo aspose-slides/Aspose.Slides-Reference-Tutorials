@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 // Ajouter une diapositive
 ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.TitleAndContent);
 
-// Ajouter un graphique à la diapositive
+//Ajouter un graphique à la diapositive
 IChart chart = slide.Shapes.AddChart(ChartType.Line, 100, 100, 500, 300);
 
 // Ajouter des données au graphique

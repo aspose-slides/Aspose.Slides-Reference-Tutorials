@@ -90,7 +90,7 @@ while (i < chart.getChartData().getSeries().size()) {
 
 ## 第 4 步：保存演示文稿
 
-最后，保存带有配置图表的演示文稿。
+最后，使用配置的图表保存演示文稿。
 
 ```java
 pres.save("chart.pptx", SaveFormat.Pptx);

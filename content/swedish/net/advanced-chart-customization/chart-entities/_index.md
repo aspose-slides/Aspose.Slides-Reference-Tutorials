@@ -27,7 +27,7 @@ Presentation presentation = new Presentation();
 // Lägg till en bild
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Lägg till ett diagram på bilden
+//Lägg till ett diagram på bilden
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 ```
 
@@ -54,7 +54,7 @@ worksheet.Cells["B3"].Value = 40;
 // ...
 ```
 
-## Anpassa diagrammets utseende
+## Anpassa diagramets utseende
 
 Att formatera ett diagram förbättrar dess visuella tilltalande. Låt oss undersöka hur man formaterar olika aspekter av ett diagram:
 

@@ -46,7 +46,7 @@ using (Presentation presentation = new Presentation())
     // Aggiungi una diapositiva
     ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.Blank);
 
-    // Aggiungi un grafico alla diapositiva
+    //Aggiungi un grafico alla diapositiva
     IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 600, 400);
 
     // Aggiungi serie di dati al grafico

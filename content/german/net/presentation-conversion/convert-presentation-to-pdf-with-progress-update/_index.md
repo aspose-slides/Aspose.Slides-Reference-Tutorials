@@ -43,7 +43,7 @@ using (Presentation presentation = new Presentation(dataDir + "ConvertToPDF.pptx
 
 ## Schritt 3: Implementierung des Fortschrittsrückrufs
 
- Das müssen wir nun umsetzen`ExportProgressHandler` Klasse, um Fortschrittsaktualisierungen während des Konvertierungsprozesses zu verarbeiten. Hier ist der Code für`ExportProgressHandler` Klasse:
+ Das müssen wir jetzt umsetzen`ExportProgressHandler` Klasse, um Fortschrittsaktualisierungen während des Konvertierungsprozesses zu verarbeiten. Hier ist der Code für`ExportProgressHandler` Klasse:
 
 ```csharp
 class ExportProgressHandler : IProgressCallback

@@ -138,7 +138,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man skapar ett flerkategoridiagram i Java-bilder med Aspose.Slides för Java API. Vi gick igenom en steg-för-steg-guide med källkod för att skapa ett klustrat kolumndiagram med flera kategorier och serier.
+den här handledningen har vi lärt oss hur man skapar ett flerkategoridiagram i Java-bilder med Aspose.Slides för Java API. Vi gick igenom en steg-för-steg-guide med källkod för att skapa ett klustrat kolumndiagram med flera kategorier och serier.
 
 ## FAQ's
 

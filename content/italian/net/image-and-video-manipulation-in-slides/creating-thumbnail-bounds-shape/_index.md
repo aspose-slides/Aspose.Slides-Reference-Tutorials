@@ -101,7 +101,7 @@ Aspose.Slides per .NET supporta vari formati di immagine per il salvataggio dell
 
 ### Aspose.Slides è adatto sia per applicazioni desktop che web?
 
-Sì, Aspose.Slides per .NET è versatile e può essere utilizzato sia in applicazioni desktop che Web per lavorare con presentazioni PowerPoint a livello di codice.
+Sì, Aspose.Slides per .NET è versatile e può essere utilizzato sia in applicazioni desktop che Web per lavorare con presentazioni PowerPoint a livello di programmazione.
 
 ### Come posso saperne di più su Aspose.Slides per .NET?
 

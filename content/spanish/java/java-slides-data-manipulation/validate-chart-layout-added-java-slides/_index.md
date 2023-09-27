@@ -14,7 +14,7 @@ En este tutorial, exploraremos cómo validar el diseño del gráfico en una pres
 
 ## Paso 1: inicializando la presentación
 
- Primero, necesitamos inicializar un objeto de presentación y cargar una presentación de PowerPoint existente. Reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación (`test.pptx` en este ejemplo).
+Primero, necesitamos inicializar un objeto de presentación y cargar una presentación de PowerPoint existente. Reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación (`test.pptx` en este ejemplo).
 
 ```java
 // La ruta al directorio de documentos.

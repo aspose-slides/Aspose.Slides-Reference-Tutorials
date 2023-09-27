@@ -112,7 +112,7 @@ Diğer veri noktalarının rengini değiştirmek için 4. Adımda gösterilene b
 
 ### Grafiğin diğer yönlerini özelleştirebilir miyim?
 
-Evet, yazı tipleri, etiketler, başlıklar ve daha fazlası dahil olmak üzere grafiğin çeşitli yönlerini özelleştirebilirsiniz. Bakın[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) ayrıntılı özelleştirme seçenekleri için.
+ Evet, yazı tipleri, etiketler, başlıklar ve daha fazlası dahil olmak üzere grafiğin çeşitli yönlerini özelleştirebilirsiniz. Bakın[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) ayrıntılı özelleştirme seçenekleri için.
 
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
 

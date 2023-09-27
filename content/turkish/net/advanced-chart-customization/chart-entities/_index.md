@@ -27,7 +27,7 @@ Presentation presentation = new Presentation();
 // Slayt ekle
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Slayta grafik ekleme
+//Slayta grafik ekleme
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 ```
 

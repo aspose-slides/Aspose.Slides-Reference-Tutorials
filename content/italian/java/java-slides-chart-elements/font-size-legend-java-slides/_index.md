@@ -40,7 +40,7 @@ try
 }
 ```
 
-In questo codice creiamo un istogramma raggruppato sulla prima diapositiva e impostiamo la dimensione del carattere del testo della legenda su 20 punti. Puoi regolare il`setFontHeight` valore per modificare la dimensione del carattere secondo necessità.
+ In questo codice creiamo un istogramma raggruppato sulla prima diapositiva e impostiamo la dimensione del carattere del testo della legenda su 20 punti. Puoi regolare il`setFontHeight`valore per modificare la dimensione del carattere secondo necessità.
 
 ## Passaggio 3: personalizzare i valori degli assi
 
@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- In questo codice creiamo un grafico e impostiamo la dimensione del carattere del testo della legenda su 20 punti. Puoi regolare il`setFontHeight` valore per modificare la dimensione del carattere.
+ In questo codice creiamo un grafico e impostiamo la dimensione del carattere del testo della legenda su 20 punti. Puoi regolare il`setFontHeight`valore per modificare la dimensione del carattere.
 
 ### Posso personalizzare altre proprietà della legenda in un grafico?
 
@@ -134,4 +134,4 @@ Qui disabilitiamo il ridimensionamento automatico dell'asse e specifichiamo i va
 
 ### Dove posso trovare ulteriori informazioni e documentazione per Aspose.Slides?
 
- È possibile trovare documentazione completa e riferimenti API per Aspose.Slides per Java sul sito Web della documentazione di Aspose. Visita[Qui](https://reference.aspose.com/slides/java/) per informazioni dettagliate sull'utilizzo della libreria.
+È possibile trovare documentazione completa e riferimenti API per Aspose.Slides per Java sul sito Web della documentazione di Aspose. Visita[Qui](https://reference.aspose.com/slides/java/) per informazioni dettagliate sull'utilizzo della libreria.

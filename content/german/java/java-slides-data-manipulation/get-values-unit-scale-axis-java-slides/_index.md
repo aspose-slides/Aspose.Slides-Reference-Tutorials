@@ -18,7 +18,7 @@ Bevor wir uns mit dem Code befassen, stellen Sie sicher, dass die folgenden Vora
 
 1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass Sie Java auf Ihrem System installiert haben und mit Java-Programmierkonzepten vertraut sind.
 
-2.  Aspose.Slides für Java: Laden Sie die Aspose.Slides für Java-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides für Java: Laden Sie die Aspose.Slides für Java-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Erstellen einer Präsentation
 

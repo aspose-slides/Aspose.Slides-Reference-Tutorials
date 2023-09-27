@@ -82,7 +82,7 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 
  Evet, OLE nesnelerini sunumdan çıkarabilir ve bunları ayrı dosyalar olarak kaydedebilirsiniz.`OleObjectFrame.ExtractData` yöntem.
 
-### Aspose.Slides'ı kullanarak yeni OLE nesneleri eklemek mümkün mü?
+### Aspose.Slides'ı kullanarak yeni OLE nesneleri eklemek mümkün müdür?
 
  Kesinlikle. Yeni OLE nesne çerçeveleri oluşturabilir ve bunları sununuza ekleyebilirsiniz.`Shapes.AddOleObjectFrame` yöntem.
 

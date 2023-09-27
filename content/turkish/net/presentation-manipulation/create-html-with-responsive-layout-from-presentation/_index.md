@@ -71,4 +71,4 @@ Destekle ilgili sorularınız için şu adresi ziyaret edin:[Aspose.Slides forum
 ### SSS 5: Aspose.Slides for .NET için geçici bir lisans alabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
-Artık sunumlardan duyarlı HTML oluşturmaya yönelik kapsamlı bir kılavuza sahip olduğunuza göre, web içeriğinizin erişilebilirliğini ve çekiciliğini artırma yolundasınız demektir. Mutlu kodlama!
+Artık sunumlardan duyarlı HTML oluşturmaya yönelik kapsamlı bir kılavuza sahip olduğunuza göre, web içeriğinizin erişilebilirliğini ve çekiciliğini artırma yolundasınız. Mutlu kodlama!

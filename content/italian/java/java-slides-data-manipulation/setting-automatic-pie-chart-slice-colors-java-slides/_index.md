@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Passaggio 2: crea una presentazione PowerPoint
 
- Istanziare il`Presentation`classe per creare una nuova presentazione PowerPoint:
+ Istanziare il`Presentation` classe per creare una nuova presentazione PowerPoint:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Impostazione dell'indice della scheda grafica
 	int defaultWorksheetIndex = 0;
-	// Ottenere il foglio di lavoro con i dati del grafico
+	//Ottenere il foglio di lavoro con i dati del grafico
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Elimina le serie e le categorie generate predefinite
 	chart.getChartData().getSeries().clear();
@@ -165,7 +165,7 @@ Hai creato con successo un grafico a torta in una presentazione di PowerPoint ut
 
 ### Come posso personalizzare i colori delle singole sezioni nel grafico a torta?
 
- Per personalizzare i colori delle singole fette nel grafico a torta, puoi utilizzare il`getAutomaticSeriesColors` metodo per recuperare la combinazione di colori predefinita e quindi modificare i colori secondo necessità. Ecco un esempio:
+ Per personalizzare i colori delle singole fette nel grafico a torta, puoi utilizzare il`getAutomaticSeriesColors`metodo per recuperare la combinazione di colori predefinita e quindi modificare i colori secondo necessità. Ecco un esempio:
 
 ```java
 // Ottieni la combinazione di colori predefinita

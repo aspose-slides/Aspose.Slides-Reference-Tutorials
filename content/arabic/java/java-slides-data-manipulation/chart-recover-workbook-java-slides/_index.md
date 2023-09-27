@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // قم بإجراء العمليات على بيانات المصنف هنا
+    //قم بإجراء العمليات على بيانات المصنف هنا
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ finally
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ Java؟
 
- يمكن تثبيت Aspose.Slides for Java بسهولة عن طريق تنزيل المكتبة من موقع الويب على[هنا](https://releases.aspose.com/slides/java/)اتبع تعليمات التثبيت المقدمة لدمجها في مشروع Java الخاص بك.
+ يمكن تثبيت Aspose.Slides for Java بسهولة عن طريق تنزيل المكتبة من موقع الويب على[هنا](https://releases.aspose.com/slides/java/). اتبع تعليمات التثبيت المقدمة لدمجها في مشروع Java الخاص بك.
 
 ### هل يمكنني استعادة بيانات المصنف من أي مخطط في عرض PowerPoint التقديمي؟
 

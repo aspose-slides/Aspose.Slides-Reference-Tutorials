@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // ضبط فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
 
-// الحصول على ورقة عمل بيانات المخطط
+//الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // تغيير أسماء فئات المخطط
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // إعداد فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
-// الحصول على ورقة عمل بيانات المخطط
+//الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // تغيير اسم فئة المخطط
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");

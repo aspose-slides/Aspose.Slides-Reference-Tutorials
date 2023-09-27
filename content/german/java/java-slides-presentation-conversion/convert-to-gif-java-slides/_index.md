@@ -98,7 +98,7 @@ In dieser Anleitung haben wir Ihnen gezeigt, wie Sie PowerPoint-Präsentationen 
 
 ### Kann ich die Verzögerung zwischen den Folien im GIF anpassen?
 
-Ja, Sie können die Verzögerung zwischen den Folien anpassen, indem Sie den Wert in ändern`setDefaultDelay`. Sie wird in Millisekunden angegeben, also stellen Sie sie auf die gewünschte Verzögerungszeit ein.
+ Ja, Sie können die Verzögerung zwischen den Folien anpassen, indem Sie den Wert in ändern`setDefaultDelay`. Sie wird in Millisekunden angegeben, also stellen Sie sie auf die gewünschte Verzögerungszeit ein.
 
 ### Was ist die empfohlene FPS für die GIF-Konvertierung?
 

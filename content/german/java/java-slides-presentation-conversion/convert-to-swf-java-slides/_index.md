@@ -25,7 +25,7 @@ Zuerst müssen Sie die Aspose.Slides-Bibliothek in Ihr Java-Projekt importieren.
 
 ## Schritt 2: Initialisieren Sie das Aspose.Slides-Präsentationsobjekt
 
- In diesem Schritt erstellen Sie eine`Presentation`Objekt zum Laden Ihrer PowerPoint-Präsentation. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer PowerPoint-Datei.
+In diesem Schritt erstellen Sie eine`Presentation` Objekt zum Laden Ihrer PowerPoint-Präsentation. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer PowerPoint-Datei.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -69,7 +69,7 @@ presentation.save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 
 ## Schritt 6: Aufräumen
 
- Stellen Sie abschließend sicher, dass Sie es entsorgen`Presentation` Einspruch gegen die Freigabe von Ressourcen erheben.
+ Stellen Sie abschließend sicher, dass Sie es entsorgen`Presentation`Einspruch gegen die Freigabe von Ressourcen erheben.
 
 ```java
 if (presentation != null) presentation.dispose();

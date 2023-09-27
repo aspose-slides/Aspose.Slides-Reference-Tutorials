@@ -15,7 +15,7 @@ I grafici rappresentano un modo potente per rappresentare visivamente i dati in 
 Prima di approfondire l'implementazione, assicurati di disporre dei seguenti prerequisiti:
 
 - Conoscenza base della programmazione C#.
-- Aspose.Slides per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net).
+-  Aspose.Slides per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net).
 
 ## Impostazione del progetto
 Per iniziare, crea un nuovo progetto C# nel tuo ambiente di sviluppo preferito. Quindi, installa la libreria Aspose.Slides utilizzando il gestore pacchetti NuGet. Ciò può essere ottenuto eseguendo il comando seguente nella console di gestione pacchetti NuGet:
@@ -61,7 +61,7 @@ Archiviare i dati estratti in memoria ed eseguire le operazioni richieste:
 
 ```csharp
 // Converti dataRange in un formato utilizzabile (ad esempio, intervallo di celle Excel)
-//Estrarre e manipolare i dati secondo necessità
+// Estrarre e manipolare i dati secondo necessità
 ```
 
 ## Visualizzazione o elaborazione dei dati

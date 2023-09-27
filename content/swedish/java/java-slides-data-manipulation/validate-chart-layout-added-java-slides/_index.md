@@ -10,11 +10,11 @@ url: /sv/java/data-manipulation/validate-chart-layout-added-java-slides/
 
 ## Introduktion till validering av diagramlayout i Aspose.Slides för Java
 
-den här handledningen kommer vi att utforska hur man validerar diagramlayouten i en PowerPoint-presentation med Aspose.Slides för Java. Det här biblioteket låter dig arbeta med PowerPoint-presentationer programmatiskt, vilket gör det enkelt att manipulera och validera olika element, inklusive diagram.
+I den här handledningen kommer vi att utforska hur man validerar diagramlayouten i en PowerPoint-presentation med Aspose.Slides för Java. Det här biblioteket låter dig arbeta med PowerPoint-presentationer programmatiskt, vilket gör det enkelt att manipulera och validera olika element, inklusive diagram.
 
 ## Steg 1: Initiera presentationen
 
- Först måste vi initiera ett presentationsobjekt och ladda en befintlig PowerPoint-presentation. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil (`test.pptx` i det här exemplet).
+Först måste vi initiera ett presentationsobjekt och ladda en befintlig PowerPoint-presentation. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil (`test.pptx` i det här exemplet).
 
 ```java
 // Sökvägen till dokumentkatalogen.

@@ -10,7 +10,7 @@ url: /sv/java/animation-and-layout/animating-series-java-slides/
 
 ## Introduktion till animeringsserier i Aspose.Slides för Java
 
-den här guiden går vi igenom processen att animera serier i Java-bilder med Aspose.Slides för Java API. Detta bibliotek låter dig arbeta med PowerPoint-presentationer programmatiskt.
+I den här guiden går vi igenom processen att animera serier i Java-bilder med Aspose.Slides för Java API. Detta bibliotek låter dig arbeta med PowerPoint-presentationer programmatiskt.
 
 ## Förutsättningar
 
@@ -26,7 +26,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Instantiate Presentation-klass som representerar en presentationsfil
+//Instantiate Presentation-klass som representerar en presentationsfil
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -46,7 +46,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 Låt oss nu lägga till animationer till serien i diagrammet. Vi kommer att använda en intoningseffekt och få varje serie att dyka upp en efter en.
 
 ```java
-//Animera hela diagrammet
+// Animera hela diagrammet
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Lägg till animationer till varje serie (förutsatt att det finns 4 serier)
@@ -57,7 +57,7 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 
-koden ovan använder vi en fade-in-effekt för hela diagrammet och använder sedan en loop för att lägga till en "Appear"-effekt till varje serie efter varandra.
+I koden ovan använder vi en fade-in-effekt för hela diagrammet och använder sedan en loop för att lägga till en "Appear"-effekt till varje serie efter varandra.
 
 ## Steg 4: Spara presentationen
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-// Instantiate Presentation-klass som representerar en presentationsfil
+//Instantiate Presentation-klass som representerar en presentationsfil
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {

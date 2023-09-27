@@ -74,7 +74,7 @@ pres.save(outPath, SaveFormat.Pptx);
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // الحصول على lebels من السلسلة الأولى
             IDataLabelCollection labels = series.get_Item(0).getLabels();
-            //تغيير لون جميع الخطوط الرائدة في المجموعة
+            // تغيير لون جميع الخطوط الرائدة في المجموعة
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
             // حفظ النتيجة
             pres.save(outPath, SaveFormat.Pptx);

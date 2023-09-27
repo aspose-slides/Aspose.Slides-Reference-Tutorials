@@ -93,7 +93,7 @@ En esta guía, exploramos cómo extraer contenido de audio y video de diapositiv
 
 ### ¿Cómo instalo Aspose.Slides para .NET?
 
- Puede descargar la biblioteca Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net) y siga las instrucciones de instalación proporcionadas en la documentación.
+ Puede descargar la biblioteca Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net) siga las instrucciones de instalación proporcionadas en la documentación.
 
 ### ¿Puedo extraer varios archivos multimedia de una sola diapositiva?
 

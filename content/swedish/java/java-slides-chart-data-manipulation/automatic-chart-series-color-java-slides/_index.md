@@ -47,7 +47,7 @@ Nu kommer vi att fylla i diagrammet med data. Vi börjar med att ta bort de stan
 ```java
 // Ställa in index för diagramdatabladet
 int defaultWorksheetIndex = 0;
-// Hämta arbetsbladet för diagramdata
+//Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Ta bort standardgenererade serier och kategorier
 chart.getChartData().getSeries().clear();
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Ställa in index för diagramdatabladet
 	int defaultWorksheetIndex = 0;
-	// Hämta arbetsbladet för diagramdata
+	//Hämta arbetsbladet för diagramdata
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Ta bort standardgenererade serier och kategorier
 	chart.getChartData().getSeries().clear();

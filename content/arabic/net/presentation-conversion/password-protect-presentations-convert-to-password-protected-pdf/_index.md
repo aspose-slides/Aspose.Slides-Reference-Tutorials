@@ -43,7 +43,7 @@ pdfOptions.Password = "password";
 
 ## الخطوة 4: احفظ كملف PDF محمي بكلمة مرور
 
- أنت الآن جاهز لحفظ العرض التقديمي الخاص بك كملف PDF محمي بكلمة مرور. يستبدل`"Your Output Directory"` بالمسار الذي تريد حفظ ملف PDF فيه`"PasswordProtectedPDF_out.pdf"`مع اسم ملف الإخراج المطلوب.
+ أنت الآن جاهز لحفظ العرض التقديمي الخاص بك كملف PDF محمي بكلمة مرور. يستبدل`"Your Output Directory"` بالمسار الذي تريد حفظ ملف PDF فيه`"PasswordProtectedPDF_out.pdf"` مع اسم ملف الإخراج المطلوب.
 
 ```csharp
 string outPath = "Your Output Directory";

@@ -69,7 +69,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Définition de l'index de la feuille de données du graphique
 int defaultWorksheetIndex = 0;
 
-// Obtenir la feuille de calcul des données du graphique
+//Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Supprimer les séries et catégories générées par défaut
@@ -170,7 +170,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Définition de l'index de la feuille de données du graphique
 int defaultWorksheetIndex = 0;
-// Obtenir la feuille de calcul des données du graphique
+//Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Supprimer les séries et catégories générées par défaut
 chart.getChartData().getSeries().clear();

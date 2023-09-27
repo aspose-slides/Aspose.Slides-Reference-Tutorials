@@ -75,7 +75,7 @@ Das Abrufen von Diagrammbildern aus Java Slides mit Aspose.Slides für Java ist 
 
 ### Wie installiere ich Aspose.Slides für Java?
 
- Die Installation von Aspose.Slides für Java ist einfach. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/java/) und befolgen Sie die Installationsanweisungen in der Dokumentation.
+ Die Installation von Aspose.Slides für Java ist einfach. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/java/)und befolgen Sie die Installationsanweisungen in der Dokumentation.
 
 ### Kann ich das Diagramm anpassen, bevor ich sein Bild erhalte?
 
@@ -91,4 +91,4 @@ Ja, Aspose.Slides für Java kann für kommerzielle Zwecke verwendet werden. Es b
 
 ### Kann ich das Diagrammbild in einem anderen Format speichern?
 
- Sicherlich! Sie können das Diagrammbild in verschiedenen Formaten wie JPEG oder GIF speichern, indem Sie die entsprechende Dateierweiterung im angeben`ImageIO.write` Methode.
+Sicherlich! Sie können das Diagrammbild in verschiedenen Formaten wie JPEG oder GIF speichern, indem Sie die entsprechende Dateierweiterung im angeben`ImageIO.write` Methode.

@@ -10,7 +10,7 @@ url: /sv/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ## Introduktion till inställning av datumformat för kategoriaxel i Java Slides
 
-I den här handledningen kommer vi att lära oss hur du ställer in ett datumformat för kategoriaxeln i ett PowerPoint-diagram med Aspose.Slides för Java. Aspose.Slides för Java är ett kraftfullt bibliotek som låter dig skapa, manipulera och hantera PowerPoint-presentationer programmatiskt.
+den här handledningen kommer vi att lära oss hur du ställer in ett datumformat för kategoriaxeln i ett PowerPoint-diagram med Aspose.Slides för Java. Aspose.Slides för Java är ett kraftfullt bibliotek som låter dig skapa, manipulera och hantera PowerPoint-presentationer programmatiskt.
 
 ## Förutsättningar
 

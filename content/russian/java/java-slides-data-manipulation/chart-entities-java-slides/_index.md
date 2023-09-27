@@ -39,7 +39,7 @@ Presentation pres = new Presentation();
 // Доступ к первому слайду
 ISlide slide = pres.getSlides().get_Item(0);
 
-//Добавление образца диаграммы
+// Добавление образца диаграммы
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
 
@@ -161,7 +161,7 @@ try
 {
 	// Доступ к первому слайду
 	ISlide slide = pres.getSlides().get_Item(0);
-	//Добавление образца диаграммы
+	// Добавление образца диаграммы
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 	// Настройка заголовка диаграммы
 	chart.setTitle(true);

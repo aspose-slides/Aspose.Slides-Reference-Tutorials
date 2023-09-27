@@ -14,7 +14,7 @@ url: /ru/java/chart-creation/radar-chart-creating-java-slides/
 
 ## Предварительные условия
 
-Прежде чем мы начнем, убедитесь, что в ваш проект интегрирована библиотека Aspose.Slides for Java. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/java/).
+ Прежде чем мы начнем, убедитесь, что в ваш проект интегрирована библиотека Aspose.Slides for Java. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/java/).
 
 ## Шаг 1: Настройка презентации
 
@@ -99,7 +99,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 Давайте настроим ось и легенды для нашей радиолокационной диаграммы.
 
 ```java
-//Установить положение легенды
+// Установить положение легенды
 ichart.getLegend().setPosition(LegendPositionType.Bottom);
 
 // Настройка свойств текста оси категорий
@@ -199,7 +199,7 @@ try
 	// Установить цвет серии
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
-	//Установить положение легенды
+	// Установить положение легенды
 	ichart.getLegend().setPosition(LegendPositionType.Bottom);
 	// Настройка свойств текста оси категорий
 	IChartPortionFormat txtCat = ichart.getAxes().getHorizontalAxis().getTextFormat().getPortionFormat();
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### Как сохранить диаграмму в другом формате файла?
 
- Вы можете изменить формат вывода, изменив расширение файла в`outPath`переменную и используя соответствующий`SaveFormat` . Например, чтобы сохранить в формате PDF, используйте`SaveFormat.Pdf`.
+ Вы можете изменить формат вывода, изменив расширение файла в`outPath` переменную и используя соответствующий`SaveFormat` . Например, чтобы сохранить в формате PDF, используйте`SaveFormat.Pdf`.

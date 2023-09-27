@@ -112,7 +112,7 @@ Para cambiar el color de otros puntos de datos, puede seguir un enfoque similar 
 
 ### ¿Puedo personalizar otros aspectos del gráfico?
 
-Sí, puedes personalizar varios aspectos del gráfico, incluidas fuentes, etiquetas, títulos y más. Referirse a[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/) para opciones de personalización detalladas.
+ Sí, puedes personalizar varios aspectos del gráfico, incluidas fuentes, etiquetas, títulos y más. Referirse a[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/) para opciones de personalización detalladas.
 
 ### ¿Dónde puedo encontrar más ejemplos y documentación?
 

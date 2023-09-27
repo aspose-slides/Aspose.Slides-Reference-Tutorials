@@ -94,7 +94,7 @@ finally
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ Java؟
 
- يمكنك تنزيل Aspose.Slides لـ Java من[هنا](https://releases.aspose.com/slides/java/) واتبع تعليمات التثبيت المتوفرة في الوثائق.
+ يمكنك تنزيل Aspose.Slides لـ Java من[هنا](https://releases.aspose.com/slides/java/)واتبع تعليمات التثبيت المتوفرة في الوثائق.
 
 ### هل يمكنني تحويل عروض PowerPoint التقديمية إلى تنسيقات أخرى أيضًا؟
 

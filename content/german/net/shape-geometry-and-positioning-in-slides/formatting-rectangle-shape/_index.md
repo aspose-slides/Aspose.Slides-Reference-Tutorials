@@ -66,7 +66,7 @@ Das Hinzufügen von Text zum Rechteck ist eine tolle Möglichkeit, Ihre Botschaf
 ```csharp
 ITextFrame textFrame = rectangle.TextFrame;
 textFrame.Text = "Hello, Aspose!";
-textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 20; // Schriftgröße einstellen
+textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 20; // Schriftgröße festlegen
 ```
 
 ### 4. Positionierung und Ausrichtung
@@ -84,7 +84,7 @@ rectangle.TextFrame.Paragraphs[0].Alignment = TextAlignment.Center; // Text ausr
 Sie können Ihre Rechteckform interaktiv gestalten, indem Sie Hyperlinks hinzufügen:
 
 ```csharp
-string url = "https://www.aspose.com";
+string url = "https://www.aspose.com“;
 portion.HyperlinkClick = new HyperlinkClick(new Uri(url));
 ```
 

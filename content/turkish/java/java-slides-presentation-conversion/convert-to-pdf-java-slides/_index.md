@@ -16,7 +16,7 @@ Bu eğitimde, Aspose.Slides for Java kütüphanesini kullanarak bir PowerPoint s
 
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Slides for Java Library: Aspose.Slides for Java kütüphanesinin kurulu olması gerekir. adresinden indirebilirsiniz.[Aspose.Slides for Java İndirme Sayfası](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Aspose.Slides for Java kütüphanesinin kurulu olması gerekir. adresinden indirebilirsiniz.[Aspose.Slides for Java İndirme Sayfası](https://releases.aspose.com/slides/java/).
 
 2. Java Geliştirme Ortamı: Sisteminizde Java'nın kurulu olduğundan ve Java programlamaya aşina olduğunuzdan emin olun.
 
@@ -26,7 +26,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 ## Adım 2: PowerPoint Sunumunu Yükleyin
 
-Bu adımda PDF'ye dönüştürmek istediğimiz PowerPoint sunumunu yükleyeceğiz. Yer değiştirmek`"Your Document Directory"` Ve`"ConvertToPDF.pptx"` sunum dosyanızın gerçek yolunu belirtin.
+ Bu adımda PDF'ye dönüştürmek istediğimiz PowerPoint sunumunu yükleyeceğiz. Yer değiştirmek`"Your Document Directory"` Ve`"ConvertToPDF.pptx"` sunum dosyanızın gerçek yolunu belirtin.
 
 ```java
 // Belgeler dizininin yolu.
@@ -53,7 +53,7 @@ finally
 
 ## Adım 4: Dönüşümü Tamamlayın
 
- Yukarıdaki kodda sunumu şu adla PDF olarak kaydediyoruz:`"output_out.pdf"` belirtilen çıktı dizininde. Çıktı dosyası adını ve yolunu gereksinimlerinize göre ayarlayabilirsiniz.
+ Yukarıdaki kodda sunumu şu adla PDF olarak kaydediyoruz:`"output_out.pdf"`belirtilen çıktı dizininde. Çıktı dosyası adını ve yolunu gereksinimlerinize göre ayarlayabilirsiniz.
 
 ## Java Slaytlarında PDF'ye Dönüştürmek İçin Kaynak Kodunu Tamamlayın
 

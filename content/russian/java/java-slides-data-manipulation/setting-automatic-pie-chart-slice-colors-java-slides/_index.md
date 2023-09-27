@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Шаг 2. Создайте презентацию PowerPoint
 
- Создайте экземпляр`Presentation`класс для создания новой презентации PowerPoint:
+ Создайте экземпляр`Presentation` класс для создания новой презентации PowerPoint:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Установка индекса таблицы данных диаграммы
 	int defaultWorksheetIndex = 0;
-	// Получение листа данных диаграммы
+	//Получение листа данных диаграммы
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Удалить созданные по умолчанию серии и категории
 	chart.getChartData().getSeries().clear();
@@ -165,7 +165,7 @@ finally
 
 ### Как настроить цвета отдельных фрагментов круговой диаграммы?
 
- Чтобы настроить цвета отдельных фрагментов круговой диаграммы, вы можете использовать`getAutomaticSeriesColors` метод для получения цветовой схемы по умолчанию и последующего изменения цветов по мере необходимости. Вот пример:
+ Чтобы настроить цвета отдельных фрагментов круговой диаграммы, вы можете использовать`getAutomaticSeriesColors`метод для получения цветовой схемы по умолчанию и последующего изменения цветов по мере необходимости. Вот пример:
 
 ```java
 // Получить цветовую схему по умолчанию

@@ -127,7 +127,7 @@ class Program
 
 ## Conclusione
 
-In questo tutorial, abbiamo esplorato come manipolare le diapositive delle note utilizzando la libreria Aspose.Slides in un'applicazione .NET. Abbiamo imparato come accedere, aggiungere contenuto ed estrarre contenuto dalle diapositive delle note. Aspose.Slides fornisce un potente set di strumenti per lavorare con vari aspetti delle presentazioni di PowerPoint a livello di codice, offrendo flessibilità ed efficienza nella gestione dei file di presentazione.
+In questo tutorial, abbiamo esplorato come manipolare le diapositive delle note utilizzando la libreria Aspose.Slides in un'applicazione .NET. Abbiamo imparato come accedere, aggiungere contenuto ed estrarre contenuto dalle diapositive delle note. Aspose.Slides fornisce un potente set di strumenti per lavorare con vari aspetti delle presentazioni di PowerPoint a livello di programmazione, offrendo flessibilità ed efficienza nella gestione dei file di presentazione.
 
 ## Domande frequenti
 

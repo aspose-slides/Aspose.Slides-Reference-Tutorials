@@ -11,7 +11,7 @@ Sind Sie bereit, Ihre Java-basierten Folienpräsentationen auf die nächste Stuf
 
 ## Aspose.Slides für Java verstehen
 
-Aspose.Slides für Java ist eine leistungsstarke API, die Java-Entwicklern die Tools zur Verfügung stellt, die sie zum einfachen Erstellen, Ändern und Bearbeiten von Präsentationen benötigen. Ob Sie an Geschäftsberichten, Lehrmaterialien oder Verkaufsgesprächen arbeiten, Aspose.Slides vereinfacht die Integration von Diagrammen und Grafiken in Ihre Folien.
+Aspose.Slides für Java ist eine leistungsstarke API, die Java-Entwicklern die Tools zur Verfügung stellt, die sie zum einfachen Erstellen, Ändern und Bearbeiten von Präsentationen benötigen. Ob Sie an Geschäftsberichten, Lehrmaterialien oder Verkaufsgesprächen arbeiten, Aspose.Slides vereinfacht den Prozess der Integration von Diagrammen und Grafiken in Ihre Folien.
 
 ## Mühelose Manipulation von Diagrammdaten
 

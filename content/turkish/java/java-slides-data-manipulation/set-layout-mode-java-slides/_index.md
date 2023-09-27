@@ -80,7 +80,7 @@ finally
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak Java slaytlarındaki bir grafiğin düzen modunu nasıl ayarlayacağımızı öğrendik. Tablodaki değerleri ayarlayarak grafiğin konumunu ve boyutunu özel gereksinimlerinize göre özelleştirebilirsiniz.`setX`, `setY`, `setWidth`, `setHeight` , Ve`setLayoutTargetType` yöntemler. Bu, slaytlarınızın içindeki grafiklerin yerleşimi üzerinde kontrol sahibi olmanızı sağlar.
+ Bu eğitimde, Aspose.Slides for Java'yı kullanarak Java slaytlarındaki bir grafiğin düzen modunu nasıl ayarlayacağımızı öğrendik. Tablodaki değerleri ayarlayarak grafiğin konumunu ve boyutunu özel gereksinimlerinize göre özelleştirebilirsiniz.`setX`, `setY`, `setWidth`, `setHeight` , Ve`setLayoutTargetType`yöntemler. Bu, slaytlarınızın içindeki grafiklerin yerleşimi üzerinde kontrol sahibi olmanızı sağlar.
 
 ## SSS'ler
 
@@ -94,4 +94,4 @@ Bu eğitimde, Aspose.Slides for Java'yı kullanarak Java slaytlarındaki bir gra
 
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Aspose.Slides for Java hakkında daha fazla bilgiyi şurada bulabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/java/)Java'da slaytlar ve grafiklerle etkili bir şekilde çalışmanıza yardımcı olacak ayrıntılı API referansları ve örnekleri içerir.
+ Aspose.Slides for Java hakkında daha fazla bilgiyi şurada bulabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/java/). Java'da slaytlar ve grafiklerle etkili bir şekilde çalışmanıza yardımcı olacak ayrıntılı API referansları ve örnekleri içerir.

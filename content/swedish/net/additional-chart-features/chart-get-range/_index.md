@@ -15,7 +15,7 @@ Diagram är ett kraftfullt sätt att visuellt representera data i olika applikat
 Innan vi dyker in i implementeringen, se till att du har följande förutsättningar:
 
 - Grundläggande kunskaper i C#-programmering.
-- Aspose.Slides för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net).
+-  Aspose.Slides för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net).
 
 ## Konfigurera projektet
 Börja med att skapa ett nytt C#-projekt i din föredragna utvecklingsmiljö. Installera sedan Aspose.Slides-biblioteket med NuGet-pakethanteraren. Detta kan uppnås genom att köra följande kommando i NuGet Package Manager Console:
@@ -61,7 +61,7 @@ Lagra den extraherade datan i minnet och utför nödvändiga åtgärder:
 
 ```csharp
 // Konvertera dataRange till användbart format (t.ex. Excel-cellintervall)
-//Extrahera och manipulera data efter behov
+// Extrahera och manipulera data efter behov
 ```
 
 ## Visa eller bearbeta data

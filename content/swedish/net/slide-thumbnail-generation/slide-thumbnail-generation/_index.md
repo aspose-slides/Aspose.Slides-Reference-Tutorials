@@ -17,7 +17,7 @@ Innan vi går in i implementeringen, se till att du har följande på plats:
 - Visual Studio med .NET Framework installerat.
 -  Aspose.Slides för .NET-bibliotek. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
 
-## Introduktion till generering av bildminiatyrer
+## Introduktion till bildgenerering av miniatyrbilder
 
 Bildminiatyrer spelar en avgörande roll i presentationer och ger en snabb förhandsvisning av varje bilds innehåll. Aspose.Slides förenklar denna process genom att tillhandahålla en enkel mekanism för att generera dessa miniatyrer programmatiskt.
 

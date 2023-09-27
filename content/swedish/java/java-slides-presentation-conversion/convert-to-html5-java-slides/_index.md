@@ -10,7 +10,7 @@ url: /sv/java/presentation-conversion/convert-to-html5-java-slides/
 
 ## Introduktion till att konvertera PowerPoint-presentationer till HTML5 i Java med Aspose.Slides
 
-I den här handledningen kommer vi att lära oss hur du konverterar en PowerPoint-presentation till HTML5-format med Aspose.Slides för Java. Aspose.Slides är ett kraftfullt bibliotek som låter dig arbeta med PowerPoint-presentationer programmatiskt.
+den här handledningen kommer vi att lära oss hur du konverterar en PowerPoint-presentation till HTML5-format med Aspose.Slides för Java. Aspose.Slides är ett kraftfullt bibliotek som låter dig arbeta med PowerPoint-presentationer programmatiskt.
 
 ## Förutsättningar
 
@@ -44,7 +44,7 @@ Presentation pres = new Presentation(dataDir + "Demo.pptx");
 
 ## Steg 3: Konfigurera HTML5-konverteringsalternativ
 
-Du kan konfigurera olika alternativ för HTML5-konverteringen med hjälp av`Html5Options` klass. Du kan till exempel aktivera eller inaktivera formanimationer och bildövergångar. I det här exemplet kommer vi att aktivera båda animationerna:
+ Du kan konfigurera olika alternativ för HTML5-konverteringen med hjälp av`Html5Options`klass. Du kan till exempel aktivera eller inaktivera formanimationer och bildövergångar. I det här exemplet kommer vi att aktivera båda animationerna:
 
 ```java
 Html5Options options = new Html5Options();
@@ -90,13 +90,13 @@ try {
 
 ## Slutsats
 
-den här handledningen lärde vi oss hur man konverterar en PowerPoint-presentation till HTML5-format med Aspose.Slides för Java. Vi täckte stegen för att importera biblioteket, ladda presentationen, konfigurera konverteringsalternativ och utföra konverteringen. Aspose.Slides tillhandahåller kraftfulla funktioner för att arbeta med PowerPoint-presentationer programmatiskt, vilket gör det till ett värdefullt verktyg för utvecklare som arbetar med presentationer i Java.
+I den här handledningen lärde vi oss hur man konverterar en PowerPoint-presentation till HTML5-format med Aspose.Slides för Java. Vi täckte stegen för att importera biblioteket, ladda presentationen, konfigurera konverteringsalternativ och utföra konverteringen. Aspose.Slides tillhandahåller kraftfulla funktioner för att arbeta med PowerPoint-presentationer programmatiskt, vilket gör det till ett värdefullt verktyg för utvecklare som arbetar med presentationer i Java.
 
 ## FAQ's
 
 ### Hur kan jag anpassa HTML5-utdata ytterligare?
 
- Du kan anpassa HTML5-utdata ytterligare genom att justera alternativen i`Html5Options` klass. Du kan till exempel kontrollera kvaliteten på bilder, ställa in bildstorleken och mer.
+Du kan anpassa HTML5-utdata ytterligare genom att justera alternativen i`Html5Options` klass. Du kan till exempel kontrollera kvaliteten på bilder, ställa in bildstorleken och mer.
 
 ### Kan jag konvertera andra PowerPoint-format, som PPT eller PPTM, till HTML5 med Aspose.Slides?
 

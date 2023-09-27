@@ -38,7 +38,7 @@ String dataDir = "Your Document Directory";
 
 ## Paso 3: cargue la presentación
 
- Crear una instancia del`Presentation`class y cargue el archivo de presentación de PowerPoint que desea convertir. En el código proporcionado, cargamos una presentación llamada "Convert_XPS_Options.pptx".
+ Crear una instancia del`Presentation` class y cargue el archivo de presentación de PowerPoint que desea convertir. En el código proporcionado, cargamos una presentación llamada "Convert_XPS_Options.pptx".
 
 ```java
 Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");

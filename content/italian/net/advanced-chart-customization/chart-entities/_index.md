@@ -10,7 +10,7 @@ url: /it/net/advanced-chart-customization/chart-entities/
 
 ## Introduzione ad Aspose.Slides e alla manipolazione dei grafici
 
-Aspose.Slides per .NET è una libreria completa che consente agli sviluppatori di creare, modificare e manipolare presentazioni PowerPoint a livello di codice. Quando si tratta di grafici, Aspose.Slides offre un'ampia gamma di funzionalità per aggiungere, modificare e formattare grafici all'interno delle diapositive della presentazione.
+Aspose.Slides per .NET è una libreria completa che consente agli sviluppatori di creare, modificare e manipolare le presentazioni PowerPoint a livello di codice. Quando si tratta di grafici, Aspose.Slides offre un'ampia gamma di funzionalità per aggiungere, modificare e formattare grafici all'interno delle diapositive della presentazione.
 
 ## Configurazione dell'ambiente di sviluppo
 
@@ -27,7 +27,7 @@ Presentation presentation = new Presentation();
 // Aggiungi una diapositiva
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Aggiungi un grafico alla diapositiva
+//Aggiungi un grafico alla diapositiva
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 ```
 

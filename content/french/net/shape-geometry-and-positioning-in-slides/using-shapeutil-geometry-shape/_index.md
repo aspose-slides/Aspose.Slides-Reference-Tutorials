@@ -97,7 +97,7 @@ ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
 
 ## Ajout de texte aux formes géométriques
 
-Vous pouvez également ajouter du texte aux formes géométriques à l'aide de ShapeUtil.
+Vous pouvez également ajouter du texte aux formes géométriques à l’aide de ShapeUtil.
 
 ```csharp
 // Ajouter du texte à la forme
@@ -128,7 +128,7 @@ ShapeUtil.SendToBack(shape);
 
 ## Enregistrement et exportation de la présentation
 
-Une fois que vous avez effectué toutes les modifications nécessaires, vous pouvez enregistrer et exporter la présentation.
+Une fois que vous avez apporté toutes les modifications nécessaires, vous pouvez enregistrer et exporter la présentation.
 
 ```csharp
 // Enregistrez la présentation

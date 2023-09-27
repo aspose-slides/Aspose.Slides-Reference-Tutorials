@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## الخطوة 2: إنشاء عرض تقديمي ل PowerPoint
 
- إنشاء مثيل`Presentation`فئة لإنشاء عرض تقديمي جديد لـ PowerPoint:
+ إنشاء مثيل`Presentation` فئة لإنشاء عرض تقديمي جديد لـ PowerPoint:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// إعداد فهرس ورقة بيانات الرسم البياني
 	int defaultWorksheetIndex = 0;
-	// الحصول على ورقة عمل بيانات المخطط
+	//الحصول على ورقة عمل بيانات المخطط
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
 	chart.getChartData().getSeries().clear();
@@ -165,7 +165,7 @@ finally
 
 ### كيف يمكنني تخصيص ألوان الشرائح الفردية في المخطط الدائري؟
 
- لتخصيص ألوان الشرائح الفردية في المخطط الدائري، يمكنك استخدام`getAutomaticSeriesColors` طريقة لاسترداد نظام الألوان الافتراضي ومن ثم تعديل الألوان حسب الحاجة. هنا مثال:
+ لتخصيص ألوان الشرائح الفردية في المخطط الدائري، يمكنك استخدام`getAutomaticSeriesColors`طريقة لاسترداد نظام الألوان الافتراضي ومن ثم تعديل الألوان حسب الحاجة. هنا مثال:
 
 ```java
 // احصل على نظام الألوان الافتراضي

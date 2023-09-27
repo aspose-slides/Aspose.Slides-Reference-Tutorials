@@ -56,7 +56,7 @@ Maintenant, préparons les données pour notre graphique à nuages de points. No
 // Obtention de l'index de la feuille de calcul des données graphiques par défaut
 int defaultWorksheetIndex = 0;
 
-// Obtenir la feuille de calcul des données du graphique
+//Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Supprimer la série de démonstration
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Obtention de l'index de la feuille de calcul des données graphiques par défaut
 int defaultWorksheetIndex = 0;
-// Obtenir la feuille de calcul des données du graphique
+//Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Supprimer la série de démonstration
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Ajouter un nouveau point (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-// Ajouter un nouveau point (2:2)
+//Ajouter un nouveau point (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Ajouter un nouveau point (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ Dans ce didacticiel, nous vous avons expliqué le processus de création d'un gr
 
 ### Comment puis-je changer le type de graphique ?
 
- Pour modifier le type de graphique, utilisez le`setType`méthode sur la série de graphiques et fournissez le type de graphique souhaité. Par exemple,`series.setType(ChartType.Line)` changerait la série en un graphique linéaire.
+ Pour modifier le type de graphique, utilisez le`setType` méthode sur la série de graphiques et fournissez le type de graphique souhaité. Par exemple,`series.setType(ChartType.Line)` changerait la série en un graphique linéaire.
 
 ### Comment puis-je personnaliser la taille et le style du marqueur ?
 

@@ -27,7 +27,7 @@ Presentation presentation = new Presentation();
 // أضف شريحة
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// أضف مخططًا إلى الشريحة
+//أضف مخططًا إلى الشريحة
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 ```
 

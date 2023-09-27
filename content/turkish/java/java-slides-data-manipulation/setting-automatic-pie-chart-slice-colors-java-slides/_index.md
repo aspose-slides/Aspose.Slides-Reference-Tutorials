@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## 2. Adım: PowerPoint Sunusu Oluşturun
 
- Örnekleyin`Presentation`yeni bir PowerPoint sunusu oluşturmak için sınıf:
+ Örnekleyin`Presentation` yeni bir PowerPoint sunusu oluşturmak için sınıf:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Grafik veri sayfasının indeksini ayarlama
 	int defaultWorksheetIndex = 0;
-	// Grafik verileri çalışma sayfasını alma
+	//Grafik verileri çalışma sayfasını alma
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Varsayılan oluşturulan serileri ve kategorileri silin
 	chart.getChartData().getSeries().clear();
@@ -159,13 +159,13 @@ finally
 
 ## Çözüm
 
-Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda başarılı bir şekilde pasta grafiği oluşturdunuz ve bunu otomatik dilim renklerine sahip olacak şekilde yapılandırdınız. Bu adım adım kılavuz, bunu başarmanız için size gerekli kaynak kodunu sağlar. Grafiği ve sunumu gerektiği gibi daha da özelleştirebilirsiniz.
+Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumunda başarılı bir şekilde pasta grafiği oluşturdunuz ve bunu otomatik dilim renklerine sahip olacak şekilde yapılandırdınız. Bu adım adım kılavuz, bunu başarmanız için size gerekli kaynak kodunu sağlar. Grafiği ve sunumu gerektiği gibi daha da özelleştirebilirsiniz.
 
 ## SSS'ler
 
 ### Pasta grafiğindeki tek tek dilimlerin renklerini nasıl özelleştirebilirim?
 
- Pasta grafiğindeki tek tek dilimlerin renklerini özelleştirmek için`getAutomaticSeriesColors` Varsayılan renk şemasını alma ve ardından renkleri gerektiği gibi değiştirme yöntemini kullanın. İşte bir örnek:
+ Pasta grafiğindeki tek tek dilimlerin renklerini özelleştirmek için`getAutomaticSeriesColors`Varsayılan renk şemasını alma ve ardından renkleri gerektiği gibi değiştirme yöntemini kullanın. İşte bir örnek:
 
 ```java
 // Varsayılan renk şemasını alın

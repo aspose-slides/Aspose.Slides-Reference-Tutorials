@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // Wiederholen Sie den Vorgang für andere Datenpunkte
 // ...
 
-// Ändern der Größe der Diagrammserienmarkierung
+//Ändern der Größe der Diagrammserienmarkierung
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ Mit Aspose.Slides für Java können Sie Ihre Präsentationen aufwerten, indem Si
 
 ### Kann ich Bilder als benutzerdefinierte Markierungen verwenden?
 
- Ja, Sie können Bilder als benutzerdefinierte Markierungen für Datenpunkte verwenden. Stellen Sie den Fülltyp auf ein`FillType.Picture` und stellen Sie das Bild bereit, das Sie verwenden möchten.
+Ja, Sie können Bilder als benutzerdefinierte Markierungen für Datenpunkte verwenden. Stellen Sie den Fülltyp auf ein`FillType.Picture` und stellen Sie das Bild bereit, das Sie verwenden möchten.
 
 ### Eignet sich Aspose.Slides für Java zum Erstellen dynamischer Diagramme?
 

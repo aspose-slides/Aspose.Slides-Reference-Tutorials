@@ -31,7 +31,7 @@ Install-Package Aspose.Slides
 
 ## Добавление данных в диаграмму
 
-Чтобы продемонстрировать линии тренда, мы сгенерируем несколько примеров данных и создадим базовую диаграмму с помощью Aspose.Slides.
+Чтобы продемонстрировать линии тренда, мы сгенерируем несколько образцов данных и создадим базовую диаграмму с помощью Aspose.Slides.
 
 ```csharp
 using Aspose.Slides;
@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 // Добавить слайд
 ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.TitleAndContent);
 
-// Добавьте диаграмму на слайд
+//Добавьте диаграмму на слайд
 IChart chart = slide.Shapes.AddChart(ChartType.Line, 100, 100, 500, 300);
 
 // Добавьте данные на диаграмму

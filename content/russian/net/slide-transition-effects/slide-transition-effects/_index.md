@@ -86,7 +86,7 @@ presentation.SlideShowSettings.AdvanceToNextSlide();
 Aspose.Slides позволяет обрабатывать события перехода, такие как «OnSlideTransitionAnimationTriggered», предоставляя вам больше контроля над потоком презентации. Вот пример:
 
 ```csharp
-// Подписаться на событие
+// Подписаться на мероприятие
 presentation.SlideTransitionManager.OnSlideTransitionAnimationTriggered += (sender, args) =>
 {
     // Ваш код обработки событий здесь

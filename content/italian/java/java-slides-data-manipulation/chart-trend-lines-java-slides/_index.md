@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 Successivamente, aggiungeremo una linea di tendenza lineare alla nostra serie di grafici:
 
 ```java
-//Aggiunta di una linea di tendenza lineare per la serie di grafici 1
+// Aggiunta di una linea di tendenza lineare per la serie di grafici 1
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -134,7 +134,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // Creazione di un istogramma a colonne raggruppate
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-//Aggiunta della linea di tendenza potenziale per la serie di grafici 1
+// Aggiunta della linea di tendenza potenziale per la serie di grafici 1
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
@@ -173,7 +173,7 @@ In questo tutorial, abbiamo imparato come aggiungere diversi tipi di linee di te
 
 ### Come posso cambiare il colore di una linea di tendenza in Aspose.Slides per Java?
 
- Per cambiare il colore di una linea di tendenza, puoi usare il`getSolidFillColor().setColor(Color)` metodo, come mostrato nell'esempio per l'aggiunta di una linea di tendenza lineare.
+Per cambiare il colore di una linea di tendenza, puoi usare il`getSolidFillColor().setColor(Color)` metodo, come mostrato nell'esempio per l'aggiunta di una linea di tendenza lineare.
 
 ### Posso aggiungere più linee di tendenza a una singola serie di grafici?
 

@@ -27,7 +27,7 @@ Presentation presentation = new Presentation();
 // Ajouter une diapositive
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Ajouter un graphique à la diapositive
+//Ajouter un graphique à la diapositive
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 ```
 

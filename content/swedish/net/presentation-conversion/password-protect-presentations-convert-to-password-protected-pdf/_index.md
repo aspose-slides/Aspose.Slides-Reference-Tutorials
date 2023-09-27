@@ -43,7 +43,7 @@ pdfOptions.Password = "password";
 
 ## Steg 4: Spara som lösenordsskyddad PDF
 
- Nu är du redo att spara din presentation som en lösenordsskyddad PDF. Byta ut`"Your Output Directory"` med sökvägen där du vill spara PDF-filen och`"PasswordProtectedPDF_out.pdf"`med önskat utdatafilnamn.
+ Nu är du redo att spara din presentation som en lösenordsskyddad PDF. Byta ut`"Your Output Directory"` med sökvägen där du vill spara PDF-filen och`"PasswordProtectedPDF_out.pdf"` med önskat utdatafilnamn.
 
 ```csharp
 string outPath = "Your Output Directory";

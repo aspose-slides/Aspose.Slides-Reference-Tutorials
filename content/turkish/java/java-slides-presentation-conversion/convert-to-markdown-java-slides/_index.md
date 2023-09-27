@@ -21,7 +21,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 ## 1. Adım: Aspose.Slides Kitaplığını İçe Aktarın
 
-Öncelikle Aspose.Slides kütüphanesini Java projenize aktarmanız gerekiyor. Bunu, projenize aşağıdaki Maven bağımlılığını ekleyerek yapabilirsiniz.`pom.xml` dosya:
+ Öncelikle Aspose.Slides kütüphanesini Java projenize aktarmanız gerekiyor. Bunu, projenize aşağıdaki Maven bağımlılığını ekleyerek yapabilirsiniz.`pom.xml` dosya:
 
 ```xml
 <dependency>

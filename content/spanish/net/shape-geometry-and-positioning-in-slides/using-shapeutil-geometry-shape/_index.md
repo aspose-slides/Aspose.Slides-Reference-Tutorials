@@ -34,7 +34,7 @@ ISlide slide = presentation.Slides.AddEmptySlide();
 
 ## Agregar formas geométricas a las diapositivas
 
-Para agregar formas geométricas a las diapositivas, puede utilizar la clase ShapeUtil.
+Para agregar formas geométricas a las diapositivas, puede usar la clase ShapeUtil.
 
 ```csharp
 // Añade una forma de rectángulo a la diapositiva.

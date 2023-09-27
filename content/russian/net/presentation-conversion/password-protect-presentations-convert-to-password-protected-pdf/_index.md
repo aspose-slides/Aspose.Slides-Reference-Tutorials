@@ -43,7 +43,7 @@ pdfOptions.Password = "password";
 
 ## Шаг 4. Сохранить как PDF-файл, защищенный паролем
 
- Теперь вы готовы сохранить презентацию в формате PDF, защищенном паролем. Заменять`"Your Output Directory"` укажите путь, по которому вы хотите сохранить PDF-файл, и`"PasswordProtectedPDF_out.pdf"`с желаемым именем выходного файла.
+ Теперь вы готовы сохранить презентацию в формате PDF, защищенном паролем. Заменять`"Your Output Directory"` укажите путь, по которому вы хотите сохранить PDF-файл, и`"PasswordProtectedPDF_out.pdf"` с желаемым именем выходного файла.
 
 ```csharp
 string outPath = "Your Output Directory";

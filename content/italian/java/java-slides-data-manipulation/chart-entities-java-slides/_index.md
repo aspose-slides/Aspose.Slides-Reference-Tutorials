@@ -39,7 +39,7 @@ Una volta pronta la presentazione, è il momento di aggiungere un grafico. In qu
 // Accesso alla prima diapositiva
 ISlide slide = pres.getSlides().get_Item(0);
 
-//Aggiunta del grafico di esempio
+// Aggiunta del grafico di esempio
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
 
@@ -161,7 +161,7 @@ try
 {
 	// Accesso alla prima diapositiva
 	ISlide slide = pres.getSlides().get_Item(0);
-	//Aggiunta del grafico di esempio
+	// Aggiunta del grafico di esempio
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 	// Impostazione del titolo del grafico
 	chart.setTitle(true);

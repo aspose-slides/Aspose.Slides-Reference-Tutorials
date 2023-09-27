@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 // أضف شريحة
 ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.TitleAndContent);
 
-// أضف مخططًا إلى الشريحة
+//أضف مخططًا إلى الشريحة
 IChart chart = slide.Shapes.AddChart(ChartType.Line, 100, 100, 500, 300);
 
 // إضافة البيانات إلى المخطط

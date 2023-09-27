@@ -14,7 +14,7 @@ I den här handledningen kommer vi att guida dig genom processen att skapa ett r
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har Aspose.Slides för Java-biblioteket integrerat i ditt projekt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
+ Innan vi börjar, se till att du har Aspose.Slides för Java-biblioteket integrerat i ditt projekt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
 
 ## Steg 1: Konfigurera presentationen
 
@@ -27,7 +27,7 @@ Presentation pres = new Presentation();
 
 ## Steg 2: Lägga till ett radardiagram
 
-Därefter kommer vi att lägga till ett radardiagram till bilden. Vi kommer att specificera diagrammets position och dimensioner.
+Därefter lägger vi till ett radardiagram till bilden. Vi kommer att specificera diagrammets position och dimensioner.
 
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
@@ -99,7 +99,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 Låt oss anpassa axeln och legenderna för vårt radardiagram.
 
 ```java
-//Ställ in förklaringsposition
+// Ställ in förklaringsposition
 ichart.getLegend().setPosition(LegendPositionType.Bottom);
 
 // Ställa in textegenskaper för kategoriaxel
@@ -199,7 +199,7 @@ try
 	// Ställ in seriefärg
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
-	//Ställ in förklaringsposition
+	// Ställ in förklaringsposition
 	ichart.getLegend().setPosition(LegendPositionType.Bottom);
 	// Ställa in textegenskaper för kategoriaxel
 	IChartPortionFormat txtCat = ichart.getAxes().getHorizontalAxis().getTextFormat().getPortionFormat();
@@ -239,7 +239,7 @@ finally
 
 ## Slutsats
 
-den här handledningen har du lärt dig hur du skapar ett radardiagram i en PowerPoint-presentation med Aspose.Slides för Java. Du kan tillämpa dessa koncept för att visualisera och presentera dina data effektivt i dina Java-applikationer.
+I den här handledningen har du lärt dig hur du skapar ett radardiagram i en PowerPoint-presentation med Aspose.Slides för Java. Du kan tillämpa dessa koncept för att visualisera och presentera dina data effektivt i dina Java-applikationer.
 
 ## FAQ's
 
@@ -267,4 +267,4 @@ Se "Steg 5" för att anpassa axeletiketter och formatering, inklusive teckenstor
 
 ### Hur sparar jag diagrammet i ett annat filformat?
 
- Du kan ändra utdataformatet genom att ändra filtillägget i`outPath`variabel och använder lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.
+ Du kan ändra utdataformatet genom att ändra filtillägget i`outPath` variabel och använda lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.

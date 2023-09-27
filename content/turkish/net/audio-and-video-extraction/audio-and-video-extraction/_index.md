@@ -93,7 +93,7 @@ Bu kılavuzda Aspose.Slides for .NET kullanarak slaytlardan ses ve video içeri�
 
 ### Aspose.Slides for .NET'i nasıl yüklerim?
 
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net) ve belgelerde verilen kurulum talimatlarını izleyin.
+ Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net)ve belgelerde verilen kurulum talimatlarını izleyin.
 
 ### Tek bir slayttan birden fazla medya dosyasını çıkarabilir miyim?
 
@@ -109,4 +109,4 @@ Aspose.Slides çeşitli ses ve video formatlarını destekler. Çıkarılan medy
 
 ### Aspose.Slides'ı yeni sunumlar oluşturmak için de kullanabilir miyim?
 
-Kesinlikle! Aspose.Slides, PowerPoint sunumlarının oluşturulması, düzenlenmesi ve dönüştürülmesi için kapsamlı özellikler sunarak sunumla ilgili görevler için çok yönlü bir araç haline gelir.
+Kesinlikle! Aspose.Slides, PowerPoint sunumlarını oluşturmak, düzenlemek ve dönüştürmek için kapsamlı özellikler sunarak sunumla ilgili görevler için çok yönlü bir araç haline gelir.

@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Étape 2 : Créer une présentation PowerPoint
 
- Instancier le`Presentation`classe pour créer une nouvelle présentation PowerPoint :
+ Instancier le`Presentation` classe pour créer une nouvelle présentation PowerPoint :
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Définition de l'index de la feuille de données du graphique
 	int defaultWorksheetIndex = 0;
-	// Obtenir la feuille de calcul des données du graphique
+	//Obtenir la feuille de calcul des données du graphique
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Supprimer les séries et catégories générées par défaut
 	chart.getChartData().getSeries().clear();
@@ -165,7 +165,7 @@ Vous avez créé avec succès un diagramme circulaire dans une présentation Pow
 
 ### Comment puis-je personnaliser les couleurs des tranches individuelles dans le diagramme circulaire ?
 
- Pour personnaliser les couleurs des tranches individuelles du graphique à secteurs, vous pouvez utiliser l'option`getAutomaticSeriesColors` méthode pour récupérer le jeu de couleurs par défaut, puis modifier les couleurs si nécessaire. Voici un exemple :
+ Pour personnaliser les couleurs des tranches individuelles du graphique à secteurs, vous pouvez utiliser l'option`getAutomaticSeriesColors`méthode pour récupérer le jeu de couleurs par défaut, puis modifier les couleurs si nécessaire. Voici un exemple :
 
 ```java
 // Obtenez le jeu de couleurs par défaut

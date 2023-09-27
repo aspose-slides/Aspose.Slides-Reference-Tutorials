@@ -71,7 +71,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 Чтобы сохранить презентацию, используйте следующий код:
 
 ```java
-// Запишите файл презентации на диск.
+//Запишите файл презентации на диск.
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	// Запишите файл презентации на диск.
+	//Запишите файл презентации на диск.
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

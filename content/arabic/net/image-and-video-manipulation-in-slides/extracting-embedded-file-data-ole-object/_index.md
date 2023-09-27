@@ -21,7 +21,7 @@ url: /ar/net/image-and-video-manipulation-in-slides/extracting-embedded-file-dat
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
 - Visual Studio أو أي بيئة تطوير .NET أخرى.
-- تم تثبيت Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
+-  تم تثبيت Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
 
 ## إعداد المشروع
 

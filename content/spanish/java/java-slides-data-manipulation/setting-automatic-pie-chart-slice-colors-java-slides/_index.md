@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Paso 2: crea una presentación de PowerPoint
 
- Instanciar el`Presentation`clase para crear una nueva presentación de PowerPoint:
+ Instanciar el`Presentation` clase para crear una nueva presentación de PowerPoint:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Configuración del índice de la hoja de datos del gráfico
 	int defaultWorksheetIndex = 0;
-	// Obtener la hoja de trabajo de datos del gráfico
+	//Obtener la hoja de trabajo de datos del gráfico
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Eliminar series y categorías generadas por defecto
 	chart.getChartData().getSeries().clear();
@@ -165,7 +165,7 @@ Ha creado con éxito un gráfico circular en una presentación de PowerPoint uti
 
 ### ¿Cómo puedo personalizar los colores de sectores individuales en el gráfico circular?
 
- Para personalizar los colores de sectores individuales en el gráfico circular, puede utilizar el`getAutomaticSeriesColors` método para recuperar el esquema de color predeterminado y luego modificar los colores según sea necesario. He aquí un ejemplo:
+ Para personalizar los colores de sectores individuales en el gráfico circular, puede utilizar el`getAutomaticSeriesColors`método para recuperar el esquema de color predeterminado y luego modificar los colores según sea necesario. He aquí un ejemplo:
 
 ```java
 // Obtener el esquema de color predeterminado

@@ -63,7 +63,7 @@ using (Presentation pres = new Presentation(presentationFileName))
 }
 ```
 
- Dans cet extrait de code, nous chargeons la présentation source, créons des options de conversion XAML et définissons un service personnalisé d'économie de sortie à l'aide de`NewXamlSaver`Nous enregistrons ensuite les fichiers XAML dans le répertoire de sortie spécifié.
+ Dans cet extrait de code, nous chargeons la présentation source, créons des options de conversion XAML et définissons un service personnalisé d'économie de sortie à l'aide de`NewXamlSaver`. Nous enregistrons ensuite les fichiers XAML dans le répertoire de sortie spécifié.
 
 ## Étape 3 : Classe d'économiseur XAML personnalisée
 
@@ -110,6 +110,6 @@ Aspose.Slides for .NET est une bibliothèque .NET permettant de travailler avec 
  Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 5. ### Où puis-je obtenir de l’assistance pour Aspose.Slides pour .NET ?
-Vous pouvez trouver du soutien et des discussions communautaires[ici](https://forum.aspose.com/).
+ Vous pouvez trouver du soutien et des discussions communautaires[ici](https://forum.aspose.com/).
 
- Pour plus de didacticiels et de ressources, visitez le[Documentation de l'API Aspose.Slides](https://reference.aspose.com/slides/net/).
+Pour plus de didacticiels et de ressources, visitez le[Documentation de l'API Aspose.Slides](https://reference.aspose.com/slides/net/).

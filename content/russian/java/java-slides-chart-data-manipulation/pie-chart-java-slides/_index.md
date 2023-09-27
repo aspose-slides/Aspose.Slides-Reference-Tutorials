@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Установка индекса таблицы данных диаграммы
 int defaultWorksheetIndex = 0;
 
-// Получение листа данных диаграммы
+//Получение листа данных диаграммы
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Удалить созданные по умолчанию серии и категории
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Установка индекса таблицы данных диаграммы
 int defaultWorksheetIndex = 0;
-// Получение листа данных диаграммы
+//Получение листа данных диаграммы
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Удалить созданные по умолчанию серии и категории
 chart.getChartData().getSeries().clear();

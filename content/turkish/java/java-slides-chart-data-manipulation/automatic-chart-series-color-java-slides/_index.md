@@ -47,7 +47,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```java
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Varsayılan oluşturulan serileri ve kategorileri silin
 chart.getChartData().getSeries().clear();
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Grafik veri sayfasının indeksini ayarlama
 	int defaultWorksheetIndex = 0;
-	// Grafik verileri çalışma sayfasını alma
+	//Grafik verileri çalışma sayfasını alma
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Varsayılan oluşturulan serileri ve kategorileri silin
 	chart.getChartData().getSeries().clear();

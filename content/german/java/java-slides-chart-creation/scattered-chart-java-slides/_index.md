@@ -56,7 +56,7 @@ Bereiten wir nun die Daten für unser Streudiagramm vor. Wir fügen zwei Serien 
 // Abrufen des Standard-Arbeitsblattindex für Diagrammdaten
 int defaultWorksheetIndex = 0;
 
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Demoserie löschen
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Abrufen des Standard-Arbeitsblattindex für Diagrammdaten
 int defaultWorksheetIndex = 0;
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Demoserie löschen
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Neuen Punkt hinzufügen (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-// Neuen Punkt hinzufügen (2:2)
+//Neuen Punkt hinzufügen (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Neuen Punkt hinzufügen (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ In diesem Tutorial haben wir Sie durch den Prozess der Erstellung eines Streudia
 
 ### Wie kann ich den Diagrammtyp ändern?
 
- Um den Diagrammtyp zu ändern, verwenden Sie die`setType`Methode für die Diagrammreihe und geben Sie den gewünschten Diagrammtyp an. Zum Beispiel,`series.setType(ChartType.Line)` würde die Reihe in ein Liniendiagramm ändern.
+ Um den Diagrammtyp zu ändern, verwenden Sie die`setType` Methode für die Diagrammreihe und geben Sie den gewünschten Diagrammtyp an. Zum Beispiel,`series.setType(ChartType.Line)` würde die Reihe in ein Liniendiagramm ändern.
 
 ### Wie kann ich die Größe und den Stil der Markierung anpassen?
 

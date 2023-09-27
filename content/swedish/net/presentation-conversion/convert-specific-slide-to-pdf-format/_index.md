@@ -30,7 +30,7 @@ För att komma igång, skapa ett nytt C#-projekt i Visual Studio eller din före
 
 ## Steg 2: Skriva koden
 
-Låt oss nu skriva koden som konverterar specifika bilder till PDF. Här är C#-kodavsnittet du kan använda:
+Låt oss nu skriva koden som konverterar specifika bilder till PDF. Här är C#-kodavsnittet som du kan använda:
 
 ```csharp
 string dataDir = "Your Document Directory";

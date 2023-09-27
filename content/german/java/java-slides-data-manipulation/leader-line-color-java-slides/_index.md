@@ -74,7 +74,7 @@ pres.save(outPath, SaveFormat.Pptx);
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Holen Sie sich Etiketten der ersten Serie
             IDataLabelCollection labels = series.get_Item(0).getLabels();
-            //Ändern Sie die Farbe aller Führungslinien in der Sammlung
+            // Ändern Sie die Farbe aller Führungslinien in der Sammlung
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
             // Ergebnis speichern
             pres.save(outPath, SaveFormat.Pptx);
@@ -85,7 +85,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## Abschluss
 
-In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java die Farbe der Führungslinie in einem PowerPoint-Diagramm ändert. Sie können die Farbe und andere Formatierungsoptionen an Ihre spezifischen Bedürfnisse anpassen. Dies kann besonders nützlich sein, wenn Sie bestimmte Datenpunkte in Ihren Diagrammen zur besseren Visualisierung hervorheben möchten.
+In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java die Farbe der Führungslinie in einem PowerPoint-Diagramm ändert. Sie können die Farbe und andere Formatierungsoptionen an Ihre spezifischen Anforderungen anpassen. Dies kann besonders nützlich sein, wenn Sie bestimmte Datenpunkte in Ihren Diagrammen zur besseren Visualisierung hervorheben möchten.
 
 ## FAQs
 
@@ -107,7 +107,7 @@ Um auf andere Diagrammeigenschaften zuzugreifen und diese zu ändern, können Si
 
 ### Benötige ich eine Lizenz, um Aspose.Slides für Java in einem kommerziellen Projekt zu verwenden?
 
-Ja, Sie benötigen grundsätzlich eine gültige Lizenz, um Aspose.Slides für Java in einem kommerziellen Projekt zu nutzen. Aspose bietet verschiedene Lizenzierungsoptionen, darunter eine kostenlose Evaluierungslizenz für Test- und Testzwecke. Für den Produktionseinsatz sollten Sie jedoch die entsprechende kommerzielle Lizenz erwerben. Besuche den[Aspose-Kaufseite](https://purchase.aspose.com/) für Lizenzdetails.
+Ja, Sie benötigen grundsätzlich eine gültige Lizenz, um Aspose.Slides für Java in einem kommerziellen Projekt zu verwenden. Aspose bietet verschiedene Lizenzierungsoptionen, darunter eine kostenlose Evaluierungslizenz für Test- und Testzwecke. Für den Produktionseinsatz sollten Sie jedoch die entsprechende kommerzielle Lizenz erwerben. Besuche den[Aspose-Kaufseite](https://purchase.aspose.com/) für Lizenzdetails.
 
 ### Wie erhalte ich technischen Support für Aspose.Slides für Java?
 

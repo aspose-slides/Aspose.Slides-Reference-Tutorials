@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Crear rama 1
+    //Crear rama 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -151,4 +151,4 @@ Sí, puedes crear varios gráficos de mapa de árbol en una sola presentación s
 
 ### ¿Cómo guardo la presentación con el gráfico Tree Map?
 
- Utilizar el`pres.save()`Método para guardar la presentación con el gráfico de mapa de árbol en el formato deseado (por ejemplo, PPTX).
+ Utilizar el`pres.save()` Método para guardar la presentación con el gráfico de mapa de árbol en el formato deseado (por ejemplo, PPTX).

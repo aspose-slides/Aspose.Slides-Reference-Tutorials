@@ -15,7 +15,7 @@ url: /ar/net/additional-chart-features/chart-get-range/
 قبل أن نتعمق في التنفيذ، تأكد من أن لديك المتطلبات الأساسية التالية:
 
 - المعرفة الأساسية ببرمجة C#.
-- تم تثبيت Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net).
+-  تم تثبيت Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net).
 
 ## إعداد المشروع
 للبدء، قم بإنشاء مشروع C# جديد في بيئة التطوير المفضلة لديك. ثم قم بتثبيت مكتبة Aspose.Slides باستخدام مدير الحزم NuGet. يمكن تحقيق ذلك عن طريق تشغيل الأمر التالي في وحدة تحكم NuGet Package Manager:
@@ -61,7 +61,7 @@ string dataRange = chart.ChartData.GetRange();
 
 ```csharp
 // تحويل dataRange إلى تنسيق قابل للاستخدام (على سبيل المثال، نطاق خلايا Excel)
-//استخراج البيانات ومعالجتها حسب الحاجة
+// استخراج البيانات ومعالجتها حسب الحاجة
 ```
 
 ## عرض أو معالجة البيانات

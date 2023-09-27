@@ -78,7 +78,7 @@ finally
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak herhangi bir XPS seçeneği belirtmeden bir PowerPoint sunumunu XPS belgesine nasıl dönüştüreceğinizi öğrendiniz. Aspose.Slides for Java tarafından sağlanan seçenekleri keşfederek dönüştürme sürecini daha da özelleştirebilirsiniz. Daha gelişmiş özellikler ve ayrıntılı belgeler için şu adresi ziyaret edin:[Aspose.Slides for Java belgeleri](https://docs.aspose.com/slides/java/).
+ Bu eğitimde, Aspose.Slides for Java'yı kullanarak herhangi bir XPS seçeneği belirtmeden bir PowerPoint sunumunu XPS belgesine nasıl dönüştüreceğinizi öğrendiniz. Aspose.Slides for Java tarafından sağlanan seçenekleri keşfederek dönüştürme sürecini daha da özelleştirebilirsiniz. Daha gelişmiş özellikler ve ayrıntılı belgeler için şu adresi ziyaret edin:[Aspose.Slides for Java belgeleri](https://docs.aspose.com/slides/java/).
 
 ## SSS'ler
 

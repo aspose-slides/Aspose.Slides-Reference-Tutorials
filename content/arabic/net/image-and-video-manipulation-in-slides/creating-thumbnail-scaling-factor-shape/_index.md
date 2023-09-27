@@ -34,7 +34,7 @@ url: /ar/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-f
 
 ## تحميل عرض تقديمي
 
-للبدء، تحتاج إلى عرض تقديمي لـ PowerPoint للعمل معه. لنفترض أن لديك عرضًا تقديميًا باسم "sample.pptx".
+للبدء، تحتاج إلى عرض تقديمي لـ PowerPoint للعمل معه. لنفترض أن لديك عرضًا تقديميًا باسم "sample.pptx."
 
 ```csharp
 using Aspose.Slides;

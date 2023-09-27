@@ -43,7 +43,7 @@ pdfOptions.Password = "password";
 
 ## Étape 4 : Enregistrer au format PDF protégé par mot de passe
 
- Vous êtes maintenant prêt à enregistrer votre présentation au format PDF protégé par mot de passe. Remplacer`"Your Output Directory"` avec le chemin où vous souhaitez enregistrer le PDF et`"PasswordProtectedPDF_out.pdf"`avec le nom du fichier de sortie souhaité.
+ Vous êtes maintenant prêt à enregistrer votre présentation au format PDF protégé par mot de passe. Remplacer`"Your Output Directory"` avec le chemin où vous souhaitez enregistrer le PDF et`"PasswordProtectedPDF_out.pdf"` avec le nom du fichier de sortie souhaité.
 
 ```csharp
 string outPath = "Your Output Directory";

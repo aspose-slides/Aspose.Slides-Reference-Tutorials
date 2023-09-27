@@ -14,7 +14,7 @@ Dans ce didacticiel, nous vous guiderons tout au long du processus de définitio
 
 ## Conditions préalables
 
-Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée. Vous pouvez le télécharger sur le site Aspose[ici](https://releases.aspose.com/slides/java/).
+ Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée. Vous pouvez le télécharger sur le site Aspose[ici](https://releases.aspose.com/slides/java/).
 
 ## Guide étape par étape
 
@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Obtenez le classeur de données graphiques
 
 ```java
-// Obtenir la feuille de calcul des données du graphique
+//Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Définition de l'index de la feuille de données du graphique
 int defaultWorksheetIndex = 0;
-// Obtenir la feuille de calcul des données du graphique
+//Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Ajouter une série
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -149,7 +149,7 @@ Dans ce didacticiel, vous avez appris à définir la largeur de l'espace pour un
 
 ### Comment puis-je modifier la valeur de la largeur de l'espace ?
 
- Pour modifier la largeur de l'espace, utilisez le`setGapWidth` méthode sur le`ParentSeriesGroup` de la série de graphiques. Dans l'exemple fourni, nous définissons la largeur de l'espace sur 50, mais vous pouvez ajuster cette valeur à l'espacement souhaité.
+ Pour modifier la largeur de l'espace, utilisez le`setGapWidth` méthode sur le`ParentSeriesGroup`de la série de graphiques. Dans l'exemple fourni, nous définissons la largeur de l'espace sur 50, mais vous pouvez ajuster cette valeur à l'espacement souhaité.
 
 ### Puis-je personnaliser d’autres propriétés du graphique ?
 

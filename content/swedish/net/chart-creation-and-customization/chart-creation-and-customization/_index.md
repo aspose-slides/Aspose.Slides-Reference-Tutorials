@@ -46,7 +46,7 @@ IChart chart = slide.Shapes.AddChart(ChartType.Column, 100, 100, 500, 300);
 
 Låt oss sedan lägga till data i vårt diagram:
 
-1. Öppna diagrammets arbetsbok:
+1. Gå till diagrammets arbetsbok:
 ```csharp
 IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
 ```

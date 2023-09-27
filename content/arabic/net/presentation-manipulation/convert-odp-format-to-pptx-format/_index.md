@@ -58,7 +58,7 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 
 في هذا البرنامج التعليمي، تناولنا عملية تحويل تنسيق ODP إلى تنسيق PPTX والعكس باستخدام Aspose.Slides لـ .NET. تعمل واجهة برمجة التطبيقات القوية هذه على تبسيط مهام تحويل المستندات وتوفر حلاً موثوقًا لاحتياجات توافق تنسيقات الملفات لديك.
 
- إذا لم تكن قد قمت بذلك بالفعل، فيمكنك تنزيل Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/slides/net/) للبدء في مشاريع تحويل المستندات الخاصة بك.
+إذا لم تكن قد قمت بذلك بالفعل، فيمكنك تنزيل Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/slides/net/) للبدء في مشاريع تحويل المستندات الخاصة بك.
 
  لمزيد من المعلومات والدعم، لا تتردد في زيارة[Aspose.Slides لتوثيق .NET API](https://reference.aspose.com/slides/net/).
 
@@ -78,7 +78,7 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 
 ### 4. هل يتوفر الدعم الفني لـ Aspose.Slides لـ .NET؟
 
- نعم، يمكنك الحصول على الدعم الفني والمساعدة من مجتمع Aspose من خلال زيارة الموقع[اطرح المنتديات](https://forum.aspose.com/).
+نعم، يمكنك الحصول على الدعم الفني والمساعدة من مجتمع Aspose من خلال زيارة الموقع[اطرح المنتديات](https://forum.aspose.com/).
 
 ### 5. هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 

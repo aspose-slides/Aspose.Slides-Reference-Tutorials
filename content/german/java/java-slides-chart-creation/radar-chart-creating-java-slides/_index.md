@@ -14,7 +14,7 @@ In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Radard
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihr Projekt integriert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/java/).
+ Bevor wir beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihr Projekt integriert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Einrichten der Präsentation
 
@@ -99,7 +99,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 Passen wir die Achsen und Legenden für unser Radardiagramm an.
 
 ```java
-//Legendenposition festlegen
+// Legendenposition festlegen
 ichart.getLegend().setPosition(LegendPositionType.Bottom);
 
 // Festlegen der Texteigenschaften der Kategorieachse
@@ -199,7 +199,7 @@ try
 	// Serienfarbe festlegen
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
-	//Legendenposition festlegen
+	// Legendenposition festlegen
 	ichart.getLegend().setPosition(LegendPositionType.Bottom);
 	// Festlegen der Texteigenschaften der Kategorieachse
 	IChartPortionFormat txtCat = ichart.getAxes().getHorizontalAxis().getTextFormat().getPortionFormat();
@@ -267,4 +267,4 @@ Beziehen Sie sich auf „Schritt 5“, um die Achsenbeschriftungen und Formatier
 
 ### Wie speichere ich das Diagramm in einem anderen Dateiformat?
 
- Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung in ändern`outPath`Variable und die entsprechende Verwendung`SaveFormat` . Um beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.
+ Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung in ändern`outPath` Variable und die entsprechende Verwendung`SaveFormat` . Um beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.

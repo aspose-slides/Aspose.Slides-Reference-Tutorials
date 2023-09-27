@@ -39,7 +39,7 @@ När du har din presentation klar är det dags att lägga till ett diagram. I de
 // Åtkomst till den första bilden
 ISlide slide = pres.getSlides().get_Item(0);
 
-//Lägger till exempeldiagrammet
+// Lägger till exempeldiagrammet
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
 
@@ -161,7 +161,7 @@ try
 {
 	// Åtkomst till den första bilden
 	ISlide slide = pres.getSlides().get_Item(0);
-	//Lägger till exempeldiagrammet
+	// Lägger till exempeldiagrammet
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 	// Ställa in diagramtitel
 	chart.setTitle(true);

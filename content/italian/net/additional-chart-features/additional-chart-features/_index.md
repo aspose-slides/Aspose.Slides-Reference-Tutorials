@@ -14,7 +14,7 @@ Aspose.Slides è una potente libreria .NET che consente agli sviluppatori di lav
 
 ## Impostazione dell'ambiente
 
-Prima di immergerti nell'implementazione, assicurati di avere Aspose.Slides per .NET installato. È possibile scaricare la libreria da[Qui](https://releases.aspose.com/slides/net).
+ Prima di immergerti nell'implementazione, assicurati di avere Aspose.Slides per .NET installato. È possibile scaricare la libreria da[Qui](https://releases.aspose.com/slides/net).
 
 Una volta installata la libreria, crea un nuovo progetto .NET nel tuo ambiente di sviluppo preferito.
 
@@ -32,7 +32,7 @@ Presentation presentation = new Presentation();
 // Aggiungi una diapositiva
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Aggiungi un grafico alla diapositiva
+//Aggiungi un grafico alla diapositiva
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 
 // Aggiungi dati al grafico

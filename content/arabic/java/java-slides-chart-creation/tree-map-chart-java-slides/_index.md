@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // إنشاء فرع 1
+    //إنشاء فرع 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -151,4 +151,4 @@ finally
 
 ### كيف يمكنني حفظ العرض التقديمي باستخدام مخطط الخريطة الشجرةية؟
 
- استخدم ال`pres.save()`طريقة لحفظ العرض التقديمي باستخدام مخطط Tree Map بالتنسيق المطلوب (على سبيل المثال، PPTX).
+ استخدم ال`pres.save()` طريقة لحفظ العرض التقديمي باستخدام مخطط Tree Map بالتنسيق المطلوب (على سبيل المثال، PPTX).

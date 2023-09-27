@@ -112,7 +112,7 @@ try {
 
 ## Slutsats
 
-I den här handledningen har vi gått igenom processen att skapa ett kartdiagram i en PowerPoint-presentation med Aspose.Slides för Java. Kartdiagram är ett effektivt sätt att visualisera geografiska data, vilket gör dina presentationer mer engagerande och informativa. Låt oss sammanfatta de viktigaste stegen:
+den här handledningen har vi gått igenom processen att skapa ett kartdiagram i en PowerPoint-presentation med Aspose.Slides för Java. Kartdiagram är ett effektivt sätt att visualisera geografiska data, vilket gör dina presentationer mer engagerande och informativa. Låt oss sammanfatta de viktigaste stegen:
 
 ## FAQ's
 
@@ -122,7 +122,7 @@ I den här handledningen har vi gått igenom processen att skapa ett kartdiagram
 
 ### Hur kan jag anpassa utseendet på kartan?
 
-Du kan anpassa diagrammets utseende genom att ändra egenskaperna för`dataPoint` objekt i steg 6. Du kan ändra färger, värden och mer.
+ Du kan anpassa diagrammets utseende genom att ändra egenskaperna för`dataPoint` objekt i steg 6. Du kan ändra färger, värden och mer.
 
 ### Kan jag lägga till fler datapunkter och kategorier?
 

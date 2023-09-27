@@ -122,7 +122,7 @@ Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda Harita G
 
 ### Harita grafiğinin görünümünü nasıl özelleştirebilirim?
 
-Grafiğin özelliklerini değiştirerek grafiğin görünümünü özelleştirebilirsiniz.`dataPoint` 6. Adımda nesneyi seçin. Renkleri, değerleri ve daha fazlasını değiştirebilirsiniz.
+ Grafiğin özelliklerini değiştirerek grafiğin görünümünü özelleştirebilirsiniz.`dataPoint` 6. Adımda nesneyi seçin. Renkleri, değerleri ve daha fazlasını değiştirebilirsiniz.
 
 ### Daha fazla veri noktası ve kategori ekleyebilir miyim?
 

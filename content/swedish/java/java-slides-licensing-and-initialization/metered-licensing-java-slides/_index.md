@@ -53,7 +53,7 @@ System.out.println("Amount Consumed Before: " + amountBefore);
 
 // Anropa Aspose.Slides API-metoder här
 
-// Få uppmätta datamängder efter att ha anropat API
+// Få uppmätt datamängd efter att ha anropat API
 double amountAfter = Metered.getConsumptionQuantity();
 
 // Visa information

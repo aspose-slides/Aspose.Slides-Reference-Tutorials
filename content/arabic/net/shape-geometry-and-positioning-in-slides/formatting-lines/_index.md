@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // الوصول إلى الشريحة
     ISlide slide = presentation.Slides[0];
 
-    //الوصول إلى الشكل (على افتراض أنه مستطيل)
+    //الوصول إلى الشكل (بافتراض أنه مستطيل)
     IAutoShape rectangle = (IAutoShape)slide.Shapes[0];
 
     // تعديل العرض والارتفاع

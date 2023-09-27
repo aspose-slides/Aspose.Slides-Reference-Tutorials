@@ -26,7 +26,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 ```java
 // Il percorso della directory dei documenti.
 String dataDir = "Your Document Directory";
-// Crea un'istanza della classe Presentation che rappresenta un file di presentazione
+//Crea un'istanza della classe Presentation che rappresenta un file di presentazione
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -46,7 +46,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 Ora aggiungiamo animazioni alla serie all'interno del grafico. Utilizzeremo un effetto di dissolvenza in apertura e faremo apparire ogni serie una dopo l'altra.
 
 ```java
-//Anima l'intero grafico
+// Anima l'intero grafico
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Aggiungi animazioni a ciascuna serie (supponendo che ci siano 4 serie)
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Il percorso della directory dei documenti.
 String dataDir = "Your Document Directory";
-// Crea un'istanza della classe Presentation che rappresenta un file di presentazione
+//Crea un'istanza della classe Presentation che rappresenta un file di presentazione
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {

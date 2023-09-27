@@ -28,7 +28,7 @@ Innan vi dyker in i detaljerna för avancerad diagramanpassning, se till att du 
 ### [Avancerad diagramanpassning i Aspose.Slides](./advanced-chart-customization/)
 Lär dig hur du anpassar diagram med Aspose.Slides för .NET. Steg-för-steg-guide med källkod för avancerad presentationsbild.
 ### [Kartmarköralternativ på datapunkt](./chart-marker-options-on-data-point/)
-Lär dig hur du förbättrar dina datavisualiseringar med Aspose.Slides för .NET. Utforska diagrammarkeringsalternativ steg för steg.
+Lär dig hur du förbättrar dina datavisualiseringar med Aspose.Slides för .NET. Utforska diagrammarköralternativ steg för steg.
 ### [Diagram Trendlinjer](./chart-trend-lines/)
 Lär dig hur du skapar diagramtrendlinjer med Aspose.Slides för .NET. Förbättra datavisualiseringar med steg-för-steg-vägledning och kodexempel.
 ### [Diagramenheter och formatering](./chart-entities/)

@@ -98,7 +98,7 @@ Bu kılavuzda, Java ve Aspose.Slides for Java kullanarak PowerPoint sunumların�
 
 ### GIF'teki slaytlar arasındaki gecikmeyi ayarlayabilir miyim?
 
-Evet, değeri değiştirerek slaytlar arasındaki gecikmeyi ayarlayabilirsiniz.`setDefaultDelay`. Milisaniye cinsinden belirtilir, dolayısıyla istediğiniz gecikme süresine ayarlayın.
+ Evet, değeri değiştirerek slaytlar arasındaki gecikmeyi ayarlayabilirsiniz.`setDefaultDelay`. Milisaniye cinsinden belirtilir, dolayısıyla istediğiniz gecikme süresine ayarlayın.
 
 ### GIF dönüşümü için önerilen FPS nedir?
 

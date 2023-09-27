@@ -1,6 +1,6 @@
 ---
 title: Форматирование прямоугольной формы в презентации с использованием Aspose.Slides
-linktitle: Форматирование прямоугольной формы в слайдах презентации с использованием Aspose.Slides
+linktitle: Форматирование прямоугольной формы в слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Освойте искусство форматирования прямоугольных фигур в презентациях с помощью Aspose.Slides для .NET. Узнайте шаг за шагом, как создавать визуально привлекательные слайды с насыщенными цветами, текстом и интерактивностью.
 type: docs
@@ -24,7 +24,7 @@ url: /ru/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape
    Install-Package Aspose.Slides
    ```
 
-2. Импорт пространства имен. Импортируйте пространство имен Aspose.Slides в файл кода.
+2. Импорт пространства имен: импортируйте пространство имен Aspose.Slides в файл кода.
 
    ```csharp
    using Aspose.Slides;

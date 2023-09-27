@@ -63,7 +63,7 @@ using (Presentation pres = new Presentation(presentationFileName))
 }
 ```
 
- In diesem Codeausschnitt laden wir die Quellpräsentation, erstellen XAML-Konvertierungsoptionen und definieren mithilfe von einen benutzerdefinierten Ausgabespeicherdienst`NewXamlSaver`Anschließend speichern wir die XAML-Dateien im angegebenen Ausgabeverzeichnis.
+ In diesem Codeausschnitt laden wir die Quellpräsentation, erstellen XAML-Konvertierungsoptionen und definieren mithilfe von einen benutzerdefinierten Ausgabespeicherdienst`NewXamlSaver`. Anschließend speichern wir die XAML-Dateien im angegebenen Ausgabeverzeichnis.
 
 ## Schritt 3: Benutzerdefinierte XAML-Saver-Klasse
 
@@ -110,6 +110,6 @@ Aspose.Slides für .NET ist eine .NET-Bibliothek für die programmgesteuerte Arb
  Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 
 5. ### Wo erhalte ich Unterstützung für Aspose.Slides für .NET?
-Hier finden Sie Unterstützung und Community-Diskussionen[Hier](https://forum.aspose.com/).
+ Hier finden Sie Unterstützung und Community-Diskussionen[Hier](https://forum.aspose.com/).
 
- Weitere Tutorials und Ressourcen finden Sie unter[Aspose.Slides API-Dokumentation](https://reference.aspose.com/slides/net/).
+Weitere Tutorials und Ressourcen finden Sie unter[Aspose.Slides API-Dokumentation](https://reference.aspose.com/slides/net/).

@@ -8,7 +8,7 @@ weight: 15
 url: /es/net/slide-background-manipulation/change-slide-background-normal/
 ---
 
-Cuando se trata de crear presentaciones impactantes, las imágenes juegan un papel fundamental para atraer a la audiencia. Una técnica eficaz para mejorar la estética de su presentación es cambiar el fondo normal de la diapositiva. Este artículo lo guiará a través del proceso de cambiar los fondos de las diapositivas utilizando la poderosa API Aspose.Slides para .NET. Ya sea usted un presentador experimentado o un principiante, esta guía le proporcionará el conocimiento y las herramientas para mejorar su juego de presentación.
+Cuando se trata de crear presentaciones impactantes, las imágenes juegan un papel fundamental para atraer a la audiencia. Una técnica eficaz para mejorar la estética de su presentación es cambiar el fondo normal de la diapositiva. Este artículo lo guiará a través del proceso de cambiar los fondos de las diapositivas utilizando la potente API Aspose.Slides para .NET. Ya sea usted un presentador experimentado o un principiante, esta guía le proporcionará el conocimiento y las herramientas para mejorar su juego de presentación.
 
 ## Introducción
 

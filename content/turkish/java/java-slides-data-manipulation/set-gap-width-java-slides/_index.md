@@ -14,7 +14,7 @@ Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint sunumundaki bir g
 
 ## Önkoşullar
 
-Başlamadan önce Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun. Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+ Başlamadan önce Aspose.Slides for Java kütüphanesinin kurulu olduğundan emin olun. Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
 
 ## Adım adım rehber
 
@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Grafik Verileri Çalışma Kitabını Alın
 
 ```java
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Seri ekle
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -149,7 +149,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumundaki bir grafik
 
 ### Boşluk Genişliği değerini nasıl değiştiririm?
 
- Boşluk Genişliğini değiştirmek için`setGapWidth` konusundaki yöntem`ParentSeriesGroup` grafik serisi. Verilen örnekte Gap Width'i 50 olarak ayarladık ama siz bu değeri istediğiniz aralıklara göre ayarlayabilirsiniz.
+ Boşluk Genişliğini değiştirmek için`setGapWidth` konusundaki yöntem`ParentSeriesGroup`grafik serisi. Verilen örnekte Gap Width'i 50 olarak ayarladık ama siz bu değeri istediğiniz aralıklara göre ayarlayabilirsiniz.
 
 ### Diğer grafik özelliklerini özelleştirebilir miyim?
 

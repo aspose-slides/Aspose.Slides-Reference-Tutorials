@@ -56,7 +56,7 @@ Därefter lägger vi till en anteckningsbild till presentationen. En antecknings
 // Lägg till en anteckningsbild efter den första bilden
 NotesSlide notesSlide = presentation.Slides[0].NotesSlideManager.AddNotesSlide();
 
-// Lägg till innehåll i anteckningsbilden
+// Lägg till innehåll på anteckningsbilden
 notesSlide.NotesTextFrame.Text = "These are the speaker notes for the first slide.";
 ```
 

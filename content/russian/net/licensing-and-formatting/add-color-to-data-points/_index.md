@@ -25,7 +25,7 @@ using Aspose.Slides.Charts;
 Presentation presentation = new Presentation();
 ISlide slide = presentation.Slides.AddSlide(0, presentation.SlideSize);
 
-// Добавьте диаграмму на слайд
+//Добавьте диаграмму на слайд
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 400);
 
 // Добавьте пример данных на диаграмму

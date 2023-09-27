@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 بعد ذلك، سنقوم بإضافة خط اتجاه خطي إلى سلسلة الرسوم البيانية لدينا:
 
 ```java
-//إضافة خط اتجاه خطي لسلسلة الرسم البياني 1
+// إضافة خط اتجاه خطي لسلسلة الرسم البياني 1
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -134,7 +134,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // إنشاء مخطط عمود متفاوت المسافات
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-//إضافة خط اتجاه عوني لسلسلة الرسم البياني 1
+// إضافة خط اتجاه عوني لسلسلة الرسم البياني 1
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
@@ -173,7 +173,7 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني تغيير لون خط الاتجاه في Aspose.Slides لـ Java؟
 
- لتغيير لون خط الاتجاه، يمكنك استخدام`getSolidFillColor().setColor(Color)` الطريقة، كما هو موضح في المثال لإضافة خط اتجاه خطي.
+لتغيير لون خط الاتجاه، يمكنك استخدام`getSolidFillColor().setColor(Color)` الطريقة، كما هو موضح في المثال لإضافة خط اتجاه خطي.
 
 ### هل يمكنني إضافة خطوط اتجاه متعددة إلى سلسلة مخططات واحدة؟
 

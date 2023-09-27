@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // كرر لنقاط البيانات الأخرى
 // ...
 
-// تغيير حجم علامة سلسلة الرسم البياني
+//تغيير حجم علامة سلسلة الرسم البياني
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 ### هل يمكنني استخدام الصور كعلامات مخصصة؟
 
- نعم، يمكنك استخدام الصور كعلامات مخصصة لنقاط البيانات. اضبط نوع التعبئة على`FillType.Picture` وتقديم الصورة التي تريد استخدامها.
+نعم، يمكنك استخدام الصور كعلامات مخصصة لنقاط البيانات. اضبط نوع التعبئة على`FillType.Picture` وتقديم الصورة التي تريد استخدامها.
 
 ### هل Aspose.Slides for Java مناسب لإنشاء مخططات ديناميكية؟
 

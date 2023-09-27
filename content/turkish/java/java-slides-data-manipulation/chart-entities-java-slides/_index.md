@@ -39,7 +39,7 @@ Sununuzu hazırladıktan sonra grafik eklemenin zamanı geldi. Bu örnekte işar
 // İlk slayda erişim
 ISlide slide = pres.getSlides().get_Item(0);
 
-//Örnek grafiğin eklenmesi
+// Örnek grafiğin eklenmesi
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
 
@@ -161,7 +161,7 @@ try
 {
 	// İlk slayda erişim
 	ISlide slide = pres.getSlides().get_Item(0);
-	//Örnek grafiğin eklenmesi
+	// Örnek grafiğin eklenmesi
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 	// Grafik Başlığını Ayarlama
 	chart.setTitle(true);

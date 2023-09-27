@@ -14,7 +14,7 @@ In questo tutorial, ti guideremo attraverso il processo di impostazione della la
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di aver installato la libreria Aspose.Slides per Java. Puoi scaricarlo dal sito Aspose[Qui](https://releases.aspose.com/slides/java/).
+ Prima di iniziare, assicurati di aver installato la libreria Aspose.Slides per Java. Puoi scaricarlo dal sito Aspose[Qui](https://releases.aspose.com/slides/java/).
 
 ## Guida passo passo
 
@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Ottieni la cartella di lavoro dei dati del grafico
 
 ```java
-// Ottenere il foglio di lavoro con i dati del grafico
+//Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
-// Ottenere il foglio di lavoro con i dati del grafico
+//Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Aggiungi serie
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -149,7 +149,7 @@ In questo tutorial, hai imparato come impostare la larghezza del gap per un graf
 
 ### Come posso modificare il valore della larghezza dello spazio?
 
- Per modificare la larghezza dello spazio, utilizzare`setGapWidth` metodo sul`ParentSeriesGroup` della serie di grafici. Nell'esempio fornito, impostiamo la larghezza dello spazio su 50, ma puoi regolare questo valore in base alla spaziatura desiderata.
+ Per modificare la larghezza dello spazio, utilizzare`setGapWidth` metodo sul`ParentSeriesGroup`della serie di grafici. Nell'esempio fornito, impostiamo la larghezza dello spazio su 50, ma puoi regolare questo valore in base alla spaziatura desiderata.
 
 ### Posso personalizzare altre proprietà del grafico?
 

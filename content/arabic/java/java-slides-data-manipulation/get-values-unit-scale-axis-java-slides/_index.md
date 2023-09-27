@@ -18,7 +18,7 @@ url: /ar/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 
 1. بيئة تطوير Java: تأكد من تثبيت Java على نظامك وأنك على دراية بمفاهيم برمجة Java.
 
-2.  Aspose.Slides for Java: قم بتنزيل وتثبيت مكتبة Aspose.Slides for Java من[رابط التحميل](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: قم بتنزيل وتثبيت مكتبة Aspose.Slides for Java من[رابط التحميل](https://releases.aspose.com/slides/java/).
 
 ## الخطوة 1: إنشاء عرض تقديمي
 

@@ -95,7 +95,7 @@ audio.AudioData.WriteToFile("extracted_audio.mp3");
 
 ### هل أحتاج إلى تثبيت Microsoft Office لاستخدام Aspose.Slides؟
 
-لا، لا تحتاج إلى تثبيت Microsoft Office. يوفر Aspose.Slides for .NET كافة الوظائف الضرورية للعمل مع عروض PowerPoint التقديمية برمجياً.
+لا، لا تحتاج إلى تثبيت Microsoft Office. يوفر Aspose.Slides for .NET كافة الوظائف الضرورية للعمل مع عروض PowerPoint التقديمية برمجيًا.
 
 ### هل Aspose.Slides مناسب للمشاريع التجارية؟
 

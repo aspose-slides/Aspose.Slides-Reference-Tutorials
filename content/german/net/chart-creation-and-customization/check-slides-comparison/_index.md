@@ -93,7 +93,7 @@ Berichte können eine zusammenfassende Ansicht der Folienunterschiede bieten:
    Erstellen Sie einen Vergleichsbericht, der die Folien mit Unterschieden zusammen mit kurzen Beschreibungen der Änderungen auflistet.
 
 2. Exportieren von Berichten in verschiedene Formate:
-   Exportieren Sie den Vergleichsbericht zur einfachen Weitergabe und Dokumentation in verschiedene Formate wie PDF, DOCX oder HTML.
+   Exportieren Sie den Vergleichsbericht in verschiedene Formate wie PDF, DOCX oder HTML, um ihn einfach weiterzugeben und zu dokumentieren.
 
 ## Umgang mit komplexen Präsentationen
 

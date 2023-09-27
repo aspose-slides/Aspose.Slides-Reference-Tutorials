@@ -14,7 +14,7 @@ In diesem Tutorial erfahren Sie, wie Sie das Diagrammlayout in einer PowerPoint-
 
 ## Schritt 1: Initialisierung der Präsentation
 
- Zuerst müssen wir ein Präsentationsobjekt initialisieren und eine vorhandene PowerPoint-Präsentation laden. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer Präsentationsdatei (`test.pptx` in diesem Beispiel).
+Zuerst müssen wir ein Präsentationsobjekt initialisieren und eine vorhandene PowerPoint-Präsentation laden. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer Präsentationsdatei (`test.pptx` in diesem Beispiel).
 
 ```java
 // Der Pfad zum Dokumentenverzeichnis.

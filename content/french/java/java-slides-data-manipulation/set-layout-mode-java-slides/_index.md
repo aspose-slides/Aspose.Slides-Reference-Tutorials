@@ -80,7 +80,7 @@ finally
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons appris à définir le mode de mise en page d'un graphique dans des diapositives Java à l'aide d'Aspose.Slides pour Java. Vous pouvez personnaliser la position et la taille du graphique en fonction de vos besoins spécifiques en ajustant les valeurs dans le`setX`, `setY`, `setWidth`, `setHeight` , et`setLayoutTargetType` méthodes. Cela vous permet de contrôler le placement des graphiques dans vos diapositives.
+ Dans ce didacticiel, nous avons appris à définir le mode de mise en page d'un graphique dans des diapositives Java à l'aide d'Aspose.Slides pour Java. Vous pouvez personnaliser la position et la taille du graphique en fonction de vos besoins spécifiques en ajustant les valeurs dans le`setX`, `setY`, `setWidth`, `setHeight` , et`setLayoutTargetType`méthodes. Cela vous permet de contrôler le placement des graphiques dans vos diapositives.
 
 ## FAQ
 
@@ -94,4 +94,4 @@ Dans ce didacticiel, nous avons appris à définir le mode de mise en page d'un 
 
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour Java ?
 
- Vous pouvez trouver plus d’informations sur Aspose.Slides pour Java dans le[Documentation](https://reference.aspose.com/slides/java/)Il comprend des références API détaillées et des exemples pour vous aider à travailler efficacement avec des diapositives et des graphiques en Java.
+ Vous pouvez trouver plus d’informations sur Aspose.Slides pour Java dans le[Documentation](https://reference.aspose.com/slides/java/). Il comprend des références API détaillées et des exemples pour vous aider à travailler efficacement avec des diapositives et des graphiques en Java.

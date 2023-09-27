@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /es/net/slide-comments-manipulation/access-slide-comments/
 ---
-Acceder a los comentarios de las diapositivas es un aspecto crucial al trabajar con presentaciones, ya que le permite recuperar información valiosa y conocimientos de los comentarios dejados por los colaboradores. En esta guía completa, profundizaremos en el proceso de acceso a los comentarios de las diapositivas utilizando la potente API Aspose.Slides para .NET. Si es un desarrollador que busca integrar esta funcionalidad en su aplicación o simplemente está interesado en aprender más sobre el tema, este artículo lo tiene cubierto.
+Acceder a los comentarios de las diapositivas es un aspecto crucial al trabajar con presentaciones, ya que le permite recuperar información valiosa y conocimientos de los comentarios dejados por los colaboradores. En esta guía completa, profundizaremos en el proceso de acceso a los comentarios de las diapositivas utilizando la poderosa API Aspose.Slides para .NET. Si es un desarrollador que busca integrar esta funcionalidad en su aplicación o simplemente está interesado en aprender más sobre el tema, este artículo lo tiene cubierto.
 
 ## Introducción
 

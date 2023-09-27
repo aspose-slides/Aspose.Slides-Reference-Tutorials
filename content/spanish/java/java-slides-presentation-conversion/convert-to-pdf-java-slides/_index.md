@@ -16,7 +16,7 @@ En este tutorial, lo guiaremos a través del proceso de convertir una presentaci
 
 Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
-1.  Biblioteca Aspose.Slides para Java: debe tener instalada la biblioteca Aspose.Slides para Java. Puedes descargarlo desde el[Página de descarga de Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
+1. Biblioteca Aspose.Slides para Java: debe tener instalada la biblioteca Aspose.Slides para Java. Puedes descargarlo desde el[Página de descarga de Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
 
 2. Entorno de desarrollo de Java: asegúrese de tener Java instalado en su sistema y de estar familiarizado con la programación de Java.
 
@@ -26,7 +26,7 @@ Primero, debes incluir la biblioteca Aspose.Slides en tu proyecto Java. Puede ag
 
 ## Paso 2: cargue la presentación de PowerPoint
 
-En este paso, cargaremos la presentación de PowerPoint que queremos convertir a PDF. Reemplazar`"Your Document Directory"` y`"ConvertToPDF.pptx"` con la ruta real a su archivo de presentación.
+ En este paso, cargaremos la presentación de PowerPoint que queremos convertir a PDF. Reemplazar`"Your Document Directory"` y`"ConvertToPDF.pptx"` con la ruta real a su archivo de presentación.
 
 ```java
 // La ruta al directorio de documentos.
@@ -53,7 +53,7 @@ finally
 
 ## Paso 4: complete la conversión
 
- En el código anterior, guardamos la presentación como PDF con el nombre`"output_out.pdf"` en el directorio de salida especificado. Puede ajustar el nombre del archivo de salida y la ruta según sus requisitos.
+ En el código anterior, guardamos la presentación como PDF con el nombre`"output_out.pdf"`en el directorio de salida especificado. Puede ajustar el nombre del archivo de salida y la ruta según sus requisitos.
 
 ## Código fuente completo para convertir a PDF en diapositivas Java
 

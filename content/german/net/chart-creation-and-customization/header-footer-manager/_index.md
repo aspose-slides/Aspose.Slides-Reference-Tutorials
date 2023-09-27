@@ -227,7 +227,7 @@ presentation.Save("presentation.png", SaveFormat.Png);
 
 - Halten Sie es prägnant: Kopf- und Fußzeilen sollten relevante Informationen liefern, ohne das Publikum zu überfordern.
 
-- Konsistenz ist wichtig: Behalten Sie auf allen Folien einen einheitlichen Stil bei, um die visuelle Attraktivität zu steigern.
+- Konsistenz ist wichtig: Behalten Sie auf allen Folien einen einheitlichen Stil bei, um die visuelle Attraktivität zu verbessern.
 
 - Überprüfen und anpassen: Überprüfen Sie regelmäßig Kopf- und Fußzeilen, um Genauigkeit und Relevanz sicherzustellen.
 

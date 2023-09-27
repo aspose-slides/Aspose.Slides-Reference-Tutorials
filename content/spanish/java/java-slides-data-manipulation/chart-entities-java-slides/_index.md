@@ -39,7 +39,7 @@ Una vez que tenga su presentación lista, es hora de agregar un gráfico. En est
 // Accediendo a la primera diapositiva
 ISlide slide = pres.getSlides().get_Item(0);
 
-//Agregar el gráfico de muestra
+// Agregar el gráfico de muestra
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
 
@@ -161,7 +161,7 @@ try
 {
 	// Accediendo a la primera diapositiva
 	ISlide slide = pres.getSlides().get_Item(0);
-	//Agregar el gráfico de muestra
+	// Agregar el gráfico de muestra
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 	// Configuración del título del gráfico
 	chart.setTitle(true);
@@ -195,7 +195,7 @@ try
 	chart.getAxes().getVerticalAxis().setMinValue(-2f);
 	chart.getAxes().getVerticalAxis().setMinorUnit(0.5f);
 	chart.getAxes().getVerticalAxis().setMajorUnit(2.0f);
-	// Configuración de las propiedades del texto del eje de valores
+	// Configuración de las propiedades del texto del eje de valor
 	IChartPortionFormat txtVal = chart.getAxes().getVerticalAxis().getTextFormat().getPortionFormat();
 	txtVal.setFontBold(NullableBool.True);
 	txtVal.setFontHeight(16);

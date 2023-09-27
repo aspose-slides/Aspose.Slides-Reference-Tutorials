@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- In diesem Code laden wir eine vorhandene PowerPoint-Präsentation, die das Diagramm enthält, das Sie animieren möchten. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
+In diesem Code laden wir eine vorhandene PowerPoint-Präsentation, die das Diagramm enthält, das Sie animieren möchten. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
 
 ## Schritt 3: Rufen Sie eine Referenz auf das Diagrammobjekt ab
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// Schreiben Sie die Präsentationsdatei auf die Festplatte
+	//Schreiben Sie die Präsentationsdatei auf die Festplatte
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Ja, Sie können ähnliche Animationen auf andere Diagrammtypen anwenden, indem S
 
 ### Wie erfahre ich mehr über Aspose.Slides für Java?
 
- Eine umfassende Dokumentation und zusätzliche Ressourcen finden Sie unter[Aspose.Slides für Java API-Referenz](https://reference.aspose.com/slides/java/) . Sie können die Bibliothek auch unter herunterladen[Hier](https://releases.aspose.com/slides/java/).
+Eine umfassende Dokumentation und zusätzliche Ressourcen finden Sie unter[Aspose.Slides für Java API-Referenz](https://reference.aspose.com/slides/java/) . Sie können die Bibliothek auch unter herunterladen[Hier](https://releases.aspose.com/slides/java/).

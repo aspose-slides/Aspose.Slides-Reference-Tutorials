@@ -25,7 +25,7 @@ url: /ru/java/presentation-conversion/conversion-tiff-notes-java-slides/
 
 ## Шаг 2. Загрузка презентации
 
-На этом этапе вы загрузите файл презентации, который хотите преобразовать в формат TIFF. Заменять`"Your Document Directory"` с фактическим путем к файлу вашей презентации.
+ На этом этапе вы загрузите файл презентации, который хотите преобразовать в формат TIFF. Заменять`"Your Document Directory"` с фактическим путем к файлу вашей презентации.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,7 +71,7 @@ finally
 
 ### Как я могу изменить формат выходного файла на другой, кроме TIFF?
 
- Вы можете изменить формат вывода, изменив`SaveFormat` параметр в`presentation.save`метод. Aspose.Slides для Java поддерживает различные форматы, включая PDF, PPTX и другие.
+ Вы можете изменить формат вывода, изменив`SaveFormat` параметр в`presentation.save` метод. Aspose.Slides для Java поддерживает различные форматы, включая PDF, PPTX и другие.
 
 ### Совместим ли Aspose.Slides для Java с различными версиями Java?
 

@@ -38,7 +38,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-//Konfigurera serier och kategorier (Du kan justera antalet serier och kategorier)
+// Konfigurera serier och kategorier (Du kan justera antalet serier och kategorier)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -162,7 +162,7 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-den här handledningen har vi utforskat hur man ställer in bildtexter för dataetiketter i ett diagram med Aspose.Slides för Java. Bildtexter är värdefulla verktyg för att betona specifika datapunkter i dina diagram och presentationer. Vi har tillhandahållit en steg-för-steg-guide tillsammans med källkod för att hjälpa dig uppnå denna anpassning.
+I den här handledningen har vi utforskat hur man ställer in bildtexter för dataetiketter i ett diagram med Aspose.Slides för Java. Bildtexter är värdefulla verktyg för att betona specifika datapunkter i dina diagram och presentationer. Vi har tillhandahållit en steg-för-steg-guide tillsammans med källkod för att hjälpa dig uppnå denna anpassning.
 
 ## FAQ's
 

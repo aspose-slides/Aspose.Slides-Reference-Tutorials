@@ -38,7 +38,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-//تكوين السلسلة والفئات (يمكنك ضبط عدد السلسلة والفئات)
+// تكوين السلسلة والفئات (يمكنك ضبط عدد السلسلة والفئات)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());

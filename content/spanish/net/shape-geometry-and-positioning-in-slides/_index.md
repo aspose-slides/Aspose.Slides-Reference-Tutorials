@@ -22,7 +22,7 @@ Colocar elementos en una diapositiva es crucial para transmitir su mensaje de ma
 
 ### Que esperar
 
-A lo largo de esta serie de tutoriales, cubriremos una amplia gama de temas relacionados con la geometría de formas y el posicionamiento. Aprenderá cómo crear formas desde cero, modificar las existentes, controlar sus dimensiones y alinearlas estratégicamente dentro de sus diapositivas. Cada paso irá acompañado de ejemplos de código en .NET, lo que garantizará que no solo comprenda los conceptos sino que también sepa cómo implementarlos de manera práctica.
+A lo largo de esta serie de tutoriales, cubriremos una amplia gama de temas relacionados con la geometría de formas y el posicionamiento. Aprenderá cómo crear formas desde cero, modificar las existentes, controlar sus dimensiones y alinearlas estratégicamente dentro de sus diapositivas. Cada paso irá acompañado de ejemplos de código en .NET, lo que garantizará que no sólo comprenda los conceptos sino que también sepa cómo implementarlos de manera práctica.
 
 Ya sea que sea un desarrollador experimentado que busca mejorar sus habilidades de manipulación de diapositivas o un recién llegado que busca crear presentaciones impactantes, estos tutoriales están diseñados para atender a todos los niveles. Entonces, ¡emprendemos este viaje para dominar la geometría de la forma y el posicionamiento con Aspose.Slides!
 

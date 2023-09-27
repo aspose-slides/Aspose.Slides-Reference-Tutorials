@@ -20,7 +20,7 @@ Ora che hai familiarità con lo strumento, passiamo al processo di conversione. 
 
 ### Tutorial passo dopo passo
 
-nostri tutorial sono progettati per guidarti facilmente attraverso il processo di conversione. Comprendiamo che ogni utente ha esigenze uniche, quindi abbiamo creato una serie di tutorial per soddisfare scenari diversi. Che tu sia un principiante o uno sviluppatore esperto, troverai tutorial adatti al tuo livello di abilità.
+I nostri tutorial sono progettati per guidarti facilmente attraverso il processo di conversione. Comprendiamo che ogni utente ha esigenze uniche, quindi abbiamo creato una serie di tutorial per soddisfare scenari diversi. Che tu sia un principiante o uno sviluppatore esperto, troverai tutorial adatti al tuo livello di abilità.
 
 ### Unisciti alla comunità Aspose.Slides
 

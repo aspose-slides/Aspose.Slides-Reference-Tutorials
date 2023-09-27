@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 A continuación, agregaremos una línea de tendencia lineal a nuestra serie de gráficos:
 
 ```java
-//Agregar una línea de tendencia lineal para la serie de gráficos 1
+// Agregar una línea de tendencia lineal para la serie de gráficos 1
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -134,7 +134,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // Crear un gráfico de columnas agrupadas
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-//Agregar una línea de tendencia potencial para la serie de gráficos 1
+// Agregar una línea de tendencia potencial para la serie de gráficos 1
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
@@ -173,11 +173,11 @@ En este tutorial, aprendimos cómo agregar diferentes tipos de líneas de tenden
 
 ### ¿Cómo cambio el color de una línea de tendencia en Aspose.Slides para Java?
 
- Para cambiar el color de una línea de tendencia, puede utilizar el`getSolidFillColor().setColor(Color)` método, como se muestra en el ejemplo para agregar una línea de tendencia lineal.
+Para cambiar el color de una línea de tendencia, puede utilizar el`getSolidFillColor().setColor(Color)` método, como se muestra en el ejemplo para agregar una línea de tendencia lineal.
 
 ### ¿Puedo agregar varias líneas de tendencia a una única serie de gráficos?
 
- Sí, puedes agregar varias líneas de tendencia a una sola serie de gráficos. Simplemente llame al`getTrendLines().add()` método para cada línea de tendencia que desee agregar.
+ Sí, puedes agregar varias líneas de tendencia a una sola serie de gráficos. Simplemente llama al`getTrendLines().add()` método para cada línea de tendencia que desee agregar.
 
 ### ¿Cómo elimino una línea de tendencia de un gráfico en Aspose.Slides para Java?
 

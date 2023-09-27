@@ -39,7 +39,7 @@ Sobald Sie Ihre Präsentation fertig haben, ist es an der Zeit, ein Diagramm hin
 // Zugriff auf die erste Folie
 ISlide slide = pres.getSlides().get_Item(0);
 
-//Beispieldiagramm hinzufügen
+// Beispieldiagramm hinzufügen
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 ```
 
@@ -161,7 +161,7 @@ try
 {
 	// Zugriff auf die erste Folie
 	ISlide slide = pres.getSlides().get_Item(0);
-	//Beispieldiagramm hinzufügen
+	// Beispieldiagramm hinzufügen
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
 	// Festlegen des Diagrammtitels
 	chart.setTitle(true);

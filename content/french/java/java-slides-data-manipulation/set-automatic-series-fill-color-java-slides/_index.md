@@ -71,7 +71,7 @@ Ce code garantit que la couleur de remplissage de la série est définie sur aut
 Pour enregistrer la présentation, utilisez le code suivant :
 
 ```java
-// Écrire le fichier de présentation sur le disque
+//Écrire le fichier de présentation sur le disque
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	// Écrire le fichier de présentation sur le disque
+	//Écrire le fichier de présentation sur le disque
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

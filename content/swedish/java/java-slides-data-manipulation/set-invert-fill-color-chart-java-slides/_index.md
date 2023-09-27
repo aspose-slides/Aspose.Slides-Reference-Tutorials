@@ -10,7 +10,7 @@ url: /sv/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 
 ## Introduktion till att ställa in inverterat fyllningsfärgdiagram i Java Slides
 
-I den här handledningen kommer vi att visa hur man ställer in den inverterade fyllningsfärgen för ett diagram i Java Slides med Aspose.Slides för Java. Invertering av fyllningsfärg är en användbar funktion när du vill markera negativa värden i ett diagram med en specifik färg. Vi kommer att tillhandahålla steg-för-steg-instruktioner och källkod för att uppnå detta.
+den här handledningen kommer vi att visa hur man ställer in den inverterade fyllningsfärgen för ett diagram i Java Slides med Aspose.Slides för Java. Invertering av fyllningsfärg är en användbar funktion när du vill markera negativa värden i ett diagram med en specifik färg. Vi kommer att tillhandahålla steg-för-steg-instruktioner och källkod för att uppnå detta.
 
 ## Förutsättningar
 
@@ -136,7 +136,7 @@ I det här avsnittet kommer vi att ta upp några vanliga frågor relaterade till
 
 ### Kan jag anpassa färgen för inverterad fyllning i diagramserien?
 
- Ja, du kan anpassa färgen för den inverterade fyllningen i diagramserien. I det medföljande kodexemplet är`series.getInvertedSolidFillColor().setColor(Color.RED)` linje ställer in färgen till röd för den inverterade fyllningen. Du kan byta ut`Color.RED` med valfri annan färg.
+Ja, du kan anpassa färgen för den inverterade fyllningen i diagramserien. I det medföljande kodexemplet är`series.getInvertedSolidFillColor().setColor(Color.RED)` linje ställer in färgen till röd för den inverterade fyllningen. Du kan byta ut`Color.RED` med valfri annan färg.
 
 ### Hur kan jag ändra diagramtypen i Aspose.Slides för Java?
 
@@ -144,7 +144,7 @@ I det här avsnittet kommer vi att ta upp några vanliga frågor relaterade till
 
 ### Hur lägger jag till flera dataserier i ett diagram?
 
- För att lägga till flera dataserier till ett diagram kan du använda`chart.getChartData().getSeries().add(...)`metod för varje serie du vill lägga till. Se till att tillhandahålla lämpliga datapunkter och etiketter för varje serie för att fylla ditt diagram med flera serier.
+ För att lägga till flera dataserier till ett diagram kan du använda`chart.getChartData().getSeries().add(...)` metod för varje serie du vill lägga till. Se till att tillhandahålla lämpliga datapunkter och etiketter för varje serie för att fylla ditt diagram med flera serier.
 
 ### Finns det något sätt att anpassa andra aspekter av diagrammets utseende?
 

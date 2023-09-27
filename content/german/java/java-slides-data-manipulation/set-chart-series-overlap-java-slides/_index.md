@@ -76,7 +76,7 @@ try
 		// Serienüberlappung einstellen
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	// Schreiben Sie die Präsentationsdatei auf die Festplatte
+	//Schreiben Sie die Präsentationsdatei auf die Festplatte
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

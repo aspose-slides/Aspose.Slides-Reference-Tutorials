@@ -14,7 +14,7 @@ Välkommen till en värld av dynamisk presentationsmanipulation med Aspose.Slide
 ## Självstudier för bildåtkomst och manipulation
 ### [Få åtkomst till bilder i Aspose.Slides](./accessing-slides/)
 Lär dig hur du kommer åt och manipulerar PowerPoint-bilder programmatiskt med Aspose.Slides för .NET. Den här steg-för-steg-guiden täcker inläsning, ändring och lagring av presentationer, tillsammans med exempel på källkod.
-### [Få tillgång till Slide med unik identifierare](./access-slide-by-id/)
+### [Få åtkomst till Slide av Unique Identifier](./access-slide-by-id/)
 Lär dig hur du kommer åt PowerPoint-bilder med unika identifierare med Aspose.Slides för .NET. Den här steg-för-steg-guiden täcker inläsning av presentationer, åtkomst till bilder efter index eller ID, modifiering av innehåll och spara ändringar.
 ### [Få åtkomst till Slide by Sequential Index](./access-slide-by-index/)
 Lär dig hur du kommer åt bilder genom sekventiellt index med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med källkod för att enkelt navigera och manipulera PowerPoint-presentationer.

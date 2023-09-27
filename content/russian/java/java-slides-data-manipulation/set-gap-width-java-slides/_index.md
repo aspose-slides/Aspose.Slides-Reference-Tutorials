@@ -14,7 +14,7 @@ url: /ru/java/data-manipulation/set-gap-width-java-slides/
 
 ## Предварительные условия
 
-Прежде чем начать, убедитесь, что у вас установлена библиотека Aspose.Slides for Java. Вы можете скачать его с сайта Aspose.[здесь](https://releases.aspose.com/slides/java/).
+ Прежде чем начать, убедитесь, что у вас установлена библиотека Aspose.Slides for Java. Вы можете скачать его с сайта Aspose.[здесь](https://releases.aspose.com/slides/java/).
 
 ## Пошаговое руководство
 
@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Получите книгу данных диаграммы.
 
 ```java
-// Получение листа данных диаграммы
+//Получение листа данных диаграммы
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Установка индекса таблицы данных диаграммы
 int defaultWorksheetIndex = 0;
-// Получение листа данных диаграммы
+//Получение листа данных диаграммы
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Добавить серию
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -149,7 +149,7 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ### Как изменить значение ширины зазора?
 
- Чтобы изменить ширину зазора, используйте`setGapWidth` метод на`ParentSeriesGroup` серии диаграмм. В приведенном примере мы установили ширину зазора на 50, но вы можете настроить это значение на желаемый интервал.
+ Чтобы изменить ширину зазора, используйте`setGapWidth` метод на`ParentSeriesGroup`серии диаграмм. В приведенном примере мы установили ширину зазора на 50, но вы можете настроить это значение на желаемый интервал.
 
 ### Могу ли я настроить другие свойства диаграммы?
 

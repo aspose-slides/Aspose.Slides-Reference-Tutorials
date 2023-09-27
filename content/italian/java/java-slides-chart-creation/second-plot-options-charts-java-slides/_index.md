@@ -46,7 +46,7 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPie
 // Dividi la torta in percentuale
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-//Imposta la posizione della divisione
+// Imposta la posizione della divisione
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
@@ -84,11 +84,11 @@ In questo tutorial, abbiamo imparato come aggiungere opzioni di secondo grafico 
 
 ### Come posso modificare la dimensione della seconda torta in un grafico a torta?
 
- Per modificare la dimensione della seconda torta in un grafico a torta, utilizzare il comando`setSecondPieSize` metodo come mostrato nell'esempio di codice sopra. Regola il valore per specificare la dimensione in percentuale.
+ Per modificare la dimensione della seconda torta in un grafico a torta, utilizzare il comando`setSecondPieSize` metodo come mostrato nell'esempio di codice precedente. Regola il valore per specificare la dimensione in percentuale.
 
 ###  Cosa fa`PieSplitBy` control in a Pie of Pie chart?
 
- IL`PieSplitBy` La proprietà controlla il modo in cui viene suddiviso il grafico a torta. Puoi impostarlo su entrambi`PieSplitType.ByPercentage` O`PieSplitType.ByValue` per dividere il grafico rispettivamente in percentuale o in base a un valore specifico.
+ IL`PieSplitBy`La proprietà controlla il modo in cui viene suddiviso il grafico a torta. Puoi impostarlo su entrambi`PieSplitType.ByPercentage` O`PieSplitType.ByValue` per dividere il grafico rispettivamente in percentuale o in base a un valore specifico.
 
 ### Come posso impostare la posizione della divisione in un grafico a torta?
 

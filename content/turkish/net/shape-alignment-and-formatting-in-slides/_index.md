@@ -10,7 +10,7 @@ url: /tr/net/shape-alignment-and-formatting-in-slides/
 
 ## giriiş
 
-Şekil hizalama ve biçimlendirmeye adanmış Aspose.Slides eğitimlerinin dünyasına hoş geldiniz! Bu eğitim serisi, .NET geliştiricilerine slaytları hassas bir şekilde işlemek ve tasarlamak için gereken bilgi ve becerileri sağlamak üzere tasarlanmıştır. İster görsel olarak çekici sunumlar oluşturuyor olun ister karmaşık diyagramlar hazırlıyor olun, şekil hizalama ve biçimlendirme konusunda uzmanlaşmak, gösterişli ve profesyonel bir görünüm elde etmek için çok önemlidir.
+Şekil hizalama ve biçimlendirmeye adanmış Aspose.Slides eğitimlerinin dünyasına hoş geldiniz! Bu eğitim serisi, .NET geliştiricilerine slaytları hassas bir şekilde işlemek ve tasarlamak için gereken bilgi ve becerileri sağlamak üzere tasarlanmıştır. İster görsel açıdan çekici sunumlar oluşturuyor olun ister karmaşık diyagramlar hazırlıyor olun, şekil hizalama ve biçimlendirme konusunda uzmanlaşmak, gösterişli ve profesyonel bir görünüm elde etmek için çok önemlidir.
 
 ## Şekil Hizalama ve Formatlama Neden Önemlidir?
 

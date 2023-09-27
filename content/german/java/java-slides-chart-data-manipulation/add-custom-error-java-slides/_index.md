@@ -98,7 +98,7 @@ try
 {
 	// Erstellen eines Blasendiagramms
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	//Hinzufügen benutzerdefinierter Fehlerbalken und Festlegen des Formats
+	// Hinzufügen benutzerdefinierter Fehlerbalken und Festlegen des Formats
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
