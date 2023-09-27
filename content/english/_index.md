@@ -46,14 +46,14 @@ These are links to some useful resources:
 
 Aspose.Slides for Java is a game-changer for developers seeking to create dynamic and engaging presentations in Java applications. Our tutorials will be your trusted companions on this exciting journey, helping you unlock the full potential of this remarkable API. So, what are you waiting for? Dive into the tutorials, and let your creativity shine with Aspose.Slides for Java!
 
-- [Java Slides Licensing and Initialization](./java/java-slides-licensing-and-initialization)
-- [Java Slides Chart Data Manipulation](./java/java-slides-chart-data-manipulation)
-- [Java Slides Customization and Formatting](./java/java-slides-customization-and-formatting)
-- [Java Slides Animation and Layout](./java/java-slides-animation-and-layout)
-- [Java Slides Chart Elements](./java/java-slides-chart-elements)
-- [Java Slides Chart Creation](./java/java-slides-chart-creation)
-- [Java Slides Presentation Conversion](./java/java-slides-presentation-conversion)
-- [Java Slides Data Manipulation](./java/java-slides-data-manipulation)
+- [Java Slides Licensing and Initialization](./java/licensing-and-initialization)
+- [Java Slides Chart Data Manipulation](./java/chart-data-manipulation)
+- [Java Slides Customization and Formatting](./java/customization-and-formatting)
+- [Java Slides Animation and Layout](./java/animation-and-layout)
+- [Java Slides Chart Elements](./java/chart-elements)
+- [Java Slides Chart Creation](./java/chart-creation)
+- [Java Slides Presentation Conversion](./java/presentation-conversion)
+- [Java Slides Data Manipulation](./java/data-manipulation)
 - [Java Slides Additional Utilities](./java/additional-utilities/)
 - [Java Slides Presentation Properties](./java/presentation-properties/)
 - [Java Slides Media Controls](./java/media-controls/)

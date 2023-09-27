@@ -7,8 +7,6 @@ type: docs
 weight: 24
 url: /java/document-protection/
 ---
-# Java Slides Document Protection Using Aspose.Slides For Java Tutorials Listing
-
 In the ever-evolving world of digital documents, ensuring the security and integrity of your content is paramount. Java Slides documents are no exception to this rule, and that's where Aspose.Slides for Java comes to the rescue. In this comprehensive guide, we'll walk you through the essential tutorials for document protection using Aspose.Slides for Java.
 
 ## Why Document Protection Matters
