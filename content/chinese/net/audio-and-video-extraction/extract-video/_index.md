@@ -2,7 +2,7 @@
 title: 从幻灯片中提取视频
 linktitle: 从幻灯片中提取视频
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中掌握视频提取。请按照我们的代码示例指南进行操作。
+description: 使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中掌握视频提取。请遵循我们的代码示例指南。
 type: docs
 weight: 14
 url: /zh/net/audio-and-video-extraction/extract-video/

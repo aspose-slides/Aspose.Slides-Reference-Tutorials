@@ -49,7 +49,7 @@ Layoutbilder är fördesignade mallar som definierar placering och formatering a
 Att lägga till en layoutbild till din presentation innebär att du skapar en ny bild med en specifik layout. Så här kan du lägga till en titelbildslayout till din presentation:
 
 ```csharp
-// Lägg till en bild med Title Slide-layout
+// Lägg till en bild med titelbildslayout
 ISlide slide = presentation.Slides.AddEmptySlide(presentation.LayoutSlides.GetByType(SlideLayoutType.TitleSlide));
 ```
 

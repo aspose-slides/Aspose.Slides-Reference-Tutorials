@@ -59,7 +59,7 @@ transition.Speed = TransitionSpeed.Medium; // Définir la vitesse de transition
 Vous pouvez personnaliser davantage les paramètres de transition en fonction de votre style de présentation. Voici quelques paramètres supplémentaires que vous pouvez ajuster :
 
 - Direction : contrôlez la direction de la transition, par exemple gauche, droite, haut ou bas.
-- Effet sonore : Ajoutez un effet sonore pour accompagner la transition.
+- Effet sonore : ajoutez un effet sonore pour accompagner la transition.
 - Avancer au clic : Déterminez si la transition avance au clic de la souris.
 
 Voici un exemple de personnalisation du sens de la transition :

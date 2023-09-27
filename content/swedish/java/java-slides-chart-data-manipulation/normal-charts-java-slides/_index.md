@@ -69,7 +69,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Ställa in index för diagramdatabladet
 int defaultWorksheetIndex = 0;
 
-// Hämta arbetsbladet för diagramdata
+//Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Ta bort standardgenererade serier och kategorier
@@ -170,7 +170,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Ställa in index för diagramdatabladet
 int defaultWorksheetIndex = 0;
-// Hämta arbetsbladet för diagramdata
+//Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Ta bort standardgenererade serier och kategorier
 chart.getChartData().getSeries().clear();
@@ -202,7 +202,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 // Ställa in fyllnadsfärg för serier
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-//Den första etiketten kommer att visa Kategorinamn
+//Första etiketten kommer att visa Kategorinamn
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();

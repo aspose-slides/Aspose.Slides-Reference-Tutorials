@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Festlegen des Index des Diagrammdatenblatts
 int defaultWorksheetIndex = 0;
 
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Ändern Sie die Namen der Diagrammkategorien
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Festlegen des Index des Diagrammdatenblatts
 int defaultWorksheetIndex = 0;
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Ändern des Namens der Diagrammkategorie
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");

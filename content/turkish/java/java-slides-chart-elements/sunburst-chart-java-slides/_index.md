@@ -14,7 +14,7 @@ Bu eğitimde Aspose.Slides for Java API'sini kullanarak PowerPoint sunumunda Sun
 
 ## Önkoşullar
 
-Başlamadan önce Java projenizde Aspose.Slides for Java kütüphanesinin kurulu ve yapılandırılmış olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+ Başlamadan önce Java projenizde Aspose.Slides for Java kütüphanesinin kurulu ve yapılandırılmış olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
 
 ## 1. Adım: Gerekli Kitaplıkları İçe Aktarın
 

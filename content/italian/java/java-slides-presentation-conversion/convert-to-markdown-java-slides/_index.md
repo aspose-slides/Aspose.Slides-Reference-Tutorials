@@ -21,7 +21,7 @@ Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
 ## Passaggio 1: importa la libreria Aspose.Slides
 
-Innanzitutto, devi importare la libreria Aspose.Slides nel tuo progetto Java. Puoi farlo aggiungendo la seguente dipendenza Maven a quella del tuo progetto`pom.xml` file:
+ Innanzitutto, devi importare la libreria Aspose.Slides nel tuo progetto Java. Puoi farlo aggiungendo la seguente dipendenza Maven a quella del tuo progetto`pom.xml` file:
 
 ```xml
 <dependency>

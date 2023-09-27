@@ -63,7 +63,7 @@ using (Presentation pres = new Presentation(presentationFileName))
 }
 ```
 
- I det här kodavsnittet laddar vi källpresentationen, skapar XAML-konverteringsalternativ och definierar en anpassad utdatasparande tjänst med`NewXamlSaver`Vi sparar sedan XAML-filerna till den angivna utdatakatalogen.
+ I det här kodavsnittet laddar vi källpresentationen, skapar XAML-konverteringsalternativ och definierar en anpassad utdatasparande tjänst med`NewXamlSaver`. Vi sparar sedan XAML-filerna till den angivna utdatakatalogen.
 
 ## Steg 3: Anpassad XAML Saver Class
 
@@ -110,6 +110,6 @@ Aspose.Slides för .NET är ett .NET-bibliotek för att arbeta med PowerPoint-pr
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 5. ### Var kan jag få support för Aspose.Slides för .NET?
-Du kan hitta stöd och samhällsdiskussioner[här](https://forum.aspose.com/).
+ Du kan hitta stöd och samhällsdiskussioner[här](https://forum.aspose.com/).
 
- För fler handledningar och resurser, besök[Aspose.Slides API dokumentation](https://reference.aspose.com/slides/net/).
+För fler handledningar och resurser, besök[Aspose.Slides API dokumentation](https://reference.aspose.com/slides/net/).

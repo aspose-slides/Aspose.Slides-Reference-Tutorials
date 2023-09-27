@@ -14,7 +14,7 @@ En este tutorial, aprenderá cómo crear un gráfico Sunburst en una presentaci�
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/java/).
+ Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/java/).
 
 ## Paso 1: importar las bibliotecas necesarias
 

@@ -14,7 +14,7 @@ Aspose.Slides ist eine leistungsstarke .NET-Bibliothek, die es Entwicklern ermö
 
 ## Einrichten der Umgebung
 
-Bevor Sie mit der Implementierung beginnen, stellen Sie sicher, dass Aspose.Slides für .NET installiert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/net).
+ Bevor Sie mit der Implementierung beginnen, stellen Sie sicher, dass Aspose.Slides für .NET installiert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/net).
 
 Erstellen Sie nach der Installation der Bibliothek ein neues .NET-Projekt in Ihrer bevorzugten Entwicklungsumgebung.
 
@@ -32,7 +32,7 @@ Presentation presentation = new Presentation();
 // Fügen Sie eine Folie hinzu
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Fügen Sie der Folie ein Diagramm hinzu
+//Fügen Sie der Folie ein Diagramm hinzu
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 
 // Fügen Sie Daten zum Diagramm hinzu

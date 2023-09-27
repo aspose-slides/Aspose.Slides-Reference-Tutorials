@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
 
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Varsayılan oluşturulan serileri ve kategorileri silin
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Varsayılan oluşturulan serileri ve kategorileri silin
 chart.getChartData().getSeries().clear();
@@ -195,7 +195,7 @@ IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1,
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Yeni versiyonda çalışmıyor
+//Yeni sürümde çalışmıyor
 // Yeni noktalar ekleme ve sektör rengini ayarlama
 // series.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);

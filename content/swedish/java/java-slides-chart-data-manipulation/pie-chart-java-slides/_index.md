@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Ställa in index för diagramdatabladet
 int defaultWorksheetIndex = 0;
 
-// Hämta arbetsbladet för diagramdata
+//Hämta arbetsbladet för diagramdata
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Ta bort standardgenererade serier och kategorier
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Ställa in index för diagramdatabladet
 int defaultWorksheetIndex = 0;
-// Hämta arbetsbladet för diagramdata
+//Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Ta bort standardgenererade serier och kategorier
 chart.getChartData().getSeries().clear();

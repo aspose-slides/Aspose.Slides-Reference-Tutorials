@@ -47,7 +47,7 @@ Ora popoleremo il grafico con i dati. Inizieremo eliminando le serie e le catego
 ```java
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
-// Ottenere il foglio di lavoro con i dati del grafico
+//Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Elimina le serie e le categorie generate predefinite
 chart.getChartData().getSeries().clear();
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Impostazione dell'indice della scheda grafica
 	int defaultWorksheetIndex = 0;
-	// Ottenere il foglio di lavoro con i dati del grafico
+	//Ottenere il foglio di lavoro con i dati del grafico
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Elimina le serie e le categorie generate predefinite
 	chart.getChartData().getSeries().clear();

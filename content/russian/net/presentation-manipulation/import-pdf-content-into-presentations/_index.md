@@ -2,7 +2,7 @@
 title: Импортируйте PDF-контент в презентации
 linktitle: Импортируйте PDF-контент в презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
-description: Узнайте, как легко импортировать содержимое PDF в презентации с помощью Aspose.Slides для .NET. Это пошаговое руководство с исходным кодом поможет вам улучшить ваши презентации за счет интеграции внешнего PDF-содержимого.
+description: Узнайте, как легко импортировать содержимое PDF в презентации с помощью Aspose.Slides для .NET. Это пошаговое руководство с исходным кодом поможет вам улучшить ваши презентации за счет интеграции внешнего PDF-контента.
 type: docs
 weight: 24
 url: /ru/net/presentation-manipulation/import-pdf-content-into-presentations/

@@ -74,7 +74,7 @@ pres.save(outPath, SaveFormat.Pptx);
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // İlk serinin lebellerini edinin
             IDataLabelCollection labels = series.get_Item(0).getLabels();
-            //Koleksiyondaki tüm öncü çizgilerin rengini değiştirin
+            // Koleksiyondaki tüm öncü çizgilerin rengini değiştirin
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
             // Sonucu kaydet
             pres.save(outPath, SaveFormat.Pptx);

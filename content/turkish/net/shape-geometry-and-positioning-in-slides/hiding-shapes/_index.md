@@ -132,7 +132,7 @@ Bir şeklin gizlenmesini sağlamak için görünürlük özelliğini şu şekild
 
 Evet, Aspose.Slides'ın animasyon özelliklerini kullanarak gizli şekillere animasyonlar ekleyebilirsiniz.
 
-### Gizleyebileceğim şekil sayısında bir sınırlama var mı?
+### Gizleyebileceğim şekil sayısında bir sınır var mı?
 
 Sabit bir sınır yoktur ancak aşırı gizli şekillerin sunum performansını etkileyebileceğini unutmayın.
 

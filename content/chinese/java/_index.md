@@ -51,3 +51,15 @@ is_root: true
 了解如何使用 Aspose.Slides for Java 轻松转换 Java 幻灯片演示文稿。全面的教程和分步指南等待着您。
 ### [Java 幻灯片数据操作](./data-manipulation/)
 通过 Aspose.Slides for Java 教程增强您的 Java Slides 数据操作技能。逐步学习如何高效地创建、编辑和转换演示文稿。
+### [Java Slides 附加实用程序](./additional-utilities/)
+使用 Aspose.Slides for Java 教程发现 Java Slides 的其他实用程序。通过强大的功能提升您的演示文稿。立即探索！
+### [Java 幻灯片演示文稿属性](./presentation-properties/)
+了解如何通过 Aspose.Slides for Java 教程增强 Java 幻灯片演示属性。了解动态演示的提示和技巧。
+### [Java 幻灯片媒体控件](./media-controls/)
+了解如何使用 Aspose.Slides for Java 教程在 Java 幻灯片中实现媒体控件。通过音频和视频无缝增强您的演示文稿。
+### [Java 幻灯片图像处理](./image-handling/)
+了解如何使用 Aspose.Slides for Java 教程处理 Java 幻灯片中的图像。探索高效图像管理的分步指南。
+### [Java 幻灯片文档保护](./document-protection/)
+了解如何使用 Aspose.Slides 增强 Java Slides 文档的安全性。探索文档保护的分步教程。
+### [Java 幻灯片保存选项](./saving-options/)
+了解有关 Aspose.Slides for Java 的 Java 幻灯片保存选项。探索全面的教程和指南，以实现高效的幻灯片管理和自定义。

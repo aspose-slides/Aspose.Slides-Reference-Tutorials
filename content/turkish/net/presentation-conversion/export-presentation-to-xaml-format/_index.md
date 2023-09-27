@@ -63,7 +63,7 @@ using (Presentation pres = new Presentation(presentationFileName))
 }
 ```
 
- Bu kod parçacığında kaynak sunumunu yüklüyoruz, XAML dönüştürme seçeneklerini oluşturuyoruz ve kullanarak özel bir çıktı kaydetme hizmeti tanımlıyoruz.`NewXamlSaver`Daha sonra XAML dosyalarını belirtilen çıktı dizinine kaydediyoruz.
+ Bu kod parçacığında kaynak sunumunu yüklüyoruz, XAML dönüştürme seçeneklerini oluşturuyoruz ve kullanarak özel bir çıktı kaydetme hizmeti tanımlıyoruz.`NewXamlSaver`. Daha sonra XAML dosyalarını belirtilen çıktı dizinine kaydediyoruz.
 
 ## 3. Adım: Özel XAML Tasarruf Sınıfı
 
@@ -110,6 +110,6 @@ Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışmaya 
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 5. ### Aspose.Slides for .NET için nereden destek alabilirim?
-Destek ve topluluk tartışmalarını bulabilirsiniz[Burada](https://forum.aspose.com/).
+ Destek ve topluluk tartışmalarını bulabilirsiniz[Burada](https://forum.aspose.com/).
 
- Daha fazla eğitim ve kaynak için şu adresi ziyaret edin:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/).
+Daha fazla eğitim ve kaynak için şu adresi ziyaret edin:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/).

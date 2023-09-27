@@ -43,7 +43,7 @@ class Program
 }
 ```
 
-## Aggiunta di contenuto alle diapositive
+## Aggiunta di contenuti alle diapositive
 
 Successivamente, aggiungiamo contenuto alle diapositive prima di implementare la funzionalità di zoom. Puoi aggiungere testo, immagini, forme e altri elementi per rendere la tua presentazione visivamente accattivante.
 

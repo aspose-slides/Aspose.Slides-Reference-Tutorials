@@ -43,7 +43,7 @@ pdfOptions.Password = "password";
 
 ## Passaggio 4: salva come PDF protetto da password
 
- Ora sei pronto per salvare la tua presentazione come PDF protetto da password. Sostituire`"Your Output Directory"` con il percorso in cui desideri salvare il PDF e`"PasswordProtectedPDF_out.pdf"`con il nome del file di output desiderato.
+ Ora sei pronto per salvare la tua presentazione come PDF protetto da password. Sostituire`"Your Output Directory"` con il percorso in cui desideri salvare il PDF e`"PasswordProtectedPDF_out.pdf"` con il nome del file di output desiderato.
 
 ```csharp
 string outPath = "Your Output Directory";
@@ -70,7 +70,7 @@ Sì, puoi aggiungere filigrane ai PDF protetti da password utilizzando Aspose.Sl
 
 Assolutamente! È possibile creare una funzione o uno script per automatizzare il processo di conversione delle presentazioni in PDF protetti da password utilizzando Aspose.Slides per .NET.
 
-### PDF protetti da password sono sicuri?
+### I PDF protetti da password sono sicuri?
 
 Sì, i PDF protetti da password offrono un livello di sicurezza più elevato poiché richiedono una password per essere aperti. Ciò garantisce che solo le persone autorizzate possano accedere al contenuto.
 

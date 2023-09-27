@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Wir fügen dem Diagramm Daten hinzu, indem wir Reihen und Datenpunkte erstellen. In diesem Beispiel fügen wir zwei Reihen mit ihren jeweiligen Datenpunkten hinzu.
 
 ```java
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Neue Serie hinzufügen
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Neue Serie hinzufügen
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

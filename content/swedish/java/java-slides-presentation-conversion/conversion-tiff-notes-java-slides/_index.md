@@ -25,7 +25,7 @@ För att komma igång, skapa ett nytt Java-projekt och lägg till Aspose.Slides-
 
 ## Steg 2: Laddar presentationen
 
- det här steget laddar du presentationsfilen som du vill konvertera till TIFF-format. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil.
+ I det här steget laddar du presentationsfilen som du vill konvertera till TIFF-format. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,7 +71,7 @@ Grattis! Du har framgångsrikt konverterat en Java Slides-presentation till TIFF
 
 ### Hur kan jag ändra utdatafilformatet till något annat än TIFF?
 
- Du kan ändra utdataformatet genom att ändra`SaveFormat` parametern i`presentation.save`metod. Aspose.Slides för Java stöder olika format, inklusive PDF, PPTX och mer.
+ Du kan ändra utdataformatet genom att ändra`SaveFormat` parametern i`presentation.save` metod. Aspose.Slides för Java stöder olika format, inklusive PDF, PPTX och mer.
 
 ### Är Aspose.Slides för Java kompatibel med olika Java-versioner?
 

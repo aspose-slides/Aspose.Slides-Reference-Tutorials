@@ -14,7 +14,7 @@ In questo tutorial esploreremo come convalidare il layout del grafico in una pre
 
 ## Passaggio 1: inizializzazione della presentazione
 
- Innanzitutto, dobbiamo inizializzare un oggetto di presentazione e caricare una presentazione PowerPoint esistente. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione (`test.pptx` in questo esempio).
+Innanzitutto, dobbiamo inizializzare un oggetto di presentazione e caricare una presentazione PowerPoint esistente. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione (`test.pptx` in questo esempio).
 
 ```java
 // Il percorso della directory dei documenti.

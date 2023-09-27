@@ -8,7 +8,7 @@ weight: 11
 url: /de/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
 
-Haben Sie sich jemals gefragt, wie Sie Miniaturbilder aus Folien in Ihren PowerPoint-Präsentationen erstellen können? Die Erstellung von Miniaturansichten ist eine wertvolle Funktion, wenn Sie eine schnelle Vorschau Ihrer Folien bereitstellen möchten, ohne die gesamte Präsentation anzeigen zu müssen. In diesem Artikel führen wir Sie durch den Prozess der Generierung von Miniaturansichten aus Folien mithilfe der Aspose.Slides-API für .NET. Egal, ob Sie Entwickler oder neugieriger Lernender sind, diese Schritt-für-Schritt-Anleitung hilft Ihnen dabei, die Leistungsfähigkeit von Aspose.Slides zu nutzen, um Ihre Anwendungen zu verbessern.
+Haben Sie sich jemals gefragt, wie Sie Miniaturbilder aus Folien in Ihren PowerPoint-Präsentationen erstellen können? Die Erstellung von Miniaturansichten ist eine wertvolle Funktion, wenn Sie eine schnelle Vorschau Ihrer Folien bereitstellen möchten, ohne die gesamte Präsentation anzeigen zu müssen. In diesem Artikel führen wir Sie durch den Prozess der Generierung von Miniaturansichten aus Folien mithilfe der Aspose.Slides-API für .NET. Egal, ob Sie Entwickler oder neugieriger Lernender sind, diese Schritt-für-Schritt-Anleitung hilft Ihnen, die Leistungsfähigkeit von Aspose.Slides zu nutzen, um Ihre Anwendungen zu verbessern.
 
 ## Voraussetzungen
 

@@ -31,7 +31,7 @@ Aggiungi diapositive alla presentazione:
 ISlide slide = presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
 ```
 
-## Aggiunta di contenuto alle diapositive
+## Aggiunta di contenuti alle diapositive
 
 Puoi aggiungere vari tipi di contenuto, come testo e immagini, alle tue diapositive. Per aggiungere testo:
 

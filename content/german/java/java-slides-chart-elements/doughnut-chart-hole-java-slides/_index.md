@@ -8,7 +8,7 @@ weight: 11
 url: /de/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
 
-## Einführung in das Donut-Diagramm mit einem Loch in Java-Folien
+## Einführung in das Donut-Diagramm mit Loch in Java-Folien
 
 In diesem Tutorial führen wir Sie durch die Erstellung eines Donut-Diagramms mit einem Loch mit Aspose.Slides für Java. Diese Schritt-für-Schritt-Anleitung führt Sie anhand von Quellcode-Beispielen durch den Prozess.
 

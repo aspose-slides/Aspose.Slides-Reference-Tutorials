@@ -100,7 +100,7 @@ presentation.Save("CustomErrorValuesChart.pptx", SaveFormat.Pptx);
 ```csharp
 // تخصيص مظهر شريط الخطأ
 errorBarsFormat.LineFormat.Width = 2; // ضبط عرض الخط
-errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; //ضبط لون الخط
+errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; // ضبط لون الخط
 
 // احفظ العرض التقديمي المحدث
 presentation.Save("StyledErrorBarsChart.pptx", SaveFormat.Pptx);

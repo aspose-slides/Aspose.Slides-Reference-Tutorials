@@ -21,7 +21,7 @@ Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
 ## Paso 1: configurar su proyecto
 
-Primero, cree un nuevo proyecto Java en su entorno de desarrollo integrado (IDE) preferido. Asegúrese de incluir la biblioteca Aspose.Slides para Java en la ruta de clase de su proyecto.
+Primero, cree un nuevo proyecto Java en su entorno de desarrollo integrado (IDE) preferido. Asegúrese de incluir la biblioteca Aspose.Slides para Java en la ruta de clases de su proyecto.
 
 ## Paso 2: Importe los paquetes necesarios
 

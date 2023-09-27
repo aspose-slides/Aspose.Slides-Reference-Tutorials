@@ -108,7 +108,7 @@ Düzen slaytları öncelikli olarak tasarıma odaklanırken, hedef kitlenizin il
 
 ## Adım 13: Vaka Çalışması: Gerçek Dünya Örneği
 
-Bir satış konuşması hazırladığınız bir senaryoyu düşünün. Slayt düzeni ekleyerek her slaydın tutarlı bir yapı izlemesini sağlayarak izleyicilerinizin bilgiyi kavramasını kolaylaştırabilirsiniz. Bu, daha etkili bir sunuma ve mesajınızın daha iyi iletilmesine yol açar.
+Bir satış konuşması hazırladığınız bir senaryoyu düşünün. Düzen slaytlarını dahil ederek, her slaytın tutarlı bir yapı izlemesini sağlayarak izleyicilerinizin bilgileri kavramasını kolaylaştırabilirsiniz. Bu, daha etkili bir sunuma ve mesajınızın daha iyi iletilmesine yol açar.
 
 ## Adım 14: Yaygın Sorunları Giderme
 

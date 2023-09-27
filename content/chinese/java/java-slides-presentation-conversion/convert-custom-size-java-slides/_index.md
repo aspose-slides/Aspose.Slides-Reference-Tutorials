@@ -128,7 +128,7 @@ finally
 
 ### TIFF 图像中的注释位置有哪些可用选项？
 
-TIFF 图像中的注释位置可以使用以下命令进行配置`setNotesPosition`方法，具有 BottomFull、BottomTruncated 和 SlideOnly 等选项。选择最适合您需求的一种。
+ TIFF 图像中的注释位置可以使用以下命令进行配置`setNotesPosition`方法，具有 BottomFull、BottomTruncated 和 SlideOnly 等选项。选择最适合您需求的一种。
 
 ### 是否可以为 TIFF 转换指定自定义图像尺寸？
 

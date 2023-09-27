@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Förhandsgranska utskrifter
 
- För att förhandsgranska utskriften av presentationen kan du använda`Print`metod som tillhandahålls av`PrintManager` klass. Med den här metoden kan du skapa en förhandsgranskningsbild av presentationen. Så här kan du göra det:
+ För att förhandsgranska utskriften av presentationen kan du använda`Print` metod som tillhandahålls av`PrintManager`klass. Med den här metoden kan du skapa en förhandsgranskningsbild av presentationen. Så här kan du göra det:
 
 ```csharp
 using Aspose.Slides.Export;

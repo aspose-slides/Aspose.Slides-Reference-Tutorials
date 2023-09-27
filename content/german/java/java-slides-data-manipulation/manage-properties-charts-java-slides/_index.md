@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Holen Sie sich die Diagrammdaten-Arbeitsmappe.
 
 ```java
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -115,7 +115,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 
 ## Überlappung anpassen
 
-12. Legen Sie den Überlappungswert für Serien fest. Sie können ihn beispielsweise auf 100 einstellen, damit keine Überlappung auftritt.
+12. Legen Sie den Überlappungswert für Serien fest. Sie können den Wert beispielsweise auf 100 einstellen, damit es keine Überlappung gibt.
 
 ```java
 series.getParentSeriesGroup().setOverlap((byte) 100);
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Festlegen des Index des Diagrammdatenblatts
 int defaultWorksheetIndex = 0;
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Serie hinzufügen
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());

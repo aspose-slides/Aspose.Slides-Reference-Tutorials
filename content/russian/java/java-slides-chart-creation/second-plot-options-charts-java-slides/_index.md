@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
 ```
 
-## Шаг 3. Настройте свойства диаграммы
+## Шаг 3. Настройка свойств диаграммы
 Теперь давайте установим различные свойства диаграммы, включая параметры второго графика:
 
 ```java
@@ -46,7 +46,7 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPie
 // Разделить пирог по процентам
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-//Установите положение разделения
+// Установите положение разделения
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
@@ -88,7 +88,7 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ###  Что значит`PieSplitBy` control in a Pie of Pie chart?
 
-`PieSplitBy` Свойство управляет разделением круговой диаграммы. Вы можете установить его либо`PieSplitType.ByPercentage` или`PieSplitType.ByValue` чтобы разделить диаграмму по процентам или по определенному значению соответственно.
+`PieSplitBy`Свойство управляет разделением круговой диаграммы. Вы можете установить его либо`PieSplitType.ByPercentage` или`PieSplitType.ByValue` чтобы разделить диаграмму по процентам или по определенному значению соответственно.
 
 ### Как установить положение разделения на круговой диаграмме?
 

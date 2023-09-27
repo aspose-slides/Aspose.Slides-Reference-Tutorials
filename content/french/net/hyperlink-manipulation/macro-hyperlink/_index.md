@@ -18,7 +18,7 @@ Pour commencer, assurez-vous qu’un environnement de développement intégré (
 
 ## Installation d'Aspose.Slides pour .NET
 
-Aspose.Slides for .NET est une bibliothèque robuste qui simplifie le travail avec des présentations et des diapositives. Pour l'installer, suivez ces étapes :
+Aspose.Slides pour .NET est une bibliothèque robuste qui simplifie le travail avec des présentations et des diapositives. Pour l'installer, suivez ces étapes :
 
 1. Ouvrez votre projet dans Visual Studio.
 2. Accédez à « Outils » > « Gestionnaire de packages NuGet » > « Gérer les packages NuGet pour la solution ».

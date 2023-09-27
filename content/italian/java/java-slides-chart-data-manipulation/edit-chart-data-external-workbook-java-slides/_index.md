@@ -10,7 +10,7 @@ url: /it/java/chart-data-manipulation/edit-chart-data-external-workbook-java-sli
 
 ## Introduzione alla modifica dei dati del grafico nella cartella di lavoro esterna nelle diapositive Java
 
-In questa guida, dimostreremo come modificare i dati del grafico in una cartella di lavoro esterna utilizzando Aspose.Slides per Java. Imparerai come modificare i dati del grafico all'interno di una presentazione di PowerPoint a livello di codice. Assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto.
+In questa guida, dimostreremo come modificare i dati del grafico in una cartella di lavoro esterna utilizzando Aspose.Slides per Java. Imparerai come modificare i dati del grafico all'interno di una presentazione di PowerPoint a livello di programmazione. Assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto.
 
 ## Prerequisiti
 

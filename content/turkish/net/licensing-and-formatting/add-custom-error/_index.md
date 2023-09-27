@@ -100,7 +100,7 @@ Görünürlüğünü artırmak ve grafiğinizin estetiğine uyum sağlamak için
 ```csharp
 // Hata çubuğu görünümünü özelleştirme
 errorBarsFormat.LineFormat.Width = 2; // Çizgi genişliğini ayarla
-errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; //Çizgi rengini ayarla
+errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; // Çizgi rengini ayarla
 
 // Güncellenen sunuyu kaydet
 presentation.Save("StyledErrorBarsChart.pptx", SaveFormat.Pptx);

@@ -45,7 +45,7 @@ var animations = slide.Timeline.MainSequence;
 
 ## Upprepa animationer på en bild
 
-För att upprepa animeringar klonar vi och lägger till animationerna på bilden igen. Detta kommer att skapa en loopeffekt. Så här kan du uppnå detta:
+För att upprepa animeringar klonar vi och lägger till animationerna på bilden igen. Detta kommer att skapa en loopad effekt. Så här kan du uppnå detta:
 
 ```csharp
 // Klona animationer och lägg till dem igen

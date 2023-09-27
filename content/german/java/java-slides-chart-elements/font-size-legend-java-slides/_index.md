@@ -40,7 +40,7 @@ try
 }
 ```
 
-In diesem Code erstellen wir auf der ersten Folie ein gruppiertes Säulendiagramm und legen die Schriftgröße des Legendentexts auf 20 Punkt fest. Sie können die anpassen`setFontHeight` Wert, um die Schriftgröße nach Bedarf zu ändern.
+ In diesem Code erstellen wir auf der ersten Folie ein gruppiertes Säulendiagramm und legen die Schriftgröße des Legendentexts auf 20 Punkt fest. Sie können die anpassen`setFontHeight`Wert, um die Schriftgröße nach Bedarf zu ändern.
 
 ## Schritt 3: Achsenwerte anpassen
 
@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- In diesem Code erstellen wir ein Diagramm und legen die Schriftgröße des Legendentextes auf 20 Punkt fest. Sie können die anpassen`setFontHeight` Geben Sie den Wert ein, um die Schriftgröße zu ändern.
+ In diesem Code erstellen wir ein Diagramm und legen die Schriftgröße des Legendentextes auf 20 Punkt fest. Sie können die anpassen`setFontHeight`Geben Sie den Wert ein, um die Schriftgröße zu ändern.
 
 ### Kann ich andere Eigenschaften der Legende in einem Diagramm anpassen?
 
@@ -134,4 +134,4 @@ Hier deaktivieren wir die automatische Achsenskalierung und geben die minimalen 
 
 ### Wo finde ich weitere Informationen und Dokumentation zu Aspose.Slides?
 
- Eine umfassende Dokumentation und API-Referenzen für Aspose.Slides für Java finden Sie auf der Aspose-Dokumentationswebsite. Besuchen[Hier](https://reference.aspose.com/slides/java/) Ausführliche Informationen zur Nutzung der Bibliothek finden Sie hier.
+Eine umfassende Dokumentation und API-Referenzen für Aspose.Slides für Java finden Sie auf der Aspose-Dokumentationswebsite. Besuchen[Hier](https://reference.aspose.com/slides/java/) Ausführliche Informationen zur Nutzung der Bibliothek finden Sie hier.

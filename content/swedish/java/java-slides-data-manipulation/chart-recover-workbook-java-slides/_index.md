@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Utför åtgärder på arbetsboksdata här
+    //Utför operationer på arbetsboksdata här
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ I den här guiden har vi gått igenom processen att återställa en arbetsbok fr
 
 ### Hur installerar jag Aspose.Slides för Java?
 
- Aspose.Slides för Java kan enkelt installeras genom att ladda ner biblioteket från webbplatsen på[här](https://releases.aspose.com/slides/java/)Följ installationsinstruktionerna för att integrera den i ditt Java-projekt.
+ Aspose.Slides för Java kan enkelt installeras genom att ladda ner biblioteket från webbplatsen på[här](https://releases.aspose.com/slides/java/). Följ installationsinstruktionerna för att integrera den i ditt Java-projekt.
 
 ### Kan jag återställa arbetsboksdata från vilket diagram som helst i en PowerPoint-presentation?
 

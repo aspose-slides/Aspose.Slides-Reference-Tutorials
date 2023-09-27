@@ -75,7 +75,7 @@ L'obtention d'images graphiques à partir de Java Slides à l'aide d'Aspose.Slid
 
 ### Comment installer Aspose.Slides pour Java ?
 
- L'installation d'Aspose.Slides pour Java est simple. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/java/) et suivez les instructions d'installation fournies dans la documentation.
+ L'installation d'Aspose.Slides pour Java est simple. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/java/)et suivez les instructions d'installation fournies dans la documentation.
 
 ### Puis-je personnaliser la grille avant d'obtenir son image ?
 
@@ -91,4 +91,4 @@ Oui, Aspose.Slides pour Java peut être utilisé à des fins commerciales. Il pr
 
 ### Puis-je enregistrer l’image du graphique dans un format différent ?
 
- Certainement! Vous pouvez enregistrer l'image du graphique dans différents formats, tels que JPEG ou GIF, en spécifiant l'extension de fichier appropriée dans le champ`ImageIO.write` méthode.
+Certainement! Vous pouvez enregistrer l'image du graphique dans différents formats, tels que JPEG ou GIF, en spécifiant l'extension de fichier appropriée dans le champ`ImageIO.write` méthode.

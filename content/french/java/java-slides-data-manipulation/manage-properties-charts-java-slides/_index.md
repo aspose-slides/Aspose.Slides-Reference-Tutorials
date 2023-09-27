@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Obtenez le classeur de données graphiques.
 
 ```java
-// Obtenir la feuille de calcul des données du graphique
+//Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Définition de l'index de la feuille de données du graphique
 int defaultWorksheetIndex = 0;
-// Obtenir la feuille de calcul des données du graphique
+//Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Ajouter une série
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());

@@ -87,7 +87,7 @@ finally
 
 要更改图表部分的颜色，您可以使用`setDataPointsInLegend`方法上的`IChart`对象并为每个数据点设置所需的颜色。
 
-### 我可以向圆环图段添加标签吗？
+### 我可以向圆环图分段添加标签吗？
 
 是的，您可以使用以下命令向圆环图段添加标签`setDataPointsLabelValue`方法上的`IChart`目的。
 

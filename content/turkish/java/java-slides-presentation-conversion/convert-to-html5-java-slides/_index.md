@@ -44,7 +44,7 @@ Presentation pres = new Presentation(dataDir + "Demo.pptx");
 
 ## 3. Adım: HTML5 Dönüşüm Seçeneklerini Yapılandırın
 
-HTML5 dönüşümü için çeşitli seçenekleri kullanarak yapılandırabilirsiniz.`Html5Options` sınıf. Örneğin şekil animasyonlarını ve slayt geçişlerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Bu örnekte her iki animasyonu da etkinleştireceğiz:
+ HTML5 dönüşümü için çeşitli seçenekleri kullanarak yapılandırabilirsiniz.`Html5Options`sınıf. Örneğin şekil animasyonlarını ve slayt geçişlerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Bu örnekte her iki animasyonu da etkinleştireceğiz:
 
 ```java
 Html5Options options = new Html5Options();
@@ -96,7 +96,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumunu HTML5 for
 
 ### HTML5 çıktısını nasıl daha da özelleştirebilirim?
 
- HTML5 çıktısını, seçenekleri ayarlayarak daha da özelleştirebilirsiniz.`Html5Options` sınıf. Örneğin, görsellerin kalitesini kontrol edebilir, slayt boyutunu ayarlayabilir ve daha fazlasını yapabilirsiniz.
+HTML5 çıktısını, seçenekleri ayarlayarak daha da özelleştirebilirsiniz.`Html5Options` sınıf. Örneğin, görsellerin kalitesini kontrol edebilir, slayt boyutunu ayarlayabilir ve daha fazlasını yapabilirsiniz.
 
 ### Aspose.Slides'ı kullanarak PPT veya PPTM gibi diğer PowerPoint formatlarını HTML5'e dönüştürebilir miyim?
 

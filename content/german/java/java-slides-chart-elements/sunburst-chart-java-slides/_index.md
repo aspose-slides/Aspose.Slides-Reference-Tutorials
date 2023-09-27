@@ -14,7 +14,7 @@ In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-AP
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihrem Java-Projekt installiert und konfiguriert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/java/).
+ Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihrem Java-Projekt installiert und konfiguriert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Erforderliche Bibliotheken importieren
 

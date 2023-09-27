@@ -94,7 +94,7 @@ Dans ce didacticiel, nous avons appris à convertir une présentation PowerPoint
 
 ### Comment installer Aspose.Slides pour Java ?
 
- Vous pouvez télécharger Aspose.Slides pour Java à partir de[ici](https://releases.aspose.com/slides/java/) et suivez les instructions d'installation fournies dans la documentation.
+ Vous pouvez télécharger Aspose.Slides pour Java à partir de[ici](https://releases.aspose.com/slides/java/)et suivez les instructions d'installation fournies dans la documentation.
 
 ### Puis-je également convertir des présentations PowerPoint vers d’autres formats ?
 

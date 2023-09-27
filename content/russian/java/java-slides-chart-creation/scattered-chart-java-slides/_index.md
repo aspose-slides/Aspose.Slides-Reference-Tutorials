@@ -56,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0
 // Получение индекса таблицы данных диаграммы по умолчанию
 int defaultWorksheetIndex = 0;
 
-// Получение листа данных диаграммы
+//Получение листа данных диаграммы
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Удалить демонстрационную серию
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Получение индекса таблицы данных диаграммы по умолчанию
 int defaultWorksheetIndex = 0;
-// Получение листа данных диаграммы
+//Получение листа данных диаграммы
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Удалить демонстрационную серию
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Добавить новый балл (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-// Добавить новую точку (2:2)
+//Добавить новую точку (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Добавить новую точку (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### Как изменить тип диаграммы?
 
- Чтобы изменить тип диаграммы, используйте`setType`метод для серии диаграмм и укажите желаемый тип диаграммы. Например,`series.setType(ChartType.Line)` изменит ряд на линейный график.
+ Чтобы изменить тип диаграммы, используйте`setType` метод для серии диаграмм и укажите желаемый тип диаграммы. Например,`series.setType(ChartType.Line)` изменит ряд на линейный график.
 
 ### Как настроить размер и стиль маркера?
 
@@ -169,6 +169,6 @@ series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
 
-Не стесняйтесь изучить дополнительные параметры настройки в документации Aspose.Slides for Java.
+Не стесняйтесь изучить дополнительные параметры настройки в документации Aspose.Slides для Java.
 
  Не забудьте заменить`"Your Document Directory"` с фактическим путем, по которому вы хотите сохранить презентацию.

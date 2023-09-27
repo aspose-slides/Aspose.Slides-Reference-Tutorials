@@ -32,7 +32,7 @@ import com.aspose.slides.*;
 
 ## Adım 2: PowerPoint Sunumunu Yükleyin
 
-Daha sonra, TIFF görüntüsüne dönüştürmek istediğiniz PowerPoint sunumunu yüklemeniz gerekecek. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+ Daha sonra, TIFF görüntüsüne dönüştürmek istediğiniz PowerPoint sunumunu yüklemeniz gerekecek. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
 
 ```java
 // Belgeler dizininin yolu.
@@ -94,7 +94,7 @@ try
 	// Yok - Sıkıştırma olmadığını belirtir.
 	// CCITT3
 	// CCITT4
-	//LZW
+	// LZW
 	// RLE
 	// Derinlik sıkıştırma türüne bağlıdır ve manuel olarak ayarlanamaz.
 	// Çözünürlük birimi her zaman “2”ye eşittir (inç başına nokta sayısı)
@@ -124,13 +124,13 @@ Tebrikler! Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumunu özel b
 
 ### TIFF görüntüsünün DPI'sini (inç başına nokta sayısı) ayarlayabilir miyim?
 
- Evet, DPI'yi kullanarak ayarlayabilirsiniz.`setDpiX` Ve`setDpiY` içindeki yöntemler`TiffOptions` sınıf. Görüntü çözünürlüğünü kontrol etmek için istediğiniz değerleri ayarlamanız yeterlidir.
+Evet, DPI'yi kullanarak ayarlayabilirsiniz.`setDpiX` Ve`setDpiY` içindeki yöntemler`TiffOptions` sınıf. Görüntü çözünürlüğünü kontrol etmek için istediğiniz değerleri ayarlamanız yeterlidir.
 
 ### TIFF görüntüsündeki notların konumu için mevcut seçenekler nelerdir?
 
-TIFF görüntüsündeki notların konumu,`setNotesPosition` BottomFull, BottomTruncated ve SlideOnly gibi seçeneklerle yöntem. İhtiyaçlarınıza en uygun olanı seçin.
+ TIFF görüntüsündeki notların konumu,`setNotesPosition` BottomFull, BottomTruncated ve SlideOnly gibi seçeneklerle yöntem. İhtiyaçlarınıza en uygun olanı seçin.
 
-### TIFF dönüşümü için özel bir görüntü boyutu belirlemek mümkün müdür?
+### TIFF dönüşümü için özel bir görüntü boyutu belirlemek mümkün mü?
 
  Kesinlikle! kullanarak özel bir görüntü boyutu ayarlayabilirsiniz.`setImageSize` yöntemdeki`TiffOptions` sınıf. Çıktı görüntüsü için istediğiniz boyutları (genişlik ve yükseklik) sağlayın.
 

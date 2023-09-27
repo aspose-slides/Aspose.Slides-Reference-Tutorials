@@ -100,7 +100,7 @@ Sie können Fehlerbalken so gestalten, dass sie besser sichtbar sind und zur Äs
 ```csharp
 // Passen Sie das Erscheinungsbild der Fehlerleiste an
 errorBarsFormat.LineFormat.Width = 2; // Linienstärke einstellen
-errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; //Linienfarbe festlegen
+errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; // Linienfarbe festlegen
 
 // Speichern Sie die aktualisierte Präsentation
 presentation.Save("StyledErrorBarsChart.pptx", SaveFormat.Pptx);

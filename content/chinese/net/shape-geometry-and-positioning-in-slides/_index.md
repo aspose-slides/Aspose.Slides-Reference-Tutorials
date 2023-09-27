@@ -28,7 +28,7 @@ url: /zh/net/shape-geometry-and-positioning-in-slides/
 
 ## 幻灯片教程中的形状几何和定位
 ### [使用 Aspose.Slides 格式化演示幻灯片中的线条](./formatting-lines/)
-探索如何使用 Aspose.Slides for .NET 通过精确的形状几何和定位来增强您的演示文稿。通过代码示例逐步学习。
+探索如何使用 Aspose.Slides for .NET 通过精确的形状几何和定位来增强演示文稿。通过代码示例逐步学习。
 ### [使用 Aspose.Slides 在演示文稿幻灯片中格式化椭圆形状](./formatting-ellipse-shape/)
 了解如何使用 Aspose.Slides for .NET 在幻灯片中设置椭圆形状的格式。本分步指南提供了代码示例并解答了常见问题解答。
 ### [使用 Aspose.Slides 格式化演示幻灯片中的矩形形状](./formatting-rectangle-shape/)

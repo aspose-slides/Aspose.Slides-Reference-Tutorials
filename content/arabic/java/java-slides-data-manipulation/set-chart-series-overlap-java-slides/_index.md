@@ -76,7 +76,7 @@ try
 		// تداخل سلسلة الإعداد
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	// اكتب ملف العرض التقديمي على القرص
+	//اكتب ملف العرض التقديمي على القرص
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

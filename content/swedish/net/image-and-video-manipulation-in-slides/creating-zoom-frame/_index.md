@@ -65,7 +65,7 @@ using (FileStream imageStream = new FileStream("image.jpg", FileMode.Open))
 Nu kommer den spännande delen – att implementera zoomramsfunktionen med Aspose.Slides för .NET.
 
 ```csharp
-// Importera det nödvändiga namnområdet
+// Importera det nödvändiga namnutrymmet
 using Aspose.Slides.Animation;
 
 // Skapa en zoomeffekt

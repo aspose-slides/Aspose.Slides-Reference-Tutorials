@@ -49,7 +49,7 @@ pres.Save(outPath, SaveFormat.Pptx);
 
 I detta kodavsnitt:
 
-- `dataDir`ska ersättas med katalogsökvägen där din PPT-fil finns.
+- `dataDir` ska ersättas med katalogsökvägen där din PPT-fil finns.
 - `outPath` ska ersättas med katalogen där du vill spara den konverterade PPTX-filen.
 - `srcFileName` är namnet på din PPT-fil.
 - `destFileName` är det önskade namnet för utdata-PPTX-filen.
@@ -58,7 +58,7 @@ I detta kodavsnitt:
 
 Grattis! Du har framgångsrikt konverterat en PowerPoint-presentation från PPT- till PPTX-format med Aspose.Slides för .NET API. Detta kraftfulla bibliotek förenklar komplexa uppgifter som denna, vilket gör din .NET-utvecklingsupplevelse smidigare.
 
- Om du inte redan har gjort det,[ladda ner Aspose.Slides för .NET](https://releases.aspose.com/slides/net/) och utforska dess kapacitet ytterligare.
+ Om du inte redan har gjort det,[ladda ner Aspose.Slides för .NET](https://releases.aspose.com/slides/net/)och utforska dess kapacitet ytterligare.
 
  För fler handledningar och tips, besök vår[dokumentation](https://reference.aspose.com/slides/net/).
 

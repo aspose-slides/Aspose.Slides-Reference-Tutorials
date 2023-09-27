@@ -14,7 +14,7 @@ En este tutorial, lo guiaremos a través del proceso de configuración del ancho
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener instalada la biblioteca Aspose.Slides para Java. Puedes descargarlo desde el sitio web de Aspose.[aquí](https://releases.aspose.com/slides/java/).
+ Antes de comenzar, asegúrese de tener instalada la biblioteca Aspose.Slides para Java. Puedes descargarlo desde el sitio web de Aspose.[aquí](https://releases.aspose.com/slides/java/).
 
 ## Guía paso por paso
 
@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Obtenga el libro de datos de gráficos
 
 ```java
-// Obtener la hoja de trabajo de datos del gráfico
+//Obtener la hoja de trabajo de datos del gráfico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Configuración del índice de la hoja de datos del gráfico
 int defaultWorksheetIndex = 0;
-// Obtener la hoja de trabajo de datos del gráfico
+//Obtener la hoja de trabajo de datos del gráfico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Agregar serie
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -149,7 +149,7 @@ En este tutorial, aprendió cómo configurar el ancho del espacio para un gráfi
 
 ### ¿Cómo cambio el valor del ancho del espacio?
 
- Para cambiar el ancho del espacio, utilice el`setGapWidth` método en el`ParentSeriesGroup` de la serie de gráficos. En el ejemplo proporcionado, configuramos el Ancho del espacio en 50, pero puede ajustar este valor al espacio que desee.
+ Para cambiar el ancho del espacio, utilice el`setGapWidth` método en el`ParentSeriesGroup`de la serie de gráficos. En el ejemplo proporcionado, configuramos el Ancho del espacio en 50, pero puede ajustar este valor al espacio que desee.
 
 ### ¿Puedo personalizar otras propiedades del gráfico?
 

@@ -44,7 +44,7 @@ Presentation pres = new Presentation(dataDir + "Demo.pptx");
 
 ## Étape 3 : Configurer les options de conversion HTML5
 
-Vous pouvez configurer diverses options pour la conversion HTML5 à l'aide du`Html5Options` classe. Par exemple, vous pouvez activer ou désactiver les animations de formes et les transitions de diapositives. Dans cet exemple, nous activerons les deux animations :
+ Vous pouvez configurer diverses options pour la conversion HTML5 à l'aide du`Html5Options`classe. Par exemple, vous pouvez activer ou désactiver les animations de formes et les transitions de diapositives. Dans cet exemple, nous activerons les deux animations :
 
 ```java
 Html5Options options = new Html5Options();
@@ -96,7 +96,7 @@ Dans ce didacticiel, nous avons appris à convertir une présentation PowerPoint
 
 ### Comment puis-je personnaliser davantage la sortie HTML5 ?
 
- Vous pouvez personnaliser davantage la sortie HTML5 en ajustant les options dans le`Html5Options` classe. Par exemple, vous pouvez contrôler la qualité des images, définir la taille des diapositives, etc.
+Vous pouvez personnaliser davantage la sortie HTML5 en ajustant les options dans le`Html5Options` classe. Par exemple, vous pouvez contrôler la qualité des images, définir la taille des diapositives, etc.
 
 ### Puis-je convertir d'autres formats PowerPoint, comme PPT ou PPTM, en HTML5 à l'aide d'Aspose.Slides ?
 

@@ -36,7 +36,7 @@ using Aspose.Slides.Charts;
 using Presentation presentation = new Presentation();
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Lägg till ett diagram på bilden
+//Lägg till ett diagram på bilden
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 
 // Lägg till några exempeldata i diagrammet
@@ -119,7 +119,7 @@ Anteckningar och etiketter lägger till sammanhang till dina diagram:
 IDataLabel dataLabel = series.DataPoints[0].Label;
 dataLabel.ShowValue = true;
 
-// Lägg till en textruteanteckning
+// Lägg till en textrutakommentar
 ITextBoxAnnotation annotation = slide.Shapes.AddTextBox(50, 50, 200, 50);
 annotation.TextFrame.Text = "Important Note!";
 ```

@@ -26,7 +26,7 @@ Adım adım kılavuza dalmadan önce aşağıdaki önkoşulların yerine getiril
 
 ## Sunum Yükleme
 
-Başlamak için aşağıdaki kodu kullanarak çalışmak istediğiniz sunuyu yükleyin:
+Başlamak için çalışmak istediğiniz sunuyu aşağıdaki kodu kullanarak yükleyin:
 
 ```csharp
 using Aspose.Slides;

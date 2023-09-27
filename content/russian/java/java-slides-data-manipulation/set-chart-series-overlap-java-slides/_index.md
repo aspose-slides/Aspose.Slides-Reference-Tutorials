@@ -76,7 +76,7 @@ try
 		// Настройка перекрытия серий
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	// Запишите файл презентации на диск.
+	//Запишите файл презентации на диск.
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

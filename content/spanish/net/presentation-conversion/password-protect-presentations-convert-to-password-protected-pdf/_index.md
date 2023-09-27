@@ -43,7 +43,7 @@ pdfOptions.Password = "password";
 
 ## Paso 4: guardar como PDF protegido con contraseña
 
- Ahora está listo para guardar su presentación como un PDF protegido con contraseña. Reemplazar`"Your Output Directory"` con la ruta donde desea guardar el PDF y`"PasswordProtectedPDF_out.pdf"`con el nombre del archivo de salida deseado.
+ Ahora está listo para guardar su presentación como un PDF protegido con contraseña. Reemplazar`"Your Output Directory"` con la ruta donde desea guardar el PDF y`"PasswordProtectedPDF_out.pdf"` con el nombre del archivo de salida deseado.
 
 ```csharp
 string outPath = "Your Output Directory";

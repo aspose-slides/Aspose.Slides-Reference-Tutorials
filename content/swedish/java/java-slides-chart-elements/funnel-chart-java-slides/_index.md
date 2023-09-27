@@ -38,7 +38,7 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-I koden ovan lägger vi till ett trattdiagram till den första bilden vid koordinater (50, 50) med en bredd på 500 och en höjd på 400 pixlar.
+koden ovan lägger vi till ett trattdiagram till den första bilden vid koordinater (50, 50) med en bredd på 500 och en höjd på 400 pixlar.
 
 ## Steg 3: Definiera diagramdata
 
@@ -121,7 +121,7 @@ finally
 
 ## Slutsats
 
-den här handledningen har vi visat dig hur du skapar ett trattdiagram i Java Slides med Aspose.Slides för Java. Du kan anpassa diagrammet ytterligare genom att justera färger, etiketter och andra egenskaper för att passa dina specifika behov.
+I den här handledningen har vi visat dig hur du skapar ett trattdiagram i Java Slides med Aspose.Slides för Java. Du kan anpassa diagrammet ytterligare genom att justera färger, etiketter och andra egenskaper för att passa dina specifika behov.
 
 ## FAQ's
 

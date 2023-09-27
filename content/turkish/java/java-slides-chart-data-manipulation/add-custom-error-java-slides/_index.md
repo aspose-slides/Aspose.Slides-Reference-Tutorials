@@ -98,7 +98,7 @@ try
 {
 	// Kabarcık grafiği oluşturma
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	//Özel Hata çubukları ekleme ve biçimini ayarlama
+	// Özel Hata çubukları ekleme ve biçimini ayarlama
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();
@@ -131,7 +131,7 @@ finally
 
 ## Çözüm
 
-Bu kapsamlı eğitimde Aspose.Slides for Java kullanarak grafiklere özel hata çubukları ekleyerek PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrendiniz. Hata çubukları, veri değişkenliği ve belirsizliğine ilişkin değerli bilgiler sağlayarak grafiklerinizi daha bilgilendirici ve görsel olarak çekici hale getirir.
+Bu kapsamlı eğitimde Aspose.Slides for Java'yı kullanarak grafiklere özel hata çubukları ekleyerek PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrendiniz. Hata çubukları, veri değişkenliği ve belirsizliğine ilişkin değerli bilgiler sağlayarak grafiklerinizi daha bilgilendirici ve görsel olarak çekici hale getirir.
 
 ## SSS'ler
 

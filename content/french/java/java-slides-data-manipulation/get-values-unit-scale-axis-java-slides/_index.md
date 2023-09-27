@@ -18,7 +18,7 @@ Avant de plonger dans le code, assurez-vous que les conditions préalables suiva
 
 1. Environnement de développement Java : assurez-vous que Java est installé sur votre système et que vous connaissez les concepts de programmation Java.
 
-2.  Aspose.Slides pour Java : téléchargez et installez la bibliothèque Aspose.Slides pour Java à partir du[lien de téléchargement](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides pour Java : téléchargez et installez la bibliothèque Aspose.Slides pour Java à partir du[lien de téléchargement](https://releases.aspose.com/slides/java/).
 
 ## Étape 1 : Créer une présentation
 

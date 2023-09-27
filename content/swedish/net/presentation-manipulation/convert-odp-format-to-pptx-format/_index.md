@@ -56,9 +56,9 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 
 ## Slutsats
 
-den här handledningen har vi gått igenom processen att konvertera ODP-format till PPTX-format och vice versa med Aspose.Slides för .NET. Detta kraftfulla API förenklar dokumentkonverteringsuppgifter och ger en pålitlig lösning för dina behov av filformatkompatibilitet.
+I den här handledningen har vi gått igenom processen att konvertera ODP-format till PPTX-format och vice versa med Aspose.Slides för .NET. Detta kraftfulla API förenklar dokumentkonverteringsuppgifter och ger en pålitlig lösning för dina behov av filformatkompatibilitet.
 
- Om du inte redan har gjort det kan du ladda ner Aspose.Slides för .NET[här](https://releases.aspose.com/slides/net/) för att komma igång med dina dokumentkonverteringsprojekt.
+Om du inte redan har gjort det kan du ladda ner Aspose.Slides för .NET[här](https://releases.aspose.com/slides/net/) för att komma igång med dina dokumentkonverteringsprojekt.
 
  För mer information och support, tveka inte att besöka[Aspose.Slides för .NET API-dokumentation](https://reference.aspose.com/slides/net/).
 
@@ -78,7 +78,7 @@ Filstorleksbegränsningarna kan variera beroende på din licens. Det är tillrå
 
 ### 4. Finns teknisk support tillgänglig för Aspose.Slides för .NET?
 
- Ja, du kan få teknisk support och hjälp från Aspose-communityt genom att besöka[Aspose forum](https://forum.aspose.com/).
+Ja, du kan få teknisk support och hjälp från Aspose-communityt genom att besöka[Aspose forum](https://forum.aspose.com/).
 
 ### 5. Kan jag få en tillfällig licens för Aspose.Slides för .NET?
 

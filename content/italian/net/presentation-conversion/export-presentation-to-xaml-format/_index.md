@@ -63,7 +63,7 @@ using (Presentation pres = new Presentation(presentationFileName))
 }
 ```
 
- In questo frammento di codice carichiamo la presentazione di origine, creiamo opzioni di conversione XAML e definiamo un servizio di salvataggio dell'output personalizzato utilizzando`NewXamlSaver`Salviamo quindi i file XAML nella directory di output specificata.
+ In questo frammento di codice carichiamo la presentazione di origine, creiamo opzioni di conversione XAML e definiamo un servizio di salvataggio dell'output personalizzato utilizzando`NewXamlSaver`. Salviamo quindi i file XAML nella directory di output specificata.
 
 ## Passaggio 3: classe di risparmio XAML personalizzata
 
@@ -110,6 +110,6 @@ Aspose.Slides per .NET è una libreria .NET per lavorare con presentazioni Power
  È possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 
 5. ### Dove posso ottenere supporto per Aspose.Slides per .NET?
-Puoi trovare supporto e discussioni nella community[Qui](https://forum.aspose.com/).
+ Puoi trovare supporto e discussioni nella community[Qui](https://forum.aspose.com/).
 
- Per ulteriori tutorial e risorse, visitare il[Documentazione dell'API Aspose.Slides](https://reference.aspose.com/slides/net/).
+Per ulteriori tutorial e risorse, visitare il[Documentazione dell'API Aspose.Slides](https://reference.aspose.com/slides/net/).

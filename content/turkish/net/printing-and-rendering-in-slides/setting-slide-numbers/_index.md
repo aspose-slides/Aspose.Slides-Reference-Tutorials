@@ -2,7 +2,7 @@
 title: Aspose.Slides kullanarak Sunumlar için Slayt Numaralarını Ayarlama
 linktitle: Aspose.Slides kullanarak Sunumlar için Slayt Numaralarını Ayarlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarına slayt numaralarını nasıl ekleyeceğinizi ve özelleştireceğinizi öğrenin. Bu adım adım kılavuz, projeyi ayarlamak, bir sunumu yüklemek, slayt numaraları eklemek, formatlarını özelleştirmek ve yerleşimlerini ayarlamak için kaynak kodu örnekleri sağlar.
+description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarına slayt numaralarını nasıl ekleyeceğinizi ve özelleştireceğinizi öğrenin. Bu adım adım kılavuz, projeyi ayarlamak, sunumu yüklemek, slayt numaraları eklemek, formatlarını özelleştirmek ve yerleşimlerini ayarlamak için kaynak kodu örnekleri sağlar.
 type: docs
 weight: 16
 url: /tr/net/printing-and-rendering-in-slides/setting-slide-numbers/
@@ -43,7 +43,7 @@ Daha sonra sunumdaki her slayta slayt numaraları ekleyelim:
 // Slayt numaralarını etkinleştir
 foreach (ISlide slide in presentation.Slides)
 {
-    // Slayt numarası şekli ekleme
+    // Slayt numarası şekli ekle
     IAutoShape slideNumberShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 10, 50, 20);
     slideNumberShape.TextFrame.Text = (slide.SlideNumber).ToString();
 }

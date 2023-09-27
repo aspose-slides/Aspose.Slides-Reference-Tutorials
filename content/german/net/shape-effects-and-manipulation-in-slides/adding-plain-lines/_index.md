@@ -60,7 +60,7 @@ ILineShape verticalLine = slide.Shapes.AddLine(300, 100, 300, 300);
 // Linieneigenschaften anpassen
 horizontalLine.LineFormat.Width = 3; // Linienstärke einstellen
 horizontalLine.LineFormat.Style = LineStyle.Single; // Linienstil festlegen
-horizontalLine.LineFormat.FillFormat.SolidFillColor.Color = Color.Black; //Linienfarbe festlegen
+horizontalLine.LineFormat.FillFormat.SolidFillColor.Color = Color.Black; // Linienfarbe festlegen
 ```
 
 ### Speichern der Präsentation

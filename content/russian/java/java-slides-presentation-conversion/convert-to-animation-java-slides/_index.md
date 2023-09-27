@@ -40,7 +40,7 @@ Presentation pres = new Presentation(presentationName);
 
 ## Шаг 3. Создайте анимацию для презентации
 
-Теперь давайте создадим анимацию для слайдов презентации. Мы будем использовать`PresentationAnimationsGenerator` класс для этой цели:
+ Теперь давайте создадим анимацию для слайдов презентации. Мы будем использовать`PresentationAnimationsGenerator` класс для этой цели:
 
 ```java
 PresentationAnimationsGenerator animationsGenerator = new PresentationAnimationsGenerator(pres);
@@ -113,7 +113,7 @@ try {
 
 ### Как я могу контролировать скорость анимации?
 
- Вы можете настроить скорость анимации, изменив частоту кадров (FPS) в коде.`player.setFrameTick`Метод позволяет указать частоту кадров. В нашем примере мы установили частоту 33 кадра в секунду (FPS).
+ Вы можете настроить скорость анимации, изменив частоту кадров (FPS) в коде.`player.setFrameTick` Метод позволяет указать частоту кадров. В нашем примере мы установили частоту 33 кадра в секунду (FPS).
 
 ### Могу ли я конвертировать анимацию PowerPoint в другие форматы, например видео?
 
@@ -129,4 +129,4 @@ try {
 
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.Slides для Java?
 
-Вы можете найти обширную документацию и ресурсы для Aspose.Slides для Java на сайте[Справочник по API Aspose.Slides для Java](https://reference.aspose.com/slides/java/) страница.
+ Вы можете найти обширную документацию и ресурсы для Aspose.Slides для Java на сайте[Справочник по API Aspose.Slides для Java](https://reference.aspose.com/slides/java/) страница.

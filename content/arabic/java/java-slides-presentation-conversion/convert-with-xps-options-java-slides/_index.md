@@ -38,7 +38,7 @@ String dataDir = "Your Document Directory";
 
 ## الخطوة 3: قم بتحميل العرض التقديمي
 
- إنشاء مثيل لـ`Presentation`فئة وقم بتحميل ملف عرض PowerPoint التقديمي الذي تريد تحويله. في التعليمات البرمجية المتوفرة، نقوم بتحميل عرض تقديمي باسم "Convert_XPS_Options.pptx."
+ إنشاء مثيل لـ`Presentation` فئة وقم بتحميل ملف عرض PowerPoint التقديمي الذي تريد تحويله. في التعليمات البرمجية المتوفرة، نقوم بتحميل عرض تقديمي باسم "Convert_XPS_Options.pptx."
 
 ```java
 Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");

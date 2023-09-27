@@ -85,4 +85,4 @@ Aspose.Slides güçlü olsa da, karmaşık segment kaldırma işlemlerinin, tuta
 
 ## Çözüm
 
-Aspose.Slides'ın geometri şekillerinden segmentleri kaldırma özelliklerinden yararlanarak sunum oyununuzu geliştirin. Bu eğitim, bu özelliği projelerinize sorunsuz bir şekilde entegre edebilmeniz için sizi bilgi ve araçlarla donattı. İster eğitim materyalleri hazırlıyor ister kurumsal sunumlar yapıyor olun, Aspose.Slides izleyicilerinizi büyüleyen ve bilgilendiren, görsel açıdan etkileyici slaytlar oluşturmanıza olanak tanır.
+Aspose.Slides'ın geometri şekillerinden segmentleri kaldırma özelliklerinden yararlanarak sunum oyununuzu geliştirin. Bu eğitim, bu özelliği projelerinize sorunsuz bir şekilde entegre edebilmeniz için sizi bilgi ve araçlarla donattı. İster eğitim materyalleri hazırlıyor ister kurumsal sunumlar yapıyor olun, Aspose.Slides izleyicilerinizi büyüleyen ve bilgilendiren, görsel açıdan büyüleyici slaytlar oluşturmanıza olanak tanır.

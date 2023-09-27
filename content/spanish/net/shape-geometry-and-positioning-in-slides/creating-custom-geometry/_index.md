@@ -10,7 +10,7 @@ url: /es/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 
 ## Introducción
 
-En el mundo de las presentaciones, el atractivo visual es primordial. Cada píxel, cada forma importa cuando se trata de transmitir su mensaje de manera efectiva. Aspose.Slides para .NET le permite aprovechar todo el potencial de la geometría personalizada, permitiéndole crear presentaciones atractivas que dejen un impacto duradero. En esta guía completa, nos sumergiremos en el arte de crear geometría personalizada en formas geométricas usando Aspose.Slides, brindando instrucciones paso a paso, ejemplos prácticos y respondiendo preguntas comunes a lo largo del camino.
+En el mundo de las presentaciones, el atractivo visual es primordial. Cada píxel, cada forma importa cuando se trata de transmitir su mensaje de manera efectiva. Aspose.Slides para .NET le permite aprovechar todo el potencial de la geometría personalizada, permitiéndole crear presentaciones atractivas que dejan un impacto duradero. En esta guía completa, nos sumergiremos en el arte de crear geometría personalizada en formas geométricas usando Aspose.Slides, brindando instrucciones paso a paso, ejemplos prácticos y respondiendo preguntas comunes a lo largo del camino.
 
 ## Crear geometría personalizada en forma de geometría
 

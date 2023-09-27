@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Schritt 2: Erstellen Sie eine PowerPoint-Präsentation
 
- Instanziieren Sie die`Presentation`Klasse zum Erstellen einer neuen PowerPoint-Präsentation:
+ Instanziieren Sie die`Presentation` Klasse zum Erstellen einer neuen PowerPoint-Präsentation:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Festlegen des Index des Diagrammdatenblatts
 	int defaultWorksheetIndex = 0;
-	// Abrufen des Diagrammdaten-Arbeitsblatts
+	//Abrufen des Diagrammdaten-Arbeitsblatts
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Standardmäßig generierte Serien und Kategorien löschen
 	chart.getChartData().getSeries().clear();
@@ -165,7 +165,7 @@ Sie haben mit Aspose.Slides für Java erfolgreich ein Kreisdiagramm in einer Pow
 
 ### Wie kann ich die Farben einzelner Segmente im Kreisdiagramm anpassen?
 
- Um die Farben einzelner Abschnitte im Kreisdiagramm anzupassen, können Sie die verwenden`getAutomaticSeriesColors` -Methode, um das Standardfarbschema abzurufen und dann die Farben nach Bedarf zu ändern. Hier ist ein Beispiel:
+ Um die Farben einzelner Abschnitte im Kreisdiagramm anzupassen, können Sie die verwenden`getAutomaticSeriesColors`-Methode, um das Standardfarbschema abzurufen und dann die Farben nach Bedarf zu ändern. Hier ist ein Beispiel:
 
 ```java
 // Rufen Sie das Standardfarbschema ab
@@ -192,7 +192,7 @@ legend.setOverlay(true); // Zeigen Sie die Legende über dem Diagramm an
 Ja, Sie können die Schriftart und den Stil des Titels ändern. Verwenden Sie den folgenden Code, um die Schriftart und den Stil des Titels festzulegen:
 
 ```java
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Schriftgröße einstellen
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Schriftgröße festlegen
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Machen Sie den Titel fett
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Machen Sie den Titel kursiv
 ```

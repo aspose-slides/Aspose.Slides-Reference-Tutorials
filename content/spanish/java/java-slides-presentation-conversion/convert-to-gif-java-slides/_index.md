@@ -98,7 +98,7 @@ En esta guía, le mostramos cómo convertir presentaciones de PowerPoint en imá
 
 ### ¿Puedo ajustar el retraso entre diapositivas en el GIF?
 
-Sí, puedes ajustar el retraso entre diapositivas cambiando el valor en`setDefaultDelay`. Está especificado en milisegundos, así que configúrelo en el tiempo de retardo deseado.
+ Sí, puedes ajustar el retraso entre diapositivas cambiando el valor en`setDefaultDelay`. Está especificado en milisegundos, así que configúrelo en el tiempo de retardo deseado.
 
 ### ¿Cuál es el FPS recomendado para la conversión de GIF?
 

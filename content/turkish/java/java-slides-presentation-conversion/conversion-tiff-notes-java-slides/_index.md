@@ -25,7 +25,7 @@ Başlamak için yeni bir Java projesi oluşturun ve Aspose.Slides kütüphanesin
 
 ## Adım 2: Sunumu Yükleme
 
-Bu adımda TIFF formatına dönüştürmek istediğiniz sunum dosyasını yükleyeceksiniz. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+ Bu adımda TIFF formatına dönüştürmek istediğiniz sunum dosyasını yükleyeceksiniz. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -65,13 +65,13 @@ finally
 
 ## Çözüm
 
-Tebrikler! Aspose.Slides for Java'yı kullanarak bir Java Slides sunumunu gömülü notlar içeren TIFF formatına başarıyla dönüştürdünüz. Bu süreç, sunumlarınızdaki önemli notları ve ek açıklamaları korumanıza olanak tanıyarak onu çeşitli iş ve eğitim senaryoları için değerli bir araç haline getirir.
+Tebrikler! Aspose.Slides for Java'yı kullanarak bir Java Slides sunumunu gömülü notlar içeren TIFF formatına başarıyla dönüştürdünüz. Bu süreç, sunumlarınızdaki önemli notları ve açıklamaları saklamanıza olanak tanır ve bu da onu çeşitli iş ve eğitim senaryoları için değerli bir araç haline getirir.
 
 ## SSS'ler
 
 ### Çıktı dosyası biçimini TIFF dışında bir şeye nasıl değiştirebilirim?
 
- Çıkış formatını değiştirerek değiştirebilirsiniz.`SaveFormat` parametresi`presentation.save`yöntem. Aspose.Slides for Java; PDF, PPTX ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
+ Çıkış formatını değiştirerek değiştirebilirsiniz.`SaveFormat` parametresi`presentation.save` yöntem. Aspose.Slides for Java; PDF, PPTX ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 
 ### Aspose.Slides for Java farklı Java sürümleriyle uyumlu mu?
 

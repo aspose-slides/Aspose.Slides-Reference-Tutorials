@@ -18,7 +18,7 @@ Los gráficos son herramientas poderosas para transmitir datos complejos de una 
 
 ## Lo que vas a aprender
 
-lo largo de esta serie de tutoriales, profundizará en varios aspectos del formato y la animación de gráficos. He aquí un vistazo de lo que puede esperar aprender:
+A lo largo de esta serie de tutoriales, profundizará en varios aspectos del formato y la animación de gráficos. He aquí un vistazo de lo que puede esperar aprender:
 
 - Tipos de gráficos y configuración de datos: comprenda los diferentes tipos de gráficos disponibles en Aspose.Slides y aprenda cómo configurar fuentes de datos para sus gráficos.
 - Técnicas de formato: explore opciones de formato para personalizar la apariencia de sus gráficos, incluidos colores, fuentes, etiquetas y leyendas.

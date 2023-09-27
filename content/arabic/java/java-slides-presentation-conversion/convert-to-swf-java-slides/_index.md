@@ -25,7 +25,7 @@ url: /ar/java/presentation-conversion/convert-to-swf-java-slides/
 
 ## الخطوة 2: تهيئة كائن العرض التقديمي Aspose.Slides
 
- في هذه الخطوة، سوف تقوم بإنشاء`Presentation`كائن لتحميل عرض PowerPoint التقديمي الخاص بك. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف PowerPoint الخاص بك.
+في هذه الخطوة، سوف تقوم بإنشاء`Presentation` كائن لتحميل عرض PowerPoint التقديمي الخاص بك. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف PowerPoint الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -69,7 +69,7 @@ presentation.save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 
 ## الخطوة 6: التنظيف
 
- وأخيرا، تأكد من التخلص من`Presentation` الاعتراض على تحرير أي موارد.
+ وأخيرا، تأكد من التخلص من`Presentation`الاعتراض على تحرير أي موارد.
 
 ```java
 if (presentation != null) presentation.dispose();

@@ -21,7 +21,7 @@ La animación agrega un toque dinámico a sus presentaciones, haciéndolas más 
 
 1. Primeros pasos: comience con los conceptos básicos de la animación. Aprenda a agregar y administrar animaciones a objetos individuales o diapositivas completas.
 
-2. Técnicas avanzadas: profundice en los efectos de animación. Explore animaciones de entrada, énfasis y salida para crear presentaciones de apariencia profesional.
+2. Técnicas avanzadas: profundice en los efectos de animación. Explore animaciones de entrada, énfasis y salida para crear presentaciones de aspecto profesional.
 
 3. Temporización y secuenciación: perfeccione sus animaciones controlando la sincronización y la secuenciación. Asegúrese de que su contenido fluya sin problemas.
 

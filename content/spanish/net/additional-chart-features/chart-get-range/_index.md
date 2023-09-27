@@ -15,7 +15,7 @@ Los gráficos son una forma poderosa de representar visualmente datos en diversa
 Antes de profundizar en la implementación, asegúrese de tener los siguientes requisitos previos:
 
 - Conocimientos básicos de programación en C#.
-- Aspose.Slides para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net).
+-  Aspose.Slides para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net).
 
 ## Configurando el proyecto
 Para comenzar, cree un nuevo proyecto de C# en su entorno de desarrollo preferido. Luego, instale la biblioteca Aspose.Slides usando el administrador de paquetes NuGet. Esto se puede lograr ejecutando el siguiente comando en la consola del Administrador de paquetes NuGet:
@@ -61,7 +61,7 @@ Almacene los datos extraídos en la memoria y realice las operaciones requeridas
 
 ```csharp
 // Convierta el rango de datos a un formato utilizable (por ejemplo, rango de celdas de Excel)
-//Extraiga y manipule datos según sea necesario
+// Extraiga y manipule datos según sea necesario
 ```
 
 ## Visualización o procesamiento de datos

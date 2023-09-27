@@ -72,7 +72,7 @@ class Program
 ```
 
 ## Conclusione
-In questa guida, abbiamo dimostrato come impostare il tipo di morph di transizione su una diapositiva utilizzando Aspose.Slides per .NET. Questa libreria consente agli sviluppatori di creare presentazioni dinamiche e coinvolgenti a livello di codice.
+In questa guida, abbiamo dimostrato come impostare il tipo di morph di transizione su una diapositiva utilizzando Aspose.Slides per .NET. Questa libreria consente agli sviluppatori di creare presentazioni dinamiche e coinvolgenti a livello di programmazione.
 
 ## Domande frequenti
 

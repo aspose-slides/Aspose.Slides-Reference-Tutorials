@@ -21,7 +21,7 @@ Avant de commencer, assurez-vous de disposer des prérequis suivants :
 
 ## Étape 1 : Importer la bibliothèque Aspose.Slides
 
-Tout d'abord, vous devez importer la bibliothèque Aspose.Slides dans votre projet Java. Vous pouvez le faire en ajoutant la dépendance Maven suivante au fichier de votre projet`pom.xml` déposer:
+ Tout d'abord, vous devez importer la bibliothèque Aspose.Slides dans votre projet Java. Vous pouvez le faire en ajoutant la dépendance Maven suivante au fichier de votre projet`pom.xml` déposer:
 
 ```xml
 <dependency>
@@ -121,7 +121,7 @@ La conversion de présentations au format Markdown ouvre de nouvelles possibilit
 
 Vous pouvez personnaliser la sortie Markdown en ajustant les options d'exportation. Par exemple, vous pouvez modifier le dossier d'images ou le type d'exportation en fonction de vos besoins.
 
-### a-t-il des limites à ce processus de conversion ?
+### Y a-t-il des limites à ce processus de conversion ?
 
 Bien qu'Aspose.Slides pour Java offre des capacités de conversion robustes, les présentations complexes avec un formatage complexe peuvent nécessiter des ajustements supplémentaires après la conversion.
 

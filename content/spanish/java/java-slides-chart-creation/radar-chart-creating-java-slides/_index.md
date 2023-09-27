@@ -14,7 +14,7 @@ En este tutorial, lo guiaremos a través del proceso de creación de un gráfico
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java integrada en su proyecto. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/java/).
+ Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java integrada en su proyecto. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/java/).
 
 ## Paso 1: configurar la presentación
 
@@ -99,7 +99,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 Personalicemos el eje y las leyendas de nuestro gráfico de radar.
 
 ```java
-//Establecer posición de leyenda
+// Establecer posición de leyenda
 ichart.getLegend().setPosition(LegendPositionType.Bottom);
 
 // Configuración de las propiedades del texto del eje de categorías
@@ -118,7 +118,7 @@ txtleg.getFillFormat().setFillType(FillType.Solid);
 txtleg.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtleg.setLatinFont(new FontData("Calibri"));
 
-// Configuración de las propiedades del texto del eje de valores
+// Configuración de las propiedades del texto del eje de valor
 IChartPortionFormat txtVal = ichart.getAxes().getVerticalAxis().getTextFormat().getPortionFormat();
 txtVal.setFontBold(NullableBool.True);
 txtVal.setFontHeight(10);
@@ -199,7 +199,7 @@ try
 	// Establecer color de serie
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
-	//Establecer posición de leyenda
+	// Establecer posición de leyenda
 	ichart.getLegend().setPosition(LegendPositionType.Bottom);
 	// Configuración de las propiedades del texto del eje de categorías
 	IChartPortionFormat txtCat = ichart.getAxes().getHorizontalAxis().getTextFormat().getPortionFormat();
@@ -215,7 +215,7 @@ try
 	txtleg.getFillFormat().setFillType(FillType.Solid);
 	txtleg.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtCat.setLatinFont(new FontData("Calibri"));
-	// Configuración de las propiedades del texto del eje de valores
+	// Configuración de las propiedades del texto del eje de valor
 	IChartPortionFormat txtVal = ichart.getAxes().getVerticalAxis().getTextFormat().getPortionFormat();
 	txtVal.setFontBold(NullableBool.True);
 	txtVal.setFontHeight(10);
@@ -267,4 +267,4 @@ Consulte el "Paso 5" para personalizar las etiquetas y el formato de los ejes, i
 
 ### ¿Cómo guardo el gráfico en un formato de archivo diferente?
 
- Puede cambiar el formato de salida modificando la extensión del archivo en el`outPath`variable y utilizando el adecuado`SaveFormat` . Por ejemplo, para guardar como PDF, utilice`SaveFormat.Pdf`.
+ Puede cambiar el formato de salida modificando la extensión del archivo en el`outPath` variable y utilizando el adecuado`SaveFormat` . Por ejemplo, para guardar como PDF, utilice`SaveFormat.Pdf`.

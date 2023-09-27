@@ -40,7 +40,7 @@ Presentation pres = new Presentation(presentationName);
 
 ## 3. Adım: Sunum için Animasyonlar Oluşturun
 
-Şimdi sunumdaki slaytlar için animasyonlar oluşturalım. biz kullanacağız`PresentationAnimationsGenerator` bu amaç için sınıf:
+ Şimdi sunumdaki slaytlar için animasyonlar oluşturalım. biz kullanacağız`PresentationAnimationsGenerator` bu amaç için sınıf:
 
 ```java
 PresentationAnimationsGenerator animationsGenerator = new PresentationAnimationsGenerator(pres);
@@ -113,7 +113,7 @@ Bu eğitimde, Java ve Aspose.Slides for Java kullanarak statik bir PowerPoint su
 
 ### Animasyonların hızını nasıl kontrol edebilirim?
 
- Koddaki kare hızını (FPS) değiştirerek animasyonların hızını ayarlayabilirsiniz.`player.setFrameTick`yöntemi kare hızını belirtmenize olanak tanır. Örneğimizde bunu saniyede 33 kareye (FPS) ayarladık.
+ Koddaki kare hızını (FPS) değiştirerek animasyonların hızını ayarlayabilirsiniz.`player.setFrameTick` yöntemi kare hızını belirtmenize olanak tanır. Örneğimizde bunu saniyede 33 kareye (FPS) ayarladık.
 
 ### PowerPoint animasyonlarını video gibi diğer formatlara dönüştürebilir miyim?
 
@@ -129,4 +129,4 @@ Evet, dışa aktarılan karelerin dosya biçimini özelleştirebilirsiniz. Örne
 
 ### Aspose.Slides for Java için daha fazla kaynağı ve belgeyi nerede bulabilirim?
 
-Aspose.Slides for Java ile ilgili kapsamlı belgeleri ve kaynakları şu adreste bulabilirsiniz:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/) sayfa.
+ Aspose.Slides for Java ile ilgili kapsamlı belgeleri ve kaynakları şu adreste bulabilirsiniz:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/) sayfa.

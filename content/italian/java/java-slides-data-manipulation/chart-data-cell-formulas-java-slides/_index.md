@@ -63,7 +63,7 @@ IChartDataCell cell2 = workbook.getCell(0, "C2");
 cell2.setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
 
-Qui impostiamo una formula per la cella C2 utilizzando la notazione R1C1. La formula calcola il valore massimo nell'intervallo da R2C6 a R5C8 e quindi lo divide per 3.
+Qui impostiamo una formula per la cella C2 utilizzando la notazione R1C1. La formula calcola il valore massimo nell'intervallo da R2C6 a R5C8 e poi lo divide per 3.
 
 ## Passaggio 3: calcolare le formule
 

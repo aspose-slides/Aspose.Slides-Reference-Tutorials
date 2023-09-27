@@ -16,7 +16,7 @@ url: /zh/java/presentation-conversion/convert-to-pdf-java-slides/
 
 在开始之前，请确保您具备以下先决条件：
 
-1.  Aspose.Slides for Java 库：您需要安装 Aspose.Slides for Java 库。您可以从[Aspose.Slides for Java 下载页面](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java 库：您需要安装 Aspose.Slides for Java 库。您可以从[Aspose.Slides for Java 下载页面](https://releases.aspose.com/slides/java/).
 
 2. Java 开发环境：确保您的系统上安装了 Java，并且熟悉 Java 编程。
 

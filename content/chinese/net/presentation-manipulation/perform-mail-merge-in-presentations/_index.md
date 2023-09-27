@@ -91,7 +91,7 @@ string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
         //对于主表中的所有记录，我们将创建一个单独的演示文稿
         foreach (DataRow userRow in usersTable.Rows)
         {
-            //创建结果（个人）演示文稿名称
+            //创建结果（个人）演示名称
             string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
 
             //加载演示模板

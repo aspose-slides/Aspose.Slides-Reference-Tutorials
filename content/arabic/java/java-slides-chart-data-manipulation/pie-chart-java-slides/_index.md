@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // ضبط فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
 
-// الحصول على ورقة عمل بيانات المخطط
+//الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // إعداد فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
-// الحصول على ورقة عمل بيانات المخطط
+//الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
 chart.getChartData().getSeries().clear();

@@ -46,7 +46,7 @@ using (Presentation presentation = new Presentation())
     // أضف شريحة
     ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.Blank);
 
-    // أضف مخططًا إلى الشريحة
+    //أضف مخططًا إلى الشريحة
     IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 600, 400);
 
     // إضافة سلسلة بيانات إلى المخطط

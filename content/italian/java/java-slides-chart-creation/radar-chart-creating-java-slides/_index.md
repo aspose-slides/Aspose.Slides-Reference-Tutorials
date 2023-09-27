@@ -14,7 +14,7 @@ In questo tutorial, ti guideremo attraverso il processo di creazione di un grafi
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java integrata nel tuo progetto. È possibile scaricare la libreria da[Qui](https://releases.aspose.com/slides/java/).
+ Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java integrata nel tuo progetto. È possibile scaricare la libreria da[Qui](https://releases.aspose.com/slides/java/).
 
 ## Passaggio 1: impostazione della presentazione
 
@@ -99,7 +99,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 Personalizziamo l'asse e le legende per il nostro grafico radar.
 
 ```java
-//Imposta la posizione della legenda
+// Imposta la posizione della legenda
 ichart.getLegend().setPosition(LegendPositionType.Bottom);
 
 // Impostazione delle proprietà del testo dell'asse delle categorie
@@ -199,7 +199,7 @@ try
 	// Imposta il colore della serie
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
-	//Imposta la posizione della legenda
+	// Imposta la posizione della legenda
 	ichart.getLegend().setPosition(LegendPositionType.Bottom);
 	// Impostazione delle proprietà del testo dell'asse delle categorie
 	IChartPortionFormat txtCat = ichart.getAxes().getHorizontalAxis().getTextFormat().getPortionFormat();
@@ -267,4 +267,4 @@ Fare riferimento al "Passaggio 5" per personalizzare le etichette e la formattaz
 
 ### Come faccio a salvare il grafico in un formato di file diverso?
 
- È possibile modificare il formato di output modificando l'estensione del file nel file`outPath`variabile e utilizzando l'appropriato`SaveFormat` . Ad esempio, per salvare come PDF, utilizzare`SaveFormat.Pdf`.
+ È possibile modificare il formato di output modificando l'estensione del file nel file`outPath` variabile e utilizzando l'appropriato`SaveFormat` . Ad esempio, per salvare come PDF, utilizzare`SaveFormat.Pdf`.

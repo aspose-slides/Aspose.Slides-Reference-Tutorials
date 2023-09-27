@@ -40,7 +40,7 @@ Presentation pres = new Presentation(presentationName);
 
 ## الخطوة 3: إنشاء رسوم متحركة للعرض التقديمي
 
-الآن، لنقم بإنشاء رسوم متحركة للشرائح الموجودة في العرض التقديمي. سوف نستخدم`PresentationAnimationsGenerator` فئة لهذا الغرض:
+ الآن، لنقم بإنشاء رسوم متحركة للشرائح الموجودة في العرض التقديمي. سوف نستخدم`PresentationAnimationsGenerator` فئة لهذا الغرض:
 
 ```java
 PresentationAnimationsGenerator animationsGenerator = new PresentationAnimationsGenerator(pres);
@@ -113,7 +113,7 @@ try {
 
 ### كيف يمكنني التحكم في سرعة الرسوم المتحركة؟
 
- يمكنك ضبط سرعة الرسوم المتحركة عن طريق تعديل معدل الإطارات (FPS) في الكود. ال`player.setFrameTick`تتيح لك الطريقة تحديد معدل الإطارات. في مثالنا، قمنا بضبطه على 33 إطارًا في الثانية (FPS).
+ يمكنك ضبط سرعة الرسوم المتحركة عن طريق تعديل معدل الإطارات (FPS) في الكود. ال`player.setFrameTick` تتيح لك الطريقة تحديد معدل الإطارات. في مثالنا، قمنا بضبطه على 33 إطارًا في الثانية (FPS).
 
 ### هل يمكنني تحويل الرسوم المتحركة لـ PowerPoint إلى تنسيقات أخرى، مثل الفيديو؟
 
@@ -129,4 +129,4 @@ try {
 
 ### أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
-يمكنك العثور على وثائق وموارد مكثفة لـ Aspose.Slides for Java على الموقع[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/) صفحة.
+ يمكنك العثور على وثائق وموارد مكثفة لـ Aspose.Slides for Java على الموقع[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/) صفحة.

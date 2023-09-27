@@ -21,11 +21,11 @@ url: /ar/java/presentation-conversion/conversion-tiff-notes-java-slides/
 
 ## الخطوة 1: إعداد مشروعك
 
-للبدء، قم بإنشاء مشروع Java جديد وأضف مكتبة Aspose.Slides إلى مسار فئة مشروعك. سيسمح لك هذا باستخدام Aspose.Slides API في كود Java الخاص بك.
+للبدء، قم بإنشاء مشروع Java جديد وأضف مكتبة Aspose.Slides إلى مسار الفصل الخاص بمشروعك. سيسمح لك هذا باستخدام Aspose.Slides API في كود Java الخاص بك.
 
 ## الخطوة 2: تحميل العرض التقديمي
 
-في هذه الخطوة، ستقوم بتحميل ملف العرض التقديمي الذي تريد تحويله إلى تنسيق TIFF. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك.
+ في هذه الخطوة، ستقوم بتحميل ملف العرض التقديمي الذي تريد تحويله إلى تنسيق TIFF. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,7 +71,7 @@ finally
 
 ### كيف يمكنني تغيير تنسيق ملف الإخراج إلى شيء آخر غير TIFF؟
 
- يمكنك تغيير تنسيق الإخراج عن طريق تعديل`SaveFormat` المعلمة في`presentation.save`طريقة. يدعم Aspose.Slides for Java العديد من التنسيقات، بما في ذلك PDF وPPTX والمزيد.
+ يمكنك تغيير تنسيق الإخراج عن طريق تعديل`SaveFormat` المعلمة في`presentation.save` طريقة. يدعم Aspose.Slides for Java العديد من التنسيقات، بما في ذلك PDF وPPTX والمزيد.
 
 ### هل Aspose.Slides for Java متوافق مع إصدارات Java المختلفة؟
 

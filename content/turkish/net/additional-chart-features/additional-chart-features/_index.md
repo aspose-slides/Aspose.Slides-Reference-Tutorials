@@ -14,7 +14,7 @@ Aspose.Slides, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çal
 
 ## Ortamın Ayarlanması
 
-Uygulamaya geçmeden önce Aspose.Slides for .NET'in kurulu olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net).
+ Uygulamaya geçmeden önce Aspose.Slides for .NET'in kurulu olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net).
 
 Kitaplık yüklendikten sonra tercih ettiğiniz geliştirme ortamında yeni bir .NET projesi oluşturun.
 
@@ -32,7 +32,7 @@ Presentation presentation = new Presentation();
 // Slayt ekle
 ISlide slide = presentation.Slides.AddEmptySlide();
 
-// Slayta grafik ekleme
+//Slayta grafik ekleme
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
 
 // Grafiğe veri ekleme

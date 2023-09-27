@@ -19,7 +19,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 - Kit de développement Java (JDK) installé sur votre système.
 -  Aspose.Slides pour la bibliothèque Java. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
 
-## Étape 1 : Configuration de votre projet
+## Étape 1 : Configurer votre projet
 
 Créez un nouveau projet Java dans votre environnement de développement intégré (IDE) préféré et ajoutez la bibliothèque Aspose.Slides for Java aux dépendances de votre projet.
 
@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Effectuez des opérations sur les données du classeur ici
+    //Effectuez des opérations sur les données du classeur ici
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ Dans ce guide, nous avons parcouru le processus de récupération d'un classeur 
 
 ### Comment installer Aspose.Slides pour Java ?
 
- Aspose.Slides pour Java peut être facilement installé en téléchargeant la bibliothèque à partir du site Web à l'adresse[ici](https://releases.aspose.com/slides/java/)Suivez les instructions d'installation fournies pour l'intégrer dans votre projet Java.
+ Aspose.Slides pour Java peut être facilement installé en téléchargeant la bibliothèque à partir du site Web à l'adresse[ici](https://releases.aspose.com/slides/java/). Suivez les instructions d'installation fournies pour l'intégrer dans votre projet Java.
 
 ### Puis-je récupérer les données d'un classeur à partir de n'importe quel graphique dans une présentation PowerPoint ?
 

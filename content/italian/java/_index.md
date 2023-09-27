@@ -51,3 +51,15 @@ Scopri come creare diapositive Java dinamiche con grafici utilizzando Aspose.Sli
 Scopri come convertire presentazioni di diapositive Java senza sforzo con Aspose.Slides per Java. Ti aspettano tutorial completi e guide passo passo.
 ### [Manipolazione dei dati delle diapositive Java](./data-manipulation/)
 Migliora le tue capacità di manipolazione dei dati di Java Slides con i tutorial Aspose.Slides per Java. Impara passo dopo passo a creare, modificare e trasformare le presentazioni in modo efficiente.
+### [Utilità aggiuntive per diapositive Java](./additional-utilities/)
+Scopri ulteriori utilità per Java Slides utilizzando Aspose.Slides per tutorial Java. Migliora le tue presentazioni con potenti funzionalità. Esplora ora!
+### [Proprietà della presentazione delle diapositive Java](./presentation-properties/)
+Scopri come migliorare le proprietà di presentazione delle diapositive Java con i tutorial Aspose.Slides per Java. Scopri suggerimenti e trucchi per presentazioni dinamiche.
+### [Controlli multimediali diapositive Java](./media-controls/)
+Scopri come implementare i controlli multimediali nelle diapositive Java utilizzando i tutorial Aspose.Slides per Java. Migliora le tue presentazioni con audio e video senza interruzioni.
+### [Gestione delle immagini delle diapositive Java](./image-handling/)
+Scopri come gestire le immagini nelle diapositive Java utilizzando i tutorial Aspose.Slides per Java. Esplora la guida passo passo per una gestione efficiente delle immagini.
+### [Protezione dei documenti di diapositive Java](./document-protection/)
+Scopri come migliorare la sicurezza dei tuoi documenti Java Slides con Aspose.Slides. Esplora tutorial passo passo per la protezione dei documenti.
+### [Opzioni di salvataggio delle diapositive Java](./saving-options/)
+Scopri le opzioni di salvataggio delle diapositive Java con Aspose.Slides per Java. Esplora tutorial e guide completi per una gestione e una personalizzazione efficienti delle diapositive.

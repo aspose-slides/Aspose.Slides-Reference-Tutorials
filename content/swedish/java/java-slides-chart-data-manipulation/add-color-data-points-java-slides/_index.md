@@ -112,7 +112,7 @@ För att ändra färgen på andra datapunkter kan du följa ett liknande tillvä
 
 ### Kan jag anpassa andra aspekter av diagrammet?
 
-Ja, du kan anpassa olika aspekter av diagrammet, inklusive typsnitt, etiketter, titlar och mer. Referera till[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/) för detaljerade anpassningsalternativ.
+ Ja, du kan anpassa olika aspekter av diagrammet, inklusive typsnitt, etiketter, titlar och mer. Referera till[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/) för detaljerade anpassningsalternativ.
 
 ### Var kan jag hitta fler exempel och dokumentation?
 

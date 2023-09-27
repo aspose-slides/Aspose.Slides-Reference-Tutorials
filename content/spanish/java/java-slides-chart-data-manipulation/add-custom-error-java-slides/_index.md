@@ -98,7 +98,7 @@ try
 {
 	// Crear un gráfico de burbujas
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	//Agregar barras de error personalizadas y configurar su formato
+	// Agregar barras de error personalizadas y configurar su formato
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();

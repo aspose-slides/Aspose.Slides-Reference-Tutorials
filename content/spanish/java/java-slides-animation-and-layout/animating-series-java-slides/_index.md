@@ -26,7 +26,7 @@ Antes de comenzar, asegúrese de tener implementados los siguientes requisitos p
 ```java
 // La ruta al directorio de documentos.
 String dataDir = "Your Document Directory";
-// Crear una instancia de la clase de presentación que representa un archivo de presentación
+//Crear una instancia de la clase de presentación que representa un archivo de presentación
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -46,7 +46,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 Ahora, agreguemos animaciones a la serie dentro del gráfico. Usaremos un efecto de aparición gradual y haremos que cada serie aparezca una tras otra.
 
 ```java
-//Animar todo el gráfico.
+// Animar todo el gráfico.
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Agregue animaciones a cada serie (asumiendo que hay 4 series)
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // La ruta al directorio de documentos.
 String dataDir = "Your Document Directory";
-// Crear una instancia de la clase de presentación que representa un archivo de presentación
+//Crear una instancia de la clase de presentación que representa un archivo de presentación
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {

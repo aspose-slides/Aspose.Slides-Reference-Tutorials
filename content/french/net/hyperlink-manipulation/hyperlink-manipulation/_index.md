@@ -134,7 +134,7 @@ HyperlinkManager.AddHyperlink(shape, HyperlinkType.Url, "https://www.exemple.com
 
 ## Conclusion
 
-La manipulation d'hyperliens à l'aide d'Aspose.Slides pour .NET offre une boîte à outils complète pour améliorer l'interactivité et l'engagement de vos présentations PowerPoint. Avec la possibilité de créer, modifier et gérer des hyperliens, vous pouvez créer des diaporamas dynamiques et informatifs qui captivent votre public.
+La manipulation de liens hypertextes à l'aide d'Aspose.Slides pour .NET offre une boîte à outils complète pour améliorer l'interactivité et l'engagement de vos présentations PowerPoint. Avec la possibilité de créer, modifier et gérer des hyperliens, vous pouvez créer des diaporamas dynamiques et informatifs qui captivent votre public.
 
 ## FAQ
 

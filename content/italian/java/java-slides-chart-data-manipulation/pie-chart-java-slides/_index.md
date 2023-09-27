@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
 
-// Ottenere il foglio di lavoro con i dati del grafico
+//Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Elimina le serie e le categorie generate predefinite
@@ -105,7 +105,7 @@ Personalizza i dati del grafico aggiungendo categorie e serie e impostandone i v
 // Imposta i colori del settore
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
-// Personalizza l'aspetto di ogni settore
+// Personalizza l'aspetto di ciascun settore
 IChartDataPoint point1 = series.getDataPoints().get_Item(0);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
-// Ottenere il foglio di lavoro con i dati del grafico
+//Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Elimina le serie e le categorie generate predefinite
 chart.getChartData().getSeries().clear();

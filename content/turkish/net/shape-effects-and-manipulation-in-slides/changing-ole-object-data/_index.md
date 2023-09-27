@@ -83,7 +83,7 @@ Evet, Aspose.Slides, OLE nesnelerini harici kaynaklardan alınan verileri kullan
 
 Evet, Aspose.Slides, PPTX, PPT, POTX ve daha fazlasını içeren çok çeşitli sunum formatlarını destekler. Desteklenen formatların tam listesi için belgelere başvurduğunuzdan emin olun.
 
-#### Aspose.Slides'ı kullanmak için ileri düzeyde programlama becerilerine sahip olmam gerekiyor mu?
+#### Aspose.Slides'ı kullanmak için ileri düzeyde programlama becerilerine sahip olmam gerekir mi?
 
 .NET programlamanın temel düzeyde anlaşılması yararlı olsa da Aspose.Slides, süreç boyunca size yol gösterecek kapsamlı belgeler ve örnekler sağlar. Yeni başlayan biri olsanız bile, özelliklerinden etkili bir şekilde yararlanabilirsiniz.
 

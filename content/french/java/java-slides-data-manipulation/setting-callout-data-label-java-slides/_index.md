@@ -38,7 +38,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-//Configurer les séries et les catégories (vous pouvez ajuster le nombre de séries et de catégories)
+// Configurer les séries et les catégories (vous pouvez ajuster le nombre de séries et de catégories)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());

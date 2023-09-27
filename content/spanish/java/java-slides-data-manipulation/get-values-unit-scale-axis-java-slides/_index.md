@@ -18,7 +18,7 @@ Antes de profundizar en el código, asegúrese de cumplir con los siguientes req
 
 1. Entorno de desarrollo de Java: asegúrese de tener Java instalado en su sistema y estar familiarizado con los conceptos de programación de Java.
 
-2.  Aspose.Slides para Java: descargue e instale la biblioteca Aspose.Slides para Java desde[enlace de descarga](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides para Java: descargue e instale la biblioteca Aspose.Slides para Java desde[enlace de descarga](https://releases.aspose.com/slides/java/).
 
 ## Paso 1: crear una presentación
 

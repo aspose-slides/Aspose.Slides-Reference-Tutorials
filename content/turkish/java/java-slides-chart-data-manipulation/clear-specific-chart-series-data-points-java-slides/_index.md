@@ -10,7 +10,7 @@ url: /tr/java/chart-data-manipulation/clear-specific-chart-series-data-points-ja
 
 ## Java Slaytlarında Belirli Grafik Serisi Veri Noktası Verilerini Temizlemeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki grafik serisindeki belirli veri noktalarını temizleme sürecinde size yol göstereceğiz. Veri görselleştirmenizi güncellemek veya değiştirmek için grafikten belirli veri noktalarını kaldırmak istediğinizde bu yararlı olabilir.
+Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki grafik serisinden belirli veri noktalarını temizleme sürecinde size yol göstereceğiz. Veri görselleştirmenizi güncellemek veya değiştirmek için grafikten belirli veri noktalarını kaldırmak istediğinizde bu yararlı olabilir.
 
 ## Önkoşullar
 

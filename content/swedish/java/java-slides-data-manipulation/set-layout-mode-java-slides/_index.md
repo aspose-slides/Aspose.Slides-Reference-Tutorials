@@ -80,7 +80,7 @@ finally
 
 ## Slutsats
 
- den här handledningen har vi lärt oss hur man ställer in layoutläget för ett diagram i Java-bilder med Aspose.Slides för Java. Du kan anpassa diagrammets position och storlek enligt dina specifika krav genom att justera värdena i`setX`, `setY`, `setWidth`, `setHeight` , och`setLayoutTargetType` metoder. Detta ger dig kontroll över placeringen av diagram i dina bilder.
+ I den här handledningen har vi lärt oss hur man ställer in layoutläget för ett diagram i Java-bilder med Aspose.Slides för Java. Du kan anpassa diagrammets position och storlek enligt dina specifika krav genom att justera värdena i`setX`, `setY`, `setWidth`, `setHeight` , och`setLayoutTargetType`metoder. Detta ger dig kontroll över placeringen av diagram i dina bilder.
 
 ## FAQ's
 
@@ -94,4 +94,4 @@ finally
 
 ### Var kan jag hitta mer information om Aspose.Slides för Java?
 
- Du kan hitta mer information om Aspose.Slides för Java i[dokumentation](https://reference.aspose.com/slides/java/)Den innehåller detaljerade API-referenser och exempel som hjälper dig att arbeta med bilder och diagram effektivt i Java.
+ Du kan hitta mer information om Aspose.Slides för Java i[dokumentation](https://reference.aspose.com/slides/java/). Den innehåller detaljerade API-referenser och exempel som hjälper dig att arbeta med bilder och diagram effektivt i Java.

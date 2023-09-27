@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Diğer PDF seçeneklerini gereksinimlerinize göre özelleştirebilirsiniz.
 
 ## 4. Adım: Sunuyu Notlarla PDF Olarak Kaydetme
- Son olarak sunuyu notlarla birlikte PDF dosyası olarak kaydedelim. Çıktı dosyasının adını belirleyebilirsiniz (örn.`"Pdf_Notes_out.pdf"`) ve biçimi seçin (`SaveFormat.Pdf`). İşte bunu yapacak kod:
+Son olarak sunuyu notlarla birlikte PDF dosyası olarak kaydedelim. Çıktı dosyasının adını belirleyebilirsiniz (örn.`"Pdf_Notes_out.pdf"`) ve biçimi seçin (`SaveFormat.Pdf`). İşte bunu yapacak kod:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### PDF dışa aktarımını daha da özelleştirebilir miyim?
 
- Evet, PDF dışa aktarımını, çeşitli seçenekleri ayarlayarak özelleştirebilirsiniz.`PdfOptions` nesne. Örneğin kaliteyi, sıkıştırmayı ve diğer parametreleri ihtiyaçlarınıza göre ayarlayabilirsiniz.
+Evet, PDF dışa aktarımını, çeşitli seçenekleri ayarlayarak özelleştirebilirsiniz.`PdfOptions` nesne. Örneğin kaliteyi, sıkıştırmayı ve diğer parametreleri ihtiyaçlarınıza göre ayarlayabilirsiniz.
 
 ### Aspose.Slides for Java'yı nasıl edinebilirim?
 

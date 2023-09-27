@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Erstellen Sie Zweig 1
+    //Erstellen Sie Zweig 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -151,4 +151,4 @@ Ja, Sie können mehrere Tree Map-Diagramme in einer einzigen Präsentation erste
 
 ### Wie speichere ich die Präsentation mit dem Tree Map-Diagramm?
 
- Benutzen Sie die`pres.save()`Methode zum Speichern der Präsentation mit dem Tree Map-Diagramm im gewünschten Format (z. B. PPTX).
+ Benutzen Sie die`pres.save()` Methode zum Speichern der Präsentation mit dem Tree Map-Diagramm im gewünschten Format (z. B. PPTX).

@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Steg 2: Skapa en PowerPoint-presentation
 
- Instantiera`Presentation`klass för att skapa en ny PowerPoint-presentation:
+ Instantiera`Presentation` klass för att skapa en ny PowerPoint-presentation:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Ställa in index för diagramdatabladet
 	int defaultWorksheetIndex = 0;
-	// Hämta arbetsbladet för diagramdata
+	//Hämta arbetsbladet för diagramdata
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Ta bort standardgenererade serier och kategorier
 	chart.getChartData().getSeries().clear();
@@ -165,10 +165,10 @@ Du har framgångsrikt skapat ett cirkeldiagram i en PowerPoint-presentation med 
 
 ### Hur kan jag anpassa färgerna på enskilda skivor i cirkeldiagrammet?
 
- För att anpassa färgerna på enskilda skivor i cirkeldiagrammet kan du använda`getAutomaticSeriesColors` metod för att hämta standardfärgschemat och sedan ändra färgerna efter behov. Här är ett exempel:
+ För att anpassa färgerna på enskilda skivor i cirkeldiagrammet kan du använda`getAutomaticSeriesColors`metod för att hämta standardfärgschemat och sedan ändra färgerna efter behov. Här är ett exempel:
 
 ```java
-// Hämta standardfärgschemat
+// Få standardfärgschemat
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Ändra färgerna efter behov

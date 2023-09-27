@@ -46,7 +46,7 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPie
 // Divisez le gâteau en pourcentage
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-//Définir la position de la division
+// Définir la position de la division
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
@@ -88,7 +88,7 @@ Dans ce didacticiel, nous avons appris à ajouter des options de deuxième trac�
 
 ###  Qu'est-ce que`PieSplitBy` control in a Pie of Pie chart?
 
- Le`PieSplitBy` La propriété contrôle la façon dont le diagramme circulaire est divisé. Vous pouvez le définir soit`PieSplitType.ByPercentage` ou`PieSplitType.ByValue` pour diviser le graphique par pourcentage ou par une valeur spécifique, respectivement.
+ Le`PieSplitBy`La propriété contrôle la façon dont le diagramme circulaire est divisé. Vous pouvez le définir soit`PieSplitType.ByPercentage` ou`PieSplitType.ByValue` pour diviser le graphique par pourcentage ou par une valeur spécifique, respectivement.
 
 ### Comment définir la position de la division dans un graphique à secteurs ?
 

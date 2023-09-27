@@ -93,7 +93,7 @@ File.WriteAllBytes("extracted-video.mp4", videoData);
 
 ### Как установить Aspose.Slides для .NET?
 
- Вы можете загрузить библиотеку Aspose.Slides для .NET с сайта[здесь](https://releases.aspose.com/slides/net) и следуйте инструкциям по установке, приведенным в документации.
+ Вы можете загрузить библиотеку Aspose.Slides для .NET с сайта[здесь](https://releases.aspose.com/slides/net)и следуйте инструкциям по установке, приведенным в документации.
 
 ### Могу ли я извлечь несколько медиафайлов из одного слайда?
 

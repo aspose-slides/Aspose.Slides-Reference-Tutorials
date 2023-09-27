@@ -115,12 +115,12 @@ Ja, Sie können das Erscheinungsbild der anklickbaren Formen anpassen, indem Sie
 
 ### Ist der Abschnittszoom in allen Folienlayouts verfügbar?
 
-Ja, Sie können Ausschnittsvergrößerungen in Folien mit unterschiedlichen Layouts implementieren. Der Vorgang bleibt unabhängig vom Folienlayout derselbe.
+Ja, Sie können Abschnittszooms in Folien mit unterschiedlichen Layouts implementieren. Der Vorgang bleibt unabhängig vom Folienlayout derselbe.
 
 ### Kann ich Abschnittszooms zwischen nicht aufeinanderfolgenden Folien erstellen?
 
 Ja, mit Aspose.Slides können Sie Abschnittsvergrößerungen zwischen nicht aufeinanderfolgenden Folien erstellen und so Ihren Präsentationsablauf flexibel gestalten.
 
-### Wie füge ich Animationen zu Abschnittszoomen hinzu?
+### Wie füge ich Animationen zu Abschnittszooms hinzu?
 
 Abschnittszooms selbst unterstützen keine Animationen. Sie können Abschnittszooms jedoch mit anderen Animationen und Übergängen kombinieren, um ein dynamisches Präsentationserlebnis zu schaffen.

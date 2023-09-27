@@ -122,7 +122,7 @@ In questo tutorial, abbiamo esaminato il processo di creazione di un grafico a m
 
 ### Come posso personalizzare l'aspetto del grafico della mappa?
 
-È possibile personalizzare l'aspetto del grafico modificando le proprietà del file`dataPoint` oggetto nel passaggio 6. Puoi modificare colori, valori e altro.
+ È possibile personalizzare l'aspetto del grafico modificando le proprietà del file`dataPoint` oggetto nel passaggio 6. Puoi modificare colori, valori e altro.
 
 ### Posso aggiungere più punti dati e categorie?
 

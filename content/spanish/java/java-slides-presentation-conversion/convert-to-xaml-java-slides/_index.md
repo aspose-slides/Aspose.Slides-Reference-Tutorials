@@ -138,7 +138,7 @@ static class NewXamlSaver implements IXamlOutputSaver
 
 ## Conclusión
 
-Convertir presentaciones a XAML en Java utilizando la API Aspose.Slides para Java es una manera poderosa de integrar su contenido de PowerPoint en aplicaciones que dependen de interfaces de usuario basadas en XAML. Si sigue los pasos descritos en esta guía, podrá realizar fácilmente esta tarea y mejorar la usabilidad de sus aplicaciones.
+Convertir presentaciones a XAML en Java usando la API Aspose.Slides para Java es una manera poderosa de integrar su contenido de PowerPoint en aplicaciones que dependen de interfaces de usuario basadas en XAML. Si sigue los pasos descritos en esta guía, podrá realizar fácilmente esta tarea y mejorar la usabilidad de sus aplicaciones.
 
 ## Preguntas frecuentes
 

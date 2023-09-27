@@ -49,7 +49,7 @@ pres.Save(outPath, SaveFormat.Pptx);
 
 Bu kod parçacığında:
 
-- `dataDir`PPT dosyanızın bulunduğu dizin yolu ile değiştirilmelidir.
+- `dataDir` PPT dosyanızın bulunduğu dizin yolu ile değiştirilmelidir.
 - `outPath` dönüştürülen PPTX dosyasını kaydetmek istediğiniz dizinle değiştirilmelidir.
 - `srcFileName` giriş PPT dosyanızın adıdır.
 - `destFileName` çıktı PPTX dosyası için istenen addır.
@@ -58,7 +58,7 @@ Bu kod parçacığında:
 
 Tebrikler! Aspose.Slides for .NET API'sini kullanarak bir PowerPoint sunumunu PPT'den PPTX formatına başarıyla dönüştürdünüz. Bu güçlü kitaplık, bunun gibi karmaşık görevleri basitleştirerek .NET geliştirme deneyiminizi daha sorunsuz hale getirir.
 
- Henüz yapmadıysanız,[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/) ve yeteneklerini daha fazla keşfedin.
+ Henüz yapmadıysanız,[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/)ve yeteneklerini daha fazla keşfedin.
 
  Daha fazla eğitim ve ipucu için sayfamızı ziyaret edin.[dokümantasyon](https://reference.aspose.com/slides/net/).
 

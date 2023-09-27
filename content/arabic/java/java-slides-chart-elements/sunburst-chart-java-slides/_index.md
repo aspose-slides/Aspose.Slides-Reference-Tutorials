@@ -14,7 +14,7 @@ url: /ar/java/chart-elements/sunburst-chart-java-slides/
 
 ## المتطلبات الأساسية
 
-قبل أن تبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java وتكوينها في مشروع Java الخاص بك. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/java/).
+ قبل أن تبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java وتكوينها في مشروع Java الخاص بك. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/java/).
 
 ## الخطوة 1: استيراد المكتبات المطلوبة
 

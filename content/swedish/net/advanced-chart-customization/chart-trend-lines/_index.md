@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 // Lägg till en bild
 ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.TitleAndContent);
 
-// Lägg till ett diagram på bilden
+//Lägg till ett diagram på bilden
 IChart chart = slide.Shapes.AddChart(ChartType.Line, 100, 100, 500, 300);
 
 // Lägg till data i diagrammet

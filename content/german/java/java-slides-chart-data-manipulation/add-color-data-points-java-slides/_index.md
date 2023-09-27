@@ -112,7 +112,7 @@ Um die Farbe anderer Datenpunkte zu ändern, können Sie einem ähnlichen Ansatz
 
 ### Kann ich andere Aspekte des Diagramms anpassen?
 
-Ja, Sie können verschiedene Aspekte des Diagramms anpassen, einschließlich Schriftarten, Beschriftungen, Titel und mehr. Siehe die[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) für detaillierte Anpassungsoptionen.
+ Ja, Sie können verschiedene Aspekte des Diagramms anpassen, einschließlich Schriftarten, Beschriftungen, Titel und mehr. Siehe die[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) für detaillierte Anpassungsoptionen.
 
 ### Wo finde ich weitere Beispiele und Dokumentation?
 

@@ -103,7 +103,7 @@ In questo tutorial, abbiamo esplorato come creare un grafico a istogramma in una
 
 ### Come installo Aspose.Slides per Java?
 
- È possibile scaricare la libreria Aspose.Slides per Java da[Qui](https://releases.aspose.com/slides/java/). Seguire le istruzioni di installazione fornite sul loro sito web.
+ È possibile scaricare la libreria Aspose.Slides per Java da[Qui](https://releases.aspose.com/slides/java/). Seguire le istruzioni di installazione fornite sul loro sito Web.
 
 ### A cosa serve un grafico a istogramma?
 

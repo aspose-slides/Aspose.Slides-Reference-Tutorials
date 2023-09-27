@@ -10,7 +10,7 @@ url: /sv/java/presentation-conversion/convert-html-embedding-images-java-slides/
 
 ## Introduktion till att konvertera HTML-inbäddningsbilder i Java Slides
 
-den här steg-för-steg-guiden går vi igenom processen att konvertera en PowerPoint-presentation till ett HTML-dokument samtidigt som du bäddar in bilder med Aspose.Slides för Java. Denna handledning förutsätter att du redan har konfigurerat din utvecklingsmiljö och har Aspose.Slides för Java-biblioteket installerat.
+I den här steg-för-steg-guiden går vi igenom processen att konvertera en PowerPoint-presentation till ett HTML-dokument samtidigt som du bäddar in bilder med Aspose.Slides för Java. Denna handledning förutsätter att du redan har konfigurerat din utvecklingsmiljö och har Aspose.Slides för Java-biblioteket installerat.
 
 ## Krav
 
@@ -95,7 +95,7 @@ try {
 	Html5Options options = new Html5Options();
 	//Tvinga spara inte bilder i HTML5-dokument
 	options.setEmbedImages(false);
-	// Ställ in sökväg för externa bilder
+	// Ange sökväg för externa bilder
 	options.setOutputPath(outFilePath);
 	// Skapa katalog för utdata HTML-dokument
 	File f = new File(outFilePath);

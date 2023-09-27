@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Skaffa arbetsboken för diagramdata.
 
 ```java
-// Hämta arbetsbladet för diagramdata
+//Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Ställa in index för diagramdatabladet
 int defaultWorksheetIndex = 0;
-// Hämta arbetsbladet för diagramdata
+//Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Lägg till serier
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());

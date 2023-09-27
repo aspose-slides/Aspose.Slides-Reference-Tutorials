@@ -74,7 +74,7 @@ pres.save(outPath, SaveFormat.Pptx);
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Получите лебели первой серии
             IDataLabelCollection labels = series.get_Item(0).getLabels();
-            //Изменить цвет всех линий-выносок в коллекции.
+            // Изменить цвет всех линий-выносок в коллекции.
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
             // Сохранить результат
             pres.save(outPath, SaveFormat.Pptx);

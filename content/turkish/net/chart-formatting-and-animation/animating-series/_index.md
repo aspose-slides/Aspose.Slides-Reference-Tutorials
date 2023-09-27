@@ -46,7 +46,7 @@ using (Presentation presentation = new Presentation())
     // Slayt ekle
     ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.Blank);
 
-    // Slayta grafik ekleme
+    //Slayta grafik ekleme
     IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 600, 400);
 
     // Grafiğe veri serisi ekleme

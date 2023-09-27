@@ -15,7 +15,7 @@ Grafikler, çeşitli uygulamalardaki verileri görsel olarak temsil etmenin gü�
 Uygulamaya geçmeden önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 - Temel C# programlama bilgisi.
-- Aspose.Slides for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net).
+-  Aspose.Slides for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net).
 
 ## Projenin Kurulumu
 Başlamak için tercih ettiğiniz geliştirme ortamında yeni bir C# projesi oluşturun. Ardından NuGet paket yöneticisini kullanarak Aspose.Slides kitaplığını yükleyin. Bu, NuGet Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırarak gerçekleştirilebilir:
@@ -61,7 +61,7 @@ string dataRange = chart.ChartData.GetRange();
 
 ```csharp
 // dataRange'ı kullanılabilir formata dönüştürün (örneğin, Excel hücre aralığı)
-//Gerektiğinde verileri çıkarın ve işleyin
+// Gerektiğinde verileri çıkarın ve işleyin
 ```
 
 ## Verileri Görüntüleme veya İşleme
@@ -81,7 +81,7 @@ presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
 ## Çözüm
-Bu kılavuzda Aspose.Slides for .NET kullanarak grafik veri aralığı elde etme sürecini anlattık. Projeyi oluşturmayı, sunumu yüklemeyi, grafik verilerine erişmeyi, veri aralığını çıkarmayı, verilerle çalışmayı, verileri görüntülemeyi veya işlemeyi ve değişiklikleri kaydetmeyi anlattık. Aspose.Slides, PowerPoint sunumlarıyla programlı olarak etkileşim kurmak için güçlü bir araç seti sağlayarak veri çıkarma gibi görevleri sorunsuz hale getirir.
+Bu kılavuzda Aspose.Slides for .NET kullanarak grafik veri aralığı elde etme sürecini anlattık. Projeyi oluşturmayı, sunumu yüklemeyi, grafik verilerine erişmeyi, veri aralığını çıkarmayı, verilerle çalışmayı, verileri görüntülemeyi veya işlemeyi ve değişiklikleri kaydetmeyi ele aldık. Aspose.Slides, PowerPoint sunumlarıyla programlı olarak etkileşim kurmak için güçlü bir araç seti sağlayarak veri çıkarma gibi görevleri sorunsuz hale getirir.
 
 ## SSS'ler
 

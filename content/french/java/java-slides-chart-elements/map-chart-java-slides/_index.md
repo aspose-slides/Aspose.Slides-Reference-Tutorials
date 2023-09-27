@@ -49,7 +49,7 @@ series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B3", 1));
 series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B4", 10));
 ```
 
-## Étape 5 : Ajouter des catégories
+## Étape 5 : ajouter des catégories
 
 Nous devons ajouter des catégories à la carte, représentant différentes régions géographiques.
 
@@ -122,7 +122,7 @@ Dans ce didacticiel, nous avons parcouru le processus de création d'un graphiqu
 
 ### Comment puis-je personnaliser l’apparence du graphique cartographique ?
 
-Vous pouvez personnaliser l'apparence du graphique en modifiant les propriétés du`dataPoint` objet à l’étape 6. Vous pouvez modifier les couleurs, les valeurs, etc.
+ Vous pouvez personnaliser l'apparence du graphique en modifiant les propriétés du`dataPoint` objet à l’étape 6. Vous pouvez modifier les couleurs, les valeurs, etc.
 
 ### Puis-je ajouter plus de points de données et de catégories ?
 

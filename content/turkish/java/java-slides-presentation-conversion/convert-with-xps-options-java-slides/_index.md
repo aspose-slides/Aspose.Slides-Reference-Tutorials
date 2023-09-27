@@ -38,7 +38,7 @@ String dataDir = "Your Document Directory";
 
 ## 3. Adım: Sunuyu Yükleyin
 
- Bir örneğini oluşturun`Presentation`sınıfa gidin ve dönüştürmek istediğiniz PowerPoint sunum dosyasını yükleyin. Sağlanan kodda "Convert_XPS_Options.pptx" adlı bir sunum yüklüyoruz.
+ Bir örneğini oluşturun`Presentation` sınıfa gidin ve dönüştürmek istediğiniz PowerPoint sunum dosyasını yükleyin. Sağlanan kodda "Convert_XPS_Options.pptx" adlı bir sunum yüklüyoruz.
 
 ```java
 Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");

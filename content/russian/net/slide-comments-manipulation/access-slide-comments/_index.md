@@ -56,7 +56,7 @@ foreach (Comment comment in comments)
     string text = comment.Text;
     DateTime dateTime = comment.DateTime;
 
-    // Обработайте информацию комментариев по мере необходимости.
+    // Обработайте информацию комментариев по мере необходимости
 }
 ```
 

@@ -46,7 +46,7 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setSecondPie
 // قم بتقسيم الفطيرة بنسبة مئوية
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitBy(PieSplitType.ByPercentage);
 
-//اضبط موضع الانقسام
+// اضبط موضع الانقسام
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
@@ -88,7 +88,7 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ###  ماذا فعلت`PieSplitBy` control in a Pie of Pie chart?
 
- ال`PieSplitBy` تتحكم الخاصية في كيفية تقسيم المخطط الدائري. يمكنك ضبطه على أي منهما`PieSplitType.ByPercentage` أو`PieSplitType.ByValue` لتقسيم المخطط حسب النسبة المئوية أو بقيمة محددة، على التوالي.
+ ال`PieSplitBy`تتحكم الخاصية في كيفية تقسيم المخطط الدائري. يمكنك ضبطه على أي منهما`PieSplitType.ByPercentage` أو`PieSplitType.ByValue` لتقسيم المخطط حسب النسبة المئوية أو بقيمة محددة، على التوالي.
 
 ### كيف أقوم بتعيين موضع الانقسام في مخطط دائري؟
 

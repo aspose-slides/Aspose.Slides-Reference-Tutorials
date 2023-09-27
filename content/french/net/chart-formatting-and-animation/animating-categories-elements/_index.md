@@ -10,7 +10,7 @@ url: /fr/net/chart-formatting-and-animation/animating-categories-elements/
 
 ## Introduction à l'animation d'éléments de catégories dans un graphique à l'aide d'Aspose.Slides pour .NET
 
-Ce guide vous guidera tout au long du processus d'animation des éléments de catégorie dans un graphique à l'aide de la bibliothèque Aspose.Slides pour .NET. Aspose.Slides for .NET est une bibliothèque puissante qui vous permet de créer, modifier et manipuler des présentations PowerPoint par programme.
+Ce guide vous guidera tout au long du processus d'animation des éléments de catégorie dans un graphique à l'aide de la bibliothèque Aspose.Slides pour .NET. Aspose.Slides pour .NET est une bibliothèque puissante qui vous permet de créer, modifier et manipuler des présentations PowerPoint par programme.
 
 ## Conditions préalables
 

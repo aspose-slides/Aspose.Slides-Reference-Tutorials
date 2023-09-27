@@ -22,7 +22,7 @@ url: /zh/net/licensing-and-formatting/
 
 无论您是寻求简化许可程序还是提升演示文稿的视觉美感，这些教程都将为您提供实现目标的见解和技能。让我们踏上这段旅程，提高您的 Aspose.Slides 熟练程度并创建给人留下深刻印象的演示文稿。
 
-## 许可和格式化教程
+## 许可和格式教程
 ### [Aspose.Slides 中的许可和格式设置](./licensing-and-formatting/)
 了解如何有效地使用 Aspose.Slides for .NET，从许可到格式设置、动画等。轻松创建引人入胜的演示文稿。
 ### [计量许可使用](./metered-licensing/)

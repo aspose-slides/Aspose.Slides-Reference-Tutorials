@@ -94,7 +94,7 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 
 ### 我可以插入其他演示文稿中的幻灯片吗？
 
-是的你可以。您可以从另一个演示文稿克隆幻灯片并使用以下命令将它们插入到当前演示文稿中，而不是从头开始创建新幻灯片`InsertClone`方法。
+是的你可以。您可以从另一个演示文稿克隆幻灯片并将其插入到当前演示文稿中，而不是从头开始创建新幻灯片。`InsertClone`方法。
 
 ### 如果我想在演示文稿的开头插入幻灯片怎么办？
 

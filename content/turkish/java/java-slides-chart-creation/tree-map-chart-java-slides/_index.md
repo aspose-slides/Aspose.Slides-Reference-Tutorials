@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // Şube 1'i oluştur
+    //Şube 1'i oluştur
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -151,4 +151,4 @@ Evet, aynı adımları izleyerek ve farklı slayt konumları belirterek tek bir 
 
 ### Sunuyu Ağaç Haritası grafiğiyle nasıl kaydederim?
 
- Kullan`pres.save()`Sunumu Ağaç Haritası grafiğiyle istenen formatta (örneğin, PPTX) kaydetme yöntemini kullanın.
+ Kullan`pres.save()` Sunumu Ağaç Haritası grafiğiyle istenen formatta (örneğin, PPTX) kaydetme yöntemini kullanın.

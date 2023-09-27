@@ -22,7 +22,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 ## Schritt 1: Laden Sie die Präsentation
 
- Zuerst müssen Sie die PowerPoint-Präsentation laden, die das Diagramm enthält, das Sie animieren möchten. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
+Zuerst müssen Sie die PowerPoint-Präsentation laden, die das Diagramm enthält, das Sie animieren möchten. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,7 +44,7 @@ IChart chart = (IChart) shapes.get_Item(0);
  Fügen wir nun Animationseffekte zu den Diagrammelementen hinzu. Wir werden das verwenden`slide.getTimeline().getMainSequence().addEffect()` -Methode, um anzugeben, wie das Diagramm animiert werden soll.
 
 ```java
-//Animieren Sie das gesamte Diagramm
+// Animieren Sie das gesamte Diagramm
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Animieren Sie einzelne Serienelemente (Sie können diesen Teil anpassen)
@@ -113,7 +113,7 @@ Sie können die Animation für einzelne Diagrammelemente anpassen, indem Sie den
 
 ### Kann ich Animationen auf andere Objekte in einer PowerPoint-Folie anwenden?
 
- Ja, Sie können Animationen auf verschiedene Objekte in einer PowerPoint-Folie anwenden, nicht nur auf Diagramme. Benutzen Sie die`addEffect` -Methode, um das zu animierende Objekt und die gewünschten Animationseigenschaften anzugeben.
+Ja, Sie können Animationen auf verschiedene Objekte in einer PowerPoint-Folie anwenden, nicht nur auf Diagramme. Benutzen Sie die`addEffect` -Methode, um das zu animierende Objekt und die gewünschten Animationseigenschaften anzugeben.
 
 ### Wie integriere ich Aspose.Slides für Java in mein Projekt?
 

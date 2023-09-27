@@ -104,7 +104,7 @@ Bu kılavuzda Aspose.Slides for .NET kullanarak sunum slaytlarında büyüleyici
 
 Evet, slaytlar arasında yineleyerek ve yakınlaştırma efektini her slayta ayrı ayrı ekleyerek yakınlaştırma efektini birden fazla slayta uygulayabilirsiniz.
 
-### Yakınlaştırma efektini diğer geçiş efektleriyle birleştirmek mümkün mü?
+### Yakınlaştırma efektini diğer geçiş efektleriyle birleştirmek mümkün müdür?
 
 Kesinlikle! Aspose.Slides for .NET, dinamik ve görsel olarak çekici slayt geçişleri oluşturmak için yakınlaştırma efektini diğer geçiş efektleriyle birleştirmenize olanak tanır.
 

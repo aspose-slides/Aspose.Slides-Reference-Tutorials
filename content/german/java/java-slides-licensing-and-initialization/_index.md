@@ -18,7 +18,7 @@ Die Lizenzierung von Aspose.Slides für Java ist der erste und wichtigste Schrit
 
 2. Lizenzinitialisierung: Sobald Sie Ihre Lizenz haben, müssen Sie sie in Ihrer Java-Anwendung initialisieren. Dieser Schritt ist wichtig, um sicherzustellen, dass Ihre Anwendung die Lizenz erkennt und ordnungsgemäß funktioniert.
 
-3. Anwenden der Lizenz: Verwenden Sie die Aspose.Slides-API, um Ihre Lizenz auf Ihr Java-Projekt anzuwenden. Dieser Schritt stellt sicher, dass Sie Zugriff auf alle Funktionen und Möglichkeiten der Bibliothek haben.
+3. Anwenden der Lizenz: Verwenden Sie die Aspose.Slides-API, um Ihre Lizenz auf Ihr Java-Projekt anzuwenden. Dieser Schritt stellt sicher, dass Sie Zugriff auf alle Funktionen und Fähigkeiten der Bibliothek haben.
 
 ### Aspose.Slides für Java initialisieren
 

@@ -60,7 +60,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 Toutes nos félicitations! Vous avez converti avec succès un fichier au format FODP vers d'autres formats de présentation à l'aide d'Aspose.Slides pour .NET. Cette bibliothèque polyvalente ouvre un monde de possibilités pour travailler avec des présentations par programmation.
 
- Si vous rencontrez des problèmes ou avez des questions, n'hésitez pas à demander de l'aide sur le[Forum Aspose.Slides](https://forum.aspose.com/). La communauté et l'équipe d'assistance sont là pour vous aider.
+ Si vous rencontrez des problèmes ou avez des questions, n'hésitez pas à demander de l'aide sur le[Forum Aspose.Slides](https://forum.aspose.com/)La communauté et l'équipe d'assistance sont là pour vous aider.
 
 ## FAQ
 

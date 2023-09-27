@@ -98,7 +98,7 @@ slide.Shapes.Remove(connectorLine);
 lineFormat.FillFormat.SolidFillColor.Color = Color.Red;
 ```
 
-### Bağlantı çizgilerine ok uçları eklemek mümkün mü?
+### Bağlantı çizgilerine ok uçları eklemek mümkün müdür?
 
  Kesinlikle! Bağlantı çizgilerini değiştirerek ok uçları ekleyebilirsiniz.`LineFormat` mülk:
 

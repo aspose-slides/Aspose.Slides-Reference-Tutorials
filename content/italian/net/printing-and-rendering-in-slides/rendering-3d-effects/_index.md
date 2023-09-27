@@ -49,7 +49,7 @@ slide.Shapes.AddEmbedded3DModelFrame(embeddingResult);
 
 ## Regolazione degli effetti e delle proprietà 3D
 
-Una volta aggiunto il modello 3D, puoi regolarne gli effetti e le proprietà. Ciò include rotazione, ridimensionamento e posizionamento. Ecco un esempio di come puoi ottenere questo risultato:
+Una volta aggiunto il modello 3D, puoi modificarne gli effetti e le proprietà. Ciò include rotazione, ridimensionamento e posizionamento. Ecco un esempio di come puoi ottenere questo risultato:
 
 ```csharp
 // Ottieni la cornice del modello 3D

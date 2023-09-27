@@ -94,7 +94,7 @@ finally
 
 ### Как установить Aspose.Slides для Java?
 
- Вы можете скачать Aspose.Slides для Java с сайта[здесь](https://releases.aspose.com/slides/java/) и следуйте инструкциям по установке, приведенным в документации.
+ Вы можете скачать Aspose.Slides для Java с сайта[здесь](https://releases.aspose.com/slides/java/)и следуйте инструкциям по установке, приведенным в документации.
 
 ### Могу ли я конвертировать презентации PowerPoint в другие форматы?
 

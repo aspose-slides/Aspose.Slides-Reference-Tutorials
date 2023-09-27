@@ -65,7 +65,7 @@ HyperlinkManager.AddHyperlinkToSlide(slide, "Continue to the next section", next
 
 ## Köprüleri Yönetme
 
-Sununuz geliştikçe mevcut köprüleri düzenlemeniz veya güncellemeniz gerekebilir. Aspose.Slides for .NET, köprü yönetimi için kullanışlı yöntemler sağlar.
+Sununuz geliştikçe mevcut köprüleri düzenlemeniz veya güncellemeniz gerekebilir. Aspose.Slides for .NET, köprü yönetimi için kullanışlı yöntemler sunar.
 
 ## Köprüleri Düzenleme ve Güncelleme
 

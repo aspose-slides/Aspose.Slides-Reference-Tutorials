@@ -74,7 +74,7 @@ pres.save(outPath, SaveFormat.Pptx);
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Obtenez les labels de la première série
             IDataLabelCollection labels = series.get_Item(0).getLabels();
-            //Changer la couleur de toutes les lignes de repère de la collection
+            // Changer la couleur de toutes les lignes de repère de la collection
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
             // Enregistrer le résultat
             pres.save(outPath, SaveFormat.Pptx);

@@ -16,7 +16,7 @@ url: /ar/java/presentation-conversion/convert-to-pdf-java-slides/
 
 قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.Slides لمكتبة Java: تحتاج إلى تثبيت مكتبة Aspose.Slides لـ Java. يمكنك تنزيله من[Aspose.Slides لصفحة تنزيل Java](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides لمكتبة Java: تحتاج إلى تثبيت مكتبة Aspose.Slides لـ Java. يمكنك تنزيله من[Aspose.Slides لصفحة تنزيل Java](https://releases.aspose.com/slides/java/).
 
 2. بيئة تطوير Java: تأكد من تثبيت Java على نظامك، وأنك على دراية ببرمجة Java.
 
@@ -26,7 +26,7 @@ url: /ar/java/presentation-conversion/convert-to-pdf-java-slides/
 
 ## الخطوة 2: قم بتحميل عرض PowerPoint التقديمي
 
-في هذه الخطوة، سنقوم بتحميل عرض PowerPoint التقديمي الذي نريد تحويله إلى PDF. يستبدل`"Your Document Directory"` و`"ConvertToPDF.pptx"` بالمسار الفعلي لملف العرض التقديمي الخاص بك.
+ في هذه الخطوة، سنقوم بتحميل عرض PowerPoint التقديمي الذي نريد تحويله إلى PDF. يستبدل`"Your Document Directory"` و`"ConvertToPDF.pptx"` بالمسار الفعلي لملف العرض التقديمي الخاص بك.
 
 ```java
 // المسار إلى دليل المستندات.
@@ -53,7 +53,7 @@ finally
 
 ## الخطوة 4: أكمل التحويل
 
- في الكود أعلاه، نحفظ العرض التقديمي كملف PDF بالاسم`"output_out.pdf"` في دليل الإخراج المحدد. يمكنك ضبط اسم ملف الإخراج ومساره وفقًا لمتطلباتك.
+ في الكود أعلاه، نحفظ العرض التقديمي كملف PDF بالاسم`"output_out.pdf"`في دليل الإخراج المحدد. يمكنك ضبط اسم ملف الإخراج ومساره وفقًا لمتطلباتك.
 
 ## كود المصدر الكامل للتحويل إلى PDF في شرائح Java
 

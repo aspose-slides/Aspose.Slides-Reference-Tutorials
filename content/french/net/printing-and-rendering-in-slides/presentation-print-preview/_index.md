@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Aperçu de la sortie d'impression
 
- Pour prévisualiser la sortie imprimée de la présentation, vous pouvez utiliser le`Print`méthode fournie par le`PrintManager` classe. Cette méthode vous permet de générer une image d’aperçu avant impression de la présentation. Voici comment procéder :
+ Pour prévisualiser la sortie imprimée de la présentation, vous pouvez utiliser le`Print` méthode fournie par le`PrintManager`classe. Cette méthode vous permet de générer une image d’aperçu avant impression de la présentation. Voici comment procéder :
 
 ```csharp
 using Aspose.Slides.Export;

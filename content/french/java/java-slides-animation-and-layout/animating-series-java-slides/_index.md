@@ -10,7 +10,7 @@ url: /fr/java/animation-and-layout/animating-series-java-slides/
 
 ## Introduction à l'animation de séries dans Aspose.Slides pour Java
 
-Dans ce guide, nous vous guiderons à travers le processus d'animation de séries dans des diapositives Java à l'aide de l'API Aspose.Slides pour Java. Cette bibliothèque vous permet de travailler avec des présentations PowerPoint par programmation.
+Dans ce guide, nous vous guiderons à travers le processus d'animation de séries dans des diapositives Java à l'aide de l'API Aspose.Slides pour Java. Cette bibliothèque vous permet de travailler avec des présentations PowerPoint par programme.
 
 ## Conditions préalables
 
@@ -26,7 +26,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 ```java
 // Le chemin d'accès au répertoire des documents.
 String dataDir = "Your Document Directory";
-// Instancier la classe Présentation qui représente un fichier de présentation
+//Instancier la classe Présentation qui représente un fichier de présentation
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -46,7 +46,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 Maintenant, ajoutons des animations à la série dans le graphique. Nous allons utiliser un effet de fondu et faire apparaître chaque série les unes après les autres.
 
 ```java
-//Animer l'intégralité du graphique
+// Animer l'intégralité du graphique
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Ajoutez des animations à chaque série (en supposant qu'il y ait 4 séries)
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Le chemin d'accès au répertoire des documents.
 String dataDir = "Your Document Directory";
-// Instancier la classe Présentation qui représente un fichier de présentation
+//Instancier la classe Présentation qui représente un fichier de présentation
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {

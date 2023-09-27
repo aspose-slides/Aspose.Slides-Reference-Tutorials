@@ -76,7 +76,7 @@ try
 		// Définition du chevauchement des séries
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	// Écrire le fichier de présentation sur le disque
+	//Écrire le fichier de présentation sur le disque
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

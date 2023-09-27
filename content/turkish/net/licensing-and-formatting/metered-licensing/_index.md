@@ -103,7 +103,7 @@ using (Presentation presentation = new Presentation("input.pptx"))
 
 ## Çözüm
 
-Ölçülü Lisanslama, Aspose.Slides for .NET gibi güçlü API'leri kullanmanın esnek ve uygun maliyetli bir yolunu sunar. Bu makalede özetlenen adımları izleyerek, Ölçülü Lisanslamayı .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilir, böylece güçlü bir sunum düzenleme kitaplığının avantajlarından yararlanırken kullandığınız kadar ödeme yapmanıza da olanak tanıyabilirsiniz.
+Ölçülü Lisanslama, Aspose.Slides for .NET gibi güçlü API'leri kullanmanın esnek ve uygun maliyetli bir yolunu sunar. Bu makalede özetlenen adımları izleyerek, Ölçülü Lisanslamayı .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilir, böylece güçlü bir sunum düzenleme kitaplığının avantajlarından yararlanırken kullandığınız kadar ödeme yapmanıza olanak tanıyabilirsiniz.
 
 ## SSS'ler
 

@@ -98,7 +98,7 @@ try
 {
 	// Skapa ett bubbeldiagram
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	//Lägger till anpassade felfält och ställer in dess format
+	// Lägger till anpassade felfält och ställer in dess format
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();

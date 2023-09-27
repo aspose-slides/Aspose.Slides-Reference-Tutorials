@@ -43,7 +43,7 @@ pdfOptions.Password = "password";
 
 ## 4. Adım: Parola Korumalı PDF olarak kaydedin
 
- Artık sununuzu parola korumalı PDF olarak kaydetmeye hazırsınız. Yer değiştirmek`"Your Output Directory"` PDF'yi kaydetmek istediğiniz yolla ve`"PasswordProtectedPDF_out.pdf"`İstenilen çıktı dosyası adı ile.
+ Artık sununuzu parola korumalı PDF olarak kaydetmeye hazırsınız. Yer değiştirmek`"Your Output Directory"` PDF'yi kaydetmek istediğiniz yolla ve`"PasswordProtectedPDF_out.pdf"` İstenilen çıktı dosyası adı ile.
 
 ```csharp
 string outPath = "Your Output Directory";

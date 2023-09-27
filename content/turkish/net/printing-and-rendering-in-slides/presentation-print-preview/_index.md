@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Yazdırma Çıktısının Önizlenmesi
 
- Sunumun çıktı çıktısını önizlemek için şunları kullanabilirsiniz:`Print`tarafından sağlanan yöntem`PrintManager` sınıf. Bu yöntem sunumun baskı önizleme görüntüsünü oluşturmanıza olanak tanır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+ Sunumun çıktı çıktısını önizlemek için şunları kullanabilirsiniz:`Print` tarafından sağlanan yöntem`PrintManager`sınıf. Bu yöntem sunumun baskı önizleme görüntüsünü oluşturmanıza olanak tanır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
 using Aspose.Slides.Export;

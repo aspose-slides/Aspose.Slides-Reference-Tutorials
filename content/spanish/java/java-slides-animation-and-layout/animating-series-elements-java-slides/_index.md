@@ -22,7 +22,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 
 ## Paso 1: Cargue la presentación
 
- Primero, debes cargar la presentación de PowerPoint que contiene el gráfico que deseas animar. Reemplazar`"Your Document Directory"` con la ruta real a su directorio de documentos.
+Primero, debes cargar la presentación de PowerPoint que contiene el gráfico que deseas animar. Reemplazar`"Your Document Directory"` con la ruta real a su directorio de documentos.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,7 +44,7 @@ IChart chart = (IChart) shapes.get_Item(0);
  Ahora, agreguemos efectos de animación a los elementos del gráfico. Usaremos el`slide.getTimeline().getMainSequence().addEffect()` método para especificar cómo debe animarse el gráfico.
 
 ```java
-//Animar todo el gráfico.
+// Animar todo el gráfico.
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Animar elementos de series individuales (puedes personalizar esta parte)
@@ -113,7 +113,7 @@ Puede personalizar la animación para elementos individuales del gráfico modifi
 
 ### ¿Puedo aplicar animaciones a otros objetos en una diapositiva de PowerPoint?
 
- Sí, puedes aplicar animaciones a varios objetos en una diapositiva de PowerPoint, no sólo a gráficos. Utilizar el`addEffect` método para especificar el objeto que desea animar y las propiedades de animación deseadas.
+Sí, puedes aplicar animaciones a varios objetos en una diapositiva de PowerPoint, no sólo a gráficos. Utilizar el`addEffect` método para especificar el objeto que desea animar y las propiedades de animación deseadas.
 
 ### ¿Cómo integro Aspose.Slides para Java en mi proyecto?
 

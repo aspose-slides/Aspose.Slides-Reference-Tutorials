@@ -22,7 +22,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 ## 1. Adım: Sunuyu Yükleyin
 
- Öncelikle canlandırmak istediğiniz grafiği içeren PowerPoint sunumunu yüklemeniz gerekir. Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
+Öncelikle canlandırmak istediğiniz grafiği içeren PowerPoint sunumunu yüklemeniz gerekir. Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,7 +44,7 @@ IChart chart = (IChart) shapes.get_Item(0);
  Şimdi grafik öğelerine animasyon efektleri ekleyelim. biz kullanacağız`slide.getTimeline().getMainSequence().addEffect()` Grafiğin nasıl canlandırılacağını belirtme yöntemini kullanın.
 
 ```java
-//Grafiğin tamamını canlandırın
+// Grafiğin tamamını canlandırın
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Bireysel seri öğelerini canlandırın (bu bölümü özelleştirebilirsiniz)
@@ -113,7 +113,7 @@ Koddaki animasyon türünü ve tetikleyiciyi değiştirerek animasyonu ayrı ayr
 
 ### PowerPoint slaytındaki diğer nesnelere animasyon uygulayabilir miyim?
 
- Evet, animasyonları yalnızca grafiklere değil, PowerPoint slaydındaki çeşitli nesnelere de uygulayabilirsiniz. Kullan`addEffect` Canlandırmak istediğiniz nesneyi ve istenen animasyon özelliklerini belirtme yöntemini kullanın.
+Evet, animasyonları yalnızca grafiklere değil, PowerPoint slaydındaki çeşitli nesnelere de uygulayabilirsiniz. Kullan`addEffect` Canlandırmak istediğiniz nesneyi ve istenen animasyon özelliklerini belirtme yöntemini kullanın.
 
 ### Aspose.Slides for Java'yı projeme nasıl entegre edebilirim?
 

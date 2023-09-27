@@ -22,7 +22,7 @@ url: /ar/java/animation-and-layout/animating-series-elements-java-slides/
 
 ## الخطوة 1: قم بتحميل العرض التقديمي
 
- أولاً، تحتاج إلى تحميل عرض PowerPoint التقديمي الذي يحتوي على المخطط الذي تريد تحريكه. يستبدل`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
+أولاً، تحتاج إلى تحميل عرض PowerPoint التقديمي الذي يحتوي على المخطط الذي تريد تحريكه. يستبدل`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,7 +44,7 @@ IChart chart = (IChart) shapes.get_Item(0);
  الآن، دعونا نضيف تأثيرات الحركة إلى عناصر المخطط. سوف نستخدم`slide.getTimeline().getMainSequence().addEffect()` طريقة لتحديد كيفية تحريك المخطط.
 
 ```java
-//تحريك المخطط بأكمله
+// تحريك المخطط بأكمله
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // تحريك عناصر السلسلة الفردية (يمكنك تخصيص هذا الجزء)
@@ -113,7 +113,7 @@ finally
 
 ### هل يمكنني تطبيق الرسوم المتحركة على كائنات أخرى في شريحة PowerPoint؟
 
- نعم، يمكنك تطبيق الرسوم المتحركة على كائنات مختلفة في شريحة PowerPoint، وليس فقط المخططات. استخدم ال`addEffect` طريقة لتحديد الكائن الذي تريد تحريكه وخصائص الحركة المطلوبة.
+نعم، يمكنك تطبيق الرسوم المتحركة على كائنات مختلفة في شريحة PowerPoint، وليس فقط المخططات. استخدم ال`addEffect` طريقة لتحديد الكائن الذي تريد تحريكه وخصائص الحركة المطلوبة.
 
 ### كيف يمكنني دمج Aspose.Slides for Java في مشروعي؟
 

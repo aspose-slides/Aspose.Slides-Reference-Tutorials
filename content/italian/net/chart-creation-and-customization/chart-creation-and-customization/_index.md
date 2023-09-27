@@ -139,7 +139,7 @@ Incorpora più serie per una rappresentazione completa dei dati:
 IChartSeries series2 = chart.ChartData.Series.Add(workbook.GetCell(0, 2), chart.Type);
 ```
 
-2. Imposta i valori per la nuova serie:
+2. Impostare i valori per la nuova serie:
 ```csharp
 series2.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 3));
 ```

@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 
 ## Passaggio 4: aggiunta di un grafico alla presentazione
 
-Successivamente, aggiungiamo un istogramma in cluster alla presentazione. Utilizzeremo il seguente codice per ottenere questo risultato:
+Successivamente, aggiungiamo un istogramma in cluster alla presentazione. Utilizzeremo il seguente codice per ottenere ciò:
 
 ```java
 // Creazione di un istogramma a colonne raggruppate
@@ -71,7 +71,7 @@ Questo codice garantisce che il colore di riempimento della serie sia impostato 
 Per salvare la presentazione, utilizzare il seguente codice:
 
 ```java
-// Scrivere il file di presentazione su disco
+//Scrivere il file di presentazione su disco
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	// Scrivere il file di presentazione su disco
+	//Scrivere il file di presentazione su disco
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

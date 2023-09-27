@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Seriler ve veri noktaları oluşturarak grafiğe veri ekliyoruz. Bu örnekte, ilgili veri noktalarıyla birlikte iki seri ekliyoruz.
 
 ```java
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Yeni seri ekle
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// Grafik verileri çalışma sayfasını alma
+//Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Yeni seri ekle
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -161,7 +161,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Çözüm
 
-Bu kılavuzu takip ederek, iş raporlarında, eğitim materyallerinde ve daha fazlasında bilgilerin etkili bir şekilde iletilmesinde özellikle yararlı olabilecek yüzdeye dayalı veri etiketleriyle ilgi çekici sunumların nasıl oluşturulacağını öğrendiniz.
+Bu kılavuzu takip ederek, yüzdeye dayalı veri etiketleriyle ilgi çekici sunumların nasıl oluşturulacağını öğrendiniz; bu, özellikle iş raporlarında, eğitim materyallerinde ve daha fazlasında bilgilerin etkili bir şekilde iletilmesinde yararlı olabilir.
 
 ## SSS'ler
 

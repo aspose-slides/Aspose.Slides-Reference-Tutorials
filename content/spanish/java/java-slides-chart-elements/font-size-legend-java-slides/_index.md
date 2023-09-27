@@ -40,7 +40,7 @@ try
 }
 ```
 
-En este código, creamos un gráfico de columnas agrupadas en la primera diapositiva y configuramos el tamaño de fuente del texto de la leyenda en 20 puntos. Puedes ajustar el`setFontHeight` valor para cambiar el tamaño de fuente según sea necesario.
+ En este código, creamos un gráfico de columnas agrupadas en la primera diapositiva y configuramos el tamaño de fuente del texto de la leyenda en 20 puntos. Puedes ajustar el`setFontHeight`valor para cambiar el tamaño de fuente según sea necesario.
 
 ## Paso 3: personalizar los valores del eje
 
@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- En este código, creamos un gráfico y configuramos el tamaño de fuente del texto de la leyenda en 20 puntos. Puedes ajustar el`setFontHeight` valor para cambiar el tamaño de fuente.
+ En este código, creamos un gráfico y configuramos el tamaño de fuente del texto de la leyenda en 20 puntos. Puedes ajustar el`setFontHeight`valor para cambiar el tamaño de fuente.
 
 ### ¿Puedo personalizar otras propiedades de la leyenda en un gráfico?
 
@@ -134,4 +134,4 @@ Aquí, deshabilitamos el escalado automático del eje y especificamos los valore
 
 ### ¿Dónde puedo encontrar más información y documentación para Aspose.Slides?
 
- Puede encontrar documentación completa y referencias de API para Aspose.Slides para Java en el sitio web de documentación de Aspose. Visita[aquí](https://reference.aspose.com/slides/java/) para obtener información detallada sobre el uso de la biblioteca.
+Puede encontrar documentación completa y referencias de API para Aspose.Slides para Java en el sitio web de documentación de Aspose. Visita[aquí](https://reference.aspose.com/slides/java/) para obtener información detallada sobre el uso de la biblioteca.

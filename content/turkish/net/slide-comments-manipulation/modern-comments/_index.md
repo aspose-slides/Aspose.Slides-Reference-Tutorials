@@ -17,7 +17,7 @@ Sunum oluşturma ve işbirliği alanında Aspose.Slides güçlü bir araç seti 
 
 ### Faydalarını Anlamak
 
-Aspose.Slides'ın kullanıldığı modern yorum yönetimi çok sayıda fayda sağlar. Ekiplerin daha etkili bir şekilde işbirliği yapmasına olanak tanır, geri bildirim toplama sürecini basitleştirir ve sunum geliştirme döngüsünü hızlandırır. Aspose.Slides, sunumun bağlamı içinde kesintisiz iletişime olanak sağlayarak netliği artırır ve bağlantısız geri bildirim kanallarından kaynaklanabilecek karışıklığı ortadan kaldırır.
+Aspose.Slides'ın kullanıldığı modern yorum yönetimi çok sayıda fayda sağlar. Ekiplerin daha etkili bir şekilde işbirliği yapmasına olanak tanır, geri bildirim toplama sürecini basitleştirir ve sunum iyileştirme döngüsünü hızlandırır. Aspose.Slides, sunumun bağlamı içinde kesintisiz iletişime olanak sağlayarak netliği artırır ve bağlantısız geri bildirim kanallarından kaynaklanabilecek karışıklığı ortadan kaldırır.
 
 ### Yorumları Birleştirme
 
@@ -61,7 +61,7 @@ Aspose.Slides'ın kullanıldığı modern yorum yönetimi çok sayıda fayda sa�
 2. ### Verimli Karar Verme:
    Kolaylaştırılmış iletişim sayesinde ekipler hızlı ve güvenli bir şekilde kararlar alabilir. Tartışmalar belirli slaytlara bağlı kalarak karışıklığın önlenmesi ve bilinçli seçimlerin yapılması sağlanır.
 
-## Modern Yorum Yönetimi için Aspose.Slides'tan Yararlanmak: Adım Adım Kılavuz
+## Modern Yorum Yönetimi için Aspose.Slides'tan Yararlanma: Adım Adım Kılavuz
 
 1. ### Ortamın Ayarlanması:
     Aspose.Slides kütüphanesini web sitesinden indirip kurarak başlayın:[Aspose.Slides'ı indirin](https://releases.aspose.com/slides/net/).

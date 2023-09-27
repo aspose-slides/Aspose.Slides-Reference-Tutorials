@@ -136,7 +136,7 @@ In diesem Abschnitt gehen wir auf einige häufig gestellte Fragen im Zusammenhan
 
 ### Kann ich die Farbe für die invertierte Füllung in der Diagrammreihe anpassen?
 
- Ja, Sie können die Farbe für die invertierte Füllung in der Diagrammreihe anpassen. Im bereitgestellten Codebeispiel ist die`series.getInvertedSolidFillColor().setColor(Color.RED)` line setzt die Farbe für die invertierte Füllung auf Rot. Sie können ersetzen`Color.RED` mit jeder anderen Farbe Ihrer Wahl.
+Ja, Sie können die Farbe für die invertierte Füllung in der Diagrammreihe anpassen. Im bereitgestellten Codebeispiel ist die`series.getInvertedSolidFillColor().setColor(Color.RED)` line setzt die Farbe für die invertierte Füllung auf Rot. Sie können ersetzen`Color.RED` mit jeder anderen Farbe Ihrer Wahl.
 
 ### Wie kann ich den Diagrammtyp in Aspose.Slides für Java ändern?
 
@@ -144,7 +144,7 @@ In diesem Abschnitt gehen wir auf einige häufig gestellte Fragen im Zusammenhan
 
 ### Wie füge ich einem Diagramm mehrere Datenreihen hinzu?
 
- Um einem Diagramm mehrere Datenreihen hinzuzufügen, können Sie die verwenden`chart.getChartData().getSeries().add(...)`Methode für jede Serie, die Sie hinzufügen möchten. Stellen Sie sicher, dass Sie für jede Reihe die entsprechenden Datenpunkte und Beschriftungen angeben, um Ihr Diagramm mit mehreren Reihen zu füllen.
+ Um einem Diagramm mehrere Datenreihen hinzuzufügen, können Sie die verwenden`chart.getChartData().getSeries().add(...)` Methode für jede Serie, die Sie hinzufügen möchten. Stellen Sie sicher, dass Sie für jede Reihe die entsprechenden Datenpunkte und Beschriftungen angeben, um Ihr Diagramm mit mehreren Reihen zu füllen.
 
 ### Gibt es eine Möglichkeit, andere Aspekte der Diagrammdarstellung anzupassen?
 

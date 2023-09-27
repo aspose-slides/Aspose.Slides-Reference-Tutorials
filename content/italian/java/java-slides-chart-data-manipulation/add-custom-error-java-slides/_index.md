@@ -98,7 +98,7 @@ try
 {
 	// Creazione di un grafico a bolle
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	//Aggiunta di barre di errore personalizzate e impostazione del relativo formato
+	// Aggiunta di barre di errore personalizzate e impostazione del relativo formato
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 	IErrorBarsFormat errBarX = series.getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = series.getErrorBarsYFormat();

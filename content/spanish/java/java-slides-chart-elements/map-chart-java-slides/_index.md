@@ -122,7 +122,7 @@ En este tutorial, hemos recorrido el proceso de creación de un gráfico de mapa
 
 ### ¿Cómo puedo personalizar la apariencia del gráfico del mapa?
 
-Puede personalizar la apariencia del gráfico modificando las propiedades del`dataPoint` objeto en el Paso 6. Puede cambiar colores, valores y más.
+ Puede personalizar la apariencia del gráfico modificando las propiedades del`dataPoint` objeto en el Paso 6. Puede cambiar colores, valores y más.
 
 ### ¿Puedo agregar más puntos de datos y categorías?
 

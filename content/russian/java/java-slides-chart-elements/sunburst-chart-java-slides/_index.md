@@ -14,7 +14,7 @@ url: /ru/java/chart-elements/sunburst-chart-java-slides/
 
 ## Предварительные условия
 
-Прежде чем начать, убедитесь, что в вашем Java-проекте установлена и настроена библиотека Aspose.Slides for Java. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/java/).
+ Прежде чем начать, убедитесь, что в вашем Java-проекте установлена и настроена библиотека Aspose.Slides for Java. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/slides/java/).
 
 ## Шаг 1. Импортируйте необходимые библиотеки
 
@@ -93,7 +93,7 @@ series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D7", 4));
 series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
 ```
 
-## Шаг 7: Сохраните презентацию
+## Шаг 7. Сохраните презентацию
 
 Наконец, сохраните презентацию с диаграммой Sunburst.
 

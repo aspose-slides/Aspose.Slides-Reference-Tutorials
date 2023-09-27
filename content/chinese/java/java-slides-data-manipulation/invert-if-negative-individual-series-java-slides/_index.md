@@ -25,7 +25,7 @@ Aspose.Slides for Java 提供了强大的演示文稿工具，其中一项有趣
 
 ## 第 1 步：包含 Aspose.Slides 库
 
-首先，您需要在项目中包含 Aspose.Slides 库。您可以通过将库 JAR 文件添加到项目的类路径中来完成此操作。此步骤确保您可以访问处理 PowerPoint 演示文稿所需的所有类和方法。
+首先，您需要在项目中包含 Aspose.Slides 库。您可以通过将库 JAR 文件添加到项目的类路径来完成此操作。此步骤确保您可以访问处理 PowerPoint 演示文稿所需的所有类和方法。
 
 ```java
 import com.aspose.slides.*;

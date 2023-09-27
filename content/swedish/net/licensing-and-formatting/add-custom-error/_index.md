@@ -1,6 +1,6 @@
 ---
-title: Lägg till anpassade felstaplar till diagrammet
-linktitle: Lägg till anpassade felstaplar till diagrammet
+title: Lägg till anpassade felfält i diagrammet
+linktitle: Lägg till anpassade felfält i diagrammet
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du lägger till anpassade felstaplar till diagram med Aspose.Slides för .NET. Skapa, stil och anpassa felfält för korrekt datavisualisering.
 type: docs
@@ -100,7 +100,7 @@ Du kan utforma felstaplar för att förbättra deras synlighet och matcha ditt d
 ```csharp
 // Anpassa felfältets utseende
 errorBarsFormat.LineFormat.Width = 2; // Ställ in linjebredd
-errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; //Ställ in linjefärg
+errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; // Ställ in linjefärg
 
 // Spara den uppdaterade presentationen
 presentation.Save("StyledErrorBarsChart.pptx", SaveFormat.Pptx);

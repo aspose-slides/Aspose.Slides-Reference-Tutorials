@@ -14,7 +14,7 @@ In diesem Tutorial führen wir Sie durch den Prozess des Festlegens der Lückenb
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek installiert ist. Sie können es von der Aspose-Website herunterladen[Hier](https://releases.aspose.com/slides/java/).
+ Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek installiert ist. Sie können es von der Aspose-Website herunterladen[Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt für Schritt Anleitung
 
@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Holen Sie sich die Diagrammdaten-Arbeitsmappe
 
 ```java
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Festlegen des Index des Diagrammdatenblatts
 int defaultWorksheetIndex = 0;
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Serie hinzufügen
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -149,7 +149,7 @@ In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für Java die L�
 
 ### Wie ändere ich den Wert für die Lückenbreite?
 
- Um die Spaltbreite zu ändern, verwenden Sie die`setGapWidth` Methode auf der`ParentSeriesGroup` der Chartreihe. Im bereitgestellten Beispiel haben wir die Lückenbreite auf 50 eingestellt, Sie können diesen Wert jedoch an Ihren gewünschten Abstand anpassen.
+ Um die Spaltbreite zu ändern, verwenden Sie die`setGapWidth` Methode auf der`ParentSeriesGroup`der Chartreihe. Im bereitgestellten Beispiel haben wir die Lückenbreite auf 50 eingestellt, Sie können diesen Wert jedoch an Ihren gewünschten Abstand anpassen.
 
 ### Kann ich andere Diagrammeigenschaften anpassen?
 

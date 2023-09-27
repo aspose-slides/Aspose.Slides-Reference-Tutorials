@@ -32,7 +32,7 @@ import com.aspose.slides.*;
 
 ## Schritt 2: Laden Sie die PowerPoint-Präsentation
 
-Als Nächstes müssen Sie die PowerPoint-Präsentation laden, die Sie in ein TIFF-Bild konvertieren möchten. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer Präsentationsdatei.
+ Als Nächstes müssen Sie die PowerPoint-Präsentation laden, die Sie in ein TIFF-Bild konvertieren möchten. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer Präsentationsdatei.
 
 ```java
 // Der Pfad zum Dokumentenverzeichnis.
@@ -89,12 +89,12 @@ try
 	opts.setCompressionType(TiffCompressionTypes.Default);
 	INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
 	notesOptions.setNotesPosition(NotesPositions.BottomFull);
-	// Komprimierungstypen
+	// Komprimierungsarten
 	// Standard – Gibt das Standardkomprimierungsschema (LZW) an.
 	// Keine – Gibt keine Komprimierung an.
 	// CCITT3
 	// CCITT4
-	//LZW
+	// LZW
 	// RLE
 	// Die Tiefe hängt vom Komprimierungstyp ab und kann nicht manuell eingestellt werden.
 	// Die Auflösungseinheit ist immer „2“ (Punkte pro Zoll).
@@ -124,11 +124,11 @@ Glückwunsch! Sie haben eine PowerPoint-Präsentation mit Aspose.Slides für Jav
 
 ### Kann ich die DPI (Punkte pro Zoll) des TIFF-Bildes anpassen?
 
- Ja, Sie können die DPI mithilfe von anpassen`setDpiX` Und`setDpiY` Methoden in der`TiffOptions` Klasse. Stellen Sie einfach die gewünschten Werte ein, um die Bildauflösung zu steuern.
+Ja, Sie können die DPI mithilfe von anpassen`setDpiX` Und`setDpiY` Methoden in der`TiffOptions` Klasse. Stellen Sie einfach die gewünschten Werte ein, um die Bildauflösung zu steuern.
 
 ### Welche Optionen stehen für die Position von Notizen im TIFF-Bild zur Verfügung?
 
-Die Position der Notizen im TIFF-Bild kann mit konfiguriert werden`setNotesPosition` Methode mit Optionen wie BottomFull, BottomTruncated und SlideOnly. Wählen Sie diejenige aus, die Ihren Anforderungen am besten entspricht.
+ Die Position der Notizen im TIFF-Bild kann mit konfiguriert werden`setNotesPosition` Methode mit Optionen wie BottomFull, BottomTruncated und SlideOnly. Wählen Sie diejenige aus, die Ihren Anforderungen am besten entspricht.
 
 ### Ist es möglich, eine benutzerdefinierte Bildgröße für die TIFF-Konvertierung anzugeben?
 

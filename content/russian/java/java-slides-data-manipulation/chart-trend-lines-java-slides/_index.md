@@ -35,7 +35,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 ```
 
-Мы инициализировали нашу презентацию и теперь готовы добавить кластерную столбчатую диаграмму:
+Мы инициализировали нашу презентацию и теперь готовы добавить кластеризованную столбчатую диаграмму:
 
 ```java
 // Создание кластеризованной гистограммы
@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 Далее мы добавим линейную линию тренда в нашу серию диаграмм:
 
 ```java
-//Добавление линии линейного тренда для серии диаграмм 1
+// Добавление линии линейного тренда для серии диаграмм 1
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -134,7 +134,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // Создание кластеризованной гистограммы
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-//Добавление линии потенциального тренда для серии диаграмм 1
+// Добавление линии потенциального тренда для серии диаграмм 1
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
@@ -173,7 +173,7 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 
 ### Как изменить цвет линии тренда в Aspose.Slides для Java?
 
- Чтобы изменить цвет линии тренда, вы можете использовать`getSolidFillColor().setColor(Color)` метод, как показано в примере добавления линейной линии тренда.
+Чтобы изменить цвет линии тренда, вы можете использовать`getSolidFillColor().setColor(Color)` метод, как показано в примере добавления линейной линии тренда.
 
 ### Могу ли я добавить несколько линий тренда в одну серию графиков?
 

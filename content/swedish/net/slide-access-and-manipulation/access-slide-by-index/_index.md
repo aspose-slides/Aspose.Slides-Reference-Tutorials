@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation(presentationPath))
 }
 ```
 
-## Få åtkomst till bilder efter sekventiellt index
+## Få tillgång till bilder efter sekventiellt index
 
 Nu när vi har laddat vår presentation, låt oss fortsätta för att komma åt bilder genom deras sekventiella index:
 

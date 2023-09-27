@@ -104,7 +104,7 @@ finally
 
 ### Aspose.Slides for Java 适合专业 PowerPoint 自动化吗？
 
-绝对地！ Aspose.Slides for Java 是一个功能强大的库，用于自动执行 PowerPoint 任务，使其适用于基本和高级专业用例。它提供了以编程方式创建、修改和管理 PowerPoint 演示文稿的丰富功能。
+绝对地！ Aspose.Slides for Java 是一个功能强大的库，用于自动执行 PowerPoint 任务，使其适用于基本和高级专业用例。它提供了以编程方式创建、修改和管理 PowerPoint 演示文稿的广泛功能。
 
 ### 如何访问 Aspose.Slides for Java 的更多文档？
 

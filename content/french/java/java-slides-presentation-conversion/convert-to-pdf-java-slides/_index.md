@@ -16,7 +16,7 @@ Dans ce didacticiel, nous vous guiderons tout au long du processus de conversion
 
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1.  Bibliothèque Aspose.Slides pour Java : vous devez avoir installé la bibliothèque Aspose.Slides pour Java. Vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
+1. Bibliothèque Aspose.Slides pour Java : vous devez avoir installé la bibliothèque Aspose.Slides pour Java. Vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
 
 2. Environnement de développement Java : assurez-vous que Java est installé sur votre système et que vous êtes familier avec la programmation Java.
 
@@ -26,7 +26,7 @@ Tout d’abord, vous devez inclure la bibliothèque Aspose.Slides dans votre pro
 
 ## Étape 2 : Charger la présentation PowerPoint
 
-Dans cette étape, nous chargerons la présentation PowerPoint que nous souhaitons convertir en PDF. Remplacer`"Your Document Directory"` et`"ConvertToPDF.pptx"` avec le chemin réel vers votre fichier de présentation.
+ Dans cette étape, nous chargerons la présentation PowerPoint que nous souhaitons convertir en PDF. Remplacer`"Your Document Directory"` et`"ConvertToPDF.pptx"` avec le chemin réel vers votre fichier de présentation.
 
 ```java
 // Le chemin d'accès au répertoire des documents.
@@ -53,7 +53,7 @@ finally
 
 ## Étape 4 : Terminez la conversion
 
- Dans le code ci-dessus, nous enregistrons la présentation au format PDF avec le nom`"output_out.pdf"` dans le répertoire de sortie spécifié. Vous pouvez ajuster le nom et le chemin du fichier de sortie selon vos besoins.
+ Dans le code ci-dessus, nous enregistrons la présentation au format PDF avec le nom`"output_out.pdf"`dans le répertoire de sortie spécifié. Vous pouvez ajuster le nom et le chemin du fichier de sortie selon vos besoins.
 
 ## Code source complet pour convertir en PDF dans les diapositives Java
 

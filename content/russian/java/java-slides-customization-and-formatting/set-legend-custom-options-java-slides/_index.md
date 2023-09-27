@@ -38,7 +38,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## Шаг 4. Добавьте слайд в презентацию:
+## Шаг 4. Добавьте слайд в презентацию:
 
 ```java
 try {

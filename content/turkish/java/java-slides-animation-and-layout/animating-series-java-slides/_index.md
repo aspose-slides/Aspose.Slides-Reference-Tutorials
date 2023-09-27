@@ -26,7 +26,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 ```java
 // Belgeler dizininin yolu.
 String dataDir = "Your Document Directory";
-// Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
+//Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -46,7 +46,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 Şimdi grafik içerisindeki serilere animasyonlar ekleyelim. Solma efekti kullanacağız ve her serinin birbiri ardına görünmesini sağlayacağız.
 
 ```java
-//Grafiğin tamamını canlandırın
+// Grafiğin tamamını canlandırın
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Her seriye animasyon ekleyin (4 seri olduğunu varsayarak)
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Belgeler dizininin yolu.
 String dataDir = "Your Document Directory";
-// Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
+//Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {

@@ -100,7 +100,7 @@ Puoi definire uno stile per le barre di errore per migliorarne la visibilità e 
 ```csharp
 // Personalizza l'aspetto della barra di errore
 errorBarsFormat.LineFormat.Width = 2; // Imposta la larghezza della linea
-errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; //Imposta il colore della linea
+errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; // Imposta il colore della linea
 
 // Salva la presentazione aggiornata
 presentation.Save("StyledErrorBarsChart.pptx", SaveFormat.Pptx);

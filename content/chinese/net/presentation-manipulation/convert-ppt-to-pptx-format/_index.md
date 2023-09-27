@@ -73,7 +73,7 @@ Aspose.Slides for .NET 是一个 .NET 库，允许开发人员以编程方式创
 ### 3. Aspose.Slides for .NET可以免费使用吗？
 不，这是一个商业图书馆，但您可以探索[免费试用](https://releases.aspose.com/)来评价其特点。
 
-### 4. Aspose.Slides for .NET是否支持其他文档格式？
+### 4. Aspose.Slides for .NET还支持其他文档格式吗？
 是的，Aspose.Slides for .NET 还支持处理 Word 文档、Excel 电子表格和其他文件格式。
 
 ### 5. 我在哪里可以获得有关 Aspose.Slides for .NET 的支持或提出问题？

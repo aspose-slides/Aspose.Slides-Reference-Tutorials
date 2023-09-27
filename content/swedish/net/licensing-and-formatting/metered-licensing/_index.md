@@ -32,7 +32,7 @@ För att börja använda Aspose.Slides för .NET med Metered Licensing, följ de
 
 2. Inkludera nödvändiga referenser: I ditt projekt, lägg till referenser till Aspose.Slides-biblioteket och alla andra beroenden.
 
-## Skaffa mätlicens
+## Erhålla mätlicens
 
 1.  Registrera dig för ett Metered Account: Om du inte redan har ett, registrera dig för ett Metered Account på[Aspose hemsida](https://www.aspose.com/).
 

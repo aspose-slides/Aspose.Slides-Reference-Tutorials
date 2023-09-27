@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 Als Nächstes fügen wir unserer Diagrammreihe eine lineare Trendlinie hinzu:
 
 ```java
-//Hinzufügen einer linearen Trendlinie für Diagrammserie 1
+// Hinzufügen einer linearen Trendlinie für Diagrammserie 1
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -134,7 +134,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // Erstellen eines gruppierten Säulendiagramms
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-//Hinzufügen einer ponentiellen Trendlinie für Diagrammserie 1
+// Hinzufügen einer ponentiellen Trendlinie für Diagrammserie 1
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
@@ -173,7 +173,7 @@ In diesem Tutorial haben wir gelernt, wie man mithilfe der Aspose.Slides for Jav
 
 ### Wie ändere ich die Farbe einer Trendlinie in Aspose.Slides für Java?
 
- Um die Farbe einer Trendlinie zu ändern, können Sie die verwenden`getSolidFillColor().setColor(Color)` Methode, wie im Beispiel zum Hinzufügen einer linearen Trendlinie gezeigt.
+Um die Farbe einer Trendlinie zu ändern, können Sie die verwenden`getSolidFillColor().setColor(Color)` Methode, wie im Beispiel zum Hinzufügen einer linearen Trendlinie gezeigt.
 
 ### Kann ich einer einzelnen Diagrammserie mehrere Trendlinien hinzufügen?
 

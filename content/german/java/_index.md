@@ -51,3 +51,15 @@ Erfahren Sie, wie Sie mit Aspose.Slides für Java dynamische Java-Folien mit Dia
 Erfahren Sie, wie Sie Java-Folienpräsentationen mühelos mit Aspose.Slides für Java konvertieren. Es erwarten Sie umfassende Tutorials und Schritt-für-Schritt-Anleitungen.
 ### [Datenmanipulation mit Java-Folien](./data-manipulation/)
 Verbessern Sie Ihre Fähigkeiten zur Datenbearbeitung in Java Slides mit Aspose.Slides für Java-Tutorials. Erfahren Sie Schritt für Schritt, wie Sie Präsentationen effizient erstellen, bearbeiten und umwandeln.
+### [Zusätzliche Dienstprogramme für Java Slides](./additional-utilities/)
+Entdecken Sie zusätzliche Dienstprogramme für Java Slides mithilfe von Aspose.Slides für Java-Tutorials. Werten Sie Ihre Präsentationen mit leistungsstarken Funktionen auf. Jetzt entdecken!
+### [Präsentationseigenschaften für Java-Folien](./presentation-properties/)
+Erfahren Sie, wie Sie die Präsentationseigenschaften Ihrer Java-Folien mit Aspose.Slides für Java-Tutorials verbessern. Entdecken Sie Tipps und Tricks für dynamische Präsentationen.
+### [Java Slides-Mediensteuerelemente](./media-controls/)
+Erfahren Sie, wie Sie Mediensteuerelemente in Java-Folien mithilfe von Aspose.Slides für Java-Tutorials implementieren. Erweitern Sie Ihre Präsentationen nahtlos mit Audio und Video.
+### [Umgang mit Java-Folienbildern](./image-handling/)
+Erfahren Sie, wie Sie mit Aspose.Slides für Java-Tutorials mit Bildern in Java-Folien umgehen. Entdecken Sie die Schritt-für-Schritt-Anleitung für eine effiziente Bildverwaltung.
+### [Java Slides-Dokumentenschutz](./document-protection/)
+Erfahren Sie, wie Sie mit Aspose.Slides die Sicherheit Ihrer Java Slides-Dokumente erhöhen. Entdecken Sie Schritt-für-Schritt-Anleitungen zum Dokumentenschutz.
+### [Optionen zum Speichern von Java-Folien](./saving-options/)
+Erfahren Sie mehr über die Speicheroptionen für Java Slides mit Aspose.Slides für Java. Entdecken Sie umfassende Tutorials und Anleitungen für eine effiziente Folienverwaltung und -anpassung.

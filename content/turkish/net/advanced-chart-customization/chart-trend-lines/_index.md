@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 // Slayt ekle
 ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.TitleAndContent);
 
-// Slayta grafik ekleme
+//Slayta grafik ekleme
 IChart chart = slide.Shapes.AddChart(ChartType.Line, 100, 100, 500, 300);
 
 // Grafiğe veri ekleme

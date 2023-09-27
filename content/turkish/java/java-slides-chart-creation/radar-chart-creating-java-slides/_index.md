@@ -14,7 +14,7 @@ Bu eğitimde Aspose.Slides for Java API'sini kullanarak Radar Grafiği oluşturm
 
 ## Önkoşullar
 
-Başlamadan önce Aspose.Slides for Java kütüphanesinin projenize entegre olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+ Başlamadan önce Aspose.Slides for Java kütüphanesinin projenize entegre olduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
 
 ## Adım 1: Sunumu Ayarlama
 
@@ -99,7 +99,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 Radar grafiğimiz için ekseni ve göstergeleri özelleştirelim.
 
 ```java
-//Gösterge konumunu ayarla
+// Gösterge konumunu ayarla
 ichart.getLegend().setPosition(LegendPositionType.Bottom);
 
 // Kategori Ekseni Metin Özelliklerini Ayarlama
@@ -199,7 +199,7 @@ try
 	// Seri rengini ayarla
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
-	//Gösterge konumunu ayarla
+	// Gösterge konumunu ayarla
 	ichart.getLegend().setPosition(LegendPositionType.Bottom);
 	// Kategori Ekseni Metin Özelliklerini Ayarlama
 	IChartPortionFormat txtCat = ichart.getAxes().getHorizontalAxis().getTextFormat().getPortionFormat();
@@ -267,4 +267,4 @@ Yazı tipi boyutu ve rengi de dahil olmak üzere eksen etiketlerini ve biçimlen
 
 ### Grafiği farklı bir dosya biçiminde nasıl kaydederim?
 
- Dosya uzantısını değiştirerek çıktı biçimini değiştirebilirsiniz.`outPath`değişken ve uygun olanı kullanarak`SaveFormat` . Örneğin, PDF olarak kaydetmek için şunu kullanın:`SaveFormat.Pdf`.
+ Dosya uzantısını değiştirerek çıktı biçimini değiştirebilirsiniz.`outPath` değişken ve uygun olanı kullanarak`SaveFormat` . Örneğin, PDF olarak kaydetmek için şunu kullanın:`SaveFormat.Pdf`.

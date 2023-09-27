@@ -18,7 +18,7 @@ Kodlara dalmadan önce geliştirme ortamımızı ayarlayalım. Bu adımları tak
 
 1.  Aspose.Slides for .NET'i indirin:[indirme sayfası](https://releases.aspose.com/slides/net/) ve projenizle uyumlu sürümü seçin.
 
-2. Aspose.Slides'ı yükleyin: İndirdikten sonra, DLL referansını projenize ekleyerek Aspose.Slides'ı yükleyin.
+2. Aspose.Slides'ı yükleyin: İndirdikten sonra, DLL referansını projenize ekleyerek Aspose.Slides'ı kurun.
 
 3. Yeni Bir Proje Oluşturun: Tercih ettiğiniz geliştirme ortamını (örneğin, Visual Studio) kullanarak yeni bir .NET projesi oluşturun.
 

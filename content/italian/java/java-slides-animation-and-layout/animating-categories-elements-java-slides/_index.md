@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- In questo codice carichiamo una presentazione PowerPoint esistente che contiene il grafico che desideri animare. Sostituire`"Your Document Directory"` con il percorso effettivo della directory dei documenti.
+In questo codice carichiamo una presentazione PowerPoint esistente che contiene il grafico che desideri animare. Sostituire`"Your Document Directory"` con il percorso effettivo della directory dei documenti.
 
 ## Passaggio 3: ottieni un riferimento all'oggetto grafico
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// Scrivere il file di presentazione su disco
+	//Scrivere il file di presentazione su disco
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Sì, puoi applicare animazioni simili ad altri tipi di grafici modificando il co
 
 ### Come posso saperne di più su Aspose.Slides per Java?
 
- Per documentazione completa e risorse aggiuntive, visitare il[Aspose.Slides per riferimento API Java](https://reference.aspose.com/slides/java/) . Puoi anche scaricare la libreria da[Qui](https://releases.aspose.com/slides/java/).
+Per documentazione completa e risorse aggiuntive, visitare il[Aspose.Slides per riferimento API Java](https://reference.aspose.com/slides/java/) . Puoi anche scaricare la libreria da[Qui](https://releases.aspose.com/slides/java/).

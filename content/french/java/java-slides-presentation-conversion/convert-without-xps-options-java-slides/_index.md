@@ -78,7 +78,7 @@ finally
 
 ## Conclusion
 
-Dans ce didacticiel, vous avez appris à convertir une présentation PowerPoint en document XPS sans spécifier d'options XPS à l'aide d'Aspose.Slides pour Java. Vous pouvez personnaliser davantage le processus de conversion en explorant les options fournies par Aspose.Slides pour Java. Pour des fonctionnalités plus avancées et une documentation approfondie, visitez le[Documentation Aspose.Slides pour Java](https://docs.aspose.com/slides/java/).
+ Dans ce didacticiel, vous avez appris à convertir une présentation PowerPoint en document XPS sans spécifier d'options XPS à l'aide d'Aspose.Slides pour Java. Vous pouvez personnaliser davantage le processus de conversion en explorant les options fournies par Aspose.Slides pour Java. Pour des fonctionnalités plus avancées et une documentation approfondie, visitez le[Documentation Aspose.Slides pour Java](https://docs.aspose.com/slides/java/).
 
 ## FAQ
 

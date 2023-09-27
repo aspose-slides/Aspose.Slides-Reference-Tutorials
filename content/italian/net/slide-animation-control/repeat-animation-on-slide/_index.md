@@ -2,7 +2,7 @@
 title: Ripeti l'animazione sulla diapositiva
 linktitle: Ripeti l'animazione sulla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come ripetere le animazioni su una diapositiva utilizzando Aspose.Slides per .NET. Questa guida passo passo fornisce il codice sorgente e istruzioni chiare per aggiungere animazioni accattivanti alle presentazioni PowerPoint a livello di codice.
+description: Scopri come ripetere le animazioni su una diapositiva utilizzando Aspose.Slides per .NET. Questa guida passo passo fornisce il codice sorgente e istruzioni chiare per aggiungere animazioni accattivanti alle presentazioni PowerPoint a livello di programmazione.
 type: docs
 weight: 12
 url: /it/net/slide-animation-control/repeat-animation-on-slide/

@@ -98,7 +98,7 @@ Dans ce guide, nous vous avons montré comment convertir des présentations Powe
 
 ### Puis-je régler le délai entre les diapositives dans le GIF ?
 
-Oui, vous pouvez régler le délai entre les diapositives en modifiant la valeur dans`setDefaultDelay`. Il est spécifié en millisecondes, alors réglez-le sur le temps de retard souhaité.
+ Oui, vous pouvez régler le délai entre les diapositives en modifiant la valeur dans`setDefaultDelay`. Il est spécifié en millisecondes, alors réglez-le sur le temps de retard souhaité.
 
 ### Quel est le FPS recommandé pour la conversion GIF ?
 

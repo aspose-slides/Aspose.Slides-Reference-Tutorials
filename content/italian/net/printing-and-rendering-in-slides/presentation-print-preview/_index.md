@@ -45,7 +45,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
 
 ## Anteprima dell'output di stampa
 
- Per visualizzare in anteprima l'output di stampa della presentazione, è possibile utilizzare il file`Print`metodo previsto dal`PrintManager` classe. Questo metodo consente di generare un'immagine di anteprima di stampa della presentazione. Ecco come puoi farlo:
+ Per visualizzare in anteprima l'output di stampa della presentazione, è possibile utilizzare il file`Print` metodo previsto dal`PrintManager`classe. Questo metodo consente di generare un'immagine di anteprima di stampa della presentazione. Ecco come puoi farlo:
 
 ```csharp
 using Aspose.Slides.Export;

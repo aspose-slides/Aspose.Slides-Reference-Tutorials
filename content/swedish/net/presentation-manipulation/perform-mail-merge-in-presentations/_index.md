@@ -1,6 +1,6 @@
 ---
-title: Utför sammankoppling av brev i presentationer
-linktitle: Utför sammankoppling av brev i presentationer
+title: Utför koppling av brev i presentationer
+linktitle: Utför koppling av brev i presentationer
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du utför sammanslagning i presentationer med Aspose.Slides för .NET i den här omfattande steg-för-steg-guiden. Skapa personliga och dynamiska presentationer med lätthet.
 type: docs

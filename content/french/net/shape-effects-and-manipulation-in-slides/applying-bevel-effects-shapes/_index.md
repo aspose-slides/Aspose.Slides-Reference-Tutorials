@@ -84,7 +84,7 @@ System.Diagnostics.Process.Start("output_with_bevel.pptx");
 
 ### Puis-je appliquer des effets de biseau au texte d’une forme ?
 
- Oui, vous pouvez appliquer des effets de biseau au texte d’une forme. Au lieu d'appliquer l'effet à la forme entière, ciblez le bloc de texte à l'aide du`TextFrame` propriété de la forme, puis appliquez l’effet de biseau.
+ Oui, vous pouvez appliquer des effets de biseau au texte d'une forme. Au lieu d'appliquer l'effet à la forme entière, ciblez le bloc de texte à l'aide du`TextFrame` propriété de la forme, puis appliquez l’effet de biseau.
 
 ### Existe-t-il d'autres types d'effets de biseau disponibles ?
 

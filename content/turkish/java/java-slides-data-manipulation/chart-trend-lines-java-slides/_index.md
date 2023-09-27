@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 Daha sonra grafik serimize doğrusal bir trend çizgisi ekleyeceğiz:
 
 ```java
-//Grafik serisi 1 için doğrusal trend çizgisi ekleme
+// Grafik serisi 1 için doğrusal trend çizgisi ekleme
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -134,7 +134,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // Kümelenmiş sütun grafiği oluşturma
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-//Grafik serisi 1 için potansiyel trend çizgisi ekleme
+// Grafik serisi 1 için potansiyel trend çizgisi ekleme
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
@@ -173,7 +173,7 @@ Bu eğitimde, Aspose.Slides for Java kütüphanesini kullanarak Java Slides'daki
 
 ### Aspose.Slides for Java'da trend çizgisinin rengini nasıl değiştiririm?
 
- Bir trend çizgisinin rengini değiştirmek için`getSolidFillColor().setColor(Color)` Doğrusal bir trend çizgisi ekleme örneğinde gösterildiği gibi yöntem.
+Bir trend çizgisinin rengini değiştirmek için`getSolidFillColor().setColor(Color)` Doğrusal bir trend çizgisi ekleme örneğinde gösterildiği gibi yöntem.
 
 ### Tek bir grafik serisine birden fazla trend çizgisi ekleyebilir miyim?
 

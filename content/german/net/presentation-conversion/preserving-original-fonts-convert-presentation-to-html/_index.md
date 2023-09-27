@@ -75,7 +75,7 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## 8. Fazit
 
-In diesem Tutorial haben wir gezeigt, wie Sie die Originalschriftarten beibehalten, wenn Sie eine PowerPoint-Präsentation mit Aspose.Slides für .NET in HTML konvertieren. Durch Befolgen dieser Schritte können Sie sicherstellen, dass Ihr konvertiertes HTML-Dokument die visuelle Integrität der Originalpräsentation beibehält.
+In diesem Tutorial haben wir gezeigt, wie Sie Originalschriftarten beibehalten, wenn Sie eine PowerPoint-Präsentation mit Aspose.Slides für .NET in HTML konvertieren. Durch Befolgen dieser Schritte können Sie sicherstellen, dass Ihr konvertiertes HTML-Dokument die visuelle Integrität der Originalpräsentation beibehält.
 
 ## 9. FAQs
 
@@ -85,7 +85,7 @@ In diesem Tutorial haben wir gezeigt, wie Sie die Originalschriftarten beibehalt
 
 ### F2: Was passiert, wenn ich nicht alle Schriftarten einbetten möchte?
 
-Wenn Sie nur bestimmte Schriftarten einbetten möchten, können Sie den Code entsprechend anpassen. Weitere Informationen finden Sie in der Dokumentation zu Aspose.Slides für .NET.
+Wenn Sie nur bestimmte Schriftarten einbetten möchten, können Sie den Code entsprechend ändern. Weitere Informationen finden Sie in der Dokumentation zu Aspose.Slides für .NET.
 
 ### F3: Gibt es Lizenzanforderungen für die Verwendung von Aspose.Slides für .NET?
 

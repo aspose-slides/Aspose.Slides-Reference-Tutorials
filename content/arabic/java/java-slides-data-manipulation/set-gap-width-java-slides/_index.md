@@ -14,7 +14,7 @@ url: /ar/java/data-manipulation/set-gap-width-java-slides/
 
 ## المتطلبات الأساسية
 
-قبل أن تبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java. يمكنك تنزيله من موقع Aspose[هنا](https://releases.aspose.com/slides/java/).
+ قبل أن تبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java. يمكنك تنزيله من موقع Aspose[هنا](https://releases.aspose.com/slides/java/).
 
 ## دليل خطوة بخطوة
 
@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. احصل على مصنف بيانات المخطط
 
 ```java
-// الحصول على ورقة عمل بيانات المخطط
+//الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // إعداد فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
-// الحصول على ورقة عمل بيانات المخطط
+//الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // أضف سلسلة
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -149,7 +149,7 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ### كيف أقوم بتغيير قيمة عرض الفجوة؟
 
- لتغيير عرض الفجوة، استخدم`setGapWidth` الطريقة على`ParentSeriesGroup` من سلسلة الرسم البياني. في المثال المقدم، قمنا بتعيين Gap Width على 50، ولكن يمكنك ضبط هذه القيمة حسب التباعد المطلوب.
+ لتغيير عرض الفجوة، استخدم`setGapWidth` الطريقة على`ParentSeriesGroup`من سلسلة الرسم البياني. في المثال المقدم، قمنا بتعيين Gap Width على 50، ولكن يمكنك ضبط هذه القيمة حسب التباعد المطلوب.
 
 ### هل يمكنني تخصيص خصائص المخطط الأخرى؟
 

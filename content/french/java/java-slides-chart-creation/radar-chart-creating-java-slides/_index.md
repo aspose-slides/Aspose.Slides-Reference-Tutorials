@@ -14,9 +14,9 @@ Dans ce didacticiel, nous vous guiderons tout au long du processus de création 
 
 ## Conditions préalables
 
-Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est intégrée à votre projet. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/java/).
+ Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est intégrée à votre projet. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/java/).
 
-## Étape 1 : configuration de la présentation
+## Étape 1 : Configuration de la présentation
 
 Commençons par créer une nouvelle présentation PowerPoint et y ajouter une diapositive.
 
@@ -99,7 +99,7 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 Personnalisons les axes et les légendes de notre carte radar.
 
 ```java
-//Définir la position de la légende
+// Définir la position de la légende
 ichart.getLegend().setPosition(LegendPositionType.Bottom);
 
 // Définition des propriétés du texte de l'axe des catégories
@@ -199,7 +199,7 @@ try
 	// Définir la couleur de la série
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
-	//Définir la position de la légende
+	// Définir la position de la légende
 	ichart.getLegend().setPosition(LegendPositionType.Bottom);
 	// Définition des propriétés du texte de l'axe des catégories
 	IChartPortionFormat txtCat = ichart.getAxes().getHorizontalAxis().getTextFormat().getPortionFormat();
@@ -267,4 +267,4 @@ Reportez-vous à « Étape 5 » pour personnaliser les étiquettes et le formata
 
 ### Comment puis-je enregistrer le graphique dans un format de fichier différent ?
 
- Vous pouvez changer le format de sortie en modifiant l'extension du fichier dans le`outPath`variable et en utilisant le`SaveFormat` . Par exemple, pour enregistrer au format PDF, utilisez`SaveFormat.Pdf`.
+ Vous pouvez changer le format de sortie en modifiant l'extension du fichier dans le`outPath` variable et en utilisant le`SaveFormat` . Par exemple, pour enregistrer au format PDF, utilisez`SaveFormat.Pdf`.

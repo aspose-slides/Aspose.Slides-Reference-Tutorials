@@ -10,7 +10,7 @@ url: /sv/java/data-manipulation/chart-trend-lines-java-slides/
 
 ## Introduktion till diagramtrendlinjer i Java Slides: En steg-för-steg-guide
 
-den här omfattande guiden kommer vi att utforska hur man skapar diagramtrendlinjer i Java Slides med Aspose.Slides för Java. Diagramtrendlinjer kan vara ett värdefullt tillägg till dina presentationer, och hjälpa dig att visualisera och analysera datatrender på ett effektivt sätt. Vi guidar dig genom processen med tydliga förklaringar och kodexempel.
+I den här omfattande guiden kommer vi att utforska hur man skapar diagramtrendlinjer i Java Slides med Aspose.Slides för Java. Diagramtrendlinjer kan vara ett värdefullt tillägg till dina presentationer, och hjälpa dig att visualisera och analysera datatrender på ett effektivt sätt. Vi guidar dig genom processen med tydliga förklaringar och kodexempel.
 
 ## Förutsättningar
 
@@ -42,7 +42,7 @@ Vi har initierat vår presentation och nu är vi redo att lägga till ett klustr
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
 ```
 
-## Steg 2: Lägg till exponentiell trendlinje
+## Steg 2: Lägga till exponentiell trendlinje
 
 Låt oss börja med att lägga till en exponentiell trendlinje till vår diagramserie:
 
@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 Därefter lägger vi till en linjär trendlinje till vår diagramserie:
 
 ```java
-//Lägga till linjär trendlinje för diagramserie 1
+// Lägga till linjär trendlinje för diagramserie 1
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -134,7 +134,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // Skapa ett klustrat kolumndiagram
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-//Lägga till ponentiell trendlinje för diagramserie 1
+// Lägga till ponentiell trendlinje för diagramserie 1
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
@@ -173,7 +173,7 @@ I den här handledningen har vi lärt oss hur man lägger till olika typer av tr
 
 ### Hur ändrar jag färgen på en trendlinje i Aspose.Slides för Java?
 
- För att ändra färgen på en trendlinje kan du använda`getSolidFillColor().setColor(Color)` metod, som visas i exemplet för att lägga till en linjär trendlinje.
+För att ändra färgen på en trendlinje kan du använda`getSolidFillColor().setColor(Color)` metod, som visas i exemplet för att lägga till en linjär trendlinje.
 
 ### Kan jag lägga till flera trendlinjer i en enda diagramserie?
 

@@ -63,7 +63,7 @@ using (Presentation pres = new Presentation(presentationFileName))
 }
 ```
 
- في مقتطف الكود هذا، نقوم بتحميل العرض التقديمي المصدر وإنشاء خيارات تحويل XAML وتحديد خدمة مخصصة لحفظ المخرجات باستخدام`NewXamlSaver`نقوم بعد ذلك بحفظ ملفات XAML في دليل الإخراج المحدد.
+ في مقتطف الكود هذا، نقوم بتحميل العرض التقديمي المصدر وإنشاء خيارات تحويل XAML وتحديد خدمة مخصصة لحفظ المخرجات باستخدام`NewXamlSaver`. نقوم بعد ذلك بحفظ ملفات XAML في دليل الإخراج المحدد.
 
 ## الخطوة 3: فئة حفظ XAML المخصصة
 
@@ -110,6 +110,6 @@ Aspose.Slides for .NET هي مكتبة .NET للعمل مع عروض PowerPoint 
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 
 5. ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
-يمكنك العثور على الدعم والمناقشات المجتمعية[هنا](https://forum.aspose.com/).
+ يمكنك العثور على الدعم والمناقشات المجتمعية[هنا](https://forum.aspose.com/).
 
- لمزيد من الدروس والموارد، قم بزيارة[وثائق Aspose.Slides API](https://reference.aspose.com/slides/net/).
+لمزيد من الدروس والموارد، قم بزيارة[وثائق Aspose.Slides API](https://reference.aspose.com/slides/net/).

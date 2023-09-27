@@ -14,7 +14,7 @@ I den här handledningen kommer du att lära dig hur du skapar ett Sunburst-diag
 
 ## Förutsättningar
 
-Innan du börjar, se till att du har Aspose.Slides for Java-biblioteket installerat och konfigurerat i ditt Java-projekt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
+ Innan du börjar, se till att du har Aspose.Slides for Java-biblioteket installerat och konfigurerat i ditt Java-projekt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
 
 ## Steg 1: Importera nödvändiga bibliotek
 
@@ -78,7 +78,7 @@ chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 
 ## Steg 6: Lägg till data i diagrammet
 
-Lägg till datapunkter i Sunburst-diagramserien.
+Lägg till datapunkter till Sunburst-diagramserien.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Sunburst);
@@ -149,7 +149,7 @@ finally
 
 ## Slutsats
 
-I den här handledningen har du lärt dig hur du skapar ett Sunburst-diagram i en PowerPoint-presentation med Aspose.Slides för Java API. Du har sett hur du initierar presentationen, skapar diagrammet, definierar diagramhierarki, lägger till datapunkter och sparar presentationen. Du kan nu använda denna kunskap för att skapa interaktiva och informativa Sunburst-diagram i dina Java-applikationer.
+den här handledningen har du lärt dig hur du skapar ett Sunburst-diagram i en PowerPoint-presentation med Aspose.Slides för Java API. Du har sett hur du initierar presentationen, skapar diagrammet, definierar diagramhierarki, lägger till datapunkter och sparar presentationen. Du kan nu använda denna kunskap för att skapa interaktiva och informativa Sunburst-diagram i dina Java-applikationer.
 
 ## FAQ's
 
@@ -163,7 +163,7 @@ Du kan anpassa utseendet på Sunburst-diagrammet genom att ändra egenskaper som
 
 ### Hur kan jag lägga till verktygstips till Sunburst-diagrammet?
 
-För att lägga till verktygstips till Sunburst-diagrammet kan du ställa in dataetikettformatet så att ytterligare information visas, såsom värden eller beskrivningar, när du håller muspekaren över diagramsegment.
+För att lägga till verktygstips till Sunburst-diagrammet kan du ställa in dataetikettformatet för att visa ytterligare information, såsom värden eller beskrivningar, när du håller muspekaren över diagramsegment.
 
 ### Är det möjligt att skapa interaktiva Sunburst-diagram med hyperlänkar?
 

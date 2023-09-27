@@ -98,7 +98,7 @@ I den här guiden har vi visat dig hur du konverterar PowerPoint-presentationer 
 
 ### Kan jag justera fördröjningen mellan bilderna i GIF?
 
-Ja, du kan justera fördröjningen mellan bilderna genom att ändra värdet in`setDefaultDelay`. Den anges i millisekunder, så ställ in den på önskad fördröjningstid.
+ Ja, du kan justera fördröjningen mellan bilderna genom att ändra värdet in`setDefaultDelay`. Den anges i millisekunder, så ställ in den på önskad fördröjningstid.
 
 ### Vilken är den rekommenderade FPS för GIF-konvertering?
 

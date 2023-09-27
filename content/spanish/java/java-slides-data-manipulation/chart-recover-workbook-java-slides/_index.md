@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    // Realice operaciones en los datos del libro de trabajo aquí
+    //Realice operaciones en los datos del libro de trabajo aquí
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ En esta guía, hemos recorrido el proceso de recuperación de un libro de trabaj
 
 ### ¿Cómo instalo Aspose.Slides para Java?
 
- Aspose.Slides para Java se puede instalar fácilmente descargando la biblioteca desde el sitio web en[aquí](https://releases.aspose.com/slides/java/)Siga las instrucciones de instalación proporcionadas para integrarlo en su proyecto Java.
+ Aspose.Slides para Java se puede instalar fácilmente descargando la biblioteca desde el sitio web en[aquí](https://releases.aspose.com/slides/java/). Siga las instrucciones de instalación proporcionadas para integrarlo en su proyecto Java.
 
 ### ¿Puedo recuperar datos del libro de cualquier gráfico en una presentación de PowerPoint?
 

@@ -47,7 +47,19 @@ Lär dig Java Slides-animering och layout med Aspose.Slides för Java. Bemästra
 Lär dig hur du skapar dynamiska diagram i Java-bilder med Aspose.Slides för Java med våra omfattande handledningar. Lyft dina presentationsfärdigheter idag!
 ### [Skapa Java Slides Chart](./chart-creation/)
 Lär dig hur du skapar dynamiska Java-bilder med diagram med Aspose.Slides för Java. Våra omfattande tutorials guidar dig genom processen steg för steg.
-### [Java Slides Presentation Konvertering](./presentation-conversion/)
+### [Java Slides presentationskonvertering](./presentation-conversion/)
 Lär dig hur du enkelt konverterar Java-presentationer med Aspose.Slides för Java. Omfattande tutorials och steg-för-steg-guider väntar på dig.
 ### [Java Slides Data Manipulation](./data-manipulation/)
 Förbättra dina Java Slides datamanipuleringsfärdigheter med Aspose.Slides för Java tutorials. Lär dig steg för steg hur du skapar, redigerar och transformerar presentationer effektivt.
+### [Java Slides Ytterligare verktyg](./additional-utilities/)
+Upptäck ytterligare verktyg för Java Slides med Aspose.Slides för Java tutorials. Lyft dina presentationer med kraftfulla funktioner. Utforska nu!
+### [Java Slides presentationsegenskaper](./presentation-properties/)
+Lär dig hur du förbättrar dina presentationsegenskaper för Java-bilder med Aspose.Slides för Java tutorials. Upptäck tips och tricks för dynamiska presentationer.
+### [Java Slides mediakontroller](./media-controls/)
+Lär dig hur du implementerar mediekontroller i Java-bilder med Aspose.Slides för Java-självstudier. Förbättra dina presentationer med ljud och video sömlöst.
+### [Java Slides Bildhantering](./image-handling/)
+Lär dig hur du hanterar bilder i Java-bilder med Aspose.Slides för Java tutorials. Utforska steg-för-steg-vägledning för effektiv bildhantering.
+### [Java Slides dokumentskydd](./document-protection/)
+Lär dig hur du förbättrar säkerheten för dina Java Slides-dokument med Aspose.Slides. Utforska steg-för-steg handledningar för dokumentskydd.
+### [Spara alternativ för Java-bilder](./saving-options/)
+Lär dig mer om alternativen för att spara Java Slides med Aspose.Slides för Java. Utforska omfattande handledningar och guider för effektiv bildhantering och anpassning.

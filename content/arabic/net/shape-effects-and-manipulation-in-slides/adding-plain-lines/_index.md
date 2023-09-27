@@ -60,7 +60,7 @@ ILineShape verticalLine = slide.Shapes.AddLine(300, 100, 300, 300);
 // تخصيص خصائص الخط
 horizontalLine.LineFormat.Width = 3; // ضبط سمك الخط
 horizontalLine.LineFormat.Style = LineStyle.Single; // ضبط نمط الخط
-horizontalLine.LineFormat.FillFormat.SolidFillColor.Color = Color.Black; //ضبط لون الخط
+horizontalLine.LineFormat.FillFormat.SolidFillColor.Color = Color.Black; // ضبط لون الخط
 ```
 
 ### حفظ العرض التقديمي

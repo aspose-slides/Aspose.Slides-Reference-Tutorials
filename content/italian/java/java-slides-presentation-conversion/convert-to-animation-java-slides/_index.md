@@ -40,7 +40,7 @@ Presentation pres = new Presentation(presentationName);
 
 ## Passaggio 3: genera animazioni per la presentazione
 
-Ora generiamo animazioni per le diapositive della presentazione. Utilizzeremo il`PresentationAnimationsGenerator` classe a questo scopo:
+ Ora generiamo animazioni per le diapositive della presentazione. Utilizzeremo il`PresentationAnimationsGenerator` classe a questo scopo:
 
 ```java
 PresentationAnimationsGenerator animationsGenerator = new PresentationAnimationsGenerator(pres);
@@ -113,7 +113,7 @@ In questo tutorial, abbiamo imparato come convertire una presentazione PowerPoin
 
 ### Come posso controllare la velocità delle animazioni?
 
- Puoi regolare la velocità delle animazioni modificando il frame rate (FPS) nel codice. IL`player.setFrameTick`Il metodo consente di specificare la frequenza dei fotogrammi. Nel nostro esempio lo impostiamo su 33 fotogrammi al secondo (FPS).
+ Puoi regolare la velocità delle animazioni modificando il frame rate (FPS) nel codice. IL`player.setFrameTick` Il metodo consente di specificare la frequenza dei fotogrammi. Nel nostro esempio lo impostiamo su 33 fotogrammi al secondo (FPS).
 
 ### Posso convertire le animazioni di PowerPoint in altri formati, come i video?
 
@@ -129,4 +129,4 @@ Sì, puoi personalizzare il formato file dei fotogrammi esportati. Nel nostro es
 
 ### Dove posso trovare ulteriori risorse e documentazione per Aspose.Slides per Java?
 
-È possibile trovare documentazione e risorse estese per Aspose.Slides per Java su[Aspose.Slides per riferimento API Java](https://reference.aspose.com/slides/java/) pagina.
+ È possibile trovare documentazione e risorse estese per Aspose.Slides per Java su[Aspose.Slides per riferimento API Java](https://reference.aspose.com/slides/java/) pagina.

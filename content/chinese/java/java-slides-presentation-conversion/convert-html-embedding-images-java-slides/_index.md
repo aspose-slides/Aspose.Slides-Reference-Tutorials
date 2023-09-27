@@ -16,7 +16,7 @@ url: /zh/java/presentation-conversion/convert-html-embedding-images-java-slides/
 
 在我们开始之前，请确保您具备以下条件：
 
-1.  Aspose.Slides for Java 库已安装。您可以从以下位置下载：[这里](https://downloads.aspose.com/slides/java).
+1. Aspose.Slides for Java 库已安装。您可以从以下位置下载：[这里](https://downloads.aspose.com/slides/java).
 
 2. 要转换为 HTML 的 PowerPoint 演示文稿文件（PPTX 格式）。
 

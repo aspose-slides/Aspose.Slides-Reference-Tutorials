@@ -22,7 +22,7 @@ Innan du börjar, se till att du har följande:
 
 ## Steg 1: Ladda presentationen
 
- Först måste du ladda PowerPoint-presentationen som innehåller diagrammet du vill animera. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
+Först måste du ladda PowerPoint-presentationen som innehåller diagrammet du vill animera. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,7 +44,7 @@ IChart chart = (IChart) shapes.get_Item(0);
  Låt oss nu lägga till animationseffekter till diagramelementen. Vi kommer att använda`slide.getTimeline().getMainSequence().addEffect()` metod för att ange hur diagrammet ska animeras.
 
 ```java
-//Animera hela diagrammet
+// Animera hela diagrammet
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // Animera individuella serieelement (du kan anpassa den här delen)
@@ -113,7 +113,7 @@ Du kan anpassa animeringen för enskilda diagramelement genom att ändra animeri
 
 ### Kan jag använda animationer på andra objekt i en PowerPoint-bild?
 
- Ja, du kan använda animationer på olika objekt i en PowerPoint-bild, inte bara diagram. Använd`addEffect` metod för att ange objektet du vill animera och önskade animeringsegenskaper.
+Ja, du kan använda animationer på olika objekt i en PowerPoint-bild, inte bara diagram. Använd`addEffect` metod för att ange objektet du vill animera och önskade animeringsegenskaper.
 
 ### Hur integrerar jag Aspose.Slides för Java i mitt projekt?
 

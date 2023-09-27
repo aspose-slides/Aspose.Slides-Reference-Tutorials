@@ -47,7 +47,7 @@ Jetzt füllen wir das Diagramm mit Daten. Wir beginnen mit dem Löschen der stan
 ```java
 // Festlegen des Index des Diagrammdatenblatts
 int defaultWorksheetIndex = 0;
-// Abrufen des Diagrammdaten-Arbeitsblatts
+//Abrufen des Diagrammdaten-Arbeitsblatts
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Standardmäßig generierte Serien und Kategorien löschen
 chart.getChartData().getSeries().clear();
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Festlegen des Index des Diagrammdatenblatts
 	int defaultWorksheetIndex = 0;
-	// Abrufen des Diagrammdaten-Arbeitsblatts
+	//Abrufen des Diagrammdaten-Arbeitsblatts
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Standardmäßig generierte Serien und Kategorien löschen
 	chart.getChartData().getSeries().clear();

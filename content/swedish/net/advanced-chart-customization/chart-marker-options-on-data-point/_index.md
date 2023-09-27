@@ -2,7 +2,7 @@
 title: Kartmarköralternativ på datapunkt
 linktitle: Kartmarköralternativ på datapunkt
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du förbättrar dina datavisualiseringar med Aspose.Slides för .NET. Utforska diagrammarkeringsalternativ steg för steg.
+description: Lär dig hur du förbättrar dina datavisualiseringar med Aspose.Slides för .NET. Utforska diagrammarköralternativ steg för steg.
 type: docs
 weight: 11
 url: /sv/net/advanced-chart-customization/chart-marker-options-on-data-point/
@@ -67,7 +67,7 @@ IChartSeries dataSeries = chart.ChartData.Series[0];
 Nu när vi har tillgång till dataserien kan vi arbeta med enskilda datapunkter.
 
 ```csharp
-// Åtkomst till enskilda datapunkter
+// Tillgång till enskilda datapunkter
 foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
 {
     // Din kod för att arbeta med datapunkter finns här
@@ -197,7 +197,7 @@ Investerare kan använda marköralternativ för att identifiera betydande aktiek
 
 Tänk på dessa bästa metoder när du skapar diagram.
 
-## Hålla diagram enkla och tydliga
+## Att hålla diagram enkla och tydliga
 
 Enkelhet ökar förståelsen. Undvik överfulla diagram med överdrivna markörer.
 

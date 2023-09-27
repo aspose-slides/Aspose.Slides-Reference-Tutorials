@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- Bu kodda, animasyon yapmak istediğiniz grafiği içeren mevcut bir PowerPoint sunumunu yüklüyoruz. Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
+Bu kodda, animasyon yapmak istediğiniz grafiği içeren mevcut bir PowerPoint sunumunu yüklüyoruz. Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
 
 ## Adım 3: Grafik Nesnesine Referans Alın
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// Sunum dosyasını diske yazın
+	//Sunum dosyasını diske yazın
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Evet, kodu canlandırmak istediğiniz belirli grafik öğelerini hedefleyecek ş
 
 ### Aspose.Slides for Java hakkında nasıl daha fazla bilgi edinebilirim?
 
- Kapsamlı belgeler ve ek kaynaklar için şu adresi ziyaret edin:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/) . Ayrıca kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+Kapsamlı belgeler ve ek kaynaklar için şu adresi ziyaret edin:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/) . Ayrıca kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).

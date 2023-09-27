@@ -108,7 +108,7 @@ gradient.GradientStops.Add(1, Color.Yellow);
 
 ### 是否可以从幻灯片中删除背景图像？
 
-是的，您可以通过设置从幻灯片中删除背景图像`Picture`财产给`null`:
+是的，您可以通过设置从幻灯片中删除背景图像`Picture`财产给`null`：
 
 ```csharp
 ISlide slide = pres.Slides[0];
