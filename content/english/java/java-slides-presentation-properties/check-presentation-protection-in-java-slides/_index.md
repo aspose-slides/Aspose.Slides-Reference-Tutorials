@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to check presentation protection in Java slides using Aspose.Slides for Java. This step-by-step guide provides code examples for write and open protection checks.
 type: docs
 weight: 15
-url: /java/java-slides-presentation-properties/check-presentation-protection-in-java-slides/
+url: /java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
 
 ## Introduction to Checking Presentation Protection in Java Slides

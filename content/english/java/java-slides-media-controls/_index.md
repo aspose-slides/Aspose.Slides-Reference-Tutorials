@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: 
 type: docs
 weight: 22
-url: /java/java-slides-media-controls/
+url: /java/media-controls/
 ---
 
 ## Java Slides Media Controls Tutorials

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master Java Slides interruption handling with Aspose.Slides for Java. This detailed guide provides step-by-step instructions and code examples for seamless interrupt management.
 type: docs
 weight: 12
-url: /java/java-slides-media-controls/support-for-interrupt-in-java-slides/
+url: /java/media-controls/support-for-interrupt-in-java-slides/
 ---
 # Introduction to Support for Interrupt in Java Slides with Aspose.Slides for Java
 

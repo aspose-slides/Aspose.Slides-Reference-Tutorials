@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Remove Unused Layout Masters with Aspose.Slides. Step-by-step guide and code. Enhance presentation efficiency.
 type: docs
 weight: 10
-url: /java/java-slides-additional-utilities/remove-unused-layout-master-in-java-slides/
+url: /java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
 
 ## Introduction to Remove Unused Layout Master in Java Slides

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to remove write protection in Java Slides presentations using Aspose.Slides for Java. Step-by-step guide with source code included.
 type: docs
 weight: 10
-url: /java/java-slides-document-protection/remove-write-protection-in-java-slides/
+url: /java/document-protection/remove-write-protection-in-java-slides/
 ---
 
 ## Introduction to Remove Write Protection in Java Slides

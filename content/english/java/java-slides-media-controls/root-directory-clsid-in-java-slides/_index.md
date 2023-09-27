@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set Root Directory ClsId in Aspose.Slides for Java presentations. Customize hyperlink behavior with CLSID.
 type: docs
 weight: 10
-url: /java/java-slides-media-controls/root-directory-clsid-in-java-slides/
+url: /java/media-controls/root-directory-clsid-in-java-slides/
 ---
 
 ## Introduction to Setting Root Directory ClsId in Aspose.Slides for Java

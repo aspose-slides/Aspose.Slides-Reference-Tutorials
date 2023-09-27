@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your PowerPoint presentations with Aspose.Slides for Java. Learn to set properties, disable encryption, add password protection, and save effortlessly.
 type: docs
 weight: 12
-url: /java/java-slides-saving-options/save-properties-in-java-slides/
+url: /java/saving-options/save-properties-in-java-slides/
 ---
 
 ## Introduction to Saving Properties in Java Slides

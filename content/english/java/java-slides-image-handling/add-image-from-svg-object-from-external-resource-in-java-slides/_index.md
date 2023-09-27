@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add vector based SVG images from external resources to Java slides using Aspose.Slides. Create stunning presentations with high-quality visuals.
 type: docs
 weight: 12
-url: /java/java-slides-image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
+url: /java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
 
 ## Introduction to Add Image from SVG Object from External Resource in Java Slides

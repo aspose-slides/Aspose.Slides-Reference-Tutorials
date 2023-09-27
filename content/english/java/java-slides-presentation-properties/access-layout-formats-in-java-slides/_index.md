@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to access and manipulate layout formats in Java Slides with Aspose.Slides for Java. Customize shape and line styles effortlessly in PowerPoint presentations.
 type: docs
 weight: 10
-url: /java/java-slides-presentation-properties/access-layout-formats-in-java-slides/
+url: /java/presentation-properties/access-layout-formats-in-java-slides/
 ---
 
 ## Introduction to Access Layout Formats in Java Slides

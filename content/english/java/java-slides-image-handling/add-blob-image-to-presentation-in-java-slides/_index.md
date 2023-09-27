@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add Blob images to Java Slides presentations effortlessly. Follow our step-by-step guide with code examples using Aspose.Slides for Java.
 type: docs
 weight: 10
-url: /java/java-slides-image-handling/add-blob-image-to-presentation-in-java-slides/
+url: /java/image-handling/add-blob-image-to-presentation-in-java-slides/
 ---
 
 ## Introduction to Add Blob Image to Presentation in Java Slides

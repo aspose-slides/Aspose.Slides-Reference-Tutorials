@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set predefined view types in Java Slides using Aspose.Slides for Java. Step-by-step guide with code examples and FAQs.
 type: docs
 weight: 10
-url: /java/java-slides-saving-options/save-as-predefined-view-type-in-java-slides/
+url: /java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
 
 ## Introduction to Save as Predefined View Type in Java Slides

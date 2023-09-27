@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: 
 type: docs
 weight: 25
-url: /java/java-slides-saving-options/
+url: /java/saving-options/
 ---
 
 ## Java Slides Saving Options Tutorials

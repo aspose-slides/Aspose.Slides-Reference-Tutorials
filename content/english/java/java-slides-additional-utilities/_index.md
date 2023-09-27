@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: 
 type: docs
 weight: 20
-url: /java/java-slides-additional-utilities/
+url: /java/additional-utilities/
 ---
 
 ## Java Slides Additional Utilities Tutorials

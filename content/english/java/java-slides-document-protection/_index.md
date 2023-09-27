@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: 
 type: docs
 weight: 24
-url: /java/java-slides-document-protection/
+url: /java/document-protection/
 ---
 
 ## Java Slides Document Protection Tutorials

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to open PowerPoint presentations in Java using Aspose.Slides for Java. Step-by-step guide with source code examples for efficient presentation handling.
 type: docs
 weight: 16
-url: /java/java-slides-additional-utilities/open-presentation-in-java-slides/
+url: /java/additional-utilities/open-presentation-in-java-slides/
 ---
 
 ## Introduction to Open a Presentation in Aspose.Slides for Java

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn How to Enable and Use Media Controls in Java Slides with Aspose.Slides for Java. Enhance Your Presentations with Media Controls.
 type: docs
 weight: 11
-url: /java/java-slides-media-controls/slide-show-media-controls-in-java-slides/
+url: /java/media-controls/slide-show-media-controls-in-java-slides/
 ---
 
 ## Introduction to Slide Show Media Controls in Java Slides

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to verify presentations without loading them in Java Slides using Aspose.Slides for Java. Ensure file integrity efficiently with this step-by-step guide.
 type: docs
 weight: 18
-url: /java/java-slides-additional-utilities/verify-presentation-without-loading-in-java-slides/
+url: /java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
 
 ## Introduction to Verify Presentation Without Loading in Java Slides

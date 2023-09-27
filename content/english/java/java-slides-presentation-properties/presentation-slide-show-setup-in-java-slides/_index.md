@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Java Slide Show with Aspose.Slides. Create engaging presentations with customized settings. Explore step-by-step guides and FAQs.
 type: docs
 weight: 16
-url: /java/java-slides-presentation-properties/presentation-slide-show-setup-in-java-slides/
+url: /java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
 
 ## Introduction to Presentation Slide Show Setup in Java Slides

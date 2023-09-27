@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: 
 type: docs
 weight: 23
-url: /java/java-slides-image-handling/
+url: /java/image-handling/
 ---
 
 ## Java Slides Image Handling Tutorials

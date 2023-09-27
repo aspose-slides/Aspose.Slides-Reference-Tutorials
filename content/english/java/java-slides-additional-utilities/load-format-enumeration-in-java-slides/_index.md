@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to check the format of PowerPoint presentations in Java using Aspose.Slides. Follow our step-by-step guide with source code examples for effective format detection.
 type: docs
 weight: 14
-url: /java/java-slides-additional-utilities/load-format-enumeration-in-java-slides/
+url: /java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
 
 ## Introduction to Loading Presentation Format in Java Slides

@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to access and modify properties in Java Slides using Aspose.Slides for Java. Enhance your presentations with custom properties.
 type: docs
 weight: 11
-url: /java/java-slides-presentation-properties/access-modifying-properties-in-java-slides/
+url: /java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
 
 ## Introduction to Access Modifying Properties in Java Slides

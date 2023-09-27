@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to access and convert Open Document Presentation (ODP) files in Java using Aspose.Slides for Java. Step-by-step guide for developers.
 type: docs
 weight: 12
-url: /java/java-slides-presentation-properties/access-open-doc-in-java-slides/
+url: /java/presentation-properties/access-open-doc-in-java-slides/
 ---
 
 ## Introduction to Access Open Doc in Java Slides

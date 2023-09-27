@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert SVG images into a group of shapes in Java Slides using Aspose.Slides for Java. Step-by-step guide with code examples.
 type: docs
 weight: 13
-url: /java/java-slides-image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
+url: /java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
 
 ## Introduction to Convert SVG Image Object into Group of Shapes in Java Slides

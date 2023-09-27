@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add SVG images to Java Slides with Aspose.Slides for Java. Step-by-step guide with code for stunning presentations.
 type: docs
 weight: 11
-url: /java/java-slides-image-handling/add-image-from-svg-object-in-java-slides/
+url: /java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
 
 ## Introduction to Add Image from SVG Object in Java Slides

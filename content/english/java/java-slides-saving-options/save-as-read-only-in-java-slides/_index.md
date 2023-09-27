@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to save PowerPoint presentations as read-only in Java using Aspose.Slides. Protect your content with step-by-step instructions and code examples.
 type: docs
 weight: 11
-url: /java/java-slides-saving-options/save-as-read-only-in-java-slides/
+url: /java/saving-options/save-as-read-only-in-java-slides/
 ---
 
 ## Introduction to Save as Read-Only in Java Slides Using Aspose.Slides for Java

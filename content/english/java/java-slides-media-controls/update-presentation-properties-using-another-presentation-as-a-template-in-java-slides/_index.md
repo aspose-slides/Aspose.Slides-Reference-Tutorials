@@ -5,7 +5,7 @@ second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance PowerPoint presentations with updated metadata using Aspose.Slides for Java. Learn to update properties like author, title, and keywords using templates in Java Slides.
 type: docs
 weight: 14
-url: /java/java-slides-media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
+url: /java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
 
 ## Introduction to Update Presentation Properties Using Another Presentation as a Template in Java Slides
