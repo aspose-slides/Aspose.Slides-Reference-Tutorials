@@ -105,7 +105,7 @@ Generating custom thumbnail images from PowerPoint presentations using Aspose.Sl
 Aspose.Slides for .NET is a powerful library that allows developers to work with PowerPoint presentations programmatically in .NET applications.
 
 ### Where can I find the documentation for Aspose.Slides for .NET?
-You can find the official documentation [here](https://reference.aspose.com/slides/net/).
+You can find the documentation [here](https://reference.aspose.com/slides/net/).
 
 ### Is Aspose.Slides for .NET free to use?
 Aspose.Slides for .NET is a commercial library. You can find pricing and licensing information [here](https://purchase.aspose.com/buy).

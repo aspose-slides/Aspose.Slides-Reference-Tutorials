@@ -14,7 +14,7 @@ In the world of dynamic presentations, the right transitions can make a world of
 
 Before we begin, make sure you have the following prerequisites in place:
 
-1. Aspose.Slides for .NET: You should have Aspose.Slides for .NET installed. If not, you can download it from the [official Aspose.Slides for .NET download page](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: You should have Aspose.Slides for .NET installed. If not, you can download it from the [Aspose.Slides for .NET download page](https://releases.aspose.com/slides/net/).
 
 2. A PowerPoint Presentation: Prepare the PowerPoint presentation (e.g., `presentation.pptx`) to which you want to apply the transition effect.
 
@@ -88,7 +88,7 @@ Aspose.Slides for .NET is a powerful library for working with PowerPoint present
 
 ### 2. Can I try Aspose.Slides for .NET before purchasing it?
 
-Yes, you can download a free trial of Aspose.Slides for .NET from the [official Aspose.Slides for .NET trial page](https://releases.aspose.com/). This allows you to evaluate its features before making a purchase.
+Yes, you can download a free trial of Aspose.Slides for .NET from the [Aspose.Slides for .NET trial page](https://releases.aspose.com/). This allows you to evaluate its features before making a purchase.
 
 ### 3. How do I get a temporary license for Aspose.Slides for .NET?
 
@@ -100,6 +100,6 @@ For any technical or product-related questions, you can visit the [Aspose.Slides
 
 ### 5. What other transition effects can I apply using Aspose.Slides for .NET?
 
-Aspose.Slides for .NET offers a variety of transition effects, including fades, pushes, wipes, and more. You can explore the documentation on the [official Aspose.Slides for .NET documentation page](https://reference.aspose.com/slides/net/) for details on all available transition types.
+Aspose.Slides for .NET offers a variety of transition effects, including fades, pushes, wipes, and more. You can explore the documentation on the [Aspose.Slides for .NET documentation page](https://reference.aspose.com/slides/net/) for details on all available transition types.
 
 

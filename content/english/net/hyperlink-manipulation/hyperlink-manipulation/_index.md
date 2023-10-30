@@ -2,174 +2,122 @@
 title: Hyperlink Manipulation in Aspose.Slides
 linktitle: Hyperlink Manipulation in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Learn how to enhance PowerPoint presentations with hyperlinks using Aspose.Slides for .NET. Create, modify, and manage interactive content seamlessly.
+description: Learn how to add and remove hyperlinks in Aspose.Slides for .NET. Enhance your presentations with interactive links easily.
 type: docs
 weight: 10
 url: /net/hyperlink-manipulation/hyperlink-manipulation/
 ---
 
-## Introduction to Hyperlink Manipulation
+Hyperlinks are essential elements in presentations, as they provide a convenient way to navigate between slides or access external resources. Aspose.Slides for .NET offers powerful features for adding and removing hyperlinks in your presentation slides. In this tutorial, we will guide you through the process of hyperlink manipulation using Aspose.Slides for .NET. We will cover adding hyperlinks to a slide and removing hyperlinks from a slide. So, let's dive in!
 
-Hyperlinks enrich presentations by connecting slides, documents, web pages, and more. They provide an interactive experience, enhancing the audience's engagement. Aspose.Slides for .NET offers comprehensive functionality to manage hyperlinks programmatically, giving you full control over your presentation's navigation.
+## Prerequisites
 
-## Setting Hyperlinks in Slides
+Before you begin, ensure you have the following prerequisites in place:
 
-To create hyperlinks, you can use Aspose.Slides for .NET's `HyperlinkManager` class. This class allows you to add various types of hyperlinks to specific shapes or text in your slides.
+1. Aspose.Slides for .NET: You must have the Aspose.Slides for .NET library installed and set up. You can find the documentation [here](https://reference.aspose.com/slides/net/) and download it from [this link](https://releases.aspose.com/slides/net/).
 
-```csharp
-// Code example to add a hyperlink to a shape
-HyperlinkManager.AddHyperlinkToShape(shape, "https://www.example.com", "Visit our website");
-```
+2. Your Document Directory: You need a directory where you will store your presentation files. Make sure to specify the path to this directory in your code.
 
-## Modifying Hyperlinks
+3. Basic Knowledge of C#: This tutorial assumes you have a basic understanding of C# programming.
 
-You can easily modify existing hyperlinks using Aspose.Slides for .NET. This is useful when you need to update the target URL or change the hyperlink's text.
+Now that you have your prerequisites in place, let's move on to the step-by-step guide for hyperlink manipulation using Aspose.Slides for .NET.
 
-```csharp
-// Code example to modify a hyperlink's URL
-HyperlinkManager.ModifyHyperlinkUrl(shape, "https://newurl.com");
-```
+## Adding Hyperlinks to a Slide
 
-## Removing Hyperlinks
+### Step 1: Initialize Presentation
 
-If you wish to remove a hyperlink from a shape, Aspose.Slides for .NET provides a straightforward method to do so.
+To get started, you need to initialize a presentation using Aspose.Slides. You can do this with the following code:
 
 ```csharp
-// Code example to remove a hyperlink from a shape
-HyperlinkManager.RemoveHyperlink(shape);
+using (Presentation presentation = new Presentation())
+{
+    // Your code here
+}
 ```
 
-## Working with Anchor Points
+### Step 2: Add Text Frame
 
-Anchor points are crucial when dealing with hyperlinks within slides. They determine the position where the hyperlink points to within the target slide.
+Now, let's add a text frame to a slide. This code creates a rectangular shape with text:
 
 ```csharp
-// Code example to set an anchor point for a hyperlink
-HyperlinkManager.SetHyperlinkAnchor(shape, targetSlide, anchorX, anchorY);
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
 ```
 
-## Handling Different Hyperlink Types
+### Step 3: Add Hyperlink
 
-Aspose.Slides for .NET supports various hyperlink types, including URL links, internal document links, links to email addresses, and more.
+Next, you'll add a hyperlink to the text in the shape you created. Here's how you can do it:
 
 ```csharp
-// Code example to add an email hyperlink
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-## Adding Tooltips to Hyperlinks
+### Step 4: Save Presentation
 
-Tooltips provide additional information when users hover over hyperlinks. Aspose.Slides for .NET enables you to set tooltips for your hyperlinks.
+Finally, save your presentation with the added hyperlink:
 
 ```csharp
-// Code example to add a tooltip to a hyperlink
-HyperlinkManager.AddHyperlinkWithTooltip(shape, "https://www.example.com", "Visit our website", "Click to explore");
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 ```
 
-## Managing External Hyperlinks
+Congratulations! You've successfully added a hyperlink to a slide using Aspose.Slides for .NET.
 
-You can also manage external hyperlinks using Aspose.Slides for .NET, ensuring that your presentations remain connected to relevant online resources.
+## Removing Hyperlinks from a Slide
+
+### Step 1: Initialize Presentation
+
+To remove hyperlinks from a slide, you need to open an existing presentation:
 
 ```csharp
-// Code example to open a hyperlink in a web browser
-HyperlinkManager.OpenHyperlinkInBrowser(shape);
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## Hyperlinks in Master Slides
+### Step 2: Remove Hyperlinks
 
-Master slides often contain recurring elements. Aspose.Slides for .NET allows you to apply hyperlinks to master slides, ensuring consistency across your presentation.
+Now, remove all hyperlinks from the presentation using the following code:
 
 ```csharp
-// Code example to set a hyperlink in a master slide
-HyperlinkManager.SetHyperlinkInMasterSlide(masterSlide, "https://www.example.com", "Visit our website");
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## Extracting Hyperlink Information
+### Step 3: Save Presentation
 
-You can extract information from existing hyperlinks using Aspose.Slides for .NET, which can be helpful for analysis or reporting purposes.
+After removing the hyperlinks, save the presentation:
 
 ```csharp
-// Code example to extract hyperlink information
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-## Adding Hyperlinks to Images and Shapes
+And that's it! You've successfully removed hyperlinks from a slide using Aspose.Slides for .NET.
 
-Hyperlinks can be added not only to text but also to images and shapes within your slides.
+In conclusion, Aspose.Slides for .NET provides an efficient way to manipulate hyperlinks in your presentations, allowing you to create interactive and engaging slides. Whether you want to add hyperlinks to external resources or remove them, Aspose.Slides simplifies the process and enhances your presentation-building capabilities.
 
-```csharp
-// Code example to add a hyperlink to an image
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Click the image to learn more");
-```
+Thank you for joining us in this tutorial on hyperlink manipulation in Aspose.Slides for .NET. If you have any questions or need further assistance, feel free to explore the [Aspose.Slides documentation](https://reference.aspose.com/slides/net/) or reach out to the Aspose community on the [support forum](https://forum.aspose.com/).
 
-## Linking to Email Addresses and Phone Numbers
-
-Aspose.Slides for .NET enables you to create hyperlinks that trigger email composition or initiate phone calls when clicked.
-
-```csharp
-// Code example to create an email hyperlink
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
-
-// Code example to create a phone number hyperlink
-HyperlinkManager.AddPhoneHyperlink(shape, "+1234567890", "Call our support");
-```
-
-## Hyperlink Formatting
-
-You can apply formatting to hyperlinks to make them visually distinct from regular text or shapes.
-
-```csharp
-// Code example to format a hyperlink's appearance
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-## Adding Hyperlinks through API
-
-Aspose.Slides for .NET provides a robust API for hyperlink manipulation. You can integrate these features seamlessly into your applications.
-
-```csharp
-// Code example to add a hyperlink through the API
-HyperlinkManager.AddHyperlink(shape, HyperlinkType.Url, "https://www.example.com");
-```
+---
 
 ## Conclusion
 
-Hyperlink manipulation using Aspose.Slides for .NET offers a comprehensive toolkit for enhancing the interactivity and engagement of your PowerPoint presentations. With the ability to create, modify, and manage hyperlinks, you can create dynamic and informative slideshows that captivate your audience.
+In this tutorial, we've learned how to manipulate hyperlinks in presentations using Aspose.Slides for .NET. We covered both the addition and removal of hyperlinks, enabling you to create dynamic and interactive presentations. Aspose.Slides simplifies the process, making it easy to enhance your slides with hyperlinks to external resources.
 
-## FAQ's
+Do you have any more questions about working with Aspose.Slides or other aspects of presentation design? Check out the FAQs below for more insights.
 
-### How do I remove a hyperlink from a shape?
+## FAQs (Frequently Asked Questions)
 
-To remove a hyperlink from a shape, you can use the following code:
+### What are the key advantages of using Aspose.Slides for .NET?
+Aspose.Slides for .NET offers a wide range of features for creating, manipulating, and converting presentations. It provides a comprehensive set of tools for adding content, animations, and interactions to your slides.
 
-```csharp
-HyperlinkManager.RemoveHyperlink(shape);
-```
+### Can I add hyperlinks to objects other than text in Aspose.Slides?
+Yes, Aspose.Slides allows you to add hyperlinks to various objects, including shapes, images, and text, giving you flexibility in creating interactive presentations.
 
-### Can I apply hyperlinks to images in my slides?
+### Is Aspose.Slides compatible with different PowerPoint file formats?
+Absolutely. Aspose.Slides supports various PowerPoint formats, including PPT, PPTX, PPS, and more. It ensures compatibility with different versions of Microsoft PowerPoint.
 
-Yes, you can add hyperlinks to images and shapes within your slides using Aspose.Slides for .NET. For example:
+### Where can I find additional resources and support for Aspose.Slides?
+For in-depth documentation and community support, visit the [Aspose.Slides documentation](https://reference.aspose.com/slides/net/) and the [Aspose support forum](https://forum.aspose.com/).
 
-```csharp
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Click the image to learn more");
-```
-
-### Is it possible to format the appearance of a hyperlink?
-
-Certainly! You can format the appearance of a hyperlink using Aspose.Slides for .NET. Here's an example:
-
-```csharp
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-### How can I extract information from an existing hyperlink?
-
-You can extract information from an existing hyperlink using the following approach:
-
-```csharp
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
-```
-
-### Where can I access more detailed documentation about Aspose.Slides for .NET?
-
-For more detailed information and code examples, you can refer to the [documentation](https://reference.aspose.com/slides/net/) for Aspose.Slides for .NET.
+### How can I obtain a temporary license for Aspose.Slides?
+If you need a temporary license for Aspose.Slides, you can get one [here](https://purchase.aspose.com/temporary-license/).

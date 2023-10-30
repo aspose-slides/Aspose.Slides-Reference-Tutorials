@@ -111,7 +111,7 @@ Aspose.Slides for .NET provides compatibility with various versions of PowerPoin
 
 ### 4. Where can I find more documentation and support for Aspose.Slides for .NET?
 
-You can find detailed documentation and access the support community on the [Aspose.Slides official website](https://reference.aspose.com/slides/net/).
+You can find detailed documentation and access the support community on the [Aspose.Slides website](https://reference.aspose.com/slides/net/).
 
 ### 5. Is there a free trial available for Aspose.Slides for .NET?
 

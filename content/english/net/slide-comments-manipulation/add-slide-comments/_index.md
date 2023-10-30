@@ -14,7 +14,7 @@ In the world of presentation management, the ability to add comments to slides c
 
 Before we delve into the step-by-step guide, let's ensure you have everything you need to get started:
 
-1. Aspose.Slides for .NET: You must have Aspose.Slides for .NET installed. If you haven't already, you can download it from the official [Aspose.Slides for .NET website](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: You must have Aspose.Slides for .NET installed. If you haven't already, you can download it from the [Aspose.Slides for .NET website](https://releases.aspose.com/slides/net/).
 
 2. Development Environment: You should have a .NET development environment set up on your system.
 
@@ -87,7 +87,7 @@ If you encounter any issues or have questions, don't hesitate to seek help on th
 
 ### 1. How can I customize the appearance of comments in Aspose.Slides for .NET?
 
-You can customize the appearance of comments by modifying various properties, such as color, size, and font, using the Aspose.Slides library. Check the official documentation for detailed guidance.
+You can customize the appearance of comments by modifying various properties, such as color, size, and font, using the Aspose.Slides library. Check the documentation for detailed guidance.
 
 ### 2. Can I add comments to specific elements within a slide, such as shapes or images?
 
@@ -99,8 +99,8 @@ Yes, Aspose.Slides for .NET supports various PowerPoint file formats, including 
 
 ### 4. How can I integrate Aspose.Slides for .NET into my .NET application?
 
-To integrate Aspose.Slides for .NET into your .NET application, you can refer to the official documentation, which provides detailed information on installation and usage.
+To integrate Aspose.Slides for .NET into your .NET application, you can refer to the documentation, which provides detailed information on installation and usage.
 
 ### 5. Can I try Aspose.Slides for .NET before purchasing it?
 
-Yes, you can explore Aspose.Slides for .NET by using a free trial. Visit the [official Aspose.Slides free trial page](https://releases.aspose.com/) to get started.
+Yes, you can explore Aspose.Slides for .NET by using a free trial. Visit the [Aspose.Slides free trial page](https://releases.aspose.com/) to get started.

@@ -15,7 +15,7 @@ If you're looking to generate slide thumbnails in your .NET applications using A
 Before diving into the process of generating slide thumbnails with Aspose.Slides for .NET, ensure you have the following prerequisites in place:
 
 ### 1. Aspose.Slides Installation
-To get started, make sure you have Aspose.Slides for .NET installed in your development environment. If you haven't done so already, you can download it from the official Aspose website.
+To get started, make sure you have Aspose.Slides for .NET installed in your development environment. If you haven't done so already, you can download it from the Aspose website.
 
 - Download Link: [Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
 

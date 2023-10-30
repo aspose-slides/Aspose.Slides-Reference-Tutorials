@@ -81,7 +81,7 @@ This line of code saves the presentation as a PDF file with the specified compli
 
 In this tutorial, you've learned how to achieve PDF compliance by converting PowerPoint presentations to PDF/A format using Aspose.Slides for .NET. By following these steps, you can ensure that your documents meet the strictest compliance standards, making them suitable for long-term archiving and distribution.
 
-Feel free to explore further possibilities and customization options offered by Aspose.Slides to enhance your document management workflow. For more information, you can refer to the official [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
+Feel free to explore further possibilities and customization options offered by Aspose.Slides to enhance your document management workflow. For more information, you can refer to the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
 
 ## Frequently Asked Questions
 
