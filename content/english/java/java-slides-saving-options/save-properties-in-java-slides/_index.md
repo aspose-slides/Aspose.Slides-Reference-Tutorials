@@ -14,7 +14,7 @@ In this tutorial, we will guide you through the process of saving properties in 
 
 ## Prerequisites
 
-Before you begin, make sure you have the Aspose.Slides for Java library integrated into your Java project. You can download the library from the official Aspose website [here](https://downloads.aspose.com/slides/java).
+Before you begin, make sure you have the Aspose.Slides for Java library integrated into your Java project. You can download the library from the Aspose website [here](https://downloads.aspose.com/slides/java).
 
 ## Step 1: Import Required Libraries
 

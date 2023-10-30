@@ -16,7 +16,7 @@ Before we embark on this journey of creating captivating slide transitions, ther
 
 ### 1. Aspose.Slides for .NET Library
 
-Ensure you have the Aspose.Slides for .NET library installed. You can download it from the official website [here](https://releases.aspose.com/slides/net/).
+Ensure you have the Aspose.Slides for .NET library installed. You can download it from the website [here](https://releases.aspose.com/slides/net/).
 
 ### 2. A Presentation File
 
@@ -86,7 +86,7 @@ Now that you've successfully applied slide transitions to your presentation, it'
 
 In this tutorial, you've learned how to use Aspose.Slides for .NET to create captivating slide transitions in your presentations. With simple steps, you can enhance your content and engage your audience effectively.
 
-By applying transitions like "Circle" and "Comb," you can bring life to your slides and make your presentations more engaging. Don't forget to explore the [official documentation](https://reference.aspose.com/slides/net/) for more details and features of Aspose.Slides for .NET.
+By applying transitions like "Circle" and "Comb," you can bring life to your slides and make your presentations more engaging. Don't forget to explore the [documentation](https://reference.aspose.com/slides/net/) for more details and features of Aspose.Slides for .NET.
 
 Have any questions or need further assistance? Check out the Aspose.Slides community forum [here](https://forum.aspose.com/).
 
@@ -96,13 +96,13 @@ Have any questions or need further assistance? Check out the Aspose.Slides commu
 To apply different transitions, follow the steps in this tutorial for each slide you want to modify, changing the transition type as needed.
 
 ### 2. Can I customize the duration and speed of slide transitions?
-Yes, Aspose.Slides for .NET provides options to customize transition speed and duration. Refer to the official documentation for details.
+Yes, Aspose.Slides for .NET provides options to customize transition speed and duration. Refer to the documentation for details.
 
 ### 3. Is Aspose.Slides for .NET compatible with the latest PowerPoint versions?
 Aspose.Slides for .NET is designed to work with various PowerPoint versions, ensuring compatibility with the latest releases.
 
 ### 4. What other features does Aspose.Slides for .NET offer?
-Aspose.Slides for .NET offers a wide range of features, including slide creation, text formatting, animations, and more. Explore the official documentation for a comprehensive list.
+Aspose.Slides for .NET offers a wide range of features, including slide creation, text formatting, animations, and more. Explore the documentation for a comprehensive list.
 
 ### 5. Can I try Aspose.Slides for .NET before purchasing it?
 Yes, you can try Aspose.Slides for .NET by obtaining a free trial from [here](https://releases.aspose.com/).

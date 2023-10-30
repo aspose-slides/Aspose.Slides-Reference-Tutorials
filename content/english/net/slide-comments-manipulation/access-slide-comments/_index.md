@@ -16,7 +16,7 @@ Before we begin, make sure you have the following prerequisites in place:
 
 ### 1. Aspose.Slides for .NET
 
-You need to have Aspose.Slides for .NET installed in your development environment. If you haven't already done this, you can download it from the [official website](https://releases.aspose.com/slides/net/).
+You need to have Aspose.Slides for .NET installed in your development environment. If you haven't already done this, you can download it from the [website](https://releases.aspose.com/slides/net/).
 
 ### 2. Slide Comments in Your Presentation
 
@@ -108,7 +108,7 @@ Yes, Aspose.Slides for .NET can be used in various .NET applications, including 
 Yes, you can download a free trial of Aspose.Slides for .NET from [here](https://releases.aspose.com/). This trial version allows you to explore the library's capabilities.
 
 ### Where can I find documentation and support for Aspose.Slides for .NET?
-You can access the official documentation at [reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/) and seek support on the [Aspose.Slides forum](https://forum.aspose.com/).
+You can access the documentation at [reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/) and seek support on the [Aspose.Slides forum](https://forum.aspose.com/).
 
 ### Can I purchase a license for Aspose.Slides for .NET?
 Yes, you can purchase a license for Aspose.Slides for .NET from [this link](https://purchase.aspose.com/buy) to unlock the full potential of the library in your projects.

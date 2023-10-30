@@ -14,7 +14,7 @@ In the world of presentation design and automation, Aspose.Slides for .NET is a 
 
 Before we dive into the step-by-step process, ensure you have the following prerequisites in place:
 
-1. Aspose.Slides for .NET Library: Download and install the Aspose.Slides for .NET library from the [official download link](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET Library: Download and install the Aspose.Slides for .NET library from the [download link](https://releases.aspose.com/slides/net/).
 
 2. Image for Background: You'll need an image that you want to set as the slide background. Make sure you have the image file in a suitable format (e.g., .jpg) ready for use.
 
@@ -114,4 +114,4 @@ Aspose.Slides for .NET is primarily designed for Windows environments. For macOS
 
 ### 5. Does Aspose.Slides for .NET offer a trial version?
 
-Yes, you can get a free trial of Aspose.Slides for .NET from the official website at [this link](https://releases.aspose.com/).
+Yes, you can get a free trial of Aspose.Slides for .NET from the website at [this link](https://releases.aspose.com/).

@@ -17,7 +17,7 @@ Before we embark on our journey to enhance your presentations with transition ef
 
 ### 1. Installation
 
-To begin, you need to have Aspose.Slides for .NET installed. If you haven't already, download and install it from the official website.
+To begin, you need to have Aspose.Slides for .NET installed. If you haven't already, download and install it from the website.
 
 - Download Aspose.Slides for .NET: [Download Link](https://releases.aspose.com/slides/net/)
 
@@ -96,7 +96,7 @@ This code will save the presentation with the applied transition effects to a ne
 
 In this tutorial, we've explored how to enhance your PowerPoint presentations with captivating slide transition effects using Aspose.Slides for .NET. By following the steps outlined here, you can create engaging and dynamic presentations that leave a lasting impact on your audience.
 
-For more information and advanced features, refer to the official Aspose.Slides for .NET documentation: [Documentation](https://reference.aspose.com/slides/net/)
+For more information and advanced features, refer to the Aspose.Slides for .NET documentation: [Documentation](https://reference.aspose.com/slides/net/)
 
 If you're ready to take your presentations to the next level, download Aspose.Slides for .NET now: [Download Link](https://releases.aspose.com/slides/net/)
 
@@ -111,7 +111,7 @@ Have questions or need support? Visit the Aspose.Slides forum: [Support](https:/
    Yes, you can customize the duration of slide transition effects in Aspose.Slides by setting the "AdvanceAfterTime" property for each slide's transition.
 
 ### Are there other types of slide transitions available in Aspose.Slides for .NET?
-   Yes, Aspose.Slides for .NET offers various types of slide transition effects, including fades, pushes, and more. You can explore these options in the official documentation.
+   Yes, Aspose.Slides for .NET offers various types of slide transition effects, including fades, pushes, and more. You can explore these options in the documentation.
 
 ### Can I apply different transitions to different slides in the same presentation?
    Absolutely! You can apply different transition effects to individual slides, allowing you to create a unique and dynamic presentation.

@@ -16,7 +16,7 @@ Before we dive into the tutorial, you'll need to ensure you have the following p
 
 ### 1. Aspose.Slides for .NET
 
-You must have Aspose.Slides for .NET installed. You can download the library from the [official download link](https://releases.aspose.com/slides/net/).
+You must have Aspose.Slides for .NET installed. You can download the library from the [download link](https://releases.aspose.com/slides/net/).
 
 ### 2. A PowerPoint Presentation
 

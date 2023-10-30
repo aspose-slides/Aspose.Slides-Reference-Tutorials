@@ -14,7 +14,7 @@ In the world of presentation design, creating visually stunning slides is essent
 
 Before you begin, you need to have the following prerequisites in place:
 
-1. Aspose.Slides for .NET: Make sure you have the library installed. You can download it from the [official website](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Make sure you have the library installed. You can download it from the [website](https://releases.aspose.com/slides/net/).
 
 2. Development Environment: You should have a development environment set up, preferably Visual Studio or any other .NET development tool.
 
@@ -92,7 +92,7 @@ Yes, Aspose.Slides for .NET is compatible with the latest .NET Framework version
 Absolutely! You can customize the gradient background for each slide in your presentation.
 
 ### Where can I find more documentation and support for Aspose.Slides for .NET?
-You can explore the documentation and seek support on the [official Aspose.Slides forum](https://forum.aspose.com/).
+You can explore the documentation and seek support on the [Aspose.Slides forum](https://forum.aspose.com/).
 
 ### Is there a free trial available for Aspose.Slides for .NET?
 Yes, you can download a free trial version from [here](https://releases.aspose.com/).

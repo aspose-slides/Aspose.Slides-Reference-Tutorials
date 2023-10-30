@@ -16,7 +16,7 @@ Before we dive into the details, make sure you have the following prerequisites 
 
 ### 1. Aspose.Slides for .NET Installed
 
-You should have Aspose.Slides for .NET installed in your development environment. You can download it from the [official Aspose.Slides for .NET download page](https://releases.aspose.com/slides/net/).
+You should have Aspose.Slides for .NET installed in your development environment. You can download it from the [Aspose.Slides for .NET download page](https://releases.aspose.com/slides/net/).
 
 ### 2. Basic Knowledge of C#
 
@@ -98,7 +98,7 @@ Aspose.Slides for .NET is a powerful library that allows developers to work with
 
 ### Where can I download Aspose.Slides for .NET?
 
-You can download Aspose.Slides for .NET from the [official Aspose.Slides for .NET download page](https://releases.aspose.com/slides/net/).
+You can download Aspose.Slides for .NET from the [Aspose.Slides for .NET download page](https://releases.aspose.com/slides/net/).
 
 ### Do I need to be an experienced developer to use Aspose.Slides for .NET?
 

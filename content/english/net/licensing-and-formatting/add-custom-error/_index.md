@@ -16,7 +16,7 @@ Before we dive into the fascinating world of custom error bars, ensure you have 
 
 ### 1. Aspose.Slides for .NET Installed
 
-If you haven't already, download and install Aspose.Slides for .NET from the official [download link](https://releases.aspose.com/slides/net/).
+If you haven't already, download and install Aspose.Slides for .NET from the [download link](https://releases.aspose.com/slides/net/).
 
 ### 2. Development Environment
 
@@ -119,8 +119,8 @@ If you're ready to impress your audience with stunning presentations, Aspose.Sli
 ### 3. Is Aspose.Slides for .NET suitable for both beginners and experienced developers?
    Absolutely! Aspose.Slides for .NET provides a user-friendly interface that caters to both newcomers and seasoned developers.
 
-### 4. Where can I find official documentation for Aspose.Slides for .NET?
-   You can refer to the [official documentation](https://reference.aspose.com/slides/net/) for detailed information and examples.
+### 4. Where can I find documentation for Aspose.Slides for .NET?
+   You can refer to the [documentation](https://reference.aspose.com/slides/net/) for detailed information and examples.
 
 ### 5. How can I obtain a temporary license for Aspose.Slides for .NET?
    To get a temporary license, visit the [temporary license page](https://purchase.aspose.com/temporary-license/) on the Aspose website.

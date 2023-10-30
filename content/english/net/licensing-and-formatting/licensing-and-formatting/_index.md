@@ -14,7 +14,7 @@ In the world of .NET development, Aspose.Slides is a powerful and versatile libr
 
 Before we delve into the licensing process, you should have the following prerequisites in place:
 
-1. Aspose.Slides for .NET: Ensure that you have installed Aspose.Slides for .NET in your development environment. You can download the library from the official [download link](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Ensure that you have installed Aspose.Slides for .NET in your development environment. You can download the library from the [download link](https://releases.aspose.com/slides/net/).
 
 2. License File: Acquire a valid Aspose.Slides license file, typically named "Aspose.Slides.lic." You can obtain licenses from the [Aspose website](https://purchase.aspose.com/buy) or request a [temporary license](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
 
@@ -82,13 +82,13 @@ Remember, a valid license not only ensures compliance with legal requirements bu
 Aspose.Slides for .NET is a powerful library for working with Microsoft PowerPoint files in .NET applications. It allows you to create, modify, and manipulate PowerPoint presentations programmatically.
 
 ### How can I obtain a license for Aspose.Slides for .NET?
-You can acquire a license for Aspose.Slides for .NET by visiting the official Aspose website's [purchase page](https://purchase.aspose.com/buy).
+You can acquire a license for Aspose.Slides for .NET by visiting the Aspose website's [purchase page](https://purchase.aspose.com/buy).
 
 ### Can I evaluate Aspose.Slides for .NET before purchasing a license?
 Yes, you can request a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate Aspose.Slides for .NET in your development environment.
 
 ### Are there any free resources or documentation available for Aspose.Slides for .NET?
-Yes, you can access the documentation and resources for Aspose.Slides for .NET on the [official documentation page](https://reference.aspose.com/slides/net/).
+Yes, you can access the documentation and resources for Aspose.Slides for .NET on the [documentation page](https://reference.aspose.com/slides/net/).
 
 ### What kind of support is available for Aspose.Slides for .NET users?
 Aspose provides a community forum where you can seek support and interact with other Aspose users. You can access the forum at [https://forum.aspose.com/](https://forum.aspose.com/).

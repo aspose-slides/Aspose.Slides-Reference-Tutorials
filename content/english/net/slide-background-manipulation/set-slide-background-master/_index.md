@@ -16,7 +16,7 @@ Before we embark on this journey to enhance your presentation design skills, let
 
 ### 1. Aspose.Slides for .NET Installed
 
-To get started, you need to have Aspose.Slides for .NET installed on your development environment. If you haven't already, you can download it from the official [Aspose.Slides for .NET website](https://releases.aspose.com/slides/net/).
+To get started, you need to have Aspose.Slides for .NET installed on your development environment. If you haven't already, you can download it from the [Aspose.Slides for .NET website](https://releases.aspose.com/slides/net/).
 
 ### 2. Basic Familiarity with C#
 

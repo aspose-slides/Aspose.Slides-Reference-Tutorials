@@ -14,7 +14,7 @@ Aspose.Slides for .NET is a powerful library that allows developers to work with
 
 Before you dive into managing modern comments in PowerPoint presentations with Aspose.Slides for .NET, make sure you have the following prerequisites in place:
 
-1. Aspose.Slides for .NET: You need to have Aspose.Slides for .NET installed. If you haven't already, you can download it from the [official download link](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: You need to have Aspose.Slides for .NET installed. If you haven't already, you can download it from the [download link](https://releases.aspose.com/slides/net/).
 
 2. Development Environment: Ensure that you have a working development environment, such as Visual Studio or any other compatible IDE for .NET development.
 
@@ -108,4 +108,4 @@ You can update or delete modern comments programmatically by accessing the comme
 
 ### 5. Can I try Aspose.Slides for .NET before purchasing it?
 
-Certainly! You can access a free trial version of Aspose.Slides for .NET from the official [free trial link](https://releases.aspose.com/).
+Certainly! You can access a free trial version of Aspose.Slides for .NET from the [free trial link](https://releases.aspose.com/).

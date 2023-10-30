@@ -16,7 +16,7 @@ Before we dive into the process of generating thumbnails from slides, you'll nee
 
 ### 1. Aspose.Slides for .NET Library
 
-Make sure you have the Aspose.Slides for .NET library installed. You can download it from the [official Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) or use NuGet Package Manager in Visual Studio.
+Make sure you have the Aspose.Slides for .NET library installed. You can download it from the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) or use NuGet Package Manager in Visual Studio.
 
 ### 2. .NET Development Environment
 
@@ -86,7 +86,7 @@ Aspose.Slides for .NET simplifies the process of generating slide thumbnails in 
 
 Whether you're building a presentation management system or enhancing your business presentations, Aspose.Slides for .NET empowers you to work with PowerPoint documents efficiently. Try it out and enhance your application's capabilities.
 
-If you have any questions or need further assistance, you can always refer to the [official Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) or reach out to the Aspose community on their [support forum](https://forum.aspose.com/).
+If you have any questions or need further assistance, you can always refer to the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) or reach out to the Aspose community on their [support forum](https://forum.aspose.com/).
 
 ---
 
@@ -99,10 +99,10 @@ Yes, Aspose.Slides for .NET is regularly updated to support the latest .NET Fram
 Absolutely, you can generate thumbnails from any slide within a presentation by selecting the appropriate slide index.
 
 ### Are there any licensing options available for Aspose.Slides for .NET?
-Yes, Aspose offers various licensing options, including temporary licenses for trial purposes. You can explore them on the [official Aspose purchase page](https://purchase.aspose.com/buy).
+Yes, Aspose offers various licensing options, including temporary licenses for trial purposes. You can explore them on the [Aspose purchase page](https://purchase.aspose.com/buy).
 
 ### Is there a free trial available for Aspose.Slides for .NET?
-Yes, you can get a free trial of Aspose.Slides for .NET from the [official Aspose releases page](https://releases.aspose.com/).
+Yes, you can get a free trial of Aspose.Slides for .NET from the [Aspose releases page](https://releases.aspose.com/).
 
 ### How can I get support for Aspose.Slides for .NET if I encounter issues or have questions?
 You can seek assistance and join discussions on the Aspose community support forum [here](https://forum.aspose.com/).

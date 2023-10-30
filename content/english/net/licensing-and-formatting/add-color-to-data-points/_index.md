@@ -16,7 +16,7 @@ Before you start, make sure you have the following prerequisites in place:
 
 1. Visual Studio: You need Visual Studio installed on your computer.
 
-2. Aspose.Slides for .NET: Download and install Aspose.Slides for .NET from the [official download link](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides for .NET: Download and install Aspose.Slides for .NET from the [download link](https://releases.aspose.com/slides/net/).
 
 3. A Basic Understanding of C#: You should have a basic knowledge of C# programming.
 
@@ -108,7 +108,7 @@ Adding color to data points in a chart is a powerful way to make your presentati
    Yes, you can customize various aspects of charts, such as data labels, fonts, colors, and more, using Aspose.Slides for .NET.
 
 ### Where can I find documentation for Aspose.Slides for .NET?
-   You can find detailed documentation at the [official documentation link](https://reference.aspose.com/slides/net/).
+   You can find detailed documentation at the [documentation link](https://reference.aspose.com/slides/net/).
 
 ### Is there a free trial available for Aspose.Slides for .NET?
    Yes, you can download a free trial from [here](https://releases.aspose.com/).
