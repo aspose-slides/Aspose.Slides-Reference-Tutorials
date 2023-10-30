@@ -23,8 +23,8 @@ Formatting plays a pivotal role in creating engaging and professional presentati
 Whether you're seeking to streamline licensing procedures or elevate the visual aesthetics of your presentations, these tutorials will provide you with the insights and skills to achieve your goals. Let's embark on this journey to enhance your Aspose.Slides proficiency and create presentations that leave a lasting impression.
 
 ## Licensing and Formatting Tutorials
-### [Licensing and Formatting in Aspose.Slides](./licensing-and-formatting/)
-Learn how to use Aspose.Slides for .NET effectively from licensing to formatting, animations, and more. Create engaging presentations effortlessly.
+### [Licensing in Aspose.Slides](./licensing-and-formatting/)
+Learn how to license Aspose.Slides for .NET and unleash the power of PowerPoint manipulation in your .NET applications.
 ### [Metered Licensing Usage](./metered-licensing/)
 Learn how to efficiently use Metered Licensing with Aspose.Slides for .NET. Seamlessly integrate APIs while paying for actual usage.
 ### [Add Color to Data Points in Chart](./add-color-to-data-points/)
