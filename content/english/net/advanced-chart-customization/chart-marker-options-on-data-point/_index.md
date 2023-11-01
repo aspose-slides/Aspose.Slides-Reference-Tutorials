@@ -1,232 +1,150 @@
 ---
-title: Chart Marker Options on Data Point
+title: Using Chart Marker Options on Data Point in Aspose.Slides .NET
 linktitle: Chart Marker Options on Data Point
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Learn how to enhance your data visualizations using Aspose.Slides for .NET. Explore chart marker options step by step.
+description: Learn how to enhance your PowerPoint charts using Aspose.Slides for .NET. Customize data point markers with images. Create engaging presentations.
 type: docs
 weight: 11
 url: /net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
-## Introduction to Chart Marker Options
+When working with presentations and data visualization, Aspose.Slides for .NET offers a wide range of powerful features to create, customize, and manipulate charts. In this tutorial, we will explore how to use chart marker options on data points to enhance your chart presentations. This step-by-step guide will walk you through the process, starting from the prerequisites and importing namespaces, to breaking down each example into multiple steps.
 
-Chart marker options are visual enhancements that can be applied to individual data points on a chart. These markers help in highlighting specific data values, making it easier for the audience to interpret the information presented. By using chart marker options, you can draw attention to crucial data points and emphasize trends or outliers.
+## Prerequisites
 
-## Setting up the Development Environment
+Before we dive into using chart marker options on data points, ensure that you have the following prerequisites in place:
 
-Before we dive into working with chart marker options using Aspose.Slides for .NET, let's ensure that we have the necessary tools in place.
+- Aspose.Slides for .NET: Make sure you have Aspose.Slides for .NET installed. You can download it from the [website](https://releases.aspose.com/slides/net/).
 
-## Installing Aspose.Slides for .NET
+- Sample Presentation: For this tutorial, we'll use a sample presentation named "Test.pptx." You should have this presentation in your document directory.
 
-To get started, you need to have Aspose.Slides for .NET installed in your development environment. You can download the library from the website: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net).
+Now, let's start by importing the necessary namespaces.
 
-## Creating a New Project
-
-Once you have Aspose.Slides for .NET installed, create a new project in your preferred .NET development environment. You can use Visual Studio or any other IDE of your choice.
-
-## Loading and Modifying an Existing Presentation
-
-To work with chart marker options, we need an existing presentation with a chart. Let's start by loading an existing presentation and accessing the slide containing the chart.
-
-## Loading a Presentation File
+## Import Namespaces
 
 ```csharp
-// Load the presentation
-using (Presentation presentation = new Presentation("sample.pptx"))
-{
-    // Your code to work with the presentation goes here
-}
+﻿using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## Accessing Slide with Chart
+We've imported the required namespaces and initialized our presentation. Now, let's proceed to use chart marker options on data points.
 
-Next, let's identify the slide that contains the chart we want to modify.
+## Step 1: Creating the Default Chart
 
 ```csharp
-// Accessing a slide with a chart
-ISlide slide = presentation.Slides[0]; // Replace 0 with the slide index
+
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+
+ISlide slide = pres.Slides[0];
+
+// Creating the default chart
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## Accessing Chart Data Series
+We create a default chart of type "LineWithMarkers" on the slide at a specified location and size.
 
-In order to apply marker options to data points, we first need to access the relevant data series within the chart.
-
-## Identifying Data Series
+## Step 2: Getting the Default Chart Data Worksheet Index
 
 ```csharp
-// Accessing the chart on the slide
-IChart chart = slide.Shapes[0] as IChart;
-
-// Accessing the first data series
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-IChartSeries dataSeries = chart.ChartData.Series[0];
+// Getting the default chart data worksheet index
+int defaultWorksheetIndex = 0;
 ```
 
-## Accessing Data Points
+Here, we obtain the index of the default chart data worksheet.
 
-Now that we have access to the data series, we can work with individual data points.
+## Step 3: Getting the Chart Data Worksheet
 
 ```csharp
-// Accessing individual data points
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    // Your code to work with data points goes here
-}
+// Getting the chart data worksheet
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-## Applying Marker Options
+We fetch the chart data workbook to work with chart data.
 
-Let's now apply marker options to the data points within the chart.
-
-## Enabling Markers for Data Points
+## Step 4: Modifying the Chart Series
 
 ```csharp
-// Enabling markers for data points
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Circle; // You can choose a different marker type
-    dataPoint.Marker.Symbol.Size = 10; // Adjust marker size as needed
-    dataPoint.Marker.Visible = true; // Show markers
-}
+// Delete demo series
+chart.ChartData.Series.Clear();
+
+// Add new series
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-## Customizing Marker Appearance
+In this step, we remove any existing demo series and add a new series named "Series 1" to the chart.
 
-You can also customize the appearance of markers to make them more visually appealing.
+## Step 5: Setting Picture Fill for Data Points
 
 ```csharp
-// Customizing marker appearance
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Diamond;
-    dataPoint.Marker.Symbol.Size = 12;
-    dataPoint.Marker.Symbol.Fill.SolidFillColor.Color = Color.Red;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.FillType = FillType.Solid;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+// Set the picture for the markers
+System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx1 = pres.Images.AddImage(img1);
+
+System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
+IPPImage imgx2 = pres.Images.AddImage(img2);
+
+// Take the first chart series
+IChartSeries series = chart.ChartData.Series[0];
+
+// Add new data points with picture fill
+IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, (double)2.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, (double)3.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-## Adding Labels to Markers
+We set picture markers for data points, allowing you to customize how each data point appears on the chart.
 
-Adding data labels to markers can provide context and clarity to the chart.
-
-## Displaying Data Labels
+## Step 6: Changing the Chart Series Marker Size
 
 ```csharp
-// Displaying data labels
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.ShowCategoryName = true;
-    dataLabel.ShowValue = true;
-}
+// Changing the chart series marker size
+series.Marker.Size = 15;
 ```
 
-## Formatting Data Labels
+Here, we adjust the size of the chart series marker to make it visually appealing.
 
-You can format data labels to suit your preferences.
+## Step 7: Saving the Presentation
 
 ```csharp
-// Formatting data labels
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontBold = NullableBool.True;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontHeight = 14;
-}
+pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ```
 
-## Handling Marker Overlapping
-
-In cases where markers overlap and cause visual clutter, it's important to handle marker positions.
-
-## Adjusting Marker Overlapping
-
-```csharp
-// Adjusting marker overlapping
-chart.Placement = PlacementType.FreeFloating;
-chart.MarkerOverlap = -30; // Adjust overlap value as needed
-```
-
-## Choosing Optimal Marker Positions
-
-```csharp
-// Choosing optimal marker positions
-chart.MarkerClustered = false;
-chart.MarkerSymbolSpacing = 2; // Adjust spacing as needed
-```
-
-## Saving and Exporting the Modified Presentation
-
-Once you have made the necessary modifications to the chart, you can save and export the modified presentation.
-
-## Saving to Different Formats
-
-```csharp
-// Saving to different formats
-presentation.Save("modified.pptx", SaveFormat.Pptx);
-presentation.Save("modified.pdf", SaveFormat.Pdf);
-```
-
-## Exporting to PDF or Image
-
-```csharp
-// Exporting to PDF or image
-using (FileStream stream = new FileStream("output.pdf", FileMode.Create))
-{
-    PdfOptions options = new PdfOptions();
-    presentation.Save(stream
-
-, SaveFormat.Pdf);
-}
-```
-
-## Real-world Use Cases
-
-Chart marker options are invaluable when analyzing real-world data scenarios.
-
-## Sales Performance Analysis
-
-By using marker options, sales analysts can pinpoint exceptional sales months and visualize trends over time.
-
-## Stock Market Trends
-
-Investors can utilize marker options to identify significant stock price fluctuations and make informed decisions.
-
-## Best Practices for Effective Data Visualization
-
-When creating charts, keep these best practices in mind.
-
-## Keeping Charts Simple and Clear
-
-Simplicity enhances understanding. Avoid overcrowding charts with excessive markers.
-
-## Using Appropriate Chart Types
-
-Choose chart types that effectively communicate your data. Not all data sets require markers.
+Finally, we save the presentation with the new chart settings.
 
 ## Conclusion
 
-In this article, we delved into the world of chart marker options using Aspose.Slides for .NET. We explored the step-by-step process of enabling, customizing, and managing markers on data points within charts. By following the techniques described in this guide, you can elevate your data visualization skills and create compelling presentations that resonate with your audience.
+Aspose.Slides for .NET empowers you to create stunning chart presentations with various customization options. In this tutorial, we focused on using chart marker options on data points to enhance the visual representation of your data. With Aspose.Slides for .NET, you can take your presentations to the next level, making them more engaging and informative.
 
-## FAQ's
+If you have any questions or need assistance with Aspose.Slides for .NET, feel free to visit the [Aspose.Slides documentation](https://reference.aspose.com/slides/net/) or reach out to the [Aspose community](https://forum.aspose.com/) for support.
 
-### How can I download Aspose.Slides for .NET?
+## Frequently Asked Questions (FAQs)
 
-You can download Aspose.Slides for .NET from the releases page: [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net).
+### Can I use custom images as markers for data points in Aspose.Slides for .NET?
+Yes, you can use custom images as markers for data points in Aspose.Slides for .NET, as demonstrated in this tutorial.
 
-### Can I customize the appearance of markers?
+### How can I change the chart type in Aspose.Slides for .NET?
+You can change the chart type by specifying a different `ChartType` when creating the chart, such as "Bar," "Pie," or "Area."
 
-Absolutely! You can choose from various marker types and customize their size, color, and shape.
+### Is Aspose.Slides for .NET compatible with the latest versions of PowerPoint?
+Aspose.Slides for .NET is designed to work with various PowerPoint formats and is regularly updated to maintain compatibility with the latest PowerPoint versions.
 
-### Is there a way to handle marker overlapping?
+### Where can I find more tutorials and resources for Aspose.Slides for .NET?
+You can explore additional tutorials and resources in the [Aspose.Slides documentation](https://reference.aspose.com/slides/net/).
 
-Yes, you can adjust marker overlap settings to prevent visual clutter in your charts.
-
-### What formats can I save my modified presentation in?
-
-Aspose.Slides for .NET supports saving presentations in various formats, including PPTX and PDF.
-
-### How can I add data labels to markers?
-
-You can easily add data labels to markers and format them according to your preferences.
+### Is there a trial version of Aspose.Slides for .NET available?
+Yes, you can try Aspose.Slides for .NET by downloading a free trial version from [here](https://releases.aspose.com/).
