@@ -16,7 +16,7 @@ Before we get started, make sure you have the following prerequisites in place:
 
 ### 1. Aspose.Slides for .NET
 
-You should have Aspose.Slides for .NET installed and set up in your .NET development environment. If you haven't already, you can download and install it from the official website.
+You should have Aspose.Slides for .NET installed and set up in your .NET development environment. If you haven't already, you can download and install it from the website.
 
 [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
 
@@ -90,13 +90,13 @@ Aspose.Slides for .NET is a powerful .NET library for working with Microsoft Pow
 
 Yes, you can get a free trial of Aspose.Slides for .NET to evaluate its features and capabilities. [Get the free trial here](https://releases.aspose.com/).
 
-### 3. Where can I find the official documentation for Aspose.Slides for .NET?
+### 3. Where can I find the documentation for Aspose.Slides for .NET?
 
-You can access the official documentation for Aspose.Slides for .NET [here](https://reference.aspose.com/slides/net/). It contains detailed information, examples, and API references.
+You can access the documentation for Aspose.Slides for .NET [here](https://reference.aspose.com/slides/net/). It contains detailed information, examples, and API references.
 
 ### 4. How do I purchase a license for Aspose.Slides for .NET?
 
-To purchase a license for Aspose.Slides for .NET, visit the official Aspose website and use the following link: [Purchase Aspose.Slides for .NET](https://purchase.aspose.com/buy).
+To purchase a license for Aspose.Slides for .NET, visit the Aspose website and use the following link: [Purchase Aspose.Slides for .NET](https://purchase.aspose.com/buy).
 
 ### 5. What is the maximum title length for SEO optimization?
 

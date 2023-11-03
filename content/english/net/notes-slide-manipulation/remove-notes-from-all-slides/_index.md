@@ -16,7 +16,7 @@ Before you get started with this tutorial, make sure you have the following prer
 
 1. Visual Studio: You should have Visual Studio installed on your development machine.
 
-2. Aspose.Slides for .NET: You need to have the Aspose.Slides for .NET library installed. You can download it from the [official website](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides for .NET: You need to have the Aspose.Slides for .NET library installed. You can download it from the [website](https://releases.aspose.com/slides/net/).
 
 3. A PowerPoint Presentation: You should have a PowerPoint presentation (PPTX) that contains notes on its slides.
 
@@ -84,7 +84,7 @@ Yes, Aspose.Slides is also available for Java, C++ and many other programming la
 
 ### 2. Is Aspose.Slides for .NET a free library?
 
-Aspose.Slides for .NET is not a free library. You can find pricing and licensing information on the [official website](https://purchase.aspose.com/buy).
+Aspose.Slides for .NET is not a free library. You can find pricing and licensing information on the [website](https://purchase.aspose.com/buy).
 
 ### 3. Can I try Aspose.Slides for .NET before purchasing?
 

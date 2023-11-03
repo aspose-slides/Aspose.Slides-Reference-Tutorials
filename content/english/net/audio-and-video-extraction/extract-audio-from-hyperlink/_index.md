@@ -16,7 +16,7 @@ Before we dive into the extraction process, ensure you have the following prereq
 
 ### 1. Aspose.Slides for .NET Library
 
-You need to have the Aspose.Slides for .NET library installed in your development environment. If you haven't already, you can download it from the official website at [Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/).
+You need to have the Aspose.Slides for .NET library installed in your development environment. If you haven't already, you can download it from the website at [Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/).
 
 ### 2. PowerPoint Presentation with Audio Hyperlinks
 

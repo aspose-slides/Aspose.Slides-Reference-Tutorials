@@ -14,7 +14,7 @@ Aspose.Slides for .NET is a powerful library that allows you to work with PowerP
 
 Before you begin, make sure you have the following prerequisites in place:
 
-- Aspose.Slides for .NET: You need to have Aspose.Slides for .NET installed. You can obtain it from the [official website](https://purchase.aspose.com/buy).
+- Aspose.Slides for .NET: You need to have Aspose.Slides for .NET installed. You can obtain it from the [website](https://purchase.aspose.com/buy).
 
 - A PowerPoint Presentation: Prepare a PowerPoint presentation (e.g., Video.pptx) that contains the video you want to extract.
 

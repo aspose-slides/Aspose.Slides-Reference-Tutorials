@@ -139,7 +139,7 @@ Yes, you can use Aspose.Slides for .NET to create charts in various formats, inc
 
 ### Where can I find comprehensive documentation for Aspose.Slides for .NET?
 
-You can find detailed documentation and resources for Aspose.Slides for .NET at the [official documentation](https://reference.aspose.com/slides/net/).
+You can find detailed documentation and resources for Aspose.Slides for .NET at the [documentation](https://reference.aspose.com/slides/net/).
 
 ### Is there a trial version available for Aspose.Slides for .NET?
 
