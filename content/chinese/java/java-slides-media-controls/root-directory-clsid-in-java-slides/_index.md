@@ -8,7 +8,7 @@ weight: 10
 url: /zh/java/media-controls/root-directory-clsid-in-java-slides/
 ---
 
-## Aspose.Slides for Java中设置根目录ClsId简介
+## Aspose.Slides for Java中设置根目录ClsId介绍
 
 在Aspose.Slides for Java中，您可以设置根目录ClsId，它是CLSID（类标识符），用于指定在激活演示文稿中的超链接时用作根目录的应用程序。在本指南中，我们将引导您逐步完成此操作。
 

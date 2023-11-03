@@ -99,7 +99,7 @@ finally
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java kullanarak Java Slides'ta eksenlerden değerlerin ve birim ölçeğinin nasıl alınacağını araştırdık. Bu, grafiklerle çalışırken ve Java uygulamalarınızdaki verileri analiz ederken inanılmaz derecede değerli olabilir. Aspose.Slides for Java, sunumlarla programlı olarak çalışmak için ihtiyacınız olan araçları sağlayarak grafik verileri üzerinde kontrol sahibi olmanızı ve çok daha fazlasını sağlar.
+Bu eğitimde Aspose.Slides for Java kullanarak Java Slides'ta eksenlerden değerlerin ve birim ölçeğinin nasıl alınacağını araştırdık. Bu, grafiklerle çalışırken ve Java uygulamalarınızdaki verileri analiz ederken inanılmaz derecede değerli olabilir. Aspose.Slides for Java, sunumlarla programlı olarak çalışmak için ihtiyaç duyduğunuz araçları sağlayarak grafik verileri üzerinde kontrol sahibi olmanızı ve çok daha fazlasını sağlar.
 
 ## SSS'ler
 

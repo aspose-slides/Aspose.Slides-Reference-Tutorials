@@ -1,193 +1,150 @@
 ---
-title: Zusätzliche Diagrammfunktionen in Aspose.Slides
+title: Erkunden erweiterter Diagrammfunktionen mit Aspose.Slides für .NET
 linktitle: Zusätzliche Diagrammfunktionen in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Entdecken Sie erweiterte Diagrammfunktionen in Aspose.Slides für .NET. Verbessern Sie Präsentationen mit Interaktivität und dynamischen Bildern.
+description: Lernen Sie erweiterte Diagrammfunktionen in Aspose.Slides für .NET kennen, um Ihre PowerPoint-Präsentationen zu verbessern. Löschen Sie Datenpunkte, stellen Sie Arbeitsmappen wieder her und mehr!
 type: docs
 weight: 10
 url: /de/net/additional-chart-features/additional-chart-features/
 ---
 
-## Einführung in Aspose.Slides
+In der Welt der Datenvisualisierung und des Präsentationsdesigns zeichnet sich Aspose.Slides für .NET als leistungsstarkes Tool zum Erstellen atemberaubender Diagramme und zur Verbesserung Ihrer PowerPoint-Präsentationen aus. Diese Schritt-für-Schritt-Anleitung führt Sie durch die verschiedenen erweiterten Diagrammfunktionen, die Aspose.Slides für .NET bietet. Egal, ob Sie Entwickler oder Präsentationsbegeisterter sind, dieses Tutorial hilft Ihnen dabei, das volle Potenzial dieser Bibliothek auszuschöpfen.
 
-Aspose.Slides ist eine leistungsstarke .NET-Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten. Es bietet umfassende Funktionen zum Erstellen, Bearbeiten und Bearbeiten von Präsentationselementen, einschließlich Diagrammen. Mit Aspose.Slides können Sie über die Grundlagen hinausgehen und erweiterte Diagrammfunktionen integrieren, die Ihre Präsentationen ansprechender und informativer machen.
+## Voraussetzungen
 
-## Einrichten der Umgebung
+Bevor wir uns mit den detaillierten Beispielen befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
- Bevor Sie mit der Implementierung beginnen, stellen Sie sicher, dass Aspose.Slides für .NET installiert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/net).
+1.  Aspose.Slides für .NET: Sie müssen Aspose.Slides für .NET installiert haben. Wenn Sie es noch nicht getan haben, können Sie es herunterladen[Hier](https://releases.aspose.com/slides/net/).
 
-Erstellen Sie nach der Installation der Bibliothek ein neues .NET-Projekt in Ihrer bevorzugten Entwicklungsumgebung.
+2. Visual Studio: Sie sollten Visual Studio oder eine andere geeignete C#-Entwicklungsumgebung installiert haben, um den Codebeispielen folgen zu können.
 
-## Erstellen eines einfachen Diagramms
+3. Grundkenntnisse in C#: Vertrautheit mit der C#-Programmierung ist unerlässlich, um den Code zu verstehen und bei Bedarf zu ändern.
 
-Beginnen wir mit der Erstellung eines einfachen Diagramms mit Aspose.Slides. In diesem Beispiel erstellen wir ein einfaches Säulendiagramm zur Visualisierung von Verkaufsdaten.
+Nachdem Sie nun die Voraussetzungen erfüllt haben, erkunden wir einige erweiterte Diagrammfunktionen in Aspose.Slides für .NET.
+
+## Notwendige Namespaces importieren
+
+Importieren wir zunächst die erforderlichen Namespaces, um auf die Aspose.Slides-Funktionalität in Ihrem C#-Projekt zuzugreifen.
+
+### Beispiel 1: Namespaces importieren
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Charts;
-
-// Erstellen Sie eine neue Präsentation
-Presentation presentation = new Presentation();
-
-// Fügen Sie eine Folie hinzu
-ISlide slide = presentation.Slides.AddEmptySlide();
-
-//Fügen Sie der Folie ein Diagramm hinzu
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
-
-// Fügen Sie Daten zum Diagramm hinzu
-IChartDataWorkbook dataWorkbook = chart.ChartData.ChartDataWorkbook;
+using System;
 ```
 
-## Anpassen der Diagrammdarstellung
+## Beispiel 1: Diagrammdatenbereich abrufen
 
-Um Ihr Diagramm optisch ansprechend zu gestalten, können Sie sein Erscheinungsbild anpassen. Lassen Sie uns einige Anpassungsoptionen erkunden.
+In diesem Beispiel zeigen wir, wie Sie mit Aspose.Slides für .NET den Datenbereich aus einem Diagramm in einer PowerPoint-Präsentation abrufen.
 
-## Achsen formatieren
+### Schritt 1: Initialisieren Sie die Präsentation
 
-Sie können die Achsen des Diagramms formatieren, um die Lesbarkeit zu verbessern. Sie können beispielsweise Achsentitel, Beschriftungen und Skalierung ändern.
+Erstellen Sie zunächst eine neue PowerPoint-Präsentation mit Aspose.Slides.
 
 ```csharp
-// Wertachse anpassen
-IAxis valueAxis = chart.Axes.VerticalAxis;
-valueAxis.Title.Text = "Sales Amount";
-valueAxis.MajorTickMark = TickMarkType.Outside;
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation())
+{
+    // Fügen Sie der ersten Folie ein gruppiertes Säulendiagramm hinzu.
+    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
+    string result = chart.ChartData.GetRange();
+    Console.WriteLine("GetRange result: {0}", result);
+}
 ```
 
-## Datenbeschriftungen hinzufügen
+In diesem Codeausschnitt erstellen wir eine neue Präsentation und fügen der ersten Folie ein gruppiertes Säulendiagramm hinzu. Anschließend rufen wir den Datenbereich des Diagramms ab`chart.ChartData.GetRange()` und zeigen Sie es an.
 
-Datenbeschriftungen bieten wertvolle Einblicke in Diagrammdaten. Sie können den Datenpunkten in Ihrem Diagramm ganz einfach Datenbeschriftungen hinzufügen.
+## Beispiel 2: Arbeitsmappe aus Diagramm wiederherstellen
+
+Sehen wir uns nun an, wie Sie eine Arbeitsmappe aus einem Diagramm in einer PowerPoint-Präsentation wiederherstellen.
+
+### Schritt 1: Präsentation mit Diagramm laden
+
+Laden Sie zunächst eine PowerPoint-Präsentation, die ein Diagramm enthält.
 
 ```csharp
-// Fügen Sie dem Diagramm Datenbeschriftungen hinzu
-IDataLabelFormat dataLabelFormat = chart.Series[0].DataPoints[0].Label.TextFormat;
-dataLabelFormat.ShowValue = true;
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+
+string pptxFile = Path.Combine(dataDir, "ExternalWB.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "ExternalWB_out.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
+{
+    IChart chart = pres.Slides[0].Shapes[0] as IChart;
+    IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
+
+    // Speichern Sie die geänderte Präsentation mit der wiederhergestellten Arbeitsmappe.
+    pres.Save(outPptxFile, SaveFormat.Pptx);
+}
 ```
 
-## Anwenden von Diagrammstilen
+In diesem Beispiel laden wir eine PowerPoint-Präsentation (`ExternalWB.pptx` ) und geben Sie Optionen zum Wiederherstellen der Arbeitsmappe aus einem Diagramm an. Nachdem wir die Arbeitsmappe wiederhergestellt haben, speichern wir die geänderte Präsentation unter`ExternalWB_out.pptx`.
 
-Aspose.Slides bietet eine Vielzahl von Diagrammstilen, die Sie auf Ihre Diagramme anwenden können.
+## Beispiel 3: Löschen Sie bestimmte Datenpunkte in Diagrammreihen
+
+Lassen Sie uns nun untersuchen, wie Sie bestimmte Datenpunkte aus einer Diagrammreihe in einer PowerPoint-Präsentation löschen.
+
+### Schritt 1: Präsentation mit Diagramm laden
+
+Laden Sie zunächst eine PowerPoint-Präsentation, die ein Diagramm mit Datenpunkten enthält.
 
 ```csharp
-// Wenden Sie einen Diagrammstil an
-chart.ChartStyle = 5; // Stilindex
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
+{
+    ISlide sl = pres.Slides[0];
+    IChart chart = (IChart)sl.Shapes[0];
+
+    //Durchlaufen Sie jeden Datenpunkt in der ersten Reihe und löschen Sie die X- und Y-Werte.
+    foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
+    {
+        dataPoint.XValue.AsCell.Value = null;
+        dataPoint.YValue.AsCell.Value = null;
+    }
+
+    // Löschen Sie alle Datenpunkte aus der ersten Serie.
+    chart.ChartData.Series[0].DataPoints.Clear();
+
+    // Speichern Sie die geänderte Präsentation.
+    pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);
+}
 ```
 
-## Einbindung interaktiver Elemente
+In diesem Beispiel laden wir eine PowerPoint-Präsentation (`TestChart.pptx` ) und löschen Sie bestimmte Datenpunkte aus der ersten Reihe des Diagramms. Wir durchlaufen jeden Datenpunkt, löschen die X- und Y-Werte und löschen schließlich alle Datenpunkte aus der Reihe. Die geänderte Präsentation wird gespeichert unter`ClearSpecificChartSeriesDataPointsData.pptx`.
 
-Interaktive Diagramme fesseln Ihr Publikum und sorgen für ein dynamisches Erlebnis. Sehen wir uns an, wie Sie Diagrammdaten Hyperlinks und Tooltips hinzufügen.
+# Abschluss
 
-## Hinzufügen von Hyperlinks zu Diagrammdaten
+Aspose.Slides für .NET bietet eine robuste Plattform für die Arbeit mit Diagrammen in PowerPoint-Präsentationen. Mit den in diesem Tutorial demonstrierten erweiterten Funktionen können Sie Ihre Datenvisualisierung und Ihr Präsentationsdesign auf die nächste Stufe heben. Egal, ob Sie Daten extrahieren, Arbeitsmappen wiederherstellen oder Diagrammdatenpunkte bearbeiten müssen, Aspose.Slides für .NET ist für Sie da.
 
-Sie können Hyperlinks zu bestimmten Datenpunkten hinzufügen, um Benutzern die Navigation zu verwandten Inhalten zu ermöglichen.
+Indem Sie die bereitgestellten Codebeispiele und Schritte befolgen, können Sie die Leistungsfähigkeit von Aspose.Slides für .NET nutzen, um Ihre PowerPoint-Präsentationen zu verbessern und wirkungsvolle datengesteuerte Visuals zu erstellen.
 
-```csharp
-// Fügen Sie einen Hyperlink zu einem Datenpunkt hinzu
-IDataPoint dataPoint = chart.Series[0].DataPoints[0];
-dataPoint.DataLabel.TextFrame.Text = "Click for Details";
-dataPoint.HyperlinkManager.SetExternalHyperlink("https://example.com/details");
-```
+## FAQs (häufig gestellte Fragen)
 
-## Implementieren von Tooltips für Datenpunkte
+### Ist Aspose.Slides für .NET sowohl für Anfänger als auch für erfahrene Entwickler geeignet?
+   
+Ja, Aspose.Slides für .NET richtet sich an Entwickler aller Niveaus, vom Anfänger bis zum Experten. Die Bibliothek bietet eine benutzerfreundliche Oberfläche und bietet gleichzeitig erweiterte Funktionen für erfahrene Entwickler.
 
-Tooltips bieten zusätzliche Informationen, wenn Benutzer mit der Maus über Datenpunkte fahren.
+### Kann ich Aspose.Slides für .NET verwenden, um Diagramme in anderen Dokumentformaten wie PDF oder Bildern zu erstellen?
 
-```csharp
-// Fügen Sie Tooltips zu Datenpunkten hinzu
-IDataPoint dataPoint = chart.Series[0].DataPoints[0];
-dataPoint.ToolTip = "Q1 Sales: $1000";
-```
+Ja, Sie können Aspose.Slides für .NET verwenden, um Diagramme in verschiedenen Formaten zu erstellen, einschließlich PDF, Bildern und mehr. Die Bibliothek bietet vielseitige Exportmöglichkeiten.
 
-## Arbeiten mit komplexen Diagrammtypen
+### Wo finde ich eine umfassende Dokumentation für Aspose.Slides für .NET?
 
-Aspose.Slides unterstützt verschiedene Diagrammtypen, einschließlich 3D-Diagramme und Kombinationsdiagramme.
+ Ausführliche Dokumentation und Ressourcen für Aspose.Slides für .NET finden Sie unter[Dokumentation](https://reference.aspose.com/slides/net/).
 
-## Erstellen von 3D-Diagrammen
+### Gibt es eine Testversion für Aspose.Slides für .NET?
 
-3D-Diagramme verleihen Ihren Präsentationen Tiefe und können mehrdimensionale Daten besser darstellen.
+ Ja, Sie können die Bibliothek mit einer kostenlosen Testversion erkunden, die unter verfügbar ist[Hier](https://releases.aspose.com/). Auf diese Weise können Sie die Funktionen vor dem Kauf bewerten.
 
-```csharp
-// Erstellen Sie ein 3D-Balkendiagramm
-IChart chart = slide.Shapes.AddChart(ChartType.Bar3D, 100, 100, 500, 300);
-```
+### Wie kann ich Unterstützung oder Hilfe zu Aspose.Slides für .NET erhalten?
 
-## Kombinationsdiagramme erstellen
-
-Mit Kombinationsdiagrammen können Sie verschiedene Diagrammtypen in einem einzigen Diagramm kombinieren.
-
-```csharp
-// Erstellen Sie ein Kombinationsdiagramm
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
-chart.Series.Add(ChartType.Line);
-```
-
-## Datengesteuerte Diagrammaktualisierungen
-
-Wenn sich Daten ändern, sollten Ihre Diagramme diese Änderungen widerspiegeln. Mit Aspose.Slides können Sie Diagrammdaten programmgesteuert aktualisieren.
-
-## Diagrammdaten ändern
-
-Sie können Diagrammdaten ändern und die Änderungen sofort in der Präsentation sehen.
-
-```csharp
-// Diagrammdaten ändern
-chart.Series[0].DataPoints[0].Value = 1200;
-```
-
-## Datenbindung in Echtzeit
-
-Aspose.Slides unterstützt die Datenbindung in Echtzeit, sodass Ihre Diagramme automatisch basierend auf externen Datenquellen aktualisiert werden.
-
-```csharp
-// Diagramm an eine Datenquelle binden
-chart.ChartData.SetExternalWorkbook("data.xlsx");
-```
-
-## Exportieren und Teilen
-
-Nachdem Sie Ihr Diagramm erstellt und angepasst haben, möchten Sie es möglicherweise mit anderen teilen.
-
-## Diagramme als Bilder/PDFs speichern
-
-Sie können einzelne Diagramme oder ganze Präsentationen als Bilder oder PDFs speichern.
-
-```csharp
-// Diagramm als Bild speichern
-chart.Save("chart.png", SlideImageFormat.Png);
-```
-
-## Einbetten von Diagrammen in Präsentationen
-
-Durch das Einbetten von Diagrammen in Präsentationen wird sichergestellt, dass Ihre Daten nahtlos dargestellt werden.
-
-```csharp
-// Diagramm in eine Folie einbetten
-ISlide slide = presentation.Slides.AddEmptySlide();
-IShape shape = slide.Shapes.AddChart(ChartType.Column, 100, 100, 500, 300);
-```
-
-## Abschluss
-
-Durch die Integration zusätzlicher Diagrammfunktionen in Ihre Präsentationen mithilfe von Aspose.Slides für .NET können Sie die visuelle Attraktivität und Effektivität Ihrer Inhalte erheblich steigern. Mit der Möglichkeit, das Erscheinungsbild anzupassen, Interaktivität hinzuzufügen und mit komplexen Diagrammtypen zu arbeiten, verfügen Sie über die Werkzeuge, um überzeugende und informative Präsentationen zu erstellen, die einen bleibenden Eindruck hinterlassen.
-
-## FAQs
-
-### Wie lade ich Aspose.Slides für .NET herunter?
-
- Sie können Aspose.Slides für .NET von der Release-Seite herunterladen:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net).
-
-### Kann ich mit Aspose.Slides 3D-Diagramme erstellen?
-
-Ja, mit Aspose.Slides können Sie 3D-Diagramme erstellen, um Ihren Präsentationen Tiefe und Perspektive zu verleihen.
-
-### Wird die Datenbindung in Echtzeit für Diagrammaktualisierungen unterstützt?
-
-Ja, Aspose.Slides unterstützt die Datenbindung in Echtzeit, sodass Diagramme automatisch basierend auf externen Datenquellen aktualisiert werden können.
-
-### Kann ich das Erscheinungsbild von Diagrammachsen anpassen?
-
-Sie können das Erscheinungsbild der Diagrammachsen, einschließlich Achsentitel, Beschriftungen und Skalierung, auf jeden Fall anpassen.
-
-### Wie kann ich meine Präsentationen mit eingebetteten Diagrammen teilen?
-
-Sie können Ihre Präsentationen mit eingebetteten Diagrammen als PowerPoint-Dateien speichern oder als Bilder oder PDFs zum Teilen exportieren.
+Bei technischen Fragen oder Unterstützung können Sie die besuchen[Aspose.Slides-Forum](https://forum.aspose.com/), wo Sie Antworten auf häufig gestellte Fragen finden und Hilfe von der Community erhalten können.

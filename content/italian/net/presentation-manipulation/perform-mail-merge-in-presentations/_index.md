@@ -94,7 +94,7 @@ string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
             // creare il nome della presentazione del risultato (individuale).
             string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
 
-            //Carica il modello di presentazione
+            // Carica il modello di presentazione
             using (Presentation pres = new Presentation(presTemplatePath))
             {
                 // Compila le caselle di testo con i dati dalla tabella principale del database

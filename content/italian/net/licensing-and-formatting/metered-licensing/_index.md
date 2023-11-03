@@ -8,121 +8,109 @@ weight: 11
 url: /it/net/licensing-and-formatting/metered-licensing/
 ---
 
-## Introduzione all'utilizzo delle licenze misurate
+## introduzione
 
-Nel mondo dello sviluppo software, la licenza gioca un ruolo cruciale nel modo in cui gli sviluppatori accedono e utilizzano potenti librerie e API per migliorare le loro applicazioni. Uno di questi modelli di licenza che offre flessibilità ed efficienza in termini di costi è la "licenza misurata". Questo articolo ti guiderà attraverso il processo di utilizzo delle licenze misurate con Aspose.Slides per .NET, un'API popolare per lavorare con presentazioni PowerPoint nelle applicazioni .NET.
+Stai cercando di sfruttare la potenza di Aspose.Slides per .NET, una libreria eccezionale per lavorare con presentazioni PowerPoint? Che tu sia uno sviluppatore esperto o abbia appena iniziato, questa guida passo passo ti guiderà attraverso tutto ciò che devi sapere per creare, manipolare e gestire file PowerPoint senza sforzo utilizzando Aspose.Slides. Dall'impostazione delle licenze a consumo all'accesso agli spazi dei nomi, abbiamo tutto coperto. In questo tutorial completo, suddivideremo ogni esempio in più passaggi per assicurarti di poter padroneggiare Aspose.Slides per .NET con facilità.
 
-## Vantaggi della licenza misurata
+## Prerequisiti
 
-Prima di entrare nei dettagli tecnici, capiamo perché il Metered Licensing è vantaggioso. I modelli di licenza tradizionali spesso comportano costi iniziali, licenze fisse e gestione manuale delle chiavi di licenza. D'altro canto, la licenza misurata offre i seguenti vantaggi:
+Prima di immergerti nel mondo di Aspose.Slides per .NET, ci sono alcuni prerequisiti che devi avere:
 
-- Efficienza dei costi: con le licenze a consumo, paghi solo per ciò che utilizzi. Ciò può ridurre significativamente i costi iniziali ed è particolarmente vantaggioso per progetti con modelli di utilizzo diversi.
+1. Conoscenza di base di C#: poiché Aspose.Slides per .NET è una libreria C#, dovresti avere una buona conoscenza della programmazione C#.
 
-- Flessibilità: le licenze a consumo ti consentono di adattarti ai mutevoli requisiti del progetto senza essere vincolato a un numero fisso di licenze. Puoi aumentare o diminuire secondo necessità.
+2. Visual Studio: avrai bisogno di Visual Studio installato sul tuo sistema per la codifica.
 
-- Gestione semplificata: dimentica la gestione delle chiavi di licenza. Le licenze a consumo utilizzano una semplice chiamata API per inizializzare la licenza, semplificando la gestione.
+3. Libreria Aspose.Slides: assicurati di aver scaricato e installato la libreria Aspose.Slides per .NET. Puoi trovare la biblioteca e ulteriori istruzioni su[questo link](https://releases.aspose.com/slides/net/).
 
-## Iniziare con Aspose.Slides per .NET
+Ora che sei pronto, iniziamo il nostro viaggio in Aspose.Slides per .NET.
 
-## Installazione e configurazione
+## Importa spazi dei nomi
 
-Per iniziare a utilizzare Aspose.Slides per .NET con licenze a consumo, attenersi alla seguente procedura:
+Per iniziare a lavorare con Aspose.Slides per .NET, è necessario importare gli spazi dei nomi necessari. Gli spazi dei nomi sono essenziali poiché forniscono l'accesso alle classi e ai metodi necessari per interagire con le presentazioni di PowerPoint. Ecco i passaggi per importare gli spazi dei nomi richiesti:
 
-1.  Scarica e installa Aspose.Slides: visita il[Pagina del prodotto Aspose.Slides](https://products.aspose.com/slides/net) e scarica l'ultima versione della libreria. Installalo nel tuo progetto .NET.
+### Passaggio 1: apri il tuo progetto C#
 
-2. Includi riferimenti richiesti: nel tuo progetto, aggiungi riferimenti alla libreria Aspose.Slides e qualsiasi altra dipendenza.
+Apri il tuo progetto C# in Visual Studio in cui prevedi di utilizzare Aspose.Slides.
 
-## Ottenere la licenza misurata
+### Passaggio 2: aggiungi riferimenti
 
-1.  Registrati per un account misurato: se non ne hai già uno, registrati per un account misurato su[Sito web Aspose](https://www.aspose.com/).
+Fare clic con il tasto destro sulla sezione "Riferimenti" in Esplora soluzioni e selezionare "Aggiungi riferimento".
 
-2.  Recupera le credenziali del tuo account misurato: una volta registrato, riceverai le credenziali incluso un`AppSID` E`AppKey`.
+### Passaggio 3: aggiungere il riferimento Aspose.Slides
 
-## Inizializzazione della licenza a consumo
+Nella finestra "Gestione riferimenti", individua il percorso in cui hai scaricato e installato la libreria Aspose.Slides. Selezionare l'assieme Aspose.Slides e fare clic su "Aggiungi".
 
-Nel tuo codice, usa il file ottenuto`AppSID` E`AppKey` per inizializzare la licenza a consumo:
+### Passaggio 4: importare gli spazi dei nomi
 
-```csharp
-Aspose.Slides.License license = new Aspose.Slides.License();
-license.SetMeteredKey("AppSID", "AppKey");
-```
-
-## Utilizzo dell'API Aspose.Slides con licenze a consumo
-
-Con la licenza misurata inizializzata, puoi utilizzare l'API Aspose.Slides come al solito. Ad esempio, per caricare una presentazione e salvarla in un altro formato:
+Ora, nel file di codice C#, importa gli spazi dei nomi necessari:
 
 ```csharp
-using (Presentation presentation = new Presentation("input.pptx"))
-{
-    presentation.Save("output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-}
+using Aspose.Slides;
 ```
 
-## Monitoraggio delle chiamate API
+Ora sei pronto per utilizzare le classi e i metodi Aspose.Slides nel tuo progetto.
 
-Aspose.Slides fornisce un modo conveniente per tenere traccia delle chiamate e del consumo API:
+Le licenze misurate sono fondamentali quando si lavora con Aspose.Slides per .NET, poiché ti aiuta a tenere traccia dell'utilizzo dell'API e a gestire le licenze in modo efficace. Analizziamo il processo passo dopo passo:
+
+## Passaggio 1: crea un'istanza della classe misurata diapositive
+
+ Innanzitutto, crea un'istanza di`Aspose.Slides.Metered` classe:
 
 ```csharp
-Metered metered = new Metered();
-Console.WriteLine("Usage Before: " + metered.GetConsumptionCredit());
+Aspose.Slides.Metered metered = new Aspose.Slides.Metered();
 ```
 
-## Verifica limiti di consumo
+Questa istanza ti consentirà di impostare la chiave a consumo e di accedere ai dati di consumo.
 
-Puoi anche controllare i tuoi limiti di consumo per assicurarti di rispettare la quota assegnata:
+## Passaggio 2: impostare la chiave misurata
+
+ Accedi al`SetMeteredKey` property e passare le chiavi pubbliche e private come parametri. Sostituire`"*****"` con le tue vere chiavi.
 
 ```csharp
-Console.WriteLine("Consumption Quota: " + metered.GetConsumptionCredit());
+metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
-## Gestione delle eccedenze e dei rinnovi
+## Passaggio 3: ottenere la quantità di dati misurata prima di chiamare l'API
 
-Se il tuo utilizzo si avvicina al limite assegnato, Aspose ti avviserà. Puoi scegliere di acquistare più crediti o modificare il tuo utilizzo per rimanere entro i limiti.
-
-## Migliori pratiche per un utilizzo efficiente
-
-Per ottimizzare l'utilizzo delle licenze misurate:
-
-- Risultati nella cache: evita chiamate API non necessarie memorizzando nella cache i risultati quando possibile.
-
-- Operazioni in blocco: quando possibile, eseguire operazioni in blocco per ridurre al minimo le chiamate API.
-
-## Codice di esempio per licenze misurate con Aspose.Slides per .NET
-
-Di seguito è riportato un esempio completo di come utilizzare le licenze misurate con Aspose.Slides:
+Prima di effettuare qualsiasi chiamata API, puoi verificare la quantità di dati misurati consumati:
 
 ```csharp
-Aspose.Slides.License license = new Aspose.Slides.License();
-license.SetMeteredKey("AppSID", "AppKey");
-
-using (Presentation presentation = new Presentation("input.pptx"))
-{
-    presentation.Save("output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-}
+decimal amountBefore = Aspose.Slides.Metered.GetConsumptionQuantity();
+Console.WriteLine("Amount Consumed Before: " + amountBefore.ToString());
 ```
+
+Questo ti fornirà informazioni sui dati consumati fino a questo punto.
+
+## Passaggio 4: ottieni la quantità di dati misurata dopo aver chiamato l'API
+
+Dopo aver effettuato le chiamate API, puoi verificare la quantità di dati misurati aggiornata:
+
+```csharp
+decimal amountAfter = Aspose.Slides.Metered.GetConsumptionQuantity();
+Console.WriteLine("Amount Consumed After: " + amountAfter.ToString());
+```
+
+Questo passaggio ti aiuterà a monitorare il consumo di dati per il tuo progetto.
+
+Seguendo questi passaggi, hai implementato con successo le licenze a consumo nel tuo progetto Aspose.Slides per .NET.
 
 ## Conclusione
 
-Le licenze misurate offrono un modo flessibile ed economico per utilizzare API potenti come Aspose.Slides per .NET. Seguendo i passaggi descritti in questo articolo, puoi integrare perfettamente le licenze misurate nelle tue applicazioni .NET, permettendoti di pagare per ciò che utilizzi e godendo al tempo stesso dei vantaggi di una solida libreria per la manipolazione delle presentazioni.
+In questa guida passo passo, abbiamo trattato gli elementi essenziali della configurazione di Aspose.Slides per .NET, inclusa l'importazione di spazi dei nomi e l'implementazione delle licenze a consumo. Ora sei ben attrezzato per creare, manipolare e gestire presentazioni PowerPoint utilizzando Aspose.Slides. Sfrutta la potenza di questa libreria per portare i tuoi progetti relativi a PowerPoint a un livello superiore.
 
-## Domande frequenti
+## Domande frequenti (FAQ)
 
-### In che cosa le licenze misurate differiscono dalle licenze tradizionali?
+### Cos'è Aspose.Slides per .NET?
+Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice. Fornisce un'ampia gamma di funzionalità per creare, modificare e manipolare file PowerPoint.
 
-Le licenze a consumo ti addebitano costi in base all'utilizzo effettivo, mentre le licenze tradizionali prevedono l'acquisto anticipato di un numero fisso di licenze.
+### Dove posso trovare la documentazione di Aspose.Slides?
+ È possibile accedere alla documentazione di Aspose.Slides all'indirizzo[questo link](https://reference.aspose.com/slides/net/).
 
-### Posso tenere traccia di quanti crediti ho consumato?
+### È disponibile una prova gratuita per Aspose.Slides per .NET?
+ Sì, puoi scaricare una versione di prova gratuita di Aspose.Slides per .NET da[questo link](https://releases.aspose.com/).
 
- Sì, puoi usare il`GetConsumptionCredit` metodo fornito dalla classe Metered per tenere traccia dell'utilizzo.
+### Come posso acquistare una licenza per Aspose.Slides per .NET?
+ Per acquistare una licenza, visitare il negozio Aspose all'indirizzo[questo link](https://purchase.aspose.com/buy).
 
-### Cosa succede se supero il limite di consumo?
-
-Se superi il limite di consumo, Aspose ti avviserà. Puoi acquistare crediti aggiuntivi o modificare di conseguenza il tuo utilizzo.
-
-### Le licenze Metered sono adatte a tutti i tipi di progetti?
-
-La licenza misurata è particolarmente vantaggiosa per progetti con modelli di utilizzo diversi. Offre flessibilità ed efficienza in termini di costi.
-
-### Posso utilizzare le licenze misurate con altre API Aspose?
-
-Sì, la licenza misurata è disponibile per varie API Aspose, consentendoti di scegliere il modello di licenza più adatto alle tue esigenze.
+### Esiste un forum per il supporto e le discussioni di Aspose.Slides?
+ Sì, puoi trovare supporto e partecipare a discussioni sul forum Aspose.Slides all'indirizzo[questo link](https://forum.aspose.com/).

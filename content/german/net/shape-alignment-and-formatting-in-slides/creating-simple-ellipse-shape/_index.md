@@ -103,4 +103,4 @@ Aspose.Slides für .NET unterstützt verschiedene Formen, darunter Rechtecke, Li
 
 ### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
 
- Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).

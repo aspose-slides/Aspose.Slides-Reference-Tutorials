@@ -14,7 +14,7 @@ url: /zh/net/presentation-manipulation/convert-fodp-format-to-other-presentation
 
 在我们深入讨论转换过程之前，请确保您满足以下先决条件：
 
-1. Aspose.Slides for .NET：如果您还没有安装，请从网站下载并安装 Aspose.Slides for .NET：[下载 .NET 版 Aspose.Slides](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET：如果您还没有安装，请从网站下载并安装 Aspose.Slides for .NET：[下载 .NET 版 Aspose.Slides](https://releases.aspose.com/slides/net/).
 
 2. 您的文档目录：准备 FODP 文档所在的目录。
 

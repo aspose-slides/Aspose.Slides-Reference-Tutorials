@@ -44,7 +44,7 @@ Presentation presentation = new Presentation();
 Daha sonra sunuma yeni bir slayt ekleyeceğiz. Slaytlar sıfırdan başlayarak dizine eklenir. Nasıl slayt ekleyebileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
-//Sunuya yeni bir slayt ekleme
+// Sunuya yeni bir slayt ekleme
 ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
 ```
 

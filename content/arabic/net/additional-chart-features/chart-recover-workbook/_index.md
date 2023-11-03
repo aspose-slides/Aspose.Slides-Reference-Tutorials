@@ -1,125 +1,103 @@
 ---
-title: استرداد المصنف من الرسم البياني
+title: كيفية استخدام Aspose.Slides .NET لاسترداد المصنف من المخطط
 linktitle: استرداد المصنف من الرسم البياني
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية استرداد مصنف من مخطط باستخدام Aspose.Slides لـ .NET. استخراج بيانات المخطط وإنشاء مصنفات Excel برمجياً.
+description: تعرف على كيفية استرداد مصنف من مخطط في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. اتبع دليلنا خطوة بخطوة لاستخراج البيانات بكفاءة.
 type: docs
 weight: 12
 url: /ar/net/additional-chart-features/chart-recover-workbook/
 ---
 
-## مقدمة
-
-من الممكن أن تقع حوادث، وقد تجد نفسك بحاجة إلى استرداد مصنف من مخطط. يأتي Aspose.Slides for .NET للإنقاذ في مثل هذه المواقف. تتيح لك هذه المكتبة القوية استخراج البيانات من المخططات في العروض التقديمية وتحويلها إلى مصنف جديد. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية استرداد مصنف من مخطط باستخدام Aspose.Slides for .NET.
+إذا كنت تتطلع إلى العمل باستخدام عروض PowerPoint التقديمية بتنسيق .NET، فإن Aspose.Slides for .NET هي مكتبة قوية يمكنها مساعدتك في تحقيق أهدافك. في هذا البرنامج التعليمي، سنرشدك خلال عملية استرداد مصنف من مخطط في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for .NET. يمكن أن تكون هذه الميزة القوية مفيدة عندما تحتاج إلى استخراج البيانات من المخططات داخل العروض التقديمية الخاصة بك. سنقوم بتقسيم العملية إلى خطوات سهلة المتابعة، مما يضمن أن لديك فهمًا واضحًا لكيفية إنجاز هذه المهمة.
 
 ## المتطلبات الأساسية
 
-قبل البدء، تأكد من توفر ما يلي:
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Visual Studio: قم بتنزيل وتثبيت Visual Studio، وهو أمر ضروري لتطوير .NET.
--  Aspose.Slides for .NET: يمكنك تنزيل المكتبة من[هنا](https://downloads.aspose.com/slides/net).
+### 1. Aspose.Slides لـ .NET
 
-## الخطوة 1: تثبيت Aspose.Slides لـ .NET
+يجب أن يكون لديك Aspose.Slides for .NET مثبتًا وإعداده في بيئة تطوير .NET لديك. إذا لم تكن قد قمت بذلك بالفعل، فيمكنك تنزيله وتثبيته من موقع الويب.
 
-إذا لم تكن قد قمت بذلك بالفعل، فقم بتنزيل Aspose.Slides وتثبيته لـ .NET. توفر هذه المكتبة ميزات شاملة للعمل مع عروض PowerPoint التقديمية برمجياً.
+[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/)
 
-## الخطوة 2: قم بتحميل العرض التقديمي
+### 2. عرض PowerPoint التقديمي
 
-للبدء، قم بإنشاء مشروع C# جديد في Visual Studio. قم بإضافة مراجع إلى تجميعات Aspose.Slides الضرورية. قم بتحميل عرض PowerPoint التقديمي الذي يحتوي على المخطط الذي تريد استرداد البيانات منه.
+ستحتاج إلى عرض تقديمي لبرنامج PowerPoint يحتوي على مخطط تريد استرداد المصنف منه. تأكد من أن ملف العرض التقديمي لديك جاهز.
+
+## استيراد مساحات الأسماء الضرورية
+
+في هذه الخطوة، ستحتاج إلى استيراد مساحات الأسماء المطلوبة للعمل مع Aspose.Slides لـ .NET بشكل فعال.
+
+### الخطوة 1: استيراد مساحات الأسماء
 
 ```csharp
-// قم بتحميل العرض التقديمي
-Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## الخطوة 3: تحديد المخطط
+الآن، دعونا نقسم عملية استرداد مصنف من مخطط داخل عرض PowerPoint التقديمي إلى خطوات متعددة.
 
- حدد الشريحة والمخطط الذي تريد استرداد البيانات منه. يمكنك الوصول إلى الشرائح باستخدام`presentation.Slides` جمع والرسوم البيانية باستخدام`slide.Shapes` مجموعة.
+## الخطوة 1: تحديد دليل المستندات
 
 ```csharp
-// احصل على الشريحة التي تحتوي على المخطط
-ISlide slide = presentation.Slides[0];
+// المسار إلى دليل المستندات.
+string dataDir = "Your Document Directory";
+```
 
-// احصل على الرسم البياني
-IChart chart = null;
-foreach (IShape shape in slide.Shapes)
+في هذه الخطوة، تحتاج إلى تحديد الدليل الذي يوجد به عرض PowerPoint التقديمي الخاص بك.
+
+## الخطوة 2: قم بتحميل العرض التقديمي وتمكين استرداد المصنف
+
+```csharp
+string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "RecoveredWorkbook.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
 {
-    if (shape is IChart)
-    {
-        chart = (IChart)shape;
-        break;
-    }
+    // الكود الخاص بك لاستعادة الرسم البياني موجود هنا
+    pres.Save(outPptxFile, SaveFormat.Pptx);
 }
 ```
 
-## الخطوة 4: استخراج البيانات من الرسم البياني
+في هذه الخطوة، يمكنك تحميل عرض PowerPoint التقديمي من الملف المحدد وتمكين استرداد المصنف من ذاكرة التخزين المؤقت للمخطط. ال`LoadOptions` يتم استخدام الكائن لهذا الغرض.
 
-استخرج البيانات من المخطط باستخدام واجهة برمجة تطبيقات Aspose.Slides. يمكنك استرداد القيم من سلسلة وفئات المخطط.
-
-```csharp
-// استخراج بيانات الرسم البياني
-IChartData chartData = chart.ChartData;
-```
-
-## الخطوة 5: إنشاء مصنف جديد
-
-قم بإنشاء مصنف Excel جديد باستخدام مكتبة مثل EPPlus أو ClosedXML.
+## الخطوة 3: الوصول إلى بيانات المخطط والعمل معها
 
 ```csharp
-// إنشاء مصنف Excel جديد
-using (var excelPackage = new ExcelPackage())
-{
-    var worksheet = excelPackage.Workbook.Worksheets.Add("Chart Data");
-    // أضف التعليمات البرمجية هنا لملء رؤوس ورقة العمل
-}
+IChart chart = pres.Slides[0].Shapes[0] as IChart;
+IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 ```
 
-## الخطوة 6: تعبئة المصنف ببيانات المخطط
-
-قم بملء ورقة عمل Excel بالبيانات المستخرجة من المخطط.
-
-```csharp
-//تعبئة ورقة عمل Excel ببيانات الرسم البياني
-int rowIndex = 2;
-foreach (var series in chartData.Series)
-{
-    worksheet.Cells[rowIndex, 1].Value = series.Name;
-    // أضف التعليمات البرمجية هنا لملء ورقة العمل ببيانات السلسلة
-    rowIndex++;
-}
-```
-
-## الخطوة 7: احفظ المصنف
-
-احفظ مصنف Excel مع بيانات المخطط المستردة.
-
-```csharp
-// احفظ مصنف Excel
-excelPackage.SaveAs(new FileInfo("recovered-workbook.xlsx"));
-```
+في هذه الخطوة، يمكنك الوصول إلى المخطط الموجود في الشريحة الأولى والحصول على مصنف بيانات المخطط. يمكنك الآن العمل مع بيانات المصنف حسب الحاجة.
 
 ## خاتمة
 
-أصبح استرداد مصنف من مخطط أمرًا سهلاً باستخدام Aspose.Slides لـ .NET. باتباع هذه الخطوات، يمكنك استخراج البيانات برمجيًا من مخطط في عرض تقديمي لـ PowerPoint وإنشاء مصنف Excel جديد باستخدام البيانات المستردة. يمكن أن تكون هذه العملية منقذة للحياة عند وقوع حوادث، ويجب إنقاذ البيانات.
+في هذا البرنامج التعليمي، أوضحنا كيفية استخدام Aspose.Slides لـ .NET لاستعادة مصنف من مخطط في عرض تقديمي لـ PowerPoint. باتباع الخطوات الموضحة في هذا الدليل، يمكنك استخراج البيانات بكفاءة من عروضك التقديمية واستخدامها لتلبية احتياجاتك الخاصة.
 
-## الأسئلة الشائعة
+ إذا كانت لديك أية أسئلة أو واجهت أية مشكلات، فلا تتردد في طلب المساعدة من مجتمع Aspose.Slides في[منتدى Aspose.Slides](https://forum.aspose.com/). إنهم متواجدون لمساعدتك في رحلتك باستخدام Aspose.Slides for .NET.
 
-### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
+## أسئلة مكررة
 
- يمكنك تنزيل Aspose.Slides لـ .NET من[هنا](https://downloads.aspose.com/slides/net).
+### 1. ما هو Aspose.Slides لـ .NET؟
 
-### هل يمكنني استعادة البيانات من أنواع مختلفة من الرسوم البيانية؟
+Aspose.Slides for .NET هي مكتبة .NET قوية للعمل مع ملفات Microsoft PowerPoint، مما يسمح لك بإنشاء العروض التقديمية ومعالجتها وتحويلها برمجيًا.
 
-نعم، يدعم Aspose.Slides for .NET أنواعًا مختلفة من المخططات، بما في ذلك المخططات الشريطية، والمخططات الخطية، والمخططات الدائرية، والمزيد.
+### 2. هل يمكنني تجربة Aspose.Slides لـ .NET قبل الشراء؟
 
-### هل Aspose.Slides for .NET مناسب للاستخدام المهني؟
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides for .NET لتقييم ميزاته وإمكانياته.[احصل على النسخة التجريبية المجانية هنا](https://releases.aspose.com/).
 
-قطعاً! Aspose.Slides for .NET هي مكتبة قوية يستخدمها المطورون للعمل مع عروض PowerPoint التقديمية بكفاءة.
+### 3. أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ .NET؟
 
-### هل هناك أي متطلبات ترخيص لاستخدام Aspose.Slides لـ .NET؟
+ يمكنك الوصول إلى وثائق Aspose.Slides لـ .NET[هنا](https://reference.aspose.com/slides/net/). أنه يحتوي على معلومات مفصلة، وأمثلة، ومراجع API.
 
- نعم، يتطلب Aspose.Slides for .NET ترخيصًا صالحًا للاستخدام التجاري. يمكنك العثور على تفاصيل الترخيص على[موقع أسبوز](https://purchase.aspose.com).
+### 4. كيف يمكنني شراء ترخيص Aspose.Slides لـ .NET؟
 
-### هل يمكنني تخصيص مظهر مصنف Excel المسترد؟
+ لشراء ترخيص Aspose.Slides for .NET، قم بزيارة موقع Aspose واستخدم الرابط التالي:[قم بشراء Aspose.Slides لـ .NET](https://purchase.aspose.com/buy).
 
-نعم، يمكنك تخصيص مظهر مصنف Excel وتنسيقه باستخدام مكتبات مثل EPPlus أو ClosedXML.
+### 5. ما هو الحد الأقصى لطول العنوان لتحسين محركات البحث؟
+
+لتحسين محركات البحث، يوصى بإبقاء عنوانك أقل من 60 حرفًا لضمان عرضه بشكل صحيح في نتائج محرك البحث.

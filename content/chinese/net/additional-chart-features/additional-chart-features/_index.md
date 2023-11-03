@@ -1,193 +1,150 @@
 ---
-title: Aspose.Slides 中的其他图表功能
+title: 使用 Aspose.Slides for .NET 探索高级图表功能
 linktitle: Aspose.Slides 中的其他图表功能
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 探索 Aspose.Slides for .NET 中的高级图表功能。通过交互性和动态视觉效果增强演示。
+description: 了解 Aspose.Slides for .NET 中的高级图表功能，以增强您的 PowerPoint 演示文稿。清除数据点、恢复工作簿等等！
 type: docs
 weight: 10
 url: /zh/net/additional-chart-features/additional-chart-features/
 ---
 
-## Aspose.Slides 简介
+在数据可视化和演示设计领域，Aspose.Slides for .NET 是一款功能强大的工具，可创建令人惊叹的图表并增强 PowerPoint 演示文稿。本分步指南将引导您了解 Aspose.Slides for .NET 提供的各种高级图表功能。无论您是开发人员还是演示爱好者，本教程都将帮助您充分利用该库的潜力。
 
-Aspose.Slides 是一个功能强大的 .NET 库，使开发人员能够以编程方式处理 PowerPoint 演示文稿。它提供了用于创建、编辑和操作演示元素（包括图表）的全面功能。借助 Aspose.Slides，您可以超越基础知识并融入高级图表功能，使您的演示文稿更具吸引力和信息量。
+## 先决条件
 
-## 设置环境
+在我们深入研究详细示例之前，请确保您具备以下先决条件：
 
-在深入实施之前，请确保您已安装 Aspose.Slides for .NET。您可以从以下位置下载该库[这里](https://releases.aspose.com/slides/net).
+1.  Aspose.Slides for .NET：您需要安装Aspose.Slides for .NET。如果您还没有，您可以下载[这里](https://releases.aspose.com/slides/net/).
 
-安装库后，在您首选的开发环境中创建一个新的 .NET 项目。
+2. Visual Studio：您应该安装 Visual Studio 或任何合适的 C# 开发环境才能遵循代码示例。
 
-## 创建基本图表
+3. C# 基础知识：熟悉 C# 编程对于理解和根据需要修改代码至关重要。
 
-让我们首先使用 Aspose.Slides 创建一个基本图表。在此示例中，我们将创建一个简单的柱形图来可视化销售数据。
+现在您已经满足了先决条件，让我们探索 Aspose.Slides for .NET 中的一些高级图表功能。
+
+## 导入必要的命名空间
+
+首先，让我们导入所需的命名空间以访问 C# 项目中的 Aspose.Slides 功能。
+
+### 示例 1：导入命名空间
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Charts;
-
-//创建新演示文稿
-Presentation presentation = new Presentation();
-
-//添加幻灯片
-ISlide slide = presentation.Slides.AddEmptySlide();
-
-//将图表添加到幻灯片
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
-
-//将数据添加到图表
-IChartDataWorkbook dataWorkbook = chart.ChartData.ChartDataWorkbook;
+using System;
 ```
 
-## 自定义图表外观
+## 示例1：获取图表数据范围
 
-为了使您的图表具有视觉吸引力，您可以自定义其外观。让我们探索一些自定义选项。
+在此示例中，我们将演示如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的图表中检索数据范围。
 
-## 设置轴格式
+### 第 1 步：初始化演示文稿
 
-您可以设置图表轴的格式以增强其可读性。例如，您可以修改轴标题、标签和缩放比例。
+首先，使用 Aspose.Slides 创建一个新的 PowerPoint 演示文稿。
 
 ```csharp
-//自定义数值轴
-IAxis valueAxis = chart.Axes.VerticalAxis;
-valueAxis.Title.Text = "Sales Amount";
-valueAxis.MajorTickMark = TickMarkType.Outside;
+//文档目录的路径。
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation())
+{
+    //将聚集柱形图添加到第一张幻灯片。
+    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
+    string result = chart.ChartData.GetRange();
+    Console.WriteLine("GetRange result: {0}", result);
+}
 ```
 
-## 添加数据标签
+在此代码片段中，我们创建一个新演示文稿并向第一张幻灯片添加聚集柱形图。然后我们使用检索图表的数据范围`chart.ChartData.GetRange()`并显示它。
 
-数据标签提供了对图表数据的宝贵见解。您可以轻松地将数据标签添加到图表中的数据点。
+## 示例 2：从图表恢复工作簿
+
+现在，让我们探讨如何从 PowerPoint 演示文稿中的图表恢复工作簿。
+
+### 第 1 步：加载带有图表的演示文稿
+
+首先加载包含图表的 PowerPoint 演示文稿。
 
 ```csharp
-//向图表添加数据标签
-IDataLabelFormat dataLabelFormat = chart.Series[0].DataPoints[0].Label.TextFormat;
-dataLabelFormat.ShowValue = true;
+//文档目录的路径。
+string dataDir = "Your Document Directory";
+
+string pptxFile = Path.Combine(dataDir, "ExternalWB.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "ExternalWB_out.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
+{
+    IChart chart = pres.Slides[0].Shapes[0] as IChart;
+    IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
+
+    //使用恢复的工作簿保存修改后的演示文稿。
+    pres.Save(outPptxFile, SaveFormat.Pptx);
+}
 ```
 
-## 应用图表样式
+在此示例中，我们加载 PowerPoint 演示文稿 (`ExternalWB.pptx` ）并指定从图表恢复工作簿的选项。恢复工作簿后，我们将修改后的演示文稿另存为`ExternalWB_out.pptx`.
 
-Aspose.Slides 提供了多种可以应用于图表的图表样式。
+## 示例 3：清除特定图表系列数据点
+
+现在，让我们探讨如何从 PowerPoint 演示文稿中的图表系列中清除特定数据点。
+
+### 第 1 步：加载带有图表的演示文稿
+
+首先，加载包含带有数据点的图表的 PowerPoint 演示文稿。
 
 ```csharp
-//应用图表样式
-chart.ChartStyle = 5; //风格索引
+//文档目录的路径。
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
+{
+    ISlide sl = pres.Slides[0];
+    IChart chart = (IChart)sl.Shapes[0];
+
+    //迭代第一个系列中的每个数据点并清除 X 和 Y 值。
+    foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
+    {
+        dataPoint.XValue.AsCell.Value = null;
+        dataPoint.YValue.AsCell.Value = null;
+    }
+
+    //清除第一个系列中的所有数据点。
+    chart.ChartData.Series[0].DataPoints.Clear();
+
+    //保存修改后的演示文稿。
+    pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);
+}
 ```
 
-## 融入互动元素
+在此示例中，我们加载 PowerPoint 演示文稿 (`TestChart.pptx` ）并清除图表第一个系列中的特定数据点。我们迭代每个数据点，清除 X 和 Y 值，最后清除该系列中的所有数据点。修改后的演示文稿另存为`ClearSpecificChartSeriesDataPointsData.pptx`.
 
-交互式图表吸引您的受众并提供动态体验。让我们探讨如何向图表数据添加超链接和工具提示。
+# 结论
 
-## 添加超链接到图表数据
+Aspose.Slides for .NET 提供了一个强大的平台，用于在 PowerPoint 演示文稿中处理图表。通过本教程中演示的高级功能，您可以将数据可视化和演示设计提升到一个新的水平。无论您需要提取数据、恢复工作簿还是操作图表数据点，Aspose.Slides for .NET 都能满足您的需求。
 
-您可以添加指向特定数据点的超链接，以允许用户导航到相关内容。
+通过遵循提供的代码示例和步骤，您可以利用 Aspose.Slides for .NET 的强大功能来增强您的 PowerPoint 演示文稿并创建有影响力的数据驱动视觉效果。
 
-```csharp
-//添加指向数据点的超链接
-IDataPoint dataPoint = chart.Series[0].DataPoints[0];
-dataPoint.DataLabel.TextFrame.Text = "Click for Details";
-dataPoint.HyperlinkManager.SetExternalHyperlink("https://example.com/details");
-```
+## 常见问题解答（常见问题）
 
-## 实现数据点的工具提示
+### Aspose.Slides for .NET 适合初学者和经验丰富的开发人员吗？
+   
+是的，Aspose.Slides for .NET 适合各个级别的开发人员，从初学者到专家。该库提供了用户友好的界面，同时为经验丰富的开发人员提供了高级功能。
 
-当用户将鼠标悬停在数据点上时，工具提示会提供附加信息。
+### 我可以使用 Aspose.Slides for .NET 创建其他文档格式的图表，例如 PDF 或图像吗？
 
-```csharp
-//向数据点添加工具提示
-IDataPoint dataPoint = chart.Series[0].DataPoints[0];
-dataPoint.ToolTip = "Q1 Sales: $1000";
-```
+是的，您可以使用 Aspose.Slides for .NET 创建各种格式的图表，包括 PDF、图像等。该库提供多种导出选项。
 
-## 使用复杂的图表类型
+### 在哪里可以找到 Aspose.Slides for .NET 的综合文档？
 
-Aspose.Slides支持各种图表类型，包括3D图表和组合图表。
+您可以在以下位置找到 Aspose.Slides for .NET 的详细文档和资源：[文档](https://reference.aspose.com/slides/net/).
 
-## 创建 3D 图表
+### Aspose.Slides for .NET 有试用版吗？
 
-3D 图表可以增加演示文稿的深度，并且可以更好地表示多维数据。
+是的，您可以通过以下位置的免费试用版探索该库：[这里](https://releases.aspose.com/)。这使您可以在购买之前评估其功能。
 
-```csharp
-//创建 3D 条形图
-IChart chart = slide.Shapes.AddChart(ChartType.Bar3D, 100, 100, 500, 300);
-```
+### 我如何获得 Aspose.Slides for .NET 的支持或帮助？
 
-## 生成组合图表
-
-组合图表允许您将不同的图表类型组合到一个图表中。
-
-```csharp
-//创建组合图
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
-chart.Series.Add(ChartType.Line);
-```
-
-## 数据驱动的图表更新
-
-随着数据的变化，您的图表应该反映这些变化。 Aspose.Slides 使您能够以编程方式更新图表数据。
-
-## 修改图表数据
-
-您可以修改图表数据并立即在演示文稿中查看更改。
-
-```csharp
-//修改图表数据
-chart.Series[0].DataPoints[0].Value = 1200;
-```
-
-## 实时数据绑定
-
-Aspose.Slides 支持实时数据绑定，允许您的图表根据外部数据源自动更新。
-
-```csharp
-//将图表绑定到数据源
-chart.ChartData.SetExternalWorkbook("data.xlsx");
-```
-
-## 导出和共享
-
-创建并自定义图表后，您可能希望与其他人共享。
-
-## 将图表另存为图像/PDF
-
-您可以将单个图表或整个演示文稿另存为图像或 PDF。
-
-```csharp
-//将图表另存为图像
-chart.Save("chart.png", SlideImageFormat.Png);
-```
-
-## 在演示文稿中嵌入图表
-
-在演示文稿中嵌入图表可确保您的数据无缝呈现。
-
-```csharp
-//在幻灯片中嵌入图表
-ISlide slide = presentation.Slides.AddEmptySlide();
-IShape shape = slide.Shapes.AddChart(ChartType.Column, 100, 100, 500, 300);
-```
-
-## 结论
-
-使用 Aspose.Slides for .NET 将附加图表功能合并到您的演示文稿中可以极大地增强内容的视觉吸引力和有效性。通过自定义外观、添加交互性以及处理复杂图表类型的能力，您可以使用工具来创建引人注目且内容丰富的演示文稿，从而留下持久的影响。
-
-## 常见问题解答
-
-### 如何下载 .NET 版 Aspose.Slides？
-
-您可以从发布页面下载 Aspose.Slides for .NET：[下载 .NET 版 Aspose.Slides](https://releases.aspose.com/slides/net).
-
-### 我可以使用 Aspose.Slides 创建 3D 图表吗？
-
-是的，Aspose.Slides 允许您创建 3D 图表，以增加演示文稿的深度和视角。
-
-### 图表更新是否支持实时数据绑定？
-
-是的，Aspose.Slides 支持实时数据绑定，允许图表根据外部数据源自动更新。
-
-### 我可以自定义图表轴的外观吗？
-
-当然，您可以自定义图表轴的外观，包括轴标题、标签和缩放比例。
-
-### 如何共享带有嵌入图表的演示文稿？
-
-您可以将带有嵌入图表的演示文稿另存为 PowerPoint 文件，或将其导出为图像或 PDF 以便共享。
+如有任何技术问题或支持，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/)，您可以在其中找到常见问题的答案并从社区获得帮助。

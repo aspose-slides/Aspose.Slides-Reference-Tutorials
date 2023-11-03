@@ -18,7 +18,7 @@ Java slaytlarınızda dinamik grafiklerin gücünü açığa çıkarmaya hazır 
 
 Temel bilgilerle başlayalım. Aspose.Slides for Java, çubuk, pasta, çizgi ve daha fazlasını içeren çeşitli grafik türlerini tasarlamanıza olanak tanır. Her grafik türü için adım adım talimatlar ve kod örnekleri sağlayan eğitimlerimize göz atın. Kısa sürede etkileyici grafikler oluşturacaksınız.
 
-## Java'nın Gücü için Aspose.Slides'tan Yararlanma
+## Java'nın Gücü için Aspose.Slides'tan Yararlanmak
 
 Bu eğitimlerle Java slayt grafiği uzmanı olma yolunda ilerliyorsunuz. Aspose.Slides for Java, izleyicilerinizi büyüleyen veri odaklı sunumlar oluşturmak için sonsuz olanaklar sunar.
 

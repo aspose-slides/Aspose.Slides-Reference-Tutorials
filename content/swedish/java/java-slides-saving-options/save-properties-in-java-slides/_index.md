@@ -14,7 +14,7 @@ den här handledningen guidar vi dig genom processen att spara egenskaper i en P
 
 ## Förutsättningar
 
- Innan du börjar, se till att du har Aspose.Slides för Java-biblioteket integrerat i ditt Java-projekt. Du kan ladda ner biblioteket från den officiella Aspose-webbplatsen[här](https://downloads.aspose.com/slides/java).
+ Innan du börjar, se till att du har Aspose.Slides för Java-biblioteket integrerat i ditt Java-projekt. Du kan ladda ner biblioteket från Asposes webbplats[här](https://downloads.aspose.com/slides/java).
 
 ## Steg 1: Importera nödvändiga bibliotek
 

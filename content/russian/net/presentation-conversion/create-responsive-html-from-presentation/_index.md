@@ -24,7 +24,7 @@ url: /ru/net/presentation-conversion/create-responsive-html-from-presentation/
 
 ## 4. Загрузка презентации
 
-В исходном коде вам нужно будет указать местоположение вашей презентации PowerPoint. Заменять`"Your Document Directory"` с путем к файлу презентации.
+ В исходном коде вам нужно будет указать местоположение вашей презентации PowerPoint. Заменять`"Your Document Directory"` с путем к файлу презентации.
 
 ```csharp
 string dataDir = "Your Document Directory";

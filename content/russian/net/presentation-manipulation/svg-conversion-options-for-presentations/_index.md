@@ -38,7 +38,7 @@ using (Presentation presentation = new Presentation(presentationName))
 - **UseFrameRotation** : исключает вращение фигуры при рендеринге. Установите его на`false` исключить ротацию.
 
 ```csharp
-//Создать новый вариант SVG
+// Создать новый вариант SVG
 SVGOptions svgOptions = new SVGOptions();
 
 // Установить свойство UseFrameSize

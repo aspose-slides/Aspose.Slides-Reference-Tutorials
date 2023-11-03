@@ -75,6 +75,6 @@ Sí, Aspose.Slides para .NET está disponible para uso personal y comercial.
 
 ### P4: ¿Dónde puedo encontrar más tutoriales y ejemplos de Aspose.Slides para .NET?
 
- Puede explorar tutoriales y ejemplos adicionales en el[Aspose.Slides para la documentación de la API .NET](https://reference.aspose.com/slides/net/).
+Puede explorar tutoriales y ejemplos adicionales en el[Aspose.Slides para la documentación de la API .NET](https://reference.aspose.com/slides/net/).
 
 Ahora que ha convertido con éxito la vista de diapositivas de Notas al formato PDF, puede explorar más características y capacidades de Aspose.Slides para .NET para mejorar sus tareas de automatización de PowerPoint. ¡Feliz codificación!

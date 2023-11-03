@@ -86,4 +86,4 @@ Nu kan du börja införliva den här koden i dina .NET-projekt för att skapa dy
     För teknisk hjälp och diskussioner kan du besöka Aspose.Slides-forumet[här](https://forum.aspose.com/).
 
 4. ### Kan jag prova Aspose.Slides för .NET innan jag köper?
-    Ja, du kan ladda ner en gratis testversion av Aspose.Slides för .NET[här](https://releases.aspose.com/)Provversionen har begränsningar, så se till att kontrollera om den uppfyller dina krav.
+    Ja, du kan ladda ner en gratis testversion av Aspose.Slides för .NET[här](https://releases.aspose.com/). Provversionen har begränsningar, så se till att kontrollera om den uppfyller dina krav.

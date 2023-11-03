@@ -2,174 +2,122 @@
 title: Manipulation des liens hypertextes dans Aspose.Slides
 linktitle: Manipulation des liens hypertextes dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment améliorer les présentations PowerPoint avec des hyperliens à l'aide d'Aspose.Slides pour .NET. Créez, modifiez et gérez du contenu interactif en toute transparence.
+description: Découvrez comment ajouter et supprimer des hyperliens dans Aspose.Slides pour .NET. Améliorez facilement vos présentations avec des liens interactifs.
 type: docs
 weight: 10
 url: /fr/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
 
-## Introduction à la manipulation des hyperliens
+Les hyperliens sont des éléments essentiels dans les présentations, car ils constituent un moyen pratique de naviguer entre les diapositives ou d'accéder à des ressources externes. Aspose.Slides pour .NET offre des fonctionnalités puissantes pour ajouter et supprimer des hyperliens dans vos diapositives de présentation. Dans ce didacticiel, nous vous guiderons tout au long du processus de manipulation des liens hypertexte à l'aide d'Aspose.Slides pour .NET. Nous aborderons l'ajout d'hyperliens à une diapositive et la suppression d'hyperliens d'une diapositive. Alors, plongeons-nous !
 
-Les hyperliens enrichissent les présentations en connectant des diapositives, des documents, des pages Web, etc. Ils offrent une expérience interactive, renforçant l'engagement du public. Aspose.Slides pour .NET offre des fonctionnalités complètes pour gérer les hyperliens par programmation, vous donnant un contrôle total sur la navigation de votre présentation.
+## Conditions préalables
 
-## Définition d'hyperliens dans les diapositives
+Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
- Pour créer des hyperliens, vous pouvez utiliser Aspose.Slides pour .NET.`HyperlinkManager` classe. Cette classe vous permet d'ajouter différents types de liens hypertexte vers des formes ou du texte spécifiques dans vos diapositives.
+1.  Aspose.Slides pour .NET : vous devez avoir installé et configuré la bibliothèque Aspose.Slides pour .NET. Vous pouvez trouver la documentation[ici](https://reference.aspose.com/slides/net/) et téléchargez-le depuis[ce lien](https://releases.aspose.com/slides/net/).
 
-```csharp
-// Exemple de code pour ajouter un lien hypertexte à une forme
-HyperlinkManager.AddHyperlinkToShape(shape, "https://www.example.com", "Visitez notre site Web");
-```
+2. Votre répertoire de documents : vous avez besoin d'un répertoire dans lequel vous stockerez vos fichiers de présentation. Assurez-vous de spécifier le chemin d'accès à ce répertoire dans votre code.
 
-## Modification des hyperliens
+3. Connaissance de base de C# : ce didacticiel suppose que vous possédez une compréhension de base de la programmation C#.
 
-Vous pouvez facilement modifier les hyperliens existants à l'aide d'Aspose.Slides pour .NET. Ceci est utile lorsque vous devez mettre à jour l'URL cible ou modifier le texte du lien hypertexte.
+Maintenant que vous avez mis en place vos prérequis, passons au guide étape par étape pour la manipulation des liens hypertexte à l'aide d'Aspose.Slides pour .NET.
 
-```csharp
-// Exemple de code pour modifier l'URL d'un lien hypertexte
-HyperlinkManager.ModifyHyperlinkUrl(shape, "https://newurl.com");
-```
+## Ajouter des hyperliens à une diapositive
 
-## Suppression des hyperliens
+### Étape 1 : initialiser la présentation
 
-Si vous souhaitez supprimer un lien hypertexte d'une forme, Aspose.Slides pour .NET fournit une méthode simple pour le faire.
+Pour commencer, vous devez initialiser une présentation à l'aide d'Aspose.Slides. Vous pouvez le faire avec le code suivant :
 
 ```csharp
-// Exemple de code pour supprimer un lien hypertexte d'une forme
-HyperlinkManager.RemoveHyperlink(shape);
+using (Presentation presentation = new Presentation())
+{
+    // Votre code ici
+}
 ```
 
-## Travailler avec des points d'ancrage
+### Étape 2 : Ajouter un cadre de texte
 
-Les points d'ancrage sont cruciaux lorsqu'il s'agit de liens hypertexte dans les diapositives. Ils déterminent la position vers laquelle pointe le lien hypertexte dans la diapositive cible.
+Maintenant, ajoutons un cadre de texte à une diapositive. Ce code crée une forme rectangulaire avec du texte :
 
 ```csharp
-// Exemple de code pour définir un point d'ancrage pour un lien hypertexte
-HyperlinkManager.SetHyperlinkAnchor(shape, targetSlide, anchorX, anchorY);
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
 ```
 
-## Gestion de différents types de liens hypertexte
+### Étape 3 : ajouter un lien hypertexte
 
-Aspose.Slides pour .NET prend en charge différents types de liens hypertexte, notamment les liens URL, les liens vers des documents internes, les liens vers des adresses e-mail, etc.
+Ensuite, vous allez ajouter un lien hypertexte vers le texte dans la forme que vous avez créée. Voici comment procéder :
 
 ```csharp
-// Exemple de code pour ajouter un lien hypertexte de courrier électronique
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-## Ajout d'info-bulles aux hyperliens
+### Étape 4 : Enregistrer la présentation
 
-Les info-bulles fournissent des informations supplémentaires lorsque les utilisateurs survolent des hyperliens. Aspose.Slides pour .NET vous permet de définir des info-bulles pour vos hyperliens.
+Enfin, enregistrez votre présentation avec le lien hypertexte ajouté :
 
 ```csharp
-// Exemple de code pour ajouter une info-bulle à un lien hypertexte
-HyperlinkManager.AddHyperlinkWithTooltip(shape, "https://www.example.com", "Visitez notre site Web", "Cliquez pour explorer");
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 ```
 
-## Gestion des hyperliens externes
+Toutes nos félicitations! Vous avez ajouté avec succès un lien hypertexte à une diapositive à l'aide d'Aspose.Slides pour .NET.
 
-Vous pouvez également gérer les hyperliens externes à l'aide d'Aspose.Slides pour .NET, garantissant ainsi que vos présentations restent connectées aux ressources en ligne pertinentes.
+## Supprimer les hyperliens d'une diapositive
+
+### Étape 1 : initialiser la présentation
+
+Pour supprimer les hyperliens d'une diapositive, vous devez ouvrir une présentation existante :
 
 ```csharp
-// Exemple de code pour ouvrir un lien hypertexte dans un navigateur Web
-HyperlinkManager.OpenHyperlinkInBrowser(shape);
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## Liens hypertextes dans les diapositives principales
+### Étape 2 : Supprimer les hyperliens
 
-Les diapositives principales contiennent souvent des éléments récurrents. Aspose.Slides pour .NET vous permet d'appliquer des hyperliens aux diapositives principales, garantissant ainsi la cohérence de votre présentation.
+Maintenant, supprimez tous les hyperliens de la présentation en utilisant le code suivant :
 
 ```csharp
-// Exemple de code pour définir un lien hypertexte dans une diapositive principale
-HyperlinkManager.SetHyperlinkInMasterSlide(masterSlide, "https://www.example.com", "Visitez notre site Web");
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## Extraction des informations sur les liens hypertextes
+### Étape 3 : Enregistrer la présentation
 
-Vous pouvez extraire des informations à partir de liens hypertextes existants à l'aide d'Aspose.Slides pour .NET, ce qui peut être utile à des fins d'analyse ou de création de rapports.
+Après avoir supprimé les hyperliens, enregistrez la présentation :
 
 ```csharp
-// Exemple de code pour extraire les informations d'un lien hypertexte
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-## Ajout d'hyperliens vers des images et des formes
+Et c'est tout! Vous avez réussi à supprimer les liens hypertexte d’une diapositive à l’aide d’Aspose.Slides pour .NET.
 
-Des hyperliens peuvent être ajoutés non seulement au texte mais également aux images et aux formes de vos diapositives.
+En conclusion, Aspose.Slides pour .NET offre un moyen efficace de manipuler les hyperliens dans vos présentations, vous permettant de créer des diapositives interactives et attrayantes. Que vous souhaitiez ajouter des hyperliens vers des ressources externes ou les supprimer, Aspose.Slides simplifie le processus et améliore vos capacités de création de présentations.
 
-```csharp
-// Exemple de code pour ajouter un lien hypertexte vers une image
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Cliquez sur l'image pour en savoir plus");
-```
+ Merci de nous avoir rejoint dans ce didacticiel sur la manipulation des liens hypertexte dans Aspose.Slides pour .NET. Si vous avez des questions ou avez besoin d'aide supplémentaire, n'hésitez pas à explorer le[Documentation Aspose.Slides](https://reference.aspose.com/slides/net/) ou contactez la communauté Aspose sur le[forum d'entraide](https://forum.aspose.com/).
 
-## Liens vers des adresses e-mail et des numéros de téléphone
-
-Aspose.Slides pour .NET vous permet de créer des hyperliens qui déclenchent la composition d'e-mails ou lancent des appels téléphoniques lorsque vous cliquez dessus.
-
-```csharp
-// Exemple de code pour créer un lien hypertexte de courrier électronique
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
-
-// Exemple de code pour créer un lien hypertexte vers un numéro de téléphone
-HyperlinkManager.AddPhoneHyperlink(shape, "+1234567890", "Call our support");
-```
-
-## Formatage des liens hypertexte
-
-Vous pouvez appliquer une mise en forme aux hyperliens pour les distinguer visuellement du texte ou des formes ordinaires.
-
-```csharp
-// Exemple de code pour formater l'apparence d'un lien hypertexte
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-## Ajout d'hyperliens via l'API
-
-Aspose.Slides pour .NET fournit une API robuste pour la manipulation des liens hypertexte. Vous pouvez intégrer ces fonctionnalités de manière transparente dans vos applications.
-
-```csharp
-// Exemple de code pour ajouter un lien hypertexte via l'API
-HyperlinkManager.AddHyperlink(shape, HyperlinkType.Url, "https://www.exemple.com");
-```
+---
 
 ## Conclusion
 
-La manipulation de liens hypertextes à l'aide d'Aspose.Slides pour .NET offre une boîte à outils complète pour améliorer l'interactivité et l'engagement de vos présentations PowerPoint. Avec la possibilité de créer, modifier et gérer des hyperliens, vous pouvez créer des diaporamas dynamiques et informatifs qui captivent votre public.
+Dans ce didacticiel, nous avons appris à manipuler les hyperliens dans les présentations à l'aide d'Aspose.Slides pour .NET. Nous avons couvert à la fois l'ajout et la suppression de liens hypertexte, vous permettant de créer des présentations dynamiques et interactives. Aspose.Slides simplifie le processus, facilitant l'amélioration de vos diapositives avec des hyperliens vers des ressources externes.
 
-## FAQ
+Avez-vous d'autres questions sur l'utilisation d'Aspose.Slides ou sur d'autres aspects de la conception de présentations ? Consultez la FAQ ci-dessous pour plus d’informations.
 
-### Comment supprimer un lien hypertexte d’une forme ?
+## FAQ (Foire aux questions)
 
-Pour supprimer un lien hypertexte d'une forme, vous pouvez utiliser le code suivant :
+### Quels sont les principaux avantages de l’utilisation d’Aspose.Slides pour .NET ?
+Aspose.Slides pour .NET offre un large éventail de fonctionnalités pour créer, manipuler et convertir des présentations. Il fournit un ensemble complet d'outils pour ajouter du contenu, des animations et des interactions à vos diapositives.
 
-```csharp
-HyperlinkManager.RemoveHyperlink(shape);
-```
+### Puis-je ajouter des hyperliens vers des objets autres que du texte dans Aspose.Slides ?
+Oui, Aspose.Slides vous permet d'ajouter des hyperliens vers divers objets, notamment des formes, des images et du texte, vous offrant ainsi une flexibilité dans la création de présentations interactives.
 
-### Puis-je appliquer des hyperliens aux images de mes diapositives ?
+### Aspose.Slides est-il compatible avec différents formats de fichiers PowerPoint ?
+Absolument. Aspose.Slides prend en charge divers formats PowerPoint, notamment PPT, PPTX, PPS, etc. Il assure la compatibilité avec les différentes versions de Microsoft PowerPoint.
 
-Oui, vous pouvez ajouter des liens hypertexte vers des images et des formes dans vos diapositives à l'aide d'Aspose.Slides pour .NET. Par exemple:
+### Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Slides ?
+Pour une documentation détaillée et le soutien de la communauté, visitez le[Documentation Aspose.Slides](https://reference.aspose.com/slides/net/) et le[Forum d'assistance Aspose](https://forum.aspose.com/).
 
-```csharp
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Cliquez sur l'image pour en savoir plus");
-```
-
-### Est-il possible de formater l'apparence d'un lien hypertexte ?
-
-Certainement! Vous pouvez formater l'apparence d'un lien hypertexte à l'aide d'Aspose.Slides pour .NET. Voici un exemple :
-
-```csharp
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-### Comment puis-je extraire des informations d'un lien hypertexte existant ?
-
-Vous pouvez extraire des informations d'un lien hypertexte existant en utilisant l'approche suivante :
-
-```csharp
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
-```
-
-### Où puis-je accéder à une documentation plus détaillée sur Aspose.Slides pour .NET ?
-
-Pour des informations plus détaillées et des exemples de code, vous pouvez vous référer au[Documentation](https://reference.aspose.com/slides/net/) pour Aspose.Slides pour .NET.
+### Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
+ Si vous avez besoin d'une licence temporaire pour Aspose.Slides, vous pouvez en obtenir une[ici](https://purchase.aspose.com/temporary-license/).

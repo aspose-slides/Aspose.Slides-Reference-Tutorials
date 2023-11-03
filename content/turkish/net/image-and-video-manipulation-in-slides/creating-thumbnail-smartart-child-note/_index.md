@@ -64,7 +64,7 @@ foreach (ISmartArtNode node in nodes)
     // Küçük resim oluşturma
     using (Bitmap thumbnail = childNodes.GenerateThumbnail(new Size(200, 150)))
     {
-        // Küçük resmi kaydedin veya diğer işlemleri gerçekleştirin
+        //Küçük resmi kaydedin veya diğer işlemleri gerçekleştirin
         thumbnail.Save($"thumbnail_{node.Text}.png");
     }
 }

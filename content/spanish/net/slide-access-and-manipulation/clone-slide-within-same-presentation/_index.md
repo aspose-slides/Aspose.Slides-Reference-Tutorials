@@ -57,7 +57,7 @@ ISlide clonedSlide = presentation.Slides.AddClone(sourceSlide);
 Es posible que desees realizar algunas modificaciones en la diapositiva clonada antes de guardar la presentación. Supongamos que desea actualizar el texto del título de la diapositiva clonada:
 
 ```csharp
-//Modificar el título de la diapositiva clonada
+// Modificar el título de la diapositiva clonada
 IAutoShape titleShape = clonedSlide.Shapes[0] as IAutoShape;
 if (titleShape != null)
 {

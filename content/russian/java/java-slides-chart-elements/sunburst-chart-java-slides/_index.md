@@ -93,7 +93,7 @@ series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D7", 4));
 series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
 ```
 
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 
 Наконец, сохраните презентацию с диаграммой Sunburst.
 

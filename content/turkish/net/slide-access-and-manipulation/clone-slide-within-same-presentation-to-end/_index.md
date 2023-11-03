@@ -33,14 +33,14 @@ class Program
 }
 ```
 
- Yer değiştirmek`"existing-presentation.pptx"` gerçek PowerPoint sunum dosyanızın yolu ile birlikte.
+ Yer değiştirmek`"existing-presentation.pptx"`gerçek PowerPoint sunum dosyanızın yolu ile birlikte.
 
 ## Adım 3: Slaytın Çoğaltılması
 
 Bir slaydı çoğaltmak için öncelikle çoğaltmak istediğimiz slaydı seçmemiz gerekir. Daha sonra, aynı kopyayı oluşturmak için onu klonlayacağız. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
-//Çoğaltılacak slaydı seçin (dizin 0'dan başlar)
+// Çoğaltılacak slaydı seçin (dizin 0'dan başlar)
 ISlide sourceSlide = presentation.Slides[0];
 
 // Seçilen slaydı klonla
@@ -79,7 +79,7 @@ Bu kılavuzda, Aspose.Slides for .NET kullanarak bir slaydın nasıl kopyalanaca
 
 ### Aspose.Slides for .NET'i nasıl edinebilirim?
 
-Aspose.Slides for .NET kütüphanesini şu adresten edinebilirsiniz:[İndirme: {link](https://releases.aspose.com/slides/net/). Web sitesinde verilen kurulum talimatlarını takip ettiğinizden emin olun.
+ Aspose.Slides for .NET kütüphanesini şu adresten edinebilirsiniz:[İndirme: {link](https://releases.aspose.com/slides/net/). Web sitesinde verilen kurulum talimatlarını takip ettiğinizden emin olun.
 
 ### Birden fazla slaytı aynı anda çoğaltabilir miyim?
 

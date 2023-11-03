@@ -45,7 +45,7 @@ const string baseUri = "http://www.example.com/";
 
 VideoPlayerHtmlController controller = new VideoPlayerHtmlController(path: path, fileName: fileName, baseUri: baseUri);
 
-// Festlegen von HTML-Optionen
+// HTML-Optionen festlegen
 HtmlOptions htmlOptions = new HtmlOptions(controller);
 SVGOptions svgOptions = new SVGOptions(controller);
 

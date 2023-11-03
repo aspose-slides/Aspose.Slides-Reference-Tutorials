@@ -10,7 +10,7 @@ url: /zh/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 
 ## 将 Blob 图像添加到 Java 演示文稿中的简介幻灯片
 
-在本综合指南中，我们将探讨如何使用 Java 幻灯片将 Blob 图像添加到演示文稿中。 Aspose.Slides for Java 提供了以编程方式操作 PowerPoint 演示文稿的强大功能。在本教程结束时，您将清楚地了解如何将 Blob 图像合并到演示文稿中。让我们深入了解一下吧！
+在本综合指南中，我们将探讨如何使用 Java 幻灯片将 Blob 图像添加到演示文稿中。 Aspose.Slides for Java 提供了以编程方式操作 PowerPoint 演示文稿的强大功能。在本教程结束时，您将清楚地了解如何将 Blob 图像合并到演示文稿中。让我们深入了解吧！
 
 ## 先决条件
 

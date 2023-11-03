@@ -69,7 +69,7 @@ In diesem Tutorial haben wir den Prozess der Konvertierung einer Präsentation i
 
 ### Wie kann ich die TIFF-Bildqualität während der Konvertierung anpassen?
 
-Sie können die TIFF-Bildqualität steuern, indem Sie die Komprimierungsoptionen ändern. Stellen Sie verschiedene Komprimierungsstufen ein, um die gewünschte Bildqualität zu erreichen.
+Sie können die TIFF-Bildqualität steuern, indem Sie die Komprimierungsoptionen ändern. Stellen Sie verschiedene Komprimierungsstufen ein, um die gewünschte Bildqualität zu erzielen.
 
 ### Kann ich statt der gesamten Präsentation auch einzelne Folien konvertieren?
 

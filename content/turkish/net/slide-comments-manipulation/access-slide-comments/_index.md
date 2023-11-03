@@ -2,94 +2,113 @@
 title: Aspose.Slides'ı kullanarak Slayt Yorumlarına Erişin
 linktitle: Slayt Yorumlarına Erişim
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides API for .NET'i kullanarak slayt yorumlarına nasıl erişeceğinizi öğrenin. Sorunsuz bir deneyim için kod örnekleri ve SSS içeren adım adım kılavuz.
+description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarındaki slayt yorumlarına nasıl erişeceğinizi öğrenin. İşbirliğini ve iş akışını zahmetsizce geliştirin.
 type: docs
 weight: 11
 url: /tr/net/slide-comments-manipulation/access-slide-comments/
 ---
-Slayt yorumlarına erişim, sunumlarla çalışmanın çok önemli bir yönüdür ve ortak çalışanların bıraktığı yorumlardan değerli bilgiler ve öngörüler almanıza olanak tanır. Bu kapsamlı kılavuzda, güçlü Aspose.Slides API for .NET'i kullanarak slayt yorumlarına erişme sürecini ayrıntılı olarak ele alacağız. İster bu işlevselliği uygulamanıza entegre etmek isteyen bir geliştirici olun, ister yalnızca konu hakkında daha fazla bilgi edinmekle ilgileniyor olun, bu makale tam size göre.
 
-## giriiş
+Dinamik ve etkileşimli sunumlar dünyasında slaytlarınızdaki yorumları yönetmek, işbirliği sürecinin çok önemli bir parçası olabilir. Aspose.Slides for .NET, slayt yorumlarına erişmek ve bunları değiştirmek için güçlü ve çok yönlü bir çözüm sunarak sunum iş akışınızı geliştirir. Bu adım adım kılavuzda Aspose.Slides for .NET kullanarak slayt yorumlarına erişme sürecini ayrıntılı olarak ele alacağız.
 
-Sunumlar iş dünyasından eğitime kadar çeşitli alanlarda hayati bir rol oynamaktadır. Ortak çalışanlar genellikle bağlam, öneri ve geri bildirim sağlamak için slaytlara yorum bırakır. Bu yorumlara programlı olarak erişmek iş akışı verimliliğini artırabilir ve daha iyi işbirliğine olanak sağlayabilir. PowerPoint sunumlarıyla çalışmak için yaygın olarak kullanılan bir API olan Aspose.Slides, slayt yorumlarını almanın basit bir yolunu sunarak onu geliştiriciler için paha biçilmez bir araç haline getiriyor.
+## Önkoşullar
 
-## Aspose.Slides'ı kullanarak Slayt Yorumlarına Erişin
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-Aspose.Slides for .NET'i kullanarak slayt yorumlarına erişme sürecini adım adım inceleyelim.
+### 1. Aspose.Slides for .NET
 
-### Geliştirme Ortamınızı Kurma
+Geliştirme ortamınızda Aspose.Slides for .NET'in kurulu olması gerekir. Bunu henüz yapmadıysanız, şuradan indirebilirsiniz:[İnternet sitesi](https://releases.aspose.com/slides/net/).
 
- Başlamadan önce projenizde Aspose.Slides kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
+### 2. Sunumunuzdaki Slayt Yorumları
 
-### Sunum Yükleme
+Erişmek istediğiniz slayt yorumlarını içeren bir PowerPoint sunumunuz olduğundan emin olun. Bu yorumları PowerPoint'te veya slayt yorumlarını destekleyen başka bir araçta oluşturabilirsiniz.
 
-Öncelikle slayt yorumlarını içeren PowerPoint sunumunu yüklemeniz gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+## Ad Alanlarını İçe Aktar
+
+Aspose.Slides for .NET ile çalışmak ve slayt yorumlarına erişmek için gerekli ad alanlarını içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+
+### 1. Adım: Ad Alanlarını İçe Aktarın
+
+Öncelikle C# kod düzenleyicinizi açın ve gerekli ad alanlarını kod dosyanızın en üstüne ekleyin:
 
 ```csharp
-// Sunuyu yükle
-using (Presentation presentation = new Presentation("your-presentation.pptx"))
+using Aspose.Slides;
+using Aspose.Slides.Comment;
+using System;
+```
+
+Artık önkoşulları ele aldığımıza ve gerekli ad alanlarını içe aktardığımıza göre, Aspose.Slides for .NET'i kullanarak slayt yorumlarına erişmenin adım adım sürecine geçelim.
+
+## Adım 2: Belge Dizinini Ayarlayın
+
+ Slayt yorumlarını içeren PowerPoint sunumunun bulunduğu belge dizininizin yolunu tanımlayın. Yer değiştirmek`"Your Document Directory"` gerçek yolla:
+
+```csharp
+string dataDir = "Your Document Directory";
+```
+
+## Adım 3: Sunum Sınıfını Başlatın
+
+Şimdi bunun bir örneğini oluşturalım.`Presentation` PowerPoint sunumunuzla çalışmanıza olanak sağlayacak sınıf:
+
+```csharp
+using (Presentation presentation = new Presentation(dataDir + "YourPresentation.pptx"))
 {
-    // Slayt yorumlarına erişim kodunuz buraya gelecek
+    // Kodunuz buraya gelecek.
 }
 ```
 
-### Slayt Yorumlarına Erişim
+## Adım 4: Yorum Yazarları Üzerinden Yineleme Yapın
 
- Artık sunuyu yüklediğinize göre slayt yorumlarına şu düğmeyi kullanarak erişebilirsiniz:`Slide.Comments` mülk. Bu özellik, belirli bir slaytla ilişkili yorumların bir koleksiyonunu döndürür:
-
-```csharp
-// SlideIndex'in yorumlara erişmek istediğiniz slaydın dizini olduğunu varsayarsak
-Slide slide = presentation.Slides[slideIndex];
-
-// Slayt yorumlarına erişme
-CommentCollection comments = slide.Comments;
-```
-
-### Yorum Bilgilerini Alma
-
- Her yorumda`CommentCollection` gibi çeşitli özelliklere sahiptir.`Author`, `Text` , Ve`DateTime`. Yorumları yineleyebilir ve ayrıntılarını alabilirsiniz:
+Bu adımda sunumunuzdaki yorum yazarlarını yineliyoruz. Yorum yazarı, yorumu bir slayda ekleyen kişidir:
 
 ```csharp
-foreach (Comment comment in comments)
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    string author = comment.Author;
-    string text = comment.Text;
-    DateTime dateTime = comment.DateTime;
-
-    // Yorum bilgilerini gerektiği gibi işleyin
+    var author = (CommentAuthor)commentAuthor;
+    
+    // Kodunuz buraya gelecek.
 }
 ```
 
-### Yorum Bilgilerini Görüntüleme
+## 5. Adım: Yorumlara Erişin
 
-Alınan yorum bilgilerini uygulamanızın kullanıcı arayüzünde görüntüleyebilir veya daha fazla analiz için günlüğe kaydedebilirsiniz. Bu, sunumlarla çalışan kullanıcılar arasında kesintisiz iletişim ve işbirliği sağlar.
+Her yorum yazarının içinden yorumların kendisine erişebiliriz. Yorumlar belirli slaytlarla ilişkilendirilir ve yorumlar hakkında metin, yazar ve oluşturulma zamanı gibi bilgileri çıkarabiliriz:
 
-## SSS
+```csharp
+foreach (var commentAuthor in presentation.CommentAuthors)
+{
+    var author = (CommentAuthor)commentAuthor;
+    
+    foreach (var comment1 in author.Comments)
+    {
+        var comment = (Comment)comment1;
+        Console.WriteLine("Slide #" + comment.Slide.SlideNumber + " has the following comment:");
+        Console.WriteLine("Comment Text: " + comment.Text);
+        Console.WriteLine("Author: " + comment.Author.Name);
+        Console.WriteLine("Posted on: " + comment.CreatedTime + "\n");
+    }
+}
+```
 
-### Mevcut slayt yorumlarına nasıl yanıt ekleyebilirim?
-
- Mevcut slayt yorumlarına yanıt eklemek için`Comment.Reply` yöntem. Yanıtın metnini ve isteğe bağlı olarak yazarın adını ve zaman damgasını sağlayın.
-
-### Yalnızca belirli slaytlardaki yorumlara erişebilir miyim?
-
- Evet, belirli slaytlardaki yorumlara, slayt dizinini referans alarak erişebilirsiniz.`CommentCollection`.
-
-### Slayt yorumlarını programlı olarak değiştirmek veya silmek mümkün müdür?
-
-Aspose.Slides'ın mevcut sürümünden itibaren, slayt yorumlarının program aracılığıyla değiştirilmesi veya silinmesi desteklenmemektedir.
-
-### Özel rapor oluşturma sürecinin bir parçası olarak yorumları çıkarabilir miyim?
-
-Kesinlikle! Bu kılavuzda belirtilen adımları uygulayarak slayt yorumlarını çıkarabilir ve bunları Aspose.Slides API kullanılarak oluşturulan özel raporlara dahil edebilirsiniz.
-
-### Aspose.Slides farklı PowerPoint formatlarıyla uyumlu mu?
-
-Evet, Aspose.Slides, PPTX ve PPT dahil çeşitli PowerPoint formatlarını destekler.
-
-### Bu işlevselliği web uygulamama entegre edebilir miyim?
-
-Kesinlikle! Aspose.Slides çok yönlüdür ve hem masaüstü hem de web uygulamalarına entegre edilebilir.
+Tebrikler! Aspose.Slides for .NET'i kullanarak PowerPoint sunumunuzdaki slayt yorumlarına başarıyla eriştiniz. Bu güçlü araç, sunumlarınızı yönetmek ve üzerinde işbirliği yapmak için bir fırsatlar dünyasının kapılarını açar.
 
 ## Çözüm
 
-Aspose.Slides API for .NET kullanarak slayt yorumlarına erişim, geliştiricilere ve kullanıcılara sunumların işbirlikçi potansiyelinden yararlanma gücü verir. Basit yöntemleri ve özellikleri sayesinde slayt yorumlarını almak ve kullanmak sorunsuz bir süreç haline gelir. İster özel raporlama araçları oluşturuyor olun ister sunum iş akışlarınızı geliştiriyor olun, Aspose.Slides bu görevleri kolaylaştırmak için gerekli araçları sağlar. Aspose.Slides'ın gücünü benimseyin ve sunumlarınızda verimli işbirliği potansiyelini ortaya çıkarın.
+Aspose.Slides for .NET, PowerPoint sunumlarınızda slayt yorumlarına erişmeniz ve bunları değiştirmeniz için kusursuz bir yol sağlar. Bu kılavuzda özetlenen adımları izleyerek slaytlarınızdan değerli bilgileri etkili bir şekilde çıkarabilir, işbirliğinizi ve iş akışınızı geliştirebilirsiniz.
+
+### Sıkça Sorulan Sorular (SSS)
+
+### Aspose.Slides for .NET nedir?
+Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. PowerPoint dosyalarını oluşturmak, değiştirmek ve yönetmek için çok çeşitli özellikler sağlar.
+
+### Aspose.Slides for .NET'i farklı .NET uygulamalarında kullanabilir miyim?
+Evet, Aspose.Slides for .NET; Windows Forms, ASP.NET ve konsol uygulamaları dahil olmak üzere çeşitli .NET uygulamalarında kullanılabilir.
+
+### Aspose.Slides for .NET'in ücretsiz deneme sürümü mevcut mu?
+ Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/). Bu deneme sürümü, kitaplığın yeteneklerini keşfetmenize olanak tanır.
+
+### Aspose.Slides for .NET için belge ve desteği nerede bulabilirim?
+ Dokümantasyona şu adresten ulaşabilirsiniz:[reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/) ve bu konuda destek isteyin[Aspose.Slides forumu](https://forum.aspose.com/).
+
+### Aspose.Slides for .NET için lisans satın alabilir miyim?
+ Evet, Aspose.Slides for .NET lisansını şu adresten satın alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/buy) Projelerinizde kütüphanenin tüm potansiyelini ortaya çıkarmak için.

@@ -1,98 +1,116 @@
 ---
-title: Miniaturansicht aus Folie in Notizen generieren
-linktitle: Miniaturansicht aus Folie in Notizen generieren
+title: Miniaturansicht aus Folie in Notizen erstellen
+linktitle: Miniaturansicht aus Folie in Notizen erstellen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Generieren Sie Miniaturansichten von Folien, die Notizen enthalten, mit Aspose.Slides für .NET. Erfahren Sie Schritt für Schritt, wie Sie Notizen extrahieren, Miniaturansichten erstellen und Ihre PowerPoint-Bearbeitung verbessern.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Miniaturansichten von Folien im Notizenbereich Ihrer Präsentation generieren. Verbessern Sie Ihre visuellen Inhalte!
 type: docs
 weight: 12
 url: /de/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
 
-Im heutigen digitalen Zeitalter spielen Präsentationen eine entscheidende Rolle bei der effektiven Vermittlung von Informationen und Ideen. Mit der Einführung leistungsstarker Bibliotheken wie Aspose.Slides für .NET haben Entwickler die Möglichkeit erhalten, Inhalte aus PowerPoint-Präsentationen programmgesteuert zu bearbeiten und zu extrahieren. Eine häufige Anforderung ist die Erstellung von Miniaturansichten von Folien, insbesondere wenn diese Folien wichtige Notizen enthalten. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Erstellung von Miniaturansichten aus Folien, die Notizen enthalten, mit Aspose.Slides für .NET.
+In der Welt moderner Präsentationen sind visuelle Inhalte das A und O. Für eine effektive Kommunikation ist die Erstellung ansprechender Folien unerlässlich. Eine Möglichkeit, Ihre Präsentationen zu verbessern, besteht darin, Miniaturansichten von Folien zu erstellen, insbesondere wenn Sie bestimmte Details hervorheben oder einen Überblick geben möchten. Aspose.Slides für .NET ist ein leistungsstarkes Tool, mit dem Sie dies nahtlos erreichen können. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Erstellung von Miniaturansichten aus Folien im Notizenbereich einer Präsentation mit Aspose.Slides für .NET.
 
 ## Voraussetzungen
 
-Bevor wir mit dem Prozess beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir uns mit den Details befassen, sollten Sie die folgenden Voraussetzungen erfüllen:
 
-- Visual Studio ist auf Ihrem Computer installiert.
-- Grundkenntnisse in C#-Programmierung und .NET-Entwicklung.
--  Aspose.Slides für .NET-Bibliothek. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
+### 1. Aspose.Slides für .NET
 
-## Laden einer PowerPoint-Präsentation
+ Stellen Sie sicher, dass Aspose.Slides für .NET installiert und eingerichtet ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
 
-Der erste Schritt besteht darin, die PowerPoint-Präsentation mit Aspose.Slides für .NET zu laden. So können Sie es machen:
+### 2. .NET-Umgebung
+
+Auf Ihrem System sollte eine .NET-Entwicklungsumgebung bereitstehen.
+
+### 3. Eine Präsentationsdatei
+
+ Haben Sie eine Präsentationsdatei (z. B.`ThumbnailFromSlideInNotes.pptx`), aus dem Sie Miniaturansichten erstellen möchten.
+
+Lassen Sie uns den Prozess nun in Schritte unterteilen:
+
+## Schritt 1: Namespaces importieren
+
+Zunächst müssen Sie die erforderlichen Namespaces importieren, um mit Aspose.Slides arbeiten zu können. Fügen Sie den folgenden Code am Anfang Ihres C#-Skripts hinzu:
 
 ```csharp
 using Aspose.Slides;
+using System.Drawing;
+```
 
-// Laden Sie die Präsentation
-using (var presentation = new Presentation("your-presentation.pptx"))
+## Schritt 2: Laden Sie die Präsentation
+
+ Als Nächstes müssen Sie die Präsentationsdatei laden, die die Folien mit Notizen enthält. Verwenden Sie den folgenden Code, um a zu instanziieren`Presentation` Klasse:
+
+```csharp
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlideInNotes.pptx"))
 {
-    // Ihr Code hier
+    // Ihr Code kommt hierher
 }
 ```
 
-## Extrahieren von Folien mit Notizen
+## Schritt 3: Greifen Sie auf die Folie zu
 
-Um Folien zusammen mit ihren Notizen zu extrahieren, müssen Sie die Folien durchlaufen und auf ihre Notizen zugreifen. So können Sie dies erreichen:
-
-```csharp
-// Durchlaufen Sie die Folien
-foreach (ISlide slide in presentation.Slides)
-{
-    // Überprüfen Sie, ob die Folie Notizen enthält
-    if (slide.NotesSlide != null)
-    {
-        // Zugriffsnotizen
-        string notes = slide.NotesSlide.NotesTextFrame.Text;
-        
-        // Ihr Code hier
-    }
-}
-```
-
-## Miniaturansichten aus Folien erstellen
-
-Lassen Sie uns nun mithilfe der SlideUtil-Klasse Miniaturansichten der Folien generieren:
+Sie können auswählen, für welche Folie in der Präsentation Sie ein Miniaturbild erstellen möchten. In diesem Beispiel greifen wir auf die erste Folie zu:
 
 ```csharp
-using Aspose.Slides.Util;
-
-// Erstellen Sie eine Miniaturansicht für eine Folie
-var thumbnail = SlideUtil.GetSlideThumbnail(slide, 1.0f);
+ISlide sld = pres.Slides[0];
 ```
 
-## Miniaturansichten auf der Festplatte speichern
+## Schritt 4: Gewünschte Abmessungen definieren
 
-Sobald Sie Miniaturansichten erstellt haben, können Sie diese auf Ihrer lokalen Festplatte speichern:
+Geben Sie die Abmessungen (Breite und Höhe) für die Miniaturansicht an, die Sie erstellen möchten. Zum Beispiel:
 
 ```csharp
-// Miniaturbild auf der Festplatte speichern
-thumbnail.Save("slide-thumbnail.png", ImageFormat.Png);
+int desiredX = 1200; // Breite
+int desiredY = 800;  // Höhe
 ```
+
+## Schritt 5: Skalierungsfaktoren berechnen
+
+Um sicherzustellen, dass das Miniaturbild den gewünschten Abmessungen entspricht, berechnen Sie die Skalierungsfaktoren wie folgt:
+
+```csharp
+float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
+float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
+```
+
+## Schritt 6: Erstellen Sie ein Miniaturbild
+
+Erstellen Sie nun mit den berechneten Skalierungsfaktoren eine Miniaturansicht des Bildes in Originalgröße:
+
+```csharp
+Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
+```
+
+## Schritt 7: Speichern Sie das Miniaturbild
+
+Speichern Sie abschließend das generierte Miniaturbild als JPEG-Bild:
+
+```csharp
+bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+```
+
+Das ist es! Sie haben mit Aspose.Slides für .NET erfolgreich eine Miniaturansicht einer Folie im Notizenbereich Ihrer Präsentation generiert.
 
 ## Abschluss
 
-In diesem Tutorial haben wir untersucht, wie man mit Aspose.Slides für .NET Miniaturansichten aus Folien generiert, die Notizen enthalten. Wir haben das Laden einer Präsentation, das Extrahieren von Folien mit Notizen, das Erstellen von Miniaturansichten und das Speichern auf der Festplatte behandelt. Mit diesem Wissen können Sie Ihre Anwendungen verbessern, indem Sie Funktionen hinzufügen, die die Manipulation von PowerPoint-Präsentationen beinhalten.
+Durch die Einbindung von Miniaturansichten in Ihre Präsentationen können Sie deren visuelle Attraktivität und Effektivität deutlich verbessern. Aspose.Slides für .NET vereinfacht diesen Vorgang und ermöglicht Ihnen das einfache Erstellen benutzerdefinierter Miniaturansichten Ihrer Folien.
 
-## FAQs
+## FAQs (häufig gestellte Fragen)
 
-### Wie kann ich die Aspose.Slides für .NET-Bibliothek erhalten?
+### In welchen Formaten kann ich die generierten Miniaturansichten speichern?
+Sie können die Miniaturansichten je nach Ihren Anforderungen in verschiedenen Formaten speichern, darunter JPEG, PNG und mehr.
 
- Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[Hier](https://releases.aspose.com/slides/net/).
+### Kann ich Miniaturansichten für mehrere Folien gleichzeitig erstellen?
+Ja, Sie können die Folien Ihrer Präsentation in einer Schleife durchgehen und für jede einzelne Miniaturansichten erstellen.
 
-### Kann ich Miniaturansichten nur für bestimmte Folien erstellen?
-
-Ja, Sie können Miniaturansichten für bestimmte Folien erstellen, indem Sie den entsprechenden Folienindex zur Verfügung stellen`SlideUtil.GetSlideThumbnail` Methode.
-
-### Ist Aspose.Slides für .NET für plattformübergreifende Anwendungen geeignet?
-
-Ja, Aspose.Slides für .NET ist mit verschiedenen Plattformen kompatibel, einschließlich Windows und Linux, wodurch es für plattformübergreifende Anwendungen geeignet ist.
+### Ist Aspose.Slides für .NET mit verschiedenen .NET-Frameworks kompatibel?
+Ja, Aspose.Slides für .NET ist mit verschiedenen .NET-Frameworks kompatibel, einschließlich .NET Core und .NET Framework.
 
 ### Kann ich das Erscheinungsbild der generierten Miniaturansichten anpassen?
+Absolut! Aspose.Slides für .NET bietet Optionen zum Anpassen des Erscheinungsbilds der Miniaturansichten, z. B. Abmessungen, Qualität und mehr.
 
-Absolut! Sie können die Größe, Qualität und andere Eigenschaften der generierten Miniaturansichten anpassen, um sie an die Anforderungen Ihrer Anwendung anzupassen.
-
-### Unterstützt Aspose.Slides für .NET andere PowerPoint-Manipulationsaufgaben?
-
-Ja, Aspose.Slides für .NET bietet eine Vielzahl von Funktionen, darunter das Erstellen, Bearbeiten, Konvertieren und Rendern von PowerPoint-Präsentationen.
+### Wo kann ich Unterstützung oder weitere Hilfe zu Aspose.Slides für .NET erhalten?
+ Hilfe und Kontakt zur Aspose-Community finden Sie unter[Aspose-Supportforum](https://forum.aspose.com/).

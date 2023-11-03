@@ -16,7 +16,7 @@ Abschnittszooms sind eine fantastische Möglichkeit, verschiedene Teile Ihrer Pr
 
 Bevor wir beginnen, stellen wir sicher, dass Sie über die erforderlichen Tools und die erforderliche Umgebung für die Arbeit mit Aspose.Slides für .NET verfügen.
 
-1.  Laden Sie Aspose.Slides herunter und installieren Sie es: Laden Sie zunächst die Aspose.Slides für .NET-Bibliothek von der Website herunter:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net/)Befolgen Sie die Installationsanweisungen, um es in Ihr Projekt zu integrieren.
+1.  Laden Sie Aspose.Slides herunter und installieren Sie es: Laden Sie zunächst die Aspose.Slides für .NET-Bibliothek von der Website herunter:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net/). Befolgen Sie die Installationsanweisungen, um es in Ihr Projekt zu integrieren.
 
 2. Erstellen Sie ein neues Projekt: Öffnen Sie Ihre bevorzugte integrierte Entwicklungsumgebung (IDE) und erstellen Sie ein neues .NET-Projekt.
 
@@ -97,7 +97,7 @@ Hier ist ein Ausschnitt des Quellcodes, der den Prozess der Erstellung von Absch
 // Ihr Quellcode hier
 ```
 
- Den vollständigen Quellcode und die detaillierte Implementierung finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+Den vollständigen Quellcode und die detaillierte Implementierung finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
 
 ## Abschluss
 
@@ -115,12 +115,12 @@ Ja, Sie können das Erscheinungsbild der anklickbaren Formen anpassen, indem Sie
 
 ### Ist der Abschnittszoom in allen Folienlayouts verfügbar?
 
-Ja, Sie können Abschnittszooms in Folien mit unterschiedlichen Layouts implementieren. Der Vorgang bleibt unabhängig vom Folienlayout derselbe.
+Ja, Sie können Ausschnittsvergrößerungen in Folien mit unterschiedlichen Layouts implementieren. Der Vorgang bleibt unabhängig vom Folienlayout derselbe.
 
 ### Kann ich Abschnittszooms zwischen nicht aufeinanderfolgenden Folien erstellen?
 
-Ja, mit Aspose.Slides können Sie Abschnittsvergrößerungen zwischen nicht aufeinanderfolgenden Folien erstellen und so Ihren Präsentationsablauf flexibel gestalten.
+Ja, mit Aspose.Slides können Sie Abschnittsvergrößerungen zwischen nicht aufeinanderfolgenden Folien erstellen und bieten so Flexibilität bei der Gestaltung Ihres Präsentationsablaufs.
 
-### Wie füge ich Animationen zu Abschnittszooms hinzu?
+### Wie füge ich Animationen zu Abschnittszoomen hinzu?
 
 Abschnittszooms selbst unterstützen keine Animationen. Sie können Abschnittszooms jedoch mit anderen Animationen und Übergängen kombinieren, um ein dynamisches Präsentationserlebnis zu schaffen.

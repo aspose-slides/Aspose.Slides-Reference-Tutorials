@@ -119,7 +119,7 @@ Oui, Aspose.Slides for Java est une bibliothèque commerciale et vous devrez peu
 
 ### Puis-je convertir plusieurs diapositives à la fois ?
 
-Certainement! Vous pouvez parcourir les diapositives de votre présentation et les cloner dans la nouvelle présentation, vous permettant ainsi de convertir plusieurs diapositives au format PDF avec des notes en une seule fois.
+Certainement! Vous pouvez parcourir les diapositives de votre présentation et les cloner dans la nouvelle présentation, ce qui vous permet de convertir plusieurs diapositives au format PDF avec des notes en une seule fois.
 
 ### Où puis-je trouver plus de documentation sur Aspose.Slides pour Java ?
 

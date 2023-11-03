@@ -16,7 +16,7 @@ Bölüm yakınlaştırmaları, slaytlarda manuel olarak atlamak zorunda kalmadan
 
 Başlamadan önce Aspose.Slides for .NET ile çalışmak için gerekli araçların ve ortamın kurulduğundan emin olalım.
 
-1.  Aspose.Slides'ı İndirin ve Kurun: Aspose.Slides for .NET kütüphanesini web sitesinden indirerek başlayın:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/)Projenize entegre etmek için kurulum talimatlarını izleyin.
+1.  Aspose.Slides'ı İndirin ve Kurun: Aspose.Slides for .NET kütüphanesini web sitesinden indirerek başlayın:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/). Projenize entegre etmek için kurulum talimatlarını izleyin.
 
 2. Yeni Bir Proje Oluşturun: Tercih ettiğiniz Tümleşik Geliştirme Ortamını (IDE) açın ve yeni bir .NET projesi oluşturun.
 
@@ -97,7 +97,7 @@ Aspose.Slides for .NET kullanarak bölüm yakınlaştırmaları oluşturma süre
 // Kaynak kodunuz burada
 ```
 
- Kaynak kodunun tamamı ve ayrıntılı uygulama için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+Kaynak kodunun tamamı ve ayrıntılı uygulama için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
 
 ## Çözüm
 

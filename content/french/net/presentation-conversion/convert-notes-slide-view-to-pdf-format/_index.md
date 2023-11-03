@@ -75,6 +75,6 @@ Absolument! Aspose.Slides pour .NET propose diverses options pour personnaliser 
 
 ### Q4 : Où puis-je trouver plus de didacticiels et d’exemples pour Aspose.Slides pour .NET ?
 
- Vous pouvez explorer des didacticiels et des exemples supplémentaires sur le[Aspose.Slides pour la documentation de l'API .NET](https://reference.aspose.com/slides/net/).
+Vous pouvez explorer des didacticiels et des exemples supplémentaires sur le[Aspose.Slides pour la documentation de l'API .NET](https://reference.aspose.com/slides/net/).
 
 Maintenant que vous avez converti avec succès la vue Diapositive Notes au format PDF, vous pouvez explorer davantage de fonctionnalités et de capacités d'Aspose.Slides pour .NET pour améliorer vos tâches d'automatisation PowerPoint. Bon codage !

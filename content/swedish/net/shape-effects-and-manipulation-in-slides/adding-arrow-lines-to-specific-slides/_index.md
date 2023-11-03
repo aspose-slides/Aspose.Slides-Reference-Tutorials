@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 // Lägg till nya bilder
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-//Lägg till fler bilder efter behov
+// Lägg till fler bilder efter behov
 ```
 
 ### Lägga till pilformade linjer

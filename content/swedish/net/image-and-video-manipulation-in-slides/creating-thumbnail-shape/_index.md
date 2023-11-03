@@ -53,7 +53,7 @@ var shape = slide.Shapes[0];
 
 ## Skapa miniatyrer
 
- Nu kommer den spännande delen – att skapa en miniatyrbild för den valda formen. Aspose.Slides låter dig uppnå detta genom att utnyttja`GetThumbnail` metod. Så här skapar du en miniatyrbild för en form:
+Nu kommer den spännande delen – att skapa en miniatyrbild för den valda formen. Aspose.Slides låter dig uppnå detta genom att utnyttja`GetThumbnail` metod. Så här skapar du en miniatyrbild för en form:
 
 ```csharp
 // Definiera miniatyrdimensioner

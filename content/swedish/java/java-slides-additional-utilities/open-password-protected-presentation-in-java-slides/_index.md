@@ -96,7 +96,7 @@ I den här handledningen lärde du dig hur du öppnar en lösenordsskyddad prese
 
 ### Hur ställer jag in lösenordet för en presentation?
 
-För att ställa in lösenordet för en presentation, använd`loadOptions.setPassword("password")` metod, var`"password"` bör ersättas med önskat lösenord.
+För att ställa in lösenordet för en presentation, använd`loadOptions.setPassword("password")` metod, var`"password"` bör ersättas med ditt önskade lösenord.
 
 ### Kan jag öppna presentationer med olika format, som PPT och PPTX?
 

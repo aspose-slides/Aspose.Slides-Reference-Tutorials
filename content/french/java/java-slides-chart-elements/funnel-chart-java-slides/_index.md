@@ -57,7 +57,7 @@ Ensuite, nous définirons les données de notre graphique en entonnoir. Nous dé
 
 Ici, nous effaçons toutes les données existantes, ajoutons des catégories (dans ce cas, les étapes de l'entonnoir) et définissons leurs étiquettes.
 
-## Étape 4 : Ajouter des points de données
+## Étape 4 : ajouter des points de données
 
 Maintenant, ajoutons des points de données à notre série de graphiques en entonnoir.
 

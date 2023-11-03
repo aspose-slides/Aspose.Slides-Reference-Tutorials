@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil ayrıca slaytlardaki şekilleri düzenlemek ve hizalamak için yöntemler de sağlar.
 
 ```csharp
-//Şekilleri yatay olarak düzenleme
+// Şekilleri yatay olarak düzenleme
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Şekilleri merkeze hizalayın
@@ -88,7 +88,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 ShapeUtil, dolgu ve çizgi stilleri de dahil olmak üzere şekillere biçimlendirme uygulamanıza olanak tanır.
 
 ```csharp
-// Dolgu rengini uygula
+//Dolgu rengini uygula
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
 // Çizgi rengini ve stilini uygulama

@@ -43,7 +43,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 
 ## Schritt 3: Animationen hinzufügen
 
-Fügen wir nun der Reihe innerhalb des Diagramms Animationen hinzu. Wir werden einen Einblendeffekt verwenden und jede Serie nacheinander erscheinen lassen.
+Nun fügen wir der Reihe innerhalb des Diagramms Animationen hinzu. Wir werden einen Einblendeffekt verwenden und jede Serie nacheinander erscheinen lassen.
 
 ```java
 // Animieren Sie das gesamte Diagramm

@@ -2,89 +2,116 @@
 title: Skapa miniatyrbilder i presentationer med anpassade mått
 linktitle: Skapa miniatyrer med anpassade mått
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du skapar anpassade miniatyrer i bilder med Aspose.Slides för .NET. Steg-för-steg guide med källkod. Förbättra dina presentationer med engagerande bilder.
+description: Lär dig hur du skapar anpassade miniatyrbilder från PowerPoint-presentationer med Aspose.Slides för .NET. Förbättra användarupplevelsen och funktionaliteten.
 type: docs
 weight: 13
 url: /sv/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
 
-I dagens digitala tidsålder spelar visuellt innehåll en avgörande roll för att förmedla information effektivt. Oavsett om du förbereder en presentation för ett affärsmöte, ett utbildningsseminarium eller något annat syfte, kan möjligheten att generera miniatyrbilder av dina bilder med anpassade dimensioner förbättra ditt innehålls visuella tilltalande. Aspose.Slides för .NET erbjuder en kraftfull lösning för att utföra denna uppgift sömlöst. I den här steg-för-steg-guiden går vi igenom processen att generera miniatyrer i bilder med anpassade mått med Aspose.Slides för .NET.
+Att skapa anpassade miniatyrbilder av dina PowerPoint-presentationer kan vara en värdefull tillgång, oavsett om du bygger en interaktiv applikation, förbättrar användarupplevelsen eller optimerar innehåll för olika plattformar. I den här handledningen guidar vi dig genom processen att skapa anpassade miniatyrbilder från PowerPoint-presentationer med hjälp av Aspose.Slides för .NET-biblioteket. Detta kraftfulla bibliotek låter dig manipulera, konvertera och förbättra PowerPoint-filer programmatiskt i .NET-applikationer.
 
 ## Förutsättningar
 
-Innan vi dyker in i den tekniska implementeringen, se till att du har följande förutsättningar på plats:
+Innan vi dyker in i att skapa anpassade miniatyrbilder, se till att du har följande förutsättningar på plats:
 
-- Visual Studio installerat på din dator
-- Grundläggande förståelse för programmeringsspråket C#
-- Aspose.Slides för .NET-bibliotek
+### 1. Aspose.Slides för .NET
 
+ Du måste ha Aspose.Slides för .NET-biblioteket installerat i ditt projekt. Om du inte redan har gjort det kan du hitta den nödvändiga dokumentationen och ladda ner länkar[här](https://reference.aspose.com/slides/net/).
 
-## Steg 1: Introduktion till generering av miniatyrbilder
+### 2. En PowerPoint-presentation
 
-Generering av miniatyrbilder innebär att skapa en mindre version av en bild eller diabild för snabb förhandsgranskning. Detta är särskilt användbart när du vill ge en visuell översikt över dina bilder utan att visa hela innehållet.
+Se till att du har PowerPoint-presentationen från vilken du vill skapa en anpassad miniatyrbild. Denna presentation bör vara tillgänglig i din projektkatalog.
 
-## Steg 2: Konfigurera projektet
+### 3. Utvecklingsmiljö
 
-1. Skapa ett nytt projekt i Visual Studio.
-2. Installera Aspose.Slides för .NET-biblioteket via NuGet-pakethanteraren.
+För att följa den här handledningen bör du ha praktiska kunskaper om .NET-programmering med C# och en uppsatt utvecklingsmiljö, som Visual Studio.
 
-## Steg 3: Laddar presentation
+Nu när vi har täckt förutsättningarna, låt oss dela upp processen för att skapa anpassade miniatyrer i steg-för-steg-instruktioner.
+
+## Importera namnområden
+
+Först måste du inkludera de nödvändiga namnrymden i din C#-kod. Dessa namnutrymmen låter dig arbeta med Aspose.Slides och manipulera PowerPoint-presentationer.
 
 ```csharp
 using Aspose.Slides;
-
-// Ladda presentationen
-using var presentation = new Presentation("your-presentation.pptx");
+using System.Drawing;
 ```
 
-## Steg 4: Generera miniatyrer med anpassade mått
+## Steg 1: Ladda presentationen
+
+Börja med att ladda PowerPoint-presentationen från vilken du vill skapa en anpassad miniatyrbild. Detta uppnås med Aspose.Slides-biblioteket.
 
 ```csharp
-// Välj det bildindex som du vill generera en miniatyrbild för
-int slideIndex = 0;
+string FilePath = @"..\..\..\Sample Files\";
+string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 
-// Ställ in anpassade mått för miniatyren
-int width = 400;
-int height = 300;
-
-// Skapa miniatyrbilden
-using var bitmap = presentation.Slides[slideIndex].GetThumbnail(width, height);
+// Instantiera en presentationsklass som representerar presentationsfilen
+using (Presentation pres = new Presentation(srcFileName))
+{
+    // Din kod för generering av miniatyrer kommer hit
+}
 ```
 
-## Steg 5: Spara miniatyrbilden
+## Steg 2: Öppna bilden
+
+Inom den laddade presentationen måste du komma åt den specifika bild från vilken du vill generera den anpassade miniatyrbilden. Du kan välja bilden efter dess index.
 
 ```csharp
-// Spara miniatyren som en bildfil
-bitmap.Save("thumbnail.png", ImageFormat.Png);
+// Öppna den första bilden (du kan ändra indexet efter behov)
+ISlide sld = pres.Slides[0];
 ```
 
-## Steg 6: Slutsats
+## Steg 3: Definiera anpassade miniatyrdimensioner
 
-I den här guiden har vi utforskat hur man genererar miniatyrer i bilder med anpassade mått med Aspose.Slides för .NET. Den här funktionen kan avsevärt förbättra den visuella representationen av dina presentationer, vilket gör dem mer engagerande och informativa.
+Ange önskade mått för din anpassade miniatyrbild. Du kan definiera bredd och höjd i pixlar enligt din applikations krav.
 
-## Vanliga frågor
+```csharp
+int desiredX = 1200; // Bredd
+int desiredY = 800;  // Höjd
+```
 
-### Hur installerar jag Aspose.Slides för .NET?
+## Steg 4: Beräkna skalningsfaktorer
 
-För att installera Aspose.Slides för .NET, följ dessa steg:
-1. Öppna ditt projekt i Visual Studio.
-2. Gå till "Verktyg"-menyn och välj "NuGet Package Manager."
-3. I fönstret "NuGet Package Manager", sök efter "Aspose.Slides" och klicka på "Installera".
+För att bibehålla bildförhållandet för bilden, beräkna skalningsfaktorerna för X- och Y-dimensionerna baserat på bildens storlek och dina önskade dimensioner.
 
-### Kan jag skapa miniatyrer för flera bilder samtidigt?
+```csharp
+float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
+float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
+```
 
-Ja, du kan gå igenom bilderna och generera miniatyrer för varje bild med ett liknande tillvägagångssätt som beskrivs i den här guiden.
+## Steg 5: Skapa miniatyrbilden
 
-### Är det möjligt att anpassa utseendet på den genererade miniatyrbilden?
+Skapa en fullskalig bild av bilden med de angivna anpassade måtten och spara den på disk i JPEG-format.
 
-Absolut! Du kan använda olika formateringsalternativ på bilderna innan du genererar miniatyrer, och se till att miniatyrerna återspeglar din önskade visuella stil.
+```csharp
+// Skapa en fullskalig bild
+Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
 
-### Vilka andra funktioner erbjuder Aspose.Slides för .NET?
+// Spara bilden på disk i JPEG-format
+bmp.Save(destFileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+```
 
-Aspose.Slides för .NET erbjuder ett brett utbud av funktioner, inklusive bildhantering, lägga till animationer, arbeta med text och former, exportera till olika format och mer. Kolla in dokumentationen för en omfattande lista över funktioner.
+Nu när du har följt dessa steg bör du ha skapat en anpassad miniatyrbild från din PowerPoint-presentation.
 
-### Var kan jag komma åt Aspose.Slides för .NET-dokumentationen och ladda ner biblioteket?
+## Slutsats
 
-För dokumentation och nedladdningar, besök Aspose.Slides webbplats:
--  Dokumentation:[https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/)
--  Ladda ner:[https://releases.aspose.com/slides/net/](https://releases.aspose.com/slides/net/)
+Att generera anpassade miniatyrbilder från PowerPoint-presentationer med Aspose.Slides för .NET är en värdefull färdighet som kan förbättra användarupplevelsen och funktionaliteten i dina applikationer. Genom att följa stegen som beskrivs i denna handledning kan du enkelt skapa anpassade miniatyrer som uppfyller dina specifika krav.
+
+---
+
+## Vanliga frågor (vanliga frågor)
+
+### Vad är Aspose.Slides för .NET?
+Aspose.Slides för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med PowerPoint-presentationer programmatiskt i .NET-applikationer.
+
+### Var kan jag hitta dokumentationen för Aspose.Slides för .NET?
+ Du hittar dokumentationen[här](https://reference.aspose.com/slides/net/).
+
+### Är Aspose.Slides för .NET gratis att använda?
+ Aspose.Slides för .NET är ett kommersiellt bibliotek. Du kan hitta pris- och licensinformation[här](https://purchase.aspose.com/buy).
+
+### Behöver jag avancerade programmeringskunskaper för att använda Aspose.Slides för .NET?
+Även om viss kunskap om .NET-programmering är fördelaktig, tillhandahåller Aspose.Slides för .NET ett användarvänligt API som förenklar arbetet med PowerPoint-presentationer.
+
+### Finns teknisk support tillgänglig för Aspose.Slides för .NET?
+ Ja, du kan komma åt teknisk support och communityforum[här](https://forum.aspose.com/).

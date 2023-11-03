@@ -94,7 +94,7 @@ string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
             // إنشاء اسم العرض التقديمي الناتج (فردي).
             string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
 
-            //تحميل قالب العرض التقديمي
+            // تحميل قالب العرض التقديمي
             using (Presentation pres = new Presentation(presTemplatePath))
             {
                 // املأ مربعات النص بالبيانات من الجدول الرئيسي لقاعدة البيانات

@@ -105,4 +105,4 @@ Ja, Aspose.Slides för .NET är mångsidig och kan användas i både skrivbords-
 
 ### Hur kan jag lära mig mer om Aspose.Slides för .NET?
 
-För mer djupgående information, handledning och dokumentation kan du besöka[Aspose.Slides för .NET-referens](https://reference.aspose.com/slides/net/).
+ För mer djupgående information, handledning och dokumentation kan du besöka[Aspose.Slides för .NET-referens](https://reference.aspose.com/slides/net/).

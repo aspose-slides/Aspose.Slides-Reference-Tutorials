@@ -49,7 +49,7 @@ pres.Save(outPath, SaveFormat.Pptx);
 
 في مقتطف الشفرة هذا:
 
-- `dataDir` يجب استبداله بمسار الدليل حيث يوجد ملف PPT الخاص بك.
+- `dataDir`يجب استبداله بمسار الدليل حيث يوجد ملف PPT الخاص بك.
 - `outPath` يجب استبداله بالدليل الذي تريد حفظ ملف PPTX المحول فيه.
 - `srcFileName` هو اسم ملف الإدخال PPT الخاص بك.
 - `destFileName` هو الاسم المطلوب لملف الإخراج PPTX.
@@ -58,7 +58,7 @@ pres.Save(outPath, SaveFormat.Pptx);
 
 تهانينا! لقد نجحت في تحويل عرض تقديمي لـ PowerPoint من تنسيق PPT إلى تنسيق PPTX باستخدام Aspose.Slides for .NET API. تعمل هذه المكتبة القوية على تبسيط المهام المعقدة مثل هذه، مما يجعل تجربة تطوير .NET الخاصة بك أكثر سلاسة.
 
- إذا لم تكن قد فعلت ذلك بالفعل،[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/)واستكشاف قدراتها بشكل أكبر.
+ إذا لم تكن قد فعلت ذلك بالفعل،[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/) واستكشاف قدراتها بشكل أكبر.
 
  لمزيد من الدروس والنصائح، قم بزيارة موقعنا[توثيق](https://reference.aspose.com/slides/net/).
 

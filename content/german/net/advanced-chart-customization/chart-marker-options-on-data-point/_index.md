@@ -1,232 +1,150 @@
 ---
-title: Diagrammmarkierungsoptionen für Datenpunkte
+title: Verwenden von Diagrammmarkierungsoptionen für Datenpunkte in Aspose.Slides .NET
 linktitle: Diagrammmarkierungsoptionen für Datenpunkte
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie Ihre Datenvisualisierungen mit Aspose.Slides für .NET verbessern. Entdecken Sie Schritt für Schritt die Optionen für Diagrammmarkierungen.
+description: Erfahren Sie, wie Sie Ihre PowerPoint-Diagramme mit Aspose.Slides für .NET verbessern. Passen Sie Datenpunktmarkierungen mit Bildern an. Erstellen Sie ansprechende Präsentationen.
 type: docs
 weight: 11
 url: /de/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
-## Einführung in die Diagrammmarkierungsoptionen
+Bei der Arbeit mit Präsentationen und Datenvisualisierung bietet Aspose.Slides für .NET eine breite Palette leistungsstarker Funktionen zum Erstellen, Anpassen und Bearbeiten von Diagrammen. In diesem Tutorial erfahren Sie, wie Sie Diagrammmarkierungsoptionen für Datenpunkte verwenden, um Ihre Diagrammpräsentationen zu verbessern. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess, angefangen bei den Voraussetzungen und dem Importieren von Namespaces bis hin zur Aufteilung jedes Beispiels in mehrere Schritte.
 
-Diagrammmarkierungsoptionen sind visuelle Verbesserungen, die auf einzelne Datenpunkte in einem Diagramm angewendet werden können. Diese Markierungen helfen bei der Hervorhebung bestimmter Datenwerte und erleichtern dem Publikum die Interpretation der präsentierten Informationen. Durch die Verwendung von Diagrammmarkierungsoptionen können Sie die Aufmerksamkeit auf wichtige Datenpunkte lenken und Trends oder Ausreißer hervorheben.
+## Voraussetzungen
 
-## Einrichten der Entwicklungsumgebung
+Bevor wir uns mit der Verwendung von Diagrammmarkierungsoptionen für Datenpunkte befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-Bevor wir uns mit der Arbeit mit Diagrammmarkierungsoptionen mithilfe von Aspose.Slides für .NET befassen, stellen wir sicher, dass wir über die erforderlichen Tools verfügen.
+-  Aspose.Slides für .NET: Stellen Sie sicher, dass Aspose.Slides für .NET installiert ist. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/slides/net/).
 
-## Aspose.Slides für .NET installieren
+- Beispielpräsentation: Für dieses Tutorial verwenden wir eine Beispielpräsentation mit dem Namen „Test.pptx“. Sie sollten diese Präsentation in Ihrem Dokumentenverzeichnis haben.
 
- Um zu beginnen, muss Aspose.Slides für .NET in Ihrer Entwicklungsumgebung installiert sein. Sie können die Bibliothek von der Website herunterladen:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net).
+Beginnen wir nun mit dem Import der erforderlichen Namespaces.
 
-## Erstellen eines neuen Projekts
-
-Sobald Sie Aspose.Slides für .NET installiert haben, erstellen Sie ein neues Projekt in Ihrer bevorzugten .NET-Entwicklungsumgebung. Sie können Visual Studio oder eine andere IDE Ihrer Wahl verwenden.
-
-## Laden und Ändern einer vorhandenen Präsentation
-
-Um mit Diagrammmarkierungsoptionen arbeiten zu können, benötigen wir eine vorhandene Präsentation mit einem Diagramm. Beginnen wir damit, eine vorhandene Präsentation zu laden und auf die Folie mit dem Diagramm zuzugreifen.
-
-## Laden einer Präsentationsdatei
+## Namespaces importieren
 
 ```csharp
-// Laden Sie die Präsentation
-using (Presentation presentation = new Presentation("sample.pptx"))
-{
-    // Hier finden Sie Ihren Code für die Arbeit mit der Präsentation
-}
+﻿using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## Zugriff auf Folie mit Diagramm
+Wir haben die erforderlichen Namespaces importiert und unsere Präsentation initialisiert. Fahren wir nun mit der Verwendung der Diagrammmarkierungsoptionen für Datenpunkte fort.
 
-Als Nächstes identifizieren wir die Folie, die das Diagramm enthält, das wir ändern möchten.
+## Schritt 1: Erstellen des Standarddiagramms
 
 ```csharp
-//Auf eine Folie mit einem Diagramm zugreifen
-ISlide slide = presentation.Slides[0]; // Ersetzen Sie 0 durch den Folienindex
+
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+
+ISlide slide = pres.Slides[0];
+
+// Erstellen des Standarddiagramms
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## Zugriff auf Diagrammdatenreihen
+Wir erstellen auf der Folie ein Standarddiagramm vom Typ „LineWithMarkers“ an einer bestimmten Position und Größe.
 
-Um Markierungsoptionen auf Datenpunkte anzuwenden, müssen wir zunächst auf die relevanten Datenreihen im Diagramm zugreifen.
-
-## Identifizieren von Datenreihen
+## Schritt 2: Abrufen des Standard-Diagrammdaten-Arbeitsblattindex
 
 ```csharp
-// Zugriff auf das Diagramm auf der Folie
-IChart chart = slide.Shapes[0] as IChart;
-
-// Zugriff auf die erste Datenreihe
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-IChartSeries dataSeries = chart.ChartData.Series[0];
+// Abrufen des Standard-Arbeitsblattindex für Diagrammdaten
+int defaultWorksheetIndex = 0;
 ```
 
-## Zugriff auf Datenpunkte
+Hier erhalten wir den Index des Standard-Diagrammdaten-Arbeitsblatts.
 
-Da wir nun Zugriff auf die Datenreihen haben, können wir mit einzelnen Datenpunkten arbeiten.
+## Schritt 3: Abrufen des Diagrammdaten-Arbeitsblatts
 
 ```csharp
-// Zugriff auf einzelne Datenpunkte
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    // Hier finden Sie Ihren Code zum Arbeiten mit Datenpunkten
-}
+//Abrufen des Diagrammdaten-Arbeitsblatts
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-## Anwenden von Markierungsoptionen
+Wir rufen die Diagrammdaten-Arbeitsmappe ab, um mit Diagrammdaten zu arbeiten.
 
-Wenden wir nun Markierungsoptionen auf die Datenpunkte im Diagramm an.
-
-## Markierungen für Datenpunkte aktivieren
+## Schritt 4: Ändern der Diagrammreihe
 
 ```csharp
-// Markierungen für Datenpunkte aktivieren
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Circle; // Sie können einen anderen Markierungstyp auswählen
-    dataPoint.Marker.Symbol.Size = 10; // Passen Sie die Markierungsgröße nach Bedarf an
-    dataPoint.Marker.Visible = true; // Markierungen anzeigen
-}
+// Demoserie löschen
+chart.ChartData.Series.Clear();
+
+// Neue Serie hinzufügen
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-## Anpassen der Markierungsdarstellung
+In diesem Schritt entfernen wir alle vorhandenen Demoserien und fügen dem Diagramm eine neue Serie mit dem Namen „Serie 1“ hinzu.
 
-Sie können auch das Erscheinungsbild von Markierungen anpassen, um sie optisch ansprechender zu gestalten.
+## Schritt 5: Bildfüllung für Datenpunkte festlegen
 
 ```csharp
-// Anpassen des Erscheinungsbilds der Markierung
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Diamond;
-    dataPoint.Marker.Symbol.Size = 12;
-    dataPoint.Marker.Symbol.Fill.SolidFillColor.Color = Color.Red;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.FillType = FillType.Solid;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+// Legen Sie das Bild für die Markierungen fest
+System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx1 = pres.Images.AddImage(img1);
+
+System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
+IPPImage imgx2 = pres.Images.AddImage(img2);
+
+// Nehmen Sie die erste Chartserie
+IChartSeries series = chart.ChartData.Series[0];
+
+// Fügen Sie neue Datenpunkte mit Bildfüllung hinzu
+IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, (double)2.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, (double)3.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-## Beschriftungen zu Markierungen hinzufügen
+Wir setzen Bildmarkierungen für Datenpunkte, sodass Sie anpassen können, wie jeder Datenpunkt im Diagramm angezeigt wird.
 
-Das Hinzufügen von Datenbeschriftungen zu Markierungen kann dem Diagramm Kontext und Klarheit verleihen.
-
-## Datenbeschriftungen anzeigen
+## Schritt 6: Ändern der Größe der Diagrammreihenmarkierung
 
 ```csharp
-// Datenbeschriftungen anzeigen
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.ShowCategoryName = true;
-    dataLabel.ShowValue = true;
-}
+//Ändern der Größe der Diagrammserienmarkierung
+series.Marker.Size = 15;
 ```
 
-## Datenbeschriftungen formatieren
+Hier passen wir die Größe der Diagrammreihenmarkierung an, um sie optisch ansprechend zu gestalten.
 
-Sie können Datenbeschriftungen nach Ihren Wünschen formatieren.
+## Schritt 7: Speichern der Präsentation
 
 ```csharp
-// Datenbeschriftungen formatieren
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontBold = NullableBool.True;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontHeight = 14;
-}
+pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ```
 
-## Umgang mit überlappenden Markern
-
-In Fällen, in denen sich Markierungen überlappen und visuelle Unordnung verursachen, ist es wichtig, die Markierungspositionen zu berücksichtigen.
-
-## Anpassen der Markierungsüberlappung
-
-```csharp
-// Anpassen der Markierungsüberlappung
-chart.Placement = PlacementType.FreeFloating;
-chart.MarkerOverlap = -30; // Passen Sie den Überlappungswert nach Bedarf an
-```
-
-## Auswahl optimaler Markierungspositionen
-
-```csharp
-// Auswahl optimaler Markierungspositionen
-chart.MarkerClustered = false;
-chart.MarkerSymbolSpacing = 2; // Passen Sie den Abstand nach Bedarf an
-```
-
-## Speichern und Exportieren der geänderten Präsentation
-
-Sobald Sie die erforderlichen Änderungen am Diagramm vorgenommen haben, können Sie die geänderte Präsentation speichern und exportieren.
-
-## Speichern in verschiedenen Formaten
-
-```csharp
-// Speichern in verschiedenen Formaten
-presentation.Save("modified.pptx", SaveFormat.Pptx);
-presentation.Save("modified.pdf", SaveFormat.Pdf);
-```
-
-## Exportieren in PDF oder Bild
-
-```csharp
-// Exportieren als PDF oder Bild
-using (FileStream stream = new FileStream("output.pdf", FileMode.Create))
-{
-    PdfOptions options = new PdfOptions();
-    presentation.Save(stream
-
-, SaveFormat.Pdf);
-}
-```
-
-## Anwendungsfälle aus der Praxis
-
-Diagrammmarkierungsoptionen sind bei der Analyse realer Datenszenarien von unschätzbarem Wert.
-
-## Vertriebsleistungsanalyse
-
-Mithilfe von Markierungsoptionen können Vertriebsanalysten außergewöhnliche Verkaufsmonate lokalisieren und Trends im Zeitverlauf visualisieren.
-
-## Börsentrends
-
-Anleger können Markeroptionen nutzen, um signifikante Aktienkursschwankungen zu erkennen und fundierte Entscheidungen zu treffen.
-
-## Best Practices für eine effektive Datenvisualisierung
-
-Beachten Sie beim Erstellen von Diagrammen die folgenden Best Practices.
-
-## Halten Sie Diagramme einfach und klar
-
-Einfachheit steigert das Verständnis. Vermeiden Sie es, Diagramme mit übermäßig vielen Markierungen zu überfüllen.
-
-## Verwendung geeigneter Diagrammtypen
-
-Wählen Sie Diagrammtypen, die Ihre Daten effektiv kommunizieren. Nicht alle Datensätze erfordern Markierungen.
+Abschließend speichern wir die Präsentation mit den neuen Diagrammeinstellungen.
 
 ## Abschluss
 
-In diesem Artikel haben wir uns mithilfe von Aspose.Slides für .NET mit der Welt der Diagrammmarkierungsoptionen befasst. Wir haben den schrittweisen Prozess der Aktivierung, Anpassung und Verwaltung von Markierungen für Datenpunkte in Diagrammen untersucht. Indem Sie die in diesem Leitfaden beschriebenen Techniken befolgen, können Sie Ihre Datenvisualisierungsfähigkeiten verbessern und überzeugende Präsentationen erstellen, die bei Ihrem Publikum Anklang finden.
+Mit Aspose.Slides für .NET können Sie beeindruckende Diagrammpräsentationen mit verschiedenen Anpassungsoptionen erstellen. In diesem Tutorial haben wir uns auf die Verwendung von Diagrammmarkierungsoptionen für Datenpunkte konzentriert, um die visuelle Darstellung Ihrer Daten zu verbessern. Mit Aspose.Slides für .NET können Sie Ihre Präsentationen auf die nächste Stufe heben und sie ansprechender und informativer gestalten.
 
-## FAQs
+ Wenn Sie Fragen haben oder Hilfe zu Aspose.Slides für .NET benötigen, besuchen Sie bitte die[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/) oder wenden Sie sich an die[Aspose-Gemeinschaft](https://forum.aspose.com/) zur Unterstützung.
 
-### Wie kann ich Aspose.Slides für .NET herunterladen?
+## Häufig gestellte Fragen (FAQs)
 
- Sie können Aspose.Slides für .NET von der Release-Seite herunterladen:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net).
+### Kann ich benutzerdefinierte Bilder als Markierungen für Datenpunkte in Aspose.Slides für .NET verwenden?
+Ja, Sie können benutzerdefinierte Bilder als Markierungen für Datenpunkte in Aspose.Slides für .NET verwenden, wie in diesem Tutorial gezeigt.
 
-### Kann ich das Erscheinungsbild von Markierungen anpassen?
+### Wie kann ich den Diagrammtyp in Aspose.Slides für .NET ändern?
+Sie können den Diagrammtyp ändern, indem Sie einen anderen angeben`ChartType` beim Erstellen des Diagramms, z. B. „Balken“, „Kreis“ oder „Fläche“.
 
-Absolut! Sie können aus verschiedenen Markertypen wählen und deren Größe, Farbe und Form anpassen.
+### Ist Aspose.Slides für .NET mit den neuesten Versionen von PowerPoint kompatibel?
+Aspose.Slides für .NET ist für die Verwendung mit verschiedenen PowerPoint-Formaten konzipiert und wird regelmäßig aktualisiert, um die Kompatibilität mit den neuesten PowerPoint-Versionen sicherzustellen.
 
-### Gibt es eine Möglichkeit, mit überlappenden Markierungen umzugehen?
+### Wo finde ich weitere Tutorials und Ressourcen für Aspose.Slides für .NET?
+ Weitere Tutorials und Ressourcen finden Sie im[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/).
 
-Ja, Sie können die Einstellungen für die Markierungsüberlappung anpassen, um visuelle Unordnung in Ihren Diagrammen zu vermeiden.
-
-### In welchen Formaten kann ich meine geänderte Präsentation speichern?
-
-Aspose.Slides für .NET unterstützt das Speichern von Präsentationen in verschiedenen Formaten, einschließlich PPTX und PDF.
-
-### Wie kann ich Datenbeschriftungen zu Markierungen hinzufügen?
-
-Sie können Markierungen ganz einfach Datenbeschriftungen hinzufügen und sie nach Ihren Wünschen formatieren.
+### Gibt es eine Testversion von Aspose.Slides für .NET?
+ Ja, Sie können Aspose.Slides für .NET ausprobieren, indem Sie eine kostenlose Testversion von herunterladen[Hier](https://releases.aspose.com/).

@@ -47,7 +47,7 @@ Lär dig Java Slides-animering och layout med Aspose.Slides för Java. Bemästra
 Lär dig hur du skapar dynamiska diagram i Java-bilder med Aspose.Slides för Java med våra omfattande handledningar. Lyft dina presentationsfärdigheter idag!
 ### [Skapa Java Slides Chart](./chart-creation/)
 Lär dig hur du skapar dynamiska Java-bilder med diagram med Aspose.Slides för Java. Våra omfattande tutorials guidar dig genom processen steg för steg.
-### [Java Slides presentationskonvertering](./presentation-conversion/)
+### [Java Slides Presentation Konvertering](./presentation-conversion/)
 Lär dig hur du enkelt konverterar Java-presentationer med Aspose.Slides för Java. Omfattande tutorials och steg-för-steg-guider väntar på dig.
 ### [Java Slides Data Manipulation](./data-manipulation/)
 Förbättra dina Java Slides datamanipuleringsfärdigheter med Aspose.Slides för Java tutorials. Lär dig steg för steg hur du skapar, redigerar och transformerar presentationer effektivt.

@@ -24,7 +24,7 @@ Geometri şekillerinden segmentlerin çıkarılmasına geçmeden önce geliştir
 
 1.  Kurulum: Aspose.Slides for .NET kütüphanesini indirip kurarak başlayın. En son sürümü bulabilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-2.  API Referansı:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/)Çok çeşitli özellikleri ve işlevleri keşfetmek için.
+2.  API Referansı:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/) Çok çeşitli özellikleri ve işlevleri keşfetmek için.
 
 ## Segmentleri Kaldırma: Adım Adım
 
@@ -37,7 +37,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Slayta erişme
     ISlide slide = presentation.Slides[0];
 
-    // Şekle erişin (ilk şekil olduğu varsayılarak)
+    //Şekle erişin (ilk şekil olduğu varsayılarak)
     IAutoShape shape = (IAutoShape)slide.Shapes[0];
 
     // Şeklin geometri yoluna erişme
@@ -61,7 +61,7 @@ Segmentleri geometri şekillerinden seçerek kaldırarak, hedef kitlenizde yank�
 
 ### Aspose.Slides for .NET'i nasıl indirebilirim?
 
-Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Aspose sürümler sayfası](https://releases.aspose.com/slides/net/). 
+ Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Aspose sürümler sayfası](https://releases.aspose.com/slides/net/). 
 
 ### Aspose.Slides'ta segment kaldırma işlemini geri alabilir miyim?
 
@@ -85,4 +85,4 @@ Aspose.Slides güçlü olsa da, karmaşık segment kaldırma işlemlerinin, tuta
 
 ## Çözüm
 
-Aspose.Slides'ın geometri şekillerinden segmentleri kaldırma özelliklerinden yararlanarak sunum oyununuzu geliştirin. Bu eğitim, bu özelliği projelerinize sorunsuz bir şekilde entegre edebilmeniz için sizi bilgi ve araçlarla donattı. İster eğitim materyalleri hazırlıyor ister kurumsal sunumlar yapıyor olun, Aspose.Slides izleyicilerinizi büyüleyen ve bilgilendiren, görsel açıdan büyüleyici slaytlar oluşturmanıza olanak tanır.
+Aspose.Slides'ın geometri şekillerinden segmentleri kaldırma özelliklerinden yararlanarak sunum oyununuzu geliştirin. Bu eğitim, bu özelliği projelerinize sorunsuz bir şekilde entegre edebilmeniz için sizi bilgi ve araçlarla donattı. İster eğitim materyalleri hazırlıyor ister kurumsal sunumlar yapıyor olun, Aspose.Slides izleyicilerinizi büyüleyen ve bilgilendiren, görsel açıdan etkileyici slaytlar oluşturmanıza olanak tanır.

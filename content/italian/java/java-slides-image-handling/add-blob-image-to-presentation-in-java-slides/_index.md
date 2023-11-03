@@ -116,7 +116,7 @@ Congratulazioni! Hai imparato con successo come aggiungere un'immagine BLOB a un
 
 ### Come installo Aspose.Slides per Java?
 
- Aspose.Slides per Java può essere facilmente installato scaricando la libreria dal sito Web[Qui](https://releases.aspose.com/slides/java/). Segui le istruzioni di installazione fornite per integrarlo nel tuo progetto Java.
+ Aspose.Slides per Java può essere facilmente installato scaricando la libreria dal sito web[Qui](https://releases.aspose.com/slides/java/). Segui le istruzioni di installazione fornite per integrarlo nel tuo progetto Java.
 
 ### Posso aggiungere più immagini BLOB a una singola presentazione?
 

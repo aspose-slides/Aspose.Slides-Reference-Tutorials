@@ -63,7 +63,7 @@ Ora arriva la parte emozionante: creare una miniatura con un fattore di scala sp
 // Crea una copia della forma
 var thumbnailShape = shape.Clone();
 
-//Definire il fattore di scala (ad esempio, 0,5 per il 50%)
+// Definire il fattore di scala (ad esempio, 0,5 per il 50%)
 double scalingFactor = 0.5;
 
 // Regola la larghezza e l'altezza della miniatura

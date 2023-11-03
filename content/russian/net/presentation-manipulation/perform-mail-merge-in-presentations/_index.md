@@ -94,7 +94,7 @@ string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
             // создать название результата (индивидуального) представления
             string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
 
-            //Загрузить шаблон презентации
+            // Загрузить шаблон презентации
             using (Presentation pres = new Presentation(presTemplatePath))
             {
                 // Заполните текстовые поля данными из основной таблицы базы данных.

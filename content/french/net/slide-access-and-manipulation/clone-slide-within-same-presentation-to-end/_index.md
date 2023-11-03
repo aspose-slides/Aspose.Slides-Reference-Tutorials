@@ -33,14 +33,14 @@ class Program
 }
 ```
 
- Remplacer`"existing-presentation.pptx"` avec le chemin d’accès à votre fichier de présentation PowerPoint actuel.
+ Remplacer`"existing-presentation.pptx"`avec le chemin d’accès à votre fichier de présentation PowerPoint actuel.
 
 ## Étape 3 : Dupliquer une diapositive
 
 Pour dupliquer une diapositive, nous devons d'abord sélectionner la diapositive que nous voulons dupliquer. Ensuite, nous le clonerons pour créer une copie identique. Voici comment procéder :
 
 ```csharp
-//Sélectionnez la diapositive à dupliquer (l'index commence à 0)
+// Sélectionnez la diapositive à dupliquer (l'index commence à 0)
 ISlide sourceSlide = presentation.Slides[0];
 
 // Cloner la diapositive sélectionnée
@@ -79,7 +79,7 @@ Dans ce guide, nous avons expliqué comment dupliquer une diapositive et l'ajout
 
 ### Comment puis-je obtenir Aspose.Slides pour .NET ?
 
-Vous pouvez obtenir la bibliothèque Aspose.Slides pour .NET à partir du[lien de téléchargement](https://releases.aspose.com/slides/net/). Assurez-vous de suivre les instructions d'installation fournies sur le site Web.
+ Vous pouvez obtenir la bibliothèque Aspose.Slides pour .NET à partir du[lien de téléchargement](https://releases.aspose.com/slides/net/). Assurez-vous de suivre les instructions d'installation fournies sur le site Web.
 
 ### Puis-je dupliquer plusieurs diapositives à la fois ?
 

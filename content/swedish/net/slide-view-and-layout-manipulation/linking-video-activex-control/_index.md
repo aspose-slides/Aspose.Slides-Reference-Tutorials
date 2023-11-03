@@ -9,7 +9,7 @@ url: /sv/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
 Länka en video via ActiveX-kontroll i en presentation med Aspose.Slides för .NET
 
-Aspose.Slides för .NET kan du programmässigt länka en video till en presentationsbild med ActiveX-kontrollen. Detta gör att du kan skapa interaktiva presentationer där videoinnehållet kan spelas upp direkt i bilden. I den här steg-för-steg-guiden går vi igenom processen att länka en video till en presentationsbild med Aspose.Slides för .NET.
+I Aspose.Slides för .NET kan du programmässigt länka en video till en presentationsbild med ActiveX-kontrollen. Detta gör att du kan skapa interaktiva presentationer där videoinnehållet kan spelas upp direkt i bilden. I den här steg-för-steg-guiden går vi igenom processen att länka en video till en presentationsbild med Aspose.Slides för .NET.
 
 ## Förutsättningar:
 - Visual Studio (eller någon annan .NET-utvecklingsmiljö)
@@ -18,7 +18,7 @@ Aspose.Slides för .NET kan du programmässigt länka en video till en presentat
 ## Steg 1: Skapa ett nytt projekt
 Skapa ett nytt projekt i din föredragna .NET-utvecklingsmiljö (t.ex. Visual Studio) och lägg till referenser till Aspose.Slides för .NET-biblioteket.
 
-## Steg 2: Importera nödvändiga namnområden
+## Steg 2: Importera nödvändiga namnutrymmen
 I ditt projekt, importera de nödvändiga namnrymden för att arbeta med Aspose.Slides:
 
 ```csharp
@@ -45,7 +45,7 @@ ISlide slide = presentation.Slides[0]; // Välj bilden där du vill lägga till 
 IOleObjectFrame oleObjectFrame = slide.Shapes.AddOleObjectFrame(0, 0, 640, 480, "Video", "ShockwaveFlash.ShockwaveFlash.10");
 ```
 
-koden ovan lägger vi till en ActiveX-kontrollram med dimensionerna 640x480 till bilden. Vi anger ProgID för ShockwaveFlash ActiveX-kontrollen, som vanligtvis används för att bädda in videor.
+I koden ovan lägger vi till en ActiveX-kontrollram med dimensionerna 640x480 till bilden. Vi anger ProgID för ShockwaveFlash ActiveX-kontrollen, som vanligtvis används för att bädda in videor.
 
 ## Steg 5: Ställ in egenskaper för ActiveX-kontrollen
 Ställ in egenskaperna för ActiveX-kontrollen för att ange den länkade videokällan:
@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Vanliga frågor:
 
 ### Hur kan jag specificera storleken och positionen för den länkade videon på bilden?
- Du kan justera dimensionerna och positionen för ActiveX-kontrollramen med hjälp av parametrarna för`AddOleObjectFrame` metod. De fyra numeriska argumenten representerar X- och Y-koordinaterna för det övre vänstra hörnet och ramens bredd respektive höjd.
+ Du kan justera dimensionerna och positionen för ActiveX-kontrollramen med hjälp av parametrarna för`AddOleObjectFrame`metod. De fyra numeriska argumenten representerar X- och Y-koordinaterna för det övre vänstra hörnet och ramens bredd respektive höjd.
 
 ### Kan jag länka videor i olika format med detta tillvägagångssätt?
 Ja, du kan länka videor i olika format så länge som lämplig ActiveX-kontroll är tillgänglig för det formatet. Till exempel är ShockwaveFlash ActiveX-kontrollen som används i den här guiden lämplig för Flash-videor (SWF). För andra format kan du behöva använda andra ProgID.

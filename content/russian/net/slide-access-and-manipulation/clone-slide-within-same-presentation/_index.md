@@ -57,7 +57,7 @@ ISlide clonedSlide = presentation.Slides.AddClone(sourceSlide);
 Возможно, вам захочется внести некоторые изменения в клонированный слайд перед сохранением презентации. Допустим, вы хотите обновить текст заголовка клонированного слайда:
 
 ```csharp
-//Измените заголовок клонированного слайда
+// Измените заголовок клонированного слайда
 IAutoShape titleShape = clonedSlide.Shapes[0] as IAutoShape;
 if (titleShape != null)
 {

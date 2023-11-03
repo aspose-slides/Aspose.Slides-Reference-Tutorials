@@ -10,7 +10,7 @@ url: /sv/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-a
 
 Anslutningslinjer spelar en avgörande roll för att skapa välstrukturerade och visuellt tilltalande presentationsbilder. De hjälper till att upprätta relationer mellan olika element på en bild, vilket förbättrar informationens tydlighet. Aspose.Slides, ett kraftfullt .NET API, tillhandahåller olika funktioner för att manipulera dessa anslutningslinjer, inklusive justering av deras vinklar. I den här självstudien kommer vi att undersöka hur du justerar vinklar för anslutningslinjer i presentationsbilder med Aspose.Slides för .NET.
 
-## Introduktion till Connector Lines
+## Introduktion till anslutningslinjer
 
 Anslutningslinjer är viktiga visuella hjälpmedel i presentationer, som används för att illustrera relationer mellan objekt eller koncept. De används ofta för att skapa flödesscheman, diagram och processillustrationer. Att justera vinklarna på anslutningslinjerna kan avsevärt påverka den övergripande estetiken och begripligheten hos en rutschbana.
 

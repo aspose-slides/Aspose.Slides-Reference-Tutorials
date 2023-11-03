@@ -10,7 +10,7 @@ url: /fr/net/slide-animation-control/rewind-animation-on-slide/
 
 ## Introduction aux animations avec Aspose.Slides
 
-Les animations peuvent donner vie à vos présentations, les rendant plus attrayantes et visuellement attrayantes. Aspose.Slides for .NET est une bibliothèque puissante qui permet aux développeurs de travailler avec des présentations PowerPoint par programme, notamment en ajoutant, modifiant et gérant des animations.
+Les animations peuvent donner vie à vos présentations, les rendant plus attrayantes et visuellement attrayantes. Aspose.Slides for .NET est une bibliothèque puissante qui permet aux développeurs de travailler avec des présentations PowerPoint par programmation, notamment en ajoutant, modifiant et gérant des animations.
 
 ## Conditions préalables
 

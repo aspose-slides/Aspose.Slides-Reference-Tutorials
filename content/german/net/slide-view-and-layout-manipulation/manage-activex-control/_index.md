@@ -13,7 +13,7 @@ ActiveX-Steuerelemente sind leistungsstarke Elemente, die die Funktionalität un
 
 Führen Sie die folgenden Schritte aus, um mit der Integration von ActiveX-Steuerelementen in Ihre PowerPoint-Präsentationen zu beginnen:
 
-1.  Erstellen Sie eine neue PowerPoint-Präsentation: Erstellen Sie zunächst eine neue PowerPoint-Präsentation mit Aspose.Slides für .NET. Sie können sich auf die beziehen[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/)für Anleitungen zum Arbeiten mit Präsentationen.
+1.  Erstellen Sie eine neue PowerPoint-Präsentation: Erstellen Sie zunächst eine neue PowerPoint-Präsentation mit Aspose.Slides für .NET. Sie können sich auf die beziehen[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/) für Anleitungen zum Arbeiten mit Präsentationen.
 
 2. Eine Folie hinzufügen: Verwenden Sie die Bibliothek, um Ihrer Präsentation eine neue Folie hinzuzufügen. Dies ist die Folie, auf der Sie das ActiveX-Steuerelement einfügen möchten.
 
@@ -71,9 +71,9 @@ oleObjectFrame.SetProperty("Volume", 50);
 
 Das Anpassen der Eigenschaften Ihres ActiveX-Steuerelements kann das Benutzererlebnis Ihrer Präsentation erheblich verbessern. So können Sie diese Eigenschaften anpassen:
 
-1. Zugriffseigenschaften: Wie bereits erwähnt, können Sie mit auf die Eigenschaften des ActiveX-Steuerelements zugreifen`IOleObjectFrame` Referenz.
+1.  Zugriffseigenschaften: Wie bereits erwähnt, können Sie mit auf die Eigenschaften des ActiveX-Steuerelements zugreifen`IOleObjectFrame` Referenz.
 
-2.  Eigenschaften festlegen: Verwenden Sie die`SetProperty` Methode zum Festlegen verschiedener Eigenschaften des ActiveX-Steuerelements. Sie können die Hintergrundfarbe beispielsweise wie folgt ändern:
+2.  Eigenschaften festlegen: Verwenden Sie die`SetProperty`Methode zum Festlegen verschiedener Eigenschaften des ActiveX-Steuerelements. Sie können die Hintergrundfarbe beispielsweise wie folgt ändern:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);
@@ -130,7 +130,7 @@ Durch die Integration von ActiveX-Steuerelementen in Ihre PowerPoint-Präsentati
 
 ### Wie kann ich einer bestimmten Folie ein ActiveX-Steuerelement hinzufügen?
 
- Um einer bestimmten Folie ein ActiveX-Steuerelement hinzuzufügen, können Sie das verwenden`AddOleObjectFrame` Methode, die von Aspose.Slides für .NET bereitgestellt wird. Mit dieser Methode können Sie die Position, Größe und ProgID des ActiveX-Steuerelements angeben, das Sie einfügen möchten.
+Um einer bestimmten Folie ein ActiveX-Steuerelement hinzuzufügen, können Sie das verwenden`AddOleObjectFrame` Methode, die von Aspose.Slides für .NET bereitgestellt wird. Mit dieser Methode können Sie die Position, Größe und ProgID des ActiveX-Steuerelements angeben, das Sie einfügen möchten.
 
 ### Kann ich ActiveX-Steuerelemente programmgesteuert bearbeiten?
 
@@ -140,11 +140,11 @@ Durch die Integration von ActiveX-Steuerelementen in Ihre PowerPoint-Präsentati
 
  ausgelöst durch ActiveX-Steuerelemente?
 
-Sie können von ActiveX-Steuerelementen ausgelöste Ereignisse verarbeiten, indem Sie die entsprechenden Ereignisse mit abonnieren`EventClick` (oder ähnlicher) Event-Handler. Dadurch können Sie als Reaktion auf Benutzerinteraktionen mit dem Steuerelement bestimmte Aktionen ausführen.
+ Sie können von ActiveX-Steuerelementen ausgelöste Ereignisse verarbeiten, indem Sie die entsprechenden Ereignisse mit abonnieren`EventClick` (oder ähnlicher) Event-Handler. Dadurch können Sie als Reaktion auf Benutzerinteraktionen mit dem Steuerelement bestimmte Aktionen ausführen.
 
 ### Ist es möglich, das Erscheinungsbild von ActiveX-Steuerelementen anzupassen?
 
- Auf jeden Fall können Sie das Erscheinungsbild von ActiveX-Steuerelementen mithilfe von anpassen`SetProperty` Methode, die von Aspose.Slides für .NET bereitgestellt wird. Mit dieser Methode können Sie verschiedene Eigenschaften ändern, z. B. Hintergrundfarbe, Schriftstil und mehr.
+ Auf jeden Fall können Sie das Erscheinungsbild von ActiveX-Steuerelementen mithilfe von anpassen`SetProperty`Methode, die von Aspose.Slides für .NET bereitgestellt wird. Mit dieser Methode können Sie verschiedene Eigenschaften ändern, z. B. Hintergrundfarbe, Schriftstil und mehr.
 
 ### Kann ich ein ActiveX-Steuerelement von einer Folie entfernen?
 

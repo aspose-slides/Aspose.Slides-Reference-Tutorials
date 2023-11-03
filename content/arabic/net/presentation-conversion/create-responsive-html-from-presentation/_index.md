@@ -24,7 +24,7 @@ url: /ar/net/presentation-conversion/create-responsive-html-from-presentation/
 
 ## 4. تحميل العرض التقديمي
 
-في التعليمات البرمجية المصدر الخاصة بك، ستحتاج إلى تحديد موقع عرض PowerPoint التقديمي الخاص بك. يستبدل`"Your Document Directory"` مع المسار إلى ملف العرض التقديمي الخاص بك.
+ في التعليمات البرمجية المصدر الخاصة بك، ستحتاج إلى تحديد موقع عرض PowerPoint التقديمي الخاص بك. يستبدل`"Your Document Directory"` مع المسار إلى ملف العرض التقديمي الخاص بك.
 
 ```csharp
 string dataDir = "Your Document Directory";

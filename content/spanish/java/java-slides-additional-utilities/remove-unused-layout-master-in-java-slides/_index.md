@@ -32,7 +32,7 @@ Presentation pres = new Presentation(pptxFileName);
 
 ## Paso 2: identificar los maestros no utilizados
 
-Antes de eliminar los patrones de diseño no utilizados, es fundamental identificarlos. Puede hacer esto verificando la cantidad de diapositivas maestras en su presentación. Utilice el siguiente código para determinar el recuento de diapositivas maestras:
+Antes de eliminar los patrones de diseño no utilizados, es fundamental identificarlos. Puede hacerlo verificando la cantidad de diapositivas maestras en su presentación. Utilice el siguiente código para determinar el recuento de diapositivas maestras:
 
 ```java
 System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

@@ -47,7 +47,7 @@ class Program
 }
 ```
 
-## Lägga till en rektangelform på bilden
+## Lägga till en rektangelform till bilden
 
 Nu när vi har vår presentationsbild redo, låt oss fortsätta att lägga till en rektangelform till den.
 
@@ -89,7 +89,7 @@ presentation.Save("RectangleShapePresentation.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-den här guiden utforskade vi hur man skapar en enkel rektangelform i en presentationsbild med Aspose.Slides för .NET. Vi täckte de grundläggande stegen för att ställa in utvecklingsmiljön, skapa en ny presentation, lägga till en rektangelform, anpassa dess utseende och spara den slutliga presentationen. Med Aspose.Slides för .NET kan du enkelt automatisera och förbättra dina PowerPoint-presentationer och lägga till ett lager av dynamik och interaktivitet.
+I den här guiden utforskade vi hur man skapar en enkel rektangelform i en presentationsbild med Aspose.Slides för .NET. Vi täckte de grundläggande stegen för att ställa in utvecklingsmiljön, skapa en ny presentation, lägga till en rektangelform, anpassa dess utseende och spara den slutliga presentationen. Med Aspose.Slides för .NET kan du enkelt automatisera och förbättra dina PowerPoint-presentationer och lägga till ett lager av dynamik och interaktivitet.
 
 ## FAQ's
 
@@ -107,7 +107,7 @@ För att installera Aspose.Slides för .NET, följ dessa steg:
 
 ### Hur sparar jag presentationen efter att ha lagt till rektangelformen?
 
- Du kan spara presentationen med hjälp av`Save` metod för`Presentation`klass. Ange önskat filnamn och önskat sparaformat (t.ex`SaveFormat.Pptx`).
+Du kan spara presentationen med hjälp av`Save` metod för`Presentation` klass. Ange önskat filnamn och önskat sparaformat (t.ex`SaveFormat.Pptx`).
 
 ### Är Aspose.Slides för .NET endast lämplig för rektangelformer?
 

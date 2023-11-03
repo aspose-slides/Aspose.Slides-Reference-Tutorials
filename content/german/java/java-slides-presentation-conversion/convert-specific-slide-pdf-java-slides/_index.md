@@ -50,7 +50,7 @@ In diesem Code:
 
 - Wir geben den Pfad zum Verzeichnis an, das die Präsentationsdatei enthält (`SelectedSlides.pptx`), die Sie in PDF konvertieren möchten.
 
--  Wir erstellen ein`Presentation` Objekt, das die Präsentationsdatei darstellt.
+-  Wir erstellen eine`Presentation` Objekt, das die Präsentationsdatei darstellt.
 
 - Wir definieren eine Reihe von Folienpositionen, die Sie konvertieren möchten. In diesem Beispiel konvertieren wir Folien an den Positionen 1 und 3. Sie können dieses Array anpassen, um die spezifischen Folien auszuwählen, die Sie benötigen.
 

@@ -2,259 +2,132 @@
 title: إدارة الرأس والتذييل في الشرائح
 linktitle: إدارة الرأس والتذييل في الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إدارة الرؤوس والتذييلات في الشرائح باستخدام Aspose.Slides لـ .NET. قم بتخصيص العروض التقديمية الخاصة بك بكل سهولة ودقة.
+description: تعرف على كيفية إضافة رؤوس وتذييلات ديناميكية في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET.
 type: docs
 weight: 14
 url: /ar/net/chart-creation-and-customization/header-footer-manager/
 ---
 
-## مقدمة
+# إنشاء رؤوس وتذييلات ديناميكية في Aspose.Slides لـ .NET
 
-تعتبر الرؤوس والتذييلات مكونات أساسية للعرض التقديمي والتي توفر سياقًا أساسيًا، مثل رقم الشريحة والتاريخ وعنوان العرض التقديمي. من خلال استخدام Aspose.Slides for .NET، يمكنك بسهولة دمج هذه العناصر في شرائحك وتخصيصها وفقًا لاحتياجاتك.
+في عالم العروض التقديمية الديناميكية، يعد Aspose.Slides for .NET حليفك الموثوق به. تتيح لك هذه المكتبة القوية إنشاء عروض PowerPoint التقديمية الجذابة مع قدر كبير من التفاعل. إحدى الميزات الرئيسية هي القدرة على إضافة رؤوس وتذييلات ديناميكية، والتي يمكن أن تبث الحياة في شرائحك. في هذا الدليل التفصيلي، سنستكشف كيفية الاستفادة من Aspose.Slides لـ .NET لإضافة هذه العناصر الديناميكية إلى العرض التقديمي الخاص بك. لذا، دعونا نتعمق!
 
-## الشروع في العمل مع Aspose.Slides لـ .NET
+## المتطلبات الأساسية
 
-قبل أن نتعمق في تفاصيل إدارة الرؤوس والتذييلات، دعنا نتأكد أولاً من أن لديك الإعداد اللازم لبدء العمل مع Aspose.Slides for .NET. اتبع الخطوات التالية:
+قبل أن نبدأ، ستحتاج إلى بعض الأشياء:
 
-1.  التنزيل والتثبيت: قم بتنزيل مكتبة Aspose.Slides for .NET من موقع الويب[هنا](https://releases.aspose.com/slides/net) وتثبيته على بيئة التطوير الخاصة بك.
+1.  Aspose.Slides لـ .NET: يجب أن يكون Aspose.Slides لـ .NET مثبتًا لديك. إذا لم تكن قد قمت بذلك بالفعل، يمكنك العثور على المكتبة[هنا](https://releases.aspose.com/slides/net/).
 
-2. إنشاء مشروع جديد: افتح بيئة التطوير المتكاملة (IDE) المفضلة لديك وقم بإنشاء مشروع .NET جديد.
+2. المستند الخاص بك: يجب أن يكون لديك عرض PowerPoint التقديمي الذي تريد العمل عليه محفوظًا في دليلك المحلي. تأكد من أنك تعرف المسار إلى هذا المستند.
 
-3. إضافة مرجع: قم بإضافة مرجع إلى مكتبة Aspose.Slides for .NET في مشروعك.
+## استيراد مساحات الأسماء
+
+للبدء، تحتاج إلى استيراد مساحات الأسماء الضرورية إلى مشروعك. توفر مساحات الأسماء هذه الأدوات المطلوبة للعمل مع Aspose.Slides.
+
+### الخطوة 1: استيراد مساحات الأسماء
+
+في مشروع C# الخاص بك، قم بإضافة مساحات الأسماء التالية في أعلى ملف التعليمات البرمجية الخاص بك:
 
 ```csharp
 using Aspose.Slides;
+using Aspose.Slides.Export;
 ```
 
-## إضافة الرؤوس والتذييلات
+## إضافة رؤوس وتذييلات ديناميكية
 
-## رقم الشريحة
+الآن، دعنا نحلل عملية إضافة الرؤوس والتذييلات الديناميكية إلى عرض PowerPoint التقديمي الخاص بك خطوة بخطوة.
 
-تعد إضافة رقم شريحة إلى شرائحك طريقة فعالة لمساعدة جمهورك على متابعة تقدمهم. باستخدام Aspose.Slides، يمكن تحقيق ذلك ببضعة أسطر من التعليمات البرمجية:
+### الخطوة 2: قم بتحميل العرض التقديمي الخاص بك
+
+في هذه الخطوة، تحتاج إلى تحميل عرض PowerPoint التقديمي الخاص بك إلى مشروع C# الخاص بك.
 
 ```csharp
-using Aspose.Slides;
+string dataDir = "Your Document Directory";
 
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// تمكين أرقام الشرائح
-foreach (ISlide slide in presentation.Slides)
+using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
 {
-    slide.HeadersFooters.SlideNumberVisibility = true;
+    // سيتم وضع الكود الخاص بك لإدارة الرأس والتذييل هنا.
+    // ...
 }
-
-// احفظ العرض التقديمي المعدل
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
-## التاريخ و الوقت
+### الخطوة 3: الوصول إلى مدير الرأس والتذييل
 
-يمكن أن يوفر تضمين تاريخ ووقت إنشاء العرض التقديمي سياقًا إضافيًا. إليك كيفية إضافة التاريخ والوقت إلى الشرائح الخاصة بك:
+يوفر Aspose.Slides for .NET طريقة ملائمة لإدارة الرؤوس والتذييلات. يمكننا الوصول إلى مدير الرأس والتذييل للشريحة الأولى في العرض التقديمي الخاص بك.
 
 ```csharp
-using Aspose.Slides;
+IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
+```
 
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
+### الخطوة 4: ضبط رؤية التذييل
 
-// تمكين التاريخ والوقت
-foreach (ISlide slide in presentation.Slides)
+ للتحكم في رؤية العنصر النائب للتذييل، يمكنك استخدام`SetFooterVisibility` طريقة.
+
+```csharp
+if (!headerFooterManager.IsFooterVisible)
 {
-    slide.HeadersFooters.DateAndTimeVisibility = true;
+    headerFooterManager.SetFooterVisibility(true);
 }
-
-// احفظ العرض التقديمي المعدل
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
-## نص مخصص
+### الخطوة 5: ضبط رؤية رقم الشريحة
 
-في بعض الأحيان، قد ترغب في تضمين نص مخصص في الرأس أو التذييل. يمكن أن يكون هذا اسم شركتك أو تفاصيل الحدث أو أي معلومات أخرى ذات صلة:
+ وبالمثل، يمكنك التحكم في رؤية العنصر النائب لرقم صفحة الشريحة باستخدام`SetSlideNumberVisibility` طريقة.
 
 ```csharp
-using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// تعيين نص رأس وتذييل مخصص
-foreach (ISlide slide in presentation.Slides)
+if (!headerFooterManager.IsSlideNumberVisible)
 {
-    slide.HeadersFooters.HeaderText = "Your Custom Header Text";
-    slide.HeadersFooters.FooterText = "Your Custom Footer Text";
+    headerFooterManager.SetSlideNumberVisibility(true);
 }
-
-// احفظ العرض التقديمي المعدل
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
-## الخط واللون
+### الخطوة 6: ضبط رؤية التاريخ والوقت
 
-يتيح لك Aspose.Slides تخصيص خط ولون الرؤوس والتذييلات لتتناسب مع تصميم العرض التقديمي الخاص بك:
+ لتحديد ما إذا كان العنصر النائب للتاريخ والوقت مرئيًا، استخدم الخيار`IsDateTimeVisible`ملكية. إذا لم يكن مرئيًا، فيمكنك جعله مرئيًا باستخدام`SetDateTimeVisibility` طريقة.
 
 ```csharp
-using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// تخصيص الخط واللون
-foreach (ISlide slide in presentation.Slides)
+if (!headerFooterManager.IsDateTimeVisible)
 {
-    slide.HeadersFooters.TextFormat.PortionFormat.FontHeight = 18;
-    slide.HeadersFooters.TextFormat.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    headerFooterManager.SetDateTimeVisibility(true);
 }
-
-// احفظ العرض التقديمي المعدل
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
-## المحاذاة والموقف
+### الخطوة 7: تعيين نص التذييل والتاريخ والوقت
 
-يضمن التحكم في محاذاة الرؤوس والتذييلات وموضعها مظهرًا متسقًا عبر الشرائح:
+أخيرًا، يمكنك تعيين النص للعناصر النائبة للتذييل والتاريخ والوقت.
 
 ```csharp
-using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// محاذاة الرؤوس والتذييلات
-foreach (ISlide slide in presentation.Slides)
-{
-    slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;
-    slide.HeadersFooters.TextFormat.Position = HeaderFooterPosition.Bottom;
-}
-
-// احفظ العرض التقديمي المعدل
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
+headerFooterManager.SetFooterText("Footer text");
+headerFooterManager.SetDateTimeText("Date and time text");
 ```
 
-## التعامل مع تخطيطات الشرائح المختلفة
+### الخطوة 8: احفظ العرض التقديمي الخاص بك
 
-قد تحتوي الشرائح المختلفة على تخطيطات مختلفة، مثل شرائح العنوان أو شرائح المحتوى. يسمح لك Aspose.Slides بتخصيص الرؤوس والتذييلات لتخطيطات شرائح معينة:
+بعد إجراء كافة التغييرات اللازمة، احفظ العرض التقديمي المحدث.
 
 ```csharp
-using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// تخصيص الرؤوس والتذييلات لتخطيطات شرائح محددة
-foreach (ISlide slide in presentation.Slides)
-{
-    if (slide.LayoutSlide is TitleSlideLayout)
-    {
-        slide.HeadersFooters.HeaderText = "Title Slide Header";
-    }
-    else
-    {
-        slide.HeadersFooters.FooterText = "Content Slide Footer";
-    }
-}
-
-// احفظ العرض التقديمي المعدل
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
+presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 ```
-
-## قم بتمرير الرؤوس والتذييلات المحددة
-
-في بعض الحالات، قد تحتاج إلى رؤوس وتذييلات مختلفة للشرائح الفردية. Aspose.Slides يجعل هذا ممكنًا:
-
-```csharp
-using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// قم بتعيين الرؤوس والتذييلات الخاصة بالشريحة
-foreach (ISlide slide in presentation.Slides)
-{
-    if (slide.SlideNumber == 3)
-    {
-        slide.HeadersFooters.HeaderText = "Special Header for Slide 3";
-    }
-    else
-    {
-        slide.HeadersFooters.FooterText = "Common Footer Text";
-    }
-}
-
-// احفظ العرض التقديمي المعدل
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
-```
-
-## الشرائح الرئيسية
-
-توفر الشرائح الرئيسية قالبًا ثابتًا لعرضك التقديمي. يمكنك تطبيق الرؤوس والتذييلات على الشرائح الرئيسية لضمان الاتساق:
-
-```csharp
-using Aspose.Slides;
-
-
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// الوصول إلى الشريحة الرئيسية
-IMasterSlide masterSlide = presentation.Masters[0];
-
-// قم بتعيين الرؤوس والتذييلات على الشريحة الرئيسية
-masterSlide.HeadersFooters.HeaderText = "Master Slide Header";
-masterSlide.HeadersFooters.FooterText = "Master Slide Footer";
-
-// احفظ العرض التقديمي المعدل
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
-```
-
-## التصدير والمشاركة
-
-بمجرد قيامك بتخصيص الرؤوس والتذييلات، فقد حان الوقت لمشاركة العرض التقديمي الخاص بك مع الآخرين. يمكنك تصديره بسهولة إلى تنسيقات مختلفة باستخدام Aspose.Slides:
-
-```csharp
-using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// احفظ العرض التقديمي بتنسيقات مختلفة
-presentation.Save("presentation.pdf", SaveFormat.Pdf);
-presentation.Save("presentation.png", SaveFormat.Png);
-```
-
-## أفضل الممارسات للاستخدام الفعال للرأس والتذييل
-
-- اجعلها موجزة: يجب أن توفر الرؤوس والتذييلات المعلومات ذات الصلة دون إرباك الجمهور.
-
-- مسائل الاتساق: حافظ على نمط متسق عبر جميع الشرائح لتعزيز المظهر المرئي.
-
-- المراجعة والضبط: قم بمراجعة الرؤوس والتذييلات بانتظام لضمان الدقة والملاءمة.
-
-- تجنب الفوضى: لا تزدحم الشرائح بالمعلومات الزائدة في الرؤوس والتذييلات.
 
 ## خاتمة
 
-يمكن أن يؤدي دمج الرؤوس والتذييلات المصممة جيدًا إلى رفع جودة العروض التقديمية بشكل كبير. يوفر Aspose.Slides for .NET مجموعة أدوات شاملة لإدارة وتخصيص الرؤوس والتذييلات بسهولة، مما يتيح لك إنشاء عروض تقديمية مؤثرة تأسر جمهورك.
+تعد إضافة الرؤوس والتذييلات الديناميكية إلى عرض PowerPoint التقديمي أمرًا سهلاً مع Aspose.Slides for .NET. تعمل هذه الميزة على تحسين المظهر المرئي الشامل ونشر المعلومات لشرائحك، مما يجعلها أكثر جاذبية واحترافية.
 
-## الأسئلة الشائعة
+الآن، أنت مجهز بالمعرفة اللازمة للارتقاء بعروض PowerPoint التقديمية إلى المستوى التالي. لذا، تابع واجعل شرائحك أكثر ديناميكية وغنية بالمعلومات ومذهلة بصريًا!
 
-### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
+## الأسئلة المتداولة (الأسئلة الشائعة)
 
- يمكنك تنزيل Aspose.Slides for .NET من صفحة الإصدارات:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net).
+### س1: هل يعتبر Aspose.Slides for .NET مكتبة مجانية؟
+ ج1: Aspose.Slides لـ .NET ليس مجانيًا. يمكنك العثور على تفاصيل الأسعار والترخيص[هنا](https://purchase.aspose.com/buy).
 
-### هل Aspose.Slides متوافق مع تنسيقات الشرائح المختلفة؟
+### س2: هل يمكنني تجربة Aspose.Slides لـ .NET قبل الشراء؟
+ج2: نعم، يمكنك استكشاف النسخة التجريبية المجانية من Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/).
 
-نعم، يدعم Aspose.Slides مجموعة واسعة من تنسيقات الشرائح، بما في ذلك PowerPoint (.pptx) وPDF.
+### س3: أين يمكنني العثور على وثائق Aspose.Slides لـ .NET؟
+ ج3: يمكنك الوصول إلى الوثائق[هنا](https://reference.aspose.com/slides/net/).
 
-### هل يمكنني تخصيص الرؤوس والتذييلات لشرائح معينة؟
+### س4: كيف يمكنني الحصول على تراخيص مؤقتة لـ Aspose.Slides لـ .NET؟
+ ج4: يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
 
-قطعاً! يسمح لك Aspose.Slides بتخصيص الرؤوس والتذييلات على أساس كل شريحة، مما يمنحك التحكم الكامل في مظهر العرض التقديمي الخاص بك.
-
-### هل هناك نسخة تجريبية متاحة لـ Aspose.Slides؟
-
-نعم، يمكنك استكشاف مميزات Aspose.Slides عن طريق تنزيل النسخة التجريبية المجانية من الموقع.
-
-### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ .NET؟
-
- للحصول على وثائق وأمثلة مفصلة، راجع[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net).
+### س5: هل يوجد مجتمع أو منتدى دعم لـ Aspose.Slides for .NET؟
+ ج5: نعم، يمكنك زيارة منتدى دعم Aspose.Slides for .NET[هنا](https://forum.aspose.com/).

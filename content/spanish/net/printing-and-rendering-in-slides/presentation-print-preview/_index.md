@@ -116,7 +116,7 @@ En esta guía, cubrimos el proceso de uso de Aspose.Slides para .NET para obtene
 
 ### ¿Cómo puedo personalizar aún más la configuración de impresión?
 
- Puede explorar las diversas propiedades disponibles en el`PrintManager.Settings`objeto de ajustar la configuración de impresión de acuerdo con sus requisitos específicos. Ajuste parámetros como transiciones de diapositivas, escala y orientación de la página para lograr el resultado de impresión deseado.
+ Puede explorar las diversas propiedades disponibles en el`PrintManager.Settings`objeto de ajustar la configuración de impresión de acuerdo con sus requisitos específicos. Ajuste parámetros como las transiciones de diapositivas, la escala y la orientación de la página para lograr el resultado de impresión deseado.
 
 ### ¿Puedo obtener una vista previa de diapositivas específicas en lugar de la presentación completa?
 

@@ -1,150 +1,108 @@
 ---
-title: Makroları Kullanarak Köprü Yönetimi
+title: Aspose.Slides for .NET'te Makro Köprü Tıklaması Nasıl Ayarlanır
 linktitle: Makroları Kullanarak Köprü Yönetimi
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak sunumlardaki köprüleri etkili bir şekilde nasıl yöneteceğinizi öğrenin. Görevleri otomatikleştirin, etkileşimli menüler oluşturun ve kullanıcı etkileşimini artırın.
+description: Aspose.Slides for .NET ile sunumlarınızda makro köprüleri nasıl ayarlayacağınızı öğrenin. Etkileşimi artırın ve hedef kitlenizin ilgisini çekin.
 type: docs
 weight: 13
 url: /tr/net/hyperlink-manipulation/macro-hyperlink/
 ---
 
-## Köprü Yönetimine Giriş
+Modern yazılım geliştirme dünyasında dinamik ve etkileşimli sunumlar oluşturmak önemli bir husustur. Aspose.Slides for .NET, sunumlarla sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir kütüphanedir. İster bir iş sunumu ister eğitici bir slayt gösterisi oluşturuyor olun, makro köprü tıklamalarını ayarlama yeteneği, kullanıcı deneyimini büyük ölçüde geliştirebilir. Bu adım adım kılavuzda, Aspose.Slides for .NET'i kullanarak bir makro köprü tıklaması ayarlama sürecinde size yol göstereceğiz. 
 
-Aspose.Slides for .NET ile köprü yönetimine geçmeden önce, geliştirme ortamınızı kurmanız ve gerekli bileşenleri kurmanız çok önemlidir.
+## Önkoşullar
 
-## Geliştirme Ortamınızı Kurma
+Adım adım öğreticiye dalmadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
 
-Başlamak için sisteminizde uygun bir entegre geliştirme ortamının (IDE) kurulu olduğundan emin olun. Visual Studio, .NET geliştirme için popüler bir seçimdir.
+1.Visual Studio: Bilgisayarınızda Visual Studio'nun kurulu olduğundan emin olun, çünkü bu bizim geliştirme ortamımız olacaktır.
 
-## Aspose.Slides for .NET'i Yükleme
+ 2.Aspose.Slides for .NET: Aspose.Slides for .NET kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-Aspose.Slides for .NET, sunumlar ve slaytlarla çalışmayı kolaylaştıran güçlü bir kütüphanedir. Yüklemek için şu adımları izleyin:
+3.Temel C# Bilgisi: Bu eğitimle birlikte C# programlama diline aşina olmak çok önemlidir.
 
-1. Projenizi Visual Studio'da açın.
-2. "Araçlar" > "NuGet Paket Yöneticisi" > "Çözüm için NuGet Paketlerini Yönet" seçeneğine gidin.
-3. "Aspose.Slides"ı arayın ve paketi yükleyin.
+## Ad Alanlarını İçe Aktar
 
-Paket yüklendikten sonra sunumlarınızdaki köprüleri yönetmeye hazırsınız.
+İlk adımda Aspose.Slides ile çalışmak için gerekli ad alanlarını içe aktaralım:
 
-## Köprüler Oluşturma
-
-Sununuzdaki hem metne hem de nesnelere köprüler eklenebilir ve böylece kullanıcıların aynı sunum içindeki harici kaynaklara veya diğer slaytlara gitmesine olanak sağlanır.
-
-## Metin ve Nesnelere Köprüler Ekleme
-
-Metne veya nesneye köprü eklemek için:
-
-1. Köprü oluşturmak istediğiniz metni veya nesneyi tanımlayın.
-2.  Kullan`HyperlinkManager` Hedef URL'yi belirten bir köprü oluşturmak için sınıf.
+### 1. Adım: Ad Alanlarını İçe Aktarın
 
 ```csharp
-// Bir web sitesine köprü oluşturma
-HyperlinkManager.AddHyperlinkToText(slide, "Click here to visit our website", "https://www.example.com");
-
-// Sunudaki başka bir slayda köprü oluşturma
-HyperlinkManager.AddHyperlinkToSlide(slide, "Click here to go to Slide 2", slide2);
+using Aspose.Slides;
+using Aspose.Slides.Export;
 ```
 
-## Harici Web Sitelerine ve Kaynaklara Bağlantı Verme
+ Şunu içe aktardık:`Aspose.Slides` sunumlarla çalışmak için temel ad alanı olan ad alanı ve`Aspose.Slides.Export` ad alanı.
 
-Köprüler, kullanıcıları harici web sitelerine veya çevrimiçi kaynaklara yönlendirerek sunum içeriğiyle ilgili ek bilgiler sağlayabilir.
+## Makro Köprü Tıklamasını Ayarlama
 
-```csharp
-// Harici bir web sitesine bağlantı
-HyperlinkManager.AddHyperlinkToText(slide, "Learn more about our products", "https://www.example.com/products");
-```
+Şimdi bu eğitimin ana kısmına geçelim: sunumunuzda bir makro köprü tıklaması ayarlama.
 
-## Sunumdaki Diğer Slaytlara Gitme
+### Adım 2: Sunumu Başlatın
 
-Aynı sunumdaki slaytlar arasında gezinmek için köprüler de oluşturabilirsiniz.
+Öncelikle yeni bir sunum başlatmamız gerekiyor.
 
 ```csharp
-// Aynı sunudaki başka bir slayda bağlantı oluşturma
-HyperlinkManager.AddHyperlinkToSlide(slide, "Continue to the next section", nextSlide);
-```
-
-## Köprüleri Yönetme
-
-Sununuz geliştikçe mevcut köprüleri düzenlemeniz veya güncellemeniz gerekebilir. Aspose.Slides for .NET, köprü yönetimi için kullanışlı yöntemler sunar.
-
-## Köprüleri Düzenleme ve Güncelleme
-
-Mevcut bir köprüyü değiştirmek için:
-
-```csharp
-// Bir şekilden mevcut köprüyü alma
-Hyperlink hyperlink = HyperlinkManager.GetHyperlinkFromShape(shape);
-
-// Köprünün URL'sini güncelleyin
-hyperlink.Url = "https://www.güncellenmiş-link.com";
-```
-
-## Köprüleri Kaldırma
-
-Bir köprüyü kaldırmak basittir:
-
-```csharp
-// Şekilden köprüyü kaldırma
-HyperlinkManager.RemoveHyperlinkFromShape(shape);
-```
-
-## Toplu Köprü İşlemleri
-
-Köprüler üzerinde toplu işlemler gerçekleştirmek için:
-
-```csharp
-// Sunumdaki tüm köprüleri yineleyin
-foreach (Hyperlink hyperlink in HyperlinkManager.GetAllHyperlinks(presentation))
+using (Presentation presentation = new Presentation())
 {
-    // Her köprüde işlemler gerçekleştirin
+    // Kodunuz buraya gelecek.
 }
 ```
 
-## Makrolarla Köprü Yönetimini Otomatikleştirme
+Bu kullanma deyimi içerisinde yeni bir sunum nesnesi oluşturup içindeki tüm işlemlerinizi gerçekleştiriyorsunuz.
 
-Makrolar, köprü yönetimi görevlerini otomatikleştirmenin güçlü bir yolunu sağlar. Aspose.Slides for .NET'i kullanarak köprüleri yönetmek için makroları nasıl yazabileceğinizi burada bulabilirsiniz.
+### 3. Adım: Otomatik Şekil ekleyin
 
-## Aspose.Slides'ta Makrolara Giriş
-
-Makrolar, belirli olaylara yanıt olarak belirli eylemleri gerçekleştiren komut dosyalarıdır. Aspose.Slides'ta makrolar, köprü oluşturma, değiştirme ve kaldırma gibi görevleri otomatikleştirmek için kullanılabilir.
-
-## Köprüleri Yönetmek için Makrolar Yazma
-
-Burada bir köprünün URL'sini güncelleyen basit bir makro örneği verilmiştir:
+Bir makro köprü tıklamasını ayarlamak için kullanıcının tıklayabileceği bir nesneye ihtiyacınız olacaktır. Bu örnekte tıklanabilir öğe olarak Otomatik Şekil kullanacağız.
 
 ```csharp
-// Makro olayını tanımlayın
-presentation.Macros.Add(MacroEventType.HyperlinkClick, new UpdateHyperlinkMacro());
-
-// Makro sınıfını oluşturun
-public class UpdateHyperlinkMacro : ISlideHyperlinkClickHandler
-{
-    public void HandleHyperlinkClick(SlideHyperlinkClickEventArgs args)
-    {
-        Hyperlink hyperlink = args.Hyperlink;
-        hyperlink.Url = "https://www.güncellenmiş-link.com";
-    }
-}
+IAutoShape shape = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.BlankButton, 20, 20, 80, 30);
 ```
+
+Burada "BlankButton" tipinde belirli koordinatlarda (20, 20) ve 80x30 boyutlarında bir Otomatik Şekil oluşturuyoruz. Bu değerleri sununuzun düzenine uyacak şekilde özelleştirebilirsiniz.
+
+### Adım 4: Makro Köprü Tıklamasını Ayarlayın
+
+Şimdi makro köprü tıklamasını ayarlayacağınız kısım geliyor. Parametre olarak bir makro adı sağlamanız gerekir.
+
+```csharp
+string macroName = "TestMacro";
+shape.HyperlinkManager.SetMacroHyperlinkClick(macroName);
+```
+
+Bu örnekte makro köprü tıklamasını "TestMacro" olarak ayarladık. Kullanıcı Otomatik Şekil'e tıkladığında bu makroyu tetikleyecektir.
+
+### Adım 5: Bilgileri Alın
+
+Ayrıca ayarladığınız köprüyle ilgili bilgileri de alabilirsiniz.
+
+```csharp
+Console.WriteLine("External URL is {0}", shape.HyperlinkClick.ExternalUrl);
+Console.WriteLine("Shape action type is {0}", shape.HyperlinkClick.ActionType);
+```
+
+Bu kod satırları, harici URL'yi ve köprünün eylem türünü yazdırmanıza olanak tanır.
+
+Ve bu kadar! Aspose.Slides for .NET kullanarak sunumunuzda makro köprü tıklamasını başarıyla ayarladınız.
 
 ## Çözüm
 
-Aspose.Slides for .NET kullanarak sunumlarınıza hiperlinkler eklemek, kullanıcı katılımını ve gezinmeyi önemli ölçüde artırabilir. İster harici kaynaklara bağlanıyor ister etkileşimli menüler oluşturuyor olun, etkili köprü yönetimi, hedef kitleniz için kusursuz bir deneyim sağlar.
+Bu eğitimde, Aspose.Slides for .NET'i kullanarak sunumunuzda makro köprü tıklamasını nasıl ayarlayacağınızı öğrendik. Bu, hedef kitlenizin ilgisini çekecek etkileşimli ve dinamik sunumlar oluşturmak için değerli bir özellik olabilir. Aspose.Slides for .NET ile sunum gelişiminizi bir sonraki seviyeye taşıyacak güçlü bir araca sahipsiniz.
 
-## SSS'ler
+ Artık denemeler yapıp özel makro köprülerle büyüleyici sunumlar oluşturmanın zamanı geldi. Keşfetmekten çekinmeyin[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/) Daha ayrıntılı bilgi ve olasılıklar için.
 
-### Köprüleri kullanarak belirli bir slayt görünümüne bağlantı verebilir miyim?
+## SSS (Sık Sorulan Sorular)
 
-Evet, kullanıcıları ilk slayt, son slayt veya özel slayt dizini gibi belirli bir slayt görünümüne yönlendirmek için köprüleri kullanabilirsiniz.
+### Aspose.Slides for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
+Aspose.Slides öncelikle .NET için tasarlanmıştır ancak Aspose, Java gibi diğer programlama dilleri için de benzer kütüphaneler sunar.
 
-### Sunumumdaki köprülere stil vermek mümkün mü?
+### Aspose.Slides for .NET ücretsiz bir kütüphane midir?
+Aspose.Slides for .NET, ücretsiz deneme sürümü bulunan ticari bir kütüphanedir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/).
 
-Kesinlikle! Köprüleri görsel olarak çekici hale getirmek için yazı tipini, rengini ve alt çizgi özelliklerini değiştirerek bunlara stil verebilirsiniz.
+### Aspose.Slides for .NET ile oluşturulan sunumlarda makro kullanmanın herhangi bir sınırlaması var mı?
+Aspose.Slides for .NET makrolarla çalışmanıza olanak tanır, ancak sunumlarda makroları kullanırken güvenlik ve uyumluluk hususlarının farkında olmalısınız.
 
-### Sunumumdaki diğer görevleri otomatikleştirmek için makroları kullanabilir miyim?
+### Köprü için kullanılan Otomatik Şekil'in görünümünü özelleştirebilir miyim?
+Evet, boyut, renk ve yazı tipi gibi özelliklerini ayarlayarak Otomatik Şekil'in görünümünü özelleştirebilirsiniz.
 
-Evet, makrolar köprü yönetiminin ötesinde slayt geçişleri, içerik biçimlendirme ve daha fazlası gibi çeşitli görevleri otomatikleştirebilir.
-
-### Aspose.Slides for .NET hakkında daha fazla bilgiyi nereden edinebilirim?
-
- Daha ayrıntılı bilgi ve örnekler için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net).
+### Aspose.Slides for .NET için nereden yardım veya destek alabilirim?
+ Sorunlarla karşılaşırsanız veya sorularınız varsa Aspose destek forumundan yardım alabilirsiniz.[Burada](https://forum.aspose.com/).

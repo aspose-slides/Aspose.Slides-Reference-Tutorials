@@ -1,116 +1,108 @@
 ---
-title: Ajouter un lien hypertexte à la diapositive
+title: Ajout d'hyperliens vers des diapositives dans .NET à l'aide d'Aspose.Slides
 linktitle: Ajouter un lien hypertexte à la diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment ajouter des liens hypertexte aux diapositives dans PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez les présentations avec du contenu interactif.
+description: Découvrez comment ajouter des hyperliens aux diapositives PowerPoint avec Aspose.Slides pour .NET. Améliorez vos présentations avec des éléments interactifs.
 type: docs
 weight: 12
 url: /fr/net/hyperlink-manipulation/add-hyperlink/
 ---
 
-## Introduction à Aspose.Slides pour .NET
-
-Aspose.Slides for .NET est une bibliothèque complète qui permet aux développeurs de créer, modifier et manipuler des présentations PowerPoint sans recourir à Microsoft Office. Il offre un large éventail de fonctionnalités, notamment l'ajout et la gestion d'hyperliens dans les diapositives.
+Dans le monde des présentations numériques, l’interactivité est essentielle. L'ajout d'hyperliens à vos diapositives peut rendre votre présentation plus attrayante et informative. Aspose.Slides pour .NET est une bibliothèque puissante qui vous permet de créer, modifier et manipuler des présentations PowerPoint par programme. Dans ce didacticiel, nous allons vous montrer comment ajouter des hyperliens à vos diapositives à l'aide d'Aspose.Slides pour .NET. 
 
 ## Conditions préalables
 
-Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
+Avant de commencer à ajouter des hyperliens aux diapositives, assurez-vous que les conditions préalables suivantes sont remplies :
 
-- Visual Studio installé sur votre système.
--  Aspose.Slides pour la bibliothèque .NET. Vous pouvez le télécharger depuis[ici](https://downloads.aspose.com/slides/net).
+1. Visual Studio : Visual Studio doit être installé sur votre ordinateur pour écrire et exécuter le code .NET.
 
-## Ajouter un lien hypertexte à un texte dans une diapositive
+2. Aspose.Slides pour .NET : vous devez avoir installé la bibliothèque Aspose.Slides pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
 
-1. Créez un nouveau projet C# dans Visual Studio.
-2. Ajoutez une référence à la DLL Aspose.Slides dans votre projet.
-3. Utilisez le code suivant pour ajouter un lien hypertexte vers un texte dans une diapositive :
+3. Connaissances de base en C# : Une connaissance de la programmation C# sera bénéfique.
 
-```csharp
-using Aspose.Slides;
+## Importer des espaces de noms
 
-// Charger la présentation
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Accéder à une diapositive
-ISlide slide = presentation.Slides[0];
-
-// Accéder à une zone de texte
-ITextFrame textFrame = slide.Shapes[0] as ITextFrame;
-
-// Ajouter une partie de texte avec un lien hypertexte
-textFrame.Paragraphs[0].Portions[0].Text = "Visit our website!";
-textFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new HyperlinkInfo("https://www.exemple.com", HyperlinkAction.MouseClick);
-```
-
-## Ajout d'un lien hypertexte à une forme dans une diapositive
-
-1. Suivez les étapes ci-dessus pour créer un nouveau projet C# et ajouter la référence Aspose.Slides.
-2. Utilisez le code suivant pour ajouter un lien hypertexte vers une forme dans une diapositive :
+Pour commencer, vous devez importer les espaces de noms nécessaires dans votre projet C#. Dans ce cas, vous aurez besoin des espaces de noms suivants de la bibliothèque Aspose.Slides :
 
 ```csharp
 using Aspose.Slides;
-
-// Charger la présentation
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Accéder à une diapositive
-ISlide slide = presentation.Slides[0];
-
-// Accéder à une forme
-IShape shape = slide.Shapes[1];
-
-// Ajouter un lien hypertexte à la forme
-shape.HyperlinkClick = new HyperlinkInfo("https://www.exemple.com", HyperlinkAction.MouseClick);
+using Aspose.Slides.Export;
 ```
 
-## Ajout d'un lien hypertexte à une diapositive
+Maintenant, décomposons le processus d'ajout de liens hypertexte aux diapositives en plusieurs étapes.
 
-1. Suivez les étapes initiales pour configurer votre projet C# et référencer la bibliothèque Aspose.Slides.
-2. Utilisez le code suivant pour ajouter un lien hypertexte à une diapositive :
+## Étape 1 : initialiser la présentation
+
+Tout d’abord, créez une nouvelle présentation à l’aide d’Aspose.Slides. Voici comment procéder :
 
 ```csharp
-using Aspose.Slides;
-
-// Charger la présentation
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Accéder à une diapositive
-ISlide slide = presentation.Slides[2];
-
-// Ajouter un lien hypertexte à la diapositive
-slide.HyperlinkClick = new HyperlinkInfo("https://www.exemple.com", HyperlinkAction.MouseClick);
+using (Presentation presentation = new Presentation())
+{
+    // Votre code va ici
+}
 ```
 
-## Ajout de liens hypertextes externes
+Ce code initialise une nouvelle présentation PowerPoint.
 
-Outre les hyperliens internes, vous pouvez également ajouter des hyperliens externes à vos diapositives. Utilisez la même approche que ci-dessus, mais fournissez l’URL externe comme cible du lien hypertexte.
+## Étape 2 : Ajouter un cadre de texte
 
-## Modification et suppression des hyperliens
+Maintenant, ajoutons un cadre de texte à votre diapositive. Ce cadre de texte servira d’élément cliquable dans votre diapositive. 
 
-Pour modifier un lien hypertexte existant ou le supprimer, vous pouvez accéder aux propriétés du lien hypertexte de l'élément de diapositive concerné et apporter les modifications nécessaires.
+```csharp
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
+```
+
+Le code ci-dessus crée une forme automatique rectangulaire et ajoute un cadre de texte avec le texte « Aspose : API de format de fichier ».
+
+## Étape 3 : ajouter un lien hypertexte
+
+Ensuite, ajoutons un lien hypertexte vers le bloc de texte que vous avez créé. Cela rendra le texte cliquable.
+
+```csharp
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
+```
+
+Dans cette étape, nous définissons l'URL du lien hypertexte sur « https://www.aspose.com/ » et fournissons une info-bulle pour des informations supplémentaires. Vous pouvez également formater l'apparence du lien hypertexte, comme indiqué ci-dessus.
+
+## Étape 4 : Enregistrer la présentation
+
+Enfin, enregistrez votre présentation avec le lien hypertexte ajouté.
+
+```csharp
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
+```
+
+Ce code enregistre la présentation sous le nom « présentation-out.pptx ».
+
+Vous avez maintenant ajouté avec succès un lien hypertexte à une diapositive à l’aide d’Aspose.Slides pour .NET.
 
 ## Conclusion
 
-L'ajout d'hyperliens aux diapositives à l'aide d'Aspose.Slides pour .NET est un processus simple qui peut considérablement améliorer l'interactivité de vos présentations. Que vous souhaitiez créer des liens vers des ressources externes ou créer une navigation dans vos diapositives, Aspose.Slides fournit les outils dont vous avez besoin pour réaliser ces tâches efficacement.
+Dans ce didacticiel, nous avons expliqué comment ajouter des hyperliens vers des diapositives dans des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. En suivant ces étapes, vous pouvez rendre vos présentations plus interactives et attrayantes, en fournissant des liens précieux vers des ressources ou des informations supplémentaires.
+
+ Pour des informations et une documentation plus détaillées, visitez le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
 
 ## FAQ
 
-### Comment supprimer un lien hypertexte d’une partie de texte ?
+### 1. Puis-je ajouter des hyperliens vers d’autres formes en plus des blocs de texte ?
 
- Pour supprimer un lien hypertexte d'une partie de texte, vous pouvez simplement définir le`HyperlinkClick` propriété à`null` pour cette partie.
+Oui, vous pouvez ajouter des hyperliens vers diverses formes telles que des rectangles, des images, etc. à l'aide d'Aspose.Slides pour .NET.
 
-### Puis-je ajouter des hyperliens vers des formes autres que des zones de texte ?
+### 2. Comment puis-je supprimer un lien hypertexte d’une forme dans une diapositive PowerPoint ?
 
-Oui, vous pouvez ajouter des hyperliens vers diverses formes, notamment des images et des formes personnalisées, à l'aide de l'outil`HyperlinkClick` propriété.
+ Vous pouvez supprimer un lien hypertexte d'une forme en définissant l'option`HyperlinkClick` propriété à`null`.
 
-### Aspose.Slides est-il compatible avec différents formats PowerPoint ?
+### 3. Puis-je modifier l'URL du lien hypertexte de manière dynamique dans mon code ?
 
-Oui, Aspose.Slides prend en charge divers formats PowerPoint, notamment PPTX, PPT, etc.
+ Absolument! Vous pouvez mettre à jour l'URL d'un lien hypertexte à tout moment dans votre code en modifiant le`Hyperlink` propriété.
 
-### Comment puis-je tester les hyperliens dans ma présentation ?
+### 4. Quels autres éléments interactifs puis-je ajouter aux diapositives PowerPoint à l'aide d'Aspose.Slides ?
 
-Vous pouvez exécuter la présentation dans une visionneuse ou un éditeur PowerPoint pour tester la fonctionnalité des hyperliens.
+Aspose.Slides offre une large gamme de fonctionnalités interactives, notamment des boutons d'action, des éléments multimédias et des animations.
 
-### Où puis-je télécharger la bibliothèque Aspose.Slides pour .NET ?
+### 5. Aspose.Slides est-il disponible pour d’autres langages de programmation ?
 
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET depuis le site Web Aspose :[Téléchargez Aspose.Slides pour .NET](https://releases.aspose.com/slides/net).
+Oui, Aspose.Slides est disponible pour différents langages de programmation, notamment Java et Python.

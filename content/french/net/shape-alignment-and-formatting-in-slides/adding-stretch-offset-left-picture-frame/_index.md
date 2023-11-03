@@ -91,7 +91,7 @@ Pour tester l'application, procédez comme suit :
 
 ## Conclusion
 
-Dans ce didacticiel, vous avez appris à ajouter un décalage d'étirement vers la gauche pour un cadre photo dans Aspose.Slides à l'aide de .NET. Aspose.Slides for .NET fournit un ensemble d'outils puissants pour manipuler par programmation les présentations PowerPoint, permettant aux développeurs de créer des diaporamas dynamiques et personnalisés de manière transparente.
+Dans ce didacticiel, vous avez appris à ajouter un décalage d'étirement vers la gauche pour un cadre photo dans Aspose.Slides à l'aide de .NET. Aspose.Slides pour .NET fournit un ensemble d'outils puissants pour manipuler par programmation les présentations PowerPoint, permettant aux développeurs de créer des diaporamas dynamiques et personnalisés de manière transparente.
 
 ## FAQ
 

@@ -112,4 +112,4 @@ Aspose.Slides for .NET هي مكتبة .NET للعمل مع عروض PowerPoint 
 5. ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
  يمكنك العثور على الدعم والمناقشات المجتمعية[هنا](https://forum.aspose.com/).
 
-لمزيد من الدروس والموارد، قم بزيارة[وثائق Aspose.Slides API](https://reference.aspose.com/slides/net/).
+ لمزيد من الدروس والموارد، قم بزيارة[وثائق Aspose.Slides API](https://reference.aspose.com/slides/net/).

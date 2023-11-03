@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 // Yeni slaytlar ekle
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-//Gerektiğinde daha fazla slayt ekleyin
+// Gerektiğinde daha fazla slayt ekleyin
 ```
 
 ### Ok Şekilli Çizgiler Ekleme

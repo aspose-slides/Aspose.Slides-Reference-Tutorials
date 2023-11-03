@@ -2,174 +2,122 @@
 title: Aspose.Slides'ta Hyperlink Manipülasyonu
 linktitle: Aspose.Slides'ta Hyperlink Manipülasyonu
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarını köprülerle nasıl geliştireceğinizi öğrenin. Etkileşimli içeriği sorunsuz bir şekilde oluşturun, değiştirin ve yönetin.
+description: Aspose.Slides for .NET'te köprüleri nasıl ekleyip kaldıracağınızı öğrenin. Sunumlarınızı etkileşimli bağlantılarla kolayca geliştirin.
 type: docs
 weight: 10
 url: /tr/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
 
-## Köprü Manipülasyonuna Giriş
+Köprüler, slaytlar arasında gezinmek veya dış kaynaklara erişmek için uygun bir yol sağladıklarından sunumların temel öğeleridir. Aspose.Slides for .NET, sunum slaytlarınıza köprü eklemek ve kaldırmak için güçlü özellikler sunar. Bu eğitimde Aspose.Slides for .NET'i kullanarak köprü manipülasyonu sürecinde size rehberlik edeceğiz. Slayta köprü eklemeyi ve slayttan köprüleri kaldırmayı ele alacağız. O halde hadi dalalım!
 
-Köprüler slaytları, belgeleri, web sayfalarını ve daha fazlasını birbirine bağlayarak sunumları zenginleştirir. İzleyicinin katılımını artıran etkileşimli bir deneyim sağlarlar. Aspose.Slides for .NET, köprüleri programlı olarak yönetmek için kapsamlı işlevsellik sunarak sunumunuzun navigasyonu üzerinde tam kontrol sahibi olmanızı sağlar.
+## Önkoşullar
 
-## Slaytlarda Köprüleri Ayarlama
+Başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
- Köprüler oluşturmak için Aspose.Slides for .NET'i kullanabilirsiniz.`HyperlinkManager` sınıf. Bu sınıf, slaytlarınızdaki belirli şekillere veya metinlere çeşitli türlerde köprüler eklemenize olanak tanır.
+1.  Aspose.Slides for .NET: Aspose.Slides for .NET kütüphanesini kurmuş ve kurmuş olmanız gerekir. Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/slides/net/) ve şuradan indirin[bu bağlantı](https://releases.aspose.com/slides/net/).
 
-```csharp
-// Bir şekle köprü eklemek için kod örneği
-HyperlinkManager.AddHyperlinkToShape(shape, "https://www.example.com", "Web sitemizi ziyaret edin");
-```
+2. Doküman Dizininiz: Sunum dosyalarınızı saklayacağınız bir dizine ihtiyacınız var. Kodunuzda bu dizinin yolunu belirttiğinizden emin olun.
 
-## Köprüleri Değiştirme
+3. Temel C# Bilgisi: Bu eğitimde, C# programlama konusunda temel bir anlayışa sahip olduğunuz varsayılmaktadır.
 
-Aspose.Slides for .NET'i kullanarak mevcut köprüleri kolayca değiştirebilirsiniz. Bu, hedef URL'yi güncellemeniz veya köprünün metnini değiştirmeniz gerektiğinde kullanışlıdır.
+Artık önkoşullarınızı yerine getirdiğinize göre, Aspose.Slides for .NET kullanarak köprü manipülasyonu için adım adım kılavuza geçelim.
 
-```csharp
-// Köprünün URL'sini değiştirmek için kod örneği
-HyperlinkManager.ModifyHyperlinkUrl(shape, "https://yeniurl.com");
-```
+## Slayta Köprü Ekleme
 
-## Köprüleri Kaldırma
+### 1. Adım: Sunumu Başlatın
 
-Bir şekilden bir köprüyü kaldırmak istiyorsanız Aspose.Slides for .NET bunu yapmak için basit bir yöntem sunar.
+Başlamak için Aspose.Slides'ı kullanarak bir sunum başlatmanız gerekir. Bunu aşağıdaki kodla yapabilirsiniz:
 
 ```csharp
-// Bir şekilden köprüyü kaldırmak için kod örneği
-HyperlinkManager.RemoveHyperlink(shape);
+using (Presentation presentation = new Presentation())
+{
+    // Kodunuz burada
+}
 ```
 
-## Bağlantı Noktalarıyla Çalışmak
+### 2. Adım: Metin Çerçevesi Ekle
 
-Slaytlardaki köprülerle uğraşırken bağlantı noktaları çok önemlidir. Hedef slaytta köprünün işaret ettiği konumu belirlerler.
+Şimdi slayta bir metin çerçevesi ekleyelim. Bu kod, metin içeren dikdörtgen bir şekil oluşturur:
 
 ```csharp
-// Köprü için bağlantı noktası ayarlamaya yönelik kod örneği
-HyperlinkManager.SetHyperlinkAnchor(shape, targetSlide, anchorX, anchorY);
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
 ```
 
-## Farklı Köprü Türlerini Kullanma
+### 3. Adım: Köprü Ekleme
 
-Aspose.Slides for .NET, URL bağlantıları, dahili belge bağlantıları, e-posta adreslerine bağlantılar ve daha fazlası dahil olmak üzere çeşitli köprü türlerini destekler.
+Daha sonra, oluşturduğunuz şekildeki metne bir köprü ekleyeceksiniz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
-// E-posta köprüsü eklemek için kod örneği
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-## Köprülere Araç İpuçları Ekleme
+### Adım 4: Sunuyu Kaydet
 
-Araç ipuçları, kullanıcılar köprülerin üzerine geldiğinde ek bilgiler sağlar. Aspose.Slides for .NET, köprüleriniz için araç ipuçlarını ayarlamanıza olanak tanır.
+Son olarak, eklenen köprüyle sununuzu kaydedin:
 
 ```csharp
-// Köprüye araç ipucu eklemek için kod örneği
-HyperlinkManager.AddHyperlinkWithTooltip(shape, "https://www.example.com", "Web sitemizi ziyaret edin", "Keşfetmek için tıklayın");
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 ```
 
-## Dış Köprüleri Yönetme
+Tebrikler! Aspose.Slides for .NET'i kullanarak bir slayda başarıyla köprü eklediniz.
 
-Ayrıca Aspose.Slides for .NET'i kullanarak harici köprüleri yönetebilir, sunumlarınızın ilgili çevrimiçi kaynaklara bağlı kalmasını sağlayabilirsiniz.
+## Slayttaki Köprüleri Kaldırma
+
+### 1. Adım: Sunumu Başlatın
+
+Bir slayttaki köprüleri kaldırmak için mevcut bir sunuyu açmanız gerekir:
 
 ```csharp
-// Bir web tarayıcısında köprü açmak için kod örneği
-HyperlinkManager.OpenHyperlinkInBrowser(shape);
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## Ana Slaytlardaki Köprüler
+### Adım 2: Köprüleri Kaldır
 
-Ana slaytlar genellikle yinelenen öğeler içerir. Aspose.Slides for .NET, ana slaytlara köprüler uygulamanıza olanak tanıyarak sunumunuz genelinde tutarlılık sağlar.
+Şimdi aşağıdaki kodu kullanarak sunumdaki tüm köprüleri kaldırın:
 
 ```csharp
-// Ana slaytta köprü ayarlamak için kod örneği
-HyperlinkManager.SetHyperlinkInMasterSlide(masterSlide, "https://www.example.com", "Web sitemizi ziyaret edin");
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## Köprü Bilgilerini Çıkarma
+### 3. Adım: Sunuyu Kaydet
 
-Aspose.Slides for .NET'i kullanarak mevcut köprülerden bilgi çıkarabilirsiniz; bu, analiz veya raporlama amacıyla yararlı olabilir.
+Köprüleri kaldırdıktan sonra sunuyu kaydedin:
 
 ```csharp
-// Köprü bilgilerini ayıklamak için kod örneği
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-## Görüntülere ve Şekillere Köprüler Ekleme
+Ve bu kadar! Aspose.Slides for .NET'i kullanarak bir slayttaki köprüleri başarıyla kaldırdınız.
 
-Köprüler yalnızca metne değil aynı zamanda slaytlarınızdaki resimlere ve şekillere de eklenebilir.
+Sonuç olarak Aspose.Slides for .NET, sunumlarınızdaki köprüleri yönetmenin etkili bir yolunu sunarak etkileşimli ve ilgi çekici slaytlar oluşturmanıza olanak tanır. İster harici kaynaklara köprüler eklemek ister bunları kaldırmak isteyin, Aspose.Slides süreci basitleştirir ve sunum oluşturma becerilerinizi geliştirir.
 
-```csharp
-// Bir resme köprü eklemek için kod örneği
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Daha fazla bilgi edinmek için resme tıklayın");
-```
+ Aspose.Slides for .NET'te köprü manipülasyonu hakkındaki bu eğitimde bize katıldığınız için teşekkür ederiz. Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, araştırmaktan çekinmeyin.[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) veya Aspose topluluğuna şu adresten ulaşın:[destek Forumu](https://forum.aspose.com/).
 
-## E-posta Adreslerine ve Telefon Numaralarına Bağlantı Verme
-
-Aspose.Slides for .NET, tıklandığında e-posta oluşturmayı tetikleyen veya telefon çağrıları başlatan köprüler oluşturmanıza olanak tanır.
-
-```csharp
-// E-posta köprüsü oluşturmak için kod örneği
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
-
-// Telefon numarası köprüsü oluşturmak için kod örneği
-HyperlinkManager.AddPhoneHyperlink(shape, "+1234567890", "Call our support");
-```
-
-## Köprü Biçimlendirmesi
-
-Köprüleri normal metin veya şekillerden görsel olarak farklı kılmak için bunlara biçimlendirme uygulayabilirsiniz.
-
-```csharp
-// Köprünün görünümünü biçimlendirmek için kod örneği
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-## API aracılığıyla Köprüler Ekleme
-
-Aspose.Slides for .NET, köprü manipülasyonu için güçlü bir API sağlar. Bu özellikleri uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
-
-```csharp
-// API aracılığıyla köprü eklemek için kod örneği
-HyperlinkManager.AddHyperlink(shape, HyperlinkType.Url, "https://www.example.com");
-```
+---
 
 ## Çözüm
 
-Aspose.Slides for .NET kullanarak köprü manipülasyonu, PowerPoint sunumlarınızın etkileşimini ve etkileşimini geliştirmek için kapsamlı bir araç seti sunar. Köprü oluşturma, değiştirme ve yönetme yeteneği sayesinde izleyicilerinizi büyüleyen dinamik ve bilgilendirici slayt gösterileri oluşturabilirsiniz.
+Bu eğitimde Aspose.Slides for .NET kullanarak sunumlardaki köprüleri nasıl değiştireceğimizi öğrendik. Dinamik ve etkileşimli sunumlar oluşturmanıza olanak sağlayacak şekilde köprülerin eklenmesini ve kaldırılmasını ele aldık. Aspose.Slides süreci basitleştirerek slaytlarınızı harici kaynaklara köprülerle geliştirmenizi kolaylaştırır.
 
-## SSS'ler
+Aspose.Slides ile çalışma veya sunum tasarımının diğer yönleri hakkında başka sorularınız mı var? Daha fazla bilgi için aşağıdaki SSS'lere göz atın.
 
-### Bir şekildeki köprüyü nasıl kaldırabilirim?
+## SSS (Sık Sorulan Sorular)
 
-Bir şekilden köprüyü kaldırmak için aşağıdaki kodu kullanabilirsiniz:
+### Aspose.Slides for .NET'i kullanmanın temel avantajları nelerdir?
+Aspose.Slides for .NET, sunum oluşturmak, düzenlemek ve dönüştürmek için çok çeşitli özellikler sunar. Slaytlarınıza içerik, animasyon ve etkileşim eklemek için kapsamlı bir araç seti sağlar.
 
-```csharp
-HyperlinkManager.RemoveHyperlink(shape);
-```
+### Aspose.Slides'ta metin dışındaki nesnelere köprüler ekleyebilir miyim?
+Evet, Aspose.Slides şekiller, resimler ve metinler de dahil olmak üzere çeşitli nesnelere köprüler eklemenize olanak tanıyarak etkileşimli sunumlar oluşturmada size esneklik sağlar.
 
-### Slaytlarımdaki resimlere köprüler uygulayabilir miyim?
+### Aspose.Slides farklı PowerPoint dosya formatlarıyla uyumlu mu?
+Kesinlikle. Aspose.Slides, PPT, PPTX, PPS ve daha fazlası dahil olmak üzere çeşitli PowerPoint formatlarını destekler. Microsoft PowerPoint'in farklı sürümleriyle uyumluluk sağlar.
 
-Evet, Aspose.Slides for .NET'i kullanarak slaytlarınızdaki görsellere ve şekillere köprüler ekleyebilirsiniz. Örneğin:
+### Aspose.Slides için ek kaynakları ve desteği nerede bulabilirim?
+Ayrıntılı belgeler ve topluluk desteği için şu adresi ziyaret edin:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) ve[Aspose destek forumu](https://forum.aspose.com/).
 
-```csharp
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Daha fazla bilgi edinmek için resme tıklayın");
-```
-
-### Bir köprünün görünümünü biçimlendirmek mümkün mü?
-
-Kesinlikle! Aspose.Slides for .NET'i kullanarak bir köprünün görünümünü biçimlendirebilirsiniz. İşte bir örnek:
-
-```csharp
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-### Mevcut bir köprüden nasıl bilgi çıkarabilirim?
-
-Aşağıdaki yaklaşımı kullanarak mevcut bir köprüden bilgi çıkarabilirsiniz:
-
-```csharp
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
-```
-
-### Aspose.Slides for .NET hakkında daha ayrıntılı belgelere nereden ulaşabilirim?
-
-Daha detaylı bilgi ve kod örnekleri için bkz.[dokümantasyon](https://reference.aspose.com/slides/net/) Aspose.Slides for .NET için.
+### Aspose.Slides için nasıl geçici lisans alabilirim?
+ Aspose.Slides için geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

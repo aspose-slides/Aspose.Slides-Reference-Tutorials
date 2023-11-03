@@ -1,193 +1,150 @@
 ---
-title: Funzionalità aggiuntive del grafico in Aspose.Slides
+title: Esplorazione delle funzionalità avanzate dei grafici con Aspose.Slides per .NET
 linktitle: Funzionalità aggiuntive del grafico in Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Esplora le funzionalità avanzate dei grafici in Aspose.Slides per .NET. Migliora le presentazioni con interattività e immagini dinamiche.
+description: Scopri le funzionalità avanzate dei grafici in Aspose.Slides per .NET per migliorare le tue presentazioni PowerPoint. Cancella punti dati, recupera cartelle di lavoro e altro ancora!
 type: docs
 weight: 10
 url: /it/net/additional-chart-features/additional-chart-features/
 ---
 
-## Introduzione ad Aspose.Slides
+Nel mondo della visualizzazione dei dati e della progettazione di presentazioni, Aspose.Slides per .NET si distingue come un potente strumento per creare grafici straordinari e migliorare le tue presentazioni PowerPoint. Questa guida passo passo ti guiderà attraverso le varie funzionalità avanzate dei grafici offerte da Aspose.Slides per .NET. Che tu sia uno sviluppatore o un appassionato di presentazioni, questo tutorial ti aiuterà a sfruttare tutto il potenziale di questa libreria.
 
-Aspose.Slides è una potente libreria .NET che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice. Offre funzionalità complete per la creazione, la modifica e la manipolazione degli elementi della presentazione, inclusi i grafici. Con Aspose.Slides puoi andare oltre le nozioni di base e incorporare funzionalità grafiche avanzate che rendono le tue presentazioni più coinvolgenti e informative.
+## Prerequisiti
 
-## Impostazione dell'ambiente
+Prima di immergerci negli esempi dettagliati, assicurati di disporre dei seguenti prerequisiti:
 
- Prima di immergerti nell'implementazione, assicurati di avere Aspose.Slides per .NET installato. È possibile scaricare la libreria da[Qui](https://releases.aspose.com/slides/net).
+1.  Aspose.Slides per .NET: è necessario che sia installato Aspose.Slides per .NET. Se non l'hai già fatto, puoi scaricarlo[Qui](https://releases.aspose.com/slides/net/).
 
-Una volta installata la libreria, crea un nuovo progetto .NET nel tuo ambiente di sviluppo preferito.
+2. Visual Studio: è necessario che sia installato Visual Studio o qualsiasi ambiente di sviluppo C# adatto per seguire gli esempi di codice.
 
-## Creazione di un grafico di base
+3. Conoscenza di base di C#: la familiarità con la programmazione C# è essenziale per comprendere e modificare il codice secondo necessità.
 
-Iniziamo creando un grafico di base utilizzando Aspose.Slides. In questo esempio creeremo un semplice istogramma per visualizzare i dati di vendita.
+Ora che hai coperto i prerequisiti, esploriamo alcune funzionalità avanzate dei grafici in Aspose.Slides per .NET.
+
+## Importazione degli spazi dei nomi necessari
+
+Per iniziare, importiamo gli spazi dei nomi richiesti per accedere alla funzionalità Aspose.Slides nel tuo progetto C#.
+
+### Esempio 1: importazione di spazi dei nomi
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Charts;
-
-// Crea una nuova presentazione
-Presentation presentation = new Presentation();
-
-// Aggiungi una diapositiva
-ISlide slide = presentation.Slides.AddEmptySlide();
-
-//Aggiungi un grafico alla diapositiva
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
-
-// Aggiungi dati al grafico
-IChartDataWorkbook dataWorkbook = chart.ChartData.ChartDataWorkbook;
+using System;
 ```
 
-## Personalizzazione dell'aspetto del grafico
+## Esempio 1: ottieni l'intervallo di dati del grafico
 
-Per rendere il tuo grafico visivamente accattivante, puoi personalizzarne l'aspetto. Esploriamo alcune opzioni di personalizzazione.
+In questo esempio, dimostreremo come recuperare l'intervallo di dati da un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per .NET.
 
-## Assi di formattazione
+### Passaggio 1: inizializzare la presentazione
 
-È possibile formattare gli assi del grafico per migliorarne la leggibilità. Ad esempio, puoi modificare i titoli degli assi, le etichette e il ridimensionamento.
+Innanzitutto, crea una nuova presentazione di PowerPoint utilizzando Aspose.Slides.
 
 ```csharp
-// Personalizza l'asse dei valori
-IAxis valueAxis = chart.Axes.VerticalAxis;
-valueAxis.Title.Text = "Sales Amount";
-valueAxis.MajorTickMark = TickMarkType.Outside;
+// Il percorso della directory dei documenti.
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation())
+{
+    // Aggiungi un istogramma in cluster alla prima diapositiva.
+    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
+    string result = chart.ChartData.GetRange();
+    Console.WriteLine("GetRange result: {0}", result);
+}
 ```
 
-## Aggiunta di etichette dati
+In questo frammento di codice creiamo una nuova presentazione e aggiungiamo un istogramma in cluster alla prima diapositiva. Recuperiamo quindi l'intervallo di dati del grafico utilizzando`chart.ChartData.GetRange()` e visualizzarlo.
 
-Le etichette dei dati forniscono informazioni preziose sui dati del grafico. Puoi aggiungere facilmente etichette dati ai punti dati nel grafico.
+## Esempio 2: recuperare la cartella di lavoro dal grafico
+
+Ora esploriamo come recuperare una cartella di lavoro da un grafico in una presentazione di PowerPoint.
+
+### Passaggio 1: caricare la presentazione con il grafico
+
+Inizia caricando una presentazione PowerPoint che contiene un grafico.
 
 ```csharp
-// Aggiungi etichette dati al grafico
-IDataLabelFormat dataLabelFormat = chart.Series[0].DataPoints[0].Label.TextFormat;
-dataLabelFormat.ShowValue = true;
+// Il percorso della directory dei documenti.
+string dataDir = "Your Document Directory";
+
+string pptxFile = Path.Combine(dataDir, "ExternalWB.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "ExternalWB_out.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
+{
+    IChart chart = pres.Slides[0].Shapes[0] as IChart;
+    IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
+
+    // Salva la presentazione modificata con la cartella di lavoro recuperata.
+    pres.Save(outPptxFile, SaveFormat.Pptx);
+}
 ```
 
-## Applicazione degli stili di grafico
+In questo esempio, carichiamo una presentazione PowerPoint (`ExternalWB.pptx` ) e specificare le opzioni per recuperare la cartella di lavoro da un grafico. Dopo aver recuperato la cartella di lavoro, salviamo la presentazione modificata con nome`ExternalWB_out.pptx`.
 
-Aspose.Slides offre una varietà di stili di grafico che puoi applicare ai tuoi grafici.
+## Esempio 3: Cancella punti dati specifici della serie di grafici
+
+Esploriamo ora come cancellare punti dati specifici da una serie di grafici in una presentazione di PowerPoint.
+
+### Passaggio 1: caricare la presentazione con il grafico
+
+Innanzitutto, carica una presentazione PowerPoint che contiene un grafico con punti dati.
 
 ```csharp
-// Applicare uno stile di grafico
-chart.ChartStyle = 5; // Indice di stile
+// Il percorso della directory dei documenti.
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
+{
+    ISlide sl = pres.Slides[0];
+    IChart chart = (IChart)sl.Shapes[0];
+
+    //Scorrere ogni punto dati della prima serie e cancellare i valori X e Y.
+    foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
+    {
+        dataPoint.XValue.AsCell.Value = null;
+        dataPoint.YValue.AsCell.Value = null;
+    }
+
+    // Cancella tutti i punti dati della prima serie.
+    chart.ChartData.Series[0].DataPoints.Clear();
+
+    // Salva la presentazione modificata.
+    pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);
+}
 ```
 
-## Incorporando elementi interattivi
+In questo esempio, carichiamo una presentazione PowerPoint (`TestChart.pptx` ) e cancellare punti dati specifici dalla prima serie del grafico. Iteriamo su ciascun punto dati, cancelliamo i valori X e Y e infine cancelliamo tutti i punti dati dalla serie. La presentazione modificata viene salvata con nome`ClearSpecificChartSeriesDataPointsData.pptx`.
 
-I grafici interattivi coinvolgono il tuo pubblico e forniscono un'esperienza dinamica. Esploriamo come aggiungere collegamenti ipertestuali e descrizioni comandi ai dati del grafico.
+# Conclusione
 
-## Aggiunta di collegamenti ipertestuali ai dati del grafico
+Aspose.Slides per .NET fornisce una solida piattaforma per lavorare con i grafici nelle presentazioni di PowerPoint. Con le funzionalità avanzate illustrate in questo tutorial, puoi portare la visualizzazione dei dati e la progettazione delle presentazioni a un livello superiore. Se hai bisogno di estrarre dati, recuperare cartelle di lavoro o manipolare punti dati del grafico, Aspose.Slides per .NET ti copre.
 
-È possibile aggiungere collegamenti ipertestuali a punti dati specifici per consentire agli utenti di accedere al contenuto correlato.
+Seguendo gli esempi di codice e i passaggi forniti, puoi sfruttare la potenza di Aspose.Slides per .NET per migliorare le tue presentazioni PowerPoint e creare immagini di grande impatto basate sui dati.
 
-```csharp
-// Aggiungere un collegamento ipertestuale a un punto dati
-IDataPoint dataPoint = chart.Series[0].DataPoints[0];
-dataPoint.DataLabel.TextFrame.Text = "Click for Details";
-dataPoint.HyperlinkManager.SetExternalHyperlink("https://esempio.com/details");
-```
+## FAQ (domande frequenti)
 
-## Implementazione delle descrizioni comandi per i punti dati
+### Aspose.Slides per .NET è adatto sia ai principianti che agli sviluppatori esperti?
+   
+Sì, Aspose.Slides per .NET si rivolge a sviluppatori di tutti i livelli, dai principianti agli esperti. La libreria fornisce un'interfaccia intuitiva offrendo allo stesso tempo funzionalità avanzate per sviluppatori esperti.
 
-Le descrizioni comandi forniscono informazioni aggiuntive quando gli utenti passano il mouse sui punti dati.
+### Posso utilizzare Aspose.Slides per .NET per creare grafici in altri formati di documenti, come PDF o immagini?
 
-```csharp
-// Aggiungi descrizioni comando ai punti dati
-IDataPoint dataPoint = chart.Series[0].DataPoints[0];
-dataPoint.ToolTip = "Q1 Sales: $1000";
-```
+Sì, puoi utilizzare Aspose.Slides per .NET per creare grafici in vari formati, inclusi PDF, immagini e altro. La libreria offre opzioni di esportazione versatili.
 
-## Lavorare con tipi di grafici complessi
+### Dove posso trovare la documentazione completa per Aspose.Slides per .NET?
 
-Aspose.Slides supporta vari tipi di grafici, inclusi grafici 3D e grafici combinati.
+ È possibile trovare documentazione e risorse dettagliate per Aspose.Slides per .NET all'indirizzo[documentazione](https://reference.aspose.com/slides/net/).
 
-## Creazione di grafici 3D
+### È disponibile una versione di prova per Aspose.Slides per .NET?
 
-I grafici 3D aggiungono profondità alle tue presentazioni e possono rappresentare meglio i dati multidimensionali.
+ Sì, puoi esplorare la libreria con una versione di prova gratuita disponibile su[Qui](https://releases.aspose.com/). Ciò consente di valutarne le caratteristiche prima di effettuare un acquisto.
 
-```csharp
-// Crea un grafico a barre 3D
-IChart chart = slide.Shapes.AddChart(ChartType.Bar3D, 100, 100, 500, 300);
-```
+### Come posso ottenere supporto o assistenza con Aspose.Slides per .NET?
 
-## Generazione di grafici combinati
-
-I grafici combinati ti consentono di combinare diversi tipi di grafici in un unico grafico.
-
-```csharp
-// Crea un grafico combinato
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
-chart.Series.Add(ChartType.Line);
-```
-
-## Aggiornamenti grafici basati sui dati
-
-Man mano che i dati cambiano, i tuoi grafici dovrebbero riflettere tali cambiamenti. Aspose.Slides ti consente di aggiornare i dati del grafico a livello di codice.
-
-## Modifica dei dati del grafico
-
-Puoi modificare i dati del grafico e vedere immediatamente le modifiche nella presentazione.
-
-```csharp
-// Modifica i dati del grafico
-chart.Series[0].DataPoints[0].Value = 1200;
-```
-
-## Associazione dei dati in tempo reale
-
-Aspose.Slides supporta l'associazione dei dati in tempo reale, consentendo ai grafici di aggiornarsi automaticamente in base a origini dati esterne.
-
-```csharp
-// Associa il grafico a un'origine dati
-chart.ChartData.SetExternalWorkbook("data.xlsx");
-```
-
-## Esportazione e condivisione
-
-Dopo aver creato e personalizzato il tuo grafico, potresti voler condividerlo con altri.
-
-## Salvataggio di grafici come immagini/PDF
-
-Puoi salvare singoli grafici o intere presentazioni come immagini o PDF.
-
-```csharp
-// Salva il grafico come immagine
-chart.Save("chart.png", SlideImageFormat.Png);
-```
-
-## Incorporamento di grafici nelle presentazioni
-
-L'incorporamento di grafici nelle presentazioni garantisce che i dati vengano presentati senza problemi.
-
-```csharp
-// Incorpora il grafico in una diapositiva
-ISlide slide = presentation.Slides.AddEmptySlide();
-IShape shape = slide.Shapes.AddChart(ChartType.Column, 100, 100, 500, 300);
-```
-
-## Conclusione
-
-Incorporare funzionalità grafiche aggiuntive nelle tue presentazioni utilizzando Aspose.Slides per .NET può migliorare notevolmente l'attrattiva visiva e l'efficacia dei tuoi contenuti. Con la possibilità di personalizzare l'aspetto, aggiungere interattività e lavorare con tipi di grafici complessi, hai gli strumenti per creare presentazioni accattivanti e informative che lasciano un impatto duraturo.
-
-## Domande frequenti
-
-### Come posso scaricare Aspose.Slides per .NET?
-
- È possibile scaricare Aspose.Slides per .NET dalla pagina delle versioni:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net).
-
-### Posso creare grafici 3D utilizzando Aspose.Slides?
-
-Sì, Aspose.Slides ti consente di creare grafici 3D per aggiungere profondità e prospettiva alle tue presentazioni.
-
-### L'associazione dati in tempo reale è supportata per gli aggiornamenti dei grafici?
-
-Sì, Aspose.Slides supporta l'associazione dati in tempo reale, consentendo ai grafici di aggiornarsi automaticamente in base a origini dati esterne.
-
-### Posso personalizzare l'aspetto degli assi del grafico?
-
-Assolutamente, puoi personalizzare l'aspetto degli assi del grafico, inclusi titoli degli assi, etichette e ridimensionamento.
-
-### Come posso condividere le mie presentazioni con grafici incorporati?
-
-Puoi salvare le tue presentazioni con grafici incorporati come file PowerPoint o esportarle come immagini o PDF per la condivisione.
+Per qualsiasi domanda tecnica o supporto, è possibile visitare il[Forum Aspose.Slides](https://forum.aspose.com/), dove puoi trovare risposte a domande comuni e ottenere assistenza dalla community.

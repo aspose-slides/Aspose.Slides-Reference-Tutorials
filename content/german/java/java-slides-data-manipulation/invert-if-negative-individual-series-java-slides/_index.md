@@ -66,7 +66,7 @@ series.get_Item(0).getDataPoints().addDataPointForBarSeries(chart.getChartData()
 
 ## Schritt 5: „Umkehren, wenn negativ“ anwenden
 
-Jetzt wenden wir die Funktion „Umkehren bei Negativ“ auf einen der Datenpunkte an. Dadurch wird die Farbe dieses bestimmten Datenpunkts visuell umgekehrt, wenn er negativ ist.
+Jetzt wenden wir die Funktion „Invert If Negative“ auf einen der Datenpunkte an. Dadurch wird die Farbe dieses bestimmten Datenpunkts visuell umgekehrt, wenn er negativ ist.
 
 ```java
 series.get_Item(0).setInvertIfNegative(false); // Standardmäßig nicht invertieren

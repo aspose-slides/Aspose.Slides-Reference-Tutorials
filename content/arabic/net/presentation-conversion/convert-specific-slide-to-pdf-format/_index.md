@@ -48,7 +48,7 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 
 في هذا الكود:
 
--  يستبدل`"Your Document Directory"` باستخدام مسار الدليل حيث يوجد ملف العرض التقديمي لـ PowerPoint.
+-  يستبدل`"Your Document Directory"`باستخدام مسار الدليل حيث يوجد ملف العرض التقديمي لـ PowerPoint.
 -  يستبدل`"Your Output Directory"` مع الدليل الذي تريد حفظ ملف PDF المحول فيه.
 
 ## الخطوة 3: تشغيل الكود

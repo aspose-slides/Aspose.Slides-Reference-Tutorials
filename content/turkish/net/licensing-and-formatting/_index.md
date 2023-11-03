@@ -23,8 +23,8 @@ Biçimlendirme, ilgi çekici ve profesyonel sunumlar oluşturmada çok önemli b
 İster lisanslama prosedürlerini kolaylaştırmak ister sunumlarınızın görsel estetiğini yükseltmek istiyor olun, bu eğitimler size hedeflerinize ulaşmanız için gereken öngörüleri ve becerileri sağlayacaktır. Aspose.Slides yeterliliğinizi geliştirmek ve kalıcı bir izlenim bırakan sunumlar oluşturmak için bu yolculuğa çıkalım.
 
 ## Lisanslama ve Biçimlendirme Eğitimleri
-### [Aspose.Slides'ta Lisanslama ve Formatlama](./licensing-and-formatting/)
-Lisanslamadan formatlamaya, animasyonlara ve daha fazlasına kadar Aspose.Slides for .NET'i etkili bir şekilde nasıl kullanacağınızı öğrenin. Zahmetsizce ilgi çekici sunumlar oluşturun.
+### [Aspose.Slides'ta Lisanslama](./licensing-and-formatting/)
+Aspose.Slides for .NET'i nasıl lisanslayacağınızı öğrenin ve .NET uygulamalarınızda PowerPoint manipülasyonunun gücünü açığa çıkarın.
 ### [Ölçülü Lisanslama Kullanımı](./metered-licensing/)
 Aspose.Slides for .NET ile Ölçülü Lisanslamayı nasıl verimli bir şekilde kullanabileceğinizi öğrenin. Gerçek kullanım için ödeme yaparken API'leri sorunsuz bir şekilde entegre edin.
 ### [Grafikteki Veri Noktalarına Renk Ekleme](./add-color-to-data-points/)

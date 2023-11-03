@@ -33,14 +33,14 @@ class Program
 }
 ```
 
- يستبدل`"existing-presentation.pptx"` مع المسار إلى ملف عرض PowerPoint التقديمي الفعلي الخاص بك.
+ يستبدل`"existing-presentation.pptx"`مع المسار إلى ملف عرض PowerPoint التقديمي الفعلي الخاص بك.
 
 ## الخطوة 3: تكرار الشريحة
 
 لتكرار شريحة، سنحتاج أولاً إلى تحديد الشريحة التي نريد تكرارها. وبعد ذلك، سنقوم باستنساخها لإنشاء نسخة مماثلة. وإليك كيف يمكنك القيام بذلك:
 
 ```csharp
-//تحديد الشريحة المراد تكرارها (يبدأ الفهرس من 0)
+// تحديد الشريحة المراد تكرارها (يبدأ الفهرس من 0)
 ISlide sourceSlide = presentation.Slides[0];
 
 // استنساخ الشريحة المحددة
@@ -79,7 +79,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني الحصول على Aspose.Slides لـ .NET؟
 
-يمكنك الحصول على مكتبة Aspose.Slides for .NET من[رابط التحميل](https://releases.aspose.com/slides/net/). تأكد من اتباع تعليمات التثبيت المتوفرة على الموقع.
+ يمكنك الحصول على مكتبة Aspose.Slides for .NET من[رابط التحميل](https://releases.aspose.com/slides/net/). تأكد من اتباع تعليمات التثبيت المتوفرة على الموقع.
 
 ### هل يمكنني تكرار شرائح متعددة في وقت واحد؟
 

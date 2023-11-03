@@ -117,7 +117,7 @@ Ja, Aspose.Slides låter dig lägga till animationer till enskilda element på e
 
 ### Var kan jag hitta omfattande dokumentation för Aspose.Slides för .NET?
 
-Du kan komma åt den omfattande dokumentationen för Aspose.Slides för .NET på[API-referens](https://reference.aspose.com/slides/net/) sida.
+ Du kan komma åt den omfattande dokumentationen för Aspose.Slides för .NET på[API-referens](https://reference.aspose.com/slides/net/) sida.
 
 ## Slutsats
-I den här guiden har vi undersökt hur man hanterar presentationer i normal vy med Aspose.Slides för .NET. Med dess robusta funktioner kan du skapa, modifiera och förbättra presentationer programmatiskt, vilket säkerställer att ditt innehåll fängslar din publik effektivt. Oavsett om du är en professionell presentatör eller en utvecklare som arbetar med presentationsrelaterade applikationer, är Aspose.Slides för .NET din inkörsport till sömlös presentationshantering.
+den här guiden har vi undersökt hur man hanterar presentationer i normal vy med Aspose.Slides för .NET. Med dess robusta funktioner kan du skapa, modifiera och förbättra presentationer programmatiskt, vilket säkerställer att ditt innehåll fängslar din publik effektivt. Oavsett om du är en professionell presentatör eller en utvecklare som arbetar med presentationsrelaterade applikationer, är Aspose.Slides för .NET din inkörsport till sömlös presentationshantering.

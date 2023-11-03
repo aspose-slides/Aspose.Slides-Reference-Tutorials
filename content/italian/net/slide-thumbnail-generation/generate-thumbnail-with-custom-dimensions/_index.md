@@ -2,89 +2,116 @@
 title: Genera miniatura nelle diapositive con dimensioni personalizzate
 linktitle: Genera miniatura con dimensioni personalizzate
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come generare miniature di dimensioni personalizzate nelle diapositive utilizzando Aspose.Slides per .NET. Guida passo passo con il codice sorgente. Migliora le tue presentazioni con immagini accattivanti.
+description: Scopri come generare immagini in miniatura personalizzate dalle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Migliora l'esperienza utente e la funzionalità.
 type: docs
 weight: 13
 url: /it/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
 
-Nell'era digitale di oggi, i contenuti visivi svolgono un ruolo cruciale nel trasmettere le informazioni in modo efficace. Che tu stia preparando una presentazione per un incontro di lavoro, un seminario didattico o qualsiasi altro scopo, avere la possibilità di generare miniature delle tue diapositive con dimensioni personalizzate può migliorare l'attrattiva visiva dei tuoi contenuti. Aspose.Slides per .NET offre una potente soluzione per svolgere questo compito senza problemi. In questa guida passo passo, ti guideremo attraverso il processo di generazione di miniature in diapositive con dimensioni personalizzate utilizzando Aspose.Slides per .NET.
+La creazione di immagini in miniatura personalizzate delle presentazioni PowerPoint può essere una risorsa preziosa, sia che tu stia creando un'applicazione interattiva, migliorando l'esperienza utente o ottimizzando i contenuti per varie piattaforme. In questo tutorial, ti guideremo attraverso il processo di generazione di immagini in miniatura personalizzate da presentazioni PowerPoint utilizzando la libreria Aspose.Slides per .NET. Questa potente libreria consente di manipolare, convertire e migliorare i file PowerPoint a livello di codice nelle applicazioni .NET.
 
 ## Prerequisiti
 
-Prima di approfondire l'implementazione tecnica, assicurati di disporre dei seguenti prerequisiti:
+Prima di immergerci nella generazione di immagini in miniatura personalizzate, assicurati di disporre dei seguenti prerequisiti:
 
-- Visual Studio installato sul tuo computer
-- Conoscenza base del linguaggio di programmazione C#
-- Aspose.Slides per la libreria .NET
+### 1. Aspose.Slides per .NET
 
+ È necessario che la libreria Aspose.Slides per .NET sia installata nel tuo progetto. Se non l'hai già fatto, puoi trovare la documentazione necessaria e i link per il download[Qui](https://reference.aspose.com/slides/net/).
 
-## Passaggio 1: introduzione alla generazione di miniature
+### 2. Una presentazione di PowerPoint
 
-La generazione di miniature implica la creazione di una versione più piccola di un'immagine o di una diapositiva per scopi di anteprima rapida. Ciò è particolarmente utile quando desideri fornire una panoramica visiva delle diapositive senza visualizzare l'intero contenuto.
+Assicurati di avere la presentazione PowerPoint da cui desideri generare un'immagine in miniatura personalizzata. Questa presentazione dovrebbe essere accessibile all'interno della directory del progetto.
 
-## Passaggio 2: impostazione del progetto
+### 3. Ambiente di sviluppo
 
-1. Crea un nuovo progetto in Visual Studio.
-2. Installare la libreria Aspose.Slides per .NET tramite il gestore pacchetti NuGet.
+Per seguire questo tutorial, dovresti avere una conoscenza pratica della programmazione .NET utilizzando C# e un ambiente di sviluppo configurato, come Visual Studio.
 
-## Passaggio 3: caricamento della presentazione
+Ora che abbiamo coperto i prerequisiti, suddividiamo il processo di generazione di miniature personalizzate in istruzioni dettagliate.
+
+## Importa spazi dei nomi
+
+Innanzitutto, devi includere gli spazi dei nomi richiesti nel codice C#. Questi spazi dei nomi ti consentono di lavorare con Aspose.Slides e manipolare presentazioni di PowerPoint.
 
 ```csharp
 using Aspose.Slides;
-
-// Carica la presentazione
-using var presentation = new Presentation("your-presentation.pptx");
+using System.Drawing;
 ```
 
-## Passaggio 4: generazione di miniature con dimensioni personalizzate
+## Passaggio 1: caricare la presentazione
+
+Per iniziare, carica la presentazione PowerPoint da cui desideri generare un'immagine in miniatura personalizzata. Ciò si ottiene utilizzando la libreria Aspose.Slides.
 
 ```csharp
-// Scegli l'indice della diapositiva per il quale desideri generare una miniatura
-int slideIndex = 0;
+string FilePath = @"..\..\..\Sample Files\";
+string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 
-// Imposta dimensioni personalizzate per la miniatura
-int width = 400;
-int height = 300;
-
-// Genera la miniatura
-using var bitmap = presentation.Slides[slideIndex].GetThumbnail(width, height);
+// Crea un'istanza di una classe Presentation che rappresenta il file di presentazione
+using (Presentation pres = new Presentation(srcFileName))
+{
+    // Il tuo codice per la generazione delle miniature andrà qui
+}
 ```
 
-## Passaggio 5: salvataggio della miniatura
+## Passaggio 2: accedi alla diapositiva
+
+All'interno della presentazione caricata, devi accedere alla diapositiva specifica da cui desideri generare l'immagine in miniatura personalizzata. Puoi scegliere la diapositiva in base al suo indice.
 
 ```csharp
-// Salva la miniatura come file immagine
-bitmap.Save("thumbnail.png", ImageFormat.Png);
+// Accedi alla prima diapositiva (puoi modificare l'indice secondo necessità)
+ISlide sld = pres.Slides[0];
 ```
 
-## Passaggio 6: conclusione
+## Passaggio 3: Definisci le dimensioni delle miniature personalizzate
 
-In questa guida, abbiamo esplorato come generare miniature in diapositive con dimensioni personalizzate utilizzando Aspose.Slides per .NET. Questa funzionalità può migliorare in modo significativo la rappresentazione visiva delle tue presentazioni, rendendole più coinvolgenti e informative.
+Specifica le dimensioni desiderate per la tua immagine in miniatura personalizzata. Puoi definire la larghezza e l'altezza in pixel in base ai requisiti della tua applicazione.
 
-## Domande frequenti
+```csharp
+int desiredX = 1200; // Larghezza
+int desiredY = 800;  // Altezza
+```
 
-### Come installo Aspose.Slides per .NET?
+## Passaggio 4: calcolare i fattori di scala
 
-Per installare Aspose.Slides per .NET, attenersi alla seguente procedura:
-1. Apri il tuo progetto in Visual Studio.
-2. Vai al menu "Strumenti" e seleziona "Gestione pacchetti NuGet".
-3. Nella finestra "NuGet Package Manager", cerca "Aspose.Slides" e fai clic su "Installa".
+Per mantenere le proporzioni della diapositiva, calcola i fattori di scala per le dimensioni X e Y in base alle dimensioni della diapositiva e alle dimensioni desiderate.
 
-### Posso generare miniature per più diapositive contemporaneamente?
+```csharp
+float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
+float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
+```
 
-Sì, puoi scorrere le diapositive e generare miniature per ciascuna diapositiva utilizzando un approccio simile a quello descritto in questa guida.
+## Passaggio 5: genera l'immagine in miniatura
 
-### È possibile personalizzare l'aspetto della miniatura generata?
+Crea un'immagine a grandezza naturale della diapositiva con le dimensioni personalizzate specificate e salvala su disco in formato JPEG.
 
-Assolutamente! Puoi applicare varie opzioni di formattazione alle diapositive prima di generare le miniature, assicurandoti che le miniature riflettano lo stile visivo desiderato.
+```csharp
+// Crea un'immagine a grandezza naturale
+Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
 
-### Quali altre funzionalità offre Aspose.Slides per .NET?
+// Salva l'immagine su disco in formato JPEG
+bmp.Save(destFileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+```
 
-Aspose.Slides per .NET offre un'ampia gamma di funzionalità, tra cui la manipolazione delle diapositive, l'aggiunta di animazioni, l'utilizzo di testo e forme, l'esportazione in vari formati e altro ancora. Consulta la documentazione per un elenco completo delle funzionalità.
+Ora che hai seguito questi passaggi, dovresti aver generato con successo un'immagine in miniatura personalizzata dalla tua presentazione di PowerPoint.
 
-### Dove posso accedere alla documentazione di Aspose.Slides per .NET e scaricare la libreria?
+## Conclusione
 
-Per documentazione e download, visitare il sito Web Aspose.Slides:
--  Documentazione:[https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/)
--  Scaricamento:[https://releases.aspose.com/slides/net/](https://releases.aspose.com/slides/net/)
+La generazione di immagini in miniatura personalizzate da presentazioni PowerPoint utilizzando Aspose.Slides per .NET è un'abilità preziosa che può migliorare l'esperienza utente e la funzionalità delle tue applicazioni. Seguendo i passaggi descritti in questo tutorial, puoi creare facilmente miniature personalizzate che soddisfano i tuoi requisiti specifici.
+
+---
+
+## FAQ (domande frequenti)
+
+### Cos'è Aspose.Slides per .NET?
+Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice nelle applicazioni .NET.
+
+### Dove posso trovare la documentazione per Aspose.Slides per .NET?
+ Puoi trovare la documentazione[Qui](https://reference.aspose.com/slides/net/).
+
+### Aspose.Slides per .NET è gratuito?
+ Aspose.Slides per .NET è una libreria commerciale. È possibile trovare informazioni su prezzi e licenze[Qui](https://purchase.aspose.com/buy).
+
+### Ho bisogno di competenze di programmazione avanzate per utilizzare Aspose.Slides per .NET?
+Sebbene una certa conoscenza della programmazione .NET sia utile, Aspose.Slides per .NET fornisce un'API intuitiva che semplifica il lavoro con le presentazioni di PowerPoint.
+
+### Il supporto tecnico è disponibile per Aspose.Slides per .NET?
+ Sì, puoi accedere al supporto tecnico e ai forum della community[Qui](https://forum.aspose.com/).

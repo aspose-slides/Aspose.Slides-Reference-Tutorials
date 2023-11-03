@@ -13,7 +13,7 @@ ActiveX-kontroller är kraftfulla element som kan förbättra funktionaliteten o
 
 Följ dessa steg för att börja integrera ActiveX-kontroller i dina PowerPoint-presentationer:
 
-1.  Skapa en ny PowerPoint-presentation: Skapa först en ny PowerPoint-presentation med Aspose.Slides för .NET. Du kan hänvisa till[Aspose.Slides för .NET API Referens](https://reference.aspose.com/slides/net/)för vägledning om hur man arbetar med presentationer.
+1.  Skapa en ny PowerPoint-presentation: Skapa först en ny PowerPoint-presentation med Aspose.Slides för .NET. Du kan hänvisa till[Aspose.Slides för .NET API Referens](https://reference.aspose.com/slides/net/) för vägledning om hur man arbetar med presentationer.
 
 2. Lägg till en bild: Använd biblioteket för att lägga till en ny bild i din presentation. Detta kommer att vara bilden där du vill infoga ActiveX-kontrollen.
 
@@ -71,9 +71,9 @@ oleObjectFrame.SetProperty("Volume", 50);
 
 Att anpassa egenskaperna för din ActiveX-kontroll kan avsevärt förbättra användarupplevelsen av din presentation. Så här kan du anpassa dessa egenskaper:
 
-1. Åtkomstegenskaper: Som nämnts tidigare kan du komma åt egenskaperna för ActiveX-kontrollen med hjälp av`IOleObjectFrame` referens.
+1.  Åtkomstegenskaper: Som nämnts tidigare kan du komma åt egenskaperna för ActiveX-kontrollen med hjälp av`IOleObjectFrame` referens.
 
-2.  Ställ in egenskaper: Använd`SetProperty` metod för att ställa in olika egenskaper för ActiveX-kontrollen. Du kan till exempel ändra bakgrundsfärgen så här:
+2.  Ställ in egenskaper: Använd`SetProperty`metod för att ställa in olika egenskaper för ActiveX-kontrollen. Du kan till exempel ändra bakgrundsfärgen så här:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);
@@ -130,7 +130,7 @@ Att införliva ActiveX-kontroller i dina PowerPoint-presentationer kan höja din
 
 ### Hur kan jag lägga till en ActiveX-kontroll till en specifik bild?
 
- För att lägga till en ActiveX-kontroll till en specifik bild kan du använda`AddOleObjectFrame` metod tillhandahållen av Aspose.Slides för .NET. Med den här metoden kan du ange position, storlek och ProgID för ActiveX-kontrollen du vill infoga.
+För att lägga till en ActiveX-kontroll till en specifik bild kan du använda`AddOleObjectFrame` metod tillhandahållen av Aspose.Slides för .NET. Med den här metoden kan du ange position, storlek och ProgID för ActiveX-kontrollen du vill infoga.
 
 ### Kan jag manipulera ActiveX-kontroller programmatiskt?
 
@@ -140,11 +140,11 @@ Att införliva ActiveX-kontroller i dina PowerPoint-presentationer kan höja din
 
  utlöses av ActiveX-kontroller?
 
-Du kan hantera händelser som utlöses av ActiveX-kontroller genom att prenumerera på motsvarande händelser med hjälp av`EventClick` (eller liknande) händelsehanterare. Detta gör att du kan utföra specifika åtgärder som svar på användarens interaktioner med kontrollen.
+ Du kan hantera händelser som utlöses av ActiveX-kontroller genom att prenumerera på motsvarande händelser med hjälp av`EventClick` (eller liknande) händelsehanterare. Detta gör att du kan utföra specifika åtgärder som svar på användarens interaktioner med kontrollen.
 
 ### Är det möjligt att anpassa utseendet på ActiveX-kontroller?
 
- Absolut, du kan anpassa utseendet på ActiveX-kontroller med hjälp av`SetProperty` metod tillhandahållen av Aspose.Slides för .NET. Med den här metoden kan du ändra olika egenskaper, såsom bakgrundsfärg, teckensnittsstil med mera.
+ Absolut, du kan anpassa utseendet på ActiveX-kontroller med hjälp av`SetProperty`metod tillhandahållen av Aspose.Slides för .NET. Med den här metoden kan du ändra olika egenskaper, såsom bakgrundsfärg, teckensnittsstil med mera.
 
 ### Kan jag ta bort en ActiveX-kontroll från en bild?
 

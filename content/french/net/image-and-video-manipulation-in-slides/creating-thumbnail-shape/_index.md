@@ -53,7 +53,7 @@ Modifiez les index des diapositives et des formes en fonction de la structure de
 
 ## Création de vignettes
 
- Vient maintenant la partie passionnante : créer une vignette pour la forme sélectionnée. Aspose.Slides vous permet d'y parvenir en tirant parti de`GetThumbnail` méthode. Voici comment créer une miniature pour une forme :
+Vient maintenant la partie passionnante : créer une vignette pour la forme sélectionnée. Aspose.Slides vous permet d'y parvenir en tirant parti de`GetThumbnail` méthode. Voici comment créer une miniature pour une forme :
 
 ```csharp
 // Définir les dimensions des vignettes

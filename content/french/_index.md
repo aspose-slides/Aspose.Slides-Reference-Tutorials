@@ -44,7 +44,7 @@ Voici des liens vers quelques ressources utiles :
 ## Aspose.Slides pour Java : l'API de traitement des présentations
 {{% alert color="primary" %}}
 
-Aspose.Slides pour Java change la donne pour les développeurs cherchant à créer des présentations dynamiques et attrayantes dans les applications Java. Nos tutoriels seront vos compagnons de confiance dans ce voyage passionnant, vous aidant à libérer tout le potentiel de cette API remarquable. Alors qu'est-ce que tu attends? Plongez dans les didacticiels et laissez briller votre créativité avec Aspose.Slides pour Java !
+Aspose.Slides for Java change la donne pour les développeurs cherchant à créer des présentations dynamiques et attrayantes dans les applications Java. Nos tutoriels seront vos compagnons de confiance dans ce voyage passionnant, vous aidant à libérer tout le potentiel de cette API remarquable. Alors qu'est-ce que tu attends? Plongez dans les didacticiels et laissez briller votre créativité avec Aspose.Slides pour Java !
 
 {{% /alert %}}
 Voici des liens vers quelques ressources utiles :

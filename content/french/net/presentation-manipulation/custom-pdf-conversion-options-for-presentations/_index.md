@@ -69,7 +69,7 @@ Maintenant que vos options sont définies, vous pouvez exécuter la conversion P
 
 Toutes nos félicitations! Vous avez appris avec succès comment effectuer des conversions PDF personnalisées pour des présentations à l'aide d'Aspose.Slides pour .NET. Cette bibliothèque polyvalente vous permet d'affiner votre processus de conversion, garantissant que vos documents répondent à vos besoins spécifiques.
 
-Si vous êtes prêt à faire passer votre gestion de documents au niveau supérieur, Aspose.Slides for .NET est un outil précieux dans votre arsenal. Expérimentez avec différents paramètres et explorez tout son potentiel.
+Si vous êtes prêt à faire passer votre gestion de documents au niveau supérieur, Aspose.Slides pour .NET est un outil précieux dans votre arsenal. Expérimentez avec différents paramètres et explorez tout son potentiel.
 
 ## FAQ
 
@@ -87,7 +87,7 @@ Oui, Aspose.Slides pour .NET prend en charge différents formats de documents, p
 
 ### 4. Puis-je obtenir des licences temporaires ?
 
-Oui, des licences temporaires sont disponibles pour votre commodité. Trouver plus d'informations[ici](https://purchase.aspose.com/temporary-license/).
+ Oui, des licences temporaires sont disponibles pour votre commodité. Trouver plus d'informations[ici](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Où puis-je demander de l'aide si je rencontre des problèmes ?
 

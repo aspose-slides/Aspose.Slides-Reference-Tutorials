@@ -2,197 +2,129 @@
 title: Ajouter des barres d'erreur personnalisées au graphique
 linktitle: Ajouter des barres d'erreur personnalisées au graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment ajouter des barres d'erreur personnalisées aux graphiques à l'aide d'Aspose.Slides pour .NET. Créez, stylisez et personnalisez des barres d'erreur pour une visualisation précise des données.
+description: Apprenez à créer de superbes présentations avec Aspose.Slides pour .NET en ajoutant des barres d'erreur personnalisées à vos graphiques. Améliorez votre jeu de visualisation de données dès aujourd'hui !
 type: docs
 weight: 13
 url: /fr/net/licensing-and-formatting/add-custom-error/
 ---
 
-## Introduction aux barres d'erreur personnalisées
+Dans le monde des présentations dynamiques, les graphiques jouent un rôle central en transmettant des données complexes de manière compréhensible. Aspose.Slides pour .NET vous permet de faire passer votre jeu de présentation au niveau supérieur. Dans ce guide étape par étape, nous approfondirons le processus d'ajout de barres d'erreur personnalisées à vos graphiques à l'aide d'Aspose.Slides pour .NET. Que vous soyez un développeur chevronné ou un nouveau venu, ce tutoriel vous guidera tout au long du processus en douceur.
 
-Les barres d'erreur sont des représentations graphiques utilisées pour indiquer la variabilité ou l'incertitude des points de données dans un graphique. Ils peuvent aider à décrire la plage dans laquelle la valeur réelle du point de données est susceptible de se situer. Les barres d'erreur personnalisées vous permettent de définir des valeurs d'erreur spécifiques pour chaque point de données, offrant ainsi plus de contrôle sur la façon dont l'incertitude est affichée dans votre graphique.
+## Conditions préalables
 
-## Configuration de l'environnement de développement
+Avant de plonger dans le monde fascinant des barres d’erreur personnalisées, assurez-vous d’avoir les conditions préalables suivantes en place :
 
- Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour .NET est installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net). Suivez les instructions d'installation fournies dans la documentation.
+### 1. Aspose.Slides pour .NET installé
 
-## Création d'un exemple de graphique
+ Si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.Slides for .NET à partir du[lien de téléchargement](https://releases.aspose.com/slides/net/).
 
-Commençons par créer un exemple de graphique à l’aide d’Aspose.Slides pour .NET. Nous allons créer un graphique à barres de base à des fins de démonstration. Assurez-vous d'avoir référencé la bibliothèque dans votre projet.
+### 2. Environnement de développement
+
+Vous devez disposer d'un environnement de développement fonctionnel pour les applications .NET, notamment Visual Studio ou tout autre éditeur de code.
+
+Maintenant, commençons !
+
+## Importation des espaces de noms nécessaires
+
+Dans cette section, nous importerons les espaces de noms requis pour votre projet.
+
+### Étape 1 : Importer l’espace de noms Aspose.Slides
+
+Ajoutez l'espace de noms Aspose.Slides à votre projet. Cela vous permettra de travailler avec des présentations PowerPoint par programme.
 
 ```csharp
 using Aspose.Slides;
-using Aspose.Slides.Charts;
-
-// Instancier un objet Présentation
-using Presentation presentation = new Presentation();
-
-// Ajouter une diapositive
-ISlide slide = presentation.Slides.AddSlide(0, presentation.SlideSize.Size);
-
-// Ajouter un graphique
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredBar, 100, 100, 500, 300);
-
-// Ajouter des exemples de données
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-IChartSeries series = chart.ChartData.Series.Add(workbook.GetCell(0, "A1"), chart.Type);
-series.Values.Add(workbook.GetCell(0, "B1"));
-series.Values.Add(workbook.GetCell(0, "B2"));
-
-// Définir des étiquettes de catégorie
-chart.ChartData.Categories.Add(workbook.GetCell(0, "A2"));
-chart.ChartData.Categories.Add(workbook.GetCell(0, "A3"));
-
-// Définir le titre du graphique
-chart.ChartTitle.AddTextFrameForOverriding("Sample Chart");
-chart.ChartTitle.TextFrameForOverriding.Text = "Sample Chart";
-
-// Enregistrez la présentation
-presentation.Save("SampleChart.pptx", SaveFormat.Pptx);
 ```
 
-Ce code crée une présentation PowerPoint avec un exemple de graphique à barres.
+Avec cet espace de noms inclus, vous pouvez créer, modifier et manipuler facilement des présentations PowerPoint.
 
-## Ajout de barres d'erreur au graphique
+Maintenant, décomposons le processus d'ajout de barres d'erreur personnalisées à un graphique en étapes claires et simples.
 
-Ajoutons maintenant des barres d'erreur au graphique. Des barres d'erreur sont ajoutées à des points de données spécifiques dans une série. Nous ajouterons des barres d’erreur au premier point de données de notre exemple de graphique.
+## Étape 1 : Configurez votre répertoire de documents
+
+ Avant de commencer, configurez le répertoire dans lequel vous souhaitez enregistrer votre fichier de présentation. Vous pouvez remplacer`"Your Document Directory"` avec le chemin de fichier souhaité.
 
 ```csharp
-// Accédez à la première série
-IChartSeries firstSeries = chart.ChartData.Series[0];
-
-// Ajouter des barres d'erreur
-IErrorBarsFormat errorBarsFormat = firstSeries.ErrorBarsFormat.Add();
-errorBarsFormat.Type = ErrorBarType.FixedValue;
-
-// Définir la valeur de la barre d'erreur
-errorBarsFormat.Value = 5; // Vous pouvez ajuster la valeur en fonction de vos données
-
-// Enregistrez la présentation mise à jour
-presentation.Save("ChartWithErrorBars.pptx", SaveFormat.Pptx);
+string dataDir = "Your Document Directory";
 ```
 
-Ce code ajoute des barres d'erreur de valeur fixe au premier point de données du graphique.
+## Étape 2 : Créer une présentation vide
 
-## Personnalisation des valeurs de la barre d'erreur
-
-Vous pouvez personnaliser les valeurs de la barre d'erreur pour chaque point de données individuellement. Modifions le code pour définir différentes valeurs d'erreur pour chaque point de données.
+Commencez par créer une présentation PowerPoint vide à l'aide d'Aspose.Slides. Cela sert de canevas pour votre graphique.
 
 ```csharp
-// Définir des valeurs d'erreur personnalisées pour chaque point
-double[] errorValues = { 3, 6 }; // Valeurs d'erreur pour les deux points de données
-
-for (int i = 0; i < firstSeries.DataPoints.Count; i++)
+using (Presentation presentation = new Presentation())
 {
-    firstSeries.ErrorBarsFormat[i].Value = errorValues[i];
+    //Votre code pour ajouter un graphique et des barres d’erreur personnalisées ira ici.
+    // Nous allons décomposer cela en étapes suivantes.
+    
+    // Enregistrement de la présentation
+    presentation.Save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 }
-
-// Enregistrez la présentation mise à jour
-presentation.Save("CustomErrorValuesChart.pptx", SaveFormat.Pptx);
 ```
 
-Ce code définit des valeurs d'erreur personnalisées pour chaque point de données de la série.
+## Étape 3 : Ajouter un graphique à bulles
 
-## Barres d'erreur de style
-
-Vous pouvez styliser les barres d'erreur pour améliorer leur visibilité et correspondre à l'esthétique de votre graphique. Personnalisons l'apparence des barres d'erreur.
+Au cours de cette étape, vous allez créer un graphique à bulles dans la présentation. Vous pouvez personnaliser la position et la taille du graphique selon vos besoins.
 
 ```csharp
-// Personnaliser l'apparence de la barre d'erreur
-errorBarsFormat.LineFormat.Width = 2; // Définir la largeur de la ligne
-errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; // Définir la couleur de la ligne
-
-// Enregistrez la présentation mise à jour
-presentation.Save("StyledErrorBarsChart.pptx", SaveFormat.Pptx);
+// Créer un graphique à bulles
+IChart chart = presentation.Slides[0].Shapes.AddChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-Ce code ajuste la largeur de ligne et la couleur des barres d'erreur.
+## Étape 4 : ajout de barres d'erreur et définition du format
 
-## Mise à jour des données du graphique
-
-Si vous devez mettre à jour les données du graphique, vous pouvez le faire facilement à l'aide d'Aspose.Slides pour .NET. Remplaçons les données par de nouvelles valeurs.
+Maintenant, ajoutons des barres d'erreur au graphique et configurons leur format.
 
 ```csharp
-// Mettre à jour les données du graphique
-series.Values[0].Value = 15;
-series.Values[1].Value = 20;
-
-// Enregistrez la présentation mise à jour
-presentation.Save("UpdatedChartData.pptx", SaveFormat.Pptx);
+// Ajout de barres d'erreur et définition de son format
+IErrorBarsFormat errBarX = chart.ChartData.Series[0].ErrorBarsXFormat;
+IErrorBarsFormat errBarY = chart.ChartData.Series[0].ErrorBarsYFormat;
+errBarX.IsVisible = true;
+errBarY.IsVisible = true;
+errBarX.ValueType = ErrorBarValueType.Fixed;
+errBarX.Value = 0.1f;
+errBarY.ValueType = ErrorBarValueType.Percentage;
+errBarY.Value = 5;
+errBarX.Type = ErrorBarType.Plus;
+errBarY.Format.Line.Width = 2;
+errBarX.HasEndCap = true;
 ```
 
-Ce code met à jour les valeurs des données du graphique.
+## Étape 5 : Enregistrez votre présentation
 
-## Barres d'erreur pour plusieurs séries
-
-Vous pouvez ajouter des barres d'erreur à plusieurs séries dans un graphique. Ajoutons des barres d'erreur à la deuxième série de notre exemple de graphique.
+Enfin, enregistrez votre présentation avec les barres d'erreur personnalisées ajoutées à votre graphique.
 
 ```csharp
-// Accédez à la deuxième série
-IChartSeries secondSeries = chart.ChartData.Series[1];
-
-// Ajouter des barres d'erreur à la deuxième série
-IErrorBarsFormat secondSeriesErrorBars = secondSeries.ErrorBarsFormat.Add();
-secondSeriesErrorBars.Type = ErrorBarType.Percent;
-
-// Définir la valeur de la barre d'erreur pour la deuxième série
-secondSeriesErrorBars.Value = 10; // Vous pouvez ajuster la valeur
-
-// Enregistrez la présentation mise à jour
-presentation.Save("MultiSeriesChartWithErrorBars.pptx", SaveFormat.Pptx);
+// Enregistrement de la présentation
+presentation.Save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 
-Ce code ajoute des barres d'erreur à la deuxième série du graphique.
-
-## Gestion des erreurs négatives et positives
-
-Les barres d'erreur peuvent représenter des erreurs positives et négatives. Modifions le code pour ajouter les deux types de barres d'erreur.
-
-```csharp
-// Ajouter des barres d'erreur positives et négatives
-errorBarsFormat.Type = ErrorBarType.Custom;
-errorBarsFormat.PlusValue = 4; // Valeur d'erreur positive
-errorBarsFormat.MinusValue = 2; // Valeur d'erreur négative
-
-// Enregistrez la présentation mise à jour
-presentation.Save("PositiveNegativeErrorBars.pptx", SaveFormat.Pptx);
-```
-
-Ce code ajoute des barres d'erreur positives et négatives personnalisées au graphique.
-
-## Enregistrement et exportation du graphique
-
-Une fois que vous avez ajouté des barres d'erreur et personnalisé votre graphique, vous pouvez l'enregistrer et l'exporter pour une utilisation ultérieure.
-
-```csharp
-// Enregistrez le graphique final
-presentation.Save("FinalChart.pptx", SaveFormat.Pptx);
-```
-
-Ce code enregistre le graphique final avec des barres d'erreur.
+Grâce à ces étapes simples, vous avez ajouté avec succès des barres d'erreur personnalisées à votre graphique à l'aide d'Aspose.Slides pour .NET. Vos présentations sont désormais plus attrayantes et informatives.
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment ajouter des barres d'erreur personnalisées à un graphique à l'aide d'Aspose.Slides pour .NET. Nous avons couvert la création d'un exemple de graphique, l'ajout de barres d'erreur, la personnalisation des valeurs d'erreur, le style des barres d'erreur, la mise à jour des données du graphique, l'ajout de barres d'erreur à plusieurs séries et la gestion des erreurs positives et négatives. Avec Aspose.Slides pour .NET, vous avez la possibilité de créer des graphiques informatifs et visuellement attrayants avec des barres d'erreur personnalisées qui communiquent efficacement la variabilité de vos données.
+Aspose.Slides pour .NET ouvre des possibilités infinies pour créer des présentations captivantes avec des graphiques personnalisés et des barres d'erreur. Grâce aux étapes faciles à suivre décrites dans ce guide, vous pouvez élever vos capacités de visualisation de données et de narration vers de nouveaux sommets.
 
-## FAQ
+Si vous êtes prêt à impressionner votre public avec des présentations époustouflantes, Aspose.Slides for .NET est votre outil incontournable.
 
-### Comment puis-je ajuster l’épaisseur des barres d’erreur ?
+## Foire aux questions (FAQ)
 
- Vous pouvez ajuster l'épaisseur des barres d'erreur en modifiant le`LineFormat.Width` propriété du`ErrorBarsFormat`.
+### 1. Qu'est-ce qu'Aspose.Slides pour .NET ?
+   Aspose.Slides for .NET est une bibliothèque puissante permettant de travailler avec des présentations PowerPoint dans des applications .NET. Il vous permet de créer, modifier et manipuler des présentations par programmation.
 
-### Puis-je utiliser différentes valeurs d’erreur pour chaque point de données ?
+### 2. Puis-je personnaliser l’apparence des barres d’erreur dans Aspose.Slides pour .NET ?
+   Oui, vous pouvez personnaliser l'apparence des barres d'erreur, y compris leur visibilité, leur type et leur formatage, comme démontré dans ce didacticiel.
 
-Oui, vous pouvez définir des valeurs d'erreur personnalisées pour chaque point de données individuellement à l'aide d'une boucle et du`Value` propriété de`ErrorBarsFormat`.
+### 3. Aspose.Slides pour .NET convient-il aussi bien aux développeurs débutants qu'expérimentés ?
+   Absolument! Aspose.Slides pour .NET fournit une interface conviviale qui s'adresse à la fois aux nouveaux arrivants et aux développeurs chevronnés.
 
-### Est-il possible d'ajouter des barres d'erreur à plusieurs séries dans un seul graphique ?
+### 4. Où puis-je trouver de la documentation pour Aspose.Slides pour .NET ?
+    Vous pouvez vous référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations détaillées et des exemples.
 
-Absolument, vous pouvez ajouter des barres d'erreur à plusieurs séries dans le même graphique. Accédez simplement à la série souhaitée et appliquez des barres d’erreur comme démontré dans l’article.
+### 5. Comment puis-je obtenir une licence temporaire pour Aspose.Slides pour .NET ?
+    Pour obtenir un permis temporaire, visitez le[page de licence temporaire](https://purchase.aspose.com/temporary-license/) sur le site Aspose.
 
-### Puis-je supprimer les barres d’erreur après les avoir ajoutées ?
+Il est maintenant temps de mettre à profit vos nouvelles connaissances et de créer des présentations attrayantes qui laissent une impression durable.
 
- Oui, vous pouvez supprimer les barres d'erreur en appelant le`Clear` méthode sur le`ErrorBarsFormat` objet.
-
-### Où puis-je trouver plus d’informations sur Aspose.Slides pour .NET ?
-
- Vous pouvez trouver une documentation détaillée et des exemples pour Aspose.Slides pour .NET sur le[Site de documentation Aspose](https://reference.aspose.com/slides/net/).
+N'oubliez pas qu'avec Aspose.Slides pour .NET, il n'y a aucune limite en matière de personnalisation et d'innovation des présentations. Bonne présentation !

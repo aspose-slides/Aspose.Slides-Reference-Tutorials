@@ -115,7 +115,7 @@ class Program
                     {
                         emphasisEffect.Type = EmphasisAnimationType.GrowWithColor;
                     }
-                    // Gérer les autres types d'animation de la même manière
+                    //Gérer les autres types d'animation de la même manière
                 }
             }
 
@@ -140,7 +140,7 @@ ce guide complet vous a doté de l'expertise nécessaire pour exploiter la puiss
 
 ### Puis-je modifier les animations de trajectoire de mouvement à l’aide d’Aspose.Slides ?
 
- Oui, vous pouvez modifier les animations de trajectoire de mouvement à l'aide d'Aspose.Slides en accédant au`MotionPathEffect`propriétés et les ajuster en conséquence.
+ Oui, vous pouvez modifier les animations de trajectoire de mouvement à l'aide d'Aspose.Slides en accédant au`MotionPathEffect` propriétés et les ajuster en conséquence.
 
 ### Est-il possible d'ajouter des animations personnalisées aux éléments d'une diapositive ?
 
@@ -152,4 +152,4 @@ Vous pouvez enregistrer la présentation modifiée dans différents formats, not
 
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour .NET ?
 
-Vous pouvez trouver une documentation détaillée et des exemples dans le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
+ Vous pouvez trouver une documentation détaillée et des exemples dans le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).

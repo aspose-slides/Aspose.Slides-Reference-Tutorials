@@ -75,7 +75,7 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## 8. Slutsats
 
-den här handledningen har vi visat hur man bevarar originaltypsnitt när man konverterar en PowerPoint-presentation till HTML med Aspose.Slides för .NET. Genom att följa dessa steg kan du säkerställa att ditt konverterade HTML-dokument behåller den visuella integriteten hos den ursprungliga presentationen.
+I den här handledningen har vi visat hur man bevarar originaltypsnitt när man konverterar en PowerPoint-presentation till HTML med Aspose.Slides för .NET. Genom att följa dessa steg kan du säkerställa att ditt konverterade HTML-dokument behåller den visuella integriteten hos den ursprungliga presentationen.
 
 ## 9. Vanliga frågor
 

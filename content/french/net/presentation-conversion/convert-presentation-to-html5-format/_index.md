@@ -72,7 +72,7 @@ En suivant ces étapes, vous pouvez facilement convertir des présentations Powe
 
 ### Comment puis-je personnaliser l’apparence de la sortie HTML5 ?
 
- Vous pouvez personnaliser l'apparence de la sortie HTML5 en définissant diverses options dans le`Html5Options` classe. Se référer au[Documentation](https://reference.aspose.com/slides/net/aspose.slides.export/html5options)pour les options de personnalisation disponibles.
+Vous pouvez personnaliser l'apparence de la sortie HTML5 en définissant diverses options dans le`Html5Options` classe. Se référer au[Documentation](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) pour les options de personnalisation disponibles.
 
 ### Puis-je convertir des présentations avec des animations et des transitions ?
 

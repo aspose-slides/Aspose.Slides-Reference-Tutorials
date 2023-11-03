@@ -100,7 +100,7 @@ den här handledningen lärde vi oss hur man kontrollerar presentationsskydd i J
 
 ### Hur skaffar jag Aspose.Slides för Java?
 
-Du kan ladda ner Aspose.Slides för Java från Aspose-webbplatsen eller lägga till det som ett Maven-beroende i ditt projekt, som visas i avsnittet förutsättningar.
+Du kan ladda ner Aspose.Slides för Java från Aspose-webbplatsen eller lägga till det som ett Maven-beroende i ditt projekt, som visas i avsnittet om förutsättningar.
 
 ### Kan jag kontrollera både skrivskydd och öppet skydd för en presentation?
 

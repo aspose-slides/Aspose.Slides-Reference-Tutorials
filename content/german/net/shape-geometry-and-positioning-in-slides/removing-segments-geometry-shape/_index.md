@@ -24,7 +24,7 @@ Bevor wir uns mit dem Entfernen von Segmenten aus Geometrieformen befassen, rich
 
 1.  Installation: Beginnen Sie mit dem Herunterladen und Installieren der Aspose.Slides für .NET-Bibliothek. Sie können die neueste Version finden[Hier](https://releases.aspose.com/slides/net/).
 
-2.  API-Referenz: Machen Sie sich mit der vertraut[Aspose.Slides API-Dokumentation](https://reference.aspose.com/slides/net/)um das breite Spektrum an Features und Funktionalitäten zu erkunden.
+2.  API-Referenz: Machen Sie sich mit der vertraut[Aspose.Slides API-Dokumentation](https://reference.aspose.com/slides/net/) um das breite Spektrum an Features und Funktionalitäten zu erkunden.
 
 ## Segmente entfernen: Schritt für Schritt
 
@@ -37,7 +37,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Greifen Sie auf die Folie zu
     ISlide slide = presentation.Slides[0];
 
-    // Auf die Form zugreifen (vorausgesetzt, es ist die erste Form)
+    //Auf die Form zugreifen (vorausgesetzt, es ist die erste Form)
     IAutoShape shape = (IAutoShape)slide.Shapes[0];
 
     // Greifen Sie auf den Geometriepfad der Form zu
@@ -61,7 +61,7 @@ Durch das selektive Entfernen von Segmenten aus Geometrieformen können Sie visu
 
 ### Wie kann ich Aspose.Slides für .NET herunterladen?
 
-Sie können die Aspose.Slides für .NET-Bibliothek von herunterladen[Aspose-Veröffentlichungsseite](https://releases.aspose.com/slides/net/). 
+ Sie können die Aspose.Slides für .NET-Bibliothek von herunterladen[Aspose-Veröffentlichungsseite](https://releases.aspose.com/slides/net/). 
 
 ### Kann ich die Segmententfernung in Aspose.Slides rückgängig machen?
 

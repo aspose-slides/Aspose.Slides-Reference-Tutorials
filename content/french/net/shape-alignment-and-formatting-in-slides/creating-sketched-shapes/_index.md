@@ -56,7 +56,7 @@ freeformShape.FillFormat.SolidFillColor.Color = Color.LightGray;
 
 ## Personnalisation des formes esquissées
 
-Vous pouvez personnaliser davantage les formes esquissées en ajustant leurs couleurs, leurs styles de ligne et d'autres propriétés. Expérimentez avec différents réglages pour obtenir l’effet dessiné à la main souhaité.
+Vous pouvez personnaliser davantage les formes esquissées en ajustant leurs couleurs, leurs styles de ligne et d'autres propriétés. Expérimentez avec différents réglages pour obtenir l'effet dessiné à la main souhaité.
 
 ## Enregistrement et exportation de la présentation
 

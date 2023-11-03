@@ -1,125 +1,103 @@
 ---
-title: Recupera la cartella di lavoro dal grafico
+title: Come utilizzare Aspose.Slides .NET per recuperare la cartella di lavoro dal grafico
 linktitle: Recupera la cartella di lavoro dal grafico
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come recuperare una cartella di lavoro da un grafico utilizzando Aspose.Slides per .NET. Estrai i dati dei grafici e crea cartelle di lavoro Excel a livello di codice.
+description: Scopri come recuperare una cartella di lavoro da un grafico nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Segui la nostra guida passo passo per estrarre i dati in modo efficiente.
 type: docs
 weight: 12
 url: /it/net/additional-chart-features/chart-recover-workbook/
 ---
 
-## introduzione
-
-Possono verificarsi incidenti e potresti trovarti a dover recuperare una cartella di lavoro da un grafico. Aspose.Slides per .NET viene in soccorso in tali situazioni. Questa potente libreria ti consente di estrarre dati dai grafici nelle presentazioni e convertirli in una nuova cartella di lavoro. In questa guida passo passo, ti guideremo attraverso il processo di recupero di una cartella di lavoro da un grafico utilizzando Aspose.Slides per .NET.
+Se stai cercando di lavorare con presentazioni PowerPoint in .NET, Aspose.Slides per .NET è una potente libreria che può aiutarti a raggiungere i tuoi obiettivi. In questo tutorial, ti guideremo attraverso il processo di recupero di una cartella di lavoro da un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per .NET. Questa potente funzionalità può essere utile quando devi estrarre dati dai grafici all'interno delle tue presentazioni. Suddivideremo il processo in passaggi facili da seguire, assicurandoti di avere una chiara comprensione di come eseguire questa attività.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere a disposizione quanto segue:
+Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
-- Visual Studio: scarica e installa Visual Studio, essenziale per lo sviluppo .NET.
--  Aspose.Slides per .NET: è possibile scaricare la libreria da[Qui](https://downloads.aspose.com/slides/net).
+### 1. Aspose.Slides per .NET
 
-## Passaggio 1: installare Aspose.Slides per .NET
+Dovresti avere Aspose.Slides per .NET installato e configurato nel tuo ambiente di sviluppo .NET. Se non lo hai già fatto, puoi scaricarlo e installarlo dal sito web.
 
-Se non lo hai già fatto, scarica e installa Aspose.Slides per .NET. Questa libreria fornisce funzionalità complete per lavorare con le presentazioni di PowerPoint a livello di codice.
+[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net/)
 
-## Passaggio 2: carica la presentazione
+### 2. Presentazione in PowerPoint
 
-Per iniziare, crea un nuovo progetto C# in Visual Studio. Aggiungere riferimenti agli assembly Aspose.Slides necessari. Carica la presentazione di PowerPoint che contiene il grafico da cui desideri recuperare i dati.
+Avrai bisogno di una presentazione PowerPoint con un grafico da cui desideri recuperare la cartella di lavoro. Assicurati di avere il file di presentazione pronto.
+
+## Importazione degli spazi dei nomi necessari
+
+In questo passaggio, dovrai importare gli spazi dei nomi richiesti per lavorare in modo efficace con Aspose.Slides per .NET.
+
+### Passaggio 1: importa gli spazi dei nomi
 
 ```csharp
-// Carica la presentazione
-Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## Passaggio 3: identificare il grafico
+Ora suddividiamo in più passaggi il processo di recupero di una cartella di lavoro da un grafico all'interno di una presentazione di PowerPoint.
 
- Identifica la diapositiva e il grafico da cui desideri recuperare i dati. È possibile accedere alle diapositive utilizzando il file`presentation.Slides` raccolta e grafici utilizzando il file`slide.Shapes` collezione.
+## Passaggio 1: definire la directory dei documenti
 
 ```csharp
-// Ottieni la diapositiva contenente il grafico
-ISlide slide = presentation.Slides[0];
+// Il percorso della directory dei documenti.
+string dataDir = "Your Document Directory";
+```
 
-// Prendi il grafico
-IChart chart = null;
-foreach (IShape shape in slide.Shapes)
+In questo passaggio, devi specificare la directory in cui si trova la presentazione di PowerPoint.
+
+## Passaggio 2: caricare la presentazione e abilitare il ripristino della cartella di lavoro
+
+```csharp
+string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "RecoveredWorkbook.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
 {
-    if (shape is IChart)
-    {
-        chart = (IChart)shape;
-        break;
-    }
+    // Il tuo codice per il ripristino della carta va qui
+    pres.Save(outPptxFile, SaveFormat.Pptx);
 }
 ```
 
-## Passaggio 4: estrai i dati dal grafico
+In questo passaggio si carica la presentazione di PowerPoint dal file specificato e si abilita il ripristino della cartella di lavoro dalla cache dei grafici. IL`LoadOptions` l'oggetto viene utilizzato per questo scopo.
 
-Estrai i dati dal grafico utilizzando l'API di Aspose.Slides. È possibile recuperare valori dalle serie e dalle categorie di grafici.
-
-```csharp
-// Estrai i dati del grafico
-IChartData chartData = chart.ChartData;
-```
-
-## Passaggio 5: crea una nuova cartella di lavoro
-
-Crea una nuova cartella di lavoro Excel utilizzando una libreria come EPPlus o ClosedXML.
+## Passaggio 3: accedere e utilizzare i dati del grafico
 
 ```csharp
-// Crea una nuova cartella di lavoro di Excel
-using (var excelPackage = new ExcelPackage())
-{
-    var worksheet = excelPackage.Workbook.Worksheets.Add("Chart Data");
-    // Aggiungi qui il codice per popolare le intestazioni del foglio di lavoro
-}
+IChart chart = pres.Slides[0].Shapes[0] as IChart;
+IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 ```
 
-## Passaggio 6: popolare la cartella di lavoro con i dati del grafico
-
-Compila il foglio di lavoro Excel con i dati estratti dal grafico.
-
-```csharp
-//Popolare il foglio di lavoro Excel con i dati del grafico
-int rowIndex = 2;
-foreach (var series in chartData.Series)
-{
-    worksheet.Cells[rowIndex, 1].Value = series.Name;
-    // Aggiungi qui il codice per popolare il foglio di lavoro con i dati della serie
-    rowIndex++;
-}
-```
-
-## Passaggio 7: salvare la cartella di lavoro
-
-Salva la cartella di lavoro di Excel con i dati del grafico recuperati.
-
-```csharp
-// Salva la cartella di lavoro di Excel
-excelPackage.SaveAs(new FileInfo("recovered-workbook.xlsx"));
-```
+In questo passaggio, accedi al grafico nella prima diapositiva e ottieni la cartella di lavoro dei dati del grafico. Ora puoi lavorare con i dati della cartella di lavoro secondo necessità.
 
 ## Conclusione
 
-Il recupero di una cartella di lavoro da un grafico è semplificato con Aspose.Slides per .NET. Seguendo questi passaggi, è possibile estrarre a livello di codice i dati da un grafico in una presentazione di PowerPoint e creare una nuova cartella di lavoro di Excel con i dati recuperati. Questo processo può essere un vero toccasana quando si verificano incidenti e i dati devono essere recuperati.
+In questo tutorial, abbiamo dimostrato come utilizzare Aspose.Slides per .NET per recuperare una cartella di lavoro da un grafico in una presentazione di PowerPoint. Seguendo i passaggi descritti in questa guida, puoi estrarre in modo efficiente i dati dalle tue presentazioni e utilizzarli per le tue esigenze specifiche.
+
+ Se hai domande o riscontri problemi, non esitare a chiedere aiuto alla community Aspose.Slides nel[Forum Aspose.Slides](https://forum.aspose.com/). Sono lì per aiutarti nel tuo viaggio con Aspose.Slides per .NET.
 
 ## Domande frequenti
 
-### Come installo Aspose.Slides per .NET?
+### 1. Cos'è Aspose.Slides per .NET?
 
- È possibile scaricare Aspose.Slides per .NET da[Qui](https://downloads.aspose.com/slides/net).
+Aspose.Slides per .NET è una potente libreria .NET per lavorare con file Microsoft PowerPoint, che consente di creare, manipolare e convertire presentazioni a livello di codice.
 
-### Posso recuperare dati da diversi tipi di grafici?
+### 2. Posso provare Aspose.Slides per .NET prima dell'acquisto?
 
-Sì, Aspose.Slides per .NET supporta vari tipi di grafici, inclusi grafici a barre, grafici a linee, grafici a torta e altro.
+ Sì, puoi ottenere una prova gratuita di Aspose.Slides per .NET per valutarne caratteristiche e capacità.[Ottieni la prova gratuita qui](https://releases.aspose.com/).
 
-### Aspose.Slides per .NET è adatto all'uso professionale?
+### 3. Dove posso trovare la documentazione per Aspose.Slides per .NET?
 
-Assolutamente! Aspose.Slides per .NET è una solida libreria utilizzata dagli sviluppatori per lavorare in modo efficiente con le presentazioni PowerPoint.
+ È possibile accedere alla documentazione per Aspose.Slides per .NET[Qui](https://reference.aspose.com/slides/net/). Contiene informazioni dettagliate, esempi e riferimenti API.
 
-### Esistono requisiti di licenza per l'utilizzo di Aspose.Slides per .NET?
+### 4. Come posso acquistare una licenza per Aspose.Slides per .NET?
 
- Sì, Aspose.Slides per .NET richiede una licenza valida per uso commerciale. Puoi trovare i dettagli della licenza su[Sito web Aspose](https://purchase.aspose.com).
+ Per acquistare una licenza per Aspose.Slides per .NET, visitare il sito Web Aspose e utilizzare il seguente collegamento:[Acquista Aspose.Slides per .NET](https://purchase.aspose.com/buy).
 
-### Posso personalizzare l'aspetto della cartella di lavoro Excel recuperata?
+### 5. Qual è la lunghezza massima del titolo per l'ottimizzazione SEO?
 
-Sì, puoi personalizzare l'aspetto e la formattazione della cartella di lavoro Excel utilizzando librerie come EPPlus o ClosedXML.
+Per l'ottimizzazione SEO, si consiglia di mantenere il titolo sotto i 60 caratteri per garantire che venga visualizzato correttamente nei risultati dei motori di ricerca.

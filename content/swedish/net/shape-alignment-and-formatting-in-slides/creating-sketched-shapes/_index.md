@@ -44,7 +44,7 @@ PointF[] points = new PointF[]
     new PointF(100, 200)
 };
 
-// Lägg till en friformsform på bilden
+// Lägg till en friform till bilden
 IFreeformShape freeformShape = slide.Shapes.AddFreeform(ShapeType.Rectangle, points);
 
 // Anpassa utseendet på den skissade formen

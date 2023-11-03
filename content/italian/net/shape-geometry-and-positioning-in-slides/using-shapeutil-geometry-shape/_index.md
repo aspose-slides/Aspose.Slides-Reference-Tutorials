@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil fornisce anche metodi per disporre e allineare le forme sulle diapositive.
 
 ```csharp
-//Disporre le forme orizzontalmente
+// Disporre le forme orizzontalmente
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Allinea le forme al centro
@@ -88,7 +88,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 ShapeUtil ti consente di applicare la formattazione alle forme, inclusi gli stili di riempimento e di linea.
 
 ```csharp
-// Applica il colore di riempimento
+//Applica il colore di riempimento
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
 // Applicare il colore e lo stile della linea

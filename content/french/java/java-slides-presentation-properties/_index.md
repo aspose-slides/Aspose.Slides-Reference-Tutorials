@@ -20,9 +20,9 @@ Imaginez que vous présentez un argumentaire de vente ou une conférence éducat
 
 Maintenant que nous avons souligné l’importance des propriétés de présentation, passons au côté pratique des choses. Démarrer avec Aspose.Slides pour Java est un jeu d’enfant. Voici les étapes clés pour démarrer votre voyage :
 
-1.  Installation et configuration : commencez par télécharger Aspose.Slides pour Java à partir du site officiel[lien de téléchargement](https://releases.aspose.com/slides/java/). Suivez les instructions d'installation pour l'intégrer de manière transparente dans votre projet Java.
+1.  Installation et configuration : commencez par télécharger Aspose.Slides for Java à partir du[lien de téléchargement](https://releases.aspose.com/slides/java/). Suivez les instructions d'installation pour l'intégrer de manière transparente dans votre projet Java.
 
-2.  Documentation API : pour un guide complet sur l'utilisation d'Aspose.Slides pour Java, reportez-vous au site officiel[Documentation API](https://reference.aspose.com/slides/java/). C'est votre ressource incontournable pour comprendre les subtilités de la bibliothèque.
+2.  Documentation API : pour un guide complet sur l'utilisation d'Aspose.Slides pour Java, reportez-vous au[Documentation API](https://reference.aspose.com/slides/java/). C'est votre ressource incontournable pour comprendre les subtilités de la bibliothèque.
 
 3. Explorer les didacticiels : pour obtenir des informations pratiques, explorez la liste des didacticiels fournie par Aspose.Slides. Ces didacticiels couvrent un large éventail de sujets, de la création de diapositives de base aux techniques d'animation avancées. Vous y trouverez de précieux trucs et astuces pour rehausser vos présentations.
 

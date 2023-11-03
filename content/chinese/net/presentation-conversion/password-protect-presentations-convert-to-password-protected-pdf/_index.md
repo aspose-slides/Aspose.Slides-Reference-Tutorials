@@ -14,7 +14,7 @@ url: /zh/net/presentation-conversion/password-protect-presentations-convert-to-p
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
-- Aspose.Slides for .NET：您应该在开发环境中安装并设置 Aspose.Slides for .NET。你可以下载它[这里](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：您应该在开发环境中安装并设置 Aspose.Slides for .NET。你可以下载它[这里](https://releases.aspose.com/slides/net/).
 
 ## 第 1 步：初始化您的项目
 

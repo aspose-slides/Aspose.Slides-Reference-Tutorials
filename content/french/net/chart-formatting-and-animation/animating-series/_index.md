@@ -1,120 +1,111 @@
 ---
-title: Animation de séries dans un graphique
+title: Animer une série de graphiques avec Aspose.Slides pour .NET
 linktitle: Animation de séries dans un graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment animer des séries de graphiques à l’aide d’Aspose.Slides pour .NET. Créez des présentations dynamiques avec des visualisations de données attrayantes.
+description: Découvrez comment animer des séries de graphiques avec Aspose.Slides pour .NET. Engagez votre public avec des présentations dynamiques. Commencez maintenant!
 type: docs
 weight: 12
 url: /fr/net/chart-formatting-and-animation/animating-series/
 ---
 
-## Introduction à l'animation de séries dans un graphique
+Cherchez-vous à ajouter du piquant à vos présentations avec des graphiques animés ? Aspose.Slides pour .NET est là pour donner vie à vos graphiques. Dans ce guide étape par étape, nous allons vous montrer comment animer des séries dans un graphique à l'aide d'Aspose.Slides pour .NET. Mais avant de plonger dans l’action, abordons les conditions préalables.
 
-L'animation de séries dans un graphique implique l'ajout d'un mouvement dynamique aux points de données, rendant la présentation plus attrayante et mémorable. Cette technique est largement utilisée dans les présentations commerciales, le contenu éducatif et même la narration. Avec Aspose.Slides pour .NET, vous pouvez automatiser ce processus, garantissant ainsi la cohérence et gagnant un temps précieux.
+## Conditions préalables
 
-## Premiers pas avec Aspose.Slides pour .NET
+Pour réussir à animer des séries dans un graphique à l’aide d’Aspose.Slides pour .NET, vous aurez besoin des éléments suivants :
 
-## Installation de la bibliothèque Aspose.Slides
+### 1. Aspose.Slides pour la bibliothèque .NET
 
-Pour commencer, vous devez installer la bibliothèque Aspose.Slides. Vous pouvez le faire en utilisant NuGet, un gestionnaire de packages pour les projets .NET. Ouvrez votre projet dans Visual Studio et suivez ces étapes :
+ Assurez-vous que la bibliothèque Aspose.Slides pour .NET est installée. Si ce n'est pas déjà fait, vous pouvez le télécharger depuis[Site Web Aspose.Slides pour .NET](https://releases.aspose.com/slides/net/).
 
-1. Cliquez avec le bouton droit sur votre projet dans l'Explorateur de solutions.
-2. Sélectionnez « Gérer les packages NuGet ».
-3. Recherchez « Aspose.Slides » et cliquez sur « Installer » pour le package approprié.
+### 2. Présentation existante avec un graphique
 
-## Mise en place de votre projet
+Préparez une présentation PowerPoint (PPTX) avec un graphique existant que vous souhaitez animer.
 
-Après avoir installé la bibliothèque, vous devez configurer votre projet pour l'utiliser. Importez les espaces de noms et les références nécessaires dans votre code :
+Maintenant que nous avons couvert les conditions préalables, décomposons le processus en une série d’étapes pour animer la série de graphiques.
+
+
+## Étape 1 : Importer les espaces de noms nécessaires
+
+Vous devrez importer les espaces de noms requis dans votre code C# pour travailler avec Aspose.Slides pour .NET :
 
 ```csharp
+﻿using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
+using Aspose.Slides.Animation;
 using Aspose.Slides;
-using Aspose.Slides.Charts;
 ```
 
-## Création d'un graphique dans une diapositive PowerPoint
+## Étape 2 : Charger la présentation existante
 
-Passons maintenant à la création d'un graphique à l'aide d'Aspose.Slides pour .NET.
-
-## Ajout de données au graphique
-
-Avant d'animer la série de graphiques, vous devez remplir le graphique avec des données. Voici comment créer un histogramme simple et y ajouter des données :
+Dans cette étape, chargez votre présentation PowerPoint (PPTX) existante contenant le graphique que vous souhaitez animer.
 
 ```csharp
-// Créer une nouvelle présentation PowerPoint
-using (Presentation presentation = new Presentation())
+// Chemin d'accès au répertoire des documents
+string dataDir = "Your Document Directory";
+
+//Instancier la classe Présentation qui représente un fichier de présentation
+using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
-    // Ajouter une diapositive
-    ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.Blank);
-
-    //Ajouter un graphique à la diapositive
-    IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 600, 400);
-
-    // Ajouter des séries de données au graphique
-    IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-    IChartSeries series = chart.ChartData.Series.Add(workbook.GetCell(0, "A1"), chart.Type);
-    series.Values.Add(workbook.GetCell(0, "B1"));
-    series.Values.Add(workbook.GetCell(0, "B2"));
-
-    // Personnaliser les étiquettes et les titres des graphiques
-    chart.HasTitle = true;
-    chart.ChartTitle.TextFrame.Text = "Sales Data";
-    chart.Axes.VerticalAxis.Title.TextFrame.Text = "Amount";
+    // Votre code va ici
 }
 ```
 
-## Personnalisation de l'apparence du graphique
+## Étape 3 : obtenir la référence de l'objet graphique
 
-Vous pouvez améliorer davantage l'apparence du graphique en personnalisant les couleurs, les polices et d'autres éléments visuels. Aspose.Slides fournit des options étendues pour modifier ces attributs par programme.
-
-## Ajout d'une animation à une série de graphiques
-
-L'animation de séries de graphiques ajoute un élément dynamique à votre présentation. Aspose.Slides vous permet d'appliquer divers effets d'animation aux éléments du graphique.
-
-## Types d'animations
-
-Aspose.Slides prend en charge plusieurs effets d'animation, notamment :
-
-- Animations d'entrée : les éléments entrent dans la diapositive.
-- Animations d'accentuation : Mettez en valeur un élément déjà présent sur la diapositive.
-- Quitter les animations : les éléments quittent la diapositive.
-
-## Animation de séries de données
-
-L'animation d'une série de données implique l'application d'effets d'animation aux éléments du graphique. Voici un exemple de la façon dont vous pouvez animer une série de graphiques :
+Pour utiliser le graphique dans votre présentation, vous devrez obtenir une référence à l'objet graphique :
 
 ```csharp
-// Ajouter une animation à la série de graphiques
-IChartSeries series = chart.ChartData.Series[0];
-series.ParentShape.AnimationSettings.EntryEffect = AnimationEffect.Zoom;
-series.ParentShape.AnimationSettings.AdvanceTime = 2000; // Durée de l'animation en millisecondes
+var slide = presentation.Slides[0] as Slide;
+var shapes = slide.Shapes as ShapeCollection;
+var chart = shapes[0] as IChart;
 ```
 
-## Exporter et partager votre présentation animée
+## Étape 4 : Animer la série
 
-Une fois que vous avez ajouté une animation à votre série de graphiques, vous pouvez exporter la présentation dans différents formats, tels que PowerPoint (PPTX) ou PDF, et la partager avec votre public.
+Il est maintenant temps d'ajouter des effets d'animation à votre série de graphiques. Nous ajouterons un effet de fondu à l'ensemble du graphique et ferons apparaître chaque série une par une.
+
+```csharp
+// Animer le graphique
+slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+
+// Ajouter une animation à chaque série
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMajorGroupingType.BySeries, 0, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMajorGroupingType.BySeries, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMajorGroupingType.BySeries, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMajorGroupingType.BySeries, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+```
+
+## Étape 5 : Enregistrez la présentation modifiée
+
+Une fois que vous avez ajouté les effets d'animation à votre graphique, enregistrez la présentation modifiée sur le disque.
+
+```csharp
+// Enregistrez la présentation modifiée
+presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
+```
+
+C'est ça! Vous avez réussi à animer une série dans un graphique à l’aide d’Aspose.Slides pour .NET.
 
 ## Conclusion
 
-L'intégration de séries animées dans des graphiques peut transformer vos présentations statiques en dynamiques, captant l'attention de votre public et transmettant efficacement les informations. Avec Aspose.Slides pour .NET, vous disposez des outils nécessaires pour créer des présentations attrayantes qui laissent un impact durable.
+Dans ce didacticiel, nous vous avons expliqué le processus d'animation de séries dans un graphique à l'aide d'Aspose.Slides pour .NET. Avec cette puissante bibliothèque, vous pouvez créer des présentations attrayantes et dynamiques qui captivent votre public.
+
+ Si vous avez des questions ou avez besoin d'aide supplémentaire, n'hésitez pas à contacter la communauté Aspose.Slides sur leur[forum d'entraide](https://forum.aspose.com/).
 
 ## FAQ
 
-### Comment installer Aspose.Slides pour .NET ?
+### Puis-je animer d’autres éléments de graphique en plus des séries à l’aide d’Aspose.Slides pour .NET ?
+Oui, vous pouvez animer divers éléments de graphique, notamment des points de données, des axes et des légendes, à l'aide d'Aspose.Slides pour .NET.
 
- Vous pouvez installer Aspose.Slides pour .NET à l’aide de NuGet. Reportez-vous à la documentation pour obtenir des instructions d'installation détaillées :[Lien vers la documentation](https://docs.aspose.com/slides/net/installation/)
+### Aspose.Slides pour .NET est-il compatible avec les dernières versions de PowerPoint ?
+Aspose.Slides for .NET prend en charge différentes versions de PowerPoint, notamment PowerPoint 2007 et versions ultérieures, garantissant ainsi la compatibilité avec les versions les plus récentes.
 
-### Puis-je personnaliser les effets d'animation ?
+### Puis-je personnaliser les effets d’animation pour chaque série de graphiques individuellement ?
+Oui, vous pouvez personnaliser les effets d'animation pour chaque série de graphiques afin de créer des présentations uniques et attrayantes.
 
-Absolument! Aspose.Slides propose une gamme d'effets d'animation que vous pouvez personnaliser selon vos préférences. Consultez la documentation de l'animation pour plus de détails :[Lien vers la documentation](https://reference.aspose.com/slides/net/aspose.slides.animation/)
+### Existe-t-il une version d’essai disponible pour Aspose.Slides pour .NET ?
+ Oui, vous pouvez essayer la bibliothèque avec un essai gratuit depuis le[Site Web Aspose.Slides pour .NET](https://releases.aspose.com/).
 
-### Aspose.Slides convient-il aux graphiques simples et complexes ?
-
-Oui, Aspose.Slides pour .NET prend en charge la création et l'animation de graphiques simples et complexes, vous permettant de visualiser efficacement vos données quelle que soit leur complexité.
-
-### Puis-je exporter ma présentation vers des formats autres que PowerPoint ?
-
- En effet, Aspose.Slides prend en charge l'exportation de présentations vers différents formats, notamment PDF, images, etc. Reportez-vous à la documentation d'exportation pour une liste complète des formats pris en charge :[Lien vers la documentation](https://reference.aspose.com/slides/net/exporting/)
-
-### Où puis-je accéder à la documentation Aspose.Slides pour .NET ?
-
- Vous pouvez trouver une documentation complète et des exemples sur la page de documentation Aspose.Slides :[Lien vers la documentation](https://docs.aspose.com/slides/net/)
+### Où puis-je acheter une licence pour Aspose.Slides pour .NET ?
+ Vous pouvez acquérir une licence pour Aspose.Slides pour .NET à partir de la page d'achat[ici](https://purchase.aspose.com/buy).

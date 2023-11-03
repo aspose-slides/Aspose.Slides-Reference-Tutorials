@@ -14,7 +14,7 @@ Günümüzün dijital çağında hassas sunumlarınızın güvenliğini sağlama
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- Aspose.Slides for .NET: Geliştirme ortamınızda Aspose.Slides for .NET'in kurulu ve ayarlanmış olması gerekir. İndirebilirsin[Burada](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Geliştirme ortamınızda Aspose.Slides for .NET'in kurulu ve ayarlanmış olması gerekir. İndirebilirsin[Burada](https://releases.aspose.com/slides/net/).
 
 ## 1. Adım: Projenizi Başlatın
 
@@ -22,7 +22,7 @@ Başlamak için yeni bir proje kurmanız veya tercih ettiğiniz .NET geliştirme
 
 ## 2. Adım: Sununuzu İçe Aktarın
 
- Artık dönüştürmek istediğiniz sunuyu parola korumalı bir PDF'ye aktaracaksınız. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın yolu ile ve`"DemoFile.pptx"` sunum dosyanızın adıyla. İşte örnek bir kod pasajı:
+Artık dönüştürmek istediğiniz sunuyu parola korumalı bir PDF'ye aktaracaksınız. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın yolu ile ve`"DemoFile.pptx"` sunum dosyanızın adıyla. İşte örnek bir kod pasajı:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -76,4 +76,4 @@ Evet, parola korumalı PDF'ler açılmak için parola gerektirdiğinden daha yü
 
 ### Aspose.Slides for .NET API belgelerine nereden erişebilirim?
 
- Aspose.Slides for .NET belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/net/).
+Aspose.Slides for .NET belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/net/).

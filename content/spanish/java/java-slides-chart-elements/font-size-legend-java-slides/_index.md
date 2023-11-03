@@ -94,7 +94,7 @@ finally
 
 ## Conclusión
 
-Ha personalizado con éxito el tamaño de fuente de la leyenda en una diapositiva de PowerPoint de Java utilizando Aspose.Slides para Java. Puede explorar más a fondo las capacidades de Aspose.Slides para crear presentaciones interactivas y visualmente atractivas.
+Ha personalizado con éxito el tamaño de fuente de la leyenda en una diapositiva de PowerPoint Java utilizando Aspose.Slides para Java. Puede explorar más a fondo las capacidades de Aspose.Slides para crear presentaciones interactivas y visualmente atractivas.
 
 ## Preguntas frecuentes
 

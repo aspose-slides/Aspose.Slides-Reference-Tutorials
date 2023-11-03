@@ -86,7 +86,7 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
             try
             {
                 // görüntüyü sunuma ekleyelim - KeepLocked davranışını seçiyoruz çünkü
-                // "largeImage.png" dosyasına erişme niyetiniz varsa.
+                // "largeImage.png" dosyasına erişme niyetiniz var.
                 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
                 pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
                 // sunuyu kaydedin. Buna rağmen çıktı sunumu olacak

@@ -24,7 +24,7 @@ Para comenzar, cree un nuevo proyecto en su entorno de desarrollo preferido. Ase
 
 ## 4. Cargando la presentación
 
-En su código fuente, deberá especificar la ubicación de su presentación de PowerPoint. Reemplazar`"Your Document Directory"` con la ruta a su archivo de presentación.
+ En su código fuente, deberá especificar la ubicación de su presentación de PowerPoint. Reemplazar`"Your Document Directory"` con la ruta a su archivo de presentación.
 
 ```csharp
 string dataDir = "Your Document Directory";

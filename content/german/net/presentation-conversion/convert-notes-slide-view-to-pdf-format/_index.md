@@ -75,6 +75,6 @@ Absolut! Aspose.Slides für .NET bietet verschiedene Optionen zum Anpassen der P
 
 ### F4: Wo finde ich weitere Tutorials und Beispiele für Aspose.Slides für .NET?
 
- Weitere Tutorials und Beispiele finden Sie unter[Aspose.Slides für .NET API-Dokumentation](https://reference.aspose.com/slides/net/).
+Weitere Tutorials und Beispiele finden Sie unter[Aspose.Slides für .NET API-Dokumentation](https://reference.aspose.com/slides/net/).
 
 Nachdem Sie die Notes-Folienansicht nun erfolgreich in das PDF-Format konvertiert haben, können Sie weitere Funktionen und Möglichkeiten von Aspose.Slides für .NET erkunden, um Ihre PowerPoint-Automatisierungsaufgaben zu verbessern. Viel Spaß beim Codieren!

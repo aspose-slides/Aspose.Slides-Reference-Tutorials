@@ -161,7 +161,7 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
 ## Slutsats
 
-den här omfattande självstudien har vi lärt oss hur man ändrar ett befintligt diagram i en PowerPoint-presentation med Aspose.Slides för Java. Genom att följa steg-för-steg-guiden och använda källkodsexempel kan du enkelt anpassa och uppdatera diagram för att möta dina specifika krav. Här är en sammanfattning av vad vi tog upp:
+den här omfattande självstudien har vi lärt oss hur man ändrar ett befintligt diagram i en PowerPoint-presentation med Aspose.Slides för Java. Genom att följa den steg-för-steg-guiden och använda källkodsexempel kan du enkelt anpassa och uppdatera diagram för att möta dina specifika krav. Här är en sammanfattning av vad vi tog upp:
 
 ## FAQ's
 

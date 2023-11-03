@@ -20,9 +20,9 @@ Föreställ dig att du håller en säljpresentation eller en pedagogisk förelä
 
 Nu när vi har lyft fram betydelsen av presentationsegenskaper, låt oss gå in på den praktiska sidan av saker och ting. Att komma igång med Aspose.Slides för Java är en bris. Här är de viktigaste stegen för att kickstarta din resa:
 
-1.  Installation och installation: Börja med att ladda ner Aspose.Slides för Java från tjänstemannen[nedladdningslänk](https://releases.aspose.com/slides/java/). Följ installationsinstruktionerna för att integrera det sömlöst i ditt Java-projekt.
+1.  Installation och installation: Börja med att ladda ner Aspose.Slides för Java från[nedladdningslänk](https://releases.aspose.com/slides/java/). Följ installationsinstruktionerna för att integrera det sömlöst i ditt Java-projekt.
 
-2.  API-dokumentation: För en omfattande guide om hur du använder Aspose.Slides för Java, se tjänstemannen[API dokumentation](https://reference.aspose.com/slides/java/). Det är din bästa resurs för att förstå bibliotekets krångligheter.
+2.  API-dokumentation: För en omfattande guide om hur du använder Aspose.Slides för Java, se[API dokumentation](https://reference.aspose.com/slides/java/). Det är din bästa resurs för att förstå bibliotekets krångligheter.
 
 3. Utforska självstudiekurser: För att få praktiska insikter, utforska självstudierna som tillhandahålls av Aspose.Slides. Dessa handledningar täcker ett brett spektrum av ämnen, från grundläggande bildskapande till avancerade animeringstekniker. Du hittar ovärderliga tips och tricks för att lyfta dina presentationer.
 

@@ -1,152 +1,263 @@
 ---
-title: 图表实体和格式
+title: 使用 Aspose.Slides for .NET 创建漂亮的图表
 linktitle: 图表实体和格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解使用 Aspose.Slides for .NET 在 PowerPoint 中创建动态图表并设置其格式。带有源代码的分步指南。
+description: 了解如何使用 Aspose.Slides for .NET 创建令人惊叹的图表。通过我们的分步指南提升您的数据可视化游戏水平。
 type: docs
 weight: 13
 url: /zh/net/advanced-chart-customization/chart-entities/
 ---
 
-## Aspose.Slides 和图表操作简介
+在当今数据驱动的世界中，有效的数据可视化是向受众传达信息的关键。 Aspose.Slides for .NET 是一个功能强大的库，使您能够创建令人惊叹的演示文稿和幻灯片，包括引人注目的图表。在本教程中，我们将引导您完成使用 Aspose.Slides for .NET 创建漂亮图表的过程。我们将每个示例分解为多个步骤，以帮助您理解和实施图表实体和格式。那么，让我们开始吧！
 
-Aspose.Slides for .NET 是一个综合库，使开发人员能够以编程方式创建、编辑和操作 PowerPoint 演示文稿。当谈到图表时，Aspose.Slides 提供了广泛的功能来在演示幻灯片中添加、修改和格式化图表。
+## 先决条件
 
-## 设置您的开发环境
+在我们深入使用 Aspose.Slides for .NET 创建漂亮的图表之前，您需要确保满足以下先决条件：
 
-首先，请确保您有一个安装了 Aspose.Slides for .NET 的工作开发环境。您可以从以下位置下载该库[这里](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET：确保您已安装 Aspose.Slides for .NET 库。您可以从[网站](https://releases.aspose.com/slides/net/).
 
-## 将图表添加到幻灯片
+2. 开发环境：您应该拥有一个包含 Visual Studio 或任何其他支持 .NET 开发的 IDE 的工作开发环境。
 
-让我们首先向幻灯片添加图表。以下代码演示了如何创建新演示文稿、添加幻灯片以及在其中插入图表：
+3. 基本 C# 知识：熟悉 C# 编程对于本教程至关重要。
+
+现在我们已经满足了先决条件，让我们继续使用 Aspose.Slides for .NET 创建漂亮的图表。
+
+## 导入命名空间
+
+首先，您需要导入必要的命名空间以使用 Aspose.Slides for .NET：
 
 ```csharp
-//实例化演示对象
-Presentation presentation = new Presentation();
-
-//添加幻灯片
-ISlide slide = presentation.Slides.AddEmptySlide();
-
-//将图表添加到幻灯片
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
+using System.IO;
+using Aspose.Slides;
+using System.Drawing;
+using Aspose.Slides.Export;
+using Aspose.Slides.Charts;
 ```
 
-## 修改图表数据
+## 第 1 步：创建演示文稿
 
-没有数据，图表就毫无意义。 Aspose.Slides 使您能够轻松地用数据填充图表。以下是修改图表数据的方法：
+我们首先创建一个要使用的新演示文稿。该演示文稿将作为我们图表的画布。
 
 ```csharp
-//访问图表的工作簿
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
+//文档目录的路径。
+string dataDir = "Your Document Directory";
 
-//访问图表的工作表
-IChartDataWorksheet worksheet = workbook.Worksheets[0];
+//如果目录尚不存在，则创建该目录。
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
 
-//填充图表数据
-worksheet.Cells["A1"].Value = "Category";
-worksheet.Cells["A2"].Value = "Apple";
-worksheet.Cells["A3"].Value = "Banana";
-//...
-
-worksheet.Cells["B1"].Value = "Value";
-worksheet.Cells["B2"].Value = 25;
-worksheet.Cells["B3"].Value = 40;
-//...
+//实例化演示
+Presentation pres = new Presentation();
 ```
 
-## 自定义图表外观
+## 第 2 步：访问第一张幻灯片
 
-设置图表格式可以增强其视觉吸引力。让我们探讨一下如何格式化图表的各个方面：
-
-## 设置图表标题和轴的格式
-
-您可以使用以下代码格式化图表标题和轴：
+让我们访问演示文稿中的第一张幻灯片，我们将在其中放置图表。
 
 ```csharp
+//访问第一张幻灯片
+ISlide slide = pres.Slides[0];
+```
+
+## 第 3 步：添加示例图表
+
+现在，我们将在幻灯片中添加示例图表。在此示例中，我们将创建一个带有标记的折线图。
+
+```csharp
+//添加示例图表
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
+```
+
+## 第 4 步：设置图表标题
+
+我们将为图表指定一个标题，使其信息更丰富且更具视觉吸引力。
+
+```csharp
+//设置图表标题
 chart.HasTitle = true;
-chart.ChartTitle.TextFrame.Text = "Sales Report";
-
-chart.Axes.HorizontalAxis.Title.TextFrame.Text = "Fruits";
-chart.Axes.VerticalAxis.Title.TextFrame.Text = "Quantity";
+chart.ChartTitle.AddTextFrameForOverriding("");
+IPortion chartTitle = chart.ChartTitle.TextFrameForOverriding.Paragraphs[0].Portions[0];
+chartTitle.Text = "Sample Chart";
+chartTitle.PortionFormat.FillFormat.FillType = FillType.Solid;
+chartTitle.PortionFormat.FillFormat.SolidFillColor.Color = Color.Gray;
+chartTitle.PortionFormat.FontHeight = 20;
+chartTitle.PortionFormat.FontBold = NullableBool.True;
+chartTitle.PortionFormat.FontItalic = NullableBool.True;
 ```
 
-## 应用图表样式
+## 第 5 步：自定义垂直轴网格线
 
-应用预定义的图表样式使您的图表更具吸引力：
+在此步骤中，我们将自定义垂直轴网格线，使我们的图表更具视觉吸引力。
 
 ```csharp
-chart.ChartStyle = ChartStylePreset.Style2;
+//设置数值轴的主要网格线格式
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Blue;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.Width = 5;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.DashStyle = LineDashStyle.DashDot;
+
+//设置数值轴的次网格线格式
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Red;
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.Width = 3;
+
+//设定值轴号格式
+chart.Axes.VerticalAxis.IsNumberFormatLinkedToSource = false;
+chart.Axes.VerticalAxis.DisplayUnit = DisplayUnitType.Thousands;
+chart.Axes.VerticalAxis.NumberFormat = "0.0%";
 ```
 
-## 调整数据标签
+## 第 6 步：定义纵轴范围
 
-数据标签为图表提供上下文。像这样修改它们：
+在此步骤中，我们将设置垂直轴的最大值、最小值和单位值。
 
 ```csharp
-IDataLabel label = chart.Series[0].DataPoints[0].Label;
-label.ShowValue = true;
-label.DataLabelFormat.TextFormat.PortionFormat.FontBold = NullableBool.True;
+//设置图表最大值、最小值
+chart.Axes.VerticalAxis.IsAutomaticMajorUnit = false;
+chart.Axes.VerticalAxis.IsAutomaticMaxValue = false;
+chart.Axes.VerticalAxis.IsAutomaticMinorUnit = false;
+chart.Axes.VerticalAxis.IsAutomaticMinValue = false;
+
+chart.Axes.VerticalAxis.MaxValue = 15f;
+chart.Axes.VerticalAxis.MinValue = -2f;
+chart.Axes.VerticalAxis.MinorUnit = 0.5f;
+chart.Axes.VerticalAxis.MajorUnit = 2.0f;
 ```
 
-## 使用图表元素
+## 第7步：自定义垂直轴文本
 
-管理图表元素可以增强您对图表视觉表示的控制。让我们探讨一些技巧：
-
-## 管理数据系列
-
-您可以添加、删除和操作数据系列，如下所示：
+我们现在将自定义垂直轴上文本的外观。
 
 ```csharp
-IChartSeries series = chart.ChartData.Series.Add(worksheet.Cells, "A2:A3", "B2:B3");
+//设置值轴文本属性
+IChartPortionFormat txtVal = chart.Axes.VerticalAxis.TextFormat.PortionFormat;
+txtVal.FontBold = NullableBool.True;
+txtVal.FontHeight = 16;
+txtVal.FontItalic = NullableBool.True;
+txtVal.FillFormat.FillType = FillType.Solid;
+txtVal.FillFormat.SolidFillColor.Color = Color.DarkGreen;
+txtVal.LatinFont = new FontData("Times New Roman");
+
+//设置值轴标题
+chart.Axes.VerticalAxis.HasTitle = true;
+chart.Axes.VerticalAxis.Title.AddTextFrameForOverriding("");
+IPortion valtitle = chart.Axes.VerticalAxis.Title.TextFrameForOverriding.Paragraphs[0].Portions[0];
+valtitle.Text = "Primary Axis";
+valtitle.PortionFormat.FillFormat.FillType = FillType.Solid;
+valtitle.PortionFormat.FillFormat.SolidFillColor.Color = Color.Gray;
+valtitle.PortionFormat.FontHeight = 20;
+valtitle.PortionFormat.FontBold = NullableBool.True;
+valtitle.PortionFormat.FontItalic = NullableBool.True;
 ```
 
-## 处理图表图例
+## 第8步：自定义水平轴网格线
 
-图例提供有关图表组件的基本信息：
+现在，让我们自定义水平轴的网格线。
 
 ```csharp
-chart.Legend.Position = LegendPosition.Bottom;
+//设置类别轴的主要网格线格式
+chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
+chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
+
+//设置类别轴的次网格线格式
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
+
+//设置类别轴文本属性
+IChartPortionFormat txtCat = chart.Axes.HorizontalAxis.TextFormat.PortionFormat;
+txtCat.FontBold = NullableBool.True;
+txtCat.FontHeight = 16;
+txtCat.FontItalic = NullableBool.True;
+txtCat.FillFormat.Fill
+
+Type = FillType.Solid;
+txtCat.FillFormat.SolidFillColor.Color = Color.Blue;
+txtCat.LatinFont = new FontData("Arial");
 ```
 
-## 操作数据点
+## 第9步：自定义水平轴标签
 
-单独调整数据点以强调：
+在此步骤中，我们将调整水平轴标签的位置和旋转。
 
 ```csharp
-chart.Series[0].DataPoints[0].Format.Fill.FillType = FillType.Solid;
-chart.Series[0].DataPoints[0].Format.Fill.SolidFillColor.Color = Color.Red;
+//设置类别轴标签位置
+chart.Axes.HorizontalAxis.TickLabelPosition = TickLabelPositionType.Low;
+
+//设置类别轴标签旋转角度
+chart.Axes.HorizontalAxis.TickLabelRotationAngle = 45;
 ```
 
-## 导出并保存修改后的演示文稿
+## 第10步：自定义图例
 
-完成所需的图表修改后，您可以保存演示文稿：
+让我们增强图表中的图例以提高可读性。
 
 ```csharp
-presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
+//设置图例文本属性
+IChartPortionFormat txtleg = chart.Legend.TextFormat.PortionFormat;
+txtleg.FontBold = NullableBool.True;
+txtleg.FontHeight = 16;
+txtleg.FontItalic = NullableBool.True;
+txtleg.FillFormat.FillType = FillType.Solid;
+txtleg.FillFormat.SolidFillColor.Color = Color.DarkRed;
+
+//设置显示图表图例而不重叠图表
+chart.Legend.Overlay = true;
+```
+
+## 第11步：自定义图表背景
+
+我们将自定义图表、后墙和地板的背景颜色。
+
+```csharp
+//设置图表后墙颜色
+chart.BackWall.Thickness = 1;
+chart.BackWall.Format.Fill.FillType = FillType.Solid;
+chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
+
+chart.Floor.Format.Fill.FillType = FillType.Solid;
+chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
+
+//设置绘图区域颜色
+chart.PlotArea.Format.Fill.FillType = FillType.Solid;
+chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
+```
+
+## 第 12 步：保存演示文稿
+
+最后，让我们用格式化的图表保存演示文稿。
+
+```csharp
+//保存演示文稿
+pres.Save(dataDir + "FormattedChart_out.pptx", SaveFormat.Pptx);
 ```
 
 ## 结论
 
-在本指南中，我们使用 Aspose.Slides for .NET 探索了图表实体和格式的迷人世界。我们从添加和修改图表的基础知识开始，深入研究自定义其外观，甚至管理各种图表元素。 Aspose.Slides 为开发人员提供了一个强大的工具包，可以通过编程方式创建具有视觉吸引力和信息丰富的图表。
+使用 Aspose.Slides for .NET 在演示文稿中创建美观且信息丰富的图表现在比以往任何时候都更容易。在本教程中，我们介绍了自定义图表各个方面的基本步骤，使其具有视觉吸引力和信息量。通过这些技术，您可以创建令人惊叹的图表，将您的数据有效地传达给受众。
 
-## 常见问题解答
+开始尝试 Aspose.Slides for .NET，将您的数据可视化提升到一个新的水平！
 
-### 如何安装 Aspose.Slides for .NET？
+## 经常问的问题
 
-您可以从以下位置下载 Aspose.Slides for .NET[这里](https://releases.aspose.com/slides/net/).
+### 1. 什么是 Aspose.Slides for .NET？
 
-### 我可以将自定义样式应用于图表吗？
+Aspose.Slides for .NET 是一个功能强大的库，允许 .NET 开发人员创建、操作和转换 Microsoft PowerPoint 演示文稿。它提供了广泛的功能来处理幻灯片、形状、图表等。
 
-是的，您可以通过操作各种图表属性将自定义样式应用于图表。
+### 2. 在哪里可以下载 Aspose.Slides for .NET？
 
-### 如何向图表数据点添加数据标签？
+您可以从网站下载 Aspose.Slides for .NET[这里](https://releases.aspose.com/slides/net/).
 
-您可以使用以下命令将数据标签添加到图表数据点`DataLabel`数据点的属性。
+### 3. Aspose.Slides for .NET 是否有免费试用版？
 
-### Aspose.Slides 只适合高级开发人员吗？
+是的，您可以从以下位置获取 Aspose.Slides for .NET 的免费试用版：[这里](https://releases.aspose.com/).
 
-不，Aspose.Slides 旨在满足从初学者到专家等各个级别的开发人员的需求。
+### 4. 如何获得 Aspose.Slides for .NET 的临时许可证？
 
-### 我可以使用 Aspose.Slides 将图表导出为不同格式吗？
+如果您需要临时许可证，可以从以下位置获取：[这个链接](https://purchase.aspose.com/temporary-license/).
 
-绝对地！ Aspose.Slides 支持将演示文稿导出为各种格式，包括 PowerPoint 和 PDF。
+### 5. Aspose.Slides for .NET 有社区或支持论坛吗？
+
+是的，您可以找到 Aspose.Slides 社区和支持论坛[这里](https://forum.aspose.com/).

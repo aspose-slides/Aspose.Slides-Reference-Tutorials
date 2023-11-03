@@ -72,7 +72,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 {
     if (shape is IAutoShape autoShape && autoShape.TextFrame != null)
     {
-        // Применение двухцветных эффектов к тексту
+        //Применение двухцветных эффектов к тексту
         DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
         duotoneEffect.FirstColor = Color.Black;
         duotoneEffect.SecondColor = Color.White;
@@ -83,7 +83,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 
 ## Настройка двухцветных цветов
 
- Вы можете настроить двухцветные цвета в соответствии с вашими дизайнерскими предпочтениями. Просто замените`FirstColor` и`SecondColor`значения с желаемыми цветами.
+ Вы можете настроить двухцветные цвета в соответствии с вашими дизайнерскими предпочтениями. Просто замените`FirstColor` и`SecondColor` значения с желаемыми цветами.
 
 ## Сохранение и экспорт измененной презентации
 

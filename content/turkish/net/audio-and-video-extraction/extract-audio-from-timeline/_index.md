@@ -1,102 +1,112 @@
 ---
-title: Zaman Çizelgesinden Sesi Çıkar
+title: PowerPoint Zaman Çizelgesinden Sesi Çıkarın
 linktitle: Zaman Çizelgesinden Sesi Çıkar
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint zaman çizelgelerinden nasıl ses çıkaracağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
+description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarından nasıl ses çıkaracağınızı öğrenin. Multimedya içeriğinizi kolaylıkla geliştirin.
 type: docs
 weight: 13
 url: /tr/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
 
-## Aspose.Slides for .NET'e Giriş
-
-Aspose.Slides for .NET, geliştiricilerin Microsoft Office'in kurulmasına gerek kalmadan PowerPoint sunumları oluşturmasına, düzenlemesine, dönüştürmesine ve değiştirmesine olanak tanıyan kapsamlı bir kitaplıktır. Slaytlar, şekiller, metinler, resimler ve hatta ses gibi sunum öğelerine erişim de dahil olmak üzere çok çeşitli özellikleri destekler. Bu kılavuzda bir sunumun zaman çizelgesinden ses çıkarmaya odaklanacağız.
-
-## PowerPoint Sunumlarında Zaman Çizelgesini Anlamak
-
-PowerPoint sunumundaki zaman çizelgesi olayların, animasyonların ve multimedya öğelerinin sırasını temsil eder. Buna slaytlarla senkronize edilen ses parçaları da dahildir. Aspose.Slides bu ses parçalarına programlı olarak erişmenizi ve çıkarmanızı sağlar.
+Multimedya sunumları dünyasında ses, mesajınızı etkili bir şekilde iletmek için güçlü bir araç olabilir. Aspose.Slides for .NET, PowerPoint sunumlarından ses çıkarmak için kusursuz bir çözüm sunar. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak bir PowerPoint sunumundan nasıl ses çıkaracağınızı göstereceğiz.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+PowerPoint sunumlarından ses çıkarmaya başlamadan önce aşağıdaki önkoşullara ihtiyacınız olacak:
 
-- Visual Studio veya herhangi bir uyumlu .NET geliştirme ortamı
--  Aspose.Slides kütüphanesi. Şuradan indirebilirsiniz[Burada](https://downloads.aspose.com/slides/net)
+1.  Aspose.Slides for .NET Library: Aspose.Slides for .NET kütüphanesinin kurulu olması gerekir. Henüz yüklemediyseniz adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
 
-## Adım 1: Aspose.Slides Kitaplığını Yükleme
+2. PowerPoint Sunumu: Sesi çıkarmak istediğiniz PowerPoint sunumunuza (PPTX) sahip olduğunuzdan emin olun. Sunum dosyasını seçtiğiniz bir dizine yerleştirin.
 
-1. Verilen bağlantıdan Aspose.Slides kütüphanesini indirin.
-2. Referansı Aspose.Slides derlemesine ekleyerek kitaplığı .NET projenize yükleyin.
+3. Temel C# Bilgisi: Bu eğitimde, C# programlama konusunda temel bir anlayışa sahip olduğunuz varsayılmaktadır.
 
-## Adım 2: Sunumu Yükleme
+Artık her şey hazır olduğuna göre adım adım kılavuza geçelim.
 
-Bir sunumdan ses çıkarmak için önce PowerPoint dosyasını yüklemeniz gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+## 1. Adım: Ad Alanlarını İçe Aktarın
+
+Başlamak için Aspose.Slides ile çalışmak ve dosya işlemlerini gerçekleştirmek için gerekli ad alanlarını içe aktarmanız gerekir. C# projenize aşağıdaki kodu ekleyin:
 
 ```csharp
 using Aspose.Slides;
-
-// Sunuyu yükle
-using var presentation = new Presentation("presentation.pptx");
+using System.IO;
 ```
 
-## 3. Adım: Zaman Çizelgesine Erişim
+## Adım 2: Sesi Zaman Çizelgesinden Çıkarın
 
-Sunuyu yükledikten sonra zaman çizelgesine ve ilgili ses parçalarına erişebilirsiniz:
+Şimdi sağladığınız örneği birden fazla adıma ayıralım:
 
-```csharp
-// İlk slayda erişin
-var slide = presentation.Slides[0];
-
-// Slaydın zaman çizelgesine erişin
-var timeline = slide.Timeline;
-```
-
-## Adım 4: Sesi Zaman Çizelgesinden Çıkarma
-
-Artık zaman çizelgesine erişiminiz olduğuna göre sesi çıkarabilirsiniz:
+### Adım 2.1: Sunumu Yükleyin
 
 ```csharp
-foreach (var timeLineShape in timeline.Shapes)
+string pptxFile = Path.Combine("Your Document Directory", "AnimationAudio.pptx");
+
+using (Presentation pres = new Presentation(pptxFile))
 {
-    if (timeLineShape.MediaType == MediaType.Audio)
-    {
-        var audio = (IAudioFrame)timeLineShape;
-        //Ses işleme kodunu buraya çıkarın
-    }
+    // Kodunuz burada
 }
 ```
 
-## Adım 5: Çıkarılan Sesi Kaydetme
+ Bu adımda belirtilen dosyadan PowerPoint sunumunu yüklüyoruz. Değiştirdiğinizden emin olun`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
 
-Sesi çıkardıktan sonra istediğiniz formatta kaydedebilirsiniz:
+### Adım 2.2: Slayt ve Zaman Çizelgesine Erişin
 
 ```csharp
-audio.AudioData.WriteToFile("extracted_audio.mp3");
+ISlide slide = pres.Slides[0];
 ```
+
+Burada sunumdaki ilk slayda erişiyoruz. Gerekirse farklı bir slayta erişmek için dizini değiştirebilirsiniz.
+
+### Adım 2.3: Efekt Sırasını Çıkarın
+
+```csharp
+ISequence effectsSequence = slide.Timeline.MainSequence;
+```
+
+`MainSequence` özelliği, seçilen slaydın efekt sırasına erişmenizi sağlar.
+
+### Adım 2.4: Sesi Bayt Dizisi Olarak Çıkarın
+
+```csharp
+byte[] audio = effectsSequence[0].Sound.BinaryData;
+```
+
+Bu kod, sesi bir bayt dizisi olarak çıkarır. Bu örnekte, çıkarmak istediğiniz sesin efektler dizisinde ilk konumda (indeks 0) bulunduğunu varsayıyoruz. Ses farklı bir konumdaysa dizini değiştirebilirsiniz.
+
+### Adım 2.5: Çıkarılan Sesi Kaydedin
+
+```csharp
+string outMediaPath = Path.Combine(RunExamples.OutPath, "MediaTimeline.mpg");
+File.WriteAllBytes(outMediaPath, audio);
+```
+
+ Son olarak çıkarttığımız sesi medya dosyası olarak kaydediyoruz. Yukarıdaki kod onu kaydeder.`"MediaTimeline.mpg"` çıkış dizini içindeki dosya.
+
+Bu kadar! Aspose.Slides for .NET'i kullanarak bir PowerPoint sunumundan sesi başarıyla çıkardınız.
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for .NET kullanarak bir PowerPoint sunumunun zaman çizelgesinden nasıl ses çıkarılacağını araştırdık. Sunumun yüklenmesinden zaman çizelgesine erişmeye ve son olarak sesin çıkarılmasına kadar olan adımları ele aldık. Aspose.Slides bu süreci basitleştirerek PowerPoint sunumlarındaki çeşitli multimedya öğeleriyle programlı olarak çalışmayı kolaylaştırır.
+Aspose.Slides for .NET, PowerPoint sunumlarında multimedya öğeleriyle çalışmayı kolaylaştırır. Bu eğitimde, bir sunumdan adım adım ses çıkarmayı öğrendik. Doğru araçlar ve biraz C# bilgisiyle sunumlarınızı geliştirebilir ve ilgi çekici multimedya içeriği oluşturabilirsiniz.
 
-## SSS'ler
+ Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, bizimle iletişime geçmekten çekinmeyin.[Aspose.Slides destek forumu](https://forum.aspose.com/).
 
-### Aspose.Slides kütüphanesini nasıl kurabilirim?
+## Sıkça Sorulan Sorular (SSS)
 
- Aspose.Slides kütüphanesini şu adresten indirebilirsiniz:[Burada](https://downloads.aspose.com/slides/net). İndirdikten sonra .NET projenizdeki Aspose.Slides derlemesine bir referans ekleyin.
+### 1. Bir PowerPoint sunumundaki belirli slaytlardan ses çıkarabilir miyim?
 
-### Sunumdaki herhangi bir slayttan ses çıkarabilir miyim?
+Evet, sağlanan koddaki dizini değiştirerek PowerPoint sunumundaki herhangi bir slayttan ses çıkarabilirsiniz.
 
+### 2. Çıkarılan sesi Aspose.Slides for .NET kullanarak hangi formatlarda kaydedebilirim?
 
-Evet, Aspose.Slides for .NET'i kullanarak sunumdaki herhangi bir slaydın zaman çizelgesinden ses çıkartabilirsiniz.
+Aspose.Slides for .NET, çıkarılan sesi MP3, WAV veya desteklenen diğer ses formatları gibi çeşitli formatlarda kaydetmenize olanak tanır.
 
-### Çıkarılan sesi hangi formatlarda kaydedebilirim?
+### 3. Aspose.Slides for .NET, PowerPoint'in en son sürümleriyle uyumlu mu?
 
-Aspose.Slides, çıkarılan sesi MP3, WAV ve daha fazlası gibi çeşitli formatlarda kaydetmenize olanak tanır.
+Aspose.Slides for .NET, en yenileri de dahil olmak üzere çeşitli PowerPoint sürümleriyle uyumlu olacak şekilde tasarlanmıştır.
 
-### Aspose.Slides'ı kullanabilmek için Microsoft Office'in yüklü olması gerekiyor mu?
+### 4. Çıkarılan sesi Aspose.Slides kullanarak değiştirebilir ve düzenleyebilir miyim?
 
-Hayır, Microsoft Office'in kurulu olmasına gerek yok. Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışmak için gerekli tüm işlevleri sağlar.
+Evet, Aspose.Slides, PowerPoint sunumundan çıkarıldıktan sonra ses işleme ve düzenleme için kapsamlı özellikler sunar.
 
-### Aspose.Slides ticari projeler için uygun mudur?
+### 5. Aspose.Slides for .NET'in kapsamlı belgelerini nerede bulabilirim?
 
-Evet, Aspose.Slides hem kişisel hem de ticari projeler için uygundur. PowerPoint sunumlarını programlı olarak yönetmek için çok çeşitli özellikler sunar.
+ Aspose.Slides for .NET için ayrıntılı belgeler ve örnekler bulabilirsiniz.[Burada](https://reference.aspose.com/slides/net/).

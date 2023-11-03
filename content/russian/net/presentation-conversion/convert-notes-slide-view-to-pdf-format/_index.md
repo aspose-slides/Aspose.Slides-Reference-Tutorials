@@ -75,6 +75,6 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ### Вопрос 4. Где я могу найти дополнительные руководства и примеры для Aspose.Slides для .NET?
 
- Вы можете изучить дополнительные руководства и примеры на странице[Документация Aspose.Slides для .NET API](https://reference.aspose.com/slides/net/).
+Вы можете изучить дополнительные руководства и примеры на странице[Документация Aspose.Slides для .NET API](https://reference.aspose.com/slides/net/).
 
 Теперь, когда вы успешно преобразовали режим слайдов заметок в формат PDF, вы можете изучить дополнительные функции и возможности Aspose.Slides for .NET для улучшения задач автоматизации PowerPoint. Приятного кодирования!

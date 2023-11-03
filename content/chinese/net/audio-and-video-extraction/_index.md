@@ -18,7 +18,7 @@ url: /zh/net/audio-and-video-extraction/
 
 ## 为什么音频和视频提取很重要：
 
-多媒体元素在创建引人入胜且动态的演示文稿中发挥着至关重要的作用。无论您是构建电子学习模块、企业演示文稿还是交互式幻灯片，以编程方式提取和操作音频和视频内容的能力都开启了一个充满可能性的世界。 Aspose.Slides 简化了这一过程，使您能够通过整合根据您的应用程序需求定制的多媒体体验来增强您的演示文稿。
+多媒体元素在创建引人入胜且动态的演示文稿中发挥着至关重要的作用。无论您是构建电子学习模块、企业演示文稿还是交互式幻灯片，以编程方式提取和操作音频和视频内容的能力都开辟了一个充满可能性的世界。 Aspose.Slides 简化了这一过程，使您能够通过整合根据您的应用程序需求定制的多媒体体验来增强您的演示文稿。
 
 ## 音频和视频提取教程
 ### [使用 Aspose.Slides 从幻灯片中提取音频和视频](./audio-and-video-extraction/)
@@ -30,4 +30,4 @@ url: /zh/net/audio-and-video-extraction/
 ### [从时间轴提取音频](./extract-audio-from-timeline/)
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 时间线中提取音频。带有代码示例的分步指南。
 ### [从幻灯片中提取视频](./extract-video/)
-使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中掌握视频提取。请遵循我们的代码示例指南。
+使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中掌握视频提取。请按照我们的代码示例指南进行操作。

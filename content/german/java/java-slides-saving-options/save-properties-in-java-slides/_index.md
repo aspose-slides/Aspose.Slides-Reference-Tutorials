@@ -14,7 +14,7 @@ In diesem Tutorial führen wir Sie durch den Prozess des Speicherns von Eigensch
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihr Java-Projekt integriert ist. Sie können die Bibliothek von der offiziellen Aspose-Website herunterladen[Hier](https://downloads.aspose.com/slides/java).
+ Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihr Java-Projekt integriert ist. Sie können die Bibliothek von der Aspose-Website herunterladen[Hier](https://downloads.aspose.com/slides/java).
 
 ## Schritt 1: Erforderliche Bibliotheken importieren
 

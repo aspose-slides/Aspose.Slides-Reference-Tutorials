@@ -8,121 +8,109 @@ weight: 11
 url: /tr/net/licensing-and-formatting/metered-licensing/
 ---
 
-## Ölçülü Lisanslama Kullanımına Giriş
+## giriiş
 
-Yazılım geliştirme dünyasında lisanslama, geliştiricilerin uygulamalarını geliştirmek için güçlü kitaplıklara ve API'lere nasıl erişip bunları nasıl kullandıkları konusunda çok önemli bir rol oynar. Esneklik ve maliyet etkinliği sunan bu tür lisanslama modellerinden biri "Ölçülü Lisanslama"dır. Bu makale, .NET uygulamalarında PowerPoint sunumlarıyla çalışmak için popüler bir API olan Aspose.Slides for .NET ile Ölçülü Lisanslama'yı kullanma sürecinde size rehberlik edecektir.
+PowerPoint sunumlarıyla çalışmak için olağanüstü bir kütüphane olan Aspose.Slides for .NET'in gücünden yararlanmak mı istiyorsunuz? İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu adım adım kılavuz, Aspose.Slides'ı kullanarak PowerPoint dosyalarını zahmetsizce oluşturmak, değiştirmek ve yönetmek için bilmeniz gereken her şeyi size anlatacaktır. Ölçülü lisanslamayı ayarlamaktan ad alanlarına erişmeye kadar her şeyi ele aldık. Bu kapsamlı eğitimde, Aspose.Slides for .NET'te kolaylıkla uzmanlaşabilmenizi sağlamak için her örneği birden fazla adıma ayıracağız.
 
-## Ölçülü Lisanslamanın Yararları
+## Önkoşullar
 
-Teknik ayrıntılara girmeden önce, Ölçülü Lisanslamanın neden avantajlı olduğunu anlayalım. Geleneksel lisanslama modelleri genellikle ön maliyetleri, sabit lisansları ve lisans anahtarlarının manuel yönetimini içerir. Öte yandan, Ölçülü Lisanslama aşağıdaki avantajları sunar:
+Aspose.Slides for .NET dünyasına dalmadan önce yerine getirmeniz gereken birkaç önkoşul vardır:
 
-- Maliyet Verimliliği: Ölçülü Lisanslama ile yalnızca kullandığınız kadar ödersiniz. Bu, ön maliyetleri önemli ölçüde azaltabilir ve özellikle farklı kullanım modellerine sahip projeler için faydalıdır.
+1. Temel C# Bilgisi: Aspose.Slides for .NET bir C# kütüphanesi olduğundan, C# programlamayı iyi kavramanız gerekir.
 
-- Esneklik: Ölçülü Lisanslama, sabit sayıda lisansa bağlı kalmadan değişen proje gereksinimlerine uyum sağlamanıza olanak tanır. Gerektiğinde ölçeği büyütebilir veya küçültebilirsiniz.
+2. Visual Studio: Kodlama için sisteminizde Visual Studio'nun kurulu olması gerekir.
 
-- Basitleştirilmiş Yönetim: Lisans anahtarlarını yönetmeyi unutun. Ölçülü Lisanslama, lisansı başlatmak için basit bir API çağrısı kullanarak yönetimi sorunsuz hale getirir.
+3. Aspose.Slides Kütüphanesi: .NET için Aspose.Slides kütüphanesini indirip yüklediğinizden emin olun. Kütüphaneyi ve diğer talimatları şu adreste bulabilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/).
 
-## Aspose.Slides for .NET'e Başlarken
+Artık hazır olduğunuza göre Aspose.Slides for .NET yolculuğumuza başlayalım.
 
-## Kurulum ve Kurulum
+## Ad Alanlarını İçe Aktar
 
-Aspose.Slides for .NET'i Ölçülü Lisanslama ile kullanmaya başlamak için şu adımları izleyin:
+Aspose.Slides for .NET ile çalışmaya başlamak için gerekli ad alanlarını içe aktarmanız gerekir. Ad alanları, PowerPoint sunumlarıyla etkileşimde bulunmak için gereken sınıflara ve yöntemlere erişim sağladıklarından önemlidir. Gerekli ad alanlarını içe aktarma adımları şunlardır:
 
-1.  Aspose.Slides'ı indirin ve yükleyin:[Aspose.Slides ürün sayfası](https://products.aspose.com/slides/net) ve kütüphanenin en son sürümünü indirin. .NET projenize yükleyin.
+### 1. Adım: C# Projenizi Açın
 
-2. Gerekli Referansları Ekle: Projenize Aspose.Slides kütüphanesine ve diğer bağımlılıklara referanslar ekleyin.
+Aspose.Slides'ı kullanmayı planladığınız C# projenizi Visual Studio'da açın.
 
-## Ölçülü Lisansın Alınması
+### Adım 2: Referans Ekle
 
-1.  Ölçülü Hesap için Kaydolun: Henüz bir hesabınız yoksa, adresinden bir Ölçülü Hesap için kaydolun.[Web sitesi](https://www.aspose.com/).
+Solution Explorer'da "Referanslar" bölümüne sağ tıklayın ve "Referans Ekle"yi seçin.
 
-2.  Ölçülü Hesap Kimlik Bilgilerinizi Alın: Kaydolduktan sonra, aşağıdakileri içeren kimlik bilgilerini alacaksınız:`AppSID` Ve`AppKey`.
+### 3. Adım: Aspose.Slides Referansını Ekleyin
 
-## Ölçülü Lisansın Başlatılması
+"Referans Yöneticisi" penceresinde Aspose.Slides kütüphanesini indirip kurduğunuz konuma göz atın. Aspose.Slides derlemesini seçin ve "Ekle"ye tıklayın.
 
-Kodunuzda elde edilenleri kullanın`AppSID` Ve`AppKey` Ölçülü Lisansı başlatmak için:
+### 4. Adım: Ad Alanlarını İçe Aktarın
 
-```csharp
-Aspose.Slides.License license = new Aspose.Slides.License();
-license.SetMeteredKey("AppSID", "AppKey");
-```
-
-## Aspose.Slides API'sini Ölçülü Lisanslamayla Kullanma
-
-Ölçülü Lisans başlatıldığında Aspose.Slides API'sini her zamanki gibi kullanabilirsiniz. Örneğin, bir sunuyu yüklemek ve onu başka bir biçimde kaydetmek için:
+Şimdi C# kod dosyanızda gerekli ad alanlarını içe aktarın:
 
 ```csharp
-using (Presentation presentation = new Presentation("input.pptx"))
-{
-    presentation.Save("output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-}
+using Aspose.Slides;
 ```
 
-## API Çağrılarını İzleme
+Artık projenizde Aspose.Slides sınıflarını ve yöntemlerini kullanmaya hazırsınız.
 
-Aspose.Slides, API çağrılarını ve tüketimini takip etmenin kolay bir yolunu sunar:
+Aspose.Slides for .NET ile çalışırken ölçülü lisanslama çok önemlidir, çünkü API kullanımını takip etmenize ve lisanslamanızı etkili bir şekilde yönetmenize yardımcı olur. Süreci adım adım inceleyelim:
+
+## 1. Adım: Slayt Ölçülü Sınıfının Bir Örneğini Oluşturun
+
+ İlk önce bir örneğini oluşturun`Aspose.Slides.Metered` sınıf:
 
 ```csharp
-Metered metered = new Metered();
-Console.WriteLine("Usage Before: " + metered.GetConsumptionCredit());
+Aspose.Slides.Metered metered = new Aspose.Slides.Metered();
 ```
 
-## Tüketim Sınırlarının Kontrol Edilmesi
+Bu örnek, ölçülü anahtarınızı ayarlamanıza ve tüketim verilerine erişmenize olanak tanır.
 
-Tahsis edilen kota dahilinde olduğunuzdan emin olmak için tüketim sınırlarınızı da kontrol edebilirsiniz:
+## Adım 2: Ölçülen Anahtarı Ayarlayın
+
+ Erişmek`SetMeteredKey` özelliğini kullanın ve genel ve özel anahtarlarınızı parametre olarak iletin. Yer değiştirmek`"*****"` gerçek anahtarlarınızla.
 
 ```csharp
-Console.WriteLine("Consumption Quota: " + metered.GetConsumptionCredit());
+metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
-## Aşımların ve Yenilemelerin Ele Alınması
+## 3. Adım: API'yi Çağırmadan Önce Ölçülen Veri Miktarını Alın
 
-Kullanımınız tahsis edilen limite yaklaşırsa Aspose sizi bilgilendirecektir. Daha fazla kredi satın almayı veya kullanımınızı limitler dahilinde kalacak şekilde ayarlamayı seçebilirsiniz.
-
-## Verimli Kullanım İçin En İyi Uygulamalar
-
-Ölçülü Lisans kullanımınızı optimize etmek için:
-
-- Sonuçları Önbelleğe Alın: Mümkün olduğunda sonuçları önbelleğe alarak gereksiz API çağrılarından kaçının.
-
-- Toplu İşlemler: Mümkün olduğunda, API çağrılarını en aza indirmek için işlemleri toplu olarak gerçekleştirin.
-
-## Aspose.Slides for .NET ile Ölçülü Lisanslama için Örnek Kod
-
-Aşağıda Aspose.Slides ile Ölçülü Lisanslamanın nasıl kullanılacağına ilişkin tam bir örnek verilmiştir:
+Herhangi bir API çağrısı yapmadan önce tüketilen ölçülen veri miktarını kontrol edebilirsiniz:
 
 ```csharp
-Aspose.Slides.License license = new Aspose.Slides.License();
-license.SetMeteredKey("AppSID", "AppKey");
-
-using (Presentation presentation = new Presentation("input.pptx"))
-{
-    presentation.Save("output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-}
+decimal amountBefore = Aspose.Slides.Metered.GetConsumptionQuantity();
+Console.WriteLine("Amount Consumed Before: " + amountBefore.ToString());
 ```
+
+Bu size bu noktaya kadar tüketilen veriler hakkında bilgi sağlayacaktır.
+
+## 4. Adım: API'yi Çağırdıktan Sonra Ölçülen Veri Tutarını Alın
+
+API çağrıları yaptıktan sonra güncellenen ölçülen veri miktarını kontrol edebilirsiniz:
+
+```csharp
+decimal amountAfter = Aspose.Slides.Metered.GetConsumptionQuantity();
+Console.WriteLine("Amount Consumed After: " + amountAfter.ToString());
+```
+
+Bu adım, projenizin veri tüketimini izlemenize yardımcı olacaktır.
+
+Bu adımları izleyerek Aspose.Slides for .NET projenizde ölçülü lisanslamayı başarıyla uyguladınız.
 
 ## Çözüm
 
-Ölçülü Lisanslama, Aspose.Slides for .NET gibi güçlü API'leri kullanmanın esnek ve uygun maliyetli bir yolunu sunar. Bu makalede özetlenen adımları izleyerek, Ölçülü Lisanslamayı .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilir, böylece güçlü bir sunum düzenleme kitaplığının avantajlarından yararlanırken kullandığınız kadar ödeme yapmanıza olanak tanıyabilirsiniz.
+Bu adım adım kılavuzda, ad alanlarının içe aktarılması ve ölçülü lisanslamanın uygulanması da dahil olmak üzere Aspose.Slides for .NET kurulumunun temellerini ele aldık. Artık Aspose.Slides'ı kullanarak PowerPoint sunumları oluşturmak, değiştirmek ve yönetmek için iyi donanıma sahipsiniz. PowerPoint ile ilgili projelerinizi bir sonraki seviyeye taşımak için bu kitaplığın gücünden yararlanın.
 
-## SSS'ler
+## Sıkça Sorulan Sorular (SSS)
 
-### Ölçülü Lisanslamanın geleneksel lisanslamadan farkı nedir?
+### Aspose.Slides for .NET nedir?
+Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. PowerPoint dosyalarını oluşturmak, düzenlemek ve değiştirmek için çok çeşitli özellikler sunar.
 
-Ölçülü Lisanslama, sizi gerçek kullanımınıza göre ücretlendirirken, geleneksel lisanslama, önceden sabit sayıda lisans satın almayı içerir.
+### Aspose.Slides belgelerini nerede bulabilirim?
+ Aspose.Slides belgelerine şu adresten ulaşabilirsiniz:[bu bağlantı](https://reference.aspose.com/slides/net/).
 
-### Ne kadar kredi tükettiğimi takip edebilir miyim?
+### Aspose.Slides for .NET'in ücretsiz deneme sürümü mevcut mu?
+ Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
 
- Evet, kullanabilirsiniz`GetConsumptionCredit` Kullanımınızı takip etmek için Metered sınıfı tarafından sağlanan yöntem.
+### Aspose.Slides for .NET lisansını nasıl satın alabilirim?
+ Lisans satın almak için şu adresteki Aspose mağazasını ziyaret edin:[bu bağlantı](https://purchase.aspose.com/buy).
 
-### Tüketim limitimi aşarsam ne olur?
-
-Tüketim sınırınızı aşarsanız Aspose sizi bilgilendirecektir. Ek kredi satın alabilir veya kullanımınızı buna göre ayarlayabilirsiniz.
-
-### Ölçülü Lisanslama her tür proje için uygun mudur?
-
-Ölçülü Lisanslama, özellikle farklı kullanım kalıplarına sahip projeler için faydalıdır. Esneklik ve maliyet verimliliği sunar.
-
-### Ölçülü Lisanslamayı diğer Aspose API'leriyle kullanabilir miyim?
-
-Evet, Çeşitli Aspose API'leri için Ölçülü Lisanslama mevcuttur ve ihtiyaçlarınıza en uygun lisanslama modelini seçmenize olanak tanır.
+### Aspose.Slides desteği ve tartışmaları için bir forum var mı?
+ Evet, Aspose.Slides forumunda destek bulabilir ve tartışmalara katılabilirsiniz:[bu bağlantı](https://forum.aspose.com/).

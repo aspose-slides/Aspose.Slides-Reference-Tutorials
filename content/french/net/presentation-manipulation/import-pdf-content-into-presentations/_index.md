@@ -54,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de la page des versions[ici](https://releases.aspose.com/slides/net/).
 
 ### Puis-je importer le contenu de plusieurs pages d'un PDF ?
-Oui, vous pouvez spécifier plusieurs numéros de page dans le`ProcessPages` tableau pour importer le contenu de différentes pages d’un PDF.
+ Oui, vous pouvez spécifier plusieurs numéros de page dans le`ProcessPages` tableau pour importer le contenu de différentes pages d’un PDF.
 
 ### Existe-t-il des limites à l'importation de contenu PDF ?
 Bien qu'Aspose.Slides fournisse une solution puissante, le formatage du contenu importé peut varier en fonction de la complexité du PDF. Certains ajustements pourraient être nécessaires.

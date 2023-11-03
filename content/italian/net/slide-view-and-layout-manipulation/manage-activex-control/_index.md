@@ -7,13 +7,13 @@ type: docs
 weight: 13
 url: /it/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-I controlli ActiveX sono elementi potenti che possono migliorare la funzionalità e l'interattività delle presentazioni PowerPoint. Questi controlli ti consentono di incorporare e manipolare oggetti come lettori multimediali, moduli di immissione dati e altro direttamente all'interno delle diapositive. In questo articolo esploreremo come gestire i controlli ActiveX in PowerPoint utilizzando Aspose.Slides per .NET, una libreria versatile che consente una perfetta integrazione e manipolazione dei file PowerPoint nelle applicazioni .NET.
+controlli ActiveX sono elementi potenti che possono migliorare la funzionalità e l'interattività delle presentazioni PowerPoint. Questi controlli ti consentono di incorporare e manipolare oggetti come lettori multimediali, moduli di immissione dati e altro direttamente all'interno delle diapositive. In questo articolo esploreremo come gestire i controlli ActiveX in PowerPoint utilizzando Aspose.Slides per .NET, una libreria versatile che consente una perfetta integrazione e manipolazione dei file PowerPoint nelle applicazioni .NET.
 
 ## Aggiunta di controlli ActiveX alle diapositive di PowerPoint
 
 Per iniziare a incorporare i controlli ActiveX nelle presentazioni di PowerPoint, attenersi alla seguente procedura:
 
-1.  Crea una nuova presentazione di PowerPoint: innanzitutto crea una nuova presentazione di PowerPoint utilizzando Aspose.Slides per .NET. Puoi fare riferimento a[Aspose.Slides per riferimento all'API .NET](https://reference.aspose.com/slides/net/)per indicazioni su come lavorare con le presentazioni.
+1.  Crea una nuova presentazione di PowerPoint: innanzitutto crea una nuova presentazione di PowerPoint utilizzando Aspose.Slides per .NET. Puoi fare riferimento a[Aspose.Slides per riferimento all'API .NET](https://reference.aspose.com/slides/net/) per indicazioni su come lavorare con le presentazioni.
 
 2. Aggiungi una diapositiva: utilizza la libreria per aggiungere una nuova diapositiva alla presentazione. Questa sarà la diapositiva in cui desideri inserire il controllo ActiveX.
 
@@ -71,9 +71,9 @@ oleObjectFrame.SetProperty("Volume", 50);
 
 La personalizzazione delle proprietà del controllo ActiveX può migliorare notevolmente l'esperienza utente della presentazione. Ecco come personalizzare queste proprietà:
 
-1. Proprietà di accesso: come accennato in precedenza, è possibile accedere alle proprietà del controllo ActiveX utilizzando il file`IOleObjectFrame` riferimento.
+1.  Proprietà di accesso: come accennato in precedenza, è possibile accedere alle proprietà del controllo ActiveX utilizzando il file`IOleObjectFrame` riferimento.
 
-2.  Imposta proprietà: utilizza il file`SetProperty` metodo per impostare varie proprietà del controllo ActiveX. Ad esempio, puoi cambiare il colore dello sfondo in questo modo:
+2.  Imposta proprietà: utilizza il file`SetProperty`metodo per impostare varie proprietà del controllo ActiveX. Ad esempio, puoi cambiare il colore dello sfondo in questo modo:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);
@@ -130,7 +130,7 @@ Incorporare i controlli ActiveX nelle presentazioni PowerPoint può aumentare il
 
 ### Come posso aggiungere un controllo ActiveX a una diapositiva specifica?
 
- Per aggiungere un controllo ActiveX a una diapositiva specifica, puoi utilizzare il file`AddOleObjectFrame` metodo fornito da Aspose.Slides per .NET. Questo metodo consente di specificare la posizione, la dimensione e il ProgID del controllo ActiveX che si desidera inserire.
+Per aggiungere un controllo ActiveX a una diapositiva specifica, puoi utilizzare il file`AddOleObjectFrame` metodo fornito da Aspose.Slides per .NET. Questo metodo consente di specificare la posizione, la dimensione e il ProgID del controllo ActiveX che si desidera inserire.
 
 ### Posso manipolare i controlli ActiveX a livello di codice?
 
@@ -140,11 +140,11 @@ Incorporare i controlli ActiveX nelle presentazioni PowerPoint può aumentare il
 
  attivato dai controlli ActiveX?
 
-È possibile gestire gli eventi attivati dai controlli ActiveX iscrivendosi agli eventi corrispondenti utilizzando il file`EventClick` (o simile) gestore di eventi. Ciò consente di eseguire azioni specifiche in risposta alle interazioni dell'utente con il controllo.
+ È possibile gestire gli eventi attivati dai controlli ActiveX iscrivendosi agli eventi corrispondenti utilizzando il file`EventClick` (o simile) gestore di eventi. Ciò consente di eseguire azioni specifiche in risposta alle interazioni dell'utente con il controllo.
 
 ### È possibile personalizzare l'aspetto dei controlli ActiveX?
 
- Assolutamente, puoi personalizzare l'aspetto dei controlli ActiveX utilizzando il file`SetProperty` metodo fornito da Aspose.Slides per .NET. Questo metodo ti consente di modificare varie proprietà, come il colore di sfondo, lo stile del carattere e altro.
+ Assolutamente, puoi personalizzare l'aspetto dei controlli ActiveX utilizzando il file`SetProperty`metodo fornito da Aspose.Slides per .NET. Questo metodo ti consente di modificare varie proprietà, come il colore di sfondo, lo stile del carattere e altro.
 
 ### Posso rimuovere un controllo ActiveX da una diapositiva?
 

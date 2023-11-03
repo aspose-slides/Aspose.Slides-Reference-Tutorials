@@ -81,7 +81,7 @@ Bu makalede, Aspose.Slides for Java API'sini kullanarak Java Slides'ta grafik ve
 
 ### Aspose.Slides for Java'yı kullanarak PowerPoint slaytına nasıl grafik ekleyebilirim?
 
-Aspose.Slides for Java'yı kullanarak bir grafik nesnesi oluşturup, türünü ve verilerini belirleyip bunu bir slayda ekleyerek PowerPoint slaytına bir grafik ekleyebilirsiniz. Ayrıntılı örnekler için Aspose.Slides for Java belgelerine bakın.
+Aspose.Slides for Java'yı kullanarak bir grafik nesnesi oluşturup, türünü ve verilerini belirleyerek ve bunu bir slayda ekleyerek PowerPoint slaytına bir grafik ekleyebilirsiniz. Ayrıntılı örnekler için Aspose.Slides for Java belgelerine bakın.
 
 ### Bir grafikteki veri noktalarının görünümünü değiştirebilir miyim?
 

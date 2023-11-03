@@ -267,4 +267,4 @@ Se "Steg 5" för att anpassa axeletiketter och formatering, inklusive teckenstor
 
 ### Hur sparar jag diagrammet i ett annat filformat?
 
- Du kan ändra utdataformatet genom att ändra filtillägget i`outPath` variabel och använda lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.
+ Du kan ändra utdataformatet genom att ändra filtillägget i`outPath` variabel och använder lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.

@@ -24,7 +24,7 @@ För att komma igång, skapa ett nytt projekt i din föredragna utvecklingsmilj�
 
 ## 4. Laddar presentationen
 
- din källkod måste du ange platsen för din PowerPoint-presentation. Byta ut`"Your Document Directory"` med sökvägen till din presentationsfil.
+ I din källkod måste du ange platsen för din PowerPoint-presentation. Byta ut`"Your Document Directory"` med sökvägen till din presentationsfil.
 
 ```csharp
 string dataDir = "Your Document Directory";

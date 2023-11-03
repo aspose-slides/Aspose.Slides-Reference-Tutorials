@@ -22,7 +22,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 ## Paso 1: Importar las clases necesarias:
 
 ```java
-// Importar clases Aspose.Slides para Java
+// Importar Aspose.Slides para clases de Java
 import com.aspose.slides.*;
 ```
 

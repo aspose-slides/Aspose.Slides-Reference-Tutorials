@@ -33,14 +33,14 @@ class Program
 }
 ```
 
- Ersetzen`"existing-presentation.pptx"` mit dem Pfad zu Ihrer eigentlichen PowerPoint-Präsentationsdatei.
+ Ersetzen`"existing-presentation.pptx"`mit dem Pfad zu Ihrer eigentlichen PowerPoint-Präsentationsdatei.
 
 ## Schritt 3: Duplizieren einer Folie
 
 Um eine Folie zu duplizieren, müssen wir zunächst die Folie auswählen, die wir duplizieren möchten. Anschließend klonen wir es, um eine identische Kopie zu erstellen. So können Sie es machen:
 
 ```csharp
-//Wählen Sie die Folie aus, die dupliziert werden soll (Index beginnt bei 0)
+// Wählen Sie die Folie aus, die dupliziert werden soll (Index beginnt bei 0)
 ISlide sourceSlide = presentation.Slides[0];
 
 // Klonen Sie die ausgewählte Folie
@@ -79,7 +79,7 @@ In diesem Leitfaden haben wir untersucht, wie Sie mit Aspose.Slides für .NET ei
 
 ### Wie kann ich Aspose.Slides für .NET erhalten?
 
-Sie können die Aspose.Slides für .NET-Bibliothek von der herunterladen[Download-Link](https://releases.aspose.com/slides/net/). Befolgen Sie unbedingt die Installationsanweisungen auf der Website.
+ Sie können die Aspose.Slides für .NET-Bibliothek von der herunterladen[Download-Link](https://releases.aspose.com/slides/net/). Befolgen Sie unbedingt die Installationsanweisungen auf der Website.
 
 ### Kann ich mehrere Folien gleichzeitig duplizieren?
 

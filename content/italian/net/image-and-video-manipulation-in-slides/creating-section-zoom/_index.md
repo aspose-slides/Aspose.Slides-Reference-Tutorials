@@ -16,7 +16,7 @@ Gli zoom delle sezioni sono un modo fantastico per organizzare e navigare attrav
 
 Prima di iniziare, assicuriamoci di avere gli strumenti e l'ambiente necessari configurati per lavorare con Aspose.Slides per .NET.
 
-1.  Scarica e installa Aspose.Slides: inizia scaricando la libreria Aspose.Slides per .NET dal sito Web:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net/)Segui le istruzioni di installazione per integrarlo nel tuo progetto.
+1.  Scarica e installa Aspose.Slides: inizia scaricando la libreria Aspose.Slides per .NET dal sito Web:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net/). Segui le istruzioni di installazione per integrarlo nel tuo progetto.
 
 2. Crea un nuovo progetto: apri il tuo ambiente di sviluppo integrato (IDE) preferito e crea un nuovo progetto .NET.
 
@@ -97,7 +97,7 @@ Ecco uno snippet del codice sorgente che dimostra il processo di creazione degli
 // Il tuo codice sorgente qui
 ```
 
- Per il codice sorgente completo e l'implementazione dettagliata, fare riferimento a[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
+Per il codice sorgente completo e l'implementazione dettagliata, fare riferimento a[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
 
 ## Conclusione
 

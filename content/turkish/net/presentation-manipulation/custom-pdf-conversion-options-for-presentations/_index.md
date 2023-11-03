@@ -87,7 +87,7 @@ Evet, Aspose.Slides for .NET yalnızca PowerPoint sunumlarını değil, çeşitl
 
 ### 4. Geçici lisans alabilir miyim?
 
-Evet, size kolaylık olması açısından geçici lisanslar mevcuttur. Daha fazla bilgi bulun[Burada](https://purchase.aspose.com/temporary-license/).
+ Evet, size kolaylık olması açısından geçici lisanslar mevcuttur. Daha fazla bilgi bulun[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Sorunla karşılaşırsam nereden destek alabilirim?
 

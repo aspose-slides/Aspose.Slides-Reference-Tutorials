@@ -17,11 +17,11 @@ url: /ar/java/presentation-conversion/conversion-tiff-notes-java-slides/
 قبل الغوص في عملية التحويل، تأكد من توفر المتطلبات الأساسية التالية:
 
 - بيئة تطوير Java: تأكد من تثبيت Java على نظامك.
--  Aspose.Slides لـ Java: ستحتاج إلى مكتبة Aspose.Slides للعمل مع ملفات العرض التقديمي. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides لـ Java: ستحتاج إلى مكتبة Aspose.Slides للعمل مع ملفات العروض التقديمية. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
 
 ## الخطوة 1: إعداد مشروعك
 
-للبدء، قم بإنشاء مشروع Java جديد وأضف مكتبة Aspose.Slides إلى مسار الفصل الخاص بمشروعك. سيسمح لك هذا باستخدام Aspose.Slides API في كود Java الخاص بك.
+للبدء، قم بإنشاء مشروع Java جديد وأضف مكتبة Aspose.Slides إلى مسار فئة مشروعك. سيسمح لك هذا باستخدام Aspose.Slides API في كود Java الخاص بك.
 
 ## الخطوة 2: تحميل العرض التقديمي
 

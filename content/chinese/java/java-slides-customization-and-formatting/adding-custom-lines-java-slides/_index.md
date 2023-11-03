@@ -102,7 +102,7 @@ shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.YOUR_CO
 
 您可以通过设置更改线条粗细`Width`行格式的属性。例如：
 ```java
-shape.getLineFormat().setWidth(2); //将线条粗细设置为 2 磅
+shape.getLineFormat().setWidth(2); //将线条粗细设置为 2 点
 ```
 
 ### 是否可以在幻灯片中添加多行？

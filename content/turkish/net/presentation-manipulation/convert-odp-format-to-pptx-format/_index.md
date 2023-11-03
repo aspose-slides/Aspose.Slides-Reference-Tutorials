@@ -22,7 +22,7 @@ Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarını programlı ol
 
 Bu öğreticiyi takip etmek için aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1. Aspose.Slides for .NET: Aspose.Slides for .NET'i indirip yüklemeniz gerekecek. Onu elde edebilirsin[Burada](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET: Aspose.Slides for .NET'i indirip yüklemeniz gerekecek. Onu elde edebilirsin[Burada](https://releases.aspose.com/slides/net/).
 
 ## PPTX'den ODP'ye dönüştürme
 
@@ -52,13 +52,13 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 }
 ```
 
- Bu kod önceki örneğe oldukça benzer. Biz bir yaratıyoruz`Presentation` giriş ODP dosyasını belirterek nesneyi seçin ve`Save` PPTX formatında kaydetme yöntemi.
+ Bu kod önceki örneğe oldukça benzer. Biz bir yaratıyoruz`Presentation`giriş ODP dosyasını belirterek nesneyi seçin ve`Save` PPTX formatında kaydetme yöntemi.
 
 ## Çözüm
 
 Bu eğitimde Aspose.Slides for .NET'i kullanarak ODP formatını PPTX formatına ve tersini dönüştürme sürecini anlattık. Bu güçlü API, belge dönüştürme görevlerini basitleştirir ve dosya formatı uyumluluk ihtiyaçlarınız için güvenilir bir çözüm sunar.
 
-Henüz yapmadıysanız Aspose.Slides for .NET'i indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/) belge dönüştürme projelerinize başlamak için.
+ Henüz yapmadıysanız Aspose.Slides for .NET'i indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/) belge dönüştürme projelerinize başlamak için.
 
  Daha fazla bilgi ve destek için şu adresi ziyaret etmekten çekinmeyin:[Aspose.Slides for .NET API Belgeleri](https://reference.aspose.com/slides/net/).
 
@@ -78,7 +78,7 @@ Dosya boyutu sınırlamaları lisansınıza bağlı olarak değişebilir. Belirl
 
 ### 4. Aspose.Slides for .NET için teknik destek mevcut mu?
 
-Evet, adresini ziyaret ederek Aspose topluluğundan teknik destek ve yardım alabilirsiniz.[forumlar](https://forum.aspose.com/).
+ Evet, adresini ziyaret ederek Aspose topluluğundan teknik destek ve yardım alabilirsiniz.[forumlar](https://forum.aspose.com/).
 
 ### 5. Aspose.Slides for .NET için geçici lisans alabilir miyim?
 

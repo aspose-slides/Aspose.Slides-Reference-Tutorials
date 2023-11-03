@@ -51,7 +51,7 @@ var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
 Şimdi daha önce eklediğimiz slaytların genel görünümünü gösterecek gerçek özet yakınlaştırma slaydını oluşturalım:
 
 ```csharp
-//Özet yakınlaştırma slaydı oluşturma
+// Özet yakınlaştırma slaydı oluşturma
 var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
 ```
 

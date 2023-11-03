@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil tillhandahåller också metoder för att arrangera och justera former på bilder.
 
 ```csharp
-//Ordna former horisontellt
+// Ordna former horisontellt
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Rikta in former till mitten
@@ -88,7 +88,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 ShapeUtil låter dig tillämpa formatering på former, inklusive fyllnings- och linjestilar.
 
 ```csharp
-// Applicera fyllningsfärg
+//Applicera fyllningsfärg
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
 // Applicera linjefärg och stil

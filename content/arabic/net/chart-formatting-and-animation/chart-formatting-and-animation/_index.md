@@ -2,121 +2,173 @@
 title: تنسيق المخطط والرسوم المتحركة في Aspose.Slides
 linktitle: تنسيق المخطط والرسوم المتحركة في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعلم كيفية إنشاء عروض تقديمية ديناميكية بتنسيق الرسوم البيانية والرسوم المتحركة الجذابة باستخدام Aspose.Slides for .NET.
+description: تعرف على كيفية تنسيق الرسوم البيانية وتحريكها في Aspose.Slides لـ .NET، مما يعزز عروضك التقديمية من خلال عناصر مرئية جذابة.
 type: docs
 weight: 10
 url: /ar/net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
 
-## مقدمة إلى Aspose.Slides ومميزاتها
+يمكن أن يؤدي إنشاء عروض تقديمية جذابة باستخدام المخططات الديناميكية والرسوم المتحركة إلى تعزيز تأثير رسالتك بشكل كبير. يمكّنك Aspose.Slides for .NET من تحقيق ذلك. في هذا البرنامج التعليمي، سنرشدك خلال عملية تنشيط المخططات وتنسيقها باستخدام Aspose.Slides for .NET. سنقوم بتقسيم الخطوات إلى أقسام يمكن التحكم فيها للتأكد من فهمك للمفهوم بشكل كامل.
 
-Aspose.Slides هي مكتبة .NET تمكن المطورين من العمل مع عروض PowerPoint التقديمية برمجياً. فهو يوفر مجموعة واسعة من الميزات، بما في ذلك إنشاء وتعديل ومعالجة الشرائح والأشكال والنصوص والصور والمخططات. بفضل واجهة برمجة التطبيقات البديهية الخاصة بها، يمكن للمطورين أتمتة عملية إنشاء العروض التقديمية، مما يجعلها رصيدًا قيمًا لأولئك الذين يسعون إلى تبسيط سير عمل إنشاء العروض التقديمية الخاصة بهم.
+## المتطلبات الأساسية
 
-## إنشاء عرض تقديمي جديد باستخدام Aspose.Slides
+قبل أن تتعمق في تنسيق المخططات والرسوم المتحركة باستخدام Aspose.Slides، ستحتاج إلى ما يلي:
 
-للبدء، تحتاج إلى تثبيت مكتبة Aspose.Slides باستخدام NuGet. بمجرد التثبيت، يمكنك إنشاء عرض تقديمي جديد لـ PowerPoint كما يلي:
+1.  Aspose.Slides لـ .NET: تأكد من تثبيت Aspose.Slides لـ .NET. إذا لم تكن قد فعلت ذلك بالفعل، يمكنك ذلك[قم بتنزيله هنا](https://releases.aspose.com/slides/net/).
+
+2. العرض التقديمي الحالي: احصل على عرض تقديمي موجود يحتوي على مخطط تريد تنسيقه وتحريكه.
+
+3. المعرفة الأساسية بـ C#: الإلمام بـ C# سيكون مفيدًا في تنفيذ الخطوات.
+
+الآن، دعونا نبدأ.
+
+## استيراد مساحات الأسماء
+
+للبدء، ستحتاج إلى استيراد مساحات الأسماء الضرورية للوصول إلى ميزات Aspose.Slides. في مشروعك C#، قم بإضافة ما يلي:
 
 ```csharp
+﻿using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
+using Aspose.Slides.Animation;
 using Aspose.Slides;
-
-// إنشاء عرض تقديمي جديد
-Presentation presentation = new Presentation();
 ```
 
-## إضافة مخطط إلى العرض التقديمي
+## تحريك عناصر الفئات في الرسم البياني
 
-تعد الرسوم البيانية طريقة ممتازة لتصور البيانات والاتجاهات. يُسهل Aspose.Slides إضافة أنواع مختلفة من المخططات إلى شرائح العرض التقديمي. فيما يلي كيفية إضافة مخطط شريطي:
+### الخطوة 1: قم بتحميل العرض التقديمي والوصول إلى المخطط
 
-```csharp
-// أضف شريحة جديدة
-ISlide slide = presentation.Slides.AddEmptySlide();
-
-// أضف مخططًا شريطيًا إلى الشريحة
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredBar, 100, 100, 500, 300);
-```
-
-## تخصيص بيانات الرسم البياني والمظهر
-
-مع وجود المخطط في مكانه، يمكنك تخصيص بياناته ومظهره. دعونا نعدل عنوان المخطط ونضيف نقاط البيانات:
+أولاً، قم بتحميل العرض التقديمي الحالي الخاص بك والوصول إلى المخطط الذي تريد تحريكه. يفترض هذا المثال أن المخطط موجود في الشريحة الأولى من العرض التقديمي.
 
 ```csharp
-// تعيين عنوان الرسم البياني
-chart.ChartTitle.TextFrame.Text = "Sales Performance";
-
-// أضف نقاط البيانات إلى المخطط
-chart.ChartData.Series.Add(factories, salesData);
-```
-
-يمكنك أيضًا تخصيص الألوان والخطوط والعناصر المرئية الأخرى لتتناسب مع جماليات العرض التقديمي الخاص بك.
-
-## تطبيق تأثيرات الرسوم المتحركة على المخطط
-
-يمكن أن تؤدي إضافة الرسوم المتحركة إلى مخططاتك إلى جعل عرضك التقديمي أكثر جاذبية. دعونا نطبق رسمًا متحركًا بسيطًا على المخطط:
-
-```csharp
-// إضافة الرسوم المتحركة إلى الرسم البياني
-animation = slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade);
-```
-
-## استخدام خيارات الرسوم المتحركة المتقدمة
-
-يسمح Aspose.Slides بتأثيرات الرسوم المتحركة المعقدة. على سبيل المثال، يمكنك جعل عناصر المخطط تظهر واحدة تلو الأخرى مع تأخير:
-
-```csharp
-// إضافة الرسوم المتحركة المؤجلة إلى عناصر المخطط
-foreach (IShape shape in chart.Shapes)
+using (Presentation presentation = new Presentation("Your Document Directory\\ExistingChart.pptx"))
 {
-    animation = slide.Timeline.MainSequence.AddEffect(shape, EffectType.Appear);
-    animation.Timing.TriggerDelayTime = 1; // تأخير في ثوان
+    var slide = presentation.Slides[0] as Slide;
+    var shapes = slide.Shapes as ShapeCollection;
+    var chart = shapes[0] as IChart;
 }
 ```
 
-## تعزيز تفاعل الرسم البياني
+### الخطوة 2: إضافة الرسوم المتحركة إلى عناصر الفئات
 
-يمكن أن توفر المخططات التفاعلية تجربة أكثر ثراءً لجمهورك. يمكنك إضافة ارتباطات تشعبية إلى عناصر المخطط باستخدام Aspose.Slides:
-
-```csharp
-// إضافة ارتباط تشعبي إلى عنصر المخطط
-IChartSeries series = chart.ChartData.Series[0];
-IShape dataPoint = series.Points[0].DataPoint.Marker;
-
-// إضافة ارتباط تشعبي إلى نقطة البيانات
-dataPoint.Hyperlink.ClickAction = new HyperlinkAction { HyperlinkType = HyperlinkType.Url, Url = "https://example.com" };
-```
-
-## تصدير ومشاركة العرض التقديمي
-
-بمجرد إنشاء المخطط وتحريكه، يمكنك تصدير العرض التقديمي إلى تنسيقات مختلفة، مثل PPTX أو PDF:
+الآن، دعونا نضيف الرسوم المتحركة إلى عناصر الفئات. في هذا المثال، نستخدم تأثير التلاشي.
 
 ```csharp
-// احفظ العرض التقديمي في ملف
-presentation.Save("presentation.pptx", SaveFormat.Pptx);
+slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+
+for (int i = 0; i < chart.ChartData.Categories.Count; i++)
+{
+    ((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, i, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+}
 ```
 
-أنت الآن جاهز لمشاركة عرضك التقديمي الديناميكي مع جمهورك.
+### الخطوة 3: احفظ العرض التقديمي
+
+وأخيرًا، احفظ العرض التقديمي المعدل على القرص.
+
+```csharp
+presentation.Save("Your Document Directory\\AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
+```
+
+## سلسلة الرسوم المتحركة في الرسم البياني
+
+### الخطوة 1: قم بتحميل العرض التقديمي والوصول إلى المخطط
+
+وكما هو الحال في المثال السابق، ستقوم بتحميل العرض التقديمي والوصول إلى المخطط.
+
+```csharp
+using (Presentation presentation = new Presentation("Your Document Directory\\ExistingChart.pptx"))
+{
+    var slide = presentation.Slides[0] as Slide;
+    var shapes = slide.Shapes as ShapeCollection;
+    var chart = shapes[0] as IChart;
+}
+```
+
+### الخطوة 2: إضافة الرسوم المتحركة إلى السلسلة
+
+الآن، دعونا نضيف الرسوم المتحركة إلى سلسلة المخططات. نحن نستخدم تأثير التلاشي هنا أيضًا.
+
+```csharp
+slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+
+for (int i = 0; i < chart.ChartData.Series.Count; i++)
+{
+    ((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMajorGroupingType.BySeries, i, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+}
+```
+
+### الخطوة 3: احفظ العرض التقديمي
+
+احفظ العرض التقديمي المعدل مع سلسلة الرسوم المتحركة.
+
+```csharp
+presentation.Save("Your Document Directory\\AnimatingSeries_out.pptx", SaveFormat.Pptx);
+```
+
+## تحريك عناصر السلسلة في الرسم البياني
+
+### الخطوة 1: قم بتحميل العرض التقديمي والوصول إلى المخطط
+
+كما كان من قبل، قم بتحميل العرض التقديمي والوصول إلى المخطط.
+
+```csharp
+using (Presentation presentation = new Presentation("Your Document Directory\\ExistingChart.pptx"))
+{
+    var slide = presentation.Slides[0] as Slide;
+    var shapes = slide.Shapes as ShapeCollection;
+    var chart = shapes[0] as IChart;
+}
+```
+
+### الخطوة 2: إضافة الرسوم المتحركة إلى عناصر السلسلة
+
+في هذه الخطوة، ستقوم بإضافة رسوم متحركة إلى عناصر السلسلة، مما يؤدي إلى إنشاء تأثير بصري مثير للإعجاب.
+
+```csharp
+slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+
+for (int seriesIndex = 0; seriesIndex < chart.ChartData.Series.Count; seriesIndex++)
+{
+    for (int elementIndex = 0; elementIndex < chart.ChartData.Categories.Count; elementIndex++)
+    {
+        ((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, seriesIndex, elementIndex, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+    }
+}
+```
+
+### الخطوة 3: احفظ العرض التقديمي
+
+لا تنس حفظ العرض التقديمي مع عناصر سلسلة الرسوم المتحركة.
+
+```csharp
+presentation.Save("Your Document Directory\\AnimatingSeriesElements_out.pptx", SaveFormat.Pptx);
+```
+
+تهانينا! لقد تعلمت الآن كيفية تنسيق وتحريك المخططات في Aspose.Slides لـ .NET. يمكن لهذه التقنيات أن تجعل عروضك التقديمية أكثر جاذبية وغنية بالمعلومات.
 
 ## خاتمة
 
-يمكن أن يؤدي دمج المخططات الجذابة بصريًا مع الرسوم المتحركة إلى زيادة تأثير عروضك التقديمية. يوفر Aspose.Slides for .NET طريقة سلسة لتحقيق ذلك من خلال تمكين المطورين من إنشاء المخططات وتخصيصها مع إضافة رسوم متحركة جذابة. باتباع الخطوات الموضحة في هذا الدليل، ستكون مجهزًا جيدًا لإنشاء عروض تقديمية جذابة وغنية بالمعلومات تترك انطباعًا دائمًا.
+يوفر Aspose.Slides for .NET أدوات قوية لتنسيق المخططات والرسوم المتحركة، مما يسمح لك بإنشاء عروض تقديمية جذابة بصريًا تأسر جمهورك. باتباع هذا الدليل المفصّل خطوة بخطوة، يمكنك إتقان فن الرسوم المتحركة للرسوم البيانية وتحسين عروضك التقديمية.
 
 ## الأسئلة الشائعة
 
-### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
+### 1. أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ .NET؟
 
- يمكنك تنزيل وتثبيت Aspose.Slides لـ .NET من[هذا الرابط](https://releases.aspose.com/slides/net/).
+ يمكنك الوصول إلى الوثائق في[https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/).
 
-### هل يمكنني إضافة مخططات متعددة إلى شريحة واحدة؟
+### 2. كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
 
-نعم، يمكنك إضافة مخططات متعددة إلى شريحة واحدة باستخدام Aspose.Slides. ما عليك سوى تكرار عملية إضافة مخطط لكل مخطط إضافي تريد تضمينه.
+ يمكنك تنزيل Aspose.Slides لـ .NET من[https://releases.aspose.com/slides/net/](https://releases.aspose.com/slides/net/).
 
-### هل تأثيرات الرسوم المتحركة قابلة للتخصيص؟
+### 3. هل هناك نسخة تجريبية مجانية متاحة؟
 
-قطعاً! يوفر Aspose.Slides خيارات متنوعة للرسوم المتحركة تسمح لك بتخصيص تأثيرات الرسوم المتحركة والمدة والتأخير والمزيد.
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ .NET على[https://releases.aspose.com/](https://releases.aspose.com/).
 
-### هل يمكنني تصدير العرض التقديمي إلى تنسيقات أخرى؟
+### 4. هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 
-نعم، يدعم Aspose.Slides تصدير العروض التقديمية إلى تنسيقات مختلفة، بما في ذلك PPTX وPDF والمزيد.
+ نعم، يمكنك شراء ترخيص مؤقت من[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
-### هل Aspose.Slides مناسب لمطوري .NET فقط؟
+### 5. أين يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.Slides for .NET؟
 
-نعم، تم تصميم Aspose.Slides بشكل أساسي لمطوري .NET. ومع ذلك، يقدم Aspose أيضًا مكتبات لمنصات ولغات برمجة أخرى.
+ للحصول على الدعم والأسئلة، قم بزيارة منتدى Aspose.Slides على[https://forum.aspose.com/](https://forum.aspose.com/).
+

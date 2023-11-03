@@ -10,7 +10,7 @@ url: /tr/java/presentation-properties/add-custom-document-properties-in-java-sli
 
 ## Java Slaytlarına Özel Belge Özellikleri Eklemeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumuna özel belge özellikleri ekleme sürecinde size yol göstereceğiz. Özel belge özellikleri, başvuru veya kategorizasyon amacıyla sunumla ilgili ek bilgileri saklamanıza olanak tanır.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumuna özel belge özellikleri ekleme sürecinde size yol göstereceğiz. Özel belge özellikleri, başvuru veya kategorizasyon amacıyla sunumla ilgili ek bilgileri saklamanıza olanak tanır.
 
 ## Önkoşullar
 

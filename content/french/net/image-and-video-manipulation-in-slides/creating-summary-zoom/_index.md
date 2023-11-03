@@ -51,7 +51,7 @@ var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
 Maintenant, créons la véritable diapositive de zoom récapitulatif qui affichera l'aperçu des diapositives que nous avons ajoutées précédemment :
 
 ```csharp
-//Créer une diapositive de zoom récapitulative
+// Créer une diapositive de zoom récapitulatif
 var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
 ```
 

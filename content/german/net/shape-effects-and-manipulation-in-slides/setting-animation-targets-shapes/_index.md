@@ -107,7 +107,7 @@ Absolut! Mit Aspose.Slides können Sie Ihre animierte Präsentation in verschied
 
 ### Wo finde ich weitere Ressourcen und Dokumentation?
 
- Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides API-Referenzen](https://reference.aspose.com/slides/net/).
+Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides API-Referenzen](https://reference.aspose.com/slides/net/).
 
 ## Abschluss
 

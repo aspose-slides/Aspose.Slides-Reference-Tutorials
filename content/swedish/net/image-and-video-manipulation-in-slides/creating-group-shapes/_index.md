@@ -113,7 +113,7 @@ I den här handledningen har du lärt dig hur du skapar gruppformer i presentati
 
 ### Hur installerar jag Aspose.Slides för .NET?
 
- Du kan ladda ner Aspose.Slides-biblioteket från den medföljande länken:[här](https://releases.aspose.com/slides/net/). När du har laddat ner den kan du lägga till den i ditt projekt med NuGet-paket.
+Du kan ladda ner Aspose.Slides-biblioteket från den medföljande länken:[här](https://releases.aspose.com/slides/net/). När du har laddat ner den kan du lägga till den i ditt projekt med NuGet-paket.
 
 ### Kan jag tillämpa olika transformationer på grupperade former?
 

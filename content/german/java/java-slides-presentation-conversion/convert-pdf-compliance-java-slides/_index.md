@@ -87,7 +87,7 @@ In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java eine P
 
 PDF/A-2a ist eine Konformitätsstufe für PDF-Dateien. Es legt eine Reihe von Standards für die Langzeitarchivierung elektronischer Dokumente fest. Im Kontext dieses Tutorials stellt die Einstellung der PDF-Konformität auf PDF/A-2a sicher, dass die resultierende PDF-Datei diesen Standards entspricht, sodass sie für die langfristige Speicherung und Zugänglichkeit geeignet ist.
 
-## Warum sollte ich PDF/A-2a-Konformität nutzen?
+## Warum sollte ich PDF/A-2a-Konformität verwenden?
 
 Die Verwendung der PDF/A-2a-Konformität ist unerlässlich, wenn Sie elektronische Dokumente langfristig archivieren müssen. Es garantiert, dass die PDF-Datei ihre visuelle Integrität und Zugänglichkeit im Laufe der Zeit beibehält. Dieses Compliance-Niveau ist besonders wichtig für Branchen wie die Rechts-, Regierungs- und Gesundheitsbranche, in denen die Aufbewahrung von Dokumenten von entscheidender Bedeutung ist.
 

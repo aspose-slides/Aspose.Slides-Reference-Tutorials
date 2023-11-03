@@ -24,7 +24,7 @@ Başlamak için tercih ettiğiniz geliştirme ortamında yeni bir proje oluştur
 
 ## 4. Sunumun Yüklenmesi
 
-Kaynak kodunuzda PowerPoint sunumunuzun konumunu belirtmeniz gerekir. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın yolu ile birlikte.
+ Kaynak kodunuzda PowerPoint sunumunuzun konumunu belirtmeniz gerekir. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın yolu ile birlikte.
 
 ```csharp
 string dataDir = "Your Document Directory";

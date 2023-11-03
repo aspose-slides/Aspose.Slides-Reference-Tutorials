@@ -107,7 +107,7 @@ Kesinlikle! Aspose.Slides, animasyonlu sunumunuzu PDF, PPTX ve daha fazlasını 
 
 ### Daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides API Referansları](https://reference.aspose.com/slides/net/).
+Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides API Referansları](https://reference.aspose.com/slides/net/).
 
 ## Çözüm
 

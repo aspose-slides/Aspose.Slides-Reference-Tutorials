@@ -1,170 +1,122 @@
 ---
-title: إدارة الرأس والتذييل في شريحة الملاحظات
+title: إدارة الرأس والتذييل في الملاحظات باستخدام Aspose.Slides .NET
 linktitle: إدارة الرأس والتذييل في شريحة الملاحظات
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تخصيص الرأس والتذييل في شرائح الملاحظات باستخدام Aspose.Slides لـ .NET. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدر ويغطي الوصول إلى عناصر التصميم وتعديلها.
+description: تعرف على كيفية إدارة الرأس والتذييل في شرائح ملاحظات PowerPoint باستخدام Aspose.Slides for .NET. تعزيز العروض التقديمية الخاصة بك دون عناء.
 type: docs
 weight: 11
 url: /ar/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
 
-## مقدمة إلى Aspose.Slides لـ .NET
+في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية جذابة وغنية بالمعلومات مهارة حيوية. كجزء من هذه العملية، قد تحتاج غالبًا إلى تضمين الرؤوس والتذييلات في شرائح الملاحظات لتوفير سياق ومعلومات إضافية. Aspose.Slides for .NET هي أداة قوية تمكنك من إدارة إعدادات الرأس والتذييل في شرائح الملاحظات بسهولة. في هذا الدليل التفصيلي، سنستكشف كيفية تحقيق ذلك باستخدام Aspose.Slides for .NET.
 
-Aspose.Slides for .NET هي مكتبة قوية تتيح للمطورين العمل مع ملفات Microsoft PowerPoint برمجيًا. فهو يتيح معالجة وإنشاء العروض التقديمية والشرائح والأشكال والعناصر المختلفة داخلها. سنركز في هذا الدليل على كيفية إدارة عناصر الرأس والتذييل في شريحة الملاحظات باستخدام Aspose.Slides for .NET.
+## المتطلبات الأساسية
 
-## إضافة شريحة ملاحظات إلى العرض التقديمي
+قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
- للبدء، تأكد من تثبيت Aspose.Slides for .NET. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/net/). بعد التثبيت، قم بإنشاء مشروع جديد في بيئة التطوير .NET المفضلة لديك.
+1.  Aspose.Slides for .NET: تأكد من تثبيت Aspose.Slides for .NET وتكوينه. يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
+
+2. عرض تقديمي لـ PowerPoint: ستحتاج إلى عرض تقديمي لـ PowerPoint (ملف PPTX) الذي تريد العمل معه.
+
+الآن بعد أن قمنا بتغطية المتطلبات الأساسية، فلنبدأ في إدارة الرأس والتذييل في شرائح الملاحظات باستخدام Aspose.Slides for .NET.
+
+## الخطوة 1: استيراد مساحات الأسماء
+
+للبدء، تحتاج إلى استيراد مساحات الأسماء اللازمة لمشروعك. قم بتضمين مساحات الأسماء التالية:
 
 ```csharp
-using Aspose.Slides;
+﻿using Aspose.Slides;
 using Aspose.Slides.Export;
+```
 
-class Program
+توفر مساحات الأسماء هذه إمكانية الوصول إلى الفئات والأساليب المطلوبة لإدارة الرأس والتذييل في شرائح الملاحظات.
+
+## الخطوة 2: تغيير إعدادات الرأس والتذييل
+
+بعد ذلك، سنقوم بتغيير إعدادات الرأس والتذييل للملاحظات الرئيسية وجميع شرائح الملاحظات في العرض التقديمي الخاص بك. هيريس كيفية القيام بذلك:
+
+```csharp
+using (Presentation presentation = new Presentation("presentation.pptx"))
 {
-    static void Main(string[] args)
+    IMasterNotesSlide masterNotesSlide = presentation.MasterNotesSlideManager.MasterNotesSlide;
+
+    if (masterNotesSlide != null)
     {
-        // قم بتحميل العرض التقديمي
-        using (Presentation presentation = new Presentation())
-        {
-            // أضف شريحة جديدة
-            ISlide slide = presentation.Slides.AddEmptySlide();
-            
-            // إضافة شريحة الملاحظات إلى الشريحة الحالية
-            INotesSlide notesSlide = slide.NotesSlideManager.NotesSlide;
-            
-            // سيتم وضع التعليمات البرمجية الخاصة بك لمعالجة عناصر الرأس والتذييل هنا
-            
-            // احفظ العرض التقديمي المعدل
-            presentation.Save("output.pptx", SaveFormat.Pptx);
-        }
+        IMasterNotesSlideHeaderFooterManager headerFooterManager = masterNotesSlide.HeaderFooterManager;
+
+        headerFooterManager.SetHeaderAndChildHeadersVisibility(true);
+        headerFooterManager.SetFooterAndChildFootersVisibility(true);
+        headerFooterManager.SetSlideNumberAndChildSlideNumbersVisibility(true);
+        headerFooterManager.SetDateTimeAndChildDateTimesVisibility(true);
+
+        headerFooterManager.SetHeaderAndChildHeadersText("Header text");
+        headerFooterManager.SetFooterAndChildFootersText("Footer text");
+        headerFooterManager.SetDateTimeAndChildDateTimesText("Date and time text");
     }
+
+    // احفظ العرض التقديمي بالإعدادات المحدثة
+    presentation.Save("testresult.pptx", SaveFormat.Pptx);
 }
 ```
 
-## الوصول إلى عناصر الرأس والتذييل
+في هذه الخطوة، نصل إلى شريحة الملاحظات الرئيسية ونضبط الرؤية والنص للرؤوس والتذييلات وأرقام الشرائح والعناصر النائبة للتاريخ والوقت.
 
-بمجرد إضافة شريحة ملاحظات إلى العرض التقديمي، يمكنك الوصول إلى عناصر الرأس والتذييل للتخصيص. يمكن أن تتضمن عناصر الرأس والتذييل النص والتاريخ وأرقام الشرائح. استخدم الكود التالي للوصول إلى هذه العناصر:
+## الخطوة 3: تغيير إعدادات الرأس والتذييل لشريحة ملاحظات محددة
 
-```csharp
-INotesSlide notesSlide = slide.NotesSlideManager.NotesSlide;
-INotesHeaderFooterManager headerFooterManager = notesSlide.HeaderFooterManager;
-
-// الوصول إلى نص الرأس
-string headerText = headerFooterManager.HeaderText;
-
-// الوصول إلى نص التذييل
-string footerText = headerFooterManager.FooterText;
-
-// الوصول إلى التاريخ والوقت
-bool isDateTimeVisible = headerFooterManager.IsDateTimeVisible;
-
-//الوصول إلى رقم الشريحة
-bool isSlideNumberVisible = headerFooterManager.IsSlideNumberVisible;
-```
-
-## تعديل نص الرأس والتذييل
-
-يمكنك بسهولة تعديل نص الرأس والتذييل لتوفير السياق أو أي معلومات أخرى ضرورية. استخدم الكود التالي لتحديث نص الرأس والتذييل:
+الآن، إذا كنت تريد تغيير إعدادات الرأس والتذييل لشريحة ملاحظات معينة، فاتبع الخطوات التالية:
 
 ```csharp
-headerFooterManager.SetText(HeaderFooterType.Header, "Your header text");
-headerFooterManager.SetText(HeaderFooterType.Footer, "Your footer text");
-```
-
-## عناصر تصميم الرأس والتذييل
-
-يتيح لك Aspose.Slides for .NET أيضًا تصميم عناصر الرأس والتذييل وفقًا لتصميم العرض التقديمي الخاص بك. يمكنك تغيير الخط والحجم واللون والمحاذاة. فيما يلي مثال لكيفية تصميم العناصر:
-
-```csharp
-ITextStyle textStyle = presentation.Slides[0].TextStyle;
-textStyle.FontHeight = 14;
-textStyle.FontColor.Color = Color.Blue;
-textStyle.Alignment = TextAlignment.Center;
-
-headerFooterManager.SetTextStyle(HeaderFooterType.Header, textStyle);
-headerFooterManager.SetTextStyle(HeaderFooterType.Footer, textStyle);
-```
-
-## تحديث التاريخ ورقم الشريحة
-
-لتحديث التاريخ ورقم الشريحة تلقائيا، استخدم الكود التالي:
-
-```csharp
-headerFooterManager.SetDateTimeVisible(true);
-headerFooterManager.SetSlideNumberVisible(true);
-```
-
-## حفظ العرض التقديمي المعدل
-
-بعد تخصيص عناصر الرأس والتذييل في شريحة الملاحظات، يمكنك حفظ العرض التقديمي المعدل في ملف:
-
-```csharp
-presentation.Save("modified.pptx", SaveFormat.Pptx);
-```
-
-## كود المصدر الكامل
-
-إليك الكود المصدري الكامل لإدارة عناصر الرأس والتذييل في شريحة الملاحظات باستخدام Aspose.Slides for .NET:
-
-```csharp
-using Aspose.Slides;
-using Aspose.Slides.Export;
-
-class Program
+using (Presentation presentation = new Presentation("presentation.pptx"))
 {
-    static void Main(string[] args)
+    INotesSlide notesSlide = presentation.Slides[0].NotesSlideManager.NotesSlide;
+
+    if (notesSlide != null)
     {
-        using (Presentation presentation = new Presentation())
-        {
-            ISlide slide = presentation.Slides.AddEmptySlide();
-            INotesSlide notesSlide = slide.NotesSlideManager.NotesSlide;
-            INotesHeaderFooterManager headerFooterManager = notesSlide.HeaderFooterManager;
+        INotesSlideHeaderFooterManager headerFooterManager = notesSlide.HeaderFooterManager;
 
-            // تخصيص عناصر الرأس والتذييل
-            headerFooterManager.SetText(HeaderFooterType.Header, "Your header text");
-            headerFooterManager.SetText(HeaderFooterType.Footer, "Your footer text");
+        if (!headerFooterManager.IsHeaderVisible)
+            headerFooterManager.SetHeaderVisibility(true);
 
-            ITextStyle textStyle = presentation.Slides[0].TextStyle;
-            textStyle.FontHeight = 14;
-            textStyle.FontColor.Color = Color.Blue;
-            textStyle.Alignment = TextAlignment.Center;
+        if (!headerFooterManager.IsFooterVisible)
+            headerFooterManager.SetFooterVisibility(true);
 
-            headerFooterManager.SetTextStyle(HeaderFooterType.Header, textStyle);
-            headerFooterManager.SetTextStyle(HeaderFooterType.Footer, textStyle);
+        if (!headerFooterManager.IsSlideNumberVisible)
+            headerFooterManager.SetSlideNumberVisibility(true);
 
-            headerFooterManager.SetDateTimeVisible(true);
-            headerFooterManager.SetSlideNumberVisible(true);
+        if (!headerFooterManager.IsDateTimeVisible)
+            headerFooterManager.SetDateTimeVisibility(true);
 
-            // احفظ العرض التقديمي المعدل
-            presentation.Save("modified.pptx", SaveFormat.Pptx);
-        }
+        headerFooterManager.SetHeaderText("New header text");
+        headerFooterManager.SetFooterText("New footer text");
+        headerFooterManager.SetDateTimeText("New date and time text");
     }
+
+    // احفظ العرض التقديمي بالإعدادات المحدثة
+    presentation.Save("testresult.pptx", SaveFormat.Pptx);
 }
 ```
+
+في هذه الخطوة، نصل إلى شريحة ملاحظات محددة ونقوم بتعديل الرؤية والنص للرأس والتذييل ورقم الشريحة والعناصر النائبة للتاريخ والوقت.
 
 ## خاتمة
 
-في هذا الدليل، اكتشفنا كيفية استخدام Aspose.Slides لـ .NET لإدارة عناصر الرأس والتذييل في شريحة الملاحظات الخاصة بالعرض التقديمي. لقد تعلمت كيفية إضافة شريحة ملاحظات والوصول إلى عناصر الرأس والتذييل وتعديل النص وعناصر النمط وتاريخ التحديث وأرقام الشرائح. تتيح هذه المكتبة القوية إمكانية التخصيص السلس، مما يعزز تجربة العرض التقديمي بشكل عام.
+تعد إدارة الرؤوس والتذييلات بشكل فعال في شرائح الملاحظات أمرًا ضروريًا لتحسين الجودة الشاملة ووضوح العروض التقديمية. باستخدام Aspose.Slides for .NET، تصبح هذه العملية واضحة وفعالة. لقد زودك هذا البرنامج التعليمي بدليل شامل حول كيفية تحقيق ذلك، بدءًا من استيراد مساحات الأسماء وحتى تغيير الإعدادات لكل من شريحة الملاحظات الرئيسية وشرائح الملاحظات الفردية.
 
-## الأسئلة الشائعة
+ إذا لم تكن قد قمت بذلك بالفعل، فتأكد من استكشاف[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/) لمزيد من المعلومات والأمثلة المتعمقة.
 
-### كيف يمكنني الوصول إلى عناصر الرأس والتذييل في شريحة الملاحظات؟
+## أسئلة مكررة
 
- للوصول إلى عناصر الرأس والتذييل، يمكنك استخدام`INotesHeaderFooterManager` الواجهة المقدمة من Aspose.Slides لـ .NET.
+### هل Aspose.Slides لـ .NET مجاني للاستخدام؟
+ لا، Aspose.Slides for .NET هو منتج تجاري، وسوف تحتاج إلى شراء ترخيص لاستخدامه في مشاريعك. يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للاختبار.
 
-### هل يمكنني تصميم نص الرأس والتذييل؟
+### هل يمكنني تخصيص مظهر الرؤوس والتذييلات بشكل أكبر؟
+نعم، يوفر Aspose.Slides for .NET خيارات شاملة لتخصيص مظهر الرؤوس والتذييلات، مما يسمح لك بتخصيصها وفقًا لاحتياجاتك الخاصة.
 
- نعم، يمكنك تصميم نص الرأس والتذييل باستخدام`SetTextStyle` طريقة. يمكنك تخصيص حجم الخط واللون والمحاذاة والخصائص الأخرى.
+### هل هناك أي ميزات أخرى في Aspose.Slides لـ .NET لإدارة العروض التقديمية؟
+نعم، يوفر Aspose.Slides for .NET مجموعة واسعة من الميزات لإنشاء العروض التقديمية وتحريرها وإدارتها، بما في ذلك الشرائح والأشكال وانتقالات الشرائح.
 
-### كيف أقوم بتحديث التاريخ ورقم الشريحة تلقائيًا؟
+### هل يمكنني أتمتة عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET؟
+بالتأكيد، يسمح لك Aspose.Slides for .NET بأتمتة عروض PowerPoint التقديمية، مما يجعلها أداة قيمة لإنشاء عروض شرائح ديناميكية تعتمد على البيانات.
 
- يمكنك استخدام ال`SetDateTimeVisible` و`SetSlideNumberVisible` طرق لعرض التاريخ ورقم الشريحة تلقائيًا في الرأس والتذييل.
-
-### هل يتوافق Aspose.Slides for .NET مع ملفات PowerPoint؟
-
-نعم، Aspose.Slides for .NET متوافق تمامًا مع ملفات PowerPoint، مما يسمح لك بمعالجة العروض التقديمية وإنشائها برمجيًا.
-
-### أين يمكنني العثور على كود المصدر الكامل لتخصيص الرأس والتذييل؟
-
-يمكنك العثور على مثال التعليمات البرمجية المصدر الكامل في هذا الدليل. راجع قسم "رمز المصدر الكامل" للاطلاع على مقتطف الشفرة.
+### هل يتوفر الدعم الفني لـ Aspose.Slides لمستخدمي .NET؟
+ نعم، يمكنك الحصول على الدعم والمساعدة من مجتمع Aspose والخبراء في الموقع[Aspose منتدى الدعم](https://forum.aspose.com/).

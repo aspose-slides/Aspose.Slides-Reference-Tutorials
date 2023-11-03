@@ -14,7 +14,7 @@ Nell'era digitale di oggi, lavorare con diversi formati di presentazione è un c
 
 Prima di immergerci nel processo di conversione, assicurati di disporre dei seguenti prerequisiti:
 
-1. Aspose.Slides per .NET: se non lo hai già fatto, scarica e installa Aspose.Slides per .NET dal sito Web:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides per .NET: se non lo hai già fatto, scarica e installa Aspose.Slides per .NET dal sito Web:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net/).
 
 2. La directory dei tuoi documenti: prepara la directory in cui si trova il tuo documento FODP.
 
@@ -60,7 +60,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 Congratulazioni! Hai convertito con successo un file in formato FODP in altri formati di presentazione utilizzando Aspose.Slides per .NET. Questa libreria versatile apre un mondo di possibilità per lavorare con le presentazioni a livello di programmazione.
 
- Se riscontri problemi o hai domande, non esitare a chiedere aiuto su[Forum Aspose.Slides](https://forum.aspose.com/)La community e il team di supporto sono lì per aiutarti.
+ Se riscontri problemi o hai domande, non esitare a chiedere aiuto su[Forum Aspose.Slides](https://forum.aspose.com/). La community e il team di supporto sono lì per aiutarti.
 
 ## Domande frequenti
 
@@ -74,7 +74,7 @@ Congratulazioni! Hai convertito con successo un file in formato FODP in altri fo
 
 ### 3. Come posso ottenere una licenza temporanea per Aspose.Slides per .NET?
 
- Se hai bisogno di una licenza temporanea, puoi ottenerne una da[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
+Se hai bisogno di una licenza temporanea, puoi ottenerne una da[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Quali formati di presentazione sono supportati per la conversione?
 

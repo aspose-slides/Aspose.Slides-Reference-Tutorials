@@ -1,107 +1,97 @@
 ---
-title: Löschen Sie bestimmte Datenpunkte in Diagrammreihen
+title: Löschen Sie bestimmte Datenpunkte von Diagrammreihen mit Aspose.Slides .NET
 linktitle: Löschen Sie bestimmte Datenpunkte in Diagrammreihen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie bestimmte Diagrammdatenpunkte in Aspose.Slides für .NET löschen. Schritt-für-Schritt-Anleitung mit Quellcode im Lieferumfang enthalten.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET bestimmte Datenpunkte von Diagrammreihen in PowerPoint-Präsentationen löschen. Schritt für Schritt Anleitung.
 type: docs
 weight: 13
 url: /de/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
 
-## Einführung in Aspose.Slides für .NET
+Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie programmgesteuert mit PowerPoint-Präsentationen arbeiten können. In diesem Tutorial führen wir Sie durch den Prozess des Löschens bestimmter Diagrammserien-Datenpunkte in einer PowerPoint-Präsentation mit Aspose.Slides für .NET. Am Ende dieses Tutorials werden Sie in der Lage sein, Diagrammdatenpunkte problemlos zu bearbeiten.
 
-Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler PowerPoint-Präsentationen programmgesteuert erstellen, bearbeiten und konvertieren können. Es bietet eine Vielzahl von Funktionen, einschließlich der Arbeit mit Diagrammen in Präsentationen.
+## Voraussetzungen
 
-## Diagrammreihen und Datenpunkte verstehen
+Bevor wir beginnen, müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
 
-Bevor wir uns mit der Schritt-für-Schritt-Anleitung befassen, wollen wir uns kurz mit den Schlüsselkonzepten befassen: Diagrammreihen und Datenpunkte. Eine Diagrammreihe stellt eine Reihe zusammengehöriger Datenpunkte dar, die im Diagramm dargestellt werden. Jeder Datenpunkt entspricht einem bestimmten Wert und wird als Punkt im Diagramm dargestellt.
+1.  Aspose.Slides für .NET-Bibliothek: Sie sollten die Aspose.Slides für .NET-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/slides/net/).
 
-## Bestimmte Datenpunkte löschen: Schritt-für-Schritt-Anleitung
+2. Entwicklungsumgebung: Sie sollten über eine Entwicklungsumgebung mit Visual Studio oder einem anderen .NET-Entwicklungstool verfügen.
 
-## Schritt 1: Laden der Präsentation
+Nachdem Sie nun die Voraussetzungen geschaffen haben, tauchen wir in die Schritt-für-Schritt-Anleitung ein, um bestimmte Datenpunkte von Diagrammreihen mit Aspose.Slides für .NET zu löschen.
 
-Der erste Schritt besteht darin, die PowerPoint-Präsentation zu laden, die das Diagramm enthält, das Sie ändern möchten. Sie können dies mit dem folgenden Code erreichen:
+## Namespaces importieren
+
+Stellen Sie sicher, dass Sie in Ihrem C#-Code die erforderlichen Namespaces importieren:
 
 ```csharp
-// Laden Sie die Präsentation
-using (Presentation presentation = new Presentation("sample.pptx"))
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+```
+
+## Schritt 1: Laden Sie die Präsentation
+
+ Zuerst müssen Sie die PowerPoint-Präsentation laden, die das Diagramm enthält, mit dem Sie arbeiten möchten. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer Präsentationsdatei.
+
+```csharp
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
 {
-    // Ihr Code hier
+    // Ihr Code kommt hierher
 }
 ```
 
-## Schritt 2: Zugriff auf das Diagramm
+## Schritt 2: Greifen Sie auf die Folie und das Diagramm zu
 
-Als Nächstes müssen Sie auf die Folie und das Diagramm zugreifen, das die Datenpunkte enthält, die Sie löschen möchten. So können Sie es machen:
+Sobald Sie die Präsentation geladen haben, müssen Sie auf die Folie und das Diagramm auf dieser Folie zugreifen. In diesem Beispiel gehen wir davon aus, dass sich das Diagramm auf der ersten Folie (Index 0) befindet.
 
 ```csharp
-// Angenommen, das Diagramm befindet sich auf der ersten Folie
-ISlide slide = presentation.Slides[0];
+ISlide slide = pres.Slides[0];
 IChart chart = (IChart)slide.Shapes[0];
 ```
 
-## Schritt 3: Identifizieren der Serien und Datenpunkte
+## Schritt 3: Datenpunkte löschen
 
-Identifizieren Sie nun die spezifischen Serien und Datenpunkte, die Sie löschen möchten. Dies geschieht normalerweise durch Iterieren der Reihe und ihrer Datenpunkte:
-
-```csharp
-// Angenommen, Sie möchten die erste Serie löschen
-IChartSeries series = chart.ChartData.Series[0];
-
-//Durchlaufen Sie Datenpunkte und identifizieren Sie diejenigen, die gelöscht werden müssen
-List<int> dataPointsToRemove = new List<int> { 2, 4, 6 }; // Beispieldatenpunktindizes
-```
-
-## Schritt 4: Datenpunkte löschen
-
-Löschen Sie die identifizierten Serien und Datenpunkte mit dem folgenden Code:
+Lassen Sie uns nun die Datenpunkte in der Diagrammreihe durchlaufen und ihre Werte löschen. Dadurch werden die Datenpunkte effektiv aus der Serie entfernt.
 
 ```csharp
-foreach (int index in dataPointsToRemove)
+foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
 {
-    series.DataPoints[index].Value.AsCell.Value = null;
+    dataPoint.XValue.AsCell.Value = null;
+    dataPoint.YValue.AsCell.Value = null;
 }
+
+chart.ChartData.Series[0].DataPoints.Clear();
 ```
 
-## Schritt 5: Speichern der geänderten Präsentation
+## Schritt 4: Speichern Sie die Präsentation
 
-Speichern Sie abschließend die geänderte Präsentation mit den gelöschten Datenpunkten:
+Nachdem Sie die spezifischen Datenpunkte der Diagrammreihe gelöscht haben, sollten Sie die geänderte Präsentation je nach Ihren Anforderungen in einer neuen Datei speichern oder die ursprüngliche überschreiben.
 
 ```csharp
-presentation.Save("modified.pptx", SaveFormat.Pptx);
+pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);
 ```
 
 ## Abschluss
 
-In diesem Leitfaden haben wir untersucht, wie Sie mit Aspose.Slides für .NET bestimmte Datenpunkte innerhalb einer Diagrammreihe löschen. Wenn Sie die Schritt-für-Schritt-Anleitung befolgen, können Sie Diagrammdaten effektiv ändern, ohne die gesamte Präsentation zu beeinträchtigen.
+Sie haben erfolgreich gelernt, wie Sie mit Aspose.Slides für .NET bestimmte Datenpunkte von Diagrammreihen löschen. Dies kann eine nützliche Funktion sein, wenn Sie Diagrammdaten in Ihren PowerPoint-Präsentationen programmgesteuert bearbeiten müssen.
 
-## FAQs
+ Wenn Sie Fragen haben oder auf Probleme stoßen, besuchen Sie bitte die[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/) oder suchen Sie Hilfe bei der[Aspose.Slides-Forum](https://forum.aspose.com/).
 
-### Wie kann ich eine PowerPoint-Präsentation mit Aspose.Slides für .NET laden?
+## Häufig gestellte Fragen
 
- Sie können eine Präsentation mit laden`Presentation` Klasse und Angabe des Dateipfads. Zum Beispiel:
-```csharp
-using (Presentation presentation = new Presentation("sample.pptx"))
-{
-    // Ihr Code hier
-}
-```
+### Kann ich Aspose.Slides für .NET mit anderen Programmiersprachen verwenden?
+Aspose.Slides ist hauptsächlich für .NET-Sprachen konzipiert. Es sind jedoch auch Versionen für Java und andere Plattformen verfügbar.
 
-### Kann ich Datenpunkte aus mehreren Serien gleichzeitig löschen?
+### Ist Aspose.Slides für .NET eine kostenpflichtige Bibliothek?
+ Ja, Aspose.Slides ist eine kommerzielle Bibliothek, aber Sie können eine erkunden[Kostenlose Testphase](https://releases.aspose.com/) vor dem Kauf.
 
-Ja, Sie können mehrere Serien durchlaufen und die gewünschten Datenpunkte aus jeder Serie löschen.
+### Wie kann ich mit Aspose.Slides für .NET neue Datenpunkte zu einem Diagramm hinzufügen?
+ Sie können neue Datenpunkte hinzufügen, indem Sie Instanzen davon erstellen`IChartDataPoint` und sie mit den gewünschten Werten füllen.
 
-### Ist es möglich, andere Eigenschaften von Diagrammdatenpunkten zu ändern?
+### Kann ich das Erscheinungsbild des Diagramms in Aspose.Slides anpassen?
+Ja, Sie können das Erscheinungsbild von Diagrammen anpassen, indem Sie deren Eigenschaften wie Farben, Schriftarten und Stile ändern.
 
-Auf jeden Fall können Sie mit Aspose.Slides für .NET verschiedene Eigenschaften wie Beschriftungen, Farben und Markierungen von Diagrammdatenpunkten ändern.
-
-### Wie speichere ich die geänderte Präsentation nach dem Löschen von Datenpunkten?
-
- Sie können die geänderte Präsentation mit speichern`Save` Methode und Angabe des gewünschten Ausgabeformats. Zum Beispiel:
-```csharp
-presentation.Save("modified.pptx", SaveFormat.Pptx);
-```
-
-### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
-
- Ausführlichere Informationen und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+### Gibt es eine Community oder Entwickler-Community für Aspose.Slides für .NET?
+Ja, Sie können der Aspose-Community in ihrem Forum beitreten, um Diskussionen zu führen, Fragen zu stellen und Ihre Erfahrungen auszutauschen.

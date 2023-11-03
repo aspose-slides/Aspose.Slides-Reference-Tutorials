@@ -105,4 +105,4 @@ Evet, Aspose.Slides for .NET çok yönlüdür ve PowerPoint sunumlarıyla progra
 
 ### Aspose.Slides for .NET hakkında nasıl daha fazla bilgi edinebilirim?
 
-Daha ayrıntılı bilgi, eğitimler ve belgeler için şu adresi ziyaret edebilirsiniz:[.NET referansı için Aspose.Slides](https://reference.aspose.com/slides/net/).
+ Daha ayrıntılı bilgi, eğitimler ve belgeler için şu adresi ziyaret edebilirsiniz:[.NET referansı için Aspose.Slides](https://reference.aspose.com/slides/net/).

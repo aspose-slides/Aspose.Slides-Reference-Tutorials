@@ -131,7 +131,7 @@ finally
 
 ## Abschluss
 
-In diesem umfassenden Tutorial haben Sie gelernt, wie Sie Ihre PowerPoint-Präsentationen verbessern, indem Sie mit Aspose.Slides für Java benutzerdefinierte Fehlerbalken zu Diagrammen hinzufügen. Fehlerbalken bieten wertvolle Einblicke in die Variabilität und Unsicherheit der Daten und machen Ihre Diagramme informativer und optisch ansprechender.
+In diesem umfassenden Tutorial haben Sie gelernt, wie Sie Ihre PowerPoint-Präsentationen verbessern, indem Sie mit Aspose.Slides für Java benutzerdefinierte Fehlerbalken zu Diagrammen hinzufügen. Fehlerbalken liefern wertvolle Einblicke in die Variabilität und Unsicherheit der Daten und machen Ihre Diagramme informativer und optisch ansprechender.
 
 ## FAQs
 

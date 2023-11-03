@@ -73,7 +73,7 @@ pres.save(dataDir + "AccessOpenDoc_out.pptx", SaveFormat.Pptx);
 
 ### ما هي الميزات الرئيسية لـ Aspose.Slides لـ Java؟
 
-يوفر Aspose.Slides for Java ميزات مثل إنشاء عروض PowerPoint التقديمية وتحريرها وتحويلها، والعمل مع الأشكال والشرائح والنصوص، ودعم تنسيقات PowerPoint المتنوعة.
+يوفر Aspose.Slides for Java ميزات مثل إنشاء عروض PowerPoint التقديمية وتحريرها وتحويلها، والعمل مع الأشكال والشرائح والنصوص، ودعم تنسيقات PowerPoint المختلفة.
 
 ### هل يمكنني استخدام Aspose.Slides for Java في مشاريعي التجارية؟
 

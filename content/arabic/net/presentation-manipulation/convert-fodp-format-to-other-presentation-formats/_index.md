@@ -14,7 +14,7 @@ url: /ar/net/presentation-manipulation/convert-fodp-format-to-other-presentation
 
 قبل أن نتعمق في عملية التحويل، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. Aspose.Slides for .NET: إذا لم تكن قد قمت بذلك بالفعل، فقم بتنزيل Aspose.Slides for .NET وتثبيته من موقع الويب:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET: إذا لم تكن قد قمت بذلك بالفعل، فقم بتنزيل Aspose.Slides for .NET وتثبيته من موقع الويب:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/).
 
 2. دليل المستندات الخاص بك: قم بإعداد الدليل الذي يوجد به مستند FODP الخاص بك.
 
@@ -60,7 +60,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 تهانينا! لقد نجحت في تحويل ملف بتنسيق FODP إلى تنسيقات عروض تقديمية أخرى باستخدام Aspose.Slides لـ .NET. تفتح هذه المكتبة متعددة الاستخدامات عالمًا من الإمكانيات للعمل مع العروض التقديمية برمجيًا.
 
- إذا واجهت أي مشاكل أو كانت لديك أسئلة، فلا تتردد في طلب المساعدة على[منتدى Aspose.Slides](https://forum.aspose.com/)المجتمع وفريق الدعم موجودون لمساعدتك.
+ إذا واجهت أي مشاكل أو كانت لديك أسئلة، فلا تتردد في طلب المساعدة على[منتدى Aspose.Slides](https://forum.aspose.com/). المجتمع وفريق الدعم موجودون لمساعدتك.
 
 ## الأسئلة الشائعة
 
@@ -74,7 +74,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 ### 3. كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 
- إذا كنت بحاجة إلى ترخيص مؤقت، فيمكنك الحصول عليه من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+إذا كنت بحاجة إلى ترخيص مؤقت، فيمكنك الحصول عليه من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
 
 ### 4. ما هي تنسيقات العرض المدعومة للتحويل؟
 

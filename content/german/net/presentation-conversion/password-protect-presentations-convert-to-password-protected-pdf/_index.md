@@ -14,7 +14,7 @@ Im heutigen digitalen Zeitalter ist die Sicherung Ihrer sensiblen Präsentatione
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Aspose.Slides für .NET: Aspose.Slides für .NET sollte in Ihrer Entwicklungsumgebung installiert und eingerichtet sein. Sie können es herunterladen[Hier](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides für .NET: Aspose.Slides für .NET sollte in Ihrer Entwicklungsumgebung installiert und eingerichtet sein. Sie können es herunterladen[Hier](https://releases.aspose.com/slides/net/).
 
 ## Schritt 1: Initialisieren Sie Ihr Projekt
 
@@ -22,7 +22,7 @@ Um zu beginnen, müssen Sie ein neues Projekt einrichten oder ein vorhandenes in
 
 ## Schritt 2: Importieren Sie Ihre Präsentation
 
- Jetzt importieren Sie die Präsentation, die Sie in eine passwortgeschützte PDF-Datei konvertieren möchten. Ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrer Präsentationsdatei und`"DemoFile.pptx"` mit dem Namen Ihrer Präsentationsdatei. Hier ist ein Beispielcode-Snippet:
+Jetzt importieren Sie die Präsentation, die Sie in eine passwortgeschützte PDF-Datei konvertieren möchten. Ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrer Präsentationsdatei und`"DemoFile.pptx"` mit dem Namen Ihrer Präsentationsdatei. Hier ist ein Beispielcode-Snippet:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -76,4 +76,4 @@ Ja, passwortgeschützte PDFs bieten ein höheres Maß an Sicherheit, da zum Öff
 
 ### Wo kann ich auf die Aspose.Slides for .NET API-Dokumentation zugreifen?
 
- Sie können auf die Dokumentation für Aspose.Slides für .NET unter zugreifen[Hier](https://reference.aspose.com/slides/net/).
+Sie können auf die Dokumentation für Aspose.Slides für .NET unter zugreifen[Hier](https://reference.aspose.com/slides/net/).

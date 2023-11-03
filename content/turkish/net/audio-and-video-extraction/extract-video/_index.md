@@ -1,95 +1,112 @@
 ---
-title: Slayttan Video Çıkart
+title: Aspose.Slides for .NET Kullanarak Slayttan Video Çıkarma
 linktitle: Slayttan Video Çıkart
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarından video çıkarma konusunda uzmanlaşın. Kod örnekleri içeren kılavuzumuzu takip edin.
+description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarından nasıl video çıkaracağınızı öğrenin. Bu adım adım kılavuz süreci sizin için basitleştirir.
 type: docs
 weight: 14
 url: /tr/net/audio-and-video-extraction/extract-video/
 ---
 
-## giriiş
-
-Günümüzün dijital dünyasında multimedya sunumları iletişimin önemli bir parçası haline geldi. PowerPoint sunumları genellikle bilgiyi etkili bir şekilde iletmek için metin, resim ve videoların bir karışımını içerir. Ancak arşivleme, paylaşma veya daha fazla düzenleme gibi çeşitli amaçlarla slayttan video çıkarmanız gerekebileceği zamanlar olabilir. Aspose.Slides for .NET'in devreye girdiği yer burasıdır.
+Aspose.Slides for .NET, PowerPoint sunumlarıyla .NET ortamında çalışmanıza olanak tanıyan güçlü bir kitaplıktır. Sağladığı kullanışlı özelliklerden biri, slaytlardan video çıkarma yeteneğidir. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak bir PowerPoint slaytından nasıl video çıkaracağınızı göstereceğiz.
 
 ## Önkoşullar
 
-Adım adım kılavuza geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- C# ve .NET çerçevesi hakkında temel bilgi
-- Visual Studio yüklü
--  Aspose.Slides for .NET kitaplığı (şu adresten indirin:[Burada](https://releases.aspose.com/slides/net)
+-  Aspose.Slides for .NET: Aspose.Slides for .NET'in kurulu olması gerekir. adresinden temin edebilirsiniz.[İnternet sitesi](https://purchase.aspose.com/buy).
 
-## Adım adım rehber
+- PowerPoint Sunumu: Çıkarmak istediğiniz videoyu içeren bir PowerPoint sunumu (örneğin, Video.pptx) hazırlayın.
 
-Aspose.Slides for .NET kullanarak bir slayttan video çıkarma sürecini inceleyelim:
+## Ad Alanlarını İçe Aktar
 
-### Adım 1: Kurulum
-
-1. Visual Studio'yu açın ve yeni bir C# projesi oluşturun.
-2. Solution Explorer'da projenize sağ tıklayın ve "NuGet Paketlerini Yönet"i seçin.
-3. "Aspose.Slides"ı arayın ve en son sürümü yükleyin.
-
-### Adım 2: Sunumu Yükleyin
+Aspose.Slides for .NET ile çalışmak için gerekli ad alanlarını içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
 using Aspose.Slides;
-
-// Sunuyu yükle
-using var presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Video;
 ```
 
- Yer değiştirmek`"your-presentation.pptx"` PowerPoint sunum dosyanızın gerçek yolunu belirtin.
+Şimdi bir slayttan video çıkarma işlemini birden fazla adıma ayıralım.
 
-### 3. Adım: Videoyu Çıkarın
+## 1. Adım: Belge Dizinini Ayarlayın
 
 ```csharp
-// İlk slaydı alın
-var slide = presentation.Slides[0];
+string dataDir = "Your Document Directory";
+```
 
-// Slayt şekillerini yineleyin
-foreach (var shape in slide.Shapes)
+ Yer değiştirmek`"Your Document Directory"` PowerPoint sunumunuzun bulunduğu dizinin yolu ile birlikte.
+
+## 2. Adım: Sunuyu Yükleyin
+
+```csharp
+Presentation presentation = new Presentation(dataDir + "Video.pptx");
+```
+
+Bu kod, PowerPoint sunum dosyanızı temsil eden bir Sunum nesnesini başlatır.
+
+## 3. Adım: Slaytlar ve Şekiller Üzerinde Yineleme Yapın
+
+```csharp
+foreach (ISlide slide in presentation.Slides)
 {
-    if (shape is IVideoFrame videoFrame)
+    foreach (IShape shape in presentation.Slides[0].Shapes)
     {
-        // Videoyu video çerçevesinden çıkarın
-        var video = videoFrame.EmbeddedVideo;
-        // Video nesnesi ile daha fazla işlem yapılabilir
-    }
+```
+
+Burada, sunumdaki her slaytta döngü yapıyoruz ve ardından ilk slayttaki şekilleri yineliyoruz (gerektiğinde değişiklik yapıyoruz).
+
+## 4. Adım: Şeklin bir Video Çerçevesi olup olmadığını kontrol edin
+
+```csharp
+if (shape is VideoFrame)
+{
+    IVideoFrame vf = shape as IVideoFrame;
+    String type = vf.EmbeddedVideo.ContentType;
+```
+
+Bu adım, slayttaki şeklin bir video karesi olup olmadığını kontrol eder.
+
+## Adım 5: Video Verilerini Çıkarın
+
+```csharp
+int ss = type.LastIndexOf('/');
+type = type.Remove(0, type.LastIndexOf('/') + 1);
+Byte[] buffer = vf.EmbeddedVideo.BinaryData;
+```
+
+Bu kod, içerik türü ve ikili veriler de dahil olmak üzere video hakkındaki bilgileri çıkarır.
+
+## Adım 6: Videoyu Kaydet
+
+```csharp
+using (FileStream stream = new FileStream(dataDir + "NewVideo_out." + type, FileMode.Create, FileAccess.Write, FileShare.Read))
+{
+    stream.Write(buffer, 0, buffer.Length);
 }
 ```
 
-### 4. Adım: Videoyu Kaydet
+Son olarak bu adım, videoyu belirtilen dizindeki yeni bir dosyaya kaydeder.
 
-```csharp
-// Çıkarılan videoyu kaydedin
-video.WriteToFile("extracted-video.mp4");
-```
-
- Yer değiştirmek`"extracted-video.mp4"` çıkarılan video dosyası için istenen ad ve yolla.
+Bu adımları tamamladıktan sonra Aspose.Slides for .NET'i kullanarak PowerPoint slaytından başarıyla video çıkarmış olacaksınız.
 
 ## Çözüm
 
-Aspose.Slides for .NET, PowerPoint sunumlarından video çıkarma görevini basitleştirir. Yalnızca birkaç satır kodla slaytların içine yerleştirilmiş videoları alabilir ve bunları ayrı video dosyaları olarak kaydedebilirsiniz. İster içeriği yeniden kullanmak ister derlemeler oluşturmak istiyor olun, bu kitaplık kusursuz bir çözüm sunar.
+Aspose.Slides for .NET, PowerPoint sunumlarıyla çalışma sürecini basitleştirerek slaytlardan video çıkarma gibi görevleri kolaylıkla gerçekleştirmenize olanak tanır. Bu adım adım kılavuzu takip ederek ve Aspose.Slides kütüphanesinden yararlanarak .NET uygulamalarınızı güçlü PowerPoint özellikleriyle geliştirebilirsiniz.
 
-## SSS'ler
+## Sıkça Sorulan Sorular (SSS)
 
-### Aspose.Slides belgelerine nasıl erişebilirim?
+### Aspose.Slides for .NET nedir?
+Aspose.Slides for .NET, içerik oluşturma, düzenleme ve çıkarma dahil olmak üzere .NET uygulamalarının PowerPoint sunumlarıyla çalışmasını sağlayan bir kitaplıktır.
 
- Aspose.Slides for .NET belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/net/).
+### Aspose.Slides for .NET belgelerini nerede bulabilirim?
+ Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/slides/net/).
 
-### Aspose.Slides diğer programlama dilleri için de mevcut mu?
+### Aspose.Slides for .NET'in ücretsiz deneme sürümü mevcut mu?
+ Evet, ücretsiz deneme sürümünü şuradan edinebilirsiniz:[Burada](https://releases.aspose.com/).
 
-Evet, Aspose.Slides, Java dahil birden fazla programlama dili için mevcuttur. Uygun kütüphaneleri Aspose web sitesinde bulabilirsiniz.
+### Aspose.Slides for .NET için nasıl geçici lisans alabilirim?
+ Geçici lisans talebinde bulunabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
-### Aynı yaklaşımı kullanarak ses çıkarabilir miyim?
-
-Hayır, verilen örnek özellikle videoların çıkarılması içindir. Sesi çıkarmak için kodu ses çerçeveleriyle çalışacak şekilde değiştirmeniz gerekir.
-
-### Aspose.Slides'ı kullanmak için herhangi bir lisans ücreti var mı?
-
-Evet, Aspose.Slides ticari bir üründür. Aspose web sitesinde lisanslama ve fiyatlandırma hakkında detaylı bilgiye ulaşabilirsiniz.
-
-### Çıkarılan videonun özelliklerine nasıl erişebilirim?
-
-`EmbeddedVideo` elde edilen nesne`IVideoFrame` videonun süre, çözünürlük ve daha fazlası gibi çeşitli özelliklerine erişim sağlar.
+### Aspose.Slides for .NET için nereden destek alabilirim?
+ Şu adreste destek bulabilirsiniz:[Aspose.Slides forumu](https://forum.aspose.com/).

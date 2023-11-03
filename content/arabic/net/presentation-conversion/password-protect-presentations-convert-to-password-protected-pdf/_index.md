@@ -14,7 +14,7 @@ url: /ar/net/presentation-conversion/password-protect-presentations-convert-to-p
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.Slides for .NET: يجب أن يكون Aspose.Slides for .NET مثبتًا وإعداده في بيئة التطوير الخاصة بك. يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: يجب أن يكون Aspose.Slides for .NET مثبتًا وإعداده في بيئة التطوير الخاصة بك. يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
 
 ## الخطوة 1: تهيئة مشروعك
 
@@ -22,7 +22,7 @@ url: /ar/net/presentation-conversion/password-protect-presentations-convert-to-p
 
 ## الخطوة 2: استيراد العرض التقديمي الخاص بك
 
- الآن، ستقوم باستيراد العرض التقديمي الذي تريد تحويله إلى ملف PDF محمي بكلمة مرور. يستبدل`"Your Document Directory"` مع المسار إلى ملف العرض التقديمي الخاص بك و`"DemoFile.pptx"` مع اسم ملف العرض التقديمي الخاص بك. فيما يلي نموذج لمقتطف التعليمات البرمجية:
+الآن، ستقوم باستيراد العرض التقديمي الذي تريد تحويله إلى ملف PDF محمي بكلمة مرور. يستبدل`"Your Document Directory"` مع المسار إلى ملف العرض التقديمي الخاص بك و`"DemoFile.pptx"` مع اسم ملف العرض التقديمي الخاص بك. فيما يلي نموذج لمقتطف التعليمات البرمجية:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -76,4 +76,4 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 
 ### أين يمكنني الوصول إلى وثائق Aspose.Slides for .NET API؟
 
- يمكنك الوصول إلى وثائق Aspose.Slides for .NET على[هنا](https://reference.aspose.com/slides/net/).
+يمكنك الوصول إلى وثائق Aspose.Slides for .NET على[هنا](https://reference.aspose.com/slides/net/).

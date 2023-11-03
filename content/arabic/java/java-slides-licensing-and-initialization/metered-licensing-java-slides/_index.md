@@ -59,7 +59,7 @@ double amountAfter = Metered.getConsumptionQuantity();
 // عرض المعلومات
 System.out.println("Amount Consumed After: " + amountAfter);
 ```
-## كود المصدر الكامل
+## استكمال كود المصدر
 ```java
 // قم بإنشاء مثيل لفئة CAD Metered
 Metered metered = new Metered();

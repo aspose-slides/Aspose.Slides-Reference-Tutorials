@@ -13,7 +13,7 @@ ActiveX denetimleri, PowerPoint sunumlarınızın işlevselliğini ve etkileşim
 
 ActiveX denetimlerini PowerPoint sunumlarınıza dahil etmeye başlamak için şu adımları izleyin:
 
-1.  Yeni Bir PowerPoint Sunumu Oluşturun: Öncelikle Aspose.Slides for .NET'i kullanarak yeni bir PowerPoint sunumu oluşturun. Şuraya başvurabilirsiniz:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/)sunumlarla nasıl çalışılacağı konusunda rehberlik için.
+1.  Yeni Bir PowerPoint Sunumu Oluşturun: Öncelikle Aspose.Slides for .NET'i kullanarak yeni bir PowerPoint sunumu oluşturun. Şuraya başvurabilirsiniz:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/) sunumlarla nasıl çalışılacağı konusunda rehberlik için.
 
 2. Slayt Ekle: Sununuza yeni bir slayt eklemek için kitaplığı kullanın. Bu, ActiveX kontrolünü eklemek istediğiniz slayt olacaktır.
 
@@ -71,9 +71,9 @@ oleObjectFrame.SetProperty("Volume", 50);
 
 ActiveX kontrolünüzün özelliklerini özelleştirmek, sunumunuzun kullanıcı deneyimini büyük ölçüde geliştirebilir. Bu özellikleri şu şekilde özelleştirebilirsiniz:
 
-1. Erişim Özellikleri: Daha önce de belirtildiği gibi, ActiveX kontrolünün özelliklerine aşağıdaki komutu kullanarak erişebilirsiniz:`IOleObjectFrame` referans.
+1.  Erişim Özellikleri: Daha önce de belirtildiği gibi, ActiveX kontrolünün özelliklerine aşağıdaki komutu kullanarak erişebilirsiniz:`IOleObjectFrame` referans.
 
-2.  Özellikleri Ayarla:`SetProperty` ActiveX denetiminin çeşitli özelliklerini ayarlama yöntemi. Örneğin arka plan rengini şu şekilde değiştirebilirsiniz:
+2.  Özellikleri Ayarla:`SetProperty`ActiveX denetiminin çeşitli özelliklerini ayarlama yöntemi. Örneğin arka plan rengini şu şekilde değiştirebilirsiniz:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);
@@ -130,7 +130,7 @@ ActiveX kontrollerini PowerPoint sunumlarınıza dahil etmek, hedef kitlenizin e
 
 ### Belirli bir slayda ActiveX denetimini nasıl ekleyebilirim?
 
- Belirli bir slayda ActiveX denetimi eklemek için`AddOleObjectFrame` Aspose.Slides for .NET tarafından sağlanan yöntem. Bu yöntem, eklemek istediğiniz ActiveX denetiminin konumunu, boyutunu ve ProgID'sini belirtmenize olanak tanır.
+Belirli bir slayda ActiveX denetimi eklemek için`AddOleObjectFrame` Aspose.Slides for .NET tarafından sağlanan yöntem. Bu yöntem, eklemek istediğiniz ActiveX denetiminin konumunu, boyutunu ve ProgID'sini belirtmenize olanak tanır.
 
 ### ActiveX denetimlerini programlı olarak değiştirebilir miyim?
 
@@ -140,11 +140,11 @@ ActiveX kontrollerini PowerPoint sunumlarınıza dahil etmek, hedef kitlenizin e
 
  ActiveX denetimleri tarafından mı tetikleniyor?
 
-ActiveX denetimleri tarafından tetiklenen olayları, ilgili olaylara abone olarak kullanarak yönetebilirsiniz.`EventClick` (veya benzeri) olay işleyicisi. Bu, kullanıcının kontrolle etkileşimlerine yanıt olarak belirli eylemleri yürütmenize olanak tanır.
+ ActiveX denetimleri tarafından tetiklenen olayları, ilgili olaylara abone olarak kullanarak yönetebilirsiniz.`EventClick` (veya benzeri) olay işleyicisi. Bu, kullanıcının kontrolle etkileşimlerine yanıt olarak belirli eylemleri yürütmenize olanak tanır.
 
 ### ActiveX kontrollerinin görünümünü özelleştirmek mümkün mü?
 
- Kesinlikle, ActiveX kontrollerinin görünümünü aşağıdakileri kullanarak özelleştirebilirsiniz:`SetProperty` Aspose.Slides for .NET tarafından sağlanan yöntem. Bu yöntem, arka plan rengi, yazı tipi stili ve daha fazlası gibi çeşitli özellikleri değiştirmenizi sağlar.
+ Kesinlikle, ActiveX kontrollerinin görünümünü aşağıdakileri kullanarak özelleştirebilirsiniz:`SetProperty`Aspose.Slides for .NET tarafından sağlanan yöntem. Bu yöntem, arka plan rengi, yazı tipi stili ve daha fazlası gibi çeşitli özellikleri değiştirmenizi sağlar.
 
 ### Bir ActiveX denetimini slayttan kaldırabilir miyim?
 

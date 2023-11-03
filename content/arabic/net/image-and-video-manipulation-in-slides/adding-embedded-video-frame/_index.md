@@ -44,7 +44,7 @@ Presentation presentation = new Presentation();
 بعد ذلك، سنقوم بإضافة شريحة جديدة إلى العرض التقديمي. تتم فهرسة الشرائح بدءاً من الصفر. إليك كيفية إضافة شريحة:
 
 ```csharp
-//أضف شريحة جديدة إلى العرض التقديمي
+// أضف شريحة جديدة إلى العرض التقديمي
 ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
 ```
 

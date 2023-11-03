@@ -10,7 +10,7 @@ url: /sv/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 
 ## Introduktion
 
-affärsvärlden och den akademiska världen har presentationer blivit ett oumbärligt verktyg för att dela idéer, information och data. Men det är inte meningen att all information ska vara synlig på en gång. Det finns situationer där du kan behöva dölja vissa former i presentationsbilder och avslöja dem bara i rätt ögonblick. Det är här Aspose.Slides, ett kraftfullt API för att arbeta med presentationsfiler, kommer in i bilden. I den här guiden kommer vi att utforska hur du effektivt döljer former i presentationsbilder med Aspose.Slides för .NET.
+I affärsvärlden och den akademiska världen har presentationer blivit ett oumbärligt verktyg för att dela idéer, information och data. Men det är inte meningen att all information ska vara synlig på en gång. Det finns situationer där du kan behöva dölja vissa former i presentationsbilder och avslöja dem bara i rätt ögonblick. Det är här Aspose.Slides, ett kraftfullt API för att arbeta med presentationsfiler, kommer in i bilden. I den här guiden kommer vi att utforska hur du effektivt döljer former i presentationsbilder med Aspose.Slides för .NET.
 
 ## Förstå behovet av att gömma former
 
@@ -20,7 +20,7 @@ Presentationer innehåller ofta känsliga data, komplexa diagram eller element s
 
 Innan vi går in i de tekniska detaljerna, låt oss se till att vi har allt inställt för att fungera med Aspose.Slides.
 
-1. Installation: Börja med att ladda ner och installera Aspose.Slides for .NET-biblioteket från[Nedladdningslänk](https://releases.aspose.com/slides/net/) . Du kan också utforska den detaljerade API-referensen på[API-referens](https://reference.aspose.com/slides/net/).
+1.  Installation: Börja med att ladda ner och installera Aspose.Slides for .NET-biblioteket från[Nedladdningslänk](https://releases.aspose.com/slides/net/) . Du kan också utforska den detaljerade API-referensen på[API-referens](https://reference.aspose.com/slides/net/).
 
 2. Skapa ett projekt: Starta ett nytt .NET-projekt i din föredragna utvecklingsmiljö. Se till att du har de nödvändiga referenserna till Aspose.Slides-biblioteket.
 
@@ -60,7 +60,7 @@ foreach (IShape shape in slide.Shapes)
 
 ## Visar dolda former
 
-Naturligtvis måste du också avslöja de dolda formerna någon gång. Ställ bara tillbaka synlighetsegenskapen till`true`:
+ Naturligtvis måste du också avslöja de dolda formerna någon gång. Ställ bara tillbaka synlighetsegenskapen till`true`:
 
 ```csharp
 foreach (IShape shape in slide.Shapes)
@@ -126,7 +126,7 @@ Att bemästra konsten att dölja former i presentationsbilder med Aspose.Slides 
 
 ### Hur kan jag visa en form i en presentationsbild?
 
-För att visa en form ställer du bara in dess synlighetsegenskap till`true`.
+ För att visa en form ställer du bara in dess synlighetsegenskap till`true`.
 
 ### Kan jag använda animationer på dolda former?
 

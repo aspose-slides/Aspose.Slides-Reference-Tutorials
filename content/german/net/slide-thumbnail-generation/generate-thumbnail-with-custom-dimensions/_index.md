@@ -2,89 +2,116 @@
 title: Erstellen Sie Miniaturansichten in Folien mit benutzerdefinierten Abmessungen
 linktitle: Erstellen Sie eine Miniaturansicht mit benutzerdefinierten Abmessungen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET benutzerdefinierte Miniaturansichten in Folien generieren. Schritt-für-Schritt-Anleitung mit Quellcode. Werten Sie Ihre Präsentationen mit ansprechenden Bildern auf.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET benutzerdefinierte Miniaturbilder aus PowerPoint-Präsentationen generieren. Verbessern Sie Benutzererfahrung und Funktionalität.
 type: docs
 weight: 13
 url: /de/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
 
-Im heutigen digitalen Zeitalter spielen visuelle Inhalte eine entscheidende Rolle bei der effektiven Informationsvermittlung. Unabhängig davon, ob Sie eine Präsentation für ein Geschäftstreffen, ein Bildungsseminar oder einen anderen Zweck vorbereiten, kann die Möglichkeit, Miniaturansichten Ihrer Folien mit benutzerdefinierten Abmessungen zu erstellen, die visuelle Attraktivität Ihrer Inhalte verbessern. Aspose.Slides für .NET bietet eine leistungsstarke Lösung, um diese Aufgabe nahtlos zu erfüllen. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Erstellung von Miniaturansichten in Folien mit benutzerdefinierten Abmessungen mithilfe von Aspose.Slides für .NET.
+Das Erstellen benutzerdefinierter Miniaturansichten Ihrer PowerPoint-Präsentationen kann von großem Nutzen sein, unabhängig davon, ob Sie eine interaktive Anwendung erstellen, die Benutzererfahrung verbessern oder Inhalte für verschiedene Plattformen optimieren. In diesem Tutorial führen wir Sie durch den Prozess der Generierung benutzerdefinierter Miniaturbilder aus PowerPoint-Präsentationen mithilfe der Aspose.Slides für .NET-Bibliothek. Mit dieser leistungsstarken Bibliothek können Sie PowerPoint-Dateien programmgesteuert in .NET-Anwendungen bearbeiten, konvertieren und verbessern.
 
 ## Voraussetzungen
 
-Bevor wir uns mit der technischen Umsetzung befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir mit der Erstellung benutzerdefinierter Miniaturbilder beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Visual Studio ist auf Ihrem Computer installiert
-- Grundlegendes Verständnis der Programmiersprache C#
-- Aspose.Slides für .NET-Bibliothek
+### 1. Aspose.Slides für .NET
 
+ In Ihrem Projekt muss die Aspose.Slides for .NET-Bibliothek installiert sein. Falls noch nicht geschehen, finden Sie hier die erforderliche Dokumentation und Download-Links[Hier](https://reference.aspose.com/slides/net/).
 
-## Schritt 1: Einführung in die Miniaturbildgenerierung
+### 2. Eine PowerPoint-Präsentation
 
-Bei der Erstellung von Miniaturansichten wird eine kleinere Version eines Bildes oder einer Folie für eine schnelle Vorschau erstellt. Dies ist besonders nützlich, wenn Sie einen visuellen Überblick über Ihre Folien geben möchten, ohne den gesamten Inhalt anzuzeigen.
+Stellen Sie sicher, dass Sie über die PowerPoint-Präsentation verfügen, aus der Sie ein benutzerdefiniertes Miniaturbild erstellen möchten. Diese Präsentation sollte in Ihrem Projektverzeichnis zugänglich sein.
 
-## Schritt 2: Einrichten des Projekts
+### 3. Entwicklungsumgebung
 
-1. Erstellen Sie ein neues Projekt in Visual Studio.
-2. Installieren Sie die Aspose.Slides für .NET-Bibliothek über den NuGet-Paketmanager.
+Um diesem Tutorial folgen zu können, sollten Sie über praktische Kenntnisse der .NET-Programmierung mit C# und einer eingerichteten Entwicklungsumgebung wie Visual Studio verfügen.
 
-## Schritt 3: Präsentation laden
+Nachdem wir nun die Voraussetzungen abgedeckt haben, unterteilen wir den Prozess der Generierung benutzerdefinierter Miniaturansichten in Schritt-für-Schritt-Anleitungen.
+
+## Namespaces importieren
+
+Zunächst müssen Sie die erforderlichen Namespaces in Ihren C#-Code aufnehmen. Mit diesen Namespaces können Sie mit Aspose.Slides arbeiten und PowerPoint-Präsentationen bearbeiten.
 
 ```csharp
 using Aspose.Slides;
-
-// Laden Sie die Präsentation
-using var presentation = new Presentation("your-presentation.pptx");
+using System.Drawing;
 ```
 
-## Schritt 4: Miniaturansicht mit benutzerdefinierten Abmessungen erstellen
+## Schritt 1: Laden Sie die Präsentation
+
+Laden Sie zunächst die PowerPoint-Präsentation, aus der Sie ein benutzerdefiniertes Miniaturbild erstellen möchten. Dies wird mithilfe der Aspose.Slides-Bibliothek erreicht.
 
 ```csharp
-// Wählen Sie den Folienindex aus, für den Sie eine Miniaturansicht erstellen möchten
-int slideIndex = 0;
+string FilePath = @"..\..\..\Sample Files\";
+string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 
-// Legen Sie benutzerdefinierte Abmessungen für die Miniaturansicht fest
-int width = 400;
-int height = 300;
-
-// Erzeugen Sie das Miniaturbild
-using var bitmap = presentation.Slides[slideIndex].GetThumbnail(width, height);
+// Instanziieren Sie eine Präsentationsklasse, die die Präsentationsdatei darstellt
+using (Presentation pres = new Presentation(srcFileName))
+{
+    // Hier finden Sie Ihren Code für die Miniaturbildgenerierung
+}
 ```
 
-## Schritt 5: Speichern der Miniaturansicht
+## Schritt 2: Greifen Sie auf die Folie zu
+
+Innerhalb der geladenen Präsentation müssen Sie auf die spezifische Folie zugreifen, aus der Sie das benutzerdefinierte Miniaturbild erstellen möchten. Sie können die Folie anhand ihres Index auswählen.
 
 ```csharp
-// Speichern Sie die Miniaturansicht als Bilddatei
-bitmap.Save("thumbnail.png", ImageFormat.Png);
+// Greifen Sie auf die erste Folie zu (Sie können den Index nach Bedarf ändern)
+ISlide sld = pres.Slides[0];
 ```
 
-## Schritt 6: Fazit
+## Schritt 3: Definieren Sie benutzerdefinierte Miniaturbildabmessungen
 
-In diesem Leitfaden haben wir untersucht, wie Sie mit Aspose.Slides für .NET Miniaturansichten in Folien mit benutzerdefinierten Abmessungen erstellen. Diese Funktion kann die visuelle Darstellung Ihrer Präsentationen erheblich verbessern und sie ansprechender und informativer machen.
+Geben Sie die gewünschten Abmessungen für Ihr benutzerdefiniertes Miniaturbild an. Sie können die Breite und Höhe in Pixel entsprechend den Anforderungen Ihrer Anwendung definieren.
 
-## FAQs
+```csharp
+int desiredX = 1200; // Breite
+int desiredY = 800;  // Höhe
+```
 
-### Wie installiere ich Aspose.Slides für .NET?
+## Schritt 4: Skalierungsfaktoren berechnen
 
-Um Aspose.Slides für .NET zu installieren, befolgen Sie diese Schritte:
-1. Öffnen Sie Ihr Projekt in Visual Studio.
-2. Gehen Sie zum Menü „Extras“ und wählen Sie „NuGet Package Manager“.
-3. Suchen Sie im Fenster „NuGet Package Manager“ nach „Aspose.Slides“ und klicken Sie auf „Installieren“.
+Um das Seitenverhältnis der Folie beizubehalten, berechnen Sie die Skalierungsfaktoren für die X- und Y-Abmessungen basierend auf der Größe der Folie und Ihren gewünschten Abmessungen.
 
-### Kann ich Miniaturansichten für mehrere Folien gleichzeitig erstellen?
+```csharp
+float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
+float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
+```
 
-Ja, Sie können die Folien in einer Schleife durchlaufen und Miniaturansichten für jede Folie erstellen, indem Sie einen ähnlichen Ansatz verwenden, wie in diesem Handbuch beschrieben.
+## Schritt 5: Erstellen Sie das Miniaturbild
 
-### Ist es möglich, das Erscheinungsbild des generierten Miniaturbilds anzupassen?
+Erstellen Sie ein maßstabsgetreues Bild der Folie mit den angegebenen benutzerdefinierten Abmessungen und speichern Sie es im JPEG-Format auf der Festplatte.
 
-Absolut! Sie können verschiedene Formatierungsoptionen auf die Folien anwenden, bevor Sie Miniaturansichten erstellen, um sicherzustellen, dass die Miniaturansichten Ihren gewünschten visuellen Stil widerspiegeln.
+```csharp
+// Erstellen Sie ein Bild in Originalgröße
+Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
 
-### Welche weiteren Funktionen bietet Aspose.Slides für .NET?
+// Speichern Sie das Bild im JPEG-Format auf der Festplatte
+bmp.Save(destFileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+```
 
-Aspose.Slides für .NET bietet eine Vielzahl von Funktionen, darunter Folienmanipulation, Hinzufügen von Animationen, Arbeiten mit Text und Formen, Exportieren in verschiedene Formate und mehr. Eine umfassende Liste der Funktionen finden Sie in der Dokumentation.
+Nachdem Sie diese Schritte ausgeführt haben, sollten Sie erfolgreich ein benutzerdefiniertes Miniaturbild aus Ihrer PowerPoint-Präsentation erstellt haben.
 
-### Wo kann ich auf die Dokumentation zu Aspose.Slides für .NET zugreifen und die Bibliothek herunterladen?
+## Abschluss
 
-Dokumentation und Downloads finden Sie auf der Aspose.Slides-Website:
--  Dokumentation:[https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/)
--  Herunterladen:[https://releases.aspose.com/slides/net/](https://releases.aspose.com/slides/net/)
+Das Generieren benutzerdefinierter Miniaturbilder aus PowerPoint-Präsentationen mit Aspose.Slides für .NET ist eine wertvolle Fähigkeit, die das Benutzererlebnis und die Funktionalität Ihrer Anwendungen verbessern kann. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie ganz einfach benutzerdefinierte Miniaturansichten erstellen, die Ihren spezifischen Anforderungen entsprechen.
+
+---
+
+## FAQs (häufig gestellte Fragen)
+
+### Was ist Aspose.Slides für .NET?
+Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen in .NET-Anwendungen zu arbeiten.
+
+### Wo finde ich die Dokumentation für Aspose.Slides für .NET?
+ Die Dokumentation finden Sie hier[Hier](https://reference.aspose.com/slides/net/).
+
+### Ist die Nutzung von Aspose.Slides für .NET kostenlos?
+ Aspose.Slides für .NET ist eine kommerzielle Bibliothek. Hier finden Sie Preis- und Lizenzinformationen[Hier](https://purchase.aspose.com/buy).
+
+### Benötige ich fortgeschrittene Programmierkenntnisse, um Aspose.Slides für .NET zu verwenden?
+Während einige Kenntnisse der .NET-Programmierung von Vorteil sind, bietet Aspose.Slides für .NET eine benutzerfreundliche API, die die Arbeit mit PowerPoint-Präsentationen vereinfacht.
+
+### Ist technischer Support für Aspose.Slides für .NET verfügbar?
+ Ja, Sie können auf technischen Support und Community-Foren zugreifen[Hier](https://forum.aspose.com/).

@@ -110,7 +110,7 @@ Dans ce didacticiel, nous avons expliqué comment accéder et manipuler les form
 
 ### Comment changer la couleur de remplissage d’une forme ?
 
- Pour modifier la couleur de remplissage d'une forme, vous pouvez utiliser l'outil`IFillFormat`méthodes de l'objet. Voici un exemple :
+ Pour modifier la couleur de remplissage d'une forme, vous pouvez utiliser l'option`IFillFormat`méthodes de l'objet. Voici un exemple :
 
 ```java
 IFillFormat fillFormat = shape.getFillFormat();

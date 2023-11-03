@@ -24,7 +24,7 @@ Per iniziare, crea un nuovo progetto nel tuo ambiente di sviluppo preferito. Ass
 
 ## 4. Caricamento della presentazione
 
-Nel codice sorgente dovrai specificare il percorso della presentazione di PowerPoint. Sostituire`"Your Document Directory"` con il percorso del file di presentazione.
+ Nel codice sorgente dovrai specificare il percorso della presentazione di PowerPoint. Sostituire`"Your Document Directory"` con il percorso del file di presentazione.
 
 ```csharp
 string dataDir = "Your Document Directory";

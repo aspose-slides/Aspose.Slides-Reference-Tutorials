@@ -22,7 +22,7 @@ Aspose.Slides for .NET 是一个功能强大的 API，允许开发人员以编�
 
 要学习本教程，请确保满足以下先决条件：
 
-1. Aspose.Slides for .NET：您需要下载并安装Aspose.Slides for .NET。您可以获得它[这里](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET：您需要下载并安装Aspose.Slides for .NET。您可以获得它[这里](https://releases.aspose.com/slides/net/).
 
 ## 从 PPTX 转换为 ODP
 

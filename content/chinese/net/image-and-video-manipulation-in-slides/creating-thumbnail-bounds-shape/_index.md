@@ -10,7 +10,7 @@ url: /zh/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-sh
 
 ## 创建带有形状边界的缩略图简介
 
-在处理演示文稿时，Aspose.Slides for .NET 提供了一组功能强大的工具，使开发人员能够操纵幻灯片、形状和内容的各个方面。一项常见任务是为幻灯片中的形状创建具有特定边界的缩略图。本分步指南将引导您完成使用 Aspose.Slides for .NET 实现这一目标的过程。让我们深入了解一下吧！
+在处理演示文稿时，Aspose.Slides for .NET 提供了一组功能强大的工具，使开发人员能够操纵幻灯片、形状和内容的各个方面。一项常见任务是为幻灯片中的形状创建具有特定边界的缩略图。本分步指南将引导您完成使用 Aspose.Slides for .NET 实现这一目标的过程。让我们深入了解吧！
 
 ## 先决条件
 

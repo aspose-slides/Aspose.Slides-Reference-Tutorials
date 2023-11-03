@@ -87,7 +87,7 @@ Aspose.Slides for Java 可以通过从 Aspose 网站下载该库来安装。按�
 
 ### 我可以对打开的演示文稿执行哪些操作？
 
-打开演示文稿后，您可以执行各种操作，包括添加、修改和删除幻灯片、处理形状和文本、设置幻灯片属性以及将演示文稿导出为不同格式。 Aspose.Slides for Java 提供了以编程方式处理 PowerPoint 文件的丰富功能。
+打开演示文稿后，您可以执行各种操作，包括添加、修改和删除幻灯片、处理形状和文本、设置幻灯片属性以及将演示文稿导出为不同格式。 Aspose.Slides for Java 提供了以编程方式处理 PowerPoint 文件的广泛功能。
 
 ### Aspose.Slides for Java 是付费库吗？
 

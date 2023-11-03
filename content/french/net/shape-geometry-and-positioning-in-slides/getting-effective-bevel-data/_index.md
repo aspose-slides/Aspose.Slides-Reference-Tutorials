@@ -101,4 +101,4 @@ Absolument! Aspose.Slides offre un large éventail de fonctionnalités pour cré
 
 ## Conclusion
 
-Améliorez la conception de votre présentation en incorporant des données de biseau efficaces à l'aide d'Aspose.Slides. Grâce à ses capacités complètes et à son approche conviviale, Aspose.Slides vous permet de créer des diapositives visuellement attrayantes qui trouvent un écho auprès de votre public. Expérimentez avec différents types et paramètres de biseau pour découvrir le mélange parfait d’esthétique tridimensionnelle pour vos formes.
+Améliorez la conception de votre présentation en incorporant des données de biseau efficaces à l'aide d'Aspose.Slides. Grâce à ses capacités complètes et à son approche conviviale, Aspose.Slides vous permet de créer des diapositives visuellement attrayantes qui trouvent un écho auprès de votre public. Expérimentez avec différents types et paramètres de biseau pour découvrir le mélange parfait d'esthétique tridimensionnelle pour vos formes.

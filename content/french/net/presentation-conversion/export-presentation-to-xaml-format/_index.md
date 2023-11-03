@@ -112,4 +112,4 @@ Aspose.Slides for .NET est une bibliothèque .NET permettant de travailler avec 
 5. ### Où puis-je obtenir de l’assistance pour Aspose.Slides pour .NET ?
  Vous pouvez trouver du soutien et des discussions communautaires[ici](https://forum.aspose.com/).
 
-Pour plus de didacticiels et de ressources, visitez le[Documentation de l'API Aspose.Slides](https://reference.aspose.com/slides/net/).
+ Pour plus de didacticiels et de ressources, visitez le[Documentation de l'API Aspose.Slides](https://reference.aspose.com/slides/net/).

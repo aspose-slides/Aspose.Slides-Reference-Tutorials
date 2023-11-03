@@ -57,7 +57,7 @@ ISlide clonedSlide = presentation.Slides.AddClone(sourceSlide);
 Möglicherweise möchten Sie vor dem Speichern der Präsentation einige Änderungen an der geklonten Folie vornehmen. Angenommen, Sie möchten den Titeltext der geklonten Folie aktualisieren:
 
 ```csharp
-//Ändern Sie den Titel der geklonten Folie
+// Ändern Sie den Titel der geklonten Folie
 IAutoShape titleShape = clonedSlide.Shapes[0] as IAutoShape;
 if (titleShape != null)
 {

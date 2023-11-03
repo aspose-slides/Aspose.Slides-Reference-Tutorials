@@ -14,7 +14,7 @@ Dans ce didacticiel, nous vous guiderons tout au long du processus d'enregistrem
 
 ## Conditions préalables
 
- Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est intégrée à votre projet Java. Vous pouvez télécharger la bibliothèque sur le site officiel d'Aspose[ici](https://downloads.aspose.com/slides/java).
+ Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est intégrée à votre projet Java. Vous pouvez télécharger la bibliothèque depuis le site Web d'Aspose[ici](https://downloads.aspose.com/slides/java).
 
 ## Étape 1 : Importer les bibliothèques requises
 

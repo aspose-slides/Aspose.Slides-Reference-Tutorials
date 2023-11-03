@@ -63,7 +63,7 @@ double cameraZ = camera.Position.Z;
 Kamera verilerini çıkardıktan sonra, bunu sunumunuzu çeşitli senaryolara göre optimize etmek için kullanabilirsiniz. Örneğin, belirli bir içeriğe odaklanmak için kamera konumunu ayarlamak veya farklı ekran boyutları için görüş alanını ayarlamak isteyebilirsiniz. Kamera konumunu ayarlamaya ilişkin basit bir örnek:
 
 ```csharp
-//2. Adımdaki kamera parametrelerine sahip olduğunuzu varsayarsak
+// 2. Adımdaki kamera parametrelerine sahip olduğunuzu varsayarsak
 
 // Kamera konumunu ayarlayın
 cameraX += 10;
@@ -94,7 +94,7 @@ slide.SetCamera(defaultCamera);
 
 ### Sunumumda kamera hareketlerini canlandırabilir miyim?
 
- Evet, Aspose.Slides sunumunuz içerisinde kamera hareketleri de dahil olmak üzere animasyonlar oluşturmanıza olanak sağlar. Dinamik geçişler oluşturmak için kamera konumu ve diğer parametreler için anahtar kareler tanımlayabilirsiniz. Bakın[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) Animasyon teknikleri hakkında detaylı bilgi için.
+Evet, Aspose.Slides sunumunuz içerisinde kamera hareketleri de dahil olmak üzere animasyonlar oluşturmanıza olanak sağlar. Dinamik geçişler oluşturmak için kamera konumu ve diğer parametreler için anahtar kareler tanımlayabilirsiniz. Bakın[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) Animasyon teknikleri hakkında detaylı bilgi için.
 
 ## Çözüm
 

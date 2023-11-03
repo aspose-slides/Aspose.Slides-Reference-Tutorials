@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil также предоставляет методы для расположения и выравнивания фигур на слайдах.
 
 ```csharp
-//Располагайте фигуры горизонтально
+// Располагайте фигуры горизонтально
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Выравнивание фигур по центру
@@ -88,7 +88,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 ShapeUtil позволяет применять к фигурам форматирование, включая стили заливки и линий.
 
 ```csharp
-// Применить цвет заливки
+//Применить цвет заливки
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
 // Применить цвет и стиль линии

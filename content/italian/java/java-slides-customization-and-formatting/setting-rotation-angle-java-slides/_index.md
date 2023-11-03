@@ -95,7 +95,7 @@ Sì, puoi ruotare il testo nel titolo dell'asse orizzontale regolando l'angolo d
 
 ### Quali altre opzioni di formattazione sono disponibili per i titoli dei grafici?
 
-Aspose.Slides per Java fornisce varie opzioni di formattazione per i titoli dei grafici, inclusi stili di carattere, colori e allineamento. Puoi esplorare la documentazione per maggiori dettagli sulla personalizzazione dei titoli dei grafici.
+Aspose.Slides per Java offre varie opzioni di formattazione per i titoli dei grafici, inclusi stili di carattere, colori e allineamento. Puoi esplorare la documentazione per maggiori dettagli sulla personalizzazione dei titoli dei grafici.
 
 ### È possibile animare la rotazione del testo nel titolo dell'asse di un grafico?
 

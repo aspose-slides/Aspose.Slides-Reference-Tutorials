@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.PieOfPie, 50, 50, 500, 400);
 ```
 
-## Шаг 3. Настройка свойств диаграммы
+## Шаг 3. Настройте свойства диаграммы
 Теперь давайте установим различные свойства диаграммы, включая параметры второго графика:
 
 ```java

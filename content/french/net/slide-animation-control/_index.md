@@ -33,6 +33,6 @@ Découvrez comment contrôler les animations de diapositives dans les présentat
 ### [Contrôle après le type d'animation dans la diapositive](./control-after-animation-type/)
 Découvrez comment contrôler les types d'animation dans les diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit des exemples de code source et couvre l'installation, l'implémentation du code et la modification des effets d'animation.
 ### [Répéter l'animation sur la diapositive](./repeat-animation-on-slide/)
-Découvrez comment répéter des animations sur une diapositive à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit le code source et des instructions claires pour ajouter par programme des animations captivantes aux présentations PowerPoint.
+Découvrez comment répéter des animations sur une diapositive à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit le code source et des instructions claires pour ajouter par programmation des animations captivantes aux présentations PowerPoint.
 ### [Rembobiner l'animation sur la diapositive](./rewind-animation-on-slide/)
 Découvrez comment rembobiner des animations sur des diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Suivez ce guide étape par étape avec des exemples complets de code source pour améliorer vos présentations de manière dynamique.

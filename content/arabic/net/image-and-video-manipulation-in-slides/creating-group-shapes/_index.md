@@ -113,7 +113,7 @@ namespace GroupShapesExample
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
 
- يمكنك تنزيل مكتبة Aspose.Slides من الرابط المقدم:[هنا](https://releases.aspose.com/slides/net/). بمجرد تنزيله، يمكنك إضافته إلى مشروعك باستخدام حزم NuGet.
+يمكنك تنزيل مكتبة Aspose.Slides من الرابط المقدم:[هنا](https://releases.aspose.com/slides/net/). بمجرد تنزيله، يمكنك إضافته إلى مشروعك باستخدام حزم NuGet.
 
 ### هل يمكنني تطبيق تحويلات مختلفة على الأشكال المجمعة؟
 

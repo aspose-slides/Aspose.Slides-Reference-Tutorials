@@ -16,7 +16,7 @@ Aspose.Slides for .NET, geliştiricilerin .NET çerçevesini kullanarak PowerPoi
 
 Başlamadan önce geliştirme ortamınızı ayarlamanız gerekir. Bu adımları takip et:
 
-1.  Visual Studio'yu şuradan indirip yükleyin:[Visual Studio İndirmeleri](https://visualstudio.microsoft.com/downloads/).
+1. Visual Studio'yu şuradan indirip yükleyin:[Visual Studio İndirmeleri](https://visualstudio.microsoft.com/downloads/).
 2. Visual Studio'da yeni bir .NET projesi (örneğin Konsol Uygulaması) oluşturun.
 
 ## PowerPoint Sunumu Yükleme

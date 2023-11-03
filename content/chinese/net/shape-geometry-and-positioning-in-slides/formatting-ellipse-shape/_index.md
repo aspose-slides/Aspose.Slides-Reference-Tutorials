@@ -148,14 +148,14 @@ presentation.Save(outputPath, SaveFormat.Pdf);
 是的，Aspose.Slides 与 .NET Core 兼容，允许您开发跨平台应用程序。
 
 ### 如何将椭圆形状与幻灯片上的其他对象对齐？
-您可以使用 Aspose.Slides 提供的对齐选项将椭圆形状与其他对象对齐。访问`Alignment`形状的属性来实现对齐。
+您可以使用 Aspose.Slides 提供的对齐选项将椭圆形状与其他对象对齐。访问`Alignment`形状的属性以实现对齐。
 
 ### 我可以添加椭圆形状的超链接吗？
 当然！您可以使用以下命令添加椭圆形状的超链接`HyperlinkManager`Aspose.Slides 中的类。这可以让你
 
  将椭圆链接到外部 URL 或演示文稿中的其他幻灯片。
 
-### 如何旋转椭圆形？
+### 如何旋转椭圆形状？
 要旋转椭圆形状，请使用`RotationAngle`形状的属性。设置所需的角度以实现所需的旋转。
 
 ## 结论

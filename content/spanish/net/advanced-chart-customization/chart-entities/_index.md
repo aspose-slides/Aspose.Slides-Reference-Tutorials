@@ -1,152 +1,263 @@
 ---
-title: Entidades y formato del gráfico
+title: Creando hermosos gráficos con Aspose.Slides para .NET
 linktitle: Entidades y formato del gráfico
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda a crear y dar formato a gráficos dinámicos en PowerPoint usando Aspose.Slides para .NET. Guía paso a paso con código fuente.
+description: Aprenda a crear gráficos impresionantes con Aspose.Slides para .NET. Mejore su juego de visualización de datos con nuestra guía paso a paso.
 type: docs
 weight: 13
 url: /es/net/advanced-chart-customization/chart-entities/
 ---
 
-## Introducción a Aspose.Slides y manipulación de gráficos
+En el mundo actual impulsado por los datos, la visualización eficaz de los datos es clave para transmitir información a su audiencia. Aspose.Slides para .NET es una poderosa biblioteca que le permite crear presentaciones y diapositivas impresionantes, incluidos gráficos llamativos. En este tutorial, lo guiaremos a través del proceso de creación de hermosos gráficos usando Aspose.Slides para .NET. Dividiremos cada ejemplo en varios pasos para ayudarlo a comprender e implementar las entidades y el formato del gráfico. ¡Entonces empecemos!
 
-Aspose.Slides para .NET es una biblioteca completa que permite a los desarrolladores crear, editar y manipular presentaciones de PowerPoint mediante programación. Cuando se trata de gráficos, Aspose.Slides proporciona una amplia gama de funcionalidades para agregar, modificar y formatear gráficos dentro de las diapositivas de la presentación.
+## Requisitos previos
 
-## Configurar su entorno de desarrollo
+Antes de sumergirnos en la creación de gráficos hermosos con Aspose.Slides para .NET, deberá asegurarse de cumplir con los siguientes requisitos previos:
 
- Para comenzar, asegúrese de tener un entorno de desarrollo funcional con Aspose.Slides para .NET instalado. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides para .NET: asegúrese de tener instalada la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/slides/net/).
 
-## Agregar un gráfico a una diapositiva
+2. Entorno de desarrollo: debe tener un entorno de desarrollo funcional con Visual Studio o cualquier otro IDE que admita el desarrollo .NET.
 
-Comencemos agregando un gráfico a una diapositiva. El siguiente código demuestra cómo crear una nueva presentación, agregar una diapositiva e insertar un gráfico en ella:
+3. Conocimientos básicos de C#: la familiaridad con la programación de C# es esencial para este tutorial.
+
+Ahora que tenemos nuestros requisitos previos ordenados, procedamos a crear hermosos gráficos con Aspose.Slides para .NET.
+
+## Importar espacios de nombres
+
+Primero, necesita importar los espacios de nombres necesarios para trabajar con Aspose.Slides para .NET:
 
 ```csharp
-// Crear una instancia del objeto de presentación
-Presentation presentation = new Presentation();
-
-// Agregar una diapositiva
-ISlide slide = presentation.Slides.AddEmptySlide();
-
-//Agregar un gráfico a la diapositiva
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
+using System.IO;
+using Aspose.Slides;
+using System.Drawing;
+using Aspose.Slides.Export;
+using Aspose.Slides.Charts;
 ```
 
-## Modificar datos del gráfico
+## Paso 1: crea una presentación
 
-Los gráficos no son nada sin datos. Aspose.Slides le permite completar gráficos con datos fácilmente. Así es como puede modificar los datos del gráfico:
+Comenzamos creando una nueva presentación con la que trabajar. Esta presentación servirá como lienzo para nuestro gráfico.
 
 ```csharp
-// Acceder al libro de trabajo del gráfico
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
+// La ruta al directorio de documentos.
+string dataDir = "Your Document Directory";
 
-// Acceder a la hoja de trabajo del gráfico
-IChartDataWorksheet worksheet = workbook.Worksheets[0];
+// Cree un directorio si aún no está presente.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
 
-// Rellenar datos del gráfico
-worksheet.Cells["A1"].Value = "Category";
-worksheet.Cells["A2"].Value = "Apple";
-worksheet.Cells["A3"].Value = "Banana";
-// ...
-
-worksheet.Cells["B1"].Value = "Value";
-worksheet.Cells["B2"].Value = 25;
-worksheet.Cells["B3"].Value = 40;
-// ...
+// Presentación de instancias
+Presentation pres = new Presentation();
 ```
 
-## Personalización de la apariencia del gráfico
+## Paso 2: acceda a la primera diapositiva
 
-Dar formato a un gráfico mejora su atractivo visual. Exploremos cómo formatear varios aspectos de un gráfico:
-
-## Dar formato al título y los ejes del gráfico
-
-Puede formatear el título y los ejes del gráfico usando el siguiente código:
+Accedamos a la primera diapositiva de la presentación donde colocaremos nuestro gráfico.
 
 ```csharp
+// Accediendo a la primera diapositiva
+ISlide slide = pres.Slides[0];
+```
+
+## Paso 3: agregue un gráfico de muestra
+
+Ahora agregaremos un gráfico de muestra a nuestra diapositiva. En este ejemplo, crearemos un gráfico de líneas con marcadores.
+
+```csharp
+// Agregar el gráfico de muestra
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
+```
+
+## Paso 4: establecer el título del gráfico
+
+Le daremos un título a nuestro gráfico, haciéndolo más informativo y visualmente atractivo.
+
+```csharp
+// Configuración del título del gráfico
 chart.HasTitle = true;
-chart.ChartTitle.TextFrame.Text = "Sales Report";
-
-chart.Axes.HorizontalAxis.Title.TextFrame.Text = "Fruits";
-chart.Axes.VerticalAxis.Title.TextFrame.Text = "Quantity";
+chart.ChartTitle.AddTextFrameForOverriding("");
+IPortion chartTitle = chart.ChartTitle.TextFrameForOverriding.Paragraphs[0].Portions[0];
+chartTitle.Text = "Sample Chart";
+chartTitle.PortionFormat.FillFormat.FillType = FillType.Solid;
+chartTitle.PortionFormat.FillFormat.SolidFillColor.Color = Color.Gray;
+chartTitle.PortionFormat.FontHeight = 20;
+chartTitle.PortionFormat.FontBold = NullableBool.True;
+chartTitle.PortionFormat.FontItalic = NullableBool.True;
 ```
 
-## Aplicar estilos de gráficos
+## Paso 5: personalizar las líneas de la cuadrícula del eje vertical
 
-Aplique estilos de gráficos predefinidos para que su gráfico sea más atractivo:
+En este paso, personalizaremos las líneas de la cuadrícula del eje vertical para que nuestro gráfico sea más atractivo visualmente.
 
 ```csharp
-chart.ChartStyle = ChartStylePreset.Style2;
+// Configuración del formato de líneas de cuadrícula principales para el eje de valores
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Blue;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.Width = 5;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.DashStyle = LineDashStyle.DashDot;
+
+// Configuración del formato de líneas de cuadrícula menores para el eje de valores
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Red;
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.Width = 3;
+
+// Configuración del formato del número del eje del valor
+chart.Axes.VerticalAxis.IsNumberFormatLinkedToSource = false;
+chart.Axes.VerticalAxis.DisplayUnit = DisplayUnitType.Thousands;
+chart.Axes.VerticalAxis.NumberFormat = "0.0%";
 ```
 
-## Ajustar etiquetas de datos
+## Paso 6: Definir el rango del eje vertical
 
-Las etiquetas de datos proporcionan contexto al gráfico. Modifícalos así:
+En este paso, estableceremos los valores máximo, mínimo y unitario para el eje vertical.
 
 ```csharp
-IDataLabel label = chart.Series[0].DataPoints[0].Label;
-label.ShowValue = true;
-label.DataLabelFormat.TextFormat.PortionFormat.FontBold = NullableBool.True;
+// Tabla de configuración de valores máximos y mínimos
+chart.Axes.VerticalAxis.IsAutomaticMajorUnit = false;
+chart.Axes.VerticalAxis.IsAutomaticMaxValue = false;
+chart.Axes.VerticalAxis.IsAutomaticMinorUnit = false;
+chart.Axes.VerticalAxis.IsAutomaticMinValue = false;
+
+chart.Axes.VerticalAxis.MaxValue = 15f;
+chart.Axes.VerticalAxis.MinValue = -2f;
+chart.Axes.VerticalAxis.MinorUnit = 0.5f;
+chart.Axes.VerticalAxis.MajorUnit = 2.0f;
 ```
 
-## Trabajar con elementos del gráfico
+## Paso 7: Personaliza el texto del eje vertical
 
-La gestión de elementos del gráfico mejora su control sobre la representación visual del gráfico. Exploremos algunas técnicas:
-
-## Gestión de series de datos
-
-Puede agregar, eliminar y manipular series de datos como esta:
+Ahora personalizaremos la apariencia del texto en el eje vertical.
 
 ```csharp
-IChartSeries series = chart.ChartData.Series.Add(worksheet.Cells, "A2:A3", "B2:B3");
+// Configuración de las propiedades del texto del eje de valores
+IChartPortionFormat txtVal = chart.Axes.VerticalAxis.TextFormat.PortionFormat;
+txtVal.FontBold = NullableBool.True;
+txtVal.FontHeight = 16;
+txtVal.FontItalic = NullableBool.True;
+txtVal.FillFormat.FillType = FillType.Solid;
+txtVal.FillFormat.SolidFillColor.Color = Color.DarkGreen;
+txtVal.LatinFont = new FontData("Times New Roman");
+
+// Título del eje de valor de configuración
+chart.Axes.VerticalAxis.HasTitle = true;
+chart.Axes.VerticalAxis.Title.AddTextFrameForOverriding("");
+IPortion valtitle = chart.Axes.VerticalAxis.Title.TextFrameForOverriding.Paragraphs[0].Portions[0];
+valtitle.Text = "Primary Axis";
+valtitle.PortionFormat.FillFormat.FillType = FillType.Solid;
+valtitle.PortionFormat.FillFormat.SolidFillColor.Color = Color.Gray;
+valtitle.PortionFormat.FontHeight = 20;
+valtitle.PortionFormat.FontBold = NullableBool.True;
+valtitle.PortionFormat.FontItalic = NullableBool.True;
 ```
 
-## Manejo de leyendas de gráficos
+## Paso 8: Personalice las líneas de la cuadrícula del eje horizontal
 
-Las leyendas proporcionan información esencial sobre los componentes del gráfico:
+Ahora, personalicemos las líneas de la cuadrícula para el eje horizontal.
 
 ```csharp
-chart.Legend.Position = LegendPosition.Bottom;
+// Configuración del formato de líneas de cuadrícula principales para el eje de categorías
+chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
+chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
+
+//Configuración del formato de líneas de cuadrícula menores para el eje de categorías
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
+
+// Configuración de las propiedades del texto del eje de categorías
+IChartPortionFormat txtCat = chart.Axes.HorizontalAxis.TextFormat.PortionFormat;
+txtCat.FontBold = NullableBool.True;
+txtCat.FontHeight = 16;
+txtCat.FontItalic = NullableBool.True;
+txtCat.FillFormat.Fill
+
+Type = FillType.Solid;
+txtCat.FillFormat.SolidFillColor.Color = Color.Blue;
+txtCat.LatinFont = new FontData("Arial");
 ```
 
-## Manipulación de puntos de datos
+## Paso 9: Personaliza las etiquetas del eje horizontal
 
-Ajuste los puntos de datos individualmente para darle énfasis:
+En este paso, ajustaremos la posición y la rotación de las etiquetas del eje horizontal.
 
 ```csharp
-chart.Series[0].DataPoints[0].Format.Fill.FillType = FillType.Solid;
-chart.Series[0].DataPoints[0].Format.Fill.SolidFillColor.Color = Color.Red;
+// Configuración de la posición de la etiqueta del eje de categoría
+chart.Axes.HorizontalAxis.TickLabelPosition = TickLabelPositionType.Low;
+
+// Configuración del ángulo de rotación de la etiqueta del eje de categoría
+chart.Axes.HorizontalAxis.TickLabelRotationAngle = 45;
 ```
 
-## Exportar y guardar la presentación modificada
+## Paso 10: personaliza las leyendas
 
-Una vez que haya realizado las modificaciones deseadas en el gráfico, puede guardar la presentación:
+Mejoremos las leyendas de nuestro gráfico para una mejor legibilidad.
 
 ```csharp
-presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
+// Configuración de propiedades de texto de leyendas
+IChartPortionFormat txtleg = chart.Legend.TextFormat.PortionFormat;
+txtleg.FontBold = NullableBool.True;
+txtleg.FontHeight = 16;
+txtleg.FontItalic = NullableBool.True;
+txtleg.FillFormat.FillType = FillType.Solid;
+txtleg.FillFormat.SolidFillColor.Color = Color.DarkRed;
+
+// Establecer mostrar leyendas de gráficos sin superponer gráficos
+chart.Legend.Overlay = true;
+```
+
+## Paso 11: Personaliza el fondo del gráfico
+
+Personalizaremos los colores de fondo del gráfico, la pared posterior y el piso.
+
+```csharp
+// Configuración del color de la pared posterior del gráfico
+chart.BackWall.Thickness = 1;
+chart.BackWall.Format.Fill.FillType = FillType.Solid;
+chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
+
+chart.Floor.Format.Fill.FillType = FillType.Solid;
+chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
+
+// Configuración del color del área de trazado
+chart.PlotArea.Format.Fill.FillType = FillType.Solid;
+chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
+```
+
+## Paso 12: guarde la presentación
+
+Finalmente, guardemos nuestra presentación con el gráfico formateado.
+
+```csharp
+// Guardar presentación
+pres.Save(dataDir + "FormattedChart_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Conclusión
 
-En esta guía, hemos explorado el fascinante mundo de las entidades de gráficos y el formato utilizando Aspose.Slides para .NET. Comenzamos con los conceptos básicos de agregar y modificar gráficos, profundizamos en la personalización de su apariencia e incluso administramos varios elementos del gráfico. Aspose.Slides proporciona a los desarrolladores un potente conjunto de herramientas para crear gráficos visualmente atractivos e informativos mediante programación.
+Crear gráficos hermosos e informativos en sus presentaciones ahora es más fácil que nunca con Aspose.Slides para .NET. En este tutorial, cubrimos los pasos esenciales para personalizar varios aspectos de un gráfico, haciéndolo visualmente atractivo e informativo. Con estas técnicas, puede crear gráficos impresionantes que transmitan sus datos de manera efectiva a su audiencia.
+
+¡Empiece a experimentar con Aspose.Slides para .NET y lleve su visualización de datos al siguiente nivel!
 
 ## Preguntas frecuentes
 
-### ¿Cómo instalo Aspose.Slides para .NET?
+### 1. ¿Qué es Aspose.Slides para .NET?
 
- Puede descargar Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net/).
+Aspose.Slides para .NET es una poderosa biblioteca que permite a los desarrolladores de .NET crear, manipular y convertir presentaciones de Microsoft PowerPoint. Proporciona una amplia gama de funciones para trabajar con diapositivas, formas, gráficos y más.
 
-### ¿Puedo aplicar estilos personalizados a los gráficos?
+### 2. ¿Dónde puedo descargar Aspose.Slides para .NET?
 
-Sí, puede aplicar estilos personalizados a los gráficos manipulando varias propiedades del gráfico.
+ Puede descargar Aspose.Slides para .NET desde el sitio web[aquí](https://releases.aspose.com/slides/net/).
 
-### ¿Cómo agrego etiquetas de datos a los puntos de datos del gráfico?
+### 3. ¿Existe una prueba gratuita disponible de Aspose.Slides para .NET?
 
- Puede agregar etiquetas de datos a los puntos de datos del gráfico utilizando el`DataLabel` propiedad de un punto de datos.
+Sí, puede obtener una prueba gratuita de Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/).
 
-### ¿Aspose.Slides es adecuado sólo para desarrolladores avanzados?
+### 4. ¿Cómo puedo obtener una licencia temporal de Aspose.Slides para .NET?
 
-No, Aspose.Slides está diseñado para atender a desarrolladores de todos los niveles, desde principiantes hasta expertos.
+ Si necesita una licencia temporal, puede obtener una de[este enlace](https://purchase.aspose.com/temporary-license/).
 
-### ¿Puedo exportar gráficos a diferentes formatos usando Aspose.Slides?
+### 5. ¿Existe una comunidad o un foro de soporte para Aspose.Slides para .NET?
 
-¡Absolutamente! Aspose.Slides admite la exportación de presentaciones a varios formatos, incluidos PowerPoint y PDF.
+ Sí, puedes encontrar la comunidad Aspose.Slides y el foro de soporte.[aquí](https://forum.aspose.com/).

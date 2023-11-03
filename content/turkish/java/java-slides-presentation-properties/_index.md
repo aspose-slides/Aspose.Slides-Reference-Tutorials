@@ -20,9 +20,9 @@ Bir satış konuşması veya eğitici bir ders verdiğinizi hayal edin. Hedef ki
 
 Artık sunum özelliklerinin önemini vurguladığımıza göre, işin pratik yönüne geçelim. Aspose.Slides for Java'yı kullanmaya başlamak çocuk oyuncağı. Yolculuğunuzu başlatmak için temel adımlar şunlardır:
 
-1.  Kurulum ve Kurulum: Aspose.Slides for Java'yı resmi siteden indirerek başlayın[İndirme: {link](https://releases.aspose.com/slides/java/). Java projenize sorunsuz bir şekilde entegre etmek için kurulum talimatlarını izleyin.
+1.  Kurulum ve Kurulum: Aspose.Slides for Java'yı aşağıdaki adresten indirerek başlayın:[İndirme: {link](https://releases.aspose.com/slides/java/). Java projenize sorunsuz bir şekilde entegre etmek için kurulum talimatlarını izleyin.
 
-2.  API Dokümantasyonu: Aspose.Slides for Java'nın kullanımına ilişkin kapsamlı bir kılavuz için resmi[API belgeleri](https://reference.aspose.com/slides/java/). Kütüphanenin inceliklerini anlamak için başvuracağınız kaynaktır.
+2.  API Dokümantasyonu: Aspose.Slides for Java'nın kullanımına ilişkin kapsamlı bir kılavuz için bkz.[API belgeleri](https://reference.aspose.com/slides/java/). Kütüphanenin inceliklerini anlamak için başvuracağınız kaynaktır.
 
 3. Öğreticileri Keşfetmek: Pratik bilgiler edinmek için Aspose.Slides tarafından sağlanan öğreticiler listesini inceleyin. Bu eğitimler, temel slayt oluşturmadan ileri animasyon tekniklerine kadar çok çeşitli konuları kapsar. Sunumlarınızı geliştirecek paha biçilmez ipuçları ve püf noktaları bulacaksınız.
 

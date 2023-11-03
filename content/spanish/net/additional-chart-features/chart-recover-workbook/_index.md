@@ -1,125 +1,103 @@
 ---
-title: Recuperar libro de trabajo del gráfico
+title: Cómo utilizar Aspose.Slides .NET para recuperar un libro de trabajo del gráfico
 linktitle: Recuperar libro de trabajo del gráfico
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda cómo recuperar un libro de un gráfico usando Aspose.Slides para .NET. Extraiga datos de gráficos y cree libros de Excel mediante programación.
+description: Aprenda cómo recuperar un libro de un gráfico en presentaciones de PowerPoint usando Aspose.Slides para .NET. Siga nuestra guía paso a paso para extraer datos de manera eficiente.
 type: docs
 weight: 12
 url: /es/net/additional-chart-features/chart-recover-workbook/
 ---
 
-## Introducción
-
-Pueden ocurrir accidentes y es posible que necesite recuperar un libro de trabajo de un gráfico. Aspose.Slides para .NET viene al rescate en tales situaciones. Esta poderosa biblioteca le permite extraer datos de gráficos en presentaciones y convertirlos en un nuevo libro de trabajo. En esta guía paso a paso, lo guiaremos a través del proceso de recuperación de un libro de un gráfico usando Aspose.Slides para .NET.
+Si busca trabajar con presentaciones de PowerPoint en .NET, Aspose.Slides para .NET es una biblioteca poderosa que puede ayudarlo a lograr sus objetivos. En este tutorial, lo guiaremos a través del proceso de recuperación de un libro de trabajo a partir de un gráfico en una presentación de PowerPoint usando Aspose.Slides para .NET. Esta poderosa característica puede resultar útil cuando necesita extraer datos de gráficos dentro de sus presentaciones. Dividiremos el proceso en pasos fáciles de seguir, asegurándonos de que tenga una comprensión clara de cómo realizar esta tarea.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener lo siguiente en su lugar:
+Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Visual Studio: descargue e instale Visual Studio, que es esencial para el desarrollo de .NET.
--  Aspose.Slides para .NET: puede descargar la biblioteca desde[aquí](https://downloads.aspose.com/slides/net).
+### 1. Aspose.Slides para .NET
 
-## Paso 1: Instale Aspose.Slides para .NET
+Debe tener Aspose.Slides para .NET instalado y configurado en su entorno de desarrollo .NET. Si aún no lo ha hecho, puede descargarlo e instalarlo desde el sitio web.
 
-Si aún no lo ha hecho, descargue e instale Aspose.Slides para .NET. Esta biblioteca proporciona funciones integrales para trabajar con presentaciones de PowerPoint mediante programación.
+[Descargar Aspose.Slides para .NET](https://releases.aspose.com/slides/net/)
 
-## Paso 2: cargue la presentación
+### 2. Presentación de PowerPoint
 
-Para comenzar, cree un nuevo proyecto de C# en Visual Studio. Agregue referencias a los ensamblajes Aspose.Slides necesarios. Cargue la presentación de PowerPoint que contiene el gráfico del que desea recuperar datos.
+Necesitará una presentación de PowerPoint con un gráfico del cual desea recuperar el libro. Asegúrese de tener el archivo de presentación listo.
+
+## Importación de espacios de nombres necesarios
+
+En este paso, deberá importar los espacios de nombres necesarios para trabajar con Aspose.Slides para .NET de manera efectiva.
+
+### Paso 1: importar espacios de nombres
 
 ```csharp
-// Cargar la presentación
-Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## Paso 3: identificar el gráfico
+Ahora, dividamos el proceso de recuperación de un libro de trabajo a partir de un gráfico dentro de una presentación de PowerPoint en varios pasos.
 
- Identifique la diapositiva y el gráfico de los que desea recuperar datos. Puede acceder a las diapositivas utilizando el`presentation.Slides` colección y gráficos utilizando el`slide.Shapes` recopilación.
+## Paso 1: definir el directorio de documentos
 
 ```csharp
-// Obtenga la diapositiva que contiene el gráfico
-ISlide slide = presentation.Slides[0];
+// La ruta al directorio de documentos.
+string dataDir = "Your Document Directory";
+```
 
-// Obtener el gráfico
-IChart chart = null;
-foreach (IShape shape in slide.Shapes)
+En este paso, debe especificar el directorio donde se encuentra su presentación de PowerPoint.
+
+## Paso 2: cargue la presentación y habilite la recuperación del libro de trabajo
+
+```csharp
+string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "RecoveredWorkbook.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
 {
-    if (shape is IChart)
-    {
-        chart = (IChart)shape;
-        break;
-    }
+    // Su código para la recuperación del gráfico va aquí
+    pres.Save(outPptxFile, SaveFormat.Pptx);
 }
 ```
 
-## Paso 4: extraer datos del gráfico
+En este paso, carga la presentación de PowerPoint desde el archivo especificado y habilita la recuperación del libro desde el caché del gráfico. El`LoadOptions` El objeto se utiliza para este propósito.
 
-Extraiga los datos del gráfico utilizando la API de Aspose.Slides. Puede recuperar valores de series y categorías de gráficos.
-
-```csharp
-// Extraer datos del gráfico
-IChartData chartData = chart.ChartData;
-```
-
-## Paso 5: cree un nuevo libro de trabajo
-
-Cree un nuevo libro de Excel utilizando una biblioteca como EPPlus o ClosedXML.
+## Paso 3: acceder y trabajar con los datos del gráfico
 
 ```csharp
-// Crear un nuevo libro de Excel
-using (var excelPackage = new ExcelPackage())
-{
-    var worksheet = excelPackage.Workbook.Worksheets.Add("Chart Data");
-    // Agregue código aquí para completar los encabezados de la hoja de trabajo
-}
+IChart chart = pres.Slides[0].Shapes[0] as IChart;
+IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 ```
 
-## Paso 6: llene el libro de trabajo con datos del gráfico
-
-Complete la hoja de cálculo de Excel con los datos extraídos del gráfico.
-
-```csharp
-//Complete la hoja de cálculo de Excel con datos del gráfico
-int rowIndex = 2;
-foreach (var series in chartData.Series)
-{
-    worksheet.Cells[rowIndex, 1].Value = series.Name;
-    // Agregue código aquí para completar la hoja de trabajo con datos de la serie
-    rowIndex++;
-}
-```
-
-## Paso 7: guarde el libro de trabajo
-
-Guarde el libro de Excel con los datos del gráfico recuperados.
-
-```csharp
-// Guarde el libro de Excel
-excelPackage.SaveAs(new FileInfo("recovered-workbook.xlsx"));
-```
+En este paso, accede al gráfico en la primera diapositiva y obtiene el libro de datos del gráfico. Ahora puede trabajar con los datos del libro según sea necesario.
 
 ## Conclusión
 
-Recuperar un libro de un gráfico es fácil con Aspose.Slides para .NET. Si sigue estos pasos, puede extraer datos de un gráfico en una presentación de PowerPoint mediante programación y crear un nuevo libro de Excel con los datos recuperados. Este proceso puede salvar vidas cuando ocurren accidentes y es necesario recuperar datos.
+En este tutorial, hemos demostrado cómo usar Aspose.Slides para .NET para recuperar un libro de un gráfico en una presentación de PowerPoint. Si sigue los pasos descritos en esta guía, podrá extraer datos de sus presentaciones de manera eficiente y utilizarlos para sus necesidades específicas.
+
+ Si tiene alguna pregunta o encuentra algún problema, no dude en buscar ayuda de la comunidad Aspose.Slides en el[Foro Aspose.Slides](https://forum.aspose.com/). Están ahí para ayudarle en su viaje con Aspose.Slides para .NET.
 
 ## Preguntas frecuentes
 
-### ¿Cómo instalo Aspose.Slides para .NET?
+### 1. ¿Qué es Aspose.Slides para .NET?
 
- Puede descargar Aspose.Slides para .NET desde[aquí](https://downloads.aspose.com/slides/net).
+Aspose.Slides para .NET es una potente biblioteca .NET para trabajar con archivos de Microsoft PowerPoint, que le permite crear, manipular y convertir presentaciones mediante programación.
 
-### ¿Puedo recuperar datos de diferentes tipos de gráficos?
+### 2. ¿Puedo probar Aspose.Slides para .NET antes de comprarlo?
 
-Sí, Aspose.Slides para .NET admite varios tipos de gráficos, incluidos gráficos de barras, gráficos de líneas, gráficos circulares y más.
+ Sí, puede obtener una prueba gratuita de Aspose.Slides para .NET para evaluar sus características y capacidades.[Obtenga la prueba gratuita aquí](https://releases.aspose.com/).
 
-### ¿Aspose.Slides para .NET es adecuado para uso profesional?
+### 3. ¿Dónde puedo encontrar la documentación de Aspose.Slides para .NET?
 
-¡Absolutamente! Aspose.Slides para .NET es una biblioteca sólida utilizada por los desarrolladores para trabajar con presentaciones de PowerPoint de manera eficiente.
+ Puede acceder a la documentación de Aspose.Slides para .NET[aquí](https://reference.aspose.com/slides/net/). Contiene información detallada, ejemplos y referencias de API.
 
-### ¿Existe algún requisito de licencia para utilizar Aspose.Slides para .NET?
+### 4. ¿Cómo compro una licencia de Aspose.Slides para .NET?
 
- Sí, Aspose.Slides para .NET requiere una licencia válida para uso comercial. Puede encontrar detalles de licencia en el[Aspose sitio web](https://purchase.aspose.com).
+ Para comprar una licencia de Aspose.Slides para .NET, visite el sitio web de Aspose y utilice el siguiente enlace:[Compra Aspose.Slides para .NET](https://purchase.aspose.com/buy).
 
-### ¿Puedo personalizar la apariencia del libro de Excel recuperado?
+### 5. ¿Cuál es la longitud máxima del título para la optimización SEO?
 
-Sí, puede personalizar la apariencia y el formato del libro de Excel utilizando bibliotecas como EPPlus o ClosedXML.
+Para la optimización SEO, se recomienda mantener el título por debajo de 60 caracteres para garantizar que se muestre correctamente en los resultados de los motores de búsqueda.

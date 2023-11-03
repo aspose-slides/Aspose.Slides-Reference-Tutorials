@@ -118,7 +118,7 @@ txtleg.getFillFormat().setFillType(FillType.Solid);
 txtleg.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtleg.setLatinFont(new FontData("Calibri"));
 
-// Configuración de las propiedades del texto del eje de valor
+// Configuración de las propiedades del texto del eje de valores
 IChartPortionFormat txtVal = ichart.getAxes().getVerticalAxis().getTextFormat().getPortionFormat();
 txtVal.setFontBold(NullableBool.True);
 txtVal.setFontHeight(10);
@@ -215,7 +215,7 @@ try
 	txtleg.getFillFormat().setFillType(FillType.Solid);
 	txtleg.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtCat.setLatinFont(new FontData("Calibri"));
-	// Configuración de las propiedades del texto del eje de valor
+	// Configuración de las propiedades del texto del eje de valores
 	IChartPortionFormat txtVal = ichart.getAxes().getVerticalAxis().getTextFormat().getPortionFormat();
 	txtVal.setFontBold(NullableBool.True);
 	txtVal.setFontHeight(10);

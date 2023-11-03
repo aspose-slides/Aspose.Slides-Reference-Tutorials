@@ -51,7 +51,7 @@ var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
 Låt oss nu skapa den faktiska sammanfattningszoombilden som visar översikten över bilderna vi lade till tidigare:
 
 ```csharp
-//Skapa en sammanfattande zoombild
+// Skapa en sammanfattande zoombild
 var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
 ```
 

@@ -87,7 +87,7 @@ Bu kılavuzda, bir PowerPoint sunumundaki bir OLE nesnesinden gömülü dosya ve
 
 ### Bu yöntem kullanılarak ne tür gömülü nesneler çıkarılabilir?
 
-Bu yöntem, PowerPoint sunumlarından Excel elektronik tabloları, Word belgeleri ve daha fazlası gibi çeşitli türde gömülü nesneleri çıkarmanıza olanak tanır.
+Bu yöntem, PowerPoint sunumlarından Excel elektronik tabloları, Word belgeleri ve daha fazlası gibi çeşitli türdeki gömülü nesneleri çıkarmanıza olanak tanır.
 
 ### Çıkarılan verileri kaydetmeden önce değiştirebilir miyim?
 

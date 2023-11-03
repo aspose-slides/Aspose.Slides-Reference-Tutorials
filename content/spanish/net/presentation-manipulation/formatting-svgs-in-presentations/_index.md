@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
- Este fragmento de código inicializa los directorios y rutas de archivo necesarios, abre una presentación de PowerPoint y la convierte en un archivo SVG mientras aplica el formato usando el`MySvgShapeFormattingController`.
+Este fragmento de código inicializa los directorios y rutas de archivo necesarios, abre una presentación de PowerPoint y la convierte en un archivo SVG mientras aplica el formato usando el`MySvgShapeFormattingController`.
 
 ## Comprender el controlador de formato de formas SVG
 

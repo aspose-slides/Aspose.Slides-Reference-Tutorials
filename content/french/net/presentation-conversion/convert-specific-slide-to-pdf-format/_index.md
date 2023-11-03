@@ -48,7 +48,7 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 
 Dans ce code :
 
--  Remplacer`"Your Document Directory"` avec le chemin du répertoire où se trouve votre fichier de présentation PowerPoint.
+-  Remplacer`"Your Document Directory"`avec le chemin du répertoire où se trouve votre fichier de présentation PowerPoint.
 -  Remplacer`"Your Output Directory"` avec le répertoire dans lequel vous souhaitez enregistrer le PDF converti.
 
 ## Étape 3 : Exécuter le code

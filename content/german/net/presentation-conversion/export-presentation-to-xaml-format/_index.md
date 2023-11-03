@@ -112,4 +112,4 @@ Aspose.Slides für .NET ist eine .NET-Bibliothek für die programmgesteuerte Arb
 5. ### Wo erhalte ich Unterstützung für Aspose.Slides für .NET?
  Hier finden Sie Unterstützung und Community-Diskussionen[Hier](https://forum.aspose.com/).
 
-Weitere Tutorials und Ressourcen finden Sie unter[Aspose.Slides API-Dokumentation](https://reference.aspose.com/slides/net/).
+ Weitere Tutorials und Ressourcen finden Sie unter[Aspose.Slides API-Dokumentation](https://reference.aspose.com/slides/net/).

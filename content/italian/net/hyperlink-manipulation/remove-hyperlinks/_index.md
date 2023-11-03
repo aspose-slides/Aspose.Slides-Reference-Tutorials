@@ -1,107 +1,86 @@
 ---
-title: Rimuovi i collegamenti ipertestuali dalla diapositiva
+title: Come rimuovere i collegamenti ipertestuali dalle diapositive con Aspose.Slides .NET
 linktitle: Rimuovi i collegamenti ipertestuali dalla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come rimuovere i collegamenti ipertestuali dalle diapositive di PowerPoint senza sforzo utilizzando Aspose.Slides per .NET.
+description: Scopri come rimuovere i collegamenti ipertestuali dalle diapositive di PowerPoint utilizzando Aspose.Slides per .NET. Crea presentazioni pulite e professionali.
 type: docs
 weight: 11
 url: /it/net/hyperlink-manipulation/remove-hyperlinks/
 ---
 
-## Introduzione alla rimozione dei collegamenti ipertestuali dalla diapositiva
+Nel mondo delle presentazioni professionali, assicurarsi che le diapositive siano pulite e ordinate è essenziale. Un elemento comune che spesso ingombra le diapositive sono i collegamenti ipertestuali. Che tu abbia a che fare con collegamenti ipertestuali a siti Web, documenti o altre diapositive all'interno della tua presentazione, potresti voler rimuoverli per un aspetto più pulito e mirato. Con Aspose.Slides per .NET, puoi facilmente realizzare questo compito. In questa guida passo passo, ti guideremo attraverso il processo di rimozione dei collegamenti ipertestuali dalle diapositive utilizzando Aspose.Slides per .NET.
 
-Quando si tratta di gestire e manipolare le presentazioni PowerPoint a livello di codice, Aspose.Slides per .NET si distingue come un potente strumento che consente agli sviluppatori di lavorare in modo efficiente con diapositive, forme e vari elementi all'interno delle presentazioni. Un compito comune che si presenta spesso è la necessità di rimuovere i collegamenti ipertestuali da diapositive specifiche. Che tu abbia a che fare con presentazioni di clienti, materiali didattici o rapporti aziendali, i collegamenti ipertestuali indesiderati a volte possono ingombrare le diapositive o rappresentare difficoltà di navigazione. In questa guida passo passo, ti guideremo attraverso il processo di rimozione dei collegamenti ipertestuali da una diapositiva utilizzando Aspose.Slides per .NET.
+## Prerequisiti
 
-## Impostazione dell'ambiente di sviluppo
+Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
-Prima di immergerci nel codice vero e proprio, è essenziale disporre del giusto ambiente di sviluppo. Puoi iniziare seguendo questi semplici passaggi:
+1.  Aspose.Slides per .NET: dovresti avere Aspose.Slides per .NET installato e configurato nel tuo ambiente di sviluppo. Se non l'hai già fatto, puoi ottenerlo da[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
 
-1.  Scarica e installa Aspose.Slides per .NET: visita il sito Web Aspose o utilizza il collegamento fornito[Qui](https://releases.aspose.com/slides/net/) per accedere alla libreria Aspose.Slides per .NET. Scaricalo e installalo sul tuo computer.
+2. Una presentazione PowerPoint: avrai bisogno di una presentazione PowerPoint (file PPTX) da cui desideri rimuovere i collegamenti ipertestuali.
 
-2. Crea un nuovo progetto .NET: apri il tuo ambiente di sviluppo integrato (IDE) preferito e crea un nuovo progetto .NET. Scegli il tipo di progetto appropriato in base alle tue esigenze.
+Una volta soddisfatti questi prerequisiti, sei pronto per iniziare. Immergiamoci nel processo passo passo di rimozione dei collegamenti ipertestuali dalle diapositive.
 
-## Aggiunta di riferimenti e importazione di librerie
+## Passaggio 1: importa gli spazi dei nomi
 
-Una volta impostato il progetto, il passaggio successivo prevede il riferimento alla libreria Aspose.Slides e l'importazione degli spazi dei nomi necessari:
+Per iniziare, devi importare gli spazi dei nomi necessari nel codice C#. Questi spazi dei nomi forniscono l'accesso alla libreria Aspose.Slides per .NET. Aggiungi le seguenti righe al tuo codice:
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-## Caricamento di una presentazione
+## Passaggio 2: carica la presentazione
 
-Con i riferimenti richiesti, ora puoi caricare una presentazione PowerPoint esistente nel tuo progetto:
-
-```csharp
-string presentationPath = "path_to_your_presentation.pptx";
-using (Presentation presentation = new Presentation(presentationPath))
-{
-    // Il tuo codice per rimuovere i collegamenti ipertestuali andrà qui
-}
-```
-
-## Accesso a diapositive e collegamenti ipertestuali
-
-Scorri le diapositive della presentazione per identificare e rimuovere i collegamenti ipertestuali:
+Ora devi caricare la presentazione di PowerPoint che contiene i collegamenti ipertestuali che desideri rimuovere. Assicurati di fornire il percorso corretto del file di presentazione. Ecco come puoi farlo:
 
 ```csharp
-foreach (ISlide slide in presentation.Slides)
-{
-    foreach (IShape shape in slide.Shapes)
-    {
-        if (shape is IAutoShape autoShape)
-        {
-            foreach (IHyperlink hyperlink in autoShape.HyperlinkQueries)
-            {
-                // Rimuovere o disabilitare il collegamento ipertestuale secondo necessità
-            }
-        }
-    }
-}
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## Rimozione dei collegamenti ipertestuali
+ Nel codice sopra, sostituisci`"Your Document Directory"`con il percorso effettivo della directory dei documenti e`"Hyperlink.pptx"` con il nome del file di presentazione di PowerPoint.
 
-Utilizzare i metodi Aspose.Slides per disabilitare o rimuovere i collegamenti ipertestuali:
+## Passaggio 3: rimuovere i collegamenti ipertestuali
+
+Una volta caricata la presentazione, puoi procedere alla rimozione dei collegamenti ipertestuali. Aspose.Slides per .NET fornisce un metodo semplice per questo scopo:
 
 ```csharp
-hyperlink.Remove();
-// O
-hyperlink.Disabled = true;
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## Salvataggio della presentazione modificata
+ IL`RemoveAllHyperlinks()` Il metodo rimuove tutti i collegamenti ipertestuali dalla presentazione.
 
-Dopo aver rimosso i collegamenti ipertestuali, salva la presentazione modificata:
+## Passaggio 4: salva la presentazione modificata
+
+Dopo aver rimosso i collegamenti ipertestuali, dovresti salvare la presentazione modificata in un nuovo file. Puoi scegliere di salvarlo nello stesso formato (PPTX) o in uno diverso se necessario. Ecco come salvarlo come file PPTX:
 
 ```csharp
-string modifiedPath = "path_to_modified_presentation.pptx";
-presentation.Save(modifiedPath, SaveFormat.Pptx);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
+
+ Ancora una volta, sostituisci`"RemovedHyperlink_out.pptx"` con il nome e il percorso del file di output desiderati.
+
+Congratulazioni! Hai rimosso con successo i collegamenti ipertestuali dalla presentazione di PowerPoint utilizzando Aspose.Slides per .NET. Le tue diapositive ora sono libere da distrazioni, offrendo un'esperienza visiva più pulita e mirata.
 
 ## Conclusione
 
-In questa guida, abbiamo esplorato come rimuovere i collegamenti ipertestuali dalle diapositive utilizzando Aspose.Slides per .NET. Questa versatile libreria semplifica il processo di lavoro con le presentazioni PowerPoint a livello di codice, consentendoti di gestire in modo efficiente vari elementi all'interno delle tue diapositive. Che tu stia migliorando l'esperienza utente o preparando presentazioni professionali, Aspose.Slides ti consente di ottenere i risultati desiderati senza problemi.
+In questo tutorial, abbiamo esaminato il processo di rimozione dei collegamenti ipertestuali dalle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Con pochi semplici passaggi, puoi assicurarti che le tue diapositive abbiano un aspetto professionale e ordinato. Aspose.Slides per .NET semplifica il compito di lavorare con le presentazioni PowerPoint, fornendo gli strumenti necessari per una gestione efficiente e precisa.
 
-## Domande frequenti
+Se hai trovato utile questa guida, puoi esplorare più funzionalità e capacità di Aspose.Slides per .NET nella documentazione[Qui](https://reference.aspose.com/slides/net/) . Puoi anche scaricare la libreria da[questo link](https://releases.aspose.com/slides/net/) e acquistare una licenza[Qui](https://purchase.aspose.com/buy) se non l'hai già fatto. Per chi vuole provarlo prima è disponibile una prova gratuita[Qui](https://releases.aspose.com/) ed è possibile ottenere licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
 
-### Come posso scaricare Aspose.Slides per .NET?
+## Domande frequenti (FAQ)
 
- È possibile scaricare Aspose.Slides per .NET dal sito Web:[Qui](https://releases.aspose.com/slides/net/)
+### Posso rimuovere i collegamenti ipertestuali in modo selettivo da diapositive specifiche nella mia presentazione?
+Si, puoi. Aspose.Slides per .NET fornisce metodi per indirizzare diapositive o forme specifiche e rimuovere collegamenti ipertestuali da esse.
 
-### Posso rimuovere collegamenti ipertestuali da forme specifiche all'interno di una diapositiva?
+### Aspose.Slides per .NET è compatibile con gli ultimi formati di file PowerPoint?
+Sì, Aspose.Slides per .NET supporta gli ultimi formati di file PowerPoint, incluso PPTX.
 
-Sì, utilizzando la libreria Aspose.Slides, puoi scorrere le forme all'interno di una diapositiva e rimuovere selettivamente i collegamenti ipertestuali da forme specifiche.
+### Posso automatizzare questo processo per più presentazioni in un batch?
+Assolutamente. Aspose.Slides per .NET ti consente di automatizzare le attività su più presentazioni, rendendolo adatto all'elaborazione batch.
 
-### Aspose.Slides è adatto sia a progetti personali che commerciali?
+### Ci sono altre funzionalità offerte da Aspose.Slides per .NET per le presentazioni PowerPoint?
+Sì, Aspose.Slides per .NET offre un'ampia gamma di funzionalità, tra cui la creazione, la modifica e la conversione di diapositive in vari formati.
 
-Assolutamente! Aspose.Slides è progettato per soddisfare un'ampia gamma di progetti, compresi quelli personali, educativi e commerciali.
-
-### Ho bisogno di una conoscenza approfondita della programmazione per utilizzare Aspose.Slides per .NET?
-
-Sebbene la conoscenza di base della programmazione sia utile, Aspose.Slides fornisce documentazione completa ed esempi per guidarti attraverso il processo.
-
-### Posso annullare la rimozione del collegamento ipertestuale dopo aver salvato la presentazione?
-
-No, una volta salvata la presentazione dopo la rimozione del collegamento ipertestuale, le modifiche sono permanenti. È consigliabile conservare una copia di backup della presentazione originale.
+### Il supporto tecnico è disponibile per Aspose.Slides per .NET?
+ Sì, puoi cercare supporto tecnico e interagire con la comunità Aspose su[Aspose forum](https://forum.aspose.com/).

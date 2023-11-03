@@ -48,7 +48,7 @@ Une fois que vous avez ajouté votre contenu mathématique, il est temps de l'ex
 
 ## 6. Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment exporter des paragraphes mathématiques vers MathML à l'aide d'Aspose.Slides pour .NET. Cette puissante bibliothèque simplifie le processus d'ajout de contenu mathématique complexe à vos présentations, vous donnant la flexibilité nécessaire pour créer des diapositives attrayantes et informatives.
+Dans ce didacticiel, nous avons expliqué comment exporter des paragraphes mathématiques vers MathML à l'aide d'Aspose.Slides pour .NET. Cette puissante bibliothèque simplifie le processus d'ajout de contenu mathématique complexe à vos présentations, vous offrant la flexibilité nécessaire pour créer des diapositives attrayantes et informatives.
 
 ## 7. FAQ
 

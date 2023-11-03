@@ -52,7 +52,7 @@ Nu kommer den spännande delen – att spola tillbaka animationerna. Aspose.Slid
 
 ```csharp
 // Spola tillbaka animationer på bilden
-slideAnimation.StopAfterRepeats = 0; // Ställ in antalet upprepningar till 0
+slideAnimation.StopAfterRepeats = 0; // Ställ in antalet repetitioner till 0
 ```
 
 ## Steg 4: Spara den ändrade presentationen

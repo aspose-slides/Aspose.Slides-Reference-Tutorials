@@ -1,125 +1,103 @@
 ---
-title: Récupérer un classeur à partir d'un graphique
+title: Comment utiliser Aspose.Slides .NET pour récupérer un classeur à partir d'un graphique
 linktitle: Récupérer un classeur à partir d'un graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment récupérer un classeur à partir d'un graphique à l'aide d'Aspose.Slides pour .NET. Extrayez les données du graphique et créez des classeurs Excel par programme.
+description: Découvrez comment récupérer un classeur à partir d'un graphique dans des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour extraire efficacement les données.
 type: docs
 weight: 12
 url: /fr/net/additional-chart-features/chart-recover-workbook/
 ---
 
-## Introduction
-
-Des accidents peuvent survenir et vous devrez peut-être récupérer un classeur à partir d'un graphique. Aspose.Slides for .NET vient à la rescousse dans de telles situations. Cette puissante bibliothèque vous permet d'extraire des données de graphiques dans des présentations et de les convertir en un nouveau classeur. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de récupération d'un classeur à partir d'un graphique à l'aide d'Aspose.Slides pour .NET.
+Si vous souhaitez travailler avec des présentations PowerPoint dans .NET, Aspose.Slides for .NET est une bibliothèque puissante qui peut vous aider à atteindre vos objectifs. Dans ce didacticiel, nous vous guiderons tout au long du processus de récupération d'un classeur à partir d'un graphique dans une présentation PowerPoint à l'aide d'Aspose.Slides pour .NET. Cette fonctionnalité puissante peut être utile lorsque vous devez extraire des données de graphiques dans vos présentations. Nous décomposerons le processus en étapes faciles à suivre, garantissant que vous comprenez clairement comment accomplir cette tâche.
 
 ## Conditions préalables
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants en place :
+Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-- Visual Studio : téléchargez et installez Visual Studio, essentiel au développement .NET.
--  Aspose.Slides pour .NET : vous pouvez télécharger la bibliothèque à partir de[ici](https://downloads.aspose.com/slides/net).
+### 1. Aspose.Slides pour .NET
 
-## Étape 1 : Installer Aspose.Slides pour .NET
+Aspose.Slides pour .NET doit être installé et configuré dans votre environnement de développement .NET. Si vous ne l'avez pas déjà fait, vous pouvez le télécharger et l'installer à partir du site Web.
 
-Si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.Slides pour .NET. Cette bibliothèque fournit des fonctionnalités complètes pour travailler avec des présentations PowerPoint par programmation.
+[Téléchargez Aspose.Slides pour .NET](https://releases.aspose.com/slides/net/)
 
-## Étape 2 : Charger la présentation
+### 2. Présentation PowerPoint
 
-Pour commencer, créez un nouveau projet C# dans Visual Studio. Ajoutez des références aux assemblys Aspose.Slides nécessaires. Chargez la présentation PowerPoint contenant le graphique à partir duquel vous souhaitez récupérer les données.
+Vous aurez besoin d'une présentation PowerPoint avec un graphique à partir duquel vous souhaitez récupérer le classeur. Assurez-vous que le fichier de présentation est prêt.
+
+## Importation des espaces de noms nécessaires
+
+Dans cette étape, vous devrez importer les espaces de noms requis pour travailler efficacement avec Aspose.Slides pour .NET.
+
+### Étape 1 : Importer des espaces de noms
 
 ```csharp
-// Charger la présentation
-Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## Étape 3 : Identifiez le graphique
+Maintenant, décomposons le processus de récupération d'un classeur à partir d'un graphique dans une présentation PowerPoint en plusieurs étapes.
 
- Identifiez la diapositive et le graphique à partir desquels vous souhaitez récupérer des données. Vous pouvez accéder aux diapositives en utilisant le`presentation.Slides` collection et graphiques utilisant le`slide.Shapes` collection.
+## Étape 1 : Définir le répertoire des documents
 
 ```csharp
-// Obtenez la diapositive contenant le graphique
-ISlide slide = presentation.Slides[0];
+// Le chemin d'accès au répertoire des documents.
+string dataDir = "Your Document Directory";
+```
 
-// Obtenez le graphique
-IChart chart = null;
-foreach (IShape shape in slide.Shapes)
+Dans cette étape, vous devez spécifier le répertoire où se trouve votre présentation PowerPoint.
+
+## Étape 2 : charger la présentation et activer la récupération du classeur
+
+```csharp
+string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "RecoveredWorkbook.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
 {
-    if (shape is IChart)
-    {
-        chart = (IChart)shape;
-        break;
-    }
+    // Votre code pour la récupération des graphiques va ici
+    pres.Save(outPptxFile, SaveFormat.Pptx);
 }
 ```
 
-## Étape 4 : Extraire les données du graphique
+Au cours de cette étape, vous chargez la présentation PowerPoint à partir du fichier spécifié et activez la récupération du classeur à partir du cache de graphiques. Le`LoadOptions` L'objet est utilisé à cette fin.
 
-Extrayez les données du graphique à l'aide de l'API d'Aspose.Slides. Vous pouvez récupérer les valeurs des séries et catégories de graphiques.
-
-```csharp
-// Extraire les données du graphique
-IChartData chartData = chart.ChartData;
-```
-
-## Étape 5 : Créer un nouveau classeur
-
-Créez un nouveau classeur Excel à l'aide d'une bibliothèque comme EPPlus ou ClosedXML.
+## Étape 3 : accéder et utiliser les données du graphique
 
 ```csharp
-// Créer un nouveau classeur Excel
-using (var excelPackage = new ExcelPackage())
-{
-    var worksheet = excelPackage.Workbook.Worksheets.Add("Chart Data");
-    // Ajoutez du code ici pour remplir les en-têtes de la feuille de calcul
-}
+IChart chart = pres.Slides[0].Shapes[0] as IChart;
+IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 ```
 
-## Étape 6 : Remplir le classeur avec les données du graphique
-
-Remplissez la feuille de calcul Excel avec les données extraites du graphique.
-
-```csharp
-//Remplir la feuille de calcul Excel avec les données du graphique
-int rowIndex = 2;
-foreach (var series in chartData.Series)
-{
-    worksheet.Cells[rowIndex, 1].Value = series.Name;
-    // Ajoutez du code ici pour remplir la feuille de calcul avec des données de série
-    rowIndex++;
-}
-```
-
-## Étape 7 : Enregistrez le classeur
-
-Enregistrez le classeur Excel avec les données du graphique récupérées.
-
-```csharp
-// Enregistrez le classeur Excel
-excelPackage.SaveAs(new FileInfo("recovered-workbook.xlsx"));
-```
+Au cours de cette étape, vous accédez au graphique sur la première diapositive et obtenez le classeur de données du graphique. Vous pouvez désormais travailler avec les données du classeur selon vos besoins.
 
 ## Conclusion
 
-La récupération d'un classeur à partir d'un graphique est facilitée avec Aspose.Slides pour .NET. En suivant ces étapes, vous pouvez extraire par programme les données d'un graphique dans une présentation PowerPoint et créer un nouveau classeur Excel avec les données récupérées. Ce processus peut sauver des vies en cas d’accident et les données doivent être récupérées.
+Dans ce didacticiel, nous avons montré comment utiliser Aspose.Slides for .NET pour récupérer un classeur à partir d'un graphique dans une présentation PowerPoint. En suivant les étapes décrites dans ce guide, vous pouvez extraire efficacement les données de vos présentations et les utiliser pour vos besoins spécifiques.
 
-## FAQ
+ Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à demander de l'aide à la communauté Aspose.Slides dans le[Forum Aspose.Slides](https://forum.aspose.com/). Ils sont là pour vous accompagner dans votre parcours avec Aspose.Slides pour .NET.
 
-### Comment installer Aspose.Slides pour .NET ?
+## Questions fréquemment posées
 
- Vous pouvez télécharger Aspose.Slides pour .NET à partir de[ici](https://downloads.aspose.com/slides/net).
+### 1. Qu'est-ce qu'Aspose.Slides pour .NET ?
 
-### Puis-je récupérer des données à partir de différents types de graphiques ?
+Aspose.Slides for .NET est une puissante bibliothèque .NET permettant de travailler avec des fichiers Microsoft PowerPoint, vous permettant de créer, manipuler et convertir des présentations par programme.
 
-Oui, Aspose.Slides pour .NET prend en charge différents types de graphiques, notamment les graphiques à barres, les graphiques linéaires, les diagrammes circulaires, etc.
+### 2. Puis-je essayer Aspose.Slides pour .NET avant d'acheter ?
 
-### Aspose.Slides pour .NET est-il adapté à un usage professionnel ?
+ Oui, vous pouvez obtenir un essai gratuit d'Aspose.Slides pour .NET pour évaluer ses fonctionnalités et capacités.[Obtenez l'essai gratuit ici](https://releases.aspose.com/).
 
-Absolument! Aspose.Slides for .NET est une bibliothèque robuste utilisée par les développeurs pour travailler efficacement avec des présentations PowerPoint.
+### 3. Où puis-je trouver la documentation d'Aspose.Slides pour .NET ?
 
-### Existe-t-il des conditions de licence pour utiliser Aspose.Slides pour .NET ?
+ Vous pouvez accéder à la documentation d'Aspose.Slides pour .NET[ici](https://reference.aspose.com/slides/net/). Il contient des informations détaillées, des exemples et des références API.
 
- Oui, Aspose.Slides pour .NET nécessite une licence valide pour une utilisation commerciale. Vous pouvez trouver les détails de la licence sur le[Site Aspose](https://purchase.aspose.com).
+### 4. Comment puis-je acheter une licence pour Aspose.Slides pour .NET ?
 
-### Puis-je personnaliser l’apparence du classeur Excel récupéré ?
+ Pour acheter une licence pour Aspose.Slides pour .NET, visitez le site Web Aspose et utilisez le lien suivant :[Achetez Aspose.Slides pour .NET](https://purchase.aspose.com/buy).
 
-Oui, vous pouvez personnaliser l'apparence et le formatage du classeur Excel à l'aide de bibliothèques comme EPPlus ou ClosedXML.
+### 5. Quelle est la longueur maximale du titre pour l’optimisation SEO ?
+
+Pour l'optimisation du référencement, il est recommandé de conserver votre titre sous 60 caractères pour garantir qu'il s'affiche correctement dans les résultats des moteurs de recherche.

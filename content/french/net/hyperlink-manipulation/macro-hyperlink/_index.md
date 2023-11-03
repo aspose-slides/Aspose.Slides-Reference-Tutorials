@@ -1,150 +1,108 @@
 ---
-title: Gestion des hyperliens à l'aide de macros
+title: Comment définir un clic de lien hypertexte de macro dans Aspose.Slides pour .NET
 linktitle: Gestion des hyperliens à l'aide de macros
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment gérer efficacement les hyperliens dans les présentations à l'aide d'Aspose.Slides pour .NET. Automatisez les tâches, créez des menus interactifs et améliorez l'engagement des utilisateurs.
+description: Découvrez comment définir des hyperliens de macro dans vos présentations avec Aspose.Slides pour .NET. Améliorez l’interactivité et engagez votre public.
 type: docs
 weight: 13
 url: /fr/net/hyperlink-manipulation/macro-hyperlink/
 ---
 
-## Introduction à la gestion des hyperliens
+Dans le monde du développement de logiciels moderne, la création de présentations dynamiques et interactives est un aspect clé. Aspose.Slides for .NET est une bibliothèque puissante qui vous permet de travailler avec des présentations de manière transparente. Que vous créiez une présentation professionnelle ou un diaporama éducatif, la possibilité de définir des clics sur des liens hypertextes macro peut considérablement améliorer l'expérience utilisateur. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de définition d'un clic de lien hypertexte de macro à l'aide d'Aspose.Slides pour .NET. 
 
-Avant de plonger dans la gestion des hyperliens avec Aspose.Slides pour .NET, il est essentiel de configurer votre environnement de développement et d'installer les composants nécessaires.
+## Conditions préalables
 
-## Configuration de votre environnement de développement
+Avant de plonger dans le didacticiel étape par étape, vous devez respecter quelques conditions préalables :
 
-Pour commencer, assurez-vous qu’un environnement de développement intégré (IDE) approprié est installé sur votre système. Visual Studio est un choix populaire pour le développement .NET.
+1.Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur, car ce sera notre environnement de développement.
 
-## Installation d'Aspose.Slides pour .NET
+ 2.Aspose.Slides pour .NET : vous devrez installer la bibliothèque Aspose.Slides pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
 
-Aspose.Slides pour .NET est une bibliothèque robuste qui simplifie le travail avec des présentations et des diapositives. Pour l'installer, suivez ces étapes :
+3.Connaissance de base de C# : une familiarité avec le langage de programmation C# est essentielle pour suivre ce didacticiel.
 
-1. Ouvrez votre projet dans Visual Studio.
-2. Accédez à « Outils » > « Gestionnaire de packages NuGet » > « Gérer les packages NuGet pour la solution ».
-3. Recherchez « Aspose.Slides » et installez le package.
+## Importer des espaces de noms
 
-Une fois le package installé, vous êtes prêt à commencer à gérer les hyperliens dans vos présentations.
+Dans un premier temps, importons les espaces de noms nécessaires pour travailler avec Aspose.Slides :
 
-## Créer des hyperliens
-
-Des hyperliens peuvent être ajoutés au texte et aux objets de votre présentation, permettant aux utilisateurs de naviguer vers des ressources externes ou d'autres diapositives dans la même présentation.
-
-## Ajout d'hyperliens vers du texte et des objets
-
-Pour ajouter un lien hypertexte vers du texte ou un objet :
-
-1. Identifiez le texte ou l'objet avec lequel vous souhaitez créer un lien hypertexte.
-2.  Utilisez le`HyperlinkManager` classe pour créer un lien hypertexte, spécifiant l’URL cible.
+### Étape 1 : Importer des espaces de noms
 
 ```csharp
-// Créer un lien hypertexte vers un site Web
-HyperlinkManager.AddHyperlinkToText(slide, "Click here to visit our website", "https://www.exemple.com");
-
-// Créer un lien hypertexte vers une autre diapositive de la présentation
-HyperlinkManager.AddHyperlinkToSlide(slide, "Click here to go to Slide 2", slide2);
+using Aspose.Slides;
+using Aspose.Slides.Export;
 ```
 
-## Liens vers des sites Web et des ressources externes
+ Nous avons importé le`Aspose.Slides` l'espace de noms, qui est l'espace de noms principal pour travailler avec des présentations, et l'espace de noms`Aspose.Slides.Export` espace de noms.
 
-Les hyperliens peuvent rediriger les utilisateurs vers des sites Web externes ou des ressources en ligne, fournissant des informations supplémentaires liées au contenu de la présentation.
+## Définition du clic sur le lien hypertexte d'une macro
 
-```csharp
-// Lien vers un site Web externe
-HyperlinkManager.AddHyperlinkToText(slide, "Learn more about our products", "https://www.example.com/products");
-```
+Passons maintenant à la partie principale de ce didacticiel : définir un clic de lien hypertexte de macro dans votre présentation.
 
-## Navigation vers d'autres diapositives dans la présentation
+### Étape 2 : initialiser la présentation
 
-Vous pouvez également créer des hyperliens pour naviguer entre les diapositives d'une même présentation.
+Tout d’abord, nous devons initialiser une nouvelle présentation.
 
 ```csharp
-// Lien vers une autre diapositive dans la même présentation
-HyperlinkManager.AddHyperlinkToSlide(slide, "Continue to the next section", nextSlide);
-```
-
-## Gestion des hyperliens
-
-À mesure que votre présentation évolue, vous devrez peut-être modifier ou mettre à jour les hyperliens existants. Aspose.Slides pour .NET fournit des méthodes pratiques pour la gestion des liens hypertexte.
-
-## Modification et mise à jour des hyperliens
-
-Pour modifier un lien hypertexte existant :
-
-```csharp
-// Récupérer le lien hypertexte existant à partir d'une forme
-Hyperlink hyperlink = HyperlinkManager.GetHyperlinkFromShape(shape);
-
-// Mettre à jour l'URL du lien hypertexte
-hyperlink.Url = "https://www.updated-link.com" ;
-```
-
-## Suppression des hyperliens
-
-Supprimer un lien hypertexte est simple :
-
-```csharp
-// Supprimer un lien hypertexte d'une forme
-HyperlinkManager.RemoveHyperlinkFromShape(shape);
-```
-
-## Opérations de liens hypertextes en masse
-
-Pour effectuer des opérations groupées sur des hyperliens :
-
-```csharp
-// Parcourez tous les hyperliens de la présentation
-foreach (Hyperlink hyperlink in HyperlinkManager.GetAllHyperlinks(presentation))
+using (Presentation presentation = new Presentation())
 {
-    // Effectuer des opérations sur chaque lien hypertexte
+    // Votre code ira ici.
 }
 ```
 
-## Automatisation de la gestion des hyperliens avec des macros
+Dans cette instruction using, vous créez un nouvel objet de présentation et effectuez toutes vos opérations à l'intérieur.
 
-Les macros constituent un moyen puissant d’automatiser les tâches de gestion des hyperliens. Voici comment écrire des macros pour gérer les hyperliens à l’aide d’Aspose.Slides pour .NET.
+### Étape 3 : ajouter une forme automatique
 
-## Introduction aux macros dans Aspose.Slides
-
-Les macros sont des scripts qui effectuent des actions spécifiques en réponse à certains événements. Dans Aspose.Slides, les macros peuvent être utilisées pour automatiser des tâches telles que la création, la modification et la suppression de liens hypertexte.
-
-## Écrire des macros pour gérer les hyperliens
-
-Voici un exemple de macro simple qui met à jour l'URL d'un lien hypertexte :
+Pour définir un clic sur un lien hypertexte de macro, vous aurez besoin d'un objet sur lequel l'utilisateur peut cliquer. Dans cet exemple, nous utiliserons une forme automatique comme élément cliquable.
 
 ```csharp
-// Définir l'événement macro
-presentation.Macros.Add(MacroEventType.HyperlinkClick, new UpdateHyperlinkMacro());
-
-// Créer la classe macro
-public class UpdateHyperlinkMacro : ISlideHyperlinkClickHandler
-{
-    public void HandleHyperlinkClick(SlideHyperlinkClickEventArgs args)
-    {
-        Hyperlink hyperlink = args.Hyperlink;
-        hyperlink.Url = "https://www.updated-link.com" ;
-    }
-}
+IAutoShape shape = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.BlankButton, 20, 20, 80, 30);
 ```
+
+Ici, nous créons une forme automatique de type "BlankButton" à des coordonnées spécifiques (20, 20) et avec des dimensions de 80x30. Vous pouvez personnaliser ces valeurs en fonction de la mise en page de votre présentation.
+
+### Étape 4 : Définir le clic sur le lien hypertexte de la macro
+
+Vient maintenant la partie où vous définissez le clic sur le lien hypertexte de la macro. Vous devrez fournir un nom de macro en tant que paramètre.
+
+```csharp
+string macroName = "TestMacro";
+shape.HyperlinkManager.SetMacroHyperlinkClick(macroName);
+```
+
+Dans cet exemple, nous avons défini le clic du lien hypertexte de la macro sur "TestMacro". Lorsque l'utilisateur clique sur la forme automatique, cela déclenchera cette macro.
+
+### Étape 5 : Récupérer des informations
+
+Vous pouvez également récupérer des informations sur le lien hypertexte que vous avez défini.
+
+```csharp
+Console.WriteLine("External URL is {0}", shape.HyperlinkClick.ExternalUrl);
+Console.WriteLine("Shape action type is {0}", shape.HyperlinkClick.ActionType);
+```
+
+Ces lignes de code permettent d'imprimer l'URL externe et le type d'action du lien hypertexte.
+
+Et c'est tout! Vous avez réussi à définir un clic sur un lien hypertexte de macro dans votre présentation à l'aide d'Aspose.Slides pour .NET.
 
 ## Conclusion
 
-L'intégration d'hyperliens dans vos présentations à l'aide d'Aspose.Slides pour .NET peut améliorer considérablement l'engagement et la navigation des utilisateurs. Que vous établissiez des liens vers des ressources externes ou créiez des menus interactifs, une gestion efficace des hyperliens garantit une expérience transparente à votre public.
+Dans ce didacticiel, nous avons appris à définir un clic sur un lien hypertexte de macro dans votre présentation à l'aide d'Aspose.Slides pour .NET. Cela peut s'avérer une fonctionnalité précieuse pour créer des présentations interactives et dynamiques qui engagent votre public. Avec Aspose.Slides pour .NET, vous disposez d'un outil puissant pour faire passer le développement de votre présentation au niveau supérieur.
 
-## FAQ
+ Il est maintenant temps d'expérimenter et de créer des présentations captivantes avec des hyperliens macro personnalisés. N'hésitez pas à explorer le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/) pour des informations et des possibilités plus détaillées.
 
-### Puis-je créer un lien vers une présentation de diapositive spécifique à l’aide de liens hypertexte ?
+## FAQ (Foire aux questions)
 
-Oui, vous pouvez utiliser des liens hypertexte pour diriger les utilisateurs vers un affichage de diapositive spécifique, tel que la première diapositive, la dernière diapositive ou un index de diapositive personnalisé.
+### Puis-je utiliser Aspose.Slides pour .NET avec d’autres langages de programmation ?
+Aspose.Slides est principalement conçu pour .NET, mais Aspose propose des bibliothèques similaires pour d'autres langages de programmation, tels que Java.
 
-### Est-il possible de styliser les hyperliens dans ma présentation ?
+### Aspose.Slides pour .NET est-il une bibliothèque gratuite ?
+Aspose.Slides for .NET est une bibliothèque commerciale avec une version d'essai gratuite disponible. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/).
 
-Absolument! Vous pouvez styliser les hyperliens en modifiant leurs propriétés de police, de couleur et de soulignement pour les rendre visuellement attrayants.
+### Existe-t-il des limites à l’utilisation de macros dans les présentations créées avec Aspose.Slides pour .NET ?
+Aspose.Slides pour .NET vous permet de travailler avec des macros, mais vous devez être conscient des considérations de sécurité et de compatibilité lorsque vous utilisez des macros dans des présentations.
 
-### Puis-je utiliser des macros pour automatiser d’autres tâches dans ma présentation ?
+### Puis-je personnaliser l’apparence de la forme automatique utilisée pour le lien hypertexte ?
+Oui, vous pouvez personnaliser l'apparence de la forme automatique en ajustant ses propriétés, telles que la taille, la couleur et la police.
 
-Oui, les macros peuvent automatiser diverses tâches au-delà de la gestion des hyperliens, telles que les transitions de diapositives, le formatage du contenu, etc.
-
-### Où puis-je en savoir plus sur Aspose.Slides pour .NET ?
-
- Pour des informations plus détaillées et des exemples, reportez-vous au[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net).
+### Où puis-je obtenir de l’aide ou du support pour Aspose.Slides pour .NET ?
+ Si vous rencontrez des problèmes ou avez des questions, vous pouvez demander de l'aide sur le forum d'assistance Aspose.[ici](https://forum.aspose.com/).

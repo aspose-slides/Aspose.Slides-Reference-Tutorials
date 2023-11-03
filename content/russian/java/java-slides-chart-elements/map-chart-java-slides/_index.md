@@ -70,7 +70,7 @@ dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 
 Наконец, сохраните презентацию с картой-диаграммой.
 

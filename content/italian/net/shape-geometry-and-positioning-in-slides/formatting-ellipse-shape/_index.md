@@ -142,7 +142,7 @@ presentation.Save(outputPath, SaveFormat.Pdf);
  Per modificare il colore di sfondo di una forma ellittica, accedi al suo`FillFormat` proprietà e impostare il file`SolidFillColor` proprietà al colore desiderato.
 
 ### Posso applicare più effetti di animazione a una singola ellisse?
- Sì, puoi applicare più effetti di animazione a una singola forma ellittica. Aggiungi semplicemente più effetti al file`AnimationSettings`dell'ellisse.
+Sì, puoi applicare più effetti di animazione a una singola forma ellittica. Aggiungi semplicemente più effetti al file`AnimationSettings` dell'ellisse.
 
 ### Aspose.Slides è compatibile con .NET Core?
 Sì, Aspose.Slides è compatibile con .NET Core, consentendoti di sviluppare applicazioni multipiattaforma.

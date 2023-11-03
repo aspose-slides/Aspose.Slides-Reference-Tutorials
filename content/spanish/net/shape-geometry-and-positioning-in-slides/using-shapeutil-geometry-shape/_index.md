@@ -34,7 +34,7 @@ ISlide slide = presentation.Slides.AddEmptySlide();
 
 ## Agregar formas geométricas a las diapositivas
 
-Para agregar formas geométricas a las diapositivas, puede usar la clase ShapeUtil.
+Para agregar formas geométricas a las diapositivas, puede utilizar la clase ShapeUtil.
 
 ```csharp
 // Añade una forma de rectángulo a la diapositiva.
@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil también proporciona métodos para organizar y alinear formas en diapositivas.
 
 ```csharp
-//Organizar formas horizontalmente
+// Organizar formas horizontalmente
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Alinear formas al centro
@@ -88,7 +88,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 ShapeUtil le permite aplicar formato a las formas, incluidos estilos de relleno y línea.
 
 ```csharp
-// Aplicar color de relleno
+//Aplicar color de relleno
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
 // Aplicar color y estilo de línea

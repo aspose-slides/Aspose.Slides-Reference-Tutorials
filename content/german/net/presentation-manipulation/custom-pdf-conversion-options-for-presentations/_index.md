@@ -87,7 +87,7 @@ Ja, Aspose.Slides für .NET unterstützt verschiedene Dokumentformate, nicht nur
 
 ### 4. Kann ich temporäre Lizenzen erhalten?
 
-Ja, vorübergehende Lizenzen stehen Ihnen zur Verfügung. Weitere Informationen finden Sie hier[Hier](https://purchase.aspose.com/temporary-license/).
+ Ja, vorübergehende Lizenzen stehen Ihnen zur Verfügung. Weitere Informationen finden Sie hier[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Wo kann ich Unterstützung suchen, wenn ich auf Probleme stoße?
 

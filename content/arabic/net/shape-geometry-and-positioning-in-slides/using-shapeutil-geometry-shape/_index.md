@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 يوفر ShapeUtil أيضًا طرقًا لترتيب الأشكال ومحاذاتها على الشرائح.
 
 ```csharp
-//ترتيب الأشكال أفقيا
+// ترتيب الأشكال أفقيا
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // محاذاة الأشكال إلى المركز
@@ -88,7 +88,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 يتيح لك ShapeUtil تطبيق التنسيق على الأشكال، بما في ذلك أنماط التعبئة والخطوط.
 
 ```csharp
-// تطبيق لون التعبئة
+//تطبيق لون التعبئة
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
 // تطبيق لون الخط والأسلوب

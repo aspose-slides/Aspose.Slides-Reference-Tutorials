@@ -51,7 +51,7 @@ Bevor Sie eine Miniaturansicht erstellen, müssen Sie auf die Form zugreifen, di
 // Greifen Sie auf die erste Folie zu
 var slide = presentation.Slides[0];
 
-// Greifen Sie auf die Form zu (nehmen wir an, es ist ein Rechteck)
+// Greifen Sie auf die Form zu (nehmen wir an, es ist ein Rechteck).
 var shape = slide.Shapes[0];
 ```
 
@@ -63,7 +63,7 @@ Jetzt kommt der spannende Teil – das Erstellen eines Miniaturbilds mit einem b
 // Erstellen Sie eine Kopie der Form
 var thumbnailShape = shape.Clone();
 
-//Definieren Sie den Skalierungsfaktor (z. B. 0,5 für 50 %).
+// Definieren Sie den Skalierungsfaktor (z. B. 0,5 für 50 %).
 double scalingFactor = 0.5;
 
 // Passen Sie die Breite und Höhe der Miniaturansicht an

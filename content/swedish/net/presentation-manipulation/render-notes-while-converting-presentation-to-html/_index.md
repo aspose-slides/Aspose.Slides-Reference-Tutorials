@@ -8,7 +8,7 @@ weight: 28
 url: /sv/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
 
-dagens digitala tidsålder har konvertering av presentationer till HTML-format blivit ett vanligt krav. Det låter dig enkelt dela dina presentationer på webben, vilket gör dem tillgängliga för en bredare publik. Aspose.Slides för .NET är ett kraftfullt verktyg som förenklar denna process. I denna steg-för-steg handledning guidar vi dig genom processen att konvertera en presentation till HTML med Aspose.Slides för .NET.
+I dagens digitala tidsålder har konvertering av presentationer till HTML-format blivit ett vanligt krav. Det låter dig enkelt dela dina presentationer på webben, vilket gör dem tillgängliga för en bredare publik. Aspose.Slides för .NET är ett kraftfullt verktyg som förenklar denna process. I denna steg-för-steg handledning guidar vi dig genom processen att konvertera en presentation till HTML med Aspose.Slides för .NET.
 
 ## 1. Introduktion
 
@@ -59,7 +59,7 @@ pres.Save(dataDir + "Output.html", SaveFormat.Html, opt);
 
 ## 7. Slutsats
 
-I den här handledningen har vi gått igenom processen steg-för-steg för att konvertera en PowerPoint-presentation till HTML med Aspose.Slides för .NET. Detta kraftfulla API förenklar uppgiften och gör det enkelt att dela dina presentationer online.
+den här handledningen har vi gått igenom processen steg-för-steg för att konvertera en PowerPoint-presentation till HTML med Aspose.Slides för .NET. Detta kraftfulla API förenklar uppgiften och gör det enkelt att dela dina presentationer online.
 
 ## 8. Vanliga frågor (FAQ)
 
@@ -73,7 +73,7 @@ Ja, du kan anpassa HTML-utdata genom att ändra HTMLOptions-objektet. Du kan sty
 Ja, Aspose.Slides för .NET stöder olika PowerPoint-format, inklusive PPT, PPTX och mer.
 
 ### Q4. Finns det några licensöverväganden?
- För att använda Aspose.Slides för .NET i ditt projekt måste du skaffa en licens från Aspose. Du kan hitta mer information om licensiering[här](https://purchase.aspose.com/buy).
+För att använda Aspose.Slides för .NET i ditt projekt måste du skaffa en licens från Aspose. Du kan hitta mer information om licensiering[här](https://purchase.aspose.com/buy).
 
 ### F5. Var kan jag få support för Aspose.Slides för .NET?
  Om du stöter på några problem eller har frågor kan du söka hjälp på[Aspose.Slides forum](https://forum.aspose.com/).

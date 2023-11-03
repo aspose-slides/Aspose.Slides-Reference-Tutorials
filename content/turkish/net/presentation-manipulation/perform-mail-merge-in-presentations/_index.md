@@ -94,7 +94,7 @@ string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
             // sonuç (bireysel) sunum adı oluştur
             string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
 
-            //Sunum şablonunu yükle
+            // Sunum şablonunu yükle
             using (Presentation pres = new Presentation(presTemplatePath))
             {
                 // Metin kutularını veri tabanı ana tablosundaki verilerle doldurun

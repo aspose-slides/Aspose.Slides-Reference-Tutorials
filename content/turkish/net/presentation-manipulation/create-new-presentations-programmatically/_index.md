@@ -86,4 +86,4 @@ Artık özel ihtiyaçlarınıza göre uyarlanmış dinamik sunumlar oluşturmak 
     Teknik yardım ve tartışmalar için Aspose.Slides forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/).
 
 4. ### Satın almadan önce Aspose.Slides for .NET'i deneyebilir miyim?
-    Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/)Deneme sürümünün sınırlamaları vardır, bu nedenle gereksinimlerinizi karşılayıp karşılamadığını kontrol ettiğinizden emin olun.
+    Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/). Deneme sürümünün sınırlamaları vardır, bu nedenle gereksinimlerinizi karşılayıp karşılamadığını kontrol ettiğinizden emin olun.

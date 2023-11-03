@@ -10,7 +10,7 @@ url: /es/net/printing-and-rendering-in-slides/digital-signature-support/
 
 ## Introducción a las firmas digitales
 
-Las firmas digitales son contrapartes electrónicas de las firmas manuscritas. Proporcionan una forma de garantizar la autenticidad e integridad de los documentos electrónicos vinculándolos a la identidad del firmante. Las firmas digitales utilizan técnicas de cifrado para crear una "huella digital" única del documento, que luego se asocia con la identidad del firmante. Esta huella dactilar, junto con las credenciales del firmante, permite comprobar si el documento ha sido alterado desde su firma y si ha sido firmado por una persona legítima.
+Las firmas digitales son contrapartes electrónicas de las firmas manuscritas. Proporcionan una forma de garantizar la autenticidad e integridad de los documentos electrónicos vinculándolos a la identidad del firmante. Las firmas digitales utilizan técnicas de cifrado para crear una "huella digital" única del documento, que luego se asocia con la identidad del firmante. Esta huella dactilar, junto con las credenciales del firmante, permite comprobar si el documento ha sido alterado desde su firma y si ha sido firmado por una parte legítima.
 
 ## Primeros pasos con Aspose.Slides para .NET
 

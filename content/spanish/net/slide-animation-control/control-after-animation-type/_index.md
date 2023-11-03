@@ -115,7 +115,7 @@ class Program
                     {
                         emphasisEffect.Type = EmphasisAnimationType.GrowWithColor;
                     }
-                    // Maneja otros tipos de animación de manera similar
+                    //Maneja otros tipos de animación de manera similar
                 }
             }
 
@@ -140,7 +140,7 @@ Esta guía completa le ha proporcionado la experiencia para aprovechar el poder 
 
 ### ¿Puedo modificar las animaciones de la ruta de movimiento usando Aspose.Slides?
 
- Sí, puedes modificar las animaciones de la ruta de movimiento usando Aspose.Slides accediendo al`MotionPathEffect`propiedades y ajustarlas en consecuencia.
+ Sí, puedes modificar las animaciones de la ruta de movimiento usando Aspose.Slides accediendo al`MotionPathEffect` propiedades y ajustarlas en consecuencia.
 
 ### ¿Es posible agregar animaciones personalizadas a los elementos de una diapositiva?
 
@@ -152,4 +152,4 @@ Puede guardar la presentación modificada en varios formatos, incluidos PPTX, PP
 
 ### ¿Dónde puedo encontrar más información sobre Aspose.Slides para .NET?
 
-Puede encontrar documentación detallada y ejemplos en el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
+ Puede encontrar documentación detallada y ejemplos en el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).

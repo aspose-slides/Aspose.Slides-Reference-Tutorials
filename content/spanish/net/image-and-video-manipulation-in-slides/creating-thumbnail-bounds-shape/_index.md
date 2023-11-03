@@ -105,4 +105,4 @@ Sí, Aspose.Slides para .NET es versátil y se puede utilizar tanto en aplicacio
 
 ### ¿Cómo puedo obtener más información sobre Aspose.Slides para .NET?
 
-Para obtener información más detallada, tutoriales y documentación, puede visitar el[Referencia de Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
+ Para obtener información más detallada, tutoriales y documentación, puede visitar el[Referencia de Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
