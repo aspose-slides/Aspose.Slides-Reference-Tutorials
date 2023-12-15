@@ -105,4 +105,4 @@ Ja, Aspose.Slides für .NET ist vielseitig und kann sowohl in Desktop- als auch 
 
 ### Wie kann ich mehr über Aspose.Slides für .NET erfahren?
 
-Ausführlichere Informationen, Tutorials und Dokumentation finden Sie unter[Aspose.Slides für .NET-Referenz](https://reference.aspose.com/slides/net/).
+ Ausführlichere Informationen, Tutorials und Dokumentation finden Sie unter[Aspose.Slides für .NET-Referenz](https://reference.aspose.com/slides/net/).

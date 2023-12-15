@@ -113,7 +113,7 @@ En este tutorial, aprendió cómo crear formas de grupo en diapositivas de prese
 
 ### ¿Cómo instalo Aspose.Slides para .NET?
 
- Puede descargar la biblioteca Aspose.Slides desde el enlace proporcionado:[aquí](https://releases.aspose.com/slides/net/). Una vez descargado, puede agregarlo a su proyecto usando paquetes NuGet.
+Puede descargar la biblioteca Aspose.Slides desde el enlace proporcionado:[aquí](https://releases.aspose.com/slides/net/). Una vez descargado, puede agregarlo a su proyecto usando paquetes NuGet.
 
 ### ¿Puedo aplicar diferentes transformaciones a formas agrupadas?
 

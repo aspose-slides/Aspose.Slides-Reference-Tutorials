@@ -51,7 +51,7 @@ var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
 Ahora, creemos la diapositiva de zoom de resumen real que mostrará la descripción general de las diapositivas que agregamos anteriormente:
 
 ```csharp
-//Crear una diapositiva de zoom de resumen
+// Crear una diapositiva de zoom de resumen
 var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
 ```
 

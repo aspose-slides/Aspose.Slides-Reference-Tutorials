@@ -72,7 +72,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 {
     if (shape is IAutoShape autoShape && autoShape.TextFrame != null)
     {
-        // Aplicar efectos de duotono al texto
+        //Aplicar efectos de duotono al texto
         DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
         duotoneEffect.FirstColor = Color.Black;
         duotoneEffect.SecondColor = Color.White;
@@ -83,7 +83,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 
 ## Personalización de colores duotono
 
- Puede personalizar los colores bitono según sus preferencias de diseño. Simplemente reemplace el`FirstColor` y`SecondColor`valores con los colores deseados.
+ Puede personalizar los colores bitono según sus preferencias de diseño. Simplemente reemplace el`FirstColor` y`SecondColor` valores con los colores deseados.
 
 ## Guardar y exportar la presentación modificada
 

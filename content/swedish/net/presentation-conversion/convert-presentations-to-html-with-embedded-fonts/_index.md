@@ -18,7 +18,7 @@ Innan vi dyker in i handledningen, låt oss kort presentera Aspose.Slides för .
 
 Innan du börjar, se till att du har följande förutsättningar på plats:
 
--  Aspose.Slides för .NET: Du bör ha Aspose.Slides-biblioteket installerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
+- Aspose.Slides för .NET: Du bör ha Aspose.Slides-biblioteket installerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
 
 ## Steg 1: Konfigurera ditt projekt
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 
 ## Steg 3: Uteslut standardteckensnitt för presentationer
 
-det här steget kan du ange alla standardpresentationsfonter som du vill utesluta från inbäddning. Detta kan hjälpa till att optimera storleken på den resulterande HTML-filen.
+I det här steget kan du ange alla standardpresentationsfonter som du vill utesluta från inbäddning. Detta kan hjälpa till att optimera storleken på den resulterande HTML-filen.
 
 ```csharp
 string[] fontNameExcludeList = { };

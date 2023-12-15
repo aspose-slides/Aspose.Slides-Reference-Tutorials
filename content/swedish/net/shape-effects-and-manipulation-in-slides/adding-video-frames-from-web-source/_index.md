@@ -58,13 +58,13 @@ Aspose.Slides erbjuder olika alternativ för att anpassa videouppspelningsupplev
 // Hämta videoramen på bilden
 IVideoFrame videoFrame = (IVideoFrame)slide.Shapes[0];
 
-// Aktivera automatisk uppspelning
+//Aktivera automatisk uppspelning
 videoFrame.PlayMode = VideoPlayModePreset.Auto;
 
 // Aktivera loop
 videoFrame.PlayLoopMode = VideoPlayLoopMode.Loop;
 
-//Stäng av ljudet för videon
+// Stäng av ljudet för videon
 videoFrame.Volume = AudioVolumeMode.Mute;
 ```
 

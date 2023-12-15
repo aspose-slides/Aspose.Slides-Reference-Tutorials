@@ -18,7 +18,7 @@ Kodlara dalmadan önce geliştirme ortamımızı ayarlayalım. Bu adımları tak
 
 1.  Aspose.Slides for .NET'i indirin:[indirme sayfası](https://releases.aspose.com/slides/net/) ve projenizle uyumlu sürümü seçin.
 
-2. Aspose.Slides'ı yükleyin: İndirdikten sonra, DLL referansını projenize ekleyerek Aspose.Slides'ı kurun.
+2. Aspose.Slides'ı yükleyin: İndirdikten sonra, DLL referansını projenize ekleyerek Aspose.Slides'ı yükleyin.
 
 3. Yeni Bir Proje Oluşturun: Tercih ettiğiniz geliştirme ortamını (örneğin, Visual Studio) kullanarak yeni bir .NET projesi oluşturun.
 
@@ -107,7 +107,7 @@ Aspose.Slides for .NET'i yüklemek için şu adımları izleyin:
 
 ### Dikdörtgen şeklini ekledikten sonra sunumu nasıl kaydederim?
 
- Sunuyu kullanarak kaydedebilirsiniz.`Save` yöntemi`Presentation`sınıf. İstediğiniz dosya adını ve istediğiniz kaydetme formatını (örneğin`SaveFormat.Pptx`).
+Sunuyu kullanarak kaydedebilirsiniz.`Save` yöntemi`Presentation` sınıf. İstediğiniz dosya adını ve istediğiniz kaydetme formatını (örneğin`SaveFormat.Pptx`).
 
 ### Aspose.Slides for .NET yalnızca dikdörtgen şekiller için uygun mudur?
 

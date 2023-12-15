@@ -14,7 +14,7 @@ Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki �
 
 ## Önkoşullar
 
- Başlamadan önce Aspose.Slides for Java kütüphanesinin Java projenize entegre olduğundan emin olun. Kütüphaneyi resmi Aspose web sitesinden indirebilirsiniz.[Burada](https://downloads.aspose.com/slides/java).
+ Başlamadan önce Aspose.Slides for Java kütüphanesinin Java projenize entegre olduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz.[Burada](https://downloads.aspose.com/slides/java).
 
 ## 1. Adım: Gerekli Kitaplıkları İçe Aktarın
 
@@ -42,7 +42,7 @@ Presentation presentation = new Presentation();
 Başlık, yazar, anahtar kelimeler ve daha fazlası gibi çeşitli belge özelliklerini ayarlayabilirsiniz. Burada birkaç ortak özelliği belirleyeceğiz:
 
 ```java
-// Sunumun başlığını ayarlayın
+// Sunumun başlığını belirleyin
 presentation.getDocumentProperties().setTitle("My Presentation");
 
 // Sununun yazarını ayarlama
@@ -116,7 +116,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumunda belge ö
  Aspose.Slides for Java'da belge özelliklerini ayarlamak için`DocumentProperties` sınıf. Başlık, yazar ve anahtar kelimeler gibi özelliklerin nasıl ayarlanacağına ilişkin bir örneği burada bulabilirsiniz:
 
 ```java
-// Sunumun başlığını ayarlayın
+// Sunumun başlığını belirleyin
 presentation.getDocumentProperties().setTitle("My Presentation");
 
 // Sununun yazarını ayarlama

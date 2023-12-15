@@ -23,8 +23,8 @@ La formattazione gioca un ruolo fondamentale nella creazione di presentazioni co
 Che tu stia cercando di semplificare le procedure di licenza o di migliorare l'estetica visiva delle tue presentazioni, questi tutorial ti forniranno gli approfondimenti e le competenze per raggiungere i tuoi obiettivi. Intraprendiamo questo viaggio per migliorare la tua competenza in Aspose.Slides e creare presentazioni che lascino un'impressione duratura.
 
 ## Tutorial su licenza e formattazione
-### [Licenza e formattazione in Aspose.Slides](./licensing-and-formatting/)
-Scopri come utilizzare Aspose.Slides per .NET in modo efficace dalle licenze alla formattazione, alle animazioni e altro ancora. Crea presentazioni accattivanti senza sforzo.
+### [Licenza in Aspose.Slides](./licensing-and-formatting/)
+Scopri come ottenere la licenza Aspose.Slides per .NET e liberare la potenza della manipolazione di PowerPoint nelle tue applicazioni .NET.
 ### [Utilizzo delle licenze misurate](./metered-licensing/)
 Scopri come utilizzare in modo efficiente le licenze misurate con Aspose.Slides per .NET. Integra perfettamente le API pagando per l'utilizzo effettivo.
 ### [Aggiungi colore ai punti dati nel grafico](./add-color-to-data-points/)

@@ -107,7 +107,7 @@ Um Aspose.Slides für .NET zu installieren, befolgen Sie diese Schritte:
 
 ### Wie speichere ich die Präsentation, nachdem ich die Rechteckform hinzugefügt habe?
 
- Sie können die Präsentation mit speichern`Save` Methode der`Presentation`Klasse. Geben Sie den gewünschten Dateinamen und das gewünschte Speicherformat an (z. B`SaveFormat.Pptx`).
+Sie können die Präsentation mit speichern`Save` Methode der`Presentation` Klasse. Geben Sie den gewünschten Dateinamen und das gewünschte Speicherformat an (z. B`SaveFormat.Pptx`).
 
 ### Ist Aspose.Slides für .NET nur für rechteckige Formen geeignet?
 

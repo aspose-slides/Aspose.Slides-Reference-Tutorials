@@ -87,7 +87,7 @@ Para probar la aplicación, siga estos pasos:
 
 1. Asegúrese de tener una presentación de PowerPoint de muestra (`sample.pptx`) con al menos un marco de imagen.
 2. Ejecute la aplicación.
-3.  La presentación modificada con el desplazamiento de estiramiento añadido se guardará como`output.pptx`.
+3.  La presentación modificada con el desplazamiento de estiramiento agregado se guardará como`output.pptx`.
 
 ## Conclusión
 

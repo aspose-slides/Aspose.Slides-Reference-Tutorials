@@ -27,7 +27,7 @@ Tout d’abord, nous allons créer une nouvelle présentation à l’aide d’As
 Presentation pres = new Presentation();
 ```
 
-## Étape 2 : Ajouter un graphique Sunburst
+## Étape 2 : ajouter un graphique Sunburst
 
 Maintenant, ajoutons un graphique Sunburst à la présentation. Nous spécifions le type, la position et la taille du graphique.
 

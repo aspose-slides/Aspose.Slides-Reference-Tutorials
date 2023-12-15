@@ -63,7 +63,7 @@ double cameraZ = camera.Position.Z;
 Una volta estratti i dati della telecamera, puoi utilizzarli per ottimizzare la tua presentazione per vari scenari. Ad esempio, potresti voler regolare la posizione della telecamera per mettere a fuoco un contenuto specifico o regolare il campo visivo per dimensioni di visualizzazione diverse. Ecco un semplice esempio di regolazione della posizione della telecamera:
 
 ```csharp
-//Supponendo che tu abbia i parametri della fotocamera dal passaggio 2
+// Supponendo che tu abbia i parametri della fotocamera dal passaggio 2
 
 // Regola la posizione della telecamera
 cameraX += 10;
@@ -94,7 +94,7 @@ slide.SetCamera(defaultCamera);
 
 ### Posso animare i movimenti della telecamera nella mia presentazione?
 
- Sì, Aspose.Slides ti consente di creare animazioni, inclusi i movimenti della fotocamera, all'interno della tua presentazione. È possibile definire fotogrammi chiave per la posizione della telecamera e altri parametri per creare transizioni dinamiche. Fare riferimento al[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/) per informazioni dettagliate sulle tecniche di animazione.
+Sì, Aspose.Slides ti consente di creare animazioni, inclusi i movimenti della fotocamera, all'interno della tua presentazione. È possibile definire fotogrammi chiave per la posizione della telecamera e altri parametri per creare transizioni dinamiche. Fare riferimento al[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/) per informazioni dettagliate sulle tecniche di animazione.
 
 ## Conclusione
 

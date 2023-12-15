@@ -2,174 +2,122 @@
 title: Aspose.Slides 中的超链接操作
 linktitle: Aspose.Slides 中的超链接操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for .NET 通过超链接增强 PowerPoint 演示文稿。无缝创建、修改和管理交互式内容。
+description: 了解如何在 Aspose.Slides for .NET 中添加和删除超链接。通过交互式链接轻松增强您的演示文稿。
 type: docs
 weight: 10
 url: /zh/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
 
-## 超链接操作简介
+超链接是演示文稿中的基本元素，因为它们提供了在幻灯片之间导航或访问外部资源的便捷方式。 Aspose.Slides for .NET 提供了在演示幻灯片中添加和删除超链接的强大功能。在本教程中，我们将指导您使用 Aspose.Slides for .NET 完成超链接操作的过程。我们将介绍向幻灯片添加超链接以及从幻灯片中删除超链接。那么，让我们深入了解一下吧！
 
-超链接通过连接幻灯片、文档、网页等来丰富演示文稿。它们提供互动体验，增强观众的参与度。 Aspose.Slides for .NET 提供了以编程方式管理超链接的全面功能，使您可以完全控制演示文稿的导航。
+## 先决条件
 
-## 在幻灯片中设置超链接
+在开始之前，请确保您具备以下先决条件：
 
-要创建超链接，您可以使用 Aspose.Slides for .NET`HyperlinkManager`班级。此类允许您向幻灯片中的特定形状或文本添加各种类型的超链接。
+1.  Aspose.Slides for .NET：您必须安装并设置 Aspose.Slides for .NET 库。你可以找到文档[这里](https://reference.aspose.com/slides/net/)并从下载[这个链接](https://releases.aspose.com/slides/net/).
 
-```csharp
-//将超链接添加到形状的代码示例
-HyperlinkManager.AddHyperlinkToShape(shape, "https://www.example.com”、“访问我们的网站”）；
-```
+2. 您的文档目录：您需要一个用于存储演示文稿文件的目录。确保在代码中指定此目录的路径。
 
-## 修改超链接
+3. C# 基础知识：本教程假设您对 C# 编程有基本了解。
 
-您可以使用 Aspose.Slides for .NET 轻松修改现有超链接。当您需要更新目标 URL 或更改超链接的文本时，这非常有用。
+现在您已经具备了先决条件，让我们继续学习使用 Aspose.Slides for .NET 进行超链接操作的分步指南。
 
-```csharp
-//修改超链接 URL 的代码示例
-HyperlinkManager.ModifyHyperlinkUrl(shape, "https://newurl.com");
-```
+## 向幻灯片添加超链接
 
-## 删除超链接
+### 第 1 步：初始化演示文稿
 
-如果您希望从形状中删除超链接，Aspose.Slides for .NET 提供了一种简单的方法来执行此操作。
+首先，您需要使用 Aspose.Slides 初始化演示文稿。您可以使用以下代码来执行此操作：
 
 ```csharp
-//从形状中删除超链接的代码示例
-HyperlinkManager.RemoveHyperlink(shape);
+using (Presentation presentation = new Presentation())
+{
+    //你的代码在这里
+}
 ```
 
-## 使用锚点
+### 第 2 步：添加文本框
 
-处理幻灯片中的超链接时，锚点至关重要。它们确定超链接在目标幻灯片中指向的位置。
+现在，让我们向幻灯片添加文本框架。此代码创建一个带有文本的矩形：
 
 ```csharp
-//设置超链接锚点的代码示例
-HyperlinkManager.SetHyperlinkAnchor(shape, targetSlide, anchorX, anchorY);
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
 ```
 
-## 处理不同的超链接类型
+### 第三步：添加超链接
 
-Aspose.Slides for .NET 支持各种超链接类型，包括 URL 链接、内部文档链接、电子邮件地址链接等。
+接下来，您将向您创建的形状中的文本添加超链接。您可以这样做：
 
 ```csharp
-//添加电子邮件超链接的代码示例
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-## 向超链接添加工具提示
+### 第 4 步：保存演示文稿
 
-当用户将鼠标悬停在超链接上时，工具提示会提供附加信息。 Aspose.Slides for .NET 使您能够为超链接设置工具提示。
+最后，使用添加的超链接保存演示文稿：
 
 ```csharp
-//将工具提示添加到超链接的代码示例
-HyperlinkManager.AddHyperlinkWithTooltip(shape, "https://www.example.com”、“访问我们的网站”、“点击探索”）；
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 ```
 
-## 管理外部超链接
+恭喜！您已使用 Aspose.Slides for .NET 成功向幻灯片添加了超链接。
 
-您还可以使用 Aspose.Slides for .NET 管理外部超链接，确保您的演示文稿保持与相关在线资源的连接。
+## 从幻灯片中删除超链接
+
+### 第 1 步：初始化演示文稿
+
+要从幻灯片中删除超链接，您需要打开现有演示文稿：
 
 ```csharp
-//在 Web 浏览器中打开超链接的代码示例
-HyperlinkManager.OpenHyperlinkInBrowser(shape);
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## 主幻灯片中的超链接
+### 第 2 步：删除超链接
 
-主幻灯片通常包含重复出现的元素。 Aspose.Slides for .NET 允许您将超链接应用到主幻灯片，确保演示文稿的一致性。
+现在，使用以下代码从演示文稿中删除所有超链接：
 
 ```csharp
-//在母版幻灯片中设置超链接的代码示例
-HyperlinkManager.SetHyperlinkInMasterSlide(masterSlide, "https://www.example.com”、“访问我们的网站”）；
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## 提取超链接信息
+### 第 3 步：保存演示文稿
 
-您可以使用 Aspose.Slides for .NET 从现有超链接中提取信息，这有助于分析或报告目的。
+删除超链接后，保存演示文稿：
 
 ```csharp
-//提取超链接信息的代码示例
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-## 添加超链接到图像和形状
+就是这样！您已使用 Aspose.Slides for .NET 成功从幻灯片中删除了超链接。
 
-超链接不仅可以添加到文本中，还可以添加到幻灯片中的图像和形状中。
+总之，Aspose.Slides for .NET 提供了一种有效的方法来操作演示文稿中的超链接，使您能够创建交互式且引人入胜的幻灯片。无论您是想添加或删除外部资源的超链接，Aspose.Slides 都能简化流程并增强您的演示文稿构建功能。
 
-```csharp
-//添加超链接到图像的代码示例
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "点击图片了解更多");
-```
+感谢您加入我们有关 Aspose.Slides for .NET 中超链接操作的教程。如果您有任何疑问或需要进一步帮助，请随时探索[Aspose.Slides 文档](https://reference.aspose.com/slides/net/)或联系 Aspose 社区[支持论坛](https://forum.aspose.com/).
 
-## 链接到电子邮件地址和电话号码
-
-Aspose.Slides for .NET 使您能够创建超链接，单击后即可触发电子邮件撰写或发起电话呼叫。
-
-```csharp
-//创建电子邮件超链接的代码示例
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
-
-//创建电话号码超链接的代码示例
-HyperlinkManager.AddPhoneHyperlink(shape, "+1234567890", "Call our support");
-```
-
-## 超链接格式
-
-您可以将格式应用于超链接，使其在视觉上与常规文本或形状不同。
-
-```csharp
-//设置超链接外观格式的代码示例
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-## 通过API添加超链接
-
-Aspose.Slides for .NET 为超链接操作提供了强大的 API。您可以将这些功能无缝集成到您的应用程序中。
-
-```csharp
-//通过 API 添加超链接的代码示例
-HyperlinkManager.AddHyperlink(shape, HyperlinkType.Url, "https://www.example.com");
-```
+---
 
 ## 结论
 
-使用 Aspose.Slides for .NET 进行超链接操作提供了一个全面的工具包，可增强 PowerPoint 演示文稿的交互性和参与度。通过创建、修改和管理超链接的能力，您可以创建吸引观众的动态且信息丰富的幻灯片。
+在本教程中，我们学习了如何使用 Aspose.Slides for .NET 操作演示文稿中的超链接。我们介绍了超链接的添加和删除，使您能够创建动态和交互式演示文稿。 Aspose.Slides 简化了流程，可以轻松地通过指向外部资源的超链接来增强幻灯片。
 
-## 常见问题解答
+您对于使用 Aspose.Slides 或演示文稿设计的其他方面还有其他疑问吗？查看下面的常见问题解答以获取更多见解。
 
-### 如何从形状中删除超链接？
+## 常见问题解答（常见问题）
 
-要从形状中删除超链接，可以使用以下代码：
+### 使用 Aspose.Slides for .NET 的主要优点是什么？
+Aspose.Slides for .NET 提供了广泛的用于创建、操作和转换演示文稿的功能。它提供了一套全面的工具，用于向幻灯片添加内容、动画和交互。
 
-```csharp
-HyperlinkManager.RemoveHyperlink(shape);
-```
+### 我可以在 Aspose.Slides 中添加除文本之外的对象的超链接吗？
+是的，Aspose.Slides 允许您添加各种对象的超链接，包括形状、图像和文本，让您可以灵活地创建交互式演示文稿。
 
-### 我可以将超链接应用到幻灯片中的图像吗？
+### Aspose.Slides 是否与不同的 PowerPoint 文件格式兼容？
+绝对地。 Aspose.Slides支持各种PowerPoint格式，包括PPT、PPTX、PPS等。它确保与不同版本的 Microsoft PowerPoint 的兼容性。
 
-是的，您可以使用 Aspose.Slides for .NET 在幻灯片中添加指向图像和形状的超链接。例如：
+### 在哪里可以找到 Aspose.Slides 的其他资源和支持？
+如需深入的文档和社区支持，请访问[Aspose.Slides 文档](https://reference.aspose.com/slides/net/)和[Aspose 支持论坛](https://forum.aspose.com/).
 
-```csharp
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "点击图片了解更多");
-```
-
-### 是否可以格式化超链接的外观？
-
-当然！您可以使用 Aspose.Slides for .NET 格式化超链接的外观。这是一个例子：
-
-```csharp
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-### 如何从现有超链接中提取信息？
-
-您可以使用以下方法从现有超链接中提取信息：
-
-```csharp
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
-```
-
-### 在哪里可以访问有关 Aspose.Slides for .NET 的更详细文档？
-
-更详细的信息和代码示例可以参考[文档](https://reference.aspose.com/slides/net/)适用于 .NET 的 Aspose.Slides。
+### 如何获得 Aspose.Slides 的临时许可证？
+如果您需要 Aspose.Slides 的临时许可证，您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).

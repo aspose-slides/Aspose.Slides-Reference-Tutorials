@@ -87,7 +87,7 @@ using (Presentation pres = new Presentation(dataDir + "ConvertToPDF.pptx"))
 
 ### 4. Могу ли я получить временные лицензии?
 
-Да, для вашего удобства доступны временные лицензии. Найти дополнительную информацию[здесь](https://purchase.aspose.com/temporary-license/).
+ Да, для вашего удобства доступны временные лицензии. Найти дополнительную информацию[здесь](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Куда я могу обратиться за поддержкой, если у меня возникнут проблемы?
 

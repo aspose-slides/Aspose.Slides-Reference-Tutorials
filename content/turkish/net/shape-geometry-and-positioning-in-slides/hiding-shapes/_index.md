@@ -20,7 +20,7 @@ Sunumlar genellikle hassas veriler, karmaşık diyagramlar veya stratejik olarak
 
 Teknik ayrıntılara dalmadan önce her şeyin Aspose.Slides ile çalışacak şekilde ayarlandığından emin olalım.
 
-1. Kurulum: Başlamak için Aspose.Slides for .NET kütüphanesini aşağıdaki adresten indirip yükleyin.[İndirme: {link](https://releases.aspose.com/slides/net/) . Ayrıca ayrıntılı API referansını şu adreste inceleyebilirsiniz:[API Referansı](https://reference.aspose.com/slides/net/).
+1.  Kurulum: Başlamak için Aspose.Slides for .NET kütüphanesini aşağıdaki adresten indirip yükleyin.[İndirme: {link](https://releases.aspose.com/slides/net/) . Ayrıca ayrıntılı API referansını şu adreste inceleyebilirsiniz:[API Referansı](https://reference.aspose.com/slides/net/).
 
 2. Proje Oluşturma: Tercih ettiğiniz geliştirme ortamında yeni bir .NET projesi başlatın. Aspose.Slides kütüphanesine gerekli referanslara sahip olduğunuzdan emin olun.
 
@@ -60,7 +60,7 @@ foreach (IShape shape in slide.Shapes)
 
 ## Gizli Şekiller Gösteriliyor
 
-Elbette bir noktada bu gizli şekilleri de ortaya çıkarmanız gerekecek. Görünürlük özelliğini tekrar şuna ayarlamanız yeterlidir:`true`:
+ Elbette bir noktada bu gizli şekilleri de ortaya çıkarmanız gerekecek. Görünürlük özelliğini tekrar şuna ayarlamanız yeterlidir:`true`:
 
 ```csharp
 foreach (IShape shape in slide.Shapes)
@@ -126,7 +126,7 @@ Aspose.Slides'ı kullanarak sunum slaytlarındaki şekilleri gizleme sanatında 
 
 ### Sunum slaytındaki bir şekli nasıl gösterebilirim?
 
-Bir şeklin gizlenmesini sağlamak için görünürlük özelliğini şu şekilde ayarlamanız yeterlidir:`true`.
+ Bir şeklin gizlenmesini sağlamak için görünürlük özelliğini şu şekilde ayarlamanız yeterlidir:`true`.
 
 ### Gizli şekillere animasyon uygulayabilir miyim?
 

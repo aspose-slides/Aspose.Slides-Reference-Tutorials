@@ -14,7 +14,7 @@ url: /fr/net/presentation-manipulation/convert-fodp-format-to-other-presentation
 
 Avant de nous lancer dans le processus de conversion, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1. Aspose.Slides pour .NET : si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.Slides pour .NET à partir du site Web :[Téléchargez Aspose.Slides pour .NET](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides pour .NET : si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.Slides pour .NET à partir du site Web :[Téléchargez Aspose.Slides pour .NET](https://releases.aspose.com/slides/net/).
 
 2. Votre répertoire de documents : préparez le répertoire dans lequel se trouve votre document FODP.
 
@@ -60,7 +60,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 Toutes nos félicitations! Vous avez converti avec succès un fichier au format FODP vers d'autres formats de présentation à l'aide d'Aspose.Slides pour .NET. Cette bibliothèque polyvalente ouvre un monde de possibilités pour travailler avec des présentations par programmation.
 
- Si vous rencontrez des problèmes ou avez des questions, n'hésitez pas à demander de l'aide sur le[Forum Aspose.Slides](https://forum.aspose.com/)La communauté et l'équipe d'assistance sont là pour vous aider.
+ Si vous rencontrez des problèmes ou avez des questions, n'hésitez pas à demander de l'aide sur le[Forum Aspose.Slides](https://forum.aspose.com/). La communauté et l'équipe d'assistance sont là pour vous aider.
 
 ## FAQ
 
@@ -74,7 +74,7 @@ Toutes nos félicitations! Vous avez converti avec succès un fichier au format 
 
 ### 3. Comment puis-je obtenir une licence temporaire pour Aspose.Slides pour .NET ?
 
- Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Quels formats de présentation sont pris en charge pour la conversion ?
 

@@ -58,13 +58,13 @@ Aspose.Slides ofrece varias opciones para personalizar la experiencia de reprodu
 // Obtener el fotograma del vídeo en la diapositiva
 IVideoFrame videoFrame = (IVideoFrame)slide.Shapes[0];
 
-// Habilitar reproducción automática
+//Habilitar reproducción automática
 videoFrame.PlayMode = VideoPlayModePreset.Auto;
 
 // Habilitar bucle
 videoFrame.PlayLoopMode = VideoPlayLoopMode.Loop;
 
-//Silenciar el vídeo
+// Silenciar el vídeo
 videoFrame.Volume = AudioVolumeMode.Mute;
 ```
 

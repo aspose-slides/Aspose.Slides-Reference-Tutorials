@@ -20,7 +20,7 @@ Before we dive into the details of extracting audio and video from PowerPoint sl
 
 1. Visual Studio: Ensure you have Visual Studio installed on your machine for .NET development.
 
-2. Aspose.Slides for .NET: Download and install Aspose.Slides for .NET. You can find the library and documentation on the [official Aspose.Slides for .NET website](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides for .NET: Download and install Aspose.Slides for .NET. You can find the library and documentation on the [Aspose.Slides for .NET website](https://releases.aspose.com/slides/net/).
 
 3. A PowerPoint Presentation: Prepare a PowerPoint presentation that contains audio and video elements for practicing extraction.
 
@@ -128,7 +128,7 @@ Yes, Aspose.Slides for .NET supports the latest PowerPoint formats, including PP
 Yes, you can modify the code to iterate through multiple slides and extract multimedia from each of them.
 
 ### Are there any licensing options for Aspose.Slides for .NET?
-Aspose offers various licensing options, including free trials and temporary licenses. You can explore these options on their [official website](https://purchase.aspose.com/buy).
+Aspose offers various licensing options, including free trials and temporary licenses. You can explore these options on their [website](https://purchase.aspose.com/buy).
 
 ### How can I get support for Aspose.Slides for .NET?
 For technical support and community discussions, you can visit the Aspose.Slides [forum](https://forum.aspose.com/).

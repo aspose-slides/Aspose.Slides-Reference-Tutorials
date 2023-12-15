@@ -107,7 +107,7 @@ Para instalar Aspose.Slides para .NET, siga estos pasos:
 
 ### ¿Cómo guardo la presentación después de agregar la forma del rectángulo?
 
- Puede guardar la presentación usando el`Save` método de la`Presentation`clase. Proporcione el nombre de archivo deseado y el formato de guardado deseado (como`SaveFormat.Pptx`).
+Puede guardar la presentación usando el`Save` método de la`Presentation` clase. Proporcione el nombre de archivo deseado y el formato de guardado deseado (como`SaveFormat.Pptx`).
 
 ### ¿Aspose.Slides para .NET es adecuado solo para formas rectangulares?
 

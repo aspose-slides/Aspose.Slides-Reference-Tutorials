@@ -40,7 +40,7 @@ Apprenez à créer des diapositives de présentation captivantes et interactives
 ### [Création d'une vignette pour la forme dans Aspose.Slides](./creating-thumbnail-shape/)
 Découvrez comment créer des miniatures pour les formes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit des exemples de code pratiques, du chargement de présentations à la génération et à l'enregistrement de vignettes.
 ### [Création d'une vignette pour la note enfant SmartArt dans Aspose.Slides](./creating-thumbnail-smartart-child-note/)
-Découvrez comment créer des vignettes pour les notes enfants SmartArt à l’aide d’Aspose.Slides pour .NET. Guide étape par étape avec le code source complet.
+Découvrez comment créer des miniatures pour les notes enfants SmartArt à l’aide d’Aspose.Slides pour .NET. Guide étape par étape avec le code source complet.
 ### [Création d'un zoom récapitulatif dans les diapositives de présentation avec Aspose.Slides](./creating-summary-zoom/)
 Apprenez à créer des diapositives de présentation captivantes avec un zoom récapitulatif à l'aide d'Aspose.Slides pour .NET. Notre guide étape par étape fournit le code source et des conseils de personnalisation pour améliorer l'interactivité.
 ### [Création d'un cadre de zoom dans les diapositives de présentation avec Aspose.Slides](./creating-zoom-frame/)

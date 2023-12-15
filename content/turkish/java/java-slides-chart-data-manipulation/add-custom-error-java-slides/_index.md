@@ -131,7 +131,7 @@ finally
 
 ## Çözüm
 
-Bu kapsamlı eğitimde Aspose.Slides for Java'yı kullanarak grafiklere özel hata çubukları ekleyerek PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrendiniz. Hata çubukları, veri değişkenliği ve belirsizliğine ilişkin değerli bilgiler sağlayarak grafiklerinizi daha bilgilendirici ve görsel olarak çekici hale getirir.
+Bu kapsamlı eğitimde Aspose.Slides for Java kullanarak grafiklere özel hata çubukları ekleyerek PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrendiniz. Hata çubukları, veri değişkenliği ve belirsizliğine ilişkin değerli bilgiler sağlayarak grafiklerinizi daha bilgilendirici ve görsel olarak çekici hale getirir.
 
 ## SSS'ler
 

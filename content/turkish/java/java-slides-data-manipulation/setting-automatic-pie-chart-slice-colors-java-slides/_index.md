@@ -103,7 +103,7 @@ Pasta grafiği için çeşitli dilim renklerini etkinleştirin:
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-## Adım 9: Sunuyu Kaydetme
+## Adım 9: Sunuyu Kaydedin
 
 Son olarak sunuyu bir PowerPoint dosyasına kaydedin:
 

@@ -107,7 +107,7 @@ Absolument! Aspose.Slides vous permet d'exporter votre présentation animée ver
 
 ### Où puis-je trouver plus de ressources et de documentation ?
 
- Pour une documentation détaillée et des exemples, reportez-vous au[Références de l'API Aspose.Slides](https://reference.aspose.com/slides/net/).
+Pour une documentation détaillée et des exemples, reportez-vous au[Références de l'API Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ## Conclusion
 

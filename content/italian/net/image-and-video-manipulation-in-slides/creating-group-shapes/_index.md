@@ -113,7 +113,7 @@ In questo tutorial hai imparato come creare forme di gruppo nelle diapositive di
 
 ### Come installo Aspose.Slides per .NET?
 
- È possibile scaricare la libreria Aspose.Slides dal collegamento fornito:[Qui](https://releases.aspose.com/slides/net/). Una volta scaricato, puoi aggiungerlo al tuo progetto utilizzando i pacchetti NuGet.
+È possibile scaricare la libreria Aspose.Slides dal collegamento fornito:[Qui](https://releases.aspose.com/slides/net/). Una volta scaricato, puoi aggiungerlo al tuo progetto utilizzando i pacchetti NuGet.
 
 ### Posso applicare trasformazioni diverse alle forme raggruppate?
 

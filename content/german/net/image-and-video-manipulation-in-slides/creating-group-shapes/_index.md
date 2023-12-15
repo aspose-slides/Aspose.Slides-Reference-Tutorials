@@ -113,7 +113,7 @@ In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für .NET Gruppe
 
 ### Wie installiere ich Aspose.Slides für .NET?
 
- Sie können die Aspose.Slides-Bibliothek über den bereitgestellten Link herunterladen:[Hier](https://releases.aspose.com/slides/net/). Nach dem Herunterladen können Sie es mithilfe von NuGet-Paketen zu Ihrem Projekt hinzufügen.
+Sie können die Aspose.Slides-Bibliothek über den bereitgestellten Link herunterladen:[Hier](https://releases.aspose.com/slides/net/). Nach dem Herunterladen können Sie es mithilfe von NuGet-Paketen zu Ihrem Projekt hinzufügen.
 
 ### Kann ich unterschiedliche Transformationen auf gruppierte Formen anwenden?
 

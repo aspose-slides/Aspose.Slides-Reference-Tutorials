@@ -2,97 +2,115 @@
 title: Générer une vignette à partir d'une diapositive dans Notes
 linktitle: Générer une vignette à partir d'une diapositive dans Notes
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Générez des vignettes à partir de diapositives contenant des notes à l'aide d'Aspose.Slides for .NET. Apprenez étape par étape comment extraire des notes, créer des vignettes et améliorer votre manipulation PowerPoint.
+description: Découvrez comment générer des vignettes à partir de diapositives dans la section notes de votre présentation à l'aide d'Aspose.Slides pour .NET. Améliorez votre contenu visuel !
 type: docs
 weight: 12
 url: /fr/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
 
-À l'ère numérique d'aujourd'hui, les présentations jouent un rôle central dans la transmission efficace des informations et des idées. Avec l'avènement de bibliothèques puissantes comme Aspose.Slides pour .NET, les développeurs ont acquis la possibilité de manipuler et d'extraire le contenu des présentations PowerPoint par programme. Une exigence courante consiste à générer des vignettes à partir de diapositives, en particulier lorsque ces diapositives contiennent des notes importantes. Ce guide étape par étape vous guidera tout au long du processus de génération de vignettes à partir de diapositives contenant des notes à l'aide d'Aspose.Slides for .NET.
+Dans le monde des présentations modernes, le contenu visuel est roi. Créer des diapositives attrayantes est essentiel pour une communication efficace. Une façon d'améliorer vos présentations consiste à générer des vignettes à partir de diapositives, en particulier lorsque vous souhaitez mettre en valeur des détails spécifiques ou partager une vue d'ensemble. Aspose.Slides for .NET est un outil puissant qui peut vous aider à y parvenir de manière transparente. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de génération de vignettes à partir de diapositives dans la section notes d'une présentation à l'aide d'Aspose.Slides pour .NET.
 
 ## Conditions préalables
 
-Avant de plonger dans le processus, assurez-vous que les conditions préalables suivantes sont en place :
+Avant d’entrer dans les détails, vous devez avoir les conditions préalables suivantes en place :
 
-- Visual Studio installé sur votre ordinateur.
-- Familiarité de base avec la programmation C# et le développement .NET.
--  Aspose.Slides pour la bibliothèque .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
+### 1. Aspose.Slides pour .NET
 
-## Chargement d'une présentation PowerPoint
+ Assurez-vous que Aspose.Slides pour .NET est installé et configuré. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
 
-La première étape consiste à charger la présentation PowerPoint à l'aide d'Aspose.Slides pour .NET. Voici comment procéder :
+### 2. Environnement .NET
+
+Vous devez disposer d'un environnement de développement .NET prêt sur votre système.
+
+### 3. Un dossier de présentation
+
+ Disposer d'un dossier de présentation (ex.`ThumbnailFromSlideInNotes.pptx`) à partir duquel vous souhaitez générer des vignettes.
+
+Maintenant, décomposons le processus en étapes :
+
+## Étape 1 : Importer des espaces de noms
+
+Tout d’abord, vous devez importer les espaces de noms nécessaires pour travailler avec Aspose.Slides. Ajoutez le code suivant au début de votre script C# :
 
 ```csharp
 using Aspose.Slides;
+using System.Drawing;
+```
 
-// Charger la présentation
-using (var presentation = new Presentation("your-presentation.pptx"))
+## Étape 2 : Charger la présentation
+
+ Ensuite, vous devrez charger le fichier de présentation contenant les diapositives avec des notes. Utilisez le code suivant pour instancier un`Presentation` classe:
+
+```csharp
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlideInNotes.pptx"))
 {
-    // Votre code ici
+    // Votre code va ici
 }
 ```
 
-## Extraire des diapositives avec des notes
+## Étape 3 : accéder à la diapositive
 
-Pour extraire des diapositives avec leurs notes, vous devez parcourir les diapositives et accéder à leurs notes. Voici comment y parvenir :
-
-```csharp
-// Parcourez les diapositives
-foreach (ISlide slide in presentation.Slides)
-{
-    // Vérifiez si la diapositive contient des notes
-    if (slide.NotesSlide != null)
-    {
-        // Notes d'accès
-        string notes = slide.NotesSlide.NotesTextFrame.Text;
-        
-        // Votre code ici
-    }
-}
-```
-
-## Générer des vignettes à partir de diapositives
-
-Maintenant, générons des vignettes à partir des diapositives à l'aide de la classe SlideUtil :
+Vous pouvez choisir la diapositive de la présentation pour laquelle vous souhaitez générer une vignette. Dans cet exemple, nous accéderons à la première diapositive :
 
 ```csharp
-using Aspose.Slides.Util;
-
-// Générer une miniature pour une diapositive
-var thumbnail = SlideUtil.GetSlideThumbnail(slide, 1.0f);
+ISlide sld = pres.Slides[0];
 ```
 
-## Enregistrer les vignettes sur le disque
+## Étape 4 : Définir les dimensions souhaitées
 
-Une fois que vous avez généré des vignettes, vous pouvez les enregistrer sur votre disque local :
+Spécifiez les dimensions (largeur et hauteur) de la vignette que vous souhaitez générer. Par exemple:
 
 ```csharp
-// Enregistrer la vignette sur le disque
-thumbnail.Save("slide-thumbnail.png", ImageFormat.Png);
+int desiredX = 1200; // Largeur
+int desiredY = 800;  // Hauteur
 ```
+
+## Étape 5 : Calculer les facteurs d'échelle
+
+Pour vous assurer que la miniature correspond aux dimensions souhaitées, calculez les facteurs de mise à l'échelle comme suit :
+
+```csharp
+float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
+float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
+```
+
+## Étape 6 : Créer une vignette
+
+Maintenant, créez une vignette d'image à grande échelle en utilisant les facteurs d'échelle calculés :
+
+```csharp
+Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
+```
+
+## Étape 7 : Enregistrez la vignette
+
+Enfin, enregistrez la vignette générée sous forme d'image JPEG :
+
+```csharp
+bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+```
+
+C'est ça! Vous avez généré avec succès une vignette à partir d'une diapositive dans la section notes de votre présentation à l'aide d'Aspose.Slides pour .NET.
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment générer des vignettes à partir de diapositives contenant des notes à l'aide d'Aspose.Slides pour .NET. Nous avons couvert le chargement d'une présentation, l'extraction de diapositives avec des notes, la génération de vignettes et leur enregistrement sur le disque. Grâce à ces connaissances, vous pouvez améliorer vos applications en ajoutant des fonctionnalités impliquant la manipulation de présentations PowerPoint.
+L'intégration de vignettes dans vos présentations peut améliorer considérablement leur attrait visuel et leur efficacité. Aspose.Slides for .NET simplifie ce processus, vous permettant de créer facilement des vignettes personnalisées à partir de vos diapositives.
 
-## FAQ
+## FAQ (Foire aux questions)
 
-### Comment puis-je obtenir la bibliothèque Aspose.Slides pour .NET ?
+### Dans quels formats puis-je enregistrer les vignettes générées ?
+Vous pouvez enregistrer les vignettes dans différents formats, notamment JPEG, PNG, etc., en fonction de vos besoins.
 
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/slides/net/).
+### Puis-je générer des miniatures pour plusieurs diapositives à la fois ?
+Oui, vous pouvez parcourir les diapositives de votre présentation et générer des vignettes pour chacune d'entre elles.
 
-### Puis-je générer des miniatures pour des diapositives spécifiques uniquement ?
-
-Oui, vous pouvez générer des miniatures pour des diapositives spécifiques en fournissant l'index des diapositives correspondant au`SlideUtil.GetSlideThumbnail` méthode.
-
-### Aspose.Slides pour .NET est-il adapté aux applications multiplateformes ?
-
-Oui, Aspose.Slides pour .NET est compatible avec diverses plates-formes, notamment Windows et Linux, ce qui le rend adapté aux applications multiplateformes.
+### Aspose.Slides pour .NET est-il compatible avec différents frameworks .NET ?
+Oui, Aspose.Slides pour .NET est compatible avec divers frameworks .NET, notamment .NET Core et .NET Framework.
 
 ### Puis-je personnaliser l'apparence des vignettes générées ?
+Absolument! Aspose.Slides pour .NET fournit des options pour personnaliser l'apparence des vignettes, telles que les dimensions, la qualité, etc.
 
-Absolument! Vous pouvez ajuster la taille, la qualité et d'autres propriétés des vignettes générées pour répondre aux exigences de votre application.
-
-### Aspose.Slides pour .NET prend-il en charge d’autres tâches de manipulation PowerPoint ?
-
-Oui, Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment la création, l'édition, la conversion et le rendu de présentations PowerPoint.
+### Où puis-je obtenir de l’aide ou une assistance supplémentaire concernant Aspose.Slides pour .NET ?
+ Vous pouvez trouver de l'aide et interagir avec la communauté Aspose à l'adresse[Forum d'assistance Aspose](https://forum.aspose.com/).

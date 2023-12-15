@@ -8,130 +8,99 @@ weight: 13
 url: /tr/net/slide-comments-manipulation/add-slide-comments/
 ---
 
-Sunumlarınızı bir sonraki seviyeye taşımak mı istiyorsunuz? Slaytlarınızı hedef kitleniz için daha etkileşimli ve ilgi çekici hale getirmek ister misiniz? Slaytlara yorum eklemek bu hedeflere ulaşmanın güçlü bir yolu olabilir. Bu kapsamlı kılavuzda, Aspose.Slides API for .NET'i kullanarak slaytlara yorum ekleme sürecinde size yol göstereceğiz. İster deneyimli bir sunumcu olun ister yeni başlayan biri olun, bu makale size sunumlarınızın gerçekten öne çıkmasını sağlayacak adım adım talimatlar ve kaynak kodu örnekleri sağlayacaktır.
+Sunum yönetimi dünyasında slaytlara yorum ekleme yeteneği oyunun kurallarını değiştirebilir. Yorumlar yalnızca işbirliğini geliştirmekle kalmaz, aynı zamanda slayt içeriğinin anlaşılmasına ve gözden geçirilmesine de yardımcı olur. Güçlü ve çok yönlü bir kütüphane olan Aspose.Slides for .NET ile yorumları sunum slaytlarınıza zahmetsizce dahil edebilirsiniz. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak bir slayda yorum ekleme sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister .NET geliştirme dünyasına yeni başlayan biri olun, bu eğitim ihtiyacınız olan tüm bilgileri sağlayacaktır.
 
-## giriiş
+## Önkoşullar
 
-Günümüzün hızlı dünyasında sunumlar bilgi, fikir ve kavramların aktarılmasında çok önemli bir rol oynamaktadır. Ancak statik bir slayt gösterisi her zaman izleyicilerinizin dikkatini çekmeyebilir. Slaytlara yorum eklemenin devreye girdiği yer burasıdır. Yorumları entegre ederek ek bağlam, açıklamalar ve içgörüler sunarak sunumunuzu daha bilgilendirici ve ilgi çekici hale getirebilirsiniz.
+Adım adım kılavuzu incelemeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-## Aspose.Slides'a Başlarken
+1.  Aspose.Slides for .NET: Aspose.Slides for .NET'in kurulu olması gerekir. Henüz yapmadıysanız adresinden indirebilirsiniz.[Aspose.Slides for .NET web sitesi](https://releases.aspose.com/slides/net/).
 
-Slaytlara yorum ekleme sürecine geçmeden önce sizi kısaca Aspose.Slides'la tanıştıralım. Geliştiricilerin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve işlemesine olanak tanıyan, .NET için güçlü bir API'dir. Aspose.Slides, sunumlarınızı geliştirmek için son derece değerli olabilecek, yorum ekleme de dahil olmak üzere çok çeşitli özellikler sunar.
+2. Geliştirme Ortamı: Sisteminizde .NET geliştirme ortamının kurulu olması gerekmektedir.
 
- Başlamak için Aspose.Slides'ın kurulu olması gerekir. Gerekli dosyaları adresinden indirebilirsiniz.[Aspose.Slides web sitesi](https://releases.aspose.com/slides/net/). API'yi yükledikten sonra slaytlarınıza yorum eklemeye hazırsınız.
+3. Temel C# Bilgisi: Uygulamayı göstermek için C# kullanacağımız için C# programlamaya aşina olmak faydalıdır.
 
-## Slaytlara Yorum Ekleme: Adım Adım Kılavuz
+Bu önkoşullar yerine getirildikten sonra sununuzdaki bir slayda yorum ekleme sürecine dalalım.
 
-### 1. Adım: Sunumu Yükleyin
+## Ad Alanlarını İçe Aktar
+
+Öncelikle gerekli namespace’leri import ederek geliştirme ortamımızı kuralım.
 
 ```csharp
 using Aspose.Slides;
-// Sunuyu yükle
-Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Export;
 ```
 
-### Adım 2: Slayta Erişim
+Artık önkoşulları ve ad alanlarını sıraladığımıza göre adım adım kılavuza geçebiliriz.
+
+## 1. Adım: Yeni Bir Sunu Oluşturun
+
+Bir slayda yorum ekleyebileceğimiz yeni bir sunum oluşturarak başlayacağız. Bunu yapmak için aşağıdaki kodu izleyin:
 
 ```csharp
-// Belirli bir slayda erişme
-ISlide slide = presentation.Slides[0];
+string FilePath = @"..\..\..\..\Sample Files\";
+string FileName = FilePath + "Add a comment to a slide.pptx";
+
+using (Presentation pres = new Presentation())
+{
+    // Boş slayt ekleme
+    pres.Slides.AddEmptySlide(pres.LayoutSlides[0]);
+
+    // Yazar Ekleme
+    ICommentAuthor author = pres.CommentAuthors.AddAuthor("Zeeshan", "MZ");
+
+    // Yorumların konumu
+    PointF point = new PointF();
+    point.X = 1;
+    point.Y = 1;
+
+    // Slayttaki bir yazar için slayt yorumu ekleme
+    author.Comments.AddComment("Hello Zeeshan, this is a slide comment", pres.Slides[0], point, DateTime.Now);
+    
+    // Sunuyu kaydet
+    pres.Save(FileName, SaveFormat.Pptx);
+}
 ```
 
-### 3. Adım: Yorum Ekle
+Bu kodda neler olduğunu açıklayalım:
 
-```csharp
-// Slayta yorum ekleme
-slide.Comments.AddComment("John Doe", "Great point! This graph emphasizes the upward trend.", new DateTime(2023, 8, 29));
-```
+-  Kullanarak yeni bir sunum oluşturarak başlıyoruz.`Presentation()`.
+- Daha sonra sunuma boş bir slayt ekliyoruz.
+-  Kullanarak yorum için bir yazar ekliyoruz`ICommentAuthor`.
+-  Slayttaki yorumun konumunu şunu kullanarak tanımlarız:`PointF`.
+- Yazar için slayta bir yorum ekliyoruz.`author.Comments.AddComment()`.
+- Son olarak, eklenen yorumlarla birlikte sunumu kaydediyoruz.
 
-### Adım 4: Sunuyu Kaydet
+Bu kod, ilk slaytta yorum bulunan bir PowerPoint sunusu oluşturur. Yazarın adını, yorum metnini ve diğer parametreleri gereksinimlerinize göre özelleştirebilirsiniz.
 
-```csharp
-// Sunuyu yorumlarla kaydedin
-presentation.Save("presentation-with-comments.pptx", SaveFormat.Pptx);
-```
-
-## Sunumlarda Yorum Kullanmanın Yararları
-
-- **Enhanced Clarity**Yorumlar, slaytlarınıza ek açıklamalar, açıklamalar ve bağlam sağlayarak hedef kitlenizin içeriğinizi tam olarak anlamasını sağlar.
-
-- **Interactive Learning**: Eğitici sunumlar için yorumlar, eğitimcilerin karmaşık konuları ayrıntılı olarak ele almasına olanak tanıyarak etkileşimli ve sürükleyici bir öğrenme deneyimi yaratır.
-
-- **Collaborative Presenting**: Bir ekip sunumu üzerinde çalışıyorsanız yorumlar, ekip üyelerinin doğrudan slaytlar içinde geri bildirim ve önerilerde bulunmasına olanak sağlayarak işbirliğini kolaylaştırır.
-
-- **Audience Engagement**: İyi yerleştirilmiş yorumlar izleyicinin merakını uyandırabilir ve onları içeriğinizle aktif olarak etkileşime geçmeye ve soru sormaya teşvik edebilir.
-
-## Etkili Yorumlar İçin En İyi Uygulamalar
-
-1. **Be Concise**: Yorumlarınızı kısa ve öz tutun. Uzun süren yorumlar izleyicilerinizi bunaltabilir.
-
-2. **Use Visual Aids**: Slaytınızın belirli alanlarına dikkat çekmek için oklar, vurgular veya belirtme çizgileri gibi görseller ekleyin.
-
-3. **Provide Context**: Yorumlarınızın slayt içeriğini tamamladığından ve değerli bağlam veya bilgiler sağladığından emin olun.
-
-4. **Engage with Audience**Sorular sorarak veya yorumlar aracılığıyla onların fikirlerini arayarak izleyici etkileşimini teşvik edin.
-
-## Aspose.Slides'ın Gelişmiş Özelliklerinden Yararlanma
-
-Aspose.Slides, temel yorum işlevselliğinden daha fazlasını sunar. Ayrıca şunları da yapabilirsiniz:
-
-- **Format Comments**: Yorumların görünümünü sunumunuzun stiline ve temasına uyacak şekilde özelleştirin.
-
-- **Reply to Comments**: Mevcut yorumları yanıtlayarak, işbirliğini ve etkileşimi teşvik ederek tartışmalara katılın.
-
-- **Extract Comments**: Analiz veya raporlama amacıyla sunumlardan yorumları programlı olarak çıkarın.
-
-## Sorun Giderme ve Genel Sorunlar
-
-- Yorumlar beklendiği gibi görüntülenmiyorsa Aspose.Slides'ın en son sürümünü kullandığınızdan ve yorumların slayt koleksiyonuna düzgün şekilde eklendiğinden emin olun.
-
--  Herhangi bir sorunla karşılaşırsanız, bkz.[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) Sorun giderme ve çözümler için.
-
-## SSS
-
-### Bir yorumu nasıl silerim?
-
-Bir yorumu silmek için aşağıdaki kod parçasını kullanabilirsiniz:
-
-```csharp
-// 'Yorumun' silmek istediğiniz yorum olduğunu varsayarsak
-slide.Comments.RemoveComment(comment);
-```
-
-### Yorum metnini biçimlendirebilir miyim?
-
-Evet, yorum metnini aşağıdaki yaklaşımı kullanarak biçimlendirebilirsiniz:
-
-```csharp
-// 'Yorum'un biçimlendirmek istediğiniz yorum olduğunu varsayarsak
-comment.TextFrame.Text = "This is <b>bold</b> and <i>italic</i> text.";
-```
-
-### Yorumları ayrı bir dosyaya aktarmak mümkün müdür?
-
-Kesinlikle! Aşağıdaki kodu kullanarak yorumları bir metin dosyasına aktarabilirsiniz:
-
-```csharp
-using System.IO;
-
-// Yorumları bir metin dosyasına aktarma
-File.WriteAllText("comments.txt", string.Join(Environment.NewLine, slide.Comments.Select(c => c.Text)));
-```
-
-### Belirli bir yorumu kimin yaptığını nasıl belirleyebilirim?
-
- Her yorumun bir`Author` Yorumun yazarı hakkında bilgi sağlayan özellik.
-
-### Bir slayttaki belirli şekillere yorum ekleyebilir miyim?
-
-Evet, slaydın kendisine yorum eklemekle aynı işlemi kullanarak tek tek şekillere yorum ekleyebilirsiniz.
-
-### Slayt gösterisi sırasında yorumlar görünür mü?
-
-Hayır, slayt gösterisi sırasında yorumlar görünmez. Sunum yapan kişiye ve ortak çalışanlara ek bağlam sağlamayı amaçlamaktadırlar.
+Bu adımlarla Aspose.Slides for .NET'i kullanarak bir slayda başarıyla yorum eklediniz. Artık ekibinizle veya izleyicilerinizle işbirliğini ve iletişimi geliştirerek sunum yönetiminizi bir sonraki seviyeye taşıyabilirsiniz.
 
 ## Çözüm
 
-Aspose.Slides'ı kullanarak sunumlarınızı yorumlarla zenginleştirmek oyunun kurallarını değiştirecek. Slaytlarınızı statik görsellerden etkileşimli öğrenme araçlarına yükseltir. Bu kılavuzda özetlenen adımları izleyerek slaytlarınıza zahmetsizce yorum ekleyebilir ve sunumlarınızı etkileşim ve etkileşim açısından yeni boyutlara taşıyabilirsiniz.
+Slaytlara yorum eklemek, ister ortak projeler ister eğitim amaçlı olsun, sunumlarla çalışanlar için değerli bir özelliktir. Aspose.Slides for .NET bu süreci basitleştirerek yorumları zahmetsizce oluşturmanıza, düzenlemenize ve yönetmenize olanak tanır. Bu kılavuzda özetlenen adımları takip ederek sunumlarınızı geliştirmek için Aspose.Slides for .NET'in gücünden yararlanabilirsiniz.
 
-Yorumların yalnızca ek açıklamalar olmadığını unutmayın; bunlar hedef kitlenizle bağlantı kurmak, içgörü sağlamak ve anlamlı tartışmalar başlatmak için fırsatlardır. Peki neden bekleyelim? Yorumlarınızı sunumlarınıza entegre etmeye bugün başlayın ve yaratabileceği etkiye tanık olun.
+ Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresten yardım aramaktan çekinmeyin:[Aspose.Slides forumu](https://forum.aspose.com/).
+
+---
+
+## SSS
+
+### 1. Aspose.Slides for .NET'te yorumların görünümünü nasıl özelleştirebilirim?
+
+Aspose.Slides kütüphanesini kullanarak renk, boyut ve yazı tipi gibi çeşitli özellikleri değiştirerek yorumların görünümünü özelleştirebilirsiniz. Ayrıntılı rehberlik için belgelere bakın.
+
+### 2. Slayttaki şekil veya resim gibi belirli öğelere yorum ekleyebilir miyim?
+
+Evet, Aspose.Slides for .NET, yalnızca slaytların tamamına değil aynı zamanda slayt içindeki şekiller veya görüntüler gibi ayrı ayrı öğelere de yorum eklemenizi sağlar.
+
+### 3. Aspose.Slides for .NET, PowerPoint dosyalarının farklı sürümleriyle uyumlu mudur?
+
+Evet, Aspose.Slides for .NET, PPTX, PPT ve daha fazlası dahil olmak üzere çeşitli PowerPoint dosya formatlarını destekler.
+
+### 4. Aspose.Slides for .NET'i .NET uygulamama nasıl entegre edebilirim?
+
+Aspose.Slides for .NET'i .NET uygulamanıza entegre etmek için kurulum ve kullanıma ilişkin ayrıntılı bilgi sağlayan belgelere başvurabilirsiniz.
+
+### 5. Aspose.Slides for .NET'i satın almadan önce deneyebilir miyim?
+
+Evet, ücretsiz deneme sürümünü kullanarak Aspose.Slides for .NET'i keşfedebilirsiniz. Ziyaret edin[Aspose.Slides ücretsiz deneme sayfası](https://releases.aspose.com/) başlamak.

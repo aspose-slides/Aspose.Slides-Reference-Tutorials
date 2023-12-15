@@ -51,7 +51,7 @@ var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
 Erstellen wir nun die eigentliche Zusammenfassungs-Zoomfolie, die die Übersicht der zuvor hinzugefügten Folien anzeigt:
 
 ```csharp
-//Erstellen Sie eine zusammenfassende Zoomfolie
+// Erstellen Sie eine zusammenfassende Zoomfolie
 var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
 ```
 

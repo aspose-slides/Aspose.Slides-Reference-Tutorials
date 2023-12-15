@@ -72,7 +72,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 {
     if (shape is IAutoShape autoShape && autoShape.TextFrame != null)
     {
-        // Metne çift ton efektleri uygulama
+        //Metne çift ton efektleri uygulama
         DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
         duotoneEffect.FirstColor = Color.Black;
         duotoneEffect.SecondColor = Color.White;
@@ -83,7 +83,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 
 ## Çift Tonlu Renkleri Özelleştirme
 
- Çift tonlu renkleri tasarım tercihlerinize göre özelleştirebilirsiniz. Basitçe değiştirin`FirstColor` Ve`SecondColor`İstediğiniz renklerle değerler.
+ Çift tonlu renkleri tasarım tercihlerinize göre özelleştirebilirsiniz. Basitçe değiştirin`FirstColor` Ve`SecondColor` İstediğiniz renklerle değerler.
 
 ## Değiştirilen Sunumu Kaydetme ve Dışa Aktarma
 

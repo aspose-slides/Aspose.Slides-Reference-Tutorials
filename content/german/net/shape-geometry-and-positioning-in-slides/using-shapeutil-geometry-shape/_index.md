@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil bietet auch Methoden zum Anordnen und Ausrichten von Formen auf Folien.
 
 ```csharp
-//Formen horizontal anordnen
+// Formen horizontal anordnen
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Richten Sie die Formen in der Mitte aus
@@ -88,7 +88,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 Mit ShapeUtil können Sie Formatierungen auf Formen anwenden, einschließlich Füll- und Linienstilen.
 
 ```csharp
-// Füllfarbe anwenden
+//Füllfarbe anwenden
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
 // Wenden Sie Linienfarbe und -stil an

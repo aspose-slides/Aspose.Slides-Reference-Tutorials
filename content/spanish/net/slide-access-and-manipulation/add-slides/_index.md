@@ -106,4 +106,4 @@ Absolutamente. Puede cambiar la disposición, el diseño y el formato de las dia
 
 ### ¿Dónde puedo encontrar más información sobre Aspose.Slides para .NET?
 
- Para obtener documentación detallada y ejemplos, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
+Para obtener documentación detallada y ejemplos, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).

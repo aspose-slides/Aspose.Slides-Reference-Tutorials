@@ -73,7 +73,7 @@ pres.Save(dataDir + "Output.html", SaveFormat.Html, opt);
 نعم، يدعم Aspose.Slides for .NET تنسيقات PowerPoint المتنوعة، بما في ذلك PPT وPPTX والمزيد.
 
 ### س 4. هل هناك أي اعتبارات الترخيص؟
- لاستخدام Aspose.Slides for .NET في مشروعك، ستحتاج إلى الحصول على ترخيص من Aspose. يمكنك العثور على مزيد من المعلومات حول الترخيص[هنا](https://purchase.aspose.com/buy).
+لاستخدام Aspose.Slides for .NET في مشروعك، ستحتاج إلى الحصول على ترخيص من Aspose. يمكنك العثور على مزيد من المعلومات حول الترخيص[هنا](https://purchase.aspose.com/buy).
 
 ### س5. أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
  إذا واجهت أي مشاكل أو كانت لديك أسئلة، يمكنك طلب المساعدة على[منتدى Aspose.Slides](https://forum.aspose.com/).

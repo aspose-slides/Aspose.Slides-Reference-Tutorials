@@ -1,95 +1,112 @@
 ---
-title: استخراج الفيديو من الشريحة
+title: كيفية استخراج الفيديو من الشريحة باستخدام Aspose.Slides لـ .NET
 linktitle: استخراج الفيديو من الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: إتقان استخراج الفيديو من شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. اتبع دليلنا مع أمثلة التعليمات البرمجية.
+description: تعرف على كيفية استخراج مقاطع الفيديو من شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. هذا الدليل خطوة بخطوة يبسط العملية بالنسبة لك.
 type: docs
 weight: 14
 url: /ar/net/audio-and-video-extraction/extract-video/
 ---
 
-## مقدمة
-
-في العالم الرقمي اليوم، أصبحت العروض التقديمية متعددة الوسائط جزءًا أساسيًا من التواصل. غالبًا ما تتضمن عروض PowerPoint التقديمية مزيجًا من النصوص والصور ومقاطع الفيديو لنقل المعلومات بشكل فعال. ومع ذلك، قد تكون هناك أوقات تحتاج فيها إلى استخراج مقطع فيديو من شريحة لأغراض مختلفة، مثل الأرشفة أو المشاركة أو إجراء المزيد من التحرير. هذا هو المكان الذي يلعب فيه Aspose.Slides for .NET دوره.
+Aspose.Slides for .NET هي مكتبة قوية تسمح لك بالعمل مع عروض PowerPoint التقديمية في بيئة .NET. إحدى الميزات المفيدة التي يوفرها هي القدرة على استخراج مقاطع الفيديو من الشرائح. في هذا الدليل خطوة بخطوة، سنوضح لك كيفية استخراج مقطع فيديو من شريحة PowerPoint باستخدام Aspose.Slides for .NET.
 
 ## المتطلبات الأساسية
 
-قبل أن نتعمق في الدليل التفصيلي، تأكد من توفر المتطلبات الأساسية التالية:
+قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
 
-- المعرفة الأساسية بـ C# و.NET Framework
-- تم تثبيت Visual Studio
--  Aspose.Slides لمكتبة .NET (التنزيل من[هنا](https://releases.aspose.com/slides/net)
+-  Aspose.Slides لـ .NET: تحتاج إلى تثبيت Aspose.Slides لـ .NET. يمكنك الحصول عليه من[موقع إلكتروني](https://purchase.aspose.com/buy).
 
-## دليل خطوة بخطوة
+- عرض تقديمي لـ PowerPoint: قم بإعداد عرض تقديمي لـ PowerPoint (على سبيل المثال، Video.pptx) يحتوي على الفيديو الذي تريد استخراجه.
 
-دعونا نستعرض عملية استخراج مقطع فيديو من شريحة باستخدام Aspose.Slides لـ .NET:
+## استيراد مساحات الأسماء
 
-### الخطوة 1: التثبيت
-
-1. افتح Visual Studio وقم بإنشاء مشروع C# جديد.
-2. انقر بزر الماوس الأيمن على مشروعك في Solution Explorer، ثم حدد "إدارة حزم NuGet".
-3. ابحث عن "Aspose.Slides" وقم بتثبيت الإصدار الأحدث.
-
-### الخطوة 2: تحميل العرض التقديمي
+تحتاج إلى استيراد مساحات الأسماء الضرورية للعمل مع Aspose.Slides لـ .NET. وإليك كيف يمكنك القيام بذلك:
 
 ```csharp
 using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using var presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Video;
 ```
 
- يستبدل`"your-presentation.pptx"` بالمسار الفعلي لملف عرض PowerPoint التقديمي.
+الآن، دعونا نقسم عملية استخراج مقطع فيديو من شريحة إلى خطوات متعددة.
 
-### الخطوة 3: استخراج الفيديو
+## الخطوة 1: قم بتعيين دليل المستندات
 
 ```csharp
-// احصل على الشريحة الأولى
-var slide = presentation.Slides[0];
+string dataDir = "Your Document Directory";
+```
 
-// التكرار من خلال أشكال الشرائح
-foreach (var shape in slide.Shapes)
+ يستبدل`"Your Document Directory"` مع المسار إلى الدليل الذي يوجد به عرض PowerPoint التقديمي الخاص بك.
+
+## الخطوة 2: قم بتحميل العرض التقديمي
+
+```csharp
+Presentation presentation = new Presentation(dataDir + "Video.pptx");
+```
+
+يقوم هذا الرمز بتهيئة كائن العرض التقديمي، الذي يمثل ملف العرض التقديمي لـ PowerPoint.
+
+## الخطوة 3: التكرار من خلال الشرائح والأشكال
+
+```csharp
+foreach (ISlide slide in presentation.Slides)
 {
-    if (shape is IVideoFrame videoFrame)
+    foreach (IShape shape in presentation.Slides[0].Shapes)
     {
-        // استخرج الفيديو من إطار الفيديو
-        var video = videoFrame.EmbeddedVideo;
-        // يمكن إجراء المزيد من المعالجة باستخدام كائن الفيديو
-    }
+```
+
+هنا، نمر عبر كل شريحة في العرض التقديمي ثم نمر عبر الأشكال الموجودة في الشريحة الأولى (قم بالتعديل حسب الحاجة).
+
+## الخطوة 4: تحقق مما إذا كان الشكل عبارة عن إطار فيديو
+
+```csharp
+if (shape is VideoFrame)
+{
+    IVideoFrame vf = shape as IVideoFrame;
+    String type = vf.EmbeddedVideo.ContentType;
+```
+
+تتحقق هذه الخطوة مما إذا كان الشكل الموجود على الشريحة عبارة عن إطار فيديو.
+
+## الخطوة 5: استخراج بيانات الفيديو
+
+```csharp
+int ss = type.LastIndexOf('/');
+type = type.Remove(0, type.LastIndexOf('/') + 1);
+Byte[] buffer = vf.EmbeddedVideo.BinaryData;
+```
+
+يستخرج هذا الرمز معلومات حول الفيديو، بما في ذلك نوع المحتوى والبيانات الثنائية.
+
+## الخطوة 6: احفظ الفيديو
+
+```csharp
+using (FileStream stream = new FileStream(dataDir + "NewVideo_out." + type, FileMode.Create, FileAccess.Write, FileShare.Read))
+{
+    stream.Write(buffer, 0, buffer.Length);
 }
 ```
 
-### الخطوة 4: حفظ الفيديو
+أخيرًا، تقوم هذه الخطوة بحفظ الفيديو في ملف جديد في الدليل المحدد.
 
-```csharp
-// احفظ الفيديو المستخرج
-video.WriteToFile("extracted-video.mp4");
-```
-
- يستبدل`"extracted-video.mp4"` بالاسم والمسار المطلوبين لملف الفيديو المستخرج.
+بمجرد الانتهاء من هذه الخطوات، ستكون قد نجحت في استخراج مقطع فيديو من شريحة PowerPoint باستخدام Aspose.Slides for .NET.
 
 ## خاتمة
 
-يعمل Aspose.Slides for .NET على تبسيط مهمة استخراج مقاطع الفيديو من عروض PowerPoint التقديمية. باستخدام بضعة أسطر فقط من التعليمات البرمجية، يمكنك استرداد مقاطع الفيديو المضمنة داخل الشرائح وحفظها كملفات فيديو منفصلة. سواء كنت تتطلع إلى إعادة استخدام المحتوى أو إنشاء مجموعات، فإن هذه المكتبة توفر حلاً سلسًا.
+يعمل Aspose.Slides for .NET على تبسيط عملية العمل مع عروض PowerPoint التقديمية، مما يسمح لك بتنفيذ مهام مثل استخراج مقاطع الفيديو من الشرائح بسهولة. باتباع هذا الدليل التفصيلي والاستفادة من مكتبة Aspose.Slides، يمكنك تحسين تطبيقات .NET الخاصة بك باستخدام ميزات PowerPoint القوية.
 
-## الأسئلة الشائعة
+## الأسئلة المتداولة (الأسئلة الشائعة)
 
-### كيف يمكنني الوصول إلى وثائق Aspose.Slides؟
+### ما هو Aspose.Slides لـ .NET؟
+Aspose.Slides for .NET هي مكتبة تتيح لتطبيقات .NET العمل مع عروض PowerPoint التقديمية، بما في ذلك إنشاء المحتوى وتحريره واستخراجه.
 
- يمكنك الرجوع إلى وثائق Aspose.Slides لـ .NET على[هنا](https://reference.aspose.com/slides/net/).
+### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ .NET؟
+ يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/slides/net/).
 
-### هل Aspose.Slides متاح للغات البرمجة الأخرى؟
+### هل Aspose.Slides for .NET متاح للتجربة المجانية؟
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 
-نعم، Aspose.Slides متاح للعديد من لغات البرمجة، بما في ذلك Java. يمكنك العثور على المكتبات المناسبة على موقع Aspose.
+### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
+ يمكنك طلب ترخيص مؤقت من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
 
-### هل يمكنني استخراج الصوت بنفس الطريقة؟
-
-لا، المثال المقدم مخصص لاستخراج مقاطع الفيديو. لاستخراج الصوت، ستحتاج إلى تعديل الكود للعمل مع الإطارات الصوتية.
-
-### هل هناك أي رسوم ترخيص لاستخدام Aspose.Slides؟
-
-نعم، Aspose.Slides هو منتج تجاري. يمكنك العثور على معلومات مفصلة حول الترخيص والتسعير على موقع Aspose.
-
-### كيف يمكنني الوصول إلى خصائص الفيديو المستخرج؟
-
- ال`EmbeddedVideo` الكائن الذي تم الحصول عليه من`IVideoFrame` يوفر إمكانية الوصول إلى خصائص مختلفة للفيديو، مثل المدة والدقة والمزيد.
+### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
+ يمكنك العثور على الدعم على[منتدى Aspose.Slides](https://forum.aspose.com/).

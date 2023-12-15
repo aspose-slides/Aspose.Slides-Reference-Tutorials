@@ -147,4 +147,4 @@ finally
 
 ### QuartileMethodType.Exclusive 是什么意思？
 
-这`QuartileMethodType.Exclusive`设置指定四分位数计算应使用排除方法完成。您可以根据您的数据和要求选择不同的四分位数计算方法。
+这`QuartileMethodType.Exclusive`设置指定应使用排除方法进行四分位数计算。您可以根据您的数据和要求选择不同的四分位数计算方法。

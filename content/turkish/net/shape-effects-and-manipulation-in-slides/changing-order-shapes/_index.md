@@ -44,7 +44,7 @@ IShapeCollection shapes = slide.Shapes;
 4.  Şekilleri Yeniden Sıralama:`Shapes.Reorder(int oldIndex, int newIndex)` Şekillerin sırasını değiştirme yöntemi. Şeklin eski dizinini ve istediğiniz yeni dizini belirtin.
 
 ```csharp
-// Şekilleri yeniden sıralama
+//Şekilleri yeniden sıralama
 shapes.Reorder(2, 0); // Dizin 2'deki şekli dizin 0'a taşı
 ```
 
@@ -61,7 +61,7 @@ Aspose.Slides for .NET, sunum tasarımınızı bir sonraki seviyeye taşıyacak 
 
 ### Katmanlama ve Örtüşme
 
-Şekillerin katmanlanmasını kontrol ederek gelişmiş görsel efektler elde edin. Kullan`ZOrderPosition` Bir şeklin z-sırasındaki konumunu tanımlama ve diğer şekillerin üstünde mi yoksa altında mı görüneceğini belirleme özelliği.
+ Şekillerin katmanlanmasını kontrol ederek gelişmiş görsel efektler elde edin. Kullan`ZOrderPosition` Bir şeklin z-sırasındaki konumunu tanımlama ve diğer şekillerin üstünde mi yoksa altında mı görüneceğini belirleme özelliği.
 
 ### Gruplama ve Grubu Çözme
 
@@ -93,7 +93,7 @@ Evet, Aspose.Slides her türlü karmaşık sunuma hitap ediyor. İster basit bir
 
 ### Bir slayttaki belirli şekillere nasıl erişirim?
 
- Slayttaki şekillere aşağıdaki düğmeyi kullanarak erişebilirsiniz:`IShapeCollection` arayüz. Bu arayüz, şekiller arasında yineleme yapmanıza, onlara dizine göre erişmenize ve hatta şekilleri özelliklerine göre aramanıza olanak tanır.
+Slayttaki şekillere aşağıdaki düğmeyi kullanarak erişebilirsiniz:`IShapeCollection` arayüz. Bu arayüz, şekiller arasında yineleme yapmanıza, onlara dizine göre erişmenize ve hatta şekilleri özelliklerine göre aramanıza olanak tanır.
 
 ### Yeni slayt oluşturma sürecini otomatikleştirebilir miyim?
 
@@ -105,4 +105,4 @@ Evet, Aspose.Slides, PPTX, PPT, ODP ve daha fazlasını içeren çok çeşitli s
 
 ## Çözüm
 
-Aspose.Slides for .NET'i kullanarak şekillerin sırasını değiştirme sanatında ustalaşarak sunumlarınızı yeni boyutlara taşıyın. Bu güçlü araç, hedef kitlenizi büyüleyen ve mesajınızı etkili bir şekilde ileten dinamik ve etkili sunumlar oluşturmanıza olanak tanır. İster tecrübeli bir geliştirici ister acemi olun, Aspose.Slides sunum vizyonlarınızı hayata geçirmek için ihtiyacınız olan esnekliği ve kontrolü sağlar.
+Aspose.Slides for .NET'i kullanarak şekillerin sırasını değiştirme sanatında ustalaşarak sunumlarınızı yeni boyutlara taşıyın. Bu güçlü araç, hedef kitlenizi büyüleyen ve mesajınızı etkili bir şekilde ileten dinamik ve etkili sunumlar oluşturmanıza olanak tanır. İster deneyimli bir geliştirici ister acemi olun, Aspose.Slides sunum vizyonlarınızı hayata geçirmek için ihtiyacınız olan esnekliği ve kontrolü sağlar.

@@ -45,7 +45,7 @@ Projenizi ayarladıktan sonra sunum dosyalarıyla çalışmaya başlayabilirsini
 Şimdi sürecin temel kısmı geliyor: sunumlardaki slaytları karşılaştırmak:
 
 1. Ortak ve Benzersiz Slaytları Belirleme:
-   Her iki sunumun slaytlarını yineleyebilir ve bunları karşılaştırarak ortak slaytları ve her sunuma özgü slaytları belirleyebilirsiniz:
+   Her iki sunumun slaytlarını yineleyebilir ve bunları karşılaştırarak ortak slaytları ve her sunuma özel slaytları belirleyebilirsiniz:
 
    ```csharp
    foreach (ISlide sourceSlide in sourcePresentation.Slides)

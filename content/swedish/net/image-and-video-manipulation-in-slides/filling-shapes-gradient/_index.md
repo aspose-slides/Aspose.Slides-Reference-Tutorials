@@ -89,7 +89,7 @@ gradientFill.GradientStops.Add(1, Color.Blue);
 
 ## Kompilera och köra projektet
 
-När du har lagt till Aspose.Slides-biblioteket till ditt projekt kan du börja skriva kod för att skapa och manipulera presentationsbilder. Se till att inkludera de nödvändiga namnrymden:
+När du har lagt till Aspose.Slides-biblioteket till ditt projekt kan du börja skriva kod för att skapa och manipulera presentationsbilder. Se till att inkludera nödvändiga namnutrymmen:
 
 ```csharp
 using Aspose.Slides;

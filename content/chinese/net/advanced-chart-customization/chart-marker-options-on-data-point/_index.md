@@ -1,232 +1,150 @@
 ---
-title: 数据点上的图表标记选项
+title: 在 Aspose.Slides .NET 中的数据点上使用图表标记选项
 linktitle: 数据点上的图表标记选项
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for .NET 增强数据可视化。逐步探索图表标记选项。
+description: 了解如何使用 Aspose.Slides for .NET 增强 PowerPoint 图表。使用图像自定义数据点标记。创建引人入胜的演示文稿。
 type: docs
 weight: 11
 url: /zh/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
-## 图表标记选项简介
+在处理演示和数据可视化时，Aspose.Slides for .NET 提供了广泛的强大功能来创建、自定义和操作图表。在本教程中，我们将探讨如何在数据点上使用图表标记选项来增强图表演示。本分步指南将引导您完成整个过程，从先决条件和导入命名空间开始，到将每个示例分解为多个步骤。
 
-图表标记选项是视觉增强功能，可应用于图表上的各个数据点。这些标记有助于突出显示特定的数据值，使观众更容易理解所呈现的信息。通过使用图表标记选项，您可以引起对关键数据点的注意并强调趋势或异常值。
+## 先决条件
 
-## 设置开发环境
+在我们深入研究在数据点上使用图表标记选项之前，请确保您具备以下先决条件：
 
-在我们深入使用 Aspose.Slides for .NET 使用图表标记选项之前，让我们确保我们拥有必要的工具。
+-  Aspose.Slides for .NET：确保您已安装 Aspose.Slides for .NET。您可以从[网站](https://releases.aspose.com/slides/net/).
 
-## 安装 Aspose.Slides for .NET
+- 示例演示文稿：在本教程中，我们将使用名为“Test.pptx”的示例演示文稿。您应该将此演示文稿放在您的文档目录中。
 
-首先，您需要在开发环境中安装 Aspose.Slides for .NET。您可以从以下网站下载该库：[下载 .NET 版 Aspose.Slides](https://releases.aspose.com/slides/net).
+现在，我们首先导入必要的命名空间。
 
-## 创建一个新项目
-
-安装 Aspose.Slides for .NET 后，在您首选的 .NET 开发环境中创建一个新项目。您可以使用 Visual Studio 或您选择的任何其他 IDE。
-
-## 加载和修改现有演示文稿
-
-要使用图表标记选项，我们需要一个带有图表的现有演示文稿。让我们首先加载现有演示文稿并访问包含图表的幻灯片。
-
-## 加载演示文件
+## 导入命名空间
 
 ```csharp
-//加载演示文稿
-using (Presentation presentation = new Presentation("sample.pptx"))
-{
-    //您用于演示文稿的代码位于此处
-}
+﻿using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## 使用图表访问幻灯片
+我们已经导入了所需的命名空间并初始化了我们的演示文稿。现在，让我们继续在数据点上使用图表标记选项。
 
-接下来，让我们确定包含我们要修改的图表的幻灯片。
+## 第 1 步：创建默认图表
 
 ```csharp
-//访问带有图表的幻灯片
-ISlide slide = presentation.Slides[0]; //将 0 替换为幻灯片索引
+
+//文档目录的路径。
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+
+ISlide slide = pres.Slides[0];
+
+//创建默认图表
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## 访问图表数据系列
+我们在幻灯片上的指定位置和大小处创建一个“LineWithMarkers”类型的默认图表。
 
-为了将标记选项应用于数据点，我们首先需要访问图表中的相关数据系列。
-
-## 识别数据系列
+## 第2步：获取默认图表数据工作表索引
 
 ```csharp
-//访问幻灯片上的图表
-IChart chart = slide.Shapes[0] as IChart;
-
-//访问第一个数据系列
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-IChartSeries dataSeries = chart.ChartData.Series[0];
+//获取默认图表数据工作表索引
+int defaultWorksheetIndex = 0;
 ```
 
-## 访问数据点
+在这里，我们获取默认图表数据工作表的索引。
 
-现在我们已经可以访问数据系列了，我们可以使用各个数据点。
+## 第 3 步：获取图表数据工作表
 
 ```csharp
-//访问各个数据点
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    //您处理数据点的代码位于此处
-}
+//获取图表数据工作表
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-## 应用标记选项
+我们获取图表数据工作簿来处理图表数据。
 
-现在让我们将标记选项应用到图表中的数据点。
-
-## 启用数据点标记
+## 步骤 4：修改图表系列
 
 ```csharp
-//启用数据点标记
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Circle; //您可以选择不同的标记类型
-    dataPoint.Marker.Symbol.Size = 10; //根据需要调整标记大小
-    dataPoint.Marker.Visible = true; //显示标记
-}
+//删除演示系列
+chart.ChartData.Series.Clear();
+
+//添加新系列
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-## 自定义标记外观
+在此步骤中，我们删除任何现有的演示系列并向图表添加一个名为“Series 1”的新系列。
 
-您还可以自定义标记的外观，使其更具视觉吸引力。
+## 第5步：设置数据点的图片填充
 
 ```csharp
-//自定义标记外观
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Diamond;
-    dataPoint.Marker.Symbol.Size = 12;
-    dataPoint.Marker.Symbol.Fill.SolidFillColor.Color = Color.Red;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.FillType = FillType.Solid;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+//设置标记的图片
+System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx1 = pres.Images.AddImage(img1);
+
+System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
+IPPImage imgx2 = pres.Images.AddImage(img2);
+
+//获取第一个图表系列
+IChartSeries series = chart.ChartData.Series[0];
+
+//添加带有图片填充的新数据点
+IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, (double)2.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, (double)3.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-## 向标记添加标签
+我们为数据点设置图片标记，允许您自定义每个数据点在图表上的显示方式。
 
-向标记添加数据标签可以为图表提供上下文和清晰度。
-
-## 显示数据标签
+## 步骤 6：更改图表系列标记大小
 
 ```csharp
-//显示数据标签
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.ShowCategoryName = true;
-    dataLabel.ShowValue = true;
-}
+//更改图表系列标记大小
+series.Marker.Size = 15;
 ```
 
-## 设置数据标签格式
+在这里，我们调整图表系列标记的大小，使其具有视觉吸引力。
 
-您可以根据自己的喜好设置数据标签的格式。
+## 第 7 步：保存演示文稿
 
 ```csharp
-//设置数据标签格式
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontBold = NullableBool.True;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontHeight = 14;
-}
+pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ```
 
-## 处理标记重叠
-
-如果标记重叠并导致视觉混乱，处理标记位置很重要。
-
-## 调整标记重叠
-
-```csharp
-//调整标记重叠
-chart.Placement = PlacementType.FreeFloating;
-chart.MarkerOverlap = -30; //根据需要调整重叠值
-```
-
-## 选择最佳标记位置
-
-```csharp
-//选择最佳标记位置
-chart.MarkerClustered = false;
-chart.MarkerSymbolSpacing = 2; //根据需要调整间距
-```
-
-## 保存并导出修改后的演示文稿
-
-对图表进行必要的修改后，您可以保存并导出修改后的演示文稿。
-
-## 保存为不同的格式
-
-```csharp
-//保存为不同格式
-presentation.Save("modified.pptx", SaveFormat.Pptx);
-presentation.Save("modified.pdf", SaveFormat.Pdf);
-```
-
-## 导出为 PDF 或图像
-
-```csharp
-//导出为 PDF 或图像
-using (FileStream stream = new FileStream("output.pdf", FileMode.Create))
-{
-    PdfOptions options = new PdfOptions();
-    presentation.Save(stream
-
-, SaveFormat.Pdf);
-}
-```
-
-## 现实世界的用例
-
-在分析现实世界的数据场景时，图表标记选项非常宝贵。
-
-## 销售业绩分析
-
-通过使用标记选项，销售分析师可以查明特殊的销售月份并可视化一段时间内的趋势。
-
-## 股市走势
-
-投资者可以利用标记期权来识别重大的股价波动并做出明智的决策。
-
-## 有效数据可视化的最佳实践
-
-创建图表时，请记住这些最佳实践。
-
-## 保持图表简单明了
-
-简单可以增强理解。避免使用过多标记使图表过度拥挤。
-
-## 使用适当的图表类型
-
-选择能够有效传达数据的图表类型。并非所有数据集都需要标记。
+最后，我们使用新的图表设置保存演示文稿。
 
 ## 结论
 
-在本文中，我们使用 Aspose.Slides for .NET 深入研究了图表标记选项的世界。我们探索了在图表内的数据点上启用、自定义和管理标记的分步过程。通过遵循本指南中描述的技术，您可以提高数据可视化技能并创建引起观众共鸣的引人注目的演示文稿。
+Aspose.Slides for .NET 使您能够使用各种自定义选项创建令人惊叹的图表演示文稿。在本教程中，我们重点关注在数据点上使用图表标记选项来增强数据的视觉表示。借助 Aspose.Slides for .NET，您可以将演示文稿提升到一个新的水平，使其更具吸引力和信息量。
 
-## 常见问题解答
+如果您对 Aspose.Slides for .NET 有任何疑问或需要帮助，请随时访问[Aspose.Slides 文档](https://reference.aspose.com/slides/net/)或联系[Aspose社区](https://forum.aspose.com/)为了支持。
 
-### 如何下载 .NET 版 Aspose.Slides？
+## 常见问题 (FAQ)
 
-您可以从发布页面下载 Aspose.Slides for .NET：[下载 .NET 版 Aspose.Slides](https://releases.aspose.com/slides/net).
+### 我可以使用自定义图像作为 Aspose.Slides for .NET 中数据点的标记吗？
+是的，您可以使用自定义图像作为 Aspose.Slides for .NET 中数据点的标记，如本教程中所示。
 
-### 我可以自定义标记的外观吗？
+### 如何更改 Aspose.Slides for .NET 中的图表类型？
+您可以通过指定不同的图表类型来更改图表类型`ChartType`创建图表时，例如“条形图”、“饼图”或“面积图”。
 
-绝对地！您可以选择各种标记类型并自定义其大小、颜色和形状。
+### Aspose.Slides for .NET 与最新版本的 PowerPoint 兼容吗？
+Aspose.Slides for .NET 设计用于处理各种 PowerPoint 格式，并定期更新以保持与最新 PowerPoint 版本的兼容性。
 
-### 有没有办法处理标记重叠？
+### 在哪里可以找到有关 Aspose.Slides for .NET 的更多教程和资源？
+您可以在以下位置探索其他教程和资源[Aspose.Slides 文档](https://reference.aspose.com/slides/net/).
 
-是的，您可以调整标记重叠设置以防止图表中出现视觉混乱。
-
-### 我可以将修改后的演示文稿保存为哪些格式？
-
-Aspose.Slides for .NET 支持以各种格式保存演示文稿，包括 PPTX 和 PDF。
-
-### 如何向标记添加数据标签？
-
-您可以轻松地将数据标签添加到标记并根据您的喜好设置它们的格式。
+### 是否有 Aspose.Slides for .NET 的试用版？
+是的，您可以通过下载免费试用版来尝试 Aspose.Slides for .NET[这里](https://releases.aspose.com/).

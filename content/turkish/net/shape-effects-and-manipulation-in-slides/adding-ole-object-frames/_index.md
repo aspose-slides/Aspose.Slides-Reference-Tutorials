@@ -10,7 +10,7 @@ url: /tr/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 
 ## giriiş
 
-Sunumların dinamik dünyasında görsel öğeler, bilginin etkili bir şekilde aktarılmasında önemli bir rol oynamaktadır. OLE (Nesne Bağlama ve Gömme) nesne çerçeveleri, harici verileri sorunsuz bir şekilde birleştirmek ve slaytlarınızın görsel çekiciliğini geliştirmek için heyecan verici bir fırsat sunar. Bu kapsamlı kılavuzda, Aspose.Slides for .NET kullanarak OLE nesne çerçevelerini sunum slaytlarınıza ekleme sürecinde size adım adım yol göstereceğiz. İster deneyimli bir sunumcu olun ister yeni başlayan biri olun, bu makale sizi büyüleyici ve bilgilendirici sunumlar oluşturmanız için gereken bilgi ve uzmanlıkla donatacaktır.
+Sunumların dinamik dünyasında görsel öğeler, bilginin etkili bir şekilde aktarılmasında önemli bir rol oynar. OLE (Nesne Bağlama ve Gömme) nesne çerçeveleri, harici verileri sorunsuz bir şekilde birleştirmek ve slaytlarınızın görsel çekiciliğini geliştirmek için heyecan verici bir fırsat sunar. Bu kapsamlı kılavuzda, Aspose.Slides for .NET kullanarak OLE nesne çerçevelerini sunum slaytlarınıza ekleme sürecinde size adım adım yol göstereceğiz. İster deneyimli bir sunumcu olun ister yeni başlayan biri olun, bu makale sizi büyüleyici ve bilgilendirici sunumlar oluşturmanız için gereken bilgi ve uzmanlıkla donatacaktır.
 
 ## OLE Nesne Çerçeveleri Ekleme: Adım Adım Kılavuz
 
@@ -80,7 +80,7 @@ Kesinlikle. OLE nesne çerçeveleri farklı sistemler arasındaki uyumluluğu ko
 
 #### Aspose.Slides yeni başlayanlar için uygun mu?
 
-Evet, Aspose.Slides, kullanıcı dostu bir arayüz ve kapsamlı belgeler sunarak hem yeni başlayanlar hem de deneyimli geliştiriciler için erişilebilir hale geliyor.
+Evet, Aspose.Slides kullanıcı dostu bir arayüz ve kapsamlı belgeler sunarak hem yeni başlayanların hem de deneyimli geliştiricilerin erişebilmesini sağlıyor.
 
 #### Katıştırılmış nesneyi nasıl güncellerim?
 

@@ -20,7 +20,7 @@ Slayt baskısı, sunum hazırlığının önemli bir unsurudur ve dijital içeri
 
 Oluşturma, slaytlarınızı görsel olarak çekici dijital varlıklara dönüştürme sanatıdır. İster çevrimiçi paylaşım ister arşivleme amaçlı olsun, oluşturmayı anlamak çok önemlidir. Bu bölümde sunumlarınızdan nasıl yüksek kaliteli görseller ve PDF'ler oluşturacağınızı inceleyeceğiz. Görüntü çözünürlüğünü optimize etme, yazı tiplerini kullanma ve doğru renk gösterimini sağlama konusunda bilgi edineceksiniz. Bu eğitimin sonunda sunum içeriğinize yakışan çarpıcı görseller oluşturma bilgisine sahip olacaksınız.
 
-## Slaytlar Eğitimlerinde Yazdırma ve İşleme
+## Slaytlar Eğitimlerinde Yazdırma ve Oluşturma
 ### [Aspose.Slides'ta Sunumları Varsayılan Yazıcıyla Yazdırma](./printing-with-default-printer/)
 Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını programlı olarak nasıl yazdıracağınızı öğrenin. Sunumları varsayılan yazıcıda zahmetsizce yazdırmak için kaynak kodunun tamamını içeren bu adım adım kılavuzu izleyin.
 ### [Aspose.Slides'ta Sunumların Baskı Çıktılarının Önizlenmesi](./presentation-print-preview/)

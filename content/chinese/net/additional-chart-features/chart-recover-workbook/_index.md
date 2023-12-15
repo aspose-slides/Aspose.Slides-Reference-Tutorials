@@ -1,125 +1,103 @@
 ---
-title: 从图表恢复工作簿
+title: 如何使用 Aspose.Slides .NET 从图表中恢复工作簿
 linktitle: 从图表恢复工作簿
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for .NET 从图表中恢复工作簿。以编程方式提取图表数据并创建 Excel 工作簿。
+description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的图表恢复工作簿。按照我们的分步指南有效地提取数据。
 type: docs
 weight: 12
 url: /zh/net/additional-chart-features/chart-recover-workbook/
 ---
 
-## 介绍
-
-意外可能会发生，您可能会发现自己需要从图表中恢复工作簿。 Aspose.Slides for .NET 在这种情况下可以发挥作用。这个功能强大的库允许您从演示文稿中的图表中提取数据并将其转换为新的工作簿。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 从图表中恢复工作簿的过程。
+如果您希望在 .NET 中使用 PowerPoint 演示文稿，Aspose.Slides for .NET 是一个功能强大的库，可以帮助您实现目标。在本教程中，我们将指导您完成使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的图表恢复工作簿的过程。当您需要从演示文稿中的图表中提取数据时，此强大的功能非常有用。我们将把该过程分解为易于遵循的步骤，确保您清楚地了解如何完成此任务。
 
 ## 先决条件
 
-在开始之前，请确保您已具备以下条件：
+在我们开始之前，请确保您具备以下先决条件：
 
-- Visual Studio：下载并安装 Visual Studio，这对于 .NET 开发至关重要。
--  Aspose.Slides for .NET：您可以从以下位置下载该库：[这里](https://downloads.aspose.com/slides/net).
+### 1..NET 的 Aspose.Slides
 
-## 第 1 步：安装 Aspose.Slides for .NET
+您应该在 .NET 开发环境中安装并设置 Aspose.Slides for .NET。如果尚未安装，您可以从网站下载并安装它。
 
-如果您尚未安装，请下载并安装 Aspose.Slides for .NET。该库提供了以编程方式处理 PowerPoint 演示文稿的全面功能。
+[下载 .NET 版 Aspose.Slides](https://releases.aspose.com/slides/net/)
 
-## 第 2 步：加载演示文稿
+### 2. PowerPoint 演示
 
-首先，在 Visual Studio 中创建一个新的 C# 项目。添加对必要的 Aspose.Slides 程序集的引用。加载包含要从中恢复数据的图表的 PowerPoint 演示文稿。
+您需要一个包含要从中恢复工作簿的图表的 PowerPoint 演示文稿。确保您已准备好演示文件。
+
+## 导入必要的命名空间
+
+在此步骤中，您需要导入所需的命名空间，以便有效地使用 Aspose.Slides for .NET。
+
+### 第 1 步：导入命名空间
 
 ```csharp
-//加载演示文稿
-Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## 第 3 步：识别图表
+现在，让我们将从 PowerPoint 演示文稿中的图表恢复工作簿的过程分解为多个步骤。
 
-确定要从中恢复数据的幻灯片和图表。您可以使用以下方式访问幻灯片`presentation.Slides`使用集合和图表`slide.Shapes`收藏。
+## 第 1 步：定义文档目录
 
 ```csharp
-//获取包含图表的幻灯片
-ISlide slide = presentation.Slides[0];
+//文档目录的路径。
+string dataDir = "Your Document Directory";
+```
 
-//获取图表
-IChart chart = null;
-foreach (IShape shape in slide.Shapes)
+在此步骤中，您需要指定 PowerPoint 演示文稿所在的目录。
+
+## 步骤 2：加载演示文稿并启用工作簿恢复
+
+```csharp
+string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "RecoveredWorkbook.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
 {
-    if (shape is IChart)
-    {
-        chart = (IChart)shape;
-        break;
-    }
+    //您的图表恢复代码位于此处
+    pres.Save(outPptxFile, SaveFormat.Pptx);
 }
 ```
 
-## 第 4 步：从图表中提取数据
+在此步骤中，您将从指定文件加载 PowerPoint 演示文稿，并启用从图表缓存恢复工作簿。这`LoadOptions`对象用于此目的。
 
-使用 Aspose.Slides 的 API 从图表中提取数据。您可以从图表系列和类别中检索值。
-
-```csharp
-//提取图表数据
-IChartData chartData = chart.ChartData;
-```
-
-## 第 5 步：创建新工作簿
-
-使用 EPPlus 或 ClosedXML 等库创建新的 Excel 工作簿。
+## 第 3 步：访问和使用图表数据
 
 ```csharp
-//创建新的 Excel 工作簿
-using (var excelPackage = new ExcelPackage())
-{
-    var worksheet = excelPackage.Workbook.Worksheets.Add("Chart Data");
-    //在此处添加代码以填充工作表标题
-}
+IChart chart = pres.Slides[0].Shapes[0] as IChart;
+IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 ```
 
-## 第 6 步：使用图表数据填充工作簿
-
-使用从图表中提取的数据填充 Excel 工作表。
-
-```csharp
-//使用图表数据填充 Excel 工作表
-int rowIndex = 2;
-foreach (var series in chartData.Series)
-{
-    worksheet.Cells[rowIndex, 1].Value = series.Name;
-    //在此处添加代码以使用系列数据填充工作表
-    rowIndex++;
-}
-```
-
-## 第 7 步：保存工作簿
-
-保存包含恢复的图表数据的 Excel 工作簿。
-
-```csharp
-//保存 Excel 工作簿
-excelPackage.SaveAs(new FileInfo("recovered-workbook.xlsx"));
-```
+在此步骤中，您将访问第一张幻灯片上的图表并获取图表数据工作簿。您现在可以根据需要使用工作簿数据。
 
 ## 结论
 
-使用 Aspose.Slides for .NET 可以轻松地从图表中恢复工作簿。通过执行以下步骤，您可以以编程方式从 PowerPoint 演示文稿中的图表中提取数据，并使用恢复的数据创建新的 Excel 工作簿。当发生事故并且需要抢救数据时，此过程可以成为救星。
+在本教程中，我们演示了如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的图表恢复工作簿。通过遵循本指南中概述的步骤，您可以有效地从演示文稿中提取数据并利用它来满足您的特定需求。
 
-## 常见问题解答
+如果您有任何疑问或遇到任何问题，请随时向 Aspose.Slides 社区寻求帮助[Aspose.Slides 论坛](https://forum.aspose.com/)。他们将在您使用 Aspose.Slides for .NET 的旅程中为您提供帮助。
 
-### 如何安装 Aspose.Slides for .NET？
+## 经常问的问题
 
-您可以从以下位置下载 Aspose.Slides for .NET[这里](https://downloads.aspose.com/slides/net).
+### 1. 什么是 Aspose.Slides for .NET？
 
-### 我可以从不同类型的图表中恢复数据吗？
+Aspose.Slides for .NET 是一个功能强大的 .NET 库，用于处理 Microsoft PowerPoint 文件，允许您以编程方式创建、操作和转换演示文稿。
 
-是的，Aspose.Slides for .NET 支持各种图表类型，包括条形图、折线图、饼图等。
+### 2. 我可以在购买前试用 Aspose.Slides for .NET 吗？
 
-### Aspose.Slides for .NET 适合专业用途吗？
+是的，您可以免费试用 Aspose.Slides for .NET 以评估其特性和功能。[在这里获取免费试用](https://releases.aspose.com/).
 
-绝对地！ Aspose.Slides for .NET 是一个强大的库，开发人员可以使用它来高效地处理 PowerPoint 演示文稿。
+### 3. 在哪里可以找到 Aspose.Slides for .NET 的文档？
 
-### 使用 Aspose.Slides for .NET 有任何许可要求吗？
+您可以访问 Aspose.Slides for .NET 的文档[这里](https://reference.aspose.com/slides/net/)。它包含详细信息、示例和 API 参考。
 
-是的，Aspose.Slides for .NET 需要有效的商业用途许可证。您可以在以下位置找到许可详细信息[阿斯普斯网站](https://purchase.aspose.com).
+### 4. 如何购买 Aspose.Slides for .NET 的许可证？
 
-### 我可以自定义恢复的 Excel 工作簿的外观吗？
+要购买 Aspose.Slides for .NET 的许可证，请访问 Aspose 网站并使用以下链接：[购买 .NET 版 Aspose.Slides](https://purchase.aspose.com/buy).
 
-是的，您可以使用 EPPlus 或 ClosedXML 等库自定义 Excel 工作簿的外观和格式。
+### 5. SEO优化的最大标题长度是多少？
+
+对于 SEO 优化，建议将标题控制在 60 个字符以下，以确保其在搜索引擎结果中正确显示。

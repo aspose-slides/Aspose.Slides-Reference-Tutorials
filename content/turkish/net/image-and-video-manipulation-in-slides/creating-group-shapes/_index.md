@@ -10,7 +10,7 @@ url: /tr/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 
 ## Aspose.Slides for .NET'e Giriş
 
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarını programlı olarak değiştirmelerine olanak tanıyan kapsamlı ve zengin özelliklere sahip bir kitaplıktır. Sunum dosyalarını oluşturmak, değiştirmek veya dönüştürmek istiyorsanız Aspose.Slides, süreci basitleştirmek için çok çeşitli araçlar ve işlevler sunar.
+Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarını programlı olarak düzenlemesine olanak tanıyan kapsamlı ve zengin özelliklere sahip bir kitaplıktır. Sunum dosyalarını oluşturmak, değiştirmek veya dönüştürmek istiyorsanız Aspose.Slides, süreci basitleştirmek için çok çeşitli araçlar ve işlevler sunar.
 
 ## Önkoşullar
 
@@ -113,7 +113,7 @@ Bu eğitimde Aspose.Slides for .NET kullanarak sunum slaytlarında grup şekille
 
 ### Aspose.Slides for .NET'i nasıl yüklerim?
 
- Aspose.Slides kütüphanesini sağlanan bağlantıdan indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net/). İndirdikten sonra NuGet paketlerini kullanarak projenize ekleyebilirsiniz.
+Aspose.Slides kütüphanesini sağlanan bağlantıdan indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net/). İndirdikten sonra NuGet paketlerini kullanarak projenize ekleyebilirsiniz.
 
 ### Gruplandırılmış şekillere farklı dönüşümler uygulayabilir miyim?
 

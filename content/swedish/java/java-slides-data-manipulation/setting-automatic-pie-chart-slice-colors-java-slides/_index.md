@@ -168,7 +168,7 @@ Du har framgångsrikt skapat ett cirkeldiagram i en PowerPoint-presentation med 
  För att anpassa färgerna på enskilda skivor i cirkeldiagrammet kan du använda`getAutomaticSeriesColors`metod för att hämta standardfärgschemat och sedan ändra färgerna efter behov. Här är ett exempel:
 
 ```java
-// Få standardfärgschemat
+// Hämta standardfärgschemat
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Ändra färgerna efter behov

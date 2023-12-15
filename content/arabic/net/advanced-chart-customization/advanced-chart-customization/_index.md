@@ -2,168 +2,305 @@
 title: تخصيص الرسم البياني المتقدم في Aspose.Slides
 linktitle: تخصيص الرسم البياني المتقدم في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تخصيص المخططات باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع الكود المصدري لمرئيات العرض التقديمي المتقدمة.
+description: تعرف على التخصيص المتقدم للمخططات في Aspose.Slides لـ .NET. قم بإنشاء مخططات جذابة بصريًا مع إرشادات خطوة بخطوة.
 type: docs
 weight: 10
 url: /ar/net/advanced-chart-customization/advanced-chart-customization/
 ---
 
-## مقدمة إلى Aspose.Slides وتخصيص المخططات
+يعد إنشاء مخططات جذابة وغنية بالمعلومات جزءًا أساسيًا من عرض البيانات في العديد من التطبيقات. يوفر Aspose.Slides for .NET أدوات قوية لتخصيص المخططات، مما يسمح لك بضبط كل جانب من جوانب المخططات الخاصة بك. في هذا البرنامج التعليمي، سنستكشف تقنيات تخصيص المخططات المتقدمة باستخدام Aspose.Slides لـ .NET.
 
-Aspose.Slides هي مكتبة .NET قوية تمكن المطورين من إنشاء عروض PowerPoint التقديمية ومعالجتها وإدارتها برمجيًا. عندما يتعلق الأمر بتخصيص المخطط، يوفر Aspose.Slides مجموعة من الميزات التي تسمح لك بتخصيص مخططاتك لتوصيل رسالة بياناتك بشكل فعال.
+## المتطلبات الأساسية
 
-## إعداد بيئة التطوير الخاصة بك
+قبل الغوص في التخصيص المتقدم للمخططات باستخدام Aspose.Slides for .NET، تأكد من توفر المتطلبات الأساسية التالية:
 
-قبل أن نتعمق في تخصيص المخطط، فلنقم بإعداد بيئة التطوير الخاصة بنا. اتبع الخطوات التالية:
+1. Aspose.Slides لمكتبة .NET: تحتاج إلى تثبيت مكتبة Aspose.Slides وتكوينها بشكل صحيح في مشروع .NET الخاص بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
 
-1.  تنزيل Aspose.Slides لـ .NET: يمكنك تنزيل المكتبة من[هنا](https://releases.aspose.com/slides/net).
-   
-2.  تثبيت Aspose.Slides: بعد التنزيل، قم بتثبيت Aspose.Slides باتباع الوثائق المتوفرة[هنا](https://docs.aspose.com/slides/net/installation/).
+2. بيئة تطوير .NET: يجب أن يكون لديك بيئة تطوير .NET، بما في ذلك Visual Studio أو أي بيئة تطوير متكاملة (IDE) أخرى من اختيارك.
 
-3. إنشاء مشروع جديد: قم بتشغيل Visual Studio وقم بإنشاء مشروع .NET جديد.
+3. المعرفة الأساسية بـ C#: الإلمام بلغة البرمجة C# سيكون مفيدًا، حيث سنقوم بكتابة كود C# للعمل مع Aspose.Slides.
 
-4. إضافة مرجع: قم بإضافة مرجع إلى Aspose.Slides في مشروعك.
+الآن، دعنا نقسم التخصيص المتقدم للمخطط إلى خطوات متعددة لإرشادك خلال العملية.
 
-## إنشاء مخطط أساسي
+## الخطوة 1: إنشاء عرض تقديمي
 
-لنبدأ بإنشاء مخطط أساسي في شريحة العرض التقديمي. وإليك كيف يمكنك القيام بذلك:
+أولاً، قم بإنشاء عرض تقديمي جديد باستخدام Aspose.Slides.
 
 ```csharp
-using Aspose.Slides;
-using Aspose.Slides.Charts;
+// المسار إلى دليل المستندات.
+string dataDir = "Your Document Directory";
 
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddEmptySlide();
+// قم بإنشاء الدليل إذا لم يكن موجودًا بالفعل.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
 
-//أضف مخططًا إلى الشريحة
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 300);
+// تجسيد العرض التقديمي
+Presentation pres = new Presentation();
+```
 
-// أضف بعض نماذج البيانات إلى المخطط
-chart.ChartData.Series.Add(fact.GetCell(0, 1, 1, "Series 1"), chart.ChartData.Categories);
-chart.ChartData.Series[0].DataPoints.AddDataPointForBarSeries(fact.GetCell(0, 1, 2, 20));
-chart.ChartData.Series[0].DataPoints.AddDataPointForBarSeries(fact.GetCell(0, 1, 3, 30));
+في هذه الخطوة، نبدأ عرضًا تقديميًا جديدًا سيحمل مخططنا.
+
+## الخطوة 2: الوصول إلى الشريحة الأولى
+
+بعد ذلك، قم بالوصول إلى الشريحة الأولى في العرض التقديمي حيث تريد إضافة المخطط.
+
+```csharp
+// الوصول إلى الشريحة الأولى
+ISlide slide = pres.Slides[0];
+```
+
+يتيح لك مقتطف الكود هذا العمل مع الشريحة الأولى في العرض التقديمي.
+
+## الخطوة 3: إضافة نموذج للمخطط
+
+الآن، دعونا نضيف نموذجًا للمخطط إلى الشريحة. في هذا المثال، سنقوم بإنشاء مخطط خطي باستخدام العلامات.
+
+```csharp
+// إضافة نموذج الرسم البياني
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
+```
+
+هنا نحدد نوع المخطط (LineWithMarkers) وموضعه وأبعاده على الشريحة.
+
+## الخطوة 4: تحديد عنوان المخطط
+
+لنقم بتعيين عنوان للمخطط لتوفير السياق.
+
+```csharp
+// تحديد عنوان الرسم البياني
+chart.HasTitle = true;
+chart.ChartTitle.AddTextFrameForOverriding("");
+IPortion chartTitle = chart.ChartTitle.TextFrameForOverriding.Paragraphs[0].Portions[0];
+chartTitle.Text = "Sample Chart";
+chartTitle.PortionFormat.FillFormat.FillType = FillType.Solid;
+chartTitle.PortionFormat.FillFormat.SolidFillColor.Color = Color.Gray;
+chartTitle.PortionFormat.FontHeight = 20;
+chartTitle.PortionFormat.FontBold = NullableBool.True;
+chartTitle.PortionFormat.FontItalic = NullableBool.True;
+```
+
+يقوم هذا الرمز بتعيين عنوان للمخطط، مع تحديد النص والمظهر ونمط الخط.
+
+## الخطوة 5: تخصيص خطوط الشبكة الرئيسية
+
+الآن، دعونا نخصص خطوط الشبكة الرئيسية لمحور القيمة.
+
+```csharp
+// ضبط تنسيق خطوط الشبكة الرئيسية لمحور القيمة
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Blue;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.Width = 5;
+chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.DashStyle = LineDashStyle.DashDot;
+```
+
+تقوم هذه الخطوة بتكوين مظهر خطوط الشبكة الرئيسية على محور القيمة.
+
+## الخطوة 6: تخصيص خطوط الشبكة الصغيرة
+
+وبالمثل، يمكننا تخصيص خطوط الشبكة الثانوية لمحور القيمة.
+
+```csharp
+// ضبط تنسيق خطوط الشبكة الثانوية لمحور القيمة
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Red;
+chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.Width = 3;
+```
+
+يضبط هذا الرمز مظهر خطوط الشبكة الثانوية على محور القيمة.
+
+## الخطوة 7: تحديد تنسيق رقم محور القيمة
+
+تخصيص تنسيق الأرقام لمحور القيمة.
+
+```csharp
+// تحديد تنسيق رقم محور القيمة
+chart.Axes.VerticalAxis.IsNumberFormatLinkedToSource = false;
+chart.Axes.VerticalAxis.DisplayUnit = DisplayUnitType.Thousands;
+chart.Axes.VerticalAxis.NumberFormat = "0.0%";
+```
+
+تتيح لك هذه الخطوة تنسيق الأرقام المعروضة على محور القيمة.
+
+## الخطوة 8: تعيين القيم القصوى والدنيا للمخطط
+
+تحديد الحد الأقصى والحد الأدنى للقيم للمخطط.
+
+```csharp
+// تحديد الحد الأقصى للرسم البياني والحد الأدنى للقيم
+chart.Axes.VerticalAxis.IsAutomaticMajorUnit = false;
+chart.Axes.VerticalAxis.IsAutomaticMaxValue = false;
+chart.Axes.VerticalAxis.IsAutomaticMinorUnit = false;
+chart.Axes.VerticalAxis.IsAutomaticMinValue = false;
+
+chart.Axes.VerticalAxis.MaxValue = 15f;
+chart.Axes.VerticalAxis.MinValue = -2f;
+chart.Axes.VerticalAxis.MinorUnit = 0.5f;
+chart.Axes.VerticalAxis.MajorUnit = 2.0f;
+```
+
+هنا، يمكنك تحديد نطاق القيم التي يجب أن يعرضها محور المخطط.
+
+## الخطوة 9: تخصيص خصائص نص محور القيمة
+
+يمكنك أيضًا تخصيص خصائص النص لمحور القيمة.
+
+```csharp
+// ضبط خصائص نص محور القيمة
+IChartPortionFormat txtVal = chart.Axes.VerticalAxis.TextFormat.PortionFormat;
+txtVal.FontBold = NullableBool.True;
+txtVal.FontHeight = 16;
+txtVal.FontItalic = NullableBool.True;
+txtVal.FillFormat.FillType = FillType.Solid;
+txtVal.FillFormat.SolidFillColor.Color = Color.DarkGreen;
+txtVal.LatinFont = new FontData("Times New Roman");
+```
+
+يسمح لك هذا الرمز بضبط نمط الخط ومظهر تسميات محور القيمة.
+
+## الخطوة 10: إضافة عنوان محور القيمة
+
+إذا كان المخطط الخاص بك يتطلب عنوانًا لمحور القيمة، فيمكنك إضافته بهذه الخطوة.
+
+```csharp
+// تحديد عنوان محور القيمة
+chart.Axes.VerticalAxis.HasTitle = true;
+chart.Axes.VerticalAxis.Title.AddTextFrameForOverriding("");
+IPortion valtitle = chart.Axes.VerticalAxis.Title.TextFrameForOverriding.Paragraphs[0].Portions[0];
+valtitle.Text = "Primary Axis";
+valtitle.PortionFormat.FillFormat.FillType = FillType.Solid;
+valtitle.PortionFormat.FillFormat.SolidFillColor.Color = Color.Gray;
+valtitle.PortionFormat.FontHeight = 20;
+valtitle.PortionFormat.FontBold = NullableBool.True;
+valtitle.PortionFormat.FontItalic = NullableBool.True;
+```
+
+في هذه الخطوة، يمكنك تعيين عنوان لمحور القيمة.
+
+## الخطوة 11: تخصيص خطوط الشبكة الرئيسية لمحور الفئة
+
+الآن، دعونا نركز على خطوط الشبكة الرئيسية لمحور الفئة.
+
+```csharp
+// ضبط تنسيق خطوط الشبكة الرئيسية لمحور الفئة
+chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes
+
+.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
+chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
+```
+
+يقوم هذا الرمز بتكوين مظهر خطوط الشبكة الرئيسية على محور الفئة.
+
+## الخطوة 12: تخصيص خطوط الشبكة الصغيرة لمحور الفئة
+
+كما هو الحال مع محور القيمة، يمكنك تخصيص خطوط الشبكة الثانوية لمحور الفئة.
+
+```csharp
+//ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
+chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
+```
+
+هنا، يمكنك ضبط مظهر خطوط الشبكة الثانوية على محور الفئة.
+
+## الخطوة 13: تخصيص خصائص نص محور الفئة
+
+قم بتخصيص خصائص النص لتسميات محاور الفئة.
+
+```csharp
+// ضبط خصائص نص محور الفئة
+IChartPortionFormat txtCat = chart.Axes.HorizontalAxis.TextFormat.PortionFormat;
+txtCat.FontBold = NullableBool.True;
+txtCat.FontHeight = 16;
+txtCat.FontItalic = NullableBool.True;
+txtCat.FillFormat.FillType = FillType.Solid;
+txtCat.FillFormat.SolidFillColor.Color = Color.Blue;
+txtCat.LatinFont = new FontData("Arial");
+```
+
+يتيح لك هذا الرمز ضبط نمط الخط ومظهر تسميات محور الفئة.
+
+## الخطوة 14: إضافة عنوان محور الفئة
+
+يمكنك أيضًا إضافة عنوان إلى محور الفئة إذا لزم الأمر.
+
+```csharp
+// تحديد عنوان الفئة
+chart.Axes.HorizontalAxis.HasTitle = true;
+chart.Axes.HorizontalAxis.Title.AddTextFrameForOverriding("");
+
+IPortion catTitle = chart.Axes.HorizontalAxis.Title.TextFrameForOverriding.Paragraphs[0].Portions[0];
+catTitle.Text = "Sample Category";
+catTitle.PortionFormat.FillFormat.FillType = FillType.Solid;
+catTitle.PortionFormat.FillFormat.SolidFillColor.Color = Color.Gray;
+catTitle.PortionFormat.FontHeight = 20;
+catTitle.PortionFormat.FontBold = NullableBool.True;
+catTitle.PortionFormat.FontItalic = NullableBool.True;
+```
+
+في هذه الخطوة، يمكنك تعيين عنوان لمحور الفئة.
+
+## الخطوة 15: تخصيصات إضافية
+
+يمكنك استكشاف المزيد من التخصيصات، مثل وسائل الإيضاح وألوان الجدار الخلفي للمخطط والأرضية ومنطقة قطعة الأرض. تسمح لك هذه التخصيصات بتحسين المظهر المرئي للمخطط الخاص بك.
+
+```csharp
+// تخصيصات إضافية (اختياري)
+
+// ضبط خصائص نص وسائل الإيضاح
+IChartPortionFormat txtleg = chart.Legend.TextFormat.PortionFormat;
+txtleg.FontBold = NullableBool.True;
+txtleg.FontHeight = 16;
+txtleg.FontItalic = NullableBool.True;
+txtleg.FillFormat.FillType = FillType.Solid;
+txtleg.FillFormat.SolidFillColor.Color = Color.DarkRed;
+
+// قم بتعيين إظهار وسائل إيضاح المخطط دون تداخل المخطط
+chart.Legend.Overlay = true;
+
+// رسم السلسلة الأولى على محور القيمة الثانوية (إذا لزم الأمر)
+// Chart.ChartData.Series[0].PlotOnSecondAxis = true;
+
+// تحديد لون الجدار الخلفي للمخطط
+chart.BackWall.Thickness = 1;
+chart.BackWall.Format.Fill.FillType = FillType.Solid;
+chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
+
+// تحديد لون أرضية الرسم البياني
+chart.Floor.Format.Fill.FillType = FillType.Solid;
+chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
+
+// تحديد لون منطقة الأرض
+chart.PlotArea.Format.Fill.FillType = FillType.Solid;
+chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 
 // احفظ العرض التقديمي
-presentation.Save("BasicChart.pptx", SaveFormat.Pptx);
+pres.Save(dataDir + "FormattedChart_out.pptx", SaveFormat.Pptx);
 ```
 
-## تخصيص بيانات الرسم البياني
-
-لتخصيص بيانات المخطط، يمكنك تعديل القيم والتسميات والفئات. فيما يلي مثال لتغيير بيانات المخطط:
-
-```csharp
-// الوصول إلى بيانات الرسم البياني
-IChartData chartData = chart.ChartData;
-
-// تعديل قيم البيانات
-chartData.Series[0].DataPoints[0].Value.Data = 50;
-chartData.Series[0].DataPoints[1].Value.Data = 70;
-
-// تغيير تسميات البيانات
-chartData.Categories[0].Label.Value = "Q1";
-chartData.Categories[1].Label.Value = "Q2";
-```
-
-## تطبيق أنماط الرسم البياني
-
-يمكنك تحسين المظهر المرئي للمخططات الخاصة بك عن طريق تطبيق أنماط مختلفة:
-
-```csharp
-// الوصول إلى سلسلة الرسم البياني
-IChartSeries series = chart.Series[0];
-
-// تطبيق اللون على السلسلة
-series.Format.Fill.FillType = FillType.Solid;
-series.Format.Fill.SolidFillColor.Color = Color.Blue;
-```
-
-## إضافة خطوط الاتجاه وأشرطة الخطأ
-
-توفر خطوط الاتجاه وأشرطة الأخطاء رؤى إضافية حول بياناتك:
-
-```csharp
-// أضف خط اتجاه خطي إلى السلسلة
-ITrendline trendline = series.TrendLines.Add(TrendlineType.Linear);
-trendline.DisplayEquation = true;
-
-// إضافة أشرطة خطأ مخصصة
-series.ErrorBarsCustom = true;
-series.ErrorBarXFormat.Format.Line.Color.Color = Color.Red;
-```
-
-## العمل مع المحاور وخطوط الشبكة
-
-يمكنك التحكم في خصائص المحور وخطوط الشبكة:
-
-```csharp
-// الوصول إلى محاور الرسم البياني
-IAxisCategory categoryAxis = chart.Axes.HorizontalAxis.CategoryAxis;
-IAxisValue valueAxis = chart.Axes.VerticalAxis.ValueAxis;
-
-// تخصيص تسميات المحور
-categoryAxis.IsAutomaticMajorUnit = false;
-categoryAxis.MajorUnit = 1;
-
-// إظهار خطوط الشبكة الرئيسية
-valueAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
-valueAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.LightGray;
-```
-
-## دمج التعليقات التوضيحية والتسميات
-
-تضيف التعليقات التوضيحية والتسميات سياقًا إلى مخططاتك:
-
-```csharp
-// إضافة تسميات البيانات
-IDataLabel dataLabel = series.DataPoints[0].Label;
-dataLabel.ShowValue = true;
-
-// إضافة تعليق توضيحي لمربع النص
-ITextBoxAnnotation annotation = slide.Shapes.AddTextBox(50, 50, 200, 50);
-annotation.TextFrame.Text = "Important Note!";
-```
-
-## التعامل مع العناصر التفاعلية
-
-أضف التفاعلية إلى مخططاتك باستخدام الارتباطات التشعبية:
-
-```csharp
-// إضافة ارتباط تشعبي إلى عنصر المخطط
-series.DataPoints[0].Hyperlink.ClickUrl = "https://example.com";
-```
-
-## تصدير ومشاركة العرض التقديمي الخاص بك
-
-بمجرد اكتمال تخصيص المخطط، يمكنك حفظ العرض التقديمي ومشاركته:
-
-```csharp
-// احفظ العرض التقديمي
-presentation.Save("CustomizedChartPresentation.pptx", SaveFormat.Pptx);
-```
+تعتبر هذه التخصيصات الإضافية اختيارية ويمكن تطبيقها بناءً على متطلبات تصميم المخطط المحددة الخاصة بك.
 
 ## خاتمة
 
-في هذا الدليل، اكتشفنا عالم التخصيص المتقدم للمخططات باستخدام Aspose.Slides لـ .NET. لقد قمنا بتغطية إنشاء المخططات وتخصيص البيانات وتطبيق الأنماط وإضافة خطوط الاتجاه والمزيد. باستخدام هذه التقنيات المتاحة لك، يمكنك إنشاء عروض تقديمية مؤثرة تنقل قصة بياناتك بشكل فعال.
+في هذا الدليل التفصيلي خطوة بخطوة، اكتشفنا التخصيص المتقدم للمخطط باستخدام Aspose.Slides for .NET. لقد تعلمت كيفية إنشاء عرض تقديمي وإضافة مخطط وضبط مظهره، بما في ذلك خطوط الشبكة وتسميات المحاور والعناصر المرئية الأخرى. باستخدام خيارات التخصيص القوية التي توفرها Aspose.Slides، يمكنك إنشاء مخططات تنقل بياناتك بشكل فعال وتجذب جمهورك.
+
+ إذا كانت لديك أية أسئلة أو واجهت أي تحديات أثناء العمل مع Aspose.Slides for .NET، فلا تتردد في استكشاف الوثائق[هنا](https://reference.aspose.com/slides/net/) أو طلب المساعدة في Aspose.Slides[المنتدى](https://forum.aspose.com/).
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
+### ما هي إصدارات .NET التي يدعمها Aspose.Slides لـ .NET؟
+يدعم Aspose.Slides for .NET إصدارات .NET المختلفة، بما في ذلك .NET Framework و.NET Core. يمكنك الرجوع إلى الوثائق للحصول على القائمة الكاملة للإصدارات المدعومة.
 
- يمكنك تنزيل Aspose.Slides لـ .NET من[هنا](https://releases.aspose.com/slides/net).
+### هل يمكنني إنشاء مخططات من مصادر البيانات مثل ملفات Excel باستخدام Aspose.Slides لـ .NET؟
+نعم، يسمح لك Aspose.Slides for .NET بإنشاء مخططات من مصادر بيانات خارجية مثل جداول بيانات Excel. يمكنك استكشاف الوثائق للحصول على أمثلة مفصلة.
 
-### هل يمكنني تطبيق ألوان مخصصة على عناصر المخطط؟
+### كيف يمكنني إضافة تسميات بيانات مخصصة إلى سلسلة المخططات الخاصة بي؟
+ لإضافة تسميات بيانات مخصصة إلى سلسلة المخططات الخاصة بك، يمكنك الوصول إلى`DataLabels` ملكية السلسلة وتخصيص التسميات حسب الحاجة. راجع الوثائق للحصول على نماذج التعليمات البرمجية والأمثلة.
 
-نعم، يمكنك تطبيق ألوان مخصصة على عناصر المخطط المختلفة باستخدام Aspose.Slides for .NET.
+### هل من الممكن تصدير المخطط إلى تنسيقات ملفات مختلفة، مثل تنسيقات PDF أو الصور؟
+نعم، يوفر Aspose.Slides for .NET خيارات لتصدير العرض التقديمي الخاص بك مع المخططات إلى تنسيقات مختلفة، بما في ذلك تنسيقات PDF والصور. يمكنك استخدام المكتبة لحفظ عملك بتنسيق الإخراج المطلوب.
 
-### هل من الممكن إضافة خطوط اتجاه متعددة إلى سلسلة واحدة؟
-
-قطعاً! يمكنك إضافة خطوط اتجاه متعددة إلى سلسلة واحدة في المخطط الخاص بك.
-
-### هل يمكنني تصدير العرض التقديمي الخاص بي إلى تنسيقات مختلفة؟
-
-نعم، يسمح لك Aspose.Slides for .NET بحفظ عروضك التقديمية بتنسيقات مختلفة، بما في ذلك PPTX وPDF والمزيد.
-
-### أين يمكنني العثور على وثائق أكثر تفصيلا؟
-
-يمكنك العثور على وثائق وأمثلة مفصلة في[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+### أين يمكنني العثور على المزيد من البرامج التعليمية والأمثلة حول Aspose.Slides لـ .NET؟
+ يمكنك العثور على مجموعة كبيرة من البرامج التعليمية وأمثلة التعليمات البرمجية والوثائق على Aspose.Slides[موقع إلكتروني](https://reference.aspose.com/slides/net/).

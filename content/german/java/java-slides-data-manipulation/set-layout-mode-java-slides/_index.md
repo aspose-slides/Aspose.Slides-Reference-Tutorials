@@ -34,7 +34,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 600, 400);
 ```
 
-## Schritt 3: Diagrammlayout festlegen
+## Schritt 3: Legen Sie das Diagrammlayout fest
 
  Legen wir nun das Layout für das Diagramm fest. Wir passen die Position und Größe des Diagramms innerhalb der Folie mithilfe von an`setX`, `setY`, `setWidth`, `setHeight` Methoden. Zusätzlich werden wir die festlegen`LayoutTargetType` um den Layoutmodus zu bestimmen.
 

@@ -51,7 +51,7 @@ var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
 الآن، لنقم بإنشاء شريحة التكبير/التصغير الموجزة الفعلية التي ستعرض نظرة عامة على الشرائح التي أضفناها سابقًا:
 
 ```csharp
-//قم بإنشاء شريحة تكبير ملخصة
+// قم بإنشاء شريحة تكبير ملخصة
 var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
 ```
 

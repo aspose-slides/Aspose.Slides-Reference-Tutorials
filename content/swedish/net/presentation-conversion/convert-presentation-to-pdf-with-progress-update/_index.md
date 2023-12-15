@@ -81,7 +81,7 @@ S: Ja, Aspose.Slides för .NET uppdateras regelbundet för att stödja de senast
 S: Du kan implementera felhanteringsmekanismer i din kod för att på ett elegant sätt hantera eventuella konverteringsfel.
 
 ### F: Finns det en gratis testversion tillgänglig för Aspose.Slides för .NET?
- S: Ja, du kan få tillgång till en gratis provperiod på[https://releases.aspose.com/](https://releases.aspose.com/).
+S: Ja, du kan få tillgång till en gratis provperiod på[https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### F: Var kan jag få support för Aspose.Slides för .NET?
  S: Du kan hitta support och diskussioner i samhället på[https://forum.aspose.com/](https://forum.aspose.com/).

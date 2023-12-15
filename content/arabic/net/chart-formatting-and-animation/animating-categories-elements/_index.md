@@ -1,116 +1,125 @@
 ---
-title: تحريك عناصر الفئات في الرسم البياني
+title: رسوم متحركة قوية للمخططات باستخدام Aspose.Slides لـ .NET
 linktitle: تحريك عناصر الفئات في الرسم البياني
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إضافة رسوم متحركة جذابة إلى عناصر فئة الرسم البياني باستخدام Aspose.Slides for .NET. ارفع مستوى عروضك التقديمية باستخدام صور ديناميكية.
+description: تعلم كيفية تحريك عناصر المخطط في PowerPoint باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة للحصول على عروض تقديمية مذهلة.
 type: docs
 weight: 11
 url: /ar/net/chart-formatting-and-animation/animating-categories-elements/
 ---
 
-## مقدمة لتحريك عناصر الفئات في المخطط باستخدام Aspose.Slides لـ .NET
-
-سيرشدك هذا الدليل خلال عملية تحريك عناصر الفئة في مخطط باستخدام مكتبة Aspose.Slides for .NET. Aspose.Slides for .NET هي مكتبة قوية تسمح لك بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجياً.
+في عالم العروض التقديمية، يمكن للرسوم المتحركة أن تجعل المحتوى الخاص بك ينبض بالحياة، خاصة عند التعامل مع الرسوم البيانية. يقدم Aspose.Slides for .NET مجموعة من الميزات القوية التي تسمح لك بإنشاء رسوم متحركة مذهلة لمخططاتك. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية تحريك عناصر الفئة في مخطط باستخدام Aspose.Slides for .NET.
 
 ## المتطلبات الأساسية
 
-قبل أن تبدأ، تأكد من أن لديك ما يلي:
+قبل أن نتعمق في البرنامج التعليمي، يجب أن تتوفر لديك المتطلبات الأساسية التالية:
 
-1. تم تثبيت Visual Studio على جهازك.
-2.  Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net).
-3. الفهم الأساسي للغة البرمجة C#.
+-  Aspose.Slides for .NET: تأكد من تثبيت Aspose.Slides for .NET في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
 
-## الخطوة 1: إنشاء مشروع جديد
+- العرض التقديمي الحالي: يجب أن يكون لديك عرض تقديمي لـ PowerPoint يحتوي على مخطط تريد تحريكه. إذا لم يكن لديك واحد، قم بإنشاء عرض تقديمي نموذجي مع مخطط لأغراض الاختبار.
 
-1. افتح Visual Studio وقم بإنشاء مشروع C# جديد.
-2. أضف مراجع إلى مكتبة Aspose.Slides for .NET عن طريق النقر بزر الماوس الأيمن على "المراجع" في مستكشف الحلول، ثم تحديد "إضافة مرجع". تصفح وأضف ملف Aspose.Slides DLL.
+الآن بعد أن أصبح لديك كل شيء في مكانه الصحيح، فلنبدأ في تحريك عناصر المخطط هذه!
 
-## الخطوة 2: تحميل العرض التقديمي ومخطط الوصول
+## استيراد مساحات الأسماء
+
+الخطوة الأولى هي استيراد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.Slides. أضف مساحات الأسماء التالية إلى مشروعك:
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Charts;
+```
 
-class Program
+## الخطوة 1: قم بتحميل العرض التقديمي
+
+```csharp
+// المسار إلى دليل المستندات الخاص بك
+string dataDir = "Your Document Directory";
+
+using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
-    static void Main(string[] args)
-    {
-        // قم بتحميل عرض PowerPoint التقديمي
-        using (Presentation presentation = new Presentation("sample.pptx"))
-        {
-            // قم بالوصول إلى الشريحة التي تحتوي على المخطط
-            ISlide slide = presentation.Slides[0];
-            
-            // قم بالوصول إلى المخطط الموجود على الشريحة
-            IChart chart = (IChart)slide.Shapes[0];
-            
-            // الكود الخاص بك لتحريك عناصر الفئة في المخطط
-            // ...
-        }
-    }
+    // الحصول على مرجع لكائن المخطط
+    var slide = presentation.Slides[0] as Slide;
+    var shapes = slide.Shapes as ShapeCollection;
+    var chart = shapes[0] as IChart;
+```
+
+في هذه الخطوة، نقوم بتحميل عرض PowerPoint التقديمي الموجود والذي يحتوي على المخطط الذي تريد تحريكه. نقوم بعد ذلك بالوصول إلى كائن المخطط داخل الشريحة الأولى.
+
+## الخطوة 2: تحريك عناصر الفئات
+
+```csharp
+// تحريك عناصر الفئات
+slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+```
+
+تضيف هذه الخطوة تأثير الرسوم المتحركة "التلاشي" إلى المخطط بأكمله، مما يجعله يظهر بعد الرسم المتحرك السابق.
+
+بعد ذلك، سنضيف الرسوم المتحركة إلى العناصر الفردية داخل كل فئة من فئات المخطط. هذا هو المكان الذي يحدث فيه السحر الحقيقي.
+
+## الخطوة 3: تحريك العناصر الفردية
+
+سنقوم بتقسيم الرسوم المتحركة للعناصر الفردية داخل كل فئة إلى الخطوات التالية:
+
+### الخطوة 3.1: تحريك العناصر في الفئة 0
+
+```csharp
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, 0, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 0, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+```
+
+نحن هنا نقوم بتحريك العناصر الفردية ضمن الفئة 0 من المخطط، مما يجعلها تظهر واحدة تلو الأخرى. يتم استخدام تأثير "الظهور" لهذه الرسوم المتحركة.
+
+### الخطوة 3.2: تحريك العناصر في الفئة 1
+
+```csharp
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 1, 0, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 1, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 1, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 1, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+```
+
+يتم تكرار العملية للفئة 1، مع تحريك عناصرها الفردية باستخدام تأثير "الظهور".
+
+### الخطوة 3.3: تحريك العناصر في الفئة 2
+
+```csharp
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 0, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+```
+
+وتستمر نفس العملية بالنسبة للفئة 2، حيث يتم تحريك عناصرها بشكل فردي.
+
+## الخطوة 4: احفظ العرض التقديمي
+
+```csharp
+//اكتب ملف العرض التقديمي على القرص
+presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```
 
- يستبدل`"sample.pptx"` مع المسار إلى ملف عرض PowerPoint التقديمي الخاص بك.
-
-## الخطوة 3: تطبيق الرسوم المتحركة على عناصر الفئة
-
- لتحريك عناصر الفئة في المخطط، يمكنك استخدام`IChartCategory` واجهة و`Aspose.Slides.Animation.ChartCategoryAnimation` فصل. هنا مثال:
-
-```csharp
-// الوصول إلى السلسلة الأولى في المخطط
-IChartSeries series = chart.ChartData.Series[0];
-
-// الوصول إلى الفئة الأولى في السلسلة
-IChartCategory category = series.DataPoints[0].Category;
-
-// إنشاء الرسوم المتحركة فئة الرسم البياني
-ChartCategoryAnimation animation = new ChartCategoryAnimation();
-
-// تعيين خصائص الرسوم المتحركة
-animation.AnimateByCategory = true;
-animation.AnimateGroupByCategory = true;
-animation.AnimationOrder = AnimationOrderCategory.ByCategoryElement;
-
-// تطبيق الرسوم المتحركة على الفئة
-category.ChartCategoryAnimations.Add(animation);
-```
-
-## الخطوة 4: حفظ العرض التقديمي
-
-بعد تطبيق الرسوم المتحركة على عناصر الفئة في المخطط، احفظ العرض التقديمي المعدل:
-
-```csharp
-// احفظ العرض التقديمي المعدل
-presentation.Save("output.pptx", SaveFormat.Pptx);
-```
+في الخطوة الأخيرة، نقوم بحفظ العرض التقديمي مع الرسوم المتحركة المضافة حديثًا. الآن، سيتم تحريك عناصر المخطط الخاص بك بشكل جميل عند تشغيل العرض التقديمي.
 
 ## خاتمة
 
-يمكن أن يؤدي دمج الرسوم المتحركة في مخططاتك باستخدام Aspose.Slides for .NET إلى تحويل عروضك التقديمية من ثابتة إلى ديناميكية، مما يجذب انتباه جمهورك ويعزز التأثير العام. باتباع هذا الدليل خطوة بخطوة، تعلمت كيفية إنشاء المخططات وملئها بالبيانات وتطبيق الرسوم المتحركة الجذابة على عناصر الفئة. ابدأ بتجربة تأثيرات الرسوم المتحركة المختلفة واجعل عروضك التقديمية تنبض بالحياة كما لم يحدث من قبل.
+يمكن أن يؤدي تحريك عناصر الفئة في المخطط إلى تحسين المظهر المرئي لعروضك التقديمية. باستخدام Aspose.Slides for .NET، تصبح هذه العملية واضحة وفعالة. لقد تعلمت كيفية استيراد مساحات الأسماء، وتحميل عرض تقديمي، وإضافة رسوم متحركة إلى المخطط بأكمله وعناصره الفردية. كن مبدعًا واجعل عروضك التقديمية أكثر تفاعلاً مع Aspose.Slides for .NET.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
+### 1. كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
+ يمكنك تنزيل Aspose.Slides لـ .NET من[هذا الرابط](https://releases.aspose.com/slides/net/).
 
- يمكنك تنزيل Aspose.Slides for .NET من صفحة الإصدارات:[هنا](https://releases.aspose.com/slides/net).
+### 2. هل أحتاج إلى خبرة في البرمجة لاستخدام Aspose.Slides لـ .NET؟
+على الرغم من أن تجربة البرمجة مفيدة، إلا أن Aspose.Slides for .NET يوفر وثائق وأمثلة موسعة لمساعدة المستخدمين على جميع مستويات المهارة.
 
-### هل يمكنني استخدام تأثيرات الرسوم المتحركة المختلفة لعناصر المخطط المختلفة؟
+### 3. هل يمكنني استخدام Aspose.Slides لـ .NET مع أي إصدار من PowerPoint؟
+تم تصميم Aspose.Slides for .NET للعمل مع إصدارات PowerPoint المختلفة، مما يضمن التوافق.
 
-نعم، يسمح لك Aspose.Slides for .NET بتطبيق تأثيرات الرسوم المتحركة المختلفة على عناصر المخطط المختلفة، مما يمنحك التحكم الكامل في التجربة المرئية.
+### 4. كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
+ يمكنك الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET[هنا](https://purchase.aspose.com/temporary-license/).
 
-### هل الخبرة في البرمجة ضرورية لاستخدام Aspose.Slides لـ .NET؟
-
-في حين أن تجربة البرمجة يمكن أن تكون مفيدة، فإن Aspose.Slides for .NET يوفر واجهة برمجة تطبيقات سهلة الاستخدام تعمل على تبسيط عملية العمل مع العروض التقديمية والرسوم المتحركة.
-
-### هل يمكنني تصدير العرض التقديمي المتحرك الخاص بي إلى PDF؟
-
-قطعاً! يدعم Aspose.Slides for .NET تصدير العرض التقديمي المتحرك الخاص بك إلى تنسيقات مختلفة، بما في ذلك PDF، مما يضمن التوافق عبر الأجهزة المختلفة.
-
-### أين يمكنني الوصول إلى المزيد من الوثائق التفصيلية لـ Aspose.Slides for .NET؟
-
- يمكنك العثور على وثائق وأمثلة شاملة على صفحة وثائق Aspose.Slides for .NET:[هنا](https://reference.aspose.com/slides/net).
-
-### هل يمكنني تحريك فئات متعددة في وقت واحد؟
-
-نعم، يمكنك تحريك فئات متعددة من خلال التكرار عبر عناصر الفئة وتطبيق الرسوم المتحركة على كل منها.
+### 5. هل يوجد منتدى مجتمعي لـ Aspose.Slides لدعم .NET؟
+ نعم، يمكنك العثور على منتدى مجتمعي داعم لـ Aspose.Slides for .NET[هنا](https://forum.aspose.com/).

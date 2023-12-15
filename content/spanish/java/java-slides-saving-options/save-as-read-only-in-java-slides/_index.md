@@ -10,7 +10,7 @@ url: /es/java/saving-options/save-as-read-only-in-java-slides/
 
 ## Introducción a Guardar como solo lectura en diapositivas de Java usando Aspose.Slides para Java
 
-En la era digital actual, garantizar la seguridad y la integridad de sus documentos es primordial. Si está trabajando con presentaciones de PowerPoint en Java, es posible que necesite guardarlas como de solo lectura para evitar modificaciones no autorizadas. En esta guía completa, exploraremos cómo lograr esto utilizando la potente API Aspose.Slides para Java. Le proporcionaremos instrucciones paso a paso y ejemplos de código fuente para ayudarlo a proteger sus presentaciones de manera efectiva.
+En la era digital actual, garantizar la seguridad y la integridad de sus documentos es primordial. Si está trabajando con presentaciones de PowerPoint en Java, es posible que necesite guardarlas como de solo lectura para evitar modificaciones no autorizadas. En esta guía completa, exploraremos cómo lograr esto utilizando la poderosa API Aspose.Slides para Java. Le proporcionaremos instrucciones paso a paso y ejemplos de código fuente para ayudarlo a proteger sus presentaciones de manera efectiva.
 
 ## Requisitos previos
 

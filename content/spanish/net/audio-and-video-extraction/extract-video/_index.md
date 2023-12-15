@@ -1,95 +1,112 @@
 ---
-title: Extraer vídeo de diapositiva
+title: Cómo extraer vídeo de una diapositiva usando Aspose.Slides para .NET
 linktitle: Extraer vídeo de diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Domine la extracción de videos de diapositivas de PowerPoint usando Aspose.Slides para .NET. Siga nuestra guía con ejemplos de código.
+description: Aprenda a extraer videos de diapositivas de PowerPoint usando Aspose.Slides para .NET. Esta guía paso a paso le simplifica el proceso.
 type: docs
 weight: 14
 url: /es/net/audio-and-video-extraction/extract-video/
 ---
 
-## Introducción
-
-En el mundo digital actual, las presentaciones multimedia se han convertido en una parte esencial de la comunicación. Las presentaciones de PowerPoint suelen incluir una combinación de texto, imágenes y vídeos para transmitir información de forma eficaz. Sin embargo, puede haber ocasiones en las que necesites extraer un vídeo de una diapositiva para diversos fines, como archivarlo, compartirlo o editarlo más. Aquí es donde entra en juego Aspose.Slides para .NET.
+Aspose.Slides para .NET es una poderosa biblioteca que le permite trabajar con presentaciones de PowerPoint en un entorno .NET. Una de las funciones útiles que ofrece es la posibilidad de extraer vídeos de diapositivas. En esta guía paso a paso, le mostraremos cómo extraer un video de una diapositiva de PowerPoint usando Aspose.Slides para .NET.
 
 ## Requisitos previos
 
-Antes de sumergirnos en la guía paso a paso, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Conocimientos básicos de C# y .NET framework.
-- Visual Studio instalado
--  Biblioteca Aspose.Slides para .NET (descargar desde[aquí](https://releases.aspose.com/slides/net)
+-  Aspose.Slides para .NET: Debe tener instalado Aspose.Slides para .NET. Puedes obtenerlo del[sitio web](https://purchase.aspose.com/buy).
 
-## Guía paso por paso
+- Una presentación de PowerPoint: prepare una presentación de PowerPoint (por ejemplo, Video.pptx) que contenga el vídeo que desea extraer.
 
-Repasemos el proceso de extracción de un video de una diapositiva usando Aspose.Slides para .NET:
+## Importar espacios de nombres
 
-### Paso 1: instalación
-
-1. Abra Visual Studio y cree un nuevo proyecto de C#.
-2. Haga clic derecho en su proyecto en el Explorador de soluciones y seleccione "Administrar paquetes NuGet".
-3. Busque "Aspose.Slides" e instale la última versión.
-
-### Paso 2: cargar la presentación
+Debe importar los espacios de nombres necesarios para trabajar con Aspose.Slides para .NET. Así es como puedes hacerlo:
 
 ```csharp
 using Aspose.Slides;
-
-// Cargar la presentación
-using var presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Video;
 ```
 
- Reemplazar`"your-presentation.pptx"` con la ruta real a su archivo de presentación de PowerPoint.
+Ahora, dividamos el proceso de extracción de un vídeo de una diapositiva en varios pasos.
 
-### Paso 3: extraer vídeo
+## Paso 1: configurar el directorio de documentos
 
 ```csharp
-// Obtenga la primera diapositiva
-var slide = presentation.Slides[0];
+string dataDir = "Your Document Directory";
+```
 
-// Iterar a través de formas de diapositivas
-foreach (var shape in slide.Shapes)
+ Reemplazar`"Your Document Directory"` con la ruta al directorio donde se encuentra su presentación de PowerPoint.
+
+## Paso 2: cargue la presentación
+
+```csharp
+Presentation presentation = new Presentation(dataDir + "Video.pptx");
+```
+
+Este código inicializa un objeto de presentación, que representa su archivo de presentación de PowerPoint.
+
+## Paso 3: iterar a través de diapositivas y formas
+
+```csharp
+foreach (ISlide slide in presentation.Slides)
 {
-    if (shape is IVideoFrame videoFrame)
+    foreach (IShape shape in presentation.Slides[0].Shapes)
     {
-        // Extrae el vídeo del fotograma del vídeo.
-        var video = videoFrame.EmbeddedVideo;
-        // Se puede realizar un procesamiento adicional con el objeto de video.
-    }
+```
+
+Aquí, recorremos cada diapositiva de la presentación y luego repetimos las formas de la primera diapositiva (modificamos según sea necesario).
+
+## Paso 4: comprueba si la forma es un fotograma de vídeo
+
+```csharp
+if (shape is VideoFrame)
+{
+    IVideoFrame vf = shape as IVideoFrame;
+    String type = vf.EmbeddedVideo.ContentType;
+```
+
+Este paso comprueba si la forma de la diapositiva es un fotograma de vídeo.
+
+## Paso 5: extraer datos de vídeo
+
+```csharp
+int ss = type.LastIndexOf('/');
+type = type.Remove(0, type.LastIndexOf('/') + 1);
+Byte[] buffer = vf.EmbeddedVideo.BinaryData;
+```
+
+Este código extrae información sobre el vídeo, incluido su tipo de contenido y datos binarios.
+
+## Paso 6: guarde el video
+
+```csharp
+using (FileStream stream = new FileStream(dataDir + "NewVideo_out." + type, FileMode.Create, FileAccess.Write, FileShare.Read))
+{
+    stream.Write(buffer, 0, buffer.Length);
 }
 ```
 
-### Paso 4: guardar vídeo
+Finalmente, este paso guarda el video en un nuevo archivo en el directorio especificado.
 
-```csharp
-// Guarde el video extraído
-video.WriteToFile("extracted-video.mp4");
-```
-
- Reemplazar`"extracted-video.mp4"` con el nombre y la ruta deseados para el archivo de vídeo extraído.
+Una vez que haya completado estos pasos, habrá extraído exitosamente un video de una diapositiva de PowerPoint usando Aspose.Slides para .NET.
 
 ## Conclusión
 
-Aspose.Slides para .NET simplifica la tarea de extraer vídeos de presentaciones de PowerPoint. Con sólo unas pocas líneas de código, puede recuperar vídeos incrustados en diapositivas y guardarlos como archivos de vídeo independientes. Ya sea que esté buscando reutilizar contenido o crear compilaciones, esta biblioteca proporciona una solución perfecta.
+Aspose.Slides para .NET simplifica el proceso de trabajar con presentaciones de PowerPoint, permitiéndole realizar tareas como extraer videos de diapositivas con facilidad. Si sigue esta guía paso a paso y utiliza la biblioteca Aspose.Slides, puede mejorar sus aplicaciones .NET con potentes funciones de PowerPoint.
 
-## Preguntas frecuentes
+## Preguntas frecuentes (FAQ)
 
-### ¿Cómo puedo acceder a la documentación de Aspose.Slides?
+### ¿Qué es Aspose.Slides para .NET?
+Aspose.Slides para .NET es una biblioteca que permite que las aplicaciones .NET funcionen con presentaciones de PowerPoint, incluida la creación, edición y extracción de contenido.
 
- Puede consultar la documentación de Aspose.Slides para .NET en[aquí](https://reference.aspose.com/slides/net/).
+### ¿Dónde puedo encontrar la documentación de Aspose.Slides para .NET?
+ Puedes encontrar la documentación.[aquí](https://reference.aspose.com/slides/net/).
 
-### ¿Aspose.Slides está disponible para otros lenguajes de programación?
+### ¿Aspose.Slides para .NET está disponible para una prueba gratuita?
+ Sí, puedes obtener una versión de prueba gratuita en[aquí](https://releases.aspose.com/).
 
-Sí, Aspose.Slides está disponible para múltiples lenguajes de programación, incluido Java. Puede encontrar las bibliotecas adecuadas en el sitio web de Aspose.
+### ¿Cómo puedo obtener una licencia temporal de Aspose.Slides para .NET?
+ Puede solicitar una licencia temporal a[este enlace](https://purchase.aspose.com/temporary-license/).
 
-### ¿Puedo extraer audio usando el mismo enfoque?
-
-No, el ejemplo proporcionado es específicamente para extraer videos. Para extraer audio, deberá modificar el código para que funcione con fotogramas de audio.
-
-### ¿Existe alguna tarifa de licencia por usar Aspose.Slides?
-
-Sí, Aspose.Slides es un producto comercial. Puede encontrar información detallada sobre licencias y precios en el sitio web de Aspose.
-
-### ¿Cómo accedo a las propiedades del video extraído?
-
- El`EmbeddedVideo` objeto obtenido de la`IVideoFrame` proporciona acceso a varias propiedades del video, como duración, resolución y más.
+### ¿Dónde puedo obtener soporte para Aspose.Slides para .NET?
+ Puedes encontrar soporte en el[Foro Aspose.Slides](https://forum.aspose.com/).

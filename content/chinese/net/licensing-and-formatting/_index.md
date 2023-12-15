@@ -23,8 +23,8 @@ url: /zh/net/licensing-and-formatting/
 无论您是寻求简化许可程序还是提升演示文稿的视觉美感，这些教程都将为您提供实现目标的见解和技能。让我们踏上这段旅程，提高您的 Aspose.Slides 熟练程度并创建给人留下深刻印象的演示文稿。
 
 ## 许可和格式教程
-### [Aspose.Slides 中的许可和格式设置](./licensing-and-formatting/)
-了解如何有效地使用 Aspose.Slides for .NET，从许可到格式设置、动画等。轻松创建引人入胜的演示文稿。
+### [Aspose.Slides 中的许可](./licensing-and-formatting/)
+了解如何获得 Aspose.Slides for .NET 许可并在 .NET 应用程序中释放 PowerPoint 操作的强大功能。
 ### [计量许可使用](./metered-licensing/)
 了解如何通过 Aspose.Slides for .NET 高效使用计量许可。无缝集成 API，同时按实际使用付费。
 ### [为图表中的数据点添加颜色](./add-color-to-data-points/)

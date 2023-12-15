@@ -8,7 +8,7 @@ weight: 13
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-arrow-lines-to-specific-slides/
 ---
 
-¿Estás listo para llevar tus presentaciones de PowerPoint al siguiente nivel? En esta guía completa, profundizaremos en el arte de agregar líneas en forma de flecha a diapositivas específicas utilizando la potente API Aspose.Slides para .NET. Ya sea que sea un presentador experimentado o recién esté comenzando, dominar esta técnica sin duda mejorará sus presentaciones y atraerá a su audiencia como nunca antes.
+¿Estás listo para llevar tus presentaciones de PowerPoint al siguiente nivel? En esta guía completa, profundizaremos en el arte de agregar líneas en forma de flecha a diapositivas específicas utilizando la poderosa API Aspose.Slides para .NET. Ya sea que sea un presentador experimentado o recién esté comenzando, dominar esta técnica sin duda mejorará sus presentaciones y atraerá a su audiencia como nunca antes.
 
 ## Introducción
 
@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 // Agregar nuevas diapositivas
 ISlide slide1 = presentation.Slides.AddEmptySlide();
 ISlide slide2 = presentation.Slides.AddEmptySlide();
-//Agregue más diapositivas según sea necesario
+// Agregue más diapositivas según sea necesario
 ```
 
 ### Agregar líneas en forma de flecha

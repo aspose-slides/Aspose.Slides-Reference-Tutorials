@@ -117,7 +117,7 @@ Evet, Aspose.Slides, slayttaki ayrı ayrı öğelere animasyonlar eklemenize ola
 
 ### Aspose.Slides for .NET'in kapsamlı belgelerini nerede bulabilirim?
 
-Aspose.Slides for .NET'in kapsamlı belgelerine şu adresten ulaşabilirsiniz:[API Referansı](https://reference.aspose.com/slides/net/) sayfa.
+ Aspose.Slides for .NET'in kapsamlı belgelerine şu adresten ulaşabilirsiniz:[API Referansı](https://reference.aspose.com/slides/net/) sayfa.
 
 ## Çözüm
 Bu kılavuzda, Aspose.Slides for .NET kullanarak sunumların normal görünüm durumunda nasıl yönetileceğini araştırdık. Güçlü özellikleri sayesinde sunumları programlı bir şekilde oluşturabilir, değiştirebilir ve geliştirebilirsiniz; böylece içeriğinizin hedef kitlenizi etkili bir şekilde cezbetmesini sağlayabilirsiniz. İster profesyonel bir sunumcu olun ister sunumla ilgili uygulamalar üzerinde çalışan bir geliştirici olun, Aspose.Slides for .NET kusursuz sunum yönetimine açılan kapınızdır.

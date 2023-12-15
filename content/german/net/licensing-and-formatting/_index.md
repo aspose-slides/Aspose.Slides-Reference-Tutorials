@@ -23,8 +23,8 @@ Die Formatierung spielt eine entscheidende Rolle bei der Erstellung ansprechende
 Unabhängig davon, ob Sie Lizenzverfahren rationalisieren oder die visuelle Ästhetik Ihrer Präsentationen verbessern möchten, vermitteln Ihnen diese Tutorials die Erkenntnisse und Fähigkeiten, die Sie zum Erreichen Ihrer Ziele benötigen. Begeben wir uns auf diese Reise, um Ihre Aspose.Slides-Kenntnisse zu verbessern und Präsentationen zu erstellen, die einen bleibenden Eindruck hinterlassen.
 
 ## Lizenzierungs- und Formatierungs-Tutorials
-### [Lizenzierung und Formatierung in Aspose.Slides](./licensing-and-formatting/)
-Erfahren Sie, wie Sie Aspose.Slides für .NET effektiv nutzen, von der Lizenzierung bis hin zu Formatierung, Animationen und mehr. Erstellen Sie mühelos ansprechende Präsentationen.
+### [Lizenzierung in Aspose.Slides](./licensing-and-formatting/)
+Erfahren Sie, wie Sie Aspose.Slides für .NET lizenzieren und die Leistungsfähigkeit der PowerPoint-Manipulation in Ihren .NET-Anwendungen freisetzen.
 ### [Gemessene Lizenznutzung](./metered-licensing/)
 Erfahren Sie, wie Sie Metered Licensing mit Aspose.Slides für .NET effizient nutzen. Integrieren Sie APIs nahtlos und zahlen Sie für die tatsächliche Nutzung.
 ### [Fügen Sie den Datenpunkten im Diagramm Farbe hinzu](./add-color-to-data-points/)

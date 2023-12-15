@@ -58,13 +58,13 @@ Aspose.Slides, sunumunuzdaki video oynatma deneyimini özelleştirmeniz için ç
 // Video karesini slayta alın
 IVideoFrame videoFrame = (IVideoFrame)slide.Shapes[0];
 
-// Otomatik oynatmayı etkinleştir
+//Otomatik oynatmayı etkinleştir
 videoFrame.PlayMode = VideoPlayModePreset.Auto;
 
 // Döngüyü etkinleştir
 videoFrame.PlayLoopMode = VideoPlayLoopMode.Loop;
 
-//Videonun sesini kapat
+// Videonun sesini kapat
 videoFrame.Volume = AudioVolumeMode.Mute;
 ```
 

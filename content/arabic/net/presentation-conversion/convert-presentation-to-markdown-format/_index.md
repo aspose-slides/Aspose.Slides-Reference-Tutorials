@@ -52,7 +52,7 @@ string outPath = "Your Output Directory";
 // إنشاء خيارات إنشاء Markdown
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 
-// قم بتعيين المعلمة لعرض كافة العناصر
+// قم بتعيين المعلمة لعرض جميع العناصر
 mdOptions.ExportType = MarkdownExportType.Visual;
 
 // تعيين اسم المجلد لحفظ الصور

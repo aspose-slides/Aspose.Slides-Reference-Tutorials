@@ -2,174 +2,122 @@
 title: Manipolazione dei collegamenti ipertestuali in Aspose.Slides
 linktitle: Manipolazione dei collegamenti ipertestuali in Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come migliorare le presentazioni di PowerPoint con collegamenti ipertestuali utilizzando Aspose.Slides per .NET. Crea, modifica e gestisci contenuti interattivi senza problemi.
+description: Scopri come aggiungere e rimuovere collegamenti ipertestuali in Aspose.Slides per .NET. Migliora facilmente le tue presentazioni con collegamenti interattivi.
 type: docs
 weight: 10
 url: /it/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
 
-## Introduzione alla manipolazione dei collegamenti ipertestuali
+collegamenti ipertestuali sono elementi essenziali nelle presentazioni poiché forniscono un modo conveniente per navigare tra le diapositive o accedere a risorse esterne. Aspose.Slides per .NET offre potenti funzionalità per aggiungere e rimuovere collegamenti ipertestuali nelle diapositive della presentazione. In questo tutorial, ti guideremo attraverso il processo di manipolazione dei collegamenti ipertestuali utilizzando Aspose.Slides per .NET. Tratteremo l'aggiunta di collegamenti ipertestuali a una diapositiva e la rimozione di collegamenti ipertestuali da una diapositiva. Quindi tuffiamoci!
 
-collegamenti ipertestuali arricchiscono le presentazioni collegando diapositive, documenti, pagine Web e altro ancora. Forniscono un'esperienza interattiva, migliorando il coinvolgimento del pubblico. Aspose.Slides per .NET offre funzionalità complete per gestire i collegamenti ipertestuali a livello di codice, offrendoti il pieno controllo sulla navigazione della presentazione.
+## Prerequisiti
 
-## Impostazione dei collegamenti ipertestuali nelle diapositive
+Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
- Per creare collegamenti ipertestuali, è possibile utilizzare Aspose.Slides per .NET`HyperlinkManager` classe. Questa classe ti consente di aggiungere vari tipi di collegamenti ipertestuali a forme o testo specifici nelle diapositive.
+1.  Aspose.Slides per .NET: è necessario avere la libreria Aspose.Slides per .NET installata e configurata. Puoi trovare la documentazione[Qui](https://reference.aspose.com/slides/net/) e scaricarlo da[questo link](https://releases.aspose.com/slides/net/).
 
-```csharp
-// Esempio di codice per aggiungere un collegamento ipertestuale a una forma
-HyperlinkManager.AddHyperlinkToShape(shape, "https://www.example.com", "Visita il nostro sito web");
-```
+2. La tua directory dei documenti: hai bisogno di una directory in cui memorizzerai i file di presentazione. Assicurati di specificare il percorso di questa directory nel codice.
 
-## Modifica dei collegamenti ipertestuali
+3. Conoscenza di base di C#: questo tutorial presuppone che tu abbia una conoscenza di base della programmazione C#.
 
-È possibile modificare facilmente i collegamenti ipertestuali esistenti utilizzando Aspose.Slides per .NET. Ciò è utile quando è necessario aggiornare l'URL di destinazione o modificare il testo del collegamento ipertestuale.
+Ora che hai i prerequisiti, passiamo alla guida passo passo per la manipolazione dei collegamenti ipertestuali utilizzando Aspose.Slides per .NET.
 
-```csharp
-// Esempio di codice per modificare l'URL di un collegamento ipertestuale
-HyperlinkManager.ModifyHyperlinkUrl(shape, "https://nuovourl.com");
-```
+## Aggiunta di collegamenti ipertestuali a una diapositiva
 
-## Rimozione dei collegamenti ipertestuali
+### Passaggio 1: inizializza la presentazione
 
-Se desideri rimuovere un collegamento ipertestuale da una forma, Aspose.Slides per .NET fornisce un metodo semplice per farlo.
+Per iniziare, è necessario inizializzare una presentazione utilizzando Aspose.Slides. Puoi farlo con il seguente codice:
 
 ```csharp
-// Esempio di codice per rimuovere un collegamento ipertestuale da una forma
-HyperlinkManager.RemoveHyperlink(shape);
+using (Presentation presentation = new Presentation())
+{
+    // Il tuo codice qui
+}
 ```
 
-## Lavorare con i punti di ancoraggio
+### Passaggio 2: aggiungi cornice di testo
 
-I punti di ancoraggio sono cruciali quando si ha a che fare con i collegamenti ipertestuali all'interno delle diapositive. Determinano la posizione a cui punta il collegamento ipertestuale all'interno della diapositiva di destinazione.
+Ora aggiungiamo una cornice di testo a una diapositiva. Questo codice crea una forma rettangolare con testo:
 
 ```csharp
-// Esempio di codice per impostare un punto di ancoraggio per un collegamento ipertestuale
-HyperlinkManager.SetHyperlinkAnchor(shape, targetSlide, anchorX, anchorY);
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
 ```
 
-## Gestione di diversi tipi di collegamenti ipertestuali
+### Passaggio 3: aggiungi il collegamento ipertestuale
 
-Aspose.Slides per .NET supporta vari tipi di collegamenti ipertestuali, inclusi collegamenti URL, collegamenti a documenti interni, collegamenti a indirizzi e-mail e altro.
+Successivamente, aggiungerai un collegamento ipertestuale al testo nella forma che hai creato. Ecco come puoi farlo:
 
 ```csharp
-// Esempio di codice per aggiungere un collegamento ipertestuale di posta elettronica
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-## Aggiunta di descrizioni comandi ai collegamenti ipertestuali
+### Passaggio 4: salva la presentazione
 
-Le descrizioni comandi forniscono informazioni aggiuntive quando gli utenti passano il mouse sui collegamenti ipertestuali. Aspose.Slides per .NET ti consente di impostare descrizioni comandi per i tuoi collegamenti ipertestuali.
+Infine, salva la presentazione con il collegamento ipertestuale aggiunto:
 
 ```csharp
-// Esempio di codice per aggiungere una descrizione comando a un collegamento ipertestuale
-HyperlinkManager.AddHyperlinkWithTooltip(shape, "https://www.example.com", "Visita il nostro sito web", "Fai clic per esplorare");
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 ```
 
-## Gestione dei collegamenti ipertestuali esterni
+Congratulazioni! Hai aggiunto con successo un collegamento ipertestuale a una diapositiva utilizzando Aspose.Slides per .NET.
 
-Puoi anche gestire collegamenti ipertestuali esterni utilizzando Aspose.Slides per .NET, assicurandoti che le tue presentazioni rimangano connesse alle risorse online pertinenti.
+## Rimozione di collegamenti ipertestuali da una diapositiva
+
+### Passaggio 1: inizializza la presentazione
+
+Per rimuovere i collegamenti ipertestuali da una diapositiva, è necessario aprire una presentazione esistente:
 
 ```csharp
-// Esempio di codice per aprire un collegamento ipertestuale in un browser Web
-HyperlinkManager.OpenHyperlinkInBrowser(shape);
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## Collegamenti ipertestuali nelle diapositive master
+### Passaggio 2: rimuovere i collegamenti ipertestuali
 
-Le diapositive master spesso contengono elementi ricorrenti. Aspose.Slides per .NET ti consente di applicare collegamenti ipertestuali alle diapositive master, garantendo coerenza nella presentazione.
+Ora rimuovi tutti i collegamenti ipertestuali dalla presentazione utilizzando il seguente codice:
 
 ```csharp
-// Esempio di codice per impostare un collegamento ipertestuale in una diapositiva master
-HyperlinkManager.SetHyperlinkInMasterSlide(masterSlide, "https://www.example.com", "Visita il nostro sito web");
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## Estrazione delle informazioni sui collegamenti ipertestuali
+### Passaggio 3: salva la presentazione
 
-È possibile estrarre informazioni da collegamenti ipertestuali esistenti utilizzando Aspose.Slides per .NET, che può essere utile per scopi di analisi o reporting.
+Dopo aver rimosso i collegamenti ipertestuali, salva la presentazione:
 
 ```csharp
-// Esempio di codice per estrarre informazioni sul collegamento ipertestuale
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-## Aggiunta di collegamenti ipertestuali a immagini e forme
+E questo è tutto! Hai rimosso con successo i collegamenti ipertestuali da una diapositiva utilizzando Aspose.Slides per .NET.
 
-I collegamenti ipertestuali possono essere aggiunti non solo al testo ma anche a immagini e forme all'interno delle diapositive.
+In conclusione, Aspose.Slides per .NET fornisce un modo efficace per manipolare i collegamenti ipertestuali nelle presentazioni, consentendoti di creare diapositive interattive e coinvolgenti. Sia che tu voglia aggiungere collegamenti ipertestuali a risorse esterne o rimuoverli, Aspose.Slides semplifica il processo e migliora le tue capacità di creazione di presentazioni.
 
-```csharp
-// Esempio di codice per aggiungere un collegamento ipertestuale a un'immagine
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Fai clic sull'immagine per saperne di più");
-```
+ Grazie per esserti unito a noi in questo tutorial sulla manipolazione dei collegamenti ipertestuali in Aspose.Slides per .NET. Se hai domande o hai bisogno di ulteriore assistenza, non esitare a esplorare il[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/) o contatta la comunità Aspose su[Forum di assistenza](https://forum.aspose.com/).
 
-## Collegamento a indirizzi e-mail e numeri di telefono
-
-Aspose.Slides per .NET consente di creare collegamenti ipertestuali che attivano la composizione di e-mail o avviano chiamate telefoniche quando vengono cliccati.
-
-```csharp
-// Esempio di codice per creare un collegamento ipertestuale di posta elettronica
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
-
-// Esempio di codice per creare un collegamento ipertestuale al numero di telefono
-HyperlinkManager.AddPhoneHyperlink(shape, "+1234567890", "Call our support");
-```
-
-## Formattazione del collegamento ipertestuale
-
-Puoi applicare la formattazione ai collegamenti ipertestuali per renderli visivamente distinti dal testo o dalle forme normali.
-
-```csharp
-// Esempio di codice per formattare l'aspetto di un collegamento ipertestuale
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-## Aggiunta di collegamenti ipertestuali tramite API
-
-Aspose.Slides per .NET fornisce un'API robusta per la manipolazione dei collegamenti ipertestuali. Puoi integrare queste funzionalità perfettamente nelle tue applicazioni.
-
-```csharp
-// Esempio di codice per aggiungere un collegamento ipertestuale tramite l'API
-HyperlinkManager.AddHyperlink(shape, HyperlinkType.Url, "https://www.esempio.com");
-```
+---
 
 ## Conclusione
 
-La manipolazione dei collegamenti ipertestuali utilizzando Aspose.Slides per .NET offre un kit di strumenti completo per migliorare l'interattività e il coinvolgimento delle presentazioni PowerPoint. Con la possibilità di creare, modificare e gestire i collegamenti ipertestuali, puoi creare presentazioni dinamiche e informative che affascinano il tuo pubblico.
+In questo tutorial, abbiamo imparato come manipolare i collegamenti ipertestuali nelle presentazioni utilizzando Aspose.Slides per .NET. Abbiamo trattato sia l'aggiunta che la rimozione dei collegamenti ipertestuali, consentendoti di creare presentazioni dinamiche e interattive. Aspose.Slides semplifica il processo, facilitando il miglioramento delle diapositive con collegamenti ipertestuali a risorse esterne.
 
-## Domande frequenti
+Hai altre domande sul lavoro con Aspose.Slides o su altri aspetti della progettazione della presentazione? Consulta le domande frequenti qui sotto per ulteriori approfondimenti.
 
-### Come rimuovo un collegamento ipertestuale da una forma?
+## FAQ (domande frequenti)
 
-Per rimuovere un collegamento ipertestuale da una forma, è possibile utilizzare il codice seguente:
+### Quali sono i principali vantaggi dell'utilizzo di Aspose.Slides per .NET?
+Aspose.Slides per .NET offre un'ampia gamma di funzionalità per creare, manipolare e convertire presentazioni. Fornisce un set completo di strumenti per aggiungere contenuti, animazioni e interazioni alle diapositive.
 
-```csharp
-HyperlinkManager.RemoveHyperlink(shape);
-```
+### Posso aggiungere collegamenti ipertestuali a oggetti diversi dal testo in Aspose.Slides?
+Sì, Aspose.Slides ti consente di aggiungere collegamenti ipertestuali a vari oggetti, tra cui forme, immagini e testo, offrendoti flessibilità nella creazione di presentazioni interattive.
 
-### Posso applicare collegamenti ipertestuali alle immagini nelle mie diapositive?
+### Aspose.Slides è compatibile con diversi formati di file PowerPoint?
+Assolutamente. Aspose.Slides supporta vari formati PowerPoint, inclusi PPT, PPTX, PPS e altri. Garantisce la compatibilità con diverse versioni di Microsoft PowerPoint.
 
-Sì, puoi aggiungere collegamenti ipertestuali a immagini e forme all'interno delle tue diapositive utilizzando Aspose.Slides per .NET. Per esempio:
+### Dove posso trovare risorse aggiuntive e supporto per Aspose.Slides?
+Per documentazione approfondita e supporto della community, visitare il[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/) e il[Aspose forum di supporto](https://forum.aspose.com/).
 
-```csharp
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Fai clic sull'immagine per saperne di più");
-```
-
-### È possibile formattare l'aspetto di un collegamento ipertestuale?
-
-Certamente! È possibile formattare l'aspetto di un collegamento ipertestuale utilizzando Aspose.Slides per .NET. Ecco un esempio:
-
-```csharp
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-### Come posso estrarre informazioni da un collegamento ipertestuale esistente?
-
-È possibile estrarre informazioni da un collegamento ipertestuale esistente utilizzando il seguente approccio:
-
-```csharp
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
-```
-
-### Dove posso accedere a una documentazione più dettagliata su Aspose.Slides per .NET?
-
-Per informazioni più dettagliate ed esempi di codice, è possibile fare riferimento a[documentazione](https://reference.aspose.com/slides/net/) per Aspose.Slides per .NET.
+### Come posso ottenere una licenza temporanea per Aspose.Slides?
+ Se hai bisogno di una licenza temporanea per Aspose.Slides, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).

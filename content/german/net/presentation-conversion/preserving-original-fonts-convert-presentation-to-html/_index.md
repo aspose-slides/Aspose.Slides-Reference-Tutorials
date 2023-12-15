@@ -85,7 +85,7 @@ In diesem Tutorial haben wir gezeigt, wie Sie Originalschriftarten beibehalten, 
 
 ### F2: Was passiert, wenn ich nicht alle Schriftarten einbetten möchte?
 
-Wenn Sie nur bestimmte Schriftarten einbetten möchten, können Sie den Code entsprechend ändern. Weitere Informationen finden Sie in der Dokumentation zu Aspose.Slides für .NET.
+Wenn Sie nur bestimmte Schriftarten einbetten möchten, können Sie den Code entsprechend anpassen. Weitere Informationen finden Sie in der Dokumentation zu Aspose.Slides für .NET.
 
 ### F3: Gibt es Lizenzanforderungen für die Verwendung von Aspose.Slides für .NET?
 

@@ -63,7 +63,7 @@ rectangle.Rotation = 45;
 ShapeUtil fournit également des méthodes pour organiser et aligner les formes sur les diapositives.
 
 ```csharp
-//Disposer les formes horizontalement
+// Disposer les formes horizontalement
 ShapeUtil.ArrangeHorizontally(slide.Shapes);
 
 // Aligner les formes au centre
@@ -88,7 +88,7 @@ ShapeUtil.UngroupShape(slide, groupedShape);
 ShapeUtil vous permet d'appliquer une mise en forme aux formes, y compris les styles de remplissage et de ligne.
 
 ```csharp
-// Appliquer la couleur de remplissage
+//Appliquer la couleur de remplissage
 ShapeUtil.ApplyFillColor(shape, Color.Blue);
 
 // Appliquer la couleur et le style de ligne
@@ -97,7 +97,7 @@ ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
 
 ## Ajout de texte aux formes géométriques
 
-Vous pouvez également ajouter du texte aux formes géométriques à l’aide de ShapeUtil.
+Vous pouvez également ajouter du texte aux formes géométriques à l'aide de ShapeUtil.
 
 ```csharp
 // Ajouter du texte à la forme
@@ -128,7 +128,7 @@ ShapeUtil.SendToBack(shape);
 
 ## Enregistrement et exportation de la présentation
 
-Une fois que vous avez apporté toutes les modifications nécessaires, vous pouvez enregistrer et exporter la présentation.
+Une fois que vous avez effectué toutes les modifications nécessaires, vous pouvez enregistrer et exporter la présentation.
 
 ```csharp
 // Enregistrez la présentation

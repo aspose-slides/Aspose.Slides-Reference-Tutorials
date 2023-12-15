@@ -16,7 +16,7 @@ Aspose.Slides para .NET es una biblioteca sólida que permite a los desarrollado
 
 Antes de comenzar, debe configurar su entorno de desarrollo. Sigue estos pasos:
 
-1.  Descargue e instale Visual Studio desde[Descargas de Visual Studio](https://visualstudio.microsoft.com/downloads/).
+1. Descargue e instale Visual Studio desde[Descargas de Visual Studio](https://visualstudio.microsoft.com/downloads/).
 2. Cree un nuevo proyecto .NET (aplicación de consola, por ejemplo) en Visual Studio.
 
 ## Cargando una presentación de PowerPoint

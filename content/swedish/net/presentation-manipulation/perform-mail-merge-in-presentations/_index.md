@@ -94,7 +94,7 @@ string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
             // skapa resultat (individuellt) presentationsnamn
             string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
 
-            //Ladda presentationsmall
+            // Ladda presentationsmall
             using (Presentation pres = new Presentation(presTemplatePath))
             {
                 // Fyll textrutor med data från databasens huvudtabell

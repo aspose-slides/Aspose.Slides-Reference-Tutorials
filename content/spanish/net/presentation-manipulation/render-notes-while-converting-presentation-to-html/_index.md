@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation(dataDir + "Presentation.pptx"))
 
 ## 5. Configurar las opciones HTML
 
-continuación, debemos configurar las opciones de conversión de HTML. Específicamente, queremos colocar las notas en la parte inferior de las páginas HTML. Utilice el siguiente fragmento de código para configurar las opciones:
+A continuación, debemos configurar las opciones de conversión de HTML. Específicamente, queremos colocar las notas en la parte inferior de las páginas HTML. Utilice el siguiente fragmento de código para configurar las opciones:
 
 ```csharp
 HtmlOptions opt = new HtmlOptions();
@@ -73,7 +73,7 @@ Sí, puede personalizar la salida HTML modificando el objeto HTMLOptions. Puede 
 Sí, Aspose.Slides para .NET admite varios formatos de PowerPoint, incluidos PPT, PPTX y más.
 
 ### P4. ¿Existen consideraciones sobre la licencia?
- Para utilizar Aspose.Slides para .NET en su proyecto, necesitará obtener una licencia de Aspose. Puede encontrar más información sobre licencias.[aquí](https://purchase.aspose.com/buy).
+Para utilizar Aspose.Slides para .NET en su proyecto, necesitará obtener una licencia de Aspose. Puede encontrar más información sobre licencias.[aquí](https://purchase.aspose.com/buy).
 
 ### P5. ¿Dónde puedo obtener soporte para Aspose.Slides para .NET?
  Si tiene algún problema o tiene preguntas, puede buscar ayuda en el[Foro Aspose.Slides](https://forum.aspose.com/).

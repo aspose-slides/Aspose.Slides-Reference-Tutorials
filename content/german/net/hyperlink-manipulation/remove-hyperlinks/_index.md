@@ -1,107 +1,86 @@
 ---
-title: Entfernen Sie Hyperlinks von der Folie
+title: So entfernen Sie Hyperlinks von Folien mit Aspose.Slides .NET
 linktitle: Entfernen Sie Hyperlinks von der Folie
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET mühelos Hyperlinks aus PowerPoint-Folien entfernen.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Hyperlinks aus PowerPoint-Folien entfernen. Erstellen Sie saubere und professionelle Präsentationen.
 type: docs
 weight: 11
 url: /de/net/hyperlink-manipulation/remove-hyperlinks/
 ---
 
-## Einführung zum Entfernen von Hyperlinks aus Folien
+In der Welt professioneller Präsentationen ist es wichtig, dass Ihre Folien ordentlich und ordentlich aussehen. Ein häufiges Element, das Folien oft überfüllt, sind Hyperlinks. Unabhängig davon, ob es sich bei Ihrer Präsentation um Hyperlinks zu Websites, Dokumenten oder anderen Folien handelt, möchten Sie diese möglicherweise entfernen, um ein klareres und fokussierteres Erscheinungsbild zu erzielen. Mit Aspose.Slides für .NET können Sie diese Aufgabe problemlos lösen. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Entfernens von Hyperlinks aus Folien mit Aspose.Slides für .NET.
 
-Wenn es um die programmgesteuerte Verwaltung und Bearbeitung von PowerPoint-Präsentationen geht, zeichnet sich Aspose.Slides für .NET als leistungsstarkes Tool aus, mit dem Entwickler effizient mit Folien, Formen und verschiedenen Elementen in Präsentationen arbeiten können. Eine häufig auftretende Aufgabe ist die Notwendigkeit, Hyperlinks von bestimmten Folien zu entfernen. Unabhängig davon, ob es sich um Kundenpräsentationen, Lehrmaterialien oder Geschäftsberichte handelt, können unerwünschte Hyperlinks manchmal Ihre Folien überladen oder die Navigation erschweren. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Entfernens von Hyperlinks aus einer Folie mit Aspose.Slides für .NET.
+## Voraussetzungen
 
-## Einrichten der Entwicklungsumgebung
+Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-Bevor wir uns mit dem eigentlichen Code befassen, ist es wichtig, dass die richtige Entwicklungsumgebung vorhanden ist. Sie können mit den folgenden einfachen Schritten beginnen:
+1.  Aspose.Slides für .NET: Aspose.Slides für .NET sollte in Ihrer Entwicklungsumgebung installiert und eingerichtet sein. Wenn Sie es noch nicht getan haben, können Sie es hier erhalten[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
 
-1.  Laden Sie Aspose.Slides für .NET herunter und installieren Sie es: Besuchen Sie die Aspose-Website oder verwenden Sie den bereitgestellten Link[Hier](https://releases.aspose.com/slides/net/) um auf die Aspose.Slides für .NET-Bibliothek zuzugreifen. Laden Sie es herunter und installieren Sie es auf Ihrem Computer.
+2. Eine PowerPoint-Präsentation: Sie benötigen eine PowerPoint-Präsentation (PPTX-Datei), aus der Sie Hyperlinks entfernen möchten.
 
-2. Erstellen Sie ein neues .NET-Projekt: Öffnen Sie Ihre bevorzugte integrierte Entwicklungsumgebung (IDE) und erstellen Sie ein neues .NET-Projekt. Wählen Sie den passenden Projekttyp basierend auf Ihren Anforderungen.
+Wenn diese Voraussetzungen erfüllt sind, können Sie loslegen. Lassen Sie uns Schritt für Schritt in den Prozess zum Entfernen von Hyperlinks aus Ihren Folien eintauchen.
 
-## Referenzen hinzufügen und Bibliotheken importieren
+## Schritt 1: Namespaces importieren
 
-Sobald Ihr Projekt eingerichtet ist, besteht der nächste Schritt darin, auf die Aspose.Slides-Bibliothek zu verweisen und die erforderlichen Namespaces zu importieren:
+Zunächst müssen Sie die erforderlichen Namespaces in Ihren C#-Code importieren. Diese Namespaces bieten Zugriff auf die Aspose.Slides für .NET-Bibliothek. Fügen Sie Ihrem Code die folgenden Zeilen hinzu:
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-## Laden einer Präsentation
+## Schritt 2: Laden Sie die Präsentation
 
-Wenn die erforderlichen Referenzen vorhanden sind, können Sie nun eine vorhandene PowerPoint-Präsentation in Ihr Projekt laden:
-
-```csharp
-string presentationPath = "path_to_your_presentation.pptx";
-using (Presentation presentation = new Presentation(presentationPath))
-{
-    // Ihr Code zum Entfernen von Hyperlinks wird hier abgelegt
-}
-```
-
-## Zugriff auf Folien und Hyperlinks
-
-Gehen Sie die Folien in der Präsentation durch, um Hyperlinks zu identifizieren und zu entfernen:
+Jetzt müssen Sie die PowerPoint-Präsentation laden, die die Hyperlinks enthält, die Sie entfernen möchten. Stellen Sie sicher, dass Sie den richtigen Pfad zu Ihrer Präsentationsdatei angeben. So können Sie es machen:
 
 ```csharp
-foreach (ISlide slide in presentation.Slides)
-{
-    foreach (IShape shape in slide.Shapes)
-    {
-        if (shape is IAutoShape autoShape)
-        {
-            foreach (IHyperlink hyperlink in autoShape.HyperlinkQueries)
-            {
-                // Entfernen oder deaktivieren Sie den Hyperlink nach Bedarf
-            }
-        }
-    }
-}
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## Hyperlinks entfernen
+ Ersetzen Sie im obigen Code`"Your Document Directory"`mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis und`"Hyperlink.pptx"` mit dem Namen Ihrer PowerPoint-Präsentationsdatei.
 
-Verwenden Sie Aspose.Slides-Methoden, um Hyperlinks zu deaktivieren oder zu entfernen:
+## Schritt 3: Hyperlinks entfernen
+
+Nachdem Ihre Präsentation geladen ist, können Sie mit dem Entfernen der Hyperlinks fortfahren. Aspose.Slides für .NET bietet hierfür eine unkomplizierte Methode:
 
 ```csharp
-hyperlink.Remove();
-// ODER
-hyperlink.Disabled = true;
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## Speichern der geänderten Präsentation
+ Der`RemoveAllHyperlinks()` Die Methode entfernt alle Hyperlinks aus der Präsentation.
 
-Speichern Sie nach dem Entfernen der Hyperlinks die geänderte Präsentation:
+## Schritt 4: Speichern Sie die geänderte Präsentation
+
+Nachdem Sie die Hyperlinks entfernt haben, sollten Sie die geänderte Präsentation in einer neuen Datei speichern. Sie können wählen, ob Sie es im gleichen Format (PPTX) oder bei Bedarf in einem anderen speichern möchten. So speichern Sie es als PPTX-Datei:
 
 ```csharp
-string modifiedPath = "path_to_modified_presentation.pptx";
-presentation.Save(modifiedPath, SaveFormat.Pptx);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
+
+ Erneut ersetzen`"RemovedHyperlink_out.pptx"` mit dem gewünschten Namen und Pfad der Ausgabedatei.
+
+Glückwunsch! Sie haben mit Aspose.Slides für .NET erfolgreich Hyperlinks aus Ihrer PowerPoint-Präsentation entfernt. Ihre Folien sind jetzt frei von Ablenkungen und bieten ein klareres und fokussierteres Seherlebnis.
 
 ## Abschluss
 
-In dieser Anleitung haben wir untersucht, wie Sie mit Aspose.Slides für .NET Hyperlinks aus Folien entfernen. Diese vielseitige Bibliothek vereinfacht die programmgesteuerte Arbeit mit PowerPoint-Präsentationen und ermöglicht Ihnen die effiziente Verwaltung verschiedener Elemente in Ihren Folien. Ganz gleich, ob Sie das Benutzererlebnis verbessern oder professionelle Präsentationen vorbereiten, mit Aspose.Slides können Sie nahtlos Ihre gewünschten Ergebnisse erzielen.
+In diesem Tutorial haben wir den Prozess des Entfernens von Hyperlinks aus PowerPoint-Präsentationen mithilfe von Aspose.Slides für .NET durchlaufen. Mit nur wenigen einfachen Schritten können Sie sicherstellen, dass Ihre Folien professionell und übersichtlich aussehen. Aspose.Slides für .NET vereinfacht die Arbeit mit PowerPoint-Präsentationen und stellt Ihnen die Tools zur Verfügung, die Sie für eine effiziente und präzise Verwaltung benötigen.
 
-## FAQs
+Wenn Sie dieses Handbuch hilfreich fanden, können Sie in der Dokumentation weitere Funktionen und Möglichkeiten von Aspose.Slides für .NET erkunden[Hier](https://reference.aspose.com/slides/net/) . Sie können die Bibliothek auch unter herunterladen[dieser Link](https://releases.aspose.com/slides/net/) und eine Lizenz erwerben[Hier](https://purchase.aspose.com/buy) falls Sie es noch nicht getan haben. Für diejenigen, die es zuerst ausprobieren möchten, steht eine kostenlose Testversion zur Verfügung[Hier](https://releases.aspose.com/) Es können auch temporäre Lizenzen erworben werden[Hier](https://purchase.aspose.com/temporary-license/).
 
-### Wie kann ich Aspose.Slides für .NET herunterladen?
+## Häufig gestellte Fragen (FAQs)
 
- Sie können Aspose.Slides für .NET von der Website herunterladen:[Hier](https://releases.aspose.com/slides/net/)
+### Kann ich Hyperlinks selektiv von bestimmten Folien in meiner Präsentation entfernen?
+Ja, du kannst. Aspose.Slides für .NET bietet Methoden, um auf bestimmte Folien oder Formen abzuzielen und Hyperlinks von ihnen zu entfernen.
 
-### Kann ich Hyperlinks von bestimmten Formen innerhalb einer Folie entfernen?
+### Ist Aspose.Slides für .NET mit den neuesten PowerPoint-Dateiformaten kompatibel?
+Ja, Aspose.Slides für .NET unterstützt die neuesten PowerPoint-Dateiformate, einschließlich PPTX.
 
-Ja, mit der Aspose.Slides-Bibliothek können Sie Formen innerhalb einer Folie durchlaufen und Hyperlinks selektiv von bestimmten Formen entfernen.
+### Kann ich diesen Prozess für mehrere Präsentationen in einem Stapel automatisieren?
+Absolut. Mit Aspose.Slides für .NET können Sie Aufgaben über mehrere Präsentationen hinweg automatisieren, sodass es für die Stapelverarbeitung geeignet ist.
 
-### Eignet sich Aspose.Slides sowohl für private als auch für kommerzielle Projekte?
+### Gibt es weitere Funktionen, die Aspose.Slides für .NET für PowerPoint-Präsentationen bietet?
+Ja, Aspose.Slides für .NET bietet eine breite Palette an Funktionen, einschließlich der Erstellung, Bearbeitung und Konvertierung von Folien in verschiedene Formate.
 
-Absolut! Aspose.Slides ist für eine breite Palette von Projekten konzipiert, darunter persönliche, pädagogische und kommerzielle Projekte.
-
-### Benötige ich umfangreiche Programmierkenntnisse, um Aspose.Slides für .NET nutzen zu können?
-
-Während grundlegende Programmierkenntnisse von Vorteil sind, bietet Aspose.Slides eine umfassende Dokumentation und Beispiele, die Sie durch den Prozess führen.
-
-### Kann ich das Entfernen von Hyperlinks nach dem Speichern der Präsentation rückgängig machen?
-
-Nein, sobald Sie die Präsentation nach dem Entfernen des Hyperlinks speichern, sind die Änderungen dauerhaft. Es empfiehlt sich, eine Sicherungskopie Ihrer Originalpräsentation aufzubewahren.
+### Ist technischer Support für Aspose.Slides für .NET verfügbar?
+ Ja, Sie können technischen Support anfordern und mit der Aspose-Community interagieren[Aspose-Forum](https://forum.aspose.com/).

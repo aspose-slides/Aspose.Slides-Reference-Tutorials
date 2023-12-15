@@ -2,259 +2,132 @@
 title: Slaytlarda Üstbilgi ve Altbilgiyi Yönetme
 linktitle: Slaytlarda Üstbilgi ve Altbilgiyi Yönetme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak slaytlardaki üstbilgileri ve altbilgileri nasıl yöneteceğinizi öğrenin. Sunumlarınızı kolaylıkla ve hassasiyetle özelleştirin.
+description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarına dinamik üstbilgi ve altbilgileri nasıl ekleyeceğinizi öğrenin.
 type: docs
 weight: 14
 url: /tr/net/chart-creation-and-customization/header-footer-manager/
 ---
 
-## giriiş
+# Aspose.Slides for .NET'te Dinamik Üstbilgi ve Altbilgi Oluşturma
 
-Üstbilgiler ve altbilgiler, slayt numarası, tarih ve sunum başlığı gibi temel bağlamı sağlayan bir sunumun ayrılmaz bileşenleridir. Aspose.Slides for .NET'i kullanarak bu öğeleri kolaylıkla slaytlarınıza dahil edebilir ve ihtiyaçlarınıza göre özelleştirebilirsiniz.
+Dinamik sunumlar dünyasında Aspose.Slides for .NET güvenilir müttefikinizdir. Bu güçlü kitaplık, bir miktar etkileşimle ilgi çekici PowerPoint sunumları hazırlamanıza olanak tanır. Önemli özelliklerden biri, slaytlarınıza hayat verebilecek dinamik üstbilgiler ve altbilgiler ekleme yeteneğidir. Bu adım adım kılavuzda, bu dinamik unsurları sunumunuza eklemek için Aspose.Slides for .NET'ten nasıl yararlanabileceğinizi keşfedeceğiz. O halde hadi dalalım!
 
-## Aspose.Slides for .NET'e Başlarken
+## Önkoşullar
 
-Üstbilgi ve altbilgileri yönetmenin ayrıntılarına dalmadan önce, Aspose.Slides for .NET ile çalışmaya başlamak için gerekli kuruluma sahip olduğunuzdan emin olalım. Bu adımları takip et:
+Başlamadan önce birkaç şeye ihtiyacınız olacak:
 
-1.  İndirin ve Kurun: Aspose.Slides for .NET kütüphanesini web sitesinden indirin[Burada](https://releases.aspose.com/slides/net) ve bunu geliştirme ortamınıza yükleyin.
+1.  Aspose.Slides for .NET: Aspose.Slides for .NET'in kurulu olması gerekir. Henüz yapmadıysanız kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-2. Yeni Bir Proje Oluşturun: Tercih ettiğiniz Tümleşik Geliştirme Ortamını (IDE) açın ve yeni bir .NET projesi oluşturun.
+2. Belgeniz: Üzerinde çalışmak istediğiniz PowerPoint sunumunun yerel dizininizde kayıtlı olması gerekir. Bu belgenin yolunu bildiğinizden emin olun.
 
-3. Referans Ekle: Projenizdeki Aspose.Slides for .NET kütüphanesine bir referans ekleyin.
+## Ad Alanlarını İçe Aktar
+
+Başlamak için gerekli ad alanlarını projenize aktarmanız gerekir. Bu ad alanları Aspose.Slides ile çalışmak için gerekli araçları sağlar.
+
+### 1. Adım: Ad Alanlarını İçe Aktarın
+
+C# projenizde kod dosyanızın en üstüne aşağıdaki ad alanlarını ekleyin:
 
 ```csharp
 using Aspose.Slides;
+using Aspose.Slides.Export;
 ```
 
-## Üstbilgi ve Altbilgi Ekleme
+## Dinamik Üstbilgi ve Altbilgi Ekleme
 
-## Slayt Numarası
+Şimdi PowerPoint sunumunuza dinamik üstbilgi ve altbilgi ekleme sürecini adım adım inceleyelim.
 
-Slaytlarınıza slayt numarası eklemek, hedef kitlenizin ilerlemelerini takip etmesine yardımcı olmanın etkili bir yoludur. Aspose.Slides ile bunu yalnızca birkaç satır kodla başarabilirsiniz:
+### 2. Adım: Sunumunuzu Yükleyin
+
+Bu adımda PowerPoint sunumunuzu C# projenize yüklemeniz gerekiyor.
 
 ```csharp
-using Aspose.Slides;
+string dataDir = "Your Document Directory";
 
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Slayt numaralarını etkinleştir
-foreach (ISlide slide in presentation.Slides)
+using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
 {
-    slide.HeadersFooters.SlideNumberVisibility = true;
+    // Üstbilgi ve altbilgi yönetimi kodunuz buraya gelecek.
+    // ...
 }
-
-// Değiştirilen sunuyu kaydet
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Tarih ve saat
+### 3. Adım: Üstbilgi ve Altbilgi Yöneticisine Erişim
 
-Sununun oluşturulma tarihini ve saatini eklemek ek bağlam sağlayabilir. Slaytlarınıza tarih ve saati şu şekilde ekleyebilirsiniz:
+Aspose.Slides for .NET, üstbilgileri ve altbilgileri yönetmek için kullanışlı bir yol sağlar. Sununuzdaki ilk slaydın üstbilgi ve altbilgi yöneticisine erişiyoruz.
 
 ```csharp
-using Aspose.Slides;
+IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
+```
 
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
+### 4. Adım: Alt Bilgi Görünürlüğünü Ayarlayın
 
-// Tarih ve saati etkinleştir
-foreach (ISlide slide in presentation.Slides)
+ Alt bilgi yer tutucusunun görünürlüğünü kontrol etmek için`SetFooterVisibility` yöntem.
+
+```csharp
+if (!headerFooterManager.IsFooterVisible)
 {
-    slide.HeadersFooters.DateAndTimeVisibility = true;
+    headerFooterManager.SetFooterVisibility(true);
 }
-
-// Değiştirilen sunuyu kaydet
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Özel metin
+### Adım 5: Slayt Numarası Görünürlüğünü Ayarlayın
 
-Bazen üstbilgiye veya altbilgiye özel metin eklemek isteyebilirsiniz. Bu, şirketinizin adı, etkinlik ayrıntıları veya diğer ilgili bilgiler olabilir:
+ Benzer şekilde, slayt sayfası numarası yer tutucusunun görünürlüğünü kullanarak kontrol edebilirsiniz.`SetSlideNumberVisibility` yöntem.
 
 ```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Özel üstbilgi ve altbilgi metnini ayarlama
-foreach (ISlide slide in presentation.Slides)
+if (!headerFooterManager.IsSlideNumberVisible)
 {
-    slide.HeadersFooters.HeaderText = "Your Custom Header Text";
-    slide.HeadersFooters.FooterText = "Your Custom Footer Text";
+    headerFooterManager.SetSlideNumberVisibility(true);
 }
-
-// Değiştirilen sunuyu kaydet
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Yazı Tipi ve Renk
+### 6. Adım: Tarih ve Saat Görünürlüğünü Ayarlayın
 
-Aspose.Slides, üstbilgilerinizin ve altbilgilerinizin yazı tipini ve rengini sunumunuzun tasarımına uyacak şekilde özelleştirmenize olanak tanır:
+ Tarih-saat yer tutucusunun görünür olup olmadığını belirlemek için`IsDateTimeVisible`mülk. Görünmüyorsa butonunu kullanarak görünür hale getirebilirsiniz.`SetDateTimeVisibility` yöntem.
 
 ```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Yazı tipini ve rengini özelleştirin
-foreach (ISlide slide in presentation.Slides)
+if (!headerFooterManager.IsDateTimeVisible)
 {
-    slide.HeadersFooters.TextFormat.PortionFormat.FontHeight = 18;
-    slide.HeadersFooters.TextFormat.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    headerFooterManager.SetDateTimeVisibility(true);
 }
-
-// Değiştirilen sunuyu kaydet
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
-## Hizalama ve Konum
+### Adım 7: Alt Bilgiyi ve Tarih-Saat Metnini Ayarlayın
 
-Üstbilgilerin ve altbilgilerin hizalamasını ve konumunu kontrol etmek, slaytlarınızda tutarlı bir görünüm sağlar:
+Son olarak altbilgi ve tarih-saat yer tutucularınızın metnini ayarlayabilirsiniz.
 
 ```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Üstbilgileri ve altbilgileri hizalayın
-foreach (ISlide slide in presentation.Slides)
-{
-    slide.HeadersFooters.TextFormat.Alignment = TextAlignment.Center;
-    slide.HeadersFooters.TextFormat.Position = HeaderFooterPosition.Bottom;
-}
-
-// Değiştirilen sunuyu kaydet
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
+headerFooterManager.SetFooterText("Footer text");
+headerFooterManager.SetDateTimeText("Date and time text");
 ```
 
-## Farklı Slayt Düzenlerini Kullanma
+### Adım 8: Sunumunuzu Kaydedin
 
-Farklı slaytların, başlık slaytları veya içerik slaytları gibi farklı düzenleri olabilir. Aspose.Slides, üstbilgileri ve altbilgileri belirli slayt düzenlerine göre uyarlamanıza olanak tanır:
+Gerekli tüm değişiklikleri yaptıktan sonra güncellenen sununuzu kaydedin.
 
 ```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Belirli slayt düzenleri için üstbilgileri ve altbilgileri özelleştirme
-foreach (ISlide slide in presentation.Slides)
-{
-    if (slide.LayoutSlide is TitleSlideLayout)
-    {
-        slide.HeadersFooters.HeaderText = "Title Slide Header";
-    }
-    else
-    {
-        slide.HeadersFooters.FooterText = "Content Slide Footer";
-    }
-}
-
-// Değiştirilen sunuyu kaydet
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
+presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 ```
-
-## Slayta Özel Üstbilgiler ve Altbilgiler
-
-Bazı durumlarda, ayrı ayrı slaytlar için farklı üstbilgilere ve altbilgilere ihtiyacınız olabilir. Aspose.Slides bunu mümkün kılar:
-
-```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Slayda özel üstbilgi ve altbilgileri ayarlama
-foreach (ISlide slide in presentation.Slides)
-{
-    if (slide.SlideNumber == 3)
-    {
-        slide.HeadersFooters.HeaderText = "Special Header for Slide 3";
-    }
-    else
-    {
-        slide.HeadersFooters.FooterText = "Common Footer Text";
-    }
-}
-
-// Değiştirilen sunuyu kaydet
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
-```
-
-## Ana Slaytlar
-
-Ana slaytlar sunumunuz için tutarlı bir şablon sağlar. Tekdüzeliği sağlamak için ana slaytlara üstbilgi ve altbilgi uygulayabilirsiniz:
-
-```csharp
-using Aspose.Slides;
-
-
-
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Ana slayda erişme
-IMasterSlide masterSlide = presentation.Masters[0];
-
-// Ana slaytta üstbilgileri ve altbilgileri ayarlama
-masterSlide.HeadersFooters.HeaderText = "Master Slide Header";
-masterSlide.HeadersFooters.FooterText = "Master Slide Footer";
-
-// Değiştirilen sunuyu kaydet
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
-```
-
-## Dışa Aktarma ve Paylaşma
-
-Üstbilgilerinizi ve altbilgilerinizi özelleştirdikten sonra sununuzu başkalarıyla paylaşmanın zamanı geldi. Aspose.Slides'ı kullanarak kolayca çeşitli formatlara aktarabilirsiniz:
-
-```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Sunuyu farklı formatlarda kaydedin
-presentation.Save("presentation.pdf", SaveFormat.Pdf);
-presentation.Save("presentation.png", SaveFormat.Png);
-```
-
-## Etkili Üstbilgi ve Altbilgi Kullanımı İçin En İyi Uygulamalar
-
-- Kısa ve Kısa Tutun: Üstbilgiler ve altbilgiler, izleyiciyi bunaltmadan ilgili bilgileri sağlamalıdır.
-
-- Tutarlılık Önemlidir: Görsel çekiciliği artırmak için tüm slaytlarda tutarlı bir stil koruyun.
-
-- Gözden Geçirin ve Ayarlayın: Doğruluk ve alakadan emin olmak için üstbilgileri ve altbilgileri düzenli olarak inceleyin.
-
-- Dağınıklıktan Kaçının: Slaytları üstbilgi ve altbilgilerde aşırı bilgilerle aşırı doldurmayın.
 
 ## Çözüm
 
-İyi tasarlanmış üstbilgi ve altbilgileri birleştirmek sunumlarınızın kalitesini önemli ölçüde artırabilir. Aspose.Slides for .NET, üstbilgileri ve altbilgileri zahmetsizce yönetmek ve özelleştirmek için kapsamlı bir araç seti sunarak izleyicilerinizi büyüleyen etkili sunumlar oluşturmanıza olanak tanır.
+Aspose.Slides for .NET ile PowerPoint sunumunuza dinamik üstbilgi ve altbilgi eklemek çok kolaydır. Bu özellik, slaytlarınızın genel görsel çekiciliğini ve bilgi dağıtımını geliştirerek onları daha ilgi çekici ve profesyonel hale getirir.
 
-## SSS'ler
+Artık PowerPoint sunumlarınızı bir sonraki seviyeye taşıyacak bilgiyle donatıldınız. Öyleyse devam edin ve slaytlarınızı daha dinamik, bilgilendirici ve görsel olarak büyüleyici hale getirin!
 
-### Aspose.Slides for .NET'i nasıl indirebilirim?
+## Sıkça Sorulan Sorular (SSS)
 
- Aspose.Slides for .NET'i sürümler sayfasından indirebilirsiniz:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net).
+### S1: Aspose.Slides for .NET ücretsiz bir kütüphane midir?
+ Cevap1: Aspose.Slides for .NET ücretsiz değil. Fiyatlandırma ve lisans ayrıntılarını bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
-### Aspose.Slides farklı slayt formatlarıyla uyumlu mu?
+### S2: Satın almadan önce Aspose.Slides for .NET'i deneyebilir miyim?
+C2: Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
-Evet, Aspose.Slides, PowerPoint (.pptx) ve PDF dahil çok çeşitli slayt formatlarını destekler.
+### S3: Aspose.Slides for .NET belgelerini nerede bulabilirim?
+ A3: Belgelere erişebilirsiniz[Burada](https://reference.aspose.com/slides/net/).
 
-### Belirli slaytlar için üstbilgileri ve altbilgileri özelleştirebilir miyim?
+### S4: Aspose.Slides for .NET için nasıl geçici lisans alabilirim?
+ Cevap4: Geçici lisanslar alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
 
-Kesinlikle! Aspose.Slides, üstbilgileri ve altbilgileri slayt bazında özelleştirmenize olanak tanıyarak sunumunuzun görünümü üzerinde tam kontrol sahibi olmanızı sağlar.
-
-### Aspose.Slides'ın deneme sürümü mevcut mu?
-
-Evet, Aspose.Slides'ın özelliklerini web sitesinden ücretsiz deneme sürümünü indirerek keşfedebilirsiniz.
-
-### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
-
- Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net).
+### S5: Aspose.Slides for .NET için bir topluluk veya destek forumu var mı?
+ Cevap5: Evet, Aspose.Slides for .NET destek forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/).

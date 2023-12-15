@@ -1,232 +1,150 @@
 ---
-title: Opzioni contrassegno grafico sul punto dati
+title: Utilizzo delle opzioni degli indicatori di grafico sul punto dati in Aspose.Slides .NET
 linktitle: Opzioni contrassegno grafico sul punto dati
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come migliorare le visualizzazioni dei dati utilizzando Aspose.Slides per .NET. Esplora le opzioni degli indicatori sul grafico passo dopo passo.
+description: Scopri come migliorare i tuoi grafici PowerPoint utilizzando Aspose.Slides per .NET. Personalizza gli indicatori di punti dati con immagini. Crea presentazioni accattivanti.
 type: docs
 weight: 11
 url: /it/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
-## Introduzione alle opzioni degli indicatori di grafico
+Quando si lavora con presentazioni e visualizzazione di dati, Aspose.Slides per .NET offre un'ampia gamma di potenti funzionalità per creare, personalizzare e manipolare grafici. In questo tutorial esploreremo come utilizzare le opzioni degli indicatori del grafico sui punti dati per migliorare le presentazioni dei grafici. Questa guida passo passo ti guiderà attraverso il processo, partendo dai prerequisiti e dall'importazione degli spazi dei nomi, fino alla suddivisione di ogni esempio in più passaggi.
 
-Le opzioni degli indicatori del grafico sono miglioramenti visivi che possono essere applicati a singoli punti dati su un grafico. Questi marcatori aiutano a evidenziare valori di dati specifici, rendendo più semplice per il pubblico interpretare le informazioni presentate. Utilizzando le opzioni dei marcatori del grafico, puoi attirare l'attenzione su punti dati cruciali ed enfatizzare tendenze o valori anomali.
+## Prerequisiti
 
-## Impostazione dell'ambiente di sviluppo
+Prima di approfondire l'utilizzo delle opzioni degli indicatori del grafico sui punti dati, assicurati di disporre dei seguenti prerequisiti:
 
-Prima di immergerci nel lavoro con le opzioni degli indicatori di grafico utilizzando Aspose.Slides per .NET, assicuriamoci di disporre degli strumenti necessari.
+-  Aspose.Slides per .NET: assicurati di avere Aspose.Slides per .NET installato. Puoi scaricarlo da[sito web](https://releases.aspose.com/slides/net/).
 
-## Installazione di Aspose.Slides per .NET
+- Presentazione di esempio: per questo tutorial utilizzeremo una presentazione di esempio denominata "Test.pptx". Dovresti avere questa presentazione nella directory dei documenti.
 
- Per iniziare, è necessario che Aspose.Slides per .NET sia installato nel tuo ambiente di sviluppo. È possibile scaricare la libreria dal sito:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net).
+Ora iniziamo importando gli spazi dei nomi necessari.
 
-## Creazione di un nuovo progetto
-
-Una volta installato Aspose.Slides per .NET, crea un nuovo progetto nel tuo ambiente di sviluppo .NET preferito. Puoi utilizzare Visual Studio o qualsiasi altro IDE di tua scelta.
-
-## Caricamento e modifica di una presentazione esistente
-
-Per lavorare con le opzioni dei marcatori del grafico, abbiamo bisogno di una presentazione esistente con un grafico. Iniziamo caricando una presentazione esistente e accedendo alla diapositiva contenente il grafico.
-
-## Caricamento di un file di presentazione
+## Importa spazi dei nomi
 
 ```csharp
-// Carica la presentazione
-using (Presentation presentation = new Presentation("sample.pptx"))
-{
-    // Il tuo codice per lavorare con la presentazione va qui
-}
+﻿using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## Accesso alla diapositiva con il grafico
+Abbiamo importato gli spazi dei nomi richiesti e inizializzato la nostra presentazione. Ora procediamo a utilizzare le opzioni degli indicatori del grafico sui punti dati.
 
-Successivamente, identifichiamo la diapositiva che contiene il grafico che vogliamo modificare.
+## Passaggio 1: creazione del grafico predefinito
 
 ```csharp
-//Accesso a una diapositiva con un grafico
-ISlide slide = presentation.Slides[0]; // Sostituisci 0 con l'indice della diapositiva
+
+// Il percorso della directory dei documenti.
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+
+ISlide slide = pres.Slides[0];
+
+// Creazione del grafico predefinito
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## Accesso alla serie di dati del grafico
+Creiamo un grafico predefinito di tipo "LineWithMarkers" sulla diapositiva in una posizione e dimensione specificate.
 
-Per applicare le opzioni dei marcatori ai punti dati, dobbiamo prima accedere alle serie di dati rilevanti all'interno del grafico.
-
-## Identificazione delle serie di dati
+## Passaggio 2: ottenere l'indice del foglio di lavoro dei dati del grafico predefinito
 
 ```csharp
-// Accesso al grafico sulla diapositiva
-IChart chart = slide.Shapes[0] as IChart;
-
-// Accesso alla prima serie di dati
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-IChartSeries dataSeries = chart.ChartData.Series[0];
+// Ottenere l'indice del foglio di lavoro dei dati del grafico predefinito
+int defaultWorksheetIndex = 0;
 ```
 
-## Accesso ai punti dati
+Qui otteniamo l'indice del foglio di lavoro dei dati del grafico predefinito.
 
-Ora che abbiamo accesso alle serie di dati, possiamo lavorare con i singoli punti dati.
+## Passaggio 3: ottenere il foglio di lavoro dei dati del grafico
 
 ```csharp
-// Accesso ai singoli punti dati
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    // Il tuo codice per lavorare con i punti dati va qui
-}
+//Ottenere il foglio di lavoro con i dati del grafico
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-## Applicazione delle opzioni dei marcatori
+Recuperiamo la cartella di lavoro dei dati del grafico per lavorare con i dati del grafico.
 
-Applichiamo ora le opzioni dei marcatori ai punti dati all'interno del grafico.
-
-## Abilitazione dei marcatori per i punti dati
+## Passaggio 4: modifica della serie di grafici
 
 ```csharp
-// Abilitazione dei marcatori per i punti dati
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Circle; // Puoi scegliere un tipo di marcatore diverso
-    dataPoint.Marker.Symbol.Size = 10; // Regola la dimensione del pennarello secondo necessità
-    dataPoint.Marker.Visible = true; // Mostra marcatori
-}
+// Elimina la serie demo
+chart.ChartData.Series.Clear();
+
+// Aggiungi nuova serie
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-## Personalizzazione dell'aspetto dei marcatori
+In questo passaggio rimuoviamo tutte le serie demo esistenti e aggiungiamo una nuova serie denominata "Serie 1" al grafico.
 
-Puoi anche personalizzare l'aspetto dei marcatori per renderli visivamente più accattivanti.
+## Passaggio 5: impostazione del riempimento immagine per i punti dati
 
 ```csharp
-// Personalizzazione dell'aspetto del marcatore
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Diamond;
-    dataPoint.Marker.Symbol.Size = 12;
-    dataPoint.Marker.Symbol.Fill.SolidFillColor.Color = Color.Red;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.FillType = FillType.Solid;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+// Imposta l'immagine per i marcatori
+System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx1 = pres.Images.AddImage(img1);
+
+System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
+IPPImage imgx2 = pres.Images.AddImage(img2);
+
+// Prendi la prima serie di grafici
+IChartSeries series = chart.ChartData.Series[0];
+
+// Aggiungi nuovi punti dati con riempimento immagine
+IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, (double)2.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, (double)3.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-## Aggiunta di etichette ai marcatori
+Impostiamo indicatori di immagine per i punti dati, consentendoti di personalizzare il modo in cui ciascun punto dati appare sul grafico.
 
-L'aggiunta di etichette dati agli indicatori può fornire contesto e chiarezza al grafico.
-
-## Visualizzazione delle etichette dati
+## Passaggio 6: modifica della dimensione dell'indicatore della serie di grafici
 
 ```csharp
-// Visualizzazione delle etichette dati
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.ShowCategoryName = true;
-    dataLabel.ShowValue = true;
-}
+//Modifica delle dimensioni dell'indicatore delle serie di grafici
+series.Marker.Size = 15;
 ```
 
-## Formattazione delle etichette dati
+Qui regoliamo la dimensione dell'indicatore della serie di grafici per renderlo visivamente accattivante.
 
-Puoi formattare le etichette dati in base alle tue preferenze.
+## Passaggio 7: salvataggio della presentazione
 
 ```csharp
-// Formattazione delle etichette dati
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontBold = NullableBool.True;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontHeight = 14;
-}
+pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ```
 
-## Gestione della sovrapposizione dei marker
-
-Nei casi in cui i marcatori si sovrappongono e causano confusione visiva, è importante gestire le posizioni dei marcatori.
-
-## Regolazione della sovrapposizione dei marcatori
-
-```csharp
-// Regolazione della sovrapposizione dei marcatori
-chart.Placement = PlacementType.FreeFloating;
-chart.MarkerOverlap = -30; // Regolare il valore di sovrapposizione secondo necessità
-```
-
-## Scelta delle posizioni ottimali dei marker
-
-```csharp
-// Scelta delle posizioni ottimali dei marker
-chart.MarkerClustered = false;
-chart.MarkerSymbolSpacing = 2; // Regola la spaziatura secondo necessità
-```
-
-## Salvataggio ed esportazione della presentazione modificata
-
-Dopo aver apportato le modifiche necessarie al grafico, puoi salvare ed esportare la presentazione modificata.
-
-## Salvataggio in formati diversi
-
-```csharp
-// Salvataggio in diversi formati
-presentation.Save("modified.pptx", SaveFormat.Pptx);
-presentation.Save("modified.pdf", SaveFormat.Pdf);
-```
-
-## Esportazione in PDF o immagine
-
-```csharp
-// Esportazione in PDF o immagine
-using (FileStream stream = new FileStream("output.pdf", FileMode.Create))
-{
-    PdfOptions options = new PdfOptions();
-    presentation.Save(stream
-
-, SaveFormat.Pdf);
-}
-```
-
-## Casi d'uso nel mondo reale
-
-Le opzioni degli indicatori grafici sono preziose quando si analizzano scenari di dati reali.
-
-## Analisi delle prestazioni di vendita
-
-Utilizzando le opzioni dei marcatori, gli analisti delle vendite possono individuare mesi di vendite eccezionali e visualizzare le tendenze nel tempo.
-
-## Tendenze del mercato azionario
-
-Gli investitori possono utilizzare le opzioni marker per identificare fluttuazioni significative dei prezzi delle azioni e prendere decisioni informate.
-
-## Migliori pratiche per una visualizzazione efficace dei dati
-
-Quando crei i grafici, tieni a mente queste best practice.
-
-## Mantenere i grafici semplici e chiari
-
-La semplicità migliora la comprensione. Evitare il sovraffollamento dei grafici con un numero eccessivo di marcatori.
-
-## Utilizzo di tipi di grafici appropriati
-
-Scegli i tipi di grafico che comunicano in modo efficace i tuoi dati. Non tutti i set di dati richiedono marcatori.
+Infine, salviamo la presentazione con le nuove impostazioni del grafico.
 
 ## Conclusione
 
-In questo articolo, abbiamo approfondito il mondo delle opzioni dei marcatori grafici utilizzando Aspose.Slides per .NET. Abbiamo esplorato il processo passo passo di abilitazione, personalizzazione e gestione degli indicatori sui punti dati all'interno dei grafici. Seguendo le tecniche descritte in questa guida, puoi migliorare le tue capacità di visualizzazione dei dati e creare presentazioni avvincenti che facciano presa sul tuo pubblico.
+Aspose.Slides per .NET ti consente di creare straordinarie presentazioni di grafici con varie opzioni di personalizzazione. In questo tutorial ci siamo concentrati sull'utilizzo delle opzioni degli indicatori del grafico sui punti dati per migliorare la rappresentazione visiva dei dati. Con Aspose.Slides per .NET, puoi portare le tue presentazioni al livello successivo, rendendole più coinvolgenti e informative.
 
-## Domande frequenti
+ Se hai domande o hai bisogno di assistenza con Aspose.Slides per .NET, non esitare a visitare il[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/) o contattare il[Chiedi comunità](https://forum.aspose.com/) per supporto.
 
-### Come posso scaricare Aspose.Slides per .NET?
+## Domande frequenti (FAQ)
 
- È possibile scaricare Aspose.Slides per .NET dalla pagina delle versioni:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net).
+### Posso utilizzare immagini personalizzate come marcatori per punti dati in Aspose.Slides per .NET?
+Sì, puoi utilizzare immagini personalizzate come marcatori per punti dati in Aspose.Slides per .NET, come dimostrato in questo tutorial.
 
-### Posso personalizzare l'aspetto dei marcatori?
+### Come posso modificare il tipo di grafico in Aspose.Slides per .NET?
+È possibile modificare il tipo di grafico specificandone uno diverso`ChartType` durante la creazione del grafico, ad esempio "Bar", "Torta" o "Area".
 
-Assolutamente! Puoi scegliere tra vari tipi di pennarelli e personalizzarne dimensioni, colore e forma.
+### Aspose.Slides per .NET è compatibile con le ultime versioni di PowerPoint?
+Aspose.Slides per .NET è progettato per funzionare con vari formati di PowerPoint e viene regolarmente aggiornato per mantenere la compatibilità con le ultime versioni di PowerPoint.
 
-### C'è un modo per gestire la sovrapposizione dei marcatori?
+### Dove posso trovare ulteriori tutorial e risorse per Aspose.Slides per .NET?
+ Puoi esplorare tutorial e risorse aggiuntivi nel file[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/).
 
-Sì, puoi regolare le impostazioni di sovrapposizione dei marcatori per evitare confusione visiva nei grafici.
-
-### In quali formati posso salvare la mia presentazione modificata?
-
-Aspose.Slides per .NET supporta il salvataggio di presentazioni in vari formati, inclusi PPTX e PDF.
-
-### Come posso aggiungere etichette dati ai marcatori?
-
-Puoi aggiungere facilmente etichette dati ai marcatori e formattarle in base alle tue preferenze.
+### È disponibile una versione di prova di Aspose.Slides per .NET?
+ Sì, puoi provare Aspose.Slides per .NET scaricando una versione di prova gratuita da[Qui](https://releases.aspose.com/).

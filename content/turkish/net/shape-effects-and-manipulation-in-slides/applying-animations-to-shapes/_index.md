@@ -68,7 +68,7 @@ Animasyonlu sunumunuzdan memnun kaldığınızda onu PDF, resim veya video gibi 
 
 ## Çözüm
 
-Aspose.Slides for .NET'i kullanarak sunum slaytlarındaki şekillere animasyonlar eklemek, görsel olarak çekici ve ilgi çekici sunumlar oluşturmanızı sağlayan basit bir işlemdir. Bu kılavuzda özetlenen adımları izleyerek sunumlarınızı dinleyicilerinizin dikkatini çekecek dinamik animasyonlarla geliştirebilirsiniz.
+Aspose.Slides for .NET'i kullanarak sunum slaytlarındaki şekillere animasyonlar eklemek, görsel olarak çekici ve ilgi çekici sunumlar oluşturmanızı sağlayan basit bir işlemdir. Bu kılavuzda özetlenen adımları izleyerek sunumlarınızı dinleyicilerin dikkatini çeken dinamik animasyonlarla geliştirebilirsiniz.
 
 ## SSS
 

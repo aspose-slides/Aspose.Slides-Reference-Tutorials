@@ -102,7 +102,7 @@ In this step, we access a specific notes slide and modify the visibility and tex
 
 Effectively managing headers and footers in notes slides is crucial for enhancing the overall quality and clarity of your presentations. With Aspose.Slides for .NET, this process becomes straightforward and efficient. This tutorial has provided you with a comprehensive guide on how to achieve this, from importing namespaces to changing settings for both the master notes slide and individual notes slides.
 
-If you haven't already, be sure to explore the official [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) for more in-depth information and examples.
+If you haven't already, be sure to explore the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) for more in-depth information and examples.
 
 ## Frequently Asked Questions
 

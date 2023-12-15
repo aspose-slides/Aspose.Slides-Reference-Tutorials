@@ -115,7 +115,7 @@ class Program
                     {
                         emphasisEffect.Type = EmphasisAnimationType.GrowWithColor;
                     }
-                    // Diğer animasyon türlerini benzer şekilde kullanın
+                    //Diğer animasyon türlerini benzer şekilde kullanın
                 }
             }
 
@@ -140,7 +140,7 @@ Bu kapsamlı kılavuz, Aspose.Slides for .NET'in gücünden yararlanmanızı ve 
 
 ### Aspose.Slides'ı kullanarak hareket yolu animasyonlarını değiştirebilir miyim?
 
- Evet, Aspose.Slides'ı kullanarak hareket yolu animasyonlarını değiştirebilirsiniz.`MotionPathEffect`özellikleri ve bunlara göre ayarlanması.
+ Evet, Aspose.Slides'ı kullanarak hareket yolu animasyonlarını değiştirebilirsiniz.`MotionPathEffect` özellikleri ve bunlara göre ayarlanması.
 
 ### Slayttaki öğelere özel animasyonlar eklemek mümkün mü?
 
@@ -152,4 +152,4 @@ Değiştirilen sunuyu gereksinimlerinize bağlı olarak PPTX, PPT, PDF ve daha f
 
 ### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
-Ayrıntılı belgeleri ve örnekleri şurada bulabilirsiniz:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+ Ayrıntılı belgeleri ve örnekleri şurada bulabilirsiniz:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).

@@ -14,7 +14,7 @@ Günümüzün dijital çağında, çeşitli sunum formatlarıyla çalışmak ort
 
 Dönüşüm sürecine dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1. Aspose.Slides for .NET: Henüz yapmadıysanız Aspose.Slides for .NET'i web sitesinden indirip yükleyin:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET: Henüz yapmadıysanız Aspose.Slides for .NET'i web sitesinden indirip yükleyin:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net/).
 
 2. Belge Dizininiz: FODP belgenizin bulunduğu dizini hazırlayın.
 
@@ -60,7 +60,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 Tebrikler! Aspose.Slides for .NET'i kullanarak FODP formatındaki bir dosyayı başarıyla diğer sunum formatlarına dönüştürdünüz. Bu çok yönlü kütüphane, sunumlarla programlı olarak çalışmak için bir olasılıklar dünyasının kapılarını açar.
 
- Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresten yardım aramaktan çekinmeyin:[Aspose.Slides forumu](https://forum.aspose.com/)Topluluk ve destek ekibi size yardımcı olmak için orada.
+ Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresten yardım aramaktan çekinmeyin:[Aspose.Slides forumu](https://forum.aspose.com/). Topluluk ve destek ekibi size yardımcı olmak için orada.
 
 ## SSS
 
@@ -74,7 +74,7 @@ Tebrikler! Aspose.Slides for .NET'i kullanarak FODP formatındaki bir dosyayı b
 
 ### 3. Aspose.Slides for .NET için nasıl geçici lisans alabilirim?
 
- Geçici bir lisansa ihtiyacınız varsa,[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisansa ihtiyacınız varsa,[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Dönüştürme için hangi sunum formatları destekleniyor?
 

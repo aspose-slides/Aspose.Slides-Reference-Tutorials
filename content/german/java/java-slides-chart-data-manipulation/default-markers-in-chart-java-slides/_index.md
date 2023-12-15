@@ -38,7 +38,7 @@ chart.getChartData().getCategories().clear();
 
 ## Schritt 3: Diagrammdaten ausfüllen
 
-Wir füllen das Diagramm mit Beispieldaten. In diesem Beispiel erstellen wir zwei Reihen mit Datenpunkten und Kategorien.
+Wir füllen das Diagramm mit Beispieldaten. In diesem Beispiel erstellen wir zwei Serien mit Datenpunkten und Kategorien.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();

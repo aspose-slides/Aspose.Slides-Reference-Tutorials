@@ -7,7 +7,7 @@ type: docs
 weight: 17
 url: /zh/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-当谈到创建视觉吸引力和信息丰富的演示文稿时，Aspose.Slides 是一个强大的工具，它为开发人员提供了以编程方式操作演示文稿各个方面的能力。演示文稿的一个重要方面是形状的使用，它在有效传达信息方面发挥着至关重要的作用。在本教程中，我们将深入研究如何使用 ShapeUtil 使用 Aspose.Slides for .NET 处理演示文稿幻灯片中的几何形状。读完本指南后，您将深入了解如何使用几何形状并轻松增强演示文稿。
+在创建具有视觉吸引力和信息丰富的演示文稿时，Aspose.Slides 是一款功能强大的工具，它为开发人员提供了以编程方式操作演示文稿各个方面的能力。演示文稿的一个重要方面是形状的使用，它在有效传达信息方面发挥着至关重要的作用。在本教程中，我们将深入研究如何使用 ShapeUtil 使用 Aspose.Slides for .NET 处理演示文稿幻灯片中的几何形状。读完本指南后，您将深入了解如何使用几何形状并轻松增强演示文稿。
 
 ## Aspose.Slides 和 ShapeUtil 简介
 

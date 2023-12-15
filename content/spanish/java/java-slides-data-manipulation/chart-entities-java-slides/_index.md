@@ -195,7 +195,7 @@ try
 	chart.getAxes().getVerticalAxis().setMinValue(-2f);
 	chart.getAxes().getVerticalAxis().setMinorUnit(0.5f);
 	chart.getAxes().getVerticalAxis().setMajorUnit(2.0f);
-	// Configuración de las propiedades del texto del eje de valor
+	// Configuración de las propiedades del texto del eje de valores
 	IChartPortionFormat txtVal = chart.getAxes().getVerticalAxis().getTextFormat().getPortionFormat();
 	txtVal.setFontBold(NullableBool.True);
 	txtVal.setFontHeight(16);

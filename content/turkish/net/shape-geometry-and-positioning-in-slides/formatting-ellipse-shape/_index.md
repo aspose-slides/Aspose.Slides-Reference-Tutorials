@@ -142,7 +142,7 @@ presentation.Save(outputPath, SaveFormat.Pdf);
  Bir elips şeklinin arka plan rengini değiştirmek için ona erişin.`FillFormat` özelliği ayarlayın ve`SolidFillColor` özelliği istenilen renge getirilir.
 
 ### Tek bir elipse birden fazla animasyon efekti uygulayabilir miyim?
- Evet, tek bir elips şekline birden fazla animasyon efekti uygulayabilirsiniz. Basitçe birden fazla efekt ekleyin`AnimationSettings`elipsin.
+Evet, tek bir elips şekline birden fazla animasyon efekti uygulayabilirsiniz. Basitçe birden fazla efekt ekleyin`AnimationSettings` elipsin.
 
 ### Aspose.Slides .NET Core ile uyumlu mu?
 Evet, Aspose.Slides .NET Core ile uyumludur ve platformlar arası uygulamalar geliştirmenize olanak tanır.

@@ -22,7 +22,7 @@ Aspose.Slides for .NET عبارة عن واجهة برمجة تطبيقات قو
 
 لمتابعة هذا البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. Aspose.Slides لـ .NET: ستحتاج إلى تنزيل Aspose.Slides لـ .NET وتثبيته. يمكنك الحصول عليه[هنا](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides لـ .NET: ستحتاج إلى تنزيل Aspose.Slides لـ .NET وتثبيته. يمكنك الحصول عليه[هنا](https://releases.aspose.com/slides/net/).
 
 ## التحويل من PPTX إلى ODP
 
@@ -52,13 +52,13 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 }
 ```
 
- هذا الكود مشابه تمامًا للمثال السابق. نقوم بإنشاء أ`Presentation` الكائن، وتحديد ملف ODP للإدخال، واستخدام ملف`Save` طريقة حفظه بصيغة PPTX.
+ هذا الكود مشابه تمامًا للمثال السابق. نقوم بإنشاء أ`Presentation`الكائن، وتحديد ملف ODP للإدخال، واستخدام ملف`Save` طريقة حفظه بصيغة PPTX.
 
 ## خاتمة
 
 في هذا البرنامج التعليمي، تناولنا عملية تحويل تنسيق ODP إلى تنسيق PPTX والعكس باستخدام Aspose.Slides لـ .NET. تعمل واجهة برمجة التطبيقات القوية هذه على تبسيط مهام تحويل المستندات وتوفر حلاً موثوقًا لاحتياجات توافق تنسيقات الملفات لديك.
 
-إذا لم تكن قد قمت بذلك بالفعل، فيمكنك تنزيل Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/slides/net/) للبدء في مشاريع تحويل المستندات الخاصة بك.
+ إذا لم تكن قد قمت بذلك بالفعل، فيمكنك تنزيل Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/slides/net/) للبدء في مشاريع تحويل المستندات الخاصة بك.
 
  لمزيد من المعلومات والدعم، لا تتردد في زيارة[Aspose.Slides لتوثيق .NET API](https://reference.aspose.com/slides/net/).
 
@@ -78,7 +78,7 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 
 ### 4. هل يتوفر الدعم الفني لـ Aspose.Slides لـ .NET؟
 
-نعم، يمكنك الحصول على الدعم الفني والمساعدة من مجتمع Aspose من خلال زيارة الموقع[اطرح المنتديات](https://forum.aspose.com/).
+ نعم، يمكنك الحصول على الدعم الفني والمساعدة من مجتمع Aspose من خلال زيارة الموقع[اطرح المنتديات](https://forum.aspose.com/).
 
 ### 5. هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 

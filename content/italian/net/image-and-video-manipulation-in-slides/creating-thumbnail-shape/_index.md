@@ -53,7 +53,7 @@ Modifica gli indici delle diapositive e delle forme in base alla struttura della
 
 ## Creazione di miniature
 
- Ora arriva la parte emozionante: creare una miniatura per la forma selezionata. Aspose.Slides ti consente di raggiungere questo obiettivo sfruttando il`GetThumbnail` metodo. Ecco come creare una miniatura per una forma:
+Ora arriva la parte emozionante: creare una miniatura per la forma selezionata. Aspose.Slides ti consente di raggiungere questo obiettivo sfruttando il`GetThumbnail` metodo. Ecco come creare una miniatura per una forma:
 
 ```csharp
 // Definire le dimensioni delle miniature

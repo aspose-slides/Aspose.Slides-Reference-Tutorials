@@ -1,116 +1,108 @@
 ---
-title: Aggiungi collegamento ipertestuale alla diapositiva
+title: Aggiunta di collegamenti ipertestuali alle diapositive in .NET utilizzando Aspose.Slides
 linktitle: Aggiungi collegamento ipertestuale alla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come aggiungere collegamenti ipertestuali alle diapositive in PowerPoint utilizzando Aspose.Slides per .NET. Migliora le presentazioni con contenuti interattivi.
+description: Scopri come aggiungere collegamenti ipertestuali alle diapositive di PowerPoint con Aspose.Slides per .NET. Migliora le tue presentazioni con elementi interattivi.
 type: docs
 weight: 12
 url: /it/net/hyperlink-manipulation/add-hyperlink/
 ---
 
-## Introduzione ad Aspose.Slides per .NET
-
-Aspose.Slides per .NET è una libreria completa che consente agli sviluppatori di creare, modificare e manipolare presentazioni PowerPoint senza fare affidamento su Microsoft Office. Fornisce un'ampia gamma di funzionalità, inclusa l'aggiunta e la gestione dei collegamenti ipertestuali nelle diapositive.
+Nel mondo delle presentazioni digitali, l’interattività è fondamentale. L'aggiunta di collegamenti ipertestuali alle diapositive può rendere la presentazione più coinvolgente e informativa. Aspose.Slides per .NET è una potente libreria che ti consente di creare, modificare e manipolare presentazioni PowerPoint a livello di codice. In questo tutorial, ti mostreremo come aggiungere collegamenti ipertestuali alle tue diapositive utilizzando Aspose.Slides per .NET. 
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
+Prima di approfondire l'aggiunta di collegamenti ipertestuali alle diapositive, assicurati di disporre dei seguenti prerequisiti:
 
-- Visual Studio installato nel sistema.
--  Aspose.Slides per la libreria .NET. Puoi scaricarlo da[Qui](https://downloads.aspose.com/slides/net).
+1. Visual Studio: dovresti avere Visual Studio installato sul tuo computer per scrivere ed eseguire il codice .NET.
 
-## Aggiunta di un collegamento ipertestuale a un testo in una diapositiva
+2. Aspose.Slides per .NET: è necessario che sia installata la libreria Aspose.Slides per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net/).
 
-1. Creare un nuovo progetto C# in Visual Studio.
-2. Aggiungi un riferimento alla DLL Aspose.Slides nel tuo progetto.
-3. Utilizza il codice seguente per aggiungere un collegamento ipertestuale a un testo in una diapositiva:
+3. Conoscenza di base di C#: la familiarità con la programmazione C# sarà utile.
 
-```csharp
-using Aspose.Slides;
+## Importa spazi dei nomi
 
-// Carica la presentazione
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Accedi a una diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Accedi a una casella di testo
-ITextFrame textFrame = slide.Shapes[0] as ITextFrame;
-
-// Aggiungi una porzione di testo con un collegamento ipertestuale
-textFrame.Paragraphs[0].Portions[0].Text = "Visit our website!";
-textFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new HyperlinkInfo("https://www.esempio.com", HyperlinkAction.MouseClick);
-```
-
-## Aggiunta di un collegamento ipertestuale a una forma in una diapositiva
-
-1. Segui i passaggi precedenti per creare un nuovo progetto C# e aggiungere il riferimento Aspose.Slides.
-2. Utilizzare il codice seguente per aggiungere un collegamento ipertestuale a una forma in una diapositiva:
+Per iniziare, devi importare gli spazi dei nomi necessari nel tuo progetto C#. In questo caso, avrai bisogno dei seguenti spazi dei nomi dalla libreria Aspose.Slides:
 
 ```csharp
 using Aspose.Slides;
-
-// Carica la presentazione
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Accedi a una diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Accedere a una forma
-IShape shape = slide.Shapes[1];
-
-// Aggiungere un collegamento ipertestuale alla forma
-shape.HyperlinkClick = new HyperlinkInfo("https://www.esempio.com", HyperlinkAction.MouseClick);
+using Aspose.Slides.Export;
 ```
 
-## Aggiunta di un collegamento ipertestuale a una diapositiva
+Ora suddividiamo il processo di aggiunta di collegamenti ipertestuali alle diapositive in più passaggi.
 
-1. Segui i passaggi iniziali per configurare il tuo progetto C# e fare riferimento alla libreria Aspose.Slides.
-2. Utilizza il codice seguente per aggiungere un collegamento ipertestuale a una diapositiva:
+## Passaggio 1: inizializza la presentazione
+
+Innanzitutto, crea una nuova presentazione utilizzando Aspose.Slides. Ecco come puoi farlo:
 
 ```csharp
-using Aspose.Slides;
-
-// Carica la presentazione
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Accedi a una diapositiva
-ISlide slide = presentation.Slides[2];
-
-// Aggiungi un collegamento ipertestuale alla diapositiva
-slide.HyperlinkClick = new HyperlinkInfo("https://www.esempio.com", HyperlinkAction.MouseClick);
+using (Presentation presentation = new Presentation())
+{
+    // Il tuo codice va qui
+}
 ```
 
-## Aggiunta di collegamenti ipertestuali esterni
+Questo codice inizializza una nuova presentazione di PowerPoint.
 
-Oltre ai collegamenti ipertestuali interni, puoi anche aggiungere collegamenti ipertestuali esterni alle tue diapositive. Utilizza lo stesso approccio di cui sopra, ma fornisci l'URL esterno come destinazione del collegamento ipertestuale.
+## Passaggio 2: aggiungi cornice di testo
 
-## Modifica e rimozione dei collegamenti ipertestuali
+Ora aggiungiamo una cornice di testo alla diapositiva. Questa cornice di testo fungerà da elemento cliccabile nella diapositiva. 
 
-Per modificare un collegamento ipertestuale esistente o rimuoverlo, è possibile accedere alle proprietà del collegamento ipertestuale del rispettivo elemento della diapositiva e apportare le modifiche necessarie.
+```csharp
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
+```
+
+Il codice sopra crea una forma automatica rettangolare e aggiunge una cornice di testo con il testo "Aspose: File Format APIs".
+
+## Passaggio 3: aggiungi il collegamento ipertestuale
+
+Successivamente, aggiungiamo un collegamento ipertestuale alla cornice di testo che hai creato. Ciò renderà il testo cliccabile.
+
+```csharp
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
+```
+
+In questo passaggio, impostiamo l'URL del collegamento ipertestuale su "https://www.aspose.com/" e forniamo una descrizione comando per ulteriori informazioni. Puoi anche formattare l'aspetto del collegamento ipertestuale, come mostrato sopra.
+
+## Passaggio 4: salva la presentazione
+
+Infine, salva la presentazione con il collegamento ipertestuale aggiunto.
+
+```csharp
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
+```
+
+Questo codice salva la presentazione come "presentation-out.pptx".
+
+Ora hai aggiunto con successo un collegamento ipertestuale a una diapositiva utilizzando Aspose.Slides per .NET.
 
 ## Conclusione
 
-L'aggiunta di collegamenti ipertestuali alle diapositive utilizzando Aspose.Slides per .NET è un processo semplice che può migliorare notevolmente l'interattività delle tue presentazioni. Sia che tu voglia collegarti a risorse esterne o creare una navigazione all'interno delle tue diapositive, Aspose.Slides fornisce gli strumenti necessari per svolgere queste attività in modo efficiente.
+In questo tutorial, abbiamo esplorato come aggiungere collegamenti ipertestuali alle diapositive nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Seguendo questi passaggi puoi rendere le tue presentazioni più interattive e coinvolgenti, fornendo preziosi collegamenti a risorse o informazioni aggiuntive.
+
+ Per informazioni e documentazione più dettagliate, visitare il[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
 
 ## Domande frequenti
 
-### Come rimuovo un collegamento ipertestuale da una porzione di testo?
+### 1. Posso aggiungere collegamenti ipertestuali ad altre forme oltre alle cornici di testo?
 
- Per rimuovere un collegamento ipertestuale da una porzione di testo è sufficiente impostare il file`HyperlinkClick` proprietà a`null` per quella porzione.
+Sì, puoi aggiungere collegamenti ipertestuali a varie forme come rettangoli, immagini e altro utilizzando Aspose.Slides per .NET.
 
-### Posso aggiungere collegamenti ipertestuali a forme diverse dalle caselle di testo?
+### 2. Come posso rimuovere un collegamento ipertestuale da una forma in una diapositiva di PowerPoint?
 
-Sì, puoi aggiungere collegamenti ipertestuali a varie forme, incluse immagini e forme personalizzate, utilizzando il file`HyperlinkClick` proprietà.
+ È possibile rimuovere un collegamento ipertestuale da una forma impostando il file`HyperlinkClick` proprietà a`null`.
 
-### Aspose.Slides è compatibile con diversi formati PowerPoint?
+### 3. Posso modificare dinamicamente l'URL del collegamento ipertestuale nel mio codice?
 
-Sì, Aspose.Slides supporta vari formati PowerPoint, inclusi PPTX, PPT e altri.
+ Assolutamente! Puoi aggiornare l'URL di un collegamento ipertestuale in qualsiasi punto del codice modificando il file`Hyperlink` proprietà.
 
-### Come posso testare i collegamenti ipertestuali nella mia presentazione?
+### 4. Quali altri elementi interattivi posso aggiungere alle diapositive di PowerPoint utilizzando Aspose.Slides?
 
-È possibile eseguire la presentazione in un visualizzatore o editor di PowerPoint per testare la funzionalità dei collegamenti ipertestuali.
+Aspose.Slides offre una vasta gamma di funzionalità interattive, inclusi pulsanti di azione, elementi multimediali e animazioni.
 
-### Dove posso scaricare la libreria Aspose.Slides per .NET?
+### 5. Aspose.Slides è disponibile per altri linguaggi di programmazione?
 
- È possibile scaricare la libreria Aspose.Slides per .NET dal sito Web Aspose:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net).
+Sì, Aspose.Slides è disponibile per vari linguaggi di programmazione, inclusi Java e Python.

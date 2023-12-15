@@ -1,125 +1,103 @@
 ---
-title: Arbeitsmappe aus Diagramm wiederherstellen
+title: So verwenden Sie Aspose.Slides .NET zum Wiederherstellen einer Arbeitsmappe aus einem Diagramm
 linktitle: Arbeitsmappe aus Diagramm wiederherstellen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET eine Arbeitsmappe aus einem Diagramm wiederherstellen. Extrahieren Sie Diagrammdaten und erstellen Sie programmgesteuert Excel-Arbeitsmappen.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET eine Arbeitsmappe aus einem Diagramm in PowerPoint-Präsentationen wiederherstellen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um Daten effizient zu extrahieren.
 type: docs
 weight: 12
 url: /de/net/additional-chart-features/chart-recover-workbook/
 ---
 
-## Einführung
-
-Es kann zu Unfällen kommen und Sie müssen möglicherweise eine Arbeitsmappe aus einem Diagramm wiederherstellen. Aspose.Slides für .NET hilft in solchen Situationen. Mit dieser leistungsstarken Bibliothek können Sie Daten aus Diagrammen in Präsentationen extrahieren und in eine neue Arbeitsmappe konvertieren. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Wiederherstellung einer Arbeitsmappe aus einem Diagramm mit Aspose.Slides für .NET.
+Wenn Sie mit PowerPoint-Präsentationen in .NET arbeiten möchten, ist Aspose.Slides für .NET eine leistungsstarke Bibliothek, die Ihnen beim Erreichen Ihrer Ziele helfen kann. In diesem Tutorial führen wir Sie durch den Prozess der Wiederherstellung einer Arbeitsmappe aus einem Diagramm in einer PowerPoint-Präsentation mit Aspose.Slides für .NET. Diese leistungsstarke Funktion kann nützlich sein, wenn Sie in Ihren Präsentationen Daten aus Diagrammen extrahieren müssen. Wir unterteilen den Prozess in leicht verständliche Schritte, um sicherzustellen, dass Sie genau wissen, wie Sie diese Aufgabe erledigen können.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Folgendes vorhanden ist:
+Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Visual Studio: Laden Sie Visual Studio herunter und installieren Sie es, was für die .NET-Entwicklung unerlässlich ist.
--  Aspose.Slides für .NET: Sie können die Bibliothek herunterladen von[Hier](https://downloads.aspose.com/slides/net).
+### 1. Aspose.Slides für .NET
 
-## Schritt 1: Installieren Sie Aspose.Slides für .NET
+Sie sollten Aspose.Slides für .NET installiert und in Ihrer .NET-Entwicklungsumgebung eingerichtet haben. Wenn Sie es noch nicht getan haben, können Sie es von der Website herunterladen und installieren.
 
-Wenn Sie es noch nicht getan haben, laden Sie Aspose.Slides für .NET herunter und installieren Sie es. Diese Bibliothek bietet umfassende Funktionen für die programmgesteuerte Arbeit mit PowerPoint-Präsentationen.
+[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net/)
 
-## Schritt 2: Laden Sie die Präsentation
+### 2. PowerPoint-Präsentation
 
-Erstellen Sie zunächst ein neues C#-Projekt in Visual Studio. Fügen Sie Verweise auf die erforderlichen Aspose.Slides-Assemblys hinzu. Laden Sie die PowerPoint-Präsentation, die das Diagramm enthält, aus dem Sie Daten wiederherstellen möchten.
+Sie benötigen eine PowerPoint-Präsentation mit einem Diagramm, aus dem Sie die Arbeitsmappe wiederherstellen möchten. Stellen Sie sicher, dass Sie die Präsentationsdatei bereit haben.
+
+## Notwendige Namespaces importieren
+
+In diesem Schritt müssen Sie die erforderlichen Namespaces importieren, um effektiv mit Aspose.Slides für .NET arbeiten zu können.
+
+### Schritt 1: Namespaces importieren
 
 ```csharp
-// Laden Sie die Präsentation
-Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## Schritt 3: Identifizieren Sie das Diagramm
+Lassen Sie uns nun den Prozess der Wiederherstellung einer Arbeitsmappe aus einem Diagramm in einer PowerPoint-Präsentation in mehrere Schritte unterteilen.
 
- Identifizieren Sie die Folie und das Diagramm, von denen Sie Daten wiederherstellen möchten. Sie können über die auf Folien zugreifen`presentation.Slides` Sammlung und Diagramme mit der`slide.Shapes` Sammlung.
+## Schritt 1: Definieren Sie das Dokumentenverzeichnis
 
 ```csharp
-// Holen Sie sich die Folie mit dem Diagramm
-ISlide slide = presentation.Slides[0];
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+```
 
-// Holen Sie sich das Diagramm
-IChart chart = null;
-foreach (IShape shape in slide.Shapes)
+In diesem Schritt müssen Sie das Verzeichnis angeben, in dem sich Ihre PowerPoint-Präsentation befindet.
+
+## Schritt 2: Laden Sie die Präsentation und aktivieren Sie die Arbeitsmappenwiederherstellung
+
+```csharp
+string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
+string outPptxFile = Path.Combine(RunExamples.OutPath, "RecoveredWorkbook.pptx");
+
+LoadOptions lo = new LoadOptions();
+lo.SpreadsheetOptions.RecoverWorkbookFromChartCache = true;
+
+using (Presentation pres = new Presentation(pptxFile, lo))
 {
-    if (shape is IChart)
-    {
-        chart = (IChart)shape;
-        break;
-    }
+    // Hier finden Sie Ihren Code zur Diagrammwiederherstellung
+    pres.Save(outPptxFile, SaveFormat.Pptx);
 }
 ```
 
-## Schritt 4: Extrahieren Sie Daten aus dem Diagramm
+In diesem Schritt laden Sie die PowerPoint-Präsentation aus der angegebenen Datei und aktivieren die Wiederherstellung der Arbeitsmappe aus dem Diagramm-Cache. Der`LoadOptions` Das Objekt wird zu diesem Zweck verwendet.
 
-Extrahieren Sie die Daten aus dem Diagramm mit der API von Aspose.Slides. Sie können Werte aus Diagrammreihen und Kategorien abrufen.
-
-```csharp
-// Diagrammdaten extrahieren
-IChartData chartData = chart.ChartData;
-```
-
-## Schritt 5: Erstellen Sie eine neue Arbeitsmappe
-
-Erstellen Sie eine neue Excel-Arbeitsmappe mit einer Bibliothek wie EPPlus oder ClosedXML.
+## Schritt 3: Auf die Diagrammdaten zugreifen und mit ihnen arbeiten
 
 ```csharp
-// Erstellen Sie eine neue Excel-Arbeitsmappe
-using (var excelPackage = new ExcelPackage())
-{
-    var worksheet = excelPackage.Workbook.Worksheets.Add("Chart Data");
-    // Fügen Sie hier Code hinzu, um die Arbeitsblattüberschriften zu füllen
-}
+IChart chart = pres.Slides[0].Shapes[0] as IChart;
+IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 ```
 
-## Schritt 6: Arbeitsmappe mit Diagrammdaten füllen
-
-Füllen Sie das Excel-Arbeitsblatt mit den aus dem Diagramm extrahierten Daten.
-
-```csharp
-//Füllen Sie das Excel-Arbeitsblatt mit Diagrammdaten
-int rowIndex = 2;
-foreach (var series in chartData.Series)
-{
-    worksheet.Cells[rowIndex, 1].Value = series.Name;
-    // Fügen Sie hier Code hinzu, um das Arbeitsblatt mit Seriendaten zu füllen
-    rowIndex++;
-}
-```
-
-## Schritt 7: Speichern Sie die Arbeitsmappe
-
-Speichern Sie die Excel-Arbeitsmappe mit den wiederhergestellten Diagrammdaten.
-
-```csharp
-// Speichern Sie die Excel-Arbeitsmappe
-excelPackage.SaveAs(new FileInfo("recovered-workbook.xlsx"));
-```
+In diesem Schritt greifen Sie auf das Diagramm auf der ersten Folie zu und erhalten die Diagrammdaten-Arbeitsmappe. Sie können nun nach Bedarf mit den Arbeitsmappendaten arbeiten.
 
 ## Abschluss
 
-Das Wiederherstellen einer Arbeitsmappe aus einem Diagramm wird mit Aspose.Slides für .NET zum Kinderspiel. Wenn Sie diese Schritte befolgen, können Sie Daten aus einem Diagramm in einer PowerPoint-Präsentation programmgesteuert extrahieren und mit den wiederhergestellten Daten eine neue Excel-Arbeitsmappe erstellen. Dieser Prozess kann lebensrettend sein, wenn Unfälle passieren und Daten gerettet werden müssen.
+In diesem Tutorial haben wir gezeigt, wie Sie mit Aspose.Slides für .NET eine Arbeitsmappe aus einem Diagramm in einer PowerPoint-Präsentation wiederherstellen. Indem Sie die in diesem Leitfaden beschriebenen Schritte befolgen, können Sie effizient Daten aus Ihren Präsentationen extrahieren und sie für Ihre spezifischen Anforderungen nutzen.
 
-## FAQs
+ Wenn Sie Fragen haben oder auf Probleme stoßen, zögern Sie nicht, Hilfe von der Aspose.Slides-Community im zu suchen[Aspose.Slides-Forum](https://forum.aspose.com/). Sie stehen Ihnen bei Ihrer Reise mit Aspose.Slides für .NET zur Seite.
 
-### Wie installiere ich Aspose.Slides für .NET?
+## Häufig gestellte Fragen
 
- Sie können Aspose.Slides für .NET unter herunterladen[Hier](https://downloads.aspose.com/slides/net).
+### 1. Was ist Aspose.Slides für .NET?
 
-### Kann ich Daten aus verschiedenen Diagrammtypen wiederherstellen?
+Aspose.Slides für .NET ist eine leistungsstarke .NET-Bibliothek für die Arbeit mit Microsoft PowerPoint-Dateien, mit der Sie Präsentationen programmgesteuert erstellen, bearbeiten und konvertieren können.
 
-Ja, Aspose.Slides für .NET unterstützt verschiedene Diagrammtypen, darunter Balkendiagramme, Liniendiagramme, Kreisdiagramme und mehr.
+### 2. Kann ich Aspose.Slides für .NET vor dem Kauf testen?
 
-### Ist Aspose.Slides für .NET für den professionellen Einsatz geeignet?
+ Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET erhalten, um dessen Funktionen und Fähigkeiten zu testen.[Holen Sie sich hier die kostenlose Testversion](https://releases.aspose.com/).
 
-Absolut! Aspose.Slides für .NET ist eine robuste Bibliothek, die von Entwicklern für die effiziente Arbeit mit PowerPoint-Präsentationen verwendet wird.
+### 3. Wo finde ich die Dokumentation für Aspose.Slides für .NET?
 
-### Gibt es Lizenzanforderungen für die Verwendung von Aspose.Slides für .NET?
+ Sie können auf die Dokumentation für Aspose.Slides für .NET zugreifen[Hier](https://reference.aspose.com/slides/net/). Es enthält detaillierte Informationen, Beispiele und API-Referenzen.
 
- Ja, Aspose.Slides für .NET erfordert eine gültige Lizenz für die kommerzielle Nutzung. Lizenzdetails finden Sie auf der[Aspose-Website](https://purchase.aspose.com).
+### 4. Wie erwerbe ich eine Lizenz für Aspose.Slides für .NET?
 
-### Kann ich das Erscheinungsbild der wiederhergestellten Excel-Arbeitsmappe anpassen?
+ Um eine Lizenz für Aspose.Slides für .NET zu erwerben, besuchen Sie die Aspose-Website und verwenden Sie den folgenden Link:[Kaufen Sie Aspose.Slides für .NET](https://purchase.aspose.com/buy).
 
-Ja, Sie können das Erscheinungsbild und die Formatierung der Excel-Arbeitsmappe mithilfe von Bibliotheken wie EPPlus oder ClosedXML anpassen.
+### 5. Was ist die maximale Titellänge für die SEO-Optimierung?
+
+Zur SEO-Optimierung wird empfohlen, Ihren Titel auf weniger als 60 Zeichen zu beschränken, um sicherzustellen, dass er in den Suchmaschinenergebnissen richtig angezeigt wird.

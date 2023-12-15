@@ -99,7 +99,7 @@ Ja, Sie können Koordinaten für Absätze in mehreren Folien abrufen, indem Sie 
 
 ### Wie manipuliere ich Absatzkoordinaten programmgesteuert?
 
-Sobald Sie die Koordinaten eines Absatzes abgerufen haben, können Sie diese Informationen nutzen, um die Position und Abmessungen des Absatzes programmgesteuert zu manipulieren. Sie können beispielsweise den Absatz neu positionieren, seine Breite oder Höhe anpassen oder Berechnungen basierend auf seinen Koordinaten durchführen.
+Sobald Sie die Koordinaten eines Absatzes abgerufen haben, können Sie diese Informationen verwenden, um die Position und Abmessungen des Absatzes programmgesteuert zu manipulieren. Sie können beispielsweise den Absatz neu positionieren, seine Breite oder Höhe anpassen oder Berechnungen basierend auf seinen Koordinaten durchführen.
 
 ### Ist Aspose.Slides für die Stapelverarbeitung von PowerPoint-Dateien geeignet?
 

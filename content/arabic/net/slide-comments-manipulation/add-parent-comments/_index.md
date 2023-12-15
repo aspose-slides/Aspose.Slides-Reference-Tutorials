@@ -2,87 +2,161 @@
 title: أضف تعليقات الوالدين إلى الشريحة باستخدام Aspose.Slides
 linktitle: إضافة تعليقات الوالدين إلى الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تحسين عروضك التقديمية باستخدام العناصر التفاعلية عن طريق إضافة تعليقات الوالدين باستخدام Aspose.Slides for .NET. ارفع مستوى المشاركة والوضوح في شرائحك.
+description: تعرف على كيفية إضافة التعليقات والردود التفاعلية إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. تعزيز المشاركة والتعاون.
 type: docs
 weight: 12
 url: /ar/net/slide-comments-manipulation/add-parent-comments/
 ---
 
-إذا كنت تتطلع إلى تحسين عروضك التقديمية باستخدام عناصر تفاعلية، فإن إضافة تعليقات الوالدين إلى شرائحك باستخدام Aspose.Slides API يمكن أن يغير قواعد اللعبة. تتيح لك هذه الميزة القوية توفير سياق ورؤى إضافية لشرائحك، مما يجعل عروضك التقديمية أكثر جاذبية وغنية بالمعلومات.
+هل تتطلع إلى تحسين عروض PowerPoint التقديمية الخاصة بك بميزات تفاعلية؟ يسمح لك Aspose.Slides for .NET بدمج التعليقات والردود، وإنشاء تجربة ديناميكية وجذابة لجمهورك. في هذا البرنامج التعليمي خطوة بخطوة، سنوضح لك كيفية إضافة تعليقات الوالدين إلى الشرائح باستخدام Aspose.Slides for .NET. دعنا نتعمق ونستكشف هذه الميزة المثيرة.
 
-## فهم أهمية تعليقات الوالدين
+## المتطلبات الأساسية
 
-تعمل تعليقات الوالدين كتعليقات توضيحية قيمة توفر تفسيرات أعمق حول المحتوى الموجود على الشريحة. باستخدام تعليقات أولياء الأمور، يمكنك التأكد من أن جمهورك يفهم تمامًا المعلومات المقدمة. يعد هذا مفيدًا بشكل خاص عندما يكون لديك مرئيات معقدة أو بيانات معقدة تتطلب توضيحًا تفصيليًا.
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-## الشروع في العمل مع Aspose.Slides لـ .NET
+1.  Aspose.Slides for .NET: تأكد من تثبيت Aspose.Slides for .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
 
-قبل أن نتعمق في تفاصيل التنفيذ، تأكد من تثبيت Aspose.Slides for .NET. يمكنك تنزيل أحدث إصدار من موقع Aspose[هنا](https://releases.aspose.com/slides/net/).
+2. Visual Studio: ستحتاج إلى Visual Studio لإنشاء تطبيق .NET وتشغيله.
 
-## دليل خطوة بخطوة
+3. المعرفة الأساسية بـ C#: يفترض هذا البرنامج التعليمي أن لديك فهمًا أساسيًا لبرمجة C#.
 
-### 1. تهيئة العرض التقديمي
+الآن بعد أن قمنا بتغطية المتطلبات الأساسية، فلنتابع استيراد مساحات الأسماء الضرورية.
 
-للبدء، قم بإنشاء مشروع C# جديد في بيئة التطوير المفضلة لديك. إضافة مراجع إلى مكتبة Aspose.Slides. ابدأ بتهيئة كائن عرض تقديمي جديد:
+## استيراد مساحات الأسماء
+
+أولاً، ستحتاج إلى استيراد مساحات الأسماء ذات الصلة إلى مشروعك. توفر مساحات الأسماء هذه الفئات والأساليب المطلوبة للعمل مع Aspose.Slides لـ .NET.
 
 ```csharp
 using Aspose.Slides;
-using Aspose.Slides.Charts;
-using Aspose.Slides.Export;
-
-// ...
-
-Presentation presentation = new Presentation();
+using Aspose.Slides.SlideComments;
 ```
 
-### 2. إضافة الشرائح والمحتوى
+مع توفر المتطلبات الأساسية ومساحات الأسماء، دعنا نقسم العملية إلى خطوات متعددة لإضافة تعليقات الوالدين إلى الشريحة.
 
-بعد ذلك، أضف الشرائح الضرورية إلى العرض التقديمي الخاص بك وأدخل المحتوى الذي تريد إضافة تعليق توضيحي إليه بتعليقات الوالدين:
+## الخطوة 1: إنشاء عرض تقديمي
 
-```csharp
-ISlide slide = presentation.Slides.AddEmptySlide(presentation.SlideSize);
-ITextFrame textFrame = slide.Shapes.AddTextFrame("Title");
-textFrame.Text = "This is the slide content that needs annotation.";
-```
-
-### 3. إضافة تعليقات الوالدين
-
-الآن يأتي الجزء المثير – إضافة تعليقات أولياء الأمور إلى شريحتك:
+للبدء، تحتاج إلى إنشاء عرض تقديمي جديد باستخدام Aspose.Slides لـ .NET. سيكون هذا العرض التقديمي بمثابة اللوحة القماشية التي ستضيف تعليقاتك عليها.
 
 ```csharp
-IParentComment comment = slide.ParentComments.AddParentComment();
-comment.Text = "This comment provides additional context for the slide content.";
-```
+// المسار إلى دليل الإخراج.
+string outPptxFile = "Output Path";
 
-### 4. حفظ العرض التقديمي
-
-بمجرد إضافة تعليقات الوالدين، احفظ العرض التقديمي لرؤية التغييرات:
-
-```csharp
-presentation.Save("output.pptx", SaveFormat.Pptx);
-```
-
-## الأسئلة الشائعة
-
-### كيف يمكنني الوصول إلى تعليقات أولياء الأمور بعد إضافتها؟
-
-للوصول إلى تعليقات أولياء الأمور، يمكنك استخدام الكود التالي:
-
-```csharp
-foreach (IParentComment parentComment in slide.ParentComments)
+using (Presentation pres = new Presentation())
 {
-    string commentText = parentComment.Text;
-    // قم بمعالجة التعليق حسب الحاجة
+    // سيتم وضع الكود الخاص بك لإضافة التعليقات هنا.
+    
+    pres.Save(outPptxFile + "parent_comment.pptx", SaveFormat.Pptx);
 }
 ```
 
-### هل يمكنني تخصيص مظهر تعليقات أولياء الأمور؟
+ في الكود أعلاه، استبدل`"Output Path"` بالمسار المطلوب لعرض الإخراج الخاص بك.
 
-نعم، يمكنك تخصيص مظهر تعليقات الوالدين، بما في ذلك الخط واللون والموضع. راجع وثائق Aspose.Slides للحصول على مزيد من التفاصيل حول خيارات التخصيص.
+## الخطوة 2: إضافة مؤلفي التعليق
 
-### هل من الممكن إضافة ردود على تعليقات أولياء الأمور؟
+قبل إضافة التعليقات، تحتاج إلى تحديد مؤلفي هذه التعليقات. في هذا المثال، لدينا مؤلفان، "Author_1" و"Author_2"، يتم تمثيل كل منهما بمثيل من`ICommentAuthor`.
 
-اعتبارًا من الإصدار الحالي من Aspose.Slides، يمكن إضافة تعليقات الوالدين فقط. الردود على التعليقات غير مدعومة.
+```csharp
+// أضف تعليق
+ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
+IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
+
+// إضافة الرد على التعليق1
+ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
+IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
+reply1.ParentComment = comment1;
+```
+
+في هذه الخطوة، نقوم بإنشاء مؤلفين للتعليق ونضيف التعليق الأولي والرد على التعليق.
+
+## الخطوة 3: إضافة المزيد من الردود
+
+لإنشاء بنية هرمية للتعليقات، يمكنك إضافة المزيد من الردود على التعليقات الموجودة. وهنا نضيف ردًا ثانيًا على "التعليق1".
+
+```csharp
+// إضافة الرد على التعليق1
+IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
+reply2.ParentComment = comment1;
+```
+
+يؤدي هذا إلى إنشاء تدفق للمحادثة داخل العرض التقديمي الخاص بك.
+
+## الخطوة 4: إضافة ردود متداخلة
+
+يمكن أن تحتوي التعليقات على ردود متداخلة أيضًا. لتوضيح ذلك، أضفنا ردًا على "الرد 2 للتعليق 1"، مما أدى إلى إنشاء رد فرعي.
+
+```csharp
+// إضافة الرد على الرد
+IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
+subReply.ParentComment = reply2;
+```
+
+تسلط هذه الخطوة الضوء على تعدد استخدامات Aspose.Slides لـ .NET في إدارة التسلسلات الهرمية للتعليقات.
+
+## الخطوة 5: المزيد من التعليقات والردود
+
+يمكنك الاستمرار في إضافة المزيد من التعليقات والردود حسب الحاجة. في هذا المثال، نضيف تعليقين إضافيين وردًا على أحدهما.
+
+```csharp
+IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
+IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
+
+IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
+reply3.ParentComment = comment3;
+```
+
+توضح هذه الخطوة كيف يمكنك إنشاء محتوى جذاب وتفاعلي لعروضك التقديمية.
+
+## الخطوة 6: عرض التسلسل الهرمي
+
+لتصور التسلسل الهرمي للتعليق، يمكنك عرضه على وحدة التحكم. هذه الخطوة اختيارية ولكنها يمكن أن تكون مفيدة لتصحيح الأخطاء وفهم البنية.
+
+```csharp
+ISlide slide = pres.Slides[0];
+var comments = slide.GetSlideComments(null);
+for (int i = 0; i < comments.Length; i++)
+{
+    IComment comment = comments[i];
+    while (comment.ParentComment != null)
+    {
+        Console.Write("\t");
+        comment = comment.ParentComment;
+    }
+
+    Console.Write("{0} : {1}", comments[i].Author.Name, comments[i].Text);
+    Console.WriteLine();
+}
+```
+
+## الخطوة 7: إزالة التعليقات
+
+في بعض الحالات، قد تحتاج إلى إزالة التعليقات والردود عليها. يوضح مقتطف الشفرة أدناه كيفية إزالة "comment1" وجميع ردوده.
+
+```csharp
+comment1.Remove();
+pres.Save(outPptxFile + "remove_comment.pptx", SaveFormat.Pptx);
+```
+
+هذه الخطوة مفيدة لإدارة وتحديث محتوى العرض التقديمي الخاص بك.
+
+باستخدام هذه الخطوات، يمكنك إنشاء عروض تقديمية تحتوي على تعليقات وردود تفاعلية باستخدام Aspose.Slides for .NET. سواء كنت تتطلع إلى إشراك جمهورك أو التعاون مع أعضاء الفريق، فإن هذه الميزة توفر نطاقًا واسعًا من الإمكانيات.
 
 ## خاتمة
 
-يعد دمج تعليقات أولياء الأمور في شرائحك باستخدام Aspose.Slides for .NET طريقة رائعة لرفع جودة عروضك التقديمية وتأثيرها. من خلال تقديم التعليقات التوضيحية الثاقبة، فإنك تضمن أن جمهورك يستوعب المحتوى بوضوح. فلماذا الانتظار؟ ابدأ في الاستفادة من هذه الميزة اليوم واجذب انتباه جمهورك كما لم يحدث من قبل!
+يوفر Aspose.Slides for .NET مجموعة قوية من الأدوات لتحسين عروض PowerPoint التقديمية. مع إمكانية إضافة التعليقات والردود، يمكنك إنشاء محتوى ديناميكي وتفاعلي يأسر جمهورك. يوضح لك هذا الدليل خطوة بخطوة كيفية إضافة تعليقات الوالدين إلى الشرائح، وإنشاء تسلسلات هرمية، وحتى إزالة التعليقات عند الضرورة. باتباع هذه الخطوات واستكشاف وثائق Aspose.Slides[هنا](https://reference.aspose.com/slides/net/)، يمكنك الارتقاء بعروضك التقديمية إلى المستوى التالي.
+
+## الأسئلة الشائعة
+
+### هل يمكنني إضافة تعليقات إلى شرائح معينة في العرض التقديمي الخاص بي؟
+نعم، يمكنك إضافة تعليقات إلى أي شريحة في العرض التقديمي الخاص بك عن طريق تحديد الشريحة المستهدفة عند إنشاء تعليق.
+
+### هل من الممكن تخصيص مظهر التعليقات في العرض التقديمي؟
+يسمح لك Aspose.Slides for .NET بتخصيص مظهر التعليقات، بما في ذلك النص ومعلومات المؤلف والموضع على الشريحة.
+
+### هل يمكنني تصدير التعليقات والردود إلى ملف منفصل؟
+نعم، يمكنك تصدير التعليقات والردود إلى ملف عرض تقديمي منفصل، كما هو موضح في الخطوة 7.
+
+### هل يتوافق Aspose.Slides for .NET مع أحدث إصدارات PowerPoint؟
+تم تصميم Aspose.Slides for .NET للعمل مع مجموعة واسعة من إصدارات PowerPoint، مما يضمن التوافق مع أحدث الإصدارات.
+
+### هل هناك أي خيارات ترخيص متاحة لـ Aspose.Slides for .NET؟
+ نعم، يمكنك استكشاف خيارات الترخيص، بما في ذلك التراخيص المؤقتة، على موقع Aspose[هنا](https://purchase.aspose.com/buy) أو جرب النسخة التجريبية المجانية[هنا](https://releases.aspose.com/temporary-license/).

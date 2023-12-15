@@ -115,7 +115,7 @@ class Program
                     {
                         emphasisEffect.Type = EmphasisAnimationType.GrowWithColor;
                     }
-                    // Behandeln Sie andere Animationstypen auf ähnliche Weise
+                    //Behandeln Sie andere Animationstypen auf ähnliche Weise
                 }
             }
 
@@ -140,7 +140,7 @@ Dieser umfassende Leitfaden vermittelt Ihnen das nötige Fachwissen, um die Leis
 
 ### Kann ich Bewegungspfadanimationen mit Aspose.Slides ändern?
 
- Ja, Sie können Bewegungspfadanimationen mit Aspose.Slides ändern, indem Sie auf zugreifen`MotionPathEffect`Eigenschaften und passt sie entsprechend an.
+ Ja, Sie können Bewegungspfadanimationen mit Aspose.Slides ändern, indem Sie auf zugreifen`MotionPathEffect` Eigenschaften und passt sie entsprechend an.
 
 ### Ist es möglich, benutzerdefinierte Animationen zu Elementen in einer Folie hinzuzufügen?
 
@@ -152,4 +152,4 @@ Sie können die geänderte Präsentation je nach Ihren Anforderungen in verschie
 
 ### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
 
-Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+ Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).

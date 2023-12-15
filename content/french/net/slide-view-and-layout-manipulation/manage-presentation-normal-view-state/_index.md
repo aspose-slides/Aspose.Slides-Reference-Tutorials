@@ -117,7 +117,7 @@ Oui, Aspose.Slides vous permet d'ajouter des animations à des éléments indivi
 
 ### Où puis-je trouver une documentation complète sur Aspose.Slides pour .NET ?
 
-Vous pouvez accéder à la documentation complète d'Aspose.Slides pour .NET à l'adresse[Référence API](https://reference.aspose.com/slides/net/) page.
+ Vous pouvez accéder à la documentation complète d'Aspose.Slides pour .NET à l'adresse[Référence API](https://reference.aspose.com/slides/net/) page.
 
 ## Conclusion
 Dans ce guide, nous avons expliqué comment gérer les présentations dans l'état d'affichage normal à l'aide d'Aspose.Slides pour .NET. Grâce à ses fonctionnalités robustes, vous pouvez créer, modifier et améliorer des présentations par programmation, garantissant ainsi que votre contenu captive efficacement votre public. Que vous soyez un présentateur professionnel ou un développeur travaillant sur des applications liées à la présentation, Aspose.Slides for .NET est votre passerelle vers une gestion transparente des présentations.

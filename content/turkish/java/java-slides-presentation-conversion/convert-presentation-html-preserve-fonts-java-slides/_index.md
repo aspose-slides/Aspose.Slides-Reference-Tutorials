@@ -10,7 +10,7 @@ url: /tr/java/presentation-conversion/convert-presentation-html-preserve-fonts-j
 
 ## Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürmeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java kullanarak orijinal yazı tiplerini koruyarak bir PowerPoint sunumunu (PPTX) HTML'ye nasıl dönüştürebileceğinizi keşfedeceğiz. Bu, ortaya çıkan HTML'nin orijinal sunumun görünümüne çok benzemesini sağlayacaktır.
+Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunu (PPTX) orijinal yazı tiplerini koruyarak HTML'ye nasıl dönüştürebileceğimizi keşfedeceğiz. Bu, ortaya çıkan HTML'nin orijinal sunumun görünümüne çok benzemesini sağlayacaktır.
 
 ## Adım 1: Projeyi Ayarlama
 Koda dalmadan önce gerekli kurulumun yapıldığından emin olalım:

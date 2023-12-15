@@ -107,7 +107,7 @@ Absolut! Aspose.Slides låter dig exportera din animerade presentation till olik
 
 ### Var kan jag hitta mer resurser och dokumentation?
 
- För detaljerad dokumentation och exempel, se[Aspose.Slides API-referenser](https://reference.aspose.com/slides/net/).
+För detaljerad dokumentation och exempel, se[Aspose.Slides API-referenser](https://reference.aspose.com/slides/net/).
 
 ## Slutsats
 

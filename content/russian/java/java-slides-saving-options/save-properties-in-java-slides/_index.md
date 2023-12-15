@@ -14,7 +14,7 @@ url: /ru/java/saving-options/save-properties-in-java-slides/
 
 ## Предварительные условия
 
- Прежде чем начать, убедитесь, что в ваш Java-проект интегрирована библиотека Aspose.Slides for Java. Скачать библиотеку можно с официального сайта Aspose.[здесь](https://downloads.aspose.com/slides/java).
+ Прежде чем начать, убедитесь, что в ваш Java-проект интегрирована библиотека Aspose.Slides for Java. Скачать библиотеку можно с сайта Aspose.[здесь](https://downloads.aspose.com/slides/java).
 
 ## Шаг 1. Импортируйте необходимые библиотеки
 

@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
- Det här kodavsnittet initierar nödvändiga kataloger och filsökvägar, öppnar en PowerPoint-presentation och konverterar den till en SVG-fil samtidigt som du använder formatering med hjälp av`MySvgShapeFormattingController`.
+Det här kodavsnittet initierar nödvändiga kataloger och filsökvägar, öppnar en PowerPoint-presentation och konverterar den till en SVG-fil samtidigt som du använder formatering med hjälp av`MySvgShapeFormattingController`.
 
 ## Förstå SVG Shape Formatting Controller
 

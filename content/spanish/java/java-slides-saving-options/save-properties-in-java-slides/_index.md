@@ -14,7 +14,7 @@ En este tutorial, lo guiaremos a través del proceso de guardar propiedades en u
 
 ## Requisitos previos
 
- Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java integrada en su proyecto Java. Puede descargar la biblioteca desde el sitio web oficial de Aspose.[aquí](https://downloads.aspose.com/slides/java).
+ Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java integrada en su proyecto Java. Puede descargar la biblioteca desde el sitio web de Aspose.[aquí](https://downloads.aspose.com/slides/java).
 
 ## Paso 1: importar las bibliotecas necesarias
 

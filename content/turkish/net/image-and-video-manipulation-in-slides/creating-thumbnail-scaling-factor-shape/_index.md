@@ -63,7 +63,7 @@ var shape = slide.Shapes[0];
 // Şeklin bir kopyasını oluşturun
 var thumbnailShape = shape.Clone();
 
-//Ölçeklendirme faktörünü tanımlayın (örn. %50 için 0,5)
+// Ölçeklendirme faktörünü tanımlayın (örn. %50 için 0,5)
 double scalingFactor = 0.5;
 
 // Küçük resmin genişliğini ve yüksekliğini ayarlayın

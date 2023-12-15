@@ -24,7 +24,7 @@ Innan vi dyker in i borttagningen av segment från geometriska former, låt oss 
 
 1.  Installation: Börja med att ladda ner och installera Aspose.Slides för .NET-biblioteket. Du kan hitta den senaste versionen[här](https://releases.aspose.com/slides/net/).
 
-2.  API-referens: Bekanta dig med[Aspose.Slides API dokumentation](https://reference.aspose.com/slides/net/)att utforska det breda utbudet av funktioner och funktioner.
+2.  API-referens: Bekanta dig med[Aspose.Slides API dokumentation](https://reference.aspose.com/slides/net/) att utforska det breda utbudet av funktioner och funktioner.
 
 ## Ta bort segment: Steg för steg
 
@@ -37,7 +37,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Gå till rutschkanan
     ISlide slide = presentation.Slides[0];
 
-    // Få åtkomst till formen (förutsatt att det är den första formen)
+    //Få åtkomst till formen (förutsatt att det är den första formen)
     IAutoShape shape = (IAutoShape)slide.Shapes[0];
 
     // Få åtkomst till formens geometriska väg
@@ -61,7 +61,7 @@ Genom att selektivt ta bort segment från geometriska former kan du skapa visuel
 
 ### Hur kan jag ladda ner Aspose.Slides för .NET?
 
-Du kan ladda ner Aspose.Slides för .NET-biblioteket från[Aspose releaser sida](https://releases.aspose.com/slides/net/). 
+ Du kan ladda ner Aspose.Slides för .NET-biblioteket från[Aspose releaser sida](https://releases.aspose.com/slides/net/). 
 
 ### Kan jag ångra borttagning av segment i Aspose.Slides?
 

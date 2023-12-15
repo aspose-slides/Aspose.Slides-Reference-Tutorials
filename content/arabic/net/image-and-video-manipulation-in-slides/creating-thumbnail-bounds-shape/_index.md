@@ -105,4 +105,4 @@ thumbnailBitmap.Save("thumbnail.png", ImageFormat.Png);
 
 ### كيف يمكنني معرفة المزيد حول Aspose.Slides لـ .NET؟
 
-لمزيد من المعلومات المتعمقة والبرامج التعليمية والوثائق، يمكنك زيارة[Aspose.Slides كمرجع .NET](https://reference.aspose.com/slides/net/).
+ لمزيد من المعلومات المتعمقة والبرامج التعليمية والوثائق، يمكنك زيارة[Aspose.Slides كمرجع .NET](https://reference.aspose.com/slides/net/).

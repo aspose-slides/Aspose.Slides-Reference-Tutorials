@@ -63,7 +63,7 @@ Ahora viene la parte interesante: crear una miniatura con un factor de escala es
 // Crea una copia de la forma.
 var thumbnailShape = shape.Clone();
 
-//Definir el factor de escala (p. ej., 0,5 para 50%)
+// Definir el factor de escala (p. ej., 0,5 para 50%)
 double scalingFactor = 0.5;
 
 // Ajustar el ancho y alto de la miniatura

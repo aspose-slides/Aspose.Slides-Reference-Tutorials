@@ -75,6 +75,6 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ### س4: أين يمكنني العثور على المزيد من البرامج التعليمية والأمثلة حول Aspose.Slides for .NET؟
 
- يمكنك استكشاف دروس وأمثلة إضافية على[Aspose.Slides لوثائق .NET API](https://reference.aspose.com/slides/net/).
+يمكنك استكشاف دروس وأمثلة إضافية على[Aspose.Slides لوثائق .NET API](https://reference.aspose.com/slides/net/).
 
 الآن بعد أن قمت بتحويل طريقة عرض شريحة Notes إلى تنسيق PDF بنجاح، يمكنك استكشاف المزيد من الميزات والإمكانات الخاصة بـ Aspose.Slides for .NET لتحسين مهام أتمتة PowerPoint. ترميز سعيد!

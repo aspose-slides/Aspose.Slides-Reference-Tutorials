@@ -120,7 +120,7 @@ presentation.getProtectionManager().removeWriteProtection();
 
 是的，您可以通过在单个幻灯片上设置写保护来保护演示文稿中的特定幻灯片。使用`Slide`对象的`getProtectionManager()`管理特定幻灯片保护的方法。
 
-### 如果我忘记写保护密码会怎样？
+### 如果忘记写保护密码会怎样？
 
 如果您忘记了写保护密码，则没有内置方法可以恢复它。请务必将您的密码记录保存在安全的位置，以避免造成任何不便。
 

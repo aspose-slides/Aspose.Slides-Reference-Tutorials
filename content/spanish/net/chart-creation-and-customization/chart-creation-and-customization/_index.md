@@ -2,177 +2,111 @@
 title: Creación y personalización de gráficos en Aspose.Slides
 linktitle: Creación y personalización de gráficos en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda a crear y personalizar gráficos impresionantes usando Aspose.Slides para .NET. Guía paso a paso con ejemplos de código.
+description: Aprenda a crear y personalizar gráficos en PowerPoint usando Aspose.Slides para .NET. Guía paso a paso para crear presentaciones dinámicas.
 type: docs
 weight: 10
 url: /es/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
 
-## Introducción a Aspose.Slides
+## Introducción
 
-Aspose.Slides es una biblioteca sólida que proporciona API para trabajar con presentaciones de PowerPoint en varios lenguajes de programación, incluido .NET. Permite a los desarrolladores crear, manipular y administrar diferentes elementos de presentaciones, como diapositivas, formas, texto y gráficos.
+En el mundo de la presentación de datos, las ayudas visuales desempeñan un papel crucial a la hora de transmitir información de forma eficaz. Las presentaciones de PowerPoint se utilizan ampliamente para este propósito y Aspose.Slides para .NET es una poderosa biblioteca que le permite crear y personalizar diapositivas mediante programación. En esta guía paso a paso, exploraremos cómo crear gráficos y personalizarlos usando Aspose.Slides para .NET.
 
-## Configurando su proyecto
+## Requisitos previos
 
-Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides instalada en su proyecto .NET. Puede descargarlo del sitio web de Aspose o instalarlo a través del administrador de paquetes NuGet.
+Antes de sumergirnos en la creación y personalización de gráficos, necesitará cumplir con los siguientes requisitos previos:
 
-```csharp
-// Instale Aspose.Slides a través de NuGet
-Install-Package Aspose.Slides
-```
+1.  Aspose.Slides para .NET: asegúrese de tener instalada la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde el[pagina de descarga](https://releases.aspose.com/slides/net/).
 
-## Crear un gráfico
+2. Archivo de presentación: prepare un archivo de presentación de PowerPoint donde desee agregar y personalizar los gráficos.
 
-Para crear un gráfico usando Aspose.Slides, siga estos pasos:
+Ahora, dividamos el proceso en varios pasos para obtener un tutorial completo.
 
-1. Importe los espacios de nombres necesarios:
-```csharp
-using Aspose.Slides;
-using Aspose.Slides.Charts;
-```
-
-2. Inicializar una presentación:
-```csharp
-Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddEmptySlide();
-```
-
-3. Agregue un gráfico a la diapositiva:
-```csharp
-IChart chart = slide.Shapes.AddChart(ChartType.Column, 100, 100, 500, 300);
-```
-
-## Agregar datos al gráfico
-
-A continuación, agreguemos datos a nuestro gráfico:
-
-1. Acceda al libro de trabajo del gráfico:
-```csharp
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-```
-
-2. Agregar categorías y series:
-```csharp
-workbook.AddCell(0, 1, "Category 1");
-workbook.AddCell(0, 2, "Category 2");
-
-IChartSeries series = chart.ChartData.Series.Add(workbook.GetCell(0, 1), chart.Type);
-```
-
-3. Establecer valores para la serie:
-```csharp
-series.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 2));
-```
-
-## Personalización de elementos del gráfico
-
-Puede personalizar varios elementos del gráfico:
-
-1. Personalizar el título del gráfico:
-```csharp
-chart.HasTitle = true;
-chart.ChartTitle.Text.Text = "Sales Data";
-```
-
-2. Modificar las propiedades del eje:
-```csharp
-chart.Axes.HorizontalAxis.HasTitle = true;
-chart.Axes.HorizontalAxis.Title.Text.Text = "Months";
-```
-
-3. Ajustar líneas de cuadrícula y ticks:
-```csharp
-chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
-chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Gray;
-```
-
-## Aplicar estilos y colores
-
-Mejore la apariencia de su gráfico:
-
-1. Aplicar estilo de gráfico:
-```csharp
-chart.ChartStyle = 5; // Elija el estilo deseado
-```
-
-2. Establecer colores de serie:
-```csharp
-series.Format.Fill.FillType = FillType.Solid;
-series.Format.Fill.SolidFillColor.Color = Color.Blue;
-```
-
-## Formato de ejes y etiquetas
-
-Controle el formato y las etiquetas de los ejes:
-
-1. Formatear valores de eje:
-```csharp
-chart.Axes.HorizontalAxis.NumberFormat.FormatCode = "mm/dd";
-```
-
-2. Rotar etiquetas de eje:
-```csharp
-chart.Axes.HorizontalAxis.TextFormat.RotationAngle = 45;
-```
-
-## Agregar títulos y leyendas
-
-Agregue títulos y leyendas para mejorar la claridad:
-
-1. Personaliza las propiedades de la leyenda:
-```csharp
-chart.Legend.Position = LegendPosition.Bottom;
-chart.Legend.TextFormat.PortionFormat.FontBold = NullableBool.True;
-```
-
-2. Establecer títulos de ejes:
-```csharp
-chart.Axes.VerticalAxis.Title.Text.Text = "Sales";
-```
-
-## Trabajar con varias series
-
-Incorpore varias series para una representación completa de los datos:
-
-1. Agregar series adicionales:
-```csharp
-IChartSeries series2 = chart.ChartData.Series.Add(workbook.GetCell(0, 2), chart.Type);
-```
-
-2. Establezca valores para la nueva serie:
-```csharp
-series2.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 3));
-```
-
-## Guardar y exportar la presentación
-
-Finalmente, guarde y exporte su presentación:
+## Paso 1: agregar diapositivas de diseño a la presentación
 
 ```csharp
-presentation.Save("ChartPresentation.pptx", SaveFormat.Pptx);
+string FilePath = @"..\..\..\Sample Files\";
+string FileName = FilePath + "Adding Layout Slides.pptx";
+
+using (Presentation p = new Presentation(FileName))
+{
+    // Intente buscar por tipo de diapositiva de diseño
+    IMasterLayoutSlideCollection layoutSlides = p.Masters[0].LayoutSlides;
+    ILayoutSlide layoutSlide =
+        layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ??
+        layoutSlides.GetByType(SlideLayoutType.Title);
+
+    if (layoutSlide == null)
+    {
+        //La situación cuando una presentación no contiene algún tipo de diseños.
+        // ...
+
+        // Agregar diapositiva vacía con diapositiva de diseño agregada
+        p.Slides.InsertEmptySlide(0, layoutSlide);
+
+        // Guardar presentación
+        p.Save(FileName, SaveFormat.Pptx);
+    }
+}
 ```
+
+En este paso, creamos una nueva presentación, buscamos una diapositiva con el diseño adecuado y agregamos una diapositiva vacía usando Aspose.Slides.
+
+## Paso 2: Obtener un ejemplo de marcador de posición base
+
+```csharp
+string presentationName = Path.Combine("Your Document Directory", "placeholder.pptx");
+
+using (Presentation presentation = new Presentation(presentationName))
+{
+    ISlide slide = presentation.Slides[0];
+    IShape shape = slide.Shapes[0];
+
+    // ...
+
+    IShape masterShape = layoutShape.GetBasePlaceholder();
+
+    // ...
+}
+```
+
+Este paso implica abrir una presentación existente y extraer marcadores de posición básicos, lo que le permitirá trabajar con los marcadores de posición en sus diapositivas.
+
+## Paso 3: administrar el encabezado y el pie de página en las diapositivas
+
+```csharp
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
+{
+    IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
+
+    // ...
+
+    presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
+}
+```
+
+En este paso final, administramos los encabezados y pies de página de las diapositivas alternando su visibilidad, configurando el texto y personalizando los marcadores de posición de fecha y hora.
+
+Ahora que hemos dividido cada ejemplo en varios pasos, puede usar Aspose.Slides para .NET para crear, personalizar y administrar presentaciones de PowerPoint mediante programación. Esta poderosa biblioteca ofrece una amplia gama de capacidades, lo que le permite crear presentaciones atractivas e informativas con facilidad.
+
 ## Conclusión
 
-En este tutorial, exploramos cómo crear, personalizar y manipular gráficos usando la biblioteca Aspose.Slides para .NET. Aspose.Slides proporciona un conjunto completo de funciones que permiten a los desarrolladores trabajar mediante programación con presentaciones de PowerPoint y manejar de manera eficiente tareas relacionadas con gráficos.
+Crear y personalizar gráficos en Aspose.Slides para .NET abre un mundo de posibilidades para presentaciones dinámicas y basadas en datos. Con estas instrucciones paso a paso, podrá aprovechar todo el potencial de esta biblioteca para mejorar sus presentaciones de PowerPoint y transmitir información de forma eficaz.
 
 ## Preguntas frecuentes
 
-### ¿Cómo puedo cambiar el tipo de gráfico después de su creación?
+### ¿Qué versiones de .NET son compatibles con Aspose.Slides para .NET?
+Aspose.Slides para .NET admite una amplia gama de versiones de .NET, incluidos .NET Framework y .NET Core. Consulte la documentación para obtener detalles específicos.
 
- Puede modificar el tipo de gráfico utilizando el`ChangeType` método en el objeto del gráfico y proporcionando el deseado`ChartType` valor de enumeración.
+### ¿Puedo crear gráficos complejos usando Aspose.Slides para .NET?
+Sí, puede crear varios tipos de gráficos, incluidos gráficos de barras, gráficos circulares y gráficos de líneas, con amplias opciones de personalización.
 
-### ¿Puedo aplicar efectos 3D a mi gráfico?
+### ¿Hay una prueba gratuita disponible para Aspose.Slides para .NET?
+ Sí, puedes descargar una prueba gratuita desde el sitio web de Aspose.[aquí](https://releases.aspose.com/).
 
- Sí, puede agregar efectos 3D a su gráfico configurando el`Format.ThreeDFormat` Propiedades de la serie del gráfico.
+### ¿Dónde puedo encontrar soporte y recursos adicionales para Aspose.Slides para .NET?
+ Visite el foro de soporte de Aspose[aquí](https://forum.aspose.com/) para cualquier pregunta o ayuda que pueda necesitar.
 
-### ¿Es posible incrustar gráficos en aplicaciones web?
-
-¡Absolutamente! Puede crear gráficos utilizando Aspose.Slides y luego mostrarlos en aplicaciones web exportando las diapositivas como imágenes o HTML interactivo.
-
-### ¿Puedo personalizar la apariencia de puntos de datos individuales?
-
- ¡Ciertamente! Puede acceder a puntos de datos individuales utilizando el`DataPoints`colección y aplicarles formato.
-
-### ¿Dónde puedo encontrar más información sobre Aspose.Slides para .NET?
-
- Para obtener documentación detallada y ejemplos, visite el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net).
+### ¿Puedo comprar una licencia temporal de Aspose.Slides para .NET?
+Sí, puede obtener una licencia temporal desde el sitio web de Aspose[aquí](https://purchase.aspose.com/temporary-license/).

@@ -1,181 +1,147 @@
 ---
-title: Lignes de tendance du graphique
+title: Exploration des lignes de tendance des graphiques dans Aspose.Slides pour .NET
 linktitle: Lignes de tendance du graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment créer des lignes de tendance de graphique à l'aide d'Aspose.Slides pour .NET. Améliorez les visualisations de données avec des conseils étape par étape et des exemples de code.
+description: Découvrez comment ajouter diverses lignes de tendance aux graphiques à l'aide d'Aspose.Slides pour .NET dans ce guide étape par étape. Améliorez facilement vos compétences en visualisation de données !
 type: docs
 weight: 12
 url: /fr/net/advanced-chart-customization/chart-trend-lines/
 ---
 
-## Introduction aux lignes de tendance des graphiques
+Dans le monde de la visualisation et de la présentation des données, l'incorporation de graphiques peut être un moyen puissant de transmettre des informations de manière efficace. Aspose.Slides pour .NET fournit un ensemble d'outils riches en fonctionnalités pour travailler avec des graphiques, notamment la possibilité d'ajouter des lignes de tendance à vos graphiques. Dans ce didacticiel, nous aborderons étape par étape le processus d'ajout de lignes de tendance à un graphique à l'aide d'Aspose.Slides pour .NET. 
 
-Dans la visualisation des données, les lignes de tendance jouent un rôle crucial en révélant les modèles et tendances sous-jacents au sein des ensembles de données. Une ligne de tendance est une ligne droite ou courbe qui représente la direction générale des points de données. En ajoutant des lignes de tendance à vos graphiques, vous pouvez facilement identifier les tendances, les corrélations et les écarts.
+## Conditions préalables
 
-## Configuration de votre environnement de développement
+Avant de commencer à travailler avec Aspose.Slides pour .NET, vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
-Avant de nous lancer dans la création de lignes de tendance de graphiques, configurons notre environnement de développement.
+1.  Aspose.Slides pour .NET : pour accéder à la bibliothèque et l'utiliser, vous devez avoir installé Aspose.Slides pour .NET. Vous pouvez obtenir la bibliothèque auprès du[page de téléchargement](https://releases.aspose.com/slides/net/).
 
-## Installation d'Aspose.Slides pour .NET
+2. Environnement de développement : vous devez disposer d'un environnement de développement, de préférence en utilisant un environnement de développement intégré .NET comme Visual Studio.
 
-Pour commencer, vous devez installer la bibliothèque Aspose.Slides pour .NET. Vous pouvez le télécharger depuis le site Web ou utiliser un gestionnaire de packages comme NuGet.
+3. Connaissance de base de C# : Une compréhension fondamentale de la programmation C# est bénéfique, car nous utiliserons C# pour travailler avec Aspose.Slides pour .NET.
 
-```csharp
-// Installez Aspose.Slides pour .NET via NuGet
-Install-Package Aspose.Slides
-```
+Maintenant que nous avons couvert les conditions préalables, décomposons étape par étape le processus d'ajout de lignes de tendance à un graphique.
 
-## Création d'un nouveau projet .NET
+## Importation d'espaces de noms
 
-Une fois la bibliothèque installée, créez un nouveau projet .NET dans votre environnement de développement préféré, tel que Visual Studio.
-
-## Ajout de données au graphique
-
-Pour illustrer les lignes de tendance, nous allons générer des exemples de données et créer un graphique de base à l'aide d'Aspose.Slides.
+Tout d’abord, assurez-vous d’importer les espaces de noms nécessaires dans votre projet C#. Ces espaces de noms sont essentiels pour travailler avec Aspose.Slides pour .NET.
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Charts;
-
-// Créer une nouvelle présentation
-Presentation presentation = new Presentation();
-
-// Ajouter une diapositive
-ISlide slide = presentation.Slides.AddSlide(0, SlideLayoutType.TitleAndContent);
-
-//Ajouter un graphique à la diapositive
-IChart chart = slide.Shapes.AddChart(ChartType.Line, 100, 100, 500, 300);
-
-// Ajouter des données au graphique
-chart.ChartData.Series.Add(fact.GetCell(0, 0, 1, "Series 1"), fact.GetCell(0, 0, 2, 20));
-chart.ChartData.Series.Add(fact.GetCell(0, 1, 1, "Series 2"), fact.GetCell(0, 1, 2, 35));
-// Ajoutez plus de points de données si nécessaire
-
-// Définir le titre du graphique
-chart.ChartTitle.AddTextFrameForOverriding("Sample Chart");
-chart.ChartTitle.TextFrameForOverriding.Text = "Sample Chart with Trend Lines";
-
-// Enregistrez la présentation
-presentation.Save("ChartWithTrendLines.pptx", SaveFormat.Pptx);
+using Aspose.Slides.Export;
 ```
 
-## Ajout de lignes de tendance
+## Étape 1 : Créer une présentation
 
-Les lignes de tendance sont de différents types, notamment linéaires, exponentielles et polynomiales. Voyons comment ajouter ces lignes de tendance à notre graphique.
-
-## Ajout de lignes de tendance linéaires
-
-Les lignes de tendance linéaires sont utiles lorsque les points de données suivent un modèle à peu près droit. L'ajout d'une ligne de tendance linéaire à notre graphique est simple.
+Dans cette étape, nous créons une présentation vide avec laquelle travailler.
 
 ```csharp
-// Ajouter une ligne de tendance linéaire à la première série
-ITrendline linearTrendline = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Linear);
-linearTrendline.DisplayEquation = true;
-linearTrendline.DisplayRSquaredValue = true;
+// Le chemin d'accès au répertoire des documents.
+string dataDir = "Your Document Directory";
+
+// Créez un répertoire s'il n'est pas déjà présent.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+// Création d'une présentation vide
+Presentation pres = new Presentation();
 ```
 
-## Ajout de lignes de tendance exponentielles
+## Étape 2 : ajouter un graphique à la diapositive
 
-Les lignes de tendance exponentielles conviennent aux données qui changent à un rythme accéléré. L'ajout d'une ligne de tendance exponentielle suit un processus similaire.
+Ensuite, nous ajoutons un histogramme groupé à une diapositive.
 
 ```csharp
-// Ajouter une ligne de tendance exponentielle à la deuxième série
-ITrendline exponentialTrendline = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Exponential);
-exponentialTrendline.DisplayEquation = true;
-exponentialTrendline.DisplayRSquaredValue = true;
+// Création d'un histogramme groupé
+IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
 ```
 
-## Ajout de lignes de tendance polynomiales
+## Étape 3 : ajouter des lignes de tendance au graphique
 
-Les lignes de tendance polynomiales sont utiles lorsque les fluctuations des données sont plus complexes. Vous pouvez ajouter une ligne de tendance polynomiale avec le code suivant.
+Maintenant, nous ajoutons différents types de lignes de tendance à la série de graphiques.
+
+### Ajout d'une ligne de tendance exponentielle
 
 ```csharp
-// Ajouter une ligne de tendance polynomiale à la deuxième série
-ITrendline polynomialTrendline = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Polynomial, 2);
-polynomialTrendline.DisplayEquation = true;
-polynomialTrendline.DisplayRSquaredValue = true;
+// Ajout d'une ligne de tendance exponentielle pour la série de graphiques 1
+ITrendline tredLineExp = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Exponential);
+tredLineExp.DisplayEquation = false;
+tredLineExp.DisplayRSquaredValue = false;
 ```
 
-## Personnalisation des lignes de tendance
-
-Pour améliorer la représentation visuelle de vos lignes de tendance, vous pouvez personnaliser leur apparence.
-
-## Formatage des lignes de tendance
-
-Vous pouvez formater les lignes de tendance en ajustant le style, la couleur et l’épaisseur des lignes.
+### Ajout d'une ligne de tendance linéaire
 
 ```csharp
-// Personnaliser l'apparence de la ligne de tendance
-linearTrendline.Format.Line.Style = LineStyle.ThickBetweenThin;
-linearTrendline.Format.Line.DashStyle = LineDashStyle.DashDot;
-linearTrendline.Format.Line.Width = 2;
-linearTrendline.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
+// Ajout d'une ligne de tendance linéaire pour la série de graphiques 1
+ITrendline tredLineLin = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Linear);
+tredLineLin.Format.Line.FillFormat.FillType = FillType.Solid;
+tredLineLin.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
 ```
 
-## Gestion des étiquettes et des annotations
-
-L'ajout d'étiquettes de données et d'annotations peut fournir du contexte à votre graphique.
-
-## Ajout d'étiquettes de données
-
-Les étiquettes de données affichent les valeurs de points de données individuels sur le graphique.
+### Ajout d'une ligne de tendance logarithmique
 
 ```csharp
-// Afficher les étiquettes de données pour la première série
-chart.ChartData.Series[0].Labels.ShowValue = true;
+// Ajout d'une ligne de tendance logarithmique pour la série de graphiques 2
+ITrendline tredLineLog = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Logarithmic);
+tredLineLog.AddTextFrameForOverriding("New log trend line");
 ```
 
-## Annotation de points de données
-
-Les annotations aident à mettre en évidence des points de données spécifiques ou des événements importants.
+### Ajout d'une ligne de tendance moyenne mobile
 
 ```csharp
-// Ajouter une annotation à un point de données
-IChartDataPoint dataPoint = chart.ChartData.Series[0].DataPoints[0];
-dataPoint.Marker.Format.Fill.FillType = FillType.Solid;
-dataPoint.Marker.Format.Fill.SolidFillColor.Color = Color.Green;
+// Ajout d'une ligne de tendance de moyenne mobile pour la série de graphiques 2
+ITrendline tredLineMovAvg = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.MovingAverage);
+tredLineMovAvg.Period = 3;
+tredLineMovAvg.TrendlineName = "New TrendLine Name";
 ```
 
-## Sauvegarder et partager votre graphique
-
-Une fois que vous avez créé et personnalisé votre graphique avec des lignes de tendance, il est temps de sauvegarder et de partager votre travail.
-
-## Enregistrement dans différents formats
-
-Vous pouvez enregistrer votre graphique dans différents formats, tels que PPTX, PDF ou formats d'image.
+### Ajout d'une ligne de tendance polynomiale
 
 ```csharp
-// Enregistrez la présentation dans différents formats
-presentation.Save("ChartWithTrendLines.pdf", SaveFormat.Pdf);
-presentation.Save("ChartWithTrendLines.png", SaveFormat.Png);
+// Ajout d'une ligne de tendance polynomiale pour la série de graphiques 3
+ITrendline tredLinePol = chart.ChartData.Series[2].TrendLines.Add(TrendlineType.Polynomial);
+tredLinePol.Forward = 1;
+tredLinePol.Order = 3;
 ```
 
-## Intégration dans des présentations
+### Ajout d'une ligne de tendance de puissance
 
-Vous pouvez également intégrer votre graphique dans une présentation plus grande pour fournir un contexte et des informations.
+```csharp
+// Ajout d'une ligne de tendance de puissance pour la série de graphiques 3
+ITrendline tredLinePower = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Power);
+tredLinePower.Backward = 1;
+```
+
+## Étape 4 : Enregistrez la présentation
+
+Après avoir ajouté des lignes de tendance au graphique, enregistrez la présentation.
+
+```csharp
+// Enregistrement de la présentation
+pres.Save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
+```
+
+C'est ça! Vous avez ajouté avec succès diverses lignes de tendance à votre graphique à l'aide d'Aspose.Slides pour .NET.
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment créer des lignes de tendance de graphique à l'aide d'Aspose.Slides pour .NET. En suivant ces étapes, vous pouvez améliorer vos visualisations de données avec des lignes de tendance qui révèlent des informations précieuses. Expérimentez avec différents types de lignes de tendance et d'options de personnalisation pour rendre vos graphiques plus informatifs et plus attrayants.
+Aspose.Slides pour .NET est une bibliothèque polyvalente qui vous permet de créer et de manipuler facilement des graphiques. En suivant ce guide étape par étape, vous pouvez ajouter différents types de lignes de tendance à vos graphiques, améliorant ainsi la représentation visuelle de vos données.
 
-## FAQ
+### FAQ
 
-### Comment installer Aspose.Slides pour .NET ?
+### Où puis-je trouver la documentation d’Aspose.Slides pour .NET ?
+ Vous pouvez accéder à la documentation[ici](https://reference.aspose.com/slides/net/).
 
- Vous pouvez installer Aspose.Slides pour .NET via NuGet. Pour des instructions détaillées, reportez-vous au[Documentation](https://docs.aspose.com/slides/net/installation/).
+### Comment puis-je télécharger Aspose.Slides pour .NET ?
+ Vous pouvez télécharger Aspose.Slides pour .NET à partir de la page de téléchargement[ici](https://releases.aspose.com/slides/net/).
 
-### Puis-je personnaliser l’apparence des lignes de tendance ?
+### Existe-t-il un essai gratuit disponible pour Aspose.Slides pour .NET ?
+ Oui, vous pouvez essayer Aspose.Slides pour .NET gratuitement en visitant[ce lien](https://releases.aspose.com/).
 
-Oui, vous pouvez personnaliser les lignes de tendance en ajustant des attributs tels que le style, la couleur et l'épaisseur des lignes. 
+### Où puis-je acheter Aspose.Slides pour .NET ?
+ Pour acheter Aspose.Slides pour .NET, visitez la page d'achat[ici](https://purchase.aspose.com/buy).
 
-### Est-il possible d'ajouter des annotations aux points de données ?
-
-Absolument! Vous pouvez annoter des points de données en modifiant les attributs des marqueurs et en ajoutant des informations contextuelles. Apprenez-en davantage dans le[Documentation](https://reference.aspose.com/slides/net/).
-
-### Comment puis-je enregistrer mon graphique dans différents formats ?
-
- Vous pouvez enregistrer votre graphique dans différents formats, tels que PDF ou formats d'image, à l'aide du`Save` méthode. Trouvez des exemples dans le[Documentation](https://reference.aspose.com/slides/net/).
-
-### Où puis-je accéder à la bibliothèque Aspose.Slides pour .NET ?
-
- Vous pouvez accéder à la bibliothèque Aspose.Slides pour .NET en visitant le[page de téléchargement](https://releases.aspose.com/slides/net/). Assurez-vous de sélectionner la version appropriée pour votre projet.
+### Ai-je besoin d’une licence temporaire pour Aspose.Slides pour .NET ?
+ Vous pouvez obtenir une licence temporaire pour Aspose.Slides for .NET auprès de[ce lien](https://purchase.aspose.com/temporary-license/).

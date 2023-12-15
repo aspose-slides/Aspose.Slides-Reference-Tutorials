@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## FAQ :
 
 ### Comment puis-je spécifier la taille et la position de la vidéo liée sur la diapositive ?
- Vous pouvez ajuster les dimensions et la position du cadre de contrôle ActiveX à l'aide des paramètres du`AddOleObjectFrame` méthode. Les quatre arguments numériques représentent respectivement les coordonnées X et Y du coin supérieur gauche ainsi que la largeur et la hauteur du cadre.
+ Vous pouvez ajuster les dimensions et la position du cadre de contrôle ActiveX à l'aide des paramètres du`AddOleObjectFrame`méthode. Les quatre arguments numériques représentent respectivement les coordonnées X et Y du coin supérieur gauche ainsi que la largeur et la hauteur du cadre.
 
 ### Puis-je lier des vidéos de différents formats en utilisant cette approche ?
 Oui, vous pouvez lier des vidéos de différents formats tant que le contrôle ActiveX approprié est disponible pour ce format. Par exemple, le contrôle ShockwaveFlash ActiveX utilisé dans ce guide convient aux vidéos Flash (SWF). Pour d'autres formats, vous devrez peut-être utiliser des ProgID différents.

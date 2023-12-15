@@ -93,7 +93,7 @@ Bu eğitimde, Java ve Aspose.Slides for Java kitaplığını kullanarak PowerPoi
 
  Sunuyu kullanarak bir sunumun yazmaya karşı korumalı olup olmadığını kontrol edebilirsiniz.`getProtectionManager().isWriteProtected()` Aspose.Slides kütüphanesi tarafından sağlanan yöntem.
 
-### Parola korumalı bir sunumdan yazma korumasını kaldırmak mümkün mü?
+### Parola korumalı bir sunumdan yazma korumasını kaldırmak mümkün müdür?
 
 Hayır, parola korumalı bir sunumdan yazma korumasını kaldırma bu eğitimde ele alınmamaktadır. Parola korumasını ayrı ayrı ele almanız gerekir.
 

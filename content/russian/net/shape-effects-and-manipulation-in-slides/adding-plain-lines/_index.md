@@ -59,7 +59,7 @@ ILineShape verticalLine = slide.Shapes.AddLine(300, 100, 300, 300);
 ```csharp
 // Настройка свойств линии
 horizontalLine.LineFormat.Width = 3; // Установить толщину линии
-horizontalLine.LineFormat.Style = LineStyle.Single; // Установить стиль линии
+horizontalLine.LineFormat.Style = LineStyle.Single; //Установить стиль линии
 horizontalLine.LineFormat.FillFormat.SolidFillColor.Color = Color.Black; // Установить цвет линии
 ```
 

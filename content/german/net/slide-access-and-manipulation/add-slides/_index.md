@@ -106,4 +106,4 @@ Absolut. Mit den umfangreichen Funktionen von Aspose.Slides können Sie das Layo
 
 ### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
 
- Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).

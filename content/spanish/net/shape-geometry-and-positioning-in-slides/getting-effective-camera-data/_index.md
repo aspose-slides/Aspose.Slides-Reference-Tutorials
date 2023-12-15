@@ -63,7 +63,7 @@ double cameraZ = camera.Position.Z;
 Una vez que haya extraído los datos de la cámara, puede utilizarlos para optimizar su presentación para varios escenarios. Por ejemplo, es posible que desee ajustar la posición de la cámara para enfocar contenido específico o ajustar el campo de visión para diferentes tamaños de visualización. A continuación se muestra un ejemplo sencillo de cómo ajustar la posición de la cámara:
 
 ```csharp
-//Suponiendo que tiene los parámetros de la cámara del Paso 2
+// Suponiendo que tiene los parámetros de la cámara del Paso 2
 
 // Ajustar la posición de la cámara
 cameraX += 10;
@@ -94,7 +94,7 @@ slide.SetCamera(defaultCamera);
 
 ### ¿Puedo animar los movimientos de la cámara en mi presentación?
 
- Sí, Aspose.Slides te permite crear animaciones, incluidos movimientos de cámara, dentro de tu presentación. Puede definir fotogramas clave para la posición de la cámara y otros parámetros para crear transiciones dinámicas. Referirse a[Documentación de Aspose.Slides](https://reference.aspose.com/slides/net/) para obtener información detallada sobre técnicas de animación.
+Sí, Aspose.Slides te permite crear animaciones, incluidos movimientos de cámara, dentro de tu presentación. Puede definir fotogramas clave para la posición de la cámara y otros parámetros para crear transiciones dinámicas. Referirse a[Documentación de Aspose.Slides](https://reference.aspose.com/slides/net/) para obtener información detallada sobre técnicas de animación.
 
 ## Conclusión
 

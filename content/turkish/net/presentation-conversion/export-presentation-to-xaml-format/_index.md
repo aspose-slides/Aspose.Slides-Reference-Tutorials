@@ -112,4 +112,4 @@ Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışmaya 
 5. ### Aspose.Slides for .NET için nereden destek alabilirim?
  Destek ve topluluk tartışmalarını bulabilirsiniz[Burada](https://forum.aspose.com/).
 
-Daha fazla eğitim ve kaynak için şu adresi ziyaret edin:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/).
+ Daha fazla eğitim ve kaynak için şu adresi ziyaret edin:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/).

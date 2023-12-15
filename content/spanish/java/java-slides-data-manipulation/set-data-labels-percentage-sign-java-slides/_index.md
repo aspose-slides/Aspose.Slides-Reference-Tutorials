@@ -51,7 +51,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 
 ## Paso 4: agregar datos del gráfico
 
-Agregamos datos al gráfico creando series y puntos de datos. En este ejemplo, agregamos dos series con sus respectivos puntos de datos.
+Agregamos datos al gráfico creando series y puntos de datos. En este ejemplo, sumamos dos series con sus respectivos puntos de datos.
 
 ```java
 //Obtener la hoja de trabajo de datos del gráfico

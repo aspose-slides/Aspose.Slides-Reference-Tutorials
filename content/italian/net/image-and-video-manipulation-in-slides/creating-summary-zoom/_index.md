@@ -51,7 +51,7 @@ var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
 Ora creiamo la diapositiva di zoom di riepilogo vera e propria che mostrerà la panoramica delle diapositive che abbiamo aggiunto in precedenza:
 
 ```csharp
-//Crea una diapositiva zoom di riepilogo
+// Crea una diapositiva zoom di riepilogo
 var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
 ```
 

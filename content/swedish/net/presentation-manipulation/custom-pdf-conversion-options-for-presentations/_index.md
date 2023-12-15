@@ -87,7 +87,7 @@ Ja, Aspose.Slides för .NET stöder olika dokumentformat, inte bara PowerPoint-p
 
 ### 4. Kan jag få tillfälliga licenser?
 
-Ja, tillfälliga licenser är tillgängliga för din bekvämlighet. Hitta mer information[här](https://purchase.aspose.com/temporary-license/).
+ Ja, tillfälliga licenser är tillgängliga för din bekvämlighet. Hitta mer information[här](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Var kan jag söka support om jag stöter på problem?
 

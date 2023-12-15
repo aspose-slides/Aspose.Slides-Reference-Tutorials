@@ -142,7 +142,7 @@ presentation.Save(outputPath, SaveFormat.Pdf);
  Pour changer la couleur d'arrière-plan d'une forme elliptique, accédez à son`FillFormat` propriété et définir la`SolidFillColor` propriété à la couleur désirée.
 
 ### Puis-je appliquer plusieurs effets d’animation à une seule ellipse ?
- Oui, vous pouvez appliquer plusieurs effets d'animation à une seule forme d'ellipse. Ajoutez simplement plusieurs effets au`AnimationSettings`de l'ellipse.
+Oui, vous pouvez appliquer plusieurs effets d'animation à une seule forme d'ellipse. Ajoutez simplement plusieurs effets au`AnimationSettings` de l'ellipse.
 
 ### Aspose.Slides est-il compatible avec .NET Core ?
 Oui, Aspose.Slides est compatible avec .NET Core, vous permettant de développer des applications multiplateformes.

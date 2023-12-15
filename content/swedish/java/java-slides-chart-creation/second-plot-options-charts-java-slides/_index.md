@@ -88,7 +88,7 @@ I den här handledningen har vi lärt oss hur man lägger till andra plotalterna
 
 ###  Vad gör`PieSplitBy` control in a Pie of Pie chart?
 
- De`PieSplitBy`egenskapen styr hur cirkeldiagrammet delas upp. Du kan ställa in den på antingen`PieSplitType.ByPercentage` eller`PieSplitType.ByValue` för att dela upp diagrammet efter procent eller efter ett specifikt värde.
+ De`PieSplitBy`egenskapen styr hur cirkeldiagrammet delas. Du kan ställa in den på antingen`PieSplitType.ByPercentage` eller`PieSplitType.ByValue` för att dela upp diagrammet efter procent eller efter ett specifikt värde.
 
 ### Hur ställer jag in positionen för delingen i ett cirkeldiagram?
 

@@ -2,97 +2,115 @@
 title: Generera miniatyrbild från Slide in Notes
 linktitle: Generera miniatyrbild från Slide in Notes
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Generera miniatyrer från bilder som innehåller anteckningar med Aspose.Slides för .NET. Lär dig steg för steg hur du extraherar anteckningar, skapar miniatyrer och förbättrar din PowerPoint-manipulation.
+description: Lär dig hur du genererar miniatyrer från bilder i anteckningsdelen av din presentation med Aspose.Slides för .NET. Förbättra ditt visuella innehåll!
 type: docs
 weight: 12
 url: /sv/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
 
-dagens digitala tidsålder spelar presentationer en avgörande roll för att effektivt förmedla information och idéer. Med tillkomsten av kraftfulla bibliotek som Aspose.Slides för .NET har utvecklare fått möjligheten att manipulera och extrahera innehåll från PowerPoint-presentationer programmatiskt. Ett vanligt krav är att generera miniatyrer från bilder, särskilt när dessa bilder innehåller viktiga anteckningar. Den här steg-för-steg-guiden leder dig genom processen att generera miniatyrer från bilder som innehåller anteckningar med Aspose.Slides för .NET.
+en värld av moderna presentationer är visuellt innehåll kung. Att skapa tilltalande bilder är avgörande för effektiv kommunikation. Ett sätt att förbättra dina presentationer är genom att generera miniatyrer från bilder, särskilt när du vill framhäva specifika detaljer eller dela en översikt. Aspose.Slides för .NET är ett kraftfullt verktyg som kan hjälpa dig att uppnå detta sömlöst. I den här steg-för-steg-guiden går vi igenom processen att generera miniatyrer från bilder i anteckningssektionen i en presentation med Aspose.Slides för .NET.
 
 ## Förutsättningar
 
-Innan vi går in i processen, se till att du har följande förutsättningar på plats:
+Innan vi dyker in i detaljerna bör du ha följande förutsättningar på plats:
 
-- Visual Studio installerat på din dator.
-- Grundläggande förtrogenhet med C#-programmering och .NET-utveckling.
--  Aspose.Slides för .NET-bibliotek. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
+### 1. Aspose.Slides för .NET
 
-## Laddar en PowerPoint-presentation
+ Se till att du har Aspose.Slides för .NET installerat och konfigurerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
 
-Det första steget innebär att ladda PowerPoint-presentationen med Aspose.Slides för .NET. Så här kan du göra det:
+### 2. .NET-miljö
+
+Du bör ha en .NET-utvecklingsmiljö redo på ditt system.
+
+### 3. En presentationsfil
+
+ Ha en presentationsfil (t.ex.`ThumbnailFromSlideInNotes.pptx`) från vilken du vill generera miniatyrer.
+
+Låt oss nu dela upp processen i steg:
+
+## Steg 1: Importera namnområden
+
+Först måste du importera de nödvändiga namnrymden för att arbeta med Aspose.Slides. Lägg till följande kod i början av ditt C#-skript:
 
 ```csharp
 using Aspose.Slides;
+using System.Drawing;
+```
 
-// Ladda presentationen
-using (var presentation = new Presentation("your-presentation.pptx"))
+## Steg 2: Ladda presentationen
+
+ Därefter måste du ladda presentationsfilen som innehåller bilderna med anteckningar. Använd följande kod för att instansiera en`Presentation` klass:
+
+```csharp
+string dataDir = "Your Document Directory";
+
+using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlideInNotes.pptx"))
 {
-    // Din kod här
+    // Din kod kommer hit
 }
 ```
 
-## Extrahera bilder med anteckningar
+## Steg 3: Gå till bilden
 
-För att extrahera bilder tillsammans med deras anteckningar måste du iterera genom bilderna och komma åt deras anteckningar. Så här kan du uppnå detta:
-
-```csharp
-// Iterera genom diabilder
-foreach (ISlide slide in presentation.Slides)
-{
-    // Kontrollera om bilden har anteckningar
-    if (slide.NotesSlide != null)
-    {
-        // Tillgång till anteckningar
-        string notes = slide.NotesSlide.NotesTextFrame.Text;
-        
-        // Din kod här
-    }
-}
-```
-
-## Generera miniatyrer från presentationer
-
-Låt oss nu generera miniatyrer från bilderna med SlideUtil-klassen:
+Du kan välja vilken bild i presentationen du vill generera en miniatyrbild för. I det här exemplet kommer vi åt den första bilden:
 
 ```csharp
-using Aspose.Slides.Util;
-
-// Skapa en miniatyrbild för en bild
-var thumbnail = SlideUtil.GetSlideThumbnail(slide, 1.0f);
+ISlide sld = pres.Slides[0];
 ```
 
-## Spara miniatyrbilder på disk
+## Steg 4: Definiera önskade mått
 
-När du har skapat miniatyrer kan du spara dem på din lokala disk:
+Ange måtten (bredd och höjd) för den miniatyrbild du vill generera. Till exempel:
 
 ```csharp
-// Spara miniatyrbilden på disken
-thumbnail.Save("slide-thumbnail.png", ImageFormat.Png);
+int desiredX = 1200; // Bredd
+int desiredY = 800;  // Höjd
 ```
+
+## Steg 5: Beräkna skalningsfaktorer
+
+För att säkerställa att miniatyrbilden passar de önskade måtten, beräkna skalningsfaktorerna enligt följande:
+
+```csharp
+float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
+float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
+```
+
+## Steg 6: Skapa en miniatyrbild
+
+Skapa nu en bildminiatyr i full skala med de beräknade skalningsfaktorerna:
+
+```csharp
+Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
+```
+
+## Steg 7: Spara miniatyrbilden
+
+Slutligen, spara den genererade miniatyren som en JPEG-bild:
+
+```csharp
+bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+```
+
+Det är allt! Du har framgångsrikt skapat en miniatyrbild från en bild i anteckningsdelen av din presentation med Aspose.Slides för .NET.
 
 ## Slutsats
 
-I den här handledningen undersökte vi hur man genererar miniatyrer från bilder som innehåller anteckningar med Aspose.Slides för .NET. Vi täckte in att ladda en presentation, extrahera bilder med anteckningar, generera miniatyrer och spara dem på disk. Med denna kunskap kan du förbättra dina applikationer genom att lägga till funktioner som involverar PowerPoint-presentationsmanipulation.
+Att integrera miniatyrer i dina presentationer kan avsevärt förbättra deras visuella tilltalande och effektivitet. Aspose.Slides för .NET gör denna process enkel, så att du enkelt kan skapa anpassade miniatyrer från dina bilder.
 
-## Vanliga frågor
+## Vanliga frågor (vanliga frågor)
 
-### Hur kan jag skaffa Aspose.Slides för .NET-biblioteket?
+### Vilka format kan jag spara de genererade miniatyrerna i?
+Du kan spara miniatyrerna i olika format, inklusive JPEG, PNG och mer, beroende på dina krav.
 
- Du kan ladda ner Aspose.Slides för .NET-biblioteket från[här](https://releases.aspose.com/slides/net/).
+### Kan jag skapa miniatyrer för flera bilder samtidigt?
+Ja, du kan gå igenom bilderna i din presentation och generera miniatyrer för var och en.
 
-### Kan jag generera miniatyrer endast för specifika bilder?
+### Är Aspose.Slides för .NET kompatibelt med olika .NET-ramverk?
+Ja, Aspose.Slides för .NET är kompatibel med olika .NET-ramverk, inklusive .NET Core och .NET Framework.
 
-Ja, du kan generera miniatyrer för specifika bilder genom att tillhandahålla motsvarande bildindex till`SlideUtil.GetSlideThumbnail` metod.
+### Kan jag anpassa utseendet på de genererade miniatyrerna?
+Absolut! Aspose.Slides för .NET ger alternativ för att anpassa utseendet på miniatyrbilderna, som mått, kvalitet och mer.
 
-### Är Aspose.Slides för .NET lämplig för plattformsoberoende applikationer?
-
-Ja, Aspose.Slides för .NET är kompatibel med olika plattformar, inklusive Windows och Linux, vilket gör den lämplig för plattformsoberoende applikationer.
-
-### Kan jag anpassa utseendet på genererade miniatyrer?
-
-Absolut! Du kan justera storlek, kvalitet och andra egenskaper för de genererade miniatyrerna för att matcha din applikations krav.
-
-### Stöder Aspose.Slides för .NET andra PowerPoint-manipulationsuppgifter?
-
-Ja, Aspose.Slides för .NET erbjuder ett brett utbud av funktioner, inklusive att skapa, redigera, konvertera och rendera PowerPoint-presentationer.
+### Var kan jag få support eller ytterligare hjälp med Aspose.Slides för .NET?
+ Du kan hitta hjälp och engagera dig i Aspose-gemenskapen på[Aspose Support Forum](https://forum.aspose.com/).

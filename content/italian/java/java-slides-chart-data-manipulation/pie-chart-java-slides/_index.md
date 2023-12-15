@@ -105,7 +105,7 @@ Personalizza i dati del grafico aggiungendo categorie e serie e impostandone i v
 // Imposta i colori del settore
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
-// Personalizza l'aspetto di ciascun settore
+// Personalizza l'aspetto di ogni settore
 IChartDataPoint point1 = series.getDataPoints().get_Item(0);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));

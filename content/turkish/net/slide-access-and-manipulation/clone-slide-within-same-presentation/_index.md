@@ -57,7 +57,7 @@ ISlide clonedSlide = presentation.Slides.AddClone(sourceSlide);
 Sunuyu kaydetmeden önce klonlanan slaytta bazı değişiklikler yapmak isteyebilirsiniz. Diyelim ki klonlanan slaydın başlık metnini güncellemek istiyorsunuz:
 
 ```csharp
-//Klonlanan slaydın başlığını değiştirin
+// Klonlanan slaydın başlığını değiştirin
 IAutoShape titleShape = clonedSlide.Shapes[0] as IAutoShape;
 if (titleShape != null)
 {

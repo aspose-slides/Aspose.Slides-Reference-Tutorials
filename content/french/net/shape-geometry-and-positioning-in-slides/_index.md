@@ -24,7 +24,7 @@ Le positionnement des éléments sur une diapositive est crucial pour transmettr
 
 Tout au long de cette série de didacticiels, nous aborderons un large éventail de sujets liés à la géométrie et au positionnement des formes. Vous apprendrez à créer des formes à partir de zéro, à modifier celles existantes, à contrôler leurs dimensions et à les aligner stratégiquement dans vos diapositives. Chaque étape sera accompagnée d'exemples de code dans .NET, garantissant que vous comprenez non seulement les concepts, mais que vous savez également comment les mettre en œuvre de manière pratique.
 
-Que vous soyez un développeur chevronné cherchant à améliorer vos compétences en manipulation de diapositives ou un nouveau venu cherchant à créer des présentations percutantes, ces didacticiels sont conçus pour répondre à tous les niveaux de compétence. Alors, embarquons-nous dans ce voyage de maîtrise de la géométrie des formes et du positionnement avec Aspose.Slides !
+Que vous soyez un développeur chevronné cherchant à améliorer vos compétences en manipulation de diapositives ou un nouveau venu cherchant à créer des présentations percutantes, ces didacticiels sont conçus pour répondre à tous les niveaux de compétence. Alors, lançons-nous dans ce voyage de maîtrise de la géométrie des formes et du positionnement avec Aspose.Slides !
 
 ## Géométrie des formes et positionnement dans les didacticiels Slides
 ### [Formatage des lignes dans les diapositives de présentation à l'aide d'Aspose.Slides](./formatting-lines/)

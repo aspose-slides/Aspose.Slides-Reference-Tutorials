@@ -14,7 +14,7 @@ En la era digital actual, proteger sus presentaciones confidenciales es primordi
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Aspose.Slides para .NET: Debe tener Aspose.Slides para .NET instalado y configurado en su entorno de desarrollo. Puedes descargarlo[aquí](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides para .NET: Debe tener Aspose.Slides para .NET instalado y configurado en su entorno de desarrollo. Puedes descargarlo[aquí](https://releases.aspose.com/slides/net/).
 
 ## Paso 1: Inicialice su proyecto
 
@@ -22,7 +22,7 @@ Para comenzar, debe configurar un nuevo proyecto o utilizar uno existente en su 
 
 ## Paso 2: importe su presentación
 
- Ahora importará la presentación que desea convertir a un PDF protegido con contraseña. Reemplazar`"Your Document Directory"` con la ruta a su archivo de presentación y`"DemoFile.pptx"` con el nombre de su archivo de presentación. Aquí hay un fragmento de código de muestra:
+Ahora importará la presentación que desea convertir a un PDF protegido con contraseña. Reemplazar`"Your Document Directory"` con la ruta a su archivo de presentación y`"DemoFile.pptx"` con el nombre de su archivo de presentación. Aquí hay un fragmento de código de muestra:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -76,4 +76,4 @@ Sí, los archivos PDF protegidos con contraseña ofrecen un mayor nivel de segur
 
 ### ¿Dónde puedo acceder a la documentación de la API de Aspose.Slides para .NET?
 
- Puede acceder a la documentación de Aspose.Slides para .NET en[aquí](https://reference.aspose.com/slides/net/).
+Puede acceder a la documentación de Aspose.Slides para .NET en[aquí](https://reference.aspose.com/slides/net/).

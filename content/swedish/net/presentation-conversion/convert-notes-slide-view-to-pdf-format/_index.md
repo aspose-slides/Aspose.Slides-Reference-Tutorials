@@ -67,7 +67,7 @@ Ja, Aspose.Slides för .NET är tillgängligt för både personligt och kommersi
 
 ### F2: Hur kan jag få support för eventuella problem eller frågor jag har?
 
- Du kan hitta support på[Aspose.Slides för .NET-webbplats](https://forum.aspose.com/slides/net/).
+ Du kan hitta support på[Aspose.Slides för .NET webbplats](https://forum.aspose.com/slides/net/).
 
 ### F3: Kan jag anpassa layouten för PDF-utdata?
 
@@ -75,6 +75,6 @@ Absolut! Aspose.Slides för .NET tillhandahåller olika alternativ för att anpa
 
 ### F4: Var kan jag hitta fler handledningar och exempel för Aspose.Slides för .NET?
 
- Du kan utforska ytterligare handledningar och exempel på[Aspose.Slides för .NET API dokumentation](https://reference.aspose.com/slides/net/).
+Du kan utforska ytterligare handledningar och exempel på[Aspose.Slides för .NET API dokumentation](https://reference.aspose.com/slides/net/).
 
 Nu när du framgångsrikt har konverterat Notes Slide View till PDF-format kan du utforska fler funktioner och möjligheter hos Aspose.Slides för .NET för att förbättra dina PowerPoint-automatiseringsuppgifter. Glad kodning!

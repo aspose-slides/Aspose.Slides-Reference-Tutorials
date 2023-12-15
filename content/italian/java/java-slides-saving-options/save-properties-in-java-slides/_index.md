@@ -14,7 +14,7 @@ In questo tutorial, ti guideremo attraverso il processo di salvataggio delle pro
 
 ## Prerequisiti
 
- Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java integrata nel tuo progetto Java. È possibile scaricare la libreria dal sito Web ufficiale di Aspose[Qui](https://downloads.aspose.com/slides/java).
+ Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java integrata nel tuo progetto Java. È possibile scaricare la libreria dal sito Web Aspose[Qui](https://downloads.aspose.com/slides/java).
 
 ## Passaggio 1: importa le librerie richieste
 

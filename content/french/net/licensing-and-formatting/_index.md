@@ -23,8 +23,8 @@ Le formatage joue un rôle central dans la création de présentations attrayant
 Que vous cherchiez à rationaliser les procédures de licence ou à améliorer l'esthétique visuelle de vos présentations, ces didacticiels vous fourniront les informations et les compétences nécessaires pour atteindre vos objectifs. Embarquons dans ce voyage pour améliorer votre maîtrise d'Aspose.Slides et créer des présentations qui laissent une impression durable.
 
 ## Tutoriels sur les licences et le formatage
-### [Licences et formatage dans Aspose.Slides](./licensing-and-formatting/)
-Découvrez comment utiliser efficacement Aspose.Slides pour .NET, de la licence au formatage, en passant par les animations, etc. Créez des présentations attrayantes sans effort.
+### [Licences dans Aspose.Slides](./licensing-and-formatting/)
+Découvrez comment obtenir une licence Aspose.Slides pour .NET et libérer la puissance de la manipulation PowerPoint dans vos applications .NET.
 ### [Utilisation mesurée des licences](./metered-licensing/)
 Découvrez comment utiliser efficacement les licences mesurées avec Aspose.Slides pour .NET. Intégrez de manière transparente les API tout en payant pour l'utilisation réelle.
 ### [Ajouter de la couleur aux points de données dans le graphique](./add-color-to-data-points/)

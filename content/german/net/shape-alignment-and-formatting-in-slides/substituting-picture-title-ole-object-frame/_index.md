@@ -10,7 +10,7 @@ url: /de/net/shape-alignment-and-formatting-in-slides/substituting-picture-title
 
 ## Einführung in Aspose.Slides für .NET
 
-Aspose.Slides für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, PowerPoint-Präsentationen zu erstellen, zu ändern und zu bearbeiten, ohne dass Microsoft Office oder PowerPoint installiert sein muss. Es bietet eine breite Palette von Funktionen zum Arbeiten mit verschiedenen Elementen von Präsentationen, einschließlich Folien, Formen, Text, Bildern und OLE-Objektrahmen.
+Aspose.Slides für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, PowerPoint-Präsentationen zu erstellen, zu ändern und zu bearbeiten, ohne dass Microsoft Office oder PowerPoint installiert sein muss. Es bietet eine breite Palette von Funktionen für die Arbeit mit verschiedenen Elementen von Präsentationen, einschließlich Folien, Formen, Text, Bildern und OLE-Objektrahmen.
 
 ## Voraussetzungen
 

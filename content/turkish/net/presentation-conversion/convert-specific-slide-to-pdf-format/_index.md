@@ -48,7 +48,7 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 
 Bu kodda:
 
--  Yer değiştirmek`"Your Document Directory"` PowerPoint sunum dosyanızın bulunduğu dizin yoluyla.
+-  Yer değiştirmek`"Your Document Directory"`PowerPoint sunum dosyanızın bulunduğu dizin yoluyla.
 -  Yer değiştirmek`"Your Output Directory"` Dönüştürülen PDF'yi kaydetmek istediğiniz dizinle.
 
 ## 3. Adım: Kodu Çalıştırma

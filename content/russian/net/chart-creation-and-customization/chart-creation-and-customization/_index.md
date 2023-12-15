@@ -2,177 +2,111 @@
 title: Создание и настройка диаграмм в Aspose.Slides
 linktitle: Создание и настройка диаграмм в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
-description: Узнайте, как создавать и настраивать потрясающие диаграммы с помощью Aspose.Slides для .NET. Пошаговое руководство с примерами кода.
+description: Узнайте, как создавать и настраивать диаграммы в PowerPoint с помощью Aspose.Slides для .NET. Пошаговое руководство по созданию динамических презентаций.
 type: docs
 weight: 10
 url: /ru/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
 
-## Введение в Aspose.Slides
+## Введение
 
-Aspose.Slides — это надежная библиотека, предоставляющая API для работы с презентациями PowerPoint на различных языках программирования, включая .NET. Он позволяет разработчикам создавать, манипулировать и управлять различными элементами презентаций, такими как слайды, фигуры, текст и диаграммы.
+В мире представления данных наглядные пособия играют решающую роль в эффективной передаче информации. Для этой цели широко используются презентации PowerPoint, а Aspose.Slides for .NET — это мощная библиотека, позволяющая программно создавать и настраивать слайды. В этом пошаговом руководстве мы рассмотрим, как создавать диаграммы и настраивать их с помощью Aspose.Slides для .NET.
 
-## Настройка вашего проекта
+## Предварительные условия
 
-Прежде чем мы начнем, убедитесь, что в вашем проекте .NET установлена библиотека Aspose.Slides. Вы можете скачать его с веб-сайта Aspose или установить через менеджер пакетов NuGet.
+Прежде чем мы углубимся в создание и настройку диаграмм, вам потребуются следующие предварительные условия:
 
-```csharp
-// Установите Aspose.Slides через NuGet
-Install-Package Aspose.Slides
-```
+1.  Aspose.Slides для .NET: убедитесь, что у вас установлена библиотека Aspose.Slides для .NET. Вы можете скачать его с сайта[страница загрузки](https://releases.aspose.com/slides/net/).
 
-## Создание диаграммы
+2. Файл презентации: подготовьте файл презентации PowerPoint, в который вы хотите добавить и настроить диаграммы.
 
-Чтобы создать диаграмму с помощью Aspose.Slides, выполните следующие действия:
+Теперь давайте разобьем процесс на несколько этапов, чтобы получить подробное руководство.
 
-1. Импортируйте необходимые пространства имен:
-```csharp
-using Aspose.Slides;
-using Aspose.Slides.Charts;
-```
-
-2. Инициализируйте презентацию:
-```csharp
-Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddEmptySlide();
-```
-
-3. Добавьте диаграмму на слайд:
-```csharp
-IChart chart = slide.Shapes.AddChart(ChartType.Column, 100, 100, 500, 300);
-```
-
-## Добавление данных в диаграмму
-
-Далее давайте добавим данные в нашу диаграмму:
-
-1. Откройте рабочую книгу диаграммы:
-```csharp
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-```
-
-2. Добавить категории и серии:
-```csharp
-workbook.AddCell(0, 1, "Category 1");
-workbook.AddCell(0, 2, "Category 2");
-
-IChartSeries series = chart.ChartData.Series.Add(workbook.GetCell(0, 1), chart.Type);
-```
-
-3. Установите значения для серии:
-```csharp
-series.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 2));
-```
-
-## Настройка элементов диаграммы
-
-Вы можете настроить различные элементы диаграммы:
-
-1. Настройте заголовок диаграммы:
-```csharp
-chart.HasTitle = true;
-chart.ChartTitle.Text.Text = "Sales Data";
-```
-
-2. Измените свойства оси:
-```csharp
-chart.Axes.HorizontalAxis.HasTitle = true;
-chart.Axes.HorizontalAxis.Title.Text.Text = "Months";
-```
-
-3. Настройте линии сетки и отметки:
-```csharp
-chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
-chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Gray;
-```
-
-## Применение стилей и цветов
-
-Улучшите внешний вид диаграммы:
-
-1. Примените стиль диаграммы:
-```csharp
-chart.ChartStyle = 5; // Выберите желаемый стиль
-```
-
-2. Установить цвета серии:
-```csharp
-series.Format.Fill.FillType = FillType.Solid;
-series.Format.Fill.SolidFillColor.Color = Color.Blue;
-```
-
-## Форматирование осей и меток
-
-Форматирование и метки оси управления:
-
-1. Значения оси формата:
-```csharp
-chart.Axes.HorizontalAxis.NumberFormat.FormatCode = "mm/dd";
-```
-
-2. Поворот меток оси:
-```csharp
-chart.Axes.HorizontalAxis.TextFormat.RotationAngle = 45;
-```
-
-## Добавление заголовков и легенд
-
-Добавьте заголовки и легенды для большей ясности:
-
-1. Настройте свойства легенды:
-```csharp
-chart.Legend.Position = LegendPosition.Bottom;
-chart.Legend.TextFormat.PortionFormat.FontBold = NullableBool.True;
-```
-
-2. Установите названия осей:
-```csharp
-chart.Axes.VerticalAxis.Title.Text.Text = "Sales";
-```
-
-## Работа с несколькими сериями
-
-Включите несколько серий для комплексного представления данных:
-
-1. Добавить дополнительные серии:
-```csharp
-IChartSeries series2 = chart.ChartData.Series.Add(workbook.GetCell(0, 2), chart.Type);
-```
-
-2. Установите значения для новой серии:
-```csharp
-series2.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 3));
-```
-
-## Сохранение и экспорт презентации
-
-Наконец, сохраните и экспортируйте презентацию:
+## Шаг 1. Добавьте слайды макета в презентацию
 
 ```csharp
-presentation.Save("ChartPresentation.pptx", SaveFormat.Pptx);
+string FilePath = @"..\..\..\Sample Files\";
+string FileName = FilePath + "Adding Layout Slides.pptx";
+
+using (Presentation p = new Presentation(FileName))
+{
+    // Попробуйте выполнить поиск по типу слайда макета.
+    IMasterLayoutSlideCollection layoutSlides = p.Masters[0].LayoutSlides;
+    ILayoutSlide layoutSlide =
+        layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ??
+        layoutSlides.GetByType(SlideLayoutType.Title);
+
+    if (layoutSlide == null)
+    {
+        //Ситуация, когда презентация не содержит макетов какого-либо типа.
+        // ...
+
+        // Добавление пустого слайда с добавленным слайдом макета
+        p.Slides.InsertEmptySlide(0, layoutSlide);
+
+        // Сохранить презентацию
+        p.Save(FileName, SaveFormat.Pptx);
+    }
+}
 ```
+
+На этом этапе мы создаем новую презентацию, ищем подходящий слайд макета и добавляем пустой слайд с помощью Aspose.Slides.
+
+## Шаг 2. Получите пример базового заполнителя
+
+```csharp
+string presentationName = Path.Combine("Your Document Directory", "placeholder.pptx");
+
+using (Presentation presentation = new Presentation(presentationName))
+{
+    ISlide slide = presentation.Slides[0];
+    IShape shape = slide.Shapes[0];
+
+    // ...
+
+    IShape masterShape = layoutShape.GetBasePlaceholder();
+
+    // ...
+}
+```
+
+Этот шаг включает в себя открытие существующей презентации и извлечение базовых заполнителей, что позволяет вам работать с заполнителями на слайдах.
+
+## Шаг 3. Управление верхним и нижним колонтитулом в слайдах
+
+```csharp
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
+{
+    IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
+
+    // ...
+
+    presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
+}
+```
+
+На этом последнем этапе мы управляем верхними и нижними колонтитулами слайдов, переключая их видимость, устанавливая текст и настраивая заполнители даты и времени.
+
+Теперь, когда мы разбили каждый пример на несколько шагов, вы можете использовать Aspose.Slides for .NET для программного создания, настройки и управления презентациями PowerPoint. Эта мощная библиотека предлагает широкий спектр возможностей, позволяющих с легкостью создавать интересные и информативные презентации.
+
 ## Заключение
 
-В этом руководстве мы рассмотрели, как создавать, настраивать диаграммы и манипулировать ими с помощью библиотеки Aspose.Slides для .NET. Aspose.Slides предоставляет полный набор функций, которые позволяют разработчикам программно работать с презентациями PowerPoint и эффективно решать задачи, связанные с диаграммами.
+Создание и настройка диаграмм в Aspose.Slides для .NET открывает мир возможностей для динамических презентаций, управляемых данными. С помощью этих пошаговых инструкций вы сможете использовать весь потенциал этой библиотеки для улучшения своих презентаций PowerPoint и эффективной передачи информации.
 
 ## Часто задаваемые вопросы
 
-### Как изменить тип диаграммы после ее создания?
+### Какие версии .NET поддерживаются Aspose.Slides для .NET?
+Aspose.Slides для .NET поддерживает широкий спектр версий .NET, включая .NET Framework и .NET Core. Подробные сведения см. в документации.
 
- Вы можете изменить тип диаграммы, используя`ChangeType` метод объекта диаграммы и предоставление желаемого`ChartType` значение перечисления.
+### Могу ли я создавать сложные диаграммы с помощью Aspose.Slides для .NET?
+Да, вы можете создавать различные типы диаграмм, включая гистограммы, круговые диаграммы и линейные диаграммы, с широкими возможностями настройки.
 
-### Могу ли я применить к диаграмме 3D-эффекты?
+### Доступна ли бесплатная пробная версия Aspose.Slides для .NET?
+ Да, вы можете скачать бесплатную пробную версию с сайта Aspose.[здесь](https://releases.aspose.com/).
 
- Да, вы можете добавить к диаграмме 3D-эффекты, настроив`Format.ThreeDFormat` свойства ряда диаграммы.
+### Где я могу найти дополнительную поддержку и ресурсы для Aspose.Slides для .NET?
+ Посетите форум поддержки Aspose[здесь](https://forum.aspose.com/) по любым вопросам или помощи, которая может вам понадобиться.
 
-### Можно ли встраивать диаграммы в веб-приложения?
-
-Абсолютно! Вы можете создавать диаграммы с помощью Aspose.Slides, а затем отображать их в веб-приложениях, экспортируя слайды в виде изображений или интерактивного HTML.
-
-### Могу ли я настроить внешний вид отдельных точек данных?
-
- Конечно! Вы можете получить доступ к отдельным точкам данных, используя`DataPoints`коллекцию и применить к ним форматирование.
-
-### Где я могу найти дополнительную информацию об Aspose.Slides для .NET?
-
- Подробную документацию и примеры см.[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net).
+### Могу ли я приобрести временную лицензию на Aspose.Slides для .NET?
+Да, вы можете получить временную лицензию на сайте Aspose.[здесь](https://purchase.aspose.com/temporary-license/).

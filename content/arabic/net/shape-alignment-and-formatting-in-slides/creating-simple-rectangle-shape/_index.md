@@ -107,7 +107,7 @@ presentation.Save("RectangleShapePresentation.pptx", SaveFormat.Pptx);
 
 ### كيف أحفظ العرض التقديمي بعد إضافة الشكل المستطيل؟
 
- يمكنك حفظ العرض التقديمي باستخدام`Save` طريقة`Presentation`فصل. قم بتوفير اسم الملف المطلوب وتنسيق الحفظ المطلوب (مثل`SaveFormat.Pptx`).
+يمكنك حفظ العرض التقديمي باستخدام`Save` طريقة`Presentation` فصل. قم بتوفير اسم الملف المطلوب وتنسيق الحفظ المطلوب (مثل`SaveFormat.Pptx`).
 
 ### هل Aspose.Slides for .NET مناسب للأشكال المستطيلة فقط؟
 

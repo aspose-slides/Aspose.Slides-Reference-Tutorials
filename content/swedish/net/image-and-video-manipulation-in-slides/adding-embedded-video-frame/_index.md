@@ -44,7 +44,7 @@ Presentation presentation = new Presentation();
 Därefter lägger vi till en ny bild i presentationen. Bilder indexeras från noll. Så här lägger du till en bild:
 
 ```csharp
-//Lägg till en ny bild i presentationen
+// Lägg till en ny bild i presentationen
 ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
 ```
 

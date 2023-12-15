@@ -64,7 +64,7 @@ foreach (ISmartArtNode node in nodes)
     // Creazione di una miniatura
     using (Bitmap thumbnail = childNodes.GenerateThumbnail(new Size(200, 150)))
     {
-        // Salvare la miniatura o eseguire altre operazioni
+        //Salvare la miniatura o eseguire altre operazioni
         thumbnail.Save($"thumbnail_{node.Text}.png");
     }
 }

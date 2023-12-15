@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
- Bu kod parçacığı gerekli dizinleri ve dosya yollarını başlatır, bir PowerPoint sunumu açar ve bunu kullanarak biçimlendirme uygularken bunu bir SVG dosyasına dönüştürür.`MySvgShapeFormattingController`.
+Bu kod parçacığı gerekli dizinleri ve dosya yollarını başlatır, bir PowerPoint sunumu açar ve bunu kullanarak biçimlendirme uygularken bunu bir SVG dosyasına dönüştürür.`MySvgShapeFormattingController`.
 
 ## SVG Şekil Biçimlendirme Denetleyicisini Anlamak
 

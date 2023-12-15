@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
- يقوم مقتطف التعليمات البرمجية هذا بتهيئة الدلائل ومسارات الملفات الضرورية، وفتح عرض PowerPoint التقديمي، وتحويله إلى ملف SVG أثناء تطبيق التنسيق باستخدام`MySvgShapeFormattingController`.
+يقوم مقتطف التعليمات البرمجية هذا بتهيئة الدلائل ومسارات الملفات الضرورية، وفتح عرض PowerPoint التقديمي، وتحويله إلى ملف SVG أثناء تطبيق التنسيق باستخدام`MySvgShapeFormattingController`.
 
 ## فهم وحدة التحكم في تنسيق شكل SVG
 

@@ -72,7 +72,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 {
     if (shape is IAutoShape autoShape && autoShape.TextFrame != null)
     {
-        // Wenden Sie Duotone-Effekte auf Text an
+        //Wenden Sie Duotone-Effekte auf Text an
         DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
         duotoneEffect.FirstColor = Color.Black;
         duotoneEffect.SecondColor = Color.White;
@@ -83,7 +83,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 
 ## Anpassen von Duotone-Farben
 
- Sie können die Duotone-Farben entsprechend Ihren Designvorlieben anpassen. Ersetzen Sie einfach die`FirstColor` Und`SecondColor`Werte mit Ihren Wunschfarben.
+ Sie können die Duotone-Farben entsprechend Ihren Designvorlieben anpassen. Ersetzen Sie einfach die`FirstColor` Und`SecondColor` Werte mit Ihren Wunschfarben.
 
 ## Speichern und Exportieren der geänderten Präsentation
 

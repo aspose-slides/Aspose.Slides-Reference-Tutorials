@@ -1,150 +1,108 @@
 ---
-title: Gestione dei collegamenti ipertestuali tramite macro
+title: Come impostare il collegamento ipertestuale macro Fare clic su Aspose.Slides per .NET
 linktitle: Gestione dei collegamenti ipertestuali tramite macro
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come gestire in modo efficace i collegamenti ipertestuali nelle presentazioni utilizzando Aspose.Slides per .NET. Automatizza le attività, crea menu interattivi e migliora il coinvolgimento degli utenti.
+description: Scopri come impostare collegamenti ipertestuali macro nelle tue presentazioni con Aspose.Slides per .NET. Migliora l'interattività e coinvolgi il tuo pubblico.
 type: docs
 weight: 13
 url: /it/net/hyperlink-manipulation/macro-hyperlink/
 ---
 
-## Introduzione alla gestione dei collegamenti ipertestuali
+Nel mondo dello sviluppo software moderno, la creazione di presentazioni dinamiche e interattive è un aspetto fondamentale. Aspose.Slides per .NET è una potente libreria che ti consente di lavorare con le presentazioni in modo fluido. Che tu stia creando una presentazione aziendale o una presentazione didattica, la possibilità di impostare clic su macro collegamenti ipertestuali può migliorare notevolmente l'esperienza dell'utente. In questa guida passo passo, ti guideremo attraverso il processo di impostazione di un clic sul collegamento ipertestuale macro utilizzando Aspose.Slides per .NET. 
 
-Prima di immergersi nella gestione dei collegamenti ipertestuali con Aspose.Slides per .NET, è essenziale configurare l'ambiente di sviluppo e installare i componenti necessari.
+## Prerequisiti
 
-## Configurazione dell'ambiente di sviluppo
+Prima di immergerci nel tutorial passo passo, ci sono alcuni prerequisiti che dovresti avere:
 
-Per iniziare, assicurati di avere un ambiente di sviluppo integrato (IDE) adatto installato sul tuo sistema. Visual Studio è una scelta popolare per lo sviluppo .NET.
+1.Visual Studio: assicurati di avere Visual Studio installato sul tuo computer, poiché questo sarà il nostro ambiente di sviluppo.
 
-## Installazione di Aspose.Slides per .NET
+ 2.Aspose.Slides per .NET: sarà necessario avere installato la libreria Aspose.Slides per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/net/).
 
-Aspose.Slides per .NET è una solida libreria che semplifica il lavoro con presentazioni e diapositive. Per installarlo, attenersi alla seguente procedura:
+3.Conoscenza di base di C#: la familiarità con il linguaggio di programmazione C# è essenziale da seguire insieme a questo tutorial.
 
-1. Apri il tuo progetto in Visual Studio.
-2. Vai a "Strumenti" > "Gestione pacchetti NuGet" > "Gestisci pacchetti NuGet per la soluzione".
-3. Cerca "Aspose.Slides" e installa il pacchetto.
+## Importa spazi dei nomi
 
-Una volta installato il pacchetto, sei pronto per iniziare a gestire i collegamenti ipertestuali nelle tue presentazioni.
+Nel primo passaggio, importiamo gli spazi dei nomi necessari per lavorare con Aspose.Slides:
 
-## Creazione di collegamenti ipertestuali
-
-È possibile aggiungere collegamenti ipertestuali sia al testo che agli oggetti all'interno della presentazione, consentendo agli utenti di navigare verso risorse esterne o altre diapositive all'interno della stessa presentazione.
-
-## Aggiunta di collegamenti ipertestuali a testo e oggetti
-
-Per aggiungere un collegamento ipertestuale al testo o a un oggetto:
-
-1. Identifica il testo o l'oggetto a cui desideri creare un collegamento ipertestuale.
-2.  Usa il`HyperlinkManager` classe per creare un collegamento ipertestuale, specificando l'URL di destinazione.
+### Passaggio 1: importa gli spazi dei nomi
 
 ```csharp
-// Creare un collegamento ipertestuale a un sito Web
-HyperlinkManager.AddHyperlinkToText(slide, "Click here to visit our website", "https://www.esempio.com");
-
-// Crea un collegamento ipertestuale a un'altra diapositiva nella presentazione
-HyperlinkManager.AddHyperlinkToSlide(slide, "Click here to go to Slide 2", slide2);
+using Aspose.Slides;
+using Aspose.Slides.Export;
 ```
 
-## Collegamento a siti Web e risorse esterne
+ Abbiamo importato il file`Aspose.Slides` namespace, che è lo spazio dei nomi principale per lavorare con le presentazioni, e il file`Aspose.Slides.Export` spazio dei nomi.
 
-I collegamenti ipertestuali possono reindirizzare gli utenti a siti Web esterni o risorse online, fornendo informazioni aggiuntive relative al contenuto della presentazione.
+## Impostazione del clic sul collegamento ipertestuale macro
 
-```csharp
-// Collegamento a un sito Web esterno
-HyperlinkManager.AddHyperlinkToText(slide, "Learn more about our products", "https://www.esempio.com/prodotti");
-```
+Passiamo ora alla parte principale di questo tutorial: impostare un clic sul collegamento ipertestuale macro nella presentazione.
 
-## Navigazione verso altre diapositive all'interno della presentazione
+### Passaggio 2: inizializza la presentazione
 
-Puoi anche creare collegamenti ipertestuali per navigare tra le diapositive all'interno della stessa presentazione.
+Per prima cosa dobbiamo inizializzare una nuova presentazione.
 
 ```csharp
-// Collegamento a un'altra diapositiva nella stessa presentazione
-HyperlinkManager.AddHyperlinkToSlide(slide, "Continue to the next section", nextSlide);
-```
-
-## Gestione dei collegamenti ipertestuali
-
-Man mano che la tua presentazione si evolve, potrebbe essere necessario modificare o aggiornare i collegamenti ipertestuali esistenti. Aspose.Slides per .NET fornisce metodi convenienti per la gestione dei collegamenti ipertestuali.
-
-## Modifica e aggiornamento dei collegamenti ipertestuali
-
-Per modificare un collegamento ipertestuale esistente:
-
-```csharp
-// Ottieni il collegamento ipertestuale esistente da una forma
-Hyperlink hyperlink = HyperlinkManager.GetHyperlinkFromShape(shape);
-
-// Aggiorna l'URL del collegamento ipertestuale
-hyperlink.Url = "https://www.link-aggiornato.com";
-```
-
-## Rimozione dei collegamenti ipertestuali
-
-Rimuovere un collegamento ipertestuale è semplice:
-
-```csharp
-// Rimuovere un collegamento ipertestuale da una forma
-HyperlinkManager.RemoveHyperlinkFromShape(shape);
-```
-
-## Operazioni di collegamento ipertestuale in blocco
-
-Per eseguire operazioni in blocco sui collegamenti ipertestuali:
-
-```csharp
-// Scorri tutti i collegamenti ipertestuali nella presentazione
-foreach (Hyperlink hyperlink in HyperlinkManager.GetAllHyperlinks(presentation))
+using (Presentation presentation = new Presentation())
 {
-    // Eseguire operazioni su ciascun collegamento ipertestuale
+    // Il tuo codice andrà qui.
 }
 ```
 
-## Automatizzazione della gestione dei collegamenti ipertestuali con le macro
+All'interno di questa istruzione using, crei un nuovo oggetto di presentazione ed esegui tutte le operazioni al suo interno.
 
-Le macro forniscono un modo efficace per automatizzare le attività di gestione dei collegamenti ipertestuali. Ecco come scrivere macro per gestire i collegamenti ipertestuali utilizzando Aspose.Slides per .NET.
+### Passaggio 3: aggiungi una forma automatica
 
-## Introduzione alle macro in Aspose.Slides
-
-Le macro sono script che eseguono azioni specifiche in risposta a determinati eventi. In Aspose.Slides, le macro possono essere utilizzate per automatizzare attività come la creazione, la modifica e la rimozione di collegamenti ipertestuali.
-
-## Scrittura di macro per gestire i collegamenti ipertestuali
-
-Ecco un esempio di una semplice macro che aggiorna l'URL di un collegamento ipertestuale:
+Per impostare un clic su un collegamento ipertestuale macro, avrai bisogno di un oggetto su cui l'utente può fare clic. In questo esempio utilizzeremo una forma come elemento selezionabile.
 
 ```csharp
-// Definire il macroevento
-presentation.Macros.Add(MacroEventType.HyperlinkClick, new UpdateHyperlinkMacro());
-
-// Creare la classe macro
-public class UpdateHyperlinkMacro : ISlideHyperlinkClickHandler
-{
-    public void HandleHyperlinkClick(SlideHyperlinkClickEventArgs args)
-    {
-        Hyperlink hyperlink = args.Hyperlink;
-        hyperlink.Url = "https://www.link-aggiornato.com";
-    }
-}
+IAutoShape shape = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.BlankButton, 20, 20, 80, 30);
 ```
+
+Qui creiamo una forma automatica con il tipo "BlankButton" a coordinate specifiche (20, 20) e con dimensioni di 80x30. Puoi personalizzare questi valori per adattarli al layout della tua presentazione.
+
+### Passaggio 4: impostare il clic sul collegamento ipertestuale macro
+
+Ora arriva la parte in cui imposti il clic del collegamento ipertestuale della macro. Dovrai fornire un nome macro come parametro.
+
+```csharp
+string macroName = "TestMacro";
+shape.HyperlinkManager.SetMacroHyperlinkClick(macroName);
+```
+
+In questo esempio, abbiamo impostato il clic sul collegamento ipertestuale della macro su "TestMacro". Quando l'utente fa clic sulla forma, verrà attivata questa macro.
+
+### Passaggio 5: recuperare le informazioni
+
+Puoi anche recuperare informazioni sul collegamento ipertestuale che hai impostato.
+
+```csharp
+Console.WriteLine("External URL is {0}", shape.HyperlinkClick.ExternalUrl);
+Console.WriteLine("Shape action type is {0}", shape.HyperlinkClick.ActionType);
+```
+
+Queste righe di codice consentono di stampare l'URL esterno e il tipo di azione del collegamento ipertestuale.
+
+E questo è tutto! Hai impostato correttamente un clic sul collegamento ipertestuale macro nella presentazione utilizzando Aspose.Slides per .NET.
 
 ## Conclusione
 
-Incorporare collegamenti ipertestuali nelle presentazioni utilizzando Aspose.Slides per .NET può migliorare in modo significativo il coinvolgimento e la navigazione degli utenti. Che tu stia collegando a risorse esterne o creando menu interattivi, una gestione efficace dei collegamenti ipertestuali garantisce un'esperienza fluida per il tuo pubblico.
+In questo tutorial, abbiamo imparato come impostare un clic sul collegamento ipertestuale macro nella presentazione utilizzando Aspose.Slides per .NET. Questa può essere una funzionalità preziosa per creare presentazioni interattive e dinamiche che coinvolgano il tuo pubblico. Con Aspose.Slides per .NET, hai un potente strumento a tua disposizione per portare lo sviluppo della tua presentazione al livello successivo.
 
-## Domande frequenti
+ Ora è il momento di sperimentare e creare presentazioni accattivanti con collegamenti ipertestuali macro personalizzati. Sentiti libero di esplorare il[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/) per informazioni e possibilità più approfondite.
 
-### Posso collegarmi a una visualizzazione diapositiva specifica utilizzando i collegamenti ipertestuali?
+## FAQ (domande frequenti)
 
-Sì, puoi utilizzare i collegamenti ipertestuali per indirizzare gli utenti a una visualizzazione diapositiva specifica, ad esempio la prima diapositiva, l'ultima diapositiva o un indice diapositiva personalizzato.
+### Posso utilizzare Aspose.Slides per .NET con altri linguaggi di programmazione?
+Aspose.Slides è progettato principalmente per .NET, ma Aspose offre librerie simili per altri linguaggi di programmazione, come Java.
 
-### È possibile dare uno stile ai collegamenti ipertestuali nella mia presentazione?
+### Aspose.Slides per .NET è una libreria gratuita?
+Aspose.Slides per .NET è una libreria commerciale con una versione di prova gratuita disponibile. Puoi scaricarlo da[Qui](https://releases.aspose.com/).
 
-Assolutamente! Puoi definire lo stile dei collegamenti ipertestuali modificandone il carattere, il colore e le proprietà di sottolineatura per renderli visivamente accattivanti.
+### Esistono limitazioni all'utilizzo delle macro nelle presentazioni create con Aspose.Slides per .NET?
+Aspose.Slides per .NET ti consente di lavorare con le macro, ma dovresti essere consapevole delle considerazioni sulla sicurezza e sulla compatibilità quando usi le macro nelle presentazioni.
 
-### Posso utilizzare le macro per automatizzare altre attività nella mia presentazione?
+### È possibile personalizzare l'aspetto della forma utilizzata per il collegamento ipertestuale?
+Sì, puoi personalizzare l'aspetto della forma modificandone le proprietà, ad esempio dimensione, colore e carattere.
 
-Sì, le macro possono automatizzare varie attività oltre alla gestione dei collegamenti ipertestuali, come le transizioni delle diapositive, la formattazione dei contenuti e altro ancora.
-
-### Dove posso saperne di più su Aspose.Slides per .NET?
-
- Per informazioni più dettagliate ed esempi, fare riferimento a[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net).
+### Dove posso ottenere aiuto o supporto per Aspose.Slides per .NET?
+ Se riscontri problemi o hai domande, puoi cercare aiuto nel forum di supporto Aspose[Qui](https://forum.aspose.com/).

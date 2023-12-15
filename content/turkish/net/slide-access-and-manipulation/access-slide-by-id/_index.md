@@ -10,7 +10,7 @@ url: /tr/net/slide-access-and-manipulation/access-slide-by-id/
 
 ## Aspose.Slides for .NET'e Giriş
 
-Aspose.Slides for .NET, geliştiricilerin .NET çerçevesini kullanarak PowerPoint sunumları oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan kapsamlı bir kitaplıktır. Slaytlar, şekiller, metinler, resimler, animasyonlar ve daha fazlası dahil olmak üzere sunumların çeşitli yönleriyle çalışmak için kapsamlı özellikler sunar.
+Aspose.Slides for .NET, geliştiricilerin .NET çerçevesini kullanarak PowerPoint sunumları oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan kapsamlı bir kitaplıktır. Slaytlar, şekiller, metinler, resimler, animasyonlar ve daha fazlası dahil olmak üzere sunumların çeşitli yönleriyle çalışmak için kapsamlı özellikler sağlar.
 
 ## Önkoşullar
 

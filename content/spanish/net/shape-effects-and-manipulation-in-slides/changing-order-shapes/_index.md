@@ -44,7 +44,7 @@ IShapeCollection shapes = slide.Shapes;
 4.  Reordenar formas: utilice el`Shapes.Reorder(int oldIndex, int newIndex)` Método para cambiar el orden de las formas. Especifique el índice antiguo de la forma y el nuevo índice deseado.
 
 ```csharp
-// Reordenar formas
+//Reordenar formas
 shapes.Reorder(2, 0); // Mueva la forma en el índice 2 al índice 0
 ```
 
@@ -61,7 +61,7 @@ Aspose.Slides para .NET ofrece técnicas avanzadas para llevar el diseño de su 
 
 ### Capas y superposición
 
-Logre efectos visuales sofisticados controlando la superposición de formas. Utilizar el`ZOrderPosition` Propiedad para definir la posición de una forma en el orden z, determinando si aparece encima o debajo de otras formas.
+ Logre efectos visuales sofisticados controlando la superposición de formas. Utilizar el`ZOrderPosition` Propiedad para definir la posición de una forma en el orden z, determinando si aparece encima o debajo de otras formas.
 
 ### Agrupar y desagrupar
 
@@ -93,7 +93,7 @@ Sí, Aspose.Slides se adapta a presentaciones de todas las complejidades. Ya sea
 
 ### ¿Cómo accedo a formas específicas dentro de una diapositiva?
 
- Puede acceder a las formas en una diapositiva usando el`IShapeCollection` interfaz. Esta interfaz le permite recorrer formas, acceder a ellas por índice o incluso buscar formas según sus propiedades.
+Puede acceder a las formas en una diapositiva usando el`IShapeCollection` interfaz. Esta interfaz le permite recorrer formas, acceder a ellas por índice o incluso buscar formas según sus propiedades.
 
 ### ¿Puedo automatizar el proceso de creación de nuevas diapositivas?
 

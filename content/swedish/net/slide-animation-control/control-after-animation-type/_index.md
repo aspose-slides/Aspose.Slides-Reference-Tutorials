@@ -42,7 +42,7 @@ using (var presentation = new Presentation(presentationPath))
 }
 ```
 
-## Åtkomst till bildanimationer
+## Få åtkomst till bildanimationer
 
 Varje bild i en presentation kan ha olika animationer. För att komma åt bildanimationer måste du iterera genom bilderna och komma åt deras animeringsegenskaper:
 
@@ -52,7 +52,7 @@ foreach (var slide in presentation.Slides)
     ISequence sequence = slide.Timeline.MainSequence;
     foreach (Effect effect in sequence)
     {
-        // Din kod för animeringskontroll kommer hit
+        // Din kod för animeringskontroll kommer att hamna här
     }
 }
 ```
@@ -115,7 +115,7 @@ class Program
                     {
                         emphasisEffect.Type = EmphasisAnimationType.GrowWithColor;
                     }
-                    // Hantera andra animationstyper på liknande sätt
+                    //Hantera andra animationstyper på liknande sätt
                 }
             }
 
@@ -140,7 +140,7 @@ den här omfattande guiden har utrustat dig med expertis för att utnyttja kraft
 
 ### Kan jag ändra animeringar av rörelsebanan med Aspose.Slides?
 
- Ja, du kan ändra animeringar av rörelsebanan med Aspose.Slides genom att öppna`MotionPathEffect`egenskaper och anpassa dem därefter.
+ Ja, du kan ändra animeringar av rörelsebanan med Aspose.Slides genom att öppna`MotionPathEffect` egenskaper och anpassa dem därefter.
 
 ### Är det möjligt att lägga till anpassade animationer till element i en bild?
 
@@ -152,4 +152,4 @@ Du kan spara den ändrade presentationen i olika format, inklusive PPTX, PPT, PD
 
 ### Var kan jag hitta mer information om Aspose.Slides för .NET?
 
-Du kan hitta detaljerad dokumentation och exempel i[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+ Du kan hitta detaljerad dokumentation och exempel i[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).

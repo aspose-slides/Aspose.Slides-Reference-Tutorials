@@ -2,177 +2,111 @@
 title: Diagrammerstellung und -anpassung in Aspose.Slides
 linktitle: Diagrammerstellung und -anpassung in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET beeindruckende Diagramme erstellen und anpassen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Diagramme in PowerPoint erstellen und anpassen. Schritt-für-Schritt-Anleitung zum Erstellen dynamischer Präsentationen.
 type: docs
 weight: 10
 url: /de/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
 
-## Einführung in Aspose.Slides
+## Einführung
 
-Aspose.Slides ist eine robuste Bibliothek, die APIs für die Arbeit mit PowerPoint-Präsentationen in verschiedenen Programmiersprachen, einschließlich .NET, bereitstellt. Es ermöglicht Entwicklern, verschiedene Elemente von Präsentationen wie Folien, Formen, Text und Diagramme zu erstellen, zu bearbeiten und zu verwalten.
+In der Welt der Datenpräsentation spielen visuelle Hilfsmittel eine entscheidende Rolle bei der effektiven Informationsvermittlung. Zu diesem Zweck werden häufig PowerPoint-Präsentationen verwendet, und Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie Folien programmgesteuert erstellen und anpassen können. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Slides für .NET Diagramme erstellen und anpassen.
 
-## Einrichten Ihres Projekts
+## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass die Aspose.Slides-Bibliothek in Ihrem .NET-Projekt installiert ist. Sie können es von der Aspose-Website herunterladen oder über den NuGet-Paketmanager installieren.
+Bevor wir uns mit der Erstellung und Anpassung von Diagrammen befassen, müssen die folgenden Voraussetzungen erfüllt sein:
 
-```csharp
-// Installieren Sie Aspose.Slides über NuGet
-Install-Package Aspose.Slides
-```
+1.  Aspose.Slides für .NET: Stellen Sie sicher, dass die Aspose.Slides für .NET-Bibliothek installiert ist. Sie können es hier herunterladen[Download-Seite](https://releases.aspose.com/slides/net/).
 
-## Erstellen eines Diagramms
+2. Präsentationsdatei: Bereiten Sie eine PowerPoint-Präsentationsdatei vor, in der Sie die Diagramme hinzufügen und anpassen möchten.
 
-Um ein Diagramm mit Aspose.Slides zu erstellen, gehen Sie folgendermaßen vor:
+Lassen Sie uns nun den Prozess für ein umfassendes Tutorial in mehrere Schritte unterteilen.
 
-1. Importieren Sie die erforderlichen Namespaces:
-```csharp
-using Aspose.Slides;
-using Aspose.Slides.Charts;
-```
-
-2. Initialisieren Sie eine Präsentation:
-```csharp
-Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddEmptySlide();
-```
-
-3. Fügen Sie der Folie ein Diagramm hinzu:
-```csharp
-IChart chart = slide.Shapes.AddChart(ChartType.Column, 100, 100, 500, 300);
-```
-
-## Daten zum Diagramm hinzufügen
-
-Als nächstes fügen wir Daten zu unserem Diagramm hinzu:
-
-1. Greifen Sie auf die Arbeitsmappe des Diagramms zu:
-```csharp
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-```
-
-2. Kategorien und Serien hinzufügen:
-```csharp
-workbook.AddCell(0, 1, "Category 1");
-workbook.AddCell(0, 2, "Category 2");
-
-IChartSeries series = chart.ChartData.Series.Add(workbook.GetCell(0, 1), chart.Type);
-```
-
-3. Werte für die Serie festlegen:
-```csharp
-series.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 2));
-```
-
-## Anpassen von Diagrammelementen
-
-Sie können verschiedene Diagrammelemente anpassen:
-
-1. Diagrammtitel anpassen:
-```csharp
-chart.HasTitle = true;
-chart.ChartTitle.Text.Text = "Sales Data";
-```
-
-2. Achseneigenschaften ändern:
-```csharp
-chart.Axes.HorizontalAxis.HasTitle = true;
-chart.Axes.HorizontalAxis.Title.Text.Text = "Months";
-```
-
-3. Gitternetzlinien und Häkchen anpassen:
-```csharp
-chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
-chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Gray;
-```
-
-## Anwenden von Stilen und Farben
-
-Verbessern Sie das Erscheinungsbild Ihres Diagramms:
-
-1. Diagrammstil anwenden:
-```csharp
-chart.ChartStyle = 5; // Wählen Sie einen gewünschten Stil
-```
-
-2. Serienfarben einstellen:
-```csharp
-series.Format.Fill.FillType = FillType.Solid;
-series.Format.Fill.SolidFillColor.Color = Color.Blue;
-```
-
-## Achsen und Beschriftungen formatieren
-
-Formatierung und Beschriftung der Steuerachsen:
-
-1. Achsenwerte formatieren:
-```csharp
-chart.Axes.HorizontalAxis.NumberFormat.FormatCode = "mm/dd";
-```
-
-2. Achsenbeschriftungen drehen:
-```csharp
-chart.Axes.HorizontalAxis.TextFormat.RotationAngle = 45;
-```
-
-## Titel und Legenden hinzufügen
-
-Fügen Sie Titel und Legenden hinzu, um die Übersichtlichkeit zu verbessern:
-
-1. Legendeneigenschaften anpassen:
-```csharp
-chart.Legend.Position = LegendPosition.Bottom;
-chart.Legend.TextFormat.PortionFormat.FontBold = NullableBool.True;
-```
-
-2. Achsentitel festlegen:
-```csharp
-chart.Axes.VerticalAxis.Title.Text.Text = "Sales";
-```
-
-## Arbeiten mit mehreren Serien
-
-Integrieren Sie mehrere Reihen für eine umfassende Datendarstellung:
-
-1. Weitere Serien hinzufügen:
-```csharp
-IChartSeries series2 = chart.ChartData.Series.Add(workbook.GetCell(0, 2), chart.Type);
-```
-
-2. Werte für die neue Serie festlegen:
-```csharp
-series2.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 3));
-```
-
-## Speichern und Exportieren der Präsentation
-
-Speichern und exportieren Sie abschließend Ihre Präsentation:
+## Schritt 1: Layoutfolien zur Präsentation hinzufügen
 
 ```csharp
-presentation.Save("ChartPresentation.pptx", SaveFormat.Pptx);
+string FilePath = @"..\..\..\Sample Files\";
+string FileName = FilePath + "Adding Layout Slides.pptx";
+
+using (Presentation p = new Presentation(FileName))
+{
+    // Versuchen Sie, nach Layout-Folientyp zu suchen
+    IMasterLayoutSlideCollection layoutSlides = p.Masters[0].LayoutSlides;
+    ILayoutSlide layoutSlide =
+        layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ??
+        layoutSlides.GetByType(SlideLayoutType.Title);
+
+    if (layoutSlide == null)
+    {
+        //Die Situation, wenn eine Präsentation keine Art von Layout enthält.
+        // ...
+
+        // Hinzufügen einer leeren Folie mit hinzugefügter Layoutfolie
+        p.Slides.InsertEmptySlide(0, layoutSlide);
+
+        // Präsentation speichern
+        p.Save(FileName, SaveFormat.Pptx);
+    }
+}
 ```
+
+In diesem Schritt erstellen wir eine neue Präsentation, suchen nach einer geeigneten Layoutfolie und fügen mit Aspose.Slides eine leere Folie hinzu.
+
+## Schritt 2: Beispiel für einen Basisplatzhalter abrufen
+
+```csharp
+string presentationName = Path.Combine("Your Document Directory", "placeholder.pptx");
+
+using (Presentation presentation = new Presentation(presentationName))
+{
+    ISlide slide = presentation.Slides[0];
+    IShape shape = slide.Shapes[0];
+
+    // ...
+
+    IShape masterShape = layoutShape.GetBasePlaceholder();
+
+    // ...
+}
+```
+
+Dieser Schritt umfasst das Öffnen einer vorhandenen Präsentation und das Extrahieren von Basisplatzhaltern, sodass Sie mit den Platzhaltern in Ihren Folien arbeiten können.
+
+## Schritt 3: Kopf- und Fußzeile in Folien verwalten
+
+```csharp
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
+{
+    IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
+
+    // ...
+
+    presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
+}
+```
+
+In diesem letzten Schritt verwalten wir Kopf- und Fußzeilen in Folien, indem wir deren Sichtbarkeit umschalten, Text festlegen und Datums-/Uhrzeit-Platzhalter anpassen.
+
+Nachdem wir nun jedes Beispiel in mehrere Schritte unterteilt haben, können Sie Aspose.Slides für .NET verwenden, um PowerPoint-Präsentationen programmgesteuert zu erstellen, anzupassen und zu verwalten. Diese leistungsstarke Bibliothek bietet eine breite Palette an Funktionen, mit denen Sie mühelos ansprechende und informative Präsentationen erstellen können.
+
 ## Abschluss
 
-In diesem Tutorial haben wir untersucht, wie Sie Diagramme mithilfe der Aspose.Slides-Bibliothek für .NET erstellen, anpassen und bearbeiten. Aspose.Slides bietet eine umfassende Reihe von Funktionen, die es Entwicklern ermöglichen, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten und diagrammbezogene Aufgaben effizient zu bearbeiten.
+Das Erstellen und Anpassen von Diagrammen in Aspose.Slides für .NET eröffnet eine Welt voller Möglichkeiten für dynamische und datengesteuerte Präsentationen. Mit dieser Schritt-für-Schritt-Anleitung können Sie das volle Potenzial dieser Bibliothek nutzen, um Ihre PowerPoint-Präsentationen zu verbessern und Informationen effektiv zu vermitteln.
 
 ## FAQs
 
-### Wie kann ich den Diagrammtyp ändern, nachdem er erstellt wurde?
+### Welche Versionen von .NET werden von Aspose.Slides für .NET unterstützt?
+Aspose.Slides für .NET unterstützt eine Vielzahl von .NET-Versionen, einschließlich .NET Framework und .NET Core. Spezifische Details finden Sie in der Dokumentation.
 
- Sie können den Diagrammtyp mithilfe von ändern`ChangeType` -Methode auf das Diagrammobjekt anwenden und das gewünschte bereitstellen`ChartType` Aufzählungswert.
+### Kann ich mit Aspose.Slides für .NET komplexe Diagramme erstellen?
+Ja, Sie können verschiedene Arten von Diagrammen erstellen, darunter Balkendiagramme, Kreisdiagramme und Liniendiagramme, mit umfangreichen Anpassungsoptionen.
 
-### Kann ich 3D-Effekte auf mein Diagramm anwenden?
+### Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
+ Ja, Sie können eine kostenlose Testversion von der Aspose-Website herunterladen[Hier](https://releases.aspose.com/).
 
- Ja, Sie können Ihrem Diagramm 3D-Effekte hinzufügen, indem Sie das konfigurieren`Format.ThreeDFormat` Eigenschaften der Diagrammreihe.
+### Wo finde ich zusätzlichen Support und Ressourcen für Aspose.Slides für .NET?
+ Besuchen Sie das Aspose-Supportforum[Hier](https://forum.aspose.com/) für alle Fragen oder Hilfe, die Sie benötigen.
 
-### Ist es möglich, Diagramme in Webanwendungen einzubetten?
-
-Absolut! Sie können mit Aspose.Slides Diagramme erstellen und diese dann in Webanwendungen anzeigen, indem Sie die Folien als Bilder oder interaktives HTML exportieren.
-
-### Kann ich das Erscheinungsbild einzelner Datenpunkte anpassen?
-
- Sicherlich! Auf einzelne Datenpunkte können Sie über zugreifen`DataPoints`Sammlung und wenden Sie Formatierungen auf sie an.
-
-### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
-
- Eine ausführliche Dokumentation und Beispiele finden Sie unter[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net).
+### Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
+Ja, Sie können eine temporäre Lizenz auf der Aspose-Website erwerben[Hier](https://purchase.aspose.com/temporary-license/).

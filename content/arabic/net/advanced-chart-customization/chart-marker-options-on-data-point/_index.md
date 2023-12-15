@@ -1,232 +1,150 @@
 ---
-title: خيارات علامة الرسم البياني على نقطة البيانات
+title: استخدام خيارات علامة المخطط على نقطة البيانات في Aspose.Slides .NET
 linktitle: خيارات علامة الرسم البياني على نقطة البيانات
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تحسين تصورات البيانات الخاصة بك باستخدام Aspose.Slides لـ .NET. استكشف خيارات علامات الرسم البياني خطوة بخطوة.
+description: تعرف على كيفية تحسين مخططات PowerPoint الخاصة بك باستخدام Aspose.Slides لـ .NET. تخصيص علامات نقطة البيانات مع الصور. إنشاء عروض تقديمية جذابة.
 type: docs
 weight: 11
 url: /ar/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
-## مقدمة إلى خيارات علامة الرسم البياني
+عند العمل مع العروض التقديمية وتصور البيانات، يقدم Aspose.Slides for .NET مجموعة واسعة من الميزات القوية لإنشاء المخططات وتخصيصها ومعالجتها. في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام خيارات علامة المخطط على نقاط البيانات لتحسين عروض الرسم البياني الخاصة بك. سيرشدك هذا الدليل خطوة بخطوة خلال العملية، بدءًا من المتطلبات الأساسية واستيراد مساحات الأسماء، وحتى تقسيم كل مثال إلى خطوات متعددة.
 
-خيارات علامة المخطط هي تحسينات مرئية يمكن تطبيقها على نقاط البيانات الفردية في المخطط. تساعد هذه العلامات في تسليط الضوء على قيم بيانات محددة، مما يسهل على الجمهور تفسير المعلومات المقدمة. باستخدام خيارات علامة المخطط، يمكنك جذب الانتباه إلى نقاط البيانات الهامة والتأكيد على الاتجاهات أو القيم المتطرفة.
+## المتطلبات الأساسية
 
-## تهيئة بيئة التطوير
+قبل أن نتعمق في استخدام خيارات علامات المخطط على نقاط البيانات، تأكد من توفر المتطلبات الأساسية التالية:
 
-قبل أن نتعمق في العمل مع خيارات علامات المخطط باستخدام Aspose.Slides for .NET، دعونا نتأكد من أن لدينا الأدوات اللازمة في مكانها الصحيح.
+-  Aspose.Slides for .NET: تأكد من تثبيت Aspose.Slides for .NET. يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/slides/net/).
 
-## تثبيت Aspose.Slides لـ .NET
+- نموذج عرض تقديمي: في هذا البرنامج التعليمي، سنستخدم نموذج عرض تقديمي يسمى "Test.pptx". يجب أن يكون لديك هذا العرض التقديمي في دليل المستندات الخاص بك.
 
- للبدء، تحتاج إلى تثبيت Aspose.Slides for .NET في بيئة التطوير لديك. يمكنكم تحميل المكتبة من الموقع:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net).
+الآن، لنبدأ باستيراد مساحات الأسماء الضرورية.
 
-## إنشاء مشروع جديد
-
-بمجرد تثبيت Aspose.Slides for .NET، قم بإنشاء مشروع جديد في بيئة تطوير .NET المفضلة لديك. يمكنك استخدام Visual Studio أو أي بيئة تطوير متكاملة (IDE) أخرى من اختيارك.
-
-## تحميل وتعديل عرض تقديمي موجود
-
-للعمل مع خيارات علامات المخطط، نحتاج إلى عرض تقديمي موجود يحتوي على مخطط. لنبدأ بتحميل عرض تقديمي موجود والوصول إلى الشريحة التي تحتوي على المخطط.
-
-## تحميل ملف العرض التقديمي
+## استيراد مساحات الأسماء
 
 ```csharp
-// قم بتحميل العرض التقديمي
-using (Presentation presentation = new Presentation("sample.pptx"))
-{
-    // الكود الخاص بك للعمل مع العرض التقديمي موجود هنا
-}
+﻿using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## الوصول إلى الشريحة مع الرسم البياني
+لقد قمنا باستيراد مساحات الأسماء المطلوبة وقمنا بتهيئة العرض التقديمي الخاص بنا. الآن، دعنا ننتقل إلى استخدام خيارات علامة الرسم البياني على نقاط البيانات.
 
-بعد ذلك، دعونا نحدد الشريحة التي تحتوي على المخطط الذي نريد تعديله.
+## الخطوة 1: إنشاء المخطط الافتراضي
 
 ```csharp
-//الوصول إلى شريحة باستخدام مخطط
-ISlide slide = presentation.Slides[0]; // استبدل 0 بفهرس الشريحة
+
+// المسار إلى دليل المستندات.
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+
+ISlide slide = pres.Slides[0];
+
+// إنشاء المخطط الافتراضي
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## الوصول إلى سلسلة بيانات الرسم البياني
+نقوم بإنشاء مخطط افتراضي من النوع "LineWithMarkers" على الشريحة في موقع وحجم محددين.
 
-من أجل تطبيق خيارات العلامة على نقاط البيانات، نحتاج أولاً إلى الوصول إلى سلسلة البيانات ذات الصلة داخل المخطط.
-
-## تحديد سلسلة البيانات
+## الخطوة 2: الحصول على فهرس ورقة عمل بيانات المخطط الافتراضي
 
 ```csharp
-// الوصول إلى الرسم البياني على الشريحة
-IChart chart = slide.Shapes[0] as IChart;
-
-// الوصول إلى سلسلة البيانات الأولى
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-IChartSeries dataSeries = chart.ChartData.Series[0];
+// الحصول على فهرس ورقة عمل بيانات المخطط الافتراضي
+int defaultWorksheetIndex = 0;
 ```
 
-## الوصول إلى نقاط البيانات
+هنا، نحصل على فهرس ورقة عمل بيانات المخطط الافتراضي.
 
-الآن بعد أن أصبح لدينا إمكانية الوصول إلى سلسلة البيانات، يمكننا العمل مع نقاط البيانات الفردية.
+## الخطوة 3: الحصول على ورقة عمل بيانات المخطط
 
 ```csharp
-// الوصول إلى نقاط البيانات الفردية
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    // الكود الخاص بك للعمل مع نقاط البيانات موجود هنا
-}
+//الحصول على ورقة عمل بيانات المخطط
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-## تطبيق خيارات العلامة
+نقوم بإحضار مصنف بيانات المخطط للعمل مع بيانات المخطط.
 
-دعونا الآن نطبق خيارات العلامة على نقاط البيانات داخل المخطط.
-
-## تمكين العلامات لنقاط البيانات
+## الخطوة 4: تعديل سلسلة المخططات
 
 ```csharp
-// تمكين العلامات لنقاط البيانات
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Circle; // يمكنك اختيار نوع علامة مختلف
-    dataPoint.Marker.Symbol.Size = 10; // اضبط حجم العلامة حسب الحاجة
-    dataPoint.Marker.Visible = true; // إظهار العلامات
-}
+// حذف السلسلة التجريبية
+chart.ChartData.Series.Clear();
+
+// إضافة سلسلة جديدة
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-## تخصيص مظهر العلامة
+في هذه الخطوة، نقوم بإزالة أي سلسلة تجريبية موجودة ونضيف سلسلة جديدة تسمى "السلسلة 1" إلى المخطط.
 
-يمكنك أيضًا تخصيص مظهر العلامات لجعلها أكثر جاذبية من الناحية المرئية.
+## الخطوة 5: إعداد تعبئة الصورة لنقاط البيانات
 
 ```csharp
-// تخصيص مظهر العلامة
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Diamond;
-    dataPoint.Marker.Symbol.Size = 12;
-    dataPoint.Marker.Symbol.Fill.SolidFillColor.Color = Color.Red;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.FillType = FillType.Solid;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+// تعيين الصورة للعلامات
+System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx1 = pres.Images.AddImage(img1);
+
+System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
+IPPImage imgx2 = pres.Images.AddImage(img2);
+
+// خذ سلسلة الرسم البياني الأولى
+IChartSeries series = chart.ChartData.Series[0];
+
+// إضافة نقاط بيانات جديدة مع تعبئة الصورة
+IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, (double)2.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, (double)3.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-## إضافة تسميات إلى العلامات
+نقوم بتعيين علامات الصورة لنقاط البيانات، مما يسمح لك بتخصيص كيفية ظهور كل نقطة بيانات على المخطط.
 
-يمكن أن تؤدي إضافة تسميات البيانات إلى العلامات إلى توفير السياق والوضوح للمخطط.
-
-## عرض تسميات البيانات
+## الخطوة 6: تغيير حجم علامة سلسلة المخطط
 
 ```csharp
-// عرض تسميات البيانات
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.ShowCategoryName = true;
-    dataLabel.ShowValue = true;
-}
+//تغيير حجم علامة سلسلة الرسم البياني
+series.Marker.Size = 15;
 ```
 
-## تنسيق تسميات البيانات
+هنا، نقوم بضبط حجم علامة سلسلة المخططات لجعلها جذابة بصريًا.
 
-يمكنك تنسيق تسميات البيانات لتناسب تفضيلاتك.
+## الخطوة 7: حفظ العرض التقديمي
 
 ```csharp
-// تنسيق تسميات البيانات
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontBold = NullableBool.True;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontHeight = 14;
-}
+pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ```
 
-## التعامل مع علامة التداخل
-
-في الحالات التي تتداخل فيها العلامات وتسبب فوضى بصرية، فمن المهم التعامل مع مواضع العلامات.
-
-## ضبط تداخل العلامة
-
-```csharp
-// ضبط تداخل العلامة
-chart.Placement = PlacementType.FreeFloating;
-chart.MarkerOverlap = -30; // اضبط قيمة التداخل حسب الحاجة
-```
-
-## اختيار مواضع العلامات المثالية
-
-```csharp
-// اختيار مواضع العلامات الأمثل
-chart.MarkerClustered = false;
-chart.MarkerSymbolSpacing = 2; // ضبط التباعد حسب الحاجة
-```
-
-## حفظ وتصدير العرض التقديمي المعدل
-
-بمجرد إجراء التعديلات اللازمة على المخطط، يمكنك حفظ العرض التقديمي المعدل وتصديره.
-
-## الحفظ بتنسيقات مختلفة
-
-```csharp
-// الحفظ في صيغ مختلفة
-presentation.Save("modified.pptx", SaveFormat.Pptx);
-presentation.Save("modified.pdf", SaveFormat.Pdf);
-```
-
-## التصدير إلى PDF أو صورة
-
-```csharp
-// التصدير إلى PDF أو الصورة
-using (FileStream stream = new FileStream("output.pdf", FileMode.Create))
-{
-    PdfOptions options = new PdfOptions();
-    presentation.Save(stream
-
-, SaveFormat.Pdf);
-}
-```
-
-## حالات الاستخدام في العالم الحقيقي
-
-تعتبر خيارات علامة الرسم البياني لا تقدر بثمن عند تحليل سيناريوهات البيانات الواقعية.
-
-## تحليل أداء المبيعات
-
-باستخدام خيارات التحديد، يمكن لمحللي المبيعات تحديد أشهر المبيعات الاستثنائية وتصور الاتجاهات بمرور الوقت.
-
-## اتجاهات سوق الأوراق المالية
-
-يمكن للمستثمرين الاستفادة من خيارات العلامات لتحديد التقلبات الكبيرة في أسعار الأسهم واتخاذ قرارات مستنيرة.
-
-## أفضل الممارسات لتصور البيانات الفعالة
-
-عند إنشاء المخططات، ضع أفضل الممارسات هذه في الاعتبار.
-
-## الحفاظ على الرسوم البيانية بسيطة وواضحة
-
-البساطة تعزز الفهم. تجنب اكتظاظ المخططات بعلامات زائدة.
-
-## استخدام أنواع المخططات المناسبة
-
-اختر أنواع المخططات التي تنقل بياناتك بشكل فعال. لا تتطلب كافة مجموعات البيانات علامات.
+وأخيرًا، نقوم بحفظ العرض التقديمي بإعدادات الرسم البياني الجديدة.
 
 ## خاتمة
 
-في هذه المقالة، بحثنا في عالم خيارات علامات المخطط باستخدام Aspose.Slides لـ .NET. لقد استكشفنا العملية خطوة بخطوة لتمكين العلامات وتخصيصها وإدارتها على نقاط البيانات داخل المخططات. باتباع التقنيات الموضحة في هذا الدليل، يمكنك رفع مهاراتك في تصور البيانات وإنشاء عروض تقديمية مقنعة تلقى صدى لدى جمهورك.
+يمكّنك Aspose.Slides for .NET من إنشاء عروض تقديمية مذهلة للمخططات مع خيارات التخصيص المتنوعة. في هذا البرنامج التعليمي، ركزنا على استخدام خيارات علامات المخطط على نقاط البيانات لتحسين التمثيل المرئي لبياناتك. باستخدام Aspose.Slides for .NET، يمكنك الارتقاء بعروضك التقديمية إلى المستوى التالي، مما يجعلها أكثر جاذبية وغنية بالمعلومات.
 
-## الأسئلة الشائعة
+ إذا كانت لديك أية أسئلة أو كنت بحاجة إلى مساعدة فيما يتعلق بـ Aspose.Slides for .NET، فلا تتردد في زيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net/) أو الوصول إلى[مجتمع أسوس](https://forum.aspose.com/) للدعم.
 
-### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
+## الأسئلة المتداولة (الأسئلة الشائعة)
 
- يمكنك تنزيل Aspose.Slides for .NET من صفحة الإصدارات:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net).
+### هل يمكنني استخدام صور مخصصة كعلامات لنقاط البيانات في Aspose.Slides لـ .NET؟
+نعم، يمكنك استخدام صور مخصصة كعلامات لنقاط البيانات في Aspose.Slides لـ .NET، كما هو موضح في هذا البرنامج التعليمي.
 
-### هل يمكنني تخصيص مظهر العلامات؟
+### كيف يمكنني تغيير نوع المخطط في Aspose.Slides لـ .NET؟
+يمكنك تغيير نوع المخطط عن طريق تحديد نوع مختلف`ChartType` عند إنشاء المخطط، مثل "شريط" أو "دائري" أو "منطقة".
 
-قطعاً! يمكنك الاختيار من بين أنواع العلامات المختلفة وتخصيص حجمها ولونها وشكلها.
+### هل يتوافق Aspose.Slides for .NET مع أحدث إصدارات PowerPoint؟
+تم تصميم Aspose.Slides for .NET للعمل مع تنسيقات PowerPoint المختلفة ويتم تحديثه بانتظام للحفاظ على التوافق مع أحدث إصدارات PowerPoint.
 
-### هل هناك طريقة للتعامل مع تداخل العلامات؟
+### أين يمكنني العثور على المزيد من البرامج التعليمية والموارد الخاصة بـ Aspose.Slides لـ .NET؟
+ يمكنك استكشاف البرامج التعليمية والموارد الإضافية في[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net/).
 
-نعم، يمكنك ضبط إعدادات تداخل العلامات لمنع الفوضى المرئية في مخططاتك.
-
-### ما هي التنسيقات التي يمكنني حفظ العرض التقديمي المعدل بها؟
-
-يدعم Aspose.Slides for .NET حفظ العروض التقديمية بتنسيقات مختلفة، بما في ذلك PPTX وPDF.
-
-### كيف يمكنني إضافة تسميات البيانات إلى العلامات؟
-
-يمكنك بسهولة إضافة تسميات البيانات إلى العلامات وتنسيقها وفقًا لتفضيلاتك.
+### هل تتوفر نسخة تجريبية من Aspose.Slides لـ .NET؟
+ نعم، يمكنك تجربة Aspose.Slides for .NET عن طريق تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).

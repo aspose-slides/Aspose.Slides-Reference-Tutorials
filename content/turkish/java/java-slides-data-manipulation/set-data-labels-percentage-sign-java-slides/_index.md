@@ -161,7 +161,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Çözüm
 
-Bu kılavuzu takip ederek, yüzdeye dayalı veri etiketleriyle ilgi çekici sunumların nasıl oluşturulacağını öğrendiniz; bu, özellikle iş raporlarında, eğitim materyallerinde ve daha fazlasında bilgilerin etkili bir şekilde iletilmesinde yararlı olabilir.
+Bu kılavuzu takip ederek, iş raporlarında, eğitim materyallerinde ve daha fazlasında bilgilerin etkili bir şekilde iletilmesinde özellikle yararlı olabilecek yüzdeye dayalı veri etiketleriyle ilgi çekici sunumların nasıl oluşturulacağını öğrendiniz.
 
 ## SSS'ler
 

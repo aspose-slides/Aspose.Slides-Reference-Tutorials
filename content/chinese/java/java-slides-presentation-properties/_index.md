@@ -20,9 +20,9 @@ url: /zh/java/presentation-properties/
 
 现在我们已经强调了表示属性的重要性，让我们进入实际的方面。开始使用 Aspose.Slides for Java 非常简单。以下是启动您的旅程的关键步骤：
 
-1. 安装和设置：首先从官方下载Aspose.Slides for Java[下载链接](https://releases.aspose.com/slides/java/)。按照安装说明将其无缝集成到您的 Java 项目中。
+1. 安装和设置：首先从下载 Aspose.Slides for Java[下载链接](https://releases.aspose.com/slides/java/)。按照安装说明将其无缝集成到您的 Java 项目中。
 
-2.  API 文档：有关使用 Aspose.Slides for Java 的综合指南，请参阅官方文档[API文档](https://reference.aspose.com/slides/java/)。这是您了解图书馆复杂性的首选资源。
+2.  API 文档：有关使用 Aspose.Slides for Java 的综合指南，请参阅[API文档](https://reference.aspose.com/slides/java/)。这是您了解图书馆复杂性的首选资源。
 
 3. 探索教程：要获得实用见解，请探索 Aspose.Slides 提供的教程列表。这些教程涵盖了广泛的主题，从基本的幻灯片创建到高级动画技术。您会发现宝贵的提示和技巧来提升您的演示文稿。
 

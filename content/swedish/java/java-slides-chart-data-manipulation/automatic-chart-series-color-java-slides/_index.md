@@ -42,7 +42,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 
 ## Steg 3: Fyll i diagramdata
 
-Nu kommer vi att fylla i diagrammet med data. Vi börjar med att ta bort de standardgenererade serierna och kategorierna och lägger sedan till nya serier och kategorier.
+Nu kommer vi att fylla diagrammet med data. Vi börjar med att ta bort de standardgenererade serierna och kategorierna och lägger sedan till nya serier och kategorier.
 
 ```java
 // Ställa in index för diagramdatabladet
@@ -146,7 +146,7 @@ try
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// Ställa in fyllnadsfärg för serier
+	// Ställa in fyllningsfärg för serier
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Spara presentationen med diagram

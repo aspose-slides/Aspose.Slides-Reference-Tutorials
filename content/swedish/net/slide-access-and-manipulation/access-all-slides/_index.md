@@ -63,7 +63,7 @@ int slideNumber = firstSlide.SlideNumber;
 // Få bildstorlek
 SizeF slideSize = presentation.SlideSize.Size;
 
-// Få bildens bakgrundsfärg
+// Få bildbakgrundsfärg
 Color background = firstSlide.Background.Type == BackgroundType.Solid
     ? ((ISolidFill)firstSlide.Background.FillFormat.SolidFillColor).Color
     : Color.Transparent;

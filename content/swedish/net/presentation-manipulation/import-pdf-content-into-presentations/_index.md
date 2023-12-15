@@ -54,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  Du kan ladda ner Aspose.Slides för .NET-biblioteket från versionssidan[här](https://releases.aspose.com/slides/net/).
 
 ### Kan jag importera innehåll från flera sidor i en PDF?
-Ja, du kan ange flera sidnummer i`ProcessPages` array för att importera innehåll från olika sidor i en PDF.
+ Ja, du kan ange flera sidnummer i`ProcessPages` array för att importera innehåll från olika sidor i en PDF.
 
 ### Finns det några begränsningar för att importera PDF-innehåll?
 Även om Aspose.Slides tillhandahåller en kraftfull lösning, kan formateringen av importerat innehåll variera beroende på PDF:ens komplexitet. Vissa justeringar kan behövas.

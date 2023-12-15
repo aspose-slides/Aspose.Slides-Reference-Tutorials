@@ -72,7 +72,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 {
     if (shape is IAutoShape autoShape && autoShape.TextFrame != null)
     {
-        // Appliquer des effets bicolores au texte
+        //Appliquer des effets bicolores au texte
         DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
         duotoneEffect.FirstColor = Color.Black;
         duotoneEffect.SecondColor = Color.White;
@@ -83,7 +83,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 
 ## Personnalisation des couleurs bicolores
 
- Vous pouvez personnaliser les couleurs bicolores selon vos préférences de conception. Remplacez simplement le`FirstColor` et`SecondColor`valeurs avec les couleurs souhaitées.
+ Vous pouvez personnaliser les couleurs bicolores selon vos préférences de conception. Remplacez simplement le`FirstColor` et`SecondColor` valeurs avec les couleurs souhaitées.
 
 ## Enregistrement et exportation de la présentation modifiée
 

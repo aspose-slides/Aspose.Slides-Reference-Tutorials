@@ -22,7 +22,7 @@ Aspose.Slides para .NET es una potente API que permite a los desarrolladores cre
 
 Para seguir este tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-1. Aspose.Slides para .NET: deberá descargar e instalar Aspose.Slides para .NET. Puedes obtenerlo[aquí](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides para .NET: deberá descargar e instalar Aspose.Slides para .NET. Puedes obtenerlo[aquí](https://releases.aspose.com/slides/net/).
 
 ## Conversión de PPTX a ODP
 
@@ -52,13 +52,13 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 }
 ```
 
- Este código es bastante similar al ejemplo anterior. Creamos un`Presentation` objeto, especificando el archivo ODP de entrada y utilice el`Save` método para guardarlo en formato PPTX.
+ Este código es bastante similar al ejemplo anterior. Creamos un`Presentation`objeto, especificando el archivo ODP de entrada y utilice el`Save` método para guardarlo en formato PPTX.
 
 ## Conclusión
 
 En este tutorial, hemos recorrido el proceso de conversión del formato ODP al formato PPTX y viceversa utilizando Aspose.Slides para .NET. Esta potente API simplifica las tareas de conversión de documentos y proporciona una solución confiable para sus necesidades de compatibilidad de formatos de archivos.
 
-Si aún no lo has hecho, puedes descargar Aspose.Slides para .NET[aquí](https://releases.aspose.com/slides/net/) para comenzar con sus proyectos de conversión de documentos.
+ Si aún no lo has hecho, puedes descargar Aspose.Slides para .NET[aquí](https://releases.aspose.com/slides/net/) para comenzar con sus proyectos de conversión de documentos.
 
  Para obtener más información y soporte, no dude en visitar el[Aspose.Slides para la documentación de la API .NET](https://reference.aspose.com/slides/net/).
 
@@ -78,7 +78,7 @@ Las limitaciones de tamaño de archivo pueden variar según su licencia. Es reco
 
 ### 4. ¿Hay soporte técnico disponible para Aspose.Slides para .NET?
 
-Sí, puede obtener soporte técnico y asistencia de la comunidad Aspose visitando el[Asponer foros](https://forum.aspose.com/).
+ Sí, puede obtener soporte técnico y asistencia de la comunidad Aspose visitando el[asponer foros](https://forum.aspose.com/).
 
 ### 5. ¿Puedo obtener una licencia temporal de Aspose.Slides para .NET?
 

@@ -59,7 +59,7 @@ ILineShape verticalLine = slide.Shapes.AddLine(300, 100, 300, 300);
 ```csharp
 // Çizgi özelliklerini özelleştirme
 horizontalLine.LineFormat.Width = 3; // Çizgi kalınlığını ayarla
-horizontalLine.LineFormat.Style = LineStyle.Single; // Çizgi stilini ayarla
+horizontalLine.LineFormat.Style = LineStyle.Single; //Çizgi stilini ayarla
 horizontalLine.LineFormat.FillFormat.SolidFillColor.Color = Color.Black; // Çizgi rengini ayarla
 ```
 

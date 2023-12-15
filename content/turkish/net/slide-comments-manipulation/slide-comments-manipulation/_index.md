@@ -121,4 +121,4 @@ Evet, yorumları ayrı bir metin dosyasına veya istediğiniz başka bir formata
 
 ## Çözüm
 
-Aspose.Slides'ı kullanarak Slayt Yorumlarını Yönetme, sunum açıklamalarınızın kontrolünü elinize almanızı sağlar. Aspose.Slides, yorum ekleme ve düzenlemeden, bunları biçimlendirme ve silmeye kadar sunum iş akışınızı optimize etmek için kapsamlı bir araç seti sunar. Bu görevleri otomatikleştirerek işbirliğini kolaylaştırabilir ve sunumlarınızın netliğini artırabilirsiniz. Aspose.Slides'ın yeteneklerini keşfettikçe sunumlarınızı etkili ve ilgi çekici hale getirmenin yeni yollarını keşfedeceksiniz.
+Aspose.Slides'ı kullanarak Slayt Yorumlarını Yönetme, sunum açıklamalarınızın kontrolünü elinize almanızı sağlar. Aspose.Slides, yorum ekleme ve düzenlemeden, bunları biçimlendirme ve silmeye kadar sunum iş akışınızı optimize etmek için kapsamlı bir araç seti sağlar. Bu görevleri otomatikleştirerek işbirliğini kolaylaştırabilir ve sunumlarınızın netliğini artırabilirsiniz. Aspose.Slides'ın yeteneklerini keşfettikçe sunumlarınızı etkili ve ilgi çekici hale getirmenin yeni yollarını keşfedeceksiniz.

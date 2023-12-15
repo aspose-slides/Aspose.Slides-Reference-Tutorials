@@ -100,7 +100,7 @@ Evet, Aspose.Slides for Java'yı kullanarak ayrı ayrı slaytların görünüm �
 
 ### Sunumumu başka hangi formatlarda kaydedebilirim?
 
-Aspose.Slides for Java, PPTX, PDF, TIFF, HTML ve daha fazlası dahil olmak üzere çeşitli çıktı formatlarını destekler. Sununuzu kaydederken uygun formatı kullanarak istediğiniz formatı belirleyebilirsiniz.`SaveFormat` numaralandırma değeri.
+Aspose.Slides for Java, PPTX, PDF, TIFF, HTML ve daha fazlası dahil olmak üzere çeşitli çıktı formatlarını destekler. Sununuzu kaydederken uygun formatı kullanarak istediğiniz formatı belirtebilirsiniz.`SaveFormat` numaralandırma değeri.
 
 ### Aspose.Slides for Java, sunumların toplu işlenmesi için uygun mudur?
 

@@ -72,7 +72,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 {
     if (shape is IAutoShape autoShape && autoShape.TextFrame != null)
     {
-        // تطبيق تأثيرات الفرز الثنائي على النص
+        //تطبيق تأثيرات الفرز الثنائي على النص
         DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
         duotoneEffect.FirstColor = Color.Black;
         duotoneEffect.SecondColor = Color.White;
@@ -83,7 +83,7 @@ foreach (IShape shape in presentation.Slides[0].Shapes)
 
 ## تخصيص ألوان الفرز الثنائي
 
- يمكنك تخصيص ألوان الفرز الثنائي وفقًا لتفضيلات التصميم الخاصة بك. ببساطة استبدل`FirstColor` و`SecondColor`القيم مع الألوان المطلوبة.
+ يمكنك تخصيص ألوان الفرز الثنائي وفقًا لتفضيلات التصميم الخاصة بك. ببساطة استبدل`FirstColor` و`SecondColor` القيم مع الألوان المطلوبة.
 
 ## حفظ وتصدير العرض التقديمي المعدل
 

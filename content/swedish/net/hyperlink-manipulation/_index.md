@@ -23,7 +23,7 @@ Lär dig hur du förbättrar PowerPoint-presentationer med hyperlänkar med Aspo
 Lär dig hur du tar bort hyperlänkar från PowerPoint-bilder utan ansträngning med Aspose.Slides för .NET.
 ### [Lägg till hyperlänk till bild](./add-hyperlink/)
 Lär dig hur du lägger till hyperlänkar till bilder i PowerPoint med Aspose.Slides för .NET. Förbättra presentationer med interaktivt innehåll.
-### [Hyperlänkhantering med makron](./macro-hyperlink/)
+### [Hyperlänkhantering med hjälp av makron](./macro-hyperlink/)
 Lär dig hur du effektivt hanterar hyperlänkar i presentationer med Aspose.Slides för .NET. Automatisera uppgifter, skapa interaktiva menyer och öka användarens engagemang.
 ### [Skapande av föränderlig hyperlänk](./mutable-hyperlink/)
 Lär dig att skapa föränderliga hyperlänkar med Aspose.Slides för .NET. Steg-för-steg-guide med källkod för dynamiska presentationer.

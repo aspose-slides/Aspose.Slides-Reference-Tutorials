@@ -2,177 +2,111 @@
 title: إنشاء المخطط وتخصيصه في Aspose.Slides
 linktitle: إنشاء المخطط وتخصيصه في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إنشاء مخططات مذهلة وتخصيصها باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
+description: تعرف على كيفية إنشاء المخططات وتخصيصها في PowerPoint باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة لإنشاء عروض تقديمية ديناميكية.
 type: docs
 weight: 10
 url: /ar/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
 
-## مقدمة إلى Aspose.Slides
+## مقدمة
 
-Aspose.Slides هي مكتبة قوية توفر واجهات برمجة التطبيقات للعمل مع عروض PowerPoint التقديمية بلغات برمجة مختلفة، بما في ذلك .NET. فهو يمكّن المطورين من إنشاء عناصر مختلفة من العروض التقديمية ومعالجتها وإدارتها، مثل الشرائح والأشكال والنصوص والمخططات.
+في عالم عرض البيانات، تلعب الوسائل البصرية دورًا حاسمًا في نقل المعلومات بشكل فعال. تُستخدم عروض PowerPoint التقديمية على نطاق واسع لهذا الغرض، وتعد Aspose.Slides for .NET مكتبة قوية تتيح لك إنشاء الشرائح وتخصيصها برمجيًا. في هذا الدليل التفصيلي، سنستكشف كيفية إنشاء المخططات وتخصيصها باستخدام Aspose.Slides for .NET.
 
-## إعداد مشروعك
+## المتطلبات الأساسية
 
-قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides في مشروع .NET الخاص بك. يمكنك تنزيله من موقع Aspose أو تثبيته عبر مدير الحزم NuGet.
+قبل أن نتعمق في إنشاء المخططات وتخصيصها، ستحتاج إلى توفر المتطلبات الأساسية التالية:
 
-```csharp
-// قم بتثبيت Aspose.Slides عبر NuGet
-Install-Package Aspose.Slides
-```
+1.  Aspose.Slides for .NET: تأكد من تثبيت مكتبة Aspose.Slides for .NET. يمكنك تنزيله من[صفحة التحميل](https://releases.aspose.com/slides/net/).
 
-## إنشاء مخطط
+2. ملف العرض التقديمي: قم بإعداد ملف عرض تقديمي لـ PowerPoint حيث تريد إضافة المخططات وتخصيصها.
 
-لإنشاء مخطط باستخدام Aspose.Slides، اتبع الخطوات التالية:
+الآن، دعونا نقسم العملية إلى خطوات متعددة للحصول على برنامج تعليمي شامل.
 
-1. قم باستيراد مساحات الأسماء الضرورية:
-```csharp
-using Aspose.Slides;
-using Aspose.Slides.Charts;
-```
-
-2. تهيئة العرض التقديمي:
-```csharp
-Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddEmptySlide();
-```
-
-3. إضافة مخطط إلى الشريحة:
-```csharp
-IChart chart = slide.Shapes.AddChart(ChartType.Column, 100, 100, 500, 300);
-```
-
-## إضافة البيانات إلى الرسم البياني
-
-بعد ذلك، دعونا نضيف البيانات إلى المخطط لدينا:
-
-1. الوصول إلى مصنف المخطط:
-```csharp
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-```
-
-2. إضافة فئات وسلسلة:
-```csharp
-workbook.AddCell(0, 1, "Category 1");
-workbook.AddCell(0, 2, "Category 2");
-
-IChartSeries series = chart.ChartData.Series.Add(workbook.GetCell(0, 1), chart.Type);
-```
-
-3. تعيين قيم للسلسلة:
-```csharp
-series.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 2));
-```
-
-## تخصيص عناصر الرسم البياني
-
-يمكنك تخصيص عناصر المخطط المختلفة:
-
-1. تخصيص عنوان المخطط:
-```csharp
-chart.HasTitle = true;
-chart.ChartTitle.Text.Text = "Sales Data";
-```
-
-2. تعديل خصائص المحور:
-```csharp
-chart.Axes.HorizontalAxis.HasTitle = true;
-chart.Axes.HorizontalAxis.Title.Text.Text = "Months";
-```
-
-3. ضبط خطوط الشبكة وعلامات التجزئة:
-```csharp
-chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
-chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Gray;
-```
-
-## تطبيق الأنماط والألوان
-
-تحسين مظهر الرسم البياني الخاص بك:
-
-1. تطبيق نمط الرسم البياني:
-```csharp
-chart.ChartStyle = 5; // اختر النمط المطلوب
-```
-
-2. تعيين ألوان السلسلة:
-```csharp
-series.Format.Fill.FillType = FillType.Solid;
-series.Format.Fill.SolidFillColor.Color = Color.Blue;
-```
-
-## تنسيق المحاور والتسميات
-
-تنسيق محور التحكم والتسميات:
-
-1. تنسيق قيم المحور:
-```csharp
-chart.Axes.HorizontalAxis.NumberFormat.FormatCode = "mm/dd";
-```
-
-2. تدوير تسميات المحور:
-```csharp
-chart.Axes.HorizontalAxis.TextFormat.RotationAngle = 45;
-```
-
-## إضافة العناوين والأساطير
-
-أضف العناوين والأساطير لتعزيز الوضوح:
-
-1. تخصيص خصائص وسيلة الإيضاح:
-```csharp
-chart.Legend.Position = LegendPosition.Bottom;
-chart.Legend.TextFormat.PortionFormat.FontBold = NullableBool.True;
-```
-
-2. تعيين عناوين المحاور:
-```csharp
-chart.Axes.VerticalAxis.Title.Text.Text = "Sales";
-```
-
-## العمل مع سلسلة متعددة
-
-دمج سلاسل متعددة لتمثيل البيانات الشاملة:
-
-1. إضافة سلسلة إضافية:
-```csharp
-IChartSeries series2 = chart.ChartData.Series.Add(workbook.GetCell(0, 2), chart.Type);
-```
-
-2. تعيين قيم للسلسلة الجديدة:
-```csharp
-series2.DataPoints.AddDataPointForBarSeries(workbook.GetCell(0, 3));
-```
-
-## حفظ وتصدير العرض التقديمي
-
-وأخيرًا، قم بحفظ العرض التقديمي وتصديره:
+## الخطوة 1: إضافة شرائح التخطيط إلى العرض التقديمي
 
 ```csharp
-presentation.Save("ChartPresentation.pptx", SaveFormat.Pptx);
+string FilePath = @"..\..\..\Sample Files\";
+string FileName = FilePath + "Adding Layout Slides.pptx";
+
+using (Presentation p = new Presentation(FileName))
+{
+    // حاول البحث حسب نوع شريحة التخطيط
+    IMasterLayoutSlideCollection layoutSlides = p.Masters[0].LayoutSlides;
+    ILayoutSlide layoutSlide =
+        layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ??
+        layoutSlides.GetByType(SlideLayoutType.Title);
+
+    if (layoutSlide == null)
+    {
+        //الموقف عندما لا يحتوي العرض التقديمي على نوع ما من التخطيطات.
+        // ...
+
+        // إضافة شريحة فارغة مع شريحة التخطيط المضافة
+        p.Slides.InsertEmptySlide(0, layoutSlide);
+
+        // حفظ العرض التقديمي
+        p.Save(FileName, SaveFormat.Pptx);
+    }
+}
 ```
+
+في هذه الخطوة، نقوم بإنشاء عرض تقديمي جديد، والبحث عن شريحة تخطيط مناسبة، وإضافة شريحة فارغة باستخدام Aspose.Slides.
+
+## الخطوة 2: احصل على مثال للعنصر النائب الأساسي
+
+```csharp
+string presentationName = Path.Combine("Your Document Directory", "placeholder.pptx");
+
+using (Presentation presentation = new Presentation(presentationName))
+{
+    ISlide slide = presentation.Slides[0];
+    IShape shape = slide.Shapes[0];
+
+    // ...
+
+    IShape masterShape = layoutShape.GetBasePlaceholder();
+
+    // ...
+}
+```
+
+تتضمن هذه الخطوة فتح عرض تقديمي موجود واستخراج العناصر النائبة الأساسية، مما يسمح لك بالعمل مع العناصر النائبة في الشرائح الخاصة بك.
+
+## الخطوة 3: إدارة الرأس والتذييل في الشرائح
+
+```csharp
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
+{
+    IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
+
+    // ...
+
+    presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
+}
+```
+
+في هذه الخطوة الأخيرة، نقوم بإدارة الرؤوس والتذييلات في الشرائح عن طريق تبديل رؤيتها وتعيين النص وتخصيص العناصر النائبة للتاريخ والوقت.
+
+الآن بعد أن قمنا بتقسيم كل مثال إلى خطوات متعددة، يمكنك استخدام Aspose.Slides for .NET لإنشاء عروض PowerPoint التقديمية وتخصيصها وإدارتها برمجيًا. توفر هذه المكتبة القوية مجموعة واسعة من الإمكانات، مما يتيح لك إنشاء عروض تقديمية جذابة وغنية بالمعلومات بسهولة.
+
 ## خاتمة
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية إنشاء المخططات وتخصيصها ومعالجتها باستخدام مكتبة Aspose.Slides لـ .NET. يوفر Aspose.Slides مجموعة شاملة من الميزات التي تمكّن المطورين من العمل برمجيًا مع عروض PowerPoint التقديمية والتعامل بكفاءة مع المهام المتعلقة بالمخططات.
+يؤدي إنشاء المخططات وتخصيصها في Aspose.Slides لـ .NET إلى فتح عالم من الإمكانيات للعروض التقديمية الديناميكية والمعتمدة على البيانات. باستخدام هذه الإرشادات خطوة بخطوة، يمكنك تسخير الإمكانات الكاملة لهذه المكتبة لتحسين عروض PowerPoint التقديمية ونقل المعلومات بشكل فعال.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تغيير نوع المخطط بعد إنشائه؟
+### ما هي إصدارات .NET التي يدعمها Aspose.Slides لـ .NET؟
+يدعم Aspose.Slides for .NET نطاقًا واسعًا من إصدارات .NET، بما في ذلك .NET Framework و.NET Core. تحقق من الوثائق للحصول على تفاصيل محددة.
 
- يمكنك تعديل نوع المخطط باستخدام`ChangeType` الطريقة على كائن المخطط وتوفير المطلوب`ChartType` قيمة التعداد.
+### هل يمكنني إنشاء مخططات معقدة باستخدام Aspose.Slides لـ .NET؟
+نعم، يمكنك إنشاء أنواع مختلفة من المخططات، بما في ذلك المخططات الشريطية، والمخططات الدائرية، والمخططات الخطية، مع خيارات تخصيص واسعة النطاق.
 
-### هل يمكنني تطبيق تأثيرات ثلاثية الأبعاد على المخطط الخاص بي؟
+### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ .NET؟
+ نعم، يمكنك تنزيل نسخة تجريبية مجانية من موقع Aspose[هنا](https://releases.aspose.com/).
 
- نعم، يمكنك إضافة تأثيرات ثلاثية الأبعاد إلى المخطط الخاص بك عن طريق تكوين`Format.ThreeDFormat` خصائص سلسلة الرسم البياني.
+### أين يمكنني العثور على دعم وموارد إضافية لـ Aspose.Slides لـ .NET؟
+ قم بزيارة منتدى الدعم Aspose[هنا](https://forum.aspose.com/) لأية أسئلة أو مساعدة قد تحتاجها.
 
-### هل من الممكن تضمين الرسوم البيانية في تطبيقات الويب؟
-
-قطعاً! يمكنك إنشاء مخططات باستخدام Aspose.Slides ثم عرضها في تطبيقات الويب عن طريق تصدير الشرائح كصور أو HTML تفاعلي.
-
-### هل يمكنني تخصيص مظهر نقاط البيانات الفردية؟
-
- بالتأكيد! يمكنك الوصول إلى نقاط البيانات الفردية باستخدام`DataPoints`جمع وتطبيق التنسيق لهم.
-
-### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ .NET؟
-
- للحصول على وثائق وأمثلة مفصلة، قم بزيارة[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net).
+### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
+نعم يمكنك الحصول على ترخيص مؤقت من موقع Aspose[هنا](https://purchase.aspose.com/temporary-license/).

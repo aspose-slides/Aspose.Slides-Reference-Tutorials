@@ -75,7 +75,7 @@ Aprenda a configurar el color de relleno de series automático en Java Slides us
 ### [Establecer datos de gráficos del libro de trabajo en diapositivas de Java](./set-chart-data-from-workbook-java-slides/)
 Aprenda a configurar datos de gráficos de un libro de Excel en Java Slides usando Aspose.Slides. Guía paso a paso con ejemplos de código para presentaciones dinámicas.
 ### [Establecer superposición de series de gráficos en diapositivas de Java](./set-chart-series-overlap-java-slides/)
-Las series de gráficos maestros se superponen en Java Slides con Aspose.Slides para Java. Aprenda paso a paso cómo personalizar imágenes de gráficos para presentaciones impresionantes.
+Las series de gráficos maestros se superponen en Java Slides con Aspose.Slides para Java. Aprenda paso a paso cómo personalizar gráficos visuales para presentaciones impresionantes.
 ### [Establecer etiquetas de datos Iniciar sesión porcentual en diapositivas de Java](./set-data-labels-percentage-sign-java-slides/)
 Aprenda a configurar etiquetas de datos con signos de porcentaje en presentaciones de PowerPoint usando Aspose.Slides para Java. Cree gráficos atractivos con orientación paso a paso y código fuente.
 ### [Establecer rango de datos en diapositivas de Java](./set-data-range-java-slides/)

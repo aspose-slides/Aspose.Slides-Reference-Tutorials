@@ -94,7 +94,7 @@ string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
             // Ergebnis erstellen (individueller) Präsentationsname
             string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
 
-            //Präsentationsvorlage laden
+            // Präsentationsvorlage laden
             using (Presentation pres = new Presentation(presTemplatePath))
             {
                 // Füllen Sie Textfelder mit Daten aus der Haupttabelle der Datenbank

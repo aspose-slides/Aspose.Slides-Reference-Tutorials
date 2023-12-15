@@ -105,7 +105,7 @@ series.getFormat().getLine().setDashStyle(LineDashStyle.Solid);
 pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 ```
 
-就是这样！您已使用 Aspose.Slides for Java 成功隐藏了 Java Slides 图表中的各种元素。您可以根据您的具体要求进一步自定义图表和演示文稿。
+就是这样！您已使用 Aspose.Slides for Java 成功隐藏了 Java Slides 图表中的各种元素。您可以根据您的具体要求进一步定制图表和演示文稿。
 
 ## 在 Java 幻灯片中隐藏图表信息的完整源代码
 

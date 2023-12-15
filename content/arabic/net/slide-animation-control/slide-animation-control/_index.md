@@ -97,7 +97,7 @@ presentation.Save("animated_presentation.pdf", SaveFormat.Pdf);
 
  يمكنك تنزيل Aspose.Slides لـ .NET من[هذا الرابط](https://releases.aspose.com/slides/net/)واتبع تعليمات التثبيت الواردة في[توثيق](https://reference.aspose.com/slides/net/).
 
-### هل يمكنني تطبيق الرسوم المتحركة على عناصر شريحة معينة؟
+### هل يمكنني تطبيق الرسوم المتحركة على عناصر شريحة محددة؟
 
 نعم، يمكنك تطبيق الرسوم المتحركة على عناصر الشرائح الفردية مثل الأشكال والصور باستخدام Aspose.Slides for .NET.
 

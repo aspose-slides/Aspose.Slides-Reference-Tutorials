@@ -10,7 +10,7 @@ url: /de/net/image-and-video-manipulation-in-slides/
 
 ## Einführung in die Bild- und Videomanipulation in Aspose.Slides
 
-Bei Folienpräsentationen spielen visuelle Inhalte eine entscheidende Rolle, um die Aufmerksamkeit des Publikums zu fesseln und Informationen effektiv zu vermitteln. Mit Aspose.Slides für .NET können Entwickler über einfache Folien hinaus in die Welt der Bild- und Videomanipulation eintauchen und Präsentationen mit dynamischen Multimedia-Elementen bereichern. In diesem Tutorial begeben wir uns auf eine Reise, um zu erkunden, wie Aspose.Slides die nahtlose Integration und Bearbeitung von Bildern und Videos in Folien erleichtert und Ihren Präsentationen eine neue Dimension verleiht.
+Bei Folienpräsentationen spielen visuelle Inhalte eine entscheidende Rolle, um die Aufmerksamkeit des Publikums zu fesseln und Informationen effektiv zu vermitteln. Mit Aspose.Slides für .NET können Entwickler über einfache Folien hinaus in die Welt der Bild- und Videobearbeitung eintauchen und Präsentationen mit dynamischen Multimedia-Elementen bereichern. In diesem Tutorial begeben wir uns auf eine Reise, um zu erkunden, wie Aspose.Slides die nahtlose Integration und Bearbeitung von Bildern und Videos in Folien erleichtert und Ihren Präsentationen eine neue Dimension verleiht.
 
 ### Die Kraft visueller Inhalte
 

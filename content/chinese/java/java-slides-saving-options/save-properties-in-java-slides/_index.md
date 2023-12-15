@@ -14,7 +14,7 @@ url: /zh/java/saving-options/save-properties-in-java-slides/
 
 ## 先决条件
 
-在开始之前，请确保您已将 Aspose.Slides for Java 库集成到您的 Java 项目中。您可以从Aspose官方网站下载该库[这里](https://downloads.aspose.com/slides/java).
+在开始之前，请确保您已将 Aspose.Slides for Java 库集成到您的 Java 项目中。您可以从 Aspose 网站下载该库[这里](https://downloads.aspose.com/slides/java).
 
 ## 第 1 步：导入所需的库
 
@@ -48,7 +48,7 @@ presentation.getDocumentProperties().setTitle("My Presentation");
 //设置演示文稿的作者
 presentation.getDocumentProperties().setAuthor("John Doe");
 
-//设置演示文稿的关键词
+//设置演示文稿的关键字
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 
@@ -122,7 +122,7 @@ presentation.getDocumentProperties().setTitle("My Presentation");
 //设置演示文稿的作者
 presentation.getDocumentProperties().setAuthor("John Doe");
 
-//设置演示文稿的关键词
+//设置演示文稿的关键字
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 

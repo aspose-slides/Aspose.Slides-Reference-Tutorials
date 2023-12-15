@@ -1,232 +1,150 @@
 ---
-title: Veri Noktasındaki Grafik İşaretleyici Seçenekleri
+title: Aspose.Slides .NET'te Veri Noktasında Grafik İşaretleyici Seçeneklerini Kullanma
 linktitle: Veri Noktasındaki Grafik İşaretleyici Seçenekleri
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak veri görselleştirmelerinizi nasıl geliştireceğinizi öğrenin. Grafik işaretleyici seçeneklerini adım adım keşfedin.
+description: Aspose.Slides for .NET'i kullanarak PowerPoint grafiklerinizi nasıl geliştireceğinizi öğrenin. Veri noktası işaretçilerini görüntülerle özelleştirin. İlgi çekici sunumlar oluşturun.
 type: docs
 weight: 11
 url: /tr/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
-## Grafik İşaretleyici Seçeneklerine Giriş
+Sunumlar ve veri görselleştirmeyle çalışırken Aspose.Slides for .NET, grafikleri oluşturmak, özelleştirmek ve değiştirmek için çok çeşitli güçlü özellikler sunar. Bu öğreticide grafik sunumlarınızı geliştirmek için veri noktalarında grafik işaretleyici seçeneklerinin nasıl kullanılacağını keşfedeceğiz. Bu adım adım kılavuz, önkoşullardan ve ad alanlarının içe aktarılmasından başlayarak her örneği birden çok adıma ayırmaya kadar süreç boyunca size yol gösterecektir.
 
-Grafik işaretleyici seçenekleri, bir grafikteki ayrı veri noktalarına uygulanabilen görsel geliştirmelerdir. Bu işaretleyiciler belirli veri değerlerinin vurgulanmasına yardımcı olarak izleyicinin sunulan bilgiyi yorumlamasını kolaylaştırır. Grafik işaretleyici seçeneklerini kullanarak önemli veri noktalarına dikkat çekebilir ve eğilimleri veya aykırı değerleri vurgulayabilirsiniz.
+## Önkoşullar
 
-## Geliştirme Ortamını Kurma
+Veri noktalarında grafik işaretleyici seçeneklerini kullanmaya başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-Aspose.Slides for .NET'i kullanarak grafik işaretleyici seçenekleriyle çalışmaya başlamadan önce gerekli araçların mevcut olduğundan emin olalım.
+-  Aspose.Slides for .NET: Aspose.Slides for .NET'in kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
 
-## Aspose.Slides for .NET'i Yükleme
+- Örnek Sunum: Bu eğitim için "Test.pptx" adlı örnek bir sunum kullanacağız. Bu sunumu belge dizininizde bulundurmalısınız.
 
- Başlamak için geliştirme ortamınızda Aspose.Slides for .NET'in kurulu olması gerekir. Kütüphaneyi web sitesinden indirebilirsiniz:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net).
+Şimdi gerekli ad alanlarını içe aktararak başlayalım.
 
-## Yeni Proje Oluşturma
-
-Aspose.Slides for .NET'i yükledikten sonra tercih ettiğiniz .NET geliştirme ortamında yeni bir proje oluşturun. Visual Studio'yu veya seçtiğiniz herhangi bir IDE'yi kullanabilirsiniz.
-
-## Mevcut Bir Sunumu Yükleme ve Değiştirme
-
-Grafik işaretleyici seçenekleriyle çalışmak için grafik içeren mevcut bir sunuma ihtiyacımız var. Mevcut bir sunumu yükleyerek ve grafiği içeren slayda erişerek başlayalım.
-
-## Sunum Dosyası Yükleme
+## Ad Alanlarını İçe Aktar
 
 ```csharp
-// Sunuyu yükle
-using (Presentation presentation = new Presentation("sample.pptx"))
-{
-    // Sunumla çalışacak kodunuz buraya gelecek
-}
+﻿using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 ```
 
-## Grafik ile Slayta Erişim
+Gerekli ad alanlarını içe aktardık ve sunumumuzu başlattık. Şimdi veri noktalarında grafik işaretleyici seçeneklerini kullanmaya devam edelim.
 
-Daha sonra değiştirmek istediğimiz grafiğin bulunduğu slaydı belirleyelim.
+## Adım 1: Varsayılan Grafiğin Oluşturulması
 
 ```csharp
-//Grafik içeren bir slayta erişme
-ISlide slide = presentation.Slides[0]; // 0'ı slayt indeksiyle değiştirin
+
+// Belgeler dizininin yolu.
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+
+ISlide slide = pres.Slides[0];
+
+// Varsayılan grafiği oluşturma
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## Grafik Veri Serilerine Erişim
+Slayt üzerinde belirtilen konumda ve boyutta "LineWithMarkers" türünde varsayılan bir grafik oluşturuyoruz.
 
-İşaretleyici seçeneklerini veri noktalarına uygulayabilmek için öncelikle grafik içerisinde ilgili veri serisine erişmemiz gerekiyor.
-
-## Veri Serilerini Tanımlama
+## Adım 2: Varsayılan Grafik Verileri Çalışma Sayfası Dizinini Alma
 
 ```csharp
-// Slayttaki grafiğe erişme
-IChart chart = slide.Shapes[0] as IChart;
-
-// İlk veri serisine erişim
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-IChartSeries dataSeries = chart.ChartData.Series[0];
+// Varsayılan grafik verileri çalışma sayfası dizinini alma
+int defaultWorksheetIndex = 0;
 ```
 
-## Veri Noktalarına Erişim
+Burada, varsayılan grafik verileri çalışma sayfasının indeksini elde ediyoruz.
 
-Artık veri serilerine erişimimiz olduğuna göre bireysel veri noktalarıyla çalışabiliriz.
+## Adım 3: Grafik Verileri Çalışma Sayfasını Alma
 
 ```csharp
-// Bireysel veri noktalarına erişim
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    // Veri noktalarıyla çalışacak kodunuz buraya gelecek
-}
+//Grafik verileri çalışma sayfasını alma
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
-## İşaretçi Seçeneklerini Uygulama
+Grafik verileriyle çalışmak için grafik verileri çalışma kitabını getiriyoruz.
 
-Şimdi grafikteki veri noktalarına işaretçi seçeneklerini uygulayalım.
-
-## Veri Noktaları için İşaretleyicileri Etkinleştirme
+## Adım 4: Grafik Serisini Değiştirme
 
 ```csharp
-// Veri noktaları için işaretçileri etkinleştirme
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Circle; // Farklı bir işaretleyici türü seçebilirsiniz
-    dataPoint.Marker.Symbol.Size = 10; // İşaretçi boyutunu gerektiği gibi ayarlayın
-    dataPoint.Marker.Visible = true; // İşaretçileri göster
-}
+// Demo serisini sil
+chart.ChartData.Series.Clear();
+
+// Yeni seri ekle
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 ```
 
-## İşaretçi Görünümünü Özelleştirme
+Bu adımda mevcut demo serilerini kaldırıyoruz ve grafiğe "Seri 1" adlı yeni bir seri ekliyoruz.
 
-Ayrıca, görsel olarak daha çekici hale getirmek için işaretçilerin görünümünü de özelleştirebilirsiniz.
+## Adım 5: Veri Noktaları için Resim Dolgusunu Ayarlama
 
 ```csharp
-// İşaretçi görünümünü özelleştirme
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    dataPoint.Marker.Symbol.MarkerType = MarkerStyleType.Diamond;
-    dataPoint.Marker.Symbol.Size = 12;
-    dataPoint.Marker.Symbol.Fill.SolidFillColor.Color = Color.Red;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.FillType = FillType.Solid;
-    dataPoint.Marker.Symbol.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+// İşaretçiler için resmi ayarlayın
+System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx1 = pres.Images.AddImage(img1);
+
+System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
+IPPImage imgx2 = pres.Images.AddImage(img2);
+
+// İlk grafik serisini alın
+IChartSeries series = chart.ChartData.Series[0];
+
+// Resim dolgusu ile yeni veri noktaları ekleyin
+IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, (double)2.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, (double)3.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 1, (double)4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-## İşaretçilere Etiket Ekleme
+Veri noktaları için resim işaretleyicileri ayarlayarak her bir veri noktasının grafikte nasıl görüneceğini özelleştirmenize olanak sağlıyoruz.
 
-İşaretçilere veri etiketleri eklemek grafiğe bağlam ve netlik sağlayabilir.
-
-## Veri Etiketlerini Görüntüleme
+## Adım 6: Grafik Serisi İşaretleyici Boyutunun Değiştirilmesi
 
 ```csharp
-// Veri etiketleri görüntüleniyor
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.ShowCategoryName = true;
-    dataLabel.ShowValue = true;
-}
+//Grafik serisi işaretleyici boyutunu değiştirme
+series.Marker.Size = 15;
 ```
 
-## Veri Etiketlerini Biçimlendirme
+Burada grafik serisi işaretçisinin boyutunu görsel olarak çekici hale getirecek şekilde ayarlıyoruz.
 
-Veri etiketlerini tercihlerinize uyacak şekilde biçimlendirebilirsiniz.
+## Adım 7: Sunumu Kaydetme
 
 ```csharp
-// Veri etiketlerini biçimlendirme
-foreach (IChartDataPoint dataPoint in dataSeries.DataPoints)
-{
-    IDataLabel dataLabel = dataPoint.Label;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontBold = NullableBool.True;
-    dataLabel.DataLabelFormat.TextFormat.PortionFormat.FontHeight = 14;
-}
+pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ```
 
-## İşaretçi Çakışmasını İşleme
-
-İşaretçilerin üst üste geldiği ve görsel karmaşaya neden olduğu durumlarda işaretçi konumlarının ele alınması önemlidir.
-
-## İşaretçi Çakışmasını Ayarlama
-
-```csharp
-// İşaretçinin çakışmasını ayarlama
-chart.Placement = PlacementType.FreeFloating;
-chart.MarkerOverlap = -30; // Örtüşme değerini gerektiği gibi ayarlayın
-```
-
-## Optimum İşaretleyici Pozisyonlarını Seçme
-
-```csharp
-// Optimum işaretleyici konumlarını seçme
-chart.MarkerClustered = false;
-chart.MarkerSymbolSpacing = 2; // Aralığı gerektiği gibi ayarlayın
-```
-
-## Değiştirilen Sunumu Kaydetme ve Dışa Aktarma
-
-Grafikte gerekli değişiklikleri yaptıktan sonra değiştirilen sunumu kaydedebilir ve dışa aktarabilirsiniz.
-
-## Farklı Formatlarda Kaydetme
-
-```csharp
-// Farklı formatlara kaydetme
-presentation.Save("modified.pptx", SaveFormat.Pptx);
-presentation.Save("modified.pdf", SaveFormat.Pdf);
-```
-
-## PDF veya Görüntüye Dışa Aktarma
-
-```csharp
-// PDF'ye veya resme aktarma
-using (FileStream stream = new FileStream("output.pdf", FileMode.Create))
-{
-    PdfOptions options = new PdfOptions();
-    presentation.Save(stream
-
-, SaveFormat.Pdf);
-}
-```
-
-## Gerçek Dünyadaki Kullanım Durumları
-
-Grafik işaretleyici seçenekleri, gerçek dünyadaki veri senaryolarını analiz ederken çok değerlidir.
-
-## Satış Performans Analizi
-
-Satış analistleri, işaretçi seçeneklerini kullanarak olağanüstü satış aylarını tespit edebilir ve zaman içindeki eğilimleri görselleştirebilir.
-
-## Hisse Senedi Piyasası Trendleri
-
-Yatırımcılar, önemli hisse senedi fiyat dalgalanmalarını tespit etmek ve bilinçli kararlar vermek için işaretleyici seçeneklerini kullanabilir.
-
-## Etkili Veri Görselleştirme için En İyi Uygulamalar
-
-Grafik oluştururken bu en iyi uygulamaları aklınızda bulundurun.
-
-## Grafikleri Basit ve Net Tutmak
-
-Sadelik anlayışı geliştirir. Aşırı işaretçilerle aşırı kalabalık grafiklerden kaçının.
-
-## Uygun Grafik Türlerini Kullanma
-
-Verilerinizi etkili bir şekilde ileten grafik türlerini seçin. Tüm veri kümeleri işaretçilere ihtiyaç duymaz.
+Son olarak sunumu yeni grafik ayarlarıyla kaydediyoruz.
 
 ## Çözüm
 
-Bu makalede Aspose.Slides for .NET'i kullanarak grafik işaretleyici seçenekleri dünyasını derinlemesine inceledik. Grafiklerdeki veri noktalarındaki işaretçileri etkinleştirme, özelleştirme ve yönetme sürecini adım adım araştırdık. Bu kılavuzda açıklanan teknikleri izleyerek veri görselleştirme becerilerinizi geliştirebilir ve hedef kitlenizde yankı uyandıracak ilgi çekici sunumlar oluşturabilirsiniz.
+Aspose.Slides for .NET, çeşitli özelleştirme seçenekleriyle çarpıcı grafik sunumları oluşturmanıza olanak tanır. Bu öğreticide verilerinizin görsel temsilini geliştirmek için veri noktalarında grafik işaretleyici seçeneklerini kullanmaya odaklandık. Aspose.Slides for .NET ile sunumlarınızı bir sonraki aşamaya taşıyabilir, onları daha ilgi çekici ve bilgilendirici hale getirebilirsiniz.
 
-## SSS'ler
+ Aspose.Slides for .NET ile ilgili herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa şu adresi ziyaret etmekten çekinmeyin:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) veya iletişime geçin[Topluluğu düşünün](https://forum.aspose.com/) destek için.
 
-### Aspose.Slides for .NET'i nasıl indirebilirim?
+## Sıkça Sorulan Sorular (SSS)
 
- Aspose.Slides for .NET'i sürümler sayfasından indirebilirsiniz:[Aspose.Slides for .NET'i indirin](https://releases.aspose.com/slides/net).
+### Aspose.Slides for .NET'te özel görüntüleri veri noktaları için işaretleyici olarak kullanabilir miyim?
+Evet, bu eğitimde gösterildiği gibi Aspose.Slides for .NET'te özel görüntüleri veri noktaları için işaretleyici olarak kullanabilirsiniz.
 
-### İşaretçilerin görünümünü özelleştirebilir miyim?
+### Aspose.Slides for .NET'te grafik türünü nasıl değiştirebilirim?
+Farklı bir grafik türü belirterek grafik türünü değiştirebilirsiniz.`ChartType` Grafiği oluştururken "Çubuk", "Pasta" veya "Alan" gibi.
 
-Kesinlikle! Çeşitli işaretleyici türleri arasından seçim yapabilir ve bunların boyutunu, rengini ve şeklini özelleştirebilirsiniz.
+### Aspose.Slides for .NET, PowerPoint'in en son sürümleriyle uyumlu mu?
+Aspose.Slides for .NET, çeşitli PowerPoint formatlarıyla çalışacak şekilde tasarlanmıştır ve en son PowerPoint sürümleriyle uyumluluğu sürdürmek için düzenli olarak güncellenir.
 
-### İşaretçinin çakışmasını gidermenin bir yolu var mı?
+### Aspose.Slides for .NET için daha fazla eğitim ve kaynağı nerede bulabilirim?
+ Ek eğitimleri ve kaynakları şuradan keşfedebilirsiniz:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/).
 
-Evet, grafiklerinizde görsel karmaşayı önlemek için işaretleyici çakışma ayarlarını yapabilirsiniz.
-
-### Değiştirilen sunumumu hangi formatlarda kaydedebilirim?
-
-Aspose.Slides for .NET, sunumların PPTX ve PDF dahil olmak üzere çeşitli formatlarda kaydedilmesini destekler.
-
-### İşaretçilere veri etiketlerini nasıl ekleyebilirim?
-
-İşaretleyicilere kolayca veri etiketleri ekleyebilir ve bunları tercihlerinize göre biçimlendirebilirsiniz.
+### Aspose.Slides for .NET'in deneme sürümü mevcut mu?
+ Evet, Aspose.Slides for .NET'i adresinden ücretsiz deneme sürümünü indirerek deneyebilirsiniz.[Burada](https://releases.aspose.com/).

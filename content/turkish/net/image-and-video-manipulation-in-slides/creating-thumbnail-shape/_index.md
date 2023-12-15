@@ -53,7 +53,7 @@ Slayt ve şekil indekslerini sununuzun yapısına göre değiştirin.
 
 ## Küçük Resimler Oluşturma
 
- Şimdi heyecan verici kısım geliyor; seçilen şekil için küçük resim oluşturma. Aspose.Slides bunu aşağıdaki özelliklerden yararlanarak başarmanıza olanak tanır:`GetThumbnail` yöntem. Bir şeklin küçük resmini şu şekilde oluşturabilirsiniz:
+Şimdi heyecan verici kısım geliyor; seçilen şekil için küçük resim oluşturma. Aspose.Slides bunu aşağıdaki özelliklerden yararlanarak başarmanıza olanak tanır:`GetThumbnail` yöntem. Bir şeklin küçük resmini şu şekilde oluşturabilirsiniz:
 
 ```csharp
 // Küçük resim boyutlarını tanımlayın

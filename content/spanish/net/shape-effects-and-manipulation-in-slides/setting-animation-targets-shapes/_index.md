@@ -107,7 +107,7 @@ La velocidad de las animaciones se puede controlar ajustando el retraso de la an
 
 ### ¿Dónde puedo encontrar más recursos y documentación?
 
- Para obtener documentación detallada y ejemplos, consulte la[Referencias de la API de Aspose.Slides](https://reference.aspose.com/slides/net/).
+Para obtener documentación detallada y ejemplos, consulte la[Referencias de la API de Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ## Conclusión
 

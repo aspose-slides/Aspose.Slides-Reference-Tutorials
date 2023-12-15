@@ -49,7 +49,7 @@ foreach (IShape shape in slide.Shapes)
 
 ## 以编程方式隐藏形状
 
-现在是令人兴奋的部分：实际上隐藏形状。您可以通过将形状的可见性属性设置为来实现此目的`false`：
+现在是令人兴奋的部分：实际上隐藏形状。您可以通过将形状的可见性属性设置为来实现此目的`false`:
 
 ```csharp
 foreach (IShape shape in slide.Shapes)
@@ -60,7 +60,7 @@ foreach (IShape shape in slide.Shapes)
 
 ## 显示隐藏的形状
 
-当然，您还需要在某些时候揭示这些隐藏的形状。只需将可见性属性设置回`true`：
+当然，您还需要在某些时候揭示这些隐藏的形状。只需将可见性属性设置回`true`:
 
 ```csharp
 foreach (IShape shape in slide.Shapes)

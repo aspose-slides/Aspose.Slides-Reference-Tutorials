@@ -23,7 +23,7 @@ Nachdem wir nun alles eingerichtet haben, können wir beginnen.
 
 ## Schritt 1: Importieren Sie die erforderlichen Bibliotheken
 
-Zunächst müssen Sie die erforderlichen Bibliotheken für Ihr Java-Projekt importieren. Stellen Sie sicher, dass Sie Aspose.Slides für Java einbinden.
+Zunächst müssen Sie die erforderlichen Bibliotheken für Ihr Java-Projekt importieren. Stellen Sie sicher, dass Sie Aspose.Slides für Java einschließen.
 
 ```java
 import com.aspose.slides.*;

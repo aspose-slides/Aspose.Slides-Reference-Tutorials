@@ -107,7 +107,7 @@ presentation.Save("PresentationWithAnimation.pptx", SaveFormat.Pptx);
 
 ### Где я могу найти дополнительные ресурсы и документацию?
 
- Подробную документацию и примеры см.[Ссылки на API Aspose.Slides](https://reference.aspose.com/slides/net/).
+Подробную документацию и примеры см.[Ссылки на API Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ## Заключение
 

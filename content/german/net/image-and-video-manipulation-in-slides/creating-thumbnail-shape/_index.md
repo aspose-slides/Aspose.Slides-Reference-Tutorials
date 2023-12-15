@@ -53,7 +53,7 @@ var shape = slide.Shapes[0];
 
 ## Miniaturansichten erstellen
 
- Jetzt kommt der spannende Teil – das Erstellen einer Miniaturansicht für die ausgewählte Form. Mit Aspose.Slides können Sie dies erreichen, indem Sie die nutzen`GetThumbnail` Methode. So können Sie eine Miniaturansicht für eine Form erstellen:
+Jetzt kommt der spannende Teil – das Erstellen einer Miniaturansicht für die ausgewählte Form. Mit Aspose.Slides können Sie dies erreichen, indem Sie die nutzen`GetThumbnail` Methode. So können Sie eine Miniaturansicht für eine Form erstellen:
 
 ```csharp
 // Definieren Sie die Miniaturbildabmessungen

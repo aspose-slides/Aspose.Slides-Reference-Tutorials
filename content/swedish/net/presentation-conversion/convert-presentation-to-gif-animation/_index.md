@@ -8,7 +8,7 @@ weight: 20
 url: /sv/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
 
-dagens digitala tidsålder spelar visuellt innehåll en avgörande roll i kommunikationen. Ibland kan du behöva konvertera en presentation till en GIF-animation för att göra den mer engagerande och delbar. Lyckligtvis, med hjälp av Aspose.Slides för .NET, blir denna uppgift enkel. I den här handledningen går vi igenom processen att konvertera en presentation till en GIF-animation med hjälp av följande källkod.
+I dagens digitala tidsålder spelar visuellt innehåll en avgörande roll i kommunikationen. Ibland kan du behöva konvertera en presentation till en GIF-animation för att göra den mer engagerande och delbar. Lyckligtvis, med hjälp av Aspose.Slides för .NET, blir denna uppgift enkel. I den här handledningen går vi igenom processen att konvertera en presentation till en GIF-animation med hjälp av följande källkod.
 
 ## 1. Introduktion
 
@@ -48,7 +48,7 @@ I det här avsnittet definierar vi filsökvägarna för inmatningspresentationen
 // Spara presentationen till Gif
 presentation.Save(outPath, SaveFormat.Gif, new GifOptions
 {
-    FrameSize = new Size(540, 480), // storleken på den resulterande GIF-filen
+    FrameSize = new Size(540, 480), // storleken på den resulterande GIF
     DefaultDelay = 1500, // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
     TransitionFps = 60 // öka FPS till bättre övergångsanimationskvalitet
 });

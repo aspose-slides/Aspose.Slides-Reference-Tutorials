@@ -43,7 +43,7 @@ continuación, recuperará las propiedades del documento de la presentación. Es
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 ```
 
-## Paso 4: Agregar propiedades personalizadas
+## Paso 4: agregar propiedades personalizadas
 
 Ahora, agreguemos propiedades personalizadas a la presentación. Las propiedades personalizadas constan de un nombre y un valor. Puede utilizarlos para almacenar cualquier información que desee.
 

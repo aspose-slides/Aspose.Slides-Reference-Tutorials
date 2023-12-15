@@ -58,13 +58,13 @@ Aspose.Slides предоставляет различные возможност
 // Получить видеокадр на слайде
 IVideoFrame videoFrame = (IVideoFrame)slide.Shapes[0];
 
-// Включить автозапуск
+//Включить автозапуск
 videoFrame.PlayMode = VideoPlayModePreset.Auto;
 
 // Включить цикл
 videoFrame.PlayLoopMode = VideoPlayLoopMode.Loop;
 
-//Отключить звук видео
+// Отключить звук видео
 videoFrame.Volume = AudioVolumeMode.Mute;
 ```
 

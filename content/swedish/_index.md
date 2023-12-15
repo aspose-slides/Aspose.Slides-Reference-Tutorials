@@ -54,7 +54,7 @@ Det här är länkar till några användbara resurser:
 - [Java Slides-animering och layout](./java/animation-and-layout)
 - [Java Slides Chart Elements](./java/chart-elements)
 - [Skapa Java Slides Chart](./java/chart-creation)
-- [Java Slides presentationskonvertering](./java/presentation-conversion)
+- [Java Slides Presentation Konvertering](./java/presentation-conversion)
 - [Java Slides Data Manipulation](./java/data-manipulation)
 - [Java Slides Ytterligare verktyg](./java/additional-utilities/)
 - [Java Slides presentationsegenskaper](./java/presentation-properties/)

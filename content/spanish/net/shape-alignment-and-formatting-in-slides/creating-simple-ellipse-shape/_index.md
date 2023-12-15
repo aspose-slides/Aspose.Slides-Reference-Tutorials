@@ -103,4 +103,4 @@ Aspose.Slides para .NET admite varias formas, incluidos rectángulos, líneas, f
 
 ### ¿Dónde puedo encontrar más información sobre Aspose.Slides para .NET?
 
- Para obtener documentación detallada y ejemplos, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
+Para obtener documentación detallada y ejemplos, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).

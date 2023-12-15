@@ -2,174 +2,122 @@
 title: Hyperlänksmanipulation i Aspose.Slides
 linktitle: Hyperlänksmanipulation i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du förbättrar PowerPoint-presentationer med hyperlänkar med Aspose.Slides för .NET. Skapa, ändra och hantera interaktivt innehåll sömlöst.
+description: Lär dig hur du lägger till och tar bort hyperlänkar i Aspose.Slides för .NET. Förbättra dina presentationer enkelt med interaktiva länkar.
 type: docs
 weight: 10
 url: /sv/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
 
-## Introduktion till hyperlänksmanipulation
+Hyperlänkar är viktiga element i presentationer, eftersom de ger ett bekvämt sätt att navigera mellan bilder eller komma åt externa resurser. Aspose.Slides för .NET erbjuder kraftfulla funktioner för att lägga till och ta bort hyperlänkar i dina presentationsbilder. I den här handledningen kommer vi att guida dig genom processen för hyperlänksmanipulering med Aspose.Slides för .NET. Vi kommer att täcka att lägga till hyperlänkar till en bild och ta bort hyperlänkar från en bild. Så, låt oss dyka in!
 
-Hyperlänkar berikar presentationer genom att koppla samman bilder, dokument, webbsidor och mer. De ger en interaktiv upplevelse, vilket ökar publikens engagemang. Aspose.Slides för .NET erbjuder omfattande funktionalitet för att hantera hyperlänkar programmatiskt, vilket ger dig full kontroll över din presentations navigering.
+## Förutsättningar
 
-## Ställa in hyperlänkar i Slides
+Innan du börjar, se till att du har följande förutsättningar på plats:
 
- För att skapa hyperlänkar kan du använda Aspose.Slides för .NET`HyperlinkManager` klass. Den här klassen låter dig lägga till olika typer av hyperlänkar till specifika former eller text i dina bilder.
+1.  Aspose.Slides för .NET: Du måste ha Aspose.Slides för .NET-biblioteket installerat och konfigurerat. Du hittar dokumentationen[här](https://reference.aspose.com/slides/net/) och ladda ner den från[den här länken](https://releases.aspose.com/slides/net/).
 
-```csharp
-// Kodexempel för att lägga till en hyperlänk till en form
-HyperlinkManager.AddHyperlinkToShape(shape, "https://www.example.com", "Besök vår webbplats");
-```
+2. Din dokumentkatalog: Du behöver en katalog där du kommer att lagra dina presentationsfiler. Se till att ange sökvägen till denna katalog i din kod.
 
-## Ändra hyperlänkar
+3. Grundläggande kunskaper om C#: Denna handledning förutsätter att du har en grundläggande förståelse för C#-programmering.
 
-Du kan enkelt ändra befintliga hyperlänkar med Aspose.Slides för .NET. Detta är användbart när du behöver uppdatera måladressen eller ändra hyperlänkens text.
+Nu när du har dina förutsättningar på plats, låt oss gå vidare till steg-för-steg-guiden för hyperlänksmanipulering med Aspose.Slides för .NET.
 
-```csharp
-// Kodexempel för att ändra en hyperlänks URL
-HyperlinkManager.ModifyHyperlinkUrl(shape, "https://newurl.com");
-```
+## Lägga till hyperlänkar till en bild
 
-## Ta bort hyperlänkar
+### Steg 1: Initiera presentationen
 
-Om du vill ta bort en hyperlänk från en form erbjuder Aspose.Slides för .NET en enkel metod att göra det.
+För att komma igång måste du initiera en presentation med Aspose.Slides. Du kan göra detta med följande kod:
 
 ```csharp
-// Kodexempel för att ta bort en hyperlänk från en form
-HyperlinkManager.RemoveHyperlink(shape);
+using (Presentation presentation = new Presentation())
+{
+    // Din kod här
+}
 ```
 
-## Arbeta med ankarpunkter
+### Steg 2: Lägg till textram
 
-Ankarpunkter är avgörande när man hanterar hyperlänkar i bilder. De bestämmer positionen dit hyperlänken pekar på i målbilden.
+Låt oss nu lägga till en textram till en bild. Denna kod skapar en rektangulär form med text:
 
 ```csharp
-// Kodexempel för att ställa in en ankarpunkt för en hyperlänk
-HyperlinkManager.SetHyperlinkAnchor(shape, targetSlide, anchorX, anchorY);
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
 ```
 
-## Hantera olika hyperlänkstyper
+### Steg 3: Lägg till hyperlänk
 
-Aspose.Slides för .NET stöder olika typer av hyperlänkar, inklusive URL-länkar, interna dokumentlänkar, länkar till e-postadresser och mer.
+Därefter lägger du till en hyperlänk till texten i den form du skapade. Så här kan du göra det:
 
 ```csharp
-// Kodexempel för att lägga till en e-posthyperlänk
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-## Lägga till verktygstips till hyperlänkar
+### Steg 4: Spara presentationen
 
-Verktygstips ger ytterligare information när användare håller muspekaren över hyperlänkar. Aspose.Slides för .NET låter dig ställa in verktygstips för dina hyperlänkar.
+Slutligen, spara din presentation med den tillagda hyperlänken:
 
 ```csharp
-// Kodexempel för att lägga till ett verktygstips till en hyperlänk
-HyperlinkManager.AddHyperlinkWithTooltip(shape, "https://www.example.com", "Besök vår webbplats", "Klicka för att utforska");
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 ```
 
-## Hantera externa hyperlänkar
+Grattis! Du har framgångsrikt lagt till en hyperlänk till en bild med Aspose.Slides för .NET.
 
-Du kan också hantera externa hyperlänkar med Aspose.Slides för .NET, vilket säkerställer att dina presentationer förblir kopplade till relevanta onlineresurser.
+## Ta bort hyperlänkar från en bild
+
+### Steg 1: Initiera presentationen
+
+För att ta bort hyperlänkar från en bild måste du öppna en befintlig presentation:
 
 ```csharp
-// Kodexempel för att öppna en hyperlänk i en webbläsare
-HyperlinkManager.OpenHyperlinkInBrowser(shape);
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## Hyperlänkar i Master Slides
+### Steg 2: Ta bort hyperlänkar
 
-Masterbilder innehåller ofta återkommande element. Aspose.Slides för .NET låter dig använda hyperlänkar till masterbilder, vilket säkerställer konsistens i hela din presentation.
+Ta nu bort alla hyperlänkar från presentationen med följande kod:
 
 ```csharp
-// Kodexempel för att ställa in en hyperlänk i en huvudbild
-HyperlinkManager.SetHyperlinkInMasterSlide(masterSlide, "https://www.example.com", "Besök vår webbplats");
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## Extrahera hyperlänkinformation
+### Steg 3: Spara presentationen
 
-Du kan extrahera information från befintliga hyperlänkar med Aspose.Slides för .NET, vilket kan vara användbart för analys- eller rapporteringsändamål.
+När du har tagit bort hyperlänkarna sparar du presentationen:
 
 ```csharp
-// Kodexempel för att extrahera hyperlänkinformation
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-## Lägga till hyperlänkar till bilder och former
+Och det är allt! Du har framgångsrikt tagit bort hyperlänkar från en bild med Aspose.Slides för .NET.
 
-Hyperlänkar kan läggas till inte bara till text utan även till bilder och former i dina bilder.
+Sammanfattningsvis erbjuder Aspose.Slides för .NET ett effektivt sätt att manipulera hyperlänkar i dina presentationer, så att du kan skapa interaktiva och engagerande bilder. Oavsett om du vill lägga till hyperlänkar till externa resurser eller ta bort dem, förenklar Aspose.Slides processen och förbättrar dina presentationsbyggande möjligheter.
 
-```csharp
-// Kodexempel för att lägga till en hyperlänk till en bild
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Klicka på bilden för att lära dig mer");
-```
+ Tack för att du är med i den här handledningen om hyperlänksmanipulation i Aspose.Slides för .NET. Om du har några frågor eller behöver mer hjälp är du välkommen att utforska[Aspose.Slides dokumentation](https://reference.aspose.com/slides/net/) eller nå ut till Aspose-gemenskapen på[supportforum](https://forum.aspose.com/).
 
-## Länka till e-postadresser och telefonnummer
-
-Aspose.Slides för .NET gör att du kan skapa hyperlänkar som utlöser e-postsammansättning eller initierar telefonsamtal när du klickar på dem.
-
-```csharp
-// Kodexempel för att skapa en e-posthyperlänk
-HyperlinkManager.AddEmailHyperlink(shape, "support@example.com", "Contact Support");
-
-// Kodexempel för att skapa en hyperlänk för ett telefonnummer
-HyperlinkManager.AddPhoneHyperlink(shape, "+1234567890", "Call our support");
-```
-
-## Hyperlänkformatering
-
-Du kan använda formatering på hyperlänkar för att göra dem visuellt åtskilda från vanlig text eller former.
-
-```csharp
-// Kodexempel för att formatera en hyperlänks utseende
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-## Lägga till hyperlänkar via API
-
-Aspose.Slides för .NET tillhandahåller ett robust API för hyperlänksmanipulation. Du kan integrera dessa funktioner sömlöst i dina applikationer.
-
-```csharp
-// Kodexempel för att lägga till en hyperlänk via API:et
-HyperlinkManager.AddHyperlink(shape, HyperlinkType.Url, "https://www.example.com");
-```
+---
 
 ## Slutsats
 
-Hyperlänksmanipulation med Aspose.Slides för .NET erbjuder en omfattande verktygslåda för att förbättra interaktiviteten och engagemanget i dina PowerPoint-presentationer. Med möjligheten att skapa, ändra och hantera hyperlänkar kan du skapa dynamiska och informativa bildspel som fängslar din publik.
+I den här handledningen har vi lärt oss hur man manipulerar hyperlänkar i presentationer med Aspose.Slides för .NET. Vi täckte både tillägg och borttagning av hyperlänkar, vilket gjorde det möjligt för dig att skapa dynamiska och interaktiva presentationer. Aspose.Slides förenklar processen, vilket gör det enkelt att förbättra dina bilder med hyperlänkar till externa resurser.
 
-## FAQ's
+Har du några fler frågor om att arbeta med Aspose.Slides eller andra aspekter av presentationsdesign? Kolla in de vanliga frågorna nedan för mer insikter.
 
-### Hur tar jag bort en hyperlänk från en form?
+## Vanliga frågor (vanliga frågor)
 
-För att ta bort en hyperlänk från en form kan du använda följande kod:
+### Vilka är de viktigaste fördelarna med att använda Aspose.Slides för .NET?
+Aspose.Slides för .NET erbjuder ett brett utbud av funktioner för att skapa, manipulera och konvertera presentationer. Den tillhandahåller en omfattande uppsättning verktyg för att lägga till innehåll, animationer och interaktioner till dina bilder.
 
-```csharp
-HyperlinkManager.RemoveHyperlink(shape);
-```
+### Kan jag lägga till hyperlänkar till andra objekt än text i Aspose.Slides?
+Ja, Aspose.Slides låter dig lägga till hyperlänkar till olika objekt, inklusive former, bilder och text, vilket ger dig flexibilitet när du skapar interaktiva presentationer.
 
-### Kan jag använda hyperlänkar till bilder i mina bilder?
+### Är Aspose.Slides kompatibel med olika PowerPoint-filformat?
+Absolut. Aspose.Slides stöder olika PowerPoint-format, inklusive PPT, PPTX, PPS och mer. Det säkerställer kompatibilitet med olika versioner av Microsoft PowerPoint.
 
-Ja, du kan lägga till hyperlänkar till bilder och former i dina bilder med Aspose.Slides för .NET. Till exempel:
+### Var kan jag hitta ytterligare resurser och support för Aspose.Slides?
+För djupgående dokumentation och gemenskapsstöd, besök[Aspose.Slides dokumentation](https://reference.aspose.com/slides/net/) och den[Aspose supportforum](https://forum.aspose.com/).
 
-```csharp
-HyperlinkManager.AddHyperlinkToImage(imageShape, "https://www.example.com", "Klicka på bilden för att lära dig mer");
-```
-
-### Är det möjligt att formatera utseendet på en hyperlänk?
-
-Säkert! Du kan formatera utseendet på en hyperlänk med Aspose.Slides för .NET. Här är ett exempel:
-
-```csharp
-HyperlinkManager.FormatHyperlink(shape, HyperlinkFormat.Highlighted);
-```
-
-### Hur kan jag extrahera information från en befintlig hyperlänk?
-
-Du kan extrahera information från en befintlig hyperlänk med följande tillvägagångssätt:
-
-```csharp
-HyperlinkManager.ExtractHyperlinkInfo(shape, out string linkUrl, out string linkText);
-```
-
-### Var kan jag få tillgång till mer detaljerad dokumentation om Aspose.Slides för .NET?
-
-För mer detaljerad information och kodexempel kan du hänvisa till[dokumentation](https://reference.aspose.com/slides/net/) för Aspose.Slides för .NET.
+### Hur kan jag få en tillfällig licens för Aspose.Slides?
+ Om du behöver en tillfällig licens för Aspose.Slides kan du få en[här](https://purchase.aspose.com/temporary-license/).

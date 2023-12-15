@@ -51,7 +51,7 @@ var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
 Теперь давайте создадим реальный слайд с масштабированием сводки, на котором будет отображаться обзор слайдов, которые мы добавили ранее:
 
 ```csharp
-//Создать сводный слайд с масштабированием
+// Создать сводный слайд с масштабированием
 var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
 ```
 

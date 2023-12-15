@@ -1,105 +1,77 @@
 ---
-title: Adding Embedded Video Frame in Presentation Slides using Aspose.Slides
-linktitle: Adding Embedded Video Frame in Presentation Slides using Aspose.Slides
+title: Aspose.Slides - Adding Embedded Videos in .NET Presentations
+linktitle: Aspose.Slides - Adding Embedded Videos in .NET Presentations
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Learn how to enhance your presentation slides by adding embedded video frames using Aspose.Slides for .NET. Follow this step-by-step guide with complete source code to seamlessly integrate videos, customize playback, and create captivating presentations.
+description: Enhance your presentations with embedded videos using Aspose.Slides for .NET. Follow our step-by-step guide for seamless integration.
 type: docs
 weight: 19
 url: /net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-## Introduction to Aspose.Slides for .NET
-
-Aspose.Slides for .NET is a versatile and feature-rich library that enables developers to work with PowerPoint presentations programmatically. It provides a wide range of functionalities, including creating, editing, converting, and manipulating presentations. In this guide, we will focus on the process of embedding video frames within presentation slides.
-
+## Introduction
+In the dynamic world of presentations, integrating multimedia elements can significantly enhance engagement. Aspose.Slides for .NET provides a powerful solution for incorporating embedded video frames into your presentation slides. This tutorial will guide you through the process, breaking down each step to ensure a seamless experience.
 ## Prerequisites
-
-Before we dive into the implementation, make sure you have the following prerequisites in place:
-
-- Visual Studio (or any other .NET development environment)
-- Basic knowledge of C# programming language
-- Aspose.Slides for .NET library
-
-## Installing Aspose.Slides for .NET
-
-To get started, you need to install the Aspose.Slides for .NET library. You can download the library from the  website or use a package manager like NuGet. Here's how you can install it using NuGet:
-
+Before we dive into the tutorial, make sure you have the following:
+- Aspose.Slides for .NET Library: Download and install the library from the [official release page](https://releases.aspose.com/slides/net/).
+- Media Content: Have a video file (e.g., "Wildlife.mp4") that you want to embed in your presentation.
+## Import Namespaces
+Begin by importing the necessary namespaces in your .NET project:
 ```csharp
-Install-Package Aspose.Slides
-```
-
-## Creating a New Presentation
-
-Let's start by creating a new PowerPoint presentation using Aspose.Slides. Here's a basic code snippet to create a presentation:
-
-```csharp
+using System.IO;
 using Aspose.Slides;
-
-// Create a new presentation
-Presentation presentation = new Presentation();
+using Aspose.Slides.Export;
 ```
-
-## Adding a Slide
-
-Next, we'll add a new slide to the presentation. Slides are indexed starting from zero. Here's how you can add a slide:
-
+## Step 1: Set Up Directories
+Ensure your project has the required directories for document and media files:
 ```csharp
-// Add a new slide to the presentation
-ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
+string dataDir = "Your Document Directory";
+string videoDir = "Your Media Directory";
+string resultPath = Path.Combine(dataDir, "VideoFrame_out.pptx");
+// Create directory if it is not already present.
+bool IsExists = Directory.Exists(dataDir);
+if (!IsExists)
+    Directory.CreateDirectory(dataDir);
 ```
-
-## Embedding a Video
-
-Now comes the exciting part – embedding a video into the slide. You need to have the video file path or URL to proceed. Here's how you can embed a video into the slide:
-
+## Step 2: Instantiate Presentation Class
+Create an instance of the Presentation class to represent the PPTX file:
 ```csharp
-// Path to the video file
-string videoPath = "path_to_your_video.mp4";
-
-// Add the video to the slide
-IVideoFrame videoFrame = slide.Shapes.AddVideoFrame(100, 100, 480, 270, videoPath);
+using (Presentation pres = new Presentation())
+{
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
 ```
-
-## Customizing the Video Frame
-
-You can customize various aspects of the video frame, such as its size, position, and playback options. Here's an example of how to set the playback mode to automatically start:
-
+## Step 3: Embed Video Inside Presentation
+Use the following code to embed a video inside the presentation:
 ```csharp
-// Set video playback mode to automatically start
-videoFrame.PlayMode = VideoPlayMode.Auto;
+IVideo vid = pres.Videos.AddVideo(new FileStream(videoDir + "Wildlife.mp4", FileMode.Open), LoadingStreamBehavior.ReadStreamAndRelease);
 ```
-
-## Saving and Exporting the Presentation
-
-Once you've added the video frame and customized it to your liking, it's time to save the presentation. You can save it in various formats, such as PPTX or PDF. Here's how to save it as a PPTX file:
-
+## Step 4: Add Video Frame
+Now, add a video frame to the slide:
 ```csharp
-// Save the presentation
-presentation.Save("output.pptx", SaveFormat.Pptx);
+IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
 ```
-
+## Step 5: Set Video Properties
+Set the video to the video frame and configure play mode and volume:
+```csharp
+vf.EmbeddedVideo = vid;
+vf.PlayMode = VideoPlayModePreset.Auto;
+vf.Volume = AudioVolumeMode.Loud;
+```
+## Step 6: Save the Presentation
+Finally, save the PPTX file to disk:
+```csharp
+pres.Save(resultPath, SaveFormat.Pptx);
+```
+Repeat these steps for each video you want to embed in your presentation.
 ## Conclusion
-
-In this guide, we've explored how to enhance your presentation slides by adding embedded video frames using Aspose.Slides for .NET. This powerful library enables you to create dynamic and engaging presentations that leave a lasting impression on your audience. By following the steps outlined in this guide, you can seamlessly integrate multimedia content into your slides and create captivating presentations.
-
-## FAQ's
-
-### How do I install Aspose.Slides for .NET?
-
-You can install Aspose.Slides for .NET using the NuGet package manager. Simply run the following command in your NuGet Package Manager Console: `Install-Package Aspose.Slides`
-
-### Can I customize the appearance of the video frame?
-
-Yes, you can customize the size, position, and playback options of the video frame using properties provided by the Aspose.Slides library.
-
-### What video formats are supported for embedding?
-
-Aspose.Slides supports embedding videos in various formats, including MP4, AVI, and WMV.
-
-### Can I control when the video starts playing?
-
-Absolutely! You can set the playback mode of the video frame to start automatically or manually, depending on your preferences.
-
-### Is Aspose.Slides only for adding videos?
-
-No, Aspose.Slides offers a wide range of functionalities beyond adding videos. It allows you to create, edit, convert, and manipulate PowerPoint presentations programmatically.
+Congratulations! You've successfully added an embedded video frame to your presentation using Aspose.Slides for .NET. This dynamic feature can elevate your presentations to new heights, captivating your audience with multimedia elements seamlessly integrated into your slides.
+## FAQs
+### Can I embed videos in any slide of the presentation?
+Yes, you can choose any slide by modifying the index in `pres.Slides[index]`.
+### Which video formats are supported?
+Aspose.Slides supports a variety of video formats, including MP4, AVI, and WMV.
+### Can I customize the size and position of the video frame?
+Absolutely! Adjust the parameters in `AddVideoFrame(x, y, width, height, video)` as needed.
+### Is there a limit to the number of videos I can embed?
+The number of embedded videos is typically limited by the capacity of your presentation software.
+### How can I seek further assistance or share my experience?
+Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community support and discussions.

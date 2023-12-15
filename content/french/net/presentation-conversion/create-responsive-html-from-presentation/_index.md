@@ -24,7 +24,7 @@ Pour commencer, créez un nouveau projet dans votre environnement de développem
 
 ## 4. Chargement de la présentation
 
-Dans votre code source, vous devrez spécifier l'emplacement de votre présentation PowerPoint. Remplacer`"Your Document Directory"` avec le chemin d'accès à votre fichier de présentation.
+ Dans votre code source, vous devrez spécifier l'emplacement de votre présentation PowerPoint. Remplacer`"Your Document Directory"` avec le chemin d'accès à votre fichier de présentation.
 
 ```csharp
 string dataDir = "Your Document Directory";

@@ -84,7 +84,7 @@ Finalmente, guardamos la presentación con el gráfico de embudo en un archivo d
 }
 ```
 
- Asegúrate de reemplazar`"Your Document Directory"` con la ubicación deseada para guardar.
+ Asegúrate de reemplazar`"Your Document Directory"` con la ubicación de guardado deseada.
 
 ## Código fuente completo para el gráfico de embudo en diapositivas de Java
 

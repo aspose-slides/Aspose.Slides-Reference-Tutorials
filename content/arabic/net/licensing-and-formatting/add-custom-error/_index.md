@@ -2,197 +2,129 @@
 title: إضافة أشرطة خطأ مخصصة إلى المخطط
 linktitle: إضافة أشرطة خطأ مخصصة إلى المخطط
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إضافة أشرطة خطأ مخصصة إلى المخططات باستخدام Aspose.Slides لـ .NET. قم بإنشاء أشرطة الأخطاء وتصميمها وتخصيصها للحصول على تصور دقيق للبيانات.
+description: تعرف على كيفية إنشاء عروض تقديمية مذهلة باستخدام Aspose.Slides for .NET عن طريق إضافة أشرطة خطأ مخصصة إلى مخططاتك. ارفع مستوى لعبة تصور البيانات الخاصة بك اليوم!
 type: docs
 weight: 13
 url: /ar/net/licensing-and-formatting/add-custom-error/
 ---
 
-## مقدمة إلى أشرطة الخطأ المخصصة
+في عالم العروض التقديمية الديناميكية، تلعب المخططات دورًا محوريًا في نقل البيانات المعقدة بطريقة مفهومة. يمكّنك Aspose.Slides for .NET من الارتقاء بلعبة العرض التقديمي إلى المستوى التالي. في هذا الدليل المفصّل خطوة بخطوة، سنتعمق في عملية إضافة أشرطة خطأ مخصصة إلى مخططاتك باستخدام Aspose.Slides for .NET. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيرشدك هذا البرنامج التعليمي خلال العملية بسلاسة.
 
-أشرطة الخطأ عبارة عن تمثيلات رسومية تستخدم للإشارة إلى التباين أو عدم اليقين في نقاط البيانات في المخطط. ويمكن أن تساعد في تصوير النطاق الذي من المحتمل أن تقع ضمنه القيمة الحقيقية لنقطة البيانات. تسمح لك أشرطة الخطأ المخصصة بتحديد قيم خطأ محددة لكل نقطة بيانات، مما يوفر المزيد من التحكم في كيفية عرض عدم اليقين في المخطط الخاص بك.
+## المتطلبات الأساسية
 
-## تهيئة بيئة التطوير
+قبل أن نتعمق في العالم الرائع لأشرطة الأخطاء المخصصة، تأكد من توفر المتطلبات الأساسية التالية:
 
- قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides for .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net). اتبع تعليمات التثبيت المتوفرة في الوثائق.
+### 1. تم تثبيت Aspose.Slides لـ .NET
 
-## إنشاء نموذج للمخطط
+ إذا لم تكن قد قمت بذلك بالفعل، فقم بتنزيل Aspose.Slides for .NET وتثبيته من[رابط التحميل](https://releases.aspose.com/slides/net/).
 
-لنبدأ بإنشاء نموذج مخطط باستخدام Aspose.Slides لـ .NET. سنقوم بإنشاء مخطط شريطي أساسي لأغراض العرض التوضيحي. تأكد من أنك قمت بالرجوع إلى المكتبة في مشروعك.
+### 2. بيئة التطوير
+
+يجب أن يكون لديك بيئة تطوير عمل لتطبيقات .NET، بما في ذلك Visual Studio أو أي محرر تعليمات برمجية آخر.
+
+الآن، دعونا نبدأ!
+
+## استيراد مساحات الأسماء الضرورية
+
+في هذا القسم، سنقوم باستيراد مساحات الأسماء المطلوبة لمشروعك.
+
+### الخطوة 1: استيراد مساحة الاسم Aspose.Slides
+
+أضف مساحة الاسم Aspose.Slides إلى مشروعك. سيمكنك هذا من العمل مع عروض PowerPoint التقديمية برمجياً.
 
 ```csharp
 using Aspose.Slides;
-using Aspose.Slides.Charts;
-
-// إنشاء كائن العرض التقديمي
-using Presentation presentation = new Presentation();
-
-// أضف شريحة
-ISlide slide = presentation.Slides.AddSlide(0, presentation.SlideSize.Size);
-
-// أضف مخططًا
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredBar, 100, 100, 500, 300);
-
-// أضف بيانات العينة
-IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
-IChartSeries series = chart.ChartData.Series.Add(workbook.GetCell(0, "A1"), chart.Type);
-series.Values.Add(workbook.GetCell(0, "B1"));
-series.Values.Add(workbook.GetCell(0, "B2"));
-
-// تعيين تسميات الفئات
-chart.ChartData.Categories.Add(workbook.GetCell(0, "A2"));
-chart.ChartData.Categories.Add(workbook.GetCell(0, "A3"));
-
-// تعيين عنوان الرسم البياني
-chart.ChartTitle.AddTextFrameForOverriding("Sample Chart");
-chart.ChartTitle.TextFrameForOverriding.Text = "Sample Chart";
-
-// احفظ العرض التقديمي
-presentation.Save("SampleChart.pptx", SaveFormat.Pptx);
 ```
 
-يقوم هذا الرمز بإنشاء عرض تقديمي لـ PowerPoint مع نموذج مخطط شريطي.
+مع تضمين مساحة الاسم هذه، يمكنك إنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها بسهولة.
 
-## إضافة أشرطة الخطأ إلى المخطط
+الآن، دعنا نقسم عملية إضافة أشرطة الخطأ المخصصة إلى المخطط إلى خطوات واضحة وبسيطة.
 
-الآن دعونا نضيف أشرطة الخطأ إلى المخطط. تتم إضافة أشرطة الخطأ إلى نقاط بيانات محددة في سلسلة. سنضيف أشرطة الخطأ إلى نقطة البيانات الأولى في نموذج الرسم البياني الخاص بنا.
+## الخطوة 1: قم بإعداد دليل المستندات الخاص بك
+
+ قبل أن تبدأ، قم بإعداد الدليل الذي تريد حفظ ملف العرض التقديمي فيه. يمكنك استبدال`"Your Document Directory"` مع مسار الملف المطلوب.
 
 ```csharp
-// الوصول إلى السلسلة الأولى
-IChartSeries firstSeries = chart.ChartData.Series[0];
-
-// إضافة أشرطة الخطأ
-IErrorBarsFormat errorBarsFormat = firstSeries.ErrorBarsFormat.Add();
-errorBarsFormat.Type = ErrorBarType.FixedValue;
-
-// تعيين قيمة شريط الخطأ
-errorBarsFormat.Value = 5; // يمكنك ضبط القيمة وفقًا لبياناتك
-
-// احفظ العرض التقديمي المحدث
-presentation.Save("ChartWithErrorBars.pptx", SaveFormat.Pptx);
+string dataDir = "Your Document Directory";
 ```
 
-يضيف هذا الرمز أشرطة خطأ ذات قيمة ثابتة إلى نقطة البيانات الأولى في المخطط.
+## الخطوة 2: إنشاء عرض تقديمي فارغ
 
-## تخصيص قيم شريط الخطأ
-
-يمكنك تخصيص قيم شريط الخطأ لكل نقطة بيانات على حدة. دعونا نعدل الكود لتعيين قيم خطأ مختلفة لكل نقطة بيانات.
+ابدأ بإنشاء عرض PowerPoint تقديمي فارغ باستخدام Aspose.Slides. هذا بمثابة لوحة قماشية للمخطط الخاص بك.
 
 ```csharp
-// قم بتعيين قيم الخطأ المخصصة لكل نقطة
-double[] errorValues = { 3, 6 }; // قيم الخطأ لنقطتي البيانات
-
-for (int i = 0; i < firstSeries.DataPoints.Count; i++)
+using (Presentation presentation = new Presentation())
 {
-    firstSeries.ErrorBarsFormat[i].Value = errorValues[i];
+    //سيتم وضع الكود الخاص بك لإضافة مخطط وأشرطة خطأ مخصصة هنا.
+    // سنقوم بتقسيم هذا إلى خطوات لاحقة.
+    
+    // حفظ العرض التقديمي
+    presentation.Save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 }
-
-// احفظ العرض التقديمي المحدث
-presentation.Save("CustomErrorValuesChart.pptx", SaveFormat.Pptx);
 ```
 
-يقوم هذا الرمز بتعيين قيم خطأ مخصصة لكل نقطة بيانات في السلسلة.
+## الخطوة 3: إضافة مخطط فقاعي
 
-## أشرطة خطأ التصميم
-
-يمكنك تصميم أشرطة الأخطاء لتحسين رؤيتها ومطابقة جماليات المخطط الخاص بك. دعونا نخصص مظهر أشرطة الخطأ.
+في هذه الخطوة، ستقوم بإنشاء مخطط فقاعي داخل العرض التقديمي. يمكنك تخصيص موضع المخطط وحجمه وفقًا لمتطلباتك.
 
 ```csharp
-// تخصيص مظهر شريط الخطأ
-errorBarsFormat.LineFormat.Width = 2; // ضبط عرض الخط
-errorBarsFormat.LineFormat.SolidFillColor.Color = Color.Red; // ضبط لون الخط
-
-// احفظ العرض التقديمي المحدث
-presentation.Save("StyledErrorBarsChart.pptx", SaveFormat.Pptx);
+// إنشاء مخطط فقاعي
+IChart chart = presentation.Slides[0].Shapes.AddChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-يضبط هذا الرمز عرض الخط ولون أشرطة الخطأ.
+## الخطوة 4: إضافة أشرطة الخطأ وإعداد التنسيق
 
-## تحديث بيانات الرسم البياني
-
-إذا كنت بحاجة إلى تحديث بيانات المخطط، فيمكنك القيام بذلك بسهولة باستخدام Aspose.Slides for .NET. دعونا نستبدل البيانات بقيم جديدة.
+الآن، دعونا نضيف أشرطة الخطأ إلى المخطط ونقوم بتكوين تنسيقها.
 
 ```csharp
-// تحديث بيانات الرسم البياني
-series.Values[0].Value = 15;
-series.Values[1].Value = 20;
-
-// احفظ العرض التقديمي المحدث
-presentation.Save("UpdatedChartData.pptx", SaveFormat.Pptx);
+// إضافة أشرطة الخطأ وتحديد تنسيقها
+IErrorBarsFormat errBarX = chart.ChartData.Series[0].ErrorBarsXFormat;
+IErrorBarsFormat errBarY = chart.ChartData.Series[0].ErrorBarsYFormat;
+errBarX.IsVisible = true;
+errBarY.IsVisible = true;
+errBarX.ValueType = ErrorBarValueType.Fixed;
+errBarX.Value = 0.1f;
+errBarY.ValueType = ErrorBarValueType.Percentage;
+errBarY.Value = 5;
+errBarX.Type = ErrorBarType.Plus;
+errBarY.Format.Line.Width = 2;
+errBarX.HasEndCap = true;
 ```
 
-يقوم هذا الرمز بتحديث قيم بيانات المخطط.
+## الخطوة 5: احفظ العرض التقديمي الخاص بك
 
-## أشرطة الخطأ لسلسلة متعددة
-
-يمكنك إضافة أشرطة خطأ إلى سلاسل متعددة في المخطط. دعونا نضيف أشرطة الخطأ إلى السلسلة الثانية في نموذج الرسم البياني الخاص بنا.
+وأخيرًا، احفظ العرض التقديمي الخاص بك مع إضافة أشرطة الخطأ المخصصة إلى المخطط الخاص بك.
 
 ```csharp
-// الوصول إلى السلسلة الثانية
-IChartSeries secondSeries = chart.ChartData.Series[1];
-
-// إضافة أشرطة الخطأ إلى السلسلة الثانية
-IErrorBarsFormat secondSeriesErrorBars = secondSeries.ErrorBarsFormat.Add();
-secondSeriesErrorBars.Type = ErrorBarType.Percent;
-
-// قم بتعيين قيمة شريط الخطأ للسلسلة الثانية
-secondSeriesErrorBars.Value = 10; // يمكنك ضبط القيمة
-
-// احفظ العرض التقديمي المحدث
-presentation.Save("MultiSeriesChartWithErrorBars.pptx", SaveFormat.Pptx);
+// حفظ العرض التقديمي
+presentation.Save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 
-يضيف هذا الرمز أشرطة الخطأ إلى السلسلة الثانية في المخطط.
-
-## التعامل مع الأخطاء السلبية والإيجابية
-
-يمكن أن تمثل أشرطة الخطأ الأخطاء الإيجابية والسلبية. دعونا نعدل الكود لإضافة كلا النوعين من أشرطة الخطأ.
-
-```csharp
-// إضافة أشرطة الخطأ الإيجابية والسلبية
-errorBarsFormat.Type = ErrorBarType.Custom;
-errorBarsFormat.PlusValue = 4; // قيمة الخطأ الإيجابية
-errorBarsFormat.MinusValue = 2; // قيمة الخطأ السلبية
-
-// احفظ العرض التقديمي المحدث
-presentation.Save("PositiveNegativeErrorBars.pptx", SaveFormat.Pptx);
-```
-
-يضيف هذا الرمز أشرطة خطأ إيجابية وسلبية مخصصة إلى المخطط.
-
-## حفظ وتصدير الرسم البياني
-
-بمجرد إضافة أشرطة الأخطاء وتخصيص المخطط الخاص بك، يمكنك حفظه وتصديره لمزيد من الاستخدام.
-
-```csharp
-// احفظ الرسم البياني النهائي
-presentation.Save("FinalChart.pptx", SaveFormat.Pptx);
-```
-
-يحفظ هذا الرمز المخطط النهائي مع أشرطة الخطأ.
+من خلال هذه الخطوات البسيطة، نجحت في إضافة أشرطة خطأ مخصصة إلى المخطط الخاص بك باستخدام Aspose.Slides for .NET. أصبحت عروضك التقديمية الآن أكثر جاذبية وغنية بالمعلومات.
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية إضافة أشرطة خطأ مخصصة إلى مخطط باستخدام Aspose.Slides لـ .NET. لقد قمنا بتغطية إنشاء نموذج مخطط، وإضافة أشرطة الخطأ، وتخصيص قيم الخطأ، وتصميم أشرطة الخطأ، وتحديث بيانات المخطط، وإضافة أشرطة الخطأ إلى سلاسل متعددة، ومعالجة الأخطاء الإيجابية والسلبية. مع Aspose.Slides for .NET، لديك المرونة اللازمة لإنشاء مخططات إعلامية وجذابة بصريًا مع أشرطة خطأ مخصصة تنقل تنوع بياناتك بشكل فعال.
+يفتح Aspose.Slides for .NET إمكانيات لا حصر لها لإنشاء عروض تقديمية جذابة باستخدام مخططات مخصصة وأشرطة خطأ. من خلال الخطوات سهلة المتابعة الموضحة في هذا الدليل، يمكنك الارتقاء بقدراتك على تصور البيانات وسرد القصص إلى آفاق جديدة.
 
-## الأسئلة الشائعة
+إذا كنت مستعدًا لإثارة إعجاب جمهورك بعروض تقديمية مذهلة، فإن Aspose.Slides for .NET هو أداتك المفضلة.
 
-### كيف يمكنني ضبط سمك أشرطة الخطأ؟
+## الأسئلة المتداولة (الأسئلة الشائعة)
 
- يمكنك ضبط سمك أشرطة الخطأ عن طريق تعديل`LineFormat.Width` ملكية`ErrorBarsFormat`.
+### 1. ما هو Aspose.Slides لـ .NET؟
+   Aspose.Slides for .NET هي مكتبة قوية للعمل مع عروض PowerPoint التقديمية في تطبيقات .NET. يسمح لك بإنشاء العروض التقديمية وتعديلها ومعالجتها برمجيًا.
 
-### هل يمكنني استخدام قيم خطأ مختلفة لكل نقطة بيانات؟
+### 2. هل يمكنني تخصيص مظهر أشرطة الأخطاء في Aspose.Slides لـ .NET؟
+   نعم، يمكنك تخصيص مظهر أشرطة الأخطاء، بما في ذلك رؤيتها ونوعها وتنسيقها، كما هو موضح في هذا البرنامج التعليمي.
 
-نعم، يمكنك تعيين قيم خطأ مخصصة لكل نقطة بيانات على حدة باستخدام حلقة و`Value` ممتلكات`ErrorBarsFormat`.
+### 3. هل Aspose.Slides for .NET مناسب لكل من المطورين المبتدئين وذوي الخبرة؟
+   قطعاً! يوفر Aspose.Slides for .NET واجهة سهلة الاستخدام تلبي احتياجات كل من الوافدين الجدد والمطورين المتمرسين.
 
-### هل من الممكن إضافة أشرطة خطأ إلى سلاسل متعددة في مخطط واحد؟
+### 4. أين يمكنني العثور على وثائق Aspose.Slides لـ .NET؟
+    يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/) للحصول على معلومات وأمثلة مفصلة.
 
-بالتأكيد، يمكنك إضافة أشرطة خطأ إلى سلاسل متعددة في نفس المخطط. ما عليك سوى الوصول إلى السلسلة المطلوبة وتطبيق أشرطة الخطأ كما هو موضح في المقالة.
+### 5. كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
+    للحصول على ترخيص مؤقت، قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/) على موقع Aspose.
 
-### هل يمكنني إزالة أشرطة الخطأ بعد إضافتها؟
+الآن، حان الوقت لاستخدام معرفتك الجديدة وإنشاء عروض تقديمية جذابة تترك انطباعًا دائمًا.
 
- نعم، يمكنك إزالة أشرطة الخطأ عن طريق الاتصال بـ`Clear` الطريقة على`ErrorBarsFormat` هدف.
-
-### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ .NET؟
-
- يمكنك العثور على وثائق وأمثلة تفصيلية لـ Aspose.Slides for .NET على الموقع[موقع التوثيق Aspose](https://reference.aspose.com/slides/net/).
+تذكر، مع Aspose.Slides for .NET، لا حدود للسماء عندما يتعلق الأمر بتخصيص العرض التقديمي والابتكار. عرض سعيد!

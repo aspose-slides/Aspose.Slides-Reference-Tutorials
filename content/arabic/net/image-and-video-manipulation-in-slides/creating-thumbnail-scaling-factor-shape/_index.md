@@ -34,7 +34,7 @@ url: /ar/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-f
 
 ## تحميل عرض تقديمي
 
-للبدء، تحتاج إلى عرض تقديمي لـ PowerPoint للعمل معه. لنفترض أن لديك عرضًا تقديميًا باسم "sample.pptx."
+للبدء، تحتاج إلى عرض تقديمي لـ PowerPoint للعمل معه. لنفترض أن لديك عرضًا تقديميًا باسم "sample.pptx".
 
 ```csharp
 using Aspose.Slides;
@@ -63,7 +63,7 @@ var shape = slide.Shapes[0];
 // إنشاء نسخة من الشكل
 var thumbnailShape = shape.Clone();
 
-//حدد عامل القياس (على سبيل المثال، 0.5 لـ 50%)
+// حدد عامل القياس (على سبيل المثال، 0.5 لـ 50%)
 double scalingFactor = 0.5;
 
 // اضبط عرض الصورة المصغرة وارتفاعها

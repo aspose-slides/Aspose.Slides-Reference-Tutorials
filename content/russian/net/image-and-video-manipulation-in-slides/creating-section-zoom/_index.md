@@ -16,7 +16,7 @@ url: /ru/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 
 Прежде чем мы начнем, давайте убедимся, что у вас есть необходимые инструменты и среда для работы с Aspose.Slides для .NET.
 
-1.  Загрузите и установите Aspose.Slides: Начните с загрузки библиотеки Aspose.Slides для .NET с веб-сайта:[Загрузите Aspose.Slides для .NET](https://releases.aspose.com/slides/net/)Следуйте инструкциям по установке, чтобы интегрировать его в свой проект.
+1.  Загрузите и установите Aspose.Slides: Начните с загрузки библиотеки Aspose.Slides для .NET с веб-сайта:[Загрузите Aspose.Slides для .NET](https://releases.aspose.com/slides/net/). Следуйте инструкциям по установке, чтобы интегрировать его в свой проект.
 
 2. Создайте новый проект. Откройте предпочитаемую интегрированную среду разработки (IDE) и создайте новый проект .NET.
 
@@ -97,7 +97,7 @@ presentation.SlideShowSettings.StartingSlide = presentation.Slides[0];
 // Ваш исходный код здесь
 ```
 
- Полный исходный код и подробную реализацию см.[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).
+Полный исходный код и подробную реализацию см.[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).
 
 ## Заключение
 

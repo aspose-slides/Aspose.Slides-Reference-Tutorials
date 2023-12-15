@@ -24,7 +24,7 @@ Erstellen Sie zunächst ein neues Projekt in Ihrer bevorzugten Entwicklungsumgeb
 
 ## 4. Laden der Präsentation
 
-In Ihrem Quellcode müssen Sie den Speicherort Ihrer PowerPoint-Präsentation angeben. Ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrer Präsentationsdatei.
+ In Ihrem Quellcode müssen Sie den Speicherort Ihrer PowerPoint-Präsentation angeben. Ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrer Präsentationsdatei.
 
 ```csharp
 string dataDir = "Your Document Directory";

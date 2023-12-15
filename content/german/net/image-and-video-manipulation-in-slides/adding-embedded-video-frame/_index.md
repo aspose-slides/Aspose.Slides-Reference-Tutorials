@@ -44,7 +44,7 @@ Presentation presentation = new Presentation();
 Als Nächstes fügen wir der Präsentation eine neue Folie hinzu. Folien werden beginnend bei Null indiziert. So können Sie eine Folie hinzufügen:
 
 ```csharp
-//Fügen Sie der Präsentation eine neue Folie hinzu
+// Fügen Sie der Präsentation eine neue Folie hinzu
 ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
 ```
 

@@ -58,13 +58,13 @@ Aspose.Slides propose diverses options pour personnaliser l'expérience de lectu
 // Obtenez l'image vidéo sur la diapositive
 IVideoFrame videoFrame = (IVideoFrame)slide.Shapes[0];
 
-// Activer la lecture automatique
+//Activer la lecture automatique
 videoFrame.PlayMode = VideoPlayModePreset.Auto;
 
 // Activer la boucle
 videoFrame.PlayLoopMode = VideoPlayLoopMode.Loop;
 
-//Couper la vidéo
+// Couper le son de la vidéo
 videoFrame.Volume = AudioVolumeMode.Mute;
 ```
 

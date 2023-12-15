@@ -14,7 +14,7 @@ url: /ar/java/saving-options/save-properties-in-java-slides/
 
 ## المتطلبات الأساسية
 
- قبل أن تبدأ، تأكد من دمج مكتبة Aspose.Slides for Java في مشروع Java الخاص بك. يمكنك تحميل المكتبة من موقع Aspose الرسمي[هنا](https://downloads.aspose.com/slides/java).
+ قبل أن تبدأ، تأكد من دمج مكتبة Aspose.Slides for Java في مشروع Java الخاص بك. يمكنك تحميل المكتبة من موقع Aspose[هنا](https://downloads.aspose.com/slides/java).
 
 ## الخطوة 1: استيراد المكتبات المطلوبة
 

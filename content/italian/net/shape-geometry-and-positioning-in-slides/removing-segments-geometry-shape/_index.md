@@ -24,7 +24,7 @@ Prima di immergerci nella rimozione dei segmenti dalle forme geometriche, impost
 
 1.  Installazione: iniziare scaricando e installando la libreria Aspose.Slides per .NET. Puoi trovare la versione più recente[Qui](https://releases.aspose.com/slides/net/).
 
-2.  Riferimento API: acquisisci familiarità con[Documentazione dell'API Aspose.Slides](https://reference.aspose.com/slides/net/)per esplorare la vasta gamma di caratteristiche e funzionalità.
+2.  Riferimento API: acquisisci familiarità con[Documentazione dell'API Aspose.Slides](https://reference.aspose.com/slides/net/) per esplorare la vasta gamma di caratteristiche e funzionalità.
 
 ## Rimozione dei segmenti: passo dopo passo
 
@@ -37,7 +37,7 @@ using (Presentation presentation = new Presentation("your-presentation.pptx"))
     // Accedi alla diapositiva
     ISlide slide = presentation.Slides[0];
 
-    // Accedi alla forma (assumendo che sia la prima forma)
+    //Accedi alla forma (assumendo che sia la prima forma)
     IAutoShape shape = (IAutoShape)slide.Shapes[0];
 
     // Accedi al percorso geometrico della forma
@@ -61,7 +61,7 @@ Rimuovendo selettivamente i segmenti dalle forme geometriche, puoi creare diapos
 
 ### Come posso scaricare Aspose.Slides per .NET?
 
-È possibile scaricare la libreria Aspose.Slides per .NET da[Pagina delle versioni di Aspose](https://releases.aspose.com/slides/net/). 
+ È possibile scaricare la libreria Aspose.Slides per .NET da[Pagina delle versioni di Aspose](https://releases.aspose.com/slides/net/). 
 
 ### Posso annullare la rimozione del segmento in Aspose.Slides?
 

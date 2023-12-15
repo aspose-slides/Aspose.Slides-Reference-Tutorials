@@ -29,7 +29,7 @@ Presentation presentation = new Presentation();
 // Gå till den första bilden
 ISlide slide = presentation.Slides[0];
 
-// Definiera bildfilens sökväg
+// Definiera sökvägen till bildfilen
 string imagePath = "path_to_your_image.jpg";
 
 // Lägg till en bild på bilden
@@ -41,7 +41,7 @@ pictureFill.Picture.Image = presentation.Images.AddImage(imageBytes);
 presentation.Save("output.pptx", SaveFormat.Pptx);
 ```
 
-## Tillämpa sträckförskjutning på bilder
+## Tillämpa Stretch Offset på bilder
 
  Nu när vi har lagt till en bild på en bild, låt oss utforska hur man tillämpar stretch offset på den. Stretch offset styrs av två egenskaper:`StretchX` och`StretchY`. Dessa egenskaper bestämmer förskjutningen av bilden inom formen horisontellt respektive vertikalt.
 

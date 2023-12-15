@@ -103,4 +103,4 @@ Aspose.Slides for .NET dikdörtgenler, çizgiler, oklar ve daha fazlası dahil o
 
 ### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).

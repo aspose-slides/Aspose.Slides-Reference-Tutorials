@@ -10,7 +10,7 @@ url: /tr/java/data-manipulation/calculate-formulas-java-slides/
 
 ## Aspose.Slides Kullanarak Java Slaytlarında Formül Hesaplamaya Giriş
 
-Bu kılavuzda, Aspose.Slides for Java API'sini kullanarak Java Slides'taki formüllerin nasıl hesaplanacağını göstereceğiz. Aspose.Slides, PowerPoint sunumlarıyla çalışmak için güçlü bir kütüphanedir ve slaytlarda grafikleri yönetmek ve formül hesaplamaları yapmak için özellikler sağlar.
+Bu kılavuzda, Aspose.Slides for Java API'sini kullanarak Java Slides'taki formüllerin nasıl hesaplanacağını göstereceğiz. Aspose.Slides, PowerPoint sunumlarıyla çalışmak için güçlü bir kitaplıktır ve slaytlarda grafikleri yönetmek ve formül hesaplamaları yapmak için özellikler sağlar.
 
 ## Önkoşullar
 

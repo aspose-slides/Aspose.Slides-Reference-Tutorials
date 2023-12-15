@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Preguntas frecuentes:
 
 ### ¿Cómo puedo especificar el tamaño y la posición del vídeo vinculado en la diapositiva?
- Puede ajustar las dimensiones y la posición del marco de control ActiveX utilizando los parámetros del`AddOleObjectFrame` método. Los cuatro argumentos numéricos representan las coordenadas X e Y de la esquina superior izquierda y el ancho y alto del marco, respectivamente.
+ Puede ajustar las dimensiones y la posición del marco de control ActiveX utilizando los parámetros del`AddOleObjectFrame`método. Los cuatro argumentos numéricos representan las coordenadas X e Y de la esquina superior izquierda y el ancho y alto del marco, respectivamente.
 
 ### ¿Puedo vincular vídeos de diferentes formatos usando este enfoque?
 Sí, puedes vincular vídeos de varios formatos siempre que esté disponible el control ActiveX adecuado para ese formato. Por ejemplo, el control ShockwaveFlash ActiveX utilizado en esta guía es adecuado para vídeos Flash (SWF). Para otros formatos, es posible que necesite utilizar ProgID diferentes.

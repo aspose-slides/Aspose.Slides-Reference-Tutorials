@@ -22,7 +22,7 @@ Aspose.Slides for .NET 是一个强大的库，允许开发人员处理 PowerPoi
 
 ## 安装和设置
 
-1. **Download Aspose.Slides for .NET** ：您可以从以下位置下载该库[阿斯普斯网站](https://releases.aspose.com/slides/net/).
+1. **Download Aspose.Slides for .NET**：您可以从以下位置下载该库[阿斯普斯网站](https://releases.aspose.com/slides/net/).
 
 2. **Install the Library**：下载后，运行安装程序在您的计算机上安装 Aspose.Slides for .NET。
 

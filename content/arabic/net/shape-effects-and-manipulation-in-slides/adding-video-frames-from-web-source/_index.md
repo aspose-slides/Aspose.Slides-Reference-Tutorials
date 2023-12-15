@@ -58,13 +58,13 @@ using (Presentation presentation = new Presentation())
 // احصل على إطار الفيديو على الشريحة
 IVideoFrame videoFrame = (IVideoFrame)slide.Shapes[0];
 
-// تمكين التشغيل التلقائي
+//تمكين التشغيل التلقائي
 videoFrame.PlayMode = VideoPlayModePreset.Auto;
 
 // تمكين الحلقة
 videoFrame.PlayLoopMode = VideoPlayLoopMode.Loop;
 
-//كتم الفيديو
+// كتم الفيديو
 videoFrame.Volume = AudioVolumeMode.Mute;
 ```
 

@@ -20,7 +20,7 @@ url: /ar/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 
 ### تحميل عرض تقديمي
 
-قبل أن تتمكن من تعديل أي كائنات OLE، فإنك تحتاج إلى عرض تقديمي للعمل عليه. إليك كيفية تحميل عرض تقديمي باستخدام Aspose.Slides:
+قبل أن تتمكن من تعديل أي كائنات OLE، فإنك تحتاج إلى عرض تقديمي للعمل معه. إليك كيفية تحميل عرض تقديمي باستخدام Aspose.Slides:
 
 ```csharp
 using Aspose.Slides;
@@ -65,7 +65,7 @@ if (oleObject.ObjectData is OleEmbeddedData oleData)
 بمجرد إجراء التغييرات المطلوبة بنجاح على بيانات كائن OLE، لا تنس حفظ العرض التقديمي للحفاظ على تعديلاتك:
 
 ```csharp
-// احفظ العرض التقديمي مع التغييرات
+// احفظ العرض التقديمي بالتغييرات
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 

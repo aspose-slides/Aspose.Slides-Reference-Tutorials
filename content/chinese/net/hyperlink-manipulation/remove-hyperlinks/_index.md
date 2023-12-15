@@ -1,107 +1,86 @@
 ---
-title: 从幻灯片中删除超链接
+title: 如何使用 Aspose.Slides .NET 从幻灯片中删除超链接
 linktitle: 从幻灯片中删除超链接
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for .NET 轻松删除 PowerPoint 幻灯片中的超链接。
+description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中删除超链接。创建干净且专业的演示文稿。
 type: docs
 weight: 11
 url: /zh/net/hyperlink-manipulation/remove-hyperlinks/
 ---
 
-## 从幻灯片中删除超链接简介
+在专业演示的世界中，确保幻灯片看起来整洁至关重要。超链接是经常使幻灯片混乱的一种常见元素。无论您是在演示文稿中处理指向网站、文档还是其他幻灯片的超链接，您都可能需要删除它们以获得更清晰、更集中的外观。使用Aspose.Slides for .NET，您可以轻松完成此任务。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 从幻灯片中删除超链接的过程。
 
-在以编程方式管理和操作 PowerPoint 演示文稿时，Aspose.Slides for .NET 是一款功能强大的工具，它使开发人员能够高效地处理演示文稿中的幻灯片、形状和各种元素。经常出现的一项常见任务是需要从特定幻灯片中删除超链接。无论您是在处理客户演示文稿、教育材料还是业务报告，不需要的超链接有时都会使您的幻灯片变得混乱或带来导航挑战。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 从幻灯片中删除超链接的过程。
+## 先决条件
 
-## 设置开发环境
+在我们开始之前，请确保您具备以下先决条件：
 
-在我们深入研究实际代码之前，拥有正确的开发环境至关重要。您可以按照以下简单步骤开始：
+1.  Aspose.Slides for .NET：您应该在开发环境中安装并设置 Aspose.Slides for .NET。如果您还没有，您可以从以下位置获取[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).
 
-1. 下载并安装 Aspose.Slides for .NET：访问 Aspose 网站或使用提供的链接[这里](https://releases.aspose.com/slides/net/)访问 Aspose.Slides for .NET 库。下载并将其安装在您的计算机上。
+2. PowerPoint 演示文稿：您需要一个要从中删除超链接的 PowerPoint 演示文稿（PPTX 文件）。
 
-2. 创建新的 .NET 项目：打开您首选的集成开发环境 (IDE) 并创建新的 .NET 项目。根据您的要求选择合适的项目类型。
+满足这些先决条件后，您就可以开始了。让我们深入了解从幻灯片中删除超链接的分步过程。
 
-## 添加引用并导入库
+## 第 1 步：导入命名空间
 
-设置项目后，下一步涉及引用 Aspose.Slides 库并导入必要的命名空间：
+首先，您需要在 C# 代码中导入必要的命名空间。这些命名空间提供对 Aspose.Slides for .NET 库的访问。将以下行添加到您的代码中：
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-## 加载演示文稿
+## 第 2 步：加载演示文稿
 
-准备好所需的参考后，您现在可以将现有的 PowerPoint 演示文稿加载到您的项目中：
-
-```csharp
-string presentationPath = "path_to_your_presentation.pptx";
-using (Presentation presentation = new Presentation(presentationPath))
-{
-    //您删除超链接的代码将位于此处
-}
-```
-
-## 访问幻灯片和超链接
-
-迭代演示文稿中的幻灯片以识别和删除超链接：
+现在，您需要加载包含要删除的超链接的 PowerPoint 演示文稿。确保提供演示文件的正确路径。您可以这样做：
 
 ```csharp
-foreach (ISlide slide in presentation.Slides)
-{
-    foreach (IShape shape in slide.Shapes)
-    {
-        if (shape is IAutoShape autoShape)
-        {
-            foreach (IHyperlink hyperlink in autoShape.HyperlinkQueries)
-            {
-                //根据需要删除或禁用超链接
-            }
-        }
-    }
-}
+string dataDir = "Your Document Directory";
+Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
-## 删除超链接
+在上面的代码中，替换`"Your Document Directory"`与文档目录的实际路径和`"Hyperlink.pptx"`与您的 PowerPoint 演示文稿文件的名称。
 
-使用 Aspose.Slides 方法禁用或删除超链接：
+## 第 3 步：删除超链接
+
+加载演示文稿后，您可以继续删除超链接。 Aspose.Slides for .NET 为此目的提供了一种简单的方法：
 
 ```csharp
-hyperlink.Remove();
-//或者
-hyperlink.Disabled = true;
+presentation.HyperlinkQueries.RemoveAllHyperlinks();
 ```
 
-## 保存修改后的演示文稿
+这`RemoveAllHyperlinks()`方法从演示文稿中删除所有超链接。
 
-删除超链接后，保存修改后的演示文稿：
+## 步骤 4：保存修改后的演示文稿
+
+删除超链接后，您应该将修改后的演示文稿保存到新文件中。如果需要，您可以选择以相同格式 (PPTX) 或不同格式保存。将其另存为 PPTX 文件的方法如下：
 
 ```csharp
-string modifiedPath = "path_to_modified_presentation.pptx";
-presentation.Save(modifiedPath, SaveFormat.Pptx);
+presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
+
+再次更换`"RemovedHyperlink_out.pptx"`与您想要的输出文件名和路径。
+
+恭喜！您已使用 Aspose.Slides for .NET 成功从 PowerPoint 演示文稿中删除了超链接。您的幻灯片现在不受干扰，提供更清晰、更集中的观看体验。
 
 ## 结论
 
-在本指南中，我们探讨了如何使用 Aspose.Slides for .NET 从幻灯片中删除超链接。这个多功能库简化了以编程方式处理 PowerPoint 演示文稿的过程，使您能够有效地管理幻灯片中的各种元素。无论您是要增强用户体验还是准备专业演示文稿，Aspose.Slides 都能让您无缝地实现所需的结果。
+在本教程中，我们演示了使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中删除超链接的过程。只需几个简单的步骤，您就可以确保您的幻灯片看起来专业且整洁。 Aspose.Slides for .NET 简化了处理 PowerPoint 演示文稿的任务，为您提供了高效、精确管理所需的工具。
 
-## 常见问题解答
+如果您发现本指南有帮助，您可以在文档中探索 Aspose.Slides for .NET 的更多特性和功能[这里](https://reference.aspose.com/slides/net/)。您还可以从以下位置下载该库[这个链接](https://releases.aspose.com/slides/net/)并购买许可证[这里](https://purchase.aspose.com/buy)如果你还没有。对于那些想先尝试的人，可以免费试用[这里](https://releases.aspose.com/)，并可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 
-### 如何下载 .NET 版 Aspose.Slides？
+## 常见问题 (FAQ)
 
-您可以从以下网站下载 Aspose.Slides for .NET：[这里](https://releases.aspose.com/slides/net/)
+### 我可以有选择地从演示文稿中的特定幻灯片中删除超链接吗？
+是的你可以。 Aspose.Slides for .NET 提供了针对特定幻灯片或形状并从中删除超链接的方法。
 
-### 我可以删除幻灯片中特定形状的超链接吗？
+### Aspose.Slides for .NET 与最新的 PowerPoint 文件格式兼容吗？
+是的，Aspose.Slides for .NET 支持最新的 PowerPoint 文件格式，包括 PPTX。
 
-是的，使用 Aspose.Slides 库，您可以迭代幻灯片中的形状，并有选择地删除特定形状的超链接。
+### 我可以自动化批量处理多个演示文稿的此过程吗？
+绝对地。 Aspose.Slides for .NET 允许您跨多个演示文稿自动执行任务，使其适合批处理。
 
-### Aspose.Slides 适合个人和商业项目吗？
+### Aspose.Slides for .NET 还为 PowerPoint 演示文稿提供其他功能吗？
+是的，Aspose.Slides for .NET 提供了广泛的功能，包括幻灯片创建、编辑和转换为各种格式。
 
-绝对地！ Aspose.Slides 旨在满足各种项目的需求，包括个人、教育和商业项目。
-
-### 我是否需要丰富的编程知识才能使用 Aspose.Slides for .NET？
-
-虽然基本的编程知识很有用，但 Aspose.Slides 提供了全面的文档和示例来指导您完成整个过程。
-
-### 保存演示文稿后可以撤消超链接删除吗？
-
-不会，删除超链接后保存演示文稿后，所做的更改将是永久性的。建议保留原始演示文稿的备份副本。
+### Aspose.Slides for .NET 是否提供技术支持？
+是的，您可以寻求技术支持并与 Aspose 社区互动[Aspose论坛](https://forum.aspose.com/).

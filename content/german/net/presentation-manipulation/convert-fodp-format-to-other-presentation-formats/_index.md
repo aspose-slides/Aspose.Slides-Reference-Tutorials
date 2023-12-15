@@ -14,7 +14,7 @@ Im heutigen digitalen Zeitalter ist die Arbeit mit verschiedenen Präsentationsf
 
 Bevor wir mit dem Konvertierungsprozess beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Aspose.Slides für .NET: Wenn Sie es noch nicht getan haben, laden Sie Aspose.Slides für .NET von der Website herunter und installieren Sie es:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides für .NET: Wenn Sie es noch nicht getan haben, laden Sie Aspose.Slides für .NET von der Website herunter und installieren Sie es:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net/).
 
 2. Ihr Dokumentenverzeichnis: Bereiten Sie das Verzeichnis vor, in dem sich Ihr FODP-Dokument befindet.
 
@@ -60,7 +60,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 Glückwunsch! Sie haben eine Datei im FODP-Format mit Aspose.Slides für .NET erfolgreich in andere Präsentationsformate konvertiert. Diese vielseitige Bibliothek eröffnet eine Welt voller Möglichkeiten für die programmatische Arbeit mit Präsentationen.
 
- Wenn Sie auf Probleme stoßen oder Fragen haben, zögern Sie nicht, Hilfe zu suchen[Aspose.Slides-Forum](https://forum.aspose.com/)Die Community und das Support-Team sind für Sie da.
+ Wenn Sie auf Probleme stoßen oder Fragen haben, zögern Sie nicht, Hilfe zu suchen[Aspose.Slides-Forum](https://forum.aspose.com/). Die Community und das Support-Team sind für Sie da.
 
 ## FAQs
 
@@ -74,7 +74,7 @@ Glückwunsch! Sie haben eine Datei im FODP-Format mit Aspose.Slides für .NET er
 
 ### 3. Wie kann ich eine temporäre Lizenz für Aspose.Slides für .NET erhalten?
 
- Wenn Sie eine temporäre Lizenz benötigen, können Sie diese bei der erhalten[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/).
+Wenn Sie eine temporäre Lizenz benötigen, können Sie diese bei der erhalten[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Welche Präsentationsformate werden für die Konvertierung unterstützt?
 

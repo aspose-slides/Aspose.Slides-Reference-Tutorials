@@ -62,7 +62,7 @@ Slide slide = pres.AddTitleSlide();
 أخيرًا، لنحفظ عرضك التقديمي في ملف:
 
 ```csharp
-// كتابة الإخراج على القرص
+// كتابة الإخراج إلى القرص
 pres.Write("outAsposeSlides.ppt");
 ```
 
@@ -86,4 +86,4 @@ pres.Write("outAsposeSlides.ppt");
     للحصول على المساعدة الفنية والمناقشات، يمكنك زيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/).
 
 4. ### هل يمكنني تجربة Aspose.Slides لـ .NET قبل الشراء؟
-    نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/)الإصدار التجريبي له قيود، لذا تأكد من التحقق مما إذا كان يلبي متطلباتك.
+    نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/). الإصدار التجريبي له قيود، لذا تأكد من التحقق مما إذا كان يلبي متطلباتك.

@@ -1,116 +1,108 @@
 ---
-title: Agregar hipervínculo a la diapositiva
+title: Agregar hipervínculos a diapositivas en .NET usando Aspose.Slides
 linktitle: Agregar hipervínculo a la diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda cómo agregar hipervínculos a diapositivas en PowerPoint usando Aspose.Slides para .NET. Mejore las presentaciones con contenido interactivo.
+description: Aprenda a agregar hipervínculos a diapositivas de PowerPoint con Aspose.Slides para .NET. Mejore sus presentaciones con elementos interactivos.
 type: docs
 weight: 12
 url: /es/net/hyperlink-manipulation/add-hyperlink/
 ---
 
-## Introducción a Aspose.Slides para .NET
-
-Aspose.Slides para .NET es una biblioteca completa que permite a los desarrolladores crear, modificar y manipular presentaciones de PowerPoint sin depender de Microsoft Office. Proporciona una amplia gama de funciones, incluida la adición y administración de hipervínculos en diapositivas.
+En el mundo de las presentaciones digitales, la interactividad es clave. Agregar hipervínculos a sus diapositivas puede hacer que su presentación sea más atractiva e informativa. Aspose.Slides para .NET es una poderosa biblioteca que le permite crear, modificar y manipular presentaciones de PowerPoint mediante programación. En este tutorial, le mostraremos cómo agregar hipervínculos a sus diapositivas usando Aspose.Slides para .NET. 
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirnos en la adición de hipervínculos a las diapositivas, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Visual Studio instalado en su sistema.
--  Aspose.Slides para la biblioteca .NET. Puedes descargarlo desde[aquí](https://downloads.aspose.com/slides/net).
+1. Visual Studio: debe tener Visual Studio instalado en su computadora para escribir y ejecutar el código .NET.
 
-## Agregar un hipervínculo a un texto en una diapositiva
+2. Aspose.Slides para .NET: Es necesario tener instalada la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/).
 
-1. Cree un nuevo proyecto de C# en Visual Studio.
-2. Agregue una referencia a la DLL Aspose.Slides en su proyecto.
-3. Utilice el siguiente código para agregar un hipervínculo a un texto en una diapositiva:
+3. Conocimientos básicos de C#: será beneficiosa la familiaridad con la programación en C#.
 
-```csharp
-using Aspose.Slides;
+## Importar espacios de nombres
 
-// Cargar la presentación
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Acceder a una diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Acceder a un cuadro de texto
-ITextFrame textFrame = slide.Shapes[0] as ITextFrame;
-
-// Agregue una porción de texto con un hipervínculo
-textFrame.Paragraphs[0].Portions[0].Text = "Visit our website!";
-textFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new HyperlinkInfo("https://www.ejemplo.com", HyperlinkAction.MouseClick);
-```
-
-## Agregar un hipervínculo a una forma en una diapositiva
-
-1. Siga los pasos anteriores para crear un nuevo proyecto C# y agregar la referencia Aspose.Slides.
-2. Utilice el siguiente código para agregar un hipervínculo a una forma en una diapositiva:
+Para comenzar, necesita importar los espacios de nombres necesarios en su proyecto C#. En este caso, necesitará los siguientes espacios de nombres de la biblioteca Aspose.Slides:
 
 ```csharp
 using Aspose.Slides;
-
-// Cargar la presentación
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Acceder a una diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Acceder a una forma
-IShape shape = slide.Shapes[1];
-
-// Agregar un hipervínculo a la forma
-shape.HyperlinkClick = new HyperlinkInfo("https://www.ejemplo.com", HyperlinkAction.MouseClick);
+using Aspose.Slides.Export;
 ```
 
-## Agregar un hipervínculo a una diapositiva
+Ahora, dividamos el proceso de agregar hipervínculos a diapositivas en varios pasos.
 
-1. Siga los pasos iniciales para configurar su proyecto C# y hacer referencia a la biblioteca Aspose.Slides.
-2. Utilice el siguiente código para agregar un hipervínculo a una diapositiva:
+## Paso 1: Inicializar la presentación
+
+Primero, cree una nueva presentación usando Aspose.Slides. Así es como puedes hacerlo:
 
 ```csharp
-using Aspose.Slides;
-
-// Cargar la presentación
-Presentation presentation = new Presentation("presentation.pptx");
-
-// Acceder a una diapositiva
-ISlide slide = presentation.Slides[2];
-
-// Agregar un hipervínculo a la diapositiva
-slide.HyperlinkClick = new HyperlinkInfo("https://www.ejemplo.com", HyperlinkAction.MouseClick);
+using (Presentation presentation = new Presentation())
+{
+    // Tu código va aquí
+}
 ```
 
-## Agregar hipervínculos externos
+Este código inicializa una nueva presentación de PowerPoint.
 
-Además de los hipervínculos internos, también puedes agregar hipervínculos externos a tus diapositivas. Utilice el mismo enfoque que el anterior, pero proporcione la URL externa como destino del hipervínculo.
+## Paso 2: agregar marco de texto
 
-## Modificar y eliminar hipervínculos
+Ahora, agreguemos un marco de texto a su diapositiva. Este marco de texto servirá como elemento en el que se puede hacer clic en su diapositiva. 
 
-Para modificar un hipervínculo existente o eliminarlo, puede acceder a las propiedades del hipervínculo del elemento de diapositiva respectivo y realizar los cambios necesarios.
+```csharp
+IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
+shape1.AddTextFrame("Aspose: File Format APIs");
+```
+
+El código anterior crea una forma automática rectangular y agrega un marco de texto con el texto "Aspose: API de formato de archivo".
+
+## Paso 3: agregar hipervínculo
+
+continuación, agreguemos un hipervínculo al marco de texto que ha creado. Esto hará que se pueda hacer clic en el texto.
+
+```csharp
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
+```
+
+En este paso, configuramos la URL del hipervínculo en "https://www.aspose.com/" y proporcionamos información sobre herramientas para obtener información adicional. También puede formatear la apariencia del hipervínculo, como se muestra arriba.
+
+## Paso 4: guardar la presentación
+
+Finalmente, guarde su presentación con el hipervínculo agregado.
+
+```csharp
+presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
+```
+
+Este código guarda la presentación como "presentación-out.pptx".
+
+Ahora, ha agregado con éxito un hipervínculo a una diapositiva usando Aspose.Slides para .NET.
 
 ## Conclusión
 
-Agregar hipervínculos a las diapositivas usando Aspose.Slides para .NET es un proceso sencillo que puede mejorar enormemente la interactividad de sus presentaciones. Ya sea que desee vincular recursos externos o crear navegación dentro de sus diapositivas, Aspose.Slides proporciona las herramientas que necesita para realizar estas tareas de manera eficiente.
+En este tutorial, exploramos cómo agregar hipervínculos a diapositivas en presentaciones de PowerPoint usando Aspose.Slides para .NET. Si sigue estos pasos, puede hacer que sus presentaciones sean más interactivas y atractivas, proporcionando enlaces valiosos a recursos o información adicionales.
+
+ Para obtener información y documentación más detallada, visite el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
 
 ## Preguntas frecuentes
 
-### ¿Cómo elimino un hipervínculo de una parte del texto?
+### 1. ¿Puedo agregar hipervínculos a otras formas además de los marcos de texto?
 
- Para eliminar un hipervínculo de una parte del texto, simplemente puede configurar el`HyperlinkClick` propiedad a`null` por esa porción.
+Sí, puede agregar hipervínculos a varias formas como rectángulos, imágenes y más usando Aspose.Slides para .NET.
 
-### ¿Puedo agregar hipervínculos a formas que no sean cuadros de texto?
+### 2. ¿Cómo puedo eliminar un hipervínculo de una forma en una diapositiva de PowerPoint?
 
-Sí, puede agregar hipervínculos a varias formas, incluidas imágenes y formas personalizadas, utilizando el`HyperlinkClick` propiedad.
+ Puede eliminar un hipervínculo de una forma configurando el`HyperlinkClick` propiedad a`null`.
 
-### ¿Aspose.Slides es compatible con diferentes formatos de PowerPoint?
+### 3. ¿Puedo cambiar la URL del hipervínculo dinámicamente en mi código?
 
-Sí, Aspose.Slides admite varios formatos de PowerPoint, incluidos PPTX, PPT y más.
+ ¡Absolutamente! Puede actualizar la URL de un hipervínculo en cualquier punto de su código modificando el`Hyperlink` propiedad.
 
-### ¿Cómo puedo probar los hipervínculos en mi presentación?
+### 4. ¿Qué otros elementos interactivos puedo agregar a las diapositivas de PowerPoint usando Aspose.Slides?
 
-Puede ejecutar la presentación en un visor o editor de PowerPoint para probar la funcionalidad de los hipervínculos.
+Aspose.Slides ofrece una amplia gama de funciones interactivas, incluidos botones de acción, elementos multimedia y animaciones.
 
-### ¿Dónde puedo descargar la biblioteca Aspose.Slides para .NET?
+### 5. ¿Aspose.Slides está disponible para otros lenguajes de programación?
 
- Puede descargar la biblioteca Aspose.Slides para .NET desde el sitio web de Aspose:[Descargar Aspose.Slides para .NET](https://releases.aspose.com/slides/net).
+Sí, Aspose.Slides está disponible para varios lenguajes de programación, incluidos Java y Python.

@@ -44,7 +44,7 @@ Presentation presentation = new Presentation();
 Successivamente, aggiungeremo una nuova diapositiva alla presentazione. Le diapositive vengono indicizzate a partire da zero. Ecco come puoi aggiungere una diapositiva:
 
 ```csharp
-//Aggiungi una nuova diapositiva alla presentazione
+// Aggiungi una nuova diapositiva alla presentazione
 ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
 ```
 

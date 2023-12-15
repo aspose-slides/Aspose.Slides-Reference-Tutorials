@@ -44,7 +44,7 @@ IShapeCollection shapes = slide.Shapes;
 4.  Formen neu anordnen: Nutzen Sie die`Shapes.Reorder(int oldIndex, int newIndex)` Methode zum Ändern der Reihenfolge von Formen. Geben Sie den alten Index der Form und den gewünschten neuen Index an.
 
 ```csharp
-// Formen neu anordnen
+//Formen neu anordnen
 shapes.Reorder(2, 0); // Verschieben Sie die Form von Index 2 auf Index 0
 ```
 
@@ -61,7 +61,7 @@ Aspose.Slides für .NET bietet fortschrittliche Techniken, um Ihr Präsentations
 
 ### Schichtung und Überlappung
 
-Erzielen Sie anspruchsvolle visuelle Effekte, indem Sie die Schichtung von Formen steuern. Benutzen Sie die`ZOrderPosition` -Eigenschaft, um die Position einer Form in der Z-Reihenfolge zu definieren und zu bestimmen, ob sie über oder unter anderen Formen angezeigt wird.
+ Erzielen Sie anspruchsvolle visuelle Effekte, indem Sie die Schichtung von Formen steuern. Benutzen Sie die`ZOrderPosition` -Eigenschaft, um die Position einer Form in der Z-Reihenfolge zu definieren und zu bestimmen, ob sie über oder unter anderen Formen angezeigt wird.
 
 ### Gruppieren und Aufheben der Gruppierung
 
@@ -93,7 +93,7 @@ Ja, Aspose.Slides eignet sich für Präsentationen jeglicher Komplexität. Egal,
 
 ### Wie greife ich auf bestimmte Formen innerhalb einer Folie zu?
 
- Sie können mit auf Formen auf einer Folie zugreifen`IShapeCollection` Schnittstelle. Mit dieser Schnittstelle können Sie Formen durchlaufen, per Index auf sie zugreifen oder sogar anhand ihrer Eigenschaften nach Formen suchen.
+Sie können mit auf Formen auf einer Folie zugreifen`IShapeCollection` Schnittstelle. Mit dieser Schnittstelle können Sie Formen durchlaufen, per Index auf sie zugreifen oder sogar anhand ihrer Eigenschaften nach Formen suchen.
 
 ### Kann ich den Prozess der Erstellung neuer Folien automatisieren?
 

@@ -63,7 +63,7 @@ Vient maintenant la partie passionnante : créer une vignette avec un facteur d
 // Créer une copie de la forme
 var thumbnailShape = shape.Clone();
 
-//Définir le facteur d'échelle (par exemple, 0,5 pour 50 %)
+// Définir le facteur d'échelle (par exemple, 0,5 pour 50 %)
 double scalingFactor = 0.5;
 
 // Ajuster la largeur et la hauteur de la vignette

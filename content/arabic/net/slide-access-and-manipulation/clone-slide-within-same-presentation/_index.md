@@ -57,7 +57,7 @@ ISlide clonedSlide = presentation.Slides.AddClone(sourceSlide);
 قد ترغب في إجراء بعض التعديلات على الشريحة المستنسخة قبل حفظ العرض التقديمي. لنفترض أنك تريد تحديث نص عنوان الشريحة المستنسخة:
 
 ```csharp
-//قم بتعديل عنوان الشريحة المستنسخة
+// قم بتعديل عنوان الشريحة المستنسخة
 IAutoShape titleShape = clonedSlide.Shapes[0] as IAutoShape;
 if (titleShape != null)
 {
@@ -92,7 +92,7 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 
 ### هل يمكنني استنساخ شرائح متعددة في وقت واحد؟
 
-نعم، يمكنك استنساخ شرائح متعددة من خلال التكرار عبر مجموعة الشرائح واستنساخ كل شريحة على حدة.
+نعم، يمكنك استنساخ شرائح متعددة من خلال التكرار خلال مجموعة الشرائح واستنساخ كل شريحة على حدة.
 
 ### هل Aspose.Slides مناسب لتطبيقات .NET فقط؟
 

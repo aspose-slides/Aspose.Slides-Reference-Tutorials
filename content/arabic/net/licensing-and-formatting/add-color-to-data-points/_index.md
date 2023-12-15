@@ -1,137 +1,117 @@
 ---
-title: أضف اللون إلى نقاط البيانات في المخطط
+title: تلوين الرسم البياني باستخدام Aspose.Slides لـ .NET
 linktitle: أضف اللون إلى نقاط البيانات في المخطط
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تحسين العناصر المرئية للمخطط باستخدام Aspose.Slides لـ .NET. أضف ألوانًا ديناميكية إلى نقاط البيانات للحصول على عروض تقديمية أكثر تأثيرًا.
+description: تعرف على كيفية إضافة لون إلى نقاط البيانات في مخطط باستخدام Aspose.Slides لـ .NET. قم بتحسين عروضك التقديمية بصريًا وإشراك جمهورك بشكل فعال.
 type: docs
 weight: 12
 url: /ar/net/licensing-and-formatting/add-color-to-data-points/
 ---
 
-## مقدمة إلى Aspose.Slides لـ .NET
+في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية إضافة اللون إلى نقاط البيانات في المخطط باستخدام Aspose.Slides for .NET. Aspose.Slides هي مكتبة قوية للعمل مع عروض PowerPoint التقديمية في تطبيقات .NET. يمكن أن تؤدي إضافة لون إلى نقاط البيانات في المخطط إلى جعل عروضك التقديمية أكثر جاذبية من الناحية المرئية وأسهل للفهم.
 
-Aspose.Slides for .NET هي مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجياً. فهو يوفر مجموعة واسعة من الميزات للعمل مع عناصر مختلفة من العروض التقديمية، بما في ذلك الرسوم البيانية. سنركز في هذه المقالة على تحسين المظهر المرئي للمخططات عن طريق إضافة الألوان إلى نقاط البيانات.
+## المتطلبات الأساسية
 
-## إنشاء مخطط أساسي
+قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
 
-لنبدأ بإنشاء مخطط أساسي باستخدام Aspose.Slides لـ .NET. نفترض أنك قمت بالفعل بإعداد بيئة التطوير الخاصة بك وإضافة مرجع إلى مكتبة Aspose.Slides. فيما يلي مقتطف التعليمات البرمجية لإنشاء مخطط عمودي بسيط:
+1. Visual Studio: أنت بحاجة إلى تثبيت Visual Studio على جهاز الكمبيوتر الخاص بك.
+
+2.  Aspose.Slides لـ .NET: قم بتنزيل Aspose.Slides لـ .NET وتثبيته من[رابط التحميل](https://releases.aspose.com/slides/net/).
+
+3. الفهم الأساسي لـ C#: يجب أن تكون لديك معرفة أساسية ببرمجة C#.
+
+4. دليل المستندات الخاص بك: استبدل "دليل المستندات الخاص بك" في الكود بالمسار الفعلي لدليل المستندات الخاص بك.
+
+## استيراد مساحات الأسماء
+
+قبل أن تتمكن من العمل مع Aspose.Slides لـ .NET، تحتاج إلى استيراد مساحات الأسماء الضرورية. 
 
 ```csharp
-// قم باستيراد مساحات الأسماء المطلوبة
+﻿using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 using Aspose.Slides;
-using Aspose.Slides.Charts;
-
-// إنشاء عرض تقديمي جديد
-Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddSlide(0, presentation.SlideSize);
-
-//أضف مخططًا إلى الشريحة
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 400);
-
-// أضف بيانات نموذجية إلى المخطط
-chart.ChartData.Series.Add("Sample Series", new double[] { 1, 2, 3, 4 }, new string[] { "A", "B", "C", "D" });
-
-// قم بتعيين عنوان المخطط
-chart.ChartTitle.TextFrame.Text = "Sample Chart";
-
-// احفظ العرض التقديمي
-presentation.Save("SampleChart.pptx", SaveFormat.Pptx);
 ```
 
-## الوصول إلى نقاط البيانات
 
- لإضافة لون إلى نقاط البيانات، نحتاج أولاً إلى الوصول إلى نقاط البيانات ضمن سلسلة المخطط. نقاط البيانات هي القيم الفردية المرسومة على المخطط. يمكننا التكرار من خلال نقاط البيانات باستخدام`ChartDataPointCollection` فصل. إليك كيفية الوصول إلى نقاط البيانات في المخطط:
+في هذا المثال، سنقوم بإضافة لون إلى نقاط البيانات في المخطط باستخدام نوع المخطط Sunburst.
 
 ```csharp
-// الوصول إلى السلسلة الأولى في المخطط
-IChartSeries series = chart.ChartData.Series[0];
-
-// الوصول إلى نقاط البيانات في السلسلة
-ChartDataPointCollection dataPoints = series.DataPoints;
-foreach (ChartDataPoint dataPoint in dataPoints)
+using (Presentation pres = new Presentation())
 {
-    // الوصول إلى قيمة نقطة البيانات
-    double value = dataPoint.Value;
+    // المسار إلى دليل المستندات.
+    string dataDir = "Your Document Directory";
 
-    // الوصول إلى فهرس نقطة البيانات
-    int index = dataPoint.Index;
+    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Sunburst, 100, 100, 450, 400);
     
-    // تسمية نقطة بيانات الوصول
-    string label = dataPoint.Label;
-    
-    // إضافة اللون إلى نقطة البيانات
-    dataPoint.Format.Fill.FillType = FillType.Solid;
-    dataPoint.Format.Fill.SolidFillColor.Color = Color.Red;
+    //سيتم إضافة بقية الكود في الخطوات التالية.
 }
 ```
 
-## إضافة الألوان إلى نقاط البيانات
+## الخطوة 1: الوصول إلى نقاط البيانات
 
-الآن بعد أن وصلنا إلى نقاط البيانات، دعونا نضيف الألوان إليها. في مقتطف الكود أعلاه، قمنا بتعيين لون التعبئة لكل نقطة بيانات على اللون الأحمر. يمكنك تخصيص الألوان بناءً على متطلباتك. سيؤدي ذلك إلى جعل المخطط أكثر جاذبية ويساعد في إبراز نقاط البيانات المهمة.
-
-## تخصيص الألوان بناءً على قيم البيانات
-
-بدلاً من تعيين لون واحد لجميع نقاط البيانات، يمكنك تخصيص الألوان بناءً على القيم التي تمثلها. على سبيل المثال، يمكنك تعيين نظام ألوان متدرج حيث تكون نقاط البيانات ذات القيم الأعلى ذات ألوان أغمق وتلك ذات القيم الأقل لها ألوان أفتح. إليك مثال مبسط:
+لإضافة لون إلى نقاط بيانات محددة في مخطط، يتعين عليك الوصول إلى نقاط البيانات تلك. في هذا المثال، سنستهدف نقطة البيانات 3.
 
 ```csharp
-foreach (ChartDataPoint dataPoint in dataPoints)
-{
-    // حساب اللون على أساس قيمة البيانات
-    double value = dataPoint.Value;
-    Color color = CalculateColor(value);
-
-    // قم بتطبيق اللون المحسوب على نقطة البيانات
-    dataPoint.Format.Fill.FillType = FillType.Solid;
-    dataPoint.Format.Fill.SolidFillColor.Color = color;
-}
+IChartDataPointCollection dataPoints = chart.ChartData.Series[0].DataPoints;
+dataPoints[3].DataPointLevels[0].Label.DataLabelFormat.ShowValue = true;
 ```
 
- في هذا المثال،`CalculateColor` تحدد الوظيفة اللون بناءً على قيمة البيانات. يمكنك تنفيذ المنطق الخاص بك لتحقيق نظام الألوان المطلوب.
+## الخطوة 2: تخصيص تسميات البيانات
 
-## عنوان مخطط التصميم ومحاوره
-
-بالإضافة إلى تلوين نقاط البيانات، يمكنك تحسين مظهر المخطط عن طريق تصميم عنوان المخطط ومحاوره. يوفر Aspose.Slides for .NET خصائص متنوعة لتخصيص هذه العناصر. إليك كيفية تعيين خط ولون عنوان المخطط:
+الآن، دعونا نخصص تسميات البيانات لنقطة البيانات 0. سنقوم بإخفاء اسم الفئة وإظهار اسم السلسلة.
 
 ```csharp
-// تخصيص خط عنوان المخطط ولونه
-chart.ChartTitle.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 18;
-chart.ChartTitle.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.FillType = FillType.Solid;
-chart.ChartTitle.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = Color.Blue;
+IDataLabel branch1Label = dataPoints[0].DataPointLevels[2].Label;
+branch1Label.DataLabelFormat.ShowCategoryName = false;
+branch1Label.DataLabelFormat.ShowSeriesName = true;
 ```
 
-يمكنك تطبيق تخصيص مماثل على المحاور ووسائل الإيضاح وعناصر المخطط الأخرى.
+## الخطوة 3: تحديد تنسيق النص ولون التعبئة
 
-## حفظ العرض التقديمي
-
-بمجرد تخصيص مظهر المخطط، فقد حان الوقت لحفظ العرض التقديمي. يمكنك حفظه بتنسيقات مختلفة، مثل PPTX أو PDF. فيما يلي كيفية حفظ العرض التقديمي كملف PPTX:
+يمكننا تحسين مظهر تسميات البيانات عن طريق تحديد تنسيق النص ولون التعبئة. في هذه الخطوة، سنقوم بتعيين لون النص إلى اللون الأصفر لنقطة البيانات 0.
 
 ```csharp
-// احفظ العرض التقديمي
-presentation.Save("CustomizedChart.pptx", SaveFormat.Pptx);
+branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.FillType = FillType.Solid;
+branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.SolidFillColor.Color = Color.Yellow;
 ```
+
+## الخطوة 4: تخصيص لون تعبئة نقطة البيانات
+
+الآن، دعونا نغير لون تعبئة نقطة البيانات 9. سنقوم بتعيينه على لون معين.
+
+```csharp
+IFormat steam4Format = dataPoints[9].Format;
+steam4Format.Fill.FillType = FillType.Solid;
+steam4Format.Fill.SolidFillColor.Color = Color.FromArgb(0, 176, 240, 255);
+```
+
+## الخطوة 5: حفظ العرض التقديمي
+
+بعد تخصيص المخطط، يمكنك حفظ العرض التقديمي مع التغييرات.
+
+```csharp
+pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
+```
+
+تهانينا! لقد نجحت في إضافة اللون إلى نقاط البيانات في مخطط باستخدام Aspose.Slides لـ .NET. يمكن أن يؤدي ذلك إلى تحسين المظهر البصري ووضوح عروضك التقديمية بشكل كبير.
 
 ## خاتمة
 
-في هذه المقالة، تعلمنا كيفية إضافة لون إلى نقاط البيانات في المخطط باستخدام Aspose.Slides لـ .NET. لقد استكشفنا عملية إنشاء مخطط أساسي والوصول إلى نقاط البيانات وتخصيص ألوانها بناءً على القيم. بالإضافة إلى ذلك، رأينا كيفية تصميم عنوان المخطط ومحاوره لإنشاء عروض تقديمية جذابة بصريًا.
+تعد إضافة لون إلى نقاط البيانات في المخطط طريقة فعالة لجعل عروضك التقديمية أكثر جاذبية وغنية بالمعلومات. باستخدام Aspose.Slides for .NET، لديك الأدوات اللازمة لإنشاء مخططات جذابة بصريًا تنقل بياناتك بفعالية.
 
-## الأسئلة الشائعة
+## الأسئلة المتداولة (الأسئلة الشائعة)
 
-### كيف يمكنني تثبيت Aspose.Slides لـ .NET؟
+### ما هو Aspose.Slides لـ .NET؟
+   Aspose.Slides for .NET هي مكتبة تتيح لمطوري .NET العمل مع عروض PowerPoint التقديمية برمجيًا.
 
- يمكنك تنزيل وتثبيت Aspose.Slides لـ .NET من موقع الويب:[تنزيل Aspose.Slides لـ .NET](https://downloads.aspose.com/slides/net)
+### هل يمكنني تخصيص خصائص المخطط الأخرى باستخدام Aspose.Slides؟
+   نعم، يمكنك تخصيص جوانب مختلفة من المخططات، مثل تسميات البيانات والخطوط والألوان والمزيد، باستخدام Aspose.Slides for .NET.
 
-### هل يمكنني تطبيق أنظمة ألوان مختلفة على سلسلة بيانات مختلفة؟
+### أين يمكنني العثور على وثائق Aspose.Slides لـ .NET؟
+    يمكنك العثور على وثائق مفصلة على[رابط التوثيق](https://reference.aspose.com/slides/net/).
 
-نعم، يمكنك تطبيق أنظمة ألوان مختلفة على سلسلة بيانات مختلفة داخل نفس المخطط. يتيح لك ذلك التمييز بين مجموعات متعددة من البيانات بشكل فعال.
+### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ .NET؟
+    نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 
-### هل يتوافق Aspose.Slides for .NET مع مكتبات .NET الأخرى؟
-
-نعم، تم تصميم Aspose.Slides for .NET للعمل بسلاسة مع مكتبات .NET الأخرى. يمكنك دمجه في مشاريعك الحالية دون أي مشاكل في التوافق.
-
-### هل يمكنني تصدير المخطط كصورة؟
-
-نعم، يمكنك تصدير المخطط كصورة باستخدام Aspose.Slides لـ .NET. يكون هذا مفيدًا عندما تحتاج إلى تضمين المخطط في المستندات أو التقارير أو صفحات الويب.
-
-### كيف يمكنني معرفة المزيد حول Aspose.Slides لـ .NET؟
-
- للحصول على وثائق مفصلة وأمثلة ومرجع واجهة برمجة التطبيقات، يمكنك زيارة الوثائق:[هنا](https://reference.aspose.com/slides/net/).
+### كيف يمكنني الحصول على دعم Aspose.Slides لـ .NET؟
+    للحصول على الدعم والمناقشات، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/).

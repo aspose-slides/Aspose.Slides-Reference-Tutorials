@@ -8,121 +8,109 @@ weight: 11
 url: /zh/net/licensing-and-formatting/metered-licensing/
 ---
 
-## 计量许可使用简介
+## 介绍
 
-在软件开发领域，许可对于开发人员如何访问和利用强大的库和 API 来增强其应用程序起着至关重要的作用。一种提供灵活性和成本效益的许可模式是“计量许可”。本文将指导您完成将计量许可与 Aspose.Slides for .NET 结合使用的过程，Aspose.Slides 是一种流行的 API，用于在 .NET 应用程序中处理 PowerPoint 演示文稿。
+您是否希望利用 Aspose.Slides for .NET（一个处理 PowerPoint 演示文稿的出色库）的强大功能？无论您是经验丰富的开发人员还是新手，本分步指南都将引导您完成使用 Aspose.Slides 轻松创建、操作和管理 PowerPoint 文件所需了解的所有内容。从设置计量许可到访问命名空间，我们已经涵盖了所有内容。在这个综合教程中，我们将每个示例分解为多个步骤，以确保您可以轻松掌握 Aspose.Slides for .NET。
 
-## 计量许可的好处
+## 先决条件
 
-在深入研究技术细节之前，让我们先了解计量许可为何具有优势。传统的许可模式通常涉及前期成本、固定许可证和许可证密钥的手动管理。另一方面，计量许可具有以下优点：
+在深入了解 Aspose.Slides for .NET 的世界之前，您需要满足一些先决条件：
 
-- 成本效益：通过计量许可，您只需为使用的内容付费。这可以显着降低前期成本，对于具有不同使用模式的项目尤其有利。
+1. C# 基础知识：由于 Aspose.Slides for .NET 是一个 C# 库，因此您应该很好地掌握 C# 编程。
 
-- 灵活性：计量许可使您能够适应不断变化的项目需求，而无需受限于固定数量的许可证。您可以根据需要放大或缩小。
+2. Visual Studio：您需要在系统上安装 Visual Studio 才能进行编码。
 
-- 简化管理：忘记管理许可证密钥。计量许可使用简单的 API 调用来初始化许可证，使管理变得轻松。
+3. Aspose.Slides 库：确保您已下载并安装了 .NET 的 Aspose.Slides 库。您可以在以下位置找到该库和进一步说明：[这个链接](https://releases.aspose.com/slides/net/).
 
-## .NET 的 Aspose.Slides 入门
+现在一切就绪，让我们开始 Aspose.Slides for .NET 之旅。
 
-## 安装和设置
+## 导入命名空间
 
-要开始通过计量许可使用 Aspose.Slides for .NET，请按照以下步骤操作：
+要开始使用 Aspose.Slides for .NET，您需要导入必要的命名空间。命名空间至关重要，因为它们提供对与 PowerPoint 演示文稿交互所需的类和方法的访问。以下是导入所需命名空间的步骤：
 
-1. 下载并安装 Aspose.Slides：访问[Aspose.Slides 产品页面](https://products.aspose.com/slides/net)并下载最新版本的库。将其安装到您的 .NET 项目中。
+### 第 1 步：打开您的 C# 项目
 
-2. 包含所需的引用：在您的项目中，添加对 Aspose.Slides 库和任何其他依赖项的引用。
+在 Visual Studio 中打开您计划使用 Aspose.Slides 的 C# 项目。
 
-## 获得计量许可证
+### 第 2 步：添加参考文献
 
-1. 注册计量帐户：如果您还没有计量帐户，请在[阿斯普斯网站](https://www.aspose.com/).
+右键单击解决方案资源管理器中的“引用”部分，然后选择“添加引用”。
 
-2. 检索您的计量帐户凭据：注册后，您将收到凭据，其中包括`AppSID`和`AppKey`.
+### 第3步：添加Aspose.Slides参考
 
-## 初始化计量许可证
+在“参考管理器”窗口中，浏览到您下载并安装 Aspose.Slides 库的位置。选择Aspose.Slides 程序集并单击“添加”。
 
-在您的代码中，使用获得的`AppSID`和`AppKey`初始化计量许可证：
+### 第 4 步：导入命名空间
 
-```csharp
-Aspose.Slides.License license = new Aspose.Slides.License();
-license.SetMeteredKey("AppSID", "AppKey");
-```
-
-## 使用具有计量许可的 Aspose.Slides API
-
-计量许可证初始化后，您可以照常使用 Aspose.Slides API。例如，要加载演示文稿并将其保存为其他格式：
+现在，在 C# 代码文件中导入必要的命名空间：
 
 ```csharp
-using (Presentation presentation = new Presentation("input.pptx"))
-{
-    presentation.Save("output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-}
+using Aspose.Slides;
 ```
 
-## 跟踪 API 调用
+您现在可以在项目中使用 Aspose.Slides 类和方法了。
 
-Aspose.Slides 提供了一种便捷的方式来跟踪 API 调用和消耗：
+使用 Aspose.Slides for .NET 时，计量许可至关重要，因为它可以帮助您跟踪 API 使用情况并有效管理许可。让我们一步步分解这个过程：
+
+## 第 1 步：创建 Slides Metered 类的实例
+
+首先，创建一个实例`Aspose.Slides.Metered`班级：
 
 ```csharp
-Metered metered = new Metered();
-Console.WriteLine("Usage Before: " + metered.GetConsumptionCredit());
+Aspose.Slides.Metered metered = new Aspose.Slides.Metered();
 ```
 
-## 检查消耗限制
+该实例将允许您设置计量密钥并访问消耗数据。
 
-您还可以检查您的消费限额，以确保您在分配的配额之内：
+## 第 2 步：设置计量密钥
+
+访问`SetMeteredKey`属性并将您的公钥和私钥作为参数传递。代替`"*****"`用你的实际钥匙。
 
 ```csharp
-Console.WriteLine("Consumption Quota: " + metered.GetConsumptionCredit());
+metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
-## 处理超额和续订
+## 步骤3：调用API前获取计量数据量
 
-如果您的使用量接近分配的限制，Aspose 将通知您。您可以选择购买更多积分或调整您的使用量以保持在限制范围内。
-
-## 高效使用的最佳实践
-
-要优化计量许可的使用：
-
-- 缓存结果：尽可能通过缓存结果来避免不必要的 API 调用。
-
-- 批量操作：只要可行，批量执行操作以最大程度地减少 API 调用。
-
-## 使用 Aspose.Slides for .NET 进行计量许可的示例代码
-
-下面是如何将计量许可与 Aspose.Slides 一起使用的完整示例：
+在进行任何 API 调用之前，您可以检查消耗的计量数据量：
 
 ```csharp
-Aspose.Slides.License license = new Aspose.Slides.License();
-license.SetMeteredKey("AppSID", "AppKey");
-
-using (Presentation presentation = new Presentation("input.pptx"))
-{
-    presentation.Save("output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-}
+decimal amountBefore = Aspose.Slides.Metered.GetConsumptionQuantity();
+Console.WriteLine("Amount Consumed Before: " + amountBefore.ToString());
 ```
+
+这将为您提供有关迄今为止消耗的数据的信息。
+
+## 第四步：调用API后获取计量数据量
+
+调用API后，您可以查看更新后的计量数据量：
+
+```csharp
+decimal amountAfter = Aspose.Slides.Metered.GetConsumptionQuantity();
+Console.WriteLine("Amount Consumed After: " + amountAfter.ToString());
+```
+
+此步骤将帮助您监控项目的数据消耗。
+
+通过执行这些步骤，您已在 Aspose.Slides for .NET 项目中成功实施了计量许可。
 
 ## 结论
 
-计量许可提供了一种灵活且经济高效的方式来使用强大的 API（例如 Aspose.Slides for .NET）。通过执行本文中概述的步骤，您可以将计量许可无缝集成到您的 .NET 应用程序中，从而使您可以按使用量付费，同时享受强大的演示文稿操作库的好处。
+在本分步指南中，我们介绍了为 .NET 设置 Aspose.Slides 的基本知识，包括导入命名空间和实施计量许可。您现在已经准备好使用 Aspose.Slides 创建、操作和管理 PowerPoint 演示文稿了。利用此库的强大功能将您的 PowerPoint 相关项目提升到一个新的水平。
 
-## 常见问题解答
+## 常见问题 (FAQ)
 
-### 计量许可与传统许可有何不同？
+### 什么是 Aspose.Slides for .NET？
+Aspose.Slides for .NET 是一个功能强大的库，使开发人员能够以编程方式处理 PowerPoint 演示文稿。它提供了用于创建、编辑和操作 PowerPoint 文件的广泛功能。
 
-计量许可根据您的实际使用情况向您收费，而传统许可需要预先购买固定数量的许可证。
+### 在哪里可以找到 Aspose.Slides 文档？
+您可以访问 Aspose.Slides 文档：[这个链接](https://reference.aspose.com/slides/net/).
 
-### 我可以追踪我消耗了多少积分吗？
+### Aspose.Slides for .NET 是否有免费试用版？
+是的，您可以从以下位置下载 Aspose.Slides for .NET 的免费试用版：[这个链接](https://releases.aspose.com/).
 
-是的，您可以使用`GetConsumptionCredit`Metered 类提供的方法来跟踪您的使用情况。
+### 如何购买 Aspose.Slides for .NET 的许可证？
+要购买许可证，请访问 Aspose 商店：[这个链接](https://purchase.aspose.com/buy).
 
-### 如果我超出消费限额会怎样？
-
-如果您超出消费限额，Aspose 将通知您。您可以购买额外的积分或相应地调整您的使用量。
-
-### 计量许可是否适合所有类型的项目？
-
-计量许可对于具有不同使用模式的项目特别有利。它提供了灵活性和成本效率。
-
-### 我可以将计量许可与其他 Aspose API 一起使用吗？
-
-是的，计量许可适用于各种 Aspose API，让您可以选择最适合您需求的许可模式。
+### 是否有 Aspose.Slides 支持和讨论的论坛？
+是的，您可以在 Aspose.Slides 论坛上找到支持并参与讨论：[这个链接](https://forum.aspose.com/).

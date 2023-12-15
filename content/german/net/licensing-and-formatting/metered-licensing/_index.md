@@ -8,121 +8,109 @@ weight: 11
 url: /de/net/licensing-and-formatting/metered-licensing/
 ---
 
-## Einführung in die Nutzung gebührenpflichtiger Lizenzen
+## Einführung
 
-In der Welt der Softwareentwicklung spielt die Lizenzierung eine entscheidende Rolle dabei, wie Entwickler auf leistungsstarke Bibliotheken und APIs zugreifen und diese nutzen, um ihre Anwendungen zu verbessern. Ein solches Lizenzmodell, das Flexibilität und Kosteneffizienz bietet, ist „Metered Licensing“. Dieser Artikel führt Sie durch den Prozess der Verwendung von Metered Licensing mit Aspose.Slides für .NET, einer beliebten API für die Arbeit mit PowerPoint-Präsentationen in .NET-Anwendungen.
+Möchten Sie die Leistungsfähigkeit von Aspose.Slides für .NET nutzen, einer außergewöhnlichen Bibliothek für die Arbeit mit PowerPoint-Präsentationen? Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, diese Schritt-für-Schritt-Anleitung führt Sie durch alles, was Sie wissen müssen, um PowerPoint-Dateien mühelos mit Aspose.Slides zu erstellen, zu bearbeiten und zu verwalten. Von der Einrichtung der gebührenpflichtigen Lizenzierung bis hin zum Zugriff auf Namespaces haben wir alles abgedeckt. In diesem umfassenden Tutorial unterteilen wir jedes Beispiel in mehrere Schritte, um sicherzustellen, dass Sie Aspose.Slides für .NET problemlos beherrschen.
 
-## Vorteile der gebührenpflichtigen Lizenzierung
+## Voraussetzungen
 
-Bevor wir uns mit den technischen Details befassen, wollen wir verstehen, warum Metered Licensing von Vorteil ist. Herkömmliche Lizenzierungsmodelle beinhalten häufig Vorabkosten, feste Lizenzen und die manuelle Verwaltung von Lizenzschlüsseln. Andererseits bietet Metered Licensing die folgenden Vorteile:
+Bevor Sie in die Welt von Aspose.Slides für .NET eintauchen, müssen Sie einige Voraussetzungen erfüllen:
 
-- Kosteneffizienz: Mit der Metered Licensing zahlen Sie nur für das, was Sie nutzen. Dies kann die Vorlaufkosten erheblich reduzieren und ist besonders bei Projekten mit unterschiedlichen Nutzungsmustern von Vorteil.
+1. Grundkenntnisse in C#: Da es sich bei Aspose.Slides für .NET um eine C#-Bibliothek handelt, sollten Sie über gute Kenntnisse der C#-Programmierung verfügen.
 
-- Flexibilität: Metered Licensing ermöglicht Ihnen die Anpassung an sich ändernde Projektanforderungen, ohne an eine feste Anzahl von Lizenzen gebunden zu sein. Sie können je nach Bedarf vergrößern oder verkleinern.
+2. Visual Studio: Zum Codieren muss Visual Studio auf Ihrem System installiert sein.
 
-- Vereinfachte Verwaltung: Vergessen Sie die Verwaltung von Lizenzschlüsseln. Metered Licensing verwendet einen einfachen API-Aufruf zur Initialisierung der Lizenz und sorgt so für eine problemlose Verwaltung.
+3. Aspose.Slides-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für .NET heruntergeladen und installiert haben. Die Bibliothek und weitere Anleitungen finden Sie unter[dieser Link](https://releases.aspose.com/slides/net/).
 
-## Erste Schritte mit Aspose.Slides für .NET
+Nachdem Sie nun fertig sind, beginnen wir unsere Reise in Aspose.Slides für .NET.
 
-## Installation und Einrichtung
+## Namespaces importieren
 
-Führen Sie die folgenden Schritte aus, um mit der Verwendung von Aspose.Slides für .NET mit gebührenpflichtiger Lizenzierung zu beginnen:
+Um mit Aspose.Slides für .NET arbeiten zu können, müssen Sie die erforderlichen Namespaces importieren. Namespaces sind unerlässlich, da sie Zugriff auf die Klassen und Methoden bieten, die für die Interaktion mit PowerPoint-Präsentationen erforderlich sind. Hier sind die Schritte zum Importieren der erforderlichen Namespaces:
 
-1.  Laden Sie Aspose.Slides herunter und installieren Sie es: Besuchen Sie die[Aspose.Slides-Produktseite](https://products.aspose.com/slides/net) und laden Sie die neueste Version der Bibliothek herunter. Installieren Sie es in Ihrem .NET-Projekt.
+### Schritt 1: Öffnen Sie Ihr C#-Projekt
 
-2. Erforderliche Verweise einschließen: Fügen Sie in Ihrem Projekt Verweise auf die Aspose.Slides-Bibliothek und alle anderen Abhängigkeiten hinzu.
+Öffnen Sie Ihr C#-Projekt in Visual Studio, wo Sie Aspose.Slides verwenden möchten.
 
-## Erhalten einer Metered-Lizenz
+### Schritt 2: Referenzen hinzufügen
 
-1.  Melden Sie sich für ein gebührenpflichtiges Konto an: Wenn Sie noch keins haben, melden Sie sich auf der Website für ein gebührenpflichtiges Konto an[Aspose-Website](https://www.aspose.com/).
+Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf den Abschnitt „Referenzen“ und wählen Sie „Referenz hinzufügen“.
 
-2.  Rufen Sie Ihre Zugangsdaten für Ihr getaktetes Konto ab: Sobald Sie sich angemeldet haben, erhalten Sie Zugangsdaten, einschließlich einer`AppSID` Und`AppKey`.
+### Schritt 3: Aspose.Slides-Referenz hinzufügen
 
-## Initialisieren der Metered-Lizenz
+Navigieren Sie im Fenster „Referenzmanager“ zu dem Speicherort, an dem Sie die Aspose.Slides-Bibliothek heruntergeladen und installiert haben. Wählen Sie die Aspose.Slides-Baugruppe aus und klicken Sie auf „Hinzufügen“.
 
-Verwenden Sie in Ihrem Code das erhaltene`AppSID` Und`AppKey` So initialisieren Sie die Metered-Lizenz:
+### Schritt 4: Namespaces importieren
 
-```csharp
-Aspose.Slides.License license = new Aspose.Slides.License();
-license.SetMeteredKey("AppSID", "AppKey");
-```
-
-## Verwendung der Aspose.Slides-API mit getakteter Lizenzierung
-
-Wenn die Metered-Lizenz initialisiert ist, können Sie die Aspose.Slides-API wie gewohnt verwenden. Um beispielsweise eine Präsentation zu laden und in einem anderen Format zu speichern:
+Importieren Sie nun in Ihre C#-Codedatei die erforderlichen Namespaces:
 
 ```csharp
-using (Presentation presentation = new Presentation("input.pptx"))
-{
-    presentation.Save("output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-}
+using Aspose.Slides;
 ```
 
-## Verfolgen von API-Aufrufen
+Sie können jetzt Aspose.Slides-Klassen und -Methoden in Ihrem Projekt verwenden.
 
-Aspose.Slides bietet eine praktische Möglichkeit, API-Aufrufe und -Verbrauch zu verfolgen:
+Eine kontrollierte Lizenzierung ist bei der Arbeit mit Aspose.Slides für .NET von entscheidender Bedeutung, da sie Ihnen hilft, den Überblick über die API-Nutzung zu behalten und Ihre Lizenzierung effektiv zu verwalten. Lassen Sie uns den Prozess Schritt für Schritt aufschlüsseln:
+
+## Schritt 1: Erstellen Sie eine Instanz der Slides Metered-Klasse
+
+ Erstellen Sie zunächst eine Instanz von`Aspose.Slides.Metered` Klasse:
 
 ```csharp
-Metered metered = new Metered();
-Console.WriteLine("Usage Before: " + metered.GetConsumptionCredit());
+Aspose.Slides.Metered metered = new Aspose.Slides.Metered();
 ```
 
-## Verbrauchsgrenzen prüfen
+Mit dieser Instanz können Sie Ihren Zählerschlüssel festlegen und auf Verbrauchsdaten zugreifen.
 
-Sie können auch Ihre Verbrauchsgrenzen überprüfen, um sicherzustellen, dass Sie innerhalb des zugewiesenen Kontingents liegen:
+## Schritt 2: Messschlüssel festlegen
+
+ Greife auf ... zu`SetMeteredKey` Eigentum und übergeben Sie Ihre öffentlichen und privaten Schlüssel als Parameter. Ersetzen`"*****"` mit Ihren tatsächlichen Schlüsseln.
 
 ```csharp
-Console.WriteLine("Consumption Quota: " + metered.GetConsumptionCredit());
+metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
-## Umgang mit Überschreitungen und Verlängerungen
+## Schritt 3: Erhalten Sie die gemessene Datenmenge, bevor Sie die API aufrufen
 
-Wenn sich Ihre Nutzung dem zugewiesenen Limit nähert, werden Sie von Aspose benachrichtigt. Sie können wählen, ob Sie mehr Credits erwerben oder Ihre Nutzung anpassen möchten, um innerhalb der Grenzen zu bleiben.
-
-## Best Practices für eine effiziente Nutzung
-
-So optimieren Sie Ihre Nutzung von Metered Licensing:
-
-- Cache-Ergebnisse: Vermeiden Sie unnötige API-Aufrufe, indem Sie Ergebnisse nach Möglichkeit zwischenspeichern.
-
-- Massenvorgänge: Führen Sie Vorgänge nach Möglichkeit in großen Mengen aus, um API-Aufrufe zu minimieren.
-
-## Beispielcode für gebührenpflichtige Lizenzierung mit Aspose.Slides für .NET
-
-Nachfolgend finden Sie ein vollständiges Beispiel für die Verwendung von Metered Licensing mit Aspose.Slides:
+Bevor Sie API-Aufrufe durchführen, können Sie die Menge der verbrauchten Messdaten überprüfen:
 
 ```csharp
-Aspose.Slides.License license = new Aspose.Slides.License();
-license.SetMeteredKey("AppSID", "AppKey");
-
-using (Presentation presentation = new Presentation("input.pptx"))
-{
-    presentation.Save("output.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
-}
+decimal amountBefore = Aspose.Slides.Metered.GetConsumptionQuantity();
+Console.WriteLine("Amount Consumed Before: " + amountBefore.ToString());
 ```
+
+Dadurch erhalten Sie Auskunft über die bisher verbrauchten Daten.
+
+## Schritt 4: Erhalten Sie die gemessene Datenmenge nach dem Aufruf der API
+
+Nachdem Sie API-Aufrufe durchgeführt haben, können Sie die aktualisierte gemessene Datenmenge überprüfen:
+
+```csharp
+decimal amountAfter = Aspose.Slides.Metered.GetConsumptionQuantity();
+Console.WriteLine("Amount Consumed After: " + amountAfter.ToString());
+```
+
+Dieser Schritt hilft Ihnen, den Datenverbrauch für Ihr Projekt zu überwachen.
+
+Indem Sie diese Schritte ausführen, haben Sie die getaktete Lizenzierung in Ihrem Aspose.Slides für .NET-Projekt erfolgreich implementiert.
 
 ## Abschluss
 
-Metered Licensing bietet eine flexible und kostengünstige Möglichkeit, leistungsstarke APIs wie Aspose.Slides für .NET zu nutzen. Wenn Sie die in diesem Artikel beschriebenen Schritte befolgen, können Sie Metered Licensing nahtlos in Ihre .NET-Anwendungen integrieren, sodass Sie für das bezahlen, was Sie nutzen, und gleichzeitig die Vorteile einer robusten Präsentationsmanipulationsbibliothek genießen.
+In dieser Schritt-für-Schritt-Anleitung haben wir die Grundlagen der Einrichtung von Aspose.Slides für .NET behandelt, einschließlich des Imports von Namespaces und der Implementierung einer getakteten Lizenzierung. Sie sind jetzt bestens gerüstet, um PowerPoint-Präsentationen mit Aspose.Slides zu erstellen, zu bearbeiten und zu verwalten. Nutzen Sie die Leistungsfähigkeit dieser Bibliothek, um Ihre PowerPoint-bezogenen Projekte auf die nächste Stufe zu heben.
 
-## FAQs
+## Häufig gestellte Fragen (FAQs)
 
-### Wie unterscheidet sich die gebührenpflichtige Lizenzierung von der herkömmlichen Lizenzierung?
+### Was ist Aspose.Slides für .NET?
+Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten. Es bietet eine breite Palette von Funktionen zum Erstellen, Bearbeiten und Bearbeiten von PowerPoint-Dateien.
 
-Bei der gebührenpflichtigen Lizenzierung werden Ihnen Gebühren auf Basis Ihrer tatsächlichen Nutzung berechnet, während bei der herkömmlichen Lizenzierung im Voraus eine feste Anzahl von Lizenzen erworben werden muss.
+### Wo finde ich die Aspose.Slides-Dokumentation?
+ Sie können auf die Aspose.Slides-Dokumentation unter zugreifen[dieser Link](https://reference.aspose.com/slides/net/).
 
-### Kann ich nachverfolgen, wie viele Credits ich verbraucht habe?
+### Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
+ Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET herunterladen unter[dieser Link](https://releases.aspose.com/).
 
- Ja, Sie können das verwenden`GetConsumptionCredit` Methode, die von der Metered-Klasse bereitgestellt wird, um Ihre Nutzung zu verfolgen.
+### Wie kann ich eine Lizenz für Aspose.Slides für .NET erwerben?
+ Um eine Lizenz zu erwerben, besuchen Sie den Aspose-Store unter[dieser Link](https://purchase.aspose.com/buy).
 
-### Was passiert, wenn ich mein Verzehrlimit überschreite?
-
-Wenn Sie Ihr Verbrauchslimit überschreiten, werden Sie von Aspose benachrichtigt. Sie können zusätzliche Credits erwerben oder Ihre Nutzung entsprechend anpassen.
-
-### Ist Metered Licensing für alle Arten von Projekten geeignet?
-
-Metered Licensing ist besonders vorteilhaft für Projekte mit unterschiedlichen Nutzungsmustern. Es bietet Flexibilität und Kosteneffizienz.
-
-### Kann ich Metered Licensing mit anderen Aspose-APIs verwenden?
-
-Ja, Metered Licensing ist für verschiedene Aspose-APIs verfügbar, sodass Sie das Lizenzmodell auswählen können, das Ihren Anforderungen am besten entspricht.
+### Gibt es ein Forum für Aspose.Slides-Unterstützung und Diskussionen?
+ Ja, im Aspose.Slides-Forum unter finden Sie Unterstützung und können sich an Diskussionen beteiligen[dieser Link](https://forum.aspose.com/).

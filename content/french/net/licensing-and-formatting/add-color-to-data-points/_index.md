@@ -1,137 +1,117 @@
 ---
-title: Ajouter de la couleur aux points de données dans le graphique
+title: Colorisation de graphiques avec Aspose.Slides pour .NET
 linktitle: Ajouter de la couleur aux points de données dans le graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment améliorer les visuels des graphiques avec Aspose.Slides pour .NET. Ajoutez des couleurs dynamiques aux points de données pour des présentations plus percutantes.
+description: Découvrez comment ajouter de la couleur aux points de données dans un graphique avec Aspose.Slides pour .NET. Améliorez visuellement vos présentations et engagez efficacement votre public.
 type: docs
 weight: 12
 url: /fr/net/licensing-and-formatting/add-color-to-data-points/
 ---
 
-## Introduction à Aspose.Slides pour .NET
+Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'ajout de couleur aux points de données dans un graphique à l'aide d'Aspose.Slides pour .NET. Aspose.Slides est une bibliothèque puissante pour travailler avec des présentations PowerPoint dans des applications .NET. L'ajout de couleur aux points de données d'un graphique peut rendre vos présentations plus attrayantes et plus faciles à comprendre.
 
-Aspose.Slides for .NET est une bibliothèque puissante qui permet aux développeurs de créer, modifier et manipuler des présentations PowerPoint par programme. Il offre un large éventail de fonctionnalités pour travailler avec divers éléments de présentations, notamment des graphiques. Dans cet article, nous nous concentrerons sur l'amélioration de l'apparence visuelle des graphiques en ajoutant des couleurs aux points de données.
+## Conditions préalables
 
-## Création d'un graphique de base
+Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-Commençons par créer un graphique de base à l'aide d'Aspose.Slides pour .NET. Nous supposons que vous avez déjà configuré votre environnement de développement et ajouté une référence à la bibliothèque Aspose.Slides. Voici un extrait de code pour créer un histogramme simple :
+1. Visual Studio : vous devez installer Visual Studio sur votre ordinateur.
+
+2.  Aspose.Slides pour .NET : téléchargez et installez Aspose.Slides pour .NET à partir du[lien de téléchargement](https://releases.aspose.com/slides/net/).
+
+3. Une compréhension de base de C# : Vous devez avoir une connaissance de base de la programmation C#.
+
+4. Votre répertoire de documents : remplacez « Votre répertoire de documents » dans le code par le chemin réel d'accès à votre répertoire de documents.
+
+## Importation d'espaces de noms
+
+Avant de pouvoir travailler avec Aspose.Slides pour .NET, vous devez importer les espaces de noms nécessaires. 
 
 ```csharp
-// Importez les espaces de noms requis
+﻿using Aspose.Slides.Charts;
+using Aspose.Slides.Export;
 using Aspose.Slides;
-using Aspose.Slides.Charts;
-
-// Créer une nouvelle présentation
-Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddSlide(0, presentation.SlideSize);
-
-//Ajouter un graphique à la diapositive
-IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 100, 100, 500, 400);
-
-// Ajouter des exemples de données au graphique
-chart.ChartData.Series.Add("Sample Series", new double[] { 1, 2, 3, 4 }, new string[] { "A", "B", "C", "D" });
-
-// Définir le titre du graphique
-chart.ChartTitle.TextFrame.Text = "Sample Chart";
-
-// Enregistrez la présentation
-presentation.Save("SampleChart.pptx", SaveFormat.Pptx);
 ```
 
-## Accéder aux points de données
 
- Pour ajouter de la couleur aux points de données, nous devons d'abord accéder aux points de données de la série de graphiques. Les points de données sont des valeurs individuelles tracées sur le graphique. Nous pouvons parcourir les points de données en utilisant le`ChartDataPointCollection` classe. Voici comment accéder aux points de données dans le graphique :
+Dans cet exemple, nous ajouterons de la couleur aux points de données d'un graphique en utilisant le type de graphique Sunburst.
 
 ```csharp
-// Accédez à la première série du graphique
-IChartSeries series = chart.ChartData.Series[0];
-
-// Accéder aux points de données de la série
-ChartDataPointCollection dataPoints = series.DataPoints;
-foreach (ChartDataPoint dataPoint in dataPoints)
+using (Presentation pres = new Presentation())
 {
-    // Accéder à la valeur du point de données
-    double value = dataPoint.Value;
+    // Le chemin d'accès au répertoire des documents.
+    string dataDir = "Your Document Directory";
 
-    // Accéder à l'index des points de données
-    int index = dataPoint.Index;
+    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Sunburst, 100, 100, 450, 400);
     
-    // Accéder à l'étiquette du point de données
-    string label = dataPoint.Label;
-    
-    // Ajouter de la couleur au point de données
-    dataPoint.Format.Fill.FillType = FillType.Solid;
-    dataPoint.Format.Fill.SolidFillColor.Color = Color.Red;
+    //Le reste du code sera ajouté dans les étapes suivantes.
 }
 ```
 
-## Ajout de couleurs aux points de données
+## Étape 1 : Accéder aux points de données
 
-Maintenant que nous avons accédé aux points de données, ajoutons-leur des couleurs. Dans l'extrait de code ci-dessus, nous définissons la couleur de remplissage de chaque point de données sur rouge. Vous pouvez personnaliser les couleurs en fonction de vos besoins. Cela rendra le graphique plus attrayant visuellement et aidera à mettre en évidence les points de données importants.
-
-## Personnalisation des couleurs en fonction des valeurs des données
-
-Au lieu d'attribuer une seule couleur à tous les points de données, vous pouvez personnaliser les couleurs en fonction des valeurs qu'elles représentent. Par exemple, vous pouvez attribuer un jeu de couleurs dégradé dans lequel les points de données avec des valeurs plus élevées ont des couleurs plus foncées et ceux avec des valeurs plus faibles ont des couleurs plus claires. Voici un exemple simplifié :
+Pour ajouter de la couleur à des points de données spécifiques dans un graphique, vous devez accéder à ces points de données. Dans cet exemple, nous ciblerons le point de données 3.
 
 ```csharp
-foreach (ChartDataPoint dataPoint in dataPoints)
-{
-    // Calculer la couleur en fonction de la valeur des données
-    double value = dataPoint.Value;
-    Color color = CalculateColor(value);
-
-    // Appliquer la couleur calculée au point de données
-    dataPoint.Format.Fill.FillType = FillType.Solid;
-    dataPoint.Format.Fill.SolidFillColor.Color = color;
-}
+IChartDataPointCollection dataPoints = chart.ChartData.Series[0].DataPoints;
+dataPoints[3].DataPointLevels[0].Label.DataLabelFormat.ShowValue = true;
 ```
 
- Dans cet exemple, le`CalculateColor` La fonction détermine la couleur en fonction de la valeur des données. Vous pouvez implémenter votre propre logique pour obtenir la palette de couleurs souhaitée.
+## Étape 2 : personnalisation des étiquettes de données
 
-## Titre et axes du graphique de style
-
-En plus de colorer les points de données, vous pouvez améliorer davantage l'apparence du graphique en stylisant le titre et les axes du graphique. Aspose.Slides pour .NET fournit diverses propriétés pour personnaliser ces éléments. Voici comment définir la police et la couleur du titre du graphique :
+Maintenant, personnalisons les étiquettes de données pour le point de données 0. Nous allons masquer le nom de la catégorie et afficher le nom de la série.
 
 ```csharp
-// Personnaliser la police et la couleur du titre du graphique
-chart.ChartTitle.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 18;
-chart.ChartTitle.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.FillType = FillType.Solid;
-chart.ChartTitle.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = Color.Blue;
+IDataLabel branch1Label = dataPoints[0].DataPointLevels[2].Label;
+branch1Label.DataLabelFormat.ShowCategoryName = false;
+branch1Label.DataLabelFormat.ShowSeriesName = true;
 ```
 
-Vous pouvez appliquer une personnalisation similaire aux axes, à la légende et à d'autres éléments du graphique.
+## Étape 3 : Définition du format du texte et de la couleur de remplissage
 
-## Sauvegarde de la présentation
-
-Une fois que vous avez personnalisé l'apparence du graphique, il est temps de sauvegarder la présentation. Vous pouvez l'enregistrer dans différents formats, tels que PPTX ou PDF. Voici comment enregistrer la présentation sous forme de fichier PPTX :
+Nous pouvons encore améliorer l'apparence des étiquettes de données en définissant le format du texte et la couleur de remplissage. Dans cette étape, nous définirons la couleur du texte sur jaune pour le point de données 0.
 
 ```csharp
-// Enregistrez la présentation
-presentation.Save("CustomizedChart.pptx", SaveFormat.Pptx);
+branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.FillType = FillType.Solid;
+branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.SolidFillColor.Color = Color.Yellow;
 ```
+
+## Étape 4 : Personnalisation de la couleur de remplissage des points de données
+
+Modifions maintenant la couleur de remplissage du point de données 9. Nous allons lui attribuer une couleur spécifique.
+
+```csharp
+IFormat steam4Format = dataPoints[9].Format;
+steam4Format.Fill.FillType = FillType.Solid;
+steam4Format.Fill.SolidFillColor.Color = Color.FromArgb(0, 176, 240, 255);
+```
+
+## Étape 5 : enregistrement de la présentation
+
+Après avoir personnalisé le graphique, vous pouvez enregistrer la présentation avec les modifications.
+
+```csharp
+pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
+```
+
+Toutes nos félicitations! Vous avez réussi à ajouter de la couleur aux points de données d'un graphique à l'aide d'Aspose.Slides pour .NET. Cela peut grandement améliorer l’attrait visuel et la clarté de vos présentations.
 
 ## Conclusion
 
-Dans cet article, nous avons appris comment ajouter de la couleur aux points de données dans un graphique à l'aide d'Aspose.Slides pour .NET. Nous avons exploré le processus de création d'un graphique de base, d'accès aux points de données et de personnalisation de leurs couleurs en fonction des valeurs. De plus, nous avons vu comment styliser le titre et les axes du graphique pour créer des présentations visuellement attrayantes.
+L'ajout de couleur aux points de données d'un graphique est un moyen puissant de rendre vos présentations plus attrayantes et informatives. Avec Aspose.Slides pour .NET, vous disposez des outils nécessaires pour créer des graphiques visuellement attrayants qui transmettent efficacement vos données.
 
-## FAQ
+## Foire aux questions (FAQ)
 
-### Comment puis-je installer Aspose.Slides pour .NET ?
+### Qu’est-ce qu’Aspose.Slides pour .NET ?
+   Aspose.Slides for .NET est une bibliothèque qui permet aux développeurs .NET de travailler avec des présentations PowerPoint par programme.
 
- Vous pouvez télécharger et installer Aspose.Slides pour .NET à partir du site Web :[Téléchargez Aspose.Slides pour .NET](https://downloads.aspose.com/slides/net)
+### Puis-je personnaliser d’autres propriétés de graphique à l’aide d’Aspose.Slides ?
+   Oui, vous pouvez personnaliser divers aspects des graphiques, tels que les étiquettes de données, les polices, les couleurs, etc., à l'aide d'Aspose.Slides pour .NET.
 
-### Puis-je appliquer différents schémas de couleurs à différentes séries de données ?
+### Où puis-je trouver de la documentation pour Aspose.Slides pour .NET ?
+    Vous pouvez trouver une documentation détaillée sur[lien vers la documentation](https://reference.aspose.com/slides/net/).
 
-Oui, vous pouvez appliquer différents jeux de couleurs à différentes séries de données au sein du même graphique. Cela vous permet de différencier efficacement plusieurs ensembles de données.
+### Existe-t-il un essai gratuit disponible pour Aspose.Slides pour .NET ?
+    Oui, vous pouvez télécharger un essai gratuit à partir de[ici](https://releases.aspose.com/).
 
-### Aspose.Slides pour .NET est-il compatible avec d’autres bibliothèques .NET ?
-
-Oui, Aspose.Slides pour .NET est conçu pour fonctionner de manière transparente avec d'autres bibliothèques .NET. Vous pouvez l'intégrer dans vos projets existants sans aucun problème de compatibilité.
-
-### Puis-je exporter le graphique sous forme d’image ?
-
-Oui, vous pouvez exporter le graphique sous forme d'image à l'aide d'Aspose.Slides pour .NET. Ceci est utile lorsque vous devez inclure le graphique dans des documents, des rapports ou des pages Web.
-
-### Comment puis-je en savoir plus sur Aspose.Slides pour .NET ?
-
- Pour une documentation détaillée, des exemples et une référence API, vous pouvez visiter la documentation :[ici](https://reference.aspose.com/slides/net/).
+### Comment puis-je obtenir du support pour Aspose.Slides pour .NET ?
+    Pour obtenir de l'aide et des discussions, visitez le[Forum Aspose.Slides](https://forum.aspose.com/).

@@ -75,6 +75,6 @@ Kesinlikle! Aspose.Slides for .NET, düzen ve biçimlendirme de dahil olmak üze
 
 ### S4: Aspose.Slides for .NET için daha fazla eğitim ve örneği nerede bulabilirim?
 
- Ek eğitimleri ve örnekleri inceleyebilirsiniz.[Aspose.Slides for .NET API belgeleri](https://reference.aspose.com/slides/net/).
+Ek eğitimleri ve örnekleri inceleyebilirsiniz.[Aspose.Slides for .NET API belgeleri](https://reference.aspose.com/slides/net/).
 
 Artık Notes Slayt Görünümünü başarıyla PDF Formatına dönüştürdüğünüze göre, PowerPoint otomasyon görevlerinizi geliştirmek için Aspose.Slides for .NET'in daha fazla özelliğini ve yeteneğini keşfedebilirsiniz. Mutlu kodlama!
