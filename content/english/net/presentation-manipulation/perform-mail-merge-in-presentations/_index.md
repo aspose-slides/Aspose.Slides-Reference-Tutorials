@@ -2,134 +2,90 @@
 title: Perform Mail Merge in Presentations
 linktitle: Perform Mail Merge in Presentations
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Learn how to perform mail merge in presentations using Aspose.Slides for .NET in this comprehensive step-by-step guide. Create personalized and dynamic presentations with ease.
+description: Learn mail merge in presentations using Aspose.Slides for .NET in this step-by-step guide. Create dynamic, personalized presentations effortlessly.
 type: docs
 weight: 21
 url: /net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
-
-In the realm of software development, creating dynamic and personalized presentations is a common requirement. Businesses often need to generate presentations tailored to specific data, and this is where mail merge functionality comes into play. In this tutorial, we will guide you through the process of performing mail merge in presentations using Aspose.Slides for .NET.
-
 ## Introduction
-
-Mail merge is a powerful technique that allows you to populate presentation templates with data from various sources, such as databases or XML files. In this tutorial, we'll focus on using Aspose.Slides for .NET to perform mail merge in presentations step by step.
-
-## Setting Up Your Environment
-
-Before we dive into the mail merging process, you need to set up your development environment. Make sure you have the following prerequisites in place:
-
-- Visual Studio or any other C# development environment.
-- Aspose.Slides for .NET library installed. You can download it [here](https://releases.aspose.com/slides/net/).
-
-## Understanding the Data Source
-
-For mail merge, you'll need a data source. In this tutorial, we'll use an XML file as our data source. Here's an example of how your data source might look:
-
-```xml
-<!-- TestData.xml -->
-<?xml version="1.0" encoding="UTF-8"?>
-<MailMerge>
-    <TestTable>
-        <Id>1</Id>
-        <Code>105</Code>
-        <Name>Samuel Ellington</Name>
-        <Department>Legal Department</Department> <Img></Img>
-    </TestTable>
-    <StaffList>
-        <Id>18</Id>
-        <UserId>1</UserId>
-        <Name>Amelia Walker</Name>
-    </StaffList>
-    <Plan_Fact>
-        <Id>1</Id>
-        <UserId>1</UserId>
-        <OnDate>2020/01</OnDate>
-        <PlanData>2,0</PlanData>
-        <FactData>2,8</FactData>
-    </Plan_Fact>
-</MailMerge>
-```
-
-## Creating the Presentation Template
-
-To perform mail merge, you'll need a presentation template (PPTX file) that defines the layout of your final presentations. You can create this template using Microsoft PowerPoint or any other tool of your choice.
-
-## Mail Merging Process
-
-Now, let's dive into the actual mail merging process using Aspose.Slides for .NET. We'll break it down into steps:
-
-1. Load the presentation template.
-2. Fill text boxes with data from the data source.
-3. Insert images into the presentation.
-4. Prepare and fill text frames.
-5. Save the individual presentations.
-
-Here's a snippet of C# code that accomplishes these steps:
-
+In the world of .NET development, creating dynamic and personalized presentations is a common requirement. One powerful tool that simplifies this process is Aspose.Slides for .NET. In this tutorial, we'll delve into the fascinating realm of performing mail merge in presentations using Aspose.Slides for .NET.
+## Prerequisites
+Before we embark on this journey, make sure you have the following prerequisites in place:
+- Aspose.Slides for .NET Library: Ensure you have the Aspose.Slides for .NET library installed. You can download it from [here](https://releases.aspose.com/slides/net/).
+- Document Template: Prepare a presentation template (e.g., PresentationTemplate.pptx) that will serve as the base for mail merge.
+- Data Source: You need a data source for mail merge. In our example, we'll use XML data (TestData.xml), but Aspose.Slides supports various data sources like RDBMS.
+Now, let's dive into the steps of performing mail merge in presentations using Aspose.Slides for .NET.
+## Import Namespaces
+Firstly, ensure you import the necessary namespaces to leverage the functionalities provided by Aspose.Slides:
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Examples.CSharp;
+using Aspose.Slides.Export;
+using DataTable = System.Data.DataTable;
+```
+## Step 1: Set Up Your Document Directory
+```csharp
+string dataDir = "Your Document Directory";
 string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
-    string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
-
-    // Path to the data.
-    // XML data is one of the examples of the possible MailMerge data sources (among RDBMS and other types of data sources). 
-    string dataPath = Path.Combine(dataDir, "TestData.xml");
-
-    // Check if result path exists
-    if (!Directory.Exists(resultPath))
-        Directory.CreateDirectory(resultPath);
-
-    // Creating DataSet using XML data
-    using (DataSet dataSet = new DataSet())
+string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
+// Check if result path exists
+if (!Directory.Exists(resultPath))
+    Directory.CreateDirectory(resultPath);
+```
+## Step 2: Create a DataSet Using XML Data
+```csharp
+using (DataSet dataSet = new DataSet())
+{
+    dataSet.ReadXml(dataPath);
+    DataTableCollection dataTables = dataSet.Tables;
+    DataTable usersTable = dataTables["TestTable"];
+    DataTable staffListTable = dataTables["StaffList"];
+    DataTable planFactTable = dataTables["Plan_Fact"];
+```
+## Step 3: Loop Through Records and Create Individual Presentations
+```csharp
+foreach (DataRow userRow in usersTable.Rows)
+{
+    // create result (individual) presentation name
+    string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
+    // Load presentation template
+    using (Presentation pres = new Presentation(presTemplatePath))
     {
-        dataSet.ReadXml(dataPath);
-
-        DataTableCollection dataTables = dataSet.Tables;
-        DataTable usersTable = dataTables["TestTable"];
-        DataTable staffListTable = dataTables["StaffList"];
-        DataTable planFactTable = dataTables["Plan_Fact"];
-
-        // For all records in main table we will create a separate presentation
-        foreach (DataRow userRow in usersTable.Rows)
-        {
-            // create result (individual) presentation name
-            string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
-
-            // Load presentation template
-            using (Presentation pres = new Presentation(presTemplatePath))
-            {
-                // Fill text boxes with data from data base main table
-                ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text =
-                    "Chief of the department - " + userRow["Name"];
-                ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
-
-                // Get image from data base
-                byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-
-                // insert image into picture frame of presentation
-                IPPImage image = pres.Images.AddImage(bytes);
-                IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
-                pf.PictureFormat.Picture.Image.ReplaceImage(image);
-
-                // Get abd prepare text frame for filling it with datas
-                IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
-                ITextFrame textFrame = list.TextFrame;
-
-                textFrame.Paragraphs.Clear();
-                Paragraph para = new Paragraph();
-                para.Text = "Department Staff:";
-                textFrame.Paragraphs.Add(para);
-
-                // fill staff data
-                FillStaffList(textFrame, userRow, staffListTable);
-
-                // fill plan fact data
-                FillPlanFact(pres, userRow, planFactTable);
-
-                pres.Save(presPath, SaveFormat.Pptx);
-            }
-        }
+        // Fill text boxes with data from the main table
+        ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text = "Chief of the department - " + userRow["Name"];
+        ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
+        // Get image from the database
+        byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
+        // Insert image into the picture frame of the presentation
+        IPPImage image = pres.Images.AddImage(bytes);
+        IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
+        pf.PictureFormat.Picture.Image.ReplaceImage(image);
+        // Get and prepare the text frame for filling it with data
+        IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
+        ITextFrame textFrame = list.TextFrame;
+        textFrame.Paragraphs.Clear();
+        Paragraph para = new Paragraph();
+        para.Text = "Department Staff:";
+        textFrame.Paragraphs.Add(para);
+        // Fill staff data
+        FillStaffList(textFrame, userRow, staffListTable);
+        // Fill plan fact data
+        FillPlanFact(pres, userRow, planFactTable);
+        pres.Save(presPath, SaveFormat.Pptx);
     }
-
+}
+```
+## Step 4: Fill Text Frame with Data as a List
+```csharp
 static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
 {
     foreach (DataRow listRow in staffListTable.Rows)
@@ -148,76 +104,49 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
         }
     }
 }
-
-// Fills data chart from the secondary planFact table  
+```
+## Step 5: Fill Data Chart from the Secondary PlanFact Table
+```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
     IChart chart = pres.Slides[0].Shapes[3] as Chart;
     IChartTitle chartTitle = chart.ChartTitle;
     chartTitle.TextFrameForOverriding.Text = row["Name"] + " : Plan / Fact";
-
     DataRow[] selRows = planFactTable.Select("UserId = " + row["Id"]);
     string range = chart.ChartData.GetRange();
-
     IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
     int worksheetIndex = 0;
-
-    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 1, 1,
-            double.Parse(selRows[0]["PlanData"].ToString())));
+    // Add data points for line series
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries
+(cellsFactory.GetCell(worksheetIndex, 1, 1, double.Parse(selRows[0]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 1, 2,
-            double.Parse(selRows[0]["FactData"].ToString())));
-
+        cellsFactory.GetCell(worksheetIndex, 1, 2, double.Parse(selRows[0]["FactData"].ToString())));
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 2, 1,
-            double.Parse(selRows[1]["PlanData"].ToString())));
+        cellsFactory.GetCell(worksheetIndex, 2, 1, double.Parse(selRows[1]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 2, 2,
-            double.Parse(selRows[1]["FactData"].ToString())));
-
+        cellsFactory.GetCell(worksheetIndex, 2, 2, double.Parse(selRows[1]["FactData"].ToString())));
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 3, 1,
-            double.Parse(selRows[2]["PlanData"].ToString())));
+        cellsFactory.GetCell(worksheetIndex, 3, 1, double.Parse(selRows[2]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 3, 2,
-            double.Parse(selRows[2]["FactData"].ToString())));
-
+        cellsFactory.GetCell(worksheetIndex, 3, 2, double.Parse(selRows[2]["FactData"].ToString())));
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 3, 1,
-            double.Parse(selRows[3]["PlanData"].ToString())));
+        cellsFactory.GetCell(worksheetIndex, 3, 1, double.Parse(selRows[3]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 3, 2,
-            double.Parse(selRows[3]["FactData"].ToString())));
-
+        cellsFactory.GetCell(worksheetIndex, 3, 2, double.Parse(selRows[3]["FactData"].ToString())));
     chart.ChartData.SetRange(range);
-}		
+}
 ```
-
-## Saving the Result
-
-Once you've completed the mail merge process for all records in your data source, you'll have individual presentations ready. You can save them to your desired location.
-
+These steps demonstrate a comprehensive guide on performing mail merge in presentations using Aspose.Slides for .NET. Now, let's address some frequently asked questions.
+## Frequently Asked Questions
+### 1. Is Aspose.Slides for .NET compatible with different data sources?
+Yes, Aspose.Slides for .NET supports various data sources, including XML, RDBMS, and more.
+### 2. Can I customize the appearance of bullet points in the generated presentation?
+Certainly! You have full control over the appearance of bullet points, as demonstrated in the `FillStaffList` method.
+### 3. What types of charts can I create using Aspose.Slides for .NET?
+Aspose.Slides for .NET supports a wide range of charts, including line charts as shown in our example, bar charts, pie charts, and more.
+### 4. How do I get support or seek assistance with Aspose.Slides for .NET?
+For support and assistance, you can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+### 5. Can I try Aspose.Slides for .NET before purchasing?
+Certainly! You can avail of a free trial of Aspose.Slides for .NET from [here](https://releases.aspose.com/).
 ## Conclusion
-
-Performing mail merge in presentations using Aspose.Slides for .NET opens up a world of possibilities for creating customized and data-driven presentations. This tutorial has guided you through the essential steps to achieve this seamlessly.
-
-## FAQs
-
-**Q1: Is Aspose.Slides for .NET the only library for mail merge in presentations?**
-A1: While Aspose.Slides for .NET is a powerful choice, other libraries and tools also offer similar functionality. It ultimately depends on your specific requirements and preferences.
-
-**Q2: Can I use different data sources apart from XML files?**
-A2: Yes, Aspose.Slides for .NET supports various data sources, including databases and custom data structures.
-
-**Q3: How can I format the merged presentations further?**
-A3: You can apply additional formatting, styles, and animations to the merged presentations using Aspose.Slides' rich feature set.
-
-**Q4: Is there a trial version of Aspose.Slides for .NET available?**
-A4: Yes, you can get a free trial of Aspose.Slides for .NET [here](https://releases.aspose.com/).
-
-**Q5: Where can I get support for Aspose.Slides for .NET?**
-A5: For technical support and discussions, you can visit the [Aspose.Slides forum](https://forum.aspose.com/).
-
-Now that you've learned how to perform mail merge in presentations with Aspose.Slides for .NET, you can start creating dynamic and data-rich presentations for your projects. Happy coding!
-
+In this tutorial, we explored the exciting capabilities of Aspose.Slides for .NET in performing mail merge in presentations. By following the step-by-step guide, you can create dynamic and personalized presentations effortlessly. Elevate your .NET development experience with Aspose.Slides for seamless presentation generation.
