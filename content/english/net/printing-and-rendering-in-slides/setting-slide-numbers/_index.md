@@ -2,115 +2,64 @@
 title: Setting Slide Numbers for Presentations using Aspose.Slides
 linktitle: Setting Slide Numbers for Presentations using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Learn how to add and customize slide numbers in PowerPoint presentations using Aspose.Slides for .NET. This step-by-step guide provides source code examples for setting up the project, loading a presentation, adding slide numbers, customizing their format, and adjusting their placement.
+description: Explore the seamless world of slide manipulation with Aspose.Slides for .NET. Learn how to set slide numbers effortlessly, enhancing your presentation experience.
 type: docs
 weight: 16
 url: /net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-## Introduction to Aspose.Slides for .NET
-
-Aspose.Slides for .NET is a versatile library that enables .NET developers to create, modify, and manipulate PowerPoint presentations programmatically. It provides a wide range of features to interact with various elements of presentations, including slides, shapes, text, images, and more. In this guide, we'll focus on adding and customizing slide numbers using Aspose.Slides for .NET.
-
+## Introduction
+In the dynamic world of presentations, controlling the sequence and organization of slides is crucial for effective communication. Aspose.Slides for .NET provides a powerful solution to manipulate slide numbers within your presentations, giving you the flexibility to customize your content seamlessly.
 ## Prerequisites
-
-Before we begin, make sure you have the following prerequisites in place:
-
-- Visual Studio (or any other .NET development environment)
-- Aspose.Slides for .NET library (Download from [here](https://releases.aspose.com/slides/net/)
-
-## Setting up the Project
-
-1. Create a new Visual Studio project (Console Application, for example).
-2. Add a reference to the Aspose.Slides for .NET library.
-
-## Loading a Presentation
-
-To get started, let's load an existing PowerPoint presentation:
-
+Before diving into the tutorial, make sure you have the following prerequisites in place:
+- Aspose.Slides for .NET: Ensure that you have the Aspose.Slides library installed. You can download it from [here](https://releases.aspose.com/slides/net/).
+- Development Environment: Have a working .NET development environment set up on your machine.
+- Sample Presentation: Download the sample presentation, "HelloWorld.pptx," that we'll be using in this tutorial.
+Now, let's explore the step-by-step guide on how to set slide numbers using Aspose.Slides for .NET.
+## Import Namespaces
+Before you start working with Aspose.Slides, you need to import the necessary namespaces into your project.
+```csharp
+using Aspose.Slides.Export;
+using Aspose.Slides;
+```
+Now, let's break down each step into more detail:
+## Step 1: Import Necessary Namespaces
+In your .NET project, ensure that you include the following namespaces:
 ```csharp
 using Aspose.Slides;
-
-// Load the presentation
-using Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Export;
 ```
-
-## Adding Slide Numbers
-
-Next, let's add slide numbers to each slide in the presentation:
-
+These namespaces provide the essential classes and methods needed for working with presentations using Aspose.Slides.
+## Step 2: Load the Presentation
+To begin, create an instance of the `Presentation` class and load your presentation file, in this case, "HelloWorld.pptx."
 ```csharp
-// Enable slide numbers
-foreach (ISlide slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
 {
-    // Add slide number shape
-    IAutoShape slideNumberShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 10, 50, 20);
-    slideNumberShape.TextFrame.Text = (slide.SlideNumber).ToString();
+    // Your code here
 }
 ```
-
-## Customizing Slide Number Format
-
-You can customize the appearance of the slide numbers by adjusting font, color, size, and more:
-
+## Step 3: Get and Set Slide Number
+Retrieve the current slide number using the `FirstSlideNumber` property and then set it to your desired value. In the example, we set it to 10.
 ```csharp
-foreach (IAutoShape shape in presentation.Slides[0].Shapes.OfType<IAutoShape>())
-{
-    // Customize font and color
-    ITextFrame textFrame = shape.TextFrame;
-    IParagraph paragraph = textFrame.Paragraphs[0];
-    IPortion portion = paragraph.Portions[0];
-    
-    portion.PortionFormat.FontHeight = 12;
-    portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+int firstSlideNumber = presentation.FirstSlideNumber;
+presentation.FirstSlideNumber = 10;
 ```
-
-## Updating Slide Number Placement
-
-You can also adjust the position of the slide numbers on each slide:
-
+## Step 4: Save the Modified Presentation
+Finally, save the modified presentation with the new slide number.
 ```csharp
-foreach (ISlide slide in presentation.Slides)
-{
-    foreach (IAutoShape shape in slide.Shapes.OfType<IAutoShape>())
-    {
-        shape.Left = slide.SlideSize.Size.Width - shape.Width - 10;
-        shape.Top = slide.SlideSize.Size.Height - shape.Height - 10;
-    }
-}
+presentation.Save(dataDir + "Set_Slide_Number_out.pptx", SaveFormat.Pptx);
 ```
-
-## Saving the Modified Presentation
-
-Once you've added and customized the slide numbers, save the modified presentation:
-
-```csharp
-presentation.Save("output-presentation.pptx", SaveFormat.Pptx);
-```
-
+Repeat these steps as needed to customize slide numbers according to your presentation requirements.
 ## Conclusion
-
-In this guide, we explored how to enhance your presentations by adding and customizing slide numbers using Aspose.Slides for .NET. By following the provided steps and code examples, you can automate the process of adding slide numbers and create professional-looking presentations.
-
-## FAQ's
-
-### How do I install Aspose.Slides for .NET?
-
-You can download the Aspose.Slides for .NET library from [here](https://releases.aspose.com/slides/net/). After downloading, add a reference to the library in your .NET project.
-
+Aspose.Slides for .NET empowers you to take control of your presentation flow by easily setting slide numbers. Enhance your presentations with a seamless and dynamic user experience using this powerful library.
+## FAQs
+### Is Aspose.Slides compatible with the latest .NET versions?
+Yes, Aspose.Slides is regularly updated to ensure compatibility with the latest .NET framework versions.
 ### Can I customize the appearance of slide numbers?
-
-Yes, you can customize the font, color, size, and other attributes of the slide numbers using the provided code examples.
-
-### How can I adjust the position of slide numbers on each slide?
-
-You can adjust the position of slide numbers by modifying the coordinates of the slide number shapes, as shown in the code examples.
-
-### Is Aspose.Slides for .NET only for adding slide numbers?
-
-No, Aspose.Slides for .NET offers a wide range of features beyond adding slide numbers. It allows you to create, modify, and manipulate various elements of PowerPoint presentations programmatically.
-
-### Are the modifications reversible if I want to remove slide numbers later?
-
-Yes, you can easily remove the slide numbers by removing the corresponding shapes from the slides using the Aspose.Slides library.
+Absolutely! Aspose.Slides provides extensive options to customize the appearance of slide numbers, including font, size, and color.
+### Are there any licensing restrictions for using Aspose.Slides?
+Refer to the [official Aspose.Slides licensing page](https://purchase.aspose.com/buy) for detailed information on licensing.
+### How can I get support for Aspose.Slides-related queries?
+Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community-based support or explore premium support options.
+### Can I try Aspose.Slides before purchasing?
+Yes, you can download a free trial version from [here](https://releases.aspose.com/).
