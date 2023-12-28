@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 Once you've identified an OLE object frame, you can extract its data for manipulation. For instance, if the OLE object is an embedded Excel spreadsheet, you can access its data as follows:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // Process the raw data as needed
-}
+
 ```
 
 ### 5. Modifying OLE Object Frames
@@ -64,12 +62,10 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Aspose.Slides empowers you to modify OLE object frames programmatically. Suppose you want to update the content of an embedded Word document. Here's how you can achieve it:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // Modify the embedded data
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## FAQs

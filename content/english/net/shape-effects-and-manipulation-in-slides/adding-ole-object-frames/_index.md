@@ -8,90 +8,62 @@ weight: 15
 url: /net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
 
-## Introduction
+## Complete Source Code
 
-In the dynamic world of presentations, visual elements play a pivotal role in conveying information effectively. OLE (Object Linking and Embedding) object frames present an exciting opportunity to seamlessly incorporate external data and enhance the visual appeal of your slides. In this comprehensive guide, we'll walk you through the step-by-step process of adding OLE object frames to your presentation slides using Aspose.Slides for .NET. Whether you're a seasoned presenter or a beginner, this article will equip you with the knowledge and expertise to create captivating and informative presentations.
+using System.IO;
+using Aspose.Slides;
+using Aspose.Slides.DOM.Ole;
+using Aspose.Slides.Export;
 
-## Adding OLE Object Frames: Step-by-Step Guide
+namespace Aspose.Slides.Examples.CSharp.Shapes 
+{
+    public class AddOLEObjectFrame
+    {
+        public static void Run()
+        {
+            //ExStart:AddOLEObjectFrame
 
-### Setting Up Your Environment
+            // The path to the documents directory.
+            string dataDir = RunExamples.GetDataDir_Shapes();
 
-Before we dive into the technical aspects, it's crucial to ensure that you have the necessary tools in place. Here's what you'll need:
+            // Create directory if it is not already present.
+            bool IsExists = System.IO.Directory.Exists(dataDir);
+            if (!IsExists)
+                System.IO.Directory.CreateDirectory(dataDir);
 
-1. Aspose.Slides for .NET: Download and install the latest version from the  [Aspose.Slides releases](https://releases.aspose.com/slides/net/) page.
+            // Instantiate Prseetation class that represents the PPTX
+            using (Presentation pres = new Presentation())
+            {
+                // Access the first slide
+                ISlide sld = pres.Slides[0];
 
-2. Integrated Development Environment (IDE): Choose your preferred IDE for .NET development.
+                // Load an cel file to stream
+                MemoryStream mstream = new MemoryStream();
+                using (FileStream fs = new FileStream(dataDir + "book1.xlsx", FileMode.Open, FileAccess.Read))
+                {
+                    byte[] buf = new byte[4096];
 
-### Creating a New Presentation
+                    while (true)
+                    {
+                        int bytesRead = fs.Read(buf, 0, buf.Length);
+                        if (bytesRead <= 0)
+                            break;
+                        mstream.Write(buf, 0, bytesRead);
+                    }
+                }
 
-Let's start by creating a new presentation where we'll add our OLE object frame.
+                // Create data object for embedding
+                IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx");
 
-```csharp
-// Initialize a new presentation
-Presentation presentation = new Presentation();
+                // Add an Ole Object Frame shape
+                IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
+                    pres.SlideSize.Size.Height, dataInfo);
 
-// Add a slide
-ISlide slide = presentation.Slides.AddEmptySlide();
+                //Write the PPTX to disk
+                pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
+            }
 
-// Add content to the slide
-ITextFrame textFrame = slide.Shapes.AddTextFrame();
-textFrame.Text = "Adding OLE Object Frame";
-
-// Save the presentation
-presentation.Save("PresentationWithOLE.pptx", SaveFormat.Pptx);
-```
-
-### Adding OLE Object Frame
-
-Now comes the exciting part – integrating an OLE object frame into your slide. For this example, let's embed an Excel spreadsheet.
-
-```csharp
-// Load the presentation
-Presentation presentation = new Presentation("PresentationWithOLE.pptx");
-
-// Add an OLE object frame
-IOleObjectFrame oleObjectFrame = slide.Shapes.AddOleObjectFrame(x, y, width, height, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", stream);
-
-// Save the updated presentation
-presentation.Save("PresentationWithOLEUpdated.pptx", SaveFormat.Pptx);
-```
-
-### Customizing OLE Object Frame
-
-You can further enhance the appearance and behavior of your OLE object frame:
-
-- Size and Position: Adjust the dimensions and placement of the frame to suit your layout.
-- Activation Action: Define an action, such as clicking, to activate and interact with the embedded object.
-- Border and Fill: Customize the border and fill color of the frame to align with your design.
-
-### FAQs
-
-#### How can I add different types of OLE objects?
-
-You can embed various types of OLE objects, such as Word documents or PDFs, by specifying the appropriate MIME type during the frame creation process.
-
-#### Can I edit the embedded object within the slide?
-
-Yes, once the OLE object frame is added, you can double-click it to open and edit the embedded object directly within your presentation.
-
-#### Will my presentation remain compatible with different systems?
-
-Absolutely. OLE object frames maintain compatibility across different systems, ensuring your presentation looks the same for all viewers.
-
-#### Is Aspose.Slides suitable for beginners?
-
-Yes, Aspose.Slides offers a user-friendly interface and extensive documentation, making it accessible to both beginners and experienced developers.
-
-#### How do I update the embedded object?
-
-To update the embedded object, simply replace the existing object with the updated version, and it will reflect in the presentation.
-
-#### Can I apply animations to OLE object frames?
-
-Certainly. Aspose.Slides allows you to apply animations to OLE object frames, adding a dynamic element to your presentations.
-
-### Conclusion
-
-With the knowledge gained from this guide, you're now equipped to seamlessly integrate OLE object frames into your presentation slides using Aspose.Slides for .NET. Elevate the visual appeal of your presentations and captivate your audience by harnessing the power of OLE object frames. Whether you're a presenter, educator, or business professional, this versatile tool will undoubtedly enhance your content delivery.
-
-Unlock the potential of OLE object frames and take your presentations to new heights. So why wait? Start experimenting and transforming your slides today!
+            //ExEnd:AddOLEObjectFrame
+        }
+    }
+}
