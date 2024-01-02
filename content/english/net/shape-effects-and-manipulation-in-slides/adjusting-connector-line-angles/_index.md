@@ -1,120 +1,89 @@
 ---
-title: Adjusting Connector Line Angles in Presentation Slides using Aspose.Slides
+title: Adjust Connector Line Angles in PowerPoint with Aspose.Slides
 linktitle: Adjusting Connector Line Angles in Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Learn how to enhance your presentation slides by adjusting connector line angles using Aspose.Slides for .NET. Step-by-step guide with code examples.
+description: Learn how to adjust connector line angles in PowerPoint slides using Aspose.Slides for .NET. Enhance your presentations with precision and ease.
 type: docs
 weight: 28
 url: /net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-Connector lines play a crucial role in creating well-structured and visually appealing presentation slides. They help establish relationships between different elements on a slide, enhancing the clarity of information. Aspose.Slides, a powerful .NET API, provides various features to manipulate these connector lines, including adjusting their angles. In this tutorial, we'll explore how to adjust connector line angles in presentation slides using Aspose.Slides for .NET.
-
-## Introduction to Connector Lines
-
-Connector lines are essential visual aids in presentations, used to illustrate relationships between objects or concepts. They are commonly employed to create flowcharts, diagrams, and process illustrations. Adjusting the angles of connector lines can significantly impact the overall aesthetics and comprehensibility of a slide.
-
-## Getting Started with Aspose.Slides for .NET
-
-Before we delve into adjusting connector line angles, let's set up our development environment and integrate Aspose.Slides into our project. Follow these steps:
-
-1. Download and Install Aspose.Slides for .NET from [here](https://releases.aspose.com/slides/net/).
-2. Create a new .NET project in your preferred development environment.
-3. Add a reference to the Aspose.Slides library in your project.
-
-## Adding Connector Lines to Slides
-
-To adjust connector line angles, we first need to add connector lines to our slides. Here's how you can do it using Aspose.Slides:
-
+## Introduction
+Creating visually appealing presentation slides often involves precise adjustments to connector lines. In this tutorial, we'll explore how to adjust connector line angles in presentation slides using Aspose.Slides for .NET. Aspose.Slides is a powerful library that allows developers to work with PowerPoint files programmatically, providing extensive capabilities for creating, modifying, and manipulating presentations.
+## Prerequisites
+Before we dive into the tutorial, ensure that you have the following:
+- Basic knowledge of C# programming language.
+- Visual Studio or any other C# development environment installed.
+- Aspose.Slides for .NET library. You can download it [here](https://releases.aspose.com/slides/net/).
+- A PowerPoint presentation file with connector lines that you want to adjust.
+## Import Namespaces
+To get started, make sure to include the necessary namespaces in your C# code:
 ```csharp
-// Instantiate a Presentation object
-using (Presentation presentation = new Presentation())
+using System.IO;
+using Aspose.Slides;
+using System;
+```
+## Step 1: Set Up Your Project
+Create a new C# project in Visual Studio and install the Aspose.Slides NuGet package. Set up the project structure with a reference to the Aspose.Slides library.
+## Step 2: Load the Presentation
+```csharp
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "ConnectorLineAngle.pptx");
+```
+Load your PowerPoint presentation file into the `Presentation` object. Replace "Your Document Directory" with the actual path to your file.
+## Step 3: Access the Slide and Shapes
+```csharp
+Slide slide = (Slide)pres.Slides[0];
+Shape shape;
+```
+Access the first slide in the presentation and initialize a variable to represent shapes on the slide.
+## Step 4: Iterate Through Shapes
+```csharp
+for (int i = 0; i < slide.Shapes.Count; i++)
 {
-    // Access the slide where you want to add connector lines
-    ISlide slide = presentation.Slides[0];
-
-    // Define start and end points for the connector line
-    PointF startPoint = new PointF(100, 100);
-    PointF endPoint = new PointF(300, 200);
-
-    // Add the connector line to the slide
-    IAutoShape connectorLine = slide.Shapes.AddLine(startPoint.X, startPoint.Y, endPoint.X, endPoint.Y);
-
-    // Customize connector line appearance
-    connectorLine.LineFormat.Style = LineStyle.Single;
-    connectorLine.LineFormat.Width = 2;
+    // Code for handling connector lines
 }
 ```
-
-## Accessing and Modifying Connector Line Angles
-
-Now that we have connector lines in our slide, let's explore how to access and modify their angles using Aspose.Slides:
-
+Loop through each shape on the slide to identify and process connector lines.
+## Step 5: Adjust Connector Line Angles
 ```csharp
-// Access the connector line we added earlier
-IAutoShape connectorLine = slide.Shapes[0] as IAutoShape;
-
-// Access the line format of the connector
-ILineFormat lineFormat = connectorLine.LineFormat;
-
-// Get the existing angle of the connector line
-double currentAngle = lineFormat.Alignment.Angle;
-
-// Modify the angle of the connector line
-lineFormat.Alignment.Angle = 45; // Adjust the angle as desired
-```
-
-## Applying Custom Angle Adjustments
-
-Aspose.Slides enables us to apply custom angle adjustments to connector lines, allowing for precise alignment and arrangement of elements. Here's an example of adjusting the angles of multiple connector lines to create a flowing diagram:
-
-```csharp
-foreach (IAutoShape shape in slide.Shapes)
+double dir = 0.0;
+shape = (Shape)slide.Shapes[i];
+if (shape is AutoShape)
 {
-    if (shape is IAutoShape && shape != connectorLine)
-    {
-        ILineFormat shapeLineFormat = shape.LineFormat;
-        shapeLineFormat.Alignment.Angle = 30; // Apply a consistent angle to all lines
-    }
+    // Code for handling AutoShapes
+}
+else if (shape is Connector)
+{
+    // Code for handling Connectors
+}
+Console.WriteLine(dir);
+```
+Identify whether the shape is an AutoShape or a Connector, and adjust the connector line angles using the provided `getDirection` method.
+## Step 6: Define the `getDirection` Method
+```csharp
+public static double getDirection(float w, float h, bool flipH, bool flipV)
+{
+    // Code for calculating direction
+	float endLineX = w * (flipH ? -1 : 1);
+	float endLineY = h * (flipV ? -1 : 1);
+	float endYAxisX = 0;
+	float endYAxisY = h;
+	double angle = (Math.Atan2(endYAxisY, endYAxisX) - Math.Atan2(endLineY, endLineX));
+	if (angle < 0) angle += 2 * Math.PI;
+    return angle * 180.0 / Math.PI;
 }
 ```
-
-## FAQs
-
-### How can I remove a connector line from a slide?
-
-To remove a connector line from a slide, you can use the following code snippet:
-
-```csharp
-IAutoShape connectorLine = slide.Shapes[0] as IAutoShape;
-slide.Shapes.Remove(connectorLine);
-```
-
-### Can I change the color of connector lines?
-
-Yes, you can change the color of connector lines using the `LineFormat` property. Here's an example:
-
-```csharp
-lineFormat.FillFormat.SolidFillColor.Color = Color.Red;
-```
-
-### Is it possible to add arrowheads to connector lines?
-
-Certainly! You can add arrowheads to connector lines by modifying the `LineFormat` property:
-
-```csharp
-lineFormat.EndArrowheadLength = ArrowheadLength.Short;
-lineFormat.EndArrowheadStyle = ArrowheadStyle.Triangle;
-```
-
-### How do I adjust the spacing between elements connected by lines?
-
-To adjust the spacing between connected elements, you can modify the start and end points of the connector lines. This will impact the visual alignment between elements.
-
-### Where can I find more resources on Aspose.Slides for .NET?
-
-You can find comprehensive documentation and API references on Aspose.Slides for .NET [here](https://reference.aspose.com/slides/net/).
-
+Implement the `getDirection` method to calculate the angle of the connector line based on its dimensions and orientation.
 ## Conclusion
-
-In this tutorial, we've explored the process of adjusting connector line angles in presentation slides using Aspose.Slides for .NET. We learned how to add connector lines, access and modify their angles, and apply custom adjustments for creating visually appealing diagrams and illustrations. Aspose.Slides empowers developers to enhance their presentations with precise control over connector lines, ultimately improving the clarity and impact of the content.
+With these steps, you can programmatically adjust connector line angles in your PowerPoint presentation using Aspose.Slides for .NET. This tutorial provides a foundation for enhancing the visual appeal of your slides.
+## FAQs
+### Is Aspose.Slides suitable for both Windows and web applications?
+Yes, Aspose.Slides can be used in both Windows and web applications.
+### Can I download a free trial of Aspose.Slides before purchasing?
+Yes, you can download a free trial [here](https://releases.aspose.com/).
+### Where can I find comprehensive documentation for Aspose.Slides for .NET?
+The documentation is available [here](https://reference.aspose.com/slides/net/).
+### How can I obtain a temporary license for Aspose.Slides?
+You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+### Is there a support forum for Aspose.Slides?
+Yes, you can visit the support forum [here](https://forum.aspose.com/c/slides/11).
