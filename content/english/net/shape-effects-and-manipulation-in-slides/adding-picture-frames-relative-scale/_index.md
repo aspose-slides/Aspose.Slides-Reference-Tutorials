@@ -1,84 +1,66 @@
 ---
-title: Adding Picture Frames with Relative Scale Height in Aspose.Slides
+title: Adding Picture Frames Tutorial with Aspose.Slides .NET
 linktitle: Adding Picture Frames with Relative Scale Height in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Learn how to enhance your presentations by adding picture frames with relative scale height using Aspose.Slides for .NET. Create visually appealing slides effortlessly.
+description: Learn to add picture frames with relative scale height in Aspose.Slides for .NET. Follow this step-by-step guide for seamless presentations.
 type: docs
 weight: 17
 url: /net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
-
 ## Introduction
-
-In the dynamic world of presentations, visual elements play a pivotal role in conveying information effectively. Aspose.Slides for .NET empowers you to go beyond the basics and elevate your presentations by incorporating picture frames with relative scale height. This guide will take you through the process step by step, providing you with the skills to create visually captivating slides that stand out. Whether you're a seasoned developer or just starting with Aspose.Slides, this guide will help you master the art of adding picture frames with relative scale height.
-
-## Adding Picture Frames with Relative Scale Height in Aspose.Slides
-
-When it comes to adding picture frames with relative scale height in Aspose.Slides, the process is remarkably intuitive. Follow these steps to enhance your presentations:
-
-### Step 1: Initialize the Presentation
-
-Begin by initializing the presentation object using the following code:
-
+Aspose.Slides for .NET is a powerful library that allows developers to create, manipulate, and convert PowerPoint presentations in their .NET applications effortlessly. In this tutorial, we'll dive into the process of adding picture frames with relative scale height using Aspose.Slides for .NET. Follow along with this step-by-step guide to enhance your presentation-building skills.
+## Prerequisites
+Before we start, ensure you have the following:
+- Basic knowledge of C# programming language.
+- Visual Studio or any other preferred C# development environment installed.
+- Aspose.Slides for .NET library added to your project.
+## Import Namespaces
+Begin by importing the necessary namespaces into your C# code. This step ensures that you have access to the classes and functionalities provided by the Aspose.Slides library.
 ```csharp
-Presentation presentation = new Presentation();
+using System.Drawing;
+using Aspose.Slides.Export;
+using Aspose.Slides;
 ```
-
-### Step 2: Add a Slide
-
-To add a new slide, employ the following code snippet:
-
+## Step 1: Set Up Your Project
+Start by creating a new C# project in your preferred development environment. Make sure to add the Aspose.Slides for .NET library to your project by referencing it.
+## Step 2: Load Presentation and Image
 ```csharp
-ISlide slide = presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation())
+{
+    // Load Image to be added in the presentation image collection
+    Image img = new Bitmap(dataDir + "aspose-logo.jpg");
+    IPPImage image = presentation.Images.AddImage(img);
+    // ...
+}
 ```
-
-### Step 3: Insert an Image
-
-Now it's time to insert the image into the slide. The following code demonstrates how to achieve this:
-
+In this step, we create a new presentation object and load the image that we want to add to the presentation.
+## Step 3: Add Picture Frame to Slide
 ```csharp
-byte[] imageBytes = File.ReadAllBytes("image.jpg");
-IPPImage image = presentation.Images.AddImage(imageBytes);
-slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 100, 100, image.Width, image.Height, image);
+IPictureFrame pf = presentation.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 50, 100, 100, image);
 ```
-
-### Step 4: Adjust Scale Height
-
-To create a relative scale height for the picture frame, utilize the code snippet below:
-
+Now, add a picture frame to the first slide of the presentation. Adjust the parameters such as shape type, position, and dimensions according to your requirements.
+## Step 4: Set Relative Scale Width and Height
 ```csharp
-IPictureFrame pictureFrame = (IPictureFrame)slide.Shapes[0];
-pictureFrame.PictureFormat.Picture.ImageScale.HeightScale = 50; // Adjust the scale percentage as desired
+pf.RelativeScaleHeight = 0.8f;
+pf.RelativeScaleWidth = 1.35f;
 ```
-
-## FAQs
-
-### How can I change the scale height of the picture frame?
-
-To change the scale height of the picture frame, you can use the `PictureFormat.Picture.ImageScale.HeightScale` property and assign it a desired percentage value.
-
-### Can I add multiple picture frames to a single slide?
-
-Yes, you can add multiple picture frames to a single slide by following the steps mentioned earlier for each picture frame you want to insert.
-
-### Is it possible to animate the picture frames in a presentation?
-
-Absolutely! Aspose.Slides provides powerful animation capabilities. You can apply animations to picture frames using various animation effects available in the library.
-
-### What image formats are supported for insertion?
-
-Aspose.Slides supports a wide range of image formats, including JPEG, PNG, GIF, BMP, and more. You can seamlessly insert images of these formats into your slides.
-
-### How can I set the position of the picture frame on the slide?
-
-You can set the position of the picture frame by specifying the X and Y coordinates when adding the picture frame using the `slide.Shapes.AddPictureFrame` method.
-
-### Is it possible to customize the appearance of the picture frame?
-
-Yes, you can customize the appearance of the picture frame using properties like border color, fill color, and more. Refer to the Aspose.Slides documentation for detailed information.
-
+Set the relative scale height and width for the picture frame to achieve the desired scaling effect.
+## Step 5: Save Presentation
+```csharp
+presentation.Save(dataDir + "Adding Picture Frame with Relative Scale_out.pptx", SaveFormat.Pptx);
+```
+Finally, save the presentation with the added picture frame in the specified output format.
 ## Conclusion
-
-Incorporating picture frames with relative scale height into your presentations can greatly enhance their visual appeal and engagement. With Aspose.Slides for .NET, the process becomes straightforward and customizable, allowing you to create stunning slides that leave a lasting impact. Whether you're crafting educational content, business presentations, or creative showcases, mastering this feature will undoubtedly elevate your presentation game.
-
-Remember, the key lies in experimentation and creativity. By harnessing the power of Aspose.Slides, you're not just creating slides; you're crafting immersive experiences for your audience.
+Congratulations! You've successfully learned how to add picture frames with relative scale height using Aspose.Slides for .NET. Experiment with different images, positions, and scales to create visually appealing presentations tailored to your needs.
+## Frequently Asked Questions
+### Can I use Aspose.Slides for .NET with other programming languages?
+Aspose.Slides primarily supports .NET languages, but you can explore other Aspose products for compatibility with different platforms.
+### Where can I find detailed documentation for Aspose.Slides for .NET?
+Refer to the [documentation](https://reference.aspose.com/slides/net/) for comprehensive information and examples.
+### Is there a free trial available for Aspose.Slides for .NET?
+Yes, you can get a [free trial](https://releases.aspose.com/) to evaluate the library's capabilities.
+### How can I get support for Aspose.Slides for .NET?
+Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to seek assistance from the community and Aspose experts.
+### Where can I purchase Aspose.Slides for .NET?
+You can buy Aspose.Slides for .NET from the [purchase page](https://purchase.aspose.com/buy).
