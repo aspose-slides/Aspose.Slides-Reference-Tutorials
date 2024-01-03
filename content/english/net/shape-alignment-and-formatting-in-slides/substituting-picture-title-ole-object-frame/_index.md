@@ -11,7 +11,7 @@ url: /net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ol
 Creating dynamic and engaging presentation slides often involves the incorporation of various multimedia elements. In this tutorial, we'll explore how to substitute the picture title of an OLE (Object Linking and Embedding) Object Frame in presentation slides using the powerful Aspose.Slides for .NET library. Aspose.Slides simplifies the process of handling OLE objects, providing developers with the tools to enhance their presentations with ease.
 ## Prerequisites
 Before we dive into the step-by-step guide, make sure you have the following prerequisites in place:
-- Aspose.Slides for .NET Library: Ensure that you have the Aspose.Slides for .NET library installed. You can download it from the official [Aspose.Slides .NET Documentation](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET Library: Ensure that you have the Aspose.Slides for .NET library installed. You can download it from the [Aspose.Slides .NET Documentation](https://reference.aspose.com/slides/net/).
 - Sample Data: Prepare a sample Excel file (e.g., "ExcelObject.xlsx") that you want to embed as an OLE object in the presentation. Additionally, have an image file (e.g., "Image.png") that will serve as the icon for the OLE object.
 - Development Environment: Set up a development environment with the necessary tools, such as Visual Studio or any other preferred IDE for .NET development.
 ## Import Namespaces

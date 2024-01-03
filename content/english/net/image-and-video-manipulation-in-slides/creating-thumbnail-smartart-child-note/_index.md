@@ -11,7 +11,7 @@ url: /net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-chi
 In the realm of dynamic presentations, Aspose.Slides for .NET stands out as a powerful tool, providing developers with the ability to manipulate and enhance PowerPoint presentations programmatically. One intriguing feature is the capability to generate thumbnails for SmartArt Child Notes, adding a layer of visual appeal to your presentations. This step-by-step guide will walk you through the process of creating thumbnails for SmartArt Child Notes using Aspose.Slides for .NET.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-- Aspose.Slides for .NET: Make sure you have the Aspose.Slides library integrated into your .NET project. If not, download it from the [official releases page](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Make sure you have the Aspose.Slides library integrated into your .NET project. If not, download it from the [releases page](https://releases.aspose.com/slides/net/).
 - Development Environment: Set up a working .NET development environment, and have a basic understanding of C# programming.
 - Sample Presentation: Create or obtain a PowerPoint presentation containing SmartArt with Child Notes for testing.
 ## Import Namespaces

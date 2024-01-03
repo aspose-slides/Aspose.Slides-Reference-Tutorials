@@ -11,7 +11,7 @@ url: /net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 In the dynamic world of presentations, Aspose.Slides for .NET stands out as a powerful tool to enhance your slide creation experience. One of the notable features it offers is the ability to create a Summary Zoom, a visually engaging way to present a collection of slides. In this tutorial, we'll guide you through the process of creating a Summary Zoom in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites:
-- Aspose.Slides for .NET: Make sure you have the library installed in your .NET environment. If not, you can download it from the [official release page](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Make sure you have the library installed in your .NET environment. If not, you can download it from the [release page](https://releases.aspose.com/slides/net/).
 - Development Environment: Set up your .NET development environment, including Visual Studio or any other preferred IDE.
 - Basic Knowledge of C#: This tutorial assumes you have a basic understanding of C# programming.
 ## Import Namespaces

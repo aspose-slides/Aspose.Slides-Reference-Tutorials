@@ -11,7 +11,7 @@ url: /net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-s
 Creating engaging and dynamic presentation slides is a key aspect of effective communication. Aspose.Slides for .NET provides a powerful set of tools to enhance your presentations, including the ability to apply 3D rotation effects to shapes. In this tutorial, we will walk through the process of applying a 3D rotation effect to shapes in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Slides for .NET: Ensure that you have the Aspose.Slides library for .NET installed. You can download it from the [official website](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Ensure that you have the Aspose.Slides library for .NET installed. You can download it from the [website](https://releases.aspose.com/slides/net/).
 - Development Environment: Set up a .NET development environment, such as Visual Studio, to write and run your code.
 ## Import Namespaces
 In your .NET project, import the necessary namespaces to leverage the functionality of Aspose.Slides. Include the following namespaces at the beginning of your code:

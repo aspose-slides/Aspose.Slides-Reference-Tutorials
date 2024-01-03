@@ -11,7 +11,7 @@ url: /net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes
 In the dynamic world of presentations, adding visual appeal to your slides can significantly enhance your message's impact. Aspose.Slides for .NET provides a powerful toolkit to manipulate and beautify your presentation slides programmatically. One such intriguing feature is the ability to apply bevel effects to shapes, adding depth and dimension to your visuals.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-- Aspose.Slides for .NET: Make sure you have the Aspose.Slides library installed. You can download it from the [official website](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Make sure you have the Aspose.Slides library installed. You can download it from the [website](https://releases.aspose.com/slides/net/).
 - Development Environment: Set up your .NET development environment, and have a basic understanding of C#.
 - Document Directory: Create a directory for your documents where the generated presentation files will be saved.
 ## Import Namespaces

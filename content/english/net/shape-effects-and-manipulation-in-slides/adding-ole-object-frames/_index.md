@@ -11,7 +11,7 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 In this tutorial, we'll delve into the process of adding OLE (Object Linking and Embedding) Object Frames to Presentation Slides using Aspose.Slides for .NET. Aspose.Slides is a powerful library that enables developers to work with PowerPoint files programmatically. Follow this step-by-step guide to seamlessly embed OLE objects into your presentation slides, enhancing your PowerPoint files with dynamic and interactive content.
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites in place:
-1. Aspose.Slides for .NET Library: Make sure you have the Aspose.Slides library for .NET installed. You can download it from the [official Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
+1. Aspose.Slides for .NET Library: Make sure you have the Aspose.Slides library for .NET installed. You can download it from the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
 2. Document Directory: Create a directory on your system to store the necessary files. You can set the path to this directory in the code snippet provided.
 ## Import Namespaces
 To get started, import the necessary namespaces into your project:

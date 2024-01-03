@@ -11,7 +11,7 @@ url: /net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 In the dynamic world of presentations, integrating multimedia elements can significantly enhance engagement. Aspose.Slides for .NET provides a powerful solution for incorporating embedded video frames into your presentation slides. This tutorial will guide you through the process, breaking down each step to ensure a seamless experience.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following:
-- Aspose.Slides for .NET Library: Download and install the library from the [official release page](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET Library: Download and install the library from the [release page](https://releases.aspose.com/slides/net/).
 - Media Content: Have a video file (e.g., "Wildlife.mp4") that you want to embed in your presentation.
 ## Import Namespaces
 Begin by importing the necessary namespaces in your .NET project:

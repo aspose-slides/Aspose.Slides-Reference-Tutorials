@@ -11,7 +11,7 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 In the dynamic world of presentations, incorporating audio elements can significantly enhance the overall experience for your audience. Aspose.Slides for .NET empowers developers to seamlessly integrate audio frames into presentation slides, adding a new layer of engagement and interactivity. This step-by-step guide will walk you through the process of adding audio frames to presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-1. Aspose.Slides for .NET Library: Download and install the Aspose.Slides for .NET library from the [official download link](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET Library: Download and install the Aspose.Slides for .NET library from the [download link](https://releases.aspose.com/slides/net/).
 2. Development Environment: Ensure you have a working development environment for .NET, such as Visual Studio.
 3. Document Directory: Create a directory where you'll store your documents, and note down the path.
 ## Import Namespaces
@@ -62,4 +62,4 @@ Yes, you can explore the features of Aspose.Slides for .NET with the [free trial
 ### Where can I find support for Aspose.Slides for .NET?
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to seek assistance and engage with the community.
 ### How do I purchase Aspose.Slides for .NET?
-You can purchase the library from the [official Aspose store](https://purchase.aspose.com/buy).
+You can purchase the library from the [Aspose store](https://purchase.aspose.com/buy).

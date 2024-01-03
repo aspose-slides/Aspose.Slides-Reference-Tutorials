@@ -86,8 +86,8 @@ Congratulations! You've successfully learned how to create custom geometry in a 
 ## FAQs
 ### 1. Can I use Aspose.Slides for .NET with other programming languages?
 Yes, Aspose.Slides supports various programming languages, but this tutorial focuses on C#.
-### 2. Where can I find the official documentation for Aspose.Slides for .NET?
-Visit the [official documentation](https://reference.aspose.com/slides/net/) for detailed information.
+### 2. Where can I find the documentation for Aspose.Slides for .NET?
+Visit the [documentation](https://reference.aspose.com/slides/net/) for detailed information.
 ### 3. Is there a free trial available for Aspose.Slides for .NET?
 Yes, you can explore a [free trial](https://releases.aspose.com/) to experience the features.
 ### 4. How can I get support for Aspose.Slides for .NET?

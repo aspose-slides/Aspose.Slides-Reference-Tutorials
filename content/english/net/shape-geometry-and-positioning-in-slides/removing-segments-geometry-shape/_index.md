@@ -11,7 +11,7 @@ url: /net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-sh
 Creating visually appealing presentations often involves manipulating shapes and elements to achieve the desired design. With Aspose.Slides for .NET, developers can easily control the geometry of shapes, allowing for the removal of specific segments. In this tutorial, we will guide you through the process of removing segments from a geometry shape in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Slides for .NET Library: Ensure that you have the Aspose.Slides for .NET library installed. You can download it from the [official release page](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET Library: Ensure that you have the Aspose.Slides for .NET library installed. You can download it from the [release page](https://releases.aspose.com/slides/net/).
 - Development Environment: Set up a .NET development environment, such as Visual Studio, to integrate Aspose.Slides into your project.
 - Document Directory: Create a directory where you'll store your documents and set the path appropriately in the code.
 ## Import Namespaces

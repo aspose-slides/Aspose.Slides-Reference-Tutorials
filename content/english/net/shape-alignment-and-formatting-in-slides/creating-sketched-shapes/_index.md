@@ -71,6 +71,6 @@ Certainly! You can explore a free trial of Aspose.Slides for .NET [here](https:/
 ### 3. Where can I get support?
 For any assistance or queries, visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### 4. How can I purchase Aspose.Slides for .NET?
-To purchase Aspose.Slides for .NET, visit the [official purchase page](https://purchase.aspose.com/buy).
+To purchase Aspose.Slides for .NET, visit the [purchase page](https://purchase.aspose.com/buy).
 ### 5. Do you offer temporary licenses?
 Yes, temporary licenses are available [here](https://purchase.aspose.com/temporary-license/).

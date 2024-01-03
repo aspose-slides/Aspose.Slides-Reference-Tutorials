@@ -69,6 +69,6 @@ Yes, a valid license is needed. You can obtain a temporary license for testing p
 ### How can I get support for Aspose.Slides-related queries?
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community support and discussions.
 ### Are there other tutorials available for Aspose.Slides?
-Explore the official [documentation](https://reference.aspose.com/slides/net/) for comprehensive guides and examples.
+Explore the [documentation](https://reference.aspose.com/slides/net/) for comprehensive guides and examples.
 ### Can I try Aspose.Slides for free before purchasing?
 Yes, you can download a free trial from [here](https://releases.aspose.com/).

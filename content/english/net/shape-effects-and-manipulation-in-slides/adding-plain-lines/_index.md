@@ -62,7 +62,7 @@ A: Yes, you can adjust color, thickness, and style using Aspose.Slides API.
 ### Q: Is Aspose.Slides compatible with the latest .NET frameworks?
 A: Absolutely, Aspose.Slides supports the latest .NET frameworks.
 ### Q: Where can I find more examples and documentation?
-A: Explore the official documentation [here](https://reference.aspose.com/slides/net/).
+A: Explore the documentation [here](https://reference.aspose.com/slides/net/).
 ### Q: How do I obtain a temporary license for Aspose.Slides?
 A: Visit [here](https://purchase.aspose.com/temporary-license/) for temporary licenses.
 ### Q: Facing issues? Where can I get support?

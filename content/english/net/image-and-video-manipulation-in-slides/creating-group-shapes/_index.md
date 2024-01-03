@@ -11,7 +11,7 @@ url: /net/image-and-video-manipulation-in-slides/creating-group-shapes/
 If you're looking to enhance the visual appeal of your presentation slides and organize content more efficiently, incorporating group shapes is a powerful solution. Aspose.Slides for .NET provides a seamless way to create and manipulate group shapes in your PowerPoint presentations. In this tutorial, we'll walk through the process of creating group shapes using Aspose.Slides, breaking it down into easy-to-follow steps.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following:
-- Aspose.Slides for .NET: Ensure that you have the Aspose.Slides library installed. You can download it from the [official website](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Ensure that you have the Aspose.Slides library installed. You can download it from the [website](https://releases.aspose.com/slides/net/).
 - Development Environment: Set up a working environment with a .NET-compatible IDE, such as Visual Studio.
 - Basic Knowledge of C#: Familiarize yourself with the basics of C# programming language.
 ## Import Namespaces
@@ -89,7 +89,7 @@ Repeat these steps in your C# application to successfully create group shapes in
 In this tutorial, we explored the process of creating group shapes with Aspose.Slides for .NET. By following these steps, you can enhance the visual appeal and organization of your PowerPoint presentations.
 ## Frequently Asked Questions
 ### Is Aspose.Slides compatible with the latest version of .NET?
-Yes, Aspose.Slides is regularly updated to support the latest .NET versions. Check the [official documentation](https://reference.aspose.com/slides/net/) for compatibility details.
+Yes, Aspose.Slides is regularly updated to support the latest .NET versions. Check the [documentation](https://reference.aspose.com/slides/net/) for compatibility details.
 ### Can I try Aspose.Slides before purchasing?
 Absolutely! You can download a free trial version [here](https://releases.aspose.com/).
 ### Where can I find support for Aspose.Slides-related queries?
@@ -97,5 +97,5 @@ Visit the Aspose.Slides [forum](https://forum.aspose.com/c/slides/11) for commun
 ### How do I obtain a temporary license for Aspose.Slides?
 You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I purchase a full license for Aspose.Slides?
-You can buy a license from the official [purchase page](https://purchase.aspose.com/buy).
+You can buy a license from the [purchase page](https://purchase.aspose.com/buy).
 

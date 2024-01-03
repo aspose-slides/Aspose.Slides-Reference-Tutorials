@@ -74,7 +74,7 @@ Yes, Aspose.Slides supports .NET Core, allowing you to leverage its features in 
 ### Can I customize the arrowhead styles further?
 Absolutely! Aspose.Slides provides comprehensive options for customizing arrowhead lengths, styles, and more.
 ### Where can I find additional Aspose.Slides documentation?
-Explore the official documentation [here](https://reference.aspose.com/slides/net/) for in-depth information and examples.
+Explore the documentation [here](https://reference.aspose.com/slides/net/) for in-depth information and examples.
 ### Is there a free trial available?
 Yes, you can experience Aspose.Slides with a free trial. Download it [here](https://releases.aspose.com/).
 ### How can I get support for Aspose.Slides?

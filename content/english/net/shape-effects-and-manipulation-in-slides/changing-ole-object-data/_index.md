@@ -83,7 +83,7 @@ Aspose.Slides for .NET is a powerful library that enables developers to work wit
 ### Where can I find the Aspose.Slides documentation?
 The documentation for Aspose.Slides for .NET can be found [here](https://reference.aspose.com/slides/net/).
 ### How do I download Aspose.Slides for .NET?
-You can download the library from the official release page [here](https://releases.aspose.com/slides/net/).
+You can download the library from the release page [here](https://releases.aspose.com/slides/net/).
 ### Is there a free trial available for Aspose.Slides?
 Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Slides for .NET?
