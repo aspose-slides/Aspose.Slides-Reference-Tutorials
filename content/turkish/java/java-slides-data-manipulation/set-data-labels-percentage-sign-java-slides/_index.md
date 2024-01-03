@@ -49,7 +49,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
-## Adım 4: Grafik Verilerini Ekleyin
+## 4. Adım: Grafik Verilerini Ekleyin
 
 Seriler ve veri noktaları oluşturarak grafiğe veri ekliyoruz. Bu örnekte, ilgili veri noktalarıyla birlikte iki seri ekliyoruz.
 
@@ -161,7 +161,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Çözüm
 
-Bu kılavuzu takip ederek, iş raporlarında, eğitim materyallerinde ve daha fazlasında bilgilerin etkili bir şekilde iletilmesinde özellikle yararlı olabilecek yüzdeye dayalı veri etiketleriyle ilgi çekici sunumların nasıl oluşturulacağını öğrendiniz.
+Bu kılavuzu takip ederek, yüzdeye dayalı veri etiketleriyle ilgi çekici sunumların nasıl oluşturulacağını öğrendiniz; bu, özellikle iş raporlarında, eğitim materyallerinde ve daha fazlasında bilgilerin etkili bir şekilde iletilmesinde yararlı olabilir.
 
 ## SSS'ler
 

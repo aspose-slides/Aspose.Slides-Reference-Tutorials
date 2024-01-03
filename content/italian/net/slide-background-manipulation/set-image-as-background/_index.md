@@ -14,7 +14,7 @@ Nel mondo della progettazione e dell'automazione delle presentazioni, Aspose.Sli
 
 Prima di addentrarci nella procedura passo passo, assicurati di disporre dei seguenti prerequisiti:
 
-1. Aspose.Slides per .NET Library: scarica e installa la libreria Aspose.Slides per .NET dal[Link per scaricare](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides per .NET Library: scarica e installa la libreria Aspose.Slides per .NET dal[Link per scaricare](https://releases.aspose.com/slides/net/).
 
 2. Immagine per lo sfondo: avrai bisogno di un'immagine che desideri impostare come sfondo della diapositiva. Assicurati di avere il file immagine in un formato adatto (ad esempio .jpg) pronto per l'uso.
 

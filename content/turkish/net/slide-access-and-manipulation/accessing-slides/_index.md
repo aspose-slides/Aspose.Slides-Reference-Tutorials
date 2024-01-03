@@ -41,7 +41,7 @@ using var presentation = new Presentation("path/to/your/presentation.pptx");
 
 ## Slaytlara Erişim
 
- Sunuyu yükledikten sonra slaytlarına aşağıdaki düğmeyi kullanarak erişebilirsiniz:`Slides`Toplamak. Slaytlar arasında nasıl yineleme yapabileceğiniz ve bunlar üzerinde işlemler gerçekleştirebileceğiniz aşağıda açıklanmıştır:
+ Sunuyu yükledikten sonra slaytlarına aşağıdaki düğmeyi kullanarak erişebilirsiniz:`Slides` Toplamak. Slaytlar arasında nasıl yineleme yapabileceğiniz ve bunlar üzerinde işlemler gerçekleştirebileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
 // Slaytlara erişme
@@ -107,7 +107,7 @@ presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 
 ## Ek Özellikler ve Kaynaklar
 
-Aspose.Slides for .NET, bu kılavuzda anlattıklarımızın ötesinde çok çeşitli özellikler sunar. Grafik, resim, animasyon ve geçiş ekleme gibi daha gelişmiş işlemler için şu adrese başvurabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET, bu kılavuzda anlattıklarımızın ötesinde çok çeşitli özellikler sunar. Grafik, resim, animasyon ve geçiş ekleme gibi daha gelişmiş işlemler için şu adrese başvurabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/net/).
 
 ## Çözüm
 

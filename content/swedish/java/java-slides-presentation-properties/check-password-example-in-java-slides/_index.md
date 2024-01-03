@@ -8,7 +8,7 @@ weight: 14
 url: /sv/java/presentation-properties/check-password-example-in-java-slides/
 ---
 
-## Introduktion till exempel på kontrollera lösenord i Java Slides
+## Introduktion till exempel på kontroll av lösenord i Java Slides
 
 den här artikeln kommer vi att utforska hur du kontrollerar ett lösenord i Java Slides med hjälp av Aspose.Slides for Java API. Vi går igenom stegen som krävs för att verifiera ett lösenord för en presentationsfil. Oavsett om du är nybörjare eller en erfaren utvecklare kommer den här guiden att ge dig en tydlig förståelse för hur du implementerar lösenordsverifiering i dina Java Slides-projekt.
 

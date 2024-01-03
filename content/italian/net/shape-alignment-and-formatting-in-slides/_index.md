@@ -43,4 +43,4 @@ Scopri come creare accattivanti diapositive di presentazione con forme abbozzate
 ### [Aggiunta dell'offset allungamento a sinistra per la cornice in Aspose.Slides](./adding-stretch-offset-left-picture-frame/)
 Scopri come aggiungere l'offset allungato a sinistra per una cornice in PowerPoint utilizzando Aspose.Slides per .NET. Guida passo passo con esempio di codice sorgente completo.
 ### [Sostituzione del titolo dell'immagine della cornice dell'oggetto OLE nelle diapositive della presentazione](./substituting-picture-title-ole-object-frame/)
-Scopri come sostituire i titoli delle immagini dei fotogrammi degli oggetti OLE nelle diapositive della presentazione utilizzando Aspose.Slides per .NET. Guida passo passo con il codice sorgente completo.
+Scopri come sostituire i titoli delle immagini dei fotogrammi degli oggetti OLE nelle diapositive della presentazione utilizzando Aspose.Slides per .NET. Guida passo passo con codice sorgente completo.

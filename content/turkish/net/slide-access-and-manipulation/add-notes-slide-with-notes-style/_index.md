@@ -37,7 +37,7 @@ using Aspose.Slides.Export;
 
 ### Adım 2.1: Sunum Sınıfını Başlatın
 
- Öncelikle örneğinin bir örneğini oluşturmamız gerekiyor.`Presentation` PowerPoint sunum dosyanızı temsil eden sınıf. Sunum dosyanızın yolunu şu şekilde belirtmelisiniz:`dataDir` değişken.
+ Öncelikle örneğinin bir örneğini oluşturmamız gerekiyor.`Presentation`PowerPoint sunum dosyanızı temsil eden sınıf. Sunum dosyanızın yolunu şu şekilde belirtmelisiniz:`dataDir` değişken.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -105,7 +105,7 @@ Aspose.Slides for .NET, Microsoft PowerPoint dosyalarıyla programlı olarak ça
  Aspose.Slides for .NET ticari bir kütüphanedir ve tam kullanımı için lisans gerektirir. Ancak ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Slides for .NET'i geçici bir lisansla deneyebilir miyim?
- Evet, test ve değerlendirme amacıyla geçici lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, test ve değerlendirme amacıyla geçici lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Slides for .NET için bir topluluk forumu veya desteği var mı?
  Evet, Aspose.Slides for .NET topluluk forumunda yardım isteyebilir ve tartışmalara katılabilirsiniz.[Burada](https://forum.aspose.com/).

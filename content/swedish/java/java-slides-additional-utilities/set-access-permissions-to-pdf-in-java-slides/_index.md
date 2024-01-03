@@ -29,7 +29,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## Steg 2: Ställa in lösenordsskydd
+## Steg 2: Ställ in lösenordsskydd
 
 För att skydda vårt PDF-dokument ställer vi in ett lösenord för det. Detta säkerställer att endast behöriga användare kan komma åt innehållet.
 

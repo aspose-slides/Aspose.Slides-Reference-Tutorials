@@ -111,7 +111,7 @@ För att installera Aspose.Slides för Java, följ dessa steg:
 
 ### Kan jag anpassa anteckningarnas position i den genererade PDF-filen?
 
- Ja, du kan anpassa anteckningarnas position genom att ändra`NotesPositions` enum i PDF-alternativen. I den här handledningen ställer vi in den på`BottomFull`, men du kan också utforska andra alternativ.
+ Ja, du kan anpassa anteckningarnas position genom att ändra`NotesPositions` enum i PDF-alternativen. I den här handledningen ställer vi in den till`BottomFull`, men du kan också utforska andra alternativ.
 
 ### Finns det några licenskrav för att använda Aspose.Slides för Java?
 

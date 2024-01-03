@@ -27,7 +27,7 @@ url: /ar/java/data-manipulation/chart-marker-options-data-point-java-slides/
 
 ## الخطوة 2: تحميل العرض التقديمي
 
-للبدء، قم بتحميل نموذج مستند العرض التقديمي الخاص بك. في التعليمات البرمجية المتوفرة، نفترض أن المستند يسمى "Test.pptx."
+للبدء، قم بتحميل نموذج مستند العرض التقديمي الخاص بك. في التعليمات البرمجية المتوفرة، نفترض أن المستند يسمى "Test.pptx".
 
 ```java
 String dataDir = "Your Document Directory";
@@ -36,7 +36,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ## الخطوة 3: إنشاء مخطط
 
-الآن، لنقم بإنشاء مخطط في العرض التقديمي. سنستخدم مخططًا خطيًا مع علامات في هذا المثال.
+الآن، لنقم بإنشاء مخطط في العرض التقديمي. سنستخدم مخططًا خطيًا مع العلامات في هذا المثال.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);

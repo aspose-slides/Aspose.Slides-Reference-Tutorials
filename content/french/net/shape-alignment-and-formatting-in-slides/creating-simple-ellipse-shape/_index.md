@@ -1,106 +1,67 @@
 ---
-title: Création d'une forme d'ellipse simple dans des diapositives de présentation avec Aspose.Slides
+title: Créez facilement une forme d'ellipse avec Aspose.Slides .NET
 linktitle: Création d'une forme d'ellipse simple dans des diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment créer une forme d'ellipse simple dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit le code source et les instructions pour ajouter, personnaliser et enregistrer des formes d'ellipse.
+description: Apprenez à créer de superbes formes d'ellipse dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Des étapes faciles pour un design dynamique !
 type: docs
 weight: 11
 url: /fr/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
-
-## Introduction à la création d'une forme d'ellipse simple dans les diapositives de présentation
-
-Si vous souhaitez améliorer vos diapositives de présentation en ajoutant des formes visuellement attrayantes, Aspose.Slides for .NET fournit une solution puissante pour y parvenir. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de création d'une forme d'ellipse simple dans vos diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
-
+## Introduction
+Dans le monde dynamique de la conception de présentations, l’incorporation de formes telles que des ellipses peut ajouter une touche de créativité et de professionnalisme. Aspose.Slides pour .NET offre une solution puissante pour manipuler les fichiers de présentation par programme. Ce didacticiel vous guidera tout au long du processus de création d'une forme d'ellipse simple dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
-
-Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
-
-- Visual Studio ou tout autre environnement de développement .NET installé.
--  Aspose.Slides pour la bibliothèque .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
-
-## Mise en place de votre projet
-
-1. Créez un nouveau projet Visual Studio ou ouvrez-en un existant.
-2. Ajoutez une référence à la bibliothèque Aspose.Slides for .NET dans votre projet.
-
-## Créer une présentation
-
-Pour commencer, créons une nouvelle présentation dans laquelle nous ajouterons notre forme d'ellipse.
-
+Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+-  Aspose.Slides pour .NET : assurez-vous d'avoir installé la bibliothèque Aspose.Slides pour .NET. Vous pouvez le télécharger depuis le[page des versions](https://releases.aspose.com/slides/net/).
+- Environnement de développement : configurez un environnement de développement .NET sur votre machine.
+## Importer des espaces de noms
+Dans votre projet .NET, commencez par importer les espaces de noms nécessaires :
 ```csharp
+using System.IO;
 using Aspose.Slides;
-
-// Créer une nouvelle présentation
-Presentation presentation = new Presentation();
+using Aspose.Slides.Export;
 ```
-
-## Ajout d'une forme d'ellipse
-
-Maintenant que notre présentation est prête, ajoutons une forme d'ellipse à une diapositive.
-
+Ces espaces de noms fournissent les classes et méthodes essentielles requises pour travailler avec des diapositives et des formes de présentation.
+## Étape 1 : configurer la présentation
+Commencez par créer une nouvelle présentation et accédez à la première diapositive. Ajoutez le code suivant pour y parvenir :
 ```csharp
-// Accédez à la première diapositive de la présentation
-ISlide slide = presentation.Slides[0];
-
-// Définir les dimensions et la position de l'ellipse
-float x = 100;   // Coordonnée X
-float y = 100;   // Coordonnée Y
-float width = 200;  // Largeur
-float height = 100; // Hauteur
-
-// Ajouter la forme d'ellipse à la diapositive
-IAutoShape ellipseShape = slide.Shapes.AddAutoShape(ShapeType.Ellipse, x, y, width, height);
+// Le chemin d'accès au répertoire des documents.
+string dataDir = "Your Document Directory";
+// Créez un répertoire s'il n'est pas déjà présent.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+// Instancier la classe de présentation
+using (Presentation pres = new Presentation())
+{
+    // Obtenez la première diapositive
+    ISlide sld = pres.Slides[0];
 ```
-
-## Personnalisation de l'ellipse
-
-Vous pouvez personnaliser l’apparence de la forme elliptique à l’aide de diverses propriétés.
-
+Ce code initialise une nouvelle présentation et sélectionne la première diapositive pour une manipulation ultérieure.
+## Étape 2 : ajouter une forme d'ellipse
+Maintenant, ajoutons une forme d'ellipse à la diapositive à l'aide du`AddAutoShape` méthode:
 ```csharp
-// Définir la couleur de remplissage de l'ellipse
-ellipseShape.FillFormat.SolidFillColor.Color = Color.Blue;
-
-//Définir la couleur et la largeur du contour
-ellipseShape.LineFormat.FillFormat.SolidFillColor.Color = Color.Red;
-ellipseShape.LineFormat.Width = 2;
-
-// Ajouter un cadre de texte à l'ellipse
-ITextFrame textFrame = ellipseShape.TextFrame;
-textFrame.Text = "Hello, Aspose.Slides!";
+// Ajouter une forme automatique de type ellipse
+sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);
 ```
-
-## Sauvegarde de la présentation
-
-Après avoir ajouté et personnalisé la forme de l'ellipse, il est temps de sauvegarder la présentation.
-
+Cette ligne de code crée une forme d'ellipse aux coordonnées (50, 150) avec une largeur de 150 unités et une hauteur de 50 unités.
+## Étape 3 : Enregistrez la présentation
+Enfin, enregistrez la présentation modifiée sur le disque avec un nom de fichier spécifié en utilisant le code suivant :
 ```csharp
-// Enregistrez la présentation
-presentation.Save("EllipsePresentation.pptx", SaveFormat.Pptx);
+// Écrivez le fichier PPTX sur le disque
+pres.Save(dataDir + "EllipseShp1_out.pptx", SaveFormat.Pptx);
 ```
-
+Cette étape garantit que vos modifications sont conservées et que vous pouvez afficher la présentation résultante avec la forme d'ellipse nouvellement ajoutée.
 ## Conclusion
-
-Toutes nos félicitations! Vous avez réussi à créer une forme d'ellipse simple dans vos diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Ce guide a couvert le processus de configuration de votre projet, de création d'une présentation, d'ajout d'une forme d'ellipse, de personnalisation de son apparence et d'enregistrement de la présentation finale.
-
+Congratulations! You've successfully created a simple ellipse shape in a presentation slide using Aspose.Slides for .NET. This tutorial provides a foundational understanding of working with shapes, setting up presentations, and saving the modified files.
+---
 ## FAQ
-
-### Comment puis-je modifier la position de la forme de l'ellipse ?
-
- Vous pouvez modifier le`x` et`y` coordonnées lors de l’ajout de la forme d’ellipse pour ajuster sa position sur la diapositive.
-
-### Puis-je changer la couleur du contour de l'ellipse ?
-
- Oui, vous pouvez définir la couleur du contour à l'aide du`LineFormat.FillFormat.SolidFillColor.Color` propriété.
-
-### Est-il possible d'ajouter du texte à l'intérieur de l'ellipse ?
-
- Absolument! Vous pouvez ajouter du texte à la forme de l'ellipse à l'aide de l'icône`TextFrame.Text` propriété.
-
-### Quelles autres formes puis-je créer à l’aide d’Aspose.Slides pour .NET ?
-
-Aspose.Slides pour .NET prend en charge diverses formes, notamment des rectangles, des lignes, des flèches, etc.
-
-### Où puis-je trouver plus d’informations sur Aspose.Slides pour .NET ?
-
-Pour une documentation détaillée et des exemples, reportez-vous au[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
+### Puis-je personnaliser davantage la forme de l’ellipse ?
+Oui, vous pouvez modifier diverses propriétés de la forme de l'ellipse, telles que la couleur, la taille et la position, pour répondre à vos exigences de conception spécifiques.
+### Aspose.Slides est-il compatible avec les derniers frameworks .NET ?
+Oui, Aspose.Slides est régulièrement mis à jour pour garantir la compatibilité avec les derniers frameworks .NET.
+### Où puis-je trouver plus de didacticiels et d’exemples pour Aspose.Slides ?
+ Visiter le[Documentation](https://reference.aspose.com/slides/net/) pour des guides et des exemples complets.
+### Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
+ Suivre la[lien de licence temporaire](https://purchase.aspose.com/temporary-license/) demander une licence temporaire à des fins de tests.
+### Besoin d'aide ou avez des questions spécifiques ?
+ Visiter le[Forum d'assistance Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir l'aide de la communauté et des experts.

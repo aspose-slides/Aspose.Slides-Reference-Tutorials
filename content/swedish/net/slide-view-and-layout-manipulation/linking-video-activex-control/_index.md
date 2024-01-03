@@ -19,7 +19,7 @@ I Aspose.Slides för .NET kan du programmässigt länka en video till en present
 Skapa ett nytt projekt i din föredragna .NET-utvecklingsmiljö (t.ex. Visual Studio) och lägg till referenser till Aspose.Slides för .NET-biblioteket.
 
 ## Steg 2: Importera nödvändiga namnutrymmen
-I ditt projekt, importera de nödvändiga namnrymden för att arbeta med Aspose.Slides:
+ditt projekt, importera de nödvändiga namnrymden för att arbeta med Aspose.Slides:
 
 ```csharp
 using Aspose.Slides;
@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Vanliga frågor:
 
 ### Hur kan jag specificera storleken och positionen för den länkade videon på bilden?
- Du kan justera dimensionerna och positionen för ActiveX-kontrollramen med hjälp av parametrarna för`AddOleObjectFrame`metod. De fyra numeriska argumenten representerar X- och Y-koordinaterna för det övre vänstra hörnet och ramens bredd respektive höjd.
+ Du kan justera dimensionerna och positionen för ActiveX-kontrollramen med hjälp av parametrarna för`AddOleObjectFrame` metod. De fyra numeriska argumenten representerar X- och Y-koordinaterna för det övre vänstra hörnet och ramens bredd respektive höjd.
 
 ### Kan jag länka videor i olika format med detta tillvägagångssätt?
 Ja, du kan länka videor i olika format så länge som lämplig ActiveX-kontroll är tillgänglig för det formatet. Till exempel är ShockwaveFlash ActiveX-kontrollen som används i den här guiden lämplig för Flash-videor (SWF). För andra format kan du behöva använda andra ProgID.

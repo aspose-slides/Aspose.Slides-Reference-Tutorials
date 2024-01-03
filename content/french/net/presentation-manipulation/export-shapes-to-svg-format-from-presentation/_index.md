@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 
 ## 5. Exporter une forme vers SVG
 
- Au sein du`using`bloc, vous pouvez accéder aux formes de votre présentation et les exporter au format SVG. Ici, nous exportons la première forme de la première diapositive :
+ Au sein du`using` bloc, vous pouvez accéder aux formes de votre présentation et les exporter au format SVG. Ici, nous exportons la première forme de la première diapositive :
 
 ```csharp
 using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAccess.Write))

@@ -84,7 +84,7 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 
 ## 结论
 
-通过遵循本分步指南，您已经了解了如何使用 Aspose.Slides for .NET 以编程方式将其他幻灯片插入到 PowerPoint 演示文稿中。您现在拥有使用新内容动态增强演示文稿的工具，使您可以灵活地创建引人入胜且信息丰富的幻灯片。
+通过遵循本分步指南，您已经了解了如何使用 Aspose.Slides for .NET 以编程方式将其他幻灯片插入到 PowerPoint 演示文稿中。您现在拥有使用新内容动态增强演示文稿的工具，使您可以灵活地创建引人入胜且内容丰富的幻灯片。
 
 ## 常见问题解答
 
@@ -94,7 +94,7 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 
 ### 我可以插入其他演示文稿中的幻灯片吗？
 
-是的你可以。您可以从另一个演示文稿克隆幻灯片并将其插入到当前演示文稿中，而不是从头开始创建新幻灯片。`InsertClone`方法。
+是的你可以。您可以从另一个演示文稿克隆幻灯片并使用以下命令将它们插入到当前演示文稿中，而不是从头开始创建新幻灯片`InsertClone`方法。
 
 ### 如果我想在演示文稿的开头插入幻灯片怎么办？
 

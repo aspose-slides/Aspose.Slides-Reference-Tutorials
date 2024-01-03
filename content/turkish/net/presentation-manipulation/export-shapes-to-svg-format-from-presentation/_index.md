@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 
 ## 5. Bir Şekli SVG'ye Aktarma
 
- İçinde`using`bloğunu kullanarak sunumunuzdaki şekillere erişebilir ve bunları SVG formatına aktarabilirsiniz. Burada ilk slayttaki ilk şekli dışarı aktarıyoruz:
+ İçinde`using` bloğunu kullanarak sunumunuzdaki şekillere erişebilir ve bunları SVG formatına aktarabilirsiniz. Burada ilk slayttaki ilk şekli dışarı aktarıyoruz:
 
 ```csharp
 using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAccess.Write))

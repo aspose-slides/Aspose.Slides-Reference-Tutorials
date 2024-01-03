@@ -33,7 +33,7 @@ url: /ru/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-
 
 ## 3. Напишите код преобразования
 
- Откройте файл основного кода вашего проекта (например,`Program.cs`) и добавьте следующий оператор using:
+ Откройте файл основного кода вашего проекта (например,`Program.cs`и добавьте следующий оператор using:
 
 ```csharp
 using Aspose.Slides;

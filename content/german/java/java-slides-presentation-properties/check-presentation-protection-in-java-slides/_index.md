@@ -26,7 +26,7 @@ Bevor wir beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Biblioth
 </dependency>
 ```
 
- Ersetzen`your_version_here` mit der von Ihnen verwendeten Version von Aspose.Slides für Java.
+ Ersetzen`your_version_here` mit der Version von Aspose.Slides für Java, die Sie verwenden.
 
 ## Schritt 1: Überprüfen Sie den Schreibschutz
 

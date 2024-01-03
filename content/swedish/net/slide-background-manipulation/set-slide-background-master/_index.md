@@ -72,7 +72,7 @@ Den här koden kontrollerar om katalogen finns och skapar den om den inte gör d
 using (Presentation pres = new Presentation())
 {
     // Din kod för att ställa in bakgrundsmastern kommer här.
-    // Vi kommer att täcka detta i nästa steg.
+    // Vi tar upp detta i nästa steg.
 }
 ```
 

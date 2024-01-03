@@ -93,7 +93,7 @@ Sì, Aspose.Slides per .NET supporta vari formati di output, inclusi PPTX, DOCX 
 
  Puoi trovare supporto e discussioni della community su[https://forum.aspose.com/](https://forum.aspose.com/).
 
-### Q5: posso acquistare una licenza temporanea per Aspose.Slides per .NET?
+### Q5: Posso acquistare una licenza temporanea per Aspose.Slides per .NET?
 
  Sì, puoi acquistare una licenza temporanea su[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 

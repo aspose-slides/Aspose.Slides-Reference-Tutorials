@@ -10,7 +10,7 @@ url: /it/java/data-manipulation/set-chart-series-overlap-java-slides/
 
 ## Introduzione alla sovrapposizione delle serie di grafici nelle diapositive Java
 
-In questa guida completa, approfondiremo l'affascinante mondo della manipolazione della sovrapposizione delle serie di grafici in Java Slides utilizzando la potente API Aspose.Slides per Java. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial passo passo ti fornirà le conoscenze e il codice sorgente necessari per padroneggiare questo compito essenziale.
+In questa guida completa, approfondiremo l'affascinante mondo della manipolazione della sovrapposizione delle serie di grafici in Java Slides utilizzando la potente API Aspose.Slides per Java. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial passo dopo passo ti fornirà le conoscenze e il codice sorgente necessari per padroneggiare questo compito essenziale.
 
 ## Prerequisiti
 

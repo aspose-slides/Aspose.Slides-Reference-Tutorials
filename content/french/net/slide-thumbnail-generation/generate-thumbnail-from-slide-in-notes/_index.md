@@ -28,7 +28,7 @@ Vous devez disposer d'un environnement de développement .NET prêt sur votre sy
 
 Maintenant, décomposons le processus en étapes :
 
-## Étape 1 : Importer des espaces de noms
+## Étape 1 : Importer les espaces de noms
 
 Tout d’abord, vous devez importer les espaces de noms nécessaires pour travailler avec Aspose.Slides. Ajoutez le code suivant au début de votre script C# :
 

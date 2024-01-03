@@ -22,7 +22,7 @@ url: /zh/net/additional-chart-features/chart-get-range/
 
 ## 导入命名空间
 
-第一步是导入必要的命名空间。这允许您的代码访问使用 Aspose.Slides 所需的类和方法。您可以这样做：
+第一步是导入必要的名称空间。这允许您的代码访问使用 Aspose.Slides 所需的类和方法。您可以这样做：
 
 ```csharp
 using Aspose.Slides;

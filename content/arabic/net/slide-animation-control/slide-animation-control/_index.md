@@ -1,114 +1,79 @@
 ---
-title: التحكم في الرسوم المتحركة للشرائح في Aspose.Slides
+title: الرسوم المتحركة للشرائح الرئيسية باستخدام Aspose.Slides لـ .NET
 linktitle: التحكم في الرسوم المتحركة للشرائح في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية التحكم في الرسوم المتحركة للشرائح في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدر لإضافة الرسوم المتحركة وتخصيصها وإدارتها، مما يعزز المظهر المرئي لعروضك التقديمية.
+description: ارفع مستوى عروضك التقديمية باستخدام Aspose.Slides لـ .NET! تعلم كيفية التحكم في الرسوم المتحركة للشرائح دون عناء. قم بتنزيل المكتبة الآن!
 type: docs
 weight: 10
 url: /ar/net/slide-animation-control/slide-animation-control/
 ---
-
-## مقدمة إلى الرسوم المتحركة للشرائح باستخدام Aspose.Slides
-
-تبث الرسوم المتحركة للشرائح الحياة في عروضك التقديمية من خلال تقديم الحركة والانتقالات بين الشرائح وعناصر الشرائح. يمكّنك Aspose.Slides for .NET من التحكم في هذه الرسوم المتحركة برمجيًا، مما يمنحك تحكمًا دقيقًا في أنواعها ومددها وخصائصها الأخرى.
-
-## إعداد بيئة التطوير الخاصة بك
-
-قبل أن نتعمق في التعليمات البرمجية، تأكد من تثبيت Aspose.Slides for .NET في مشروعك. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/net/) . بعد التنزيل، اتبع تعليمات التثبيت الموجودة في[توثيق](https://reference.aspose.com/slides/net/).
-
-## الخطوة 1: إضافة الشرائح إلى العرض التقديمي
-
-أولاً، لنقم بإنشاء عرض تقديمي جديد وإضافة شرائح إليه. إليك مقتطف الشفرة للبدء:
-
+## مقدمة
+يمكن أن يؤدي تحسين عروضك التقديمية من خلال شرائح الرسوم المتحركة الجذابة إلى زيادة التأثير الإجمالي على جمهورك بشكل كبير. في هذا البرنامج التعليمي، سنستكشف كيفية التحكم في الرسوم المتحركة للشرائح باستخدام Aspose.Slides لـ .NET. Aspose.Slides هي مكتبة قوية تتيح المعالجة السلسة لعروض PowerPoint التقديمية في بيئة .NET.
+## المتطلبات الأساسية
+قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
+1.  Aspose.Slides لـ .NET Library: قم بتنزيل المكتبة وتثبيتها من[صفحة التحميل](https://releases.aspose.com/slides/net/).
+2.  دليل المستندات: قم بإنشاء دليل لتخزين ملفات العرض التقديمي الخاص بك. تحديث`dataDir` متغير في مقتطف الشفرة مع المسار إلى دليل المستند الخاص بك.
+## استيراد مساحات الأسماء
+تأكد من استيراد مساحات الأسماء الضرورية في بداية ملف .NET الخاص بك:
 ```csharp
-using Aspose.Slides;
-using System;
-
-class Program
+using Aspose.Slides.Export;
+using Aspose.Slides.SlideShow;
+```
+الآن، دعونا نقسم المثال المقدم إلى خطوات متعددة:
+## الخطوة 1: إنشاء مثيل العرض التقديمي
+ إنشاء مثيل`Presentation` فئة لتمثيل ملف العرض التقديمي الخاص بك:
+```csharp
+using (Presentation pres = new Presentation(dataDir + "BetterSlideTransitions.pptx"))
 {
-    static void Main()
-    {
-        // إنشاء عرض تقديمي جديد
-        using (Presentation presentation = new Presentation())
-        {
-            // أضف شرائح
-            ISlideCollection slides = presentation.Slides;
-            slides.AddEmptySlide(SlideLayoutType.TitleSlide);
-            slides.AddEmptySlide(SlideLayoutType.TitleAndContent);
-
-            // احفظ العرض التقديمي
-            presentation.Save("presentation.pptx", SaveFormat.Pptx);
-        }
-    }
+    // يتم وضع رمز الرسوم المتحركة للشرائح هنا
 }
 ```
-
-## الخطوة 2: تطبيق الرسوم المتحركة للدخول
-
-الآن، دعونا نطبق الرسوم المتحركة للمدخل على عناصر الشريحة. يتم تطبيق الرسوم المتحركة للمدخل عندما تظهر عناصر الشريحة على الشاشة لأول مرة. فيما يلي مثال على إضافة رسم متحرك خافت إلى شكل:
-
+## الخطوة 2: تطبيق انتقال نوع الدائرة
+قم بتطبيق انتقال نوع الدائرة على الشريحة الأولى:
 ```csharp
-// بافتراض أن لديك شكلًا يسمى "RectangleShape" على الشريحة
-IShape rectangleShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
-EffectFormat entranceEffect = rectangleShape.AnimationSettings.AddEntranceEffect(EffectType.Fade);
-entranceEffect.Timing.TriggerType = EffectTriggerType.AfterPrevious;
+pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
 ```
-
-## الخطوة 3: تخصيص تأثيرات الرسوم المتحركة
-
-يمكنك تخصيص تأثيرات الرسوم المتحركة لتناسب احتياجات العرض التقديمي الخاص بك. لنقم بتعديل الرسوم المتحركة المتلاشية للحصول على مدة وتأخير مختلفين:
-
+اضبط وقت الانتقال على 3 ثوانٍ:
 ```csharp
-entranceEffect.Timing.Duration = 2000; // مدة الرسوم المتحركة بالمللي ثانية
-entranceEffect.Timing.Delay = 1000;    // التأخير قبل بدء الرسوم المتحركة بالمللي ثانية
+pres.Slides[0].SlideShowTransition.AdvanceOnClick = true;
+pres.Slides[0].SlideShowTransition.AdvanceAfterTime = 3000;
 ```
-
-## الخطوة 4: إدارة توقيت الرسوم المتحركة
-
-يتيح لك Aspose.Slides التحكم في توقيت الرسوم المتحركة. يمكنك ضبط الرسوم المتحركة للبدء تلقائيًا أو تشغيلها بنقرة واحدة. فيما يلي كيفية تغيير مشغل الرسوم المتحركة:
-
+## الخطوة 3: تطبيق انتقال نوع المشط
+قم بتطبيق انتقال نوع المشط على الشريحة الثانية:
 ```csharp
-entranceEffect.Timing.TriggerType = EffectTriggerType.OnClick; // تبدأ الرسوم المتحركة عند النقر
+pres.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
 ```
-
-## الخطوة 5: إزالة الرسوم المتحركة
-
-إذا كنت تريد إزالة الرسوم المتحركة من عنصر الشريحة، فيمكنك القيام بذلك باستخدام الكود التالي:
-
+اضبط وقت الانتقال على 5 ثوانٍ:
 ```csharp
-rectangleShape.AnimationSettings.RemoveAllAnimations();
+pres.Slides[1].SlideShowTransition.AdvanceOnClick = true;
+pres.Slides[1].SlideShowTransition.AdvanceAfterTime = 5000;
 ```
-
-## الخطوة 6: تصدير العرض التقديمي المتحرك
-
-بمجرد إضافة الرسوم المتحركة وتخصيصها، يمكنك تصدير العرض التقديمي إلى تنسيقات مختلفة. فيما يلي مثال للتصدير إلى PDF:
-
+## الخطوة 4: تطبيق انتقال نوع التكبير
+تطبيق انتقال نوع التكبير/التصغير على الشريحة الثالثة:
 ```csharp
-presentation.Save("animated_presentation.pdf", SaveFormat.Pdf);
+pres.Slides[2].SlideShowTransition.Type = TransitionType.Zoom;
 ```
-
+اضبط وقت الانتقال على 7 ثوانٍ:
+```csharp
+pres.Slides[2].SlideShowTransition.AdvanceOnClick = true;
+pres.Slides[2].SlideShowTransition.AdvanceAfterTime = 7000;
+```
+## الخطوة 5: احفظ العرض التقديمي
+قم بكتابة العرض التقديمي المعدل مرة أخرى إلى القرص:
+```csharp
+pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
+```
+لقد نجحت الآن في التحكم في الرسوم المتحركة للشرائح باستخدام Aspose.Slides لـ .NET!
 ## خاتمة
-
-في هذا الدليل، اكتشفنا كيفية الاستفادة من Aspose.Slides لـ .NET للتحكم في الرسوم المتحركة للشرائح في عروض PowerPoint التقديمية. لقد قمنا بتغطية كل شيء بدءًا من إعداد بيئة التطوير الخاصة بك وحتى تطبيق الرسوم المتحركة وتخصيصها وإدارتها. باتباع هذه الخطوات واستخدام أمثلة التعليمات البرمجية المصدر المتوفرة، يمكنك إنشاء عروض تقديمية ديناميكية وجذابة تأسر جمهورك.
-
+يضيف تحريك الشرائح في عروضك التقديمية لمسة ديناميكية، مما يجعل المحتوى الخاص بك أكثر جاذبية. مع Aspose.Slides for .NET، تصبح العملية واضحة ومباشرة، مما يسمح لك بإنشاء عروض تقديمية جذابة دون عناء.
 ## الأسئلة الشائعة
-
-### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل Aspose.Slides لـ .NET من[هذا الرابط](https://releases.aspose.com/slides/net/)واتبع تعليمات التثبيت الواردة في[توثيق](https://reference.aspose.com/slides/net/).
-
-### هل يمكنني تطبيق الرسوم المتحركة على عناصر شريحة محددة؟
-
-نعم، يمكنك تطبيق الرسوم المتحركة على عناصر الشرائح الفردية مثل الأشكال والصور باستخدام Aspose.Slides for .NET.
-
-### هل من الممكن تصدير العرض التقديمي المتحرك إلى تنسيقات مختلفة؟
-
-قطعاً! يدعم Aspose.Slides تصدير العروض التقديمية المتحركة إلى تنسيقات مختلفة، بما في ذلك PDF وPPTX والمزيد.
-
-### كيف يمكنني التحكم في مدة كل رسوم متحركة؟
-
- يمكنك التحكم في مدة الرسوم المتحركة عن طريق ضبط`entranceEffect.Timing.Duration` الملكية في التعليمات البرمجية الخاصة بك.
-
-### هل يدعم Aspose.Slides إضافة المؤثرات الصوتية إلى الرسوم المتحركة؟
-
-نعم، يتيح لك Aspose.Slides إضافة مؤثرات صوتية إلى الرسوم المتحركة لتحسين تجربة الوسائط المتعددة لعروضك التقديمية.
+### هل يمكنني تخصيص تأثيرات الانتقال بشكل أكبر؟
+ نعم، يوفر Aspose.Slides نطاقًا واسعًا من أنواع الانتقال وخصائص إضافية للتخصيص. الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/) للتفاصيل.
+### هل هناك نسخة تجريبية مجانية متاحة؟
+ نعم، يمكنك استكشاف Aspose.Slides باستخدام[تجربة مجانية](https://releases.aspose.com/).
+### أين يمكنني الحصول على الدعم لـ Aspose.Slides؟
+ قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
+### كيف أحصل على ترخيص مؤقت؟
+ يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+### أين يمكنني شراء Aspose.Slides لـ .NET؟
+ شراء المكتبة[هنا](https://purchase.aspose.com/buy).

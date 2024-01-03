@@ -2,115 +2,64 @@
 title: Définition des numéros de diapositives pour les présentations à l'aide d'Aspose.Slides
 linktitle: Définition des numéros de diapositives pour les présentations à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment ajouter et personnaliser des numéros de diapositives dans des présentations PowerPoint à l'aide d'Aspose.Slides for .NET. Ce guide étape par étape fournit des exemples de code source pour configurer le projet, charger une présentation, ajouter des numéros de diapositives, personnaliser leur format et ajuster leur emplacement.
+description: Explorez le monde transparent de la manipulation de diapositives avec Aspose.Slides pour .NET. Apprenez à définir des numéros de diapositives sans effort, améliorant ainsi votre expérience de présentation.
 type: docs
 weight: 16
 url: /fr/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-## Introduction à Aspose.Slides pour .NET
-
-Aspose.Slides for .NET est une bibliothèque polyvalente qui permet aux développeurs .NET de créer, modifier et manipuler des présentations PowerPoint par programme. Il offre un large éventail de fonctionnalités pour interagir avec divers éléments des présentations, notamment des diapositives, des formes, du texte, des images, etc. Dans ce guide, nous nous concentrerons sur l'ajout et la personnalisation des numéros de diapositives à l'aide d'Aspose.Slides for .NET.
-
+## Introduction
+Dans le monde dynamique des présentations, contrôler la séquence et l’organisation des diapositives est crucial pour une communication efficace. Aspose.Slides for .NET fournit une solution puissante pour manipuler les numéros de diapositives dans vos présentations, vous offrant ainsi la flexibilité de personnaliser votre contenu de manière transparente.
 ## Conditions préalables
-
-Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
-
-- Visual Studio (ou tout autre environnement de développement .NET)
--  Aspose.Slides pour la bibliothèque .NET (Télécharger depuis[ici](https://releases.aspose.com/slides/net/)
-
-## Mise en place du projet
-
-1. Créez un nouveau projet Visual Studio (application console, par exemple).
-2. Ajoutez une référence à la bibliothèque Aspose.Slides pour .NET.
-
-## Chargement d'une présentation
-
-Pour commencer, chargeons une présentation PowerPoint existante :
-
+Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+-  Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
+- Environnement de développement : disposez d'un environnement de développement .NET fonctionnel configuré sur votre machine.
+- Exemple de présentation : téléchargez l'exemple de présentation, "HelloWorld.pptx", que nous utiliserons dans ce didacticiel.
+Explorons maintenant le guide étape par étape sur la façon de définir les numéros de diapositives à l'aide d'Aspose.Slides pour .NET.
+## Importer des espaces de noms
+Avant de commencer à travailler avec Aspose.Slides, vous devez importer les espaces de noms nécessaires dans votre projet.
+```csharp
+using Aspose.Slides.Export;
+using Aspose.Slides;
+```
+Maintenant, décomposons chaque étape plus en détail :
+## Étape 1 : Importer les espaces de noms nécessaires
+Dans votre projet .NET, assurez-vous d'inclure les espaces de noms suivants :
 ```csharp
 using Aspose.Slides;
-
-// Charger la présentation
-using Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Export;
 ```
-
-## Ajout de numéros de diapositive
-
-Ensuite, ajoutons des numéros de diapositive à chaque diapositive de la présentation :
-
+Ces espaces de noms fournissent les classes et méthodes essentielles nécessaires pour travailler avec des présentations à l'aide d'Aspose.Slides.
+## Étape 2 : Charger la présentation
+ Pour commencer, créez une instance de`Presentation` classe et chargez votre fichier de présentation, dans ce cas, "HelloWorld.pptx".
 ```csharp
-// Activer les numéros de diapositive
-foreach (ISlide slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
 {
-    // Ajouter une forme de numéro de diapositive
-    IAutoShape slideNumberShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 10, 50, 20);
-    slideNumberShape.TextFrame.Text = (slide.SlideNumber).ToString();
+    // Votre code ici
 }
 ```
-
-## Personnalisation du format du numéro de diapositive
-
-Vous pouvez personnaliser l'apparence des numéros de diapositive en ajustant la police, la couleur, la taille, etc. :
-
+## Étape 3 : obtenir et définir le numéro de diapositive
+ Récupérez le numéro de la diapositive actuelle à l'aide du`FirstSlideNumber` propriété, puis définissez-la sur la valeur souhaitée. Dans l'exemple, nous l'avons fixé à 10.
 ```csharp
-foreach (IAutoShape shape in presentation.Slides[0].Shapes.OfType<IAutoShape>())
-{
-    // Personnaliser la police et la couleur
-    ITextFrame textFrame = shape.TextFrame;
-    IParagraph paragraph = textFrame.Paragraphs[0];
-    IPortion portion = paragraph.Portions[0];
-    
-    portion.PortionFormat.FontHeight = 12;
-    portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+int firstSlideNumber = presentation.FirstSlideNumber;
+presentation.FirstSlideNumber = 10;
 ```
-
-## Mise à jour de l'emplacement du numéro de diapositive
-
-Vous pouvez également ajuster la position des numéros de diapositive sur chaque diapositive :
-
+## Étape 4 : Enregistrez la présentation modifiée
+Enfin, enregistrez la présentation modifiée avec le nouveau numéro de diapositive.
 ```csharp
-foreach (ISlide slide in presentation.Slides)
-{
-    foreach (IAutoShape shape in slide.Shapes.OfType<IAutoShape>())
-    {
-        shape.Left = slide.SlideSize.Size.Width - shape.Width - 10;
-        shape.Top = slide.SlideSize.Size.Height - shape.Height - 10;
-    }
-}
+presentation.Save(dataDir + "Set_Slide_Number_out.pptx", SaveFormat.Pptx);
 ```
-
-## Enregistrement de la présentation modifiée
-
-Une fois que vous avez ajouté et personnalisé les numéros de diapositives, enregistrez la présentation modifiée :
-
-```csharp
-presentation.Save("output-presentation.pptx", SaveFormat.Pptx);
-```
-
+Répétez ces étapes si nécessaire pour personnaliser les numéros de diapositives en fonction des exigences de votre présentation.
 ## Conclusion
-
-Dans ce guide, nous avons exploré comment améliorer vos présentations en ajoutant et en personnalisant des numéros de diapositives à l'aide d'Aspose.Slides pour .NET. En suivant les étapes et les exemples de code fournis, vous pouvez automatiser le processus d'ajout de numéros de diapositives et créer des présentations d'aspect professionnel.
-
+Aspose.Slides pour .NET vous permet de prendre le contrôle de votre flux de présentation en définissant facilement les numéros de diapositives. Améliorez vos présentations avec une expérience utilisateur transparente et dynamique grâce à cette puissante bibliothèque.
 ## FAQ
-
-### Comment installer Aspose.Slides pour .NET ?
-
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/slides/net/). Après le téléchargement, ajoutez une référence à la bibliothèque dans votre projet .NET.
-
+### Aspose.Slides est-il compatible avec les dernières versions de .NET ?
+Oui, Aspose.Slides est régulièrement mis à jour pour garantir la compatibilité avec les dernières versions du framework .NET.
 ### Puis-je personnaliser l’apparence des numéros de diapositives ?
-
-Oui, vous pouvez personnaliser la police, la couleur, la taille et d'autres attributs des numéros de diapositive à l'aide des exemples de code fournis.
-
-### Comment puis-je ajuster la position des numéros de diapositive sur chaque diapositive ?
-
-Vous pouvez ajuster la position des numéros de diapositive en modifiant les coordonnées des formes des numéros de diapositive, comme indiqué dans les exemples de code.
-
-### Aspose.Slides pour .NET sert-il uniquement à ajouter des numéros de diapositives ?
-
-Non, Aspose.Slides pour .NET offre un large éventail de fonctionnalités au-delà de l'ajout de numéros de diapositives. Il vous permet de créer, modifier et manipuler divers éléments de présentations PowerPoint par programme.
-
-### Les modifications sont-elles réversibles si je souhaite supprimer les numéros de diapositive ultérieurement ?
-
-Oui, vous pouvez facilement supprimer les numéros de diapositives en supprimant les formes correspondantes des diapositives à l'aide de la bibliothèque Aspose.Slides.
+Absolument! Aspose.Slides fournit de nombreuses options pour personnaliser l'apparence des numéros de diapositives, notamment la police, la taille et la couleur.
+### Existe-t-il des restrictions de licence pour l’utilisation d’Aspose.Slides ?
+ Se référer au[Page de licence Aspose.Slides](https://purchase.aspose.com/buy) pour des informations détaillées sur les licences.
+### Comment puis-je obtenir de l'aide pour les requêtes liées à Aspose.Slides ?
+ Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour une assistance communautaire ou explorez les options d’assistance premium.
+### Puis-je essayer Aspose.Slides avant d’acheter ?
+ Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).

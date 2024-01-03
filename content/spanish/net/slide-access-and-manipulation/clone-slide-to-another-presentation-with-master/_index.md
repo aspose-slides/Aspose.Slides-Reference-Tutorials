@@ -64,7 +64,7 @@ using (Presentation destPres = new Presentation())
 
 ## Paso 4: clonar la diapositiva maestra
 
-Ahora, clonemos la diapositiva maestra de la presentación de origen a la presentación de destino. Esto es esencial para mantener el mismo diseño y disposición. Así es como lo haces:
+Ahora, clonemos la diapositiva maestra de la presentación de origen a la presentación de destino. Esto es esencial para mantener el mismo diseño y distribución. Así es como lo haces:
 
 ```csharp
 ISlide SourceSlide = srcPres.Slides[0];

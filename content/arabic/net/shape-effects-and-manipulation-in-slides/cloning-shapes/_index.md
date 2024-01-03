@@ -50,7 +50,7 @@ IShape sourceShape = presentation.Slides[0].Shapes[0];
 
 ### الخطوة 4: استنساخ الشكل
 
- الآن، استخدم`CloneShape`طريقة لإنشاء نسخة مكررة من الشكل المصدر. يمكنك تحديد الشريحة المستهدفة وموضع الشكل المستنسخ.
+ الآن، استخدم`CloneShape` طريقة لإنشاء نسخة مكررة من الشكل المصدر. يمكنك تحديد الشريحة المستهدفة وموضع الشكل المستنسخ.
 
 ```csharp
 IShape clonedShape = presentation.Slides[1].Shapes.AddClone(sourceShape, x, y, width, height);

@@ -86,7 +86,7 @@ In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für .NET eine F
 
 ### Wie kann ich Aspose.Slides für .NET installieren?
 
- Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[dieser Link](https://releases.aspose.com/slides/net/). Befolgen Sie unbedingt die Installationsanweisungen in der Dokumentation.
+ Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[dieser Link](https://releases.aspose.com/slides/net/)Befolgen Sie unbedingt die Installationsanweisungen in der Dokumentation.
 
 ### Kann ich mehrere Folien gleichzeitig replizieren?
 

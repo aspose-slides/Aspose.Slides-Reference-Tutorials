@@ -65,7 +65,7 @@ Para cualquier consulta relacionada con el soporte, visite el[Foro Aspose.Slides
 ### Pregunta frecuente 3: ¿Puedo utilizar Aspose.Slides para .NET para proyectos comerciales?
  Sí, puedes comprar licencias para uso comercial.[aquí](https://purchase.aspose.com/buy).
 
-### Pregunta frecuente 4: ¿Necesito conocimientos profundos de programación para utilizar Aspose.Slides para .NET?
+### Pregunta frecuente 4: ¿Necesito conocimientos de programación profundos para utilizar Aspose.Slides para .NET?
  Si bien los conocimientos básicos de programación son útiles, Aspose.Slides para .NET ofrece documentación extensa para ayudarlo en sus proyectos. Puede encontrar la documentación de la API.[aquí](https://reference.aspose.com/slides/net/).
 
 ### Pregunta frecuente 5: ¿Puedo obtener una licencia temporal de Aspose.Slides para .NET?

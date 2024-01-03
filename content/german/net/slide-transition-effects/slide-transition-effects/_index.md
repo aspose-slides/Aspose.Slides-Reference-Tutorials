@@ -81,7 +81,7 @@ In diesem Code legen wir den Übergangstyp und andere Übergangseigenschaften f�
 
 ## Schritt 3: Speichern Sie die Präsentation
 
-Nachdem Sie die gewünschten Übergangseffekte angewendet haben, ist es an der Zeit, die geänderte Präsentation zu speichern.
+Sobald Sie die gewünschten Übergangseffekte angewendet haben, ist es an der Zeit, die geänderte Präsentation zu speichern.
 
 ### 3.1 Speichern Sie die Präsentation
 

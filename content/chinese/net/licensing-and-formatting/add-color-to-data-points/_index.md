@@ -16,7 +16,7 @@ url: /zh/net/licensing-and-formatting/add-color-to-data-points/
 
 1. Visual Studio：您需要在计算机上安装 Visual Studio。
 
-2.  Aspose.Slides for .NET：从以下位置下载并安装 Aspose.Slides for .NET[下载链接](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides for .NET：从以下位置下载并安装 Aspose.Slides for .NET[下载链接](https://releases.aspose.com/slides/net/).
 
 3. 对 C# 的基本了解：您应该具备 C# 编程的基本知识。
 

@@ -105,7 +105,7 @@ C: Aspose.Slides for .NET PNG, JPEG ve BMP dahil olmak üzere çeşitli görünt
 C: İşlem, daha büyük sunumlar veya karmaşık şekiller için ek bellek ve işlem süresi tüketebilir.
 
 ### S: Oluşturulan küçük resimlerin boyutunu özelleştirebilir miyim?
- C: Evet, parametreleri değiştirerek boyutları ayarlayabilirsiniz.`GetThumbnail` yöntem.
+C: Evet, parametreleri değiştirerek boyutları ayarlayabilirsiniz.`GetThumbnail` yöntem.
 
 ### S: Aspose.Slides for .NET ticari kullanıma uygun mudur?
 C: Evet, Aspose.Slides hem kişisel hem de ticari uygulamalar için sağlam bir çözümdür. Lisanslama ayrıntılarını Aspose web sitesinde bulabilirsiniz.

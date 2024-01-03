@@ -61,7 +61,7 @@ I det här avsnittet förklarar vi hur du går igenom varje bild i presentatione
 ```csharp
 for (int i = 0; i < presentation.Slides.Count; i++)
 {
-    // Koden för att spara bilder som HTML går här
+    // Kod för att spara bilder som HTML går här
 }
 ```
 

@@ -46,7 +46,7 @@ Därefter skapar du ett Donut-diagram på bilden. Du kan anpassa diagrammets pos
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Steg 4: Anpassa Donut Chart
+## Steg 4: Anpassa munkdiagrammet
 
 Nu är det dags att anpassa Donut-diagrammet. Vi kommer att ställa in olika egenskaper som att ta bort förklaringen, konfigurera hålstorleken och justera den första skivans vinkel. Här är koden:
 

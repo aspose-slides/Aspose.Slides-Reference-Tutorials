@@ -35,7 +35,7 @@ url: /zh/net/notes-slide-manipulation/
 了解如何使用 Aspose.Slides for .NET 操作 PowerPoint 演示文稿中的注释幻灯片。本分步指南涵盖了通过源代码示例访问笔记幻灯片、向笔记幻灯片添加内容以及从中提取内容。
 ### [管理笔记幻灯片中的页眉和页脚](./header-and-footer-in-notes-slide/)
 了解如何使用 Aspose.Slides for .NET 自定义笔记幻灯片中的页眉和页脚。本分步指南提供了源代码示例，并涵盖了元素的访问、修改和样式设置。
-### [删除特定幻灯片上的注释](./remove-notes-at-specific-slide/)
+### [删除特定幻灯片的注释](./remove-notes-at-specific-slide/)
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的特定幻灯片中删除注释。按照我们带有完整源代码的分步指南，以编程方式无缝操作您的幻灯片。
 ### [从所有幻灯片中删除注释](./remove-notes-from-all-slides/)
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的所有幻灯片中删除注释。按照此分步指南和完整的源代码示例，轻松实现您的目标。

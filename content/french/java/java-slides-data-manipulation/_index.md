@@ -36,7 +36,7 @@ Que vous soyez un développeur cherchant à améliorer vos compétences ou un pr
 
 En conclusion, Aspose.Slides for Java vous permet de prendre le contrôle de vos présentations de diapositives, les rendant dynamiques, attrayantes et adaptées à vos besoins. Nos didacticiels vous guideront à chaque étape du processus, vous assurant de devenir un manipulateur de données Java Slides compétent. Commencez votre voyage aujourd’hui et constatez par vous-même la transformation.
 
-N'oubliez pas qu'il ne s'agit pas seulement de créer des diapositives ; il s'agit de créer des présentations percutantes qui laissent une impression durable. Aspose.Slides pour Java est votre arme secrète pour y parvenir. Alors, commençons!
+N'oubliez pas qu'il ne s'agit pas seulement de créer des diapositives ; il s'agit de créer des présentations percutantes qui laissent une impression durable. Aspose.Slides pour Java est votre arme secrète pour y parvenir. Alors, commençons!
 ## Tutoriels de manipulation de données Java Slides
 ### [Calculer des formules dans les diapositives Java](./calculate-formulas-java-slides/)
 Découvrez comment calculer des formules dans Java Slides à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour les présentations PowerPoint dynamiques.

@@ -92,7 +92,7 @@ finally
 
 ## 结论
 
-在这份综合指南中，您了解了如何使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为 PDF，同时保留隐藏的幻灯片。我们为您提供了分步教程以及无缝完成此任务所需的源代码。
+在本综合指南中，您了解了如何使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为 PDF，同时保留隐藏的幻灯片。我们为您提供了分步教程以及无缝完成此任务所需的源代码。
 
 ## 常见问题解答
 

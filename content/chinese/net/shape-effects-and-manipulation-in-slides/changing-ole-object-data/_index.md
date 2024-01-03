@@ -1,100 +1,90 @@
 ---
-title: 使用 Aspose.Slides 更改演示文稿幻灯片中的 OLE 对象数据
-linktitle: 使用 Aspose.Slides 更改演示文稿幻灯片中的 OLE 对象数据
+title: 使用 Aspose.Slides 更改演示文稿中的 OLE 对象数据
+linktitle: 使用 Aspose.Slides 更改演示文稿中的 OLE 对象数据
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides API 有效地更改演示文稿幻灯片中的 OLE 对象数据。本分步指南提供了代码示例和基本见解。
+description: 探索 Aspose.Slides for .NET 在轻松更改 OLE 对象数据方面的强大功能。通过动态内容增强您的演示文稿。
 type: docs
 weight: 25
 url: /zh/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
-
 ## 介绍
-
-在演示设计和开发领域，动态内容对于有效吸引受众并为其提供信息至关重要。 OLE（对象链接和嵌入）对象就是这样的动态元素之一，它为演示文稿提供了交互式元素。使用 Aspose.Slides API，更改演示文稿幻灯片中的 OLE 对象数据成为一个无缝过程。本指南提供了全面的分步演练，使您能够掌握使用 Aspose.Slides for .NET 有效操作 OLE 对象的专业知识。
-
-## 使用 Aspose.Slides 更改 OLE 对象数据：分步指南
-
-### Aspose.Slides 入门
-
-要开始 OLE 对象操作之旅，您需要在开发环境中安装 Aspose.Slides for .NET。如果您还没有，请前往[Aspose.Slides API 参考](https://reference.aspose.com/slides/net/)和[Aspose.Slides 版本](https://releases.aspose.com/slides/net/)下载并设置所需的资源。
-
-### 加载演示文稿
-
-在修改任何 OLE 对象之前，您需要使用演示文稿。以下是使用 Aspose.Slides 加载演示文稿的方法：
-
+创建动态和交互式 PowerPoint 演示文稿是当今数字世界的常见要求。实现这一目标的一个强大工具是 Aspose.Slides for .NET，这是一个强大的库，允许开发人员以编程方式操作和增强 PowerPoint 演示文稿。在本教程中，我们将深入研究使用 Aspose.Slides 更改演示文稿幻灯片中的 OLE（对象链接和嵌入）对象数据的过程。
+## 先决条件
+在开始使用 Aspose.Slides for .NET 之前，请确保满足以下先决条件：
+1. 开发环境：设置安装了.NET的开发环境。
+2.  Aspose.Slides 库：下载并安装 Aspose.Slides for .NET 库。你可以找到图书馆[这里](https://releases.aspose.com/slides/net/).
+3. 基本理解：熟悉 C# 编程和 PowerPoint 演示文稿的基本概念。
+## 导入命名空间
+在您的 C# 项目中，导入必要的命名空间以使用 Aspose.Slides 功能：
 ```csharp
+using System.IO;
+using Aspose.Cells;
 using Aspose.Slides;
-
-//加载演示文稿
-using Presentation presentation = new Presentation("path_to_your_presentation.pptx");
+using Aspose.Slides.DOM.Ole;
+using SaveFormat = Aspose.Slides.Export.SaveFormat;
 ```
-
-### 访问 OLE 对象
-
-加载演示文稿后，就可以识别并访问要修改的 OLE 对象了。这些对象可能是图表、图形、多媒体或幻灯片中嵌入的其他动态内容。
-
+## 第 1 步：设置您的项目
+首先创建一个新的 C# 项目并导入 Aspose.Slides 库。确保您的项目配置正确，并且具备所需的依赖项。
+## 第 2 步：访问演示文稿和幻灯片
 ```csharp
-//访问第一张幻灯片
-ISlide slide = presentation.Slides[0];
-
-//访问幻灯片上的 OLE 形状
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "ChangeOLEObjectData.pptx"))
+{
+    ISlide slide = pres.Slides[0];
+```
+## 第 3 步：找到 OLE 对象
+遍历幻灯片中的所有形状以找到 OLE 对象框架：
+```csharp
+OleObjectFrame ole = null;
 foreach (IShape shape in slide.Shapes)
 {
-    if (shape is IOleObjectFrame oleObject)
+    if (shape is OleObjectFrame)
     {
-        //修改 OLE 对象的代码位于此处
+        ole = (OleObjectFrame)shape;
     }
 }
 ```
-
-### 修改 OLE 对象数据
-
-令人兴奋的部分来了——更改 OLE 对象数据。假设您有一个嵌入的 Excel 电子表格，并且您想要更新它显示的数据。以下是实现这一目标的方法：
-
+## 步骤4：读取和修改工作簿数据
 ```csharp
-//假设您已将 OLE 对象标识为 oleObject
-if (oleObject.ObjectData is OleEmbeddedData oleData)
+if (ole != null)
 {
-    //修改oleData对象中的数据
-    oleData.SetNewData(newDataByteArray);
+    using (MemoryStream msln = new MemoryStream(ole.EmbeddedData.EmbeddedFileData))
+    {
+        //读取工作簿中的对象数据
+        Workbook Wb = new Workbook(msln);
+        using (MemoryStream msout = new MemoryStream())
+        {
+            //修改工作簿数据
+            Wb.Worksheets[0].Cells[0, 4].PutValue("E");
+            Wb.Worksheets[0].Cells[1, 4].PutValue(12);
+            Wb.Worksheets[0].Cells[2, 4].PutValue(14);
+            Wb.Worksheets[0].Cells[3, 4].PutValue(15);
+            OoxmlSaveOptions so1 = new OoxmlSaveOptions(Aspose.Cells.SaveFormat.Xlsx);
+            Wb.Save(msout, so1);
+            //更改 Ole 框架对象数据
+            IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(msout.ToArray(), ole.EmbeddedData.EmbeddedFileExtension);
+            ole.SetEmbeddedData(newData);
+        }
+    }
 }
 ```
-
-### 保存演示文稿
-
-一旦您成功地对 OLE 对象数据进行了所需的更改，请不要忘记保存演示文稿以保留您的修改：
-
+## 第 5 步：保存演示文稿
 ```csharp
-//保存更改后的演示文稿
-presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
+pres.Save(dataDir + "OleEdit_out.pptx", SaveFormat.Pptx);
 ```
-
-### 常见问题解答
-
-#### 如何识别幻灯片上存在的 OLE 对象的类型？
-
-要识别 OLE 对象的类型，可以使用`Type`的财产`IOleObjectFrame`界面。它将向您提供有关它是嵌入对象、链接对象还是其他类型的信息。
-
-#### 我可以从外部数据源修改 OLE 对象吗？
-
-是的，Aspose.Slides 允许您使用外部源的数据修改 OLE 对象。您可以通过编程方式更新图表、表格和其他嵌入内容。
-
-#### Aspose.Slides 与各种演示文稿格式兼容吗？
-
-是的，Aspose.Slides 支持多种演示文稿格式，包括 PPTX、PPT、POTX 等。请务必参阅文档以获取支持格式的完整列表。
-
-#### 我需要具备高级编程技能才能使用 Aspose.Slides 吗？
-
-虽然对 .NET 编程的基本了解很有帮助，但 Aspose.Slides 提供了全面的文档和示例来指导您完成整个过程。即使您是初学者，也可以有效地利用其功能。
-
-#### 我可以自动执行修改 OLE 对象数据的过程吗？
-
-绝对地！ Aspose.Slides 专为自动化而设计。您可以创建跨多个演示文稿修改 OLE 对象数据的脚本，从而节省时间和精力。
-
-#### 处理大型演示文稿时是否有任何性能考虑因素？
-
-处理大型演示文稿时，建议使用有效的编码实践。缓存和优化代码有助于在 OLE 对象数据修改期间保持平稳的性能。
-
-### 结论
-
-在不断发展的演示领域中，OLE 对象是动态传达信息的多功能工具。借助 Aspose.Slides for .NET 的强大功能，更改 OLE 对象数据的过程变得可访问且高效。通过本指南，您获得了识别、修改和增强 OLE 对象的知识，从而丰富您的演示文稿并吸引观众。
+## 结论
+通过执行这些步骤，您可以使用 Aspose.Slides for .NET 无缝更改演示文稿幻灯片中的 OLE 对象数据。这为创建根据您的特定需求量身定制的动态和定制演示文稿提供了无限可能。
+## 经常问的问题
+### 什么是 Aspose.Slides for .NET？
+Aspose.Slides for .NET 是一个功能强大的库，使开发人员能够以编程方式处理 PowerPoint 演示文稿，从而轻松进行操作和增强。
+### 在哪里可以找到 Aspose.Slides 文档？
+可以找到 Aspose.Slides for .NET 的文档[这里](https://reference.aspose.com/slides/net/).
+### 如何下载 .NET 版 Aspose.Slides？
+您可以从发布页面下载该库[这里](https://releases.aspose.com/slides/net/).
+### Aspose.Slides 是否有免费试用版？
+是的，您可以免费试用[这里](https://releases.aspose.com/).
+### 在哪里可以获得 Aspose.Slides for .NET 的支持？
+如需支持和讨论，请访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).

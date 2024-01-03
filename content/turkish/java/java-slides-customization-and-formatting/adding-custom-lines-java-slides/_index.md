@@ -107,4 +107,4 @@ shape.getLineFormat().setWidth(2); // Çizgi kalınlığını 2 noktaya ayarla
 
 ### Bir slayta birden fazla satır eklemek mümkün mü?
 
-Evet, bu eğitimde belirtilen adımları tekrarlayarak bir slayda birden fazla satır ekleyebilirsiniz. Her satır bağımsız olarak özelleştirilebilir.
+Evet, bu eğitimde belirtilen adımları tekrarlayarak bir slayda birden çok satır ekleyebilirsiniz. Her satır bağımsız olarak özelleştirilebilir.

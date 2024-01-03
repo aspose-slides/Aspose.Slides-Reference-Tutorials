@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 Una vez que haya identificado un marco de objeto OLE, puede extraer sus datos para su manipulación. Por ejemplo, si el objeto OLE es una hoja de cálculo de Excel incrustada, puede acceder a sus datos de la siguiente manera:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // Procese los datos sin procesar según sea necesario
-}
+
 ```
 
 ### 5. Modificación de marcos de objetos OLE
@@ -64,19 +62,17 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Aspose.Slides le permite modificar marcos de objetos OLE mediante programación. Suponga que desea actualizar el contenido de un documento de Word incrustado. Así es como puedes lograrlo:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // Modificar los datos incrustados
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## Preguntas frecuentes
 
 ### ¿Cómo determino el tipo de marco de un objeto OLE?
 
- Para determinar el tipo de marco de un objeto OLE, puede utilizar el`OleObjectType` propiedad disponible dentro del`OleObjectFrame` clase.
+ Para determinar el tipo de marco de un objeto OLE, puede utilizar el`OleObjectType`propiedad disponible dentro del`OleObjectFrame` clase.
 
 ### ¿Puedo extraer objetos OLE como archivos separados?
 

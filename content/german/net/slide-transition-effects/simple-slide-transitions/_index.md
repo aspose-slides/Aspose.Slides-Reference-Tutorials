@@ -12,7 +12,7 @@ In der Welt professioneller Präsentationen ist es von größter Bedeutung, Ihr 
 
 ## Voraussetzungen
 
-Bevor wir uns auf die Reise begeben und faszinierende Folienübergänge erstellen, müssen einige Voraussetzungen erfüllt sein:
+Bevor wir uns auf den Weg machen, fesselnde Folienübergänge zu erstellen, müssen einige Voraussetzungen erfüllt sein:
 
 ### 1. Aspose.Slides für .NET-Bibliothek
 

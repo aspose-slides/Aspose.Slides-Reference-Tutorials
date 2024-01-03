@@ -39,7 +39,7 @@ Sammanfattningsvis är Aspose.Slides för Java en spelväxlare för alla som arb
 
 Att införliva Aspose.Slides för Java i ditt arbetsflöde kommer utan tvekan att höja ditt presentationsspel, vilket får dina bilder att lysa starkare än någonsin tidigare. Så varför vänta? Dyk in i Java Slides-världen med Aspose.Slides för Java och lås upp oändliga möjligheter för ditt nästa presentationsmästerverk.
 
-## Självstudier för att spara alternativ för Java Slides
+## Instruktioner för att spara alternativ för Java Slides
 ### [Spara som fördefinierad vytyp i Java Slides](./save-as-predefined-view-type-in-java-slides/)
 Lär dig hur du ställer in fördefinierade vytyper i Java Slides med Aspose.Slides för Java. Steg-för-steg guide med kodexempel och vanliga frågor.
 ### [Spara som skrivskyddad i Java Slides](./save-as-read-only-in-java-slides/)

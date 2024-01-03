@@ -10,7 +10,7 @@ url: /tr/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 
 ## Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlamaya Giriş
 
-Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. PowerPoint slaytlarını oluşturmak, değiştirmek ve yönetmek için kapsamlı özellikler sağlar. Sunularla çalışırken yaygın bir gereksinim, grafik verilerinin Excel çalışma kitabı gibi harici bir veri kaynağından dinamik olarak ayarlanmasıdır. Bu derste Java kullanarak bunu nasıl başaracağımızı göstereceğiz.
+Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. PowerPoint slaytlarını oluşturmak, değiştirmek ve yönetmek için kapsamlı özellikler sağlar. Sunumlarla çalışırken yaygın bir gereksinim, grafik verilerinin Excel çalışma kitabı gibi harici bir veri kaynağından dinamik olarak ayarlanmasıdır. Bu derste Java kullanarak bunu nasıl başaracağımızı göstereceğiz.
 
 ## Önkoşullar
 

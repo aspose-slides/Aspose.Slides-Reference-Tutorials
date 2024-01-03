@@ -1,99 +1,73 @@
 ---
-title: Aspose.Slides ile Görüntü Doldurma Slaytlarına Uzatma Ofseti Ekleme
+title: PowerPoint Sunumlarında Görüntü Dolgusu için Uzatma Uzaklığı Ekleme
 linktitle: Slaytlarda Görüntü Dolgusu için Uzatma Uzaklığı Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak sunum slaytlarınızı nasıl geliştireceğinizi öğrenin. Bu adım adım kılavuz, görüntü dolgusu için uzatma ofseti eklemeyi, dinamik görseller oluşturmayı ve tasarımı optimize etmeyi kapsar.
+description: Aspose.Slides for .NET ile PowerPoint sunumlarını nasıl geliştireceğinizi öğrenin. Görüntü dolgusuna uzatma ofseti eklemek için adım adım kılavuzu izleyin.
 type: docs
 weight: 18
 url: /tr/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-Modern sunumlarda görseller, mesajların etkili bir şekilde iletilmesinde önemli bir rol oynamaktadır. .NET'te sunum dosyalarıyla çalışmak için güçlü bir API olan Aspose.Slides, görüntülerin şekillerin içine nasıl doldurulacağını tam olarak kontrol etmenize olanak tanıyan "Uzatma Ofseti" adı verilen bir özellik sunar. Bu makale, Aspose.Slides for .NET kullanarak sunum slaytlarına görüntü dolgusu için uzatma ofseti ekleme sürecinde size rehberlik edecektir.
-
-## Stretch Offset'e Giriş
-
-Uzatma Ofseti, görüntülerin şekiller içinde nasıl görüntüleneceğini özelleştirmeniz gerektiğinde değerli bir tekniktir. Bir şekil içindeki görüntünün konumunu ve hizalamasını kontrol etmenizi sağlayarak yaratıcı ve görsel olarak çekici slayt tasarımlarına olanak tanır. Aspose.Slides API'sini kullanarak esnek ofseti programlı olarak uygulayabilir ve sunumlarınıza hayat verebilirsiniz.
-
-## Geliştirme Ortamınızı Kurma
-
- Uygulamaya geçmeden önce, geliştirme ortamınızda Aspose.Slides for .NET'in kurulu olduğundan emin olun. Aspose web sitesinden indirebilirsiniz.[İndirme: {link](https://releases.aspose.com/slides/net/)İndirdikten sonra projeniz için API'yi ayarlamak üzere kurulum talimatlarını izleyin.
-
-## Slayta Resim Eklemek
-
-Stretch offset özelliğini göstermek için Aspose.Slides'ı kullanarak bir slayta resim ekleyerek başlayalım. Aşağıdaki kod parçacığı bunun nasıl başarılacağını göstermektedir:
-
+## giriiş
+Sunumların dinamik dünyasında görseller izleyicinin dikkatini çekmede önemli bir rol oynar. Aspose.Slides for .NET, güçlü özellikler sunarak geliştiricilerin PowerPoint sunumlarını geliştirmelerine olanak sağlar. Bu özelliklerden biri, yaratıcı ve görsel olarak çekici slaytlara olanak tanıyan görüntü dolgusu için bir uzatma ofseti ekleme yeteneğidir.
+## Önkoşullar
+Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+1.  Aspose.Slides for .NET Library: Kitaplığı şuradan indirip yükleyin:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+2. Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamı kurduğunuzdan emin olun.
+Şimdi adım adım kılavuza başlayalım.
+## Ad Alanlarını İçe Aktar
+İlk olarak, .NET uygulamanızda Aspose.Slides işlevselliğinden yararlanmak için gerekli ad alanlarını içe aktarın.
 ```csharp
-// Bir Sunum nesnesinin örneğini oluşturma
-Presentation presentation = new Presentation();
-
-// İlk slayda erişin
-ISlide slide = presentation.Slides[0];
-
-// Görüntü dosyası yolunu tanımlayın
-string imagePath = "path_to_your_image.jpg";
-
-// Slayta resim ekleme
-byte[] imageBytes = File.ReadAllBytes(imagePath);
-IPictureFillFormat pictureFill = slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 100, 100, 400, 300).FillFormat.PictureFillFormat;
-pictureFill.Picture.Image = presentation.Images.AddImage(imageBytes);
-
-// Sunuyu kaydet
-presentation.Save("output.pptx", SaveFormat.Pptx);
+using System.IO;
+using Aspose.Slides;
+using System.Drawing;
+using Aspose.Slides.Export;
 ```
-
-## Görüntülere Uzatma Ofseti Uygulama
-
- Artık slayda eklenmiş bir görüntümüz olduğuna göre, buna uzatma ofsetinin nasıl uygulanacağını keşfedelim. Esneme ofseti iki özellik tarafından kontrol edilir:`StretchX` Ve`StretchY`. Bu özellikler görüntünün şekil içindeki uzaklığını sırasıyla yatay ve dikey olarak belirler.
-
-Aspose.Slides'ı kullanarak streç ofsetini şu şekilde uygulayabilirsiniz:
-
+## 1. Adım: Projenizi Kurun
+Tercih ettiğiniz geliştirme ortamında yeni bir .NET projesi oluşturun. Aspose.Slides for .NET'e doğru şekilde başvurulduğundan emin olun.
+## Adım 2: Sunum Sınıfını Başlatın
+ Örnekleyin`Presentation` PowerPoint dosyasını temsil edecek sınıf.
 ```csharp
-// Resim dolgusu formatına erişin
-IPictureFillFormat pictureFill = slide.Shapes[0].FillFormat.PictureFillFormat;
-
-// Uzatma ofseti uygula
-pictureFill.StretchX = 0.5; // %50 yatay sapma
-pictureFill.StretchY = -0.2; // -%20'lik dikey sapma
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
+{
+    // Kodunuz buraya gelecek
+}
 ```
-
-Bu örnekte yatay uzaklığı %50 ve dikey uzaklığı -%20 olarak ayarladık. Dikey uzaklığın negatif değeri görüntüyü şekil içinde yukarı doğru hareket ettirir.
-
-## Esnetme Ofseti Değerlerinin Ayarlanması
-
- Mükemmel esneme ofseti değerlerini bulmak, istenen görsel efekti elde etmek için biraz deneme yanılma gerektirebilir. Değerlerini ayarlayın`StretchX` Ve`StretchY` tasarım ve hizalama tercihlerinize uyacak şekilde. Resim yerleşiminin nasıl değiştiğini görmek için pozitif ve negatif değerlerle denemeler yapın.
-
-## Farklı Şekillerle Streç Ofset Kullanımı
-
- Uzatma ofseti dikdörtgenler, elipsler ve daha fazlası dahil olmak üzere çeşitli şekil türlerine uygulanabilir. Erişim yöntemi`PictureFillFormat` şekiller arasında tutarlı kalır. Benzersiz slayt kompozisyonları oluşturmak için farklı şekilleri keşfetmekten ve denemekten çekinmeyin.
-
-## İleri Teknikler ve İpuçları
-
-- Karmaşık tasarımlar için streç ofseti diğer biçimlendirme özellikleriyle birleştirin.
-- Bir şeklin içindeki görüntünün belirli kısımlarını vurgulamak için uzatma ofsetini kullanın.
--  Kullanın`PictureFillFormat.TileAsTexture`Görüntüleri genişletmek yerine şekillerin içine döşeme özelliği.
-
+## 3. Adım: İlk Slaydı Alın
+Üzerinde çalışmak için sunumdan ilk slaydı alın.
+```csharp
+ISlide sld = pres.Slides[0];
+```
+## Adım 4: ImageEx Sınıfını Örneklendirin
+ Bir örneğini oluşturun`ImageEx` Slayda eklemek istediğiniz görüntüyü işlemek için class.
+```csharp
+System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx = pres.Images.AddImage(img);
+```
+## 5. Adım: Resim Çerçevesi Ekleyin
+ Kullanın`AddPictureFrame` Slayta resim çerçevesi ekleme yöntemi. Çerçevenin boyutlarını ve konumunu belirtin.
+```csharp
+sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);
+```
+## Adım 6: Sunuyu Kaydetme
+Değiştirilen sunumu diske kaydedin.
+```csharp
+pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
+```
+Bu kadar! Aspose.Slides for .NET'i kullanarak slaytlara görüntü dolgusu için başarılı bir şekilde uzatma ofseti eklediniz.
 ## Çözüm
-
-Aspose.Slides kullanarak sunum slaytlarına görüntü dolgusu için esnek ofsetin dahil edilmesi, yaratıcı olasılıklarla dolu bir dünyanın kapılarını açar. Görüntü konumlandırma üzerinde hassas kontrol sayesinde sunumlarınızın görsel etkisini artırabilirsiniz. Bu makalede özetlenen adımları izleyerek bu özellikten etkili bir şekilde nasıl yararlanabileceğinizi öğrendiniz.
-
+Aspose.Slides for .NET ile PowerPoint sunumlarınızı geliştirmek artık her zamankinden daha kolay. Bu öğreticiyi takip ederek, slaytlarınıza yeni bir yaratıcılık düzeyi getirerek görüntü dolgusu için uzatma ofsetini nasıl dahil edeceğinizi öğrendiniz.
 ## SSS
-
-### Aspose.Slides for .NET'i nasıl indirebilirim?
-
- Aspose.Slides for .NET'i Aspose web sitesinden indirebilirsiniz.[İndirme: {link](https://releases.aspose.com/slides/net/).
-
-### Uzatma ofsetini herhangi bir görüntü türüyle kullanabilir miyim?
-
-Evet, JPG, PNG ve daha fazlası dahil olmak üzere çeşitli formatlardaki görüntülere uzatma ofseti uygulanabilir.
-
-###  Her ikisini de ayarlarsam ne olur?`StretchX` and `StretchY` to the same value?
-
-Her iki özelliğin de aynı değere ayarlanması, şekil içindeki konumunu değiştirirken görüntünün en boy oranını korur.
-
-### Streç ofset animasyonlarla uyumlu mu?
-
-Evet, streç ofset, slayt animasyonlarıyla sorunsuz bir şekilde çalışarak dinamik sunumlar oluşturmanıza olanak tanır.
-
-### Gelişmiş streç ofset seçeneklerine nasıl erişebilirim?
-
-Gelişmiş esnek ofset teknikleri ve özellikleri hakkında ayrıntılı bilgi için Aspose.Slides belgelerini inceleyin.
+### Aspose.Slides for .NET'i web uygulamalarımda kullanabilir miyim?
+Evet, Aspose.Slides for .NET hem masaüstü hem de web uygulamaları için uygundur.
+### Aspose.Slides for .NET'in ücretsiz deneme sürümü mevcut mu?
+ Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+### Aspose.Slides for .NET için nasıl destek alabilirim?
+ Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.
+### Aspose.Slides for .NET'in tam belgelerini nerede bulabilirim?
+ Bakın[dokümantasyon](https://reference.aspose.com/slides/net/) detaylı bilgi için.
+### Aspose.Slides for .NET'i satın alabilir miyim?
+ Evet ürünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

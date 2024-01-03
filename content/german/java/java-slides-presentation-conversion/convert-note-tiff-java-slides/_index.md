@@ -106,7 +106,7 @@ Wenn Ihre Präsentation keine Notizen enthält, funktioniert der Konvertierungsp
 
 ### Ist Aspose.Slides für Java für kommerzielle Projekte geeignet?
 
-Ja, Aspose.Slides für Java ist eine robuste und zuverlässige Bibliothek, die von vielen Unternehmen für die Dokumentenverarbeitung und -bearbeitung in ihren Java-Anwendungen verwendet wird.
+Ja, Aspose.Slides für Java ist eine robuste und zuverlässige Bibliothek, die von vielen Unternehmen zur Dokumentenverarbeitung und -bearbeitung in ihren Java-Anwendungen verwendet wird.
 
 ### Gibt es irgendwelche Lizenzaspekte für die Verwendung von Aspose.Slides für Java in meinem Projekt?
 

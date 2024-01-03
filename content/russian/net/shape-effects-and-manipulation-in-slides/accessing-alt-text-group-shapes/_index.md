@@ -101,7 +101,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 
 ### Как установить Aspose.Slides для .NET?
 
- Вы можете скачать Aspose.Slides для .NET с сайта[Веб-сайт Aspose](https://reference.aspose.com/slides/net/). Следуйте инструкциям по установке, чтобы настроить библиотеку в своем проекте.
+ Вы можете скачать Aspose.Slides для .NET с сайта[Веб-сайт Aspose](https://reference.aspose.com/slides/net/)Следуйте инструкциям по установке, чтобы настроить библиотеку в своем проекте.
 
 ### Могу ли я использовать Aspose.Slides для других языков программирования?
 

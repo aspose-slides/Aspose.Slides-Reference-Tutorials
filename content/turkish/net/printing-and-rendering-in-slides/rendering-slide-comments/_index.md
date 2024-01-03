@@ -2,150 +2,87 @@
 title: Aspose.Slides'ta Slayt Yorumlarını Oluşturma
 linktitle: Aspose.Slides'ta Slayt Yorumlarını Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarında slayt yorumlarını nasıl oluşturacağınızı öğrenin. Bu adım adım kılavuz, yorumlara programlı olarak erişmek, bunları özelleştirmek ve görüntülemek için kaynak kodu örnekleri sağlar.
+description: Adım adım eğitimimizle Aspose.Slides for .NET'te slayt yorumlarının nasıl oluşturulacağını keşfedin. Yorum görünümünü özelleştirin ve PowerPoint otomasyonunuzu geliştirin.
 type: docs
 weight: 12
 url: /tr/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
 ## giriiş
-
-Slayt yorumları, bir sunumdaki belirli slaytlarla ilgili değerli bilgiler, açıklamalar ve tartışmalar sunar. Bu yorumların programlı olarak işlenmesi, inceleme ve işbirliği sürecini kolaylaştırabilir. Aspose.Slides for .NET, slayt yorumlarını yönetmek ve görüntülemek için kapsamlı bir API seti sağlayarak bu görevi basitleştirir.
-
+Aspose.Slides for .NET'i kullanarak slayt yorumlarını işlemeye ilişkin kapsamlı eğitimimize hoş geldiniz! Aspose.Slides, geliştiricilerin .NET uygulamalarında PowerPoint sunumlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu kılavuzda belirli bir göreve (slayt yorumlarını oluşturma) odaklanacağız ve süreç boyunca size adım adım yol göstereceğiz.
 ## Önkoşullar
-
-Uygulamaya geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-
-- Makinenizde Visual Studio yüklü.
-- C# ve .NET geliştirmenin temel anlayışı.
--  Aspose.Slides for .NET kitaplığı. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
-
-## Projenin Kurulumu
-
-1. Visual Studio'da yeni bir C# projesi oluşturun.
-
-2. Projenize Aspose.Slides for .NET kitaplığına bir referans ekleyin.
-
-## Sunum Yükleme
-
-Başlamak için slayt yorumlarını içeren bir PowerPoint sunusu yükleyelim:
-
+Eğiticiye dalmadan önce aşağıdakilerin mevcut olduğundan emin olun:
+-  Aspose.Slides for .NET Kütüphanesi: Geliştirme ortamınızda Aspose.Slides for .NET kütüphanesinin kurulu olduğundan emin olun. Henüz yapmadıysanız indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
+- Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamı kurun ve temel C# anlayışına sahip olun.
+Şimdi öğreticiye başlayalım!
+## Ad Alanlarını İçe Aktar
+Aspose.Slides özelliklerini kullanmak için C# kodunuzda gerekli ad alanlarını içe aktarmanız gerekir. Dosyanızın başına aşağıdaki satırları ekleyin:
 ```csharp
+using Aspose.Slides.Export;
 using Aspose.Slides;
-
-// Sunuyu yükle
-using var presentation = new Presentation("presentation.pptx");
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 ```
-
-## Slayt Yorumlarına Erişim
-
-Şimdi sunumdaki slaytları tekrarlayalım ve her slaytla ilişkili yorumlara erişelim:
-
+## 1. Adım: Belge Dizininizi Kurun
+PowerPoint sunumunun bulunduğu belge dizininizin yolunu belirterek başlayın:
 ```csharp
-// Slaytlar arasında yineleme
-foreach (var slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+```
+## Adım 2: Çıkış Yolunu Belirleyin
+İşlenen görüntüyü yorumlarla kaydetmek istediğiniz yolu tanımlayın:
+```csharp
+string resultPath = Path.Combine(dataDir, "OutPresBitmap_Comments.png");
+```
+## 3. Adım: Sunuyu Yükleyin
+Aspose.Slides kütüphanesini kullanarak PowerPoint sunumunu yükleyin:
+```csharp
+Presentation pres = new Presentation(dataDir + "presentation.pptx");
+```
+## 4. Adım: İşleme için bir Bitmap Oluşturun
+İstediğiniz boyutlara sahip bir bitmap nesnesi oluşturun:
+```csharp
+Bitmap bmp = new Bitmap(740, 960);
+```
+## 5. Adım: Oluşturma Seçeneklerini Yapılandırın
+Notlar ve yorumlar için düzen seçenekleri dahil, oluşturma seçeneklerini yapılandırın:
+```csharp
+IRenderingOptions renderOptions = new RenderingOptions();
+NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+notesOptions.CommentsAreaColor = Color.Red;
+notesOptions.CommentsAreaWidth = 200;
+notesOptions.CommentsPosition = CommentsPositions.Right;
+notesOptions.NotesPosition = NotesPositions.BottomTruncated;
+renderOptions.SlidesLayoutOptions = notesOptions;
+```
+## Adım 6: Grafiğe Dönüştürme
+Yorumlar içeren ilk slaydı belirtilen grafik nesnesine aktarın:
+```csharp
+using (Graphics graphics = Graphics.FromImage(bmp))
 {
-    // Slayt yorumlarına erişme
-    var comments = slide.Comments;
-    foreach (var comment in comments)
-    {
-        // Yorum özelliklerine erişme
-        var author = comment.Author;
-        var text = comment.Text;
-        
-        // Yorumu gerektiği gibi işleyin
-    }
+    pres.Slides[0].RenderToGraphics(renderOptions, graphics);
 }
 ```
-
-## Slaytlarda Yorumları Oluşturma
-
-Şimdi slaytlardaki yorumları işleyelim. Yorumları her slaytın altına metin kutusu olarak ekleyeceğiz:
-
+## Adım 7: Sonucu Kaydet
+İşlenen görüntüyü yorumlarla birlikte belirtilen yola kaydedin:
 ```csharp
-foreach (var slide in presentation.Slides)
-{
-    // Slayt yorumlarına erişme
-    var comments = slide.Comments;
-    foreach (var comment in comments)
-    {
-        // Yorum için bir metin kutusu oluşturun
-        var textBox = slide.Shapes.AddTextFrame("");
-        var textFrame = textBox.TextFrame;
-        
-        // Yorum özelliklerini metin olarak ayarla
-        textFrame.Text = $"{comment.Author}: {comment.Text}";
-        
-        // Metin kutusunu slaytın altına yerleştirin
-        textBox.Left = slide.SlideSize.Size.Width / 2;
-        textBox.Top = slide.SlideSize.Size.Height + 20;
-        
-        // Gerekirse metin kutusu görünümünü özelleştirin
-        
-        // Yorumu gerektiği gibi işleyin
-    }
-}
+bmp.Save(resultPath, ImageFormat.Png);
 ```
-
-## Yorum Oluşturmayı Özelleştirme
-
-Oluşturulan yorumların yazı tipi boyutu, rengi ve konumu gibi görünümünü daha da özelleştirebilirsiniz. Bu, yorumları sununuzun stiliyle eşleştirmenize olanak tanır:
-
+## Adım 8: Sonucu Görüntüleyin
+İşlenen görüntüyü varsayılan resim görüntüleyiciyi kullanarak açın:
 ```csharp
-// Metin kutusu görünümünü özelleştirme
-var fontHeight = 12;
-var fontColor = Color.Black;
-var margin = 20;
-
-foreach (var slide in presentation.Slides)
-{
-    // ...
-    foreach (var comment in comments)
-    {
-        // ...
-        
-        // Metin kutusu görünümünü özelleştirme
-        textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
-        textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
-        
-        //Metin kutusu konumunu ayarla
-        textBox.Top = slide.SlideSize.Size.Height - margin;
-        margin += 30; // Bir sonraki yorumun kenar boşluğunu artırın
-    }
-}
+System.Diagnostics.Process.Start(resultPath);
 ```
-
-## İşlenen Sunumu Kaydetme
-
-Slaytlardaki yorumları oluşturduktan sonra değiştirilen sunuyu kaydedebilirsiniz:
-
-```csharp
-// Değiştirilen sunuyu kaydet
-presentation.Save("rendered_presentation.pptx", SaveFormat.Pptx);
-```
-
+Tebrikler! Aspose.Slides for .NET'i kullanarak slayt yorumlarını başarıyla oluşturdunuz.
 ## Çözüm
-
-Bu kılavuzda, Aspose.Slides for .NET kullanarak PowerPoint sunumlarında slayt yorumlarının nasıl oluşturulacağını araştırdık. Yukarıda özetlenen adımları izleyerek yorumlara programlı bir şekilde erişebilir ve bunları görüntüleyebilirsiniz, böylece slayt desteleriniz içindeki işbirliğini ve iletişimi geliştirebilirsiniz.
-
-## SSS'ler
-
-### Aspose.Slides for .NET'i nasıl kurabilirim?
-
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/). İndirdikten sonra Visual Studio projenize referans olarak ekleyebilirsiniz.
-
-### Oluşturulan yorumların görünümünü özelleştirebilir miyim?
-
-Evet, yazı tipi boyutu, rengi ve konumu dahil olmak üzere oluşturulan yorumların görünümünü özelleştirebilirsiniz. Bu, yorumları sunumunuzun stiliyle eşleştirmenize olanak tanır.
-
-### Bireysel yorum özelliklerine nasıl erişebilirim?
-
- Yazar ve metin gibi yorum özelliklerine,`Author` Ve`Text` yorum nesnesinin özellikleri.
-
-### Yorumları metin kutuları yerine belirtme çizgileri olarak görüntüleyebilir miyim?
-
-Evet, özel şekiller oluşturup bunlara metin ekleyerek yorumları belirtme çizgileri olarak oluşturabilirsiniz. Açıklamaların konumunu ve görünümünü buna göre ayarlamanız gerekecektir.
-
-### Aspose.Slides for .NET PowerPoint ile ilgili diğer görevler için uygun mu?
-
-Kesinlikle! Aspose.Slides for .NET, PowerPoint sunumlarıyla çalışmak için çok çeşitli API'ler sağlar. Sunumların çeşitli yönlerini programlı olarak oluşturabilir, değiştirebilir, dönüştürebilir ve yönetebilirsiniz.
+Bu eğitimde Aspose.Slides for .NET kullanarak slayt yorumlarını oluşturma sürecini inceledik. Adım adım kılavuzu izleyerek PowerPoint otomasyon yeteneklerinizi kolaylıkla geliştirebilirsiniz.
+## Sıkça Sorulan Sorular
+### S: Aspose.Slides en son .NET framework sürümleriyle uyumlu mu?
+C: Evet, Aspose.Slides en son .NET framework sürümlerini destekleyecek şekilde düzenli olarak güncellenmektedir.
+### S: Oluşturulan yorumların görünümünü özelleştirebilir miyim?
+C: Kesinlikle! Eğitici, yorum alanı rengini, genişliğini ve konumunu özelleştirmeye yönelik seçenekler içerir.
+### S: Aspose.Slides for .NET hakkında daha fazla belgeyi nerede bulabilirim?
+ C: Belgeleri inceleyin[Burada](https://reference.aspose.com/slides/net/).
+### S: Aspose.Slides için geçici lisansı nasıl edinebilirim?
+ C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+### S: Aspose.Slides için nereden yardım ve destek alabilirim?
+ C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.

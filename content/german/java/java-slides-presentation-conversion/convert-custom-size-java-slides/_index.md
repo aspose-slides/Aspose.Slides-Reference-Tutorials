@@ -89,7 +89,7 @@ try
 	opts.setCompressionType(TiffCompressionTypes.Default);
 	INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
 	notesOptions.setNotesPosition(NotesPositions.BottomFull);
-	// Komprimierungstypen
+	// Komprimierungsarten
 	// Standard – Gibt das Standardkomprimierungsschema (LZW) an.
 	// Keine – Gibt keine Komprimierung an.
 	// CCITT3

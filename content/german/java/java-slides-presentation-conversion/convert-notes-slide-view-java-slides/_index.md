@@ -78,7 +78,7 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben wir die wesentlichen Schritte zum Konvertieren von Notizen-Folienansichten in Java Slides mit Aspose.Slides behandelt. Indem Sie diese Schritte befolgen und den Code an Ihre spezifischen Anforderungen anpassen, können Sie PowerPoint-Präsentationen effizient programmgesteuert in Ihren Java-Anwendungen bearbeiten und konvertieren.
+In diesem Tutorial haben wir die wesentlichen Schritte zum Konvertieren von Notizen-Folienansichten in Java Slides mit Aspose.Slides behandelt. Indem Sie diese Schritte befolgen und den Code an Ihre spezifischen Bedürfnisse anpassen, können Sie PowerPoint-Präsentationen effizient programmgesteuert in Ihren Java-Anwendungen bearbeiten und konvertieren.
 
 ## FAQs
 

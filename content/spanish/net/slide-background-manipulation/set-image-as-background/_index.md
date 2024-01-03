@@ -14,7 +14,7 @@ En el mundo del diseño y la automatización de presentaciones, Aspose.Slides pa
 
 Antes de sumergirnos en el proceso paso a paso, asegúrese de cumplir con los siguientes requisitos previos:
 
-1. Biblioteca Aspose.Slides para .NET: descargue e instale la biblioteca Aspose.Slides para .NET desde[enlace de descarga](https://releases.aspose.com/slides/net/).
+1.  Biblioteca Aspose.Slides para .NET: descargue e instale la biblioteca Aspose.Slides para .NET desde[enlace de descarga](https://releases.aspose.com/slides/net/).
 
 2. Imagen de fondo: necesitará una imagen que desee establecer como fondo de la diapositiva. Asegúrese de tener el archivo de imagen en un formato adecuado (por ejemplo, .jpg) listo para usar.
 

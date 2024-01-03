@@ -1,92 +1,82 @@
 ---
-title: Riavvolgi l'animazione sulla diapositiva
+title: Padroneggiare le animazioni di riavvolgimento nelle presentazioni con Aspose.Slides
 linktitle: Riavvolgi l'animazione sulla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come riavvolgere le animazioni sulle diapositive di PowerPoint utilizzando Aspose.Slides per .NET. Segui questa guida passo passo con esempi di codice sorgente completi per migliorare dinamicamente le tue presentazioni.
+description: Scopri come riavvolgere le animazioni sulle diapositive di PowerPoint utilizzando Aspose.Slides per .NET. Segui questa guida passo passo con esempi completi di codice sorgente.
 type: docs
 weight: 13
 url: /it/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-## Introduzione alle animazioni con Aspose.Slides
-
-Le animazioni possono dare vita alle tue presentazioni, rendendole più coinvolgenti e visivamente accattivanti. Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice, inclusa l'aggiunta, la modifica e la gestione delle animazioni.
-
+## introduzione
+Nel mondo dinamico delle presentazioni, incorporare animazioni accattivanti può aumentare significativamente il coinvolgimento. Aspose.Slides per .NET fornisce un potente set di strumenti per dare vita alle tue presentazioni. Una caratteristica interessante è la possibilità di riavvolgere le animazioni sulle diapositive. In questa guida completa, ti guideremo attraverso il processo passo dopo passo, consentendoti di sfruttare tutto il potenziale del riavvolgimento dell'animazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
-
-Prima di iniziare, assicurati di avere a disposizione quanto segue:
-
-- Visual Studio: installa Visual Studio o qualsiasi altro ambiente di sviluppo .NET.
--  Aspose.Slides: scarica e installa la libreria Aspose.Slides per .NET da[Qui](https://releases.aspose.com/slides/net/).
-
-## Passaggio 1: caricamento del file di presentazione
-
-Innanzitutto iniziamo caricando il file di presentazione di PowerPoint che contiene la diapositiva con le animazioni. Ecco lo snippet di codice per raggiungere questo obiettivo:
-
+Prima di immergerti nel tutorial, assicurati di possedere i seguenti prerequisiti:
+-  Aspose.Slides per .NET: assicurati di avere la libreria installata. In caso contrario, scaricalo da[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
+- Ambiente di sviluppo .NET: assicurati di avere configurato un ambiente di sviluppo .NET funzionante.
+- Conoscenza di base di C#: familiarizza con le nozioni di base del linguaggio di programmazione C#.
+## Importa spazi dei nomi
+Nel tuo codice C#, dovrai importare gli spazi dei nomi necessari per sfruttare la funzionalità fornita da Aspose.Slides per .NET. Ecco uno snippet per guidarti:
 ```csharp
-using Aspose.Slides;
-
-// Carica la presentazione
-string presentationPath = "path_to_your_presentation.pptx";
-using (Presentation presentation = new Presentation(presentationPath))
+using System;
+using Aspose.Slides.Animation;
+using Aspose.Slides.SlideShow;
+using Aspose.Slides.Export;
+```
+## Passaggio 1: imposta il tuo progetto
+Crea un nuovo progetto nel tuo ambiente di sviluppo .NET preferito. Configura una directory per i tuoi documenti se non esiste.
+```csharp
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+```
+## Passaggio 2: carica la presentazione
+ Istanziare il`Presentation` class per rappresentare il file di presentazione.
+```csharp
+using (Presentation presentation = new Presentation(dataDir + "AnimationRewind.pptx"))
 {
-    // Il tuo codice qui
+    // Il tuo codice per i passaggi successivi va qui
 }
 ```
-
-## Passaggio 2: accesso alla diapositiva e all'animazione
-
-Successivamente, dobbiamo accedere alla diapositiva specifica e alle sue animazioni. In questo passaggio, indirizzeremo la diapositiva che contiene l'animazione che desideri riavvolgere. Ecco come:
-
+## Passaggio 3: accesso alla sequenza degli effetti
+Recupera la sequenza degli effetti per la prima diapositiva.
 ```csharp
-// Supponiamo che l'indice della diapositiva sia 0 (prima diapositiva)
-ISlide slide = presentation.Slides[0];
-
-// Accedi alle animazioni della diapositiva
-ISlideAnimation slideAnimation = slide.SlideShowTransition;
+ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 ```
-
-## Passaggio 3: riavvolgimento delle animazioni
-
-Ora arriva la parte emozionante: riavvolgere le animazioni. Aspose.Slides ti consente di ripristinare le animazioni su una diapositiva, riportando effettivamente la diapositiva al suo stato iniziale. Ecco lo snippet di codice per raggiungere questo obiettivo:
-
+## Passaggio 4: modifica la tempistica degli effetti
+Accedi al primo effetto della sequenza principale e modificane i tempi per abilitare il riavvolgimento.
 ```csharp
-// Riavvolgi le animazioni sulla diapositiva
-slideAnimation.StopAfterRepeats = 0; // Imposta il numero di ripetizioni su 0
+IEffect effect = effectsSequence[0];
+Console.WriteLine("\nEffect Timing/Rewind in source presentation is {0}", effect.Timing.Rewind);
+effect.Timing.Rewind = true;
 ```
-
-## Passaggio 4: salvataggio della presentazione modificata
-
-Dopo aver riavvolto le animazioni, è il momento di salvare la presentazione modificata. Puoi salvarlo con un nuovo nome o sovrascrivere il file esistente. Ecco come puoi salvare la presentazione:
-
+## Passaggio 5: salva la presentazione
+Salva la presentazione modificata.
 ```csharp
-// Salva la presentazione modificata
-string outputPath = "path_to_save_modified_presentation.pptx";
-presentation.Save(outputPath, SaveFormat.Pptx);
+presentation.Save(RunExamples.OutPath + "AnimationRewind-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 ```
-
+## Passaggio 6: controlla l'effetto riavvolgimento nella presentazione di destinazione
+Carica la presentazione modificata e controlla se è applicato l'effetto riavvolgi.
+```csharp
+using (Presentation pres = new Presentation(RunExamples.OutPath + "AnimationRewind-out.pptx"))
+{
+    effectsSequence = pres.Slides[0].Timeline.MainSequence;
+    effect = effectsSequence[0];
+    Console.WriteLine("Effect Timing/Rewind in destination presentation is {0}\n", effect.Timing.Rewind);
+}
+```
+Ripeti questi passaggi per diapositive aggiuntive o personalizza il processo in base alla struttura della presentazione.
 ## Conclusione
-
-Congratulazioni! Hai imparato con successo come riavvolgere le animazioni su una diapositiva utilizzando Aspose.Slides per .NET. Questa potente libreria ti fornisce gli strumenti per manipolare e migliorare le tue presentazioni PowerPoint a livello di codice.
-
+Unlocking the rewind animation feature in Aspose.Slides for .NET opens up exciting possibilities for creating dynamic and engaging presentations. By following this step-by-step guide, you can seamlessly integrate animation rewind into your projects, enhancing the visual appeal of your slides.
+---
 ## Domande frequenti
-
-### Come installo Aspose.Slides per .NET?
-
- È possibile scaricare la libreria Aspose.Slides per .NET da[Qui](https://releases.aspose.com/slides/net/). Assicurarsi di seguire le istruzioni di installazione fornite nella documentazione.
-
-### Posso riavvolgere le animazioni su oggetti specifici all'interno di una diapositiva?
-
-Sì, Aspose.Slides ti consente di indirizzare oggetti specifici e le loro animazioni all'interno di una diapositiva. Puoi modificare le animazioni anche a livello di oggetto.
-
-### Aspose.Slides è compatibile con diversi formati PowerPoint?
-
-Sì, Aspose.Slides supporta vari formati PowerPoint, inclusi PPTX, PPT, PPSX e altri. Assicurati di controllare la documentazione per un elenco completo dei formati supportati.
-
-### Posso personalizzare il comportamento di riavvolgimento delle animazioni?
-
-Assolutamente! Aspose.Slides fornisce una gamma di proprietà e metodi per personalizzare il comportamento dell'animazione. Puoi controllare la velocità, la direzione e altri aspetti delle animazioni.
-
-### Dove posso trovare ulteriori risorse e documentazione?
-
- Per documentazione completa, esercitazioni ed esempi di codice, fare riferimento a[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
+### Aspose.Slides per .NET è compatibile con l'ultima versione di .NET framework?
+ Aspose.Slides per .NET viene regolarmente aggiornato per garantire la compatibilità con le ultime versioni di .NET framework. Controlla il[documentazione](https://reference.aspose.com/slides/net/) per i dettagli sulla compatibilità.
+### Posso applicare l'animazione di riavvolgimento a oggetti specifici all'interno di una diapositiva?
+Sì, puoi personalizzare il codice per applicare l'animazione di riavvolgimento in modo selettivo a oggetti o elementi specifici all'interno di una diapositiva.
+### È disponibile una versione di prova per Aspose.Slides per .NET?
+ Sì, puoi esplorare le funzionalità ottenendo una prova gratuita da[Qui](https://releases.aspose.com/).
+### Come posso ottenere supporto per Aspose.Slides per .NET?
+ Visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) cercare assistenza e impegnarsi con la comunità.
+### Posso acquistare una licenza temporanea per Aspose.Slides per .NET?
+ Sì, puoi acquisire una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/).

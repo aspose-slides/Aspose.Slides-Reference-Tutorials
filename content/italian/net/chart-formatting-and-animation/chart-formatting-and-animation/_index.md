@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("Your Document Directory\\Ex
 
 ### Passaggio 2: aggiungi l'animazione alla serie
 
-Ora aggiungiamo l'animazione alla serie del grafico. Anche qui stiamo usando un effetto di dissolvenza.
+Ora aggiungiamo l'animazione alla serie di grafici. Anche qui stiamo usando un effetto di dissolvenza.
 
 ```csharp
 slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);

@@ -2,7 +2,7 @@
 title: 使用 Java 幻灯片中的媒体文件将整个演示文稿转换为 HTML
 linktitle: 使用 Java 幻灯片中的媒体文件将整个演示文稿转换为 HTML
 second_title: Aspose.Slides Java PowerPoint 处理 API
-description: 了解如何使用 Java Slides 将演示文稿转换为带有媒体文件的 HTML。请遵循我们的 Aspose.Slides for Java API 分步指南。
+description: 了解如何使用 Java Slides 将演示文稿转换为包含媒体文件的 HTML。请遵循我们的 Aspose.Slides for Java API 分步指南。
 type: docs
 weight: 30
 url: /zh/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/

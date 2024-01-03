@@ -165,7 +165,7 @@ Evet, grafik serisindeki verileri değiştirerek belirli veri noktalarını gizl
 
  Kullanarak grafiğe daha fazla seri ekleyebilirsiniz.`IChartData.getSeries().add` yöntemi ve yeni seri için veri noktalarının belirlenmesi.
 
-### Grafik türünü dinamik olarak değiştirmek mümkün müdür?
+### Grafik türünü dinamik olarak değiştirmek mümkün mü?
 
 Evet, istediğiniz türde yeni bir grafik oluşturup verileri eski grafikten yenisine kopyalayarak grafik türünü dinamik olarak değiştirebilirsiniz.
 

@@ -1,131 +1,79 @@
 ---
-title: عرض تأثيرات ثلاثية الأبعاد في شرائح العرض التقديمي باستخدام Aspose.Slides
+title: إتقان التأثيرات ثلاثية الأبعاد - البرنامج التعليمي Aspose.Slides
 linktitle: عرض تأثيرات ثلاثية الأبعاد في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إضافة تأثيرات ثلاثية الأبعاد جذابة إلى شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. يغطي دليلنا خطوة بخطوة كل شيء بدءًا من إعداد بيئتك وحتى تطبيق الرسوم المتحركة وتصدير النتيجة النهائية.
+description: تعلم كيفية إضافة تأثيرات ثلاثية الأبعاد جذابة إلى شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. اتبع دليلنا خطوة بخطوة للحصول على صور مذهلة!
 type: docs
 weight: 13
 url: /ar/net/printing-and-rendering-in-slides/rendering-3d-effects/
 ---
-
-## مقدمة إلى التأثيرات ثلاثية الأبعاد في شرائح العرض التقديمي
-
-يمكن أن تؤدي إضافة تأثيرات ثلاثية الأبعاد إلى شرائح العرض التقديمي إلى جعل المحتوى الخاص بك أكثر جاذبية وديناميكية. يوفر Aspose.Slides for .NET منصة قوية لدمج هذه التأثيرات بسلاسة. سنستكشف كيفية استخدام المكتبة لإنشاء كائنات ثلاثية الأبعاد ومعالجتها وعرضها في شرائحك.
-
-## إعداد بيئة التطوير الخاصة بك
-
-قبل أن نتعمق في عملية البرمجة، فلنقم بإعداد بيئة التطوير الخاصة بنا. إليك ما تحتاجه:
-
-- تم تثبيت Visual Studio مع Aspose.Slides لمكتبة .NET
-- الفهم الأساسي للبرمجة C#
-
-## إنشاء عرض تقديمي جديد
-
-لنبدأ بإنشاء عرض تقديمي جديد باستخدام Aspose.Slides. يوضح مقتطف التعليمات البرمجية التالي كيفية تحقيق ذلك:
-
+## مقدمة
+يعد إنشاء شرائح عرض تقديمي جذابة بصريًا أمرًا ضروريًا للتواصل الفعال. يوفر Aspose.Slides for .NET ميزات قوية لتحسين شرائحك، بما في ذلك القدرة على تقديم تأثيرات ثلاثية الأبعاد. في هذا البرنامج التعليمي، سنستكشف كيفية الاستفادة من Aspose.Slides لإضافة تأثيرات ثلاثية الأبعاد مذهلة إلى شرائح العرض التقديمي دون عناء.
+## المتطلبات الأساسية
+قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+-  Aspose.Slides for .NET: قم بتنزيل المكتبة وتثبيتها من[هنا](https://releases.aspose.com/slides/net/).
+- بيئة التطوير: قم بإعداد بيئة تطوير .NET المفضلة لديك.
+## استيراد مساحات الأسماء
+للبدء، قم بتضمين مساحات الأسماء الضرورية في مشروعك:
 ```csharp
+using Aspose.Slides.Export;
 using Aspose.Slides;
-
-// إنشاء عرض تقديمي جديد
-Presentation presentation = new Presentation();
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 ```
-
-## إضافة نماذج ثلاثية الأبعاد إلى الشرائح
-
-الآن وبعد أن أصبح عرضنا التقديمي جاهزًا، فلنضيف نموذجًا ثلاثي الأبعاد إلى الشريحة. يمكنك الاختيار من بين مجموعة متنوعة من التنسيقات مثل OBJ أو STL أو FBX. إليك كيفية إضافة نموذج ثلاثي الأبعاد إلى الشريحة:
-
+## الخطوة 1: قم بإعداد مشروعك
+ابدأ بإنشاء مشروع .NET جديد وأضف مرجعًا إلى مكتبة Aspose.Slides.
+## الخطوة 2: تهيئة العرض التقديمي
+في التعليمات البرمجية الخاصة بك، قم بتهيئة كائن عرض تقديمي جديد:
 ```csharp
-// قم بتحميل شريحة
-ISlide slide = presentation.Slides.AddEmptySlide();
-
-// قم بتحميل النموذج ثلاثي الأبعاد
-string modelPath = "path/to/your/3d/model.obj";
-byte[] modelBytes = File.ReadAllBytes(modelPath);
-IEmbeddingResult embeddingResult = presentation.EmbedExternalFile(modelBytes);
-
-// أضف النموذج ثلاثي الأبعاد إلى الشريحة
-slide.Shapes.AddEmbedded3DModelFrame(embeddingResult);
+string dataDir = "Your Document Directory";
+string outPptxFile = Path.Combine(dataDir, "sandbox_3d.pptx");
+using (Presentation pres = new Presentation())
+{
+    // الكود الخاص بك يذهب هنا
+}
 ```
-
-## ضبط التأثيرات والخصائص ثلاثية الأبعاد
-
-بمجرد إضافة النموذج ثلاثي الأبعاد، يمكنك ضبط تأثيراته وخصائصه. يتضمن ذلك التدوير والقياس وتحديد المواقع. فيما يلي مثال لكيفية تحقيق ذلك:
-
+## الخطوة 3: إضافة شكل تلقائي ثلاثي الأبعاد
+إنشاء شكل تلقائي ثلاثي الأبعاد على الشريحة:
 ```csharp
-// احصل على إطار النموذج ثلاثي الأبعاد
-I3DModelFrame modelFrame = (I3DModelFrame)slide.Shapes[0];
-
-// تدوير النموذج
-modelFrame.RotationX = 30;
-modelFrame.RotationY = 45;
-modelFrame.RotationZ = 0;
-
-// مقياس النموذج
-modelFrame.ScaleX = 1.5;
-modelFrame.ScaleY = 1.5;
-modelFrame.ScaleZ = 1.5;
-
-// ضع النموذج
-modelFrame.X = 100;
-modelFrame.Y = 100;
+IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
+shape.TextFrame.Text = "3D";
+shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
 ```
-
-## إضافة الرسوم المتحركة إلى كائنات ثلاثية الأبعاد
-
-لجعل العرض التقديمي الخاص بك أكثر جاذبية، يمكنك إضافة رسوم متحركة إلى الكائنات ثلاثية الأبعاد. يتيح لك Aspose.Slides تطبيق تأثيرات الرسوم المتحركة المتنوعة على النماذج ثلاثية الأبعاد. إليك مقتطف للتوضيح:
-
+## الخطوة 4: تكوين خصائص ثلاثية الأبعاد
+ضبط الخصائص ثلاثية الأبعاد للشكل:
 ```csharp
-// أضف الرسوم المتحركة إلى النموذج ثلاثي الأبعاد
-IAnimation animation = slide.Timeline.MainSequence.AddEffect(modelFrame, EffectType.Fade);
-animation.Timing.TriggerType = EffectTriggerType.OnClick;
+shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
+shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
+shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
+shape.ThreeDFormat.LightRig.Direction = LightingDirection.Top;
+shape.ThreeDFormat.Material = MaterialPresetType.Powder;
+shape.ThreeDFormat.ExtrusionHeight = 100;
+shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
 ```
-
-## تطبيق الإضاءة والمواد
-
-لتعزيز واقعية نماذجك ثلاثية الأبعاد، يمكنك استخدام الإضاءة والمواد. ويمكن تحقيق ذلك باستخدام خصائص الإضاءة والمواد في Aspose.Slides. وإليك كيف يمكنك القيام بذلك:
-
+## الخطوة 5: حفظ العرض التقديمي
+احفظ العرض التقديمي بالتأثير ثلاثي الأبعاد المضاف:
 ```csharp
-// قم بتطبيق الإضاءة على النموذج ثلاثي الأبعاد
-modelFrame.LightRig.Preset = LightRigPresetType.BrightRoom;
-
-// تطبيق خصائص المواد
-IMaterial material = modelFrame.Materials[0];
-material.DiffuseColor = Color.Red;
-material.SpecularColor = Color.White;
+pres.Save(outPptxFile, SaveFormat.Pptx);
 ```
-
-## تصدير العرض التقديمي
-
-بمجرد الانتهاء من التأثيرات ثلاثية الأبعاد والرسوم المتحركة، فقد حان الوقت لتصدير العرض التقديمي الخاص بك. يوفر Aspose.Slides تنسيقات متنوعة للتصدير، مثل PPTX وPDF والمزيد. فيما يلي مقتطف لتصدير العرض التقديمي الخاص بك كملف PDF:
-
+## الخطوة 6: إنشاء صورة مصغرة
+إنشاء صورة مصغرة للشريحة:
 ```csharp
-// احفظ العرض التقديمي بصيغة PDF
-string outputPath = "output/path/presentation.pdf";
-presentation.Save(outputPath, SaveFormat.Pdf);
+string outPngFile = Path.Combine(dataDir, "sample_3d.png");
+pres.Slides[0].GetThumbnail(2, 2).Save(outPngFile, ImageFormat.Png);
 ```
-
+لقد نجحت الآن في عرض تأثيرات ثلاثية الأبعاد في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## خاتمة
-
-في هذا البرنامج التعليمي، قمنا بالتعمق في عالم التأثيرات ثلاثية الأبعاد المثير في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. لقد تعلمت كيفية إنشاء عرض تقديمي وإضافة نماذج ثلاثية الأبعاد وضبط التأثيرات والخصائص وإضافة الرسوم المتحركة وتطبيق الإضاءة والمواد وتصدير النتيجة النهائية. باستخدام هذه المهارات، يمكنك الآن إنشاء عروض تقديمية مذهلة بصريًا تترك انطباعًا دائمًا لدى جمهورك.
-
-## الأسئلة الشائعة
-
-### كيف يمكنني تثبيت Aspose.Slides لـ .NET؟
-
- لتثبيت Aspose.Slides لـ .NET، يمكنك اتباع دليل التثبيت المتوفر في[توثيق](https://docs.aspose.com/slides/net/installation/).
-
-### هل يمكنني إضافة نماذج ثلاثية الأبعاد متعددة إلى شريحة واحدة؟
-
- نعم، يمكنك إضافة نماذج ثلاثية الأبعاد متعددة إلى شريحة واحدة باستخدام`Shapes.AddEmbedded3DModelFrame()` طريقة لكل نموذج.
-
-### هل من الممكن تصدير العرض التقديمي إلى تنسيقات أخرى؟
-
-قطعاً! يدعم Aspose.Slides for .NET تصدير العروض التقديمية إلى تنسيقات مختلفة، بما في ذلك PPTX وPDF وTIFF والمزيد.
-
-### كيف يمكنني إنشاء رسوم متحركة معقدة للنماذج ثلاثية الأبعاد؟
-
- يمكنك إنشاء رسوم متحركة معقدة باستخدام تأثيرات الرسوم المتحركة التي يوفرها Aspose.Slides. اكتشف ال[وثائق الرسوم المتحركة](https://reference.aspose.com/slides/net/aspose.slides.animation/) للحصول على معلومات مفصلة.
-
-### أين يمكنني العثور على المزيد من أمثلة التعليمات البرمجية والموارد؟
-
- لمزيد من أمثلة التعليمات البرمجية والبرامج التعليمية والموارد، يمكنك زيارة[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+يمكن أن يؤدي تحسين شرائح العرض التقديمي باستخدام تأثيرات ثلاثية الأبعاد إلى جذب جمهورك ونقل المعلومات بشكل أكثر فعالية. يعمل Aspose.Slides for .NET على تبسيط هذه العملية، مما يسمح لك بإنشاء عروض تقديمية مذهلة بصريًا بسهولة.
+## أسئلة مكررة
+### هل Aspose.Slides متوافق مع جميع أطر عمل .NET؟
+نعم، يدعم Aspose.Slides أطر عمل .NET المختلفة، مما يضمن التوافق مع بيئة التطوير لديك.
+### هل يمكنني تخصيص التأثيرات ثلاثية الأبعاد بشكل أكبر؟
+قطعاً! يوفر Aspose.Slides خيارات واسعة لتخصيص الخصائص ثلاثية الأبعاد لتلبية متطلبات التصميم المحددة الخاصة بك.
+### أين يمكنني العثور على المزيد من الدروس والأمثلة؟
+ استكشف وثائق Aspose.Slides[هنا](https://reference.aspose.com/slides/net/) للحصول على دروس وأمثلة شاملة.
+### هل هناك نسخة تجريبية مجانية متاحة؟
+ نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides[هنا](https://releases.aspose.com/).
+### كيف يمكنني الحصول على الدعم إذا واجهت مشاكل؟
+ قم بزيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) لدعم المجتمع ومساعدته.

@@ -34,11 +34,11 @@ using (Presentation presentation = new Presentation(presentationName))
 ## 4. SVG-Optionen konfigurieren
 Um den SVG-Konvertierungsprozess zu steuern, können Sie verschiedene Optionen konfigurieren. Lassen Sie uns einige wesentliche Optionen erkunden:
 
-- **UseFrameSize** : Diese Option schließt den Rahmen in den Renderbereich ein. Stellen Sie es ein`true` um den Rahmen einzuschließen.
+- **UseFrameSize** : Diese Option schließt den Rahmen in den Renderbereich ein. Stellen Sie es ein`true` um den Rahmen einzubinden.
 - **UseFrameRotation** : Schließt die Drehung der Form beim Rendern aus. Stellen Sie es ein`false` Rotation auszuschließen.
 
 ```csharp
-// Erstellen Sie eine neue SVG-Option
+//Erstellen Sie eine neue SVG-Option
 SVGOptions svgOptions = new SVGOptions();
 
 // Legen Sie die UseFrameSize-Eigenschaft fest

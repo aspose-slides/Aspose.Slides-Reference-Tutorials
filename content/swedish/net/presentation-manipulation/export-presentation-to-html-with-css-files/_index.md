@@ -51,7 +51,7 @@ Det här kodavsnittet öppnar din PowerPoint-presentation, tillämpar anpassade 
 För att förbättra utseendet på din HTML-presentation kan du anpassa CSS-stilar i filen "styles.css". Detta låter dig styra typsnitt, färger, layouter och mer.
 
 ## 6. Sammanfattning
-den här handledningen har vi demonstrerat hur man exporterar en PowerPoint-presentation till HTML med CSS-filer med Aspose.Slides för .NET. Detta tillvägagångssätt säkerställer att ditt innehåll är tillgängligt och visuellt tilltalande för din publik.
+I den här handledningen har vi demonstrerat hur man exporterar en PowerPoint-presentation till HTML med CSS-filer med Aspose.Slides för .NET. Detta tillvägagångssätt säkerställer att ditt innehåll är tillgängligt och visuellt tilltalande för din publik.
 
 ## 7. Vanliga frågor
 

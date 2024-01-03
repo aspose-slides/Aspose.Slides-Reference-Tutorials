@@ -1,118 +1,63 @@
 ---
-title: Erstellen einer einfachen Rechteckform in Präsentationsfolien mit Aspose.Slides
+title: Erstellen von Rechteckformen mit Aspose.Slides für .NET
 linktitle: Erstellen einer einfachen Rechteckform in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET eine einfache Rechteckform in PowerPoint-Folien erstellen. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und Anweisungen zum programmgesteuerten Hinzufügen, Anpassen und Verbessern Ihrer Präsentationen.
+description: Entdecken Sie die Welt dynamischer PowerPoint-Präsentationen mit Aspose.Slides für .NET. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie ansprechende Rechteckformen in Folien erstellen.
 type: docs
 weight: 12
 url: /de/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
-
-## Einführung in Aspose.Slides für .NET
-
-Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten. Es bietet eine breite Palette von Funktionen zum Erstellen, Bearbeiten und Verwalten von Präsentationselementen, einschließlich Folien, Formen, Text, Bildern und mehr. In diesem Leitfaden konzentrieren wir uns auf die Erstellung einer einfachen Rechteckform innerhalb einer Präsentationsfolie mithilfe der Funktionen von Aspose.Slides für .NET.
-
-## Einrichten der Entwicklungsumgebung
-
-Bevor wir uns mit dem Code befassen, richten wir unsere Entwicklungsumgebung ein. Folge diesen Schritten:
-
-1.  Laden Sie Aspose.Slides für .NET herunter: Besuchen Sie die[Download-Seite](https://releases.aspose.com/slides/net/) und wählen Sie die mit Ihrem Projekt kompatible Version aus.
-
-2. Aspose.Slides installieren: Nach dem Herunterladen installieren Sie Aspose.Slides, indem Sie die DLL-Referenz zu Ihrem Projekt hinzufügen.
-
-3. Erstellen Sie ein neues Projekt: Erstellen Sie ein neues .NET-Projekt mit Ihrer bevorzugten Entwicklungsumgebung (z. B. Visual Studio).
-
-## Erstellen einer neuen Präsentation
-
-Beginnen wir mit der Erstellung einer neuen PowerPoint-Präsentation mit Aspose.Slides für .NET.
-
+## Einführung
+Wenn Sie Ihre .NET-Anwendungen mit dynamischen und optisch ansprechenden PowerPoint-Präsentationen erweitern möchten, ist Aspose.Slides für .NET Ihre Lösung der Wahl. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung einer einfachen Rechteckform in Präsentationsfolien mit Aspose.Slides für .NET.
+## Voraussetzungen
+Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+- Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Entwicklungscomputer installiert ist.
+-  Aspose.Slides für .NET: Laden Sie die Aspose.Slides für .NET-Bibliothek herunter und installieren Sie sie[Hier](https://releases.aspose.com/slides/net/).
+- Grundlegende C#-Kenntnisse: Vertrautheit mit der Programmiersprache C# ist unerlässlich.
+## Namespaces importieren
+Beginnen Sie in Ihrem C#-Projekt mit dem Importieren der erforderlichen Namespaces, um auf die Funktionen von Aspose.Slides zuzugreifen:
 ```csharp
+using System.IO;
 using Aspose.Slides;
-
-class Program
+using Aspose.Slides.Export;
+```
+## Schritt 1: Richten Sie das Projekt ein
+Beginnen Sie mit der Erstellung eines neuen C#-Projekts in Visual Studio. Stellen Sie sicher, dass Aspose.Slides für .NET in Ihrem Projekt korrekt referenziert wird.
+## Schritt 2: Präsentationsobjekt initialisieren
+```csharp
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
 {
-    static void Main(string[] args)
-    {
-        // Erstellen Sie eine neue Präsentation
-        Presentation presentation = new Presentation();
-
-        // Fügen Sie der Präsentation eine leere Folie hinzu
-        Slide slide = presentation.Slides.AddEmptySlide();
-
-        // Ihr Code zum Hinzufügen der Rechteckform wird hier angezeigt
-
-        // Speichern Sie die Präsentation
-        presentation.Save("RectangleShapePresentation.pptx", SaveFormat.Pptx);
-    }
+    // Hier finden Sie Ihren Code für die nächsten Schritte.
 }
 ```
-
-## Hinzufügen einer Rechteckform zur Folie
-
-Nachdem wir nun unsere Präsentationsfolie fertig haben, fügen wir ihr nun eine rechteckige Form hinzu.
-
+## Schritt 3: Holen Sie sich die erste Folie
 ```csharp
-// Fügen Sie der Folie eine Rechteckform hinzu
-double x = 100; // X-Koordinate der Form
-double y = 100; // Y-Koordinate der Form
-double width = 200; // Breite der Form
-double height = 100; // Höhe der Form
-
-slide.Shapes.AddRectangle(x, y, width, height);
+ISlide sld = pres.Slides[0];
 ```
-
-## Anpassen der Rechteckform
-
-Sie können verschiedene Aspekte der Rechteckform anpassen, z. B. die Füllfarbe, den Rahmenstil und mehr.
-
+## Schritt 4: Rechteck-AutoForm hinzufügen
 ```csharp
-// Holen Sie sich die hinzugefügte Form (Rechteck)
-IShape rectangle = slide.Shapes[0];
-
-// Passen Sie die Füllfarbe an
-rectangle.FillFormat.SolidFillColor.Color = Color.Blue;
-
-// Rand anpassen
-rectangle.LineFormat.Width = 2; // Rahmenbreite
-rectangle.LineFormat.DashStyle = LineDashStyle.DashDot; // Grenzstil
-rectangle.LineFormat.FillFormat.SolidFillColor.Color = Color.Red; // Randfarbe
+sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```
-
-## Speichern der Präsentation
-
-Sobald Sie die Rechteckform hinzugefügt und angepasst haben, ist es an der Zeit, die Präsentation zu speichern.
-
+Dieser Code fügt an den Koordinaten (50, 150) eine Rechteckform mit einer Breite von 150 und einer Höhe von 50 hinzu.
+## Schritt 5: Speichern Sie die Präsentation
 ```csharp
-// Speichern Sie die Präsentation
-presentation.Save("RectangleShapePresentation.pptx", SaveFormat.Pptx);
+pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
 ```
-
+Dieser Schritt speichert die Präsentation mit der hinzugefügten Rechteckform im angegebenen Verzeichnis.
 ## Abschluss
-
-In diesem Leitfaden haben wir untersucht, wie Sie mit Aspose.Slides für .NET eine einfache Rechteckform innerhalb einer Präsentationsfolie erstellen. Wir haben die grundlegenden Schritte zum Einrichten der Entwicklungsumgebung, zum Erstellen einer neuen Präsentation, zum Hinzufügen einer Rechteckform, zum Anpassen des Erscheinungsbilds und zum Speichern der endgültigen Präsentation behandelt. Mit Aspose.Slides für .NET können Sie Ihre PowerPoint-Präsentationen ganz einfach automatisieren und verbessern und so eine Ebene an Dynamik und Interaktivität hinzufügen.
-
-## FAQs
-
-### Wie installiere ich Aspose.Slides für .NET?
-
-Um Aspose.Slides für .NET zu installieren, befolgen Sie diese Schritte:
-
-1.  Besuche den[Download-Seite](https://releases.aspose.com/slides/net/).
-2. Wählen Sie die mit Ihrem Projekt kompatible Version.
-3. Fügen Sie die Aspose.Slides-DLL-Referenz zu Ihrem .NET-Projekt hinzu.
-
-### Kann ich die Füllfarbe der Rechteckform anpassen?
-
- Ja, Sie können die Füllfarbe der Rechteckform mithilfe von anpassen`FillFormat` Eigentum. Greifen Sie einfach auf die Formen zu`FillFormat` und stellen Sie das gewünschte ein`SolidFillColor`.
-
-### Wie speichere ich die Präsentation, nachdem ich die Rechteckform hinzugefügt habe?
-
-Sie können die Präsentation mit speichern`Save` Methode der`Presentation` Klasse. Geben Sie den gewünschten Dateinamen und das gewünschte Speicherformat an (z. B`SaveFormat.Pptx`).
-
-### Ist Aspose.Slides für .NET nur für rechteckige Formen geeignet?
-
-Nein, Aspose.Slides für .NET unterstützt eine Vielzahl von Formen und Präsentationselementen. Sie können Formen wie Rechtecke, Kreise, Pfeile und mehr erstellen und bearbeiten.
-
-### Wo finde ich weitere Dokumentation zu Aspose.Slides für .NET?
-
- Ausführliche Dokumentation und API-Referenzen für Aspose.Slides für .NET finden Sie auf der[Dokumentationsseite](https://reference.aspose.com/slides/net/).
+Glückwunsch! Sie haben mit Aspose.Slides für .NET erfolgreich eine einfache Rechteckform in einer Präsentationsfolie erstellt. Das ist erst der Anfang – Aspose.Slides bietet eine breite Palette an Funktionen, mit denen Sie Ihre Präsentationen weiter anpassen und verbessern können.
+## Häufig gestellte Fragen
+### Kann ich Aspose.Slides für .NET sowohl in Windows- als auch in Linux-Umgebungen verwenden?
+Ja, Aspose.Slides für .NET ist plattformunabhängig und kann sowohl in Windows- als auch in Linux-Umgebungen verwendet werden.
+### Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
+ Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+### Wie erhalte ich Unterstützung für Aspose.Slides für .NET?
+ Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für die Unterstützung der Gemeinschaft.
+### Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
+ Ja, Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+### Wo finde ich die Dokumentation für Aspose.Slides für .NET?
+ Weitere Informationen finden Sie in der Dokumentation[Hier](https://reference.aspose.com/slides/net/).

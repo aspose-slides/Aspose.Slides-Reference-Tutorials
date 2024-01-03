@@ -14,7 +14,7 @@ Dans le monde de la conception et de l'automatisation de présentations, Aspose.
 
 Avant de plonger dans le processus étape par étape, assurez-vous que les conditions préalables suivantes sont en place :
 
-1. Bibliothèque Aspose.Slides pour .NET : téléchargez et installez la bibliothèque Aspose.Slides pour .NET à partir du[lien de téléchargement](https://releases.aspose.com/slides/net/).
+1.  Bibliothèque Aspose.Slides pour .NET : téléchargez et installez la bibliothèque Aspose.Slides pour .NET à partir du[lien de téléchargement](https://releases.aspose.com/slides/net/).
 
 2. Image pour l’arrière-plan : vous aurez besoin d’une image que vous souhaitez définir comme arrière-plan de la diapositive. Assurez-vous d'avoir le fichier image dans un format approprié (par exemple, .jpg) prêt à l'emploi.
 

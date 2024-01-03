@@ -2,115 +2,64 @@
 title: ضبط أرقام الشرائح للعروض التقديمية باستخدام Aspose.Slides
 linktitle: ضبط أرقام الشرائح للعروض التقديمية باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إضافة أرقام الشرائح وتخصيصها في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدر لإعداد المشروع وتحميل عرض تقديمي وإضافة أرقام الشرائح وتخصيص تنسيقها وضبط موضعها.
+description: استكشف العالم السلس لمعالجة الشرائح باستخدام Aspose.Slides for .NET. تعرف على كيفية تعيين أرقام الشرائح دون عناء، مما يعزز تجربة العرض التقديمي الخاص بك.
 type: docs
 weight: 16
 url: /ar/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-## مقدمة إلى Aspose.Slides لـ .NET
-
-Aspose.Slides for .NET هي مكتبة متعددة الاستخدامات تمكن مطوري .NET من إنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجيًا. فهو يوفر مجموعة واسعة من الميزات للتفاعل مع العناصر المختلفة للعروض التقديمية، بما في ذلك الشرائح والأشكال والنصوص والصور والمزيد. في هذا الدليل، سنركز على إضافة أرقام الشرائح وتخصيصها باستخدام Aspose.Slides لـ .NET.
-
+## مقدمة
+في عالم العروض التقديمية الديناميكي، يعد التحكم في تسلسل الشرائح وتنظيمها أمرًا بالغ الأهمية للتواصل الفعال. يوفر Aspose.Slides for .NET حلاً قويًا لمعالجة أرقام الشرائح داخل العروض التقديمية، مما يمنحك المرونة لتخصيص المحتوى الخاص بك بسلاسة.
 ## المتطلبات الأساسية
-
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
-
-- Visual Studio (أو أي بيئة تطوير .NET أخرى)
--  Aspose.Slides لمكتبة .NET (التنزيل من[هنا](https://releases.aspose.com/slides/net/)
-
-## إعداد المشروع
-
-1. قم بإنشاء مشروع Visual Studio جديد (تطبيق وحدة التحكم، على سبيل المثال).
-2. قم بإضافة مرجع إلى Aspose.Slides لمكتبة .NET.
-
-## تحميل عرض تقديمي
-
-للبدء، لنقم بتحميل عرض PowerPoint تقديمي موجود:
-
+قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+-  Aspose.Slides for .NET: تأكد من تثبيت مكتبة Aspose.Slides. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
+- بيئة التطوير: قم بإعداد بيئة تطوير .NET عاملة على جهازك.
+- نموذج عرض تقديمي: قم بتنزيل نموذج العرض التقديمي "HelloWorld.pptx" الذي سنستخدمه في هذا البرنامج التعليمي.
+الآن، دعنا نستكشف الدليل خطوة بخطوة حول كيفية تعيين أرقام الشرائح باستخدام Aspose.Slides for .NET.
+## استيراد مساحات الأسماء
+قبل البدء في العمل مع Aspose.Slides، تحتاج إلى استيراد مساحات الأسماء الضرورية إلى مشروعك.
+```csharp
+using Aspose.Slides.Export;
+using Aspose.Slides;
+```
+الآن، دعونا نقسم كل خطوة إلى مزيد من التفاصيل:
+## الخطوة 1: استيراد مساحات الأسماء الضرورية
+في مشروع .NET الخاص بك، تأكد من تضمين مساحات الأسماء التالية:
 ```csharp
 using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Export;
 ```
-
-## إضافة أرقام الشرائح
-
-بعد ذلك، دعونا نضيف أرقام الشرائح إلى كل شريحة في العرض التقديمي:
-
+توفر مساحات الأسماء هذه الفئات والأساليب الأساسية اللازمة للعمل مع العروض التقديمية باستخدام Aspose.Slides.
+## الخطوة 2: قم بتحميل العرض التقديمي
+ للبدء، قم بإنشاء مثيل لـ`Presentation` فئة وتحميل ملف العرض التقديمي الخاص بك، في هذه الحالة، "HelloWorld.pptx."
 ```csharp
-// تمكين أرقام الشرائح
-foreach (ISlide slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
 {
-    // إضافة شكل رقم الشريحة
-    IAutoShape slideNumberShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 10, 50, 20);
-    slideNumberShape.TextFrame.Text = (slide.SlideNumber).ToString();
+    // الرمز الخاص بك هنا
 }
 ```
-
-## تخصيص تنسيق رقم الشريحة
-
-يمكنك تخصيص مظهر أرقام الشرائح عن طريق ضبط الخط واللون والحجم والمزيد:
-
+## الخطوة 3: الحصول على رقم الشريحة وتعيينه
+ استرداد رقم الشريحة الحالية باستخدام`FirstSlideNumber` الخاصية ثم قم بتعيينها على القيمة المطلوبة. في المثال، قمنا بضبطه على 10.
 ```csharp
-foreach (IAutoShape shape in presentation.Slides[0].Shapes.OfType<IAutoShape>())
-{
-    // تخصيص الخط واللون
-    ITextFrame textFrame = shape.TextFrame;
-    IParagraph paragraph = textFrame.Paragraphs[0];
-    IPortion portion = paragraph.Portions[0];
-    
-    portion.PortionFormat.FontHeight = 12;
-    portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+int firstSlideNumber = presentation.FirstSlideNumber;
+presentation.FirstSlideNumber = 10;
 ```
-
-## تحديث موضع رقم الشريحة
-
-يمكنك أيضًا ضبط موضع أرقام الشرائح في كل شريحة:
-
+## الخطوة 4: احفظ العرض التقديمي المعدل
+وأخيرًا، احفظ العرض التقديمي المعدل برقم الشريحة الجديد.
 ```csharp
-foreach (ISlide slide in presentation.Slides)
-{
-    foreach (IAutoShape shape in slide.Shapes.OfType<IAutoShape>())
-    {
-        shape.Left = slide.SlideSize.Size.Width - shape.Width - 10;
-        shape.Top = slide.SlideSize.Size.Height - shape.Height - 10;
-    }
-}
+presentation.Save(dataDir + "Set_Slide_Number_out.pptx", SaveFormat.Pptx);
 ```
-
-## حفظ العرض التقديمي المعدل
-
-بمجرد إضافة أرقام الشرائح وتخصيصها، احفظ العرض التقديمي المعدل:
-
-```csharp
-presentation.Save("output-presentation.pptx", SaveFormat.Pptx);
-```
-
+كرر هذه الخطوات حسب الحاجة لتخصيص أرقام الشرائح وفقًا لمتطلبات العرض التقديمي الخاص بك.
 ## خاتمة
-
-في هذا الدليل، اكتشفنا كيفية تحسين العروض التقديمية الخاصة بك عن طريق إضافة أرقام الشرائح وتخصيصها باستخدام Aspose.Slides for .NET. باتباع الخطوات المقدمة وأمثلة التعليمات البرمجية، يمكنك أتمتة عملية إضافة أرقام الشرائح وإنشاء عروض تقديمية ذات مظهر احترافي.
-
+يمكّنك Aspose.Slides for .NET من التحكم في تدفق العرض التقديمي الخاص بك عن طريق تعيين أرقام الشرائح بسهولة. قم بتحسين عروضك التقديمية من خلال تجربة مستخدم سلسة وديناميكية باستخدام هذه المكتبة القوية.
 ## الأسئلة الشائعة
-
-### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل مكتبة Aspose.Slides for .NET من[هنا](https://releases.aspose.com/slides/net/). بعد التنزيل، قم بإضافة مرجع إلى المكتبة في مشروع .NET الخاص بك.
-
+### هل Aspose.Slides متوافق مع أحدث إصدارات .NET؟
+نعم، يتم تحديث Aspose.Slides بانتظام لضمان التوافق مع أحدث إصدارات إطار عمل .NET.
 ### هل يمكنني تخصيص مظهر أرقام الشرائح؟
-
-نعم، يمكنك تخصيص الخط واللون والحجم والسمات الأخرى لأرقام الشرائح باستخدام أمثلة التعليمات البرمجية المتوفرة.
-
-### كيف يمكنني ضبط موضع أرقام الشرائح في كل شريحة؟
-
-يمكنك ضبط موضع أرقام الشرائح عن طريق تعديل إحداثيات أشكال أرقام الشرائح، كما هو موضح في أمثلة التعليمات البرمجية.
-
-### هل Aspose.Slides for .NET مخصص فقط لإضافة أرقام الشرائح؟
-
-لا، يقدم Aspose.Slides for .NET نطاقًا واسعًا من الميزات بخلاف إضافة أرقام الشرائح. يسمح لك بإنشاء وتعديل ومعالجة عناصر مختلفة من عروض PowerPoint التقديمية برمجياً.
-
-### هل يمكن التراجع عن التعديلات إذا أردت إزالة أرقام الشرائح لاحقًا؟
-
-نعم، يمكنك بسهولة إزالة أرقام الشرائح عن طريق إزالة الأشكال المقابلة من الشرائح باستخدام مكتبة Aspose.Slides.
+قطعاً! يوفر Aspose.Slides خيارات شاملة لتخصيص مظهر أرقام الشرائح، بما في ذلك الخط والحجم واللون.
+### هل هناك أي قيود على الترخيص لاستخدام Aspose.Slides؟
+ الرجوع إلى[صفحة ترخيص Aspose.Slides](https://purchase.aspose.com/buy) للحصول على معلومات مفصلة عن الترخيص.
+### كيف يمكنني الحصول على الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟
+ قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على الدعم المجتمعي أو استكشاف خيارات الدعم المتميزة.
+### هل يمكنني تجربة Aspose.Slides قبل الشراء؟
+ نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).

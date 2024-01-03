@@ -1,100 +1,90 @@
 ---
-title: تغيير بيانات كائن OLE في شرائح العرض التقديمي باستخدام Aspose.Slides
-linktitle: تغيير بيانات كائن OLE في شرائح العرض التقديمي باستخدام Aspose.Slides
+title: تغيير بيانات كائن OLE في العرض التقديمي باستخدام Aspose.Slides
+linktitle: تغيير بيانات كائن OLE في العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تغيير بيانات كائن OLE بكفاءة في شرائح العرض التقديمي باستخدام Aspose.Slides API. يوفر هذا الدليل خطوة بخطوة أمثلة للتعليمات البرمجية والرؤى الأساسية.
+description: اكتشف قوة Aspose.Slides لـ .NET في تغيير بيانات كائن OLE دون عناء. تعزيز العروض التقديمية الخاصة بك مع المحتوى الديناميكي.
 type: docs
 weight: 25
 url: /ar/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
-
 ## مقدمة
-
-في مجال تصميم العرض التقديمي وتطويره، يعد المحتوى الديناميكي أمرًا بالغ الأهمية لإشراك الجمهور وإعلامه بشكل فعال. أحد هذه العناصر الديناميكية هو كائن OLE (ربط الكائنات وتضمينها)، الذي يعمل على تمكين العروض التقديمية باستخدام عناصر تفاعلية. باستخدام Aspose.Slides API، يصبح تغيير بيانات كائن OLE في شرائح العرض التقديمي عملية سلسة. يوفر هذا الدليل إرشادات شاملة خطوة بخطوة لتزويدك بالخبرة اللازمة للتعامل مع كائنات OLE بشكل فعال باستخدام Aspose.Slides for .NET.
-
-## تغيير بيانات كائن OLE باستخدام Aspose.Slides: دليل خطوة بخطوة
-
-### الشروع في العمل مع Aspose.Slides
-
- للشروع في هذه الرحلة لمعالجة كائنات OLE، تحتاج إلى تثبيت Aspose.Slides for .NET في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، فتوجه إلى[مرجع Aspose.Slides API](https://reference.aspose.com/slides/net/) و[Aspose.Slides الإصدارات](https://releases.aspose.com/slides/net/) تنزيل وإعداد الموارد المطلوبة.
-
-### تحميل عرض تقديمي
-
-قبل أن تتمكن من تعديل أي كائنات OLE، فإنك تحتاج إلى عرض تقديمي للعمل معه. إليك كيفية تحميل عرض تقديمي باستخدام Aspose.Slides:
-
+يعد إنشاء عروض PowerPoint التقديمية الديناميكية والتفاعلية مطلبًا شائعًا في العالم الرقمي اليوم. إحدى الأدوات القوية لتحقيق ذلك هي Aspose.Slides for .NET، وهي مكتبة قوية تسمح للمطورين بمعالجة عروض PowerPoint التقديمية وتحسينها برمجيًا. في هذا البرنامج التعليمي، سوف نتعمق في عملية تغيير بيانات كائن OLE (ربط الكائنات وتضمينها) داخل شرائح العرض التقديمي باستخدام Aspose.Slides.
+## المتطلبات الأساسية
+قبل البدء في العمل مع Aspose.Slides لـ .NET، تأكد من توفر المتطلبات الأساسية التالية:
+1. بيئة التطوير: قم بإعداد بيئة تطوير مع تثبيت .NET.
+2.  مكتبة Aspose.Slides: قم بتنزيل وتثبيت Aspose.Slides لمكتبة .NET. يمكنك العثور على المكتبة[هنا](https://releases.aspose.com/slides/net/).
+3. الفهم الأساسي: تعرف على المفاهيم الأساسية لبرمجة C# وعروض PowerPoint التقديمية.
+## استيراد مساحات الأسماء
+في مشروع C# الخاص بك، قم باستيراد مساحات الأسماء اللازمة لاستخدام وظائف Aspose.Slides:
 ```csharp
+using System.IO;
+using Aspose.Cells;
 using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using Presentation presentation = new Presentation("path_to_your_presentation.pptx");
+using Aspose.Slides.DOM.Ole;
+using SaveFormat = Aspose.Slides.Export.SaveFormat;
 ```
-
-### الوصول إلى كائنات OLE
-
-بعد تحميل العرض التقديمي، حان الوقت لتحديد كائنات OLE التي تريد تعديلها والوصول إليها. قد تكون هذه الكائنات عبارة عن مخططات أو رسوم بيانية أو وسائط متعددة أو أي محتوى ديناميكي آخر مضمن في الشرائح.
-
+## الخطوة 1: قم بإعداد مشروعك
+ابدأ بإنشاء مشروع C# جديد واستيراد مكتبة Aspose.Slides. تأكد من تكوين مشروعك بشكل صحيح، وأن لديك التبعيات المطلوبة في مكانها الصحيح.
+## الخطوة 2: الوصول إلى العرض التقديمي والشريحة
 ```csharp
-// الوصول إلى الشريحة الأولى
-ISlide slide = presentation.Slides[0];
-
-// قم بالوصول إلى أشكال OLE الموجودة على الشريحة
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "ChangeOLEObjectData.pptx"))
+{
+    ISlide slide = pres.Slides[0];
+```
+## الخطوة 3: حدد موقع كائن OLE
+قم بالتمرير عبر كافة الأشكال الموجودة في الشريحة للعثور على إطار كائن OLE:
+```csharp
+OleObjectFrame ole = null;
 foreach (IShape shape in slide.Shapes)
 {
-    if (shape is IOleObjectFrame oleObject)
+    if (shape is OleObjectFrame)
     {
-        // يتم وضع التعليمات البرمجية الخاصة بك لتعديل كائنات OLE هنا
+        ole = (OleObjectFrame)shape;
     }
 }
 ```
-
-### تعديل بيانات كائن OLE
-
-هنا يأتي الجزء المثير – إجراء تغييرات على بيانات كائن OLE. لنفترض أن لديك جدول بيانات Excel مضمنًا، وتريد تحديث البيانات التي يعرضها. وإليك كيف يمكنك تحقيق ذلك:
-
+## الخطوة 4: قراءة بيانات المصنف وتعديلها
 ```csharp
-// بافتراض أنك قمت بتعريف كائن OLE على أنه oleObject
-if (oleObject.ObjectData is OleEmbeddedData oleData)
+if (ole != null)
 {
-    // تعديل البيانات في كائن oleData
-    oleData.SetNewData(newDataByteArray);
+    using (MemoryStream msln = new MemoryStream(ole.EmbeddedData.EmbeddedFileData))
+    {
+        // قراءة بيانات الكائن في المصنف
+        Workbook Wb = new Workbook(msln);
+        using (MemoryStream msout = new MemoryStream())
+        {
+            // تعديل بيانات المصنف
+            Wb.Worksheets[0].Cells[0, 4].PutValue("E");
+            Wb.Worksheets[0].Cells[1, 4].PutValue(12);
+            Wb.Worksheets[0].Cells[2, 4].PutValue(14);
+            Wb.Worksheets[0].Cells[3, 4].PutValue(15);
+            OoxmlSaveOptions so1 = new OoxmlSaveOptions(Aspose.Cells.SaveFormat.Xlsx);
+            Wb.Save(msout, so1);
+            // تغيير بيانات كائن إطار Ole
+            IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(msout.ToArray(), ole.EmbeddedData.EmbeddedFileExtension);
+            ole.SetEmbeddedData(newData);
+        }
+    }
 }
 ```
-
-### حفظ العرض التقديمي
-
-بمجرد إجراء التغييرات المطلوبة بنجاح على بيانات كائن OLE، لا تنس حفظ العرض التقديمي للحفاظ على تعديلاتك:
-
+## الخطوة 5: احفظ العرض التقديمي
 ```csharp
-// احفظ العرض التقديمي بالتغييرات
-presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
+pres.Save(dataDir + "OleEdit_out.pptx", SaveFormat.Pptx);
 ```
-
-### الأسئلة الشائعة
-
-#### كيف يمكنني تحديد نوع كائن OLE الموجود على الشريحة؟
-
- لتحديد نوع كائن OLE، يمكنك استخدام`Type` ملكية`IOleObjectFrame`واجهه المستخدم. سيزودك بمعلومات حول ما إذا كان كائنًا مضمنًا أو كائنًا مرتبطًا أو أنواعًا أخرى.
-
-#### هل يمكنني تعديل كائنات OLE من مصادر البيانات الخارجية؟
-
-نعم، يسمح لك Aspose.Slides بتعديل كائنات OLE باستخدام بيانات من مصادر خارجية. يمكنك تحديث المخططات والجداول والمحتويات الأخرى المضمنة برمجياً.
-
-#### هل Aspose.Slides متوافق مع تنسيقات العروض التقديمية المختلفة؟
-
-نعم، يدعم Aspose.Slides مجموعة واسعة من تنسيقات العروض التقديمية، بما في ذلك PPTX وPPT وPOTX والمزيد. تأكد من الرجوع إلى الوثائق للحصول على القائمة الكاملة للتنسيقات المدعومة.
-
-#### هل أحتاج إلى مهارات برمجة متقدمة لاستخدام Aspose.Slides؟
-
-في حين أن الفهم الأساسي لبرمجة .NET مفيد، فإن Aspose.Slides يوفر وثائق وأمثلة شاملة لإرشادك خلال العملية. حتى لو كنت مبتدئا، يمكنك الاستفادة بشكل فعال من ميزاته.
-
-#### هل يمكنني أتمتة عملية تعديل بيانات كائن OLE؟
-
-قطعاً! تم تصميم Aspose.Slides للأتمتة. يمكنك إنشاء برامج نصية تقوم بتعديل بيانات كائن OLE عبر عروض تقديمية متعددة، مما يوفر لك الوقت والجهد.
-
-#### هل هناك أي اعتبارات للأداء عند العمل مع العروض التقديمية الكبيرة؟
-
-عند التعامل مع العروض التقديمية الكبيرة، يوصى باستخدام ممارسات الترميز الفعالة. يمكن أن يساعد التخزين المؤقت وتحسين التعليمات البرمجية في الحفاظ على الأداء السلس أثناء تعديل بيانات كائن OLE.
-
-### خاتمة
-
-في مشهد العروض التقديمية دائم التطور، تقف كائنات OLE كأدوات متعددة الاستخدامات لنقل المعلومات بشكل ديناميكي. بفضل قوة Aspose.Slides لـ .NET، تصبح عملية تغيير بيانات كائن OLE سهلة الوصول وفعالة. من خلال هذا الدليل، اكتسبت المعرفة اللازمة لتحديد كائنات OLE وتعديلها وتحسينها، مما يؤدي إلى إثراء العروض التقديمية وجذب الجماهير.
+## خاتمة
+باتباع هذه الخطوات، يمكنك تغيير بيانات كائن OLE بسلاسة داخل شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. وهذا يفتح عالمًا من الإمكانيات لإنشاء عروض تقديمية ديناميكية ومخصصة مصممة خصيصًا لتلبية احتياجاتك الخاصة.
+## أسئلة مكررة
+### ما هو Aspose.Slides لـ .NET؟
+Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من العمل مع عروض PowerPoint التقديمية برمجياً، مما يتيح سهولة المعالجة والتحسين.
+### أين يمكنني العثور على وثائق Aspose.Slides؟
+ يمكن العثور على وثائق Aspose.Slides لـ .NET[هنا](https://reference.aspose.com/slides/net/).
+### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
+ يمكنك تنزيل المكتبة من صفحة الإصدار[هنا](https://releases.aspose.com/slides/net/).
+### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides؟
+ نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
+ للحصول على الدعم والمناقشات، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).

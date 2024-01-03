@@ -251,7 +251,7 @@ Vous avez créé avec succès un diagramme circulaire dans une présentation Pow
 
 ## FAQ
 
-### Comment puis-je modifier les couleurs de secteurs individuels dans le diagramme circulaire ?
+### Comment puis-je modifier les couleurs de secteurs individuels dans le graphique à secteurs ?
 
  Pour modifier les couleurs de secteurs individuels dans le graphique à secteurs, vous pouvez personnaliser la couleur de remplissage pour chaque point de données. Dans l'exemple de code fourni, nous avons montré comment définir la couleur de remplissage pour chaque secteur à l'aide du`getSolidFillColor().setColor()`méthode. Vous pouvez modifier les valeurs de couleur pour obtenir l'apparence souhaitée.
 

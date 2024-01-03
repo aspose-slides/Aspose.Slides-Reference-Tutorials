@@ -164,4 +164,4 @@ presentation.Save(dataDir + "RemoveNotesFromAllSlides_out.pptx", SaveFormat.Pptx
 
 ### هل يمكنني التعامل مع جوانب أخرى من عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET؟
 
-نعم، يقدم Aspose.Slides for .NET مجموعة واسعة من الميزات لمعالجة عروض PowerPoint التقديمية، بما في ذلك الشرائح والأشكال والنص والمزيد. استكشف الوثائق للحصول على التفاصيل.
+نعم، يوفر Aspose.Slides for .NET نطاقًا واسعًا من الميزات لمعالجة عروض PowerPoint التقديمية، بما في ذلك الشرائح والأشكال والنص والمزيد. استكشف الوثائق للحصول على التفاصيل.

@@ -55,7 +55,7 @@ Comience creando una presentación de PowerPoint vacía usando Aspose.Slides. Es
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    //Su código para agregar un gráfico y barras de error personalizadas irá aquí.
+    // Su código para agregar un gráfico y barras de error personalizadas irá aquí.
     // Dividiremos esto en pasos posteriores.
     
     // Guardar presentación

@@ -74,7 +74,7 @@ url: /zh/java/presentation-conversion/
 ### [将 Java 幻灯片中的整个演示文稿转换为 HTML](./convert-whole-presentation-html-java-slides/)
 了解如何使用 Aspose.Slides 将 PowerPoint 演示文稿转换为 Java 中的 HTML。带有代码示例的分步指南。
 ### [使用 Java 幻灯片中的媒体文件将整个演示文稿转换为 HTML](./convert-whole-presentation-html-media-files-java-slides/)
-了解如何使用 Java Slides 将演示文稿转换为带有媒体文件的 HTML。请遵循我们的 Aspose.Slides for Java API 分步指南。
+了解如何使用 Java Slides 将演示文稿转换为包含媒体文件的 HTML。请遵循我们的 Aspose.Slides for Java API 分步指南。
 ### [在 Java 幻灯片中使用自定义尺寸进行转换](./convert-custom-size-java-slides/)
 了解如何使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为具有自定义尺寸的 TIFF 图像。为开发人员提供包含代码示例的分步指南。
 ### [在 Java 幻灯片中使用注释转换为 TIFF](./convert-note-tiff-java-slides/)

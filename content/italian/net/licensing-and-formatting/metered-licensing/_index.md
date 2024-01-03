@@ -20,7 +20,7 @@ Prima di immergerti nel mondo di Aspose.Slides per .NET, ci sono alcuni prerequi
 
 2. Visual Studio: avrai bisogno di Visual Studio installato sul tuo sistema per la codifica.
 
-3. Libreria Aspose.Slides: assicurati di aver scaricato e installato la libreria Aspose.Slides per .NET. Puoi trovare la biblioteca e ulteriori istruzioni su[questo link](https://releases.aspose.com/slides/net/).
+3.  Libreria Aspose.Slides: assicurati di aver scaricato e installato la libreria Aspose.Slides per .NET. Puoi trovare la biblioteca e ulteriori istruzioni su[questo link](https://releases.aspose.com/slides/net/).
 
 Ora che sei pronto, iniziamo il nostro viaggio in Aspose.Slides per .NET.
 

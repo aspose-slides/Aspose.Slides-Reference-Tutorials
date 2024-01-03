@@ -63,7 +63,7 @@ finally
 
 هذا كل شيء! لقد نجحت في تحويل عرض تقديمي إلى HTML أثناء تضمين جميع الخطوط باستخدام Aspose.Slides لـ Java.
 
-## استكمال كود المصدر
+## كود المصدر الكامل
 
 ```java
 String dataDir = "Your Document Directory";

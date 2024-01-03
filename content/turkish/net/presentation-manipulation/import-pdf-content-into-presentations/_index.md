@@ -54,7 +54,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
  Aspose.Slides for .NET kütüphanesini sürümler sayfasından indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
 
 ### Bir PDF'nin birden fazla sayfasından içerik aktarabilir miyim?
- Evet, birden fazla sayfa numarası belirtebilirsiniz.`ProcessPages` PDF'nin farklı sayfalarından içerik içe aktarmak için dizi.
+Evet, birden fazla sayfa numarası belirtebilirsiniz.`ProcessPages` PDF'nin farklı sayfalarından içerik içe aktarmak için dizi.
 
 ### PDF içeriğini içe aktarmada herhangi bir sınırlama var mı?
 Aspose.Slides güçlü bir çözüm sunarken, içe aktarılan içeriğin formatı PDF'nin karmaşıklığına göre değişiklik gösterebilir. Bazı ayarlamalar gerekebilir.
@@ -66,4 +66,4 @@ Aspose.Slides öncelikle sunumla ilgili işlevselliklere odaklanır. Diğer içe
 Kesinlikle. Aspose.Slides, görsel olarak ilgi çekici sunumlar oluşturmak için içerik içe aktarma, animasyonlar ve slayt geçişleri de dahil olmak üzere çok çeşitli özellikler sunar.
 
 ## Çözüm
-Aspose.Slides for .NET kullanarak PDF içeriğini sunumlara entegre etmek, slaytlarınızı harici bilgilerle geliştirmenin güçlü bir yoludur. Adım adım kılavuzu izleyerek ve sağlanan kaynak kodu örneklerini kullanarak, PDF içeriğini sorunsuz bir şekilde içe aktarabilir ve çeşitli bilgi kaynaklarını birleştiren sunumlar oluşturabilirsiniz.
+Aspose.Slides for .NET kullanarak PDF içeriğini sunumlara entegre etmek, slaytlarınızı harici bilgilerle geliştirmenin güçlü bir yoludur. Adım adım kılavuzu takip ederek ve sağlanan kaynak kodu örneklerini kullanarak, PDF içeriğini sorunsuz bir şekilde içe aktarabilir ve çeşitli bilgi kaynaklarını birleştiren sunumlar oluşturabilirsiniz.

@@ -43,7 +43,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
  Настройте параметры PDF для включения скрытых слайдов в вывод PDF. Вы можете сделать это, установив`setShowHiddenSlides` собственность`PdfOptions` класс, чтобы`true`.
 
 ```java
-// Создайте экземпляр класса PdfOptions
+// Создайте экземпляр класса PdfOptions.
 PdfOptions pdfOptions = new PdfOptions();
 // Укажите, что созданный документ должен включать скрытые слайды.
 pdfOptions.setShowHiddenSlides(true);
@@ -77,7 +77,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 try
 {
-	// Создайте экземпляр класса PdfOptions
+	// Создайте экземпляр класса PdfOptions.
 	PdfOptions pdfOptions = new PdfOptions();
 	// Укажите, что созданный документ должен включать скрытые слайды.
 	pdfOptions.setShowHiddenSlides(true);

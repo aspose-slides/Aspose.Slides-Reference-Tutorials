@@ -55,7 +55,7 @@ Beginnen Sie mit der Erstellung einer leeren PowerPoint-Präsentation mit Aspose
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    //Hier finden Sie Ihren Code zum Hinzufügen eines Diagramms und benutzerdefinierter Fehlerbalken.
+    // Hier finden Sie Ihren Code zum Hinzufügen eines Diagramms und benutzerdefinierter Fehlerbalken.
     // Wir werden dies in die folgenden Schritte unterteilen.
     
     // Präsentation speichern

@@ -1,121 +1,83 @@
 ---
-title: Application d'effets bicolores dans les diapositives de présentation avec Aspose.Slides
+title: Maîtriser les effets bicolores dans Aspose.Slides pour .NET
 linktitle: Application d'effets bicolores dans les diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Apprenez à améliorer vos diapositives de présentation avec des effets bicolores captivants à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape avec le code source complet pour créer des diapositives visuellement saisissantes qui engagent votre public. Personnalisez les couleurs bicolores, appliquez des effets aux images et au texte et enregistrez votre présentation modifiée en toute transparence.
+description: Créez des diapositives de présentation captivantes avec Aspose.Slides pour .NET. Apprenez à appliquer les effets bicolores étape par étape. Élevez vos présentations maintenant !
 type: docs
 weight: 18
 url: /fr/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
-
-## Introduction aux effets Duotone
-
-Les effets bicolores impliquent l’utilisation de deux couleurs, généralement une couleur sombre et une couleur claire, pour créer des images et des graphiques visuellement attrayants. Cette technique ajoute de la profondeur et du contraste à vos diapositives, les rendant plus attrayantes et mémorables.
-
-## Configuration de votre environnement de développement
-
-Avant de commencer, assurez-vous d'avoir installé les outils nécessaires :
-
-- Visual Studio (ou n'importe quel IDE .NET)
-- Aspose.Slides pour la bibliothèque .NET
-
- Vous pouvez télécharger la bibliothèque Aspose.Slides à partir de[ici](https://releases.aspose.com/slides/net/).
-
-## Chargement d'une présentation
-
-1. Créez un nouveau projet C# dans Visual Studio.
-2. Installez le package NuGet Aspose.Slides.
-3. Importez les espaces de noms nécessaires :
-
+## Introduction
+Créer des diapositives de présentation visuellement époustouflantes est essentiel pour engager votre public. Un moyen efficace d’améliorer vos diapositives consiste à appliquer des effets bicolores. Dans ce didacticiel, nous vous guiderons tout au long du processus d'application d'effets bicolores dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
+## Conditions préalables
+Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+1.  Aspose.Slides pour la bibliothèque .NET : téléchargez et installez la bibliothèque Aspose.Slides à partir de[ici](https://releases.aspose.com/slides/net/).
+2. Fichier multimédia : préparez un fichier multimédia (par exemple, "aspose-logo.jpg") que vous souhaitez utiliser pour l'effet bichromie.
+## Importer des espaces de noms
+Dans votre projet .NET, importez les espaces de noms nécessaires :
 ```csharp
+using System;
+using System.Drawing;
+using Aspose.Slides.Export;
 using Aspose.Slides;
-using Aspose.Slides.Util;
+using Aspose.Slides.Effects;
 ```
-
-4. Charger une présentation existante :
-
+## Étape 1 : Créer une présentation
+Commencez par créer une nouvelle présentation à l'aide de l'extrait de code suivant :
 ```csharp
-string presentationPath = "path_to_your_presentation.pptx";
-using (Presentation presentation = new Presentation(presentationPath))
+using (Presentation presentation = new Presentation())
 {
-    // Votre code pour manipuler la présentation va ici
+    // Votre code pour créer une présentation va ici
 }
 ```
-
-## Application d'effets bicolores aux images
-
-1. Identifiez les images auxquelles vous souhaitez appliquer des effets bicolores.
-2. Parcourez les images et appliquez des effets bicolores :
-
+## Étape 2 : Ajouter une image à la présentation
+Spécifiez le chemin d'accès à votre fichier multimédia et ajoutez-le à la présentation :
 ```csharp
-foreach (IShape shape in presentation.Slides[0].Shapes)
-{
-    if (shape is IAutoShape autoShape && autoShape.PictureFormat != null)
-    {
-        // Appliquer des effets bicolores
-        DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
-        duotoneEffect.FirstColor = Color.Black;
-        duotoneEffect.SecondColor = Color.White;
-        autoShape.PictureFormat.ImageColorMode = ImageColorMode.Duotone;
-        autoShape.PictureFormat.DuotoneEffect = duotoneEffect;
-    }
-}
+string imagePath = "Your Media Directory" + "aspose-logo.jpg";
+IPPImage backgroundImage = presentation.Images.AddImage(Image.FromFile(imagePath));
 ```
-
-## Ajout de textes bicolores
-
-1. Identifiez les formes de texte auxquelles vous souhaitez appliquer des effets bicolores.
-2. Parcourez les formes de texte et appliquez des effets bicolores :
-
+## Étape 3 : définir l'arrière-plan dans la première diapositive
+Définissez l'arrière-plan de la première diapositive sur l'image ajoutée :
 ```csharp
-foreach (IShape shape in presentation.Slides[0].Shapes)
-{
-    if (shape is IAutoShape autoShape && autoShape.TextFrame != null)
-    {
-        //Appliquer des effets bicolores au texte
-        DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
-        duotoneEffect.FirstColor = Color.Black;
-        duotoneEffect.SecondColor = Color.White;
-        autoShape.TextFrame.Paragraphs[0].Portions[0].PortionFormat.DuotoneEffect = duotoneEffect;
-    }
-}
+presentation.Slides[0].Background.Type = BackgroundType.OwnBackground;
+presentation.Slides[0].Background.FillFormat.FillType = FillType.Picture;
+presentation.Slides[0].Background.FillFormat.PictureFillFormat.Picture.Image = backgroundImage;
 ```
-
-## Personnalisation des couleurs bicolores
-
- Vous pouvez personnaliser les couleurs bicolores selon vos préférences de conception. Remplacez simplement le`FirstColor` et`SecondColor` valeurs avec les couleurs souhaitées.
-
-## Enregistrement et exportation de la présentation modifiée
-
-Après avoir appliqué les effets bicolores, enregistrez et exportez la présentation modifiée :
-
+## Étape 4 : ajouter un effet bicolore à l'arrière-plan
+Ajoutez l'effet bicolore à l'arrière-plan de la première diapositive :
 ```csharp
-string outputPath = "path_to_save_modified_presentation.pptx";
-presentation.Save(outputPath, SaveFormat.Pptx);
+IDuotone duotone = presentation.Slides[0].Background.FillFormat.PictureFillFormat.Picture.ImageTransform.AddDuotoneEffect();
 ```
-
+## Étape 5 : Définir les propriétés bichromes
+Spécifiez les couleurs pour l'effet bicolore :
+```csharp
+duotone.Color1.ColorType = ColorType.Scheme;
+duotone.Color1.SchemeColor = SchemeColor.Accent1;
+duotone.Color2.ColorType = ColorType.Scheme;
+duotone.Color2.SchemeColor = SchemeColor.Dark2;
+```
+## Étape 6 : Obtenez des valeurs efficaces
+Récupérez les valeurs efficaces de l’effet bichromie :
+```csharp
+IDuotoneEffectiveData duotoneEffective = duotone.GetEffective();
+```
+## Étape 7 : Afficher les valeurs efficaces
+Affichez les couleurs bicolores efficaces dans la console :
+```csharp
+Console.WriteLine("Duotone effective color1: " + duotoneEffective.Color1);
+Console.WriteLine("Duotone effective color2: " + duotoneEffective.Color2);
+```
+Répétez ces étapes pour des diapositives supplémentaires si nécessaire.
 ## Conclusion
-
-Améliorer vos diapositives de présentation avec des effets bicolores peut améliorer considérablement leur impact visuel et captiver l'attention de votre public. Avec Aspose.Slides pour .NET, l'application d'effets bicolores par programmation devient un processus transparent, vous permettant de créer des présentations époustouflantes qui se démarquent.
-
+Améliorer vos diapositives de présentation avec des effets bicolores ajoute une touche dynamique et professionnelle. Avec Aspose.Slides pour .NET, ce processus devient transparent, vous permettant de créer sans effort des présentations visuellement attrayantes.
 ## FAQ
-
-### Comment télécharger la bibliothèque Aspose.Slides pour .NET ?
-
- Vous pouvez télécharger la bibliothèque Aspose.Slides à partir de[ici](https://releases.aspose.com/slides/net/).
-
-### Puis-je appliquer des effets bicolores aux images et au texte dans la même diapositive ?
-
-Oui, vous pouvez appliquer des effets bicolores aux images et au texte dans la même diapositive, comme démontré dans le guide.
-
-### Est-il possible d'utiliser différentes couleurs pour les effets bicolores ?
-
-Absolument! Vous pouvez personnaliser les couleurs bicolores en fonction de vos préférences de conception et créer des effets visuels uniques.
-
-### Dois-je posséder des compétences avancées en programmation pour utiliser Aspose.Slides pour .NET ?
-
-Même si certaines connaissances en programmation sont utiles, les extraits de code fournis sont conçus pour être simples et faciles à comprendre, même pour les débutants.
-
-### Comment puis-je en savoir plus sur Aspose.Slides pour .NET ?
-
- Pour des informations et une documentation plus détaillées, vous pouvez vous référer au[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
+### Puis-je appliquer des effets bicolores uniquement à des diapositives spécifiques ?
+Oui, vous pouvez appliquer des effets bicolores à des diapositives spécifiques en modifiant le code en conséquence.
+### Existe-t-il d'autres effets de transformation d'image disponibles dans Aspose.Slides ?
+Aspose.Slides fournit une gamme d'effets de transformation d'image, notamment en niveaux de gris, sépia, etc. Consultez la documentation pour plus de détails.
+### Aspose.Slides est-il compatible avec le dernier framework .NET ?
+Oui, Aspose.Slides est régulièrement mis à jour pour garantir la compatibilité avec les dernières versions du framework .NET.
+### Puis-je personnaliser davantage la palette de couleurs bicolores ?
+Absolument. Explorez la documentation Aspose.Slides pour connaître les options de personnalisation avancées.
+### Existe-t-il une version d’essai disponible pour Aspose.Slides ?
+ Oui, vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).

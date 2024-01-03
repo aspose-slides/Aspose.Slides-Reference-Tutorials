@@ -1,116 +1,87 @@
 ---
-title: إضافة إزاحة ممتدة إلى اليسار لإطار الصورة في Aspose.Slides
+title: إضافة إزاحة ممتدة إلى اليسار في برنامج PowerPoint باستخدام Aspose.Slide
 linktitle: إضافة إزاحة ممتدة إلى اليسار لإطار الصورة في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إضافة إزاحة امتداد إلى اليسار لإطار صورة في PowerPoint باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة مع مثال التعليمات البرمجية المصدر الكامل.
+description: تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة لإضافة إزاحة ممتدة إلى اليسار لإطارات الصور.
 type: docs
 weight: 14
 url: /ar/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-## مقدمة إلى Aspose.Slides لـ .NET
-
-Aspose.Slides for .NET هي مكتبة شاملة تمكّن مطوري .NET من العمل مع عروض PowerPoint التقديمية دون الحاجة إلى Microsoft Office. فهو يوفر مجموعة واسعة من الميزات، بما في ذلك إنشاء الشرائح والأشكال والنصوص والصور وتحريرها ومعالجتها والمزيد.
-
+## مقدمة
+Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من التعامل مع عروض PowerPoint التقديمية بسهولة. في هذا البرنامج التعليمي، سوف نستكشف عملية إضافة إزاحة امتداد إلى اليسار لإطار الصورة باستخدام Aspose.Slides for .NET. اتبع هذا الدليل التفصيلي خطوة بخطوة لتحسين مهاراتك في العمل مع الصور والأشكال داخل عروض PowerPoint التقديمية.
 ## المتطلبات الأساسية
-
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
-
-1. تم تثبيت Visual Studio على جهازك.
-2. الفهم الأساسي لـ C# و.NET Framework.
-3.  Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
-
-## إعداد المشروع
-
-لنبدأ بإعداد مشروع C# جديد في Visual Studio:
-
-1. افتح فيجوال ستوديو.
-2. انقر على "إنشاء مشروع جديد".
-3. حدد "تطبيق وحدة التحكم (.NET Framework/Core)."
-4. اختر الاسم والموقع المناسب لمشروعك.
-5. انقر فوق "إنشاء".
-
-بعد ذلك، قم بإضافة مرجع إلى مكتبة Aspose.Slides for .NET في مشروعك. انقر بزر الماوس الأيمن على "المراجع" في مستكشف الحلول، واختر "إدارة حزم NuGet"، وابحث عن "Aspose.Slides"، وقم بتثبيت الحزمة.
-
-## إضافة إزاحة ممتدة إلى اليسار لإطار الصورة
-
-لإضافة إزاحة امتداد إلى اليسار لإطار صورة باستخدام Aspose.Slides لـ .NET، اتبع الخطوات التالية:
-
-1.  قم بتحميل ملف العرض التقديمي باستخدام`Presentation` فصل.
-2. حدد الشريحة التي تحتوي على إطار الصورة الذي تريد تعديله.
-3. قم بالوصول إلى شكل إطار الصورة من خلال تكرار الأشكال الموجودة على الشريحة.
-4.  قم بتطبيق إزاحة التمدد على اليسار باستخدام`PictureFrame` فصل.
-
-## رمز المثال
-
+قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+- Aspose.Slides for .NET: تأكد من تثبيت المكتبة. إذا لم يكن الأمر كذلك، قم بتنزيله من[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+- بيئة التطوير: تمتع ببيئة تطوير عمل بقدرات .NET.
+## استيراد مساحات الأسماء
+ابدأ باستيراد مساحات الأسماء الضرورية في مشروع .NET الخاص بك:
 ```csharp
+using System.IO;
 using Aspose.Slides;
-using Aspose.Slides.ShapeManagers;
-
-namespace PictureFrameStretchOffsetExample
+using System.Drawing;
+using Aspose.Slides.Export;
+```
+## الخطوة 1: قم بإعداد مشروعك
+إنشاء مشروع جديد أو فتح مشروع موجود. تأكد من أن لديك مكتبة Aspose.Slides المشار إليها في مشروعك.
+## الخطوة 2: إنشاء كائن العرض التقديمي
+ إنشاء مثيل`Presentation` فئة تمثل ملف PPTX:
+```csharp
+using (Presentation pres = new Presentation())
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // قم بتحميل العرض التقديمي
-            using (Presentation presentation = new Presentation("sample.pptx"))
-            {
-                // احصل على الشريحة الأولى
-                ISlide slide = presentation.Slides[0];
-
-                // كرر من خلال الأشكال الموجودة على الشريحة
-                foreach (IShape shape in slide.Shapes)
-                {
-                    if (shape is IPictureFrame)
-                    {
-                        IPictureFrame pictureFrame = (IPictureFrame)shape;
-
-                        // تطبيق إزاحة تمتد إلى اليسار
-                        pictureFrame.PictureFormat.StretchOffsetX = -10;
-                    }
-                }
-
-                // احفظ العرض التقديمي المعدل
-                presentation.Save("output.pptx", SaveFormat.Pptx);
-            }
-        }
-    }
+    // سيتم وضع الرمز الخاص بك للخطوات اللاحقة هنا.
 }
 ```
-
-في هذا المثال، نقوم بتحميل عرض تقديمي، ونكرر الأشكال الموجودة في الشريحة الأولى، وإذا عثرنا على شكل إطار صورة، فإننا نطبق إزاحة تمدد قدرها -10 إلى اليسار.
-
-## اختبار التطبيق
-
-لاختبار التطبيق، اتبع الخطوات التالية:
-
-1. تأكد من أن لديك نموذجًا لعرض PowerPoint التقديمي (`sample.pptx`) مع إطار صورة واحد على الأقل.
-2. قم بتشغيل التطبيق.
-3.  سيتم حفظ العرض التقديمي المعدل مع إزاحة التمدد المضافة باسم`output.pptx`.
-
+## الخطوة 3: احصل على الشريحة الأولى
+استرجاع الشريحة الأولى من العرض التقديمي:
+```csharp
+ISlide slide = pres.Slides[0];
+```
+## الخطوة 4: إنشاء مثيل للصورة
+قم بتحميل الصورة التي تريد استخدامها:
+```csharp
+System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgEx = pres.Images.AddImage(img);
+```
+## الخطوة 5: إضافة الشكل التلقائي للمستطيل
+إنشاء شكل تلقائي لنوع المستطيل:
+```csharp
+IAutoShape aShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
+```
+## الخطوة 6: تعيين نوع التعبئة ووضع تعبئة الصورة
+تكوين نوع تعبئة الشكل ووضع تعبئة الصورة:
+```csharp
+aShape.FillFormat.FillType = FillType.Picture;
+aShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
+```
+## الخطوة 7: ضبط الصورة لملء الشكل
+تحديد الصورة لملء الشكل:
+```csharp
+aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
+```
+## الخطوة 8: تحديد إزاحات التمدد
+حدد إزاحات الصورة من الحواف المقابلة للمربع المحيط بالشكل:
+```csharp
+aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
+aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;
+aShape.FillFormat.PictureFillFormat.StretchOffsetTop = -20;
+aShape.FillFormat.PictureFillFormat.StretchOffsetBottom = -10;
+```
+## الخطوة 9: احفظ العرض التقديمي
+اكتب ملف PPTX على القرص:
+```csharp
+pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx);
+```
+تهانينا! لقد نجحت في إضافة إزاحة امتداد إلى اليسار لإطار صورة باستخدام Aspose.Slides لـ .NET.
 ## خاتمة
-
-في هذا البرنامج التعليمي، تعلمت كيفية إضافة إزاحة امتداد إلى اليسار لإطار صورة في Aspose.Slides باستخدام .NET. يوفر Aspose.Slides for .NET مجموعة قوية من الأدوات لمعالجة عروض PowerPoint التقديمية برمجيًا، مما يتيح للمطورين إنشاء عروض شرائح ديناميكية ومخصصة بسلاسة.
-
-## الأسئلة الشائعة
-
-### كيف يمكنني تثبيت Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل Aspose.Slides for .NET من موقع الويب[هنا](https://releases.aspose.com/slides/net/).
-
-### هل يمكنني استخدام Aspose.Slides لمهام معالجة PowerPoint الأخرى؟
-
-قطعاً! يوفر Aspose.Slides for .NET مجموعة واسعة من الميزات، بما في ذلك إنشاء عروض PowerPoint التقديمية وتحريرها وتحويلها. يمكنك استكشاف وثائقها لمزيد من التفاصيل والأمثلة.
-
-### هل Aspose.Slides متوافق مع تنسيقات PowerPoint المختلفة؟
-
-نعم، يدعم Aspose.Slides تنسيقات PowerPoint المتنوعة، بما في ذلك PPTX وPPT وPOTX والمزيد. كما أنه يدعم التحويل بين الصيغ المختلفة.
-
-### كيف يمكنني تخصيص خصائص أخرى للأشكال في العرض التقديمي؟
-
-يمكنك الوصول إلى خصائص الأشكال المختلفة وتعديلها، بما في ذلك النص والموضع والحجم والتنسيق والمزيد، باستخدام مكتبة Aspose.Slides. تحقق من الوثائق للحصول على معلومات وأمثلة شاملة.
-
-### هل يمكنني استخدام Aspose.Slides مع لغات البرمجة الأخرى؟
-
-نعم، يوفر Aspose.Slides مكتبات لمختلف لغات البرمجة، بما في ذلك Java وPython والمزيد. يمكنك اختيار الخيار الذي يناسب بيئة التطوير الخاصة بك.
+في هذا البرنامج التعليمي، استكشفنا عملية التعامل مع إطارات الصور في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. باتباع الدليل الموضح خطوة بخطوة، اكتسبت رؤى حول العمل مع الصور والأشكال والإزاحات.
+## أسئلة مكررة
+### س: هل يمكنني تطبيق إزاحات التمدد على أشكال أخرى إلى جانب المستطيلات؟
+ج: بينما يركز هذا البرنامج التعليمي على المستطيلات، يمكن تطبيق إزاحات التمدد على الأشكال المختلفة التي يدعمها Aspose.Slides.
+### س: كيف يمكنني ضبط إزاحات التمدد للحصول على تأثيرات مختلفة؟
+ج: قم بتجربة قيم الإزاحة المختلفة لتحقيق التأثير البصري المطلوب. قم بضبط القيم لتناسب متطلباتك المحددة.
+### س: هل Aspose.Slides متوافق مع أحدث إطار عمل .NET؟
+ج: يتم تحديث Aspose.Slides بانتظام لضمان التوافق مع أحدث إصدارات إطار عمل .NET.
+### س: أين يمكنني العثور على أمثلة وموارد إضافية لـ Aspose.Slides؟
+ ج: اكتشف[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net/) للحصول على أمثلة وإرشادات شاملة.
+### س: هل يمكنني تطبيق إزاحات امتداد متعددة على شكل واحد؟
+ج: نعم، يمكنك الجمع بين إزاحات امتداد متعددة لتحقيق تأثيرات بصرية معقدة ومخصصة.

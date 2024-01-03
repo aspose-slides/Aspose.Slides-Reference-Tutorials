@@ -1,94 +1,76 @@
 ---
-title: Création de formes esquissées dans des diapositives de présentation avec Aspose.Slides
+title: Créez de superbes formes esquissées avec Aspose.Slides
 linktitle: Création de formes esquissées dans des diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Apprenez à créer des diapositives de présentation captivantes avec des formes esquissées à l'aide d'Aspose.Slides pour .NET. Suivez ce guide étape par étape avec le code source complet pour ajouter des éléments personnalisés et créatifs à vos diapositives.
+description: Découvrez comment ajouter des formes esquissées créatives à vos diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Améliorez l’attrait visuel sans effort !
 type: docs
 weight: 13
 url: /fr/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-## Introduction à la création de formes esquissées dans les diapositives de présentation
-
-Les diapositives de présentation sont un outil puissant pour transmettre des informations visuellement. Parfois, vous souhaiterez peut-être ajouter une touche personnelle à vos diapositives en incorporant des formes esquissées, ce qui peut rendre vos présentations plus attrayantes et créatives. Dans ce guide étape par étape, nous explorerons comment y parvenir à l'aide de la bibliothèque Aspose.Slides pour .NET. À la fin de ce didacticiel, vous serez en mesure de créer des diapositives de présentation avec des formes esquissées qui se démarquent. Allons-y !
-
-## Mise en place du projet
-
- Avant de commencer, assurez-vous que l'environnement de développement .NET est configuré sur votre ordinateur. Vous pouvez télécharger la dernière version d’Aspose.Slides depuis le site Web[ici](https://releases.aspose.com/slides/net/). Une fois téléchargée, installez la bibliothèque dans votre projet.
-
-## Créer une nouvelle présentation
-
-Commençons par créer une nouvelle présentation à l'aide d'Aspose.Slides. Voici comment procéder :
-
+## Introduction
+Bienvenue dans notre guide étape par étape sur la création de formes esquissées dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Si vous souhaitez ajouter une touche de créativité à vos présentations, les formes esquissées offrent une esthétique unique et dessinée à la main. Dans ce didacticiel, nous vous guiderons tout au long du processus, en le décomposant en étapes simples pour garantir une expérience fluide.
+## Conditions préalables
+Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+-  Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides pour .NET est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/slides/net/).
+- Environnement de développement : configurez un environnement de développement .NET avec votre IDE préféré.
+## Importer des espaces de noms
+Commencez par importer les espaces de noms nécessaires dans votre projet .NET. Cette étape garantit que vous avez accès aux classes et fonctionnalités requises pour travailler avec Aspose.Slides.
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Aspose.Slides;
-
-// Créer une nouvelle présentation
-Presentation presentation = new Presentation();
+using Aspose.Slides.Examples.CSharp;
+using Aspose.Slides.Util;
+using Aspose.Slides.Export;
+using Aspose.Slides.MathText;
 ```
-
-## Ajout de formes esquissées
-
-Pour ajouter des formes esquissées à vos diapositives, vous pouvez utiliser des formes libres disponibles dans Aspose.Slides. Ces formes peuvent être personnalisées pour ressembler à des croquis dessinés à la main. Voici un exemple de comment ajouter un rectangle esquissé à une diapositive :
-
+## Étape 1 : configurer le projet
+Commencez par créer un nouveau projet .NET ou en ouvrez un existant. Assurez-vous d'inclure Aspose.Slides dans les références de votre projet.
+## Étape 2 : initialiser Aspose.Slides
+Initialisez Aspose.Slides en ajoutant l’extrait de code suivant. Cela configure la présentation et spécifie les chemins de sortie pour le fichier de présentation et l'image miniature.
 ```csharp
-// Accédez à la première diapositive
-ISlide slide = presentation.Slides[0];
-
-// Définir les points du rectangle esquissé
-PointF[] points = new PointF[]
+string dataDir = "Your Document Directory";
+string outPptxFile = Path.Combine(dataDir, "SketchedShapes_out.pptx");
+string outPngFile = Path.Combine(dataDir, "SketchedShapes_out.png");
+using (Presentation pres = new Presentation())
 {
-    new PointF(100, 100),
-    new PointF(200, 100),
-    new PointF(200, 200),
-    new PointF(100, 200)
-};
-
-// Ajouter une forme libre à la diapositive
-IFreeformShape freeformShape = slide.Shapes.AddFreeform(ShapeType.Rectangle, points);
-
-// Personnaliser l'apparence de la forme esquissée
-freeformShape.LineFormat.Style = LineStyle.Single;
-freeformShape.LineFormat.Width = 2;
-freeformShape.FillFormat.FillType = FillType.Solid;
-freeformShape.FillFormat.SolidFillColor.Color = Color.LightGray;
+    // Passez aux étapes suivantes...
+}
 ```
-
-## Personnalisation des formes esquissées
-
-Vous pouvez personnaliser davantage les formes esquissées en ajustant leurs couleurs, leurs styles de ligne et d'autres propriétés. Expérimentez avec différents réglages pour obtenir l'effet dessiné à la main souhaité.
-
-## Enregistrement et exportation de la présentation
-
-Une fois que vous avez ajouté des formes esquissées à votre présentation, vous pouvez l'enregistrer et l'exporter vers différents formats, tels que PPTX ou PDF. Voici comment procéder :
-
+## Étape 3 : ajouter une forme esquissée
+Maintenant, ajoutons une forme esquissée à la diapositive. Dans cet exemple, nous ajouterons un rectangle avec un effet d'esquisse à main levée.
 ```csharp
-// Enregistrer la présentation dans un fichier
-presentation.Save("SketchedShapesPresentation.pptx", SaveFormat.Pptx);
+IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 20, 20, 300, 150);
+shape.FillFormat.FillType = FillType.NoFill;
+// Transformer la forme en esquisse d'un style à main levée
+shape.LineFormat.SketchFormat.SketchType = LineSketchType.Scribble;
 ```
-
+## Étape 4 : générer une vignette
+Générez une vignette de la diapositive pour visualiser la forme esquissée. Enregistrez la vignette sous forme de fichier PNG.
+```csharp
+pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
+```
+## Étape 5 : Enregistrer la présentation
+Enregistrez le fichier de présentation avec la forme esquissée.
+```csharp
+pres.Save(outPptxFile, SaveFormat.Pptx);
+```
+C'est ça! Vous avez créé avec succès une présentation avec des formes esquissées à l'aide d'Aspose.Slides pour .NET.
 ## Conclusion
-
-Dans ce didacticiel, nous avons expliqué comment créer des diapositives de présentation avec des formes esquissées à l'aide d'Aspose.Slides pour .NET. En ajoutant des formes esquissées à vos diapositives, vous pouvez ajouter une touche créative et personnalisée à vos présentations, les rendant plus attrayantes pour votre public. N'hésitez pas à expérimenter différentes formes et options de personnalisation pour créer des diapositives visuellement attrayantes qui laissent un impact durable.
-
+L'ajout de formes esquissées à vos diapositives de présentation peut améliorer l'attrait visuel et engager votre public. Avec Aspose.Slides pour .NET, le processus devient simple, vous permettant de libérer votre créativité sans effort.
 ## FAQ
-
-### Comment puis-je télécharger Aspose.Slides pour .NET ?
-
- Vous pouvez télécharger la dernière version d'Aspose.Slides pour .NET à partir de leur page de versions[ici](https://releases.aspose.com/slides/net/).
-
-### Puis-je personnaliser l’apparence des formes esquissées ?
-
-Oui, vous pouvez personnaliser l'apparence des formes esquissées en ajustant leurs couleurs, leurs styles de ligne et d'autres propriétés à l'aide d'Aspose.Slides.
-
-### Aspose.Slides convient-il aussi bien aux développeurs débutants qu’expérimentés ?
-
-Oui, Aspose.Slides fournit une API conviviale qui convient aussi bien aux développeurs débutants qu'expérimentés. Il propose une documentation complète pour vous aider à démarrer.
-
-### Puis-je exporter ma présentation avec des formes esquissées au format PDF ?
-
-Absolument! Vous pouvez exporter votre présentation avec des formes esquissées vers différents formats, y compris PDF, à l'aide des options d'exportation fournies par Aspose.Slides.
-
-### Comment puis-je ajouter d’autres types de formes esquissées, telles que des cercles ou des lignes ?
-
- Vous pouvez ajouter d'autres types de formes esquissées, telles que des cercles ou des lignes, en modifiant les points et le type de forme dans la fenêtre`AddFreeform` méthode. Expérimentez avec différentes configurations de points pour créer les formes souhaitées.
+### 1. Puis-je personnaliser l’effet esquissé ?
+Oui, Aspose.Slides pour .NET propose diverses options de personnalisation pour les effets d'esquisse. Se référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations détaillées.
+### 2. Existe-t-il un essai gratuit disponible ?
+ Certainement! Vous pouvez explorer un essai gratuit d'Aspose.Slides pour .NET[ici](https://releases.aspose.com/).
+### 3. Où puis-je obtenir de l'aide ?
+ Pour toute assistance ou question, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### 4. Comment puis-je acheter Aspose.Slides pour .NET ?
+ Pour acheter Aspose.Slides pour .NET, visitez le[page d'achat](https://purchase.aspose.com/buy).
+### 5. Proposez-vous des licences temporaires ?
+ Oui, des licences temporaires sont disponibles[ici](https://purchase.aspose.com/temporary-license/).

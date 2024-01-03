@@ -22,7 +22,7 @@ Bevor wir mit Aspose.Slides für .NET arbeiten, müssen Sie sicherstellen, dass 
 
 Nachdem wir nun die Voraussetzungen abgedeckt haben, wollen wir den Prozess des Hinzufügens von Trendlinien zu einem Diagramm Schritt für Schritt aufschlüsseln.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Stellen Sie zunächst sicher, dass Sie die erforderlichen Namespaces in Ihr C#-Projekt importieren. Diese Namespaces sind für die Arbeit mit Aspose.Slides für .NET unerlässlich.
 

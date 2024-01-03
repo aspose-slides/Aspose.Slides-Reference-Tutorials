@@ -179,7 +179,7 @@ Dans cette étape, vous pouvez définir un titre pour l'axe des valeurs.
 
 ## Étape 11 : Personnaliser les principales lignes de grille pour l'axe des catégories
 
-Concentrons-nous maintenant sur les principales lignes de grille de l’axe des catégories.
+Concentrons-nous maintenant sur les principales lignes de la grille de l'axe des catégories.
 
 ```csharp
 // Définition du format des lignes de quadrillage principales pour l'axe des catégories

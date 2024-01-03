@@ -1,132 +1,100 @@
 ---
-title: Création de formes de groupe dans des diapositives de présentation avec Aspose.Slides
+title: Aspose.Slides - Création de formes de groupe dans .NET
 linktitle: Création de formes de groupe dans des diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Apprenez à créer des diapositives de présentation captivantes avec des formes de groupe à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape et notre exemple de code source pour ajouter, regrouper et transformer facilement des formes, améliorant ainsi vos présentations.
+description: Découvrez comment créer des formes de groupe dans PowerPoint avec Aspose.Slides pour .NET. Suivez notre guide étape par étape pour des présentations visuellement attrayantes.
 type: docs
 weight: 11
 url: /fr/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
-
-## Introduction à Aspose.Slides pour .NET
-
-Aspose.Slides for .NET est une bibliothèque complète et riche en fonctionnalités qui permet aux développeurs de manipuler des présentations PowerPoint par programme. Que vous souhaitiez créer, modifier ou convertir des fichiers de présentation, Aspose.Slides fournit une large gamme d'outils et de fonctionnalités pour simplifier le processus.
-
+## Introduction
+Si vous souhaitez améliorer l'attrait visuel de vos diapositives de présentation et organiser le contenu plus efficacement, l'incorporation de formes de groupe est une solution puissante. Aspose.Slides pour .NET offre un moyen transparent de créer et de manipuler des formes de groupe dans vos présentations PowerPoint. Dans ce didacticiel, nous passerons en revue le processus de création de formes de groupe à l'aide d'Aspose.Slides, en le décomposant en étapes faciles à suivre.
 ## Conditions préalables
-
-Avant de commencer à travailler avec Aspose.Slides pour .NET, assurez-vous que les conditions préalables suivantes sont remplies :
-
-- Visual Studio : installez Visual Studio sur votre ordinateur.
--  Bibliothèque Aspose.Slides : téléchargez et référencez la bibliothèque Aspose.Slides dans votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
-
-## Ajout d'Aspose.Slides à votre projet
-
-1. Téléchargez la bibliothèque Aspose.Slides à partir du lien fourni.
-2. Créez un nouveau projet dans Visual Studio ou ouvrez-en un existant.
-3. Cliquez avec le bouton droit sur votre projet dans l'Explorateur de solutions et sélectionnez « Gérer les packages NuGet ».
-4. Choisissez l'onglet "Parcourir" et recherchez "Aspose.Slides".
-5. Installez le package Aspose.Slides dans votre projet.
-
-## Créer une nouvelle présentation
-
-Commençons par créer une nouvelle présentation PowerPoint à l'aide d'Aspose.Slides :
-
+Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants :
+-  Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est installée. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/slides/net/).
+- Environnement de développement : configurez un environnement de travail avec un IDE compatible .NET, tel que Visual Studio.
+- Connaissance de base de C# : Familiarisez-vous avec les bases du langage de programmation C#.
+## Importer des espaces de noms
+Dans votre projet C#, commencez par importer les espaces de noms nécessaires :
 ```csharp
+using Aspose.Slides.Export;
 using Aspose.Slides;
-
-// Créer une nouvelle présentation
-Presentation presentation = new Presentation();
 ```
+## Étape 1 : Instancier un cours de présentation
 
-## Ajout de formes à la diapositive
-
-Ensuite, ajoutons quelques formes à la diapositive. Dans cet exemple, nous ajouterons deux rectangles :
+ Créez une instance du`Presentation` class et précisez le répertoire où sont stockés vos documents :
 
 ```csharp
-// Accédez à la première diapositive
-ISlide slide = presentation.Slides[0];
-
-// Ajouter des rectangles à la diapositive
-IShape shape1 = slide.Shapes.AddRectangle(100, 100, 200, 100);
-IShape shape2 = slide.Shapes.AddRectangle(300, 100, 150, 150);
-```
-
-## Regrouper des formes ensemble
-
-Maintenant, regroupons les formes pour les gérer collectivement :
-
-```csharp
-// Formes de groupe
-IGroupShape groupShape = slide.Shapes.GroupShapes(new IShape[] { shape1, shape2 });
-```
-
-## Application de transformations à des formes groupées
-
-Vous pouvez appliquer diverses transformations aux formes groupées. Par exemple, faisons pivoter les formes groupées de 45 degrés :
-
-```csharp
-// Faites pivoter le groupe de 45 degrés
-groupShape.Rotation = 45;
-```
-
-## Exemple de code source
-
-Voici l'exemple de code source complet de création de formes de groupe à l'aide d'Aspose.Slides :
-
-```csharp
-using Aspose.Slides;
-
-namespace GroupShapesExample
+string dataDir = "Your Documents Directory";
+using (Presentation pres = new Presentation())
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Créer une nouvelle présentation
-            Presentation presentation = new Presentation();
-
-            // Accédez à la première diapositive
-            ISlide slide = presentation.Slides[0];
-
-            // Ajouter des rectangles à la diapositive
-            IShape shape1 = slide.Shapes.AddRectangle(100, 100, 200, 100);
-            IShape shape2 = slide.Shapes.AddRectangle(300, 100, 150, 150);
-
-            // Formes de groupe
-            IGroupShape groupShape = slide.Shapes.GroupShapes(new IShape[] { shape1, shape2 });
-
-            // Faites pivoter le groupe de 45 degrés
-            groupShape.Rotation = 45;
-
-            // Enregistrez la présentation
-            presentation.Save("GroupShapesExample.pptx", SaveFormat.Pptx);
-        }
-    }
+    // Continuez avec les étapes suivantes dans ce bloc using
 }
 ```
 
+## Étape 2 : accéder à la première diapositive
+
+Récupérez la première diapositive de la présentation :
+
+```csharp
+ISlide sld = pres.Slides[0];
+```
+
+## Étape 3 : Accéder à la collection de formes
+
+Accédez à la collection de formes sur la diapositive :
+
+```csharp
+IShapeCollection slideShapes = sld.Shapes;
+```
+
+## Étape 4 : Ajout d'une forme de groupe
+
+Ajoutez une forme de groupe à la diapositive :
+
+```csharp
+IGroupShape groupShape = slideShapes.AddGroupShape();
+```
+
+## Étape 5 : Ajout de formes à l'intérieur de la forme de groupe
+
+Remplissez la forme de groupe avec des formes individuelles :
+
+```csharp
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
+```
+
+## Étape 6 : Ajout d'un cadre de forme de groupe
+
+Définissez le cadre pour l'ensemble de la forme du groupe :
+
+```csharp
+groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
+```
+
+## Étape 7 : Enregistrez la présentation
+
+Enregistrez la présentation modifiée dans votre répertoire spécifié :
+
+```csharp
+pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
+```
+
+Répétez ces étapes dans votre application C# pour réussir à créer des formes de groupe dans vos diapositives de présentation à l'aide d'Aspose.Slides.
+
 ## Conclusion
-
-Dans ce didacticiel, vous avez appris à créer des formes de groupe dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET. La bibliothèque offre un moyen simple d'ajouter des formes, de les regrouper et d'appliquer des transformations pour améliorer dynamiquement vos présentations.
-
-## FAQ
-
-### Comment installer Aspose.Slides pour .NET ?
-
-Vous pouvez télécharger la bibliothèque Aspose.Slides à partir du lien fourni :[ici](https://releases.aspose.com/slides/net/). Une fois téléchargé, vous pouvez l'ajouter à votre projet à l'aide des packages NuGet.
-
-### Puis-je appliquer différentes transformations à des formes groupées ?
-
-Oui, vous pouvez appliquer diverses transformations telles que la rotation, la mise à l'échelle et le positionnement aux formes groupées, vous permettant ainsi de personnaliser l'apparence visuelle de vos diapositives.
-
-### Aspose.Slides convient-il à la fois à la création et à la modification de présentations ?
-
-Absolument! Aspose.Slides pour .NET est une bibliothèque polyvalente qui prend en charge la création, la modification et la conversion de fichiers de présentation. Il offre un large éventail de fonctionnalités pour répondre à différents besoins.
-
-### Puis-je regrouper des formes de différents types ?
-
- Oui, vous pouvez regrouper des formes de différents types, telles que des rectangles, des cercles et des zones de texte, à l'aide de l'option`GroupShapes` méthode. Cela vous permet de les gérer et de les manipuler collectivement.
-
-### Aspose.Slides convient-il uniquement aux applications .NET ?
-
-Oui, Aspose.Slides est spécialement conçu pour les applications .NET. Cependant, il existe également des versions disponibles pour d'autres langages de programmation, tels que Java.
+Dans ce didacticiel, nous avons exploré le processus de création de formes de groupe avec Aspose.Slides pour .NET. En suivant ces étapes, vous pouvez améliorer l'attrait visuel et l'organisation de vos présentations PowerPoint.
+## Questions fréquemment posées
+### Aspose.Slides est-il compatible avec la dernière version de .NET ?
+ Oui, Aspose.Slides est régulièrement mis à jour pour prendre en charge les dernières versions de .NET. Vérifier la[Documentation](https://reference.aspose.com/slides/net/) pour les détails de compatibilité.
+### Puis-je essayer Aspose.Slides avant d’acheter ?
+ Absolument! Vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
+### Où puis-je trouver de l'aide pour les requêtes liées à Aspose.Slides ?
+ Visitez Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) pour le soutien et les discussions de la communauté.
+### Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
+ Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+### Où puis-je acheter une licence complète pour Aspose.Slides ?
+ Vous pouvez acheter une licence auprès du[page d'achat](https://purchase.aspose.com/buy).

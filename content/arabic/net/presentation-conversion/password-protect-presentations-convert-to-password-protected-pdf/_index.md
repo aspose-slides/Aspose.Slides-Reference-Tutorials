@@ -76,4 +76,4 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 
 ### أين يمكنني الوصول إلى وثائق Aspose.Slides for .NET API؟
 
-يمكنك الوصول إلى وثائق Aspose.Slides for .NET على[هنا](https://reference.aspose.com/slides/net/).
+ يمكنك الوصول إلى وثائق Aspose.Slides for .NET على[هنا](https://reference.aspose.com/slides/net/).

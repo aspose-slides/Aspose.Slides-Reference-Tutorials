@@ -51,7 +51,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ## Spiegazione del codice sorgente
 
--  Noi usiamo il`Slides` raccolta del`Presentation` oggetto per accedere alle diapositive.
+- Noi usiamo il`Slides` raccolta del`Presentation` oggetto per accedere alle diapositive.
 - L'indice della diapositiva nella raccolta è in base 0, quindi la prima diapositiva ha un indice pari a 0, la seconda diapositiva ha un indice pari a 1 e così via.
 - Specifichiamo l'indice della diapositiva desiderata per recuperare l'oggetto diapositiva corrispondente.
 

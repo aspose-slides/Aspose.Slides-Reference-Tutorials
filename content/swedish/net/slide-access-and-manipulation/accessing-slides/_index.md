@@ -41,7 +41,7 @@ using var presentation = new Presentation("path/to/your/presentation.pptx");
 
 ## Få åtkomst till bilder
 
- När du har laddat presentationen kan du komma åt dess bilder med hjälp av`Slides`samling. Så här kan du iterera genom bilderna och utföra operationer på dem:
+ När du har laddat presentationen kan du komma åt dess bilder med hjälp av`Slides` samling. Så här kan du iterera genom bilderna och utföra operationer på dem:
 
 ```csharp
 // Få åtkomst till bilder
@@ -107,7 +107,7 @@ presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 
 ## Ytterligare funktioner och resurser
 
-Aspose.Slides för .NET erbjuder ett brett utbud av funktioner utöver vad vi har behandlat i den här guiden. För mer avancerade funktioner, som att lägga till diagram, bilder, animationer och övergångar, kan du se[dokumentation](https://reference.aspose.com/slides/net/).
+ Aspose.Slides för .NET erbjuder ett brett utbud av funktioner utöver vad vi har behandlat i den här guiden. För mer avancerade funktioner, som att lägga till diagram, bilder, animationer och övergångar, kan du se[dokumentation](https://reference.aspose.com/slides/net/).
 
 ## Slutsats
 

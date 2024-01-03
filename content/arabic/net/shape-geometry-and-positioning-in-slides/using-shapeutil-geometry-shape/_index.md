@@ -1,166 +1,90 @@
 ---
-title: استخدام ShapeUtil للأشكال الهندسية في شرائح العرض التقديمي
+title: إتقان الأشكال الهندسية باستخدام ShapeUtil - Aspose.Slides .NET
 linktitle: استخدام ShapeUtil للأشكال الهندسية في شرائح العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام Aspose.Slides. استكشف ShapeUtil لمعالجة الأشكال الهندسية. دليل خطوة بخطوة مع كود مصدر .NET. تحسين العروض التقديمية بشكل فعال.
+description: اكتشف قوة Aspose.Slides لـ .NET باستخدام ShapeUtil للأشكال الهندسية الديناميكية. قم بإنشاء عروض تقديمية جذابة دون عناء. قم بالتنزيل الآن! تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام Aspose.Slides. استكشف ShapeUtil لمعالجة الأشكال الهندسية. دليل خطوة بخطوة مع كود مصدر .NET. تحسين العروض التقديمية بشكل فعال.
 type: docs
 weight: 17
 url: /ar/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-عندما يتعلق الأمر بإنشاء عروض تقديمية جذابة وغنية بالمعلومات، فإن Aspose.Slides هي أداة قوية توفر للمطورين القدرة على التعامل مع الجوانب المختلفة للعروض التقديمية برمجيًا. أحد الجوانب الأساسية للعروض التقديمية هو استخدام الأشكال، التي تلعب دورًا حاسمًا في نقل المعلومات بشكل فعال. في هذا البرنامج التعليمي، سوف نتعمق في استخدام ShapeUtil للتعامل مع الأشكال الهندسية في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. بحلول نهاية هذا الدليل، سيكون لديك فهم قوي لكيفية التعامل مع الأشكال الهندسية وتحسين العروض التقديمية الخاصة بك بسهولة.
-
-## مقدمة إلى Aspose.Slides وShapeUtil
-
-Aspose.Slides هي مكتبة .NET قوية تمكن المطورين من إنشاء عروض PowerPoint التقديمية وتحريرها ومعالجتها برمجيًا. يعد ShapeUtil جزءًا من مكتبة Aspose.Slides التي توفر مجموعة من الأدوات المساعدة للعمل بشكل خاص مع الأشكال داخل العروض التقديمية.
-
-## تهيئة بيئة التطوير
-
-قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides في مشروع .NET الخاص بك. يمكنك استخدام NuGet لإضافة المكتبة إلى مشروعك بسهولة.
-
+## مقدمة
+يعد إنشاء شرائح عرض تقديمي ديناميكية وجذابة بصريًا مهارة أساسية، ويوفر Aspose.Slides for .NET مجموعة أدوات قوية لتحقيق ذلك. في هذا البرنامج التعليمي، سوف نستكشف استخدام ShapeUtil للتعامل مع الأشكال الهندسية في شرائح العرض التقديمي. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Aspose.Slides، سيرشدك هذا الدليل خلال عملية استخدام ShapeUtil لتحسين عروضك التقديمية.
+## المتطلبات الأساسية
+قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+- الفهم الأساسي لبرمجة C# و.NET.
+-  تم تثبيت Aspose.Slides لمكتبة .NET. إذا لم يكن الأمر كذلك، يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
+- بيئة تطوير تم إعدادها لتشغيل تطبيقات .NET.
+## استيراد مساحات الأسماء
+في كود C# الخاص بك، تأكد من استيراد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.Slides. أضف ما يلي في بداية البرنامج النصي الخاص بك:
 ```csharp
-// قم بتثبيت Aspose.Slides عبر NuGet
-Install-Package Aspose.Slides
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.IO;
+using Aspose.Slides.Export;
+using Aspose.Slides.Util;
 ```
-
-## إنشاء عرض تقديمي جديد
-
-لنبدأ بإنشاء عرض تقديمي جديد وإضافة شرائح إليه.
-
+الآن، دعنا نقسم المثال المقدم إلى خطوات متعددة لإنشاء دليل خطوة بخطوة لاستخدام ShapeUtil للأشكال الهندسية في شرائح العرض التقديمي.
+## الخطوة 1: قم بإعداد دليل المستندات الخاص بك
 ```csharp
-// إنشاء عرض تقديمي جديد
-Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddEmptySlide();
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
 ```
-
-## إضافة أشكال هندسية إلى الشرائح
-
-لإضافة أشكال هندسية إلى الشرائح، يمكنك استخدام فئة ShapeUtil.
-
+تأكد من استبدال "دليل المستندات الخاص بك" بالمسار الفعلي الذي تريد حفظ العرض التقديمي فيه.
+## الخطوة 2: تحديد اسم ملف الإخراج
 ```csharp
-// أضف شكل مستطيل إلى الشريحة
-IShape rectangle = ShapeUtil.AddRectangle(slide, 100, 100, 200, 150);
+string resultPath = Path.Combine(dataDir, "GeometryShapeUsingShapeUtil.pptx");
 ```
-
-## تعديل خصائص الأشكال الهندسية
-
-يمكنك تعديل خصائص مختلفة للأشكال الهندسية، مثل الموضع والحجم والتدوير.
-
+حدد اسم ملف الإخراج المطلوب، بما في ذلك امتداد الملف.
+## الخطوة 3: إنشاء عرض تقديمي
 ```csharp
-// تعديل موضع المستطيل
-rectangle.X = 300;
-rectangle.Y = 200;
-
-// تغيير حجم المستطيل
-rectangle.Width = 250;
-rectangle.Height = 100;
-
-// تدوير المستطيل
-rectangle.Rotation = 45;
+using (Presentation pres = new Presentation())
 ```
-
-## ترتيب ومحاذاة الأشكال الهندسية
-
-يوفر ShapeUtil أيضًا طرقًا لترتيب الأشكال ومحاذاتها على الشرائح.
-
+قم بتهيئة كائن عرض تقديمي جديد باستخدام مكتبة Aspose.Slides.
+## الخطوة 4: إضافة شكل هندسي
 ```csharp
-// ترتيب الأشكال أفقيا
-ShapeUtil.ArrangeHorizontally(slide.Shapes);
-
-// محاذاة الأشكال إلى المركز
-ShapeUtil.AlignToCenter(slide.Shapes);
+GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 100);
 ```
-
-## تجميع وفك تجميع الأشكال
-
-يمكنك تجميع أشكال متعددة معًا باستخدام ShapeUtil.
-
+أضف شكلاً مستطيلاً إلى الشريحة الأولى من العرض التقديمي.
+## الخطوة 5: احصل على المسار الهندسي الأصلي
 ```csharp
-// أشكال المجموعة
-IShape[] shapesToGroup = new IShape[] { shape1, shape2, shape3 };
-IShape groupedShape = ShapeUtil.GroupShapes(slide, shapesToGroup);
-
-// فك تجميع الأشكال
-ShapeUtil.UngroupShape(slide, groupedShape);
+IGeometryPath originalPath = shape.GetGeometryPaths()[0];
+originalPath.FillMode = PathFillModeType.None;
 ```
-
-## تطبيق التنسيق على الأشكال الهندسية
-
-يتيح لك ShapeUtil تطبيق التنسيق على الأشكال، بما في ذلك أنماط التعبئة والخطوط.
-
+استرجع المسار الهندسي للشكل واضبط وضع التعبئة.
+## الخطوة 6: إنشاء مسار رسومات مع النص
 ```csharp
-//تطبيق لون التعبئة
-ShapeUtil.ApplyFillColor(shape, Color.Blue);
-
-// تطبيق لون الخط والأسلوب
-ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
+GraphicsPath graphicsPath = new GraphicsPath();
+graphicsPath.AddString("Text in shape", new FontFamily("Arial"), 1, 40, new PointF(10, 10), StringFormat.GenericDefault);
 ```
-
-## إضافة نص إلى الأشكال الهندسية
-
-يمكنك إضافة نص إلى الأشكال الهندسية باستخدام ShapeUtil أيضًا.
-
+قم بإنشاء مسار رسومات يحتوي على نص لإضافته إلى الشكل.
+## الخطوة 7: تحويل مسار الرسومات إلى مسار هندسي
 ```csharp
-// إضافة نص إلى الشكل
-ShapeUtil.AddTextToShape(shape, "Hello, Aspose.Slides!", new Font("Arial", 12), Color.Black);
+IGeometryPath textPath = ShapeUtil.GraphicsPathToGeometryPath(graphicsPath);
+textPath.FillMode = PathFillModeType.Normal;
 ```
-
-## العمل مع الارتباطات التشعبية في الأشكال
-
-يمكّنك ShapeUtil من إضافة ارتباطات تشعبية إلى الأشكال.
-
+استخدم ShapeUtil لتحويل مسار الرسومات إلى مسار هندسي وتعيين وضع التعبئة.
+## الخطوة 8: قم بتعيين المسارات الهندسية المدمجة للشكل
 ```csharp
-// إضافة ارتباط تشعبي إلى الشكل
-string url = "https://www.example.com";
-ShapeUtil.AddHyperlinkToShape(shape, url);
+shape.SetGeometryPaths(new[] { originalPath, textPath });
 ```
-
-## إدارة الترتيب Z للأشكال
-
-يوفر ShapeUtil طرقًا لإدارة الترتيب z للأشكال.
-
+قم بدمج المسار الهندسي الجديد مع المسار الأصلي وقم بتعيينه على الشكل.
+## الخطوة 9: احفظ العرض التقديمي
 ```csharp
-// جلب الشكل إلى الأمام
-ShapeUtil.BringToFront(shape);
-
-// إرسال الشكل إلى الخلف
-ShapeUtil.SendToBack(shape);
+pres.Save(resultPath, SaveFormat.Pptx);
 ```
-
-## حفظ وتصدير العرض التقديمي
-
-بمجرد إجراء كافة التغييرات اللازمة، يمكنك حفظ العرض التقديمي وتصديره.
-
-```csharp
-// احفظ العرض التقديمي
-presentation.Save("Presentation.pptx", SaveFormat.Pptx);
-```
-
+احفظ العرض التقديمي المعدل بالشكل الهندسي الجديد.
 ## خاتمة
-
-في هذا البرنامج التعليمي، اكتشفنا إمكانيات Aspose.Slides وShapeUtil للعمل مع الأشكال الهندسية في شرائح العرض التقديمي باستخدام .NET. لقد قمنا بتغطية عملية إنشاء عرض تقديمي جديد، وإضافة أشكال هندسية، وتعديل خصائصها، وتطبيق التنسيق، وإضافة نص، وإدارة الارتباطات التشعبية، والمزيد. من خلال الاستفادة من ميزات Aspose.Slides وShapeUtil، يمكنك تحسين المظهر البصري وفعالية العروض التقديمية الخاصة بك.
-
+تهانينا! لقد نجحت في استكشاف استخدام ShapeUtil للتعامل مع الأشكال الهندسية في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. تتيح لك هذه الميزة القوية إنشاء عروض تقديمية ديناميكية وجذابة بسهولة.
 ## الأسئلة الشائعة
-
-### كيف أقوم بتثبيت Aspose.Slides عبر NuGet؟
-
-لتثبيت Aspose.Slides عبر NuGet، استخدم الأمر التالي في وحدة تحكم NuGet Package Manager:
-
-```csharp
-Install-Package Aspose.Slides
-```
-
-### هل يمكنني إضافة ارتباطات تشعبية إلى الأشكال باستخدام ShapeUtil؟
-
- نعم، يمكنك إضافة ارتباطات تشعبية إلى الأشكال باستخدام ShapeUtil. الاستفادة من`AddHyperlinkToShape` طريقة لربط ارتباط تشعبي بالشكل.
-
-### هل من الممكن تجميع الأشكال وفك تجميعها برمجياً؟
-
- قطعاً! يمكنك استخدام أساليب ShapeUtil`GroupShapes` و`UngroupShape` لتجميع الأشكال وفك تجميعها برمجياً.
-
-### كيف يمكنني تطبيق التنسيق على الأشكال الهندسية؟
-
-باستخدام ShapeUtil، يمكنك تطبيق التنسيق على الأشكال الهندسية باستخدام طرق مثل`ApplyFillColor` و`ApplyLineColor` لتعيين ألوان التعبئة وأنماط الخطوط.
-
-### ما هو الغرض من الترتيب Z في الأشكال؟
-
- يحدد الترتيب Z ترتيب تراص الأشكال على الشريحة. يمكنك استخدام أساليب ShapeUtil مثل`BringToFront` و`SendToBack` لإدارة الترتيب Z للأشكال.
+### هل يمكنني استخدام Aspose.Slides لـ .NET مع لغات البرمجة الأخرى؟
+يدعم Aspose.Slides بشكل أساسي لغات .NET. ومع ذلك، يوفر Aspose مكتبات مماثلة لمنصات ولغات أخرى.
+### أين يمكنني العثور على وثائق مفصلة عن Aspose.Slides لـ .NET؟
+ الوثائق متاحة[هنا](https://reference.aspose.com/slides/net/).
+### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ .NET؟
+ نعم، يمكنك العثور على النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+### كيف يمكنني الحصول على دعم Aspose.Slides لـ .NET؟
+ قم بزيارة منتدى دعم المجتمع[هنا](https://forum.aspose.com/c/slides/11).
+### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
+ نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

@@ -28,7 +28,7 @@ url: /ru/net/additional-chart-features/chart-recover-workbook/
 
 На этом этапе вам нужно будет импортировать необходимые пространства имен для эффективной работы с Aspose.Slides для .NET.
 
-### Шаг 1. Импортируйте пространства имен
+### Шаг 1. Импортируйте пространства имен
 
 ```csharp
 using Aspose.Slides;

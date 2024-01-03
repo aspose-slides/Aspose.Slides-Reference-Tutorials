@@ -16,13 +16,13 @@ Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfü
 
 1. Visual Studio: Sie müssen Visual Studio auf Ihrem Computer installiert haben.
 
-2.  Aspose.Slides für .NET: Laden Sie Aspose.Slides für .NET von herunter und installieren Sie es[Download-Link](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides für .NET: Laden Sie Aspose.Slides für .NET von herunter und installieren Sie es[Download-Link](https://releases.aspose.com/slides/net/).
 
 3. Ein grundlegendes Verständnis von C#: Sie sollten über Grundkenntnisse der C#-Programmierung verfügen.
 
 4. Ihr Dokumentenverzeichnis: Ersetzen Sie „Ihr Dokumentenverzeichnis“ im Code durch den tatsächlichen Pfad zu Ihrem Dokumentenverzeichnis.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Bevor Sie mit Aspose.Slides für .NET arbeiten können, müssen Sie die erforderlichen Namespaces importieren. 
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation())
 
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Sunburst, 100, 100, 450, 400);
     
-    //Der Rest des Codes wird in den folgenden Schritten hinzugefügt.
+    // Der Rest des Codes wird in den folgenden Schritten hinzugefügt.
 }
 ```
 

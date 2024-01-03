@@ -143,7 +143,7 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen har du lärt dig hur du ställer in Gap Width för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Genom att justera gapbredden kan du styra avståndet mellan kolumner eller staplar i ditt diagram, vilket förbättrar den visuella representationen av dina data.
+I den här handledningen har du lärt dig hur du ställer in Gap Width för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Genom att justera gapbredden kan du kontrollera avståndet mellan kolumner eller staplar i ditt diagram, vilket förbättrar den visuella representationen av dina data.
 
 ## FAQ's
 

@@ -110,4 +110,4 @@ SWF (Shockwave Flash) ist ein Multimediaformat, das für Animationen, Spiele und
 Ja, Sie sollten über einige Kenntnisse der C#-Programmierung verfügen, um Aspose.Slides effektiv nutzen zu können.
 
 ### Wo erhalte ich Unterstützung für Aspose.Slides für .NET?
- Wenn Sie Fragen haben oder Hilfe benötigen, können Sie die besuchen[Aspose.Slides für .NET-Forum](https://forum.aspose.com/) für Unterstützung und Gemeinschaftshilfe.
+ Wenn Sie Fragen haben oder Hilfe benötigen, können Sie die besuchen[Aspose.Slides für .NET-Forum](https://forum.aspose.com/)für Unterstützung und Gemeinschaftshilfe.

@@ -67,7 +67,7 @@ if (titleShape != null)
 
 ## Speichern der Präsentation
 
-Nachdem Sie die notwendigen Änderungen vorgenommen haben, können Sie die Präsentation speichern:
+Nachdem Sie die erforderlichen Änderungen vorgenommen haben, können Sie die Präsentation speichern:
 
 ```csharp
 // Speichern Sie die Präsentation mit der geklonten Folie

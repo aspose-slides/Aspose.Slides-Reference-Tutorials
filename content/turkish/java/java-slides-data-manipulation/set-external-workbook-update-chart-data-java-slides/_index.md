@@ -10,7 +10,7 @@ url: /tr/java/data-manipulation/set-external-workbook-update-chart-data-java-sli
 
 ## Java Slaytlarında Güncelleme Grafiği Verileriyle Harici Çalışma Kitabını Ayarlamaya Giriş
 
-Bu kapsamlı kılavuzda, Aspose.Slides for Java API'sini kullanarak Java Slides'ta güncellenmiş grafik verileriyle harici bir çalışma kitabı oluşturma sürecinde size yol göstereceğiz. Bu güçlü kitaplık, PowerPoint sunumlarını programlı olarak değiştirmenize olanak tanıyarak, grafik verilerinin harici bir kaynaktan güncellenmesi gibi görevleri otomatikleştirmeyi kolaylaştırır. Bu eğitimin sonunda, adım adım talimatlar ve eşlik eden Java koduyla bu görevi nasıl başaracağınıza dair net bir anlayışa sahip olacaksınız.
+Bu kapsamlı kılavuzda, Aspose.Slides for Java API'sini kullanarak Java Slides'ta güncellenmiş grafik verileriyle harici bir çalışma kitabı oluşturma sürecinde size yol göstereceğiz. Bu güçlü kitaplık, PowerPoint sunumlarını programlı olarak değiştirmenize olanak tanır ve grafik verilerinin harici bir kaynaktan güncellenmesi gibi görevleri otomatikleştirmeyi kolaylaştırır. Bu eğitimin sonunda, adım adım talimatlar ve eşlik eden Java koduyla bu görevi nasıl başaracağınıza dair net bir anlayışa sahip olacaksınız.
 
 ## Önkoşullar
 

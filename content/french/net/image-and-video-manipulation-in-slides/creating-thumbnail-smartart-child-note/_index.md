@@ -2,103 +2,63 @@
 title: Création d'une vignette pour la note enfant SmartArt dans Aspose.Slides
 linktitle: Création d'une vignette pour la note enfant SmartArt dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment créer des miniatures pour les notes enfants SmartArt à l’aide d’Aspose.Slides pour .NET. Guide étape par étape avec le code source complet.
+description: Découvrez comment créer des vignettes SmartArt Child Note captivantes à l’aide d’Aspose.Slides pour .NET. Élevez vos présentations avec des visuels dynamiques !
 type: docs
 weight: 15
 url: /fr/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
-
-## Introduction à la création de vignettes pour SmartArt Child Note
-
-Dans ce didacticiel, nous allons parcourir le processus de création d'une vignette pour une note enfant SmartArt à l'aide de la bibliothèque Aspose.Slides dans .NET. Aspose.Slides est une API puissante qui permet aux développeurs de travailler avec des présentations PowerPoint par programme. Nous procéderons étape par étape, en démontrant le code et en expliquant chaque partie du processus.
-
+## Introduction
+Dans le domaine des présentations dynamiques, Aspose.Slides pour .NET se distingue comme un outil puissant, offrant aux développeurs la possibilité de manipuler et d'améliorer les présentations PowerPoint par programme. Une fonctionnalité intéressante est la possibilité de générer des vignettes pour SmartArt Child Notes, ajoutant ainsi une couche d'attrait visuel à vos présentations. Ce guide étape par étape vous guidera tout au long du processus de création de vignettes pour SmartArt Child Notes à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
-
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
-
-- Visual Studio (ou tout autre environnement de développement .NET) installé.
--  Aspose.Slides pour la bibliothèque .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
-
-## Mise en place du projet
-
-1. Créez un nouveau projet C# dans Visual Studio.
-2. Ajoutez une référence à la bibliothèque Aspose.Slides pour .NET.
-
-## Chargement de la présentation
-
+Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+- Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est intégrée à votre projet .NET. Sinon, téléchargez-le depuis le[page des versions](https://releases.aspose.com/slides/net/).
+- Environnement de développement : mettre en place un environnement de développement .NET fonctionnel et avoir une compréhension de base de la programmation C#.
+- Exemple de présentation : créez ou obtenez une présentation PowerPoint contenant SmartArt avec Child Notes à des fins de test.
+## Importer des espaces de noms
+Commencez par importer les espaces de noms nécessaires dans votre projet C#. Ces espaces de noms donnent accès aux classes et méthodes nécessaires pour travailler avec Aspose.Slides.
 ```csharp
+using System.Drawing;
+using System.Drawing.Imaging;
+using Aspose.Slides.SmartArt;
 using Aspose.Slides;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Charger la présentation
-        using (Presentation presentation = new Presentation("presentation.pptx"))
-        {
-            // Votre code ici
-        }
-    }
-}
 ```
-
-## Accéder aux formes SmartArt
-
+## Étape 1 : Instancier un cours de présentation
+ Commencez par instancier le`Presentation` classe, représentant le fichier PPTX avec lequel vous allez travailler.
 ```csharp
-// En supposant que nous ayons une forme SmartArt sur la première diapositive
-ISlide slide = presentation.Slides[0];
-ISmartArt smartArt = (ISmartArt)slide.Shapes[0];
-
-// Accéder aux nœuds enfants
-ISmartArtNodeCollection nodes = smartArt.AllNodes;
+string dataDir = "Your Documents Directory";
+Presentation pres = new Presentation();
 ```
-
-## Création d'une vignette pour une note enfant
-
+## Étape 2 : Ajouter un SmartArt
+ Maintenant, ajoutez SmartArt à une diapositive dans la présentation. Dans cet exemple, nous utilisons le`BasicCycle` mise en page.
 ```csharp
-foreach (ISmartArtNode node in nodes)
-{
-    // En supposant que le nœud a des nœuds enfants
-    ISmartArtNodeCollection childNodes = node.ChildNodes;
-
-    // Création d'une vignette
-    using (Bitmap thumbnail = childNodes.GenerateThumbnail(new Size(200, 150)))
-    {
-        //Enregistrez la vignette ou effectuez d'autres opérations
-        thumbnail.Save($"thumbnail_{node.Text}.png");
-    }
-}
+ISmartArt smart = pres.Slides[0].Shapes.AddSmartArt(10, 10, 400, 300, SmartArtLayoutType.BasicCycle);
 ```
-
-## Enregistrer la présentation avec des vignettes
-
+## Étape 3 : Obtenir la référence du nœud
+Pour travailler avec un nœud spécifique dans le SmartArt, obtenez sa référence à l'aide de son index.
 ```csharp
-// Enregistrez la présentation avec des vignettes
-presentation.Save("presentation_with_thumbnails.pptx", SaveFormat.Pptx);
+ISmartArtNode node = smart.Nodes[1];
 ```
-
+## Étape 4 : Obtenir une vignette
+Récupérez l’image miniature de la note enfant dans le nœud SmartArt.
+```csharp
+Bitmap bmp = node.Shapes[0].GetThumbnail();
+```
+## Étape 5 : Enregistrer la vignette
+Enregistrez l'image miniature générée dans un répertoire spécifié.
+```csharp
+bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
+```
+Répétez ces étapes pour chaque nœud SmartArt de votre présentation, en personnalisant la mise en page et les styles selon vos besoins.
 ## Conclusion
-
-Dans ce didacticiel, nous avons appris à créer des vignettes pour les notes enfants SmartArt à l'aide d'Aspose.Slides pour .NET. Nous avons couvert l'ensemble du processus, du chargement d'une présentation à l'accès aux formes SmartArt, en passant par la génération de vignettes et l'enregistrement de la présentation avec des vignettes.
-
-## FAQ
-
-### Comment puis-je installer Aspose.Slides pour .NET ?
-
- Vous pouvez télécharger Aspose.Slides pour .NET depuis leur site Web[ici](https://releases.aspose.com/slides/net/).
-
-### Puis-je également créer des miniatures pour d’autres formes ?
-
-Oui, Aspose.Slides propose diverses méthodes pour générer des vignettes pour différents types de formes, notamment des images, des graphiques, etc.
-
-### Aspose.Slides convient-il aux projets personnels et commerciaux ?
-
-Oui, Aspose.Slides peut être utilisé dans des projets personnels et commerciaux. Cependant, assurez-vous de revoir les conditions de leur licence avant le déploiement.
-
-### Puis-je personnaliser l'apparence des vignettes générées ?
-
-Absolument! Aspose.Slides vous permet de personnaliser la taille, la qualité et d'autres propriétés des vignettes générées pour répondre à vos besoins.
-
-### Aspose.Slides prend-il en charge d’autres langages de programmation que .NET ?
-
-Oui, Aspose.Slides est disponible pour plusieurs langages de programmation, notamment Java, Python, etc., ce qui le rend polyvalent pour divers environnements de développement.
+En conclusion, Aspose.Slides pour .NET permet aux développeurs de créer facilement des présentations attrayantes. La possibilité de générer des vignettes pour SmartArt Child Notes améliore l'attrait visuel de vos présentations, offrant une expérience utilisateur dynamique et interactive.
+## Questions fréquemment posées
+### Q : Puis-je personnaliser la taille et le format de la vignette générée ?
+R : Oui, vous pouvez ajuster les dimensions et le format de la vignette en modifiant les paramètres correspondants dans le code.
+### Q : Aspose.Slides prend-il en charge d’autres mises en page SmartArt ?
+R : Absolument ! Aspose.Slides propose une variété de mises en page SmartArt, vous permettant de choisir celle qui correspond le mieux à vos besoins de présentation.
+### Q : Une licence temporaire est-elle disponible à des fins de test ?
+ : Oui, vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
+### Q : Où puis-je demander de l'aide ou me connecter à la communauté Aspose.Slides ?
+ R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour interagir avec la communauté, poser des questions et trouver des solutions.
+### Q : Puis-je acheter Aspose.Slides pour .NET ?
+ R : Certainement ! Explorez les options d'achat[ici](https://purchase.aspose.com/buy) pour libérer tout le potentiel d’Aspose.Slides dans vos projets.

@@ -1,94 +1,76 @@
 ---
-title: Skapa skissade former i presentationsbilder med Aspose.Slides
+title: Skapa fantastiska skissade former med Aspose.Slides
 linktitle: Skapa skissade former i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du skapar fängslande presentationsbilder med skissade former med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med komplett källkod för att lägga till personliga och kreativa element till dina bilder.
+description: Lär dig hur du lägger till kreativa skissade former till dina presentationsbilder med Aspose.Slides för .NET. Förbättra visuellt tilltal utan ansträngning!
 type: docs
 weight: 13
 url: /sv/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-## Introduktion till att skapa skissade former i presentationsbilder
-
-Presentationsbilder är ett kraftfullt verktyg för att förmedla information visuellt. Ibland kanske du vill sätta en personlig touch till dina bilder genom att inkludera skissade former, vilket kan göra dina presentationer mer engagerande och kreativa. I den här steg-för-steg-guiden kommer vi att utforska hur du uppnår detta med Aspose.Slides för .NET-biblioteket. I slutet av den här handledningen kommer du att kunna skapa presentationsbilder med skissade former som sticker ut. Låt oss dyka in!
-
-## Konfigurera projektet
-
- Innan vi börjar, se till att du har .NET-utvecklingsmiljön inställd på din dator. Du kan ladda ner den senaste versionen av Aspose.Slides från webbplatsen[här](https://releases.aspose.com/slides/net/). När du har laddat ned, installerar du biblioteket i ditt projekt.
-
-## Skapa en ny presentation
-
-Låt oss börja med att skapa en ny presentation med Aspose.Slides. Så här kan du göra det:
-
+## Introduktion
+Välkommen till vår steg-för-steg-guide för att skapa skissade former i presentationsbilder med Aspose.Slides för .NET. Om du vill lägga till en touch av kreativitet till dina presentationer, ger skissade former en unik och handritad estetik. I den här handledningen går vi igenom processen och delar upp den i enkla steg för att säkerställa en smidig upplevelse.
+## Förutsättningar
+Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
+-  Aspose.Slides för .NET: Se till att du har Aspose.Slides-biblioteket för .NET installerat. Du kan ladda ner den[här](https://releases.aspose.com/slides/net/).
+- Utvecklingsmiljö: Konfigurera en .NET-utvecklingsmiljö med din föredragna IDE.
+## Importera namnområden
+Börja med att importera de nödvändiga namnområdena i ditt .NET-projekt. Detta steg säkerställer att du har tillgång till de klasser och funktioner som krävs för att arbeta med Aspose.Slides.
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Aspose.Slides;
-
-// Skapa en ny presentation
-Presentation presentation = new Presentation();
+using Aspose.Slides.Examples.CSharp;
+using Aspose.Slides.Util;
+using Aspose.Slides.Export;
+using Aspose.Slides.MathText;
 ```
-
-## Lägga till skissade former
-
-För att lägga till skissade former till dina bilder kan du använda friformsformer tillgängliga i Aspose.Slides. Dessa former kan anpassas för att likna handritade skisser. Här är ett exempel på hur man lägger till en skissad rektangel till en bild:
-
+## Steg 1: Konfigurera projektet
+Börja med att skapa ett nytt .NET-projekt eller öppna ett befintligt. Se till att inkludera Aspose.Slides i dina projektreferenser.
+## Steg 2: Initiera Aspose.Slides
+Initiera Aspose.Slides genom att lägga till följande kodavsnitt. Detta ställer in presentationen och anger utdatasökvägarna för presentationsfilen och miniatyrbilden.
 ```csharp
-// Gå till den första bilden
-ISlide slide = presentation.Slides[0];
-
-// Definiera punkterna för den skissade rektangeln
-PointF[] points = new PointF[]
+string dataDir = "Your Document Directory";
+string outPptxFile = Path.Combine(dataDir, "SketchedShapes_out.pptx");
+string outPngFile = Path.Combine(dataDir, "SketchedShapes_out.png");
+using (Presentation pres = new Presentation())
 {
-    new PointF(100, 100),
-    new PointF(200, 100),
-    new PointF(200, 200),
-    new PointF(100, 200)
-};
-
-// Lägg till en friform till bilden
-IFreeformShape freeformShape = slide.Shapes.AddFreeform(ShapeType.Rectangle, points);
-
-// Anpassa utseendet på den skissade formen
-freeformShape.LineFormat.Style = LineStyle.Single;
-freeformShape.LineFormat.Width = 2;
-freeformShape.FillFormat.FillType = FillType.Solid;
-freeformShape.FillFormat.SolidFillColor.Color = Color.LightGray;
+    // Fortsätt till nästa steg...
+}
 ```
-
-## Anpassa skissade former
-
-Du kan ytterligare anpassa de skissade formerna genom att justera deras färger, linjestilar och andra egenskaper. Experimentera med olika inställningar för att uppnå önskad handritad effekt.
-
-## Spara och exportera presentationen
-
-När du har lagt till skissade former till din presentation kan du spara den och exportera den till olika format, som PPTX eller PDF. Så här kan du göra det:
-
+## Steg 3: Lägg till skissad form
+Låt oss nu lägga till en skissad form på bilden. I det här exemplet lägger vi till en rektangel med en frihandsskisseffekt.
 ```csharp
-// Spara presentationen till en fil
-presentation.Save("SketchedShapesPresentation.pptx", SaveFormat.Pptx);
+IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 20, 20, 300, 150);
+shape.FillFormat.FillType = FillType.NoFill;
+// Förvandla form till skiss av en frihandsstil
+shape.LineFormat.SketchFormat.SketchType = LineSketchType.Scribble;
 ```
-
+## Steg 4: Skapa miniatyrbild
+Skapa en miniatyrbild av bilden för att visualisera den skissade formen. Spara miniatyren som en PNG-fil.
+```csharp
+pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
+```
+## Steg 5: Spara presentationen
+Spara presentationsfilen med den skissade formen.
+```csharp
+pres.Save(outPptxFile, SaveFormat.Pptx);
+```
+Det är allt! Du har framgångsrikt skapat en presentation med skissade former med Aspose.Slides för .NET.
 ## Slutsats
-
-den här handledningen utforskade vi hur man skapar presentationsbilder med skissade former med Aspose.Slides för .NET. Genom att lägga till skissade former på dina bilder kan du lägga till en kreativ och personlig touch till dina presentationer, vilket gör dem mer engagerande för din publik. Experimentera gärna med olika former och anpassningsalternativ för att skapa visuellt tilltalande bilder som lämnar en bestående effekt.
-
-## FAQ's
-
-### Hur kan jag ladda ner Aspose.Slides för .NET?
-
- Du kan ladda ner den senaste versionen av Aspose.Slides för .NET från deras releasesida[här](https://releases.aspose.com/slides/net/).
-
-### Kan jag anpassa utseendet på skissade former?
-
-Ja, du kan anpassa utseendet på skissade former genom att justera deras färger, linjestilar och andra egenskaper med Aspose.Slides.
-
-### Är Aspose.Slides lämplig för både nybörjare och erfarna utvecklare?
-
-Ja, Aspose.Slides tillhandahåller ett användarvänligt API som passar både nybörjare och erfarna utvecklare. Den erbjuder omfattande dokumentation som hjälper dig att komma igång.
-
-### Kan jag exportera min presentation med skissade former till PDF?
-
-Absolut! Du kan exportera din presentation med skissade former till olika format, inklusive PDF, med hjälp av exportalternativen från Aspose.Slides.
-
-### Hur kan jag lägga till andra typer av skissade former, som cirklar eller linjer?
-
- Du kan lägga till andra typer av skissade former, som cirklar eller linjer, genom att ändra punkterna och formtypen i`AddFreeform` metod. Experimentera med olika punktkonfigurationer för att skapa de former du vill ha.
+Genom att lägga till skissade former till dina presentationsbilder kan du förbättra den visuella överklagandet och engagera din publik. Med Aspose.Slides för .NET blir processen enkel, så att du kan släppa loss din kreativitet utan ansträngning.
+## Vanliga frågor
+### 1. Kan jag anpassa den skissade effekten?
+Ja, Aspose.Slides för .NET tillhandahåller olika anpassningsalternativ för skissade effekter. Referera till[dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information.
+### 2. Finns det en gratis provperiod?
+ Säkert! Du kan utforska en gratis testversion av Aspose.Slides för .NET[här](https://releases.aspose.com/).
+### 3. Var kan jag få stöd?
+ För all hjälp eller frågor, besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+### 4. Hur kan jag köpa Aspose.Slides för .NET?
+ För att köpa Aspose.Slides för .NET, besök[köpsidan](https://purchase.aspose.com/buy).
+### 5. Erbjuder ni tillfälliga licenser?
+ Ja, tillfälliga licenser är tillgängliga[här](https://purchase.aspose.com/temporary-license/).

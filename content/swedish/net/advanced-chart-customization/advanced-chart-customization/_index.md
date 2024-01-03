@@ -249,7 +249,7 @@ Du kan utforska ytterligare anpassningar, såsom förklaringar, diagrams bakväg
 ```csharp
 // Ytterligare anpassningar (valfritt)
 
-// Ställa in teckentextegenskaper
+// Ställa in teckenförklaringstextegenskaper
 IChartPortionFormat txtleg = chart.Legend.TextFormat.PortionFormat;
 txtleg.FontBold = NullableBool.True;
 txtleg.FontHeight = 16;

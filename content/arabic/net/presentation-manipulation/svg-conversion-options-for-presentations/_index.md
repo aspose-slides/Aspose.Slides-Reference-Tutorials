@@ -38,7 +38,7 @@ using (Presentation presentation = new Presentation(presentationName))
 - **UseFrameRotation** : يستبعد تدوير الشكل عند العرض. اضبطه على`false` لاستبعاد التناوب.
 
 ```csharp
-// قم بإنشاء خيار SVG جديد
+//قم بإنشاء خيار SVG جديد
 SVGOptions svgOptions = new SVGOptions();
 
 // قم بتعيين خاصية UseFrameSize

@@ -80,7 +80,7 @@ Här klonar vi den första bilden (index 0) och placerar dubbletten i "Avsnitt 2
 
 ### Steg 5: Spara presentationen
 
- Slutligen, glöm inte att spara din presentation med hjälp av`Save` metod. I det här exemplet sparas presentationen i PPTX-format.
+Slutligen, glöm inte att spara din presentation med hjälp av`Save` metod. I det här exemplet sparas presentationen i PPTX-format.
 
 Grattis! Du har framgångsrikt duplicerat en bild till en angiven sektion med Aspose.Slides för .NET.
 
@@ -96,7 +96,7 @@ Nej, Aspose.Slides för .NET är speciellt utformad för .NET-applikationer. Om 
 
 ### 2. Finns det några gratisresurser för att lära sig Aspose.Slides för .NET?
 
- Ja, du kan komma åt Aspose.Slides för .NET-dokumentationen på[den här länken](https://reference.aspose.com/slides/net/) för djupgående information och handledning.
+ Ja, du kan komma åt Aspose.Slides för .NET-dokumentationen på[den här länken](https://reference.aspose.com/slides/net/)för djupgående information och handledning.
 
 ### 3. Kan jag testa Aspose.Slides för .NET innan jag köper det?
 

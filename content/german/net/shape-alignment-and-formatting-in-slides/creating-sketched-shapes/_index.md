@@ -1,94 +1,76 @@
 ---
-title: Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides
+title: Erstellen Sie atemberaubende skizzierte Formen mit Aspose.Slides
 linktitle: Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET faszinierende Präsentationsfolien mit skizzierten Formen erstellen. Befolgen Sie diese Schritt-für-Schritt-Anleitung mit vollständigem Quellcode, um Ihren Folien personalisierte und kreative Elemente hinzuzufügen.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET kreative skizzierte Formen zu Ihren Präsentationsfolien hinzufügen. Verbessern Sie mühelos die visuelle Attraktivität!
 type: docs
 weight: 13
 url: /de/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-## Einführung in das Erstellen skizzierter Formen in Präsentationsfolien
-
-Präsentationsfolien sind ein leistungsstarkes Werkzeug zur visuellen Vermittlung von Informationen. Manchmal möchten Sie Ihren Folien vielleicht eine persönliche Note verleihen, indem Sie skizzierte Formen einfügen, was Ihre Präsentationen ansprechender und kreativer machen kann. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie dies mit der Aspose.Slides for .NET-Bibliothek erreichen. Am Ende dieses Tutorials werden Sie in der Lage sein, Präsentationsfolien mit skizzierten Formen zu erstellen, die auffallen. Lass uns eintauchen!
-
-## Einrichten des Projekts
-
- Bevor wir beginnen, stellen Sie sicher, dass die .NET-Entwicklungsumgebung auf Ihrem Computer eingerichtet ist. Sie können die neueste Version von Aspose.Slides von der Website herunterladen[Hier](https://releases.aspose.com/slides/net/). Installieren Sie die Bibliothek nach dem Herunterladen in Ihrem Projekt.
-
-## Erstellen einer neuen Präsentation
-
-Beginnen wir mit der Erstellung einer neuen Präsentation mit Aspose.Slides. So können Sie es machen:
-
+## Einführung
+Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides für .NET. Wenn Sie Ihren Präsentationen einen Hauch von Kreativität verleihen möchten, sorgen skizzierte Formen für eine einzigartige und handgezeichnete Ästhetik. In diesem Tutorial führen wir Sie durch den Prozess und unterteilen ihn in einfache Schritte, um ein reibungsloses Erlebnis zu gewährleisten.
+## Voraussetzungen
+Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+-  Aspose.Slides für .NET: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für .NET installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/slides/net/).
+- Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung mit Ihrer bevorzugten IDE ein.
+## Namespaces importieren
+Beginnen Sie mit dem Importieren der erforderlichen Namespaces in Ihr .NET-Projekt. Dieser Schritt stellt sicher, dass Sie Zugriff auf die Klassen und Funktionalitäten haben, die für die Arbeit mit Aspose.Slides erforderlich sind.
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Aspose.Slides;
-
-// Erstellen Sie eine neue Präsentation
-Presentation presentation = new Presentation();
+using Aspose.Slides.Examples.CSharp;
+using Aspose.Slides.Util;
+using Aspose.Slides.Export;
+using Aspose.Slides.MathText;
 ```
-
-## Skizzierte Formen hinzufügen
-
-Um Ihren Folien skizzierte Formen hinzuzufügen, können Sie in Aspose.Slides verfügbare Freiformformen verwenden. Diese Formen können so angepasst werden, dass sie handgezeichneten Skizzen ähneln. Hier ist ein Beispiel für das Hinzufügen eines skizzierten Rechtecks zu einer Folie:
-
+## Schritt 1: Richten Sie das Projekt ein
+Erstellen Sie zunächst ein neues .NET-Projekt oder öffnen Sie ein vorhandenes. Stellen Sie sicher, dass Sie Aspose.Slides in Ihre Projektreferenzen aufnehmen.
+## Schritt 2: Aspose.Slides initialisieren
+Initialisieren Sie Aspose.Slides, indem Sie den folgenden Codeausschnitt hinzufügen. Dadurch wird die Präsentation eingerichtet und die Ausgabepfade für die Präsentationsdatei und das Miniaturbild festgelegt.
 ```csharp
-// Greifen Sie auf die erste Folie zu
-ISlide slide = presentation.Slides[0];
-
-// Definieren Sie die Punkte für das skizzierte Rechteck
-PointF[] points = new PointF[]
+string dataDir = "Your Document Directory";
+string outPptxFile = Path.Combine(dataDir, "SketchedShapes_out.pptx");
+string outPngFile = Path.Combine(dataDir, "SketchedShapes_out.png");
+using (Presentation pres = new Presentation())
 {
-    new PointF(100, 100),
-    new PointF(200, 100),
-    new PointF(200, 200),
-    new PointF(100, 200)
-};
-
-// Fügen Sie der Folie eine Freiformform hinzu
-IFreeformShape freeformShape = slide.Shapes.AddFreeform(ShapeType.Rectangle, points);
-
-// Passen Sie das Erscheinungsbild der skizzierten Form an
-freeformShape.LineFormat.Style = LineStyle.Single;
-freeformShape.LineFormat.Width = 2;
-freeformShape.FillFormat.FillType = FillType.Solid;
-freeformShape.FillFormat.SolidFillColor.Color = Color.LightGray;
+    // Fahren Sie mit den nächsten Schritten fort...
+}
 ```
-
-## Anpassen skizzierter Formen
-
-Sie können die skizzierten Formen weiter anpassen, indem Sie ihre Farben, Linienstile und andere Eigenschaften anpassen. Experimentieren Sie mit verschiedenen Einstellungen, um den gewünschten handgezeichneten Effekt zu erzielen.
-
-## Speichern und Exportieren der Präsentation
-
-Sobald Sie Ihrer Präsentation skizzierte Formen hinzugefügt haben, können Sie sie speichern und in verschiedene Formate exportieren, z. B. PPTX oder PDF. So können Sie es machen:
-
+## Schritt 3: Skizzierte Form hinzufügen
+Fügen wir nun der Folie eine skizzierte Form hinzu. In diesem Beispiel fügen wir ein Rechteck mit einem Freihandskizzeneffekt hinzu.
 ```csharp
-// Speichern Sie die Präsentation in einer Datei
-presentation.Save("SketchedShapesPresentation.pptx", SaveFormat.Pptx);
+IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 20, 20, 300, 150);
+shape.FillFormat.FillType = FillType.NoFill;
+// Verwandeln Sie die Form in eine Freihandskizze
+shape.LineFormat.SketchFormat.SketchType = LineSketchType.Scribble;
 ```
-
+## Schritt 4: Miniaturansicht erstellen
+Erstellen Sie eine Miniaturansicht der Folie, um die skizzierte Form zu visualisieren. Speichern Sie die Miniaturansicht als PNG-Datei.
+```csharp
+pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
+```
+## Schritt 5: Präsentation speichern
+Speichern Sie die Präsentationsdatei mit der skizzierten Form.
+```csharp
+pres.Save(outPptxFile, SaveFormat.Pptx);
+```
+Das ist es! Sie haben mit Aspose.Slides für .NET erfolgreich eine Präsentation mit skizzierten Formen erstellt.
 ## Abschluss
-
-In diesem Tutorial haben wir untersucht, wie Sie mit Aspose.Slides für .NET Präsentationsfolien mit skizzierten Formen erstellen. Durch das Hinzufügen skizzierter Formen zu Ihren Folien können Sie Ihren Präsentationen eine kreative und personalisierte Note verleihen und sie für Ihr Publikum ansprechender machen. Experimentieren Sie ruhig mit verschiedenen Formen und Anpassungsoptionen, um optisch ansprechende Folien zu erstellen, die einen bleibenden Eindruck hinterlassen.
-
+Das Hinzufügen skizzierter Formen zu Ihren Präsentationsfolien kann die visuelle Attraktivität steigern und Ihr Publikum ansprechen. Mit Aspose.Slides für .NET wird der Prozess unkompliziert, sodass Sie Ihrer Kreativität mühelos freien Lauf lassen können.
 ## FAQs
-
-### Wie kann ich Aspose.Slides für .NET herunterladen?
-
- Sie können die neueste Version von Aspose.Slides für .NET von der Veröffentlichungsseite herunterladen[Hier](https://releases.aspose.com/slides/net/).
-
-### Kann ich das Erscheinungsbild skizzierter Formen anpassen?
-
-Ja, Sie können das Erscheinungsbild skizzierter Formen anpassen, indem Sie deren Farben, Linienstile und andere Eigenschaften mithilfe von Aspose.Slides anpassen.
-
-### Ist Aspose.Slides sowohl für Anfänger als auch für erfahrene Entwickler geeignet?
-
-Ja, Aspose.Slides bietet eine benutzerfreundliche API, die sowohl für Anfänger als auch für erfahrene Entwickler geeignet ist. Es bietet eine umfassende Dokumentation, die Ihnen den Einstieg erleichtert.
-
-### Kann ich meine Präsentation mit skizzierten Formen als PDF exportieren?
-
-Absolut! Mithilfe der Exportoptionen von Aspose.Slides können Sie Ihre Präsentation mit skizzierten Formen in verschiedene Formate, einschließlich PDF, exportieren.
-
-### Wie kann ich andere Arten skizzierter Formen hinzufügen, z. B. Kreise oder Linien?
-
- Sie können andere Arten skizzierter Formen hinzufügen, z. B. Kreise oder Linien, indem Sie die Punkte und den Formtyp in ändern`AddFreeform` Methode. Experimentieren Sie mit verschiedenen Punktkonfigurationen, um die gewünschten Formen zu erstellen.
+### 1. Kann ich den skizzierten Effekt anpassen?
+Ja, Aspose.Slides für .NET bietet verschiedene Anpassungsoptionen für skizzierte Effekte. Siehe die[Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen.
+### 2. Gibt es eine kostenlose Testversion?
+ Sicherlich! Sie können eine kostenlose Testversion von Aspose.Slides für .NET ausprobieren[Hier](https://releases.aspose.com/).
+### 3. Wo bekomme ich Unterstützung?
+ Wenn Sie Hilfe oder Fragen haben, besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
+### 4. Wie kann ich Aspose.Slides für .NET erwerben?
+ Um Aspose.Slides für .NET zu erwerben, besuchen Sie die[Kaufseite](https://purchase.aspose.com/buy).
+### 5. Bieten Sie temporäre Lizenzen an?
+ Ja, temporäre Lizenzen sind verfügbar[Hier](https://purchase.aspose.com/temporary-license/).

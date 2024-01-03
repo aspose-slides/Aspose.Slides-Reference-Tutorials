@@ -76,4 +76,4 @@ Oui, les PDF protégés par mot de passe offrent un niveau de sécurité plus é
 
 ### Où puis-je accéder à la documentation de l'API Aspose.Slides pour .NET ?
 
-Vous pouvez accéder à la documentation d'Aspose.Slides pour .NET à l'adresse[ici](https://reference.aspose.com/slides/net/).
+ Vous pouvez accéder à la documentation d'Aspose.Slides pour .NET à l'adresse[ici](https://reference.aspose.com/slides/net/).

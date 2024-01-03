@@ -1,166 +1,90 @@
 ---
-title: Verwenden von ShapeUtil für Geometrieformen in Präsentationsfolien
+title: Beherrschen geometrischer Formen mit ShapeUtil - Aspose.Slides .NET
 linktitle: Verwenden von ShapeUtil für Geometrieformen in Präsentationsfolien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides verbessern. Entdecken Sie ShapeUtil für die Bearbeitung von Geometrieformen. Schritt-für-Schritt-Anleitung mit .NET-Quellcode. Präsentationen effektiv optimieren.
+description: Entdecken Sie die Leistungsfähigkeit von Aspose.Slides für .NET mit ShapeUtil für dynamische Geometrieformen. Erstellen Sie mühelos ansprechende Präsentationen. Jetzt herunterladen! Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides verbessern. Entdecken Sie ShapeUtil für die Bearbeitung von Geometrieformen. Schritt-für-Schritt-Anleitung mit .NET-Quellcode. Präsentationen effektiv optimieren.
 type: docs
 weight: 17
 url: /de/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-Wenn es darum geht, visuell ansprechende und informative Präsentationen zu erstellen, ist Aspose.Slides ein leistungsstarkes Tool, das Entwicklern die Möglichkeit bietet, verschiedene Aspekte von Präsentationen programmgesteuert zu bearbeiten. Ein wesentlicher Aspekt von Präsentationen ist die Verwendung von Formen, die eine entscheidende Rolle bei der effektiven Informationsvermittlung spielen. In diesem Tutorial befassen wir uns mit der Verwendung von ShapeUtil zum Umgang mit Geometrieformen in Präsentationsfolien mithilfe von Aspose.Slides für .NET. Am Ende dieses Leitfadens verfügen Sie über ein solides Verständnis dafür, wie Sie mit geometrischen Formen arbeiten und Ihre Präsentationen mühelos verbessern können.
-
-## Einführung in Aspose.Slides und ShapeUtil
-
-Aspose.Slides ist eine leistungsstarke .NET-Bibliothek, die Entwicklern das programmgesteuerte Erstellen, Bearbeiten und Bearbeiten von PowerPoint-Präsentationen ermöglicht. ShapeUtil ist Teil der Aspose.Slides-Bibliothek, die eine Reihe von Dienstprogrammen für die spezifische Arbeit mit Formen in Präsentationen bereitstellt.
-
-## Einrichten der Entwicklungsumgebung
-
-Bevor wir beginnen, stellen Sie sicher, dass die Aspose.Slides-Bibliothek in Ihrem .NET-Projekt installiert ist. Sie können NuGet verwenden, um die Bibliothek einfach zu Ihrem Projekt hinzuzufügen.
-
+## Einführung
+Das Erstellen optisch ansprechender und dynamischer Präsentationsfolien ist eine wesentliche Fähigkeit, und Aspose.Slides für .NET bietet ein leistungsstarkes Toolkit, um dies zu erreichen. In diesem Tutorial untersuchen wir die Verwendung von ShapeUtil zum Umgang mit Geometrieformen in Präsentationsfolien. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst mit Aspose.Slides beginnen, führt Sie dieser Leitfaden durch den Prozess der Verwendung von ShapeUtil zur Verbesserung Ihrer Präsentationen.
+## Voraussetzungen
+Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+- Grundlegendes Verständnis der C#- und .NET-Programmierung.
+-  Installierte Aspose.Slides für .NET-Bibliothek. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/slides/net/).
+- Eine Entwicklungsumgebung, die für die Ausführung von .NET-Anwendungen eingerichtet ist.
+## Namespaces importieren
+Stellen Sie in Ihrem C#-Code sicher, dass Sie die erforderlichen Namespaces importieren, um auf die Aspose.Slides-Funktionen zuzugreifen. Fügen Sie am Anfang Ihres Skripts Folgendes hinzu:
 ```csharp
-// Installieren Sie Aspose.Slides über NuGet
-Install-Package Aspose.Slides
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.IO;
+using Aspose.Slides.Export;
+using Aspose.Slides.Util;
 ```
-
-## Erstellen einer neuen Präsentation
-
-Beginnen wir damit, eine neue Präsentation zu erstellen und ihr Folien hinzuzufügen.
-
+Lassen Sie uns nun das bereitgestellte Beispiel in mehrere Schritte aufteilen, um eine Schritt-für-Schritt-Anleitung für die Verwendung von ShapeUtil für Geometrieformen in Präsentationsfolien zu erstellen.
+## Schritt 1: Richten Sie Ihr Dokumentenverzeichnis ein
 ```csharp
-// Erstellen Sie eine neue Präsentation
-Presentation presentation = new Presentation();
-ISlide slide = presentation.Slides.AddEmptySlide();
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
 ```
-
-## Hinzufügen von Geometrieformen zu Folien
-
-Um Folien geometrische Formen hinzuzufügen, können Sie die ShapeUtil-Klasse verwenden.
-
+Stellen Sie sicher, dass Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad ersetzen, in dem Sie Ihre Präsentation speichern möchten.
+## Schritt 2: Definieren Sie den Namen der Ausgabedatei
 ```csharp
-// Fügen Sie der Folie eine Rechteckform hinzu
-IShape rectangle = ShapeUtil.AddRectangle(slide, 100, 100, 200, 150);
+string resultPath = Path.Combine(dataDir, "GeometryShapeUsingShapeUtil.pptx");
 ```
-
-## Ändern der Eigenschaften von Geometrieformen
-
-Sie können verschiedene Eigenschaften von Geometrieformen ändern, z. B. Position, Größe und Drehung.
-
+Geben Sie den gewünschten Namen der Ausgabedatei einschließlich der Dateierweiterung an.
+## Schritt 3: Erstellen Sie eine Präsentation
 ```csharp
-// Ändern Sie die Position des Rechtecks
-rectangle.X = 300;
-rectangle.Y = 200;
-
-// Ändern Sie die Größe des Rechtecks
-rectangle.Width = 250;
-rectangle.Height = 100;
-
-// Drehen Sie das Rechteck
-rectangle.Rotation = 45;
+using (Presentation pres = new Presentation())
 ```
-
-## Anordnen und Ausrichten von Geometrieformen
-
-ShapeUtil bietet auch Methoden zum Anordnen und Ausrichten von Formen auf Folien.
-
+Initialisieren Sie ein neues Präsentationsobjekt mithilfe der Aspose.Slides-Bibliothek.
+## Schritt 4: Fügen Sie eine Geometrieform hinzu
 ```csharp
-// Formen horizontal anordnen
-ShapeUtil.ArrangeHorizontally(slide.Shapes);
-
-// Richten Sie die Formen in der Mitte aus
-ShapeUtil.AlignToCenter(slide.Shapes);
+GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 100);
 ```
-
-## Gruppieren und Aufheben der Gruppierung von Formen
-
-Mit ShapeUtil können Sie mehrere Formen gruppieren.
-
+Fügen Sie der ersten Folie der Präsentation eine Rechteckform hinzu.
+## Schritt 5: Erhalten Sie den ursprünglichen Geometriepfad
 ```csharp
-// Gruppenformen
-IShape[] shapesToGroup = new IShape[] { shape1, shape2, shape3 };
-IShape groupedShape = ShapeUtil.GroupShapes(slide, shapesToGroup);
-
-// Gruppierung von Formen aufheben
-ShapeUtil.UngroupShape(slide, groupedShape);
+IGeometryPath originalPath = shape.GetGeometryPaths()[0];
+originalPath.FillMode = PathFillModeType.None;
 ```
-
-## Formatierung auf Geometrieformen anwenden
-
-Mit ShapeUtil können Sie Formatierungen auf Formen anwenden, einschließlich Füll- und Linienstilen.
-
+Rufen Sie den Geometriepfad der Form ab und legen Sie den Füllmodus fest.
+## Schritt 6: Erstellen Sie einen Grafikpfad mit Text
 ```csharp
-//Füllfarbe anwenden
-ShapeUtil.ApplyFillColor(shape, Color.Blue);
-
-// Wenden Sie Linienfarbe und -stil an
-ShapeUtil.ApplyLineColor(shape, Color.Black, LineStyle.Single);
+GraphicsPath graphicsPath = new GraphicsPath();
+graphicsPath.AddString("Text in shape", new FontFamily("Arial"), 1, 40, new PointF(10, 10), StringFormat.GenericDefault);
 ```
-
-## Text zu Geometrieformen hinzufügen
-
-Sie können mit ShapeUtil auch Text zu Geometrieformen hinzufügen.
-
+Erzeugen Sie einen Grafikpfad mit Text, der der Form hinzugefügt werden soll.
+## Schritt 7: Konvertieren Sie den Grafikpfad in den Geometriepfad
 ```csharp
-// Fügen Sie der Form Text hinzu
-ShapeUtil.AddTextToShape(shape, "Hello, Aspose.Slides!", new Font("Arial", 12), Color.Black);
+IGeometryPath textPath = ShapeUtil.GraphicsPathToGeometryPath(graphicsPath);
+textPath.FillMode = PathFillModeType.Normal;
 ```
-
-## Arbeiten mit Hyperlinks in Formen
-
-Mit ShapeUtil können Sie Hyperlinks zu Formen hinzufügen.
-
+Verwenden Sie ShapeUtil, um den Grafikpfad in einen Geometriepfad umzuwandeln und den Füllmodus festzulegen.
+## Schritt 8: Legen Sie kombinierte Geometriepfade für die Form fest
 ```csharp
-// Hyperlink zur Form hinzufügen
-string url = "https://www.example.com";
-ShapeUtil.AddHyperlinkToShape(shape, url);
+shape.SetGeometryPaths(new[] { originalPath, textPath });
 ```
-
-## Verwalten der Z-Reihenfolge von Formen
-
-ShapeUtil bietet Methoden zum Verwalten der Z-Reihenfolge von Formen.
-
+Kombinieren Sie den neuen Geometriepfad mit dem ursprünglichen Pfad und stellen Sie ihn auf die Form ein.
+## Schritt 9: Speichern Sie die Präsentation
 ```csharp
-// Bringen Sie die Form nach vorne
-ShapeUtil.BringToFront(shape);
-
-// Form nach hinten schicken
-ShapeUtil.SendToBack(shape);
+pres.Save(resultPath, SaveFormat.Pptx);
 ```
-
-## Speichern und Exportieren der Präsentation
-
-Sobald Sie alle notwendigen Änderungen vorgenommen haben, können Sie die Präsentation speichern und exportieren.
-
-```csharp
-// Speichern Sie die Präsentation
-presentation.Save("Presentation.pptx", SaveFormat.Pptx);
-```
-
+Speichern Sie die geänderte Präsentation mit der neuen Geometrieform.
 ## Abschluss
-
-In diesem Tutorial haben wir die Funktionen von Aspose.Slides und ShapeUtil für die Arbeit mit Geometrieformen in Präsentationsfolien mithilfe von .NET untersucht. Wir haben den Prozess des Erstellens einer neuen Präsentation, des Hinzufügens von Geometrieformen, des Änderns ihrer Eigenschaften, des Anwendens von Formatierungen, des Hinzufügens von Text, des Verwaltens von Hyperlinks und mehr behandelt. Durch die Nutzung der Funktionen von Aspose.Slides und ShapeUtil können Sie die visuelle Attraktivität und Effektivität Ihrer Präsentationen verbessern.
-
+Glückwunsch! Sie haben die Verwendung von ShapeUtil zum Umgang mit Geometrieformen in Präsentationsfolien mit Aspose.Slides für .NET erfolgreich untersucht. Mit dieser leistungsstarken Funktion können Sie ganz einfach dynamische und ansprechende Präsentationen erstellen.
 ## FAQs
-
-### Wie installiere ich Aspose.Slides über NuGet?
-
-Um Aspose.Slides über NuGet zu installieren, verwenden Sie den folgenden Befehl in der NuGet Package Manager-Konsole:
-
-```csharp
-Install-Package Aspose.Slides
-```
-
-### Kann ich mit ShapeUtil Hyperlinks zu Formen hinzufügen?
-
- Ja, Sie können mit ShapeUtil Hyperlinks zu Formen hinzufügen. Nutzen Sie die`AddHyperlinkToShape` Methode zum Verknüpfen eines Hyperlinks mit einer Form.
-
-### Ist es möglich, Formen programmgesteuert zu gruppieren und die Gruppierung aufzuheben?
-
- Absolut! Sie können die ShapeUtil-Methoden verwenden`GroupShapes` Und`UngroupShape` um Formen programmgesteuert zu gruppieren und die Gruppierung aufzuheben.
-
-### Wie kann ich Formatierungen auf Geometrieformen anwenden?
-
-Mit ShapeUtil können Sie Formatierungen auf Geometrieformen anwenden, indem Sie Methoden wie verwenden`ApplyFillColor` Und`ApplyLineColor` um Füllfarben und Linienstile festzulegen.
-
-### Was ist der Zweck der Z-Reihenfolge in Formen?
-
- Die Z-Reihenfolge bestimmt die Stapelreihenfolge der Formen auf einer Folie. Sie können ShapeUtil-Methoden wie verwenden`BringToFront` Und`SendToBack` um die Z-Reihenfolge von Formen zu verwalten.
+### Kann ich Aspose.Slides für .NET mit anderen Programmiersprachen verwenden?
+Aspose.Slides unterstützt hauptsächlich .NET-Sprachen. Aspose bietet jedoch ähnliche Bibliotheken für andere Plattformen und Sprachen.
+### Wo finde ich eine ausführliche Dokumentation zu Aspose.Slides für .NET?
+ Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/net/).
+### Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
+ Ja, Sie können die kostenlose Testversion finden[Hier](https://releases.aspose.com/).
+### Wie erhalte ich Unterstützung für Aspose.Slides für .NET?
+ Besuchen Sie das Community-Supportforum[Hier](https://forum.aspose.com/c/slides/11).
+### Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
+ Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).

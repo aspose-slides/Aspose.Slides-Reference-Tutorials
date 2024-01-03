@@ -1,118 +1,62 @@
 ---
-title: Aspose.Slides ile Sunum Slaytlarındaki Şekillere 3D Döndürme Efekti Uygulamak
-linktitle: Aspose.Slides ile Sunum Slaytlarındaki Şekillere 3D Döndürme Efekti Uygulamak
+title: Aspose.Slides for .NET ile Sunumlarda 3D Döndürmede Uzmanlaşma
+linktitle: Sunum Slaytlarındaki Şekillere 3B Döndürme Efekti Uygulama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak büyüleyici 3D döndürme efektlerini sunum slaytlarına nasıl uygulayacağınızı öğrenin. Çarpıcı görsel etki için kaynak kodlu adım adım kılavuz.
+description: Aspose.Slides for .NET ile sunumlarınızı geliştirin! Bu öğreticide şekillere 3B döndürme efektleri uygulamayı öğrenin. Dinamik ve görsel olarak etkileyici sunumlar oluşturun.
 type: docs
 weight: 23
 url: /tr/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
-
-Şekillere dinamik 3D döndürme efektleri ekleyerek sunumunuza çarpıcı bir görsel etki kazandırdığınızı hayal edin. Aspose.Slides for .NET ile bu büyüleyici etkiyi kolayca elde edebilir ve slaytlarınızın öne çıkmasını sağlayabilirsiniz. Bu eğitimde, sunum slaytlarındaki şekillere 3B döndürme efektlerini adım adım uygulama sürecinde size rehberlik edeceğiz. Size kaynak kodunu sağlayacağız ve her adımı ayrıntılı olarak açıklayacağız. Hadi dalalım!
-
-## 3D Döndürme Efektlerine Giriş
-
-3D döndürme efektleri sunum slaytlarınıza derinlik ve gerçekçilik katar. Hedef kitleniz için ilgi çekici bir görsel deneyim yaratarak şekilleri üç boyutlu uzayda dönüyormuş gibi göstermenize olanak tanır.
-
-## Geliştirme Ortamınızı Kurma
-
- Başlamadan önce projenizde Aspose.Slides for .NET'in kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
-
-## Sunum Oluşturma
-
-Başlamak için yeni bir sunum oluşturalım:
-
+## giriiş
+İlgi çekici ve dinamik sunum slaytları oluşturmak, etkili iletişimin önemli bir yönüdür. Aspose.Slides for .NET, şekillere 3D döndürme efektleri uygulama yeteneği de dahil olmak üzere sunumlarınızı geliştirmek için güçlü bir araç seti sağlar. Bu eğitimde Aspose.Slides for .NET kullanarak sunum slaytlarındaki şekillere 3D döndürme efekti uygulama sürecini anlatacağız.
+## Önkoşullar
+Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+-  Aspose.Slides for .NET: Aspose.Slides for .NET kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
+- Geliştirme Ortamı: Kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir .NET geliştirme ortamı kurun.
+## Ad Alanlarını İçe Aktar
+Aspose.Slides'ın işlevselliğinden yararlanmak için .NET projenize gerekli ad alanlarını içe aktarın. Kodunuzun başına aşağıdaki ad alanlarını ekleyin:
 ```csharp
-// Sunuyu başlatma
-Presentation presentation = new Presentation();
+using System.Drawing;
+using Aspose.Slides.Export;
+using Aspose.Slides;
 ```
-
-## Slaytlara Şekil Ekleme
-
-Şimdi slaytlarımıza bazı şekiller ekleyelim:
-
+## 1. Adım: Projenizi Kurun
+Tercih ettiğiniz .NET geliştirme ortamında yeni bir proje oluşturun. Aspose.Slides referansını projenize eklediğinizden emin olun.
+## Adım 2: Sunumu Başlatın
+Slaytlarla çalışmaya başlamak için bir Sunum sınıfı oluşturun:
 ```csharp
-// İlk slayda erişin
-ISlide slide = presentation.Slides[0];
-
-// Dikdörtgen şekli ekleme
-IShape shape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
+Presentation pres = new Presentation();
 ```
-
-## 3D Döndürme Efekti Uygulama
-
-Şekle 3B döndürme efekti uygulamak için aşağıdaki kodu kullanın:
-
+## 3. Adım: Otomatik Şekil Ekle
+Slayta türünü, konumunu ve boyutlarını belirten bir Otomatik Şekil ekleyin:
 ```csharp
-// Şekle 3B döndürme efekti uygulama
-shape.ThreeDFormat.RotationX = 30;
-shape.ThreeDFormat.RotationY = 45;
+IShape autoShape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 30, 30, 200, 200);
 ```
-
-## Döndürme Açısını ve Perspektifi Ayarlama
-
-İstediğiniz efekti elde etmek için dönüş açısını ve perspektifi ayarlayabilirsiniz:
-
+## Adım 4: 3D Döndürme Efektini Ayarlayın
+Otomatik Şekil için 3B döndürme efektini yapılandırın:
 ```csharp
-// Döndürme açısını ve perspektifi ayarlayın
-shape.ThreeDFormat.RotationX = 60;
-shape.ThreeDFormat.RotationY = 30;
-shape.ThreeDFormat.PresetCamera.PresetType = CameraPresetType.OrthographicFront;
+autoShape.ThreeDFormat.Depth = 6;
+autoShape.ThreeDFormat.Camera.SetRotation(40, 35, 20);
+autoShape.ThreeDFormat.Camera.CameraType = CameraPresetType.IsometricLeftUp;
+autoShape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Balanced;
 ```
-
-## Döndürme Ayarlarının İnce Ayarı
-
-Daha hassas kontrol için döndürme ayarlarında ince ayar yapabilirsiniz:
-
+## Adım 5: Sunuyu Kaydetme
+Değiştirilen sunumu uygulanan 3B döndürme efektiyle kaydedin:
 ```csharp
-// Döndürme ayarlarına ince ayar yapın
-shape.ThreeDFormat.RotationX = 45;
-shape.ThreeDFormat.RotationY = 15;
-shape.ThreeDFormat.RotationZ = 10;
+pres.Save("Your Document Directory" + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
-
-## Animasyon Ekleme (İsteğe Bağlı)
-
-Döndürme efektine animasyon eklemek için:
-
-```csharp
-// Döndürme efektine animasyon ekleme
-ITransition transition = slide.SlideShowTransition;
-transition.AdvanceOnTime = true;
-transition.AdvanceTime = 2; // saniye
-```
-
-## Sununuzu Kaydetme ve Dışa Aktarma
-
-3B döndürme efektini ve istediğiniz diğer ayarlamaları uyguladıktan sonra sununuzu kaydedin ve dışa aktarın:
-
-```csharp
-// Sunuyu kaydedin ve dışa aktarın
-presentation.Save("output.pptx", SaveFormat.Pptx);
-```
-
+## Adım 6: Diğer Şekiller İçin Tekrarlayın
+Ek şekilleriniz varsa, her şekil için 3'ten 5'e kadar olan adımları tekrarlayın.
 ## Çözüm
-
-Tebrikler! Aspose.Slides for .NET'i kullanarak sunum slaytlarındaki şekillere 3D döndürme efektlerini nasıl uygulayacağınızı başarıyla öğrendiniz. Bu teknik, sunumlarınızın görsel çekiciliğini büyük ölçüde artırabilir ve dinleyicilerinizin ilgisini canlı tutabilir.
-
+Sunum slaytlarınızdaki şekillere 3B döndürme efektleri eklemek, şekillerin görsel çekiciliğini önemli ölçüde artırabilir. Aspose.Slides for .NET ile bu süreç basitleşerek büyüleyici sunumlar oluşturmanıza olanak tanır.
 ## SSS
-
-### Animasyonun dönüş hızını nasıl ayarlayabilirim?
-
- Dönüştürme hızını değiştirerek ayarlayabilirsiniz.`AdvanceTime` geçiş ayarlarındaki özellik.
-
-### Metin kutularına 3B döndürme uygulayabilir miyim?
-
-Evet, sununuzdaki metin kutularına veya diğer şekillere 3B döndürme efektleri uygulayabilirsiniz.
-
-### Aspose.Slides farklı PowerPoint sürümleriyle uyumlu mu?
-
-Evet, Aspose.Slides çeşitli PowerPoint sürümleriyle uyumludur ve farklı PowerPoint yazılımları tarafından açılıp görüntülenebilen sunumlar oluşturmanıza olanak tanır.
-
-### Tek bir şekle birden fazla 3B efekt uygulayabilir miyim?
-
-Evet, şekilleriniz için karmaşık görsel efektler oluşturmak amacıyla döndürme, derinlik ve aydınlatma gibi birden fazla 3B efekti birleştirebilirsiniz.
-
-### Aspose.Slides diğer animasyon türleri için destek sağlıyor mu?
-
-Evet, Aspose.Slides, sunum slaytlarınızı daha dinamik ve ilgi çekici hale getirmek için uygulayabileceğiniz çok çeşitli animasyon efektleri sunar.
+### Aspose.Slides for .NET'te metin kutularına 3D döndürme uygulayabilir miyim?
+Evet, Aspose.Slides'ı kullanarak metin kutuları da dahil olmak üzere çeşitli şekillere 3D döndürme efektleri uygulayabilirsiniz.
+### Aspose.Slides for .NET'in deneme sürümü mevcut mu?
+ Evet deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+### Aspose.Slides for .NET için nasıl destek alabilirim?
+ Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
+### Aspose.Slides for .NET için geçici bir lisans satın alabilir miyim?
+ Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+### Aspose.Slides for .NET'in ayrıntılı belgelerini nerede bulabilirim?
+ Belgeler mevcut[Burada](https://reference.aspose.com/slides/net/).

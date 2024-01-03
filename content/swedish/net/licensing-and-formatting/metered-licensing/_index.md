@@ -20,7 +20,7 @@ Innan du dyker in i Aspose.Slides för .NET-världen finns det några förutsät
 
 2. Visual Studio: Du behöver Visual Studio installerat på ditt system för kodning.
 
-3. Aspose.Slides Library: Se till att du har laddat ner och installerat Aspose.Slides-biblioteket för .NET. Du hittar biblioteket och ytterligare instruktioner på[den här länken](https://releases.aspose.com/slides/net/).
+3.  Aspose.Slides Library: Se till att du har laddat ner och installerat Aspose.Slides-biblioteket för .NET. Du hittar biblioteket och ytterligare instruktioner på[den här länken](https://releases.aspose.com/slides/net/).
 
 Nu när du är klar, låt oss börja vår resa till Aspose.Slides för .NET.
 

@@ -143,7 +143,7 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumundaki bir grafik için Boşluk Genişliğini nasıl ayarlayacağınızı öğrendiniz. Boşluk Genişliğini ayarlamak, grafiğinizdeki sütunlar veya çubuklar arasındaki boşluğu kontrol etmenize olanak tanıyarak verilerinizin görsel sunumunu geliştirir.
+Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumundaki bir grafik için Boşluk Genişliğini nasıl ayarlayacağınızı öğrendiniz. Boşluk Genişliğini ayarlamak, grafiğinizdeki sütunlar veya çubuklar arasındaki boşluğu kontrol etmenize olanak tanıyarak verilerinizin görsel temsilini geliştirir.
 
 ## SSS'ler
 

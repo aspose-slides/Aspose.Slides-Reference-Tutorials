@@ -94,7 +94,7 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 
 ### Сколько стоит Aspose.Slides для .NET?
 
- Для получения подробной информации о ценах посетите сайт[Цены на Aspose.Slides](https://purchase.aspose.com/admin/pricing/slides/family) страница.
+Для получения подробной информации о ценах посетите сайт[Цены на Aspose.Slides](https://purchase.aspose.com/admin/pricing/slides/family) страница.
 
 ### Могу ли я использовать Aspose.Slides для .NET в своем веб-приложении?
 

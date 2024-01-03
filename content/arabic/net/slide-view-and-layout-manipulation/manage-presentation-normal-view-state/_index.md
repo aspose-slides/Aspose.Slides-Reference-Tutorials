@@ -15,7 +15,7 @@ url: /ar/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-
 
 قبل التعمق في تعقيدات إدارة العروض التقديمية باستخدام Aspose.Slides for .NET، ستحتاج إلى إعداد بيئة التطوير الخاصة بك. إليك ما عليك القيام به:
 
-1.  تنزيل Aspose.Slides لـ .NET: قم بزيارة[صفحة التحميل](https://releases.aspose.com/slides/net/) للحصول على أحدث إصدار من Aspose.Slides لـ .NET.
+1.  تنزيل Aspose.Slides لـ .NET: قم بزيارة[صفحة التحميل](https://releases.aspose.com/slides/net/)للحصول على أحدث إصدار من Aspose.Slides لـ .NET.
 
 2. تثبيت Aspose.Slides: بعد تنزيل المكتبة، اتبع تعليمات التثبيت المتوفرة في الوثائق.
 
@@ -64,7 +64,7 @@ ISlide slide = presentation.Slides.AddSlide(presentation.Slides.Count + 1, prese
 // تعيين عنوان الشريحة
 slide.Shapes.Title.TextFrame.Text = "Welcome to Aspose.Slides";
 
-// إضافة محتوى
+//إضافة محتوى
 IAutoShape contentShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 100, 600, 300);
 contentShape.TextFrame.Text = "Create stunning presentations with Aspose.Slides!";
 ```
@@ -117,7 +117,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 ### أين يمكنني العثور على وثائق شاملة لـ Aspose.Slides لـ .NET؟
 
- يمكنك الوصول إلى الوثائق الشاملة لـ Aspose.Slides for .NET على الموقع[مرجع واجهة برمجة التطبيقات](https://reference.aspose.com/slides/net/) صفحة.
+يمكنك الوصول إلى الوثائق الشاملة لـ Aspose.Slides for .NET على الموقع[مرجع واجهة برمجة التطبيقات](https://reference.aspose.com/slides/net/) صفحة.
 
 ## خاتمة
 في هذا الدليل، اكتشفنا كيفية إدارة العروض التقديمية في حالة العرض العادية باستخدام Aspose.Slides for .NET. بفضل ميزاته القوية، يمكنك إنشاء العروض التقديمية وتعديلها وتحسينها برمجيًا، مما يضمن أن المحتوى الخاص بك يجذب جمهورك بشكل فعال. سواء كنت مقدمًا محترفًا أو مطورًا يعمل على التطبيقات المتعلقة بالعروض التقديمية، فإن Aspose.Slides for .NET هو بوابتك لإدارة العروض التقديمية بسلاسة.

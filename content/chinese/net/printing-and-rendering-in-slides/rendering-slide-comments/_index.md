@@ -2,150 +2,87 @@
 title: 在 Aspose.Slides 中渲染幻灯片注释
 linktitle: 在 Aspose.Slides 中渲染幻灯片注释
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 演示文稿中呈现幻灯片注释。本分步指南提供了以编程方式访问、自定义和显示注释的源代码示例。
+description: 通过我们的分步教程探索如何在 Aspose.Slides for .NET 中呈现幻灯片注释。自定义评论外观并提升 PowerPoint 自动化程度。
 type: docs
 weight: 12
 url: /zh/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
 ## 介绍
-
-幻灯片评论提供与演示文稿中特定幻灯片相关的宝贵见解、解释和讨论。以编程方式呈现这些评论可以简化审核和协作流程。 Aspose.Slides for .NET 通过提供一套全面的 API 来管理和呈现幻灯片注释，从而简化了此任务。
-
+欢迎来到我们关于使用 Aspose.Slides for .NET 渲染幻灯片注释的综合教程！ Aspose.Slides 是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝处理 PowerPoint 演示文稿。在本指南中，我们将重点关注特定任务 - 呈现幻灯片注释 - 并逐步引导您完成该过程。
 ## 先决条件
-
-在我们深入实施之前，请确保您具备以下先决条件：
-
-- Visual Studio 安装在您的计算机上。
-- 对 C# 和 .NET 开发有基本了解。
--  Aspose.Slides for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/slides/net/).
-
-## 设置项目
-
-1. 在 Visual Studio 中创建一个新的 C# 项目。
-
-2. 在项目中添加对 Aspose.Slides for .NET 库的引用。
-
-## 加载演示文稿
-
-首先，让我们加载一个包含幻灯片注释的 PowerPoint 演示文稿：
-
+在我们深入学习本教程之前，请确保您已准备好以下内容：
+-  Aspose.Slides for .NET 库：确保您的开发环境中安装了 Aspose.Slides for .NET 库。如果您还没有，您可以下载[这里](https://releases.aspose.com/slides/net/).
+- 开发环境：搭建有效的.NET开发环境，并对C#有基本的了解。
+现在，让我们开始教程吧！
+## 导入命名空间
+在 C# 代码中，您需要导入必要的命名空间才能使用 Aspose.Slides 功能。在文件的开头添加以下行：
 ```csharp
+using Aspose.Slides.Export;
 using Aspose.Slides;
-
-//加载演示文稿
-using var presentation = new Presentation("presentation.pptx");
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 ```
-
-## 访问幻灯片评论
-
-接下来，让我们遍历演示文稿中的幻灯片并访问与每张幻灯片关联的注释：
-
+## 第 1 步：设置您的文档目录
+首先指定 PowerPoint 演示文稿所在文档目录的路径：
 ```csharp
-//迭代幻灯片
-foreach (var slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+```
+## 第2步：指定输出路径
+使用注释定义要保存渲染图像的路径：
+```csharp
+string resultPath = Path.Combine(dataDir, "OutPresBitmap_Comments.png");
+```
+## 第 3 步：加载演示文稿
+使用 Aspose.Slides 库加载 PowerPoint 演示文稿：
+```csharp
+Presentation pres = new Presentation(dataDir + "presentation.pptx");
+```
+## 第 4 步：创建用于渲染的位图
+创建具有所需尺寸的位图对象：
+```csharp
+Bitmap bmp = new Bitmap(740, 960);
+```
+## 第 5 步：配置渲染选项
+配置渲染选项，包括注释和注释的布局选项：
+```csharp
+IRenderingOptions renderOptions = new RenderingOptions();
+NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+notesOptions.CommentsAreaColor = Color.Red;
+notesOptions.CommentsAreaWidth = 200;
+notesOptions.CommentsPosition = CommentsPositions.Right;
+notesOptions.NotesPosition = NotesPositions.BottomTruncated;
+renderOptions.SlidesLayoutOptions = notesOptions;
+```
+## 第 6 步：渲染为图形
+渲染第一张带有指定图形对象注释的幻灯片：
+```csharp
+using (Graphics graphics = Graphics.FromImage(bmp))
 {
-    //访问幻灯片评论
-    var comments = slide.Comments;
-    foreach (var comment in comments)
-    {
-        //访问评论属性
-        var author = comment.Author;
-        var text = comment.Text;
-        
-        //根据需要处理评论
-    }
+    pres.Slides[0].RenderToGraphics(renderOptions, graphics);
 }
 ```
-
-## 渲染幻灯片上的注释
-
-现在，让我们在幻灯片上呈现注释。我们会将评论添加为每张幻灯片下方的文本框：
-
+## 第7步：保存结果
+将带有注释的渲染图像保存到指定路径：
 ```csharp
-foreach (var slide in presentation.Slides)
-{
-    //访问幻灯片评论
-    var comments = slide.Comments;
-    foreach (var comment in comments)
-    {
-        //创建一个用于评论的文本框
-        var textBox = slide.Shapes.AddTextFrame("");
-        var textFrame = textBox.TextFrame;
-        
-        //将评论属性设置为文本
-        textFrame.Text = $"{comment.Author}: {comment.Text}";
-        
-        //将文本框放置在幻灯片下方
-        textBox.Left = slide.SlideSize.Size.Width / 2;
-        textBox.Top = slide.SlideSize.Size.Height + 20;
-        
-        //如果需要自定义文本框外观
-        
-        //根据需要处理评论
-    }
-}
+bmp.Save(resultPath, ImageFormat.Png);
 ```
-
-## 自定义评论渲染
-
-您可以进一步自定义呈现的注释的外观，例如字体大小、颜色和位置。这使您可以将评论与演示文稿的风格相匹配：
-
+## 第 8 步：显示结果
+使用默认图像查看器打开渲染图像：
 ```csharp
-//自定义文本框外观
-var fontHeight = 12;
-var fontColor = Color.Black;
-var margin = 20;
-
-foreach (var slide in presentation.Slides)
-{
-    //...
-    foreach (var comment in comments)
-    {
-        //...
-        
-        //自定义文本框外观
-        textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
-        textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
-        
-        //调整文本框位置
-        textBox.Top = slide.SlideSize.Size.Height - margin;
-        margin += 30; //增加下一条评论的边距
-    }
-}
+System.Diagnostics.Process.Start(resultPath);
 ```
-
-## 保存渲染的演示文稿
-
-在幻灯片上呈现注释后，您可以保存修改后的演示文稿：
-
-```csharp
-//保存修改后的演示文稿
-presentation.Save("rendered_presentation.pptx", SaveFormat.Pptx);
-```
-
+恭喜！您已使用 Aspose.Slides for .NET 成功呈现幻灯片注释。
 ## 结论
-
-在本指南中，我们探讨了如何使用 Aspose.Slides for .NET 在 PowerPoint 演示文稿中呈现幻灯片注释。通过执行上述步骤，您可以以编程方式访问和显示注释，从而增强幻灯片中的协作和沟通。
-
-## 常见问题解答
-
-### 如何安装 Aspose.Slides for .NET？
-
-您可以从以下位置下载 Aspose.Slides for .NET 库：[这个链接](https://releases.aspose.com/slides/net/)。下载后，您可以将其添加为 Visual Studio 项目中的参考。
-
-### 我可以自定义呈现评论的外观吗？
-
-是的，您可以自定义呈现的注释的外观，包括字体大小、颜色和位置。这使您可以将评论与演示文稿的风格相匹配。
-
-### 如何访问个人评论属性？
-
-您可以使用以下命令访问评论属性，例如作者和文本`Author`和`Text`评论对象的属性。
-
-### 我可以将注释呈现为标注而不是文本框吗？
-
-是的，您可以通过创建自定义形状并向其中添加文本来将注释呈现为标注。您需要相应地调整标注的位置和外观。
-
-### Aspose.Slides for .NET 适合其他与 PowerPoint 相关的任务吗？
-
-绝对地！ Aspose.Slides for .NET 提供了广泛的 API 来处理 PowerPoint 演示文稿。您可以通过编程方式创建、修改、转换和操作演示文稿的各个方面。
+在本教程中，我们探索了使用 Aspose.Slides for .NET 渲染幻灯片注释的过程。通过遵循分步指南，您可以轻松增强 PowerPoint 自动化功能。
+## 经常问的问题
+### 问：Aspose.Slides 与最新的 .NET 框架版本兼容吗？
+答：是的，Aspose.Slides 会定期更新以支持最新的 .NET 框架版本。
+### 问：我可以自定义呈现评论的外观吗？
+答：当然！本教程包括自定义评论区域颜色、宽度和位置的选项。
+### 问：在哪里可以找到有关 Aspose.Slides for .NET 的更多文档？
+答：浏览文档[这里](https://reference.aspose.com/slides/net/).
+### 问：如何获得 Aspose.Slides 的临时许可证？
+答：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+### 问：我可以在哪里寻求 Aspose.Slides 的帮助和支持？
+答：访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)以获得社区支持。

@@ -1,89 +1,68 @@
 ---
-title: Ripeti l'animazione sulla diapositiva
+title: Padroneggiare le animazioni PowerPoint con Aspose.Slides .NET
 linktitle: Ripeti l'animazione sulla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come ripetere le animazioni su una diapositiva utilizzando Aspose.Slides per .NET. Questa guida passo passo fornisce il codice sorgente e istruzioni chiare per aggiungere animazioni accattivanti alle presentazioni PowerPoint a livello di codice.
+description: Migliora le presentazioni PowerPoint utilizzando Aspose.Slides per .NET. Controlla le animazioni senza sforzo, affascina il tuo pubblico e lascia un'impressione duratura.
 type: docs
 weight: 12
 url: /it/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-## Introduzione ad Aspose.Slides per .NET
-
-Aspose.Slides per .NET è una solida libreria che consente agli sviluppatori di creare, manipolare e convertire presentazioni PowerPoint utilizzando il framework .NET. Fornisce un'ampia gamma di funzionalità per lavorare con diapositive, forme, testo, immagini, animazioni e altro ancora.
-
-## Configurazione dell'ambiente di sviluppo
-
-Prima di iniziare, devi configurare il tuo ambiente di sviluppo. Segui questi passi:
-
-1. Scarica e installa Visual Studio da[Download di Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2. Creare un nuovo progetto .NET (applicazione console, ad esempio) in Visual Studio.
-
-## Caricamento di una presentazione PowerPoint
-
-Per iniziare, avrai bisogno di una presentazione PowerPoint su cui lavorare. Assicurati di avere un file PowerPoint pronto.
-
+## introduzione
+Nel dinamico mondo delle presentazioni, la capacità di controllare le animazioni gioca un ruolo fondamentale nel coinvolgere e catturare l'attenzione del pubblico. Aspose.Slides per .NET consente agli sviluppatori di farsi carico dei tipi di animazione all'interno delle diapositive, consentendo una presentazione più interattiva e visivamente accattivante. In questo tutorial esploreremo come controllare i tipi di animazione su una diapositiva utilizzando Aspose.Slides per .NET, passo dopo passo.
+## Prerequisiti
+Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
+1.  Aspose.Slides per .NET Library: scarica e installa la libreria da[Qui](https://releases.aspose.com/slides/net/).
+2. Ambiente di sviluppo .NET: configura un ambiente di sviluppo .NET sul tuo computer.
+## Importa spazi dei nomi
+Nel tuo progetto .NET, inizia importando gli spazi dei nomi necessari per sfruttare le funzionalità fornite da Aspose.Slides:
 ```csharp
-using Aspose.Slides;
-
-// Carica la presentazione di PowerPoint
-using var presentation = new Presentation("presentation.pptx");
+using Aspose.Slides.Animation;
+using Aspose.Slides.SlideShow;
+using Aspose.Slides.Export;
 ```
-
-## Accesso e modifica delle animazioni
-
-Ora che abbiamo caricato la nostra presentazione, accediamo e modifichiamo le animazioni su una diapositiva specifica. Per questo esempio, supponiamo di voler ripetere le animazioni sulla diapositiva numero 2.
-
+## Passaggio 1: impostare il progetto
+Crea una nuova directory per il tuo progetto e crea un'istanza della classe Presentation per rappresentare il file di presentazione.
 ```csharp
-// Accedi alla diapositiva tramite indice (in base 0)
-var slideIndex = 1;
-var slide = presentation.Slides[slideIndex];
-
-// Accedi alle animazioni della diapositiva
-var animations = slide.Timeline.MainSequence;
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "AnimationOnSlide.pptx"))
+{
+    // Il tuo codice va qui
+}
 ```
-
-## Ripetizione di animazioni su una diapositiva
-
-Per ripetere le animazioni, cloneremo e aggiungeremo nuovamente le animazioni alla diapositiva. Questo creerà un effetto in loop. Ecco come puoi raggiungere questo obiettivo:
-
+## Passaggio 2: accedi alla sequenza degli effetti
+Recupera la sequenza degli effetti per la prima diapositiva utilizzando la proprietà MainSequence.
 ```csharp
-// Clona le animazioni e aggiungile di nuovo
-var clonedAnimations = animations.CloneSequence();
-animations.AddSequence(clonedAnimations);
+ISequence effectsSequence = pres.Slides[0].Timeline.MainSequence;
 ```
-
-## Testare ed esportare la presentazione modificata
-
-Dopo aver modificato le animazioni, è il momento di testare la presentazione ed esportarla. Puoi esportarlo in vari formati come PPTX, PDF o immagini.
-
+## Passaggio 3: accedi al primo effetto
+Ottieni il primo effetto della sequenza principale per manipolarne le proprietà.
 ```csharp
-// Salva la presentazione modificata
-presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
+IEffect effect = effectsSequence[0];
 ```
-
+## Passaggio 4: modifica le impostazioni di ripetizione
+Modifica la proprietà Temporizzazione/Ripetizione dell'effetto su "Fino alla fine della diapositiva".
+```csharp
+effect.Timing.RepeatUntilEndSlide = true;
+```
+## Passaggio 5: salva la presentazione
+Salva la presentazione modificata per visualizzare le modifiche.
+```csharp
+pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+```
+Ripeti questi passaggi per effetti aggiuntivi o personalizzali in base alle tue esigenze di presentazione.
 ## Conclusione
-
-In questa guida, abbiamo esplorato come ripetere le animazioni su una diapositiva utilizzando Aspose.Slides per .NET. Abbiamo iniziato presentando la libreria e configurando l'ambiente di sviluppo. Quindi, abbiamo caricato una presentazione PowerPoint, abbiamo effettuato l'accesso e modificato le animazioni e, infine, implementato la funzionalità di ripetizione dell'animazione. Aspose.Slides per .NET consente agli sviluppatori di creare presentazioni dinamiche e coinvolgenti a livello di codice.
-
+Incorporare animazioni dinamiche nelle presentazioni di PowerPoint non è mai stato così facile con Aspose.Slides per .NET. Questa guida passo passo ti fornisce le conoscenze per controllare i tipi di animazione, assicurando che le tue diapositive lascino un'impressione duratura sul tuo pubblico.
 ## Domande frequenti
-
-### Come posso scaricare Aspose.Slides per .NET?
-
- È possibile scaricare Aspose.Slides per .NET dalla pagina delle versioni:[Scarica Aspose.Slides per .NET](https://releases.aspose.com/slides/net/)
-
-### Posso ripetere animazioni specifiche invece di tutte le animazioni su una diapositiva?
-
- Sì, puoi ripetere selettivamente animazioni specifiche individuandole utilizzando il loro indice all'interno del file`MainSequence`.
-
-### Aspose.Slides per .NET è compatibile con diversi formati PowerPoint?
-
-Sì, Aspose.Slides per .NET supporta vari formati PowerPoint, inclusi PPT, PPTX e altri.
-
-### Posso creare animazioni personalizzate utilizzando Aspose.Slides per .NET?
-
-Assolutamente! Aspose.Slides per .NET fornisce API complete per creare e personalizzare animazioni in base alle tue esigenze.
-
-### È disponibile una versione di prova per Aspose.Slides per .NET?
-
-Sì, puoi provare Aspose.Slides per .NET scaricando la versione di prova gratuita dal sito web.
+### Posso applicare queste animazioni a oggetti specifici all'interno di una diapositiva?
+Sì, puoi prendere di mira oggetti specifici accedendo ai loro effetti individuali all'interno della sequenza.
+### Aspose.Slides è compatibile con le ultime versioni di PowerPoint?
+Aspose.Slides fornisce supporto per un'ampia gamma di versioni di PowerPoint, garantendo la compatibilità sia con le versioni vecchie che con quelle nuove.
+### Dove posso trovare ulteriori esempi e risorse?
+ Esplorare la[documentazione](https://reference.aspose.com/slides/net/) per esempi esaustivi e spiegazioni dettagliate.
+### Come posso ottenere una licenza temporanea per Aspose.Slides?
+ Visita[Qui](https://purchase.aspose.com/temporary-license/) per informazioni su come ottenere una licenza temporanea.
+### Hai bisogno di aiuto o hai altre domande?
+ Interagisci con la community di Aspose.Slides su[Forum di assistenza](https://forum.aspose.com/c/slides/11).

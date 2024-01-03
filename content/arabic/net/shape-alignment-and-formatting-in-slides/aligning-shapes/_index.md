@@ -1,135 +1,84 @@
 ---
-title: محاذاة الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides
+title: إتقان محاذاة الأشكال باستخدام Aspose.Slides لـ .NET
 linktitle: محاذاة الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية محاذاة الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدر، ويغطي المحاذاة الأفقية والرأسية، وتوزيع الأشكال، ومحاذاة المجموعات، والمزيد.
+description: تعلم كيفية محاذاة الأشكال بسهولة في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. تعزيز الجاذبية البصرية من خلال المحاذاة الدقيقة. التحميل الان!
 type: docs
 weight: 10
 url: /ar/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-## مقدمة لمحاذاة الأشكال في شرائح العرض التقديمي
-
-في عالم تصميم العروض التقديمية، تلعب المحاذاة الصحيحة للأشكال داخل الشرائح دورًا محوريًا في نقل المعلومات بشكل فعال. قد يكون تحقيق المحاذاة الدقيقة في بعض الأحيان مهمة شاقة، خاصة عند التعامل مع العروض التقديمية المعقدة. ولحسن الحظ، يأتي Aspose.Slides for .NET للإنقاذ بفضل إمكاناته القوية لمحاذاة الأشكال بسلاسة. سيرشدك هذا الدليل خطوة بخطوة خلال عملية محاذاة الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET، مع استكمال أمثلة التعليمات البرمجية المصدر.
-
+## مقدمة
+غالبًا ما يتطلب إنشاء شرائح عرض تقديمي جذابة بصريًا محاذاة دقيقة للأشكال. يوفر Aspose.Slides for .NET حلاً قويًا لتحقيق ذلك بسهولة. في هذا البرنامج التعليمي، سوف نستكشف كيفية محاذاة الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
-
-قبل الغوص في الدليل التفصيلي، تأكد من توفر المتطلبات الأساسية التالية:
-
-- Visual Studio: ستحتاج إلى تثبيت برنامج Visual Studio لتطوير .NET.
--  Aspose.Slides لـ .NET: قم بتنزيل Aspose.Slides لـ .NET وتثبيته من[هنا](https://releases.aspose.com/slides/net/).
-
-## إعداد المشروع
-
-1. قم بإنشاء مشروع جديد في Visual Studio باستخدام إطار عمل .NET.
-2. أضف مرجعًا إلى مجموعة Aspose.Slides في مشروعك.
-
-## تحميل عرض تقديمي
-
-للبدء، قم بتحميل العرض التقديمي الذي تريد العمل معه باستخدام الكود التالي:
-
+قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+-  Aspose.Slides لمكتبة .NET: تأكد من تثبيت Aspose.Slides لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
+- بيئة التطوير: قم بإعداد بيئة تطوير .NET على جهازك.
+## استيراد مساحات الأسماء
+في تطبيق .NET الخاص بك، قم باستيراد مساحات الأسماء الضرورية للعمل مع Aspose.Slides:
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Examples.CSharp;
+using Aspose.Slides.Util;
+using Aspose.Slides.Export;
+using Aspose.Slides.MathText;
 ```
-
-## الوصول إلى الأشكال في الشرائح
-
-قبل محاذاة الأشكال، تحتاج إلى الوصول إليها. وإليك كيف يمكنك القيام بذلك:
-
+## الخطوة 1: تهيئة العرض التقديمي
+ابدأ بتهيئة كائن عرض تقديمي وإضافة شريحة:
 ```csharp
-// الوصول إلى الشريحة الأولى
-ISlide slide = presentation.Slides[0];
-
-// الوصول إلى الأشكال عن طريق الفهرس
-IShape shape1 = slide.Shapes[0];
-IShape shape2 = slide.Shapes[1];
+string dataDir = "Your Document Directory";
+string outpptxFile = Path.Combine(dataDir, "ShapesAlignment_out.pptx");
+using (Presentation pres = new Presentation())
+{
+    ISlide slide = pres.Slides[0];
+    // إنشاء بعض الأشكال
+    // ...
+}
 ```
-
-## المحاذاة الأفقية
-
- يمكنك محاذاة الأشكال أفقيًا باستخدام`HorizontalAlignment` ملكية. هنا مثال:
-
+## الخطوة 2: محاذاة الأشكال داخل الشريحة
+ أضف أشكالًا إلى الشريحة وقم بمحاذاتها باستخدام`SlideUtil.AlignShapes` طريقة:
 ```csharp
-// محاذاة الأشكال أفقيا
-shape1.TextFrame.Paragraphs[0].ParagraphFormat.Alignment = TextAlignment.Center;
-shape2.TextFrame.Paragraphs[0].ParagraphFormat.Alignment = TextAlignment.Center;
+slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 100, 100);
+slide.Shapes.AddAutoShape(ShapeType.Rectangle, 200, 200, 100, 100);
+slide.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
+// محاذاة جميع الأشكال داخل IbaseSlide.
+SlideUtil.AlignShapes(ShapesAlignmentType.AlignBottom, true, pres.Slides[0]);
 ```
-
-## انحياز عمودي
-
- يمكن تحقيق المحاذاة العمودية باستخدام`VerticalAlignment` ملكية:
-
+## الخطوة 3: محاذاة الأشكال داخل المجموعة
+قم بإنشاء شكل مجموعة، وأضف الأشكال إليه، ثم قم بمحاذاتها داخل المجموعة:
 ```csharp
-// محاذاة الأشكال عموديا
-shape1.TextFrame.TextFrameFormat.AnchoringType = TextAnchorType.Top;
-shape2.TextFrame.TextFrameFormat.AnchoringType = TextAnchorType.Top;
+slide = pres.Slides.AddEmptySlide(slide.LayoutSlide);
+IGroupShape groupShape = slide.Shapes.AddGroupShape();
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 350, 50, 50, 50);
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 450, 150, 50, 50);
+// محاذاة جميع الأشكال داخل IGroupShape.
+SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape);
 ```
-
-## محاذاة إلى الشريحة
-
- لمحاذاة الأشكال فيما يتعلق بالشريحة، يمكنك استخدام`AlignToSlide` طريقة:
-
+## الخطوة 4: محاذاة أشكال محددة داخل المجموعة
+قم بمحاذاة أشكال محددة داخل مجموعة من خلال توفير فهارسها:
 ```csharp
-// محاذاة الأشكال إلى الشريحة
-shape1.AlignToSlide(ShapesAlignmentType.Bottom);
-shape2.AlignToSlide(ShapesAlignmentType.Bottom);
+slide = pres.Slides.AddEmptySlide(slide.LayoutSlide);
+groupShape = slide.Shapes.AddGroupShape();
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 350, 50, 50, 50);
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 450, 150, 50, 50);
+// محاذاة الأشكال مع الفهارس المحددة داخل IGroupShape.
+SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[] { 0, 2 });
 ```
-
-## توزيع الأشكال
-
-يعد توزيع الأشكال بالتساوي أمرًا ضروريًا للحفاظ على تخطيط نظيف. إليك كيفية توزيع الأشكال أفقيًا:
-
-```csharp
-// توزيع الأشكال أفقيا
-slide.Shapes.DistributeHorizontally();
-```
-
-## تطبيق المحاذاة على المجموعات
-
-إذا كان العرض التقديمي يحتوي على أشكال مجمعة، فيمكنك محاذاة المجموعة بأكملها:
-
-```csharp
-// الوصول إلى شكل مجمع
-IGroupShape groupShape = (IGroupShape)slide.Shapes[2];
-
-// قم بمحاذاة المجموعة أفقيًا
-groupShape.Align(ShapesAlignmentType.Center);
-```
-
-## حفظ العرض التقديمي المعدل
-
-بعد محاذاة الأشكال، احفظ العرض التقديمي المعدل:
-
-```csharp
-// احفظ العرض التقديمي المعدل
-presentation.Save("aligned-presentation.pptx", SaveFormat.Pptx);
-```
-
 ## خاتمة
-
-يوفر Aspose.Slides for .NET مجموعة شاملة من الأدوات لمحاذاة الأشكال في شرائح العرض التقديمي بسهولة. بدءًا من المحاذاة الأفقية والرأسية وحتى توزيع الأشكال ومحاذاة المجموعات، يمكنك تحسين المظهر المرئي لعروضك التقديمية دون عناء.
-
+يمكنك تحسين المظهر المرئي لشرائح العرض التقديمي بسهولة من خلال الاستفادة من Aspose.Slides لـ .NET لمحاذاة الأشكال بدقة. لقد زودك هذا الدليل التفصيلي بالمعرفة اللازمة لتبسيط عملية المحاذاة وإنشاء عروض تقديمية ذات مظهر احترافي.
 ## الأسئلة الشائعة
-
-### كيف يمكنني تثبيت Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل وتثبيت Aspose.Slides لـ .NET من[هنا](https://releases.aspose.com/slides/net/).
-
-### هل يمكنني محاذاة الأشكال أفقيًا وعموديًا في وقت واحد؟
-
-نعم، يمكنك محاذاة الأشكال أفقيًا وعموديًا لتحقيق موضع دقيق داخل الشرائح.
-
-### هل من الممكن محاذاة الأشكال داخل كائن مجمع؟
-
-قطعاً! يسمح لك Aspose.Slides for .NET بمحاذاة الأشكال داخل الكائنات المجمعة، مما يجعل الترتيبات المعقدة أمرًا سهلاً.
-
-### هل يدعم Aspose.Slides for .NET محاذاة الأشكال في تخطيطات الشرائح المختلفة؟
-
-نعم، يمكنك محاذاة الأشكال في تخطيطات الشرائح المختلفة، مما يضمن الاتساق والاحترافية عبر العرض التقديمي بأكمله.
-
-### كيف يمكنني توزيع الأشكال بالتساوي عبر الشريحة؟
-
-يمكنك توزيع الأشكال بالتساوي أفقيًا أو رأسيًا باستخدام الطرق المناسبة التي يوفرها Aspose.Slides لـ .NET.
+### هل يمكنني محاذاة الأشكال في عرض تقديمي موجود باستخدام Aspose.Slides لـ .NET؟
+ نعم، يمكنك تحميل عرض تقديمي موجود باستخدام`Presentation.Load` ثم تابع محاذاة الأشكال.
+### هل هناك خيارات محاذاة أخرى متاحة في Aspose.Slides؟
+يقدم Aspose.Slides خيارات محاذاة متنوعة، بما في ذلك AlignTop وAlignRight وAlignBottom وAlignLeft والمزيد.
+### هل يمكنني محاذاة الأشكال بناءً على توزيعها في الشريحة؟
+قطعاً! يوفر Aspose.Slides طرقًا لتوزيع الأشكال بالتساوي، أفقيًا وعموديًا.
+### هل Aspose.Slides مناسب للتطوير عبر الأنظمة الأساسية؟
+تم تصميم Aspose.Slides for .NET بشكل أساسي لتطبيقات Windows، لكن Aspose يوفر مكتبات لـ Java والأنظمة الأساسية الأخرى أيضًا.
+### كيف يمكنني الحصول على مزيد من المساعدة أو الدعم؟
+ قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.

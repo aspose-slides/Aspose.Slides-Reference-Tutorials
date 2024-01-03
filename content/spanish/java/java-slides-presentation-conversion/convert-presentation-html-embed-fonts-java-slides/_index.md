@@ -55,7 +55,7 @@ finally
 
 ## Paso 4: convertir la presentación a HTML
 
-Ahora que hemos integrado todas las fuentes, es hora de convertir la presentación a HTML. El código proporcionado en el Paso 3 manejará esta conversión.
+Ahora que hemos incorporado todas las fuentes, es hora de convertir la presentación a HTML. El código proporcionado en el Paso 3 manejará esta conversión.
 
 ## Paso 5: guardar el archivo HTML
 

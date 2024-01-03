@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
-Dieses Code-Snippet initialisiert die erforderlichen Verzeichnisse und Dateipfade, öffnet eine PowerPoint-Präsentation und konvertiert sie in eine SVG-Datei, während die Formatierung mithilfe von angewendet wird`MySvgShapeFormattingController`.
+ Dieses Code-Snippet initialisiert die erforderlichen Verzeichnisse und Dateipfade, öffnet eine PowerPoint-Präsentation und konvertiert sie in eine SVG-Datei, während die Formatierung mithilfe von angewendet wird`MySvgShapeFormattingController`.
 
 ## Den SVG Shape Formatting Controller verstehen
 
@@ -82,7 +82,7 @@ Diese Controller-Klasse übernimmt die Formatierung von Formen und Text innerhal
 
 ## Abschluss
 
- In diesem Tutorial haben wir untersucht, wie man SVG-Formen in Präsentationen mit Aspose.Slides für .NET formatiert. Sie haben gelernt, wie Sie Ihr Projekt einrichten und anwenden`MySvgShapeFormattingController` für eine präzise Formatierung und konvertieren Sie Ihre Präsentation in eine SVG-Datei. Wenn Sie diese Schritte befolgen, können Sie fesselnde Präsentationen erstellen, die bei Ihrem Publikum einen bleibenden Eindruck hinterlassen.
+ In diesem Tutorial haben wir untersucht, wie man SVG-Formen in Präsentationen mit Aspose.Slides für .NET formatiert. Sie haben gelernt, wie Sie Ihr Projekt einrichten und anwenden`MySvgShapeFormattingController`für eine präzise Formatierung und konvertieren Sie Ihre Präsentation in eine SVG-Datei. Wenn Sie diese Schritte befolgen, können Sie fesselnde Präsentationen erstellen, die bei Ihrem Publikum einen bleibenden Eindruck hinterlassen.
 
 Zögern Sie nicht, mit verschiedenen SVG-Formen und Formatierungsoptionen zu experimentieren, um Ihrer Kreativität freien Lauf zu lassen. Aspose.Slides für .NET bietet eine leistungsstarke Plattform zur Verbesserung Ihres Präsentationsdesigns.
 

@@ -51,7 +51,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ## Källkodsförklaring
 
--  Vi använder`Slides` samling av`Presentation` objekt för att komma åt bilder.
+- Vi använder`Slides` samling av`Presentation` objekt för att komma åt bilder.
 - Indexet för bilden i samlingen är 0-baserat, så den första bilden har ett index på 0, den andra bilden har ett index på 1 och så vidare.
 - Vi anger önskat bildindex för att hämta motsvarande bildobjekt.
 

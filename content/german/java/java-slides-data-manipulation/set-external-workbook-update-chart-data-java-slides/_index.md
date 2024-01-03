@@ -90,7 +90,7 @@ Ja, Sie können eine lokale Datei als externe Arbeitsmappe verwenden, indem Sie 
 
 ### Gibt es Einschränkungen bei der Verwendung externer Arbeitsmappen mit Aspose.Slides für Java?
 
-Obwohl die Verwendung externer Arbeitsmappen eine leistungsstarke Funktion ist, sollten Sie bedenken, dass die Verfügbarkeit der Daten der externen Arbeitsmappe davon abhängt, ob sie über die angegebene URL oder den Dateipfad zugänglich sind. Stellen Sie sicher, dass die externe Datenquelle verfügbar ist, wenn Sie die Präsentation öffnen, um Probleme beim Datenabruf zu vermeiden.
+Obwohl die Verwendung externer Arbeitsmappen eine leistungsstarke Funktion ist, sollten Sie bedenken, dass die Verfügbarkeit der Daten der externen Arbeitsmappe von deren Zugänglichkeit unter der angegebenen URL oder dem angegebenen Dateipfad abhängt. Stellen Sie sicher, dass die externe Datenquelle verfügbar ist, wenn Sie die Präsentation öffnen, um Probleme beim Datenabruf zu vermeiden.
 
 ### Kann ich das Erscheinungsbild des Diagramms anpassen, nachdem ich die externe Arbeitsmappe eingerichtet habe?
 

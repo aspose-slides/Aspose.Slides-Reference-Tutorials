@@ -15,7 +15,7 @@ url: /tr/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-
 
 Aspose.Slides for .NET kullanarak sunumları yönetmenin inceliklerine dalmadan önce geliştirme ortamınızı ayarlamanız gerekir. İşte yapmanız gerekenler:
 
-1.  Aspose.Slides for .NET'i indirin:[indirme sayfası](https://releases.aspose.com/slides/net/) Aspose.Slides for .NET'in en son sürümünü edinmek için.
+1.  Aspose.Slides for .NET'i indirin:[indirme sayfası](https://releases.aspose.com/slides/net/)Aspose.Slides for .NET'in en son sürümünü edinmek için.
 
 2. Aspose.Slides'ı yükleyin: Kitaplığı indirdikten sonra belgelerde verilen kurulum talimatlarını izleyin.
 
@@ -64,7 +64,7 @@ Aspose.Slides for .NET'in gerçek gücü, slayt içeriğini değiştirebilme yet
 // Slayt başlığını ayarla
 slide.Shapes.Title.TextFrame.Text = "Welcome to Aspose.Slides";
 
-// İçerik ekle
+//İçerik ekle
 IAutoShape contentShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 100, 600, 300);
 contentShape.TextFrame.Text = "Create stunning presentations with Aspose.Slides!";
 ```
@@ -117,7 +117,7 @@ Evet, Aspose.Slides, slayttaki ayrı ayrı öğelere animasyonlar eklemenize ola
 
 ### Aspose.Slides for .NET'in kapsamlı belgelerini nerede bulabilirim?
 
- Aspose.Slides for .NET'in kapsamlı belgelerine şu adresten ulaşabilirsiniz:[API Referansı](https://reference.aspose.com/slides/net/) sayfa.
+Aspose.Slides for .NET'in kapsamlı belgelerine şu adresten ulaşabilirsiniz:[API Referansı](https://reference.aspose.com/slides/net/) sayfa.
 
 ## Çözüm
 Bu kılavuzda, Aspose.Slides for .NET kullanarak sunumların normal görünüm durumunda nasıl yönetileceğini araştırdık. Güçlü özellikleri sayesinde sunumları programlı bir şekilde oluşturabilir, değiştirebilir ve geliştirebilirsiniz; böylece içeriğinizin hedef kitlenizi etkili bir şekilde cezbetmesini sağlayabilirsiniz. İster profesyonel bir sunumcu olun ister sunumla ilgili uygulamalar üzerinde çalışan bir geliştirici olun, Aspose.Slides for .NET kusursuz sunum yönetimine açılan kapınızdır.

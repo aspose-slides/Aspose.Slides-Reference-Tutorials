@@ -163,7 +163,7 @@ In questo tutorial, hai imparato come creare un grafico Sunburst in una presenta
 
 ### Come posso aggiungere suggerimenti al grafico Sunburst?
 
-Per aggiungere descrizioni comando al grafico Sunburst, puoi impostare il formato dell'etichetta dati per visualizzare informazioni aggiuntive, come valori o descrizioni, quando si passa con il mouse sui segmenti del grafico.
+Per aggiungere descrizioni comandi al grafico Sunburst, puoi impostare il formato dell'etichetta dati per visualizzare informazioni aggiuntive, come valori o descrizioni, quando si passa con il mouse sui segmenti del grafico.
 
 ### È possibile creare grafici Sunburst interattivi con collegamenti ipertestuali?
 

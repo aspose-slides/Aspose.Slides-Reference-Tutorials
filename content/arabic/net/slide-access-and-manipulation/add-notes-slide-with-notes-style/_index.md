@@ -37,7 +37,7 @@ using Aspose.Slides.Export;
 
 ### الخطوة 2.1: إنشاء فئة العرض التقديمي
 
- أولاً، نحتاج إلى إنشاء مثيل لـ`Presentation` الفئة التي تمثل ملف عرض PowerPoint التقديمي الخاص بك. يجب عليك توفير المسار إلى ملف العرض التقديمي الخاص بك في ملف`dataDir` عامل.
+ أولاً، نحتاج إلى إنشاء مثيل لـ`Presentation`الفئة التي تمثل ملف عرض PowerPoint التقديمي الخاص بك. يجب عليك توفير المسار إلى ملف العرض التقديمي الخاص بك في ملف`dataDir` عامل.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -105,7 +105,7 @@ Aspose.Slides for .NET هي مكتبة قوية للعمل مع ملفات Micro
  Aspose.Slides for .NET هي مكتبة تجارية، وتتطلب ترخيصًا للاستخدام الكامل. ومع ذلك، يمكنك استكشافه من خلال النسخة التجريبية المجانية المتاحة[هنا](https://releases.aspose.com/).
 
 ### هل يمكنني تجربة Aspose.Slides لـ .NET بترخيص مؤقت؟
- نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار والتقييم من[هنا](https://purchase.aspose.com/temporary-license/).
+نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار والتقييم من[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### هل يوجد منتدى مجتمعي أو دعم متاح لـ Aspose.Slides for .NET؟
  نعم، يمكنك طلب المساعدة والمشاركة في المناقشات في منتدى مجتمع Aspose.Slides for .NET[هنا](https://forum.aspose.com/).

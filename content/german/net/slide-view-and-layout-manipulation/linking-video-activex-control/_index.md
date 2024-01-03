@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## FAQs:
 
 ### Wie kann ich die Größe und Position des verlinkten Videos auf der Folie festlegen?
- Sie können die Abmessungen und Position des ActiveX-Steuerrahmens mithilfe der Parameter anpassen`AddOleObjectFrame`Methode. Die vier numerischen Argumente repräsentieren die X- und Y-Koordinaten der oberen linken Ecke sowie die Breite und Höhe des Rahmens.
+ Sie können die Abmessungen und Position des ActiveX-Steuerrahmens mithilfe der Parameter anpassen`AddOleObjectFrame` Methode. Die vier numerischen Argumente repräsentieren die X- und Y-Koordinaten der oberen linken Ecke sowie die Breite und Höhe des Rahmens.
 
 ### Kann ich mit diesem Ansatz Videos unterschiedlicher Formate verknüpfen?
 Ja, Sie können Videos verschiedener Formate verknüpfen, sofern das entsprechende ActiveX-Steuerelement für dieses Format verfügbar ist. Das in diesem Handbuch verwendete ActiveX-Steuerelement ShockwaveFlash ist beispielsweise für Flash-Videos (SWF) geeignet. Für andere Formate müssen Sie möglicherweise andere ProgIDs verwenden.

@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 После того как вы определили фрейм объекта OLE, вы можете извлечь его данные для манипуляций. Например, если объект OLE представляет собой встроенную электронную таблицу Excel, вы можете получить доступ к его данным следующим образом:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // Обработка исходных данных по мере необходимости
-}
+
 ```
 
 ### 5. Изменение фреймов объектов OLE
@@ -64,19 +62,17 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Aspose.Slides позволяет вам программно изменять кадры объектов OLE. Предположим, вы хотите обновить содержимое встроенного документа Word. Вот как вы можете этого добиться:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // Изменить внедренные данные
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## Часто задаваемые вопросы
 
 ### Как определить тип кадра объекта OLE?
 
- Чтобы определить тип кадра объекта OLE, вы можете использовать`OleObjectType` недвижимость, доступная на территории`OleObjectFrame` сорт.
+ Чтобы определить тип кадра объекта OLE, вы можете использовать`OleObjectType`недвижимость, доступная на территории`OleObjectFrame` сорт.
 
 ### Могу ли я извлечь объекты OLE как отдельные файлы?
 

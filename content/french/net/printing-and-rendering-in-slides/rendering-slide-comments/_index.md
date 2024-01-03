@@ -2,150 +2,87 @@
 title: Rendu des commentaires de diapositive dans Aspose.Slides
 linktitle: Rendu des commentaires de diapositive dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment afficher les commentaires de diapositives dans des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit des exemples de code source pour accéder, personnaliser et afficher les commentaires par programmation.
+description: Découvrez comment afficher les commentaires des diapositives dans Aspose.Slides pour .NET avec notre didacticiel étape par étape. Personnalisez l'apparence des commentaires et améliorez votre automatisation PowerPoint.
 type: docs
 weight: 12
 url: /fr/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
 ## Introduction
-
-Les commentaires de diapositives offrent des informations, des explications et des discussions précieuses liées à des diapositives spécifiques d'une présentation. Le rendu de ces commentaires par programmation peut rationaliser le processus de révision et de collaboration. Aspose.Slides for .NET simplifie cette tâche en fournissant un ensemble complet d'API pour gérer et afficher les commentaires des diapositives.
-
+Bienvenue dans notre didacticiel complet sur le rendu des commentaires de diapositives à l'aide d'Aspose.Slides pour .NET ! Aspose.Slides est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des présentations PowerPoint dans leurs applications .NET. Dans ce guide, nous nous concentrerons sur une tâche spécifique (le rendu des commentaires sur les diapositives) et vous guiderons pas à pas tout au long du processus.
 ## Conditions préalables
-
-Avant de nous lancer dans la mise en œuvre, assurez-vous que les conditions préalables suivantes sont en place :
-
-- Visual Studio installé sur votre ordinateur.
-- Compréhension de base du développement C# et .NET.
--  Aspose.Slides pour la bibliothèque .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
-
-## Mise en place du projet
-
-1. Créez un nouveau projet C# dans Visual Studio.
-
-2. Ajoutez une référence à la bibliothèque Aspose.Slides for .NET dans votre projet.
-
-## Chargement d'une présentation
-
-Pour commencer, chargeons une présentation PowerPoint contenant des commentaires de diapositive :
-
+Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants en place :
+-  Bibliothèque Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides pour .NET est installée dans votre environnement de développement. Si ce n'est pas déjà fait, vous pouvez le télécharger[ici](https://releases.aspose.com/slides/net/).
+- Environnement de développement : mettre en place un environnement de développement .NET fonctionnel et avoir une compréhension de base de C#.
+Maintenant, commençons avec le tutoriel !
+## Importer des espaces de noms
+Dans votre code C#, vous devez importer les espaces de noms nécessaires pour utiliser les fonctionnalités Aspose.Slides. Ajoutez les lignes suivantes au début de votre fichier :
 ```csharp
+using Aspose.Slides.Export;
 using Aspose.Slides;
-
-// Charger la présentation
-using var presentation = new Presentation("presentation.pptx");
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 ```
-
-## Accéder aux commentaires des diapositives
-
-Parcourons ensuite les diapositives de la présentation et accédons aux commentaires associés à chaque diapositive :
-
+## Étape 1 : Configurez votre répertoire de documents
+Commencez par spécifier le chemin d'accès à votre répertoire de documents où se trouve la présentation PowerPoint :
 ```csharp
-// Parcourez les diapositives
-foreach (var slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+```
+## Étape 2 : Spécifiez le chemin de sortie
+Définissez le chemin où vous souhaitez enregistrer l'image rendue avec des commentaires :
+```csharp
+string resultPath = Path.Combine(dataDir, "OutPresBitmap_Comments.png");
+```
+## Étape 3 : Charger la présentation
+Chargez la présentation PowerPoint à l'aide de la bibliothèque Aspose.Slides :
+```csharp
+Presentation pres = new Presentation(dataDir + "presentation.pptx");
+```
+## Étape 4 : Créer un bitmap pour le rendu
+Créez un objet bitmap avec les dimensions souhaitées :
+```csharp
+Bitmap bmp = new Bitmap(740, 960);
+```
+## Étape 5 : configurer les options de rendu
+Configurez les options de rendu, y compris les options de mise en page pour les notes et les commentaires :
+```csharp
+IRenderingOptions renderOptions = new RenderingOptions();
+NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+notesOptions.CommentsAreaColor = Color.Red;
+notesOptions.CommentsAreaWidth = 200;
+notesOptions.CommentsPosition = CommentsPositions.Right;
+notesOptions.NotesPosition = NotesPositions.BottomTruncated;
+renderOptions.SlidesLayoutOptions = notesOptions;
+```
+## Étape 6 : Rendu vers les graphiques
+Affichez la première diapositive avec des commentaires sur l'objet graphique spécifié :
+```csharp
+using (Graphics graphics = Graphics.FromImage(bmp))
 {
-    // Accéder aux commentaires des diapositives
-    var comments = slide.Comments;
-    foreach (var comment in comments)
-    {
-        // Accéder aux propriétés des commentaires
-        var author = comment.Author;
-        var text = comment.Text;
-        
-        // Traitez le commentaire si nécessaire
-    }
+    pres.Slides[0].RenderToGraphics(renderOptions, graphics);
 }
 ```
-
-## Rendu des commentaires sur les diapositives
-
-Maintenant, affichons les commentaires sur les diapositives. Nous ajouterons les commentaires sous forme de zones de texte sous chaque diapositive :
-
+## Étape 7 : Enregistrez le résultat
+Enregistrez l'image rendue avec les commentaires dans le chemin spécifié :
 ```csharp
-foreach (var slide in presentation.Slides)
-{
-    // Accéder aux commentaires des diapositives
-    var comments = slide.Comments;
-    foreach (var comment in comments)
-    {
-        // Créer une zone de texte pour le commentaire
-        var textBox = slide.Shapes.AddTextFrame("");
-        var textFrame = textBox.TextFrame;
-        
-        // Définir les propriétés du commentaire sous forme de texte
-        textFrame.Text = $"{comment.Author}: {comment.Text}";
-        
-        // Positionnez la zone de texte sous la diapositive
-        textBox.Left = slide.SlideSize.Size.Width / 2;
-        textBox.Top = slide.SlideSize.Size.Height + 20;
-        
-        // Personnalisez l'apparence de la zone de texte si nécessaire
-        
-        // Traitez le commentaire si nécessaire
-    }
-}
+bmp.Save(resultPath, ImageFormat.Png);
 ```
-
-## Personnalisation du rendu des commentaires
-
-Vous pouvez personnaliser davantage l'apparence des commentaires rendus, comme la taille, la couleur et la position de la police. Cela vous permet d'adapter les commentaires au style de votre présentation :
-
+## Étape 8 : Afficher le résultat
+Ouvrez l'image rendue à l'aide de la visionneuse d'images par défaut :
 ```csharp
-// Personnaliser l'apparence de la zone de texte
-var fontHeight = 12;
-var fontColor = Color.Black;
-var margin = 20;
-
-foreach (var slide in presentation.Slides)
-{
-    // ...
-    foreach (var comment in comments)
-    {
-        // ...
-        
-        // Personnaliser l'apparence de la zone de texte
-        textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
-        textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
-        
-        //Ajuster la position de la zone de texte
-        textBox.Top = slide.SlideSize.Size.Height - margin;
-        margin += 30; // Augmenter la marge pour le prochain commentaire
-    }
-}
+System.Diagnostics.Process.Start(resultPath);
 ```
-
-## Enregistrement de la présentation rendue
-
-Une fois que vous avez rendu les commentaires sur les diapositives, vous pouvez enregistrer la présentation modifiée :
-
-```csharp
-// Enregistrez la présentation modifiée
-presentation.Save("rendered_presentation.pptx", SaveFormat.Pptx);
-```
-
+Toutes nos félicitations! Vous avez réussi à restituer les commentaires des diapositives à l’aide d’Aspose.Slides pour .NET.
 ## Conclusion
-
-Dans ce guide, nous avons exploré comment afficher les commentaires de diapositives dans des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. En suivant les étapes décrites ci-dessus, vous pouvez accéder et afficher les commentaires par programmation, améliorant ainsi la collaboration et la communication au sein de vos diaporamas.
-
-## FAQ
-
-### Comment puis-je installer Aspose.Slides pour .NET ?
-
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de[ce lien](https://releases.aspose.com/slides/net/). Une fois téléchargé, vous pouvez l'ajouter comme référence dans votre projet Visual Studio.
-
-### Puis-je personnaliser l'apparence des commentaires rendus ?
-
-Oui, vous pouvez personnaliser l'apparence des commentaires rendus, notamment la taille, la couleur et la position de la police. Cela vous permet d'adapter les commentaires au style de votre présentation.
-
-### Comment puis-je accéder aux propriétés des commentaires individuels ?
-
- Vous pouvez accéder aux propriétés des commentaires telles que l'auteur et le texte à l'aide du`Author` et`Text` propriétés de l'objet commentaire.
-
-### Puis-je afficher les commentaires sous forme de légendes au lieu de zones de texte ?
-
-Oui, vous pouvez afficher les commentaires sous forme de légendes en créant des formes personnalisées et en y ajoutant du texte. Vous devrez ajuster la position et l'apparence des légendes en conséquence.
-
-### Aspose.Slides for .NET est-il adapté à d’autres tâches liées à PowerPoint ?
-
-Absolument! Aspose.Slides pour .NET fournit une large gamme d'API pour travailler avec des présentations PowerPoint. Vous pouvez créer, modifier, convertir et manipuler divers aspects des présentations par programmation.
+Dans ce didacticiel, nous avons exploré le processus de rendu des commentaires de diapositives à l'aide d'Aspose.Slides pour .NET. En suivant le guide étape par étape, vous pouvez facilement améliorer vos capacités d'automatisation PowerPoint.
+## Questions fréquemment posées
+### Q : Aspose.Slides est-il compatible avec les dernières versions du framework .NET ?
+R : Oui, Aspose.Slides est régulièrement mis à jour pour prendre en charge les dernières versions du framework .NET.
+### Q : Puis-je personnaliser l'apparence des commentaires affichés ?
+R : Absolument ! Le didacticiel comprend des options permettant de personnaliser la couleur, la largeur et la position de la zone de commentaire.
+### Q : Où puis-je trouver plus de documentation sur Aspose.Slides pour .NET ?
+ R : Explorez la documentation[ici](https://reference.aspose.com/slides/net/).
+### Q : Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
+ R : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+### Q : Où puis-je demander de l'aide et du support pour Aspose.Slides ?
+ R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté.

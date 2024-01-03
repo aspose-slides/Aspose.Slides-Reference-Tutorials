@@ -10,7 +10,7 @@ url: /tr/java/saving-options/save-as-read-only-in-java-slides/
 
 ## Aspose.Slides for Java Kullanarak Java Slaytlarında Salt Okunur Olarak Kaydetmeye Giriş
 
-Günümüzün dijital çağında belgelerinizin güvenliğini ve bütünlüğünü sağlamak çok önemlidir. Java'da PowerPoint sunumlarıyla çalışıyorsanız, yetkisiz değişiklikleri önlemek için bunları salt okunur olarak kaydetmeniz gerekebilir. Bu kapsamlı kılavuzda, güçlü Aspose.Slides for Java API'sini kullanarak bunu nasıl başarabileceğinizi keşfedeceğiz. Sunumlarınızı etkili bir şekilde korumanıza yardımcı olmak için size adım adım talimatlar ve kaynak kodu örnekleri sunacağız.
+Günümüzün dijital çağında belgelerinizin güvenliğini ve bütünlüğünü sağlamak çok önemlidir. Java'da PowerPoint sunumlarıyla çalışıyorsanız, yetkisiz değişiklikleri önlemek için bunları salt okunur olarak kaydetmeniz gerekebilir. Bu kapsamlı kılavuzda, güçlü Aspose.Slides for Java API'sini kullanarak bunu nasıl başarabileceğinizi inceleyeceğiz. Sunumlarınızı etkili bir şekilde korumanıza yardımcı olmak için size adım adım talimatlar ve kaynak kodu örnekleri sunacağız.
 
 ## Önkoşullar
 
@@ -116,7 +116,7 @@ Evet, salt okunur koruma ve yazma koruması için farklı şifreler ayarlayabili
 - `setReadProtection(String password)` salt okunur koruma için.
 - `setWriteProtection(String password)` yazma koruması için.
 
-### Bir sunumdaki belirli slaytları korumak mümkün mü?
+### Bir sunumdaki belirli slaytları korumak mümkün müdür?
 
  Evet, tek tek slaytlarda yazma korumasını ayarlayarak bir sunumdaki belirli slaytları koruyabilirsiniz. Kullan`Slide` nesnenin`getProtectionManager()`Belirli slaytlara yönelik korumayı yönetme yöntemi.
 

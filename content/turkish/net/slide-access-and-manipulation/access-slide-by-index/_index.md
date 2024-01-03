@@ -51,7 +51,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ## Kaynak Kodu Açıklaması
 
--  biz kullanıyoruz`Slides` koleksiyonu`Presentation` slaytlara erişmek için nesne.
+- biz kullanıyoruz`Slides` koleksiyonu`Presentation` slaytlara erişmek için nesne.
 - Koleksiyondaki slaydın dizini 0 tabanlıdır, dolayısıyla ilk slaydın dizini 0'dır, ikinci slaydın dizini 1'dir vb.
 - İlgili slayt nesnesini almak için istenilen slayt indeksini belirtiriz.
 

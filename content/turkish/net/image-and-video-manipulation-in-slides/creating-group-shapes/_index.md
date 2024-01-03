@@ -1,132 +1,100 @@
 ---
-title: Aspose.Slides ile Sunum Slaytlarında Grup Şekilleri Oluşturma
+title: Aspose.Slides - .NET'te Grup Şekilleri Oluşturma
 linktitle: Aspose.Slides ile Sunum Slaytlarında Grup Şekilleri Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak grup şekilleriyle büyüleyici sunum slaytları oluşturmayı öğrenin. Şekilleri kolayca eklemek, gruplamak ve dönüştürmek ve sunumlarınızı geliştirmek için adım adım kılavuzumuzu ve kaynak kodu örneğimizi takip edin.
+description: Aspose.Slides for .NET ile PowerPoint'te grup şekilleri oluşturmayı öğrenin. Görsel olarak çekici sunumlar için adım adım kılavuzumuzu izleyin.
 type: docs
 weight: 11
 url: /tr/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
-
-## Aspose.Slides for .NET'e Giriş
-
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarını programlı olarak düzenlemesine olanak tanıyan kapsamlı ve zengin özelliklere sahip bir kitaplıktır. Sunum dosyalarını oluşturmak, değiştirmek veya dönüştürmek istiyorsanız Aspose.Slides, süreci basitleştirmek için çok çeşitli araçlar ve işlevler sunar.
-
+## giriiş
+Sunum slaytlarınızın görsel çekiciliğini artırmak ve içeriği daha verimli bir şekilde düzenlemek istiyorsanız grup şekillerini birleştirmek güçlü bir çözümdür. Aspose.Slides for .NET, PowerPoint sunumlarınızda grup şekilleri oluşturmanın ve değiştirmenin kusursuz bir yolunu sunar. Bu eğitimde Aspose.Slides'ı kullanarak grup şekilleri oluşturma sürecini takip edilmesi kolay adımlara ayırarak anlatacağız.
 ## Önkoşullar
-
-Aspose.Slides for .NET ile çalışmaya başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-
-- Visual Studio: Visual Studio'yu makinenize yükleyin.
--  Aspose.Slides Kütüphanesi: Projenizde Aspose.Slides kütüphanesini indirin ve referans alın. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
-
-## Aspose.Slides'ı Projenize Ekleme
-
-1. Verilen bağlantıdan Aspose.Slides kütüphanesini indirin.
-2. Visual Studio'da yeni bir proje oluşturun veya mevcut bir projeyi açın.
-3. Çözüm Gezgini'nde projenize sağ tıklayın ve "NuGet Paketlerini Yönet"i seçin.
-4. "Gözat" sekmesini seçin ve "Aspose.Slides"ı arayın.
-5. Aspose.Slides paketini projenize yükleyin.
-
-## Yeni Bir Sunu Oluşturma
-
-Aspose.Slides'ı kullanarak yeni bir PowerPoint sunumu oluşturarak başlayalım:
-
+Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+-  Aspose.Slides for .NET: Aspose.Slides kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
+- Geliştirme Ortamı: Visual Studio gibi .NET uyumlu bir IDE ile bir çalışma ortamı kurun.
+- Temel C# Bilgisi: C# programlama dilinin temellerine aşina olun.
+## Ad Alanlarını İçe Aktar
+C# projenizde gerekli ad alanlarını içe aktararak başlayın:
 ```csharp
+using Aspose.Slides.Export;
 using Aspose.Slides;
-
-// Yeni bir sunu oluşturma
-Presentation presentation = new Presentation();
 ```
+## Adım 1: Sunum Sınıfını Başlatın
 
-## Slayta Şekiller Ekleme
-
-Daha sonra slayta bazı şekiller ekleyelim. Bu örnekte iki dikdörtgen ekleyeceğiz:
+ Bir örneğini oluşturun`Presentation` class'ı seçin ve belgelerinizin saklandığı dizini belirtin:
 
 ```csharp
-// İlk slayda erişin
-ISlide slide = presentation.Slides[0];
-
-// Slayta dikdörtgenler ekleme
-IShape shape1 = slide.Shapes.AddRectangle(100, 100, 200, 100);
-IShape shape2 = slide.Shapes.AddRectangle(300, 100, 150, 150);
-```
-
-## Şekilleri Birlikte Gruplandırma
-
-Şimdi şekilleri toplu olarak yönetmek için birlikte gruplayalım:
-
-```csharp
-// Grup şekilleri
-IGroupShape groupShape = slide.Shapes.GroupShapes(new IShape[] { shape1, shape2 });
-```
-
-## Gruplandırılmış Şekillere Dönüşümler Uygulama
-
-Gruplandırılmış şekillere çeşitli dönüşümler uygulayabilirsiniz. Örneğin gruplandırılmış şekilleri 45 derece döndürelim:
-
-```csharp
-// Grubu 45 derece döndürün
-groupShape.Rotation = 45;
-```
-
-## Kaynak Kodu Örneği
-
-Aspose.Slides'ı kullanarak grup şekilleri oluşturmanın tam kaynak kodu örneğini burada bulabilirsiniz:
-
-```csharp
-using Aspose.Slides;
-
-namespace GroupShapesExample
+string dataDir = "Your Documents Directory";
+using (Presentation pres = new Presentation())
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Yeni bir sunu oluşturma
-            Presentation presentation = new Presentation();
-
-            // İlk slayda erişin
-            ISlide slide = presentation.Slides[0];
-
-            // Slayta dikdörtgenler ekleme
-            IShape shape1 = slide.Shapes.AddRectangle(100, 100, 200, 100);
-            IShape shape2 = slide.Shapes.AddRectangle(300, 100, 150, 150);
-
-            // Grup şekilleri
-            IGroupShape groupShape = slide.Shapes.GroupShapes(new IShape[] { shape1, shape2 });
-
-            // Grubu 45 derece döndürün
-            groupShape.Rotation = 45;
-
-            // Sunuyu kaydet
-            presentation.Save("GroupShapesExample.pptx", SaveFormat.Pptx);
-        }
-    }
+    // Bu kullanım bloğu içerisinde aşağıdaki adımlarla devam edin
 }
 ```
 
+## Adım 2: İlk Slayta Erişin
+
+Sunumdan ilk slaydı alın:
+
+```csharp
+ISlide sld = pres.Slides[0];
+```
+
+## 3. Adım: Şekil Koleksiyonuna Erişim
+
+Slayttaki şekil koleksiyonuna erişin:
+
+```csharp
+IShapeCollection slideShapes = sld.Shapes;
+```
+
+## Adım 4: Grup Şekli Ekleme
+
+Slayta bir grup şekli ekleyin:
+
+```csharp
+IGroupShape groupShape = slideShapes.AddGroupShape();
+```
+
+## Adım 5: Grup Şeklinin İçine Şekiller Ekleme
+
+Grup şeklini ayrı şekillerle doldurun:
+
+```csharp
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
+groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
+```
+
+## Adım 6: Grup Şekil Çerçevesi Ekleme
+
+Tüm grup şeklinin çerçevesini tanımlayın:
+
+```csharp
+groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
+```
+
+## Adım 7: Sunuyu Kaydet
+
+Değiştirilen sunumu belirttiğiniz dizine kaydedin:
+
+```csharp
+pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
+```
+
+Aspose.Slides'ı kullanarak sunum slaytlarınızda başarıyla grup şekilleri oluşturmak için C# uygulamanızda bu adımları tekrarlayın.
+
 ## Çözüm
-
-Bu eğitimde Aspose.Slides for .NET kullanarak sunum slaytlarında grup şekillerinin nasıl oluşturulacağını öğrendiniz. Kitaplık, sunumlarınızı dinamik olarak geliştirmek için şekiller eklemek, bunları bir arada gruplamak ve dönüşümler uygulamak için basit bir yol sağlar.
-
-## SSS'ler
-
-### Aspose.Slides for .NET'i nasıl yüklerim?
-
-Aspose.Slides kütüphanesini sağlanan bağlantıdan indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net/). İndirdikten sonra NuGet paketlerini kullanarak projenize ekleyebilirsiniz.
-
-### Gruplandırılmış şekillere farklı dönüşümler uygulayabilir miyim?
-
-Evet, gruplandırılmış şekillere döndürme, ölçekleme ve konumlandırma gibi çeşitli dönüşümler uygulayarak slaytlarınızın görsel görünümünü özelleştirebilirsiniz.
-
-### Aspose.Slides sunum oluşturmaya ve değiştirmeye uygun mu?
-
-Kesinlikle! Aspose.Slides for .NET, sunum dosyalarının oluşturulmasını, değiştirilmesini ve dönüştürülmesini destekleyen çok yönlü bir kitaplıktır. Farklı ihtiyaçlara cevap verecek geniş bir özellik yelpazesi sunar.
-
-### Farklı türdeki şekilleri bir arada gruplayabilir miyim?
-
- Evet, dikdörtgenler, daireler ve metin kutuları gibi farklı türdeki şekilleri birlikte gruplandırabilirsiniz.`GroupShapes` yöntem. Bu, bunları toplu olarak yönetmenize ve manipüle etmenize olanak tanır.
-
-### Aspose.Slides yalnızca .NET uygulamalarına uygun mudur?
-
-Evet, Aspose.Slides özellikle .NET uygulamaları için tasarlanmıştır. Ancak Java gibi diğer programlama dilleri için de versiyonlar mevcuttur.
+Bu eğitimde Aspose.Slides for .NET ile grup şekilleri oluşturma sürecini inceledik. Bu adımları izleyerek PowerPoint sunumlarınızın görsel çekiciliğini ve organizasyonunu geliştirebilirsiniz.
+## Sıkça Sorulan Sorular
+### Aspose.Slides .NET'in en son sürümüyle uyumlu mu?
+ Evet, Aspose.Slides en son .NET sürümlerini destekleyecek şekilde düzenli olarak güncellenmektedir. Kontrol edin[dokümantasyon](https://reference.aspose.com/slides/net/) uyumluluk ayrıntıları için.
+### Satın almadan önce Aspose.Slides'ı deneyebilir miyim?
+ Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+### Aspose.Slides ile ilgili sorgular için nereden destek bulabilirim?
+ Aspose.Slides'ı ziyaret edin[forum](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
+### Aspose.Slides için geçici lisansı nasıl edinebilirim?
+ Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+### Aspose.Slides'ın tam lisansını nereden satın alabilirim?
+ Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).

@@ -42,7 +42,7 @@ class Program
 
 ## Tüm Slaytları Alma
 
- Sunum yüklendikten sonra, tüm slaytları`Slides` Toplamak. İşte nasıl:
+ Sunum yüklendikten sonra, tüm slaytları`Slides`Toplamak. İşte nasıl:
 
 ```csharp
 // Tüm slaytları al
@@ -69,7 +69,7 @@ Color background = firstSlide.Background.Type == BackgroundType.Solid
     : Color.Transparent;
 ```
 
-## Kaynak Kodu Çözümü
+## Kaynak Kodu Çözüm Yolu
 
 Bir sunumdaki tüm slaytları almak için kaynak kodunun tamamını gözden geçirelim:
 

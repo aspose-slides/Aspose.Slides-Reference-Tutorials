@@ -84,7 +84,7 @@ using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlide.pptx")
 
 Aspose.Slides for .NET 简化了在 .NET 应用程序中生成幻灯片缩略图的过程。通过遵循本指南中概述的步骤，您可以轻松创建吸引人的幻灯片预览来吸引观众。
 
-无论您是构建演示管理系统还是增强业务演示，Aspose.Slides for .NET 都可以让您高效地处理 PowerPoint 文档。尝试一下并增强您的应用程序的功能。
+无论您是构建演示管理系统还是增强业务演示文稿，Aspose.Slides for .NET 都可以让您高效地处理 PowerPoint 文档。尝试一下并增强您的应用程序的功能。
 
 如果您有任何疑问或需要进一步帮助，您可以随时参考[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/)或联系 Aspose 社区[支持论坛](https://forum.aspose.com/).
 

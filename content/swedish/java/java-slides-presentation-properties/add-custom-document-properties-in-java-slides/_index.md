@@ -67,7 +67,7 @@ String getPropertyName = documentProperties.getCustomPropertyName(2);
 Om du vill ta bort en anpassad egenskap kan du göra det genom att ange dess namn. Här tar vi bort egendomen vi fick i steg 5.
 
 ```java
-// Tar bort vald egenskap
+// Tar bort den valda egenskapen
 documentProperties.removeCustomProperty(getPropertyName);
 ```
 
@@ -95,7 +95,7 @@ documentProperties.set_Item("My Name", "Mudassir");
 documentProperties.set_Item("Custom", 124);
 // Hämtar egenskapens namn vid ett visst index
 String getPropertyName = documentProperties.getCustomPropertyName(2);
-// Tar bort vald egenskap
+// Tar bort den valda egenskapen
 documentProperties.removeCustomProperty(getPropertyName);
 // Sparar presentation
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);

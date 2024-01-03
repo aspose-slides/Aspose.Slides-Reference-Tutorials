@@ -100,5 +100,5 @@ Bei technischen oder produktbezogenen Fragen können Sie die besuchen[Aspose.Sli
 
 ### 5. Welche anderen Übergangseffekte kann ich mit Aspose.Slides für .NET anwenden?
 
- Aspose.Slides für .NET bietet eine Vielzahl von Übergangseffekten, darunter Einblendungen, Schiebebewegungen, Wischeffekte und mehr. Sie können die Dokumentation dazu durchsuchen[Aspose.Slides für .NET-Dokumentationsseite](https://reference.aspose.com/slides/net/) Einzelheiten zu allen verfügbaren Übergangstypen finden Sie hier.
+ Aspose.Slides für .NET bietet eine Vielzahl von Übergangseffekten, darunter Überblendungen, Schiebebewegungen, Wischeffekte und mehr. Sie können die Dokumentation dazu durchsuchen[Aspose.Slides für .NET-Dokumentationsseite](https://reference.aspose.com/slides/net/) Einzelheiten zu allen verfügbaren Übergangstypen finden Sie hier.
 

@@ -44,7 +44,7 @@ using Presentation presentation = new Presentation("path_to_existing_presentatio
 
  Reemplazar`"path_to_existing_presentation.pptx"` con la ruta real a su archivo de presentación existente.
 
-## Paso 4: crear nuevas diapositivas
+## Paso 4: crea nuevas diapositivas
 
 A continuación, creemos nuevas diapositivas que desea insertar en la presentación. Puede personalizar el contenido y el diseño de estas diapositivas según sus requisitos.
 
@@ -106,4 +106,4 @@ Absolutamente. Puede cambiar la disposición, el diseño y el formato de las dia
 
 ### ¿Dónde puedo encontrar más información sobre Aspose.Slides para .NET?
 
-Para obtener documentación detallada y ejemplos, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
+ Para obtener documentación detallada y ejemplos, consulte la[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).

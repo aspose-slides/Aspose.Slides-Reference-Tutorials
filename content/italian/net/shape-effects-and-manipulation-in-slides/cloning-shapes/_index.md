@@ -50,7 +50,7 @@ IShape sourceShape = presentation.Slides[0].Shapes[0];
 
 ### Passaggio 4: clona la forma
 
- Ora usa il`CloneShape`metodo per creare un duplicato della forma di origine. È possibile specificare la diapositiva di destinazione e la posizione della forma clonata.
+ Ora usa il`CloneShape` metodo per creare un duplicato della forma di origine. È possibile specificare la diapositiva di destinazione e la posizione della forma clonata.
 
 ```csharp
 IShape clonedShape = presentation.Slides[1].Shapes.AddClone(sourceShape, x, y, width, height);

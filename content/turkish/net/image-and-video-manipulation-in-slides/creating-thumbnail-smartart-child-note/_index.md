@@ -2,103 +2,63 @@
 title: Aspose.Slides'ta SmartArt Alt Notu için Küçük Resim Oluşturma
 linktitle: Aspose.Slides'ta SmartArt Alt Notu için Küçük Resim Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak SmartArt alt notları için küçük resimler oluşturmayı öğrenin. Tam kaynak kodunu içeren adım adım kılavuz.
+description: Aspose.Slides for .NET'i kullanarak büyüleyici SmartArt Child Note küçük resimlerini nasıl oluşturacağınızı öğrenin. Sunumlarınızı dinamik görsellerle zenginleştirin!
 type: docs
 weight: 15
 url: /tr/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
-
-## SmartArt Çocuk Notu için Küçük Resim Oluşturmaya Giriş
-
-Bu eğitimde, .NET'teki Aspose.Slides kütüphanesini kullanarak SmartArt alt notu için küçük resim oluşturma sürecini anlatacağız. Aspose.Slides, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. Kodu göstererek ve sürecin her bölümünü açıklayarak adım adım ilerleyeceğiz.
-
+## giriiş
+Dinamik sunumlar alanında Aspose.Slides for .NET, geliştiricilere PowerPoint sunumlarını programlı olarak değiştirme ve geliştirme yeteneği sağlayan güçlü bir araç olarak öne çıkıyor. İlgi çekici özelliklerden biri, SmartArt Çocuk Notları için küçük resimler oluşturarak sunumlarınıza görsel çekicilik katmanı ekleme yeteneğidir. Bu adım adım kılavuz, Aspose.Slides for .NET kullanarak SmartArt Alt Notları için küçük resimler oluşturma sürecinde size yol gösterecektir.
 ## Önkoşullar
-
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-
-- Visual Studio (veya herhangi bir başka .NET geliştirme ortamı) yüklü.
--  Aspose.Slides for .NET kitaplığı. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
-
-## Projenin Kurulumu
-
-1. Visual Studio'da yeni bir C# projesi oluşturun.
-2. Aspose.Slides for .NET kitaplığına bir referans ekleyin.
-
-## Sunumu Yükleme
-
+Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+- Aspose.Slides for .NET: Aspose.Slides kütüphanesinin .NET projenize entegre olduğundan emin olun. Değilse, şuradan indirin:[sürümler sayfası](https://releases.aspose.com/slides/net/).
+- Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamı kurun ve C# programlama konusunda temel bir anlayışa sahip olun.
+- Örnek Sunum: Test için SmartArt ile Çocuk Notlarını içeren bir PowerPoint sunumu oluşturun veya edinin.
+## Ad Alanlarını İçe Aktar
+Gerekli ad alanlarını C# projenize aktararak başlayın. Bu ad alanları Aspose.Slides ile çalışmak için gereken sınıflara ve yöntemlere erişim sağlar.
 ```csharp
+using System.Drawing;
+using System.Drawing.Imaging;
+using Aspose.Slides.SmartArt;
 using Aspose.Slides;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Sunuyu yükle
-        using (Presentation presentation = new Presentation("presentation.pptx"))
-        {
-            // Kodunuz burada
-        }
-    }
-}
 ```
-
-## SmartArt Şekillerine Erişim
-
+## Adım 1: Sunum Sınıfını Başlatın
+ Örnekleme yaparak başlayın`Presentation` çalışacağınız PPTX dosyasını temsil eden sınıf.
 ```csharp
-// İlk slaytta bir SmartArt şeklimiz olduğunu varsayarsak
-ISlide slide = presentation.Slides[0];
-ISmartArt smartArt = (ISmartArt)slide.Shapes[0];
-
-// Alt düğümlere erişme
-ISmartArtNodeCollection nodes = smartArt.AllNodes;
+string dataDir = "Your Documents Directory";
+Presentation pres = new Presentation();
 ```
-
-## Alt Not için Küçük Resim Oluşturma
-
+## 2. Adım: SmartArt'ı ekleyin
+ Şimdi SmartArt'ı sunumdaki bir slayda ekleyin. Bu örnekte, şunu kullanıyoruz:`BasicCycle` düzen.
 ```csharp
-foreach (ISmartArtNode node in nodes)
-{
-    // Düğümün alt düğümleri olduğunu varsayarsak
-    ISmartArtNodeCollection childNodes = node.ChildNodes;
-
-    // Küçük resim oluşturma
-    using (Bitmap thumbnail = childNodes.GenerateThumbnail(new Size(200, 150)))
-    {
-        //Küçük resmi kaydedin veya diğer işlemleri gerçekleştirin
-        thumbnail.Save($"thumbnail_{node.Text}.png");
-    }
-}
+ISmartArt smart = pres.Slides[0].Shapes.AddSmartArt(10, 10, 400, 300, SmartArtLayoutType.BasicCycle);
 ```
-
-## Sunumu Küçük Resimlerle Kaydetme
-
+## Adım 3: Düğüm Referansı Alın
+SmartArt'ta belirli bir düğümle çalışmak için indeksini kullanarak referansını alın.
 ```csharp
-// Sunuyu küçük resimlerle kaydedin
-presentation.Save("presentation_with_thumbnails.pptx", SaveFormat.Pptx);
+ISmartArtNode node = smart.Nodes[1];
 ```
-
+## 4. Adım: Küçük Resmi Alın
+SmartArt düğümü içindeki Çocuk Notunun küçük resim görüntüsünü alın.
+```csharp
+Bitmap bmp = node.Shapes[0].GetThumbnail();
+```
+## Adım 5: Küçük Resmi Kaydet
+Oluşturulan küçük resim görüntüsünü belirtilen dizine kaydedin.
+```csharp
+bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
+```
+Düzeni ve stilleri gerektiği gibi özelleştirerek sununuzdaki her SmartArt düğümü için bu adımları tekrarlayın.
 ## Çözüm
-
-Bu eğitimde Aspose.Slides for .NET kullanarak SmartArt alt notları için küçük resimlerin nasıl oluşturulacağını öğrendik. Bir sunumun yüklenmesinden SmartArt şekillerine erişmeye, küçük resimler oluşturmaya ve sunumu küçük resimlerle kaydetmeye kadar tüm süreci ele aldık.
-
-## SSS'ler
-
-### Aspose.Slides for .NET'i nasıl kurabilirim?
-
- Aspose.Slides for .NET'i web sitelerinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/net/).
-
-### Diğer şekiller için de küçük resimler oluşturabilir miyim?
-
-Evet, Aspose.Slides; resimler, grafikler ve daha fazlası dahil olmak üzere farklı şekil türleri için küçük resimler oluşturmak için çeşitli yöntemler sunar.
-
-### Aspose.Slides hem kişisel hem de ticari projeler için uygun mu?
-
-Evet, Aspose.Slides hem kişisel hem de ticari projelerde kullanılabilir. Ancak dağıtımdan önce lisans koşullarını gözden geçirdiğinizden emin olun.
-
-### Oluşturulan küçük resimlerin görünümünü özelleştirebilir miyim?
-
-Kesinlikle! Aspose.Slides, oluşturulan küçük resimlerin boyutunu, kalitesini ve diğer özelliklerini gereksinimlerinize uyacak şekilde özelleştirmenize olanak tanır.
-
-### Aspose.Slides .NET dışında diğer programlama dillerini destekliyor mu?
-
-Evet, Aspose.Slides; Java, Python ve daha fazlası dahil olmak üzere birden fazla programlama dili için mevcut olduğundan, çeşitli geliştirme ortamları için çok yönlüdür.
+Sonuç olarak Aspose.Slides for .NET, geliştiricilere ilgi çekici sunumları kolaylıkla oluşturma olanağı sağlıyor. SmartArt Çocuk Notları için küçük resimler oluşturma yeteneği, sunumlarınızın görsel çekiciliğini artırarak dinamik ve etkileşimli bir kullanıcı deneyimi sağlar.
+## Sıkça Sorulan Sorular
+### S: Oluşturulan küçük resmin boyutunu ve biçimini özelleştirebilir miyim?
+C: Evet, koddaki ilgili parametreleri değiştirerek küçük resmin boyutlarını ve formatını ayarlayabilirsiniz.
+### S: Aspose.Slides diğer SmartArt düzenlerini destekliyor mu?
+C: Kesinlikle! Aspose.Slides çeşitli SmartArt düzenleri sunarak sunum ihtiyaçlarınıza en uygun olanı seçmenize olanak tanır.
+### S: Test amaçlı olarak geçici bir lisans mevcut mu?
+C: Evet, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
+### S: Nereden yardım alabilirim veya Aspose.Slides topluluğuyla bağlantı kurabilirim?
+ C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) toplulukla etkileşime geçmek, sorular sormak ve çözümler bulmak.
+### S: Aspose.Slides for .NET'i satın alabilir miyim?
+ C: Kesinlikle! Satın alma seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy) Projelerinizde Aspose.Slides'ın tüm potansiyelini açığa çıkarmak için.

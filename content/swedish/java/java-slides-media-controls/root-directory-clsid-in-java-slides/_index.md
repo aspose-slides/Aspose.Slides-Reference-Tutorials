@@ -32,7 +32,7 @@ Presentation pres = new Presentation();
 
  I koden ovan definierar vi sökvägen för utdatapresentationsfilen och skapar en ny`Presentation` objekt.
 
-## Steg 2: Ställ in rotkatalog ClsId
+## Steg 2: Ställ in Root Directory ClsId
 
  För att ställa in rotkatalogens ClsId måste du skapa en instans av`PptOptions`och ställ in önskat CLSID. CLSID representerar programmet som kommer att användas som rotkatalog när en hyperlänk aktiveras.
 

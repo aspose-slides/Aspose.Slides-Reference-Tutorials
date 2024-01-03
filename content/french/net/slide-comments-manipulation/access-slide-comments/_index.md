@@ -26,7 +26,7 @@ Assurez-vous de disposer d'une présentation PowerPoint avec des commentaires de
 
 Pour travailler avec Aspose.Slides pour .NET et accéder aux commentaires des diapositives, vous devez importer les espaces de noms nécessaires. Voici comment procéder :
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 Tout d’abord, ouvrez votre éditeur de code C# et incluez les espaces de noms requis en haut de votre fichier de code :
 

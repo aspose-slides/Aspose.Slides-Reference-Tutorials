@@ -14,7 +14,7 @@ In der Welt des Präsentationsdesigns und der Automatisierung ist Aspose.Slides 
 
 Bevor wir in den schrittweisen Prozess eintauchen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Aspose.Slides für .NET-Bibliothek: Laden Sie die Aspose.Slides für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides für .NET-Bibliothek: Laden Sie die Aspose.Slides für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/slides/net/).
 
 2. Bild als Hintergrund: Sie benötigen ein Bild, das Sie als Folienhintergrund festlegen möchten. Stellen Sie sicher, dass Sie die Bilddatei in einem geeigneten Format (z. B. .jpg) zur Verwendung bereit haben.
 

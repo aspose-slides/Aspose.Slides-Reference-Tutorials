@@ -49,7 +49,7 @@ series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B3", 1));
 series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B4", 10));
 ```
 
-## Étape 5 : Ajouter des catégories
+## Étape 5 : ajouter des catégories
 
 Nous devons ajouter des catégories à la carte, représentant différentes régions géographiques.
 

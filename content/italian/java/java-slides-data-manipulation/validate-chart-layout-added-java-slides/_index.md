@@ -10,7 +10,7 @@ url: /it/java/data-manipulation/validate-chart-layout-added-java-slides/
 
 ## Introduzione alla convalida del layout del grafico in Aspose.Slides per Java
 
-In questo tutorial esploreremo come convalidare il layout del grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Questa libreria ti consente di lavorare con le presentazioni PowerPoint a livello di codice, semplificando la manipolazione e la convalida di vari elementi, inclusi i grafici.
+In questo tutorial esploreremo come convalidare il layout del grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Questa libreria consente di lavorare con le presentazioni PowerPoint a livello di codice, semplificando la manipolazione e la convalida di vari elementi, inclusi i grafici.
 
 ## Passaggio 1: inizializzazione della presentazione
 

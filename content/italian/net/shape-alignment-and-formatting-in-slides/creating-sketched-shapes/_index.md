@@ -1,94 +1,76 @@
 ---
-title: Creazione di forme di schizzo nelle diapositive della presentazione con Aspose.Slides
+title: Crea splendide forme di schizzo con Aspose.Slides
 linktitle: Creazione di forme di schizzo nelle diapositive della presentazione con Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come creare accattivanti diapositive di presentazione con forme abbozzate utilizzando Aspose.Slides per .NET. Segui questa guida passo passo con il codice sorgente completo per aggiungere elementi personalizzati e creativi alle tue diapositive.
+description: Scopri come aggiungere forme di schizzo creative alle diapositive della presentazione utilizzando Aspose.Slides per .NET. Migliora l'attrattiva visiva senza sforzo!
 type: docs
 weight: 13
 url: /it/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-## Introduzione alla creazione di forme di schizzo nelle diapositive della presentazione
-
-Le diapositive di presentazione sono un potente strumento per trasmettere visivamente le informazioni. A volte, potresti voler aggiungere un tocco personale alle tue diapositive incorporando forme di schizzo, che possono rendere le tue presentazioni più coinvolgenti e creative. In questa guida passo passo, esploreremo come ottenere questo risultato utilizzando la libreria Aspose.Slides per .NET. Al termine di questo tutorial sarai in grado di creare diapositive di presentazione con forme abbozzate che risaltano. Immergiamoci!
-
-## Impostazione del progetto
-
- Prima di iniziare, assicurati di avere l'ambiente di sviluppo .NET configurato sul tuo computer. È possibile scaricare l'ultima versione di Aspose.Slides dal sito Web[Qui](https://releases.aspose.com/slides/net/). Una volta scaricata, installa la libreria nel tuo progetto.
-
-## Creazione di una nuova presentazione
-
-Iniziamo creando una nuova presentazione utilizzando Aspose.Slides. Ecco come puoi farlo:
-
+## introduzione
+Benvenuti nella nostra guida passo passo sulla creazione di forme di schizzo nelle diapositive di presentazione utilizzando Aspose.Slides per .NET. Se vuoi aggiungere un tocco di creatività alle tue presentazioni, le forme abbozzate forniscono un'estetica unica e disegnata a mano. In questo tutorial ti guideremo attraverso il processo, suddividendolo in semplici passaggi per garantire un'esperienza fluida.
+## Prerequisiti
+Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
+-  Aspose.Slides per .NET: assicurati di avere la libreria Aspose.Slides per .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/slides/net/).
+- Ambiente di sviluppo: configura un ambiente di sviluppo .NET con il tuo IDE preferito.
+## Importa spazi dei nomi
+Inizia importando gli spazi dei nomi necessari nel tuo progetto .NET. Questo passaggio garantisce l'accesso alle classi e alle funzionalità necessarie per lavorare con Aspose.Slides.
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Aspose.Slides;
-
-// Crea una nuova presentazione
-Presentation presentation = new Presentation();
+using Aspose.Slides.Examples.CSharp;
+using Aspose.Slides.Util;
+using Aspose.Slides.Export;
+using Aspose.Slides.MathText;
 ```
-
-## Aggiunta di forme di schizzo
-
-Per aggiungere forme di schizzo alle diapositive, puoi utilizzare forme a mano libera disponibili in Aspose.Slides. Queste forme possono essere personalizzate per assomigliare a schizzi disegnati a mano. Ecco un esempio di come aggiungere un rettangolo disegnato a una diapositiva:
-
+## Passaggio 1: impostare il progetto
+Inizia creando un nuovo progetto .NET o aprendone uno esistente. Assicurati di includere Aspose.Slides nei riferimenti del tuo progetto.
+## Passaggio 2: inizializzare Aspose.Slides
+Inizializza Aspose.Slides aggiungendo il seguente frammento di codice. Ciò imposta la presentazione e specifica i percorsi di output per il file di presentazione e l'immagine in miniatura.
 ```csharp
-// Accedi alla prima diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Definire i punti per il rettangolo schizzato
-PointF[] points = new PointF[]
+string dataDir = "Your Document Directory";
+string outPptxFile = Path.Combine(dataDir, "SketchedShapes_out.pptx");
+string outPngFile = Path.Combine(dataDir, "SketchedShapes_out.png");
+using (Presentation pres = new Presentation())
 {
-    new PointF(100, 100),
-    new PointF(200, 100),
-    new PointF(200, 200),
-    new PointF(100, 200)
-};
-
-// Aggiungi una forma a mano libera alla diapositiva
-IFreeformShape freeformShape = slide.Shapes.AddFreeform(ShapeType.Rectangle, points);
-
-// Personalizza l'aspetto della forma disegnata
-freeformShape.LineFormat.Style = LineStyle.Single;
-freeformShape.LineFormat.Width = 2;
-freeformShape.FillFormat.FillType = FillType.Solid;
-freeformShape.FillFormat.SolidFillColor.Color = Color.LightGray;
+    // Continua con i passaggi successivi...
+}
 ```
-
-## Personalizzazione delle forme abbozzate
-
-È possibile personalizzare ulteriormente le forme di schizzo regolandone i colori, gli stili di linea e altre proprietà. Sperimenta diverse impostazioni per ottenere l'effetto disegnato a mano desiderato.
-
-## Salvare ed esportare la presentazione
-
-Dopo aver aggiunto le forme di schizzo alla presentazione, puoi salvarla ed esportarla in vari formati, come PPTX o PDF. Ecco come puoi farlo:
-
+## Passaggio 3: aggiungi la forma abbozzata
+Ora aggiungiamo una forma abbozzata alla diapositiva. In questo esempio aggiungeremo un rettangolo con un effetto schizzo a mano libera.
 ```csharp
-// Salva la presentazione in un file
-presentation.Save("SketchedShapesPresentation.pptx", SaveFormat.Pptx);
+IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 20, 20, 300, 150);
+shape.FillFormat.FillType = FillType.NoFill;
+// Trasforma la forma in uno schizzo di uno stile a mano libera
+shape.LineFormat.SketchFormat.SketchType = LineSketchType.Scribble;
 ```
-
+## Passaggio 4: genera miniatura
+Genera una miniatura della diapositiva per visualizzare la forma disegnata. Salva la miniatura come file PNG.
+```csharp
+pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
+```
+## Passaggio 5: salva la presentazione
+Salva il file di presentazione con la forma abbozzata.
+```csharp
+pres.Save(outPptxFile, SaveFormat.Pptx);
+```
+Questo è tutto! Hai creato con successo una presentazione con forme abbozzate utilizzando Aspose.Slides per .NET.
 ## Conclusione
-
-In questo tutorial, abbiamo esplorato come creare diapositive di presentazione con forme di schizzo utilizzando Aspose.Slides per .NET. Aggiungendo forme di schizzo alle tue diapositive, puoi aggiungere un tocco creativo e personalizzato alle tue presentazioni, rendendole più coinvolgenti per il tuo pubblico. Sentiti libero di sperimentare diverse forme e opzioni di personalizzazione per creare diapositive visivamente accattivanti che lasciano un impatto duraturo.
-
+L'aggiunta di forme di schizzo alle diapositive della presentazione può migliorare l'attrattiva visiva e coinvolgere il pubblico. Con Aspose.Slides per .NET, il processo diventa semplice, permettendoti di liberare la tua creatività senza sforzo.
 ## Domande frequenti
-
-### Come posso scaricare Aspose.Slides per .NET?
-
- È possibile scaricare l'ultima versione di Aspose.Slides per .NET dalla pagina delle versioni[Qui](https://releases.aspose.com/slides/net/).
-
-### Posso personalizzare l'aspetto delle forme disegnate?
-
-Sì, puoi personalizzare l'aspetto delle forme di schizzo regolandone i colori, gli stili di linea e altre proprietà utilizzando Aspose.Slides.
-
-### Aspose.Slides è adatto sia ai principianti che agli sviluppatori esperti?
-
-Sì, Aspose.Slides fornisce un'API intuitiva adatta sia ai principianti che agli sviluppatori esperti. Offre una documentazione completa per aiutarti a iniziare.
-
-### Posso esportare la mia presentazione con forme di schizzo in PDF?
-
-Assolutamente! Puoi esportare la tua presentazione con forme di schizzo in vari formati, incluso PDF, utilizzando le opzioni di esportazione fornite da Aspose.Slides.
-
-### Come posso aggiungere altri tipi di forme di schizzo, come cerchi o linee?
-
- Puoi aggiungere altri tipi di forme di schizzo, come cerchi o linee, modificando i punti e il tipo di forma nel file`AddFreeform` metodo. Sperimenta diverse configurazioni di punti per creare le forme che desideri.
+### 1. Posso personalizzare l'effetto abbozzato?
+Sì, Aspose.Slides per .NET offre varie opzioni di personalizzazione per gli effetti di schizzo. Fare riferimento al[documentazione](https://reference.aspose.com/slides/net/) per informazioni dettagliate.
+### 2. È disponibile una prova gratuita?
+ Certamente! Puoi esplorare una prova gratuita di Aspose.Slides per .NET[Qui](https://releases.aspose.com/).
+### 3. Dove posso ottenere supporto?
+ Per qualsiasi assistenza o domanda, visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### 4. Come posso acquistare Aspose.Slides per .NET?
+ Per acquistare Aspose.Slides per .NET, visitare il sito[pagina di acquisto](https://purchase.aspose.com/buy).
+### 5. Offrite licenze temporanee?
+ Sì, sono disponibili licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).

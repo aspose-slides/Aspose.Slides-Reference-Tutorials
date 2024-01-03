@@ -80,7 +80,7 @@ Burada ilk slaydı (indeks 0) kopyalıyoruz ve kopyayı "Bölüm 2"ye yerleştir
 
 ### Adım 5: Sunuyu Kaydetme
 
- Son olarak, sununuzu kullanarak kaydetmeyi unutmayın.`Save` yöntem. Bu örnekte sunum PPTX formatında kaydedilmiştir.
+Son olarak, sununuzu kullanarak kaydetmeyi unutmayın.`Save` yöntem. Bu örnekte sunum PPTX formatında kaydedilmiştir.
 
 Tebrikler! Aspose.Slides for .NET'i kullanarak bir slaydı belirlenen bölüme başarıyla kopyaladınız.
 
@@ -96,7 +96,7 @@ Hayır, Aspose.Slides for .NET, özellikle .NET uygulamaları için tasarlanmı�
 
 ### 2. Aspose.Slides for .NET'i öğrenmek için ücretsiz kaynaklar var mı?
 
- Evet, Aspose.Slides for .NET belgelerine şu adresten erişebilirsiniz:[bu bağlantı](https://reference.aspose.com/slides/net/) Ayrıntılı bilgi ve eğitimler için.
+ Evet, Aspose.Slides for .NET belgelerine şu adresten erişebilirsiniz:[bu bağlantı](https://reference.aspose.com/slides/net/)Ayrıntılı bilgi ve eğitimler için.
 
 ### 3. Aspose.Slides for .NET'i satın almadan önce test edebilir miyim?
 

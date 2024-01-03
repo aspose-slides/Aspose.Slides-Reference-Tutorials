@@ -1,116 +1,87 @@
 ---
-title: Hinzufügen eines Streckungsversatzes nach links für den Bilderrahmen in Aspose.Slides
+title: Hinzufügen eines Streckungsversatzes nach links in PowerPoint mit Aspose.Slide
 linktitle: Hinzufügen eines Streckungsversatzes nach links für den Bilderrahmen in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET einen Streckungsversatz nach links für einen Bildrahmen in PowerPoint hinzufügen. Schritt-für-Schritt-Anleitung mit vollständigem Quellcode-Beispiel.
+description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET verbessern. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um den Streckungsversatz nach links für Bilderrahmen hinzuzufügen.
 type: docs
 weight: 14
 url: /de/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-## Einführung in Aspose.Slides für .NET
-
-Aspose.Slides für .NET ist eine umfassende Bibliothek, die es .NET-Entwicklern ermöglicht, mit PowerPoint-Präsentationen zu arbeiten, ohne Microsoft Office zu benötigen. Es bietet eine Vielzahl von Funktionen, darunter das Erstellen, Bearbeiten und Bearbeiten von Folien, Formen, Text, Bildern und mehr.
-
+## Einführung
+Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die Entwicklern die einfache Bearbeitung von PowerPoint-Präsentationen ermöglicht. In diesem Tutorial untersuchen wir den Prozess des Hinzufügens eines Streckungsversatzes nach links für einen Bilderrahmen mithilfe von Aspose.Slides für .NET. Befolgen Sie diese Schritt-für-Schritt-Anleitung, um Ihre Fähigkeiten im Umgang mit Bildern und Formen in PowerPoint-Präsentationen zu verbessern.
 ## Voraussetzungen
-
-Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-1. Visual Studio ist auf Ihrem Computer installiert.
-2. Grundlegendes Verständnis von C# und .NET Framework.
-3.  Aspose.Slides für .NET-Bibliothek. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
-
-## Einrichten des Projekts
-
-Beginnen wir mit der Einrichtung eines neuen C#-Projekts in Visual Studio:
-
-1. Öffnen Sie Visual Studio.
-2. Klicken Sie auf „Neues Projekt erstellen“.
-3. Wählen Sie „Konsolen-App (.NET Framework/Core)“ aus.
-4. Wählen Sie einen passenden Namen und Ort für Ihr Projekt.
-5. Klicken Sie auf „Erstellen“.
-
-Fügen Sie als Nächstes einen Verweis auf die Aspose.Slides for .NET-Bibliothek in Ihrem Projekt hinzu. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf „Referenzen“, wählen Sie „NuGet-Pakete verwalten“, suchen Sie nach „Aspose.Slides“ und installieren Sie das Paket.
-
-## Hinzufügen eines Streckungsversatzes nach links für den Bilderrahmen
-
-Gehen Sie folgendermaßen vor, um mit Aspose.Slides für .NET einen Streckungsversatz nach links für einen Bilderrahmen hinzuzufügen:
-
-1.  Laden Sie die Präsentationsdatei mit`Presentation` Klasse.
-2. Suchen Sie die Folie mit dem Bildrahmen, den Sie ändern möchten.
-3. Greifen Sie auf die Bilderrahmenform zu, indem Sie die Formen auf der Folie durchlaufen.
-4.  Wenden Sie den Streckungsversatz nach links mit an`PictureFrame` Klasse.
-
-## Beispielcode
-
+Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+- Aspose.Slides für .NET: Stellen Sie sicher, dass Sie die Bibliothek installiert haben. Wenn nicht, laden Sie es herunter[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+- Entwicklungsumgebung: Verfügen Sie über eine funktionierende Entwicklungsumgebung mit .NET-Funktionen.
+## Namespaces importieren
+Beginnen Sie mit dem Importieren der erforderlichen Namespaces in Ihr .NET-Projekt:
 ```csharp
+using System.IO;
 using Aspose.Slides;
-using Aspose.Slides.ShapeManagers;
-
-namespace PictureFrameStretchOffsetExample
+using System.Drawing;
+using Aspose.Slides.Export;
+```
+## Schritt 1: Richten Sie Ihr Projekt ein
+Erstellen Sie ein neues Projekt oder öffnen Sie ein bestehendes. Stellen Sie sicher, dass in Ihrem Projekt auf die Aspose.Slides-Bibliothek verwiesen wird.
+## Schritt 2: Präsentationsobjekt erstellen
+ Instanziieren Sie die`Presentation` Klasse, die die PPTX-Datei darstellt:
+```csharp
+using (Presentation pres = new Presentation())
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Laden Sie die Präsentation
-            using (Presentation presentation = new Presentation("sample.pptx"))
-            {
-                // Holen Sie sich die erste Folie
-                ISlide slide = presentation.Slides[0];
-
-                // Durchlaufen Sie die Formen auf der Folie
-                foreach (IShape shape in slide.Shapes)
-                {
-                    if (shape is IPictureFrame)
-                    {
-                        IPictureFrame pictureFrame = (IPictureFrame)shape;
-
-                        // Wenden Sie den Streckungsversatz nach links an
-                        pictureFrame.PictureFormat.StretchOffsetX = -10;
-                    }
-                }
-
-                // Speichern Sie die geänderte Präsentation
-                presentation.Save("output.pptx", SaveFormat.Pptx);
-            }
-        }
-    }
+    // Hier finden Sie Ihren Code für die weiteren Schritte.
 }
 ```
-
-In diesem Beispiel laden wir eine Präsentation, durchlaufen die Formen auf der ersten Folie und wenden, wenn wir eine Bilderrahmenform finden, einen Streckungsversatz von -10 nach links an.
-
-## Testen der Anwendung
-
-Um die Anwendung zu testen, gehen Sie folgendermaßen vor:
-
-1. Stellen Sie sicher, dass Sie über eine Beispiel-PowerPoint-Präsentation verfügen (`sample.pptx`) mit mindestens einem Bilderrahmen.
-2. Führen Sie die Anwendung aus.
-3.  Die geänderte Präsentation mit dem hinzugefügten Dehnungsversatz wird gespeichert unter`output.pptx`.
-
+## Schritt 3: Holen Sie sich die erste Folie
+Rufen Sie die erste Folie aus der Präsentation ab:
+```csharp
+ISlide slide = pres.Slides[0];
+```
+## Schritt 4: Instanziieren Sie das Bild
+Laden Sie das Bild, das Sie verwenden möchten:
+```csharp
+System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgEx = pres.Images.AddImage(img);
+```
+## Schritt 5: Rechteck-AutoForm hinzufügen
+Erstellen Sie eine AutoForm vom Typ Rechteck:
+```csharp
+IAutoShape aShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
+```
+## Schritt 6: Fülltyp und Bildfüllmodus festlegen
+Konfigurieren Sie den Fülltyp und den Bildfüllmodus der Form:
+```csharp
+aShape.FillFormat.FillType = FillType.Picture;
+aShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
+```
+## Schritt 7: Stellen Sie das Bild so ein, dass es die Form ausfüllt
+Geben Sie das Bild an, um die Form zu füllen:
+```csharp
+aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
+```
+## Schritt 8: Dehnungsversätze angeben
+Definieren Sie die Bildversätze von den entsprechenden Kanten des Begrenzungsrahmens der Form:
+```csharp
+aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
+aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;
+aShape.FillFormat.PictureFillFormat.StretchOffsetTop = -20;
+aShape.FillFormat.PictureFillFormat.StretchOffsetBottom = -10;
+```
+## Schritt 9: Speichern Sie die Präsentation
+Schreiben Sie die PPTX-Datei auf die Festplatte:
+```csharp
+pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx);
+```
+Glückwunsch! Sie haben mit Aspose.Slides für .NET erfolgreich einen Streckungsversatz nach links für einen Bilderrahmen hinzugefügt.
 ## Abschluss
-
-In diesem Tutorial haben Sie gelernt, wie Sie mit .NET einen Streckungsversatz nach links für einen Bilderrahmen in Aspose.Slides hinzufügen. Aspose.Slides für .NET bietet leistungsstarke Tools zur programmgesteuerten Bearbeitung von PowerPoint-Präsentationen und ermöglicht Entwicklern die nahtlose Erstellung dynamischer und benutzerdefinierter Diashows.
-
-## FAQs
-
-### Wie kann ich Aspose.Slides für .NET installieren?
-
- Sie können Aspose.Slides für .NET von der Website herunterladen[Hier](https://releases.aspose.com/slides/net/).
-
-### Kann ich Aspose.Slides für andere PowerPoint-Manipulationsaufgaben verwenden?
-
-Absolut! Aspose.Slides für .NET bietet eine Vielzahl von Funktionen, darunter das Erstellen, Bearbeiten und Konvertieren von PowerPoint-Präsentationen. Weitere Details und Beispiele finden Sie in der Dokumentation.
-
-### Ist Aspose.Slides mit verschiedenen PowerPoint-Formaten kompatibel?
-
-Ja, Aspose.Slides unterstützt verschiedene PowerPoint-Formate, darunter PPTX, PPT, POTX und mehr. Es unterstützt auch die Konvertierung zwischen verschiedenen Formaten.
-
-### Wie kann ich andere Eigenschaften von Formen in einer Präsentation anpassen?
-
-Mithilfe der Aspose.Slides-Bibliothek können Sie auf verschiedene Eigenschaften von Formen zugreifen und diese ändern, darunter Text, Position, Größe, Formatierung und mehr. Ausführliche Informationen und Beispiele finden Sie in der Dokumentation.
-
-### Kann ich Aspose.Slides mit anderen Programmiersprachen verwenden?
-
-Ja, Aspose.Slides bietet Bibliotheken für verschiedene Programmiersprachen, darunter Java, Python und mehr. Sie können diejenige auswählen, die zu Ihrer Entwicklungsumgebung passt.
+In diesem Tutorial haben wir den Prozess der Bearbeitung von Bildrahmen in PowerPoint-Präsentationen mit Aspose.Slides für .NET untersucht. Durch Befolgen der Schritt-für-Schritt-Anleitung haben Sie Einblicke in die Arbeit mit Bildern, Formen und Versätzen gewonnen.
+## Häufig gestellte Fragen
+### F: Kann ich Dehnungsversätze auch auf andere Formen als Rechtecke anwenden?
+A: Während sich dieses Tutorial auf Rechtecke konzentriert, können Dehnungsversätze auf verschiedene Formen angewendet werden, die von Aspose.Slides unterstützt werden.
+### F: Wie kann ich die Dehnungsversätze für verschiedene Effekte anpassen?
+A: Experimentieren Sie mit verschiedenen Offset-Werten, um die gewünschte visuelle Wirkung zu erzielen. Passen Sie die Werte entsprechend Ihren spezifischen Anforderungen an.
+### F: Ist Aspose.Slides mit dem neuesten .NET Framework kompatibel?
+A: Aspose.Slides wird regelmäßig aktualisiert, um die Kompatibilität mit den neuesten .NET Framework-Versionen sicherzustellen.
+### F: Wo finde ich zusätzliche Beispiele und Ressourcen für Aspose.Slides?
+ A: Entdecken Sie die[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/) Ausführliche Beispiele und Anleitungen finden Sie hier.
+### F: Kann ich mehrere Dehnungsversätze auf eine einzelne Form anwenden?
+A: Ja, Sie können mehrere Dehnungsversätze kombinieren, um komplexe und individuelle visuelle Effekte zu erzielen.

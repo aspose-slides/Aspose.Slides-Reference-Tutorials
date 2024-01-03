@@ -43,13 +43,13 @@ string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 // Crear una instancia de un objeto de presentación que represente un archivo PPT
 Presentation pres = new Presentation(srcFileName);
 
-// Guardar la presentación en formato PPTX
+//Guardar la presentación en formato PPTX
 pres.Save(outPath, SaveFormat.Pptx);
 ```
 
 En este fragmento de código:
 
-- `dataDir`debe reemplazarse con la ruta del directorio donde se encuentra su archivo PPT.
+- `dataDir` debe reemplazarse con la ruta del directorio donde se encuentra su archivo PPT.
 - `outPath` debe reemplazarse con el directorio donde desea guardar el archivo PPTX convertido.
 - `srcFileName` es el nombre de su archivo PPT de entrada.
 - `destFileName` es el nombre deseado para el archivo PPTX de salida.

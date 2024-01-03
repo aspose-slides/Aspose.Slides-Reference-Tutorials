@@ -37,7 +37,7 @@ Ora tuffiamoci nel nocciolo del nostro tutorial: aggiungere una formattazione el
 
 ### Passaggio 2.1: istanziare la classe di presentazione
 
- Per prima cosa dobbiamo creare un'istanza del file`Presentation` classe che rappresenta il file di presentazione di PowerPoint. Dovresti fornire il percorso del file di presentazione nel file`dataDir` variabile.
+ Per prima cosa dobbiamo creare un'istanza del file`Presentation`classe che rappresenta il file di presentazione di PowerPoint. Dovresti fornire il percorso del file di presentazione nel file`dataDir` variabile.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -105,7 +105,7 @@ Aspose.Slides per .NET è una potente libreria per lavorare con file Microsoft P
  Aspose.Slides per .NET è una libreria commerciale e richiede una licenza per l'utilizzo completo. Tuttavia, puoi esplorarlo con una prova gratuita disponibile[Qui](https://releases.aspose.com/).
 
 ### Posso provare Aspose.Slides per .NET con una licenza temporanea?
- Sì, puoi ottenere una licenza temporanea a scopo di test e valutazione da[Qui](https://purchase.aspose.com/temporary-license/).
+Sì, puoi ottenere una licenza temporanea a scopo di test e valutazione da[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### È disponibile un forum della community o supporto per Aspose.Slides per .NET?
  Sì, puoi chiedere aiuto e partecipare alle discussioni sul forum della community Aspose.Slides per .NET[Qui](https://forum.aspose.com/).

@@ -46,7 +46,7 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-In diesem Beispiel haben wir den Layout-Zieltyp des Diagramms auf „Inner“ festgelegt, was bedeutet, dass es relativ zum inneren Bereich der Folie positioniert und in seiner Größe positioniert wird.
+In diesem Beispiel haben wir den Layout-Zieltyp des Diagramms auf „Innen“ festgelegt, was bedeutet, dass es relativ zum inneren Bereich der Folie positioniert und in seiner Größe positioniert wird.
 
 ## Schritt 4: Speichern Sie die Präsentation
 

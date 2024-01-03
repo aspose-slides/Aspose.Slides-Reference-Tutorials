@@ -109,7 +109,7 @@ Tebrikler! Aspose.Slides for Java'yı kullanarak Java Slide'da otomatik seri dol
 
 ### Grafik türünü farklı bir stile nasıl değiştirebilirim?
 
- Grafik türünü değiştirerek değiştirebilirsiniz.`ChartType.ClusteredColumn` İstenilen grafik türüyle, örneğin`ChartType.Line` veya`ChartType.Pie`.
+ Grafik türünü değiştirerek değiştirebilirsiniz.`ChartType.ClusteredColumn` istenilen grafik türüyle, örneğin`ChartType.Line` veya`ChartType.Pie`.
 
 ### Grafik görünümünü daha da özelleştirebilir miyim?
 

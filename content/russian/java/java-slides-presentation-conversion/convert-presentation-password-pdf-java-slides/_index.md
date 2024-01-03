@@ -48,7 +48,7 @@ Presentation presentation = new Presentation(dataDir + "DemoFile.pptx");
  Теперь давайте определим параметры преобразования PDF. На этом этапе вы также установите пароль для PDF-файла. Заменять`"password"` с желаемым паролем:
 
 ```java
-// Создайте экземпляр класса PdfOptions
+// Создайте экземпляр класса PdfOptions.
 PdfOptions pdfOptions = new PdfOptions();
 
 // Установка пароля PDF
@@ -84,7 +84,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "DemoFile.pptx");
 try
 {
-	// Создайте экземпляр класса PdfOptions
+	// Создайте экземпляр класса PdfOptions.
 	PdfOptions pdfOptions = new PdfOptions();
 	// Установка пароля PDF
 	pdfOptions.setPassword("password");

@@ -1,120 +1,89 @@
 ---
-title: Ajustement des angles des lignes de connecteur dans les diapositives de présentation à l'aide d'Aspose.Slides
+title: Ajuster les angles des lignes de connecteur dans PowerPoint avec Aspose.Slides
 linktitle: Ajustement des angles des lignes de connecteur dans les diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment améliorer vos diapositives de présentation en ajustant les angles des lignes de connecteur à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec des exemples de code.
+description: Découvrez comment ajuster les angles des lignes de connecteur dans les diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez vos présentations avec précision et facilité.
 type: docs
 weight: 28
 url: /fr/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-Les lignes de connexion jouent un rôle crucial dans la création de diapositives de présentation bien structurées et visuellement attrayantes. Ils aident à établir des relations entre les différents éléments d'une diapositive, améliorant ainsi la clarté des informations. Aspose.Slides, une puissante API .NET, fournit diverses fonctionnalités pour manipuler ces lignes de connecteur, notamment l'ajustement de leurs angles. Dans ce didacticiel, nous verrons comment ajuster les angles des lignes de connecteur dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
-
-## Introduction aux lignes de connexion
-
-Les lignes de connexion sont des aides visuelles essentielles dans les présentations, utilisées pour illustrer les relations entre des objets ou des concepts. Ils sont couramment utilisés pour créer des organigrammes, des diagrammes et des illustrations de processus. L'ajustement des angles des lignes de connexion peut avoir un impact significatif sur l'esthétique globale et la compréhensibilité d'une diapositive.
-
-## Premiers pas avec Aspose.Slides pour .NET
-
-Avant de nous lancer dans l'ajustement des angles des lignes de connecteur, configurons notre environnement de développement et intégrons Aspose.Slides dans notre projet. Suivez ces étapes:
-
-1. Téléchargez et installez Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/slides/net/).
-2. Créez un nouveau projet .NET dans votre environnement de développement préféré.
-3. Ajoutez une référence à la bibliothèque Aspose.Slides dans votre projet.
-
-## Ajout de lignes de connecteur aux diapositives
-
-Pour ajuster les angles des lignes de connecteur, nous devons d’abord ajouter des lignes de connecteur à nos diapositives. Voici comment procéder avec Aspose.Slides :
-
+## Introduction
+La création de diapositives de présentation visuellement attrayantes implique souvent des ajustements précis des lignes de connexion. Dans ce didacticiel, nous verrons comment ajuster les angles des lignes de connecteur dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Aspose.Slides est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers PowerPoint par programme, offrant des fonctionnalités étendues pour créer, modifier et manipuler des présentations.
+## Conditions préalables
+Avant de plonger dans le didacticiel, assurez-vous de disposer des éléments suivants :
+- Connaissance de base du langage de programmation C#.
+- Visual Studio ou tout autre environnement de développement C# installé.
+-  Aspose.Slides pour la bibliothèque .NET. Vous pouvez le télécharger[ici](https://releases.aspose.com/slides/net/).
+- Un fichier de présentation PowerPoint avec les lignes de connecteur que vous souhaitez ajuster.
+## Importer des espaces de noms
+Pour commencer, assurez-vous d'inclure les espaces de noms nécessaires dans votre code C# :
 ```csharp
-// Instancier un objet Présentation
-using (Presentation presentation = new Presentation())
+using System.IO;
+using Aspose.Slides;
+using System;
+```
+## Étape 1 : Configurez votre projet
+Créez un nouveau projet C# dans Visual Studio et installez le package Aspose.Slides NuGet. Configurez la structure du projet avec une référence à la bibliothèque Aspose.Slides.
+## Étape 2 : Charger la présentation
+```csharp
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "ConnectorLineAngle.pptx");
+```
+ Chargez votre fichier de présentation PowerPoint dans le`Presentation`objet. Remplacez « Votre répertoire de documents » par le chemin réel de votre fichier.
+## Étape 3 : accéder à la diapositive et aux formes
+```csharp
+Slide slide = (Slide)pres.Slides[0];
+Shape shape;
+```
+Accédez à la première diapositive de la présentation et initialisez une variable pour représenter les formes sur la diapositive.
+## Étape 4 : Parcourir les formes
+```csharp
+for (int i = 0; i < slide.Shapes.Count; i++)
 {
-    // Accédez à la diapositive où vous souhaitez ajouter des lignes de connecteur
-    ISlide slide = presentation.Slides[0];
-
-    // Définir les points de début et de fin de la ligne de connecteur
-    PointF startPoint = new PointF(100, 100);
-    PointF endPoint = new PointF(300, 200);
-
-    // Ajouter la ligne de connecteur à la diapositive
-    IAutoShape connectorLine = slide.Shapes.AddLine(startPoint.X, startPoint.Y, endPoint.X, endPoint.Y);
-
-    // Personnaliser l'apparence de la ligne de connecteur
-    connectorLine.LineFormat.Style = LineStyle.Single;
-    connectorLine.LineFormat.Width = 2;
+    // Code de gestion des lignes de connecteur
 }
 ```
-
-## Accès et modification des angles de ligne de connecteur
-
-Maintenant que nous avons des lignes de connecteur dans notre diapositive, explorons comment accéder et modifier leurs angles à l'aide d'Aspose.Slides :
-
+Parcourez chaque forme de la diapositive pour identifier et traiter les lignes de connecteur.
+## Étape 5 : Ajuster les angles des lignes de connecteur
 ```csharp
-// Accédez à la ligne de connecteur que nous avons ajoutée plus tôt
-IAutoShape connectorLine = slide.Shapes[0] as IAutoShape;
-
-// Accéder au format de ligne du connecteur
-ILineFormat lineFormat = connectorLine.LineFormat;
-
-// Obtenez l'angle existant de la ligne de connecteur
-double currentAngle = lineFormat.Alignment.Angle;
-
-// Modifier l'angle de la ligne de connecteur
-lineFormat.Alignment.Angle = 45; // Ajustez l'angle comme vous le souhaitez
-```
-
-## Application d'ajustements d'angle personnalisés
-
-Aspose.Slides nous permet d'appliquer des ajustements d'angle personnalisés aux lignes de connecteur, permettant un alignement et un agencement précis des éléments. Voici un exemple d'ajustement des angles de plusieurs lignes de connecteur pour créer un diagramme fluide :
-
-```csharp
-foreach (IAutoShape shape in slide.Shapes)
+double dir = 0.0;
+shape = (Shape)slide.Shapes[i];
+if (shape is AutoShape)
 {
-    if (shape is IAutoShape && shape != connectorLine)
-    {
-        ILineFormat shapeLineFormat = shape.LineFormat;
-        shapeLineFormat.Alignment.Angle = 30; // Appliquer un angle cohérent à toutes les lignes
-    }
+    // Code de gestion des formes automatiques
+}
+else if (shape is Connector)
+{
+    // Code de manipulation des connecteurs
+}
+Console.WriteLine(dir);
+```
+ Identifiez si la forme est une forme automatique ou un connecteur, et ajustez les angles de la ligne de connecteur à l'aide des outils fournis.`getDirection` méthode.
+##  Étape 6 : Définir le`getDirection` Method
+```csharp
+public static double getDirection(float w, float h, bool flipH, bool flipV)
+{
+    // Code pour calculer la direction
+	float endLineX = w * (flipH ? -1 : 1);
+	float endLineY = h * (flipV ? -1 : 1);
+	float endYAxisX = 0;
+	float endYAxisY = h;
+	double angle = (Math.Atan2(endYAxisY, endYAxisX) - Math.Atan2(endLineY, endLineX));
+	if (angle < 0) angle += 2 * Math.PI;
+    return angle * 180.0 / Math.PI;
 }
 ```
-
-## FAQ
-
-### Comment puis-je supprimer une ligne de connecteur d’une diapositive ?
-
-Pour supprimer une ligne de connecteur d’une diapositive, vous pouvez utiliser l’extrait de code suivant :
-
-```csharp
-IAutoShape connectorLine = slide.Shapes[0] as IAutoShape;
-slide.Shapes.Remove(connectorLine);
-```
-
-### Puis-je changer la couleur des lignes de connecteur ?
-
- Oui, vous pouvez changer la couleur des lignes de connecteur à l'aide de l'icône`LineFormat` propriété. Voici un exemple :
-
-```csharp
-lineFormat.FillFormat.SolidFillColor.Color = Color.Red;
-```
-
-### Est-il possible d'ajouter des pointes de flèches aux lignes de connecteur ?
-
- Certainement! Vous pouvez ajouter des pointes de flèches aux lignes de connecteur en modifiant le`LineFormat` propriété:
-
-```csharp
-lineFormat.EndArrowheadLength = ArrowheadLength.Short;
-lineFormat.EndArrowheadStyle = ArrowheadStyle.Triangle;
-```
-
-### Comment ajuster l’espacement entre les éléments reliés par des lignes ?
-
-Pour ajuster l'espacement entre les éléments connectés, vous pouvez modifier les points de début et de fin des lignes de connecteur. Cela aura un impact sur l’alignement visuel entre les éléments.
-
-### Où puis-je trouver plus de ressources sur Aspose.Slides pour .NET ?
-
-Vous pouvez trouver une documentation complète et des références API sur Aspose.Slides pour .NET[ici](https://reference.aspose.com/slides/net/).
-
+ Mettre en œuvre le`getDirection` méthode pour calculer l’angle de la ligne de connecteur en fonction de ses dimensions et de son orientation.
 ## Conclusion
-
-Dans ce didacticiel, nous avons exploré le processus d'ajustement des angles des lignes de connecteur dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Nous avons appris à ajouter des lignes de connexion, à accéder et à modifier leurs angles, et à appliquer des ajustements personnalisés pour créer des diagrammes et des illustrations visuellement attrayants. Aspose.Slides permet aux développeurs d'améliorer leurs présentations avec un contrôle précis sur les lignes de connecteurs, améliorant ainsi la clarté et l'impact du contenu.
+Avec ces étapes, vous pouvez ajuster par programme les angles des lignes de connecteur dans votre présentation PowerPoint à l’aide d’Aspose.Slides pour .NET. Ce didacticiel fournit une base pour améliorer l’attrait visuel de vos diapositives.
+## FAQ
+### Aspose.Slides convient-il à la fois aux applications Windows et Web ?
+Oui, Aspose.Slides peut être utilisé à la fois dans les applications Windows et Web.
+### Puis-je télécharger un essai gratuit d’Aspose.Slides avant d’acheter ?
+ Oui, vous pouvez télécharger un essai gratuit[ici](https://releases.aspose.com/).
+### Où puis-je trouver une documentation complète sur Aspose.Slides pour .NET ?
+ La documentation est disponible[ici](https://reference.aspose.com/slides/net/).
+### Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
+ Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+### Existe-t-il un forum d'assistance pour Aspose.Slides ?
+ Oui, vous pouvez visiter le forum d'assistance[ici](https://forum.aspose.com/c/slides/11).

@@ -8,7 +8,7 @@ weight: 16
 url: /sv/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
 
-I dagens digitala värld spelar presentationer en avgörande roll för att förmedla information effektivt. Men ibland behöver vi exportera specifika former från våra presentationer till olika format för olika ändamål. Ett sådant format är SVG (Scalable Vector Graphics), känt för sin skalbarhet och anpassningsbarhet. I den här handledningen guidar vi dig genom processen att exportera former till SVG-format från en presentation med Aspose.Slides för .NET.
+dagens digitala värld spelar presentationer en avgörande roll för att förmedla information effektivt. Men ibland behöver vi exportera specifika former från våra presentationer till olika format för olika ändamål. Ett sådant format är SVG (Scalable Vector Graphics), känt för sin skalbarhet och anpassningsbarhet. I den här handledningen guidar vi dig genom processen att exportera former till SVG-format från en presentation med Aspose.Slides för .NET.
 
 ## 1. Introduktion
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 
 ## 5. Exportera en form till SVG
 
- Inom`using`block, kan du komma åt formerna i din presentation och exportera dem till SVG-format. Här exporterar vi den första formen på den första bilden:
+ Inom`using` block, kan du komma åt formerna i din presentation och exportera dem till SVG-format. Här exporterar vi den första formen på den första bilden:
 
 ```csharp
 using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAccess.Write))

@@ -28,7 +28,7 @@ String outPath = "output/path/output.pptx";
 Presentation pres = new Presentation(presentationName);
 ```
 
-## Steg 2: Öppna diagrammet och dataetiketterna
+## Steg 2: Öppna diagrammet och dataetiketter
 
 Därefter kommer vi åt diagrammet och dataetiketterna i presentationen. I det här exemplet antar vi att diagrammet finns på den första bilden.
 

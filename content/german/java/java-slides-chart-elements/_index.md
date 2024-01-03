@@ -22,7 +22,7 @@ Bevor wir uns mit den Einzelheiten befassen, wollen wir verstehen, warum Java Sl
 
 - Interaktivität: Beeindrucken Sie Ihr Publikum mit interaktiven Diagrammen, die während der Präsentation erkundet werden können.
 
-- Anpassung: Passen Sie Ihre Diagramme an die Ästhetik Ihrer Marke an und vermitteln Sie Ihre Botschaft wirkungsvoll.
+- Anpassung: Passen Sie Ihre Diagramme an die Ästhetik Ihrer Marke an und vermitteln Sie Ihre Botschaft effektiv.
 
 Nachdem Sie nun die Leistungsfähigkeit von Java Slides verstanden haben, sehen wir uns die Tutorials an, die Sie in einen Präsentationsprofi verwandeln.
 
@@ -57,4 +57,4 @@ Entdecken Sie Aspose.Slides für Java mit Schritt-für-Schritt-Anleitungen. Erst
 ### [Kartendiagramm in Java-Folien](./map-chart-java-slides/)
 Erstellen Sie mit Aspose.Slides für Java atemberaubende Kartendiagramme in PowerPoint-Präsentationen. Schritt-für-Schritt-Anleitung und Quellcode für Java-Entwickler.
 ### [Sunburst-Diagramm in Java-Folien](./sunburst-chart-java-slides/)
-Erstellen Sie mit Aspose.Slides atemberaubende Sunburst-Diagramme in Java-Folien. Erfahren Sie Schritt für Schritt, wie Sie Diagramme erstellen und Daten bearbeiten.
+Erstellen Sie mit Aspose.Slides atemberaubende Sunburst-Diagramme in Java Slides. Erfahren Sie Schritt für Schritt, wie Sie Diagramme erstellen und Daten bearbeiten.

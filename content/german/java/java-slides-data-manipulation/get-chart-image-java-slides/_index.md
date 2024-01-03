@@ -69,7 +69,7 @@ finally
 
 ## Abschluss
 
-Das Abrufen von Diagrammbildern aus Java Slides mit Aspose.Slides für Java ist ein unkomplizierter Prozess. Mit dem bereitgestellten Code können Sie diese Funktionalität einfach in Ihre Java-Anwendungen integrieren und so effektiv mit PowerPoint-Präsentationen arbeiten.
+Das Abrufen von Diagrammbildern aus Java Slides mit Aspose.Slides für Java ist ein unkomplizierter Prozess. Mit dem bereitgestellten Code können Sie diese Funktionalität problemlos in Ihre Java-Anwendungen integrieren und so effektiv mit PowerPoint-Präsentationen arbeiten.
 
 ## FAQs
 

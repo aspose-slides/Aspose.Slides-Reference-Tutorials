@@ -24,7 +24,7 @@ Maintenant que vous avez les prérequis prêts, passons au processus étape par 
 
 Tout d’abord, vous devez importer les espaces de noms nécessaires pour votre projet C#. Ces espaces de noms vous donneront accès aux classes et méthodes requises dans Aspose.Slides. Voici comment procéder :
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.Slides;

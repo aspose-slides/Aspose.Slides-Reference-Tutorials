@@ -30,4 +30,4 @@ url: /zh/net/audio-and-video-extraction/
 ### [从时间轴提取音频](./extract-audio-from-timeline/)
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 时间线中提取音频。带有代码示例的分步指南。
 ### [从幻灯片中提取视频](./extract-video/)
-使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中掌握视频提取。请按照我们的代码示例指南进行操作。
+使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中掌握视频提取。请遵循我们的代码示例指南。

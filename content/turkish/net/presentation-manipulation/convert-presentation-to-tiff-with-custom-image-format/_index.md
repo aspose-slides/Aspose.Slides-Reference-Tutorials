@@ -33,7 +33,7 @@ Projenize Aspose.Slides for .NET kitaplığına bir referans ekleyin. Bunu, Solu
 
 ## 3. Dönüşüm Kodunu Yazın
 
- Projenizin ana kod dosyasını açın (örn.`Program.cs`) ve aşağıdaki kullanarak ifadesini ekleyin:
+ Projenizin ana kod dosyasını açın (örn.`Program.cs`ve aşağıdaki kullanarak ifadesini ekleyin:
 
 ```csharp
 using Aspose.Slides;

@@ -73,7 +73,7 @@ Evet, HTMLOptions nesnesini değiştirerek HTML çıktısını özelleştirebili
 Evet, Aspose.Slides for .NET, PPT, PPTX ve daha fazlası dahil olmak üzere çeşitli PowerPoint formatlarını destekler.
 
 ### S4. Lisanslamayla ilgili herhangi bir husus var mı?
-Aspose.Slides for .NET'i projenizde kullanmak için Aspose'tan lisans almanız gerekecektir. Lisanslama hakkında daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ Aspose.Slides for .NET'i projenizde kullanmak için Aspose'tan lisans almanız gerekecektir. Lisanslama hakkında daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
 ### S5. Aspose.Slides for .NET için nereden destek alabilirim?
  Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresten yardım isteyebilirsiniz:[Aspose.Slides forumu](https://forum.aspose.com/).

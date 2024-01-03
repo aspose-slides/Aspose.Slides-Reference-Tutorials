@@ -2,7 +2,7 @@
 title: Infoga ytterligare bilder i presentationen
 linktitle: Infoga ytterligare bilder i presentationen
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du infogar ytterligare bilder i dina PowerPoint-presentationer med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger exempel på källkod och detaljerade instruktioner för att sömlöst förbättra dina presentationer. Anpassningsbart innehåll, infogningstips och vanliga frågor ingår.
+description: Lär dig hur du infogar ytterligare bilder i dina PowerPoint-presentationer med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger källkodsexempel och detaljerade instruktioner för att sömlöst förbättra dina presentationer. Anpassningsbart innehåll, infogningstips och vanliga frågor ingår.
 type: docs
 weight: 15
 url: /sv/net/slide-access-and-manipulation/add-slides/
@@ -106,4 +106,4 @@ Absolut. Du kan ändra layout, design och formatering av de infogade bilderna me
 
 ### Var kan jag hitta mer information om Aspose.Slides för .NET?
 
-För detaljerad dokumentation och exempel, se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+ För detaljerad dokumentation och exempel, se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).

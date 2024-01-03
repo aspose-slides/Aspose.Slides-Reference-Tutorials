@@ -1,136 +1,75 @@
 ---
-title: تعبئة الأشكال بالتدرج في شرائح العرض التقديمي باستخدام Aspose.Slides
+title: قم بإنشاء تدرجات مذهلة في برنامج PowerPoint باستخدام Aspose.Slides
 linktitle: تعبئة الأشكال بالتدرج في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تحسين شرائح العرض التقديمي الخاص بك باستخدام التدرجات الجذابة باستخدام Aspose.Slides for .NET. اتبع هذا الدليل خطوة بخطوة مع التعليمات البرمجية المصدر الكاملة لملء الأشكال بالتدرجات، من الخطي إلى الشعاعي، مما يضيف العمق والأبعاد.
+description: عزز عروضك التقديمية باستخدام Aspose.Slides لـ .NET! تعرف على عملية ملء الأشكال بالتدرجات خطوة بخطوة. تحميل النسخة التجريبية المجانية من الآن!
 type: docs
 weight: 21
 url: /ar/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
-
-## مقدمة إلى Aspose.Slides لـ .NET
-
-Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من إنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجياً. فهو يقدم مجموعة واسعة من الميزات للعمل مع الشرائح والأشكال والنصوص والصور والمزيد. في هذا الدليل، سنركز على كيفية استخدام Aspose.Slides لتطبيق التدرجات اللونية على الأشكال داخل العرض التقديمي.
-
-## إضافة الأشكال إلى الشرائح
-
-قبل أن نتعمق في التدرجات، فلنبدأ بإضافة أشكال إلى الشرائح باستخدام Aspose.Slides. فيما يلي مثال أساسي لإضافة شكل مستطيل إلى شريحة:
-
+## مقدمة
+يعد إنشاء شرائح العرض التقديمي الجذابة بصريًا أمرًا ضروريًا لجذب انتباه جمهورك والحفاظ عليه. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحسين الشرائح الخاصة بك عن طريق ملء شكل بيضاوي بتدرج باستخدام Aspose.Slides for .NET.
+## المتطلبات الأساسية
+قبل أن نبدأ، تأكد من أن لديك ما يلي:
+- المعرفة الأساسية بلغة البرمجة C#.
+- تم تثبيت Visual Studio على جهازك.
+-  Aspose.Slides لمكتبة .NET. تنزيله[هنا](https://releases.aspose.com/slides/net/).
+- دليل المشروع لتنظيم ملفاتك.
+## استيراد مساحات الأسماء
+في مشروع C# الخاص بك، قم بتضمين مساحات الأسماء المطلوبة لـ Aspose.Slides:
 ```csharp
-// أضف شكل مستطيل جديد إلى الشريحة
-var slide = presentation.Slides[0];
-var rectangle = slide.Shapes.AddRectangle(100, 100, 200, 150);
-```
-
-## فهم التدرجات
-
-التدرجات عبارة عن مزيج تدريجي من لونين أو أكثر مما يؤدي إلى إنشاء انتقال سلس بينهما. يمكن أن تكون خطية أو شعاعية، وتضيف عمقًا وبعدًا إلى الأشكال.
-
-## تعبئة الأشكال بالتدرجات الخطية
-
- لملء شكل بتدرج خطي باستخدام Aspose.Slides، تحتاج إلى إنشاء ملف`LinearGradientFill` الكائن وتطبيقه على الشكل. هنا مثال:
-
-```csharp
-// إنشاء تعبئة متدرجة خطية
-var gradientFill = new LinearGradientFill();
-gradientFill.Angle = 45; // ضبط زاوية التدرج
-
-// إضافة توقفات التدرج
-gradientFill.GradientStops.Add(0, Color.Blue);
-gradientFill.GradientStops.Add(1, Color.White);
-
-// قم بتطبيق تعبئة متدرجة على الشكل
-rectangle.FillFormat.FillType = FillType.Gradient;
-rectangle.FillFormat.GradientFormat.GradientShape = GradientShape.Linear;
-rectangle.FillFormat.GradientFormat.LinearGradientFormat = gradientFill;
-```
-
-## تطبيق التدرجات الشعاعية على الأشكال
-
-تنشئ التدرجات الشعاعية مزيجًا دائريًا من الألوان، يشع من نقطة مركزية. إليك كيفية تطبيق تعبئة متدرجة نصف قطرية باستخدام Aspose.Slides:
-
-```csharp
-// إنشاء تعبئة متدرجة شعاعي
-var gradientFill = new RadialGradientFill();
-
-// إضافة توقفات التدرج
-gradientFill.GradientStops.Add(0, Color.Green);
-gradientFill.GradientStops.Add(1, Color.Yellow);
-
-// قم بتطبيق تعبئة متدرجة على الشكل
-rectangle.FillFormat.FillType = FillType.Gradient;
-rectangle.FillFormat.GradientFormat.GradientShape = GradientShape.Radial;
-rectangle.FillFormat.GradientFormat.RadialGradientFormat = gradientFill;
-```
-
-## الجمع بين التدرجات والشفافية
-
-يمكنك تحسين التأثير المرئي للتدرجات اللونية من خلال تطبيق الشفافية على الشكل. يؤدي هذا إلى إنشاء مزيج أنيق من الألوان ويسمح للخلفية بالظهور قليلاً.
-
-```csharp
-// تطبيق الشفافية على الشكل
-rectangle.FillFormat.Transparency = 0.5; //ضبط مستوى الشفافية
-```
-
-## العمل مع توقفات متدرجة متعددة
-
-تحدد علامات التوقف المتدرجة الألوان والمواضع داخل التدرج. من خلال إضافة نقاط توقف متدرجة متعددة، يمكنك إنشاء تدرجات أكثر تعقيدًا وجاذبية من الناحية المرئية.
-
-```csharp
-// إضافة نقاط توقف متدرجة متعددة
-gradientFill.GradientStops.Add(0, Color.Red);
-gradientFill.GradientStops.Add(0.5, Color.Yellow);
-gradientFill.GradientStops.Add(1, Color.Blue);
-```
-
-## إضافة كود المصدر إلى مشروعك
-
- لاستخدام Aspose.Slides لـ .NET، تحتاج إلى إضافة المكتبة إلى مشروعك. يمكنكم تحميل المكتبة من الموقع:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/).
-
-## تجميع وتشغيل المشروع
-
-بمجرد إضافة مكتبة Aspose.Slides إلى مشروعك، يمكنك البدء في كتابة التعليمات البرمجية لإنشاء شرائح العرض التقديمي ومعالجتها. تأكد من تضمين مساحات الأسماء الضرورية:
-
-```csharp
+using System.IO;
 using Aspose.Slides;
-using Aspose.Slides.Fill;
+using Aspose.Slides.Export;
 ```
-
-## تخصيصات وتأثيرات إضافية
-
- يقدم Aspose.Slides خيارات وتأثيرات تخصيص متنوعة يمكنك تطبيقها على الأشكال والتدرجات اللونية. استكشف الوثائق للحصول على المزيد من الميزات المتقدمة:[Aspose.Slides لتوثيق .NET](https://reference.aspose.com/slides/net/).
-
-## تصدير العرض التقديمي
-
-بعد تطبيق التدرجات والتخصيصات على العرض التقديمي الخاص بك، يمكنك حفظه بتنسيقات مختلفة، مثل PPTX أو PDF:
-
+## الخطوة 1: إنشاء عرض تقديمي
+ابدأ بإنشاء عرض تقديمي جديد باستخدام مكتبة Aspose.Slides:
 ```csharp
-// احفظ العرض التقديمي في ملف
-presentation.Save("MyPresentation.pptx", SaveFormat.Pptx);
+string dataDir = "Your Documents Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
+{
+    // الكود الخاص بك يذهب هنا ...
+}
 ```
-
+## الخطوة 2: إضافة شكل القطع الناقص
+قم بإدراج شكل بيضاوي في الشريحة الأولى من العرض التقديمي:
+```csharp
+ISlide sld = pres.Slides[0];
+IShape shp = sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 75, 150);
+```
+## الخطوة 3: تطبيق تنسيق التدرج
+حدد أنه يجب ملء الشكل بتدرج وحدد خصائص التدرج:
+```csharp
+shp.FillFormat.FillType = FillType.Gradient;
+shp.FillFormat.GradientFormat.GradientShape = GradientShape.Linear;
+shp.FillFormat.GradientFormat.GradientDirection = GradientDirection.FromCorner2;
+```
+## الخطوة 4: إضافة توقفات التدرج
+تحديد ألوان ومواضع توقفات التدرج:
+```csharp
+shp.FillFormat.GradientFormat.GradientStops.Add((float)1.0, PresetColor.Purple);
+shp.FillFormat.GradientFormat.GradientStops.Add((float)0, PresetColor.Red);
+```
+## الخطوة 5: احفظ العرض التقديمي
+احفظ العرض التقديمي الخاص بك بالشكل المملوء بالتدرج المضاف حديثًا:
+```csharp
+pres.Save(dataDir + "EllipseShpGrad_out.pptx", SaveFormat.Pptx);
+```
+كرر هذه الخطوات في كود C# الخاص بك، مع التأكد من التسلسل الصحيح وقيم المعلمات. سيؤدي هذا إلى ملف عرض تقديمي ذو شكل بيضاوي جذاب ومملوء بتدرج.
 ## خاتمة
-
-يمكن أن يؤدي ملء الأشكال بالتدرجات إلى زيادة المظهر البصري لشرائح العرض التقديمي، مما يجعلها أكثر جاذبية وإبهارًا بصريًا. يوفر Aspose.Slides for .NET الأدوات التي تحتاجها لتطبيق التدرجات اللونية بسهولة، مما يسمح لك بإنشاء عروض تقديمية مذهلة تأسر جمهورك.
-
+With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics of your presentations. By following this guide, you've learned how to fill shapes with gradients, giving your slides a professional and engaging look.
+---
 ## الأسئلة الشائعة
-
-### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل مكتبة Aspose.Slides لـ .NET من صفحة الإصدارات:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/).
-
-### هل يمكنني تطبيق الشفافية على الأشكال المملوءة بالتدرج؟
-
- نعم، يمكنك تطبيق الشفافية على الأشكال المملوءة بالتدرجات اللونية باستخدام`Transparency` ملكية`FillFormat`.
-
-### هل التدرجات الشعاعية أفضل من التدرجات الخطية؟
-
-يعتمد الاختيار بين التدرجات الشعاعية والخطية على التصميم والتأثير الذي تريد تحقيقه. تُنشئ التدرجات الشعاعية مزيجًا دائريًا، بينما تُنشئ التدرجات الخطية انتقالًا خطيًا سلسًا بين الألوان.
-
-### هل يمكنني تخصيص موضع توقفات التدرج؟
-
-نعم، يمكنك تخصيص موضع ولون توقفات التدرج ضمن تعبئة متدرجة. يتيح لك هذا إنشاء تأثيرات متدرجة فريدة ومعقدة.
-
-### هل Aspose.Slides مناسب لمعالجات PowerPoint الأخرى؟
-
-نعم، يقدم Aspose.Slides مجموعة واسعة من الميزات للعمل مع عروض PowerPoint التقديمية، بما في ذلك إضافة الشرائح والنصوص والصور والرسوم المتحركة والمزيد.
+### س: هل يمكنني تطبيق التدرجات على أشكال أخرى غير علامات الحذف؟
+ج: بالتأكيد! يدعم Aspose.Slides for .NET التعبئة المتدرجة لمختلف الأشكال مثل المستطيلات والمضلعات والمزيد.
+### س: أين يمكنني العثور على أمثلة إضافية ووثائق مفصلة؟
+ ج: اكتشف[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/) للحصول على أدلة وأمثلة شاملة.
+### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ .NET؟
+ ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+### س: كيف يمكنني الحصول على دعم Aspose.Slides لـ .NET؟
+ ج: اطلب المساعدة والتفاعل مع المجتمع بشأن[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### س: هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
+ ج: بالتأكيد يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

@@ -41,7 +41,7 @@ using var presentation = new Presentation("path/to/your/presentation.pptx");
 
 ## Accéder aux diapositives
 
- Une fois que vous avez chargé la présentation, vous pouvez accéder à ses diapositives en utilisant le`Slides`collection. Voici comment parcourir les diapositives et effectuer des opérations dessus :
+ Une fois que vous avez chargé la présentation, vous pouvez accéder à ses diapositives en utilisant le`Slides` collection. Voici comment parcourir les diapositives et effectuer des opérations dessus :
 
 ```csharp
 // Accéder aux diapositives
@@ -107,7 +107,7 @@ presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 
 ## Fonctionnalités et ressources supplémentaires
 
-Aspose.Slides pour .NET offre un large éventail de fonctionnalités au-delà de ce que nous avons couvert dans ce guide. Pour des opérations plus avancées, telles que l'ajout de graphiques, d'images, d'animations et de transitions, vous pouvez vous référer au[Documentation](https://reference.aspose.com/slides/net/).
+ Aspose.Slides pour .NET offre un large éventail de fonctionnalités au-delà de ce que nous avons couvert dans ce guide. Pour des opérations plus avancées, telles que l'ajout de graphiques, d'images, d'animations et de transitions, vous pouvez vous référer au[Documentation](https://reference.aspose.com/slides/net/).
 
 ## Conclusion
 

@@ -18,7 +18,7 @@ Prima di approfondire le complessità della conversione delle presentazioni di d
 
 Ora che hai familiarità con lo strumento, passiamo al processo di conversione. Aspose.Slides per Java semplifica la conversione delle presentazioni di diapositive da un formato all'altro. Che tu abbia bisogno di convertire PowerPoint in PDF, estrarre diapositive come immagini o eseguire qualsiasi altra trasformazione, i nostri tutorial passo passo ti aiuteranno.
 
-### Tutorial passo dopo passo
+### Tutorial passo passo
 
 I nostri tutorial sono progettati per guidarti facilmente attraverso il processo di conversione. Comprendiamo che ogni utente ha esigenze uniche, quindi abbiamo creato una serie di tutorial per soddisfare scenari diversi. Che tu sia un principiante o uno sviluppatore esperto, troverai tutorial adatti al tuo livello di abilità.
 

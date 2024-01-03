@@ -195,7 +195,7 @@ chart.Axes.HorizontalAxis.TickLabelRotationAngle = 45;
 Låt oss förbättra legenderna i vårt diagram för bättre läsbarhet.
 
 ```csharp
-// Ställa in teckentextegenskaper
+// Ställa in teckenförklaringstextegenskaper
 IChartPortionFormat txtleg = chart.Legend.TextFormat.PortionFormat;
 txtleg.FontBold = NullableBool.True;
 txtleg.FontHeight = 16;

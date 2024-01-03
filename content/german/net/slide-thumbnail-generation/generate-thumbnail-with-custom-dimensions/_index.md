@@ -8,7 +8,7 @@ weight: 13
 url: /de/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
 
-Das Erstellen benutzerdefinierter Miniaturansichten Ihrer PowerPoint-Präsentationen kann von großem Nutzen sein, unabhängig davon, ob Sie eine interaktive Anwendung erstellen, die Benutzererfahrung verbessern oder Inhalte für verschiedene Plattformen optimieren. In diesem Tutorial führen wir Sie durch den Prozess der Generierung benutzerdefinierter Miniaturbilder aus PowerPoint-Präsentationen mithilfe der Aspose.Slides für .NET-Bibliothek. Mit dieser leistungsstarken Bibliothek können Sie PowerPoint-Dateien programmgesteuert in .NET-Anwendungen bearbeiten, konvertieren und verbessern.
+Das Erstellen benutzerdefinierter Miniaturbilder Ihrer PowerPoint-Präsentationen kann von großem Nutzen sein, unabhängig davon, ob Sie eine interaktive Anwendung erstellen, das Benutzererlebnis verbessern oder Inhalte für verschiedene Plattformen optimieren. In diesem Tutorial führen wir Sie durch den Prozess der Generierung benutzerdefinierter Miniaturbilder aus PowerPoint-Präsentationen mithilfe der Aspose.Slides für .NET-Bibliothek. Mit dieser leistungsstarken Bibliothek können Sie PowerPoint-Dateien programmgesteuert in .NET-Anwendungen bearbeiten, konvertieren und verbessern.
 
 ## Voraussetzungen
 
@@ -63,7 +63,7 @@ ISlide sld = pres.Slides[0];
 
 ## Schritt 3: Definieren Sie benutzerdefinierte Miniaturbildabmessungen
 
-Geben Sie die gewünschten Abmessungen für Ihr benutzerdefiniertes Miniaturbild an. Sie können die Breite und Höhe in Pixel entsprechend den Anforderungen Ihrer Anwendung definieren.
+Geben Sie die gewünschten Abmessungen für Ihr benutzerdefiniertes Miniaturbild an. Sie können die Breite und Höhe in Pixel entsprechend den Anforderungen Ihrer Anwendung festlegen.
 
 ```csharp
 int desiredX = 1200; // Breite

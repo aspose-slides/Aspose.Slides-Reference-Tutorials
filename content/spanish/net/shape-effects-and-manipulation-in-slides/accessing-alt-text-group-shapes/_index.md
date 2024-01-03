@@ -12,7 +12,7 @@ Cuando se trata de gestionar y manipular presentaciones, Aspose.Slides para .NET
 
 ## Introducción al texto alternativo en formas de grupo
 
-El texto alternativo, también conocido como texto alternativo, es un componente crucial para hacer que las presentaciones sean accesibles para personas con discapacidad visual. Proporciona una descripción textual de imágenes, formas y otros elementos visuales, lo que permite a los lectores de pantalla transmitir el contenido a los usuarios que no pueden ver las imágenes. Cuando se trata de formas grupales, que constan de múltiples formas agrupadas, acceder y modificar el texto alternativo requiere técnicas específicas.
+El texto alternativo, también conocido como texto alternativo, es un componente crucial para hacer que las presentaciones sean accesibles para personas con discapacidad visual. Proporciona una descripción textual de imágenes, formas y otros elementos visuales, lo que permite a los lectores de pantalla transmitir el contenido a los usuarios que no pueden ver las imágenes. Cuando se trata de formas de grupo, que constan de múltiples formas agrupadas, acceder y modificar el texto alternativo requiere técnicas específicas.
 
 ## Configurar su entorno de desarrollo
 
@@ -101,7 +101,7 @@ En esta guía, exploramos el proceso de acceso a texto alternativo en formas gru
 
 ### ¿Cómo puedo instalar Aspose.Slides para .NET?
 
- Puede descargar Aspose.Slides para .NET desde el[Aspose sitio web](https://reference.aspose.com/slides/net/). Siga las instrucciones de instalación proporcionadas para configurar la biblioteca en su proyecto.
+ Puede descargar Aspose.Slides para .NET desde el[Aspose sitio web](https://reference.aspose.com/slides/net/)Siga las instrucciones de instalación proporcionadas para configurar la biblioteca en su proyecto.
 
 ### ¿Puedo usar Aspose.Slides para otros lenguajes de programación?
 

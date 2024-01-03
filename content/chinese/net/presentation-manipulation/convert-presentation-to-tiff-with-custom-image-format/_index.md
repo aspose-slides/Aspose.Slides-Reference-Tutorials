@@ -33,7 +33,7 @@ url: /zh/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-
 
 ## 3. 编写转换代码
 
-打开项目的主代码文件（例如，`Program.cs`) 并添加以下 using 语句：
+打开项目的主代码文件（例如，`Program.cs`并添加以下 using 语句：
 
 ```csharp
 using Aspose.Slides;

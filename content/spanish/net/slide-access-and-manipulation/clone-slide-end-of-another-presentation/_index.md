@@ -86,7 +86,7 @@ En este tutorial, aprendió cómo replicar una diapositiva de una presentación 
 
 ### ¿Cómo puedo instalar Aspose.Slides para .NET?
 
- Puede descargar la biblioteca Aspose.Slides para .NET desde[este enlace](https://releases.aspose.com/slides/net/). Asegúrese de seguir las instrucciones de instalación proporcionadas en su documentación.
+ Puede descargar la biblioteca Aspose.Slides para .NET desde[este enlace](https://releases.aspose.com/slides/net/)Asegúrese de seguir las instrucciones de instalación proporcionadas en su documentación.
 
 ### ¿Puedo replicar varias diapositivas a la vez?
 

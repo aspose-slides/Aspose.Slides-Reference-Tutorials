@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 
 ## 5. تصدير الشكل إلى SVG
 
- في حدود`using`الكتلة، يمكنك الوصول إلى الأشكال الموجودة في العرض التقديمي الخاص بك وتصديرها إلى تنسيق SVG. هنا، نقوم بتصدير الشكل الأول على الشريحة الأولى:
+ في حدود`using` الكتلة، يمكنك الوصول إلى الأشكال الموجودة في العرض التقديمي الخاص بك وتصديرها إلى تنسيق SVG. هنا، نقوم بتصدير الشكل الأول على الشريحة الأولى:
 
 ```csharp
 using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAccess.Write))

@@ -1,92 +1,82 @@
 ---
-title: Slaytta Animasyonu Geri Sarma
+title: Aspose.Slides ile Sunumlarda Geri Sarma Animasyonlarında Uzmanlaşma
 linktitle: Slaytta Animasyonu Geri Sarma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak PowerPoint slaytlarındaki animasyonları nasıl geri saracağınızı öğrenin. Sunumlarınızı dinamik olarak geliştirmek için eksiksiz kaynak kodu örnekleri içeren bu adım adım kılavuzu izleyin.
+description: Aspose.Slides for .NET kullanarak PowerPoint slaytlarındaki animasyonları nasıl geri saracağınızı öğrenin. Tam kaynak kodu örneklerinin yer aldığı bu adım adım kılavuzu izleyin.
 type: docs
 weight: 13
 url: /tr/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-## Aspose.Slides ile Animasyonlara Giriş
-
-Animasyonlar sunumlarınıza hayat vererek onları daha ilgi çekici ve görsel olarak çekici hale getirebilir. Aspose.Slides for .NET, geliştiricilerin animasyon ekleme, değiştirme ve yönetme dahil olmak üzere PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır.
-
+## giriiş
+Sunumların dinamik dünyasında büyüleyici animasyonların kullanılması katılımı önemli ölçüde artırabilir. Aspose.Slides for .NET, sunumlarınıza hayat katacak güçlü bir araç seti sağlar. İlgi çekici özelliklerden biri, slaytlardaki animasyonları geri sarma yeteneğidir. Bu kapsamlı kılavuzda, süreç boyunca size adım adım yol göstererek Aspose.Slides for .NET kullanarak animasyon geri sarmanın tüm potansiyelinden yararlanmanıza olanak sağlayacağız.
 ## Önkoşullar
-
-Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
-
-- Visual Studio: Visual Studio'yu veya başka herhangi bir .NET geliştirme ortamını yükleyin.
--  Aspose.Slides: Aspose.Slides for .NET kitaplığını şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/slides/net/).
-
-## Adım 1: Sunum Dosyasını Yükleme
-
-Öncelikle animasyonların bulunduğu slaydı içeren PowerPoint sunum dosyasını yükleyerek başlayalım. İşte bunu başarmak için kod pasajı:
-
+Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+-  Aspose.Slides for .NET: Kütüphanenin kurulu olduğundan emin olun. Değilse, şuradan indirin:[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/).
+- .NET Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamı kurduğunuzdan emin olun.
+- Temel C# Bilgisi: C# programlama dilinin temellerine aşina olun.
+## Ad Alanlarını İçe Aktar
+Aspose.Slides for .NET tarafından sağlanan işlevsellikten yararlanmak için C# kodunuzda gerekli ad alanlarını içe aktarmanız gerekecektir. İşte size yol gösterecek bir pasaj:
 ```csharp
-using Aspose.Slides;
-
-// Sunuyu yükle
-string presentationPath = "path_to_your_presentation.pptx";
-using (Presentation presentation = new Presentation(presentationPath))
+using System;
+using Aspose.Slides.Animation;
+using Aspose.Slides.SlideShow;
+using Aspose.Slides.Export;
+```
+## 1. Adım: Projenizi Kurun
+Tercih ettiğiniz .NET geliştirme ortamında yeni bir proje oluşturun. Eğer mevcut değilse, belgeleriniz için bir dizin oluşturun.
+```csharp
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+```
+## 2. Adım: Sunuyu Yükleyin
+ Örnekleyin`Presentation` sunum dosyanızı temsil edecek sınıf.
+```csharp
+using (Presentation presentation = new Presentation(dataDir + "AnimationRewind.pptx"))
 {
-    // Kodunuz burada
+    // Sonraki adımlara ilişkin kodunuz buraya gelecek
 }
 ```
-
-## Adım 2: Slayt ve Animasyona Erişim
-
-Daha sonra, belirli slayda ve animasyonlarına erişmemiz gerekiyor. Bu adımda geri sarmak istediğiniz animasyonu içeren slaydı hedefleyeceğiz. İşte nasıl:
-
+## Adım 3: Efekt Sırasına Erişim
+İlk slaydın efekt sırasını alın.
 ```csharp
-// Slayt indeksinin 0 olduğunu varsayalım (ilk slayt)
-ISlide slide = presentation.Slides[0];
-
-// Slayt animasyonlarına erişim
-ISlideAnimation slideAnimation = slide.SlideShowTransition;
+ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 ```
-
-## 3. Adım: Animasyonları Geri Sarma
-
-Şimdi heyecan verici kısım geliyor: animasyonları geri sarmak. Aspose.Slides, bir slayttaki animasyonları sıfırlayarak slaydı etkili bir şekilde başlangıç durumuna geri getirmenizi sağlar. İşte bunu başarmak için kod pasajı:
-
+## 4. Adım: Efekt Zamanlamasını Değiştirin
+Ana dizinin ilk efektine erişin ve geri sarmayı etkinleştirmek için zamanlamasını değiştirin.
 ```csharp
-// Slayttaki animasyonları geri sarma
-slideAnimation.StopAfterRepeats = 0; // Tekrar sayısını 0 olarak ayarlayın
+IEffect effect = effectsSequence[0];
+Console.WriteLine("\nEffect Timing/Rewind in source presentation is {0}", effect.Timing.Rewind);
+effect.Timing.Rewind = true;
 ```
-
-## Adım 4: Değiştirilen Sunumu Kaydetme
-
-Animasyonları geri sardıktan sonra sıra değiştirilen sunumu kaydetmeye gelir. Yeni bir adla kaydedebilir veya mevcut dosyanın üzerine yazabilirsiniz. Sunuyu şu şekilde kaydedebilirsiniz:
-
+## Adım 5: Sunuyu Kaydetme
+Değiştirilen sunuyu kaydedin.
 ```csharp
-// Değiştirilen sunuyu kaydet
-string outputPath = "path_to_save_modified_presentation.pptx";
-presentation.Save(outputPath, SaveFormat.Pptx);
+presentation.Save(RunExamples.OutPath + "AnimationRewind-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 ```
-
+## Adım 6: Hedef Sunumunda Geri Sarma Efektini Kontrol Edin
+Değiştirilen sunumu yükleyin ve geri sarma efektinin uygulanıp uygulanmadığını kontrol edin.
+```csharp
+using (Presentation pres = new Presentation(RunExamples.OutPath + "AnimationRewind-out.pptx"))
+{
+    effectsSequence = pres.Slides[0].Timeline.MainSequence;
+    effect = effectsSequence[0];
+    Console.WriteLine("Effect Timing/Rewind in destination presentation is {0}\n", effect.Timing.Rewind);
+}
+```
+Ek slaytlar için bu adımları tekrarlayın veya süreci sununuzun yapısına göre özelleştirin.
 ## Çözüm
-
-Tebrikler! Aspose.Slides for .NET'i kullanarak bir slayttaki animasyonları nasıl geri saracağınızı başarıyla öğrendiniz. Bu güçlü kitaplık, PowerPoint sunumlarınızı programlı olarak düzenlemeniz ve geliştirmeniz için gereken araçları sağlar.
-
-## SSS'ler
-
-### Aspose.Slides for .NET'i nasıl yüklerim?
-
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net/). Belgelerde sağlanan kurulum talimatlarını takip ettiğinizden emin olun.
-
-### Bir slayttaki belirli nesnelere ilişkin animasyonları geri sarabilir miyim?
-
-Evet, Aspose.Slides bir slaytta belirli nesneleri ve bunların animasyonlarını hedeflemenize olanak tanır. Animasyonları nesne düzeyinde de değiştirebilirsiniz.
-
-### Aspose.Slides farklı PowerPoint formatlarıyla uyumlu mu?
-
-Evet, Aspose.Slides, PPTX, PPT, PPSX ve daha fazlası dahil olmak üzere çeşitli PowerPoint formatlarını destekler. Desteklenen biçimlerin tam listesi için belgelere göz atmayı unutmayın.
-
-### Animasyonların geri sarma davranışını özelleştirebilir miyim?
-
-Kesinlikle! Aspose.Slides, animasyon davranışını özelleştirmek için bir dizi özellik ve yöntem sağlar. Animasyonların hızını, yönünü ve diğer yönlerini kontrol edebilirsiniz.
-
-### Daha fazla kaynak ve belgeyi nerede bulabilirim?
-
- Kapsamlı belgeler, eğitimler ve kod örnekleri için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+Unlocking the rewind animation feature in Aspose.Slides for .NET opens up exciting possibilities for creating dynamic and engaging presentations. By following this step-by-step guide, you can seamlessly integrate animation rewind into your projects, enhancing the visual appeal of your slides.
+---
+## SSS
+### Aspose.Slides for .NET en son .NET framework sürümüyle uyumlu mu?
+ Aspose.Slides for .NET, en yeni .NET framework sürümleriyle uyumluluğun sağlanması amacıyla düzenli olarak güncellenmektedir. Kontrol edin[dokümantasyon](https://reference.aspose.com/slides/net/) uyumluluk ayrıntıları için.
+### Bir slayttaki belirli nesnelere geri sarma animasyonu uygulayabilir miyim?
+Evet, geri sarma animasyonunu bir slayttaki belirli nesnelere veya öğelere seçici olarak uygulamak için kodu özelleştirebilirsiniz.
+### Aspose.Slides for .NET'in deneme sürümü mevcut mu?
+ Evet, ücretsiz deneme sürümünü edinerek özellikleri keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+### Aspose.Slides for .NET için nasıl destek alabilirim?
+ Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) yardım istemek ve toplulukla etkileşime geçmek.
+### Aspose.Slides for .NET için geçici bir lisans satın alabilir miyim?
+ Evet, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

@@ -104,4 +104,4 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 
 ### 在哪里可以找到有关 Aspose.Slides for .NET 的更多信息？
 
-有关更详细的文档和示例，您可以访问[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).
+如需更详细的文档和示例，您可以访问[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).

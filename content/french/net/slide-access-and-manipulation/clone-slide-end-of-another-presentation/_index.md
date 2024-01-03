@@ -86,7 +86,7 @@ Dans ce didacticiel, vous avez appris à répliquer une diapositive d'une prése
 
 ### Comment puis-je installer Aspose.Slides pour .NET ?
 
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de[ce lien](https://releases.aspose.com/slides/net/). Assurez-vous de suivre les instructions d’installation fournies dans leur documentation.
+ Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de[ce lien](https://releases.aspose.com/slides/net/)Assurez-vous de suivre les instructions d’installation fournies dans leur documentation.
 
 ### Puis-je répliquer plusieurs diapositives à la fois ?
 

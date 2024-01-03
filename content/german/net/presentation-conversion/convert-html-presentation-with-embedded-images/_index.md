@@ -30,7 +30,7 @@ Auf Ihrem Computer sollte eine .NET-Entwicklungsumgebung eingerichtet sein.
 
 Kenntnisse in der C#-Programmierung sind hilfreich, um den Code zu verstehen und umzusetzen.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Beginnen wir mit dem Importieren der erforderlichen Namespaces in Ihren C#-Code. Diese Namespaces sind für die Arbeit mit Aspose.Slides für .NET unerlässlich.
 

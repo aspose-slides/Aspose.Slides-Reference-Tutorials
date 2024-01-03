@@ -105,7 +105,7 @@ bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 答：对于较大的演示文稿或复杂的形状，该过程可能会消耗额外的内存和处理时间。
 
 ### 问：我可以自定义生成的缩略图的大小吗？
- A：是的，您可以通过修改参数中的参数来调整尺寸`GetThumbnail`方法。
+A：是的，您可以通过修改参数中的参数来调整尺寸`GetThumbnail`方法。
 
 ### 问：Aspose.Slides for .NET 适合商业用途吗？
 答：是的，Aspose.Slides 是个人和商业应用程序的强大解决方案。您可以在 Aspose 网站上找到许可详细信息。

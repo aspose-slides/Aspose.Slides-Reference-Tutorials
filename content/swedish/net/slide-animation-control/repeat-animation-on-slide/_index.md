@@ -1,89 +1,68 @@
 ---
-title: Upprepa animering på bild
+title: Bemästra PowerPoint-animationer med Aspose.Slides .NET
 linktitle: Upprepa animering på bild
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du upprepar animationer på en bild med Aspose.Slides för .NET. Denna steg-för-steg-guide ger källkod och tydliga instruktioner för att lägga till fängslande animationer till PowerPoint-presentationer programmatiskt.
+description: Förbättra PowerPoint-presentationer med Aspose.Slides för .NET. Styr animationer utan ansträngning, fängsla din publik och lämna ett bestående intryck.
 type: docs
 weight: 12
 url: /sv/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-## Introduktion till Aspose.Slides för .NET
-
-Aspose.Slides för .NET är ett robust bibliotek som gör det möjligt för utvecklare att skapa, manipulera och konvertera PowerPoint-presentationer med hjälp av .NET-ramverket. Det ger ett brett utbud av funktioner för att arbeta med bilder, former, text, bilder, animationer och mer.
-
-## Konfigurera din utvecklingsmiljö
-
-Innan vi börjar måste du ställa in din utvecklingsmiljö. Följ dessa steg:
-
-1. Ladda ner och installera Visual Studio från[Visual Studio-nedladdningar](https://visualstudio.microsoft.com/downloads/).
-2. Skapa ett nytt .NET-projekt (till exempel konsolapplikation) i Visual Studio.
-
-## Laddar en PowerPoint-presentation
-
-För att komma igång behöver du en PowerPoint-presentation att arbeta med. Se till att du har en PowerPoint-fil redo.
-
+## Introduktion
+I den dynamiska presentationsvärlden spelar förmågan att kontrollera animationer en avgörande roll för att engagera och fånga publikens uppmärksamhet. Aspose.Slides för .NET ger utvecklare möjlighet att ta hand om animationstyper i bilder, vilket möjliggör en mer interaktiv och visuellt tilltalande presentation. I den här handledningen kommer vi att utforska hur man styr animationstyper på en bild med Aspose.Slides för .NET, steg för steg.
+## Förutsättningar
+Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
+1.  Aspose.Slides för .NET Library: Ladda ner och installera biblioteket från[här](https://releases.aspose.com/slides/net/).
+2. .NET-utvecklingsmiljö: Konfigurera en .NET-utvecklingsmiljö på din maskin.
+## Importera namnområden
+I ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för att utnyttja funktionerna som tillhandahålls av Aspose.Slides:
 ```csharp
-using Aspose.Slides;
-
-// Ladda PowerPoint-presentationen
-using var presentation = new Presentation("presentation.pptx");
+using Aspose.Slides.Animation;
+using Aspose.Slides.SlideShow;
+using Aspose.Slides.Export;
 ```
-
-## Komma åt och ändra animationer
-
-Nu när vi har laddat vår presentation, låt oss komma åt och ändra animationerna på en specifik bild. För det här exemplet, låt oss anta att vi vill upprepa animationerna på bild nummer 2.
-
+## Steg 1: Konfigurera projektet
+Skapa en ny katalog för ditt projekt och instansiera klassen Presentation för att representera presentationsfilen.
 ```csharp
-// Få åtkomst till bilden efter index (0-baserat)
-var slideIndex = 1;
-var slide = presentation.Slides[slideIndex];
-
-// Få åtkomst till animationerna på bilden
-var animations = slide.Timeline.MainSequence;
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "AnimationOnSlide.pptx"))
+{
+    // Din kod kommer hit
+}
 ```
-
-## Upprepa animationer på en bild
-
-För att upprepa animeringar klonar vi och lägger till animationerna på bilden igen. Detta kommer att skapa en loopad effekt. Så här kan du uppnå detta:
-
+## Steg 2: Få åtkomst till effektsekvens
+Hämta effektsekvensen för den första bilden med hjälp av egenskapen MainSequence.
 ```csharp
-// Klona animationer och lägg till dem igen
-var clonedAnimations = animations.CloneSequence();
-animations.AddSequence(clonedAnimations);
+ISequence effectsSequence = pres.Slides[0].Timeline.MainSequence;
 ```
-
-## Testa och exportera den modifierade presentationen
-
-Efter att ha modifierat animationerna är det dags att testa presentationen och exportera den. Du kan exportera den till olika format som PPTX, PDF eller bilder.
-
+## Steg 3: Få tillgång till den första effekten
+Skaffa den första effekten av huvudsekvensen för att manipulera dess egenskaper.
 ```csharp
-// Spara den ändrade presentationen
-presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
+IEffect effect = effectsSequence[0];
 ```
-
+## Steg 4: Ändra repeteringsinställningar
+Ändra effektens Timing/Repeat-egenskap till "Till slutet av bilden."
+```csharp
+effect.Timing.RepeatUntilEndSlide = true;
+```
+## Steg 5: Spara presentationen
+Spara den ändrade presentationen för att visualisera ändringarna.
+```csharp
+pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+```
+Upprepa dessa steg för ytterligare effekter eller anpassa dem efter dina presentationskrav.
 ## Slutsats
-
-I den här guiden har vi utforskat hur man upprepar animationer på en bild med Aspose.Slides för .NET. Vi började med att introducera biblioteket och sätta upp utvecklingsmiljön. Sedan laddade vi en PowerPoint-presentation, fick åtkomst till och modifierade animationer och implementerade slutligen funktionen för upprepad animering. Aspose.Slides för .NET ger utvecklare möjlighet att skapa dynamiska och engagerande presentationer programmatiskt.
-
-## FAQ's
-
-### Hur kan jag ladda ner Aspose.Slides för .NET?
-
- Du kan ladda ner Aspose.Slides för .NET från versionssidan:[Ladda ner Aspose.Slides för .NET](https://releases.aspose.com/slides/net/)
-
-### Kan jag upprepa specifika animationer istället för alla animeringar på en bild?
-
- Ja, du kan selektivt upprepa specifika animationer genom att rikta in dig på dem med deras index inom`MainSequence`.
-
-### Är Aspose.Slides för .NET kompatibelt med olika PowerPoint-format?
-
-Ja, Aspose.Slides för .NET stöder olika PowerPoint-format, inklusive PPT, PPTX och mer.
-
-### Kan jag skapa anpassade animationer med Aspose.Slides för .NET?
-
-Absolut! Aspose.Slides för .NET tillhandahåller omfattande API:er för att skapa och anpassa animationer enligt dina krav.
-
-### Finns det en testversion tillgänglig för Aspose.Slides för .NET?
-
-Ja, du kan prova Aspose.Slides för .NET genom att ladda ner den kostnadsfria testversionen från webbplatsen.
+Att införliva dynamiska animationer i dina PowerPoint-presentationer har aldrig varit enklare med Aspose.Slides för .NET. Den här steg-för-steg-guiden utrustar dig med kunskapen för att kontrollera animationstyper, vilket säkerställer att dina bilder lämnar ett bestående intryck på din publik.
+## Vanliga frågor
+### Kan jag använda dessa animationer på specifika objekt i en bild?
+Ja, du kan rikta in dig på specifika objekt genom att komma åt deras individuella effekter inom sekvensen.
+### Är Aspose.Slides kompatibel med de senaste PowerPoint-versionerna?
+Aspose.Slides ger stöd för ett brett utbud av PowerPoint-versioner, vilket säkerställer kompatibilitet med både gamla och nya versioner.
+### Var kan jag hitta ytterligare exempel och resurser?
+ Utforska[dokumentation](https://reference.aspose.com/slides/net/) för omfattande exempel och detaljerade förklaringar.
+### Hur kan jag få en tillfällig licens för Aspose.Slides?
+ Besök[här](https://purchase.aspose.com/temporary-license/) för information om att få ett tillfälligt tillstånd.
+### Behöver du hjälp eller har fler frågor?
+ Engagera dig med Aspose.Slides-communityt på[supportforum](https://forum.aspose.com/c/slides/11).

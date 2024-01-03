@@ -42,7 +42,7 @@ class Program
 
 ## Hämtar alla bilder
 
- När presentationen är laddad kan du enkelt hämta alla bilder med hjälp av`Slides` samling. Här är hur:
+ När presentationen är laddad kan du enkelt hämta alla bilder med hjälp av`Slides`samling. Här är hur:
 
 ```csharp
 // Hämta alla bilder
@@ -112,7 +112,7 @@ class Program
 
 ## Slutsats
 
-den här guiden har vi utforskat hur du hämtar alla bilder i en PowerPoint-presentation med Aspose.Slides för .NET. Vi började med att sätta upp projektet och ladda presentationen. Sedan visade vi hur man hämtar bildinformation och får åtkomst till bildegenskaper med hjälp av bibliotekets API:er. Genom att följa dessa steg kan du effektivt arbeta med presentationsfiler programmatiskt och extrahera nödvändig information för vidare bearbetning.
+I den här guiden har vi utforskat hur du hämtar alla bilder i en PowerPoint-presentation med Aspose.Slides för .NET. Vi började med att sätta upp projektet och ladda presentationen. Sedan visade vi hur man hämtar bildinformation och får åtkomst till bildegenskaper med hjälp av bibliotekets API:er. Genom att följa dessa steg kan du effektivt arbeta med presentationsfiler programmatiskt och extrahera nödvändig information för vidare bearbetning.
 
 ## FAQ's
 

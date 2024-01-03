@@ -23,7 +23,7 @@ Bir dizi gelişmiş tekniği kapsayan Aspose.Slides for .NET eğitimleriyle Powe
 
 ## Sunum Dönüştürme Eğitimleri
 ### [Sunumları Notlarla TIFF Formatına Dönüştürme](./converting-presentations-to-tiff-format-with-notes/)
-Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını konuşmacı notlarıyla birlikte TIFF formatına dönüştürün. Yüksek kaliteli, verimli dönüşüm.
+Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını konuşmacı notlarıyla birlikte TIFF formatına dönüştürün. Yüksek kaliteli, verimli dönüştürme.
 ### [Gömülü Resimlerle HTML Sunumunu Dönüştürün](./convert-html-presentation-with-embedded-images/)
 Aspose.Slides for .NET'i kullanarak HTML sunumlarını gömülü görsellerle zahmetsizce dönüştürün. PowerPoint dosyalarını sorunsuz bir şekilde oluşturun, özelleştirin ve kaydedin.
 ### [Bireysel Sunum Slaytları Nasıl Dönüştürülür](./how-to-convert-individual-presentation-slides/)

@@ -2,7 +2,7 @@
 title: Options de conversion PDF personnalisées pour les présentations
 linktitle: Options de conversion PDF personnalisées pour les présentations
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd’hui.
+description: Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd'hui.
 type: docs
 weight: 12
 url: /fr/net/presentation-manipulation/custom-pdf-conversion-options-for-presentations/
@@ -69,7 +69,7 @@ Maintenant que vos options sont définies, vous pouvez exécuter la conversion P
 
 Toutes nos félicitations! Vous avez appris avec succès comment effectuer des conversions PDF personnalisées pour des présentations à l'aide d'Aspose.Slides pour .NET. Cette bibliothèque polyvalente vous permet d'affiner votre processus de conversion, garantissant que vos documents répondent à vos besoins spécifiques.
 
-Si vous êtes prêt à faire passer votre gestion de documents au niveau supérieur, Aspose.Slides pour .NET est un outil précieux dans votre arsenal. Expérimentez avec différents paramètres et explorez tout son potentiel.
+Si vous êtes prêt à faire passer votre gestion de documents au niveau supérieur, Aspose.Slides for .NET est un outil précieux dans votre arsenal. Expérimentez avec différents paramètres et explorez tout son potentiel.
 
 ## FAQ
 

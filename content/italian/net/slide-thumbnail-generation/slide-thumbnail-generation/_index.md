@@ -105,7 +105,7 @@ R: Aspose.Slides per .NET supporta vari formati di immagine, inclusi PNG, JPEG e
 R: Il processo potrebbe consumare memoria aggiuntiva e tempo di elaborazione per presentazioni più grandi o forme complesse.
 
 ### D: Posso personalizzare la dimensione delle miniature generate?
- R: Sì, puoi regolare le dimensioni modificando i parametri nel file`GetThumbnail` metodo.
+R: Sì, puoi regolare le dimensioni modificando i parametri nel file`GetThumbnail` metodo.
 
 ### D: Aspose.Slides per .NET è adatto per l'uso commerciale?
 R: Sì, Aspose.Slides è una soluzione solida sia per applicazioni personali che commerciali. È possibile trovare i dettagli della licenza sul sito Web di Aspose.

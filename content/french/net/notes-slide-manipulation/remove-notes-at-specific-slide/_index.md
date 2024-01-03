@@ -24,7 +24,7 @@ Passons maintenant au guide étape par étape pour supprimer des notes sur une d
 
 Tout d’abord, importons les espaces de noms nécessaires au bon fonctionnement de notre code. Ces espaces de noms sont essentiels pour travailler avec Aspose.Slides :
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.Slides;

@@ -42,7 +42,7 @@ class Program
 
 ## Alle Folien abrufen
 
- Sobald die Präsentation geladen ist, können Sie mit dem ganz einfach alle Folien abrufen`Slides` Sammlung. Hier ist wie:
+ Sobald die Präsentation geladen ist, können Sie mit dem ganz einfach alle Folien abrufen`Slides`Sammlung. Hier ist wie:
 
 ```csharp
 // Rufen Sie alle Folien ab

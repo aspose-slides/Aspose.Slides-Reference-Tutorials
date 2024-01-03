@@ -101,7 +101,7 @@ In diesem Leitfaden haben wir den Prozess des Zugriffs auf alternativen Text in 
 
 ### Wie kann ich Aspose.Slides für .NET installieren?
 
- Sie können Aspose.Slides für .NET von herunterladen[Aspose-Website](https://reference.aspose.com/slides/net/). Befolgen Sie die bereitgestellten Installationsanweisungen, um die Bibliothek in Ihrem Projekt einzurichten.
+ Sie können Aspose.Slides für .NET von herunterladen[Aspose-Website](https://reference.aspose.com/slides/net/)Befolgen Sie die bereitgestellten Installationsanweisungen, um die Bibliothek in Ihrem Projekt einzurichten.
 
 ### Kann ich Aspose.Slides für andere Programmiersprachen verwenden?
 

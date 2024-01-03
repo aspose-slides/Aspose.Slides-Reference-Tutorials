@@ -57,7 +57,7 @@ pres.save(dataDir + "AsposeClusteredColumnChart.pptx", SaveFormat.Pptx);
 
  Reemplazar`"AsposeClusteredColumnChart.pptx"` con el nombre de archivo que desee.
 
-¡Eso es todo! Ha creado con éxito un gráfico de columnas agrupadas y ha establecido el eje de posición entre categorías utilizando Aspose.Slides para Java.
+¡Eso es todo! Creó exitosamente un gráfico de columnas agrupadas y estableció el eje de posición entre categorías usando Aspose.Slides para Java.
 
 ## Código fuente completo
 ```java

@@ -48,7 +48,7 @@ using (Presentation pres = new Presentation(pptxFile))
 
 在此步骤中，我们从指定文件加载 PowerPoint 演示文稿。确保更换`"Your Document Directory"`与演示文稿文件的实际路径。
 
-### 步骤 2.2：访问幻灯片和时间轴
+### 步骤 2.2：访问幻灯片和时间线
 
 ```csharp
 ISlide slide = pres.Slides[0];

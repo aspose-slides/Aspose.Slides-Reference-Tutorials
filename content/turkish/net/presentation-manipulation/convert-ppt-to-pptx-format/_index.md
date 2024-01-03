@@ -43,13 +43,13 @@ string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 // Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
 Presentation pres = new Presentation(srcFileName);
 
-// Sunumu PPTX formatında kaydetme
+//Sunumu PPTX formatında kaydetme
 pres.Save(outPath, SaveFormat.Pptx);
 ```
 
 Bu kod parçacığında:
 
-- `dataDir`PPT dosyanızın bulunduğu dizin yolu ile değiştirilmelidir.
+- `dataDir` PPT dosyanızın bulunduğu dizin yolu ile değiştirilmelidir.
 - `outPath` dönüştürülen PPTX dosyasını kaydetmek istediğiniz dizinle değiştirilmelidir.
 - `srcFileName` giriş PPT dosyanızın adıdır.
 - `destFileName` çıktı PPTX dosyası için istenen addır.

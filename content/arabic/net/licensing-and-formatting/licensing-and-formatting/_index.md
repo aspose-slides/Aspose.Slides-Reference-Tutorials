@@ -16,7 +16,7 @@ url: /ar/net/licensing-and-formatting/licensing-and-formatting/
 
 1.  Aspose.Slides for .NET: تأكد من أنك قمت بتثبيت Aspose.Slides for .NET في بيئة التطوير الخاصة بك. يمكنك تحميل المكتبة من[رابط التحميل](https://releases.aspose.com/slides/net/).
 
-2.  ملف الترخيص: احصل على ملف ترخيص Aspose.Slides صالح، يُسمى عادةً "Aspose.Slides.lic". يمكنك الحصول على تراخيص من[موقع أسبوز](https://purchase.aspose.com/buy) أو طلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+2.  ملف الترخيص: احصل على ملف ترخيص Aspose.Slides صالح، يُسمى عادةً "Aspose.Slides.lic." يمكنك الحصول على تراخيص من[موقع أسبوز](https://purchase.aspose.com/buy) أو طلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
 
 ## استيراد مساحات الأسماء
 
@@ -58,7 +58,7 @@ license.SetLicense("Aspose.Slides.lic");
 
 ### الخطوة 4: التحقق من الترخيص
 
- للتحقق مما إذا كان ترخيصك صالحًا، استخدم`IsLicensed` طريقة. تقوم بإرجاع قيمة منطقية تشير إلى ما إذا كان ترخيصك نشطًا أم لا.
+للتحقق مما إذا كان ترخيصك صالحًا، استخدم`IsLicensed` طريقة. تقوم بإرجاع قيمة منطقية تشير إلى ما إذا كان ترخيصك نشطًا أم لا.
 
 ```csharp
 if (license.IsLicensed())
@@ -82,7 +82,7 @@ if (license.IsLicensed())
 Aspose.Slides for .NET هي مكتبة قوية للعمل مع ملفات Microsoft PowerPoint في تطبيقات .NET. يسمح لك بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجياً.
 
 ### كيف يمكنني الحصول على ترخيص Aspose.Slides لـ .NET؟
-يمكنك الحصول على ترخيص Aspose.Slides for .NET من خلال زيارة موقع Aspose الإلكتروني[صفحة الشراء](https://purchase.aspose.com/buy).
+ يمكنك الحصول على ترخيص Aspose.Slides for .NET من خلال زيارة موقع Aspose الإلكتروني[صفحة الشراء](https://purchase.aspose.com/buy).
 
 ### هل يمكنني تقييم Aspose.Slides لـ .NET قبل شراء الترخيص؟
  نعم يمكنك طلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لتقييم Aspose.Slides لـ .NET في بيئة التطوير الخاصة بك.

@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 一旦识别了 OLE 对象框架，您就可以提取其数据进行操作。例如，如果 OLE 对象是嵌入的 Excel 电子表格，您可以按如下方式访问其数据：
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     //根据需要处理原始数据
-}
+
 ```
 
 ### 5. 修改 OLE 对象框架
@@ -64,12 +62,10 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Aspose.Slides 使您能够以编程方式修改 OLE 对象框架。假设您要更新嵌入的 Word 文档的内容。以下是实现这一目标的方法：
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     //修改嵌入数据
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## 常见问题解答

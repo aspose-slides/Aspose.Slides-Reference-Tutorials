@@ -99,7 +99,7 @@ Bu eğitimde, Aspose.Slides for .NET'i kullanarak bir grafikteki serileri canlan
 Evet, Aspose.Slides for .NET'i kullanarak veri noktaları, eksenler ve göstergeler dahil olmak üzere çeşitli grafik öğelerine animasyon uygulayabilirsiniz.
 
 ### Aspose.Slides for .NET, PowerPoint'in en son sürümleriyle uyumlu mu?
-Aspose.Slides for .NET, PowerPoint 2007 ve sonrası da dahil olmak üzere çeşitli PowerPoint sürümlerini destekleyerek en yeni sürümlerle uyumluluk sağlar.
+Aspose.Slides for .NET, PowerPoint 2007 ve sonraki sürümleri de dahil olmak üzere çeşitli PowerPoint sürümlerini destekleyerek en yeni sürümlerle uyumluluk sağlar.
 
 ### Animasyon efektlerini her grafik serisi için ayrı ayrı özelleştirebilir miyim?
 Evet, benzersiz ve ilgi çekici sunumlar oluşturmak için her grafik serisine yönelik animasyon efektlerini uyarlayabilirsiniz.

@@ -20,7 +20,7 @@ Bevor wir uns mit dem Tutorial befassen, müssen einige Voraussetzungen erfüllt
 
 3. Beispielpräsentation: Sie benötigen eine Beispiel-PowerPoint-Präsentation, mit der Sie arbeiten können. Sie können Ihre vorhandene Präsentation verwenden oder eine neue erstellen.
 
-Nachdem Sie nun alle Voraussetzungen erfüllt haben, können wir mit dem Hinzufügen von Layoutfolien zu Ihrer Präsentation fortfahren.
+Nachdem Sie nun alle Voraussetzungen erfüllt haben, können Sie mit dem Hinzufügen von Layoutfolien zu Ihrer Präsentation fortfahren.
 
 ## Namespaces importieren
 

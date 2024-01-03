@@ -29,7 +29,7 @@ ISlide slide = presentation.Slides[0];
 // Definir las propiedades del control ActiveX.
 int left = 100; // Especificar la posición izquierda
 int top = 100; // Especifique la posición superior
-int width = 200; // Especifique el ancho
+int width = 200; // Especificar el ancho
 int height = 100; // Especifique la altura
 string progId = "YourActiveXControl.ProgID"; // Especifique el ProgID del control ActiveX
 
@@ -130,7 +130,7 @@ La incorporación de controles ActiveX en sus presentaciones de PowerPoint puede
 
 ### ¿Cómo puedo agregar un control ActiveX a una diapositiva específica?
 
-Para agregar un control ActiveX a una diapositiva específica, puede usar el`AddOleObjectFrame` método proporcionado por Aspose.Slides para .NET. Este método le permite especificar la posición, el tamaño y el ProgID del control ActiveX que desea insertar.
+ Para agregar un control ActiveX a una diapositiva específica, puede usar el`AddOleObjectFrame` método proporcionado por Aspose.Slides para .NET. Este método le permite especificar la posición, el tamaño y el ProgID del control ActiveX que desea insertar.
 
 ### ¿Puedo manipular controles ActiveX mediante programación?
 
@@ -140,11 +140,11 @@ Para agregar un control ActiveX a una diapositiva específica, puede usar el`Add
 
  ¿Activado por controles ActiveX?
 
- Puede manejar eventos desencadenados por controles ActiveX suscribiéndose a los eventos correspondientes usando el`EventClick` (o similar) controlador de eventos. Esto le permite ejecutar acciones específicas en respuesta a las interacciones del usuario con el control.
+Puede manejar eventos desencadenados por controles ActiveX suscribiéndose a los eventos correspondientes usando el`EventClick` (o similar) controlador de eventos. Esto le permite ejecutar acciones específicas en respuesta a las interacciones del usuario con el control.
 
 ### ¿Es posible personalizar la apariencia de los controles ActiveX?
 
- Por supuesto, puedes personalizar la apariencia de los controles ActiveX usando el`SetProperty`método proporcionado por Aspose.Slides para .NET. Este método le permite modificar varias propiedades, como el color de fondo, el estilo de fuente y más.
+ Por supuesto, puedes personalizar la apariencia de los controles ActiveX usando el`SetProperty` método proporcionado por Aspose.Slides para .NET. Este método le permite modificar varias propiedades, como el color de fondo, el estilo de fuente y más.
 
 ### ¿Puedo eliminar un control ActiveX de una diapositiva?
 

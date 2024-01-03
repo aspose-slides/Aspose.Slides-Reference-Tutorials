@@ -20,7 +20,7 @@ url: /zh/net/licensing-and-formatting/metered-licensing/
 
 2. Visual Studio：您需要在系统上安装 Visual Studio 才能进行编码。
 
-3. Aspose.Slides 库：确保您已下载并安装了 .NET 的 Aspose.Slides 库。您可以在以下位置找到该库和进一步说明：[这个链接](https://releases.aspose.com/slides/net/).
+3.  Aspose.Slides 库：确保您已下载并安装了 .NET 的 Aspose.Slides 库。您可以在以下位置找到该库和进一步说明：[这个链接](https://releases.aspose.com/slides/net/).
 
 现在一切就绪，让我们开始 Aspose.Slides for .NET 之旅。
 

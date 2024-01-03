@@ -1,94 +1,76 @@
 ---
-title: Crear formas esbozadas en diapositivas de presentación con Aspose.Slides
+title: Crea impresionantes formas esbozadas con Aspose.Slides
 linktitle: Crear formas esbozadas en diapositivas de presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda a crear diapositivas de presentación cautivadoras con formas esbozadas utilizando Aspose.Slides para .NET. Siga esta guía paso a paso con el código fuente completo para agregar elementos personalizados y creativos a sus diapositivas.
+description: Aprenda a agregar formas esbozadas creativas a las diapositivas de su presentación usando Aspose.Slides para .NET. ¡Mejora el atractivo visual sin esfuerzo!
 type: docs
 weight: 13
 url: /es/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-## Introducción a la creación de formas esbozadas en diapositivas de presentación
-
-Las diapositivas de presentación son una herramienta poderosa para transmitir información visualmente. A veces, es posible que desees agregar un toque personal a tus diapositivas incorporando formas esbozadas, lo que puede hacer que tus presentaciones sean más atractivas y creativas. En esta guía paso a paso, exploraremos cómo lograr esto usando la biblioteca Aspose.Slides para .NET. Al final de este tutorial, podrá crear diapositivas de presentación con formas esbozadas que se destaquen. ¡Vamos a sumergirnos!
-
-## Configurando el proyecto
-
- Antes de comenzar, asegúrese de tener el entorno de desarrollo .NET configurado en su máquina. Puede descargar la última versión de Aspose.Slides desde el sitio web[aquí](https://releases.aspose.com/slides/net/). Una vez descargada, instale la biblioteca en su proyecto.
-
-## Crear una nueva presentación
-
-Comencemos creando una nueva presentación usando Aspose.Slides. Así es como puedes hacerlo:
-
+## Introducción
+Bienvenido a nuestra guía paso a paso sobre cómo crear formas esbozadas en diapositivas de presentación usando Aspose.Slides para .NET. Si desea agregar un toque de creatividad a sus presentaciones, las formas esbozadas brindan una estética única y dibujada a mano. En este tutorial, lo guiaremos a través del proceso, dividiéndolo en pasos simples para garantizar una experiencia fluida.
+## Requisitos previos
+Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+-  Aspose.Slides para .NET: asegúrese de tener instalada la biblioteca Aspose.Slides para .NET. Puedes descargarlo[aquí](https://releases.aspose.com/slides/net/).
+- Entorno de desarrollo: configure un entorno de desarrollo .NET con su IDE preferido.
+## Importar espacios de nombres
+Comience importando los espacios de nombres necesarios en su proyecto .NET. Este paso garantiza que tenga acceso a las clases y funcionalidades necesarias para trabajar con Aspose.Slides.
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Aspose.Slides;
-
-// Crear una nueva presentación
-Presentation presentation = new Presentation();
+using Aspose.Slides.Examples.CSharp;
+using Aspose.Slides.Util;
+using Aspose.Slides.Export;
+using Aspose.Slides.MathText;
 ```
-
-## Agregar formas esbozadas
-
-Para agregar formas esbozadas a sus diapositivas, puede usar formas libres disponibles en Aspose.Slides. Estas formas se pueden personalizar para que parezcan bocetos dibujados a mano. A continuación se muestra un ejemplo de cómo agregar un rectángulo esbozado a una diapositiva:
-
+## Paso 1: configurar el proyecto
+Comience creando un nuevo proyecto .NET o abriendo uno existente. Asegúrese de incluir Aspose.Slides en las referencias de su proyecto.
+## Paso 2: Inicializar Aspose.Slides
+Inicialice Aspose.Slides agregando el siguiente fragmento de código. Esto configura la presentación y especifica las rutas de salida para el archivo de presentación y la imagen en miniatura.
 ```csharp
-// Accede a la primera diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Definir los puntos para el rectángulo esbozado.
-PointF[] points = new PointF[]
+string dataDir = "Your Document Directory";
+string outPptxFile = Path.Combine(dataDir, "SketchedShapes_out.pptx");
+string outPngFile = Path.Combine(dataDir, "SketchedShapes_out.png");
+using (Presentation pres = new Presentation())
 {
-    new PointF(100, 100),
-    new PointF(200, 100),
-    new PointF(200, 200),
-    new PointF(100, 200)
-};
-
-// Agregar una forma libre a la diapositiva
-IFreeformShape freeformShape = slide.Shapes.AddFreeform(ShapeType.Rectangle, points);
-
-// Personaliza la apariencia de la forma esbozada.
-freeformShape.LineFormat.Style = LineStyle.Single;
-freeformShape.LineFormat.Width = 2;
-freeformShape.FillFormat.FillType = FillType.Solid;
-freeformShape.FillFormat.SolidFillColor.Color = Color.LightGray;
+    // Continúe con los siguientes pasos...
+}
 ```
-
-## Personalización de formas esbozadas
-
-Puede personalizar aún más las formas esbozadas ajustando sus colores, estilos de línea y otras propiedades. Experimente con diferentes configuraciones para lograr el efecto de dibujado a mano deseado.
-
-## Guardar y exportar la presentación
-
-Una vez que haya agregado formas esbozadas a su presentación, puede guardarla y exportarla a varios formatos, como PPTX o PDF. Así es como puedes hacerlo:
-
+## Paso 3: agregue la forma esbozada
+Ahora, agreguemos una forma esbozada a la diapositiva. En este ejemplo, agregaremos un rectángulo con un efecto de boceto a mano alzada.
 ```csharp
-// Guarde la presentación en un archivo.
-presentation.Save("SketchedShapesPresentation.pptx", SaveFormat.Pptx);
+IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 20, 20, 300, 150);
+shape.FillFormat.FillType = FillType.NoFill;
+// Transforma la forma en un boceto de un estilo a mano alzada.
+shape.LineFormat.SketchFormat.SketchType = LineSketchType.Scribble;
 ```
-
+## Paso 4: generar miniatura
+Genere una miniatura de la diapositiva para visualizar la forma esbozada. Guarde la miniatura como un archivo PNG.
+```csharp
+pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
+```
+## Paso 5: guardar la presentación
+Guarde el archivo de presentación con la forma esbozada.
+```csharp
+pres.Save(outPptxFile, SaveFormat.Pptx);
+```
+¡Eso es todo! Ha creado con éxito una presentación con formas esbozadas utilizando Aspose.Slides para .NET.
 ## Conclusión
-
-En este tutorial, exploramos cómo crear diapositivas de presentación con formas esbozadas usando Aspose.Slides para .NET. Al agregar formas esbozadas a sus diapositivas, puede agregar un toque creativo y personalizado a sus presentaciones, haciéndolas más atractivas para su audiencia. Siéntete libre de experimentar con diferentes formas y opciones de personalización para crear diapositivas visualmente atractivas que dejen un impacto duradero.
-
+Agregar formas esbozadas a las diapositivas de tu presentación puede mejorar el atractivo visual y atraer a tu audiencia. Con Aspose.Slides para .NET, el proceso se vuelve sencillo y le permite dar rienda suelta a su creatividad sin esfuerzo.
 ## Preguntas frecuentes
-
-### ¿Cómo puedo descargar Aspose.Slides para .NET?
-
- Puede descargar la última versión de Aspose.Slides para .NET desde su página de lanzamientos.[aquí](https://releases.aspose.com/slides/net/).
-
-### ¿Puedo personalizar la apariencia de las formas esbozadas?
-
-Sí, puedes personalizar la apariencia de las formas esbozadas ajustando sus colores, estilos de línea y otras propiedades usando Aspose.Slides.
-
-### ¿Aspose.Slides es adecuado tanto para principiantes como para desarrolladores experimentados?
-
-Sí, Aspose.Slides proporciona una API fácil de usar que es adecuada tanto para principiantes como para desarrolladores experimentados. Ofrece documentación completa para ayudarle a comenzar.
-
-### ¿Puedo exportar mi presentación con formas esbozadas a PDF?
-
-¡Absolutamente! Puede exportar su presentación con formas esbozadas a varios formatos, incluido PDF, utilizando las opciones de exportación proporcionadas por Aspose.Slides.
-
-### ¿Cómo puedo agregar otros tipos de formas esbozadas, como círculos o líneas?
-
- Puede agregar otros tipos de formas esbozadas, como círculos o líneas, modificando los puntos y el tipo de forma en el`AddFreeform` método. Experimente con diferentes configuraciones de puntos para crear las formas que desee.
+### 1. ¿Puedo personalizar el efecto del boceto?
+Sí, Aspose.Slides para .NET ofrece varias opciones de personalización para efectos de boceto. Referirse a[documentación](https://reference.aspose.com/slides/net/) para obtener información detallada.
+### 2. ¿Hay una prueba gratuita disponible?
+ ¡Ciertamente! Puede explorar una prueba gratuita de Aspose.Slides para .NET[aquí](https://releases.aspose.com/).
+### 3. ¿Dónde puedo obtener ayuda?
+ Para cualquier ayuda o consulta, visite el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### 4. ¿Cómo puedo comprar Aspose.Slides para .NET?
+ Para comprar Aspose.Slides para .NET, visite el[pagina de compra](https://purchase.aspose.com/buy).
+### 5. ¿Ofrecen licencias temporales?
+ Sí, hay licencias temporales disponibles[aquí](https://purchase.aspose.com/temporary-license/).

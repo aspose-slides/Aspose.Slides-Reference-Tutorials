@@ -2,134 +2,90 @@
 title: 在演示文稿中执行邮件合并
 linktitle: 在演示文稿中执行邮件合并
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 在此综合分步指南中了解如何使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并。轻松创建个性化的动态演示文稿。
+description: 在此分步指南中了解如何使用 Aspose.Slides for .NET 在演示文稿中合并邮件。轻松创建动态、个性化的演示文稿。
 type: docs
 weight: 21
 url: /zh/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
-
-在软件开发领域，创建动态和个性化的演示文稿是一个常见的要求。企业通常需要生成针对特定数据定制的演示文稿，这就是邮件合并功能发挥作用的地方。在本教程中，我们将指导您完成使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并的过程。
-
 ## 介绍
-
-邮件合并是一项功能强大的技术，允许您使用来自各种来源（例如数据库或 XML 文件）的数据填充演示模板。在本教程中，我们将重点介绍如何使用 Aspose.Slides for .NET 在演示文稿中逐步执行邮件合并。
-
-## 设置您的环境
-
-在我们深入研究邮件合并过程之前，您需要设置开发环境。确保您具备以下先决条件：
-
-- Visual Studio 或任何其他 C# 开发环境。
-- 安装了 Aspose.Slides for .NET 库。你可以下载它[这里](https://releases.aspose.com/slides/net/).
-
-## 了解数据源
-
-对于邮件合并，您需要一个数据源。在本教程中，我们将使用 XML 文件作为数据源。以下是您的数据源的外观示例：
-
-```xml
-<!-- TestData.xml -->
-<?xml version="1.0" encoding="UTF-8"?>
-<MailMerge>
-    <TestTable>
-        <Id>1</Id>
-        <Code>105</Code>
-        <Name>Samuel Ellington</Name>
-        <Department>Legal Department</Department> <Img></Img>
-    </TestTable>
-    <StaffList>
-        <Id>18</Id>
-        <UserId>1</UserId>
-        <Name>Amelia Walker</Name>
-    </StaffList>
-    <Plan_Fact>
-        <Id>1</Id>
-        <UserId>1</UserId>
-        <OnDate>2020/01</OnDate>
-        <PlanData>2,0</PlanData>
-        <FactData>2,8</FactData>
-    </Plan_Fact>
-</MailMerge>
-```
-
-## 创建演示模板
-
-要执行邮件合并，您需要一个演示文稿模板（PPTX 文件）来定义最终演示文稿的布局。您可以使用 Microsoft PowerPoint 或您选择的任何其他工具创建此模板。
-
-## 邮件合并过程
-
-现在，让我们深入了解使用 Aspose.Slides for .NET 的实际邮件合并过程。我们将其分为几个步骤：
-
-1. 加载演示模板。
-2. 使用数据源中的数据填充文本框。
-3. 将图像插入演示文稿中。
-4. 准备并填充文本框。
-5. 保存个人演示文稿。
-
-下面是完成这些步骤的 C# 代码片段：
-
+在 .NET 开发领域，创建动态且个性化的演示文稿是一项常见要求。 Aspose.Slides for .NET 是简化此过程的一个强大工具。在本教程中，我们将深入研究使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并的迷人领域。
+## 先决条件
+在我们开始这一旅程之前，请确保您具备以下先决条件：
+- Aspose.Slides for .NET 库：确保您已安装 Aspose.Slides for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/slides/net/).
+- 文档模板：准备一个演示模板（例如，PresentationTemplate.pptx），作为邮件合并的基础。
+- 数据源：您需要一个用于邮件合并的数据源。在我们的示例中，我们将使用 XML 数据 (TestData.xml)，但 Aspose.Slides 支持各种数据源，例如 RDBMS。
+现在，让我们深入了解使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并的步骤。
+## 导入命名空间
+首先，确保导入必要的命名空间以利用 Aspose.Slides 提供的功能：
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Aspose.Slides;
+using Aspose.Slides.Charts;
+using Aspose.Slides.Examples.CSharp;
+using Aspose.Slides.Export;
+using DataTable = System.Data.DataTable;
+```
+## 第 1 步：设置您的文档目录
+```csharp
+string dataDir = "Your Document Directory";
 string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
-    string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
-
-    //数据的路径。
-    // XML 数据是可能的 MailMerge 数据源（RDBMS 和其他类型的数据源中）的示例之一。
-    string dataPath = Path.Combine(dataDir, "TestData.xml");
-
-    //检查结果路径是否存在
-    if (!Directory.Exists(resultPath))
-        Directory.CreateDirectory(resultPath);
-
-    //使用 XML 数据创建 DataSet
-    using (DataSet dataSet = new DataSet())
+string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
+//检查结果路径是否存在
+if (!Directory.Exists(resultPath))
+    Directory.CreateDirectory(resultPath);
+```
+## 步骤 2：使用 XML 数据创建数据集
+```csharp
+using (DataSet dataSet = new DataSet())
+{
+    dataSet.ReadXml(dataPath);
+    DataTableCollection dataTables = dataSet.Tables;
+    DataTable usersTable = dataTables["TestTable"];
+    DataTable staffListTable = dataTables["StaffList"];
+    DataTable planFactTable = dataTables["Plan_Fact"];
+```
+## 第 3 步：循环记录并创建单独的演示文稿
+```csharp
+foreach (DataRow userRow in usersTable.Rows)
+{
+    //创建结果（个人）演示名称
+    string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
+    //加载演示模板
+    using (Presentation pres = new Presentation(presTemplatePath))
     {
-        dataSet.ReadXml(dataPath);
-
-        DataTableCollection dataTables = dataSet.Tables;
-        DataTable usersTable = dataTables["TestTable"];
-        DataTable staffListTable = dataTables["StaffList"];
-        DataTable planFactTable = dataTables["Plan_Fact"];
-
-        //对于主表中的所有记录，我们将创建一个单独的演示文稿
-        foreach (DataRow userRow in usersTable.Rows)
-        {
-            //创建结果（个人）演示名称
-            string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
-
-            //加载演示模板
-            using (Presentation pres = new Presentation(presTemplatePath))
-            {
-                //使用数据库主表中的数据填充文本框
-                ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text =
-                    "Chief of the department - " + userRow["Name"];
-                ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
-
-                //从数据库中获取图像
-                byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-
-                //将图像插入演示文稿的相框
-                IPPImage image = pres.Images.AddImage(bytes);
-                IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
-                pf.PictureFormat.Picture.Image.ReplaceImage(image);
-
-                //获取 abd 准备文本框架以填充数据
-                IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
-                ITextFrame textFrame = list.TextFrame;
-
-                textFrame.Paragraphs.Clear();
-                Paragraph para = new Paragraph();
-                para.Text = "Department Staff:";
-                textFrame.Paragraphs.Add(para);
-
-                //填写人员资料
-                FillStaffList(textFrame, userRow, staffListTable);
-
-                //填写计划事实数据
-                FillPlanFact(pres, userRow, planFactTable);
-
-                pres.Save(presPath, SaveFormat.Pptx);
-            }
-        }
+        //使用主表中的数据填充文本框
+        ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text = "Chief of the department - " + userRow["Name"];
+        ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
+        //从数据库中获取图像
+        byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
+        //将图像插入演示文稿的图片框中
+        IPPImage image = pres.Images.AddImage(bytes);
+        IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
+        pf.PictureFormat.Picture.Image.ReplaceImage(image);
+        //获取并准备文本框架以填充数据
+        IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
+        ITextFrame textFrame = list.TextFrame;
+        textFrame.Paragraphs.Clear();
+        Paragraph para = new Paragraph();
+        para.Text = "Department Staff:";
+        textFrame.Paragraphs.Add(para);
+        //填写人员资料
+        FillStaffList(textFrame, userRow, staffListTable);
+        //填写计划事实数据
+        FillPlanFact(pres, userRow, planFactTable);
+        pres.Save(presPath, SaveFormat.Pptx);
     }
-
+}
+```
+## 步骤 4：用数据填充文本框架作为列表
+```csharp
 static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
 {
     foreach (DataRow listRow in staffListTable.Rows)
@@ -148,75 +104,49 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
         }
     }
 }
-
-//从辅助 planFact 表中填充数据图表
+```
+## 步骤 5：从辅助 PlanFact 表中填写数据图表
+```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
     IChart chart = pres.Slides[0].Shapes[3] as Chart;
     IChartTitle chartTitle = chart.ChartTitle;
     chartTitle.TextFrameForOverriding.Text = row["Name"] + " : Plan / Fact";
-
     DataRow[] selRows = planFactTable.Select("UserId = " + row["Id"]);
     string range = chart.ChartData.GetRange();
-
     IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
     int worksheetIndex = 0;
-
-    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 1, 1,
-            double.Parse(selRows[0]["PlanData"].ToString())));
+    //为线系列添加数据点
+    chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries
+(cellsFactory.GetCell(worksheetIndex, 1, 1, double.Parse(selRows[0]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 1, 2,
-            double.Parse(selRows[0]["FactData"].ToString())));
-
+        cellsFactory.GetCell(worksheetIndex, 1, 2, double.Parse(selRows[0]["FactData"].ToString())));
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 2, 1,
-            double.Parse(selRows[1]["PlanData"].ToString())));
+        cellsFactory.GetCell(worksheetIndex, 2, 1, double.Parse(selRows[1]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 2, 2,
-            double.Parse(selRows[1]["FactData"].ToString())));
-
+        cellsFactory.GetCell(worksheetIndex, 2, 2, double.Parse(selRows[1]["FactData"].ToString())));
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 3, 1,
-            double.Parse(selRows[2]["PlanData"].ToString())));
+        cellsFactory.GetCell(worksheetIndex, 3, 1, double.Parse(selRows[2]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 3, 2,
-            double.Parse(selRows[2]["FactData"].ToString())));
-
+        cellsFactory.GetCell(worksheetIndex, 3, 2, double.Parse(selRows[2]["FactData"].ToString())));
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 3, 1,
-            double.Parse(selRows[3]["PlanData"].ToString())));
+        cellsFactory.GetCell(worksheetIndex, 3, 1, double.Parse(selRows[3]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
-        cellsFactory.GetCell(worksheetIndex, 3, 2,
-            double.Parse(selRows[3]["FactData"].ToString())));
-
+        cellsFactory.GetCell(worksheetIndex, 3, 2, double.Parse(selRows[3]["FactData"].ToString())));
     chart.ChartData.SetRange(range);
-}		
+}
 ```
-
-## 保存结果
-
-完成数据源中所有记录的邮件合并过程后，您就可以准备好单独的演示文稿了。您可以将它们保存到您想要的位置。
-
+这些步骤演示了使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并的综合指南。现在，我们来解决一些常见问题。
+## 经常问的问题
+### 1. Aspose.Slides for .NET 是否兼容不同的数据源？
+是的，Aspose.Slides for .NET 支持各种数据源，包括 XML、RDBMS 等。
+### 2. 我可以自定义生成的演示文稿中项目符号的外观吗？
+当然！您可以完全控制项目符号点的外观，如`FillStaffList`方法。
+### 3. 我可以使用 Aspose.Slides for .NET 创建哪些类型的图表？
+Aspose.Slides for .NET 支持多种图表，包括我们示例中所示的折线图、条形图、饼图等。
+### 4. 如何获得 Aspose.Slides for .NET 的支持或寻求帮助？
+如需支持和帮助，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
+### 5. 我可以在购买前试用 Aspose.Slides for .NET 吗？
+当然！您可以从以下位置免费试用 Aspose.Slides for .NET[这里](https://releases.aspose.com/).
 ## 结论
-
-使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并为创建自定义和数据驱动的演示文稿打开了一个可能性的世界。本教程指导您完成无缝实现此目标的基本步骤。
-
-## 常见问题解答
-
-**Q1: Is Aspose.Slides for .NET the only library for mail merge in presentations?**
-A1：虽然 Aspose.Slides for .NET 是一个强大的选择，但其他库和工具也提供类似的功能。这最终取决于您的具体要求和偏好。
-
-**Q2: Can I use different data sources apart from XML files?**
-A2：是的，Aspose.Slides for .NET 支持各种数据源，包括数据库和自定义数据结构。
-
-**Q3: How can I format the merged presentations further?**
-A3：您可以使用 Aspose.Slides 丰富的功能集将其他格式、样式和动画应用到合并的演示文稿中。
-
-**Q4: Is there a trial version of Aspose.Slides for .NET available?**
- A4：是的，您可以免费试用 Aspose.Slides for .NET[这里](https://releases.aspose.com/).
-
-**Q5: Where can I get support for Aspose.Slides for .NET?**
- A5: 如需技术支持和讨论，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/).
-
-现在您已经了解了如何使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并，您可以开始为您的项目创建动态且数据丰富的演示文稿。快乐编码！
+在本教程中，我们探索了 Aspose.Slides for .NET 在演示文稿中执行邮件合并的令人兴奋的功能。通过遵循分步指南，您可以轻松创建动态且个性化的演示文稿。使用 Aspose.Slides 提升您的 .NET 开发体验，实现无缝演示文稿生成。

@@ -1,100 +1,90 @@
 ---
-title: Ändra OLE-objektdata i presentationsbilder med Aspose.Slides
-linktitle: Ändra OLE-objektdata i presentationsbilder med Aspose.Slides
+title: Ändra OLE-objektdata i presentation med Aspose.Slides
+linktitle: Ändra OLE-objektdata i presentation med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du effektivt ändrar OLE-objektdata i presentationsbilder med Aspose.Slides API. Denna steg-för-steg-guide ger kodexempel och viktiga insikter.
+description: Utforska kraften i Aspose.Slides för .NET för att enkelt ändra OLE-objektdata. Förbättra dina presentationer med dynamiskt innehåll.
 type: docs
 weight: 25
 url: /sv/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
-
 ## Introduktion
-
-När det gäller presentationsdesign och utveckling är dynamiskt innehåll avgörande för att engagera och informera publiken på ett effektivt sätt. Ett sådant dynamiskt element är OLE-objektet (Object Linking and Embedding), som ger presentationer interaktiva element. Med Aspose.Slides API blir det en sömlös process att ändra OLE-objektdata i presentationsbilder. Den här guiden ger en omfattande steg-för-steg-genomgång för att ge dig expertis för att effektivt manipulera OLE-objekt med Aspose.Slides för .NET.
-
-## Ändra OLE-objektdata med Aspose.Slides: Steg-för-steg-guide
-
-### Komma igång med Aspose.Slides
-
- För att ge dig ut på denna resa med OLE-objektmanipulation måste du ha Aspose.Slides för .NET installerat i din utvecklingsmiljö. Om du inte redan har gjort det, gå till[Aspose.Slides API-referens](https://reference.aspose.com/slides/net/) och[Aspose.Slides Releases](https://releases.aspose.com/slides/net/) ladda ner och ställ in nödvändiga resurser.
-
-### Laddar en presentation
-
-Innan du kan ändra några OLE-objekt behöver du en presentation att arbeta med. Så här kan du ladda en presentation med Aspose.Slides:
-
+Att skapa dynamiska och interaktiva PowerPoint-presentationer är ett vanligt krav i dagens digitala värld. Ett kraftfullt verktyg för att uppnå detta är Aspose.Slides för .NET, ett robust bibliotek som tillåter utvecklare att manipulera och förbättra PowerPoint-presentationer programmatiskt. I den här handledningen kommer vi att fördjupa oss i processen att ändra OLE (Object Linking and Embedding)-objektdata i presentationsbilder med Aspose.Slides.
+## Förutsättningar
+Innan du börjar arbeta med Aspose.Slides för .NET, se till att du har följande förutsättningar på plats:
+1. Utvecklingsmiljö: Skapa en utvecklingsmiljö med .NET installerat.
+2.  Aspose.Slides Library: Ladda ner och installera Aspose.Slides för .NET-biblioteket. Du hittar biblioteket[här](https://releases.aspose.com/slides/net/).
+3. Grundläggande förståelse: Bekanta dig med grundläggande begrepp inom C#-programmering och PowerPoint-presentationer.
+## Importera namnområden
+I ditt C#-projekt, importera de nödvändiga namnrymden för att använda Aspose.Slides-funktioner:
 ```csharp
+using System.IO;
+using Aspose.Cells;
 using Aspose.Slides;
-
-// Ladda presentationen
-using Presentation presentation = new Presentation("path_to_your_presentation.pptx");
+using Aspose.Slides.DOM.Ole;
+using SaveFormat = Aspose.Slides.Export.SaveFormat;
 ```
-
-### Åtkomst till OLE-objekt
-
-Med presentationen laddad är det dags att identifiera och komma åt OLE-objekten som du vill ändra. Dessa objekt kan vara diagram, grafer, multimedia eller annat dynamiskt innehåll som är inbäddat i bilderna.
-
+## Steg 1: Konfigurera ditt projekt
+Börja med att skapa ett nytt C#-projekt och importera Aspose.Slides-biblioteket. Se till att ditt projekt är korrekt konfigurerat och att du har de nödvändiga beroenden på plats.
+## Steg 2: Öppna presentation och bild
 ```csharp
-// Gå till den första bilden
-ISlide slide = presentation.Slides[0];
-
-// Få tillgång till OLE-formerna på bilden
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "ChangeOLEObjectData.pptx"))
+{
+    ISlide slide = pres.Slides[0];
+```
+## Steg 3: Hitta OLE-objekt
+Gå igenom alla former i bilden för att hitta OLE-objektramen:
+```csharp
+OleObjectFrame ole = null;
 foreach (IShape shape in slide.Shapes)
 {
-    if (shape is IOleObjectFrame oleObject)
+    if (shape is OleObjectFrame)
     {
-        // Din kod för att ändra OLE-objekt kommer hit
+        ole = (OleObjectFrame)shape;
     }
 }
 ```
-
-### Ändra OLE-objektdata
-
-Här kommer den spännande delen - att göra ändringar i OLE-objektdata. Låt oss säga att du har ett inbäddat Excel-kalkylblad och du vill uppdatera data som det visar. Så här kan du uppnå det:
-
+## Steg 4: Läs och ändra arbetsboksdata
 ```csharp
-// Förutsatt att du har identifierat OLE-objektet som oleObject
-if (oleObject.ObjectData is OleEmbeddedData oleData)
+if (ole != null)
 {
-    // Ändra data i oleData-objektet
-    oleData.SetNewData(newDataByteArray);
+    using (MemoryStream msln = new MemoryStream(ole.EmbeddedData.EmbeddedFileData))
+    {
+        // Läser objektdata i arbetsbok
+        Workbook Wb = new Workbook(msln);
+        using (MemoryStream msout = new MemoryStream())
+        {
+            // Ändra arbetsboksdata
+            Wb.Worksheets[0].Cells[0, 4].PutValue("E");
+            Wb.Worksheets[0].Cells[1, 4].PutValue(12);
+            Wb.Worksheets[0].Cells[2, 4].PutValue(14);
+            Wb.Worksheets[0].Cells[3, 4].PutValue(15);
+            OoxmlSaveOptions so1 = new OoxmlSaveOptions(Aspose.Cells.SaveFormat.Xlsx);
+            Wb.Save(msout, so1);
+            // Ändra Ole ramobjektdata
+            IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(msout.ToArray(), ole.EmbeddedData.EmbeddedFileExtension);
+            ole.SetEmbeddedData(newData);
+        }
+    }
 }
 ```
-
-### Sparar presentationen
-
-När du har gjort de önskade ändringarna av OLE-objektdata, glöm inte att spara presentationen för att bevara dina ändringar:
-
+## Steg 5: Spara presentationen
 ```csharp
-// Spara presentationen med ändringar
-presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
+pres.Save(dataDir + "OleEdit_out.pptx", SaveFormat.Pptx);
 ```
-
-### Vanliga frågor
-
-#### Hur identifierar jag typen av OLE-objekt som finns på en bild?
-
- För att identifiera typen av OLE-objekt kan du använda`Type` egendom av`IOleObjectFrame`gränssnitt. Den ger dig information om huruvida det är ett inbäddat objekt, länkat objekt eller andra typer.
-
-#### Kan jag ändra OLE-objekt från externa datakällor?
-
-Ja, Aspose.Slides låter dig modifiera OLE-objekt med hjälp av data från externa källor. Du kan uppdatera diagram, tabeller och annat inbäddat innehåll programmatiskt.
-
-#### Är Aspose.Slides kompatibel med olika presentationsformat?
-
-Ja, Aspose.Slides stöder ett brett utbud av presentationsformat, inklusive PPTX, PPT, POTX och mer. Se till att se dokumentationen för en fullständig lista över format som stöds.
-
-#### Behöver jag ha avancerade programmeringskunskaper för att använda Aspose.Slides?
-
-Även om en grundläggande förståelse för .NET-programmering är till hjälp, tillhandahåller Aspose.Slides omfattande dokumentation och exempel som guidar dig genom processen. Även om du är nybörjare kan du effektivt använda dess funktioner.
-
-#### Kan jag automatisera processen att ändra OLE-objektdata?
-
-Absolut! Aspose.Slides är designad för automatisering. Du kan skapa skript som modifierar OLE-objektdata över flera presentationer, vilket sparar tid och ansträngning.
-
-#### Finns det några prestationsöverväganden när man arbetar med stora presentationer?
-
-När du har att göra med stora presentationer rekommenderas det att du använder effektiv kodning. Cachning och optimering av kod kan hjälpa till att bibehålla smidig prestanda under modifiering av OLE-objektdata.
-
-### Slutsats
-
-I det ständigt föränderliga landskapet av presentationer står OLE-objekt som mångsidiga verktyg för att förmedla information dynamiskt. Med kraften i Aspose.Slides för .NET blir processen att ändra OLE-objektdata tillgänglig och effektiv. Genom den här guiden har du fått kunskap om att identifiera, modifiera och förbättra OLE-objekt, berika dina presentationer och fängsla din publik.
+## Slutsats
+Genom att följa dessa steg kan du sömlöst ändra OLE-objektdata i presentationsbilder med Aspose.Slides för .NET. Detta öppnar upp en värld av möjligheter för att skapa dynamiska och skräddarsydda presentationer skräddarsydda efter dina specifika behov.
+## Vanliga frågor
+### Vad är Aspose.Slides för .NET?
+Aspose.Slides för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med PowerPoint-presentationer programmatiskt, vilket möjliggör enkel manipulation och förbättring.
+### Var kan jag hitta Aspose.Slides-dokumentationen?
+ Dokumentationen för Aspose.Slides för .NET finns[här](https://reference.aspose.com/slides/net/).
+### Hur laddar jag ner Aspose.Slides för .NET?
+ Du kan ladda ner biblioteket från releasesidan[här](https://releases.aspose.com/slides/net/).
+### Finns det en gratis testversion tillgänglig för Aspose.Slides?
+ Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
+### Var kan jag få support för Aspose.Slides för .NET?
+ För support och diskussioner, besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).

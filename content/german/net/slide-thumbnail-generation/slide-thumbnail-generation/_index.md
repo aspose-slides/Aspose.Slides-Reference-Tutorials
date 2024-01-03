@@ -8,7 +8,7 @@ weight: 10
 url: /de/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
 
-Wenn Sie mit Aspose.Slides Folienminiaturansichten in Ihren .NET-Anwendungen generieren möchten, sind Sie hier richtig. Das Erstellen von Folienminiaturansichten kann in verschiedenen Szenarien eine wertvolle Funktion sein, beispielsweise beim Erstellen benutzerdefinierter PowerPoint-Viewer oder beim Generieren von Bildvorschauen von Präsentationen. In diesem umfassenden Leitfaden führen wir Sie Schritt für Schritt durch den Prozess. Wir behandeln die Voraussetzungen, das Importieren von Namespaces und die Aufteilung jedes Beispiels in mehrere Schritte, damit Sie die Generierung von Folienminiaturansichten nahtlos implementieren können.
+Wenn Sie mit Aspose.Slides Folienminiaturansichten in Ihren .NET-Anwendungen generieren möchten, sind Sie hier richtig. Das Erstellen von Folienminiaturansichten kann in verschiedenen Szenarien eine wertvolle Funktion sein, beispielsweise beim Erstellen benutzerdefinierter PowerPoint-Viewer oder beim Generieren von Bildvorschauen von Präsentationen. In diesem umfassenden Leitfaden führen wir Sie Schritt für Schritt durch den Prozess. Wir behandeln die Voraussetzungen, das Importieren von Namespaces und die Aufteilung jedes Beispiels in mehrere Schritte, damit Sie die Generierung von Folienminiaturansichten problemlos implementieren können.
 
 ## Voraussetzungen
 
@@ -27,7 +27,7 @@ Für dieses Tutorial sind praktische Kenntnisse in .NET und der Einrichtung eine
 
 Nachdem Sie nun die Voraussetzungen erfüllt haben, beginnen wir mit der Schritt-für-Schritt-Anleitung zur Erstellung von Folienminiaturansichten in Aspose.Slides für .NET.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Um auf die Aspose.Slides-Funktionalität zuzugreifen, müssen Sie die erforderlichen Namespaces importieren. Dieser Schritt ist entscheidend, um sicherzustellen, dass Ihr Code korrekt mit der Bibliothek interagiert.
 
@@ -105,7 +105,7 @@ A: Aspose.Slides für .NET unterstützt verschiedene Bildformate, einschließlic
 A: Bei größeren Präsentationen oder komplexen Formen kann der Prozess zusätzlichen Speicher und Verarbeitungszeit beanspruchen.
 
 ### F: Kann ich die Größe der generierten Miniaturansichten anpassen?
- A: Ja, Sie können die Abmessungen anpassen, indem Sie die Parameter im ändern`GetThumbnail` Methode.
+A: Ja, Sie können die Abmessungen anpassen, indem Sie die Parameter im ändern`GetThumbnail` Methode.
 
 ### F: Ist Aspose.Slides für .NET für die kommerzielle Nutzung geeignet?
 A: Ja, Aspose.Slides ist eine robuste Lösung sowohl für private als auch für kommerzielle Anwendungen. Lizenzdetails finden Sie auf der Aspose-Website.

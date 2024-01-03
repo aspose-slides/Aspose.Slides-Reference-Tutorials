@@ -42,7 +42,7 @@ Bu kod sununuzdaki ana slaytların sayısını yazdıracaktır.
 
 ## 3. Adım: Kullanılmayan Master'ları Kaldır
 
-Şimdi kullanılmayan ana slaytları sununuzdan kaldıralım. Aspose.Slides bunu başarmak için basit bir yöntem sunar. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Şimdi kullanılmayan ana slaytları sununuzdan kaldıralım. Aspose.Slides bunu başarmak için basit bir yöntem sunuyor. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```java
 Compress.removeUnusedMasterSlides(pres);

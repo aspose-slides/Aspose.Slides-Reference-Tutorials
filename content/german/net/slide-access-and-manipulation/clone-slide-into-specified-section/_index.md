@@ -20,7 +20,7 @@ Bevor wir uns auf diese Reise begeben, stellen Sie sicher, dass die folgenden Vo
 
 Jetzt fangen wir an.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Zunächst müssen Sie die erforderlichen Namespaces importieren, um Aspose.Slides für .NET in Ihrem Projekt verwenden zu können. Diese Namespaces stellen wesentliche Klassen und Methoden für die Arbeit mit Präsentationen bereit.
 
@@ -80,7 +80,7 @@ Hier klonen wir die erste Folie (Index 0) und platzieren das Duplikat in „Absc
 
 ### Schritt 5: Speichern Sie die Präsentation
 
- Vergessen Sie nicht, Ihre Präsentation mit zu speichern`Save` Methode. In diesem Beispiel wird die Präsentation im PPTX-Format gespeichert.
+Vergessen Sie nicht, Ihre Präsentation mit zu speichern`Save` Methode. In diesem Beispiel wird die Präsentation im PPTX-Format gespeichert.
 
 Glückwunsch! Sie haben mit Aspose.Slides für .NET erfolgreich eine Folie in einen bestimmten Abschnitt dupliziert.
 
@@ -96,7 +96,7 @@ Nein, Aspose.Slides für .NET wurde speziell für .NET-Anwendungen entwickelt. W
 
 ### 2. Gibt es kostenlose Ressourcen zum Erlernen von Aspose.Slides für .NET?
 
- Ja, Sie können auf die Aspose.Slides für .NET-Dokumentation unter zugreifen[dieser Link](https://reference.aspose.com/slides/net/) für ausführliche Informationen und Tutorials.
+ Ja, Sie können auf die Aspose.Slides für .NET-Dokumentation unter zugreifen[dieser Link](https://reference.aspose.com/slides/net/)für ausführliche Informationen und Tutorials.
 
 ### 3. Kann ich Aspose.Slides für .NET testen, bevor ich es kaufe?
 

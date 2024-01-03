@@ -20,7 +20,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 
 Une fois ces prérequis remplis, vous êtes prêt à commencer. Passons au processus étape par étape de suppression des hyperliens de vos diapositives.
 
-## Étape 1 : Importer des espaces de noms
+## Étape 1 : Importer les espaces de noms
 
 Pour commencer, vous devez importer les espaces de noms nécessaires dans votre code C#. Ces espaces de noms donnent accès à la bibliothèque Aspose.Slides pour .NET. Ajoutez les lignes suivantes à votre code :
 

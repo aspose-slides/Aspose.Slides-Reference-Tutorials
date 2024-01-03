@@ -125,7 +125,7 @@ Bu örnekte bir PowerPoint sunumu yüklüyoruz (`TestChart.pptx` ) ve grafiğin 
 
 Aspose.Slides for .NET, PowerPoint sunumlarında grafiklerle çalışmak için güçlü bir platform sağlar. Bu eğitimde gösterilen gelişmiş özelliklerle veri görselleştirmenizi ve sunum tasarımınızı bir sonraki seviyeye taşıyabilirsiniz. Veri ayıklamak, çalışma kitaplarını kurtarmak veya grafik veri noktalarını değiştirmek istiyorsanız Aspose.Slides for .NET ihtiyacınızı karşılar.
 
-Sunulan kod örneklerini ve adımlarını takip ederek Aspose.Slides for .NET'in gücünden yararlanarak PowerPoint sunumlarınızı geliştirebilir ve etkileyici veri odaklı görseller oluşturabilirsiniz.
+Sunulan kod örneklerini ve adımları takip ederek Aspose.Slides for .NET'in gücünden yararlanarak PowerPoint sunumlarınızı geliştirebilir ve etkili, veri odaklı görseller oluşturabilirsiniz.
 
 ## SSS (Sık Sorulan Sorular)
 
