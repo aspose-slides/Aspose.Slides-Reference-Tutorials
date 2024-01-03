@@ -55,8 +55,8 @@ Yes, you can customize the zoom level for each slide by modifying the `SlideView
 ### 2. Is a temporary license available for testing purposes?
 Certainly! You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluating Aspose.Slides.
 ### 3. Where can I find comprehensive documentation for Aspose.Slides for .NET?
-Visit the official documentation [here](https://reference.aspose.com/slides/net/) for detailed information on Aspose.Slides for .NET functionalities.
+Visit the documentation [here](https://reference.aspose.com/slides/net/) for detailed information on Aspose.Slides for .NET functionalities.
 ### 4. What support options are available?
-For any queries or issues, visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11) to seek community and official support.
+For any queries or issues, visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11) to seek community and support.
 ### 5. How do I purchase Aspose.Slides for .NET?
 To purchase Aspose.Slides for .NET, click [here](https://purchase.aspose.com/buy) to explore licensing options.

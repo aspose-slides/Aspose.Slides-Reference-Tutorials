@@ -11,7 +11,7 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-
 In the dynamic world of presentations, incorporating multimedia elements can significantly enhance engagement and deliver impactful messages. One powerful way to achieve this is by embedding video frames into presentation slides. In this tutorial, we'll explore how to accomplish this seamlessly using Aspose.Slides for .NET. Aspose.Slides is a robust library that allows developers to manipulate PowerPoint presentations programmatically, providing extensive capabilities for creating, editing, and enhancing slides.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following in place:
-1. Aspose.Slides for .NET Library: Download and install the library from the official [Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/).
+1. Aspose.Slides for .NET Library: Download and install the library from the [Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/).
 2. Sample Video File: Prepare a video file that you want to embed in your presentation. You can use the provided example with a video named "Wildlife.mp4."
 ## Import Namespaces
 In your .NET project, include the necessary namespaces to leverage Aspose.Slides functionalities:

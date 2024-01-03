@@ -81,7 +81,7 @@ A: Yes, Aspose.Slides is regularly updated to support the latest .NET framework 
 ### Q: Can I customize the appearance of the rendered comments?
 A: Absolutely! The tutorial includes options to customize comment area color, width, and position.
 ### Q: Where can I find more documentation on Aspose.Slides for .NET?
-A: Explore the official documentation [here](https://reference.aspose.com/slides/net/).
+A: Explore the documentation [here](https://reference.aspose.com/slides/net/).
 ### Q: How do I obtain a temporary license for Aspose.Slides?
 A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I seek help and support for Aspose.Slides?

@@ -11,7 +11,7 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-f
 In the dynamic world of presentations, visuals play a pivotal role in capturing the audience's attention. Aspose.Slides for .NET empowers developers to enhance their PowerPoint presentations by providing a robust set of features. One such feature is the ability to add a stretch offset for image fill, allowing for creative and visually appealing slides.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-1. Aspose.Slides for .NET Library: Download and install the library from the official [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
+1. Aspose.Slides for .NET Library: Download and install the library from the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
 2. Development Environment: Ensure that you have a working .NET development environment set up.
 Now, let's get started with the step-by-step guide.
 ## Import Namespaces
@@ -68,6 +68,6 @@ Yes, you can download a free trial from [here](https://releases.aspose.com/).
 ### How can I get support for Aspose.Slides for .NET?
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community support.
 ### Where can I find the complete documentation for Aspose.Slides for .NET?
-Refer to the official [documentation](https://reference.aspose.com/slides/net/) for detailed information.
+Refer to the [documentation](https://reference.aspose.com/slides/net/) for detailed information.
 ### Can I purchase Aspose.Slides for .NET?
 Yes, you can buy the product [here](https://purchase.aspose.com/buy).

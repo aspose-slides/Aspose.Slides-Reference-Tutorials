@@ -11,7 +11,7 @@ url: /net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape
 In the dynamic world of presentation design, incorporating shapes like ellipses can add a touch of creativity and professionalism. Aspose.Slides for .NET offers a powerful solution for manipulating presentation files programmatically. This tutorial will guide you through the process of creating a simple ellipse shape in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Slides for .NET: Ensure that you have installed the Aspose.Slides library for .NET. You can download it from the [official releases page](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Ensure that you have installed the Aspose.Slides library for .NET. You can download it from the [releases page](https://releases.aspose.com/slides/net/).
 - Development Environment: Set up a .NET development environment on your machine.
 ## Import Namespaces
 In your .NET project, start by importing the necessary namespaces:
@@ -60,7 +60,7 @@ Yes, you can modify various properties of the ellipse shape, such as color, size
 ### Is Aspose.Slides compatible with the latest .NET frameworks?
 Yes, Aspose.Slides is regularly updated to ensure compatibility with the latest .NET frameworks.
 ### Where can I find more tutorials and examples for Aspose.Slides?
-Visit the [official documentation](https://reference.aspose.com/slides/net/) for comprehensive guides and examples.
+Visit the [documentation](https://reference.aspose.com/slides/net/) for comprehensive guides and examples.
 ### How can I obtain a temporary license for Aspose.Slides?
 Follow the [temporary license link](https://purchase.aspose.com/temporary-license/) to request a temporary license for testing purposes.
 ### Need assistance or have specific questions?

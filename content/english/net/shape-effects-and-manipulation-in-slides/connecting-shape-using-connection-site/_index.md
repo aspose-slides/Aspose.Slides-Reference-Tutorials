@@ -73,7 +73,7 @@ Yes, Aspose.Slides is compatible with Visual Studio 2019. Make sure you have the
 ### Can I connect more than two shapes in a single connector?
 Aspose.Slides allows you to connect two shapes with a single connector. To connect more shapes, you'll need additional connectors.
 ### How do I handle exceptions while using Aspose.Slides?
-You can use try-catch blocks to handle exceptions. Refer to the [official documentation](https://reference.aspose.com/slides/net/) for specific exceptions and error handling.
+You can use try-catch blocks to handle exceptions. Refer to the [documentation](https://reference.aspose.com/slides/net/) for specific exceptions and error handling.
 ### Is there a trial version of Aspose.Slides available?
 Yes, you can download a free trial version [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Slides?

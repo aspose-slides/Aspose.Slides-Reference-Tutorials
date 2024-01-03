@@ -46,7 +46,7 @@ Yes, Aspose.Slides provides various options for customizing the printing process
 ### Is Aspose.Slides compatible with the latest .NET framework versions?
 Absolutely, Aspose.Slides is regularly updated to ensure compatibility with the latest .NET framework versions.
 ### Where can I find more examples and documentation for Aspose.Slides?
-Explore the official documentation [here](https://reference.aspose.com/slides/net/) for comprehensive examples and guidance.
+Explore the documentation [here](https://reference.aspose.com/slides/net/) for comprehensive examples and guidance.
 ### Are temporary licenses available for testing purposes?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation.
 ### How can I seek assistance or connect with the Aspose.Slides community?

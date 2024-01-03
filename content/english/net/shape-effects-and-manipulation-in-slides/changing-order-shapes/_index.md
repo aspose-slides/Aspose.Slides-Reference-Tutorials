@@ -11,7 +11,7 @@ url: /net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 Creating visually appealing presentation slides is a crucial aspect of effective communication. Aspose.Slides for .NET empowers developers to manipulate slides programmatically, offering a wide range of functionalities. In this tutorial, we'll delve into the process of changing the order of shapes in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
 Before we embark on this journey, make sure you have the following prerequisites in place:
-- Aspose.Slides for .NET: Ensure that you have the Aspose.Slides library integrated into your .NET project. If not, you can download it from the [official releases page](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Ensure that you have the Aspose.Slides library integrated into your .NET project. If not, you can download it from the [releases page](https://releases.aspose.com/slides/net/).
 - Development Environment: Set up a working development environment with Visual Studio or any other .NET development tool.
 - Basic Understanding of C#: Familiarize yourself with the basics of C# programming language.
 ## Import Namespaces
@@ -63,9 +63,9 @@ Aspose.Slides for .NET simplifies the task of manipulating presentation slides p
 ### Q: Can I use Aspose.Slides for .NET in both Windows and Linux environments?
 A: Yes, Aspose.Slides for .NET is compatible with both Windows and Linux environments.
 ### Q: Are there any licensing considerations for using Aspose.Slides in a commercial project?
-A: Yes, you can find licensing details and purchase options on the [official Aspose.Slides purchase page](https://purchase.aspose.com/buy).
+A: Yes, you can find licensing details and purchase options on the [Aspose.Slides purchase page](https://purchase.aspose.com/buy).
 ### Q: Is there a free trial available for Aspose.Slides for .NET?
-A: Yes, you can explore the features with the [free trial](https://releases.aspose.com/) available on the official Aspose.Slides website.
+A: Yes, you can explore the features with the [free trial](https://releases.aspose.com/) available on the Aspose.Slides website.
 ### Q: Where can I find support or ask questions related to Aspose.Slides for .NET?
 A: Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to get support and engage with the community.
 ### Q: How can I obtain a temporary license for Aspose.Slides for .NET?

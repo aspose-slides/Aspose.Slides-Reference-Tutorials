@@ -59,7 +59,7 @@ Aspose.Slides primarily supports .NET languages like C#. However, similar produc
 ### Is there a trial version available for Aspose.Slides for .NET?
 Yes, you can download the trial version [here](https://releases.aspose.com/).
 ### Where can I find detailed documentation for Aspose.Slides for .NET?
-The official documentation is available [here](https://reference.aspose.com/slides/net/).
+The documentation is available [here](https://reference.aspose.com/slides/net/).
 ### How can I get support or ask questions about Aspose.Slides for .NET?
 Visit the support forum [here](https://forum.aspose.com/c/slides/11).
 ### Can I purchase a temporary license for Aspose.Slides for .NET?

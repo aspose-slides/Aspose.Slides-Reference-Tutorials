@@ -11,7 +11,7 @@ url: /net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 Welcome to the fascinating world of Aspose.Slides for .NET, your gateway to creating stunning presentations with unparalleled ease. In this tutorial, we'll delve into the intricacies of obtaining effective bevel data for shapes in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
 Before we embark on this exciting journey, ensure that you have the following prerequisites in place:
-1. Aspose.Slides for .NET Library: Download and install the library from the official [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
+1. Aspose.Slides for .NET Library: Download and install the library from the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
 2. Development Environment: Set up a suitable development environment with Visual Studio or any preferred .NET development tool.
 3. .NET Framework: Ensure you have the required .NET Framework installed on your system.
 Now that we've got our foundation laid, let's jump into the practical steps.

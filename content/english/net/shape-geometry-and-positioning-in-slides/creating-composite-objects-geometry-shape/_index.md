@@ -12,7 +12,7 @@ Unlock the power of Aspose.Slides for .NET to enhance your presentations by crea
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 - Basic understanding of C# programming language.
-- Installed Aspose.Slides for .NET library. You can download it from the [official Aspose.Slides documentation](https://reference.aspose.com/slides/net/).
+- Installed Aspose.Slides for .NET library. You can download it from the [Aspose.Slides documentation](https://reference.aspose.com/slides/net/).
 - A development environment set up with Visual Studio or any other C# development tool.
 ## Import Namespaces
 Ensure that you import the necessary namespaces in your C# code to make use of Aspose.Slides functionalities. Include the following namespaces at the beginning of your code:
@@ -77,7 +77,7 @@ Congratulations! You have successfully created composite objects in a geometry s
 ### Q: Can I use Aspose.Slides with other programming languages?
 Aspose.Slides supports various programming languages, including Java and Python. However, this tutorial focuses on C#.
 ### Q: Where can I find more examples and documentation?
-Explore the [official Aspose.Slides documentation](https://reference.aspose.com/slides/net/) for comprehensive information and examples.
+Explore the [Aspose.Slides documentation](https://reference.aspose.com/slides/net/) for comprehensive information and examples.
 ### Q: Is there a free trial available?
 Yes, you can try Aspose.Slides for .NET with the [free trial](https://releases.aspose.com/).
 ### Q: How can I get support or ask questions?

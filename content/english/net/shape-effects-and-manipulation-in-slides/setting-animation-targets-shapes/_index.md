@@ -11,7 +11,7 @@ url: /net/shape-effects-and-manipulation-in-slides/setting-animation-targets-sha
 In the dynamic world of presentations, adding animations to your slides can be a game-changer. Aspose.Slides for .NET empowers developers to create engaging and visually appealing presentations by allowing precise control over animation targets for slide shapes. In this step-by-step guide, we'll walk you through the process of setting animation targets using Aspose.Slides for .NET. Whether you're a seasoned developer or just starting, this tutorial will help you harness the power of animations in your presentations.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Slides for .NET Library: Download and install the library from the [official Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET Library: Download and install the library from the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
 - Development Environment: Ensure you have a working .NET development environment set up on your machine.
 ## Import Namespaces
 In your .NET project, include the necessary namespaces to access the Aspose.Slides functionalities. Add the following code snippet to your project:
@@ -61,4 +61,4 @@ No, Aspose.Slides allows you to animate a virtually unlimited number of shapes i
 ### Can I control the duration and timing of each animation effect?
 Yes, Aspose.Slides provides options to customize the duration and timing of each animation.
 ### Where can I find more examples and documentation for Aspose.Slides?
-Explore the [official Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) for detailed information and examples.
+Explore the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) for detailed information and examples.

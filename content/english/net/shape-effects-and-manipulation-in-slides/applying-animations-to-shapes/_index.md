@@ -76,7 +76,7 @@ Yes, Aspose.Slides allows you to add multiple animation effects to a single shap
 ### Is Aspose.Slides compatible with different versions of PowerPoint?
 Aspose.Slides ensures compatibility with various PowerPoint versions, ensuring your presentations work seamlessly across different platforms.
 ### Where can I find additional resources and support for Aspose.Slides?
-Explore the [official documentation](https://reference.aspose.com/slides/net/) and seek assistance in the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+Explore the [documentation](https://reference.aspose.com/slides/net/) and seek assistance in the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### Do I need a license for Aspose.Slides to use the library?
 Yes, you can acquire a license [here](https://purchase.aspose.com/buy) to unlock the full potential of Aspose.Slides.
 ### Can I try Aspose.Slides before purchasing?

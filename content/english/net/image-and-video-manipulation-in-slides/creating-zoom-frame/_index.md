@@ -11,7 +11,7 @@ url: /net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 In the realm of presentations, captivating slides are key to leaving a lasting impression. Aspose.Slides for .NET provides a powerful toolset, and in this guide, we'll walk you through the process of incorporating engaging zoom frames into your presentation slides.
 ## Prerequisites
 Before embarking on this journey, ensure you have the following in place:
-- Aspose.Slides for .NET Library: Download and install the library from the [official Aspose.Slides documentation](https://reference.aspose.com/slides/net/).
+- Aspose.Slides for .NET Library: Download and install the library from the [Aspose.Slides documentation](https://reference.aspose.com/slides/net/).
 - Development Environment: Set up your preferred .NET development environment.
 - Image for Zoom Frame: Prepare an image file that you'd like to use for the zoom effect.
 ## Import Namespaces

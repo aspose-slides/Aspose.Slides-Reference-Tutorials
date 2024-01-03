@@ -68,7 +68,7 @@ Yes, Aspose.Slides supports .NET Core, providing flexibility in your development
 ### Can I hide shapes based on conditions other than alternative text?
 Absolutely! You can customize the hiding logic based on various attributes like shape type, color, or position.
 ### Where can I find additional Aspose.Slides documentation?
-Explore the official documentation [here](https://reference.aspose.com/slides/net/) for in-depth information and examples.
+Explore the documentation [here](https://reference.aspose.com/slides/net/) for in-depth information and examples.
 ### Are temporary licenses available for Aspose.Slides?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
 ### How can I get community support for Aspose.Slides?

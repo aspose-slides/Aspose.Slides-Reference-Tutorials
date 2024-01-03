@@ -66,7 +66,7 @@ Yes, Aspose.Slides supports the latest PowerPoint formats, ensuring compatibilit
 ### Can I use Aspose.Slides in both Windows and Web applications?
 Absolutely! Aspose.Slides is versatile and can be integrated into both Windows and Web-based applications seamlessly.
 ### Where can I find comprehensive documentation for Aspose.Slides?
-The official documentation is available at [Aspose.Slides .NET Documentation](https://reference.aspose.com/slides/net/).
+The documentation is available at [Aspose.Slides .NET Documentation](https://reference.aspose.com/slides/net/).
 ### How can I get temporary licensing for Aspose.Slides?
 Visit [Temporary License](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for testing purposes.
 ### Need support or have more questions?

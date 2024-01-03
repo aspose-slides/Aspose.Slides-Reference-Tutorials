@@ -81,7 +81,7 @@ Congratulations! You have successfully explored the use of ShapeUtil for handlin
 ### Can I use Aspose.Slides for .NET with other programming languages?
 Aspose.Slides primarily supports .NET languages. However, Aspose provides similar libraries for other platforms and languages.
 ### Where can I find detailed documentation for Aspose.Slides for .NET?
-The official documentation is available [here](https://reference.aspose.com/slides/net/).
+The documentation is available [here](https://reference.aspose.com/slides/net/).
 ### Is there a free trial available for Aspose.Slides for .NET?
 Yes, you can find the free trial [here](https://releases.aspose.com/).
 ### How can I get support for Aspose.Slides for .NET?

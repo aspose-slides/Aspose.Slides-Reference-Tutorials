@@ -11,7 +11,7 @@ url: /net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 Aspose.Slides for .NET is a powerful library that empowers developers to work seamlessly with PowerPoint presentations. One of its notable features is the ability to generate thumbnails for shapes within a presentation. This tutorial will guide you through the process of creating thumbnails for shapes using Aspose.Slides for .NET.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-1. Aspose.Slides for .NET: Make sure you have the Aspose.Slides library installed. You can download it from the [official release page](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Make sure you have the Aspose.Slides library installed. You can download it from the [release page](https://releases.aspose.com/slides/net/).
 2. Development Environment: Set up a suitable development environment, such as Visual Studio, and have a basic understanding of C# programming.
 ## Import Namespaces
 To begin, you need to import the necessary namespaces in your C# code. These namespaces facilitate communication with the Aspose.Slides library. Add the following lines at the beginning of your C# file:

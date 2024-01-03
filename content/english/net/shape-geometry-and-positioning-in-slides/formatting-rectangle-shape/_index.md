@@ -68,8 +68,8 @@ In this tutorial, we covered the basics of working with rectangle shapes in Aspo
 ## FAQs
 ### Q1: Can I use Aspose.Slides for .NET with other .NET languages?
 Yes, Aspose.Slides supports other .NET languages like VB.NET and F# in addition to C#.
-### Q2: Where can I find the official documentation for Aspose.Slides?
-You can refer to the official documentation [here](https://reference.aspose.com/slides/net/).
+### Q2: Where can I find the documentation for Aspose.Slides?
+You can refer to the documentation [here](https://reference.aspose.com/slides/net/).
 ### Q3: How can I get support for Aspose.Slides?
 For support and discussions, visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### Q4: Is there a free trial available?

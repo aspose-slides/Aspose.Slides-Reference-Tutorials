@@ -58,7 +58,7 @@ Yes, Aspose.Slides is regularly updated to ensure compatibility with the latest 
 ### Can I customize the appearance of slide numbers?
 Absolutely! Aspose.Slides provides extensive options to customize the appearance of slide numbers, including font, size, and color.
 ### Are there any licensing restrictions for using Aspose.Slides?
-Refer to the [official Aspose.Slides licensing page](https://purchase.aspose.com/buy) for detailed information on licensing.
+Refer to the [Aspose.Slides licensing page](https://purchase.aspose.com/buy) for detailed information on licensing.
 ### How can I get support for Aspose.Slides-related queries?
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community-based support or explore premium support options.
 ### Can I try Aspose.Slides before purchasing?
