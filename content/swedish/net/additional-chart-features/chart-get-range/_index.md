@@ -8,7 +8,7 @@ weight: 11
 url: /sv/net/additional-chart-features/chart-get-range/
 ---
 
-Vill du extrahera dataintervallet från ett diagram i din PowerPoint-presentation med Aspose.Slides för .NET? Du har kommit till rätt ställe. I den här steg-för-steg-guiden kommer vi att leda dig genom processen för att erhålla diagramdataintervallet från din presentation. Aspose.Slides för .NET är ett kraftfullt bibliotek som gör att du kan arbeta med PowerPoint-dokument programmatiskt, och att få kartdataintervallet är bara en av de många uppgifter som det kan hjälpa dig att utföra.
+Vill du extrahera dataintervallet från ett diagram i din PowerPoint-presentation med Aspose.Slides för .NET? Du har kommit till rätt ställe. I den här steg-för-steg-guiden kommer vi att leda dig genom processen för att erhålla diagramdataintervallet från din presentation. Aspose.Slides för .NET är ett kraftfullt bibliotek som gör att du kan arbeta med PowerPoint-dokument programmatiskt, och att få kartdataintervallet är bara en av de många uppgifter det kan hjälpa dig att utföra.
 
 ## Förutsättningar
 
@@ -75,7 +75,7 @@ Och det är allt! Du har framgångsrikt hämtat diagramdataintervallet från din
 
 I den här handledningen har vi täckt processen att hämta diagramdataintervallet från en PowerPoint-presentation med Aspose.Slides för .NET. Med rätt förutsättningar på plats och genom att följa steg-för-steg-guiden kan du enkelt extrahera den data du behöver från dina presentationer programmatiskt.
 
-Om du har några frågor eller behöver ytterligare hjälp, besök gärna Aspose.Slides för .NET[dokumentation](https://reference.aspose.com/slides/net/) eller nå ut till Aspose-gemenskapen på deras[supportforum](https://forum.aspose.com/).
+Om du har några frågor eller behöver ytterligare hjälp, besök gärna Aspose.Slides för .NET[dokumentation](https://reference.aspose.com/slides/net/) eller nå ut till Aspose-communityt på deras[supportforum](https://forum.aspose.com/).
 
 ## Vanliga frågor
 

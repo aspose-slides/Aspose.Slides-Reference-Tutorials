@@ -167,7 +167,7 @@ Bu kapsamlı eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumun
 
 ### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü kullanarak değiştirebilirsiniz.`chart.setType(ChartType.ChartTypeHere)` yöntem. Yer değiştirmek`ChartTypeHere` istenilen grafik türüyle, örneğin`ChartType.ClusteredCylinder` bizim örneğimizde.
+ Grafik türünü kullanarak değiştirebilirsiniz.`chart.setType(ChartType.ChartTypeHere)` yöntem. Yer değiştirmek`ChartTypeHere` İstenilen grafik türüyle, örneğin`ChartType.ClusteredCylinder` bizim örneğimizde.
 
 ### Bir seriye daha fazla veri noktası ekleyebilir miyim?
 

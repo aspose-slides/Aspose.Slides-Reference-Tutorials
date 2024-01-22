@@ -1,6 +1,6 @@
 ---
-tiitle: Generera SVG med anpassade form-IDn i presentationer
-linktiitle: Generera SVG med anpassade form-IDn i presentationer
+title: Generera SVG med anpassade form-IDn i presentationer
+linktitle: Generera SVG med anpassade form-IDn i presentationer
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Skapa engagerande presentationer med anpassade SVG-former och IDn med Aspose.Slides för .NET. Lär dig hur du skapar interaktiva bilder steg för steg med exempel på källkod. Förbättra visuellt tilltal och användarinteraktion i dina presentationer.
 type: docs

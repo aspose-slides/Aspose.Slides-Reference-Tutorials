@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
     // Un code de configuration de diapositive supplémentaire peut être ajouté ici
 }
 ```
-## Étape 4 : ajouter une section
+## Étape 4 : Ajouter une section
 À votre présentation, ajoutez une nouvelle section. Les sections agissent comme des conteneurs pour organiser vos diapositives.
 ```csharp
 pres.Sections.AddSection("Section 1", slide);

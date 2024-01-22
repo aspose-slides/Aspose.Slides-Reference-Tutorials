@@ -1,6 +1,6 @@
 ---
 title: 如何使用 Aspose.Slides .NET 删除特定幻灯片上的注释
-linktitle: 删除特定幻灯片的注释
+linktitle: 删除特定幻灯片上的注释
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 中的特定幻灯片中删除注释。毫不费力地简化您的演示。
 type: docs

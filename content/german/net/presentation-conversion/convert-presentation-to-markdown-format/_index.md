@@ -8,7 +8,7 @@ weight: 23
 url: /de/net/presentation-conversion/convert-presentation-to-markdown-format/
 ---
 
-Im heutigen digitalen Zeitalter wird die Notwendigkeit, Präsentationen in verschiedene Formate zu konvertieren, immer wichtiger. Unabhängig davon, ob Sie Student, Berufstätiger oder Content-Ersteller sind, kann die Fähigkeit, Ihre PowerPoint-Präsentationen in das Markdown-Format zu konvertieren, eine wertvolle Fähigkeit sein. Markdown ist eine leichte Auszeichnungssprache, die häufig zum Formatieren von Textdokumenten und Webinhalten verwendet wird. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Konvertierung von Präsentationen in das Markdown-Format mit Aspose.Slides für .NET.
+Im heutigen digitalen Zeitalter wird die Notwendigkeit, Präsentationen in verschiedene Formate zu konvertieren, immer wichtiger. Unabhängig davon, ob Sie Student, Berufstätiger oder Content-Ersteller sind, kann die Fähigkeit, Ihre PowerPoint-Präsentationen in das Markdown-Format zu konvertieren, eine wertvolle Fähigkeit sein. Markdown ist eine leichte Auszeichnungssprache, die häufig zum Formatieren von Textdokumenten und Webinhalten verwendet wird. In diesem Schritt-für-Schritt-Tutorial führen wir Sie durch den Prozess der Konvertierung von Präsentationen in das Markdown-Format mit Aspose.Slides für .NET.
 
 ## 1. Einleitung
 

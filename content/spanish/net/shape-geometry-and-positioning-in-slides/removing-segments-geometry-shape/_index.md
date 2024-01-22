@@ -59,11 +59,11 @@ shape.SetGeometryPath(path);
 ¡Felicidades! Ha aprendido con éxito cómo eliminar segmentos de una forma geométrica en diapositivas de presentación usando Aspose.Slides para .NET. Experimente con diferentes formas e índices de segmentos para lograr los efectos visuales deseados en sus presentaciones.
 ## Preguntas frecuentes
 ### ¿Puedo aplicar esta técnica a otras formas?
-Sí, puede utilizar pasos similares para diferentes formas admitidas por Aspose.Slides.
+Sí, puedes utilizar pasos similares para diferentes formas admitidas por Aspose.Slides.
 ### ¿Existe un límite en la cantidad de segmentos que puedo eliminar?
 No hay un límite estricto, pero tenga cuidado de mantener la integridad de la forma.
 ### ¿Cómo manejo los errores durante el proceso de eliminación de segmentos?
-Implemente un manejo adecuado de errores utilizando bloques try-catch.
+Implemente un manejo de errores adecuado utilizando bloques try-catch.
 ### ¿Puedo deshacer la eliminación del segmento después de guardar la presentación?
 No, los cambios son irreversibles después de guardarlos. Considere guardar copias de seguridad antes de realizar modificaciones.
 ### ¿Dónde puedo buscar apoyo o asistencia adicional?

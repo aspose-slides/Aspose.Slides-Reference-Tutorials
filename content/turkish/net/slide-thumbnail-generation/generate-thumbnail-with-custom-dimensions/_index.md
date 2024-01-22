@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation(srcFileName))
 
 ## 2. Adım: Slayta Erişin
 
-Yüklenen sunumda, özel küçük resim görüntüsünü oluşturmak istediğiniz belirli slayda erişmeniz gerekir. Slaydı indeksine göre seçebilirsiniz.
+Yüklenen sunumda, özel küçük resim görüntüsünü oluşturmak istediğiniz belirli slayda erişmeniz gerekir. Slaytı indeksine göre seçebilirsiniz.
 
 ```csharp
 // İlk slayda erişin (gerektiğinde dizini değiştirebilirsiniz)

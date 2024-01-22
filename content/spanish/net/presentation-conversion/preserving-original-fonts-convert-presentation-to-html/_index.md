@@ -1,6 +1,6 @@
 ---
-tiitle: Preservar las fuentes originales convertir la presentación a HTML
-linktiitle: Preservar las fuentes originales convertir la presentación a HTML
+title: Preservar las fuentes originales convertir la presentación a HTML
+linktitle: Preservar las fuentes originales convertir la presentación a HTML
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo conservar las fuentes originales mientras convierte presentaciones a HTML usando Aspose.Slides para .NET. Garantice la coherencia de las fuentes y el impacto visual sin esfuerzo.
 type: docs

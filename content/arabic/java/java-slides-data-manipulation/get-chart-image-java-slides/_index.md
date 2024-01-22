@@ -2,7 +2,7 @@
 title: الحصول على صورة المخطط في شرائح جافا
 linktitle: الحصول على صورة المخطط في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية الحصول على صور المخططات في Java Slides باستخدام Aspose.Slides لـ Java. يوفر هذا الدليل خطوة بخطوة التعليمات البرمجية المصدر ونصائح للتكامل السلس.
+description: تعرف على كيفية الحصول على صور المخططات في Java Slides باستخدام Aspose.Slides لـ Java. يوفر هذا الدليل التفصيلي التعليمات البرمجية المصدرية ونصائح للتكامل السلس.
 type: docs
 weight: 19
 url: /ar/java/data-manipulation/get-chart-image-java-slides/

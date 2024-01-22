@@ -90,7 +90,7 @@ Aspose.Slides for .NET, en yenileri de dahil olmak üzere çok çeşitli PowerPo
 
 ### 3. Birden fazla slaydın arka planını aynı anda değiştirebilir miyim?
 
-Kesinlikle! Slaytlarınız arasında geçiş yapabilir ve istediğiniz arka plan değişikliklerini sununuzdaki birden çok slayta uygulayabilirsiniz.
+Kesinlikle! Slaytlarınız arasında geçiş yapabilir ve istediğiniz arka plan değişikliklerini sununuzdaki birden fazla slayta uygulayabilirsiniz.
 
 ### 4. Aspose.Slides for .NET ücretsiz deneme olanağı sunuyor mu?
 

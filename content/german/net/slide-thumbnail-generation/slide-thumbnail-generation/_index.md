@@ -8,7 +8,7 @@ weight: 10
 url: /de/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
 
-Wenn Sie mit Aspose.Slides Folienminiaturansichten in Ihren .NET-Anwendungen generieren möchten, sind Sie hier richtig. Das Erstellen von Folienminiaturansichten kann in verschiedenen Szenarien eine wertvolle Funktion sein, beispielsweise beim Erstellen benutzerdefinierter PowerPoint-Viewer oder beim Generieren von Bildvorschauen von Präsentationen. In diesem umfassenden Leitfaden führen wir Sie Schritt für Schritt durch den Prozess. Wir behandeln die Voraussetzungen, das Importieren von Namespaces und die Aufteilung jedes Beispiels in mehrere Schritte, damit Sie die Generierung von Folienminiaturansichten problemlos implementieren können.
+Wenn Sie mit Aspose.Slides Folienminiaturansichten in Ihren .NET-Anwendungen generieren möchten, sind Sie hier richtig. Das Erstellen von Folienminiaturansichten kann in verschiedenen Szenarien eine wertvolle Funktion sein, beispielsweise beim Erstellen benutzerdefinierter PowerPoint-Viewer oder beim Generieren von Bildvorschauen von Präsentationen. In diesem umfassenden Leitfaden führen wir Sie Schritt für Schritt durch den Prozess. Wir behandeln die Voraussetzungen, das Importieren von Namespaces und die Aufteilung jedes Beispiels in mehrere Schritte, damit Sie die Generierung von Folienminiaturansichten nahtlos implementieren können.
 
 ## Voraussetzungen
 

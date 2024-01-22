@@ -25,7 +25,7 @@ A lo largo de este tutorial, profundizaremos en las complejidades de la manipula
 - Extracción de imágenes y videos: explore técnicas para extraer imágenes y videos de diapositivas existentes, permitiendo la reutilización y personalización.
 - Animación y transición: Sumérgete en el mundo de las animaciones y transiciones y descubre cómo se pueden utilizar imágenes y vídeos para crear secuencias visuales cautivadoras.
 
-Al final de este tutorial, tendrá una base sólida en el uso de Aspose.Slides para manipular imágenes y videos dentro de sus presentaciones, elevando el atractivo visual y el factor de participación de su contenido. Si usted es un desarrollador que busca mejorar las presentaciones comerciales o un educador que busca formas innovadoras de transmitir conceptos, este tutorial es su puerta de entrada para desbloquear el potencial de la multimedia en las diapositivas.
+Al final de este tutorial, tendrá una base sólida en el uso de Aspose.Slides para manipular imágenes y videos dentro de sus presentaciones, elevando el atractivo visual y el factor de participación de su contenido. Si usted es un desarrollador que busca mejorar las presentaciones de negocios o un educador que busca formas innovadoras de transmitir conceptos, este tutorial es su puerta de entrada para desbloquear el potencial de multimedia en diapositivas.
 
 
 ## Manipulación de imágenes y vídeos en tutoriales de diapositivas

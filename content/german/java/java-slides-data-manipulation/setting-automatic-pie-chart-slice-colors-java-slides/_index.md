@@ -192,7 +192,7 @@ legend.setOverlay(true); // Zeigen Sie die Legende über dem Diagramm an
 Ja, Sie können die Schriftart und den Stil des Titels ändern. Verwenden Sie den folgenden Code, um die Schriftart und den Stil des Titels festzulegen:
 
 ```java
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Schriftgröße festlegen
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Schriftgröße einstellen
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Machen Sie den Titel fett
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Machen Sie den Titel kursiv
 ```

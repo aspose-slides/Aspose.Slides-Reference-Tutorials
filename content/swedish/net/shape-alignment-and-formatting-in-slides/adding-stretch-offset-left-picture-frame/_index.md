@@ -58,7 +58,7 @@ Ange bilden för att fylla formen:
 ```csharp
 aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
 ```
-## Steg 8: Specificera Stretch Offsets
+## Steg 8: Ange Stretch Offsets
 Definiera bildförskjutningarna från motsvarande kanter på formens begränsningsram:
 ```csharp
 aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;

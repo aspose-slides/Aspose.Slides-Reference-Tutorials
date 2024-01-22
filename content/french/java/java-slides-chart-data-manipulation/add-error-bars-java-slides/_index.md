@@ -119,7 +119,7 @@ Vous pouvez personnaliser les barres d'erreur en modifiant leurs propriétés, t
 
 ### Puis-je ajouter des barres d’erreur à différents types de graphiques ?
 
-Oui, vous pouvez ajouter des barres d'erreur à différents types de graphiques pris en charge par Aspose.Slides pour Java. Créez simplement le type de graphique souhaité et suivez les mêmes étapes de personnalisation de la barre d'erreur.
+Oui, vous pouvez ajouter des barres d'erreur à différents types de graphiques pris en charge par Aspose.Slides pour Java. Créez simplement le type de graphique souhaité et suivez les mêmes étapes de personnalisation de la barre d’erreur.
 
 ### Comment puis-je ajuster la position et la taille du graphique sur la diapositive ?
 

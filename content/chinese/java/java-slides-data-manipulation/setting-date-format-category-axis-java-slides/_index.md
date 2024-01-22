@@ -124,7 +124,7 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ＃＃结论
 
-您已使用 Aspose.Slides for Java 成功自定义了 Java Slides 图表中类别轴的日期格式。这允许您在图表上以所需的格式呈现日期值。请随意根据您的具体要求探索进一步的定制选项。
+您已使用 Aspose.Slides for Java 成功自定义了 Java Slides 图表中类别轴的日期格式。这允许您在图表上以所需的格式显示日期值。请随意根据您的具体要求探索进一步的定制选项。
 
 ## 常见问题解答
 

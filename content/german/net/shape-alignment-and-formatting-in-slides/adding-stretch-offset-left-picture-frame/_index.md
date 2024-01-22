@@ -22,7 +22,7 @@ using System.Drawing;
 using Aspose.Slides.Export;
 ```
 ## Schritt 1: Richten Sie Ihr Projekt ein
-Erstellen Sie ein neues Projekt oder öffnen Sie ein bestehendes. Stellen Sie sicher, dass in Ihrem Projekt auf die Aspose.Slides-Bibliothek verwiesen wird.
+Erstellen Sie ein neues Projekt oder öffnen Sie ein vorhandenes. Stellen Sie sicher, dass in Ihrem Projekt auf die Aspose.Slides-Bibliothek verwiesen wird.
 ## Schritt 2: Präsentationsobjekt erstellen
  Instanziieren Sie die`Presentation` Klasse, die die PPTX-Datei darstellt:
 ```csharp

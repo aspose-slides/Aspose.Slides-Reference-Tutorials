@@ -74,7 +74,7 @@ När du har gjort de nödvändiga ändringarna kan du spara presentationen:
 presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Köra koden
+## Kör koden
 
 1. Bygg ditt projekt för att säkerställa att det inte finns några fel.
 2. Kör programmet.

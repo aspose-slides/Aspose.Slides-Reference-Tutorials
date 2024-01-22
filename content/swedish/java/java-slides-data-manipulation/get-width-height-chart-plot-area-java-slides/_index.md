@@ -42,7 +42,7 @@ chart.validateChartLayout();
 
 Den här koden skapar ett klustrat kolumndiagram vid position (100, 100) med dimensioner (500, 350).
 
-## Steg 4: Skaffa mått på tomtytan
+## Steg 4: Hämta mått på tomtytan
 
 För att hämta bredden och höjden på diagrammets plotarea kan vi använda följande kod:
 

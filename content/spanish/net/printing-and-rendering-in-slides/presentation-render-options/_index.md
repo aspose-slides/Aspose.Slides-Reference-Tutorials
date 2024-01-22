@@ -1,5 +1,5 @@
 ---
-tiitle: Opciones de renderizado de Aspose.Slides mejore sus presentaciones
+title: Opciones de renderizado de Aspose.Slides mejore sus presentaciones
 linktitle: Explorando las opciones de renderizado para diapositivas de presentación en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Explore Aspose.Slides para conocer las opciones de renderizado .NET. Personalice fuentes, diseño y más para presentaciones cautivadoras. Mejora tus diapositivas sin esfuerzo.

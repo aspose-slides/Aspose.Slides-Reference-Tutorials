@@ -1,0 +1,285 @@
+---
+title: जावा स्लाइड्स में पाई चार्ट
+linktitle: जावा स्लाइड्स में पाई चार्ट
+second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
+description: जावा के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में आश्चर्यजनक पाई चार्ट बनाना सीखें। जावा डेवलपर्स के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
+weight: 23
+url: /hi/java/chart-data-manipulation/pie-chart-java-slides/
+---
+
+## Aspose.Slides का उपयोग करके जावा स्लाइड्स में पाई चार्ट बनाने का परिचय
+
+इस ट्यूटोरियल में, हम दिखाएंगे कि जावा के लिए Aspose.Slides का उपयोग करके पावरपॉइंट प्रेजेंटेशन में पाई चार्ट कैसे बनाया जाए। आरंभ करने में आपकी सहायता के लिए हम आपको चरण-दर-चरण निर्देश और जावा स्रोत कोड प्रदान करेंगे। यह मार्गदर्शिका मानती है कि आपने Java के लिए Aspose.Slides के साथ अपना विकास परिवेश पहले ही सेट कर लिया है।
+
+## आवश्यक शर्तें
+
+ शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में जावा लाइब्रेरी के लिए Aspose.Slides स्थापित और कॉन्फ़िगर है। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+
+## चरण 1: आवश्यक पुस्तकालय आयात करें
+
+```java
+import com.aspose.slides.*;
+import com.aspose.slides.charts.*;
+```
+
+Aspose.Slides लाइब्रेरी से आवश्यक कक्षाएं आयात करना सुनिश्चित करें।
+
+## चरण 2: प्रेजेंटेशन आरंभ करें
+
+```java
+// दस्तावेज़ निर्देशिका का पथ.
+String dataDir = "Your Document Directory";
+
+// त्वरित प्रस्तुति वर्ग जो पीपीटीएक्स फ़ाइल का प्रतिनिधित्व करता है
+Presentation presentation = new Presentation();
+```
+
+ अपनी PowerPoint फ़ाइल का प्रतिनिधित्व करने के लिए एक नया प्रेजेंटेशन ऑब्जेक्ट बनाएं। प्रतिस्थापित करें`"Your Document Directory"` उस वास्तविक पथ के साथ जहां आप प्रस्तुति को सहेजना चाहते हैं।
+
+## चरण 3: एक स्लाइड जोड़ें
+
+```java
+// पहली स्लाइड तक पहुंचें
+ISlide slide = presentation.getSlides().get_Item(0);
+```
+
+प्रेजेंटेशन की पहली स्लाइड प्राप्त करें जहाँ आप पाई चार्ट जोड़ना चाहते हैं।
+
+## चरण 4: एक पाई चार्ट जोड़ें
+
+```java
+// डिफ़ॉल्ट डेटा के साथ एक पाई चार्ट जोड़ें
+IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
+```
+
+स्लाइड में निर्दिष्ट स्थान और आकार पर एक पाई चार्ट जोड़ें।
+
+## चरण 5: चार्ट शीर्षक सेट करें
+
+```java
+// चार्ट शीर्षक सेट करें
+chart.getChartTitle().addTextFrameForOverriding("Sample Title");
+chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
+chart.getChartTitle().setHeight(20);
+chart.setTitle(true);
+```
+
+पाई चार्ट के लिए एक शीर्षक सेट करें। आप आवश्यकतानुसार शीर्षक को अनुकूलित कर सकते हैं।
+
+## चरण 6: चार्ट डेटा को अनुकूलित करें
+
+```java
+// मान दिखाने के लिए पहली श्रृंखला सेट करें
+chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
+
+// चार्ट डेटा शीट का सूचकांक सेट करना
+int defaultWorksheetIndex = 0;
+
+//चार्ट डेटा वर्कशीट प्राप्त करना
+IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
+
+// डिफ़ॉल्ट रूप से जेनरेट की गई श्रृंखला और श्रेणियां हटाएं
+chart.getChartData().getSeries().clear();
+chart.getChartData().getCategories().clear();
+
+// नई श्रेणियां जोड़ना
+chart.getChartData().getCategories().add(workbook.getCell(0, 1, 0, "First Qtr"));
+chart.getChartData().getCategories().add(workbook.getCell(0, 2, 0, "2nd Qtr"));
+chart.getChartData().getCategories().add(workbook.getCell(0, 3, 0, "3rd Qtr"));
+
+// नई श्रृंखला जोड़ी जा रही है
+IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(0, 0, 1, "Series 1"), chart.getType());
+
+// श्रृंखला डेटा पॉप्युलेट करना
+series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 1, 1, 20));
+series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 50));
+series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 30));
+```
+
+श्रेणियों और श्रृंखलाओं को जोड़कर और उनके मान सेट करके चार्ट डेटा को अनुकूलित करें। इस उदाहरण में, हमारे पास संबंधित डेटा बिंदुओं के साथ तीन श्रेणियां और एक श्रृंखला है।
+
+## चरण 7: पाई चार्ट सेक्टर को अनुकूलित करें
+
+```java
+// सेक्टर रंग सेट करें
+chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
+
+// प्रत्येक सेक्टर की उपस्थिति को अनुकूलित करें
+IChartDataPoint point1 = series.getDataPoints().get_Item(0);
+point1.getFormat().getFill().setFillType(FillType.Solid);
+point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
+// सेक्टर सीमा को अनुकूलित करें
+point1.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
+point1.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
+point1.getFormat().getLine().setWidth(3.0);
+point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
+point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
+
+//अन्य क्षेत्रों को भी इसी तरह अनुकूलित करें
+```
+
+पाई चार्ट में प्रत्येक सेक्टर की उपस्थिति को अनुकूलित करें। आप रंग, बॉर्डर शैलियाँ और अन्य दृश्य गुण बदल सकते हैं।
+
+## चरण 8: डेटा लेबल अनुकूलित करें
+
+```java
+// डेटा लेबल अनुकूलित करें
+IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
+lbl1.getDataLabelFormat().setShowValue(true);
+
+// इसी तरह अन्य डेटा बिंदुओं के लिए डेटा लेबल कस्टमाइज़ करें
+```
+
+पाई चार्ट में प्रत्येक डेटा बिंदु के लिए डेटा लेबल कस्टमाइज़ करें। आप नियंत्रित कर सकते हैं कि चार्ट पर कौन से मान प्रदर्शित हों।
+
+## चरण 9: लीडर लाइन्स दिखाएँ
+
+```java
+// चार्ट के लिए लीडर पंक्तियाँ दिखाएँ
+series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
+```
+
+डेटा लेबल को उनके संबंधित सेक्टरों से जोड़ने के लिए लीडर लाइन सक्षम करें।
+
+## चरण 10: पाई चार्ट रोटेशन कोण सेट करें
+
+```java
+// पाई चार्ट सेक्टरों के लिए रोटेशन कोण सेट करें
+chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
+```
+
+पाई चार्ट सेक्टरों के लिए रोटेशन कोण सेट करें। इस उदाहरण में, हमने इसे 180 डिग्री पर सेट किया है।
+
+## चरण 11: प्रस्तुति सहेजें
+
+```java
+// प्रेजेंटेशन को पाई चार्ट के साथ सेव करें
+presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
+```
+
+प्रेजेंटेशन को पाई चार्ट के साथ निर्दिष्ट निर्देशिका में सहेजें।
+
+## जावा स्लाइड्स में पाई चार्ट के लिए संपूर्ण स्रोत कोड
+
+```java
+// दस्तावेज़ निर्देशिका का पथ.
+String dataDir = "Your Document Directory";
+// त्वरित प्रस्तुति वर्ग जो पीपीटीएक्स फ़ाइल का प्रतिनिधित्व करता है
+Presentation presentation = new Presentation();
+// पहली स्लाइड तक पहुंचें
+ISlide slides = presentation.getSlides().get_Item(0);
+// डिफ़ॉल्ट डेटा के साथ चार्ट जोड़ें
+IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
+// चार्ट शीर्षक सेट करना
+chart.getChartTitle().addTextFrameForOverriding("Sample Title");
+chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
+chart.getChartTitle().setHeight(20);
+chart.setTitle(true);
+// मान दिखाने के लिए पहली श्रृंखला सेट करें
+chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
+// चार्ट डेटा शीट का सूचकांक सेट करना
+int defaultWorksheetIndex = 0;
+//चार्ट डेटा वर्कशीट प्राप्त करना
+IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
+// डिफ़ॉल्ट रूप से जेनरेट की गई श्रृंखला और श्रेणियां हटाएं
+chart.getChartData().getSeries().clear();
+chart.getChartData().getCategories().clear();
+// नई श्रेणियां जोड़ना
+chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
+chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
+chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
+// नई श्रृंखला जोड़ी जा रही है
+IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
+// अब श्रृंखला डेटा आबाद हो रहा है
+series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
+series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
+series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
+//नए संस्करण में काम नहीं कर रहा
+// नए बिंदु जोड़ना और सेक्टर रंग सेट करना
+// श्रृंखला.IsColorVaried = सत्य;
+chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
+IChartDataPoint point = series.getDataPoints().get_Item(0);
+point.getFormat().getFill().setFillType(FillType.Solid);
+point.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
+// सेक्टर सीमा निर्धारित करना
+point.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
+point.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
+point.getFormat().getLine().setWidth(3.0);
+point.getFormat().getLine().setStyle(LineStyle.ThinThick);
+point.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
+IChartDataPoint point1 = series.getDataPoints().get_Item(1);
+point1.getFormat().getFill().setFillType(FillType.Solid);
+point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Brown));
+// सेक्टर सीमा निर्धारित करना
+point1.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
+point1.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
+point1.getFormat().getLine().setWidth(3.0);
+point1.getFormat().getLine().setStyle(LineStyle.Single);
+point1.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDot);
+IChartDataPoint point2 = series.getDataPoints().get_Item(2);
+point2.getFormat().getFill().setFillType(FillType.Solid);
+point2.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Coral));
+// सेक्टर सीमा निर्धारित करना
+point2.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
+point2.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
+point2.getFormat().getLine().setWidth(2.0);
+point2.getFormat().getLine().setStyle(LineStyle.ThinThin);
+point2.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDotDot);
+// नई श्रृंखला के लिए प्रत्येक श्रेणी के लिए कस्टम लेबल बनाएं
+IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
+// lbl.setShowCategoryName(सत्य);
+lbl1.getDataLabelFormat().setShowValue(true);
+IDataLabel lbl2 = series.getDataPoints().get_Item(1).getLabel();
+lbl2.getDataLabelFormat().setShowValue(true);
+lbl2.getDataLabelFormat().setShowLegendKey(true);
+lbl2.getDataLabelFormat().setShowPercentage(true);
+IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
+lbl3.getDataLabelFormat().setShowSeriesName(true);
+lbl3.getDataLabelFormat().setShowPercentage(true);
+// चार्ट के लिए लीडर पंक्तियाँ दिखा रहा हूँ
+series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
+// पाई चार्ट सेक्टरों के लिए रोटेशन कोण सेट करना
+chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
+// प्रस्तुतिकरण को चार्ट के साथ सहेजें
+presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
+```
+
+## निष्कर्ष
+
+आपने Java के लिए Aspose.Slides का उपयोग करके PowerPoint प्रेजेंटेशन में सफलतापूर्वक एक पाई चार्ट बनाया है। आप अपनी विशिष्ट आवश्यकताओं के अनुसार चार्ट की उपस्थिति और डेटा लेबल को अनुकूलित कर सकते हैं। यह ट्यूटोरियल एक बुनियादी उदाहरण प्रदान करता है, और आप आवश्यकतानुसार अपने चार्ट को और बेहतर और अनुकूलित कर सकते हैं।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+### मैं पाई चार्ट में अलग-अलग सेक्टरों का रंग कैसे बदल सकता हूँ?
+
+ पाई चार्ट में अलग-अलग सेक्टरों के रंग बदलने के लिए, आप प्रत्येक डेटा बिंदु के लिए भरण रंग को अनुकूलित कर सकते हैं। दिए गए कोड उदाहरण में, हमने प्रदर्शित किया कि प्रत्येक सेक्टर के लिए भरण रंग कैसे सेट किया जाए`getSolidFillColor().setColor()`तरीका। वांछित स्वरूप प्राप्त करने के लिए आप रंग मानों को संशोधित कर सकते हैं।
+
+### क्या मैं पाई चार्ट में और अधिक श्रेणियाँ और डेटा श्रृंखला जोड़ सकता हूँ?
+
+ हां, आप पाई चार्ट में अतिरिक्त श्रेणियां और डेटा श्रृंखला जोड़ सकते हैं। ऐसा करने के लिए, आप इसका उपयोग कर सकते हैं`getChartData().getCategories().add()` और`getChartData().getSeries().add()` विधियाँ, जैसा कि उदाहरण में दिखाया गया है। अपने चार्ट का विस्तार करने के लिए बस नई श्रेणियों और श्रृंखलाओं के लिए उचित डेटा और लेबल प्रदान करें।
+
+### मैं डेटा लेबल के स्वरूप को कैसे अनुकूलित करूँ?
+
+ आप इसका उपयोग करके डेटा लेबल के स्वरूप को अनुकूलित कर सकते हैं`getDataLabelFormat()` प्रत्येक डेटा बिंदु के लेबल पर विधि। उदाहरण में, हमने प्रदर्शित किया कि डेटा लेबल पर मूल्य कैसे दिखाया जाए`getDataLabelFormat().setShowValue(true)`. आप प्रदर्शित होने वाले मानों को नियंत्रित करके, लेजेंड कुंजियाँ दिखाकर और अन्य स्वरूपण विकल्पों को समायोजित करके डेटा लेबल को और अधिक अनुकूलित कर सकते हैं।
+
+### क्या मैं पाई चार्ट का शीर्षक बदल सकता हूँ?
+
+ हाँ, आप पाई चार्ट का शीर्षक बदल सकते हैं। दिए गए कोड में, हम चार्ट शीर्षक का उपयोग करके सेट करते हैं`chart.getChartTitle().addTextFrameForOverriding("Sample Title")` . आप प्रतिस्थापित कर सकते हैं`"Sample Title"` अपने इच्छित शीर्षक पाठ के साथ।
+
+### मैं जेनरेट किए गए प्रेजेंटेशन को पाई चार्ट के साथ कैसे सहेजूं?
+
+ प्रेजेंटेशन को पाई चार्ट के साथ सहेजने के लिए, इसका उपयोग करें`presentation.save()` तरीका। जिस प्रारूप में आप प्रेजेंटेशन को सहेजना चाहते हैं, उसके साथ वांछित फ़ाइल पथ और नाम प्रदान करें। उदाहरण के लिए:
+```java
+presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
+```
+
+सही फ़ाइल पथ और प्रारूप निर्दिष्ट करना सुनिश्चित करें।
+
+### क्या मैं जावा के लिए Aspose.Slides का उपयोग करके अन्य प्रकार के चार्ट बना सकता हूँ?
+
+ हां, जावा के लिए Aspose.Slides बार चार्ट, लाइन चार्ट और अन्य सहित विभिन्न चार्ट प्रकारों का समर्थन करता है। आप परिवर्तन करके विभिन्न प्रकार के चार्ट बना सकते हैं`ChartType` चार्ट जोड़ते समय. विभिन्न प्रकार के चार्ट बनाने के बारे में अधिक जानकारी के लिए Aspose.Slides दस्तावेज़ देखें।
+
+### मैं जावा के लिए Aspose.Slides के साथ काम करने के लिए अधिक जानकारी और उदाहरण कैसे पा सकता हूं?
+
+ अधिक जानकारी, विस्तृत दस्तावेज़ीकरण और अतिरिक्त उदाहरणों के लिए, आप यहां जा सकते हैं[जावा दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/java/). यह आपको लाइब्रेरी का प्रभावी ढंग से उपयोग करने में मदद करने के लिए व्यापक संसाधन प्रदान करता है।

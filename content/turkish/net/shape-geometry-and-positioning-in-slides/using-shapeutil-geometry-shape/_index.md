@@ -8,7 +8,7 @@ weight: 17
 url: /tr/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
 ## giriiş
-Görsel olarak çekici ve dinamik sunum slaytları oluşturmak önemli bir beceridir ve Aspose.Slides for .NET bunu başarmak için güçlü bir araç seti sağlar. Bu derste, sunum slaytlarındaki geometri şekillerini işlemek için ShapeUtil'in kullanımını inceleyeceğiz. İster tecrübeli bir geliştirici olun ister Aspose.Slides'a yeni başlıyor olun, bu kılavuz sunumlarınızı geliştirmek için ShapeUtil'i kullanma sürecinde size yol gösterecektir.
+Görsel olarak çekici ve dinamik sunum slaytları oluşturmak önemli bir beceridir ve Aspose.Slides for .NET bunu başarmak için güçlü bir araç seti sağlar. Bu derste, sunum slaytlarındaki geometri şekillerini işlemek için ShapeUtil'in kullanımını inceleyeceğiz. İster deneyimli bir geliştirici olun ister Aspose.Slides'a yeni başlıyor olun, bu kılavuz sunumlarınızı geliştirmek için ShapeUtil'i kullanma sürecinde size yol gösterecektir.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 - C# ve .NET programlamanın temel anlayışı.

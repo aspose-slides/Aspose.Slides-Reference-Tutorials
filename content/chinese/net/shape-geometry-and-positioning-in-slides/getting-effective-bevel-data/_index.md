@@ -16,7 +16,7 @@ url: /zh/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-da
 3. .NET Framework：确保您的系统上安装了所需的 .NET Framework。
 现在我们已经奠定了基础，让我们进入实际步骤。
 ## 导入命名空间
-首先，让我们导入必要的名称空间来启动我们的项目：
+首先，让我们导入必要的命名空间来启动我们的项目：
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Examples.CSharp;

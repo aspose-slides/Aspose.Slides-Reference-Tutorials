@@ -117,7 +117,7 @@ Aspose.Slides for .NET, PowerPoint sunumlarından ses ve video çıkarma işlemi
 
 Bu kılavuzda özetlenen adımları izleyerek PowerPoint sunumlarınızdan kolayca ses ve video çıkarabilir ve bu öğelerden çeşitli şekillerde yararlanabilirsiniz.
 
-Aspose.Slides for .NET ile etkili multimedya çıkarımının doğru araçlara, kütüphaneye ve multimedya öğeleri içeren bir PowerPoint sunumuna bağlı olduğunu unutmayın.
+Aspose.Slides for .NET ile etkili multimedya çıkarımının, doğru araçlara, kitaplığın kendisine ve multimedya öğeleri içeren bir PowerPoint sunumuna bağlı olduğunu unutmayın.
 
 ## SSS
 

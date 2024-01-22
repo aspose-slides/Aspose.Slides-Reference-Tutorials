@@ -83,4 +83,4 @@ Absolutamente. Aspose.Slides para .NET le permite automatizar tareas en múltipl
 Sí, Aspose.Slides para .NET ofrece una amplia gama de funciones, incluida la creación, edición y conversión de diapositivas a varios formatos.
 
 ### ¿Hay soporte técnico disponible para Aspose.Slides para .NET?
- Sí, puede buscar soporte técnico e interactuar con la comunidad de Aspose en el[aspose foro](https://forum.aspose.com/).
+ Sí, puede buscar soporte técnico e interactuar con la comunidad de Aspose en el[asponer foro](https://forum.aspose.com/).

@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## 步骤 2：设置演示文稿和 TIFF 选项
 
-定义演示文稿文件的路径 (`ConvertWithNoteToTiff.pptx` ）并创建一个`Presentation`目的。然后，配置`TiffOptions`用于转换。
+定义演示文稿文件的路径（`ConvertWithNoteToTiff.pptx` ）并创建一个`Presentation`目的。然后，配置`TiffOptions`用于转换。
 
 ```java
 String dataDir = "Your Document Directory";

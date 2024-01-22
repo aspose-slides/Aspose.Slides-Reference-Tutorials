@@ -48,7 +48,7 @@ presentation.getDocumentProperties().setTitle("My Presentation");
 //设置演示文稿的作者
 presentation.getDocumentProperties().setAuthor("John Doe");
 
-//设置演示文稿的关键词
+//设置演示文稿的关键字
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 
@@ -122,7 +122,7 @@ presentation.getDocumentProperties().setTitle("My Presentation");
 //设置演示文稿的作者
 presentation.getDocumentProperties().setAuthor("John Doe");
 
-//设置演示文稿的关键词
+//设置演示文稿的关键字
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 

@@ -136,7 +136,7 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-Estos pasos demuestran una guía completa sobre cómo realizar combinación de correspondencia en presentaciones usando Aspose.Slides para .NET. Ahora, abordemos algunas preguntas frecuentes.
+Estos pasos demuestran una guía completa sobre cómo realizar combinación de correspondencia en presentaciones utilizando Aspose.Slides para .NET. Ahora, abordemos algunas preguntas frecuentes.
 ## Preguntas frecuentes
 ### 1. ¿Aspose.Slides para .NET es compatible con diferentes fuentes de datos?
 Sí, Aspose.Slides para .NET admite varias fuentes de datos, incluidos XML, RDBMS y más.

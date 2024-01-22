@@ -22,7 +22,7 @@ Formatering spelar en avgörande roll för att skapa engagerande och professione
 
 Oavsett om du vill strömlinjeforma licensförfaranden eller höja den visuella estetiken i dina presentationer, kommer dessa handledningar att ge dig insikter och färdigheter för att uppnå dina mål. Låt oss ge oss ut på den här resan för att förbättra din Aspose.Slides-färdighet och skapa presentationer som lämnar ett bestående intryck.
 
-## Licenserings- och formateringsguider
+## Licenserings- och formateringsstudier
 ### [Licensiering i Aspose.Slides](./licensing-and-formatting/)
 Lär dig hur du licensierar Aspose.Slides för .NET och släpp lös kraften i PowerPoint-manipulation i dina .NET-applikationer.
 ### [Uppmätt licensanvändning](./metered-licensing/)

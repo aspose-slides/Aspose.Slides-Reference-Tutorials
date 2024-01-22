@@ -58,7 +58,7 @@ pres.Slides[0].GetThumbnail(renderingOpts, 4 / 3f, 4 / 3f).Save(Path.Combine(Run
 ```
 Sunum stilinizi tamamlayanı bulmak için farklı yazı tipleriyle denemeler yapın.
 ## Çözüm
-Aspose.Slides for .NET'teki işleme seçeneklerini optimize etmek, sunumlarınızın görsel çekiciliğini arttırmanın güçlü bir yolunu sunar. İstediğiniz sonuca ulaşmak ve hedef kitlenizi büyülemek için çeşitli ayarlarla denemeler yapın.
+Aspose.Slides for .NET'teki işleme seçeneklerini optimize etmek, sunumlarınızın görsel çekiciliğini artırmanın güçlü bir yolunu sunar. İstediğiniz sonuca ulaşmak ve hedef kitlenizi büyülemek için çeşitli ayarlarla denemeler yapın.
 ## Sıkça Sorulan Sorular
 ### S: Tüm slaytlardaki notların konumunu özelleştirebilir miyim?
  C: Evet, ayarlayarak`NotesPosition` içindeki mülk`NotesCommentsLayoutingOptions`.

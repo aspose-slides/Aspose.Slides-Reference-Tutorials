@@ -39,7 +39,7 @@ using Aspose.Slides;
 using var presentation = new Presentation("path/to/your/presentation.pptx");
 ```
 
-## Zugriff auf Folien
+## Auf Folien zugreifen
 
  Sobald Sie die Präsentation geladen haben, können Sie über die auf die Folien zugreifen`Slides` Sammlung. So können Sie die Folien durchlaufen und Vorgänge an ihnen ausführen:
 

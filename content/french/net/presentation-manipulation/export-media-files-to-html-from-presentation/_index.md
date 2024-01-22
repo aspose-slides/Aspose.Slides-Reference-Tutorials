@@ -77,7 +77,7 @@ A2 : Oui, vous pouvez personnaliser la sortie HTML en modifiant les options HTML
 ### Q3 : Aspose.Slides pour .NET prend-il en charge d'autres formats d'exportation ?
 A3 : Oui, Aspose.Slides pour .NET prend en charge divers formats d'exportation, notamment PDF, formats d'image, etc.
 
-### Q4 : Où puis-je obtenir de l'assistance pour Aspose.Slides pour .NET ?
+### Q4 : Où puis-je obtenir de l'aide pour Aspose.Slides pour .NET ?
  A4 : Vous pouvez trouver de l'aide et poser des questions sur les forums Aspose[ici](https://forum.aspose.com/).
 
 ### Q5 : Comment acheter une licence pour Aspose.Slides pour .NET ?

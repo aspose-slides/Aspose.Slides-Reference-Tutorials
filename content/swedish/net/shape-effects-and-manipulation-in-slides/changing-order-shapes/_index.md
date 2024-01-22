@@ -27,7 +27,7 @@ Skapa ett nytt projekt i Visual Studio eller din föredragna .NET-utvecklingsmil
 string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
 ```
-## Steg 3: Få tillgång till bilden och formerna
+## Steg 3: Få åtkomst till bilden och formerna
 ```csharp
 ISlide slide = presentation.Slides[0];
 ```

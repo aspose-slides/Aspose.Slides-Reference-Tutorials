@@ -65,7 +65,7 @@ autoshape.TextFrame.Text = "Second Slide";
 ```csharp
 // Добавляйте объекты ZoomFrame с предварительным просмотром слайдов
 var zoomFrame1 = pres.Slides[0].Shapes.AddZoomFrame(20, 20, 250, 200, slide2);
-// Добавьте объекты ZoomFrame с собственным изображением
+// Добавьте объекты ZoomFrame с собственным изображением.
 IPPImage image = pres.Images.AddImage(Image.FromFile(imagePath));
 var zoomFrame2 = pres.Slides[0].Shapes.AddZoomFrame(200, 250, 250, 100, slide3, image);
 // ... (Продолжайте настройку ZoomFrames по мере необходимости)

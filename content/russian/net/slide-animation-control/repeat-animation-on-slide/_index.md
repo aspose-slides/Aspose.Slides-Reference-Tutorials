@@ -43,7 +43,7 @@ ISequence effectsSequence = pres.Slides[0].Timeline.MainSequence;
 IEffect effect = effectsSequence[0];
 ```
 ## Шаг 4. Измените настройки повтора
-Измените свойство «Время/Повтор» эффекта на «До конца слайда».
+Измените свойство «Время/Повторение» эффекта на «До конца слайда».
 ```csharp
 effect.Timing.RepeatUntilEndSlide = true;
 ```

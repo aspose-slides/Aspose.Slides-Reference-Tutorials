@@ -89,7 +89,7 @@ presentation.Save(dataDir + "StylishNotesPresentation.pptx", SaveFormat.Pptx);
 
 ## Conclusión
 
-Mejorar sus presentaciones de PowerPoint con un formato de notas elegante puede mejorar significativamente su atractivo visual y su efectividad. Con Aspose.Slides para .NET, el proceso se vuelve simple y accesible, lo que le permite crear presentaciones de apariencia profesional sin esfuerzo.
+Mejorar sus presentaciones de PowerPoint con un formato de notas elegante puede mejorar significativamente su atractivo visual y su efectividad. Con Aspose.Slides para .NET, el proceso se vuelve simple y accesible, lo que le permite crear presentaciones de aspecto profesional sin esfuerzo.
 
 Incorpore esta técnica en sus presentaciones y estará en camino de entregar contenido impactante con estilo.
 

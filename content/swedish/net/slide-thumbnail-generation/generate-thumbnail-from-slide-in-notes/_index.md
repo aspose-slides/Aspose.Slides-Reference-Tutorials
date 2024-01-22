@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlideInNotes
 }
 ```
 
-## Steg 3: Gå till bilden
+## Steg 3: Öppna bilden
 
 Du kan välja vilken bild i presentationen du vill generera en miniatyrbild för. I det här exemplet kommer vi åt den första bilden:
 

@@ -30,7 +30,7 @@ Förbättra dina färdigheter i bildhantering med Aspose.Slides-handledningar om
 Förbättra dina .NET-applikationer med omfattande hyperlänksmanipulation med Aspose.Slides. Lär dig hur du hanterar hyperlänkar, skapar interaktiva presentationer och ökar användarens engagemang utan ansträngning.
 ### [Skapa och anpassning av diagram](./chart-creation-and-customization/)
 Förbättra din .NET-applikations presentationsmöjligheter med Aspose.Slides. Dyk in i vår handledning om att skapa och anpassa diagram, utforska steg-för-steg-guider och kodexempel.
-### [Extraktion av ljud och video](./audio-and-video-extraction/)
+### [Ljud- och videoextraktion](./audio-and-video-extraction/)
 Utforska den omfattande Aspose.Slides-handledningen om extrahering av ljud och video i .NET-applikationer. Lär dig hur du programmatiskt extraherar och manipulerar multimediaelement från PowerPoint-presentationer.
 ### [Notes Slide Manipulation](./notes-slide-manipulation/)
 Förbättra dina presentationer med precision! Utforska Aspose.Slides handledning om manipulering av anteckningsbilder i .NET. Lär dig att lägga till, redigera och hantera talaranteckningar programmatiskt.
@@ -51,7 +51,7 @@ Förbättra dina presentationer med avancerad diagramanpassning med Aspose.Slide
 ### [Ytterligare diagramfunktioner](./additional-chart-features/)
 Utforska avancerade diagramfunktioner i Aspose.Slides för .NET! Lär dig att skapa dynamiska, interaktiva diagram med anpassade stilar, trendlinjer och mer. Lyft dina presentationer med kraftfull datavisualisering.
 ### [Utskrift och rendering i diabilder](./printing-and-rendering-in-slides/)
-Förbättra dina färdigheter i att skriva ut och rendera bilder med Aspose.Slides-tutorials för .NET. Lär dig steg för steg-tekniker för högkvalitativ utskrift. Dyk in i rutschbanan nu!
+Förbättra dina färdigheter i att skriva ut och rendera bilder med Aspose.Slides-tutorials för .NET. Lär dig steg för steg-tekniker för högkvalitativ utskrift. Dyk in i rutschkansmanipulation nu!
 ### [Formeffekter och manipulation i diabilder](./shape-effects-and-manipulation-in-slides/)
 Förbättra din presentations visuella tilltalande med Aspose.Slides-handledningar om formeffekter och manipulation. Lär dig hur du skapar fantastiska bilder med hjälp av formeffekter, animationer och mer.
 ### [Bild- och videomanipulation i Slides](./image-and-video-manipulation-in-slides/)

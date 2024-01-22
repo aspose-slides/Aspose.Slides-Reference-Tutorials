@@ -15,7 +15,7 @@ Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass Sie Folgendes 
 - Entwicklungsumgebung: Richten Sie eine funktionierende .NET-Entwicklungsumgebung ein und verfügen Sie über grundlegende Kenntnisse von C#.
 Beginnen wir nun mit dem Tutorial!
 ## Namespaces importieren
-In Ihrem C#-Code müssen Sie die erforderlichen Namespaces importieren, um die Aspose.Slides-Funktionen verwenden zu können. Fügen Sie am Anfang Ihrer Datei die folgenden Zeilen hinzu:
+In Ihrem C#-Code müssen Sie die erforderlichen Namespaces importieren, um die Aspose.Slides-Funktionen nutzen zu können. Fügen Sie am Anfang Ihrer Datei die folgenden Zeilen hinzu:
 ```csharp
 using Aspose.Slides.Export;
 using Aspose.Slides;

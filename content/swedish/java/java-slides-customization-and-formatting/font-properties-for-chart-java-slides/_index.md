@@ -97,7 +97,7 @@ finally
 
 ### Kan jag ändra teckensnittsstilen (fet, kursiv, etc.)?
 
- Ja, du kan ändra teckensnittet. Använda sig av`chart.getTextFormat().getPortionFormat().setFontBold(true);` för att göra teckensnittet fetstilt. På samma sätt kan du använda`setFontItalic(true)` för att göra det kursivt.
+ Ja, du kan ändra teckensnittsstilen. Använda sig av`chart.getTextFormat().getPortionFormat().setFontBold(true);` för att göra teckensnittet fetstilt. På samma sätt kan du använda`setFontItalic(true)` för att göra det kursivt.
 
 ### Hur anpassar jag teckensnittsegenskaper för specifika diagramelement?
 

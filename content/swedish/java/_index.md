@@ -30,7 +30,7 @@ När du har bemästrat grunderna är det dags att utforska de avancerade funktio
 
 ## Gå med i Aspose Community
 
-När du dyker djupare in i Aspose.Slides för Javas värld kan du stöta på frågor eller stöta på utmaningar. Oroa dig inte; du är inte ensam. De[Aspose community forum](https://forum.aspose.com/) är ett nav för utvecklare som du för att söka hjälp, dela erfarenheter och samarbeta i projekt.
+När du dyker djupare in i Aspose.Slides för Javas värld kan du stöta på frågor eller stöta på utmaningar. Oroa dig inte; du är inte ensam. De[Aspose gemenskapsforum](https://forum.aspose.com/) är ett nav för utvecklare som du för att söka hjälp, dela erfarenheter och samarbeta i projekt.
 
 Sammanfattningsvis är Aspose.Slides för Java en spelväxlare för utvecklare som vill skapa dynamiska och engagerande presentationer i Java-applikationer. Våra tutorials kommer att vara dina pålitliga följeslagare på denna spännande resa, och hjälpa dig att låsa upp den fulla potentialen hos detta anmärkningsvärda API. Så vad väntar du på? Dyk in i handledningarna och låt din kreativitet lysa med Aspose.Slides för Java!
 
@@ -47,7 +47,7 @@ Lär dig Java Slides-animering och layout med Aspose.Slides för Java. Bemästra
 Lär dig hur du skapar dynamiska diagram i Java-bilder med Aspose.Slides för Java med våra omfattande handledningar. Lyft dina presentationsfärdigheter idag!
 ### [Skapa Java Slides Chart](./chart-creation/)
 Lär dig hur du skapar dynamiska Java-bilder med diagram med Aspose.Slides för Java. Våra omfattande tutorials guidar dig genom processen steg för steg.
-### [Java Slides presentationskonvertering](./presentation-conversion/)
+### [Java Slides Presentation Konvertering](./presentation-conversion/)
 Lär dig hur du enkelt konverterar Java-presentationer med Aspose.Slides för Java. Omfattande tutorials och steg-för-steg-guider väntar på dig.
 ### [Java Slides Data Manipulation](./data-manipulation/)
 Förbättra dina Java Slides datamanipuleringsfärdigheter med Aspose.Slides för Java tutorials. Lär dig steg för steg hur du skapar, redigerar och transformerar presentationer effektivt.

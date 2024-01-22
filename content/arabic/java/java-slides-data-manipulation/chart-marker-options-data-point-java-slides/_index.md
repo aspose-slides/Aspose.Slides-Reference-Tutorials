@@ -27,7 +27,7 @@ url: /ar/java/data-manipulation/chart-marker-options-data-point-java-slides/
 
 ## الخطوة 2: تحميل العرض التقديمي
 
-للبدء، قم بتحميل نموذج مستند العرض التقديمي الخاص بك. في التعليمات البرمجية المتوفرة، نفترض أن المستند يسمى "Test.pptx".
+للبدء، قم بتحميل نموذج مستند العرض التقديمي الخاص بك. في التعليمات البرمجية المتوفرة، نفترض أن المستند يسمى "Test.pptx."
 
 ```java
 String dataDir = "Your Document Directory";

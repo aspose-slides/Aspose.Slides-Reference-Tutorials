@@ -18,7 +18,7 @@ Antes de sumergirnos en el proceso de conversión, asegúrese de cumplir con los
 
 1. Entorno de desarrollo de Java: asegúrese de tener Java instalado en su sistema.
 2. Aspose.Slides para Java: descargue y configure la biblioteca Aspose.Slides para Java.
-3. Una presentación: necesitará una presentación de PowerPoint que desee convertir a HTML.
+3. Una presentación: necesitarás una presentación de PowerPoint que quieras convertir a HTML.
 
 Ahora que tenemos nuestros requisitos previos listos, comencemos el proceso de conversión.
 

@@ -97,4 +97,4 @@ Bu eğitimde Aspose.Slides for .NET ile grup şekilleri oluşturma sürecini inc
 ### Aspose.Slides için geçici lisansı nasıl edinebilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides'ın tam lisansını nereden satın alabilirim?
- Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+ adresinden lisans satın alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).

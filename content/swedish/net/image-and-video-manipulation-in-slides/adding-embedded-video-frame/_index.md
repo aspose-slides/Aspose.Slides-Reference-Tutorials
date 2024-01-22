@@ -31,7 +31,7 @@ bool IsExists = Directory.Exists(dataDir);
 if (!IsExists)
     Directory.CreateDirectory(dataDir);
 ```
-## Steg 2: Instant presentationsklass
+## Steg 2: Instantera presentationsklass
 Skapa en instans av klassen Presentation för att representera PPTX-filen:
 ```csharp
 using (Presentation pres = new Presentation())

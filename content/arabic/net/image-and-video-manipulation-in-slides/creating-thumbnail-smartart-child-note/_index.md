@@ -22,7 +22,7 @@ using System.Drawing.Imaging;
 using Aspose.Slides.SmartArt;
 using Aspose.Slides;
 ```
-## الخطوة 1: إنشاء فئة العرض التقديمي
+## الخطوة 1: إنشاء مثيل لفئة العرض التقديمي
  ابدأ بإنشاء مثيل لـ`Presentation` class، يمثل ملف PPTX الذي ستعمل معه.
 ```csharp
 string dataDir = "Your Documents Directory";

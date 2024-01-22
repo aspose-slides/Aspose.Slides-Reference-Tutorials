@@ -76,7 +76,7 @@ Ja, Aspose.Slides är utformad för att fungera sömlöst med de senaste .NET fr
 ### Kan jag extrahera data från flera OLE-objekt i en enda presentation?
 Absolut! Den medföljande koden är utformad för att hantera flera OLE-objekt i presentationen.
 ### Var kan jag hitta fler handledningar och exempel för Aspose.Slides?
- Utforska Aspose.Slides-dokumentationen[här](https://reference.aspose.com/slides/net/) för en mängd tutorials och exempel.
+ Utforska Aspose.Slides-dokumentationen[här](https://reference.aspose.com/slides/net/) för en mängd handledningar och exempel.
 ### Finns det en gratis testversion tillgänglig för Aspose.Slides?
  Ja, du kan få en gratis testversion[här](https://releases.aspose.com/).
 ### Hur kan jag få support för Aspose.Slides-relaterade frågor?

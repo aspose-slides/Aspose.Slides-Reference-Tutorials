@@ -32,7 +32,7 @@ using Aspose.Slides.MathText;
 ## Schritt 1: Richten Sie das Projekt ein
 Erstellen Sie zunächst ein neues .NET-Projekt oder öffnen Sie ein vorhandenes. Stellen Sie sicher, dass Sie Aspose.Slides in Ihre Projektreferenzen aufnehmen.
 ## Schritt 2: Aspose.Slides initialisieren
-Initialisieren Sie Aspose.Slides, indem Sie den folgenden Codeausschnitt hinzufügen. Dadurch wird die Präsentation eingerichtet und die Ausgabepfade für die Präsentationsdatei und das Miniaturbild festgelegt.
+Initialisieren Sie Aspose.Slides, indem Sie den folgenden Codeausschnitt hinzufügen. Dadurch wird die Präsentation eingerichtet und die Ausgabepfade für die Präsentationsdatei und das Miniaturbild angegeben.
 ```csharp
 string dataDir = "Your Document Directory";
 string outPptxFile = Path.Combine(dataDir, "SketchedShapes_out.pptx");

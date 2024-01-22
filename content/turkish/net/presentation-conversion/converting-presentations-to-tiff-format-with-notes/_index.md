@@ -2,7 +2,7 @@
 title: Sunumları Notlarla TIFF Formatına Dönüştürme
 linktitle: Sunumları Notlarla TIFF Formatına Dönüştürme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını konuşmacı notlarıyla birlikte TIFF formatına dönüştürün. Yüksek kaliteli, verimli dönüştürme.
+description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını konuşmacı notlarıyla birlikte TIFF formatına dönüştürün. Yüksek kaliteli, verimli dönüşüm.
 type: docs
 weight: 10
 url: /tr/net/presentation-conversion/converting-presentations-to-tiff-format-with-notes/
@@ -47,7 +47,7 @@ pres.Save(destFileName, SaveFormat.TiffNotes);
 
 ## Dönüştürülen Dosyayı Kaydetme
 
-Notları içeren dönüştürülmüş TIFF dosyası, belirtilen çıktı dizinine kaydedilecektir. Artık buna erişebilir ve gerektiğinde kullanabilirsiniz.
+Notları içeren dönüştürülmüş TIFF dosyası, belirtilen çıktı dizinine kaydedilecektir. Artık ona erişebilir ve gerektiğinde kullanabilirsiniz.
 
 ## Çözüm
 

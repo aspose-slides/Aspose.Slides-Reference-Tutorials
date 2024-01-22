@@ -12,7 +12,7 @@ En el mundo actual impulsado por los datos, la visualización eficaz de los dato
 
 ## Requisitos previos
 
-Antes de sumergirnos en la creación de hermosos gráficos con Aspose.Slides para .NET, deberá asegurarse de cumplir con los siguientes requisitos previos:
+Antes de sumergirnos en la creación de gráficos hermosos con Aspose.Slides para .NET, deberá asegurarse de cumplir con los siguientes requisitos previos:
 
 1.  Aspose.Slides para .NET: asegúrese de tener instalada la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/slides/net/).
 
@@ -130,7 +130,7 @@ chart.Axes.VerticalAxis.MajorUnit = 2.0f;
 Ahora personalizaremos la apariencia del texto en el eje vertical.
 
 ```csharp
-// Configuración de las propiedades del texto del eje de valores
+// Configuración de las propiedades del texto del eje de valor
 IChartPortionFormat txtVal = chart.Axes.VerticalAxis.TextFormat.PortionFormat;
 txtVal.FontBold = NullableBool.True;
 txtVal.FontHeight = 16;

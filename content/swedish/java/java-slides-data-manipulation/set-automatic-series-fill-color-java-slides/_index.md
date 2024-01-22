@@ -52,7 +52,7 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartTy
 
 Den här koden skapar ett klustrade kolumndiagram på den första bilden av presentationen.
 
-## Steg 5: Ställ in automatisk seriefyllningsfärg
+## Steg 5: Ställa in automatisk seriefyllningsfärg
 
 Nu kommer nyckeldelen – inställning av automatisk seriefyllningsfärg. Vi går igenom diagrammets serier och ställer in deras fyllningsformat till automatiskt:
 

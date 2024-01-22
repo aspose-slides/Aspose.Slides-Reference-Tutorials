@@ -24,7 +24,7 @@ In diesem Tutorial führen wir Sie durch den Prozess der Erstellung von Folienmi
 - Vorschau des Inhalts: Folienminiaturansichten bieten Benutzern einen ersten Blick auf den Inhalt der Folie und erleichtern so die Inhaltserkennung.
 - Benutzerfreundliche Schnittstellen: Präsentationsanwendungen mit Miniaturvorschauen bieten ein intuitiveres und benutzerfreundlicheres Erlebnis.
 
-Bleiben Sie auf dem Laufenden, während wir uns Schritt für Schritt mit Codebeispielen befassen, um Ihnen dabei zu helfen, die Erstellung von Folienminiaturansichten nahtlos in Ihre .NET-Anwendungen zu integrieren. Unabhängig davon, ob Sie E-Learning-Plattformen, Business-Präsentationstools oder eine andere Anwendung mit folienbasierten Inhalten entwickeln, ist dieses Tutorial Ihr Einstieg zur Verbesserung der Funktionalität und der Benutzereinbindung.
+Bleiben Sie auf dem Laufenden, während wir uns Schritt für Schritt mit Codebeispielen befassen, um Ihnen dabei zu helfen, die Erstellung von Folienminiaturansichten nahtlos in Ihre .NET-Anwendungen zu integrieren. Unabhängig davon, ob Sie E-Learning-Plattformen, Business-Präsentationstools oder eine andere Anwendung mit folienbasierten Inhalten entwickeln, ist dieses Tutorial Ihr Einstieg in die Verbesserung der Funktionalität und des Benutzerengagements.
 
 Beginnen Sie Ihre Reise in die Welt der Erstellung von Folien-Miniaturansichten mit Aspose.Slides und heben Sie Ihre Präsentationsanwendungen auf ein neues Niveau an Raffinesse und Komfort. Lass uns anfangen!
 

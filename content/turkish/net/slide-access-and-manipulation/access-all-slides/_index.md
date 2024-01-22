@@ -69,7 +69,7 @@ Color background = firstSlide.Background.Type == BackgroundType.Solid
     : Color.Transparent;
 ```
 
-## Kaynak Kodu Çözüm Yolu
+## Kaynak Kodu Çözümü
 
 Bir sunumdaki tüm slaytları almak için kaynak kodunun tamamını gözden geçirelim:
 

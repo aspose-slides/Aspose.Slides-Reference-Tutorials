@@ -18,7 +18,7 @@ I Aspose.Slides för .NET kan du programmässigt länka en video till en present
 ## Steg 1: Skapa ett nytt projekt
 Skapa ett nytt projekt i din föredragna .NET-utvecklingsmiljö (t.ex. Visual Studio) och lägg till referenser till Aspose.Slides för .NET-biblioteket.
 
-## Steg 2: Importera nödvändiga namnutrymmen
+## Steg 2: Importera nödvändiga namnområden
 ditt projekt, importera de nödvändiga namnrymden för att arbeta med Aspose.Slides:
 
 ```csharp

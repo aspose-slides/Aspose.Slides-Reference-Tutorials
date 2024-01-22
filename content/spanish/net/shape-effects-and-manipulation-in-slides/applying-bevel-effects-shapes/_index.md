@@ -1,5 +1,5 @@
 ---
-tiitle: Dominar los efectos de bisel en Aspose.Slides tutorial paso a paso
+title: Dominar los efectos de bisel en Aspose.Slides tutorial paso a paso
 linktitle: Aplicar efectos de bisel a formas en diapositivas de presentación usando Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: ¡Mejore las diapositivas de su presentación con Aspose.Slides para .NET! Aprenda a aplicar cautivadores efectos de bisel en esta guía paso a paso.

@@ -51,7 +51,7 @@ Hier erfahren Sie, was jede Codezeile bewirkt:
 
 - `get_Item(1)` ruft den zweiten Legendeneintrag (Index 1) ab. Sie können den Index ändern, um auf einen anderen Legendeneintrag abzuzielen.
 - `setFontBold(NullableBool.True)` Setzt die Schriftart auf Fett.
-- `setFontHeight(20)` Setzt die Schriftgröße auf 20 Punkt.
+- `setFontHeight(20)` Setzt die Schriftgröße auf 20 Punkte.
 - `setFontItalic(NullableBool.True)` setzt die Schriftart auf kursiv.
 - `setFillType(FillType.Solid)` Gibt an, dass der Text des Legendeneintrags eine durchgehende Füllung haben soll.
 - `getSolidFillColor().setColor(Color.BLUE)` Setzt die Füllfarbe auf Blau. Sie können ersetzen`Color.BLUE` mit Ihrer Wunschfarbe.

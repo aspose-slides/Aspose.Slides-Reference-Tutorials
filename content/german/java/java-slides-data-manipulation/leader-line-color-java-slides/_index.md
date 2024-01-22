@@ -85,7 +85,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## Abschluss
 
-In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java die Farbe der Führungslinie in einem PowerPoint-Diagramm ändert. Sie können die Farbe und andere Formatierungsoptionen an Ihre spezifischen Anforderungen anpassen. Dies kann besonders nützlich sein, wenn Sie bestimmte Datenpunkte in Ihren Diagrammen zur besseren Visualisierung hervorheben möchten.
+In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java die Farbe der Führungslinie in einem PowerPoint-Diagramm ändert. Sie können die Farbe und andere Formatierungsoptionen an Ihre spezifischen Bedürfnisse anpassen. Dies kann besonders nützlich sein, wenn Sie bestimmte Datenpunkte in Ihren Diagrammen zur besseren Visualisierung hervorheben möchten.
 
 ## FAQs
 

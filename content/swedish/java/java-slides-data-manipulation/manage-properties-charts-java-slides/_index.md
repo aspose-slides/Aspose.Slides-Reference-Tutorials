@@ -158,7 +158,7 @@ chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
-// Ta den andra diagramserien
+// Ta andra diagramserien
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
 // Fyller nu på seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));

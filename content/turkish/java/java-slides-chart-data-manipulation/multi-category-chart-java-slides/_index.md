@@ -10,7 +10,7 @@ url: /tr/java/chart-data-manipulation/multi-category-chart-java-slides/
 
 ## Aspose.Slides ile Java Slaytlarında Çok Kategorili Grafiğe Giriş
 
-Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java slaytlarında çok kategorili bir grafiğin nasıl oluşturulacağını öğreneceğiz. Bu kılavuz, birden çok kategori ve seriden oluşan kümelenmiş bir sütun grafiği oluşturmanıza yardımcı olacak kaynak koduyla birlikte adım adım talimatlar sağlayacaktır.
+Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java slaytlarında çok kategorili bir grafiğin nasıl oluşturulacağını öğreneceğiz. Bu kılavuz, birden fazla kategori ve seriden oluşan kümelenmiş bir sütun grafiği oluşturmanıza yardımcı olacak kaynak koduyla birlikte adım adım talimatlar sağlayacaktır.
 
 ## Önkoşullar
 Başlamadan önce, Java geliştirme ortamınızda Aspose.Slides for Java kütüphanesinin kurulu olduğundan ve kurulduğundan emin olun.

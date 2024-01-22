@@ -8,7 +8,7 @@ weight: 11
 url: /zh/net/slide-background-manipulation/get-background-effective-values/
 ---
 
-在动态且引人入胜的演示文稿世界中，Aspose.Slides for .NET 是一款功能强大的工具，使开发人员和专业人员能够操纵和控制 PowerPoint 文件的各个方面。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 获取幻灯片的有效背景值的过程。当您需要使用演示文稿的背景设计和配色方案来创建视觉上令人惊叹的幻灯片时，此技能特别有用。 
+在动态且引人入胜的演示文稿世界中，Aspose.Slides for .NET 是一款强大的工具，使开发人员和专业人员能够操纵和控制 PowerPoint 文件的各个方面。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 获取幻灯片的有效背景值的过程。当您需要使用演示文稿的背景设计和配色方案来创建视觉上令人惊叹的幻灯片时，此技能特别有用。 
 
 ## 先决条件
 

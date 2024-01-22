@@ -1,5 +1,5 @@
 ---
-tiitle: Migliora le presentazioni formatta forme rettangolari con Aspose.Slides
+title: Migliora le presentazioni formatta forme rettangolari con Aspose.Slides
 linktitle: Formattazione della forma rettangolare nelle diapositive della presentazione utilizzando Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Impara a formattare forme rettangolari nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Migliora le tue diapositive con elementi visivi dinamici.

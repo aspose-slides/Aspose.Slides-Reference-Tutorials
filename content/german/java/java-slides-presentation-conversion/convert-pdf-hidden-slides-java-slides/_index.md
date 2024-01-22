@@ -10,7 +10,7 @@ url: /de/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 
 ## Einführung in die Konvertierung einer PowerPoint-Präsentation in PDF mit versteckten Folien mithilfe von Aspose.Slides für Java
 
-In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Slides für Java eine PowerPoint-Präsentation in PDF konvertieren und dabei ausgeblendete Folien beibehalten. Versteckte Folien sind solche, die während einer regulären Präsentation nicht angezeigt werden, aber in die PDF-Ausgabe eingefügt werden können. Wir stellen Ihnen den Quellcode und detaillierte Anweisungen zur Durchführung dieser Aufgabe zur Verfügung.
+In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Slides für Java eine PowerPoint-Präsentation in PDF konvertieren und dabei versteckte Folien beibehalten. Versteckte Folien sind solche, die während einer regulären Präsentation nicht angezeigt werden, aber in die PDF-Ausgabe eingefügt werden können. Wir stellen Ihnen den Quellcode und detaillierte Anweisungen zur Durchführung dieser Aufgabe zur Verfügung.
 
 ## Voraussetzungen
 

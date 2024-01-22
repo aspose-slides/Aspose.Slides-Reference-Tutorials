@@ -2,7 +2,7 @@
 title: ضبط أرقام الشرائح للعروض التقديمية باستخدام Aspose.Slides
 linktitle: ضبط أرقام الشرائح للعروض التقديمية باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: استكشف العالم السلس لمعالجة الشرائح باستخدام Aspose.Slides for .NET. تعرف على كيفية تعيين أرقام الشرائح دون عناء، مما يعزز تجربة العرض التقديمي الخاص بك.
+description: استكشف العالم السلس لمعالجة الشرائح باستخدام Aspose.Slides for .NET. تعرف على كيفية تعيين أرقام الشرائح بسهولة، مما يعزز تجربة العرض التقديمي الخاص بك.
 type: docs
 weight: 16
 url: /ar/net/printing-and-rendering-in-slides/setting-slide-numbers/

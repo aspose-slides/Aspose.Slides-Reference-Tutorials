@@ -1,6 +1,6 @@
 ---
-title: Ljud- och videoextraktion
-linktitle: Ljud- och videoextraktion
+title: Extraktion av ljud och video
+linktitle: Extraktion av ljud och video
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Utforska den omfattande Aspose.Slides-handledningen om extrahering av ljud och video i .NET-applikationer. Lär dig hur du programmatiskt extraherar och manipulerar multimediaelement från PowerPoint-presentationer.
 type: docs

@@ -247,7 +247,7 @@ Bu adımda kategori ekseni için bir başlık belirleyebilirsiniz.
 Göstergeler, grafiğin arka duvarı, zemin ve çizim alanı renkleri gibi diğer özelleştirmeleri keşfedebilirsiniz. Bu özelleştirmeler grafiğinizin görsel çekiciliğini artırmanıza olanak tanır.
 
 ```csharp
-// Ek Özelleştirmeler (İsteğe Bağlı)
+// Ek Özelleştirmeler (İsteğe bağlı)
 
 // Efsane Metin Özelliklerini Ayarlama
 IChartPortionFormat txtleg = chart.Legend.TextFormat.PortionFormat;

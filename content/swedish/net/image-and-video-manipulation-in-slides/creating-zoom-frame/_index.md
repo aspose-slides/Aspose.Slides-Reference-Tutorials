@@ -63,7 +63,7 @@ autoshape.TextFrame.Text = "Second Slide";
 ## Steg 5: Inkorporera ZoomFrames
 Det här steget introducerar den spännande delen – att lägga till ZoomFrames. Dessa ramar skapar dynamiska effekter, som förhandsvisningar av diabilder och anpassade bilder.
 ```csharp
-// Lägg till ZoomFrame-objekt med förhandsgranskning av bilden
+// Lägg till ZoomFrame-objekt med förhandsgranskning
 var zoomFrame1 = pres.Slides[0].Shapes.AddZoomFrame(20, 20, 250, 200, slide2);
 // Lägg till ZoomFrame-objekt med en anpassad bild
 IPPImage image = pres.Images.AddImage(Image.FromFile(imagePath));

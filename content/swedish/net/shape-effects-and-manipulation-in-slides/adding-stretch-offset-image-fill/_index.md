@@ -53,7 +53,7 @@ IPPImage imgx = pres.Images.AddImage(img);
 sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);
 ```
 ## Steg 6: Spara presentationen
-Spara den ändrade presentationen på disken.
+Spara den ändrade presentationen på disk.
 ```csharp
 pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
 ```

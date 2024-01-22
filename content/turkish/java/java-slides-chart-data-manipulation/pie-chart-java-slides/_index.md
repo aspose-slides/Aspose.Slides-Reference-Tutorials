@@ -10,7 +10,7 @@ url: /tr/java/chart-data-manipulation/pie-chart-java-slides/
 
 ## Aspose.Slides Kullanarak Java Slaytlarında Pasta Grafiği Oluşturmaya Giriş
 
-Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumunda Pasta Grafiğinin nasıl oluşturulacağını göstereceğiz. Başlamanıza yardımcı olmak için size adım adım talimatlar ve Java kaynak kodu sağlayacağız. Bu kılavuz, Aspose.Slides for Java ile geliştirme ortamınızı zaten kurduğunuzu varsayar.
+Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumunda Pasta Grafiğinin nasıl oluşturulacağını göstereceğiz. Başlamanıza yardımcı olmak için size adım adım talimatlar ve Java kaynak kodu sağlayacağız. Bu kılavuz, Aspose.Slides for Java ile geliştirme ortamınızı zaten kurduğunuzu varsaymaktadır.
 
 ## Önkoşullar
 

@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen eines Streckungsversatzes für die Bildfüllung in PowerPoint-Präsentationen
+title: Hinzufügen eines Dehnungsversatzes für die Bildfüllung in PowerPoint-Präsentationen
 linktitle: Hinzufügen eines Dehnungsversatzes für die Bildfüllung in Folien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET verbessern. Befolgen Sie eine Schritt-für-Schritt-Anleitung, um einen Dehnungsversatz für die Bildfüllung hinzuzufügen.

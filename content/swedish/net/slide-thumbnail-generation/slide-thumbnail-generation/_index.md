@@ -53,7 +53,7 @@ Låt oss nu dela upp processen för att generera miniatyrbilder i flera steg:
 string dataDir = "Your Document Directory";
 ```
 
-## Steg 3: Skapa en presentationsklass
+## Steg 3: Instantiera en presentationsklass
 
  I det här steget skapar du en instans av`Presentation` klass för att representera din presentationsfil.
 

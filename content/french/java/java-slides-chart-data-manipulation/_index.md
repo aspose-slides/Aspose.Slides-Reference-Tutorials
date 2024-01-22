@@ -53,4 +53,4 @@ Créez des graphiques normaux dans des diapositives Java avec Aspose.Slides pour
 ### [Organigramme dans les diapositives Java](./organization-chart-java-slides/)
 Apprenez à créer de superbes organigrammes dans Java Slides avec les didacticiels Aspose.Slides étape par étape. Personnalisez et visualisez votre structure organisationnelle sans effort.
 ### [Graphique circulaire dans les diapositives Java](./pie-chart-java-slides/)
-Apprenez à créer de superbes diagrammes circulaires dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec le code source pour les développeurs Java.
+Apprenez à créer de superbes diagrammes circulaires dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour les développeurs Java.

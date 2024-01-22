@@ -93,7 +93,7 @@ Tebrikler! Aspose.Slides for Java'yı kullanarak Java Slides'ta grafik serisi ç
 
 ### Aspose.Slides for Java'da grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü değiştirmek için kullanabilirsiniz.`ChartType` Grafik eklerken numaralandırma. Basitçe değiştirin`ChartType.ClusteredColumn` istenilen grafik türüyle, örneğin`ChartType.Line` veya`ChartType.Pie`.
+ Grafik türünü değiştirmek için kullanabilirsiniz.`ChartType` Grafik eklerken numaralandırma. Basitçe değiştirin`ChartType.ClusteredColumn` İstenilen grafik türüyle, örneğin`ChartType.Line` veya`ChartType.Pie`.
 
 ### Başka hangi grafik özelleştirme seçenekleri mevcut?
 

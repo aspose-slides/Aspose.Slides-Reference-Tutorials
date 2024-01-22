@@ -79,7 +79,7 @@ try {
 
 ## Conclusión
 
-En este tutorial, hemos aprendido cómo convertir una presentación de PowerPoint a un archivo PDF compatible con PDF/A-2a utilizando Aspose.Slides para Java. Este nivel de cumplimiento garantiza que el PDF resultante sea adecuado para el archivado y la accesibilidad a largo plazo. Ahora puede integrar este código en sus aplicaciones Java para una conversión perfecta de PowerPoint a PDF conforme a las normas.
+En este tutorial, hemos aprendido cómo convertir una presentación de PowerPoint a un archivo PDF compatible con PDF/A-2a usando Aspose.Slides para Java. Este nivel de cumplimiento garantiza que el PDF resultante sea adecuado para el archivado y la accesibilidad a largo plazo. Ahora puede integrar este código en sus aplicaciones Java para una conversión perfecta de PowerPoint a PDF conforme a las normas.
 
 ## Preguntas frecuentes
 

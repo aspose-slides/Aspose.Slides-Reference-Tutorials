@@ -55,7 +55,7 @@ notesOptions.NotesPosition = NotesPositions.BottomTruncated;
 renderOptions.SlidesLayoutOptions = notesOptions;
 ```
 ## Paso 6: renderizar en gráficos
-Renderice la primera diapositiva con comentarios en el objeto gráfico especificado:
+Renderice la primera diapositiva con comentarios al objeto gráfico especificado:
 ```csharp
 using (Graphics graphics = Graphics.FromImage(bmp))
 {

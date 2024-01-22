@@ -8,7 +8,7 @@ weight: 11
 url: /zh/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
 
-## Aspose.Slides for Java 中图表数据单元格公式简介
+## Aspose.Slides for Java 中的图表数据单元格公式简介
 
 在本教程中，我们将探索如何使用 Aspose.Slides for Java 处理图表数据单元格公式。使用Aspose.Slides，您可以在PowerPoint演示文稿中创建和操作图表，包括设置数据单元格的公式。
 

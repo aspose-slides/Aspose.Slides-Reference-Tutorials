@@ -1,0 +1,90 @@
+---
+title: Aspose.Slides के साथ प्रेजेंटेशन में OLE ऑब्जेक्ट डेटा बदलना
+linktitle: Aspose.Slides के साथ प्रेजेंटेशन में OLE ऑब्जेक्ट डेटा बदलना
+second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग एपीआई
+description: OLE ऑब्जेक्ट डेटा को सहजता से बदलने में .NET के लिए Aspose.Slides की शक्ति का अन्वेषण करें। गतिशील सामग्री के साथ अपनी प्रस्तुतियों को बेहतर बनाएं।
+type: docs
+weight: 25
+url: /hi/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
+---
+## परिचय
+आज की डिजिटल दुनिया में गतिशील और इंटरैक्टिव पावरपॉइंट प्रेजेंटेशन बनाना एक आम आवश्यकता है। इसे प्राप्त करने के लिए एक शक्तिशाली उपकरण .NET के लिए Aspose.Slides है, एक मजबूत लाइब्रेरी जो डेवलपर्स को PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से हेरफेर करने और बढ़ाने की अनुमति देती है। इस ट्यूटोरियल में, हम Aspose.Slides का उपयोग करके प्रस्तुति स्लाइड के भीतर OLE (ऑब्जेक्ट लिंकिंग और एंबेडिंग) ऑब्जेक्ट डेटा को बदलने की प्रक्रिया के बारे में विस्तार से जानेंगे।
+## आवश्यक शर्तें
+इससे पहले कि आप .NET के लिए Aspose.Slides के साथ काम करना शुरू करें, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
+1. विकास परिवेश: .NET स्थापित करके एक विकास परिवेश स्थापित करें।
+2.  Aspose.Slides लाइब्रेरी: .NET लाइब्रेरी के लिए Aspose.Slides को डाउनलोड और इंस्टॉल करें। आप पुस्तकालय पा सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+3. बुनियादी समझ: C# प्रोग्रामिंग और पावरपॉइंट प्रेजेंटेशन की बुनियादी अवधारणाओं से खुद को परिचित करें।
+## नामस्थान आयात करें
+अपने C# प्रोजेक्ट में, Aspose.Slides कार्यात्मकताओं का उपयोग करने के लिए आवश्यक नामस्थान आयात करें:
+```csharp
+using System.IO;
+using Aspose.Cells;
+using Aspose.Slides;
+using Aspose.Slides.DOM.Ole;
+using SaveFormat = Aspose.Slides.Export.SaveFormat;
+```
+## चरण 1: अपना प्रोजेक्ट सेट करें
+एक नया C# प्रोजेक्ट बनाकर और Aspose.Slides लाइब्रेरी आयात करके शुरुआत करें। सुनिश्चित करें कि आपका प्रोजेक्ट सही ढंग से कॉन्फ़िगर किया गया है, और आपके पास आवश्यक निर्भरताएँ मौजूद हैं।
+## चरण 2: प्रस्तुति और स्लाइड तक पहुंचें
+```csharp
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "ChangeOLEObjectData.pptx"))
+{
+    ISlide slide = pres.Slides[0];
+```
+## चरण 3: OLE ऑब्जेक्ट का पता लगाएँ
+OLE ऑब्जेक्ट फ़्रेम ढूंढने के लिए स्लाइड में सभी आकृतियों को पार करें:
+```csharp
+OleObjectFrame ole = null;
+foreach (IShape shape in slide.Shapes)
+{
+    if (shape is OleObjectFrame)
+    {
+        ole = (OleObjectFrame)shape;
+    }
+}
+```
+## चरण 4: कार्यपुस्तिका डेटा पढ़ें और संशोधित करें
+```csharp
+if (ole != null)
+{
+    using (MemoryStream msln = new MemoryStream(ole.EmbeddedData.EmbeddedFileData))
+    {
+        // वर्कबुक में ऑब्जेक्ट डेटा पढ़ना
+        Workbook Wb = new Workbook(msln);
+        using (MemoryStream msout = new MemoryStream())
+        {
+            // कार्यपुस्तिका डेटा को संशोधित करना
+            Wb.Worksheets[0].Cells[0, 4].PutValue("E");
+            Wb.Worksheets[0].Cells[1, 4].PutValue(12);
+            Wb.Worksheets[0].Cells[2, 4].PutValue(14);
+            Wb.Worksheets[0].Cells[3, 4].PutValue(15);
+            OoxmlSaveOptions so1 = new OoxmlSaveOptions(Aspose.Cells.SaveFormat.Xlsx);
+            Wb.Save(msout, so1);
+            // ओले फ़्रेम ऑब्जेक्ट डेटा बदलना
+            IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(msout.ToArray(), ole.EmbeddedData.EmbeddedFileExtension);
+            ole.SetEmbeddedData(newData);
+        }
+    }
+}
+```
+## चरण 5: प्रस्तुति सहेजें
+```csharp
+pres.Save(dataDir + "OleEdit_out.pptx", SaveFormat.Pptx);
+```
+## निष्कर्ष
+इन चरणों का पालन करके, आप .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुति स्लाइड के भीतर OLE ऑब्जेक्ट डेटा को सहजता से बदल सकते हैं। यह आपकी विशिष्ट आवश्यकताओं के अनुरूप गतिशील और अनुकूलित प्रस्तुतियाँ बनाने की संभावनाओं की दुनिया खोलता है।
+## अक्सर पूछे जाने वाले प्रश्नों
+### .NET के लिए Aspose.Slides क्या है?
+.NET के लिए Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को PowerPoint प्रस्तुतियों के साथ प्रोग्रामेटिक रूप से काम करने में सक्षम बनाती है, जिससे आसान हेरफेर और संवर्द्धन की अनुमति मिलती है।
+### मुझे Aspose.Slides दस्तावेज़ कहां मिल सकता है?
+ .NET के लिए Aspose.Slides का दस्तावेज़ पाया जा सकता है[यहाँ](https://reference.aspose.com/slides/net/).
+### मैं .NET के लिए Aspose.Slides कैसे डाउनलोड करूं?
+ आप लाइब्रेरी को रिलीज़ पेज से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+ हाँ, आप नि:शुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+### मुझे .NET के लिए Aspose.Slides के लिए समर्थन कहां मिल सकता है?
+ समर्थन और चर्चा के लिए, पर जाएँ[Aspose.स्लाइड्स फोरम](https://forum.aspose.com/c/slides/11).

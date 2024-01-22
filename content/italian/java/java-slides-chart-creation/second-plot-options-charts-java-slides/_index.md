@@ -84,7 +84,7 @@ In questo tutorial, abbiamo imparato come aggiungere opzioni di secondo grafico 
 
 ### Come posso modificare la dimensione della seconda torta in un grafico a torta?
 
- Per modificare la dimensione della seconda torta in un grafico a torta, utilizzare il comando`setSecondPieSize` metodo come mostrato nell'esempio di codice sopra. Regola il valore per specificare la dimensione in percentuale.
+ Per modificare la dimensione della seconda torta in un grafico a torta, utilizzare il comando`setSecondPieSize` metodo come mostrato nell'esempio di codice precedente. Regola il valore per specificare la dimensione in percentuale.
 
 ###  Cosa fa`PieSplitBy` control in a Pie of Pie chart?
 

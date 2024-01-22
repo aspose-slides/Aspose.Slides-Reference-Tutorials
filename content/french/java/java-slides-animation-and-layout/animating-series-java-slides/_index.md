@@ -10,7 +10,7 @@ url: /fr/java/animation-and-layout/animating-series-java-slides/
 
 ## Introduction à l'animation de séries dans Aspose.Slides pour Java
 
-Dans ce guide, nous vous guiderons à travers le processus d'animation de séries dans des diapositives Java à l'aide de l'API Aspose.Slides pour Java. Cette bibliothèque vous permet de travailler avec des présentations PowerPoint par programme.
+Dans ce guide, nous vous guiderons à travers le processus d'animation de séries dans des diapositives Java à l'aide de l'API Aspose.Slides pour Java. Cette bibliothèque vous permet de travailler avec des présentations PowerPoint par programmation.
 
 ## Conditions préalables
 

@@ -95,7 +95,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 Ja, du kan anpassa PDF-exporten genom att justera olika alternativ i`PdfOptions` objekt. Du kan till exempel ställa in kvalitet, komprimering och andra parametrar efter dina behov.
 
-### Hur får jag Aspose.Slides för Java?
+### Hur kan jag skaffa Aspose.Slides för Java?
 
  Du kan ladda ner Aspose.Slides för Java från webbplatsen på[här](https://releases.aspose.com/slides/java/).
 

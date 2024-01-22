@@ -12,7 +12,7 @@ Möchten Sie Ihre Präsentationen mit auffälligen SVG-Formen aufwerten? Aspose.
 
 ## Einführung
 
-Im heutigen digitalen Zeitalter spielen Präsentationen eine entscheidende Rolle bei der effektiven Informationsvermittlung. Durch die Einbindung von SVG-Formen (Scalable Vector Graphics) können Sie Ihre Präsentationen ansprechender und optisch ansprechender gestalten. Mit Aspose.Slides für .NET können Sie SVG-Formen mühelos formatieren, um Ihre spezifischen Designanforderungen zu erfüllen.
+Im heutigen digitalen Zeitalter spielen Präsentationen eine entscheidende Rolle bei der effektiven Informationsvermittlung. Durch die Einbindung skalierbarer Vektorgrafiken (SVG) können Ihre Präsentationen ansprechender und optisch beeindruckender werden. Mit Aspose.Slides für .NET können Sie SVG-Formen mühelos formatieren, um Ihre spezifischen Designanforderungen zu erfüllen.
 
 ## Voraussetzungen
 

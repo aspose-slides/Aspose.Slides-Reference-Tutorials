@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 
 ## Passaggio 4: aggiunta di un grafico alla presentazione
 
-Successivamente, aggiungiamo un istogramma in cluster alla presentazione. Utilizzeremo il seguente codice per ottenere questo risultato:
+Successivamente, aggiungiamo un istogramma in cluster alla presentazione. Utilizzeremo il seguente codice per ottenere ciò:
 
 ```java
 // Creazione di un istogramma a colonne raggruppate

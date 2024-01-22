@@ -35,7 +35,7 @@ Récupérez la première diapositive de la présentation :
 ```csharp
 ISlide sld = pres.Slides[0];
 ```
-## Étape 3 : ajouter une image vidéo
+## Étape 3 : Ajouter une image vidéo
 Maintenant, ajoutez une image vidéo à la diapositive :
 ```csharp
 IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 150, dataDir + "video1.avi");

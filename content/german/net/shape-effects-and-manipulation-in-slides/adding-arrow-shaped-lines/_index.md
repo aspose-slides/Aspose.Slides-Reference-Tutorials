@@ -67,7 +67,7 @@ pres.Save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ```
 Speichern Sie die Präsentation im angegebenen Verzeichnis mit dem gewünschten Dateinamen.
 ## Abschluss
-Glückwunsch! Sie haben Ihrer Präsentation mit Aspose.Slides für .NET erfolgreich eine pfeilförmige Linie hinzugefügt. Diese leistungsstarke Bibliothek bietet umfangreiche Funktionen zum Erstellen dynamischer und ansprechender Folien.
+Glückwunsch! Sie haben mit Aspose.Slides für .NET erfolgreich eine pfeilförmige Linie zu Ihrer Präsentation hinzugefügt. Diese leistungsstarke Bibliothek bietet umfangreiche Funktionen zum Erstellen dynamischer und ansprechender Folien.
 ## FAQs
 ### Ist Aspose.Slides mit .NET Core kompatibel?
 Ja, Aspose.Slides unterstützt .NET Core, sodass Sie dessen Funktionen in plattformübergreifenden Anwendungen nutzen können.

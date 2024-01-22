@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Convert_XPS.pptx");
 ```
 
-确保更换`"Convert_XPS.pptx"`与您的 PowerPoint 文件的实际名称。
+确保您更换`"Convert_XPS.pptx"`与您的 PowerPoint 文件的实际名称。
 
 ## 步骤 3：另存为 XPS（不带 XPS 选项）
 

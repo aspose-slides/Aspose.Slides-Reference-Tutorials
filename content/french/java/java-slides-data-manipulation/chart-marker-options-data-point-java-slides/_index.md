@@ -81,7 +81,7 @@ series.getMarker().setSize(15);
 
 ## Étape 6 : Sauvegarde de la présentation
 
-Une fois que vous avez personnalisé vos marqueurs de graphique, enregistrez la présentation pour voir les changements en action.
+Une fois que vous avez personnalisé vos marqueurs de graphique, enregistrez la présentation pour voir les modifications en action.
 
 ```java
 pres.save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);

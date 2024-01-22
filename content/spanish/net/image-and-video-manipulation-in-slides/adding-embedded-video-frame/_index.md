@@ -1,6 +1,6 @@
 ---
-tiitle: Aspose.Slides agregar videos incrustados en presentaciones .NET
-linktiitle: Aspose.Slides agregar videos incrustados en presentaciones .NET
+title: Aspose.Slides agregar videos incrustados en presentaciones .NET
+linktitle: Aspose.Slides agregar videos incrustados en presentaciones .NET
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus presentaciones con videos incrustados usando Aspose.Slides para .NET. Siga nuestra guía paso a paso para una integración perfecta.
 type: docs

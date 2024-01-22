@@ -127,4 +127,4 @@ Evet, Aspose.Slides for Java'nın desteklediği çeşitli grafik türlerine hata
 
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Şuraya başvurabilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımına ilişkin detaylı bilgi için.
+ Şuraya başvurabilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımı hakkında detaylı bilgi için.

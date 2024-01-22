@@ -67,7 +67,7 @@ Aquí, verificamos si el directorio de salida existe. Si no, lo creamos.
 using (Presentation pres = new Presentation())
 {
     //Su código para modificar el fondo de la diapositiva irá aquí.
-    // Exploraremos esto en los siguientes pasos.
+    // Exploraremos esto en los próximos pasos.
     
     // Guardar la presentación modificada
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);

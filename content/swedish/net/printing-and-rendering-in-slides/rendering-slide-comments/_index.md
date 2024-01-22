@@ -13,7 +13,7 @@ Välkommen till vår omfattande handledning om hur du renderar bildkommentarer m
 Innan vi dyker in i handledningen, se till att du har följande på plats:
 -  Aspose.Slides for .NET Library: Se till att du har Aspose.Slides-biblioteket för .NET installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner den[här](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Sätt upp en fungerande .NET-utvecklingsmiljö och ha en grundläggande förståelse för C#.
-Nu börjar vi med handledningen!
+Nu, låt oss komma igång med handledningen!
 ## Importera namnområden
 din C#-kod måste du importera de nödvändiga namnrymden för att använda Aspose.Slides-funktioner. Lägg till följande rader i början av filen:
 ```csharp

@@ -116,7 +116,7 @@ Evet, salt okunur koruma ve yazma koruması için farklı şifreler ayarlayabili
 - `setReadProtection(String password)` salt okunur koruma için.
 - `setWriteProtection(String password)` yazma koruması için.
 
-### Bir sunumdaki belirli slaytları korumak mümkün müdür?
+### Bir sunumdaki belirli slaytları korumak mümkün mü?
 
  Evet, tek tek slaytlarda yazma korumasını ayarlayarak bir sunumdaki belirli slaytları koruyabilirsiniz. Kullan`Slide` nesnenin`getProtectionManager()`Belirli slaytlara yönelik korumayı yönetme yöntemi.
 

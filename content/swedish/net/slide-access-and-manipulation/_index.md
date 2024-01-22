@@ -23,7 +23,7 @@ Lär dig hur du hämtar alla bilder i en PowerPoint-presentation med Aspose.Slid
 ### [Lägg till anteckningsbild med snygg anteckningsformatering](./add-notes-slide-with-notes-style/)
 Lär dig hur du förbättrar dina PowerPoint-presentationer med snygg anteckningsformatering med Aspose.Slides för .NET. Den här steg-för-steg-guiden tar upp hur du lägger till en anteckningsbild, tillämpar attraktiv formatering och mer.
 ### [Infoga ytterligare bilder i presentationen](./add-slides/)
-Lär dig hur du infogar ytterligare bilder i dina PowerPoint-presentationer med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger källkodsexempel och detaljerade instruktioner för att sömlöst förbättra dina presentationer. Anpassningsbart innehåll, infogningstips och vanliga frågor ingår.
+Lär dig hur du infogar ytterligare bilder i dina PowerPoint-presentationer med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger exempel på källkod och detaljerade instruktioner för att sömlöst förbättra dina presentationer. Anpassningsbart innehåll, infogningstips och vanliga frågor ingår.
 ### [Klona bild från annan presentation till specificerad position](./clone-slide-from-another-presentation-specified-position/)
 Lär dig hur du klona bilder från olika presentationer till en angiven position med Aspose.Slides för .NET. Steg-för-steg-guide med komplett källkod, som täcker kloning av diabilder, positionsspecifikation och presentationslagring.
 ### [Replikera bild i slutet av separat presentation](./clone-slide-end-of-another-presentation/)

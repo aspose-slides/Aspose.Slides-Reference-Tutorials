@@ -13,7 +13,7 @@ Wenn Sie die visuelle Attraktivität Ihrer Präsentationsfolien verbessern und I
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 -  Aspose.Slides für .NET: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek installiert haben. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/slides/net/).
 - Entwicklungsumgebung: Richten Sie eine Arbeitsumgebung mit einer .NET-kompatiblen IDE ein, beispielsweise Visual Studio.
-- Grundkenntnisse in C#: Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut.
+- Grundkenntnisse von C#: Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut.
 ## Namespaces importieren
 Beginnen Sie in Ihrem C#-Projekt mit dem Importieren der erforderlichen Namespaces:
 ```csharp

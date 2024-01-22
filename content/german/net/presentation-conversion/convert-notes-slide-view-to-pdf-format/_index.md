@@ -57,7 +57,7 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## 7. Fazit
 
-Glückwunsch! Sie haben die Notizen-Folienansicht mit Aspose.Slides für .NET erfolgreich in das PDF-Format konvertiert. Diese leistungsstarke Bibliothek vereinfacht komplexe Aufgaben wie diese und ist somit eine ausgezeichnete Wahl für die programmgesteuerte Arbeit mit PowerPoint-Präsentationen.
+Glückwunsch! Sie haben die Notizen-Folienansicht mit Aspose.Slides für .NET erfolgreich in das PDF-Format konvertiert. Diese leistungsstarke Bibliothek vereinfacht komplexe Aufgaben wie diese und ist somit eine hervorragende Wahl für die programmgesteuerte Arbeit mit PowerPoint-Präsentationen.
 
 ## 8. FAQs
 

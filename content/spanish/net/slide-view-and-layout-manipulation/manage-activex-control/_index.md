@@ -29,7 +29,7 @@ ISlide slide = presentation.Slides[0];
 // Definir las propiedades del control ActiveX.
 int left = 100; // Especificar la posición izquierda
 int top = 100; // Especifique la posición superior
-int width = 200; // Especificar el ancho
+int width = 200; // Especifique el ancho
 int height = 100; // Especifique la altura
 string progId = "YourActiveXControl.ProgID"; // Especifique el ProgID del control ActiveX
 

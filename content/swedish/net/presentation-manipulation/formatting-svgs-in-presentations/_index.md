@@ -2,7 +2,7 @@
 title: Formatera SVG i presentationer
 linktitle: Formatera SVG i presentationer
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Optimera dina presentationer med fantastiska SVG:er med Aspose.Slides för .NET. Lär dig steg för steg hur du formaterar SVGer för effektfulla bilder. Lyft ditt presentationsspel idag!
+description: Optimera dina presentationer med fantastiska SVGer med Aspose.Slides för .NET. Lär dig steg för steg hur du formaterar SVGer för effektfulla bilder. Lyft ditt presentationsspel idag!
 type: docs
 weight: 31
 url: /sv/net/presentation-manipulation/formatting-svgs-in-presentations/

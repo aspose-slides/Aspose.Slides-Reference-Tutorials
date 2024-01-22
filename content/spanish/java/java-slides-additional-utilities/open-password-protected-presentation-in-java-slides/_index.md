@@ -106,7 +106,7 @@ Para establecer la contraseña para una presentación, utilice el`loadOptions.se
 
  Debe incluir el código para abrir la presentación dentro de un`try` bloquear y usar un`finally` bloque para garantizar que la presentación se elimine correctamente, incluso si se produce una excepción.
 
-### ¿Existe alguna forma de eliminar la contraseña de una presentación?
+### ¿Existe alguna manera de eliminar la contraseña de una presentación?
 
 Aspose.Slides brinda la capacidad de configurar y cambiar la contraseña para una presentación, pero no ofrece un método directo para eliminar una contraseña existente. Para eliminar una contraseña, es posible que deba guardar la presentación sin contraseña y luego volver a guardarla con una nueva contraseña si es necesario.
 

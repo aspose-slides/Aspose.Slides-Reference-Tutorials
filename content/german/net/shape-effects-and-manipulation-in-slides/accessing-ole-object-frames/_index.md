@@ -10,7 +10,7 @@ url: /de/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frame
 
 ## Einführung
 
-Im Bereich dynamischer und interaktiver Präsentationen spielen Object Linking and Embedding (OLE)-Objekte eine zentrale Rolle. Mit diesen Objekten können Sie Inhalte aus anderen Anwendungen nahtlos integrieren und Ihre Folien durch Vielseitigkeit und Interaktivität bereichern. Aspose.Slides, eine leistungsstarke API für die Arbeit mit Präsentationsdateien, ermöglicht es Entwicklern, das Potenzial von OLE-Objektrahmen in Präsentationsfolien zu nutzen. Dieser Artikel befasst sich mit den Feinheiten des Zugriffs auf OLE-Objektrahmen mithilfe von Aspose.Slides für .NET und führt Sie mit Klarheit und praktischen Beispielen durch den Prozess.
+Im Bereich dynamischer und interaktiver Präsentationen spielen Object Linking and Embedding (OLE)-Objekte eine zentrale Rolle. Mit diesen Objekten können Sie Inhalte aus anderen Anwendungen nahtlos integrieren und Ihre Folien mit Vielseitigkeit und Interaktivität bereichern. Aspose.Slides, eine leistungsstarke API für die Arbeit mit Präsentationsdateien, ermöglicht es Entwicklern, das Potenzial von OLE-Objektrahmen in Präsentationsfolien zu nutzen. Dieser Artikel befasst sich mit den Feinheiten des Zugriffs auf OLE-Objektrahmen mithilfe von Aspose.Slides für .NET und führt Sie mit Klarheit und praktischen Beispielen durch den Prozess.
 
 ## Zugriff auf OLE-Objektrahmen: Eine Schritt-für-Schritt-Anleitung
 

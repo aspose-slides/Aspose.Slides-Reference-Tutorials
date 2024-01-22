@@ -1,5 +1,5 @@
 ---
-tiitle: Aspose.Slides creación de formas de grupo en .NET
+title: Aspose.Slides creación de formas de grupo en .NET
 linktitle: Crear formas de grupo en diapositivas de presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a crear formas de grupo en PowerPoint con Aspose.Slides para .NET. Siga nuestra guía paso a paso para presentaciones visualmente atractivas.

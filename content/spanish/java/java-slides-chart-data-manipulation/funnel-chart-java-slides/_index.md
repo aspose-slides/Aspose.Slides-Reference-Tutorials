@@ -2,7 +2,7 @@
 title: Gráfico de embudo en diapositivas de Java
 linktitle: Gráfico de embudo en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a crear gráficos de embudo en presentaciones de PowerPoint con Aspose.Slides para Java. Guía paso a paso con código fuente para una visualización de datos efectiva.
+description: Aprenda a crear gráficos de embudo en presentaciones de PowerPoint con Aspose.Slides para Java. Guía paso a paso con código fuente para una visualización de datos eficaz.
 type: docs
 weight: 18
 url: /es/java/chart-data-manipulation/funnel-chart-java-slides/

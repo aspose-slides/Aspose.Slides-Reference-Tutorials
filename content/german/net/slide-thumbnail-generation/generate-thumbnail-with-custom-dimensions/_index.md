@@ -63,7 +63,7 @@ ISlide sld = pres.Slides[0];
 
 ## Schritt 3: Definieren Sie benutzerdefinierte Miniaturbildabmessungen
 
-Geben Sie die gewünschten Abmessungen für Ihr benutzerdefiniertes Miniaturbild an. Sie können die Breite und Höhe in Pixel entsprechend den Anforderungen Ihrer Anwendung festlegen.
+Geben Sie die gewünschten Abmessungen für Ihr benutzerdefiniertes Miniaturbild an. Sie können die Breite und Höhe in Pixel entsprechend den Anforderungen Ihrer Anwendung definieren.
 
 ```csharp
 int desiredX = 1200; // Breite

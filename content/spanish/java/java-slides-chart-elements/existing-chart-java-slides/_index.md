@@ -171,7 +171,7 @@ En este completo tutorial, hemos aprendido cómo modificar un gráfico existente
 
 ### ¿Puedo agregar más puntos de datos a una serie?
 
- Sí, puedes agregar más puntos de datos a una serie usando el`series.getDataPoints().addDataPointForBarSeries(cell)` método. Asegúrese de proporcionar los datos de la celda adecuados.
+ Sí, puedes agregar más puntos de datos a una serie usando el`series.getDataPoints().addDataPointForBarSeries(cell)` método. Asegúrese de proporcionar los datos de celda adecuados.
 
 ### ¿Cómo actualizo los nombres de las categorías?
 

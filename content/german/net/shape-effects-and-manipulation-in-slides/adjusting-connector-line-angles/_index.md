@@ -40,7 +40,7 @@ Greifen Sie auf die erste Folie in der Präsentation zu und initialisieren Sie e
 ```csharp
 for (int i = 0; i < slide.Shapes.Count; i++)
 {
-    // Code für die Handhabung von Verbindungsleitungen
+    // Code für die Handhabung von Verbindungslinien
 }
 ```
 Durchlaufen Sie jede Form auf der Folie, um Verbindungslinien zu identifizieren und zu verarbeiten.

@@ -29,7 +29,7 @@ Lär dig hur du konverterar presentationer till responsiv HTML med Aspose.Slides
 Lär dig hur du konverterar FODP-presentationer till olika format med Aspose.Slides för .NET. Skapa, anpassa och optimera med lätthet.
 ### [Generera SVG med anpassade form-ID:n i presentationer](./generate-svg-with-custom-shape-ids-in-presentations/)
 Skapa engagerande presentationer med anpassade SVG-former och ID:n med Aspose.Slides för .NET. Lär dig hur du skapar interaktiva bilder steg för steg med exempel på källkod. Förbättra visuellt tilltal och användarinteraktion i dina presentationer.
-### [Utför koppling av brev i presentationer](./perform-mail-merge-in-presentations/)
+### [Utför sammankoppling av brev i presentationer](./perform-mail-merge-in-presentations/)
 Lär dig hur du utför sammanslagning i presentationer med Aspose.Slides för .NET i den här omfattande steg-för-steg-guiden. Skapa personliga och dynamiska presentationer med lätthet.
 ### [Konvertera ODP-format till PPTX-format](./convert-odp-format-to-pptx-format/)
 Lär dig hur du enkelt konverterar ODP till PPTX med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för sömlös konvertering av presentationsformat.

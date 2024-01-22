@@ -38,7 +38,7 @@ String outPptxPath = dataDir + "presentation_external.pptx";
 Presentation p = new Presentation();
 ```
 
-确保更换`"Your Document Directory"`与项目目录的实际路径。
+确保您更换`"Your Document Directory"`与项目目录的实际路径。
 
 ## 第 3 步：加载 SVG 图像
 

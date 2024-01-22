@@ -12,7 +12,7 @@ url: /zh/net/presentation-manipulation/create-new-presentations-programmatically
 
 ## Aspose.Slides for .NET 简介
 
-Aspose.Slides for .NET 是一个强大的库，允许开发人员以编程方式处理 PowerPoint 演示文稿。无论您需要生成报告、自动化演示还是操作幻灯片，Aspose.Slides 都提供了广泛的功能来使您的任务变得更轻松。
+Aspose.Slides for .NET 是一个强大的库，允许开发人员以编程方式处理 PowerPoint 演示文稿。无论您需要生成报告、自动演示还是操作幻灯片，Aspose.Slides 都提供了广泛的功能来使您的任务变得更轻松。
 
 ## 第 1 步：设置您的环境
 

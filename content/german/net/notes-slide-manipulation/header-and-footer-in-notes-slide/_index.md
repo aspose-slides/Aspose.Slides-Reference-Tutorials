@@ -96,7 +96,7 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 }
 ```
 
-In diesem Schritt greifen wir auf eine bestimmte Notizenfolie zu und ändern die Sichtbarkeit und den Text für Kopfzeile, Fußzeile, Foliennummer und Datum-Uhrzeit-Platzhalter.
+In diesem Schritt greifen wir auf eine bestimmte Notizenfolie zu und ändern die Sichtbarkeit und den Text für die Kopfzeile, die Fußzeile, die Foliennummer und die Platzhalter für Datum und Uhrzeit.
 
 ## Abschluss
 

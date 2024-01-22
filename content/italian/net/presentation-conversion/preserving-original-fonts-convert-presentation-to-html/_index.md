@@ -1,6 +1,6 @@
 ---
-tiitle: Conservazione dei caratteri originali converti la presentazione in HTML
-linktiitle: Conservazione dei caratteri originali converti la presentazione in HTML
+title: Conservazione dei caratteri originali converti la presentazione in HTML
+linktitle: Conservazione dei caratteri originali converti la presentazione in HTML
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come preservare i caratteri originali durante la conversione delle presentazioni in HTML utilizzando Aspose.Slides per .NET. Garantisci la coerenza dei caratteri e l'impatto visivo senza sforzo.
 type: docs

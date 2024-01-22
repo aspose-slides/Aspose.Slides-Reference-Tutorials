@@ -10,7 +10,7 @@ url: /tr/java/chart-data-manipulation/funnel-chart-java-slides/
 
 ## Aspose.Slides for Java'da Huni Grafiği Oluşturmaya Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda Huni Grafiği oluşturma sürecinde size rehberlik edeceğiz. Huni grafikleri, aşamalı olarak daraltılan veya farklı aşamalar veya kategoriler aracılığıyla "huniler" oluşturan verileri görselleştirmek için kullanışlıdır. Bunu başarmanıza yardımcı olmak için kaynak koduyla birlikte adım adım talimatlar sağlayacağız.
+Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda Huni Grafiği oluşturma sürecinde size rehberlik edeceğiz. Huni grafikleri, kademeli olarak daraltılan veya farklı aşamalar veya kategoriler aracılığıyla "huniler" oluşturan verileri görselleştirmek için kullanışlıdır. Bunu başarmanıza yardımcı olmak için kaynak koduyla birlikte adım adım talimatlar sağlayacağız.
 
 ## Önkoşullar
 

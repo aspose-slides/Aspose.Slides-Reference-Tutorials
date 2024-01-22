@@ -65,7 +65,7 @@ Tillämpa formatering på ellipsformen, ange fyllningsfärg och linjeegenskaper.
 ```csharp
 pres.Save(dataDir + "EllipseShp2_out.pptx", SaveFormat.Pptx);
 ```
-Spara den ändrade presentationen på disken.
+Spara den ändrade presentationen på disk.
 Följ dessa steg noggrant så får du en vackert formaterad ellipsform i din PowerPoint-presentation.
 ## Slutsats
 Att införliva visuellt tilltalande former, som ellipser, kan avsevärt förbättra det estetiska överklagandet av dina PowerPoint-presentationer. Aspose.Slides för .NET gör denna process sömlös, så att du kan skapa proffsiga bilder utan ansträngning.

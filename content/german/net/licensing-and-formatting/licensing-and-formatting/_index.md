@@ -74,7 +74,7 @@ Glückwunsch! Sie haben Aspose.Slides für .NET erfolgreich lizenziert und Ihre 
 
 In dieser Schritt-für-Schritt-Anleitung haben wir den wesentlichen Prozess der Lizenzierung von Aspose.Slides für .NET behandelt. Indem Sie sicherstellen, dass Sie über die richtigen Voraussetzungen verfügen, die erforderlichen Namespaces importieren und Ihre Lizenz korrekt validieren, können Sie die Funktionen dieser Bibliothek für Ihre PowerPoint-bezogenen Entwicklungsanforderungen vollständig nutzen.
 
- Denken Sie daran, dass eine gültige Lizenz nicht nur die Einhaltung gesetzlicher Anforderungen gewährleistet, sondern Ihnen auch den Zugriff auf Premium-Funktionen und den Erhalt von Support durch die Aspose-Community ermöglicht. Stellen Sie sicher, dass Sie eine Lizenz erhalten, die den Anforderungen Ihres Projekts entspricht[Aspose-Käufe](https://purchase.aspose.com/buy) oder erkunden Sie Aspose's[Kostenlose Testphase](https://releases.aspose.com/) um einen Vorgeschmack auf seine Fähigkeiten zu bekommen.
+ Denken Sie daran, dass eine gültige Lizenz nicht nur die Einhaltung gesetzlicher Anforderungen gewährleistet, sondern Ihnen auch den Zugriff auf Premium-Funktionen und den Erhalt von Support durch die Aspose-Community ermöglicht. Stellen Sie sicher, dass Sie eine Lizenz erwerben, die den Anforderungen Ihres Projekts entspricht[Aspose-Käufe](https://purchase.aspose.com/buy) oder erkunden Sie Aspose's[Kostenlose Testphase](https://releases.aspose.com/) um einen Vorgeschmack auf seine Fähigkeiten zu bekommen.
 
 ## Häufig gestellte Fragen
 

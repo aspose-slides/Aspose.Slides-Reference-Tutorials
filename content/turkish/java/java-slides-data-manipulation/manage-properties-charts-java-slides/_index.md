@@ -195,6 +195,6 @@ Evet, seri veri noktalarının veya kategorilerinin dolgu özelliklerini ayarlay
 
  X ve Y eksenleri için farklı bir dönüş açısı ayarlamak için şunu kullanın:`chart.getRotation3D().setRotationX()` Ve`chart.getRotation3D().setRotationY()` İstenilen açı değerlerinde.
 
-### Başka hangi 3B özelliklerini özelleştirebilirim?
+### Başka hangi 3D özelliklerini özelleştirebilirim?
 
 Aspose.Slides belgelerine başvurarak grafiğin derinlik, perspektif ve aydınlatma gibi diğer 3B özelliklerini keşfedebilirsiniz.

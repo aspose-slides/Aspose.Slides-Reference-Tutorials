@@ -99,7 +99,7 @@ Bu eğitimde, Aspose'u kullanarak Java Slides'ta bir PDF belgesine erişim izinl
 
 ### Aspose.Slides for Java başka hangi güvenlik özelliklerini sunuyor?
 
-Aspose.Slides for Java, PDF belgelerinizin güvenliğini artırmak için şifreleme, dijital imzalar ve filigran ekleme gibi çeşitli güvenlik özellikleri sunar.
+Aspose.Slides for Java, PDF belgelerinizin güvenliğini artırmak için şifreleme, dijital imzalar ve filigran ekleme gibi çeşitli güvenlik özellikleri sağlar.
 
 ### Aspose.Slides for Java için daha fazla kaynağı ve belgeyi nerede bulabilirim?
 

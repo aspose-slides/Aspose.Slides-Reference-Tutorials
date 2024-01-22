@@ -84,7 +84,7 @@ finally
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for Java API'sini kullanarak Java Slides'ta nasıl organizasyon şeması oluşturulacağını öğrendiniz. Organizasyon şemasının görünümünü ve içeriğini özel gereksinimlerinize göre özelleştirebilirsiniz. Aspose.Slides, PowerPoint sunumlarıyla çalışmak için çok çeşitli özellikler sunarak onu görsel içeriği yönetmek ve oluşturmak için güçlü bir araç haline getiriyor.
+Bu eğitimde, Aspose.Slides for Java API'sini kullanarak Java Slides'ta nasıl organizasyon şeması oluşturulacağını öğrendiniz. Organizasyon şemasının görünümünü ve içeriğini özel gereksinimlerinize göre özelleştirebilirsiniz. Aspose.Slides, PowerPoint sunumlarıyla çalışmak için çok çeşitli özellikler sunarak görsel içeriği yönetmek ve oluşturmak için onu güçlü bir araç haline getiriyor.
 
 ## SSS'ler
 

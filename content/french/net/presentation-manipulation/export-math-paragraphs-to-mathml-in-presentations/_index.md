@@ -72,4 +72,4 @@ Non, vous n'avez pas besoin d'être un expert. Aspose.Slides pour .NET simplifie
 
 Oui, vous pouvez facilement intégrer du contenu MathML dans vos présentations existantes à l'aide d'Aspose.Slides pour .NET.
 
-Maintenant que vous avez appris à exporter des paragraphes mathématiques vers MathML avec Aspose.Slides pour .NET, vous êtes prêt à créer des présentations dynamiques et attrayantes avec du contenu mathématique. Bonne présentation !
+Maintenant que vous avez appris à exporter des paragraphes mathématiques vers MathML avec Aspose.Slides pour .NET, vous êtes prêt à créer des présentations dynamiques et attrayantes avec un contenu mathématique. Bonne présentation !

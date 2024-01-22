@@ -1,5 +1,5 @@
 ---
-tiitle: Zoom sezione Aspose.Slides migliora le tue presentazioni
+title: Zoom sezione Aspose.Slides migliora le tue presentazioni
 linktitle: Creazione di zoom di sezione nelle diapositive di presentazione con Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come creare diapositive di presentazione accattivanti con lo zoom della sezione utilizzando Aspose.Slides per .NET. Migliora le tue presentazioni con funzionalità interattive.

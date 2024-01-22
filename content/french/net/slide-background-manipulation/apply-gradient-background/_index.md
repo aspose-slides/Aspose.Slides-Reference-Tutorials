@@ -98,4 +98,4 @@ Absolument! Vous pouvez personnaliser l'arrière-plan dégradé de chaque diapos
  Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 
 ### Quelles autres fonctionnalités Aspose.Slides for .NET offre-t-il pour la conception de présentations ?
-Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment la création, l'édition et la manipulation de diapositives, la gestion de graphiques et de tableaux et l'exportation vers différents formats.
+Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment la création, l'édition et la manipulation de diapositives, la gestion de graphiques et de tableaux et l'exportation vers divers formats.

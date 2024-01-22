@@ -16,7 +16,7 @@ Dans ce didacticiel, nous vous guiderons tout au long du processus de création 
 
  Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est intégrée à votre projet. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/java/).
 
-## Étape 1 : configuration de la présentation
+## Étape 1 : Configuration de la présentation
 
 Commençons par créer une nouvelle présentation PowerPoint et y ajouter une diapositive.
 

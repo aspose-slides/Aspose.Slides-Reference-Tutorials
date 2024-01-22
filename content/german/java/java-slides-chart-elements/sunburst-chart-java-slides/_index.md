@@ -2,7 +2,7 @@
 title: Sunburst-Diagramm in Java-Folien
 linktitle: Sunburst-Diagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erstellen Sie mit Aspose.Slides atemberaubende Sunburst-Diagramme in Java Slides. Erfahren Sie Schritt für Schritt, wie Sie Diagramme erstellen und Daten bearbeiten.
+description: Erstellen Sie mit Aspose.Slides atemberaubende Sunburst-Diagramme in Java-Folien. Erfahren Sie Schritt für Schritt, wie Sie Diagramme erstellen und Daten bearbeiten.
 type: docs
 weight: 16
 url: /de/java/chart-elements/sunburst-chart-java-slides/

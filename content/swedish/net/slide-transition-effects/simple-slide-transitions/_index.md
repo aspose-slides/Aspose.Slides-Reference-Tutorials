@@ -40,7 +40,7 @@ Med de nödvändiga förutsättningarna på plats, låt oss gå vidare till hjä
 
 Vi kommer att visa hur man tillämpar två typer av övergångar – "Cirkel" och "Comb" – på enskilda bilder i din presentation. Dessa övergångar kan ge dina bilder en dynamisk känsla.
 
-### Steg 2: Instant presentationsklass
+### Steg 2: Instantera presentationsklass
 
 Innan du tillämpar bildövergångar måste du ladda din presentation med klassen Presentation.
 

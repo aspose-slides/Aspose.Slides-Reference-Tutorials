@@ -61,7 +61,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx");
 ```
 
-### Steg 3: Välj övergångseffekten
+### Steg 3: Välj övergångseffekt
 
 Du kan ställa in önskad övergångseffekt. I det här exemplet kommer vi att använda övergångseffekten "Cut".
 

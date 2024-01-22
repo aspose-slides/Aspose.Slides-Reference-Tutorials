@@ -8,7 +8,7 @@ weight: 16
 url: /zh/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
 ## 介绍
-在动态的演示世界中，控制幻灯片的顺序和组织对于有效沟通至关重要。 Aspose.Slides for .NET 提供了一个强大的解决方案来操纵演示文稿中的幻灯片编号，使您能够灵活地无缝自定义内容。
+在动态的演示世界中，控制幻灯片的顺序和组织对于有效沟通至关重要。 Aspose.Slides for .NET 提供了一个强大的解决方案来操作演示文稿中的幻灯片编号，使您能够灵活地无缝自定义内容。
 ## 先决条件
 在深入学习本教程之前，请确保您具备以下先决条件：
 -  Aspose.Slides for .NET：确保您已安装 Aspose.Slides 库。您可以从以下位置下载：[这里](https://releases.aspose.com/slides/net/).

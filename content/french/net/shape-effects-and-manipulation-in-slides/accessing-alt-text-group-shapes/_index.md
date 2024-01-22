@@ -54,7 +54,7 @@ foreach (ISlide slide in presentation.Slides)
 
 ## Accéder au texte alternatif
 
-Accéder au texte alternatif des formes individuelles au sein d'un groupe implique de parcourir les formes et de récupérer leurs propriétés de texte alternatif :
+Accéder au texte alternatif de formes individuelles au sein d'un groupe implique de parcourir les formes et de récupérer leurs propriétés de texte alternatif :
 
 ```csharp
 foreach (IShape shape in groupShape.Shapes)

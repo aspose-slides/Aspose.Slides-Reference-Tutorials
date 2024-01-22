@@ -18,7 +18,7 @@ Slaytların görüntülenme şekli sunumun etkinliğini büyük ölçüde etkile
 
 ## Görsel Mükemmellik için Düzen Manipülasyonunda Uzmanlaşmak
 
-Düzenler bir sunumun içeriğini organize etmede çok önemli bir rol oynar. Bu eğitim serisinde Aspose.Slides'ı kullanarak düzen düzenleme sanatını çözeceğiz. Slayt düzenleri oluşturma ve özelleştirme, yer tutucuları düzenleme ve slaytlarınızın görsel tutarlılığını sağlama tekniklerini keşfedeceksiniz. İster tutarlı markalama için şablonlar tasarlıyor olun ister verilere dayalı dinamik olarak slayt düzenleri oluşturuyor olun, bu eğitimler görsel olarak büyüleyici sunumları hassas ve kolay bir şekilde oluşturmanıza yardımcı olacaktır.
+Düzenler bir sunumun içeriğini organize etmede çok önemli bir rol oynar. Bu eğitim serisinde Aspose.Slides'ı kullanarak düzen düzenleme sanatını çözeceğiz. Slayt düzenleri oluşturma ve özelleştirme, yer tutucuları düzenleme ve slaytlarınızın görsel tutarlılığını sağlama tekniklerini keşfedeceksiniz. İster tutarlı markalama için şablonlar tasarlıyor olun, ister verilere dayalı dinamik olarak slayt düzenleri oluşturuyor olun, bu eğitimler görsel olarak büyüleyici sunumları hassas ve kolay bir şekilde oluşturmanıza yardımcı olacaktır.
 
 ## Slayt Görünümü ve Düzen Düzenleme Eğitimleri
 ### [Aspose.Slides'ta Slayt Görünümü ve Düzen Düzenleme](./slide-view-and-layout-manipulation/)

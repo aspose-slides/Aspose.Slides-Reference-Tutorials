@@ -102,4 +102,4 @@ Sì, puoi aggiungere ulteriori forme, testo e connettori all'organigramma per ra
 
 ### È possibile creare strutture organizzative complesse a più livelli?
 
-Sì, Aspose.Slides ti consente di creare strutture organizzative complesse con più livelli aggiungendo e organizzando forme all'interno dell'organigramma. È possibile definire relazioni gerarchiche tra le forme per rappresentare la struttura desiderata.
+Sì, Aspose.Slides ti consente di creare strutture organizzative complesse con più livelli aggiungendo e disponendo forme all'interno dell'organigramma. È possibile definire relazioni gerarchiche tra le forme per rappresentare la struttura desiderata.

@@ -117,7 +117,7 @@ Aspose.Slides für .NET vereinfacht das Extrahieren von Audio und Video aus Powe
 
 Wenn Sie die in dieser Anleitung beschriebenen Schritte befolgen, können Sie ganz einfach Audio- und Videodaten aus Ihren PowerPoint-Präsentationen extrahieren und diese Elemente auf verschiedene Weise nutzen.
 
-Denken Sie daran, dass eine effektive Multimedia-Extraktion mit Aspose.Slides für .NET von den richtigen Tools, der Bibliothek selbst und einer PowerPoint-Präsentation mit Multimedia-Elementen abhängt.
+Denken Sie daran: Eine effektive Multimedia-Extraktion mit Aspose.Slides für .NET hängt von den richtigen Tools, der Bibliothek selbst und einer PowerPoint-Präsentation mit Multimedia-Elementen ab.
 
 ## FAQs
 

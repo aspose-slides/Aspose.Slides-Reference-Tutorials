@@ -1,5 +1,5 @@
 ---
-tiitle: Aspose.Slides collega le forme senza problemi in .NET
+title: Aspose.Slides collega le forme senza problemi in .NET
 linktitle: Connessione di forme utilizzando i connettori nella presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Esplora la potenza di Aspose.Slides per .NET, collegando facilmente le forme nelle tue presentazioni. Migliora le tue diapositive con connettori dinamici.

@@ -19,7 +19,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 1. Kit de développement Java (JDK) installé sur votre système.
 2.  Aspose.Slides pour la bibliothèque Java. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
 
-## Étape 1 : Configurer votre projet
+## Étape 1 : Configuration de votre projet
 
 Tout d’abord, créez un nouveau projet Java dans votre environnement de développement intégré (IDE) préféré. Assurez-vous d'inclure la bibliothèque Aspose.Slides pour Java dans le chemin de classe de votre projet.
 

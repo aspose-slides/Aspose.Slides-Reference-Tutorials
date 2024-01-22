@@ -1,5 +1,5 @@
 ---
-tiitle: Dominar imágenes agregar segmentos con Aspose.Slides en .NET
+title: Dominar imágenes agregar segmentos con Aspose.Slides en .NET
 linktitle: Agregar segmentos a la forma geométrica en una presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo mejorar sus aplicaciones .NET con Aspose.Slides. Este tutorial lo guiará a través de la adición de segmentos a formas geométricas para presentaciones cautivadoras.

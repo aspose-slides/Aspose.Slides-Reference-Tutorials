@@ -63,7 +63,7 @@ foreach (DataRow userRow in usersTable.Rows)
         // Füllen Sie Textfelder mit Daten aus der Haupttabelle
         ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text = "Chief of the department - " + userRow["Name"];
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
-        // Holen Sie sich ein Bild aus der Datenbank
+        // Bild aus der Datenbank abrufen
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
         //Bild in den Bilderrahmen der Präsentation einfügen
         IPPImage image = pres.Images.AddImage(bytes);

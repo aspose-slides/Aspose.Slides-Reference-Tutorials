@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Schritt 2.2: Greifen Sie auf die Master Notes-Folie zu
 
- Innerhalb der`using` Block, greifen wir auf die Masternotizen-Folie zu. Die Masternotizenfolie enthält den Standardstil für Notizen in Ihrer Präsentation.
+ Innerhalb der`using` Block greifen wir auf die Masternotizen-Folie zu. Die Masternotizenfolie enthält den Standardstil für Notizen in Ihrer Präsentation.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;
@@ -60,7 +60,7 @@ if (notesMaster != null)
 }
 ```
 
-### Schritt 2.3: Holen Sie sich den Notizenstil
+### Schritt 2.3: Notizenstil abrufen
 
 Jetzt rufen wir den Textstil der Masternotizen-Folie ab. Diesen Stil werden wir ändern, um unseren Notizen Stil zu verleihen.
 

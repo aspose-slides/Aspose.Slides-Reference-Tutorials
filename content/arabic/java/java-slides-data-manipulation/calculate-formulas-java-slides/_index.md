@@ -10,7 +10,7 @@ url: /ar/java/data-manipulation/calculate-formulas-java-slides/
 
 ## مقدمة لحساب الصيغ في شرائح Java باستخدام Aspose.Slides
 
-في هذا الدليل، سنوضح كيفية حساب الصيغ في Java Slides باستخدام Aspose.Slides for Java API. Aspose.Slides هي مكتبة قوية للعمل مع عروض PowerPoint التقديمية، وتوفر ميزات للتعامل مع المخططات وإجراء حسابات الصيغة داخل الشرائح.
+في هذا الدليل، سنوضح كيفية حساب الصيغ في Java Slides باستخدام Aspose.Slides for Java API. Aspose.Slides هي مكتبة قوية للعمل مع عروض PowerPoint التقديمية، وتوفر ميزات لمعالجة المخططات وإجراء حسابات الصيغة داخل الشرائح.
 
 ## المتطلبات الأساسية
 

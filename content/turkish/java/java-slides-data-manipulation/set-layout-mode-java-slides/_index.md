@@ -10,7 +10,7 @@ url: /tr/java/data-manipulation/set-layout-mode-java-slides/
 
 ## Java Slaytlarında Düzen Modunu Ayarlamaya Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak Java slaytlarındaki bir grafiğin düzen modunu nasıl ayarlayacağımızı öğreneceğiz. Düzen modu, grafiğin slayt içindeki konumunu ve boyutlarını belirler.
+Bu eğitimde Aspose.Slides for Java kullanarak Java slaytlarındaki bir grafiğin düzen modunu nasıl ayarlayacağımızı öğreneceğiz. Düzen modu, grafiğin slayt içindeki konumunu ve boyutlarını belirler.
 
 ## Önkoşullar
 
