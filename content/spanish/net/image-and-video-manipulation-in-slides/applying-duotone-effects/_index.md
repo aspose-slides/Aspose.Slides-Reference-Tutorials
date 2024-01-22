@@ -1,121 +1,83 @@
 ---
-title: Aplicación de efectos duotono en diapositivas de presentación con Aspose.Slides
+title: Dominar los efectos duotono en Aspose.Slides para .NET
 linktitle: Aplicación de efectos duotono en diapositivas de presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda cómo mejorar las diapositivas de su presentación con cautivadores efectos de duotono utilizando Aspose.Slides para .NET. Siga nuestra guía paso a paso con el código fuente completo para crear diapositivas visualmente impactantes que atraigan a su audiencia. Personalice colores duotono, aplique efectos a imágenes y texto y guarde su presentación modificada sin problemas.
+description: Cree diapositivas de presentación cautivadoras con Aspose.Slides para .NET. Aprende a aplicar efectos duotono paso a paso. ¡Mejora tus presentaciones ahora!
 type: docs
 weight: 18
 url: /es/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
-
-## Introducción a los efectos duotono
-
-Los efectos duotono implican el uso de dos colores, normalmente uno oscuro y otro claro, para crear imágenes y gráficos visualmente atractivos. Esta técnica agrega profundidad y contraste a sus diapositivas, haciéndolas más atractivas y memorables.
-
-## Configurar su entorno de desarrollo
-
-Antes de comenzar, asegúrese de tener instaladas las herramientas necesarias:
-
-- Visual Studio (o cualquier IDE .NET)
-- Aspose.Slides para la biblioteca .NET
-
- Puede descargar la biblioteca Aspose.Slides desde[aquí](https://releases.aspose.com/slides/net/).
-
-## Cargando una presentación
-
-1. Cree un nuevo proyecto de C# en Visual Studio.
-2. Instale el paquete Aspose.Slides NuGet.
-3. Importe los espacios de nombres necesarios:
-
+## Introducción
+Crear diapositivas de presentación visualmente impresionantes es esencial para atraer a su audiencia. Una forma eficaz de mejorar tus diapositivas es aplicando efectos duotono. En este tutorial, lo guiaremos a través del proceso de aplicación de efectos duotono en diapositivas de presentación usando Aspose.Slides para .NET.
+## Requisitos previos
+Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+1.  Aspose.Slides para la biblioteca .NET: descargue e instale la biblioteca Aspose.Slides desde[aquí](https://releases.aspose.com/slides/net/).
+2. Archivo multimedia: prepare un archivo multimedia (por ejemplo, "aspose-logo.jpg") que desee utilizar para el efecto duotono.
+## Importar espacios de nombres
+En su proyecto .NET, importe los espacios de nombres necesarios:
 ```csharp
+using System;
+using System.Drawing;
+using Aspose.Slides.Export;
 using Aspose.Slides;
-using Aspose.Slides.Util;
+using Aspose.Slides.Effects;
 ```
-
-4. Cargue una presentación existente:
-
+## Paso 1: crea una presentación
+Comience creando una nueva presentación usando el siguiente fragmento de código:
 ```csharp
-string presentationPath = "path_to_your_presentation.pptx";
-using (Presentation presentation = new Presentation(presentationPath))
+using (Presentation presentation = new Presentation())
 {
-    // Su código para manipular la presentación va aquí.
+    // Su código para crear una presentación va aquí
 }
 ```
-
-## Aplicar efectos duotono a las imágenes
-
-1. Identifique las imágenes a las que desea aplicar efectos duotono.
-2. Recorre las imágenes y aplica efectos de duotono:
-
+## Paso 2: agregar imagen a la presentación
+Especifique la ruta a su archivo multimedia y agréguelo a la presentación:
 ```csharp
-foreach (IShape shape in presentation.Slides[0].Shapes)
-{
-    if (shape is IAutoShape autoShape && autoShape.PictureFormat != null)
-    {
-        // Aplicar efectos duotono
-        DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
-        duotoneEffect.FirstColor = Color.Black;
-        duotoneEffect.SecondColor = Color.White;
-        autoShape.PictureFormat.ImageColorMode = ImageColorMode.Duotone;
-        autoShape.PictureFormat.DuotoneEffect = duotoneEffect;
-    }
-}
+string imagePath = "Your Media Directory" + "aspose-logo.jpg";
+IPPImage backgroundImage = presentation.Images.AddImage(Image.FromFile(imagePath));
 ```
-
-## Agregar textos duotono
-
-1. Identifique las formas de texto a las que desea aplicar efectos de duotono.
-2. Recorre las formas del texto y aplica efectos de duotono:
-
+## Paso 3: establezca el fondo en la primera diapositiva
+Establezca el fondo de la primera diapositiva para la imagen agregada:
 ```csharp
-foreach (IShape shape in presentation.Slides[0].Shapes)
-{
-    if (shape is IAutoShape autoShape && autoShape.TextFrame != null)
-    {
-        //Aplicar efectos de duotono al texto
-        DuotoneEffectParameters duotoneEffect = new DuotoneEffectParameters();
-        duotoneEffect.FirstColor = Color.Black;
-        duotoneEffect.SecondColor = Color.White;
-        autoShape.TextFrame.Paragraphs[0].Portions[0].PortionFormat.DuotoneEffect = duotoneEffect;
-    }
-}
+presentation.Slides[0].Background.Type = BackgroundType.OwnBackground;
+presentation.Slides[0].Background.FillFormat.FillType = FillType.Picture;
+presentation.Slides[0].Background.FillFormat.PictureFillFormat.Picture.Image = backgroundImage;
 ```
-
-## Personalización de colores duotono
-
- Puede personalizar los colores bitono según sus preferencias de diseño. Simplemente reemplace el`FirstColor` y`SecondColor` valores con los colores deseados.
-
-## Guardar y exportar la presentación modificada
-
-Después de aplicar efectos de duotono, guarde y exporte la presentación modificada:
-
+## Paso 4: agregue el efecto duotono al fondo
+Agrega el efecto duotono al fondo de la primera diapositiva:
 ```csharp
-string outputPath = "path_to_save_modified_presentation.pptx";
-presentation.Save(outputPath, SaveFormat.Pptx);
+IDuotone duotone = presentation.Slides[0].Background.FillFormat.PictureFillFormat.Picture.ImageTransform.AddDuotoneEffect();
 ```
-
+## Paso 5: establecer las propiedades de duotono
+Especifique los colores para el efecto duotono:
+```csharp
+duotone.Color1.ColorType = ColorType.Scheme;
+duotone.Color1.SchemeColor = SchemeColor.Accent1;
+duotone.Color2.ColorType = ColorType.Scheme;
+duotone.Color2.SchemeColor = SchemeColor.Dark2;
+```
+## Paso 6: obtenga valores efectivos
+Recupera los valores efectivos del efecto duotono:
+```csharp
+IDuotoneEffectiveData duotoneEffective = duotone.GetEffective();
+```
+## Paso 7: mostrar valores efectivos
+Muestre los colores duotono efectivos en la consola:
+```csharp
+Console.WriteLine("Duotone effective color1: " + duotoneEffective.Color1);
+Console.WriteLine("Duotone effective color2: " + duotoneEffective.Color2);
+```
+Repita estos pasos para diapositivas adicionales si es necesario.
 ## Conclusión
-
-Mejorar las diapositivas de su presentación con efectos bitono puede mejorar significativamente su impacto visual y cautivar la atención de su audiencia. Con Aspose.Slides para .NET, la aplicación de efectos duotono mediante programación se convierte en un proceso fluido, lo que le permite crear presentaciones impresionantes que se destacan.
-
+Mejorar las diapositivas de su presentación con efectos bitono agrega un toque dinámico y profesional. Con Aspose.Slides para .NET, este proceso se vuelve fluido, permitiéndole crear presentaciones visualmente atractivas sin esfuerzo.
 ## Preguntas frecuentes
-
-### ¿Cómo descargo la biblioteca Aspose.Slides para .NET?
-
- Puede descargar la biblioteca Aspose.Slides desde[aquí](https://releases.aspose.com/slides/net/).
-
-### ¿Puedo aplicar efectos duotono tanto a imágenes como a texto en la misma diapositiva?
-
-Sí, puedes aplicar efectos de duotono tanto a imágenes como a texto dentro de la misma diapositiva, como se demuestra en la guía.
-
-### ¿Es posible utilizar diferentes colores para efectos bitono?
-
-¡Absolutamente! Puede personalizar los colores duotono para que coincidan con sus preferencias de diseño y crear efectos visuales únicos.
-
-### ¿Necesito tener conocimientos avanzados de programación para utilizar Aspose.Slides para .NET?
-
-Si bien algunos conocimientos de programación son beneficiosos, los fragmentos de código proporcionados están diseñados para ser sencillos y fáciles de entender, incluso para principiantes.
-
-### ¿Cómo puedo obtener más información sobre Aspose.Slides para .NET?
-
- Para obtener información y documentación más detallada, puede consultar el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
+### ¿Puedo aplicar efectos duotono sólo a diapositivas específicas?
+Sí, puedes aplicar efectos duotono a diapositivas específicas modificando el código en consecuencia.
+### ¿Hay otros efectos de transformación de imágenes disponibles en Aspose.Slides?
+Aspose.Slides proporciona una variedad de efectos de transformación de imágenes, que incluyen escala de grises, sepia y más. Consulte la documentación para obtener más detalles.
+### ¿Aspose.Slides es compatible con el último marco .NET?
+Sí, Aspose.Slides se actualiza periódicamente para garantizar la compatibilidad con las últimas versiones de .NET Framework.
+### ¿Puedo personalizar aún más la combinación de colores bitono?
+Absolutamente. Explore la documentación de Aspose.Slides para conocer opciones de personalización avanzadas.
+### ¿Existe una versión de prueba disponible para Aspose.Slides?
+ Sí, puedes descargar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).

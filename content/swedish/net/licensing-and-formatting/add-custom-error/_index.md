@@ -1,6 +1,6 @@
 ---
-title: Lägg till anpassade felstaplar till diagrammet
-linktitle: Lägg till anpassade felstaplar till diagrammet
+title: Lägg till anpassade felfält i diagrammet
+linktitle: Lägg till anpassade felfält i diagrammet
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du skapar fantastiska presentationer med Aspose.Slides för .NET genom att lägga till anpassade felstaplar i dina diagram. Lyft ditt datavisualiseringsspel idag!
 type: docs
@@ -8,7 +8,7 @@ weight: 13
 url: /sv/net/licensing-and-formatting/add-custom-error/
 ---
 
-I en värld av dynamiska presentationer spelar diagram en avgörande roll för att förmedla komplexa data på ett begripligt sätt. Aspose.Slides för .NET ger dig möjlighet att ta ditt presentationsspel till nästa nivå. I den här steg-för-steg-guiden kommer vi att fördjupa oss i processen att lägga till anpassade felstaplar till dina diagram med Aspose.Slides för .NET. Oavsett om du är en erfaren utvecklare eller en nykomling, kommer den här handledningen att gå igenom processen smidigt.
+en värld av dynamiska presentationer spelar diagram en avgörande roll för att förmedla komplexa data på ett begripligt sätt. Aspose.Slides för .NET ger dig möjlighet att ta ditt presentationsspel till nästa nivå. I den här steg-för-steg-guiden kommer vi att fördjupa oss i processen att lägga till anpassade felstaplar till dina diagram med Aspose.Slides för .NET. Oavsett om du är en erfaren utvecklare eller en nykomling, kommer den här handledningen att gå igenom processen smidigt.
 
 ## Förutsättningar
 
@@ -55,7 +55,7 @@ Börja med att skapa en tom PowerPoint-presentation med Aspose.Slides. Detta fun
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    //Din kod för att lägga till ett diagram och anpassade felstaplar kommer hit.
+    // Din kod för att lägga till ett diagram och anpassade felstaplar kommer hit.
     // Vi delar upp detta i efterföljande steg.
     
     // Sparar presentation
@@ -65,7 +65,7 @@ using (Presentation presentation = new Presentation())
 
 ## Steg 3: Lägg till ett bubbeldiagram
 
-I det här steget skapar du ett bubbeldiagram i presentationen. Du kan anpassa diagrammets position och storlek enligt dina krav.
+det här steget skapar du ett bubbeldiagram i presentationen. Du kan anpassa diagrammets position och storlek enligt dina krav.
 
 ```csharp
 // Skapa ett bubbeldiagram

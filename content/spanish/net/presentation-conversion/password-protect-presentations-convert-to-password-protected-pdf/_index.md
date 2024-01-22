@@ -76,4 +76,4 @@ Sí, los archivos PDF protegidos con contraseña ofrecen un mayor nivel de segur
 
 ### ¿Dónde puedo acceder a la documentación de la API de Aspose.Slides para .NET?
 
-Puede acceder a la documentación de Aspose.Slides para .NET en[aquí](https://reference.aspose.com/slides/net/).
+ Puede acceder a la documentación de Aspose.Slides para .NET en[aquí](https://reference.aspose.com/slides/net/).

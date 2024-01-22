@@ -80,13 +80,13 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
 ## Conclusione
 
-In questo tutorial, hai imparato come replicare una diapositiva da una presentazione e aggiungerla alla fine di un'altra presentazione utilizzando Aspose.Slides per .NET. Questa potente libreria semplifica il processo di lavoro con le presentazioni PowerPoint a livello di codice.
+In questo tutorial, hai imparato come replicare una diapositiva da una presentazione e aggiungerla alla fine di un'altra presentazione utilizzando Aspose.Slides per .NET. Questa potente libreria semplifica il processo di lavoro con le presentazioni PowerPoint a livello di programmazione.
 
 ## Domande frequenti
 
 ### Come posso installare Aspose.Slides per .NET?
 
- È possibile scaricare la libreria Aspose.Slides per .NET da[questo link](https://releases.aspose.com/slides/net/). Assicurati di seguire le istruzioni di installazione fornite nella documentazione.
+ È possibile scaricare la libreria Aspose.Slides per .NET da[questo link](https://releases.aspose.com/slides/net/)Assicurati di seguire le istruzioni di installazione fornite nella documentazione.
 
 ### Posso replicare più diapositive contemporaneamente?
 

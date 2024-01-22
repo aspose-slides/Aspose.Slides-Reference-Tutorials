@@ -14,7 +14,7 @@ url: /ar/net/slide-background-manipulation/set-image-as-background/
 
 قبل أن نتعمق في العملية خطوة بخطوة، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. Aspose.Slides لمكتبة .NET: قم بتنزيل وتثبيت Aspose.Slides لمكتبة .NET من[رابط التحميل](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides لمكتبة .NET: قم بتنزيل وتثبيت Aspose.Slides لمكتبة .NET من[رابط التحميل](https://releases.aspose.com/slides/net/).
 
 2. صورة للخلفية: ستحتاج إلى الصورة التي تريد تعيينها كخلفية للشريحة. تأكد من أن لديك ملف الصورة بتنسيق مناسب (على سبيل المثال، .jpg) جاهز للاستخدام.
 

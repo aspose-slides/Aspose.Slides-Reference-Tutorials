@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation(dataDir + "ConvertToPDF.pptx"))
 }
 ```
 
-## Étape 4 : exécutez la conversion
+## Étape 4 : Exécutez la conversion
 
 Maintenant que vos options sont définies, vous pouvez exécuter la conversion PDF. Ce code convertira votre présentation PowerPoint en PDF avec les paramètres personnalisés que vous avez spécifiés.
 

@@ -177,7 +177,7 @@ Para cambiar el color de una línea de tendencia, puede utilizar el`getSolidFill
 
 ### ¿Puedo agregar varias líneas de tendencia a una única serie de gráficos?
 
- Sí, puedes agregar varias líneas de tendencia a una sola serie de gráficos. Simplemente llama al`getTrendLines().add()` método para cada línea de tendencia que desee agregar.
+ Sí, puedes agregar varias líneas de tendencia a una sola serie de gráficos. Simplemente llame al`getTrendLines().add()` método para cada línea de tendencia que desee agregar.
 
 ### ¿Cómo elimino una línea de tendencia de un gráfico en Aspose.Slides para Java?
 

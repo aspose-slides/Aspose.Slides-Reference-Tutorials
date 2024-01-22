@@ -2,7 +2,7 @@
 title: Justera bildens position i presentationen med Aspose.Slides
 linktitle: Justera bildens position i presentationen
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du justerar bildpositioner i PowerPoint-presentationer med Aspose.Slides för .NET. Förbättra din presentationsförmåga!
+description: Lär dig hur du justerar bildpositioner i PowerPoint-presentationer med Aspose.Slides för .NET. Förbättra dina presentationsfärdigheter!
 type: docs
 weight: 23
 url: /sv/net/slide-access-and-manipulation/change-slide-position/
@@ -74,7 +74,7 @@ I det här exemplet kommer vi åt den första bilden (index 0) från presentatio
 sld.SlideNumber = 2;
 ```
 
-det här steget flyttar vi bilden till den andra positionen (index 2). Justera värdet enligt dina krav.
+I det här steget flyttar vi bilden till den andra positionen (index 2). Justera värdet enligt dina krav.
 
 ### Steg 5: Spara presentationen
 

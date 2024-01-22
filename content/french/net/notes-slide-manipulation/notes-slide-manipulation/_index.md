@@ -24,7 +24,7 @@ Commençons maintenant chaque tâche étape par étape.
 
 ## Tâche 1 : Gérer l'en-tête et le pied de page dans la diapositive Notes
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.Slides;
@@ -70,7 +70,7 @@ presentation.Save(dataDir + "testresult.pptx", SaveFormat.Pptx);
 
 ## Tâche 2 : Supprimer les notes d'une diapositive spécifique
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.Slides;
@@ -102,7 +102,7 @@ presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pp
 
 ## Tâche 3 : Supprimer les notes de toutes les diapositives
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.Slides;

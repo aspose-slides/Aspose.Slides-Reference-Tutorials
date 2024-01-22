@@ -1,0 +1,155 @@
+---
+title: Ορισμός γραφήματος χρωμάτων Invert Fill σε Java Slides
+linktitle: Ορισμός γραφήματος χρωμάτων Invert Fill σε Java Slides
+second_title: Aspose.Slides Java PowerPoint Processing API
+description: Μάθετε πώς να ορίζετε τα χρώματα αντιστροφής γεμίσματος για γραφήματα Java Slides χρησιμοποιώντας το Aspose.Slides. Βελτιώστε τις οπτικοποιήσεις των γραφημάτων σας με αυτόν τον αναλυτικό οδηγό και τον πηγαίο κώδικα.
+type: docs
+weight: 22
+url: /el/java/data-manipulation/set-invert-fill-color-chart-java-slides/
+---
+
+## Εισαγωγή στον ορισμό γραφήματος χρωμάτων Invert Fill σε διαφάνειες Java
+
+Σε αυτό το σεμινάριο, θα δείξουμε πώς να ορίσετε το χρώμα αντιστροφής γεμίσματος για ένα γράφημα σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Η αντιστροφή χρώματος γεμίσματος είναι μια χρήσιμη δυνατότητα όταν θέλετε να επισημάνετε αρνητικές τιμές σε ένα γράφημα με ένα συγκεκριμένο χρώμα. Θα παρέχουμε οδηγίες βήμα προς βήμα και τον πηγαίο κώδικα για να το πετύχετε αυτό.
+
+## Προαπαιτούμενα
+
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+
+1. Εγκαταστάθηκε η βιβλιοθήκη Aspose.Slides για Java.
+2. Ρύθμιση περιβάλλοντος ανάπτυξης Java.
+
+## Βήμα 1: Δημιουργήστε μια παρουσίαση
+
+Αρχικά, πρέπει να δημιουργήσουμε μια παρουσίαση στην οποία θα προσθέσουμε το γράφημά μας. Μπορείτε να χρησιμοποιήσετε τον ακόλουθο κώδικα για να δημιουργήσετε μια παρουσίαση:
+
+```java
+// Η διαδρομή προς τον κατάλογο εγγράφων.
+String dataDir = "Your Document Directory";
+Presentation pres = new Presentation();
+```
+
+## Βήμα 2: Προσθέστε ένα γράφημα
+
+Στη συνέχεια, θα προσθέσουμε ένα γράφημα ομαδοποιημένης στήλης στην παρουσίαση. Δείτε πώς μπορείτε να το κάνετε:
+
+```java
+IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 400, 300);
+```
+
+## Βήμα 3: Ρύθμιση δεδομένων γραφήματος
+
+Τώρα, ας ρυθμίσουμε τα δεδομένα γραφήματος, συμπεριλαμβανομένων των σειρών και των κατηγοριών:
+
+```java
+IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
+chart.getChartData().getSeries().clear();
+chart.getChartData().getCategories().clear();
+
+// Προσθήκη νέων σειρών και κατηγοριών
+chart.getChartData().getSeries().add(workBook.getCell(0, 0, 1, "Series 1"), chart.getType());
+chart.getChartData().getCategories().add(workBook.getCell(0, 1, 0, "Category 1"));
+chart.getChartData().getCategories().add(workBook.getCell(0, 2, 0, "Category 2"));
+chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3"));
+```
+
+## Βήμα 4: Συμπλήρωση δεδομένων σειράς
+
+Τώρα, ας συμπληρώσουμε τα δεδομένα της σειράς για το γράφημα:
+
+```java
+IChartSeries series = chart.getChartData().getSeries().get_Item(0);
+series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 1, 1, -20));
+series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 50));
+series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 3, 1, -30));
+```
+
+## Βήμα 5: Ορίστε το χρώμα Invert Fill
+
+Για να ορίσετε το χρώμα αντιστροφής γεμίσματος για τη σειρά γραφημάτων, μπορείτε να χρησιμοποιήσετε τον ακόλουθο κώδικα:
+
+```java
+Color seriesColor = series.getAutomaticSeriesColor();
+series.setInvertIfNegative(true);
+series.getFormat().getFill().setFillType(FillType.Solid);
+series.getFormat().getFill().getSolidFillColor().setColor(seriesColor);
+series.getInvertedSolidFillColor().setColor(Color.RED);
+```
+
+Στον παραπάνω κώδικα, ορίσαμε τη σειρά να αντιστρέφει το χρώμα γεμίσματος για αρνητικές τιμές και καθορίζουμε το χρώμα για το ανεστραμμένο γέμισμα.
+
+## Βήμα 6: Αποθηκεύστε την Παρουσίαση
+
+Τέλος, αποθηκεύστε την παρουσίαση με το γράφημα:
+
+```java
+pres.save(dataDir + "SetInvertFillColorChart_out.pptx", SaveFormat.Pptx);
+```
+
+## Πλήρης Πηγαίος Κώδικας για Σύνολο Χρωματικού Διαγράμματος Αντιστροφής Γέμισης σε Διαφάνειες Java
+
+```java
+// Η διαδρομή προς τον κατάλογο εγγράφων.
+String dataDir = "Your Document Directory";
+Color inverColor = Color.RED;
+Presentation pres = new Presentation();
+try
+{
+IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 400, 300);
+IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
+chart.getChartData().getSeries().clear();
+chart.getChartData().getCategories().clear();
+// Προσθήκη νέων σειρών και κατηγοριών
+chart.getChartData().getSeries().add(workBook.getCell(0, 0, 1, "Series 1"), chart.getType());
+chart.getChartData().getCategories().add(workBook.getCell(0, 1, 0, "Category 1"));
+chart.getChartData().getCategories().add(workBook.getCell(0, 2, 0, "Category 2"));
+chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3"));
+// Πάρτε τις πρώτες σειρές γραφημάτων και συμπληρώστε δεδομένα σειρών.
+IChartSeries series = chart.getChartData().getSeries().get_Item(0);
+series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 1, 1, -20));
+series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 2, 1, 50));
+series.getDataPoints().addDataPointForBarSeries(workBook.getCell(0, 3, 1, -30));
+Color seriesColor = series.getAutomaticSeriesColor();
+series.setInvertIfNegative(true);
+series.getFormat().getFill().setFillType(FillType.Solid);
+series.getFormat().getFill().getSolidFillColor().setColor(seriesColor);
+series.getInvertedSolidFillColor().setColor(Color.RED);
+pres.save(dataDir + "SetInvertFillColorChart_out.pptx", SaveFormat.Pptx);
+}
+finally
+{
+if (pres != null) pres.dispose();
+}
+```
+
+## συμπέρασμα
+
+Σε αυτό το σεμινάριο, σας δείξαμε πώς να ορίσετε το χρώμα αντιστροφής γεμίσματος για ένα γράφημα σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Αυτή η λειτουργία σάς επιτρέπει να επισημάνετε αρνητικές τιμές στα γραφήματα σας με ένα συγκεκριμένο χρώμα, κάνοντας τα δεδομένα σας πιο οπτικά ενημερωτικά.
+
+## Συχνές ερωτήσεις
+
+Σε αυτήν την ενότητα, θα εξετάσουμε ορισμένες συνήθεις ερωτήσεις που σχετίζονται με τη ρύθμιση του χρώματος αντιστροφής γεμίσματος για ένα γράφημα σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java.
+
+### Πώς μπορώ να εγκαταστήσω το Aspose.Slides για Java;
+
+ Μπορείτε να εγκαταστήσετε το Aspose.Slides για Java συμπεριλαμβάνοντας τα αρχεία JAR Aspose.Slides στο έργο σας Java. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από το[Σελίδα λήψης Aspose.Slides for Java](https://releases.aspose.com/slides/java/). Ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται στην τεκμηρίωση για το συγκεκριμένο περιβάλλον ανάπτυξης.
+
+### Μπορώ να προσαρμόσω το χρώμα για το ανεστραμμένο γέμισμα στη σειρά γραφημάτων;
+
+Ναι, μπορείτε να προσαρμόσετε το χρώμα για το ανεστραμμένο γέμισμα στη σειρά γραφημάτων. Στο παρεχόμενο παράδειγμα κώδικα, το`series.getInvertedSolidFillColor().setColor(Color.RED)` γραμμή ορίζει το χρώμα σε κόκκινο για το ανεστραμμένο γέμισμα. Μπορείτε να αντικαταστήσετε`Color.RED` με οποιοδήποτε άλλο χρώμα της επιλογής σας.
+
+### Πώς μπορώ να τροποποιήσω τον τύπο γραφήματος στο Aspose.Slides για Java;
+
+ Μπορείτε να τροποποιήσετε τον τύπο γραφήματος αλλάζοντας το`ChartType` παράμετρο κατά την προσθήκη γραφήματος στην παρουσίαση. Στο παράδειγμα κώδικα, χρησιμοποιήσαμε`ChartType.ClusteredColumn` . Μπορείτε να εξερευνήσετε άλλους τύπους γραφημάτων, όπως γραμμικά γραφήματα, γραφήματα ράβδων, γραφήματα πίτας κ.λπ., καθορίζοντας το κατάλληλο`ChartType` Αριθμός τιμής.
+
+### Πώς μπορώ να προσθέσω πολλές σειρές δεδομένων σε ένα γράφημα;
+
+ Για να προσθέσετε πολλές σειρές δεδομένων σε ένα γράφημα, μπορείτε να χρησιμοποιήσετε το`chart.getChartData().getSeries().add(...)` μέθοδο για κάθε σειρά που θέλετε να προσθέσετε. Φροντίστε να παρέχετε τα κατάλληλα σημεία δεδομένων και ετικέτες για κάθε σειρά, ώστε το γράφημά σας να συμπληρώνεται με πολλές σειρές.
+
+### Υπάρχει τρόπος να προσαρμόσετε άλλες πτυχές της εμφάνισης του γραφήματος;
+
+Ναι, μπορείτε να προσαρμόσετε διάφορες πτυχές της εμφάνισης του γραφήματος, συμπεριλαμβανομένων των ετικετών αξόνων, των τίτλων, των μύθων και άλλων, χρησιμοποιώντας το Aspose.Slides για Java. Ανατρέξτε στην τεκμηρίωση για λεπτομερείς οδηγίες σχετικά με την προσαρμογή των στοιχείων γραφήματος και την εμφάνιση.
+
+### Μπορώ να αποθηκεύσω το γράφημα σε διαφορετικές μορφές;
+
+ Ναι, μπορείτε να αποθηκεύσετε το γράφημα σε διαφορετικές μορφές χρησιμοποιώντας το Aspose.Slides για Java. Στο παρεχόμενο παράδειγμα κώδικα, αποθηκεύσαμε την παρουσίαση ως αρχείο PPTX. Μπορείτε να χρησιμοποιήσετε διαφορετικά`SaveFormat` επιλογές για να το αποθηκεύσετε σε άλλες μορφές όπως PDF, PNG ή SVG, ανάλογα με τις απαιτήσεις σας.

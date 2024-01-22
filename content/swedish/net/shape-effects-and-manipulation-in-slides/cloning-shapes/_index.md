@@ -10,7 +10,7 @@ url: /sv/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 
 ## Introduktion
 
-den dynamiska sfären av presentationer är förmågan att klona former ett viktigt verktyg som avsevärt kan förbättra din process för att skapa innehåll. Aspose.Slides, ett kraftfullt API för att arbeta med presentationsfiler, ger ett sömlöst sätt att klona former i presentationsbilder. Den här omfattande guiden kommer att fördjupa sig i krångligheterna med att klona former i presentationsbilder med Aspose.Slides för .NET. Från grunderna till avancerade tekniker kommer du att upptäcka den verkliga potentialen i den här funktionen.
+I den dynamiska sfären av presentationer är förmågan att klona former ett viktigt verktyg som avsevärt kan förbättra din process för att skapa innehåll. Aspose.Slides, ett kraftfullt API för att arbeta med presentationsfiler, ger ett sömlöst sätt att klona former i presentationsbilder. Den här omfattande guiden kommer att fördjupa sig i krångligheterna med att klona former i presentationsbilder med Aspose.Slides för .NET. Från grunderna till avancerade tekniker kommer du att upptäcka den verkliga potentialen i den här funktionen.
 
 ## Cloning Shapes: The Fundamentals
 
@@ -50,7 +50,7 @@ IShape sourceShape = presentation.Slides[0].Shapes[0];
 
 ### Steg 4: Klona Shape
 
- Använd nu`CloneShape`metod för att skapa en dubblett av källformen. Du kan ange målbilden och positionen för den klonade formen.
+ Använd nu`CloneShape` metod för att skapa en dubblett av källformen. Du kan ange målbilden och positionen för den klonade formen.
 
 ```csharp
 IShape clonedShape = presentation.Slides[1].Shapes.AddClone(sourceShape, x, y, width, height);

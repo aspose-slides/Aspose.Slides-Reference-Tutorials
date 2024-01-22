@@ -17,7 +17,7 @@ Las notas del orador brindan una dimensión única a las presentaciones, permiti
 
 ## Lo que aprenderás
 
-En este tutorial, cubriremos una variedad de temas relacionados con la manipulación de las notas del orador utilizando la biblioteca Aspose.Slides. Aprenderás cómo:
+En este tutorial, cubriremos una variedad de temas relacionados con la manipulación de notas del orador utilizando la biblioteca Aspose.Slides. Aprenderás cómo:
 
 - Acceda a las notas del orador: descubra métodos para acceder y recuperar notas del orador asociadas con cada diapositiva.
 - Agregar notas del orador: aprenda cómo agregar mediante programación nuevas notas del orador a las diapositivas.

@@ -14,7 +14,7 @@ Sunum tasarımı ve otomasyon dünyasında Aspose.Slides for .NET, geliştiricil
 
 Adım adım sürece dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1. Aspose.Slides for .NET Kütüphanesi: Aspose.Slides for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET Kütüphanesi: Aspose.Slides for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/slides/net/).
 
 2. Arka Plan Resmi: Slayt arka planı olarak ayarlamak istediğiniz bir resme ihtiyacınız olacak. Resim dosyasının uygun formatta (örn. .jpg) kullanıma hazır olduğundan emin olun.
 

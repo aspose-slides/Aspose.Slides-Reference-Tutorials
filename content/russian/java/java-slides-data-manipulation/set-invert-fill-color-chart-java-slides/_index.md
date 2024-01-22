@@ -55,7 +55,7 @@ chart.getChartData().getCategories().add(workBook.getCell(0, 3, 0, "Category 3")
 
 ## Шаг 4. Заполнение данных серии
 
-Теперь давайте заполним данные ряда для диаграммы:
+Теперь давайте заполним данные серии для диаграммы:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);

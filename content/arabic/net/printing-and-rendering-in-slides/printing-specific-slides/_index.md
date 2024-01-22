@@ -1,119 +1,61 @@
 ---
-title: طباعة شرائح عرض تقديمي محددة باستخدام Aspose.Slides
+title: طباعة شرائح العرض التقديمي باستخدام Aspose.Slides في .NET
 linktitle: طباعة شرائح عرض تقديمي محددة باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية طباعة شرائح محددة من عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. يغطي دليلنا خطوة بخطوة التثبيت والتخصيص ومعالجة الاستثناءات، مما يوفر طريقة سلسة لأتمتة مهام PowerPoint.
+description: تعرف على كيفية طباعة شرائح العرض التقديمي في .NET باستخدام Aspose.Slides. دليل خطوة بخطوة للمطورين. قم بتنزيل المكتبة وابدأ الطباعة اليوم.
 type: docs
 weight: 18
 url: /ar/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
-
-## مقدمة إلى Aspose.Slides لـ .NET
-
-Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من إنشاء عروض PowerPoint التقديمية وتعديلها وتحويلها برمجياً. فهو يوفر مجموعة واسعة من الميزات للعمل مع العروض التقديمية، بما في ذلك القراءة والكتابة ومعالجة الشرائح وغير ذلك الكثير.
-
+## مقدمة
+في عالم تطوير .NET، تبرز Aspose.Slides كأداة قوية للعمل مع ملفات العروض التقديمية. إذا وجدت نفسك في حاجة إلى طباعة شرائح العرض التقديمي برمجيًا، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سوف نستكشف كيفية تحقيق ذلك باستخدام Aspose.Slides لـ .NET.
 ## المتطلبات الأساسية
-
-قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
-
-- Visual Studio: تأكد من تثبيت Visual Studio على جهازك.
--  Aspose.Slides for .NET: قم بتنزيل وتثبيت Aspose.Slides for .NET Library من[هنا](https://releases.aspose.com/slides/net/).
-
-## التثبيت والإعداد
-
-1. إنشاء مشروع جديد في Visual Studio.
-2. أضف مرجعًا إلى مكتبة Aspose.Slides for .NET في مشروعك.
-3. قم باستيراد مساحات الأسماء الضرورية:
-
+قبل أن نتعمق في الخطوات، تأكد من توفر ما يلي:
+1.  مكتبة Aspose.Slides: تأكد من تثبيت مكتبة Aspose.Slides لـ .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
+2. تكوين الطابعة: تأكد من تكوين الطابعة بشكل صحيح ويمكن الوصول إليها من بيئة .NET الخاصة بك.
+3. بيئة التطوير المتكاملة (IDE): قم بإعداد بيئة تطوير .NET، مثل Visual Studio.
+4. دليل المستندات: حدد الدليل حيث يتم تخزين ملفات العرض التقديمي الخاص بك.
+## استيراد مساحات الأسماء
+في مشروع .NET الخاص بك، قم باستيراد مساحات الأسماء الضرورية للاستفادة من وظائف Aspose.Slides:
 ```csharp
+using System;
 using Aspose.Slides;
+using System.Drawing.Printing;
 ```
-
-## تحميل عرض تقديمي
-
-للبدء، لنقم بتحميل ملف عرض تقديمي باستخدام Aspose.Slides لـ .NET:
-
+## الخطوة 1: إنشاء كائن العرض التقديمي
+هنا، نبدأ كائن عرض تقديمي جديد باستخدام Aspose.Slides. سيكون هذا الكائن بمثابة قماشنا للعمل مع الشرائح.
 ```csharp
-// قم بتحميل العرض التقديمي
-using (Presentation presentation = new Presentation("your-presentation.pptx"))
+using (Presentation presentation = new Presentation())
 {
-    // الرمز الخاص بك هنا
+    // الكود الخاص بك لإنشاء العرض التقديمي موجود هنا
 }
 ```
-
-## طباعة شرائح محددة
-
-الآن، لنتابع طباعة شرائح محددة من العرض التقديمي. يمكنك تحقيق ذلك باستخدام الكود التالي:
-
+## الخطوة 2: تكوين إعدادات الطابعة
+في هذه الخطوة، قمنا بإعداد إعدادات الطابعة. يمكنك تخصيص عدد النسخ واتجاه الصفحة والهوامش والإعدادات الأخرى ذات الصلة بناءً على متطلباتك.
 ```csharp
-// حدد أرقام الشرائح المراد طباعتها
-int[] slideNumbers = new int[] { 2, 4, 6 };
-
-// كرر أرقام الشرائح واطبع كل شريحة
-foreach (int slideNumber in slideNumbers)
-{
-    using (Presentation presentation = new Presentation("your-presentation.pptx"))
-    {
-        // اطبع الشريحة المحددة
-        presentation.Print(slideNumber, "printer-name");
-    }
-}
+PrinterSettings printerSettings = new PrinterSettings();
+printerSettings.Copies = 2;
+printerSettings.DefaultPageSettings.Landscape = true;
+printerSettings.DefaultPageSettings.Margins.Left = 10;
+// ... أضف أي إعدادات أخرى ضرورية للطابعة
 ```
-
-## تخصيص إعدادات الطباعة
-
-يمكنك تخصيص إعدادات الطباعة وفقًا لمتطلباتك. فيما يلي مثال لكيفية تعيين خيارات الطباعة المختلفة:
-
+## الخطوة 3: طباعة العرض التقديمي إلى الطابعة المطلوبة
+ وأخيراً نستخدم`Print` طريقة لإرسال العرض التقديمي إلى الطابعة المحددة. تأكد من استبدال العنصر النائب بالاسم الفعلي لطابعتك.
 ```csharp
-// تحديد خيارات الطباعة
-PrintOptions printOptions = new PrintOptions
-{
-    NumberOfCopies = 2,
-    SlideTransitions = false,
-    Grayscale = true
-};
-
-// اطبع الشريحة باستخدام الإعدادات المخصصة
-presentation.Print(slideNumber, "printer-name", printOptions);
+presentation.Print(printerSettings, "Please set your printer name here");
 ```
-
-## التعامل مع الاستثناءات
-
-عند العمل مع أي مكتبة، بما في ذلك Aspose.Slides for .NET، من الضروري التعامل مع الاستثناءات بشكل صحيح. قم بلف التعليمات البرمجية الخاصة بك في كتل محاولة الالتقاط للتعامل مع الاستثناءات بأمان:
-
-```csharp
-try
-{
-    // الرمز الخاص بك هنا
-}
-catch (Exception ex)
-{
-    Console.WriteLine("An error occurred: " + ex.Message);
-}
-```
-
+تذكر استبدال "دليل المستندات الخاص بك" و"الرجاء تعيين اسم الطابعة الخاصة بك هنا" بمسار دليل المستند الفعلي واسم الطابعة، على التوالي.
+الآن، دعونا نقسم كل خطوة لفهم ما يحدث.
 ## خاتمة
-
-في هذا الدليل، تعلمنا كيفية طباعة شرائح معينة من عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for .NET. لقد قمنا بتغطية تحميل العروض التقديمية وطباعة الشرائح وتخصيص إعدادات الطباعة ومعالجة الاستثناءات. يعمل Aspose.Slides for .NET على تسهيل أتمتة المهام المتعلقة ببرنامج PowerPoint وتحقيق نتائج فعالة.
-
+تعد طباعة شرائح العرض التقديمي برمجيًا باستخدام Aspose.Slides for .NET عملية مباشرة. باتباع هذه الخطوات، يمكنك دمج هذه الوظيفة بسلاسة في تطبيقات .NET الخاصة بك.
 ## الأسئلة الشائعة
-
-### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل أحدث إصدار من Aspose.Slides لـ .NET من[هنا](https://releases.aspose.com/slides/net/).
-
-### هل يمكنني طباعة نسخ متعددة من شريحة معينة؟
-
- نعم، يمكنك طباعة نسخ متعددة من شريحة معينة عن طريق ضبط الإعداد`NumberOfCopies` الخاصية في خيارات الطباعة.
-
-### هل يتوافق Aspose.Slides for .NET مع تنسيقات PowerPoint المختلفة؟
-
-نعم، يدعم Aspose.Slides for .NET تنسيقات PowerPoint المتنوعة، بما في ذلك PPTX وPPT.
-
-### هل يمكنني طباعة الشرائح مع الرسوم المتحركة والانتقالات؟
-
- يمكنك اختيار ما إذا كنت تريد تضمين انتقالات الشرائح والرسوم المتحركة عند الطباعة عن طريق تعيين الخيارات المناسبة في`PrintOptions` فصل.
-
-### أين يمكنني الوصول إلى مزيد من الوثائق الخاصة بـ Aspose.Slides لـ .NET؟
-
- يمكنك العثور على وثائق وأمثلة تفصيلية لـ Aspose.Slides لـ .NET[هنا](https://reference.aspose.com/slides/net/).
+### س: هل يمكنني استخدام Aspose.Slides لطباعة شرائح معينة بدلاً من العرض التقديمي بأكمله؟
+ج: نعم، يمكنك تحقيق ذلك عن طريق تعديل الكود لطباعة شرائح محددة بشكل انتقائي.
+### س: هل هناك أي متطلبات ترخيص لاستخدام Aspose.Slides؟
+ ج: نعم، تأكد من حصولك على الترخيص المناسب. يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+### س: أين يمكنني العثور على دعم إضافي أو طرح أسئلة حول Aspose.Slides؟
+ ج: قم بزيارة Aspose.Slides[منتدى الدعم](https://forum.aspose.com/c/slides/11) للمساعدة.
+### س: هل يمكنني تجربة Aspose.Slides مجانًا قبل الشراء؟
+ج: بالتأكيد! يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+### س: كيف يمكنني شراء Aspose.Slides لـ .NET؟
+ ج: يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).

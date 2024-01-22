@@ -70,7 +70,7 @@ if (!headerFooterManager.IsFooterVisible)
 }
 ```
 
-### Schritt 5: Legen Sie die Sichtbarkeit der Foliennummer fest
+### Schritt 5: Stellen Sie die Sichtbarkeit der Foliennummer ein
 
  Ebenso können Sie die Sichtbarkeit des Platzhalters für die Seitenzahl der Folie mithilfe von steuern`SetSlideNumberVisibility` Methode.
 

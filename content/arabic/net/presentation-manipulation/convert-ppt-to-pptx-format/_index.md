@@ -43,13 +43,13 @@ string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 // إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف PPT
 Presentation pres = new Presentation(srcFileName);
 
-// حفظ العرض التقديمي بتنسيق PPTX
+//حفظ العرض التقديمي بتنسيق PPTX
 pres.Save(outPath, SaveFormat.Pptx);
 ```
 
 في مقتطف الشفرة هذا:
 
-- `dataDir`يجب استبداله بمسار الدليل حيث يوجد ملف PPT الخاص بك.
+- `dataDir` يجب استبداله بمسار الدليل حيث يوجد ملف PPT الخاص بك.
 - `outPath` يجب استبداله بالدليل الذي تريد حفظ ملف PPTX المحول فيه.
 - `srcFileName` هو اسم ملف الإدخال PPT الخاص بك.
 - `destFileName` هو الاسم المطلوب لملف الإخراج PPTX.

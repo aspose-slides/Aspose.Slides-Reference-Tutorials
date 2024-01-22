@@ -1,118 +1,62 @@
 ---
-title: Tillämpa 3D-rotationseffekt på former i presentationsbilder med Aspose.Slides
-linktitle: Tillämpa 3D-rotationseffekt på former i presentationsbilder med Aspose.Slides
+title: Bemästra 3D-rotation i presentationer med Aspose.Slides för .NET
+linktitle: Tillämpa 3D-rotationseffekt på former i presentationsbilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du använder fängslande 3D-rotationseffekter på presentationsbilder med Aspose.Slides för .NET. Steg-för-steg-guide med källkod för fantastisk visuell effekt.
+description: Förbättra dina presentationer med Aspose.Slides för .NET! Lär dig att tillämpa 3D-rotationseffekter på former i den här handledningen. Skapa dynamisk och visuellt fantastisk presentation.
 type: docs
 weight: 23
 url: /sv/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
-
-Föreställ dig att ge din presentation en fantastisk visuell effekt genom att lägga till dynamiska 3D-rotationseffekter till former. Med Aspose.Slides för .NET kan du enkelt uppnå denna fängslande effekt och få dina bilder att sticka ut. I den här handledningen guidar vi dig genom processen att tillämpa 3D-rotationseffekter på former i presentationsbilder steg för steg. Vi kommer att förse dig med källkoden och förklara varje steg i detalj. Låt oss dyka in!
-
-## Introduktion till 3D-rotationseffekter
-
-3D-rotationseffekter ger djup och realism till dina presentationsbilder. De låter dig få former att se ut som om de roterar i tredimensionellt utrymme, vilket skapar en engagerande visuell upplevelse för din publik.
-
-## Konfigurera din utvecklingsmiljö
-
- Innan vi börjar, se till att du har Aspose.Slides för .NET installerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
-
-## Skapa en presentation
-
-För att komma igång, låt oss skapa en ny presentation:
-
+## Introduktion
+Att skapa engagerande och dynamiska presentationsbilder är en nyckelaspekt för effektiv kommunikation. Aspose.Slides för .NET tillhandahåller en kraftfull uppsättning verktyg för att förbättra dina presentationer, inklusive möjligheten att tillämpa 3D-rotationseffekter på former. I den här handledningen kommer vi att gå igenom processen att tillämpa en 3D-rotationseffekt på former i presentationsbilder med Aspose.Slides för .NET.
+## Förutsättningar
+Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
+-  Aspose.Slides för .NET: Se till att du har Aspose.Slides-biblioteket för .NET installerat. Du kan ladda ner den från[hemsida](https://releases.aspose.com/slides/net/).
+- Utvecklingsmiljö: Konfigurera en .NET-utvecklingsmiljö, som Visual Studio, för att skriva och köra din kod.
+## Importera namnområden
+I ditt .NET-projekt importerar du de nödvändiga namnområdena för att dra nytta av funktionerna i Aspose.Slides. Inkludera följande namnrymder i början av koden:
 ```csharp
-// Initiera en presentation
-Presentation presentation = new Presentation();
+using System.Drawing;
+using Aspose.Slides.Export;
+using Aspose.Slides;
 ```
-
-## Lägga till former till bilder
-
-Låt oss nu lägga till några former till våra bilder:
-
+## Steg 1: Konfigurera ditt projekt
+Skapa ett nytt projekt i din föredragna .NET-utvecklingsmiljö. Se till att du har lagt till Aspose.Slides-referensen till ditt projekt.
+## Steg 2: Initiera presentationen
+Instantiera en presentationsklass för att börja arbeta med bilder:
 ```csharp
-// Gå till den första bilden
-ISlide slide = presentation.Slides[0];
-
-// Lägg till en rektangelform
-IShape shape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
+Presentation pres = new Presentation();
 ```
-
-## Tillämpa 3D-rotationseffekt
-
-För att tillämpa en 3D-rotationseffekt på formen, använd följande kod:
-
+## Steg 3: Lägg till AutoShape
+Lägg till en AutoShape till bilden och ange dess typ, position och dimensioner:
 ```csharp
-// Applicera 3D-rotationseffekt på formen
-shape.ThreeDFormat.RotationX = 30;
-shape.ThreeDFormat.RotationY = 45;
+IShape autoShape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 30, 30, 200, 200);
 ```
-
-## Justera rotationsvinkel och perspektiv
-
-Du kan justera rotationsvinkeln och perspektivet för att uppnå önskad effekt:
-
+## Steg 4: Ställ in 3D-rotationseffekt
+Konfigurera 3D-rotationseffekten för AutoShape:
 ```csharp
-// Justera rotationsvinkel och perspektiv
-shape.ThreeDFormat.RotationX = 60;
-shape.ThreeDFormat.RotationY = 30;
-shape.ThreeDFormat.PresetCamera.PresetType = CameraPresetType.OrthographicFront;
+autoShape.ThreeDFormat.Depth = 6;
+autoShape.ThreeDFormat.Camera.SetRotation(40, 35, 20);
+autoShape.ThreeDFormat.Camera.CameraType = CameraPresetType.IsometricLeftUp;
+autoShape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Balanced;
 ```
-
-## Finjustera rotationsinställningar
-
-För mer exakt kontroll kan du finjustera rotationsinställningarna:
-
+## Steg 5: Spara presentationen
+Spara den modifierade presentationen med den tillämpade 3D-rotationseffekten:
 ```csharp
-// Finjustera rotationsinställningarna
-shape.ThreeDFormat.RotationX = 45;
-shape.ThreeDFormat.RotationY = 15;
-shape.ThreeDFormat.RotationZ = 10;
+pres.Save("Your Document Directory" + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
-
-## Lägga till animering (valfritt)
-
-Så här lägger du till animering till rotationseffekten:
-
-```csharp
-// Lägg till animation till rotationseffekten
-ITransition transition = slide.SlideShowTransition;
-transition.AdvanceOnTime = true;
-transition.AdvanceTime = 2; // sekunder
-```
-
-## Spara och exportera din presentation
-
-Efter att ha tillämpat 3D-rotationseffekten och andra önskade justeringar, spara och exportera din presentation:
-
-```csharp
-// Spara och exportera presentation
-presentation.Save("output.pptx", SaveFormat.Pptx);
-```
-
+## Steg 6: Upprepa för andra former
+Om du har ytterligare former, upprepa steg 3 till 5 för varje form.
 ## Slutsats
-
-Grattis! Du har framgångsrikt lärt dig hur du tillämpar 3D-rotationseffekter på former i presentationsbilder med Aspose.Slides för .NET. Den här tekniken kan avsevärt förbättra det visuella tilltalande av dina presentationer och hålla din publik engagerad.
-
+Att lägga till 3D-rotationseffekter till former i dina presentationsbilder kan avsevärt förbättra deras visuella tilltalande. Med Aspose.Slides för .NET blir denna process enkel, så att du kan skapa fängslande presentationer.
 ## Vanliga frågor
-
-### Hur kan jag justera animationens rotationshastighet?
-
- Du kan justera rotationshastigheten genom att ändra`AdvanceTime` egendom i övergångsinställningarna.
-
-### Kan jag använda 3D-rotation på textrutor?
-
-Ja, du kan använda 3D-rotationseffekter på textrutor eller andra former i din presentation.
-
-### Är Aspose.Slides kompatibel med olika PowerPoint-versioner?
-
-Ja, Aspose.Slides är kompatibel med olika PowerPoint-versioner och låter dig skapa presentationer som kan öppnas och visas med olika PowerPoint-program.
-
-### Kan jag använda flera 3D-effekter på en enda form?
-
-Ja, du kan kombinera flera 3D-effekter, som rotation, djup och belysning, för att skapa komplexa visuella effekter för dina former.
-
-### Ger Aspose.Slides stöd för andra typer av animationer?
-
-Ja, Aspose.Slides erbjuder ett brett utbud av animationseffekter som du kan använda på dina presentationsbilder för att göra dem mer dynamiska och engagerande.
+### Kan jag använda 3D-rotation på textrutor i Aspose.Slides för .NET?
+Ja, du kan använda 3D-rotationseffekter på olika former, inklusive textrutor, med Aspose.Slides.
+### Finns det en testversion av Aspose.Slides för .NET tillgänglig?
+ Ja, du kan komma åt testversionen[här](https://releases.aspose.com/).
+### Hur kan jag få support för Aspose.Slides för .NET?
+ Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
+### Kan jag köpa en tillfällig licens för Aspose.Slides för .NET?
+ Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+### Var kan jag hitta detaljerad dokumentation för Aspose.Slides för .NET?
+ Dokumentationen finns tillgänglig[här](https://reference.aspose.com/slides/net/).

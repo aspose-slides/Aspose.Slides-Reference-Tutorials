@@ -18,7 +18,7 @@ Avant de plonger dans le didacticiel, présentons brièvement Aspose.Slides pour
 
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-- Aspose.Slides pour .NET : la bibliothèque Aspose.Slides doit être installée dans votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides pour .NET : la bibliothèque Aspose.Slides doit être installée dans votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
 
 ## Étape 1 : Configurez votre projet
 

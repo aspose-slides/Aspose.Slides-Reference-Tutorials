@@ -2,107 +2,61 @@
 title: Crear miniatura con límites para la forma en Aspose.Slides
 linktitle: Crear miniatura con límites para la forma en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda a crear miniaturas personalizadas para formas dentro de presentaciones de PowerPoint usando Aspose.Slides para .NET. Esta guía paso a paso proporciona ejemplos de código fuente y cubre la carga de presentaciones, el acceso a formas, la definición de límites de miniaturas, la renderización, el guardado y más.
+description: ¡Desbloquee el poder de Aspose.Slides para .NET! Aprenda a crear miniaturas de formas sin esfuerzo con límites utilizando nuestra guía paso a paso.
 type: docs
 weight: 10
 url: /es/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-## Introducción a la creación de miniaturas con límites de forma
-
-Cuando se trata de trabajar con presentaciones, Aspose.Slides para .NET proporciona un potente conjunto de herramientas que permiten a los desarrolladores manipular diversos aspectos de las diapositivas, las formas y el contenido. Una tarea común es crear miniaturas con límites específicos para formas dentro de las diapositivas. Esta guía paso a paso lo guiará a través del proceso para lograrlo utilizando Aspose.Slides para .NET. ¡Vamos a sumergirnos!
-
+## Introducción
+Si es un desarrollador de .NET y busca una solución sólida para crear imágenes en miniatura con límites para formas en presentaciones de PowerPoint, Aspose.Slides para .NET es su herramienta de referencia. Esta poderosa biblioteca proporciona una integración perfecta, lo que le permite manipular y extraer de manera eficiente información valiosa de archivos de PowerPoint. En este tutorial, recorreremos el proceso de creación de una miniatura con límites para una forma usando Aspose.Slides.
 ## Requisitos previos
-
-Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
-
-- Visual Studio o cualquier IDE compatible
-- Aspose.Slides para la biblioteca .NET
-- Conocimientos básicos de C# y .NET.
-
-## Configurando el proyecto
-
-1. Cree un nuevo proyecto de C# en su IDE.
-2.  Descargue e instale la biblioteca Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net/).
-3. Agregue referencias a las DLL de Aspose.Slides en su proyecto.
-
-## Cargando una presentación
-
-Para comenzar, debes cargar la presentación de PowerPoint que contiene la diapositiva con la forma para la que deseas crear una miniatura. Así es como puedes hacerlo:
-
-```csharp
-using Aspose.Slides;
-
-// Cargar la presentación
-using Presentation presentation = new Presentation("your-presentation.pptx");
-```
-
-## Accediendo a formas
-
-Una vez cargada la presentación, debes acceder a la forma específica para la que deseas crear una miniatura. Puedes hacer esto iterando a través de las diapositivas y formas:
-
-```csharp
-// Obtenga la primera diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Obtener la forma por su índice (basado en 0)
-IShape shape = slide.Shapes[0];
-```
-
-## Crear miniaturas con límites
-
-Ahora viene la parte en la que creas una miniatura de la forma con límites específicos. Esto implica algunos pasos:
-
-1. Cree un mapa de bits con las dimensiones deseadas.
-2.  Renderice la forma en el mapa de bits usando el`RenderToGraphics` método.
-
-Así es como se hace:
-
+Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+1.  Biblioteca Aspose.Slides para .NET: descargue e instale la biblioteca Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/slides/net/).
+2. Su directorio de documentos: reemplace "Su directorio de documentos" en el fragmento de código con la ruta real a su directorio de documentos.
+## Importar espacios de nombres
+Comience importando los espacios de nombres necesarios para aprovechar la funcionalidad de Aspose.Slides. Agregue el siguiente código al comienzo de su proyecto:
 ```csharp
 using System.Drawing;
-
-// Definir los límites de la miniatura.
-Rectangle bounds = new Rectangle(0, 0, 200, 150);
-
-// Crear un mapa de bits con los límites especificados
-using Bitmap thumbnailBitmap = new Bitmap(bounds.Width, bounds.Height);
-
-// Renderizar la forma en el mapa de bits
-using Graphics graphics = Graphics.FromImage(thumbnailBitmap);
-shape.RenderToGraphics(graphics, bounds);
+using System.Drawing.Imaging;
+using Aspose.Slides;
 ```
-
-## Guardar la salida
-
-Después de crear la miniatura, es posible que desees guardarla en un archivo. Puedes hacer esto usando el siguiente código:
-
+Ahora, dividamos el código proporcionado en varios pasos para una comprensión integral:
+## Paso 1: crear una instancia de la clase de presentación
 ```csharp
-// Guarde la miniatura en un archivo
-thumbnailBitmap.Save("thumbnail.png", ImageFormat.Png);
+string dataDir = "Your Documents Directory";
+// Crear una instancia de una clase de presentación que represente el archivo de presentación
+using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
+{
+    // El objeto de presentación ahora está listo para una mayor manipulación.
+}
 ```
-
+ En este paso, inicializamos Aspose.Slides.`Presentation` clase, que representa el archivo de presentación de PowerPoint. El`using` La declaración garantiza la eliminación adecuada de los recursos una vez que se sale del bloque.
+## Paso 2: crea una imagen de forma encuadernada
+```csharp
+// Crear una imagen de forma vinculada a la apariencia
+using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Appearance, 1, 1))
+{
+    // El objeto de mapa de bits ahora contiene la imagen en miniatura con límites especificados.
+}
+```
+ Este paso implica crear una imagen en miniatura de una forma con límites específicos. Aquí,`ShapeThumbnailBounds.Appearance`se utiliza para definir los límites de apariencia. Ajuste los parámetros (1, 1) según sus necesidades.
+## Paso 3: guarde la imagen en el disco
+```csharp
+// Guarde la imagen en el disco en formato PNG
+bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
+```
+En este paso final, la imagen en miniatura generada se guarda en el disco en formato PNG. Puede personalizar el nombre del archivo y el formato según sus preferencias.
+¡Ahora ha creado con éxito una miniatura con límites para una forma usando Aspose.Slides para .NET! Este proceso es eficiente y se puede integrar perfectamente en sus proyectos .NET para manejar presentaciones de PowerPoint.
 ## Conclusión
-
-En esta guía, hemos recorrido el proceso de creación de una miniatura con límites específicos para una forma dentro de una presentación de PowerPoint usando Aspose.Slides para .NET. Esta biblioteca proporciona una manera perfecta de manipular presentaciones mediante programación y realizar tareas que agilizan su flujo de trabajo.
-
+Aspose.Slides para .NET simplifica el proceso de trabajar con presentaciones de PowerPoint, brindando a los desarrolladores herramientas poderosas para tareas como crear miniaturas con límites para formas. Al seguir esta guía paso a paso, obtendrá información sobre cómo utilizar eficientemente esta biblioteca para sus proyectos .NET.
 ## Preguntas frecuentes
-
-### ¿Cómo puedo instalar Aspose.Slides para .NET?
-
- Para instalar Aspose.Slides para .NET, puede descargar la biblioteca desde la página de lanzamientos:[aquí](https://releases.aspose.com/slides/net/).
-
-### ¿Puedo crear miniaturas para múltiples formas?
-
-Sí, puede recorrer las formas en una diapositiva y repetir el proceso de creación de miniaturas para cada forma individualmente.
-
-### ¿Qué formatos de imagen se admiten para guardar miniaturas?
-
-Aspose.Slides para .NET admite varios formatos de imagen para guardar miniaturas, incluidos PNG, JPEG, GIF y BMP.
-
-### ¿Aspose.Slides es adecuado tanto para aplicaciones web como de escritorio?
-
-Sí, Aspose.Slides para .NET es versátil y se puede utilizar tanto en aplicaciones web como de escritorio para trabajar con presentaciones de PowerPoint mediante programación.
-
-### ¿Cómo puedo obtener más información sobre Aspose.Slides para .NET?
-
- Para obtener información más detallada, tutoriales y documentación, puede visitar el[Referencia de Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
+### ¿Aspose.Slides es compatible con el último marco .NET?
+Sí, Aspose.Slides se actualiza periódicamente para garantizar la compatibilidad con las últimas versiones de .NET Framework.
+### ¿Puedo utilizar Aspose.Slides para proyectos comerciales?
+¡Absolutamente! Aspose.Slides ofrece opciones de licencia para uso individual y comercial. Visita[aquí](https://purchase.aspose.com/buy) para explorar los detalles de la licencia.
+### ¿Hay una prueba gratuita disponible para Aspose.Slides?
+ Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/) para explorar las funciones antes de realizar una compra.
+### ¿Cómo puedo obtener soporte para Aspose.Slides?
+ Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para conectarse con la comunidad y buscar ayuda de desarrolladores experimentados.
+### ¿Puedo obtener una licencia temporal para Aspose.Slides?
+ Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para las necesidades de proyectos a corto plazo.

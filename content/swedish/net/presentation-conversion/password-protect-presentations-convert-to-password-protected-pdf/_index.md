@@ -76,4 +76,4 @@ Ja, lösenordsskyddade PDF-filer erbjuder en högre säkerhetsnivå eftersom de 
 
 ### Var kan jag komma åt Aspose.Slides för .NET API-dokumentationen?
 
-Du kan komma åt dokumentationen för Aspose.Slides för .NET på[här](https://reference.aspose.com/slides/net/).
+ Du kan komma åt dokumentationen för Aspose.Slides för .NET på[här](https://reference.aspose.com/slides/net/).

@@ -86,7 +86,7 @@ Bu eğitimde Aspose.Slides for .NET kullanarak bir sunumdaki slaytı nasıl kopy
 
 ### Aspose.Slides for .NET'i nasıl kurabilirim?
 
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/). Belgelerinde sağlanan kurulum talimatlarını takip ettiğinizden emin olun.
+ Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/)Belgelerinde sağlanan kurulum talimatlarını takip ettiğinizden emin olun.
 
 ### Birden fazla slaytı aynı anda çoğaltabilir miyim?
 

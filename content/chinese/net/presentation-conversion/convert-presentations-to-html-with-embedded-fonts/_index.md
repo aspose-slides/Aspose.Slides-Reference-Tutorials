@@ -18,7 +18,7 @@ url: /zh/net/presentation-conversion/convert-presentations-to-html-with-embedded
 
 在开始之前，请确保您具备以下先决条件：
 
-- Aspose.Slides for .NET：您应该在项目中安装 Aspose.Slides 库。您可以从以下位置下载：[这里](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：您应该在项目中安装 Aspose.Slides 库。您可以从以下位置下载：[这里](https://releases.aspose.com/slides/net/).
 
 ## 第 1 步：设置您的项目
 

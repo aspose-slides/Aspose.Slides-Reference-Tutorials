@@ -94,7 +94,7 @@ La conversion de présentations au format PDF est facilitée avec Aspose.Slides 
 
 ### Combien coûte Aspose.Slides pour .NET ?
 
- Pour des informations détaillées sur les prix, veuillez visiter le[Tarifs Aspose.Slides](https://purchase.aspose.com/admin/pricing/slides/family) page.
+Pour des informations détaillées sur les prix, veuillez visiter le[Tarifs Aspose.Slides](https://purchase.aspose.com/admin/pricing/slides/family) page.
 
 ### Puis-je utiliser Aspose.Slides pour .NET dans mon application Web ?
 

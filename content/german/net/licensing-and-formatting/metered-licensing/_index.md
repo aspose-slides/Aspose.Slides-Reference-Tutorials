@@ -20,7 +20,7 @@ Bevor Sie in die Welt von Aspose.Slides für .NET eintauchen, müssen Sie einige
 
 2. Visual Studio: Zum Codieren muss Visual Studio auf Ihrem System installiert sein.
 
-3. Aspose.Slides-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für .NET heruntergeladen und installiert haben. Die Bibliothek und weitere Anleitungen finden Sie unter[dieser Link](https://releases.aspose.com/slides/net/).
+3.  Aspose.Slides-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für .NET heruntergeladen und installiert haben. Die Bibliothek und weitere Anleitungen finden Sie unter[dieser Link](https://releases.aspose.com/slides/net/).
 
 Nachdem Sie nun fertig sind, beginnen wir unsere Reise in Aspose.Slides für .NET.
 

@@ -8,7 +8,7 @@ weight: 12
 url: /sv/net/licensing-and-formatting/add-color-to-data-points/
 ---
 
-den här steg-för-steg-guiden går vi igenom processen att lägga till färg på datapunkter i ett diagram med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek för att arbeta med PowerPoint-presentationer i .NET-applikationer. Att lägga till färg på datapunkter i ett diagram kan göra dina presentationer mer visuellt tilltalande och lättare att förstå.
+I den här steg-för-steg-guiden går vi igenom processen att lägga till färg på datapunkter i ett diagram med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek för att arbeta med PowerPoint-presentationer i .NET-applikationer. Att lägga till färg på datapunkter i ett diagram kan göra dina presentationer mer visuellt tilltalande och lättare att förstå.
 
 ## Förutsättningar
 
@@ -16,7 +16,7 @@ Innan du börjar, se till att du har följande förutsättningar på plats:
 
 1. Visual Studio: Du behöver Visual Studio installerat på din dator.
 
-2.  Aspose.Slides för .NET: Ladda ner och installera Aspose.Slides för .NET från[nedladdningslänk](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides för .NET: Ladda ner och installera Aspose.Slides för .NET från[nedladdningslänk](https://releases.aspose.com/slides/net/).
 
 3. En grundläggande förståelse för C#: Du bör ha en grundläggande kunskap om C#-programmering.
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation())
 
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Sunburst, 100, 100, 450, 400);
     
-    //Resten av koden kommer att läggas till i följande steg.
+    // Resten av koden kommer att läggas till i följande steg.
 }
 ```
 

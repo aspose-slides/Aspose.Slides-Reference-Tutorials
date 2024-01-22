@@ -18,7 +18,7 @@ Eğitime dalmadan önce Aspose.Slides for .NET'i kısaca tanıtalım. Geliştiri
 
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- Aspose.Slides for .NET: Projenizde Aspose.Slides kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Projenizde Aspose.Slides kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
 ## 1. Adım: Projenizi Kurun
 

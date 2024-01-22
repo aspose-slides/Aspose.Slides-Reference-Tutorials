@@ -76,4 +76,4 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 
 ### Где я могу получить доступ к документации Aspose.Slides for .NET API?
 
-Вы можете получить доступ к документации по Aspose.Slides для .NET по адресу[здесь](https://reference.aspose.com/slides/net/).
+ Вы можете получить доступ к документации по Aspose.Slides для .NET по адресу[здесь](https://reference.aspose.com/slides/net/).

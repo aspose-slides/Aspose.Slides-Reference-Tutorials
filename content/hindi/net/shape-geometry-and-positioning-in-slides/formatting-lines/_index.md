@@ -1,0 +1,77 @@
+---
+title: Aspose.Slides .NET ट्यूटोरियल के साथ प्रस्तुति पंक्तियों को प्रारूपित करें
+linktitle: Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में पंक्तियों को फ़ॉर्मेट करना
+second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग एपीआई
+description: .NET के लिए Aspose.Slides के साथ अपनी प्रेजेंटेशन स्लाइड्स को बेहतर बनाएं। पंक्तियों को सहजता से फ़ॉर्मेट करने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें। अभी निशुल्क परीक्षण डाउनलोड करें!
+type: docs
+weight: 10
+url: /hi/net/shape-geometry-and-positioning-in-slides/formatting-lines/
+---
+## परिचय
+प्रभावी संचार के लिए दृश्य रूप से आकर्षक प्रस्तुति स्लाइड बनाना आवश्यक है। .NET के लिए Aspose.Slides प्रस्तुति तत्वों को प्रोग्रामेटिक रूप से हेरफेर करने और प्रारूपित करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में लाइनों को फ़ॉर्मेट करने पर ध्यान केंद्रित करेंगे।
+## आवश्यक शर्तें
+इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+-  .NET लाइब्रेरी के लिए Aspose.Slides: लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[Aspose.Slides .NET दस्तावेज़ीकरण](https://reference.aspose.com/slides/net/).
+- विकास वातावरण: विजुअल स्टूडियो या किसी अन्य संगत आईडीई के साथ एक .NET विकास वातावरण स्थापित करें।
+## नामस्थान आयात करें
+अपनी C# कोड फ़ाइल में, Aspose.Slides की कार्यक्षमता का लाभ उठाने के लिए आवश्यक नामस्थान शामिल करें:
+```csharp
+using System.IO;
+using Aspose.Slides;
+using System.Drawing;
+using Aspose.Slides.Export;
+```
+## चरण 1: अपना प्रोजेक्ट सेट करें
+अपने पसंदीदा विकास परिवेश में एक नया प्रोजेक्ट बनाएं और Aspose.Slides लाइब्रेरी में एक संदर्भ जोड़ें।
+## चरण 2: प्रस्तुति आरंभ करें
+```csharp
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
+{
+```
+## चरण 3: पहली स्लाइड तक पहुंचें
+```csharp
+ISlide sld = pres.Slides[0];
+```
+## चरण 4: आयत ऑटोशेप जोड़ें
+```csharp
+IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 75);
+```
+## चरण 5: आयत भरण रंग सेट करें
+```csharp
+shp.FillFormat.FillType = FillType.Solid;
+shp.FillFormat.SolidFillColor.Color = Color.White;
+```
+## चरण 6: लाइन पर फ़ॉर्मेटिंग लागू करें
+```csharp
+shp.LineFormat.Style = LineStyle.ThickThin;
+shp.LineFormat.Width = 7;
+shp.LineFormat.DashStyle = LineDashStyle.Dash;
+```
+## चरण 7: लाइन रंग सेट करें
+```csharp
+shp.LineFormat.FillFormat.FillType = FillType.Solid;
+shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Blue;
+```
+## चरण 8: प्रस्तुति सहेजें
+```csharp
+pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
+}
+```
+अब आपने .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड में पंक्तियों को सफलतापूर्वक स्वरूपित कर लिया है!
+## निष्कर्ष
+.NET के लिए Aspose.Slides प्रस्तुति तत्वों को प्रोग्रामेटिक रूप से हेरफेर करने की प्रक्रिया को सरल बनाता है। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप आसानी से अपनी स्लाइड की दृश्य अपील को बढ़ा सकते हैं।
+## अक्सर पूछे जाने वाले प्रश्नों
+### Q1: क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
+हाँ, Aspose.Slides जावा और पायथन सहित विभिन्न प्रोग्रामिंग भाषाओं का समर्थन करता है।
+### Q2: क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+ हां, आप यहां से नि:शुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[Aspose.Slides निःशुल्क परीक्षण](https://releases.aspose.com/).
+### Q3: मुझे अतिरिक्त सहायता कहां मिल सकती है या प्रश्न पूछ सकते हैं?
+ दौरा करना[Aspose.स्लाइड्स फोरम](https://forum.aspose.com/c/slides/11) समर्थन और सामुदायिक सहायता के लिए।
+### Q4: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
+ आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[Aspose.स्लाइड्स अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+### Q5: मैं .NET के लिए Aspose.Slides कहां से खरीद सकता हूं?
+ आप यहां से उत्पाद खरीद सकते हैं[Aspose.स्लाइड्स खरीद](https://purchase.aspose.com/buy).

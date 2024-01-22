@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 När du har identifierat en OLE-objektram kan du extrahera dess data för manipulation. Om OLE-objektet till exempel är ett inbäddat Excel-kalkylblad kan du komma åt dess data enligt följande:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // Bearbeta rådata efter behov
-}
+
 ```
 
 ### 5. Ändra OLE-objektramar
@@ -64,19 +62,17 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Aspose.Slides ger dig möjlighet att modifiera OLE-objektramar programmatiskt. Anta att du vill uppdatera innehållet i ett inbäddat Word-dokument. Så här kan du uppnå det:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // Ändra inbäddade data
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## Vanliga frågor
 
 ### Hur bestämmer jag typen av en OLE-objektram?
 
- För att bestämma typen av en OLE-objektram kan du använda`OleObjectType` egendom tillgänglig inom`OleObjectFrame` klass.
+ För att bestämma typen av en OLE-objektram kan du använda`OleObjectType`egendom tillgänglig inom`OleObjectFrame` klass.
 
 ### Kan jag extrahera OLE-objekt som separata filer?
 
@@ -100,6 +96,6 @@ Ja, du kan hantera interaktioner och beteenden hos OLE-objekt i dina presentatio
 
 ## Slutsats
 
-I en värld av presentationer kan möjligheten att utnyttja kraften i OLE-objektramar lyfta ditt innehåll till nya höjder av interaktivitet och engagemang. Aspose.Slides för .NET förenklar processen att komma åt och manipulera OLE-objektramar, vilket gör att du sömlöst kan integrera innehåll från andra applikationer och berika dina presentationer. Genom att följa steg-för-steg-guiden och använda kodexemplen som tillhandahålls, låser du upp en värld av möjligheter för dynamiska och fängslande bilder.
+en värld av presentationer kan möjligheten att utnyttja kraften i OLE-objektramar lyfta ditt innehåll till nya höjder av interaktivitet och engagemang. Aspose.Slides för .NET förenklar processen att komma åt och manipulera OLE-objektramar, vilket gör att du sömlöst kan integrera innehåll från andra applikationer och berika dina presentationer. Genom att följa steg-för-steg-guiden och använda kodexemplen som tillhandahålls, låser du upp en värld av möjligheter för dynamiska och fängslande bilder.
 
 Lås upp potentialen hos OLE-objektramar med Aspose.Slides och förvandla dina presentationer till interaktiva upplevelser som fångar din publiks uppmärksamhet.

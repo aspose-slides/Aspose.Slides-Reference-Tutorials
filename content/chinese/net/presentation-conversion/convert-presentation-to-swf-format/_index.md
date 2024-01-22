@@ -14,7 +14,7 @@ url: /zh/net/presentation-conversion/convert-presentation-to-swf-format/
 
 在我们深入学习本教程之前，请确保您具备以下条件：
 
--  Aspose.Slides for .NET：如果您还没有，您可以[在这里下载](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET：如果您还没有它，您可以[在这里下载](https://releases.aspose.com/slides/net/).
 
 - 演示文稿文件：您需要一个要转换为 SWF 格式的 PowerPoint 演示文稿文件。
 

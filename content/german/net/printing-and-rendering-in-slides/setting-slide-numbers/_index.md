@@ -2,115 +2,64 @@
 title: Festlegen von Foliennummern für Präsentationen mit Aspose.Slides
 linktitle: Festlegen von Foliennummern für Präsentationen mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Foliennummern in PowerPoint-Präsentationen hinzufügen und anpassen. Diese Schritt-für-Schritt-Anleitung enthält Quellcodebeispiele zum Einrichten des Projekts, zum Laden einer Präsentation, zum Hinzufügen von Foliennummern, zum Anpassen ihres Formats und zum Anpassen ihrer Platzierung.
+description: Entdecken Sie die nahtlose Welt der Folienbearbeitung mit Aspose.Slides für .NET. Erfahren Sie, wie Sie mühelos Foliennummern festlegen und so Ihr Präsentationserlebnis verbessern.
 type: docs
 weight: 16
 url: /de/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-## Einführung in Aspose.Slides für .NET
-
-Aspose.Slides für .NET ist eine vielseitige Bibliothek, die es .NET-Entwicklern ermöglicht, PowerPoint-Präsentationen programmgesteuert zu erstellen, zu ändern und zu bearbeiten. Es bietet eine breite Palette von Funktionen für die Interaktion mit verschiedenen Elementen von Präsentationen, darunter Folien, Formen, Text, Bilder und mehr. In diesem Leitfaden konzentrieren wir uns auf das Hinzufügen und Anpassen von Foliennummern mit Aspose.Slides für .NET.
-
+## Einführung
+In der dynamischen Welt der Präsentationen ist die Kontrolle der Reihenfolge und Organisation der Folien von entscheidender Bedeutung für eine effektive Kommunikation. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zum Bearbeiten von Foliennummern in Ihren Präsentationen und gibt Ihnen die Flexibilität, Ihre Inhalte nahtlos anzupassen.
 ## Voraussetzungen
-
-Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-- Visual Studio (oder eine andere .NET-Entwicklungsumgebung)
--  Aspose.Slides für .NET-Bibliothek (Download von[Hier](https://releases.aspose.com/slides/net/)
-
-## Einrichten des Projekts
-
-1. Erstellen Sie ein neues Visual Studio-Projekt (z. B. Konsolenanwendung).
-2. Fügen Sie einen Verweis auf die Aspose.Slides for .NET-Bibliothek hinzu.
-
-## Laden einer Präsentation
-
-Laden wir zunächst eine vorhandene PowerPoint-Präsentation:
-
+Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+-  Aspose.Slides für .NET: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
+- Entwicklungsumgebung: Richten Sie auf Ihrem Computer eine funktionierende .NET-Entwicklungsumgebung ein.
+- Beispielpräsentation: Laden Sie die Beispielpräsentation „HelloWorld.pptx“ herunter, die wir in diesem Tutorial verwenden werden.
+Sehen wir uns nun die Schritt-für-Schritt-Anleitung zum Festlegen von Foliennummern mit Aspose.Slides für .NET an.
+## Namespaces importieren
+Bevor Sie mit Aspose.Slides arbeiten, müssen Sie die erforderlichen Namespaces in Ihr Projekt importieren.
+```csharp
+using Aspose.Slides.Export;
+using Aspose.Slides;
+```
+Lassen Sie uns nun jeden Schritt detaillierter aufschlüsseln:
+## Schritt 1: Erforderliche Namespaces importieren
+Stellen Sie in Ihrem .NET-Projekt sicher, dass Sie die folgenden Namespaces einschließen:
 ```csharp
 using Aspose.Slides;
-
-// Laden Sie die Präsentation
-using Presentation presentation = new Presentation("your-presentation.pptx");
+using Aspose.Slides.Export;
 ```
-
-## Foliennummern hinzufügen
-
-Als Nächstes fügen wir jeder Folie in der Präsentation Foliennummern hinzu:
-
+Diese Namespaces stellen die wesentlichen Klassen und Methoden bereit, die für die Arbeit mit Präsentationen mithilfe von Aspose.Slides erforderlich sind.
+## Schritt 2: Laden Sie die Präsentation
+ Erstellen Sie zunächst eine Instanz von`Presentation` Klasse und laden Sie Ihre Präsentationsdatei, in diesem Fall „HelloWorld.pptx“.
 ```csharp
-// Foliennummern aktivieren
-foreach (ISlide slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
 {
-    // Foliennummernform hinzufügen
-    IAutoShape slideNumberShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 10, 10, 50, 20);
-    slideNumberShape.TextFrame.Text = (slide.SlideNumber).ToString();
+    // Ihr Code hier
 }
 ```
-
-## Anpassen des Foliennummernformats
-
-Sie können das Erscheinungsbild der Foliennummern anpassen, indem Sie Schriftart, Farbe, Größe und mehr anpassen:
-
+## Schritt 3: Foliennummer abrufen und festlegen
+ Rufen Sie die aktuelle Foliennummer mit ab`FirstSlideNumber` Eigenschaft und legen Sie sie dann auf den gewünschten Wert fest. Im Beispiel haben wir den Wert auf 10 gesetzt.
 ```csharp
-foreach (IAutoShape shape in presentation.Slides[0].Shapes.OfType<IAutoShape>())
-{
-    // Passen Sie Schriftart und Farbe an
-    ITextFrame textFrame = shape.TextFrame;
-    IParagraph paragraph = textFrame.Paragraphs[0];
-    IPortion portion = paragraph.Portions[0];
-    
-    portion.PortionFormat.FontHeight = 12;
-    portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
-}
+int firstSlideNumber = presentation.FirstSlideNumber;
+presentation.FirstSlideNumber = 10;
 ```
-
-## Aktualisierung der Platzierung der Foliennummern
-
-Sie können auch die Position der Foliennummern auf jeder Folie anpassen:
-
+## Schritt 4: Speichern Sie die geänderte Präsentation
+Speichern Sie abschließend die geänderte Präsentation mit der neuen Foliennummer.
 ```csharp
-foreach (ISlide slide in presentation.Slides)
-{
-    foreach (IAutoShape shape in slide.Shapes.OfType<IAutoShape>())
-    {
-        shape.Left = slide.SlideSize.Size.Width - shape.Width - 10;
-        shape.Top = slide.SlideSize.Size.Height - shape.Height - 10;
-    }
-}
+presentation.Save(dataDir + "Set_Slide_Number_out.pptx", SaveFormat.Pptx);
 ```
-
-## Speichern der geänderten Präsentation
-
-Nachdem Sie die Foliennummern hinzugefügt und angepasst haben, speichern Sie die geänderte Präsentation:
-
-```csharp
-presentation.Save("output-presentation.pptx", SaveFormat.Pptx);
-```
-
+Wiederholen Sie diese Schritte nach Bedarf, um die Foliennummern entsprechend Ihren Präsentationsanforderungen anzupassen.
 ## Abschluss
-
-In diesem Leitfaden haben wir untersucht, wie Sie Ihre Präsentationen durch Hinzufügen und Anpassen von Foliennummern mit Aspose.Slides für .NET verbessern können. Indem Sie die bereitgestellten Schritte und Codebeispiele befolgen, können Sie das Hinzufügen von Foliennummern automatisieren und professionell aussehende Präsentationen erstellen.
-
+Mit Aspose.Slides für .NET können Sie den Ablauf Ihrer Präsentation steuern, indem Sie ganz einfach Foliennummern festlegen. Verbessern Sie Ihre Präsentationen mit einer nahtlosen und dynamischen Benutzererfahrung mithilfe dieser leistungsstarken Bibliothek.
 ## FAQs
-
-### Wie installiere ich Aspose.Slides für .NET?
-
- Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[Hier](https://releases.aspose.com/slides/net/). Fügen Sie nach dem Herunterladen einen Verweis auf die Bibliothek in Ihrem .NET-Projekt hinzu.
-
+### Ist Aspose.Slides mit den neuesten .NET-Versionen kompatibel?
+Ja, Aspose.Slides wird regelmäßig aktualisiert, um die Kompatibilität mit den neuesten .NET Framework-Versionen sicherzustellen.
 ### Kann ich das Erscheinungsbild von Foliennummern anpassen?
-
-Ja, Sie können Schriftart, Farbe, Größe und andere Attribute der Foliennummern mithilfe der bereitgestellten Codebeispiele anpassen.
-
-### Wie kann ich die Position der Foliennummern auf jeder Folie anpassen?
-
-Sie können die Position der Foliennummern anpassen, indem Sie die Koordinaten der Foliennummernformen ändern, wie in den Codebeispielen gezeigt.
-
-### Ist Aspose.Slides für .NET nur zum Hinzufügen von Foliennummern gedacht?
-
-Nein, Aspose.Slides für .NET bietet eine breite Palette an Funktionen, die über das Hinzufügen von Foliennummern hinausgehen. Es ermöglicht Ihnen, verschiedene Elemente von PowerPoint-Präsentationen programmgesteuert zu erstellen, zu ändern und zu bearbeiten.
-
-### Sind die Änderungen rückgängig zu machen, wenn ich die Foliennummern später entfernen möchte?
-
-Ja, Sie können die Foliennummern einfach entfernen, indem Sie mithilfe der Aspose.Slides-Bibliothek die entsprechenden Formen aus den Folien entfernen.
+Absolut! Aspose.Slides bietet umfangreiche Optionen zum Anpassen des Erscheinungsbilds von Foliennummern, einschließlich Schriftart, Größe und Farbe.
+### Gibt es Lizenzbeschränkungen für die Nutzung von Aspose.Slides?
+ Siehe die[Aspose.Slides-Lizenzseite](https://purchase.aspose.com/buy) Ausführliche Informationen zur Lizenzierung finden Sie hier.
+### Wie kann ich Unterstützung für Aspose.Slides-bezogene Abfragen erhalten?
+ Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Community-basierten Support oder erkunden Sie Premium-Supportoptionen.
+### Kann ich Aspose.Slides vor dem Kauf ausprobieren?
+ Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).

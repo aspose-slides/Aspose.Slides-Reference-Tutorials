@@ -26,7 +26,7 @@ Con la tua licenza in atto, è il momento di inizializzare Aspose.Slides per Jav
 
 1.  Download e installazione: iniziare scaricando la libreria Aspose.Slides per Java dal file[pagina di download](https://releases.aspose.com/slides/net/). Segui le istruzioni di installazione per configurare la libreria nel tuo ambiente Java.
 
-2. Importazione di librerie: nel codice Java, importa le librerie Aspose.Slides necessarie per accedere alle funzioni e alle classi necessarie per la creazione delle diapositive.
+2. Importazione di librerie: nel codice Java, importa le librerie Aspose.Slides necessarie per accedere alle funzioni e alle classi richieste per la creazione di diapositive.
 
 3. Creazione di una presentazione: inizializza un oggetto di presentazione, che funge da tela per le diapositive. Puoi scegliere tra vari formati di presentazione, inclusi PPT e PPTX.
 

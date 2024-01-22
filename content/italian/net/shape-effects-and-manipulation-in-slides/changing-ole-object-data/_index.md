@@ -1,100 +1,90 @@
 ---
-title: Modifica dei dati degli oggetti OLE nelle diapositive della presentazione con Aspose.Slides
-linktitle: Modifica dei dati degli oggetti OLE nelle diapositive della presentazione con Aspose.Slides
+title: Modifica dei dati dell'oggetto OLE nella presentazione con Aspose.Slides
+linktitle: Modifica dei dati dell'oggetto OLE nella presentazione con Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come modificare in modo efficiente i dati degli oggetti OLE nelle diapositive della presentazione utilizzando l'API Aspose.Slides. Questa guida passo passo fornisce esempi di codice e approfondimenti essenziali.
+description: Esplora la potenza di Aspose.Slides per .NET nel modificare facilmente i dati degli oggetti OLE. Migliora le tue presentazioni con contenuti dinamici.
 type: docs
 weight: 25
 url: /it/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
-
 ## introduzione
-
-Nell'ambito della progettazione e dello sviluppo di presentazioni, il contenuto dinamico è fondamentale per coinvolgere e informare il pubblico in modo efficace. Uno di questi elementi dinamici è l'oggetto OLE (Object Linking and Embedding), che potenzia le presentazioni con elementi interattivi. Con l'API Aspose.Slides, la modifica dei dati degli oggetti OLE nelle diapositive della presentazione diventa un processo senza interruzioni. Questa guida fornisce una procedura dettagliata dettagliata per fornirti le competenze necessarie per manipolare oggetti OLE in modo efficace utilizzando Aspose.Slides per .NET.
-
-## Modifica dei dati dell'oggetto OLE con Aspose.Slides: guida dettagliata
-
-### Iniziare con Aspose.Slides
-
- Per intraprendere questo viaggio nella manipolazione di oggetti OLE, è necessario che Aspose.Slides per .NET sia installato nel proprio ambiente di sviluppo. Se non l'hai già fatto, vai al[Riferimento API Aspose.Slides](https://reference.aspose.com/slides/net/) E[Aspose.Slides Uscite](https://releases.aspose.com/slides/net/) scaricare e configurare le risorse richieste.
-
-### Caricamento di una presentazione
-
-Prima di poter modificare qualsiasi oggetto OLE, è necessaria una presentazione con cui lavorare. Ecco come caricare una presentazione utilizzando Aspose.Slides:
-
+La creazione di presentazioni PowerPoint dinamiche e interattive è un requisito comune nel mondo digitale di oggi. Uno strumento potente per raggiungere questo obiettivo è Aspose.Slides per .NET, una solida libreria che consente agli sviluppatori di manipolare e migliorare le presentazioni di PowerPoint a livello di codice. In questo tutorial, approfondiremo il processo di modifica dei dati degli oggetti OLE (Object Linking and Embedding) all'interno delle diapositive della presentazione utilizzando Aspose.Slides.
+## Prerequisiti
+Prima di iniziare a lavorare con Aspose.Slides per .NET, assicurati di disporre dei seguenti prerequisiti:
+1. Ambiente di sviluppo: configura un ambiente di sviluppo con .NET installato.
+2.  Libreria Aspose.Slides: scarica e installa la libreria Aspose.Slides per .NET. Puoi trovare la biblioteca[Qui](https://releases.aspose.com/slides/net/).
+3. Comprensione di base: familiarizza con i concetti di base della programmazione C# e delle presentazioni PowerPoint.
+## Importa spazi dei nomi
+Nel tuo progetto C#, importa gli spazi dei nomi necessari per utilizzare le funzionalità Aspose.Slides:
 ```csharp
+using System.IO;
+using Aspose.Cells;
 using Aspose.Slides;
-
-// Carica la presentazione
-using Presentation presentation = new Presentation("path_to_your_presentation.pptx");
+using Aspose.Slides.DOM.Ole;
+using SaveFormat = Aspose.Slides.Export.SaveFormat;
 ```
-
-### Accesso agli oggetti OLE
-
-Con la presentazione caricata, è il momento di identificare e accedere agli oggetti OLE che desideri modificare. Questi oggetti potrebbero essere grafici, grafici, contenuti multimediali o altri contenuti dinamici incorporati nelle diapositive.
-
+## Passaggio 1: imposta il tuo progetto
+Inizia creando un nuovo progetto C# e importando la libreria Aspose.Slides. Assicurati che il tuo progetto sia configurato correttamente e che disponi delle dipendenze richieste.
+## Passaggio 2: accedi a presentazione e diapositiva
 ```csharp
-// Accedi alla prima diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Accedi alle forme OLE sulla diapositiva
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "ChangeOLEObjectData.pptx"))
+{
+    ISlide slide = pres.Slides[0];
+```
+## Passaggio 3: individuare l'oggetto OLE
+Attraversa tutte le forme nella diapositiva per trovare la cornice dell'oggetto OLE:
+```csharp
+OleObjectFrame ole = null;
 foreach (IShape shape in slide.Shapes)
 {
-    if (shape is IOleObjectFrame oleObject)
+    if (shape is OleObjectFrame)
     {
-        // Il tuo codice per modificare gli oggetti OLE va qui
+        ole = (OleObjectFrame)shape;
     }
 }
 ```
-
-### Modifica dei dati dell'oggetto OLE
-
-Ecco la parte interessante: apportare modifiche ai dati dell'oggetto OLE. Supponiamo che tu abbia un foglio di calcolo Excel incorporato e desideri aggiornare i dati visualizzati. Ecco come puoi ottenerlo:
-
+## Passaggio 4: leggere e modificare i dati della cartella di lavoro
 ```csharp
-// Supponendo che tu abbia identificato l'oggetto OLE come oleObject
-if (oleObject.ObjectData is OleEmbeddedData oleData)
+if (ole != null)
 {
-    // Modificare i dati nell'oggetto oleData
-    oleData.SetNewData(newDataByteArray);
+    using (MemoryStream msln = new MemoryStream(ole.EmbeddedData.EmbeddedFileData))
+    {
+        // Lettura dei dati dell'oggetto nella cartella di lavoro
+        Workbook Wb = new Workbook(msln);
+        using (MemoryStream msout = new MemoryStream())
+        {
+            // Modifica dei dati della cartella di lavoro
+            Wb.Worksheets[0].Cells[0, 4].PutValue("E");
+            Wb.Worksheets[0].Cells[1, 4].PutValue(12);
+            Wb.Worksheets[0].Cells[2, 4].PutValue(14);
+            Wb.Worksheets[0].Cells[3, 4].PutValue(15);
+            OoxmlSaveOptions so1 = new OoxmlSaveOptions(Aspose.Cells.SaveFormat.Xlsx);
+            Wb.Save(msout, so1);
+            // Modifica dei dati dell'oggetto frame Ole
+            IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(msout.ToArray(), ole.EmbeddedData.EmbeddedFileExtension);
+            ole.SetEmbeddedData(newData);
+        }
+    }
 }
 ```
-
-### Salvataggio della presentazione
-
-Una volta apportate con successo le modifiche desiderate ai dati dell'oggetto OLE, non dimenticare di salvare la presentazione per preservare le modifiche:
-
+## Passaggio 5: salva la presentazione
 ```csharp
-// Salva la presentazione con le modifiche
-presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
+pres.Save(dataDir + "OleEdit_out.pptx", SaveFormat.Pptx);
 ```
-
-### Domande frequenti
-
-#### Come identifico il tipo di oggetto OLE presente su una diapositiva?
-
- Per identificare il tipo di oggetto OLE, è possibile utilizzare il file`Type` proprietà del`IOleObjectFrame`interfaccia. Ti fornirà informazioni sul fatto che si tratti di un oggetto incorporato, di un oggetto collegato o di altri tipi.
-
-#### Posso modificare oggetti OLE da origini dati esterne?
-
-Sì, Aspose.Slides ti consente di modificare oggetti OLE utilizzando dati provenienti da fonti esterne. Puoi aggiornare grafici, tabelle e altri contenuti incorporati a livello di codice.
-
-#### Aspose.Slides è compatibile con vari formati di presentazione?
-
-Sì, Aspose.Slides supporta un'ampia gamma di formati di presentazione, inclusi PPTX, PPT, POTX e altri. Assicurati di fare riferimento alla documentazione per l'elenco completo dei formati supportati.
-
-#### Devo avere competenze di programmazione avanzate per utilizzare Aspose.Slides?
-
-Sebbene sia utile una conoscenza di base della programmazione .NET, Aspose.Slides fornisce documentazione completa ed esempi per guidarti attraverso il processo. Anche se sei un principiante, puoi utilizzare efficacemente le sue funzionalità.
-
-#### Posso automatizzare il processo di modifica dei dati degli oggetti OLE?
-
-Assolutamente! Aspose.Slides è progettato per l'automazione. Puoi creare script che modificano i dati degli oggetti OLE in più presentazioni, risparmiando tempo e fatica.
-
-#### Ci sono considerazioni sulle prestazioni quando si lavora con presentazioni di grandi dimensioni?
-
-Quando si ha a che fare con presentazioni di grandi dimensioni, si consiglia di utilizzare pratiche di codifica efficienti. La memorizzazione nella cache e l'ottimizzazione del codice possono contribuire a mantenere prestazioni ottimali durante la modifica dei dati degli oggetti OLE.
-
-### Conclusione
-
-Nel panorama in continua evoluzione delle presentazioni, gli oggetti OLE rappresentano strumenti versatili per trasmettere informazioni in modo dinamico. Con la potenza di Aspose.Slides per .NET, il processo di modifica dei dati degli oggetti OLE diventa accessibile ed efficiente. Attraverso questa guida hai acquisito le conoscenze per identificare, modificare e migliorare gli oggetti OLE, arricchendo le tue presentazioni e affascinando il tuo pubblico.
+## Conclusione
+Seguendo questi passaggi, è possibile modificare senza problemi i dati degli oggetti OLE all'interno delle diapositive di presentazione utilizzando Aspose.Slides per .NET. Ciò apre un mondo di possibilità per creare presentazioni dinamiche e personalizzate su misura per le tue esigenze specifiche.
+## Domande frequenti
+### Cos'è Aspose.Slides per .NET?
+Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice, consentendo una facile manipolazione e miglioramento.
+### Dove posso trovare la documentazione di Aspose.Slides?
+ È possibile trovare la documentazione per Aspose.Slides per .NET[Qui](https://reference.aspose.com/slides/net/).
+### Come posso scaricare Aspose.Slides per .NET?
+ È possibile scaricare la libreria dalla pagina di rilascio[Qui](https://releases.aspose.com/slides/net/).
+### È disponibile una prova gratuita per Aspose.Slides?
+ Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
+### Dove posso ottenere supporto per Aspose.Slides per .NET?
+ Per supporto e discussioni, visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).

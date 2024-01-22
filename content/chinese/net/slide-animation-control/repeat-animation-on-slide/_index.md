@@ -1,89 +1,68 @@
 ---
-title: 在幻灯片上重复动画
+title: 使用 Aspose.Slides .NET 掌握 PowerPoint 动画
 linktitle: 在幻灯片上重复动画
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for .NET 在幻灯片上重复动画。本分步指南提供了源代码和清晰的说明，用于以编程方式向 PowerPoint 演示文稿添加迷人的动画。
+description: 使用 Aspose.Slides for .NET 增强 PowerPoint 演示文稿。轻松控制动画，吸引观众并留下持久的印象。
 type: docs
 weight: 12
 url: /zh/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-## Aspose.Slides for .NET 简介
-
-Aspose.Slides for .NET 是一个强大的库，使开发人员能够使用 .NET 框架创建、操作和转换 PowerPoint 演示文稿。它提供了广泛的功能来处理幻灯片、形状、文本、图像、动画等。
-
-## 设置您的开发环境
-
-在我们开始之前，您需要设置您的开发环境。按着这些次序：
-
-1. 从以下位置下载并安装 Visual Studio[Visual Studio 下载](https://visualstudio.microsoft.com/downloads/).
-2. 在 Visual Studio 中创建一个新的 .NET 项目（例如控制台应用程序）。
-
-## 加载 PowerPoint 演示文稿
-
-首先，您需要使用 PowerPoint 演示文稿。确保您已准备好 PowerPoint 文件。
-
+## 介绍
+在动态的演示世界中，控制动画的能力在吸引和吸引观众注意力方面发挥着关键作用。 Aspose.Slides for .NET 使开发人员能够负责幻灯片中的动画类型，从而实现更具交互性和视觉吸引力的演示。在本教程中，我们将逐步探索如何使用 Aspose.Slides for .NET 控制幻灯片上的动画类型。
+## 先决条件
+在我们深入学习本教程之前，请确保您具备以下先决条件：
+1.  Aspose.Slides for .NET Library：从以下位置下载并安装该库[这里](https://releases.aspose.com/slides/net/).
+2. .NET 开发环境：在您的计算机上设置 .NET 开发环境。
+## 导入命名空间
+在您的 .NET 项目中，首先导入必要的命名空间以利用 Aspose.Slides 提供的功能：
 ```csharp
-using Aspose.Slides;
-
-//加载 PowerPoint 演示文稿
-using var presentation = new Presentation("presentation.pptx");
+using Aspose.Slides.Animation;
+using Aspose.Slides.SlideShow;
+using Aspose.Slides.Export;
 ```
-
-## 访问和修改动画
-
-现在我们已经加载了演示文稿，让我们访问并修改特定幻灯片上的动画。对于此示例，假设我们要重复第 2 号幻灯片上的动画。
-
+## 第 1 步：设置项目
+为您的项目创建一个新目录并实例化Presentation 类来表示演示文稿文件。
 ```csharp
-//按索引访问幻灯片（从 0 开始）
-var slideIndex = 1;
-var slide = presentation.Slides[slideIndex];
-
-//访问幻灯片的动画
-var animations = slide.Timeline.MainSequence;
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "AnimationOnSlide.pptx"))
+{
+    //你的代码放在这里
+}
 ```
-
-## 在幻灯片上重复动画
-
-要重复动画，我们将克隆动画并将其再次添加到幻灯片中。这将创建一个循环效果。以下是实现这一目标的方法：
-
+## 第 2 步：访问效果序列
+使用 MainSequence 属性检索第一张幻灯片的效果序列。
 ```csharp
-//克隆动画并再次添加它们
-var clonedAnimations = animations.CloneSequence();
-animations.AddSequence(clonedAnimations);
+ISequence effectsSequence = pres.Slides[0].Timeline.MainSequence;
 ```
-
-## 测试并导出修改后的演示文稿
-
-修改动画后，是时候测试演示并将其导出了。您可以将其导出为各种格式，例如 PPTX、PDF 或图像。
-
+## 第 3 步：访问第一个效果
+获取主序列的第一个效果来操纵其属性。
 ```csharp
-//保存修改后的演示文稿
-presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
+IEffect effect = effectsSequence[0];
 ```
-
+## 步骤 4：修改重复设置
+将效果的计时/重复属性更改为“直到幻灯片结束”。
+```csharp
+effect.Timing.RepeatUntilEndSlide = true;
+```
+## 第 5 步：保存演示文稿
+保存修改后的演示文稿以可视化更改。
+```csharp
+pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+```
+重复这些步骤以获得其他效果或根据您的演示要求进行自定义。
 ## 结论
-
-在本指南中，我们探讨了如何使用 Aspose.Slides for .NET 在幻灯片上重复动画。我们首先介绍库并设置开发环境。然后，我们加载了 PowerPoint 演示文稿，访问并修改了动画，最后实现了重复动画功能。 Aspose.Slides for .NET 使开发人员能够以编程方式创建动态且引人入胜的演示文稿。
-
-## 常见问题解答
-
-### 如何下载 .NET 版 Aspose.Slides？
-
-您可以从发布页面下载 Aspose.Slides for .NET：[下载 .NET 版 Aspose.Slides](https://releases.aspose.com/slides/net/)
-
-### 我可以重复特定动画而不是幻灯片上的所有动画吗？
-
-是的，您可以通过使用动画中的索引来有选择地重复特定动画`MainSequence`.
-
-### Aspose.Slides for .NET 是否与不同的 PowerPoint 格式兼容？
-
-是的，Aspose.Slides for .NET 支持各种 PowerPoint 格式，包括 PPT、PPTX 等。
-
-### 我可以使用 Aspose.Slides for .NET 创建自定义动画吗？
-
-绝对地！ Aspose.Slides for .NET 提供了全面的 API，可根据您的要求创建和自定义动画。
-
-### Aspose.Slides for .NET 有试用版吗？
-
-是的，您可以通过从网站下载免费试用版来尝试 Aspose.Slides for .NET。
+使用 Aspose.Slides for .NET 将动态动画合并到 PowerPoint 演示文稿中从未如此简单。本分步指南为您提供了控制动画类型的知识，确保您的幻灯片给观众留下持久的印象。
+## 经常问的问题
+### 我可以将这些动画应用到幻灯片中的特定对象吗？
+是的，您可以通过访问序列中特定对象的单独效果来定位特定对象。
+### Aspose.Slides 与最新的 PowerPoint 版本兼容吗？
+Aspose.Slides 提供对多种 PowerPoint 版本的支持，确保与新旧版本的兼容性。
+### 在哪里可以找到更多示例和资源？
+探索[文档](https://reference.aspose.com/slides/net/)获取全面的示例和详细的解释。
+### 如何获得 Aspose.Slides 的临时许可证？
+访问[这里](https://purchase.aspose.com/temporary-license/)有关获得临时许可证的信息。
+### 需要帮助或有更多问题？
+与 Aspose.Slides 社区互动[支持论坛](https://forum.aspose.com/c/slides/11).

@@ -106,4 +106,4 @@ Absolument. Vous pouvez modifier la disposition, la conception et le formatage d
 
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour .NET ?
 
-Pour une documentation détaillée et des exemples, reportez-vous au[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
+ Pour une documentation détaillée et des exemples, reportez-vous au[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).

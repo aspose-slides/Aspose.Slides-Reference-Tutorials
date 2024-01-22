@@ -43,7 +43,7 @@ Presentation presentation = new Presentation(dataDir[0] + "pres.pptx", options);
 
 ## Schritt 4: Vorgänge durchführen
 
-Führen Sie die gewünschten Vorgänge für die Präsentation durch. In diesem Beispiel speichern wir die Präsentation im PPT-Format. Sie können dies durch Ihre spezifischen Anforderungen ersetzen.
+Führen Sie die gewünschten Vorgänge für die Präsentation aus. In diesem Beispiel speichern wir die Präsentation im PPT-Format. Sie können dies durch Ihre spezifischen Anforderungen ersetzen.
 
 ```java
 try {

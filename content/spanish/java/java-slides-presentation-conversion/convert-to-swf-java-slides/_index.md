@@ -21,7 +21,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 
 ## Paso 1: Importar la biblioteca Aspose.Slides
 
-Primero, necesita importar la biblioteca Aspose.Slides a su proyecto Java. Puede agregar el archivo JAR a la ruta de clases de su proyecto.
+Primero, necesita importar la biblioteca Aspose.Slides a su proyecto Java. Puede agregar el archivo JAR a la ruta de clase de su proyecto.
 
 ## Paso 2: Inicializar el objeto de presentación Aspose.Slides
 

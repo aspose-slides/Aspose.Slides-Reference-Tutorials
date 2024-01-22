@@ -76,4 +76,4 @@ Evet, parola korumalı PDF'ler açılmak için parola gerektirdiğinden daha yü
 
 ### Aspose.Slides for .NET API belgelerine nereden erişebilirim?
 
-Aspose.Slides for .NET belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/net/).

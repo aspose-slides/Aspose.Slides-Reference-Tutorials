@@ -58,7 +58,7 @@ I denna kod:
 
  Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 
-## Steg 3: Köra koden
+## Steg 3: Kör koden
 
 Kompilera och kör din Java-kod. Om allt är korrekt inställt hittar du PDF-filen som innehåller de specifika bilderna du valde i din dokumentkatalog.
 

@@ -130,7 +130,7 @@ L'intégration de contrôles ActiveX dans vos présentations PowerPoint peut aug
 
 ### Comment puis-je ajouter un contrôle ActiveX à une diapositive spécifique ?
 
-Pour ajouter un contrôle ActiveX à une diapositive spécifique, vous pouvez utiliser le`AddOleObjectFrame` méthode fournie par Aspose.Slides pour .NET. Cette méthode vous permet de spécifier la position, la taille et le ProgID du contrôle ActiveX que vous souhaitez insérer.
+ Pour ajouter un contrôle ActiveX à une diapositive spécifique, vous pouvez utiliser le`AddOleObjectFrame` méthode fournie par Aspose.Slides pour .NET. Cette méthode vous permet de spécifier la position, la taille et le ProgID du contrôle ActiveX que vous souhaitez insérer.
 
 ### Puis-je manipuler les contrôles ActiveX par programme ?
 
@@ -140,11 +140,11 @@ Pour ajouter un contrôle ActiveX à une diapositive spécifique, vous pouvez ut
 
  déclenché par les contrôles ActiveX ?
 
- Vous pouvez gérer les événements déclenchés par les contrôles ActiveX en vous abonnant aux événements correspondants à l'aide du`EventClick` (ou similaire) gestionnaire d’événements. Cela vous permet d'exécuter des actions spécifiques en réponse aux interactions de l'utilisateur avec le contrôle.
+Vous pouvez gérer les événements déclenchés par les contrôles ActiveX en vous abonnant aux événements correspondants à l'aide du`EventClick` (ou similaire) gestionnaire d’événements. Cela vous permet d'exécuter des actions spécifiques en réponse aux interactions de l'utilisateur avec le contrôle.
 
 ### Est-il possible de personnaliser l’apparence des contrôles ActiveX ?
 
- Absolument, vous pouvez personnaliser l'apparence des contrôles ActiveX à l'aide de l'outil`SetProperty`méthode fournie par Aspose.Slides pour .NET. Cette méthode vous permet de modifier diverses propriétés, telles que la couleur d'arrière-plan, le style de police, etc.
+ Absolument, vous pouvez personnaliser l'apparence des contrôles ActiveX à l'aide de l'outil`SetProperty` méthode fournie par Aspose.Slides pour .NET. Cette méthode vous permet de modifier diverses propriétés, telles que la couleur d'arrière-plan, le style de police, etc.
 
 ### Puis-je supprimer un contrôle ActiveX d’une diapositive ?
 

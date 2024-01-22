@@ -1,110 +1,72 @@
 ---
-title: استكشاف خيارات العرض لشرائح العرض التقديمي في Aspose.Slides
+title: خيارات عرض Aspose.Slides - ارتقِ بعروضك التقديمية
 linktitle: استكشاف خيارات العرض لشرائح العرض التقديمي في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: استكشف الدليل الشامل خطوة بخطوة مع الكود المصدري حول عرض شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. تعرف على كيفية تعزيز مهارات التطوير لديك وإنشاء عروض تقديمية جذابة بصريًا برمجيًا.
+description: استكشف Aspose.Slides لخيارات عرض .NET. قم بتخصيص الخطوط والتخطيط والمزيد للعروض التقديمية الجذابة. تعزيز الشرائح الخاصة بك دون عناء.
 type: docs
 weight: 15
 url: /ar/net/printing-and-rendering-in-slides/presentation-render-options/
 ---
-
-## مقدمة إلى Aspose.Slides لـ .NET
-
-Aspose.Slides for .NET هي مكتبة غنية بالميزات تمكن المطورين من إنشاء عروض PowerPoint التقديمية وتحريرها ومعالجتها وتحويلها في تطبيقات .NET. فهو يوفر مجموعة واسعة من واجهات برمجة التطبيقات التي تتيح لك العمل مع عناصر مختلفة من العروض التقديمية، بما في ذلك الشرائح والأشكال والصور والمزيد. في هذا الدليل، سوف نركز على جانب العرض في Aspose.Slides، ونستكشف كيفية إنشاء تمثيلات مرئية للشرائح برمجيًا.
-
-## تهيئة بيئة التطوير
-
-قبل أن نتعمق في البرمجة، فلنقم بإعداد بيئة التطوير:
-
-1.  تثبيت Aspose.Slides for .NET: ابدأ بتنزيل وتثبيت مكتبة Aspose.Slides for .NET من[هنا](https://releases.aspose.com/slides/net/).
-
-2. إنشاء مشروع جديد: افتح IDE المفضل لديك وقم بإنشاء مشروع .NET جديد.
-
-3. إضافة مرجع: قم بإضافة مرجع إلى مكتبة Aspose.Slides في مشروعك.
-
-## تحميل عرض تقديمي
-
-لنبدأ بتحميل ملف العرض التقديمي:
-
+غالبًا ما يتضمن إنشاء عروض تقديمية مذهلة ضبطًا دقيقًا لخيارات العرض لتحقيق التأثير المرئي المطلوب. في هذا البرنامج التعليمي، سوف نتعمق في عالم خيارات العرض لشرائح العرض التقديمي باستخدام Aspose.Slides for .NET. تابع معنا لاكتشاف كيفية تحسين عروضك التقديمية من خلال الخطوات والأمثلة التفصيلية.
+## المتطلبات الأساسية
+قبل الشروع في مغامرة العرض هذه، تأكد من توفر المتطلبات الأساسية التالية:
+- Aspose.Slides for .NET: قم بتنزيل وتثبيت مكتبة Aspose.Slides. يمكنك العثور على المكتبة في[هذا الرابط](https://releases.aspose.com/slides/net/).
+- دليل المستندات: قم بإعداد دليل لمستنداتك وتذكر المسار. سوف تحتاج إليها لأمثلة التعليمات البرمجية.
+## استيراد مساحات الأسماء
+في تطبيق .NET الخاص بك، ابدأ باستيراد مساحات الأسماء الضرورية للوصول إلى وظيفة Aspose.Slides.
 ```csharp
+using Aspose.Slides.Export;
 using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using var presentation = new Presentation("sample.pptx");
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 ```
-
-## عرض الشرائح الأساسي
-
-لعرض شريحة، يمكنك استخدام مقتطف التعليمات البرمجية التالي:
-
+## الخطوة 1: تحميل العرض التقديمي وتحديد خيارات العرض
+ابدأ بتحميل العرض التقديمي الخاص بك وتحديد خيارات العرض. في المثال المذكور، نستخدم ملف PowerPoint المسمى "RenderingOptions.pptx".
 ```csharp
-// قم بالوصول إلى الشريحة
-ISlide slide = presentation.Slides[0];
-
-// قم بتقديم الشريحة إلى صورة
-var image = slide.RenderToGraphics(new ImageOrPrintOptions { Format = SlideImageFormat.Jpeg });
-```
-
-## تخصيص خيارات العرض
-
-يوفر Aspose.Slides خيارات عرض متنوعة لتخصيص الإخراج. على سبيل المثال، يمكنك ضبط حجم الشريحة وحجمها وجودتها والمزيد. هنا مثال:
-
-```csharp
-var options = new ImageOrPrintOptions
+string dataDir = "Your Document Directory";
+string presPath = Path.Combine(dataDir, "RenderingOptions.pptx");
+using (Presentation pres = new Presentation(presPath))
 {
-    Format = SlideImageFormat.Png,
-    Size = new Size(800, 600),
-    NotesCommentsLayouting = NotesCommentsLayouting.None
-};
-
-var image = slide.RenderToGraphics(options);
-```
-
-## حفظ المخرجات المقدمة
-
-بمجرد الانتهاء من عرض شريحة، قد ترغب في حفظها كملف صورة. وإليك كيف يمكنك القيام بذلك:
-
-```csharp
-image.Save("output.png", ImageFormat.Png);
-```
-
-## التعامل مع الاستثناءات
-
-أثناء العمل مع Aspose.Slides، من الضروري التعامل مع الاستثناءات بأمان. وهذا يضمن أن يظل تطبيقك مستقرًا حتى عند حدوث مواقف غير متوقعة. قم بلف التعليمات البرمجية الخاصة بك في كتلة محاولة الالتقاط لالتقاط الاستثناءات والتعامل معها:
-
-```csharp
-try
-{
-    // رمز Aspose.Slides الخاص بك هنا
-}
-catch (Exception ex)
-{
-    Console.WriteLine("An error occurred: " + ex.Message);
+    IRenderingOptions renderingOpts = new RenderingOptions();
+    // يمكن تعيين خيارات العرض الإضافية هنا
 }
 ```
-
+## الخطوة 2: تخصيص تخطيط الملاحظات
+اضبط تخطيط الملاحظات في الشرائح الخاصة بك. في هذا المثال، قمنا بتعيين موضع الملاحظات إلى "BottomTruncated".
+```csharp
+NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+notesOptions.NotesPosition = NotesPositions.BottomTruncated;
+renderingOpts.SlidesLayoutOptions = notesOptions;
+```
+## الخطوة 3: إنشاء صور مصغرة بخطوط مختلفة
+اكتشف تأثير الخطوط المختلفة على العرض التقديمي الخاص بك. قم بإنشاء صور مصغرة بإعدادات خط محددة.
+## الخطوة 3.1: الخط الأصلي
+```csharp
+pres.Slides[0].GetThumbnail(renderingOpts, 4 / 3f, 4 / 3f).Save(Path.Combine(RunExamples.OutPath, "RenderingOptions-Slide1-Original.png"), ImageFormat.Png);
+```
+## الخطوة 3.2: الخط الافتراضي Arial Black
+```csharp
+renderingOpts.SlidesLayoutOptions = null;
+renderingOpts.DefaultRegularFont = "Arial Black";
+pres.Slides[0].GetThumbnail(renderingOpts, 4 / 3f, 4 / 3f).Save(Path.Combine(RunExamples.OutPath, "RenderingOptions-Slide1-ArialBlackDefault.png"), ImageFormat.Png);
+```
+## الخطوة 3.3: الخط الافتراضي الضيق Arial
+```csharp
+renderingOpts.DefaultRegularFont = "Arial Narrow";
+pres.Slides[0].GetThumbnail(renderingOpts, 4 / 3f, 4 / 3f).Save(Path.Combine(RunExamples.OutPath, "RenderingOptions-Slide1-ArialNarrowDefault.png"), ImageFormat.Png);
+```
+قم بتجربة خطوط مختلفة للعثور على الخط الذي يكمل أسلوب العرض التقديمي الخاص بك.
 ## خاتمة
-
-في هذا الدليل، اكتشفنا كيفية استخدام Aspose.Slides لـ .NET لعرض شرائح العرض التقديمي برمجيًا. لقد قمنا بتغطية تحميل العروض التقديمية، وعرض الشرائح الأساسي، وتخصيص خيارات العرض، وحفظ المخرجات المقدمة، ومعالجة الاستثناءات. باستخدام هذه المعرفة، يمكنك تحسين قدرات تطبيقك لإنشاء عروض تقديمية جذابة بصريًا بشكل ديناميكي.
-
-## الأسئلة الشائعة
-
-### كيف أقوم بتثبيت Aspose.Slides لـ .NET؟
-
- لتثبيت Aspose.Slides لـ .NET، قم بتنزيل المكتبة من[هنا](https://releases.aspose.com/slides/net/) واتبع تعليمات التثبيت.
-
-### هل يمكنني تخصيص جودة عرض الشرائح؟
-
- نعم، يمكنك تخصيص جودة العرض عن طريق ضبط المعلمات مثل حجم الصورة وحجمها وتنسيقها في ملف`ImageOrPrintOptions` فصل.
-
-### هل معالجة الاستثناءات مهمة أثناء استخدام Aspose.Slides؟
-
-نعم، تعد معالجة الاستثناءات أمرًا بالغ الأهمية لضمان استقرار تطبيقك. قم بتغليف كود Aspose.Slides الخاص بك في مجموعات محاولة الالتقاط للتعامل مع الأخطاء المحتملة بأمان.
-
-### هل يمكنني عرض عناصر شريحة محددة، مثل الأشكال أو الصور فقط؟
-
-من المؤكد أن Aspose.Slides يوفر تحكمًا دقيقًا في العرض. يمكنك اختيار عرض عناصر شريحة معينة، مثل الأشكال أو الصور، عن طريق معالجة خيارات العرض.
-
-### ما هي الميزات الأخرى التي يقدمها Aspose.Slides لـ .NET؟
-
- وبصرف النظر عن العرض، يقدم Aspose.Slides for .NET مجموعة واسعة من الميزات لإنشاء عروض PowerPoint التقديمية وتحريرها وتحويلها. يمكنك استكشاف هذه الميزات في[توثيق](https://reference.aspose.com/slides/net/).
+يوفر تحسين خيارات العرض في Aspose.Slides for .NET طريقة قوية لتحسين المظهر المرئي لعروضك التقديمية. قم بتجربة إعدادات مختلفة لتحقيق النتيجة المرجوة وجذب انتباه جمهورك.
+## أسئلة مكررة
+### س: هل يمكنني تخصيص موضع الملاحظات في جميع الشرائح؟
+ ج: نعم، عن طريق ضبط`NotesPosition` الممتلكات في`NotesCommentsLayoutingOptions`.
+### س: كيف يمكنني تغيير الخط الافتراضي للعرض التقديمي بأكمله؟
+ ج: تعيين`DefaultRegularFont` الخاصية في خيارات التقديم إلى الخط الذي تريده.
+### س: هل هناك المزيد من خيارات التخطيط المتاحة للشرائح؟
+ج: نعم، استكشف وثائق Aspose.Slides للحصول على قائمة شاملة بخيارات التخطيط.
+### س: هل يمكنني استخدام خطوط مخصصة غير مثبتة على نظامي؟
+ ج: نعم، حدد مسار ملف الخط باستخدام ملف`AddFonts` الطريقة في`FontsLoader` فصل.
+### س: أين يمكنني طلب المساعدة أو التواصل مع المجتمع؟
+ ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للدعم والمشاركة المجتمعية.

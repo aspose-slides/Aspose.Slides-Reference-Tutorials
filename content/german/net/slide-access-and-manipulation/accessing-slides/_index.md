@@ -41,7 +41,7 @@ using var presentation = new Presentation("path/to/your/presentation.pptx");
 
 ## Auf Folien zugreifen
 
- Sobald Sie die Präsentation geladen haben, können Sie über die auf die Folien zugreifen`Slides`Sammlung. So können Sie die Folien durchlaufen und Vorgänge an ihnen ausführen:
+ Sobald Sie die Präsentation geladen haben, können Sie über die auf die Folien zugreifen`Slides` Sammlung. So können Sie die Folien durchlaufen und Vorgänge an ihnen ausführen:
 
 ```csharp
 // Greifen Sie auf Folien zu
@@ -107,7 +107,7 @@ presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 
 ## Zusätzliche Funktionen und Ressourcen
 
-Aspose.Slides für .NET bietet eine Vielzahl von Funktionen, die über das hinausgehen, was wir in diesem Handbuch behandelt haben. Für fortgeschrittenere Vorgänge wie das Hinzufügen von Diagrammen, Bildern, Animationen und Übergängen können Sie sich auf die beziehen[Dokumentation](https://reference.aspose.com/slides/net/).
+ Aspose.Slides für .NET bietet eine Vielzahl von Funktionen, die über das hinausgehen, was wir in diesem Handbuch behandelt haben. Für fortgeschrittenere Vorgänge wie das Hinzufügen von Diagrammen, Bildern, Animationen und Übergängen können Sie sich auf die beziehen[Dokumentation](https://reference.aspose.com/slides/net/).
 
 ## Abschluss
 

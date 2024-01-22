@@ -1,94 +1,83 @@
 ---
-title: 从 Aspose.Slides 中的 OLE 对象提取嵌入文件数据
+title: Aspose.Slides for .NET - 提取 OLE 对象数据教程
 linktitle: 从 Aspose.Slides 中的 OLE 对象提取嵌入文件数据
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的 OLE 对象中提取嵌入文件数据。按照此分步指南和源代码来无缝检索和处理嵌入数据。
+description: 通过我们从 OLE 对象提取嵌入文件数据的分步指南，释放 Aspose.Slides for .NET 的全部潜力。提升您的 PowerPoint 处理能力！
 type: docs
 weight: 20
 url: /zh/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
-
-## 从 OLE 对象提取嵌入文件数据简介
-
-Microsoft PowerPoint 演示文稿通常包含嵌入对象，例如 OLE（对象链接和嵌入）对象，这些对象可以是各种类型的文件，例如电子表格、文档或图像。以编程方式提取这些嵌入文件是一项常见任务，尤其是在需要操作或分析这些嵌入文件中的数据的情况下。在本分步指南中，我们将探讨如何使用 .NET 的 Aspose.Slides 库从 PowerPoint 中的 OLE 对象中提取嵌入文件数据。
-
-## 了解嵌入式 OLE 对象
-
-OLE 对象在 Microsoft Office 应用程序中用于实现在文档中嵌入外部文件。在 PowerPoint 演示文稿中，OLE 对象可以包括 Excel 电子表格、Word 文档等。我们的目标是提取并保存存储在这些嵌入对象中的数据。
-
+## 介绍
+如果您正在深入研究 Aspose.Slides for .NET 的世界，那么您就走在了提升 PowerPoint 处理能力的正确道路上。在本综合指南中，我们将引导您完成使用 Aspose.Slides 从 OLE 对象中提取嵌入文件数据的过程。无论您是经验丰富的开发人员还是 Aspose.Slides 的新手，本教程都将为您提供清晰详细的路线图，以充分利用这个强大的 .NET 库的潜力。
 ## 先决条件
-
-在我们开始之前，请确保您具备以下先决条件：
-
-- Visual Studio 或任何其他 .NET 开发环境。
-- 安装了 Aspose.Slides for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/slides/net/).
-
-## 设置项目
-
-1. 创建一个新的 Visual Studio 项目。
-2. 使用 NuGet 包管理器或添加对 DLL 文件的引用来安装 Aspose.Slides for .NET 库。
-
-## 加载 PowerPoint 演示文稿
-
-首先，我们加载一个包含嵌入 OLE 对象的 PowerPoint 演示文稿：
-
+在我们深入学习本教程之前，请确保您具备以下先决条件：
+-  Aspose.Slides for .NET：确保您的开发环境中安装了 Aspose.Slides 库。你可以找到文档[这里](https://reference.aspose.com/slides/net/).
+- 开发环境：使用您首选的 IDE（例如 Visual Studio）设置 .NET 开发环境。
+- 示例 PowerPoint 演示文稿：准备带有嵌入的 OLE 对象的示例 PowerPoint 演示文稿文件。您可以使用自己的或从 Internet 下载示例。
+## 导入命名空间
+第一步，您需要导入必要的命名空间来访问 Aspose.Slides 功能。您可以这样做：
 ```csharp
 using Aspose.Slides;
 using System;
-
-namespace EmbeddedObjectExtractor
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+```
+## 第 1 步：设置您的项目
+确保您的项目配置了 Aspose.Slides 库并且您的开发环境已准备就绪。
+## 第 2 步：加载演示文稿
+使用以下代码加载 PowerPoint 演示文稿文件：
+```csharp
+string dataDir = "Your Documents Directory";
+string pptxFileName = dataDir + "TestOlePresentation.pptx";
+using (Presentation pres = new Presentation(pptxFileName))
 {
-    class Program
+    //后续步骤的代码位于此处...
+}
+```
+## 第 3 步：迭代幻灯片和形状
+迭代每个幻灯片和形状以定位 OLE 对象：
+```csharp
+int objectnum = 0;
+foreach (ISlide sld in pres.Slides)
+{
+    foreach (IShape shape in sld.Shapes)
     {
-        static void Main(string[] args)
+        //检查形状是否是 OLE 对象
+        if (shape is OleObjectFrame)
         {
-            //加载 PowerPoint 演示文稿
-            using (Presentation presentation = new Presentation("presentation.pptx"))
-            {
-                //您用于提取嵌入对象的代码位于此处
-            }
+            objectnum++;
+            OleObjectFrame oleFrame = shape as OleObjectFrame;
+            
+            //后续步骤的代码位于此处...
         }
     }
 }
 ```
-
-## 提取嵌入的 OLE 对象
-
-接下来，我们将从演示文稿中提取嵌入的 OLE 对象：
-
+## 步骤 4：从 OLE 对象中提取数据
+提取嵌入文件数据并将其保存到指定位置：
 ```csharp
-//假设您位于 using（演示文稿演示）块内
-var oleObjectFrame = presentation.Slides[0].Shapes[0] as OleObjectFrame;
-if (oleObjectFrame != null && oleObjectFrame.ObjectData != null)
+byte[] data = oleFrame.EmbeddedData.EmbeddedFileData;
+string fileExtension = oleFrame.EmbeddedData.EmbeddedFileExtension;
+string extractedPath = dataDir + "ExtractedObject_out" + objectnum + fileExtension;
+using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 {
-    var embeddedData = oleObjectFrame.ObjectData;
-    //您处理嵌入数据的代码位于此处
+    fs.Write(data, 0, data.Length);
 }
 ```
-
-## 保存提取的数据
-
-现在我们已经提取了嵌入的数据，让我们将其保存到文件中：
-
-```csharp
-//假设您已将数据提取为字节数组
-File.WriteAllBytes("extracted_data.xlsx", embeddedData);
-```
-
 ## 结论
+恭喜！您已成功学习如何从 Aspose.Slides for .NET 中的 OLE 对象提取嵌入文件数据。这项技能对于轻松处理复杂的演示非常宝贵。当您继续探索 Aspose.Slides 的功能时，您将发现更多增强 PowerPoint 处理任务的方法。
 
-在本指南中，我们探讨了如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的 OLE 对象中提取嵌入的文件数据。通过执行此处概述的步骤，您可以无缝检索存储在这些嵌入对象中的数据，并根据您的要求进一步处理它。
-
-## 常见问题解答
-
-### 如何安装 Aspose.Slides 库？
-
-您可以从 Aspose 网站下载并安装适用于 .NET 的 Aspose.Slides 库，或使用 NuGet Package Manager 将其添加到您的项目中。
-
-### 使用此方法可以提取哪些类型的嵌入对象？
-
-此方法允许您从 PowerPoint 演示文稿中提取各种类型的嵌入对象，例如 Excel 电子表格、Word 文档等。
-
-### 我可以在保存之前修改提取的数据吗？
-
-是的，您可以在将提取的数据保存到文件之前对其进行修改。根据数据的类型，您可以根据需要对其进行操作、分析或处理。
+## 经常问的问题
+### Aspose.Slides 与最新的.NET 框架兼容吗？
+是的，Aspose.Slides 旨在与最新的 .NET 框架版本无缝协作。
+### 我可以从单个演示文稿中的多个 OLE 对象中提取数据吗？
+绝对地！提供的代码旨在处理演示文稿中的多个 OLE 对象。
+### 在哪里可以找到更多 Aspose.Slides 教程和示例？
+探索 Aspose.Slides 文档[这里](https://reference.aspose.com/slides/net/)丰富的教程和示例。
+### Aspose.Slides 有免费试用版吗？
+是的，您可以获得免费试用版[这里](https://releases.aspose.com/).
+### 如何获得对 Aspose.Slides 相关查询的支持？
+访问 Aspose.Slides 支持论坛[这里](https://forum.aspose.com/c/slides/11)寻求帮助。

@@ -10,7 +10,7 @@ url: /it/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 
 ## Introduzione all'impostazione delle autorizzazioni di accesso al PDF in Presentazioni Java
 
-In questa guida completa, esploreremo come impostare le autorizzazioni di accesso a un documento PDF utilizzando Java Slides, una potente libreria fornita da Aspose. Imparerai come proteggere i tuoi file PDF applicando la protezione tramite password e controllando varie autorizzazioni, come la stampa e la stampa di alta qualità. Ti guideremo attraverso i passaggi con spiegazioni chiare e forniremo esempi di codice sorgente Java per ciascuna parte del processo.
+In questa guida completa, esploreremo come impostare le autorizzazioni di accesso a un documento PDF utilizzando Java Slides, una potente libreria fornita da Aspose. Imparerai come proteggere i tuoi file PDF applicando la protezione tramite password e controllando varie autorizzazioni, come la stampa e la stampa di alta qualità. Ti guideremo attraverso i passaggi con spiegazioni chiare e forniremo esempi di codice sorgente Java per ogni parte del processo.
 
 ## Configurazione dell'ambiente Java
 

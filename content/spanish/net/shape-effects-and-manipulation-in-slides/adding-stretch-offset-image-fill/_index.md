@@ -1,99 +1,73 @@
 ---
-title: Agregar desplazamiento de estiramiento para relleno de imagen en diapositivas con Aspose.Slides
+title: Agregar desplazamiento de estiramiento para relleno de imágenes en presentaciones de PowerPoint
 linktitle: Agregar desplazamiento de estiramiento para relleno de imágenes en diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda cómo mejorar las diapositivas de su presentación usando Aspose.Slides para .NET. Esta guía paso a paso cubre cómo agregar un desplazamiento de estiramiento para el relleno de la imagen, crear imágenes dinámicas y optimizar el diseño.
+description: Aprenda cómo mejorar las presentaciones de PowerPoint con Aspose.Slides para .NET. Siga una guía paso a paso para agregar un desplazamiento de estiramiento para el relleno de la imagen.
 type: docs
 weight: 18
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-En las presentaciones modernas, los elementos visuales desempeñan un papel crucial a la hora de transmitir mensajes de forma eficaz. Aspose.Slides, una potente API para trabajar con archivos de presentación en .NET, ofrece una función llamada "Stretch Offset" que le permite controlar con precisión cómo se rellenan las imágenes dentro de las formas. Este artículo lo guiará a través del proceso de agregar desplazamiento de estiramiento para el relleno de imágenes en diapositivas de presentación usando Aspose.Slides para .NET.
-
-## Introducción al desplazamiento de estiramiento
-
-Stretch Offset es una técnica valiosa cuando necesita personalizar cómo se muestran las imágenes dentro de las formas. Le permite controlar la posición y alineación de la imagen dentro de una forma, lo que permite diseños de diapositivas creativos y visualmente atractivos. Al utilizar la API Aspose.Slides, puede implementar mediante programación el desplazamiento de estiramiento y darle vida a sus presentaciones.
-
-## Configurar su entorno de desarrollo
-
- Antes de profundizar en la implementación, asegúrese de tener Aspose.Slides para .NET instalado en su entorno de desarrollo. Puede descargarlo desde el sitio web de Aspose.[enlace de descarga](https://releases.aspose.com/slides/net/)Una vez descargado, siga las instrucciones de instalación para configurar la API para su proyecto.
-
-## Agregar una imagen a una diapositiva
-
-Para demostrar la función de desplazamiento de estiramiento, comencemos agregando una imagen a una diapositiva usando Aspose.Slides. El siguiente fragmento de código muestra cómo lograr esto:
-
+## Introducción
+En el dinámico mundo de las presentaciones, los elementos visuales desempeñan un papel fundamental a la hora de captar la atención de la audiencia. Aspose.Slides para .NET permite a los desarrolladores mejorar sus presentaciones de PowerPoint proporcionando un sólido conjunto de funciones. Una de esas características es la capacidad de agregar un desplazamiento de estiramiento para el relleno de la imagen, lo que permite diapositivas creativas y visualmente atractivas.
+## Requisitos previos
+Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+1.  Aspose.Slides para la biblioteca .NET: descargue e instale la biblioteca desde[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
+2. Entorno de desarrollo: asegúrese de tener configurado un entorno de desarrollo .NET que funcione.
+Ahora comencemos con la guía paso a paso.
+## Importar espacios de nombres
+En primer lugar, importe los espacios de nombres necesarios para aprovechar la funcionalidad Aspose.Slides dentro de su aplicación .NET.
 ```csharp
-// Crear una instancia de un objeto de presentación
-Presentation presentation = new Presentation();
-
-// Accede a la primera diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Definir la ruta del archivo de imagen
-string imagePath = "path_to_your_image.jpg";
-
-// Agregar una imagen a la diapositiva
-byte[] imageBytes = File.ReadAllBytes(imagePath);
-IPictureFillFormat pictureFill = slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 100, 100, 400, 300).FillFormat.PictureFillFormat;
-pictureFill.Picture.Image = presentation.Images.AddImage(imageBytes);
-
-// guardar la presentación
-presentation.Save("output.pptx", SaveFormat.Pptx);
+using System.IO;
+using Aspose.Slides;
+using System.Drawing;
+using Aspose.Slides.Export;
 ```
-
-## Aplicar compensación de estiramiento a imágenes
-
- Ahora que tenemos una imagen agregada a una diapositiva, exploremos cómo aplicarle un desplazamiento de estiramiento. El desplazamiento del estiramiento está controlado por dos propiedades:`StretchX` y`StretchY`. Estas propiedades determinan el desplazamiento de la imagen dentro de la forma horizontal y verticalmente, respectivamente.
-
-Así es como puedes implementar el desplazamiento de estiramiento usando Aspose.Slides:
-
+## Paso 1: configura tu proyecto
+Cree un nuevo proyecto .NET en su entorno de desarrollo preferido. Asegúrese de que se haga referencia correctamente a Aspose.Slides para .NET.
+## Paso 2: Inicializar la clase de presentación
+ Instanciar el`Presentation` clase para representar el archivo de PowerPoint.
 ```csharp
-// Accede al formato de relleno de imagen.
-IPictureFillFormat pictureFill = slide.Shapes[0].FillFormat.PictureFillFormat;
-
-// Aplicar compensación de estiramiento
-pictureFill.StretchX = 0.5; // Desplazamiento horizontal del 50%
-pictureFill.StretchY = -0.2; // Desplazamiento vertical de -20%
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
+{
+    // Tu código va aquí
+}
 ```
-
-En este ejemplo, hemos establecido un desplazamiento horizontal del 50 % y un desplazamiento vertical del -20 %. El valor negativo para el desplazamiento vertical mueve la imagen hacia arriba dentro de la forma.
-
-## Ajustar los valores de compensación de estiramiento
-
- Encontrar los valores de compensación de estiramiento perfectos puede requerir algo de prueba y error para lograr el efecto visual deseado. Ajustar los valores de`StretchX` y`StretchY` para adaptarse a sus preferencias de diseño y alineación. Experimente con valores positivos y negativos para ver cómo cambia la ubicación de la imagen.
-
-## Usar compensación de estiramiento con diferentes formas
-
- El desplazamiento de estiramiento se puede aplicar a varios tipos de formas, incluidos rectángulos, elipses y más. El método de acceso a la`PictureFillFormat` permanece consistente en todas las formas. Siéntete libre de explorar y experimentar con diferentes formas para crear composiciones de diapositivas únicas.
-
-## Técnicas y consejos avanzados
-
-- Combine el desplazamiento elástico con otras funciones de formato para diseños complejos.
-- Utilice el desplazamiento de estiramiento para enfatizar partes específicas de una imagen dentro de una forma.
--  Utilice el`PictureFillFormat.TileAsTexture`propiedad para colocar imágenes en mosaico dentro de formas en lugar de estirarlas.
-
+## Paso 3: obtenga la primera diapositiva
+Recupere la primera diapositiva de la presentación para trabajar.
+```csharp
+ISlide sld = pres.Slides[0];
+```
+## Paso 4: crear una instancia de la clase ImageEx
+ Crear una instancia del`ImageEx` clase para manejar la imagen que desea agregar a la diapositiva.
+```csharp
+System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx = pres.Images.AddImage(img);
+```
+## Paso 5: agregar marco de imagen
+ Utilice el`AddPictureFrame` Método para agregar un marco de imagen a la diapositiva. Especifique las dimensiones y la posición del marco.
+```csharp
+sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);
+```
+## Paso 6: guarde la presentación
+Guarde la presentación modificada en el disco.
+```csharp
+pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
+```
+¡Eso es todo! Ha agregado con éxito un desplazamiento de extensión para diapositivas de relleno de imágenes usando Aspose.Slides para .NET.
 ## Conclusión
-
-La incorporación de desplazamiento elástico para el relleno de imágenes en las diapositivas de presentación utilizando Aspose.Slides abre un mundo de posibilidades creativas. Con un control preciso sobre el posicionamiento de la imagen, puede mejorar el impacto visual de sus presentaciones. Si sigue los pasos descritos en este artículo, aprenderá cómo aprovechar esta función de manera efectiva.
-
+Mejorar sus presentaciones de PowerPoint ahora es más fácil que nunca con Aspose.Slides para .NET. Siguiendo este tutorial, habrá aprendido cómo incorporar el desplazamiento de estiramiento para el relleno de imágenes, aportando un nuevo nivel de creatividad a sus diapositivas.
 ## Preguntas frecuentes
-
-### ¿Cómo puedo descargar Aspose.Slides para .NET?
-
- Puede descargar Aspose.Slides para .NET desde el sitio web de Aspose[enlace de descarga](https://releases.aspose.com/slides/net/).
-
-### ¿Puedo utilizar el desplazamiento estirado con cualquier tipo de imagen?
-
-Sí, el desplazamiento extendido se puede aplicar a imágenes de varios formatos, incluidos JPG, PNG y más.
-
-###  ¿Qué pasa si configuro ambos?`StretchX` and `StretchY` to the same value?
-
-Establecer ambas propiedades en el mismo valor mantiene la relación de aspecto de la imagen mientras cambia su posición dentro de la forma.
-
-### ¿El desplazamiento de estiramiento es compatible con las animaciones?
-
-Sí, el desplazamiento extendido funciona perfectamente con animaciones de diapositivas, lo que le permite crear presentaciones dinámicas.
-
-### ¿Cómo puedo acceder a opciones avanzadas de compensación de estiramiento?
-
-Explore la documentación de Aspose.Slides para obtener información detallada sobre técnicas y propiedades avanzadas de compensación de estiramiento.
+### ¿Puedo usar Aspose.Slides para .NET en mis aplicaciones web?
+Sí, Aspose.Slides para .NET es adecuado tanto para aplicaciones web como de escritorio.
+### ¿Hay una prueba gratuita disponible para Aspose.Slides para .NET?
+ Sí, puedes descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
+### ¿Cómo puedo obtener soporte para Aspose.Slides para .NET?
+ Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para el apoyo de la comunidad.
+### ¿Dónde puedo encontrar la documentación completa de Aspose.Slides para .NET?
+ Referirse a[documentación](https://reference.aspose.com/slides/net/) para obtener información detallada.
+### ¿Puedo comprar Aspose.Slides para .NET?
+ Sí, puedes comprar el producto.[aquí](https://purchase.aspose.com/buy).

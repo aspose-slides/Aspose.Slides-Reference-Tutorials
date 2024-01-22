@@ -2,7 +2,7 @@
 title: Полное руководство по настройке мастера фона слайда
 linktitle: Установить мастер фона слайда
 second_title: Aspose.Slides .NET API обработки PowerPoint
-description: Узнайте, как настроить мастер фона слайдов с помощью Aspose.Slides for .NET, чтобы визуально улучшить ваши презентации.
+description: Узнайте, как настроить мастер фона слайдов с помощью Aspose.Slides для .NET, чтобы визуально улучшить ваши презентации.
 type: docs
 weight: 14
 url: /ru/net/slide-background-manipulation/set-slide-background-master/

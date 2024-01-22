@@ -16,7 +16,7 @@ url: /ru/net/licensing-and-formatting/add-color-to-data-points/
 
 1. Visual Studio: на вашем компьютере должна быть установлена Visual Studio.
 
-2.  Aspose.Slides для .NET: Загрузите и установите Aspose.Slides для .NET с сайта[ссылка для скачивания](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides для .NET: Загрузите и установите Aspose.Slides для .NET с сайта[ссылка для скачивания](https://releases.aspose.com/slides/net/).
 
 3. Базовое понимание C#. У вас должны быть базовые знания программирования на C#.
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation())
 
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Sunburst, 100, 100, 450, 400);
     
-    //Остальная часть кода будет добавлена на следующих шагах.
+    // Остальная часть кода будет добавлена на следующих шагах.
 }
 ```
 

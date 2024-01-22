@@ -134,7 +134,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 // Ändra diagramseriemarkören
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
-// Ta den andra diagramserien
+// Ta andra diagramserien
 series = chart.getChartData().getSeries().get_Item(1);
 // Lägg till ny punkt (5:2) där.
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));

@@ -152,7 +152,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Çözüm
 
-Bu eğitimde size Aspose.Slides for Java'yı kullanarak Dağılım Grafiği oluşturma sürecini anlattık. Dağılım grafikleri, iki boyutlu bir uzaydaki veri noktalarını görselleştirmeye yönelik güçlü araçlardır ve karmaşık veri ilişkilerini analiz etmeyi ve anlamayı kolaylaştırır.
+Bu eğitimde size Aspose.Slides for Java'yı kullanarak Dağılım Grafiği oluşturma sürecini anlattık. Dağılım grafikleri, iki boyutlu bir alandaki veri noktalarını görselleştirmeye yönelik güçlü araçlardır ve karmaşık veri ilişkilerini analiz etmeyi ve anlamayı kolaylaştırır.
 
 ## SSS'ler
 

@@ -2,7 +2,7 @@
 title: 使用 CSS 文件将演示文稿导出为 HTML
 linktitle: 使用 CSS 文件将演示文稿导出为 HTML
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿导出为包含 CSS 文件的 HTML。无缝转换的分步指南。保留风格和布局！
+description: 了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿导出为带有 CSS 文件的 HTML。无缝转换的分步指南。保留风格和布局！
 type: docs
 weight: 29
 url: /zh/net/presentation-manipulation/export-presentation-to-html-with-css-files/

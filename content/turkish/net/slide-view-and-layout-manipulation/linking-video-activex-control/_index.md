@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## SSS:
 
 ### Bağlantılı videonun slayttaki boyutunu ve konumunu nasıl belirleyebilirim?
- ActiveX kontrol çerçevesinin boyutlarını ve konumunu, ActiveX kontrol çerçevesinin parametrelerini kullanarak ayarlayabilirsiniz.`AddOleObjectFrame`yöntem. Dört sayısal argüman sırasıyla sol üst köşenin X ve Y koordinatlarını ve çerçevenin genişliğini ve yüksekliğini temsil eder.
+ ActiveX kontrol çerçevesinin boyutlarını ve konumunu, ActiveX kontrol çerçevesinin parametrelerini kullanarak ayarlayabilirsiniz.`AddOleObjectFrame` yöntem. Dört sayısal argüman sırasıyla sol üst köşenin X ve Y koordinatlarını ve çerçevenin genişliğini ve yüksekliğini temsil eder.
 
 ### Bu yaklaşımı kullanarak farklı formatlardaki videoları birbirine bağlayabilir miyim?
 Evet, çeşitli formatlardaki videoları, söz konusu format için uygun ActiveX kontrolü mevcut olduğu sürece bağlayabilirsiniz. Örneğin, bu kılavuzda kullanılan ShockwaveFlash ActiveX kontrolü Flash videoları (SWF) için uygundur. Diğer formatlar için farklı ProgID'ler kullanmanız gerekebilir.

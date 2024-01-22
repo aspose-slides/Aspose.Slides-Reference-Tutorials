@@ -58,7 +58,7 @@ Après avoir défini le chemin du fichier de licence, il est essentiel de vous a
 
 ### Étape 4 : Validation de la licence
 
- Pour vérifier si votre licence est valide, utilisez le`IsLicensed` méthode. Il renvoie une valeur booléenne indiquant si votre licence est active.
+Pour vérifier si votre licence est valide, utilisez le`IsLicensed` méthode. Il renvoie une valeur booléenne indiquant si votre licence est active.
 
 ```csharp
 if (license.IsLicensed())
@@ -82,7 +82,7 @@ Dans ce guide étape par étape, nous avons couvert le processus essentiel de li
 Aspose.Slides for .NET est une bibliothèque puissante permettant de travailler avec des fichiers Microsoft PowerPoint dans des applications .NET. Il vous permet de créer, modifier et manipuler des présentations PowerPoint par programme.
 
 ### Comment puis-je obtenir une licence pour Aspose.Slides pour .NET ?
-Vous pouvez acquérir une licence pour Aspose.Slides pour .NET en visitant le site Web d'Aspose.[page d'achat](https://purchase.aspose.com/buy).
+ Vous pouvez acquérir une licence pour Aspose.Slides pour .NET en visitant le site Web d'Aspose.[page d'achat](https://purchase.aspose.com/buy).
 
 ### Puis-je évaluer Aspose.Slides pour .NET avant d’acheter une licence ?
  Oui, vous pouvez demander un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour évaluer Aspose.Slides pour .NET dans votre environnement de développement.

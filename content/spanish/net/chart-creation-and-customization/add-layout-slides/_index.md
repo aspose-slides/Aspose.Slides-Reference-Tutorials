@@ -72,7 +72,7 @@ En este ejemplo, insertamos la diapositiva vacía en la posición 0, pero puede 
 
 ## Paso 4: guarde la presentación
 
- Finalmente, es hora de guardar su presentación actualizada. Puedes usar el`Save`Método para guardar la presentación en el formato deseado. Aquí está el código:
+ Finalmente, es hora de guardar su presentación actualizada. Puedes usar el`Save`método para guardar la presentación en el formato deseado. Aquí está el código:
 
 ```csharp
 p.Save(FileName, SaveFormat.Pptx);

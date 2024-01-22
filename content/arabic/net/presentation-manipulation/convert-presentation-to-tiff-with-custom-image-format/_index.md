@@ -33,7 +33,7 @@ url: /ar/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-
 
 ## 3. اكتب رمز التحويل
 
- افتح ملف التعليمات البرمجية الرئيسي لمشروعك (على سبيل المثال،`Program.cs`) وأضف عبارة الاستخدام التالية:
+ افتح ملف التعليمات البرمجية الرئيسي لمشروعك (على سبيل المثال،`Program.cs`وأضف عبارة الاستخدام التالية:
 
 ```csharp
 using Aspose.Slides;

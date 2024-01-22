@@ -1,0 +1,156 @@
+---
+title: जावा स्लाइड्स में डेटा प्वाइंट पर चार्ट मार्कर विकल्प
+linktitle: जावा स्लाइड्स में डेटा प्वाइंट पर चार्ट मार्कर विकल्प
+second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
+description: कस्टम चार्ट मार्कर विकल्पों के साथ अपनी जावा स्लाइड्स को अनुकूलित करें। जावा के लिए Aspose.Slides का उपयोग करके डेटा बिंदुओं को दृश्य रूप से बढ़ाना सीखें। चरण-दर-चरण मार्गदर्शन और अक्सर पूछे जाने वाले प्रश्न जानें।
+type: docs
+weight: 14
+url: /hi/java/data-manipulation/chart-marker-options-data-point-java-slides/
+---
+
+## जावा स्लाइड्स में डेटा पॉइंट पर चार्ट मार्कर विकल्पों का परिचय
+
+जब प्रभावशाली प्रस्तुतियाँ बनाने की बात आती है, तो डेटा बिंदुओं पर चार्ट मार्करों को अनुकूलित और हेरफेर करने की क्षमता सभी अंतर ला सकती है। जावा के लिए Aspose.Slides के साथ, आपके पास अपने चार्ट को गतिशील और दृश्य रूप से आकर्षक तत्वों में बदलने की शक्ति है।
+
+## आवश्यक शर्तें
+
+इससे पहले कि हम कोडिंग भाग में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
+
+- जावा विकास पर्यावरण
+- जावा लाइब्रेरी के लिए Aspose.Slides
+- एक जावा एकीकृत विकास पर्यावरण (आईडीई)
+- नमूना प्रस्तुति दस्तावेज़ (जैसे, "Test.pptx")
+
+## चरण 1: पर्यावरण की स्थापना
+
+सबसे पहले, सुनिश्चित करें कि आपके पास आवश्यक उपकरण स्थापित और तैयार हैं। अपनी IDE में एक जावा प्रोजेक्ट बनाएं और Java लाइब्रेरी के लिए Aspose.Slides आयात करें।
+
+## चरण 2: प्रस्तुति लोड हो रही है
+
+आरंभ करने के लिए, अपना नमूना प्रस्तुति दस्तावेज़ लोड करें। दिए गए कोड में, हम मानते हैं कि दस्तावेज़ का नाम "Test.pptx" है।
+
+```java
+String dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+```
+
+## चरण 3: एक चार्ट बनाना
+
+अब, प्रेजेंटेशन में एक चार्ट बनाते हैं। इस उदाहरण में हम मार्करों के साथ एक लाइन चार्ट का उपयोग करेंगे।
+
+```java
+ISlide slide = pres.getSlides().get_Item(0);
+IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
+```
+
+## चरण 4: चार्ट डेटा के साथ कार्य करना
+
+चार्ट डेटा में हेरफेर करने के लिए, हमें चार्ट डेटा वर्कबुक तक पहुंचने और डेटा श्रृंखला तैयार करने की आवश्यकता है। हम डिफ़ॉल्ट श्रृंखला साफ़ कर देंगे और अपना कस्टम डेटा जोड़ देंगे।
+
+```java
+int defaultWorksheetIndex = 0;
+IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
+chart.getChartData().getSeries().clear();
+chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
+```
+
+## चरण 5: कस्टम मार्कर जोड़ना
+
+यहां रोमांचक हिस्सा आता है - डेटा बिंदुओं पर मार्करों को अनुकूलित करना। इस उदाहरण में हम छवियों को मार्कर के रूप में उपयोग करेंगे।
+
+```java
+BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
+IPPImage imgx1 = pres.getImages().addImage(img);
+
+BufferedImage img2 = ImageIO.read(new File(dataDir + "Tulips.jpg"));
+IPPImage imgx2 = pres.getImages().addImage(img2);
+
+IChartSeries series = chart.getChartData().getSeries().get_Item(0);
+
+// डेटा बिंदुओं पर कस्टम मार्कर जोड़ना
+IChartDataPoint point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5));
+point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
+point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
+
+// अन्य डेटा बिंदुओं के लिए दोहराएँ
+// ...
+
+//चार्ट श्रृंखला मार्कर का आकार बदलना
+series.getMarker().setSize(15);
+```
+
+## चरण 6: प्रस्तुति को सहेजना
+
+एक बार जब आप अपने चार्ट मार्करों को अनुकूलित कर लें, तो कार्रवाई में परिवर्तन देखने के लिए प्रस्तुति को सहेजें।
+
+```java
+pres.save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
+```
+
+## जावा स्लाइड्स में डेटा पॉइंट पर चार्ट मार्कर विकल्पों के लिए संपूर्ण स्रोत कोड
+
+```java
+String dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+ISlide slide = pres.getSlides().get_Item(0);
+//डिफ़ॉल्ट चार्ट बनाना
+IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
+//डिफ़ॉल्ट चार्ट डेटा वर्कशीट इंडेक्स प्राप्त करना
+int defaultWorksheetIndex = 0;
+//चार्ट डेटा वर्कशीट प्राप्त करना
+IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
+//डेमो श्रृंखला हटाएँ
+chart.getChartData().getSeries().clear();
+//नई श्रृंखला जोड़ें
+chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
+//चित्र सेट करें
+BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
+IPPImage imgx1 = pres.getImages().addImage(img);
+//चित्र सेट करें
+BufferedImage img2 = ImageIO.read(new File(dataDir + "Tulips.jpg"));
+IPPImage imgx2 = pres.getImages().addImage(img2);
+//पहली चार्ट श्रृंखला लें
+IChartSeries series = chart.getChartData().getSeries().get_Item(0);
+//वहां नया बिंदु (1:3) जोड़ें।
+IChartDataPoint point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5));
+point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
+point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
+point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 2, 1, (double) 2.5));
+point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
+point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx2);
+point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 3, 1, (double) 3.5));
+point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
+point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
+point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 4, 1, (double) 4.5));
+point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
+point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx2);
+//चार्ट श्रृंखला मार्कर बदलना
+series.getMarker().setSize(15);
+pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
+```
+
+## निष्कर्ष
+
+जावा के लिए Aspose.Slides के साथ, आप डेटा बिंदुओं पर चार्ट मार्करों को अनुकूलित करके अपनी प्रस्तुतियों को ऊंचा कर सकते हैं। यह आपको दृश्यात्मक रूप से आश्चर्यजनक और जानकारीपूर्ण स्लाइड बनाने की अनुमति देता है जो आपके दर्शकों को मंत्रमुग्ध कर देती है।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+### मैं डेटा बिंदुओं के लिए मार्कर का आकार कैसे बदल सकता हूं?
+
+ डेटा बिंदुओं के लिए मार्कर आकार बदलने के लिए, इसका उपयोग करें`series.getMarker().setSize()` विधि और तर्क के रूप में वांछित आकार प्रदान करें।
+
+### क्या मैं छवियों को कस्टम मार्कर के रूप में उपयोग कर सकता हूँ?
+
+हां, आप डेटा बिंदुओं के लिए छवियों को कस्टम मार्कर के रूप में उपयोग कर सकते हैं। भरण प्रकार को पर सेट करें`FillType.Picture` और वह छवि प्रदान करें जिसका आप उपयोग करना चाहते हैं।
+
+### क्या जावा के लिए Aspose.Slides गतिशील चार्ट बनाने के लिए उपयुक्त है?
+
+बिल्कुल! जावा के लिए Aspose.Slides आपकी प्रस्तुतियों में गतिशील और इंटरैक्टिव चार्ट बनाने के लिए व्यापक क्षमताएं प्रदान करता है।
+
+### क्या मैं Aspose.Slides का उपयोग करके चार्ट के अन्य पहलुओं को अनुकूलित कर सकता हूँ?
+
+हां, आप जावा के लिए Aspose.Slides का उपयोग करके चार्ट के विभिन्न पहलुओं को अनुकूलित कर सकते हैं, जिसमें शीर्षक, अक्ष, डेटा लेबल और बहुत कुछ शामिल हैं।
+
+### मैं जावा दस्तावेज़ीकरण और डाउनलोड के लिए Aspose.Slides तक कहां पहुंच सकता हूं?
+
+ आप दस्तावेज़ यहाँ पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/) और लाइब्रेरी डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).

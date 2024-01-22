@@ -55,7 +55,7 @@ Comience creando una presentación de PowerPoint vacía usando Aspose.Slides. Es
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    //Su código para agregar un gráfico y barras de error personalizadas irá aquí.
+    // Su código para agregar un gráfico y barras de error personalizadas irá aquí.
     // Dividiremos esto en pasos posteriores.
     
     // Guardar presentación
@@ -72,7 +72,7 @@ En este paso, creará un gráfico de burbujas dentro de la presentación. Puede 
 IChart chart = presentation.Slides[0].Shapes.AddChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-## Paso 4: Agregar barras de error y configurar el formato
+## Paso 4: agregar barras de error y configurar el formato
 
 Ahora, agreguemos barras de error al gráfico y configuremos su formato.
 

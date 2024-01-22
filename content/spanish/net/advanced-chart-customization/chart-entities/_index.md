@@ -130,7 +130,7 @@ chart.Axes.VerticalAxis.MajorUnit = 2.0f;
 Ahora personalizaremos la apariencia del texto en el eje vertical.
 
 ```csharp
-// Configuración de las propiedades del texto del eje de valores
+// Configuración de las propiedades del texto del eje de valor
 IChartPortionFormat txtVal = chart.Axes.VerticalAxis.TextFormat.PortionFormat;
 txtVal.FontBold = NullableBool.True;
 txtVal.FontHeight = 16;

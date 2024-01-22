@@ -1,6 +1,6 @@
 ---
-title: Java Slides licensiering och initiering
-linktitle: Java Slides licensiering och initiering
+title: Java Slides-licensiering och initiering
+linktitle: Java Slides-licensiering och initiering
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Upptäck hur du effektivt licensierar och initierar Aspose.Slides för Java i våra omfattande handledningar. Kom igång med Java Slides nu!
 type: docs

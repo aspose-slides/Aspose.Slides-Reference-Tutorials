@@ -1,0 +1,113 @@
+---
+title: Μετατροπή παρουσίασης σε HTML με διατήρηση αρχικών γραμματοσειρών σε διαφάνειες Java
+linktitle: Μετατροπή παρουσίασης σε HTML με διατήρηση αρχικών γραμματοσειρών σε διαφάνειες Java
+second_title: Aspose.Slides Java PowerPoint Processing API
+description: Μετατρέψτε παρουσιάσεις PowerPoint σε HTML διατηρώντας παράλληλα τις αρχικές γραμματοσειρές χρησιμοποιώντας το Aspose.Slides για Java.
+type: docs
+weight: 14
+url: /el/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
+---
+
+## Εισαγωγή στη μετατροπή παρουσίασης σε HTML με διατήρηση αρχικών γραμματοσειρών σε διαφάνειες Java
+
+Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να μετατρέψετε μια παρουσίαση PowerPoint (PPTX) σε HTML διατηρώντας παράλληλα τις αρχικές γραμματοσειρές χρησιμοποιώντας το Aspose.Slides για Java. Αυτό θα διασφαλίσει ότι το HTML που προκύπτει μοιάζει πολύ με την εμφάνιση της αρχικής παρουσίασης.
+
+## Βήμα 1: Ρύθμιση του Έργου
+Πριν βουτήξουμε στον κώδικα, ας βεβαιωθούμε ότι έχετε εφαρμόσει την απαραίτητη ρύθμιση:
+
+1. Λήψη Aspose.Slides για Java: Εάν δεν το έχετε κάνει ήδη, κάντε λήψη και συμπεριλάβετε τη βιβλιοθήκη Aspose.Slides για Java στο έργο σας.
+
+2. Δημιουργήστε ένα έργο Java: Ρυθμίστε ένα έργο Java στο αγαπημένο σας IDE και βεβαιωθείτε ότι έχετε έναν φάκελο "lib" όπου μπορείτε να τοποθετήσετε το αρχείο JAR Aspose.Slides.
+
+3. Εισαγωγή απαιτούμενων κλάσεων: Εισαγάγετε τις απαραίτητες κλάσεις στην αρχή του αρχείου Java σας:
+
+```java
+import com.aspose.slides.EmbedAllFontsHtmlController;
+import com.aspose.slides.HtmlFormatter;
+import com.aspose.slides.HtmlOptions;
+import com.aspose.slides.Presentation;
+import com.aspose.slides.SaveFormat;
+```
+
+## Βήμα 2: Μετατροπή της παρουσίασης σε HTML με πρωτότυπες γραμματοσειρές
+
+Τώρα, ας μετατρέψουμε μια παρουσίαση PowerPoint σε HTML διατηρώντας παράλληλα τις αρχικές γραμματοσειρές:
+
+```java
+// Η διαδρομή προς τον κατάλογο εγγράφων.
+String dataDir = "Your Document Directory";
+
+// Φορτώστε την παρουσίαση
+Presentation pres = new Presentation("input.pptx");
+
+try {
+    //Εξαιρέστε τις προεπιλεγμένες γραμματοσειρές παρουσίασης όπως το Calibri και το Arial
+    String[] fontNameExcludeList = {"Calibri", "Arial"};
+    EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
+    
+    // Δημιουργήστε επιλογές HTML και ορίστε τον προσαρμοσμένο μορφοποιητή HTML
+    HtmlOptions htmlOptionsEmbed = new HtmlOptions();
+    htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(embedFontsController));
+    
+    // Αποθηκεύστε την παρουσίαση ως HTML
+    pres.save("output.html", SaveFormat.Html, htmlOptionsEmbed);
+} finally {
+    // Απορρίψτε το αντικείμενο παρουσίασης
+    if (pres != null) pres.dispose();
+}
+```
+
+Σε αυτό το απόσπασμα κώδικα:
+
+-  Φορτώνουμε την παρουσίαση PowerPoint εισόδου χρησιμοποιώντας`Presentation`.
+
+- Ορίζουμε μια λίστα γραμματοσειρών (`fontNameExcludeList`) που θέλουμε να εξαιρέσουμε από την ενσωμάτωση στην HTML. Αυτό είναι χρήσιμο για την εξαίρεση κοινών γραμματοσειρών όπως το Calibri και το Arial για τη μείωση του μεγέθους του αρχείου.
+
+-  Δημιουργούμε ένα παράδειγμα του`EmbedAllFontsHtmlController` και περάστε τη λίστα εξαιρέσεων γραμματοσειρών σε αυτό.
+
+-  Δημιουργούμε`HtmlOptions` και ορίστε έναν προσαρμοσμένο μορφοποιητή HTML χρησιμοποιώντας`HtmlFormatter.createCustomFormatter(embedFontsController)`.
+
+- Τέλος, αποθηκεύουμε την παρουσίαση ως HTML με τις καθορισμένες επιλογές.
+
+## Πλήρης πηγαίος κώδικας για τη μετατροπή της παρουσίασης σε HTML με διατήρηση των αρχικών γραμματοσειρών σε διαφάνειες Java
+
+```java
+// Η διαδρομή προς τον κατάλογο εγγράφων.
+String dataDir = "Your Document Directory";
+Presentation pres = new Presentation("input.pptx");
+try
+{
+	// εξαίρεση προεπιλεγμένων γραμματοσειρών παρουσίασης
+	String[] fontNameExcludeList = {"Calibri", "Arial"};
+	EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
+	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
+	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(embedFontsController));
+	pres.save("input-PFDinDisplayPro-Regular-installed.html", SaveFormat.Html, htmlOptionsEmbed);
+}
+finally
+{
+	if (pres != null) pres.dispose();
+}
+```
+
+## συμπέρασμα
+
+Σε αυτό το σεμινάριο, μάθατε πώς να μετατρέπετε μια παρουσίαση PowerPoint σε HTML διατηρώντας παράλληλα τις αρχικές γραμματοσειρές χρησιμοποιώντας το Aspose.Slides για Java. Αυτό είναι χρήσιμο όταν θέλετε να διατηρήσετε την οπτική πιστότητα των παρουσιάσεών σας όταν τις μοιράζεστε στον ιστό.
+
+## Συχνές ερωτήσεις
+
+### Πώς μπορώ να κατεβάσω το Aspose.Slides για Java;
+
+Μπορείτε να κάνετε λήψη του Aspose.Slides για Java από τον ιστότοπο Aspose. Επίσκεψη[εδώ](https://downloads.aspose.com/slides/java/) για να λάβετε την πιο πρόσφατη έκδοση.
+
+### Μπορώ να προσαρμόσω τη λίστα με τις εξαιρούμενες γραμματοσειρές;
+
+ Ναι, μπορείτε να προσαρμόσετε το`fontNameExcludeList` πίνακα για να περιλαμβάνει ή να αποκλείει συγκεκριμένες γραμματοσειρές σύμφωνα με τις απαιτήσεις σας.
+
+### Λειτουργεί αυτή η μέθοδος για παλαιότερες μορφές PowerPoint όπως το PPT;
+
+Αυτό το παράδειγμα κώδικα έχει σχεδιαστεί για αρχεία PPTX. Εάν πρέπει να μετατρέψετε παλαιότερα αρχεία PPT, ίσως χρειαστεί να κάνετε προσαρμογές στον κώδικα.
+
+### Πώς μπορώ να προσαρμόσω περαιτέρω την έξοδο HTML;
+
+ Μπορείτε να εξερευνήσετε το`HtmlOptions` class για να προσαρμόσετε διάφορες πτυχές της εξόδου HTML, όπως το μέγεθος της διαφάνειας, την ποιότητα εικόνας και άλλα.

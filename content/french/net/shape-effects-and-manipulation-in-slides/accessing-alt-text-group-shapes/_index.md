@@ -54,7 +54,7 @@ foreach (ISlide slide in presentation.Slides)
 
 ## Accéder au texte alternatif
 
-Accéder au texte alternatif des formes individuelles au sein d'un groupe implique de parcourir les formes et de récupérer leurs propriétés de texte alternatif :
+Accéder au texte alternatif de formes individuelles au sein d'un groupe implique de parcourir les formes et de récupérer leurs propriétés de texte alternatif :
 
 ```csharp
 foreach (IShape shape in groupShape.Shapes)
@@ -101,7 +101,7 @@ Dans ce guide, nous avons exploré le processus d'accès au texte alternatif dan
 
 ### Comment puis-je installer Aspose.Slides pour .NET ?
 
- Vous pouvez télécharger Aspose.Slides pour .NET à partir du[Site Aspose](https://reference.aspose.com/slides/net/). Suivez les instructions d'installation fournies pour configurer la bibliothèque dans votre projet.
+ Vous pouvez télécharger Aspose.Slides pour .NET à partir du[Site Aspose](https://reference.aspose.com/slides/net/)Suivez les instructions d'installation fournies pour configurer la bibliothèque dans votre projet.
 
 ### Puis-je utiliser Aspose.Slides pour d’autres langages de programmation ?
 

@@ -42,7 +42,7 @@ Vi har initierat vår presentation och nu är vi redo att lägga till ett klustr
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
 ```
 
-## Steg 2: Lägga till exponentiell trendlinje
+## Steg 2: Lägg till exponentiell trendlinje
 
 Låt oss börja med att lägga till en exponentiell trendlinje till vår diagramserie:
 

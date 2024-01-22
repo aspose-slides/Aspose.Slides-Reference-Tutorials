@@ -1,94 +1,83 @@
 ---
-title: استخراج بيانات الملف المضمنة من كائن OLE في Aspose.Slides
+title: Aspose.Slides for .NET - البرنامج التعليمي لاستخراج بيانات كائن OLE
 linktitle: استخراج بيانات الملف المضمنة من كائن OLE في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية استخراج بيانات الملف المضمنة من كائنات OLE في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. اتبع هذا الدليل خطوة بخطوة مع التعليمات البرمجية المصدر لاسترداد البيانات المضمنة ومعالجتها بسلاسة.
+description: أطلق العنان للإمكانات الكاملة لـ Aspose.Slides لـ .NET من خلال دليلنا خطوة بخطوة حول استخراج بيانات الملف المضمنة من كائنات OLE. رفع قدرات معالجة PowerPoint الخاص بك!
 type: docs
 weight: 20
 url: /ar/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
-
-## مقدمة لاستخراج بيانات الملف المضمنة من كائن OLE
-
-غالبًا ما تحتوي عروض Microsoft PowerPoint التقديمية على كائنات مضمنة، مثل كائنات OLE (ربط الكائنات وتضمينها)، والتي يمكن أن تكون أنواعًا مختلفة من الملفات مثل جداول البيانات أو المستندات أو الصور. يعد استخراج هذه الملفات المضمنة برمجيًا مهمة شائعة، خاصة في السيناريوهات التي تحتاج فيها إلى معالجة البيانات الموجودة في هذه الملفات المضمنة أو تحليلها. في هذا الدليل التفصيلي، سنستكشف كيفية استخراج بيانات الملف المضمنة من كائن OLE في PowerPoint باستخدام مكتبة Aspose.Slides لـ .NET.
-
-## فهم كائنات OLE المضمنة
-
-تُستخدم كائنات OLE في تطبيقات Microsoft Office لتمكين تضمين الملفات الخارجية داخل المستندات. في عروض PowerPoint التقديمية، يمكن أن تتضمن كائنات OLE جداول بيانات Excel ومستندات Word والمزيد. هدفنا هو استخراج وحفظ البيانات المخزنة داخل هذه الكائنات المضمنة.
-
+## مقدمة
+إذا كنت تتعمق في عالم Aspose.Slides لـ .NET، فأنت على الطريق الصحيح لرفع قدرات معالجة PowerPoint لديك. في هذا الدليل الشامل، سنرشدك خلال عملية استخراج بيانات الملف المضمنة من كائن OLE باستخدام Aspose.Slides. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى Aspose.Slides، سيوفر لك هذا البرنامج التعليمي خريطة طريق واضحة ومفصلة لتسخير الإمكانات الكاملة لمكتبة .NET القوية هذه.
 ## المتطلبات الأساسية
-
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
-
-- Visual Studio أو أي بيئة تطوير .NET أخرى.
--  تم تثبيت Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
-
-## إعداد المشروع
-
-1. إنشاء مشروع Visual Studio جديد.
-2. قم بتثبيت Aspose.Slides لمكتبة .NET باستخدام NuGet Package Manager أو عن طريق إضافة مرجع إلى ملف DLL.
-
-## تحميل عرض تقديمي ل PowerPoint
-
-للبدء، لنقم بتحميل عرض تقديمي لـ PowerPoint يحتوي على كائن OLE مضمن:
-
+قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+-  Aspose.Slides for .NET: تأكد من تثبيت مكتبة Aspose.Slides في بيئة التطوير لديك. يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/slides/net/).
+- بيئة التطوير: قم بإعداد بيئة تطوير .NET باستخدام IDE المفضل لديك، مثل Visual Studio.
+- نموذج عرض تقديمي لـ PowerPoint: قم بإعداد نموذج لملف عرض تقديمي لـ PowerPoint مع كائنات OLE المضمنة. يمكنك استخدام بنفسك أو تنزيل عينة من الإنترنت.
+## استيراد مساحات الأسماء
+في الخطوة الأولى، تحتاج إلى استيراد مساحات الأسماء الضرورية للوصول إلى وظيفة Aspose.Slides. وإليك كيف يمكنك القيام بذلك:
 ```csharp
 using Aspose.Slides;
 using System;
-
-namespace EmbeddedObjectExtractor
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+```
+## الخطوة 1: قم بإعداد مشروعك
+تأكد من تكوين مشروعك باستخدام مكتبة Aspose.Slides وأن بيئة التطوير الخاصة بك جاهزة.
+## الخطوة 2: قم بتحميل العرض التقديمي
+قم بتحميل ملف العرض التقديمي PowerPoint باستخدام الكود التالي:
+```csharp
+string dataDir = "Your Documents Directory";
+string pptxFileName = dataDir + "TestOlePresentation.pptx";
+using (Presentation pres = new Presentation(pptxFileName))
 {
-    class Program
+    // رمز الخطوات التالية موجود هنا...
+}
+```
+## الخطوة 3: التكرار من خلال الشرائح والأشكال
+قم بالتكرار خلال كل شريحة وشكل لتحديد موقع كائنات OLE:
+```csharp
+int objectnum = 0;
+foreach (ISlide sld in pres.Slides)
+{
+    foreach (IShape shape in sld.Shapes)
     {
-        static void Main(string[] args)
+        // تحقق مما إذا كان الشكل عبارة عن كائن OLE
+        if (shape is OleObjectFrame)
         {
-            // قم بتحميل عرض PowerPoint التقديمي
-            using (Presentation presentation = new Presentation("presentation.pptx"))
-            {
-                // الكود الخاص بك لاستخراج الكائن المضمن موجود هنا
-            }
+            objectnum++;
+            OleObjectFrame oleFrame = shape as OleObjectFrame;
+            
+            // رمز الخطوات التالية موجود هنا...
         }
     }
 }
 ```
-
-## استخراج كائن OLE المضمن
-
-بعد ذلك، سوف نقوم باستخراج كائن OLE المضمن من العرض التقديمي:
-
+## الخطوة 4: استخراج البيانات من كائن OLE
+قم باستخراج بيانات الملف المضمنة وحفظها في موقع محدد:
 ```csharp
-// على افتراض أنك ضمن كتلة استخدام (العرض التقديمي).
-var oleObjectFrame = presentation.Slides[0].Shapes[0] as OleObjectFrame;
-if (oleObjectFrame != null && oleObjectFrame.ObjectData != null)
+byte[] data = oleFrame.EmbeddedData.EmbeddedFileData;
+string fileExtension = oleFrame.EmbeddedData.EmbeddedFileExtension;
+string extractedPath = dataDir + "ExtractedObject_out" + objectnum + fileExtension;
+using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 {
-    var embeddedData = oleObjectFrame.ObjectData;
-    // الكود الخاص بك لمعالجة البيانات المضمنة موجود هنا
+    fs.Write(data, 0, data.Length);
 }
 ```
-
-## حفظ البيانات المستخرجة
-
-الآن بعد أن استخرجنا البيانات المضمنة، فلنحفظها في ملف:
-
-```csharp
-// بافتراض أنك قمت باستخراج البيانات كمصفوفة بايت
-File.WriteAllBytes("extracted_data.xlsx", embeddedData);
-```
-
 ## خاتمة
+تهانينا! لقد تعلمت بنجاح كيفية استخراج بيانات الملف المضمنة من كائن OLE في Aspose.Slides لـ .NET. هذه المهارة لا تقدر بثمن للتعامل مع العروض التقديمية المعقدة بسهولة. مع استمرارك في استكشاف إمكانيات Aspose.Slides، ستكتشف المزيد من الطرق لتحسين مهام معالجة PowerPoint الخاصة بك.
 
-في هذا الدليل، اكتشفنا كيفية استخدام Aspose.Slides لـ .NET لاستخراج بيانات الملف المضمنة من كائن OLE في عرض تقديمي لـ PowerPoint. باتباع الخطوات الموضحة هنا، يمكنك استرداد البيانات المخزنة داخل هذه الكائنات المضمنة بسهولة ومعالجتها وفقًا لمتطلباتك.
-
-## الأسئلة الشائعة
-
-### كيف يمكنني تثبيت مكتبة Aspose.Slides؟
-
-يمكنك تنزيل وتثبيت مكتبة Aspose.Slides لـ .NET من موقع Aspose على الويب أو استخدام NuGet Package Manager لإضافتها إلى مشروعك.
-
-### ما أنواع الكائنات المضمنة التي يمكن استخراجها باستخدام هذه الطريقة؟
-
-تسمح لك هذه الطريقة باستخراج أنواع مختلفة من الكائنات المضمنة، مثل جداول بيانات Excel ومستندات Word والمزيد، من عروض PowerPoint التقديمية.
-
-### هل يمكنني تعديل البيانات المستخرجة قبل حفظها؟
-
-نعم، يمكنك تعديل البيانات المستخرجة قبل حفظها في ملف. اعتمادًا على نوع البيانات، يمكنك معالجتها أو تحليلها أو معالجتها حسب الحاجة.
+## أسئلة مكررة
+### هل Aspose.Slides متوافق مع أحدث إطار عمل .NET؟
+نعم، تم تصميم Aspose.Slides للعمل بسلاسة مع أحدث إصدارات إطار عمل .NET.
+### هل يمكنني استخراج البيانات من كائنات OLE متعددة في عرض تقديمي واحد؟
+قطعاً! تم تصميم التعليمات البرمجية المتوفرة للتعامل مع كائنات OLE متعددة داخل العرض التقديمي.
+### أين يمكنني العثور على المزيد من البرامج التعليمية والأمثلة لـ Aspose.Slides؟
+ استكشف وثائق Aspose.Slides[هنا](https://reference.aspose.com/slides/net/) للحصول على ثروة من الدروس والأمثلة.
+### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides؟
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+### كيف يمكنني الحصول على الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟
+ تفضل بزيارة منتدى دعم Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) للمساعدة.

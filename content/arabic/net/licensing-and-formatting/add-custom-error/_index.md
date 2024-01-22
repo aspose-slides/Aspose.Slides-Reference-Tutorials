@@ -55,7 +55,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    //سيتم وضع الكود الخاص بك لإضافة مخطط وأشرطة خطأ مخصصة هنا.
+    // سيتم وضع الكود الخاص بك لإضافة مخطط وأشرطة خطأ مخصصة هنا.
     // سنقوم بتقسيم هذا إلى خطوات لاحقة.
     
     // حفظ العرض التقديمي

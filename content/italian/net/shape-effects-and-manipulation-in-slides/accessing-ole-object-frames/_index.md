@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 Una volta identificato il frame di un oggetto OLE, è possibile estrarne i dati per la manipolazione. Ad esempio, se l'oggetto OLE è un foglio di calcolo Excel incorporato, puoi accedere ai suoi dati come segue:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // Elaborare i dati grezzi secondo necessità
-}
+
 ```
 
 ### 5. Modificare i frame oggetto OLE
@@ -64,19 +62,17 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Aspose.Slides ti consente di modificare i frame degli oggetti OLE a livello di codice. Supponiamo di voler aggiornare il contenuto di un documento Word incorporato. Ecco come puoi ottenerlo:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // Modificare i dati incorporati
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## Domande frequenti
 
 ### Come determino il tipo di frame di un oggetto OLE?
 
- Per determinare il tipo di frame di un oggetto OLE, è possibile utilizzare il file`OleObjectType` immobile disponibile all'interno del`OleObjectFrame` classe.
+ Per determinare il tipo di frame di un oggetto OLE, è possibile utilizzare il file`OleObjectType`immobile disponibile all'interno del`OleObjectFrame` classe.
 
 ### Posso estrarre oggetti OLE come file separati?
 

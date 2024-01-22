@@ -8,7 +8,7 @@ weight: 22
 url: /fr/java/media-controls/
 ---
 
-À l'ère numérique d'aujourd'hui, les présentations ne se limitent pas à des diapositives statiques contenant du texte et des images. Ils ont évolué vers des expériences dynamiques et interactives qui engagent et captivent le public. Si vous êtes un développeur Java cherchant à ajouter une nouvelle dimension à vos présentations, vous êtes au bon endroit. Dans cet article, nous explorerons comment implémenter des contrôles multimédias dans les diapositives Java à l'aide des didacticiels Aspose.Slides pour Java.
+À l’ère numérique d’aujourd’hui, les présentations ne se limitent pas à des diapositives statiques contenant du texte et des images. Ils ont évolué vers des expériences dynamiques et interactives qui engagent et captivent le public. Si vous êtes un développeur Java cherchant à ajouter une nouvelle dimension à vos présentations, vous êtes au bon endroit. Dans cet article, nous explorerons comment implémenter des contrôles multimédias dans les diapositives Java à l'aide des didacticiels Aspose.Slides pour Java.
 
 ## Améliorer les présentations avec les contrôles multimédias
 

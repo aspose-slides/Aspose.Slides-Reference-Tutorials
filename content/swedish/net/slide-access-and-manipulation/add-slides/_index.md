@@ -106,4 +106,4 @@ Absolut. Du kan ändra layout, design och formatering av de infogade bilderna me
 
 ### Var kan jag hitta mer information om Aspose.Slides för .NET?
 
-För detaljerad dokumentation och exempel, se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+ För detaljerad dokumentation och exempel, se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).

@@ -38,7 +38,7 @@ SVG dönüştürme sürecini kontrol etmek için çeşitli seçenekleri yapılan
 - **UseFrameRotation** : Oluşturma sırasında şeklin döndürülmesi hariç tutulur. Şuna ayarla:`false` rotasyonu hariç tutmak için.
 
 ```csharp
-// Yeni SVG seçeneği oluştur
+//Yeni SVG seçeneği oluştur
 SVGOptions svgOptions = new SVGOptions();
 
 // UseFrameSize özelliğini ayarlayın

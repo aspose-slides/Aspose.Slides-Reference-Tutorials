@@ -91,7 +91,7 @@ Después de eliminar los hipervínculos, guarde la presentación:
 presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-¡Y eso es! Ha eliminado con éxito los hipervínculos de una diapositiva utilizando Aspose.Slides para .NET.
+¡Y eso es! Ha eliminado con éxito los hipervínculos de una diapositiva usando Aspose.Slides para .NET.
 
 En conclusión, Aspose.Slides para .NET proporciona una manera eficiente de manipular hipervínculos en sus presentaciones, permitiéndole crear diapositivas interactivas y atractivas. Ya sea que desee agregar hipervínculos a recursos externos o eliminarlos, Aspose.Slides simplifica el proceso y mejora sus capacidades de creación de presentaciones.
 

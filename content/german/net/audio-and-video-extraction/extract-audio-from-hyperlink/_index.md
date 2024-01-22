@@ -22,7 +22,7 @@ Bevor wir uns mit dem Extraktionsprozess befassen, stellen Sie sicher, dass die 
 
 Stellen Sie sicher, dass Sie über eine PowerPoint-Präsentation (PPTX) verfügen, die Hyperlinks mit zugehörigem Audio enthält. Dies ist die Quelle, aus der Sie das Audio extrahieren.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Importieren wir zunächst die erforderlichen Namespaces in Ihr C#-Projekt, um Aspose.Slides für .NET effektiv nutzen zu können. Diese Namespaces sind für die Arbeit mit PowerPoint-Präsentationen und das Extrahieren von Audio aus Hyperlinks unerlässlich.
 

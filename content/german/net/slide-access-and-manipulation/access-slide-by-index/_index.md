@@ -51,7 +51,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ## Erläuterung des Quellcodes
 
--  Wir benutzen das`Slides` Sammlung der`Presentation` Objekt für den Zugriff auf Folien.
+- Wir benutzen das`Slides` Sammlung der`Presentation` Objekt für den Zugriff auf Folien.
 - Der Index der Folie in der Sammlung basiert auf 0, sodass die erste Folie einen Index von 0 hat, die zweite Folie einen Index von 1 und so weiter.
 - Wir geben den gewünschten Folienindex an, um das entsprechende Folienobjekt abzurufen.
 

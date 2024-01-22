@@ -36,7 +36,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 60
 
 ## 第 3 步：设置图表布局
 
-现在，让我们设置图表的布局。我们将使用`setX`, `setY`, `setWidth`, `setHeight`方法。此外，我们将设置`LayoutTargetType`来确定布局模式。
+现在，让我们设置图表的布局。我们将使用以下命令调整幻灯片中图表的位置和大小`setX`, `setY`, `setWidth`, `setHeight`方法。此外，我们将设置`LayoutTargetType`来确定布局模式。
 
 ```java
 chart.getPlotArea().setX(0.2f);

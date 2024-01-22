@@ -76,4 +76,4 @@ Ja, passwortgeschützte PDFs bieten ein höheres Maß an Sicherheit, da zum Öff
 
 ### Wo kann ich auf die Aspose.Slides for .NET API-Dokumentation zugreifen?
 
-Sie können auf die Dokumentation für Aspose.Slides für .NET unter zugreifen[Hier](https://reference.aspose.com/slides/net/).
+ Sie können auf die Dokumentation für Aspose.Slides für .NET unter zugreifen[Hier](https://reference.aspose.com/slides/net/).

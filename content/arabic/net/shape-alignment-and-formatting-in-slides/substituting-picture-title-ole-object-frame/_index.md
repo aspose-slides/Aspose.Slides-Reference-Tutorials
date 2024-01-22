@@ -1,107 +1,85 @@
 ---
-title: استبدال عنوان الصورة لإطار كائن OLE في شرائح العرض التقديمي
+title: دليل تضمين كائنات OLE باستخدام Aspose.Slides لـ .NET
 linktitle: استبدال عنوان الصورة لإطار كائن OLE في شرائح العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية استبدال عناوين الصور لإطارات كائنات OLE في شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع كود المصدر الكامل.
+description: تعرف على كيفية تحسين شرائح العرض التقديمي باستخدام كائنات OLE الديناميكية باستخدام Aspose.Slides for .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 type: docs
 weight: 15
 url: /ar/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-## مقدمة إلى Aspose.Slides لـ .NET
-
-Aspose.Slides for .NET عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها دون الحاجة إلى تثبيت Microsoft Office أو PowerPoint. فهو يوفر نطاقًا واسعًا من الميزات للعمل مع عناصر مختلفة من العروض التقديمية، بما في ذلك الشرائح والأشكال والنصوص والصور وإطارات كائنات OLE.
-
+## مقدمة
+غالبًا ما يتضمن إنشاء شرائح عرض تقديمي ديناميكية وجذابة دمج عناصر الوسائط المتعددة المختلفة. في هذا البرنامج التعليمي، سوف نستكشف كيفية استبدال عنوان الصورة لإطار كائن OLE (ربط الكائنات وتضمينها) في شرائح العرض التقديمي باستخدام مكتبة Aspose.Slides القوية لـ .NET. يعمل Aspose.Slides على تبسيط عملية التعامل مع كائنات OLE، مما يوفر للمطورين الأدوات اللازمة لتحسين عروضهم التقديمية بسهولة.
 ## المتطلبات الأساسية
-
-قبل أن نبدأ، تأكد من أن لديك ما يلي:
-
-- تم تثبيت Visual Studio أو أي بيئة تطوير .NET متوافقة.
--  Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
-
-## تحميل عرض تقديمي
-
-لنبدأ بتحميل عرض PowerPoint تقديمي موجود باستخدام Aspose.Slides لـ .NET. إذا لم يكن لديك عرض تقديمي للاختبار، فيمكنك إنشاء عرض تقديمي جديد أو تنزيل نموذج عرض تقديمي.
-
+قبل أن نتعمق في الدليل التفصيلي، تأكد من توفر المتطلبات الأساسية التالية:
+-  Aspose.Slides لمكتبة .NET: تأكد من تثبيت Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[وثائق Aspose.Slides.NET](https://reference.aspose.com/slides/net/).
+- نموذج البيانات: قم بإعداد نموذج ملف Excel (على سبيل المثال، "ExcelObject.xlsx") الذي تريد تضمينه ككائن OLE في العرض التقديمي. بالإضافة إلى ذلك، يجب أن يكون لديك ملف صورة (على سبيل المثال، "Image.png") والذي سيكون بمثابة رمز لكائن OLE.
+- بيئة التطوير: قم بإعداد بيئة تطوير باستخدام الأدوات اللازمة، مثل Visual Studio أو أي بيئة تطوير متكاملة مفضلة أخرى لتطوير .NET.
+## استيراد مساحات الأسماء
+في مشروع .NET الخاص بك، تأكد من استيراد مساحات الأسماء المطلوبة للعمل مع Aspose.Slides:
 ```csharp
 using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using var presentation = new Presentation("sample.pptx");
+using Aspose.Slides.Examples.CSharp;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Aspose.Slides.DOM.Ole;
 ```
-
-## الوصول إلى إطارات كائنات OLE
-
- تسمح لك إطارات كائنات OLE (ربط الكائنات وتضمينها) بتضمين كائنات مثل الصور أو المستندات أو الملفات الأخرى داخل شريحة PowerPoint. للوصول إلى إطارات كائنات OLE في الشريحة، يمكنك التكرار عبر الأشكال والتحقق من وجود مثيلات لها`OleObjectFrameEx`.
-
+## الخطوة 1: إعداد دليل المستندات
 ```csharp
-// التكرار من خلال الشرائح
-foreach (var slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+```
+تأكد من استبدال "دليل المستندات الخاص بك" بالمسار الفعلي لدليل المستندات الخاص بك.
+## الخطوة 2: تحديد ملف مصدر OLE ومسارات ملفات الأيقونة
+```csharp
+string oleSourceFile = dataDir + "ExcelObject.xlsx";
+string oleIconFile = dataDir + "Image.png";
+```
+قم بتحديث هذه المسارات باستخدام المسارات الفعلية لنموذج ملف Excel وملف الصورة.
+## الخطوة 3: إنشاء مثيل العرض التقديمي
+```csharp
+using (Presentation pres = new Presentation())
 {
-    // التكرار من خلال الأشكال الموجودة في الشريحة
-    foreach (var shape in slide.Shapes)
-    {
-        if (shape is OleObjectFrameEx oleObject)
-        {
-            //الوصول إلى خصائص كائن OLE
-            var title = oleObject.Title;
-            var data = oleObject.ObjectData;
-            
-            // تنفيذ المزيد من الإجراءات
-        }
-    }
+    // سيتم وضع رمز الخطوات اللاحقة هنا
 }
 ```
-
-## استبدال عنوان الصورة
-
- لاستبدال عنوان الصورة لإطار كائن OLE، يمكنك ببساطة تحديث ملف`Title` ملكية`OleObjectFrameEx` مثال.
-
+ تهيئة مثيل جديد لـ`Presentation` فصل.
+## الخطوة 4: إضافة إطار كائن OLE
 ```csharp
-foreach (var slide in presentation.Slides)
+ISlide slide = pres.Slides[0];
+byte[] allbytes = File.ReadAllBytes(oleSourceFile);
+IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(allbytes, "xlsx");
+IOleObjectFrame oof = slide.Shapes.AddOleObjectFrame(20, 20, 50, 50, dataInfo);
+oof.IsObjectIcon = true;
+```
+قم بإضافة إطار كائن OLE إلى الشريحة، مع تحديد موضعه وأبعاده.
+## الخطوة 5: إضافة كائن الصورة
+```csharp
+byte[] imgBuf = File.ReadAllBytes(oleIconFile);
+using (MemoryStream ms = new MemoryStream(imgBuf))
 {
-    foreach (var shape in slide.Shapes)
-    {
-        if (shape is OleObjectFrameEx oleObject)
-        {
-            // قم بتحديث العنوان
-            oleObject.Title = "New Picture Title";
-        }
-    }
+    IPPImage image = pres.Images.AddImage(new Bitmap(ms));
 }
 ```
-
-## حفظ العرض التقديمي المعدل
-
-بعد إجراء التغييرات اللازمة، تحتاج إلى حفظ العرض التقديمي المعدل. يمكنك حفظه بتنسيقات مختلفة مثل PPTX أو PDF أو الصور.
-
+اقرأ ملف الصورة وأضفه إلى العرض التقديمي ككائن صورة.
+## الخطوة 6: قم بتعيين التسمية التوضيحية على أيقونة OLE
 ```csharp
-// احفظ العرض التقديمي
-presentation.Save("modified.pptx", SaveFormat.Pptx);
+oof.SubstitutePictureTitle = "Caption example";
 ```
-
+قم بتعيين التسمية التوضيحية المطلوبة لرمز OLE.
 ## خاتمة
-
-يعمل Aspose.Slides for .NET على تبسيط عملية العمل مع عروض PowerPoint التقديمية برمجيًا. في هذا الدليل، قمنا بتغطية خطوات استبدال عنوان الصورة لإطار كائن OLE في شرائح العرض التقديمي. باتباع هذه الخطوات، يمكنك التعامل مع العروض التقديمية بكفاءة وفقًا لمتطلباتك.
-
+يعد دمج كائنات OLE في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET عملية مباشرة. لقد أرشدك هذا البرنامج التعليمي خلال الخطوات الأساسية، بدءًا من إعداد دليل المستند وحتى إضافة كائنات OLE وتخصيصها. قم بتجربة أنواع مختلفة من الملفات والتسميات التوضيحية لتحسين المظهر المرئي لعروضك التقديمية.
 ## الأسئلة الشائعة
-
-### كيف يمكنني الحصول على Aspose.Slides لمكتبة .NET؟
-
- يمكنك تنزيل مكتبة Aspose.Slides for .NET من[هذا الرابط](https://releases.aspose.com/slides/net/).
-
-### هل يمكنني استخدام Aspose.Slides لـ .NET دون تثبيت Microsoft Office؟
-
-نعم، يسمح لك Aspose.Slides for .NET بالعمل مع عروض PowerPoint التقديمية دون الحاجة إلى تثبيت Microsoft Office.
-
-### هل هناك عمليات أخرى يمكنني تنفيذها على إطارات كائنات OLE؟
-
-قطعاً! يمكنك تنفيذ إجراءات متنوعة على إطارات كائنات OLE، مثل استبدال بيانات الكائن، أو تغيير حجمها، أو إعادة وضعها داخل الشرائح.
-
-### هل يتوافق Aspose.Slides for .NET مع تنسيقات PowerPoint المختلفة؟
-
-نعم، يدعم Aspose.Slides for .NET نطاقًا واسعًا من تنسيقات PowerPoint، بما في ذلك PPT وPPTX وPPS والمزيد.
-
-### هل يمكنني أتمتة إنشاء عروض PowerPoint التقديمية باستخدام Aspose.Slides؟
-
-بالتأكيد! يمكّنك Aspose.Slides for .NET من إنشاء عروض PowerPoint التقديمية ديناميكيًا من البداية، ودمج عناصر مختلفة مثل النص والصور والمخططات والمزيد.
+### هل يمكنني تضمين أنواع أخرى من الملفات ككائنات OLE باستخدام Aspose.Slides؟
+نعم، يدعم Aspose.Slides تضمين أنواع مختلفة من الملفات، مثل جداول بيانات Excel ومستندات Word والمزيد.
+### هل رمز كائن OLE قابل للتخصيص؟
+قطعاً. يمكنك استبدال الرمز الافتراضي بأي صورة من اختيارك لتناسب موضوع العرض التقديمي بشكل أفضل.
+### هل يوفر Aspose.Slides الدعم للرسوم المتحركة باستخدام كائنات OLE؟
+اعتبارًا من الإصدار الأحدث، يركز Aspose.Slides على تضمين كائن OLE وعرضه، ولا يتعامل مباشرة مع الرسوم المتحركة داخل كائنات OLE.
+### هل يمكنني التعامل مع كائنات OLE برمجيًا بعد إضافتها إلى الشريحة؟
+بالتأكيد. لديك تحكم برمجي كامل في كائنات OLE، مما يسمح لك بتعديل خصائصها ومظهرها حسب الحاجة.
+### هل هناك أي قيود على حجم كائنات OLE المضمنة؟
+على الرغم من وجود قيود على الحجم، إلا أنها سخية بشكل عام. يوصى باختباره باستخدام حالة الاستخدام المحددة الخاصة بك لضمان الأداء الأمثل.

@@ -126,7 +126,7 @@ finally
 
 ## 结论
 
-在本教程中，您学习了如何使用 Aspose.Slides for Java 检索 Java Slides 中图表数据标签的实际位置。现在，您可以利用这些知识，通过自定义数据标签和位置的视觉表示来增强您的 PowerPoint 演示文稿。
+在本教程中，您学习了如何使用 Aspose.Slides for Java 检索 Java Slides 中图表数据标签的实际位置。现在，您可以利用这些知识，通过自定义数据标签和位置的视觉表示来增强 PowerPoint 演示文稿。
 
 ## 常见问题解答
 

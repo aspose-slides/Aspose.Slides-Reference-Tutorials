@@ -130,7 +130,7 @@ Incorporare i controlli ActiveX nelle presentazioni PowerPoint può aumentare il
 
 ### Come posso aggiungere un controllo ActiveX a una diapositiva specifica?
 
-Per aggiungere un controllo ActiveX a una diapositiva specifica, puoi utilizzare il file`AddOleObjectFrame` metodo fornito da Aspose.Slides per .NET. Questo metodo consente di specificare la posizione, la dimensione e il ProgID del controllo ActiveX che si desidera inserire.
+ Per aggiungere un controllo ActiveX a una diapositiva specifica, puoi utilizzare il file`AddOleObjectFrame` metodo fornito da Aspose.Slides per .NET. Questo metodo consente di specificare la posizione, la dimensione e il ProgID del controllo ActiveX che si desidera inserire.
 
 ### Posso manipolare i controlli ActiveX a livello di codice?
 
@@ -140,11 +140,11 @@ Per aggiungere un controllo ActiveX a una diapositiva specifica, puoi utilizzare
 
  attivato dai controlli ActiveX?
 
- È possibile gestire gli eventi attivati dai controlli ActiveX iscrivendosi agli eventi corrispondenti utilizzando il file`EventClick` (o simile) gestore di eventi. Ciò consente di eseguire azioni specifiche in risposta alle interazioni dell'utente con il controllo.
+È possibile gestire gli eventi attivati dai controlli ActiveX iscrivendosi agli eventi corrispondenti utilizzando il file`EventClick` (o simile) gestore di eventi. Ciò consente di eseguire azioni specifiche in risposta alle interazioni dell'utente con il controllo.
 
 ### È possibile personalizzare l'aspetto dei controlli ActiveX?
 
- Assolutamente, puoi personalizzare l'aspetto dei controlli ActiveX utilizzando il file`SetProperty`metodo fornito da Aspose.Slides per .NET. Questo metodo ti consente di modificare varie proprietà, come il colore di sfondo, lo stile del carattere e altro.
+ Assolutamente, puoi personalizzare l'aspetto dei controlli ActiveX utilizzando il file`SetProperty` metodo fornito da Aspose.Slides per .NET. Questo metodo ti consente di modificare varie proprietà, come il colore di sfondo, lo stile del carattere e altro.
 
 ### Posso rimuovere un controllo ActiveX da una diapositiva?
 

@@ -1,92 +1,82 @@
 ---
-title: Spola tillbaka animering på bild
+title: Bemästra Rewind-animationer i presentationer med Aspose.Slides
 linktitle: Spola tillbaka animering på bild
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du spola tillbaka animationer på PowerPoint-bilder med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med kompletta källkodsexempel för att förbättra dina presentationer dynamiskt.
+description: Lär dig hur du spola tillbaka animationer på PowerPoint-bilder med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med kompletta källkodsexempel.
 type: docs
 weight: 13
 url: /sv/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-## Introduktion till animationer med Aspose.Slides
-
-Animationer kan blåsa liv i dina presentationer, vilket gör dem mer engagerande och visuellt tilltalande. Aspose.Slides för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med PowerPoint-presentationer programmatiskt, inklusive att lägga till, ändra och hantera animationer.
-
+## Introduktion
+den dynamiska presentationsvärlden kan fängslande animationer förbättra engagemanget avsevärt. Aspose.Slides för .NET tillhandahåller en kraftfull verktygsuppsättning för att blåsa liv i dina presentationer. En spännande funktion är möjligheten att spola tillbaka animationer på bilder. I den här omfattande guiden går vi igenom processen steg för steg, så att du kan dra nytta av den fulla potentialen av återspolning av animationer med Aspose.Slides för .NET.
 ## Förutsättningar
-
-Innan vi börjar, se till att du har följande på plats:
-
-- Visual Studio: Installera Visual Studio eller någon annan .NET-utvecklingsmiljö.
--  Aspose.Slides: Ladda ner och installera Aspose.Slides för .NET-biblioteket från[här](https://releases.aspose.com/slides/net/).
-
-## Steg 1: Laddar presentationsfil
-
-Låt oss först börja med att ladda PowerPoint-presentationsfilen som innehåller bilden med animationer. Här är kodavsnittet för att uppnå detta:
-
+Innan du dyker in i handledningen, se till att du har följande förutsättningar:
+-  Aspose.Slides för .NET: Se till att du har biblioteket installerat. Om inte, ladda ner den från[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+- .NET-utvecklingsmiljö: Se till att du har en fungerande .NET-utvecklingsmiljö inrättad.
+- Grundläggande C#-kunskaper: Bekanta dig med C#-programmeringsspråkets grunder.
+## Importera namnområden
+I din C#-kod måste du importera de nödvändiga namnrymden för att utnyttja funktionaliteten som tillhandahålls av Aspose.Slides för .NET. Här är ett utdrag som vägleder dig:
 ```csharp
-using Aspose.Slides;
-
-// Ladda presentationen
-string presentationPath = "path_to_your_presentation.pptx";
-using (Presentation presentation = new Presentation(presentationPath))
+using System;
+using Aspose.Slides.Animation;
+using Aspose.Slides.SlideShow;
+using Aspose.Slides.Export;
+```
+## Steg 1: Konfigurera ditt projekt
+Skapa ett nytt projekt i din föredragna .NET-utvecklingsmiljö. Skapa en katalog för dina dokument om den inte finns.
+```csharp
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+```
+## Steg 2: Ladda presentationen
+ Instantiera`Presentation` klass för att representera din presentationsfil.
+```csharp
+using (Presentation presentation = new Presentation(dataDir + "AnimationRewind.pptx"))
 {
-    // Din kod här
+    // Din kod för efterföljande steg kommer här
 }
 ```
-
-## Steg 2: Få åtkomst till Slide and Animation
-
-Därefter måste vi komma åt den specifika bilden och dess animationer. I det här steget riktar vi oss mot bilden som innehåller animeringen du vill spola tillbaka. Här är hur:
-
+## Steg 3: Få åtkomst till effektsekvens
+Hämta effektsekvensen för den första bilden.
 ```csharp
-// Antag att bildindexet är 0 (första bilden)
-ISlide slide = presentation.Slides[0];
-
-// Få åtkomst till animationer av bilden
-ISlideAnimation slideAnimation = slide.SlideShowTransition;
+ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 ```
-
-## Steg 3: Spola tillbaka animationer
-
-Nu kommer den spännande delen – att spola tillbaka animationerna. Aspose.Slides låter dig återställa animationer på en bild, vilket effektivt tar bilden tillbaka till dess ursprungliga tillstånd. Här är kodavsnittet för att uppnå detta:
-
+## Steg 4: Ändra effekttiming
+Få tillgång till den första effekten av huvudsekvensen och ändra dess timing för att möjliggöra bakåtspolning.
 ```csharp
-// Spola tillbaka animationer på bilden
-slideAnimation.StopAfterRepeats = 0; // Ställ in antalet repetitioner till 0
+IEffect effect = effectsSequence[0];
+Console.WriteLine("\nEffect Timing/Rewind in source presentation is {0}", effect.Timing.Rewind);
+effect.Timing.Rewind = true;
 ```
-
-## Steg 4: Spara den ändrade presentationen
-
-Efter att ha spolat tillbaka animationerna är det dags att spara den ändrade presentationen. Du kan spara den med ett nytt namn eller skriva över den befintliga filen. Så här sparar du presentationen:
-
+## Steg 5: Spara presentationen
+Spara den ändrade presentationen.
 ```csharp
-// Spara den ändrade presentationen
-string outputPath = "path_to_save_modified_presentation.pptx";
-presentation.Save(outputPath, SaveFormat.Pptx);
+presentation.Save(RunExamples.OutPath + "AnimationRewind-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 ```
-
+## Steg 6: Kontrollera bakåtspolningseffekten i destinationspresentationen
+Ladda den modifierade presentationen och kontrollera om bakåtspolningseffekten tillämpas.
+```csharp
+using (Presentation pres = new Presentation(RunExamples.OutPath + "AnimationRewind-out.pptx"))
+{
+    effectsSequence = pres.Slides[0].Timeline.MainSequence;
+    effect = effectsSequence[0];
+    Console.WriteLine("Effect Timing/Rewind in destination presentation is {0}\n", effect.Timing.Rewind);
+}
+```
+Upprepa dessa steg för ytterligare bilder eller anpassa processen efter din presentations struktur.
 ## Slutsats
-
-Grattis! Du har framgångsrikt lärt dig hur man spola tillbaka animationer på en bild med Aspose.Slides för .NET. Detta kraftfulla bibliotek ger dig verktygen för att manipulera och förbättra dina PowerPoint-presentationer programmatiskt.
-
-## FAQ's
-
-### Hur installerar jag Aspose.Slides för .NET?
-
- Du kan ladda ner Aspose.Slides för .NET-biblioteket från[här](https://releases.aspose.com/slides/net/). Se till att följa installationsinstruktionerna i dokumentationen.
-
-### Kan jag spola tillbaka animationer på specifika objekt i en bild?
-
-Ja, Aspose.Slides låter dig rikta in dig på specifika objekt och deras animationer i en bild. Du kan också ändra animationer på objektnivå.
-
-### Är Aspose.Slides kompatibel med olika PowerPoint-format?
-
-Ja, Aspose.Slides stöder olika PowerPoint-format, inklusive PPTX, PPT, PPSX och mer. Se till att kontrollera dokumentationen för en komplett lista över format som stöds.
-
-### Kan jag anpassa bakåtspolningsbeteendet för animationer?
-
-Absolut! Aspose.Slides tillhandahåller en rad egenskaper och metoder för att anpassa animationsbeteende. Du kan styra hastigheten, riktningen och andra aspekter av animationer.
-
-### Var kan jag hitta mer resurser och dokumentation?
-
- För omfattande dokumentation, handledning och kodexempel, se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+Unlocking the rewind animation feature in Aspose.Slides for .NET opens up exciting possibilities for creating dynamic and engaging presentations. By following this step-by-step guide, you can seamlessly integrate animation rewind into your projects, enhancing the visual appeal of your slides.
+---
+## Vanliga frågor
+### Är Aspose.Slides för .NET kompatibel med den senaste versionen av .NET framework?
+ Aspose.Slides för .NET uppdateras regelbundet för att säkerställa kompatibilitet med de senaste .NET framework-versionerna. Kolla[dokumentation](https://reference.aspose.com/slides/net/) för kompatibilitetsinformation.
+### Kan jag använda bakåtspolningsanimering på specifika objekt i en bild?
+Ja, du kan anpassa koden för att tillämpa spolningsanimering selektivt på specifika objekt eller element i en bild.
+### Finns det en testversion tillgänglig för Aspose.Slides för .NET?
+ Ja, du kan utforska funktionerna genom att få en gratis provperiod från[här](https://releases.aspose.com/).
+### Hur kan jag få support för Aspose.Slides för .NET?
+ Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att söka hjälp och engagera sig i samhället.
+### Kan jag köpa en tillfällig licens för Aspose.Slides för .NET?
+ Ja, du kan skaffa en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).

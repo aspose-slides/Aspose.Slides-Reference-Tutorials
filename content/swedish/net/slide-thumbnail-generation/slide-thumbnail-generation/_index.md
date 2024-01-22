@@ -53,7 +53,7 @@ Låt oss nu dela upp processen för att generera miniatyrbilder i flera steg:
 string dataDir = "Your Document Directory";
 ```
 
-## Steg 3: Skapa en presentationsklass
+## Steg 3: Instantiera en presentationsklass
 
  I det här steget skapar du en instans av`Presentation` klass för att representera din presentationsfil.
 
@@ -105,7 +105,7 @@ S: Aspose.Slides för .NET stöder olika bildformat, inklusive PNG, JPEG och BMP
 S: Processen kan ta ytterligare minne och bearbetningstid för större presentationer eller komplexa former.
 
 ### F: Kan jag anpassa storleken på de genererade miniatyrerna?
- S: Ja, du kan justera måtten genom att ändra parametrarna i`GetThumbnail` metod.
+S: Ja, du kan justera måtten genom att ändra parametrarna i`GetThumbnail` metod.
 
 ### F: Är Aspose.Slides för .NET lämplig för kommersiellt bruk?
 S: Ja, Aspose.Slides är en robust lösning för både personliga och kommersiella applikationer. Du kan hitta licensinformation på Asposes webbplats.

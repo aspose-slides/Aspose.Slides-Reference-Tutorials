@@ -12,7 +12,7 @@ Java slaytlarınızı çarpıcı görüntülerle geliştirmeye hazır mısınız
 
 ## Görüntü İşleme Neden Önemlidir?
 
-Öğretici listelerine dalmadan önce, Java slaytlarında görüntü işlemenin neden çok önemli olduğunu anlayalım. Günümüzün görsel odaklı dünyasında, sunumlar ve slayt gösterileri genellikle mesajları etkili bir şekilde iletmek için etkili görsellere dayanır. Aspose.Slides for Java ile görselleri sorunsuz bir şekilde yöneterek slaytlarınızı bir sonraki seviyeye taşıyabilir, sunumlarınızın kalıcı bir izlenim bırakmasını sağlayabilirsiniz.
+Öğretici listelerine dalmadan önce, Java slaytlarında görüntü işlemenin neden çok önemli olduğunu anlayalım. Günümüzün görsel odaklı dünyasında, sunumlar ve slayt gösterileri genellikle mesajları etkili bir şekilde iletmek için etkili görsellere dayanır. Aspose.Slides for Java ile görselleri sorunsuz bir şekilde yöneterek slaytlarınızı bir sonraki seviyeye taşıyabilir ve sunumlarınızın kalıcı bir izlenim bırakmasını sağlayabilirsiniz.
 
 ## Aspose.Slides for Java'ya Başlarken
 

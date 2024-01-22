@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 
 ## 5. Экспорт фигуры в SVG
 
- В рамках`using`блок, вы можете получить доступ к фигурам в презентации и экспортировать их в формат SVG. Здесь мы экспортируем первую фигуру на первом слайде:
+ В рамках`using` блок, вы можете получить доступ к фигурам в презентации и экспортировать их в формат SVG. Здесь мы экспортируем первую фигуру на первом слайде:
 
 ```csharp
 using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAccess.Write))

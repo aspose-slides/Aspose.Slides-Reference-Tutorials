@@ -7,129 +7,67 @@ type: docs
 weight: 11
 url: /tr/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
-
 ## giriiş
-
-Birçok senaryoda, .NET uygulamalarınızda PowerPoint sunumları oluşturup düzenlemeniz gerekebilir. Aspose.Slides for .NET, sunumlarla çalışmak için kapsamlı bir dizi özellik sağlar ve baskı çıktısının önizlemesi de bunlardan biridir. Bu kılavuz, bunu başarmak için Aspose.Slides for .NET'ten nasıl yararlanabileceğinizi anlamanıza yardımcı olacaktır.
-
+Geliştiricilerin .NET uygulamalarında PowerPoint sunumlarını sorunsuz bir şekilde değiştirmelerine ve geliştirmelerine olanak tanıyan güçlü bir kitaplık olan Aspose.Slides for .NET dünyasına hoş geldiniz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kapsamlı kılavuz Aspose.Slides'ın tüm potansiyelinden yararlanmanız için gerekli adımlarda size yol gösterecektir.
 ## Önkoşullar
-
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-
-1. Visual Studio veya başka herhangi bir .NET geliştirme ortamı kurulu.
-2. C# ve .NET geliştirme konusunda temel bilgiler.
-3. PowerPoint sunumlarının ve unsurlarının anlaşılması.
-
-## Aspose.Slides for .NET'i Yükleme
-
-Başlamak için Aspose.Slides for .NET kitaplığını yüklemeniz gerekir. Bu adımları takip et:
-
-1.  Ziyaret edin[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/) Kurulum talimatları için.
-2.  Kütüphaneyi şuradan indirin:[indirme sayfası](https://releases.aspose.com/slides/net/) ve projenize yükleyin.
-
-## Sunum Yükleme
-
-Aspose.Slides for .NET'i kullanarak bir PowerPoint sunumu yükleyerek başlayalım:
-
+Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+1. Visual Studio Yüklü: Makinenizde Visual Studio'nun yüklü olduğundan emin olun.
+2.  Aspose.Slides Kütüphanesi: Aspose.Slides kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/slides/net/).
+3. Belge Dizini: Belgelerinizi saklayacağınız bir dizin oluşturun ve kod örneklerinde "Belge Dizininiz"i gerçek yolla değiştirin.
+## Ad Alanlarını İçe Aktar
+Aspose.Slides tarafından sağlanan işlevselliğe erişmek için Visual Studio projenize gerekli ad alanlarını içe aktarın. Bu adımları takip et:
+## 1. Adım: Visual Studio Projenizi Açın
+Visual Studio'yu başlatın ve projenizi açın.
+## Adım 2: Aspose.Slides Referansını Ekleyin
+Projenizde Referanslar'a sağ tıklayın ve "Referans Ekle"yi seçin. Aspose.Slides kütüphanesini kaydettiğiniz konuma göz atın ve referansı ekleyin.
+## 3. Adım: Ad Alanlarını İçe Aktarın
+Kod dosyanızda gerekli ad alanlarını içe aktarın:
 ```csharp
+using System;
 using Aspose.Slides;
-
-// Sunuyu yükle
-using (Presentation presentation = new Presentation("your-presentation.pptx"))
-{
-    // Sunuyla çalışmaya ilişkin kodunuz buraya gelecek
-}
+using System.Drawing.Printing;
 ```
-
- Yer değiştirmek`"your-presentation.pptx"` PowerPoint sunumunuza giden gerçek yolu ile.
-
-## Yazdırma Çıktısının Önizlenmesi
-
- Sunumun çıktı çıktısını önizlemek için şunları kullanabilirsiniz:`Print` tarafından sağlanan yöntem`PrintManager`sınıf. Bu yöntem sunumun baskı önizleme görüntüsünü oluşturmanıza olanak tanır. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
-
+Artık Aspose.Slides'ın yeteneklerini keşfetmeye hazırsınız.
+## Öğretici: Aspose.Slides'ta Sunumların Baskı Çıktısını Önizleme
+Aspose.Slides'ı kullanarak baskı çıktısının önizlemesini yapma sürecini inceleyelim. Aşağıdaki adımlar size yol gösterecektir:
+## 1. Adım: Belge Dizinini Ayarlayın
+Koddaki "Belge Dizininiz"i, belge dizininizin yoluyla değiştirin.
 ```csharp
-using Aspose.Slides.Export;
-
-// Sunuyu yüklediğinizi varsayarsak
-using (Presentation presentation = new Presentation("your-presentation.pptx"))
-{
-    // PrintManager örneği oluşturma
-    PrintManager printManager = new PrintManager(presentation);
-
-    // Baskı önizleme görüntüsünü oluşturun
-    using (Bitmap previewImage = printManager.Print())
-    {
-        // Önizleme resmini görüntülemek veya kaydetmek için kodunuz
-    }
-}
+string dataDir = "Your Document Directory";
 ```
-
- Bu kodda öncelikle sunumu yüklüyoruz, bir`PrintManager` örneğini arayın ve ardından`Print` baskı önizleme görüntüsünü bir biçimde elde etme yöntemi`Bitmap`.
-
-## Yazdırma Ayarlarını Özelleştirme
-
-Aspose.Slides for .NET ayrıca baskı önizlemesini oluşturmadan önce yazdırma ayarlarını özelleştirmenize de olanak tanır. Slayt boyutu, yönlendirme, ölçekleme ve daha fazlası gibi çeşitli parametreleri ayarlayabilirsiniz. Yazdırma ayarlarının nasıl özelleştirileceğine ilişkin bir örnek:
-
+## Adım 2: Sunum Nesnesi Oluşturun
+Yeni bir Sunum nesnesi başlatın.
 ```csharp
-using Aspose.Slides.Export;
-
-// Sunuyu yüklediğinizi varsayarsak
-using (Presentation presentation = new Presentation("your-presentation.pptx"))
+using (Presentation pres = new Presentation())
 {
-    // PrintManager örneği oluşturma
-    PrintManager printManager = new PrintManager(presentation);
-
-    // Yazdırma ayarlarını özelleştirin
-    printManager.Settings.SlideTransitions = false;
-    printManager.Settings.Zoom = 100;
-
-    // Özelleştirilmiş ayarlarla baskı önizleme görüntüsünü oluşturun
-    using (Bitmap previewImage = printManager.Print())
-    {
-        // Önizleme resmini görüntülemek veya kaydetmek için kodunuz
-    }
+    // Kodunuz burada
 }
 ```
-
- Bu kodda şunu kullanıyoruz:`Settings` mülkiyeti`PrintManager` Yazdırma ayarlarını gereksinimlerinize göre değiştirmek için.
-
-## Önizlenen Çıktıyı Kaydetme
-
-Baskı ön izleme görüntüsünü oluşturduktan sonra bunu bir dosyaya kaydedebilir veya doğrudan uygulamanızda görüntüleyebilirsiniz. Önizleme görüntüsünü bir dosyaya şu şekilde kaydedebilirsiniz:
-
+## 3. Adım: Yazıcı Ayarlarını Yapılandırın
+Kopya sayısı, sayfa yönü ve kenar boşlukları gibi yazıcı ayarlarını yapın.
 ```csharp
-// Önizleme resmine sahip olduğunuzu varsayarsak
-using (Bitmap previewImage = /* Obtain the preview image */)
-{
-    // Önizleme görüntüsünü bir dosyaya kaydedin
-    previewImage.Save("print-preview.png", ImageFormat.Png);
-}
+PrinterSettings printerSettings = new PrinterSettings();
+printerSettings.Copies = 2;
+printerSettings.DefaultPageSettings.Landscape = true;
+printerSettings.DefaultPageSettings.Margins.Left = 10;
+//... Gerektiğinde daha fazla ayar ekleyin
 ```
-
- Yer değiştirmek`"print-preview.png"` İstenilen dosya yolu ve adı ile.
-
+## Adım 4: Sunuyu Yazdırın
+Yapılandırılmış yazıcı ayarlarını kullanarak sunuyu yazdırın.
+```csharp
+pres.Print(printerSettings);
+```
+Tebrikler! Aspose.Slides for .NET'i kullanarak bir sunumun çıktısının önizlemesini başarıyla incelediniz.
 ## Çözüm
-
-Bu kılavuzda, sunumların çıktı çıktısının önizlemesini yapmak için Aspose.Slides for .NET kullanma sürecini ele aldık. Ortamı ayarlayarak, gerekli kitaplığı yükleyerek başladık ve ardından bir sunum yüklemek, baskı önizleme görüntüsü oluşturmak, yazdırma ayarlarını özelleştirmek ve önizlenen çıktıyı kaydetmek için kodu derinlemesine inceledik. Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışma görevini basitleştirerek geliştiriciler için mükemmel bir seçim haline getiriyor.
-
-## SSS'ler
-
-### Yazdırma ayarlarını nasıl daha da özelleştirebilirim?
-
- Mevcut çeşitli özellikleri keşfedebilirsiniz.`PrintManager.Settings`Özel gereksinimlerinize göre yazdırma ayarlarında ince ayar yapılmasına itiraz edin. İstediğiniz yazdırma çıktısını elde etmek için slayt geçişleri, ölçekleme ve sayfa yönü gibi parametreleri ayarlayın.
-
-### Sununun tamamı yerine belirli slaytların önizlemesini görebilir miyim?
-
- Evet, kullanabilirsiniz`PrintManager.Print` Önizlemek istediğiniz slayt aralığını belirtmek için ek parametreler içeren yöntem. Bu, baskı önizleme işlemi sırasında sunumun belirli bölümlerine odaklanmanıza olanak tanır.
-
-### Baskı önizleme işlevini bir Windows Forms uygulamasına entegre etmek mümkün mü?
-
-Kesinlikle! Bir Windows Forms uygulaması oluşturabilir ve Aspose.Slides for .NET kitaplığını kullanarak baskı önizleme görüntüleri oluşturabilirsiniz. Kullanıcılara gerçek yazdırmadan önce yazdırma çıktısının görsel bir sunumunu sağlamak için görüntüleri uygulamanızın kullanıcı arayüzünde görüntüleyin.
-
-### Aspose.Slides for .NET görsellerin yanı sıra diğer çıktı formatlarını da destekliyor mu?
-
-Evet, Aspose.Slides for .NET, JPEG, PNG, BMP ve daha fazlasını içeren çeşitli formatlarda baskı önizleme görüntüleri oluşturmayı destekler. Uygulamanızın ihtiyaçlarına en uygun formatı seçebilirsiniz.
-
-### Sunum içeriğini değiştirmek için Aspose.Slides for .NET'i kullanabilir miyim?
-
-Evet, Aspose.Slides for .NET, PowerPoint sunumlarının içeriğini programlı olarak değiştirmek için kapsamlı yetenekler sağlar. Kitaplığın zengin özelliklerini kullanarak sunumdaki slaytları, şekilleri, metinleri, görüntüleri ve diğer öğeleri ekleyebilir, silebilir veya değiştirebilirsiniz.
+Bu eğitimde Aspose.Slides for .NET'i projelerinize entegre etmek ve kullanmak için gerekli adımları ele aldık. Bu güçlü kitaplık, PowerPoint sunumlarıyla programlı olarak çalışmak için bir fırsatlar dünyasının kapılarını açar. Aspose.Slides'ın sunduğu esneklikle uygulamalarınızı deneyin, keşfedin ve geliştirin.
+## Sıkça Sorulan Sorular
+### Aspose.Slides PowerPoint'in en son sürümleriyle uyumlu mu?
+Evet, Aspose.Slides en yeni PowerPoint formatlarını destekleyerek en yeni sürümlerle uyumluluk sağlar.
+### Aspose.Slides'ı hem Windows hem de Web uygulamalarında kullanabilir miyim?
+Kesinlikle! Aspose.Slides çok yönlüdür ve hem Windows hem de Web tabanlı uygulamalara sorunsuz bir şekilde entegre edilebilir.
+### Aspose.Slides için kapsamlı belgeleri nerede bulabilirim?
+ Dokümantasyon şu adreste mevcuttur:[Aspose.Slides .NET Belgeleri](https://reference.aspose.com/slides/net/).
+### Aspose.Slides için nasıl geçici lisans alabilirim?
+ Ziyaret etmek[Geçici Lisans](https://purchase.aspose.com/temporary-license/) Test amacıyla geçici bir lisans almak için.
+### Desteğe mi ihtiyacınız var veya daha fazla sorunuz mu var?
+ Ziyaret edin[Aspose.Slides Forumu](https://forum.aspose.com/c/slides/11) yardım almak ve toplulukla bağlantı kurmak için.

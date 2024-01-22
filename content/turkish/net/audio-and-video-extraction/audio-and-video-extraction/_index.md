@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides for .NET ile Ses ve Video Çıkarmada Uzmanlaşma
+title: Aspose.Slides for .NET ile Ses ve Video Çıkarmada Uzmanlaşmak
 linktitle: Aspose.Slides kullanarak Slaytlardan Ses ve Video Çıkarma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarından nasıl ses ve video çıkaracağınızı öğrenin. Zahmetsiz multimedya çıkarma.

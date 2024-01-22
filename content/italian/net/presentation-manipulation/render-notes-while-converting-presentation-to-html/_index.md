@@ -73,7 +73,7 @@ Sì, puoi personalizzare l'output HTML modificando l'oggetto HTMLOptions. Puoi c
 Sì, Aspose.Slides per .NET supporta vari formati PowerPoint, inclusi PPT, PPTX e altri.
 
 ### Q4. Ci sono considerazioni sulla licenza?
-Per utilizzare Aspose.Slides per .NET nel tuo progetto, dovrai ottenere una licenza da Aspose. Puoi trovare ulteriori informazioni sulla licenza[Qui](https://purchase.aspose.com/buy).
+ Per utilizzare Aspose.Slides per .NET nel tuo progetto, dovrai ottenere una licenza da Aspose. Puoi trovare ulteriori informazioni sulla licenza[Qui](https://purchase.aspose.com/buy).
 
 ### Q5. Dove posso ottenere supporto per Aspose.Slides per .NET?
  Se riscontri problemi o hai domande, puoi cercare aiuto su[Forum Aspose.Slides](https://forum.aspose.com/).

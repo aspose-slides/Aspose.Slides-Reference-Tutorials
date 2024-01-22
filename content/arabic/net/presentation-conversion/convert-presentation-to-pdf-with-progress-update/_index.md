@@ -81,7 +81,7 @@ class ExportProgressHandler : IProgressCallback
 ج: يمكنك تنفيذ آليات معالجة الأخطاء داخل التعليمات البرمجية الخاصة بك لإدارة أي أخطاء تحويل بشكل أنيق.
 
 ### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ .NET؟
-ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية على[https://releases.aspose.com/](https://releases.aspose.com/).
+ ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية على[https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### س: أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
  ج: يمكنك العثور على الدعم والمناقشات المجتمعية على[https://forum.aspose.com/](https://forum.aspose.com/).

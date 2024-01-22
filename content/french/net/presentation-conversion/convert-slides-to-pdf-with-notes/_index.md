@@ -89,7 +89,7 @@ Oui, Aspose.Slides pour .NET prend en charge divers formats de sortie, notamment
 
  Oui, vous pouvez obtenir un essai gratuit d'Aspose.Slides pour .NET sur[https://releases.aspose.com/](https://releases.aspose.com/).
 
-### Q4 : Où puis-je obtenir de l'assistance pour Aspose.Slides pour .NET ?
+### Q4 : Où puis-je obtenir de l'aide pour Aspose.Slides pour .NET ?
 
  Vous pouvez trouver du soutien et des discussions communautaires sur[https://forum.aspose.com/](https://forum.aspose.com/).
 

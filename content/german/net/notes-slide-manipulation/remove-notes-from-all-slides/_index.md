@@ -18,7 +18,7 @@ Bevor Sie mit diesem Tutorial beginnen, stellen Sie sicher, dass die folgenden V
 
 2.  Aspose.Slides für .NET: Sie müssen die Aspose.Slides für .NET-Bibliothek installiert haben. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/slides/net/).
 
-3. Eine PowerPoint-Präsentation: Sie sollten über eine PowerPoint-Präsentation (PPTX) verfügen, die Notizen zu den Folien enthält.
+3. Eine PowerPoint-Präsentation: Sie sollten eine PowerPoint-Präsentation (PPTX) haben, die Notizen zu den Folien enthält.
 
 ## Namespaces importieren
 

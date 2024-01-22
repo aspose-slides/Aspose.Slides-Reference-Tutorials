@@ -2,150 +2,87 @@
 title: عرض تعليقات الشرائح في Aspose.Slides
 linktitle: عرض تعليقات الشرائح في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية عرض تعليقات الشرائح في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدر للوصول إلى التعليقات وتخصيصها وعرضها برمجيًا.
+description: اكتشف كيفية عرض تعليقات الشرائح في Aspose.Slides لـ .NET من خلال برنامجنا التعليمي خطوة بخطوة. قم بتخصيص مظهر التعليق ورفع مستوى أتمتة PowerPoint.
 type: docs
 weight: 12
 url: /ar/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
 ## مقدمة
-
-توفر تعليقات الشرائح رؤى وتفسيرات ومناقشات قيمة تتعلق بشرائح معينة في العرض التقديمي. يمكن أن يؤدي عرض هذه التعليقات برمجيًا إلى تبسيط عملية المراجعة والتعاون. يعمل Aspose.Slides for .NET على تبسيط هذه المهمة من خلال توفير مجموعة شاملة من واجهات برمجة التطبيقات لإدارة تعليقات الشرائح وعرضها.
-
+مرحبًا بك في برنامجنا التعليمي الشامل حول عرض تعليقات الشرائح باستخدام Aspose.Slides لـ .NET! Aspose.Slides هي مكتبة قوية تمكن المطورين من العمل بسلاسة مع عروض PowerPoint التقديمية في تطبيقات .NET الخاصة بهم. في هذا الدليل، سنركز على مهمة محددة - عرض تعليقات الشرائح - ونرشدك خلال العملية خطوة بخطوة.
 ## المتطلبات الأساسية
-
-قبل أن نتعمق في التنفيذ، تأكد من توفر المتطلبات الأساسية التالية:
-
-- تم تثبيت Visual Studio على جهازك.
-- الفهم الأساسي لتطوير C# و.NET.
--  Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
-
-## إعداد المشروع
-
-1. قم بإنشاء مشروع C# جديد في Visual Studio.
-
-2. أضف مرجعًا إلى مكتبة Aspose.Slides for .NET في مشروعك.
-
-## تحميل عرض تقديمي
-
-للبدء، لنقم بتحميل عرض PowerPoint التقديمي الذي يحتوي على تعليقات الشرائح:
-
+قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك ما يلي:
+-  Aspose.Slides for .NET Library: تأكد من تثبيت مكتبة Aspose.Slides لـ .NET في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
+- بيئة التطوير: قم بإعداد بيئة تطوير .NET عاملة، واحصل على فهم أساسي لـ C#.
+الآن، دعونا نبدأ مع البرنامج التعليمي!
+## استيراد مساحات الأسماء
+في كود C# الخاص بك، تحتاج إلى استيراد مساحات الأسماء الضرورية لاستخدام ميزات Aspose.Slides. أضف الأسطر التالية في بداية ملفك:
 ```csharp
+using Aspose.Slides.Export;
 using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using var presentation = new Presentation("presentation.pptx");
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 ```
-
-## الوصول إلى تعليقات الشرائح
-
-بعد ذلك، دعنا نراجع الشرائح الموجودة في العرض التقديمي ونصل إلى التعليقات المرتبطة بكل شريحة:
-
+## الخطوة 1: قم بإعداد دليل المستندات الخاص بك
+ابدأ بتحديد المسار إلى دليل المستند الخاص بك حيث يوجد عرض PowerPoint التقديمي:
 ```csharp
-// التكرار من خلال الشرائح
-foreach (var slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+```
+## الخطوة 2: تحديد مسار الإخراج
+حدد المسار الذي تريد حفظ الصورة المعروضة به مع التعليقات:
+```csharp
+string resultPath = Path.Combine(dataDir, "OutPresBitmap_Comments.png");
+```
+## الخطوة 3: قم بتحميل العرض التقديمي
+قم بتحميل عرض PowerPoint التقديمي باستخدام مكتبة Aspose.Slides:
+```csharp
+Presentation pres = new Presentation(dataDir + "presentation.pptx");
+```
+## الخطوة 4: إنشاء صورة نقطية للعرض
+قم بإنشاء كائن نقطي بالأبعاد المطلوبة:
+```csharp
+Bitmap bmp = new Bitmap(740, 960);
+```
+## الخطوة 5: تكوين خيارات العرض
+قم بتكوين خيارات العرض، بما في ذلك خيارات التخطيط للملاحظات والتعليقات:
+```csharp
+IRenderingOptions renderOptions = new RenderingOptions();
+NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+notesOptions.CommentsAreaColor = Color.Red;
+notesOptions.CommentsAreaWidth = 200;
+notesOptions.CommentsPosition = CommentsPositions.Right;
+notesOptions.NotesPosition = NotesPositions.BottomTruncated;
+renderOptions.SlidesLayoutOptions = notesOptions;
+```
+## الخطوة 6: تقديم إلى الرسومات
+قم بعرض الشريحة الأولى مع التعليقات على كائن الرسومات المحدد:
+```csharp
+using (Graphics graphics = Graphics.FromImage(bmp))
 {
-    // الوصول إلى تعليقات الشرائح
-    var comments = slide.Comments;
-    foreach (var comment in comments)
-    {
-        // الوصول إلى خصائص التعليق
-        var author = comment.Author;
-        var text = comment.Text;
-        
-        // قم بمعالجة التعليق حسب الحاجة
-    }
+    pres.Slides[0].RenderToGraphics(renderOptions, graphics);
 }
 ```
-
-## تقديم التعليقات على الشرائح
-
-الآن، دعونا نقدم التعليقات على الشرائح. سنضيف التعليقات كمربعات نصية أسفل كل شريحة:
-
+## الخطوة 7: حفظ النتيجة
+احفظ الصورة المقدمة مع التعليقات على المسار المحدد:
 ```csharp
-foreach (var slide in presentation.Slides)
-{
-    // الوصول إلى تعليقات الشرائح
-    var comments = slide.Comments;
-    foreach (var comment in comments)
-    {
-        // إنشاء مربع نص للتعليق
-        var textBox = slide.Shapes.AddTextFrame("");
-        var textFrame = textBox.TextFrame;
-        
-        // قم بتعيين خصائص التعليق كنص
-        textFrame.Text = $"{comment.Author}: {comment.Text}";
-        
-        // ضع مربع النص أسفل الشريحة
-        textBox.Left = slide.SlideSize.Size.Width / 2;
-        textBox.Top = slide.SlideSize.Size.Height + 20;
-        
-        // تخصيص مظهر مربع النص إذا لزم الأمر
-        
-        // قم بمعالجة التعليق حسب الحاجة
-    }
-}
+bmp.Save(resultPath, ImageFormat.Png);
 ```
-
-## تخصيص عرض التعليق
-
-يمكنك أيضًا تخصيص مظهر التعليقات المقدمة، مثل حجم الخط واللون والموضع. يتيح لك ذلك مطابقة التعليقات مع نمط العرض التقديمي الخاص بك:
-
+## الخطوة 8: عرض النتيجة
+افتح الصورة المعروضة باستخدام عارض الصور الافتراضي:
 ```csharp
-// تخصيص مظهر مربع النص
-var fontHeight = 12;
-var fontColor = Color.Black;
-var margin = 20;
-
-foreach (var slide in presentation.Slides)
-{
-    // ...
-    foreach (var comment in comments)
-    {
-        // ...
-        
-        // تخصيص مظهر مربع النص
-        textFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = fontHeight;
-        textFrame.Paragraphs[0].Portions[0].PortionFormat.FillFormat.SolidFillColor.Color = fontColor;
-        
-        //ضبط موضع مربع النص
-        textBox.Top = slide.SlideSize.Size.Height - margin;
-        margin += 30; // قم بزيادة هامش التعليق التالي
-    }
-}
+System.Diagnostics.Process.Start(resultPath);
 ```
-
-## حفظ العرض التقديمي المقدم
-
-بمجرد تقديم التعليقات على الشرائح، يمكنك حفظ العرض التقديمي المعدل:
-
-```csharp
-// احفظ العرض التقديمي المعدل
-presentation.Save("rendered_presentation.pptx", SaveFormat.Pptx);
-```
-
+تهانينا! لقد نجحت في تقديم تعليقات الشرائح باستخدام Aspose.Slides لـ .NET.
 ## خاتمة
-
-في هذا الدليل، اكتشفنا كيفية عرض تعليقات الشرائح في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. باتباع الخطوات الموضحة أعلاه، يمكنك الوصول إلى التعليقات وعرضها برمجيًا، مما يعزز التعاون والتواصل داخل مجموعات الشرائح الخاصة بك.
-
-## الأسئلة الشائعة
-
-### كيف يمكنني تثبيت Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل مكتبة Aspose.Slides for .NET من[هذا الرابط](https://releases.aspose.com/slides/net/). بمجرد تنزيله، يمكنك إضافته كمرجع في مشروع Visual Studio الخاص بك.
-
-### هل يمكنني تخصيص مظهر التعليقات المقدمة؟
-
-نعم، يمكنك تخصيص مظهر التعليقات المقدمة، بما في ذلك حجم الخط واللون والموضع. يتيح لك هذا مطابقة التعليقات مع أسلوب العرض التقديمي الخاص بك.
-
-### كيف يمكنني الوصول إلى خصائص التعليق الفردي؟
-
- يمكنك الوصول إلى خصائص التعليق مثل المؤلف والنص باستخدام الملف`Author` و`Text` خصائص كائن التعليق.
-
-### هل يمكنني تقديم التعليقات كوسيلة شرح بدلاً من مربعات النص؟
-
-نعم، يمكنك عرض التعليقات كوسيلة شرح عن طريق إنشاء أشكال مخصصة وإضافة نص إليها. ستحتاج إلى ضبط موضع وسائل الشرح ومظهرها وفقًا لذلك.
-
-### هل Aspose.Slides for .NET مناسب للمهام الأخرى المتعلقة ببرنامج PowerPoint؟
-
-قطعاً! يوفر Aspose.Slides for .NET نطاقًا واسعًا من واجهات برمجة التطبيقات للعمل مع عروض PowerPoint التقديمية. يمكنك إنشاء جوانب مختلفة من العروض التقديمية وتعديلها وتحويلها ومعالجتها برمجيًا.
+في هذا البرنامج التعليمي، استكشفنا عملية عرض تعليقات الشرائح باستخدام Aspose.Slides لـ .NET. باتباع الدليل الموضح خطوة بخطوة، يمكنك تحسين قدرات التشغيل الآلي لبرنامج PowerPoint بسهولة.
+## أسئلة مكررة
+### س: هل Aspose.Slides متوافق مع أحدث إصدارات .NET Framework؟
+ج: نعم، يتم تحديث Aspose.Slides بانتظام لدعم أحدث إصدارات إطار عمل .NET.
+### س: هل يمكنني تخصيص مظهر التعليقات المقدمة؟
+ج: بالتأكيد! يتضمن البرنامج التعليمي خيارات لتخصيص لون منطقة التعليق وعرضها وموضعها.
+### س: أين يمكنني العثور على مزيد من الوثائق حول Aspose.Slides لـ .NET؟
+ ج: اكتشف الوثائق[هنا](https://reference.aspose.com/slides/net/).
+### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
+ ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+### س: أين يمكنني طلب المساعدة والدعم بشأن Aspose.Slides؟
+ ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع.

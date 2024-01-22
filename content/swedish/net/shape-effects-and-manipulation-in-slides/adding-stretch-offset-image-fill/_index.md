@@ -1,99 +1,73 @@
 ---
-title: Lägga till Stretch Offset för bildfyll i bilder med Aspose.Slides
+title: Lägga till Stretch Offset för bildfyllning i PowerPoint-presentationer
 linktitle: Lägga till Stretch Offset för bildfyllning i diabilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du förbättrar dina presentationsbilder med Aspose.Slides för .NET. Den här steg-för-steg-guiden handlar om att lägga till stretchoffset för bildfyllning, skapa dynamiska bilder och optimera designen.
+description: Lär dig hur du förbättrar PowerPoint-presentationer med Aspose.Slides för .NET. Följ en steg-för-steg-guide för att lägga till en sträckförskjutning för bildfyllning.
 type: docs
 weight: 18
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-moderna presentationer spelar bilder en avgörande roll för att förmedla budskap effektivt. Aspose.Slides, ett kraftfullt API för att arbeta med presentationsfiler i .NET, erbjuder en funktion som heter "Stretch Offset" som låter dig exakt styra hur bilder fylls i former. Den här artikeln guidar dig genom processen att lägga till stretch offset för bildfyllning i presentationsbilder med Aspose.Slides för .NET.
-
-## Introduktion till Stretch Offset
-
-Stretch Offset är en värdefull teknik när du behöver anpassa hur bilder visas i former. Det gör att du kan styra bildens position och inriktning i en form, vilket möjliggör kreativa och visuellt tilltalande bilddesigner. Genom att använda Aspose.Slides API kan du programmässigt implementera stretch offset och ge dina presentationer liv.
-
-## Konfigurera din utvecklingsmiljö
-
- Innan vi dyker in i implementeringen, se till att du har Aspose.Slides för .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från Asposes webbplats[nedladdningslänk](https://releases.aspose.com/slides/net/)När du har laddat ned, följ installationsinstruktionerna för att ställa in API:et för ditt projekt.
-
-## Lägga till en bild till en bild
-
-För att demonstrera stretch offset-funktionen, låt oss börja med att lägga till en bild till en bild med Aspose.Slides. Följande kodavsnitt visar hur du uppnår detta:
-
+## Introduktion
+I presentationens dynamiska värld spelar visuella bilder en avgörande roll för att fånga publikens uppmärksamhet. Aspose.Slides för .NET ger utvecklare möjlighet att förbättra sina PowerPoint-presentationer genom att tillhandahålla en robust uppsättning funktioner. En sådan funktion är möjligheten att lägga till en stretchoffset för bildfyllning, vilket möjliggör kreativa och visuellt tilltalande bilder.
+## Förutsättningar
+Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
+1.  Aspose.Slides för .NET Library: Ladda ner och installera biblioteket från[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+2. Utvecklingsmiljö: Se till att du har en fungerande .NET-utvecklingsmiljö inrättad.
+Låt oss nu komma igång med steg-för-steg-guiden.
+## Importera namnområden
+Importera först de nödvändiga namnområdena för att utnyttja Aspose.Slides-funktionaliteten i din .NET-applikation.
 ```csharp
-// Instantiera ett presentationsobjekt
-Presentation presentation = new Presentation();
-
-// Gå till den första bilden
-ISlide slide = presentation.Slides[0];
-
-// Definiera sökvägen till bildfilen
-string imagePath = "path_to_your_image.jpg";
-
-// Lägg till en bild på bilden
-byte[] imageBytes = File.ReadAllBytes(imagePath);
-IPictureFillFormat pictureFill = slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 100, 100, 400, 300).FillFormat.PictureFillFormat;
-pictureFill.Picture.Image = presentation.Images.AddImage(imageBytes);
-
-// Spara presentationen
-presentation.Save("output.pptx", SaveFormat.Pptx);
+using System.IO;
+using Aspose.Slides;
+using System.Drawing;
+using Aspose.Slides.Export;
 ```
-
-## Tillämpa Stretch Offset på bilder
-
- Nu när vi har lagt till en bild på en bild, låt oss utforska hur man tillämpar stretch offset på den. Stretch offset styrs av två egenskaper:`StretchX` och`StretchY`. Dessa egenskaper bestämmer förskjutningen av bilden inom formen horisontellt respektive vertikalt.
-
-Så här kan du implementera stretch offset med Aspose.Slides:
-
+## Steg 1: Konfigurera ditt projekt
+Skapa ett nytt .NET-projekt i din föredragna utvecklingsmiljö. Se till att Aspose.Slides för .NET är korrekt refererad.
+## Steg 2: Initiera presentationsklass
+ Instantiera`Presentation` klass för att representera PowerPoint-filen.
 ```csharp
-// Öppna bildfyllningsformatet
-IPictureFillFormat pictureFill = slide.Shapes[0].FillFormat.PictureFillFormat;
-
-// Applicera stretch offset
-pictureFill.StretchX = 0.5; // Horisontell offset på 50 %
-pictureFill.StretchY = -0.2; // Vertikal offset på -20 %
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
+{
+    // Din kod kommer hit
+}
 ```
-
-det här exemplet har vi satt en horisontell offset på 50 % och en vertikal offset på -20 %. Det negativa värdet för vertikal offset flyttar bilden uppåt inom formen.
-
-## Justering av Stretch Offset-värden
-
- Att hitta de perfekta sträckförskjutningsvärdena kan kräva lite försök och misstag för att uppnå den önskade visuella effekten. Justera värdena för`StretchX` och`StretchY` för att passa din design och inriktningspreferenser. Experimentera med positiva och negativa värden för att se hur bildens placering förändras.
-
-## Använda Stretch Offset med olika former
-
- Stretch offset kan tillämpas på olika formtyper, inklusive rektanglar, ellipser och mer. Metoden för att komma åt`PictureFillFormat` förblir konsekvent i olika former. Känn dig fri att utforska och experimentera med olika former för att skapa unika bildkompositioner.
-
-## Avancerade tekniker och tips
-
-- Kombinera stretch offset med andra formateringsfunktioner för intrikata mönster.
-- Använd stretch offset för att framhäva specifika delar av en bild i en form.
--  Använd`PictureFillFormat.TileAsTexture`egenskap för att sida vid sida bilder inom former istället för att sträcka ut dem.
-
+## Steg 3: Skaffa den första bilden
+Hämta den första bilden från presentationen att arbeta med.
+```csharp
+ISlide sld = pres.Slides[0];
+```
+## Steg 4: Instantiera ImageEx Class
+ Skapa en instans av`ImageEx` klass för att hantera bilden du vill lägga till på bilden.
+```csharp
+System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx = pres.Images.AddImage(img);
+```
+## Steg 5: Lägg till bildram
+ Använd`AddPictureFrame` metod för att lägga till en bildram till bilden. Ange mått och placering av ramen.
+```csharp
+sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);
+```
+## Steg 6: Spara presentationen
+Spara den ändrade presentationen på disk.
+```csharp
+pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
+```
+Det är allt! Du har framgångsrikt lagt till en sträckförskjutning för bildfyll i bilder med Aspose.Slides för .NET.
 ## Slutsats
-
-Att integrera stretchoffset för bildfyllning i presentationsbilder med Aspose.Slides öppnar upp en värld av kreativa möjligheter. Med exakt kontroll över bildpositionering kan du förbättra den visuella effekten av dina presentationer. Genom att följa stegen som beskrivs i den här artikeln har du lärt dig hur du kan utnyttja den här funktionen effektivt.
-
+Att förbättra dina PowerPoint-presentationer är nu enklare än någonsin med Aspose.Slides för .NET. Genom att följa den här handledningen har du lärt dig hur du kan införliva stretch offset för bildfyllning, vilket ger en ny nivå av kreativitet till dina bilder.
 ## Vanliga frågor
-
-### Hur kan jag ladda ner Aspose.Slides för .NET?
-
- Du kan ladda ner Aspose.Slides för .NET från Asposes webbplats[nedladdningslänk](https://releases.aspose.com/slides/net/).
-
-### Kan jag använda stretch offset med vilken bildtyp som helst?
-
-Ja, stretch offset kan tillämpas på bilder i olika format, inklusive JPG, PNG och mer.
-
-###  Vad händer om jag ställer in båda`StretchX` and `StretchY` to the same value?
-
-Om du ställer in båda egenskaperna till samma värde bibehålls bildens bildförhållande samtidigt som dess position flyttas inom formen.
-
-### Är stretch offset kompatibel med animationer?
-
-Ja, stretch offset fungerar sömlöst med diaanimationer, så att du kan skapa dynamiska presentationer.
-
-### Hur får jag tillgång till avancerade alternativ för stretch offset?
-
-Utforska Aspose.Slides-dokumentationen för djupgående information om avancerade stretch offset-tekniker och egenskaper.
+### Kan jag använda Aspose.Slides för .NET i mina webbapplikationer?
+Ja, Aspose.Slides för .NET är lämplig för både skrivbords- och webbapplikationer.
+### Finns det en gratis testversion tillgänglig för Aspose.Slides för .NET?
+ Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
+### Hur kan jag få support för Aspose.Slides för .NET?
+ Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd.
+### Var kan jag hitta den fullständiga dokumentationen för Aspose.Slides för .NET?
+ Referera till[dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information.
+### Kan jag köpa Aspose.Slides för .NET?
+ Ja, du kan köpa produkten[här](https://purchase.aspose.com/buy).

@@ -38,7 +38,7 @@ Um den SVG-Konvertierungsprozess zu steuern, können Sie verschiedene Optionen k
 - **UseFrameRotation** : Schließt die Drehung der Form beim Rendern aus. Stellen Sie es ein`false` Rotation auszuschließen.
 
 ```csharp
-// Erstellen Sie eine neue SVG-Option
+//Erstellen Sie eine neue SVG-Option
 SVGOptions svgOptions = new SVGOptions();
 
 // Legen Sie die UseFrameSize-Eigenschaft fest

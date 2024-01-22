@@ -2,103 +2,63 @@
 title: Creación de miniaturas para notas secundarias SmartArt en Aspose.Slides
 linktitle: Creación de miniaturas para notas secundarias SmartArt en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda a crear miniaturas para notas secundarias SmartArt utilizando Aspose.Slides para .NET. Guía paso a paso con código fuente completo.
+description: Aprenda a crear miniaturas cautivadoras de notas secundarias SmartArt utilizando Aspose.Slides para .NET. ¡Mejora tus presentaciones con imágenes dinámicas!
 type: docs
 weight: 15
 url: /es/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
-
-## Introducción a la creación de miniaturas para notas secundarias SmartArt
-
-En este tutorial, recorreremos el proceso de creación de una miniatura para una nota secundaria SmartArt utilizando la biblioteca Aspose.Slides en .NET. Aspose.Slides es una potente API que permite a los desarrolladores trabajar con presentaciones de PowerPoint mediante programación. Iremos paso a paso, demostrando el código y explicando cada parte del proceso.
-
+## Introducción
+En el ámbito de las presentaciones dinámicas, Aspose.Slides para .NET se destaca como una herramienta poderosa que brinda a los desarrolladores la capacidad de manipular y mejorar presentaciones de PowerPoint mediante programación. Una característica interesante es la capacidad de generar miniaturas para SmartArt Child Notes, agregando una capa de atractivo visual a sus presentaciones. Esta guía paso a paso lo guiará a través del proceso de creación de miniaturas para SmartArt Child Notes usando Aspose.Slides para .NET.
 ## Requisitos previos
-
-Antes de comenzar, asegúrese de tener lo siguiente:
-
-- Visual Studio (o cualquier otro entorno de desarrollo .NET) instalado.
--  Aspose.Slides para la biblioteca .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/).
-
-## Configurando el proyecto
-
-1. Cree un nuevo proyecto de C# en Visual Studio.
-2. Agregue una referencia a la biblioteca Aspose.Slides para .NET.
-
-## Cargando la presentación
-
+Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+- Aspose.Slides para .NET: asegúrese de tener la biblioteca Aspose.Slides integrada en su proyecto .NET. Si no, descárgalo del[página de lanzamientos](https://releases.aspose.com/slides/net/).
+- Entorno de desarrollo: configure un entorno de desarrollo .NET que funcione y tenga conocimientos básicos de programación en C#.
+- Presentación de muestra: cree u obtenga una presentación de PowerPoint que contenga SmartArt con notas secundarias para realizar pruebas.
+## Importar espacios de nombres
+Comience importando los espacios de nombres necesarios a su proyecto C#. Estos espacios de nombres brindan acceso a las clases y métodos necesarios para trabajar con Aspose.Slides.
 ```csharp
+using System.Drawing;
+using System.Drawing.Imaging;
+using Aspose.Slides.SmartArt;
 using Aspose.Slides;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Cargar la presentación
-        using (Presentation presentation = new Presentation("presentation.pptx"))
-        {
-            // Tu código aquí
-        }
-    }
-}
 ```
-
-## Acceder a formas SmartArt
-
+## Paso 1: crear una instancia de la clase de presentación
+ Comience por crear una instancia del`Presentation` clase, que representa el archivo PPTX con el que trabajará.
 ```csharp
-// Suponiendo que tenemos una forma SmartArt en la primera diapositiva
-ISlide slide = presentation.Slides[0];
-ISmartArt smartArt = (ISmartArt)slide.Shapes[0];
-
-// Accediendo a nodos secundarios
-ISmartArtNodeCollection nodes = smartArt.AllNodes;
+string dataDir = "Your Documents Directory";
+Presentation pres = new Presentation();
 ```
-
-## Crear una miniatura para una nota secundaria
-
+## Paso 2: agregue SmartArt
+ Ahora, agregue SmartArt a una diapositiva dentro de la presentación. En este ejemplo, estamos usando el`BasicCycle` disposición.
 ```csharp
-foreach (ISmartArtNode node in nodes)
-{
-    // Suponiendo que el nodo tiene nodos secundarios
-    ISmartArtNodeCollection childNodes = node.ChildNodes;
-
-    // Creando una miniatura
-    using (Bitmap thumbnail = childNodes.GenerateThumbnail(new Size(200, 150)))
-    {
-        //Guarde la miniatura o realice otras operaciones
-        thumbnail.Save($"thumbnail_{node.Text}.png");
-    }
-}
+ISmartArt smart = pres.Slides[0].Shapes.AddSmartArt(10, 10, 400, 300, SmartArtLayoutType.BasicCycle);
 ```
-
-## Guardar la presentación con miniaturas
-
+## Paso 3: obtener la referencia del nodo
+Para trabajar con un nodo específico en el SmartArt, obtenga su referencia usando su índice.
 ```csharp
-// Guarde la presentación con miniaturas.
-presentation.Save("presentation_with_thumbnails.pptx", SaveFormat.Pptx);
+ISmartArtNode node = smart.Nodes[1];
 ```
-
+## Paso 4: obtener miniatura
+Recupere la imagen en miniatura de la nota secundaria dentro del nodo SmartArt.
+```csharp
+Bitmap bmp = node.Shapes[0].GetThumbnail();
+```
+## Paso 5: guardar miniatura
+Guarde la imagen en miniatura generada en un directorio específico.
+```csharp
+bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
+```
+Repita estos pasos para cada nodo SmartArt de su presentación, personalizando el diseño y los estilos según sea necesario.
 ## Conclusión
-
-En este tutorial, aprendimos cómo crear miniaturas para notas secundarias SmartArt usando Aspose.Slides para .NET. Cubrimos todo el proceso, desde cargar una presentación hasta acceder a formas SmartArt, generar miniaturas y guardar la presentación con miniaturas.
-
+En conclusión, Aspose.Slides para .NET permite a los desarrolladores crear presentaciones atractivas con facilidad. La capacidad de generar miniaturas para SmartArt Child Notes mejora el atractivo visual de sus presentaciones, brindando una experiencia de usuario dinámica e interactiva.
 ## Preguntas frecuentes
-
-### ¿Cómo puedo instalar Aspose.Slides para .NET?
-
- Puede descargar Aspose.Slides para .NET desde su sitio web[aquí](https://releases.aspose.com/slides/net/).
-
-### ¿Puedo crear miniaturas para otras formas también?
-
-Sí, Aspose.Slides proporciona varios métodos para generar miniaturas para diferentes tipos de formas, incluidas imágenes, gráficos y más.
-
-### ¿Aspose.Slides es adecuado tanto para proyectos personales como comerciales?
-
-Sí, Aspose.Slides se puede utilizar tanto en proyectos personales como comerciales. Sin embargo, asegúrese de revisar los términos de la licencia antes de la implementación.
-
-### ¿Puedo personalizar la apariencia de las miniaturas generadas?
-
-¡Absolutamente! Aspose.Slides le permite personalizar el tamaño, la calidad y otras propiedades de las miniaturas generadas para que coincidan con sus requisitos.
-
-### ¿Aspose.Slides admite otros lenguajes de programación además de .NET?
-
-Sí, Aspose.Slides está disponible para múltiples lenguajes de programación, incluidos Java, Python y más, lo que lo hace versátil para diversos entornos de desarrollo.
+### P: ¿Puedo personalizar el tamaño y el formato de la miniatura generada?
+R: Sí, puedes ajustar las dimensiones y el formato de la miniatura modificando los parámetros correspondientes en el código.
+### P: ¿Aspose.Slides admite otros diseños SmartArt?
+R: ¡Absolutamente! Aspose.Slides ofrece una variedad de diseños SmartArt, permitiéndole elegir el que mejor se adapte a sus necesidades de presentación.
+### P: ¿Hay una licencia temporal disponible para realizar pruebas?
+R: Sí, puede obtener una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/) para pruebas y evaluación.
+### P: ¿Dónde puedo buscar ayuda o conectarme con la comunidad Aspose.Slides?
+ R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para interactuar con la comunidad, hacer preguntas y encontrar soluciones.
+### P: ¿Puedo comprar Aspose.Slides para .NET?
+ R: ¡Ciertamente! Explora las opciones de compra[aquí](https://purchase.aspose.com/buy) para desbloquear todo el potencial de Aspose.Slides en sus proyectos.

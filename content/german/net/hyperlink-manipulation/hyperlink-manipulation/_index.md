@@ -64,7 +64,7 @@ presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 
 Glückwunsch! Sie haben mit Aspose.Slides für .NET erfolgreich einen Hyperlink zu einer Folie hinzugefügt.
 
-## Hyperlinks von einer Folie entfernen
+## Entfernen von Hyperlinks aus einer Folie
 
 ### Schritt 1: Präsentation initialisieren
 

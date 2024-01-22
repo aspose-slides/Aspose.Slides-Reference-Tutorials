@@ -1,114 +1,79 @@
 ---
-title: Contrôle d'animation de diapositives dans Aspose.Slides
+title: Maîtrisez les animations de diapositives avec Aspose.Slides pour .NET
 linktitle: Contrôle d'animation de diapositives dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment contrôler les animations de diapositives dans les présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit des exemples de code source pour ajouter, personnaliser et gérer des animations, améliorant ainsi l'attrait visuel de vos présentations.
+description: Améliorez vos présentations avec Aspose.Slides pour .NET ! Apprenez à contrôler les animations des diapositives sans effort. Téléchargez la bibliothèque maintenant !
 type: docs
 weight: 10
 url: /fr/net/slide-animation-control/slide-animation-control/
 ---
-
-## Introduction à l'animation de diapositives avec Aspose.Slides
-
-Les animations de diapositives donnent vie à vos présentations en introduisant des mouvements et des transitions entre les diapositives et les éléments des diapositives. Aspose.Slides for .NET vous permet de contrôler ces animations par programme, vous donnant un contrôle précis sur leurs types, durées et autres propriétés.
-
-## Configuration de votre environnement de développement
-
-Avant de plonger dans le code, assurez-vous que Aspose.Slides pour .NET est installé dans votre projet. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/net/) . Après le téléchargement, suivez les instructions d'installation dans le[Documentation](https://reference.aspose.com/slides/net/).
-
-## Étape 1 : Ajout de diapositives à la présentation
-
-Tout d’abord, créons une nouvelle présentation et ajoutons-y des diapositives. Voici un extrait de code pour vous aider à démarrer :
-
+## Introduction
+Améliorer vos présentations avec des animations de diapositives captivantes peut augmenter considérablement l'impact global sur votre public. Dans ce didacticiel, nous explorerons comment contrôler les animations de diapositives à l'aide d'Aspose.Slides pour .NET. Aspose.Slides est une bibliothèque puissante qui permet une manipulation transparente des présentations PowerPoint dans un environnement .NET.
+## Conditions préalables
+Avant de plonger dans le didacticiel, assurez-vous d'avoir mis en place les éléments suivants :
+1.  Aspose.Slides pour la bibliothèque .NET : téléchargez et installez la bibliothèque à partir du[page de téléchargement](https://releases.aspose.com/slides/net/).
+2.  Répertoire de documents : créez un répertoire pour stocker vos fichiers de présentation. Mettre à jour le`dataDir` variable dans l'extrait de code avec le chemin d'accès à votre répertoire de documents.
+## Importer des espaces de noms
+Assurez-vous d'importer les espaces de noms nécessaires au début de votre fichier .NET :
 ```csharp
-using Aspose.Slides;
-using System;
-
-class Program
+using Aspose.Slides.Export;
+using Aspose.Slides.SlideShow;
+```
+Maintenant, décomposons l'exemple fourni en plusieurs étapes :
+## Étape 1 : Créer une instance de présentation
+ Instancier le`Presentation` classe pour représenter votre fichier de présentation :
+```csharp
+using (Presentation pres = new Presentation(dataDir + "BetterSlideTransitions.pptx"))
 {
-    static void Main()
-    {
-        // Créer une nouvelle présentation
-        using (Presentation presentation = new Presentation())
-        {
-            // Ajouter des diapositives
-            ISlideCollection slides = presentation.Slides;
-            slides.AddEmptySlide(SlideLayoutType.TitleSlide);
-            slides.AddEmptySlide(SlideLayoutType.TitleAndContent);
-
-            // Enregistrez la présentation
-            presentation.Save("presentation.pptx", SaveFormat.Pptx);
-        }
-    }
+    // Le code pour les animations de diapositives va ici
 }
 ```
-
-## Étape 2 : Appliquer des animations d'entrée
-
-Maintenant, appliquons des animations d'entrée aux éléments de la diapositive. Les animations d'entrée sont appliquées lorsque des éléments de diapositive apparaissent à l'écran pour la première fois. Voici un exemple d'ajout d'une animation de fondu entrant à une forme :
-
+## Étape 2 : Appliquer une transition de type cercle
+Appliquez une transition de type cercle à la première diapositive :
 ```csharp
-// En supposant que vous ayez une forme nommée « rectangleShape » sur la diapositive
-IShape rectangleShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
-EffectFormat entranceEffect = rectangleShape.AnimationSettings.AddEntranceEffect(EffectType.Fade);
-entranceEffect.Timing.TriggerType = EffectTriggerType.AfterPrevious;
+pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
 ```
-
-## Étape 3 : personnalisation des effets d'animation
-
-Vous pouvez personnaliser les effets d'animation en fonction des besoins de votre présentation. Modifions l'animation de fondu entrant pour avoir une durée et un délai différents :
-
+Réglez le temps de transition sur 3 secondes :
 ```csharp
-entranceEffect.Timing.Duration = 2000; // Durée de l'animation en millisecondes
-entranceEffect.Timing.Delay = 1000;    // Délai avant le début de l'animation en millisecondes
+pres.Slides[0].SlideShowTransition.AdvanceOnClick = true;
+pres.Slides[0].SlideShowTransition.AdvanceAfterTime = 3000;
 ```
-
-## Étape 4 : Gérer le timing de l'animation
-
-Aspose.Slides vous permet de contrôler le timing des animations. Vous pouvez configurer les animations pour qu'elles démarrent automatiquement ou les déclencher d'un simple clic. Voici comment modifier le déclencheur d'animation :
-
+## Étape 3 : Appliquer la transition du type de peigne
+Appliquez une transition de type peigne à la deuxième diapositive :
 ```csharp
-entranceEffect.Timing.TriggerType = EffectTriggerType.OnClick; // L'animation démarre au clic
+pres.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
 ```
-
-## Étape 5 : Suppression des animations
-
-Si vous souhaitez supprimer les animations d'un élément slide, vous pouvez le faire en utilisant le code suivant :
-
+Réglez le temps de transition sur 5 secondes :
 ```csharp
-rectangleShape.AnimationSettings.RemoveAllAnimations();
+pres.Slides[1].SlideShowTransition.AdvanceOnClick = true;
+pres.Slides[1].SlideShowTransition.AdvanceAfterTime = 5000;
 ```
-
-## Étape 6 : Exportation de la présentation animée
-
-Une fois que vous avez ajouté et personnalisé les animations, vous pouvez exporter la présentation vers différents formats. Voici un exemple d'exportation au format PDF :
-
+## Étape 4 : Appliquer la transition de type de zoom
+Appliquez une transition de type zoom à la troisième diapositive :
 ```csharp
-presentation.Save("animated_presentation.pdf", SaveFormat.Pdf);
+pres.Slides[2].SlideShowTransition.Type = TransitionType.Zoom;
 ```
-
+Réglez le temps de transition sur 7 secondes :
+```csharp
+pres.Slides[2].SlideShowTransition.AdvanceOnClick = true;
+pres.Slides[2].SlideShowTransition.AdvanceAfterTime = 7000;
+```
+## Étape 5 : Enregistrez la présentation
+Réécrivez la présentation modifiée sur le disque :
+```csharp
+pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
+```
+Vous avez maintenant contrôlé avec succès les animations de diapositives à l’aide d’Aspose.Slides pour .NET !
 ## Conclusion
-
-Dans ce guide, nous avons exploré comment exploiter Aspose.Slides pour .NET pour contrôler les animations de diapositives dans vos présentations PowerPoint. Nous avons tout couvert, de la configuration de votre environnement de développement à l'application, la personnalisation et la gestion des animations. En suivant ces étapes et en utilisant les exemples de code source fournis, vous pouvez créer des présentations dynamiques et attrayantes qui captivent votre public.
-
+L'animation de diapositives dans vos présentations ajoute une touche dynamique, rendant votre contenu plus attrayant. Avec Aspose.Slides pour .NET, le processus devient simple, vous permettant de créer sans effort des présentations visuellement attrayantes.
 ## FAQ
-
-### Comment installer Aspose.Slides pour .NET ?
-
- Vous pouvez télécharger Aspose.Slides pour .NET à partir de[ce lien](https://releases.aspose.com/slides/net/)et suivez les instructions d'installation fournies dans le[Documentation](https://reference.aspose.com/slides/net/).
-
-### Puis-je appliquer des animations à des éléments de diapositive spécifiques ?
-
-Oui, vous pouvez appliquer des animations à des éléments de diapositive individuels tels que des formes et des images à l'aide d'Aspose.Slides pour .NET.
-
-### Est-il possible d'exporter la présentation animée vers différents formats ?
-
-Absolument! Aspose.Slides prend en charge l'exportation de présentations animées vers différents formats, notamment PDF, PPTX, etc.
-
-### Comment puis-je contrôler la durée de chaque animation ?
-
- Vous pouvez contrôler la durée des animations en ajustant le`entranceEffect.Timing.Duration` propriété dans votre code.
-
-### Aspose.Slides prend-il en charge l’ajout d’effets sonores aux animations ?
-
-Oui, Aspose.Slides vous permet d'ajouter des effets sonores aux animations pour améliorer l'expérience multimédia de vos présentations.
+### Puis-je personnaliser davantage les effets de transition ?
+ Oui, Aspose.Slides propose une large gamme de types de transition et de propriétés supplémentaires pour la personnalisation. Se référer au[Documentation](https://reference.aspose.com/slides/net/) pour plus de détails.
+### Existe-t-il un essai gratuit disponible ?
+ Oui, vous pouvez explorer Aspose.Slides avec le[essai gratuit](https://releases.aspose.com/).
+### Où puis-je obtenir de l’aide pour Aspose.Slides ?
+ Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et les discussions de la communauté.
+### Comment obtenir un permis temporaire ?
+ Vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
+### Où puis-je acheter Aspose.Slides pour .NET ?
+ Acheter la bibliothèque[ici](https://purchase.aspose.com/buy).

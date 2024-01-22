@@ -68,7 +68,7 @@ Im Code oben:
 
 ## Schritt 3: Arbeiten Sie mit Layoutformaten
 
-Nachdem wir nun auf die Füllformate und Linienformate für Formen auf Layoutfolien zugegriffen haben, können Sie bei Bedarf verschiedene Vorgänge daran durchführen. Sie können beispielsweise die Füllfarbe, den Linienstil oder andere Eigenschaften von Formen ändern.
+Nachdem wir nun auf die Füllformate und Linienformate für Formen auf Layoutfolien zugegriffen haben, können Sie bei Bedarf verschiedene Vorgänge daran ausführen. Sie können beispielsweise die Füllfarbe, den Linienstil oder andere Eigenschaften von Formen ändern.
 
 ## Vollständiger Quellcode für Access-Layoutformate in Java-Folien
 

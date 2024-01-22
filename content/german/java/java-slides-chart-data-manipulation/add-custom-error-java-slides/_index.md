@@ -10,7 +10,7 @@ url: /de/java/chart-data-manipulation/add-custom-error-java-slides/
 
 ## Einführung in das Hinzufügen benutzerdefinierter Fehlerbalken in Java-Folien mithilfe von Aspose.Slides
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Fehlerbalken zu einem Diagramm in einer PowerPoint-Präsentation hinzufügen. Fehlerbalken sind nützlich, um Variabilität oder Unsicherheit in Datenpunkten in einem Diagramm anzuzeigen.
+In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Fehlerbalken zu einem Diagramm in einer PowerPoint-Präsentation hinzufügen. Fehlerbalken sind nützlich, um Schwankungen oder Unsicherheiten in Datenpunkten in einem Diagramm anzuzeigen.
 
 ## Voraussetzungen
 

@@ -126,7 +126,7 @@ chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth
 Förklaringar hjälper till att förklara dataserien i ditt diagram. Låt oss anpassa legenderna:
 
 ```java
-// Ställa in teckentextegenskaper
+// Ställa in teckenförklaringstextegenskaper
 IChartPortionFormat txtleg = chart.getLegend().getTextFormat().getPortionFormat();
 txtleg.setFontBold(NullableBool.True);
 txtleg.setFontHeight(16);
@@ -247,7 +247,7 @@ try
 	chart.getAxes().getHorizontalAxis().setTickLabelPosition(TickLabelPositionType.Low);
 	// Inställning av kategoriaxellabel rotationsvinkel
 	chart.getAxes().getHorizontalAxis().setTickLabelRotationAngle(45);
-	// Ställa in teckentextegenskaper
+	// Ställa in teckenförklaringstextegenskaper
 	IChartPortionFormat txtleg = chart.getLegend().getTextFormat().getPortionFormat();
 	txtleg.setFontBold(NullableBool.True);
 	txtleg.setFontHeight(16);

@@ -53,7 +53,7 @@ try {
 }
 ```
 
-## Code source complet pour une présentation ouverte dans des diapositives Java
+## Code source complet pour une présentation ouverte dans les diapositives Java
 
 ```java
         // Le chemin d'accès au répertoire des documents.

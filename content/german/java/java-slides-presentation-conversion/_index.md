@@ -82,7 +82,7 @@ Konvertieren Sie PowerPoint-Präsentationen mit Vortragsnotizen mühelos in das 
 ### [Konvertieren ohne XPS-Optionen in Java Slides](./convert-without-xps-options-java-slides/)
 Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für Java in das XPS-Format konvertieren. Schritt-für-Schritt-Anleitung mit Quellcode.
 ### [Konvertieren Sie mit XPS-Optionen in Java Slides](./convert-with-xps-options-java-slides/)
-Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides in Java in das XPS-Format konvertieren. Passen Sie die Optionen für einen nahtlosen Konvertierungsprozess an.
+Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides in Java in das XPS-Format konvertieren. Passen Sie Optionen für einen nahtlosen Konvertierungsprozess an.
 ### [In Java Slides in SWF konvertieren](./convert-to-swf-java-slides/)
 Konvertieren Sie PowerPoint-Präsentationen mit Aspose.Slides in das SWF-Format in Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung mit Quellcode für eine nahtlose Konvertierung.
 ### [Konvertieren Sie in PDF mit Fortschrittsaktualisierung in Java Slides](./convert-pdf-progress-update-java-slides/)

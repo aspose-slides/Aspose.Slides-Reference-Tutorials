@@ -1,107 +1,85 @@
 ---
-title: Remplacement du titre de l'image du cadre d'objet OLE dans les diapositives de présentation
+title: Guide d'intégration des objets OLE avec Aspose.Slides pour .NET
 linktitle: Remplacement du titre de l'image du cadre d'objet OLE dans les diapositives de présentation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment remplacer les titres d'images des cadres d'objets OLE dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec le code source complet.
+description: Découvrez comment améliorer vos diapositives de présentation avec des objets OLE dynamiques à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
 type: docs
 weight: 15
 url: /fr/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-## Introduction à Aspose.Slides pour .NET
-
-Aspose.Slides pour .NET est une API puissante qui permet aux développeurs de créer, modifier et manipuler des présentations PowerPoint sans nécessiter l'installation de Microsoft Office ou PowerPoint. Il offre un large éventail de fonctionnalités pour travailler avec différents éléments de présentations, notamment des diapositives, des formes, du texte, des images et des cadres d'objets OLE.
-
+## Introduction
+La création de diapositives de présentation dynamiques et attrayantes implique souvent l'incorporation de divers éléments multimédias. Dans ce didacticiel, nous allons explorer comment remplacer le titre d'image d'un cadre d'objet OLE (Object Linking and Embedding) dans les diapositives de présentation à l'aide de la puissante bibliothèque Aspose.Slides pour .NET. Aspose.Slides simplifie le processus de gestion des objets OLE, en fournissant aux développeurs les outils nécessaires pour améliorer facilement leurs présentations.
 ## Conditions préalables
-
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
-
-- Visual Studio ou tout environnement de développement .NET compatible installé.
--  Aspose.Slides pour la bibliothèque .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/net/).
-
-## Chargement d'une présentation
-
-Commençons par charger une présentation PowerPoint existante à l'aide d'Aspose.Slides pour .NET. Si vous n'avez pas de présentation à tester, vous pouvez en créer une nouvelle ou télécharger un exemple de présentation.
-
+Avant de plonger dans le guide étape par étape, assurez-vous que les conditions préalables suivantes sont en place :
+-  Bibliothèque Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides pour .NET est installée. Vous pouvez le télécharger depuis le[Documentation Aspose.Slides .NET](https://reference.aspose.com/slides/net/).
+- Exemples de données : préparez un exemple de fichier Excel (par exemple, "ExcelObject.xlsx") que vous souhaitez intégrer en tant qu'objet OLE dans la présentation. De plus, disposez d'un fichier image (par exemple, "Image.png") qui servira d'icône pour l'objet OLE.
+- Environnement de développement : configurez un environnement de développement avec les outils nécessaires, tels que Visual Studio ou tout autre IDE préféré pour le développement .NET.
+## Importer des espaces de noms
+Dans votre projet .NET, assurez-vous d'importer les espaces de noms requis pour travailler avec Aspose.Slides :
 ```csharp
 using Aspose.Slides;
-
-// Charger la présentation
-using var presentation = new Presentation("sample.pptx");
+using Aspose.Slides.Examples.CSharp;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Aspose.Slides.DOM.Ole;
 ```
-
-## Accès aux cadres d'objets OLE
-
- Les cadres d'objets OLE (Object Linking and Embedding) vous permettent d'incorporer des objets tels que des images, des documents ou d'autres fichiers dans une diapositive PowerPoint. Pour accéder aux cadres d'objets OLE dans une diapositive, vous pouvez parcourir les formes et rechercher des instances de`OleObjectFrameEx`.
-
+## Étape 1 : configurer le répertoire de documents
 ```csharp
-// Parcourez les diapositives
-foreach (var slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+```
+Assurez-vous de remplacer « Votre répertoire de documents » par le chemin réel d'accès à votre répertoire de documents.
+## Étape 2 : Définir les chemins des fichiers source OLE et des fichiers d'icônes
+```csharp
+string oleSourceFile = dataDir + "ExcelObject.xlsx";
+string oleIconFile = dataDir + "Image.png";
+```
+Mettez à jour ces chemins avec les chemins réels vers votre exemple de fichier Excel et de fichier image.
+## Étape 3 : Créer une instance de présentation
+```csharp
+using (Presentation pres = new Presentation())
 {
-    // Parcourez les formes de la diapositive
-    foreach (var shape in slide.Shapes)
-    {
-        if (shape is OleObjectFrameEx oleObject)
-        {
-            //Accéder aux propriétés des objets OLE
-            var title = oleObject.Title;
-            var data = oleObject.ObjectData;
-            
-            // Effectuer d'autres actions
-        }
-    }
+    // Le code pour les étapes suivantes sera ici
 }
 ```
-
-## Remplacement du titre de l'image
-
- Pour remplacer le titre d'image d'un cadre d'objet OLE, vous pouvez simplement mettre à jour le`Title` propriété du`OleObjectFrameEx` exemple.
-
+ Initialisez une nouvelle instance du`Presentation` classe.
+## Étape 4 : ajouter un cadre d'objet OLE
 ```csharp
-foreach (var slide in presentation.Slides)
+ISlide slide = pres.Slides[0];
+byte[] allbytes = File.ReadAllBytes(oleSourceFile);
+IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(allbytes, "xlsx");
+IOleObjectFrame oof = slide.Shapes.AddOleObjectFrame(20, 20, 50, 50, dataInfo);
+oof.IsObjectIcon = true;
+```
+Ajoutez un cadre d'objet OLE à la diapositive, en spécifiant sa position et ses dimensions.
+## Étape 5 : ajouter un objet image
+```csharp
+byte[] imgBuf = File.ReadAllBytes(oleIconFile);
+using (MemoryStream ms = new MemoryStream(imgBuf))
 {
-    foreach (var shape in slide.Shapes)
-    {
-        if (shape is OleObjectFrameEx oleObject)
-        {
-            // Mettre à jour le titre
-            oleObject.Title = "New Picture Title";
-        }
-    }
+    IPPImage image = pres.Images.AddImage(new Bitmap(ms));
 }
 ```
-
-## Enregistrement de la présentation modifiée
-
-Après avoir apporté les modifications nécessaires, vous devez enregistrer la présentation modifiée. Vous pouvez l'enregistrer dans différents formats tels que PPTX, PDF ou images.
-
+Lisez le fichier image et ajoutez-le à la présentation en tant qu'objet image.
+## Étape 6 : définir la légende sur l'icône OLE
 ```csharp
-// Enregistrez la présentation
-presentation.Save("modified.pptx", SaveFormat.Pptx);
+oof.SubstitutePictureTitle = "Caption example";
 ```
-
+Définissez la légende souhaitée pour l'icône OLE.
 ## Conclusion
-
-Aspose.Slides pour .NET simplifie le processus de travail avec des présentations PowerPoint par programmation. Dans ce guide, nous avons couvert les étapes de substitution du titre d'image d'un cadre d'objet OLE dans les diapositives de présentation. En suivant ces étapes, vous pouvez manipuler efficacement les présentations en fonction de vos besoins.
-
+L'incorporation d'objets OLE dans vos diapositives de présentation à l'aide d'Aspose.Slides for .NET est un processus simple. Ce didacticiel vous a guidé à travers les étapes essentielles, depuis la configuration du répertoire de documents jusqu'à l'ajout et la personnalisation des objets OLE. Expérimentez avec différents types de fichiers et légendes pour améliorer l'attrait visuel de vos présentations.
 ## FAQ
-
-### Comment obtenir la bibliothèque Aspose.Slides pour .NET ?
-
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour .NET à partir de[ce lien](https://releases.aspose.com/slides/net/).
-
-### Puis-je utiliser Aspose.Slides pour .NET sans que Microsoft Office soit installé ?
-
-Oui, Aspose.Slides pour .NET vous permet de travailler avec des présentations PowerPoint sans nécessiter l'installation de Microsoft Office.
-
-### Existe-t-il d’autres opérations que je peux effectuer sur les cadres d’objets OLE ?
-
-Absolument! Vous pouvez effectuer diverses actions sur les cadres d'objets OLE, telles que le remplacement des données d'objet, leur redimensionnement ou leur repositionnement dans les diapositives.
-
-### Aspose.Slides pour .NET est-il compatible avec différents formats PowerPoint ?
-
-Oui, Aspose.Slides pour .NET prend en charge un large éventail de formats PowerPoint, notamment PPT, PPTX, PPS, etc.
-
-### Puis-je automatiser la création de présentations PowerPoint à l’aide d’Aspose.Slides ?
-
-Certainement! Aspose.Slides pour .NET vous permet de générer dynamiquement des présentations PowerPoint à partir de zéro, en incorporant divers éléments tels que du texte, des images, des graphiques, etc.
+### Puis-je intégrer d’autres types de fichiers en tant qu’objets OLE à l’aide d’Aspose.Slides ?
+Oui, Aspose.Slides prend en charge l'intégration de différents types de fichiers, tels que des feuilles de calcul Excel, des documents Word, etc.
+### L’icône de l’objet OLE est-elle personnalisable ?
+Absolument. Vous pouvez remplacer l'icône par défaut par n'importe quelle image de votre choix pour mieux correspondre au thème de votre présentation.
+### Aspose.Slides prend-il en charge les animations avec des objets OLE ?
+Depuis la dernière version, Aspose.Slides se concentre sur l'incorporation et l'affichage d'objets OLE et ne gère pas directement les animations au sein des objets OLE.
+### Puis-je manipuler des objets OLE par programme après les avoir ajoutés à une diapositive ?
+Certainement. Vous disposez d'un contrôle programmatique total sur les objets OLE, vous permettant de modifier leurs propriétés et leur apparence selon vos besoins.
+### Existe-t-il des limites à la taille des objets OLE incorporés ?
+Bien qu’il existe des limites de taille, elles sont généralement généreuses. Il est recommandé de tester avec votre cas d'utilisation spécifique pour garantir des performances optimales.

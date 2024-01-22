@@ -14,7 +14,7 @@ I en värld av presentationsdesign och automatisering är Aspose.Slides för .NE
 
 Innan vi dyker in i steg-för-steg-processen, se till att du har följande förutsättningar på plats:
 
-1. Aspose.Slides for .NET Library: Ladda ner och installera Aspose.Slides for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET Library: Ladda ner och installera Aspose.Slides for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/slides/net/).
 
 2. Bild för bakgrund: Du behöver en bild som du vill ställa in som bakgrundsbild. Se till att du har bildfilen i lämpligt format (t.ex. .jpg) redo att användas.
 

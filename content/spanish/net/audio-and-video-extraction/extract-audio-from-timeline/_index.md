@@ -62,7 +62,7 @@ Aquí accedemos a la primera diapositiva de la presentación. Puede cambiar el �
 ISequence effectsSequence = slide.Timeline.MainSequence;
 ```
 
- El`MainSequence` La propiedad le brinda acceso a la secuencia de efectos para la diapositiva seleccionada.
+ El`MainSequence` La propiedad le da acceso a la secuencia de efectos para la diapositiva seleccionada.
 
 ### Paso 2.4: extraer audio como matriz de bytes
 

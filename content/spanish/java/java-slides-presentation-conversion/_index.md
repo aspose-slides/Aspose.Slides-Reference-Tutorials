@@ -59,7 +59,7 @@ Aprenda cómo convertir diapositivas específicas a PDF en Java usando Aspose.Sl
 Aprenda a convertir presentaciones de PowerPoint en animaciones en Java con Aspose.Slides. Involucre a su audiencia con imágenes dinámicas.
 ### [Convertir a GIF en diapositivas de Java](./convert-to-gif-java-slides/)
 Aprenda cómo convertir presentaciones de PowerPoint a imágenes GIF en Java con Aspose.Slides. Guía sencilla paso a paso para una conversión perfecta.
-### [Convertir a HTML5 en diapositivas Java](./convert-to-html5-java-slides/)
+### [Convertir a HTML5 en diapositivas de Java](./convert-to-html5-java-slides/)
 Convierta presentaciones de PowerPoint a HTML5 en Java usando Aspose.Slides. Aprenda a automatizar el proceso de conversión con ejemplos de código paso a paso.
 ### [Convertir a Markdown en diapositivas de Java](./convert-to-markdown-java-slides/)
 Convierta presentaciones de PowerPoint a Markdown con Aspose.Slides para Java. Siga esta guía paso a paso para transformar sus diapositivas sin esfuerzo.

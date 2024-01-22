@@ -2,7 +2,7 @@
 title: Formatera SVG i presentationer
 linktitle: Formatera SVG i presentationer
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Optimera dina presentationer med fantastiska SVG:er med Aspose.Slides för .NET. Lär dig steg för steg hur du formaterar SVGer för effektfulla bilder. Lyft ditt presentationsspel idag!
+description: Optimera dina presentationer med fantastiska SVGer med Aspose.Slides för .NET. Lär dig steg för steg hur du formaterar SVGer för effektfulla bilder. Lyft ditt presentationsspel idag!
 type: docs
 weight: 31
 url: /sv/net/presentation-manipulation/formatting-svgs-in-presentations/
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
-Det här kodavsnittet initierar nödvändiga kataloger och filsökvägar, öppnar en PowerPoint-presentation och konverterar den till en SVG-fil samtidigt som du använder formatering med hjälp av`MySvgShapeFormattingController`.
+ Det här kodavsnittet initierar nödvändiga kataloger och filsökvägar, öppnar en PowerPoint-presentation och konverterar den till en SVG-fil samtidigt som du använder formatering med hjälp av`MySvgShapeFormattingController`.
 
 ## Förstå SVG Shape Formatting Controller
 
@@ -82,7 +82,7 @@ Denna kontrollklass hanterar formateringen av både former och text i SVG-utdata
 
 ## Slutsats
 
- I den här handledningen har vi utforskat hur man formaterar SVG-former i presentationer med Aspose.Slides för .NET. Du har lärt dig hur du ställer in ditt projekt, tillämpar`MySvgShapeFormattingController` för exakt formatering och konvertera din presentation till en SVG-fil. Genom att följa dessa steg kan du skapa fängslande presentationer som lämnar ett bestående intryck på din publik.
+ I den här handledningen har vi utforskat hur man formaterar SVG-former i presentationer med Aspose.Slides för .NET. Du har lärt dig hur du ställer in ditt projekt, tillämpar`MySvgShapeFormattingController`för exakt formatering och konvertera din presentation till en SVG-fil. Genom att följa dessa steg kan du skapa fängslande presentationer som lämnar ett bestående intryck på din publik.
 
 Tveka inte att experimentera med olika SVG-former och formateringsalternativ för att frigöra din kreativitet. Aspose.Slides för .NET ger en kraftfull plattform för att lyfta din presentationsdesign.
 

@@ -245,7 +245,7 @@ try
 	catTitle.getPortionFormat().setFontItalic(NullableBool.True);
 	// تحديد موضع تسمية محور الفئة
 	chart.getAxes().getHorizontalAxis().setTickLabelPosition(TickLabelPositionType.Low);
-	// ضبط زاوية دوران تسمية محور الفئة
+	// تحديد زاوية دوران تسمية محور الفئة
 	chart.getAxes().getHorizontalAxis().setTickLabelRotationAngle(45);
 	// ضبط خصائص نص وسائل الإيضاح
 	IChartPortionFormat txtleg = chart.getLegend().getTextFormat().getPortionFormat();

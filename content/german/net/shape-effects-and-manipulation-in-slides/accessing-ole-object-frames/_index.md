@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 Sobald Sie einen OLE-Objektrahmen identifiziert haben, können Sie dessen Daten zur Bearbeitung extrahieren. Wenn es sich bei dem OLE-Objekt beispielsweise um eine eingebettete Excel-Tabelle handelt, können Sie wie folgt auf die Daten zugreifen:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // Verarbeiten Sie die Rohdaten nach Bedarf
-}
+
 ```
 
 ### 5. Ändern von OLE-Objektrahmen
@@ -64,19 +62,17 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Mit Aspose.Slides können Sie OLE-Objektrahmen programmgesteuert ändern. Angenommen, Sie möchten den Inhalt eines eingebetteten Word-Dokuments aktualisieren. So können Sie es erreichen:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // Ändern Sie die eingebetteten Daten
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## FAQs
 
 ### Wie bestimme ich den Typ eines OLE-Objektrahmens?
 
- Um den Typ eines OLE-Objektrahmens zu bestimmen, können Sie Folgendes verwenden:`OleObjectType` verfügbare Immobilie innerhalb der`OleObjectFrame` Klasse.
+ Um den Typ eines OLE-Objektrahmens zu bestimmen, können Sie Folgendes verwenden:`OleObjectType`verfügbare Immobilie innerhalb der`OleObjectFrame` Klasse.
 
 ### Kann ich OLE-Objekte als separate Dateien extrahieren?
 

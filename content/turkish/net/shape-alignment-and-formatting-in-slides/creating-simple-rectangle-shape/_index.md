@@ -1,118 +1,63 @@
 ---
-title: Aspose.Slides Kullanarak Sunum Slaytlarında Basit Dikdörtgen Şekil Oluşturma
+title: Aspose.Slides for .NET ile Dikdörtgen Şekiller Oluşturma
 linktitle: Aspose.Slides Kullanarak Sunum Slaytlarında Basit Dikdörtgen Şekil Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarında basit bir dikdörtgen şeklinin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, sunularınızı program aracılığıyla eklemek, özelleştirmek ve geliştirmek için kaynak kodu ve talimatlar sağlar.
+description: Aspose.Slides for .NET ile dinamik PowerPoint sunumlarının dünyasını keşfedin. Bu adım adım kılavuzla slaytlarda ilgi çekici dikdörtgen şekillerin nasıl oluşturulacağını öğrenin.
 type: docs
 weight: 12
 url: /tr/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
-
-## Aspose.Slides for .NET'e Giriş
-
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. Slaytlar, şekiller, metinler, resimler ve daha fazlasını içeren sunum öğelerini oluşturmak, değiştirmek ve yönetmek için çok çeşitli özellikler sağlar. Bu kılavuzda Aspose.Slides for .NET'in özelliklerini kullanarak bir sunum slaytında basit bir dikdörtgen şekli oluşturmaya odaklanacağız.
-
-## Geliştirme Ortamını Kurma
-
-Kodlara dalmadan önce geliştirme ortamımızı ayarlayalım. Bu adımları takip et:
-
-1.  Aspose.Slides for .NET'i indirin:[indirme sayfası](https://releases.aspose.com/slides/net/) ve projenizle uyumlu sürümü seçin.
-
-2. Aspose.Slides'ı yükleyin: İndirdikten sonra, DLL referansını projenize ekleyerek Aspose.Slides'ı yükleyin.
-
-3. Yeni Bir Proje Oluşturun: Tercih ettiğiniz geliştirme ortamını (örneğin, Visual Studio) kullanarak yeni bir .NET projesi oluşturun.
-
-## Yeni Bir Sunu Oluşturma
-
-Aspose.Slides for .NET'i kullanarak yeni bir PowerPoint sunumu oluşturarak başlayalım.
-
+## giriiş
+.NET uygulamalarınızı dinamik ve görsel olarak çekici PowerPoint sunumlarıyla geliştirmek istiyorsanız Aspose.Slides for .NET sizin için çözümdür. Bu eğitimde, Aspose.Slides for .NET'i kullanarak sunum slaytlarında basit bir dikdörtgen şekli oluşturma sürecinde size rehberlik edeceğiz.
+## Önkoşullar
+Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+- Visual Studio: Geliştirme makinenizde Visual Studio'nun kurulu olduğundan emin olun.
+-  Aspose.Slides for .NET: Aspose.Slides for .NET kitaplığını şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/slides/net/).
+- Temel C# Bilgisi: C# programlama diline aşinalık esastır.
+## Ad Alanlarını İçe Aktar
+Aspose.Slides işlevlerine erişmek için C# projenizde gerekli ad alanlarını içe aktararak başlayın:
 ```csharp
+using System.IO;
 using Aspose.Slides;
-
-class Program
+using Aspose.Slides.Export;
+```
+## Adım 1: Projeyi Kurun
+Visual Studio'da yeni bir C# projesi oluşturarak başlayın. Aspose.Slides for .NET'e projenizde doğru şekilde başvurulduğundan emin olun.
+## Adım 2: Sunum Nesnesini Başlatın
+```csharp
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
 {
-    static void Main(string[] args)
-    {
-        // Yeni bir sunu oluşturma
-        Presentation presentation = new Presentation();
-
-        // Sunuya boş bir slayt ekleme
-        Slide slide = presentation.Slides.AddEmptySlide();
-
-        // Dikdörtgen şeklini ekleme kodunuz buraya gelecek
-
-        // Sunuyu kaydet
-        presentation.Save("RectangleShapePresentation.pptx", SaveFormat.Pptx);
-    }
+    // Sonraki adımlara ilişkin kodunuz buraya gelecek.
 }
 ```
-
-## Slayta Dikdörtgen Şekli Ekleme
-
-Artık sunum slaytımız hazır olduğuna göre ona dikdörtgen şekli eklemeye geçelim.
-
+## 3. Adım: İlk Slaydı Alın
 ```csharp
-// Slayta dikdörtgen şekli ekleme
-double x = 100; // Şeklin X koordinatı
-double y = 100; // Şeklin Y koordinatı
-double width = 200; // Şeklin genişliği
-double height = 100; // Şeklin yüksekliği
-
-slide.Shapes.AddRectangle(x, y, width, height);
+ISlide sld = pres.Slides[0];
 ```
-
-## Dikdörtgen Şeklini Özelleştirme
-
-Dikdörtgen şeklinin dolgu rengi, kenarlık stili ve daha fazlası gibi çeşitli yönlerini özelleştirebilirsiniz.
-
+## Adım 4: Dikdörtgen Otomatik Şekil Ekle
 ```csharp
-// Eklenen şekli alın (dikdörtgen)
-IShape rectangle = slide.Shapes[0];
-
-// Dolgu rengini özelleştirin
-rectangle.FillFormat.SolidFillColor.Color = Color.Blue;
-
-// Kenarlığı özelleştir
-rectangle.LineFormat.Width = 2; // Kenarlık genişliği
-rectangle.LineFormat.DashStyle = LineDashStyle.DashDot; // Kenarlık stili
-rectangle.LineFormat.FillFormat.SolidFillColor.Color = Color.Red; // Sınır rengi
+sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```
-
-## Sunumu Kaydetme
-
-Dikdörtgen şeklini ekleyip özelleştirdikten sonra sunuyu kaydetme zamanı gelir.
-
+Bu kod, (50, 150) koordinatlarında genişliği 150, yüksekliği 50 olan bir dikdörtgen şekli ekler.
+## Adım 5: Sunuyu Kaydetme
 ```csharp
-// Sunuyu kaydet
-presentation.Save("RectangleShapePresentation.pptx", SaveFormat.Pptx);
+pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
 ```
-
+Bu adım, sunumu eklenen dikdörtgen şekliyle belirtilen dizine kaydeder.
 ## Çözüm
-
-Bu kılavuzda Aspose.Slides for .NET kullanarak bir sunum slaytında basit bir dikdörtgen şeklinin nasıl oluşturulacağını araştırdık. Geliştirme ortamını kurma, yeni bir sunum oluşturma, dikdörtgen şekli ekleme, görünümünü özelleştirme ve son sunumu kaydetme gibi temel adımları ele aldık. Aspose.Slides for .NET ile PowerPoint sunumlarınızı kolayca otomatikleştirip geliştirebilir, bir dinamizm ve etkileşim katmanı sağlayabilirsiniz.
-
-## SSS'ler
-
-### Aspose.Slides for .NET'i nasıl yüklerim?
-
-Aspose.Slides for .NET'i yüklemek için şu adımları izleyin:
-
-1.  Ziyaret edin[indirme sayfası](https://releases.aspose.com/slides/net/).
-2. Projenizle uyumlu sürümü seçin.
-3. Aspose.Slides DLL referansını .NET projenize ekleyin.
-
-### Dikdörtgen şeklinin dolgu rengini özelleştirebilir miyim?
-
- Evet, dikdörtgen şeklinin dolgu rengini aşağıdaki düğmeyi kullanarak özelleştirebilirsiniz:`FillFormat` mülk. Sadece şekle erişin`FillFormat` ve istediğinizi ayarlayın`SolidFillColor`.
-
-### Dikdörtgen şeklini ekledikten sonra sunumu nasıl kaydederim?
-
-Sunuyu kullanarak kaydedebilirsiniz.`Save` yöntemi`Presentation` sınıf. İstediğiniz dosya adını ve istediğiniz kaydetme formatını (örneğin`SaveFormat.Pptx`).
-
-### Aspose.Slides for .NET yalnızca dikdörtgen şekiller için uygun mudur?
-
-Hayır, Aspose.Slides for .NET çok çeşitli şekilleri ve sunum öğelerini destekler. Dikdörtgenler, daireler, oklar ve daha fazlası gibi şekiller oluşturabilir ve değiştirebilirsiniz.
-
-### Aspose.Slides for .NET hakkında daha fazla belgeyi nerede bulabilirim?
-
- Aspose.Slides for .NET'e ilişkin ayrıntılı belgeleri ve API referanslarını şu adreste bulabilirsiniz:[dokümantasyon sayfası](https://reference.aspose.com/slides/net/).
+Tebrikler! Aspose.Slides for .NET'i kullanarak bir sunum slaytında başarıyla basit bir dikdörtgen şekli oluşturdunuz. Bu sadece başlangıç – Aspose.Slides, sunumlarınızı daha da kişiselleştirmek ve geliştirmek için geniş bir özellik yelpazesi sunuyor.
+## Sıkça Sorulan Sorular
+### Aspose.Slides for .NET'i hem Windows hem de Linux ortamlarında kullanabilir miyim?
+Evet, Aspose.Slides for .NET platformdan bağımsızdır ve hem Windows hem de Linux ortamlarında kullanılabilir.
+### Aspose.Slides for .NET'in ücretsiz deneme sürümü mevcut mu?
+ Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+### Aspose.Slides for .NET için nasıl destek alabilirim?
+ Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.
+### Aspose.Slides for .NET için geçici bir lisans satın alabilir miyim?
+ Evet, geçici lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+### Aspose.Slides for .NET belgelerini nerede bulabilirim?
+ Belgelere bakın[Burada](https://reference.aspose.com/slides/net/).

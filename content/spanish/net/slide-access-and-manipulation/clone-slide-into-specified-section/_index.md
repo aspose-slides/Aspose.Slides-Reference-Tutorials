@@ -80,7 +80,7 @@ Aquí, clonamos la primera diapositiva (índice 0) y colocamos el duplicado en l
 
 ### Paso 5: guarde la presentación
 
- Finalmente, no olvide guardar su presentación usando el`Save` método. En este ejemplo, la presentación se guarda en formato PPTX.
+Finalmente, no olvide guardar su presentación usando el`Save` método. En este ejemplo, la presentación se guarda en formato PPTX.
 
 ¡Felicidades! Ha duplicado con éxito una diapositiva en una sección designada usando Aspose.Slides para .NET.
 
@@ -96,7 +96,7 @@ No, Aspose.Slides para .NET está diseñado específicamente para aplicaciones .
 
 ### 2. ¿Existen recursos gratuitos para aprender Aspose.Slides para .NET?
 
- Sí, puede acceder a la documentación de Aspose.Slides para .NET en[este enlace](https://reference.aspose.com/slides/net/) para obtener información detallada y tutoriales.
+ Sí, puede acceder a la documentación de Aspose.Slides para .NET en[este enlace](https://reference.aspose.com/slides/net/)para obtener información detallada y tutoriales.
 
 ### 3. ¿Puedo probar Aspose.Slides para .NET antes de comprarlo?
 

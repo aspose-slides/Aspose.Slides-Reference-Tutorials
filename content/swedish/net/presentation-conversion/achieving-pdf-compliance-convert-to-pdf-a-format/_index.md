@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- Ersätt i det här kodavsnittet`"Your Document Directory"`med den faktiska sökvägen till din dokumentkatalog och`"YourPresentation.pptx"` med namnet på din PowerPoint-presentation.
+ I det här kodavsnittet, ersätt`"Your Document Directory"`med den faktiska sökvägen till din dokumentkatalog och`"YourPresentation.pptx"` med namnet på din PowerPoint-presentation.
 
 ### Steg 3: Konfigurera PDF-alternativ
 

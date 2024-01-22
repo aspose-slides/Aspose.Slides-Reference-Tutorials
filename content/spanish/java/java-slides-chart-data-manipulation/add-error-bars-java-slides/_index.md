@@ -36,7 +36,7 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartTy
 
 Aquí, creamos un gráfico de burbujas y especificamos su posición y dimensiones en la diapositiva.
 
-## Paso 3: agregar barras de error y configurar el formato
+## Paso 3: Agregar barras de error y configurar el formato
 
 ```java
 // Agregar barras de error y configurar su formato

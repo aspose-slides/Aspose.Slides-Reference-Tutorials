@@ -20,7 +20,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 Maintenant que nous avons couvert les conditions préalables, commençons par gérer l’en-tête et le pied de page des diapositives de notes à l’aide d’Aspose.Slides pour .NET.
 
-## Étape 1 : Importer des espaces de noms
+## Étape 1 : Importer les espaces de noms
 
 Pour commencer, vous devez importer les espaces de noms nécessaires à votre projet. Incluez les espaces de noms suivants :
 

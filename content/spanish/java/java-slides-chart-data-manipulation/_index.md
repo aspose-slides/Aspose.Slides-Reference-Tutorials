@@ -43,7 +43,7 @@ Aprenda a crear diapositivas Java con marcadores predeterminados en gráficos us
 ### [Editar datos de gráficos en un libro de trabajo externo en diapositivas de Java](./edit-chart-data-external-workbook-java-slides/)
 Aprenda a editar datos de gráficos en un libro de trabajo externo usando Aspose.Slides para Java. Guía paso a paso con código fuente.
 ### [Gráfico de embudo en diapositivas de Java](./funnel-chart-java-slides/)
-Aprenda a crear gráficos de embudo en presentaciones de PowerPoint con Aspose.Slides para Java. Guía paso a paso con código fuente para una visualización de datos efectiva.
+Aprenda a crear gráficos de embudo en presentaciones de PowerPoint con Aspose.Slides para Java. Guía paso a paso con código fuente para una visualización de datos eficaz.
 ### [Gráfico de histograma en diapositivas de Java](./histogram-chart-java-slides/)
 Aprenda a crear gráficos de histograma en presentaciones de PowerPoint usando Aspose.Slides para Java. Guía paso a paso con código fuente para visualización de datos.
 ### [Gráfico de múltiples categorías en diapositivas de Java](./multi-category-chart-java-slides/)

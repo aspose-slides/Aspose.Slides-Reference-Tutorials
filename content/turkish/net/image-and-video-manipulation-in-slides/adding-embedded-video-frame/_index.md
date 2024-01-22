@@ -1,105 +1,77 @@
 ---
-title: Aspose.Slides kullanarak Sunum Slaytlarına Gömülü Video Çerçevesi Ekleme
-linktitle: Aspose.Slides kullanarak Sunum Slaytlarına Gömülü Video Çerçevesi Ekleme
+title: Aspose.Slides - .NET Sunumlarına Gömülü Videolar Ekleme
+linktitle: Aspose.Slides - .NET Sunumlarına Gömülü Videolar Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak gömülü video çerçeveleri ekleyerek sunum slaytlarınızı nasıl geliştireceğinizi öğrenin. Videoları sorunsuz bir şekilde entegre etmek, oynatmayı özelleştirmek ve büyüleyici sunumlar oluşturmak için eksiksiz kaynak kodunu içeren bu adım adım kılavuzu izleyin.
+description: Aspose.Slides for .NET'i kullanarak sunumlarınızı gömülü videolarla geliştirin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 type: docs
 weight: 19
 url: /tr/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-## Aspose.Slides for .NET'e Giriş
-
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasını sağlayan çok yönlü ve zengin özelliklere sahip bir kitaplıktır. Sunum oluşturma, düzenleme, dönüştürme ve değiştirme dahil çok çeşitli işlevler sağlar. Bu kılavuzda video karelerini sunum slaytlarına yerleştirme sürecine odaklanacağız.
-
+## giriiş
+Sunumların dinamik dünyasında multimedya öğelerinin entegre edilmesi katılımı önemli ölçüde artırabilir. Aspose.Slides for .NET, gömülü video çerçevelerini sunum slaytlarınıza dahil etmek için güçlü bir çözüm sunar. Bu eğitim, kusursuz bir deneyim sağlamak için her adımı parçalara ayırarak süreç boyunca size rehberlik edecektir.
 ## Önkoşullar
-
-Uygulamaya geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-
-- Visual Studio (veya başka herhangi bir .NET geliştirme ortamı)
-- C# programlama dili hakkında temel bilgi
-- Aspose.Slides for .NET kitaplığı
-
-## Aspose.Slides for .NET'i Yükleme
-
-Başlamak için Aspose.Slides for .NET kitaplığını yüklemeniz gerekir. Kütüphaneyi web sitesinden indirebilir veya NuGet gibi bir paket yöneticisi kullanabilirsiniz. NuGet'i kullanarak şu şekilde yükleyebilirsiniz:
-
+Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+-  Aspose.Slides for .NET Library: Kitaplığı şuradan indirip yükleyin:[yayın sayfası](https://releases.aspose.com/slides/net/).
+- Medya İçeriği: Sununuza eklemek istediğiniz bir video dosyanız (örneğin, "Wildlife.mp4") olsun.
+## Ad Alanlarını İçe Aktar
+.NET projenize gerekli ad alanlarını içe aktararak başlayın:
 ```csharp
-Install-Package Aspose.Slides
-```
-
-## Yeni Bir Sunu Oluşturma
-
-Aspose.Slides'ı kullanarak yeni bir PowerPoint sunumu oluşturarak başlayalım. Sunum oluşturmak için temel kod pasajını burada bulabilirsiniz:
-
-```csharp
+using System.IO;
 using Aspose.Slides;
-
-// Yeni bir sunu oluşturma
-Presentation presentation = new Presentation();
+using Aspose.Slides.Export;
 ```
-
-## Slayt Ekleme
-
-Daha sonra sunuma yeni bir slayt ekleyeceğiz. Slaytlar sıfırdan başlayarak dizine eklenir. Nasıl slayt ekleyebileceğiniz aşağıda açıklanmıştır:
-
+## 1. Adım: Dizinleri Ayarlayın
+Projenizin belge ve medya dosyaları için gerekli dizinlere sahip olduğundan emin olun:
 ```csharp
-// Sunuya yeni bir slayt ekleme
-ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
+string dataDir = "Your Document Directory";
+string videoDir = "Your Media Directory";
+string resultPath = Path.Combine(dataDir, "VideoFrame_out.pptx");
+// Henüz mevcut değilse dizin oluşturun.
+bool IsExists = Directory.Exists(dataDir);
+if (!IsExists)
+    Directory.CreateDirectory(dataDir);
 ```
-
-## Video Yerleştirme
-
-Şimdi işin heyecan verici kısmı geliyor; slayta video yerleştirme. Devam etmek için video dosyası yoluna veya URL'ye sahip olmanız gerekir. Slayda bir videoyu nasıl gömebileceğiniz aşağıda açıklanmıştır:
-
+## Adım 2: Sunum Sınıfını Başlatın
+PPTX dosyasını temsil edecek Sunum sınıfının bir örneğini oluşturun:
 ```csharp
-// Video dosyasının yolu
-string videoPath = "path_to_your_video.mp4";
-
-// Videoyu slayta ekleyin
-IVideoFrame videoFrame = slide.Shapes.AddVideoFrame(100, 100, 480, 270, videoPath);
+using (Presentation pres = new Presentation())
+{
+    // İlk slaydı alın
+    ISlide sld = pres.Slides[0];
 ```
-
-## Video Çerçevesini Özelleştirme
-
-Video karesinin boyutu, konumu ve oynatma seçenekleri gibi çeşitli yönlerini özelleştirebilirsiniz. Oynatma modunun otomatik olarak başlayacak şekilde nasıl ayarlanacağına dair bir örnek:
-
+## 3. Adım: Videoyu Sunumun İçine Yerleştirin
+Sunumun içine video eklemek için aşağıdaki kodu kullanın:
 ```csharp
-// Video oynatma modunu otomatik olarak başlayacak şekilde ayarlayın
-videoFrame.PlayMode = VideoPlayMode.Auto;
+IVideo vid = pres.Videos.AddVideo(new FileStream(videoDir + "Wildlife.mp4", FileMode.Open), LoadingStreamBehavior.ReadStreamAndRelease);
 ```
-
-## Sunumu Kaydetme ve Dışa Aktarma
-
-Video çerçevesini ekleyip beğeninize göre özelleştirdikten sonra sunuyu kaydetme zamanı gelir. PPTX veya PDF gibi çeşitli formatlarda kaydedebilirsiniz. Bunu PPTX dosyası olarak nasıl kaydedeceğiniz aşağıda açıklanmıştır:
-
+## 4. Adım: Video Çerçevesi Ekleyin
+Şimdi slayta bir video karesi ekleyin:
 ```csharp
-// Sunuyu kaydet
-presentation.Save("output.pptx", SaveFormat.Pptx);
+IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
 ```
-
+## 5. Adım: Video Özelliklerini Ayarlayın
+Videoyu video çerçevesine ayarlayın ve oynatma modunu ve ses seviyesini yapılandırın:
+```csharp
+vf.EmbeddedVideo = vid;
+vf.PlayMode = VideoPlayModePreset.Auto;
+vf.Volume = AudioVolumeMode.Loud;
+```
+## Adım 6: Sunuyu Kaydetme
+Son olarak PPTX dosyasını diske kaydedin:
+```csharp
+pres.Save(resultPath, SaveFormat.Pptx);
+```
+Sununuza eklemek istediğiniz her video için bu adımları tekrarlayın.
 ## Çözüm
-
-Bu kılavuzda Aspose.Slides for .NET kullanarak gömülü video kareleri ekleyerek sunum slaytlarınızı nasıl geliştirebileceğinizi araştırdık. Bu güçlü kitaplık, hedef kitleniz üzerinde kalıcı bir etki bırakacak dinamik ve ilgi çekici sunumlar oluşturmanıza olanak tanır. Bu kılavuzda özetlenen adımları izleyerek multimedya içeriğini slaytlarınıza sorunsuz bir şekilde entegre edebilir ve büyüleyici sunumlar oluşturabilirsiniz.
-
-## SSS'ler
-
-### Aspose.Slides for .NET'i nasıl yüklerim?
-
- Aspose.Slides for .NET'i NuGet paket yöneticisini kullanarak yükleyebilirsiniz. NuGet Paket Yöneticisi Konsolunuzda aşağıdaki komutu çalıştırmanız yeterlidir:`Install-Package Aspose.Slides`
-
-### Video çerçevesinin görünümünü özelleştirebilir miyim?
-
-Evet, Aspose.Slides kütüphanesinin sağladığı özellikleri kullanarak video karesinin boyutunu, konumunu ve oynatma seçeneklerini özelleştirebilirsiniz.
-
-### Yerleştirme için hangi video formatları destekleniyor?
-
-Aspose.Slides, MP4, AVI ve WMV dahil olmak üzere çeşitli formatlardaki videoların yerleştirilmesini destekler.
-
-### Videonun ne zaman oynatılmaya başlayacağını kontrol edebilir miyim?
-
-Kesinlikle! Tercihlerinize bağlı olarak video karesinin oynatma modunu otomatik veya manuel olarak başlayacak şekilde ayarlayabilirsiniz.
-
-### Aspose.Slides yalnızca video eklemek için mi kullanılıyor?
-
-Hayır, Aspose.Slides video eklemenin ötesinde geniş bir işlevsellik yelpazesi sunuyor. PowerPoint sunumlarını programlı olarak oluşturmanıza, düzenlemenize, dönüştürmenize ve değiştirmenize olanak tanır.
+Tebrikler! Aspose.Slides for .NET'i kullanarak sunumunuza başarıyla gömülü bir video karesi eklediniz. Bu dinamik özellik, slaytlarınıza kusursuz bir şekilde entegre edilen multimedya öğeleriyle izleyicilerinizi büyüleyerek sunumlarınızı yeni boyutlara taşıyabilir.
+## SSS
+### Sunumun herhangi bir slaytına video ekleyebilir miyim?
+ Evet, dizini değiştirerek herhangi bir slaytı seçebilirsiniz.`pres.Slides[index]`.
+### Hangi video formatları destekleniyor?
+Aspose.Slides, MP4, AVI ve WMV dahil olmak üzere çeşitli video formatlarını destekler.
+### Video çerçevesinin boyutunu ve konumunu özelleştirebilir miyim?
+ Kesinlikle! Parametreleri ayarlayın`AddVideoFrame(x, y, width, height, video)` ihyaç olduğu gibi.
+### Yerleştirebileceğim video sayısında bir sınır var mı?
+Gömülü videoların sayısı genellikle sunum yazılımınızın kapasitesiyle sınırlıdır.
+### Nasıl daha fazla yardım isteyebilirim veya deneyimimi nasıl paylaşabilirim?
+ Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.

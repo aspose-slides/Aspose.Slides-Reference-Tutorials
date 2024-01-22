@@ -24,7 +24,7 @@ Avant de plonger dans le didacticiel étape par étape, vous devez respecter que
 
 Dans un premier temps, importons les espaces de noms nécessaires pour travailler avec Aspose.Slides :
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.Slides;

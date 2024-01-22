@@ -106,4 +106,4 @@ Kesinlikle. Aspose.Slides'ın kapsamlı özelliklerini kullanarak eklenen slaytl
 
 ### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
-Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+ Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).

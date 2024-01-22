@@ -46,7 +46,7 @@ Nu när vi har täckt förutsättningarna och importerat de nödvändiga namnrym
 string dataDir = "Your Document Directory";
 ```
 
-## Steg 3: Instant presentationsklass
+## Steg 3: Instantiera presentationsklass
 
 Låt oss nu skapa en instans av`Presentation` klass, som låter dig arbeta med din PowerPoint-presentation:
 

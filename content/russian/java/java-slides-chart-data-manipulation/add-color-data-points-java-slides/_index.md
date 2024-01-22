@@ -116,4 +116,4 @@ finally
 
 ### Где я могу найти больше примеров и документации?
 
- Дополнительные примеры и подробную документацию по использованию Aspose.Slides для Java можно найти на странице[Документация Aspose.Slides](https://reference.aspose.com/slides/java/) Веб-сайт.
+ Вы можете найти больше примеров и подробную документацию по использованию Aspose.Slides для Java на сайте[Документация Aspose.Slides](https://reference.aspose.com/slides/java/) Веб-сайт.

@@ -22,7 +22,7 @@ Vous devez disposer d'un fichier de présentation (par exemple PowerPoint) à pa
 
 Commençons maintenant par le guide étape par étape.
 
-## Étape 1 : Importer des espaces de noms
+## Étape 1 : Importer les espaces de noms
 
 Pour commencer, vous devez importer les espaces de noms nécessaires pour accéder aux fonctionnalités d'Aspose.Slides pour .NET.
 
@@ -56,7 +56,7 @@ Maintenant, accédez aux effets de transition de la diapositive pour extraire l'
 ISlideShowTransition transition = slide.SlideShowTransition;
 ```
 
-## Étape 5 : Extraire l’audio sous forme de tableau d’octets
+## Étape 5 : Extraire l'audio sous forme de tableau d'octets
 
 Extrayez l'audio des effets de transition de la diapositive et stockez-le dans un tableau d'octets.
 

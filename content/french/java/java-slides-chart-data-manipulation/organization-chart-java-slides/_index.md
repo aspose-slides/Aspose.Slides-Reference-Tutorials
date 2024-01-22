@@ -84,7 +84,7 @@ finally
 
 ## Conclusion
 
-Dans ce didacticiel, vous avez appris à créer un organigramme dans Java Slides à l'aide de l'API Aspose.Slides pour Java. Vous pouvez personnaliser l'apparence et le contenu de l'organigramme en fonction de vos besoins spécifiques. Aspose.Slides offre une large gamme de fonctionnalités pour travailler avec des présentations PowerPoint, ce qui en fait un outil puissant pour gérer et créer du contenu visuel.
+Dans ce didacticiel, vous avez appris à créer un organigramme dans Java Slides à l'aide de l'API Aspose.Slides pour Java. Vous pouvez personnaliser l'apparence et le contenu de l'organigramme en fonction de vos besoins spécifiques. Aspose.Slides offre un large éventail de fonctionnalités pour travailler avec des présentations PowerPoint, ce qui en fait un outil puissant pour gérer et créer du contenu visuel.
 
 ## FAQ
 

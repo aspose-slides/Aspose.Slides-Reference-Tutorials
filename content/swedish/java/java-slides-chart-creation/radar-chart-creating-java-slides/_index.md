@@ -110,7 +110,7 @@ txtCat.getFillFormat().setFillType(FillType.Solid);
 txtCat.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtCat.setLatinFont(new FontData("Calibri"));
 
-// Ställa in teckentextegenskaper
+// Ställa in teckenförklaringstextegenskaper
 IChartPortionFormat txtleg = ichart.getLegend().getTextFormat().getPortionFormat();
 txtleg.setFontBold(NullableBool.True);
 txtleg.setFontHeight(10);
@@ -208,7 +208,7 @@ try
 	txtCat.getFillFormat().setFillType(FillType.Solid);
 	txtCat.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtCat.setLatinFont(new FontData("Calibri"));
-	// Ställa in teckentextegenskaper
+	// Ställa in teckenförklaringstextegenskaper
 	IChartPortionFormat txtleg = ichart.getLegend().getTextFormat().getPortionFormat();
 	txtleg.setFontBold(NullableBool.True);
 	txtleg.setFontHeight(10);
@@ -250,7 +250,7 @@ För att ändra diagramtiteln, ändra följande rad:
 ichart.getChartTitle().addTextFrameForOverriding("Radar Chart");
 ```
 
-### Kan jag lägga till fler dataserier i radardiagrammet?
+### Kan jag lägga till fler dataserier till radardiagrammet?
 
 Ja, du kan lägga till fler dataserier genom att följa stegen i "Steg 3" och "Steg 4" för varje ytterligare serie du vill inkludera.
 

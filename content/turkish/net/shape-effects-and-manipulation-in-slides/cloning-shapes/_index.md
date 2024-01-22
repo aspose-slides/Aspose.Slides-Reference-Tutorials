@@ -50,7 +50,7 @@ IShape sourceShape = presentation.Slides[0].Shapes[0];
 
 ### Adım 4: Şekli Klonlayın
 
- Şimdi, şunu kullan:`CloneShape`Kaynak şeklin bir kopyasını oluşturma yöntemi. Hedef slaydı ve klonlanan şeklin konumunu belirtebilirsiniz.
+ Şimdi, şunu kullan:`CloneShape` Kaynak şeklin bir kopyasını oluşturma yöntemi. Hedef slaydı ve klonlanan şeklin konumunu belirtebilirsiniz.
 
 ```csharp
 IShape clonedShape = presentation.Slides[1].Shapes.AddClone(sourceShape, x, y, width, height);

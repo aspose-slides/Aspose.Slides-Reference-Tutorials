@@ -24,7 +24,7 @@ Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
 ## 3. Configurando tu entorno
 
-Para comenzar, cree un nuevo proyecto C# en su IDE favorito. Asegúrese de haber hecho referencia a la biblioteca Aspose.Slides para .NET en su proyecto.
+Para comenzar, cree un nuevo proyecto de C# en su IDE favorito. Asegúrese de haber hecho referencia a la biblioteca Aspose.Slides para .NET en su proyecto.
 
 ## 4. Cargando la presentación
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 
 ## 5. Exportar una forma a SVG
 
- Dentro de`using`bloque, puede acceder a las formas en su presentación y exportarlas a formato SVG. Aquí, estamos exportando la primera forma en la primera diapositiva:
+ Dentro de`using` bloque, puede acceder a las formas en su presentación y exportarlas a formato SVG. Aquí, estamos exportando la primera forma en la primera diapositiva:
 
 ```csharp
 using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAccess.Write))

@@ -18,7 +18,7 @@ Innan vi dyker in i handledningen, låt oss kort presentera Aspose.Slides för .
 
 Innan du börjar, se till att du har följande förutsättningar på plats:
 
-- Aspose.Slides för .NET: Du bör ha Aspose.Slides-biblioteket installerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides för .NET: Du bör ha Aspose.Slides-biblioteket installerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
 
 ## Steg 1: Konfigurera ditt projekt
 

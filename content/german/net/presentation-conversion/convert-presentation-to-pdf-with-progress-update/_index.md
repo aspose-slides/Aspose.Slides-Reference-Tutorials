@@ -81,7 +81,7 @@ A: Ja, Aspose.Slides für .NET wird regelmäßig aktualisiert, um die neuesten .
 A: Sie können Fehlerbehandlungsmechanismen in Ihren Code implementieren, um etwaige Konvertierungsfehler elegant zu verwalten.
 
 ### F: Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
-A: Ja, Sie können auf eine kostenlose Testversion zugreifen unter[https://releases.aspose.com/](https://releases.aspose.com/).
+ A: Ja, Sie können auf eine kostenlose Testversion zugreifen unter[https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### F: Wo erhalte ich Unterstützung für Aspose.Slides für .NET?
  A: Unterstützung und Community-Diskussionen finden Sie unter[https://forum.aspose.com/](https://forum.aspose.com/).

@@ -1,119 +1,61 @@
 ---
-title: Aspose.Slides ile Belirli Sunum Slaytlarını Yazdırma
+title: .NET'te Aspose.Slides ile Sunum Slaytlarını Yazdırma
 linktitle: Aspose.Slides ile Belirli Sunum Slaytlarını Yazdırma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarından belirli slaytları nasıl yazdıracağınızı öğrenin. Adım adım kılavuzumuz kurulum, özelleştirme ve istisnaları ele alarak PowerPoint görevlerini otomatikleştirmenin kusursuz bir yolunu sunar.
+description: Aspose.Slides'ı kullanarak .NET'te sunum slaytlarını nasıl yazdıracağınızı öğrenin. Geliştiriciler için adım adım kılavuz. Kitaplığı indirin ve bugün yazdırmaya başlayın.
 type: docs
 weight: 18
 url: /tr/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
-
-## Aspose.Slides for .NET'e Giriş
-
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir kitaplıktır. Sunumlarla çalışmak için okuma, yazma, slaytları düzenleme ve çok daha fazlasını içeren çok çeşitli özellikler sunar.
-
+## giriiş
+.NET geliştirme dünyasında Aspose.Slides, sunum dosyalarıyla çalışmak için güçlü bir araç olarak öne çıkıyor. Sunum slaytlarını programlı olarak yazdırmaya ihtiyaç duyduysanız doğru yerdesiniz. Bu eğitimde Aspose.Slides for .NET kullanarak bunu nasıl başaracağımızı inceleyeceğiz.
 ## Önkoşullar
-
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-
-- Visual Studio: Makinenizde Visual Studio'nun kurulu olduğundan emin olun.
--  Aspose.Slides for .NET: Aspose.Slides for .NET kitaplığını şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/slides/net/).
-
-## Kurulum ve Kurulum
-
-1. Visual Studio'da yeni bir proje oluşturun.
-2. Projenize Aspose.Slides for .NET kitaplığına bir referans ekleyin.
-3. Gerekli ad alanlarını içe aktarın:
-
+Adımlara geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
+1.  Aspose.Slides Kütüphanesi: .NET için Aspose.Slides kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
+2. Yazıcı Yapılandırması: Yazıcınızın doğru şekilde yapılandırıldığından ve .NET ortamınızdan erişilebilir olduğundan emin olun.
+3. Tümleşik Geliştirme Ortamı (IDE): Visual Studio gibi bir .NET geliştirme ortamı kurun.
+4. Belge Dizini: Sunum dosyalarınızın saklandığı dizini belirtin.
+## Ad Alanlarını İçe Aktar
+Aspose.Slides'ın işlevlerinden yararlanmak için .NET projenize gerekli ad alanlarını içe aktarın:
 ```csharp
+using System;
 using Aspose.Slides;
+using System.Drawing.Printing;
 ```
-
-## Sunum Yükleme
-
-Başlamak için Aspose.Slides for .NET'i kullanarak bir sunum dosyası yükleyelim:
-
+## Adım 1: Sunum Nesnesi Oluşturun
+Burada Aspose.Slides'ı kullanarak yeni bir sunum nesnesi başlatıyoruz. Bu nesne slaytlarla çalışmak için tuvalimiz görevi görecek.
 ```csharp
-// Sunuyu yükle
-using (Presentation presentation = new Presentation("your-presentation.pptx"))
+using (Presentation presentation = new Presentation())
 {
-    // Kodunuz burada
+    // Sunum oluşturmaya yönelik kodunuz buraya gelecek
 }
 ```
-
-## Belirli Slaytları Yazdırma
-
-Şimdi sunumdaki belirli slaytları yazdırmaya devam edelim. Aşağıdaki kodu kullanarak bunu başarabilirsiniz:
-
+## Adım 2: Yazıcı Ayarlarını Yapılandırın
+Bu adımda yazıcı ayarlarını yapıyoruz. İhtiyaçlarınıza göre kopya sayısını, sayfa yönünü, kenar boşluklarını ve diğer ilgili ayarları özelleştirebilirsiniz.
 ```csharp
-// Yazdırılacak slayt numaralarını belirtin
-int[] slideNumbers = new int[] { 2, 4, 6 };
-
-// Slayt numaralarını yineleyin ve her slaydı yazdırın
-foreach (int slideNumber in slideNumbers)
-{
-    using (Presentation presentation = new Presentation("your-presentation.pptx"))
-    {
-        // Belirli bir slaydı yazdır
-        presentation.Print(slideNumber, "printer-name");
-    }
-}
+PrinterSettings printerSettings = new PrinterSettings();
+printerSettings.Copies = 2;
+printerSettings.DefaultPageSettings.Landscape = true;
+printerSettings.DefaultPageSettings.Margins.Left = 10;
+// ... Gerekli diğer yazıcı ayarlarını ekleyin
 ```
-
-## Yazdırma Ayarlarını Özelleştirme
-
-Yazdırma ayarlarını gereksinimlerinize göre özelleştirebilirsiniz. Farklı yazdırma seçeneklerinin nasıl ayarlanacağına dair bir örnek:
-
+## Adım 3: Sunumu İstenilen Yazıcıya Yazdırın
+ Son olarak şunu kullanıyoruz:`Print` Sunuyu belirtilen yazıcıya gönderme yöntemi. Yer tutucuyu yazıcınızın gerçek adıyla değiştirdiğinizden emin olun.
 ```csharp
-// Yazdırma seçeneklerini belirtin
-PrintOptions printOptions = new PrintOptions
-{
-    NumberOfCopies = 2,
-    SlideTransitions = false,
-    Grayscale = true
-};
-
-// Slaydı özelleştirilmiş ayarlarla yazdırın
-presentation.Print(slideNumber, "printer-name", printOptions);
+presentation.Print(printerSettings, "Please set your printer name here");
 ```
-
-## İstisnaları İşleme
-
-Aspose.Slides for .NET de dahil olmak üzere herhangi bir kütüphaneyle çalışırken istisnaları doğru şekilde ele almak çok önemlidir. İstisnaları düzgün bir şekilde ele almak için kodunuzu try-catch bloklarına sarın:
-
-```csharp
-try
-{
-    // Kodunuz burada
-}
-catch (Exception ex)
-{
-    Console.WriteLine("An error occurred: " + ex.Message);
-}
-```
-
+"Belge Dizininiz" ve "Lütfen yazıcı adınızı buraya ayarlayın" ifadelerini sırasıyla gerçek belge dizini yolunuz ve yazıcı adınızla değiştirmeyi unutmayın.
+Şimdi neler olduğunu anlamak için her adımı ayrı ayrı inceleyelim.
 ## Çözüm
-
-Bu kılavuzda Aspose.Slides for .NET kullanarak bir PowerPoint sunumundan belirli slaytların nasıl yazdırılacağını öğrendik. Sunumları yüklemeyi, slaytları yazdırmayı, yazdırma ayarlarını özelleştirmeyi ve istisnaları ele almayı ele aldık. Aspose.Slides for .NET, PowerPoint ile ilgili görevleri otomatikleştirmeyi ve verimli sonuçlar elde etmeyi kolaylaştırır.
-
-## SSS'ler
-
-### Aspose.Slides for .NET'i nasıl indirebilirim?
-
- Aspose.Slides for .NET'in en son sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/net/).
-
-### Belirli bir slaydın birden fazla kopyasını yazdırabilir miyim?
-
- Evet, belirli bir slaydın birden çok kopyasını yazdırabilirsiniz.`NumberOfCopies` yazdırma seçeneklerindeki özellik.
-
-### Aspose.Slides for .NET farklı PowerPoint formatlarıyla uyumlu mu?
-
-Evet, Aspose.Slides for .NET, PPTX ve PPT dahil çeşitli PowerPoint formatlarını destekler.
-
-### Animasyonlar ve geçişler içeren slaytları yazdırabilir miyim?
-
- Yazdırma sırasında slayt geçişlerinin ve animasyonların dahil edilip edilmeyeceğini, uygun seçenekleri ayarlayarak seçebilirsiniz.`PrintOptions` sınıf.
-
-### Aspose.Slides for .NET ile ilgili daha fazla belgeye nereden erişebilirim?
-
- Aspose.Slides for .NET için ayrıntılı belgeler ve örnekler bulabilirsiniz.[Burada](https://reference.aspose.com/slides/net/).
+Aspose.Slides for .NET ile sunum slaytlarını programlı olarak yazdırmak basit bir işlemdir. Bu adımları izleyerek bu işlevselliği .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
+## SSS
+### S: Sunumun tamamı yerine belirli slaytları yazdırmak için Aspose.Slides'ı kullanabilir miyim?
+C: Evet, kodu değiştirerek belirli slaytları seçici olarak yazdırarak bunu başarabilirsiniz.
+### S: Aspose.Slides'ı kullanmak için herhangi bir lisans gereksinimi var mı?
+ C: Evet, uygun lisansa sahip olduğunuzdan emin olun. Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+### S: Aspose.Slides hakkında nereden ek destek bulabilirim veya soru sorabilirim?
+ C: Aspose.Slides'ı ziyaret edin[destek Forumu](https://forum.aspose.com/c/slides/11) yardım için.
+### S: Satın almadan önce Aspose.Slides'ı ücretsiz deneyebilir miyim?
+C: Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+### S: Aspose.Slides for .NET'i nasıl satın alabilirim?
+ C: Kütüphaneyi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

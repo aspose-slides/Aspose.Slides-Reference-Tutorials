@@ -84,7 +84,7 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 
 ## Abschluss
 
-Durch Befolgen dieser Schritt-für-Schritt-Anleitung haben Sie gelernt, wie Sie mit Aspose.Slides für .NET zusätzliche Folien programmgesteuert in eine PowerPoint-Präsentation einfügen. Sie verfügen jetzt über die Tools, mit denen Sie Ihre Präsentationen dynamisch um neue Inhalte erweitern können, sodass Sie flexibel ansprechende und informative Diashows erstellen können.
+Indem Sie dieser Schritt-für-Schritt-Anleitung folgen, haben Sie gelernt, wie Sie Aspose.Slides für .NET verwenden, um zusätzliche Folien programmgesteuert in eine PowerPoint-Präsentation einzufügen. Sie verfügen nun über die Tools, mit denen Sie Ihre Präsentationen dynamisch um neue Inhalte erweitern können, sodass Sie flexibel ansprechende und informative Diashows erstellen können.
 
 ## FAQs
 
@@ -106,4 +106,4 @@ Absolut. Mit den umfangreichen Funktionen von Aspose.Slides können Sie das Layo
 
 ### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
 
-Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+ Ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).

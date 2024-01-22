@@ -16,7 +16,7 @@ Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
 1. Visual Studio: necesita tener Visual Studio instalado en su computadora.
 
-2.  Aspose.Slides para .NET: Descargue e instale Aspose.Slides para .NET desde[enlace de descarga](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides para .NET: Descargue e instale Aspose.Slides para .NET desde[enlace de descarga](https://releases.aspose.com/slides/net/).
 
 3. Un conocimiento básico de C#: debe tener un conocimiento básico de programación en C#.
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation())
 
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Sunburst, 100, 100, 450, 400);
     
-    //El resto del código se agregará en los siguientes pasos.
+    // El resto del código se agregará en los siguientes pasos.
 }
 ```
 

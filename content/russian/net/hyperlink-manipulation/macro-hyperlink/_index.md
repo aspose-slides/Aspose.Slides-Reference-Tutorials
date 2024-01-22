@@ -24,7 +24,7 @@ url: /ru/net/hyperlink-manipulation/macro-hyperlink/
 
 На первом этапе давайте импортируем необходимые пространства имен для работы с Aspose.Slides:
 
-### Шаг 1. Импортируйте пространства имен
+### Шаг 1. Импортируйте пространства имен
 
 ```csharp
 using Aspose.Slides;

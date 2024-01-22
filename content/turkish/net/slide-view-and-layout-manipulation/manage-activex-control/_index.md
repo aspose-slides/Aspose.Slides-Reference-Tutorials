@@ -130,21 +130,21 @@ ActiveX kontrollerini PowerPoint sunumlarınıza dahil etmek, hedef kitlenizin e
 
 ### Belirli bir slayda ActiveX denetimini nasıl ekleyebilirim?
 
-Belirli bir slayda ActiveX denetimi eklemek için`AddOleObjectFrame` Aspose.Slides for .NET tarafından sağlanan yöntem. Bu yöntem, eklemek istediğiniz ActiveX denetiminin konumunu, boyutunu ve ProgID'sini belirtmenize olanak tanır.
+ Belirli bir slayda ActiveX denetimi eklemek için`AddOleObjectFrame` Aspose.Slides for .NET tarafından sağlanan yöntem. Bu yöntem, eklemek istediğiniz ActiveX denetiminin konumunu, boyutunu ve ProgID'sini belirtmenize olanak tanır.
 
 ### ActiveX denetimlerini programlı olarak değiştirebilir miyim?
 
  Evet, Aspose.Slides for .NET'i kullanarak ActiveX kontrollerini programlı olarak değiştirebilirsiniz. Referans alarak`IOleObjectFrame` Denetimi temsil ederek, yöntemleri çağırabilir ve özellikleri denetimle dinamik olarak etkileşim kuracak şekilde ayarlayabilirsiniz.
 
-### Olayları nasıl halledebilirim
+### Olayları nasıl ele alacağım
 
  ActiveX denetimleri tarafından mı tetikleniyor?
 
- ActiveX denetimleri tarafından tetiklenen olayları, ilgili olaylara abone olarak kullanarak yönetebilirsiniz.`EventClick` (veya benzeri) olay işleyicisi. Bu, kullanıcının kontrolle etkileşimlerine yanıt olarak belirli eylemleri yürütmenize olanak tanır.
+ActiveX denetimleri tarafından tetiklenen olayları, ilgili olaylara abone olarak kullanarak yönetebilirsiniz.`EventClick` (veya benzeri) olay işleyicisi. Bu, kullanıcının kontrolle etkileşimlerine yanıt olarak belirli eylemleri yürütmenize olanak tanır.
 
 ### ActiveX kontrollerinin görünümünü özelleştirmek mümkün mü?
 
- Kesinlikle, ActiveX kontrollerinin görünümünü aşağıdakileri kullanarak özelleştirebilirsiniz:`SetProperty`Aspose.Slides for .NET tarafından sağlanan yöntem. Bu yöntem, arka plan rengi, yazı tipi stili ve daha fazlası gibi çeşitli özellikleri değiştirmenizi sağlar.
+ Kesinlikle, ActiveX kontrollerinin görünümünü aşağıdakileri kullanarak özelleştirebilirsiniz:`SetProperty` Aspose.Slides for .NET tarafından sağlanan yöntem. Bu yöntem, arka plan rengi, yazı tipi stili ve daha fazlası gibi çeşitli özellikleri değiştirmenizi sağlar.
 
 ### Bir ActiveX denetimini slayttan kaldırabilir miyim?
 

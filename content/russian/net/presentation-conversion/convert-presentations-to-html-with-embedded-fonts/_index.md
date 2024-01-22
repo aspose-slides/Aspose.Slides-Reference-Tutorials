@@ -18,7 +18,7 @@ url: /ru/net/presentation-conversion/convert-presentations-to-html-with-embedded
 
 Прежде чем приступить к работе, убедитесь, что у вас есть следующие предварительные условия:
 
-- Aspose.Slides для .NET: в вашем проекте должна быть установлена библиотека Aspose.Slides. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides для .NET: в вашем проекте должна быть установлена библиотека Aspose.Slides. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/net/).
 
 ## Шаг 1. Настройте свой проект
 

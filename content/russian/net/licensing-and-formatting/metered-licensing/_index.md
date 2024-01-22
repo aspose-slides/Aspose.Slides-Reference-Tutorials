@@ -20,7 +20,7 @@ url: /ru/net/licensing-and-formatting/metered-licensing/
 
 2. Visual Studio: для кодирования вам понадобится установленная в вашей системе Visual Studio.
 
-3. Библиотека Aspose.Slides: убедитесь, что вы загрузили и установили библиотеку Aspose.Slides для .NET. Библиотеку и дополнительные инструкции можно найти по адресу[эта ссылка](https://releases.aspose.com/slides/net/).
+3.  Библиотека Aspose.Slides: убедитесь, что вы загрузили и установили библиотеку Aspose.Slides для .NET. Библиотеку и дополнительные инструкции можно найти по адресу[эта ссылка](https://releases.aspose.com/slides/net/).
 
 Теперь, когда все готово, давайте начнем наше путешествие в Aspose.Slides для .NET.
 

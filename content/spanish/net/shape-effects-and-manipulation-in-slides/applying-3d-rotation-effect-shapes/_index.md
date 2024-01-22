@@ -1,118 +1,62 @@
 ---
-title: Aplicar efecto de rotación 3D en formas en diapositivas de presentación con Aspose.Slides
-linktitle: Aplicar efecto de rotación 3D en formas en diapositivas de presentación con Aspose.Slides
+title: Dominar la rotación 3D en presentaciones con Aspose.Slides para .NET
+linktitle: Aplicar efecto de rotación 3D en formas en diapositivas de presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Aprenda a aplicar cautivadores efectos de rotación 3D a las diapositivas de presentaciones usando Aspose.Slides para .NET. Guía paso a paso con código fuente para un impacto visual sorprendente.
+description: ¡Mejore sus presentaciones con Aspose.Slides para .NET! Aprenda a aplicar efectos de rotación 3D a formas en este tutorial. Cree presentaciones dinámicas y visualmente impactantes.
 type: docs
 weight: 23
 url: /es/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
-
-Imagine darle a su presentación un impacto visual sorprendente agregando efectos dinámicos de rotación 3D a las formas. Con Aspose.Slides para .NET, puedes lograr fácilmente este efecto cautivador y hacer que tus diapositivas se destaquen. En este tutorial, lo guiaremos paso a paso a través del proceso de aplicación de efectos de rotación 3D a formas en diapositivas de presentación. Le proporcionaremos el código fuente y le explicaremos cada paso en detalle. ¡Vamos a sumergirnos!
-
-## Introducción a los efectos de rotación 3D
-
-Los efectos de rotación 3D añaden profundidad y realismo a las diapositivas de tu presentación. Le permiten hacer que las formas parezcan girar en un espacio tridimensional, creando una experiencia visual atractiva para su audiencia.
-
-## Configurar su entorno de desarrollo
-
- Antes de comenzar, asegúrese de tener Aspose.Slides para .NET instalado en su proyecto. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/net/).
-
-## Creando una presentación
-
-Para comenzar, creemos una nueva presentación:
-
+## Introducción
+Crear diapositivas de presentación atractivas y dinámicas es un aspecto clave de una comunicación eficaz. Aspose.Slides para .NET proporciona un poderoso conjunto de herramientas para mejorar sus presentaciones, incluida la capacidad de aplicar efectos de rotación 3D a formas. En este tutorial, recorreremos el proceso de aplicar un efecto de rotación 3D a formas en diapositivas de presentación usando Aspose.Slides para .NET.
+## Requisitos previos
+Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+-  Aspose.Slides para .NET: asegúrese de tener instalada la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/slides/net/).
+- Entorno de desarrollo: configure un entorno de desarrollo .NET, como Visual Studio, para escribir y ejecutar su código.
+## Importar espacios de nombres
+En su proyecto .NET, importe los espacios de nombres necesarios para aprovechar la funcionalidad de Aspose.Slides. Incluya los siguientes espacios de nombres al principio de su código:
 ```csharp
-// Inicializar una presentación
-Presentation presentation = new Presentation();
+using System.Drawing;
+using Aspose.Slides.Export;
+using Aspose.Slides;
 ```
-
-## Agregar formas a las diapositivas
-
-Ahora, agreguemos algunas formas a nuestras diapositivas:
-
+## Paso 1: configura tu proyecto
+Cree un nuevo proyecto en su entorno de desarrollo .NET preferido. Asegúrese de haber agregado la referencia Aspose.Slides a su proyecto.
+## Paso 2: Inicializar la presentación
+Cree una instancia de una clase de presentación para comenzar a trabajar con diapositivas:
 ```csharp
-// Accede a la primera diapositiva
-ISlide slide = presentation.Slides[0];
-
-// Añade una forma de rectángulo
-IShape shape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
+Presentation pres = new Presentation();
 ```
-
-## Aplicar efecto de rotación 3D
-
-Para aplicar un efecto de rotación 3D a la forma, use el siguiente código:
-
+## Paso 3: agregar autoforma
+Agregue una autoforma a la diapositiva, especificando su tipo, posición y dimensiones:
 ```csharp
-// Aplicar efecto de rotación 3D a la forma.
-shape.ThreeDFormat.RotationX = 30;
-shape.ThreeDFormat.RotationY = 45;
+IShape autoShape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 30, 30, 200, 200);
 ```
-
-## Ajustar el ángulo de rotación y la perspectiva
-
-Puede ajustar el ángulo de rotación y la perspectiva para lograr el efecto deseado:
-
+## Paso 4: establecer el efecto de rotación 3D
+Configure el efecto de rotación 3D para la Autoforma:
 ```csharp
-// Ajustar el ángulo de rotación y la perspectiva.
-shape.ThreeDFormat.RotationX = 60;
-shape.ThreeDFormat.RotationY = 30;
-shape.ThreeDFormat.PresetCamera.PresetType = CameraPresetType.OrthographicFront;
+autoShape.ThreeDFormat.Depth = 6;
+autoShape.ThreeDFormat.Camera.SetRotation(40, 35, 20);
+autoShape.ThreeDFormat.Camera.CameraType = CameraPresetType.IsometricLeftUp;
+autoShape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Balanced;
 ```
-
-## Ajuste de la configuración de rotación
-
-Para un control más preciso, puede ajustar la configuración de rotación:
-
+## Paso 5: guarde la presentación
+Guarde la presentación modificada con el efecto de rotación 3D aplicado:
 ```csharp
-// Ajustar la configuración de rotación
-shape.ThreeDFormat.RotationX = 45;
-shape.ThreeDFormat.RotationY = 15;
-shape.ThreeDFormat.RotationZ = 10;
+pres.Save("Your Document Directory" + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
-
-## Agregar animación (opcional)
-
-Para agregar animación al efecto de rotación:
-
-```csharp
-// Agregar animación al efecto de rotación.
-ITransition transition = slide.SlideShowTransition;
-transition.AdvanceOnTime = true;
-transition.AdvanceTime = 2; // segundos
-```
-
-## Guardar y exportar su presentación
-
-Después de aplicar el efecto de rotación 3D y cualquier otro ajuste deseado, guarde y exporte su presentación:
-
-```csharp
-// Guardar y exportar presentación
-presentation.Save("output.pptx", SaveFormat.Pptx);
-```
-
+## Paso 6: repita para otras formas
+Si tiene formas adicionales, repita los pasos 3 a 5 para cada forma.
 ## Conclusión
-
-¡Felicidades! Ha aprendido con éxito cómo aplicar efectos de rotación 3D a formas en diapositivas de presentación usando Aspose.Slides para .NET. Esta técnica puede mejorar enormemente el atractivo visual de sus presentaciones y mantener a su audiencia interesada.
-
+Agregar efectos de rotación 3D a las formas de las diapositivas de su presentación puede mejorar significativamente su atractivo visual. Con Aspose.Slides para .NET, este proceso se vuelve sencillo y le permite crear presentaciones cautivadoras.
 ## Preguntas frecuentes
-
-### ¿Cómo puedo ajustar la velocidad de rotación de la animación?
-
- Puede ajustar la velocidad de rotación modificando el`AdvanceTime` propiedad en la configuración de transición.
-
-### ¿Puedo aplicar rotación 3D a cuadros de texto?
-
-Sí, puedes aplicar efectos de rotación 3D a cuadros de texto o cualquier otra forma en tu presentación.
-
-### ¿Aspose.Slides es compatible con diferentes versiones de PowerPoint?
-
-Sí, Aspose.Slides es compatible con varias versiones de PowerPoint y le permite crear presentaciones que se pueden abrir y ver con diferentes programas de PowerPoint.
-
-### ¿Puedo aplicar múltiples efectos 3D a una sola forma?
-
-Sí, puedes combinar múltiples efectos 3D, como rotación, profundidad e iluminación, para crear efectos visuales complejos para tus formas.
-
-### ¿Aspose.Slides proporciona soporte para otros tipos de animaciones?
-
-Sí, Aspose.Slides ofrece una amplia gama de efectos de animación que puedes aplicar a las diapositivas de tu presentación para hacerlas más dinámicas y atractivas.
+### ¿Puedo aplicar rotación 3D a cuadros de texto en Aspose.Slides para .NET?
+Sí, puedes aplicar efectos de rotación 3D a varias formas, incluidos cuadros de texto, usando Aspose.Slides.
+### ¿Existe una versión de prueba de Aspose.Slides para .NET disponible?
+ Sí, puedes acceder a la versión de prueba.[aquí](https://releases.aspose.com/).
+### ¿Cómo puedo obtener soporte para Aspose.Slides para .NET?
+ Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y debates de la comunidad.
+### ¿Puedo comprar una licencia temporal de Aspose.Slides para .NET?
+ Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+### ¿Dónde puedo encontrar documentación detallada para Aspose.Slides para .NET?
+ La documentación está disponible.[aquí](https://reference.aspose.com/slides/net/).

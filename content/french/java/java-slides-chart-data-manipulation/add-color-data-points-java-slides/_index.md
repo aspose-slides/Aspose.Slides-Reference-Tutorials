@@ -27,7 +27,7 @@ Tout d’abord, nous allons créer une nouvelle présentation à l’aide d’As
 Presentation pres = new Presentation();
 ```
 
-## Étape 2 : ajouter un graphique Sunburst
+## Étape 2 : Ajouter un graphique Sunburst
 
 Maintenant, ajoutons un graphique Sunburst à la présentation. Nous spécifions le type, la position et la taille du graphique.
 
@@ -108,7 +108,7 @@ Dans ce didacticiel, vous avez appris à ajouter de la couleur aux points de don
 
 ### Comment puis-je changer la couleur d’autres points de données ?
 
-Pour modifier la couleur d'autres points de données, vous pouvez suivre une approche similaire à celle présentée à l'étape 4. Accédez au point de données que vous souhaitez personnaliser et modifiez ses paramètres de couleur et d'étiquette.
+Pour modifier la couleur d'autres points de données, vous pouvez suivre une approche similaire à celle illustrée à l'étape 4. Accédez au point de données que vous souhaitez personnaliser et modifiez ses paramètres de couleur et d'étiquette.
 
 ### Puis-je personnaliser d’autres aspects du graphique ?
 

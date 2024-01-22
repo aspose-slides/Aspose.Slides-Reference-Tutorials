@@ -8,7 +8,7 @@ weight: 28
 url: /fr/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
 
-À l'ère numérique d'aujourd'hui, la conversion de présentations au format HTML est devenue une exigence courante. Il vous permet de partager facilement vos présentations sur le Web, les rendant ainsi accessibles à un public plus large. Aspose.Slides for .NET est un outil puissant qui simplifie ce processus. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus de conversion d'une présentation en HTML à l'aide d'Aspose.Slides pour .NET.
+À l’ère numérique d’aujourd’hui, la conversion de présentations au format HTML est devenue une exigence courante. Il vous permet de partager facilement vos présentations sur le Web, les rendant ainsi accessibles à un public plus large. Aspose.Slides for .NET est un outil puissant qui simplifie ce processus. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus de conversion d'une présentation en HTML à l'aide d'Aspose.Slides pour .NET.
 
 ## 1. Introduction
 
@@ -73,7 +73,7 @@ Oui, vous pouvez personnaliser la sortie HTML en modifiant l'objet HTMLOptions. 
 Oui, Aspose.Slides pour .NET prend en charge divers formats PowerPoint, notamment PPT, PPTX, etc.
 
 ### Q4. Y a-t-il des considérations en matière de licence ?
-Pour utiliser Aspose.Slides pour .NET dans votre projet, vous devrez obtenir une licence auprès d'Aspose. Vous pouvez trouver plus d’informations sur les licences[ici](https://purchase.aspose.com/buy).
+ Pour utiliser Aspose.Slides pour .NET dans votre projet, vous devrez obtenir une licence auprès d'Aspose. Vous pouvez trouver plus d’informations sur les licences[ici](https://purchase.aspose.com/buy).
 
 ### Q5. Où puis-je obtenir de l’assistance pour Aspose.Slides pour .NET ?
  Si vous rencontrez des problèmes ou avez des questions, vous pouvez demander de l'aide sur le[Forum Aspose.Slides](https://forum.aspose.com/).

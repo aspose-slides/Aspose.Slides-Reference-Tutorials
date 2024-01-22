@@ -1,105 +1,77 @@
 ---
-title: Aggiunta di frame video incorporati nelle diapositive della presentazione utilizzando Aspose.Slides
-linktitle: Aggiunta di frame video incorporati nelle diapositive della presentazione utilizzando Aspose.Slides
+title: Aspose.Slides - Aggiunta di video incorporati nelle presentazioni .NET
+linktitle: Aspose.Slides - Aggiunta di video incorporati nelle presentazioni .NET
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
-description: Scopri come migliorare le diapositive della tua presentazione aggiungendo fotogrammi video incorporati utilizzando Aspose.Slides per .NET. Segui questa guida passo passo con il codice sorgente completo per integrare perfettamente video, personalizzare la riproduzione e creare presentazioni accattivanti.
+description: Migliora le tue presentazioni con video incorporati utilizzando Aspose.Slides per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
 type: docs
 weight: 19
 url: /it/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-## Introduzione ad Aspose.Slides per .NET
-
-Aspose.Slides per .NET è una libreria versatile e ricca di funzionalità che consente agli sviluppatori di lavorare con presentazioni PowerPoint a livello di codice. Fornisce un'ampia gamma di funzionalità, tra cui la creazione, la modifica, la conversione e la manipolazione delle presentazioni. In questa guida ci concentreremo sul processo di incorporamento dei fotogrammi video all'interno delle diapositive della presentazione.
-
+## introduzione
+Nel mondo dinamico delle presentazioni, l'integrazione di elementi multimediali può aumentare significativamente il coinvolgimento. Aspose.Slides per .NET fornisce una potente soluzione per incorporare fotogrammi video incorporati nelle diapositive della presentazione. Questo tutorial ti guiderà attraverso il processo, suddividendo ogni passaggio per garantire un'esperienza senza interruzioni.
 ## Prerequisiti
-
-Prima di approfondire l'implementazione, assicurati di disporre dei seguenti prerequisiti:
-
-- Visual Studio (o qualsiasi altro ambiente di sviluppo .NET)
-- Conoscenza base del linguaggio di programmazione C#
-- Aspose.Slides per la libreria .NET
-
-## Installazione di Aspose.Slides per .NET
-
-Per iniziare, è necessario installare la libreria Aspose.Slides per .NET. Puoi scaricare la libreria dal sito Web o utilizzare un gestore di pacchetti come NuGet. Ecco come installarlo utilizzando NuGet:
-
+Prima di immergerci nel tutorial, assicurati di avere quanto segue:
+-  Aspose.Slides per .NET Library: scarica e installa la libreria da[pagina di rilascio](https://releases.aspose.com/slides/net/).
+- Contenuto multimediale: possiedi un file video (ad esempio "Wildlife.mp4") che desideri incorporare nella presentazione.
+## Importa spazi dei nomi
+Inizia importando gli spazi dei nomi necessari nel tuo progetto .NET:
 ```csharp
-Install-Package Aspose.Slides
-```
-
-## Creazione di una nuova presentazione
-
-Iniziamo creando una nuova presentazione di PowerPoint utilizzando Aspose.Slides. Ecco uno snippet di codice di base per creare una presentazione:
-
-```csharp
+using System.IO;
 using Aspose.Slides;
-
-// Crea una nuova presentazione
-Presentation presentation = new Presentation();
+using Aspose.Slides.Export;
 ```
-
-## Aggiunta di una diapositiva
-
-Successivamente, aggiungeremo una nuova diapositiva alla presentazione. Le diapositive vengono indicizzate a partire da zero. Ecco come puoi aggiungere una diapositiva:
-
+## Passaggio 1: impostare le directory
+Assicurati che il tuo progetto abbia le directory richieste per documenti e file multimediali:
 ```csharp
-// Aggiungi una nuova diapositiva alla presentazione
-ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
+string dataDir = "Your Document Directory";
+string videoDir = "Your Media Directory";
+string resultPath = Path.Combine(dataDir, "VideoFrame_out.pptx");
+// Crea directory se non è già presente.
+bool IsExists = Directory.Exists(dataDir);
+if (!IsExists)
+    Directory.CreateDirectory(dataDir);
 ```
-
-## Incorporamento di un video
-
-Ora arriva la parte emozionante: incorporare un video nella diapositiva. Per procedere è necessario disporre del percorso o dell'URL del file video. Ecco come puoi incorporare un video nella diapositiva:
-
+## Passaggio 2: istanziare la lezione di presentazione
+Crea un'istanza della classe Presentation per rappresentare il file PPTX:
 ```csharp
-// Percorso del file video
-string videoPath = "path_to_your_video.mp4";
-
-// Aggiungi il video alla diapositiva
-IVideoFrame videoFrame = slide.Shapes.AddVideoFrame(100, 100, 480, 270, videoPath);
+using (Presentation pres = new Presentation())
+{
+    // Ottieni la prima diapositiva
+    ISlide sld = pres.Slides[0];
 ```
-
-## Personalizzazione del fotogramma video
-
-Puoi personalizzare vari aspetti del fotogramma video, come dimensioni, posizione e opzioni di riproduzione. Ecco un esempio di come impostare la modalità di riproduzione per l'avvio automatico:
-
+## Passaggio 3: incorpora il video nella presentazione
+Utilizza il seguente codice per incorporare un video all'interno della presentazione:
 ```csharp
-// Imposta la modalità di riproduzione video per l'avvio automatico
-videoFrame.PlayMode = VideoPlayMode.Auto;
+IVideo vid = pres.Videos.AddVideo(new FileStream(videoDir + "Wildlife.mp4", FileMode.Open), LoadingStreamBehavior.ReadStreamAndRelease);
 ```
-
-## Salvare ed esportare la presentazione
-
-Dopo aver aggiunto il fotogramma video e averlo personalizzato a tuo piacimento, è il momento di salvare la presentazione. Puoi salvarlo in vari formati, come PPTX o PDF. Ecco come salvarlo come file PPTX:
-
+## Passaggio 4: aggiungi fotogramma video
+Ora aggiungi un fotogramma video alla diapositiva:
 ```csharp
-// Salva la presentazione
-presentation.Save("output.pptx", SaveFormat.Pptx);
+IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
 ```
-
+## Passaggio 5: imposta le proprietà del video
+Imposta il video sul fotogramma video e configura la modalità di riproduzione e il volume:
+```csharp
+vf.EmbeddedVideo = vid;
+vf.PlayMode = VideoPlayModePreset.Auto;
+vf.Volume = AudioVolumeMode.Loud;
+```
+## Passaggio 6: salva la presentazione
+Infine, salva il file PPTX su disco:
+```csharp
+pres.Save(resultPath, SaveFormat.Pptx);
+```
+Ripeti questi passaggi per ogni video che desideri incorporare nella presentazione.
 ## Conclusione
-
-In questa guida, abbiamo esplorato come migliorare le diapositive della presentazione aggiungendo fotogrammi video incorporati utilizzando Aspose.Slides per .NET. Questa potente libreria ti consente di creare presentazioni dinamiche e coinvolgenti che lasciano un'impressione duratura sul tuo pubblico. Seguendo i passaggi descritti in questa guida, puoi integrare perfettamente i contenuti multimediali nelle tue diapositive e creare presentazioni accattivanti.
-
+Congratulazioni! Hai aggiunto con successo un fotogramma video incorporato alla tua presentazione utilizzando Aspose.Slides per .NET. Questa funzionalità dinamica può elevare le tue presentazioni a nuovi livelli, affascinando il tuo pubblico con elementi multimediali perfettamente integrati nelle tue diapositive.
 ## Domande frequenti
-
-### Come installo Aspose.Slides per .NET?
-
- È possibile installare Aspose.Slides per .NET utilizzando il gestore pacchetti NuGet. È sufficiente eseguire il comando seguente nella console di gestione pacchetti NuGet:`Install-Package Aspose.Slides`
-
-### Posso personalizzare l'aspetto del fotogramma video?
-
-Sì, puoi personalizzare le dimensioni, la posizione e le opzioni di riproduzione del fotogramma video utilizzando le proprietà fornite dalla libreria Aspose.Slides.
-
-### Quali formati video sono supportati per l'incorporamento?
-
-Aspose.Slides supporta l'incorporamento di video in vari formati, inclusi MP4, AVI e WMV.
-
-### Posso controllare quando inizia la riproduzione del video?
-
-Assolutamente! È possibile impostare la modalità di riproduzione del fotogramma video in modo che venga avviata automaticamente o manualmente, a seconda delle preferenze.
-
-### Aspose.Slides serve solo per aggiungere video?
-
-No, Aspose.Slides offre una vasta gamma di funzionalità oltre all'aggiunta di video. Ti consente di creare, modificare, convertire e manipolare le presentazioni PowerPoint a livello di codice.
+### Posso incorporare video in qualsiasi diapositiva della presentazione?
+ Sì, puoi scegliere qualsiasi diapositiva modificando l'indice in`pres.Slides[index]`.
+### Quali formati video sono supportati?
+Aspose.Slides supporta una varietà di formati video, inclusi MP4, AVI e WMV.
+### Posso personalizzare le dimensioni e la posizione del fotogramma video?
+ Assolutamente! Regola i parametri in`AddVideoFrame(x, y, width, height, video)` come necessario.
+### C'è un limite al numero di video che posso incorporare?
+Il numero di video incorporati è generalmente limitato dalla capacità del software di presentazione.
+### Come posso chiedere ulteriore assistenza o condividere la mia esperienza?
+ Visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e le discussioni della comunità.

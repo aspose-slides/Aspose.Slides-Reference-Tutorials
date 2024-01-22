@@ -1,128 +1,81 @@
 ---
-title: إنشاء تكبير ملخص في شرائح العرض التقديمي باستخدام Aspose.Slides
+title: Aspose.Slides - إتقان تكبير الملخص في .NET
 linktitle: إنشاء تكبير ملخص في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إنشاء شرائح عرض تقديمي جذابة مع تكبير الملخص باستخدام Aspose.Slides for .NET. يوفر دليلنا خطوة بخطوة التعليمات البرمجية المصدر ونصائح التخصيص لتعزيز التفاعل.
+description: ارفع مستوى عروضك التقديمية باستخدام Aspose.Slides لـ .NET! تعلم كيفية إنشاء ملخصات Zoom جذابة دون عناء. قم بالتنزيل الآن للاستمتاع بتجربة الشرائح الديناميكية.
 type: docs
 weight: 16
 url: /ar/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
-
-## مقدمة إلى Aspose.Slides لـ .NET
-
-Aspose.Slides for .NET هي مكتبة شاملة تمكن المطورين من العمل مع عروض PowerPoint التقديمية في تطبيقات .NET الخاصة بهم. فهو يوفر مجموعة واسعة من الميزات، بما في ذلك إنشاء الشرائح والأشكال والنصوص والصور وتحريرها ومعالجتها والمزيد. في هذا الدليل، سنركز على استخدام Aspose.Slides for .NET لإنشاء شرائح تكبير ملخصة في مجموعات العروض التقديمية.
-
+## مقدمة
+في عالم العروض التقديمية الديناميكي، تبرز Aspose.Slides for .NET كأداة قوية لتحسين تجربة إنشاء الشرائح الخاصة بك. إحدى الميزات البارزة التي تقدمها هي القدرة على إنشاء تكبير ملخص، وهي طريقة جذابة بصريًا لتقديم مجموعة من الشرائح. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء ملخص تكبير في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
-
-قبل أن نبدأ، تأكد من أن لديك ما يلي:
-
-- تم تثبيت Visual Studio.
-- تم تثبيت .NET Framework أو .NET Core.
--  Aspose.Slides لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
-
-## تهيئة بيئة التطوير
-
-1. قم بإنشاء مشروع .NET جديد في Visual Studio.
-2. أضف مرجعًا إلى مكتبة Aspose.Slides في مشروعك.
-
-## تحميل عرض تقديمي
-
-للبدء، لنقم بتحميل عرض PowerPoint تقديمي موجود:
-
+قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+-  Aspose.Slides for .NET: تأكد من تثبيت المكتبة في بيئة .NET الخاصة بك. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[صفحة الإصدار](https://releases.aspose.com/slides/net/).
+- بيئة التطوير: قم بإعداد بيئة التطوير .NET الخاصة بك، بما في ذلك Visual Studio أو أي بيئة تطوير متكاملة مفضلة أخرى.
+- المعرفة الأساسية بـ C#: يفترض هذا البرنامج التعليمي أن لديك فهمًا أساسيًا لبرمجة C#.
+## استيراد مساحات الأسماء
+في مشروع C# الخاص بك، قم بتضمين مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.Slides. أضف الأسطر التالية في بداية الكود الخاص بك:
 ```csharp
+using System;
+using System.Drawing;
+using System.IO;
 using Aspose.Slides;
-
-// قم بتحميل العرض التقديمي
-using var presentation = new Presentation("path_to_your_presentation.pptx");
+using Aspose.Slides.Export;
 ```
-
-## إضافة شرائح إلى تكبير الملخص
-
-تسمح لك شرائح التكبير/التصغير الموجزة بتقديم نظرة عامة على شرائح متعددة في شريحة واحدة. دعونا نضيف الشرائح التي نريد تلخيصها:
-
+دعونا نقسم رمز المثال إلى خطوات متعددة لفهم واضح:
+## الخطوة 1: إعداد العرض التقديمي
+ في هذه الخطوة، نبدأ العملية عن طريق إنشاء عرض تقديمي جديد باستخدام Aspose.Slides. ال`using` يضمن البيان التخلص السليم من الموارد عندما لم تعد هناك حاجة إلى العرض التقديمي. ال`resultPath` يحدد المتغير المسار واسم الملف لملف العرض التقديمي الناتج.
 ```csharp
-// أضف الشرائح المراد تلخيصها
-var slideIndexes = new[] { 2, 3, 4 };
-var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
-```
-
-## إنشاء شرائح تكبير ملخصة
-
-الآن، لنقم بإنشاء شريحة التكبير/التصغير الموجزة الفعلية التي ستعرض نظرة عامة على الشرائح التي أضفناها سابقًا:
-
-```csharp
-// قم بإنشاء شريحة تكبير ملخصة
-var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
-```
-
-## تخصيص ملخص سلوك التكبير/التصغير
-
-يمكنك تخصيص سلوك تكبير الملخص، مثل التخطيط والمظهر:
-
-```csharp
-// تخصيص إعدادات تكبير الملخص
-var zoomFrame = summaryZoom.Shapes.OfType<ISmartArt>().FirstOrDefault();
-if (zoomFrame != null)
+string dataDir = "Your Documents Directory";
+string resultPath = Path.Combine(dataDir, "SummaryZoomPresentation.pptx");
+using (Presentation pres = new Presentation())
 {
-    zoomFrame.Nodes[0].TextFrame.Text = "Summary Zoom";
-    zoomFrame.Nodes[0].IsHidden = true; // إخفاء العنوان
-    zoomFrame.Nodes[1].IsHidden = true; // إخفاء المحتوى
+    // رمز إنشاء الشرائح والأقسام موجود هنا
+    // ...
+    // احفظ العرض التقديمي
+    pres.Save(resultPath, SaveFormat.Pptx);
 }
 ```
-
-## إضافة كود المصدر كمرجع
-
-من أجل راحتك، إليك الكود المصدري الكامل لإنشاء شرائح تكبير ملخصة:
-
+## الخطوة 2: إضافة الشرائح والأقسام
+ تتضمن هذه الخطوة إنشاء شرائح فردية وتنظيمها في أقسام داخل العرض التقديمي. ال`AddEmptySlide` يضيف الأسلوب شريحة جديدة، و`Sections.AddSection` طريقة إنشاء أقسام لتنظيم أفضل.
 ```csharp
-using Aspose.Slides;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        using var presentation = new Presentation("path_to_your_presentation.pptx");
-
-        var slideIndexes = new[] { 2, 3, 4 };
-        var summaryZoomSlide = presentation.Slides.AddSummaryZoomSlide(slideIndexes);
-
-        var summaryZoom = presentation.Slides.AddSummaryZoomSlide(new[] { summaryZoomSlide });
-
-        var zoomFrame = summaryZoom.Shapes.OfType<ISmartArt>().FirstOrDefault();
-        if (zoomFrame != null)
-        {
-            zoomFrame.Nodes[0].TextFrame.Text = "Summary Zoom";
-            zoomFrame.Nodes[0].IsHidden = true;
-            zoomFrame.Nodes[1].IsHidden = true;
-        }
-
-        presentation.Save("output.pptx", SaveFormat.Pptx);
-    }
-}
+ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
+// رمز تصميم الشريحة موجود هنا
+// ...
+pres.Sections.AddSection("Section 1", slide);
+// كرر هذه الخطوات للأقسام الأخرى (القسم 2، القسم 3، القسم 4)
 ```
-
+## الخطوة 3: تخصيص خلفية الشريحة
+هنا، نقوم بتخصيص خلفية كل شريحة عن طريق تعيين نوع التعبئة ولون التعبئة الصلب ونوع الخلفية. تضيف هذه الخطوة لمسة جذابة بصريًا لكل شريحة.
+```csharp
+slide.Background.FillFormat.FillType = FillType.Solid;
+slide.Background.FillFormat.SolidFillColor.Color = Color.Brown;
+slide.Background.Type = BackgroundType.OwnBackground;
+// كرر هذه الخطوات لشرائح أخرى بألوان مختلفة
+```
+## الخطوة 4: إضافة إطار تكبير ملخص
+ تتضمن هذه الخطوة الحاسمة إنشاء إطار تكبير ملخص، وهو عنصر مرئي يربط بين الأقسام في العرض التقديمي. ال`AddSummaryZoomFrame` تضيف الطريقة هذا الإطار إلى الشريحة المحددة.
+```csharp
+ISummaryZoomFrame summaryZoomFrame = pres.Slides[0].Shapes.AddSummaryZoomFrame(150, 50, 300, 200);
+// اضبط الإحداثيات والأبعاد حسب تفضيلاتك
+```
+## الخطوة 5: احفظ العرض التقديمي
+ وأخيرًا، نقوم بحفظ العرض التقديمي في مسار الملف المحدد. ال`Save` تضمن الطريقة استمرار تغييراتنا، وأن العرض التقديمي جاهز للاستخدام.
+```csharp
+pres.Save(resultPath, SaveFormat.Pptx);
+```
+باتباع هذه الخطوات، يمكنك إنشاء عرض تقديمي بشكل فعال باستخدام أقسام منظمة وإطار تكبير ملخص جذاب بصريًا باستخدام Aspose.Slides for .NET.
 ## خاتمة
-
-في هذا الدليل، اكتشفنا كيفية استخدام Aspose.Slides لـ .NET لإنشاء شرائح تكبير/تصغير ملخصة في مجموعات العروض التقديمية. يمكن لهذه الميزة القوية أن تعزز التفاعل والمشاركة في العروض التقديمية الخاصة بك، مما يوفر لمسة احترافية للمحتوى الخاص بك.
-
+يمكّنك Aspose.Slides for .NET من الارتقاء بلعبة العرض التقديمي، وتضيف ميزة Summary Zoom لمسة من الاحترافية والمشاركة. باستخدام هذه الخطوات البسيطة، يمكنك تحسين المظهر المرئي لشرائحك دون عناء.
 ## الأسئلة الشائعة
-
-### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل Aspose.Slides لـ .NET من[موقع Aspose.Slides](https://releases.aspose.com/slides/net/).
-
-### هل يمكنني تخصيص مظهر شرائح التكبير/التصغير الموجزة؟
-
-نعم، يمكنك تخصيص مظهر شرائح التكبير/التصغير التلخيصية باستخدام الخصائص المتنوعة التي توفرها مكتبة Aspose.Slides.
-
-### هل Aspose.Slides متوافق مع كل من .NET Framework و.NET Core؟
-
-نعم، يدعم Aspose.Slides كلاً من .NET Framework و.NET Core، مما يمنحك المرونة في اختيار منصة التطوير الخاصة بك.
-
-### هل يمكنني إنشاء شرائح تكبير ملخصة لنطاقات شرائح محددة؟
-
-قطعاً! يمكنك تحديد الشرائح التي تريد تضمينها في تكبير/تصغير الملخص باستخدام فهارس الشرائح الخاصة بها.
-
-### كيف يمكنني إخفاء العنوان والمحتوى في شريحة تكبير الملخص؟
-
- يمكنك استخدام ال`IsHidden` خاصية عقد SmartArt لإخفاء العنوان والمحتوى الموجود على شريحة تكبير/تصغير الملخص.
+### هل يمكنني تخصيص مظهر إطار تكبير/تصغير الملخص؟
+نعم، يمكنك ضبط إحداثيات وأبعاد إطار Summary Zoom ليناسب تفضيلات التصميم الخاصة بك.
+### هل Aspose.Slides متوافق مع أحدث إصدارات .NET؟
+يتم تحديث Aspose.Slides بانتظام لضمان التوافق مع أحدث إصدارات .NET.
+### هل يمكنني إضافة ارتباطات تشعبية داخل إطار تكبير الملخص؟
+قطعاً! يمكنك تضمين الارتباطات التشعبية في الشرائح الخاصة بك، وستعمل بسلاسة داخل إطار تكبير الملخص.
+### هل هناك أي قيود على عدد الأقسام في العرض التقديمي؟
+اعتبارًا من الإصدار الأخير، لا توجد قيود صارمة على عدد الأقسام التي يمكنك إضافتها إلى العرض التقديمي.
+### هل هناك نسخة تجريبية متاحة لـ Aspose.Slides؟
+نعم، يمكنك استكشاف ميزات Aspose.Slides عن طريق تنزيل الملف[نسخة تجريبية مجانية](https://releases.aspose.com/).

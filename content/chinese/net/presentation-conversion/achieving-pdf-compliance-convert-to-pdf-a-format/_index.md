@@ -16,7 +16,7 @@ url: /zh/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-f
 
 在深入转换过程之前，请确保满足以下先决条件：
 
--  Aspose.Slides for .NET：确保您的.NET项目中安装了Aspose.Slides库。如果没有，您可以[在这里下载](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：确保您的.NET项目中安装了Aspose.Slides库。如果没有，你可以[在这里下载](https://releases.aspose.com/slides/net/).
 
 - 要转换的文档：您应该拥有要转换为 PDF/A 格式的 PowerPoint 演示文稿 (PPTX)。
 

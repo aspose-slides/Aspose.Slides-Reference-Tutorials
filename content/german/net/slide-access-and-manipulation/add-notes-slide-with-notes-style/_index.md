@@ -37,7 +37,7 @@ Kommen wir nun zum Kern unseres Tutorials – dem Hinzufügen einer stilvollen N
 
 ### Schritt 2.1: Instanziieren Sie die Präsentationsklasse
 
- Zuerst müssen wir eine Instanz davon erstellen`Presentation` Klasse, die Ihre PowerPoint-Präsentationsdatei darstellt. Sie sollten den Pfad zu Ihrer Präsentationsdatei im angeben`dataDir` Variable.
+ Zuerst müssen wir eine Instanz davon erstellen`Presentation`Klasse, die Ihre PowerPoint-Präsentationsdatei darstellt. Sie sollten den Pfad zu Ihrer Präsentationsdatei im angeben`dataDir` Variable.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Schritt 2.2: Greifen Sie auf die Master Notes-Folie zu
 
- Innerhalb der`using` Block, greifen wir auf die Masternotizen-Folie zu. Die Masternotizenfolie enthält den Standardstil für Notizen in Ihrer Präsentation.
+ Innerhalb der`using` Block greifen wir auf die Masternotizen-Folie zu. Die Masternotizenfolie enthält den Standardstil für Notizen in Ihrer Präsentation.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;
@@ -60,7 +60,7 @@ if (notesMaster != null)
 }
 ```
 
-### Schritt 2.3: Holen Sie sich den Notizenstil
+### Schritt 2.3: Notizenstil abrufen
 
 Jetzt rufen wir den Textstil der Masternotizen-Folie ab. Diesen Stil werden wir ändern, um unseren Notizen Stil zu verleihen.
 
@@ -105,7 +105,7 @@ Aspose.Slides für .NET ist eine leistungsstarke Bibliothek für die programmges
  Aspose.Slides für .NET ist eine kommerzielle Bibliothek und erfordert für die vollständige Nutzung eine Lizenz. Sie können es jedoch mit einer kostenlosen Testversion erkunden[Hier](https://releases.aspose.com/).
 
 ### Kann ich Aspose.Slides für .NET mit einer temporären Lizenz testen?
- Ja, Sie können eine temporäre Lizenz zu Test- und Evaluierungszwecken bei erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+Ja, Sie können eine temporäre Lizenz zu Test- und Evaluierungszwecken bei erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### Gibt es ein Community-Forum oder Support für Aspose.Slides für .NET?
  Ja, Sie können im Aspose.Slides für .NET-Community-Forum Hilfe suchen und an Diskussionen teilnehmen[Hier](https://forum.aspose.com/).

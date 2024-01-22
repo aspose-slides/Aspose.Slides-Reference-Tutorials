@@ -64,7 +64,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ## 结论
 
-在本教程中，我们演示了使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中删除超链接的过程。只需几个简单的步骤，您就可以确保您的幻灯片看起来专业且整洁。 Aspose.Slides for .NET 简化了处理 PowerPoint 演示文稿的任务，为您提供了高效、精确管理所需的工具。
+在本教程中，我们演示了使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中删除超链接的过程。只需几个简单的步骤，您就可以确保您的幻灯片看起来专业且整洁。 Aspose.Slides for .NET 简化了处理 PowerPoint 演示文稿的任务，为您提供高效、精确管理所需的工具。
 
 如果您发现本指南有帮助，您可以在文档中探索 Aspose.Slides for .NET 的更多特性和功能[这里](https://reference.aspose.com/slides/net/)。您还可以从以下位置下载该库[这个链接](https://releases.aspose.com/slides/net/)并购买许可证[这里](https://purchase.aspose.com/buy)如果你还没有。对于那些想先尝试的人，可以免费试用[这里](https://releases.aspose.com/)，并可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 

@@ -1,124 +1,69 @@
 ---
-title: Lägga till videoramar till presentationsbilder med Aspose.Slides
+title: Handledning för att lägga till videoramar med Aspose.Slides för .NET
 linktitle: Lägga till videoramar till presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du förbättrar dina presentationer genom att lägga till videoramar med Aspose.Slides för .NET. Skapa engagerande och interaktivt innehåll sömlöst.
+description: Återuppliva presentationer med dynamiska videoramar med Aspose.Slides för .NET. Följ vår guide för sömlös integration och skapa engagerande.
 type: docs
 weight: 19
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-## Introduktion till Aspose.Slides och videointegration
-
-Aspose.Slides är ett omfattande bibliotek som ger utvecklare möjlighet att skapa, manipulera och konvertera PowerPoint-presentationer programmatiskt. Genom att integrera videoramar i dina bilder kan du lyfta dina presentationer och göra dem mer dynamiska och engagerande.
-
-## Förutsättningar för att införliva videor
-
-Innan du börjar, se till att du har följande:
-
-- Visual Studio eller någon föredragen .NET-utvecklingsmiljö
-- Aspose.Slides för .NET-biblioteket installerat
-- En PowerPoint-presentation (PPTX) där du vill lägga till videoramar
-
-## Konfigurera din utvecklingsmiljö
-
-1. Öppna Visual Studio och skapa ett nytt .NET-projekt.
-2.  Installera Aspose.Slides NuGet-paketet:`Install-Package Aspose.Slides`.
-
-## Ladda en presentation och komma åt bilder
-
-För att komma igång, ladda din PowerPoint-presentation med Aspose.Slides:
-
+## Introduktion
+I det dynamiska landskapet av presentationer kan inkorporering av multimediaelement höja den övergripande effekten och engagemanget. Att lägga till videorutor till dina bilder kan förändra spelet och fånga din publiks uppmärksamhet på ett sätt som statiskt innehåll inte kan. Aspose.Slides för .NET ger en robust lösning för att sömlöst integrera videoramar i dina presentationsbilder.
+## Förutsättningar
+Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
+- Grundläggande förståelse för C# och .NET programmering.
+-  Aspose.Slides för .NET-biblioteket installerat. Om inte kan du ladda ner den[här](https://releases.aspose.com/slides/net/).
+- En lämplig utvecklingsmiljö inrättad.
+## Importera namnområden
+För att komma igång, se till att du importerar de nödvändiga namnrymden till ditt projekt:
 ```csharp
+using System.IO;
 using Aspose.Slides;
-
-// Ladda presentationen
-using Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Få åtkomst till bilder
-ISlideCollection slides = presentation.Slides;
+using Aspose.Slides.Export;
 ```
-
-## Lägga till videofiler till presentationen
-
-1. Placera dina videofiler i en mapp i ditt projekt.
-2. Lägg till referenser till dessa filer i din kod:
-
+## Steg 1: Skapa presentationsobjekt
+ Börja med att skapa en instans av`Presentation` klass, som representerar PPTX-filen:
 ```csharp
-// Lägg till videofiler
-string videoPath = "path-to-your-videos-folder";
-string[] videoFiles = Directory.GetFiles(videoPath, "*.mp4");
-```
-
-## Placera videoramar på bilder
-
-Iterera genom bilderna och lägg till videoramar:
-
-```csharp
-foreach (ISlide slide in slides)
+string dataDir = "Your Document Directory";
+using (Presentation pres = new Presentation())
 {
-    foreach (string videoFile in videoFiles)
-    {
-        IVideoFrame videoFrame = slide.Shapes.AddVideoFrame(100, 100, 320, 240, videoFile);
-    }
+    // Din kod här
 }
 ```
-
-## Anpassa egenskaper för videoram
-
-Du kan anpassa videoramsegenskaper som position, storlek och stil:
-
+## Steg 2: Öppna bilden
+Hämta den första bilden från presentationen:
 ```csharp
-foreach (IVideoFrame videoFrame in slide.Shapes.OfType<IVideoFrame>())
-{
-    videoFrame.X = 200;
-    videoFrame.Y = 150;
-    videoFrame.Width = 480;
-    videoFrame.Height = 360;
-}
+ISlide sld = pres.Slides[0];
 ```
-
-## Hantera uppspelningsalternativ
-
- Styr videouppspelning med hjälp av`VideoPlayModePreset` uppräkning:
-
+## Steg 3: Lägg till videoram
+Lägg nu till en videoram till bilden:
 ```csharp
-foreach (IVideoFrame videoFrame in slide.Shapes.OfType<IVideoFrame>())
-{
-    videoFrame.PlayMode = VideoPlayModePreset.Auto;
-}
+IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 150, dataDir + "video1.avi");
 ```
-
-## Spara och exportera den ändrade presentationen
-
-Spara din presentation efter att ha lagt till videoramar:
-
+Justera parametrarna (vänster, topp, bredd, höjd) enligt dina layoutpreferenser.
+## Steg 4: Ställ in uppspelningsläge och volym
+Konfigurera uppspelningsläge och volym för den infogade videoramen:
 ```csharp
-presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
+vf.PlayMode = VideoPlayModePreset.Auto;
+vf.Volume = AudioVolumeMode.Loud;
 ```
-
+Känn dig fri att anpassa dessa inställningar baserat på dina presentationskrav.
+## Steg 5: Spara presentationen
+Spara den ändrade presentationen på disken:
+```csharp
+pres.Save(dataDir + "VideoFrame_out.pptx", SaveFormat.Pptx);
+```
+Nu innehåller din presentation en sömlöst integrerad videoram!
 ## Slutsats
-
-Att införliva videoramar i dina presentationsbilder med Aspose.Slides förbättrar den visuella effekten av ditt innehåll. Du har lärt dig hur du sömlöst integrerar videor, anpassar videoramsegenskaper och styr uppspelningsalternativ. Börja skapa dynamiska och engagerande presentationer som fängslar din publik.
-
+Att införliva videoramar i presentationsbilder med Aspose.Slides för .NET är en enkel process som ger ditt innehåll en dynamisk touch. Förbättra dina presentationer genom att utnyttja multimediaelement, fängsla din publik och leverera en minnesvärd upplevelse.
 ## Vanliga frågor
-
-### Hur lägger jag till flera videor till en enda bild?
-
-Gå igenom dina videofiler och lägg till videoramar till önskad bild med den medföljande koden.
-
-### Kan jag styra inställningar för videouppspelning?
-
- Ja, du kan använda`VideoPlayModePreset` uppräkning för att ställa in uppspelningsalternativ såsom automatisk uppspelning.
-
-### Vilka videoformat stöds?
-
-Aspose.Slides stöder olika videoformat, inklusive MP4, AVI, WMV och mer.
-
-### Är det möjligt att lägga till videor programmatiskt i C#?
-
-Absolut, Aspose.Slides för .NET tillhandahåller ett användarvänligt API för att lägga till videor till bilder programmatiskt med C#.
-
-### Kan jag ändra utseendet på videoramen?
-
-Ja, du kan anpassa videoramens position, storlek och andra visuella egenskaper enligt dina krav.
+### F1: Kan jag lägga till flera videorutor till en enda bild?
+Ja, du kan lägga till flera videorutor till en enda bild genom att upprepa processen som beskrivs i handledningen för varje videobildruta.
+### F2: Vilka videoformat stöds av Aspose.Slides för .NET?
+Aspose.Slides för .NET stöder olika videoformat, inklusive AVI, WMV och MP4.
+### F3: Kan jag styra uppspelningsalternativen för den infogade videon?
+Absolut! Du har full kontroll över uppspelningsalternativ, som uppspelningsläge och volym, som visas i handledningen.
+### F4: Finns det en testversion tillgänglig för Aspose.Slides för .NET?
+ Ja, du kan utforska funktionerna i Aspose.Slides för .NET genom att ladda ner testversionen[här](https://releases.aspose.com/).
+### F5: Var kan jag hitta support för Aspose.Slides för .NET?
+ För eventuella frågor eller hjälp, besök[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).

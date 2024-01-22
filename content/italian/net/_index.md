@@ -19,7 +19,7 @@ Scatena la tua creatività ed efficienza nella manipolazione delle presentazioni
 ### [Conversione della presentazione](./presentation-conversion/)
 Migliora le tue capacità con i tutorial Aspose.Slides per .NET. Scopri passo dopo passo la conversione delle presentazioni e l'elaborazione di PowerPoint. Trasforma il tuo flusso di lavoro oggi!
 ### [Manipolazione della presentazione](./presentation-manipulation/)
-Sblocca il potenziale della manipolazione delle presentazioni con Aspose.Slides per tutorial .NET. Scopri come creare, personalizzare e migliorare dinamicamente le presentazioni PowerPoint a livello di codice. Migliora oggi stesso le tue capacità di elaborazione di PowerPoint!
+Sblocca il potenziale della manipolazione delle presentazioni con Aspose.Slides per tutorial .NET. Scopri come creare, personalizzare e migliorare dinamicamente le presentazioni PowerPoint a livello di programmazione. Migliora oggi stesso le tue capacità di elaborazione di PowerPoint!
 ### [Accesso e manipolazione delle diapositive](./slide-access-and-manipulation/)
 Esplora tutorial completi sull'accesso e la manipolazione delle diapositive utilizzando Aspose.Slides per .NET. Impara a creare, modificare e migliorare le presentazioni in modo programmatico. 
 ### [Manipolazione dello sfondo della diapositiva](./slide-background-manipulation/)

@@ -43,7 +43,7 @@ using (Presentation presentation = new Presentation(dataDir + "ConvertToPDF.pptx
 
 ## Paso 3: implementar la devolución de llamada de progreso
 
- Ahora necesitamos implementar la`ExportProgressHandler` clase para manejar las actualizaciones de progreso durante el proceso de conversión. Aquí está el código para el`ExportProgressHandler` clase:
+ Ahora necesitamos implementar el`ExportProgressHandler` clase para manejar las actualizaciones de progreso durante el proceso de conversión. Aquí está el código para el`ExportProgressHandler` clase:
 
 ```csharp
 class ExportProgressHandler : IProgressCallback
@@ -81,7 +81,7 @@ R: Sí, Aspose.Slides para .NET se actualiza periódicamente para admitir las ú
 R: Puede implementar mecanismos de manejo de errores dentro de su código para administrar con elegancia cualquier error de conversión.
 
 ### P: ¿Hay una prueba gratuita disponible para Aspose.Slides para .NET?
-R: Sí, puedes acceder a una prueba gratuita en[https://releases.aspose.com/](https://releases.aspose.com/).
+ R: Sí, puedes acceder a una prueba gratuita en[https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### P: ¿Dónde puedo obtener soporte para Aspose.Slides para .NET?
  R: Puede encontrar apoyo y debates comunitarios en[https://forum.aspose.com/](https://forum.aspose.com/).

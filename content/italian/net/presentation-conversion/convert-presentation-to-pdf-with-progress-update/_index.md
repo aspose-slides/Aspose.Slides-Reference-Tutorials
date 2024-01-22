@@ -81,7 +81,7 @@ R: Sì, Aspose.Slides per .NET viene regolarmente aggiornato per supportare le u
 R: Puoi implementare meccanismi di gestione degli errori all'interno del tuo codice per gestire con garbo eventuali errori di conversione.
 
 ### D: È disponibile una prova gratuita per Aspose.Slides per .NET?
-R: Sì, puoi accedere a una prova gratuita su[https://releases.aspose.com/](https://releases.aspose.com/).
+ R: Sì, puoi accedere a una prova gratuita su[https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### D: Dove posso ottenere supporto per Aspose.Slides per .NET?
  R: Puoi trovare supporto e discussioni nella community all'indirizzo[https://forum.aspose.com/](https://forum.aspose.com/).

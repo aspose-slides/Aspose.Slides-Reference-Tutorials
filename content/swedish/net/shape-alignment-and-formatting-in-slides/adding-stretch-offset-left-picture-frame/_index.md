@@ -1,116 +1,87 @@
 ---
-title: Lägga till Stretch Offset till vänster för bildram i Aspose.Slides
+title: Lägga till Stretch Offset till vänster i PowerPoint med Aspose.Slide
 linktitle: Lägga till Stretch Offset till vänster för bildram i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du lägger till stretch offset till vänster för en bildram i PowerPoint med Aspose.Slides för .NET. Steg-för-steg-guide med komplett källkodsexempel.
+description: Lär dig hur du förbättrar PowerPoint-presentationer med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för att lägga till stretch offset till vänster för bildramar.
 type: docs
 weight: 14
 url: /sv/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-## Introduktion till Aspose.Slides för .NET
-
-Aspose.Slides för .NET är ett omfattande bibliotek som ger .NET-utvecklare möjlighet att arbeta med PowerPoint-presentationer utan behov av Microsoft Office. Det ger ett brett utbud av funktioner, inklusive att skapa, redigera och manipulera bilder, former, text, bilder och mer.
-
+## Introduktion
+Aspose.Slides för .NET är ett kraftfullt bibliotek som ger utvecklare möjlighet att manipulera PowerPoint-presentationer med lätthet. I den här handledningen kommer vi att utforska processen att lägga till en sträckförskjutning till vänster för en bildram med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden för att förbättra dina färdigheter i att arbeta med bilder och former i PowerPoint-presentationer.
 ## Förutsättningar
-
-Innan vi börjar, se till att du har följande förutsättningar på plats:
-
-1. Visual Studio installerat på din dator.
-2. Grundläggande förståelse för C# och .NET framework.
-3.  Aspose.Slides för .NET-bibliotek. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
-
-## Att sätta upp projektet
-
-Låt oss börja med att sätta upp ett nytt C#-projekt i Visual Studio:
-
-1. Öppna Visual Studio.
-2. Klicka på "Skapa ett nytt projekt."
-3. Välj "Console App (.NET Framework/Core)."
-4. Välj ett lämpligt namn och plats för ditt projekt.
-5. Klicka på "Skapa".
-
-Lägg sedan till en referens till Aspose.Slides for .NET-biblioteket i ditt projekt. Högerklicka på "Referenser" i Solution Explorer, välj "Manage NuGet Packages", sök efter "Aspose.Slides" och installera paketet.
-
-## Lägger till Stretch Offset till vänster för bildram
-
-För att lägga till en sträckförskjutning till vänster för en bildram med Aspose.Slides för .NET, följ dessa steg:
-
-1.  Ladda presentationsfilen med`Presentation` klass.
-2. Leta reda på bilden som innehåller bildramen du vill ändra.
-3. Få tillgång till bildramsformen genom att iterera genom formerna på bilden.
-4.  Applicera sträckförskjutningen till vänster med hjälp av`PictureFrame` klass.
-
-## Exempelkod
-
+Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
+- Aspose.Slides för .NET: Se till att du har biblioteket installerat. Om inte, ladda ner den från[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+- Utvecklingsmiljö: Ha en fungerande utvecklingsmiljö med .NET-funktioner.
+## Importera namnområden
+Börja med att importera de nödvändiga namnområdena i ditt .NET-projekt:
 ```csharp
+using System.IO;
 using Aspose.Slides;
-using Aspose.Slides.ShapeManagers;
-
-namespace PictureFrameStretchOffsetExample
+using System.Drawing;
+using Aspose.Slides.Export;
+```
+## Steg 1: Konfigurera ditt projekt
+Skapa ett nytt projekt eller öppna ett befintligt. Se till att du har Aspose.Slides-biblioteket som refereras till i ditt projekt.
+## Steg 2: Skapa presentationsobjekt
+ Instantiera`Presentation` klass, som representerar PPTX-filen:
+```csharp
+using (Presentation pres = new Presentation())
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Ladda presentationen
-            using (Presentation presentation = new Presentation("sample.pptx"))
-            {
-                // Få den första bilden
-                ISlide slide = presentation.Slides[0];
-
-                // Iterera genom formerna på bilden
-                foreach (IShape shape in slide.Shapes)
-                {
-                    if (shape is IPictureFrame)
-                    {
-                        IPictureFrame pictureFrame = (IPictureFrame)shape;
-
-                        // Applicera stretch offset till vänster
-                        pictureFrame.PictureFormat.StretchOffsetX = -10;
-                    }
-                }
-
-                // Spara den ändrade presentationen
-                presentation.Save("output.pptx", SaveFormat.Pptx);
-            }
-        }
-    }
+    // Din kod för efterföljande steg kommer hit.
 }
 ```
-
-det här exemplet laddar vi en presentation, itererar genom formerna på den första bilden, och om vi hittar en bildramsform tillämpar vi en sträckförskjutning på -10 till vänster.
-
-## Testa applikationen
-
-För att testa applikationen, följ dessa steg:
-
-1. Se till att du har ett exempel på PowerPoint-presentation (`sample.pptx`) med minst en bildram.
-2. Kör programmet.
-3.  Den modifierade presentationen med den tillagda sträckförskjutningen kommer att sparas som`output.pptx`.
-
+## Steg 3: Skaffa den första bilden
+Hämta den första bilden från presentationen:
+```csharp
+ISlide slide = pres.Slides[0];
+```
+## Steg 4: Instantiera bilden
+Ladda bilden du vill använda:
+```csharp
+System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgEx = pres.Images.AddImage(img);
+```
+## Steg 5: Lägg till Rectangle AutoShape
+Skapa en AutoShape av rektangeltyp:
+```csharp
+IAutoShape aShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
+```
+## Steg 6: Ställ in fyllningstyp och bildfyllningsläge
+Konfigurera formens fyllningstyp och bildfyllningsläge:
+```csharp
+aShape.FillFormat.FillType = FillType.Picture;
+aShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
+```
+## Steg 7: Ställ in bild för att fylla formen
+Ange bilden för att fylla formen:
+```csharp
+aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
+```
+## Steg 8: Ange Stretch Offsets
+Definiera bildförskjutningarna från motsvarande kanter på formens begränsningsram:
+```csharp
+aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
+aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;
+aShape.FillFormat.PictureFillFormat.StretchOffsetTop = -20;
+aShape.FillFormat.PictureFillFormat.StretchOffsetBottom = -10;
+```
+## Steg 9: Spara presentationen
+Skriv PPTX-filen till disken:
+```csharp
+pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx);
+```
+Grattis! Du har framgångsrikt lagt till en sträckförskjutning till vänster för en bildram med Aspose.Slides för .NET.
 ## Slutsats
-
-I den här handledningen har du lärt dig hur du lägger till en sträckförskjutning till vänster för en bildram i Aspose.Slides med .NET. Aspose.Slides för .NET tillhandahåller en kraftfull uppsättning verktyg för att programmatiskt manipulera PowerPoint-presentationer, vilket gör det möjligt för utvecklare att skapa dynamiska och anpassade bildspel sömlöst.
-
-## FAQ's
-
-### Hur kan jag installera Aspose.Slides för .NET?
-
- Du kan ladda ner Aspose.Slides för .NET från webbplatsen[här](https://releases.aspose.com/slides/net/).
-
-### Kan jag använda Aspose.Slides för andra PowerPoint-manipulationsuppgifter?
-
-Absolut! Aspose.Slides för .NET erbjuder ett brett utbud av funktioner, inklusive att skapa, redigera och konvertera PowerPoint-presentationer. Du kan utforska dess dokumentation för mer information och exempel.
-
-### Är Aspose.Slides kompatibel med olika PowerPoint-format?
-
-Ja, Aspose.Slides stöder olika PowerPoint-format, inklusive PPTX, PPT, POTX och mer. Det stöder även konvertering mellan olika format.
-
-### Hur kan jag anpassa andra egenskaper hos former i en presentation?
-
-Du kan komma åt och ändra olika egenskaper hos former, inklusive text, position, storlek, formatering och mer, med hjälp av biblioteket Aspose.Slides. Se dokumentationen för utförlig information och exempel.
-
-### Kan jag använda Aspose.Slides med andra programmeringsspråk?
-
-Ja, Aspose.Slides tillhandahåller bibliotek för olika programmeringsspråk, inklusive Java, Python och mer. Du kan välja den som passar din utvecklingsmiljö.
+I den här handledningen utforskade vi processen att manipulera bildramar i PowerPoint-presentationer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden har du fått insikter i att arbeta med bilder, former och förskjutningar.
+## Vanliga frågor
+### F: Kan jag använda sträckförskjutningar på andra former förutom rektanglar?
+S: Även om den här handledningen fokuserar på rektanglar, kan sträckförskjutningar tillämpas på olika former som stöds av Aspose.Slides.
+### F: Hur kan jag justera stretch offseten för olika effekter?
+S: Experimentera med olika offsetvärden för att uppnå önskad visuell effekt. Finjustera värdena för att passa dina specifika krav.
+### F: Är Aspose.Slides kompatibel med det senaste .NET-ramverket?
+S: Aspose.Slides uppdateras regelbundet för att säkerställa kompatibilitet med de senaste .NET framework-versionerna.
+### F: Var kan jag hitta ytterligare exempel och resurser för Aspose.Slides?
+ S: Utforska[Aspose.Slides dokumentation](https://reference.aspose.com/slides/net/) för omfattande exempel och vägledning.
+### F: Kan jag tillämpa flera sträckförskjutningar på en enda form?
+S: Ja, du kan kombinera flera sträckförskjutningar för att uppnå komplexa och anpassade visuella effekter.

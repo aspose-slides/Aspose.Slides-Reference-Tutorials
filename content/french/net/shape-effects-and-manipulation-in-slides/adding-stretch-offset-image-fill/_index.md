@@ -1,99 +1,73 @@
 ---
-title: Ajout d'un décalage d'étirement pour le remplissage d'image dans les diapositives avec Aspose.Slides
+title: Ajout d'un décalage d'étirement pour le remplissage d'image dans les présentations PowerPoint
 linktitle: Ajout d'un décalage d'étirement pour le remplissage d'image dans les diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment améliorer vos diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape couvre l'ajout d'un décalage d'étirement pour le remplissage de l'image, la création de visuels dynamiques et l'optimisation de la conception.
+description: Découvrez comment améliorer les présentations PowerPoint avec Aspose.Slides pour .NET. Suivez un guide étape par étape pour ajouter un décalage d'étirement pour le remplissage de l'image.
 type: docs
 weight: 18
 url: /fr/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-Dans les présentations modernes, les visuels jouent un rôle crucial dans la transmission efficace des messages. Aspose.Slides, une API puissante pour travailler avec des fichiers de présentation dans .NET, propose une fonctionnalité appelée « Stretch Offset » qui vous permet de contrôler avec précision la façon dont les images sont remplies dans les formes. Cet article vous guidera tout au long du processus d'ajout d'un décalage d'étirement pour le remplissage d'images dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
-
-## Introduction au décalage d'étirement
-
-Stretch Offset est une technique précieuse lorsque vous devez personnaliser la façon dont les images sont affichées dans les formes. Il vous permet de contrôler la position et l'alignement de l'image dans une forme, permettant ainsi des conceptions de diapositives créatives et visuellement attrayantes. En utilisant l'API Aspose.Slides, vous pouvez implémenter par programme le décalage d'étirement et donner vie à vos présentations.
-
-## Configuration de votre environnement de développement
-
- Avant de plonger dans l’implémentation, assurez-vous que Aspose.Slides pour .NET est installé dans votre environnement de développement. Vous pouvez le télécharger sur le site Aspose[lien de téléchargement](https://releases.aspose.com/slides/net/)Une fois téléchargé, suivez les instructions d'installation pour configurer l'API de votre projet.
-
-## Ajouter une image à une diapositive
-
-Pour démontrer la fonctionnalité de décalage d'étirement, commençons par ajouter une image à une diapositive à l'aide d'Aspose.Slides. L'extrait de code suivant montre comment y parvenir :
-
+## Introduction
+Dans le monde dynamique des présentations, les visuels jouent un rôle central pour capter l'attention du public. Aspose.Slides pour .NET permet aux développeurs d'améliorer leurs présentations PowerPoint en fournissant un ensemble robuste de fonctionnalités. L'une de ces fonctionnalités est la possibilité d'ajouter un décalage d'étirement pour le remplissage de l'image, permettant ainsi des diapositives créatives et visuellement attrayantes.
+## Conditions préalables
+Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+1.  Aspose.Slides pour la bibliothèque .NET : téléchargez et installez la bibliothèque à partir du[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
+2. Environnement de développement : assurez-vous que vous disposez d'un environnement de développement .NET fonctionnel.
+Commençons maintenant par le guide étape par étape.
+## Importer des espaces de noms
+Tout d'abord, importez les espaces de noms nécessaires pour exploiter la fonctionnalité Aspose.Slides dans votre application .NET.
 ```csharp
-// Instancier un objet Présentation
-Presentation presentation = new Presentation();
-
-// Accédez à la première diapositive
-ISlide slide = presentation.Slides[0];
-
-// Définir le chemin du fichier image
-string imagePath = "path_to_your_image.jpg";
-
-// Ajouter une image à la diapositive
-byte[] imageBytes = File.ReadAllBytes(imagePath);
-IPictureFillFormat pictureFill = slide.Shapes.AddPictureFrame(ShapeType.Rectangle, 100, 100, 400, 300).FillFormat.PictureFillFormat;
-pictureFill.Picture.Image = presentation.Images.AddImage(imageBytes);
-
-// Enregistrez la présentation
-presentation.Save("output.pptx", SaveFormat.Pptx);
+using System.IO;
+using Aspose.Slides;
+using System.Drawing;
+using Aspose.Slides.Export;
 ```
-
-## Application du décalage d'étirement aux images
-
- Maintenant qu’une image est ajoutée à une diapositive, explorons comment lui appliquer un décalage d’étirement. Le décalage d'étirement est contrôlé par deux propriétés :`StretchX` et`StretchY`. Ces propriétés déterminent le décalage de l'image dans la forme, respectivement horizontalement et verticalement.
-
-Voici comment implémenter le décalage d'étirement à l'aide d'Aspose.Slides :
-
+## Étape 1 : Configurez votre projet
+Créez un nouveau projet .NET dans votre environnement de développement préféré. Assurez-vous qu’Aspose.Slides pour .NET est correctement référencé.
+## Étape 2 : initialiser la classe de présentation
+ Instancier le`Presentation` classe pour représenter le fichier PowerPoint.
 ```csharp
-// Accéder au format de remplissage d'image
-IPictureFillFormat pictureFill = slide.Shapes[0].FillFormat.PictureFillFormat;
-
-// Appliquer le décalage d'étirement
-pictureFill.StretchX = 0.5; // Décalage horizontal de 50 %
-pictureFill.StretchY = -0.2; // Décalage vertical de -20%
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
+{
+    // Votre code va ici
+}
 ```
-
-Dans cet exemple, nous avons défini un décalage horizontal de 50 % et un décalage vertical de -20 %. La valeur négative du décalage vertical déplace l’image vers le haut dans la forme.
-
-## Ajustement des valeurs de décalage d'étirement
-
- Trouver les valeurs de décalage d'étirement parfaites peut nécessiter quelques essais et erreurs pour obtenir l'effet visuel souhaité. Ajustez les valeurs de`StretchX` et`StretchY` pour s'adapter à vos préférences de conception et d'alignement. Expérimentez avec des valeurs positives et négatives pour voir comment le placement de l'image change.
-
-## Utilisation du décalage d'étirement avec différentes formes
-
- Le décalage d'étirement peut être appliqué à différents types de formes, notamment les rectangles, les ellipses, etc. La méthode d'accès au`PictureFillFormat` reste cohérent dans toutes les formes. N'hésitez pas à explorer et expérimenter différentes formes pour créer des compositions de diapositives uniques.
-
-## Techniques avancées et astuces
-
-- Combinez le décalage étiré avec d'autres fonctionnalités de formatage pour des conceptions complexes.
-- Utilisez le décalage d'étirement pour mettre en valeur des parties spécifiques d'une image dans une forme.
--  Utiliser le`PictureFillFormat.TileAsTexture`propriété permettant de mosaïquer des images dans des formes au lieu de les étirer.
-
+## Étape 3 : Obtenez la première diapositive
+Récupérez la première diapositive de la présentation avec laquelle travailler.
+```csharp
+ISlide sld = pres.Slides[0];
+```
+## Étape 4 : Instancier la classe ImageEx
+ Créez une instance du`ImageEx` classe pour gérer l’image que vous souhaitez ajouter à la diapositive.
+```csharp
+System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
+IPPImage imgx = pres.Images.AddImage(img);
+```
+## Étape 5 : Ajouter un cadre photo
+ Utiliser le`AddPictureFrame` méthode pour ajouter un cadre photo à la diapositive. Spécifiez les dimensions et la position du cadre.
+```csharp
+sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);
+```
+## Étape 6 : Enregistrez la présentation
+Enregistrez la présentation modifiée sur le disque.
+```csharp
+pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
+```
+C'est ça! Vous avez ajouté avec succès un décalage d'étirement pour le remplissage d'image dans les diapositives à l'aide d'Aspose.Slides pour .NET.
 ## Conclusion
-
-L'intégration du décalage étiré pour le remplissage d'images dans les diapositives de présentation à l'aide d'Aspose.Slides ouvre un monde de possibilités créatives. Avec un contrôle précis du positionnement des images, vous pouvez améliorer l'impact visuel de vos présentations. En suivant les étapes décrites dans cet article, vous avez appris à exploiter efficacement cette fonctionnalité.
-
+Améliorer vos présentations PowerPoint est désormais plus facile que jamais avec Aspose.Slides pour .NET. En suivant ce didacticiel, vous avez appris à intégrer le décalage d'étirement pour le remplissage de l'image, apportant ainsi un nouveau niveau de créativité à vos diapositives.
 ## FAQ
-
-### Comment puis-je télécharger Aspose.Slides pour .NET ?
-
- Vous pouvez télécharger Aspose.Slides pour .NET à partir du site Web Aspose.[lien de téléchargement](https://releases.aspose.com/slides/net/).
-
-### Puis-je utiliser le décalage d’étirement avec n’importe quel type d’image ?
-
-Oui, le décalage étiré peut être appliqué à des images de différents formats, notamment JPG, PNG, etc.
-
-###  Que se passe-t-il si je définis les deux`StretchX` and `StretchY` to the same value?
-
-La définition des deux propriétés sur la même valeur permet de conserver les proportions de l'image tout en décalant sa position dans la forme.
-
-### Le décalage d'étirement est-il compatible avec les animations ?
-
-Oui, le décalage étiré fonctionne parfaitement avec les animations de diapositives, vous permettant de créer des présentations dynamiques.
-
-### Comment puis-je accéder aux options avancées de décalage d’étirement ?
-
-Explorez la documentation Aspose.Slides pour obtenir des informations détaillées sur les techniques et propriétés avancées de décalage par étirement.
+### Puis-je utiliser Aspose.Slides pour .NET dans mes applications Web ?
+Oui, Aspose.Slides pour .NET convient aux applications de bureau et Web.
+### Existe-t-il un essai gratuit disponible pour Aspose.Slides pour .NET ?
+ Oui, vous pouvez télécharger un essai gratuit à partir de[ici](https://releases.aspose.com/).
+### Comment puis-je obtenir de l’assistance pour Aspose.Slides pour .NET ?
+ Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté.
+### Où puis-je trouver la documentation complète d’Aspose.Slides pour .NET ?
+ Se référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations détaillées.
+### Puis-je acheter Aspose.Slides pour .NET ?
+ Oui, vous pouvez acheter le produit[ici](https://purchase.aspose.com/buy).

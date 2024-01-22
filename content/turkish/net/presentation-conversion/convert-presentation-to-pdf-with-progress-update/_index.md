@@ -81,7 +81,7 @@ C: Evet, Aspose.Slides for .NET, en yeni .NET framework sürümlerini destekleye
 C: Herhangi bir dönüştürme hatasını zarif bir şekilde yönetmek için kodunuza hata işleme mekanizmaları uygulayabilirsiniz.
 
 ### S: Aspose.Slides for .NET'in ücretsiz deneme sürümü mevcut mu?
-C: Evet, şu adresten ücretsiz denemeye erişebilirsiniz:[https://releases.aspose.com/](https://releases.aspose.com/).
+ C: Evet, şu adresten ücretsiz denemeye erişebilirsiniz:[https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### S: Aspose.Slides for .NET için nereden destek alabilirim?
  C: Destek ve topluluk tartışmalarını şu adreste bulabilirsiniz:[https://forum.aspose.com/](https://forum.aspose.com/).

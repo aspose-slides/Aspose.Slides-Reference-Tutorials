@@ -34,7 +34,7 @@ Ensuite, nous ajouterons un graphique à la diapositive. Dans cet exemple, nous 
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 500, 400);
 ```
 
-## Étape 3 : ajouter une ligne personnalisée
+## Étape 3 : Ajouter une ligne personnalisée
 
  Maintenant, ajoutons une ligne personnalisée au graphique. Nous allons créer un`IAutoShape` de type`ShapeType.Line` et positionnez-le dans le graphique.
 

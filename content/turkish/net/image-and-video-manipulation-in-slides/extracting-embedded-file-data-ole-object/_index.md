@@ -1,94 +1,83 @@
 ---
-title: Aspose.Slides'taki OLE Nesnesinden Gömülü Dosya Verilerini Çıkarma
+title: Aspose.Slides for .NET - OLE Nesne Verilerini Çıkarma Eğitimi
 linktitle: Aspose.Slides'taki OLE Nesnesinden Gömülü Dosya Verilerini Çıkarma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarındaki OLE nesnelerinden gömülü dosya verilerini nasıl çıkaracağınızı öğrenin. Gömülü verileri sorunsuz bir şekilde almak ve işlemek için kaynak kodunun yer aldığı bu adım adım kılavuzu izleyin.
+description: OLE nesnelerinden gömülü dosya verilerinin çıkarılmasıyla ilgili adım adım kılavuzumuzla Aspose.Slides for .NET'in tüm potansiyelini ortaya çıkarın. PowerPoint işleme becerilerinizi geliştirin!
 type: docs
 weight: 20
 url: /tr/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
-
-## OLE Nesnesinden Katıştırılmış Dosya Verilerini Çıkarmaya Giriş
-
-Microsoft PowerPoint sunumları genellikle elektronik tablolar, belgeler veya resimler gibi çeşitli dosya türleri olabilen OLE (Nesne Bağlama ve Gömme) nesneleri gibi gömülü nesneler içerir. Bu gömülü dosyaların programlı olarak ayıklanması, özellikle bu gömülü dosyalar içindeki verileri işlemeniz veya analiz etmeniz gereken senaryolarda yaygın bir görevdir. Bu adım adım kılavuzda, .NET için Aspose.Slides kütüphanesini kullanarak PowerPoint'teki bir OLE nesnesinden gömülü dosya verilerinin nasıl çıkarılacağını inceleyeceğiz.
-
-## Gömülü OLE Nesnelerini Anlama
-
-OLE nesneleri, Microsoft Office uygulamalarında harici dosyaların belgelere yerleştirilmesini sağlamak için kullanılır. PowerPoint sunumlarındaki OLE nesneleri Excel elektronik tablolarını, Word belgelerini ve daha fazlasını içerebilir. Amacımız bu gömülü nesnelerin içinde depolanan verileri çıkarmak ve kaydetmektir.
-
+## giriiş
+Aspose.Slides for .NET dünyasını keşfediyorsanız PowerPoint işleme becerilerinizi geliştirmek için doğru yoldasınız. Bu kapsamlı kılavuzda, Aspose.Slides'ı kullanarak bir OLE nesnesinden gömülü dosya verilerini çıkarma sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister Aspose.Slides'e yeni başlayan biri olun, bu eğitim size bu güçlü .NET kütüphanesinin tüm potansiyelinden yararlanmanız için net ve ayrıntılı bir yol haritası sağlayacaktır.
 ## Önkoşullar
-
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-
-- Visual Studio veya başka herhangi bir .NET geliştirme ortamı.
--  Aspose.Slides for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
-
-## Projenin Kurulumu
-
-1. Yeni bir Visual Studio projesi oluşturun.
-2. Aspose.Slides for .NET kitaplığını NuGet Paket Yöneticisi'ni kullanarak veya DLL dosyasına bir referans ekleyerek yükleyin.
-
-## PowerPoint Sunumu Yükleme
-
-Başlamak için gömülü OLE nesnesi içeren bir PowerPoint sunumunu yükleyelim:
-
+Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+-  Aspose.Slides for .NET: Geliştirme ortamınızda Aspose.Slides kütüphanesinin kurulu olduğundan emin olun. Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/slides/net/).
+- Geliştirme Ortamı: Tercih ettiğiniz IDE ile Visual Studio gibi bir .NET geliştirme ortamı kurun.
+- Örnek PowerPoint Sunumu: Gömülü OLE nesnelerini içeren örnek bir PowerPoint sunum dosyası hazırlayın. Kendinizinkini kullanabilir veya internetten bir örnek indirebilirsiniz.
+## Ad Alanlarını İçe Aktar
+İlk adımda Aspose.Slides işlevselliğine erişmek için gerekli ad alanlarını içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```csharp
 using Aspose.Slides;
 using System;
-
-namespace EmbeddedObjectExtractor
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+```
+## 1. Adım: Projenizi Kurun
+Projenizin Aspose.Slides kütüphanesiyle yapılandırıldığından ve geliştirme ortamınızın hazır olduğundan emin olun.
+## 2. Adım: Sunuyu Yükleyin
+Aşağıdaki kodu kullanarak PowerPoint sunum dosyasını yükleyin:
+```csharp
+string dataDir = "Your Documents Directory";
+string pptxFileName = dataDir + "TestOlePresentation.pptx";
+using (Presentation pres = new Presentation(pptxFileName))
 {
-    class Program
+    // Sonraki adımların kodu buraya gelecek...
+}
+```
+## 3. Adım: Slaytlar ve Şekiller Üzerinde Yineleme Yapın
+OLE nesnelerini bulmak için her slayt ve şekli yineleyin:
+```csharp
+int objectnum = 0;
+foreach (ISlide sld in pres.Slides)
+{
+    foreach (IShape shape in sld.Shapes)
     {
-        static void Main(string[] args)
+        // Şeklin bir OLE nesnesi olup olmadığını kontrol edin
+        if (shape is OleObjectFrame)
         {
-            // PowerPoint sunumunu yükleyin
-            using (Presentation presentation = new Presentation("presentation.pptx"))
-            {
-                // Gömülü nesneyi çıkarmaya yönelik kodunuz buraya gelecek
-            }
+            objectnum++;
+            OleObjectFrame oleFrame = shape as OleObjectFrame;
+            
+            // Sonraki adımların kodu buraya gelecek...
         }
     }
 }
 ```
-
-## Gömülü OLE Nesnesinin Çıkarılması
-
-Daha sonra, gömülü OLE nesnesini sunumdan çıkaracağız:
-
+## Adım 4: OLE Nesnesinden Veri Çıkarma
+Gömülü dosya verilerini çıkarın ve belirtilen konuma kaydedin:
 ```csharp
-// Kullanım (Sunum sunumu) bloğunda olduğunuzu varsayarsak
-var oleObjectFrame = presentation.Slides[0].Shapes[0] as OleObjectFrame;
-if (oleObjectFrame != null && oleObjectFrame.ObjectData != null)
+byte[] data = oleFrame.EmbeddedData.EmbeddedFileData;
+string fileExtension = oleFrame.EmbeddedData.EmbeddedFileExtension;
+string extractedPath = dataDir + "ExtractedObject_out" + objectnum + fileExtension;
+using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 {
-    var embeddedData = oleObjectFrame.ObjectData;
-    // Gömülü verileri işlemeye yönelik kodunuz buraya gelir
+    fs.Write(data, 0, data.Length);
 }
 ```
-
-## Çıkarılan Verileri Kaydetme
-
-Artık gömülü verileri çıkardığımıza göre, onu bir dosyaya kaydedelim:
-
-```csharp
-// Verileri bayt dizisi olarak çıkardığınızı varsayarsak
-File.WriteAllBytes("extracted_data.xlsx", embeddedData);
-```
-
 ## Çözüm
+Tebrikler! Aspose.Slides for .NET'te bir OLE nesnesinden gömülü dosya verilerinin nasıl çıkarılacağını başarıyla öğrendiniz. Bu beceri, karmaşık sunumları kolaylıkla idare etmek için çok değerlidir. Aspose.Slides'ın yeteneklerini keşfetmeye devam ettikçe PowerPoint işleme görevlerinizi geliştirmenin daha da fazla yolunu keşfedeceksiniz.
 
-Bu kılavuzda, bir PowerPoint sunumundaki bir OLE nesnesinden gömülü dosya verilerini çıkarmak için Aspose.Slides for .NET'in nasıl kullanılacağını araştırdık. Burada özetlenen adımları izleyerek, bu gömülü nesnelerde depolanan verileri sorunsuz bir şekilde alabilir ve bunları gereksinimlerinize göre daha fazla işleyebilirsiniz.
-
-## SSS'ler
-
-### Aspose.Slides kütüphanesini nasıl kurabilirim?
-
-.NET için Aspose.Slides kütüphanesini Aspose web sitesinden indirip yükleyebilir veya projenize eklemek için NuGet Paket Yöneticisini kullanabilirsiniz.
-
-### Bu yöntem kullanılarak ne tür gömülü nesneler çıkarılabilir?
-
-Bu yöntem, PowerPoint sunumlarından Excel elektronik tabloları, Word belgeleri ve daha fazlası gibi çeşitli türdeki gömülü nesneleri çıkarmanıza olanak tanır.
-
-### Çıkarılan verileri kaydetmeden önce değiştirebilir miyim?
-
-Evet, çıkarılan verileri bir dosyaya kaydetmeden önce değiştirebilirsiniz. Veri türüne bağlı olarak verileri gerektiği gibi işleyebilir, analiz edebilir veya işleyebilirsiniz.
+## Sıkça Sorulan Sorular
+### Aspose.Slides en son .NET çerçevesiyle uyumlu mu?
+Evet, Aspose.Slides en yeni .NET framework sürümleriyle sorunsuz çalışacak şekilde tasarlanmıştır.
+### Tek bir sunumda birden çok OLE nesnesinden veri çıkarabilir miyim?
+Kesinlikle! Sağlanan kod, sunum içindeki birden çok OLE nesnesini işlemek için tasarlanmıştır.
+### Aspose.Slides için daha fazla eğitim ve örneği nerede bulabilirim?
+ Aspose.Slides belgelerini inceleyin[Burada](https://reference.aspose.com/slides/net/) Çok sayıda eğitim ve örnek için.
+### Aspose.Slides'ın ücretsiz deneme sürümü mevcut mu?
+ Evet, ücretsiz deneme sürümünü alabilirsiniz[Burada](https://releases.aspose.com/).
+### Aspose.Slides ile ilgili sorgular için nasıl destek alabilirim?
+ Aspose.Slides destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/slides/11) yardım için.

@@ -55,7 +55,7 @@ Aspose.Slides'ı kullanarak boş bir PowerPoint sunumu oluşturarak başlayın. 
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    //Grafik ve özel hata çubukları ekleme kodunuz buraya gelecek.
+    // Grafik ve özel hata çubukları ekleme kodunuz buraya gelecek.
     // Bunu sonraki adımlara ayıracağız.
     
     // Sunum kaydediliyor

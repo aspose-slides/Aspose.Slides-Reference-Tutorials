@@ -20,7 +20,7 @@ Aspose.Slides for .NET dünyasına dalmadan önce yerine getirmeniz gereken birk
 
 2. Visual Studio: Kodlama için sisteminizde Visual Studio'nun kurulu olması gerekir.
 
-3. Aspose.Slides Kütüphanesi: .NET için Aspose.Slides kütüphanesini indirip yüklediğinizden emin olun. Kütüphaneyi ve diğer talimatları şu adreste bulabilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/).
+3.  Aspose.Slides Kütüphanesi: .NET için Aspose.Slides kütüphanesini indirip yüklediğinizden emin olun. Kütüphaneyi ve diğer talimatları şu adreste bulabilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/).
 
 Artık hazır olduğunuza göre Aspose.Slides for .NET yolculuğumuza başlayalım.
 

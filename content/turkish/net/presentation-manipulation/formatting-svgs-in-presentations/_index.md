@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
-Bu kod parçacığı gerekli dizinleri ve dosya yollarını başlatır, bir PowerPoint sunumu açar ve bunu kullanarak biçimlendirme uygularken bunu bir SVG dosyasına dönüştürür.`MySvgShapeFormattingController`.
+ Bu kod parçacığı gerekli dizinleri ve dosya yollarını başlatır, bir PowerPoint sunumu açar ve bunu kullanarak biçimlendirme uygularken bunu bir SVG dosyasına dönüştürür.`MySvgShapeFormattingController`.
 
 ## SVG Şekil Biçimlendirme Denetleyicisini Anlamak
 
@@ -82,7 +82,7 @@ Bu denetleyici sınıfı, SVG çıkışındaki hem şekillerin hem de metnin bi�
 
 ## Çözüm
 
- Bu eğitimde Aspose.Slides for .NET kullanarak sunumlarda SVG şekillerinin nasıl formatlanacağını araştırdık. Projenizi nasıl kuracağınızı, uygulayacağınızı öğrendiniz.`MySvgShapeFormattingController` hassas biçimlendirme için sununuzu bir SVG dosyasına dönüştürün. Bu adımları izleyerek hedef kitleniz üzerinde kalıcı bir etki bırakacak büyüleyici sunumlar oluşturabilirsiniz.
+ Bu eğitimde Aspose.Slides for .NET kullanarak sunumlarda SVG şekillerinin nasıl formatlanacağını araştırdık. Projenizi nasıl kuracağınızı, uygulayacağınızı öğrendiniz.`MySvgShapeFormattingController`hassas biçimlendirme için sununuzu bir SVG dosyasına dönüştürün. Bu adımları izleyerek hedef kitleniz üzerinde kalıcı bir etki bırakacak büyüleyici sunumlar oluşturabilirsiniz.
 
 Yaratıcılığınızı ortaya çıkarmak için farklı SVG şekillerini ve biçimlendirme seçeneklerini denemekten çekinmeyin. Aspose.Slides for .NET, sunum tasarımınızı geliştirecek güçlü bir platform sağlar.
 

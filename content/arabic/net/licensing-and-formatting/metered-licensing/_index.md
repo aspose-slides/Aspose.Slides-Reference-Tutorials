@@ -20,7 +20,7 @@ url: /ar/net/licensing-and-formatting/metered-licensing/
 
 2. Visual Studio: ستحتاج إلى تثبيت Visual Studio على نظامك للبرمجة.
 
-3. مكتبة Aspose.Slides: تأكد من تنزيل مكتبة Aspose.Slides وتثبيتها لـ .NET. يمكنك العثور على المكتبة ومزيد من التعليمات على[هذا الرابط](https://releases.aspose.com/slides/net/).
+3.  مكتبة Aspose.Slides: تأكد من تنزيل مكتبة Aspose.Slides وتثبيتها لـ .NET. يمكنك العثور على المكتبة ومزيد من التعليمات على[هذا الرابط](https://releases.aspose.com/slides/net/).
 
 الآن بعد أن انتهيت من كل شيء، فلنبدأ رحلتنا إلى Aspose.Slides for .NET.
 

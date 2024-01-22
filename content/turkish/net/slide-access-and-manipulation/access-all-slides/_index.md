@@ -42,7 +42,7 @@ class Program
 
 ## Tüm Slaytları Alma
 
- Sunum yüklendikten sonra, tüm slaytları`Slides` Toplamak. İşte nasıl:
+ Sunum yüklendikten sonra, tüm slaytları`Slides`Toplamak. İşte nasıl:
 
 ```csharp
 // Tüm slaytları al

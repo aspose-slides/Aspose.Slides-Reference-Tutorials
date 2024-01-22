@@ -22,7 +22,7 @@ Avant de plonger dans le didacticiel étape par étape, assurez-vous que les con
 
 Maintenant que nos prérequis sont prêts, passons au guide étape par étape.
 
-## Étape 1 : Importer des espaces de noms
+## Étape 1 : Importer les espaces de noms
 
 Pour commencer, vous devez importer les espaces de noms nécessaires dans votre projet .NET. Ces espaces de noms sont essentiels pour travailler avec Aspose.Slides pour .NET. Voici comment procéder :
 
@@ -37,7 +37,7 @@ Passons maintenant au cœur de notre didacticiel : ajouter une mise en forme de
 
 ### Étape 2.1 : Instancier la classe de présentation
 
- Tout d'abord, nous devons créer une instance du`Presentation` classe qui représente votre fichier de présentation PowerPoint. Vous devez fournir le chemin d'accès à votre fichier de présentation dans le`dataDir` variable.
+ Tout d'abord, nous devons créer une instance du`Presentation`classe qui représente votre fichier de présentation PowerPoint. Vous devez fournir le chemin d'accès à votre fichier de présentation dans le`dataDir` variable.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -105,7 +105,7 @@ Aspose.Slides for .NET est une bibliothèque puissante permettant de travailler 
  Aspose.Slides pour .NET est une bibliothèque commerciale et nécessite une licence pour une utilisation complète. Cependant, vous pouvez l'explorer avec un essai gratuit disponible[ici](https://releases.aspose.com/).
 
 ### Puis-je essayer Aspose.Slides pour .NET avec une licence temporaire ?
- Oui, vous pouvez obtenir une licence temporaire à des fins de tests et d'évaluation auprès de[ici](https://purchase.aspose.com/temporary-license/).
+Oui, vous pouvez obtenir une licence temporaire à des fins de tests et d'évaluation auprès de[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Existe-t-il un forum communautaire ou une assistance disponible pour Aspose.Slides pour .NET ?
  Oui, vous pouvez demander de l'aide et participer aux discussions sur le forum de la communauté Aspose.Slides for .NET.[ici](https://forum.aspose.com/).

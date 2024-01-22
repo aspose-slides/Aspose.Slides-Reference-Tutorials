@@ -1,107 +1,85 @@
 ---
-title: Ersetzen des Bildtitels des OLE-Objektrahmens in Präsentationsfolien
+title: Leitfaden zum Einbetten von OLE-Objekten mit Aspose.Slides für .NET
 linktitle: Ersetzen des Bildtitels des OLE-Objektrahmens in Präsentationsfolien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie Bildtitel von OLE-Objektrahmen in Präsentationsfolien mit Aspose.Slides für .NET ersetzen. Schritt-für-Schritt-Anleitung mit vollständigem Quellcode.
+description: Erfahren Sie, wie Sie Ihre Präsentationsfolien mit dynamischen OLE-Objekten mithilfe von Aspose.Slides für .NET verbessern. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
 type: docs
 weight: 15
 url: /de/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-## Einführung in Aspose.Slides für .NET
-
-Aspose.Slides für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, PowerPoint-Präsentationen zu erstellen, zu ändern und zu bearbeiten, ohne dass Microsoft Office oder PowerPoint installiert sein muss. Es bietet eine breite Palette von Funktionen für die Arbeit mit verschiedenen Elementen von Präsentationen, einschließlich Folien, Formen, Text, Bildern und OLE-Objektrahmen.
-
+## Einführung
+Die Erstellung dynamischer und ansprechender Präsentationsfolien erfordert häufig die Einbindung verschiedener Multimedia-Elemente. In diesem Tutorial erfahren Sie, wie Sie den Bildtitel eines OLE-Objektrahmens (Object Linking and Embedding) in Präsentationsfolien mithilfe der leistungsstarken Bibliothek Aspose.Slides für .NET ersetzen. Aspose.Slides vereinfacht den Umgang mit OLE-Objekten und stellt Entwicklern die Tools zur Verfügung, mit denen sie ihre Präsentationen problemlos verbessern können.
 ## Voraussetzungen
-
-Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-
-- Visual Studio oder eine beliebige kompatible .NET-Entwicklungsumgebung installiert.
--  Aspose.Slides für .NET-Bibliothek. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
-
-## Laden einer Präsentation
-
-Beginnen wir mit dem Laden einer vorhandenen PowerPoint-Präsentation mit Aspose.Slides für .NET. Wenn Sie keine Präsentation zum Testen haben, können Sie eine neue erstellen oder eine Beispielpräsentation herunterladen.
-
+Bevor wir uns mit der Schritt-für-Schritt-Anleitung befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+-  Aspose.Slides for .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Slides for .NET-Bibliothek installiert haben. Sie können es hier herunterladen[Aspose.Slides .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+- Beispieldaten: Bereiten Sie eine Beispiel-Excel-Datei (z. B. „ExcelObject.xlsx“) vor, die Sie als OLE-Objekt in die Präsentation einbetten möchten. Darüber hinaus benötigen Sie eine Bilddatei (z. B. „Image.png“), die als Symbol für das OLE-Objekt dient.
+- Entwicklungsumgebung: Richten Sie eine Entwicklungsumgebung mit den erforderlichen Tools ein, z. B. Visual Studio oder eine andere bevorzugte IDE für die .NET-Entwicklung.
+## Namespaces importieren
+Stellen Sie in Ihrem .NET-Projekt sicher, dass Sie die erforderlichen Namespaces für die Arbeit mit Aspose.Slides importieren:
 ```csharp
 using Aspose.Slides;
-
-// Laden Sie die Präsentation
-using var presentation = new Presentation("sample.pptx");
+using Aspose.Slides.Examples.CSharp;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Aspose.Slides.DOM.Ole;
 ```
-
-## Zugreifen auf OLE-Objektrahmen
-
- Mit OLE-Objektrahmen (Object Linking and Embedding) können Sie Objekte wie Bilder, Dokumente oder andere Dateien in eine PowerPoint-Folie einbetten. Um auf OLE-Objektrahmen in einer Folie zuzugreifen, können Sie die Formen durchlaufen und nach Instanzen von suchen`OleObjectFrameEx`.
-
+## Schritt 1: Richten Sie das Dokumentenverzeichnis ein
 ```csharp
-// Durchlaufen Sie die Folien
-foreach (var slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+```
+Stellen Sie sicher, dass Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad zu Ihrem Dokumentverzeichnis ersetzen.
+## Schritt 2: Definieren Sie die Pfade für OLE-Quelldateien und Symboldateien
+```csharp
+string oleSourceFile = dataDir + "ExcelObject.xlsx";
+string oleIconFile = dataDir + "Image.png";
+```
+Aktualisieren Sie diese Pfade mit den tatsächlichen Pfaden zu Ihrer Beispiel-Excel-Datei und Bilddatei.
+## Schritt 3: Erstellen Sie eine Präsentationsinstanz
+```csharp
+using (Presentation pres = new Presentation())
 {
-    // Durchlaufen Sie die Formen auf der Folie
-    foreach (var shape in slide.Shapes)
-    {
-        if (shape is OleObjectFrameEx oleObject)
-        {
-            //Greifen Sie auf die Eigenschaften von OLE-Objekten zu
-            var title = oleObject.Title;
-            var data = oleObject.ObjectData;
-            
-            // Führen Sie weitere Aktionen durch
-        }
-    }
+    // Der Code für die nachfolgenden Schritte wird hier angezeigt
 }
 ```
-
-## Bildtitel ersetzen
-
- Um den Bildtitel eines OLE-Objektrahmens zu ersetzen, können Sie ihn einfach aktualisieren`Title` Eigentum der`OleObjectFrameEx` Beispiel.
-
+ Initialisieren Sie eine neue Instanz von`Presentation` Klasse.
+## Schritt 4: OLE-Objektrahmen hinzufügen
 ```csharp
-foreach (var slide in presentation.Slides)
+ISlide slide = pres.Slides[0];
+byte[] allbytes = File.ReadAllBytes(oleSourceFile);
+IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(allbytes, "xlsx");
+IOleObjectFrame oof = slide.Shapes.AddOleObjectFrame(20, 20, 50, 50, dataInfo);
+oof.IsObjectIcon = true;
+```
+Fügen Sie der Folie einen OLE-Objektrahmen hinzu und geben Sie dessen Position und Abmessungen an.
+## Schritt 5: Bildobjekt hinzufügen
+```csharp
+byte[] imgBuf = File.ReadAllBytes(oleIconFile);
+using (MemoryStream ms = new MemoryStream(imgBuf))
 {
-    foreach (var shape in slide.Shapes)
-    {
-        if (shape is OleObjectFrameEx oleObject)
-        {
-            // Aktualisieren Sie den Titel
-            oleObject.Title = "New Picture Title";
-        }
-    }
+    IPPImage image = pres.Images.AddImage(new Bitmap(ms));
 }
 ```
-
-## Speichern der geänderten Präsentation
-
-Nachdem Sie die erforderlichen Änderungen vorgenommen haben, müssen Sie die geänderte Präsentation speichern. Sie können es in verschiedenen Formaten wie PPTX, PDF oder Bildern speichern.
-
+Lesen Sie die Bilddatei und fügen Sie sie als Bildobjekt zur Präsentation hinzu.
+## Schritt 6: Stellen Sie die Beschriftung auf das OLE-Symbol ein
 ```csharp
-// Speichern Sie die Präsentation
-presentation.Save("modified.pptx", SaveFormat.Pptx);
+oof.SubstitutePictureTitle = "Caption example";
 ```
-
+Legen Sie die gewünschte Beschriftung für das OLE-Symbol fest.
 ## Abschluss
-
-Aspose.Slides für .NET vereinfacht die programmgesteuerte Arbeit mit PowerPoint-Präsentationen. In dieser Anleitung haben wir die Schritte zum Ersetzen des Bildtitels eines OLE-Objektrahmens in Präsentationsfolien behandelt. Wenn Sie diese Schritte befolgen, können Sie Präsentationen effizient entsprechend Ihren Anforderungen bearbeiten.
-
+Das Einbinden von OLE-Objekten in Ihre Präsentationsfolien mit Aspose.Slides für .NET ist ein unkomplizierter Vorgang. Dieses Tutorial hat Sie durch die wesentlichen Schritte geführt, vom Einrichten des Dokumentverzeichnisses bis zum Hinzufügen und Anpassen von OLE-Objekten. Experimentieren Sie mit verschiedenen Dateitypen und Beschriftungen, um die visuelle Attraktivität Ihrer Präsentationen zu verbessern.
 ## FAQs
-
-### Wie erhalte ich die Aspose.Slides für .NET-Bibliothek?
-
- Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[dieser Link](https://releases.aspose.com/slides/net/).
-
-### Kann ich Aspose.Slides für .NET verwenden, ohne dass Microsoft Office installiert ist?
-
-Ja, mit Aspose.Slides für .NET können Sie mit PowerPoint-Präsentationen arbeiten, ohne dass Microsoft Office installiert sein muss.
-
-### Gibt es andere Vorgänge, die ich an OLE-Objektrahmen ausführen kann?
-
-Absolut! Sie können verschiedene Aktionen an OLE-Objektrahmen durchführen, z. B. das Ersetzen der Objektdaten, das Ändern der Größe oder das Neupositionieren der Objektdaten innerhalb von Folien.
-
-### Ist Aspose.Slides für .NET mit verschiedenen PowerPoint-Formaten kompatibel?
-
-Ja, Aspose.Slides für .NET unterstützt eine Vielzahl von PowerPoint-Formaten, darunter PPT, PPTX, PPS und mehr.
-
-### Kann ich die Erstellung von PowerPoint-Präsentationen mit Aspose.Slides automatisieren?
-
-Sicherlich! Mit Aspose.Slides für .NET können Sie PowerPoint-Präsentationen dynamisch von Grund auf erstellen und dabei verschiedene Elemente wie Text, Bilder, Diagramme und mehr integrieren.
+### Kann ich mit Aspose.Slides andere Dateitypen als OLE-Objekte einbetten?
+Ja, Aspose.Slides unterstützt das Einbetten verschiedener Dateitypen, z. B. Excel-Tabellen, Word-Dokumente und mehr.
+### Ist das OLE-Objektsymbol anpassbar?
+Absolut. Sie können das Standardsymbol durch ein beliebiges Bild Ihrer Wahl ersetzen, um es besser zum Thema Ihrer Präsentation zu passen.
+### Bietet Aspose.Slides Unterstützung für Animationen mit OLE-Objekten?
+Ab der neuesten Version konzentriert sich Aspose.Slides auf die Einbettung und Anzeige von OLE-Objekten und verarbeitet Animationen innerhalb der OLE-Objekte nicht direkt.
+### Kann ich OLE-Objekte programmgesteuert bearbeiten, nachdem ich sie einer Folie hinzugefügt habe?
+Sicherlich. Sie haben die vollständige programmgesteuerte Kontrolle über OLE-Objekte und können deren Eigenschaften und Erscheinungsbild nach Bedarf ändern.
+### Gibt es Einschränkungen hinsichtlich der Größe der eingebetteten OLE-Objekte?
+Obwohl es Größenbeschränkungen gibt, sind sie im Allgemeinen großzügig. Es wird empfohlen, Tests mit Ihrem spezifischen Anwendungsfall durchzuführen, um eine optimale Leistung sicherzustellen.

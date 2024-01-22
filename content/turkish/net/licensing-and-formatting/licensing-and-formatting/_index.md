@@ -58,7 +58,7 @@ Lisans dosyası yolunu ayarladıktan sonra lisansınızın geçerli ve etkin old
 
 ### Adım 4: Lisans Doğrulaması
 
- Lisansınızın geçerli olup olmadığını kontrol etmek için`IsLicensed` yöntem. Lisansınızın etkin olup olmadığını belirten bir boole değeri döndürür.
+Lisansınızın geçerli olup olmadığını kontrol etmek için`IsLicensed` yöntem. Lisansınızın etkin olup olmadığını belirten bir boole değeri döndürür.
 
 ```csharp
 if (license.IsLicensed())
@@ -82,7 +82,7 @@ Bu adım adım kılavuzda Aspose.Slides for .NET'in lisanslanmasının temel sü
 Aspose.Slides for .NET, .NET uygulamalarında Microsoft PowerPoint dosyalarıyla çalışmak için güçlü bir kitaplıktır. PowerPoint sunumlarını programlı olarak oluşturmanıza, değiştirmenize ve yönetmenize olanak tanır.
 
 ### Aspose.Slides for .NET lisansını nasıl edinebilirim?
-Aspose web sitesini ziyaret ederek Aspose.Slides for .NET için lisans alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
+ Aspose web sitesini ziyaret ederek Aspose.Slides for .NET için lisans alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Aspose.Slides for .NET'i lisans satın almadan önce değerlendirebilir miyim?
  Evet, talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Slides for .NET'i geliştirme ortamınızda değerlendirmek için.

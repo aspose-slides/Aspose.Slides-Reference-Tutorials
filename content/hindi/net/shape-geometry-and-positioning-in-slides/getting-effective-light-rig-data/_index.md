@@ -1,0 +1,66 @@
+---
+title: Aspose.Slides के साथ प्रभावी लाइट रिग डेटा में महारत हासिल करना
+linktitle: प्रेजेंटेशन स्लाइड्स में प्रभावी लाइट रिग डेटा प्राप्त करना
+second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग एपीआई
+description: .NET के लिए Aspose.Slides के साथ अपनी प्रेजेंटेशन स्लाइड्स को बेहतर बनाएं! चरण-दर-चरण प्रभावी लाइट रिग डेटा पुनर्प्राप्त करना सीखें। अब अपनी दृश्य कहानी को उन्नत करें!
+type: docs
+weight: 19
+url: /hi/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
+---
+## परिचय
+आज के डिजिटल युग में गतिशील और देखने में आकर्षक प्रेजेंटेशन स्लाइड बनाना एक आम आवश्यकता है। एक आवश्यक पहलू समग्र सौंदर्यशास्त्र को बढ़ाने के लिए प्रकाश रिग गुणों में हेरफेर करना है। यह ट्यूटोरियल आपको .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में प्रभावी लाइट रिग डेटा प्राप्त करने की प्रक्रिया में मार्गदर्शन करेगा।
+## आवश्यक शर्तें
+इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+- C# और .NET प्रोग्रामिंग का बुनियादी ज्ञान।
+-  .NET लाइब्रेरी के लिए Aspose.Slides स्थापित। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- विज़ुअल स्टूडियो जैसा एक कोड संपादक।
+## नामस्थान आयात करें
+अपने C# कोड में, सुनिश्चित करें कि आप Aspose.Slides के साथ काम करने के लिए आवश्यक नेमस्पेस आयात करते हैं:
+```csharp
+using Aspose.Slides;
+using Aspose.Slides.Examples.CSharp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+```
+## चरण 1: अपना प्रोजेक्ट सेट करें
+अपने पसंदीदा विकास परिवेश में एक नया C# प्रोजेक्ट बनाकर शुरुआत करें। अपने प्रोजेक्ट संदर्भों में Aspose.Slides लाइब्रेरी को शामिल करना सुनिश्चित करें।
+## चरण 2: अपनी दस्तावेज़ निर्देशिका परिभाषित करें
+C# कोड में अपनी दस्तावेज़ निर्देशिका का पथ सेट करें:
+```csharp
+string dataDir = "Your Document Directory";
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+```
+## चरण 3: प्रस्तुति लोड करें
+प्रेजेंटेशन फ़ाइल लोड करने के लिए निम्नलिखित कोड का उपयोग करें:
+```csharp
+using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
+{
+    // प्रभावी लाइट रिग डेटा पुनर्प्राप्त करने के लिए आपका कोड यहां दिया गया है
+}
+```
+## चरण 4: प्रभावी लाइट रिग डेटा पुनर्प्राप्त करें
+अब, आइए प्रेजेंटेशन से प्रभावी लाइट रिग डेटा प्राप्त करें:
+```csharp
+IThreeDFormatEffectiveData threeDEffectiveData = pres.Slides[0].Shapes[0].ThreeDFormat.GetEffective();
+Console.WriteLine("= Effective light rig properties =");
+Console.WriteLine("Type: " + threeDEffectiveData.LightRig.LightType);
+Console.WriteLine("Direction: " + threeDEffectiveData.LightRig.Direction);
+```
+## निष्कर्ष
+बधाई हो! आपने सफलतापूर्वक सीख लिया है कि .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में प्रभावी लाइट रिग डेटा कैसे प्राप्त किया जाए। अपनी प्रस्तुतियों में वांछित दृश्य प्रभाव प्राप्त करने के लिए विभिन्न सेटिंग्स के साथ प्रयोग करें।
+## पूछे जाने वाले प्रश्न
+### क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ .NET के लिए Aspose.Slides का उपयोग कर सकता हूँ?
+Aspose.Slides मुख्य रूप से C# जैसी .NET भाषाओं का समर्थन करता है। हालाँकि, जावा के लिए समान उत्पाद उपलब्ध हैं।
+### क्या .NET के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
+ हाँ, आप परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+### मुझे .NET के लिए Aspose.Slides के लिए विस्तृत दस्तावेज़ कहाँ मिल सकते हैं?
+ दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/slides/net/).
+### मैं .NET के लिए Aspose.Slides के बारे में समर्थन कैसे प्राप्त कर सकता हूँ या प्रश्न कैसे पूछ सकता हूँ?
+ सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/slides/11).
+### क्या मैं .NET के लिए Aspose.Slides के लिए एक अस्थायी लाइसेंस खरीद सकता हूँ?
+ हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).

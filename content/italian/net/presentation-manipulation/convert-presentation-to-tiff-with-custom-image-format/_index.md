@@ -33,7 +33,7 @@ Aggiungi un riferimento alla libreria Aspose.Slides per .NET nel tuo progetto. P
 
 ## 3. Scrivi il codice di conversione
 
- Apri il file di codice principale del tuo progetto (ad esempio,`Program.cs`) e aggiungi la seguente istruzione using:
+ Apri il file di codice principale del tuo progetto (ad esempio,`Program.cs`e aggiungi la seguente istruzione using:
 
 ```csharp
 using Aspose.Slides;

@@ -14,7 +14,7 @@ url: /zh/net/slide-background-manipulation/set-image-as-background/
 
 在我们深入了解分步过程之前，请确保您具备以下先决条件：
 
-1. Aspose.Slides for .NET Library：从以下位置下载并安装 Aspose.Slides for .NET 库[下载链接](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET Library：从以下位置下载并安装 Aspose.Slides for .NET 库[下载链接](https://releases.aspose.com/slides/net/).
 
 2. 背景图像：您需要一张要设置为幻灯片背景的图像。确保您有合适格式（例如 .jpg）的图像文件可供使用。
 

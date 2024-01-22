@@ -100,7 +100,7 @@ C'est ça! Vous avez modifié avec succès l’arrière-plan d’une diapositive
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons appris à modifier les arrière-plans des diapositives dans Aspose.Slides for .NET. La personnalisation des arrière-plans des diapositives est un aspect clé de la création de présentations attrayantes, et avec Aspose.Slides, c'est un processus simple. En suivant les étapes décrites dans ce guide, vous pouvez augmenter l'impact visuel de vos présentations.
+Dans ce didacticiel, nous avons appris à modifier les arrière-plans des diapositives dans Aspose.Slides pour .NET. La personnalisation des arrière-plans des diapositives est un aspect clé de la création de présentations attrayantes, et avec Aspose.Slides, c'est un processus simple. En suivant les étapes décrites dans ce guide, vous pouvez augmenter l'impact visuel de vos présentations.
 
 ## Questions fréquemment posées
 

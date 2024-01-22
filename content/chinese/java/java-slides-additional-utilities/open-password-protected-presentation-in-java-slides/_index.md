@@ -49,7 +49,7 @@ loadOptions.setPassword("pass"); //将“pass”替换为您的演示密码
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
 ```
 
-确保更换`"OpenPasswordPresentation.pptx"`与受密码保护的演示文稿文件的实际名称。
+确保您更换`"OpenPasswordPresentation.pptx"`与受密码保护的演示文稿文件的实际名称。
 
 ## 第 4 步：访问演示数据
 

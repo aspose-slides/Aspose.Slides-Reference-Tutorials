@@ -8,7 +8,7 @@ weight: 14
 url: /sv/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
 
-presentationsvärlden handlar det inte bara om innehållet du levererar utan också hur du presenterar det. Snygg formatering av anteckningar kan göra en stor skillnad för hur din presentation får effekt. Med Aspose.Slides för .NET kan du enkelt förbättra dina PowerPoint-presentationer genom att lägga till snygga anteckningar med punktpunkter och symboler. I den här steg-för-steg-guiden går vi igenom processen med att lägga till snygg anteckningsformatering till dina PowerPoint-bilder.
+I presentationsvärlden handlar det inte bara om innehållet du levererar utan också hur du presenterar det. Snygg formatering av anteckningar kan göra en stor skillnad för hur din presentation får effekt. Med Aspose.Slides för .NET kan du enkelt förbättra dina PowerPoint-presentationer genom att lägga till snygga anteckningar med punktpunkter och symboler. I den här steg-för-steg-guiden går vi igenom processen med att lägga till snygg anteckningsformatering till dina PowerPoint-bilder.
 
 ## Förutsättningar
 
@@ -37,7 +37,7 @@ Låt oss nu dyka in i kärnan av vår handledning - lägga till snygg anteckning
 
 ### Steg 2.1: Instantiera presentationsklass
 
- Först måste vi skapa en instans av`Presentation` klass som representerar din PowerPoint-presentationsfil. Du bör ange sökvägen till din presentationsfil i`dataDir` variabel.
+ Först måste vi skapa en instans av`Presentation`klass som representerar din PowerPoint-presentationsfil. Du bör ange sökvägen till din presentationsfil i`dataDir` variabel.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -70,7 +70,7 @@ ITextStyle notesStyle = notesMaster.NotesStyle;
 
 ### Steg 2.4: Ställ in punktpunkter
 
-det här steget ställer vi in symbolpunkter för styckena på första nivån i anteckningarna. Detta skapar snygga punktpunkter i dina anteckningar.
+I det här steget ställer vi in symbolpunkter för styckena på första nivån i anteckningarna. Detta skapar snygga punktpunkter i dina anteckningar.
 
 ```csharp
 IParagraphFormat paragraphFormat = notesStyle.GetLevel(0);
@@ -105,7 +105,7 @@ Aspose.Slides för .NET är ett kraftfullt bibliotek för att arbeta med Microso
  Aspose.Slides för .NET är ett kommersiellt bibliotek och det kräver en licens för full användning. Du kan dock utforska det med en gratis provperiod tillgänglig[här](https://releases.aspose.com/).
 
 ### Kan jag prova Aspose.Slides för .NET med en tillfällig licens?
- Ja, du kan få en tillfällig licens för test- och utvärderingsändamål från[här](https://purchase.aspose.com/temporary-license/).
+Ja, du kan få en tillfällig licens för test- och utvärderingsändamål från[här](https://purchase.aspose.com/temporary-license/).
 
 ### Finns det ett communityforum eller support tillgängligt för Aspose.Slides för .NET?
  Ja, du kan söka hjälp och delta i diskussioner på Aspose.Slides för .NET-gemenskapsforumet[här](https://forum.aspose.com/).

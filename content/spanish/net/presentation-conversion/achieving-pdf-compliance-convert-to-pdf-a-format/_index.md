@@ -79,7 +79,7 @@ presentation.Save(dataDir, SaveFormat.Pdf, pdfOptions);
 
 ## Conclusión
 
-En este tutorial, ha aprendido cómo lograr la compatibilidad con PDF convirtiendo presentaciones de PowerPoint a formato PDF/A usando Aspose.Slides para .NET. Si sigue estos pasos, podrá asegurarse de que sus documentos cumplan con los estándares de cumplimiento más estrictos, lo que los hará adecuados para su archivado y distribución a largo plazo.
+En este tutorial, ha aprendido cómo lograr la compatibilidad con PDF convirtiendo presentaciones de PowerPoint a formato PDF/A utilizando Aspose.Slides para .NET. Si sigue estos pasos, podrá asegurarse de que sus documentos cumplan con los estándares de cumplimiento más estrictos, lo que los hará aptos para su archivado y distribución a largo plazo.
 
  No dude en explorar más posibilidades y opciones de personalización que ofrece Aspose.Slides para mejorar su flujo de trabajo de gestión de documentos. Para obtener más información, puede consultar el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
 

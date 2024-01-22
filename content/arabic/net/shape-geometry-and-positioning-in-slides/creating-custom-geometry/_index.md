@@ -1,114 +1,96 @@
 ---
-title: إنشاء هندسة مخصصة في شكل هندسي باستخدام Aspose.Slides
+title: إنشاء هندسة مخصصة في C# باستخدام Aspose.Slides لـ .NET
 linktitle: إنشاء هندسة مخصصة في شكل هندسي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إنشاء عروض تقديمية جذابة باستخدام هندسة مخصصة باستخدام Aspose.Slides لـ .NET. ارفع الشرائح الخاصة بك إلى المستوى التالي!
+description: تعلم كيفية إنشاء أشكال هندسية مخصصة في Aspose.Slides لـ .NET. ارفع مستوى عروضك التقديمية بأشكال فريدة. دليل خطوة بخطوة لمطوري C#.
 type: docs
 weight: 15
 url: /ar/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
 ## مقدمة
-
-في عالم العروض التقديمية، يعد الجاذبية المرئية أمرًا بالغ الأهمية. كل بكسل وكل شكل مهم عندما يتعلق الأمر بنقل رسالتك بفعالية. يمكّنك Aspose.Slides for .NET من الاستفادة من الإمكانات الكاملة للهندسة المخصصة، مما يتيح لك صياغة عروض تقديمية جذابة تترك تأثيرًا دائمًا. في هذا الدليل الشامل، سنتعمق في فن إنشاء أشكال هندسية مخصصة في الأشكال الهندسية باستخدام Aspose.Slides، وسنقدم إرشادات خطوة بخطوة، وأمثلة عملية، ونجيب على الأسئلة الشائعة على طول الطريق.
-
-## إنشاء هندسة مخصصة في الشكل الهندسي
-
-تتيح لك الهندسة المخصصة تجاوز حدود الأشكال القياسية، مما يمنحك الحرية في تصميم عناصر معقدة وفريدة من نوعها لعروضك التقديمية. من خلال دمج Aspose.Slides في سير العمل الخاص بك، يمكنك تنفيذ هندسة مخصصة في الأشكال الهندسية بسلاسة. دعونا نشرع في هذه الرحلة من الإبداع والابتكار.
-
-## العملية بالتفصيل
-
-1. ### إعداد بيئة التطوير الخاصة بك
-
-    قبل أن نتعمق في تعقيدات إنشاء أشكال هندسية مخصصة، تأكد من تثبيت Aspose.Slides for .NET في بيئة التطوير لديك. يمكنك تنزيل الإصدار الأخير من[هنا](https://releases.aspose.com/slides/net/).
-
-2. ### تهيئة العرض التقديمي
-
-   ابدأ بتهيئة عرض تقديمي جديد باستخدام Aspose.Slides API. سيكون هذا بمثابة اللوحة القماشية التي ستنشئ عليها الهندسة المخصصة الخاصة بك.
-
-   ```csharp
-   using Aspose.Slides;
-   
-   Presentation presentation = new Presentation();
-   ```
-
-3. ### إنشاء شريحة
-
-   بعد ذلك، أضف شريحة جديدة إلى العرض التقديمي حيث تنوي دمج الهندسة المخصصة.
-
-   ```csharp
-   ISlide slide = presentation.Slides.AddEmptySlide();
-   ```
-
-4. ### تعريف الهندسة المخصصة
-
-    لإنشاء هندسة مخصصة، ستحتاج إلى العمل مع`IGeometryShape`واجهه المستخدم. توفر هذه الواجهة المرونة اللازمة لتحديد الأشكال المعقدة باستخدام المسارات والنقاط.
-
-   ```csharp
-   IGeometryShape customShape = slide.Shapes.AddGeometryShape(ShapeType.Custom);
-   customShape.GeometryPath = new GeometryPath(new[] { new PointF(0, 0), new PointF(50, 0), new PointF(25, 50) });
-   ```
-
-5. ### تطبيق الأنماط
-
-   قم بتحسين المظهر المرئي للهندسة المخصصة الخاصة بك عن طريق تطبيق أنماط مختلفة، مثل لون التعبئة ولون الخط وتأثيرات الظل.
-
-   ```csharp
-   customShape.FillFormat.SolidFillColor.Color = Color.Blue;
-   customShape.LineFormat.FillFormat.SolidFillColor.Color = Color.White;
-   customShape.EffectFormat.EnableShadowEffect(Color.Gray, 3, 3);
-   ```
-
-6. ### إضافة إلى الشريحة
-
-   وأخيرًا، أضف الشكل الهندسي المخصص إلى الشريحة.
-
-   ```csharp
-   slide.Shapes.AddShape(customShape);
-   ```
-
-7. ### حفظ العرض التقديمي
-
-   بمجرد أن تصبح راضيًا عن إنشائك، احفظ العرض التقديمي بالتنسيق المطلوب.
-
-   ```csharp
-   presentation.Save("output.pptx", SaveFormat.Pptx);
-   ```
-
-## الأسئلة الشائعة
-
-### كيف يمكنني تثبيت Aspose.Slides لـ .NET؟
-
-لتثبيت Aspose.Slides لـ .NET، اتبع الخطوات التالية:
-
-1.  تفضل بزيارة الوثائق المرجعية لواجهة برمجة التطبيقات على[https://reference.aspose.com/slides/net/](https://reference.aspose.com/slides/net/).
-2.  تحميل الاصدار الاخير من[https://releases.aspose.com/slides/net/](https://releases.aspose.com/slides/net/).
-3. اتبع تعليمات التثبيت المتوفرة في الوثائق.
-
-### هل يمكنني إنشاء أشكال هندسية مخصصة في الشرائح الموجودة؟
-
-قطعاً! يمكنك دمج أشكال هندسية مخصصة في الشرائح الموجودة باتباع الخطوات التالية:
-
-1.  قم باسترجاع الشريحة التي تريد التعديل باستخدامها`presentation.Slides[index]`.
-2. اتبع العملية المذكورة سابقًا لتحديد الشكل الهندسي المخصص وإضافته إلى الشريحة.
-3. احفظ العرض التقديمي المعدل.
-
-### هل هناك أي قيود على الهندسة المخصصة؟
-
-في حين أن الهندسة المخصصة توفر حرية إبداعية هائلة، ضع في اعتبارك أن الأشكال المعقدة للغاية قد تؤثر على الأداء والتوافق. يوصى باختبار عروضك التقديمية عبر أجهزة وبرامج مختلفة لضمان العرض الأمثل.
-
-### هل يمكنني تحريك الأشكال الهندسية المخصصة؟
-
-نعم، يتيح لك Aspose.Slides تطبيق الرسوم المتحركة على الأشكال الهندسية المخصصة. يمكنك استخدام خاصية AnimationSettings لواجهة IGeometryShape لتحديد الرسوم المتحركة والانتقالات.
-
-### هل Aspose.Slides مناسب لكل من المطورين المبتدئين وذوي الخبرة؟
-
-قطعاً! يوفر Aspose.Slides واجهة برمجة تطبيقات سهلة الاستخدام يمكن للمبتدئين الوصول إليها مع تقديم ميزات متقدمة للمطورين ذوي الخبرة. تسهل الوثائق ودعم المجتمع البدء والتفوق في إنشاء عروض تقديمية ديناميكية.
-
-### هل هناك أي اعتبارات تتعلق بالأداء عند العمل باستخدام الأشكال الهندسية المخصصة؟
-
-عند العمل باستخدام أشكال هندسية مخصصة، خاصة في العروض التقديمية المعقدة، ضع في اعتبارك تأثير الأداء. قم بتحسين التعليمات البرمجية الخاصة بك واختبر العروض التقديمية الخاصة بك لضمان العرض والتفاعل السلس.
-
+في عالم العروض التقديمية الديناميكي، يمكن أن تؤدي إضافة أشكال وأشكال هندسية فريدة إلى رفع مستوى المحتوى الخاص بك، مما يجعله أكثر جاذبية وجاذبية بصريًا. يوفر Aspose.Slides for .NET حلاً قويًا لإنشاء أشكال هندسية مخصصة داخل الأشكال، مما يسمح لك بالتحرر من التصميمات التقليدية. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء أشكال هندسية مخصصة في GeometryShape باستخدام Aspose.Slides لـ .NET.
+## المتطلبات الأساسية
+قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+- الفهم الأساسي للغة البرمجة C#.
+- Aspose.Slides لمكتبة .NET المثبتة في بيئة التطوير الخاصة بك.
+- إعداد Visual Studio أو أي بيئة تطوير مفضلة لـ C#.
+## استيراد مساحات الأسماء
+للبدء، قم باستيراد مساحات الأسماء الضرورية إلى مشروع C# الخاص بك:
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Drawing;
+using System.IO;
+using Aspose.Slides.Export;
+```
+## الخطوة 1: قم بإعداد مشروعك
+قم بإنشاء مشروع C# جديد في بيئة التطوير المفضلة لديك. تأكد من تثبيت Aspose.Slides for .NET بشكل صحيح.
+## الخطوة 2: تحديد دليل المستندات الخاص بك
+```csharp
+string dataDir = "Your Document Directory";
+bool isExists = Directory.Exists(dataDir);
+if (!isExists)
+    Directory.CreateDirectory(dataDir);
+```
+## الخطوة 3: تعيين نصف قطر النجم الخارجي والداخلي
+```csharp
+float R = 100, r = 50; // نصف قطر النجم الخارجي والداخلي
+```
+## الخطوة 4: إنشاء مسار هندسة النجوم
+```csharp
+GeometryPath starPath = CreateStarGeometry(R, r);
+```
+## الخطوة 5: إنشاء عرض تقديمي
+```csharp
+using (Presentation pres = new Presentation())
+{
+    // إنشاء شكل جديد
+    GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, R * 2, R * 2);
+    // قم بتعيين مسار هندسي جديد للشكل
+    shape.SetGeometryPath(starPath);
+    // احفظ العرض التقديمي
+    string resultPath = Path.Combine(dataDir, "GeometryShapeCreatesCustomGeometry.pptx");
+    pres.Save(resultPath, SaveFormat.Pptx);
+}
+```
+## الخطوة 6: تحديد طريقة CreateStarGeometry
+```csharp
+private static GeometryPath CreateStarGeometry(float outerRadius, float innerRadius)
+{
+    GeometryPath starPath = new GeometryPath();
+    List<PointF> points = new List<PointF>();
+    int step = 72;
+    for (int angle = -90; angle < 270; angle += step)
+    {
+        double radians = angle * (Math.PI / 180f);
+        double x = outerRadius * Math.Cos(radians);
+        double y = outerRadius * Math.Sin(radians);
+        points.Add(new PointF((float)x + outerRadius, (float)y + outerRadius));
+        radians = Math.PI * (angle + step / 2) / 180.0;
+        x = innerRadius * Math.Cos(radians);
+        y = innerRadius * Math.Sin(radians);
+        points.Add(new PointF((float)x + outerRadius, (float)y + outerRadius));
+    }
+    starPath.MoveTo(points[0]);
+    for (int i = 1; i < points.Count; i++)
+    {
+        starPath.LineTo(points[i]);
+    }
+    starPath.CloseFigure();
+    return starPath;
+}
+```
 ## خاتمة
-
-يعد إنشاء أشكال هندسية مخصصة في أشكال هندسية باستخدام Aspose.Slides بمثابة تغيير جذري في عالم العروض التقديمية. بفضل القدرة على تصميم أشكال معقدة، ستتميز عروضك التقديمية وتأسر جمهورك. باتباع الدليل التفصيلي المقدم في هذه المقالة، يمكنك دمج الأشكال الهندسية المخصصة في عروضك التقديمية بسلاسة، مما يرفع مستوى سرد القصص المرئية إلى آفاق جديدة. احتضن الابتكار، وعبّر عن الإبداع، واترك انطباعًا دائمًا باستخدام Aspose.Slides for .NET.
+تهانينا! لقد تعلمت بنجاح كيفية إنشاء أشكال هندسية مخصصة في GeometryShape باستخدام Aspose.Slides لـ .NET. وهذا يفتح عالمًا من الإمكانيات لإنشاء عروض تقديمية فريدة ومذهلة بصريًا.
+## الأسئلة الشائعة
+### 1. هل يمكنني استخدام Aspose.Slides لـ .NET مع لغات البرمجة الأخرى؟
+نعم، يدعم Aspose.Slides لغات البرمجة المختلفة، لكن هذا البرنامج التعليمي يركز على لغة C#.
+### 2. أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ .NET؟
+ قم بزيارة[توثيق](https://reference.aspose.com/slides/net/) للحصول على معلومات مفصلة.
+### 3. هل تتوفر نسخة تجريبية مجانية من Aspose.Slides لـ .NET؟
+ نعم، يمكنك استكشاف أ[تجربة مجانية](https://releases.aspose.com/) لتجربة الميزات.
+### 4. كيف يمكنني الحصول على دعم Aspose.Slides لـ .NET؟
+ اطلب المساعدة وتفاعل مع المجتمع في[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### 5. أين يمكنني شراء Aspose.Slides لـ .NET؟
+ يمكنك شراء Aspose.Slides لـ .NET[هنا](https://purchase.aspose.com/buy).

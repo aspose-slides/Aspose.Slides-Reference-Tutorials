@@ -103,7 +103,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
-// Ta den andra diagramserien
+// Ta andra diagramserien
 series = chart.getChartData().getSeries().get_Item(1);
 
 // Fyller på seriedata
@@ -193,7 +193,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 // Ställa in fyllningsfärg för serier
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Ta den andra diagramserien
+// Ta andra diagramserien
 series = chart.getChartData().getSeries().get_Item(1);
 // Fyller nu på seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));

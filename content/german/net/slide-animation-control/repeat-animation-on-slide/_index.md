@@ -1,89 +1,68 @@
 ---
-title: Wiederholen Sie die Animation auf der Folie
+title: Beherrschen von PowerPoint-Animationen mit Aspose.Slides .NET
 linktitle: Wiederholen Sie die Animation auf der Folie
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie Animationen auf einer Folie mit Aspose.Slides für .NET wiederholen. Diese Schritt-für-Schritt-Anleitung bietet Quellcode und klare Anweisungen zum programmgesteuerten Hinzufügen faszinierender Animationen zu PowerPoint-Präsentationen.
+description: Verbessern Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET. Steuern Sie Animationen mühelos, fesseln Sie Ihr Publikum und hinterlassen Sie einen bleibenden Eindruck.
 type: docs
 weight: 12
 url: /de/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-## Einführung in Aspose.Slides für .NET
-
-Aspose.Slides für .NET ist eine robuste Bibliothek, die es Entwicklern ermöglicht, PowerPoint-Präsentationen mithilfe des .NET-Frameworks zu erstellen, zu bearbeiten und zu konvertieren. Es bietet eine breite Palette von Funktionen zum Arbeiten mit Folien, Formen, Text, Bildern, Animationen und mehr.
-
-## Einrichten Ihrer Entwicklungsumgebung
-
-Bevor wir beginnen, müssen Sie Ihre Entwicklungsumgebung einrichten. Folge diesen Schritten:
-
-1. Laden Sie Visual Studio herunter und installieren Sie es[Visual Studio-Downloads](https://visualstudio.microsoft.com/downloads/).
-2. Erstellen Sie in Visual Studio ein neues .NET-Projekt (z. B. Konsolenanwendung).
-
-## Laden einer PowerPoint-Präsentation
-
-Um zu beginnen, benötigen Sie eine PowerPoint-Präsentation, mit der Sie arbeiten können. Stellen Sie sicher, dass Sie eine PowerPoint-Datei bereit haben.
-
+## Einführung
+In der dynamischen Welt der Präsentationen spielt die Fähigkeit, Animationen zu steuern, eine entscheidende Rolle, um die Aufmerksamkeit des Publikums zu fesseln und zu fesseln. Mit Aspose.Slides für .NET können Entwickler die Animationstypen innerhalb von Folien selbst steuern und so eine interaktivere und optisch ansprechendere Präsentation ermöglichen. In diesem Tutorial erfahren Sie Schritt für Schritt, wie Sie Animationstypen auf einer Folie mit Aspose.Slides für .NET steuern.
+## Voraussetzungen
+Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+1.  Aspose.Slides für .NET-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von[Hier](https://releases.aspose.com/slides/net/).
+2. .NET-Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung auf Ihrem Computer ein.
+## Namespaces importieren
+Beginnen Sie in Ihrem .NET-Projekt mit dem Importieren der erforderlichen Namespaces, um die von Aspose.Slides bereitgestellten Funktionen zu nutzen:
 ```csharp
-using Aspose.Slides;
-
-// Laden Sie die PowerPoint-Präsentation
-using var presentation = new Presentation("presentation.pptx");
+using Aspose.Slides.Animation;
+using Aspose.Slides.SlideShow;
+using Aspose.Slides.Export;
 ```
-
-## Auf Animationen zugreifen und diese ändern
-
-Nachdem wir nun unsere Präsentation geladen haben, können wir auf die Animationen einer bestimmten Folie zugreifen und diese ändern. Nehmen wir für dieses Beispiel an, dass wir die Animationen auf Folie Nummer 2 wiederholen möchten.
-
+## Schritt 1: Richten Sie das Projekt ein
+Erstellen Sie ein neues Verzeichnis für Ihr Projekt und instanziieren Sie die Präsentationsklasse, um die Präsentationsdatei darzustellen.
 ```csharp
-// Zugriff auf die Folie nach Index (0-basiert)
-var slideIndex = 1;
-var slide = presentation.Slides[slideIndex];
-
-// Greifen Sie auf die Animationen der Folie zu
-var animations = slide.Timeline.MainSequence;
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation(dataDir + "AnimationOnSlide.pptx"))
+{
+    // Ihr Code kommt hierher
+}
 ```
-
-## Wiederholte Animationen auf einer Folie
-
-Um Animationen zu wiederholen, klonen wir die Animationen und fügen sie der Folie erneut hinzu. Dadurch entsteht ein Schleifeneffekt. So können Sie dies erreichen:
-
+## Schritt 2: Zugriff auf die Effektsequenz
+Rufen Sie die Effektsequenz für die erste Folie mithilfe der MainSequence-Eigenschaft ab.
 ```csharp
-// Klonen Sie Animationen und fügen Sie sie erneut hinzu
-var clonedAnimations = animations.CloneSequence();
-animations.AddSequence(clonedAnimations);
+ISequence effectsSequence = pres.Slides[0].Timeline.MainSequence;
 ```
-
-## Testen und Exportieren der geänderten Präsentation
-
-Nachdem Sie die Animationen geändert haben, ist es an der Zeit, die Präsentation zu testen und zu exportieren. Sie können es in verschiedene Formate wie PPTX, PDF oder Bilder exportieren.
-
+## Schritt 3: Greifen Sie auf den ersten Effekt zu
+Erhalten Sie den ersten Effekt der Hauptsequenz, um ihre Eigenschaften zu manipulieren.
 ```csharp
-// Speichern Sie die geänderte Präsentation
-presentation.Save("modified_presentation.pptx", SaveFormat.Pptx);
+IEffect effect = effectsSequence[0];
 ```
-
+## Schritt 4: Ändern Sie die Wiederholungseinstellungen
+Ändern Sie die Eigenschaft „Timing/Repeat“ des Effekts in „Bis zum Ende der Folie“.
+```csharp
+effect.Timing.RepeatUntilEndSlide = true;
+```
+## Schritt 5: Speichern Sie die Präsentation
+Speichern Sie die geänderte Präsentation, um die Änderungen zu visualisieren.
+```csharp
+pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+```
+Wiederholen Sie diese Schritte für weitere Effekte oder passen Sie sie entsprechend Ihren Präsentationsanforderungen an.
 ## Abschluss
-
-In dieser Anleitung haben wir untersucht, wie Sie Animationen auf einer Folie mit Aspose.Slides für .NET wiederholen. Wir begannen mit der Einführung der Bibliothek und dem Einrichten der Entwicklungsumgebung. Dann haben wir eine PowerPoint-Präsentation geladen, auf Animationen zugegriffen und diese geändert und schließlich die Funktion zur Wiederholung von Animationen implementiert. Aspose.Slides für .NET ermöglicht Entwicklern die programmatische Erstellung dynamischer und ansprechender Präsentationen.
-
-## FAQs
-
-### Wie kann ich Aspose.Slides für .NET herunterladen?
-
- Sie können Aspose.Slides für .NET von der Release-Seite herunterladen:[Laden Sie Aspose.Slides für .NET herunter](https://releases.aspose.com/slides/net/)
-
-### Kann ich bestimmte Animationen anstelle aller Animationen auf einer Folie wiederholen?
-
- Ja, Sie können bestimmte Animationen selektiv wiederholen, indem Sie sie mithilfe ihres Index innerhalb des Ziels ansprechen`MainSequence`.
-
-### Ist Aspose.Slides für .NET mit verschiedenen PowerPoint-Formaten kompatibel?
-
-Ja, Aspose.Slides für .NET unterstützt verschiedene PowerPoint-Formate, einschließlich PPT, PPTX und mehr.
-
-### Kann ich mit Aspose.Slides für .NET benutzerdefinierte Animationen erstellen?
-
-Absolut! Aspose.Slides für .NET bietet umfassende APIs zum Erstellen und Anpassen von Animationen entsprechend Ihren Anforderungen.
-
-### Gibt es eine Testversion für Aspose.Slides für .NET?
-
-Ja, Sie können Aspose.Slides für .NET ausprobieren, indem Sie die kostenlose Testversion von der Website herunterladen.
+Mit Aspose.Slides für .NET war es noch nie so einfach, dynamische Animationen in Ihre PowerPoint-Präsentationen zu integrieren. Diese Schritt-für-Schritt-Anleitung vermittelt Ihnen das Wissen zur Steuerung von Animationstypen und stellt sicher, dass Ihre Folien einen bleibenden Eindruck bei Ihrem Publikum hinterlassen.
+## Häufig gestellte Fragen
+### Kann ich diese Animationen auf bestimmte Objekte innerhalb einer Folie anwenden?
+Ja, Sie können bestimmte Objekte anvisieren, indem Sie auf deren individuelle Effekte innerhalb der Sequenz zugreifen.
+### Ist Aspose.Slides mit den neuesten PowerPoint-Versionen kompatibel?
+Aspose.Slides bietet Unterstützung für eine Vielzahl von PowerPoint-Versionen und gewährleistet so die Kompatibilität mit alten und neuen Versionen.
+### Wo finde ich zusätzliche Beispiele und Ressourcen?
+ Entdecke die[Dokumentation](https://reference.aspose.com/slides/net/) Ausführliche Beispiele und ausführliche Erklärungen finden Sie hier.
+### Wie kann ich eine temporäre Lizenz für Aspose.Slides erhalten?
+ Besuchen[Hier](https://purchase.aspose.com/temporary-license/) Informationen zum Erhalt einer befristeten Lizenz.
+### Benötigen Sie Hilfe oder haben Sie weitere Fragen?
+ Engagieren Sie sich mit der Aspose.Slides-Community auf der[Hilfeforum](https://forum.aspose.com/c/slides/11).

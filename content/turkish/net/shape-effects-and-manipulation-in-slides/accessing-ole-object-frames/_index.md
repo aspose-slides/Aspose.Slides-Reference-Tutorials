@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 Bir OLE nesne çerçevesi tanımladıktan sonra, verilerini işlemek üzere çıkarabilirsiniz. Örneğin, OLE nesnesi katıştırılmış bir Excel elektronik tablosuysa, verilerine şu şekilde erişebilirsiniz:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // Ham verileri gerektiği gibi işleyin
-}
+
 ```
 
 ### 5. OLE Nesne Çerçevelerini Değiştirme
@@ -64,25 +62,23 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Aspose.Slides, OLE nesne çerçevelerini programlı olarak değiştirmenize olanak sağlar. Katıştırılmış bir Word belgesinin içeriğini güncellemek istediğinizi varsayalım. Bunu nasıl başarabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // Gömülü verileri değiştirin
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## SSS
 
 ### OLE nesne çerçevesinin türünü nasıl belirlerim?
 
- Bir OLE nesne çerçevesinin türünü belirlemek için şunları kullanabilirsiniz:`OleObjectType` dahilinde mevcut olan mülkler`OleObjectFrame` sınıf.
+ Bir OLE nesne çerçevesinin türünü belirlemek için şunları kullanabilirsiniz:`OleObjectType`dahilinde mevcut olan mülkler`OleObjectFrame` sınıf.
 
 ### OLE nesnelerini ayrı dosyalar olarak çıkarabilir miyim?
 
  Evet, OLE nesnelerini sunumdan çıkarabilir ve bunları ayrı dosyalar olarak kaydedebilirsiniz.`OleObjectFrame.ExtractData` yöntem.
 
-### Aspose.Slides'ı kullanarak yeni OLE nesneleri eklemek mümkün mü?
+### Aspose.Slides'ı kullanarak yeni OLE nesneleri eklemek mümkün müdür?
 
  Kesinlikle. Yeni OLE nesne çerçeveleri oluşturabilir ve bunları sununuza ekleyebilirsiniz.`Shapes.AddOleObjectFrame` yöntem.
 

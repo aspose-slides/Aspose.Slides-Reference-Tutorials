@@ -1,95 +1,83 @@
 ---
-title: Application d'animations à des formes dans des diapositives de présentation avec Aspose.Slides
+title: Animations de formes simplifiées avec Aspose.Slides
 linktitle: Application d'animations à des formes dans des diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment appliquer des animations attrayantes aux formes de présentation à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source pour créer des diapositives dynamiques. Améliorez vos présentations maintenant !
+description: Créez de superbes présentations avec Aspose.Slides pour .NET. Découvrez comment appliquer des animations aux formes dans ce guide étape par étape. Élevez vos diapositives maintenant !
 type: docs
 weight: 21
 url: /fr/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
-
-Les animations peuvent améliorer considérablement l’attrait visuel et l’engagement de vos diapositives de présentation. Aspose.Slides, une API puissante pour travailler avec des fichiers de présentation dans .NET, offre un moyen transparent d'appliquer des animations aux formes de vos diapositives. Ce guide étape par étape vous guidera tout au long du processus d'ajout d'animations aux formes à l'aide d'Aspose.Slides pour .NET.
-
-## Introduction à l'API Aspose.Slides
-
-Aspose.Slides est une bibliothèque .NET complète qui permet aux développeurs de créer, modifier et manipuler des présentations PowerPoint par programme. Il offre un large éventail de fonctionnalités, notamment la possibilité d'ajouter des animations aux éléments de présentation tels que des formes, des images et du texte.
-
-## Ajout de formes aux diapositives
-
-Avant d'appliquer des animations, vous devez avoir des formes sur vos diapositives. Vous pouvez utiliser Aspose.Slides pour ajouter des formes telles que des rectangles, des cercles et des flèches à vos diapositives par programme.
-
-## Comprendre les effets d'animation
-
-Les animations dans les présentations peuvent inclure des effets tels que l'entrée, la sortie, l'accentuation et les trajectoires de mouvement. Les effets d'entrée introduisent une forme sur la diapositive, les effets de sortie font disparaître une forme, les effets d'accentuation mettent en évidence ou attirent l'attention sur une forme et les trajectoires de mouvement définissent le mouvement d'une forme sur la diapositive.
-
-## Application d'animations à des formes
-
-Pour appliquer des animations à des formes à l'aide d'Aspose.Slides, procédez comme suit :
-
-1. Chargez le fichier de présentation à l'aide d'Aspose.Slides.
-2. Accédez à la diapositive contenant la forme que vous souhaitez animer.
-3. Créez un effet d'animation et spécifiez le type d'animation (par exemple, entrée, sortie).
-4. Associez l'effet d'animation à la forme souhaitée.
-5. Répétez le processus pour d’autres formes et effets.
-
-Voici un exemple d'ajout d'une animation d'entrée simple à une forme :
-
+## Introduction
+Dans le monde des présentations dynamiques, l'ajout d'animations aux formes peut améliorer considérablement l'attrait visuel et l'engagement de vos diapositives. Aspose.Slides pour .NET fournit une boîte à outils puissante pour y parvenir de manière transparente. Dans ce didacticiel, nous vous guiderons tout au long du processus d'application d'animations aux formes à l'aide d'Aspose.Slides, vous permettant de créer des présentations captivantes qui laissent une impression durable.
+## Conditions préalables
+Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants en place :
+1.  Aspose.Slides pour .NET : assurez-vous que la bibliothèque est installée et prête à être utilisée. Vous pouvez le télécharger[ici](https://releases.aspose.com/slides/net/).
+2. Environnement de développement : configurez votre environnement de développement préféré avec les configurations nécessaires.
+3. Répertoire de documents : créez un répertoire pour stocker vos fichiers de présentation.
+## Importer des espaces de noms
+Dans votre application .NET, commencez par importer les espaces de noms requis :
 ```csharp
-// Charger la présentation
-Presentation presentation = new Presentation("your-presentation.pptx");
-
-// Accéder à la diapositive
-ISlide slide = presentation.Slides[0];
-
-// Créer un effet d'animation d'entrée
-EffectEntrance entranceEffect = new EffectEntrance(AnimationPreset.Fade);
-
-// Obtenez la forme à animer
-IShape shape = slide.Shapes[0];
-
-// Appliquer l'effet d'animation à la forme
-shape.AddAnimation(entranceEffect);
-
-// Enregistrez la présentation modifiée
-presentation.Save("animated-presentation.pptx", SaveFormat.Pptx);
+using System.IO;
+using Aspose.Slides;
+using Aspose.Slides.Export;
+using Aspose.Slides.Animation;
+using System.Drawing;
 ```
-
-## Configuration des propriétés d'animation
-
-Aspose.Slides vous permet de personnaliser diverses propriétés d'animation, telles que la durée, le délai et le déclencheur. Vous pouvez contrôler la vitesse de lecture d'une animation et le moment où elle démarre en fonction de déclencheurs tels que "Au clic" ou "Avec précédent".
-
-## Aperçu des animations
-
-Avant de finaliser votre présentation, il est conseillé de prévisualiser les animations pour vous assurer qu'elles apparaissent comme prévu. Vous pouvez le faire en lisant la présentation en mode diaporama dans PowerPoint ou en utilisant Aspose.Slides pour déclencher par programme des animations lors de leur révision.
-
-## Exportation de présentations animées
-
-Une fois que vous êtes satisfait de votre présentation animée, vous pouvez l'exporter vers différents formats, tels que PDF, images ou vidéo. Aspose.Slides prend en charge ces options d'exportation, vous permettant de partager vos présentations dynamiques avec un public plus large.
-
+## Étape 1 : Créer une présentation
+ Commencez par créer une nouvelle présentation en utilisant le`Presentation` classe:
+```csharp
+string dataDir = "Your Document Directory";
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+using (Presentation pres = new Presentation())
+{
+    //Votre code pour créer une présentation va ici.
+}
+```
+## Étape 2 : Ajouter une forme animée
+Ajoutons maintenant une forme animée à la première diapositive de votre présentation :
+```csharp
+ISlide sld = pres.Slides[0];
+IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 150, 250, 25);
+ashp.AddTextFrame("Animated TextBox");
+```
+## Étape 3 : appliquer un effet d'animation
+Ajoutez l'effet d'animation « PathFootball » à la forme créée :
+```csharp
+pres.Slides[0].Timeline.MainSequence.AddEffect(ashp, EffectType.PathFootball, EffectSubtype.None, EffectTriggerType.AfterPrevious);
+```
+## Étape 4 : Créer un bouton de déclenchement
+Créez un bouton qui déclenchera l'animation :
+```csharp
+IShape shapeTrigger = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Bevel, 10, 10, 20, 20);
+```
+## Étape 5 : Définir un chemin utilisateur personnalisé
+Définissez un chemin utilisateur personnalisé pour l'animation :
+```csharp
+ISequence seqInter = pres.Slides[0].Timeline.InteractiveSequences.Add(shapeTrigger);
+IEffect fxUserPath = seqInter.AddEffect(ashp, EffectType.PathUser, EffectSubtype.None, EffectTriggerType.OnClick);
+IMotionEffect motionBhv = ((IMotionEffect)fxUserPath.Behaviors[0]);
+PointF[] pts = new PointF[1];
+pts[0] = new PointF(0.076f, 0.59f);
+motionBhv.Path.Add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, true);
+pts[0] = new PointF(-0.076f, -0.59f);
+motionBhv.Path.Add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, false);
+motionBhv.Path.Add(MotionCommandPathType.End, null, MotionPathPointsType.Auto, false);
+// Enregistrez la présentation au format PPTX sur le disque
+pres.Save(dataDir + "AnimExample_out.pptx", SaveFormat.Pptx);
+```
+Ceci termine le guide étape par étape pour appliquer des animations aux formes à l’aide d’Aspose.Slides pour .NET.
 ## Conclusion
-
-L'ajout d'animations aux formes dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET est un processus simple qui vous permet de créer des présentations visuellement attrayantes et engageantes. En suivant les étapes décrites dans ce guide, vous pouvez améliorer vos présentations avec des animations dynamiques qui captent l'attention de votre public.
-
-## FAQ
-
-### Comment puis-je télécharger et installer Aspose.Slides pour .NET ?
-
-Vous pouvez télécharger la bibliothèque Aspose.Slides depuis le site Web et suivre les instructions d'installation fournies dans la documentation.
-
+L'intégration d'animations dans vos présentations ajoute un élément dynamique qui capte l'attention de votre public. Avec Aspose.Slides, vous disposez d'un outil robuste pour intégrer de manière transparente ces effets et élever vos présentations au niveau supérieur.
+## Questions fréquemment posées
 ### Puis-je appliquer plusieurs animations à une seule forme ?
-
-Oui, vous pouvez appliquer plusieurs effets d'animation à une seule forme, créant ainsi des animations complexes et captivantes.
-
-### Est-il possible de contrôler la vitesse des animations ?
-
-Absolument. Aspose.Slides vous permet d'ajuster la durée des animations, en contrôlant leur vitesse de lecture.
-
-### Puis-je exporter ma présentation animée sous forme de fichier vidéo ?
-
-Oui, Aspose.Slides vous permet d'exporter votre présentation animée sous forme de vidéo dans des formats comme MP4, garantissant la compatibilité avec diverses plateformes.
-
-### Aspose.Slides prend-il en charge les déclencheurs d'animation ?
-
-Oui, vous pouvez définir des déclencheurs d'animation, tels que « Au clic » ou « Après le précédent », pour déterminer le moment où les animations démarrent pendant le diaporama.
-
-L'ajout d'animations aux formes de présentation avec Aspose.Slides améliore vos diapositives et engage efficacement votre public. Utilisez ce guide pour maîtriser l'art d'appliquer des animations à vos présentations et créer un contenu percutant.
+Oui, Aspose.Slides vous permet d'ajouter plusieurs effets d'animation à une seule forme, offrant ainsi une flexibilité dans la création d'animations complexes.
+### Aspose.Slides est-il compatible avec différentes versions de PowerPoint ?
+Aspose.Slides garantit la compatibilité avec différentes versions de PowerPoint, garantissant ainsi que vos présentations fonctionnent de manière transparente sur différentes plates-formes.
+### Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Slides ?
+ Explore le[Documentation](https://reference.aspose.com/slides/net/) et demander de l'aide dans le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+### Ai-je besoin d’une licence pour qu’Aspose.Slides puisse utiliser la bibliothèque ?
+ Oui, vous pouvez acquérir une licence[ici](https://purchase.aspose.com/buy) pour libérer tout le potentiel d’Aspose.Slides.
+### Puis-je essayer Aspose.Slides avant d’acheter ?
+ Certainement! Utiliser le[essai gratuit](https://releases.aspose.com/) pour découvrir les capacités d’Aspose.Slides avant de vous engager.

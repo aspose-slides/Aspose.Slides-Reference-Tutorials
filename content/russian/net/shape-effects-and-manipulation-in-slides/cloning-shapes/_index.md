@@ -50,7 +50,7 @@ IShape sourceShape = presentation.Slides[0].Shapes[0];
 
 ### Шаг 4: клонируйте фигуру
 
- Теперь используйте`CloneShape`метод для создания дубликата исходной фигуры. Вы можете указать целевой слайд и положение клонированной фигуры.
+ Теперь используйте`CloneShape` метод для создания дубликата исходной фигуры. Вы можете указать целевой слайд и положение клонированной фигуры.
 
 ```csharp
 IShape clonedShape = presentation.Slides[1].Shapes.AddClone(sourceShape, x, y, width, height);

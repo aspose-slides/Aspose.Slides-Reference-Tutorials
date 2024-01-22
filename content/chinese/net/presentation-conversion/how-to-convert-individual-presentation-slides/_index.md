@@ -74,7 +74,7 @@ for (int i = 0; i < presentation.Slides.Count; i++)
 presentation.Save(dataDir + "Individual Slide" + (i + 1) + "_out.html", new[] { i + 1 }, SaveFormat.Html, htmlOptions);
 ```
 
-此处，代码将每张幻灯片保存为 HTML 文件，并具有基于幻灯片编号的唯一名称。
+此处，代码将每张幻灯片保存为 HTML 文件，并根据幻灯片编号使用唯一的名称。
 
 ## 第 5 步：自定义格式（可选）
 如果您希望将自定义格式应用于 HTML 输出，您可以使用`CustomFormattingController`班级。此部分允许您控制单个幻灯片的格式。

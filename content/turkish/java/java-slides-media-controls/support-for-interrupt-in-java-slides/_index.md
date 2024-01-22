@@ -9,7 +9,7 @@ url: /tr/java/media-controls/support-for-interrupt-in-java-slides/
 ---
 # Aspose.Slides for Java ile Java Slaytlarında Kesinti Desteğine Giriş
 
-Aspose.Slides for Java, Java uygulamalarında PowerPoint sunumları oluşturmak, düzenlemek ve çalışmak için güçlü bir kütüphanedir. Bu kapsamlı kılavuzda Aspose.Slides for Java kullanarak Java Slides'da kesme desteğinin nasıl kullanılacağını inceleyeceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu adım adım eğitim, ayrıntılı açıklamalar ve kod örnekleriyle süreç boyunca size yol gösterecektir.
+Aspose.Slides for Java, Java uygulamalarında PowerPoint sunumları oluşturmak, düzenlemek ve çalışmak için güçlü bir kütüphanedir. Bu kapsamlı kılavuzda Aspose.Slides for Java kullanarak Java Slides'da kesme desteğinin nasıl kullanılacağını inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım eğitim, ayrıntılı açıklamalar ve kod örnekleriyle süreç boyunca size yol gösterecektir.
 
 ## Önkoşullar
 

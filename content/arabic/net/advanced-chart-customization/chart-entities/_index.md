@@ -2,7 +2,7 @@
 title: إنشاء مخططات جميلة باستخدام Aspose.Slides لـ .NET
 linktitle: كيانات المخطط وتنسيقه
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إنشاء مخططات مذهلة باستخدام Aspose.Slides لـ .NET. ارفع مستوى لعبة تصور البيانات الخاصة بك من خلال دليلنا خطوة بخطوة.
+description: تعرف على كيفية إنشاء مخططات مذهلة باستخدام Aspose.Slides لـ .NET. ارفع مستوى لعبة تصور البيانات الخاصة بك من خلال دليلنا المفصّل خطوة بخطوة.
 type: docs
 weight: 13
 url: /ar/net/advanced-chart-customization/chart-entities/

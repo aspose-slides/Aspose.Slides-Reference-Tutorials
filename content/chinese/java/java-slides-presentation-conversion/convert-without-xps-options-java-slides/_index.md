@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Convert_XPS.pptx");
 ```
 
-确保更换`"Convert_XPS.pptx"`与您的 PowerPoint 文件的实际名称。
+确保您更换`"Convert_XPS.pptx"`与您的 PowerPoint 文件的实际名称。
 
 ## 步骤 3：另存为 XPS（不带 XPS 选项）
 
@@ -92,4 +92,4 @@ finally
 
 ### 转换过程中出现异常如何处理？
 
-您可以实现异常处理，以优雅地处理转换过程中可能发生的任何错误。如代码所示，一个`try`和`finally`即使发生异常，也可以使用块来确保正确的资源处置。
+您可以实现异常处理，以优雅地处理转换过程中可能发生的任何错误。如代码所示，一个`try`和`finally`即使发生异常，也可以使用块来确保正确的资源处理。

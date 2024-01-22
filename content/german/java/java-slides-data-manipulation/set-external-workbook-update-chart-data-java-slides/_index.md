@@ -40,7 +40,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 
 
 ## Schritt 3: Externe Arbeitsmappe festlegen
 
-Hier legen wir die externe Arbeitsmappe als Datenquelle für unser Diagramm fest. Sie müssen die URL zur externen Arbeitsmappe angeben, auch wenn diese derzeit nicht vorhanden ist:
+Hier legen wir die externe Arbeitsmappe als Datenquelle für unser Diagramm fest. Sie müssen die URL zur externen Arbeitsmappe angeben, auch wenn diese noch nicht existiert:
 
 ```java
 IChartData chartData = chart.getChartData();

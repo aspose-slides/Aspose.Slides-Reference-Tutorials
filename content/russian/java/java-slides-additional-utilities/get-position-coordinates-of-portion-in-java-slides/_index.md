@@ -109,7 +109,7 @@ finally
 
  Документация по Aspose.Slides для Java доступна по адресу:[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/)
 
-### Могу ли я использовать Aspose.Slides for Java в своих коммерческих проектах?
+### Могу ли я использовать Aspose.Slides для Java в своих коммерческих проектах?
 
 Да, Aspose.Slides for Java можно использовать в коммерческих проектах. Однако обязательно ознакомьтесь с условиями лицензирования, предоставленными Aspose.
 

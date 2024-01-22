@@ -65,7 +65,7 @@ finally
 
 ## Çözüm
 
-Tebrikler! Aspose.Slides for Java'yı kullanarak bir Java Slides sunumunu gömülü notlar içeren TIFF formatına başarıyla dönüştürdünüz. Bu süreç, sunumlarınızdaki önemli notları ve ek açıklamaları korumanıza olanak tanıyarak onu çeşitli iş ve eğitim senaryoları için değerli bir araç haline getirir.
+Tebrikler! Aspose.Slides for Java'yı kullanarak bir Java Slides sunumunu gömülü notlar içeren TIFF formatına başarıyla dönüştürdünüz. Bu süreç, sunumlarınızdaki önemli notları ve açıklamaları saklamanıza olanak tanır ve bu da onu çeşitli iş ve eğitim senaryoları için değerli bir araç haline getirir.
 
 ## SSS'ler
 

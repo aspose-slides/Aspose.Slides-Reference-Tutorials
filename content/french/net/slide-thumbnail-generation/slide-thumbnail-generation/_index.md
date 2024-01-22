@@ -105,7 +105,7 @@ R : Aspose.Slides pour .NET prend en charge divers formats d'image, notamment P
 R : Le processus peut consommer de la mémoire et du temps de traitement supplémentaires pour des présentations plus volumineuses ou des formes complexes.
 
 ### Q : Puis-je personnaliser la taille des vignettes générées ?
- R : Oui, vous pouvez ajuster les dimensions en modifiant les paramètres dans le`GetThumbnail` méthode.
+R : Oui, vous pouvez ajuster les dimensions en modifiant les paramètres dans le`GetThumbnail` méthode.
 
 ### Q : Aspose.Slides pour .NET est-il adapté à un usage commercial ?
 R : Oui, Aspose.Slides est une solution robuste pour les applications personnelles et commerciales. Vous pouvez trouver les détails de la licence sur le site Web Aspose.

@@ -28,7 +28,7 @@ Vous aurez besoin d'une présentation PowerPoint avec un graphique à partir duq
 
 Dans cette étape, vous devrez importer les espaces de noms requis pour travailler efficacement avec Aspose.Slides pour .NET.
 
-### Étape 1 : Importer des espaces de noms
+### Étape 1 : Importer les espaces de noms
 
 ```csharp
 using Aspose.Slides;

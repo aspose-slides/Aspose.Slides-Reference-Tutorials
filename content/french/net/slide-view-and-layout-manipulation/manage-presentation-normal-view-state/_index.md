@@ -15,7 +15,7 @@ Qu'il s'agisse d'un argumentaire de vente dynamique, d'une conférence éducativ
 
 Avant de plonger dans les subtilités de la gestion des présentations à l'aide d'Aspose.Slides pour .NET, vous devrez configurer votre environnement de développement. Voici ce que vous devez faire :
 
-1.  Téléchargez Aspose.Slides pour .NET : visitez le[page de téléchargement](https://releases.aspose.com/slides/net/) pour obtenir la dernière version d’Aspose.Slides pour .NET.
+1.  Téléchargez Aspose.Slides pour .NET : visitez le[page de téléchargement](https://releases.aspose.com/slides/net/)pour obtenir la dernière version d’Aspose.Slides pour .NET.
 
 2. Installez Aspose.Slides : Après avoir téléchargé la bibliothèque, suivez les instructions d'installation fournies dans la documentation.
 
@@ -64,7 +64,7 @@ La véritable puissance d'Aspose.Slides pour .NET réside dans sa capacité à m
 // Définir le titre de la diapositive
 slide.Shapes.Title.TextFrame.Text = "Welcome to Aspose.Slides";
 
-// Ajouter du contenu
+//Ajouter du contenu
 IAutoShape contentShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 100, 600, 300);
 contentShape.TextFrame.Text = "Create stunning presentations with Aspose.Slides!";
 ```
@@ -117,7 +117,7 @@ Oui, Aspose.Slides vous permet d'ajouter des animations à des éléments indivi
 
 ### Où puis-je trouver une documentation complète sur Aspose.Slides pour .NET ?
 
- Vous pouvez accéder à la documentation complète d'Aspose.Slides pour .NET à l'adresse[Référence API](https://reference.aspose.com/slides/net/) page.
+Vous pouvez accéder à la documentation complète d'Aspose.Slides pour .NET à l'adresse[Référence API](https://reference.aspose.com/slides/net/) page.
 
 ## Conclusion
 Dans ce guide, nous avons expliqué comment gérer les présentations dans l'état d'affichage normal à l'aide d'Aspose.Slides pour .NET. Grâce à ses fonctionnalités robustes, vous pouvez créer, modifier et améliorer des présentations par programmation, garantissant ainsi que votre contenu captive efficacement votre public. Que vous soyez un présentateur professionnel ou un développeur travaillant sur des applications liées à la présentation, Aspose.Slides for .NET est votre passerelle vers une gestion transparente des présentations.

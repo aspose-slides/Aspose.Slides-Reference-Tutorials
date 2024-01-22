@@ -169,6 +169,6 @@ series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
 
-Не стесняйтесь изучить дополнительные параметры настройки в документации Aspose.Slides for Java.
+Не стесняйтесь изучить дополнительные параметры настройки в документации Aspose.Slides для Java.
 
  Не забудьте заменить`"Your Document Directory"` с фактическим путем, по которому вы хотите сохранить презентацию.

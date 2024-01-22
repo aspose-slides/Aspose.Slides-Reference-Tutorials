@@ -18,7 +18,7 @@ url: /ar/net/presentation-conversion/convert-presentations-to-html-with-embedded
 
 قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.Slides for .NET: يجب أن تكون مكتبة Aspose.Slides مثبتة في مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: يجب أن تكون مكتبة Aspose.Slides مثبتة في مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
 
 ## الخطوة 1: قم بإعداد مشروعك
 

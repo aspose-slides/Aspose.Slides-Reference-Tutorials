@@ -27,7 +27,7 @@ url: /zh/java/data-manipulation/chart-marker-options-data-point-java-slides/
 
 ## 第 2 步：加载演示文稿
 
-首先，加载示例演示文稿文档。在提供的代码中，我们假设该文档名为“Test.pptx”。
+首先，加载示例演示文稿文档。在提供的代码中，我们假设文档名为“Test.pptx”。
 
 ```java
 String dataDir = "Your Document Directory";

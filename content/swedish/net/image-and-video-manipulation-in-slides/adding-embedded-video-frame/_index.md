@@ -1,105 +1,77 @@
 ---
-title: Lägga till inbäddad videoram i presentationsbilder med Aspose.Slides
-linktitle: Lägga till inbäddad videoram i presentationsbilder med Aspose.Slides
+title: Aspose.Slides - Lägga till inbäddade videor i .NET-presentationer
+linktitle: Aspose.Slides - Lägga till inbäddade videor i .NET-presentationer
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Lär dig hur du förbättrar dina presentationsbilder genom att lägga till inbäddade videoramar med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med komplett källkod för att sömlöst integrera videor, anpassa uppspelningen och skapa fängslande presentationer.
+description: Förbättra dina presentationer med inbäddade videor med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för sömlös integration.
 type: docs
 weight: 19
 url: /sv/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-## Introduktion till Aspose.Slides för .NET
-
-Aspose.Slides för .NET är ett mångsidigt och funktionsrikt bibliotek som gör det möjligt för utvecklare att arbeta med PowerPoint-presentationer programmatiskt. Det ger ett brett utbud av funktioner, inklusive att skapa, redigera, konvertera och manipulera presentationer. I den här guiden kommer vi att fokusera på processen att bädda in videoramar i presentationsbilder.
-
+## Introduktion
+I presentationens dynamiska värld kan integrering av multimediaelement avsevärt öka engagemanget. Aspose.Slides för .NET ger en kraftfull lösning för att integrera inbäddade videoramar i dina presentationsbilder. Den här handledningen guidar dig genom processen och delar upp varje steg för att säkerställa en sömlös upplevelse.
 ## Förutsättningar
-
-Innan vi dyker in i implementeringen, se till att du har följande förutsättningar på plats:
-
-- Visual Studio (eller någon annan .NET-utvecklingsmiljö)
-- Grundläggande kunskaper i programmeringsspråket C#
-- Aspose.Slides för .NET-bibliotek
-
-## Installera Aspose.Slides för .NET
-
-För att komma igång måste du installera Aspose.Slides för .NET-biblioteket. Du kan ladda ner biblioteket från webbplatsen eller använda en pakethanterare som NuGet. Så här kan du installera det med NuGet:
-
+Innan vi dyker in i handledningen, se till att du har följande:
+-  Aspose.Slides för .NET Library: Ladda ner och installera biblioteket från[släpp sida](https://releases.aspose.com/slides/net/).
+- Medieinnehåll: Ha en videofil (t.ex. "Wildlife.mp4") som du vill bädda in i din presentation.
+## Importera namnområden
+Börja med att importera de nödvändiga namnområdena i ditt .NET-projekt:
 ```csharp
-Install-Package Aspose.Slides
-```
-
-## Skapa en ny presentation
-
-Låt oss börja med att skapa en ny PowerPoint-presentation med Aspose.Slides. Här är ett grundläggande kodavsnitt för att skapa en presentation:
-
-```csharp
+using System.IO;
 using Aspose.Slides;
-
-// Skapa en ny presentation
-Presentation presentation = new Presentation();
+using Aspose.Slides.Export;
 ```
-
-## Lägga till en bild
-
-Därefter lägger vi till en ny bild i presentationen. Bilder indexeras från noll. Så här lägger du till en bild:
-
+## Steg 1: Konfigurera kataloger
+Se till att ditt projekt har de nödvändiga katalogerna för dokument- och mediefiler:
 ```csharp
-// Lägg till en ny bild i presentationen
-ISlide slide = presentation.Slides.AddEmptySlide(SlideLayout.Blank);
+string dataDir = "Your Document Directory";
+string videoDir = "Your Media Directory";
+string resultPath = Path.Combine(dataDir, "VideoFrame_out.pptx");
+// Skapa katalog om den inte redan finns.
+bool IsExists = Directory.Exists(dataDir);
+if (!IsExists)
+    Directory.CreateDirectory(dataDir);
 ```
-
-## Bädda in en video
-
-Nu kommer den spännande delen – att bädda in en video i bilden. Du måste ha videofilens sökväg eller URL för att fortsätta. Så här kan du bädda in en video i bilden:
-
+## Steg 2: Instantera presentationsklass
+Skapa en instans av klassen Presentation för att representera PPTX-filen:
 ```csharp
-// Sökväg till videofilen
-string videoPath = "path_to_your_video.mp4";
-
-// Lägg till videon på bilden
-IVideoFrame videoFrame = slide.Shapes.AddVideoFrame(100, 100, 480, 270, videoPath);
+using (Presentation pres = new Presentation())
+{
+    // Få den första bilden
+    ISlide sld = pres.Slides[0];
 ```
-
-## Anpassa videoramen
-
-Du kan anpassa olika aspekter av videoramen, som dess storlek, position och uppspelningsalternativ. Här är ett exempel på hur du ställer in uppspelningsläget så att det startar automatiskt:
-
+## Steg 3: Bädda in video i presentationen
+Använd följande kod för att bädda in en video i presentationen:
 ```csharp
-// Ställ in videouppspelningsläge för att starta automatiskt
-videoFrame.PlayMode = VideoPlayMode.Auto;
+IVideo vid = pres.Videos.AddVideo(new FileStream(videoDir + "Wildlife.mp4", FileMode.Open), LoadingStreamBehavior.ReadStreamAndRelease);
 ```
-
-## Spara och exportera presentationen
-
-När du har lagt till videoramen och anpassat den efter ditt tycke är det dags att spara presentationen. Du kan spara den i olika format, som PPTX eller PDF. Så här sparar du den som en PPTX-fil:
-
+## Steg 4: Lägg till videoram
+Lägg nu till en videoram till bilden:
 ```csharp
-// Spara presentationen
-presentation.Save("output.pptx", SaveFormat.Pptx);
+IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
 ```
-
+## Steg 5: Ställ in videoegenskaper
+Ställ in videon på videoramen och konfigurera uppspelningsläge och volym:
+```csharp
+vf.EmbeddedVideo = vid;
+vf.PlayMode = VideoPlayModePreset.Auto;
+vf.Volume = AudioVolumeMode.Loud;
+```
+## Steg 6: Spara presentationen
+Slutligen, spara PPTX-filen på disken:
+```csharp
+pres.Save(resultPath, SaveFormat.Pptx);
+```
+Upprepa dessa steg för varje video du vill bädda in i din presentation.
 ## Slutsats
-
-den här guiden har vi utforskat hur du kan förbättra dina presentationsbilder genom att lägga till inbäddade videoramar med Aspose.Slides för .NET. Detta kraftfulla bibliotek gör att du kan skapa dynamiska och engagerande presentationer som lämnar ett bestående intryck på din publik. Genom att följa stegen som beskrivs i den här guiden kan du sömlöst integrera multimediainnehåll i dina bilder och skapa fängslande presentationer.
-
-## FAQ's
-
-### Hur installerar jag Aspose.Slides för .NET?
-
- Du kan installera Aspose.Slides för .NET med NuGet-pakethanteraren. Kör helt enkelt följande kommando i din NuGet Package Manager Console:`Install-Package Aspose.Slides`
-
-### Kan jag anpassa utseendet på videoramen?
-
-Ja, du kan anpassa storleken, positionen och uppspelningsalternativen för videoramen med hjälp av egenskaper som tillhandahålls av Aspose.Slides-biblioteket.
-
-### Vilka videoformat stöds för inbäddning?
-
-Aspose.Slides stöder inbäddning av videor i olika format, inklusive MP4, AVI och WMV.
-
-### Kan jag styra när videon börjar spelas upp?
-
-Absolut! Du kan ställa in uppspelningsläget för videoramen att starta automatiskt eller manuellt, beroende på dina preferenser.
-
-### Är Aspose.Slides endast för att lägga till videor?
-
-Nej, Aspose.Slides erbjuder ett brett utbud av funktioner utöver att lägga till videor. Det låter dig skapa, redigera, konvertera och manipulera PowerPoint-presentationer programmatiskt.
+Grattis! Du har framgångsrikt lagt till en inbäddad videoram till din presentation med Aspose.Slides för .NET. Denna dynamiska funktion kan lyfta dina presentationer till nya höjder och fängsla din publik med multimediaelement som är sömlöst integrerade i dina bilder.
+## Vanliga frågor
+### Kan jag bädda in videor i valfri bild i presentationen?
+ Ja, du kan välja vilken bild som helst genom att ändra indexet i`pres.Slides[index]`.
+### Vilka videoformat stöds?
+Aspose.Slides stöder en mängd olika videoformat, inklusive MP4, AVI och WMV.
+### Kan jag anpassa storleken och placeringen av videoramen?
+ Absolut! Justera parametrarna i`AddVideoFrame(x, y, width, height, video)` efter behov.
+### Finns det en gräns för hur många videor jag kan bädda in?
+Antalet inbäddade videor är vanligtvis begränsat av kapaciteten hos ditt presentationsprogram.
+### Hur kan jag söka ytterligare hjälp eller dela med mig av mina erfarenheter?
+ Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.

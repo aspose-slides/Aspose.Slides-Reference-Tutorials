@@ -134,4 +134,4 @@ Burada otomatik eksen ölçeklendirmeyi devre dışı bırakıp dikey eksen içi
 
 ### Aspose.Slides için daha fazla bilgi ve belgeyi nerede bulabilirim?
 
-Aspose dokümantasyon web sitesinde Aspose.Slides for Java için kapsamlı dokümantasyon ve API referansları bulabilirsiniz. Ziyaret etmek[Burada](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımına ilişkin detaylı bilgi için.
+Aspose dokümantasyon web sitesinde Aspose.Slides for Java için kapsamlı dokümantasyon ve API referansları bulabilirsiniz. Ziyaret etmek[Burada](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımı hakkında detaylı bilgi için.

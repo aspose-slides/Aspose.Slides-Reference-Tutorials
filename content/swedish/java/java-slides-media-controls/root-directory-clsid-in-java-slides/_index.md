@@ -10,7 +10,7 @@ url: /sv/java/media-controls/root-directory-clsid-in-java-slides/
 
 ## Introduktion till inställning av Root Directory ClsId i Aspose.Slides för Java
 
-Aspose.Slides för Java kan du ställa in rotkatalogen ClsId, vilket är det CLSID (Class Identifier) som används för att ange programmet som ska användas som rotkatalog när en hyperlänk i din presentation aktiveras. I den här guiden går vi igenom hur du gör detta steg för steg.
+Aspose.Slides för Java kan du ställa in rotkatalogen ClsId, vilket är det CLSID (Klassidentifierare) som används för att specificera programmet som ska användas som rotkatalog när en hyperlänk i din presentation aktiveras. I den här guiden går vi igenom hur du gör detta steg för steg.
 
 ## Förutsättningar
 

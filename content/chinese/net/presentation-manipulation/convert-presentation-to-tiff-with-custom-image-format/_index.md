@@ -33,7 +33,7 @@ url: /zh/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-
 
 ## 3. 编写转换代码
 
-打开项目的主代码文件（例如，`Program.cs`) 并添加以下 using 语句：
+打开项目的主代码文件（例如，`Program.cs`并添加以下 using 语句：
 
 ```csharp
 using Aspose.Slides;
@@ -65,7 +65,7 @@ class Program
 
 ## 4. 运行应用程序
 
-构建并运行您的应用程序。它将加载输入演示文稿，使用指定的自定义图像格式设置将其转换为 TIFF，并将输出另存为“output.tiff”，与应用程序位于同一目录中。
+构建并运行您的应用程序。它将加载输入演示文稿，使用指定的自定义图像格式设置将其转换为 TIFF，并将输出作为“output.tiff”保存在与应用程序相同的目录中。
 
 ## 结论
 
@@ -91,4 +91,4 @@ Aspose.Slides for .NET 是一个强大的库，有助于在 .NET 应用程序中
 
 ### 除了 TIFF 之外，Aspose.Slides for .NET 是否支持其他输出格式？
 
-是的，除了 TIFF 之外，Aspose.Slides for .NET 还支持多种用于转换演示文稿的输出格式，包括 PDF、JPEG、PNG、GIF 等。这使您可以灵活地为您的特定用例选择最合适的格式。
+是的，除了 TIFF 之外，Aspose.Slides for .NET 支持多种用于转换演示文稿的输出格式，包括 PDF、JPEG、PNG、GIF 等。这使您可以灵活地为您的特定用例选择最合适的格式。

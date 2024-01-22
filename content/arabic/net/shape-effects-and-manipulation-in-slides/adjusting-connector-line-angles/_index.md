@@ -1,120 +1,89 @@
 ---
-title: ضبط زوايا خط الموصل في شرائح العرض التقديمي باستخدام Aspose.Slides
+title: ضبط زوايا خط الرابط في PowerPoint باستخدام Aspose.Slides
 linktitle: ضبط زوايا خط الموصل في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تحسين شرائح العرض التقديمي الخاص بك عن طريق ضبط زوايا خط الموصل باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
+description: تعرف على كيفية ضبط زوايا خط الموصل في شرائح PowerPoint باستخدام Aspose.Slides for .NET. قم بتحسين عروضك التقديمية بدقة وسهولة.
 type: docs
 weight: 28
 url: /ar/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-تلعب خطوط الموصل دورًا حاسمًا في إنشاء شرائح عرض تقديمي جيدة التنظيم وجذابة بصريًا. فهي تساعد في إنشاء علاقات بين العناصر المختلفة في الشريحة، مما يعزز وضوح المعلومات. توفر Aspose.Slides، وهي واجهة برمجة تطبيقات .NET قوية، ميزات متنوعة للتعامل مع خطوط الموصلات هذه، بما في ذلك ضبط زواياها. في هذا البرنامج التعليمي، سوف نستكشف كيفية ضبط زوايا خط الموصل في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
-
-## مقدمة لخطوط الموصل
-
-تعتبر خطوط الوصلات أدوات مساعدة بصرية أساسية في العروض التقديمية، وتستخدم لتوضيح العلاقات بين الأشياء أو المفاهيم. يتم استخدامها بشكل شائع لإنشاء المخططات الانسيابية والرسوم البيانية والرسوم التوضيحية للعملية. يمكن أن يؤثر ضبط زوايا خطوط الموصل بشكل كبير على الشكل العام للشريحة وإمكانية فهمها.
-
-## الشروع في العمل مع Aspose.Slides لـ .NET
-
-قبل أن نتعمق في ضبط زوايا خط الموصل، فلنقم بإعداد بيئة التطوير الخاصة بنا ودمج Aspose.Slides في مشروعنا. اتبع الخطوات التالية:
-
-1. قم بتنزيل وتثبيت Aspose.Slides لـ .NET من[هنا](https://releases.aspose.com/slides/net/).
-2. قم بإنشاء مشروع .NET جديد في بيئة التطوير المفضلة لديك.
-3. أضف مرجعًا إلى مكتبة Aspose.Slides في مشروعك.
-
-## إضافة خطوط الموصل إلى الشرائح
-
-لضبط زوايا خط الموصل، نحتاج أولاً إلى إضافة خطوط موصل إلى شرائحنا. إليك كيفية القيام بذلك باستخدام Aspose.Slides:
-
+## مقدمة
+غالبًا ما يتضمن إنشاء شرائح عرض تقديمي جذابة بصريًا تعديلات دقيقة على خطوط الموصل. في هذا البرنامج التعليمي، سوف نستكشف كيفية ضبط زوايا خط الموصل في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. Aspose.Slides هي مكتبة قوية تتيح للمطورين العمل مع ملفات PowerPoint برمجيًا، مما يوفر إمكانات واسعة لإنشاء العروض التقديمية وتعديلها ومعالجتها.
+## المتطلبات الأساسية
+قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك ما يلي:
+- المعرفة الأساسية بلغة البرمجة C#.
+- تم تثبيت Visual Studio أو أي بيئة تطوير C# أخرى.
+-  Aspose.Slides لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
+- ملف عرض تقديمي لـ PowerPoint يحتوي على خطوط الموصل التي تريد ضبطها.
+## استيراد مساحات الأسماء
+للبدء، تأكد من تضمين مساحات الأسماء الضرورية في كود C# الخاص بك:
 ```csharp
-// إنشاء مثيل لكائن العرض التقديمي
-using (Presentation presentation = new Presentation())
+using System.IO;
+using Aspose.Slides;
+using System;
+```
+## الخطوة 1: قم بإعداد مشروعك
+قم بإنشاء مشروع C# جديد في Visual Studio وقم بتثبيت حزمة Aspose.Slides NuGet. قم بإعداد هيكل المشروع مع الإشارة إلى مكتبة Aspose.Slides.
+## الخطوة 2: قم بتحميل العرض التقديمي
+```csharp
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "ConnectorLineAngle.pptx");
+```
+ قم بتحميل ملف عرض PowerPoint التقديمي الخاص بك إلى ملف`Presentation`هدف. استبدل "دليل المستندات الخاص بك" بالمسار الفعلي لملفك.
+## الخطوة 3: الوصول إلى الشريحة والأشكال
+```csharp
+Slide slide = (Slide)pres.Slides[0];
+Shape shape;
+```
+قم بالوصول إلى الشريحة الأولى في العرض التقديمي وقم بتهيئة متغير لتمثيل الأشكال على الشريحة.
+## الخطوة 4: التكرار من خلال الأشكال
+```csharp
+for (int i = 0; i < slide.Shapes.Count; i++)
 {
-    // قم بالوصول إلى الشريحة التي تريد إضافة خطوط الرابط إليها
-    ISlide slide = presentation.Slides[0];
-
-    // تحديد نقاط البداية والنهاية لخط الموصل
-    PointF startPoint = new PointF(100, 100);
-    PointF endPoint = new PointF(300, 200);
-
-    // أضف خط الموصل إلى الشريحة
-    IAutoShape connectorLine = slide.Shapes.AddLine(startPoint.X, startPoint.Y, endPoint.X, endPoint.Y);
-
-    // تخصيص مظهر خط الموصل
-    connectorLine.LineFormat.Style = LineStyle.Single;
-    connectorLine.LineFormat.Width = 2;
+    // رمز للتعامل مع خطوط الموصل
 }
 ```
-
-## الوصول إلى زوايا خط الموصل وتعديلها
-
-الآن بعد أن أصبح لدينا خطوط الموصلات في شريحتنا، فلنستكشف كيفية الوصول إلى زواياها وتعديلها باستخدام Aspose.Slides:
-
+قم بالتمرير عبر كل شكل على الشريحة لتحديد خطوط الموصل ومعالجتها.
+## الخطوة 5: ضبط زوايا خط الموصل
 ```csharp
-// قم بالوصول إلى خط الموصل الذي أضفناه سابقًا
-IAutoShape connectorLine = slide.Shapes[0] as IAutoShape;
-
-// الوصول إلى تنسيق خط الموصل
-ILineFormat lineFormat = connectorLine.LineFormat;
-
-// احصل على الزاوية الحالية لخط الموصل
-double currentAngle = lineFormat.Alignment.Angle;
-
-// تعديل زاوية خط الموصل
-lineFormat.Alignment.Angle = 45; // اضبط الزاوية حسب الرغبة
-```
-
-## تطبيق تعديلات زاوية مخصصة
-
-يمكّننا Aspose.Slides من تطبيق تعديلات زاوية مخصصة على خطوط الموصل، مما يسمح بمحاذاة العناصر وترتيبها بدقة. فيما يلي مثال لضبط زوايا خطوط الموصلات المتعددة لإنشاء رسم تخطيطي متدفق:
-
-```csharp
-foreach (IAutoShape shape in slide.Shapes)
+double dir = 0.0;
+shape = (Shape)slide.Shapes[i];
+if (shape is AutoShape)
 {
-    if (shape is IAutoShape && shape != connectorLine)
-    {
-        ILineFormat shapeLineFormat = shape.LineFormat;
-        shapeLineFormat.Alignment.Angle = 30; // تطبيق زاوية متسقة على جميع الخطوط
-    }
+    // كود التعامل مع الأشكال التلقائية
+}
+else if (shape is Connector)
+{
+    // رمز التعامل مع الموصلات
+}
+Console.WriteLine(dir);
+```
+ حدد ما إذا كان الشكل هو شكل تلقائي أو موصل، واضبط زوايا خط الموصل باستخدام المتوفر`getDirection` طريقة.
+##  الخطوة 6: تحديد`getDirection` Method
+```csharp
+public static double getDirection(float w, float h, bool flipH, bool flipV)
+{
+    // رمز لحساب الاتجاه
+	float endLineX = w * (flipH ? -1 : 1);
+	float endLineY = h * (flipV ? -1 : 1);
+	float endYAxisX = 0;
+	float endYAxisY = h;
+	double angle = (Math.Atan2(endYAxisY, endYAxisX) - Math.Atan2(endLineY, endLineX));
+	if (angle < 0) angle += 2 * Math.PI;
+    return angle * 180.0 / Math.PI;
 }
 ```
-
-## الأسئلة الشائعة
-
-### كيف يمكنني إزالة خط موصل من الشريحة؟
-
-لإزالة خط موصل من شريحة، يمكنك استخدام مقتطف التعليمات البرمجية التالي:
-
-```csharp
-IAutoShape connectorLine = slide.Shapes[0] as IAutoShape;
-slide.Shapes.Remove(connectorLine);
-```
-
-### هل يمكنني تغيير لون خطوط الموصل؟
-
- نعم، يمكنك تغيير لون خطوط الموصل باستخدام`LineFormat` ملكية. هنا مثال:
-
-```csharp
-lineFormat.FillFormat.SolidFillColor.Color = Color.Red;
-```
-
-### هل من الممكن إضافة رؤوس الأسهم إلى خطوط الموصل؟
-
- بالتأكيد! يمكنك إضافة رؤوس أسهم إلى خطوط الموصل عن طريق تعديل`LineFormat` ملكية:
-
-```csharp
-lineFormat.EndArrowheadLength = ArrowheadLength.Short;
-lineFormat.EndArrowheadStyle = ArrowheadStyle.Triangle;
-```
-
-### كيف يمكنني ضبط التباعد بين العناصر المتصلة بالخطوط؟
-
-لضبط التباعد بين العناصر المتصلة، يمكنك تعديل نقاط البداية والنهاية لخطوط الموصل. سيؤثر هذا على المحاذاة المرئية بين العناصر.
-
-### أين يمكنني العثور على المزيد من الموارد على Aspose.Slides لـ .NET؟
-
-يمكنك العثور على وثائق شاملة ومراجع واجهة برمجة التطبيقات (API) على Aspose.Slides لـ .NET[هنا](https://reference.aspose.com/slides/net/).
-
+ تنفيذ`getDirection` طريقة لحساب زاوية خط الموصل بناءً على أبعادها واتجاهها.
 ## خاتمة
-
-في هذا البرنامج التعليمي، اكتشفنا عملية ضبط زوايا خط الموصل في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. لقد تعلمنا كيفية إضافة خطوط الموصلات، والوصول إلى زواياها وتعديلها، وتطبيق تعديلات مخصصة لإنشاء مخططات ورسوم توضيحية جذابة بصريًا. يعمل Aspose.Slides على تمكين المطورين من تحسين عروضهم التقديمية من خلال التحكم الدقيق في خطوط الموصل، مما يؤدي في النهاية إلى تحسين وضوح المحتوى وتأثيره.
+باستخدام هذه الخطوات، يمكنك ضبط زوايا خط الموصل برمجيًا في عرض PowerPoint التقديمي الخاص بك باستخدام Aspose.Slides for .NET. يوفر هذا البرنامج التعليمي أساسًا لتحسين المظهر المرئي لشرائحك.
+## الأسئلة الشائعة
+### هل Aspose.Slides مناسب لكل من تطبيقات Windows والويب؟
+نعم، يمكن استخدام Aspose.Slides في كل من تطبيقات Windows والويب.
+### هل يمكنني تنزيل نسخة تجريبية مجانية من Aspose.Slides قبل الشراء؟
+ نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+### أين يمكنني العثور على وثائق شاملة لـ Aspose.Slides لـ .NET؟
+ الوثائق متاحة[هنا](https://reference.aspose.com/slides/net/).
+### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
+ يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+### هل يوجد منتدى دعم لـ Aspose.Slides؟
+ نعم، يمكنك زيارة منتدى الدعم[هنا](https://forum.aspose.com/c/slides/11).

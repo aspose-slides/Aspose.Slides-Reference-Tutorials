@@ -86,7 +86,7 @@ I den här handledningen lärde du dig hur du replikerar en bild från en presen
 
 ### Hur kan jag installera Aspose.Slides för .NET?
 
- Du kan ladda ner Aspose.Slides för .NET-biblioteket från[den här länken](https://releases.aspose.com/slides/net/). Se till att följa installationsinstruktionerna i dokumentationen.
+ Du kan ladda ner Aspose.Slides för .NET-biblioteket från[den här länken](https://releases.aspose.com/slides/net/)Se till att följa installationsinstruktionerna i dokumentationen.
 
 ### Kan jag replikera flera bilder samtidigt?
 

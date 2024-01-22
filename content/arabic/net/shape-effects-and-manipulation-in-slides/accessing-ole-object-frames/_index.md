@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 بمجرد تحديد إطار كائن OLE، يمكنك استخراج بياناته للمعالجة. على سبيل المثال، إذا كان كائن OLE عبارة عن جدول بيانات Excel مضمن، فيمكنك الوصول إلى بياناته كما يلي:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // معالجة البيانات الأولية حسب الحاجة
-}
+
 ```
 
 ### 5. تعديل إطارات كائنات OLE
@@ -64,19 +62,17 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 يمكّنك Aspose.Slides من تعديل إطارات كائنات OLE برمجيًا. لنفترض أنك تريد تحديث محتوى مستند Word المضمن. وإليك كيف يمكنك تحقيق ذلك:
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // تعديل البيانات المضمنة
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تحديد نوع إطار كائن OLE؟
 
- لتحديد نوع إطار كائن OLE، يمكنك استخدام`OleObjectType` الممتلكات المتاحة داخل`OleObjectFrame` فصل.
+ لتحديد نوع إطار كائن OLE، يمكنك استخدام`OleObjectType`الممتلكات المتاحة داخل`OleObjectFrame` فصل.
 
 ### هل يمكنني استخراج كائنات OLE كملفات منفصلة؟
 

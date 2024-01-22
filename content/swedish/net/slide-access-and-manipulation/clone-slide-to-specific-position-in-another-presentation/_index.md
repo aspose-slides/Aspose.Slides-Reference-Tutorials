@@ -52,7 +52,7 @@ var copiedSlide = destinationPresentation.Slides.AddClone(sourceSlide);
 För att placera den kopierade bilden på en specifik plats i målpresentationen använder vi metoden SlideCollection.InsertClone.
 
 ```csharp
-// Sätt i den kopierade bilden i den andra positionen
+// Sätt i det kopierade objektglaset i den andra positionen
 destinationPresentation.Slides.InsertClone(1, copiedSlide);
 ```
 

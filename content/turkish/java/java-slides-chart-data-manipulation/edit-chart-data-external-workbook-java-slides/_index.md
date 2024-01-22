@@ -66,7 +66,7 @@ Artık Aspose.Slides for Java'yı kullanarak PowerPoint sunumunuzdaki harici ça
 
 ```java
         // Sunumda harici çalışma kitabına giden yolun neredeyse hiç kaydedilmediğine dikkat edin
-        // bu nedenle, örneği çalıştırmadan önce lütfen D:\Aspose.Slides\Aspose.Slides-for-.NET-master\Examples\Data\Charts\'dan externalWorkbook.xlsx dosyasını kopyalayın.
+        // bu nedenle lütfen örneği çalıştırmadan önce Data/Chart dizininden D:\Aspose.Slides\Aspose.Slides-for-.NET-master\Examples\Data\Charts\ externalWorkbook.xlsx dosyasını kopyalayın.
         // Belgeler dizininin yolu.
         String dataDir = "Your Document Directory";
         Presentation pres = new Presentation(dataDir + "presentation.pptx");

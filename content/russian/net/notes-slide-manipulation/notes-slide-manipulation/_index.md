@@ -24,7 +24,7 @@ url: /ru/net/notes-slide-manipulation/notes-slide-manipulation/
 
 ## Задача 1. Управление верхним и нижним колонтитулом на слайде «Заметки»
 
-### Шаг 1. Импортируйте пространства имен
+### Шаг 1. Импортируйте пространства имен
 
 ```csharp
 using Aspose.Slides;
@@ -70,7 +70,7 @@ presentation.Save(dataDir + "testresult.pptx", SaveFormat.Pptx);
 
 ## Задача 2. Удаление примечаний к определенному слайду
 
-### Шаг 1. Импортируйте пространства имен
+### Шаг 1. Импортируйте пространства имен
 
 ```csharp
 using Aspose.Slides;
@@ -102,7 +102,7 @@ presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pp
 
 ## Задача 3. Удаление примечаний со всех слайдов
 
-### Шаг 1. Импортируйте пространства имен
+### Шаг 1. Импортируйте пространства имен
 
 ```csharp
 using Aspose.Slides;

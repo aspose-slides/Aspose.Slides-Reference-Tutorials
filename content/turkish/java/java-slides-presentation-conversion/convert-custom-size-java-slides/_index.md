@@ -130,7 +130,7 @@ Evet, DPI'yi kullanarak ayarlayabilirsiniz.`setDpiX` Ve`setDpiY` içindeki yönt
 
  TIFF görüntüsündeki notların konumu,`setNotesPosition` BottomFull, BottomTruncated ve SlideOnly gibi seçeneklerle yöntem. İhtiyaçlarınıza en uygun olanı seçin.
 
-### TIFF dönüşümü için özel bir görüntü boyutu belirlemek mümkün mü?
+### TIFF dönüşümü için özel bir görüntü boyutu belirlemek mümkün müdür?
 
  Kesinlikle! kullanarak özel bir görüntü boyutu ayarlayabilirsiniz.`setImageSize` yöntemdeki`TiffOptions` sınıf. Çıktı görüntüsü için istediğiniz boyutları (genişlik ve yükseklik) sağlayın.
 

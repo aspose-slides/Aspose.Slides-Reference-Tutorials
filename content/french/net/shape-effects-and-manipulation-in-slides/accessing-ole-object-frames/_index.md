@@ -52,11 +52,9 @@ foreach (ISlide slide in presentation.Slides)
 Une fois que vous avez identifié un cadre d'objet OLE, vous pouvez extraire ses données pour les manipuler. Par exemple, si l'objet OLE est une feuille de calcul Excel incorporée, vous pouvez accéder à ses données comme suit :
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
-    byte[] rawData = embeddedData.Data;
+ byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
     // Traiter les données brutes selon les besoins
-}
+
 ```
 
 ### 5. Modification des cadres d'objets OLE
@@ -64,19 +62,17 @@ if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
 Aspose.Slides vous permet de modifier les cadres d'objets OLE par programme. Supposons que vous souhaitiez mettre à jour le contenu d'un document Word incorporé. Voici comment y parvenir :
 
 ```csharp
-if (oleObjectFrame.ObjectData is OleEmbeddedData embeddedData)
-{
     // Modifier les données intégrées
-    byte[] modifiedData = ModifyWordDocument(embeddedData.Data);
-    embeddedData.Data = modifiedData;
-}
+	byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+    oleObjectFrame.EmbeddedData = modifiedData;
+
 ```
 
 ## FAQ
 
 ### Comment déterminer le type d’un cadre d’objet OLE ?
 
- Pour déterminer le type d'un cadre d'objet OLE, vous pouvez utiliser l'outil`OleObjectType` propriété disponible dans le`OleObjectFrame` classe.
+ Pour déterminer le type d'un cadre d'objet OLE, vous pouvez utiliser l'outil`OleObjectType`propriété disponible dans le`OleObjectFrame` classe.
 
 ### Puis-je extraire des objets OLE sous forme de fichiers séparés ?
 

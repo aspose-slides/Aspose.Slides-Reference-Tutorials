@@ -1,107 +1,85 @@
 ---
-title: Sunum Slaytlarında OLE Nesne Çerçevesinin Resim Başlığını Değiştirme
+title: OLE Nesneleri Kılavuzunu Aspose.Slides for .NET'e Gömme
 linktitle: Sunum Slaytlarında OLE Nesne Çerçevesinin Resim Başlığını Değiştirme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak sunum slaytlarındaki OLE nesne çerçevelerinin resim başlıklarını nasıl değiştireceğinizi öğrenin. Tam kaynak kodunu içeren adım adım kılavuz.
+description: Aspose.Slides for .NET'i kullanarak sunum slaytlarınızı dinamik OLE nesneleriyle nasıl geliştireceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 type: docs
 weight: 15
 url: /tr/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-## Aspose.Slides for .NET'e Giriş
-
-Aspose.Slides for .NET, geliştiricilerin Microsoft Office veya PowerPoint'in kurulmasına gerek kalmadan PowerPoint sunumları oluşturmasına, değiştirmesine ve yönetmesine olanak tanıyan güçlü bir API'dir. Slaytlar, şekiller, metin, resimler ve OLE nesne çerçeveleri dahil olmak üzere farklı sunum öğeleriyle çalışmak için geniş bir özellik yelpazesi sunar.
-
+## giriiş
+Dinamik ve ilgi çekici sunum slaytları oluşturmak genellikle çeşitli multimedya öğelerinin dahil edilmesini içerir. Bu eğitimde, güçlü Aspose.Slides for .NET kütüphanesini kullanarak bir OLE (Nesne Bağlama ve Gömme) Nesne Çerçevesinin resim başlığını sunum slaytlarında nasıl değiştireceğimizi keşfedeceğiz. Aspose.Slides, OLE nesnelerini işleme sürecini basitleştirerek geliştiricilere sunumlarını kolaylıkla geliştirebilecekleri araçlar sağlar.
 ## Önkoşullar
-
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-
-- Visual Studio veya herhangi bir uyumlu .NET geliştirme ortamı yüklü.
--  Aspose.Slides for .NET kitaplığı. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
-
-## Sunum Yükleme
-
-Aspose.Slides for .NET'i kullanarak mevcut bir PowerPoint sunumunu yükleyerek başlayalım. Test edilecek bir sunumunuz yoksa yeni bir sunum oluşturabilir veya örnek bir sunum indirebilirsiniz.
-
+Adım adım kılavuza geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+-  Aspose.Slides for .NET Library: Aspose.Slides for .NET kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Slides .NET Belgeleri](https://reference.aspose.com/slides/net/).
+- Örnek Veriler: Sunuma OLE nesnesi olarak eklemek istediğiniz örnek bir Excel dosyası (örneğin, "ExcelObject.xlsx") hazırlayın. Ayrıca, OLE nesnesi için simge görevi görecek bir görüntü dosyasına (örneğin, "Image.png") sahip olun.
+- Geliştirme Ortamı: Visual Studio veya .NET geliştirme için tercih edilen herhangi bir IDE gibi gerekli araçlarla bir geliştirme ortamı oluşturun.
+## Ad Alanlarını İçe Aktar
+.NET projenizde Aspose.Slides ile çalışmak için gerekli ad alanlarını içe aktardığınızdan emin olun:
 ```csharp
 using Aspose.Slides;
-
-// Sunuyu yükle
-using var presentation = new Presentation("sample.pptx");
+using Aspose.Slides.Examples.CSharp;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Aspose.Slides.DOM.Ole;
 ```
-
-## OLE Nesne Çerçevelerine Erişim
-
- OLE (Nesne Bağlama ve Gömme) nesne çerçeveleri, görüntüler, belgeler veya diğer dosyalar gibi nesneleri bir PowerPoint slaydına gömmenize olanak tanır. Bir slayttaki OLE nesne çerçevelerine erişmek için şekiller arasında yinelenebilir ve örneklerini kontrol edebilirsiniz.`OleObjectFrameEx`.
-
+## 1. Adım: Belge Dizinini Ayarlayın
 ```csharp
-// Slaytlar arasında yineleme
-foreach (var slide in presentation.Slides)
+string dataDir = "Your Document Directory";
+```
+"Belge Dizininiz"i belge dizininizin gerçek yolu ile değiştirdiğinizden emin olun.
+## Adım 2: OLE Kaynak Dosyasını ve Simge Dosya Yollarını Tanımlayın
+```csharp
+string oleSourceFile = dataDir + "ExcelObject.xlsx";
+string oleIconFile = dataDir + "Image.png";
+```
+Bu yolları, örnek Excel dosyanızın ve görüntü dosyanızın gerçek yollarıyla güncelleyin.
+## 3. Adım: Bir Sunum Örneği Oluşturun
+```csharp
+using (Presentation pres = new Presentation())
 {
-    // Slayttaki şekiller arasında yineleme yapın
-    foreach (var shape in slide.Shapes)
-    {
-        if (shape is OleObjectFrameEx oleObject)
-        {
-            //OLE nesnesi özelliklerine erişme
-            var title = oleObject.Title;
-            var data = oleObject.ObjectData;
-            
-            // Daha fazla işlem gerçekleştirin
-        }
-    }
+    // Sonraki adımların kodu buraya gelecek
 }
 ```
-
-## Resim Başlığını Değiştirme
-
- Bir OLE nesne çerçevesinin resim başlığını değiştirmek için, yalnızca`Title` mülkiyeti`OleObjectFrameEx` misal.
-
+ Yeni bir örneğini başlat`Presentation` sınıf.
+## Adım 4: OLE Nesne Çerçevesi Ekleme
 ```csharp
-foreach (var slide in presentation.Slides)
+ISlide slide = pres.Slides[0];
+byte[] allbytes = File.ReadAllBytes(oleSourceFile);
+IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(allbytes, "xlsx");
+IOleObjectFrame oof = slide.Shapes.AddOleObjectFrame(20, 20, 50, 50, dataInfo);
+oof.IsObjectIcon = true;
+```
+Konumunu ve boyutlarını belirterek slayda bir OLE nesne çerçevesi ekleyin.
+## Adım 5: Resim Nesnesi Ekle
+```csharp
+byte[] imgBuf = File.ReadAllBytes(oleIconFile);
+using (MemoryStream ms = new MemoryStream(imgBuf))
 {
-    foreach (var shape in slide.Shapes)
-    {
-        if (shape is OleObjectFrameEx oleObject)
-        {
-            // Başlığı güncelle
-            oleObject.Title = "New Picture Title";
-        }
-    }
+    IPPImage image = pres.Images.AddImage(new Bitmap(ms));
 }
 ```
-
-## Değiştirilen Sunumu Kaydetme
-
-Gerekli değişiklikleri yaptıktan sonra değiştirilen sunumu kaydetmeniz gerekir. PPTX, PDF veya resimler gibi çeşitli formatlarda kaydedebilirsiniz.
-
+Resim dosyasını okuyun ve sunuma bir resim nesnesi olarak ekleyin.
+## Adım 6: Başlığı OLE Simgesine Ayarlayın
 ```csharp
-// Sunuyu kaydet
-presentation.Save("modified.pptx", SaveFormat.Pptx);
+oof.SubstitutePictureTitle = "Caption example";
 ```
-
+OLE simgesi için istediğiniz başlığı ayarlayın.
 ## Çözüm
-
-Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışma sürecini basitleştirir. Bu kılavuzda, sunum slaytlarında OLE nesne çerçevesinin resim başlığını değiştirme adımlarını ele aldık. Bu adımları izleyerek sunumları ihtiyaçlarınıza göre verimli bir şekilde değiştirebilirsiniz.
-
-## SSS'ler
-
-### Aspose.Slides for .NET kütüphanesini nasıl edinebilirim?
-
- Aspose.Slides for .NET kütüphanesini şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/net/).
-
-### Aspose.Slides for .NET'i Microsoft Office yüklü olmadan kullanabilir miyim?
-
-Evet, Aspose.Slides for .NET, Microsoft Office'in kurulmasına gerek kalmadan PowerPoint sunumlarıyla çalışmanıza olanak tanır.
-
-### OLE nesne çerçevelerinde gerçekleştirebileceğim başka işlemler var mı?
-
-Kesinlikle! OLE nesne çerçeveleri üzerinde, nesne verilerini değiştirmek, yeniden boyutlandırmak veya bunları slaytlar içinde yeniden konumlandırmak gibi çeşitli eylemler gerçekleştirebilirsiniz.
-
-### Aspose.Slides for .NET farklı PowerPoint formatlarıyla uyumlu mu?
-
-Evet, Aspose.Slides for .NET, PPT, PPTX, PPS ve daha fazlasını içeren çok çeşitli PowerPoint formatlarını destekler.
-
-### Aspose.Slides'ı kullanarak PowerPoint sunumlarının oluşturulmasını otomatikleştirebilir miyim?
-
-Kesinlikle! Aspose.Slides for .NET, metin, görseller, grafikler ve daha fazlası gibi çeşitli unsurları birleştirerek dinamik olarak sıfırdan PowerPoint sunumları oluşturmanıza olanak tanır.
+Aspose.Slides for .NET kullanarak OLE nesnelerini sunum slaytlarınıza eklemek basit bir işlemdir. Bu eğitim, belge dizinini ayarlamaktan OLE nesnelerini eklemeye ve özelleştirmeye kadar temel adımlarda size rehberlik etmiştir. Sunumlarınızın görsel çekiciliğini artırmak için farklı dosya türleri ve başlıklarla denemeler yapın.
+## SSS
+### Aspose.Slides'ı kullanarak diğer dosya türlerini OLE nesneleri olarak gömebilir miyim?
+Evet, Aspose.Slides, Excel elektronik tabloları, Word belgeleri ve daha fazlası gibi çeşitli dosya türlerinin gömülmesini destekler.
+### OLE nesne simgesi özelleştirilebilir mi?
+Kesinlikle. Sununuzun temasına daha iyi uyum sağlamak için varsayılan simgeyi seçtiğiniz herhangi bir görüntüyle değiştirebilirsiniz.
+### Aspose.Slides, OLE nesneleri içeren animasyonlar için destek sağlıyor mu?
+En son sürümden itibaren Aspose.Slides, OLE nesnesi yerleştirme ve görüntülemeye odaklanıyor ve OLE nesneleri içindeki animasyonları doğrudan ele almıyor.
+### OLE nesnelerini bir slayda ekledikten sonra programlı olarak değiştirebilir miyim?
+Kesinlikle. OLE nesneleri üzerinde tam programatik denetime sahip olursunuz ve bu nesnelerin özelliklerini ve görünümlerini gerektiği gibi değiştirmenize olanak tanır.
+### Katıştırılmış OLE nesnelerinin boyutunda herhangi bir sınırlama var mı?
+Boyut sınırlamaları olsa da genellikle cömerttirler. Optimum performans sağlamak için özel kullanım durumunuzla test etmeniz önerilir.

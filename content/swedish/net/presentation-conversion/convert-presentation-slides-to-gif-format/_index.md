@@ -45,7 +45,7 @@ Du kan anpassa GIF-genereringsprocessen genom att justera parametrar som bildens
 
 ```csharp
 GifOptions gifOptions = new GifOptions(){
-FrameSize = new Size(800, 600), // storleken på den resulterande GIF
+FrameSize = new Size(800, 600), // storleken på den resulterande GIF-filen
 DefaultDelay = 2000, // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
 TransitionFps = 35 // öka FPS till bättre övergångsanimationskvalitet
 }
@@ -94,7 +94,7 @@ class Program
         using Presentation pres = new Presentation("presentation.pptx");
 
         GifOptions gifOptions = new GifOptions(){
-        FrameSize = new Size(800, 600), // storleken på den resulterande GIF
+        FrameSize = new Size(800, 600), // storleken på den resulterande GIF-filen
         DefaultDelay = 2000, // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
         TransitionFps = 35 // öka FPS till bättre övergångsanimationskvalitet
         }
@@ -110,7 +110,7 @@ class Program
 
 ## Slutsats
 
-I den här artikeln undersökte vi hur man konverterar presentationsbilder till GIF-format med Aspose.Slides för .NET. Vi täckte installationen av biblioteket, laddade en presentation, anpassade GIF-alternativ och hanterade undantag. Genom att följa den steg-för-steg-guide och använda de medföljande kodavsnitten kan du enkelt integrera den här funktionen i dina applikationer och förbättra det visuella tilltalande av dina presentationer.
+den här artikeln undersökte vi hur man konverterar presentationsbilder till GIF-format med Aspose.Slides för .NET. Vi täckte installationen av biblioteket, laddade en presentation, anpassade GIF-alternativ och hanterade undantag. Genom att följa den steg-för-steg-guide och använda de medföljande kodavsnitten kan du enkelt integrera den här funktionen i dina applikationer och förbättra det visuella tilltalande av dina presentationer.
 
 ## FAQ's
 

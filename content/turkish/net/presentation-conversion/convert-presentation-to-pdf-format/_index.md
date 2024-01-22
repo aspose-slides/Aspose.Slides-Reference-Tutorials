@@ -49,7 +49,7 @@ using FileStream outputPdf = new FileStream("output.pdf", FileMode.Create);
 presentation.Save(outputPdf, SaveFormat.Pdf);
 ```
 
-## Gelişmiş Seçenekler (İsteğe Bağlı)
+## Gelişmiş Seçenekler (İsteğe bağlı)
 
 ### PDF Seçeneklerini Ayarlama
 
@@ -94,7 +94,7 @@ Aspose.Slides for .NET ile sunumları PDF formatına dönüştürmek artık çok
 
 ### Aspose.Slides for .NET'in maliyeti ne kadar?
 
- Detaylı fiyat bilgisi için lütfen adresini ziyaret ediniz.[Aspose.Slides Fiyatlandırması](https://purchase.aspose.com/admin/pricing/slides/family) sayfa.
+Detaylı fiyat bilgisi için lütfen adresini ziyaret ediniz.[Aspose.Slides Fiyatlandırması](https://purchase.aspose.com/admin/pricing/slides/family) sayfa.
 
 ### Aspose.Slides for .NET'i web uygulamamda kullanabilir miyim?
 

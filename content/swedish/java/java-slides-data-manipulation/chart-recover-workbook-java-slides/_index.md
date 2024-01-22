@@ -44,7 +44,7 @@ lo.getSpreadsheetOptions().setRecoverWorkbookFromChartCache(true);
 Presentation pres = new Presentation(pptxFile, lo);
 ```
 
-## Steg 4: Få åtkomst till sjökortsdata
+## Steg 4: Få tillgång till sjökortsdata
 
 Nu kan du komma åt diagramdata och återställa arbetsboken:
 
@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    //Utför åtgärder på arbetsboksdata här
+    //Utför operationer på arbetsboksdata här
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally

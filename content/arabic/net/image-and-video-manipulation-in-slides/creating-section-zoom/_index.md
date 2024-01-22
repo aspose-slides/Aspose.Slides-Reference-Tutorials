@@ -1,126 +1,72 @@
 ---
-title: إنشاء تكبير القسم في شرائح العرض التقديمي باستخدام Aspose.Slides
+title: تكبير قسم Aspose.Slides - ارتقِ بعروضك التقديمية
 linktitle: إنشاء تكبير القسم في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إنشاء شرائح عرض تقديمي جذابة وتفاعلية مع تكبير الأقسام باستخدام Aspose.Slides for .NET. اتبع هذا الدليل خطوة بخطوة مع كود المصدر الكامل لتحسين عروضك التقديمية وإشراك جمهورك بفعالية.
+description: تعرف على كيفية إنشاء شرائح عرض تقديمي جذابة مع تكبير القسم باستخدام Aspose.Slides for .NET. ارفع مستوى عروضك التقديمية باستخدام الميزات التفاعلية.
 type: docs
 weight: 13
 url: /ar/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
-
-## مقدمة إلى قسم التكبير
-
-تعد تكبيرات الأقسام طريقة رائعة لتنظيم الأجزاء المختلفة من العرض التقديمي والتنقل عبرها دون الحاجة إلى التنقل بين الشرائح يدويًا. إنها توفر تدفقًا منظمًا للمحتوى الخاص بك وتسمح لك بالتعمق في موضوعات محددة مع الحفاظ على نظرة عامة واضحة. باستخدام Aspose.Slides for .NET، يمكنك بسهولة تنفيذ تكبير/تصغير القسم في العرض التقديمي الخاص بك، مما يضيف لمسة من الاحترافية والتفاعلية.
-
-## الشروع في العمل مع Aspose.Slides لـ .NET
-
-قبل أن نبدأ، دعنا نتأكد من أن لديك الأدوات اللازمة والبيئة التي تم إعدادها للعمل مع Aspose.Slides for .NET.
-
-1.  تنزيل Aspose.Slides وتثبيته: ابدأ بتنزيل Aspose.Slides لمكتبة .NET من موقع الويب:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/). اتبع تعليمات التثبيت لدمجها في مشروعك.
-
-2. إنشاء مشروع جديد: افتح بيئة التطوير المتكاملة (IDE) المفضلة لديك وقم بإنشاء مشروع .NET جديد.
-
-3. إضافة مرجع Aspose.Slides: أضف مرجعًا إلى مكتبة Aspose.Slides في مشروعك.
-
-## إضافة أقسام إلى العرض التقديمي الخاص بك
-
-في هذا القسم، سوف نتعلم كيفية تنظيم العرض التقديمي الخاص بك إلى أقسام، والتي ستكون بمثابة الأساس لإنشاء تكبيرات للأقسام.
-
-لإضافة أقسام إلى العرض التقديمي، اتبع الخطوات التالية:
-
-1.  إنشاء مثيل جديد لـ`Presentation` فئة من Aspose.Slides.
-
+## مقدمة
+يعد تحسين شرائح العرض التقديمي الخاص بك باستخدام الميزات التفاعلية أمرًا بالغ الأهمية للحفاظ على تفاعل جمهورك. إحدى الطرق الفعالة لتحقيق ذلك هي دمج تكبير الأقسام، مما يسمح لك بالتنقل بسلاسة بين الأقسام المختلفة للعرض التقديمي الخاص بك. في هذا البرنامج التعليمي، سوف نستكشف كيفية إنشاء تكبير/تصغير للأقسام في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
+## المتطلبات الأساسية
+قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+-  Aspose.Slides for .NET: تأكد من تثبيت مكتبة Aspose.Slides. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/net/).
+- بيئة التطوير: قم بإعداد بيئة تطوير .NET المفضلة لديك.
+## استيراد مساحات الأسماء
+ابدأ باستيراد مساحات الأسماء الضرورية إلى مشروع .NET الخاص بك. تضمن هذه الخطوة أن يكون لديك حق الوصول إلى وظائف Aspose.Slides.
 ```csharp
+using System;
+using System.Drawing;
+using System.IO;
 using Aspose.Slides;
-// ...
-Presentation presentation = new Presentation();
+using Aspose.Slides.Export;
 ```
-
-2. أضف شرائح إلى العرض التقديمي الخاص بك وقم بتجميعها في أقسام.
-
+## الخطوة 1: قم بإعداد مشروعك
+قم بإنشاء مشروع .NET جديد أو افتح مشروعًا موجودًا في بيئة التطوير الخاصة بك.
+## الخطوة 2: تحديد مسارات الملفات
+قم بتعريف المسارات الخاصة بدليل المستندات وملف الإخراج.
 ```csharp
-// إضافة الشرائح
-ISlide slide1 = presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
-ISlide slide2 = presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
-
-// إضافة أقسام
-presentation.SectionSlides.AddSection(slide1, "Introduction");
-presentation.SectionSlides.AddSection(slide2, "Main Content");
+string dataDir = "Your Documents Directory";
+string resultPath = Path.Combine(dataDir, "SectionZoomPresentation.pptx");
 ```
-
-## إنشاء تكبير القسم
-
-الآن بعد أن قمت بتنظيم العرض التقديمي الخاص بك إلى أقسام، فلنتابع إنشاء تكبيرات للأقسام تسمح بالتنقل السلس بين هذه الأقسام.
-
-1. قم بإنشاء شريحة جديدة ستكون بمثابة شريحة "جدول المحتويات" التي تحتوي على ارتباطات تشعبية للأقسام الخاصة بك.
-
+## الخطوة 3: إنشاء عرض تقديمي
+قم بتهيئة كائن عرض تقديمي جديد وأضف شريحة فارغة إليه.
 ```csharp
-ISlide tocSlide = presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
+using (Presentation pres = new Presentation())
+{
+    ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
+    // يمكن إضافة رمز إعداد الشريحة الإضافي هنا
+}
 ```
-
-2. أضف أشكالًا قابلة للنقر عليها إلى شريحة "جدول المحتويات"، ويرتبط كل منها بقسم معين.
-
+## الخطوة 4: إضافة قسم
+إلى العرض التقديمي الخاص بك، قم بإضافة قسم جديد. تعمل الأقسام كحاويات لتنظيم الشرائح الخاصة بك.
 ```csharp
-// إضافة أشكال قابلة للنقر
-IShape introShape = tocSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 50);
-introShape.TextFrame.Text = "Introduction";
-introShape.ActionSettings.HyperlinkClick = new HyperlinkClick(presentation.SectionSlides[0]);
-
-IShape contentShape = tocSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 200, 200, 50);
-contentShape.TextFrame.Text = "Main Content";
-contentShape.ActionSettings.HyperlinkClick = new HyperlinkClick(presentation.SectionSlides[1]);
+pres.Sections.AddSection("Section 1", slide);
 ```
-
-## تخصيص سلوك تكبير القسم
-
-يمكنك تخصيص سلوك تكبير/تصغير القسم ليناسب احتياجات العرض التقديمي الخاص بك. على سبيل المثال، يمكنك تحديد ما إذا كان القسم الذي تم تكبيره/تصغيره يبدأ تلقائيًا أم بنقرة المستخدم.
-
-لبدء تكبير/تصغير القسم تلقائيًا:
-
+## الخطوة 5: أدخل إطار تكبير القسم
+الآن، قم بإنشاء كائن sectionZoomFrame داخل شريحتك. سيحدد هذا الإطار المنطقة المراد تكبيرها.
 ```csharp
-presentation.SlideShowSettings.ShowType = SlideShowType.SectionZoom;
-presentation.SlideShowSettings.StartingSlide = presentation.SectionSlides[0];
+ISectionZoomFrame sectionZoomFrame = pres.Slides[0].Shapes.AddSectionZoomFrame(20, 20, 300, 200, pres.Sections[1]);
 ```
-
-لبدء تكبير القسم بنقرة المستخدم:
-
+## الخطوة 6: تخصيص إطار تكبير القسم
+اضبط أبعاد وموضع sectionZoomFrame وفقًا لتفضيلاتك.
+## الخطوة 7: احفظ العرض التقديمي الخاص بك
+احفظ العرض التقديمي الخاص بك بتنسيق PPTX للحفاظ على وظيفة تكبير القسم.
 ```csharp
-presentation.SlideShowSettings.ShowType = SlideShowType.SectionZoom;
-presentation.SlideShowSettings.StartingSlide = presentation.Slides[0];
+pres.Save(resultPath, SaveFormat.Pptx);
 ```
-
-## إضافة كود المصدر كمرجع
-
-فيما يلي مقتطف من التعليمات البرمجية المصدر يوضح عملية إنشاء تكبيرات للأقسام باستخدام Aspose.Slides لـ .NET:
-
-```csharp
-// كود المصدر الخاص بك هنا
-```
-
-للحصول على كود المصدر الكامل والتنفيذ التفصيلي، راجع[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
-
+تهانينا! لقد نجحت في إنشاء عرض تقديمي مع تكبير القسم باستخدام Aspose.Slides لـ .NET.
 ## خاتمة
-
-في هذا الدليل، اكتشفنا العالم المثير لتكبير/تصغير الأقسام في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. لقد تعلمنا كيفية تنظيم عرضنا التقديمي إلى أقسام، وإنشاء أشكال قابلة للنقر عليها للتنقل، وتخصيص سلوك تكبير القسم. من خلال دمج تكبير القسم، يمكنك إنشاء عروض تقديمية جذابة وتفاعلية تجذب انتباه جمهورك. الآن، تفضل وقم بتجربتها!
-
-## الأسئلة الشائعة
-
-### كيف يمكنني تنزيل Aspose.Slides لـ .NET؟
-
- يمكنك تنزيل مكتبة Aspose.Slides for .NET من موقع Aspose الإلكتروني:[تنزيل Aspose.Slides لـ .NET](https://releases.aspose.com/slides/net/).
-
-### هل يمكنني تخصيص مظهر الأشكال القابلة للنقر؟
-
-نعم، يمكنك تخصيص مظهر الأشكال القابلة للنقر عن طريق ضبط خصائصها، مثل اللون والحجم والخط.
-
-### هل يتوفر تكبير القسم في جميع تخطيطات الشرائح؟
-
-نعم، يمكنك تنفيذ تكبير/تصغير القسم في الشرائح بتخطيطات مختلفة. تظل العملية كما هي بغض النظر عن تخطيط الشريحة.
-
-### هل يمكنني إنشاء تكبير/تصغير للقسم بين الشرائح غير المتتالية؟
-
-نعم، يتيح لك Aspose.Slides إنشاء تكبير/تصغير للقسم بين الشرائح غير المتتالية، مما يوفر المرونة في تصميم تدفق العرض التقديمي الخاص بك.
-
-### كيف أقوم بإضافة رسوم متحركة إلى تكبير القسم؟
-
-تكبير القسم نفسه لا يدعم الرسوم المتحركة. ومع ذلك، يمكنك دمج تكبير/تصغير القسم مع الحركات والانتقالات الأخرى لإنشاء تجربة عرض تقديمي ديناميكية.
+يمكن أن تؤدي إضافة تكبير/تصغير القسم إلى شرائح العرض التقديمي إلى تحسين تجربة المشاهد بشكل كبير. يوفر Aspose.Slides for .NET طريقة قوية وسهلة الاستخدام لتنفيذ هذه الميزة، مما يسمح لك بإنشاء عروض تقديمية جذابة وتفاعلية دون عناء.
+## أسئلة مكررة
+### هل يمكنني إضافة تكبيرات لأقسام متعددة في عرض تقديمي واحد؟
+نعم، يمكنك إضافة تكبيرات أقسام متعددة إلى أقسام مختلفة داخل نفس العرض التقديمي.
+### هل Aspose.Slides متوافق مع Visual Studio؟
+نعم، يتكامل Aspose.Slides بسلاسة مع Visual Studio لتطوير .NET.
+### هل يمكنني تخصيص مظهر إطار تكبير القسم؟
+قطعاً! لديك التحكم الكامل في أبعاد إطار تكبير القسم وموضعه وتصميمه.
+### هل هناك نسخة تجريبية متاحة لـ Aspose.Slides؟
+ نعم، يمكنك استكشاف ميزات Aspose.Slides باستخدام[تجربة مجانية](https://releases.aspose.com/).
+### أين يمكنني الحصول على الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟
+ للحصول على أي دعم أو استفسارات، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).

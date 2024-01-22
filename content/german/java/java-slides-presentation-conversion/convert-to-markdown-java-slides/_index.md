@@ -135,4 +135,4 @@ Ja, Aspose.Slides für Java ist sowohl für kleine als auch große Konvertierung
 
 ### Wo finde ich weitere Dokumentation und Ressourcen?
 
- Weitere Informationen finden Sie in der Dokumentation zu Aspose.Slides für Java unter[Aspose.Slides für Java-API-Referenzen](https://reference.aspose.com/slides/java/) Ausführliche Informationen und weitere Beispiele finden Sie hier.
+ Weitere Informationen finden Sie in der Dokumentation zu Aspose.Slides für Java unter[Aspose.Slides für Java-API-Referenzen](https://reference.aspose.com/slides/java/) Ausführliche Informationen und zusätzliche Beispiele finden Sie hier.

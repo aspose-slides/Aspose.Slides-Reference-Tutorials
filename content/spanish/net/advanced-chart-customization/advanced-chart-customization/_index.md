@@ -146,7 +146,7 @@ Aquí, usted especifica el rango de valores que debe mostrar el eje del gráfico
 También puede personalizar las propiedades de texto del eje de valores.
 
 ```csharp
-// Configuración de las propiedades del texto del eje de valores
+// Configuración de las propiedades del texto del eje de valor
 IChartPortionFormat txtVal = chart.Axes.VerticalAxis.TextFormat.PortionFormat;
 txtVal.FontBold = NullableBool.True;
 txtVal.FontHeight = 16;

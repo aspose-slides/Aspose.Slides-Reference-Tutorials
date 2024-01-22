@@ -59,7 +59,7 @@ pres.save(dataDir + "AsposeClusteredColumnChart.pptx", SaveFormat.Pptx);
 
 هذا كل شيء! لقد نجحت في إنشاء مخطط عمودي متفاوت المسافات وتعيين محور الموضع بين الفئات باستخدام Aspose.Slides لـ Java.
 
-## استكمال كود المصدر
+## كود المصدر الكامل
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();

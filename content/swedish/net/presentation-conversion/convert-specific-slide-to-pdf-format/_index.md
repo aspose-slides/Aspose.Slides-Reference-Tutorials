@@ -51,7 +51,7 @@ I denna kod:
 -  Byta ut`"Your Document Directory"`med katalogsökvägen där din PowerPoint-presentationsfil finns.
 -  Byta ut`"Your Output Directory"` med katalogen där du vill spara den konverterade PDF-filen.
 
-## Steg 3: Köra koden
+## Steg 3: Kör koden
 
 Bygg och kör ditt projekt. Koden kommer att köras och specifika bilder (i det här fallet bild 1 och 3) från din PowerPoint-presentation kommer att konverteras till PDF-format och sparas i den angivna utdatakatalogen.
 

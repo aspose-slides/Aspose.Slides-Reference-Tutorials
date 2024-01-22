@@ -127,7 +127,7 @@ Medan Aspose.Slides för Java ger robusta konverteringsmöjligheter, kan komplex
 
 ### Kan jag konvertera Markdown tillbaka till ett presentationsformat?
 
-Nej, denna process är enkelriktad. Det konverterar presentationer till Markdown för att skapa webbinnehåll.
+Nej, den här processen är enkelriktad. Det konverterar presentationer till Markdown för att skapa webbinnehåll.
 
 ### Är Aspose.Slides för Java lämplig för storskaliga konverteringar?
 

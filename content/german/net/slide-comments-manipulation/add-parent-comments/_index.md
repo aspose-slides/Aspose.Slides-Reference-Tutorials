@@ -22,7 +22,7 @@ Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfü
 
 Nachdem wir nun die Voraussetzungen erfüllt haben, fahren wir mit dem Import der erforderlichen Namespaces fort.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Zunächst müssen Sie die relevanten Namespaces in Ihr Projekt importieren. Diese Namespaces stellen die Klassen und Methoden bereit, die für die Arbeit mit Aspose.Slides für .NET erforderlich sind.
 
