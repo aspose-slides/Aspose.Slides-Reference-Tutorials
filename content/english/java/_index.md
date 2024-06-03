@@ -63,3 +63,19 @@ Learn how to handle images in Java slides using Aspose.Slides for Java tutorials
 Learn how to enhance the security of your Java Slides documents with Aspose.Slides. Explore step-by-step tutorials for document protection.
 ### [Java Slides Saving Options](./saving-options/)
 Learn about Java Slides saving options with Aspose.Slides for Java. Explore comprehensive tutorials and guides for efficient slide management and customization.
+
+### [Java PowerPoint Save Operations](./java-powerpoint-save-operations/)
+
+### [Java PowerPoint Properties Management](./java-powerpoint-properties-management/)
+
+### [Java PowerPoint Rendering Techniques](./java-powerpoint-rendering-techniques/)
+
+### [Java PowerPoint Shape and Media Insertion](./java-powerpoint-shape-media-insertion/)
+
+### [Java PowerPoint Shape and Thumbnail Creation](./java-powerpoint-shape-thumbnail-creation/)
+
+### [Java PowerPoint Animation and Shape Manipulation](./java-powerpoint-animation-shape-manipulation/)
+
+### [Java PowerPoint Shape Formatting and Geometry](./java-powerpoint-shape-formatting-geometry/)
+
+### [Java PowerPoint Slide Cloning Techniques](./java-powerpoint-slide-cloning-techniques/)

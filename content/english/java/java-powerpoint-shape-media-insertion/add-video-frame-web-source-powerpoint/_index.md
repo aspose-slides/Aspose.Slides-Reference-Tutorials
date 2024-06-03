@@ -1,0 +1,79 @@
+---
+title: Add Video Frame from Web Source in PowerPoint
+linktitle: Add Video Frame from Web Source in PowerPoint
+second_title: Aspose.Slides Java PowerPoint Processing API
+description: 
+type: docs
+weight: 18
+url: /java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
+---
+
+## Complete Source Code
+```java
+package com.aspose.slides.examples.shapes;
+
+import com.aspose.slides.IVideoFrame;
+import com.aspose.slides.Presentation;
+import com.aspose.slides.SaveFormat;
+import com.aspose.slides.VideoPlayModePreset;
+import com.aspose.slides.examples.RunExamples;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
+
+
+public class AddVideoFrameFromWebSource
+{
+    //ExStart:AddVideoFrameFromWebSource
+    public static void main(String[] args) throws IOException
+    {
+        // The path to the documents directory.
+        String dataDir = RunExamples.getDataDir_Shapes();
+
+        Presentation pres = new Presentation();
+        try
+        {
+            addVideoFromYouTube(pres, "jfTqRWoYIe8");
+            pres.save(dataDir + "AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx);
+        }
+        finally
+        {
+            if (pres != null) pres.dispose();
+        }
+    }
+
+    private static void addVideoFromYouTube(Presentation pres, String videoId) throws IOException
+    {
+        //add videoFrame
+        IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/" + videoId);
+        videoFrame.setPlayMode(VideoPlayModePreset.Auto);
+        // https://www.youtube.com/watch?v=jfTqRWoYIe8
+        //load thumbnail
+        String thumbnailUri = "https://www.youtube.com/watch?v=" + videoId;
+        URL url = new URL(thumbnailUri);
+        URLConnection connection = url.openConnection();
+        connection.setConnectTimeout(5000);
+        connection.setReadTimeout(10000);
+        try (InputStream input = connection.getInputStream();
+             ByteArrayOutputStream output = new ByteArrayOutputStream())
+        {
+            byte[] buffer = new byte[8192];
+            for (int count; (count = input.read(buffer)) > 0; )
+            {
+                output.write(buffer, 0, count);
+            }
+            output.toByteArray();
+            videoFrame.getPictureFormat().getPicture().setImage(pres.getImages().addImage(output.toByteArray()));
+        }
+    }
+    //ExEnd:AddVideoFrameFromWebSource
+}
+
+
+
+
+
+```
