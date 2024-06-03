@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/change-shape-order-power
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -22,7 +22,7 @@ public class ChangeShapeOrder
     {
         //ExStart:ChangeShapeOrder
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         Presentation presentation1 = new Presentation(dataDir + "HelloWorld.pptx");
         try

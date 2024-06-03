@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -23,7 +23,7 @@ public class CloneShapes
         //ExStart:CloneShapes
 
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Instantiate Presentation class
         Presentation srcPres = new Presentation(dataDir + "Source Frame.pptx");

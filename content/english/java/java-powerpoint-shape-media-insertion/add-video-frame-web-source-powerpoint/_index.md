@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powe
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.IVideoFrame;
 import com.aspose.slides.Presentation;
@@ -31,7 +31,7 @@ public class AddVideoFrameFromWebSource
     public static void main(String[] args) throws IOException
     {
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         Presentation pres = new Presentation();
         try

@@ -10,7 +10,7 @@ url: /java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.rendering.printing;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;

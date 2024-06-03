@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-con
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -22,7 +22,7 @@ public class ConnectShapeUsingConnectionSite
     {
         //ExStart:ConnectShapeUsingConnectionSite
         // The path to the documents directory.                    
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Instantiate Presentation class that represents the PPTX file
         Presentation presentation = new Presentation();

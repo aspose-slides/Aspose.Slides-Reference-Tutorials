@@ -10,7 +10,7 @@ url: /java/java-powerpoint-properties-management/modify-built-in-properties-powe
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.presentations;
+
 
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;

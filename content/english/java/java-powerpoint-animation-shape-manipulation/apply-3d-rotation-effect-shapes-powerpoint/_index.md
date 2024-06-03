@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -22,7 +22,7 @@ public class Apply3DRotationEffectOnShape
     {
         //ExStart:Apply3DRotationEffecrOnShapes
         // The path to the documents directory.                    
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Create an instance of Presentation class
         Presentation pres = new Presentation();

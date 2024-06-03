@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -28,7 +28,7 @@ public class AddOLEObjectFrame
         //ExStart:AddOLEObjectFrame
 
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
         String outPath = RunExamples.getOutPath();
 
         // Create directory if it is not already present.

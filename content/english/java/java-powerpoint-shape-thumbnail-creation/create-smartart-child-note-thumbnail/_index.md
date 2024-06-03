@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-t
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
@@ -30,7 +30,7 @@ public class CreateSmartArtChildNoteThumbnail
     {
         //ExStart:CreateSmartArtChildNoteThumbnail
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Instantiate Presentation class that represents the PPTX file 
         Presentation pres = new Presentation();

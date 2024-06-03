@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
@@ -27,7 +27,7 @@ public class AddPlainLineToSlide
     {
         //ExStart:AddPlainLineToSlide
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Create directory if it is not already present.
         boolean IsExists = new File(dataDir).exists();

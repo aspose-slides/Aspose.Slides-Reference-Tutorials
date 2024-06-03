@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powe
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;

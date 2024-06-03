@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animat
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;/*
+
  * Copyright (c) 2009-2021 Aspose Pty Ltd. All Rights Reserved.
  */
 
@@ -25,7 +25,7 @@ public class AnimationTargetShapes
     {
         //ExStart:AnimationTargetShapes
         // Path to source presentation
-        String presentationFileName = RunExamples.getDataDir_Shapes() + "AnimationShapesExample.pptx";
+        String presentationFileName = "Your Document Directory" + "AnimationShapesExample.pptx";
 
         Presentation pres = new Presentation(presentationFileName);
         try {

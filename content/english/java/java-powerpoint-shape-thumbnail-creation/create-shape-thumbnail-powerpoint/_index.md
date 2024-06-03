@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-power
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.Presentation;
 import com.aspose.slides.examples.RunExamples;
@@ -27,7 +27,7 @@ public class CreateShapeThumbnail
     {
         //ExStart:CreateShapeThumbnail
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Instantiate a Presentation class that represents the presentation file
         Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");

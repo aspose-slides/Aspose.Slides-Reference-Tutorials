@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;/*
+
  * Copyright (c) 2009-2021 Aspose Pty Ltd. All Rights Reserved.
  */
 
@@ -30,7 +30,7 @@ public class CreateZoomFrame
         String resultPath = RunExamples.getOutPath() + "ZoomFramePresentation.pptx";
 
         // Path to source image
-        String imagePath = RunExamples.getDataDir_Shapes() + "aspose-logo.jpg";
+        String imagePath = "Your Document Directory" + "aspose-logo.jpg";
 
         Presentation pres = new Presentation();
         try {

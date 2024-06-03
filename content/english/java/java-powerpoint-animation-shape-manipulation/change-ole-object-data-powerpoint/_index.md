@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-p
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
@@ -27,7 +27,7 @@ public class ChangeOLEObjectData
     {
         //ExStart:ChangeOLEObjectData
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         Presentation pres = new Presentation(dataDir + "ChangeOLEObjectData.pptx");
         try

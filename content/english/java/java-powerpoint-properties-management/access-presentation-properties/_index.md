@@ -10,7 +10,7 @@ url: /java/java-powerpoint-properties-management/access-presentation-properties/
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.presentations;
+
 
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;

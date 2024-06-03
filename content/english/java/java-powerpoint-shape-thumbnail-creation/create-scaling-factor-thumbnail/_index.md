@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbn
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
@@ -28,7 +28,7 @@ public class CreateScalingFactorThumbnail
     {
         //ExStart:CreateScalingFactorThumbnail
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Instantiate a Presentation class that represents the presentation file
         Presentation p = new Presentation(dataDir + "HelloWorld.pptx");

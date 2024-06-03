@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnai
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
@@ -28,7 +28,7 @@ public class CreateBoundsShapeThumbnail
     {
         //ExStart:CreateBoundsShapeThumbnail
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Instantiate a Presentation class that represents the presentation file
         Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");

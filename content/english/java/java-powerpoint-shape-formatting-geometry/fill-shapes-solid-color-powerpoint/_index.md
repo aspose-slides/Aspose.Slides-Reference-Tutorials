@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-pow
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -24,7 +24,7 @@ public class FillShapeswithSolidColor
     {
         //ExStart:FillShapeswithSolidColor
         // The path to the documents directory.                    
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Create an instance of Presentation class
         Presentation presentation = new Presentation();

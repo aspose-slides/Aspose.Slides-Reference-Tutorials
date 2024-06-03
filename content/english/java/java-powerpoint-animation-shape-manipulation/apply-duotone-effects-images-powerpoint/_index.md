@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects-im
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -30,7 +30,7 @@ public class DuotoneEffectsPVI
         //ExStart:DuotoneEffectsPVI
         Presentation presentation = new Presentation();
         try {
-            byte[] imageBytes = Files.readAllBytes(Paths.get(RunExamples.getDataDir_Shapes() + "aspose-logo.jpg"));
+            byte[] imageBytes = Files.readAllBytes(Paths.get("Your Document Directory" + "aspose-logo.jpg"));
 
             // Add image to presentation
             IPPImage backgroundImage = presentation.getImages().addImage(imageBytes);

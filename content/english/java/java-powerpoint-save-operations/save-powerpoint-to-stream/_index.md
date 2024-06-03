@@ -10,7 +10,7 @@ url: /java/java-powerpoint-save-operations/save-powerpoint-to-stream/
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.presentations.saving;
+
 
 import com.aspose.slides.IAutoShape;
 import com.aspose.slides.Presentation;

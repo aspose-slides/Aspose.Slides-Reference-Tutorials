@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-da
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
@@ -30,7 +30,7 @@ public class ExtractEmbeddedFileDataFromOLEObject
         //ExStart:ExtractEmbeddedFileDataFromOLEObject
 
         // The documents directory path.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         String pptxFileName = dataDir + "TestOlePresentation.pptx";
         Presentation pres = new Presentation(pptxFileName);

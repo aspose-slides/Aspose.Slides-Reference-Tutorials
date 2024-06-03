@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -26,7 +26,7 @@ public class EmbeddedVideoFrame
     {
         //ExStart:EmbeddedVideoFrame
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
         String videoDir = RunExamples.getDataDir_Video();
         String resultPath = RunExamples.getOutPath() + "VideoFrame_out.pptx";
 

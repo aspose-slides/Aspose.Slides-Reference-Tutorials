@@ -10,7 +10,7 @@ url: /java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -22,7 +22,7 @@ public class ConnectorLineAngle
     public static void main(String[] args)
     {
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         Presentation pres = new Presentation(dataDir + "ConnectorLineAngle.pptx");
         Slide slide = (Slide) pres.getSlides().get_Item(0);

@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoin
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -22,7 +22,7 @@ public class CreateGroupShape
     {
         //ExStart:CreateGroupShape
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Instantiate Prseetation class 
         Presentation pres = new Presentation();

@@ -14,7 +14,7 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoi
  * Copyright (c) 2009-2021. Aspose Pty Ltd. All Rights Reserved.
  */
 
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;

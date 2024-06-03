@@ -10,7 +10,7 @@ url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-positi
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.slides.crud;
+
 
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;

@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-po
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;
@@ -25,7 +25,7 @@ public class FormattedEllipse
     {
         //ExStart:FormattedEllipse
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Create directory if it is not already present.
         boolean IsExists = new File(dataDir).exists();

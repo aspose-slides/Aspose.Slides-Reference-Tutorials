@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoi
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;/*
+
  * Copyright (c) 2009-2021 Aspose Pty Ltd. All Rights Reserved.
  */
 

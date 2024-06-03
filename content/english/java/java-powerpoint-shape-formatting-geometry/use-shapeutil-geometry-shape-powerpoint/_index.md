@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shap
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.*;
 import com.aspose.slides.examples.RunExamples;

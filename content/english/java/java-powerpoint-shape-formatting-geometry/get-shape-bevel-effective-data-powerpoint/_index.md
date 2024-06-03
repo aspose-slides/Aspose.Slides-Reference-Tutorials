@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-d
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
@@ -25,7 +25,7 @@ public class GetShapeBevelEffectiveData
         //ExStart:GetShapeBevelEffectiveData
 
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         Presentation pres = new Presentation(dataDir + "Presentation1.pptx");
         try

@@ -10,7 +10,7 @@ url: /java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.rendering.printing;
+
 
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;

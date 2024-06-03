@@ -10,7 +10,7 @@ url: /java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint
 
 ## Complete Source Code
 ```java
-package com.aspose.slides.examples.shapes;
+
 
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
@@ -26,7 +26,7 @@ public class FindShapeInSlide
     public static void main(String[] args)
     {
         // The path to the documents directory.
-        String dataDir = RunExamples.getDataDir_Shapes();
+        String dataDir = "Your Document Directory";
 
         // Create directory if it is not already present.
         boolean IsExists = new File(dataDir).exists();
