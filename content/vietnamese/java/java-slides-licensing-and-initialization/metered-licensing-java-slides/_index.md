@@ -2,7 +2,7 @@
 title: Cấp phép theo định mức trong Java Slides
 linktitle: Cấp phép theo định mức trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tối ưu hóa việc sử dụng Aspose.Slides của bạn cho Java bằng Metered Licensing. Tìm hiểu cách thiết lập và theo dõi mức tiêu thụ API của bạn.
+description: Tối ưu hóa việc sử dụng Aspose.Slides của bạn cho Java bằng Metered Licensing. Tìm hiểu cách thiết lập và theo dõi mức sử dụng API của bạn.
 type: docs
 weight: 10
 url: /vi/java/licensing-and-initialization/metered-licensing-java-slides/
@@ -71,7 +71,7 @@ try
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Hiển thị thông tin
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// Nhận lượng dữ liệu được đo sau khi gọi API
+	//Nhận lượng dữ liệu được đo sau khi gọi API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Hiển thị thông tin
 	System.out.println("Amount Consumed After: " + amountafter);

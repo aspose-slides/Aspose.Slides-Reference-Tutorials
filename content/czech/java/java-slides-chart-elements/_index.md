@@ -12,7 +12,7 @@ Jste připraveni posunout své prezentační dovednosti na další úroveň? Pon
 
 ## Odemkněte Power of Aspose.Slides pro Java
 
-Aspose.Slides for Java je výkonné API, které umožňuje vývojářům a prezentačním nadšencům vytvářet úžasné snímky bez námahy. Pokud vás nebaví statické, nezáživné prezentace a chcete do svých snímků vnést život a interaktivitu, jste na správném místě.
+Aspose.Slides for Java je výkonné rozhraní API, které umožňuje vývojářům a nadšencům prezentací vytvářet úžasné snímky bez námahy. Pokud vás nebaví statické, nezáživné prezentace a chcete do svých snímků vnést život a interaktivitu, jste na správném místě.
 
 ## Proč Java Slides?
 
@@ -40,7 +40,7 @@ Jste připraveni posunout své dovednosti na další úroveň? Prozkoumejte pokr
 
 ## Pozvedněte své prezentace ještě dnes!
 
-Nespokojte se s nudnými a neinspirativními prezentacemi. S Aspose.Slides for Java můžete zaujmout své publikum dynamickými grafy a poutavým obsahem. Ať už jste vývojář nebo nadšenec do prezentací, naše výukové programy vás vybaví dovednostmi, abyste zazářil ve světě Java Slides.
+Nespokojte se s nudnými a neinspirativními prezentacemi. S Aspose.Slides for Java můžete zaujmout své publikum dynamickými grafy a poutavým obsahem. Ať už jste vývojář nebo prezentační nadšenec, naše výukové programy vás vybaví dovednostmi, abyste zazářil ve světě Java Slides.
 
 Připojte se k nám na této vzrušující cestě zvládnutí prvků grafu pomocí Aspose.Slides pro Java. Přeměňme vaše prezentace v nezapomenutelné zážitky!
 ## Výukové programy prvků Java Slides Chart Elements
@@ -54,7 +54,7 @@ Vylepšete své prezentace v PowerPointu pomocí Aspose.Slides for Java. Naučte
 Vylepšete prezentace v PowerPointu pomocí Aspose.Slides pro Java. V našem podrobném průvodci se dozvíte, jak přizpůsobit velikosti písma legendy a další.
 ### [Graf trychtýře v Java Slides](./funnel-chart-java-slides/)
 Prozkoumejte Aspose.Slides pro Javu pomocí podrobných výukových programů. Vytvářejte úžasné trychtýřové grafy a další.
-### [Map Chart v Java Slides](./map-chart-java-slides/)
+### [Mapový graf v Java Slides](./map-chart-java-slides/)
 Vytvářejte úžasné mapové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce a zdrojový kód pro vývojáře v jazyce Java.
 ### [Sunburst Chart v Java Slides](./sunburst-chart-java-slides/)
 Vytvářejte úžasné grafy Sunburst v Java Slides pomocí Aspose.Slides. Naučte se krok za krokem vytvářet grafy a manipulovat s daty.

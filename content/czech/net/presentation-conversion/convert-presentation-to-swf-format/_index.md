@@ -14,7 +14,7 @@ V dnešní digitální době jsou multimediální prezentace mocným komunikačn
 
 Než se pustíme do výukového programu, ujistěte se, že máte následující:
 
--  Aspose.Slides pro .NET: Pokud jej ještě nemáte, můžete[stáhněte si jej zde](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides pro .NET: Pokud jej ještě nemáte, můžete[stáhněte si to zde](https://releases.aspose.com/slides/net/).
 
 - Soubor prezentace: Budete potřebovat soubor prezentace PowerPoint, který chcete převést do formátu SWF.
 
@@ -68,7 +68,7 @@ notesOptions.NotesPosition = NotesPositions.BottomFull;
 
 Tyto možnosti můžete upravit podle svých požadavků.
 
-## Krok 4: Uložte jako SWF
+## Krok 4: Uložit jako SWF
 
 Nyní uložíme prezentaci jako soubor SWF:
 
@@ -103,7 +103,7 @@ SWF (Shockwave Flash) je multimediální formát používaný pro animace, hry a
 ### Je Aspose.Slides for .NET zdarma k použití?
  Aspose.Slides for .NET nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si možná budete muset zakoupit licenci. Můžete zkontrolovat ceny a podrobnosti o licencích[tady](https://purchase.aspose.com/buy).
 
-### Mohu vyzkoušet Aspose.Slides pro .NET před zakoupením licence?
+### Mohu si Aspose.Slides for .NET vyzkoušet před zakoupením licence?
  Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro .NET[tady](https://releases.aspose.com/).
 
 ### Potřebuji znalosti programování, abych mohl používat Aspose.Slides pro .NET?

@@ -72,7 +72,7 @@ Bằng cách làm theo các bước này, bạn có thể dễ dàng chuyển đ
 
 ### Làm cách nào tôi có thể tùy chỉnh giao diện của đầu ra HTML5?
 
-Bạn có thể tùy chỉnh giao diện của đầu ra HTML5 bằng cách đặt các tùy chọn khác nhau trong`Html5Options` lớp học. Tham khảo đến[tài liệu](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) để biết các tùy chọn tùy chỉnh có sẵn.
+ Bạn có thể tùy chỉnh giao diện của đầu ra HTML5 bằng cách đặt các tùy chọn khác nhau trong`Html5Options`lớp học. Tham khảo đến[tài liệu](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) để biết các tùy chọn tùy chỉnh có sẵn.
 
 ### Tôi có thể chuyển đổi bản trình bày có hoạt ảnh và chuyển tiếp không?
 

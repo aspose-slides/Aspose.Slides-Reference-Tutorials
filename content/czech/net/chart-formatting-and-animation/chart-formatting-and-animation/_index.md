@@ -14,7 +14,7 @@ Vytváření působivých prezentací s dynamickými grafy a animacemi může v�
 
 Než se ponoříte do formátování a animace grafu pomocí Aspose.Slides, budete potřebovat následující:
 
-1.  Aspose.Slides pro .NET: Ujistěte se, že jste nainstalovali Aspose.Slides pro .NET. Pokud jste to ještě neudělali, můžete[stáhněte si jej zde](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides pro .NET: Ujistěte se, že jste nainstalovali Aspose.Slides pro .NET. Pokud jste to ještě neudělali, můžete[stáhněte si to zde](https://releases.aspose.com/slides/net/).
 
 2. Stávající prezentace: Vytvořte existující prezentaci, která obsahuje graf, který chcete formátovat a animovat.
 

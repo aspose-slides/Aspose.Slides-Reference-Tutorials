@@ -55,11 +55,11 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- ในข้อมูลโค้ดนี้ ให้แทนที่`"Your Document Directory"`ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณและ`"YourPresentation.pptx"` ด้วยชื่องานนำเสนอ PowerPoint ของคุณ
+ ในข้อมูลโค้ดนี้ ให้แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณและ`"YourPresentation.pptx"` ด้วยชื่องานนำเสนอ PowerPoint ของคุณ
 
 ### ขั้นตอนที่ 3: กำหนดค่าตัวเลือก PDF
 
- เพื่อให้เป็นไปตามข้อกำหนด PDF คุณจะต้องระบุตัวเลือก PDF สำหรับการปฏิบัติตามข้อกำหนด PDF/A เราจะใช้`PdfCompliance.PdfA2a`. กำหนดค่าตัวเลือก PDF ดังต่อไปนี้:
+ เพื่อให้เป็นไปตามข้อกำหนด PDF คุณจะต้องระบุตัวเลือก PDF สำหรับการปฏิบัติตามข้อกำหนด PDF/A เราจะใช้`PdfCompliance.PdfA2a`- กำหนดค่าตัวเลือก PDF ดังต่อไปนี้:
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions() { Compliance = PdfCompliance.PdfA2a };

@@ -26,6 +26,6 @@ Pelajari cara memanipulasi tampilan slide dan tata letak di PowerPoint menggunak
 ### [Kelola Presentasi dalam Keadaan Tampilan Normal](./manage-presentation-normal-view-state/)
 Pelajari cara mengelola presentasi dalam keadaan tampilan normal menggunakan Aspose.Slides untuk .NET. Membuat, memodifikasi, dan menyempurnakan presentasi secara terprogram dengan panduan langkah demi langkah dan kode sumber lengkap.
 ### [Menghubungkan Video melalui Kontrol ActiveX](./linking-video-activex-control/)
-Pelajari cara menautkan video ke slide PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup kode sumber dan tip untuk membuat presentasi interaktif dan menarik dengan video tertaut.
+Pelajari cara menautkan video ke slide PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup kode sumber dan tips untuk membuat presentasi interaktif dan menarik dengan video tertaut.
 ### [Kelola Kontrol ActiveX di Presentasi](./manage-activex-control/)
 Pelajari cara menyempurnakan presentasi PowerPoint dengan kontrol ActiveX menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah kami mencakup penyisipan, manipulasi, penyesuaian, penanganan peristiwa, dan banyak lagi.

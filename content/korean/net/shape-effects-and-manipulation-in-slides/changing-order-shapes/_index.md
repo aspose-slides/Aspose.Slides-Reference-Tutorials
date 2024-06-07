@@ -67,6 +67,6 @@ A: 예, Aspose.Slides for .NET은 Windows 및 Linux 환경 모두와 호환됩�
 ### Q: Aspose.Slides for .NET에 대한 무료 평가판이 있습니까?
  A: 예, 다음을 통해 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) Aspose.Slides 웹사이트에서 확인 가능합니다.
 ### Q: Aspose.Slides for .NET과 관련된 지원을 찾거나 질문할 수 있는 곳은 어디입니까?
- 답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원을 받고 커뮤니티에 참여합니다.
+답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원을 받고 커뮤니티에 참여합니다.
 ### Q: Aspose.Slides for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
  A: 당신은[임시 면허증](https://purchase.aspose.com/temporary-license/) 평가 목적으로.

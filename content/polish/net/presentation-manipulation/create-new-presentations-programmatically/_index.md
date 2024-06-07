@@ -62,7 +62,7 @@ Zastąp „Nagłówek tytułu slajdu” i „Nagłówek podrzędny tytułu slajd
 Na koniec zapiszmy Twoją prezentację w pliku:
 
 ```csharp
-// Zapisz dane wyjściowe na dysk
+// Zapisz dane wyjściowe na dysku
 pres.Write("outAsposeSlides.ppt");
 ```
 

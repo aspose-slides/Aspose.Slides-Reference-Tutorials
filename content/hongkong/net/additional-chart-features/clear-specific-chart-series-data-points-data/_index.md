@@ -93,5 +93,5 @@ Aspose.Slides 主要是為.NET 語言設計的。不過，也有 Java 和其他�
 ### 我可以在 Aspose.Slides 中自訂圖表的外觀嗎？
 是的，您可以透過修改圖表的屬性（例如顏色、字體和樣式）來自訂圖表的外觀。
 
-### 是否有 Aspose.Slides for .NET 的社群或開發人員社群？
+### 是否有 Aspose.Slides for .NET 的社群或開發者社群？
 是的，您可以加入 Aspose 社群的論壇進行討論、提問並分享您的經驗。

@@ -18,7 +18,7 @@ Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğ
 
 1. Java Geliştirme Ortamı: Sisteminizde Java'nın kurulu olduğundan ve Java programlama kavramlarına aşina olduğunuzdan emin olun.
 
-2. Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/slides/java/).
 
 ## Adım 1: Sunum Oluşturma
 

@@ -104,7 +104,7 @@ pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 
 ## 자주 묻는 질문
 
-### 1. Aspose.Slides for .NET은 무료 라이브러리입니까?
+### 1. Aspose.Slides for .NET은 무료 라이브러리인가요?
 
  .NET용 Aspose.Slides는 무료가 아닙니다. 상업 도서관이에요. 웹사이트에서 라이선스 옵션과 가격을 살펴볼 수 있습니다.[여기](https://purchase.aspose.com/buy).
 

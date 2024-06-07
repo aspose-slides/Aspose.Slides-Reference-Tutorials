@@ -165,7 +165,7 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk a Donut Callout Java diához való hozzáadásának folyamatát az Aspose.Slides for Java segítségével. Megtanulta, hogyan hozhat létre Donut diagramot, hogyan szabhatja testre megjelenését, és hogyan adhat hozzá adatpontokat. Nyugodtan bővítheti tovább prezentációit ezzel a hatékony könyvtárral, és fedezzen fel további diagramkészítési lehetőségeket.
+Ebben az oktatóanyagban bemutattuk a Donut Callout Java diához való hozzáadásának folyamatát az Aspose.Slides for Java segítségével. Megtanulta, hogyan hozhat létre Donut diagramot, hogyan szabhatja testre a megjelenését, és hogyan adhat hozzá adatpontokat. Nyugodtan bővítheti tovább prezentációit ezzel a hatékony könyvtárral, és fedezzen fel további diagramkészítési lehetőségeket.
 
 ## GYIK
 
@@ -179,4 +179,4 @@ Igen, annyi adatpontot adhat hozzá a Donut diagramhoz, amennyi szükséges. Egy
 
 ### Hogyan állíthatom be a fánk diagram helyzetét és méretét a dián?
 
- Módosíthatja a Donut diagram helyzetét és méretét a paraméterek módosításával a`addChart` módszer. Ebben a módszerben a négy szám megfelel a diagram bal felső sarkának X és Y koordinátáinak, illetve annak szélességének és magasságának.
+Módosíthatja a Donut diagram helyzetét és méretét a paraméterek módosításával a`addChart` módszer. Ebben a módszerben a négy szám megfelel a diagram bal felső sarkának X és Y koordinátáinak, illetve annak szélességének és magasságának.

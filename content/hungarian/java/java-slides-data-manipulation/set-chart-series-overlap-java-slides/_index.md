@@ -52,7 +52,7 @@ if (series.get_Item(0).getOverlap() == 0)
 }
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül elmentjük a módosított prezentációnkat a megadott könyvtárba:
 
@@ -76,7 +76,7 @@ try
 		// Beállítási sorozatok átfedése
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//Írja a bemutató fájlt lemezre
+	// Írja a bemutató fájlt lemezre
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

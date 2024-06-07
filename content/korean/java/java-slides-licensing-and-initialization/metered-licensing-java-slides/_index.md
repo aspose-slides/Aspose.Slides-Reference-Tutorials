@@ -71,7 +71,7 @@ try
 	double amountbefore = Metered.getConsumptionQuantity();
 	// 디스플레이 정보
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// API 호출 후 측정된 데이터량 가져오기
+	//API 호출 후 측정된 데이터량 가져오기
 	double amountafter = Metered.getConsumptionQuantity();
 	// 디스플레이 정보
 	System.out.println("Amount Consumed After: " + amountafter);

@@ -12,7 +12,7 @@ Ebben az átfogó útmutatóban végigvezetjük az eredeti betűtípusok megőrz
 
 ## 1. Bemutatkozás
 
-PowerPoint-prezentációk HTML-formátumba konvertálásakor kulcsfontosságú az eredeti betűtípusok megőrzése a tartalom vizuális egységességének biztosítása érdekében. Az Aspose.Slides for .NET hatékony megoldást kínál ennek elérésére. Ebben az oktatóanyagban végigvezetjük azokon a lépéseken, amelyek szükségesek az eredeti betűtípusok megőrzéséhez az átalakítási folyamat során.
+A PowerPoint-prezentációk HTML-formátumba konvertálásakor kulcsfontosságú az eredeti betűtípusok megőrzése a tartalom vizuális egységességének biztosítása érdekében. Az Aspose.Slides for .NET hatékony megoldást kínál ennek elérésére. Ebben az oktatóanyagban végigvezetjük azokon a lépéseken, amelyek szükségesek az eredeti betűtípusok megőrzéséhez az átalakítási folyamat során.
 
 ## 2. Előfeltételek
 
@@ -23,7 +23,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 
 ## 3. A projekt beállítása
 
-A kezdéshez hozzon létre egy új projektet a Visual Studióban, és adja hozzá az Aspose.Slides for .NET könyvtárat referenciaként.
+kezdéshez hozzon létre egy új projektet a Visual Studióban, és adja hozzá az Aspose.Slides for .NET könyvtárat referenciaként.
 
 ## 4. A prezentáció betöltése
 
@@ -75,13 +75,13 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## 8. Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan őrizheti meg az eredeti betűtípusokat, amikor egy PowerPoint-prezentációt HTML-formátumba konvertál az Aspose.Slides for .NET használatával. Az alábbi lépések követésével biztosíthatja, hogy a konvertált HTML-dokumentum megőrizze az eredeti prezentáció vizuális integritását.
+Ebben az oktatóanyagban bemutattuk, hogyan lehet megőrizni az eredeti betűtípusokat, amikor egy PowerPoint-prezentációt HTML-formátumba konvertál az Aspose.Slides for .NET használatával. Az alábbi lépések követésével biztosíthatja, hogy a konvertált HTML-dokumentum megőrizze az eredeti prezentáció vizuális integritását.
 
 ## 9. GYIK
 
 ### 1. kérdés: Testreszabhatom a kizárt betűtípusok listáját?
 
- Igen tudsz. Módosítsa a`fontNameExcludeList` tömbben, hogy az Ön igényei szerint bizonyos betűtípusokat vegyen fel vagy zárjon ki.
+ Igen tudsz. Módosítsa a`fontNameExcludeList`tömbben, hogy az Ön igényei szerint bizonyos betűtípusokat vegyen fel vagy zárjon ki.
 
 ### 2. kérdés: Mi van, ha nem akarok minden betűtípust beágyazni?
 

@@ -44,7 +44,7 @@ ChartData chartData = (ChartData) chart.getChartData();
 chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 diagramadatok szükséges módosításainak elvégzése után mentse a módosított prezentációt egy új fájlba. Megadhatja a kimeneti fájl elérési útját és formátumát igényei szerint.
 
@@ -66,7 +66,7 @@ Sikeresen szerkesztette a diagramadatokat egy külső munkafüzetben a PowerPoin
 
 ```java
         // Ügyeljen arra, hogy a külső munkafüzet elérési útja alig van elmentve a bemutatóban
-        // ezért kérjük, másolja ki az externalWorkbook.xlsx fájlt a Data/Chart D:\Aspose.Slides\Aspose.Slides-for-.NET-master\Examples\Data\Charts\ könyvtárból a példa futtatása előtt
+        // ezért a példa futtatása előtt másolja ki az externalWorkbook.xlsx fájlt a Data/Chart D:\Aspose.Slides\Aspose.Slides-for-.NET-master\Examples\Data\Charts\ mappából.
         // A dokumentumok könyvtárának elérési útja.
         String dataDir = "Your Document Directory";
         Presentation pres = new Presentation(dataDir + "presentation.pptx");
@@ -84,7 +84,7 @@ Sikeresen szerkesztette a diagramadatokat egy külső munkafüzetben a PowerPoin
 ```
 ## Következtetés
 
-Ebben az átfogó útmutatóban megvizsgáltuk, hogyan lehet szerkeszteni a diagramadatokat külső munkafüzetekben a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. A lépésenkénti utasítások és a forráskód-példák követésével olyan ismeretekre és készségekre tett szert, amelyek segítségével könnyedén, programozottan módosíthatja a diagramadatokat.
+Ebben az átfogó útmutatóban megvizsgáltuk, hogyan lehet szerkeszteni a diagramadatokat külső munkafüzetekben a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. A lépésenkénti utasítások és a forráskód-példák követésével megszerzett ismereteket és készségeket a diagramadatok egyszerű, programozott módosításához.
 
 ## GYIK
 

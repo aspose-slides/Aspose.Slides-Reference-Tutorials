@@ -37,7 +37,7 @@ Most pedig merüljünk el oktatóanyagunk lényegében – adjunk stílusos jegy
 
 ### 2.1. lépés: Példányos bemutató osztály
 
- Először is létre kell hoznunk egy példányt a`Presentation`osztály, amely a PowerPoint bemutatófájlját képviseli. Meg kell adnia a prezentációs fájl elérési útját a`dataDir` változó.
+ Először is létre kell hoznunk egy példányt a`Presentation` osztály, amely a PowerPoint bemutatófájlt képviseli. Meg kell adnia a prezentációs fájl elérési útját a`dataDir` változó.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### 2.2. lépés: Nyissa meg a Master Notes diát
 
- Belül`using` blokkot, elérjük a főjegyzetek diát. A főjegyzetek dia tartalmazza a prezentációban szereplő jegyzetek alapértelmezett stílusát.
+ Belül`using`blokkot, elérjük a főjegyzetek diát. A főjegyzetek dia tartalmazza a prezentációban szereplő jegyzetek alapértelmezett stílusát.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

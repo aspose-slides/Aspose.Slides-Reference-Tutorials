@@ -37,7 +37,7 @@ string imagePath = "Your Media Directory" + "aspose-logo.jpg";
 IPPImage backgroundImage = presentation.Images.AddImage(Image.FromFile(imagePath));
 ```
 ## Adım 3: İlk Slaytta Arka Planı Ayarlayın
-İlk slaydın arka planını eklenen görsele ayarlayın:
+İlk slaydın arka planını eklenen görüntüye ayarlayın:
 ```csharp
 presentation.Slides[0].Background.Type = BackgroundType.OwnBackground;
 presentation.Slides[0].Background.FillFormat.FillType = FillType.Picture;

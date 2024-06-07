@@ -10,7 +10,7 @@ url: /cs/java/chart-creation/radar-chart-creating-java-slides/
 
 ## Úvod do vytváření radarového grafu v Java Slides
 
-V tomto tutoriálu vás provedeme procesem vytváření radarového grafu pomocí Aspose.Slides for Java API. Radarové grafy jsou užitečné pro vizualizaci dat v kruhovém vzoru, což usnadňuje porovnání více datových řad. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem Java.
+tomto tutoriálu vás provedeme procesem vytváření radarového grafu pomocí Aspose.Slides for Java API. Radarové grafy jsou užitečné pro vizualizaci dat v kruhovém vzoru, což usnadňuje porovnání více datových řad. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem Java.
 
 ## Předpoklady
 
@@ -177,7 +177,7 @@ try
 	// Přidávání nové série
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	// Nyní se vyplňují data série
+	//Nyní se vyplňují data série
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -261,7 +261,7 @@ Ano, můžete přidat další datové řady podle kroků v „Kroku 3“ a „Kr
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-### Jak mohu změnit popisky os a formátování?
+### Jak mohu změnit označení os a formátování?
 
 Viz "Krok 5" pro přizpůsobení štítků os a formátování, včetně velikosti a barvy písma.
 

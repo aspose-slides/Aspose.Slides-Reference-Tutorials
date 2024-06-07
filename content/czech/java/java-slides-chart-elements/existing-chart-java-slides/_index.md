@@ -30,7 +30,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-## Krok 2: Otevřete snímek a graf
+## Krok 2: Otevřete Snímek a graf
 
 ```java
 // Otevřete první snímek
@@ -46,10 +46,10 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
 
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-// Změňte názvy kategorií grafu
+// Změňte názvy kategorií grafů
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
 fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
 ```
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Změna názvu kategorie grafu
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Vezměte 3. řadu grafů
 series = chart.getChartData().getSeries().get_Item(2);
-// Nyní se vyplňují data série
+//Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));
@@ -161,7 +161,7 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
 ## Závěr
 
-tomto komplexním tutoriálu jsme se naučili, jak upravit existující graf v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Pokud budete postupovat podle podrobného průvodce a pomocí příkladů zdrojového kódu, můžete snadno přizpůsobit a aktualizovat grafy tak, aby vyhovovaly vašim specifickým požadavkům. Zde je rekapitulace toho, co jsme probrali:
+tomto komplexním tutoriálu jsme se naučili, jak upravit existující graf v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Podle podrobného průvodce a pomocí příkladů zdrojového kódu můžete snadno přizpůsobit a aktualizovat grafy tak, aby vyhovovaly vašim specifickým požadavkům. Zde je rekapitulace toho, co jsme probrali:
 
 ## FAQ
 
@@ -179,7 +179,7 @@ tomto komplexním tutoriálu jsme se naučili, jak upravit existující graf v p
 
 ### Jak upravím názvy seriálů?
 
- Chcete-li upravit názvy sérií, použijte`fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` pro nastavení nových názvů seriálů.
+ Chcete-li upravit názvy řad, použijte`fact.getCell(worksheetIndex, columnIndex, rowIndex, newValue)` pro nastavení nových názvů seriálů.
 
 ### Existuje způsob, jak odstranit řadu z grafu?
 

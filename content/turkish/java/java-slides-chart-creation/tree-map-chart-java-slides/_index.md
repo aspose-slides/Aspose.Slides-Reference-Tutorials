@@ -29,7 +29,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## 3. Adım: Ağaç Haritası Grafiği Oluşturun
+## Adım 3: Ağaç Haritası Grafiği Oluşturun
 
 ```java
 try {
@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //Şube 1'i oluştur
+    // Şube 1'i oluştur
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");

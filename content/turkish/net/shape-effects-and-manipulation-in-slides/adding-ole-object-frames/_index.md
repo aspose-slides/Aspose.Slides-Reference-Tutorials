@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## 4. Adım: OLE Nesne Çerçevesi Şekli Ekleme
 ```csharp
-// OLE Nesne Çerçevesi şekli ekleme
+//OLE Nesne Çerçevesi şekli ekleme
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ C: Evet, Aspose.Slides, PPTX dahil en yeni PowerPoint dosya formatlarını deste
 ### S: Katıştırılmış OLE Nesne Çerçevesinin görünümünü özelleştirebilir miyim?
 C: Kesinlikle OLE Nesne Çerçevesinin boyutunu, konumunu ve diğer özelliklerini tercihlerinize göre ayarlayabilirsiniz.
 ### S: Uygulama sırasında zorluklarla karşılaşırsam nereden yardım alabilirim?
- C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve rehberlik için.
+C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve rehberlik için.

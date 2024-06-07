@@ -74,7 +74,7 @@ Sim, o Aspose.Slides oferece suporte ao .NET Core, permitindo que você aproveit
 ### Posso personalizar ainda mais os estilos de ponta de seta?
 Absolutamente! Aspose.Slides oferece opções abrangentes para personalizar comprimentos de pontas de seta, estilos e muito mais.
 ### Onde posso encontrar documentação adicional do Aspose.Slides?
- Explorar a documentação[aqui](https://reference.aspose.com/slides/net/) para obter informações detalhadas e exemplos.
+ Explorar a documentação[aqui](https://reference.aspose.com/slides/net/)para obter informações detalhadas e exemplos.
 ### Existe um teste gratuito disponível?
  Sim, você pode experimentar o Aspose.Slides com uma avaliação gratuita. Baixe[aqui](https://releases.aspose.com/).
 ### Como posso obter suporte para Aspose.Slides?

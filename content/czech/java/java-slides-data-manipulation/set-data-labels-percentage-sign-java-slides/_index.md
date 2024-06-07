@@ -2,7 +2,7 @@
 title: Nastavit štítky dat Procento přihlášení do Java Slides
 linktitle: Nastavit štítky dat Procento přihlášení do Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit štítky dat se znaky procenta v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem.
+description: Naučte se, jak nastavit štítky dat se znaky procenta v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem.
 type: docs
 weight: 17
 url: /cs/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Data do grafu přidáváme vytvářením řad a datových bodů. V tomto příkladu přidáme dvě řady s jejich příslušnými datovými body.
 
 ```java
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Přidat novou sérii
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Přidat novou sérii
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

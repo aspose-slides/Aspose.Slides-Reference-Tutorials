@@ -65,7 +65,7 @@ trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid
 trendLineLinear.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-## Langkah 4: Menambahkan Garis Tren Logaritma
+## Langkah 4: Menambahkan Garis Tren Logaritmik
 
 Sekarang, mari tambahkan garis tren logaritmik ke rangkaian grafik yang berbeda:
 
@@ -173,11 +173,11 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan berbagai jenis garis
 
 ### Bagaimana cara mengubah warna garis tren di Aspose.Slides untuk Java?
 
-Untuk mengubah warna garis tren, Anda dapat menggunakan`getSolidFillColor().setColor(Color)` metode, seperti yang ditunjukkan pada contoh untuk menambahkan garis tren linier.
+ Untuk mengubah warna garis tren, Anda dapat menggunakan`getSolidFillColor().setColor(Color)` metode, seperti yang ditunjukkan pada contoh untuk menambahkan garis tren linier.
 
 ### Bisakah saya menambahkan beberapa garis tren ke satu rangkaian grafik?
 
- Ya, Anda dapat menambahkan beberapa garis tren ke satu rangkaian grafik. Cukup hubungi`getTrendLines().add()` metode untuk setiap garis tren yang ingin Anda tambahkan.
+Ya, Anda dapat menambahkan beberapa garis tren ke satu rangkaian grafik. Cukup hubungi`getTrendLines().add()` metode untuk setiap garis tren yang ingin Anda tambahkan.
 
 ### Bagaimana cara menghapus garis tren dari grafik di Aspose.Slides untuk Java?
 

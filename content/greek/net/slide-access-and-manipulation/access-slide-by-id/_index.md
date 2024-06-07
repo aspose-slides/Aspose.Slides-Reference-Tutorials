@@ -56,7 +56,7 @@ using (var presentation = new Presentation(presentationPath))
 Για να αποκτήσετε πρόσβαση σε μια διαφάνεια με βάση το ευρετήριό της:
 
 ```csharp
-int slideIndex = 0; // Αντικαταστήστε με το επιθυμητό ευρετήριο
+int slideIndex = 0; //Αντικαταστήστε με το επιθυμητό ευρετήριο
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

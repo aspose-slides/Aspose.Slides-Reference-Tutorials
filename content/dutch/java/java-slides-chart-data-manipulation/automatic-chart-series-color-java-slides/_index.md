@@ -36,7 +36,7 @@ Vervolgens voegen we een geclusterd kolomdiagram toe aan de dia. We zullen ook i
 ISlide slide = presentation.getSlides().get_Item(0);
 // Diagram met standaardgegevens toevoegen
 IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-// Stel de eerste reeks in op Waarden tonen
+// Stel de eerste reeks in op Waarden weergeven
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 ```
 
@@ -47,7 +47,7 @@ Nu vullen we het diagram met gegevens. We beginnen met het verwijderen van de st
 ```java
 // De index van het kaartgegevensblad instellen
 int defaultWorksheetIndex = 0;
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Verwijder standaard gegenereerde series en categorieën
 chart.getChartData().getSeries().clear();
@@ -68,16 +68,16 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 We vullen de seriegegevens in voor zowel Serie 1 als Serie 2.
 
 ```java
-// Neem de eerste kaartenserie
+// Neem de eerste kaartenreeks
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Vult nu seriegegevens in
+//Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Neem de tweede kaartenreeks
+// Neem de tweede kaartenserie
 series = chart.getChartData().getSeries().get_Item(1);
-// Vult nu seriegegevens in
+//Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -114,11 +114,11 @@ try
 	ISlide slide = presentation.getSlides().get_Item(0);
 	// Diagram met standaardgegevens toevoegen
 	IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-	// Stel de eerste reeks in op Waarden tonen
+	// Stel de eerste reeks in op Waarden weergeven
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// De index van het kaartgegevensblad instellen
 	int defaultWorksheetIndex = 0;
-	//Het werkblad met diagramgegevens ophalen
+	// Het werkblad met diagramgegevens ophalen
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Verwijder standaard gegenereerde series en categorieën
 	chart.getChartData().getSeries().clear();
@@ -132,21 +132,21 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-	// Neem de eerste kaartenserie
+	// Neem de eerste kaartenreeks
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// Vult nu seriegegevens in
+	//Vult nu seriegegevens in
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 	// Automatische vulkleur instellen voor series
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
-	// Neem de tweede kaartenreeks
+	// Neem de tweede kaartenserie
 	series = chart.getChartData().getSeries().get_Item(1);
-	// Vult nu seriegegevens in
+	//Vult nu seriegegevens in
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// Vulkleur voor series instellen
+	//Vulkleur voor series instellen
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Presentatie opslaan met grafiek
@@ -164,7 +164,7 @@ In deze zelfstudie hebben we geleerd hoe u een PowerPoint-presentatie met een di
 
 ## Veelgestelde vragen
 
-### Hoe stel ik automatische opvulkleuren in voor diagramseries in Aspose.Slides voor Java?
+### Hoe stel ik automatische opvulkleuren in voor diagramreeksen in Aspose.Slides voor Java?
 
 Gebruik de volgende code om automatische opvulkleuren voor diagramseries in Aspose.Slides voor Java in te stellen:
 
@@ -181,7 +181,7 @@ Met deze code kan de bibliotheek automatisch kleuren kiezen voor de kaartenreeks
 
 ### Hoe kan ik extra series of categorieën aan het diagram toevoegen?
 
- Om extra series of categorieën aan het diagram toe te voegen, gebruikt u de`getSeries()` En`getCategories()` methoden van de grafiek`ChartData` voorwerp. U kunt nieuwe series en categorieën toevoegen door hun gegevens en labels op te geven.
+Om extra series of categorieën aan het diagram toe te voegen, gebruikt u de`getSeries()` En`getCategories()` methoden van de grafiek`ChartData` voorwerp. U kunt nieuwe series en categorieën toevoegen door hun gegevens en labels op te geven.
 
 ### Is het mogelijk om het diagram en de labels verder op te maken?
 

@@ -14,7 +14,7 @@ Aspose.Slides for .NET kullanarak slayt küçük resmi oluşturmaya ilişkin kap
 
 ### Slayt Küçük Resimleri Neden Önemlidir:
 
-Slayt küçük resimleri sunum uygulamalarında çok önemli bir rol oynar ve kullanıcılara her slayttaki içeriğe hızlı bir görsel genel bakış sunar. Bu minyatür gösterimler, kullanıcıların tüm sunumu kaydırmaya gerek kalmadan doğrudan belirli slaytlara atlamalarına olanak tanıyan gezinme yardımcıları olarak hizmet eder. Slayt küçük resimlerini ekleyerek uygulamalarınızın kullanılabilirliğini ve erişilebilirliğini önemli ölçüde artırabilirsiniz.
+Slayt küçük resimleri sunum uygulamalarında çok önemli bir rol oynar ve kullanıcılara her slayttaki içeriğe hızlı bir görsel genel bakış sunar. Bu minyatür temsiller, kullanıcıların tüm sunumu kaydırmaya gerek kalmadan doğrudan belirli slaytlara atlamalarına olanak tanıyan gezinme yardımcıları olarak hizmet eder. Slayt küçük resimlerini ekleyerek uygulamalarınızın kullanılabilirliğini ve erişilebilirliğini önemli ölçüde artırabilirsiniz.
 
 ### Ne öğreneceksin:
 

@@ -10,7 +10,7 @@ url: /vi/java/chart-data-manipulation/histogram-chart-java-slides/
 
 ## Giới thiệu về Biểu đồ biểu đồ trong Java Slides bằng Aspose.Slides
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo Biểu đồ biểu đồ trong bản trình bày PowerPoint bằng API Aspose.Slides cho Java. Biểu đồ biểu đồ được sử dụng để thể hiện sự phân bổ dữ liệu trong một khoảng thời gian liên tục.
+Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo Biểu đồ biểu đồ trong bản trình bày PowerPoint bằng API Aspose.Slides cho Java. Biểu đồ biểu đồ được sử dụng để thể hiện sự phân bố dữ liệu trong một khoảng thời gian liên tục.
 
 ## Điều kiện tiên quyết
 

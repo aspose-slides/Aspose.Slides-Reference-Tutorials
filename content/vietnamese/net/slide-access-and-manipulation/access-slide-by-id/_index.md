@@ -56,7 +56,7 @@ Mỗi slide trong bản trình bày có một mã định danh duy nhất có th
 Để truy cập một slide theo chỉ mục của nó:
 
 ```csharp
-int slideIndex = 0; // Thay thế bằng chỉ mục mong muốn
+int slideIndex = 0; //Thay thế bằng chỉ mục mong muốn
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

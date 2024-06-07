@@ -92,7 +92,7 @@ finally
 
 ## Conclusie
 
-In deze uitgebreide handleiding hebt u geleerd hoe u een PowerPoint-presentatie naar PDF kunt converteren terwijl u verborgen dia's behoudt met Aspose.Slides voor Java. We hebben u een stapsgewijze zelfstudie gegeven, samen met de benodigde broncode, om deze taak naadloos uit te voeren.
+In deze uitgebreide handleiding hebt u geleerd hoe u een PowerPoint-presentatie naar PDF kunt converteren terwijl u verborgen dia's behoudt met behulp van Aspose.Slides voor Java. We hebben u een stapsgewijze zelfstudie gegeven, samen met de benodigde broncode, om deze taak naadloos uit te voeren.
 
 ## Veelgestelde vragen
 

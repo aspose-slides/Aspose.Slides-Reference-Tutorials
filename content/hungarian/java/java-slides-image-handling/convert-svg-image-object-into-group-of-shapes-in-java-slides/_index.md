@@ -2,7 +2,7 @@
 title: Alakítsa át az SVG képobjektumot alakzatcsoporttá a Java diákban
 linktitle: Alakítsa át az SVG képobjektumot alakzatcsoporttá a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan alakíthat át SVG-képeket alakzatcsoportokká a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Útmutató lépésről lépésre kódpéldákkal.
+description: Ismerje meg, hogyan alakíthat át SVG-képeket alakzatcsoportokká a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató kódpéldákkal.
 type: docs
 weight: 13
 url: /hu/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
@@ -10,7 +10,7 @@ url: /hu/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-ja
 
 ## Bevezetés az SVG képobjektum alakzatcsoportokká alakításához a Java diákban
 
-Ebben az átfogó útmutatóban megvizsgáljuk, hogyan alakíthatunk át egy SVG képobjektumot alakzatok csoportjába a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a PowerPoint-prezentációkat, így értékes eszközzé válik különféle feladatokhoz, beleértve a képek kezelését is.
+Ebben az átfogó útmutatóban megvizsgáljuk, hogyan alakíthatunk át egy SVG képobjektumot alakzatok csoportjává a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a PowerPoint-prezentációkat, így értékes eszközzé válik különféle feladatokhoz, beleértve a képek kezelését is.
 
 ## Előfeltételek
 
@@ -23,7 +23,7 @@ Most, hogy mindent beállítottunk, kezdjük el.
 
 ## 1. lépés: Importálja a szükséges könyvtárakat
 
-A kezdéshez importálnia kell a Java-projekthez szükséges könyvtárakat. Ügyeljen arra, hogy tartalmazza az Aspose.Slides for Java programot.
+kezdéshez importálnia kell a Java-projekthez szükséges könyvtárakat. Ügyeljen arra, hogy tartalmazza az Aspose.Slides for Java programot.
 
 ```java
 import com.aspose.slides.*;

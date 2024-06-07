@@ -26,7 +26,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-//Klasa prezentacji instancji, która reprezentuje plik prezentacji
+// Klasa prezentacji instancji, która reprezentuje plik prezentacji
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-//Klasa prezentacji instancji, która reprezentuje plik prezentacji
+// Klasa prezentacji instancji, która reprezentuje plik prezentacji
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Udało Ci się animować seriale na wykresie programu PowerPoint przy użyciu As
 
 ### Jak kontrolować kolejność animacji seriali?
 
- Aby kontrolować kolejność animacji serii, użyj opcji`EffectTriggerType.AfterPrevious` parametr podczas dodawania efektów. Spowoduje to, że każda animacja serii rozpocznie się po zakończeniu poprzedniej.
+ Aby kontrolować kolejność animacji serii, użyj opcji`EffectTriggerType.AfterPrevious`parametr podczas dodawania efektów. Spowoduje to, że każda animacja serii rozpocznie się po zakończeniu poprzedniej.
 
 ### Czy mogę zastosować różne animacje do każdej serii?
 

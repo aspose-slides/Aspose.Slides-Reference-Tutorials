@@ -122,7 +122,7 @@ För att inkludera Aspose.Slides-biblioteket i ditt Java-projekt måste du lägg
 
 ### Kan jag använda olika diagramtyper med funktionen "Invertera om negativt"?
 
-Ja, du kan använda olika diagramtyper med funktionen "Invertera om negativt". I den här handledningen använde vi ett klustrade kolumndiagram som exempel, men du kan tillämpa funktionen på olika diagramtyper baserat på dina krav.
+Ja, du kan använda olika diagramtyper med funktionen "Invertera om negativt". I den här handledningen använde vi ett klustrat kolumndiagram som exempel, men du kan tillämpa funktionen på olika diagramtyper baserat på dina krav.
 
 ### Är det möjligt att anpassa utseendet på de inverterade datapunkterna?
 

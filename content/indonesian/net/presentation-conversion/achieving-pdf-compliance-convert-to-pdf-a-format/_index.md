@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- Dalam cuplikan kode ini, ganti`"Your Document Directory"`dengan jalur sebenarnya ke direktori dokumen Anda dan`"YourPresentation.pptx"` dengan nama presentasi PowerPoint Anda.
+ Dalam cuplikan kode ini, ganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda dan`"YourPresentation.pptx"` dengan nama presentasi PowerPoint Anda.
 
 ### Langkah 3: Konfigurasikan Opsi PDF
 

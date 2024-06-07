@@ -8,7 +8,7 @@ weight: 14
 url: /hu/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
 ---
 
-modern prezentációk világában a matematikai tartalom gyakran döntő szerepet játszik az összetett ötletek és adatok közvetítésében. Ha az Aspose.Slides for .NET programmal dolgozik, szerencséje van! Ez az oktatóanyag végigvezeti a matematikai bekezdések MathML-be történő exportálásának folyamatán, lehetővé téve a matematikai tartalom zökkenőmentes integrálását a prezentációkba. Szóval, merüljünk el a MathML és az Aspose.Slides világában.
+A modern prezentációk világában a matematikai tartalom gyakran döntő szerepet játszik az összetett ötletek és adatok közvetítésében. Ha az Aspose.Slides for .NET programmal dolgozik, szerencséje van! Ez az oktatóanyag végigvezeti a matematikai bekezdések MathML-be történő exportálásának folyamatán, lehetővé téve a matematikai tartalom zökkenőmentes integrálását a prezentációkba. Szóval, merüljünk el a MathML és az Aspose.Slides világában.
 
 ## 1. Az Aspose.Slides for .NET bemutatása
 

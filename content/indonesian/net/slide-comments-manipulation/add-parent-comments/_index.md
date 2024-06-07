@@ -70,7 +70,7 @@ Pada langkah ini, kami membuat dua penulis komentar dan menambahkan komentar awa
 
 ## Langkah 3: Tambahkan Lebih Banyak Balasan
 
-Untuk membuat struktur hierarki komentar, Anda dapat menambahkan lebih banyak balasan ke komentar yang sudah ada. Di sini, kami menambahkan balasan kedua ke "komentar1."
+Untuk membuat struktur hierarki komentar, Anda dapat menambahkan lebih banyak balasan ke komentar yang sudah ada. Di sini, kami menambahkan balasan kedua ke "komentar1".
 
 ```csharp
 // Tambahkan balasan untuk komentar1
@@ -106,7 +106,7 @@ reply3.ParentComment = comment3;
 
 Langkah ini menunjukkan bagaimana Anda dapat membuat konten yang menarik dan interaktif untuk presentasi Anda.
 
-## Langkah 6: Tampilkan Hirarki
+## Langkah 6: Tampilkan Hierarki
 
 Untuk memvisualisasikan hierarki komentar, Anda dapat menampilkannya di konsol. Langkah ini opsional tetapi dapat berguna untuk melakukan debug dan memahami struktur.
 

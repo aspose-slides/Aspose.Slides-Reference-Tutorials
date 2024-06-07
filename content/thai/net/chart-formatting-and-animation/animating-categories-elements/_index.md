@@ -96,7 +96,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 ## ขั้นตอนที่ 4: บันทึกการนำเสนอ
 
 ```csharp
-//เขียนไฟล์การนำเสนอลงดิสก์
+// เขียนไฟล์การนำเสนอลงดิสก์
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

@@ -10,7 +10,7 @@ url: /sv/java/chart-creation/second-plot-options-charts-java-slides/
 
 ## Introduktion till andra plotalternativ för diagram i Java Slides
 
-I den här handledningen kommer vi att utforska hur man lägger till andra plotalternativ till diagram med Aspose.Slides för Java. Andra plotalternativ låter dig anpassa utseendet och beteendet hos diagram, särskilt i scenarier som cirkeldiagram. Vi kommer att tillhandahålla steg-för-steg-instruktioner och källkodsexempel för att uppnå detta. 
+den här handledningen kommer vi att utforska hur man lägger till andra plotalternativ till diagram med Aspose.Slides för Java. Andra plotalternativ låter dig anpassa utseendet och beteendet hos diagram, särskilt i scenarier som cirkeldiagram. Vi kommer att tillhandahålla steg-för-steg-instruktioner och källkodsexempel för att uppnå detta. 
 
 ## Förutsättningar
 Innan vi börjar, se till att du har Aspose.Slides för Java installerat och konfigurerat i ditt Java-projekt.
@@ -88,8 +88,8 @@ I den här handledningen har vi lärt oss hur man lägger till andra plotalterna
 
 ###  Vad gör`PieSplitBy` control in a Pie of Pie chart?
 
- De`PieSplitBy`egenskapen styr hur cirkeldiagrammet delas. Du kan ställa in den på antingen`PieSplitType.ByPercentage` eller`PieSplitType.ByValue` för att dela upp diagrammet efter procent eller efter ett specifikt värde.
+ De`PieSplitBy` egenskapen styr hur cirkeldiagrammet delas upp. Du kan ställa in den på antingen`PieSplitType.ByPercentage` eller`PieSplitType.ByValue` för att dela upp diagrammet efter procent eller efter ett specifikt värde.
 
 ### Hur ställer jag in positionen för delingen i ett cirkeldiagram?
 
- Du kan ställa in positionen för delingen i ett cirkeldiagram med hjälp av`setPieSplitPosition` metod. Justera värdet för att ange önskad position.
+Du kan ställa in positionen för delingen i ett cirkeldiagram med hjälp av`setPieSplitPosition` metod. Justera värdet för att ange önskad position.

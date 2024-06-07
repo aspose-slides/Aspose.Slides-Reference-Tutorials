@@ -117,7 +117,7 @@ Có, Aspose.Slides cho phép bạn thêm siêu liên kết vào nhiều đối t
 Tuyệt đối. Aspose.Slides hỗ trợ nhiều định dạng PowerPoint khác nhau, bao gồm PPT, PPTX, PPS, v.v. Nó đảm bảo khả năng tương thích với các phiên bản khác nhau của Microsoft PowerPoint.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Slides ở đâu?
-Để có tài liệu chuyên sâu và hỗ trợ cộng đồng, hãy truy cập[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/) và[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/).
+ Để có tài liệu chuyên sâu và hỗ trợ cộng đồng, hãy truy cập[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/) và[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/).
 
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Slides?
  Nếu bạn cần giấy phép tạm thời cho Aspose.Slides, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).

@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 Dále do naší řady grafů přidáme lineární trendovou linii:
 
 ```java
-// Přidání lineární trendové linie pro řadu grafů 1
+// Přidání lineární trendové linie pro grafové řady 1
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -105,7 +105,7 @@ trendLinePolynomial.setOrder((byte) 3);
 Nakonec přidáme linii trendu výkonu:
 
 ```java
-// Přidání čáry trendu výkonu pro řadu grafů 3
+// Přidání čáry trendu moci pro řadu grafů 3
 ITrendline trendLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);
 trendLinePower.setTrendlineType(TrendlineType.Power);
 trendLinePower.setBackward(1);
@@ -173,11 +173,11 @@ V tomto tutoriálu jsme se naučili, jak přidat různé typy trendových čar d
 
 ### Jak změním barvu trendové čáry v Aspose.Slides pro Java?
 
-Chcete-li změnit barvu trendové čáry, můžete použít`getSolidFillColor().setColor(Color)` metoda, jak je ukázáno v příkladu pro přidání lineární trendové linie.
+ Chcete-li změnit barvu trendové čáry, můžete použít`getSolidFillColor().setColor(Color)` metoda, jak je ukázáno v příkladu pro přidání lineární trendové linie.
 
 ### Mohu přidat více trendových čar do jedné řady grafu?
 
- Ano, do jedné řady grafu můžete přidat více trendových čar. Jednoduše zavolejte na`getTrendLines().add()` metoda pro každou trendovou linii, kterou chcete přidat.
+Ano, do jedné řady grafu můžete přidat více trendových čar. Jednoduše zavolejte na`getTrendLines().add()` metoda pro každou trendovou linii, kterou chcete přidat.
 
 ### Jak odstraním spojnici trendu z grafu v Aspose.Slides for Java?
 

@@ -1,25 +1,25 @@
 ---
-title: Java スライドのデータラベルの吹き出しを設定する
-linktitle: Java スライドのデータラベルの吹き出しを設定する
+title: Java スライドでデータ ラベルの吹き出しを設定する
+linktitle: Java スライドでデータ ラベルの吹き出しを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java でデータ ラベルのコールアウトを設定する方法を学習します。ソースコード付きのステップバイステップガイド。
+description: Aspose.Slides for Java でデータ ラベルのコールアウトを設定する方法を学びます。ソース コード付きのステップ バイ ステップ ガイド。
 type: docs
 weight: 25
 url: /ja/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
 
-## Aspose.Slides for Java でのデータ ラベルのコールアウトの設定の概要
+## Aspose.Slides for Java でデータ ラベルのコールアウトを設定する方法の概要
 
-このチュートリアルでは、Aspose.Slides for Java を使用してグラフ内のデータ ラベルのコールアウトを設定する方法を説明します。吹き出しは、グラフ内の特定のデータ ポイントを強調表示するのに役立ちます。コードを段階的に説明し、必要なソース コードを提供します。
+このチュートリアルでは、Aspose.Slides for Java を使用してグラフのデータ ラベルの吹き出しを設定する方法を説明します。吹き出しは、グラフ内の特定のデータ ポイントを強調表示するのに役立ちます。コードを段階的に説明し、必要なソース コードを提供します。
 
 ## 前提条件
 
 - Aspose.Slides for Java がインストールされている必要があります。
 - Java プロジェクトを作成し、Aspose.Slides ライブラリをプロジェクトに追加します。
 
-## ステップ 1: プレゼンテーションを作成し、グラフを追加する
+## ステップ1: プレゼンテーションを作成し、グラフを追加する
 
-まず、プレゼンテーションを作成し、スライドにグラフを追加する必要があります。必ず交換してください`"Your Document Directory"`ドキュメントディレクトリへの実際のパスを置き換えます。
+まず、プレゼンテーションを作成し、スライドにグラフを追加する必要があります。`"Your Document Directory"`ドキュメント ディレクトリへの実際のパスを入力します。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -28,7 +28,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## ステップ 2: チャートを構成する
+## ステップ2: チャートを構成する
 
 次に、凡例、系列、カテゴリなどのプロパティを設定してグラフを構成します。
 
@@ -38,7 +38,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-//シリーズとカテゴリの設定 (シリーズとカテゴリの数は調整できます)
+//シリーズとカテゴリを設定します（シリーズとカテゴリの数を調整できます）
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -53,7 +53,7 @@ while (categoryIndex < 15) {
     chart.getChartData().getCategories().add(workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex));
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
-        //ここにデータポイントを追加します
+        //ここにデータポイントを追加
         //...
         i++;
     }
@@ -61,9 +61,9 @@ while (categoryIndex < 15) {
 }
 ```
 
-## ステップ 3: データラベルをカスタマイズする
+## ステップ3: データラベルをカスタマイズする
 
-次に、最後のシリーズのコールアウトの設定を含め、データ ラベルをカスタマイズします。
+ここで、最後のシリーズのコールアウトの設定など、データ ラベルをカスタマイズします。
 
 ```java
 int i = 0;
@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //ラベルの書式設定 (フォント、塗りつぶしなど) をカスタマイズします。
+        //ラベルの書式設定（フォント、塗りつぶしなど）をカスタマイズする
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -88,17 +88,17 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## ステップ 4: プレゼンテーションを保存する
+## ステップ4: プレゼンテーションを保存する
 
-最後に、構成されたグラフを含むプレゼンテーションを保存します。
+最後に、設定したグラフを含むプレゼンテーションを保存します。
 
 ```java
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-これで、Aspose.Slides for Java を使用してグラフ内のデータ ラベルのコールアウトが正常に設定されました。特定のチャートとデータの要件に従ってコードをカスタマイズします。
+これで、Aspose.Slides for Java を使用してグラフのデータ ラベルのコールアウトを正常に設定できました。特定のグラフとデータの要件に応じてコードをカスタマイズします。
 
-## Java スライドのデータ ラベルの吹き出しを設定するための完全なソース コード
+## Java スライドでデータ ラベルのコールアウトを設定するための完全なソース コード
 
 ```java
 String dataDir = "Your Document Directory";
@@ -162,13 +162,13 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用してグラフ内のデータ ラベルのコールアウトを設定する方法を説明しました。吹き出しは、グラフやプレゼンテーション内の特定のデータ ポイントを強調するための貴重なツールです。このカスタマイズを実現するために、ソース コードとともにステップバイステップのガイドを提供しました。
+このチュートリアルでは、Aspose.Slides for Java を使用してグラフのデータ ラベルの吹き出しを設定する方法について説明しました。吹き出しは、グラフやプレゼンテーションで特定のデータ ポイントを強調するための便利なツールです。このカスタマイズを実現できるように、ソース コードとともにステップ バイ ステップ ガイドを用意しました。
 
 ## よくある質問
 
-### データラベルの外観をカスタマイズするにはどうすればよいですか?
+### データ ラベルの外観をカスタマイズするにはどうすればよいですか?
 
-データ ラベルの外観をカスタマイズするには、フォント、塗りつぶし、線のスタイルなどのプロパティを変更します。例えば：
+データ ラベルの外観をカスタマイズするには、フォント、塗りつぶし、線のスタイルなどのプロパティを変更します。例:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();
@@ -183,23 +183,23 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### データ ラベルのコールアウトを有効または無効にするにはどうすればよいですか?
 
-データ ラベルのコールアウトを有効または無効にするには、`setShowLabelAsDataCallout`方法。に設定します`true`コールアウトを有効にし、`false`それらを無効にします。
+データラベルの吹き出しを有効または無効にするには、`setShowLabelAsDataCallout`方法。設定する`true`吹き出しを有効にして`false`無効にします。
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); //コールアウトを有効にする
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); //コールアウトを無効にする
 ```
 
-### データラベルの引出線をカスタマイズできますか?
+### データ ラベルのリーダー ラインをカスタマイズできますか?
 
-はい、線のスタイル、色、幅などのプロパティを使用して、データ ラベルの引出線をカスタマイズできます。例えば：
+はい、線のスタイル、色、幅などのプロパティを使用して、データ ラベルのリーダー ラインをカスタマイズできます。例:
 
 ```java
-lbl.getDataLabelFormat().setShowLeaderLines(true); //引出線を有効にする
+lbl.getDataLabelFormat().setShowLeaderLines(true); //引き出し線を有効にする
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setStyle(LineStyle.Single);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setWidth(1);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-これらは、Aspose.Slides for Java のデータ ラベルとコールアウトの一般的なカスタマイズ オプションです。特定のニーズに合わせて外観をさらに調整できます。
+これらは、Aspose.Slides for Java のデータ ラベルとコールアウトの一般的なカスタマイズ オプションです。特定のニーズに合わせて外観をさらにカスタマイズできます。

@@ -40,7 +40,7 @@ Une fois les prérequis nécessaires en place, passons au cœur de ce didacticie
 
 Nous montrerons comment appliquer deux types de transitions – « Cercle » et « Peigne » – à des diapositives individuelles de votre présentation. Ces transitions peuvent ajouter une touche dynamique à vos diapositives.
 
-### Étape 2 : Instancier un cours de présentation
+### Étape 2 : Instancier la classe de présentation
 
 Avant d'appliquer des transitions de diapositives, vous devez charger votre présentation à l'aide de la classe Présentation.
 

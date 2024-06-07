@@ -59,7 +59,7 @@ GraphicsPath graphicsPath = new GraphicsPath();
 graphicsPath.AddString("Text in shape", new FontFamily("Arial"), 1, 40, new PointF(10, 10), StringFormat.GenericDefault);
 ```
 Genera un percorso grafico con il testo da aggiungere alla forma.
-## Passaggio 7: convertire il percorso grafico in percorso geometrico
+## Passaggio 7: converti il percorso grafico in percorso geometrico
 ```csharp
 IGeometryPath textPath = ShapeUtil.GraphicsPathToGeometryPath(graphicsPath);
 textPath.FillMode = PathFillModeType.Normal;

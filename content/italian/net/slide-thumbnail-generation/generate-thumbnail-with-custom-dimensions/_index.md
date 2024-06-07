@@ -111,7 +111,7 @@ Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di
  Aspose.Slides per .NET è una libreria commerciale. È possibile trovare informazioni su prezzi e licenze[Qui](https://purchase.aspose.com/buy).
 
 ### Ho bisogno di competenze di programmazione avanzate per utilizzare Aspose.Slides per .NET?
-Sebbene una certa conoscenza della programmazione .NET sia utile, Aspose.Slides per .NET fornisce un'API intuitiva che semplifica il lavoro con le presentazioni PowerPoint.
+Sebbene una certa conoscenza della programmazione .NET sia utile, Aspose.Slides per .NET fornisce un'API intuitiva che semplifica il lavoro con le presentazioni di PowerPoint.
 
 ### Il supporto tecnico è disponibile per Aspose.Slides per .NET?
  Sì, puoi accedere al supporto tecnico e ai forum della community[Qui](https://forum.aspose.com/).

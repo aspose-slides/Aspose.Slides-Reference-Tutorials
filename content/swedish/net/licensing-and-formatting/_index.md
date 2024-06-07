@@ -29,5 +29,5 @@ Lär dig hur du licensierar Aspose.Slides för .NET och släpp lös kraften i Po
 Lär dig hur du effektivt använder Metered Licensing med Aspose.Slides för .NET. Integrera API:er sömlöst samtidigt som du betalar för faktisk användning.
 ### [Lägg till färg till datapunkter i diagram](./add-color-to-data-points/)
 Lär dig hur du förbättrar diagramgrafik med Aspose.Slides för .NET. Lägg till dynamiska färger till datapunkter för mer effektfulla presentationer.
-### [Lägg till anpassade felfält i diagrammet](./add-custom-error/)
+### [Lägg till anpassade felstaplar till diagrammet](./add-custom-error/)
 Lär dig hur du lägger till anpassade felstaplar till diagram med Aspose.Slides för .NET. Skapa, stil och anpassa felfält för korrekt datavisualisering.

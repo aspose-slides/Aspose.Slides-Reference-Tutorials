@@ -11,7 +11,7 @@ url: /zh-hant/net/shape-effects-and-manipulation-in-slides/applying-bevel-effect
 在動態的簡報世界中，為幻燈片添加視覺吸引力可以顯著增強訊息的影響力。 Aspose.Slides for .NET 提供了一個強大的工具包，可以透過程式操作和美化您的簡報投影片。其中一個有趣的功能是能夠將斜角效果應用於形狀，從而為視覺效果添加深度和維度。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
-- Aspose.Slides for .NET：確保您已安裝 Aspose.Slides 函式庫。您可以從[網站](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：確保您已安裝 Aspose.Slides 函式庫。您可以從[網站](https://releases.aspose.com/slides/net/).
 - 開發環境：設定.NET開發環境，對C#有基本的了解。
 - 文件目錄：為您的文件建立一個目錄，用於保存產生的簡報文件。
 ## 導入命名空間

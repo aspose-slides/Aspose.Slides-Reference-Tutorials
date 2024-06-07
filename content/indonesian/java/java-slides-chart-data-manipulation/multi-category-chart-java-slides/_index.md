@@ -144,7 +144,7 @@ Dalam tutorial ini, kita telah mempelajari cara membuat bagan multi-kategori di 
 
 ### Bagaimana cara menyesuaikan tampilan grafik?
 
-Anda dapat menyesuaikan tampilan bagan dengan memodifikasi properti seperti warna, font, dan gaya. Lihat dokumentasi Aspose.Slides untuk opsi penyesuaian mendetail.
+Anda dapat menyesuaikan tampilan bagan dengan memodifikasi properti seperti warna, font, dan gaya. Lihat dokumentasi Aspose.Slides untuk opsi penyesuaian terperinci.
 
 ### Bisakah saya menambahkan lebih banyak seri ke grafik?
 

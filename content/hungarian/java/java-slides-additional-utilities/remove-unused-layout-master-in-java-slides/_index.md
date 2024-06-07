@@ -100,7 +100,7 @@ Ez a kód kinyomtatja a frissített számokat a prezentációban, jelezve, hogy 
 
 ## Következtetés
 
-Ebben a cikkben végigvezettük a Java Slides programból az Aspose.Slides for Java segítségével a fel nem használt elrendezési minták és elrendezési diák eltávolításának folyamatát. Ez döntő lépés a prezentációk optimalizálása, a fájlméret csökkentése és a hatékonyság növelése érdekében. Ezen egyszerű lépések követésével és a mellékelt kódrészletek használatával hatékonyan megtisztíthatja prezentációit.
+Ebben a cikkben végigvezettük a Java Slides programból az Aspose.Slides for Java segítségével nem használt elrendezési minták és elrendezési diák eltávolításának folyamatát. Ez döntő lépés a prezentációk optimalizálása, a fájlméret csökkentése és a hatékonyság növelése érdekében. Ezen egyszerű lépések követésével és a mellékelt kódrészletek használatával hatékonyan megtisztíthatja prezentációit.
 
 ## GYIK
 

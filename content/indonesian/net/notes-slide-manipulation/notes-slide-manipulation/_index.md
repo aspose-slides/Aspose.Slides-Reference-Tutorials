@@ -20,7 +20,7 @@ Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan: Anda harus memiliki lingkungan pengembangan yang berfungsi dengan Visual Studio atau alat pengembangan .NET lainnya.
 
-Sekarang, mari kita mulai mengerjakan setiap tugas langkah demi langkah.
+Sekarang, mari kita mulai mengerjakan setiap tugas selangkah demi selangkah.
 
 ## Tugas 1: Mengelola Header dan Footer di Slide Catatan
 

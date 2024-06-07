@@ -58,7 +58,7 @@ ILayoutSlide layoutSlide =
     layoutSlides.GetByType(SlideLayoutType.Title);
 ```
 
-Như được hiển thị trong đoạn mã trên, chúng tôi cố gắng tìm một trang chiếu có bố cục thuộc loại "Tiêu đề và đối tượng". Nếu không tìm thấy, chúng tôi sẽ chuyển sang bố cục "Tiêu đề". Bạn có thể điều chỉnh logic này cho phù hợp với nhu cầu của mình.
+Như được hiển thị trong đoạn mã trên, chúng tôi cố gắng tìm một trang chiếu có bố cục thuộc loại "Tiêu đề và Đối tượng". Nếu không tìm thấy, chúng tôi sẽ chuyển sang bố cục "Tiêu đề". Bạn có thể điều chỉnh logic này cho phù hợp với nhu cầu của mình.
 
 ## Bước 3: Chèn một slide trống
 

@@ -8,7 +8,7 @@ weight: 13
 url: /tr/net/slide-animation-control/rewind-animation-on-slide/
 ---
 ## giriiş
-Sunumların dinamik dünyasında büyüleyici animasyonların kullanılması katılımı önemli ölçüde artırabilir. Aspose.Slides for .NET, sunumlarınıza hayat katacak güçlü bir araç seti sağlar. İlgi çekici özelliklerden biri, slaytlardaki animasyonları geri sarma yeteneğidir. Bu kapsamlı kılavuzda, süreç boyunca size adım adım yol göstererek Aspose.Slides for .NET kullanarak animasyon geri sarmanın tüm potansiyelinden yararlanmanıza olanak sağlayacağız.
+Sunumların dinamik dünyasında büyüleyici animasyonların kullanılması katılımı önemli ölçüde artırabilir. Aspose.Slides for .NET, sunumlarınıza hayat katacak güçlü bir araç seti sağlar. İlgi çekici özelliklerden biri, slaytlardaki animasyonları geri sarma yeteneğidir. Bu kapsamlı kılavuzda, süreç boyunca size adım adım yol göstererek Aspose.Slides for .NET'i kullanarak animasyon geri sarmanın tüm potansiyelinden yararlanmanıza olanak sağlayacağız.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 -  Aspose.Slides for .NET: Kütüphanenin kurulu olduğundan emin olun. Değilse, şuradan indirin:[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/).

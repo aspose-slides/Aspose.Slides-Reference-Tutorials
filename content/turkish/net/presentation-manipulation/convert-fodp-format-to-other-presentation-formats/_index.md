@@ -74,7 +74,7 @@ Tebrikler! Aspose.Slides for .NET'i kullanarak FODP formatındaki bir dosyayı b
 
 ### 3. Aspose.Slides for .NET için nasıl geçici lisans alabilirim?
 
-Geçici bir lisansa ihtiyacınız varsa,[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+ Geçici bir lisansa ihtiyacınız varsa,[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Dönüştürme için hangi sunum formatları destekleniyor?
 

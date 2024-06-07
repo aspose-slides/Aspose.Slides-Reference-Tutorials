@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Etapa 4: adicionar uma forma de quadro de objeto OLE
 ```csharp
-// Adicionar uma forma de quadro de objeto OLE
+//Adicionar uma forma de quadro de objeto OLE
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ R: Sim, Aspose.Slides suporta os formatos de arquivo PowerPoint mais recentes, i
 ### P: Posso personalizar a aparência do quadro de objeto OLE incorporado?
 R: Com certeza, você pode ajustar o tamanho, a posição e outras propriedades do quadro de objeto OLE de acordo com suas preferências.
 ### P: Onde posso procurar assistência se encontrar desafios durante a implementação?
- R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio e orientação da comunidade.
+R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio e orientação da comunidade.

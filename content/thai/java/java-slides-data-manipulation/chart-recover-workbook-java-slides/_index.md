@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    //ดำเนินการกับข้อมูลสมุดงานที่นี่
+    // ดำเนินการกับข้อมูลสมุดงานที่นี่
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -92,7 +92,7 @@ finally
 
 ### ฉันจะติดตั้ง Aspose.Slides สำหรับ Java ได้อย่างไร
 
- Aspose.Slides for Java สามารถติดตั้งได้อย่างง่ายดายโดยการดาวน์โหลดไลบรารี่จากเว็บไซต์ที่[ที่นี่](https://releases.aspose.com/slides/java/). ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้เพื่อรวมเข้ากับโปรเจ็กต์ Java ของคุณ
+ Aspose.Slides for Java สามารถติดตั้งได้อย่างง่ายดายโดยการดาวน์โหลดไลบรารี่จากเว็บไซต์ที่[ที่นี่](https://releases.aspose.com/slides/java/)- ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้เพื่อรวมเข้ากับโปรเจ็กต์ Java ของคุณ
 
 ### ฉันสามารถกู้คืนข้อมูลสมุดงานจากแผนภูมิใดๆ ในงานนำเสนอ PowerPoint ได้หรือไม่
 

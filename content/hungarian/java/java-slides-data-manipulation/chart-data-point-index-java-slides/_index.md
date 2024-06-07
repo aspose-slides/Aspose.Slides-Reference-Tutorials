@@ -51,7 +51,7 @@ try {
 
 Ebben a kódrészletben:
 
--  A segítségével lekérjük az első diát`presentation.getSlides().get_Item(0)`.
+-  Az első diát a segítségével lekérjük`presentation.getSlides().get_Item(0)`.
 -  Feltételezzük, hogy a diagram az első alakzat a dián, ezért a segítségével érjük el`getShapes().get_Item(0)`. Módosítsa ezt az indexet, ha a diagram egy másik dián van, vagy más pozícióban van az alakzat sorrendjében.
 
 A cikluson belül a diagram első sorozatának minden adatpontját iteráljuk, és kinyomtatjuk annak indexét és értékét.

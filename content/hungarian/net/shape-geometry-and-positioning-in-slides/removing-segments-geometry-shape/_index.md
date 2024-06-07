@@ -20,7 +20,7 @@ A kezdéshez importálja a szükséges névtereket a .NET-projektbe. Ezek a név
 using System.IO;
 using Aspose.Slides.Export;
 ```
-## 1. lépés: Hozzon létre egy új bemutatót
+## 1. lépés: Hozzon létre egy új prezentációt
 Kezdje új prezentáció létrehozásával az Aspose.Slides könyvtár használatával.
 ```csharp
 string dataDir = "Your Document Directory";

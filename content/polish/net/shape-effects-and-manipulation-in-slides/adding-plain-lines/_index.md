@@ -47,7 +47,7 @@ Dodaj autokształt linii do slajdu:
 ```csharp
 sld.Shapes.AddAutoShape(ShapeType.Line, 50, 150, 300, 0);
 ```
-Dostosuj parametry (lewy, górny, szerokość, wysokość) w oparciu o swoje wymagania.
+Dostosuj parametry (lewy, górny, szerokość, wysokość) w zależności od wymagań.
 ## Krok 5: Zapisz prezentację
 Zapisz zmodyfikowaną prezentację na dysku:
 ```csharp

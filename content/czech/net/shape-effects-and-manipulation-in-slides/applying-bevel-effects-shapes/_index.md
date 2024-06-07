@@ -11,7 +11,7 @@ url: /cs/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 dynamickém světě prezentací může přidání vizuální přitažlivosti k vašim snímkům výrazně zvýšit dopad vaší zprávy. Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů pro programovou manipulaci a zkrášlení vašich prezentačních snímků. Jednou z takových zajímavých funkcí je schopnost aplikovat na tvary efekty zkosení a přidat tak hloubku a rozměr vašim vizuálům.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-- Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/slides/net/).
 - Vývojové prostředí: Nastavte své vývojové prostředí .NET a mějte základní znalosti jazyka C#.
 - Adresář dokumentů: Vytvořte adresář pro své dokumenty, kam se budou ukládat vygenerované prezentační soubory.
 ## Importovat jmenné prostory
@@ -35,7 +35,7 @@ Presentation pres = new Presentation();
 ISlide slide = pres.Slides[0];
 ```
 Inicializujte instanci prezentace a přidejte snímek, se kterým můžete pracovat.
-## Krok 3: Přidejte na snímek tvar
+## Krok 3: Přidejte tvar do snímku
 ```csharp
 IAutoShape shape = slide.Shapes.AddAutoShape(ShapeType.Ellipse, 30, 30, 100, 100);
 shape.FillFormat.FillType = FillType.Solid;

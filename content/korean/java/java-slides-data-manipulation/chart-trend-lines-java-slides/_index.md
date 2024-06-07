@@ -173,11 +173,11 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 
 ### Aspose.Slides for Java에서 추세선 색상을 어떻게 변경합니까?
 
-추세선의 색상을 변경하려면`getSolidFillColor().setColor(Color)` 선형 추세선을 추가하는 예에 표시된 대로 방법을 사용합니다.
+ 추세선의 색상을 변경하려면`getSolidFillColor().setColor(Color)` 선형 추세선을 추가하는 예에 표시된 대로 방법을 사용합니다.
 
 ### 단일 차트 시리즈에 여러 추세선을 추가할 수 있나요?
 
- 예, 단일 차트 시리즈에 여러 추세선을 추가할 수 있습니다. 간단히 전화하세요.`getTrendLines().add()` 추가하려는 각 추세선에 대한 방법입니다.
+예, 단일 차트 시리즈에 여러 추세선을 추가할 수 있습니다. 간단히 전화하세요.`getTrendLines().add()` 추가하려는 각 추세선에 대한 방법입니다.
 
 ### Aspose.Slides for Java의 차트에서 추세선을 어떻게 제거합니까?
 

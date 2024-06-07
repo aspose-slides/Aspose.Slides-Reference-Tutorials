@@ -10,7 +10,7 @@ url: /it/java/chart-data-manipulation/histogram-chart-java-slides/
 
 ## Introduzione al grafico dell'istogramma nelle diapositive Java utilizzando Aspose.Slides
 
-In questo tutorial, ti guideremo attraverso il processo di creazione di un grafico a istogramma in una presentazione di PowerPoint utilizzando l'API Aspose.Slides per Java. Un grafico a istogramma viene utilizzato per rappresentare la distribuzione dei dati su un intervallo continuo.
+In questo tutorial, ti guideremo attraverso il processo di creazione di un grafico dell'istogramma in una presentazione di PowerPoint utilizzando l'API Aspose.Slides per Java. Un grafico a istogramma viene utilizzato per rappresentare la distribuzione dei dati su un intervallo continuo.
 
 ## Prerequisiti
 

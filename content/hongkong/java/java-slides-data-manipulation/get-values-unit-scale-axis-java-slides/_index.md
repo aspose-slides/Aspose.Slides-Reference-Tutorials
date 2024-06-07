@@ -18,7 +18,7 @@ url: /zh-hant/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 
 1. Java 開發環境：確保您的系統上安裝了 Java 並且熟悉 Java 程式設計概念。
 
-2. Aspose.Slides for Java：從下列位置下載並安裝 Aspose.Slides for Java 函式庫[下載連結](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java：從下列位置下載並安裝 Aspose.Slides for Java 函式庫[下載連結](https://releases.aspose.com/slides/java/).
 
 ## 第 1 步：建立簡報
 

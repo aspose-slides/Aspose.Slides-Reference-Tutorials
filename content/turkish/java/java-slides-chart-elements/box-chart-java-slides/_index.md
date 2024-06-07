@@ -52,7 +52,7 @@ Bu adımda sunumun ilk slaytında Kutu Grafiği şekli oluşturuyoruz. Ayrıca m
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Bu adımda Kutu Grafiği için kategorileri tanımlıyoruz. biz kullanıyoruz`IChartDataWorkbook`Kategoriler eklemek ve bunları buna göre etiketlemek için.
+ Bu adımda Kutu Grafiği için kategorileri tanımlıyoruz. biz kullanıyoruz`IChartDataWorkbook` Kategoriler eklemek ve bunları buna göre etiketlemek için.
 
 ## Adım 4: Seriyi Oluşturun
 

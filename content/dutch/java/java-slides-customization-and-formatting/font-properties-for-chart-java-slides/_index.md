@@ -101,4 +101,4 @@ In deze zelfstudie hebt u geleerd hoe u de lettertype-eigenschappen voor een dia
 
 ### Hoe pas ik de lettertype-eigenschappen aan voor specifieke diagramelementen?
 
-Als u lettertype-eigenschappen wilt aanpassen voor specifieke diagramelementen, zoals aslabels of legendatekst, kunt u toegang krijgen tot die elementen en hun lettertype-eigenschappen instellen met behulp van soortgelijke methoden als hierboven weergegeven.
+Als u lettertype-eigenschappen wilt aanpassen voor specifieke diagramelementen, zoals aslabels of legendatekst, kunt u toegang krijgen tot die elementen en hun lettertype-eigenschappen instellen met soortgelijke methoden als hierboven weergegeven.

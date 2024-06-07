@@ -69,7 +69,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Thiết lập chỉ mục của bảng dữ liệu biểu đồ
 int defaultWorksheetIndex = 0;
 
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Xóa chuỗi và danh mục được tạo mặc định
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Đặt màu tô cho chuỗi
+//Đặt màu tô cho chuỗi
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// Đặt màu tô cho chuỗi
+//Đặt màu tô cho chuỗi
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -170,7 +170,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Thiết lập chỉ mục của bảng dữ liệu biểu đồ
 int defaultWorksheetIndex = 0;
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Xóa chuỗi và danh mục được tạo mặc định
 chart.getChartData().getSeries().clear();
@@ -186,23 +186,23 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Lấy loạt biểu đồ đầu tiên
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Hiện đang điền dữ liệu chuỗi
+//Hiện đang điền dữ liệu chuỗi
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// Đặt màu tô cho chuỗi
+//Đặt màu tô cho chuỗi
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Lấy loạt biểu đồ thứ hai
 series = chart.getChartData().getSeries().get_Item(1);
-// Hiện đang điền dữ liệu chuỗi
+//Hiện đang điền dữ liệu chuỗi
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Đặt màu tô cho chuỗi
+//Đặt màu tô cho chuỗi
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-//Nhãn đầu tiên sẽ hiển thị Tên danh mục
+// Nhãn đầu tiên sẽ hiển thị Tên danh mục
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
@@ -239,4 +239,4 @@ Trong hướng dẫn này, chúng ta đã học cách tạo biểu đồ thông 
 
 ### Làm cách nào để lưu biểu đồ sang định dạng tệp khác?
 
-Để lưu biểu đồ sang một định dạng tệp khác, hãy thay đổi`SaveFormat` tham số trong`pres.save()` sang định dạng mong muốn (ví dụ: PDF, PNG, JPEG).
+ Để lưu biểu đồ sang một định dạng tệp khác, hãy thay đổi`SaveFormat` tham số trong`pres.save()`sang định dạng mong muốn (ví dụ: PDF, PNG, JPEG).

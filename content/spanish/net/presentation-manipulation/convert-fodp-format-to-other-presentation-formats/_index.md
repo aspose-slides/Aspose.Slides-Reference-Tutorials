@@ -60,7 +60,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 ¡Felicidades! Ha convertido con éxito un archivo de formato FODP a otros formatos de presentación usando Aspose.Slides para .NET. Esta biblioteca versátil abre un mundo de posibilidades para trabajar con presentaciones mediante programación.
 
- Si tiene algún problema o tiene preguntas, no dude en buscar ayuda en el[Foro Aspose.Slides](https://forum.aspose.com/). La comunidad y el equipo de soporte están ahí para ayudarle.
+ Si tiene algún problema o tiene preguntas, no dude en buscar ayuda en el[Foro Aspose.Slides](https://forum.aspose.com/). La comunidad y el equipo de soporte están ahí para ayudarlo.
 
 ## Preguntas frecuentes
 
@@ -74,7 +74,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 ### 3. ¿Cómo puedo obtener una licencia temporal de Aspose.Slides para .NET?
 
-Si necesita una licencia temporal, puede obtener una del[página de licencia temporal](https://purchase.aspose.com/temporary-license/).
+ Si necesita una licencia temporal, puede obtener una del[página de licencia temporal](https://purchase.aspose.com/temporary-license/).
 
 ### 4. ¿Qué formatos de presentación se admiten para la conversión?
 

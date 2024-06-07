@@ -16,7 +16,7 @@ url: /ar/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 قبل أن تبدأ، تأكد من أن لديك ما يلي:
 
-1.  Aspose.Slides لمكتبة Java (يمكنك تنزيلها من[هنا](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides لمكتبة Java (يمكنك تنزيلها من[هنا](https://releases.aspose.com/slides/java/).
 2. إعداد بيئة تطوير جافا.
 
 ## الخطوة 1: إنشاء عرض تقديمي لـ PowerPoint
@@ -138,4 +138,4 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ### كيف يمكنني إضافة المزيد من نقاط البيانات إلى المخطط؟
 
- لإضافة المزيد من نقاط البيانات إلى المخطط، استخدم`getDataPoints().addDataPointForLineSeries` طريقة على سلسلة البيانات وتوفير قيم البيانات.
+ لإضافة المزيد من نقاط البيانات إلى المخطط، استخدم`getDataPoints().addDataPointForLineSeries`طريقة على سلسلة البيانات وتوفير قيم البيانات.

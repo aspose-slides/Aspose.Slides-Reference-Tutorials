@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Personnalisez le formatage des étiquettes (Police, Remplissage, etc.)
+        //Personnalisez le formatage des étiquettes (Police, Remplissage, etc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Comment puis-je activer ou désactiver les légendes pour les étiquettes de données ?
 
- Pour activer ou désactiver les légendes pour les étiquettes de données, utilisez l'option`setShowLabelAsDataCallout` méthode. Réglez-le sur`true` pour activer les légendes et`false` pour les désactiver.
+ Pour activer ou désactiver les légendes pour les étiquettes de données, utilisez l'option`setShowLabelAsDataCallout` méthode. Réglez-le sur`true` pour activer les légendes et`false`pour les désactiver.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Activer les accroches

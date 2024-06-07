@@ -65,7 +65,7 @@ A dia másolása és elhelyezése után el kell mentenünk a módosított célpr
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 
-## Az alkalmazás futtatása
+## Az Alkalmazás futtatása
 
 Az Aspose.Slides for .NET segítségével készítse el és futtassa az alkalmazást, hogy egy másik prezentációban egy diát egy pontos helyre másoljon.
 

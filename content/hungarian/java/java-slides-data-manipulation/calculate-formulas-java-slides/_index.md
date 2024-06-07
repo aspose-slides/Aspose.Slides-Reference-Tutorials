@@ -10,7 +10,7 @@ url: /hu/java/data-manipulation/calculate-formulas-java-slides/
 
 ## Bevezetés a képletek kiszámításába Java Slides-ben az Aspose.Slides használatával
 
-Ebben az útmutatóban bemutatjuk, hogyan lehet képleteket kiszámítani a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Az Aspose.Slides egy hatékony könyvtár a PowerPoint-prezentációkkal való munkavégzéshez, és olyan funkciókat kínál, amelyek segítségével diagramokat kezelhet és képletszámításokat végezhet a diákon belül.
+Ebben az útmutatóban bemutatjuk, hogyan lehet képleteket kiszámítani a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Az Aspose.Slides egy hatékony könyvtár a PowerPoint-prezentációkkal való munkavégzéshez, és olyan funkciókat kínál, amelyek segítségével diagramokat lehet kezelni és képletszámításokat végezni a diákon belül.
 
 ## Előfeltételek
 
@@ -20,7 +20,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel
 -  Aspose.Slides for Java könyvtár (letöltheti a[itt](https://releases.aspose.com/slides/java/)
 - Java programozási alapismeretek
 
-## 1. lépés: Hozzon létre egy új bemutatót
+## 1. lépés: Hozzon létre egy új prezentációt
 
 Először hozzunk létre egy új PowerPoint-prezentációt, és adjunk hozzá egy diát. Ebben a példában egyetlen diával fogunk dolgozni.
 
@@ -31,7 +31,7 @@ Presentation presentation = new Presentation();
 
 ## 2. lépés: Adjon hozzá egy diagramot a diához
 
-Most adjunk hozzá egy fürtözött oszlopdiagramot a diához. Ezt a diagramot használjuk a képletszámítások bemutatására.
+Most adjunk hozzá egy fürtözött oszlopdiagramot a diához. Ezt a diagramot a képletszámítások bemutatására fogjuk használni.
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
@@ -65,7 +65,7 @@ cell.setFormula("MAX(2:2)");
 workbook.calculateFormulas();
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentsük el a módosított prezentációt a kiszámított képletekkel.
 

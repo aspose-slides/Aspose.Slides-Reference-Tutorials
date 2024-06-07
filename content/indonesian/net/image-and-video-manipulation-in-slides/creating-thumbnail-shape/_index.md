@@ -11,7 +11,7 @@ url: /id/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 Aspose.Slides for .NET adalah perpustakaan canggih yang memberdayakan pengembang untuk bekerja secara lancar dengan presentasi PowerPoint. Salah satu fitur penting adalah kemampuan untuk menghasilkan thumbnail untuk bentuk dalam presentasi. Tutorial ini akan memandu Anda melalui proses pembuatan thumbnail untuk bentuk menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-1. Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/slides/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan yang sesuai, seperti Visual Studio, dan miliki pemahaman dasar tentang pemrograman C#.
 ## Impor Namespace
 Untuk memulai, Anda perlu mengimpor namespace yang diperlukan dalam kode C# Anda. Namespace ini memfasilitasi komunikasi dengan perpustakaan Aspose.Slides. Tambahkan baris berikut di awal file C# Anda:
@@ -56,4 +56,4 @@ J: Anda dapat menerapkan mekanisme penanganan kesalahan menggunakan blok coba-ta
 ### T: Apakah ada batasan pada ukuran atau jenis bentuk yang boleh memiliki gambar mini?
 J: Aspose.Slides memberikan fleksibilitas untuk membuat thumbnail untuk berbagai bentuk, termasuk kotak teks, gambar, dan lainnya.
 ### T: Dapatkah saya menyesuaikan ukuran dan resolusi gambar mini yang dihasilkan?
- A: Ya, Anda dapat menyesuaikan parameter saat memanggil`GetThumbnail` metode untuk mengontrol ukuran dan resolusi.
+A: Ya, Anda dapat menyesuaikan parameter saat memanggil`GetThumbnail` metode untuk mengontrol ukuran dan resolusi.

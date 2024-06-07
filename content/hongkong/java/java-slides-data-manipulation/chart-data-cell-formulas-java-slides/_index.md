@@ -32,7 +32,7 @@ try
     IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
     
     //繼續資料單元操作
-    //…
+    //……
     
     //儲存簡報
     presentation.save(outpptxFile, SaveFormat.Pptx);

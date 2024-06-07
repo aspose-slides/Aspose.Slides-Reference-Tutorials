@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## 4단계: ImageEx 클래스 인스턴스화
- 인스턴스를 생성합니다.`ImageEx` 슬라이드에 추가하려는 이미지를 처리하는 클래스입니다.
+ 인스턴스를 생성합니다.`ImageEx`슬라이드에 추가하려는 이미지를 처리하는 클래스입니다.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

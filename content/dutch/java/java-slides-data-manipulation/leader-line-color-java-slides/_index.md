@@ -1,6 +1,6 @@
 ---
-title: Kleur van de leiderlijn in Java-dia's
-linktitle: Kleur van de leiderlijn in Java-dia's
+title: Kleur van de aanhaallijn in Java-dia's
+linktitle: Kleur van de aanhaallijn in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de kleuren van aanhaallijnen in PowerPoint-diagrammen kunt wijzigen met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncodevoorbeelden.
 type: docs

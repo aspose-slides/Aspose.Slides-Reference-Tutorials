@@ -68,7 +68,7 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 }
 ```
 ## Wniosek
-Gratulacje! Pomyślnie nauczyłeś się, jak wyodrębnić osadzone dane pliku z obiektu OLE w Aspose.Slides dla .NET. Ta umiejętność jest nieoceniona, jeśli chodzi o łatwe prowadzenie złożonych prezentacji. Kontynuując eksplorację możliwości Aspose.Slides, odkryjesz jeszcze więcej sposobów na usprawnienie zadań związanych z przetwarzaniem programu PowerPoint.
+Gratulacje! Pomyślnie nauczyłeś się wyodrębniać dane z osadzonego pliku z obiektu OLE w Aspose.Slides dla .NET. Ta umiejętność jest nieoceniona, jeśli chodzi o łatwe prowadzenie złożonych prezentacji. Kontynuując eksplorację możliwości Aspose.Slides, odkryjesz jeszcze więcej sposobów na usprawnienie zadań związanych z przetwarzaniem programu PowerPoint.
 
 ## Często Zadawane Pytania
 ### Czy Aspose.Slides jest kompatybilny z najnowszym frameworkiem .NET?

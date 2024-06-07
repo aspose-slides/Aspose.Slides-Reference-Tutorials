@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/convert-without-xps-options-java-slides/
 
 ## Bevezetés A PowerPoint konvertálása XPS-re XPS-beállítások nélkül az Aspose.Slides for Java-ban
 
-Ebben az oktatóanyagban végigvezetjük a PowerPoint prezentáció XPS (XML Paper Specification) dokumentummá konvertálásának folyamatán az Aspose.Slides for Java használatával XPS-beállítások megadása nélkül. Lépésről lépésre útmutatást és Java forráskódot adunk a feladat elvégzéséhez.
+Ebben az oktatóanyagban végigvezetjük a PowerPoint-prezentáció XPS-dokumentummá (XML Paper Specification) való konvertálásának folyamatán az Aspose.Slides for Java használatával XPS-beállítások megadása nélkül. Lépésről lépésre útmutatást és Java forráskódot adunk a feladat elvégzéséhez.
 
 ## Előfeltételek
 
@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Convert_XPS.pptx");
 ```
 
- Győződjön meg róla, hogy cseréli`"Convert_XPS.pptx"` a PowerPoint-fájl tényleges nevével.
+ Győződjön meg róla, hogy kicserélte`"Convert_XPS.pptx"` a PowerPoint-fájl tényleges nevével.
 
 ## 3. lépés: Mentés XPS-ként XPS-beállítások nélkül
 

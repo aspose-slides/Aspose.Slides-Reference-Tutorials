@@ -22,7 +22,7 @@ Aby rozpocząć przygodę z Aspose.Slides dla Java, musisz najpierw zainstalowa�
 
 ### Przeglądanie dokumentacji
 
- Każda wielka przygoda zaczyna się od mapy, a w tym przypadku jest to dokumentacja. The[Dokumentacja API Aspose.Slides](https://reference.aspose.com/slides/java/) jest Twoim najlepszym przewodnikiem. Zawiera wyczerpujące informacje na temat klas, metod i przykładów, które pomogą Ci zrozumieć i efektywnie wykorzystać API.
+ Każda wielka przygoda zaczyna się od mapy, a w tym przypadku jest to dokumentacja. The[Dokumentacja API Aspose.Slides](https://reference.aspose.com/slides/java/) jest Twoim najlepszym przewodnikiem. Zawiera wyczerpujące informacje na temat klas, metod i przykładów, które pomogą Ci zrozumieć i efektywnie wykorzystać interfejs API.
 
 ## Zaawansowane funkcje
 
@@ -44,7 +44,7 @@ Odkryj moc Aspose.Slides for Java w dostosowywaniu i formatowaniu slajdów Java.
 ### [Animacja i układ slajdów Java](./animation-and-layout/)
 Naucz się animacji i układu slajdów w Javie za pomocą Aspose.Slides dla Java. Opanuj interaktywne prezentacje. Zanurz się w dynamicznym tworzeniu treści.
 ### [Elementy wykresu slajdów Java](./chart-elements/)
-Dowiedz się, jak tworzyć dynamiczne wykresy na slajdach Java za pomocą Aspose.Slides for Java, korzystając z naszych kompleksowych samouczków. Podnieś swoje umiejętności prezentacji już dziś!
+Dowiedz się, jak tworzyć dynamiczne wykresy na slajdach Java przy użyciu Aspose.Slides for Java, korzystając z naszych kompleksowych samouczków. Podnieś swoje umiejętności prezentacji już dziś!
 ### [Tworzenie wykresów slajdów Java](./chart-creation/)
 Dowiedz się, jak tworzyć dynamiczne slajdy Java z wykresami przy użyciu Aspose.Slides for Java. Nasze obszerne samouczki przeprowadzą Cię przez cały proces krok po kroku.
 ### [Konwersja prezentacji slajdów Java](./presentation-conversion/)
@@ -63,3 +63,20 @@ Dowiedz się, jak obsługiwać obrazy na slajdach Java, korzystając z samouczk�
 Dowiedz się, jak zwiększyć bezpieczeństwo dokumentów Java Slides za pomocą Aspose.Slides. Zapoznaj się z samouczkami krok po kroku dotyczącymi ochrony dokumentów.
 ### [Opcje zapisywania slajdów Java](./saving-options/)
 Dowiedz się o opcjach zapisywania slajdów Java w Aspose.Slides dla Java. Zapoznaj się z obszernymi samouczkami i przewodnikami dotyczącymi wydajnego zarządzania slajdami i ich dostosowywania.
+
+### [Operacje zapisywania programu Java PowerPoint](./java-powerpoint-save-operations/)
+Dowiedz się, jak zapisywać prezentacje programu PowerPoint przy użyciu Aspose.Slides dla Java. Poradniki dotyczące zapisywania do pliku, strumieniowania i dodawania ochrony hasłem.
+### [Zarządzanie właściwościami programu Java PowerPoint](./java-powerpoint-properties-management/)
+Dowiedz się, jak zarządzać właściwościami programu PowerPoint za pomocą Aspose.Slides dla Java. Uzyskuj dostęp, modyfikuj i aktualizuj właściwości bez wysiłku dzięki naszym obszernym samouczkom.
+### [Techniki renderowania w programie Java PowerPoint](./java-powerpoint-rendering-techniques/)
+Dowiedz się, jak renderować komentarze, grafikę 3D, emotikony i nie tylko w programie PowerPoint przy użyciu Aspose.Slides dla Java. Kompleksowe samouczki umożliwiające ulepszone prezentacje.
+### [Wstawianie kształtów i multimediów w programie Java PowerPoint](./java-powerpoint-shape-media-insertion/)
+Dowiedz się, jak wstawiać kształty i multimedia do prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Samouczki obejmują dodawanie linii, dźwięku, obiektów OLE i filmów.
+### [Tworzenie kształtów i miniatur w programie Java PowerPoint](./java-powerpoint-shape-thumbnail-creation/)
+Naucz się tworzyć kształty i miniatury w programie PowerPoint przy użyciu języka Java Aspose.Slides. Szczegółowe samouczki na temat tworzenia kształtów grup, miniatur współczynników skalowania i efektów powiększenia.
+### [Animacja Java PowerPoint i manipulacja kształtami](./java-powerpoint-animation-shape-manipulation/)
+Dowiedz się, jak animować kształty i manipulować nimi w programie PowerPoint przy użyciu Aspose.Slides dla Java. Kompleksowe samouczki dotyczące dynamicznych prezentacji.
+### [Formatowanie i geometria kształtów w programie Java PowerPoint](./java-powerpoint-shape-formatting-geometry/)
+Odkryj samouczki dotyczące formatowania kształtów i geometrii w programie Java PowerPoint. Naucz się wypełniać kształty, znajdować kształty i tworzyć niestandardową geometrię za pomocą Aspose.Slides dla Java.
+### [Techniki klonowania slajdów w programie Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
+Opanuj klonowanie slajdów w programie PowerPoint przy użyciu programu Aspose.Slides dla języka Java. Dowiedz się, jak bezproblemowo klonować slajdy w ramach tej samej prezentacji lub między prezentacjami.

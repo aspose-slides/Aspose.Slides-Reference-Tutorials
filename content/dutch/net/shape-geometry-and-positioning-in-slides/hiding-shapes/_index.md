@@ -68,8 +68,8 @@ Ja, Aspose.Slides ondersteunt .NET Core en biedt flexibiliteit in uw ontwikkelom
 ### Kan ik vormen verbergen op basis van andere voorwaarden dan alternatieve tekst?
 Absoluut! U kunt de verberglogica aanpassen op basis van verschillende kenmerken, zoals vormtype, kleur of positie.
 ### Waar kan ik aanvullende Aspose.Slides-documentatie vinden?
- Verken de documentatie[hier](https://reference.aspose.com/slides/net/) voor uitgebreide informatie en voorbeelden.
+ Verken de documentatie[hier](https://reference.aspose.com/slides/net/)voor uitgebreide informatie en voorbeelden.
 ### Zijn er tijdelijke licenties beschikbaar voor Aspose.Slides?
- Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+ Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/)voor testdoeleinden.
 ### Hoe kan ik community-ondersteuning krijgen voor Aspose.Slides?
  Sluit u aan bij de Aspose.Slides-community op de[forum](https://forum.aspose.com/c/slides/11) voor discussies en hulp.

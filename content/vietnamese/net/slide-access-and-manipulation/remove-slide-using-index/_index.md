@@ -10,7 +10,7 @@ url: /vi/net/slide-access-and-manipulation/remove-slide-using-index/
 
 ## Giới thiệu về Xóa slide theo chỉ mục tuần tự
 
-Nếu bạn đang làm việc với các bản trình bày PowerPoint trong ứng dụng .NET và cần xóa các trang chiếu theo chương trình, Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xóa các trang chiếu theo chỉ mục tuần tự của chúng bằng Aspose.Slides cho .NET. Chúng tôi sẽ đề cập đến mọi thứ từ thiết lập môi trường của bạn đến viết mã cần thiết, đồng thời đảm bảo giải thích rõ ràng và cung cấp ví dụ về mã nguồn.
+Nếu bạn đang làm việc với các bản trình bày PowerPoint trong ứng dụng .NET và cần xóa các trang chiếu theo chương trình, Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xóa các trang chiếu theo chỉ mục tuần tự của chúng bằng Aspose.Slides cho .NET. Chúng tôi sẽ đề cập đến mọi thứ từ việc thiết lập môi trường của bạn đến viết mã cần thiết, đồng thời đảm bảo giải thích rõ ràng và cung cấp ví dụ về mã nguồn.
 
 ## Điều kiện tiên quyết
 
@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Mã thao tác slide của bạn sẽ ở đây
+    //Mã thao tác slide của bạn sẽ ở đây
 }
 ```
 

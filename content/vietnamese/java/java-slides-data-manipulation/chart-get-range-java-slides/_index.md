@@ -34,7 +34,7 @@ Presentation pres = new Presentation();
 
 ## Bước 3: Thêm biểu đồ
 
-Tiếp theo, chúng ta sẽ thêm biểu đồ vào bản trình bày. Trong ví dụ này, chúng tôi sẽ tạo biểu đồ cột theo nhóm. Đây là mã để thêm biểu đồ:
+Tiếp theo, chúng ta sẽ thêm biểu đồ vào bản trình bày. Trong ví dụ này, chúng tôi sẽ tạo biểu đồ cột theo cụm. Đây là mã để thêm biểu đồ:
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 400, 300);

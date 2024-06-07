@@ -11,7 +11,7 @@ url: /id/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 Dalam bidang presentasi dinamis, Aspose.Slides untuk .NET menonjol sebagai alat yang ampuh, memberikan pengembang kemampuan untuk memanipulasi dan menyempurnakan presentasi PowerPoint secara terprogram. Salah satu fitur yang menarik adalah kemampuan untuk menghasilkan thumbnail untuk SmartArt Child Notes, menambahkan lapisan daya tarik visual pada presentasi Anda. Panduan langkah demi langkah ini akan memandu Anda melalui proses pembuatan gambar mini untuk Catatan Anak SmartArt menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-- Aspose.Slides untuk .NET: Pastikan Anda memiliki perpustakaan Aspose.Slides yang terintegrasi ke dalam proyek .NET Anda. Jika tidak, unduh dari[halaman rilis](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides untuk .NET: Pastikan Anda memiliki perpustakaan Aspose.Slides yang terintegrasi ke dalam proyek .NET Anda. Jika tidak, unduh dari[halaman rilis](https://releases.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET yang berfungsi, dan miliki pemahaman dasar tentang pemrograman C#.
 - Contoh Presentasi: Buat atau dapatkan presentasi PowerPoint yang berisi SmartArt dengan Catatan Anak untuk pengujian.
 ## Impor Namespace
@@ -38,7 +38,7 @@ Untuk bekerja dengan node tertentu di SmartArt, dapatkan referensinya menggunaka
 ```csharp
 ISmartArtNode node = smart.Nodes[1];
 ```
-## Langkah 4: Dapatkan Gambar Mini
+## Langkah 4: Dapatkan Gambar Kecil
 Ambil gambar mini Catatan Anak dalam node SmartArt.
 ```csharp
 Bitmap bmp = node.Shapes[0].GetThumbnail();
@@ -57,8 +57,8 @@ J: Ya, Anda dapat menyesuaikan dimensi dan format thumbnail dengan memodifikasi 
 ### T: Apakah Aspose.Slides mendukung tata letak SmartArt lainnya?
 J: Tentu saja! Aspose.Slides menawarkan beragam tata letak SmartArt, memungkinkan Anda memilih salah satu yang paling sesuai dengan kebutuhan presentasi Anda.
 ### T: Apakah lisensi sementara tersedia untuk tujuan pengujian?
-J: Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
+ J: Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
 ### T: Di mana saya dapat mencari bantuan atau terhubung dengan komunitas Aspose.Slides?
- J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk terlibat dengan komunitas, mengajukan pertanyaan, dan menemukan solusi.
-### T: Dapatkah saya membeli Aspose.Slides untuk .NET?
+J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk terlibat dengan komunitas, mengajukan pertanyaan, dan menemukan solusi.
+### T: Bisakah saya membeli Aspose.Slides untuk .NET?
  J: Tentu saja! Jelajahi opsi pembelian[Di Sini](https://purchase.aspose.com/buy) untuk membuka potensi penuh Aspose.Slides dalam proyek Anda.

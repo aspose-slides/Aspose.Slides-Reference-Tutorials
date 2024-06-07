@@ -62,7 +62,7 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-Vi konverterar Excel-arbetsboksdata till en ström och skriver dem till diagramdata.
+Vi konverterar Excel-arbetsboksdata till en ström och skriver den till diagramdata.
 
 ## Steg 6: Ställ in diagramdataintervall
 

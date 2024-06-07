@@ -24,7 +24,7 @@ Sekarang setelah Anda memiliki semua prasyarat, mari mulai dengan manajemen kome
 
 ## Impor Namespace
 
-Pertama, Anda perlu mengimpor namespace yang diperlukan dari Aspose.Slides ke kode C# Anda. Langkah ini memungkinkan Anda mengakses kelas dan metode yang diperlukan untuk manajemen komentar modern.
+Pertama, Anda perlu mengimpor namespace yang diperlukan dari Aspose.Slides ke kode C# Anda. Langkah ini memungkinkan Anda mengakses kelas dan metode yang diperlukan untuk pengelolaan komentar modern.
 
 ### Langkah 1: Impor Ruang Nama Aspose.Slides
 

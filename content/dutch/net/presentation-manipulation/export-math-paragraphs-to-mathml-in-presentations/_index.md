@@ -1,6 +1,6 @@
 ---
-title: Wiskundige alinea's exporteren naar MathML in Presentaties
-linktitle: Wiskundige alinea's exporteren naar MathML in Presentaties
+title: Wiskundige alinea's exporteren naar MathML in presentaties
+linktitle: Wiskundige alinea's exporteren naar MathML in presentaties
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties door wiskundige paragrafen naar MathML te exporteren met behulp van Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding voor nauwkeurige wiskundige weergave. Download Aspose.Slides en begin vandaag nog met het maken van boeiende presentaties.
 type: docs

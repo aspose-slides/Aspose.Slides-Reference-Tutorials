@@ -93,7 +93,7 @@ In deze zelfstudie hebben we het proces van het maken van groepsvormen met Aspos
 ### Kan ik Aspose.Slides uitproberen voordat ik een aankoop doe?
  Absoluut! U kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides-gerelateerde vragen?
- Bezoek de Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en discussies.
+Bezoek de Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en discussies.
 ### Hoe verkrijg ik een tijdelijke licentie voor Aspose.Slides?
  U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik een volledige licentie voor Aspose.Slides kopen?

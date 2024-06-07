@@ -10,7 +10,7 @@ url: /fr/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-j
 
 ## Introduction à la récupération des coordonnées rectangulaires d'un paragraphe dans Aspose.Slides pour Java
 
-Dans ce didacticiel, nous allons montrer comment récupérer les coordonnées rectangulaires d'un paragraphe dans une présentation PowerPoint à l'aide de l'API Aspose.Slides pour Java. En suivant les étapes ci-dessous, vous pouvez obtenir par programme la position et les dimensions d'un paragraphe dans une diapositive.
+Dans ce didacticiel, nous montrerons comment récupérer les coordonnées rectangulaires d'un paragraphe dans une présentation PowerPoint à l'aide de l'API Aspose.Slides pour Java. En suivant les étapes ci-dessous, vous pouvez obtenir par programme la position et les dimensions d'un paragraphe dans une diapositive.
 
 ## Conditions préalables
 
@@ -107,7 +107,7 @@ Oui, Aspose.Slides pour Java est bien adapté au traitement par lots de fichiers
 
 ### Où puis-je trouver plus d’exemples et de documentation ?
 
-Vous pouvez trouver plus d’exemples de code et une documentation détaillée pour Aspose.Slides pour Java sur le[Documentation Aspose.Slides](https://reference.aspose.com/slides/java/) site web. De plus, vous pouvez explorer le[Forums Aspose.Slides](https://forum.aspose.com/c/slides) pour le soutien et les discussions de la communauté.
+ Vous pouvez trouver plus d’exemples de code et une documentation détaillée pour Aspose.Slides pour Java sur le[Documentation Aspose.Slides](https://reference.aspose.com/slides/java/)site web. De plus, vous pouvez explorer le[Forums Aspose.Slides](https://forum.aspose.com/c/slides) pour le soutien et les discussions de la communauté.
 
 ### Ai-je besoin d’une licence pour utiliser Aspose.Slides pour Java ?
 

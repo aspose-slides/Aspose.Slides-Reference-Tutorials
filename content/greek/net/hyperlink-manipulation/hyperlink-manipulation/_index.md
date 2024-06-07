@@ -117,7 +117,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 Απολύτως. Το Aspose.Slides υποστηρίζει διάφορες μορφές PowerPoint, συμπεριλαμβανομένων των PPT, PPTX, PPS και άλλων. Εξασφαλίζει συμβατότητα με διαφορετικές εκδόσεις του Microsoft PowerPoint.
 
 ### Πού μπορώ να βρω πρόσθετους πόρους και υποστήριξη για το Aspose.Slides;
-Για ενδελεχή τεκμηρίωση και υποστήριξη της κοινότητας, επισκεφθείτε τη διεύθυνση[Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/net/) και το[Aspose forum υποστήριξης](https://forum.aspose.com/).
+ Για ενδελεχή τεκμηρίωση και υποστήριξη της κοινότητας, επισκεφθείτε τη διεύθυνση[Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/net/) και το[Aspose forum υποστήριξης](https://forum.aspose.com/).
 
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Slides;
  Εάν χρειάζεστε μια προσωρινή άδεια για το Aspose.Slides, μπορείτε να αποκτήσετε μια[εδώ](https://purchase.aspose.com/temporary-license/).

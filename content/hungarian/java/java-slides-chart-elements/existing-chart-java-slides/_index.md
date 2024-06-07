@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // A diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
 
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // A diagramkategória nevének módosítása
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Diagram kategória nevének megváltoztatása
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Vegyük a 3. diagramsorozatot
 series = chart.getChartData().getSeries().get_Item(2);
-// Most a sorozatadatok feltöltése
+//Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

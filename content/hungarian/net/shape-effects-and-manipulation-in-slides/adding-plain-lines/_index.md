@@ -1,6 +1,6 @@
 ---
-title: Egyszerű vonalak hozzáadása prezentációs diákhoz az Aspose.Slides segítségével
-linktitle: Egyszerű vonalak hozzáadása prezentációs diákhoz az Aspose.Slides segítségével
+title: Egyszerű vonalak hozzáadása a bemutató diákhoz az Aspose.Slides segítségével
+linktitle: Egyszerű vonalak hozzáadása a bemutató diákhoz az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Javítsa PowerPoint-prezentációit .NET-ben az Aspose.Slides segítségével. Kövesse lépésenkénti útmutatónkat, hogy egyszerű vonalakat adjon hozzá könnyedén.
 type: docs

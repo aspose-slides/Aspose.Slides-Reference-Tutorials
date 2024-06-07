@@ -49,13 +49,13 @@ Sekarang, mari kita uraikan setiap langkah untuk memahami apa yang terjadi.
 ## Kesimpulan
 Mencetak slide presentasi secara terprogram dengan Aspose.Slides untuk .NET adalah proses yang mudah. Dengan mengikuti langkah-langkah ini, Anda dapat mengintegrasikan fungsi ini dengan lancar ke dalam aplikasi .NET Anda.
 ## FAQ
-### T: Bisakah saya menggunakan Aspose.Slides untuk mencetak slide tertentu, bukan keseluruhan presentasi?
+### T: Dapatkah saya menggunakan Aspose.Slides untuk mencetak slide tertentu, bukan keseluruhan presentasi?
 J: Ya, Anda dapat mencapainya dengan memodifikasi kode untuk mencetak slide tertentu secara selektif.
 ### T: Apakah ada persyaratan lisensi untuk menggunakan Aspose.Slides?
  J: Ya, pastikan Anda memiliki lisensi yang sesuai. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat menemukan dukungan tambahan atau mengajukan pertanyaan tentang Aspose.Slides?
  A: Kunjungi Aspose.Slide[forum dukungan](https://forum.aspose.com/c/slides/11) untuk bantuan.
 ### T: Dapatkah saya mencoba Aspose.Slides secara gratis sebelum membeli?
-J: Tentu saja! Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+ J: Tentu saja! Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### T: Bagaimana cara membeli Aspose.Slides untuk .NET?
  A: Anda dapat membeli perpustakaan[Di Sini](https://purchase.aspose.com/buy).

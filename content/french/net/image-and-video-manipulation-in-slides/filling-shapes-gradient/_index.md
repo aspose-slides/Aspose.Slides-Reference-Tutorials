@@ -70,6 +70,6 @@ R : Certainement ! Aspose.Slides pour .NET prend en charge le remplissage en dé
 ### Q : Existe-t-il un essai gratuit disponible pour Aspose.Slides pour .NET ?
  R : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/).
 ### Q : Comment puis-je obtenir de l'assistance pour Aspose.Slides pour .NET ?
- R : Demandez de l'aide et engagez-vous auprès de la communauté sur le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+R : Demandez de l'aide et engagez-vous auprès de la communauté sur le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Q : Puis-je acheter une licence temporaire pour Aspose.Slides pour .NET ?
  R : Bien sûr, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

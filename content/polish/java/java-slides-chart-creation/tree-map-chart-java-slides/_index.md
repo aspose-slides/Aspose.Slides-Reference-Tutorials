@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //Utwórz oddział 1
+    // Utwórz oddział 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -133,7 +133,7 @@ finally
 
 ## Wniosek
 
-W tym samouczku nauczyłeś się tworzyć wykres mapy drzewa w prezentacji programu PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Wykresy mapy drzewa są cennym narzędziem do wizualizacji danych hierarchicznych, dzięki czemu Twoje prezentacje są bardziej pouczające i wciągające.
+tym samouczku nauczyłeś się tworzyć wykres mapy drzewa w prezentacji programu PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Wykresy mapy drzewa są cennym narzędziem do wizualizacji danych hierarchicznych, dzięki czemu Twoje prezentacje są bardziej pouczające i wciągające.
 
 ## Często zadawane pytania
 

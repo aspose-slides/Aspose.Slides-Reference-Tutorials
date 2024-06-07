@@ -2,7 +2,7 @@
 title: Az Átmeneti Morph típus beállítása a dián az Aspose.Slides használatával
 linktitle: Állítsa be az Átmeneti alaktípus típusát a dián
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan állíthat be átmeneti morfiumtípust diákon az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal. Javítsa prezentációit most!
+description: Ismerje meg, hogyan állíthat be átmeneti morfiumtípust diákon az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal. Javítsa prezentációit most!
 type: docs
 weight: 12
 url: /hu/net/slide-transition-effects/set-transition-morph-type/
@@ -66,7 +66,7 @@ Megadhatja a Morph Type; ebben a példában a „ByWord” kifejezést használj
 ((IMorphTransition)presentation.Slides[0].SlideShowTransition.Value).MorphType = TransitionMorphType.ByWord;
 ```
 
-### 4. lépés: Mentse el a prezentációt
+### 4. lépés: Mentse el a bemutatót
 
 Miután beállította a Transition Morph Type típusát, mentse a módosított bemutatót egy új fájlba.
 

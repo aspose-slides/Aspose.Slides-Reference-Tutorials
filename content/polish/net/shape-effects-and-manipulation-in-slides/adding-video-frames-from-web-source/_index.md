@@ -14,7 +14,7 @@ Zanim zagłębisz się w samouczek, upewnij się, że masz następujące element
 1.  Biblioteka Aspose.Slides dla .NET: Pobierz i zainstaluj bibliotekę z[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
 2. Przykładowy plik wideo: Przygotuj plik wideo, który chcesz umieścić w swojej prezentacji. Możesz użyć podanego przykładu z filmem o nazwie „Wildlife.mp4”.
 ## Importuj przestrzenie nazw
-W swoim projekcie .NET uwzględnij niezbędne przestrzenie nazw, aby wykorzystać funkcje Aspose.Slides:
+W swoim projekcie .NET uwzględnij niezbędne przestrzenie nazw, aby wykorzystać funkcjonalności Aspose.Slides:
 ```csharp
 using System.IO;
 using Aspose.Slides;

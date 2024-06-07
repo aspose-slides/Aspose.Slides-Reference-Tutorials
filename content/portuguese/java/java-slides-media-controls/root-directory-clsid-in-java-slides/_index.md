@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Substitua "your_output_path"
 Presentation pres = new Presentation();
 ```
 
- No código acima, definimos o caminho para o arquivo de apresentação de saída e criamos um novo`Presentation` objeto.
+No código acima, definimos o caminho para o arquivo de apresentação de saída e criamos um novo`Presentation` objeto.
 
 ## Etapa 2: definir ClsId do diretório raiz
 
- Para definir o ClsId do diretório raiz, você precisa criar uma instância de`PptOptions` defina o CLSID desejado. O CLSID representa o aplicativo que será usado como diretório raiz quando um hiperlink for ativado.
+ Para definir o ClsId do diretório raiz, você precisa criar uma instância de`PptOptions` e defina o CLSID desejado. O CLSID representa o aplicativo que será usado como diretório raiz quando um hiperlink for ativado.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// defina CLSID como 'Microsoft Powerpoint.Show.8'
+	//defina CLSID como 'Microsoft Powerpoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Salvar apresentação
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);
@@ -96,7 +96,7 @@ Para encontrar o CLSID de um aplicativo específico, consulte a documentação o
 
  Sim, você pode definir um CLSID personalizado para o diretório raiz especificando o valor CLSID desejado usando o comando`setRootDirectoryClsid` método, conforme mostrado no exemplo de código. Isso permite que você use um aplicativo específico como diretório raiz quando hiperlinks são ativados em sua apresentação.
 
-### O que acontece se eu não definir o ClsId do diretório raiz?
+### que acontece se eu não definir o ClsId do diretório raiz?
 
 Se você não definir o ClsId do diretório raiz, o comportamento padrão dependerá do visualizador ou aplicativo usado para abrir a apresentação. Ele pode usar seu próprio aplicativo padrão como diretório raiz quando os hiperlinks são ativados.
 

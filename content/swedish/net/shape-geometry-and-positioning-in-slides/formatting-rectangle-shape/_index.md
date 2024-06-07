@@ -14,7 +14,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 - En utvecklingsmiljö med Aspose.Slides för .NET installerat.
 - Grundläggande kunskaper i programmeringsspråket C#.
 - Förtrogenhet med att skapa och manipulera PowerPoint-presentationer.
-Nu, låt oss komma igång med handledningen!
+Nu börjar vi med handledningen!
 ## Importera namnområden
 I din C#-kod måste du importera de nödvändiga namnrymden för att använda Aspose.Slides-funktioner. Lägg till följande namnrymder i början av din kod:
 ```csharp

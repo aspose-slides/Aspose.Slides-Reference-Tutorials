@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    //Thực hiện các thao tác trên dữ liệu bảng tính tại đây
+    // Thực hiện các thao tác trên dữ liệu bảng tính tại đây
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -108,4 +108,4 @@ Tuyệt đối! Aspose.Slides for Java là một thư viện mạnh mẽ để t
 
 ### Làm cách nào tôi có thể truy cập thêm tài liệu về Aspose.Slides cho Java?
 
- Để biết tài liệu chi tiết và tài liệu tham khảo về Aspose.Slides cho Java, hãy truy cập trang tài liệu tại[đây](https://reference.aspose.com/slides/java/).
+ Để có tài liệu chi tiết và tài liệu tham khảo về Aspose.Slides cho Java, hãy truy cập trang tài liệu tại[đây](https://reference.aspose.com/slides/java/).

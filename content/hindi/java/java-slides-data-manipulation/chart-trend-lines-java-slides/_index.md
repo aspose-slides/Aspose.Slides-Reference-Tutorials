@@ -2,7 +2,7 @@
 title: जावा स्लाइड्स में चार्ट ट्रेंड लाइन्स
 linktitle: जावा स्लाइड्स में चार्ट ट्रेंड लाइन्स
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: जावा के लिए Aspose.Slides का उपयोग करके जावा स्लाइड्स में विभिन्न ट्रेंड लाइनें जोड़ने का तरीका जानें। प्रभावी डेटा विज़ुअलाइज़ेशन के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में विभिन्न ट्रेंड लाइन जोड़ना सीखें। प्रभावी डेटा विज़ुअलाइज़ेशन के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
 type: docs
 weight: 15
 url: /hi/java/data-manipulation/chart-trend-lines-java-slides/
@@ -10,15 +10,15 @@ url: /hi/java/data-manipulation/chart-trend-lines-java-slides/
 
 ## जावा स्लाइड्स में चार्ट ट्रेंड लाइन्स का परिचय: एक चरण-दर-चरण मार्गदर्शिका
 
-इस व्यापक गाइड में, हम यह पता लगाएंगे कि जावा के लिए Aspose.Slides का उपयोग करके जावा स्लाइड्स में चार्ट ट्रेंड लाइन कैसे बनाई जाए। चार्ट ट्रेंड लाइनें आपकी प्रस्तुतियों के लिए एक मूल्यवान अतिरिक्त हो सकती हैं, जो डेटा रुझानों को प्रभावी ढंग से देखने और विश्लेषण करने में मदद करती हैं। हम आपको स्पष्ट स्पष्टीकरण और कोड उदाहरणों के साथ प्रक्रिया के बारे में बताएंगे।
+इस व्यापक गाइड में, हम जावा के लिए Aspose.Slides का उपयोग करके जावा स्लाइड्स में चार्ट ट्रेंड लाइन बनाने का तरीका जानेंगे। चार्ट ट्रेंड लाइन्स आपके प्रेजेंटेशन में एक मूल्यवान अतिरिक्त हो सकती हैं, जो डेटा ट्रेंड को प्रभावी ढंग से देखने और विश्लेषण करने में मदद करती हैं। हम आपको स्पष्ट स्पष्टीकरण और कोड उदाहरणों के साथ प्रक्रिया के माध्यम से मार्गदर्शन करेंगे।
 
 ## आवश्यक शर्तें
 
-इससे पहले कि हम चार्ट ट्रेंड लाइनें बनाने में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
+इससे पहले कि हम चार्ट ट्रेंड लाइन्स बनाना शुरू करें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - जावा विकास पर्यावरण
-- जावा लाइब्रेरी के लिए Aspose.Slides
-- आपकी पसंद का एक कोड संपादक
+- Aspose.Slides for Java लाइब्रेरी
+- आपकी पसंद का कोड संपादक
 
 ## चरण 1: आरंभ करना
 
@@ -27,24 +27,24 @@ url: /hi/java/data-manipulation/chart-trend-lines-java-slides/
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-// यदि यह पहले से मौजूद नहीं है तो निर्देशिका बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-// ख़ाली प्रस्तुतिकरण बनाना
+// खाली प्रस्तुति बनाना
 Presentation pres = new Presentation();
 ```
 
-हमने अपनी प्रस्तुति शुरू कर दी है, और अब हम एक क्लस्टर्ड कॉलम चार्ट जोड़ने के लिए तैयार हैं:
+हमने अपनी प्रस्तुति आरंभ कर दी है, और अब हम एक क्लस्टर कॉलम चार्ट जोड़ने के लिए तैयार हैं:
 
 ```java
-// क्लस्टर्ड कॉलम चार्ट बनाना
+// क्लस्टर कॉलम चार्ट बनाना
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
 ```
 
-## चरण 2: घातीय रुझान रेखा जोड़ना
+## चरण 2: घातीय प्रवृत्ति रेखा जोड़ना
 
-आइए हमारी चार्ट श्रृंखला में एक घातीय प्रवृत्ति रेखा जोड़कर शुरुआत करें:
+आइए अपनी चार्ट श्रृंखला में एक घातीय प्रवृत्ति रेखा जोड़कर शुरुआत करें:
 
 ```java
 // चार्ट श्रृंखला 1 के लिए घातीय प्रवृत्ति रेखा जोड़ना
@@ -53,7 +53,7 @@ trendLineExp.setDisplayEquation(false);
 trendLineExp.setDisplayRSquaredValue(false);
 ```
 
-## चरण 3: रैखिक रुझान रेखा जोड़ना
+## चरण 3: रैखिक प्रवृत्ति रेखा जोड़ना
 
 इसके बाद, हम अपनी चार्ट श्रृंखला में एक रेखीय प्रवृत्ति रेखा जोड़ेंगे:
 
@@ -65,7 +65,7 @@ trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid
 trendLineLinear.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-## चरण 4: लॉगरिदमिक ट्रेंड लाइन जोड़ना
+## चरण 4: लघुगणकीय प्रवृत्ति रेखा जोड़ना
 
 अब, आइए एक अलग चार्ट श्रृंखला में एक लघुगणकीय प्रवृत्ति रेखा जोड़ें:
 
@@ -90,10 +90,10 @@ trendLineMovAvg.setTrendlineName("New TrendLine Name");
 
 ## चरण 6: बहुपद प्रवृत्ति रेखा जोड़ना
 
-एक बहुपद प्रवृत्ति रेखा जोड़ना:
+बहुपद प्रवृत्ति रेखा जोड़ना:
 
 ```java
-// चार्ट शृंखला 3 के लिए बहुपद प्रवृत्ति रेखा जोड़ना
+// चार्ट श्रृंखला 3 के लिए बहुपद प्रवृत्ति रेखा जोड़ना
 ITrendline trendLinePolynomial = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
 trendLinePolynomial.setTrendlineType(TrendlineType.Polynomial);
 trendLinePolynomial.setForward(1);
@@ -113,26 +113,26 @@ trendLinePower.setBackward(1);
 
 ## चरण 8: प्रस्तुति को सहेजना
 
-अब जब हमने अपने चार्ट में विभिन्न ट्रेंड लाइनें जोड़ ली हैं, तो आइए प्रेजेंटेशन को सेव करें:
+अब जबकि हमने अपने चार्ट में विभिन्न प्रवृत्ति रेखाएं जोड़ दी हैं, तो आइए प्रस्तुति को सुरक्षित करें:
 
 ```java
 pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ```
 
-बधाई हो! आपने जावा के लिए Aspose.Slides का उपयोग करके जावा स्लाइड्स में विभिन्न प्रकार की ट्रेंड लाइनों के साथ सफलतापूर्वक एक प्रेजेंटेशन बनाया है।
+बधाई हो! आपने Aspose.Slides for Java का उपयोग करके Java Slides में विभिन्न प्रकार की ट्रेंड लाइनों के साथ सफलतापूर्वक एक प्रेजेंटेशन बनाया है।
 
-## जावा स्लाइड्स में चार्ट ट्रेंड लाइन्स के लिए संपूर्ण स्रोत कोड
+## जावा स्लाइड्स में चार्ट ट्रेंड लाइनों के लिए पूर्ण स्रोत कोड
 
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-// यदि यह पहले से मौजूद नहीं है तो निर्देशिका बनाएं।
+// यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// ख़ाली प्रस्तुतिकरण बनाना
+// खाली प्रस्तुति बनाना
 Presentation pres = new Presentation();
-// क्लस्टर्ड कॉलम चार्ट बनाना
+// क्लस्टर कॉलम चार्ट बनाना
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
 // चार्ट श्रृंखला 1 के लिए संभावित प्रवृत्ति रेखा जोड़ना
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
@@ -143,16 +143,16 @@ ITrendline tredLineLin = chart.getChartData().getSeries().get_Item(0).getTrendLi
 tredLineLin.setTrendlineType(TrendlineType.Linear);
 tredLineLin.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 tredLineLin.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-// चार्ट श्रृंखला 2 के लिए लॉगरिदमिक ट्रेंड लाइन जोड़ना
+// चार्ट श्रृंखला 2 के लिए लघुगणकीय प्रवृत्ति रेखा जोड़ना
 ITrendline tredLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);
 tredLineLog.setTrendlineType(TrendlineType.Logarithmic);
 tredLineLog.addTextFrameForOverriding("New log trend line");
-// चार्ट श्रृंखला 2 के लिए मूविंगएवरेज ट्रेंड लाइन जोड़ना
+// चार्ट श्रृंखला 2 के लिए MovingAverage ट्रेंड लाइन जोड़ना
 ITrendline tredLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.MovingAverage);
 tredLineMovAvg.setTrendlineType(TrendlineType.MovingAverage);
 tredLineMovAvg.setPeriod((byte) 3);
 tredLineMovAvg.setTrendlineName("New TrendLine Name");
-// चार्ट शृंखला 3 के लिए बहुपद प्रवृत्ति रेखा जोड़ना
+// चार्ट श्रृंखला 3 के लिए बहुपद प्रवृत्ति रेखा जोड़ना
 ITrendline tredLinePol = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
 tredLinePol.setTrendlineType(TrendlineType.Polynomial);
 tredLinePol.setForward(1);
@@ -161,32 +161,32 @@ tredLinePol.setOrder((byte) 3);
 ITrendline tredLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);
 tredLinePower.setTrendlineType(TrendlineType.Power);
 tredLinePower.setBackward(1);
-// प्रस्तुतिकरण सहेजा जा रहा है
+// प्रस्तुति सहेजना
 pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ```
 
 ## निष्कर्ष
 
-इस ट्यूटोरियल में, हमने सीखा कि जावा लाइब्रेरी के लिए Aspose.Slides का उपयोग करके जावा स्लाइड्स में चार्ट में विभिन्न प्रकार की ट्रेंड लाइनें कैसे जोड़ें। चाहे आप डेटा विश्लेषण पर काम कर रहे हों या जानकारीपूर्ण प्रस्तुतियाँ बना रहे हों, रुझानों की कल्पना करने की क्षमता एक शक्तिशाली उपकरण हो सकती है।
+इस ट्यूटोरियल में, हमने सीखा है कि Aspose.Slides for Java लाइब्रेरी का उपयोग करके Java Slides में चार्ट में विभिन्न प्रकार की ट्रेंड लाइन कैसे जोड़ें। चाहे आप डेटा विश्लेषण पर काम कर रहे हों या जानकारीपूर्ण प्रस्तुतियाँ बना रहे हों, रुझानों को विज़ुअलाइज़ करने की क्षमता एक शक्तिशाली उपकरण हो सकती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं जावा के लिए Aspose.Slides में ट्रेंड लाइन का रंग कैसे बदलूं?
+### मैं Aspose.Slides for Java में ट्रेंड लाइन का रंग कैसे बदलूं?
 
-ट्रेंड लाइन का रंग बदलने के लिए, आप इसका उपयोग कर सकते हैं`getSolidFillColor().setColor(Color)` विधि, जैसा कि एक रेखीय प्रवृत्ति रेखा जोड़ने के उदाहरण में दिखाया गया है।
+ ट्रेंड लाइन का रंग बदलने के लिए, आप इसका उपयोग कर सकते हैं`getSolidFillColor().setColor(Color)` विधि, जैसा कि एक रेखीय प्रवृत्ति रेखा जोड़ने के उदाहरण में दिखाया गया है।
 
-### क्या मैं एक ही चार्ट श्रृंखला में एकाधिक ट्रेंड लाइनें जोड़ सकता हूँ?
+### क्या मैं एक ही चार्ट श्रृंखला में अनेक प्रवृत्ति रेखाएं जोड़ सकता हूं?
 
- हां, आप एक ही चार्ट श्रृंखला में कई ट्रेंड लाइनें जोड़ सकते हैं। बस कॉल करें`getTrendLines().add()` प्रत्येक ट्रेंड लाइन के लिए विधि जिसे आप जोड़ना चाहते हैं।
+हां, आप एक ही चार्ट सीरीज में कई ट्रेंड लाइन जोड़ सकते हैं। बस कॉल करें`getTrendLines().add()` प्रत्येक ट्रेंड लाइन के लिए विधि का उपयोग करें जिसे आप जोड़ना चाहते हैं।
 
-### मैं जावा के लिए Aspose.Slides में एक चार्ट से एक ट्रेंड लाइन कैसे हटाऊं?
+### मैं Aspose.Slides for Java में चार्ट से ट्रेंड लाइन कैसे हटाऊं?
 
- किसी चार्ट से ट्रेंड लाइन हटाने के लिए, आप इसका उपयोग कर सकते हैं`removeAt(int index)` विधि, उस प्रवृत्ति रेखा के सूचकांक को निर्दिष्ट करना जिसे आप हटाना चाहते हैं।
+ चार्ट से ट्रेंड लाइन हटाने के लिए आप इसका उपयोग कर सकते हैं`removeAt(int index)` विधि, उस प्रवृत्ति रेखा का सूचकांक निर्दिष्ट करना जिसे आप हटाना चाहते हैं।
 
-### क्या ट्रेंड लाइन समीकरण डिस्प्ले को अनुकूलित करना संभव है?
+### क्या प्रवृत्ति रेखा समीकरण प्रदर्शन को अनुकूलित करना संभव है?
 
- हां, आप इसका उपयोग करके ट्रेंड लाइन समीकरण डिस्प्ले को कस्टमाइज़ कर सकते हैं`setDisplayEquation(boolean)` विधि, जैसा कि उदाहरण में दिखाया गया है।
+ हां, आप ट्रेंड लाइन समीकरण प्रदर्शन को अनुकूलित कर सकते हैं`setDisplayEquation(boolean)` विधि, जैसा कि उदाहरण में दर्शाया गया है।
 
-### मैं जावा के लिए Aspose.Slides के लिए अधिक संसाधनों और उदाहरणों तक कैसे पहुंच सकता हूं?
+### मैं Aspose.Slides for Java के लिए अधिक संसाधनों और उदाहरणों तक कैसे पहुंच सकता हूं?
 
- आप जावा के लिए Aspose.Slides के लिए अतिरिक्त संसाधनों, दस्तावेज़ीकरण और उदाहरणों तक पहुंच सकते हैं[Aspose वेबसाइट](https://reference.aspose.com/slides/java/).
+ आप Aspose.Slides for Java के लिए अतिरिक्त संसाधनों, दस्तावेज़ों और उदाहरणों तक पहुँच सकते हैं[Aspose वेबसाइट](https://reference.aspose.com/slides/java/).

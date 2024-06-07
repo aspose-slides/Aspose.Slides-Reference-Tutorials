@@ -11,7 +11,7 @@ url: /vi/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 Trong thế giới năng động của các bài thuyết trình, Aspose.Slides for .NET nổi bật như một công cụ mạnh mẽ giúp nâng cao trải nghiệm tạo slide của bạn. Một trong những tính năng đáng chú ý mà nó cung cấp là khả năng tạo Thu phóng Tóm tắt, một cách hấp dẫn trực quan để trình bày bộ sưu tập các trang trình bày. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo Trang trình bày Thu phóng Tóm tắt bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
--  Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện trong môi trường .NET của mình. Nếu không, bạn có thể tải xuống từ[trang phát hành](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện trong môi trường .NET của mình. Nếu không, bạn có thể tải xuống từ[trang phát hành](https://releases.aspose.com/slides/net/).
 - Môi trường phát triển: Thiết lập môi trường phát triển .NET của bạn, bao gồm Visual Studio hoặc bất kỳ IDE ưa thích nào khác.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả sử bạn có hiểu biết cơ bản về lập trình C#.
 ## Nhập không gian tên
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Bước 2: Thêm trang trình bày và phần
- Bước này liên quan đến việc tạo các slide riêng lẻ và sắp xếp chúng thành các phần trong bản trình bày. Các`AddEmptySlide` phương pháp thêm một slide mới và`Sections.AddSection` phương pháp thiết lập các phần để tổ chức tốt hơn.
+ Bước này liên quan đến việc tạo các slide riêng lẻ và sắp xếp chúng thành các phần trong bản trình bày. Các`AddEmptySlide`phương pháp thêm một slide mới và`Sections.AddSection` phương pháp thiết lập các phần để tổ chức tốt hơn.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Mã để tạo kiểu cho slide ở đây
@@ -65,7 +65,7 @@ ISummaryZoomFrame summaryZoomFrame = pres.Slides[0].Shapes.AddSummaryZoomFrame(1
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);
 ```
-Bằng cách làm theo các bước này, bạn có thể tạo bản trình bày một cách hiệu quả với các phần được sắp xếp hợp lý và khung Thu phóng Tóm tắt hấp dẫn trực quan bằng cách sử dụng Aspose.Slides cho .NET.
+Bằng cách làm theo các bước này, bạn có thể tạo bản trình bày một cách hiệu quả với các phần được sắp xếp và khung Thu phóng Tóm tắt hấp dẫn trực quan bằng cách sử dụng Aspose.Slides cho .NET.
 ## Phần kết luận
 Aspose.Slides for .NET trao quyền cho bạn nâng cao trò chơi thuyết trình của mình và tính năng Thu phóng Tóm tắt sẽ tăng thêm tính chuyên nghiệp và mức độ tương tác. Với các bước đơn giản này, bạn có thể dễ dàng nâng cao sức hấp dẫn trực quan của các trang trình bày của mình.
 ## Câu hỏi thường gặp
@@ -78,4 +78,4 @@ Tuyệt đối! Bạn có thể đưa các siêu liên kết vào các trang chi
 ### Có giới hạn nào về số phần trong bài thuyết trình không?
 Kể từ phiên bản mới nhất, không có giới hạn nghiêm ngặt nào về số lượng phần bạn có thể thêm vào bản trình bày.
 ### Có phiên bản dùng thử cho Aspose.Slides không?
-Có, bạn có thể khám phá các tính năng của Aspose.Slides bằng cách tải xuống[phiên bản dùng thử miễn phí](https://releases.aspose.com/).
+ Có, bạn có thể khám phá các tính năng của Aspose.Slides bằng cách tải xuống[phiên bản dùng thử miễn phí](https://releases.aspose.com/).

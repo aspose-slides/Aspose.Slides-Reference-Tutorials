@@ -24,7 +24,7 @@ Maintenant que vous avez les prérequis prêts, passons au processus étape par 
 
 Tout d’abord, vous devez importer les espaces de noms nécessaires pour votre projet C#. Ces espaces de noms vous donneront accès aux classes et méthodes requises dans Aspose.Slides. Voici comment procéder :
 
-### Étape 1 : Importer les espaces de noms
+### Étape 1 : Importer des espaces de noms
 
 ```csharp
 using Aspose.Slides;
@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## Étape 5 : Définir le format de dégradé
 
- Dans cette étape, vous spécifierez le format du dégradé. Vous pouvez personnaliser le dégradé selon vos préférences. Ici, nous utilisons`TileFlip.FlipBoth` pour créer un effet visuellement attrayant.
+Dans cette étape, vous spécifierez le format du dégradé. Vous pouvez personnaliser le dégradé selon vos préférences. Ici, nous utilisons`TileFlip.FlipBoth` pour créer un effet visuellement attrayant.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

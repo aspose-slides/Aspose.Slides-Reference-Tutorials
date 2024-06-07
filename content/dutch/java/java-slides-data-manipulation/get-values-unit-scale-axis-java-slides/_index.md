@@ -18,7 +18,7 @@ Voordat we in de code duiken, moet je ervoor zorgen dat je aan de volgende verei
 
 1. Java-ontwikkelomgeving: Zorg ervoor dat Java op uw systeem is geïnstalleerd en bekend bent met Java-programmeerconcepten.
 
-2. Aspose.Slides voor Java: Download en installeer de Aspose.Slides voor Java-bibliotheek van de[download link](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides voor Java: Download en installeer de Aspose.Slides voor Java-bibliotheek van de[download link](https://releases.aspose.com/slides/java/).
 
 ## Stap 1: Een presentatie maken
 

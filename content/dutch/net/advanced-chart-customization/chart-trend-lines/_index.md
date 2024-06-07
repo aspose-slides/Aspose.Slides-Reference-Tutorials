@@ -60,12 +60,12 @@ IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 20, 20,
 
 ## Stap 3: voeg trendlijnen toe aan de grafiek
 
-Nu voegen we verschillende soorten trendlijnen toe aan de diagramserie.
+Nu voegen we verschillende soorten trendlijnen toe aan de diagramreeks.
 
 ### Een exponentiële trendlijn toevoegen
 
 ```csharp
-// Exponentiële trendlijn toevoegen voor diagramreeks 1
+// Exponentiële trendlijn toevoegen voor diagramserie 1
 ITrendline tredLineExp = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Exponential);
 tredLineExp.DisplayEquation = false;
 tredLineExp.DisplayRSquaredValue = false;
@@ -74,7 +74,7 @@ tredLineExp.DisplayRSquaredValue = false;
 ### Een lineaire trendlijn toevoegen
 
 ```csharp
-// Lineaire trendlijn toevoegen voor diagramreeks 1
+// Lineaire trendlijn toevoegen voor diagramserie 1
 ITrendline tredLineLin = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Linear);
 tredLineLin.Format.Line.FillFormat.FillType = FillType.Solid;
 tredLineLin.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
@@ -83,7 +83,7 @@ tredLineLin.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
 ### Een logaritmische trendlijn toevoegen
 
 ```csharp
-// Logaritmische trendlijn toevoegen voor diagramserie 2
+// Logaritmische trendlijn toevoegen voor diagramreeks 2
 ITrendline tredLineLog = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Logarithmic);
 tredLineLog.AddTextFrameForOverriding("New log trend line");
 ```

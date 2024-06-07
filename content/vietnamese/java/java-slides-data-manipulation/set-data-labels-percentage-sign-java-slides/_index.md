@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Chúng tôi thêm dữ liệu vào biểu đồ bằng cách tạo chuỗi và điểm dữ liệu. Trong ví dụ này, chúng tôi thêm hai chuỗi với các điểm dữ liệu tương ứng.
 
 ```java
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Thêm loạt phim mới
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Thêm loạt phim mới
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -161,7 +161,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## Phần kết luận
 
-Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo các bản trình bày hấp dẫn với nhãn dữ liệu dựa trên tỷ lệ phần trăm, nhãn này có thể đặc biệt hữu ích để truyền tải thông tin một cách hiệu quả trong các báo cáo kinh doanh, tài liệu giáo dục, v.v.
+Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo bản trình bày hấp dẫn với nhãn dữ liệu dựa trên tỷ lệ phần trăm, nhãn này có thể đặc biệt hữu ích để truyền tải thông tin một cách hiệu quả trong báo cáo kinh doanh, tài liệu giáo dục, v.v.
 
 ## Câu hỏi thường gặp
 

@@ -88,8 +88,8 @@ Bu eğitimde, Aspose.Slides for Java kullanarak Java Slides'daki grafiklere ikin
 
 ###  Nedir`PieSplitBy` control in a Pie of Pie chart?
 
-`PieSplitBy`özellik pasta grafiğinin nasıl bölündüğünü kontrol eder. İkisinden birine ayarlayabilirsiniz`PieSplitType.ByPercentage` veya`PieSplitType.ByValue` Grafiği sırasıyla yüzdeye veya belirli bir değere göre bölmek için.
+`PieSplitBy` özellik pasta grafiğinin nasıl bölündüğünü kontrol eder. İkisinden birine ayarlayabilirsiniz`PieSplitType.ByPercentage` veya`PieSplitType.ByValue` Grafiği sırasıyla yüzdeye veya belirli bir değere göre bölmek için.
 
 ### Pie of Pie grafiğinde bölünmenin konumunu nasıl ayarlarım?
 
- Bölmenin konumunu Pie of Pie grafiğinde ayarlayabilirsiniz.`setPieSplitPosition` yöntem. İstenilen konumu belirtmek için değeri ayarlayın.
+Bölmenin konumunu Pie of Pie grafiğinde ayarlayabilirsiniz.`setPieSplitPosition` yöntem. İstenilen konumu belirtmek için değeri ayarlayın.

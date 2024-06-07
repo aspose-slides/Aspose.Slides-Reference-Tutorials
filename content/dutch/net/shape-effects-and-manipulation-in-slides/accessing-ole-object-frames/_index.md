@@ -59,7 +59,7 @@ Zodra u een OLE-objectframe hebt geïdentificeerd, kunt u de gegevens ervan extr
 
 ### 5. OLE-objectframes wijzigen
 
-Met Aspose.Slides kunt u OLE-objectframes programmatisch wijzigen. Stel dat u de inhoud van een ingesloten Word-document wilt bijwerken. Hier ziet u hoe u dit kunt bereiken:
+Met Aspose.Slides kunt u OLE-objectframes programmatisch wijzigen. Stel dat u de inhoud van een ingesloten Word-document wilt bijwerken. Hier leest u hoe u dit kunt bereiken:
 
 ```csharp
     // Wijzig de ingesloten gegevens

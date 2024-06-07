@@ -20,7 +20,7 @@ Mielőtt belevágnánk a megvalósításba, győződjön meg arról, hogy rendel
 - Aspose.Slides for Java könyvtár hozzáadva a projekthez.
 - Excel-munkafüzet a prezentációban hivatkozni kívánt adatokkal.
 
-## 1. lépés: Hozzon létre egy új bemutatót
+## 1. lépés: Hozzon létre egy új prezentációt
 
 ```java
 String dataDir = "Your Document Directory";

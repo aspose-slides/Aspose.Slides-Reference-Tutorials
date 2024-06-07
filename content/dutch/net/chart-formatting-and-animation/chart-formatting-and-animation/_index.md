@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("Your Document Directory\\Ex
 
 ### Stap 2: Animatie toevoegen aan series
 
-Laten we nu animatie toevoegen aan de diagramreeks. We gebruiken hier ook een fade-in-effect.
+Laten we nu animatie aan de diagramserie toevoegen. We gebruiken hier ook een fade-in-effect.
 
 ```csharp
 slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);

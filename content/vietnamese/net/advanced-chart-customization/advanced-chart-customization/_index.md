@@ -244,7 +244,7 @@ catTitle.PortionFormat.FontItalic = NullableBool.True;
 
 ## Bước 15: Tùy chỉnh bổ sung
 
-Bạn có thể khám phá các tùy chỉnh khác, chẳng hạn như chú giải, biểu đồ tường phía sau, sàn và màu khu vực vẽ. Những tùy chỉnh này cho phép bạn nâng cao sự hấp dẫn trực quan của biểu đồ.
+Bạn có thể khám phá các tùy chỉnh khác, chẳng hạn như chú giải, biểu đồ tường phía sau, sàn và màu sắc khu vực vẽ. Những tùy chỉnh này cho phép bạn nâng cao sự hấp dẫn trực quan của biểu đồ.
 
 ```csharp
 // Tùy chỉnh bổ sung (Tùy chọn)

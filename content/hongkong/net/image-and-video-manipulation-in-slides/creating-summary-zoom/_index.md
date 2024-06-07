@@ -11,7 +11,7 @@ url: /zh-hant/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 在動態的簡報世界中，Aspose.Slides for .NET 脫穎而出，成為增強投影片創作體驗的強大工具。它提供的一個顯著功能是能夠創建摘要縮放，這是一種呈現幻燈片集合的視覺吸引力方式。在本教學中，我們將引導您完成使用 Aspose.Slides for .NET 在簡報投影片中建立摘要縮放的過程。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
--  Aspose.Slides for .NET：請確定您的.NET環境中安裝了該程式庫。如果沒有，您可以從以下位置下載[發布頁面](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET：請確定您的.NET環境中安裝了該程式庫。如果沒有，您可以從以下位置下載[發布頁面](https://releases.aspose.com/slides/net/).
 - 開發環境：設定 .NET 開發環境，包括 Visual Studio 或任何其他首選 IDE。
 - C# 基礎知識：本教學假設您對 C# 程式設計有基本了解。
 ## 導入命名空間
@@ -32,7 +32,7 @@ string resultPath = Path.Combine(dataDir, "SummaryZoomPresentation.pptx");
 using (Presentation pres = new Presentation())
 {
     //建立幻燈片和章節的程式碼位於此處
-    //…
+    //……
     //儲存簡報
     pres.Save(resultPath, SaveFormat.Pptx);
 }
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 //投影片樣式的程式碼位於此處
-//…
+//……
 pres.Sections.AddSection("Section 1", slide);
 //對其他部分（第 2 部分、第 3 部分、第 4 部分）重複這些步驟
 ```
@@ -76,6 +76,6 @@ Aspose.Slides 會定期更新，以確保與最新的 .NET 版本相容。
 ### 我可以在摘要縮放框架內新增超連結嗎？
 絕對地！您可以在幻燈片中包含超鏈接，它們將在“摘要縮放”框架中無縫工作。
 ### 簡報中的部分數量有限制嗎？
-從最新版本開始，對可以添加到簡報的部分數量沒有嚴格限制。
+從最新版本開始，對可以添加到簡報中的部分數量沒有嚴格限制。
 ### Aspose.Slides 有試用版嗎？
 是的，您可以透過下載來探索 Aspose.Slides 的功能[免費試用版](https://releases.aspose.com/).

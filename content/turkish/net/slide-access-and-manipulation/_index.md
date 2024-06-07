@@ -29,7 +29,7 @@ Aspose.Slides for .NET'i kullanarak farklı sunumlardaki slaytları belirli bir 
 ### [Ayrı Sunumun Sonunda Slaytı Çoğalt](./clone-slide-end-of-another-presentation/)
 Aspose.Slides for .NET'i kullanarak bir PowerPoint sunumundaki slaytı nasıl çoğaltacağınızı ve diğerine nasıl ekleyeceğinizi öğrenin. Bu adım adım kılavuz, sorunsuz slayt manipülasyonu için kaynak kodunu ve net talimatları sağlar.
 ### [Slaydı Farklı Sunumda Tam Konuma Kopyala](./clone-slide-to-specific-position-in-another-presentation/)
-Aspose.Slides for .NET'i kullanarak slaytları farklı sunumlardaki belirli konumlara nasıl kopyalayacağınızı öğrenin. Bu adım adım kılavuz, kusursuz PowerPoint düzenlemesi için kaynak kodu ve talimatlar sağlar.
+Aspose.Slides for .NET'i kullanarak slaytları farklı sunumlarda belirli konumlara nasıl kopyalayacağınızı öğrenin. Bu adım adım kılavuz, kusursuz PowerPoint düzenlemesi için kaynak kodu ve talimatlar sağlar.
 ### [Slaytı Sunu İçinde Belirtilen Bölüme Çoğalt](./clone-slide-into-specified-section/)
 Aspose.Slides for .NET'i kullanarak slaytları nasıl çoğaltacağınızı ve bunları PowerPoint sunumlarında belirlenen bölümlere nasıl yerleştireceğinizi öğrenin. Bu adım adım kılavuz, kaynak kodu örnekleri sağlar ve slayt düzenleme, bölüm oluşturma ve daha fazlasını kapsar.
 ### [Ana Slayt ile Slaydı Yeni Sunuma Kopyala](./clone-slide-to-another-presentation-with-master/)

@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Sostituisci "your_output_pat
 Presentation pres = new Presentation();
 ```
 
- Nel codice sopra, definiamo il percorso per il file di presentazione di output e ne creiamo uno nuovo`Presentation` oggetto.
+Nel codice sopra, definiamo il percorso per il file di presentazione di output e ne creiamo uno nuovo`Presentation` oggetto.
 
 ## Passaggio 2: impostare il ClsId della directory principale
 
- Per impostare il ClsId della directory principale, è necessario creare un'istanza di`PptOptions` impostare il CLSID desiderato. Il CLSID rappresenta l'applicazione che verrà utilizzata come directory principale quando viene attivato un collegamento ipertestuale.
+ Per impostare il ClsId della directory principale, è necessario creare un'istanza di`PptOptions` e impostare il CLSID desiderato. Il CLSID rappresenta l'applicazione che verrà utilizzata come directory principale quando viene attivato un collegamento ipertestuale.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -57,7 +57,7 @@ pres.save(resultPath, SaveFormat.Ppt, pptOptions);
 
 ## Passaggio 4: pulizia
 
- Non dimenticare di smaltire il`Presentation` oggetto di rilasciare eventuali risorse assegnate.
+ Non dimenticare di smaltire il`Presentation` oggetto di rilasciare eventuali risorse allocate.
 
 ```java
 if (pres != null) {
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// imposta CLSID su "Microsoft Powerpoint.Show.8"
+	//imposta CLSID su "Microsoft Powerpoint.Show.8"
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Salva presentazione
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

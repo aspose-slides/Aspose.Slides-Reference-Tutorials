@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 시리즈와 데이터 포인트를 생성하여 차트에 데이터를 추가합니다. 이 예에서는 해당 데이터 요소가 있는 두 개의 계열을 추가합니다.
 
 ```java
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // 새 시리즈 추가
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // 새 시리즈 추가
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

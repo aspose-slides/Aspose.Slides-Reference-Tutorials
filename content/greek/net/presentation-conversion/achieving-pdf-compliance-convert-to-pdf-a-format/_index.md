@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- Σε αυτό το απόσπασμα κώδικα, αντικαταστήστε`"Your Document Directory"`με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας και`"YourPresentation.pptx"` με το όνομα της παρουσίασής σας στο PowerPoint.
+ Σε αυτό το απόσπασμα κώδικα, αντικαταστήστε`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας και`"YourPresentation.pptx"` με το όνομα της παρουσίασής σας στο PowerPoint.
 
 ### Βήμα 3: Διαμόρφωση επιλογών PDF
 

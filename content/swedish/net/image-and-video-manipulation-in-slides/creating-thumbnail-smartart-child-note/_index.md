@@ -11,7 +11,7 @@ url: /sv/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 Inom sfären av dynamiska presentationer framstår Aspose.Slides för .NET som ett kraftfullt verktyg som ger utvecklare möjlighet att manipulera och förbättra PowerPoint-presentationer programmatiskt. En spännande funktion är möjligheten att generera miniatyrer för SmartArt Child Notes, vilket lägger till ett lager av visuell tilltal till dina presentationer. Den här steg-för-steg-guiden leder dig genom processen att skapa miniatyrer för SmartArt Child Notes med Aspose.Slides för .NET.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
-- Aspose.Slides för .NET: Se till att du har Aspose.Slides-biblioteket integrerat i ditt .NET-projekt. Om inte, ladda ner den från[släpper sida](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides för .NET: Se till att du har Aspose.Slides-biblioteket integrerat i ditt .NET-projekt. Om inte, ladda ner den från[släpper sida](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Sätt upp en fungerande .NET-utvecklingsmiljö och ha en grundläggande förståelse för C#-programmering.
 - Exempelpresentation: Skapa eller skaffa en PowerPoint-presentation som innehåller SmartArt med underordnade anteckningar för testning.
 ## Importera namnområden
@@ -57,8 +57,8 @@ S: Ja, du kan justera dimensionerna och formatet för miniatyrbilden genom att �
 ### F: Stöder Aspose.Slides andra SmartArt-layouter?
 A: Absolut! Aspose.Slides erbjuder en mängd olika SmartArt-layouter, så att du kan välja den som bäst passar dina presentationsbehov.
 ### F: Finns en tillfällig licens tillgänglig för teständamål?
-S: Ja, du kan få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/) för testning och utvärdering.
+ S: Ja, du kan få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/) för testning och utvärdering.
 ### F: Var kan jag söka hjälp eller få kontakt med Aspose.Slides-communityt?
- A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att engagera sig i samhället, ställa frågor och hitta lösningar.
+A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att engagera sig i samhället, ställa frågor och hitta lösningar.
 ### F: Kan jag köpa Aspose.Slides för .NET?
  A: Visst! Utforska köpalternativen[här](https://purchase.aspose.com/buy) för att låsa upp Aspose.Slides fulla potential i dina projekt.

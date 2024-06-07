@@ -110,7 +110,7 @@ Dans cet article, nous vous avons expliqué le processus de suppression des mod�
 
 ### Existe-t-il des conditions de licence pour utiliser Aspose.Slides pour Java ?
 
-Oui, Aspose.Slides for Java est une bibliothèque commerciale et vous devez obtenir une licence valide pour l'utiliser dans vos projets. Vous pouvez obtenir plus d'informations sur les licences sur le site Web Aspose.
+Oui, Aspose.Slides for Java est une bibliothèque commerciale et vous devez obtenir une licence valide pour l'utiliser dans vos projets. Vous pouvez obtenir plus d’informations sur les licences sur le site Web Aspose.
 
 ### Puis-je supprimer les modèles de mise en page par programmation pour optimiser mes présentations ?
 

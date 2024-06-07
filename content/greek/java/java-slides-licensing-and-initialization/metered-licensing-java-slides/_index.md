@@ -71,7 +71,7 @@ try
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Εμφάνιση πληροφοριών
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// Λάβετε μετρημένη ποσότητα δεδομένων Μετά την κλήση του API
+	//Λάβετε μετρημένη ποσότητα δεδομένων Μετά την κλήση του API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Εμφάνιση πληροφοριών
 	System.out.println("Amount Consumed After: " + amountafter);

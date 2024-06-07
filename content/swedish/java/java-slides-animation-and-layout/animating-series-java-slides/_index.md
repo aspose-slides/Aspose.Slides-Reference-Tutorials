@@ -26,7 +26,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-//Instantiate Presentation-klass som representerar en presentationsfil
+// Instantiate Presentation-klass som representerar en presentationsfil
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-//Instantiate Presentation-klass som representerar en presentationsfil
+// Instantiate Presentation-klass som representerar en presentationsfil
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -110,9 +110,9 @@ Du har framgångsrikt animerat serier i ett PowerPoint-diagram med Aspose.Slides
 
 ## FAQ's
 
-### Hur styr jag ordningen på serieanimationer?
+### Hur kontrollerar jag ordningen på serieanimationer?
 
- För att styra ordningen på serieanimationer, använd`EffectTriggerType.AfterPrevious` parameter när du lägger till effekterna. Detta gör att varje serieanimering startar efter att den föregående är klar.
+ För att styra ordningen på serieanimationer, använd`EffectTriggerType.AfterPrevious`parameter när du lägger till effekterna. Detta gör att varje serieanimering startar efter att den föregående är klar.
 
 ### Kan jag använda olika animationer för varje serie?
 

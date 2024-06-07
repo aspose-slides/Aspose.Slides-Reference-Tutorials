@@ -10,7 +10,7 @@ url: /zh-hant/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-
 
 ## 介紹
 
-在動態和互動式簡報領域，物件連結和嵌入 (OLE) 物件發揮關鍵作用。這些物件可讓您無縫整合其他應用程式的內容，從而透過多功能性和互動性豐富您的投影片。 Aspose.Slides 是一個用於處理簡報檔案的強大 API，它使開發人員能夠在簡報投影片中利用 OLE 物件框架的潛力。本文深入探討了使用 Aspose.Slides for .NET 存取 OLE 物件框架的複雜性，以清晰的實例引導您完成整個過程。
+在動態和互動式簡報領域，物件連結和嵌入 (OLE) 物件發揮關鍵作用。這些物件可讓您無縫整合其他應用程式的內容，從而透過多功能性和互動性豐富您的投影片。 Aspose.Slides 是一個用於處理簡報檔案的強大 API，它使開發人員能夠在簡報幻燈片中利用 OLE 物件框架的潛力。本文深入探討了使用 Aspose.Slides for .NET 存取 OLE 物件框架的複雜性，以清晰的實例引導您完成整個過程。
 
 ## 存取 OLE 物件框架：逐步指南
 

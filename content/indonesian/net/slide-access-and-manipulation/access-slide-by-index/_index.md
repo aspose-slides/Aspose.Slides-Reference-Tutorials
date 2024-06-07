@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Kode Anda untuk manipulasi slide akan ditempatkan di sini
+    //Kode Anda untuk manipulasi slide akan ditempatkan di sini
 }
 ```
 
@@ -45,13 +45,13 @@ Sekarang setelah presentasi kita dimuat, mari lanjutkan mengakses slide berdasar
 
 ```csharp
 // Akses slide berdasarkan indeks berurutannya (berbasis 0)
-int slideIndex = 2; // Ganti dengan indeks yang diinginkan
+int slideIndex = 2; //Ganti dengan indeks yang diinginkan
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## Penjelasan Kode Sumber
 
-- Kami menggunakan`Slides` koleksi`Presentation` objek untuk mengakses slide.
+-  Kami menggunakan`Slides` koleksi`Presentation` objek untuk mengakses slide.
 - Indeks slide pada koleksi tersebut berbasis 0, sehingga slide pertama memiliki indeks 0, slide kedua memiliki indeks 1, dan seterusnya.
 - Kami menentukan indeks slide yang diinginkan untuk mengambil objek slide yang sesuai.
 
@@ -81,7 +81,7 @@ Tidak, Aspose.Slides untuk .NET adalah perpustakaan komersial yang memerlukan li
 
 ### Fungsi lain apa yang ditawarkan Aspose.Slides untuk .NET?
 
- Aspose.Slides untuk .NET menawarkan berbagai fungsi, termasuk membuat presentasi dari awal, memanipulasi slide, menambahkan bentuk dan gambar, menerapkan pemformatan, dan banyak lagi. Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/slides/net/) untuk informasi yang komprehensif.
+Aspose.Slides untuk .NET menawarkan berbagai fungsi, termasuk membuat presentasi dari awal, memanipulasi slide, menambahkan bentuk dan gambar, menerapkan pemformatan, dan banyak lagi. Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/slides/net/) untuk informasi yang komprehensif.
 
 ### Bagaimana saya bisa mempelajari selengkapnya tentang otomatisasi PowerPoint menggunakan Aspose.Slides?
 

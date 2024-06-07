@@ -76,7 +76,7 @@ try
 		// Ustawianie nakładania się serii
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//Zapisz plik prezentacji na dysku
+	// Zapisz plik prezentacji na dysku
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

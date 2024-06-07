@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## Paso 3: cargue la presentación
 
-Ahora, carguemos la presentación que deseas convertir. Reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación:
+ Ahora, carguemos la presentación que deseas convertir. Reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ finally
 
 ### ¿Puedo personalizar aún más la salida HTML?
 
- Sí, puede personalizar la salida HTML modificando el`ResponsiveHtmlController` y`HtmlOptions`objetos. Esto le permite adaptar la salida HTML a sus requisitos específicos.
+ Sí, puede personalizar la salida HTML modificando el`ResponsiveHtmlController` y`HtmlOptions` objetos. Esto le permite adaptar la salida HTML a sus requisitos específicos.
 
 ### ¿Existe algún requisito de licencia para Aspose.Slides para Java?
 

@@ -22,7 +22,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel
 
 ## 1. lépés: Töltse be a prezentációt
 
-Először is be kell töltenie az animálni kívánt diagramot tartalmazó PowerPoint bemutatót. Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Először is be kell töltenie az animálni kívánt diagramot tartalmazó PowerPoint bemutatót. Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -31,7 +31,7 @@ Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 
 ## 2. lépés: Szerezzen hivatkozást a diagramra
 
-A prezentáció betöltése után szerezzen hivatkozást az animálni kívánt diagramra. Ebben a példában feltételezzük, hogy a diagram az első dián található.
+prezentáció betöltése után szerezzen hivatkozást az animálni kívánt diagramra. Ebben a példában feltételezzük, hogy a diagram az első dián található.
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -55,9 +55,9 @@ for (int seriesIndex = 0; seriesIndex < chart.getChartData().getSeries().size();
 }
 ```
 
-A fenti kódban először animáljuk a teljes diagramot "Fade" effektussal. Ezután végigpörgetjük a sorozatot és a diagramon belüli pontokat, és minden elemre "Megjelenés" effektust alkalmazunk. Szükség szerint testreszabhatja az animáció típusát és a triggert.
+A fenti kódban először animáljuk a teljes diagramot "Fade" effektussal. Ezután végigpörgetjük a diagramon belüli sorozatokat és pontokat, és minden elemre "Megjelenés" effektust alkalmazunk. Szükség szerint testreszabhatja az animáció típusát és a triggert.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse a módosított bemutatót animációkkal egy új fájlba.
 
@@ -92,7 +92,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// Írja a bemutató fájlt lemezre
+	// Írja ki a bemutató fájlt lemezre
 	presentation.save(dataDir + "AnimatingSeriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -113,7 +113,7 @@ Testreszabhatja az animációt az egyes diagramelemekhez, ha módosítja az anim
 
 ### Alkalmazhatok animációkat egy PowerPoint dián lévő más objektumokra?
 
-Igen, alkalmazhat animációkat a PowerPoint-diák különböző objektumaira, nem csak diagramokra. Használja a`addEffect` metódussal adja meg az animálni kívánt objektumot és a kívánt animációs tulajdonságokat.
+ Igen, alkalmazhat animációkat a PowerPoint-diák különböző objektumaira, nem csak diagramokra. Használja a`addEffect` metódussal adja meg az animálni kívánt objektumot és a kívánt animációs tulajdonságokat.
 
 ### Hogyan integrálhatom az Aspose.Slides for Java programot a projektembe?
 

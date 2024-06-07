@@ -12,7 +12,7 @@ url: /th/java/chart-creation/
 
 ## เริ่มต้นใช้งาน Aspose.Slides สำหรับ Java
 
- ก่อนที่จะเจาะลึกในการสร้างแผนภูมิ สิ่งสำคัญคือต้องตั้งค่า Aspose.Slides สำหรับ Java คุณสามารถดาวน์โหลด API ได้จาก[ที่นี่](https://releases.aspose.com/slides/java/) และเข้าถึงเอกสาร API[ที่นี่](https://reference.aspose.com/slides/java/) . หากคุณยังใหม่กับ Aspose ลองพิจารณาทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/) หรือสำรวจตัวเลือกการออกใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ ก่อนที่จะเจาะลึกในการสร้างแผนภูมิ สิ่งสำคัญคือต้องตั้งค่า Aspose.Slides สำหรับ Java คุณสามารถดาวน์โหลด API ได้จาก[ที่นี่](https://releases.aspose.com/slides/java/) และเข้าถึงเอกสาร API[ที่นี่](https://reference.aspose.com/slides/java/) - หากคุณยังใหม่กับ Aspose ลองพิจารณาทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/) หรือสำรวจตัวเลือกการออกใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับแผนภูมิสไลด์ Java
 

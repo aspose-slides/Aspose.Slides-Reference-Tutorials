@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Ustawianie indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
 
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Zmień nazwy kategorii wykresów
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Ustawianie indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Zmiana nazwy kategorii wykresu
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Weź trzecią serię wykresów
 series = chart.getChartData().getSeries().get_Item(2);
-// Teraz wypełniam dane serii
+//Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));
@@ -161,7 +161,7 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ```
 ## Wniosek
 
-tym obszernym samouczku nauczyliśmy się, jak modyfikować istniejący wykres w prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Postępując zgodnie ze szczegółowym przewodnikiem i korzystając z przykładów kodu źródłowego, możesz łatwo dostosowywać i aktualizować wykresy, aby spełniały Twoje specyficzne wymagania. Oto podsumowanie tego, co omówiliśmy:
+tym obszernym samouczku nauczyliśmy się, jak modyfikować istniejący wykres w prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Postępując zgodnie ze szczegółowym przewodnikiem i wykorzystując przykłady kodu źródłowego, możesz łatwo dostosowywać i aktualizować wykresy, aby spełniały Twoje specyficzne wymagania. Oto podsumowanie tego, co omówiliśmy:
 
 ## Często zadawane pytania
 

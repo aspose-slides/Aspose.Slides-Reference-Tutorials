@@ -26,7 +26,7 @@ url: /ko/java/animation-and-layout/animating-series-java-slides/
 ```java
 // 문서 디렉터리의 경로입니다.
 String dataDir = "Your Document Directory";
-//프리젠테이션 파일을 나타내는 프리젠테이션 클래스 인스턴스화
+// 프리젠테이션 파일을 나타내는 프리젠테이션 클래스 인스턴스화
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // 문서 디렉터리의 경로입니다.
 String dataDir = "Your Document Directory";
-//프리젠테이션 파일을 나타내는 프리젠테이션 클래스 인스턴스화
+// 프리젠테이션 파일을 나타내는 프리젠테이션 클래스 인스턴스화
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Aspose.Slides for Java를 사용하여 PowerPoint 차트에 성공적으로 애�
 
 ### 시리즈 애니메이션의 순서를 어떻게 제어하나요?
 
- 시리즈 애니메이션의 순서를 제어하려면`EffectTriggerType.AfterPrevious` 효과를 추가할 때 매개변수입니다. 이렇게 하면 각 시리즈 애니메이션이 이전 애니메이션이 끝난 후 시작됩니다.
+ 시리즈 애니메이션의 순서를 제어하려면`EffectTriggerType.AfterPrevious`효과를 추가할 때 매개변수입니다. 이렇게 하면 각 시리즈 애니메이션이 이전 애니메이션이 끝난 후 시작됩니다.
 
 ### 시리즈마다 다른 애니메이션을 적용할 수 있나요?
 

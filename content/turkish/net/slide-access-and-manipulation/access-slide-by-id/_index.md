@@ -56,7 +56,7 @@ Bir sunumdaki her slaytın, ona erişmek için kullanılabilecek benzersiz bir t
 Bir slayta dizinine göre erişmek için:
 
 ```csharp
-int slideIndex = 0; // İstenilen indeksle değiştirin
+int slideIndex = 0; //İstenilen indeksle değiştirin
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

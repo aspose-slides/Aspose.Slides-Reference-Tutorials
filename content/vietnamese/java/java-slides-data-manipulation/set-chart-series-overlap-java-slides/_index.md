@@ -39,7 +39,7 @@ Chúng tôi sẽ thêm biểu đồ cột được nhóm vào bản trình bày 
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400, true);
 ```
 
-## Bước 3: Điều chỉnh sự chồng chéo chuỗi
+## Bước 3: Điều chỉnh chồng chéo chuỗi
 
 Để đặt chồng chéo chuỗi, chúng tôi sẽ kiểm tra xem hiện tại nó có được đặt thành 0 hay không, sau đó điều chỉnh nếu cần:
 
@@ -76,7 +76,7 @@ try
 		// Cài đặt chồng chéo chuỗi
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//Ghi tập tin trình bày vào đĩa
+	// Ghi tập tin trình bày vào đĩa
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

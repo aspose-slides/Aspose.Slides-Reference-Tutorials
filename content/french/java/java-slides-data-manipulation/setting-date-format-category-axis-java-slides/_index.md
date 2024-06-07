@@ -16,7 +16,7 @@ Dans ce didacticiel, nous apprendrons comment définir un format de date pour l'
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
-1.  Bibliothèque Aspose.Slides pour Java (vous pouvez la télécharger depuis[ici](https://releases.aspose.com/slides/java/).
+1. Bibliothèque Aspose.Slides pour Java (vous pouvez la télécharger depuis[ici](https://releases.aspose.com/slides/java/).
 2. Environnement de développement Java mis en place.
 
 ## Étape 1 : Créer une présentation PowerPoint
@@ -138,4 +138,4 @@ Oui, vous pouvez définir différents formats de date pour les axes de catégori
 
 ### Comment ajouter plus de points de données au graphique ?
 
- Pour ajouter plus de points de données au graphique, utilisez le`getDataPoints().addDataPointForLineSeries` méthode sur la série de données et fournir les valeurs des données.
+ Pour ajouter plus de points de données au graphique, utilisez le`getDataPoints().addDataPointForLineSeries`méthode sur la série de données et fournir les valeurs des données.

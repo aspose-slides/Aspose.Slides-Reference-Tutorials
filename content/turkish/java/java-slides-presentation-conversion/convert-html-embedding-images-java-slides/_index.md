@@ -49,7 +49,7 @@ Presentation pres = new Presentation(presentationName);
 ```java
 Html5Options options = new Html5Options();
 //HTML5 belgesindeki görüntüleri kaydetmemeye zorla
-options.setEmbedImages(true); // Görüntüleri gömmek için true olarak ayarlayın
+options.setEmbedImages(true); // Görüntüleri gömmek için true değerine ayarlayın
 // Harici görüntülerin yolunu ayarlayın (gerekirse)
 options.setOutputPath("path/to/output/directory/");
 ```

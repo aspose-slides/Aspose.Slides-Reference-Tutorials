@@ -2,7 +2,7 @@
 title: Menautkan Video melalui Kontrol ActiveX di PowerPoint
 linktitle: Menghubungkan Video melalui Kontrol ActiveX
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari cara menautkan video ke slide PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup kode sumber dan tip untuk membuat presentasi interaktif dan menarik dengan video tertaut.
+description: Pelajari cara menautkan video ke slide PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup kode sumber dan tips untuk membuat presentasi interaktif dan menarik dengan video tertaut.
 type: docs
 weight: 12
 url: /id/net/slide-view-and-layout-manipulation/linking-video-activex-control/
@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## FAQ:
 
 ### Bagaimana cara menentukan ukuran dan posisi video tertaut pada slide?
- Anda dapat menyesuaikan dimensi dan posisi bingkai kontrol ActiveX menggunakan parameter`AddOleObjectFrame` metode. Empat argumen numerik masing-masing mewakili koordinat X dan Y dari sudut kiri atas serta lebar dan tinggi bingkai.
+Anda dapat menyesuaikan dimensi dan posisi bingkai kontrol ActiveX menggunakan parameter`AddOleObjectFrame` metode. Empat argumen numerik masing-masing mewakili koordinat X dan Y dari sudut kiri atas serta lebar dan tinggi bingkai.
 
 ### Bisakah saya menautkan video dengan format berbeda menggunakan pendekatan ini?
 Ya, Anda dapat menautkan video dengan berbagai format selama kontrol ActiveX yang sesuai tersedia untuk format tersebut. Misalnya, kontrol ShockwaveFlash ActiveX yang digunakan dalam panduan ini cocok untuk video Flash (SWF). Untuk format lain, Anda mungkin perlu menggunakan ProgID yang berbeda.

@@ -56,6 +56,6 @@ R: Sí, puede lograrlo modificando el código para imprimir diapositivas especí
 ### P: ¿Dónde puedo encontrar soporte adicional o hacer preguntas sobre Aspose.Slides?
  R: Visite Aspose.Slides[Foro de soporte](https://forum.aspose.com/c/slides/11) para asistencia.
 ### P: ¿Puedo probar Aspose.Slides gratis antes de comprarlo?
-R: ¡Absolutamente! Puedes descargar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+ R: ¡Absolutamente! Puedes descargar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
 ### P: ¿Cómo compro Aspose.Slides para .NET?
  R: Puedes comprar la biblioteca.[aquí](https://purchase.aspose.com/buy).

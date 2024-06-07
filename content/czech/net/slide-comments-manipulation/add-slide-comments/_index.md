@@ -91,7 +91,7 @@ Vzhled komentářů můžete upravit úpravou různých vlastností, jako je bar
 
 ### 2. Mohu přidávat komentáře ke konkrétním prvkům na snímku, jako jsou tvary nebo obrázky?
 
-Ano, Aspose.Slides for .NET umožňuje přidávat komentáře nejen k celým snímkům, ale také k jednotlivým prvkům snímku, jako jsou tvary nebo obrázky.
+Ano, Aspose.Slides for .NET umožňuje přidávat komentáře nejen k celým snímkům, ale také k jednotlivým prvkům ve snímku, jako jsou tvary nebo obrázky.
 
 ### 3. Je Aspose.Slides for .NET kompatibilní s různými verzemi souborů PowerPoint?
 

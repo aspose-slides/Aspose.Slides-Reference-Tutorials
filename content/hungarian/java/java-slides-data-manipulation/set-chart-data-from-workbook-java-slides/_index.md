@@ -81,7 +81,7 @@ series.getParentSeriesGroup().setColorVaried(true);
 
 Testreszabhatja a diagramsorozat különféle tulajdonságait az igényeinek megfelelően. Ebben a példában változatos színeket engedélyezünk a diagramsorozatokhoz.
 
-## 8. lépés: Mentse el a bemutatót
+## 8. lépés: Mentse el a prezentációt
 
 ```java
 pres.save(outPath, SaveFormat.Pptx);

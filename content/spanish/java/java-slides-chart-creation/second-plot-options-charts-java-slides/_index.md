@@ -88,8 +88,8 @@ En este tutorial, aprendimos cómo agregar segundas opciones de trazado a gráfi
 
 ###  Que hace`PieSplitBy` control in a Pie of Pie chart?
 
- El`PieSplitBy`La propiedad controla cómo se divide el gráfico circular. Puedes configurarlo en cualquiera de los dos`PieSplitType.ByPercentage` o`PieSplitType.ByValue` para dividir el gráfico por porcentaje o por un valor específico, respectivamente.
+ El`PieSplitBy` La propiedad controla cómo se divide el gráfico circular. Puedes configurarlo en cualquiera de los dos`PieSplitType.ByPercentage` o`PieSplitType.ByValue` para dividir el gráfico por porcentaje o por un valor específico, respectivamente.
 
 ### ¿Cómo configuro la posición de la división en un gráfico circular?
 
- Puede establecer la posición de la división en un gráfico circular utilizando el`setPieSplitPosition` método. Ajuste el valor para especificar la posición deseada.
+Puede establecer la posición de la división en un gráfico circular utilizando el`setPieSplitPosition` método. Ajuste el valor para especificar la posición deseada.

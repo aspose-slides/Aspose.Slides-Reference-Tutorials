@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Kode ini mengulang setiap titik data di seri pertama (indeks 0) dan menetapkan nilai X dan Y`null`secara efektif membersihkan titik data.
+Kode ini mengulang setiap titik data di seri pertama (indeks 0) dan menetapkan nilai X dan Y`null`, secara efektif membersihkan titik data.
 
 ## Langkah 4: Hapus Titik Data yang Dihapus
 
@@ -116,7 +116,7 @@ Ya, Anda dapat menghapus titik data berdasarkan suatu kondisi dengan menambahkan
 
 ### Bagaimana cara menambahkan titik data baru ke rangkaian bagan menggunakan Aspose.Slides untuk Java?
 
- Untuk menambahkan titik data baru ke rangkaian bagan, Anda dapat menggunakan`addDataPoint`metode seri. Cukup buat titik data baru dan tambahkan ke rangkaian menggunakan metode ini.
+Untuk menambahkan titik data baru ke rangkaian bagan, Anda dapat menggunakan`addDataPoint` metode seri. Cukup buat titik data baru dan tambahkan ke rangkaian menggunakan metode ini.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Slides untuk Java?
 

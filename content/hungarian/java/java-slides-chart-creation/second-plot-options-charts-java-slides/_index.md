@@ -50,7 +50,7 @@ chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitB
 chart.getChartData().getSeries().get_Item(0).getParentSeriesGroup().setPieSplitPosition(53);
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 Végül mentse el a prezentációt a diagrammal és a második diagram opciókkal:
 
 ```java
@@ -88,8 +88,8 @@ Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá második nyomtatás
 
 ###  Mit csinál`PieSplitBy` control in a Pie of Pie chart?
 
- A`PieSplitBy`tulajdonság szabályozza a kördiagram felosztását. Bármelyikre beállíthatja`PieSplitType.ByPercentage` vagy`PieSplitType.ByValue` a diagram százalékos vagy meghatározott érték szerinti felosztásához.
+ A`PieSplitBy` tulajdonság szabályozza a kördiagram felosztását. Bármelyikre beállíthatja`PieSplitType.ByPercentage` vagy`PieSplitType.ByValue` a diagram százalékos vagy meghatározott érték szerinti felosztásához.
 
 ### Hogyan állíthatom be a felosztás pozícióját egy kördiagramon?
 
- Beállíthatja a felosztás pozícióját egy kördiagramon a`setPieSplitPosition` módszer. Állítsa be az értéket a kívánt pozíció megadásához.
+Beállíthatja a felosztás pozícióját egy kördiagramon a`setPieSplitPosition` módszer. Állítsa be az értéket a kívánt pozíció megadásához.

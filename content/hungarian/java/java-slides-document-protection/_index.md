@@ -17,7 +17,7 @@ Mielőtt belemerülnénk a részletekbe, alapvetően fontos megérteni, miért e
 
 ### Jelszavak beállítása
 
-dokumentumvédelem első lépése a jelszavak beállítása. Az Aspose.Slides for Java segítségével könnyedén jelszóval védheti Java Slides dokumentumait. Ez az oktatóanyag végigvezeti Önt a folyamaton, biztosítva, hogy tartalma csak a megfelelő hitelesítési adatokkal rendelkezők számára maradjon hozzáférhető.
+dokumentumvédelem első lépése a jelszavak beállítása. Az Aspose.Slides for Java segítségével könnyedén jelszóval védheti Java Slides dokumentumait. Ez az oktatóanyag végigvezeti Önt a folyamaton, biztosítva, hogy tartalmaihoz csak a megfelelő hitelesítési adatokkal rendelkezők férhessenek hozzá.
 
 ### Diák titkosítása
 
@@ -25,7 +25,7 @@ A diaszintű titkosítás további biztonsági réteget ad prezentációihoz. Is
 
 ###  Speciális biztonsági intézkedések
 
-Azok számára, akik fejlett biztonsági intézkedéseket keresnek, ezt az oktatóanyagot kötelező elolvasni. Fedezze fel az olyan technikákat, mint a vízjel, a digitális aláírás és még sok más, amellyel megerősítheti Java Slides dokumentumait. Az Aspose.Slides for Java segítségével számos eszköz áll rendelkezésére tartalmai védelméhez.
+Azok számára, akik fejlett biztonsági intézkedéseket keresnek, ezt az oktatóanyagot kötelező elolvasni. Fedezze fel az olyan technikákat, mint a vízjel, a digitális aláírás és még sok más, amellyel megerősítheti Java Slides dokumentumait. Az Aspose.Slides for Java segítségével eszközök széles skálája áll rendelkezésére tartalmai védelméhez.
 
 Az Aspose.Slides for Java a lehetőségek világát nyitja meg Java Slides dokumentumai biztonságának fokozására. Ha követi ezeket az oktatóanyagokat, akkor jól felkészült lesz arra, hogy megvédje értékes tartalmait az illetéktelen hozzáféréstől, és megőrizze prezentációinak bizalmas kezelését. Kezdje el biztonságossá tenni Java Slides dokumentumait még ma az Aspose.Slides for Java segítségével.
 

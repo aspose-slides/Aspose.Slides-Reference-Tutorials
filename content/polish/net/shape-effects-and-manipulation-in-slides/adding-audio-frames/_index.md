@@ -8,7 +8,7 @@ weight: 14
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
 ## Wstęp
-dynamicznym świecie prezentacji włączenie elementów audio może znacznie poprawić ogólne wrażenia odbiorców. Aspose.Slides dla .NET umożliwia programistom bezproblemową integrację klatek audio ze slajdami prezentacji, dodając nową warstwę zaangażowania i interaktywności. Ten przewodnik krok po kroku przeprowadzi Cię przez proces dodawania ramek audio do slajdów prezentacji przy użyciu Aspose.Slides dla .NET.
+W dynamicznym świecie prezentacji włączenie elementów audio może znacznie poprawić ogólne wrażenia odbiorców. Aspose.Slides dla .NET umożliwia programistom bezproblemową integrację klatek audio ze slajdami prezentacji, dodając nową warstwę zaangażowania i interaktywności. Ten przewodnik krok po kroku przeprowadzi Cię przez proces dodawania ramek audio do slajdów prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 1.  Biblioteka Aspose.Slides dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Slides dla .NET z[link do pobrania](https://releases.aspose.com/slides/net/).

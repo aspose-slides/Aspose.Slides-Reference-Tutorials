@@ -44,7 +44,7 @@ En este paso, cargue su presentación de PowerPoint (PPTX) existente que contien
 // Ruta al directorio de documentos
 string dataDir = "Your Document Directory";
 
-//Crear una instancia de la clase de presentación que representa un archivo de presentación
+// Crear una instancia de la clase de presentación que representa un archivo de presentación
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Tu código va aquí

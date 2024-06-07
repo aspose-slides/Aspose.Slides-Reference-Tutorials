@@ -51,7 +51,7 @@ Vervolgens stellen we het weergavetype voor onze presentatie in. Weergavetypen b
 presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
 ```
 
- In de bovenstaande code gebruiken we de`setLastView` werkwijze van de`ViewProperties` klasse om het weergavetype in te stellen`SlideMasterView`. U kunt indien nodig andere weergavetypen kiezen.
+ In de bovenstaande code gebruiken we de`setLastView` werkwijze van de`ViewProperties` klasse om het weergavetype op in te stellen`SlideMasterView`. U kunt indien nodig andere weergavetypen kiezen.
 
 ## Stap 3: De presentatie opslaan
 

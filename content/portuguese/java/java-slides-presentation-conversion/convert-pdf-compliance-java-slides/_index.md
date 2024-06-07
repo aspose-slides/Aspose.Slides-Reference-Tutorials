@@ -109,7 +109,7 @@ Sim, você pode automatizar o processo de conversão de PowerPoint para PDF com 
 
 ## Preciso de uma licença do Aspose.Slides for Java para usar esse recurso?
 
-Sim, normalmente você precisa de uma licença válida do Aspose.Slides for Java para usar seus recursos avançados, incluindo a configuração da conformidade com PDF. Você pode obter uma licença no site Aspose. No entanto, você também pode usar a biblioteca sem licença, mas ela adicionará uma marca d’água ao PDF de saída.
+Sim, normalmente você precisa de uma licença válida do Aspose.Slides for Java para usar seus recursos avançados, incluindo a configuração da conformidade com PDF. Você pode obter uma licença no site Aspose. No entanto, você também pode usar a biblioteca sem licença, mas ela adicionará uma marca d'água ao PDF de saída.
 
 ## Onde posso encontrar mais informações sobre Aspose.Slides para conformidade com Java e PDF?
 

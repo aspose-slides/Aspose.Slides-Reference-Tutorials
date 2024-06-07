@@ -87,7 +87,7 @@ Skapa en fullskalig bild av bilden med de angivna anpassade måtten och spara de
 // Skapa en fullskalig bild
 Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
 
-// Spara bilden på disk i JPEG-format
+// Spara bilden på disken i JPEG-format
 bmp.Save(destFileName, System.Drawing.Imaging.ImageFormat.Jpeg);
 ```
 

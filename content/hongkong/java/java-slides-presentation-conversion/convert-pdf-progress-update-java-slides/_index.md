@@ -113,7 +113,7 @@ class ExportProgressHandler implements IProgressCallback
 
 ### 我可以使用 Aspose.Slides for Java 進行其他 PowerPoint 操作嗎？
 
-是的，Aspose.Slides for Java 提供了處理 PowerPoint 簡報的廣泛功能，包括建立、修改和將其轉換為各種格式。
+是的，Aspose.Slides for Java 提供了處理 PowerPoint 簡報的廣泛功能，包括建立、修改它們並將其轉換為各種格式。
 
 ### 如何自訂 PDF 轉換選項？
 

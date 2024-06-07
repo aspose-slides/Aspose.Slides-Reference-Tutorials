@@ -72,7 +72,7 @@ namespace PresentationToHTML5Converter
 
 ### ฉันจะปรับแต่งลักษณะที่ปรากฏของเอาต์พุต HTML5 ได้อย่างไร
 
-คุณสามารถปรับแต่งลักษณะที่ปรากฏของเอาต์พุต HTML5 ได้โดยตั้งค่าตัวเลือกต่างๆ ใน`Html5Options` ระดับ. อ้างถึง[เอกสารประกอบ](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) สำหรับตัวเลือกการปรับแต่งที่มีอยู่
+ คุณสามารถปรับแต่งลักษณะที่ปรากฏของเอาต์พุต HTML5 ได้โดยตั้งค่าตัวเลือกต่างๆ ใน`Html5Options`ระดับ. อ้างถึง[เอกสารประกอบ](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) สำหรับตัวเลือกการปรับแต่งที่มีอยู่
 
 ### ฉันสามารถแปลงงานนำเสนอที่มีภาพเคลื่อนไหวและการเปลี่ยนภาพได้หรือไม่
 

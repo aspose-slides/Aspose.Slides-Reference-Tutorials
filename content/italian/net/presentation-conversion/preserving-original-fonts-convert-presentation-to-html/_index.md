@@ -75,13 +75,13 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## 8. Conclusione
 
-In questo tutorial, abbiamo dimostrato come preservare i caratteri originali durante la conversione di una presentazione PowerPoint in HTML utilizzando Aspose.Slides per .NET. Seguendo questi passaggi puoi assicurarti che il tuo documento HTML convertito mantenga l'integrità visiva della presentazione originale.
+In questo tutorial, abbiamo dimostrato come preservare i caratteri originali durante la conversione di una presentazione di PowerPoint in HTML utilizzando Aspose.Slides per .NET. Seguendo questi passaggi puoi assicurarti che il tuo documento HTML convertito mantenga l'integrità visiva della presentazione originale.
 
 ## 9. Domande frequenti
 
 ### Q1: Posso personalizzare l'elenco dei caratteri esclusi?
 
- Si, puoi. Modifica il`fontNameExcludeList` array per includere o escludere caratteri specifici in base alle proprie esigenze.
+ Si, puoi. Modifica il`fontNameExcludeList`array per includere o escludere caratteri specifici in base alle proprie esigenze.
 
 ### Q2: Cosa succede se non voglio incorporare tutti i caratteri?
 

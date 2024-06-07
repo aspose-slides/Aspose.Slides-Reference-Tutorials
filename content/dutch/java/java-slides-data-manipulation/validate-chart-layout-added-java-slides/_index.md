@@ -14,7 +14,7 @@ In deze zelfstudie onderzoeken we hoe u de diagramindeling in een PowerPoint-pre
 
 ## Stap 1: Initialiseren van de presentatie
 
-Eerst moeten we een presentatieobject initialiseren en een bestaande PowerPoint-presentatie laden. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw presentatiebestand (`test.pptx` in dit voorbeeld).
+ Eerst moeten we een presentatieobject initialiseren en een bestaande PowerPoint-presentatie laden. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw presentatiebestand (`test.pptx` in dit voorbeeld).
 
 ```java
 // Het pad naar de documentenmap.
@@ -88,7 +88,7 @@ In deze tutorial hebben we ons verdiept in de wereld van het werken met diagramm
 
 ### Hoe wijzig ik het diagramtype?
 
- Om het diagramtype te wijzigen, hoeft u alleen maar te vervangen`ChartType.ClusteredColumn` met het gewenste grafiektype in het`addChart()` methode.
+ Om het diagramtype te wijzigen, hoeft u alleen maar te vervangen`ChartType.ClusteredColumn`met het gewenste grafiektype in het`addChart()` methode.
 
 ### Kan ik de grafiekgegevens aanpassen?
 

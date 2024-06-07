@@ -1,29 +1,29 @@
 ---
-title: Java スライドのチャート回復ワークブック
-linktitle: Java スライドのチャート回復ワークブック
+title: Java スライドでのチャート回復ワークブック
+linktitle: Java スライドでのチャート回復ワークブック
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides を使用して Java Slides のチャートからワークブックを復元する方法を学びます。 PowerPoint オートメーションのステップバイステップ ガイド。
+description: Aspose.Slides を使用して Java スライドのグラフからワークブックを復元する方法を学びます。PowerPoint 自動化のステップバイステップ ガイド。
 type: docs
 weight: 17
 url: /ja/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
 
-## Java スライドでの Chart Recover ワークブックの概要
+## Java スライドでのチャート回復ワークブックの紹介
 
-Java で PowerPoint プレゼンテーションを操作する場合、グラフからブック データを回復する必要があるシナリオが発生する場合があります。これは、特にデータ駆動型のプレゼンテーションを扱う場合には、重要なタスクとなる可能性があります。 Aspose.Slides for Java はこのプロセスを簡素化しており、このガイドではその方法を説明します。
+Java で PowerPoint プレゼンテーションを操作する場合、チャートからワークブックのデータを復元する必要があるシナリオに遭遇することがあります。これは、特にデータ駆動型のプレゼンテーションを扱う場合には、非常に重要なタスクになります。Aspose.Slides for Java はこのプロセスを簡素化します。このガイドでは、その方法を説明します。
 
 ## 前提条件
 
 始める前に、次の前提条件が満たされていることを確認してください。
 
-- Java Development Kit (JDK) がシステムにインストールされています。
--  Java ライブラリの Aspose.Slides。からダウンロードできます[ここ](https://releases.aspose.com/slides/java/).
+- Java 開発キット (JDK) がシステムにインストールされています。
+-  Aspose.Slides for Javaライブラリ。ここからダウンロードできます。[ここ](https://releases.aspose.com/slides/java/).
 
-## ステップ 1: プロジェクトのセットアップ
+## ステップ1: プロジェクトの設定
 
-お気に入りの統合開発環境 (IDE) で新しい Java プロジェクトを作成し、Aspose.Slides for Java ライブラリをプロジェクトの依存関係に追加します。
+お気に入りの統合開発環境 (IDE) で新しい Java プロジェクトを作成し、プロジェクトの依存関係に Aspose.Slides for Java ライブラリを追加します。
 
-## ステップ 2: 必要なクラスをインポートする
+## ステップ2: 必要なクラスのインポート
 
 Java コードで、Aspose.Slides for Java から必要なクラスをインポートします。
 
@@ -31,9 +31,9 @@ Java コードで、Aspose.Slides for Java から必要なクラスをインポ�
 import com.aspose.slides.*;
 ```
 
-## ステップ 3: プレゼンテーションをロードする
+## ステップ3: プレゼンテーションの読み込み
 
-ワークブック データを回復するグラフを含む PowerPoint プレゼンテーションを読み込みます。
+ワークブックのデータを回復するグラフが含まれている PowerPoint プレゼンテーションを読み込みます。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -44,16 +44,16 @@ lo.getSpreadsheetOptions().setRecoverWorkbookFromChartCache(true);
 Presentation pres = new Presentation(pptxFile, lo);
 ```
 
-## ステップ 4: チャート データへのアクセス
+## ステップ4: チャートデータにアクセスする
 
-これで、グラフ データにアクセスしてワークブックを復元できるようになります。
+これで、グラフ データにアクセスしてワークブックを復元できます。
 
 ```java
 try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    //ここでワークブック データに対する操作を実行します
+    //ここでワークブックデータに対する操作を実行します
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -62,10 +62,10 @@ finally
 }
 ```
 
-## Java スライドの Chart Recover ワークブックの完全なソース コード
+## Java スライドのチャート回復ワークブックの完全なソース コード
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 String pptxFile = dataDir + "ExternalWB.pptx";
 String outPptxFile = RunExamples.OutPath + "ExternalWB_out.pptx";
@@ -86,26 +86,26 @@ finally
 
 ## 結論
 
-このガイドでは、Aspose.Slides for Java を使用して Java Slides のグラフからワークブックを復元するプロセスを説明しました。このライブラリによりタスクが簡素化され、開発者がプログラムで PowerPoint プレゼンテーションを簡単に操作できるようになります。これで、自信を持ってデータドリブンのプレゼンテーションを処理し、必要に応じてワークブックの情報を抽出できるようになります。
+このガイドでは、Aspose.Slides for Java を使用して Java スライドのグラフからワークブックを復元するプロセスを説明しました。このライブラリによりタスクが簡素化され、開発者は PowerPoint プレゼンテーションをプログラムで簡単に操作できるようになります。これで、データ駆動型のプレゼンテーションを自信を持って処理し、必要に応じてワークブック情報を抽出できるようになります。
 
 ## よくある質問
 
 ### Aspose.Slides for Java をインストールするにはどうすればよいですか?
 
- Aspose.Slides for Java は、次の Web サイトからライブラリをダウンロードすることで簡単にインストールできます。[ここ](https://releases.aspose.com/slides/java/)。提供されるインストール手順に従って、Java プロジェクトに統合します。
+ Aspose.Slides for Javaは、次のWebサイトからライブラリをダウンロードすることで簡単にインストールできます。[ここ](https://releases.aspose.com/slides/java/)提供されているインストール手順に従って、Java プロジェクトに統合します。
 
-### PowerPoint プレゼンテーション内のグラフからワークブック データを復元できますか?
+### PowerPoint プレゼンテーション内の任意のグラフからワークブックのデータを回復できますか?
 
-はい、Aspose.Slides for Java ライブラリがあり、プレゼンテーション内でグラフにアクセスできる限り、PowerPoint プレゼンテーション内の任意のグラフからワークブック データを回復できます。提供されているコード スニペットは、これを実現する方法を示しています。
+はい、Aspose.Slides for Java ライブラリがあり、プレゼンテーション内でグラフにアクセスできる場合は、PowerPoint プレゼンテーション内の任意のグラフからワークブック データを回復できます。提供されているコード スニペットは、これを実現する方法を示しています。
 
 ### Aspose.Slides for Java を使用してグラフ データを操作するための追加オプションはありますか?
 
-はい、Aspose.Slides for Java は、グラフ データを操作するための幅広いオプションを提供します。特定の要件を満たすために、チャートのプロパティを操作したり、データ ポイントを取得したり、チャート上でさまざまな操作を実行したりできます。
+はい、Aspose.Slides for Java には、グラフ データを操作するための幅広いオプションが用意されています。グラフのプロパティを操作したり、データ ポイントを取得したり、グラフに対してさまざまな操作を実行して、特定の要件を満たすことができます。
 
-### Aspose.Slides for Java は、プロフェッショナルな PowerPoint オートメーションに適していますか?
+### Aspose.Slides for Java はプロフェッショナルな PowerPoint 自動化に適していますか?
 
-絶対に！ Aspose.Slides for Java は、PowerPoint タスクを自動化するための強力なライブラリであり、基本的なユースケースと高度なプロフェッショナルなユースケースの両方に適しています。 PowerPoint プレゼンテーションをプログラムで作成、変更、管理するための広範な機能を提供します。
+もちろんです! Aspose.Slides for Java は、PowerPoint タスクを自動化するための強力なライブラリであり、基本的な使用例と高度なプロフェッショナルな使用例の両方に適しています。プログラムによって PowerPoint プレゼンテーションを作成、変更、管理するための広範な機能を提供します。
 
-### Aspose.Slides for Java の詳細ドキュメントにアクセスするにはどうすればよいですか?
+### Aspose.Slides for Java の詳細なドキュメントにアクセスするにはどうすればいいですか?
 
- Aspose.Slides for Java の詳細なドキュメントとリファレンスについては、次のドキュメント ページを参照してください。[ここ](https://reference.aspose.com/slides/java/).
+ Aspose.Slides for Javaの詳細なドキュメントとリファレンスについては、次のドキュメントページをご覧ください。[ここ](https://reference.aspose.com/slides/java/).

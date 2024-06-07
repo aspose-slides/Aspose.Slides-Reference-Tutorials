@@ -14,7 +14,7 @@ Aspose.Slides'ın Slayt Yorumlarını Yönetme eğitimine hoş geldiniz! Bu eği
 
 Bu eğitim serisinde yorumlarla nasıl etkileşimde bulunacağınızı, yeni yorumlar oluşturacağınızı, mevcut yorumları nasıl değiştireceğinizi ve bunları slaytlarınızda nasıl organize edeceğinizi öğreneceksiniz. Slayt yorumlarına erişmekten düzenleme yapmaya ve biçimlendirme değişikliklerine kadar tüm süreç boyunca size yol göstereceğiz. Bu eğitimin sonunda, slayt yorumlarını düzenlemeyi .NET uygulamalarınıza sorunsuz bir şekilde entegre ederek zamandan ve emekten tasarruf etmenizi sağlayacak bilgi ve becerilere sahip olacaksınız.
 
-İster sunumda işbirliğini geliştirmek isteyen ister yorumla ilgili görevleri otomatikleştirmeyi amaçlayan bir geliştirici olun, Aspose.Slides ile slayt yorumlarının işlenmesinde ustalaşmak için bu yolculukta bize katılın. Başlayalım!
+Yani ister sunumda işbirliğini geliştirmek isteyen ister yorumla ilgili görevleri otomatikleştirmeyi amaçlayan bir geliştirici olun, Aspose.Slides ile slayt yorumlarının işlenmesinde ustalaşmak için bu yolculukta bize katılın. Başlayalım!
 
 ## Slayt Yorumları İşleme Eğitimleri
 ### [Aspose.Slides kullanarak Slayt Yorumlarının Değiştirilmesi](./slide-comments-manipulation/)

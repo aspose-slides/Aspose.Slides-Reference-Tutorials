@@ -25,7 +25,7 @@ Bắt đầu bằng cách tạo một dự án .NET mới trong IDE ưa thích c
 Thêm tham chiếu vào thư viện Aspose.Slides for .NET mà bạn đã tải xuống trước đó. Điều này sẽ cho phép bạn sử dụng các tính năng của nó để nhập nội dung PDF.
 
 ### Bước 3: Tải bài thuyết trình
-Tải tệp bản trình bày mà bạn muốn làm việc bằng mã sau:
+Tải tệp trình bày mà bạn muốn làm việc bằng mã sau:
 
 ```csharp
 Presentation presentation = new Presentation("your-presentation.pptx");

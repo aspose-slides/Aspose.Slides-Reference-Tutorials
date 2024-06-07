@@ -13,9 +13,9 @@ Välkommen till vår omfattande handledning om hur du renderar bildkommentarer m
 Innan vi dyker in i handledningen, se till att du har följande på plats:
 -  Aspose.Slides for .NET Library: Se till att du har Aspose.Slides-biblioteket för .NET installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner den[här](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Sätt upp en fungerande .NET-utvecklingsmiljö och ha en grundläggande förståelse för C#.
-Nu, låt oss komma igång med handledningen!
+Nu börjar vi med handledningen!
 ## Importera namnområden
-din C#-kod måste du importera de nödvändiga namnrymden för att använda Aspose.Slides-funktioner. Lägg till följande rader i början av filen:
+I din C#-kod måste du importera de nödvändiga namnrymden för att använda Aspose.Slides-funktioner. Lägg till följande rader i början av filen:
 ```csharp
 using Aspose.Slides.Export;
 using Aspose.Slides;
@@ -74,7 +74,7 @@ System.Diagnostics.Process.Start(resultPath);
 ```
 Grattis! Du har framgångsrikt renderat bildkommentarer med Aspose.Slides för .NET.
 ## Slutsats
-I den här handledningen undersökte vi processen för att rendera bildkommentarer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden kan du enkelt förbättra dina PowerPoint-automatiseringsfunktioner.
+den här handledningen undersökte vi processen för att rendera bildkommentarer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden kan du enkelt förbättra dina PowerPoint-automatiseringsfunktioner.
 ## Vanliga frågor
 ### F: Är Aspose.Slides kompatibel med de senaste .NET framework-versionerna?
 S: Ja, Aspose.Slides uppdateras regelbundet för att stödja de senaste .NET framework-versionerna.
@@ -85,4 +85,4 @@ A: Absolut! Handledningen innehåller alternativ för att anpassa färg, bredd o
 ### F: Hur får jag en tillfällig licens för Aspose.Slides?
  S: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag söka hjälp och support för Aspose.Slides?
- A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd.
+A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd.

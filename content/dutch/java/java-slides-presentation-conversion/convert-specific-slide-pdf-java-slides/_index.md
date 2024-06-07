@@ -16,7 +16,7 @@ In de wereld van Java-ontwikkeling is het werken met presentatiedia's een veel v
 
 Voordat we in de code duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
-1.  Aspose.Slides voor Java-bibliotheek: U moet de Aspose.Slides voor Java-bibliotheek geïnstalleerd hebben. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides voor Java-bibliotheek: U moet de Aspose.Slides voor Java-bibliotheek geïnstalleerd hebben. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
 
 2. Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw systeem is geïnstalleerd.
 
@@ -48,7 +48,7 @@ finally
 
 In deze code:
 
-- We specificeren het pad naar de map met het presentatiebestand (`SelectedSlides.pptx`dat u naar PDF wilt converteren.
+- We specificeren het pad naar de map met het presentatiebestand (`SelectedSlides.pptx`) dat u naar PDF wilt converteren.
 
 -  Wij creëren een`Presentation` object dat het presentatiebestand vertegenwoordigt.
 
@@ -102,7 +102,7 @@ Ja, u kunt bij Aspose een gratis proeflicentie aanvragen om de functies en mogel
 
 ### Hoe kan ik het uiterlijk van de geconverteerde PDF aanpassen?
 
-U kunt het uiterlijk van de geconverteerde PDF aanpassen door de dia-inhoud in uw presentatie te wijzigen voordat u deze als PDF opslaat. Aspose.Slides biedt uitgebreide opmaak- en stijlopties.
+kunt het uiterlijk van de geconverteerde PDF aanpassen door de dia-inhoud in uw presentatie te wijzigen voordat u deze als PDF opslaat. Aspose.Slides biedt uitgebreide opmaak- en stijlopties.
 
 ### Waar kan ik meer voorbeelden en documentatie vinden voor Aspose.Slides voor Java?
 

@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Adicionamos dados ao gráfico criando séries e pontos de dados. Neste exemplo, adicionamos duas séries com seus respectivos pontos de dados.
 
 ```java
-//Obtendo a planilha de dados do gráfico
+// Obtendo a planilha de dados do gráfico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Adicionar nova série
@@ -103,7 +103,7 @@ Finalmente, salvamos a apresentação em um arquivo PowerPoint.
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-É isso! Você criou com sucesso uma apresentação do PowerPoint com um gráfico de colunas empilhadas e configurou rótulos de dados para exibir porcentagens usando Aspose.Slides para Java.
+É isso! Você criou com êxito uma apresentação do PowerPoint com um gráfico de colunas empilhadas e configurou rótulos de dados para exibir porcentagens usando Aspose.Slides para Java.
 
 ## Código-fonte completo para definir sinal de porcentagem de rótulos de dados em slides Java
 
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Obtendo a planilha de dados do gráfico
+// Obtendo a planilha de dados do gráfico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Adicionar nova série
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

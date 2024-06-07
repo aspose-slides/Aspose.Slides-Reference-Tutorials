@@ -117,7 +117,7 @@ Presentation presentation = new Presentation("PasswordProtectedPDF_out.pdf", loa
 
 ### Aspose.Slides를 사용하여 기존 비밀번호로 보호된 PDF의 비밀번호를 변경할 수 있나요?
 
-예, Aspose.Slides를 사용하여 기존 비밀번호로 보호된 PDF의 비밀번호를 변경할 수 있습니다. 현재 비밀번호로 PDF를 로드하고 비밀번호 없이 저장한 후 새 비밀번호로 다시 저장해야 합니다. 예는 다음과 같습니다.
+예, Aspose.Slides를 사용하여 기존 비밀번호로 보호된 PDF의 비밀번호를 변경할 수 있습니다. 현재 비밀번호로 PDF를 로드하고 비밀번호 없이 저장한 다음 새 비밀번호로 다시 저장해야 합니다. 예는 다음과 같습니다.
 
 ```java
 PdfLoadOptions loadOptions = new PdfLoadOptions();
@@ -139,7 +139,7 @@ presentation.save("NewPasswordProtectedPDF.pdf", SaveFormat.Pdf, newPdfOptions);
 
 Aspose.Slides는 강력한 PDF 비밀번호 보호 기능을 제공합니다. 그러나 비밀번호로 보호된 PDF의 보안은 비밀번호 자체의 강도에 따라 결정된다는 점을 기억하는 것이 중요합니다. 보안을 강화하려면 강력하고 고유한 비밀번호를 선택하세요.
 
-### 여러 프레젠테이션에 대해 이 프로세스를 자동화할 수 있나요?
+### 여러 프레젠테이션에 대해 이 프로세스를 자동화할 수 있습니까?
 
 예, 프리젠테이션 파일을 반복하고 각 프리젠테이션에 변환 코드를 적용하여 여러 프리젠테이션을 비밀번호로 보호된 PDF로 변환하는 프로세스를 자동화할 수 있습니다.
 

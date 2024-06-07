@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## الخطوة 4: إضافة شكل إطار كائن OLE
 ```csharp
-// إضافة شكل إطار كائن OLE
+//إضافة شكل إطار كائن OLE
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ### س: هل يمكنني تخصيص مظهر إطار كائن OLE المضمن؟
 ج: بالتأكيد، يمكنك ضبط الحجم والموضع والخصائص الأخرى لإطار كائن OLE وفقًا لتفضيلاتك.
 ### س: أين يمكنني طلب المساعدة إذا واجهت تحديات أثناء التنفيذ؟
- ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم وتوجيه المجتمع.
+ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم وتوجيه المجتمع.

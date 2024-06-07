@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- في مقتطف الشفرة هذا، استبدل`"Your Document Directory"`بالمسار الفعلي إلى دليل المستندات الخاص بك و`"YourPresentation.pptx"` مع اسم عرض PowerPoint التقديمي الخاص بك.
+ في مقتطف الشفرة هذا، استبدل`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك و`"YourPresentation.pptx"` مع اسم عرض PowerPoint التقديمي الخاص بك.
 
 ### الخطوة 3: تكوين خيارات PDF
 

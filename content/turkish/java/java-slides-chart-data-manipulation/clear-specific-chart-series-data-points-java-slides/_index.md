@@ -10,7 +10,7 @@ url: /tr/java/chart-data-manipulation/clear-specific-chart-series-data-points-ja
 
 ## Java Slaytlarında Belirli Grafik Serisi Veri Noktası Verilerini Temizlemeye Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki grafik serisinden belirli veri noktalarını temizleme sürecinde size yol göstereceğiz. Veri görselleştirmenizi güncellemek veya değiştirmek için grafikten belirli veri noktalarını kaldırmak istediğinizde bu yararlı olabilir.
+Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki grafik serisindeki belirli veri noktalarını temizleme sürecinde size yol göstereceğiz. Veri görselleştirmenizi güncellemek veya değiştirmek için grafikten belirli veri noktalarını kaldırmak istediğinizde bu yararlı olabilir.
 
 ## Önkoşullar
 
@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Bu kod, ilk serideki (indeks 0) her veri noktası boyunca döngü yapar ve hem X hem de Y değerlerini`null`veri noktalarını etkili bir şekilde temizliyor.
+Bu kod, ilk serideki (indeks 0) her veri noktası boyunca döngü yapar ve hem X hem de Y değerlerini`null`, veri noktalarını etkili bir şekilde temizliyor.
 
 ## 4. Adım: Temizlenmiş Veri Noktalarını Kaldırma
 
@@ -108,7 +108,7 @@ Aspose.Slides for Java'daki bir grafik serisinden belirli veri noktalarını kal
 
 ### Aynı grafikteki birden fazla serideki veri noktalarını temizleyebilir miyim?
 
-Evet, her bir serinin veri noktalarını yineleyerek ve bunları tek tek temizleyerek aynı grafikteki birden fazla serideki veri noktalarını temizleyebilirsiniz.
+Evet, her serinin veri noktalarını yineleyerek ve bunları tek tek temizleyerek aynı grafikteki birden fazla serideki veri noktalarını temizleyebilirsiniz.
 
 ### Bir koşula veya kritere göre veri noktalarını temizlemenin bir yolu var mı?
 
@@ -116,7 +116,7 @@ Evet, veri noktaları boyunca yinelenen döngü içine koşullu mantık ekleyere
 
 ### Aspose.Slides for Java'yı kullanarak bir grafik serisine nasıl yeni veri noktaları ekleyebilirim?
 
- Bir grafik serisine yeni veri noktaları eklemek için`addDataPoint`serinin yöntemi. Basitçe yeni veri noktaları oluşturun ve bu yöntemi kullanarak bunları seriye ekleyin.
+Bir grafik serisine yeni veri noktaları eklemek için`addDataPoint` serinin yöntemi. Basitçe yeni veri noktaları oluşturun ve bu yöntemi kullanarak bunları seriye ekleyin.
 
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 

@@ -37,7 +37,7 @@ Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 
 ## Een presentatie laden
 
-Om dia's te openen op basis van hun unieke identificatie, moet u eerst een presentatie laden:
+Om toegang te krijgen tot dia's op basis van hun unieke identificatie, moet u eerst een presentatie laden:
 
 ```csharp
 string presentationPath = "path_to_your_presentation.pptx";
@@ -56,7 +56,7 @@ Elke dia in een presentatie heeft een unieke identificatie die kan worden gebrui
 Om toegang te krijgen tot een dia via de index:
 
 ```csharp
-int slideIndex = 0; // Vervang door de gewenste index
+int slideIndex = 0; //Vervang door de gewenste index
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

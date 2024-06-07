@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- Nel codice sopra, sostituisci`"Your Document Directory"`con il percorso effettivo della directory dei documenti e`"Hyperlink.pptx"` con il nome del file di presentazione di PowerPoint.
+ Nel codice sopra, sostituisci`"Your Document Directory"` con il percorso effettivo della directory dei documenti e`"Hyperlink.pptx"` con il nome del file di presentazione di PowerPoint.
 
 ## Passaggio 3: rimuovere i collegamenti ipertestuali
 

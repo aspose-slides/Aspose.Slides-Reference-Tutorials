@@ -1,6 +1,6 @@
 ---
-title: Forgatási szög beállítása Java Slides-ben
-linktitle: Forgatási szög beállítása Java Slides-ben
+title: Az elforgatási szög beállítása a Java Slides-ben
+linktitle: Az elforgatási szög beállítása a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizálja Java diákjait az Aspose.Slides for Java segítségével. Ismerje meg a szövegelemek elforgatási szögeinek beállítását. Lépésről lépésre útmutató forráskóddal.
 type: docs
@@ -18,7 +18,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java kö
 
 ## 1. lépés: Hozzon létre egy prezentációt
 
-Először is létre kell hoznia egy új bemutatót, vagy betöltenie kell egy meglévőt. Ebben a példában új prezentációt hozunk létre:
+Először is létre kell hoznia egy új prezentációt, vagy betöltenie kell egy meglévőt. Ebben a példában egy új prezentációt hozunk létre:
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -47,7 +47,7 @@ A tengely címének elforgatási szögének beállításához hozzá kell férni
 
 Ebben a kódrészletben az elforgatási szöget 90 fokra állítjuk, ami függőlegesen elforgatja a szöveget. A szöget a kívánt értékre állíthatja.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse a prezentációt egy PowerPoint fájlba:
 

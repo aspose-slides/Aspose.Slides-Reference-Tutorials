@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Προσαρμογή μορφοποίησης ετικετών (Γραμματοσειρά, Γέμισμα, κ.λπ.)
+        //Προσαρμογή μορφοποίησης ετικετών (Γραμματοσειρά, Γέμισμα, κ.λπ.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Πώς μπορώ να ενεργοποιήσω ή να απενεργοποιήσω τα μηνύματα προώθησης για ετικέτες δεδομένων;
 
- Για να ενεργοποιήσετε ή να απενεργοποιήσετε τα μηνύματα προώθησης για ετικέτες δεδομένων, χρησιμοποιήστε το`setShowLabelAsDataCallout` μέθοδος. Ρυθμίστε το σε`true` για ενεργοποίηση μηνυμάτων και`false` για να τα απενεργοποιήσετε.
+ Για να ενεργοποιήσετε ή να απενεργοποιήσετε τα μηνύματα προώθησης για ετικέτες δεδομένων, χρησιμοποιήστε το`setShowLabelAsDataCallout` μέθοδος. Ρυθμίστε το σε`true` για ενεργοποίηση μηνυμάτων και`false`για να τα απενεργοποιήσετε.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Ενεργοποίηση μηνυμάτων

@@ -49,7 +49,7 @@ Szerezze meg a prezentáció első diáját, amelyhez hozzá szeretné adni a k�
 ## 4. lépés: Kördiagram hozzáadása
 
 ```java
-// Kördiagram hozzáadása alapértelmezett adatokkal
+//Kördiagram hozzáadása alapértelmezett adatokkal
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // A diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
 
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Törölje az alapértelmezett generált sorozatokat és kategóriákat
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Hasonló módon testreszabhatja a többi szektort is
+// Hasonló módon testreszabhatja a többi szektort is
 ```
 
 Testreszabhatja az egyes szektorok megjelenését a kördiagramon. Módosíthatja a színeket, szegélystílusokat és egyéb vizuális tulajdonságokat.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Törölje az alapértelmezett generált sorozatokat és kategóriákat
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Új sorozat hozzáadása
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Most a sorozatadatok feltöltése
+//Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Az új verzióban nem működik
+// Az új verzióban nem működik
 // Új pontok hozzáadása és szektorszín beállítása
 // sorozat.IsColorVaried = igaz;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ Sikeresen létrehozott kördiagramot egy PowerPoint-prezentációban az Aspose.S
 
 ### Hogyan változtathatom meg az egyes szektorok színét a kördiagramon?
 
- A kördiagram egyes szektorai színének megváltoztatásához testreszabhatja az egyes adatpontok kitöltési színét. A megadott kódpéldában bemutattuk, hogyan állíthatjuk be az egyes szektorok kitöltési színét a`getSolidFillColor().setColor()`módszer. Módosíthatja a színértékeket a kívánt megjelenés elérése érdekében.
+ A kördiagram egyes szektorai színének megváltoztatásához testreszabhatja az egyes adatpontok kitöltési színét. A megadott kódpéldában bemutattuk, hogyan állíthatjuk be az egyes szektorok kitöltési színét a`getSolidFillColor().setColor()` módszer. Módosíthatja a színértékeket a kívánt megjelenés elérése érdekében.
 
 ### Hozzáadhatok további kategóriákat és adatsorokat a kördiagramhoz?
 
@@ -278,7 +278,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### Létrehozhatok más típusú diagramokat az Aspose.Slides for Java használatával?
 
- Igen, az Aspose.Slides for Java különféle diagramtípusokat támogat, beleértve az oszlopdiagramokat, vonaldiagramokat és egyebeket. Különféle típusú diagramokat hozhat létre a`ChartType` diagram hozzáadásakor. A különböző típusú diagramok létrehozásáról az Aspose.Slides dokumentációjában talál további részleteket.
+Igen, az Aspose.Slides for Java különféle diagramtípusokat támogat, beleértve az oszlopdiagramokat, vonaldiagramokat és egyebeket. Különféle típusú diagramokat hozhat létre a`ChartType` diagram hozzáadásakor. A különböző típusú diagramok létrehozásáról az Aspose.Slides dokumentációjában talál további részleteket.
 
 ### Hogyan találhatok további információkat és példákat az Aspose.Slides for Java programhoz?
 

@@ -68,7 +68,7 @@ if (license.IsLicensed())
 }
 ```
 
-Gefeliciteerd! U hebt met succes een licentie voor Aspose.Slides voor .NET aangeschaft en uw toepassing is klaar om de krachtige functies voor het werken met PowerPoint-presentaties te benutten.
+Gefeliciteerd! U hebt met succes een licentie voor Aspose.Slides voor .NET aangeschaft en uw toepassing is klaar om de krachtige functies te benutten voor het werken met PowerPoint-presentaties.
 
 ## Conclusie
 

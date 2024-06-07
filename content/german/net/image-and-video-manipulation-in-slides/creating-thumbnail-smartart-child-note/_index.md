@@ -2,27 +2,27 @@
 title: Erstellen einer Miniaturansicht für eine untergeordnete SmartArt-Notiz in Aspose.Slides
 linktitle: Erstellen einer Miniaturansicht für eine untergeordnete SmartArt-Notiz in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET faszinierende SmartArt-Miniaturansichten für Kindernotizen erstellen. Werten Sie Ihre Präsentationen mit dynamischen Bildern auf!
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET fesselnde SmartArt-Miniaturansichten für untergeordnete Notizen erstellen. Werten Sie Ihre Präsentationen mit dynamischen Visualisierungen auf!
 type: docs
 weight: 15
 url: /de/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
 ## Einführung
-Im Bereich dynamischer Präsentationen sticht Aspose.Slides für .NET als leistungsstarkes Tool hervor, das Entwicklern die Möglichkeit bietet, PowerPoint-Präsentationen programmgesteuert zu bearbeiten und zu verbessern. Eine interessante Funktion ist die Möglichkeit, Miniaturansichten für SmartArt Child Notes zu erstellen und so Ihren Präsentationen eine visuelle Attraktivität zu verleihen. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Erstellung von Miniaturansichten für SmartArt Child Notes mit Aspose.Slides für .NET.
+Im Bereich dynamischer Präsentationen ist Aspose.Slides für .NET ein leistungsstarkes Tool, das Entwicklern die Möglichkeit bietet, PowerPoint-Präsentationen programmgesteuert zu bearbeiten und zu verbessern. Eine interessante Funktion ist die Möglichkeit, Miniaturansichten für SmartArt-Unternotizen zu erstellen, wodurch Ihre Präsentationen optisch ansprechender werden. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Erstellung von Miniaturansichten für SmartArt-Unternotizen mit Aspose.Slides für .NET.
 ## Voraussetzungen
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-- Aspose.Slides für .NET: Stellen Sie sicher, dass die Aspose.Slides-Bibliothek in Ihr .NET-Projekt integriert ist. Wenn nicht, laden Sie es herunter[Veröffentlichungsseite](https://releases.aspose.com/slides/net/).
+Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+-  Aspose.Slides für .NET: Stellen Sie sicher, dass die Aspose.Slides-Bibliothek in Ihr .NET-Projekt integriert ist. Wenn nicht, laden Sie sie von der[Veröffentlichungsseite](https://releases.aspose.com/slides/net/).
 - Entwicklungsumgebung: Richten Sie eine funktionierende .NET-Entwicklungsumgebung ein und verfügen Sie über grundlegende Kenntnisse der C#-Programmierung.
-- Beispielpräsentation: Erstellen oder erhalten Sie eine PowerPoint-Präsentation mit SmartArt und untergeordneten Notizen zum Testen.
+- Beispielpräsentation: Erstellen oder besorgen Sie sich eine PowerPoint-Präsentation mit SmartArt und untergeordneten Notizen zum Testen.
 ## Namespaces importieren
-Beginnen Sie mit dem Importieren der erforderlichen Namespaces in Ihr C#-Projekt. Diese Namespaces bieten Zugriff auf die Klassen und Methoden, die für die Arbeit mit Aspose.Slides erforderlich sind.
+Importieren Sie zunächst die erforderlichen Namespaces in Ihr C#-Projekt. Diese Namespaces bieten Zugriff auf die Klassen und Methoden, die für die Arbeit mit Aspose.Slides erforderlich sind.
 ```csharp
 using System.Drawing;
 using System.Drawing.Imaging;
 using Aspose.Slides.SmartArt;
 using Aspose.Slides;
 ```
-## Schritt 1: Instanziieren Sie die Präsentationsklasse
+## Schritt 1: Präsentationsklasse instanziieren
  Beginnen Sie mit der Instanziierung des`Presentation` Klasse, die die PPTX-Datei darstellt, mit der Sie arbeiten werden.
 ```csharp
 string dataDir = "Your Documents Directory";
@@ -34,11 +34,11 @@ Presentation pres = new Presentation();
 ISmartArt smart = pres.Slides[0].Shapes.AddSmartArt(10, 10, 400, 300, SmartArtLayoutType.BasicCycle);
 ```
 ## Schritt 3: Knotenreferenz abrufen
-Um mit einem bestimmten Knoten im SmartArt zu arbeiten, rufen Sie dessen Referenz mithilfe seines Index ab.
+Um mit einem bestimmten Knoten im SmartArt zu arbeiten, ermitteln Sie dessen Referenz über seinen Index.
 ```csharp
 ISmartArtNode node = smart.Nodes[1];
 ```
-## Schritt 4: Miniaturansicht abrufen
+## Schritt 4: Miniaturansicht erhalten
 Rufen Sie das Miniaturbild der untergeordneten Notiz im SmartArt-Knoten ab.
 ```csharp
 Bitmap bmp = node.Shapes[0].GetThumbnail();
@@ -50,15 +50,15 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
 ```
 Wiederholen Sie diese Schritte für jeden SmartArt-Knoten in Ihrer Präsentation und passen Sie das Layout und die Stile nach Bedarf an.
 ## Abschluss
-Zusammenfassend lässt sich sagen, dass Aspose.Slides für .NET Entwicklern die einfache Erstellung ansprechender Präsentationen ermöglicht. Die Möglichkeit, Miniaturansichten für SmartArt Child Notes zu erstellen, steigert die visuelle Attraktivität Ihrer Präsentationen und sorgt für ein dynamisches und interaktives Benutzererlebnis.
+Zusammenfassend lässt sich sagen, dass Entwickler mit Aspose.Slides für .NET ganz einfach ansprechende Präsentationen erstellen können. Die Möglichkeit, Miniaturansichten für SmartArt-Unternotizen zu generieren, verbessert die visuelle Attraktivität Ihrer Präsentationen und sorgt für ein dynamisches und interaktives Benutzererlebnis.
 ## Häufig gestellte Fragen
 ### F: Kann ich die Größe und das Format der generierten Miniaturansicht anpassen?
 A: Ja, Sie können die Abmessungen und das Format der Miniaturansicht anpassen, indem Sie die entsprechenden Parameter im Code ändern.
 ### F: Unterstützt Aspose.Slides andere SmartArt-Layouts?
-A: Auf jeden Fall! Aspose.Slides bietet eine Vielzahl von SmartArt-Layouts, sodass Sie das auswählen können, das Ihren Präsentationsanforderungen am besten entspricht.
-### F: Ist zu Testzwecken eine temporäre Lizenz verfügbar?
-A: Ja, Sie können eine temporäre Lizenz erhalten von[Hier](https://purchase.aspose.com/temporary-license/) zum Testen und Bewerten.
+A: Auf jeden Fall! Aspose.Slides bietet eine Vielzahl von SmartArt-Layouts, sodass Sie dasjenige auswählen können, das Ihren Präsentationsanforderungen am besten entspricht.
+### F: Ist eine temporäre Lizenz zu Testzwecken verfügbar?
+ A: Ja, Sie können eine temporäre Lizenz erhalten von[Hier](https://purchase.aspose.com/temporary-license/) zum Testen und Auswerten.
 ### F: Wo kann ich Hilfe suchen oder mich mit der Aspose.Slides-Community verbinden?
- A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community in Kontakt zu treten, Fragen zu stellen und Lösungen zu finden.
+A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community zu interagieren, Fragen zu stellen und Lösungen zu finden.
 ### F: Kann ich Aspose.Slides für .NET kaufen?
- A: Auf jeden Fall! Entdecken Sie die Kaufoptionen[Hier](https://purchase.aspose.com/buy) um das volle Potenzial von Aspose.Slides in Ihren Projekten auszuschöpfen.
+ A: Natürlich! Entdecken Sie die Kaufoptionen[Hier](https://purchase.aspose.com/buy) um das volle Potenzial von Aspose.Slides in Ihren Projekten auszuschöpfen.

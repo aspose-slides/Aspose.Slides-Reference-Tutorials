@@ -10,14 +10,14 @@ url: /pt/java/licensing-and-initialization/metered-licensing-java-slides/
 
 ## Introdução ao licenciamento medido em Aspose.Slides para Java
 
-O licenciamento medido permite monitorar e controlar o uso da API Aspose.Slides for Java. Este guia orientará você no processo de implementação de licenciamento medido em seu projeto Java usando Aspose.Slides. 
+licenciamento medido permite monitorar e controlar o uso da API Aspose.Slides for Java. Este guia orientará você no processo de implementação de licenciamento medido em seu projeto Java usando Aspose.Slides. 
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte:
 
 - Aspose.Slides para arquivos Java JAR integrados ao seu projeto.
-- Chaves públicas e privadas para licenciamento medido, que você pode obter no Aspose.
+- Chaves públicas e privadas para licenciamento medido, que você pode obter na Aspose.
 
 ## Implementando licenciamento medido
 
@@ -71,7 +71,7 @@ try
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Exibir informações
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// Obtenha a quantidade de dados medida após chamar a API
+	//Obtenha a quantidade de dados medida após chamar a API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Exibir informações
 	System.out.println("Amount Consumed After: " + amountafter);
@@ -94,7 +94,7 @@ Você pode obter chaves de licenciamento medidas no Aspose. Entre em contato com
 
 ### O licenciamento medido é necessário para usar o Aspose.Slides for Java?
 
-licenciamento medido é opcional, mas pode ajudá-lo a acompanhar o uso da API e gerenciar os custos de maneira eficaz.
+O licenciamento medido é opcional, mas pode ajudá-lo a acompanhar o uso da API e gerenciar os custos de maneira eficaz.
 
 ### Posso usar o licenciamento medido com outros produtos Aspose?
 

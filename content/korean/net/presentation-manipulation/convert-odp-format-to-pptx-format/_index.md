@@ -64,7 +64,7 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 
 ## 자주 묻는 질문
 
-### 1. Aspose.Slides for .NET은 무료 도구인가요?
+### 1. Aspose.Slides for .NET은 무료 도구입니까?
 
  아니요, Aspose.Slides for .NET은 무료 평가판을 제공하지만 전체 사용을 위해서는 라이선스가 필요한 상용 API입니다. 라이선스 옵션을 탐색할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 

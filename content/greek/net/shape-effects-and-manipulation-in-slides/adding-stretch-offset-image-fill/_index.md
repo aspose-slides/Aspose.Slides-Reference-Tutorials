@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## Βήμα 4: Δημιουργήστε Instant ImageEx Class
- Δημιουργήστε ένα παράδειγμα του`ImageEx` class για να χειριστείτε την εικόνα που θέλετε να προσθέσετε στη διαφάνεια.
+ Δημιουργήστε ένα παράδειγμα του`ImageEx`class για να χειριστείτε την εικόνα που θέλετε να προσθέσετε στη διαφάνεια.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);
@@ -52,7 +52,7 @@ IPPImage imgx = pres.Images.AddImage(img);
 ```csharp
 sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);
 ```
-## Βήμα 6: Αποθηκεύστε την Παρουσίαση
+## Βήμα 6: Αποθηκεύστε την παρουσίαση
 Αποθηκεύστε την τροποποιημένη παρουσίαση στο δίσκο.
 ```csharp
 pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);

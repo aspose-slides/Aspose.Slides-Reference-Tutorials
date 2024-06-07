@@ -22,7 +22,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 ## 1. Adım: Sunuyu Yükleyin
 
-Öncelikle canlandırmak istediğiniz grafiği içeren PowerPoint sunumunu yüklemeniz gerekir. Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
+ Öncelikle canlandırmak istediğiniz grafiği içeren PowerPoint sunumunu yüklemeniz gerekir. Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -113,7 +113,7 @@ Koddaki animasyon türünü ve tetikleyiciyi değiştirerek animasyonu ayrı ayr
 
 ### PowerPoint slaytındaki diğer nesnelere animasyon uygulayabilir miyim?
 
-Evet, animasyonları yalnızca grafiklere değil, PowerPoint slaydındaki çeşitli nesnelere de uygulayabilirsiniz. Kullan`addEffect` Canlandırmak istediğiniz nesneyi ve istenen animasyon özelliklerini belirtme yöntemini kullanın.
+ Evet, animasyonları yalnızca grafiklere değil, PowerPoint slaydındaki çeşitli nesnelere de uygulayabilirsiniz. Kullan`addEffect` Canlandırmak istediğiniz nesneyi ve istenen animasyon özelliklerini belirtme yöntemini kullanın.
 
 ### Aspose.Slides for Java'yı projeme nasıl entegre edebilirim?
 

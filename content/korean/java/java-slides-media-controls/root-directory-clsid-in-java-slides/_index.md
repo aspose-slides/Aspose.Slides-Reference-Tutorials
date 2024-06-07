@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // "your_output_path"를 원하
 Presentation pres = new Presentation();
 ```
 
- 위 코드에서는 출력 프리젠테이션 파일의 경로를 정의하고 새 파일을 생성합니다.`Presentation` 물체.
+위 코드에서는 출력 프리젠테이션 파일의 경로를 정의하고 새 파일을 생성합니다.`Presentation` 물체.
 
 ## 2단계: 루트 디렉터리 ClsId 설정
 
- 루트 디렉터리 ClsId를 설정하려면 다음 인스턴스를 만들어야 합니다.`PptOptions`원하는 CLSID를 설정하세요. CLSID는 하이퍼링크가 활성화될 때 루트 디렉터리로 사용되는 응용 프로그램을 나타냅니다.
+ 루트 디렉터리 ClsId를 설정하려면 다음 인스턴스를 만들어야 합니다.`PptOptions` 원하는 CLSID를 설정하세요. CLSID는 하이퍼링크가 활성화될 때 루트 디렉터리로 사용되는 응용 프로그램을 나타냅니다.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// CLSID를 'Microsoft Powerpoint.Show.8'로 설정합니다.
+	//CLSID를 'Microsoft Powerpoint.Show.8'로 설정합니다.
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// 프레젠테이션 저장
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

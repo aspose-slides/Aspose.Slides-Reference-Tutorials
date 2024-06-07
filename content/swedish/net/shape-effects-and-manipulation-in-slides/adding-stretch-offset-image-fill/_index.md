@@ -42,7 +42,7 @@ Hämta den första bilden från presentationen att arbeta med.
 ISlide sld = pres.Slides[0];
 ```
 ## Steg 4: Instantiera ImageEx Class
- Skapa en instans av`ImageEx` klass för att hantera bilden du vill lägga till på bilden.
+ Skapa en instans av`ImageEx`klass för att hantera bilden du vill lägga till på bilden.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

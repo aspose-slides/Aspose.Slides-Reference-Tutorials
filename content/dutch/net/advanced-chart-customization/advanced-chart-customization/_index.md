@@ -244,7 +244,7 @@ In deze stap kunt u een titel voor de categorie-as instellen.
 
 ## Stap 15: Aanvullende aanpassingen
 
-U kunt verdere aanpassingen onderzoeken, zoals legenda's, de achterwand van de kaart, de vloer en de kleuren van het plotgebied. Met deze aanpassingen kunt u de visuele aantrekkingskracht van uw diagram vergroten.
+U kunt verdere aanpassingen onderzoeken, zoals legenda's, de achterwand van de kaart, de vloer en de kleuren van het plotgebied. Met deze aanpassingen kunt u de visuele aantrekkingskracht van uw diagram verbeteren.
 
 ```csharp
 // Aanvullende aanpassingen (optioneel)

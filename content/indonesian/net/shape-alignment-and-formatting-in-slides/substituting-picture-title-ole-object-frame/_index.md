@@ -8,7 +8,7 @@ weight: 15
 url: /id/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
 ## Perkenalan
-Membuat slide presentasi yang dinamis dan menarik sering kali melibatkan penggabungan berbagai elemen multimedia. Dalam tutorial ini, kita akan mengeksplorasi cara mengganti judul gambar Bingkai Objek OLE (Penautan dan Penyematan Objek) dalam slide presentasi menggunakan pustaka Aspose.Slides untuk .NET yang canggih. Aspose.Slides menyederhanakan proses penanganan objek OLE, menyediakan alat bagi pengembang untuk menyempurnakan presentasi mereka dengan mudah.
+Membuat slide presentasi yang dinamis dan menarik sering kali melibatkan penggabungan berbagai elemen multimedia. Dalam tutorial ini, kita akan menjelajahi cara mengganti judul gambar Bingkai Objek OLE (Penautan dan Penyematan Objek) dalam slide presentasi menggunakan pustaka Aspose.Slides untuk .NET yang canggih. Aspose.Slides menyederhanakan proses penanganan objek OLE, menyediakan alat bagi pengembang untuk menyempurnakan presentasi mereka dengan mudah.
 ## Prasyarat
 Sebelum kita mendalami panduan langkah demi langkah, pastikan Anda memiliki prasyarat berikut:
 -  Aspose.Slides for .NET Library: Pastikan Anda telah menginstal perpustakaan Aspose.Slides for .NET. Anda dapat mengunduhnya dari[Dokumentasi Aspose.Slides .NET](https://reference.aspose.com/slides/net/).

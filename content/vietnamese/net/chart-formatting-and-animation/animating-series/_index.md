@@ -44,7 +44,7 @@ Trong bước này, hãy tải bản trình bày PowerPoint (PPTX) hiện có ch
 // Đường dẫn đến thư mục tài liệu
 string dataDir = "Your Document Directory";
 
-//Khởi tạo lớp Trình bày đại diện cho một tệp trình bày
+// Khởi tạo lớp Trình bày đại diện cho một tệp trình bày
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Mã của bạn ở đây

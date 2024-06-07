@@ -57,7 +57,7 @@ shp.LineFormat.FillFormat.FillType = FillType.Solid;
 shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
 shp.LineFormat.Width = 5;
 ```
-## Βήμα 6: Αποθηκεύστε την Παρουσίαση
+## Βήμα 6: Αποθηκεύστε την παρουσίαση
  Γράψτε την τροποποιημένη παρουσίαση στο δίσκο χρησιμοποιώντας το`Save` μέθοδο, καθορίζοντας τη μορφή αρχείου ως PPTX.
 ```csharp
 pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);

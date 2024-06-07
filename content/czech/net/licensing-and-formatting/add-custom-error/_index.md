@@ -65,7 +65,7 @@ using (Presentation presentation = new Presentation())
 
 ## Krok 3: Přidejte bublinový graf
 
-tomto kroku vytvoříte bublinový graf v rámci prezentace. Umístění a velikost grafu můžete upravit podle svých požadavků.
+V tomto kroku vytvoříte bublinový graf v rámci prezentace. Umístění a velikost grafu můžete upravit podle svých požadavků.
 
 ```csharp
 // Vytvoření bublinového grafu
@@ -77,7 +77,7 @@ IChart chart = presentation.Slides[0].Shapes.AddChart(ChartType.Bubble, 50, 50, 
 Nyní do grafu přidáme chybové úsečky a nakonfigurujeme jejich formát.
 
 ```csharp
-// Přidání chybových pruhů a nastavení jejich formátu
+// Přidání chybových pruhů a nastavení jeho formátu
 IErrorBarsFormat errBarX = chart.ChartData.Series[0].ErrorBarsXFormat;
 IErrorBarsFormat errBarY = chart.ChartData.Series[0].ErrorBarsYFormat;
 errBarX.IsVisible = true;

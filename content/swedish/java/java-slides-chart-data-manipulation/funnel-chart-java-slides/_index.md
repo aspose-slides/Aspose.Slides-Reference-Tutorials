@@ -132,7 +132,7 @@ Ja, du kan lägga till ytterligare datapunkter och kategorier till trattdiagramm
 
 ### Hur kan jag ändra positionen och storleken på trattdiagrammet på bilden?
 
-Du kan justera positionen och storleken på trattdiagrammet genom att ändra koordinaterna och dimensionerna när du lägger till diagrammet i bilden i steg 2. Uppdatera värdena (50, 50, 500, 400) i enlighet med detta.
+Du kan justera positionen och storleken på trattdiagrammet genom att ändra koordinaterna och dimensionerna när du lägger till diagrammet på bilden i steg 2. Uppdatera värdena (50, 50, 500, 400) i enlighet med detta.
 
 ### Kan jag exportera diagrammet till olika format, som PDF eller bild?
 

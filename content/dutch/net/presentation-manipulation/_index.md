@@ -17,7 +17,7 @@ Ontdek onze tutorials over presentatiemanipulatie en ontdek de mogelijkheden van
 Leer hoe u programmatisch presentaties kunt maken met Aspose.Slides voor .NET. Stap-voor-stap handleiding met broncode voor efficiënte automatisering.
 ### [Aangepaste PDF-conversieopties voor presentaties](./custom-pdf-conversion-options-for-presentations/)
 Verbeter uw PDF-conversieopties voor presentaties met Aspose.Slides voor .NET. In deze stapsgewijze handleiding wordt beschreven hoe u aangepaste PDF-conversie-instellingen kunt instellen, zodat u nauwkeurige controle over uw uitvoer krijgt. Optimaliseer vandaag nog uw presentatieconversies.
-### [Wiskundige alinea's exporteren naar MathML in Presentaties](./export-math-paragraphs-to-mathml-in-presentations/)
+### [Wiskundige alinea's exporteren naar MathML in presentaties](./export-math-paragraphs-to-mathml-in-presentations/)
 Verbeter uw presentaties door wiskundige paragrafen naar MathML te exporteren met behulp van Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding voor nauwkeurige wiskundige weergave. Download Aspose.Slides en begin vandaag nog met het maken van boeiende presentaties.
 ### [Mediabestanden vanuit presentatie naar HTML exporteren](./export-media-files-to-html-from-presentation/)
 Optimaliseer het delen van uw presentaties met Aspose.Slides voor .NET! Leer in deze stapsgewijze handleiding hoe u mediabestanden vanuit uw presentatie naar HTML kunt exporteren. 

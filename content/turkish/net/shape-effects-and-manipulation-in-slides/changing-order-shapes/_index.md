@@ -67,6 +67,6 @@ C: Evet, Aspose.Slides for .NET hem Windows hem de Linux ortamlarıyla uyumludur
 ### S: Aspose.Slides for .NET'in ücretsiz deneme sürümü mevcut mu?
  C: Evet, özellikleri keşfedebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/) Aspose.Slides web sitesinde mevcuttur.
 ### S: Aspose.Slides for .NET ile ilgili desteği nerede bulabilirim veya soru sorabilirim?
- C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) destek almak ve toplulukla etkileşime geçmek için.
+C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) destek almak ve toplulukla etkileşime geçmek için.
 ### S: Aspose.Slides for .NET için nasıl geçici lisans alabilirim?
  C: Bir[geçici lisans](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.

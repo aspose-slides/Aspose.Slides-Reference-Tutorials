@@ -10,7 +10,7 @@ url: /pl/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 
 ## Wprowadzenie do konwertowania slajdów do formatu PDF za pomocą notatek w Javie
 
-W świecie prezentacji cyfrowych możliwość konwersji slajdów do formatu PDF wraz z towarzyszącymi im notatkami jest cenną funkcją. Programiści Java mogą to osiągnąć, korzystając z biblioteki Aspose.Slides for Java, która zapewnia solidny zestaw narzędzi do programowej pracy z prezentacjami programu PowerPoint. W tym przewodniku krok po kroku omówimy, jak konwertować slajdy do formatu PDF z notatkami przy użyciu języka Java i Aspose.Slides for Java.
+świecie prezentacji cyfrowych możliwość konwersji slajdów do formatu PDF wraz z towarzyszącymi im notatkami jest cenną funkcją. Programiści Java mogą to osiągnąć, korzystając z biblioteki Aspose.Slides for Java, która zapewnia solidny zestaw narzędzi do programowej pracy z prezentacjami programu PowerPoint. W tym przewodniku krok po kroku omówimy, jak konwertować slajdy do formatu PDF z notatkami przy użyciu języka Java i Aspose.Slides for Java.
 
 ## Warunki wstępne
 
@@ -119,7 +119,7 @@ Tak, Aspose.Slides for Java jest biblioteką komercyjną i może być konieczne 
 
 ### Czy mogę konwertować wiele slajdów jednocześnie?
 
-Z pewnością! Możesz przeglądać slajdy w prezentacji i klonować je do nowej prezentacji, co pozwala na konwersję wielu slajdów do formatu PDF z notatkami za jednym razem.
+pewnością! Możesz przeglądać slajdy w prezentacji i klonować je do nowej prezentacji, co pozwala na konwersję wielu slajdów do formatu PDF z notatkami za jednym razem.
 
 ### Gdzie mogę znaleźć więcej dokumentacji dla Aspose.Slides dla Java?
 

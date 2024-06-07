@@ -16,7 +16,7 @@ No mundo do desenvolvimento Java, trabalhar com slides de apresentação é uma 
 
 Antes de mergulharmos no código, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-1.  Biblioteca Aspose.Slides para Java: Você precisará ter a biblioteca Aspose.Slides para Java instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
+1. Biblioteca Aspose.Slides para Java: Você precisará ter a biblioteca Aspose.Slides para Java instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
 
 2. Ambiente de desenvolvimento Java: certifique-se de ter um ambiente de desenvolvimento Java configurado em seu sistema.
 
@@ -48,7 +48,7 @@ finally
 
 Neste código:
 
-- Especificamos o caminho para o diretório que contém o arquivo de apresentação (`SelectedSlides.pptx`que você deseja converter para PDF.
+- Especificamos o caminho para o diretório que contém o arquivo de apresentação (`SelectedSlides.pptx`) que você deseja converter para PDF.
 
 -  Nós criamos um`Presentation` objeto que representa o arquivo de apresentação.
 

@@ -22,7 +22,7 @@ url: /ko/java/chart-data-manipulation/organization-chart-java-slides/
 ## 1단계: Java 프로젝트 설정
 
 1. 원하는 IDE에서 새 Java 프로젝트를 만듭니다.
-2.  프로젝트에 Aspose.Slides for Java 라이브러리를 추가하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://products.aspose.com/slides/java) 그리고 이를 종속성으로 포함시킵니다.
+2.  프로젝트에 Aspose.Slides for Java 라이브러리를 추가하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://products.aspose.com/slides/java)그리고 이를 종속성으로 포함시킵니다.
 
 ## 2단계: 필수 라이브러리 가져오기
 Java 클래스에서 Aspose.Slides 작업에 필요한 라이브러리를 가져옵니다.
@@ -59,7 +59,7 @@ try {
 }
 ```
 
- 바꾸다`"Your Document Directory"`문서 디렉토리의 실제 경로와`"test.pptx"` 입력한 PowerPoint 프레젠테이션의 이름을 사용하세요.
+ 바꾸다`"Your Document Directory"` 문서 디렉토리의 실제 경로와`"test.pptx"` 입력한 PowerPoint 프레젠테이션의 이름을 사용하세요.
 
 ## 4단계: 코드 실행
 
@@ -102,4 +102,4 @@ finally
 
 ### 여러 수준으로 구성된 복잡한 조직 구조를 만드는 것이 가능합니까?
 
-예, Aspose.Slides를 사용하면 조직도 내에 도형을 추가하고 배열하여 여러 수준으로 복잡한 조직 구조를 만들 수 있습니다. 원하는 구조를 나타내기 위해 셰이프 간의 계층적 관계를 정의할 수 있습니다.
+네, Aspose.Slides를 사용하면 조직도 내에 도형을 추가하고 배열하여 여러 수준으로 복잡한 조직 구조를 만들 수 있습니다. 원하는 구조를 나타내기 위해 셰이프 간의 계층적 관계를 정의할 수 있습니다.

@@ -41,7 +41,7 @@ Maintenant, écrivons du code Java pour vérifier le format de présentation san
 // Le chemin d'accès au répertoire des documents.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Il renverra "LoadFormat.Unknown" si le fichier est autre que les formats de présentation
+//Il renverra "LoadFormat.Unknown" si le fichier est autre que les formats de présentation
 ```
 
  Dans ce code, nous utilisons`PresentationFactory` pour obtenir des informations sur le fichier de présentation, y compris son format. Si le fichier n'est pas un format de présentation valide, il renverra « LoadFormat.Unknown ».
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Le chemin d'accès au répertoire des documents.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Il renverra "LoadFormat.Unknown" si le fichier est autre que les formats de présentation
+        //Il renverra "LoadFormat.Unknown" si le fichier est autre que les formats de présentation
 ```
 
 ## Conclusion

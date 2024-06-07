@@ -72,7 +72,7 @@ Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah mengonversi presen
 
 ### Bagaimana cara menyesuaikan tampilan keluaran HTML5?
 
-Anda dapat menyesuaikan tampilan keluaran HTML5 dengan mengatur berbagai pilihan di`Html5Options` kelas. Mengacu kepada[dokumentasi](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) untuk opsi penyesuaian yang tersedia.
+ Anda dapat menyesuaikan tampilan keluaran HTML5 dengan mengatur berbagai pilihan di`Html5Options`kelas. Mengacu kepada[dokumentasi](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) untuk opsi penyesuaian yang tersedia.
 
 ### Bisakah saya mengonversi presentasi dengan animasi dan transisi?
 

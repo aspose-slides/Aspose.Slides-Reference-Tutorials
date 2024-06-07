@@ -11,7 +11,7 @@ url: /es/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides para .NET es una poderosa biblioteca que permite a los desarrolladores manipular presentaciones de PowerPoint con facilidad. En este tutorial, exploraremos el proceso de agregar un desplazamiento de estiramiento a la izquierda para un marco de imagen usando Aspose.Slides para .NET. Siga esta guía paso a paso para mejorar sus habilidades para trabajar con imágenes y formas en presentaciones de PowerPoint.
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-- Aspose.Slides para .NET: asegúrese de tener la biblioteca instalada. Si no, descárgalo del[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides para .NET: asegúrese de tener la biblioteca instalada. Si no, descárgalo del[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
 - Entorno de desarrollo: disponer de un entorno de desarrollo funcional con capacidades .NET.
 ## Importar espacios de nombres
 Comience importando los espacios de nombres necesarios en su proyecto .NET:

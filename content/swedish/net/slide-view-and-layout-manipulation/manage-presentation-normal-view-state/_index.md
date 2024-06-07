@@ -13,7 +13,7 @@ Oavsett om du skapar en dynamisk säljpresentation, en pedagogisk föreläsning 
    
 ## Ställa in utvecklingsmiljön
 
-Innan du dyker in i krångligheterna med att hantera presentationer med Aspose.Slides för .NET, måste du konfigurera din utvecklingsmiljö. Här är vad du behöver göra:
+Innan du dyker in i krångligheterna med att hantera presentationer med Aspose.Slides för .NET, måste du ställa in din utvecklingsmiljö. Här är vad du behöver göra:
 
 1.  Ladda ner Aspose.Slides för .NET: Besök[nedladdningssida](https://releases.aspose.com/slides/net/)för att få den senaste versionen av Aspose.Slides för .NET.
 

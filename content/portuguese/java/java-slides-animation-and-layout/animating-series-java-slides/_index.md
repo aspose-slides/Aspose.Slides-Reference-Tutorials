@@ -26,7 +26,7 @@ Antes de começarmos, certifique-se de ter os seguintes pré-requisitos em vigor
 ```java
 // O caminho para o diretório de documentos.
 String dataDir = "Your Document Directory";
-//Instanciar a classe Presentation que representa um arquivo de apresentação
+// Instanciar a classe Presentation que representa um arquivo de apresentação
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // O caminho para o diretório de documentos.
 String dataDir = "Your Document Directory";
-//Instanciar a classe Presentation que representa um arquivo de apresentação
+// Instanciar a classe Presentation que representa um arquivo de apresentação
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Você animou séries com sucesso em um gráfico do PowerPoint usando Aspose.Slid
 
 ### Como posso controlar a ordem das animações da série?
 
- Para controlar a ordem das animações em série, use o`EffectTriggerType.AfterPrevious` parâmetro ao adicionar os efeitos. Isso fará com que cada animação da série comece após o término da anterior.
+ Para controlar a ordem das animações em série, use o`EffectTriggerType.AfterPrevious`parâmetro ao adicionar os efeitos. Isso fará com que cada animação da série comece após o término da anterior.
 
 ### Posso aplicar animações diferentes a cada série?
 

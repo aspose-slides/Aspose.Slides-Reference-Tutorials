@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Krok 4: Dostosuj opcje konwersji
 
- Aby dostosować proces konwersji, możesz utworzyć instancję pliku`XpsOptions` klasa. W przykładzie ustawiliśmy opcję zapisywania metaplików jako obrazów PNG.
+Aby dostosować proces konwersji, możesz utworzyć instancję pliku`XpsOptions` klasa. W przykładzie ustawiliśmy opcję zapisywania metaplików jako obrazów PNG.
 
 ```java
 XpsOptions opts = new XpsOptions();

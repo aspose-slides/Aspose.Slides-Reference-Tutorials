@@ -108,7 +108,7 @@ Bu eğitimde, Aspose.Slides for .NET kullanarak gömülü görseller içeren bir
 Evet, Aspose.Slides for .NET tarafından sağlanan seçenekleri ayarlayarak HTML dönüşümünü özelleştirebilirsiniz.
 
 ### Bu kütüphaneyi kullanmak için programlama deneyimine ihtiyacım var mı?
-Programlama bilgisi faydalı olsa da Aspose.Slides for .NET, programlama konusunda kapsamlı dokümantasyon ve destek sunuyor.[forum](https://forum.aspose.com/) her seviyedeki kullanıcılara yardımcı olmak.
+Programlama bilgisi faydalı olsa da Aspose.Slides for .NET, programlama konusunda kapsamlı dokümantasyon ve destek sunar.[forum](https://forum.aspose.com/) her seviyedeki kullanıcılara yardımcı olmak.
 
 ### Karmaşık animasyonlar içeren sunumları HTML'ye dönüştürebilir miyim?
 Aspose.Slides for .NET, sunumların animasyonlar dahil çeşitli öğelerle dönüştürülmesini destekler. Ancak animasyonların karmaşıklığına bağlı olarak destek düzeyi değişiklik gösterebilir.

@@ -58,7 +58,7 @@ Itt megkapjuk az alapértelmezett diagram adatlap indexét.
 ## 3. lépés: A diagram adatlap beszerzése
 
 ```csharp
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Az adatpontokhoz képjelzőket állítunk be, amelyek lehetővé teszik az egyes
 ## 6. lépés: A diagramsorozat-jelölő méretének módosítása
 
 ```csharp
-// diagramsorozat-jelölő méretének módosítása
+// A diagramsorozat-jelölő méretének módosítása
 series.Marker.Size = 15;
 ```
 

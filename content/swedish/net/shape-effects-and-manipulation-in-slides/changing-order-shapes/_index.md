@@ -27,7 +27,7 @@ Skapa ett nytt projekt i Visual Studio eller din föredragna .NET-utvecklingsmil
 string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
 ```
-## Steg 3: Få åtkomst till bilden och formerna
+## Steg 3: Få tillgång till bilden och formerna
 ```csharp
 ISlide slide = presentation.Slides[0];
 ```
@@ -67,6 +67,6 @@ S: Ja, Aspose.Slides för .NET är kompatibel med både Windows- och Linux-milj�
 ### F: Finns det en gratis testversion tillgänglig för Aspose.Slides för .NET?
  S: Ja, du kan utforska funktionerna med[gratis provperiod](https://releases.aspose.com/) tillgänglig på Aspose.Slides webbplats.
 ### F: Var kan jag hitta support eller ställa frågor relaterade till Aspose.Slides för .NET?
- A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att få stöd och engagera sig i samhället.
+A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att få stöd och engagera sig i samhället.
 ### F: Hur kan jag få en tillfällig licens för Aspose.Slides för .NET?
  A: Du kan förvärva en[tillfällig licens](https://purchase.aspose.com/temporary-license/) i utvärderingssyfte.

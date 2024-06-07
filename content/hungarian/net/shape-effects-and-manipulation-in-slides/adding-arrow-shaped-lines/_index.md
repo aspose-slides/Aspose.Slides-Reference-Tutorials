@@ -61,7 +61,7 @@ shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Maroon;
 Alkalmazza a vonal formázását, megadva a stílust, a szélességet, a kötőjelstílust, a nyílhegystílusokat és a kitöltési színt.
 ## 5. lépés: Mentse a bemutatót lemezre
 ```csharp
-// Írd a PPTX-et a lemezre
+// Írja a PPTX-et a lemezre
 pres.Save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -74,7 +74,7 @@ Igen, az Aspose.Slides támogatja a .NET Core-t, lehetővé téve annak funkció
 ### Testreszabhatom a nyílhegy-stílusokat tovább?
 Teljesen! Az Aspose.Slides átfogó lehetőségeket kínál a nyílhegyek hosszának, stílusának és egyebeknek a testreszabásához.
 ### Hol találok további Aspose.Slides dokumentációt?
- Fedezze fel a dokumentációt[itt](https://reference.aspose.com/slides/net/) részletes információkért és példákért.
+ Fedezze fel a dokumentációt[itt](https://reference.aspose.com/slides/net/)részletes információkért és példákért.
 ### Van ingyenes próbaverzió?
  Igen, kipróbálhatja az Aspose.Slides-t egy ingyenes próbaverzióval. Töltsd le[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.Slides-hez?

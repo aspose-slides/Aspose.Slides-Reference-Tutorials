@@ -70,7 +70,7 @@ pres.Slides.Remove(slide);
 
 Ez a lépés magában foglalja a kiválasztott dia eltávolítását a prezentációból.
 
-### 4. lépés: Mentse el a prezentációt
+### 4. lépés: Mentse el a bemutatót
 
 ```csharp
 // Prezentációs fájl írása

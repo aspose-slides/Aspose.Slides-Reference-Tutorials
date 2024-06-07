@@ -115,9 +115,9 @@ foreach (ISlide slide in pres.Slides)
 
 Az Aspose.Slides for .NET leegyszerűsíti a hang- és képanyag-kivonási folyamatot a PowerPoint-prezentációkból. Akár archivál, akár multimédiás tartalmat elemez, ez a könyvtár leegyszerűsíti a feladatot.
 
-Az ebben az útmutatóban ismertetett lépések követésével könnyedén kinyerhet hangot és videót PowerPoint-prezentációiból, és ezeket az elemeket különféle módokon hasznosíthatja.
+Az ebben az útmutatóban ismertetett lépések követésével könnyedén kivonhatja a hangot és a videót a PowerPoint-prezentációkból, és különféle módokon hasznosíthatja ezeket az elemeket.
 
-Ne feledje, hogy az Aspose.Slides for .NET segítségével hatékony multimédiás kivonás a megfelelő eszközökön, magán a könyvtáron és a multimédiás elemeket tartalmazó PowerPoint-prezentáción múlik.
+Ne feledje, hogy az Aspose.Slides for .NET segítségével hatékony multimédiás kivonás a megfelelő eszközökön, magán a könyvtáron és a multimédiás elemeket tartalmazó PowerPoint-bemutatón múlik.
 
 ## GYIK
 

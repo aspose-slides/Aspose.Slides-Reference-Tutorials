@@ -32,11 +32,11 @@ Miután elsajátította az alapokat, ideje felfedezni az Aspose.Slides for Java 
 
 Ahogy egyre mélyebbre merül az Aspose.Slides for Java világában, kérdésekbe ütközhet, vagy kihívásokba ütközhet. Ne aggódj; nem vagy egyedül. A[Aspose közösségi fórum](https://forum.aspose.com/) az Önhöz hasonló fejlesztők központja, ahol segítséget kérhetnek, megoszthatják tapasztalataikat és együttműködhetnek a projektekben.
 
-Összefoglalva, az Aspose.Slides for Java egy játékot megváltoztató fejlesztők számára, akik dinamikus és vonzó prezentációkat szeretnének létrehozni Java alkalmazásokban. Oktatóanyagaink megbízható társak lesznek ezen az izgalmas utazáson, és segítenek kibontakozni ebben a figyelemre méltó API-ban rejlő lehetőségeket. Mire vársz még? Merüljön el az oktatóanyagokban, és hagyja, hogy kreativitása ragyogjon az Aspose.Slides for Java segítségével!
+Összefoglalva, az Aspose.Slides for Java játékmódot jelent a fejlesztők számára, akik dinamikus és vonzó prezentációkat szeretnének létrehozni Java alkalmazásokban. Oktatóanyagaink megbízható társak lesznek ezen az izgalmas utazáson, és segítenek kibontakozni ebben a figyelemre méltó API-ban rejlő lehetőségeket. Mire vársz még? Merüljön el az oktatóanyagokban, és hagyja, hogy kreativitása ragyogjon az Aspose.Slides for Java segítségével!
 
 ## Aspose.Slides for Java oktatóanyagok
 ### [Java Slides licencelés és inicializálás](./licensing-and-initialization/)
-Fedezze fel, hogyan licencelheti és inicializálhatja hatékonyan az Aspose.Slides for Java programot átfogó oktatóanyagainkból. Kezdje el a Java Slides használatát most!
+Fedezze fel, hogyan licencelheti és inicializálhatja hatékonyan az Aspose.Slides for Java programot átfogó oktatóanyagainkban. Kezdje el a Java Slides használatát most!
 ### [Java diadiagram adatkezelés](./chart-data-manipulation/)
 Fedezze fel a Java Slides Chart Data Manipulation erejét az Aspose.Slides for Java segítségével. Lenyűgöző látványelemek és betekintést nyújtanak könnyedén.
 ### [Java diák testreszabása és formázása](./customization-and-formatting/)
@@ -56,10 +56,27 @@ Fedezze fel a Java Slides további segédprogramjait az Aspose.Slides for Java o
 ### [Java Slides-bemutató tulajdonságai](./presentation-properties/)
 Ismerje meg, hogyan javíthatja a Java dia-bemutató tulajdonságait az Aspose.Slides for Java oktatóanyagaival. Fedezz fel tippeket és trükköket a dinamikus prezentációkhoz.
 ### [Java Slides Media Controls](./media-controls/)
-Az Aspose.Slides for Java oktatóanyag segítségével megtudhatja, hogyan implementálhat médiavezérlőket Java diákon. Növelje prezentációit hanggal és videóval zökkenőmentesen.
+Az Aspose.Slides for Java oktatóanyagai segítségével megtudhatja, hogyan implementálhat médiavezérlőket Java diákon. Növelje prezentációit hanggal és videóval zökkenőmentesen.
 ### [Java Slides képkezelés](./image-handling/)
-Az Aspose.Slides for Java oktatóanyag segítségével megtudhatja, hogyan kezelheti a képeket Java diákon. Fedezze fel a lépésről lépésre szóló útmutatót a hatékony képkezeléshez.
+Az Aspose.Slides for Java oktatóanyagai segítségével megtudhatja, hogyan kezelheti a képeket Java diákon. Fedezze fel a lépésről lépésre szóló útmutatót a hatékony képkezeléshez.
 ### [Java Slides dokumentumvédelem](./document-protection/)
 Ismerje meg, hogyan javíthatja Java Slides dokumentumainak biztonságát az Aspose.Slides segítségével. Fedezze fel a dokumentumvédelmi oktatóanyagokat lépésről lépésre.
 ### [Java Slides Saving Options](./saving-options/)
-Ismerje meg a Java Slides mentési beállításait az Aspose.Slides for Java segítségével. Fedezze fel az átfogó oktatóanyagokat és útmutatókat a dia hatékony kezeléséhez és testreszabásához.
+Ismerje meg a Java Slides mentési lehetőségeit az Aspose.Slides for Java segítségével. Fedezze fel az átfogó oktatóanyagokat és útmutatókat a dia hatékony kezeléséhez és testreszabásához.
+
+### [Java PowerPoint mentési műveletek](./java-powerpoint-save-operations/)
+Ismerje meg, hogyan menthet PowerPoint-prezentációkat az Aspose.Slides for Java használatával. Oktatóanyagok a fájlba mentésről, adatfolyamról és jelszavas védelem hozzáadásáról.
+### [Java PowerPoint tulajdonságkezelés](./java-powerpoint-properties-management/)
+Fedezze fel, hogyan kezelheti a PowerPoint tulajdonságait az Aspose.Slides for Java segítségével. Átfogó oktatóanyagaink segítségével könnyedén elérheti, módosíthatja és frissítheti a tulajdonságokat.
+### [Java PowerPoint renderelési technikák](./java-powerpoint-rendering-techniques/)
+Ismerje meg, hogyan jeleníthet meg megjegyzéseket, 3D-s grafikákat, hangulatjeleket és egyebeket a PowerPointban az Aspose.Slides for Java segítségével. Átfogó oktatóanyagok a továbbfejlesztett prezentációkhoz.
+### [Java PowerPoint alakzat és médiabeillesztés](./java-powerpoint-shape-media-insertion/)
+Ismerje meg, hogyan illeszthet be alakzatokat és adathordozókat PowerPoint-prezentációkba az Aspose.Slides for Java segítségével. Az oktatóanyagok sorok, hangok, OLE-objektumok és videók hozzáadását tartalmazzák.
+### [Java PowerPoint alakzatok és miniatűrök létrehozása](./java-powerpoint-shape-thumbnail-creation/)
+Ismerje meg, hogyan hozhat létre alakzatokat és miniatűröket a PowerPointban az Aspose.Slides Java segítségével. Részletes oktatóanyagok csoportalakzatok létrehozásáról, méretezési tényező bélyegképeiről és nagyítási effektusairól.
+### [Java PowerPoint animáció és alakmanipuláció](./java-powerpoint-animation-shape-manipulation/)
+Ismerje meg, hogyan animálhat és kezelhet alakzatokat a PowerPointban az Aspose.Slides for Java segítségével. Átfogó oktatóanyagok dinamikus prezentációkhoz.
+### [Java PowerPoint alakzat formázás és geometria](./java-powerpoint-shape-formatting-geometry/)
+Fedezze fel a Java PowerPoint alakformázási és geometriai oktatóanyagait. Tanuljon meg alakzatokat kitölteni, alakzatokat keresni és egyéni geometriát létrehozni az Aspose.Slides for Java segítségével.
+### [Java PowerPoint dia klónozási technikák](./java-powerpoint-slide-cloning-techniques/)
+Diaklónozás mestere a PowerPointban az Aspose.Slides for Java segítségével. Ismerje meg, hogyan klónozhat zökkenőmentesen diákat ugyanazon a prezentáción belül vagy a prezentációk között.

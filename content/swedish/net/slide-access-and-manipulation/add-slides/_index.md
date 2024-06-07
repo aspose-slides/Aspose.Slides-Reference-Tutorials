@@ -64,7 +64,7 @@ Nu när du har skapat de nya bilderna kan du infoga dem på önskad plats i pres
 
 ```csharp
 // Sätt in diabilder på en specifik position
-int insertionIndex = 2; // Index där du vill infoga de nya bilderna
+int insertionIndex = 2; // Index var du vill infoga de nya bilderna
 presentation.Slides.InsertClone(insertionIndex, slide1);
 presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 ```

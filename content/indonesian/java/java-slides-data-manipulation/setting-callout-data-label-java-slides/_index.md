@@ -38,7 +38,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 chart.setLegend(false);
 
-// Konfigurasikan rangkaian dan kategori (Anda dapat menyesuaikan jumlah rangkaian dan kategori)
+// Konfigurasikan seri dan kategori (Anda dapat menyesuaikan jumlah seri dan kategori)
 int seriesIndex = 0;
 while (seriesIndex < 15) {
     IChartSeries series = chart.getChartData().getSeries().add(workBook.getCell(0, 0, seriesIndex + 1, "SERIES " + seriesIndex), chart.getType());
@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Sesuaikan format label (Font, Isi, dll.)
+        //Sesuaikan format label (Font, Isi, dll.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Bagaimana cara mengaktifkan atau menonaktifkan info untuk label data?
 
- Untuk mengaktifkan atau menonaktifkan info untuk label data, gunakan`setShowLabelAsDataCallout` metode. Setel ke`true` untuk mengaktifkan info dan`false` untuk menonaktifkannya.
+ Untuk mengaktifkan atau menonaktifkan info untuk label data, gunakan`setShowLabelAsDataCallout` metode. Setel ke`true` untuk mengaktifkan info dan`false`untuk menonaktifkannya.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Aktifkan info

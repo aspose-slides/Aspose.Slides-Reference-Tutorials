@@ -116,7 +116,7 @@ Ja, Aspose.Slides voor .NET biedt uitgebreide opties voor het aanpassen van het 
 Ja, Aspose.Slides voor .NET biedt een breed scala aan functies voor het maken, bewerken en beheren van presentaties, inclusief dia's, vormen en dia-overgangen.
 
 ### Kan ik PowerPoint-presentaties automatiseren met Aspose.Slides voor .NET?
-Absoluut, met Aspose.Slides voor .NET kunt u PowerPoint-presentaties automatiseren, waardoor het een waardevol hulpmiddel wordt voor het genereren van dynamische en gegevensgestuurde diavoorstellingen.
+Absoluut, met Aspose.Slides voor .NET kunt u PowerPoint-presentaties automatiseren, waardoor het een waardevol hulpmiddel wordt voor het genereren van dynamische en datagestuurde diavoorstellingen.
 
 ### Is er technische ondersteuning beschikbaar voor Aspose.Slides voor .NET-gebruikers?
  Ja, u kunt ondersteuning en hulp vinden van de Aspose-gemeenschap en experts op de website[Aspose-ondersteuningsforum](https://forum.aspose.com/).

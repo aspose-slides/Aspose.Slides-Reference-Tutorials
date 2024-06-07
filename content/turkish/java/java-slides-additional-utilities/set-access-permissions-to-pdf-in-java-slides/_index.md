@@ -10,7 +10,7 @@ url: /tr/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 
 ## Java Slaytlarında PDF'ye Erişim İzinlerini Ayarlamaya Giriş
 
-Bu kapsamlı kılavuzda, Aspose tarafından sağlanan güçlü bir kütüphane olan Java Slides'ı kullanarak bir PDF belgesine erişim izinlerinin nasıl ayarlanacağını inceleyeceğiz. Parola koruması uygulayarak ve yazdırma ve yüksek kaliteli yazdırma gibi çeşitli izinleri kontrol ederek PDF dosyalarınızı nasıl koruyacağınızı öğreneceksiniz. Açık açıklamalarla adımlarda size yol göstereceğiz ve sürecin her bölümü için Java kaynak kodu örnekleri sunacağız.
+Bu kapsamlı kılavuzda, Aspose tarafından sağlanan güçlü bir kütüphane olan Java Slides'ı kullanarak bir PDF belgesine erişim izinlerinin nasıl ayarlanacağını keşfedeceğiz. Parola koruması uygulayarak ve yazdırma ve yüksek kaliteli yazdırma gibi çeşitli izinleri kontrol ederek PDF dosyalarınızı nasıl koruyacağınızı öğreneceksiniz. Açık açıklamalarla adımlarda size yol göstereceğiz ve sürecin her bölümü için Java kaynak kodu örnekleri sunacağız.
 
 ## Java Ortamınızı Kurma
 

@@ -10,7 +10,7 @@ url: /cs/java/image-handling/add-image-from-svg-object-in-java-slides/
 
 ## Úvod k přidání obrázku z objektu SVG v Java Slides
 
-V dnešní digitální době hrají prezentace zásadní roli při efektivním předávání informací. Přidáním obrázků do prezentací můžete zvýšit jejich vizuální přitažlivost a učinit je poutavějšími. V tomto podrobném průvodci prozkoumáme, jak přidat obrázek z objektu SVG (Scalable Vector Graphics) do Java Slides pomocí Aspose.Slides for Java. Ať už vytváříte vzdělávací obsah, obchodní prezentace nebo cokoli mezi tím, tento výukový program vám pomůže zvládnout umění začleňování obrázků SVG do vašich prezentací Java Slides.
+dnešní digitální době hrají prezentace zásadní roli při efektivním předávání informací. Přidáním obrázků do prezentací můžete zvýšit jejich vizuální přitažlivost a učinit je poutavějšími. V tomto podrobném průvodci prozkoumáme, jak přidat obrázek z objektu SVG (Scalable Vector Graphics) do Java Slides pomocí Aspose.Slides for Java. Ať už vytváříte vzdělávací obsah, obchodní prezentace nebo cokoli mezi tím, tento výukový program vám pomůže zvládnout umění začleňování obrázků SVG do vašich prezentací Java Slides.
 
 ## Předpoklady
 
@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Nezapomeňte vyměnit`"Your Document Directory"`se skutečnou cestou k adresáři vašeho projektu, kde je umístěn soubor SVG.
+ Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k adresáři vašeho projektu, kde je umístěn soubor SVG.
 
 ## Krok 2: Vytvořte novou prezentaci v PowerPointu
 
@@ -50,7 +50,7 @@ try
     IPPImage ppImage = p.getImages().addImage(svgImage);
 ```
 
-V tomto kroku načteme obsah souboru SVG a převedeme jej na objekt obrázku SVG. Poté přidáme tento obrázek SVG do prezentace PowerPoint.
+tomto kroku načteme obsah souboru SVG a převedeme jej na objekt obrázku SVG. Poté přidáme tento obrázek SVG do prezentace PowerPoint.
 
 ## Krok 4: Přidejte obrázek SVG na snímek
 
@@ -97,7 +97,7 @@ Nakonec prezentaci uložíme ve formátu PPTX. Nezapomeňte zavřít a zlikvidov
 
 ## Závěr
 
-tomto komplexním průvodci jsme se naučili, jak přidat obrázek z objektu SVG do Java Slides pomocí Aspose.Slides for Java. Tato dovednost je neocenitelná, když chcete vytvořit vizuálně přitažlivé a informativní prezentace, které upoutají pozornost vašeho publika.
+V tomto komplexním průvodci jsme se naučili, jak přidat obrázek z objektu SVG do Java Slides pomocí Aspose.Slides for Java. Tato dovednost je neocenitelná, když chcete vytvořit vizuálně přitažlivé a informativní prezentace, které upoutají pozornost vašeho publika.
 
 ## FAQ
 

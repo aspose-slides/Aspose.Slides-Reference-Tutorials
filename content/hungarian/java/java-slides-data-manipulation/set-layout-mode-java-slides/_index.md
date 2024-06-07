@@ -48,7 +48,7 @@ chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 
 Ebben a példában úgy állítottuk be a diagramot, hogy az elrendezési céltípus "Belső" legyen, ami azt jelenti, hogy a dia belső területéhez képest lesz elhelyezve és méretezve.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentsük el a bemutatót a diagram elrendezési beállításaival.
 

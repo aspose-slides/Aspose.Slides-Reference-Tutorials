@@ -73,7 +73,7 @@ Trong hướng dẫn này, chúng ta đã khám phá cách truy cập và chuy�
 
 ### Các tính năng chính của Aspose.Slides cho Java là gì?
 
-Aspose.Slides cho Java cung cấp các tính năng như tạo, chỉnh sửa và chuyển đổi bản trình bày PowerPoint, làm việc với các hình dạng, trang trình bày và văn bản cũng như hỗ trợ các định dạng PowerPoint khác nhau.
+Aspose.Slides cho Java cung cấp các tính năng như tạo, chỉnh sửa và chuyển đổi bản trình bày PowerPoint, làm việc với các hình dạng, trang trình bày và văn bản cũng như hỗ trợ nhiều định dạng PowerPoint khác nhau.
 
 ### Tôi có thể sử dụng Aspose.Slides cho Java trong các dự án thương mại của mình không?
 

@@ -88,8 +88,8 @@ Neste tutorial, aprendemos como adicionar segundas opções de plotagem a gráfi
 
 ###  O que`PieSplitBy` control in a Pie of Pie chart?
 
- O`PieSplitBy`propriedade controla como o gráfico de pizza é dividido. Você pode configurá-lo para`PieSplitType.ByPercentage` ou`PieSplitType.ByValue` para dividir o gráfico por porcentagem ou por um valor específico, respectivamente.
+ O`PieSplitBy` propriedade controla como o gráfico de pizza é dividido. Você pode configurá-lo para`PieSplitType.ByPercentage` ou`PieSplitType.ByValue` para dividir o gráfico por porcentagem ou por um valor específico, respectivamente.
 
 ### Como defino a posição da divisão em um gráfico de pizza?
 
- Você pode definir a posição da divisão em um gráfico de pizza usando o botão`setPieSplitPosition` método. Ajuste o valor para especificar a posição desejada.
+Você pode definir a posição da divisão em um gráfico de pizza usando o botão`setPieSplitPosition` método. Ajuste o valor para especificar a posição desejada.

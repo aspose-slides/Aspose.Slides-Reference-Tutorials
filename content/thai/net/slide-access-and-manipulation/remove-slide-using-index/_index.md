@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // รหัสของคุณสำหรับการจัดการสไลด์จะอยู่ที่นี่
+    //รหัสของคุณสำหรับการจัดการสไลด์จะอยู่ที่นี่
 }
 ```
 

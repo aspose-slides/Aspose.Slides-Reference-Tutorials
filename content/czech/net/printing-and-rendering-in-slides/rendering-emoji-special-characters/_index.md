@@ -8,10 +8,10 @@ weight: 14
 url: /cs/net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
 ## Úvod
-dynamickém světě prezentací může zprostředkování emocí a speciálních postav dodat nádech kreativity a jedinečnosti. Aspose.Slides for .NET umožňuje vývojářům bezproblémově vykreslovat emotikony a speciální postavy ve svých prezentacích a odemykat tak novou dimenzi vyjadřování. V tomto tutoriálu prozkoumáme, jak toho dosáhnout pomocí podrobného vedení pomocí Aspose.Slides.
+V dynamickém světě prezentací může zprostředkování emocí a speciálních postav dodat nádech kreativity a jedinečnosti. Aspose.Slides for .NET umožňuje vývojářům bezproblémově vykreslovat emotikony a speciální postavy ve svých prezentacích a odemykat tak novou dimenzi vyjadřování. V tomto tutoriálu prozkoumáme, jak toho dosáhnout pomocí podrobného vedení pomocí Aspose.Slides.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte následující:
--  Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si jej stáhnout[tady](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si jej stáhnout[tady](https://releases.aspose.com/slides/net/).
 - Vývojové prostředí: Mějte na svém počítači nastavené funkční vývojové prostředí .NET.
 - Vstupní prezentace: Připravte soubor PowerPoint (`input.pptx`) obsahující obsah, který chcete obohatit o emotikony.
 - Adresář dokumentů: Vytvořte adresář pro vaše dokumenty a nahraďte "Váš adresář dokumentů" v kódu skutečnou cestou.

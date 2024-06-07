@@ -44,7 +44,7 @@ Khám phá sức mạnh của Aspose.Slides for Java trong việc tùy chỉnh v
 ### [Hoạt ảnh và bố cục trang trình bày Java](./animation-and-layout/)
 Tìm hiểu Bố cục và Hoạt ảnh của Trang trình bày Java với Aspose.Slides cho Java. Làm chủ các bài thuyết trình tương tác. Đi sâu vào việc tạo nội dung động.
 ### [Các thành phần biểu đồ trang trình bày Java](./chart-elements/)
-Tìm hiểu cách tạo biểu đồ động trong các trang trình bày Java bằng Aspose.Slides cho Java với các hướng dẫn toàn diện của chúng tôi. Hãy nâng cao kỹ năng thuyết trình của bạn ngay hôm nay!
+Tìm hiểu cách tạo biểu đồ động trong các trang chiếu Java bằng Aspose.Slides cho Java với các hướng dẫn toàn diện của chúng tôi. Hãy nâng cao kỹ năng thuyết trình của bạn ngay hôm nay!
 ### [Tạo biểu đồ trang trình bày Java](./chart-creation/)
 Tìm hiểu cách tạo các trang trình bày Java động với các biểu đồ bằng Aspose.Slides cho Java. Hướng dẫn toàn diện của chúng tôi sẽ hướng dẫn bạn thực hiện từng bước quy trình.
 ### [Chuyển đổi bản trình bày Java Slides](./presentation-conversion/)
@@ -63,3 +63,20 @@ Tìm hiểu cách xử lý hình ảnh trong các trang trình bày Java bằng 
 Tìm hiểu cách nâng cao tính bảo mật của tài liệu Java Slides của bạn bằng Aspose.Slides. Khám phá hướng dẫn từng bước để bảo vệ tài liệu.
 ### [Tùy chọn lưu trang trình bày Java](./saving-options/)
 Tìm hiểu về các tùy chọn lưu Java Slides với Aspose.Slides for Java. Khám phá các hướng dẫn và hướng dẫn toàn diện để quản lý và tùy chỉnh trang trình bày hiệu quả.
+
+### [Hoạt động lưu PowerPoint của Java](./java-powerpoint-save-operations/)
+Tìm hiểu cách lưu bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn cách lưu vào tệp, phát trực tuyến và thêm bảo vệ bằng mật khẩu.
+### [Quản lý thuộc tính PowerPoint Java](./java-powerpoint-properties-management/)
+Khám phá cách quản lý thuộc tính PowerPoint bằng Aspose.Slides cho Java. Truy cập, sửa đổi và cập nhật các thuộc tính một cách dễ dàng bằng các hướng dẫn toàn diện của chúng tôi.
+### [Kỹ thuật kết xuất PowerPoint của Java](./java-powerpoint-rendering-techniques/)
+Tìm hiểu cách hiển thị nhận xét, đồ họa 3D, biểu tượng cảm xúc, v.v. trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn toàn diện cho bài thuyết trình nâng cao.
+### [Chèn hình dạng và phương tiện PowerPoint của Java](./java-powerpoint-shape-media-insertion/)
+Tìm hiểu cách chèn hình dạng và phương tiện vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn bao gồm thêm dòng, âm thanh, đối tượng OLE và video.
+### [Tạo hình thu nhỏ và hình dạng PowerPoint bằng Java](./java-powerpoint-shape-thumbnail-creation/)
+Tìm hiểu cách tạo hình dạng và hình thu nhỏ trong PowerPoint bằng Aspose.Slides Java. Hướng dẫn chi tiết về cách tạo hình dạng nhóm, hình thu nhỏ hệ số tỷ lệ & hiệu ứng thu phóng.
+### [Thao tác hình dạng và hoạt hình PowerPoint của Java](./java-powerpoint-animation-shape-manipulation/)
+Tìm hiểu cách tạo hiệu ứng động và thao tác các hình dạng trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn toàn diện cho các bài thuyết trình năng động.
+### [Định dạng và hình học hình dạng PowerPoint của Java](./java-powerpoint-shape-formatting-geometry/)
+Khám phá các hướng dẫn hình học và định dạng hình dạng Java PowerPoint. Tìm hiểu cách điền hình, tìm hình và tạo hình học tùy chỉnh bằng Aspose.Slides cho Java.
+### [Kỹ thuật nhân bản slide Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
+Nhân bản slide chính trong PowerPoint bằng Aspose.Slides cho Java. Tìm hiểu cách sao chép các trang trình bày trong cùng một bản trình bày hoặc trên nhiều bản trình bày một cách liền mạch.

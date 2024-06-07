@@ -89,7 +89,7 @@ Po wykonaniu tych kroków slajd będzie miał teraz określony efekt przejścia.
 
 ## Wniosek
 
-W tym samouczku omówiliśmy proces ustawiania efektów przejścia na slajdach przy użyciu Aspose.Slides dla .NET. Wykonując poniższe kroki, możesz stworzyć atrakcyjne wizualnie prezentacje, które wywrą trwały wpływ na odbiorców.
+W tym samouczku omówiliśmy proces ustawiania efektów przejścia na slajdach za pomocą Aspose.Slides dla .NET. Wykonując poniższe kroki, możesz stworzyć atrakcyjne wizualnie prezentacje, które wywrą trwały wpływ na odbiorców.
 
 Teraz Twoja kolej, aby uwolnić swoją kreatywność i przenieść swoje prezentacje na wyższy poziom dzięki Aspose.Slides dla .NET.
 

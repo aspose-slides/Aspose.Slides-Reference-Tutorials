@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-في هذا الكود، نقوم بتحميل عرض PowerPoint تقديمي موجود يحتوي على المخطط الذي تريد تحريكه. يستبدل`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
+ في هذا الكود، نقوم بتحميل عرض PowerPoint تقديمي موجود يحتوي على المخطط الذي تريد تحريكه. يستبدل`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
 
 ## الخطوة 3: الحصول على مرجع لكائن المخطط
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//اكتب ملف العرض التقديمي على القرص
+	// اكتب ملف العرض التقديمي على القرص
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ finally
 
 ### كيف يمكنني معرفة المزيد حول Aspose.Slides لـ Java؟
 
-للحصول على وثائق شاملة وموارد إضافية، قم بزيارة[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/) . يمكنك أيضًا تنزيل المكتبة من[هنا](https://releases.aspose.com/slides/java/).
+ للحصول على وثائق شاملة وموارد إضافية، قم بزيارة[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/) . يمكنك أيضًا تنزيل المكتبة من[هنا](https://releases.aspose.com/slides/java/).

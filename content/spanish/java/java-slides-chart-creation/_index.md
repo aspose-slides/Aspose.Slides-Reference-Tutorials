@@ -16,7 +16,7 @@ url: /es/java/chart-creation/
 
 ## Conceptos básicos del gráfico de diapositivas de Java
 
-Comencemos con los fundamentos. Aspose.Slides para Java le permite diseñar varios tipos de gráficos, incluidos de barras, circulares, de líneas y más. Sumérgete en nuestros tutoriales para cada tipo de gráfico, que proporcionan instrucciones paso a paso y ejemplos de código. Estarás creando gráficos impresionantes en poco tiempo.
+Comencemos con los fundamentos. Aspose.Slides para Java le permite diseñar varios tipos de gráficos, incluidos de barras, circulares, de líneas y más. Sumérjase en nuestros tutoriales para cada tipo de gráfico, que proporcionan instrucciones paso a paso y ejemplos de código. Estarás creando gráficos impresionantes en poco tiempo.
 
 ## Aprovechando Aspose.Slides para el poder de Java
 

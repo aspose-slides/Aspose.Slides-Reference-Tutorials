@@ -16,7 +16,7 @@ No Aspose.Slides for .NET, você pode vincular programaticamente um vídeo a um 
 -  Biblioteca Aspose.Slides para .NET. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/net/).
 
 ## Etapa 1: crie um novo projeto
-Crie um novo projeto em seu ambiente de desenvolvimento .NET preferido (por exemplo, Visual Studio) e adicione referências à biblioteca Aspose.Slides para .NET.
+Crie um novo projeto em seu ambiente de desenvolvimento .NET preferido (por exemplo, Visual Studio) e adicione referências à biblioteca Aspose.Slides for .NET.
 
 ## Etapa 2: importar namespaces necessários
 No seu projeto, importe os namespaces necessários para trabalhar com Aspose.Slides:
@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Perguntas frequentes:
 
 ### Como posso especificar o tamanho e a posição do vídeo vinculado no slide?
- Você pode ajustar as dimensões e a posição do quadro de controle ActiveX usando os parâmetros do`AddOleObjectFrame` método. Os quatro argumentos numéricos representam as coordenadas X e Y do canto superior esquerdo e a largura e altura do quadro, respectivamente.
+Você pode ajustar as dimensões e a posição do quadro de controle ActiveX usando os parâmetros do`AddOleObjectFrame` método. Os quatro argumentos numéricos representam as coordenadas X e Y do canto superior esquerdo e a largura e altura do quadro, respectivamente.
 
 ### Posso vincular vídeos de diferentes formatos usando esta abordagem?
 Sim, você pode vincular vídeos de vários formatos, desde que o controle ActiveX apropriado esteja disponível para esse formato. Por exemplo, o controle ActiveX ShockwaveFlash usado neste guia é adequado para vídeos Flash (SWF). Para outros formatos, talvez seja necessário usar ProgIDs diferentes.
@@ -79,4 +79,4 @@ O tamanho do vídeo vinculado pode afetar o tamanho geral e o desempenho da sua 
 ### Conclusão:
 Seguindo as etapas descritas neste guia, você pode vincular facilmente um vídeo via controle ActiveX em uma apresentação usando Aspose.Slides for .NET. Este recurso permite criar apresentações envolventes e interativas que incorporam conteúdo multimídia perfeitamente.
 
- Para obter mais detalhes e opções avançadas, você pode consultar o[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
+ Para mais detalhes e opções avançadas, você pode consultar o[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).

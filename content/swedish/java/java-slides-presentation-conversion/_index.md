@@ -18,7 +18,7 @@ Innan vi fördjupar oss i krångligheterna med att konvertera bildpresentationer
 
 Nu när du är bekant med verktyget, låt oss gå in i konverteringsprocessen. Aspose.Slides för Java förenklar konverteringen av bildpresentationer från ett format till ett annat. Oavsett om du behöver konvertera PowerPoint till PDF, extrahera bilder som bilder eller utföra någon annan transformation, har våra steg-för-steg handledningar täckt dig.
 
-### Steg-för-steg-instruktioner
+### Steg-för-steg tutorials
 
 Våra handledningar är utformade för att guida dig genom konverteringsprocessen med lätthet. Vi förstår att varje användare har unika behov, så vi har skapat en mängd olika handledningar för att tillgodose olika scenarier. Oavsett om du är nybörjare eller en erfaren utvecklare, hittar du självstudiekurser som passar din skicklighetsnivå.
 

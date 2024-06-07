@@ -52,7 +52,7 @@ Ebben a lépésben létrehozunk egy dobozdiagram alakzatot a bemutató első di�
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Ebben a lépésben meghatározzuk a dobozdiagram kategóriáit. Használjuk a`IChartDataWorkbook`kategóriák hozzáadásához és megfelelő címkézéséhez.
+ Ebben a lépésben meghatározzuk a dobozdiagram kategóriáit. Használjuk a`IChartDataWorkbook` kategóriák hozzáadásához és megfelelő címkézéséhez.
 
 ## 4. lépés: Hozd létre a sorozatot
 

@@ -11,7 +11,7 @@ url: /fr/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 Aspose.Slides for .NET est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des présentations PowerPoint. L'une de ses fonctionnalités notables est la possibilité de générer des vignettes pour les formes au sein d'une présentation. Ce didacticiel vous guidera tout au long du processus de création de vignettes de formes à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-1. Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est installée. Vous pouvez le télécharger depuis le[page de sortie](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est installée. Vous pouvez le télécharger depuis le[page de sortie](https://releases.aspose.com/slides/net/).
 2. Environnement de développement : configurez un environnement de développement approprié, tel que Visual Studio, et possédez une compréhension de base de la programmation C#.
 ## Importer des espaces de noms
 Pour commencer, vous devez importer les espaces de noms nécessaires dans votre code C#. Ces espaces de noms facilitent la communication avec la bibliothèque Aspose.Slides. Ajoutez les lignes suivantes au début de votre fichier C# :
@@ -56,4 +56,4 @@ R : Vous pouvez implémenter des mécanismes de gestion des erreurs à l’aide
 ### Q : Existe-t-il des limites quant à la taille ou au type de formes pouvant comporter des miniatures ?
 R : Aspose.Slides offre la flexibilité nécessaire pour créer des vignettes pour diverses formes, notamment des zones de texte, des images, etc.
 ### Q : Puis-je personnaliser la taille et la résolution des vignettes générées ?
- R : Oui, vous pouvez ajuster les paramètres lors de l'appel du`GetThumbnail` méthode pour contrôler la taille et la résolution.
+ : Oui, vous pouvez ajuster les paramètres lors de l'appel du`GetThumbnail` méthode pour contrôler la taille et la résolution.

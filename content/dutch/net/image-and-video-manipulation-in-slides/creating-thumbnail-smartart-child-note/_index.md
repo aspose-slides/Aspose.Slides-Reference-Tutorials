@@ -11,7 +11,7 @@ url: /nl/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 Op het gebied van dynamische presentaties onderscheidt Aspose.Slides voor .NET zich als een krachtig hulpmiddel, dat ontwikkelaars de mogelijkheid biedt om PowerPoint-presentaties programmatisch te manipuleren en te verbeteren. Een intrigerende functie is de mogelijkheid om miniaturen te genereren voor SmartArt Child Notes, waardoor uw presentaties een extra visuele aantrekkingskracht krijgen. Deze stapsgewijze handleiding leidt u door het proces van het maken van miniaturen voor SmartArt Child Notes met behulp van Aspose.Slides voor .NET.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-- Aspose.Slides voor .NET: Zorg ervoor dat de Aspose.Slides-bibliotheek in uw .NET-project is geïntegreerd. Als dit niet het geval is, downloadt u deze van de[releases pagina](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides voor .NET: Zorg ervoor dat de Aspose.Slides-bibliotheek in uw .NET-project is geïntegreerd. Als dit niet het geval is, downloadt u deze van de[releases pagina](https://releases.aspose.com/slides/net/).
 - Ontwikkelomgeving: Zet een werkende .NET-ontwikkelomgeving op en heb een basiskennis van C#-programmeren.
 - Voorbeeldpresentatie: maak of verkrijg een PowerPoint-presentatie met SmartArt met onderliggende notities om te testen.
 ## Naamruimten importeren
@@ -57,8 +57,8 @@ A: Ja, u kunt de afmetingen en het formaat van de miniatuur aanpassen door de ov
 ### Vraag: Ondersteunt Aspose.Slides andere SmartArt-lay-outs?
 EEN: Absoluut! Aspose.Slides biedt een verscheidenheid aan SmartArt-lay-outs, zodat u degene kunt kiezen die het beste bij uw presentatiebehoeften past.
 ### Vraag: Is er een tijdelijke licentie beschikbaar voor testdoeleinden?
-A: Ja, u kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/) voor testen en evalueren.
+ A: Ja, u kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/) voor testen en evalueren.
 ### Vraag: Waar kan ik hulp zoeken of contact maken met de Aspose.Slides-gemeenschap?
- A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om met de gemeenschap in contact te komen, vragen te stellen en oplossingen te vinden.
+A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om met de gemeenschap in contact te komen, vragen te stellen en oplossingen te vinden.
 ### Vraag: Kan ik Aspose.Slides voor .NET kopen?
  EEN: Zeker! Ontdek de aankoopmogelijkheden[hier](https://purchase.aspose.com/buy) om het volledige potentieel van Aspose.Slides in uw projecten te ontsluiten.

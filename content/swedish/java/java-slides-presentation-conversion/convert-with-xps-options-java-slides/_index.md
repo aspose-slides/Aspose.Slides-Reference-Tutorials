@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Steg 4: Anpassa konverteringsalternativ
 
- För att anpassa konverteringsprocessen kan du skapa en instans av`XpsOptions` klass. I exemplet ställer vi in alternativet att spara metafiler som PNG-bilder.
+För att anpassa konverteringsprocessen kan du skapa en instans av`XpsOptions` klass. I exemplet ställer vi in alternativet att spara metafiler som PNG-bilder.
 
 ```java
 XpsOptions opts = new XpsOptions();

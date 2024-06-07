@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Din kod för bildmanipulering kommer hit
+    //Din kod för bildmanipulering kommer hit
 }
 ```
 
@@ -45,13 +45,13 @@ Nu när vi har laddat vår presentation, låt oss fortsätta för att komma åt 
 
 ```csharp
 // Få åtkomst till en bild genom dess sekventiella index (0-baserat)
-int slideIndex = 2; // Ersätt med önskat index
+int slideIndex = 2; //Ersätt med önskat index
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## Källkodsförklaring
 
-- Vi använder`Slides` samling av`Presentation` objekt för att komma åt bilder.
+-  Vi använder`Slides` samling av`Presentation` objekt för att komma åt bilder.
 - Indexet för bilden i samlingen är 0-baserat, så den första bilden har ett index på 0, den andra bilden har ett index på 1 och så vidare.
 - Vi anger önskat bildindex för att hämta motsvarande bildobjekt.
 
@@ -63,7 +63,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ## Slutsats
 
-I den här guiden har vi lärt oss hur man kommer åt bilder genom deras sekventiella index med Aspose.Slides för .NET. Vi täckte in att ladda en PowerPoint-presentation, komma åt bilder och förse dig med den nödvändiga källkoden för att utföra denna uppgift. Aspose.Slides för .NET förenklar processen att arbeta med PowerPoint-presentationer programmatiskt, vilket ger utvecklare flexibiliteten att automatisera olika uppgifter.
+den här guiden har vi lärt oss hur man kommer åt bilder genom deras sekventiella index med Aspose.Slides för .NET. Vi täckte in att ladda en PowerPoint-presentation, komma åt bilder och förse dig med den nödvändiga källkoden för att utföra denna uppgift. Aspose.Slides för .NET förenklar processen att arbeta med PowerPoint-presentationer programmatiskt, vilket ger utvecklare flexibiliteten att automatisera olika uppgifter.
 
 ## FAQ's
 
@@ -81,7 +81,7 @@ Nej, Aspose.Slides för .NET är ett kommersiellt bibliotek som kräver en gilti
 
 ### Vilka andra funktioner erbjuder Aspose.Slides för .NET?
 
- Aspose.Slides för .NET erbjuder ett brett utbud av funktioner, inklusive att skapa presentationer från grunden, manipulera bilder, lägga till former och bilder, tillämpa formatering och mer. Du kan hänvisa till[dokumentation](https://reference.aspose.com/slides/net/) för omfattande information.
+Aspose.Slides för .NET erbjuder ett brett utbud av funktioner, inklusive att skapa presentationer från grunden, manipulera bilder, lägga till former och bilder, tillämpa formatering och mer. Du kan hänvisa till[dokumentation](https://reference.aspose.com/slides/net/) för omfattande information.
 
 ### Hur kan jag lära mig mer om PowerPoint-automatisering med Aspose.Slides?
 

@@ -107,7 +107,7 @@ Sim, Aspose.Slides for Java é adequado para processamento em lote de arquivos P
 
 ### Onde posso encontrar mais exemplos e documentação?
 
-Você pode encontrar mais exemplos de código e documentação detalhada para Aspose.Slides for Java no site[Documentação do Aspose.Slides](https://reference.aspose.com/slides/java/) local na rede Internet. Além disso, você pode explorar o[Fóruns Aspose.Slides](https://forum.aspose.com/c/slides) para apoio e discussões da comunidade.
+ Você pode encontrar mais exemplos de código e documentação detalhada para Aspose.Slides for Java no site[Documentação do Aspose.Slides](https://reference.aspose.com/slides/java/)local na rede Internet. Além disso, você pode explorar o[Fóruns Aspose.Slides](https://forum.aspose.com/c/slides) para apoio e discussões da comunidade.
 
 ### Preciso de uma licença para usar Aspose.Slides for Java?
 

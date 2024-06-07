@@ -137,7 +137,7 @@ Ebben az átfogó oktatóanyagban megtanulta, hogyan hozhat létre Java-diákat 
 
 ### Hogyan állíthatom be a diagram színeit?
 
- A diagram színeinek módosításához használhatja a`IChartSeriesFormat` és`IShapeFillFormat` interfészek a kitöltési és vonaltulajdonságok beállításához.
+ A diagram színeinek módosításához használhatja a`IChartSeriesFormat` és`IShapeFillFormat` interfészek a kitöltési és vonali tulajdonságok beállításához.
 
 ### Hozzáadhatok címkéket az adatpontokhoz?
 

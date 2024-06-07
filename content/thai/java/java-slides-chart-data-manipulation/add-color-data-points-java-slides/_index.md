@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 ในขั้นตอนนี้ เราจะปรับแต่งจุดข้อมูลเฉพาะ ที่นี่ เรากำลังเปลี่ยนสีของจุดข้อมูลและกำหนดการตั้งค่าป้ายกำกับ
 
 ```java
-// ปรับแต่งจุดข้อมูล 0
+//ปรับแต่งจุดข้อมูล 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ finally
 
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมได้ที่ไหน
 
- คุณสามารถค้นหาตัวอย่างเพิ่มเติมและเอกสารประกอบโดยละเอียดเกี่ยวกับการใช้ Aspose.Slides สำหรับ Java ได้บน[เอกสาร Aspose.Slides](https://reference.aspose.com/slides/java/) เว็บไซต์.
+คุณสามารถค้นหาตัวอย่างเพิ่มเติมและเอกสารประกอบโดยละเอียดเกี่ยวกับการใช้ Aspose.Slides สำหรับ Java ได้บน[เอกสาร Aspose.Slides](https://reference.aspose.com/slides/java/) เว็บไซต์.

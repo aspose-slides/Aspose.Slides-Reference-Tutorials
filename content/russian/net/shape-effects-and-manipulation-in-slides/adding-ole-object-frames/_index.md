@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Шаг 4. Добавьте форму рамки объекта OLE
 ```csharp
-// Добавьте фигуру рамки объекта OLE
+//Добавьте фигуру рамки объекта OLE
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ### Вопрос: Могу ли я настроить внешний вид встроенного фрейма объекта OLE?
 О: Конечно, вы можете настроить размер, положение и другие свойства фрейма объекта OLE в соответствии со своими предпочтениями.
 ### Вопрос: Куда я могу обратиться за помощью, если у меня возникнут проблемы во время реализации?
- А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку и руководство сообщества.
+А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку и руководство сообщества.

@@ -68,8 +68,8 @@ Congratulations! You've successfully hidden shapes in your presentation using As
 ### هل يمكنني إخفاء الأشكال بناءً على شروط أخرى غير النص البديل؟
 قطعاً! يمكنك تخصيص منطق الإخفاء بناءً على سمات مختلفة مثل نوع الشكل أو اللون أو الموضع.
 ### أين يمكنني العثور على وثائق Aspose.Slides الإضافية؟
- استكشف الوثائق[هنا](https://reference.aspose.com/slides/net/) للحصول على معلومات وأمثلة متعمقة.
+ استكشف الوثائق[هنا](https://reference.aspose.com/slides/net/)للحصول على معلومات وأمثلة متعمقة.
 ### هل التراخيص المؤقتة متاحة لـ Aspose.Slides؟
- نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+ نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/)لأغراض تجريبية.
 ### كيف يمكنني الحصول على دعم المجتمع لـ Aspose.Slides؟
  انضم إلى مجتمع Aspose.Slides على[المنتدى](https://forum.aspose.com/c/slides/11) للمناقشات والمساعدة.

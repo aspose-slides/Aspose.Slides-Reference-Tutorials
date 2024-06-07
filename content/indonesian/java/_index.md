@@ -63,3 +63,20 @@ Pelajari cara menangani gambar di slide Java menggunakan tutorial Aspose.Slides 
 Pelajari cara meningkatkan keamanan dokumen Java Slides Anda dengan Aspose.Slides. Jelajahi tutorial langkah demi langkah untuk perlindungan dokumen.
 ### [Opsi Penyimpanan Slide Java](./saving-options/)
 Pelajari tentang opsi penyimpanan Java Slides dengan Aspose.Slides for Java. Jelajahi tutorial dan panduan komprehensif untuk pengelolaan dan penyesuaian slide yang efisien.
+
+### [Operasi Penyimpanan Java PowerPoint](./java-powerpoint-save-operations/)
+Pelajari cara menyimpan presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tutorial menyimpan ke file, streaming, dan menambahkan perlindungan kata sandi.
+### [Manajemen Properti Java PowerPoint](./java-powerpoint-properties-management/)
+Temukan cara mengelola properti PowerPoint menggunakan Aspose.Slides untuk Java. Akses, ubah, dan perbarui properti dengan mudah menggunakan tutorial komprehensif kami.
+### [Teknik Rendering Java PowerPoint](./java-powerpoint-rendering-techniques/)
+Pelajari cara merender komentar, grafik 3D, emoji, dan lainnya di PowerPoint menggunakan Aspose.Slides untuk Java. Tutorial komprehensif untuk presentasi yang lebih baik.
+### [Bentuk Java PowerPoint dan Penyisipan Media](./java-powerpoint-shape-media-insertion/)
+Pelajari cara menyisipkan bentuk dan media ke dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tutorialnya mencakup penambahan baris, audio, objek OLE, dan video.
+### [Bentuk Java PowerPoint dan Pembuatan Gambar Kecil](./java-powerpoint-shape-thumbnail-creation/)
+Pelajari cara membuat bentuk dan thumbnail di PowerPoint menggunakan Aspose.Slides Java. Tutorial mendetail tentang membuat bentuk grup, gambar mini faktor penskalaan, dan efek zoom.
+### [Animasi Java PowerPoint dan Manipulasi Bentuk](./java-powerpoint-animation-shape-manipulation/)
+Pelajari cara menganimasikan dan memanipulasi bentuk di PowerPoint menggunakan Aspose.Slides untuk Java. Tutorial komprehensif untuk presentasi dinamis.
+### [Pemformatan Bentuk dan Geometri Java PowerPoint](./java-powerpoint-shape-formatting-geometry/)
+Temukan tutorial pemformatan bentuk dan geometri Java PowerPoint. Pelajari cara mengisi bentuk, menemukan bentuk, dan membuat geometri khusus dengan Aspose.Slides untuk Java.
+### [Teknik Kloning Slide PowerPoint Java](./java-powerpoint-slide-cloning-techniques/)
+Kloning slide master di PowerPoint menggunakan Aspose.Slides untuk Java. Pelajari cara mengkloning slide dalam presentasi yang sama atau di seluruh presentasi dengan lancar.

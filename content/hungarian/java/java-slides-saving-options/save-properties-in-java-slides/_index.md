@@ -10,7 +10,7 @@ url: /hu/java/saving-options/save-properties-in-java-slides/
 
 ## Bevezetés a Java Slides tulajdonságainak mentésébe
 
-Ebben az oktatóanyagban végigvezetjük a tulajdonságok PowerPoint-prezentációba való mentésének folyamatán az Aspose.Slides for Java használatával. Megtudhatja, hogyan állíthatja be a dokumentum tulajdonságait, hogyan kapcsolhatja ki a dokumentumtulajdonságok titkosítását, hogyan állíthat be jelszót a prezentáció védelméhez, és hogyan mentheti el fájlba. Lépésről lépésre bemutatjuk az utasításokat és a forráskód példákat.
+Ebben az oktatóanyagban végigvezetjük a tulajdonságok PowerPoint-prezentációba való mentésének folyamatán az Aspose.Slides for Java használatával. Megtanulja, hogyan állíthatja be a dokumentum tulajdonságait, hogyan kapcsolhatja ki a dokumentumtulajdonságok titkosítását, hogyan állíthat be jelszót a prezentáció védelméhez, és hogyan mentheti el fájlba. Lépésről lépésre bemutatjuk az utasításokat és a forráskód példákat.
 
 ## Előfeltételek
 
@@ -45,7 +45,7 @@ Különféle dokumentumtulajdonságokat állíthat be, például címet, szerző
 // Állítsa be az előadás címét
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Állítsa be a bemutató szerzőjét
+// Állítsa be a prezentáció szerzőjét
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Állítson be kulcsszavakat a prezentációhoz
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-// Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
+//Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ Ebben az oktatóanyagban megtanulta, hogyan mentheti el a dokumentum tulajdonsá
 // Állítsa be az előadás címét
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Állítsa be a bemutató szerzőjét
+// Állítsa be a prezentáció szerzőjét
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Állítson be kulcsszavakat a prezentációhoz

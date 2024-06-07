@@ -18,9 +18,9 @@ Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő e
 
 1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java telepítve van a rendszerére, és ismeri a Java programozási koncepciókat.
 
-2. Aspose.Slides for Java: Töltse le és telepítse az Aspose.Slides for Java könyvtárat a[letöltési link](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Töltse le és telepítse az Aspose.Slides for Java könyvtárat a[letöltési link](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Prezentáció létrehozása
+## 1. lépés: Prezentáció készítése
 
 A kezdéshez hozzunk létre egy új prezentációt az Aspose.Slides for Java használatával:
 

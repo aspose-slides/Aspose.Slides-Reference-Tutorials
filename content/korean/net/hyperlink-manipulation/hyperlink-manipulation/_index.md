@@ -117,7 +117,7 @@ Aspose.Slides 작업이나 프리젠테이션 디자인의 다른 측면에 대�
 전적으로. Aspose.Slides는 PPT, PPTX, PPS 등을 포함한 다양한 PowerPoint 형식을 지원합니다. 다양한 버전의 Microsoft PowerPoint와의 호환성을 보장합니다.
 
 ### Aspose.Slides에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
-심층적인 문서 및 커뮤니티 지원을 보려면 다음을 방문하세요.[Aspose.Slides 문서](https://reference.aspose.com/slides/net/) 그리고[Aspose 지원 포럼](https://forum.aspose.com/).
+ 심층적인 문서 및 커뮤니티 지원을 보려면 다음을 방문하세요.[Aspose.Slides 문서](https://reference.aspose.com/slides/net/) 그리고[Aspose 지원 포럼](https://forum.aspose.com/).
 
 ### Aspose.Slides의 임시 라이선스를 어떻게 얻을 수 있나요?
  Aspose.Slides에 대한 임시 라이선스가 필요한 경우 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

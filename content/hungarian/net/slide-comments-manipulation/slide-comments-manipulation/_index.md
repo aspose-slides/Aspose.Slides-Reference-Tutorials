@@ -2,7 +2,7 @@
 title: Dia megjegyzések Manipuláció az Aspose.Slides használatával
 linktitle: Dia megjegyzések Manipuláció az Aspose.Slides használatával
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan kezelheti a diák megjegyzéseit PowerPoint-prezentációkban az Aspose.Slides API for .NET használatával. Fedezze fel a lépésenkénti útmutatókat és a forráskód példákat a dia megjegyzések hozzáadásához, szerkesztéséhez és formázásához.
+description: Ismerje meg, hogyan kezelheti a diák megjegyzéseit PowerPoint-prezentációkban az Aspose.Slides API for .NET használatával. Fedezze fel a lépésenkénti útmutatókat és a forráskód-példákat a dia megjegyzések hozzáadásához, szerkesztéséhez és formázásához.
 type: docs
 weight: 10
 url: /hu/net/slide-comments-manipulation/slide-comments-manipulation/

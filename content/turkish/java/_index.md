@@ -63,3 +63,20 @@ Aspose.Slides for Java eğitimlerini kullanarak Java slaytlarındaki görüntül
 Aspose.Slides ile Java Slides belgelerinizin güvenliğini nasıl artıracağınızı öğrenin. Belge korumasına yönelik adım adım eğitimleri keşfedin.
 ### [Java Slaytları Kaydetme Seçenekleri](./saving-options/)
 Aspose.Slides for Java ile Java Slides'ı kaydetme seçenekleri hakkında bilgi edinin. Etkin slayt yönetimi ve özelleştirme için kapsamlı eğitimleri ve kılavuzları keşfedin.
+
+### [Java PowerPoint Kaydetme İşlemleri](./java-powerpoint-save-operations/)
+Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını nasıl kaydedeceğinizi öğrenin. Dosyaya kaydetme, akışa kaydetme ve parola koruması eklemeyle ilgili eğitimler.
+### [Java PowerPoint Özellikleri Yönetimi](./java-powerpoint-properties-management/)
+Aspose.Slides for Java'yı kullanarak PowerPoint özelliklerini nasıl yöneteceğinizi keşfedin. Kapsamlı eğitimlerimiz sayesinde özelliklere zahmetsizce erişin, değiştirin ve güncelleyin.
+### [Java PowerPoint Oluşturma Teknikleri](./java-powerpoint-rendering-techniques/)
+Aspose.Slides for Java'yı kullanarak PowerPoint'te yorumları, 3D grafikleri, emojileri ve daha fazlasını nasıl oluşturacağınızı öğrenin. Gelişmiş sunumlar için kapsamlı eğitimler.
+### [Java PowerPoint Şekli ve Medya Ekleme](./java-powerpoint-shape-media-insertion/)
+Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarına şekil ve medya eklemeyi öğrenin. Öğreticilere satır, ses, OLE nesneleri ve video ekleme dahildir.
+### [Java PowerPoint Şekli ve Küçük Resim Oluşturma](./java-powerpoint-shape-thumbnail-creation/)
+Aspose.Slides Java'yı kullanarak PowerPoint'te şekiller ve küçük resimler oluşturmayı öğrenin. Grup şekilleri oluşturma, ölçeklendirme faktörü küçük resimleri ve yakınlaştırma efektleri hakkında ayrıntılı eğitimler.
+### [Java PowerPoint Animasyonu ve Şekil İşleme](./java-powerpoint-animation-shape-manipulation/)
+Aspose.Slides for Java'yı kullanarak PowerPoint'te şekilleri nasıl canlandıracağınızı ve değiştireceğinizi öğrenin. Dinamik sunumlar için kapsamlı eğitimler.
+### [Java PowerPoint Şekil Biçimlendirme ve Geometri](./java-powerpoint-shape-formatting-geometry/)
+Java PowerPoint şekil biçimlendirme ve geometri eğitimlerini keşfedin. Aspose.Slides for Java ile şekilleri doldurmayı, şekilleri bulmayı ve özel geometri oluşturmayı öğrenin.
+### [Java PowerPoint Slayt Klonlama Teknikleri](./java-powerpoint-slide-cloning-techniques/)
+Aspose.Slides for Java kullanarak PowerPoint'te ana slayt klonlama. Slaytları aynı sunum içinde veya sunumlar arasında sorunsuz bir şekilde kopyalamayı öğrenin.

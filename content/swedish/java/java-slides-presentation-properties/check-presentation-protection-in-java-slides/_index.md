@@ -14,7 +14,7 @@ I den här handledningen kommer vi att utforska hur du kontrollerar presentation
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har Aspose.Slides för Java-biblioteket inställt i ditt Java-projekt. Du kan ladda ner den från Asposes webbplats och lägga till den i ditt projekts beroenden.
+Innan vi börjar, se till att du har Aspose.Slides för Java-biblioteket inställt i ditt Java-projekt. Du kan ladda ner det från Asposes webbplats och lägga till det i ditt projekts beroenden.
 
 ### Maven beroende
 
@@ -100,7 +100,7 @@ den här handledningen lärde vi oss hur man kontrollerar presentationsskydd i J
 
 ### Hur skaffar jag Aspose.Slides för Java?
 
-Du kan ladda ner Aspose.Slides för Java från Aspose-webbplatsen eller lägga till det som ett Maven-beroende i ditt projekt, som visas i avsnittet om förutsättningar.
+Du kan ladda ner Aspose.Slides för Java från Aspose-webbplatsen eller lägga till det som ett Maven-beroende i ditt projekt, som visas i avsnittet förutsättningar.
 
 ### Kan jag kontrollera både skrivskydd och öppet skydd för en presentation?
 

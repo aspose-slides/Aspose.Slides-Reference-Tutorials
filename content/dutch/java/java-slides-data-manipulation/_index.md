@@ -24,7 +24,7 @@ Ontdek hoe u nieuwe dia's kunt maken, inhoud kunt toevoegen en deze kunt opmaken
 
 ## 3. Gegevensmanipulatie
 
-Een van de kernaspecten van onze tutorials is datamanipulatie. U beheerst de kunst van het dynamisch bijwerken van dia-inhoud op basis van uw gegevensbronnen. Dit kan ongelooflijk handig zijn voor het genereren van rapporten, grafieken en aangepaste presentaties.
+Een van de kernaspecten van onze tutorials is gegevensmanipulatie. U beheerst de kunst van het dynamisch bijwerken van dia-inhoud op basis van uw gegevensbronnen. Dit kan ongelooflijk handig zijn voor het genereren van rapporten, grafieken en aangepaste presentaties.
 
 ## Waarom Aspose.Slides voor Java?
 
@@ -47,7 +47,7 @@ Leer hoe u diagramgegevenspuntindexen in Java Slides kunt manipuleren met behulp
 ### [Grafiekentiteiten in Java-dia's](./chart-entities-java-slides/)
 Leer Java Slides-diagrammen maken en aanpassen met Aspose.Slides. Verbeter uw presentaties met krachtige diagramentiteiten.
 ### [Grafiekmarkeringsopties op gegevenspunt in Java-dia's](./chart-marker-options-data-point-java-slides/)
-Optimaliseer uw Java-dia's met aangepaste grafiekmarkeringsopties. Leer hoe u datapunten visueel kunt verbeteren met Aspose.Slides voor Java. Ontdek stapsgewijze begeleiding en veelgestelde vragen.
+Optimaliseer uw Java-dia's met aangepaste diagrammarkeringsopties. Leer hoe u datapunten visueel kunt verbeteren met Aspose.Slides voor Java. Ontdek stapsgewijze begeleiding en veelgestelde vragen.
 ### [Grafiektrendlijnen in Java-dia's](./chart-trend-lines-java-slides/)
 Leer hoe u verschillende trendlijnen aan Java-dia's kunt toevoegen met Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden voor effectieve datavisualisatie.
 ### [Grafiek Haal bereik op in Java-dia's](./chart-get-range-java-slides/)
@@ -66,9 +66,9 @@ Leer hoe u de dimensies van het diagramplotgebied kunt ophalen in Java Slides me
 Validatie van de hoofdgrafiekindeling in PowerPoint met Aspose.Slides voor Java. Leer diagrammen programmatisch te manipuleren voor verbluffende presentaties.
 ### [Omkeren indien negatief voor individuele reeksen in Java-dia's](./invert-if-negative-individual-series-java-slides/)
 Leer hoe u de functie Omkeren als negatief in Aspose.Slides voor Java kunt gebruiken om diagrambeelden in PowerPoint-presentaties te verbeteren.
-### [Kleur van de leiderlijn in Java-dia's](./leader-line-color-java-slides/)
+### [Kleur van de aanhaallijn in Java-dia's](./leader-line-color-java-slides/)
 Leer hoe u de kleuren van aanhaallijnen in PowerPoint-diagrammen kunt wijzigen met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncodevoorbeelden.
-### [Beheer eigenschappendiagrammen in Java-dia's](./manage-properties-charts-java-slides/)
+### [Beheer eigenschappengrafieken in Java-dia's](./manage-properties-charts-java-slides/)
 Leer verbluffende grafieken maken en eigenschappen beheren in Java-dia's met Aspose.Slides. Stap-voor-stap handleiding met broncode voor krachtige presentaties.
 ### [Stel de automatische reeksvulkleur in Java-dia's in](./set-automatic-series-fill-color-java-slides/)
 Leer hoe u de automatische opvulkleur van reeksen in Java Slides instelt met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden voor dynamische presentaties.

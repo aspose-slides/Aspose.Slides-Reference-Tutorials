@@ -85,4 +85,4 @@ C: Kesinlikle! Eğitici, yorum alanı rengini, genişliğini ve konumunu özelle
 ### S: Aspose.Slides için geçici lisansı nasıl edinebilirim?
  C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Slides için nereden yardım ve destek alabilirim?
- C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.
+C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.

@@ -47,7 +47,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```java
 // 차트 데이터 시트의 인덱스 설정
 int defaultWorksheetIndex = 0;
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // 기본 생성된 시리즈 및 카테고리 삭제
 chart.getChartData().getSeries().clear();
@@ -70,14 +70,14 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 ```java
 // 첫 번째 차트 시리즈 가져오기
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// 이제 계열 데이터를 채우는 중입니다.
+//이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // 두 번째 차트 시리즈 가져오기
 series = chart.getChartData().getSeries().get_Item(1);
-// 이제 계열 데이터를 채우는 중입니다.
+//이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// 차트 데이터 시트의 인덱스 설정
 	int defaultWorksheetIndex = 0;
-	//차트 데이터 워크시트 가져오기
+	// 차트 데이터 워크시트 가져오기
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// 기본 생성된 시리즈 및 카테고리 삭제
 	chart.getChartData().getSeries().clear();
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// 첫 번째 차트 시리즈 가져오기
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// 이제 계열 데이터를 채우는 중입니다.
+	//이제 계열 데이터를 채우는 중입니다.
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// 두 번째 차트 시리즈 가져오기
 	series = chart.getChartData().getSeries().get_Item(1);
-	// 이제 계열 데이터를 채우는 중입니다.
+	//이제 계열 데이터를 채우는 중입니다.
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// 계열의 채우기 색상 설정
+	//계열의 채우기 색상 설정
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// 차트와 함께 프레젠테이션 저장
@@ -181,7 +181,7 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### 차트에 계열이나 범주를 추가하려면 어떻게 해야 합니까?
 
- 차트에 계열이나 범주를 추가하려면`getSeries()` 그리고`getCategories()` 차트의 메소드`ChartData` 물체. 데이터와 레이블을 지정하여 새 계열과 범주를 추가할 수 있습니다.
+차트에 계열이나 범주를 추가하려면`getSeries()` 그리고`getCategories()` 차트의 메소드`ChartData` 물체. 데이터와 레이블을 지정하여 새 계열과 범주를 추가할 수 있습니다.
 
 ### 차트와 라벨의 형식을 추가로 지정할 수 있나요?
 

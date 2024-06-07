@@ -22,7 +22,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 ## Stap 1: Stel uw Java-project in
 
 1. Maak een nieuw Java-project in de IDE van uw voorkeur.
-2.  Voeg de Aspose.Slides voor Java-bibliotheek toe aan uw project. U kunt de bibliotheek downloaden via de[Aspose-website](https://products.aspose.com/slides/java) en neem het op als een afhankelijkheid.
+2.  Voeg de Aspose.Slides voor Java-bibliotheek toe aan uw project. U kunt de bibliotheek downloaden via de[Aspose-website](https://products.aspose.com/slides/java)en neem het op als een afhankelijkheid.
 
 ## Stap 2: Importeer de vereiste bibliotheken
 Importeer in uw Java-klasse de benodigde bibliotheken om met Aspose.Slides te werken:
@@ -59,7 +59,7 @@ try {
 }
 ```
 
- Vervangen`"Your Document Directory"`met het daadwerkelijke pad naar uw documentmap en`"test.pptx"` met de naam van uw ingevoerde PowerPoint-presentatie.
+ Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap en`"test.pptx"` met de naam van uw ingevoerde PowerPoint-presentatie.
 
 ## Stap 4: Voer de code uit
 
@@ -90,7 +90,7 @@ In deze zelfstudie hebt u geleerd hoe u een organigram maakt in Java Slides met 
 
 ### Hoe kan ik het uiterlijk van het organigram aanpassen?
 
-kunt het uiterlijk van het organigram aanpassen door de eigenschappen ervan, zoals kleuren, stijlen en lettertypen, te wijzigen. Raadpleeg de Aspose.Slides-documentatie voor details over het aanpassen van SmartArt-vormen.
+U kunt het uiterlijk van het organigram aanpassen door de eigenschappen ervan, zoals kleuren, stijlen en lettertypen, te wijzigen. Raadpleeg de Aspose.Slides-documentatie voor details over het aanpassen van SmartArt-vormen.
 
 ### Kan ik extra vormen of tekst aan het organigram toevoegen?
 
@@ -102,4 +102,4 @@ Ja, u kunt extra vormen, tekst en verbindingslijnen aan het organigram toevoegen
 
 ### Is het mogelijk om complexe organisatiestructuren met meerdere niveaus te creëren?
 
-Ja, met Aspose.Slides kunt u complexe organisatiestructuren met meerdere niveaus creëren door vormen binnen het organigram toe te voegen en te rangschikken. U kunt hiërarchische relaties tussen vormen definiëren om de gewenste structuur weer te geven.
+Ja, met Aspose.Slides kunt u complexe organisatiestructuren met meerdere niveaus creëren door vormen toe te voegen en te rangschikken binnen het organigram. U kunt hiërarchische relaties tussen vormen definiëren om de gewenste structuur weer te geven.

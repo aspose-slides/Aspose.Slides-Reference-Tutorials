@@ -14,11 +14,11 @@ In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Histog
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek installiert ist. Sie können es hier herunterladen[Aspose-Website](https://releases.aspose.com/slides/java/).
+ Bevor Sie beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek installiert haben. Sie können sie von der[Aspose-Website](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Initialisieren Sie Ihr Projekt
 
-Erstellen Sie ein Java-Projekt und beziehen Sie die Aspose.Slides-Bibliothek in die Abhängigkeiten Ihres Projekts ein.
+Erstellen Sie ein Java-Projekt und schließen Sie die Aspose.Slides-Bibliothek in die Abhängigkeiten Ihres Projekts ein.
 
 ## Schritt 2: Erforderliche Bibliotheken importieren
 
@@ -26,18 +26,18 @@ Erstellen Sie ein Java-Projekt und beziehen Sie die Aspose.Slides-Bibliothek in 
 import com.aspose.slides.*;
 ```
 
-## Schritt 3: Laden Sie eine vorhandene Präsentation
+## Schritt 3: Eine vorhandene Präsentation laden
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Unbedingt austauschen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem PowerPoint-Dokument.
+ Ersetzen Sie unbedingt`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrem PowerPoint-Dokument.
 
-## Schritt 4: Erstellen Sie ein Histogrammdiagramm
+## Schritt 4: Erstellen Sie ein Histogramm
 
-Lassen Sie uns nun ein Histogrammdiagramm auf einer Folie in der Präsentation erstellen.
+Lassen Sie uns nun auf einer Folie der Präsentation ein Histogramm erstellen.
 
 ```java
 try {
@@ -46,7 +46,7 @@ try {
     chart.getChartData().getSeries().clear();
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     
-    // Fügen Sie der Serie Datenpunkte hinzu
+    // Datenpunkte zur Reihe hinzufügen
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Histogram);
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A1", 15));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A2", -41));
@@ -55,17 +55,17 @@ try {
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A5", -23));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A6", 16));
     
-    // Legen Sie den Aggregationstyp für die horizontale Achse auf „Automatisch“ fest
+    // Stellen Sie den Aggregationstyp der horizontalen Achse auf Automatisch ein.
     chart.getAxes().getHorizontalAxis().setAggregationType(AxisAggregationType.Automatic);
     
-    // Speichern Sie die Präsentation
+    // Speichern der Präsentation
     pres.save(dataDir + "Histogram.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-In diesem Code löschen wir zunächst alle vorhandenen Kategorien und Serien aus dem Diagramm. Dann fügen wir der Reihe mithilfe von Datenpunkte hinzu`getDataPoints().addDataPointForHistogramSeries` Methode. Abschließend stellen wir den Aggregationstyp der horizontalen Achse auf „Automatisch“ ein und speichern die Präsentation.
+In diesem Code löschen wir zunächst alle vorhandenen Kategorien und Reihen aus dem Diagramm. Dann fügen wir der Reihe Datenpunkte hinzu, indem wir`getDataPoints().addDataPointForHistogramSeries` Methode. Schließlich setzen wir den Aggregationstyp der horizontalen Achse auf Automatisch und speichern die Präsentation.
 
 ## Vollständiger Quellcode für Histogrammdiagramme in Java-Folien
 
@@ -97,18 +97,18 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben wir untersucht, wie Sie mithilfe der Aspose.Slides für Java-API ein Histogrammdiagramm in einer PowerPoint-Präsentation erstellen. Histogrammdiagramme sind wertvolle Hilfsmittel zur Visualisierung der Datenverteilung über einen kontinuierlichen Zeitraum und können eine wirkungsvolle Ergänzung Ihrer Präsentationen sein, insbesondere wenn es um statistische oder analytische Inhalte geht.
+In diesem Tutorial haben wir untersucht, wie man mithilfe der Aspose.Slides für Java-API ein Histogramm in einer PowerPoint-Präsentation erstellt. Histogramme sind wertvolle Tools zur Visualisierung der Datenverteilung über einen kontinuierlichen Zeitraum und können eine leistungsstarke Ergänzung Ihrer Präsentationen sein, insbesondere wenn es um statistische oder analytische Inhalte geht.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie installiere ich Aspose.Slides für Java?
 
- Sie können die Aspose.Slides für Java-Bibliothek unter herunterladen[Hier](https://releases.aspose.com/slides/java/). Befolgen Sie die Installationsanweisungen auf der Website.
+ Sie können die Aspose.Slides für Java-Bibliothek herunterladen von[Hier](https://releases.aspose.com/slides/java/). Befolgen Sie die Installationsanweisungen auf der Website.
 
 ### Wofür wird ein Histogrammdiagramm verwendet?
 
-Ein Histogrammdiagramm wird verwendet, um die Verteilung von Daten über ein kontinuierliches Intervall zu visualisieren. In der Statistik wird es häufig zur Darstellung von Häufigkeitsverteilungen verwendet.
+Ein Histogramm wird verwendet, um die Verteilung von Daten über ein kontinuierliches Intervall zu visualisieren. Es wird in der Statistik häufig verwendet, um Häufigkeitsverteilungen darzustellen.
 
 ### Kann ich das Erscheinungsbild des Histogrammdiagramms anpassen?
 
-Ja, Sie können das Erscheinungsbild des Diagramms, einschließlich seiner Farben, Beschriftungen und Achsen, mithilfe der Aspose.Slides-API anpassen.
+Ja, Sie können das Erscheinungsbild des Diagramms, einschließlich seiner Farben, Beschriftungen und Achsen, mit der Aspose.Slides-API anpassen.

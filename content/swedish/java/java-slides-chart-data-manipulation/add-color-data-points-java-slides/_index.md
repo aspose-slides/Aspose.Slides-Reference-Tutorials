@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 I det här steget kommer vi att anpassa specifika datapunkter. Här ändrar vi färgen på datapunkter och konfigurerar etikettinställningar.
 
 ```java
-// Anpassa datapunkt 0
+//Anpassa datapunkt 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -108,7 +108,7 @@ I den här handledningen lärde du dig hur du lägger till färg på datapunkter
 
 ### Hur kan jag ändra färgen på andra datapunkter?
 
-För att ändra färgen på andra datapunkter kan du följa ett liknande tillvägagångssätt som visas i steg 4. Gå till den datapunkt som du vill anpassa och ändra dess färg- och etikettinställningar.
+För att ändra färgen på andra datapunkter kan du följa ett liknande tillvägagångssätt som visas i steg 4. Gå till datapunkten du vill anpassa och ändra dess färg- och etikettinställningar.
 
 ### Kan jag anpassa andra aspekter av diagrammet?
 
@@ -116,4 +116,4 @@ För att ändra färgen på andra datapunkter kan du följa ett liknande tillvä
 
 ### Var kan jag hitta fler exempel och dokumentation?
 
- Du kan hitta fler exempel och detaljerad dokumentation om hur du använder Aspose.Slides för Java på[Aspose.Slides dokumentation](https://reference.aspose.com/slides/java/) hemsida.
+Du kan hitta fler exempel och detaljerad dokumentation om hur du använder Aspose.Slides för Java på[Aspose.Slides dokumentation](https://reference.aspose.com/slides/java/) hemsida.

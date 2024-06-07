@@ -1,6 +1,6 @@
 ---
-title: Ustaw tabelę kolorów odwróconego wypełnienia w slajdach Java
-linktitle: Ustaw tabelę kolorów odwróconego wypełnienia w slajdach Java
+title: Ustaw opcję Odwróć tabelę kolorów wypełnienia w slajdach Java
+linktitle: Ustaw opcję Odwróć tabelę kolorów wypełnienia w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić odwracanie kolorów wypełnienia wykresów Java Slides za pomocą Aspose.Slides. Ulepsz swoje wizualizacje wykresów dzięki temu przewodnikowi krok po kroku i kodowi źródłowemu.
 type: docs

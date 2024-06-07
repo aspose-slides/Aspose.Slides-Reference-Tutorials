@@ -68,8 +68,8 @@ Sì, Aspose.Slides supporta .NET Core, fornendo flessibilità nel tuo ambiente d
 ### Posso nascondere forme in base a condizioni diverse dal testo alternativo?
 Assolutamente! Puoi personalizzare la logica di occultamento in base a vari attributi come tipo di forma, colore o posizione.
 ### Dove posso trovare ulteriore documentazione Aspose.Slides?
- Esplora la documentazione[Qui](https://reference.aspose.com/slides/net/) per approfondimenti ed esempi.
+ Esplora la documentazione[Qui](https://reference.aspose.com/slides/net/)per approfondimenti ed esempi.
 ### Sono disponibili licenze temporanee per Aspose.Slides?
- Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test.
+ Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) scopo di test.
 ### Come posso ottenere il supporto della community per Aspose.Slides?
  Unisciti alla community di Aspose.Slides su[Forum](https://forum.aspose.com/c/slides/11) per discussioni e assistenza.

@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## Passaggio 3: caricare la presentazione
 
-Ora carichiamo la presentazione che desideri convertire. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione:
+ Ora carichiamo la presentazione che desideri convertire. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Congratulazioni! Hai convertito con successo una presentazione in HTML reattivo 
 
 ### Posso personalizzare ulteriormente l'output HTML?
 
- Sì, puoi personalizzare l'output HTML modificando il file`ResponsiveHtmlController` E`HtmlOptions`oggetti. Ciò ti consente di adattare l'output HTML alle tue esigenze specifiche.
+ Sì, puoi personalizzare l'output HTML modificando il file`ResponsiveHtmlController` E`HtmlOptions` oggetti. Ciò ti consente di adattare l'output HTML alle tue esigenze specifiche.
 
 ### Esistono requisiti di licenza per Aspose.Slides per Java?
 

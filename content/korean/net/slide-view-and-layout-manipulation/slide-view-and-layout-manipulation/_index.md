@@ -86,7 +86,7 @@ ISlide newSlide = presentation.Slides.AddSlide(presentation.SlideLayouts[SlideLa
 presentation.Slides.RemoveAt(2);
 ```
 
-## 슬라이드 콘텐츠 사용자 정의
+## 슬라이드 내용 사용자 정의
 
 Aspose.Slides를 사용하면 텍스트, 도형, 이미지 등과 같은 슬라이드 콘텐츠를 사용자 정의할 수 있습니다.
 

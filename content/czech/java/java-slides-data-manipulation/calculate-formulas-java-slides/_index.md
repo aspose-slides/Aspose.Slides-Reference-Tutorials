@@ -10,7 +10,7 @@ url: /cs/java/data-manipulation/calculate-formulas-java-slides/
 
 ## Úvod do výpočtu vzorců v Java Slides pomocí Aspose.Slides
 
-V této příručce si ukážeme, jak vypočítat vzorce v Java Slides pomocí Aspose.Slides for Java API. Aspose.Slides je výkonná knihovna pro práci s prezentacemi aplikace PowerPoint a poskytuje funkce pro manipulaci s grafy a provádění výpočtů vzorců v rámci snímků.
+V této příručce si ukážeme, jak vypočítat vzorce v Java Slides pomocí Aspose.Slides for Java API. Aspose.Slides je výkonná knihovna pro práci s PowerPointovými prezentacemi a poskytuje funkce pro manipulaci s grafy a provádění výpočtů vzorců v rámci snímků.
 
 ## Předpoklady
 

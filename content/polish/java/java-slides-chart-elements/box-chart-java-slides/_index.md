@@ -10,7 +10,7 @@ url: /pl/java/chart-elements/box-chart-java-slides/
 
 ## Wprowadzenie do wykresu pudełkowego w Aspose.Slides dla Java
 
-W tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu pudełkowego za pomocą Aspose.Slides dla Java. Wykresy pudełkowe są przydatne do wizualizacji danych statystycznych z różnymi kwartylami i wartościami odstającymi. Dostarczymy instrukcje krok po kroku wraz z kodem źródłowym, które pomogą Ci rozpocząć.
+tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu pudełkowego za pomocą Aspose.Slides dla Java. Wykresy pudełkowe są przydatne do wizualizacji danych statystycznych z różnymi kwartylami i wartościami odstającymi. Dostarczymy instrukcje krok po kroku wraz z kodem źródłowym, które pomogą Ci rozpocząć.
 
 ## Warunki wstępne
 
@@ -52,7 +52,7 @@ Na tym etapie utworzymy kształt wykresu pudełkowego na pierwszym slajdzie prez
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Na tym etapie definiujemy kategorie dla wykresu pudełkowego. Używamy`IChartDataWorkbook`aby dodać kategorie i odpowiednio je oznaczyć.
+ Na tym etapie definiujemy kategorie dla wykresu pudełkowego. Używamy`IChartDataWorkbook` aby dodać kategorie i odpowiednio je oznaczyć.
 
 ## Krok 4: Utwórz serię
 

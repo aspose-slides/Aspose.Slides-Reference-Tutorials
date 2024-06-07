@@ -14,7 +14,7 @@ Pokud pracujete s Java Slides a potřebujete převést prezentace do formátu TI
 
 ## Předpoklady
 
-Než se pustíte do procesu převodu, ujistěte se, že máte splněny následující předpoklady:
+Než se ponoříte do procesu převodu, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
 -  Aspose.Slides for Java: Pro práci s prezentačními soubory budete potřebovat knihovnu Aspose.Slides. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).

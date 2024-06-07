@@ -11,11 +11,11 @@ url: /hu/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 A prezentációk dinamikus világában az Aspose.Slides for .NET kiemelkedik a diakészítési élmény fokozásának hatékony eszközeként. Az egyik figyelemre méltó funkció, amelyet kínál, az Összegzés zoom létrehozásának képessége, amely egy vizuálisan vonzó módja a diagyűjtemény bemutatásának. Ebben az oktatóanyagban végigvezetjük Önt az Aspose.Slides for .NET segítségével összefoglaló nagyítás létrehozásának folyamatán.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
--  Aspose.Slides .NET-hez: Győződjön meg arról, hogy a könyvtár telepítve van a .NET-környezetben. Ha nem, akkor letöltheti a[kiadási oldal](https://releases.aspose.com/slides/net/).
+- Aspose.Slides .NET-hez: Győződjön meg arról, hogy a könyvtár telepítve van a .NET-környezetben. Ha nem, akkor letöltheti a[kiadási oldal](https://releases.aspose.com/slides/net/).
 - Fejlesztői környezet: Állítsa be a .NET fejlesztői környezetet, beleértve a Visual Studio-t vagy bármely más preferált IDE-t.
 - Alapvető C# ismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezik alapvető ismeretekkel a C# programozásról.
 ## Névterek importálása
-C#-projektben tartalmazza az Aspose.Slides funkcióinak eléréséhez szükséges névtereket. Adja hozzá a következő sorokat a kód elejéhez:
+A C#-projektben tartalmazza az Aspose.Slides funkcióinak eléréséhez szükséges névtereket. Adja hozzá a következő sorokat a kód elejéhez:
 ```csharp
 using System;
 using System.Drawing;
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## 2. lépés: Diák és szakaszok hozzáadása
- Ez a lépés magában foglalja az egyes diák létrehozását és a prezentáción belüli szakaszokba rendezését. A`AddEmptySlide` metódus új diát ad hozzá, és a`Sections.AddSection` módszer szakaszokat hoz létre a jobb szervezés érdekében.
+ Ez a lépés magában foglalja az egyes diák létrehozását és a prezentáción belüli szakaszokba rendezését. A`AddEmptySlide`metódus új diát ad hozzá, és a`Sections.AddSection` módszer szakaszokat hoz létre a jobb szervezés érdekében.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Itt található a dia stílusának kódja
@@ -65,7 +65,7 @@ ISummaryZoomFrame summaryZoomFrame = pres.Slides[0].Shapes.AddSummaryZoomFrame(1
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);
 ```
-Az alábbi lépések követésével hatékonyan hozhat létre prezentációt szervezett részekkel és egy tetszetős Összegzés Zoom kerettel az Aspose.Slides for .NET segítségével.
+Az alábbi lépések követésével hatékonyan hozhat létre prezentációt szervezett szakaszokkal és egy tetszetős Összefoglaló nagyítási kerettel az Aspose.Slides for .NET segítségével.
 ## Következtetés
 Az Aspose.Slides for .NET lehetővé teszi a prezentációs játék emelését, a Summary Zoom funkció pedig professzionalizmust és elkötelezettséget ad hozzá. Ezekkel az egyszerű lépésekkel könnyedén fokozhatja diákjainak látványát.
 ## GYIK
@@ -76,6 +76,6 @@ Az Aspose.Slides-t rendszeresen frissítik, hogy biztosítsák a kompatibilitás
 ### Hozzáadhatok hiperhivatkozásokat az Összegzés Zoom kereten belül?
 Teljesen! Hiperhivatkozásokat is elhelyezhet a diákban, és azok zökkenőmentesen működnek az Összegzés Zoom keretben.
 ### Vannak-e korlátozások a prezentáció szakaszainak számában?
-A legújabb verziótól kezdve nincs szigorú korlátozás a prezentációhoz hozzáadható szakaszok számára.
+legújabb verziótól kezdve nincs szigorú korlátozás a prezentációhoz hozzáadható szakaszok számára.
 ### Elérhető az Aspose.Slides próbaverziója?
-Igen, felfedezheti az Aspose.Slides szolgáltatásait, ha letölti a[ingyenes próbaverzió](https://releases.aspose.com/).
+ Igen, felfedezheti az Aspose.Slides szolgáltatásait, ha letölti a[ingyenes próbaverzió](https://releases.aspose.com/).

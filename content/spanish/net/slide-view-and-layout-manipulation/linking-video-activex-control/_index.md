@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Preguntas frecuentes:
 
 ### ¿Cómo puedo especificar el tamaño y la posición del vídeo vinculado en la diapositiva?
- Puede ajustar las dimensiones y la posición del marco de control ActiveX utilizando los parámetros del`AddOleObjectFrame` método. Los cuatro argumentos numéricos representan las coordenadas X e Y de la esquina superior izquierda y el ancho y alto del marco, respectivamente.
+Puede ajustar las dimensiones y la posición del marco de control ActiveX utilizando los parámetros del`AddOleObjectFrame` método. Los cuatro argumentos numéricos representan las coordenadas X e Y de la esquina superior izquierda y el ancho y alto del marco, respectivamente.
 
 ### ¿Puedo vincular vídeos de diferentes formatos usando este enfoque?
 Sí, puedes vincular vídeos de varios formatos siempre que esté disponible el control ActiveX adecuado para ese formato. Por ejemplo, el control ShockwaveFlash ActiveX utilizado en esta guía es adecuado para vídeos Flash (SWF). Para otros formatos, es posible que necesite utilizar ProgID diferentes.
@@ -77,6 +77,6 @@ Sí, puedes vincular vídeos de varios formatos siempre que esté disponible el 
 El tamaño del vídeo vinculado puede afectar el tamaño general y el rendimiento de su presentación. Se recomienda optimizar sus videos para la reproducción web antes de vincularlos a la presentación.
 
 ### Conclusión:
-Si sigue los pasos descritos en esta guía, puede vincular fácilmente un vídeo a través del control ActiveX en una presentación utilizando Aspose.Slides para .NET. Esta función le permite crear presentaciones atractivas e interactivas que incorporan contenido multimedia a la perfección.
+Si sigue los pasos descritos en esta guía, puede vincular fácilmente un video a través del control ActiveX en una presentación usando Aspose.Slides para .NET. Esta función le permite crear presentaciones atractivas e interactivas que incorporan contenido multimedia a la perfección.
 
  Para obtener más detalles y opciones avanzadas, puede consultar el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).

@@ -52,7 +52,7 @@ In deze stap maken we een boxdiagramvorm op de eerste dia van de presentatie. We
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- In deze stap definiëren we de categorieën voor het boxdiagram. Wij gebruiken de`IChartDataWorkbook`om categorieën toe te voegen en deze dienovereenkomstig te labelen.
+ In deze stap definiëren we de categorieën voor het boxdiagram. Wij gebruiken de`IChartDataWorkbook` om categorieën toe te voegen en deze dienovereenkomstig te labelen.
 
 ## Stap 4: Maak de serie
 
@@ -133,7 +133,7 @@ finally
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u een boxdiagram kunt maken met Aspose.Slides voor Java. Boxdiagrammen zijn waardevolle hulpmiddelen voor het visualiseren van statistische gegevens, inclusief kwartielen en uitschieters. We hebben een stapsgewijze handleiding samen met de broncode geleverd om u op weg te helpen met het maken van Box Charts in uw Java-toepassingen.
+In deze zelfstudie hebben we geleerd hoe u een boxdiagram kunt maken met Aspose.Slides voor Java. Boxdiagrammen zijn waardevolle hulpmiddelen voor het visualiseren van statistische gegevens, inclusief kwartielen en uitbijters. We hebben een stapsgewijze handleiding samen met de broncode geleverd om u op weg te helpen met het maken van Box Charts in uw Java-toepassingen.
 
 ## Veelgestelde vragen
 
@@ -143,7 +143,7 @@ U kunt het uiterlijk van het boxdiagram aanpassen door eigenschappen zoals lijns
 
 ### Kan ik extra gegevensreeksen toevoegen aan het boxdiagram?
 
- Ja, u kunt meerdere gegevensreeksen aan het boxdiagram toevoegen door er meerdere te maken`IChartSeries` objecten en voegt er gegevenspunten aan toe.
+ Ja, u kunt meerdere gegevensreeksen aan het boxdiagram toevoegen door er meerdere te maken`IChartSeries` objecten en voegt er datapunten aan toe.
 
 ### Wat betekent QuartileMethodType.Exclusive?
 

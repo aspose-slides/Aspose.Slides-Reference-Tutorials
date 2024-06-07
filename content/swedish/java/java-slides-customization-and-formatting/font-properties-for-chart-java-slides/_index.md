@@ -2,7 +2,7 @@
 title: Teckensnittsegenskaper för diagram i Java Slides
 linktitle: Teckensnittsegenskaper för diagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Förbättra diagramtypsnittsegenskaper i Java Slides med Aspose.Slides för Java. Anpassa teckenstorlek, stil och färg för effektfulla presentationer.
+description: Förbättra diagramteckensnittsegenskaper i Java Slides med Aspose.Slides för Java. Anpassa teckenstorlek, stil och färg för effektfulla presentationer.
 type: docs
 weight: 11
 url: /sv/java/customization-and-formatting/font-properties-for-chart-java-slides/

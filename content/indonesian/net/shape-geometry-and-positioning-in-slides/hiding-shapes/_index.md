@@ -68,8 +68,8 @@ Ya, Aspose.Slides mendukung .NET Core, memberikan fleksibilitas dalam lingkungan
 ### Bisakah saya menyembunyikan bentuk berdasarkan kondisi selain teks alternatif?
 Sangat! Anda dapat menyesuaikan logika persembunyian berdasarkan berbagai atribut seperti tipe bentuk, warna, atau posisi.
 ### Di mana saya dapat menemukan dokumentasi Aspose.Slides tambahan?
- Jelajahi dokumentasinya[Di Sini](https://reference.aspose.com/slides/net/) untuk informasi mendalam dan contoh.
+ Jelajahi dokumentasinya[Di Sini](https://reference.aspose.com/slides/net/)untuk informasi mendalam dan contoh.
 ### Apakah lisensi sementara tersedia untuk Aspose.Slides?
- Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+ Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/)untuk tujuan pengujian.
 ### Bagaimana saya bisa mendapatkan dukungan komunitas untuk Aspose.Slides?
  Bergabunglah dengan komunitas Aspose.Slides di[forum](https://forum.aspose.com/c/slides/11) untuk diskusi dan bantuan.

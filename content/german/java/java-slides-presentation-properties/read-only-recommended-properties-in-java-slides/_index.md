@@ -2,19 +2,19 @@
 title: Schreibgeschützte empfohlene Eigenschaften in Java-Folien
 linktitle: Schreibgeschützte empfohlene Eigenschaften in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für Java schreibgeschützte empfohlene Eigenschaften in Java-PowerPoint-Präsentationen aktivieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung mit Quellcode-Beispielen für mehr Präsentationssicherheit.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für Java schreibgeschützte empfohlene Eigenschaften in Java PowerPoint-Präsentationen aktivieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcodebeispielen für verbesserte Präsentationssicherheit.
 type: docs
 weight: 17
 url: /de/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
 
-## Einführung in die Aktivierung schreibgeschützter empfohlener Eigenschaften in Java-Folien
+## Einführung in das Aktivieren schreibgeschützter empfohlener Eigenschaften in Java-Folien
 
-In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.Slides für Java schreibgeschützte empfohlene Eigenschaften für PowerPoint-Präsentationen aktivieren. Schreibgeschützte empfohlene Eigenschaften können nützlich sein, wenn Sie Benutzer dazu ermutigen möchten, eine Präsentation anzusehen, ohne Änderungen vorzunehmen. Diese Eigenschaften legen nahe, dass die Präsentation im schreibgeschützten Modus geöffnet werden sollte. Wir stellen Ihnen dazu eine Schritt-für-Schritt-Anleitung zusammen mit dem Java-Quellcode zur Verfügung.
+In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java schreibgeschützte empfohlene Eigenschaften für PowerPoint-Präsentationen aktivieren. Schreibgeschützte empfohlene Eigenschaften können nützlich sein, wenn Sie Benutzer dazu ermutigen möchten, eine Präsentation anzusehen, ohne Änderungen vorzunehmen. Diese Eigenschaften legen nahe, dass die Präsentation im schreibgeschützten Modus geöffnet werden soll. Wir stellen Ihnen dazu eine Schritt-für-Schritt-Anleitung sowie Java-Quellcode zur Verfügung.
 
 ## Voraussetzungen
 
- Bevor wir beginnen, stellen Sie sicher, dass in Ihrem Projekt die Aspose.Slides for Java-Bibliothek eingerichtet ist. Sie können es hier herunterladen[Aspose.Slides für Java-Website](https://products.aspose.com/slides/java/).
+ Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek in Ihrem Projekt eingerichtet haben. Sie können sie von der[Aspose.Slides für Java-Website](https://products.aspose.com/slides/java/).
 
 ## Schritt 1: Erstellen Sie eine neue PowerPoint-Präsentation
 
@@ -29,7 +29,7 @@ Im obigen Code haben wir den Pfad für die PowerPoint-Ausgabedatei definiert und
 
 ## Schritt 2: Aktivieren Sie die schreibgeschützte empfohlene Eigenschaft
 
-Jetzt aktivieren wir die Eigenschaft „Schreibgeschützt empfohlen“ für die Präsentation.
+Aktivieren wir nun die Eigenschaft „Schreibgeschützt empfohlen“ für die Präsentation.
 
 ```java
 try
@@ -43,7 +43,7 @@ finally
 }
 ```
 
- In diesem Codeausschnitt verwenden wir die`getProtectionManager().setReadOnlyRecommended(true)` Methode, auf die die Eigenschaft „Schreibgeschützt empfohlen“ festgelegt werden soll`true`. Dadurch wird sichergestellt, dass jemand, der die Präsentation öffnet, aufgefordert wird, sie im schreibgeschützten Modus zu öffnen.
+ In diesem Codeausschnitt verwenden wir die`getProtectionManager().setReadOnlyRecommended(true)` Methode, um die Eigenschaft Schreibgeschützt empfohlen auf`true`. Dadurch wird sichergestellt, dass beim Öffnen der Präsentation die Person aufgefordert wird, diese im schreibgeschützten Modus zu öffnen.
 
 ## Schritt 3: Speichern Sie die Präsentation
 
@@ -67,11 +67,11 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie erfahren, wie Sie die Eigenschaft „Schreibgeschützt empfohlen“ für eine PowerPoint-Präsentation mithilfe von Aspose.Slides für Java aktivieren. Diese Funktion kann hilfreich sein, wenn Sie die Bearbeitung einschränken und Zuschauer dazu ermutigen möchten, die Präsentation im schreibgeschützten Modus zu verwenden. Sie können die Sicherheit weiter erhöhen, indem Sie ein Passwort für die Präsentation festlegen.
+In diesem Tutorial haben Sie gelernt, wie Sie die Eigenschaft „Schreibgeschützt empfohlen“ für eine PowerPoint-Präsentation mit Aspose.Slides für Java aktivieren. Diese Funktion kann hilfreich sein, wenn Sie die Bearbeitung einschränken und die Betrachter dazu ermutigen möchten, die Präsentation im schreibgeschützten Modus zu verwenden. Sie können die Sicherheit weiter erhöhen, indem Sie ein Kennwort für die Präsentation festlegen.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### Wie deaktiviere ich die Eigenschaft „Schreibgeschützt empfohlen“?
+### Wie deaktiviere ich die Eigenschaft „Schreibgeschützt, empfohlen“?
 
 Um die Eigenschaft „Schreibgeschützt empfohlen“ zu deaktivieren, verwenden Sie einfach den folgenden Code:
 
@@ -79,12 +79,12 @@ Um die Eigenschaft „Schreibgeschützt empfohlen“ zu deaktivieren, verwenden 
 pres.getProtectionManager().setReadOnlyRecommended(false);
 ```
 
-### Kann ich ein Passwort für eine schreibgeschützte empfohlene Präsentation festlegen?
+### Kann ich für eine schreibgeschützte empfohlene Präsentation ein Kennwort festlegen?
 
-Ja, Sie können mit Aspose.Slides für Java ein Passwort für eine schreibgeschützte empfohlene Präsentation festlegen. Du kannst den ... benutzen`setPassword` Methode zum Festlegen eines Passworts für die Präsentation. Wenn ein Passwort festgelegt ist, müssen Benutzer dieses eingeben, um die Präsentation zu öffnen, auch im schreibgeschützten Modus.
+Ja, Sie können ein Passwort für eine schreibgeschützte empfohlene Präsentation mit Aspose.Slides für Java festlegen. Sie können das`setPassword` Methode, um ein Kennwort für die Präsentation festzulegen. Wenn ein Kennwort festgelegt ist, müssen Benutzer es eingeben, um die Präsentation zu öffnen, auch im schreibgeschützten Modus.
 
 ```java
 pres.getProtectionManager().setPassword("YourPassword");
 ```
 
- Denken Sie daran, es auszutauschen`"YourPassword"` mit Ihrem Wunschpasswort.
+ Denken Sie daran, zu ersetzen`"YourPassword"` mit Ihrem gewünschten Passwort.

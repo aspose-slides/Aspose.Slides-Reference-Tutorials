@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Paso 4: agregar una forma de marco de objeto OLE
 ```csharp
-// Agregar una forma de marco de objeto OLE
+//Agregar una forma de marco de objeto OLE
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ R: Sí, Aspose.Slides admite los últimos formatos de archivos de PowerPoint, in
 ### P: ¿Puedo personalizar la apariencia del marco de objetos OLE incrustado?
 R: Por supuesto, puedes ajustar el tamaño, la posición y otras propiedades del marco de objetos OLE según tus preferencias.
 ### P: ¿Dónde puedo buscar ayuda si encuentro desafíos durante la implementación?
- R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para el apoyo y orientación de la comunidad.
+R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para el apoyo y orientación de la comunidad.

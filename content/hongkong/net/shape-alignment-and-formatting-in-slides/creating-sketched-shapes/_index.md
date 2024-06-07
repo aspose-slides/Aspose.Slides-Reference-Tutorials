@@ -56,7 +56,7 @@ shape.LineFormat.SketchFormat.SketchType = LineSketchType.Scribble;
 pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
 ```
 ## 第 5 步：儲存簡報
-儲存具有草繪形狀的簡報檔案。
+儲存帶有草繪形狀的簡報文件。
 ```csharp
 pres.Save(outPptxFile, SaveFormat.Pptx);
 ```

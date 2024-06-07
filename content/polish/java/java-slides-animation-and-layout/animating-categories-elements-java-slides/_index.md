@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- tym kodzie ładujemy istniejącą prezentację programu PowerPoint zawierającą wykres, który chcesz animować. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
+ W tym kodzie ładujemy istniejącą prezentację programu PowerPoint zawierającą wykres, który chcesz animować. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 3: Uzyskaj odniesienie do obiektu wykresu
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Zapisz plik prezentacji na dysku
+	// Zapisz plik prezentacji na dysku
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Tak, możesz zastosować podobne animacje do innych typów wykresów, modyfikuj�
 
 ### Jak mogę dowiedzieć się więcej o Aspose.Slides dla Java?
 
-Obszerną dokumentację i dodatkowe zasoby można znaleźć na stronie[Aspose.Slides dla odniesienia do API Java](https://reference.aspose.com/slides/java/) . Bibliotekę można także pobrać ze strony[Tutaj](https://releases.aspose.com/slides/java/).
+ Obszerną dokumentację i dodatkowe zasoby można znaleźć na stronie[Aspose.Slides dla odniesienia do API Java](https://reference.aspose.com/slides/java/) . Bibliotekę można także pobrać ze strony[Tutaj](https://releases.aspose.com/slides/java/).

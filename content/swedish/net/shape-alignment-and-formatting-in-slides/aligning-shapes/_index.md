@@ -14,7 +14,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 -  Aspose.Slides for .NET Library: Se till att du har Aspose.Slides for .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Konfigurera en .NET-utvecklingsmiljö på din maskin.
 ## Importera namnområden
-din .NET-applikation importerar du de nödvändiga namnrymden för att arbeta med Aspose.Slides:
+I din .NET-applikation importerar du de nödvändiga namnrymden för att arbeta med Aspose.Slides:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Förbättra utan ansträngning den visuella dragningskraften hos dina presentationsbilder genom att utnyttja Aspose.Slides för .NET för att justera former. Denna steg-för-steg-guide har utrustat dig med kunskapen för att effektivisera anpassningsprocessen och skapa professionella presentationer.
 ## Vanliga frågor
 ### Kan jag justera former i en befintlig presentation med Aspose.Slides för .NET?
- Ja, du kan ladda en befintlig presentation med`Presentation.Load` och fortsätt sedan med att justera former.
+ Ja, du kan ladda en befintlig presentation med`Presentation.Load`och fortsätt sedan med att justera former.
 ### Finns det andra justeringsalternativ tillgängliga i Aspose.Slides?
 Aspose.Slides erbjuder olika justeringsalternativ, inklusive AlignTop, AlignRight, AlignBottom, AlignLeft och mer.
 ### Kan jag justera former baserat på deras fördelning i en bild?

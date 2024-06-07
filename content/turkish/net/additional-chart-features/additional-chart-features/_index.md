@@ -20,7 +20,7 @@ Ayrıntılı örneklere dalmadan önce aşağıdaki önkoşulların mevcut oldu�
 
 3. Temel C# Bilgisi: Kodu anlamak ve gerektiği gibi değiştirmek için C# programlamaya aşina olmak çok önemlidir.
 
-Artık önkoşulları ele aldığınıza göre, Aspose.Slides for .NET'teki bazı gelişmiş grafik özelliklerini inceleyelim.
+Artık önkoşulları öğrendiğinize göre Aspose.Slides for .NET'teki bazı gelişmiş grafik özelliklerini inceleyelim.
 
 ## Gerekli Ad Alanlarını İçe Aktarma
 
@@ -125,7 +125,7 @@ Bu örnekte bir PowerPoint sunumu yüklüyoruz (`TestChart.pptx` ) ve grafiğin 
 
 Aspose.Slides for .NET, PowerPoint sunumlarında grafiklerle çalışmak için güçlü bir platform sağlar. Bu eğitimde gösterilen gelişmiş özelliklerle veri görselleştirmenizi ve sunum tasarımınızı bir sonraki seviyeye taşıyabilirsiniz. Veri ayıklamak, çalışma kitaplarını kurtarmak veya grafik veri noktalarını değiştirmek istiyorsanız Aspose.Slides for .NET ihtiyacınızı karşılar.
 
-Sunulan kod örneklerini ve adımlarını takip ederek Aspose.Slides for .NET'in gücünden yararlanarak PowerPoint sunumlarınızı geliştirebilir ve etkileyici veri odaklı görseller oluşturabilirsiniz.
+Verilen kod örneklerini ve adımlarını takip ederek Aspose.Slides for .NET'in gücünden yararlanarak PowerPoint sunumlarınızı geliştirebilir ve etkili, veri odaklı görseller oluşturabilirsiniz.
 
 ## SSS (Sık Sorulan Sorular)
 

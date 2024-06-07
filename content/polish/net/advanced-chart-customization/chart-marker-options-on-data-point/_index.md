@@ -58,7 +58,7 @@ Otrzymujemy tutaj indeks domyślnego arkusza danych wykresu.
 ## Krok 3: Pobieranie arkusza danych wykresu
 
 ```csharp
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Ustawiamy znaczniki obrazu dla punktów danych, co pozwala dostosować sposób w
 ## Krok 6: Zmiana rozmiaru znacznika serii wykresów
 
 ```csharp
-//Zmiana rozmiaru znacznika serii wykresów
+// Zmiana rozmiaru znacznika serii wykresów
 series.Marker.Size = 15;
 ```
 

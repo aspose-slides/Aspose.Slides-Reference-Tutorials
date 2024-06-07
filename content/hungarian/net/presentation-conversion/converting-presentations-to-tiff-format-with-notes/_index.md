@@ -51,7 +51,7 @@ A konvertált TIFF fájl megjegyzésekkel a megadott kimeneti könyvtárba kerü
 
 ## Következtetés
 
-Ebben az oktatóanyagban végigvezettük a PowerPoint-prezentációk TIFF formátumba konvertálásának folyamatán jegyzetekkel az Aspose.Slides for .NET használatával. Ez a hatékony API leegyszerűsíti a feladatot, és elérhetővé teszi a fejlesztők számára, hogy programozottan dolgozhassanak a prezentációkkal. Mostantól javíthatja munkafolyamatát a prezentációk egyszerű konvertálásával.
+Ebben az oktatóanyagban végigvezettük a PowerPoint-prezentációk TIFF formátumba konvertálásának folyamatán jegyzetekkel az Aspose.Slides for .NET segítségével. Ez a hatékony API leegyszerűsíti a feladatot, és elérhetővé teszi a fejlesztők számára, hogy programozottan dolgozhassanak a prezentációkkal. Mostantól javíthatja munkafolyamatát a prezentációk egyszerű konvertálásával.
 
 Ha bármilyen kérdése van, vagy további segítségre van szüksége, kérjük, tekintse meg az alábbi GYIK részt.
 

@@ -47,7 +47,7 @@ try {
 }
 ```
 
-V tomto fragmentu kódu vytvoříme seskupený sloupcový graf na prvním snímku prezentace a poté získáme jeho miniaturu. Obrázek se uloží jako "image.png" do určeného adresáře.
+tomto fragmentu kódu vytvoříme seskupený sloupcový graf na prvním snímku prezentace a poté získáme jeho miniaturu. Obrázek se uloží jako "image.png" do určeného adresáře.
 
 ## Kompletní zdrojový kód pro získání obrázku grafu v Java Slides
 
@@ -75,7 +75,7 @@ Získávání obrázků grafu z Java Slides pomocí Aspose.Slides pro Java je je
 
 ### Jak nainstaluji Aspose.Slides for Java?
 
- Instalace Aspose.Slides pro Java je jednoduchá. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/) postupujte podle pokynů k instalaci uvedených v dokumentaci.
+ Instalace Aspose.Slides pro Java je jednoduchá. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/) a postupujte podle pokynů k instalaci uvedených v dokumentaci.
 
 ### Mohu upravit graf před získáním jeho obrázku?
 
@@ -91,4 +91,4 @@ Ano, Aspose.Slides for Java lze použít pro komerční účely. Poskytuje možn
 
 ### Mohu uložit obrázek grafu v jiném formátu?
 
-Rozhodně! Obrázek grafu můžete uložit v různých formátech, jako je JPEG nebo GIF, zadáním příslušné přípony souboru v`ImageIO.write` metoda.
+ Rozhodně! Obrázek grafu můžete uložit v různých formátech, jako je JPEG nebo GIF, zadáním příslušné přípony souboru v`ImageIO.write` metoda.

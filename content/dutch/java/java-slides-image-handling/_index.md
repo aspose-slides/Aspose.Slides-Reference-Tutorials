@@ -24,7 +24,7 @@ Als u dat nog niet heeft gedaan, is het tijd om vertrouwd te raken met Aspose.Sl
 
 Laten we nu eens kijken naar de tutorials waarmee u een expert wordt in het verwerken van Java-dia's:
 
-1. Afbeeldingen aan dia's toevoegen: Leer hoe u moeiteloos afbeeldingen aan uw Java-dia's kunt toevoegen. Of het nu gaat om afbeeldingen, afbeeldingen of pictogrammen, wij hebben een stapsgewijze handleiding voor u klaarstaan.
+1. Afbeeldingen aan dia's toevoegen: Leer hoe u moeiteloos afbeeldingen aan uw Java-dia's kunt toevoegen. Of het nu gaat om afbeeldingen, afbeeldingen of pictogrammen, wij hebben een stapsgewijze handleiding voor u klaar staan.
 
 2. Afbeeldingen bewerken en opmaken: ontdek de kunst van het bewerken en opmaken van afbeeldingen in uw dia's. Van het aanpassen van het formaat tot het toepassen van filters, u beheerst de technieken om uw beelden te laten schitteren.
 

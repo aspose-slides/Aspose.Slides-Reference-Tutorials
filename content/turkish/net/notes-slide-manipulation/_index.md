@@ -13,7 +13,7 @@ url: /tr/net/notes-slide-manipulation/
 
 ## Konuşmacı Notlarının Önemi
 
-Konuşmacı notları sunumlara benzersiz bir boyut kazandırarak sunum yapanların ilgi çekici ve bilgilendirici konuşmalar yapmalarına olanak tanır. Bu notlar genellikle sunum yapan kişinin referansı için tasarlanmıştır ve slayt içeriğini tamamlayan ek bilgiler, açıklamalar veya yönlendirmeler içerir. Konuşmacı notları bir metin görevi görerek sunum yapan kişiye her slaytta rehberlik edebilir, önemli noktaları vurgulayabilir ve sorunsuz ve güvenli bir sunum sağlayabilir. Bu notlar dinleyiciler tarafından görülmese de sunumun kalitesine etkisi yadsınamaz.
+Konuşmacı notları sunumlara benzersiz bir boyut kazandırarak sunum yapanların ilgi çekici ve bilgilendirici konuşmalar yapmalarına olanak tanır. Bu notlar genellikle sunum yapan kişinin referansı için tasarlanmıştır ve slayt içeriğini tamamlayan ek bilgiler, açıklamalar veya yönlendirmeler içerir. Konuşmacı notları, sunum yapan kişiye her slaytta rehberlik eden, önemli noktaları vurgulayan ve sorunsuz ve güvenli bir sunum sağlayan bir metin görevi görebilir. Bu notlar dinleyiciler tarafından görülmese de sunumun kalitesine etkisi yadsınamaz.
 
 ## Ne Öğreneceksiniz
 

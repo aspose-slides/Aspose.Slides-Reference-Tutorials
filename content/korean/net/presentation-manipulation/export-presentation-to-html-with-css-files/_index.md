@@ -67,7 +67,7 @@ HTML 프리젠테이션의 모양을 향상시키려면 "styles.css" 파일에�
 ### Q4: .NET용 Aspose.Slides에 대한 지원을 받으려면 어떻게 해야 합니까?
  기술 지원이나 질문이 있는 경우[Aspose.Slides 포럼](https://forum.aspose.com/).
 
-### Q5: Aspose.Slides for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있나요?
+### Q5: Aspose.Slides for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있습니까?
 Aspose.Slides for .NET은 주로 C#용이지만 Aspose는 Java 및 기타 언어용 버전도 제공합니다.
 
 .NET용 Aspose.Slides를 사용하면 CSS 파일을 사용하여 PowerPoint 프레젠테이션을 HTML로 쉽게 변환하여 청중에게 원활한 시청 경험을 보장할 수 있습니다.

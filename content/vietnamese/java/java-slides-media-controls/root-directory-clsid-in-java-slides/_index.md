@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Thay thế "your_output_path
 Presentation pres = new Presentation();
 ```
 
- Trong đoạn mã trên, chúng ta xác định đường dẫn cho tệp trình bày đầu ra và tạo một tệp mới`Presentation` sự vật.
+Trong đoạn mã trên, chúng ta xác định đường dẫn cho tệp trình bày đầu ra và tạo một tệp mới`Presentation` sự vật.
 
 ## Bước 2: Đặt thư mục gốc ClsId
 
- Để đặt ClsId thư mục gốc, bạn cần tạo một phiên bản của`PptOptions`và đặt CLSID mong muốn. CLSID đại diện cho ứng dụng sẽ được sử dụng làm thư mục gốc khi siêu liên kết được kích hoạt.
+ Để đặt ClsId thư mục gốc, bạn cần tạo một phiên bản của`PptOptions` và đặt CLSID mong muốn. CLSID đại diện cho ứng dụng sẽ được sử dụng làm thư mục gốc khi siêu liên kết được kích hoạt.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// đặt CLSID thành 'Microsoft Powerpoint.Show.8'
+	//đặt CLSID thành 'Microsoft Powerpoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Lưu bản trình bày
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

@@ -8,7 +8,7 @@ weight: 25
 url: /vi/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
 
-Là một người viết SEO thành thạo, tôi ở đây để cung cấp cho bạn hướng dẫn toàn diện về cách sử dụng Aspose.Slides for .NET để xóa một slide khỏi bản trình bày PowerPoint. Trong hướng dẫn từng bước này, chúng tôi sẽ chia quy trình thành các bước có thể quản lý được, đảm bảo rằng bạn có thể dễ dàng làm theo. Vậy hãy bắt đầu!
+Là một người viết SEO thành thạo, tôi ở đây để cung cấp cho bạn hướng dẫn toàn diện về cách sử dụng Aspose.Slides cho .NET để xóa một trang trình bày khỏi bản trình bày PowerPoint. Trong hướng dẫn từng bước này, chúng tôi sẽ chia quy trình thành các bước có thể quản lý được, đảm bảo rằng bạn có thể dễ dàng làm theo. Vậy hãy bắt đầu!
 
 ## Giới thiệu
 

@@ -62,7 +62,7 @@ V tomto tutoriálu jsme prozkoumali, jak exportovat matematické odstavce do Mat
 
 ### Q3: Jak mohu získat podporu pro Aspose.Slides pro .NET?
 
- Pro podporu navštivte[Fórum Aspose.Slides](https://forum.aspose.com/).
+ Pro podporu navštivte stránku[Fórum Aspose.Slides](https://forum.aspose.com/).
 
 ### Q4: Musím být odborníkem na MathML, abych mohl používat tuto knihovnu?
 

@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## Adım 5: Degrade Formatını Tanımlayın
 
- Bu adımda degrade formatını belirleyeceksiniz. Degradeyi tercihlerinize göre özelleştirebilirsiniz. Burada kullanıyoruz`TileFlip.FlipBoth` Görsel olarak çekici bir etki yaratmak için.
+Bu adımda degrade formatını belirleyeceksiniz. Degradeyi tercihlerinize göre özelleştirebilirsiniz. Burada kullanıyoruz`TileFlip.FlipBoth` Görsel olarak çekici bir etki yaratmak için.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

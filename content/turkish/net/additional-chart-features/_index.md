@@ -20,7 +20,7 @@ Aspose.Slides for .NET, görsel olarak ilgi çekici ve veri açısından zengin 
 - Etkileşimli Öğeler: Grafiklerinize araç ipuçları ve veri etiketleri gibi etkileşimli öğeler ekleyerek kullanıcı katılımını artırarak etkileşime dalın.
 - Özel Stil: Sunumunuzun estetiğine uyacak şekilde grafik stillerini, renkleri, yazı tiplerini ve diğer görsel nitelikleri özelleştirme tekniklerini keşfedin.
 - Trend Çizgileri ve Hata Çubukları: Trend çizgilerini ve hata çubuklarını grafiklerinize nasıl dahil edeceğinizi anlayarak veri eğilimleri ve değişkenliğine ilişkin daha derin bilgiler sağlayın.
-- Çoklu Eksen: Grafiklerdeki birden fazla eksenin esnekliğini keşfedin; bu, tek bir grafikte değişen ölçeklere sahip farklı veri serilerini görüntülemenize olanak tanır.
+- Çoklu Eksen: Grafiklerdeki birden fazla eksenin esnekliğini keşfedin; bu, tek bir grafikte farklı ölçeklerdeki farklı veri serilerini görüntülemenize olanak tanır.
 - Grafik Şablonları: Sunumlar genelinde grafik standardizasyon sürecini kolaylaştırarak grafik şablonlarının nasıl oluşturulacağını ve uygulanacağını öğrenin.
 
 ## Ek Grafik Özellikleri Öğreticileri

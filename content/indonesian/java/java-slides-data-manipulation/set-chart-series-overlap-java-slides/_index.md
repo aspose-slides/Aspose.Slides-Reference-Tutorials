@@ -76,7 +76,7 @@ try
 		// Rangkaian pengaturan tumpang tindih
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//Tulis file presentasi ke disk
+	// Tulis file presentasi ke disk
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -93,7 +93,7 @@ Selamat! Anda telah berhasil mempelajari cara mengatur rangkaian bagan yang tump
 
 ### Bagaimana cara mengubah tipe bagan di Aspose.Slides untuk Java?
 
- Untuk mengubah tipe grafik, Anda dapat menggunakan`ChartType` enumerasi saat menambahkan bagan. Ganti saja`ChartType.ClusteredColumn` dengan tipe grafik yang diinginkan, misalnya`ChartType.Line` atau`ChartType.Pie`.
+ Untuk mengubah tipe grafik, Anda dapat menggunakan`ChartType` enumerasi saat menambahkan bagan. Ganti saja`ChartType.ClusteredColumn` dengan tipe grafik yang diinginkan, seperti`ChartType.Line` atau`ChartType.Pie`.
 
 ### Opsi penyesuaian bagan apa lagi yang tersedia?
 

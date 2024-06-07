@@ -41,7 +41,7 @@ import com.aspose.slides.PresentationFactory;
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// سيُرجع "LoadFormat.Unknown" إذا كان الملف غير تنسيقات العرض التقديمي
+//سيُرجع "LoadFormat.Unknown" إذا كان الملف غير تنسيقات العرض التقديمي
 ```
 
  في هذا الكود نستخدم`PresentationFactory` للحصول على معلومات حول ملف العرض التقديمي، بما في ذلك تنسيقه. إذا لم يكن الملف بتنسيق عرض تقديمي صالح، فسيُرجع "LoadFormat.Unknown".
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // المسار إلى دليل المستندات.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // سيُرجع "LoadFormat.Unknown" إذا كان الملف غير تنسيقات العرض التقديمي
+        //سيُرجع "LoadFormat.Unknown" إذا كان الملف غير تنسيقات العرض التقديمي
 ```
 
 ## خاتمة

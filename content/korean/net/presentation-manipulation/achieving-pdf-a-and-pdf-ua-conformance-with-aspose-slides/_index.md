@@ -62,7 +62,7 @@ PDF/UA 규정 준수를 위해서는 접근성 보장이 중요합니다. Aspose
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// PDF/UA에 대한 접근성 지원 추가
+//PDF/UA에 대한 접근성 지원 추가
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // 프레젠테이션 로드
 using var presentation = new Presentation("presentation.pptx");
 
-// PDF/UA에 대한 접근성 지원 추가
+//PDF/UA에 대한 접근성 지원 추가
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

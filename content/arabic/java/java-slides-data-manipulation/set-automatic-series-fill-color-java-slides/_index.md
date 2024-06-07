@@ -71,7 +71,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 لحفظ العرض التقديمي استخدم الكود التالي:
 
 ```java
-//اكتب ملف العرض التقديمي على القرص
+// اكتب ملف العرض التقديمي على القرص
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//اكتب ملف العرض التقديمي على القرص
+	// اكتب ملف العرض التقديمي على القرص
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

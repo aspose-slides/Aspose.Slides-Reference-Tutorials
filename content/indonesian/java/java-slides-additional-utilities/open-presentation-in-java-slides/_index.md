@@ -58,7 +58,7 @@ try {
 ```java
         // Jalur ke direktori dokumen.
         String dataDir = "Your Document Directory";
-        // Membuka file presentasi dengan meneruskan jalur file ke konstruktor kelas Presentasi
+        //Membuka file presentasi dengan meneruskan jalur file ke konstruktor kelas Presentasi
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

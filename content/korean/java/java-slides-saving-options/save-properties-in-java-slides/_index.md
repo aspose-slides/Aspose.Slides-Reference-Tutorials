@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // 문서 디렉터리의 경로입니다.
 String dataDir = "Your Document Directory";
-// PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
+//PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
 Presentation presentation = new Presentation();
 try
 {

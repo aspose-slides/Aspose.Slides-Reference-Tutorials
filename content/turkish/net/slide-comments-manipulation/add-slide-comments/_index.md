@@ -91,7 +91,7 @@ Aspose.Slides kütüphanesini kullanarak renk, boyut ve yazı tipi gibi çeşitl
 
 ### 2. Slayttaki şekil veya resim gibi belirli öğelere yorum ekleyebilir miyim?
 
-Evet, Aspose.Slides for .NET, yalnızca slaytların tamamına değil aynı zamanda slayt içindeki şekiller veya görüntüler gibi ayrı ayrı öğelere de yorum eklemenizi sağlar.
+Evet, Aspose.Slides for .NET, yalnızca slaytların tamamına değil aynı zamanda slayt içindeki şekiller veya resimler gibi ayrı ayrı öğelere de yorum eklemenizi sağlar.
 
 ### 3. Aspose.Slides for .NET, PowerPoint dosyalarının farklı sürümleriyle uyumlu mudur?
 

@@ -92,4 +92,4 @@ Ya, Anda bisa bekerja dengan slide, bentuk, teks, gambar, dan elemen lainnya dal
  Anda dapat meminta lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Opsi dukungan apa yang tersedia untuk Aspose.Slides untuk pengguna .NET?
-Anda bisa mendapatkan dukungan dan bantuan dari komunitas Aspose di situs mereka[forum dukungan](https://forum.aspose.com/).
+ Anda bisa mendapatkan dukungan dan bantuan dari komunitas Aspose di situs mereka[forum dukungan](https://forum.aspose.com/).

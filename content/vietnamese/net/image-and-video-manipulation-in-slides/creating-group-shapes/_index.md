@@ -93,7 +93,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá quá trình tạo các h�
 ### Tôi có thể dùng thử Aspose.Slides trước khi mua không?
  Tuyệt đối! Bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm hỗ trợ cho các truy vấn liên quan đến Aspose.Slides ở đâu?
- Truy cập Aspose.Slides[diễn đàn](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
+Truy cập Aspose.Slides[diễn đàn](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.Slides?
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua giấy phép đầy đủ cho Aspose.Slides ở đâu?

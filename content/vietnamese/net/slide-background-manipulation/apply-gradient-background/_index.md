@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## Bước 5: Xác định định dạng gradient
 
- Trong bước này, bạn sẽ chỉ định định dạng gradient. Bạn có thể tùy chỉnh độ dốc theo sở thích của mình. Ở đây, chúng tôi sử dụng`TileFlip.FlipBoth` để tạo hiệu ứng hấp dẫn về mặt thị giác.
+Trong bước này, bạn sẽ chỉ định định dạng gradient. Bạn có thể tùy chỉnh độ dốc theo sở thích của mình. Ở đây, chúng tôi sử dụng`TileFlip.FlipBoth` để tạo hiệu ứng hấp dẫn về mặt thị giác.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

@@ -21,7 +21,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có sẵn các đ
 
 ## Bước 1: Thiết lập dự án của bạn
 
-Đầu tiên, tạo một dự án Java mới trong môi trường phát triển tích hợp (IDE) ưa thích của bạn. Đảm bảo bao gồm thư viện Aspose.Slides cho Java trong đường dẫn lớp của dự án của bạn.
+Đầu tiên, tạo một dự án Java mới trong môi trường phát triển tích hợp (IDE) ưa thích của bạn. Đảm bảo đưa thư viện Aspose.Slides for Java vào đường dẫn lớp của dự án của bạn.
 
 ## Bước 2: Nhập các gói cần thiết
 
@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## Bước 3: Tải bài thuyết trình
 
-Bây giờ, hãy tải bản trình bày bạn muốn chuyển đổi. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn:
+ Bây giờ, hãy tải bản trình bày bạn muốn chuyển đổi. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Chúc mừng! Bạn đã chuyển đổi thành công bản trình bày sang HTM
 
 ### Tôi có thể tùy chỉnh thêm đầu ra HTML không?
 
- Có, bạn có thể tùy chỉnh đầu ra HTML bằng cách sửa đổi`ResponsiveHtmlController` Và`HtmlOptions`các đối tượng. Điều này cho phép bạn điều chỉnh đầu ra HTML theo yêu cầu cụ thể của mình.
+ Có, bạn có thể tùy chỉnh đầu ra HTML bằng cách sửa đổi`ResponsiveHtmlController` Và`HtmlOptions` các đối tượng. Điều này cho phép bạn điều chỉnh đầu ra HTML theo yêu cầu cụ thể của mình.
 
 ### Có bất kỳ yêu cầu cấp phép nào đối với Aspose.Slides cho Java không?
 

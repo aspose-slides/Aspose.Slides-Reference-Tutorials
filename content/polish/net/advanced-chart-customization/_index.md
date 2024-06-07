@@ -18,7 +18,7 @@ Wykresy odgrywają kluczową rolę w przekazywaniu złożonych danych w zwięzł
 
 ### Podnieś estetykę swojej prezentacji
 
-Oprócz reprezentacji danych, ten samouczek poprowadzi Cię przez sztukę estetyki wykresów. Dowiedz się, jak wybrać odpowiedni typ wykresu dla swoich danych, rozmieścić elementy tak, aby uzyskać maksymalny efekt, a także wdrożyć animację i interaktywność, aby zaangażować odbiorców. Pod koniec tego samouczka będziesz potrafił przekształcać surowe dane w fascynujące historie wizualne, które przemawiają do widzów.
+Oprócz reprezentacji danych, ten samouczek poprowadzi Cię przez sztukę estetyki wykresów. Dowiedz się, jak wybrać odpowiedni typ wykresu dla swoich danych, rozmieścić elementy tak, aby uzyskać maksymalny efekt oraz wdrożyć animację i interaktywność, aby zaangażować odbiorców. Pod koniec tego samouczka będziesz potrafił przekształcać surowe dane w fascynujące historie wizualne, które przemawiają do widzów.
 
 ### Pierwsze kroki
 

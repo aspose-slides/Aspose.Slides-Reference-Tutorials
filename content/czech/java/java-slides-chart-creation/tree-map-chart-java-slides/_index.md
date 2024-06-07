@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //Vytvořit větev 1
+    // Vytvořit větev 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -133,7 +133,7 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jste se naučili, jak vytvořit graf stromové mapy v prezentaci PowerPoint pomocí knihovny Aspose.Slides for Java. Grafy stromové mapy jsou cenným nástrojem pro vizualizaci hierarchických dat, díky čemuž jsou vaše prezentace informativnější a poutavější.
+tomto tutoriálu jste se naučili, jak vytvořit graf stromové mapy v prezentaci PowerPoint pomocí knihovny Aspose.Slides for Java. Grafy stromové mapy jsou cenným nástrojem pro vizualizaci hierarchických dat, díky čemuž jsou vaše prezentace informativnější a poutavější.
 
 ## FAQ
 

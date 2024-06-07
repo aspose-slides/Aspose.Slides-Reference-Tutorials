@@ -16,7 +16,7 @@ url: /th/net/presentation-manipulation/import-pdf-content-into-presentations/
 ### ข้อกำหนดเบื้องต้น
 ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 - Visual Studio หรือ .NET IDE ใด ๆ ที่ติดตั้ง
--  Aspose.Slides สำหรับไลบรารี .NET (ดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides สำหรับไลบรารี .NET (ดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/slides/net/-)
 
 ### ขั้นตอนที่ 1: สร้างโครงการ .NET ใหม่
 เริ่มต้นด้วยการสร้างโปรเจ็กต์ .NET ใหม่ใน IDE ที่คุณต้องการ และกำหนดค่าตามความจำเป็น

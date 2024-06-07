@@ -14,7 +14,7 @@ I den här handledningen kommer vi att utforska hur man validerar diagramlayoute
 
 ## Steg 1: Initiera presentationen
 
-Först måste vi initiera ett presentationsobjekt och ladda en befintlig PowerPoint-presentation. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil (`test.pptx` i det här exemplet).
+ Först måste vi initiera ett presentationsobjekt och ladda en befintlig PowerPoint-presentation. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil (`test.pptx` i det här exemplet).
 
 ```java
 // Sökvägen till dokumentkatalogen.
@@ -88,7 +88,7 @@ I den här handledningen grävde vi in i världen av att arbeta med diagram i Po
 
 ### Hur ändrar jag diagramtypen?
 
- För att ändra diagramtypen byter du helt enkelt ut`ChartType.ClusteredColumn` med önskad diagramtyp i`addChart()` metod.
+ För att ändra diagramtypen byter du helt enkelt ut`ChartType.ClusteredColumn`med önskad diagramtyp i`addChart()` metod.
 
 ### Kan jag anpassa diagramdata?
 

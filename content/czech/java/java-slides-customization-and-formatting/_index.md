@@ -33,7 +33,7 @@ S Aspose.Slides pro Java se naučíte, jak:
  Jste připraveni zlepšit své prezentační dovednosti Java? Navštivte[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/)pro podrobné informace a návody. Knihovnu si také můžete stáhnout z[tady](https://releases.aspose.com/slides/java/) nastartovat svou cestu. A pokud o koupi uvažujete, prozkoumejte možnosti[tady](https://purchase.aspose.com/buy).
 
 ## Výukové programy přizpůsobení a formátování snímků Java
-### [Přidání vlastních čar v Java Slides](./adding-custom-lines-java-slides/)
+### [Přidání vlastních čar do snímků Java](./adding-custom-lines-java-slides/)
 Vylepšete své snímky Java pomocí vlastních čar. Průvodce krok za krokem pomocí Aspose.Slides pro Java. Naučte se přidávat a přizpůsobovat čáry v prezentacích pro působivé vizuály.
 ### [Vlastnosti písma pro graf v Java Slides](./font-properties-for-chart-java-slides/)
 Vylepšete vlastnosti písma grafu v Java Slides pomocí Aspose.Slides pro Java. Přizpůsobte si velikost, styl a barvu písma pro působivé prezentace.

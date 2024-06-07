@@ -10,7 +10,7 @@ url: /sv/java/data-manipulation/setting-callout-data-label-java-slides/
 
 ## Introduktion till inställning av bildtext för dataetikett i Aspose.Slides för Java
 
-I den här handledningen kommer vi att visa hur man ställer in bildtexter för dataetiketter i ett diagram med Aspose.Slides för Java. Bildtexter kan vara användbara för att markera specifika datapunkter i ditt diagram. Vi går igenom koden steg för steg och tillhandahåller den nödvändiga källkoden.
+den här handledningen kommer vi att visa hur man ställer in bildtexter för dataetiketter i ett diagram med Aspose.Slides för Java. Bildtexter kan vara användbara för att markera specifika datapunkter i ditt diagram. Vi går igenom koden steg för steg och tillhandahåller den nödvändiga källkoden.
 
 ## Förutsättningar
 
@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Anpassa etikettformatering (teckensnitt, fyllning, etc.)
+        //Anpassa etikettformatering (teckensnitt, fyllning, etc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Hur kan jag aktivera eller inaktivera bildtexter för dataetiketter?
 
- För att aktivera eller inaktivera bildtexter för dataetiketter, använd`setShowLabelAsDataCallout` metod. Ställ in den på`true` för att aktivera bildtexter och`false` för att inaktivera dem.
+ För att aktivera eller inaktivera bildtexter för dataetiketter, använd`setShowLabelAsDataCallout` metod. Ställ in den på`true` för att aktivera bildtexter och`false`för att inaktivera dem.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Aktivera länktexter

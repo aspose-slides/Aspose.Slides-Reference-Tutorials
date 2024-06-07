@@ -53,12 +53,12 @@ try {
 }
 ```
 
-## Code source complet pour une présentation ouverte dans les diapositives Java
+## Code source complet pour une présentation ouverte dans des diapositives Java
 
 ```java
         // Le chemin d'accès au répertoire des documents.
         String dataDir = "Your Document Directory";
-        // Ouverture du fichier de présentation en passant le chemin du fichier au constructeur de la classe Présentation
+        //Ouverture du fichier de présentation en passant le chemin du fichier au constructeur de la classe Présentation
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

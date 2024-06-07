@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- في الكود أعلاه، استبدل`"Your Document Directory"`بالمسار الفعلي إلى دليل المستندات الخاص بك و`"Hyperlink.pptx"` مع اسم ملف عرض PowerPoint التقديمي الخاص بك.
+ في الكود أعلاه، استبدل`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك و`"Hyperlink.pptx"` مع اسم ملف عرض PowerPoint التقديمي الخاص بك.
 
 ## الخطوة 3: إزالة الارتباطات التشعبية
 

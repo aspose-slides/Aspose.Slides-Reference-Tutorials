@@ -93,7 +93,7 @@ Ebben az oktatóanyagban megvizsgáltuk a csoportalakzatok létrehozásának fol
 ### Kipróbálhatom az Aspose.Slides-t vásárlás előtt?
  Teljesen! Letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hol találok támogatást az Aspose.Slides-hez kapcsolódó lekérdezésekhez?
- Látogassa meg az Aspose.Slides-t[fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásra és beszélgetésekre.
+Látogassa meg az Aspose.Slides-t[fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásra és beszélgetésekre.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatok teljes licencet az Aspose.Slides-hez?

@@ -1,6 +1,6 @@
 ---
-title: Klonovat snímek z jiné prezentace do zadané polohy
-linktitle: Klonovat snímek z jiné prezentace do zadané polohy
+title: Klonovat snímek z jiné prezentace do zadané pozice
+linktitle: Klonovat snímek z jiné prezentace do zadané pozice
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se klonovat snímky z různých prezentací do určené pozice pomocí Aspose.Slides for .NET. Podrobný průvodce s kompletním zdrojovým kódem, který zahrnuje klonování snímků, specifikaci pozice a ukládání prezentace.
 type: docs

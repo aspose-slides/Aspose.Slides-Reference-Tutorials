@@ -8,7 +8,7 @@ weight: 29
 url: /tr/net/presentation-manipulation/export-presentation-to-html-with-css-files/
 ---
 
-Günümüzün dijital çağında, etkili iletişim için dinamik ve etkileşimli sunumlar oluşturmak şarttır. Aspose.Slides for .NET, geliştiricilere sunumları CSS dosyalarıyla HTML'ye aktarma olanağı vererek içeriğinizi çeşitli platformlarda sorunsuz bir şekilde paylaşmanıza olanak tanır. Bu adım adım eğitimde, bunu başarmak için Aspose.Slides for .NET'i kullanma sürecinde size rehberlik edeceğiz.
+Günümüzün dijital çağında, etkili iletişim için dinamik ve etkileşimli sunumlar oluşturmak şarttır. Aspose.Slides for .NET, geliştiricilerin sunumları CSS dosyalarıyla HTML'ye aktarmalarına olanak tanıyarak içeriğinizi çeşitli platformlarda sorunsuz bir şekilde paylaşmanıza olanak tanır. Bu adım adım eğitimde, bunu başarmak için Aspose.Slides for .NET'i kullanma sürecinde size rehberlik edeceğiz.
 
 ## 1. Giriş
 Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasını sağlayan güçlü bir API'dir. Sunumları CSS dosyalarıyla HTML'ye aktarmak, içeriğinizin erişilebilirliğini ve görsel çekiciliğini artırabilir.

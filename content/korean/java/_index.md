@@ -63,3 +63,20 @@ Aspose.Slides for Java 튜토리얼을 사용하여 Java 슬라이드의 이미�
 Aspose.Slides를 사용하여 Java Slides 문서의 보안을 강화하는 방법을 알아보세요. 문서 보호에 대한 단계별 튜토리얼을 살펴보세요.
 ### [Java 슬라이드 저장 옵션](./saving-options/)
 Aspose.Slides for Java를 사용하여 Java 슬라이드 저장 옵션에 대해 알아보세요. 효율적인 슬라이드 관리 및 사용자 정의를 위한 포괄적인 튜토리얼과 가이드를 살펴보세요.
+
+### [Java PowerPoint 저장 작업](./java-powerpoint-save-operations/)
+Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 저장하는 방법을 알아보세요. 파일 저장, 스트리밍 및 비밀번호 보호 추가에 대한 튜토리얼입니다.
+### [Java PowerPoint 속성 관리](./java-powerpoint-properties-management/)
+Aspose.Slides for Java를 사용하여 PowerPoint 속성을 관리하는 방법을 알아보세요. 포괄적인 튜토리얼을 통해 속성에 쉽게 액세스하고, 수정하고, 업데이트할 수 있습니다.
+### [Java PowerPoint 렌더링 기술](./java-powerpoint-rendering-techniques/)
+Java용 Aspose.Slides를 사용하여 PowerPoint에서 댓글, 3D 그래픽, 이모티콘 등을 렌더링하는 방법을 알아보세요. 향상된 프레젠테이션을 위한 포괄적인 튜토리얼입니다.
+### [Java PowerPoint 모양 및 미디어 삽입](./java-powerpoint-shape-media-insertion/)
+Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 모양과 미디어를 삽입하는 방법을 알아보세요. 튜토리얼에는 라인, 오디오, OLE 개체 및 비디오 추가가 포함됩니다.
+### [Java PowerPoint 모양 및 썸네일 생성](./java-powerpoint-shape-thumbnail-creation/)
+Aspose.Slides Java를 사용하여 PowerPoint에서 모양과 축소판을 만드는 방법을 알아보세요. 그룹 모양 생성, 배율 축소판 그림 및 확대/축소 효과에 대한 자세한 튜토리얼입니다.
+### [Java PowerPoint 애니메이션 및 모양 조작](./java-powerpoint-animation-shape-manipulation/)
+Aspose.Slides for Java를 사용하여 PowerPoint에서 모양에 애니메이션을 적용하고 조작하는 방법을 알아보세요. 동적 프레젠테이션을 위한 종합 튜토리얼입니다.
+### [Java PowerPoint 도형 서식 및 기하학](./java-powerpoint-shape-formatting-geometry/)
+Java PowerPoint 모양 서식 지정 및 기하학 튜토리얼을 살펴보세요. Aspose.Slides for Java를 사용하여 모양을 채우고, 모양을 찾고, 사용자 정의 지오메트리를 만드는 방법을 알아보세요.
+### [Java PowerPoint 슬라이드 복제 기술](./java-powerpoint-slide-cloning-techniques/)
+Aspose.Slides for Java를 사용하여 PowerPoint에서 마스터 슬라이드 복제. 동일한 프레젠테이션 내에서 또는 여러 프레젠테이션 간에 원활하게 슬라이드를 복제하는 방법을 알아보세요.

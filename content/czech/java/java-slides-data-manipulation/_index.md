@@ -8,7 +8,7 @@ weight: 13
 url: /cs/java/data-manipulation/
 ---
 
-Jste připraveni zvládnout umění manipulace s daty Java Slides? Už v tom nehledejte. V tomto komplexním průvodci vás provedeme složitostí používání Aspose.Slides pro Java k vytváření, úpravám a vylepšování vašich prezentací. Ať už jste zkušený vývojář nebo teprve začínáte svou cestu do světa Java Slides, naše výukové programy vás vybaví znalostmi a dovednostmi, které potřebujete.
+Jste připraveni zvládnout umění manipulace s daty Java Slides? Už v tom nehledejte. V tomto komplexním průvodci vás provedeme složitostmi používání Aspose.Slides pro Java k vytváření, úpravě a vylepšení vašich prezentací. Ať už jste zkušený vývojář nebo teprve začínáte svou cestu do světa Java Slides, naše výukové programy vás vybaví znalostmi a dovednostmi, které potřebujete.
 
 ## Uvolněte sílu Aspose.Slides pro Javu
 
@@ -34,7 +34,7 @@ Aspose.Slides for Java vyniká jako nejlepší volba pro manipulaci se snímky d
 
 Ať už jste vývojář, který chce zlepšit své dovednosti, nebo obchodní profesionál, jehož cílem je vytvářet poutavé prezentace, naše výukové programy Aspose.Slides pro Java jsou vaší branou k úspěchu. Ponořte se do toho, prozkoumejte možnosti a odemkněte plný potenciál manipulace s daty snímků pomocí Javy.
 
-Závěrem lze říci, že Aspose.Slides for Java vám umožňuje převzít kontrolu nad prezentacemi snímků, díky čemuž jsou dynamické, poutavé a přizpůsobené vašim potřebám. Naše výukové programy vás provedou každým krokem a zajistí, že se stanete zdatným manipulátorem dat Java Slides. Začněte svou cestu ještě dnes a uvidíte proměnu sami.
+Závěrem lze říci, že Aspose.Slides for Java vám umožňuje převzít kontrolu nad vašimi prezentacemi, takže jsou dynamické, poutavé a přizpůsobené vašim potřebám. Naše výukové programy vás provedou každým krokem a zajistí, že se stanete zdatným manipulátorem dat Java Slides. Začněte svou cestu ještě dnes a uvidíte proměnu sami.
 
 Pamatujte, že to není jen o vytváření snímků; jde o vytváření působivých prezentací, které zanechají trvalý dojem. Aspose.Slides for Java je vaše tajná zbraň, jak toho dosáhnout. Takže, pojďme začít!
 ## Výukové programy pro manipulaci s daty Java Slides
@@ -66,7 +66,7 @@ Naučte se, jak načíst rozměry oblasti grafu v aplikaci Java Slides pomocí A
 Ověření rozložení hlavního grafu v PowerPointu pomocí Aspose.Slides pro Javu. Naučte se programově manipulovat s grafy pro úžasné prezentace.
 ### [Invert If Negative pro jednotlivé řady v Java Slides](./invert-if-negative-individual-series-java-slides/)
 Naučte se používat funkci Invert If Negative v Aspose.Slides for Java k vylepšení vizuálů grafů v prezentacích PowerPoint.
-### [Barva vodicí čáry v Java Slides](./leader-line-color-java-slides/)
+### [Barva vodící čáry v Java Slides](./leader-line-color-java-slides/)
 Naučte se, jak změnit barvy vodicí čáry v grafech aplikace PowerPoint pomocí Aspose.Slides pro Java. Průvodce krok za krokem s příklady zdrojového kódu.
 ### [Správa grafů vlastností v aplikaci Java Slides](./manage-properties-charts-java-slides/)
 Naučte se vytvářet úžasné grafy a spravovat vlastnosti na snímcích Java pomocí Aspose.Slides. Podrobný průvodce se zdrojovým kódem pro výkonné prezentace.
@@ -77,7 +77,7 @@ Naučte se, jak nastavit data grafu z excelového sešitu v Java Slides pomocí 
 ### [Nastavte překrytí sérií grafů v Java Slides](./set-chart-series-overlap-java-slides/)
 Série hlavních grafů se překrývají v Java Slides s Aspose.Slides pro Java. Naučte se krok za krokem, jak přizpůsobit vizuály grafu pro úžasné prezentace.
 ### [Nastavit štítky dat Procento přihlášení do Java Slides](./set-data-labels-percentage-sign-java-slides/)
-Naučte se, jak nastavit štítky dat se znaky procenta v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem.
+Naučte se, jak nastavit štítky dat se znaky procenta v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem.
 ### [Nastavte rozsah dat v Java Slides](./set-data-range-java-slides/)
 Naučte se, jak snadno nastavit rozsahy dat v Java slides pomocí Aspose.Slides for Java. Vytvářejte dynamické prezentace založené na datech pomocí tohoto podrobného průvodce. 
 ### [Nastavte externí sešit v Java Slides](./set-external-workbook-java-slides/)

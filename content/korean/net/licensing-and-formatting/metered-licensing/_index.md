@@ -10,7 +10,7 @@ url: /ko/net/licensing-and-formatting/metered-licensing/
 
 ## 소개
 
-PowerPoint 프레젠테이션 작업을 위한 뛰어난 라이브러리인 Aspose.Slides for .NET의 강력한 기능을 활용하고 싶으십니까? 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 Aspose.Slides를 사용하여 PowerPoint 파일을 손쉽게 생성, 조작 및 관리하기 위해 알아야 할 모든 것을 안내합니다. 계량 라이선스 설정부터 네임스페이스 액세스까지 모든 것을 다룹니다. 이 포괄적인 튜토리얼에서는 Aspose.Slides for .NET을 쉽게 마스터할 수 있도록 각 예제를 여러 단계로 나누어 보겠습니다.
+PowerPoint 프레젠테이션 작업을 위한 뛰어난 라이브러리인 Aspose.Slides for .NET의 강력한 기능을 활용하고 싶으십니까? 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 Aspose.Slides를 사용하여 PowerPoint 파일을 손쉽게 생성, 조작 및 관리하기 위해 알아야 할 모든 것을 안내합니다. 계량 라이선스 설정부터 네임스페이스 액세스까지 모든 것을 다룹니다. 이 포괄적인 튜토리얼에서는 Aspose.Slides for .NET을 쉽게 마스터할 수 있도록 각 예를 여러 단계로 나누어 보겠습니다.
 
 ## 전제조건
 

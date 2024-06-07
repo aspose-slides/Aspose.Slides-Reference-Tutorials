@@ -74,7 +74,7 @@ Selamat! Anda telah berhasil mengonversi file berformat FODP ke format presentas
 
 ### 3. Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Slides untuk .NET?
 
-Jika Anda memerlukan lisensi sementara, Anda dapat memperolehnya dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+ Jika Anda memerlukan lisensi sementara, Anda dapat memperolehnya dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Format presentasi apa yang didukung untuk konversi?
 

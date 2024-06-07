@@ -18,7 +18,7 @@ Ga op een reis vol expertise met onze Aspose.Slides voor .NET-tutorials, ontworp
 {{% /alert %}}
 
 Dit zijn links naar enkele nuttige bronnen:
-- [Presentatie conversie](./net/presentation-conversion/)
+- [Presentatieconversie](./net/presentation-conversion/)
 - [Presentatiemanipulatie](./net/presentation-manipulation/)
 - [Toegang tot en manipulatie van dia's](./net/slide-access-and-manipulation/)
 - [Dia-achtergrondmanipulatie](./net/slide-background-manipulation/)
@@ -28,7 +28,7 @@ Dit zijn links naar enkele nuttige bronnen:
 - [Audio- en video-extractie](./net/audio-and-video-extraction/)
 - [Opmerkingen Diamanipulatie](./net/notes-slide-manipulation/)
 - [Diaminiatuur genereren](./net/slide-thumbnail-generation/)
-- [Dia-animatiebediening](./net/slide-animation-control/)
+- [Dia-animatiebesturing](./net/slide-animation-control/)
 - [Dia-overgangseffecten](./net/slide-transition-effects/)
 - [Diaweergave en lay-outmanipulatie](./net/slide-view-and-layout-manipulation/)
 - [Licenties en opmaak](./net/licensing-and-formatting/)

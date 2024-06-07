@@ -74,7 +74,7 @@ Ya, Aspose.Slides mendukung .NET Core, memungkinkan Anda memanfaatkan fitur-fitu
 ### Bisakah saya menyesuaikan gaya mata panah lebih lanjut?
 Sangat! Aspose.Slides menyediakan opsi komprehensif untuk menyesuaikan panjang mata panah, gaya, dan banyak lagi.
 ### Di mana saya dapat menemukan dokumentasi Aspose.Slides tambahan?
- Jelajahi dokumentasinya[Di Sini](https://reference.aspose.com/slides/net/) untuk informasi mendalam dan contoh.
+ Jelajahi dokumentasinya[Di Sini](https://reference.aspose.com/slides/net/)untuk informasi mendalam dan contoh.
 ### Apakah ada uji coba gratis yang tersedia?
  Ya, Anda dapat mencoba Aspose.Slides dengan uji coba gratis. Unduh itu[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides?

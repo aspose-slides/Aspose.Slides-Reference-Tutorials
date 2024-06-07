@@ -30,12 +30,12 @@ När du har bemästrat grunderna är det dags att utforska de avancerade funktio
 
 ## Gå med i Aspose Community
 
-När du dyker djupare in i Aspose.Slides för Javas värld kan du stöta på frågor eller stöta på utmaningar. Oroa dig inte; du är inte ensam. De[Aspose gemenskapsforum](https://forum.aspose.com/) är ett nav för utvecklare som du för att söka hjälp, dela erfarenheter och samarbeta i projekt.
+När du dyker djupare in i Aspose.Slides för Javas värld kan du stöta på frågor eller stöta på utmaningar. Oroa dig inte; du är inte ensam. De[Aspose community forum](https://forum.aspose.com/) är ett nav för utvecklare som du för att söka hjälp, dela erfarenheter och samarbeta i projekt.
 
 Sammanfattningsvis är Aspose.Slides för Java en spelväxlare för utvecklare som vill skapa dynamiska och engagerande presentationer i Java-applikationer. Våra tutorials kommer att vara dina pålitliga följeslagare på denna spännande resa, och hjälpa dig att låsa upp den fulla potentialen hos detta anmärkningsvärda API. Så vad väntar du på? Dyk in i handledningarna och låt din kreativitet lysa med Aspose.Slides för Java!
 
 ## Aspose.Slides för Java Tutorials
-### [Java Slides-licensiering och initiering](./licensing-and-initialization/)
+### [Java Slides licensiering och initiering](./licensing-and-initialization/)
 Upptäck hur du effektivt licensierar och initierar Aspose.Slides för Java i våra omfattande handledningar. Kom igång med Java Slides nu!
 ### [Java Slides Chart Data Manipulation](./chart-data-manipulation/)
 Lås upp kraften i Java Slides Chart Data Manipulation med Aspose.Slides för Java. Skapa fantastiska bilder och insikter utan ansträngning.
@@ -63,3 +63,20 @@ Lär dig hur du hanterar bilder i Java-bilder med Aspose.Slides för Java tutori
 Lär dig hur du förbättrar säkerheten för dina Java Slides-dokument med Aspose.Slides. Utforska steg-för-steg handledningar för dokumentskydd.
 ### [Spara alternativ för Java-bilder](./saving-options/)
 Lär dig mer om alternativen för att spara Java Slides med Aspose.Slides för Java. Utforska omfattande handledningar och guider för effektiv bildhantering och anpassning.
+
+### [Java PowerPoint Save Operations](./java-powerpoint-save-operations/)
+Lär dig hur du sparar PowerPoint-presentationer med Aspose.Slides för Java. Handledningar om att spara till fil, streama och lägga till lösenordsskydd.
+### [Java PowerPoint-egenskapshantering](./java-powerpoint-properties-management/)
+Upptäck hur du hanterar PowerPoint-egenskaper med Aspose.Slides för Java. Få tillgång till, ändra och uppdatera egenskaper utan ansträngning med våra omfattande handledningar.
+### [Java PowerPoint-renderingstekniker](./java-powerpoint-rendering-techniques/)
+Lär dig hur du renderar kommentarer, 3D-grafik, emojis och mer i PowerPoint med Aspose.Slides för Java. Omfattande självstudier för förbättrade presentationer.
+### [Java PowerPoint-form och mediainsättning](./java-powerpoint-shape-media-insertion/)
+Lär dig hur du infogar former och media i PowerPoint-presentationer med Aspose.Slides för Java. Handledningar inkluderar att lägga till linjer, ljud, OLE-objekt och videor.
+### [Skapa Java PowerPoint-form och miniatyrbilder](./java-powerpoint-shape-thumbnail-creation/)
+Lär dig att skapa former och miniatyrer i PowerPoint med Aspose.Slides Java. Detaljerade tutorials om att skapa gruppformer, skalningsfaktorminiatyrer och zoomeffekter.
+### [Java PowerPoint-animering och formmanipulation](./java-powerpoint-animation-shape-manipulation/)
+Lär dig hur du animerar och manipulerar former i PowerPoint med Aspose.Slides för Java. Omfattande tutorials för dynamiska presentationer.
+### [Java PowerPoint-formformatering och geometri](./java-powerpoint-shape-formatting-geometry/)
+Upptäck Java PowerPoint-formformatering och geometrihandledningar. Lär dig att fylla former, hitta former och skapa anpassad geometri med Aspose.Slides för Java.
+### [Java PowerPoint Slide Kloning Tekniker](./java-powerpoint-slide-cloning-techniques/)
+Master bildkloning i PowerPoint med Aspose.Slides för Java. Lär dig att klona bilder i samma presentation eller över presentationer sömlöst.

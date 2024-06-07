@@ -85,4 +85,4 @@ A: 예, Aspose.Slides는 최신 .NET 프레임워크 버전을 지원하도록 �
 ### Q: Aspose.Slides의 임시 라이선스를 어떻게 얻나요?
  A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Slides에 대한 도움과 지원은 어디서 구할 수 있나요?
- 답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회 지원을 위해.
+답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회 지원을 위해.

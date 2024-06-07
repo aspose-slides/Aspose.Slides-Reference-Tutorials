@@ -10,7 +10,7 @@ url: /pl/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 
 ## Wprowadzenie do pobierania wartości i skali jednostek z osi w slajdach Java
 
-W tym samouczku omówimy, jak pobrać wartości i skalę jednostkową z osi w Java Slides za pomocą interfejsu API Aspose.Slides for Java. Niezależnie od tego, czy pracujesz nad projektem wizualizacji danych, czy chcesz analizować dane wykresów w aplikacjach Java, niezbędna jest wiedza o tym, jak uzyskać dostęp do wartości osi. Przeprowadzimy Cię przez proces krok po kroku, podając po drodze przykłady kodu.
+tym samouczku omówimy, jak pobrać wartości i skalę jednostkową z osi w Java Slides za pomocą interfejsu API Aspose.Slides for Java. Niezależnie od tego, czy pracujesz nad projektem wizualizacji danych, czy chcesz analizować dane wykresów w aplikacjach Java, niezbędna jest wiedza o tym, jak uzyskać dostęp do wartości osi. Przeprowadzimy Cię przez proces krok po kroku, podając po drodze przykłady kodu.
 
 ## Warunki wstępne
 
@@ -18,7 +18,7 @@ Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wym
 
 1. Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną wersję Java w swoim systemie i znasz koncepcje programowania w języku Java.
 
-2. Aspose.Slides dla Java: Pobierz i zainstaluj bibliotekę Aspose.Slides dla Java z pliku[link do pobrania](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides dla Java: Pobierz i zainstaluj bibliotekę Aspose.Slides dla Java z pliku[link do pobrania](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Tworzenie prezentacji
 
@@ -99,7 +99,7 @@ finally
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak uzyskać wartości i skalę jednostkową z osi w Java Slides przy użyciu Aspose.Slides dla Java. Może to być niezwykle cenne podczas pracy z wykresami i analizowania danych w aplikacjach Java. Aspose.Slides dla Java zapewnia narzędzia potrzebne do programowej pracy z prezentacjami, dając kontrolę nad danymi wykresów i wiele więcej.
+tym samouczku omówiliśmy, jak uzyskać wartości i skalę jednostkową z osi w Java Slides przy użyciu Aspose.Slides dla Java. Może to być niezwykle cenne podczas pracy z wykresami i analizowania danych w aplikacjach Java. Aspose.Slides dla Java zapewnia narzędzia potrzebne do programowej pracy z prezentacjami, dając kontrolę nad danymi wykresów i wiele więcej.
 
 ## Często zadawane pytania
 

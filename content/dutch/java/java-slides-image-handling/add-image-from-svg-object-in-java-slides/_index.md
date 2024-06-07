@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Zorg ervoor dat u vervangt`"Your Document Directory"`met het daadwerkelijke pad naar de map van uw project waar het SVG-bestand zich bevindt.
+ Zorg ervoor dat u vervangt`"Your Document Directory"` met het daadwerkelijke pad naar de map van uw project waar het SVG-bestand zich bevindt.
 
 ## Stap 2: Maak een nieuwe PowerPoint-presentatie
 
@@ -103,7 +103,7 @@ In deze uitgebreide handleiding hebben we geleerd hoe u een afbeelding van een S
 
 ### Hoe kan ik ervoor zorgen dat de SVG-afbeelding goed in mijn dia past?
 
-U kunt de afmetingen en positionering van de SVG-afbeelding aanpassen door de parameters te wijzigen wanneer u deze aan de dia toevoegt. Experimenteer met de waarden om het gewenste uiterlijk te bereiken.
+kunt de afmetingen en positionering van de SVG-afbeelding aanpassen door de parameters te wijzigen wanneer u deze aan de dia toevoegt. Experimenteer met de waarden om het gewenste uiterlijk te bereiken.
 
 ### Kan ik meerdere SVG-afbeeldingen aan één dia toevoegen?
 

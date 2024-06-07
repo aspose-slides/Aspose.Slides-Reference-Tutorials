@@ -94,7 +94,7 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu cách chuyển đổi bả
 
 ### Làm cách nào để cài đặt Aspose.Slides cho Java?
 
- Bạn có thể tải xuống Aspose.Slides cho Java từ[đây](https://releases.aspose.com/slides/java/)và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+ Bạn có thể tải xuống Aspose.Slides cho Java từ[đây](https://releases.aspose.com/slides/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể chuyển đổi bản trình bày PowerPoint sang các định dạng khác không?
 

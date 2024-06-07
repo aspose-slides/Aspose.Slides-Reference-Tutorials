@@ -39,7 +39,7 @@ using (Presentation p = new Presentation(FileName))
     if (layoutSlide == null)
     {
         //簡報不包含某種類型的佈局時的情況。
-        //…
+        //……
 
         //新增空幻燈片並新增版面配置幻燈片
         p.Slides.InsertEmptySlide(0, layoutSlide);
@@ -62,11 +62,11 @@ using (Presentation presentation = new Presentation(presentationName))
     ISlide slide = presentation.Slides[0];
     IShape shape = slide.Shapes[0];
 
-    //…
+    //……
 
     IShape masterShape = layoutShape.GetBasePlaceholder();
 
-    //…
+    //……
 }
 ```
 
@@ -80,7 +80,7 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 {
     IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
 
-    //…
+    //……
 
     presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 }

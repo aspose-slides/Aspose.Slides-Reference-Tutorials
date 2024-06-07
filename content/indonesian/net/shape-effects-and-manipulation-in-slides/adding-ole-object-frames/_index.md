@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Langkah 4: Tambahkan Bentuk Bingkai Objek OLE
 ```csharp
-// Tambahkan bentuk Bingkai Objek OLE
+//Tambahkan bentuk Bingkai Objek OLE
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ J: Ya, Aspose.Slides mendukung format file PowerPoint terbaru, termasuk PPTX.
 ### T: Bisakah saya mengkustomisasi tampilan Bingkai Objek OLE yang tertanam?
 J: Tentu saja, Anda dapat menyesuaikan ukuran, posisi, dan properti lain dari OLE Object Frame sesuai preferensi Anda.
 ### T: Di mana saya bisa mencari bantuan jika saya menemui kendala selama penerapan?
- J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan bimbingan masyarakat.
+J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan bimbingan masyarakat.

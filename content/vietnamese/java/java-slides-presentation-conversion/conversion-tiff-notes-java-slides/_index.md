@@ -65,7 +65,7 @@ finally
 
 ## Phần kết luận
 
-Chúc mừng! Bạn đã chuyển đổi thành công bản trình bày Java Slides sang định dạng TIFF với các ghi chú được nhúng bằng Aspose.Slides for Java. Quá trình này cho phép bạn giữ lại các ghi chú và chú thích quan trọng trong bản trình bày của mình, khiến nó trở thành một công cụ có giá trị cho các tình huống kinh doanh và giáo dục khác nhau.
+Chúc mừng! Bạn đã chuyển đổi thành công bản trình bày Java Slides sang định dạng TIFF với các ghi chú được nhúng bằng Aspose.Slides for Java. Quá trình này cho phép bạn giữ lại các ghi chú và chú thích quan trọng trong bản trình bày của mình, khiến nó trở thành một công cụ có giá trị cho nhiều tình huống kinh doanh và giáo dục khác nhau.
 
 ## Câu hỏi thường gặp
 

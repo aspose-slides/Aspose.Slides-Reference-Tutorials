@@ -70,7 +70,7 @@ notesOptions.setNotesPosition(NotesPositions.BottomFull);
 配置完所有選項後，您現在可以使用指定的設定將簡報儲存為 TIFF 影像。
 
 ```java
-//將簡報儲存為具有指定影像大小的 TIFF
+//將簡報儲存為具有指定影像尺寸的 TIFF
 pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 ```
 
@@ -103,7 +103,7 @@ try
 	opts.setDpiY(100);
 	//設定圖像尺寸
 	opts.setImageSize(new Dimension(1728, 1078));
-	//將簡報儲存為具有指定影像大小的 TIFF
+	//將簡報儲存為具有指定影像尺寸的 TIFF
 	pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 finally

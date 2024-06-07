@@ -10,7 +10,7 @@ url: /pl/java/image-handling/add-image-from-svg-object-in-java-slides/
 
 ## Wprowadzenie do dodawania obrazu z obiektu SVG w slajdach Java
 
-W dzisiejszej erze cyfrowej prezentacje odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Dodawanie obrazów do prezentacji może zwiększyć ich atrakcyjność wizualną i uczynić je bardziej wciągającymi. W tym przewodniku krok po kroku omówimy, jak dodać obraz z obiektu SVG (Scalable Vector Graphics) do slajdów Java za pomocą Aspose.Slides for Java. Niezależnie od tego, czy tworzysz treści edukacyjne, prezentacje biznesowe czy cokolwiek innego, ten samouczek pomoże Ci opanować sztukę włączania obrazów SVG do prezentacji Java Slides.
+dzisiejszej erze cyfrowej prezentacje odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Dodawanie obrazów do prezentacji może zwiększyć ich atrakcyjność wizualną i uczynić je bardziej wciągającymi. W tym przewodniku krok po kroku omówimy, jak dodać obraz z obiektu SVG (Scalable Vector Graphics) do slajdów Java za pomocą Aspose.Slides for Java. Niezależnie od tego, czy tworzysz treści edukacyjne, prezentacje biznesowe czy cokolwiek innego, ten samouczek pomoże Ci opanować sztukę włączania obrazów SVG do prezentacji Java Slides.
 
 ## Warunki wstępne
 
@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Pamiętaj o wymianie`"Your Document Directory"` rzeczywistą ścieżką do katalogu projektu, w którym znajduje się plik SVG.
+ Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do katalogu projektu, w którym znajduje się plik SVG.
 
 ## Krok 2: Utwórz nową prezentację programu PowerPoint
 
@@ -50,7 +50,7 @@ try
     IPPImage ppImage = p.getImages().addImage(svgImage);
 ```
 
-W tym kroku czytamy zawartość pliku SVG i konwertujemy go na obiekt obrazu SVG. Następnie dodajemy ten obraz SVG do prezentacji programu PowerPoint.
+tym kroku czytamy zawartość pliku SVG i konwertujemy go na obiekt obrazu SVG. Następnie dodajemy ten obraz SVG do prezentacji programu PowerPoint.
 
 ## Krok 4: Dodaj obraz SVG do slajdu
 
@@ -97,7 +97,7 @@ Na koniec zapisujemy prezentację w formacie PPTX. Nie zapomnij zamknąć i pozb
 
 ## Wniosek
 
-tym obszernym przewodniku dowiedzieliśmy się, jak dodać obraz z obiektu SVG do Java Slides za pomocą Aspose.Slides for Java. Ta umiejętność jest nieoceniona, jeśli chcesz stworzyć atrakcyjne wizualnie i pouczające prezentacje, które przyciągną uwagę odbiorców.
+W tym obszernym przewodniku dowiedzieliśmy się, jak dodać obraz z obiektu SVG do Java Slides za pomocą Aspose.Slides for Java. Ta umiejętność jest nieoceniona, gdy chcesz tworzyć atrakcyjne wizualnie i pouczające prezentacje, które przyciągną uwagę odbiorców.
 
 ## Często zadawane pytania
 

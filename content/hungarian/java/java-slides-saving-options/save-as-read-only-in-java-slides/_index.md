@@ -37,7 +37,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-// Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
+//Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
 Presentation presentation = new Presentation();
 ```
 
@@ -78,7 +78,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
+//Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
 Presentation presentation = new Presentation();
 try
 {

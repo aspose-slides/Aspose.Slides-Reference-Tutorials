@@ -77,7 +77,7 @@ pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pp
 
 Вы успешно научились очищать определенные точки данных серии диаграмм с помощью Aspose.Slides для .NET. Это может быть полезной функцией, когда вам нужно программно манипулировать данными диаграммы в презентациях PowerPoint.
 
- Если у вас есть какие-либо вопросы или возникли какие-либо проблемы, не стесняйтесь посетить[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/) или обратитесь за помощью в[Форум Aspose.Slides](https://forum.aspose.com/).
+ Если у вас есть какие-либо вопросы или возникли какие-либо проблемы, не стесняйтесь посетить[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/) или обратиться за помощью в[Форум Aspose.Slides](https://forum.aspose.com/).
 
 ## Часто задаваемые вопросы
 

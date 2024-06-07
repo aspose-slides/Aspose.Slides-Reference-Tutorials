@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Instellen van de index van het kaartgegevensblad
 int defaultWorksheetIndex = 0;
 
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Wijzig de namen van diagramcategorieën
@@ -57,7 +57,7 @@ fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
 ## Stap 4: Update de eerste kaartserie
 
 ```java
-// Neem de eerste kaartenserie
+// Neem de eerste kaartenreeks
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
 // Serienaam bijwerken
@@ -72,7 +72,7 @@ series.getDataPoints().get_Item(2).getValue().setData(44);
 ## Stap 5: Update de tweede kaartreeks
 
 ```java
-// Neem de tweede kaartenserie
+// Neem de tweede kaartenreeks
 series = chart.getChartData().getSeries().get_Item(1);
 
 // Serienaam bijwerken
@@ -128,12 +128,12 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // De index van het kaartgegevensblad instellen
 int defaultWorksheetIndex = 0;
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Categorienaam van diagram wijzigen
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
 fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
-// Neem de eerste kaartenserie
+// Neem de eerste kaartenreeks
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 // Seriegegevens worden nu bijgewerkt
 fact.getCell(defaultWorksheetIndex, 0, 1, "New_Series1");// Serienaam wijzigen
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Neem de derde kaartserie
 series = chart.getChartData().getSeries().get_Item(2);
-// Vult nu seriegegevens in
+//Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

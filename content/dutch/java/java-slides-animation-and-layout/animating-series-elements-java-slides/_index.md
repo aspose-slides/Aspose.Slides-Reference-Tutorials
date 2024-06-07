@@ -22,7 +22,7 @@ Zorg ervoor dat u over het volgende beschikt voordat u begint:
 
 ## Stap 1: Laad de presentatie
 
-Eerst moet u de PowerPoint-presentatie laden die het diagram bevat dat u wilt animeren. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
+ Eerst moet u de PowerPoint-presentatie laden die het diagram bevat dat u wilt animeren. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -103,7 +103,7 @@ finally
 
 ## Conclusie
 
-U hebt geleerd hoe u serie-elementen in PowerPoint-dia's kunt animeren met Aspose.Slides voor Java. Animaties kunnen uw presentaties verbeteren en aantrekkelijker maken. Pas de animatie-effecten en triggers aan uw specifieke behoeften aan.
+hebt geleerd hoe u serie-elementen in PowerPoint-dia's kunt animeren met Aspose.Slides voor Java. Animaties kunnen uw presentaties verbeteren en aantrekkelijker maken. Pas de animatie-effecten en triggers aan uw specifieke behoeften aan.
 
 ## Veelgestelde vragen
 
@@ -113,7 +113,7 @@ U kunt de animatie voor afzonderlijke diagramelementen aanpassen door het animat
 
 ### Kan ik animaties toepassen op andere objecten in een PowerPoint-dia?
 
-Ja, u kunt animaties toepassen op verschillende objecten in een PowerPoint-dia, niet alleen op diagrammen. Gebruik de`addEffect` methode om het object dat u wilt animeren en de gewenste animatie-eigenschappen op te geven.
+ Ja, u kunt animaties toepassen op verschillende objecten in een PowerPoint-dia, niet alleen op diagrammen. Gebruik de`addEffect` methode om het object dat u wilt animeren en de gewenste animatie-eigenschappen op te geven.
 
 ### Hoe integreer ik Aspose.Slides voor Java in mijn project?
 

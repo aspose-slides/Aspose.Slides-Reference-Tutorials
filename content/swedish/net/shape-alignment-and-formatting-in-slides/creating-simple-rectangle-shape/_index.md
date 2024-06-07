@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    // Din kod för nästa steg kommer att hamna här.
+    // Din kod för nästa steg kommer här.
 }
 ```
 ## Steg 3: Skaffa den första bilden

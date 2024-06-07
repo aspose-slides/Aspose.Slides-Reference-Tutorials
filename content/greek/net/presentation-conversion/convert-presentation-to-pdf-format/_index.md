@@ -39,7 +39,7 @@ using Aspose.Slides;
 using Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
-## Μετατροπή παρουσίασης σε PDF
+## Μετατροπή της παρουσίασης σε PDF
 
 Αφού φορτώσετε την παρουσίαση, το επόμενο βήμα είναι να τη μετατρέψετε σε μορφή PDF. Το Aspose.Slides κάνει αυτή τη διαδικασία απλή:
 

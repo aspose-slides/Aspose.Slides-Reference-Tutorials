@@ -49,7 +49,7 @@ Ottieni la prima diapositiva della presentazione in cui desideri aggiungere il g
 ## Passaggio 4: aggiungi un grafico a torta
 
 ```java
-// Aggiungi un grafico a torta con dati predefiniti
+//Aggiungi un grafico a torta con dati predefiniti
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
 
-//Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Elimina le serie e le categorie generate predefinite
@@ -105,7 +105,7 @@ Personalizza i dati del grafico aggiungendo categorie e serie e impostandone i v
 // Imposta i colori del settore
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
-// Personalizza l'aspetto di ogni settore
+// Personalizza l'aspetto di ciascun settore
 IChartDataPoint point1 = series.getDataPoints().get_Item(0);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Personalizza altri settori in modo simile
+// Personalizza altri settori in modo simile
 ```
 
 Personalizza l'aspetto di ciascun settore nel grafico a torta. Puoi modificare i colori, gli stili dei bordi e altre proprietà visive.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
-//Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Elimina le serie e le categorie generate predefinite
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Aggiunta di nuove serie
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Ora popolano i dati delle serie
+//Ora popolano i dati delle serie
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Non funziona nella nuova versione
+// Non funziona nella nuova versione
 // Aggiunta di nuovi punti e impostazione del colore del settore
 // serie.IsColorVaried = vero;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ Hai creato con successo un grafico a torta in una presentazione di PowerPoint ut
 
 ### Come posso cambiare i colori dei singoli settori nel grafico a torta?
 
- Per modificare i colori dei singoli settori nel grafico a torta, puoi personalizzare il colore di riempimento per ciascun punto dati. Nell'esempio di codice fornito, abbiamo dimostrato come impostare il colore di riempimento per ciascun settore utilizzando il comando`getSolidFillColor().setColor()`metodo. È possibile modificare i valori del colore per ottenere l'aspetto desiderato.
+ Per modificare i colori dei singoli settori nel grafico a torta, puoi personalizzare il colore di riempimento per ciascun punto dati. Nell'esempio di codice fornito, abbiamo dimostrato come impostare il colore di riempimento per ciascun settore utilizzando il comando`getSolidFillColor().setColor()` metodo. È possibile modificare i valori del colore per ottenere l'aspetto desiderato.
 
 ### Posso aggiungere più categorie e serie di dati al grafico a torta?
 
@@ -278,7 +278,7 @@ Assicurati di specificare il percorso e il formato del file corretti.
 
 ### Posso creare altri tipi di grafici utilizzando Aspose.Slides per Java?
 
- Sì, Aspose.Slides per Java supporta vari tipi di grafici, inclusi grafici a barre, grafici a linee e altro. È possibile creare diversi tipi di grafici modificando il file`ChartType` quando si aggiunge un grafico. Fare riferimento alla documentazione di Aspose.Slides per maggiori dettagli sulla creazione di diversi tipi di grafici.
+Sì, Aspose.Slides per Java supporta vari tipi di grafici, inclusi grafici a barre, grafici a linee e altro. È possibile creare diversi tipi di grafici modificando il file`ChartType` quando si aggiunge un grafico. Fare riferimento alla documentazione di Aspose.Slides per maggiori dettagli sulla creazione di diversi tipi di grafici.
 
 ### Come posso trovare ulteriori informazioni ed esempi per lavorare con Aspose.Slides per Java?
 

@@ -28,7 +28,7 @@ using Aspose.Slides;
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // Φόρτωση εικόνας για προσθήκη στη συλλογή εικόνων παρουσίασης
+    //Φόρτωση εικόνας για προσθήκη στη συλλογή εικόνων παρουσίασης
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...

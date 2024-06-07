@@ -71,7 +71,7 @@ Questo codice garantisce che il colore di riempimento della serie sia impostato 
 Per salvare la presentazione, utilizzare il seguente codice:
 
 ```java
-//Scrivere il file di presentazione su disco
+// Scrivere il file di presentazione su disco
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Scrivere il file di presentazione su disco
+	// Scrivere il file di presentazione su disco
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -121,7 +121,7 @@ Sì, Aspose.Slides per Java può essere utilizzato sia per progetti personali ch
 
 ### Ci sono altre funzionalità fornite da Aspose.Slides per Java?
 
-Sì, Aspose.Slides per Java offre un'ampia gamma di funzionalità, tra cui la manipolazione delle diapositive, la formattazione del testo e il supporto delle animazioni.
+Sì, Aspose.Slides per Java offre un'ampia gamma di funzionalità, tra cui la manipolazione delle diapositive, la formattazione del testo e il supporto dell'animazione.
 
 ### Dove posso trovare ulteriori risorse e documentazione?
 

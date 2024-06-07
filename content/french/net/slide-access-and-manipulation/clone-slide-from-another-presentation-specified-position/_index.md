@@ -114,7 +114,7 @@ namespace SlideCloningDemo
 
 ## Conclusion
 
-Dans ce guide, nous avons expliqué comment cloner une diapositive d'une présentation différente vers une position spécifiée à l'aide d'Aspose.Slides pour .NET. Cette puissante bibliothèque simplifie le processus de travail avec les présentations PowerPoint par programmation, vous permettant de manipuler et de personnaliser efficacement vos diapositives.
+Dans ce guide, nous avons exploré comment cloner une diapositive d'une présentation différente vers une position spécifiée à l'aide d'Aspose.Slides pour .NET. Cette puissante bibliothèque simplifie le processus de travail avec les présentations PowerPoint par programmation, vous permettant de manipuler et de personnaliser efficacement vos diapositives.
 
 ## FAQ
 

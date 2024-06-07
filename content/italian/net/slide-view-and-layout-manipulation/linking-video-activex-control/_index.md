@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Domande frequenti:
 
 ### Come posso specificare la dimensione e la posizione del video collegato sulla diapositiva?
- È possibile regolare le dimensioni e la posizione del riquadro di controllo ActiveX utilizzando i parametri del`AddOleObjectFrame` metodo. I quattro argomenti numerici rappresentano rispettivamente le coordinate X e Y dell'angolo superiore sinistro e la larghezza e l'altezza della cornice.
+È possibile regolare le dimensioni e la posizione del riquadro di controllo ActiveX utilizzando i parametri del`AddOleObjectFrame` metodo. I quattro argomenti numerici rappresentano rispettivamente le coordinate X e Y dell'angolo superiore sinistro e la larghezza e l'altezza della cornice.
 
 ### Posso collegare video di formati diversi utilizzando questo approccio?
 Sì, puoi collegare video di vari formati purché sia disponibile il controllo ActiveX appropriato per quel formato. Ad esempio, il controllo ActiveX ShockwaveFlash utilizzato in questa guida è adatto per i video Flash (SWF). Per altri formati, potrebbe essere necessario utilizzare ProgID diversi.

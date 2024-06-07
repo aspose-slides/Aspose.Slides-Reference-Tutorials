@@ -56,7 +56,7 @@ Varje bild i en presentation har en unik identifierare som kan användas för at
 Så här kommer du åt en bild genom dess index:
 
 ```csharp
-int slideIndex = 0; // Ersätt med önskat index
+int slideIndex = 0; //Ersätt med önskat index
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
@@ -89,13 +89,13 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 
 ## Slutsats
 
-den här guiden har vi undersökt hur du kommer åt bilder med deras unika identifierare med Aspose.Slides för .NET. Vi täckte in att ladda presentationer, komma åt bilder efter index och ID, ändra bildinnehåll och spara ändringarna. Aspose.Slides för .NET ger utvecklare möjlighet att skapa dynamiska och anpassade PowerPoint-presentationer programmatiskt, vilket öppnar dörrar till ett brett utbud av möjligheter för automatisering och förbättring.
+I den här guiden har vi undersökt hur du kommer åt bilder med deras unika identifierare med Aspose.Slides för .NET. Vi täckte in att ladda presentationer, komma åt bilder efter index och ID, ändra bildinnehåll och spara ändringarna. Aspose.Slides för .NET ger utvecklare möjlighet att skapa dynamiska och anpassade PowerPoint-presentationer programmatiskt, vilket öppnar dörrar till ett brett utbud av möjligheter för automatisering och förbättring.
 
 ## FAQ's
 
 ### Hur kan jag installera Aspose.Slides för .NET?
 
- Du kan installera Aspose.Slides för .NET med NuGet Package Manager. Kör helt enkelt kommandot`Install-Package Aspose.Slides.NET` i Package Manager-konsolen.
+ Du kan installera Aspose.Slides för .NET med NuGet Package Manager. Kör helt enkelt kommandot`Install-Package Aspose.Slides.NET` i Package Manager Console.
 
 ### Vilka typer av bildidentifierare stöder Aspose.Slides?
 

@@ -39,14 +39,14 @@ IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresen
 
 ## Steg 3: Verifiera lösenordet
 
- Nu ska vi kontrollera om lösenordet är korrekt. Vi kommer att använda`checkPassword` metod för`IPresentationInfo` gränssnitt.
+ Låt oss nu kontrollera om lösenordet är korrekt. Vi kommer att använda`checkPassword` metod för`IPresentationInfo` gränssnitt.
 
 ```java
 boolean isPasswordCorrect = presentationInfo.checkPassword("your_password");
 System.out.println("Is the password correct? " + isPasswordCorrect);
 ```
 
- Byta ut`"your_password"` med det faktiska lösenord du vill verifiera.
+ Byta ut`"your_password"` med det faktiska lösenordet du vill verifiera.
 
 ## Komplett källkod för kontroll av lösenordsexempel i Java Slides
 

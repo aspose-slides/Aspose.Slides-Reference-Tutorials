@@ -100,7 +100,7 @@ Aspose.Slides'ın API'sini kullanarak şekillerine ve özelliklerine erişerek y
 
  Sunumun başlangıcına slayt eklemek için`insertionIndex` ile`0`.
 
-### Eklenen slaytların düzenini değiştirmek mümkün mü?
+### Eklenen slaytların düzenini değiştirmek mümkün müdür?
 
 Kesinlikle. Aspose.Slides'ın kapsamlı özelliklerini kullanarak eklenen slaytların düzenini, tasarımını ve formatını değiştirebilirsiniz.
 

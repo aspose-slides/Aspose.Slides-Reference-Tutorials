@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Deze code loopt door elk gegevenspunt in de eerste reeks (index 0) en stelt zowel X- als Y-waarden in`null`waardoor de gegevenspunten effectief worden gewist.
+Deze code loopt door elk gegevenspunt in de eerste reeks (index 0) en stelt zowel X- als Y-waarden in`null`, waardoor de gegevenspunten effectief worden gewist.
 
 ## Stap 4: Verwijder gewiste gegevenspunten
 
@@ -96,7 +96,7 @@ finally
 
 ## Veelgestelde vragen
 
-### Hoe kan ik specifieke gegevenspunten verwijderen uit een diagramserie in Aspose.Slides voor Java?
+### Hoe kan ik specifieke gegevenspunten verwijderen uit een diagramreeks in Aspose.Slides voor Java?
 
 Volg deze stappen om specifieke gegevenspunten uit een diagramreeks in Aspose.Slides voor Java te verwijderen:
 
@@ -116,7 +116,7 @@ Ja, u kunt gegevenspunten wissen op basis van een voorwaarde door voorwaardelijk
 
 ### Hoe kan ik nieuwe gegevenspunten toevoegen aan een diagramserie met Aspose.Slides voor Java?
 
- Als u nieuwe gegevenspunten aan een diagramserie wilt toevoegen, kunt u de`addDataPoint`methode van de serie. Creëer eenvoudigweg nieuwe datapunten en voeg ze via deze methode toe aan de reeks.
+Als u nieuwe gegevenspunten aan een diagramserie wilt toevoegen, kunt u de`addDataPoint` methode van de serie. Creëer eenvoudigweg nieuwe datapunten en voeg ze via deze methode toe aan de reeks.
 
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor Java?
 

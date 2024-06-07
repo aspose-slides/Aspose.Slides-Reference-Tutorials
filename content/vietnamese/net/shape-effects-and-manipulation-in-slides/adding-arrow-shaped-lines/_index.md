@@ -74,7 +74,7 @@ Có, Aspose.Slides hỗ trợ .NET Core, cho phép bạn tận dụng các tính
 ### Tôi có thể tùy chỉnh thêm kiểu đầu mũi tên không?
 Tuyệt đối! Aspose.Slides cung cấp các tùy chọn toàn diện để tùy chỉnh độ dài, kiểu đầu mũi tên, v.v.
 ### Tôi có thể tìm thêm tài liệu Aspose.Slides ở đâu?
- Khám phá tài liệu[đây](https://reference.aspose.com/slides/net/) để biết thông tin chi tiết và ví dụ.
+ Khám phá tài liệu[đây](https://reference.aspose.com/slides/net/)để biết thông tin chi tiết và ví dụ.
 ### Có bản dùng thử miễn phí không?
  Có, bạn có thể trải nghiệm Aspose.Slides với bản dùng thử miễn phí. Tải xuống[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides?

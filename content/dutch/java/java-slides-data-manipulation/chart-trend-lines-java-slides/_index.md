@@ -47,7 +47,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 Laten we beginnen met het toevoegen van een exponentiële trendlijn aan onze diagramserie:
 
 ```java
-// Exponentiële trendlijn toevoegen voor diagramreeks 1
+// Exponentiële trendlijn toevoegen voor diagramserie 1
 ITrendline trendLineExp = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 trendLineExp.setDisplayEquation(false);
 trendLineExp.setDisplayRSquaredValue(false);
@@ -58,7 +58,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 Vervolgens voegen we een lineaire trendlijn toe aan onze diagramserie:
 
 ```java
-// Lineaire trendlijn toevoegen voor diagramreeks 1
+// Lineaire trendlijn toevoegen voor diagramserie 1
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
@@ -70,7 +70,7 @@ trendLineLinear.getFormat().getLine().getFillFormat().getSolidFillColor().setCol
 Laten we nu een logaritmische trendlijn toevoegen aan een andere grafiekreeks:
 
 ```java
-// Logaritmische trendlijn toevoegen voor diagramserie 2
+// Logaritmische trendlijn toevoegen voor diagramreeks 2
 ITrendline trendLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);
 trendLineLog.setTrendlineType(TrendlineType.Logarithmic);
 trendLineLog.addTextFrameForOverriding("New log trend line");
@@ -134,7 +134,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // Een geclusterd kolomdiagram maken
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-// Potentiele trendlijn toevoegen voor diagramserie 1
+// Potentiele trendlijn toevoegen voor diagramreeks 1
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
@@ -152,7 +152,7 @@ ITrendline tredLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTren
 tredLineMovAvg.setTrendlineType(TrendlineType.MovingAverage);
 tredLineMovAvg.setPeriod((byte) 3);
 tredLineMovAvg.setTrendlineName("New TrendLine Name");
-// Polynomiale trendlijn toevoegen voor diagramserie 3
+// Polynomiale trendlijn toevoegen voor diagramreeks 3
 ITrendline tredLinePol = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
 tredLinePol.setTrendlineType(TrendlineType.Polynomial);
 tredLinePol.setForward(1);
@@ -173,11 +173,11 @@ In deze zelfstudie hebben we geleerd hoe u verschillende soorten trendlijnen kun
 
 ### Hoe wijzig ik de kleur van een trendlijn in Aspose.Slides voor Java?
 
-Om de kleur van een trendlijn te wijzigen, kunt u de`getSolidFillColor().setColor(Color)` methode, zoals weergegeven in het voorbeeld voor het toevoegen van een lineaire trendlijn.
+ Om de kleur van een trendlijn te wijzigen, kunt u de`getSolidFillColor().setColor(Color)` methode, zoals weergegeven in het voorbeeld voor het toevoegen van een lineaire trendlijn.
 
 ### Kan ik meerdere trendlijnen aan één grafiekreeks toevoegen?
 
- Ja, u kunt meerdere trendlijnen aan één grafiekreeks toevoegen. Bel eenvoudigweg de`getTrendLines().add()` methode voor elke trendlijn die u wilt toevoegen.
+Ja, u kunt meerdere trendlijnen aan één grafiekreeks toevoegen. Bel eenvoudigweg de`getTrendLines().add()` methode voor elke trendlijn die u wilt toevoegen.
 
 ### Hoe verwijder ik een trendlijn uit een diagram in Aspose.Slides voor Java?
 

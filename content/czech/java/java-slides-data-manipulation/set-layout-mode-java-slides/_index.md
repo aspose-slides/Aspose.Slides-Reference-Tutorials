@@ -8,7 +8,7 @@ weight: 23
 url: /cs/java/data-manipulation/set-layout-mode-java-slides/
 ---
 
-## Úvod do nastavení režimu rozvržení v Java Slides
+## Úvod do nastavení režimu rozvržení v aplikaci Java Slides
 
 V tomto tutoriálu se naučíme, jak nastavit režim rozvržení pro graf v Java slides pomocí Aspose.Slides for Java. Režim rozložení určuje umístění a velikost grafu na snímku.
 

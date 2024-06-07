@@ -26,7 +26,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-//Példányosítás Prezentáció osztály, amely egy prezentációs fájlt képvisel
+// Példányosítás Prezentáció osztály, amely egy prezentációs fájlt képvisel
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -59,7 +59,7 @@ for (int i = 0; i < 4; i++) {
 
 A fenti kódban egy fade-in effektust használunk a teljes diagramra, majd egy ciklus segítségével egymás után adunk hozzá egy "Megjelenés" effektust az egyes sorozatokhoz.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse a módosított prezentációt lemezre.
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-//Példányosítás Prezentáció osztály, amely egy prezentációs fájlt képvisel
+// Példányosítás Prezentáció osztály, amely egy prezentációs fájlt képvisel
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Sikeresen animált sorozatot PowerPoint diagramon az Aspose.Slides for Java seg�
 
 ### Hogyan szabályozhatom a sorozatanimációk sorrendjét?
 
- A sorozatanimációk sorrendjének szabályozásához használja a`EffectTriggerType.AfterPrevious` paramétert az effektusok hozzáadásakor. Ezzel minden sorozatanimáció az előző befejezése után indul el.
+ A sorozatanimációk sorrendjének szabályozásához használja a`EffectTriggerType.AfterPrevious`paramétert az effektusok hozzáadásakor. Ezzel minden sorozatanimáció az előző befejezése után indul el.
 
 ### Alkalmazhatok különböző animációkat az egyes sorozatokhoz?
 

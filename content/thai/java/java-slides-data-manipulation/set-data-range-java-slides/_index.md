@@ -17,8 +17,8 @@ url: /th/java/data-manipulation/set-data-range-java-slides/
 ก่อนที่เราจะเจาะลึกโค้ด ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
 - สภาพแวดล้อมการพัฒนาจาวา
--  Aspose.Slides สำหรับ Java API (คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/slides/java/))
--  งานนำเสนอ PowerPoint พร้อมแผนภูมิ (เราจะเรียกมันว่า`ExistingChart.pptx`)
+-  Aspose.Slides สำหรับ Java API (คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/slides/java/-)
+-  งานนำเสนอ PowerPoint พร้อมแผนภูมิ (เราจะเรียกมันว่า`ExistingChart.pptx`-
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน
 

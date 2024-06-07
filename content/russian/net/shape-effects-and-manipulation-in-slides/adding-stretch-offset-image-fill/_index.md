@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## Шаг 4. Создайте экземпляр класса ImageEx
- Создайте экземпляр`ImageEx` класс для обработки изображения, которое вы хотите добавить на слайд.
+ Создайте экземпляр`ImageEx`класс для обработки изображения, которое вы хотите добавить на слайд.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

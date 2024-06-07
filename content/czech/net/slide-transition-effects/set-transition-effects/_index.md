@@ -111,7 +111,7 @@ Aspose.Slides for .NET poskytuje kompatibilitu s různými verzemi PowerPointu a
 
 ### 4. Kde najdu další dokumentaci a podporu pro Aspose.Slides pro .NET?
 
- Podrobnou dokumentaci a přístup ke komunitě podpory naleznete na[Web Aspose.Slides](https://reference.aspose.com/slides/net/).
+ Podrobnou dokumentaci a přístup ke komunitě podpory najdete na[Web Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ### 5. Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro .NET?
 

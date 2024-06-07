@@ -16,7 +16,7 @@ Zanim przejdziemy do kolejnych kroków, upewnij się, że masz następujące ele
 3. Zintegrowane środowisko programistyczne (IDE): skonfiguruj środowisko programistyczne .NET, takie jak Visual Studio.
 4. Katalog dokumentów: Określ katalog, w którym przechowywane są pliki prezentacji.
 ## Importuj przestrzenie nazw
-W swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby móc korzystać z funkcjonalności Aspose.Slides:
+swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby móc korzystać z funkcjonalności Aspose.Slides:
 ```csharp
 using System;
 using Aspose.Slides;
@@ -56,6 +56,6 @@ Odp.: Tak, możesz to osiągnąć, modyfikując kod, aby selektywnie drukować o
 ### P: Gdzie mogę znaleźć dodatkowe wsparcie lub zadać pytania dotyczące Aspose.Slides?
  O: Odwiedź Aspose.Slides[forum wsparcia](https://forum.aspose.com/c/slides/11) do pomocy.
 ### P: Czy mogę wypróbować Aspose.Slides za darmo przed zakupem?
-Odp.: Absolutnie! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ Odp.: Absolutnie! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### P: Jak kupić Aspose.Slides dla .NET?
  Odpowiedź: Możesz kupić bibliotekę[Tutaj](https://purchase.aspose.com/buy).

@@ -131,7 +131,7 @@ finally
 
 ## Wniosek
 
-W tym obszernym samouczku nauczyłeś się, jak ulepszyć swoje prezentacje PowerPoint, dodając niestandardowe słupki błędów do wykresów za pomocą Aspose.Slides dla Java. Słupki błędów dostarczają cennych informacji na temat zmienności i niepewności danych, dzięki czemu wykresy zawierają więcej informacji i są atrakcyjne wizualnie.
+tym obszernym samouczku nauczyłeś się, jak ulepszyć swoje prezentacje PowerPoint, dodając niestandardowe słupki błędów do wykresów za pomocą Aspose.Slides dla Java. Słupki błędów dostarczają cennych informacji na temat zmienności i niepewności danych, dzięki czemu wykresy zawierają więcej informacji i są atrakcyjne wizualnie.
 
 ## Często zadawane pytania
 
@@ -149,4 +149,4 @@ Możesz przechodzić przez punkty danych i ustawiać niestandardowe wartości s�
 
 ### Czy można ukryć słupki błędów dla określonych punktów danych?
 
- Tak, możesz kontrolować widoczność słupków błędów dla poszczególnych punktów danych, ustawiając opcję`setVisible` własność`IErrorBarsFormat` obiekt.
+Tak, możesz kontrolować widoczność słupków błędów dla poszczególnych punktów danych, ustawiając opcję`setVisible` własność`IErrorBarsFormat` obiekt.

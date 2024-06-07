@@ -20,7 +20,7 @@ Sebelum kita mulai bekerja dengan Aspose.Slides untuk .NET, Anda harus memastika
 
 3. Pengetahuan Dasar tentang C#: Pemahaman mendasar tentang pemrograman C# bermanfaat, karena kita akan menggunakan C# untuk bekerja dengan Aspose.Slides untuk .NET.
 
-Sekarang kita telah membahas prasyaratnya, mari kita uraikan proses penambahan garis tren ke grafik langkah demi langkah.
+Sekarang kita telah membahas prasyaratnya, mari kita uraikan proses penambahan garis tren ke grafik selangkah demi selangkah.
 
 ## Mengimpor Namespace
 
@@ -80,7 +80,7 @@ tredLineLin.Format.Line.FillFormat.FillType = FillType.Solid;
 tredLineLin.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
 ```
 
-### Menambahkan Garis Tren Logaritma
+### Menambahkan Garis Tren Logaritmik
 
 ```csharp
 // Menambahkan garis tren logaritmik untuk seri grafik 2

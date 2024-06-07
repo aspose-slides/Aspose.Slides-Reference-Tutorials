@@ -10,13 +10,13 @@ url: /pl/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-wi
 
 ## Wstęp
 
-świecie dokumentów cyfrowych zapewnienie kompatybilności i dostępności ma ogromne znaczenie. PDF/A i PDF/UA to dwa standardy, które rozwiązują te problemy. PDF/A koncentruje się na archiwizacji, podczas gdy PDF/UA kładzie nacisk na dostępność dla użytkowników niepełnosprawnych. Aspose.Slides dla .NET oferuje skuteczny sposób na osiągnięcie zgodności zarówno z formatem PDF/A, jak i PDF/UA, dzięki czemu Twoje prezentacje są uniwersalne.
+W świecie dokumentów cyfrowych zapewnienie kompatybilności i dostępności ma ogromne znaczenie. PDF/A i PDF/UA to dwa standardy, które rozwiązują te problemy. PDF/A koncentruje się na archiwizacji, podczas gdy PDF/UA kładzie nacisk na dostępność dla użytkowników niepełnosprawnych. Aspose.Slides dla .NET oferuje skuteczny sposób na osiągnięcie zgodności zarówno z formatem PDF/A, jak i PDF/UA, dzięki czemu Twoje prezentacje są uniwersalne.
 
 ## Zrozumienie PDF/A i PDF/UA
 
 PDF/A to zgodna z normą ISO wersja Portable Document Format (PDF) specjalizująca się w konserwacji cyfrowej. Daje pewność, że zawartość dokumentu pozostanie nienaruszona przez długi czas, dzięki czemu idealnie nadaje się do celów archiwizacyjnych.
 
-Z drugiej strony PDF/UA oznacza „PDF/uniwersalną dostępność”. Jest to standard ISO dotyczący tworzenia powszechnie dostępnych plików PDF, które osoby niepełnosprawne mogą czytać i nawigować przy użyciu technologii wspomagających.
+drugiej strony PDF/UA oznacza „PDF/uniwersalną dostępność”. Jest to standard ISO dotyczący tworzenia powszechnie dostępnych plików PDF, które osoby niepełnosprawne mogą czytać i nawigować przy użyciu technologii wspomagających.
 
 ## Pierwsze kroki z Aspose.Slides
 
@@ -62,7 +62,7 @@ Zapewnienie dostępności ma kluczowe znaczenie dla zgodności z PDF/UA. Możesz
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Dodaj obsługę ułatwień dostępu dla plików PDF/UA
+//Dodaj obsługę ułatwień dostępu dla plików PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Załaduj prezentację
 using var presentation = new Presentation("presentation.pptx");
 
-// Dodaj obsługę ułatwień dostępu dla plików PDF/UA
+//Dodaj obsługę ułatwień dostępu dla plików PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

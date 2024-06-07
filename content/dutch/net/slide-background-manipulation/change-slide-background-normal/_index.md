@@ -22,7 +22,7 @@ Nu u over de vereisten beschikt, gaan we verder met het wijzigen van de achtergr
 
 ## Naamruimten importeren
 
-Zorg er eerst voor dat u de benodigde naamruimten importeert om met Aspose.Slides te kunnen werken. U kunt dit als volgt in uw code doen:
+Zorg er eerst voor dat u de benodigde naamruimten importeert om met Aspose.Slides te kunnen werken. Dit kun je in je code als volgt doen:
 
 ```csharp
 using Aspose.Slides;

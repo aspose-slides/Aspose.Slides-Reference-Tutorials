@@ -58,7 +58,7 @@ try {
 ```java
         // 문서 디렉터리의 경로입니다.
         String dataDir = "Your Document Directory";
-        // Presentation 클래스의 생성자에 파일 경로를 전달하여 프레젠테이션 파일 열기
+        //Presentation 클래스의 생성자에 파일 경로를 전달하여 프레젠테이션 파일 열기
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

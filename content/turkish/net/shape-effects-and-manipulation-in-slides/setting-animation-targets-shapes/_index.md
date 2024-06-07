@@ -52,7 +52,7 @@ foreach (ISlide slide in pres.Slides)
 ## Çözüm
 Tebrikler! Aspose.Slides for .NET'i kullanarak sunum slayt şekilleri için animasyon hedeflerini nasıl ayarlayacağınızı başarıyla öğrendiniz. Şimdi devam edin ve sunumlarınızı büyüleyici animasyonlarla geliştirin.
 ## Sıkça Sorulan Sorular
-### Aynı slaytta birden çok şekle farklı animasyonlar uygulayabilir miyim?
+### Aynı slaytta birden fazla şekle farklı animasyonlar uygulayabilir miyim?
 Evet, her şekil için ayrı ayrı benzersiz animasyon efektleri ayarlayabilirsiniz.
 ### Aspose.Slides örnekte belirtilenlerin dışında diğer animasyon türlerini de destekliyor mu?
 Kesinlikle! Aspose.Slides, yaratıcı ihtiyaçlarınızı karşılamak için çok çeşitli animasyon efektleri sunar.

@@ -71,7 +71,7 @@ Kesimpulannya, Aspose.Slides for .NET memberdayakan pengembang untuk membawa pre
 ### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Slides?
  A: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya dapat menemukan dukungan untuk Aspose.Slides?
- J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
+J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Slides?
  A: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat membeli Aspose.Slides untuk .NET?

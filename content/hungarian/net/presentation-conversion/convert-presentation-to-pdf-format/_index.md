@@ -88,7 +88,7 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 
 ## Következtetés
 
-A prezentációk PDF formátumba konvertálása egyszerűvé válik az Aspose.Slides for .NET segítségével. Megtanulta, hogyan tölthet be egy prezentációt, hogyan testreszabhatja a PDF-beállításokat, hogyan kezelheti a diaátmeneteket és mentheti a PDF-dokumentumot. Ez a könyvtár leegyszerűsíti a folyamatot, és biztosítja a fejlesztők számára azokat az eszközöket, amelyekre szükségük van ahhoz, hogy hatékonyan dolgozhassanak a PowerPoint prezentációkkal az alkalmazásaikban.
+A prezentációk PDF formátumba konvertálása egyszerűvé válik az Aspose.Slides for .NET segítségével. Megtanulta, hogyan tölthet be egy prezentációt, hogyan testreszabhatja a PDF-beállításokat, hogyan kezelheti a diaátmeneteket és mentheti a PDF-dokumentumot. Ez a könyvtár leegyszerűsíti a folyamatot, és biztosítja a fejlesztők számára azokat az eszközöket, amelyekre szükségük van ahhoz, hogy hatékonyan dolgozhassanak PowerPoint-bemutatókkal az alkalmazásaikban.
 
 ## GYIK
 

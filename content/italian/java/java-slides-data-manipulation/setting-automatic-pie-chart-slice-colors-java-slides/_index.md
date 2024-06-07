@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Passaggio 2: crea una presentazione PowerPoint
 
- Istanziare il`Presentation` classe per creare una nuova presentazione PowerPoint:
+ Istanziare il`Presentation` classe per creare una nuova presentazione di PowerPoint:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Impostazione dell'indice della scheda grafica
 	int defaultWorksheetIndex = 0;
-	//Ottenere il foglio di lavoro con i dati del grafico
+	// Ottenere il foglio di lavoro con i dati del grafico
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Elimina le serie e le categorie generate predefinite
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Aggiunta di nuove serie
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Ora popolano i dati delle serie
+	//Ora popolano i dati delle serie
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Hai creato con successo un grafico a torta in una presentazione di PowerPoint ut
 
 ### Come posso personalizzare i colori delle singole sezioni nel grafico a torta?
 
- Per personalizzare i colori delle singole fette nel grafico a torta, puoi utilizzare il`getAutomaticSeriesColors`metodo per recuperare la combinazione di colori predefinita e quindi modificare i colori secondo necessità. Ecco un esempio:
+ Per personalizzare i colori delle singole fette nel grafico a torta, puoi utilizzare il`getAutomaticSeriesColors` metodo per recuperare la combinazione di colori predefinita e quindi modificare i colori secondo necessità. Ecco un esempio:
 
 ```java
-// Ottieni la combinazione di colori predefinita
+//Ottieni la combinazione di colori predefinita
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Modificare i colori secondo necessità

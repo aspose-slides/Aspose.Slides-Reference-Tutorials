@@ -69,7 +69,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
 
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Smazat výchozí vygenerované série a kategorie
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Nastavení barvy výplně pro sérii
+//Nastavení barvy výplně pro sérii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// Nastavení barvy výplně pro sérii
+//Nastavení barvy výplně pro sérii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -170,7 +170,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Smazat výchozí vygenerované série a kategorie
 chart.getChartData().getSeries().clear();
@@ -186,23 +186,23 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Vezměte první sérii grafů
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Nyní se vyplňují data série
+//Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// Nastavení barvy výplně pro sérii
+//Nastavení barvy výplně pro sérii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Vezměte druhou řadu grafů
 series = chart.getChartData().getSeries().get_Item(1);
-// Nyní se vyplňují data série
+//Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Nastavení barvy výplně pro sérii
+//Nastavení barvy výplně pro sérii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-//První štítek bude zobrazovat název kategorie
+// První štítek bude zobrazovat název kategorie
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
@@ -217,7 +217,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # Závěr
 
-V tomto tutoriálu jsme se naučili, jak vytvořit normální grafy v Java Slides pomocí Aspose.Slides for Java API. Prošli jsme si podrobným průvodcem se zdrojovým kódem k vytvoření seskupeného sloupcového grafu v prezentaci PowerPoint.
+tomto tutoriálu jsme se naučili, jak vytvořit normální grafy v Java Slides pomocí Aspose.Slides for Java API. Prošli jsme si podrobným průvodcem se zdrojovým kódem k vytvoření seskupeného sloupcového grafu v prezentaci PowerPoint.
 
 ## FAQ
 
@@ -239,4 +239,4 @@ V tomto tutoriálu jsme se naučili, jak vytvořit normální grafy v Java Slide
 
 ### Jak uložím graf do jiného formátu souboru?
 
-Chcete-li uložit graf do jiného formátu souboru, změňte`SaveFormat` parametr v`pres.save()` metodou do požadovaného formátu (např. PDF, PNG, JPEG).
+ Chcete-li uložit graf do jiného formátu souboru, změňte`SaveFormat` parametr v`pres.save()`metodou do požadovaného formátu (např. PDF, PNG, JPEG).

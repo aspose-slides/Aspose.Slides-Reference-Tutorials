@@ -11,7 +11,7 @@ url: /fr/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides pour .NET est une bibliothèque puissante qui permet aux développeurs de manipuler facilement des présentations PowerPoint. Dans ce didacticiel, nous explorerons le processus d'ajout d'un décalage d'étirement vers la gauche pour un cadre photo à l'aide d'Aspose.Slides pour .NET. Suivez ce guide étape par étape pour améliorer vos compétences dans l'utilisation d'images et de formes dans des présentations PowerPoint.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-- Aspose.Slides pour .NET : assurez-vous que la bibliothèque est installée. Sinon, téléchargez-le depuis le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides pour .NET : assurez-vous que la bibliothèque est installée. Sinon, téléchargez-le depuis le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
 - Environnement de développement : disposer d'un environnement de développement fonctionnel avec des capacités .NET.
 ## Importer des espaces de noms
 Commencez par importer les espaces de noms nécessaires dans votre projet .NET :
@@ -84,4 +84,4 @@ R : Aspose.Slides est régulièrement mis à jour pour garantir la compatibilit
 ### Q : Où puis-je trouver des exemples et des ressources supplémentaires pour Aspose.Slides ?
  R : Explorez le[Documentation Aspose.Slides](https://reference.aspose.com/slides/net/) pour des exemples et des conseils complets.
 ### Q : Puis-je appliquer plusieurs décalages d’étirement à une seule forme ?
-R : Oui, vous pouvez combiner plusieurs décalages d'étirement pour obtenir des effets visuels complexes et personnalisés.
+: Oui, vous pouvez combiner plusieurs décalages d'étirement pour obtenir des effets visuels complexes et personnalisés.

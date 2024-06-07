@@ -56,6 +56,6 @@ presentation.Print(printerSettings, "Please set your printer name here");
 ### ถาม: ฉันจะรับการสนับสนุนเพิ่มเติมหรือถามคำถามเกี่ยวกับ Aspose.Slides ได้ที่ไหน
  ตอบ: ไปที่ Aspose.Slides[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/slides/11) สำหรับความช่วยเหลือ.
 ### ถาม: ฉันสามารถลองใช้ Aspose.Slides ฟรีก่อนซื้อได้หรือไม่
-ตอบ: แน่นอน! คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+ ตอบ: แน่นอน! คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะซื้อ Aspose.Slides สำหรับ .NET ได้อย่างไร
  ตอบ: คุณสามารถซื้อห้องสมุดได้[ที่นี่](https://purchase.aspose.com/buy).

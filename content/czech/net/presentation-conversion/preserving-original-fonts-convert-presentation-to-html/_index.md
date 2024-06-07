@@ -81,7 +81,7 @@ V tomto tutoriálu jsme si ukázali, jak zachovat původní písma při převodu
 
 ### Q1: Mohu přizpůsobit seznam vyloučených písem?
 
- Ano můžeš. Upravte`fontNameExcludeList` pole pro zahrnutí nebo vyloučení konkrétních písem podle vašich požadavků.
+ Ano můžeš. Upravte`fontNameExcludeList`pole pro zahrnutí nebo vyloučení konkrétních písem podle vašich požadavků.
 
 ### Q2: Co když nechci vkládat všechna písma?
 

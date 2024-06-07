@@ -96,7 +96,7 @@ Hetzelfde proces gaat door voor categorie 2, waarbij de elementen afzonderlijk w
 ## Stap 4: Sla de presentatie op
 
 ```csharp
-//Schrijf het presentatiebestand naar schijf
+// Schrijf het presentatiebestand naar schijf
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

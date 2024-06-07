@@ -10,7 +10,7 @@ url: /hu/java/data-manipulation/actual-position-chart-data-label-java-slides/
 
 ## Bevezetés a diagram adatcímke tényleges pozíciójának lekéréséhez Java Slides-ben
 
-Ebből az oktatóanyagból megtudhatja, hogyan kérheti le a diagram adatcímkéinek tényleges pozícióját az Aspose.Slides for Java használatával. Létrehozunk egy Java programot, amely PowerPoint prezentációt generál diagrammal, testreszabja az adatcímkéket, majd hozzáadja az adatcímkék pozícióit reprezentáló alakzatokat.
+Ebből az oktatóanyagból megtudhatja, hogyan kérheti le a diagram adatcímkéinek tényleges helyzetét az Aspose.Slides for Java használatával. Létrehozunk egy Java programot, amely PowerPoint prezentációt generál diagrammal, testreszabja az adatcímkéket, majd hozzáadja az adatcímkék pozícióit reprezentáló alakzatokat.
 
 ## Előfeltételek
 
@@ -73,7 +73,7 @@ try {
 }
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 Végül mentse a létrehozott prezentációt fájlba.
 
 ```java
@@ -126,7 +126,7 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanulta, hogyan kérheti le a diagram adatcímkéinek tényleges helyzetét a Java Slides programban az Aspose.Slides for Java segítségével. Ezt a tudást most felhasználhatja PowerPoint-prezentációinak testreszabott adatcímkéivel és pozícióik vizuális megjelenítésével.
+Ebben az oktatóanyagban megtanulta, hogyan kérheti le a diagram adatcímkéinek tényleges helyzetét a Java Slides programban az Aspose.Slides for Java segítségével. Mostantól ezt a tudást felhasználhatja PowerPoint-prezentációinak testreszabott adatcímkéivel és azok pozícióinak vizuális megjelenítésével.
 
 ## GYIK
 
@@ -151,7 +151,7 @@ float h = point.getLabel().getActualHeight();
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 ```
 
-### Hogyan tudom elmenteni a generált prezentációt?
+### Hogyan tudom elmenteni a létrehozott prezentációt?
 
  A létrehozott prezentációt a`save` módszer. Adja meg a kívánt fájl elérési utat és a`SaveFormat` mint paraméterek. Például:
 ```java

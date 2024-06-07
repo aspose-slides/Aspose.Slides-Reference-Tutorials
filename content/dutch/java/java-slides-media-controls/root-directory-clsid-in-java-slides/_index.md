@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Vervang "your_output_path" d
 Presentation pres = new Presentation();
 ```
 
- In de bovenstaande code definiëren we het pad voor het uitvoerpresentatiebestand en maken we een nieuw`Presentation` voorwerp.
+In de bovenstaande code definiëren we het pad voor het uitvoerpresentatiebestand en maken we een nieuw`Presentation` voorwerp.
 
 ## Stap 2: Stel de rootdirectory ClsId in
 
- Om de Root Directory ClsId in te stellen, moet u een exemplaar van maken`PptOptions`en stel de gewenste CLSID in. De CLSID vertegenwoordigt de applicatie die zal worden gebruikt als de hoofdmap wanneer een hyperlink wordt geactiveerd.
+ Om de Root Directory ClsId in te stellen, moet u een exemplaar van maken`PptOptions` en stel de gewenste CLSID in. De CLSID vertegenwoordigt de applicatie die zal worden gebruikt als de hoofdmap wanneer een hyperlink wordt geactiveerd.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// stel CLSID in op 'Microsoft Powerpoint.Show.8'
+	//stel CLSID in op 'Microsoft Powerpoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Presentatie opslaan
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);
@@ -84,7 +84,7 @@ try {
 
 ## Conclusie
 
-hebt met succes de Root Directory ClsId ingesteld in Aspose.Slides voor Java. Hiermee kunt u de toepassing opgeven die als hoofdmap wordt gebruikt wanneer hyperlinks in uw presentatie worden geactiveerd. U kunt de CLSID aanpassen aan uw specifieke vereisten.
+U hebt met succes de Root Directory ClsId ingesteld in Aspose.Slides voor Java. Hiermee kunt u de toepassing opgeven die als hoofdmap wordt gebruikt wanneer hyperlinks in uw presentatie worden geactiveerd. U kunt de CLSID aanpassen aan uw specifieke vereisten.
 
 ## Veelgestelde vragen
 

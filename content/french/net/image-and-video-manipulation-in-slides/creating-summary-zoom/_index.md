@@ -11,7 +11,7 @@ url: /fr/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 Dans le monde dynamique des présentations, Aspose.Slides for .NET se distingue comme un outil puissant pour améliorer votre expérience de création de diapositives. L'une des fonctionnalités notables qu'il offre est la possibilité de créer un zoom récapitulatif, une manière visuellement attrayante de présenter une collection de diapositives. Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un zoom récapitulatif dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les prérequis suivants :
--  Aspose.Slides pour .NET : assurez-vous que la bibliothèque est installée dans votre environnement .NET. Sinon, vous pouvez le télécharger depuis le[page de sortie](https://releases.aspose.com/slides/net/).
+- Aspose.Slides pour .NET : assurez-vous que la bibliothèque est installée dans votre environnement .NET. Sinon, vous pouvez le télécharger depuis le[page de sortie](https://releases.aspose.com/slides/net/).
 - Environnement de développement : configurez votre environnement de développement .NET, y compris Visual Studio ou tout autre IDE préféré.
 - Connaissance de base de C# : ce didacticiel suppose que vous possédez une compréhension de base de la programmation C#.
 ## Importer des espaces de noms
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Étape 2 : ajouter des diapositives et des sections
- Cette étape consiste à créer des diapositives individuelles et à les organiser en sections au sein de la présentation. Le`AddEmptySlide` La méthode ajoute une nouvelle diapositive et la`Sections.AddSection` La méthode établit des sections pour une meilleure organisation.
+ Cette étape consiste à créer des diapositives individuelles et à les organiser en sections au sein de la présentation. Le`AddEmptySlide`La méthode ajoute une nouvelle diapositive et la`Sections.AddSection` La méthode établit des sections pour une meilleure organisation.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Le code pour styliser la diapositive va ici
@@ -78,4 +78,4 @@ Absolument! Vous pouvez inclure des hyperliens dans vos diapositives et ils fonc
 ### Y a-t-il des limitations sur le nombre de sections dans une présentation ?
 Depuis la dernière version, il n’existe aucune limitation stricte quant au nombre de sections que vous pouvez ajouter à une présentation.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides ?
-Oui, vous pouvez explorer les fonctionnalités d'Aspose.Slides en téléchargeant le[version d'essai gratuite](https://releases.aspose.com/).
+ Oui, vous pouvez explorer les fonctionnalités d'Aspose.Slides en téléchargeant le[version d'essai gratuite](https://releases.aspose.com/).

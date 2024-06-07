@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Cesta k adresáři dokumentů.
 String dataDir = "Your Document Directory";
-// Vytvořte instanci objektu Presentation, který představuje soubor PPT
+//Vytvořte instanci objektu Presentation, který představuje soubor PPT
 Presentation presentation = new Presentation();
 try
 {

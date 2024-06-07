@@ -65,8 +65,8 @@ Evet, aynı sunumdaki farklı bölümlere birden fazla bölüm yakınlaştırmas
 ### Aspose.Slides Visual Studio ile uyumlu mu?
 Evet, Aspose.Slides, Visual Studio for .NET geliştirmesiyle sorunsuz bir şekilde bütünleşir.
 ### Bölüm yakınlaştırma çerçevesinin görünümünü özelleştirebilir miyim?
-Kesinlikle! Kesit yakınlaştırma çerçevesinin boyutları, konumu ve stili üzerinde tam kontrole sahipsiniz.
+Kesinlikle! Kesit yakınlaştırma çerçevesinin boyutları, konumlandırılması ve stili üzerinde tam kontrole sahipsiniz.
 ### Aspose.Slides'ın deneme sürümü mevcut mu?
- Evet, Aspose.Slides'ın özelliklerini aşağıdakileri kullanarak keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
+Evet, Aspose.Slides'ın özelliklerini aşağıdakileri kullanarak keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
 ### Aspose.Slides ile ilgili sorgular için nereden destek alabilirim?
  Herhangi bir destek veya sorunuz için şu adresi ziyaret edin:[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).

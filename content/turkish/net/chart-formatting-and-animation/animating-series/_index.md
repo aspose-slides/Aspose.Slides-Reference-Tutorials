@@ -44,7 +44,7 @@ Bu adımda, canlandırmak istediğiniz grafiği içeren mevcut PowerPoint sunumu
 // Belge dizinine giden yol
 string dataDir = "Your Document Directory";
 
-//Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
+// Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Kodunuz buraya gelecek

@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 На этом этапе мы настроим конкретные точки данных. Здесь мы меняем цвет точек данных и настраиваем параметры меток.
 
 ```java
-// Настроить точку данных 0
+//Настроить точку данных 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ finally
 
 ### Где я могу найти больше примеров и документации?
 
- Вы можете найти больше примеров и подробную документацию по использованию Aspose.Slides для Java на сайте[Документация Aspose.Slides](https://reference.aspose.com/slides/java/) Веб-сайт.
+Дополнительные примеры и подробную документацию по использованию Aspose.Slides для Java можно найти на странице[Документация Aspose.Slides](https://reference.aspose.com/slides/java/) Веб-сайт.

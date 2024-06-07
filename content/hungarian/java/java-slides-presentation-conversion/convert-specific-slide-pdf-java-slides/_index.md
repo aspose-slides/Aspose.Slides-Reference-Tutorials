@@ -10,13 +10,13 @@ url: /hu/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 ## Bevezetés egy adott diák PDF formátumba konvertálásához a Java diákban
 
-Java fejlesztés világában gyakori feladat a bemutató diákkal való munka. Akár jelentéskészítő eszközt, akár prezentációkezelő rendszert épít, az adott diák PDF formátumba konvertálása értékes szolgáltatás lehet. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan érhető el ez az Aspose.Slides for Java használatával.
+A Java fejlesztés világában gyakori feladat a bemutató diákkal való munka. Akár jelentéskészítő eszközt, akár prezentációkezelő rendszert épít, az adott diák PDF formátumba konvertálása értékes szolgáltatás lehet. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan érhető el ez az Aspose.Slides for Java használatával.
 
 ## Előfeltételek
 
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1.  Aspose.Slides for Java Library: telepítenie kell az Aspose.Slides for Java könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: telepítenie kell az Aspose.Slides for Java könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
 
 2. Java fejlesztői környezet: Győződjön meg arról, hogy a rendszeren be van állítva Java fejlesztői környezet.
 

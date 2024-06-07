@@ -16,7 +16,7 @@ In deze zelfstudie leren we hoe u een datumnotatie voor de categorie-as in een P
 
 Zorg ervoor dat u over het volgende beschikt voordat u begint:
 
-1.  Aspose.Slides voor Java-bibliotheek (u kunt deze downloaden van[hier](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides voor Java-bibliotheek (u kunt deze downloaden van[hier](https://releases.aspose.com/slides/java/).
 2. Java-ontwikkelomgeving opgezet.
 
 ## Stap 1: Maak een PowerPoint-presentatie
@@ -124,7 +124,7 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Conclusie
 
-U hebt met succes de datumnotatie voor de categorie-as in een Java Slides-diagram aangepast met Aspose.Slides voor Java. Hierdoor kunt u datumwaarden in het gewenste formaat in uw diagrammen presenteren. Voel je vrij om verdere aanpassingsopties te verkennen op basis van jouw specifieke vereisten.
+hebt met succes de datumnotatie voor de categorie-as in een Java Slides-diagram aangepast met Aspose.Slides voor Java. Hierdoor kunt u datumwaarden in het gewenste formaat in uw diagrammen presenteren. Voel je vrij om verdere aanpassingsopties te verkennen op basis van jouw specifieke vereisten.
 
 ## Veelgestelde vragen
 
@@ -138,4 +138,4 @@ Ja, u kunt binnen dezelfde presentatie verschillende datumnotaties instellen voo
 
 ### Hoe voeg ik meer gegevenspunten toe aan het diagram?
 
- Als u meer gegevenspunten aan het diagram wilt toevoegen, gebruikt u de`getDataPoints().addDataPointForLineSeries` methode op de gegevensreeksen en geef de gegevenswaarden op.
+ Als u meer gegevenspunten aan het diagram wilt toevoegen, gebruikt u de`getDataPoints().addDataPointForLineSeries`methode op de gegevensreeksen en geef de gegevenswaarden op.

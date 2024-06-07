@@ -11,7 +11,7 @@ url: /pl/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 dynamicznym świecie prezentacji dodanie atrakcyjności wizualnej do slajdów może znacząco zwiększyć siłę oddziaływania przekazu. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi do programowego manipulowania i upiększania slajdów prezentacji. Jedną z takich intrygujących funkcji jest możliwość stosowania efektów skosu do kształtów, dodając głębi i wymiaru wizualizacjom.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides. Można go pobrać z[strona internetowa](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides. Można go pobrać z[strona internetowa](https://releases.aspose.com/slides/net/).
 - Środowisko programistyczne: skonfiguruj środowisko programistyczne .NET i zapoznaj się z podstawową znajomością języka C#.
 - Katalog dokumentów: Utwórz katalog dla swoich dokumentów, w którym zostaną zapisane wygenerowane pliki prezentacji.
 ## Importuj przestrzenie nazw

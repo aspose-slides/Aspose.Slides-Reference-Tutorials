@@ -24,9 +24,9 @@ Most, hogy megvannak az előfeltételek, folytassuk az Aspose.Slides for .NET ha
 
 ## Hiperhivatkozások hozzáadása a diához
 
-### 1. lépés: Inicializálja a prezentációt
+### 1. lépés: A prezentáció inicializálása
 
-A kezdéshez inicializálnia kell egy prezentációt az Aspose.Slides segítségével. Ezt a következő kóddal teheti meg:
+kezdéshez inicializálnia kell egy prezentációt az Aspose.Slides segítségével. Ezt a következő kóddal teheti meg:
 
 ```csharp
 using (Presentation presentation = new Presentation())
@@ -54,7 +54,7 @@ shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip 
 shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-### 4. lépés: Prezentáció mentése
+### 4. lépés: Mentse a bemutatót
 
 Végül mentse el prezentációját a hozzáadott hiperhivatkozással:
 
@@ -66,7 +66,7 @@ Gratulálunk! Sikeresen hozzáadott egy hiperhivatkozást egy diához az Aspose.
 
 ## Hiperhivatkozások eltávolítása a diáról
 
-### 1. lépés: Inicializálja a prezentációt
+### 1. lépés: A prezentáció inicializálása
 
 A hiperhivatkozások diáról való eltávolításához meg kell nyitnia egy meglévő prezentációt:
 
@@ -111,13 +111,13 @@ Van még kérdése az Aspose.Slides-szel vagy a prezentációtervezés egyéb vo
 Az Aspose.Slides for .NET funkciók széles skáláját kínálja prezentációk létrehozásához, kezeléséhez és konvertálásához. Átfogó eszközkészletet biztosít tartalom, animáció és interakciók hozzáadásához a diákhoz.
 
 ### Hozzáadhatok hiperhivatkozásokat az Aspose.Slides szövegén kívüli objektumokhoz?
-Igen, az Aspose.Slides lehetővé teszi hiperhivatkozások hozzáadását különféle objektumokhoz, például alakzatokhoz, képekhez és szöveghez, így rugalmasságot biztosít az interaktív prezentációk létrehozásában.
+Igen, az Aspose.Slides lehetővé teszi hiperhivatkozások hozzáadását különféle objektumokhoz, például alakzatokhoz, képekhez és szöveghez, így rugalmasságot biztosít az interaktív bemutatók létrehozásában.
 
 ### Az Aspose.Slides kompatibilis a különböző PowerPoint fájlformátumokkal?
 Teljesen. Az Aspose.Slides különféle PowerPoint formátumokat támogat, beleértve a PPT-t, PPTX-et, PPS-t és még sok mást. Ez biztosítja a kompatibilitást a Microsoft PowerPoint különböző verzióival.
 
 ### Hol találhatok további forrásokat és támogatást az Aspose.Slides számára?
- részletes dokumentációért és a közösségi támogatásért látogassa meg a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) és a[Aspose támogatási fórum](https://forum.aspose.com/).
+ A részletes dokumentációért és a közösségi támogatásért látogassa meg a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) és a[Aspose támogatási fórum](https://forum.aspose.com/).
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
  Ha ideiglenes licencre van szüksége az Aspose.Slides számára, szerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).

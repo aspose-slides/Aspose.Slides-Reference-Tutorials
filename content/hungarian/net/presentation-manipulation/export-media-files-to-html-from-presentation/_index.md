@@ -12,7 +12,7 @@ Ebben az oktatóanyagban végigvezetjük a médiafájlok HTML formátumba export
 
 ## 1. Bemutatkozás
 
-A PowerPoint prezentációk gyakran tartalmaznak multimédiás elemeket, például videókat, és előfordulhat, hogy ezeket a prezentációkat HTML formátumba kell exportálni a webes kompatibilitás érdekében. Az Aspose.Slides for .NET kényelmes módot biztosít ennek a feladatnak a programozott végrehajtására.
+PowerPoint prezentációk gyakran tartalmaznak multimédiás elemeket, például videókat, és előfordulhat, hogy ezeket a prezentációkat HTML formátumba kell exportálni a webes kompatibilitás érdekében. Az Aspose.Slides for .NET kényelmes módot biztosít ennek a feladatnak a programozott végrehajtására.
 
 ## 2. Előfeltételek
 
@@ -22,7 +22,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 
 ## 3. Prezentáció betöltése
 
-kezdéshez be kell töltenie a HTML-be konvertálni kívánt PowerPoint-prezentációt. Azt is meg kell adnia a kimeneti könyvtárat, ahová a HTML-fájlt menti. Íme a kód a prezentáció betöltéséhez:
+A kezdéshez be kell töltenie a HTML-be konvertálni kívánt PowerPoint-prezentációt. Azt is meg kell adnia a kimeneti könyvtárat, ahová a HTML-fájlt menti. Íme a kód a prezentáció betöltéséhez:
 
 ```csharp
 string dataDir = "Your Document Directory";

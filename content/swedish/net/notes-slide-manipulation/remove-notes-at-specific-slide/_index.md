@@ -16,7 +16,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 1.  Aspose.Slides för .NET: Du måste ha Aspose.Slides för .NET installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
 
-2.  Din dokumentkatalog: Byt ut`"Your Document Directory"` platshållare i koden med den faktiska sökvägen till din dokumentkatalog där din PowerPoint-presentation lagras.
+2.  Din dokumentkatalog: Ersätt`"Your Document Directory"` platshållare i koden med den faktiska sökvägen till din dokumentkatalog där din PowerPoint-presentation lagras.
 
 Låt oss nu gå vidare med steg-för-steg-guiden för att ta bort anteckningar på en specifik bild med Aspose.Slides för .NET.
 

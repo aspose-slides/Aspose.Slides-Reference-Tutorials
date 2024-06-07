@@ -52,7 +52,7 @@ Dans cette étape, nous créons une forme de diagramme en boîte sur la premièr
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Dans cette étape, nous définissons les catégories du diagramme en boîtes. Nous utilisons le`IChartDataWorkbook`pour ajouter des catégories et les étiqueter en conséquence.
+ Dans cette étape, nous définissons les catégories du diagramme en boîtes. Nous utilisons le`IChartDataWorkbook` pour ajouter des catégories et les étiqueter en conséquence.
 
 ## Étape 4 : Créer la série
 

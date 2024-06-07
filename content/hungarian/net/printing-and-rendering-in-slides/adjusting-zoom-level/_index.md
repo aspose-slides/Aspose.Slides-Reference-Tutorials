@@ -40,7 +40,7 @@ A nagyítási szint beállításához be kell állítani a prezentáció nézet 
 presentation.ViewProperties.SlideViewProperties.Scale = 100; // Nagyítási érték százalékban a dianézethez
 presentation.ViewProperties.NotesViewProperties.Scale = 100; // Nagyítási érték százalékban a jegyzetek nézetéhez
 ```
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 Mentse el a módosított bemutatót a beállított nagyítási szinttel a megadott könyvtárba.
 ```csharp
 presentation.Save(dataDir + "Zoom_out.pptx", SaveFormat.Pptx);

@@ -61,6 +61,6 @@ Aspose.Slides obsługuje przede wszystkim języki .NET, takie jak C#. Jednakże 
 ### Gdzie mogę znaleźć szczegółową dokumentację Aspose.Slides dla .NET?
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/slides/net/).
 ### Jak mogę uzyskać pomoc lub zadać pytania dotyczące Aspose.Slides dla .NET?
- Odwiedź forum pomocy[Tutaj](https://forum.aspose.com/c/slides/11).
+ Odwiedź forum wsparcia[Tutaj](https://forum.aspose.com/c/slides/11).
 ### Czy mogę kupić tymczasową licencję na Aspose.Slides dla .NET?
  Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

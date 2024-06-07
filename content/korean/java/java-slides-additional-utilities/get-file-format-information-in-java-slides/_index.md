@@ -96,7 +96,7 @@ switch (info.getLoadFormat())
 
 ### Java 라이브러리용 Aspose.Slides를 어떻게 구하나요?
 
- Aspose 웹사이트에서 Java 라이브러리용 Aspose.Slides를 다운로드할 수 있습니다.[이 링크](https://releases.aspose.com/slides/java/). 프로젝트에 적합한 버전을 선택하세요.
+ Aspose 웹사이트에서 Java 라이브러리용 Aspose.Slides를 다운로드할 수 있습니다.[이 링크](https://releases.aspose.com/slides/java/)프로젝트에 적합한 버전을 선택하세요.
 
 ### 이 코드를 다른 Java 프레젠테이션 라이브러리와 함께 사용할 수 있습니까?
 
@@ -104,7 +104,7 @@ switch (info.getLoadFormat())
 
 ### "알 수 없는" 형식이 나타나면 어떻게 되나요?
 
-코드가 "프레젠테이션 형식을 알 수 없습니다"를 반환하면 프레젠테이션 파일 형식이 Aspose.Slides for Java에서 인식되거나 지원되지 않는다는 의미입니다. 호환되는 형식을 사용하고 있는지 확인하세요.
+코드가 "프레젠테이션 형식을 알 수 없습니다"를 반환하는 경우 프레젠테이션 파일 형식이 Aspose.Slides for Java에서 인식되거나 지원되지 않는다는 의미입니다. 호환되는 형식을 사용하고 있는지 확인하세요.
 
 ### Aspose.Slides for Java는 무료 라이브러리인가요?
 

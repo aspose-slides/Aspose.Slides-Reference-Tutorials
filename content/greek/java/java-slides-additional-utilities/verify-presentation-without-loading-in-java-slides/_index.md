@@ -25,7 +25,7 @@ url: /el/java/additional-utilities/verify-presentation-without-loading-in-java-s
 
 Ξεκινήστε ρυθμίζοντας το περιβάλλον ανάπτυξής σας. Βεβαιωθείτε ότι έχετε τη βιβλιοθήκη Aspose.Slides for Java διαθέσιμη στο έργο σας.
 
-### 2. Εισαγωγή Απαραίτητων Τάξεων
+### 2. Εισαγωγή Απαραίτητες Τάξεις
 
 Στο έργο σας Java, εισαγάγετε τις απαραίτητες κλάσεις από το Aspose.Slides για Java. Αυτές οι τάξεις θα χρησιμοποιηθούν για την εργασία με αρχεία παρουσίασης.
 
@@ -41,7 +41,7 @@ import com.aspose.slides.PresentationFactory;
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Θα επιστρέψει "LoadFormat.Unknown" εάν το αρχείο δεν είναι μορφές παρουσίασης
+//Θα επιστρέψει "LoadFormat.Unknown" εάν το αρχείο δεν είναι μορφές παρουσίασης
 ```
 
  Σε αυτόν τον κώδικα, χρησιμοποιούμε`PresentationFactory` για να λάβετε πληροφορίες σχετικά με το αρχείο παρουσίασης, συμπεριλαμβανομένης της μορφής του. Εάν το αρχείο δεν είναι έγκυρη μορφή παρουσίασης, θα επιστρέψει "LoadFormat.Unknown".
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Η διαδρομή προς τον κατάλογο εγγράφων.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Θα επιστρέψει "LoadFormat.Unknown" εάν το αρχείο δεν είναι μορφές παρουσίασης
+        //Θα επιστρέψει "LoadFormat.Unknown" εάν το αρχείο δεν είναι μορφές παρουσίασης
 ```
 
 ## συμπέρασμα

@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- Στον παραπάνω κωδικό, αντικαταστήστε`"Your Document Directory"`με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας και`"Hyperlink.pptx"` με το όνομα του αρχείου παρουσίασης του PowerPoint.
+ Στον παραπάνω κωδικό, αντικαταστήστε`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας και`"Hyperlink.pptx"` με το όνομα του αρχείου παρουσίασης του PowerPoint.
 
 ## Βήμα 3: Κατάργηση υπερσυνδέσμων
 

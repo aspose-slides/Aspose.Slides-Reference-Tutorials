@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Obtenez le classeur de données graphiques.
 
 ```java
-//Obtenir la feuille de calcul des données du graphique
+// Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Définition de l'index de la feuille de données du graphique
 int defaultWorksheetIndex = 0;
-//Obtenir la feuille de calcul des données du graphique
+// Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Ajouter une série
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Prendre la deuxième série de graphiques
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Remplir maintenant les données de série
+//Remplir maintenant les données de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -195,6 +195,6 @@ Oui, vous pouvez personnaliser les couleurs du graphique en définissant les pro
 
  Pour définir un angle de rotation différent pour les axes X et Y, utilisez`chart.getRotation3D().setRotationX()` et`chart.getRotation3D().setRotationY()` avec les valeurs d'angle souhaitées.
 
-### Quelles autres propriétés 3D puis-je personnaliser ?
+### Quelles autres propriétés 3D puis-je personnaliser ?
 
 Vous pouvez explorer d'autres propriétés 3D du graphique, telles que la profondeur, la perspective et l'éclairage, en vous référant à la documentation Aspose.Slides.

@@ -51,12 +51,12 @@ using (var presentation = new Presentation(presentationPath))
 
 Cada slide de uma apresentação possui um identificador exclusivo que pode ser usado para acessá-lo. O identificador pode estar na forma de um índice ou ID de slide. Vamos explorar como usar os dois métodos:
 
-## Acessando por Índice
+## Acessando por índice
 
 Para acessar um slide pelo seu índice:
 
 ```csharp
-int slideIndex = 0; // Substitua pelo índice desejado
+int slideIndex = 0; //Substitua pelo índice desejado
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

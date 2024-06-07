@@ -28,10 +28,10 @@ using Aspose.Slides;
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // โหลดรูปภาพที่จะเพิ่มในคอลเลกชันรูปภาพการนำเสนอ
+    //โหลดรูปภาพที่จะเพิ่มในคอลเลกชันรูปภาพการนำเสนอ
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
-    // ...
+    // -
 }
 ```
 ในขั้นตอนนี้ เราสร้างออบเจ็กต์การนำเสนอใหม่และโหลดรูปภาพที่เราต้องการเพิ่มลงในงานนำเสนอ

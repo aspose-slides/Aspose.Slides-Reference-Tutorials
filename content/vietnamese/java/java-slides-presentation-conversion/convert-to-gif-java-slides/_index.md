@@ -33,7 +33,7 @@ Nếu bạn thấy phiên bản Java được hiển thị thì bạn đã hoàn
  Trong bước này, chúng tôi sẽ tải bản trình bày PowerPoint mà bạn muốn chuyển đổi sang GIF. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn.
 
 ```java
-// Đường dẫn tới thư mục tài liệu
+// Đường dẫn đến thư mục tài liệu
 String dataDir = "Your Document Directory";
 
 // Khởi tạo một đối tượng Trình bày đại diện cho một tệp trình bày
@@ -68,7 +68,7 @@ Và thế là xong! Bạn đã chuyển đổi thành công bản trình bày Po
 ## Mã nguồn hoàn chỉnh để chuyển đổi sang GIF trong Java Slides
 
 ```java
-// Đường dẫn tới thư mục tài liệu
+// Đường dẫn đến thư mục tài liệu
 String dataDir = "Your Document Directory";
 // Đường dẫn đến tập tin đầu ra
 String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";

@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## Langkah 5: Tentukan Format Gradien
 
- Pada langkah ini, Anda akan menentukan format gradien. Anda dapat menyesuaikan gradien sesuai dengan preferensi Anda. Di sini, kami menggunakan`TileFlip.FlipBoth` untuk menciptakan efek yang menarik secara visual.
+Pada langkah ini, Anda akan menentukan format gradien. Anda dapat menyesuaikan gradien sesuai dengan preferensi Anda. Di sini, kami menggunakan`TileFlip.FlipBoth` untuk menciptakan efek yang menarik secara visual.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

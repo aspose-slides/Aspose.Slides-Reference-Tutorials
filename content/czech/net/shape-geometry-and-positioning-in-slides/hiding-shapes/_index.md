@@ -68,8 +68,8 @@ Ano, Aspose.Slides podporuje .NET Core a poskytuje flexibilitu ve vašem vývojo
 ### Mohu skrýt tvary na základě jiných podmínek než alternativního textu?
 Absolutně! Logiku skrytí můžete přizpůsobit na základě různých atributů, jako je typ tvaru, barva nebo poloha.
 ### Kde najdu další dokumentaci Aspose.Slides?
- Prozkoumejte dokumentaci[tady](https://reference.aspose.com/slides/net/) pro podrobné informace a příklady.
+ Prozkoumejte dokumentaci[tady](https://reference.aspose.com/slides/net/)pro podrobné informace a příklady.
 ### Jsou pro Aspose.Slides dostupné dočasné licence?
- Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+ Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/)pro testovací účely.
 ### Jak mohu získat podporu komunity pro Aspose.Slides?
  Připojte se ke komunitě Aspose.Slides na[Fórum](https://forum.aspose.com/c/slides/11) za diskuze a pomoc.

@@ -149,4 +149,4 @@ Vous pouvez parcourir les points de données et définir des valeurs de barre d'
 
 ### Est-il possible de masquer les barres d’erreur pour des points de données spécifiques ?
 
- Oui, vous pouvez contrôler la visibilité des barres d'erreur pour des points de données individuels en définissant l'option`setVisible` propriété du`IErrorBarsFormat` objet.
+Oui, vous pouvez contrôler la visibilité des barres d'erreur pour des points de données individuels en définissant l'option`setVisible` propriété du`IErrorBarsFormat` objet.

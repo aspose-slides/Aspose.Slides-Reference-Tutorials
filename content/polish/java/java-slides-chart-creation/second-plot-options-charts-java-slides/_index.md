@@ -10,7 +10,7 @@ url: /pl/java/chart-creation/second-plot-options-charts-java-slides/
 
 ## Wprowadzenie do opcji drugiego wykresu dla wykresów w slajdach Java
 
-W tym samouczku przyjrzymy się, jak dodać drugie opcje wykresu do wykresów za pomocą Aspose.Slides dla Java. Drugie opcje wykresu umożliwiają dostosowanie wyglądu i zachowania wykresów, szczególnie w scenariuszach takich jak wykresy kołowe. Aby to osiągnąć, udostępnimy instrukcje krok po kroku i przykłady kodu źródłowego. 
+tym samouczku przyjrzymy się, jak dodać drugie opcje wykresu do wykresów za pomocą Aspose.Slides dla Java. Drugie opcje wykresu umożliwiają dostosowanie wyglądu i zachowania wykresów, szczególnie w scenariuszach takich jak wykresy kołowe. Aby to osiągnąć, udostępnimy instrukcje krok po kroku i przykłady kodu źródłowego. 
 
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz zainstalowany i skonfigurowany Aspose.Slides for Java w swoim projekcie Java.
@@ -88,8 +88,8 @@ W tym samouczku nauczyliśmy się, jak dodawać drugie opcje wykresu do wykresó
 
 ###  Co robi`PieSplitBy` control in a Pie of Pie chart?
 
- The`PieSplitBy`właściwość kontroluje sposób podziału wykresu kołowego. Możesz to ustawić na jedno i drugie`PieSplitType.ByPercentage` Lub`PieSplitType.ByValue` aby podzielić wykres odpowiednio procentowo lub według określonej wartości.
+ The`PieSplitBy` właściwość kontroluje sposób podziału wykresu kołowego. Możesz to ustawić na jedno i drugie`PieSplitType.ByPercentage` Lub`PieSplitType.ByValue` aby podzielić wykres odpowiednio procentowo lub według określonej wartości.
 
 ### Jak ustawić pozycję podziału na wykresie kołowym?
 
- Możesz ustawić pozycję podziału na wykresie kołowym za pomocą opcji`setPieSplitPosition` metoda. Dostosuj wartość, aby określić żądaną pozycję.
+Możesz ustawić pozycję podziału na wykresie kołowym za pomocą opcji`setPieSplitPosition` metoda. Dostosuj wartość, aby określić żądaną pozycję.

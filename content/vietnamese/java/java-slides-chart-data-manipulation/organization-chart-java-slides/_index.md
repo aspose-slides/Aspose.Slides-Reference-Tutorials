@@ -22,7 +22,7 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn có sẵn c�
 ## Bước 1: Thiết lập dự án Java của bạn
 
 1. Tạo một dự án Java mới trong IDE ưa thích của bạn.
-2.  Thêm thư viện Aspose.Slides for Java vào dự án của bạn. Bạn có thể tải xuống thư viện từ[trang web giả định](https://products.aspose.com/slides/java) và bao gồm nó như một phần phụ thuộc.
+2.  Thêm thư viện Aspose.Slides for Java vào dự án của bạn. Bạn có thể tải xuống thư viện từ[trang web giả định](https://products.aspose.com/slides/java)và bao gồm nó như một phần phụ thuộc.
 
 ## Bước 2: Nhập thư viện cần thiết
 Trong lớp Java của bạn, hãy nhập các thư viện cần thiết để hoạt động với Aspose.Slides:
@@ -59,7 +59,7 @@ try {
 }
 ```
 
- Thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục tài liệu của bạn và`"test.pptx"` với tên của bản trình bày PowerPoint đầu vào của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn và`"test.pptx"` với tên của bản trình bày PowerPoint đầu vào của bạn.
 
 ## Bước 4: Chạy mã
 

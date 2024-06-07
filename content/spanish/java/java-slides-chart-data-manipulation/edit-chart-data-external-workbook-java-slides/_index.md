@@ -84,7 +84,7 @@ Ahora ha editado con éxito los datos del gráfico en un libro de trabajo extern
 ```
 ## Conclusión
 
-En esta guía completa, hemos explorado cómo editar datos de gráficos en libros de trabajo externos dentro de presentaciones de PowerPoint usando Aspose.Slides para Java. Al seguir las instrucciones paso a paso y los ejemplos de código fuente, obtendrá el conocimiento y las habilidades para modificar datos de gráficos mediante programación con facilidad.
+En esta guía completa, hemos explorado cómo editar datos de gráficos en libros de trabajo externos dentro de presentaciones de PowerPoint usando Aspose.Slides para Java. Al seguir las instrucciones paso a paso y los ejemplos de código fuente, habrá adquirido el conocimiento y las habilidades para modificar datos de gráficos mediante programación con facilidad.
 
 ## Preguntas frecuentes
 

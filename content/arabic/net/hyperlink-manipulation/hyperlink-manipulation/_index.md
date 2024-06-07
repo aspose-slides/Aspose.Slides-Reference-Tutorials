@@ -117,7 +117,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 قطعاً. يدعم Aspose.Slides تنسيقات PowerPoint المتنوعة، بما في ذلك PPT وPPTX وPPS والمزيد. ويضمن التوافق مع إصدارات مختلفة من Microsoft PowerPoint.
 
 ### أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Slides؟
-للحصول على وثائق متعمقة ودعم المجتمع، قم بزيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net/) و ال[Aspose منتدى الدعم](https://forum.aspose.com/).
+ للحصول على وثائق متعمقة ودعم المجتمع، قم بزيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net/) و ال[Aspose منتدى الدعم](https://forum.aspose.com/).
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  إذا كنت بحاجة إلى ترخيص مؤقت لـ Aspose.Slides، فيمكنك الحصول على واحد[هنا](https://purchase.aspose.com/temporary-license/).

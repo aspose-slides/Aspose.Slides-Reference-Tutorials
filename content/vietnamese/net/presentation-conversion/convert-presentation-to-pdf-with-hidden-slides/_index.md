@@ -72,7 +72,7 @@ class Program
 
 ## Phần kết luận
 
-Chuyển đổi bản trình bày sang PDF là một tác vụ phổ biến, nhưng khi xử lý các trang chiếu ẩn, điều quan trọng là phải sử dụng thư viện đáng tin cậy như Aspose.Slides cho .NET. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể chuyển đổi bản trình bày sang PDF một cách liền mạch trong khi vẫn đảm bảo bao gồm các trang trình bày ẩn, duy trì chất lượng và ngữ cảnh tổng thể của bản trình bày.
+Chuyển đổi bản trình bày sang PDF là một tác vụ phổ biến nhưng khi xử lý các trang chiếu ẩn, điều quan trọng là phải sử dụng thư viện đáng tin cậy như Aspose.Slides cho .NET. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể chuyển đổi bản trình bày sang PDF một cách liền mạch trong khi vẫn đảm bảo bao gồm các trang trình bày ẩn, duy trì chất lượng và ngữ cảnh tổng thể của bản trình bày.
 
 ## Câu hỏi thường gặp
 

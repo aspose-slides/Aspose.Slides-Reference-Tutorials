@@ -25,7 +25,7 @@ Bildanimationer kan förvandla statiska presentationer till dynamiska visuella u
 
 ## Ge dig ut på din animationsresa:
 
-Nu när du har en glimt av vad som väntar är det dags att ge dig ut på din animationsresa. Oavsett om du vill lägga till subtila övergångar eller skapa utarbetade animerade sekvenser, kommer den här handledningen att utrusta dig med färdigheter för att ge dina presentationer liv. Så låt oss dyka in och reda ut världen av bildanimeringskontroll med Aspose.Slides för .NET.
+Nu när du har en glimt av vad som väntar är det dags att ge dig ut på din animationsresa. Oavsett om du vill lägga till subtila övergångar eller skapa utarbetade animerade sekvenser, kommer denna handledning att utrusta dig med färdigheter för att ge dina presentationer liv. Så låt oss dyka in och reda ut världen av bildanimeringskontroll med Aspose.Slides för .NET.
 
 ## Slide Animation Control Tutorials
 ### [Slide Animation Control i Aspose.Slides](./slide-animation-control/)
@@ -33,6 +33,6 @@ Lär dig hur du styr bildanimationer i PowerPoint-presentationer med Aspose.Slid
 ### [Kontroll efter animeringstyp i bild](./control-after-animation-type/)
 Lär dig hur du styr animeringstyper i PowerPoint-bilder med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger källkodsexempel och täcker installation, kodimplementering och modifiering av animeringseffekter.
 ### [Upprepa animering på bild](./repeat-animation-on-slide/)
-Lär dig hur du upprepar animationer på en bild med Aspose.Slides för .NET. Denna steg-för-steg-guide ger källkod och tydliga instruktioner för att lägga till fängslande animationer till PowerPoint-presentationer programmatiskt.
+Lär dig hur du upprepar animationer på en bild med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger källkod och tydliga instruktioner för att lägga till fängslande animationer till PowerPoint-presentationer programmatiskt.
 ### [Spola tillbaka animering på bild](./rewind-animation-on-slide/)
 Lär dig hur du spola tillbaka animationer på PowerPoint-bilder med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med kompletta källkodsexempel för att förbättra dina presentationer dynamiskt.

@@ -58,7 +58,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Solid;
 pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ```
 
- Ebben a kódban az első diát a használatával érjük el`pres.Slides[0]` majd állítsa kékre a hátterét. Cseréléssel megváltoztathatja a színt bármilyen más színre`Color.Blue` a kívánt színnel.
+ Ebben a kódban az első diát a használatával érjük el`pres.Slides[0]` majd állítsa a hátterét kékre. Cseréléssel megváltoztathatja a színt bármilyen más színre`Color.Blue` a kívánt színnel.
 
 ## 3. lépés: Mentse el a prezentációt
 
@@ -70,7 +70,7 @@ pres.Save(dataDir + "ContentBG_out.pptx", SaveFormat.Pptx);
 
 Ez a kód elmenti a prezentációt a módosított háttérrel a megadott elérési útra.
 
-Sikeresen megváltoztatta a prezentáció dia hátterét az Aspose.Slides for .NET segítségével. Ez egy hatékony eszköz lehet vizuálisan tetszetős diák létrehozásához prezentációihoz.
+Sikeresen megváltoztatta a prezentáció egy diájának hátterét az Aspose.Slides for .NET segítségével. Ez egy hatékony eszköz lehet vizuálisan tetszetős diák létrehozásához prezentációihoz.
 
 ## Következtetés
 

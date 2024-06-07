@@ -37,7 +37,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-// PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
+//PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
 Presentation presentation = new Presentation();
 ```
 
@@ -78,7 +78,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
+//PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
 Presentation presentation = new Presentation();
 try
 {

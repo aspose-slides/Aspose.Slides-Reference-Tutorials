@@ -93,7 +93,7 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
 ### Могу ли я попробовать Aspose.Slides перед покупкой?
  Абсолютно! Вы можете скачать бесплатную пробную версию[здесь](https://releases.aspose.com/).
 ### Где я могу найти поддержку для запросов, связанных с Aspose.Slides?
- Посетите Aspose.Slides[Форум](https://forum.aspose.com/c/slides/11) за поддержку сообщества и обсуждения.
+Посетите Aspose.Slides[Форум](https://forum.aspose.com/c/slides/11) за поддержку сообщества и обсуждения.
 ### Как получить временную лицензию на Aspose.Slides?
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести полную лицензию на Aspose.Slides?

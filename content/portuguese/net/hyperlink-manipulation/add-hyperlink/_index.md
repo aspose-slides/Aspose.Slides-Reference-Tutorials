@@ -8,7 +8,7 @@ weight: 12
 url: /pt/net/hyperlink-manipulation/add-hyperlink/
 ---
 
-No mundo das apresentações digitais, a interatividade é fundamental. Adicionar hiperlinks aos slides pode tornar sua apresentação mais envolvente e informativa. Aspose.Slides for .NET é uma biblioteca poderosa que permite criar, modificar e manipular apresentações do PowerPoint de forma programática. Neste tutorial, mostraremos como adicionar hiperlinks aos seus slides usando Aspose.Slides for .NET. 
+No mundo das apresentações digitais, a interatividade é fundamental. Adicionar hiperlinks aos slides pode tornar sua apresentação mais envolvente e informativa. Aspose.Slides for .NET é uma biblioteca poderosa que permite criar, modificar e manipular apresentações do PowerPoint programaticamente. Neste tutorial, mostraremos como adicionar hiperlinks aos seus slides usando Aspose.Slides for .NET. 
 
 ## Pré-requisitos
 

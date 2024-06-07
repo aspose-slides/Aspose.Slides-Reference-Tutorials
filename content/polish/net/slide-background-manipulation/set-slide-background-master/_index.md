@@ -26,7 +26,7 @@ Skoro już sprawdziliśmy wymagania wstępne, przejdźmy do ustawienia wzorca t�
 
 ## Importuj przestrzenie nazw
 
-Najpierw musimy zaimportować niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności udostępnianych przez Aspose.Slides dla .NET. Wykonaj następujące kroki:
+Najpierw musimy zaimportować niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności zapewnianych przez Aspose.Slides dla .NET. Wykonaj następujące kroki:
 
 ### Krok 1: Zaimportuj wymagane przestrzenie nazw
 

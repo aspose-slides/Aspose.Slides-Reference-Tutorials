@@ -16,7 +16,7 @@ Trước khi chúng ta đi sâu vào hướng dẫn, bạn phải có sẵn các
 
 -  Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt Aspose.Slides for .NET trong môi trường phát triển của mình. Nếu chưa có, bạn có thể tải xuống từ[đây](https://releases.aspose.com/slides/net/).
 
-- Bản trình bày hiện có: Bạn nên có bản trình bày PowerPoint với biểu đồ mà bạn muốn tạo hiệu ứng động. Nếu bạn không có, hãy tạo một bản trình bày mẫu có biểu đồ cho mục đích thử nghiệm.
+- Bản trình bày hiện có: Bạn phải có bản trình bày PowerPoint với biểu đồ mà bạn muốn tạo hiệu ứng động. Nếu bạn không có, hãy tạo một bản trình bày mẫu có biểu đồ cho mục đích thử nghiệm.
 
 Bây giờ bạn đã có mọi thứ, hãy bắt đầu tạo hoạt ảnh cho các thành phần biểu đồ đó!
 
@@ -96,7 +96,7 @@ Quá trình tương tự tiếp tục xảy ra với loại 2, tạo hoạt ản
 ## Bước 4: Lưu bài thuyết trình
 
 ```csharp
-//Ghi tập tin trình bày vào đĩa
+// Ghi tập tin trình bày vào đĩa
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

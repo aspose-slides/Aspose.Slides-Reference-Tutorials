@@ -71,7 +71,7 @@ Denna kod säkerställer att seriens fyllningsfärg är inställd på automatisk
 För att spara presentationen, använd följande kod:
 
 ```java
-//Skriv presentationsfilen till disk
+// Skriv presentationsfilen till disk
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Skriv presentationsfilen till disk
+	// Skriv presentationsfilen till disk
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

@@ -179,4 +179,4 @@ Oui, vous pouvez ajouter autant de points de données que nécessaire au graphiq
 
 ### Comment puis-je ajuster la position et la taille du graphique Donut sur la diapositive ?
 
- Vous pouvez changer la position et la taille du graphique Donut en modifiant les paramètres dans le`addChart` méthode. Les quatre nombres de cette méthode correspondent respectivement aux coordonnées X et Y du coin supérieur gauche du graphique ainsi qu'à sa largeur et sa hauteur.
+Vous pouvez changer la position et la taille du graphique Donut en modifiant les paramètres dans le`addChart` méthode. Les quatre nombres de cette méthode correspondent respectivement aux coordonnées X et Y du coin supérieur gauche du graphique ainsi qu'à sa largeur et sa hauteur.

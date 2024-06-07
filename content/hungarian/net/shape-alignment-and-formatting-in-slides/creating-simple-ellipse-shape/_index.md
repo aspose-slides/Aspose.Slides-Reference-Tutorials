@@ -50,7 +50,7 @@ Végül mentse a módosított prezentációt lemezre meghatározott fájlnévvel
 // Írja ki a PPTX fájlt a lemezre
 pres.Save(dataDir + "EllipseShp1_out.pptx", SaveFormat.Pptx);
 ```
-Ez a lépés biztosítja, hogy a változtatások megmaradjanak, és megtekinthesse az eredményül kapott prezentációt az újonnan hozzáadott ellipszis alakzattal.
+Ez a lépés biztosítja, hogy a változtatások megmaradjanak, és megtekintheti az eredményül kapott prezentációt az újonnan hozzáadott ellipszis alakzattal.
 ## Következtetés
 Congratulations! You've successfully created a simple ellipse shape in a presentation slide using Aspose.Slides for .NET. This tutorial provides a foundational understanding of working with shapes, setting up presentations, and saving the modified files.
 ---

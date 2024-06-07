@@ -37,7 +37,7 @@ Skapa en geometrisk form i presentationen. Låt oss till exempel lägga till en 
 ```csharp
 GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ```
-## Steg 4: Få Geometri Path
+## Steg 4: Skaffa Geometry Path
 Hämta geometribanan för den skapade formen för att manipulera dess segment.
 ```csharp
 IGeometryPath geometryPath = shape.GetGeometryPaths()[0];

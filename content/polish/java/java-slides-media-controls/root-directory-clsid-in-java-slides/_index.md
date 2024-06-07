@@ -10,7 +10,7 @@ url: /pl/java/media-controls/root-directory-clsid-in-java-slides/
 
 ## Wprowadzenie do ustawiania katalogu głównego ClsId w Aspose.Slides dla Java
 
-Aspose.Slides for Java możesz ustawić Root Directory ClsId, który jest identyfikatorem CLSID (identyfikatorem klasy) używanym do określenia aplikacji, która ma być używana jako katalog główny po aktywowaniu hiperłącza w prezentacji. W tym przewodniku przeprowadzimy Cię krok po kroku, jak to zrobić.
+W Aspose.Slides for Java możesz ustawić Root Directory ClsId, który jest identyfikatorem CLSID (identyfikatorem klasy) używanym do określenia aplikacji, która ma być używana jako katalog główny po aktywowaniu hiperłącza w prezentacji. W tym przewodniku przeprowadzimy Cię krok po kroku, jak to zrobić.
 
 ## Warunki wstępne
 
@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Zastąp „twoja_ścieżka_w
 Presentation pres = new Presentation();
 ```
 
- W powyższym kodzie definiujemy ścieżkę do wyjściowego pliku prezentacji i tworzymy nowy`Presentation` obiekt.
+ powyższym kodzie definiujemy ścieżkę do wyjściowego pliku prezentacji i tworzymy nowy`Presentation` obiekt.
 
 ## Krok 2: Ustaw katalog główny ClsId
 
- Aby ustawić ClsId katalogu głównego, musisz utworzyć instancję`PptOptions` ustaw żądany identyfikator CLSID. Identyfikator CLSID reprezentuje aplikację, która będzie używana jako katalog główny po aktywowaniu hiperłącza.
+ Aby ustawić ClsId katalogu głównego, musisz utworzyć instancję`PptOptions` i ustaw żądany identyfikator CLSID. Identyfikator CLSID reprezentuje aplikację, która będzie używana jako katalog główny po aktywowaniu hiperłącza.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// ustaw CLSID na „Microsoft Powerpoint.Show.8”
+	//ustaw CLSID na „Microsoft Powerpoint.Show.8”
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Zapisz prezentację
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);
@@ -102,7 +102,7 @@ Jeśli nie ustawisz identyfikatora katalogu głównego ClsId, domyślne zachowan
 
 ### Czy mogę zmienić identyfikator ClsId katalogu głównego dla poszczególnych hiperłączy?
 
-Nie, identyfikator ClsId katalogu głównego jest zwykle ustawiany na poziomie prezentacji i ma zastosowanie do wszystkich hiperłączy w prezentacji. Jeśli chcesz określić różne zastosowania dla poszczególnych hiperłączy, może być konieczne osobne obsłużenie tych hiperłączy w kodzie.
+Nie, identyfikator ClsId katalogu głównego jest zwykle ustawiany na poziomie prezentacji i ma zastosowanie do wszystkich hiperłączy w prezentacji. Jeśli chcesz określić różne zastosowania dla poszczególnych hiperłączy, może zaistnieć potrzeba osobnej obsługi tych hiperłączy w kodzie.
 
 ### Czy są jakieś ograniczenia dotyczące identyfikatorów CLSID, których mogę używać?
 

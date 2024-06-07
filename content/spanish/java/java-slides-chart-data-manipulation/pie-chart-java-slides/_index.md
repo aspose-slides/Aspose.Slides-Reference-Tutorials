@@ -49,7 +49,7 @@ Obtenga la primera diapositiva de la presentación donde desea agregar el gráfi
 ## Paso 4: agregue un gráfico circular
 
 ```java
-// Agregar un gráfico circular con datos predeterminados
+//Agregar un gráfico circular con datos predeterminados
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Configuración del índice de la hoja de datos del gráfico
 int defaultWorksheetIndex = 0;
 
-//Obtener la hoja de trabajo de datos del gráfico
+// Obtener la hoja de trabajo de datos del gráfico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Eliminar series y categorías generadas por defecto
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Personaliza otros sectores de forma similar
+// Personaliza otros sectores de forma similar
 ```
 
 Personaliza la apariencia de cada sector en el gráfico circular. Puede cambiar los colores, estilos de borde y otras propiedades visuales.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Configuración del índice de la hoja de datos del gráfico
 int defaultWorksheetIndex = 0;
-//Obtener la hoja de trabajo de datos del gráfico
+// Obtener la hoja de trabajo de datos del gráfico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Eliminar series y categorías generadas por defecto
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Añadiendo nueva serie
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Ahora completando datos de series
+//Ahora completando datos de series
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//No funciona en la nueva versión
+// No funciona en la nueva versión
 // Agregar nuevos puntos y configurar el color del sector
 // series.IsColorVaried = verdadero;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ Ha creado con éxito un gráfico circular en una presentación de PowerPoint uti
 
 ### ¿Cómo puedo cambiar los colores de sectores individuales en el gráfico circular?
 
- Para cambiar los colores de sectores individuales en el gráfico circular, puede personalizar el color de relleno de cada punto de datos. En el ejemplo de código proporcionado, demostramos cómo establecer el color de relleno para cada sector usando el`getSolidFillColor().setColor()`método. Puede modificar los valores de color para lograr la apariencia deseada.
+ Para cambiar los colores de sectores individuales en el gráfico circular, puede personalizar el color de relleno de cada punto de datos. En el ejemplo de código proporcionado, demostramos cómo establecer el color de relleno para cada sector usando el`getSolidFillColor().setColor()` método. Puede modificar los valores de color para lograr la apariencia deseada.
 
 ### ¿Puedo agregar más categorías y series de datos al gráfico circular?
 
@@ -278,7 +278,7 @@ Asegúrese de especificar la ruta y el formato del archivo correctos.
 
 ### ¿Puedo crear otros tipos de gráficos usando Aspose.Slides para Java?
 
- Sí, Aspose.Slides para Java admite varios tipos de gráficos, incluidos gráficos de barras, gráficos de líneas y más. Puede crear diferentes tipos de gráficos cambiando el`ChartType` al agregar un gráfico. Consulte la documentación de Aspose.Slides para obtener más detalles sobre la creación de diferentes tipos de gráficos.
+Sí, Aspose.Slides para Java admite varios tipos de gráficos, incluidos gráficos de barras, gráficos de líneas y más. Puede crear diferentes tipos de gráficos cambiando el`ChartType` al agregar un gráfico. Consulte la documentación de Aspose.Slides para obtener más detalles sobre la creación de diferentes tipos de gráficos.
 
 ### ¿Cómo puedo encontrar más información y ejemplos para trabajar con Aspose.Slides para Java?
 

@@ -63,3 +63,20 @@ Leer hoe u met afbeeldingen in Java-dia's omgaat met Aspose.Slides voor Java-tut
 Leer hoe u de beveiliging van uw Java Slides-documenten kunt verbeteren met Aspose.Slides. Ontdek stapsgewijze tutorials voor documentbeveiliging.
 ### [Opties voor het opslaan van Java-dia's](./saving-options/)
 Meer informatie over de opties voor het opslaan van Java-dia's met Aspose.Slides voor Java. Ontdek uitgebreide tutorials en handleidingen voor efficiënt diabeheer en aanpassing.
+
+### [Java PowerPoint-opslagbewerkingen](./java-powerpoint-save-operations/)
+Leer hoe u PowerPoint-presentaties kunt opslaan met Aspose.Slides voor Java. Tutorials over opslaan in bestanden, streamen en het toevoegen van wachtwoordbeveiliging.
+### [Beheer van Java PowerPoint-eigenschappen](./java-powerpoint-properties-management/)
+Ontdek hoe u PowerPoint-eigenschappen beheert met Aspose.Slides voor Java. Krijg moeiteloos toegang tot eigenschappen, wijzig ze en update ze met onze uitgebreide tutorials.
+### [Java PowerPoint-weergavetechnieken](./java-powerpoint-rendering-techniques/)
+Leer hoe u opmerkingen, 3D-afbeeldingen, emoji's en meer kunt weergeven in PowerPoint met behulp van Aspose.Slides voor Java. Uitgebreide tutorials voor verbeterde presentaties.
+### [Java PowerPoint-vorm en media-invoeging](./java-powerpoint-shape-media-insertion/)
+Leer hoe u vormen en media invoegt in PowerPoint-presentaties met Aspose.Slides voor Java. Zelfstudies omvatten het toevoegen van lijnen, audio, OLE-objecten en video's.
+### [Java PowerPoint-vorm en miniatuurcreatie](./java-powerpoint-shape-thumbnail-creation/)
+Leer vormen en miniaturen maken in PowerPoint met Aspose.Slides Java. Gedetailleerde tutorials over het maken van groepsvormen, schaalfactorminiaturen en zoomeffecten.
+### [Java PowerPoint-animatie en vormmanipulatie](./java-powerpoint-animation-shape-manipulation/)
+Leer hoe u vormen in PowerPoint kunt animeren en manipuleren met Aspose.Slides voor Java. Uitgebreide tutorials voor dynamische presentaties.
+### [Java PowerPoint-vormopmaak en geometrie](./java-powerpoint-shape-formatting-geometry/)
+Ontdek Java PowerPoint-tutorials over vormopmaak en geometrie. Leer vormen vullen, vormen vinden en aangepaste geometrie maken met Aspose.Slides voor Java.
+### [Technieken voor het klonen van Java PowerPoint-dia's](./java-powerpoint-slide-cloning-techniques/)
+Het klonen van masterdia's in PowerPoint met Aspose.Slides voor Java. Leer dia's naadloos binnen dezelfde presentatie of tussen presentaties te klonen.

@@ -60,7 +60,7 @@ Tworzenie kodu HTML z responsywnymi układami z prezentacji programu PowerPoint 
  Aspose.Slides dla .NET to produkt komercyjny, ale możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### FAQ 2: Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla .NET?
- przypadku jakichkolwiek pytań związanych ze wsparciem, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/).
+ przypadku jakichkolwiek pytań związanych ze wsparciem odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/).
 
 ### FAQ 3: Czy mogę używać Aspose.Slides for .NET w projektach komercyjnych?
  Tak, możesz kupić licencje do użytku komercyjnego[Tutaj](https://purchase.aspose.com/buy).

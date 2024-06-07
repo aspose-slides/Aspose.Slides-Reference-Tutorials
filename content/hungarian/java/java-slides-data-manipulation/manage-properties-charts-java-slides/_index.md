@@ -27,7 +27,7 @@ Ha diagramot szeretne hozzáadni egy diához, kövesse az alábbi lépéseket:
 Presentation presentation = new Presentation();
 ```
 
-2. Nyissa meg azt a diát, amelyhez hozzá szeretné adni a diagramot. Ebben a példában az első diát érjük el.
+2. Nyissa meg azt a diát, amelyhez hozzá szeretné adni a diagramot. Ebben a példában elérjük az első diát.
 
 ```java
 // Hozzáférés az első diához
@@ -55,11 +55,11 @@ int defaultWorksheetIndex = 0;
 5. Szerezze be a diagramadatok munkafüzetét.
 
 ```java
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
-6. Sorozatok hozzáadása a diagramhoz. Ebben a példában két sorozatot adunk hozzá: „1. sorozat” és „2. sorozat”.
+6. Sorozat hozzáadása a diagramhoz. Ebben a példában két sorozatot adunk hozzá: „1. sorozat” és „2. sorozat”.
 
 ```java
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -131,7 +131,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 Ez az! Sikeresen létrehozott egy 3D halmozott oszlopdiagramot egyéni tulajdonságokkal a Java Aspose.Slides segítségével.
 
-## A Java Slides tulajdonságai diagramjainak teljes forráskódja
+## Teljes forráskód a Java Slides tulajdonságait tartalmazó diagramok kezeléséhez
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Diagram adatlap indexének beállítása
 int defaultWorksheetIndex = 0;
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Sorozat hozzáadása
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Vegyük a második diagramsorozatot
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Most a sorozatadatok feltöltése
+//Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -175,7 +175,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebben az oktatóanyagban az Aspose.Slides segítségével elmélyültünk a tulajdonságok kezelésének és a Java diákon lévő diagramok létrehozásának világában. Az Aspose.Slides egy robusztus Java API, amely képessé teszi a fejlesztőket arra, hogy hatékonyan dolgozzanak PowerPoint prezentációkkal. Leírtuk az alapvető lépéseket, és forráskód-példákat mutattunk be, amelyek végigvezetik Önt a folyamaton.
+Ebben az oktatóanyagban az Aspose.Slides segítségével elmélyültünk a tulajdonságok kezelésének és a Java diákon lévő diagramok létrehozásának világában. Az Aspose.Slides egy robusztus Java API, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan dolgozzanak PowerPoint prezentációkkal. Leírtuk az alapvető lépéseket, és forráskód-példákat mutattunk be, amelyek végigvezetik Önt a folyamaton.
 
 ## GYIK
 

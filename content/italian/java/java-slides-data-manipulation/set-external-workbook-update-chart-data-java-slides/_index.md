@@ -55,7 +55,7 @@ Infine, salva la presentazione con i dati del grafico aggiornati:
 pres.save(dataDir + "SetExternalWorkbookWithUpdateChartData.pptx", SaveFormat.Pptx);
 ```
 
-## Codice sorgente completo per impostare una cartella di lavoro esterna con dati del grafico di aggiornamento nelle diapositive Java
+## Codice sorgente completo per impostare una cartella di lavoro esterna con i dati del grafico di aggiornamento nelle diapositive Java
 
 ```java
 // Il percorso della directory dei documenti.

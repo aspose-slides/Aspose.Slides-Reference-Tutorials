@@ -44,7 +44,7 @@ In deze stap laadt u uw bestaande PowerPoint-presentatie (PPTX) die het diagram 
 // Pad naar documentmap
 string dataDir = "Your Document Directory";
 
-//Instantieer de klasse Presentatie die een presentatiebestand vertegenwoordigt
+// Instantieer de klasse Presentatie die een presentatiebestand vertegenwoordigt
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Je code komt hier

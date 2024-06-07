@@ -11,7 +11,7 @@ url: /pt/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 No domínio das apresentações dinâmicas, Aspose.Slides for .NET se destaca como uma ferramenta poderosa, fornecendo aos desenvolvedores a capacidade de manipular e aprimorar apresentações do PowerPoint de forma programática. Um recurso intrigante é a capacidade de gerar miniaturas para SmartArt Child Notes, adicionando uma camada de apelo visual às suas apresentações. Este guia passo a passo orientará você no processo de criação de miniaturas para SmartArt Child Notes usando Aspose.Slides for .NET.
 ## Pré-requisitos
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
-- Aspose.Slides para .NET: Certifique-se de ter a biblioteca Aspose.Slides integrada ao seu projeto .NET. Caso contrário, baixe-o do[página de lançamentos](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides para .NET: Certifique-se de ter a biblioteca Aspose.Slides integrada ao seu projeto .NET. Caso contrário, baixe-o do[página de lançamentos](https://releases.aspose.com/slides/net/).
 - Ambiente de desenvolvimento: Configure um ambiente de desenvolvimento .NET funcional e tenha um conhecimento básico de programação C#.
 - Exemplo de apresentação: crie ou obtenha uma apresentação em PowerPoint contendo SmartArt com notas infantis para teste.
 ## Importar namespaces
@@ -57,8 +57,8 @@ R: Sim, você pode ajustar as dimensões e o formato da miniatura modificando os
 ### P: O Aspose.Slides oferece suporte a outros layouts SmartArt?
 R: Absolutamente! Aspose.Slides oferece uma variedade de layouts SmartArt, permitindo que você escolha aquele que melhor se adapta às suas necessidades de apresentação.
 ### P: Existe uma licença temporária disponível para fins de teste?
-R: Sim, você pode obter uma licença temporária em[aqui](https://purchase.aspose.com/temporary-license/) para teste e avaliação.
+ R: Sim, você pode obter uma licença temporária em[aqui](https://purchase.aspose.com/temporary-license/) para teste e avaliação.
 ### P: Onde posso procurar ajuda ou entrar em contato com a comunidade Aspose.Slides?
- R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para se envolver com a comunidade, fazer perguntas e encontrar soluções.
+R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para se envolver com a comunidade, fazer perguntas e encontrar soluções.
 ### P: Posso comprar o Aspose.Slides para .NET?
  R: Certamente! Explore as opções de compra[aqui](https://purchase.aspose.com/buy) para desbloquear todo o potencial do Aspose.Slides em seus projetos.

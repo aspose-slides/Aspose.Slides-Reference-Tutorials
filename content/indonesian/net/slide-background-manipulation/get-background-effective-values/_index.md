@@ -16,7 +16,7 @@ Sebelum kita mendalami detailnya, pastikan Anda memiliki prasyarat berikut:
 
 ### 1. Aspose.Slides untuk .NET Terinstal
 
- Anda harus menginstal Aspose.Slides for .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Aspose.Slides untuk halaman unduhan .NET](https://releases.aspose.com/slides/net/).
+ Anda harus menginstal Aspose.Slides for .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Aspose.Slides untuk halaman unduh .NET](https://releases.aspose.com/slides/net/).
 
 ### 2. Pengetahuan Dasar C#
 
@@ -98,7 +98,7 @@ Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan pengembang 
 
 ### Di mana saya dapat mengunduh Aspose.Slides untuk .NET?
 
- Anda dapat mengunduh Aspose.Slides untuk .NET dari[Aspose.Slides untuk halaman unduhan .NET](https://releases.aspose.com/slides/net/).
+ Anda dapat mengunduh Aspose.Slides untuk .NET dari[Aspose.Slides untuk halaman unduh .NET](https://releases.aspose.com/slides/net/).
 
 ### Apakah saya perlu menjadi pengembang berpengalaman untuk menggunakan Aspose.Slides untuk .NET?
 

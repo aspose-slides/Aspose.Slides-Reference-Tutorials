@@ -18,7 +18,7 @@ Tìm hiểu cách tạo bản trình bày theo chương trình bằng Aspose.Sli
 ### [Tùy chọn chuyển đổi PDF tùy chỉnh cho bản trình bày](./custom-pdf-conversion-options-for-presentations/)
 Nâng cao các tùy chọn chuyển đổi PDF của bạn cho bản trình bày bằng Aspose.Slides for .NET. Hướng dẫn từng bước này bao gồm cách đạt được cài đặt chuyển đổi PDF tùy chỉnh, đảm bảo kiểm soát chính xác đầu ra của bạn. Tối ưu hóa chuyển đổi bản trình bày của bạn ngay hôm nay.
 ### [Xuất các đoạn toán sang MathML trong bài thuyết trình](./export-math-paragraphs-to-mathml-in-presentations/)
-Nâng cao bài thuyết trình của bạn bằng cách xuất các đoạn toán sang MathML bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để kết xuất toán học chính xác. Tải xuống Aspose.Slides và bắt đầu tạo bài thuyết trình hấp dẫn ngay hôm nay.
+Nâng cao bài thuyết trình của bạn bằng cách xuất các đoạn toán học sang MathML bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để kết xuất toán học chính xác. Tải xuống Aspose.Slides và bắt đầu tạo bài thuyết trình hấp dẫn ngay hôm nay.
 ### [Xuất tệp phương tiện sang HTML từ bản trình bày](./export-media-files-to-html-from-presentation/)
 Tối ưu hóa việc chia sẻ bản trình bày của bạn với Aspose.Slides cho .NET! Tìm hiểu cách xuất tệp phương tiện sang HTML từ bản trình bày của bạn trong hướng dẫn từng bước này. 
 ### [Xuất hình dạng sang định dạng SVG từ bản trình bày](./export-shapes-to-svg-format-from-presentation/)

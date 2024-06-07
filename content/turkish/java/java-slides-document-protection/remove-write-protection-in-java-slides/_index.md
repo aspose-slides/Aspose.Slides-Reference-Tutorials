@@ -45,7 +45,7 @@ Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pp
 
 ```java
 try {
-    // Sunumun yazmaya karşı korumalı olup olmadığı kontrol ediliyor
+    //Sunumun yazmaya karşı korumalı olup olmadığı kontrol ediliyor
     if (presentation.getProtectionManager().isWriteProtected())
         // Yazma korumasını kaldırma
         presentation.getProtectionManager().removeWriteProtection();
@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 try
 {
-	// Sunumun yazmaya karşı korumalı olup olmadığı kontrol ediliyor
+	//Sunumun yazmaya karşı korumalı olup olmadığı kontrol ediliyor
 	if (presentation.getProtectionManager().isWriteProtected())
 		// Yazma korumasını kaldırma
 		presentation.getProtectionManager().removeWriteProtection();
@@ -93,13 +93,13 @@ Bu eğitimde, Java ve Aspose.Slides for Java kitaplığını kullanarak PowerPoi
 
  Sunuyu kullanarak bir sunumun yazmaya karşı korumalı olup olmadığını kontrol edebilirsiniz.`getProtectionManager().isWriteProtected()` Aspose.Slides kütüphanesi tarafından sağlanan yöntem.
 
-### Parola korumalı bir sunumdan yazma korumasını kaldırmak mümkün mü?
+### Parola korumalı bir sunumdan yazma korumasını kaldırmak mümkün müdür?
 
 Hayır, parola korumalı bir sunumdan yazma korumasını kaldırma bu eğitimde ele alınmamaktadır. Parola korumasını ayrı ayrı ele almanız gerekir.
 
 ### Toplu halde birden çok sunumdan yazma korumasını kaldırabilir miyim?
 
-Evet, birden fazla sunum arasında geçiş yapabilir ve her birinden yazma korumasını kaldırmak için aynı mantığı uygulayabilirsiniz.
+Evet, birden fazla sunum arasında geçiş yapabilir ve her birindeki yazma korumasını kaldırmak için aynı mantığı uygulayabilirsiniz.
 
 ### Yazma korumasını kaldırırken herhangi bir güvenlik hususu var mı?
 

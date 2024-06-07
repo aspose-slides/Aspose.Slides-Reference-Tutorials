@@ -31,7 +31,7 @@ Odblokuj potencjał prezentacji Java Slides dzięki samouczkom Aspose.Slides for
 
 ## Java Slides Dodatkowe samouczki dotyczące narzędzi
 ### [Usuń nieużywany wzorzec układu w slajdach Java](./remove-unused-layout-master-in-java-slides/)
-Usuń nieużywane wzorce układu za pomocą Aspose.Slides. Przewodnik i kod krok po kroku. Zwiększ efektywność prezentacji.
+Usuń nieużywane wzorce układu za pomocą Aspose.Slides. Przewodnik krok po kroku i kod. Zwiększ efektywność prezentacji.
 ### [Uzyskaj informacje o formacie pliku w slajdach Java](./get-file-format-information-in-java-slides/)
 Dowiedz się, jak odzyskać informacje o formacie pliku w Java Slides przy użyciu Aspose.Slides for Java API. Identyfikuj formaty prezentacji na podstawie przykładów kodu.
 ### [Uzyskaj współrzędne pozycji części w slajdach Java](./get-position-coordinates-of-portion-in-java-slides/)

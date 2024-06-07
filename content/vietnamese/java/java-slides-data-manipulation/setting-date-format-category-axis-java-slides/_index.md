@@ -16,7 +16,7 @@ Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách đặt định dạn
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Thư viện Aspose.Slides cho Java (bạn có thể tải xuống từ[đây](https://releases.aspose.com/slides/java/).
+1. Thư viện Aspose.Slides cho Java (bạn có thể tải xuống từ[đây](https://releases.aspose.com/slides/java/).
 2. Môi trường phát triển Java được thiết lập.
 
 ## Bước 1: Tạo bản trình bày PowerPoint
@@ -138,4 +138,4 @@ Có, bạn có thể đặt các định dạng ngày khác nhau cho các trục
 
 ### Làm cách nào để thêm nhiều điểm dữ liệu hơn vào biểu đồ?
 
- Để thêm nhiều điểm dữ liệu vào biểu đồ, hãy sử dụng`getDataPoints().addDataPointForLineSeries` phương pháp trên chuỗi dữ liệu và cung cấp các giá trị dữ liệu.
+ Để thêm nhiều điểm dữ liệu vào biểu đồ, hãy sử dụng`getDataPoints().addDataPointForLineSeries`phương pháp trên chuỗi dữ liệu và cung cấp các giá trị dữ liệu.

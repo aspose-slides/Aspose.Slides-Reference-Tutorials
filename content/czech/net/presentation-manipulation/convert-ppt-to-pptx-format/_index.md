@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 string srcFileName = dataDir + "Conversion PPT to PPTX.ppt";
 string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 
-// Vytvořte instanci objektu Presentation, který představuje soubor PPT
+//Vytvořte instanci objektu Presentation, který představuje soubor PPT
 Presentation pres = new Presentation(srcFileName);
 
 //Uložení prezentace ve formátu PPTX

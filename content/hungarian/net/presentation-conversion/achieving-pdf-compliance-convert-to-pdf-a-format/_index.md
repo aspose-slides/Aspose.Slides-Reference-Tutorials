@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- Ebben a kódrészletben cserélje ki`"Your Document Directory"` dokumentumkönyvtár tényleges elérési útjával és`"YourPresentation.pptx"` a PowerPoint bemutató nevével.
+ Ebben a kódrészletben cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával és`"YourPresentation.pptx"` a PowerPoint bemutató nevével.
 
 ### 3. lépés: Konfigurálja a PDF-beállításokat
 

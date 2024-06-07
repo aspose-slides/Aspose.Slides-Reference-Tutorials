@@ -10,7 +10,7 @@ url: /pl/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 
 ## Wprowadzenie do dodawania obrazu obiektu BLOB do prezentacji w slajdach Java
 
-W tym obszernym przewodniku przyjrzymy się, jak dodać obraz obiektu Blob do prezentacji za pomocą Java Slides. Aspose.Slides for Java zapewnia zaawansowane funkcje do programowego manipulowania prezentacjami programu PowerPoint. Pod koniec tego samouczka będziesz już wiedział, jak włączać obrazy obiektów BLOB do swoich prezentacji. Zanurzmy się!
+tym obszernym przewodniku przyjrzymy się, jak dodać obraz obiektu Blob do prezentacji za pomocą Java Slides. Aspose.Slides for Java zapewnia zaawansowane funkcje do programowego manipulowania prezentacjami programu PowerPoint. Pod koniec tego samouczka będziesz już wiedział, jak włączać obrazy obiektów BLOB do swoich prezentacji. Zanurzmy się!
 
 ## Warunki wstępne
 
@@ -56,7 +56,7 @@ Presentation pres = new Presentation();
 
 ## Krok 5: Dodaj obraz obiektu Blob
 
-Teraz nadszedł czas, aby dodać obraz obiektu BLOB do prezentacji. Używamy`addImage` sposób, aby to osiągnąć.
+ Teraz nadszedł czas, aby dodać obraz obiektu BLOB do prezentacji. Używamy`addImage`sposób, aby to osiągnąć.
 
 ```java
 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
@@ -116,7 +116,7 @@ Gratulacje! Pomyślnie nauczyłeś się, jak dodać obraz obiektu Blob do prezen
 
 ### Jak zainstalować Aspose.Slides dla Java?
 
- Aspose.Slides dla Java można łatwo zainstalować, pobierając bibliotekę ze strony internetowej[Tutaj](https://releases.aspose.com/slides/java/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby zintegrować go z projektem Java.
+Aspose.Slides dla Java można łatwo zainstalować, pobierając bibliotekę ze strony internetowej[Tutaj](https://releases.aspose.com/slides/java/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby zintegrować go z projektem Java.
 
 ### Czy mogę dodać wiele obrazów obiektów BLOB do jednej prezentacji?
 
@@ -128,7 +128,7 @@ W prezentacjach zaleca się używanie popularnych formatów obrazów, takich jak
 
 ### Jak mogę dostosować położenie i rozmiar dodanego obrazu obiektu Blob?
 
-Możesz dostosować położenie i rozmiar dodanego obrazu obiektu Blob, modyfikując parametry w pliku`addPictureFrame` metoda. Cztery wartości (współrzędna x, współrzędna y, szerokość i wysokość) określają położenie i wymiary ramki obrazu.
+ Możesz dostosować położenie i rozmiar dodanego obrazu obiektu Blob, modyfikując parametry w pliku`addPictureFrame` metoda. Cztery wartości (współrzędna x, współrzędna y, szerokość i wysokość) określają położenie i wymiary ramki obrazu.
 
 ### Czy Aspose.Slides nadaje się do zaawansowanych zadań automatyzacji programu PowerPoint?
 

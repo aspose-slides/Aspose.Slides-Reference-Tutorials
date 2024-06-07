@@ -2,7 +2,7 @@
 title: Анимация элементов категорий в слайдах Java
 linktitle: Анимация элементов категорий в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
-description: Оптимизируйте свои презентации Java с помощью Aspose.Slides для Java. Узнайте, как шаг за шагом анимировать элементы категорий на слайдах PowerPoint.
+description: Оптимизируйте свои презентации Java с помощью Aspose.Slides для Java. Узнайте, как шаг за шагом анимировать элементы категорий в слайдах PowerPoint.
 type: docs
 weight: 10
 url: /ru/java/animation-and-layout/animating-categories-elements-java-slides/
@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-В этом коде мы загружаем существующую презентацию PowerPoint, содержащую диаграмму, которую вы хотите анимировать. Заменять`"Your Document Directory"` с фактическим путем к каталогу вашего документа.
+ В этом коде мы загружаем существующую презентацию PowerPoint, содержащую диаграмму, которую вы хотите анимировать. Заменять`"Your Document Directory"` с фактическим путем к каталогу вашего документа.
 
 ## Шаг 3. Получите ссылку на объект диаграммы
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Запишите файл презентации на диск.
+	// Запишите файл презентации на диск.
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ finally
 
 ### Как мне узнать больше об Aspose.Slides для Java?
 
-Для получения полной документации и дополнительных ресурсов посетите[Справочник по API Aspose.Slides для Java](https://reference.aspose.com/slides/java/) . Вы также можете скачать библиотеку с сайта[здесь](https://releases.aspose.com/slides/java/).
+ Для получения полной документации и дополнительных ресурсов посетите[Справочник по API Aspose.Slides для Java](https://reference.aspose.com/slides/java/) . Вы также можете скачать библиотеку с сайта[здесь](https://releases.aspose.com/slides/java/).

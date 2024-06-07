@@ -41,7 +41,7 @@ Ora scriviamo il codice Java per verificare il formato della presentazione senza
 // Il percorso della directory dei documenti.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Restituirà "LoadFormat.Unknown" se il file non è un formato di presentazione
+//Restituirà "LoadFormat.Unknown" se il file non è un formato di presentazione
 ```
 
  In questo codice utilizziamo`PresentationFactory` per ottenere informazioni sul file di presentazione, incluso il suo formato. Se il file non è un formato di presentazione valido, restituirà "LoadFormat.Unknown".
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Il percorso della directory dei documenti.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Restituirà "LoadFormat.Unknown" se il file non è un formato di presentazione
+        //Restituirà "LoadFormat.Unknown" se il file non è un formato di presentazione
 ```
 
 ## Conclusione

@@ -62,7 +62,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Thêm hỗ trợ khả năng truy cập cho PDF/UA
+//Thêm hỗ trợ khả năng truy cập cho PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Tải bản trình bày
 using var presentation = new Presentation("presentation.pptx");
 
-// Thêm hỗ trợ khả năng truy cập cho PDF/UA
+//Thêm hỗ trợ khả năng truy cập cho PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

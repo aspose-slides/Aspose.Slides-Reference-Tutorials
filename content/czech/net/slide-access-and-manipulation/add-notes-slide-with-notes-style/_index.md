@@ -37,7 +37,7 @@ Nyní se pojďme ponořit do jádra našeho výukového programu – přidání 
 
 ### Krok 2.1: Kurz okamžité prezentace
 
- Nejprve musíme vytvořit instanci`Presentation`třídy, která představuje soubor vaší prezentace PowerPoint. Měli byste zadat cestu k souboru prezentace v`dataDir` variabilní.
+ Nejprve musíme vytvořit instanci`Presentation` třídy, která představuje soubor vaší prezentace PowerPoint. Měli byste zadat cestu k souboru prezentace v`dataDir` variabilní.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Krok 2.2: Otevřete snímek Master Notes
 
- V rámci`using` bloku, zpřístupníme snímek hlavních poznámek. Snímek hlavních poznámek obsahuje výchozí styl poznámek v prezentaci.
+ V rámci`using`bloku, zpřístupníme snímek hlavních poznámek. Snímek hlavních poznámek obsahuje výchozí styl poznámek v prezentaci.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

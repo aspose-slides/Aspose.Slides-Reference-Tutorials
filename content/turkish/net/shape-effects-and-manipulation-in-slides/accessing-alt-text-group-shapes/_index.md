@@ -54,7 +54,7 @@ foreach (ISlide slide in presentation.Slides)
 
 ## Alternatif Metne Erişim
 
-Bir grup içindeki ayrı şekillerin alternatif metnine erişmek, şekiller arasında yineleme yapmayı ve bunların alternatif metin özelliklerini almayı içerir:
+Bir grup içindeki ayrı şekillerin alternatif metnine erişmek, şekiller arasında yinelemeyi ve bunların alternatif metin özelliklerini almayı içerir:
 
 ```csharp
 foreach (IShape shape in groupShape.Shapes)

@@ -47,7 +47,7 @@ try {
 }
 ```
 
-I det här kodavsnittet skapar vi ett klustrat kolumndiagram på den första bilden av presentationen och får sedan dess miniatyrbild. Bilden sparas som "image.png" i den angivna katalogen.
+det här kodavsnittet skapar vi ett klustrat kolumndiagram på den första bilden av presentationen och får sedan dess miniatyrbild. Bilden sparas som "image.png" i den angivna katalogen.
 
 ## Komplett källkod för få diagrambild i Java Slides
 
@@ -75,7 +75,7 @@ Att skaffa diagrambilder från Java Slides med Aspose.Slides för Java är en en
 
 ### Hur installerar jag Aspose.Slides för Java?
 
- Att installera Aspose.Slides för Java är enkelt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/)och följ installationsinstruktionerna i dokumentationen.
+ Att installera Aspose.Slides för Java är enkelt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/) och följ installationsinstruktionerna i dokumentationen.
 
 ### Kan jag anpassa diagrammet innan jag får dess bild?
 
@@ -91,4 +91,4 @@ Ja, Aspose.Slides för Java kan användas för kommersiella ändamål. Det ger l
 
 ### Kan jag spara diagrambilden i ett annat format?
 
-Säkert! Du kan spara diagrambilden i olika format, till exempel JPEG eller GIF, genom att ange lämplig filtillägg i`ImageIO.write` metod.
+ Säkert! Du kan spara diagrambilden i olika format, till exempel JPEG eller GIF, genom att ange lämplig filtillägg i`ImageIO.write` metod.

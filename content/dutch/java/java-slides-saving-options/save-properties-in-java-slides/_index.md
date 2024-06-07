@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-// Instantieer een presentatieobject dat een PPT-bestand vertegenwoordigt
+//Instantieer een presentatieobject dat een PPT-bestand vertegenwoordigt
 Presentation presentation = new Presentation();
 try
 {

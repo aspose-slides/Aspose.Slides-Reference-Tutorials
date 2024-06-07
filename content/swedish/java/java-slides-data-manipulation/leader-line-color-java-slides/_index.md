@@ -2,7 +2,7 @@
 title: Leader Line Color i Java Slides
 linktitle: Leader Line Color i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du ändrar ledarlinjefärger i PowerPoint-diagram med Aspose.Slides för Java. Steg-för-steg-guide med exempel på källkod.
+description: Lär dig hur du ändrar ledarlinjefärger i PowerPoint-diagram med Aspose.Slides för Java. Steg-för-steg guide med exempel på källkod.
 type: docs
 weight: 12
 url: /sv/java/data-manipulation/leader-line-color-java-slides/

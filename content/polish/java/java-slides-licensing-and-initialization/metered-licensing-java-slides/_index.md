@@ -71,7 +71,7 @@ try
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Wyświetlanie informacji
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// Uzyskaj zmierzoną ilość danych Po wywołaniu interfejsu API
+	//Uzyskaj zmierzoną ilość danych Po wywołaniu interfejsu API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Wyświetlanie informacji
 	System.out.println("Amount Consumed After: " + amountafter);
@@ -98,7 +98,7 @@ Licencjonowanie licznikowe jest opcjonalne, ale może pomóc w śledzeniu wykorz
 
 ### Czy mogę używać licencji odmierzanych z innymi produktami Aspose?
 
-Tak, dostępne jest licencjonowanie odmierzone dla różnych produktów Aspose, w tym Aspose.Slides dla Java.
+Tak, licencje odmierzone są dostępne dla różnych produktów Aspose, w tym Aspose.Slides dla Java.
 
 ### Co się stanie, jeśli przekroczę limit licznika?
 

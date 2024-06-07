@@ -57,7 +57,7 @@ Simpan presentasi dengan efek 3D tambahan:
 ```csharp
 pres.Save(outPptxFile, SaveFormat.Pptx);
 ```
-## Langkah 6: Hasilkan Gambar Kecil
+## Langkah 6: Hasilkan Gambar Mini
 Hasilkan gambar mini slide:
 ```csharp
 string outPngFile = Path.Combine(dataDir, "sample_3d.png");

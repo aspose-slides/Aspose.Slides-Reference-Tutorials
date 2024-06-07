@@ -10,7 +10,7 @@ url: /sv/java/image-handling/add-image-from-svg-object-from-external-resource-in
 
 ## Introduktion till Lägg till bild från SVG-objekt från extern resurser i Java Slides
 
-den här handledningen kommer vi att utforska hur du lägger till en bild från ett SVG-objekt (Scalable Vector Graphics) från en extern resurs till dina Java-bilder med Aspose.Slides. Detta kan vara en värdefull funktion när du vill infoga vektorbaserade bilder i dina presentationer, vilket säkerställer högkvalitativa bilder. Låt oss dyka in i steg-för-steg-guiden.
+I den här handledningen kommer vi att utforska hur du lägger till en bild från ett SVG-objekt (Scalable Vector Graphics) från en extern resurs till dina Java-bilder med Aspose.Slides. Detta kan vara en värdefull funktion när du vill infoga vektorbaserade bilder i dina presentationer, vilket säkerställer högkvalitativa bilder. Låt oss dyka in i steg-för-steg-guiden.
 
 ## Förutsättningar
 
@@ -101,7 +101,7 @@ I den här handledningen lärde vi oss hur man lägger till en bild från ett SV
 
 ### Hur kan jag anpassa placeringen av den tillagda SVG-bilden på bilden?
 
- Du kan justera positionen för SVG-bilden genom att ändra koordinaterna i`addPictureFrame`metod. Parametrarna`(0, 0)` representerar X- och Y-koordinaterna i det övre vänstra hörnet av bildramen.
+ Du kan justera positionen för SVG-bilden genom att ändra koordinaterna i`addPictureFrame` metod. Parametrarna`(0, 0)` representerar X- och Y-koordinaterna i det övre vänstra hörnet av bildramen.
 
 ### Kan jag använda den här metoden för att lägga till flera SVG-bilder till en enda bild?
 

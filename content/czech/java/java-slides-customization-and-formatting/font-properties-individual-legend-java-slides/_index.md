@@ -100,7 +100,7 @@ V tomto tutoriálu jsme se naučili, jak upravit vlastnosti písma pro jednotliv
 
  Chcete-li změnit barvu písma, použijte`tf.getPortionFormat().getFontColor().setColor(yourColor)` místo změny barvy výplně. Nahradit`yourColor` s požadovanou barvou písma.
 
-### Jak mohu upravit další vlastnosti legendy?
+### Jak upravím další vlastnosti legendy?
 
 Můžete upravit různé další vlastnosti legendy, jako je poloha, velikost a formát. Podrobné informace o práci s legendami naleznete v dokumentaci Aspose.Slides for Java.
 

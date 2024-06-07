@@ -45,7 +45,7 @@ Pro vložení videa do prezentace použijte následující kód:
 IVideo vid = pres.Videos.AddVideo(new FileStream(videoDir + "Wildlife.mp4", FileMode.Open), LoadingStreamBehavior.ReadStreamAndRelease);
 ```
 ## Krok 4: Přidejte rámeček videa
-Nyní přidejte snímek videa na snímek:
+Nyní přidejte na snímek snímek videa:
 ```csharp
 IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
 ```
@@ -63,7 +63,7 @@ pres.Save(resultPath, SaveFormat.Pptx);
 ```
 Opakujte tyto kroky pro každé video, které chcete vložit do prezentace.
 ## Závěr
-Gratulujeme! Pomocí Aspose.Slides for .NET jste do prezentace úspěšně přidali vložený snímek videa. Tato dynamická funkce může pozvednout vaše prezentace do nových výšin a zaujmout vaše publikum multimediálními prvky hladce integrovanými do vašich snímků.
+Gratulujeme! Pomocí Aspose.Slides for .NET jste do prezentace úspěšně přidali vložený snímek videa. Tato dynamická funkce může pozvednout vaše prezentace do nových výšin a zaujmout vaše publikum multimediálními prvky, které jsou hladce integrované do vašich snímků.
 ## Nejčastější dotazy
 ### Mohu vložit videa do libovolného snímku prezentace?
  Ano, můžete si vybrat libovolný snímek úpravou indexu v`pres.Slides[index]`.

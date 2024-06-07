@@ -58,7 +58,7 @@ int defaultWorksheetIndex = 0;
 ## Βήμα 3: Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 
 ```csharp
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ## Βήμα 6: Αλλαγή του μεγέθους δείκτη σειράς γραφήματος
 
 ```csharp
-//Αλλαγή του μεγέθους του δείκτη σειράς γραφήματος
+// Αλλαγή του μεγέθους του δείκτη σειράς γραφήματος
 series.Marker.Size = 15;
 ```
 

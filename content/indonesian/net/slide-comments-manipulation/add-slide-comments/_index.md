@@ -87,9 +87,9 @@ Menambahkan komentar ke slide adalah fitur berharga bagi mereka yang bekerja den
 
 ### 1. Bagaimana cara menyesuaikan tampilan komentar di Aspose.Slides untuk .NET?
 
-Anda dapat mengkustomisasi tampilan komentar dengan memodifikasi berbagai properti, seperti warna, ukuran, dan font, menggunakan pustaka Aspose.Slides. Periksa dokumentasi untuk panduan rinci.
+Anda dapat mengkustomisasi tampilan komentar dengan memodifikasi berbagai properti, seperti warna, ukuran, dan font, menggunakan pustaka Aspose.Slides. Periksa dokumentasi untuk panduan terperinci.
 
-### 2. Bisakah saya menambahkan komentar ke elemen tertentu dalam slide, misalnya bentuk atau gambar?
+### 2. Bisakah saya menambahkan komentar ke elemen tertentu dalam slide, seperti bentuk atau gambar?
 
 Ya, Aspose.Slides untuk .NET memungkinkan Anda menambahkan komentar tidak hanya ke seluruh slide tetapi juga ke elemen individual dalam slide, seperti bentuk atau gambar.
 

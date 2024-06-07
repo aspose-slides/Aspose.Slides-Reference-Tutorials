@@ -74,7 +74,7 @@ Tak, Aspose.Slides obsługuje .NET Core, umożliwiając wykorzystanie jego funkc
 ### Czy mogę bardziej dostosować style grotów strzałek?
 Absolutnie! Aspose.Slides zapewnia kompleksowe opcje dostosowywania długości grotów strzałek, stylów i nie tylko.
 ### Gdzie mogę znaleźć dodatkową dokumentację Aspose.Slides?
- Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/slides/net/) szczegółowe informacje i przykłady.
+ Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/slides/net/)szczegółowe informacje i przykłady.
 ### Czy dostępny jest bezpłatny okres próbny?
  Tak, możesz korzystać z Aspose.Slides w ramach bezpłatnego okresu próbnego. Pobierz to[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides?

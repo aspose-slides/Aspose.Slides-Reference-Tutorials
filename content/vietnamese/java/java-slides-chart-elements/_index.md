@@ -2,7 +2,7 @@
 title: Các thành phần biểu đồ trang trình bày Java
 linktitle: Các thành phần biểu đồ trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
-description: Tìm hiểu cách tạo biểu đồ động trong các trang trình bày Java bằng Aspose.Slides cho Java với các hướng dẫn toàn diện của chúng tôi. Hãy nâng cao kỹ năng thuyết trình của bạn ngay hôm nay!
+description: Tìm hiểu cách tạo biểu đồ động trong các trang chiếu Java bằng Aspose.Slides cho Java với các hướng dẫn toàn diện của chúng tôi. Hãy nâng cao kỹ năng thuyết trình của bạn ngay hôm nay!
 type: docs
 weight: 15
 url: /vi/java/chart-elements/

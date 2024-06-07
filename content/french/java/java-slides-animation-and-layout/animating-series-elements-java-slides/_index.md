@@ -22,7 +22,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 ## Étape 1 : Charger la présentation
 
-Tout d’abord, vous devez charger la présentation PowerPoint contenant le graphique que vous souhaitez animer. Remplacer`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents.
+ Tout d’abord, vous devez charger la présentation PowerPoint contenant le graphique que vous souhaitez animer. Remplacer`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -113,7 +113,7 @@ Vous pouvez personnaliser l'animation pour des éléments de graphique individue
 
 ### Puis-je appliquer des animations à d’autres objets dans une diapositive PowerPoint ?
 
-Oui, vous pouvez appliquer des animations à divers objets dans une diapositive PowerPoint, pas seulement à des graphiques. Utilisez le`addEffect` méthode pour spécifier l’objet que vous souhaitez animer et les propriétés d’animation souhaitées.
+ Oui, vous pouvez appliquer des animations à divers objets dans une diapositive PowerPoint, pas seulement à des graphiques. Utilisez le`addEffect` méthode pour spécifier l’objet que vous souhaitez animer et les propriétés d’animation souhaitées.
 
 ### Comment intégrer Aspose.Slides pour Java dans mon projet ?
 

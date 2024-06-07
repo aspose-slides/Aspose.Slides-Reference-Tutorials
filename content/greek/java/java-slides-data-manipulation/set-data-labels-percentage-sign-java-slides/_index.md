@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Προσθέτουμε δεδομένα στο γράφημα δημιουργώντας σειρές και σημεία δεδομένων. Σε αυτό το παράδειγμα, προσθέτουμε δύο σειρές με τα αντίστοιχα σημεία δεδομένων τους.
 
 ```java
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Προσθήκη νέας σειράς
@@ -94,7 +94,7 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## Βήμα 6: Αποθηκεύστε την Παρουσίαση
+## Βήμα 6: Αποθηκεύστε την παρουσίαση
 
 Τέλος, αποθηκεύουμε την παρουσίαση σε αρχείο PowerPoint.
 
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Προσθήκη νέας σειράς
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

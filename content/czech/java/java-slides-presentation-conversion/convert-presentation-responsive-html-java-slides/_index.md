@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## Krok 3: Načtěte prezentaci
 
-Nyní načteme prezentaci, kterou chcete převést. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru prezentace:
+ Nyní načteme prezentaci, kterou chcete převést. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru prezentace:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Gratulujeme! Úspěšně jste převedli prezentaci do responzivního HTML pomoc�
 
 ### Mohu dále upravit výstup HTML?
 
- Ano, výstup HTML můžete upravit úpravou souboru`ResponsiveHtmlController` a`HtmlOptions`objektů. To vám umožní přizpůsobit výstup HTML vašim konkrétním požadavkům.
+ Ano, výstup HTML můžete upravit úpravou souboru`ResponsiveHtmlController` a`HtmlOptions` objektů. To vám umožní přizpůsobit výstup HTML vašim konkrétním požadavkům.
 
 ### Existují nějaké licenční požadavky pro Aspose.Slides for Java?
 

@@ -12,7 +12,7 @@ In de wereld van presentaties kan het toevoegen van audio aan uw dia's de algehe
 
 ## Vereisten
 
-Voordat we ingaan op het proces van het extraheren van audio uit een dia met Aspose.Slides voor .NET, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we ingaan op het proces van het extraheren van audio uit een dia met Aspose.Slides voor .NET, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
 ### 1. Aspose.Slides voor .NET-bibliotheek
  U moet de Aspose.Slides voor .NET-bibliotheek geïnstalleerd hebben. Als u dat nog niet heeft gedaan, kunt u deze downloaden van[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).

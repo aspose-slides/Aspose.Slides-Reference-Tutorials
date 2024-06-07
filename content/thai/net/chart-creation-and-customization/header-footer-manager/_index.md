@@ -47,13 +47,13 @@ string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
 {
     // รหัสของคุณสำหรับการจัดการส่วนหัวและส่วนท้ายจะอยู่ที่นี่
-    // ...
+    // -
 }
 ```
 
 ### ขั้นตอนที่ 3: เข้าถึงตัวจัดการส่วนหัวและส่วนท้าย
 
-Aspose.Slides สำหรับ .NET มอบวิธีที่สะดวกในการจัดการส่วนหัวและส่วนท้าย เราเข้าถึงตัวจัดการส่วนหัวและส่วนท้ายสำหรับสไลด์แรกในการนำเสนอของคุณ
+Aspose.Slides สำหรับ .NET มอบวิธีที่สะดวกในการจัดการส่วนหัวและส่วนท้าย เราเข้าถึงตัวจัดการส่วนหัวและส่วนท้ายของสไลด์แรกในการนำเสนอของคุณ
 
 ```csharp
 IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
@@ -83,7 +83,7 @@ if (!headerFooterManager.IsSlideNumberVisible)
 
 ### ขั้นตอนที่ 6: ตั้งค่าการมองเห็นวันที่และเวลา
 
- หากต้องการตรวจสอบว่าตัวแทนวันที่-เวลามองเห็นได้หรือไม่ ให้ใช้`IsDateTimeVisible`คุณสมบัติ. หากไม่สามารถมองเห็นได้ คุณสามารถทำให้มองเห็นได้โดยใช้`SetDateTimeVisibility` วิธี.
+ เมื่อต้องการตรวจสอบว่าตัวแทนวันที่-เวลาสามารถมองเห็นได้หรือไม่ ให้ใช้`IsDateTimeVisible`คุณสมบัติ. หากไม่สามารถมองเห็นได้ คุณสามารถทำให้มองเห็นได้โดยใช้`SetDateTimeVisibility` วิธี.
 
 ```csharp
 if (!headerFooterManager.IsDateTimeVisible)

@@ -16,7 +16,7 @@ url: /zh-hant/net/presentation-conversion/achieving-pdf-compliance-convert-to-pd
 
 在深入轉換過程之前，請確保滿足以下先決條件：
 
--  Aspose.Slides for .NET：確保您的.NET專案中安裝了Aspose.Slides函式庫。如果沒有，你可以[在這裡下載](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：確保您的.NET專案中安裝了Aspose.Slides函式庫。如果沒有，您可以[在這裡下載](https://releases.aspose.com/slides/net/).
 
 - 要轉換的文件：您應該擁有要轉換為 PDF/A 格式的 PowerPoint 簡報 (PPTX)。
 

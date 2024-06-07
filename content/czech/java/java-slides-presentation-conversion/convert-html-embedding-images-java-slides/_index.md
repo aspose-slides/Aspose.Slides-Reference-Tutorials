@@ -75,7 +75,7 @@ pres.save(options.getOutputPath() + "output.html", SaveFormat.Html5, options);
 
 ## Krok 6: Vyčistěte zdroje
 
-Nezapomeňte zlikvidovat objekt Prezentace, abyste uvolnili všechny přidělené zdroje.
+Nezapomeňte zlikvidovat objekt Presentation, abyste uvolnili všechny přidělené zdroje.
 
 ```java
 if (pres != null) {

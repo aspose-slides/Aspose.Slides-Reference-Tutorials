@@ -52,7 +52,7 @@ string[] fontNameExcludeList = { "Calibri", "Arial" };
 
 ## 6. 모든 글꼴 포함
 
-다음으로 HTML 문서에 모든 글꼴을 포함하겠습니다. 이렇게 하면 원본 글꼴이 보존됩니다. 다음 코드를 사용하세요.
+다음으로 HTML 문서에 모든 글꼴을 포함하겠습니다. 이렇게 하면 원본 글꼴이 보존됩니다. 다음 코드를 사용하십시오.
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -81,7 +81,7 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ### Q1: 제외된 글꼴 목록을 사용자 정의할 수 있나요?
 
- 그래 넌 할수있어. 수정하다`fontNameExcludeList` 요구 사항에 따라 특정 글꼴을 포함하거나 제외하도록 배열합니다.
+ 그래 넌 할수있어. 수정하다`fontNameExcludeList`요구 사항에 따라 특정 글꼴을 포함하거나 제외하도록 배열합니다.
 
 ### Q2: 모든 글꼴을 포함하고 싶지 않으면 어떻게 합니까?
 

@@ -70,7 +70,7 @@ Grafik yolunu bir geometri yoluna dönüştürmek ve dolgu modunu ayarlamak içi
 shape.SetGeometryPaths(new[] { originalPath, textPath });
 ```
 Yeni geometri yolunu orijinal yolla birleştirin ve onu şekle ayarlayın.
-## Adım 9: Sunuyu Kaydetme
+## Adım 9: Sunuyu Kaydedin
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);
 ```

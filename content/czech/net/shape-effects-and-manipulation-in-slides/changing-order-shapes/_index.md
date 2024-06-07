@@ -67,6 +67,6 @@ Odpověď: Ano, Aspose.Slides for .NET je kompatibilní s prostředím Windows i
 ### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro .NET?
  Odpověď: Ano, funkce můžete prozkoumat pomocí[zkušební verze zdarma](https://releases.aspose.com/) k dispozici na webu Aspose.Slides.
 ### Otázka: Kde mohu najít podporu nebo se zeptat na otázky týkající se Aspose.Slides pro .NET?
- A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) získat podporu a zapojit se do komunity.
+A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) získat podporu a zapojit se do komunity.
 ### Otázka: Jak mohu získat dočasnou licenci pro Aspose.Slides pro .NET?
  A: Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.

@@ -50,7 +50,7 @@ Teraz utwórz obiekt SessionZoomFrame na swoim slajdzie. Ta ramka określi obsza
 ISectionZoomFrame sectionZoomFrame = pres.Slides[0].Shapes.AddSectionZoomFrame(20, 20, 300, 200, pres.Sections[1]);
 ```
 ## Krok 6: Dostosuj ramkę powiększenia przekroju
-Dostosuj wymiary i położenie FrameZoomFrame zgodnie ze swoimi preferencjami.
+Dostosuj wymiary i położenie SekcjiZoomFrame zgodnie ze swoimi preferencjami.
 ## Krok 7: Zapisz swoją prezentację
 Zapisz prezentację w formacie PPTX, aby zachować funkcję powiększania sekcji.
 ```csharp
@@ -67,6 +67,6 @@ Tak, Aspose.Slides bezproblemowo integruje się z Visual Studio dla programowani
 ### Czy mogę dostosować wygląd ramki powiększenia sekcji?
 Absolutnie! Masz pełną kontrolę nad wymiarami, położeniem i stylem ramki powiększenia sekcji.
 ### Czy dostępna jest wersja próbna Aspose.Slides?
- Tak, możesz poznać funkcje Aspose.Slides za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak, możesz poznać funkcje Aspose.Slides za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Slides?
  Aby uzyskać pomoc lub zadać pytania, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).

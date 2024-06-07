@@ -10,7 +10,7 @@ url: /pl/java/chart-creation/scattered-chart-java-slides/
 
 ## Wprowadzenie do wykresu rozproszonego w Aspose.Slides dla Java
 
-tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu punktowego za pomocą Aspose.Slides dla Java. Wykresy punktowe są przydatne do wizualizacji punktów danych na płaszczyźnie dwuwymiarowej. Dla Twojej wygody udostępnimy instrukcje krok po kroku i dołączymy kod źródłowy Java.
+W tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu punktowego za pomocą Aspose.Slides dla Java. Wykresy punktowe są przydatne do wizualizacji punktów danych na płaszczyźnie dwuwymiarowej. Dla Twojej wygody udostępnimy instrukcje krok po kroku i dołączymy kod źródłowy Java.
 
 ## Warunki wstępne
 
@@ -56,7 +56,7 @@ Przygotujmy teraz dane do naszego wykresu punktowego. Dodamy dwie serie, każda 
 // Pobieranie domyślnego indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
 
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Usuń serię demonstracyjną
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Pobieranie domyślnego indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Usuń serię demonstracyjną
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Dodaj nowy punkt (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Dodaj nowy punkt (2:2)
+// Dodaj nowy punkt (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Dodaj nowy punkt (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ W tym samouczku przeprowadziliśmy Cię przez proces tworzenia wykresu punktoweg
 
 ### Jak mogę zmienić typ wykresu?
 
- Aby zmienić typ wykresu, użyj opcji`setType` metodę w serii wykresów i podaj żądany typ wykresu. Na przykład,`series.setType(ChartType.Line)` zmieni serię na wykres liniowy.
+ Aby zmienić typ wykresu, użyj opcji`setType`metodę w serii wykresów i podaj żądany typ wykresu. Na przykład,`series.setType(ChartType.Line)` zmieni serię na wykres liniowy.
 
 ### Jak dostosować rozmiar i styl znacznika?
 

@@ -10,7 +10,7 @@ url: /it/java/presentation-conversion/convert-custom-size-java-slides/
 
 ## Introduzione alla conversione con dimensioni personalizzate nelle diapositive Java
 
-In questo articolo, esploreremo come convertire le presentazioni PowerPoint in immagini TIFF con dimensioni personalizzate utilizzando l'API Aspose.Slides per Java. Aspose.Slides per Java è una potente libreria che consente agli sviluppatori di lavorare con file PowerPoint a livello di programmazione. Andremo passo dopo passo e ti forniremo il codice Java necessario per eseguire questa attività.
+In questo articolo, esploreremo come convertire le presentazioni PowerPoint in immagini TIFF con dimensioni personalizzate utilizzando l'API Aspose.Slides per Java. Aspose.Slides per Java è una potente libreria che consente agli sviluppatori di lavorare con file PowerPoint a livello di codice. Andremo passo dopo passo e ti forniremo il codice Java necessario per eseguire questa attività.
 
 ## Prerequisiti
 

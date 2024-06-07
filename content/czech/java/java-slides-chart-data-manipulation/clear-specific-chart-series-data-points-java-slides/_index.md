@@ -10,7 +10,7 @@ url: /cs/java/chart-data-manipulation/clear-specific-chart-series-data-points-ja
 
 ## Úvod k vymazání dat datových bodů konkrétní řady grafů v Java Slides
 
-tomto tutoriálu vás provedeme procesem vymazání konkrétních datových bodů ze série grafů v prezentaci PowerPoint pomocí Aspose.Slides for Java. To může být užitečné, když chcete z grafu odstranit určité datové body a aktualizovat nebo upravit vizualizaci dat.
+V tomto tutoriálu vás provedeme procesem vymazání konkrétních datových bodů ze série grafů v prezentaci aplikace PowerPoint pomocí Aspose.Slides for Java. To může být užitečné, když chcete z grafu odstranit určité datové body a aktualizovat nebo upravit vizualizaci dat.
 
 ## Předpoklady
 
@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Tento kód prochází každý datový bod v první řadě (index 0) a nastavuje hodnoty X i Y na`null`efektivně vymaže datové body.
+Tento kód prochází každý datový bod v první řadě (index 0) a nastavuje hodnoty X i Y na`null`, efektivně vymaže datové body.
 
 ## Krok 4: Odstraňte vymazané datové body
 
@@ -116,8 +116,8 @@ Ano, datové body můžete vymazat na základě podmínky přidáním podmíněn
 
 ### Jak mohu přidat nové datové body do řady grafů pomocí Aspose.Slides pro Java?
 
- Chcete-li přidat nové datové body do řady grafů, můžete použít`addDataPoint`metoda série. Jednoduše vytvořte nové datové body a přidejte je do série pomocí této metody.
+Chcete-li přidat nové datové body do řady grafů, můžete použít`addDataPoint` metoda série. Jednoduše vytvořte nové datové body a přidejte je do série pomocí této metody.
 
 ### Kde najdu více informací o Aspose.Slides for Java?
 
- Komplexní dokumentaci a příklady naleznete v[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
+ Kompletní dokumentaci a příklady naleznete v[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).

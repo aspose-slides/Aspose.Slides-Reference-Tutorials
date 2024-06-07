@@ -96,7 +96,7 @@ Stejný proces pokračuje pro kategorii 2 a animuje její prvky jednotlivě.
 ## Krok 4: Uložte prezentaci
 
 ```csharp
-//Zapište soubor prezentace na disk
+// Zapište soubor prezentace na disk
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

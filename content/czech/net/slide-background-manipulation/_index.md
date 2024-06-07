@@ -23,7 +23,7 @@ Pozadí snímku hraje zásadní roli při určování celkové estetiky a dopadu
 - Průhlednost a neprůhlednost: Ponořte se do úpravy průhlednosti a neprůhlednosti pro moderní a elegantní design.
 - Dynamické pozadí: Naučte se, jak programově měnit pozadí snímků na základě interakcí uživatele nebo dat.
 
-Na konci tohoto tutoriálu budete mít odborné znalosti, jak efektivně manipulovat s pozadím snímků a proměnit běžné prezentace v podmanivé vizuální zážitky. Začněme cestu zdokonalování vašich dovedností při navrhování snímků s Aspose.Slides!
+Na konci tohoto tutoriálu budete mít zkušenosti s efektivní manipulací s pozadím snímků a přeměnou běžných prezentací na podmanivé vizuální zážitky. Začněme cestu zdokonalování vašich dovedností při navrhování snímků s Aspose.Slides!
 
 ## Výukové programy pro manipulaci s pozadím snímku
 ### [Úprava pozadí snímku v Aspose.Slides](./slide-background-modification/)
@@ -32,7 +32,7 @@ Naučte se, jak získat efektivní hodnoty pozadí snímku pomocí Aspose.Slides
 ### [Použít na snímek pozadí přechodu](./apply-gradient-background/)
 Naučte se, jak použít na snímek pozadí s přechodem pomocí Aspose.Slides for .NET. Vylepšete své prezentace vizuálně přitažlivými návrhy.
 ### [Nastavte obrázek jako pozadí snímku](./set-image-as-background/)
-Naučte se, jak nastavit obrázek jako pozadí snímku pomocí Aspose.Slides for .NET. Vytvářejte poutavé prezentace s podrobnými pokyny a zdrojovým kódem. Vylepšete vizuální dopad ještě dnes!
+Naučte se, jak nastavit obrázek jako pozadí snímku pomocí Aspose.Slides pro .NET. Vytvářejte poutavé prezentace s podrobnými pokyny a zdrojovým kódem. Vylepšete vizuální dopad ještě dnes!
 ### [Nastavit předlohu pozadí snímku](./set-slide-background-master/)
 V tomto podrobném průvodci se dozvíte, jak zvládnout nastavení pozadí snímků pomocí Aspose.Slides. Pozvedněte své prezentace na další úroveň pomocí poutavých vizuálů.
 ### [Změnit pozadí normálního snímku](./change-slide-background-normal/)

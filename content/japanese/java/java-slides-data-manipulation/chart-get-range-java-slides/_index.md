@@ -1,65 +1,65 @@
 ---
-title: Java スライドでのチャートの範囲の取得
-linktitle: Java スライドでのチャートの範囲の取得
+title: Java スライドでチャートの範囲を取得する
+linktitle: Java スライドでチャートの範囲を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java API を使用して Java Slides でグラフ範囲を取得する方法を学習します。効果的にチャート データにアクセスするためのソース コードを含むステップバイステップ ガイド。
+description: Aspose.Slides for Java API を使用して Java スライドのグラフ範囲を取得する方法を学びます。グラフ データに効果的にアクセスするためのソース コード付きのステップ バイ ステップ ガイドです。
 type: docs
 weight: 16
 url: /ja/java/data-manipulation/chart-get-range-java-slides/
 ---
 
-## Java スライドでのチャートの範囲の取得の概要
+## Java スライドでのチャート範囲の取得の概要
 
-このステップバイステップ ガイドでは、Aspose.Slides for Java API を使用して Java Slides でグラフの範囲を取得する方法を説明します。詳細なソースコード例を使用してプロセスを説明します。 Java Slides プレゼンテーション内のグラフの範囲にアクセスする場合は、次の手順に従ってその方法を学習してください。
+このステップバイステップ ガイドでは、Aspose.Slides for Java API を使用して Java スライドのグラフの範囲を取得する方法について説明します。詳細なソース コードの例を使用して、プロセスについて説明します。Java スライド プレゼンテーションのグラフの範囲にアクセスする場合は、この手順に従って方法を学んでください。
 
 ## 前提条件
 
-コードに入る前に、次の前提条件が満たされていることを確認してください。
+コードに進む前に、次の前提条件が満たされていることを確認してください。
 
-- Java Development Kit (JDK) がシステムにインストールされています。
--  Java ライブラリの Aspose.Slides。からダウンロードできます[ここ](https://releases.aspose.com/slides/java/).
+- Java 開発キット (JDK) がシステムにインストールされています。
+-  Aspose.Slides for Javaライブラリ。ここからダウンロードできます。[ここ](https://releases.aspose.com/slides/java/).
 
-## ステップ 1: 環境のセットアップ
+## ステップ1: 環境の設定
 
-コードの作成を開始する前に、Aspose.Slides for Java ライブラリがプロジェクトのクラスパスに追加されていることを確認してください。前提条件セクションにあるリンクからライブラリをダウンロードできます。
+コードの記述を開始する前に、プロジェクトのクラスパスに Aspose.Slides for Java ライブラリが追加されていることを確認してください。ライブラリは、前提条件セクションで提供されているリンクからダウンロードできます。
 
-## ステップ 2: プレゼンテーションを作成する
+## ステップ2: プレゼンテーションの作成
 
 まず、Aspose.Slides を使用してプレゼンテーションを作成します。プレゼンテーション オブジェクトを作成するコードは次のとおりです。
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 Presentation pres = new Presentation();
 ```
 
-## ステップ 3: グラフの追加
+## ステップ3: グラフを追加する
 
-次に、プレゼンテーションにグラフを追加します。この例では、集合縦棒グラフを作成します。グラフを追加するコードは次のとおりです。
+次に、プレゼンテーションにグラフを追加します。この例では、集合縦棒グラフを作成します。グラフを追加するためのコードは次のとおりです。
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
 ```
 
-## ステップ 4: 範囲を取得する
+## ステップ4: 範囲を取得する
 
-次は、チャートの範囲を取得する部分です。を使用します。`getChartData().getRange()`これを実現する方法:
+次はチャートの範囲を取得する部分です。`getChartData().getRange()`これを実現する方法:
 
 ```java
 String result = chart.getChartData().getRange();
 ```
 
-## ステップ 5: 結果の表示
+## ステップ5: 結果を表示する
 
-結果を印刷してグラフの範囲を確認してみましょう。
+結果を印刷してチャートの範囲を確認してみましょう。
 
 ```java
 System.out.println("GetRange result : " + result);
 ```
 
-## Java スライドのチャート取得範囲の完全なソース コード
+## Java スライドでチャート範囲を取得するための完全なソース コード
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 Presentation pres = new Presentation();
 try
 {
@@ -75,26 +75,26 @@ finally
 
 ## 結論
 
-このガイドでは、Aspose.Slides for Java API を使用して Java Slides のグラフの範囲を取得する方法を学習しました。環境のセットアップ、プレゼンテーションの作成、グラフの追加、範囲の取得について説明しました。この知識を Java Slides プロジェクトで使用して、グラフの範囲に効果的にアクセスできるようになりました。
+このガイドでは、Aspose.Slides for Java API を使用して Java スライドのグラフの範囲を取得する方法を学習しました。環境の設定、プレゼンテーションの作成、グラフの追加、範囲の取得について説明しました。これで、Java スライド プロジェクトでこの知識を使用して、グラフの範囲に効果的にアクセスできるようになります。
 
 ## よくある質問
 
-### Java 用の Aspose.Slides をダウンロードするにはどうすればよいですか?
+### Aspose.Slides for Java をダウンロードするにはどうすればいいですか?
 
-次のリンクを使用して、Aspose の Web サイトから Java 用 Aspose.Slides をダウンロードできます。[Java 用 Aspose.Slides をダウンロード](https://releases.aspose.com/slides/java/).
+次のリンクを使用して、Aspose の Web サイトから Aspose.Slides for Java をダウンロードできます。[Aspose.Slides for Java をダウンロード](https://releases.aspose.com/slides/java/).
 
 ### Aspose.Slides for Java を無料で使用できますか?
 
-Aspose.Slides for Java は商用ライブラリですが、無料トライアルでその機能を試すことができます。ただし、運用環境で使用するには、ライセンスを購入する必要があります。
+Aspose.Slides for Java は商用ライブラリですが、無料トライアルでその機能を試すことができます。ただし、実稼働環境で使用する場合はライセンスを購入する必要があります。
 
-### Aspose.Slides for Java でサポートされている他のグラフ タイプはありますか?
+### Aspose.Slides for Java でサポートされている他のグラフの種類はありますか?
 
-はい、Aspose.Slides for Java は、棒グラフ、円グラフ、折れ線グラフなど、さまざまな種類のグラフをサポートしています。サポートされているグラフの種類の完全なリストについては、ドキュメントを参照してください。
+はい、Aspose.Slides for Java は、棒グラフ、円グラフ、折れ線グラフなど、さまざまなグラフの種類をサポートしています。サポートされているグラフの種類の完全なリストについては、ドキュメントを参照してください。
 
 ### Aspose.Slides for Java を使用してグラフの外観をカスタマイズできますか?
 
-はい、Aspose.Slides for Java API を使用して、色、フォント、スタイルの変更など、グラフの外観をカスタマイズできます。カスタマイズ オプションの詳細については、ドキュメントを確認してください。
+はい、Aspose.Slides for Java API を使用して、色、フォント、スタイルの変更など、グラフの外観をカスタマイズできます。詳細なカスタマイズ オプションについては、ドキュメントを確認してください。
 
-### Aspose.Slides for Java のその他のリソースやドキュメントはどこで見つけられますか?
+### Aspose.Slides for Java のその他のリソースやドキュメントはどこで入手できますか?
 
- Aspose.Slides for Java の包括的なドキュメントとリソースは、次のサイトで見つけることができます。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/).
+ Aspose.Slides for Java に関する包括的なドキュメントとリソースは、次のサイトで見つかります。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/).

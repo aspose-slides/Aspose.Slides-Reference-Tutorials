@@ -10,7 +10,7 @@ url: /vi/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 
 ## Giới thiệu về Chuyển đổi Notes Slide View sang PDF trong Java Slides
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày PowerPoint có chế độ xem trang chiếu ghi chú thành PDF bằng thư viện Aspose.Slides cho Java. Thư viện này cung cấp các tính năng mạnh mẽ để làm việc với bản trình bày PowerPoint bằng Java.
+Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày PowerPoint có chế độ xem trang trình bày ghi chú thành PDF bằng thư viện Aspose.Slides cho Java. Thư viện này cung cấp các tính năng mạnh mẽ để làm việc với bản trình bày PowerPoint bằng Java.
 
 ## Điều kiện tiên quyết
 1. Đã cài đặt Bộ công cụ phát triển Java (JDK).
@@ -79,7 +79,7 @@ finally
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách chuyển đổi bản trình bày PowerPoint có ghi chú dạng xem trang chiếu thành tệp PDF bằng thư viện Aspose.Slides cho Java. Chúng tôi đã làm theo hướng dẫn từng bước với mã nguồn để đạt được chuyển đổi này. Dưới đây là những điểm chính:
+Trong hướng dẫn này, chúng ta đã khám phá cách chuyển đổi bản trình bày PowerPoint có ghi chú dạng xem trang chiếu thành tệp PDF bằng thư viện Aspose.Slides cho Java. Chúng tôi đã làm theo hướng dẫn từng bước với mã nguồn để đạt được chuyển đổi này. Dưới đây là những điểm chính:
 
 ## Câu hỏi thường gặp
 

@@ -74,7 +74,7 @@ Parabéns! Você converteu com sucesso um arquivo no formato FODP para outros fo
 
 ### 3. Como posso obter uma licença temporária do Aspose.Slides for .NET?
 
-Se precisar de uma licença temporária, você pode obtê-la no[página de licença temporária](https://purchase.aspose.com/temporary-license/).
+ Se precisar de uma licença temporária, você pode obtê-la no[página de licença temporária](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Quais formatos de apresentação são suportados para conversão?
 

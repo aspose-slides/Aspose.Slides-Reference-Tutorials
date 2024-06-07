@@ -92,4 +92,4 @@ Igen, dolgozhat diákkal, alakzatokkal, szöveggel, képekkel és egyéb elemekk
  Ideiglenes jogosítványt kérhetsz[itt](https://purchase.aspose.com/temporary-license/).
 
 ### Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.Slides .NET-felhasználók számára?
-Támogatást és segítséget kaphat az Aspose közösségtől[támogatói fórum](https://forum.aspose.com/).
+ Támogatást és segítséget kaphat az Aspose közösségtől[támogatói fórum](https://forum.aspose.com/).

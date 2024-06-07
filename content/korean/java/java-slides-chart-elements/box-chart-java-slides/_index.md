@@ -52,7 +52,7 @@ try {
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- 이 단계에서는 박스 차트의 범주를 정의합니다. 우리는`IChartDataWorkbook`카테고리를 추가하고 그에 따라 라벨을 지정합니다.
+ 이 단계에서는 박스 차트의 범주를 정의합니다. 우리는`IChartDataWorkbook` 카테고리를 추가하고 그에 따라 라벨을 지정합니다.
 
 ## 4단계: 시리즈 만들기
 
@@ -65,7 +65,7 @@ try {
     series.setShowOutlierPoints(true);
 ```
 
-여기서는 차트용 BoxAndWhisker 시리즈를 생성하고 사분위수 방법, 평균선, 평균 마커, 내부 포인트, 이상점과 같은 다양한 옵션을 구성합니다.
+여기에서는 차트용 BoxAndWhisker 시리즈를 생성하고 사분위법, 평균선, 평균 마커, 내부 포인트, 이상점과 같은 다양한 옵션을 구성합니다.
 
 ## 5단계: 데이터 포인트 추가
 
@@ -93,7 +93,7 @@ try {
 
 축하해요! Aspose.Slides for Java를 사용하여 박스 차트를 성공적으로 만들었습니다. 다양한 속성을 조정하고 필요에 따라 더 많은 데이터 포인트를 추가하여 차트를 추가로 사용자 정의할 수 있습니다.
 
-## Java 슬라이드의 상자 차트에 대한 완전한 소스 코드
+## Java 슬라이드의 상자 차트에 대한 전체 소스 코드
 
 ```java
 String dataDir = "Your Document Directory";

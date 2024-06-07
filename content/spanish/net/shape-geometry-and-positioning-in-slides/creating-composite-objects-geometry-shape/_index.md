@@ -74,7 +74,7 @@ Finalmente, guardamos la presentación con la forma de geometría compuesta.
 ## Conclusión
 ¡Felicidades! Ha creado con éxito objetos compuestos en una forma geométrica utilizando Aspose.Slides para .NET. Experimente con diferentes formas y recorridos para darle vida a sus presentaciones.
 ## Preguntas frecuentes
-### P: ¿Puedo usar Aspose.Slides con otros lenguajes de programación?
+### P: ¿Puedo utilizar Aspose.Slides con otros lenguajes de programación?
 Aspose.Slides admite varios lenguajes de programación, incluidos Java y Python. Sin embargo, este tutorial se centra en C#.
 ### P: ¿Dónde puedo encontrar más ejemplos y documentación?
  Explorar el[Documentación de Aspose.Slides](https://reference.aspose.com/slides/net/) para obtener información completa y ejemplos.

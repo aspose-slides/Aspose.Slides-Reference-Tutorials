@@ -68,8 +68,8 @@ Igen, az Aspose.Slides támogatja a .NET Core-t, rugalmasságot biztosítva a fe
 ### Elrejthetek alakzatokat az alternatív szövegen kívüli feltételek alapján?
 Teljesen! Testreszabhatja a rejtési logikát különféle attribútumok, például alaktípus, szín vagy pozíció alapján.
 ### Hol találok további Aspose.Slides dokumentációt?
- Fedezze fel a dokumentációt[itt](https://reference.aspose.com/slides/net/) részletes információkért és példákért.
+ Fedezze fel a dokumentációt[itt](https://reference.aspose.com/slides/net/)részletes információkért és példákért.
 ### Rendelkezésre állnak ideiglenes licencek az Aspose.Slides számára?
- Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+ Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/)tesztelési célokra.
 ### Hogyan kaphatok közösségi támogatást az Aspose.Slides-hez?
  Csatlakozz az Aspose.Slides közösséghez a[fórum](https://forum.aspose.com/c/slides/11) megbeszélésekre és segítségnyújtásra.

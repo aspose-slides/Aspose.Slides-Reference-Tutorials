@@ -34,7 +34,7 @@ Presentation pres = new Presentation();
 
 ## 第 3 步：新增圖表
 
-接下來，我們將向簡報新增圖表。在此範例中，我們將建立一個聚集長條圖。這是添加圖表的程式碼：
+接下來，我們將向簡報新增圖表。在此範例中，我們將建立一個聚集長條圖。這是新增圖表的程式碼：
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 400, 300);

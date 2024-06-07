@@ -10,7 +10,7 @@ url: /sv/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-ja
 
 ## Introduktion till att konvertera SVG-bildobjekt till grupp av former i Java Slides
 
-den här omfattande guiden kommer vi att utforska hur man konverterar ett SVG-bildobjekt till en grupp av former i Java Slides med hjälp av Aspose.Slides for Java API. Detta kraftfulla bibliotek gör det möjligt för utvecklare att manipulera PowerPoint-presentationer programmatiskt, vilket gör det till ett värdefullt verktyg för olika uppgifter, inklusive hantering av bilder.
+I den här omfattande guiden kommer vi att utforska hur man konverterar ett SVG-bildobjekt till en grupp av former i Java Slides med hjälp av Aspose.Slides for Java API. Detta kraftfulla bibliotek gör det möjligt för utvecklare att manipulera PowerPoint-presentationer programmatiskt, vilket gör det till ett värdefullt verktyg för olika uppgifter, inklusive hantering av bilder.
 
 ## Förutsättningar
 
@@ -110,7 +110,7 @@ Grattis! Du har nu lärt dig hur du konverterar ett SVG-bildobjekt till en grupp
 
 ## Slutsats
 
-den här handledningen utforskade vi processen att konvertera ett SVG-bildobjekt till en grupp av former i en PowerPoint-presentation med hjälp av Java och Aspose.Slides for Java-biblioteket. Den här funktionen öppnar upp för många möjligheter för att förbättra dina presentationer med dynamiskt innehåll.
+I den här handledningen utforskade vi processen att konvertera ett SVG-bildobjekt till en grupp av former i en PowerPoint-presentation med hjälp av Java och Aspose.Slides for Java-biblioteket. Den här funktionen öppnar upp för många möjligheter för att förbättra dina presentationer med dynamiskt innehåll.
 
 ## FAQ's
 

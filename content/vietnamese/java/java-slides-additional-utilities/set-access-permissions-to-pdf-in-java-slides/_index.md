@@ -95,7 +95,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày quy trình thiết lập
 
 ### Có cách nào để xóa quyền truy cập khỏi tài liệu PDF không?
 
- Có, bạn có thể xóa quyền truy cập khỏi tài liệu PDF bằng cách tạo một quyền truy cập mới`PdfOptions`mà không chỉ định bất kỳ quyền truy cập nào, sau đó lưu tài liệu bằng các tùy chọn cập nhật này.
+ Có, bạn có thể xóa quyền truy cập khỏi tài liệu PDF bằng cách tạo một quyền mới`PdfOptions`mà không chỉ định bất kỳ quyền truy cập nào, sau đó lưu tài liệu bằng các tùy chọn cập nhật này.
 
 ### Aspose.Slides cho Java cung cấp những tính năng bảo mật nào khác?
 

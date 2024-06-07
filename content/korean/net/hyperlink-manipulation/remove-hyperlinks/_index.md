@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- 위의 코드에서`"Your Document Directory"`문서 디렉토리의 실제 경로와`"Hyperlink.pptx"` PowerPoint 프레젠테이션 파일의 이름으로.
+ 위의 코드에서`"Your Document Directory"` 문서 디렉토리의 실제 경로와`"Hyperlink.pptx"` PowerPoint 프레젠테이션 파일의 이름으로.
 
 ## 3단계: 하이퍼링크 제거
 

@@ -104,7 +104,7 @@ No, Aspose.Slides per .NET è progettato specificamente per le applicazioni .NET
 
 ### 4. Come posso ottenere una licenza temporanea per Aspose.Slides per .NET?
 
- Se hai bisogno di una licenza temporanea per un progetto specifico, visita[questo link](https://purchase.aspose.com/temporary-license/) richiederne uno.
+ Se hai bisogno di una licenza temporanea per un progetto specifico, visita[questo link](https://purchase.aspose.com/temporary-license/) per richiederne uno.
 
 ### 5. Dove posso cercare aiuto e supporto per Aspose.Slides per .NET?
 

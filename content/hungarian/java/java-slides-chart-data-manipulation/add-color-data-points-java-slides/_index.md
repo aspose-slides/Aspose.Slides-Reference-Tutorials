@@ -19,7 +19,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 - Java fejlesztői környezet
 - Aspose.Slides for Java könyvtár
 
-## 1. lépés: Hozzon létre egy új bemutatót
+## 1. lépés: Hozzon létre egy új prezentációt
 
 Először is létrehozunk egy új prezentációt az Aspose.Slides for Java használatával. Ez a prezentáció a diagramunk tárolójaként szolgál majd.
 
@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 Ebben a lépésben egyedi adatpontokat fogunk személyre szabni. Itt megváltoztatjuk az adatpontok színét és konfiguráljuk a címkebeállításokat.
 
 ```java
-// A 0. adatpont testreszabása
+// 0. adatpont testreszabása
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ Más adatpontok színének megváltoztatásához a 4. lépésben bemutatotthoz h
 
 ### Hol találok további példákat és dokumentációt?
 
- További példákat és részletes dokumentációt találhat az Aspose.Slides for Java használatáról a webhelyen[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) weboldal.
+További példákat és részletes dokumentációt találhat az Aspose.Slides for Java használatáról a webhelyen[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) weboldal.

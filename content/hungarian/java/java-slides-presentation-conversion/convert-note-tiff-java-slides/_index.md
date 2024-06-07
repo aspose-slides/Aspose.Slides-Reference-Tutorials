@@ -94,7 +94,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan konvertálhatunk feljegyzéseket ta
 
 ### Hogyan telepíthetem az Aspose.Slides for Java programot?
 
- Az Aspose.Slides for Java innen letölthető[itt](https://releases.aspose.com/slides/java/)és kövesse a dokumentációban található telepítési utasításokat.
+ Az Aspose.Slides for Java innen letölthető[itt](https://releases.aspose.com/slides/java/) és kövesse a dokumentációban található telepítési utasításokat.
 
 ### Átalakíthatom a PowerPoint prezentációkat más formátumokra is?
 
@@ -106,7 +106,7 @@ Ha a prezentációhoz nincsenek jegyzetek, a konvertálási folyamat továbbra i
 
 ### Az Aspose.Slides for Java alkalmas kereskedelmi projektekhez?
 
-Igen, az Aspose.Slides for Java egy robusztus és megbízható könyvtár, amelyet sok vállalkozás használ Java-alkalmazásaikban dokumentumok feldolgozására és manipulálására.
+Igen, az Aspose.Slides for Java egy robusztus és megbízható könyvtár, amelyet sok vállalkozás használ dokumentumfeldolgozásra és -kezelésre Java-alkalmazásaiban.
 
 ### Vannak-e licencelési szempontok az Aspose.Slides for Java használatához a projektemben?
 

@@ -93,7 +93,7 @@ I den här handledningen utforskade vi processen att skapa gruppformer med Aspos
 ### Kan jag prova Aspose.Slides innan jag köper?
  Absolut! Du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 ### Var kan jag hitta stöd för Aspose.Slides-relaterade frågor?
- Besök Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
+Besök Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
 ### Hur får jag en tillfällig licens för Aspose.Slides?
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag köpa en fullständig licens för Aspose.Slides?

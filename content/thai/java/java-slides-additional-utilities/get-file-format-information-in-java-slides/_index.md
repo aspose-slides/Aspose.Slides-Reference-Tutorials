@@ -96,7 +96,7 @@ switch (info.getLoadFormat())
 
 ### ฉันจะรับไลบรารี Aspose.Slides สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose ที่[ลิงค์นี้](https://releases.aspose.com/slides/java/). เลือกเวอร์ชันที่เหมาะสมสำหรับโครงการของคุณ
+ คุณสามารถดาวน์โหลดไลบรารี Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose ที่[ลิงค์นี้](https://releases.aspose.com/slides/java/)เลือกเวอร์ชันที่เหมาะสมสำหรับโครงการของคุณ
 
 ### ฉันสามารถใช้โค้ดนี้กับไลบรารีการนำเสนอ Java อื่นได้หรือไม่
 

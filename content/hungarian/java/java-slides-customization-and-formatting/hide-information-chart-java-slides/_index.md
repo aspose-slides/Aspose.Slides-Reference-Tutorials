@@ -84,7 +84,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 
 ## 10. lépés: A diagramsorozat testreszabása
 
-A diagramsorozatot igény szerint testreszabhatja. Ebben a példában megváltoztatjuk a jelölő stílusát, az adatcímke pozícióját, a jelölő méretét, a vonal színét és a kötőjel stílusát:
+Szükség szerint testreszabhatja a diagramsorozatot. Ebben a példában megváltoztatjuk a jelölő stílusát, az adatcímke pozícióját, a jelölő méretét, a vonal színét és a vonal stílusát:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -149,7 +149,7 @@ finally
 ```
 ## Következtetés
 
-Ebben a lépésenkénti útmutatóban megvizsgáltuk, hogyan rejthetünk el különféle elemeket egy diagramon a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Ez hihetetlenül hasznos lehet, ha testre kell szabnia a diagramokat a prezentációkhoz, és vizuálisan vonzóbbá kell tennie, vagy az Ön egyedi igényeihez kell igazítania.
+Ebben a lépésenkénti útmutatóban megvizsgáltuk, hogyan rejthetünk el különféle elemeket egy diagramon a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Ez hihetetlenül hasznos lehet, ha testre kell szabnia a diagramokat a prezentációkhoz, és vizuálisan vonzóbbá kell tennie, vagy az Ön egyedi igényeihez kell szabnia.
 
 ## GYIK
 
@@ -157,7 +157,7 @@ Ebben a lépésenkénti útmutatóban megvizsgáltuk, hogyan rejthetünk el kül
 
 Testreszabhatja a diagramelemek különféle tulajdonságait, például a vonalszínt, a kitöltési színt, a jelölőstílust és egyebeket a diagramsorozat, a jelölők, a címkék és a formátum megfelelő tulajdonságainak elérésével.
 
-### Elrejthetek bizonyos adatpontokat a diagramban?
+### Elrejthetek bizonyos adatpontokat a diagramon?
 
 Igen, elrejthet bizonyos adatpontokat a diagramsorozat adatainak manipulálásával. Elrejtheti az adatpontokat, vagy nullára állíthatja az adatpontokat.
 

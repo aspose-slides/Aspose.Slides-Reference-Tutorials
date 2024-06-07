@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## 4. lépés: A konverziós beállítások testreszabása
 
- Az átalakítási folyamat testreszabásához létrehozhat egy példányt a`XpsOptions` osztály. A példában beállítottuk a metafájlok PNG-képként való mentését.
+Az átalakítási folyamat testreszabásához létrehozhat egy példányt a`XpsOptions` osztály. A példában beállítottuk a metafájlok PNG-képként való mentését.
 
 ```java
 XpsOptions opts = new XpsOptions();

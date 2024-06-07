@@ -16,7 +16,7 @@ W tym samouczku dowiesz się, jak otworzyć prezentację chronioną hasłem przy
 
 Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Biblioteka Aspose.Slides for Java: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Slides for Java. Można go uzyskać od[Strona Aspose](https://products.aspose.com/slides/java/).
+1. Biblioteka Aspose.Slides for Java: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Slides for Java. Można go uzyskać od[Strona Aspose](https://products.aspose.com/slides/java/).
 
 2.  Środowisko programistyczne Java: skonfiguruj środowisko programistyczne Java w swoim systemie, jeśli jeszcze tego nie zrobiłeś. Możesz pobrać Javę z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Zastąp „pass” hasłem prezentacji
 
 ## Krok 3: Otwórz prezentację
 
- Teraz otworzysz prezentację chronioną hasłem za pomocą`Presentation` konstruktor klasy, który jako parametry przyjmuje ścieżkę pliku i opcje ładowania.
+ Teraz otworzysz prezentację chronioną hasłem za pomocą`Presentation`konstruktor klasy, który jako parametry przyjmuje ścieżkę pliku i opcje ładowania.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -53,7 +53,7 @@ Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", 
 
 ## Krok 4: Uzyskaj dostęp do danych prezentacji
 
-razie potrzeby możesz teraz uzyskać dostęp do danych w prezentacji. W tym przykładzie wydrukujemy całkowitą liczbę slajdów obecnych w prezentacji.
+W razie potrzeby możesz teraz uzyskać dostęp do danych w prezentacji. W tym przykładzie wydrukujemy całkowitą liczbę slajdów obecnych w prezentacji.
 
 ```java
 try {
@@ -90,13 +90,13 @@ finally
 
 ## Wniosek
 
-W tym samouczku nauczyłeś się otwierać prezentację zabezpieczoną hasłem w Javie przy użyciu biblioteki Aspose.Slides for Java. Możesz teraz uzyskać dostęp do danych prezentacji i manipulować nimi zgodnie z potrzebami w aplikacji Java.
+tym samouczku nauczyłeś się otwierać prezentację zabezpieczoną hasłem w Javie przy użyciu biblioteki Aspose.Slides for Java. Możesz teraz uzyskać dostęp do danych prezentacji i manipulować nimi zgodnie z potrzebami w aplikacji Java.
 
 ## Często zadawane pytania
 
 ### Jak ustawić hasło do prezentacji?
 
-Aby ustawić hasło do prezentacji, użyj opcji`loadOptions.setPassword("password")` metoda, gdzie`"password"` należy zastąpić żądanym hasłem.
+ Aby ustawić hasło do prezentacji, użyj opcji`loadOptions.setPassword("password")` metoda, gdzie`"password"` należy zastąpić żądanym hasłem.
 
 ### Czy mogę otwierać prezentacje w różnych formatach, np. PPT i PPTX?
 

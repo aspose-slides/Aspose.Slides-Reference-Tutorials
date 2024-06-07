@@ -92,4 +92,4 @@ Ja, u kunt in een PowerPoint-presentatie met dia's, vormen, tekst, afbeeldingen 
  Een tijdelijke licentie kunt u aanvragen bij[hier](https://purchase.aspose.com/temporary-license/).
 
 ### Welke ondersteuningsopties zijn beschikbaar voor Aspose.Slides voor .NET-gebruikers?
- kunt ondersteuning en hulp krijgen van de Aspose-gemeenschap op hun[Helpforum](https://forum.aspose.com/).
+ U kunt ondersteuning en hulp krijgen van de Aspose-gemeenschap op hun[Helpforum](https://forum.aspose.com/).

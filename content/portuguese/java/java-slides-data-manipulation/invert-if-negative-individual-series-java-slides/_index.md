@@ -108,7 +108,7 @@ finally
 
 ## Conclusão
 
-Neste tutorial, aprendemos como usar o recurso "Inverter se negativo" para séries individuais em Java Slides usando Aspose.Slides for Java. Esse recurso permite destacar pontos de dados negativos em seus gráficos, tornando suas apresentações mais atraentes visualmente e informativas.
+Neste tutorial, aprendemos como usar o recurso "Inverter se negativo" para séries individuais em Java Slides usando Aspose.Slides para Java. Esse recurso permite destacar pontos de dados negativos em seus gráficos, tornando suas apresentações mais atraentes visualmente e informativas.
 
 ## Perguntas frequentes
 

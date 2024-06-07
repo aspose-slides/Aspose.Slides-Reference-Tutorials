@@ -58,7 +58,7 @@ try {
 ```java
         // Sökvägen till dokumentkatalogen.
         String dataDir = "Your Document Directory";
-        // Öppna presentationsfilen genom att skicka filsökvägen till konstruktören av klassen Presentation
+        //Öppna presentationsfilen genom att skicka filsökvägen till konstruktören av klassen Presentation
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {
@@ -73,7 +73,7 @@ try {
 
 ## Slutsats
 
-den här handledningen lärde du dig hur du öppnar en PowerPoint-presentation med Aspose.Slides för Java-biblioteket. Du kan nu komma åt bilderna och utföra olika operationer på presentationen efter behov för din Java-applikation.
+I den här handledningen lärde du dig hur du öppnar en PowerPoint-presentation med Aspose.Slides för Java-biblioteket. Du kan nu komma åt bilderna och utföra olika operationer på presentationen efter behov för din Java-applikation.
 
 ## FAQ's
 

@@ -63,13 +63,13 @@ chart.setTitle(true);
 Vervolgens zullen we de grafiekgegevens instellen door series en categorieën te definiëren.
 
 ```java
-// Stel de eerste reeks in op Waarden tonen
+// Stel de eerste reeks in op Waarden weergeven
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // De index van het kaartgegevensblad instellen
 int defaultWorksheetIndex = 0;
 
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Verwijder standaard gegenereerde series en categorieën
@@ -91,7 +91,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 Laten we nu de reeksgegevenspunten voor het diagram invullen.
 
 ```java
-// Neem de eerste kaartenserie
+// Neem de eerste kaartenreeks
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
 // Reeksgegevens invullen
@@ -99,11 +99,11 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Vulkleur voor series instellen
+//Vulkleur voor series instellen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
-// Neem de tweede kaartenreeks
+// Neem de tweede kaartenserie
 series = chart.getChartData().getSeries().get_Item(1);
 
 // Reeksgegevens invullen
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// Vulkleur voor series instellen
+//Vulkleur voor series instellen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -166,11 +166,11 @@ chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// Stel de eerste reeks in op Waarden tonen
+// Stel de eerste reeks in op Waarden weergeven
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // De index van het kaartgegevensblad instellen
 int defaultWorksheetIndex = 0;
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Verwijder standaard gegenereerde series en categorieën
 chart.getChartData().getSeries().clear();
@@ -184,25 +184,25 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Neem de eerste kaartenserie
+// Neem de eerste kaartenreeks
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Vult nu seriegegevens in
+//Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// Vulkleur voor series instellen
+//Vulkleur voor series instellen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Neem de tweede kaartenreeks
+// Neem de tweede kaartenserie
 series = chart.getChartData().getSeries().get_Item(1);
-// Vult nu seriegegevens in
+//Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Vulkleur voor series instellen
+//Vulkleur voor series instellen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-//Het eerste label is de categorienaam
+// Het eerste label is de categorienaam
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
@@ -239,4 +239,4 @@ In deze zelfstudie hebben we geleerd hoe u normale diagrammen in Java Slides kun
 
 ### Hoe sla ik het diagram op in een ander bestandsformaat?
 
-Om het diagram in een ander bestandsformaat op te slaan, wijzigt u de`SaveFormat` parameter in de`pres.save()` methode naar het gewenste formaat (bijvoorbeeld PDF, PNG, JPEG).
+ Om het diagram in een ander bestandsformaat op te slaan, wijzigt u de`SaveFormat` parameter in de`pres.save()`methode naar het gewenste formaat (bijvoorbeeld PDF, PNG, JPEG).

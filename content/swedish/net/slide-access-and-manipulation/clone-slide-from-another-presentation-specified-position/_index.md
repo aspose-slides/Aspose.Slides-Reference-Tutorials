@@ -10,7 +10,7 @@ url: /sv/net/slide-access-and-manipulation/clone-slide-from-another-presentation
 
 ## Introduktion till kloning av diabilder från olika presentationer till specificerade positioner
 
-När man arbetar med presentationer uppstår det ofta ett behov av att klona bilder från en presentation till en annan, speciellt när man vill återanvända specifikt innehåll eller ändra ordningen på bildbilderna. Aspose.Slides för .NET är ett kraftfullt bibliotek som ger ett enkelt och effektivt sätt att manipulera PowerPoint-presentationer programmatiskt. I den här steg-för-steg-guiden går vi igenom processen att klona en bild från en annan presentation till en angiven position med Aspose.Slides för .NET.
+När man arbetar med presentationer uppstår det ofta ett behov av att klona bilder från en presentation till en annan, speciellt när man vill återanvända specifikt innehåll eller ändra ordningen på bilderna. Aspose.Slides för .NET är ett kraftfullt bibliotek som ger ett enkelt och effektivt sätt att manipulera PowerPoint-presentationer programmatiskt. I den här steg-för-steg-guiden går vi igenom processen att klona en bild från en annan presentation till en angiven position med Aspose.Slides för .NET.
 
 ## Förutsättningar
 

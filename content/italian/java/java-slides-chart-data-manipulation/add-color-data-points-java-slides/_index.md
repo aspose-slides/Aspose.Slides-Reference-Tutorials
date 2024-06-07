@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 In questo passaggio personalizzeremo punti dati specifici. Qui stiamo cambiando il colore dei punti dati e configurando le impostazioni delle etichette.
 
 ```java
-// Personalizza il punto dati 0
+//Personalizza il punto dati 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ Per cambiare il colore di altri punti dati, puoi seguire un approccio simile com
 
 ### Dove posso trovare altri esempi e documentazione?
 
- Puoi trovare ulteriori esempi e documentazione dettagliata sull'utilizzo di Aspose.Slides per Java su[Documentazione Aspose.Slides](https://reference.aspose.com/slides/java/) sito web.
+Puoi trovare ulteriori esempi e documentazione dettagliata sull'utilizzo di Aspose.Slides per Java su[Documentazione Aspose.Slides](https://reference.aspose.com/slides/java/) sito web.

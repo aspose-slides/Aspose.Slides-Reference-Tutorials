@@ -99,7 +99,7 @@ class ExportProgressHandler implements IProgressCallback
 
 ## Kesimpulan
 
-Dalam panduan langkah demi langkah ini, kita mempelajari cara mengonversi presentasi PowerPoint (PPTX) ke file PDF di Java menggunakan Aspose.Slides untuk Java. Selain itu, kami menerapkan pembaruan kemajuan selama proses konversi untuk melacak status operasi.
+Dalam panduan langkah demi langkah ini, kita mempelajari cara mengonversi presentasi PowerPoint (PPTX) menjadi file PDF di Java menggunakan Aspose.Slides untuk Java. Selain itu, kami menerapkan pembaruan kemajuan selama proses konversi untuk melacak status operasi.
 
 ## FAQ
 

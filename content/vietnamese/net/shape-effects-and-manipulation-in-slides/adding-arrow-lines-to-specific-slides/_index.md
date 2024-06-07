@@ -71,7 +71,7 @@ Tóm lại, Aspose.Slides for .NET trao quyền cho các nhà phát triển đư
 ### Câu hỏi: Aspose.Slides có bản dùng thử miễn phí không?
  Đ: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể tìm hỗ trợ cho Aspose.Slides ở đâu?
- Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
+Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
 ### Câu hỏi: Làm cách nào để có được giấy phép tạm thời cho Aspose.Slides?
  A: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể mua Aspose.Slides cho .NET ở đâu?

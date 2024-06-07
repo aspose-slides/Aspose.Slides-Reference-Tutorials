@@ -54,7 +54,7 @@ while (categoryIndex < 15) {
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
         // เพิ่มจุดข้อมูลที่นี่
-        // ...
+        // -
         i++;
     }
     categoryIndex++;
@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // ปรับแต่งการจัดรูปแบบฉลาก (แบบอักษร การเติม ฯลฯ)
+        //ปรับแต่งการจัดรูปแบบฉลาก (แบบอักษร การเติม ฯลฯ)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### ฉันจะเปิดหรือปิดใช้คำบรรยายสำหรับป้ายกำกับข้อมูลได้อย่างไร
 
- หากต้องการเปิดหรือปิดใช้คำบรรยายสำหรับป้ายกำกับข้อมูล ให้ใช้`setShowLabelAsDataCallout` วิธี. ตั้งเป็น`true` เพื่อเปิดใช้งานคำบรรยายภาพและ`false` เพื่อปิดการใช้งาน
+ หากต้องการเปิดหรือปิดใช้คำบรรยายสำหรับป้ายกำกับข้อมูล ให้ใช้`setShowLabelAsDataCallout` วิธี. ตั้งเป็น`true` เพื่อเปิดใช้งานคำบรรยายภาพและ`false`เพื่อปิดการใช้งาน
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // เปิดใช้งานคำบรรยายภาพ

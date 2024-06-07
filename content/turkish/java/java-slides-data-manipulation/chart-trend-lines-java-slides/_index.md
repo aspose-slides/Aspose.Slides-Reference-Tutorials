@@ -173,11 +173,11 @@ Bu eğitimde, Aspose.Slides for Java kütüphanesini kullanarak Java Slides'daki
 
 ### Aspose.Slides for Java'da trend çizgisinin rengini nasıl değiştiririm?
 
-Bir trend çizgisinin rengini değiştirmek için`getSolidFillColor().setColor(Color)` Doğrusal bir trend çizgisi ekleme örneğinde gösterildiği gibi yöntem.
+ Bir trend çizgisinin rengini değiştirmek için`getSolidFillColor().setColor(Color)` Doğrusal bir trend çizgisi ekleme örneğinde gösterildiği gibi yöntem.
 
 ### Tek bir grafik serisine birden fazla trend çizgisi ekleyebilir miyim?
 
- Evet, tek bir grafik serisine birden fazla trend çizgisi ekleyebilirsiniz. Sadece aramanız yeterli`getTrendLines().add()` Eklemek istediğiniz her trend çizgisi için yöntemi seçin.
+Evet, tek bir grafik serisine birden fazla trend çizgisi ekleyebilirsiniz. Sadece aramanız yeterli`getTrendLines().add()` Eklemek istediğiniz her trend çizgisi için yöntemi seçin.
 
 ### Aspose.Slides for Java'daki bir grafikten trend çizgisini nasıl kaldırırım?
 

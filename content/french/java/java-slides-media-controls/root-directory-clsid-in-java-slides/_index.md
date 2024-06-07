@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Remplacez "your_output_path"
 Presentation pres = new Presentation();
 ```
 
- Dans le code ci-dessus, nous définissons le chemin du fichier de présentation de sortie et créons un nouveau`Presentation` objet.
+Dans le code ci-dessus, nous définissons le chemin du fichier de présentation de sortie et créons un nouveau`Presentation` objet.
 
 ## Étape 2 : définir le ClsId du répertoire racine
 
- Pour définir le Root Directory ClsId, vous devez créer une instance de`PptOptions`et définissez le CLSID souhaité. Le CLSID représente l'application qui sera utilisée comme répertoire racine lorsqu'un lien hypertexte est activé.
+ Pour définir le Root Directory ClsId, vous devez créer une instance de`PptOptions` et définissez le CLSID souhaité. Le CLSID représente l'application qui sera utilisée comme répertoire racine lorsqu'un lien hypertexte est activé.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// définir CLSID sur « Microsoft Powerpoint.Show.8 »
+	//définir CLSID sur « Microsoft Powerpoint.Show.8 »
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Enregistrer la présentation
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

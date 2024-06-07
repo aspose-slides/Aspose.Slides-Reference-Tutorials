@@ -58,7 +58,7 @@ dataPoints[3].DataPointLevels[0].Label.DataLabelFormat.ShowValue = true;
 
 ## 第 2 步：自訂資料標籤
 
-現在，讓我們自訂資料點 0 的資料標籤。我們將隱藏類別名稱並顯示系列名稱。
+現在，讓我們自訂資料點 0 的資料標籤。
 
 ```csharp
 IDataLabel branch1Label = dataPoints[0].DataPointLevels[2].Label;
@@ -77,7 +77,7 @@ branch1Label.DataLabelFormat.TextFormat.PortionFormat.FillFormat.SolidFillColor.
 
 ## 第 4 步：自訂資料點填滿顏色
 
-現在，讓我們更改資料點 9 的填滿顏色。我們將其設定為特定顏色。
+現在，讓我們更改資料點 9 的填滿顏色。
 
 ```csharp
 IFormat steam4Format = dataPoints[9].Format;

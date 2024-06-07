@@ -58,7 +58,7 @@ try {
 ```java
         // Il percorso della directory dei documenti.
         String dataDir = "Your Document Directory";
-        // Apertura del file di presentazione passando il percorso del file al costruttore della classe Presentation
+        //Apertura del file di presentazione passando il percorso del file al costruttore della classe Presentation
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

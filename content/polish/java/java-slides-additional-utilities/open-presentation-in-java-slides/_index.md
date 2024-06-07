@@ -58,7 +58,7 @@ try {
 ```java
         // Ścieżka do katalogu dokumentów.
         String dataDir = "Your Document Directory";
-        // Otwarcie pliku prezentacji poprzez przekazanie ścieżki pliku do konstruktora klasy Prezentacja
+        //Otwarcie pliku prezentacji poprzez przekazanie ścieżki pliku do konstruktora klasy Prezentacja
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {
@@ -73,7 +73,7 @@ try {
 
 ## Wniosek
 
-tym samouczku nauczyłeś się otwierać prezentację programu PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Możesz teraz uzyskać dostęp do slajdów i wykonywać różne operacje na prezentacji, zgodnie z potrzebami aplikacji Java.
+W tym samouczku nauczyłeś się otwierać prezentację programu PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Możesz teraz uzyskać dostęp do slajdów i wykonywać różne operacje na prezentacji, zgodnie z potrzebami aplikacji Java.
 
 ## Często zadawane pytania
 
@@ -99,7 +99,7 @@ Tak, Aspose.Slides for Java jest biblioteką komercyjną i może być konieczne 
 
 ### Czy mogę używać Aspose.Slides for Java w moich projektach komercyjnych?
 
-Tak, możesz używać Aspose.Slides for Java w swoich komercyjnych projektach, ale może być konieczne uzyskanie odpowiedniej licencji w zależności od sposobu użytkowania i wymagań. Informacje licencyjne i warunki można znaleźć na stronie internetowej Aspose.
+Tak, możesz używać Aspose.Slides for Java w swoich projektach komercyjnych, ale może być konieczne uzyskanie odpowiedniej licencji w zależności od sposobu użytkowania i wymagań. Informacje licencyjne i warunki można znaleźć na stronie internetowej Aspose.
 
 ### Czy Aspose.Slides for Java jest kompatybilny z różnymi wersjami Java?
 

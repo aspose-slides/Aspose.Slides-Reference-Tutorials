@@ -26,7 +26,7 @@ Tìm hiểu cách in bản trình bày PowerPoint theo chương trình bằng As
 ### [Xem trước bản in của bản trình bày trong Aspose.Slides](./presentation-print-preview/)
 Tìm hiểu cách xem trước bản in của bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước này cùng với mã nguồn để tạo và tùy chỉnh bản xem trước bản in.
 ### [Hiển thị nhận xét slide trong Aspose.Slides](./rendering-slide-comments/)
-Tìm hiểu cách hiển thị nhận xét về trang trình bày trong bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để truy cập, tùy chỉnh và hiển thị nhận xét theo chương trình.
+Tìm hiểu cách hiển thị nhận xét về trang trình bày trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để truy cập, tùy chỉnh và hiển thị nhận xét theo chương trình.
 ### [Hiển thị hiệu ứng 3D trong slide thuyết trình với Aspose.Slides](./rendering-3d-effects/)
 Tìm hiểu cách thêm hiệu ứng 3D quyến rũ vào trang trình bày của bạn bằng Aspose.Slides for .NET. Hướng dẫn từng bước của chúng tôi bao gồm mọi thứ từ thiết lập môi trường của bạn đến áp dụng hoạt ảnh và xuất kết quả cuối cùng.
 ### [Hiển thị biểu tượng cảm xúc và ký tự đặc biệt trong Aspose.Slides](./rendering-emoji-special-characters/)
@@ -38,6 +38,6 @@ Tìm hiểu cách thêm và tùy chỉnh số trang chiếu trong bản trình b
 ### [Điều chỉnh mức thu phóng cho các slide thuyết trình trong Aspose.Slides](./adjusting-zoom-level/)
 Tìm hiểu cách cải thiện các trang trình bày của bạn bằng Aspose.Slides for .NET. Khám phá hướng dẫn từng bước với mã nguồn về cách điều chỉnh mức thu phóng để có hình ảnh hấp dẫn.
 ### [In các slide thuyết trình cụ thể bằng Aspose.Slides](./printing-specific-slides/)
-Tìm hiểu cách in các trang trình bày cụ thể từ bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn từng bước của chúng tôi bao gồm cài đặt, tùy chỉnh và xử lý các ngoại lệ, cung cấp một cách liền mạch để tự động hóa các tác vụ PowerPoint.
+Tìm hiểu cách in các trang trình bày cụ thể từ bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước của chúng tôi bao gồm cài đặt, tùy chỉnh và xử lý các ngoại lệ, cung cấp một cách liền mạch để tự động hóa các tác vụ PowerPoint.
 ### [Hỗ trợ chữ ký số trong Aspose.Slides](./digital-signature-support/)
 Tăng cường bảo mật bản trình bày bằng chữ ký số bằng Aspose.Slides for .NET. Tìm hiểu cách thêm và xác minh chữ ký trong PowerPoint từng bước.

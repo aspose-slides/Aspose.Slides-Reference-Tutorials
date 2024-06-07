@@ -10,11 +10,11 @@ url: /hu/java/additional-utilities/load-format-enumeration-in-java-slides/
 
 ## Bevezetés a prezentációs formátum betöltéséhez Java Slides-ben
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan határozható meg egy PowerPoint-prezentáció formátuma az Aspose.Slides for Java API használatával. Kifejezetten egy prezentáció betöltésére és formátumának ellenőrzésére összpontosítunk a`LoadFormat` felsorolás. Ez segít megállapítani, hogy a prezentáció régebbi formátumú-e, például PowerPoint 95, vagy újabb formátumú.
+ Ebben az oktatóanyagban megvizsgáljuk, hogyan határozható meg egy PowerPoint-prezentáció formátuma az Aspose.Slides for Java API használatával. Kifejezetten egy prezentáció betöltésére és formátumának ellenőrzésére összpontosítunk a`LoadFormat` felsorolás. Ez segít megállapítani, hogy a prezentáció régebbi formátumú-e, például PowerPoint 95, vagy újabb formátumú.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. Letöltheti a[Aspose honlapja](https://products.aspose.com/slides/java/) és kövesse a telepítési utasításokat.
+Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. Letöltheti a[Aspose honlapja](https://products.aspose.com/slides/java/) és kövesse a telepítési utasításokat.
 
 ## 1. lépés: Importálja a szükséges osztályokat
 
@@ -34,7 +34,7 @@ String dataDir = "Your Document Directory";
 boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(dataDir + "presentation.ppt").getLoadFormat() == LoadFormat.Ppt95;
 ```
 
- A fenti kódban használjuk`PresentationFactory.getInstance().getPresentationInfo()`hogy információt szerezzen a prezentációról, beleértve annak formátumát is. Ezután összehasonlítjuk a formátumot`LoadFormat.Ppt95` ellenőrizni, hogy egy régebbi PowerPoint 95 formátumról van-e szó.
+ A fenti kódban használjuk`PresentationFactory.getInstance().getPresentationInfo()` hogy információt szerezzen a prezentációról, beleértve annak formátumát is. Ezután összehasonlítjuk a formátumot`LoadFormat.Ppt95` ellenőrizni, hogy egy régebbi PowerPoint 95 formátumról van-e szó.
 
 ## A Java Slides betöltési formátumú felsorolásának teljes forráskódja
 
@@ -45,7 +45,7 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Következtetés
 
- Ebben az oktatóanyagban megtanultuk, hogyan tölthet be PowerPoint prezentációt Java nyelven az Aspose.Slides segítségével, és hogyan ellenőrizheti a formátumát a`LoadFormat` felsorolás. Ez akkor lehet hasznos, ha a különböző formátumú prezentációkat eltérő módon kell kezelnie a Java alkalmazásban.
+ Ebben az oktatóanyagban megtanultuk, hogyan tölthet be PowerPoint prezentációt Java nyelven az Aspose.Slides segítségével, és hogyan ellenőrizheti a formátumát a`LoadFormat`felsorolás. Ez akkor lehet hasznos, ha a különböző formátumú prezentációkat eltérő módon kell kezelnie a Java alkalmazásban.
 
 ## GYIK
 
@@ -63,7 +63,7 @@ Igen, az Aspose.Slides for Java integrálható más Java könyvtárakkal és ker
 
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
 
-Az Aspose.Slides for Java termékhez támogatást kaphat, ha ellátogat az Aspose támogatási fórumaira, vagy felveszi a kapcsolatot a támogatási csapattal a webhelyükön található csatornákon keresztül. Közösségi és fizetett támogatási lehetőségeket is kínálnak.
+Az Aspose.Slides for Java termékhez támogatást kaphat, ha felkeresi az Aspose támogatási fórumait, vagy felveszi a kapcsolatot ügyfélszolgálati csapatával a webhelyükön található csatornákon keresztül. Közösségi és fizetett támogatási lehetőségeket is kínálnak.
 
 ### Az Aspose.Slides for Java alkalmas kereskedelmi projektekhez?
 

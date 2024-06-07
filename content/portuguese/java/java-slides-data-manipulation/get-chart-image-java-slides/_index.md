@@ -75,7 +75,7 @@ Obter imagens de gráficos de Java Slides usando Aspose.Slides for Java é um pr
 
 ### Como faço para instalar o Aspose.Slides para Java?
 
- Instalar Aspose.Slides para Java é simples. Você pode baixar a biblioteca em[aqui](https://releases.aspose.com/slides/java/) siga as instruções de instalação fornecidas na documentação.
+ Instalar Aspose.Slides para Java é simples. Você pode baixar a biblioteca em[aqui](https://releases.aspose.com/slides/java/) e siga as instruções de instalação fornecidas na documentação.
 
 ### Posso personalizar o gráfico antes de obter sua imagem?
 
@@ -91,4 +91,4 @@ Sim, Aspose.Slides for Java pode ser usado para fins comerciais. Ele oferece op�
 
 ### Posso salvar a imagem do gráfico em um formato diferente?
 
-Certamente! Você pode salvar a imagem da carta em vários formatos, como JPEG ou GIF, especificando a extensão de arquivo apropriada no campo`ImageIO.write` método.
+ Certamente! Você pode salvar a imagem da carta em vários formatos, como JPEG ou GIF, especificando a extensão de arquivo apropriada no campo`ImageIO.write` método.

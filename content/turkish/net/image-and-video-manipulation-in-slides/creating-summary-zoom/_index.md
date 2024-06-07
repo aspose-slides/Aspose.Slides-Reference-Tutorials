@@ -11,7 +11,7 @@ url: /tr/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 Sunumların dinamik dünyasında Aspose.Slides for .NET, slayt oluşturma deneyiminizi geliştirecek güçlü bir araç olarak öne çıkıyor. Sunduğu dikkate değer özelliklerden biri, bir slayt koleksiyonunu sunmanın görsel olarak ilgi çekici bir yolu olan Özet Yakınlaştırma oluşturma yeteneğidir. Bu eğitimde, Aspose.Slides for .NET'i kullanarak sunum slaytlarında Özet Yakınlaştırma oluşturma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
--  Aspose.Slides for .NET: Kitaplığın .NET ortamınızda kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Kitaplığın .NET ortamınızda kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/slides/net/).
 - Geliştirme Ortamı: Visual Studio veya tercih edilen herhangi bir IDE de dahil olmak üzere .NET geliştirme ortamınızı kurun.
 - Temel C# Bilgisi: Bu eğitimde, C# programlama konusunda temel bir anlayışa sahip olduğunuz varsayılmaktadır.
 ## Ad Alanlarını İçe Aktar
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## 2. Adım: Slaytlar ve Bölümler Ekleme
- Bu adım, bireysel slaytlar oluşturmayı ve bunları sunum içinde bölümler halinde düzenlemeyi içerir.`AddEmptySlide` yöntem yeni bir slayt ekler ve`Sections.AddSection` yöntem daha iyi organizasyon için bölümler oluşturur.
+ Bu adım, bireysel slaytlar oluşturmayı ve bunları sunum içinde bölümler halinde düzenlemeyi içerir.`AddEmptySlide`yöntem yeni bir slayt ekler ve`Sections.AddSection` yöntem daha iyi organizasyon için bölümler oluşturur.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Slaytı şekillendirmeye yönelik kod buraya gelir
@@ -78,4 +78,4 @@ Kesinlikle! Slaytlarınıza köprüler ekleyebilirsiniz; bunlar Özet Yakınlaş
 ### Bir sunumdaki bölüm sayısında herhangi bir sınırlama var mı?
 En son sürüm itibariyle, bir sunuma ekleyebileceğiniz bölüm sayısında katı bir sınırlama yoktur.
 ### Aspose.Slides'ın deneme sürümü mevcut mu?
-Evet, Aspose.Slides'ın özelliklerini indirerek keşfedebilirsiniz.[ücretsiz deneme sürümü](https://releases.aspose.com/).
+ Evet, Aspose.Slides'ın özelliklerini indirerek keşfedebilirsiniz.[ücretsiz deneme sürümü](https://releases.aspose.com/).

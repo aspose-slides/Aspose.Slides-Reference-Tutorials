@@ -16,7 +16,7 @@ Java 개발 세계에서는 프레젠테이션 슬라이드 작업이 일반적�
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1.  Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리가 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리가 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
 2. Java 개발 환경: 시스템에 Java 개발 환경이 설정되어 있는지 확인하십시오.
 
@@ -48,7 +48,7 @@ finally
 
 이 코드에서는:
 
-- 프리젠테이션 파일이 포함된 디렉토리의 경로를 지정합니다(`SelectedSlides.pptx`PDF로 변환하려는 항목을 선택하세요.
+- 프리젠테이션 파일이 포함된 디렉토리의 경로를 지정합니다(`SelectedSlides.pptx`) PDF로 변환하려는 항목을 선택하세요.
 
 -  우리는`Presentation` 프리젠테이션 파일을 나타내는 객체입니다.
 

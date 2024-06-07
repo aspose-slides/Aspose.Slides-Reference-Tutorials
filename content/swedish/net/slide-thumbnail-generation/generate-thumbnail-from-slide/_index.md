@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlide.pptx")
     // Skapa en fullskalig bild
     Bitmap bmp = sld.GetThumbnail(1f, 1f);
 
-    // Spara bilden på disk i JPEG-format
+    // Spara bilden på disken i JPEG-format
     bmp.Save(dataDir + "Thumbnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
 }
 ```

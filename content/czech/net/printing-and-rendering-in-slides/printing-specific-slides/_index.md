@@ -56,6 +56,6 @@ Odpověď: Ano, můžete toho dosáhnout úpravou kódu pro selektivní tisk kon
 ### Otázka: Kde mohu najít další podporu nebo se ptát na Aspose.Slides?
  Odpověď: Navštivte Aspose.Slides[Fórum podpory](https://forum.aspose.com/c/slides/11) pro pomoc.
 ### Otázka: Mohu si Aspose.Slides před nákupem vyzkoušet zdarma?
-A: Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A: Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Otázka: Jak si koupím Aspose.Slides pro .NET?
  A: Můžete si koupit knihovnu[tady](https://purchase.aspose.com/buy).

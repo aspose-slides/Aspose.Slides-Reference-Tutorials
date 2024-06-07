@@ -41,7 +41,7 @@ string FileName = FilePath + "Adding Layout Slides.pptx";
 
 using (Presentation p = new Presentation(FileName))
 {
-    // Uw code komt hier terecht
+    // Je code komt hier terecht
 }
 ```
 

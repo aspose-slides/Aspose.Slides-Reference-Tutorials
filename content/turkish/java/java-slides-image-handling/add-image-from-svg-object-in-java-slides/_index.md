@@ -10,7 +10,7 @@ url: /tr/java/image-handling/add-image-from-svg-object-in-java-slides/
 
 ## Java Slaytlarında SVG Nesnesinden Resim Eklemeye Giriş
 
-Günümüzün dijital çağında sunumlar, bilginin etkili bir şekilde aktarılmasında çok önemli bir rol oynamaktadır. Sunumlarınıza görsel eklemek görsel çekiciliğini artırabilir ve onları daha ilgi çekici hale getirebilir. Bu adım adım kılavuzda, Aspose.Slides for Java kullanarak bir SVG (Ölçeklenebilir Vektör Grafikleri) nesnesinden Java Slaytlarına nasıl resim ekleneceğini keşfedeceğiz. İster eğitim içeriği, ister iş sunumları veya aradaki herhangi bir şeyi oluşturuyor olun, bu eğitim, SVG resimlerini Java Slaytlar sunumlarınıza dahil etme sanatında ustalaşmanıza yardımcı olacaktır.
+Günümüzün dijital çağında sunumlar, bilginin etkili bir şekilde aktarılmasında çok önemli bir rol oynamaktadır. Sunumlarınıza görsel eklemek görsel çekiciliğini artırabilir ve onları daha ilgi çekici hale getirebilir. Bu adım adım kılavuzda, Aspose.Slides for Java kullanarak bir SVG (Ölçeklenebilir Vektör Grafikleri) nesnesinden Java Slaytlarına nasıl resim ekleneceğini keşfedeceğiz. İster eğitim içeriği, ister iş sunumları veya aradaki herhangi bir şeyi oluşturuyor olun, bu eğitim SVG görüntülerini Java Slaytlar sunumlarınıza dahil etme sanatında ustalaşmanıza yardımcı olacaktır.
 
 ## Önkoşullar
 
@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Değiştirdiğinizden emin olun`"Your Document Directory"`SVG dosyasının bulunduğu projenizin dizininin gerçek yolu ile birlikte.
+ Değiştirdiğinizden emin olun`"Your Document Directory"` SVG dosyasının bulunduğu projenizin dizininin gerçek yolu ile birlikte.
 
 ## Adım 2: Yeni Bir PowerPoint Sunusu Oluşturun
 

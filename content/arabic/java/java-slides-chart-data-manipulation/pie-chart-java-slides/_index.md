@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## الخطوة 4: إضافة مخطط دائري
 
 ```java
-// أضف مخططًا دائريًا يحتوي على البيانات الافتراضية
+//أضف مخططًا دائريًا يحتوي على البيانات الافتراضية
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // ضبط فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
 
-//الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//تخصيص القطاعات الأخرى بطريقة مماثلة
+// تخصيص القطاعات الأخرى بطريقة مماثلة
 ```
 
 تخصيص مظهر كل قطاع في المخطط الدائري. يمكنك تغيير الألوان وأنماط الحدود والخصائص المرئية الأخرى.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // إعداد فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
-//الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // إضافة سلسلة جديدة
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// الآن ملء بيانات السلسلة
+//الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//لا يعمل في الاصدار الجديد
+// لا يعمل في الاصدار الجديد
 // إضافة نقاط جديدة وتحديد لون القطاع
 // series.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني تغيير ألوان القطاعات الفردية في المخطط الدائري؟
 
- لتغيير ألوان القطاعات الفردية في المخطط الدائري، يمكنك تخصيص لون التعبئة لكل نقطة بيانات. في مثال التعليمات البرمجية المقدم، أوضحنا كيفية تعيين لون التعبئة لكل قطاع باستخدام`getSolidFillColor().setColor()`طريقة. يمكنك تعديل قيم الألوان لتحقيق المظهر المطلوب.
+ لتغيير ألوان القطاعات الفردية في المخطط الدائري، يمكنك تخصيص لون التعبئة لكل نقطة بيانات. في مثال التعليمات البرمجية المقدم، أوضحنا كيفية تعيين لون التعبئة لكل قطاع باستخدام`getSolidFillColor().setColor()` طريقة. يمكنك تعديل قيم الألوان لتحقيق المظهر المطلوب.
 
 ### هل يمكنني إضافة المزيد من الفئات وسلاسل البيانات إلى المخطط الدائري؟
 
@@ -278,7 +278,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### هل يمكنني إنشاء أنواع أخرى من المخططات باستخدام Aspose.Slides لـ Java؟
 
- نعم، يدعم Aspose.Slides for Java أنواعًا مختلفة من المخططات، بما في ذلك المخططات الشريطية والمخططات الخطية والمزيد. يمكنك إنشاء أنواع مختلفة من المخططات عن طريق تغيير`ChartType` عند إضافة الرسم البياني. راجع وثائق Aspose.Slides للحصول على مزيد من التفاصيل حول إنشاء أنواع مختلفة من المخططات.
+نعم، يدعم Aspose.Slides for Java أنواعًا مختلفة من المخططات، بما في ذلك المخططات الشريطية والمخططات الخطية والمزيد. يمكنك إنشاء أنواع مختلفة من المخططات عن طريق تغيير`ChartType` عند إضافة الرسم البياني. راجع وثائق Aspose.Slides للحصول على مزيد من التفاصيل حول إنشاء أنواع مختلفة من المخططات.
 
 ### كيف يمكنني العثور على مزيد من المعلومات والأمثلة للعمل مع Aspose.Slides لـ Java؟
 

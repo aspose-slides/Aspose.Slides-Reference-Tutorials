@@ -10,7 +10,7 @@ url: /zh-hant/net/printing-and-rendering-in-slides/presentation-render-options/
 創建令人驚嘆的簡報通常需要微調渲染選項以實現所需的視覺效果。在本教學中，我們將使用 Aspose.Slides for .NET 深入研究簡報投影片的渲染選項。請跟隨詳細步驟和範例了解如何最佳化簡報。
 ## 先決條件
 在我們開始這次渲染冒險之前，請確保您具備以下先決條件：
-- Aspose.Slides for .NET：下載並安裝 Aspose.Slides 函式庫。您可以在以下位置找到該圖書館：[這個連結](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：下載並安裝 Aspose.Slides 函式庫。您可以在以下位置找到該圖書館：[這個連結](https://releases.aspose.com/slides/net/).
 - 文件目錄：為您的文件設定目錄並記住路徑。您將需要它來獲取程式碼範例。
 ## 導入命名空間
 在您的 .NET 應用程式中，首先匯入必要的命名空間以存取 Aspose.Slides 功能。

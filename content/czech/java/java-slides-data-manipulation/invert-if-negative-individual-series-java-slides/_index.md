@@ -48,7 +48,7 @@ V tomto kroku do prezentace přidáme graf. Jako příklad použijeme seskupený
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400, true);
 ```
 
-## Krok 4: Nakonfigurujte datovou řadu grafu
+## Krok 4: Konfigurace datové řady grafu
 
 Dále nakonfigurujeme datové řady grafu. Abychom demonstrovali funkci „Invert If Negative“, vytvoříme vzorovou datovou sadu s kladnými i zápornými hodnotami.
 

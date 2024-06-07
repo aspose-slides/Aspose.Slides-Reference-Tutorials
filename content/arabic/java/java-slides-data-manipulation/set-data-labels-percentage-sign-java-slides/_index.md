@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 نضيف البيانات إلى المخطط عن طريق إنشاء نقاط متسلسلة وبيانات. في هذا المثال، نضيف سلسلتين مع نقاط البيانات الخاصة بكل منهما.
 
 ```java
-//الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // إضافة سلسلة جديدة
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // إضافة سلسلة جديدة
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

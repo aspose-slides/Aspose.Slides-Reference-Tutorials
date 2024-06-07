@@ -16,7 +16,7 @@ Ebben az oktatóanyagban megtanuljuk, hogyan állíthatja be a pozíciótengelyt
 
  Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Prezentáció létrehozása
+## 1. lépés: Prezentáció készítése
 
 Először is hozzunk létre egy új bemutatót, amellyel dolgozni:
 

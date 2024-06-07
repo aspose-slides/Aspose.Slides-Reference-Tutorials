@@ -26,7 +26,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-//Buat instance kelas Presentasi yang mewakili file presentasi
+// Buat instance kelas Presentasi yang mewakili file presentasi
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-//Buat instance kelas Presentasi yang mewakili file presentasi
+// Buat instance kelas Presentasi yang mewakili file presentasi
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Anda telah berhasil menganimasikan serial dalam bagan PowerPoint menggunakan Asp
 
 ### Bagaimana cara mengontrol urutan animasi serial?
 
- Untuk mengontrol urutan animasi rangkaian, gunakan`EffectTriggerType.AfterPrevious` parameter saat menambahkan efek. Ini akan membuat setiap seri animasi dimulai setelah yang sebelumnya selesai.
+ Untuk mengontrol urutan animasi rangkaian, gunakan`EffectTriggerType.AfterPrevious`parameter saat menambahkan efek. Ini akan membuat setiap seri animasi dimulai setelah yang sebelumnya selesai.
 
 ### Bisakah saya menerapkan animasi berbeda pada setiap seri?
 

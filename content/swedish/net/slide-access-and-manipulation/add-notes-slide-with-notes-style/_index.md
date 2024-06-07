@@ -35,9 +35,9 @@ using Aspose.Slides.Export;
 
 Låt oss nu dyka in i kärnan av vår handledning - lägga till snygg anteckningsformatering till dina PowerPoint-bilder. Vi delar upp detta i flera steg för bättre förståelse:
 
-### Steg 2.1: Instantiera presentationsklass
+### Steg 2.1: Instantera presentationsklass
 
- Först måste vi skapa en instans av`Presentation`klass som representerar din PowerPoint-presentationsfil. Du bör ange sökvägen till din presentationsfil i`dataDir` variabel.
+ Först måste vi skapa en instans av`Presentation` klass som representerar din PowerPoint-presentationsfil. Du bör ange sökvägen till din presentationsfil i`dataDir` variabel.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Steg 2.2: Öppna huvudanteckningsbilden
 
- Inom`using` block, kommer vi åt huvudanteckningsbilden. Huvudanteckningsbilden innehåller standardformatet för anteckningar i din presentation.
+ Inom`using`block, kommer vi åt huvudanteckningsbilden. Huvudanteckningsbilden innehåller standardformatet för anteckningar i din presentation.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

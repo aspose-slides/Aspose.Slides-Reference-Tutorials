@@ -20,7 +20,7 @@ Mielőtt belevágnánk a megvalósításba, győződjön meg arról, hogy a köv
 
 2. Java fejlesztői környezet: Győződjön meg arról, hogy a rendszeren be van állítva Java fejlesztői környezet.
 
-## 1. lépés: Hozzon létre egy új bemutatót
+## 1. lépés: Hozzon létre egy új prezentációt
 
 A kezdéshez hozzunk létre egy új PowerPoint-prezentációt az Aspose.Slides for Java segítségével. Íme a Java kód ehhez:
 
@@ -44,10 +44,10 @@ Itt állítjuk be a külső munkafüzetet diagramunk adatforrásaként. Meg kell
 
 ```java
 IChartData chartData = chart.getChartData();
-chartData.setExternalWorkbook("http://elérési út/nincs/létezik", false);
+chartData.setExternalWorkbook("http://útvonal/nincs/létezik", false);
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse el a prezentációt a frissített diagramadatokkal:
 
@@ -65,7 +65,7 @@ try
 {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 400, 600, true);
 	IChartData chartData = chart.getChartData();
-	chartData.setExternalWorkbook("http://elérési út/nincs/létezik", false);
+	chartData.setExternalWorkbook("http://útvonal/nincs/létezik", false);
 	pres.save(dataDir + "SetExternalWorkbookWithUpdateChartData.pptx", SaveFormat.Pptx);
 }
 finally

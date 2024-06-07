@@ -71,7 +71,7 @@ Deze code zorgt ervoor dat de vulkleur van de serie op automatisch wordt ingeste
 Gebruik de volgende code om de presentatie op te slaan:
 
 ```java
-//Schrijf het presentatiebestand naar schijf
+// Schrijf het presentatiebestand naar schijf
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Schrijf het presentatiebestand naar schijf
+	// Schrijf het presentatiebestand naar schijf
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

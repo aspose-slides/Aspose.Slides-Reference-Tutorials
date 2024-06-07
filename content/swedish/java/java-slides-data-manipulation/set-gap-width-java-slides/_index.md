@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Skaffa arbetsboken för diagramdata
 
 ```java
-//Hämta arbetsbladet för diagramdata
+// Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Ställa in index för diagramdatabladet
 int defaultWorksheetIndex = 0;
-//Hämta arbetsbladet för diagramdata
+// Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Lägg till serier
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -126,9 +126,9 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Ta andra diagramserien
+// Ta den andra diagramserien
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Fyller nu på seriedata
+//Fyller nu på seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -143,7 +143,7 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen har du lärt dig hur du ställer in Gap Width för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Genom att justera gapbredden kan du styra avståndet mellan kolumner eller staplar i ditt diagram, vilket förbättrar den visuella representationen av dina data.
+I den här handledningen har du lärt dig hur du ställer in Gap Width för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Genom att justera gapbredden kan du kontrollera avståndet mellan kolumner eller staplar i ditt diagram, vilket förbättrar den visuella representationen av dina data.
 
 ## FAQ's
 

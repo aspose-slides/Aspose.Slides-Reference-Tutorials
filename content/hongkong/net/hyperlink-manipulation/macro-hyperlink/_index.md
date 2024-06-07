@@ -44,7 +44,7 @@ using Aspose.Slides.Export;
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    //您的程式碼將位於此處。
+    //您的程式碼將放在此處。
 }
 ```
 

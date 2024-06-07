@@ -10,7 +10,7 @@ url: /tr/java/customization-and-formatting/setting-position-axis-java-slides/
 
 ## Aspose.Slides for Java'da Konum Eksenini Ayarlamaya Giriş
 
-Bu eğitimde Aspose.Slides for Java kullanarak bir grafikte konum eksenini nasıl ayarlayacağımızı öğreneceğiz. Grafiğinizin görünümünü ve düzenini özelleştirmek istediğinizde ekseni konumlandırmak yararlı olabilir. Kümelenmiş bir sütun grafiği oluşturacağız ve yatay eksenin kategoriler arasındaki konumunu ayarlayacağız.
+Bu eğitimde Aspose.Slides for Java kullanarak bir grafikte konum eksenini nasıl ayarlayacağımızı öğreneceğiz. Grafiğinizin görünümünü ve düzenini özelleştirmek istediğinizde ekseni konumlandırmak faydalı olabilir. Kümelenmiş bir sütun grafiği oluşturacağız ve yatay eksenin kategoriler arasındaki konumunu ayarlayacağız.
 
 ## Önkoşullar
 

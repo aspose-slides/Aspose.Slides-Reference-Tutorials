@@ -88,8 +88,8 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan opsi plot kedua ke b
 
 ###  Apa artinya?`PieSplitBy` control in a Pie of Pie chart?
 
- Itu`PieSplitBy`properti mengontrol bagaimana diagram lingkaran dibagi. Anda dapat mengaturnya menjadi keduanya`PieSplitType.ByPercentage` atau`PieSplitType.ByValue` untuk membagi grafik berdasarkan persentase atau nilai tertentu.
+ Itu`PieSplitBy` properti mengontrol bagaimana diagram lingkaran dibagi. Anda dapat mengaturnya menjadi keduanya`PieSplitType.ByPercentage` atau`PieSplitType.ByValue` untuk membagi grafik berdasarkan persentase atau nilai tertentu.
 
 ### Bagaimana cara mengatur posisi pemisahan pada diagram Pie of Pie?
 
- Anda dapat mengatur posisi pemisahan dalam diagram Pie of Pie menggunakan`setPieSplitPosition` metode. Sesuaikan nilainya untuk menentukan posisi yang diinginkan.
+Anda dapat mengatur posisi pemisahan dalam diagram Pie of Pie menggunakan`setPieSplitPosition` metode. Sesuaikan nilainya untuk menentukan posisi yang diinginkan.

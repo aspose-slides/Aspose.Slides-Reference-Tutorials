@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Seu código para manipulação de slides irá aqui
+    //Seu código para manipulação de slides irá aqui
 }
 ```
 
@@ -45,13 +45,13 @@ Agora que carregamos nossa apresentação, vamos acessar os slides por seu índi
 
 ```csharp
 // Acesse um slide por seu índice sequencial (baseado em 0)
-int slideIndex = 2; // Substitua pelo índice desejado
+int slideIndex = 2; //Substitua pelo índice desejado
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## Explicação do código-fonte
 
-- Nós usamos o`Slides` coleção do`Presentation` objeto para acessar os slides.
+-  Nós usamos o`Slides` coleção do`Presentation` objeto para acessar os slides.
 - O índice do slide na coleção é baseado em 0, portanto, o primeiro slide tem um índice de 0, o segundo slide tem um índice de 1 e assim por diante.
 - Especificamos o índice de slide desejado para recuperar o objeto de slide correspondente.
 
@@ -81,7 +81,7 @@ Não, Aspose.Slides for .NET é uma biblioteca comercial que requer uma licença
 
 ### Que outras funcionalidades o Aspose.Slides for .NET oferece?
 
- Aspose.Slides for .NET oferece uma ampla gama de funcionalidades, incluindo criação de apresentações do zero, manipulação de slides, adição de formas e imagens, aplicação de formatação e muito mais. Você pode consultar o[documentação](https://reference.aspose.com/slides/net/) para obter informações abrangentes.
+Aspose.Slides for .NET oferece uma ampla gama de funcionalidades, incluindo criação de apresentações do zero, manipulação de slides, adição de formas e imagens, aplicação de formatação e muito mais. Você pode consultar o[documentação](https://reference.aspose.com/slides/net/) para obter informações abrangentes.
 
 ### Como posso aprender mais sobre a automação do PowerPoint usando Aspose.Slides?
 

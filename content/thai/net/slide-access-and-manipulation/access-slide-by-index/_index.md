@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // รหัสของคุณสำหรับการจัดการสไลด์จะอยู่ที่นี่
+    //รหัสของคุณสำหรับการจัดการสไลด์จะอยู่ที่นี่
 }
 ```
 
@@ -45,13 +45,13 @@ using (Presentation presentation = new Presentation(presentationPath))
 
 ```csharp
 // เข้าถึงสไลด์ตามดัชนีตามลำดับ (อิง 0)
-int slideIndex = 2; // แทนที่ด้วยดัชนีที่ต้องการ
+int slideIndex = 2; //แทนที่ด้วยดัชนีที่ต้องการ
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## คำอธิบายซอร์สโค้ด
 
-- เราใช้`Slides` คอลเลกชันของ`Presentation` วัตถุเพื่อเข้าถึงสไลด์
+-  เราใช้`Slides` คอลเลกชันของ`Presentation` วัตถุเพื่อเข้าถึงสไลด์
 - ดัชนีของสไลด์ในคอลเลกชันจะเป็น 0 ดังนั้นสไลด์แรกจึงมีดัชนี 0 สไลด์ที่สองมีดัชนี 1 และอื่นๆ
 - เราระบุดัชนีสไลด์ที่ต้องการเพื่อดึงวัตถุสไลด์ที่เกี่ยวข้อง
 
@@ -81,7 +81,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ### Aspose.Slides สำหรับ .NET มีฟังก์ชันการทำงานอื่นใดอีกบ้าง
 
- Aspose.Slides สำหรับ .NET มีฟังก์ชันการทำงานที่หลากหลาย รวมถึงการสร้างงานนำเสนอตั้งแต่ต้น การจัดการสไลด์ การเพิ่มรูปร่างและรูปภาพ การใช้การจัดรูปแบบ และอื่นๆ คุณสามารถอ้างถึง[เอกสารประกอบ](https://reference.aspose.com/slides/net/) เพื่อข้อมูลที่ครบถ้วน
+Aspose.Slides สำหรับ .NET มีฟังก์ชันการทำงานที่หลากหลาย รวมถึงการสร้างงานนำเสนอตั้งแต่ต้น การจัดการสไลด์ การเพิ่มรูปร่างและรูปภาพ การใช้การจัดรูปแบบ และอื่นๆ คุณสามารถอ้างถึง[เอกสารประกอบ](https://reference.aspose.com/slides/net/) เพื่อข้อมูลที่ครบถ้วน
 
 ### ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับการทำงานอัตโนมัติของ PowerPoint โดยใช้ Aspose.Slides ได้อย่างไร
 

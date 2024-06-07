@@ -44,7 +44,7 @@ using Aspose.Slides;
 // Путь к каталогу документов
 string dataDir = "Your Document Directory";
 
-//Создать класс Presentation, представляющий файл презентации.
+// Создать класс Presentation, представляющий файл презентации.
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Ваш код находится здесь

@@ -11,7 +11,7 @@ url: /cs/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům snadno manipulovat s prezentacemi v PowerPointu. V tomto tutoriálu prozkoumáme proces přidání posunutí roztažení doleva pro rám obrazu pomocí Aspose.Slides pro .NET. Postupujte podle tohoto podrobného průvodce, abyste zlepšili své dovednosti v práci s obrázky a tvary v prezentacích PowerPoint.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-- Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu. Pokud ne, stáhněte si jej z[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu. Pokud ne, stáhněte si jej z[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
 - Vývojové prostředí: Mějte funkční vývojové prostředí s možnostmi .NET.
 ## Importovat jmenné prostory
 Začněte importováním potřebných jmenných prostorů do vašeho projektu .NET:
@@ -73,7 +73,7 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
 ```
 Gratulujeme! Úspěšně jste přidali posunutí roztažení doleva pro rám obrazu pomocí Aspose.Slides pro .NET.
 ## Závěr
-V tomto tutoriálu jsme prozkoumali proces manipulace s rámečky obrázků v prezentacích PowerPoint pomocí Aspose.Slides pro .NET. Sledováním tohoto podrobného průvodce jste získali přehled o práci s obrázky, tvary a posuny.
+tomto tutoriálu jsme prozkoumali proces manipulace s rámečky obrázků v prezentacích PowerPoint pomocí Aspose.Slides pro .NET. Sledováním tohoto podrobného průvodce jste získali přehled o práci s obrázky, tvary a posuny.
 ## Často kladené otázky
 ### Otázka: Mohu použít odsazení roztažení na jiné tvary kromě obdélníků?
 Odpověď: I když se tento tutoriál zaměřuje na obdélníky, posuny roztažení lze použít na různé tvary podporované Aspose.Slides.

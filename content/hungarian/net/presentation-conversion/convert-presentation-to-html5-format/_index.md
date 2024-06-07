@@ -72,7 +72,7 @@ Az alábbi lépések követésével könnyedén konvertálhatja a PowerPoint-pre
 
 ### Hogyan szabhatom testre a HTML5 kimenet megjelenését?
 
-Testreszabhatja a HTML5-kimenet megjelenését a különböző beállítások megadásával`Html5Options` osztály. Utal[dokumentáció](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) az elérhető testreszabási lehetőségekért.
+ Testreszabhatja a HTML5-kimenet megjelenését a különböző beállítások megadásával`Html5Options`osztály. Utal[dokumentáció](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) az elérhető testreszabási lehetőségekért.
 
 ### Átalakíthatom a prezentációkat animációkkal és átmenetekkel?
 

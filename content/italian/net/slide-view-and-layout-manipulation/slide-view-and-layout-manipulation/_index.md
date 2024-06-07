@@ -115,7 +115,7 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 
 ### Posso modificare il layout di una diapositiva specifica?
 
- Sì, puoi modificare il layout di una diapositiva specifica utilizzando il file`Slide.Layout` proprietà. Basta assegnare il layout desiderato da`presentation.SlideLayouts` al layout della diapositiva.
+ Sì, puoi modificare il layout di una diapositiva specifica utilizzando il file`Slide.Layout` proprietà. Assegna semplicemente il layout desiderato da`presentation.SlideLayouts` al layout della diapositiva.
 
 ### È possibile aggiungere diapositive a livello di codice?
 

@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Nastavení indexu datového listu grafu
 	int defaultWorksheetIndex = 0;
-	//Získání listu dat grafu
+	// Získání listu dat grafu
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Smazat výchozí vygenerované série a kategorie
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Přidávání nové série
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Nyní se vyplňují data série
+	//Nyní se vyplňují data série
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ finally
 
 ### Jak mohu přizpůsobit barvy jednotlivých řezů v koláčovém grafu?
 
- Chcete-li přizpůsobit barvy jednotlivých řezů ve výsečovém grafu, můžete použít`getAutomaticSeriesColors`metodu pro načtení výchozího barevného schématu a následné úpravy barev podle potřeby. Zde je příklad:
+ Chcete-li přizpůsobit barvy jednotlivých řezů ve výsečovém grafu, můžete použít`getAutomaticSeriesColors` metodu pro načtení výchozího barevného schématu a následné úpravy barev podle potřeby. Zde je příklad:
 
 ```java
-// Získejte výchozí barevné schéma
+//Získejte výchozí barevné schéma
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Upravte barvy podle potřeby

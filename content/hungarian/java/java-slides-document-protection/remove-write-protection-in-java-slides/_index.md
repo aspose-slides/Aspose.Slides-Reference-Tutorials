@@ -45,7 +45,7 @@ Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pp
 
 ```java
 try {
-    // Ellenőrzi, hogy a prezentáció írásvédett-e
+    //Ellenőrzi, hogy a prezentáció írásvédett-e
     if (presentation.getProtectionManager().isWriteProtected())
         // Az írásvédelem eltávolítása
         presentation.getProtectionManager().removeWriteProtection();
@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 try
 {
-	// Ellenőrzi, hogy a prezentáció írásvédett-e
+	//Ellenőrzi, hogy a prezentáció írásvédett-e
 	if (presentation.getProtectionManager().isWriteProtected())
 		// Az írásvédelem eltávolítása
 		presentation.getProtectionManager().removeWriteProtection();

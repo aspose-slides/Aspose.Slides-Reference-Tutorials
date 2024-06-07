@@ -1,6 +1,6 @@
 ---
-title: Přidání vlastních čar v Java Slides
-linktitle: Přidání vlastních čar v Java Slides
+title: Přidání vlastních čar do snímků Java
+linktitle: Přidání vlastních čar do snímků Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete své snímky Java pomocí vlastních čar. Průvodce krok za krokem pomocí Aspose.Slides pro Java. Naučte se přidávat a přizpůsobovat čáry v prezentacích pro působivé vizuály.
 type: docs

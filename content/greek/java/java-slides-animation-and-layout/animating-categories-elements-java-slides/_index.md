@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-Σε αυτόν τον κώδικα, φορτώνουμε μια υπάρχουσα παρουσίαση PowerPoint που περιέχει το γράφημα που θέλετε να κάνετε κίνηση. Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
+ Σε αυτόν τον κώδικα, φορτώνουμε μια υπάρχουσα παρουσίαση PowerPoint που περιέχει το γράφημα που θέλετε να κάνετε κίνηση. Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
 
 ## Βήμα 3: Λάβετε μια αναφορά στο αντικείμενο του γραφήματος
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Γράψτε το αρχείο παρουσίασης στο δίσκο
+	// Γράψτε το αρχείο παρουσίασης στο δίσκο
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ finally
 
 ### Πώς μπορώ να μάθω περισσότερα για το Aspose.Slides για Java;
 
-Για πλήρη τεκμηρίωση και πρόσθετους πόρους, επισκεφθείτε τη διεύθυνση[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . Μπορείτε επίσης να κατεβάσετε τη βιβλιοθήκη από[εδώ](https://releases.aspose.com/slides/java/).
+ Για πλήρη τεκμηρίωση και πρόσθετους πόρους, επισκεφθείτε τη διεύθυνση[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . Μπορείτε επίσης να κατεβάσετε τη βιβλιοθήκη από[εδώ](https://releases.aspose.com/slides/java/).

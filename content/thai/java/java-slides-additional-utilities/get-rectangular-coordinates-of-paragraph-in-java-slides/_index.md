@@ -107,7 +107,7 @@ finally
 
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมได้ที่ไหน
 
-คุณสามารถค้นหาตัวอย่างโค้ดเพิ่มเติมและเอกสารประกอบโดยละเอียดสำหรับ Aspose.Slides สำหรับ Java ได้ที่[เอกสาร Aspose.Slides](https://reference.aspose.com/slides/java/) เว็บไซต์. นอกจากนี้คุณยังสามารถสำรวจ[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+ คุณสามารถค้นหาตัวอย่างโค้ดเพิ่มเติมและเอกสารประกอบโดยละเอียดสำหรับ Aspose.Slides สำหรับ Java ได้ที่[เอกสาร Aspose.Slides](https://reference.aspose.com/slides/java/)เว็บไซต์. นอกจากนี้คุณยังสามารถสำรวจ[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides) สำหรับการสนับสนุนและการอภิปรายของชุมชน
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Slides สำหรับ Java หรือไม่
 

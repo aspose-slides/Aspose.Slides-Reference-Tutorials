@@ -55,7 +55,7 @@ Console.WriteLine("Direction: " + threeDEffectiveData.LightRig.Direction);
 Parabéns! Você aprendeu com sucesso como obter dados eficazes de equipamento de luz em slides de apresentação usando Aspose.Slides for .NET. Experimente diferentes configurações para obter os efeitos visuais desejados em suas apresentações.
 ## Perguntas frequentes
 ### Posso usar Aspose.Slides for .NET com outras linguagens de programação?
-Aspose.Slides oferece suporte principalmente a linguagens .NET como C#. No entanto, produtos similares estão disponíveis para Java.
+Aspose.Slides oferece suporte principalmente a linguagens .NET como C#. No entanto, produtos semelhantes estão disponíveis para Java.
 ### Existe uma versão de teste disponível para Aspose.Slides for .NET?
  Sim, você pode baixar a versão de teste[aqui](https://releases.aspose.com/).
 ### Onde posso encontrar documentação detalhada para Aspose.Slides for .NET?

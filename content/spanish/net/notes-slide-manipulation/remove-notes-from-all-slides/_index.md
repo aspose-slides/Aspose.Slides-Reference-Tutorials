@@ -8,7 +8,7 @@ weight: 13
 url: /es/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
 
-Si es un desarrollador .NET que trabaja con presentaciones de PowerPoint, es posible que necesite eliminar notas de todas las diapositivas de su presentación. Esto puede resultar útil cuando desee limpiar sus diapositivas y eliminar cualquier información adicional que no esté destinada a su audiencia. En esta guía paso a paso, lo guiaremos a través del proceso de uso de Aspose.Slides para .NET para realizar esta tarea de manera eficiente.
+Si es un desarrollador de .NET que trabaja con presentaciones de PowerPoint, es posible que necesite eliminar notas de todas las diapositivas de su presentación. Esto puede resultar útil cuando desee limpiar sus diapositivas y eliminar cualquier información adicional que no esté destinada a su audiencia. En esta guía paso a paso, lo guiaremos a través del proceso de uso de Aspose.Slides para .NET para realizar esta tarea de manera eficiente.
 
 ## Requisitos previos
 

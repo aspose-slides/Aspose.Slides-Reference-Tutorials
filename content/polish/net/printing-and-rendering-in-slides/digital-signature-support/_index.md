@@ -10,12 +10,12 @@ url: /pl/net/printing-and-rendering-in-slides/digital-signature-support/
 ## Wstęp
 Podpisy cyfrowe odgrywają kluczową rolę w zapewnieniu autentyczności i integralności dokumentów cyfrowych. Aspose.Slides dla .NET zapewnia solidną obsługę podpisów cyfrowych, umożliwiając bezpieczne podpisywanie prezentacji PowerPoint. W tym samouczku przeprowadzimy Cię przez proces dodawania podpisów cyfrowych do prezentacji za pomocą Aspose.Slides.
 ## Warunki wstępne
-Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące informacje:
+Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
 -  Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/net/).
 - Certyfikat cyfrowy: Uzyskaj plik certyfikatu cyfrowego (PFX) wraz z hasłem do podpisania prezentacji. Możesz go wygenerować lub uzyskać od zaufanego urzędu certyfikacji.
 - Podstawowa znajomość języka C#: W tym samouczku założono, że masz podstawową wiedzę na temat programowania w języku C#.
 ## Importuj przestrzenie nazw
-W kodzie C# zaimportuj przestrzenie nazw niezbędne do pracy z podpisami cyfrowymi w Aspose.Slides:
+kodzie C# zaimportuj przestrzenie nazw niezbędne do pracy z podpisami cyfrowymi w Aspose.Slides:
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Examples.CSharp;

@@ -107,13 +107,13 @@ Trong hướng dẫn từng bước này, chúng tôi đã khám phá cách chuy
 
  Bạn có thể tải xuống Aspose.Slides cho Java từ trang web Aspose tại[đây](https://downloads.aspose.com/slides/java).
 
-###  Mục đích của việc này là gì`IProgressCallback`?
+###  Mục đích của là gì`IProgressCallback`?
 
 `IProgressCallback` là một giao diện do Aspose.Slides cung cấp cho Java để triển khai báo cáo tiến trình trong các hoạt động xuất. Nó cho phép bạn theo dõi tiến trình của các tác vụ như chuyển đổi bản trình bày sang PDF.
 
 ### Tôi có thể sử dụng Aspose.Slides for Java cho các thao tác PowerPoint khác không?
 
-Có, Aspose.Slides cho Java cung cấp chức năng mở rộng để làm việc với các bản trình bày PowerPoint, bao gồm tạo, sửa đổi và chuyển đổi chúng sang nhiều định dạng khác nhau.
+Có, Aspose.Slides for Java cung cấp chức năng mở rộng để làm việc với các bản trình bày PowerPoint, bao gồm tạo, sửa đổi và chuyển đổi chúng sang nhiều định dạng khác nhau.
 
 ### Làm cách nào tôi có thể tùy chỉnh các tùy chọn chuyển đổi PDF?
 

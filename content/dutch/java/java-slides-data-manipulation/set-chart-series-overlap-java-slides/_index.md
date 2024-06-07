@@ -76,7 +76,7 @@ try
 		// Reeksoverlap instellen
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//Schrijf het presentatiebestand naar schijf
+	// Schrijf het presentatiebestand naar schijf
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

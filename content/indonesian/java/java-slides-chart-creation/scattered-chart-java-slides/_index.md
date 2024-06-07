@@ -56,7 +56,7 @@ Sekarang, mari siapkan data untuk diagram sebar kita. Kami akan menambahkan dua 
 // Mendapatkan indeks lembar kerja data bagan default
 int defaultWorksheetIndex = 0;
 
-//Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data bagan
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Hapus seri demo
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Mendapatkan indeks lembar kerja data bagan default
 int defaultWorksheetIndex = 0;
-//Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data bagan
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Hapus seri demo
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Tambahkan poin baru (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Tambahkan poin baru (2:2)
+// Tambahkan poin baru (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Tambahkan poin baru (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ Dalam tutorial ini, kami telah memandu Anda melalui proses pembuatan Bagan Sebar
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Untuk mengubah jenis bagan, gunakan`setType` metode pada seri bagan dan berikan jenis bagan yang diinginkan. Misalnya,`series.setType(ChartType.Line)` akan mengubah seri menjadi diagram garis.
+ Untuk mengubah jenis bagan, gunakan`setType`metode pada seri bagan dan berikan jenis bagan yang diinginkan. Misalnya,`series.setType(ChartType.Line)` akan mengubah seri menjadi diagram garis.
 
 ### Bagaimana cara menyesuaikan ukuran dan gaya penanda?
 

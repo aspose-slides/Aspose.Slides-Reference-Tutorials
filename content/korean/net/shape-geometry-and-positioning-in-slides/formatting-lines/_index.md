@@ -72,6 +72,6 @@ pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
 ### Q3: 추가 지원을 찾거나 질문을 할 수 있는 곳은 어디입니까?
  방문하다[Aspose.슬라이드 포럼](https://forum.aspose.com/c/slides/11) 지원 및 지역 사회 지원을 위해.
 ### Q4: Aspose.Slides의 임시 라이선스를 어떻게 얻나요?
- 임시면허를 받을 수 있습니다.[Aspose.Slides 임시 라이센스](https://purchase.aspose.com/temporary-license/).
+ 임시면허를 받을 수 있습니다.[Aspose.Slides 임시 라이선스](https://purchase.aspose.com/temporary-license/).
 ### Q5: .NET용 Aspose.Slides를 어디서 구입할 수 있나요?
  에서 제품을 구매하실 수 있습니다.[Aspose.Slides 구매](https://purchase.aspose.com/buy).

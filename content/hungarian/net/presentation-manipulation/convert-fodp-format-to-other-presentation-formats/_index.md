@@ -74,7 +74,7 @@ Gratulálunk! Sikeresen konvertált egy FODP formátumú fájlt más prezentáci
 
 ### 3. Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for .NET számára?
 
-Ha ideiglenes engedélyre van szüksége, azt a következő helyen szerezheti be[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
+ Ha ideiglenes engedélyre van szüksége, azt a következő helyen szerezheti be[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Milyen prezentációs formátumok támogatottak az átalakításhoz?
 

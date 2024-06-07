@@ -72,7 +72,7 @@ namespace PresentationToHTML5Converter
 
 ### HTML5 출력의 모양을 어떻게 사용자 정의할 수 있나요?
 
-다음에서 다양한 옵션을 설정하여 HTML5 출력의 모양을 사용자 정의할 수 있습니다.`Html5Options` 수업. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) 사용 가능한 사용자 정의 옵션을 확인하세요.
+ 다음에서 다양한 옵션을 설정하여 HTML5 출력의 모양을 사용자 정의할 수 있습니다.`Html5Options`수업. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) 사용 가능한 사용자 정의 옵션을 확인하세요.
 
 ### 애니메이션과 전환이 포함된 프레젠테이션을 변환할 수 있나요?
 

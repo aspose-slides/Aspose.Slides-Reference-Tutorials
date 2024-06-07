@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## 3. Adım: Sunuyu Yükleyin
 
-Şimdi dönüştürmek istediğiniz sunumu yükleyelim. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolu ile:
+ Şimdi dönüştürmek istediğiniz sunumu yükleyelim. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolu ile:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Tebrikler! Aspose.Slides for Java'yı kullanarak bir sunumu başarıyla duyarlı
 
 ### HTML çıktısını daha da özelleştirebilir miyim?
 
- Evet, HTML çıktısını değiştirerek özelleştirebilirsiniz.`ResponsiveHtmlController` Ve`HtmlOptions`nesneler. Bu, HTML çıktısını özel gereksinimlerinize göre uyarlamanıza olanak tanır.
+ Evet, HTML çıktısını değiştirerek özelleştirebilirsiniz.`ResponsiveHtmlController` Ve`HtmlOptions` nesneler. Bu, HTML çıktısını özel gereksinimlerinize göre uyarlamanıza olanak tanır.
 
 ### Aspose.Slides for Java için herhangi bir lisans gereksinimi var mı?
 

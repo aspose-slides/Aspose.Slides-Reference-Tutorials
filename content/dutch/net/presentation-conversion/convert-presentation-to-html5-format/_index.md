@@ -72,7 +72,7 @@ Door deze stappen te volgen, kunt u eenvoudig PowerPoint-presentaties naar HTML5
 
 ### Hoe kan ik het uiterlijk van de HTML5-uitvoer aanpassen?
 
- kunt het uiterlijk van de HTML5-uitvoer aanpassen door verschillende opties in te stellen in het`Html5Options` klas. Verwijs naar de[documentatie](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) voor beschikbare aanpassingsopties.
+ U kunt het uiterlijk van de HTML5-uitvoer aanpassen door verschillende opties in te stellen in het`Html5Options`klas. Verwijs naar de[documentatie](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) voor beschikbare aanpassingsopties.
 
 ### Kan ik presentaties met animaties en overgangen converteren?
 

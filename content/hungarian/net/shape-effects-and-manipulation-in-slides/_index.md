@@ -32,8 +32,8 @@ Ismerje meg, hogyan javíthatja PowerPoint-prezentációit úgy, hogy nyíl alak
 ### [Hangkeretek hozzáadása prezentációs diákhoz az Aspose.Slides segítségével](./adding-audio-frames/)
 Fokozza előadásait hanggal! Ismerje meg, hogyan adhat hangkereteket prezentációs diákhoz az Aspose.Slides API for .NET használatával. Kapjon lépésről lépésre útmutatót és kódpéldákat.
 ### [OLE objektumkeretek hozzáadása a prezentációs diákhoz az Aspose.Slides segítségével](./adding-ole-object-frames/)
-Tanulja meg, hogyan javíthatja bemutató diákjait az OLE objektumkeretek zökkenőmentes integrálásával az Aspose.Slides for .NET segítségével. Emelje prezentációit a következő szintre.
-### [Egyszerű vonalak hozzáadása prezentációs diákhoz az Aspose.Slides segítségével](./adding-plain-lines/)
+Ismerje meg, hogyan javíthatja bemutatódiáit az OLE objektumkeretek zökkenőmentes integrálásával az Aspose.Slides for .NET segítségével. Emelje prezentációit a következő szintre.
+### [Egyszerű vonalak hozzáadása a bemutató diákhoz az Aspose.Slides segítségével](./adding-plain-lines/)
 Tanulja meg, hogyan javíthatja bemutató diákjait egyszerű vonalak hozzáadásával az Aspose.Slides for .NET segítségével. Kövesse ezt az átfogó útmutatót a lépésenkénti utasításokkal és a forráskód-példákkal.
 ### [Képkeretek hozzáadása relatív léptékmagassággal az Aspose.Slides-ben](./adding-picture-frames-relative-scale/)
 Ismerje meg, hogyan javíthatja bemutatóit relatív méretarányú képkeretek hozzáadásával az Aspose.Slides for .NET segítségével. Könnyedén készíthet tetszetős diákat.

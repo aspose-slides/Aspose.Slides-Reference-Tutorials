@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Λάβετε το Βιβλίο Εργασίας Δεδομένων Διαγράμματος
 
 ```java
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Ρύθμιση του ευρετηρίου του φύλλου δεδομένων γραφήματος
 int defaultWorksheetIndex = 0;
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Προσθήκη σειράς
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -128,7 +128,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Πάρτε τη δεύτερη σειρά γραφημάτων
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Τώρα συμπληρώνονται δεδομένα σειράς
+//Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

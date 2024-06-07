@@ -10,7 +10,7 @@ url: /sv/java/data-manipulation/set-external-workbook-update-chart-data-java-sli
 
 ## Introduktion till att ställa in extern arbetsbok med uppdatering av diagramdata i Java Slides
 
-den här omfattande guiden går vi igenom processen att ställa in en extern arbetsbok med uppdaterade diagramdata i Java Slides med hjälp av Aspose.Slides för Java API. Detta kraftfulla bibliotek låter dig manipulera PowerPoint-presentationer programmatiskt, vilket gör det enkelt att automatisera uppgifter som att uppdatera diagramdata från en extern källa. I slutet av den här handledningen har du en tydlig förståelse för hur du utför denna uppgift med steg-för-steg-instruktioner och medföljande Java-kod.
+den här omfattande guiden går vi igenom processen att ställa in en extern arbetsbok med uppdaterade diagramdata i Java Slides med hjälp av Aspose.Slides för Java API. Detta kraftfulla bibliotek låter dig manipulera PowerPoint-presentationer programmatiskt, vilket gör det enkelt att automatisera uppgifter som att uppdatera diagramdata från en extern källa. I slutet av den här handledningen har du en tydlig förståelse för hur du kan utföra denna uppgift med steg-för-steg-instruktioner och medföljande Java-kod.
 
 ## Förutsättningar
 

@@ -24,7 +24,7 @@ A rendszeren telepítve kell lennie egy működő .NET fejlesztői környezetnek
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell az Aspose.Slides szükséges névtereit. Íme a lépések ehhez:
+A kezdéshez importálnia kell az Aspose.Slides szükséges névtereit. Íme a lépések ennek végrehajtásához:
 
 ### 1. lépés: Nyissa meg projektjét
 

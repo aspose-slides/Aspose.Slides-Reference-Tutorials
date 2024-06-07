@@ -27,7 +27,7 @@ Med dessa tutorials är du på väg att bli en Java-expert på diabilder. Aspose
 Sammanfattningsvis ger Aspose.Slides för Java dig möjlighet att skapa imponerande bilder med dynamiska diagram. Dyk in i våra tutorials, experimentera med olika diagramtyper och lyft dina Java-presentationer till nästa nivå. Lycka till med kartläggningen!
 
 ## Självstudier för skapande av Java Slides Chart
-### [Radardiagram skapa i Java Slides](./radar-chart-creating-java-slides/)
+### [Skapa radardiagram i Java Slides](./radar-chart-creating-java-slides/)
 Lär dig hur du skapar radardiagram i Java PowerPoint-presentationer med Aspose.Slides för Java API.
 ### [Spridda diagram i Java Slides](./scattered-chart-java-slides/)
 Lär dig hur du skapar spridningsdiagram i Java med Aspose.Slides. Steg-för-steg-guide med Java-källkod för datavisualisering i presentationer.

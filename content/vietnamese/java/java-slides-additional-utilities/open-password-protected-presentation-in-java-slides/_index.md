@@ -16,7 +16,7 @@ Trong hướng dẫn này, bạn sẽ tìm hiểu cách mở bản trình bày �
 
 Trước khi bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-1.  Aspose.Slides for Java Library: Đảm bảo rằng bạn đã tải xuống và cài đặt thư viện Aspose.Slides for Java. Bạn có thể lấy nó từ[trang web giả định](https://products.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Đảm bảo rằng bạn đã tải xuống và cài đặt thư viện Aspose.Slides for Java. Bạn có thể lấy nó từ[trang web giả định](https://products.aspose.com/slides/java/).
 
 2.  Môi trường phát triển Java: Thiết lập môi trường phát triển Java trên hệ thống của bạn nếu bạn chưa có. Bạn có thể tải xuống Java từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Thay thế "pass" bằng mật khẩu bài t
 
 ## Bước 3: Mở bài thuyết trình
 
- Bây giờ, bạn sẽ mở bài thuyết trình được bảo vệ bằng mật khẩu bằng cách sử dụng`Presentation` hàm tạo của lớp, lấy đường dẫn tệp và các tùy chọn tải làm tham số.
+ Bây giờ, bạn sẽ mở bài thuyết trình được bảo vệ bằng mật khẩu bằng cách sử dụng`Presentation`hàm tạo của lớp, lấy đường dẫn tệp và các tùy chọn tải làm tham số.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -96,7 +96,7 @@ Trong hướng dẫn này, bạn đã học cách mở bản trình bày đượ
 
 ### Làm cách nào để đặt mật khẩu cho bài thuyết trình?
 
-Để đặt mật khẩu cho bài thuyết trình, hãy sử dụng`loadOptions.setPassword("password")` phương pháp, ở đâu`"password"` nên được thay thế bằng mật khẩu bạn muốn.
+ Để đặt mật khẩu cho bài thuyết trình, hãy sử dụng`loadOptions.setPassword("password")` phương pháp, ở đâu`"password"` nên được thay thế bằng mật khẩu bạn muốn.
 
 ### Tôi có thể mở bản trình bày với các định dạng khác nhau như PPT và PPTX không?
 

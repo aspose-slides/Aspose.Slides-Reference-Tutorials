@@ -10,7 +10,7 @@ url: /th/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-wi
 
 ## การแนะนำ
 
-ในโลกของเอกสารดิจิทัล การรับรองความเข้ากันได้และการเข้าถึงถือเป็นสิ่งสำคัญยิ่ง PDF/A และ PDF/UA เป็นสองมาตรฐานที่จัดการกับข้อกังวลเหล่านี้ PDF/A เน้นที่การเก็บถาวร ในขณะที่ PDF/UA เน้นการเข้าถึงสำหรับผู้ใช้ที่มีความพิการ Aspose.Slides สำหรับ .NET นำเสนอวิธีที่มีประสิทธิภาพเพื่อให้สอดคล้องทั้ง PDF/A และ PDF/UA ทำให้การนำเสนอของคุณสามารถใช้งานได้ในระดับสากล
+ในโลกของเอกสารดิจิทัล การรับรองความเข้ากันได้และการเข้าถึงถือเป็นสิ่งสำคัญยิ่ง PDF/A และ PDF/UA เป็นสองมาตรฐานที่จัดการกับข้อกังวลเหล่านี้ PDF/A เน้นที่การเก็บถาวร ในขณะที่ PDF/UA เน้นการเข้าถึงสำหรับผู้ใช้ที่มีความพิการ Aspose.Slides สำหรับ .NET นำเสนอวิธีที่มีประสิทธิภาพเพื่อให้สอดคล้องทั้ง PDF/A และ PDF/UA ทำให้งานนำเสนอของคุณสามารถใช้งานได้ในระดับสากล
 
 ## ทำความเข้าใจกับ PDF/A และ PDF/UA
 
@@ -62,7 +62,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// เพิ่มการสนับสนุนการเข้าถึงสำหรับ PDF/UA
+//เพิ่มการสนับสนุนการเข้าถึงสำหรับ PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // โหลดการนำเสนอ
 using var presentation = new Presentation("presentation.pptx");
 
-// เพิ่มการสนับสนุนการเข้าถึงสำหรับ PDF/UA
+//เพิ่มการสนับสนุนการเข้าถึงสำหรับ PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

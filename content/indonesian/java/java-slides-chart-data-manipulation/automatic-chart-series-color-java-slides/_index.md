@@ -47,7 +47,7 @@ Sekarang, kita akan mengisi grafik dengan data. Kami akan mulai dengan menghapus
 ```java
 // Mengatur indeks lembar data grafik
 int defaultWorksheetIndex = 0;
-//Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data bagan
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Hapus seri dan kategori yang dihasilkan secara default
 chart.getChartData().getSeries().clear();
@@ -70,14 +70,14 @@ Kami akan mengisi data seri untuk Seri 1 dan Seri 2.
 ```java
 // Ambil seri grafik pertama
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Sekarang mengisi data seri
+//Sekarang mengisi data seri
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Ambil seri grafik kedua
 series = chart.getChartData().getSeries().get_Item(1);
-// Sekarang mengisi data seri
+//Sekarang mengisi data seri
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Mengatur indeks lembar data grafik
 	int defaultWorksheetIndex = 0;
-	//Mendapatkan lembar kerja data bagan
+	// Mendapatkan lembar kerja data bagan
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Hapus seri dan kategori yang dihasilkan secara default
 	chart.getChartData().getSeries().clear();
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Ambil seri grafik pertama
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// Sekarang mengisi data seri
+	//Sekarang mengisi data seri
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Ambil seri grafik kedua
 	series = chart.getChartData().getSeries().get_Item(1);
-	// Sekarang mengisi data seri
+	//Sekarang mengisi data seri
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// Mengatur warna isian untuk seri
+	//Mengatur warna isian untuk seri
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Simpan presentasi dengan bagan
@@ -181,7 +181,7 @@ Kode ini akan membiarkan perpustakaan memilih warna secara otomatis untuk rangka
 
 ### Bagaimana cara menambahkan rangkaian atau kategori tambahan ke bagan?
 
- Untuk menambahkan rangkaian atau kategori tambahan ke bagan, gunakan`getSeries()` Dan`getCategories()` metode grafik`ChartData` obyek. Anda dapat menambahkan rangkaian dan kategori baru dengan menentukan data dan labelnya.
+Untuk menambahkan rangkaian atau kategori tambahan ke bagan, gunakan`getSeries()` Dan`getCategories()` metode grafik`ChartData` obyek. Anda dapat menambahkan rangkaian dan kategori baru dengan menentukan data dan labelnya.
 
 ### Apakah mungkin untuk memformat bagan dan label lebih lanjut?
 

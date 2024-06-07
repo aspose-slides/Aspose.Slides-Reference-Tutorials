@@ -2,88 +2,88 @@
 title: Java スライドで読み取り専用として保存
 linktitle: Java スライドで読み取り専用として保存
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides を使用して Java で PowerPoint プレゼンテーションを読み取り専用として保存する方法を学びます。段階的な手順とコード例を使用してコンテンツを保護します。
+description: Aspose.Slides を使用して、Java で PowerPoint プレゼンテーションを読み取り専用として保存する方法を学びます。ステップバイステップの手順とコード例を使用してコンテンツを保護します。
 type: docs
 weight: 11
 url: /ja/java/saving-options/save-as-read-only-in-java-slides/
 ---
 
-## Aspose.Slides for Java を使用して Java スライドを読み取り専用として保存する方法の概要
+## Aspose.Slides for Java を使用して Java スライドを読み取り専用として保存する方法の紹介
 
-今日のデジタル時代では、ドキュメントのセキュリティと完全性を確保することが最も重要です。 Java で PowerPoint プレゼンテーションを使用している場合、不正な変更を防ぐために、プレゼンテーションを読み取り専用として保存する必要がある場合があります。この包括的なガイドでは、強力な Aspose.Slides for Java API を使用してこれを実現する方法を説明します。プレゼンテーションを効果的に保護するための段階的な手順とソース コードの例を提供します。
+今日のデジタル時代では、ドキュメントのセキュリティと整合性を確保することが最も重要です。Java で PowerPoint プレゼンテーションを操作している場合、不正な変更を防ぐために読み取り専用として保存する必要に迫られることがあります。この包括的なガイドでは、強力な Aspose.Slides for Java API を使用してこれを実現する方法について説明します。プレゼンテーションを効果的に保護するための手順とソース コードの例を提供します。
 
 ## 前提条件
 
 実装の詳細に入る前に、次の前提条件が満たされていることを確認してください。
 
-1.  Aspose.Slides for Java: Aspose.Slides for Java がインストールされている必要があります。まだダウンロードしていない場合は、からダウンロードできます[ここ](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides for Java: Aspose.Slides for Javaがインストールされている必要があります。まだインストールしていない場合は、こちらからダウンロードできます。[ここ](https://releases.aspose.com/slides/java/).
 
-2. Java 開発環境: システムに Java 開発環境がセットアップされていることを確認します。
+2. Java 開発環境: システムに Java 開発環境が設定されていることを確認します。
 
-3. Java の基本知識: Java プログラミングに精通していると役立ちます。
+3. 基本的な Java の知識: Java プログラミングの知識があると有利です。
 
-## ステップ 1: プロジェクトのセットアップ
+## ステップ1: プロジェクトの設定
 
-まず、好みの統合開発環境 (IDE) で新しい Java プロジェクトを作成します。 Aspose.Slides for Java ライブラリをプロジェクトに必ず含めてください。
+まず、お好みの統合開発環境 (IDE) で新しい Java プロジェクトを作成します。プロジェクトに Aspose.Slides for Java ライブラリを含めるようにしてください。
 
-## ステップ 2: プレゼンテーションを作成する
+## ステップ2: プレゼンテーションの作成
 
-このステップでは、Aspose.Slides for Java を使用して新しい PowerPoint プレゼンテーションを作成します。これを実現する Java コードは次のとおりです。
+この手順では、Aspose.Slides for Java を使用して新しい PowerPoint プレゼンテーションを作成します。これを実現するための Java コードは次のとおりです。
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//ディレクトリが存在しない場合は作成します。
+//ディレクトリがまだ存在しない場合は作成します。
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-// PPT ファイルを表すプレゼンテーション オブジェクトをインスタンス化する
+//PPTファイルを表すプレゼンテーションオブジェクトをインスタンス化する
 Presentation presentation = new Presentation();
 ```
 
-必ず交換してください`"Your Document Directory"`プレゼンテーションを保存したいディレクトリへのパスを入力します。
+必ず交換してください`"Your Document Directory"`プレゼンテーションを保存する目的のディレクトリへのパスを入力します。
 
-## ステップ 3: コンテンツの追加 (オプション)
+## ステップ3: コンテンツの追加（オプション）
 
-必要に応じてプレゼンテーションにコンテンツを追加できます。このステップはオプションであり、含める特定のコンテンツによって異なります。
+必要に応じてプレゼンテーションにコンテンツを追加できます。この手順はオプションであり、含める特定のコンテンツによって異なります。
 
-## ステップ 4: 書き込み保護を設定する
+## ステップ4: 書き込み保護の設定
 
-プレゼンテーションを読み取り専用にするには、パスワードを入力して書き込み保護を設定します。その方法は次のとおりです。
+プレゼンテーションを読み取り専用にするには、パスワードを設定して書き込み保護を設定します。手順は次のとおりです。
 
 ```java
-//書き込み禁止パスワードの設定
+//書き込み保護パスワードの設定
 presentation.getProtectionManager().setWriteProtection("your_password");
 ```
 
-交換する`"your_password"`書き込み保護に設定したいパスワードを入力します。
+交換する`"your_password"`書き込み保護を設定するパスワードを入力します。
 
-## ステップ 5: プレゼンテーションを保存する
+## ステップ5: プレゼンテーションを保存する
 
-最後に、読み取り専用保護を適用したファイルにプレゼンテーションを保存します。
+最後に、読み取り専用保護を設定したファイルにプレゼンテーションを保存します。
 
 ```java
 //プレゼンテーションをファイルに保存する
 presentation.save(dataDir + "ReadonlyPresentation.pptx", SaveFormat.Pptx);
 ```
 
-必ず交換してください`"ReadonlyPresentation.pptx"`任意のファイル名を付けてください。
+必ず交換してください`"ReadonlyPresentation.pptx"`希望するファイル名を入力します。
 
 ## Java スライドで読み取り専用として保存するための完全なソース コード
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//ディレクトリが存在しない場合は作成します。
+//ディレクトリがまだ存在しない場合は作成します。
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// PPT ファイルを表すプレゼンテーション オブジェクトをインスタンス化する
+//PPTファイルを表すプレゼンテーションオブジェクトをインスタンス化する
 Presentation presentation = new Presentation();
 try
 {
-	//....ここで少し仕事をしてください....
-	//書き込み禁止パスワードの設定
+	//....ここで少し仕事をしてください.....
+	//書き込み保護パスワードの設定
 	presentation.getProtectionManager().setWriteProtection("test");
 	//プレゼンテーションをファイルに保存する
 	presentation.save(dataDir + "WriteProtected_out.pptx", SaveFormat.Pptx);
@@ -96,13 +96,13 @@ finally
 
 ## 結論
 
-おめでとう！ Aspose.Slides for Java ライブラリを使用して、PowerPoint プレゼンテーションを Java で読み取り専用として保存する方法を学習しました。このセキュリティ機能は、貴重なコンテンツを不正な変更から保護するのに役立ちます。
+おめでとうございます! Aspose.Slides for Java ライブラリを使用して、Java で PowerPoint プレゼンテーションを読み取り専用として保存する方法を学習しました。このセキュリティ機能は、貴重なコンテンツを不正な変更から保護するのに役立ちます。
 
 ## よくある質問
 
 ### プレゼンテーションから書き込み保護を解除するにはどうすればよいですか?
 
-プレゼンテーションから書き込み保護を解除するには、`removeWriteProtection()` Aspose.Slides for Java によって提供されるメソッド。以下に例を示します。
+プレゼンテーションの書き込み保護を解除するには、`removeWriteProtection()` Aspose.Slides for Java によって提供されるメソッド。次に例を示します。
 
 ```java
 //書き込み保護を解除する
@@ -111,19 +111,19 @@ presentation.getProtectionManager().removeWriteProtection();
 
 ### 読み取り専用と書き込み保護に異なるパスワードを設定できますか?
 
-はい、読み取り専用保護と書き込み保護に異なるパスワードを設定できます。適切な方法を使用して、目的のパスワードを設定するだけです。
+はい、読み取り専用保護と書き込み保護に異なるパスワードを設定できます。適切な方法を使用して、必要なパスワードを設定するだけです。
 
 - `setReadProtection(String password)`読み取り専用保護のため。
 - `setWriteProtection(String password)`書き込み保護のため。
 
-### プレゼンテーション内の特定のスライドを保護することはできますか?
+### プレゼンテーション内の特定のスライドを保護することは可能ですか?
 
-はい、個々のスライドに書き込み保護を設定することで、プレゼンテーション内の特定のスライドを保護できます。使用`Slide`オブジェクトの`getProtectionManager()`特定のスライドの保護を管理する方法。
+はい、個々のスライドに書き込み保護を設定することで、プレゼンテーション内の特定のスライドを保護することができます。`Slide`オブジェクトの`getProtectionManager()`特定のスライドの保護を管理する方法。
 
 ### 書き込み保護パスワードを忘れた場合はどうなりますか?
 
-書き込み保護パスワードを忘れた場合、それを回復する組み込みの方法はありません。不便を避けるために、パスワードは安全な場所に必ず記録してください。
+書き込み保護パスワードを忘れた場合、それを回復する方法は組み込まれていません。不都合を避けるために、パスワードの記録を安全な場所に保管してください。
 
-### 読み取り専用パスワードを設定した後に変更できますか?
+### 読み取り専用パスワードを設定後に変更することはできますか？
 
-はい、読み取り専用パスワードは設定後に変更できます。使用`setReadProtection(String newPassword)`新しいパスワードを使用してメソッドを実行し、読み取り専用保護パスワードを更新します。
+はい、読み取り専用パスワードは設定後に変更できます。`setReadProtection(String newPassword)`新しいパスワードを使用して、読み取り専用保護パスワードを更新します。

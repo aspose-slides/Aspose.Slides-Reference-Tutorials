@@ -14,7 +14,7 @@ url: /it/java/customization-and-formatting/
 
 Aspose.Slides per Java è una libreria robusta e versatile che consente agli sviluppatori Java di creare, modificare e formattare facilmente le presentazioni. Che tu stia lavorando su presentazioni aziendali, diapositive didattiche o qualsiasi altro tipo di contenuto visivo, Aspose.Slides fornisce gli strumenti necessari per far risaltare le tue presentazioni.
 
-## Tutorial passo dopo passo
+## Tutorial passo passo
 
 nostri tutorial coprono una vasta gamma di argomenti relativi alla personalizzazione e alla formattazione delle diapositive Java. Dalle attività di base come l'aggiunta e la disposizione delle diapositive alle tecniche più avanzate come l'applicazione di animazioni e transizioni, ti copriamo noi. Ogni tutorial è progettato per essere adatto ai principianti e fornire allo stesso tempo approfondimenti per sviluppatori esperti.
 

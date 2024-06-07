@@ -29,6 +29,6 @@ Explorez les fonctionnalités avancées de graphiques dans Aspose.Slides pour .N
 ### [Obtenir la plage de données du graphique](./chart-get-range/)
 Découvrez comment extraire efficacement les données d'un graphique à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec des exemples de code et des FAQ.
 ### [Récupérer un classeur à partir d'un graphique](./chart-recover-workbook/)
-Découvrez comment récupérer un classeur à partir d'un graphique à l'aide d'Aspose.Slides pour .NET. Extrayez les données du graphique et créez des classeurs Excel par programmation.
+Découvrez comment récupérer un classeur à partir d'un graphique à l'aide d'Aspose.Slides pour .NET. Extrayez les données du graphique et créez des classeurs Excel par programme.
 ### [Effacer les points de données d'une série de graphiques spécifiques](./clear-specific-chart-series-data-points-data/)
 Découvrez comment effacer des points de données de graphique spécifiques dans Aspose.Slides pour .NET. Guide étape par étape avec code source inclus.

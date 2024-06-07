@@ -47,7 +47,7 @@ try {
 }
 ```
 
-W tym fragmencie kodu tworzymy grupowany wykres kolumnowy na pierwszym slajdzie prezentacji, a następnie uzyskujemy jego miniaturę. Obraz zostanie zapisany jako „image.png” w określonym katalogu.
+tym fragmencie kodu tworzymy grupowany wykres kolumnowy na pierwszym slajdzie prezentacji, a następnie uzyskujemy jego miniaturę. Obraz zostanie zapisany jako „image.png” w określonym katalogu.
 
 ## Kompletny kod źródłowy funkcji Pobierz obraz wykresu w slajdach Java
 
@@ -75,7 +75,7 @@ Uzyskiwanie obrazów wykresów z Java Slides przy użyciu Aspose.Slides for Java
 
 ### Jak zainstalować Aspose.Slides dla Java?
 
- Instalacja Aspose.Slides dla Java jest prosta. Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/slides/java/) postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
+ Instalacja Aspose.Slides dla Java jest prosta. Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/slides/java/) i postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
 
 ### Czy mogę dostosować wykres przed uzyskaniem jego obrazu?
 
@@ -91,4 +91,4 @@ Tak, Aspose.Slides dla Java może być wykorzystywane do celów komercyjnych. Za
 
 ### Czy mogę zapisać obraz wykresu w innym formacie?
 
- pewnością! Możesz zapisać obraz wykresu w różnych formatach, takich jak JPEG lub GIF, określając odpowiednie rozszerzenie pliku w formacie`ImageIO.write` metoda.
+ Z pewnością! Możesz zapisać obraz wykresu w różnych formatach, takich jak JPEG lub GIF, określając odpowiednie rozszerzenie pliku w formacie`ImageIO.write` metoda.

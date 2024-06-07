@@ -18,7 +18,7 @@ url: /ko/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 
 1. Java 개발 환경: 시스템에 Java가 설치되어 있고 Java 프로그래밍 개념을 잘 알고 있는지 확인하십시오.
 
-2. Aspose.Slides for Java: 다음에서 Aspose.Slides for Java 라이브러리를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: 다음에서 Aspose.Slides for Java 라이브러리를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/slides/java/).
 
 ## 1단계: 프레젠테이션 만들기
 

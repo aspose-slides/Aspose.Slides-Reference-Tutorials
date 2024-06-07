@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Uw code voor diamanipulatie komt hier terecht
+    //Uw code voor diamanipulatie komt hier terecht
 }
 ```
 
@@ -45,13 +45,13 @@ Nu we onze presentatie hebben geladen, gaan we verder met het openen van dia's v
 
 ```csharp
 // Toegang tot een dia via de opeenvolgende index (gebaseerd op 0)
-int slideIndex = 2; // Vervang door de gewenste index
+int slideIndex = 2; //Vervang door de gewenste index
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## Broncode uitleg
 
-- Wij gebruiken de`Slides` verzameling van de`Presentation` object om toegang te krijgen tot dia's.
+-  Wij gebruiken de`Slides` verzameling van de`Presentation` object om toegang te krijgen tot dia's.
 - De index van de dia in de collectie is gebaseerd op 0, dus de eerste dia heeft een index van 0, de tweede dia heeft een index van 1, enzovoort.
 - We specificeren de gewenste dia-index om het bijbehorende dia-object op te halen.
 
@@ -81,7 +81,7 @@ Nee, Aspose.Slides voor .NET is een commerciële bibliotheek waarvoor een geldig
 
 ### Welke andere functionaliteiten biedt Aspose.Slides voor .NET?
 
- Aspose.Slides voor .NET biedt een breed scala aan functionaliteiten, waaronder het helemaal opnieuw maken van presentaties, het manipuleren van dia's, het toevoegen van vormen en afbeeldingen, het toepassen van opmaak en meer. U kunt verwijzen naar de[documentatie](https://reference.aspose.com/slides/net/) voor uitgebreide informatie.
+Aspose.Slides voor .NET biedt een breed scala aan functionaliteiten, waaronder het helemaal opnieuw maken van presentaties, het manipuleren van dia's, het toevoegen van vormen en afbeeldingen, het toepassen van opmaak en meer. U kunt verwijzen naar de[documentatie](https://reference.aspose.com/slides/net/) voor uitgebreide informatie.
 
 ### Hoe kan ik meer leren over PowerPoint-automatisering met Aspose.Slides?
 

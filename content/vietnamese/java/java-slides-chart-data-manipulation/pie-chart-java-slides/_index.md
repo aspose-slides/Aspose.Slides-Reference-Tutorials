@@ -49,7 +49,7 @@ Lấy trang trình bày đầu tiên mà bạn muốn thêm Biểu đồ hình t
 ## Bước 4: Thêm biểu đồ hình tròn
 
 ```java
-// Thêm biểu đồ hình tròn với dữ liệu mặc định
+//Thêm biểu đồ hình tròn với dữ liệu mặc định
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Đặt chỉ mục cho bảng dữ liệu biểu đồ
 int defaultWorksheetIndex = 0;
 
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Xóa chuỗi và danh mục được tạo mặc định
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Tùy chỉnh các lĩnh vực khác theo cách tương tự
+// Tùy chỉnh các lĩnh vực khác theo cách tương tự
 ```
 
 Tùy chỉnh giao diện của từng ngành trong Pie Chart. Bạn có thể thay đổi màu sắc, kiểu đường viền và các thuộc tính hình ảnh khác.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Thiết lập chỉ mục của bảng dữ liệu biểu đồ
 int defaultWorksheetIndex = 0;
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Xóa chuỗi và danh mục được tạo mặc định
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Thêm loạt phim mới
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Hiện đang điền dữ liệu chuỗi
+//Hiện đang điền dữ liệu chuỗi
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Không hoạt động trong phiên bản mới
+// Không hoạt động trong phiên bản mới
 // Thêm điểm mới và thiết lập màu khu vực
 // loạt.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ Bạn đã tạo thành công Biểu đồ hình tròn trong bản trình bày P
 
 ### Làm cách nào để thay đổi màu của từng khu vực trong Biểu đồ hình tròn?
 
- Để thay đổi màu của từng khu vực trong Biểu đồ hình tròn, bạn có thể tùy chỉnh màu tô cho từng điểm dữ liệu. Trong ví dụ về mã được cung cấp, chúng tôi đã trình bày cách đặt màu tô cho từng khu vực bằng cách sử dụng`getSolidFillColor().setColor()`phương pháp. Bạn có thể sửa đổi các giá trị màu để đạt được diện mạo mong muốn.
+ Để thay đổi màu của từng khu vực trong Biểu đồ hình tròn, bạn có thể tùy chỉnh màu tô cho từng điểm dữ liệu. Trong ví dụ về mã được cung cấp, chúng tôi đã trình bày cách đặt màu tô cho từng khu vực bằng cách sử dụng`getSolidFillColor().setColor()` phương pháp. Bạn có thể sửa đổi các giá trị màu để đạt được diện mạo mong muốn.
 
 ### Tôi có thể thêm nhiều danh mục và chuỗi dữ liệu hơn vào Biểu đồ hình tròn không?
 
@@ -278,7 +278,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### Tôi có thể tạo các loại biểu đồ khác bằng Aspose.Slides cho Java không?
 
- Có, Aspose.Slides cho Java hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm Biểu đồ thanh, Biểu đồ đường, v.v. Bạn có thể tạo các loại biểu đồ khác nhau bằng cách thay đổi`ChartType` khi thêm biểu đồ. Tham khảo tài liệu Aspose.Slides để biết thêm chi tiết về cách tạo các loại biểu đồ khác nhau.
+Có, Aspose.Slides cho Java hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm Biểu đồ thanh, Biểu đồ đường, v.v. Bạn có thể tạo các loại biểu đồ khác nhau bằng cách thay đổi`ChartType` khi thêm biểu đồ. Tham khảo tài liệu Aspose.Slides để biết thêm chi tiết về cách tạo các loại biểu đồ khác nhau.
 
 ### Làm cách nào tôi có thể tìm thêm thông tin và ví dụ để làm việc với Aspose.Slides cho Java?
 

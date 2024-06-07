@@ -15,7 +15,7 @@ Zanim przejdziemy do samouczka, upewnij się, że masz następujące elementy:
 - Środowisko programistyczne: Skonfiguruj działające środowisko programistyczne .NET i podstawowa znajomość języka C#.
 Teraz zacznijmy od samouczka!
 ## Importuj przestrzenie nazw
-kodzie C# musisz zaimportować niezbędne przestrzenie nazw, aby móc korzystać z funkcji Aspose.Slides. Dodaj następujące wiersze na początku pliku:
+W kodzie C# musisz zaimportować niezbędne przestrzenie nazw, aby móc korzystać z funkcji Aspose.Slides. Dodaj następujące wiersze na początku pliku:
 ```csharp
 using Aspose.Slides.Export;
 using Aspose.Slides;
@@ -74,7 +74,7 @@ System.Diagnostics.Process.Start(resultPath);
 ```
 Gratulacje! Pomyślnie wyrenderowałeś komentarze do slajdów przy użyciu Aspose.Slides dla .NET.
 ## Wniosek
-W tym samouczku zbadaliśmy proces renderowania komentarzy do slajdów przy użyciu Aspose.Slides dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, możesz z łatwością zwiększyć możliwości automatyzacji programu PowerPoint.
+tym samouczku zbadaliśmy proces renderowania komentarzy do slajdów przy użyciu Aspose.Slides dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, możesz z łatwością zwiększyć możliwości automatyzacji programu PowerPoint.
 ## Często Zadawane Pytania
 ### P: Czy Aspose.Slides jest kompatybilny z najnowszymi wersjami platformy .NET?
 O: Tak, Aspose.Slides jest regularnie aktualizowany, aby obsługiwał najnowsze wersje platformy .NET.
@@ -85,4 +85,4 @@ Odp.: Absolutnie! Samouczek zawiera opcje dostosowywania koloru, szerokości i p
 ### P: Jak uzyskać tymczasową licencję na Aspose.Slides?
  Odp.: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę szukać pomocy i wsparcia dla Aspose.Slides?
- O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności.
+O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności.

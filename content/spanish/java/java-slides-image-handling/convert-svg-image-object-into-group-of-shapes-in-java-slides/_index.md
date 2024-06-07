@@ -120,7 +120,7 @@ Sí, Aspose.Slides admite varios formatos de imagen, no solo SVG. Puede converti
 
 ### ¿Aspose.Slides es adecuado para automatizar presentaciones de PowerPoint?
 
-¡Absolutamente! Aspose.Slides proporciona potentes funciones para automatizar presentaciones de PowerPoint, lo que la convierte en una herramienta valiosa para tareas como crear, editar y manipular diapositivas mediante programación.
+¡Absolutamente! Aspose.Slides proporciona potentes funciones para automatizar presentaciones de PowerPoint, lo que la convierte en una herramienta valiosa para tareas como la creación, edición y manipulación de diapositivas mediante programación.
 
 ### ¿Existen requisitos de licencia para utilizar Aspose.Slides para Java?
 

@@ -82,7 +82,7 @@ Pomyślnie nauczyłeś się, jak czyścić określone punkty danych serii wykres
 ## Często Zadawane Pytania
 
 ### Czy mogę używać Aspose.Slides dla .NET z innymi językami programowania?
-Aspose.Slides jest przeznaczony głównie dla języków .NET. Dostępne są jednak wersje dla języka Java i innych platform.
+Aspose.Slides jest przeznaczony głównie dla języków .NET. Dostępne są jednak wersje dla Javy i innych platform.
 
 ### Czy Aspose.Slides dla .NET jest biblioteką płatną?
  Tak, Aspose.Slides jest biblioteką komercyjną, ale możesz przeglądać m.in[bezpłatna wersja próbna](https://releases.aspose.com/) przed zakupem.

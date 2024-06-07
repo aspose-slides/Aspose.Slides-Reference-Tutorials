@@ -98,7 +98,7 @@ Aspose.Slides dla .NET umożliwia programistom efektywne manipulowanie prezentac
 
 ### 1. Czy Aspose.Slides for .NET jest kompatybilny z najnowszymi formatami programu PowerPoint?
 
-Tak, Aspose.Slides dla .NET obsługuje najnowsze formaty programu PowerPoint, zapewniając kompatybilność z Twoimi prezentacjami.
+Tak, Aspose.Slides dla .NET obsługuje najnowsze formaty programu PowerPoint, zapewniając zgodność z Twoimi prezentacjami.
 
 ### 2. Czy mogę dodać wiele obrazów tła do różnych slajdów w prezentacji?
 

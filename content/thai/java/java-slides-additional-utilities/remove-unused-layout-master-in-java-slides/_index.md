@@ -106,7 +106,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 
 ### ฉันจะติดตั้ง Aspose.Slides สำหรับ Java ได้อย่างไร
 
- Aspose.Slides สำหรับ Java สามารถติดตั้งได้โดยการดาวน์โหลดไลบรารีจาก[เว็บไซต์กำหนด](https://downloads.aspose.com/slides/java). ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้เพื่อตั้งค่าไลบรารีในโปรเจ็กต์ Java ของคุณ
+ Aspose.Slides สำหรับ Java สามารถติดตั้งได้โดยการดาวน์โหลดไลบรารีจาก[เว็บไซต์กำหนด](https://downloads.aspose.com/slides/java)- ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้เพื่อตั้งค่าไลบรารีในโปรเจ็กต์ Java ของคุณ
 
 ### มีข้อกำหนดสิทธิ์การใช้งานสำหรับการใช้ Aspose.Slides สำหรับ Java หรือไม่
 

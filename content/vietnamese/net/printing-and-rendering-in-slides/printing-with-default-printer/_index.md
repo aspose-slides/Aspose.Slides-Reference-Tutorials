@@ -33,7 +33,7 @@ Presentation presentation = new Presentation(dataDir + "Print.ppt");
  Bước này liên quan đến việc khởi tạo`Presentation` đối tượng bằng cách tải tệp PowerPoint mong muốn.
 ## Bước 3: In bài thuyết trình
 ```csharp
-// Gọi phương thức in để in toàn bộ bản trình bày sang máy in mặc định
+// Gọi phương thức in để in toàn bộ bản trình bày tới máy in mặc định
 presentation.Print();
 ```
  Ở đây,`Print()` phương thức được gọi trên`presentation` đối tượng, kích hoạt quá trình in tới máy in mặc định.

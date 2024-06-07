@@ -77,7 +77,7 @@ chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3
 Έχετε τον έλεγχο της μορφής αριθμών, των μέγιστων και ελάχιστων τιμών του άξονα τιμών. Δείτε πώς μπορείτε να το προσαρμόσετε:
 
 ```java
-// Ορισμός μορφής αριθμού άξονα τιμής
+// Ρύθμιση τιμής μορφής αριθμού άξονα
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setDisplayUnit(DisplayUnitType.Thousands);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.0%");
@@ -182,7 +182,7 @@ try
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
-	// Ορισμός μορφής αριθμού άξονα τιμής
+	// Ρύθμιση τιμής μορφής αριθμού άξονα
 	chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 	chart.getAxes().getVerticalAxis().setDisplayUnit(DisplayUnitType.Thousands);
 	chart.getAxes().getVerticalAxis().setNumberFormat("0.0%");

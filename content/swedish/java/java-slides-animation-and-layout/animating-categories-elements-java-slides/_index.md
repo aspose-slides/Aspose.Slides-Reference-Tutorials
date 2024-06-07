@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- den här koden laddar vi en befintlig PowerPoint-presentation som innehåller diagrammet du vill animera. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
+ I den här koden laddar vi en befintlig PowerPoint-presentation som innehåller diagrammet du vill animera. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 
 ## Steg 3: Få en referens till diagramobjektet
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Skriv presentationsfilen till disk
+	// Skriv presentationsfilen till disk
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Ja, du kan använda liknande animationer på andra typer av diagram genom att ä
 
 ### Hur lär jag mig mer om Aspose.Slides för Java?
 
-För omfattande dokumentation och ytterligare resurser, besök[Aspose.Slides för Java API Referens](https://reference.aspose.com/slides/java/) . Du kan också ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
+ För omfattande dokumentation och ytterligare resurser, besök[Aspose.Slides för Java API Referens](https://reference.aspose.com/slides/java/) . Du kan också ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).

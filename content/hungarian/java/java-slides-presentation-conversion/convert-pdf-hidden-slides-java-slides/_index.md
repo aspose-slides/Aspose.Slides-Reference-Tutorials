@@ -101,7 +101,7 @@ Ebből az átfogó útmutatóból megtanulta, hogyan alakíthat át PowerPoint-p
 Ha el szeretne rejteni egy diát egy PowerPoint-prezentációban, kövesse az alábbi lépéseket:
 1. Válassza ki az elrejteni kívánt diát a Diarendező nézetben.
 2. Kattintson a jobb gombbal a kiválasztott diára.
-3. Válassza a "Dia elrejtése" lehetőséget a helyi menüből.
+3. A helyi menüből válassza a "Dia elrejtése" lehetőséget.
 
 ### Programozottan megjeleníthetem a rejtett diák elrejtését az Aspose.Slides for Java alkalmazásban?
 

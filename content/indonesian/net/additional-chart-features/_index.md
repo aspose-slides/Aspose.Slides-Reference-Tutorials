@@ -19,7 +19,7 @@ Aspose.Slides for .NET menawarkan banyak fitur bagan tambahan yang memungkinkan 
 - Pengikatan Data Dinamis: Pelajari cara mengikat diagram ke sumber data dinamis, memastikan diagram Anda mencerminkan informasi real-time dengan lancar.
 - Elemen Interaktif: Selami interaktivitas dengan menambahkan elemen interaktif ke bagan Anda, seperti keterangan alat dan label data, sehingga meningkatkan keterlibatan pengguna.
 - Gaya Kustom: Temukan teknik untuk menyesuaikan gaya bagan, warna, font, dan atribut visual lainnya agar sesuai dengan estetika presentasi Anda.
-- Garis Tren dan Bilah Kesalahan: Pahami cara memasukkan garis tren dan bilah kesalahan ke dalam bagan Anda, sehingga memberikan wawasan yang lebih mendalam tentang tren dan variabilitas data.
+- Garis Tren dan Bilah Kesalahan: Pahami cara menggabungkan garis tren dan bilah kesalahan ke dalam bagan Anda, sehingga memberikan wawasan yang lebih mendalam tentang tren dan variabilitas data.
 - Beberapa Sumbu: Jelajahi fleksibilitas beberapa sumbu dalam bagan, memungkinkan Anda menampilkan seri data berbeda dengan skala berbeda-beda pada satu bagan.
 - Templat Bagan: Pelajari cara membuat dan menerapkan templat bagan, menyederhanakan proses standarisasi bagan di seluruh presentasi.
 

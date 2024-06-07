@@ -45,7 +45,7 @@ Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pp
 
 ```java
 try {
-    // 프레젠테이션이 쓰기 금지되어 있는지 확인 중
+    //프레젠테이션이 쓰기 금지되어 있는지 확인 중
     if (presentation.getProtectionManager().isWriteProtected())
         // 쓰기 방지 제거
         presentation.getProtectionManager().removeWriteProtection();
@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 try
 {
-	// 프레젠테이션이 쓰기 금지되어 있는지 확인 중
+	//프레젠테이션이 쓰기 금지되어 있는지 확인 중
 	if (presentation.getProtectionManager().isWriteProtected())
 		// 쓰기 방지 제거
 		presentation.getProtectionManager().removeWriteProtection();

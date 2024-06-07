@@ -1,6 +1,6 @@
 ---
-title: Radardiagram skapa i Java Slides
-linktitle: Radardiagram skapa i Java Slides
+title: Skapa radardiagram i Java Slides
+linktitle: Skapa radardiagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar radardiagram i Java PowerPoint-presentationer med Aspose.Slides för Java API.
 type: docs
@@ -10,7 +10,7 @@ url: /sv/java/chart-creation/radar-chart-creating-java-slides/
 
 ## Introduktion till att skapa ett radardiagram i Java Slides
 
-I den här handledningen kommer vi att guida dig genom processen att skapa ett radardiagram med Aspose.Slides för Java API. Radardiagram är användbara för att visualisera data i ett cirkulärt mönster, vilket gör det lättare att jämföra flera dataserier. Vi kommer att tillhandahålla steg-för-steg-instruktioner tillsammans med Java-källkod.
+den här handledningen kommer vi att guida dig genom processen att skapa ett radardiagram med Aspose.Slides för Java API. Radardiagram är användbara för att visualisera data i ett cirkulärt mönster, vilket gör det lättare att jämföra flera dataserier. Vi kommer att tillhandahålla steg-för-steg-instruktioner tillsammans med Java-källkod.
 
 ## Förutsättningar
 
@@ -57,7 +57,7 @@ ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 4,
 ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 5, 0, "Category 9"));
 ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 6, 0, "Category 11"));
 
-// Lägger till nya serier
+// Lägger till ny serie
 ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
 ```
@@ -174,10 +174,10 @@ try
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 4, 0, "Caetegoty 7"));
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 5, 0, "Caetegoty 9"));
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 6, 0, "Caetegoty 11"));
-	// Lägger till nya serier
+	// Lägger till ny serie
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	// Fyller nu på seriedata
+	//Fyller nu på seriedata
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -267,4 +267,4 @@ Se "Steg 5" för att anpassa axeletiketter och formatering, inklusive teckenstor
 
 ### Hur sparar jag diagrammet i ett annat filformat?
 
- Du kan ändra utdataformatet genom att ändra filtillägget i`outPath` variabel och använder lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.
+ Du kan ändra utdataformatet genom att ändra filtillägget i`outPath` variabel och använda lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.

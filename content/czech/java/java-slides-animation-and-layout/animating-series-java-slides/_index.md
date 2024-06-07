@@ -26,7 +26,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 ```java
 // Cesta k adresáři dokumentů.
 String dataDir = "Your Document Directory";
-//Instantiate Prezentační třída, která představuje soubor prezentace
+// Instantiate Prezentační třída, která představuje soubor prezentace
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Cesta k adresáři dokumentů.
 String dataDir = "Your Document Directory";
-//Instantiate Prezentační třída, která představuje soubor prezentace
+// Instantiate Prezentační třída, která představuje soubor prezentace
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ finally
 
 ### Jak mohu ovládat pořadí animací série?
 
- Chcete-li ovládat pořadí animací série, použijte`EffectTriggerType.AfterPrevious` parametr při přidávání efektů. To způsobí, že každá animace série začne poté, co skončí předchozí.
+ Chcete-li ovládat pořadí animací série, použijte`EffectTriggerType.AfterPrevious`parametr při přidávání efektů. To způsobí, že každá animace série začne poté, co skončí předchozí.
 
 ### Mohu na každou sérii použít různé animace?
 

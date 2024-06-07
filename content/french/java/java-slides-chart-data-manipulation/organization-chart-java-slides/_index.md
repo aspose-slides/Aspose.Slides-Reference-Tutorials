@@ -22,7 +22,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 ## Étape 1 : Configurez votre projet Java
 
 1. Créez un nouveau projet Java dans votre IDE préféré.
-2.  Ajoutez la bibliothèque Aspose.Slides pour Java à votre projet. Vous pouvez télécharger la bibliothèque à partir du[Site Aspose](https://products.aspose.com/slides/java) et incluez-le comme dépendance.
+2.  Ajoutez la bibliothèque Aspose.Slides pour Java à votre projet. Vous pouvez télécharger la bibliothèque à partir du[Site Aspose](https://products.aspose.com/slides/java)et incluez-le comme dépendance.
 
 ## Étape 2 : Importer les bibliothèques requises
 Dans votre classe Java, importez les bibliothèques nécessaires pour travailler avec Aspose.Slides :
@@ -59,7 +59,7 @@ try {
 }
 ```
 
- Remplacer`"Your Document Directory"`avec le chemin réel vers votre répertoire de documents et`"test.pptx"` avec le nom de votre présentation PowerPoint d’entrée.
+ Remplacer`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents et`"test.pptx"` avec le nom de votre présentation PowerPoint d’entrée.
 
 ## Étape 4 : Exécutez le code
 
@@ -84,7 +84,7 @@ finally
 
 ## Conclusion
 
-Dans ce didacticiel, vous avez appris à créer un organigramme dans Java Slides à l'aide de l'API Aspose.Slides pour Java. Vous pouvez personnaliser l'apparence et le contenu de l'organigramme en fonction de vos besoins spécifiques. Aspose.Slides offre un large éventail de fonctionnalités pour travailler avec des présentations PowerPoint, ce qui en fait un outil puissant pour gérer et créer du contenu visuel.
+Dans ce didacticiel, vous avez appris à créer un organigramme dans Java Slides à l'aide de l'API Aspose.Slides pour Java. Vous pouvez personnaliser l'apparence et le contenu de l'organigramme en fonction de vos besoins spécifiques. Aspose.Slides offre une large gamme de fonctionnalités pour travailler avec des présentations PowerPoint, ce qui en fait un outil puissant pour gérer et créer du contenu visuel.
 
 ## FAQ
 

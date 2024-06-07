@@ -23,7 +23,7 @@ Para começar, você precisa ter o Aspose.Slides for .NET instalado. Se ainda n�
 
 ### 2. Ambiente de Desenvolvimento
 
-Certifique-se de ter um ambiente de desenvolvimento configurado, como o Visual Studio, onde você possa escrever e executar código .NET.
+Certifique-se de ter um ambiente de desenvolvimento configurado, como o Visual Studio, onde você pode escrever e executar código .NET.
 
 Agora que você tem os pré-requisitos em ordem, vamos mergulhar no processo de adição de efeitos de transição de slides à sua apresentação.
 

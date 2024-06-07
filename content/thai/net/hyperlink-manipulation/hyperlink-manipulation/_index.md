@@ -117,7 +117,7 @@ Aspose.Slides สำหรับ .NET นำเสนอคุณสมบัต
 อย่างแน่นอน. Aspose.Slides รองรับรูปแบบ PowerPoint ที่หลากหลาย รวมถึง PPT, PPTX, PPS และอื่นๆ ช่วยให้มั่นใจได้ถึงความเข้ากันได้กับ Microsoft PowerPoint เวอร์ชันต่างๆ
 
 ### ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Slides ได้ที่ไหน
-สำหรับเอกสารเชิงลึกและการสนับสนุนชุมชน โปรดไปที่[เอกสาร Aspose.Slides](https://reference.aspose.com/slides/net/) และ[กำหนดฟอรั่มการสนับสนุน](https://forum.aspose.com/).
+ สำหรับเอกสารเชิงลึกและการสนับสนุนชุมชน โปรดไปที่[เอกสาร Aspose.Slides](https://reference.aspose.com/slides/net/) และ[กำหนดฟอรั่มการสนับสนุน](https://forum.aspose.com/).
 
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร
  หากคุณต้องการใบอนุญาตชั่วคราวสำหรับ Aspose.Slides คุณสามารถขอรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).

@@ -8,7 +8,7 @@ weight: 11
 url: /es/net/audio-and-video-extraction/extract-audio/
 ---
 
-En el mundo de las presentaciones, agregar audio a las diapositivas puede mejorar el impacto y la participación general. Aspose.Slides para .NET proporciona un poderoso conjunto de herramientas para trabajar con presentaciones y, en este tutorial, exploraremos cómo extraer audio de una diapositiva en una guía paso a paso. Si usted es un desarrollador que busca automatizar este proceso o simplemente está interesado en comprender cómo se hace, este tutorial lo guiará a través del proceso.
+En el mundo de las presentaciones, agregar audio a las diapositivas puede mejorar el impacto y la participación generales. Aspose.Slides para .NET proporciona un potente conjunto de herramientas para trabajar con presentaciones y, en este tutorial, exploraremos cómo extraer audio de una diapositiva en una guía paso a paso. Si usted es un desarrollador que busca automatizar este proceso o simplemente está interesado en comprender cómo se hace, este tutorial lo guiará a través del proceso.
 
 ## Requisitos previos
 

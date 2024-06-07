@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Il tuo codice per la manipolazione delle diapositive andrà qui
+    //Il tuo codice per la manipolazione delle diapositive andrà qui
 }
 ```
 

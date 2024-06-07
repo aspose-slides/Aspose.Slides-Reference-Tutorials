@@ -2,21 +2,21 @@
 title: プレゼンテーションで差し込み印刷を実行する
 linktitle: プレゼンテーションで差し込み印刷を実行する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
-description: このステップバイステップ ガイドでは、Aspose.Slides for .NET を使用したプレゼンテーションでの差し込み印刷について学習します。ダイナミックでパーソナライズされたプレゼンテーションを簡単に作成できます。
+description: このステップバイステップ ガイドでは、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を行う方法を学習します。ダイナミックでパーソナライズされたプレゼンテーションを簡単に作成できます。
 type: docs
 weight: 21
 url: /ja/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
 ## 導入
-.NET 開発の世界では、動的でパーソナライズされたプレゼンテーションを作成することが一般的な要件です。このプロセスを簡素化する強力なツールの 1 つは、Aspose.Slides for .NET です。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を実行するという興味深い領域を掘り下げていきます。
+.NET 開発の世界では、動的でパーソナライズされたプレゼンテーションを作成することが一般的な要件です。このプロセスを簡素化する強力なツールの 1 つが Aspose.Slides for .NET です。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を実行するという魅力的な領域について詳しく説明します。
 ## 前提条件
-この作業を開始する前に、次の前提条件が満たされていることを確認してください。
-- Aspose.Slides for .NET ライブラリ: Aspose.Slides for .NET ライブラリがインストールされていることを確認します。からダウンロードできます[ここ](https://releases.aspose.com/slides/net/).
-- ドキュメント テンプレート: 差し込み印刷のベースとして機能するプレゼンテーション テンプレート (例: PresentationTemplate.pptx) を準備します。
-- データ ソース: 差し込み印刷用のデータ ソースが必要です。この例では XML データ (TestData.xml) を使用しますが、Aspose.Slides は RDBMS などのさまざまなデータ ソースをサポートしています。
-ここで、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を実行する手順を詳しく見てみましょう。
+この旅を始める前に、次の前提条件が満たされていることを確認してください。
+- Aspose.Slides for .NET ライブラリ: Aspose.Slides for .NET ライブラリがインストールされていることを確認してください。次の場所からダウンロードできます。[ここ](https://releases.aspose.com/slides/net/).
+- ドキュメント テンプレート: 差し込み印刷のベースとなるプレゼンテーション テンプレート (例: PresentationTemplate.pptx) を準備します。
+- データ ソース: 差し込み印刷にはデータ ソースが必要です。この例では XML データ (TestData.xml) を使用しますが、Aspose.Slides は RDBMS などのさまざまなデータ ソースをサポートしています。
+それでは、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を実行する手順について詳しく見ていきましょう。
 ## 名前空間のインポート
-まず、Aspose.Slides が提供する機能を利用するために必要な名前空間をインポートしていることを確認します。
+まず、Aspose.Slides が提供する機能を活用するために必要な名前空間をインポートしていることを確認します。
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -32,7 +32,7 @@ using Aspose.Slides.Examples.CSharp;
 using Aspose.Slides.Export;
 using DataTable = System.Data.DataTable;
 ```
-## ステップ 1: ドキュメント ディレクトリを設定する
+## ステップ1: ドキュメントディレクトリを設定する
 ```csharp
 string dataDir = "Your Document Directory";
 string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
@@ -41,7 +41,7 @@ string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
 if (!Directory.Exists(resultPath))
     Directory.CreateDirectory(resultPath);
 ```
-## ステップ 2: XML データを使用して DataSet を作成する
+## ステップ 2: XML データを使用してデータセットを作成する
 ```csharp
 using (DataSet dataSet = new DataSet())
 {
@@ -51,25 +51,25 @@ using (DataSet dataSet = new DataSet())
     DataTable staffListTable = dataTables["StaffList"];
     DataTable planFactTable = dataTables["Plan_Fact"];
 ```
-## ステップ 3: レコードをループして個別のプレゼンテーションを作成する
+## ステップ3: レコードをループして個別のプレゼンテーションを作成する
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
-    //結果（個別）プレゼンテーション名を作成します
+    //結果（個人）プレゼンテーション名の作成
     string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
-    //プレゼンテーションテンプレートをロードする
+    //プレゼンテーションテンプレートを読み込む
     using (Presentation pres = new Presentation(presTemplatePath))
     {
-        //テキスト ボックスにメイン テーブルのデータを入力します。
+        //メインテーブルのデータをテキストボックスに入力します
         ((AutoShape)pres.Slides[0].Shapes[0]).TextFrame.Text = "Chief of the department - " + userRow["Name"];
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
         //データベースから画像を取得する
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-        //プレゼンテーションの図枠に画像を挿入する
+        //プレゼンテーションのピクチャフレームに画像を挿入する
         IPPImage image = pres.Images.AddImage(bytes);
         IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
         pf.PictureFormat.Picture.Image.ReplaceImage(image);
-        //データを入力するためのテキスト フレームを取得して準備します。
+        //テキストフレームを取得して準備し、データを入力します
         IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
         ITextFrame textFrame = list.TextFrame;
         textFrame.Paragraphs.Clear();
@@ -78,13 +78,13 @@ foreach (DataRow userRow in usersTable.Rows)
         textFrame.Paragraphs.Add(para);
         //スタッフデータを入力する
         FillStaffList(textFrame, userRow, staffListTable);
-        //計画の事実データを入力します
+        //プランの事実データを記入
         FillPlanFact(pres, userRow, planFactTable);
         pres.Save(presPath, SaveFormat.Pptx);
     }
 }
 ```
-## ステップ 4: テキスト フレームにリストとしてデータを入力する
+## ステップ4: テキストフレームにリストとしてデータを入力する
 ```csharp
 static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staffListTable)
 {
@@ -105,7 +105,7 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
     }
 }
 ```
-## ステップ 5: セカンダリ PlanFact テーブルからデータ チャートを入力する
+## ステップ5: セカンダリPlanFactテーブルからデータチャートを入力する
 ```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
@@ -116,7 +116,7 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     string range = chart.ChartData.GetRange();
     IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
     int worksheetIndex = 0;
-    //線系列のデータ ポイントを追加する
+    //線シリーズのデータポイントを追加する
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries
 (cellsFactory.GetCell(worksheetIndex, 1, 1, double.Parse(selRows[0]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
@@ -136,17 +136,17 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-これらの手順は、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を実行するための包括的なガイドを示しています。ここで、よくある質問に答えてみましょう。
+これらの手順は、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を実行するための包括的なガイドを示しています。次に、よくある質問にお答えします。
 ## よくある質問
 ### 1. Aspose.Slides for .NET はさまざまなデータ ソースと互換性がありますか?
-はい、Aspose.Slides for .NET は、XML、RDBMS などを含むさまざまなデータ ソースをサポートしています。
+はい、Aspose.Slides for .NET は、XML、RDBMS など、さまざまなデータ ソースをサポートしています。
 ### 2. 生成されたプレゼンテーションの箇条書きの外観をカスタマイズできますか?
-確かに！に示すように、箇条書きの外観を完全に制御できます。`FillStaffList`方法。
-### 3. Aspose.Slides for .NET を使用してどのような種類のグラフを作成できますか?
-Aspose.Slides for .NET は、この例で示した折れ線グラフ、棒グラフ、円グラフなどを含む幅広いグラフをサポートしています。
-### 4. Aspose.Slides for .NET に関するサポートやサポートを受けるにはどうすればよいですか?
-サポートと支援が必要な場合は、次のサイトにアクセスしてください。[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
-### 5. 購入する前に Aspose.Slides for .NET を試すことはできますか?
-確かに！ Aspose.Slides for .NET の無料トライアルは、次のサイトから利用できます。[ここ](https://releases.aspose.com/).
+もちろんです！箇条書きの外観は、次の図で示されているように、完全に制御できます。`FillStaffList`方法。
+### 3. Aspose.Slides for .NET を使用して作成できるグラフの種類は何ですか?
+Aspose.Slides for .NET は、例に示すような折れ線グラフ、棒グラフ、円グラフなど、さまざまなグラフをサポートしています。
+### 4. Aspose.Slides for .NET に関するサポートを受けたり、支援を求めたりするにはどうすればよいですか?
+サポートと支援については、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+### 5. 購入前に Aspose.Slides for .NET を試すことはできますか?
+もちろんです！Aspose.Slides for .NETの無料トライアルは、[ここ](https://releases.aspose.com/).
 ## 結論
-このチュートリアルでは、プレゼンテーションで差し込み印刷を実行する際の Aspose.Slides for .NET の魅力的な機能を調べました。ステップバイステップのガイドに従うことで、ダイナミックでパーソナライズされたプレゼンテーションを簡単に作成できます。 Aspose.Slides を使用して .NET 開発エクスペリエンスを向上させ、シームレスなプレゼンテーションを生成します。
+このチュートリアルでは、プレゼンテーションで差し込み印刷を実行する Aspose.Slides for .NET の優れた機能について説明しました。ステップ バイ ステップ ガイドに従うことで、ダイナミックでパーソナライズされたプレゼンテーションを簡単に作成できます。シームレスなプレゼンテーション生成を実現する Aspose.Slides で、.NET 開発エクスペリエンスを向上させましょう。

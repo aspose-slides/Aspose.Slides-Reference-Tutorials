@@ -55,7 +55,7 @@ trendLineExp.setDisplayRSquaredValue(false);
 
 ## Etapa 3: adicionar linha de tendência linear
 
-A seguir, adicionaremos uma linha de tendência linear à nossa série de gráficos:
+seguir, adicionaremos uma linha de tendência linear à nossa série de gráficos:
 
 ```java
 // Adicionando linha de tendência linear para a série de gráficos 1
@@ -173,11 +173,11 @@ Neste tutorial, aprendemos como adicionar diferentes tipos de linhas de tendênc
 
 ### Como altero a cor de uma linha de tendência em Aspose.Slides for Java?
 
-Para alterar a cor de uma linha de tendência, você pode usar o`getSolidFillColor().setColor(Color)` método, conforme mostrado no exemplo para adicionar uma linha de tendência linear.
+ Para alterar a cor de uma linha de tendência, você pode usar o`getSolidFillColor().setColor(Color)` método, conforme mostrado no exemplo para adicionar uma linha de tendência linear.
 
 ### Posso adicionar múltiplas linhas de tendência a uma única série de gráficos?
 
- Sim, você pode adicionar várias linhas de tendência a uma única série de gráficos. Basta ligar para o`getTrendLines().add()` método para cada linha de tendência que você deseja adicionar.
+Sim, você pode adicionar várias linhas de tendência a uma única série de gráficos. Basta ligar para o`getTrendLines().add()` método para cada linha de tendência que você deseja adicionar.
 
 ### Como faço para remover uma linha de tendência de um gráfico em Aspose.Slides for Java?
 

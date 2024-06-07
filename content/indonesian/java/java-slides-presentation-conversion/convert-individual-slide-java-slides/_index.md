@@ -27,7 +27,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
 ## Langkah 2: Impor Kelas yang Diperlukan
 
-Di kelas Java Anda, impor kelas yang diperlukan dan atur konfigurasi awal.
+Di kelas Java Anda, impor kelas yang diperlukan dan siapkan konfigurasi awal.
 
 ```java
 import com.aspose.slides.HtmlOptions;

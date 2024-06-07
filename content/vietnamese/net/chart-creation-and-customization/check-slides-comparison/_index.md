@@ -142,4 +142,4 @@ Bạn có thể xuất báo cáo so sánh sang các định dạng như PDF, DOC
 
 ### Có phương pháp hay nhất nào để tối ưu hóa hiệu suất so sánh bản trình bày không?
 
-Có, việc triển khai các thuật toán hiệu quả và quản lý mức sử dụng bộ nhớ là chìa khóa để tối ưu hóa hiệu suất so sánh bản trình bày.
+Có, việc triển khai các thuật toán hiệu quả và quản lý việc sử dụng bộ nhớ là chìa khóa để tối ưu hóa hiệu suất so sánh bản trình bày.

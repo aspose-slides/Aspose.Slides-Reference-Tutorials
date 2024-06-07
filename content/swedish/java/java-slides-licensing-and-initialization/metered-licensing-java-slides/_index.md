@@ -71,7 +71,7 @@ try
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Visa information
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// Få uppmätt datamängd efter att ha anropat API
+	//Få uppmätt datamängd efter att ha anropat API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Visa information
 	System.out.println("Amount Consumed After: " + amountafter);

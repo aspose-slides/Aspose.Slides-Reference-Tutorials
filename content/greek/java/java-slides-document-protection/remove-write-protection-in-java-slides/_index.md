@@ -45,7 +45,7 @@ Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pp
 
 ```java
 try {
-    // Έλεγχος εάν η παρουσίαση προστατεύεται από εγγραφή
+    //Έλεγχος εάν η παρουσίαση προστατεύεται από εγγραφή
     if (presentation.getProtectionManager().isWriteProtected())
         // Κατάργηση της προστασίας εγγραφής
         presentation.getProtectionManager().removeWriteProtection();
@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 try
 {
-	// Έλεγχος εάν η παρουσίαση προστατεύεται από εγγραφή
+	//Έλεγχος εάν η παρουσίαση προστατεύεται από εγγραφή
 	if (presentation.getProtectionManager().isWriteProtected())
 		// Κατάργηση της προστασίας εγγραφής
 		presentation.getProtectionManager().removeWriteProtection();

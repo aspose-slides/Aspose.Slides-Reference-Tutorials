@@ -114,7 +114,7 @@ ITrendline tredLinePower = chart.ChartData.Series[1].TrendLines.Add(TrendlineTyp
 tredLinePower.Backward = 1;
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Miután hozzáadta a trendvonalakat a diagramhoz, mentse a bemutatót.
 

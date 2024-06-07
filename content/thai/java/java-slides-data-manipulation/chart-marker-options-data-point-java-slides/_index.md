@@ -73,9 +73,9 @@ point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
 
 // ทำซ้ำสำหรับจุดข้อมูลอื่นๆ
-// ...
+// -
 
-//การเปลี่ยนขนาดเครื่องหมายชุดแผนภูมิ
+// การเปลี่ยนขนาดเครื่องหมายชุดแผนภูมิ
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 ### ฉันสามารถใช้รูปภาพเป็นเครื่องหมายแบบกำหนดเองได้หรือไม่
 
-ได้ คุณสามารถใช้รูปภาพเป็นเครื่องหมายที่กำหนดเองสำหรับจุดข้อมูลได้ ตั้งค่าประเภทการเติมเป็น`FillType.Picture` และระบุรูปภาพที่คุณต้องการใช้
+ ได้ คุณสามารถใช้รูปภาพเป็นเครื่องหมายที่กำหนดเองสำหรับจุดข้อมูลได้ ตั้งค่าประเภทการเติมเป็น`FillType.Picture`และระบุรูปภาพที่คุณต้องการใช้
 
 ### Aspose.Slides สำหรับ Java เหมาะสำหรับการสร้างแผนภูมิแบบไดนามิกหรือไม่
 

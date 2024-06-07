@@ -64,7 +64,7 @@ presentation.Save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 
 В этом уроке мы рассмотрели шаги по удалению заметок из определенного слайда в презентации PowerPoint с помощью Aspose.Slides для .NET. С помощью правильных инструментов и нескольких строк кода вы можете эффективно автоматизировать эту задачу.
 
- Если у вас есть какие-либо вопросы или возникли какие-либо проблемы, не стесняйтесь посетить[Документация Aspose.Slides](https://reference.aspose.com/slides/net/) или обратитесь за помощью в[Форум Aspose.Slides](https://forum.aspose.com/).
+ Если у вас есть какие-либо вопросы или возникли какие-либо проблемы, не стесняйтесь посетить[Документация Aspose.Slides](https://reference.aspose.com/slides/net/) или обратиться за помощью в[Форум Aspose.Slides](https://forum.aspose.com/).
 
 ## Часто задаваемые вопросы (FAQ)
 

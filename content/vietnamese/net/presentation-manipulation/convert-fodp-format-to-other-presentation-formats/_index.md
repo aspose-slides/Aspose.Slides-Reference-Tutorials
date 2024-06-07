@@ -74,7 +74,7 @@ Chúc mừng! Bạn đã chuyển đổi thành công tệp định dạng FODP 
 
 ### 3. Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Slides cho .NET?
 
-Nếu bạn cần giấy phép tạm thời, bạn có thể lấy giấy phép từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+ Nếu bạn cần giấy phép tạm thời, bạn có thể lấy giấy phép từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Những định dạng trình chiếu nào được hỗ trợ chuyển đổi?
 

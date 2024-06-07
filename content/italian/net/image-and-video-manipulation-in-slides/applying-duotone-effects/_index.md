@@ -77,7 +77,7 @@ Sì, puoi applicare effetti bicromia a diapositive specifiche modificando il cod
 Aspose.Slides offre una gamma di effetti di trasformazione delle immagini, tra cui scala di grigi, seppia e altro. Controlla la documentazione per i dettagli.
 ### Aspose.Slides è compatibile con l'ultimo framework .NET?
 Sì, Aspose.Slides viene regolarmente aggiornato per garantire la compatibilità con le ultime versioni di .NET framework.
-### Posso personalizzare ulteriormente lo schema di colori bicromia?
+### Posso personalizzare ulteriormente la combinazione di colori bicromia?
 Assolutamente. Esplora la documentazione di Aspose.Slides per opzioni di personalizzazione avanzate.
 ### È disponibile una versione di prova per Aspose.Slides?
  Sì, puoi scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).

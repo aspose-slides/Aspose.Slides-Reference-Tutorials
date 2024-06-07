@@ -136,14 +136,14 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-Estos pasos demuestran una guía completa sobre cómo realizar combinación de correspondencia en presentaciones utilizando Aspose.Slides para .NET. Ahora, abordemos algunas preguntas frecuentes.
+Estos pasos demuestran una guía completa sobre cómo realizar combinación de correspondencia en presentaciones usando Aspose.Slides para .NET. Ahora, abordemos algunas preguntas frecuentes.
 ## Preguntas frecuentes
 ### 1. ¿Aspose.Slides para .NET es compatible con diferentes fuentes de datos?
 Sí, Aspose.Slides para .NET admite varias fuentes de datos, incluidos XML, RDBMS y más.
 ### 2. ¿Puedo personalizar la apariencia de las viñetas en la presentación generada?
  ¡Ciertamente! Tienes control total sobre la apariencia de las viñetas, como se demuestra en el`FillStaffList` método.
 ### 3. ¿Qué tipos de gráficos puedo crear usando Aspose.Slides para .NET?
-Aspose.Slides para .NET admite una amplia gama de gráficos, incluidos gráficos de líneas como se muestra en nuestro ejemplo, gráficos de barras, gráficos circulares y más.
+Aspose.Slides para .NET admite una amplia gama de gráficos, incluidos gráficos de líneas, como se muestra en nuestro ejemplo, gráficos de barras, gráficos circulares y más.
 ### 4. ¿Cómo obtengo soporte o busco ayuda con Aspose.Slides para .NET?
  Para soporte y asistencia, puede visitar el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. ¿Puedo probar Aspose.Slides para .NET antes de comprarlo?

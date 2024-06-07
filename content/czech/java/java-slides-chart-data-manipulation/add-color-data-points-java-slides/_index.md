@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 V tomto kroku přizpůsobíme konkrétní datové body. Zde měníme barvu datových bodů a konfigurujeme nastavení štítků.
 
 ```java
-// Přizpůsobit datový bod 0
+//Přizpůsobit datový bod 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -108,7 +108,7 @@ V tomto tutoriálu jste se naučili, jak přidat barvu do datových bodů na sn�
 
 ### Jak mohu změnit barvu jiných datových bodů?
 
-Chcete-li změnit barvu ostatních datových bodů, můžete postupovat podobným způsobem, jak je uvedeno v kroku 4. Otevřete datový bod, který chcete upravit, a upravte jeho nastavení barev a štítků.
+Chcete-li změnit barvu jiných datových bodů, můžete použít podobný postup, jak je znázorněno v kroku 4. Otevřete datový bod, který chcete upravit, a upravte jeho nastavení barev a štítků.
 
 ### Mohu přizpůsobit další aspekty grafu?
 
@@ -116,4 +116,4 @@ Chcete-li změnit barvu ostatních datových bodů, můžete postupovat podobný
 
 ### Kde najdu další příklady a dokumentaci?
 
- Další příklady a podrobnou dokumentaci k používání Aspose.Slides pro Javu naleznete na[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/) webová stránka.
+Další příklady a podrobnou dokumentaci k používání Aspose.Slides pro Javu naleznete na[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/) webová stránka.

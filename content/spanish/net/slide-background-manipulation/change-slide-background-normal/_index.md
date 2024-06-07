@@ -74,7 +74,7 @@ Ahora, ha cambiado con éxito el fondo de una diapositiva en su presentación us
 
 ## Conclusión
 
-Aspose.Slides para .NET proporciona una amplia gama de capacidades para manipular presentaciones de PowerPoint mediante programación. En este tutorial, nos centramos en cambiar el fondo de una diapositiva, pero es sólo una de las muchas características que ofrece esta biblioteca. Experimente con diferentes fondos y colores para que sus presentaciones sean más atractivas y efectivas.
+Aspose.Slides para .NET proporciona una amplia gama de capacidades para manipular presentaciones de PowerPoint mediante programación. En este tutorial, nos centramos en cambiar el fondo de una diapositiva, pero es sólo una de las muchas funciones que ofrece esta biblioteca. Experimente con diferentes fondos y colores para que sus presentaciones sean más atractivas y efectivas.
 
  Si tiene alguna pregunta o encuentra algún problema, no dude en comunicarse con la comunidad Aspose.Slides en su[Foro de soporte](https://forum.aspose.com/). Siempre están listos para ayudarte.
 

@@ -36,7 +36,7 @@ using (Presentation presentation = new Presentation())
     // Здесь находится ваш код для презентации
 }
 ```
-## Шаг 3. Доступ и добавление фигур
+## Шаг 3: Доступ и добавление фигур
 Откройте коллекцию фигур для выбранного слайда и добавьте необходимые фигуры:
 ```csharp
 IShapeCollection shapes = presentation.Slides[0].Shapes;

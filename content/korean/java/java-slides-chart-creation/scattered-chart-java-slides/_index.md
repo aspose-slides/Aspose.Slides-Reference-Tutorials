@@ -56,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0
 // 기본 차트 데이터 워크시트 색인 가져오기
 int defaultWorksheetIndex = 0;
 
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // 데모 시리즈 삭제
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // 기본 차트 데이터 워크시트 색인 가져오기
 int defaultWorksheetIndex = 0;
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // 데모 시리즈 삭제
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // 새 포인트 추가(3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//새 포인트 추가(2:2)
+// 새 포인트 추가(2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // 새 포인트 추가(5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### 차트 유형을 어떻게 변경할 수 있나요?
 
- 차트 유형을 변경하려면`setType` 차트 시리즈에 메소드를 적용하고 원하는 차트 유형을 제공합니다. 예를 들어,`series.setType(ChartType.Line)` 계열을 꺾은선형 차트로 변경합니다.
+ 차트 유형을 변경하려면`setType`차트 시리즈에 메소드를 적용하고 원하는 차트 유형을 제공합니다. 예를 들어,`series.setType(ChartType.Line)` 계열을 꺾은선형 차트로 변경합니다.
 
 ### 마커 크기와 스타일을 어떻게 사용자 정의합니까?
 

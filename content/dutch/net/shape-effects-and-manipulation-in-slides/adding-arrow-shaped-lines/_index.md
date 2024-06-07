@@ -74,7 +74,7 @@ Ja, Aspose.Slides ondersteunt .NET Core, waardoor u de functies ervan kunt gebru
 ### Kan ik de pijlpuntstijlen verder aanpassen?
 Absoluut! Aspose.Slides biedt uitgebreide opties voor het aanpassen van pijlpuntlengtes, stijlen en meer.
 ### Waar kan ik aanvullende Aspose.Slides-documentatie vinden?
- Verken de documentatie[hier](https://reference.aspose.com/slides/net/) voor uitgebreide informatie en voorbeelden.
+ Verken de documentatie[hier](https://reference.aspose.com/slides/net/)voor uitgebreide informatie en voorbeelden.
 ### Is er een gratis proefversie beschikbaar?
  Ja, je kunt Aspose.Slides ervaren met een gratis proefperiode. Download het[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides?

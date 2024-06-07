@@ -1,5 +1,5 @@
 ---
-title: 使用 Aspose.Slides for .NET 嵌入視訊幀教程
+title: 使用 Aspose.Slides for .NET 嵌入視訊幀教學
 linktitle: 使用 Aspose.Slides 在簡報幻燈片中新增來自 Web 來源的視訊幀
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將影片畫面無縫嵌入 PowerPoint 投影片中。輕鬆利用多媒體增強簡報。

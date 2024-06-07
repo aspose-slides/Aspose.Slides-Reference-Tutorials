@@ -64,7 +64,7 @@ chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Category 4"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A5", "Category 5"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 6"));
 
-// Добавьте точки данных для серии воронкообразных диаграмм.
+// Добавьте точки данных для серии «Воронкообразная диаграмма».
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Funnel);
 series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B1", 50));
 series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B2", 100));
@@ -118,7 +118,7 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ```
 ## Заключение
 
-В этом пошаговом руководстве мы продемонстрировали, как создать диаграмму-воронку в презентации PowerPoint с помощью Aspose.Slides для Java. Диаграммы-воронки — ценный инструмент для визуализации данных, которые следуют шаблону прогрессии или сужения, что позволяет легко и эффективно передавать информацию. 
+В этом пошаговом руководстве мы продемонстрировали, как создать диаграмму-воронку в презентации PowerPoint с помощью Aspose.Slides для Java. Диаграммы-воронки — это ценный инструмент для визуализации данных, которые следуют шаблону прогрессии или сужения, что позволяет легко и эффективно передавать информацию. 
 
 ## Часто задаваемые вопросы
 

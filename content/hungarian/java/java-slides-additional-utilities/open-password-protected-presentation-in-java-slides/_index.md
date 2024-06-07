@@ -16,13 +16,13 @@ Ebből az oktatóanyagból megtudhatja, hogyan lehet jelszóval védett prezent�
 
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 
-1.  Aspose.Slides for Java Library: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Slides for Java könyvtárat. Beszerezheti a[Aspose honlapja](https://products.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Slides for Java könyvtárat. Beszerezheti a[Aspose honlapja](https://products.aspose.com/slides/java/).
 
 2.  Java fejlesztői környezet: Ha még nem tette meg, állítson be egy Java fejlesztői környezetet a rendszerén. A Java letölthető a[Oracle webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## 1. lépés: Importálja az Aspose.Slides könyvtárat
 
-kezdéshez importálnia kell az Aspose.Slides könyvtárat a Java-projektbe. A következőképpen teheti meg:
+A kezdéshez importálnia kell az Aspose.Slides könyvtárat a Java-projektbe. A következőképpen teheti meg:
 
 ```java
 import com.aspose.slides.LoadOptions;
@@ -43,13 +43,13 @@ loadOptions.setPassword("pass"); // Cserélje ki a „pass” szót a bemutató 
 
 ## 3. lépés: Nyissa meg a prezentációt
 
- Most megnyitja a jelszóval védett bemutatót a`Presentation` osztályú konstruktor, amely a fájl elérési útját és a betöltési beállításokat veszi paraméterként.
+ Most megnyitja a jelszóval védett bemutatót a`Presentation`osztályú konstruktor, amely a fájl elérési útját és a betöltési beállításokat veszi paraméterként.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
 ```
 
- Győződjön meg róla, hogy cseréli`"OpenPasswordPresentation.pptx"` a jelszóval védett bemutatófájl tényleges nevével.
+ Győződjön meg róla, hogy kicserélte`"OpenPasswordPresentation.pptx"` a jelszóval védett bemutatófájl tényleges nevével.
 
 ## 4. lépés: Hozzáférés a prezentációs adatokhoz
 
@@ -64,7 +64,7 @@ try {
 }
 ```
 
- Ügyeljen arra, hogy a kódot tartalmazza a`try` blokkolja az esetleges kivételek kezeléséhez, és annak biztosításához, hogy a prezentációs objektumot megfelelően selejtezze a`finally` Blokk.
+ Ügyeljen arra, hogy a kódot tartalmazza a`try` blokkolja az esetleges kivételek kezelését, és biztosítsa, hogy a prezentációs objektumot megfelelően selejtezze a`finally` Blokk.
 
 ## Teljes forráskód a Java Slides nyílt, jelszóval védett prezentációjához
 
@@ -96,7 +96,7 @@ Ebben az oktatóanyagban megtanulta, hogyan lehet jelszóval védett prezentáci
 
 ### Hogyan állíthatom be a jelszót egy prezentációhoz?
 
- prezentáció jelszavának beállításához használja a`loadOptions.setPassword("password")` módszer, hol`"password"` le kell cserélni a kívánt jelszóra.
+ A prezentáció jelszavának beállításához használja a`loadOptions.setPassword("password")` módszer, hol`"password"` le kell cserélni a kívánt jelszóra.
 
 ### Megnyithatok prezentációkat különböző formátumokkal, például PPT és PPTX?
 

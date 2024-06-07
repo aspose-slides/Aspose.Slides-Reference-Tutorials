@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- ในโค้ดด้านบน ให้แทนที่`"Your Document Directory"`ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณและ`"Hyperlink.pptx"` ด้วยชื่อไฟล์งานนำเสนอ PowerPoint ของคุณ
+ ในโค้ดด้านบน ให้แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณและ`"Hyperlink.pptx"` ด้วยชื่อไฟล์งานนำเสนอ PowerPoint ของคุณ
 
 ## ขั้นตอนที่ 3: ลบไฮเปอร์ลิงก์
 
@@ -66,7 +66,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ในบทช่วยสอนนี้ เราได้อธิบายขั้นตอนการลบไฮเปอร์ลิงก์ออกจากงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET ด้วยขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน คุณก็สามารถมั่นใจได้ว่าสไลด์ของคุณดูเป็นมืออาชีพและไม่เกะกะ Aspose.Slides สำหรับ .NET ช่วยลดความยุ่งยากในการทำงานกับงานนำเสนอ PowerPoint โดยมอบเครื่องมือที่คุณต้องการสำหรับการจัดการที่มีประสิทธิภาพและแม่นยำ
 
-หากคุณพบว่าคู่มือนี้มีประโยชน์ คุณสามารถสำรวจคุณสมบัติและความสามารถเพิ่มเติมของ Aspose.Slides สำหรับ .NET ได้ในเอกสารประกอบ[ที่นี่](https://reference.aspose.com/slides/net/) . คุณยังสามารถดาวน์โหลดห้องสมุดได้จาก[ลิงค์นี้](https://releases.aspose.com/slides/net/) และซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy) ถ้าคุณยังไม่ได้ สำหรับผู้ที่ต้องการทดลองใช้ก่อนสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/) และสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+หากคุณพบว่าคู่มือนี้มีประโยชน์ คุณสามารถสำรวจคุณสมบัติและความสามารถเพิ่มเติมของ Aspose.Slides สำหรับ .NET ได้ในเอกสารประกอบ[ที่นี่](https://reference.aspose.com/slides/net/) - คุณยังสามารถดาวน์โหลดห้องสมุดได้จาก[ลิงค์นี้](https://releases.aspose.com/slides/net/) และซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy) ถ้าคุณยังไม่ได้ สำหรับผู้ที่ต้องการทดลองใช้ก่อนสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/) และสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 
 ## คำถามที่พบบ่อย (FAQ)
 

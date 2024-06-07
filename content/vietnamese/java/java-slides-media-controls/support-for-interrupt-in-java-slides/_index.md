@@ -9,7 +9,7 @@ url: /vi/java/media-controls/support-for-interrupt-in-java-slides/
 ---
 # Giới thiệu về Hỗ trợ ngắt trong Java Slides với Aspose.Slides for Java
 
-Aspose.Slides for Java là một thư viện mạnh mẽ để tạo, thao tác và làm việc với các bản trình bày PowerPoint trong các ứng dụng Java. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách sử dụng tính năng hỗ trợ ngắt trong Java Slides bằng Aspose.Slides for Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình với các giải thích chi tiết và ví dụ về mã.
+Aspose.Slides for Java là một thư viện mạnh mẽ để tạo, thao tác và làm việc với các bản trình bày PowerPoint trong các ứng dụng Java. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách sử dụng tính năng hỗ trợ ngắt trong Java Slides bằng Aspose.Slides for Java. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình với các giải thích chi tiết và ví dụ về mã.
 
 ## Điều kiện tiên quyết
 
@@ -124,7 +124,7 @@ Xử lý ngắt trong Java Slides đề cập đến khả năng kết thúc ho�
 
 ### Có thể sử dụng xử lý ngắt với bất kỳ thao tác nào trong Aspose.Slides cho Java không?
 
-Có, việc xử lý ngắt có thể được áp dụng cho các hoạt động khác nhau trong Aspose.Slides for Java. Bạn có thể tạm dừng các tác vụ như tải bản trình bày, lưu bản trình bày và các hoạt động tốn thời gian khác để đảm bảo kiểm soát ứng dụng của bạn một cách suôn sẻ.
+Có, việc xử lý ngắt có thể được áp dụng cho các hoạt động khác nhau trong Aspose.Slides for Java. Bạn có thể tạm dừng các tác vụ như tải bản trình bày, lưu bản trình bày và các hoạt động tốn thời gian khác để đảm bảo kiểm soát ứng dụng của bạn một cách trơn tru.
 
 ### Có tình huống cụ thể nào mà việc xử lý ngắt đặc biệt hữu ích không?
 

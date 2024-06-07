@@ -90,13 +90,13 @@ switch (info.getLoadFormat())
 
 ## Slutsats
 
-den här handledningen har vi lärt oss hur man får information om filformat i Java Slides med hjälp av Aspose.Slides for Java API. Att förstå formatet på dina presentationsfiler är viktigt för effektiv bearbetning och manipulation. Du kan nu med säkerhet identifiera formatet på dina filer och fortsätta med formatspecifika åtgärder.
+I den här handledningen har vi lärt oss hur man får information om filformat i Java Slides med hjälp av Aspose.Slides for Java API. Att förstå formatet på dina presentationsfiler är viktigt för effektiv bearbetning och manipulation. Du kan nu med säkerhet identifiera formatet på dina filer och fortsätta med formatspecifika åtgärder.
 
 ## FAQ's
 
 ### Hur får jag Aspose.Slides för Java-biblioteket?
 
- Du kan ladda ner Aspose.Slides for Java-biblioteket från Asposes webbplats på[den här länken](https://releases.aspose.com/slides/java/). Välj lämplig version för ditt projekt.
+ Du kan ladda ner Aspose.Slides for Java-biblioteket från Asposes webbplats på[den här länken](https://releases.aspose.com/slides/java/)Välj lämplig version för ditt projekt.
 
 ### Kan jag använda den här koden med andra Java-presentationsbibliotek?
 

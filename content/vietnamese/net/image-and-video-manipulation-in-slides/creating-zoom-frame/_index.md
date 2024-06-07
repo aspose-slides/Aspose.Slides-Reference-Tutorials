@@ -46,11 +46,11 @@ using (Presentation pres = new Presentation())
 ## Bước 3: Tùy chỉnh hình nền slide
 Nâng cao sự hấp dẫn trực quan của các trang trình bày của bạn bằng cách tùy chỉnh nền của chúng. Trong ví dụ này, chúng tôi đặt nền màu lục lam đậm cho trang chiếu thứ hai.
 ```csharp
-// Tạo nền cho slide thứ hai
+//Tạo nền cho slide thứ hai
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//... (Tiếp tục tùy chỉnh hình nền cho các slide khác)
+// ... (Tiếp tục tùy chỉnh hình nền cho các slide khác)
 ```
 ## Bước 4: Thêm hộp văn bản vào slide
 Kết hợp các hộp văn bản để truyền tải thông tin trên các slide của bạn. Ở đây, chúng ta thêm một hộp văn bản hình chữ nhật vào slide thứ hai.

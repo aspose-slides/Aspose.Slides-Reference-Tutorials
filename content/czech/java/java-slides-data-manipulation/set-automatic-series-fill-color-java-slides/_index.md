@@ -71,7 +71,7 @@ Tento kód zajišťuje, že barva výplně série je nastavena na automatickou.
 Chcete-li uložit prezentaci, použijte následující kód:
 
 ```java
-//Zapište soubor prezentace na disk
+// Zapište soubor prezentace na disk
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Zapište soubor prezentace na disk
+	// Zapište soubor prezentace na disk
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

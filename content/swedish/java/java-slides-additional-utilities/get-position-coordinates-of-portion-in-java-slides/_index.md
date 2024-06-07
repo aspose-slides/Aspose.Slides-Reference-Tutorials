@@ -97,7 +97,7 @@ finally
 
 ## Slutsats
 
-den här handledningen har vi täckt hur man får positionskoordinaterna för textdelar i Java-bilder med Aspose.Slides för Java API. Denna kunskap kan vara särskilt användbar när du behöver exakt kontroll över placeringen av textelement i dina PowerPoint-presentationer.
+I den här handledningen har vi täckt hur man får positionskoordinaterna för textdelar i Java-bilder med Aspose.Slides för Java API. Denna kunskap kan vara särskilt användbar när du behöver exakt kontroll över placeringen av textelement i dina PowerPoint-presentationer.
 
 ## FAQ's
 

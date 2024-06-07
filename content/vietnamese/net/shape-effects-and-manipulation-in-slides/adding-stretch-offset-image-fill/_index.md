@@ -42,7 +42,7 @@ Truy xuất slide đầu tiên từ bản trình bày để làm việc.
 ISlide sld = pres.Slides[0];
 ```
 ## Bước 4: Khởi tạo lớp ImageEx
- Tạo một thể hiện của`ImageEx` class để xử lý hình ảnh bạn muốn thêm vào slide.
+ Tạo một thể hiện của`ImageEx`class để xử lý hình ảnh bạn muốn thêm vào slide.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

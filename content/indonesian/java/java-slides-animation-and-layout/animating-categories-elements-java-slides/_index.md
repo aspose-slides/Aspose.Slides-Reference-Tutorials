@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-Dalam kode ini, kami memuat presentasi PowerPoint yang sudah ada yang berisi bagan yang ingin Anda animasikan. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
+ Dalam kode ini, kami memuat presentasi PowerPoint yang sudah ada yang berisi bagan yang ingin Anda animasikan. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ## Langkah 3: Dapatkan Referensi ke Objek Bagan
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Tulis file presentasi ke disk
+	// Tulis file presentasi ke disk
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Ya, Anda dapat menerapkan animasi serupa ke jenis bagan lainnya dengan memodifik
 
 ### Bagaimana cara mempelajari lebih lanjut tentang Aspose.Slides untuk Java?
 
-Untuk dokumentasi komprehensif dan sumber daya tambahan, kunjungi[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/) . Anda juga dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/).
+ Untuk dokumentasi komprehensif dan sumber daya tambahan, kunjungi[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/) . Anda juga dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/).

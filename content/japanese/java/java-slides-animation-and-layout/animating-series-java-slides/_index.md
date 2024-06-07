@@ -1,55 +1,55 @@
 ---
-title: Java スライドでのシリーズのアニメーション化
-linktitle: Java スライドでのシリーズのアニメーション化
+title: Java スライドでシリーズをアニメーション化する
+linktitle: Java スライドでシリーズをアニメーション化する
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java のシリーズ アニメーションを使用してプレゼンテーションを最適化します。ソース コードの例を含むステップバイステップ ガイドに従って、魅力的な PowerPoint アニメーションを作成します。
+description: Aspose.Slides for Java のシリーズ アニメーションを使用してプレゼンテーションを最適化します。ソース コードの例を含むステップ バイ ステップ ガイドに従って、魅力的な PowerPoint アニメーションを作成します。
 type: docs
 weight: 11
 url: /ja/java/animation-and-layout/animating-series-java-slides/
 ---
 
-## Aspose.Slides for Java でのシリーズのアニメーション化の概要
+## Aspose.Slides for Java でのアニメーション シリーズの紹介
 
-このガイドでは、Aspose.Slides for Java API を使用して Java スライドでシリーズをアニメーション化するプロセスについて説明します。このライブラリを使用すると、PowerPoint プレゼンテーションをプログラムで操作できるようになります。
+このガイドでは、Aspose.Slides for Java API を使用して Java スライドでシリーズをアニメーション化するプロセスについて説明します。このライブラリを使用すると、PowerPoint プレゼンテーションをプログラムで操作できます。
 
 ## 前提条件
 
 始める前に、次の前提条件が満たされていることを確認してください。
 
-- Java ライブラリの Aspose.Slides。
-- Java開発環境のセットアップ。
+- Aspose.Slides for Java ライブラリ。
+- Java開発環境をセットアップしました。
 
-## ステップ 1: プレゼンテーションをロードする
+## ステップ1: プレゼンテーションを読み込む
 
-まず、グラフを含む既存の PowerPoint プレゼンテーションをロードする必要があります。交換する`"Your Document Directory"`プレゼンテーション ファイルへの実際のパスを含めます。
+まず、グラフを含む既存のPowerPointプレゼンテーションを読み込む必要があります。`"Your Document Directory"`プレゼンテーション ファイルへの実際のパスを入力します。
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//プレゼンテーション ファイルを表す Presentation クラスをインスタンス化します。
+//プレゼンテーションファイルを表すプレゼンテーションクラスをインスタンス化する
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-## ステップ 2: チャートにアクセスする
+## ステップ2: チャートにアクセスする
 
-次に、プレゼンテーション内のグラフにアクセスします。この例では、グラフが最初のスライドにあり、そのスライドの最初の図形であると仮定します。
+次に、プレゼンテーション内のグラフにアクセスします。この例では、グラフが最初のスライドにあり、そのスライドの最初の図形であると想定しています。
 
 ```java
-//チャートオブジェクトへの参照を取得します
+//チャートオブジェクトへの参照を取得する
 ISlide slide = presentation.getSlides().get_Item(0);
 IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0);
 ```
 
-## ステップ 3: アニメーションを追加する
+## ステップ3: アニメーションを追加する
 
 次に、チャート内のシリーズにアニメーションを追加しましょう。フェードイン効果を使用して、各シリーズが次々に表示されるようにします。
 
 ```java
-//グラフ全体をアニメーション化する
+//チャート全体をアニメーション化する
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
-//各シリーズにアニメーションを追加します (シリーズが 4 つあると仮定します)
+//各シリーズにアニメーションを追加する（シリーズが 4 つあると仮定）
 for (int i = 0; i < 4; i++) {
     ((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart,
             EffectChartMajorGroupingType.BySeries, i,
@@ -57,9 +57,9 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 
-上記のコードでは、チャート全体にフェードイン効果を使用し、次にループを使用して各シリーズに「出現」効果を順番に追加します。
+上記のコードでは、チャート全体にフェードイン効果を使用し、次にループを使用して各シリーズに「表示」効果を順番に追加します。
 
-## ステップ 4: プレゼンテーションを保存する
+## ステップ4: プレゼンテーションを保存する
 
 最後に、変更したプレゼンテーションをディスクに保存します。
 
@@ -70,13 +70,13 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ## Aspose.Slides for Java でシリーズをアニメーション化するための完全なソース コード
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//プレゼンテーション ファイルを表す Presentation クラスをインスタンス化します。
+//プレゼンテーションファイルを表すプレゼンテーションクラスをインスタンス化する
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
-	//チャートオブジェクトの参照を取得します
+	//チャートオブジェクトの参照を取得する
 	ISlide slide = presentation.getSlides().get_Item(0);
 	IShapeCollection shapes = slide.getShapes();
 	IChart chart = (IChart) shapes.get_Item(0);
@@ -106,22 +106,22 @@ finally
 
 ## 結論
 
-Aspose.Slides for Java を使用して、PowerPoint グラフでシリーズをアニメーション化することに成功しました。これにより、プレゼンテーションがより魅力的で視覚的に魅力的なものになります。さらに多くのアニメーション オプションを検討し、必要に応じてプレゼンテーションを微調整します。
+Aspose.Slides for Java を使用して、PowerPoint チャート内のシリーズをアニメーション化できました。これにより、プレゼンテーションがより魅力的で視覚的に魅力的になります。その他のアニメーション オプションを調べ、必要に応じてプレゼンテーションを微調整してください。
 
 ## よくある質問
 
-### シリーズ アニメーションの順序を制御するにはどうすればよいですか?
+### シリーズアニメーションの順序を制御するにはどうすればよいですか?
 
-シリーズ アニメーションの順序を制御するには、`EffectTriggerType.AfterPrevious`エフェクトを加えるときのパラメーターです。これにより、各シリーズのアニメーションが前のアニメーションの終了後に開始されます。
+一連のアニメーションの順序を制御するには、`EffectTriggerType.AfterPrevious`エフェクトを追加するときにパラメータを設定します。これにより、前のアニメーションが終了した後に各シリーズのアニメーションが開始されます。
 
-### シリーズごとに異なるアニメーションを適用できますか?
+### 各シリーズに異なるアニメーションを適用できますか?
 
-はい、異なるアニメーションを指定することで、各シリーズに異なるアニメーションを適用できます。`EffectType`そして`EffectSubtype`エフェクトを追加するときの値。
+はい、異なるアニメーションをシリーズごとに適用することができます。`EffectType`そして`EffectSubtype`効果を追加するときの値。
 
-### プレゼンテーションに 4 つ以上のシリーズがある場合はどうすればよいですか?
+### プレゼンテーションに 4 つ以上のシリーズがある場合はどうなりますか?
 
-ステップ 3 のループを拡張して、チャート内のすべてのシリーズにアニメーションを追加できます。それに応じてループの状態を調整するだけです。
+ステップ 3 でループを拡張して、チャート内のすべてのシリーズにアニメーションを追加できます。ループの条件を適宜調整するだけです。
 
-### アニメーションの長さと遅延をカスタマイズするにはどうすればよいですか?
+### アニメーションの継続時間と遅延をカスタマイズするにはどうすればよいですか?
 
-アニメーション効果のプロパティを設定することで、アニメーションの継続時間と遅延をカスタマイズできます。利用可能なカスタマイズ オプションの詳細については、Aspose.Slides for Java のドキュメントを確認してください。
+アニメーション効果のプロパティを設定することで、アニメーションの継続時間と遅延をカスタマイズできます。利用可能なカスタマイズ オプションの詳細については、Aspose.Slides for Java のドキュメントを参照してください。

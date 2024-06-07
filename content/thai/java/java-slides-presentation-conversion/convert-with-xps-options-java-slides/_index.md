@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## ขั้นตอนที่ 4: ปรับแต่งตัวเลือกการแปลง
 
- หากต้องการปรับแต่งกระบวนการแปลง คุณสามารถสร้างอินสแตนซ์ของ`XpsOptions` ระดับ. ในตัวอย่าง เราตั้งค่าตัวเลือกในการบันทึก metafiles เป็นภาพ PNG
+หากต้องการปรับแต่งกระบวนการแปลง คุณสามารถสร้างอินสแตนซ์ของ`XpsOptions` ระดับ. ในตัวอย่าง เราตั้งค่าตัวเลือกในการบันทึก metafiles เป็นภาพ PNG
 
 ```java
 XpsOptions opts = new XpsOptions();

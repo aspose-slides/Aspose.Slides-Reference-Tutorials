@@ -12,7 +12,7 @@ url: /nl/net/audio-and-video-extraction/audio-and-video-extraction/
 
 In het digitale tijdperk zijn multimediapresentaties een integraal onderdeel geworden van communicatie, educatie en entertainment. PowerPoint-dia's worden vaak gebruikt om informatie over te brengen en bevatten vaak essentiële elementen zoals audio en video. Het extraheren van deze elementen kan om verschillende redenen cruciaal zijn, van het archiveren van presentaties tot het hergebruiken van inhoud.
 
-In deze stapsgewijze handleiding onderzoeken we hoe u audio en video uit PowerPoint-dia's kunt extraheren met Aspose.Slides voor .NET. Aspose.Slides is een krachtige bibliotheek waarmee .NET-ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken, waardoor taken zoals het extraheren van multimedia toegankelijker dan ooit worden.
+In deze stapsgewijze handleiding onderzoeken we hoe u audio en video uit PowerPoint-dia's kunt extraheren met Aspose.Slides voor .NET. Aspose.Slides is een krachtige bibliotheek waarmee .NET-ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken, waardoor taken zoals multimedia-extractie toegankelijker dan ooit worden.
 
 ## Vereisten
 

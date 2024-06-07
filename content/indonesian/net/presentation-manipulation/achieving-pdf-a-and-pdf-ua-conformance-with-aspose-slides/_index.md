@@ -10,7 +10,7 @@ url: /id/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-wi
 
 ## Perkenalan
 
-Dalam dunia dokumen digital, memastikan kompatibilitas dan aksesibilitas adalah hal yang sangat penting. PDF/A dan PDF/UA adalah dua standar yang mengatasi permasalahan ini. PDF/A berfokus pada pengarsipan, sedangkan PDF/UA menekankan aksesibilitas bagi pengguna penyandang disabilitas. Aspose.Slides untuk .NET menawarkan cara efisien untuk mencapai kesesuaian PDF/A dan PDF/UA, membuat presentasi Anda dapat digunakan secara universal.
+Dalam dunia dokumen digital, memastikan kompatibilitas dan aksesibilitas merupakan hal yang sangat penting. PDF/A dan PDF/UA adalah dua standar yang mengatasi permasalahan ini. PDF/A berfokus pada pengarsipan, sedangkan PDF/UA menekankan aksesibilitas bagi pengguna penyandang disabilitas. Aspose.Slides untuk .NET menawarkan cara efisien untuk mencapai kesesuaian PDF/A dan PDF/UA, membuat presentasi Anda dapat digunakan secara universal.
 
 ## Memahami PDF/A dan PDF/UA
 
@@ -62,7 +62,7 @@ Memastikan aksesibilitas sangat penting untuk kepatuhan PDF/UA. Anda dapat menam
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Tambahkan dukungan aksesibilitas untuk PDF/UA
+//Tambahkan dukungan aksesibilitas untuk PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Muat presentasi
 using var presentation = new Presentation("presentation.pptx");
 
-// Tambahkan dukungan aksesibilitas untuk PDF/UA
+//Tambahkan dukungan aksesibilitas untuk PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -122,7 +122,7 @@ Ya, contoh kode sumber yang diberikan kompatibel dengan berbagai kerangka .NET. 
 
 ### Bagaimana cara memastikan aksesibilitas dalam dokumen PDF/UA?
 
-Untuk memastikan aksesibilitas dalam dokumen PDF/UA, Anda dapat memanfaatkan fitur Aspose.Slides untuk menambahkan tag dan properti aksesibilitas ke elemen presentasi Anda. Hal ini meningkatkan pengalaman bagi pengguna yang mengandalkan teknologi pendukung.
+Untuk memastikan aksesibilitas dalam dokumen PDF/UA, Anda dapat memanfaatkan fitur Aspose.Slides untuk menambahkan tag dan properti aksesibilitas ke elemen presentasi Anda. Hal ini meningkatkan pengalaman bagi pengguna yang mengandalkan teknologi bantu.
 
 ### Apakah kepatuhan PDF/UA diperlukan untuk semua dokumen?
 

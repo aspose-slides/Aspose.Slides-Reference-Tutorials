@@ -93,4 +93,4 @@ Ano, Aspose.Slides for .NET podporuje různé formáty dokumentů, nejen prezent
 
  V případě jakýchkoli technických dotazů nebo dotazů souvisejících s používáním můžete navštívit fórum komunity Aspose, kde získáte podporu[tady](https://forum.aspose.com/).
 
-Nyní, když máte znalosti k provádění vlastních převodů PDF, pokračujte a odemkněte nové možnosti ve správě dokumentů pomocí Aspose.Slides pro .NET! 
+Nyní, když máte znalosti k provádění vlastních převodů PDF, pokračujte a odemkněte nové možnosti správy dokumentů pomocí Aspose.Slides pro .NET! 

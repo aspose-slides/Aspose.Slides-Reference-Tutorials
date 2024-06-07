@@ -121,7 +121,7 @@ finally
 
 ## Wniosek
 
-W tym samouczku pokazaliśmy, jak utworzyć wykres lejkowy w Java Slides przy użyciu Aspose.Slides dla Java. Możesz dodatkowo dostosować wykres, dopasowując kolory, etykiety i inne właściwości do swoich konkretnych potrzeb.
+W tym samouczku pokazaliśmy, jak utworzyć wykres lejkowy w Java Slides przy użyciu Aspose.Slides dla Java. Możesz dodatkowo dostosować wykres, dostosowując kolory, etykiety i inne właściwości do swoich konkretnych potrzeb.
 
 ## Często zadawane pytania
 

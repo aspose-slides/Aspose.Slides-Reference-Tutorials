@@ -18,7 +18,7 @@ Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn có sẵn các
 
 1. Môi trường phát triển Java: Đảm bảo rằng bạn đã cài đặt Java trên hệ thống của mình và quen thuộc với các khái niệm lập trình Java.
 
-2. Aspose.Slides for Java: Tải xuống và cài đặt thư viện Aspose.Slides for Java từ[Liên kết tải xuống](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Tải xuống và cài đặt thư viện Aspose.Slides for Java từ[Liên kết tải xuống](https://releases.aspose.com/slides/java/).
 
 ## Bước 1: Tạo bản trình bày
 

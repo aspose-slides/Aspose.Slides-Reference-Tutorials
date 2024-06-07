@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- W powyższym kodzie zamień`"Your Document Directory"` rzeczywistą ścieżką do katalogu dokumentów i`"Hyperlink.pptx"` z nazwą pliku prezentacji programu PowerPoint.
+ W powyższym kodzie zamień`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów i`"Hyperlink.pptx"` z nazwą pliku prezentacji programu PowerPoint.
 
 ## Krok 3: Usuń hiperłącza
 
@@ -60,7 +60,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
  Ponownie wymień`"RemovedHyperlink_out.pptx"` z żądaną nazwą pliku wyjściowego i ścieżką.
 
-Gratulacje! Pomyślnie usunąłeś hiperłącza z prezentacji programu PowerPoint przy użyciu Aspose.Slides dla .NET. Twoje slajdy są teraz wolne od zakłóceń, dzięki czemu oglądanie jest czystsze i bardziej skupione.
+Gratulacje! Pomyślnie usunąłeś hiperłącza z prezentacji programu PowerPoint przy użyciu Aspose.Slides dla .NET. Twoje slajdy są teraz wolne od zakłóceń, dzięki czemu oglądanie jest czystsze i bardziej skoncentrowane.
 
 ## Wniosek
 

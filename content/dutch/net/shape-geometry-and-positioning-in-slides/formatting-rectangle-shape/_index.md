@@ -23,7 +23,7 @@ using Aspose.Slides;
 using System.Drawing;
 ```
 ## Stap 1: Stel uw documentenmap in
- Begin met het instellen van de map waarin u uw PowerPoint-presentatiebestand wilt opslaan. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw map.
+ Begin met het instellen van de map waarin u uw PowerPoint-presentatiebestand wilt opslaan. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw directory.
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);

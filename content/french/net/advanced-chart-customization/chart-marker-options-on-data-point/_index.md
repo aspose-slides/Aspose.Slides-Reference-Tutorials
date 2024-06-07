@@ -58,7 +58,7 @@ Ici, nous obtenons l'index de la feuille de calcul de données graphiques par d�
 ## Étape 3 : Obtenir la feuille de calcul des données graphiques
 
 ```csharp
-//Obtenir la feuille de calcul des données du graphique
+// Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Nous définissons des marqueurs d'image pour les points de données, vous permet
 ## Étape 6 : Modification de la taille du marqueur de la série de graphiques
 
 ```csharp
-//Modification de la taille du marqueur de série de graphiques
+// Modification de la taille du marqueur de série de graphiques
 series.Marker.Size = 15;
 ```
 

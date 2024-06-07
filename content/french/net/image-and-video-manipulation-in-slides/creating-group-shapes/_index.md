@@ -93,7 +93,7 @@ Dans ce didacticiel, nous avons exploré le processus de création de formes de 
 ### Puis-je essayer Aspose.Slides avant d’acheter ?
  Absolument! Vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
 ### Où puis-je trouver de l'aide pour les requêtes liées à Aspose.Slides ?
- Visitez Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) pour le soutien et les discussions de la communauté.
+Visitez Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) pour le soutien et les discussions de la communauté.
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
  Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter une licence complète pour Aspose.Slides ?

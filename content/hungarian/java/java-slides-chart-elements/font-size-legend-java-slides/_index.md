@@ -55,7 +55,7 @@ Most pedig szabjuk testre a diagram függőleges tengelyértékeit.
 
 Itt beállítjuk a függőleges tengely minimális és maximális értékét. Az értékeket az adatkövetelményeknek megfelelően módosíthatja.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse a módosított prezentációt egy új fájlba.
 
@@ -130,7 +130,7 @@ chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Itt letiltjuk az automatikus tengelyméretezést, és megadjuk a függőleges tengely minimális és maximális értékét. Állítsa be a diagramadatokhoz szükséges értékeket.
+Itt letiltjuk az automatikus tengelyméretezést, és megadjuk a függőleges tengely minimális és maximális értékét. Szükség szerint állítsa be az értékeket a diagramadatokhoz.
 
 ### Hol találhatok további információt és dokumentációt az Aspose.Slides-hez?
 

@@ -101,7 +101,7 @@ In deze zelfstudie hebben we geleerd hoe u een afbeelding van een SVG-object van
 
 ### Hoe kan ik de positie van de toegevoegde SVG-afbeelding op de dia aanpassen?
 
- U kunt de positie van de SVG-afbeelding aanpassen door de coördinaten in het`addPictureFrame`methode. De parameters`(0, 0)` vertegenwoordigen de X- en Y-coördinaten van de linkerbovenhoek van het afbeeldingsframe.
+ U kunt de positie van de SVG-afbeelding aanpassen door de coördinaten in het`addPictureFrame` methode. De parameters`(0, 0)` vertegenwoordigen de X- en Y-coördinaten van de linkerbovenhoek van het afbeeldingsframe.
 
 ### Kan ik deze aanpak gebruiken om meerdere SVG-afbeeldingen aan één dia toe te voegen?
 

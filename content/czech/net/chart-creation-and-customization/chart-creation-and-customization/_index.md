@@ -88,7 +88,7 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 
 V tomto posledním kroku spravujeme záhlaví a zápatí na snímcích přepínáním jejich viditelnosti, nastavením textu a přizpůsobením zástupných symbolů data a času.
 
-Nyní, když jsme rozdělili každý příklad do několika kroků, můžete použít Aspose.Slides for .NET k vytváření, přizpůsobení a správě prezentací PowerPoint programově. Tato výkonná knihovna nabízí širokou škálu funkcí, které vám umožní snadno vytvářet poutavé a informativní prezentace.
+Nyní, když jsme rozdělili každý příklad do několika kroků, můžete použít Aspose.Slides pro .NET k vytváření, přizpůsobení a správě prezentací PowerPoint programově. Tato výkonná knihovna nabízí širokou škálu funkcí, které vám umožní snadno vytvářet poutavé a informativní prezentace.
 
 ## Závěr
 

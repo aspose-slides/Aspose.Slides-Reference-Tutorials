@@ -44,7 +44,7 @@ using Aspose.Slides;
 // المسار إلى دليل المستندات
 string dataDir = "Your Document Directory";
 
-//إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
+// إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // الكود الخاص بك يذهب هنا

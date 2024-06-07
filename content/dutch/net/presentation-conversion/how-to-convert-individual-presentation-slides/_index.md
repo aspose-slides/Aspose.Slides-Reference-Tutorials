@@ -77,7 +77,7 @@ presentation.Save(dataDir + "Individual Slide" + (i + 1) + "_out.html", new[] { 
 Hier slaat de code elke dia op als een HTML-bestand met een unieke naam op basis van het dianummer.
 
 ## Stap 5: Aangepaste opmaak (optioneel)
- Als u aangepaste opmaak wilt toepassen op uw HTML-uitvoer, kunt u de`CustomFormattingController` klas. In dit gedeelte kunt u de opmaak van afzonderlijke dia's bepalen.
+ Als u aangepaste opmaak wilt toepassen op uw HTML-uitvoer, kunt u de`CustomFormattingController` klas. In dit gedeelte kunt u de opmaak van afzonderlijke dia's beheren.
 ```csharp
 public class CustomFormattingController : IHtmlFormattingController
         {
@@ -118,7 +118,7 @@ Foutafhandeling is belangrijk om ervoor te zorgen dat uw toepassing uitzondering
 
 ## Conclusie
 
-Het converteren van individuele presentatiedia's gaat moeiteloos met Aspose.Slides voor .NET. Dankzij de uitgebreide reeks functies en de intuïtieve API is het een favoriete keuze voor ontwikkelaars die programmatisch met PowerPoint-presentaties willen werken. Of u nu een aangepaste presentatieoplossing bouwt of diaconversies wilt automatiseren, Aspose.Slides voor .NET heeft de oplossing voor u.
+Het converteren van individuele presentatiedia's gaat moeiteloos met Aspose.Slides voor .NET. Dankzij de uitgebreide reeks functies en de intuïtieve API is het een ideale keuze voor ontwikkelaars die programmatisch met PowerPoint-presentaties willen werken. Of u nu een aangepaste presentatieoplossing bouwt of diaconversies wilt automatiseren, Aspose.Slides voor .NET heeft de oplossing voor u.
 
 ## Veelgestelde vragen
 

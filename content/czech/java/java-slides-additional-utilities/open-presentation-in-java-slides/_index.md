@@ -58,7 +58,7 @@ try {
 ```java
         // Cesta k adresáři dokumentů.
         String dataDir = "Your Document Directory";
-        // Otevření souboru prezentace předáním cesty k souboru konstruktoru třídy Presentation
+        //Otevření souboru prezentace předáním cesty k souboru konstruktoru třídy Presentation
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {
@@ -73,7 +73,7 @@ try {
 
 ## Závěr
 
-tomto kurzu jste se naučili, jak otevřít prezentaci PowerPoint pomocí knihovny Aspose.Slides for Java. Nyní můžete přistupovat ke snímkům a provádět různé operace s prezentací podle potřeby vaší Java aplikace.
+V tomto kurzu jste se naučili, jak otevřít prezentaci PowerPoint pomocí knihovny Aspose.Slides for Java. Nyní můžete přistupovat ke snímkům a provádět různé operace s prezentací podle potřeby vaší Java aplikace.
 
 ## FAQ
 

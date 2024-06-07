@@ -8,7 +8,7 @@ weight: 13
 url: /nl/java/data-manipulation/chart-entities-java-slides/
 ---
 
-## Inleiding tot diagramentiteiten in Java-dia's
+## Inleiding tot grafiekentiteiten in Java-dia's
 
 Grafieken zijn krachtige hulpmiddelen voor het visualiseren van gegevens in presentaties. Of u nu bedrijfsrapporten, academische presentaties of een andere vorm van inhoud maakt, grafieken helpen informatie effectief over te brengen. Aspose.Slides voor Java biedt robuuste functies voor het werken met diagrammen, waardoor het een favoriete keuze is voor Java-ontwikkelaars.
 

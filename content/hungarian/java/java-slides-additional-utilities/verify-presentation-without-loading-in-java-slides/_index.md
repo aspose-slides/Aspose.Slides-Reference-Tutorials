@@ -41,7 +41,7 @@ Most írjunk Java kódot a prezentáció formátumának ellenőrzéséhez anélk
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// A "LoadFormat.Unknown" értéket adja vissza, ha a fájl nem prezentációs formátum
+// "LoadFormat.Unknown" értéket adja vissza, ha a fájl nem prezentációs formátum
 ```
 
  Ebben a kódban használjuk`PresentationFactory` információkat kaphat a prezentációs fájlról, beleértve a formátumát is. Ha a fájl nem érvényes prezentációs formátum, akkor a „LoadFormat.Unknown” értéket adja vissza.
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // A dokumentumok könyvtárának elérési útja.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // A "LoadFormat.Unknown" értéket adja vissza, ha a fájl nem prezentációs formátum
+        // "LoadFormat.Unknown" értéket adja vissza, ha a fájl nem prezentációs formátum
 ```
 
 ## Következtetés

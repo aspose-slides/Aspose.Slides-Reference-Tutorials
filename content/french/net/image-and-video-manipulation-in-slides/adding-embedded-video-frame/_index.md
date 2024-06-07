@@ -31,7 +31,7 @@ bool IsExists = Directory.Exists(dataDir);
 if (!IsExists)
     Directory.CreateDirectory(dataDir);
 ```
-## Étape 2 : Instancier un cours de présentation
+## Étape 2 : Instancier la classe de présentation
 Créez une instance de la classe Présentation pour représenter le fichier PPTX :
 ```csharp
 using (Presentation pres = new Presentation())

@@ -85,4 +85,4 @@ System.Diagnostics.Process.Start(resultPath);
 ### Вопрос: Как мне получить временную лицензию на Aspose.Slides?
  О: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу получить помощь и поддержку по Aspose.Slides?
- А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для поддержки сообщества.
+А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для поддержки сообщества.

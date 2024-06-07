@@ -22,7 +22,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 ## Krok 1: Skonfiguruj swój projekt Java
 
 1. Utwórz nowy projekt Java w preferowanym środowisku IDE.
-2.  Dodaj bibliotekę Aspose.Slides for Java do swojego projektu. Bibliotekę można pobrać ze strony[Strona Aspose](https://products.aspose.com/slides/java) i uwzględnij to jako zależność.
+2.  Dodaj bibliotekę Aspose.Slides for Java do swojego projektu. Bibliotekę można pobrać ze strony[Strona Aspose](https://products.aspose.com/slides/java) uwzględnij to jako zależność.
 
 ## Krok 2: Zaimportuj wymagane biblioteki
 W swojej klasie Java zaimportuj niezbędne biblioteki do pracy z Aspose.Slides:
@@ -33,7 +33,7 @@ import com.aspose.slides.*;
 
 ## Krok 3: Utwórz schemat organizacyjny
 
-Teraz utwórzmy schemat organizacyjny za pomocą Aspose.Slides. Wykonamy następujące kroki:
+Utwórzmy teraz schemat organizacyjny za pomocą Aspose.Slides. Wykonamy następujące kroki:
 
 1. Określ ścieżkę do katalogu dokumentów.
 2. Załaduj istniejącą prezentację programu PowerPoint lub utwórz nową.
@@ -59,7 +59,7 @@ try {
 }
 ```
 
- Zastępować`"Your Document Directory"` rzeczywistą ścieżką do katalogu dokumentów i`"test.pptx"` z nazwą wejściowej prezentacji PowerPoint.
+ Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów i`"test.pptx"` z nazwą wejściowej prezentacji PowerPoint.
 
 ## Krok 4: Uruchom kod
 

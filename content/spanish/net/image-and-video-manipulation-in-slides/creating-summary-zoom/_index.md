@@ -11,7 +11,7 @@ url: /es/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 En el dinámico mundo de las presentaciones, Aspose.Slides para .NET se destaca como una poderosa herramienta para mejorar su experiencia de creación de diapositivas. Una de las características notables que ofrece es la capacidad de crear un Zoom de resumen, una forma visualmente atractiva de presentar una colección de diapositivas. En este tutorial, lo guiaremos a través del proceso de creación de un zoom de resumen en diapositivas de presentación usando Aspose.Slides para .NET.
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisitos previos:
--  Aspose.Slides para .NET: asegúrese de tener la biblioteca instalada en su entorno .NET. Si no, puedes descargarlo desde[página de lanzamiento](https://releases.aspose.com/slides/net/).
+- Aspose.Slides para .NET: asegúrese de tener la biblioteca instalada en su entorno .NET. Si no, puedes descargarlo desde[página de lanzamiento](https://releases.aspose.com/slides/net/).
 - Entorno de desarrollo: configure su entorno de desarrollo .NET, incluido Visual Studio o cualquier otro IDE preferido.
 - Conocimientos básicos de C#: este tutorial asume que tienes conocimientos básicos de programación en C#.
 ## Importar espacios de nombres
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Paso 2: agregar diapositivas y secciones
- Este paso implica crear diapositivas individuales y organizarlas en secciones dentro de la presentación. El`AddEmptySlide` El método agrega una nueva diapositiva y el`Sections.AddSection` El método establece secciones para una mejor organización.
+ Este paso implica crear diapositivas individuales y organizarlas en secciones dentro de la presentación. El`AddEmptySlide`El método agrega una nueva diapositiva y el`Sections.AddSection` El método establece secciones para una mejor organización.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // El código para diseñar la diapositiva va aquí.
@@ -76,6 +76,6 @@ Aspose.Slides se actualiza periódicamente para garantizar la compatibilidad con
 ### ¿Puedo agregar hipervínculos dentro del marco de Zoom de resumen?
 ¡Absolutamente! Puede incluir hipervínculos en sus diapositivas y funcionarán perfectamente dentro del marco de Zoom de resumen.
 ### ¿Existe alguna limitación en el número de secciones de una presentación?
-A partir de la última versión, no existen limitaciones estrictas en la cantidad de secciones que puede agregar a una presentación.
+partir de la última versión, no existen limitaciones estrictas en la cantidad de secciones que puede agregar a una presentación.
 ### ¿Existe una versión de prueba disponible para Aspose.Slides?
-Sí, puede explorar las funciones de Aspose.Slides descargando el[versión de prueba gratuita](https://releases.aspose.com/).
+ Sí, puede explorar las funciones de Aspose.Slides descargando el[versión de prueba gratuita](https://releases.aspose.com/).

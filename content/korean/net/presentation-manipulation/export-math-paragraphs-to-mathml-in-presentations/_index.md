@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation())
 
 아니요, 전문가가 될 필요는 없습니다. .NET용 Aspose.Slides는 프로세스를 단순화하고 MathML 구문을 쉽게 사용할 수 있습니다.
 
-### Q5: 기존 PowerPoint 프레젠테이션에서 MathML을 사용할 수 있습니까?
+### Q5: 기존 PowerPoint 프레젠테이션에서 MathML을 사용할 수 있나요?
 
 예, Aspose.Slides for .NET을 사용하여 MathML 콘텐츠를 기존 프레젠테이션에 쉽게 통합할 수 있습니다.
 

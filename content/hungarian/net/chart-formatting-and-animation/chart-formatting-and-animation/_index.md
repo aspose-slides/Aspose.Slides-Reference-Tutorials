@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("Your Document Directory\\Ex
 
 ### 2. lépés: Animáció hozzáadása a sorozathoz
 
-Most pedig adjunk hozzá animációt a diagramsorozathoz. Itt is fade-in effektust használunk.
+Most adjunk hozzá animációt a diagramsorozathoz. Itt is fade-in effektust használunk.
 
 ```csharp
 slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);

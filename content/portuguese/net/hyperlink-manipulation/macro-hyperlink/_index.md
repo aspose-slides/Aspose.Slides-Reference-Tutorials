@@ -58,7 +58,7 @@ Para definir um clique de hiperlink de macro, você precisará de um objeto no q
 IAutoShape shape = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.BlankButton, 20, 20, 80, 30);
 ```
 
-Aqui criamos uma AutoShape do tipo "BlankButton" em coordenadas específicas (20, 20) e com dimensões de 80x30. Você pode personalizar esses valores para se adequarem ao layout da sua apresentação.
+Aqui criamos uma AutoShape do tipo “BlankButton” em coordenadas específicas (20, 20) e com dimensões de 80x30. Você pode personalizar esses valores para se adequarem ao layout da sua apresentação.
 
 ### Etapa 4: definir o clique do hiperlink da macro
 

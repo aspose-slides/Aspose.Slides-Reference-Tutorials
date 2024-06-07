@@ -11,7 +11,7 @@ url: /pt/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides for .NET é uma biblioteca poderosa que permite aos desenvolvedores manipular apresentações do PowerPoint com facilidade. Neste tutorial, exploraremos o processo de adição de um deslocamento de estiramento à esquerda para um porta-retratos usando Aspose.Slides for .NET. Siga este guia passo a passo para aprimorar suas habilidades no trabalho com imagens e formas em apresentações do PowerPoint.
 ## Pré-requisitos
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
-- Aspose.Slides for .NET: Certifique-se de ter a biblioteca instalada. Caso contrário, baixe-o do[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Certifique-se de ter a biblioteca instalada. Caso contrário, baixe-o do[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
 - Ambiente de desenvolvimento: tenha um ambiente de desenvolvimento funcional com recursos .NET.
 ## Importar namespaces
 Comece importando os namespaces necessários em seu projeto .NET:

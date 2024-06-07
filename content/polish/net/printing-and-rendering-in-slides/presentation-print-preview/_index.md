@@ -19,7 +19,7 @@ W projekcie programu Visual Studio zaimportuj niezbędne przestrzenie nazw, aby 
 ## Krok 1: Otwórz projekt Visual Studio
 Uruchom Visual Studio i otwórz swój projekt.
 ## Krok 2: Dodaj odniesienie Aspose.Slides
-swoim projekcie kliknij prawym przyciskiem myszy Odniesienia i wybierz „Dodaj odniesienie”. Przejdź do lokalizacji, w której zapisałeś bibliotekę Aspose.Slides i dodaj odniesienie.
+W swoim projekcie kliknij prawym przyciskiem myszy Odniesienia i wybierz „Dodaj odniesienie”. Przejdź do lokalizacji, w której zapisałeś bibliotekę Aspose.Slides i dodaj odniesienie.
 ## Krok 3: Importuj przestrzenie nazw
 W pliku kodu zaimportuj wymagane przestrzenie nazw:
 ```csharp
@@ -59,7 +59,7 @@ pres.Print(printerSettings);
 ```
 Gratulacje! Pomyślnie wyświetliłeś podgląd wydruku prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Wniosek
-W tym samouczku omówiliśmy podstawowe kroki integracji i wykorzystania Aspose.Slides dla .NET w swoich projektach. Ta potężna biblioteka otwiera świat możliwości programowej pracy z prezentacjami programu PowerPoint. Eksperymentuj, eksploruj i ulepszaj swoje aplikacje dzięki elastyczności, jaką oferuje Aspose.Slides.
+tym samouczku omówiliśmy podstawowe kroki integracji i wykorzystania Aspose.Slides dla .NET w swoich projektach. Ta potężna biblioteka otwiera świat możliwości programowej pracy z prezentacjami programu PowerPoint. Eksperymentuj, eksploruj i ulepszaj swoje aplikacje dzięki elastyczności, jaką oferuje Aspose.Slides.
 ## Często Zadawane Pytania
 ### Czy Aspose.Slides jest kompatybilny z najnowszymi wersjami programu PowerPoint?
 Tak, Aspose.Slides obsługuje najnowsze formaty PowerPoint, zapewniając kompatybilność z najnowszymi wersjami.

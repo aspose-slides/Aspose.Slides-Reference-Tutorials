@@ -54,7 +54,7 @@ Aspose.Slides API를 사용하여 프레젠테이션 슬라이드에 매혹적�
 ### [Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 OLE 개체 데이터 변경](./changing-ole-object-data/)
 Aspose.Slides API를 사용하여 프레젠테이션 슬라이드의 OLE 개체 데이터를 효율적으로 변경하는 방법을 알아보세요. 이 단계별 가이드에서는 코드 예제와 필수 통찰력을 제공합니다.
 ### [Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양 순서 변경](./changing-order-shapes/)
-Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 모양을 재배열하고 조작하는 방법을 알아보세요. 이 종합 가이드를 통해 프레젠테이션의 품질을 향상시키세요.
+Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 모양을 재배열하고 조작하는 방법을 알아보세요. 이 포괄적인 가이드를 사용하여 프레젠테이션을 향상시키세요.
 ### [Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양 복제](./cloning-shapes/)
 Aspose.Slides API를 사용하여 프레젠테이션 슬라이드의 모양을 효율적으로 복제하는 방법을 알아보세요. 다이내믹한 프레젠테이션을 쉽게 만들어 보세요. 단계별 가이드, FAQ 등을 살펴보세요.
 ### [Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 커넥터 선 각도 조정](./adjusting-connector-line-angles/)

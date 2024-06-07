@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Configuración del índice de la hoja de datos del gráfico
 	int defaultWorksheetIndex = 0;
-	//Obtener la hoja de trabajo de datos del gráfico
+	// Obtener la hoja de trabajo de datos del gráfico
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Eliminar series y categorías generadas por defecto
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Añadiendo nueva serie
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Ahora completando datos de series
+	//Ahora completando datos de series
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Ha creado con éxito un gráfico circular en una presentación de PowerPoint uti
 
 ### ¿Cómo puedo personalizar los colores de sectores individuales en el gráfico circular?
 
- Para personalizar los colores de sectores individuales en el gráfico circular, puede utilizar el`getAutomaticSeriesColors`método para recuperar el esquema de color predeterminado y luego modificar los colores según sea necesario. He aquí un ejemplo:
+ Para personalizar los colores de sectores individuales en el gráfico circular, puede utilizar el`getAutomaticSeriesColors` método para recuperar el esquema de color predeterminado y luego modificar los colores según sea necesario. He aquí un ejemplo:
 
 ```java
-// Obtener el esquema de color predeterminado
+//Obtener el esquema de color predeterminado
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Modifica los colores según sea necesario.

@@ -99,7 +99,7 @@ Ja, Aspose.Slides voor .NET ondersteunt verschillende PowerPoint-bestandsindelin
 
 ### 4. Hoe kan ik Aspose.Slides voor .NET integreren in mijn .NET-applicatie?
 
-Om Aspose.Slides voor .NET in uw .NET-toepassing te integreren, kunt u de documentatie raadplegen, die gedetailleerde informatie biedt over installatie en gebruik.
+Om Aspose.Slides voor .NET in uw .NET-applicatie te integreren, kunt u de documentatie raadplegen, die gedetailleerde informatie biedt over installatie en gebruik.
 
 ### 5. Kan ik Aspose.Slides voor .NET uitproberen voordat ik het aanschaf?
 

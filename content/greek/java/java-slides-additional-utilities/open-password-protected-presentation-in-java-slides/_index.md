@@ -16,7 +16,7 @@ url: /el/java/additional-utilities/open-password-protected-presentation-in-java-
 
 Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
-1.  Aspose.Slides for Java Library: Βεβαιωθείτε ότι έχετε κατεβάσει και εγκαταστήσει τη βιβλιοθήκη Aspose.Slides for Java. Μπορείτε να το προμηθευτείτε από το[Aspose website](https://products.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Βεβαιωθείτε ότι έχετε κατεβάσει και εγκαταστήσει τη βιβλιοθήκη Aspose.Slides for Java. Μπορείτε να το προμηθευτείτε από το[Aspose website](https://products.aspose.com/slides/java/).
 
 2.  Περιβάλλον ανάπτυξης Java: Ρυθμίστε ένα περιβάλλον ανάπτυξης Java στο σύστημά σας, αν δεν το έχετε κάνει ήδη. Μπορείτε να κάνετε λήψη Java από το[Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Αντικαταστήστε το "pass" μ�
 
 ## Βήμα 3: Ανοίξτε την Παρουσίαση
 
- Τώρα, θα ανοίξετε την παρουσίαση που προστατεύεται με κωδικό πρόσβασης χρησιμοποιώντας το`Presentation` κατασκευαστής κλάσης, ο οποίος παίρνει τη διαδρομή αρχείου και τις επιλογές φόρτωσης ως παραμέτρους.
+ Τώρα, θα ανοίξετε την παρουσίαση που προστατεύεται με κωδικό πρόσβασης χρησιμοποιώντας το`Presentation`κατασκευαστής κλάσης, ο οποίος παίρνει τη διαδρομή αρχείου και τις επιλογές φόρτωσης ως παραμέτρους.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -96,7 +96,7 @@ finally
 
 ### Πώς ορίζω τον κωδικό πρόσβασης για μια παρουσίαση;
 
-Για να ορίσετε τον κωδικό πρόσβασης για μια παρουσίαση, χρησιμοποιήστε το`loadOptions.setPassword("password")` μέθοδος, όπου`"password"` θα πρέπει να αντικατασταθεί με τον επιθυμητό κωδικό πρόσβασης.
+ Για να ορίσετε τον κωδικό πρόσβασης για μια παρουσίαση, χρησιμοποιήστε το`loadOptions.setPassword("password")` μέθοδος, όπου`"password"` θα πρέπει να αντικατασταθεί με τον επιθυμητό κωδικό πρόσβασης.
 
 ### Μπορώ να ανοίξω παρουσιάσεις με διαφορετικές μορφές, όπως PPT και PPTX;
 

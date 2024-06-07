@@ -71,7 +71,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 หากต้องการบันทึกการนำเสนอ ให้ใช้โค้ดต่อไปนี้:
 
 ```java
-//เขียนไฟล์การนำเสนอลงดิสก์
+// เขียนไฟล์การนำเสนอลงดิสก์
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//เขียนไฟล์การนำเสนอลงดิสก์
+	// เขียนไฟล์การนำเสนอลงดิสก์
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

@@ -44,7 +44,7 @@ using Aspose.Slides;
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "Your Document Directory";
 
-//สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์การนำเสนอ
+// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์การนำเสนอ
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // รหัสของคุณอยู่ที่นี่

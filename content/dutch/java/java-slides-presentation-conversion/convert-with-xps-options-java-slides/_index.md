@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Stap 4: Conversie-opties aanpassen
 
- Om het conversieproces aan te passen, kunt u een exemplaar maken van het`XpsOptions` klas. In het voorbeeld stellen we de optie in om metabestanden op te slaan als PNG-afbeeldingen.
+Om het conversieproces aan te passen, kunt u een exemplaar maken van het`XpsOptions` klas. In het voorbeeld stellen we de optie in om metabestanden op te slaan als PNG-afbeeldingen.
 
 ```java
 XpsOptions opts = new XpsOptions();

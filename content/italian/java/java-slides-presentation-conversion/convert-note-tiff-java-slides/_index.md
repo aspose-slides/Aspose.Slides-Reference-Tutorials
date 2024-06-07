@@ -61,7 +61,7 @@ try {
 
 ## Passaggio 4: ripulire le risorse
 
- Nel`finally` blocco, assicurati di smaltire il`Presentation` oggetto di rilasciare eventuali risorse assegnate.
+ Nel`finally` blocco, assicurati di smaltire il`Presentation` oggetto di rilasciare eventuali risorse allocate.
 
 Questo è tutto! Hai convertito con successo una presentazione PowerPoint con note del relatore in formato TIFF utilizzando Aspose.Slides per Java.
 
@@ -94,7 +94,7 @@ In questo tutorial, abbiamo imparato come convertire una presentazione PowerPoin
 
 ### Come installo Aspose.Slides per Java?
 
- È possibile scaricare Aspose.Slides per Java da[Qui](https://releases.aspose.com/slides/java/) seguire le istruzioni di installazione fornite nella documentazione.
+ È possibile scaricare Aspose.Slides per Java da[Qui](https://releases.aspose.com/slides/java/) e seguire le istruzioni di installazione fornite nella documentazione.
 
 ### Posso convertire le presentazioni PowerPoint anche in altri formati?
 

@@ -20,7 +20,7 @@ Aspose.Slides işlevlerinden yararlanmak için C# kodunuza gerekli ad alanların
 using System.IO;
 using Aspose.Slides.Export;
 ```
-Şimdi Aspose.Slides for .NET'i kullanarak geometri şeklinde kompozit nesneler oluşturmanızda size yol göstermesi için örnek kodu birden fazla adıma ayıralım:
+Şimdi Aspose.Slides for .NET'i kullanarak geometri şeklinde kompozit nesneler oluşturma konusunda size yol göstermesi için örnek kodu birden fazla adıma ayıralım:
 ## 1. Adım: Ortamı Ayarlayın
 ```csharp
 // Belgeler dizininin yolu.

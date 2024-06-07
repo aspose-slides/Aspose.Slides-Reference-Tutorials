@@ -117,7 +117,7 @@ Ja, met Aspose.Slides kunt u hyperlinks toevoegen aan verschillende objecten, wa
 Absoluut. Aspose.Slides ondersteunt verschillende PowerPoint-formaten, waaronder PPT, PPTX, PPS en meer. Het garandeert compatibiliteit met verschillende versies van Microsoft PowerPoint.
 
 ### Waar kan ik aanvullende bronnen en ondersteuning voor Aspose.Slides vinden?
-Voor diepgaande documentatie en communityondersteuning gaat u naar de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/) en de[Aspose-ondersteuningsforum](https://forum.aspose.com/).
+ Voor diepgaande documentatie en communityondersteuning gaat u naar de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/) en de[Aspose-ondersteuningsforum](https://forum.aspose.com/).
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Slides verkrijgen?
  Als u een tijdelijke licentie voor Aspose.Slides nodig heeft, kunt u er een aanschaffen[hier](https://purchase.aspose.com/temporary-license/).

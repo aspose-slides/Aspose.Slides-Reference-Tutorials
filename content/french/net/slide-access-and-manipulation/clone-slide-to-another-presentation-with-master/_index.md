@@ -24,7 +24,7 @@ Préparez la présentation source (celle à partir de laquelle vous souhaitez co
 
 Maintenant, décomposons le processus en plusieurs étapes :
 
-## Étape 1 : Importer les espaces de noms
+## Étape 1 : Importer des espaces de noms
 
 Tout d’abord, vous devez importer les espaces de noms nécessaires pour travailler avec Aspose.Slides. Dans votre code, vous inclurez généralement les espaces de noms suivants :
 

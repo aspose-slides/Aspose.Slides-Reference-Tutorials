@@ -96,7 +96,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 ## الخطوة 4: احفظ العرض التقديمي
 
 ```csharp
-//اكتب ملف العرض التقديمي على القرص
+// اكتب ملف العرض التقديمي على القرص
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

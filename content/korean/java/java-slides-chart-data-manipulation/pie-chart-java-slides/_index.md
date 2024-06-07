@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## 4단계: 원형 차트 추가
 
 ```java
-// 기본 데이터가 포함된 원형 차트 추가
+//기본 데이터가 포함된 원형 차트 추가
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // 차트 데이터 시트의 인덱스 설정
 int defaultWorksheetIndex = 0;
 
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // 기본 생성된 시리즈 및 카테고리 삭제
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//비슷한 방식으로 다른 부문을 사용자 정의
+// 비슷한 방식으로 다른 부문을 사용자 정의
 ```
 
 원형 차트의 각 섹터 모양을 사용자 정의합니다. 색상, 테두리 스타일 및 기타 시각적 속성을 변경할 수 있습니다.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // 차트 데이터 시트의 인덱스 설정
 int defaultWorksheetIndex = 0;
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // 기본 생성된 시리즈 및 카테고리 삭제
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // 새로운 시리즈 추가
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// 이제 계열 데이터를 채우는 중입니다.
+//이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//새 버전에서는 작동하지 않습니다
+// 새 버전에서는 작동하지 않습니다
 // 새 포인트 추가 및 섹터 색상 설정
 // series.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -237,7 +237,7 @@ lbl2.getDataLabelFormat().setShowPercentage(true);
 IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
-// 차트의 지시선 표시
+// 차트 지시선 표시
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 // 원형 차트 섹터의 회전 각도 설정
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
@@ -253,15 +253,15 @@ Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 원�
 
 ### 원형 차트에서 개별 부문의 색상을 어떻게 변경할 수 있나요?
 
- 원형 차트의 개별 섹터 색상을 변경하려면 각 데이터 포인트의 채우기 색상을 사용자 정의할 수 있습니다. 제공된 코드 예제에서는 다음을 사용하여 각 섹터의 채우기 색상을 설정하는 방법을 시연했습니다.`getSolidFillColor().setColor()`방법. 색상 값을 수정하여 원하는 모양을 얻을 수 있습니다.
+ 원형 차트의 개별 섹터 색상을 변경하려면 각 데이터 포인트의 채우기 색상을 사용자 정의할 수 있습니다. 제공된 코드 예제에서는 다음을 사용하여 각 섹터의 채우기 색상을 설정하는 방법을 시연했습니다.`getSolidFillColor().setColor()` 방법. 색상 값을 수정하여 원하는 모양을 얻을 수 있습니다.
 
 ### 원형 차트에 더 많은 카테고리와 데이터 시리즈를 추가할 수 있나요?
 
- 예, 원형 차트에 카테고리와 데이터 계열을 추가할 수 있습니다. 이렇게 하려면 다음을 사용할 수 있습니다.`getChartData().getCategories().add()` 그리고`getChartData().getSeries().add()` 예제에 표시된 대로 메서드를 사용합니다. 차트를 확장하려면 새 카테고리와 시리즈에 적절한 데이터와 레이블을 제공하기만 하면 됩니다.
+ 예, 원형 차트에 카테고리와 데이터 계열을 추가할 수 있습니다. 이렇게 하려면 다음을 사용할 수 있습니다.`getChartData().getCategories().add()` 그리고`getChartData().getSeries().add()` 예제에 표시된 대로 메서드를 사용합니다. 차트를 확장하려면 새 카테고리와 시리즈에 적절한 데이터와 라벨을 제공하기만 하면 됩니다.
 
 ### 데이터 레이블의 모양을 어떻게 사용자 정의합니까?
 
- 다음을 사용하여 데이터 레이블의 모양을 사용자 정의할 수 있습니다.`getDataLabelFormat()` 각 데이터 포인트의 라벨에 대한 메소드입니다. 예제에서는 다음을 사용하여 데이터 레이블에 값을 표시하는 방법을 시연했습니다.`getDataLabelFormat().setShowValue(true)`. 표시되는 값을 제어하고, 범례 키를 표시하고, 기타 서식 옵션을 조정하여 데이터 레이블을 추가로 사용자 정의할 수 있습니다.
+ 다음을 사용하여 데이터 레이블의 모양을 사용자 정의할 수 있습니다.`getDataLabelFormat()` 각 데이터 포인트의 라벨에 대한 메서드입니다. 예제에서는 다음을 사용하여 데이터 레이블에 값을 표시하는 방법을 시연했습니다.`getDataLabelFormat().setShowValue(true)`. 표시되는 값을 제어하고, 범례 키를 표시하고, 기타 서식 옵션을 조정하여 데이터 레이블을 추가로 사용자 정의할 수 있습니다.
 
 ### 원형 차트의 제목을 변경할 수 있나요?
 
@@ -274,11 +274,11 @@ Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 원�
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-올바른 파일 경로와 형식을 지정했는지 확인하세요.
+올바른 파일 경로와 형식을 지정했는지 확인하십시오.
 
 ### Aspose.Slides for Java를 사용하여 다른 유형의 차트를 만들 수 있나요?
 
- 예, Aspose.Slides for Java는 막대 차트, 선형 차트 등을 포함한 다양한 차트 유형을 지원합니다. 변경하여 다양한 유형의 차트를 만들 수 있습니다.`ChartType` 차트를 추가할 때 다양한 유형의 차트 생성에 대한 자세한 내용은 Aspose.Slides 설명서를 참조하세요.
+예, Aspose.Slides for Java는 막대 차트, 선형 차트 등을 포함한 다양한 차트 유형을 지원합니다. 변경하여 다양한 유형의 차트를 만들 수 있습니다.`ChartType` 차트를 추가할 때 다양한 유형의 차트 생성에 대한 자세한 내용은 Aspose.Slides 설명서를 참조하세요.
 
 ### Aspose.Slides for Java 작업에 대한 추가 정보와 예제를 어떻게 찾을 수 있나요?
 

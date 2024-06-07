@@ -37,7 +37,7 @@ using Aspose.Slides.Export;
 
 ### Adım 2.1: Sunum Sınıfını Başlatın
 
- Öncelikle örneğinin bir örneğini oluşturmamız gerekiyor.`Presentation`PowerPoint sunum dosyanızı temsil eden sınıf. Sunum dosyanızın yolunu şu şekilde belirtmelisiniz:`dataDir` değişken.
+ Öncelikle örneğinin bir örneğini oluşturmamız gerekiyor.`Presentation` PowerPoint sunum dosyanızı temsil eden sınıf. Sunum dosyanızın yolunu şu şekilde belirtmelisiniz:`dataDir` değişken.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Adım 2.2: Ana Notlar Slaytına Erişim
 
- İçinde`using` blokta ana notlar slaytına erişiyoruz. Ana notlar slaydı, sununuzdaki notlar için varsayılan stili içerir.
+ İçinde`using`blokta ana notlar slaytına erişiyoruz. Ana notlar slaydı, sununuzdaki notlar için varsayılan stili içerir.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

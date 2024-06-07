@@ -41,7 +41,7 @@ Laten we nu Java-code schrijven om het presentatieformaat te verifiëren zonder 
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Het retourneert "LoadFormat.Unknown" als het bestand geen presentatie-indeling heeft
+//Het retourneert "LoadFormat.Unknown" als het bestand geen presentatie-indeling heeft
 ```
 
  In deze code gebruiken we`PresentationFactory` om informatie te krijgen over het presentatiebestand, inclusief de indeling ervan. Als het bestand geen geldig presentatieformaat heeft, retourneert het 'LoadFormat.Unknown'.
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Het pad naar de documentenmap.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Het retourneert "LoadFormat.Unknown" als het bestand geen presentatie-indeling heeft
+        //Het retourneert "LoadFormat.Unknown" als het bestand geen presentatie-indeling heeft
 ```
 
 ## Conclusie

@@ -59,7 +59,7 @@ I den här handledningen har vi demonstrerat hur man exporterar en PowerPoint-pr
  Du kan ladda ner Aspose.Slides för .NET från webbplatsen:[Ladda ner Aspose.Slides](https://releases.aspose.com/slides/net/)
 
 ### F2: Behöver jag en licens för Aspose.Slides för .NET?
- Ja, du kan få en licens från[Aspose](https://purchase.aspose.com/buy) att använda alla funktioner i API:t.
+ Ja, du kan få en licens från[Aspose](https://purchase.aspose.com/buy) för att använda alla funktioner i API:t.
 
 ### F3: Kan jag prova Aspose.Slides för .NET gratis?
  Säkert! Du kan få en gratis testversion från[här](https://releases.aspose.com/).

@@ -2,7 +2,7 @@
 title: Konvertálja a prezentációt Markdown formátumba
 linktitle: Konvertálja a prezentációt Markdown formátumba
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan konvertálhat könnyedén prezentációkat Markdown formátumba az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
+description: Ismerje meg, hogyan konvertálhat könnyedén prezentációkat Markdown formátumba az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 type: docs
 weight: 23
 url: /hu/net/presentation-conversion/convert-presentation-to-markdown-format/

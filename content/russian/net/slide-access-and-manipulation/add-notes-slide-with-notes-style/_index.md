@@ -37,7 +37,7 @@ using Aspose.Slides.Export;
 
 ### Шаг 2.1: Создание экземпляра класса представления
 
- Сначала нам нужно создать экземпляр`Presentation`класс, который представляет файл презентации PowerPoint. Вы должны указать путь к файлу презентации в`dataDir` переменная.
+ Сначала нам нужно создать экземпляр`Presentation` класс, который представляет файл презентации PowerPoint. Вы должны указать путь к файлу презентации в`dataDir` переменная.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Шаг 2.2. Доступ к слайду «Основные заметки»
 
- В рамках`using` блок, мы получаем доступ к слайду основных заметок. Слайд основных заметок содержит стиль по умолчанию для заметок в презентации.
+ В рамках`using`блок, мы получаем доступ к слайду основных заметок. Слайд основных заметок содержит стиль по умолчанию для заметок в презентации.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

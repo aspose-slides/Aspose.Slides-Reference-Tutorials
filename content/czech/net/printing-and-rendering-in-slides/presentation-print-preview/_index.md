@@ -59,7 +59,7 @@ pres.Print(printerSettings);
 ```
 Gratulujeme! Úspěšně jste zobrazili náhled tiskového výstupu prezentace pomocí Aspose.Slides for .NET.
 ## Závěr
-V tomto tutoriálu jsme probrali základní kroky k integraci a využití Aspose.Slides for .NET ve vašich projektech. Tato výkonná knihovna otevírá svět možností pro programovou práci s prezentacemi PowerPoint. Experimentujte, prozkoumávejte a vylepšujte své aplikace s flexibilitou, kterou Aspose.Slides nabízí.
+tomto tutoriálu jsme probrali základní kroky k integraci a využití Aspose.Slides for .NET ve vašich projektech. Tato výkonná knihovna otevírá svět možností pro programovou práci s prezentacemi PowerPoint. Experimentujte, prozkoumávejte a vylepšujte své aplikace s flexibilitou, kterou Aspose.Slides nabízí.
 ## Často kladené otázky
 ### Je Aspose.Slides kompatibilní s nejnovějšími verzemi PowerPointu?
 Ano, Aspose.Slides podporuje nejnovější formáty PowerPoint a zajišťuje kompatibilitu s nejnovějšími verzemi.

@@ -72,7 +72,7 @@ Genom att följa dessa steg kan du enkelt konvertera PowerPoint-presentationer t
 
 ### Hur kan jag anpassa utseendet på HTML5-utdata?
 
-Du kan anpassa utseendet på HTML5-utdata genom att ställa in olika alternativ i`Html5Options` klass. Referera till[dokumentation](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) för tillgängliga anpassningsalternativ.
+ Du kan anpassa utseendet på HTML5-utdata genom att ställa in olika alternativ i`Html5Options`klass. Referera till[dokumentation](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) för tillgängliga anpassningsalternativ.
 
 ### Kan jag konvertera presentationer med animationer och övergångar?
 

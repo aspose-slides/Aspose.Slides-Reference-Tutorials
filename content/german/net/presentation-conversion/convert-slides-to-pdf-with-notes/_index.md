@@ -1,24 +1,24 @@
 ---
-title: Konvertieren Sie Folien mit Notizen in PDF
-linktitle: Konvertieren Sie Folien mit Notizen in PDF
+title: Folien mit Notizen in PDF konvertieren
+linktitle: Folien mit Notizen in PDF konvertieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Konvertieren Sie Präsentationsfolien mit Vortragsnotizen mühelos in PDF mit Aspose.Slides für .NET. Behalten Sie Inhalte und Kontext nahtlos bei.
+description: Mit Aspose.Slides für .NET können Sie Präsentationsfolien mit Sprechernotizen mühelos in PDF konvertieren. Inhalt und Kontext bleiben nahtlos erhalten.
 type: docs
 weight: 18
 url: /de/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
 
-# Schreiben Sie eine Schritt-für-Schritt-Anleitung zum Konvertieren von Folien in PDF mit Notizen mithilfe von Aspose.Slides für .NET
+# Schreiben Sie eine Schritt-für-Schritt-Anleitung zum Konvertieren von Folien in PDF mit Notizen unter Verwendung von Aspose.Slides für .NET
 
-Suchen Sie nach einer zuverlässigen Möglichkeit, Ihre PowerPoint-Folien in das PDF-Format zu konvertieren und dabei alle wichtigen Notizen beizubehalten? Suchen Sie nicht weiter! In diesem umfassenden Tutorial führen wir Sie Schritt für Schritt durch den Prozess der Verwendung von Aspose.Slides für .NET, um diese Aufgabe zu erfüllen.
+Suchen Sie nach einer zuverlässigen Möglichkeit, Ihre PowerPoint-Folien in das PDF-Format zu konvertieren und dabei alle wichtigen Notizen beizubehalten? Suchen Sie nicht weiter! In diesem umfassenden Tutorial führen wir Sie Schritt für Schritt durch den Prozess der Verwendung von Aspose.Slides für .NET, um diese Aufgabe zu erledigen.
 
 ## 1. Einleitung
 
-Das Konvertieren von PowerPoint-Folien in PDF mit Notizen kann ein wertvolles Werkzeug zum Teilen von Präsentationen sein und gleichzeitig sicherstellen, dass wichtige Kontexte und Kommentare erhalten bleiben. Aspose.Slides für .NET bietet eine leistungsstarke Lösung für diese Aufgabe.
+Das Konvertieren von PowerPoint-Folien in PDF mit Notizen kann ein wertvolles Tool zum Teilen von Präsentationen sein und gleichzeitig sicherstellen, dass wichtige Kontexte und Kommentare erhalten bleiben. Aspose.Slides für .NET bietet eine leistungsstarke Lösung für diese Aufgabe.
 
 ## 2. Einrichten Ihrer Umgebung
 
-Bevor wir uns mit dem Codierungsprozess befassen, stellen Sie sicher, dass Sie die erforderliche Umgebung eingerichtet haben. Du brauchst:
+Bevor wir uns in den Codierungsprozess stürzen, stellen Sie sicher, dass Sie die erforderliche Umgebung eingerichtet haben. Sie benötigen:
 
 - Visual Studio oder Ihre bevorzugte .NET-Entwicklungsumgebung.
 - Aspose.Slides für .NET-Bibliothek installiert.
@@ -26,7 +26,7 @@ Bevor wir uns mit dem Codierungsprozess befassen, stellen Sie sicher, dass Sie d
 
 ## 3. Laden der Präsentation
 
-In Ihrem C#-Code müssen Sie die PowerPoint-Präsentation laden, die Sie konvertieren möchten. So können Sie es machen:
+In Ihrem C#-Code müssen Sie die PowerPoint-Präsentation laden, die Sie konvertieren möchten. So können Sie das tun:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -37,7 +37,7 @@ Presentation presentation = new Presentation(dataDir + "SelectedSlides.pptx");
 
 ## 4. Klonen der Folie
 
-Um sicherzustellen, dass Ihr PDF alle notwendigen Folien mit Notizen enthält, können Sie diese aus der Originalpräsentation klonen. Hier ist wie:
+Um sicherzustellen, dass Ihre PDF-Datei alle erforderlichen Folien mit Notizen enthält, können Sie diese aus der Originalpräsentation klonen. So geht's:
 
 ```csharp
 Presentation auxPresentation = new Presentation();
@@ -45,9 +45,9 @@ ISlide slide = presentation.Slides[0];
 auxPresentation.Slides.InsertClone(0, slide);
 ```
 
-## 5. Anpassen der Foliengröße
+## 5. Foliengröße anpassen
 
-Möglicherweise möchten Sie die Foliengröße an Ihre PDF-Datei anpassen. Mit Aspose.Slides für .NET können Sie dies ganz einfach tun:
+Möglicherweise möchten Sie die Foliengröße an Ihr PDF anpassen. Mit Aspose.Slides für .NET können Sie dies ganz einfach tun:
 
 ```csharp
 auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
@@ -65,7 +65,7 @@ options.NotesPosition = NotesPositions.BottomFull;
 
 ## 7. Als PDF mit Notizen speichern
 
-Abschließend können Sie Ihre Präsentation als PDF mit Notizen speichern:
+Abschließend können Sie Ihre Präsentation mit Notizen als PDF speichern:
 
 ```csharp
 auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -73,28 +73,28 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## 8. Fazit
 
-Glückwunsch! Sie haben Ihre PowerPoint-Folien erfolgreich in ein PDF-Format konvertiert und dabei alle wichtigen Notizen beibehalten. Aspose.Slides für .NET macht diesen Prozess unkompliziert und effizient.
+Herzlichen Glückwunsch! Sie haben Ihre PowerPoint-Folien erfolgreich in ein PDF-Format konvertiert und dabei alle wichtigen Notizen beibehalten. Aspose.Slides für .NET macht diesen Vorgang unkompliziert und effizient.
 
-## 9. FAQs
+## 9. Häufig gestellte Fragen
 
 ### F1: Kann ich das Layout der Notizen im PDF anpassen?
 
- Ja, Sie können das Layout der Notizen mithilfe von anpassen`INotesCommentsLayoutingOptions` in den PDF-Optionen.
+ Ja, Sie können das Layout der Notizen anpassen mit dem`INotesCommentsLayoutingOptions` in den PDF-Optionen.
 
-### F2: Unterstützt Aspose.Slides für .NET neben PDF auch andere Ausgabeformate?
+### F2: Unterstützt Aspose.Slides für .NET andere Ausgabeformate außer PDF?
 
-Ja, Aspose.Slides für .NET unterstützt verschiedene Ausgabeformate, einschließlich PPTX, DOCX und mehr.
+Ja, Aspose.Slides für .NET unterstützt verschiedene Ausgabeformate, darunter PPTX, DOCX und mehr.
 
-### F3: Gibt es eine Testversion für Aspose.Slides für .NET?
+### F3: Gibt es eine Testversion von Aspose.Slides für .NET?
 
- Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET unter erhalten[https://releases.aspose.com/](https://releases.aspose.com/).
+ Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET erhalten unter[https://releases.aspose.com/](https://releases.aspose.com/).
 
-### F4: Wo erhalte ich Unterstützung für Aspose.Slides für .NET?
+### F4: Wo erhalte ich Support für Aspose.Slides für .NET?
 
- Unterstützung und Community-Diskussionen finden Sie unter[https://forum.aspose.com/](https://forum.aspose.com/).
+ Support und Community-Diskussionen finden Sie unter[https://forum.aspose.com/](https://forum.aspose.com/).
 
 ### F5: Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
 
- Ja, Sie können eine temporäre Lizenz erwerben unter[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+ Ja, Sie können eine temporäre Lizenz erwerben bei[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
-Zusammenfassend lässt sich sagen, dass Sie mit Aspose.Slides für .NET PowerPoint-Folien problemlos in das PDF-Format konvertieren können, wobei die Notizen erhalten bleiben. Es ist ein wertvolles Tool für Fachleute, die Präsentationen mit Kollegen und Kunden teilen und gleichzeitig sicherstellen müssen, dass wichtiger Kontext nicht verloren geht.
+Zusammenfassend lässt sich sagen, dass Sie mit Aspose.Slides für .NET PowerPoint-Folien problemlos in das PDF-Format konvertieren können, ohne dass die Notizen verloren gehen. Es ist ein wertvolles Tool für Fachleute, die Präsentationen mit Kollegen und Kunden teilen müssen und dabei sicherstellen müssen, dass kein wichtiger Kontext verloren geht.

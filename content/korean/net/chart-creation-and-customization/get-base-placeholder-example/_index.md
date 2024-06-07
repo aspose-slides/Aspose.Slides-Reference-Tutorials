@@ -18,7 +18,7 @@ url: /ko/net/chart-creation-and-customization/get-base-placeholder-example/
 
 2.  Aspose.Slides for .NET Library: 웹사이트에서 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/net/).
 
-3. 문서 디렉토리: 프리젠테이션 파일을 저장할 디렉토리가 있습니다.
+3. 문서 디렉터리: 프리젠테이션 파일을 저장할 디렉터리가 있습니다.
 
 ## 네임스페이스 가져오기
 

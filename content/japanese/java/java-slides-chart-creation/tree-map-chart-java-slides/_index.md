@@ -2,34 +2,34 @@
 title: Java スライドのツリー マップ チャート
 linktitle: Java スライドのツリー マップ チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、Java スライドでツリー マップ チャートを作成します。階層データを視覚化するためのソース コードを含むステップバイステップのガイド。
+description: Aspose.Slides for Java を使用して、Java スライドでツリー マップ チャートを作成します。階層データを視覚化するためのソース コード付きのステップ バイ ステップ ガイド。
 type: docs
 weight: 13
 url: /ja/java/chart-creation/tree-map-chart-java-slides/
 ---
 
-## Java スライドでのツリー マップ チャートの紹介
+## Javaスライドでのツリーマップチャートの紹介
 
-このチュートリアルでは、Aspose.Slides for Java ライブラリを使用して、PowerPoint プレゼンテーションでツリー マップ グラフを作成する方法を示します。ツリー マップ チャートは、階層データを視覚化する効果的な方法です。
+このチュートリアルでは、Aspose.Slides for Java ライブラリを使用して、PowerPoint プレゼンテーションでツリー マップ チャートを作成する方法を説明します。ツリー マップ チャートは、階層データを視覚化する効果的な方法です。
 
 ## 前提条件
 
 始める前に、Java プロジェクトに Aspose.Slides for Java ライブラリが設定されていることを確認してください。
 
-## ステップ 1: 必要なライブラリをインポートする
+## ステップ1: 必要なライブラリをインポートする
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## ステップ 2: プレゼンテーションをロードする
+## ステップ2: プレゼンテーションを読み込む
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## ステップ 3: ツリー マップ チャートを作成する
+## ステップ3: ツリーマップチャートを作成する
 
 ```java
 try {
@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //ブランチ 1 の作成
+    //ブランチ1を作成
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -51,7 +51,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
 
-    //ブランチ 2 の作成
+    //ブランチ2を作成
     leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -78,7 +78,7 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    //ツリー マップ グラフを含むプレゼンテーションを保存する
+    //ツリーマップチャートを含むプレゼンテーションを保存する
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
@@ -96,7 +96,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//ブランチ1
+	//ブランチ 1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -133,22 +133,22 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java ライブラリを使用して PowerPoint プレゼンテーションでツリー マップ グラフを作成する方法を学習しました。ツリー マップ チャートは、階層データを視覚化し、プレゼンテーションをより有益で魅力的なものにするための貴重なツールです。
+このチュートリアルでは、Aspose.Slides for Java ライブラリを使用して、PowerPoint プレゼンテーションでツリー マップ チャートを作成する方法を学習しました。ツリー マップ チャートは、階層データを視覚化するための貴重なツールであり、プレゼンテーションをより情報豊富で魅力的なものにします。
 
 ## よくある質問
 
-### ツリー マップ グラフにデータを追加するにはどうすればよいですか?
+### ツリー マップ チャートにデータを追加するにはどうすればよいですか?
 
-ツリー マップ グラフにデータを追加するには、`series.getDataPoints().addDataPointForTreemapSeries()`メソッドを使用して、データ値をパラメータとして渡します。
+ツリーマップチャートにデータを追加するには、`series.getDataPoints().addDataPointForTreemapSeries()`メソッドは、データ値をパラメータとして渡します。
 
-### ツリー マップ グラフの外観をカスタマイズするにはどうすればよいですか?
+### ツリー マップ チャートの外観をカスタマイズするにはどうすればよいですか?
 
-ツリー マップ チャートのさまざまなプロパティを変更することで、ツリー マップ チャートの外観をカスタマイズできます。`chart`そして`series`色、ラベル、レイアウトなどのオブジェクト。
+ツリーマップチャートの外観は、さまざまなプロパティを変更することでカスタマイズできます。`chart`そして`series`色、ラベル、レイアウトなどのオブジェクト。
 
-### 1 つのプレゼンテーションで複数のツリー マップ グラフを作成できますか?
+### 1 つのプレゼンテーションで複数のツリー マップ チャートを作成できますか?
 
-はい、同じ手順に従い、異なるスライド位置を指定することで、1 つのプレゼンテーションで複数のツリー マップ グラフを作成できます。
+はい、同じ手順に従って異なるスライドの位置を指定することで、1 つのプレゼンテーションで複数のツリー マップ チャートを作成できます。
 
-### ツリー マップ グラフを含むプレゼンテーションを保存するにはどうすればよいですか?
+### ツリー マップ チャートを含むプレゼンテーションを保存するにはどうすればよいですか?
 
-使用`pres.save()`メソッドを使用して、ツリー マップ チャートを含むプレゼンテーションを希望の形式 (PPTX など) で保存します。
+使用`pres.save()`ツリー マップ チャートを含むプレゼンテーションを目的の形式 (例: PPTX) で保存する方法。

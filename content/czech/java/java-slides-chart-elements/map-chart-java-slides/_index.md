@@ -1,6 +1,6 @@
 ---
-title: Map Chart v Java Slides
-linktitle: Map Chart v Java Slides
+title: Mapový graf v Java Slides
+linktitle: Mapový graf v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vytvářejte úžasné mapové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce a zdrojový kód pro vývojáře v jazyce Java.
 type: docs

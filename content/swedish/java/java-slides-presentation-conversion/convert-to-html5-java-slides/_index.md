@@ -73,7 +73,7 @@ try {
 ```java
 // Sökvägen till dokumentkatalogen
 String dataDir = "Your Document Directory";
-// Sökvägen till utdatafilen
+// Sökvägen till utdatafil
 String outFilePath = RunExamples.getOutPath() + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {

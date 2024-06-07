@@ -12,7 +12,7 @@ url: /pl/net/slide-comments-manipulation/
 
 Witamy w samouczku Aspose.Slides na temat manipulacji komentarzami do slajdów! W tym samouczku zagłębimy się w świat zarządzania komentarzami w prezentacjach programu PowerPoint przy użyciu interfejsu API Aspose.Slides dla .NET. Niezależnie od tego, czy chcesz dodać objaśnienia, współpracować z członkami zespołu, czy przekazać opinię na temat prezentacji, możliwość programowego manipulowania komentarzami do slajdów stanowi skuteczny sposób usprawnienia przepływu pracy.
 
-tej serii samouczków dowiesz się, jak wchodzić w interakcję z komentarzami, tworzyć nowe, modyfikować istniejące i organizować je na slajdach. Przeprowadzimy Cię przez cały proces, od dostępu do komentarzy do slajdów po wprowadzanie zmian i zmian w formatowaniu. Pod koniec tego samouczka będziesz mieć wiedzę i umiejętności umożliwiające bezproblemową integrację manipulacji komentarzami do slajdów z aplikacjami .NET, oszczędzając czas i wysiłek.
+tej serii samouczków dowiesz się, jak korzystać z komentarzy, tworzyć nowe, modyfikować istniejące i organizować je na slajdach. Przeprowadzimy Cię przez cały proces, od dostępu do komentarzy do slajdów po wprowadzanie zmian i zmian w formatowaniu. Pod koniec tego samouczka będziesz mieć wiedzę i umiejętności umożliwiające bezproblemową integrację manipulacji komentarzami do slajdów z aplikacjami .NET, oszczędzając czas i wysiłek.
 
 Zatem niezależnie od tego, czy jesteś programistą pragnącym ulepszyć współpracę przy prezentacjach, czy też chcesz zautomatyzować zadania związane z komentarzami, dołącz do nas w tej podróży, aby opanować manipulację komentarzami do slajdów za pomocą Aspose.Slides. Zacznijmy!
 

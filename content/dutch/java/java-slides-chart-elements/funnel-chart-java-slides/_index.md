@@ -57,7 +57,7 @@ Vervolgens definiëren we de gegevens voor ons trechterdiagram. We stellen de ca
 
 Hier wissen we alle bestaande gegevens, voegen we categorieën toe (in dit geval de fasen van de trechter) en stellen we de labels in.
 
-## Stap 4: Gegevenspunten toevoegen
+## Stap 4: gegevenspunten toevoegen
 
 Laten we nu gegevenspunten toevoegen aan onze trechterdiagramreeksen.
 

@@ -18,7 +18,7 @@ url: /ko/java/image-handling/
 
 아직 익숙하지 않다면 이제 Aspose.Slides for Java에 익숙해질 시간입니다. 이 강력한 API를 사용하면 프레젠테이션을 쉽게 생성, 조작 및 최적화할 수 있습니다. 비즈니스 프리젠테이션, 교육 슬라이드 또는 기타 유형의 슬라이드 콘텐츠 작업을 하든 Aspose.Slides for Java가 모든 작업을 처리해 드립니다.
 
- 여행을 시작하려면[Aspose.Slides API 문서](https://reference.aspose.com/slides/java/) 자세한 정보와 참고 자료를 확인하세요. 이는 Aspose.Slides for Java의 기능을 이해하는 데 도움이 되는 리소스입니다.
+ 여행을 시작하려면[Aspose.Slides API 문서](https://reference.aspose.com/slides/java/) 자세한 정보와 참고 자료를 확인하세요. 이것은 Aspose.Slides for Java의 기능을 이해하는 데 도움이 되는 리소스입니다.
 
 ## 튜토리얼 목록
 

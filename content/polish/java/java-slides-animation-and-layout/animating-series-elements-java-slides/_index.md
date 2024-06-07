@@ -22,7 +22,7 @@ Zanim zaczniesz, upewnij się, że masz następujące elementy:
 
 ## Krok 1: Załaduj prezentację
 
-Najpierw musisz załadować prezentację programu PowerPoint zawierającą wykres, który chcesz animować. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
+ Najpierw musisz załadować prezentację programu PowerPoint zawierającą wykres, który chcesz animować. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -113,7 +113,7 @@ Możesz dostosować animację dla poszczególnych elementów wykresu, modyfikuj�
 
 ### Czy mogę zastosować animacje do innych obiektów na slajdzie programu PowerPoint?
 
-Tak, możesz zastosować animacje do różnych obiektów na slajdzie programu PowerPoint, a nie tylko do wykresów. Użyj`addEffect` metoda określająca obiekt, który chcesz animować i żądane właściwości animacji.
+ Tak, możesz zastosować animacje do różnych obiektów na slajdzie programu PowerPoint, a nie tylko do wykresów. Użyj`addEffect` metoda określająca obiekt, który chcesz animować i żądane właściwości animacji.
 
 ### Jak zintegrować Aspose.Slides for Java z moim projektem?
 

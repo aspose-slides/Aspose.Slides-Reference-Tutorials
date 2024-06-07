@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
 }
 ```
 
-## Krok 2: Otevřete snímek a graf
+## Krok 2: Otevřete Snímek a graf
 
 Po načtení prezentace budete potřebovat přístup ke snímku a grafu na tomto snímku. V tomto příkladu předpokládáme, že graf je umístěn na prvním snímku (index 0).
 

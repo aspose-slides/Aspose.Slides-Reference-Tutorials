@@ -84,7 +84,7 @@ Bu kadar! Aspose.Slides for .NET kullanarak bir slayttan başarıyla küçük re
 
 Aspose.Slides for .NET, .NET uygulamalarınızda slayt küçük resimleri oluşturma sürecini basitleştirir. Bu kılavuzda özetlenen adımları izleyerek izleyicilerinizin ilgisini çekecek ilgi çekici slayt önizlemelerini kolayca oluşturabilirsiniz.
 
-İster bir sunum yönetim sistemi oluşturuyor olun, ister iş sunumlarınızı geliştiriyor olun, Aspose.Slides for .NET, PowerPoint belgeleriyle verimli bir şekilde çalışmanıza olanak tanır. Deneyin ve uygulamanızın yeteneklerini geliştirin.
+İster bir sunum yönetim sistemi oluşturuyor olun, ister iş sunumlarınızı geliştiriyor olun, Aspose.Slides for .NET, PowerPoint belgeleriyle verimli bir şekilde çalışmanıza olanak sağlar. Deneyin ve uygulamanızın yeteneklerini geliştirin.
 
  Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa her zaman şu adrese başvurabilirsiniz:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/) veya Aspose topluluğuna kendi adreslerinden ulaşın[destek Forumu](https://forum.aspose.com/).
 

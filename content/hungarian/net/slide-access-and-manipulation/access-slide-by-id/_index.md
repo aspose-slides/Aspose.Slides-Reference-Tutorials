@@ -49,14 +49,14 @@ using (var presentation = new Presentation(presentationPath))
 
 ## Diák elérése egyedi azonosítóval
 
-prezentáció minden diájának egyedi azonosítója van, amellyel hozzá lehet férni. Az azonosító lehet index vagy diaazonosító formájában. Nézzük meg, hogyan használhatjuk mindkét módszert:
+A prezentáció minden diájának egyedi azonosítója van, amellyel hozzá lehet férni. Az azonosító lehet index vagy diaazonosító formájában. Nézzük meg, hogyan használhatjuk mindkét módszert:
 
 ## Hozzáférés az Indexen keresztül
 
 A dia elérése indexe alapján:
 
 ```csharp
-int slideIndex = 0; // Cserélje ki a kívánt indexszel
+int slideIndex = 0; //Cserélje ki a kívánt indexszel
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

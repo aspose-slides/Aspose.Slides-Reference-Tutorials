@@ -16,7 +16,7 @@ Bu eğitimde Aspose.Slides for Java'yı kullanarak bir PowerPoint grafiğinde ka
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Slides for Java kütüphanesi (şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java kütüphanesi (şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/java/).
 2. Java geliştirme ortamı kuruldu.
 
 ## 1. Adım: PowerPoint Sunusu Oluşturun
@@ -138,4 +138,4 @@ Evet, aynı sunum içerisinde farklı grafiklerde kategori eksenleri için farkl
 
 ### Grafiğe nasıl daha fazla veri noktası eklerim?
 
- Grafiğe daha fazla veri noktası eklemek için`getDataPoints().addDataPointForLineSeries` veri serisi üzerinde yöntem ve veri değerlerini sağlar.
+ Grafiğe daha fazla veri noktası eklemek için`getDataPoints().addDataPointForLineSeries`veri serisi üzerinde yöntem ve veri değerlerini sağlar.

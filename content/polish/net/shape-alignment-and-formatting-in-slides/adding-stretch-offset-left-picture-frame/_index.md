@@ -11,7 +11,7 @@ url: /pl/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programistom łatwe manipulowanie prezentacjami programu PowerPoint. W tym samouczku omówimy proces dodawania przesunięcia rozciągania w lewo dla ramki obrazu przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności pracy z obrazami i kształtami w prezentacjach programu PowerPoint.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Jeśli nie, pobierz go z[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Jeśli nie, pobierz go z[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
 - Środowisko programistyczne: Posiadaj działające środowisko programistyczne z możliwościami .NET.
 ## Importuj przestrzenie nazw
 Rozpocznij od zaimportowania niezbędnych przestrzeni nazw do projektu .NET:
@@ -73,10 +73,10 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
 ```
 Gratulacje! Pomyślnie dodałeś przesunięcie rozciągania w lewo dla ramki obrazu przy użyciu Aspose.Slides dla .NET.
 ## Wniosek
-W tym samouczku omówiliśmy proces manipulowania ramkami obrazów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, uzyskałeś wgląd w pracę z obrazami, kształtami i przesunięciami.
+tym samouczku omówiliśmy proces manipulowania ramkami obrazów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, uzyskałeś wgląd w pracę z obrazami, kształtami i przesunięciami.
 ## Często Zadawane Pytania
 ### P: Czy mogę zastosować przesunięcia rozciągania do innych kształtów oprócz prostokątów?
-Odp.: Chociaż ten samouczek skupia się na prostokątach, przesunięcia rozciągania można zastosować do różnych kształtów obsługiwanych przez Aspose.Slides.
+Odp.: Chociaż ten samouczek koncentruje się na prostokątach, przesunięcia rozciągania można zastosować do różnych kształtów obsługiwanych przez Aspose.Slides.
 ### P: Jak mogę dostosować przesunięcia rozciągania dla różnych efektów?
 Odp.: Eksperymentuj z różnymi wartościami przesunięcia, aby uzyskać pożądany efekt wizualny. Dostosuj wartości tak, aby odpowiadały Twoim konkretnym wymaganiom.
 ### P: Czy Aspose.Slides jest kompatybilny z najnowszym frameworkiem .NET?

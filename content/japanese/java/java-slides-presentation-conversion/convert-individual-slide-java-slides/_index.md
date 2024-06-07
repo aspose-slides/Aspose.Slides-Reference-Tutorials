@@ -1,33 +1,33 @@
 ---
-title: Java スライドの個々のスライドを変換する
-linktitle: Java スライドの個々のスライドを変換する
+title: Java スライドで個々のスライドを変換する
+linktitle: Java スライドで個々のスライドを変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用したコード例を使用して、個々の PowerPoint スライドを HTML に変換する方法を段階的に学習します。
+description: Aspose.Slides for Java を使用して、コード例とともに、個々の PowerPoint スライドを HTML に変換する方法を段階的に学習します。
 type: docs
 weight: 12
 url: /ja/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
 
-## Java スライドの個々のスライドの変換の概要
+## Java スライドで個々のスライドを変換する方法の紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションから HTML に個々のスライドを変換するプロセスを説明します。このステップバイステップ ガイドでは、このタスクを達成するために役立つソース コードと説明を提供します。
+このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの個々のスライドを HTML に変換するプロセスについて説明します。このステップ バイ ステップ ガイドでは、このタスクを実行するのに役立つソース コードと説明を提供します。
 
 ## 前提条件
 
-始める前に、以下のものがあることを確認してください。
+始める前に、以下のものを用意してください。
 
-- Aspose.Slides for Java ライブラリがインストールされています。
-- PowerPoint プレゼンテーション ファイル (`Individual-Slide.pptx`) 変換したいものを選択します。
-- Java開発環境のセットアップ。
+- Aspose.Slides for Java ライブラリがインストールされました。
+- PowerPointプレゼンテーションファイル（`Individual-Slide.pptx`）を選択します。
+- Java開発環境をセットアップしました。
 
-## ステップ 1: プロジェクトをセットアップする
+## ステップ1: プロジェクトを設定する
 
 1. 好みの開発環境で Java プロジェクトを作成します。
 2. Aspose.Slides for Java ライブラリをプロジェクトに追加します。
 
-## ステップ 2: 必要なクラスをインポートする
+## ステップ2: 必要なクラスをインポートする
 
-Java クラスで、必要なクラスをインポートし、初期構成をセットアップします。
+Java クラスで、必要なクラスをインポートし、初期構成を設定します。
 
 ```java
 import com.aspose.slides.HtmlOptions;
@@ -42,9 +42,9 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.IShape;
 ```
 
-## ステップ 3: 主な変換方法を定義する
+## ステップ3: 主な変換方法を定義する
 
-個々のスライドの変換を実行するメソッドを作成します。必ず交換してください`"Your Document Directory"`ドキュメントディレクトリへの実際のパスを置き換えます。
+個々のスライドの変換を実行するメソッドを作成します。必ず置き換えてください。`"Your Document Directory"`ドキュメント ディレクトリへの実際のパスを入力します。
 
 ```java
 public static void convertIndividualSlides() {
@@ -56,7 +56,7 @@ public static void convertIndividualSlides() {
         INotesCommentsLayoutingOptions notesOptions = htmlOptions.getNotesCommentsLayouting();
         notesOptions.setNotesPosition(NotesPositions.BottomFull);
         
-        //ファイルの保存
+        //ファイルを保存しています
         for (int i = 0; i < presentation.getSlides().size(); i++) {
             presentation.save(dataDir + "Individual-Slide" + (i + 1) + "_out.html", new int[]{i + 1}, SaveFormat.Html, htmlOptions);
         }
@@ -66,9 +66,9 @@ public static void convertIndividualSlides() {
 }
 ```
 
-## ステップ 4: CustomFormattingController を実装する
+## ステップ4: CustomFormattingControllerを実装する
 
-を作成します。`CustomFormattingController`変換中にカスタム書式設定を処理するクラス。
+作成する`CustomFormattingController`変換中にカスタム書式を処理するクラス。
 
 ```java
 public static class CustomFormattingController implements IHtmlFormattingController {
@@ -97,9 +97,9 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 }
 ```
 
-## ステップ 5: 変換を実行する
+## ステップ5: 変換を実行する
 
-最後に、`convertIndividualSlides`変換処理を実行するメソッドです。
+最後に、`convertIndividualSlides`変換プロセスを実行する方法。
 
 ```java
 public static void main(String[] args) {
@@ -107,7 +107,7 @@ public static void main(String[] args) {
 }
 ```
 
-## Java スライドの個々のスライドを変換するための完全なソース コード
+## Java スライドで個々のスライドを変換するための完全なソース コード
 
 ```java
 	String dataDir = "Your Document Directory";
@@ -118,7 +118,7 @@ public static void main(String[] args) {
 		htmlOptions.setHtmlFormatter(HtmlFormatter.createCustomFormatter(new CustomFormattingController()));
 		INotesCommentsLayoutingOptions notesOptions = htmlOptions.getNotesCommentsLayouting();
 		notesOptions.setNotesPosition(NotesPositions.BottomFull);
-		//ファイルの保存
+		//ファイルを保存しています
 		for (int i = 0; i < presentation.getSlides().size(); i++)
 			presentation.save(dataDir + "Individual Slide" + i + 1 + "_out.html", new int[]{i + 1}, SaveFormat.Html, htmlOptions);
 	}
@@ -155,18 +155,18 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## 結論
 
-Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションから HTML に個々のスライドを正常に変換しました。このチュートリアルでは、このタスクを達成するために必要なコードと手順を説明しました。特定の要件に合わせて、必要に応じて出力と形式を自由にカスタマイズしてください。
+Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの個々のスライドを HTML に正常に変換できました。このチュートリアルでは、このタスクを実行するために必要なコードと手順を説明しました。特定の要件に応じて、出力と書式を自由にカスタマイズしてください。
 
 ## よくある質問
 
 ### HTML 出力をさらにカスタマイズするにはどうすればよいですか?
 
- HTML 出力をカスタマイズするには、`CustomFormattingController`クラス。を調整します。`writeSlideStart`そして`writeSlideEnd`スライドの HTML 構造とスタイルを変更するメソッド。
+ HTML出力をカスタマイズするには、`CustomFormattingController`クラス。調整する`writeSlideStart`そして`writeSlideEnd`スライドの HTML 構造とスタイルを変更する方法。
 
 ### 複数の PowerPoint プレゼンテーションを一度に変換できますか?
 
-はい、コードを変更して、複数のプレゼンテーション ファイルをループし、それらを個別に変換することができます。`convertIndividualSlides`それぞれのプレゼンテーションの方法。
+はい、複数のプレゼンテーションファイルをループして、呼び出して個別に変換するようにコードを変更することができます。`convertIndividualSlides`各プレゼンテーションの方法。
 
-### スライド内の図形やテキストの追加の書式設定を処理するにはどうすればよいですか?
+### スライド内の図形やテキストの追加の書式設定をどのように処理すればよいですか?
 
-延長することができます`CustomFormattingController`を実装することで形状固有の書式を処理するクラス`writeShapeStart`そして`writeShapeEnd`メソッドを作成し、そのメソッド内でカスタム書式設定ロジックを適用します。
+延長することができます`CustomFormattingController`図形固有の書式設定を処理するクラスを実装することで、`writeShapeStart`そして`writeShapeEnd`メソッドを作成し、その中でカスタム書式設定ロジックを適用します。

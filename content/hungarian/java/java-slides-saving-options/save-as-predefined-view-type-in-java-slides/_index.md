@@ -29,7 +29,7 @@ A kezdéshez kövesse az alábbi lépéseket a fejlesztői környezet beállít�
 
 Most, hogy a környezet be van állítva, folytassuk a kóddal.
 
-## 1. lépés: Prezentáció létrehozása
+## 1. lépés: Prezentáció készítése
 
 Egy prezentáció előre meghatározott nézettípussal történő mentésének demonstrálásához először létrehozunk egy új bemutatót. Íme a kód a prezentáció létrehozásához:
 

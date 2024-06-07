@@ -14,7 +14,7 @@ url: /sv/java/customization-and-formatting/
 
 Aspose.Slides för Java är ett robust och mångsidigt bibliotek som ger Java-utvecklare möjlighet att skapa, ändra och formatera presentationer med lätthet. Oavsett om du arbetar med företagspresentationer, utbildningsbilder eller någon annan typ av visuellt innehåll, tillhandahåller Aspose.Slides de verktyg du behöver för att få dina presentationer att sticka ut.
 
-## Steg-för-steg-instruktioner
+## Steg-för-steg tutorials
 
 Våra handledningar täcker ett brett utbud av ämnen relaterade till anpassning och formatering av Java-bilder. Från grundläggande uppgifter som att lägga till och ordna bilder till mer avancerade tekniker som att tillämpa animationer och övergångar, vi har dig täckt. Varje handledning är utformad för att vara nybörjarvänlig samtidigt som den ger insikter för erfarna utvecklare.
 
@@ -36,7 +36,7 @@ Med Aspose.Slides för Java lär du dig hur du:
 ### [Lägga till anpassade linjer i Java Slides](./adding-custom-lines-java-slides/)
 Förbättra dina Java-bilder med anpassade linjer. Steg-för-steg-guide med Aspose.Slides för Java. Lär dig att lägga till och anpassa rader i presentationer för effektfulla bilder.
 ### [Teckensnittsegenskaper för diagram i Java Slides](./font-properties-for-chart-java-slides/)
-Förbättra diagramtypsnittsegenskaper i Java Slides med Aspose.Slides för Java. Anpassa teckenstorlek, stil och färg för effektfulla presentationer.
+Förbättra diagramteckensnittsegenskaper i Java Slides med Aspose.Slides för Java. Anpassa teckenstorlek, stil och färg för effektfulla presentationer.
 ### [Teckensnittsegenskaper för individuella förklaringar i Java Slides](./font-properties-individual-legend-java-slides/)
 Förbättra PowerPoint-presentationer med anpassade teckensnittsstilar, storlekar och färger för enskilda legender i Java Slides med Aspose.Slides för Java.
 ### [Dölj information från diagram i Java Slides](./hide-information-chart-java-slides/)

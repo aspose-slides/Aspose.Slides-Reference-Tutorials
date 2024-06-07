@@ -18,7 +18,7 @@ Aspose.Slides for .NET 為 PowerPoint 處理的各個方面提供了全面的教
 揭開使用 Aspose.Slides for .NET 有效匯出簡報的秘密。這些教程將引導您完成將簡報匯出為各種文件格式的過程，確保相容性和高品質的輸出。深入了解自訂匯出設定、保留投影片內容以及在不同平台上實現一致的結果。
 
 ## PowerPoint 處理： 
-使用涵蓋一系列進階技術的 Aspose.Slides for .NET 教學來提升您的 PowerPoint 處理能力。了解如何以程式設計方式操作 PowerPoint 檔案、自動執行重複任務以及提高簡報工作流程的效率。從資料擷取到動態內容生成，這些教學課程使您能夠最大限度地發揮 PowerPoint 處理的潛力。
+使用涵蓋一系列進階技術的 Aspose.Slides for .NET 教學來提升您的 PowerPoint 處理能力。了解如何以程式設計方式操作 PowerPoint 文件、自動執行重複任務以及提高簡報工作流程的效率。從資料擷取到動態內容生成，這些教學課程使您能夠最大限度地發揮 PowerPoint 處理的潛力。
 
 
 ## 簡報轉換教學

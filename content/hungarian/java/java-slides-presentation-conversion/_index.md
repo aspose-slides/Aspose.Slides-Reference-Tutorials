@@ -62,7 +62,7 @@ Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat GIF-képekké Java
 ### [Konvertálás HTML5-re a Java Slides alkalmazásban](./convert-to-html5-java-slides/)
 Konvertálja a PowerPoint prezentációkat HTML5 formátumba Java nyelven az Aspose.Slides segítségével. Ismerje meg az átalakítási folyamat automatizálását lépésenkénti kódpéldákkal.
 ### [Konvertálás Markdown-ra a Java Slides-ben](./convert-to-markdown-java-slides/)
-Konvertálja a PowerPoint prezentációkat Markdown formátumba az Aspose.Slides for Java segítségével. Kövesse ezt a lépésről lépésre útmutatót, hogy könnyedén átalakítsa diákjait.
+Konvertálja a PowerPoint prezentációkat Markdown formátumba az Aspose.Slides for Java segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót, hogy könnyedén átalakítsa diákjait.
 ### [Konvertálja PDF-be a Java Slides alkalmazásban](./convert-to-pdf-java-slides/)
 Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat PDF formátumba Java nyelven az Aspose.Slides for Java segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal és a GYIK-kal a zökkenőmentes PowerPoint-PDF konvertálás érdekében.
 ### [Konvertálás PDF-kompatibilitásra a Java Slides alkalmazásban](./convert-pdf-compliance-java-slides/)

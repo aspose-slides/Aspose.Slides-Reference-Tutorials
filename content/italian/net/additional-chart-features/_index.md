@@ -12,7 +12,7 @@ url: /it/net/additional-chart-features/
 
 Benvenuti nella guida completa sull'esplorazione di funzionalità grafiche aggiuntive in Aspose.Slides per .NET. In questo tutorial, approfondiremo le funzionalità avanzate dell'API Aspose.Slides che ti consentono di creare, personalizzare e migliorare i grafici all'interno delle presentazioni di PowerPoint. Che tu sia uno sviluppatore esperto o nuovo in Aspose.Slides, questa guida ti fornirà le conoscenze e gli strumenti per portare la manipolazione dei grafici al livello successivo.
 
-## Scatenare le funzionalità grafiche avanzate
+## Sfruttare le funzionalità grafiche avanzate
 
 Aspose.Slides per .NET offre una vasta gamma di funzionalità grafiche aggiuntive che ti consentono di creare presentazioni visivamente accattivanti e ricche di dati. Con questa potente API puoi andare oltre la semplice creazione di grafici ed esplorare funzionalità avanzate come:
 

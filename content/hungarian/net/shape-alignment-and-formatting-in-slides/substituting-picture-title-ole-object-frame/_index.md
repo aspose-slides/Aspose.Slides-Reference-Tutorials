@@ -71,7 +71,7 @@ oof.SubstitutePictureTitle = "Caption example";
 ```
 Állítsa be az OLE ikon kívánt feliratát.
 ## Következtetés
-Az OLE-objektumok beépítése a prezentációs diákba az Aspose.Slides for .NET segítségével egyszerű folyamat. Ez az oktatóanyag végigvezeti Önt az alapvető lépéseken, a dokumentumkönyvtár beállításától az OLE-objektumok hozzáadásáig és testreszabásáig. Kísérletezzen különböző fájltípusokkal és feliratokkal, hogy fokozza prezentációinak vizuális vonzerejét.
+Az OLE-objektumok beépítése a prezentációs diákba az Aspose.Slides for .NET használatával egyszerű folyamat. Ez az oktatóanyag végigvezeti Önt az alapvető lépéseken, a dokumentumkönyvtár beállításától az OLE-objektumok hozzáadásáig és testreszabásáig. Kísérletezzen különböző fájltípusokkal és feliratokkal, hogy fokozza prezentációinak vizuális vonzerejét.
 ## GYIK
 ### Beágyazhatok más típusú fájlokat OLE-objektumként az Aspose.Slides használatával?
 Igen, az Aspose.Slides támogatja a különféle típusú fájlok, például Excel-táblázatok, Word-dokumentumok és egyebek beágyazását.

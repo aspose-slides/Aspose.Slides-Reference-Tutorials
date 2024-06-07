@@ -141,7 +141,7 @@ chart.Axes.VerticalAxis.MajorUnit = 2.0f;
 
 Aquí, usted especifica el rango de valores que debe mostrar el eje del gráfico.
 
-## Paso 9: Personalizar las propiedades del texto del eje de valores
+## Paso 9: personalizar las propiedades del texto del eje de valores
 
 También puede personalizar las propiedades de texto del eje de valores.
 

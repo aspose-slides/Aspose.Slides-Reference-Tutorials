@@ -52,7 +52,7 @@ In questo passaggio creiamo una forma di diagramma a scatola nella prima diaposi
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- In questo passaggio definiamo le categorie per il Box Chart. Noi usiamo il`IChartDataWorkbook`per aggiungere categorie ed etichettarle di conseguenza.
+ In questo passaggio definiamo le categorie per il Box Chart. Noi usiamo il`IChartDataWorkbook` per aggiungere categorie ed etichettarle di conseguenza.
 
 ## Passaggio 4: crea la serie
 

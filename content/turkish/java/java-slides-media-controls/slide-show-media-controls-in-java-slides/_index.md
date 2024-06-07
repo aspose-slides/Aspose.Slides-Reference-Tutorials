@@ -10,7 +10,7 @@ url: /tr/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ## Java Slaytlarındaki Slayt Gösterisi Medya Kontrollerine Giriş
 
-Dinamik ve ilgi çekici sunumlar alanında multimedya öğeleri izleyicinin dikkatini çekmede çok önemli bir rol oynar. Java Slides, Aspose.Slides for Java'nın yardımıyla geliştiricilerin medya kontrollerini sorunsuz bir şekilde birleştiren büyüleyici slayt gösterileri oluşturmasına olanak tanır. İster bir eğitim modülü, ister bir satış konuşması, ister eğitim amaçlı bir sunum tasarlıyor olun, slayt gösterisi sırasında medyayı kontrol etme yeteneği oyunun kurallarını değiştirir.
+Dinamik ve ilgi çekici sunumlar alanında multimedya öğeleri izleyicinin dikkatini çekmede çok önemli bir rol oynar. Java Slides, Aspose.Slides for Java'nın yardımıyla geliştiricilerin medya kontrollerini sorunsuz bir şekilde birleştiren büyüleyici slayt gösterileri oluşturmasına olanak tanır. İster bir eğitim modülü, ister bir satış konuşması veya eğitimsel bir sunum tasarlıyor olun, slayt gösterisi sırasında medyayı kontrol etme yeteneği oyunun kurallarını değiştirir.
 
 ## Önkoşullar
 

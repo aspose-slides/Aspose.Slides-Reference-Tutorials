@@ -1,26 +1,26 @@
 ---
-title: Java スライドの引出線の色
-linktitle: Java スライドの引出線の色
+title: Java スライドのリーダー ラインの色
+linktitle: Java スライドのリーダー ラインの色
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して PowerPoint グラフの引出線の色を変更する方法を学びます。ソースコード例を含むステップバイステップのガイド。
+description: Aspose.Slides for Java を使用して PowerPoint グラフのリーダー ラインの色を変更する方法を学びます。ソース コードの例を含むステップ バイ ステップ ガイド。
 type: docs
 weight: 12
 url: /ja/java/data-manipulation/leader-line-color-java-slides/
 ---
 
-## Aspose.Slides for Java の引出線の色の概要
+## Aspose.Slides for Java のリーダー ラインの色の紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのグラフの引出線の色を変更する方法を説明します。引出線は、データ ラベルを対応するデータ ポイントに接続するためにグラフで使用されます。このタスクを実行するには Java コードを使用します。
+このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションのグラフのリーダー ラインの色を変更する方法について説明します。リーダー ラインは、グラフでデータ ラベルを対応するデータ ポイントに接続するために使用されます。このタスクを実行するには、Java コードを使用します。
 
 ## 前提条件
 
-始める前に、以下のものがあることを確認してください。
+始める前に、次のものがあることを確認してください。
 
--  Aspose.Slides for Java API がインストールされています。からダウンロードできます[ここ](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java APIがインストールされています。ここからダウンロードできます。[ここ](https://releases.aspose.com/slides/java/).
 
-## ステップ 1: プレゼンテーションをロードする
+## ステップ1: プレゼンテーションを読み込む
 
-まず、変更するグラフを含む PowerPoint プレゼンテーションをロードする必要があります。交換する`presentationName` PowerPoint ファイルへのパスを含めます。
+まず、変更したいグラフを含むPowerPointプレゼンテーションを読み込む必要があります。`presentationName` PowerPoint ファイルへのパスを入力します。
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -28,55 +28,55 @@ String outPath = "output/path/output.pptx";
 Presentation pres = new Presentation(presentationName);
 ```
 
-## ステップ 2: グラフとデータ ラベルにアクセスする
+## ステップ2: グラフとデータラベルにアクセスする
 
-次に、プレゼンテーション内のグラフとデータ ラベルにアクセスします。この例では、グラフが最初のスライドにあると仮定します。
+次に、プレゼンテーション内のグラフとデータ ラベルにアクセスします。この例では、グラフが最初のスライドにあると想定しています。
 
 ```java
-//最初のスライドからグラフを取得する
+//最初のスライドからグラフを取得します
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-//チャートの系列を取得する
+//チャートのシリーズを取得する
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 //最初のシリーズのラベルを取得する
 IDataLabelCollection labels = series.get_Item(0).getLabels();
 ```
 
-## ステップ 3: 引出線の色を変更する
+## ステップ3: 引出線の色を変更する
 
-ここで、コレクション内のすべての引出線の色を赤に変更します。要件に応じて色をカスタマイズできます。
+ここで、コレクション内のすべての引き出し線の色を赤に変更します。色は必要に応じてカスタマイズできます。
 
 ```java
-//コレクション内のすべての引出線の色を赤に変更します。
+//コレクション内のすべての引き出し線の色を赤に変更します
 labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-## ステップ 4: 変更したプレゼンテーションを保存する
+## ステップ4: 変更したプレゼンテーションを保存する
 
-最後に、引出線の色を変更したプレゼンテーションを新しいファイルに保存します。
+最後に、引き出し線の色を変更したプレゼンテーションを新しいファイルに保存します。
 
 ```java
 //変更したプレゼンテーションを保存する
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-## Java スライドの引出線の色の完全なソース コード
+## Java スライドのリーダー ライン カラーの完全なソース コード
 
 ```java
         String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
         String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
-            //最初のスライドからグラフを取得する
+            //最初のスライドからグラフを取得します
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            //チャートの系列を取得する
+            //チャートのシリーズを取得する
             IChartSeriesCollection series = chart.getChartData().getSeries();
             //最初のシリーズのレベルを取得する
             IDataLabelCollection labels = series.get_Item(0).getLabels();
-            //コレクション内のすべての引出線の色を変更します
+            //コレクション内のすべての引き出し線の色を変更する
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-            //結果を保存する
+            //結果を保存
             pres.save(outPath, SaveFormat.Pptx);
         } finally {
             if (pres != null) pres.dispose();
@@ -85,34 +85,34 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint グラフの引出線の色を変更する方法を学習しました。特定のニーズに合わせて色やその他の書式設定オプションをカスタマイズできます。これは、グラフ内の特定のデータ ポイントを強調表示して視覚的にわかりやすくする場合に特に便利です。
+このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint グラフのリーダー ラインの色を変更する方法を学習しました。色やその他の書式設定オプションをカスタマイズして、特定のニーズを満たすことができます。これは、グラフ内の特定のデータ ポイントを強調表示して視覚化を向上させる場合に特に便利です。
 
 ## よくある質問
 
-### 引出線の色をカスタム色に変更できますか?
+### リーダーラインの色をカスタムカラーに変更できますか?
 
-はい、引出線の色をカスタム色に変更できます。提供されたコード例では、引出線の色を赤 (Color.RED) に設定します。 「Color.RED」を Java の他の有効な色に置き換えて、引出線に必要な色を実現できます。
+はい、引出線の色をカスタム色に変更できます。提供されているコード例では、引出線の色を赤 (Color.RED) に設定しています。引出線に希望の色を設定するには、「Color.RED」を Java で有効な他の色に置き換えます。
 
 ### Aspose.Slides for Java を使用して他のグラフ プロパティにアクセスし、変更するにはどうすればよいですか?
 
-他のグラフ プロパティにアクセスして変更するには、Aspose.Slides for Java の Chart API によって提供されるさまざまなクラスとメソッドを探索できます。グラフのデータ、書式設定、ラベルなどを操作できます。詳細情報とコード例については、Aspose.Slides for Java のドキュメントを参照してください。
+その他のグラフ プロパティにアクセスして変更するには、Aspose.Slides for Java のグラフ API で提供されるさまざまなクラスとメソッドを調べることができます。グラフ データ、書式設定、ラベルなどを操作できます。詳細情報とコード例については、Aspose.Slides for Java のドキュメントを参照してください。
 
-### Aspose.Slides for Java の試用版は利用可能ですか?
+### Aspose.Slides for Java の試用版はありますか?
 
-はい、Aspose Web サイトから Aspose.Slides for Java の無料試用版をリクエストできます。試用版を使用すると、購入を決定する前にライブラリの機能を評価できます。訪問[Aspose.Slides for Java の無料トライアル ページ](https://products.aspose.com/slides/java)始めるために。
+はい、Aspose.Slides for Javaの無料試用版をAsposeのWebサイトからリクエストできます。試用版では、購入を決定する前にライブラリの機能と機能を評価できます。[Aspose.Slides for Java 無料トライアルページ](https://products.aspose.com/slides/java)始めましょう。
 
 ### Aspose.Slides for Java の使用について詳しく知るにはどうすればよいですか?
 
- Aspose Web サイトでは、Aspose.Slides for Java の使用方法に関する包括的なドキュメントと追加のコード例を見つけることができます。訪問[Aspose.Slides for Java ドキュメント](https://docs.aspose.com/slides/java/)詳細なガイドとチュートリアルについては、
+ Aspose.Slides for Javaの使用方法に関する包括的なドキュメントと追加のコード例は、AsposeのWebサイトでご覧いただけます。[Aspose.Slides for Java ドキュメント](https://docs.aspose.com/slides/java/)詳細なガイドとチュートリアルをご覧ください。
 
-### 商用プロジェクトで Aspose.Slides for Java を使用するにはライセンスが必要ですか?
+### Aspose.Slides for Java を商用プロジェクトで使用するにはライセンスが必要ですか?
 
-はい、通常、商用プロジェクトで Aspose.Slides for Java を使用するには、有効なライセンスが必要です。 Aspose は、テストや試用を目的とした無料の評価ライセンスを含む、さまざまなライセンス オプションを提供します。ただし、運用環境で使用する場合は、適切な商用ライセンスを取得する必要があります。訪問[Aspose購入ページ](https://purchase.aspose.com/)ライセンスの詳細については、
+はい、通常、商用プロジェクトで Aspose.Slides for Java を使用するには有効なライセンスが必要です。Aspose では、テストや試用を目的とした無料の評価ライセンスなど、さまざまなライセンス オプションを提供しています。ただし、実稼働で使用する場合は、適切な商用ライセンスを取得する必要があります。[Aspose 購入ページ](https://purchase.aspose.com/)ライセンスの詳細については、こちらをご覧ください。
 
 ### Aspose.Slides for Java のテクニカル サポートを受けるにはどうすればよいですか?
 
-Aspose サポート フォーラムにアクセスすると、Aspose.Slides for Java のテクニカル サポートを受けることができます。ここでは、質問したり、問題を報告したり、Aspose コミュニティと交流したりできます。さらに、有効な商用ライセンスをお持ちの場合は、Aspose から直接テクニカル サポートを受ける資格がある場合があります。
+Aspose.Slides for Java のテクニカル サポートを受けるには、Aspose サポート フォーラムにアクセスしてください。フォーラムでは、質問したり、問題を報告したり、Aspose コミュニティと交流したりできます。また、有効な商用ライセンスをお持ちの場合は、Aspose から直接テクニカル サポートを受けることができます。
 
 ### Aspose.Slides for Java を他の Java ライブラリやフレームワークと一緒に使用できますか?
 
-はい、プロジェクトの必要に応じて、Aspose.Slides for Java を他の Java ライブラリおよびフレームワークと統合できます。 Aspose.Slides は、PowerPoint のさまざまな機能を操作するための API を提供し、他のツールやテクノロジと組み合わせて強力なアプリケーションを作成できるようにします。
+はい、プロジェクトの必要に応じて、Aspose.Slides for Java を他の Java ライブラリやフレームワークと統合できます。Aspose.Slides はさまざまな PowerPoint 機能を操作するための API を提供するため、他のツールやテクノロジと組み合わせて強力なアプリケーションを作成できます。

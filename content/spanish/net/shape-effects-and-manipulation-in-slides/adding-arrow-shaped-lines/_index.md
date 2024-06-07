@@ -74,7 +74,7 @@ Sí, Aspose.Slides es compatible con .NET Core, lo que le permite aprovechar sus
 ### ¿Puedo personalizar aún más los estilos de punta de flecha?
 ¡Absolutamente! Aspose.Slides ofrece opciones integrales para personalizar longitudes, estilos y más de las puntas de flecha.
 ### ¿Dónde puedo encontrar documentación adicional de Aspose.Slides?
- Explora la documentación[aquí](https://reference.aspose.com/slides/net/) para obtener información detallada y ejemplos.
+ Explora la documentación[aquí](https://reference.aspose.com/slides/net/)para obtener información detallada y ejemplos.
 ### ¿Hay una prueba gratuita disponible?
  Sí, puedes experimentar Aspose.Slides con una prueba gratuita. Descargalo[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.Slides?

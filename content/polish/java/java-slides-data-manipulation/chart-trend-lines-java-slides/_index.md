@@ -173,11 +173,11 @@ W tym samouczku nauczyliśmy się, jak dodawać różne typy linii trendu do wyk
 
 ### Jak zmienić kolor linii trendu w Aspose.Slides dla Java?
 
-Aby zmienić kolor linii trendu, możesz użyć opcji`getSolidFillColor().setColor(Color)` metodę, jak pokazano w przykładzie dodawania linii trendu liniowego.
+ Aby zmienić kolor linii trendu, możesz użyć opcji`getSolidFillColor().setColor(Color)` metodę, jak pokazano w przykładzie dodawania linii trendu liniowego.
 
 ### Czy mogę dodać wiele linii trendu do jednej serii wykresów?
 
- Tak, możesz dodać wiele linii trendu do jednej serii wykresów. Po prostu zadzwoń`getTrendLines().add()` dla każdej linii trendu, którą chcesz dodać.
+Tak, możesz dodać wiele linii trendu do jednej serii wykresów. Po prostu zadzwoń`getTrendLines().add()` dla każdej linii trendu, którą chcesz dodać.
 
 ### Jak usunąć linię trendu z wykresu w Aspose.Slides dla Java?
 

@@ -94,7 +94,7 @@ presentation.Save("SampleTransition_out.pptx", SaveFormat.Pptx);
 
 ## 결론
 
-이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 매혹적인 슬라이드 전환 효과로 PowerPoint 프레젠테이션을 향상시키는 방법을 살펴보았습니다. 여기에 설명된 단계를 따르면 청중에게 지속적인 영향을 미치는 매력적이고 역동적인 프레젠테이션을 만들 수 있습니다.
+이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 매력적인 슬라이드 전환 효과로 PowerPoint 프레젠테이션을 향상시키는 방법을 살펴보았습니다. 여기에 설명된 단계를 따르면 청중에게 지속적인 영향을 미치는 매력적이고 역동적인 프레젠테이션을 만들 수 있습니다.
 
  자세한 내용과 고급 기능은 .NET용 Aspose.Slides 설명서를 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/)
 

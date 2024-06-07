@@ -41,7 +41,7 @@ Bây giờ, hãy viết mã Java để xác minh định dạng bản trình bà
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Nó sẽ trả về "LoadFormat.Unknown" nếu tệp không phải là định dạng bản trình bày
+//Nó sẽ trả về "LoadFormat.Unknown" nếu tệp không phải là định dạng bản trình bày
 ```
 
  Trong mã này, chúng tôi sử dụng`PresentationFactory` để lấy thông tin về tập tin trình bày, bao gồm cả định dạng của nó. Nếu tệp không phải là định dạng bản trình bày hợp lệ, nó sẽ trả về "LoadFormat.Unknown."
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Đường dẫn đến thư mục tài liệu.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Nó sẽ trả về "LoadFormat.Unknown" nếu tệp không phải là định dạng bản trình bày
+        //Nó sẽ trả về "LoadFormat.Unknown" nếu tệp không phải là định dạng bản trình bày
 ```
 
 ## Phần kết luận
@@ -75,7 +75,7 @@ Có, Aspose.Slides for Java có thể được sử dụng trong các ứng dụ
 
 ### Có bất kỳ tính năng bổ sung nào được Aspose.Slides cho Java cung cấp không?
 
-Tuyệt đối! Aspose.Slides for Java cung cấp nhiều tính năng để làm việc với bản trình bày, bao gồm tạo, chỉnh sửa, chuyển đổi và thao tác với các trang trình bày. Khám phá tài liệu để biết danh sách đầy đủ các khả năng.
+Tuyệt đối! Aspose.Slides cho Java cung cấp nhiều tính năng để làm việc với bản trình bày, bao gồm tạo, chỉnh sửa, chuyển đổi và thao tác với các trang chiếu. Khám phá tài liệu để biết danh sách đầy đủ các khả năng.
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Slides cho Java ở đâu?
 

@@ -58,7 +58,7 @@ try {
 ```java
         // Belgeler dizininin yolu.
         String dataDir = "Your Document Directory";
-        // Dosya yolunu Sunum sınıfının yapıcısına ileterek sunum dosyasını açma
+        //Dosya yolunu Sunum sınıfının yapıcısına ileterek sunum dosyasını açma
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

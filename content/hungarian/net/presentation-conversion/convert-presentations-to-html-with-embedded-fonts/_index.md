@@ -93,9 +93,9 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen átalakította prezentációját beágyazott betűtípusokkal rendelkező HTML formátumba az Aspose.Slides for .NET segítségével. Ez biztosítja, hogy a betűtípusok megfelelően jelenjenek meg prezentációi online megosztása során.
+Gratulálunk! Sikeresen átalakította prezentációját beágyazott betűtípusokkal rendelkező HTML-formátumba az Aspose.Slides for .NET segítségével. Ez biztosítja, hogy a betűtípusok megfelelően jelenjenek meg prezentációi online megosztása során.
 
-Mostantól könnyedén megoszthatja gyönyörűen formázott prezentációit magabiztosan, tudva, hogy a közönsége pontosan úgy fogja látni őket, ahogyan azt szerette volna.
+Mostantól könnyedén megoszthatja gyönyörűen formázott prezentációit magabiztosan, tudva, hogy a közönség pontosan úgy fogja látni őket, ahogyan azt szerette volna.
 
  További információkért és részletes API-referenciákért tekintse meg a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
 

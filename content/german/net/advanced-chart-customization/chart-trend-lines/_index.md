@@ -1,28 +1,28 @@
 ---
-title: Erkunden von Diagrammtrendlinien in Aspose.Slides für .NET
-linktitle: Trendlinien im Diagramm
+title: Erkunden von Diagramm-Trendlinien in Aspose.Slides für .NET
+linktitle: Diagramm-Trendlinien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für .NET verschiedene Trendlinien zu Diagrammen hinzufügen. Verbessern Sie ganz einfach Ihre Datenvisualisierungsfähigkeiten!
+description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für .NET verschiedene Trendlinien zu Diagrammen hinzufügen. Verbessern Sie Ihre Datenvisualisierungsfähigkeiten mit Leichtigkeit!
 type: docs
 weight: 12
 url: /de/net/advanced-chart-customization/chart-trend-lines/
 ---
 
-In der Welt der Datenvisualisierung und -präsentation kann die Einbindung von Diagrammen eine wirkungsvolle Möglichkeit sein, Informationen effektiv zu vermitteln. Aspose.Slides für .NET bietet eine Reihe funktionsreicher Tools für die Arbeit mit Diagrammen, einschließlich der Möglichkeit, Trendlinien zu Ihren Diagrammen hinzuzufügen. In diesem Tutorial befassen wir uns Schritt für Schritt mit dem Prozess des Hinzufügens von Trendlinien zu einem Diagramm mithilfe von Aspose.Slides für .NET. 
+In der Welt der Datenvisualisierung und -präsentation kann die Einbindung von Diagrammen eine wirkungsvolle Möglichkeit sein, Informationen effektiv zu vermitteln. Aspose.Slides für .NET bietet einen funktionsreichen Satz von Tools für die Arbeit mit Diagrammen, einschließlich der Möglichkeit, Trendlinien zu Ihren Diagrammen hinzuzufügen. In diesem Tutorial werden wir uns Schritt für Schritt mit dem Hinzufügen von Trendlinien zu einem Diagramm mithilfe von Aspose.Slides für .NET befassen. 
 
 ## Voraussetzungen
 
-Bevor wir mit Aspose.Slides für .NET arbeiten, müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir mit der Arbeit mit Aspose.Slides für .NET beginnen, müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.Slides für .NET: Um auf die Bibliothek zuzugreifen und sie zu verwenden, muss Aspose.Slides für .NET installiert sein. Sie können die Bibliothek von der erhalten[Download-Seite](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides für .NET: Um auf die Bibliothek zuzugreifen und sie zu verwenden, muss Aspose.Slides für .NET installiert sein. Sie erhalten die Bibliothek von der[Download-Seite](https://releases.aspose.com/slides/net/).
 
-2. Entwicklungsumgebung: Sie sollten eine Entwicklungsumgebung eingerichtet haben, vorzugsweise unter Verwendung einer integrierten .NET-Entwicklungsumgebung wie Visual Studio.
+2. Entwicklungsumgebung: Sie sollten eine Entwicklungsumgebung eingerichtet haben, vorzugsweise eine integrierte .NET-Entwicklungsumgebung wie Visual Studio.
 
-3. Grundkenntnisse in C#: Ein grundlegendes Verständnis der C#-Programmierung ist von Vorteil, da wir C# für die Arbeit mit Aspose.Slides für .NET verwenden werden.
+3. Grundkenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung sind von Vorteil, da wir C# für die Arbeit mit Aspose.Slides für .NET verwenden werden.
 
-Nachdem wir nun die Voraussetzungen abgedeckt haben, wollen wir den Prozess des Hinzufügens von Trendlinien zu einem Diagramm Schritt für Schritt aufschlüsseln.
+Nachdem wir nun die Voraussetzungen abgedeckt haben, wollen wir den Vorgang des Hinzufügens von Trendlinien zu einem Diagramm Schritt für Schritt aufschlüsseln.
 
-## Namensräume importieren
+## Namespaces importieren
 
 Stellen Sie zunächst sicher, dass Sie die erforderlichen Namespaces in Ihr C#-Projekt importieren. Diese Namespaces sind für die Arbeit mit Aspose.Slides für .NET unerlässlich.
 
@@ -34,10 +34,10 @@ using Aspose.Slides.Export;
 
 ## Schritt 1: Erstellen Sie eine Präsentation
 
-In diesem Schritt erstellen wir eine leere Präsentation, mit der wir arbeiten können.
+In diesem Schritt erstellen wir eine leere Präsentation zum Arbeiten.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 string dataDir = "Your Document Directory";
 
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
@@ -88,19 +88,19 @@ ITrendline tredLineLog = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.
 tredLineLog.AddTextFrameForOverriding("New log trend line");
 ```
 
-### Hinzufügen einer Trendlinie für den gleitenden Durchschnitt
+### Hinzufügen einer gleitenden Durchschnittstrendlinie
 
 ```csharp
-// Hinzufügen einer Trendlinie des gleitenden Durchschnitts für Diagrammserie 2
+// Hinzufügen einer gleitenden Durchschnittstrendlinie für Diagrammserie 2
 ITrendline tredLineMovAvg = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.MovingAverage);
 tredLineMovAvg.Period = 3;
 tredLineMovAvg.TrendlineName = "New TrendLine Name";
 ```
 
-### Hinzufügen einer polynomialen Trendlinie
+### Hinzufügen einer polynomischen Trendlinie
 
 ```csharp
-// Hinzufügen einer polynomialen Trendlinie für Diagrammserie 3
+// Hinzufügen einer polynomischen Trendlinie für Diagrammserie 3
 ITrendline tredLinePol = chart.ChartData.Series[2].TrendLines.Add(TrendlineType.Polynomial);
 tredLinePol.Forward = 1;
 tredLinePol.Order = 3;
@@ -109,25 +109,25 @@ tredLinePol.Order = 3;
 ### Hinzufügen einer Power-Trendlinie
 
 ```csharp
-// Leistungstrendlinie für Diagrammserie 3 hinzugefügt
+// Hinzufügen einer Power-Trendlinie für Diagrammserie 3
 ITrendline tredLinePower = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Power);
 tredLinePower.Backward = 1;
 ```
 
 ## Schritt 4: Speichern Sie die Präsentation
 
-Speichern Sie die Präsentation, nachdem Sie dem Diagramm Trendlinien hinzugefügt haben.
+Nachdem Sie dem Diagramm Trendlinien hinzugefügt haben, speichern Sie die Präsentation.
 
 ```csharp
 // Präsentation speichern
 pres.Save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben mit Aspose.Slides für .NET erfolgreich verschiedene Trendlinien zu Ihrem Diagramm hinzugefügt.
+Das ist es! Sie haben Ihrem Diagramm mit Aspose.Slides für .NET erfolgreich verschiedene Trendlinien hinzugefügt.
 
 ## Abschluss
 
-Aspose.Slides für .NET ist eine vielseitige Bibliothek, mit der Sie Diagramme problemlos erstellen und bearbeiten können. Wenn Sie dieser Schritt-für-Schritt-Anleitung folgen, können Sie Ihren Diagrammen verschiedene Arten von Trendlinien hinzufügen und so die visuelle Darstellung Ihrer Daten verbessern.
+Aspose.Slides für .NET ist eine vielseitige Bibliothek, mit der Sie Diagramme ganz einfach erstellen und bearbeiten können. Indem Sie dieser Schritt-für-Schritt-Anleitung folgen, können Sie Ihren Diagrammen verschiedene Arten von Trendlinien hinzufügen und so die visuelle Darstellung Ihrer Daten verbessern.
 
 ### FAQs
 
@@ -138,10 +138,10 @@ Aspose.Slides für .NET ist eine vielseitige Bibliothek, mit der Sie Diagramme p
  Sie können Aspose.Slides für .NET von der Download-Seite herunterladen[Hier](https://releases.aspose.com/slides/net/).
 
 ### Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
- Ja, Sie können Aspose.Slides für .NET kostenlos testen, indem Sie hier klicken[dieser Link](https://releases.aspose.com/).
+ Ja, Sie können Aspose.Slides für .NET kostenlos testen, indem Sie[dieser Link](https://releases.aspose.com/).
 
 ### Wo kann ich Aspose.Slides für .NET kaufen?
  Um Aspose.Slides für .NET zu kaufen, besuchen Sie die Kaufseite[Hier](https://purchase.aspose.com/buy).
 
 ### Benötige ich eine temporäre Lizenz für Aspose.Slides für .NET?
- Eine temporäre Lizenz für Aspose.Slides für .NET erhalten Sie bei[dieser Link](https://purchase.aspose.com/temporary-license/).
+ Sie können eine temporäre Lizenz für Aspose.Slides für .NET erhalten von[dieser Link](https://purchase.aspose.com/temporary-license/).

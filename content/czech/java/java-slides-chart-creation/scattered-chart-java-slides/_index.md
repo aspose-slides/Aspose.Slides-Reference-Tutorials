@@ -10,7 +10,7 @@ url: /cs/java/chart-creation/scattered-chart-java-slides/
 
 ## Úvod do Scattered Chart v Aspose.Slides pro Javu
 
-tomto tutoriálu vás provedeme procesem vytváření bodového grafu pomocí Aspose.Slides for Java. Bodové grafy jsou užitečné pro vizualizaci datových bodů ve dvourozměrné rovině. Poskytneme vám podrobné pokyny a zahrneme zdrojový kód Java pro vaše pohodlí.
+V tomto tutoriálu vás provedeme procesem vytváření bodového grafu pomocí Aspose.Slides for Java. Bodové grafy jsou užitečné pro vizualizaci datových bodů ve dvourozměrné rovině. Poskytneme vám podrobné pokyny a zahrneme zdrojový kód Java pro vaše pohodlí.
 
 ## Předpoklady
 
@@ -56,7 +56,7 @@ Nyní si připravíme data pro náš bodový graf. Přidáme dvě řady, každou
 // Získání výchozího indexu listu dat grafu
 int defaultWorksheetIndex = 0;
 
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Smazat ukázkovou sérii
@@ -100,7 +100,7 @@ Nakonec uložte prezentaci s bodovým grafem do souboru PPTX.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-A je to! Úspěšně jste vytvořili bodový graf pomocí Aspose.Slides for Java. Nyní můžete tento příklad dále přizpůsobit tak, aby vyhovoval vašim specifickým požadavkům na data a design.
+je to! Úspěšně jste vytvořili bodový graf pomocí Aspose.Slides for Java. Nyní můžete tento příklad dále přizpůsobit tak, aby vyhovoval vašim specifickým požadavkům na data a design.
 
 ## Kompletní zdrojový kód pro Scattered Chart v Java Slides
 ```java
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Získání výchozího indexu listu dat grafu
 int defaultWorksheetIndex = 0;
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Smazat ukázkovou sérii
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Přidat nový bod (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Přidat nový bod (2:2)
+// Přidat nový bod (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Přidat nový bod (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ V tomto tutoriálu jsme vás provedli procesem vytváření bodového grafu pomo
 
 ### Jak mohu změnit typ grafu?
 
- Chcete-li změnit typ grafu, použijte`setType` metodu na sérii grafu a zadejte požadovaný typ grafu. Například,`series.setType(ChartType.Line)` změní řadu na spojnicový graf.
+ Chcete-li změnit typ grafu, použijte`setType`metodu na sérii grafu a zadejte požadovaný typ grafu. Například,`series.setType(ChartType.Line)` změní řadu na spojnicový graf.
 
 ### Jak přizpůsobím velikost a styl značky?
 

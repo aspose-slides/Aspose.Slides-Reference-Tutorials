@@ -2,7 +2,7 @@
 title: Usuń nieużywany wzorzec układu w slajdach Java
 linktitle: Usuń nieużywany wzorzec układu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Usuń nieużywane wzorce układu za pomocą Aspose.Slides. Przewodnik i kod krok po kroku. Zwiększ efektywność prezentacji.
+description: Usuń nieużywane wzorce układu za pomocą Aspose.Slides. Przewodnik krok po kroku i kod. Zwiększ efektywność prezentacji.
 type: docs
 weight: 10
 url: /pl/java/additional-utilities/remove-unused-layout-master-in-java-slides/

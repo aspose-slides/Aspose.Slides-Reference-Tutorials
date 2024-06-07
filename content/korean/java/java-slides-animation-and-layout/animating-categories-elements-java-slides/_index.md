@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-이 코드에서는 애니메이션을 적용하려는 차트가 포함된 기존 PowerPoint 프레젠테이션을 로드합니다. 바꾸다`"Your Document Directory"` 문서 디렉토리의 실제 경로를 사용하십시오.
+ 이 코드에서는 애니메이션을 적용하려는 차트가 포함된 기존 PowerPoint 프레젠테이션을 로드합니다. 바꾸다`"Your Document Directory"` 문서 디렉토리의 실제 경로를 사용하십시오.
 
 ## 3단계: 차트 개체에 대한 참조 가져오기
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//프리젠테이션 파일을 디스크에 쓰기
+	// 프리젠테이션 파일을 디스크에 쓰기
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Aspose.Slides for Java를 사용하여 Java 슬라이드의 카테고리 요소�
 
 ### Java용 Aspose.Slides에 대해 자세히 알아보려면 어떻게 해야 합니까?
 
-포괄적인 문서 및 추가 리소스를 보려면 다음을 방문하세요.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/) . 다음에서 라이브러리를 다운로드할 수도 있습니다.[여기](https://releases.aspose.com/slides/java/).
+ 포괄적인 문서 및 추가 리소스를 보려면 다음을 방문하세요.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/) . 다음에서 라이브러리를 다운로드할 수도 있습니다.[여기](https://releases.aspose.com/slides/java/).

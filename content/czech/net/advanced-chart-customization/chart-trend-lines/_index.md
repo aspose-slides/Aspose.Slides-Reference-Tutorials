@@ -74,7 +74,7 @@ tredLineExp.DisplayRSquaredValue = false;
 ### Přidání linie lineárního trendu
 
 ```csharp
-// Přidání lineární trendové linie pro řadu grafů 1
+// Přidání lineární trendové linie pro grafové řady 1
 ITrendline tredLineLin = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Linear);
 tredLineLin.Format.Line.FillFormat.FillType = FillType.Solid;
 tredLineLin.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
@@ -109,7 +109,7 @@ tredLinePol.Order = 3;
 ### Přidání čáry trendu výkonu
 
 ```csharp
-// Přidání čáry trendu výkonu pro řadu grafů 3
+// Přidání čáry trendu moci pro řadu grafů 3
 ITrendline tredLinePower = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.Power);
 tredLinePower.Backward = 1;
 ```

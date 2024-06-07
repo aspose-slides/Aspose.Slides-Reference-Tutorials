@@ -32,8 +32,8 @@ Készen áll arra, hogy prezentációit a következő szintre emelje? Kezdjük e
 ### [Diaátmeneti effektusok az Aspose.Slides-ben](./slide-transition-effects/)
 Ismerje meg, hogyan javíthatja prezentációit lenyűgöző diaátmenet-effektusokkal az Aspose.Slides for .NET segítségével. Ez az átfogó útmutató lépésről lépésre tartalmaz utasításokat és forráskód-példákat a zökkenőmentes integráció érdekében.
 ### [Átmeneti effektusok beállítása a dián](./set-transition-effects/)
-Ismerje meg, hogyan adhat lenyűgöző átmeneti effektusokat bemutató diákjaihoz az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal. Emelje fel prezentációit még ma! 
+Ismerje meg, hogyan adhat lenyűgöző átmeneti effektusokat bemutató diákjaihoz az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal. Emelje fel prezentációit még ma! 
 ### [Állítsa be az Átmeneti alaktípus típusát a dián](./set-transition-morph-type/)
-megtudhatja, hogyan állíthat be átmeneti morph típust a diákon az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal. Javítsa prezentációit most! 
+megtudhatja, hogyan állíthat be átmeneti morph típust a diákon az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal. Javítsa prezentációit most! 
 ### [Egyszerű diaátmenetek](./simple-slide-transitions/)
 Ismerje meg, hogyan javíthatja PowerPoint-prezentációit egyszerű diaátmenetekkel az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató forráskóddal. Vonja le közönségét magával ragadó látványvilággal!

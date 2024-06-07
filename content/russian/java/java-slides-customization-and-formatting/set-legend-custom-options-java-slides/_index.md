@@ -77,7 +77,7 @@ chart.getLegend().setWidth(100 / chart.getWidth());
 chart.getLegend().setHeight(100 / chart.getHeight());
 ```
 
-## Шаг 7: Сохраните презентацию на диск:
+## Шаг 7. Сохраните презентацию на диск:
 
 ```java
     presentation.save(dataDir + "Legend_out.pptx", SaveFormat.Pptx);

@@ -2,7 +2,7 @@
 title: OLE objektumkeretek hozzáadása a prezentációhoz az Aspose.Slides segítségével
 linktitle: OLE objektumkeretek hozzáadása a prezentációhoz az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Tanulja meg, hogyan javíthatja a PowerPoint prezentációkat dinamikus tartalommal! Kövesse lépésenkénti útmutatónkat az Aspose.Slides for .NET használatával. Növelje az elköteleződést most!
+description: Tanulja meg, hogyan javíthatja a PowerPoint prezentációkat dinamikus tartalommal! Kövesse lépésenkénti útmutatónkat az Aspose.Slides for .NET használatával. Fokozza az elköteleződést most!
 type: docs
 weight: 15
 url: /hu/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## 4. lépés: Adjon hozzá egy OLE objektum keret alakzatot
 ```csharp
-// Adjon hozzá egy OLE objektumkeret alakzatot
+//Adjon hozzá egy OLE objektumkeret alakzatot
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ V: Igen, az Aspose.Slides támogatja a legújabb PowerPoint fájlformátumokat, 
 ### K: Testreszabhatom a beágyazott OLE objektumkeret megjelenését?
 V: Természetesen beállíthatja az OLE objektumkeret méretét, helyzetét és egyéb tulajdonságait saját preferenciái szerint.
 ### K: Hol kérhetek segítséget, ha kihívásokba ütközöm a megvalósítás során?
- V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért és útmutatásért.
+V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért és útmutatásért.

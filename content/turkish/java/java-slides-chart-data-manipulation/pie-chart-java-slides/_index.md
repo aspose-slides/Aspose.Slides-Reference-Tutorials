@@ -49,7 +49,7 @@ Sununun ilk slaydını Pasta Grafiğini eklemek istediğiniz yere alın.
 ## Adım 4: Pasta Grafiği Ekleme
 
 ```java
-// Varsayılan verileri içeren pasta grafiği ekleme
+//Varsayılan verileri içeren pasta grafiği ekleme
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
 
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Varsayılan oluşturulan serileri ve kategorileri silin
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Diğer sektörleri de benzer şekilde özelleştirin
+// Diğer sektörleri de benzer şekilde özelleştirin
 ```
 
 Pasta Grafiğindeki her sektörün görünümünü özelleştirin. Renkleri, kenarlık stillerini ve diğer görsel özellikleri değiştirebilirsiniz.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Varsayılan oluşturulan serileri ve kategorileri silin
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Yeni seriler ekleniyor
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Şimdi seri verileri dolduruluyor
+//Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Yeni sürümde çalışmıyor
+// Yeni versiyonda çalışmıyor
 // Yeni noktalar ekleme ve sektör rengini ayarlama
 // series.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda başarılı bir şeki
 
 ### Pasta Grafiği'nde tek tek sektörlerin renklerini nasıl değiştirebilirim?
 
- Pasta Grafiğindeki ayrı sektörlerin renklerini değiştirmek için her veri noktasının dolgu rengini özelleştirebilirsiniz. Sağlanan kod örneğinde, her sektör için dolgu renginin nasıl ayarlanacağını gösterdik.`getSolidFillColor().setColor()`yöntem. İstediğiniz görünümü elde etmek için renk değerlerini değiştirebilirsiniz.
+ Pasta Grafiğindeki ayrı sektörlerin renklerini değiştirmek için her veri noktasının dolgu rengini özelleştirebilirsiniz. Sağlanan kod örneğinde, her sektör için dolgu renginin nasıl ayarlanacağını gösterdik.`getSolidFillColor().setColor()` yöntem. İstediğiniz görünümü elde etmek için renk değerlerini değiştirebilirsiniz.
 
 ### Pasta Grafiğine daha fazla kategori ve veri serisi ekleyebilir miyim?
 
@@ -278,7 +278,7 @@ Doğru dosya yolunu ve biçimini belirttiğinizden emin olun.
 
 ### Aspose.Slides for Java'yı kullanarak başka türde grafikler oluşturabilir miyim?
 
- Evet, Aspose.Slides for Java, Çubuk Grafikler, Çizgi Grafikler ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler. Değiştirerek farklı türde grafikler oluşturabilirsiniz.`ChartType` Bir grafik eklerken. Farklı türde grafikler oluşturmaya ilişkin daha fazla ayrıntı için Aspose.Slides belgelerine bakın.
+Evet, Aspose.Slides for Java, Çubuk Grafikler, Çizgi Grafikler ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler. Değiştirerek farklı türde grafikler oluşturabilirsiniz.`ChartType` Bir grafik eklerken. Farklı türde grafikler oluşturmaya ilişkin daha fazla ayrıntı için Aspose.Slides belgelerine bakın.
 
 ### Aspose.Slides for Java ile çalışmaya ilişkin daha fazla bilgi ve örneği nasıl bulabilirim?
 

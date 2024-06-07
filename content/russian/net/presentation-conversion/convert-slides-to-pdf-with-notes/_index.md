@@ -55,7 +55,7 @@ auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
 
 ## 6. Настройка параметров PDF
 
-Чтобы контролировать, как ваши заметки будут отображаться в PDF, вы можете настроить параметры PDF:
+Чтобы контролировать, как ваши заметки будут отображаться в PDF-файле, вы можете настроить параметры PDF:
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();

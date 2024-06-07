@@ -10,7 +10,7 @@ url: /hu/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 
 ## Bevezetés
 
-diagramok hatékony módja az adatok megjelenítésének a PowerPoint-prezentációkban. Előfordulhat, hogy különböző okok miatt, például a diagramon belüli elemek átméretezése vagy áthelyezése miatt, ismernie kell a diagram ábrázolási területének méreteit. Ez az útmutató bemutatja, hogyan lehet meghatározni a nyomtatási terület szélességét és magasságát a Java és az Aspose.Slides for Java használatával.
+A diagramok hatékony módja az adatok megjelenítésének a PowerPoint-prezentációkban. Előfordulhat, hogy különböző okokból, például a diagramon belüli elemek átméretezése vagy áthelyezése miatt ismernie kell a diagram diagramterületének méreteit. Ez az útmutató bemutatja, hogyan lehet meghatározni a nyomtatási terület szélességét és magasságát a Java és az Aspose.Slides for Java használatával.
 
 ## Előfeltételek
 
@@ -65,7 +65,7 @@ pres.save(dataDir + "Chart_out.pptx", SaveFormat.Pptx);
 
  Ügyeljen arra, hogy cserélje ki`"Chart_out.pptx"` a kívánt kimeneti fájlnévvel.
 
-## Teljes forráskód a Java Slides diagrammezőterületének szélességéhez és magasságához
+## Teljes forráskód a szélesség és magasság lekéréséhez a Chart Plot Area Java Slides-ben
 
 ```java
 // A dokumentumok könyvtárának elérési útja.

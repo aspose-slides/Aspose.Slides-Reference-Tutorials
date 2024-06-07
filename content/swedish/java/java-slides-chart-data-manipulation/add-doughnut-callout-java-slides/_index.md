@@ -46,7 +46,7 @@ Därefter skapar du ett Donut-diagram på bilden. Du kan anpassa diagrammets pos
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## Steg 4: Anpassa Donut Chart
+## Steg 4: Anpassa munkdiagrammet
 
 Nu är det dags att anpassa Donut-diagrammet. Vi kommer att ställa in olika egenskaper som att ta bort förklaringen, konfigurera hålstorleken och justera den första skivans vinkel. Här är koden:
 
@@ -165,7 +165,7 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen har vi täckt processen att lägga till en Donut Callout till en Java-bild med Aspose.Slides för Java. Du har lärt dig hur du skapar ett Donut-diagram, anpassar dess utseende och lägger till datapunkter. Förbättra gärna dina presentationer ytterligare med detta kraftfulla bibliotek och utforska fler kartalternativ.
+den här handledningen har vi täckt processen att lägga till en Donut Callout till en Java-bild med Aspose.Slides för Java. Du har lärt dig hur du skapar ett Donut-diagram, anpassar dess utseende och lägger till datapunkter. Förbättra gärna dina presentationer ytterligare med detta kraftfulla bibliotek och utforska fler kartalternativ.
 
 ## FAQ's
 
@@ -179,4 +179,4 @@ Ja, du kan lägga till så många datapunkter som behövs i Donut-diagrammet. F�
 
 ### Hur kan jag justera positionen och storleken på Donut-diagrammet på bilden?
 
- Du kan ändra positionen och storleken på Donut-diagrammet genom att ändra parametrarna i`addChart` metod. De fyra siffrorna i den metoden motsvarar X- och Y-koordinaterna för diagrammets övre vänstra hörn och dess bredd respektive höjd.
+Du kan ändra positionen och storleken på Donut-diagrammet genom att ändra parametrarna i`addChart` metod. De fyra siffrorna i den metoden motsvarar X- och Y-koordinaterna för diagrammets övre vänstra hörn och dess bredd respektive höjd.

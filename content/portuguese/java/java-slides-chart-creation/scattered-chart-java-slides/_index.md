@@ -56,7 +56,7 @@ Agora, vamos preparar os dados para nosso gráfico de dispersão. Adicionaremos 
 // Obtendo o índice da planilha de dados do gráfico padrão
 int defaultWorksheetIndex = 0;
 
-//Obtendo a planilha de dados do gráfico
+// Obtendo a planilha de dados do gráfico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Excluir série de demonstração
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Obtendo o índice da planilha de dados do gráfico padrão
 int defaultWorksheetIndex = 0;
-//Obtendo a planilha de dados do gráfico
+// Obtendo a planilha de dados do gráfico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Excluir série de demonstração
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Adicionar novo ponto (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Adicionar novo ponto (2:2)
+// Adicionar novo ponto (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Adicionar novo ponto (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ Neste tutorial, orientamos você no processo de criação de um gráfico de disp
 
 ### Como posso alterar o tipo de gráfico?
 
- Para alterar o tipo de gráfico, use o`setType` método na série de gráficos e forneça o tipo de gráfico desejado. Por exemplo,`series.setType(ChartType.Line)` mudaria a série para um gráfico de linhas.
+ Para alterar o tipo de gráfico, use o`setType`método na série de gráficos e forneça o tipo de gráfico desejado. Por exemplo,`series.setType(ChartType.Line)` mudaria a série para um gráfico de linhas.
 
 ### Como posso personalizar o tamanho e o estilo do marcador?
 

@@ -16,7 +16,7 @@ Dalam tutorial ini, kita akan mempelajari cara mengatur format tanggal untuk sum
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Slides untuk perpustakaan Java (Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides untuk perpustakaan Java (Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
 2. Lingkungan pengembangan Java disiapkan.
 
 ## Langkah 1: Buat Presentasi PowerPoint
@@ -138,4 +138,4 @@ Ya, Anda dapat mengatur format tanggal berbeda untuk sumbu kategori di bagan ber
 
 ### Bagaimana cara menambahkan lebih banyak titik data ke bagan?
 
- Untuk menambahkan lebih banyak titik data ke bagan, gunakan`getDataPoints().addDataPointForLineSeries` metode pada seri data dan memberikan nilai data.
+ Untuk menambahkan lebih banyak titik data ke bagan, gunakan`getDataPoints().addDataPointForLineSeries`metode pada seri data dan memberikan nilai data.

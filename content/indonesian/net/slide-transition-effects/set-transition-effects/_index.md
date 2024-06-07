@@ -16,7 +16,7 @@ Sebelum terjun ke dunia efek transisi, pastikan Anda memiliki prasyarat berikut:
 
 ### 1. Instalasi Visual Studio dan Aspose.Slides
 
- Anda harus menginstal Visual Studio di sistem Anda agar dapat bekerja dengan Aspose.Slides untuk .NET. Selain itu, pastikan Anda memiliki perpustakaan Aspose.Slides yang terintegrasi dengan benar ke dalam proyek Anda. Anda dapat mengunduh perpustakaan dari[Aspose.Slides untuk halaman unduhan .NET](https://releases.aspose.com/slides/net/).
+ Anda harus menginstal Visual Studio di sistem Anda agar dapat bekerja dengan Aspose.Slides untuk .NET. Selain itu, pastikan Anda memiliki perpustakaan Aspose.Slides yang terintegrasi dengan benar ke dalam proyek Anda. Anda dapat mengunduh perpustakaan dari[Aspose.Slides untuk halaman unduh .NET](https://releases.aspose.com/slides/net/).
 
 ### 2. Slide Presentasi
 

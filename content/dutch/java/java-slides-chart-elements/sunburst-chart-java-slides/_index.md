@@ -78,7 +78,7 @@ chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 
 ## Stap 6: Voeg gegevens toe aan het diagram
 
-Voeg gegevenspunten toe aan de Sunburst-diagramreeks.
+Voeg gegevenspunten toe aan de Sunburst-diagramserie.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Sunburst);
@@ -163,7 +163,7 @@ U kunt het uiterlijk van het Sunburst-diagram aanpassen door eigenschappen zoals
 
 ### Hoe kan ik tooltips toevoegen aan het Sunburst-diagram?
 
-Als u knopinfo aan het Sunburst-diagram wilt toevoegen, kunt u de indeling van het gegevenslabel zo instellen dat aanvullende informatie, zoals waarden of beschrijvingen, wordt weergegeven wanneer u met de muis over diagramsegmenten beweegt.
+Als u knopinfo aan het Sunburst-diagram wilt toevoegen, kunt u de indeling van het gegevenslabel zo instellen dat aanvullende informatie, zoals waarden of beschrijvingen, wordt weergegeven wanneer u de muisaanwijzer over diagramsegmenten beweegt.
 
 ### Is het mogelijk om interactieve Sunburst-grafieken met hyperlinks te maken?
 

@@ -46,11 +46,11 @@ using (Presentation pres = new Presentation())
 ## 3. Adım: Slayt Arka Planlarını Özelleştirin
 Arka planlarını özelleştirerek slaytlarınızın görsel çekiciliğini artırın. Bu örnekte ikinci slayt için düz bir camgöbeği arka plan ayarladık.
 ```csharp
-// İkinci slayt için bir arka plan oluşturun
+//İkinci slayt için bir arka plan oluşturun
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//... (Diğer slaytlar için arka planları özelleştirmeye devam edin)
+// ... (Diğer slaytlar için arka planları özelleştirmeye devam edin)
 ```
 ## 4. Adım: Slaytlara Metin Kutuları Ekleme
 Slaytlarınıza bilgi aktarmak için metin kutuları ekleyin. Burada ikinci slayta dikdörtgen bir metin kutusu ekliyoruz.

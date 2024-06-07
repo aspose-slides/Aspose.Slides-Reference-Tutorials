@@ -90,17 +90,17 @@ switch (info.getLoadFormat())
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak uzyskać informacje o formacie pliku w aplikacji Java Slides za pomocą interfejsu API Aspose.Slides for Java. Zrozumienie formatu plików prezentacji jest niezbędne do skutecznego przetwarzania i manipulacji. Możesz teraz pewnie zidentyfikować format swoich plików i kontynuować działania specyficzne dla formatu.
+W tym samouczku nauczyliśmy się, jak uzyskać informacje o formacie pliku w aplikacji Java Slides za pomocą interfejsu API Aspose.Slides for Java. Zrozumienie formatu plików prezentacji jest niezbędne do skutecznego przetwarzania i manipulacji. Możesz teraz pewnie zidentyfikować format swoich plików i kontynuować działania specyficzne dla formatu.
 
 ## Często zadawane pytania
 
 ### Jak uzyskać bibliotekę Aspose.Slides dla Java?
 
- Możesz pobrać bibliotekę Aspose.Slides for Java ze strony internetowej Aspose pod adresem[ten link](https://releases.aspose.com/slides/java/). Wybierz odpowiednią wersję dla swojego projektu.
+ Możesz pobrać bibliotekę Aspose.Slides for Java ze strony internetowej Aspose pod adresem[ten link](https://releases.aspose.com/slides/java/)Wybierz odpowiednią wersję dla swojego projektu.
 
 ### Czy mogę używać tego kodu z innymi bibliotekami prezentacji Java?
 
-Ten kod jest specyficzny dla Aspose.Slides dla Java. Chociaż inne biblioteki mogą mieć podobną funkcjonalność, implementacja może się różnić. Zalecane jest zapoznanie się z dokumentacją konkretnej biblioteki, której używasz.
+Ten kod jest specyficzny dla Aspose.Slides dla Java. Chociaż inne biblioteki mogą mieć podobną funkcjonalność, implementacja może się różnić. Zaleca się zapoznanie się z dokumentacją konkretnej biblioteki, której używasz.
 
 ### Co się stanie, jeśli napotkam format „Nieznany”?
 

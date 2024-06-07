@@ -10,7 +10,7 @@ url: /pl/net/shape-alignment-and-formatting-in-slides/
 
 ## Wstęp
 
-Witamy w świecie samouczków Aspose.Slides poświęconych wyrównywaniu i formatowaniu kształtów! Celem tej serii samouczków jest wyposażenie programistów .NET w wiedzę i umiejętności potrzebne do precyzyjnego manipulowania i projektowania slajdów. Niezależnie od tego, czy tworzysz atrakcyjne wizualnie prezentacje, czy tworzysz złożone diagramy, opanowanie wyrównywania kształtów i formatowania jest niezbędne do uzyskania dopracowanego i profesjonalnego wyglądu.
+Witamy w świecie samouczków Aspose.Slides poświęconych wyrównywaniu i formatowaniu kształtów! Celem tej serii samouczków jest wyposażenie programistów .NET w wiedzę i umiejętności potrzebne do precyzyjnego manipulowania i projektowania slajdów. Niezależnie od tego, czy tworzysz atrakcyjne wizualnie prezentacje, czy tworzysz złożone diagramy, opanowanie wyrównywania kształtów i formatowania jest niezbędne, aby uzyskać dopracowany i profesjonalny wygląd.
 
 ## Dlaczego wyrównanie i formatowanie kształtu ma znaczenie
 
@@ -43,4 +43,4 @@ Dowiedz się, jak tworzyć urzekające slajdy prezentacji z naszkicowanymi kszta
 ### [Dodawanie przesunięcia rozciągania w lewo dla ramki obrazu w Aspose.Slides](./adding-stretch-offset-left-picture-frame/)
 Dowiedz się, jak dodać przesunięcie rozciągnięcia w lewo dla ramki obrazu w programie PowerPoint przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym przykładem kodu źródłowego.
 ### [Zastępowanie tytułu obrazu ramki obiektu OLE na slajdach prezentacji](./substituting-picture-title-ole-object-frame/)
-Dowiedz się, jak zastąpić tytuły obrazów ramek obiektów OLE na slajdach prezentacji za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym kodem źródłowym.
+Dowiedz się, jak zastępować tytuły obrazów ramek obiektów OLE na slajdach prezentacji przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym kodem źródłowym.

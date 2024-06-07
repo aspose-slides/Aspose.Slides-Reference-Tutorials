@@ -1,6 +1,6 @@
 ---
-title: Kép hozzáadása SVG objektumból a Java Slides alkalmazásban
-linktitle: Kép hozzáadása SVG objektumból a Java Slides alkalmazásban
+title: Kép hozzáadása az SVG objektumból a Java Slides alkalmazásban
+linktitle: Kép hozzáadása az SVG objektumból a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá SVG-képeket a Java Slides-hez az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató kóddal a lenyűgöző prezentációkhoz.
 type: docs
@@ -10,7 +10,7 @@ url: /hu/java/image-handling/add-image-from-svg-object-in-java-slides/
 
 ## Kép hozzáadása SVG objektumból a Java Slides alkalmazásban
 
-A mai digitális korban a prezentációk döntő szerepet játszanak az információ hatékony közvetítésében. Ha képeket ad hozzá prezentációihoz, azzal fokozhatja azok vizuális vonzerejét, és vonzóbbá teheti őket. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan lehet képet hozzáadni egy SVG (Scalable Vector Graphics) objektumból a Java Slides-hez az Aspose.Slides for Java használatával. Akár oktatási tartalmat, akár üzleti prezentációkat készít, vagy bármi a kettő között van, ez az oktatóanyag segít elsajátítani az SVG-képek Java Slides prezentációiba való beépítésének művészetét.
+mai digitális korban a prezentációk döntő szerepet játszanak az információ hatékony közvetítésében. Ha képeket ad hozzá prezentációihoz, azzal fokozhatja azok vizuális vonzerejét, és vonzóbbá teheti őket. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan adhatunk hozzá képet egy SVG (Scalable Vector Graphics) objektumból a Java Slides-hez az Aspose.Slides for Java használatával. Akár oktatási tartalmat, akár üzleti prezentációkat készít, vagy bármi a kettő között van, ez az oktatóanyag segít elsajátítani az SVG-képek Java Slides prezentációiba való beépítésének művészetét.
 
 ## Előfeltételek
 
@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` projekt könyvtárának tényleges elérési útjával, ahol az SVG fájl található.
+ Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a projekt könyvtárának tényleges elérési útjával, ahol az SVG fájl található.
 
 ## 2. lépés: Hozzon létre egy új PowerPoint-bemutatót
 

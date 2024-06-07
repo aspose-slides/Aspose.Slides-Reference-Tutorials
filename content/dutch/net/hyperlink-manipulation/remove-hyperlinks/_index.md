@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- Vervang in de bovenstaande code`"Your Document Directory"`met het daadwerkelijke pad naar uw documentmap en`"Hyperlink.pptx"` met de naam van uw PowerPoint-presentatiebestand.
+ Vervang in de bovenstaande code`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap en`"Hyperlink.pptx"` met de naam van uw PowerPoint-presentatiebestand.
 
 ## Stap 3: Verwijder hyperlinks
 

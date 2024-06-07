@@ -63,7 +63,7 @@ using (Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx
 
 Nyní aplikujme požadované efekty přechodu snímků na jednotlivé snímky v prezentaci. V tomto příkladu použijeme přechodové efekty Kruh a Hřeben na první dva snímky.
 
-### 2.1 Použití kruhových a hřebenových přechodů
+### 2.1 Použijte kruhové a hřebenové přechody
 
 ```csharp
 // Použít přechod typu kruh na snímek 1

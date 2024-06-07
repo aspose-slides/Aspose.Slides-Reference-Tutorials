@@ -30,7 +30,7 @@ using Aspose.Slides.Export;
 ```
 Dessa namnrymder tillhandahåller de väsentliga klasserna och metoderna som behövs för att arbeta med presentationer med Aspose.Slides.
 ## Steg 2: Ladda presentationen
- Till att börja, skapa en instans av`Presentation` klass och ladda din presentationsfil, i det här fallet "HelloWorld.pptx."
+ Börja med att skapa en instans av`Presentation` klass och ladda din presentationsfil, i det här fallet "HelloWorld.pptx."
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))

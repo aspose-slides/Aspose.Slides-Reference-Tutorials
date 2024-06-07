@@ -1,6 +1,6 @@
 ---
-title: Histogramový graf v Java Slides
-linktitle: Histogramový graf v Java Slides
+title: Histogram Chart v Java Slides
+linktitle: Histogram Chart v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet histogramové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vizualizaci dat.
 type: docs

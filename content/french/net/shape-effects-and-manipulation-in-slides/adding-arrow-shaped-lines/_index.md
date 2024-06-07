@@ -74,7 +74,7 @@ Oui, Aspose.Slides prend en charge .NET Core, vous permettant d'exploiter ses fo
 ### Puis-je personnaliser davantage les styles de pointes de flèches ?
 Absolument! Aspose.Slides offre des options complètes pour personnaliser la longueur, les styles et bien plus encore des pointes de flèche.
 ### Où puis-je trouver de la documentation supplémentaire sur Aspose.Slides ?
- Explorer la documentation[ici](https://reference.aspose.com/slides/net/) pour des informations détaillées et des exemples.
+ Explorer la documentation[ici](https://reference.aspose.com/slides/net/)pour des informations détaillées et des exemples.
 ### Existe-t-il un essai gratuit disponible ?
  Oui, vous pouvez découvrir Aspose.Slides avec un essai gratuit. Télécharge le[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l'aide pour Aspose.Slides ?

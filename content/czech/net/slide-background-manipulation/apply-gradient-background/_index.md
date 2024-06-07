@@ -43,7 +43,7 @@ string outPptxFile = "Output Path";
 
 ## Krok 3: Vytvořte prezentační třídu
 
- Budete chtít vytvořit instanci`Presentation` třídy reprezentující váš prezentační soubor. Nahradit`"SetBackgroundToGradient.pptx"` s cestou k souboru vstupní prezentace.
+ Budete chtít vytvořit instanci`Presentation` třídy reprezentující váš soubor prezentace. Nahradit`"SetBackgroundToGradient.pptx"` s cestou k souboru vstupní prezentace.
 
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "SetBackgroundToGradient.pptx"))
@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## Krok 5: Definujte formát přechodu
 
- V tomto kroku určíte formát přechodu. Gradient si můžete přizpůsobit podle svých preferencí. Tady, používáme`TileFlip.FlipBoth` vytvořit vizuálně přitažlivý efekt.
+ tomto kroku určíte formát přechodu. Gradient si můžete přizpůsobit podle svých preferencí. Tady, používáme`TileFlip.FlipBoth` vytvořit vizuálně přitažlivý efekt.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

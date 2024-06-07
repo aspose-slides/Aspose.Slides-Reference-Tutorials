@@ -44,12 +44,12 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-Haal de eerste dia van de presentatie op waar u het cirkeldiagram wilt toevoegen.
+Haal de eerste dia van de presentatie op waaraan u het cirkeldiagram wilt toevoegen.
 
 ## Stap 4: Voeg een cirkeldiagram toe
 
 ```java
-// Voeg een cirkeldiagram met standaardgegevens toe
+//Voeg een cirkeldiagram met standaardgegevens toe
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Instellen van de index van het kaartgegevensblad
 int defaultWorksheetIndex = 0;
 
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Verwijder standaard gegenereerde series en categorieën
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Pas andere sectoren op een vergelijkbare manier aan
+// Pas andere sectoren op een vergelijkbare manier aan
 ```
 
 Pas het uiterlijk van elke sector in het cirkeldiagram aan. U kunt de kleuren, randstijlen en andere visuele eigenschappen wijzigen.
@@ -176,11 +176,11 @@ chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// Stel de eerste reeks in op Waarden tonen
+// Stel de eerste reeks in op Waarden weergeven
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // De index van het kaartgegevensblad instellen
 int defaultWorksheetIndex = 0;
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Verwijder standaard gegenereerde series en categorieën
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Nieuwe serie toevoegen
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Vult nu seriegegevens in
+//Vult nu seriegegevens in
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Werkt niet in nieuwe versie
+// Werkt niet in nieuwe versie
 // Nieuwe punten toevoegen en sectorkleur instellen
 // series.IsColorVaried = waar;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -247,13 +247,13 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ## Conclusie
 
-U hebt met succes een cirkeldiagram gemaakt in een PowerPoint-presentatie met Aspose.Slides voor Java. U kunt het uiterlijk en de gegevenslabels van het diagram aanpassen aan uw specifieke vereisten. Deze zelfstudie geeft een basisvoorbeeld en u kunt uw diagrammen indien nodig verder verbeteren en aanpassen.
+hebt met succes een cirkeldiagram gemaakt in een PowerPoint-presentatie met Aspose.Slides voor Java. U kunt het uiterlijk en de gegevenslabels van het diagram aanpassen aan uw specifieke vereisten. Deze zelfstudie geeft een basisvoorbeeld en u kunt uw diagrammen indien nodig verder verbeteren en aanpassen.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik de kleuren van individuele sectoren in het cirkeldiagram wijzigen?
 
- Als u de kleuren van afzonderlijke sectoren in het cirkeldiagram wilt wijzigen, kunt u de vulkleur voor elk gegevenspunt aanpassen. In het meegeleverde codevoorbeeld hebben we gedemonstreerd hoe u de vulkleur voor elke sector kunt instellen met behulp van de`getSolidFillColor().setColor()`methode. U kunt de kleurwaarden wijzigen om het gewenste uiterlijk te bereiken.
+ Als u de kleuren van afzonderlijke sectoren in het cirkeldiagram wilt wijzigen, kunt u de vulkleur voor elk gegevenspunt aanpassen. In het meegeleverde codevoorbeeld hebben we gedemonstreerd hoe u de vulkleur voor elke sector kunt instellen met behulp van de`getSolidFillColor().setColor()` methode. U kunt de kleurwaarden wijzigen om het gewenste uiterlijk te bereiken.
 
 ### Kan ik meer categorieën en gegevensreeksen toevoegen aan het cirkeldiagram?
 
@@ -278,7 +278,7 @@ Zorg ervoor dat u het juiste bestandspad en de juiste indeling opgeeft.
 
 ### Kan ik andere typen diagrammen maken met Aspose.Slides voor Java?
 
- Ja, Aspose.Slides voor Java ondersteunt verschillende diagramtypen, waaronder staafdiagrammen, lijndiagrammen en meer. U kunt verschillende typen diagrammen maken door de`ChartType` bij het toevoegen van een diagram. Raadpleeg de Aspose.Slides-documentatie voor meer informatie over het maken van verschillende soorten diagrammen.
+Ja, Aspose.Slides voor Java ondersteunt verschillende diagramtypen, waaronder staafdiagrammen, lijndiagrammen en meer. U kunt verschillende typen diagrammen maken door de`ChartType` bij het toevoegen van een diagram. Raadpleeg de Aspose.Slides-documentatie voor meer informatie over het maken van verschillende soorten diagrammen.
 
 ### Hoe kan ik meer informatie en voorbeelden vinden voor het werken met Aspose.Slides voor Java?
 

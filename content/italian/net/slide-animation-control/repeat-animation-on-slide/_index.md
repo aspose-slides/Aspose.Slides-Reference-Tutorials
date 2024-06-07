@@ -1,5 +1,5 @@
 ---
-title: Padroneggiare le animazioni PowerPoint con Aspose.Slides .NET
+title: Padroneggiare le animazioni di PowerPoint con Aspose.Slides .NET
 linktitle: Ripeti l'animazione sulla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le presentazioni PowerPoint utilizzando Aspose.Slides per .NET. Controlla le animazioni senza sforzo, affascina il tuo pubblico e lascia un'impressione duratura.

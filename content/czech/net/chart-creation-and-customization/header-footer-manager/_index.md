@@ -16,7 +16,7 @@ Ve světě dynamických prezentací je Aspose.Slides for .NET vaším důvěryho
 
 Než začneme, budete potřebovat několik věcí:
 
-1.  Aspose.Slides for .NET: Měli byste mít nainstalovaný Aspose.Slides for .NET. Pokud jste to ještě neudělali, knihovnu najdete[tady](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET: Měli byste mít nainstalovaný Aspose.Slides for .NET. Pokud jste to ještě neudělali, můžete knihovnu najít[tady](https://releases.aspose.com/slides/net/).
 
 2. Váš dokument: PowerPointovou prezentaci, na které chcete pracovat, byste měli mít uloženou ve svém místním adresáři. Ujistěte se, že znáte cestu k tomuto dokumentu.
 

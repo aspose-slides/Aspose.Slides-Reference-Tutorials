@@ -68,7 +68,7 @@ if (license.IsLicensed())
 }
 ```
 
-Tebrikler! Aspose.Slides for .NET'i başarıyla lisansladınız ve uygulamanız PowerPoint sunumlarıyla çalışmak için onun güçlü özelliklerinden yararlanmaya hazır.
+Tebrikler! Aspose.Slides for .NET'i başarıyla lisansladınız ve uygulamanız, PowerPoint sunumlarıyla çalışmak için onun güçlü özelliklerinden yararlanmaya hazır.
 
 ## Çözüm
 

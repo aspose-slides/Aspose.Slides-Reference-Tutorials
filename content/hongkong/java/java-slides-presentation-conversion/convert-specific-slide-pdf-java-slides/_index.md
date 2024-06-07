@@ -16,7 +16,7 @@ url: /zh-hant/java/presentation-conversion/convert-specific-slide-pdf-java-slide
 
 在我們深入研究程式碼之前，請確保您具備以下先決條件：
 
-1.  Aspose.Slides for Java 函式庫：您需要安裝 Aspose.Slides for Java 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java 函式庫：您需要安裝 Aspose.Slides for Java 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/slides/java/).
 
 2. Java 開發環境：確保您的系統上設定了 Java 開發環境。
 
@@ -52,7 +52,7 @@ finally
 
 - 我們創建一個`Presentation`代表演示文件的對象。
 
-- 我們定義了您要轉換的幻燈片位置陣列。在此範例中，我們在位置 1 和 3 處轉換投影片。您可以調整此陣列以選擇您需要的特定投影片。
+- 我們定義了您要轉換的幻燈片位置陣列。在此範例中，我們在位置 1 和 3 處轉換投影片。
 
 - 最後，我們將選定的幻燈片儲存為 PDF 檔案（`RequiredSelectedSlides_out.pdf`）。
 

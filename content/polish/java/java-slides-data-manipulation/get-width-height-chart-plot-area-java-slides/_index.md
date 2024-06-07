@@ -90,7 +90,7 @@ finally
 
 ## Wniosek
 
-W tym artykule omówiliśmy, jak uzyskać szerokość i wysokość obszaru wykresu w aplikacji Java Slides przy użyciu interfejsu API Aspose.Slides for Java. Informacje te mogą być przydatne, gdy trzeba dynamicznie dostosowywać układ wykresów w prezentacjach programu PowerPoint.
+tym artykule omówiliśmy, jak uzyskać szerokość i wysokość obszaru wykresu w aplikacji Java Slides przy użyciu interfejsu API Aspose.Slides for Java. Informacje te mogą być przydatne, gdy trzeba dynamicznie dostosowywać układ wykresów w prezentacjach programu PowerPoint.
 
 ## Często zadawane pytania
 

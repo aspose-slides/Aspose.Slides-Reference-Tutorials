@@ -78,7 +78,7 @@ finally
 
 ## Závěr
 
-tomto tutoriálu jsme se zabývali základními kroky pro převod zobrazení snímků s poznámkami v aplikaci Java Slides pomocí Aspose.Slides. Dodržením těchto kroků a přizpůsobením kódu svým konkrétním potřebám můžete efektivně manipulovat a převádět PowerPointové prezentace programově v aplikacích Java.
+tomto tutoriálu jsme se zabývali základními kroky pro převod zobrazení snímků s poznámkami v aplikaci Java Slides pomocí Aspose.Slides. Dodržením těchto kroků a přizpůsobením kódu svým konkrétním potřebám můžete efektivně manipulovat a převádět prezentace PowerPoint programově v aplikacích Java.
 
 ## FAQ
 
@@ -92,7 +92,7 @@ Ano, k používání Aspose.Slides for Java v produkčním prostředí budete po
 
 ### Mohu převést více prezentací v dávkovém režimu?
 
-Ano, Aspose.Slides for Java podporuje dávkové zpracování, což vám umožňuje převádět více prezentací najednou. Můžete iterovat seznamem prezentačních souborů a aplikovat logiku převodu na každý z nich.
+Ano, Aspose.Slides for Java podporuje dávkové zpracování, což vám umožní převést více prezentací najednou. Můžete iterovat seznamem prezentačních souborů a aplikovat logiku převodu na každý z nich.
 
 ### Je Aspose.Slides kompatibilní s nejnovějšími verzemi PowerPointu?
 

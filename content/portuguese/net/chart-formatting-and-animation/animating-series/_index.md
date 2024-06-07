@@ -38,13 +38,13 @@ using Aspose.Slides;
 
 ## Etapa 2: carregar a apresentação existente
 
-Nesta etapa, carregue sua apresentação existente do PowerPoint (PPTX) que contém o gráfico que você deseja animar.
+Nesta etapa, carregue sua apresentação PowerPoint existente (PPTX) que contém o gráfico que você deseja animar.
 
 ```csharp
 // Caminho para o diretório do documento
 string dataDir = "Your Document Directory";
 
-//Instanciar a classe Presentation que representa um arquivo de apresentação
+// Instanciar a classe Presentation que representa um arquivo de apresentação
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Seu código vai aqui

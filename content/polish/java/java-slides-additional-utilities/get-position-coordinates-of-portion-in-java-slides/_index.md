@@ -97,7 +97,7 @@ finally
 
 ## Wniosek
 
-tym samouczku omówiliśmy sposób uzyskiwania współrzędnych pozycji fragmentów tekstu na slajdach Java przy użyciu interfejsu API Aspose.Slides for Java. Wiedza ta może być szczególnie przydatna, gdy potrzebna jest precyzyjna kontrola nad rozmieszczeniem elementów tekstowych w prezentacjach PowerPoint.
+W tym samouczku omówiliśmy sposób uzyskiwania współrzędnych pozycji fragmentów tekstu na slajdach Java przy użyciu interfejsu API Aspose.Slides for Java. Wiedza ta może być szczególnie przydatna, gdy potrzebna jest precyzyjna kontrola nad rozmieszczeniem elementów tekstowych w prezentacjach PowerPoint.
 
 ## Często zadawane pytania
 

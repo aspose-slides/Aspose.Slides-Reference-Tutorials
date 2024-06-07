@@ -107,7 +107,7 @@ Evet, Aspose.Slides for .NET'i kullanarak sunum dosyalarınız arasında dolaş�
 
 ### 2. HTML çıktısının görünümünü özelleştirmenin bir yolu var mı?
 
-Kesinlikle! Aspose.Slides for .NET, HTML çıktısının görünümünü ve formatını özelleştirmek için renkleri, yazı tiplerini ve düzeni ayarlama gibi çeşitli seçenekler sunar.
+Kesinlikle! Aspose.Slides for .NET, HTML çıktısının görünümünü ve formatını özelleştirmek için renkleri, yazı tiplerini ve düzeni ayarlamak gibi çeşitli seçenekler sunar.
 
 ### 3. Aspose.Slides for .NET kullanarak HTML'ye yazı tipi yerleştirme konusunda herhangi bir sınırlama var mı?
 

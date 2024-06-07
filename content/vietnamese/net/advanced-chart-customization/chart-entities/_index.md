@@ -153,7 +153,7 @@ valtitle.PortionFormat.FontItalic = NullableBool.True;
 
 ## Bước 8: Tùy chỉnh đường lưới trục ngang
 
-Bây giờ, hãy tùy chỉnh các đường lưới cho trục hoành.
+Bây giờ, hãy tùy chỉnh các đường lưới cho trục ngang.
 
 ```csharp
 // Đặt định dạng đường lưới chính cho trục Danh mục

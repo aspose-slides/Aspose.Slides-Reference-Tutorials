@@ -14,7 +14,7 @@ W tym samouczku przyjrzymy się, jak sprawdzić układ wykresu w prezentacji pro
 
 ## Krok 1: Inicjowanie prezentacji
 
-Najpierw musimy zainicjować obiekt prezentacji i załadować istniejącą prezentację programu PowerPoint. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji (`test.pptx` w tym przykładzie).
+ Najpierw musimy zainicjować obiekt prezentacji i załadować istniejącą prezentację programu PowerPoint. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji (`test.pptx` w tym przykładzie).
 
 ```java
 // Ścieżka do katalogu dokumentów.
@@ -88,7 +88,7 @@ W tym samouczku zagłębiliśmy się w świat pracy z wykresami w prezentacjach 
 
 ### Jak zmienić typ wykresu?
 
- Aby zmienić typ wykresu, po prostu zamień`ChartType.ClusteredColumn` z żądanym typem wykresu w pliku`addChart()` metoda.
+ Aby zmienić typ wykresu, po prostu zamień`ChartType.ClusteredColumn` żądanym typem wykresu w pliku`addChart()` metoda.
 
 ### Czy mogę dostosować dane wykresu?
 

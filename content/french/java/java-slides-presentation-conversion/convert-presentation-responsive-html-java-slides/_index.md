@@ -10,7 +10,7 @@ url: /fr/java/presentation-conversion/convert-presentation-responsive-html-java-
 
 ## Introduction à la conversion d'une présentation en HTML réactif dans des diapositives Java
 
-Dans le monde des présentations, la capacité de les convertir au format HTML réactif est une compétence précieuse. Avec Java Slides, cette tâche devient non seulement réalisable mais aussi efficace. Dans ce guide étape par étape, nous explorerons comment convertir une présentation en HTML réactif à l'aide de la bibliothèque Aspose.Slides pour Java. Allons-y !
+Dans le monde des présentations, la capacité de les convertir au format HTML réactif est une compétence précieuse. Avec Java Slides, cette tâche devient non seulement réalisable mais aussi efficace. Dans ce guide étape par étape, nous explorerons comment convertir une présentation en HTML réactif à l'aide de la bibliothèque Aspose.Slides pour Java. Plongeons-y !
 
 ## Conditions préalables
 
@@ -19,7 +19,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 1. Kit de développement Java (JDK) installé sur votre système.
 2.  Aspose.Slides pour la bibliothèque Java. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
 
-## Étape 1 : Configuration de votre projet
+## Étape 1 : Configurer votre projet
 
 Tout d’abord, créez un nouveau projet Java dans votre environnement de développement intégré (IDE) préféré. Assurez-vous d'inclure la bibliothèque Aspose.Slides pour Java dans le chemin de classe de votre projet.
 
@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## Étape 3 : Charger la présentation
 
-Maintenant, chargeons la présentation que vous souhaitez convertir. Remplacer`"Your Document Directory"` avec le chemin réel vers votre fichier de présentation :
+ Maintenant, chargeons la présentation que vous souhaitez convertir. Remplacer`"Your Document Directory"` avec le chemin réel vers votre fichier de présentation :
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Toutes nos félicitations! Vous avez converti avec succès une présentation en 
 
 ### Puis-je personnaliser davantage la sortie HTML ?
 
- Oui, vous pouvez personnaliser la sortie HTML en modifiant le`ResponsiveHtmlController` et`HtmlOptions`objets. Cela vous permet d'adapter la sortie HTML à vos besoins spécifiques.
+ Oui, vous pouvez personnaliser la sortie HTML en modifiant le`ResponsiveHtmlController` et`HtmlOptions` objets. Cela vous permet d'adapter la sortie HTML à vos besoins spécifiques.
 
 ### Existe-t-il des exigences de licence pour Aspose.Slides pour Java ?
 

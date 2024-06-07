@@ -8,7 +8,7 @@ weight: 11
 url: /vi/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
 
-Cho dù bạn đang tạo ra một quảng cáo chiêu hàng năng động, một bài giảng mang tính giáo dục hay một hội thảo trực tuyến hấp dẫn thì bản trình bày là nền tảng của giao tiếp hiệu quả. Microsoft PowerPoint từ lâu đã là phần mềm được sử dụng để tạo các trình chiếu tuyệt đẹp. Tuy nhiên, khi nói đến việc quản lý các bài thuyết trình theo chương trình, thư viện Aspose.Slides for .NET tỏ ra là một công cụ vô giá. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Slides cho .NET để quản lý bản trình bày ở trạng thái xem thông thường, cho phép bạn tạo, sửa đổi và nâng cao bản trình bày của mình một cách liền mạch.
+Cho dù bạn đang tạo ra một quảng cáo chiêu hàng năng động, một bài giảng mang tính giáo dục hay một hội thảo trên web hấp dẫn thì bản trình bày là nền tảng của giao tiếp hiệu quả. Microsoft PowerPoint từ lâu đã là phần mềm được sử dụng để tạo các trình chiếu tuyệt đẹp. Tuy nhiên, khi nói đến việc quản lý các bài thuyết trình theo chương trình, thư viện Aspose.Slides for .NET tỏ ra là một công cụ vô giá. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Slides cho .NET để quản lý bản trình bày ở trạng thái xem thông thường, cho phép bạn tạo, sửa đổi và nâng cao bản trình bày của mình một cách liền mạch.
 
    
 ## Thiết lập môi trường phát triển

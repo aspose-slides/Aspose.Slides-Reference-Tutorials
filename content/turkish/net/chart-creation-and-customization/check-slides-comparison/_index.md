@@ -45,7 +45,7 @@ Projenizi ayarladıktan sonra sunum dosyalarıyla çalışmaya başlayabilirsini
 Şimdi sürecin temel kısmı geliyor: sunumlardaki slaytları karşılaştırmak:
 
 1. Ortak ve Benzersiz Slaytları Belirleme:
-   Her iki sunumun slaytlarını yineleyebilir ve bunları karşılaştırarak ortak slaytları ve her sunuma özgü slaytları belirleyebilirsiniz:
+   Her iki sunumun slaytlarını yineleyebilir ve bunları karşılaştırarak ortak slaytları ve her sunuma özel slaytları belirleyebilirsiniz:
 
    ```csharp
    foreach (ISlide sourceSlide in sourcePresentation.Slides)
@@ -120,7 +120,7 @@ Animasyonlu ve multimedya içerikli sunumlar için:
 
 ## Çözüm
 
-Sunumlardaki slaytları karşılaştırmak Aspose.Slides for .NET tarafından sunulan değerli bir özelliktir. Bu yetenek, geliştiricilerin sunumlardaki değişiklik ve güncellemeleri doğru şekilde değerlendirmelerini sağlar. Bu kılavuzda özetlenen adımları izleyerek, slaytları karşılaştırmak, farklılıkları vurgulamak ve kapsamlı raporlar oluşturmak için Aspose.Slides kitaplığından etkili bir şekilde yararlanabilirsiniz.
+Sunumlardaki slaytları karşılaştırmak Aspose.Slides for .NET tarafından sunulan değerli bir özelliktir. Bu yetenek, geliştiricilerin sunumlardaki değişiklik ve güncellemeleri doğru şekilde değerlendirmelerini sağlar. Bu kılavuzda özetlenen adımları izleyerek slaytları karşılaştırmak, farklılıkları vurgulamak ve kapsamlı raporlar oluşturmak için Aspose.Slides kitaplığından etkili bir şekilde yararlanabilirsiniz.
 
 ## SSS'ler
 

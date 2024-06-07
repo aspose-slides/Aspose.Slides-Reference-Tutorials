@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Pas de labelopmaak aan (lettertype, vulling, enz.)
+        //Pas de labelopmaak aan (lettertype, vulling, enz.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Hoe kan ik highlights voor gegevenslabels in- of uitschakelen?
 
- Om bijschriften voor gegevenslabels in of uit te schakelen, gebruikt u de`setShowLabelAsDataCallout` methode. Stel het in`true` om toelichtingen in te schakelen en`false` om ze uit te schakelen.
+ Om bijschriften voor gegevenslabels in of uit te schakelen, gebruikt u de`setShowLabelAsDataCallout` methode. Stel het in`true` om toelichtingen in te schakelen en`false`om ze uit te schakelen.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Schakel highlights in

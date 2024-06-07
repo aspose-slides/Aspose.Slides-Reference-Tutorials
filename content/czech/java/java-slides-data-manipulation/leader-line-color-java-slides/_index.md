@@ -1,6 +1,6 @@
 ---
-title: Barva vodicí čáry v Java Slides
-linktitle: Barva vodicí čáry v Java Slides
+title: Barva vodící čáry v Java Slides
+linktitle: Barva vodící čáry v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak změnit barvy vodicí čáry v grafech aplikace PowerPoint pomocí Aspose.Slides pro Java. Průvodce krok za krokem s příklady zdrojového kódu.
 type: docs

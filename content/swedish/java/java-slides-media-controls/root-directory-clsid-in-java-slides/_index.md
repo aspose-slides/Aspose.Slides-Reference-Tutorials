@@ -10,7 +10,7 @@ url: /sv/java/media-controls/root-directory-clsid-in-java-slides/
 
 ## Introduktion till inställning av Root Directory ClsId i Aspose.Slides för Java
 
-Aspose.Slides för Java kan du ställa in rotkatalogen ClsId, vilket är det CLSID (Klassidentifierare) som används för att specificera programmet som ska användas som rotkatalog när en hyperlänk i din presentation aktiveras. I den här guiden går vi igenom hur du gör detta steg för steg.
+I Aspose.Slides för Java kan du ställa in rotkatalogen ClsId, vilket är det CLSID (Class Identifier) som används för att ange programmet som ska användas som rotkatalog när en hyperlänk i din presentation aktiveras. I den här guiden går vi igenom hur du gör detta steg för steg.
 
 ## Förutsättningar
 
@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Ersätt "your_output_path" m
 Presentation pres = new Presentation();
 ```
 
- I koden ovan definierar vi sökvägen för utdatapresentationsfilen och skapar en ny`Presentation` objekt.
+ koden ovan definierar vi sökvägen för utdatapresentationsfilen och skapar en ny`Presentation` objekt.
 
 ## Steg 2: Ställ in rotkatalog ClsId
 
- För att ställa in rotkatalogens ClsId måste du skapa en instans av`PptOptions`och ställ in önskat CLSID. CLSID representerar programmet som kommer att användas som rotkatalog när en hyperlänk aktiveras.
+ För att ställa in rotkatalogens ClsId måste du skapa en instans av`PptOptions` och ställ in önskat CLSID. CLSID representerar programmet som kommer att användas som rotkatalog när en hyperlänk aktiveras.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// ställ in CLSID till "Microsoft Powerpoint.Show.8"
+	//ställ in CLSID till "Microsoft Powerpoint.Show.8"
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Spara presentationen
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

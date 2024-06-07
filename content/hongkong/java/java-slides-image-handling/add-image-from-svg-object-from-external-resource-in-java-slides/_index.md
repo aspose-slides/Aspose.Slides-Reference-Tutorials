@@ -22,7 +22,7 @@ url: /zh-hant/java/image-handling/add-image-from-svg-object-from-external-resour
 
 ## 設定項目
 
-確保您的 Java 開發環境已設定並準備好用於該專案。您可以使用您首選的 Java 整合開發環境 (IDE)。
+確保您的 Java 開發環境已設定並準備好用於此專案。您可以使用您首選的 Java 整合開發環境 (IDE)。
 
 ## 第 1 步：將 Aspose.Slides 加入您的專案中
 
@@ -38,7 +38,7 @@ String outPptxPath = dataDir + "presentation_external.pptx";
 Presentation p = new Presentation();
 ```
 
-確保您更換`"Your Document Directory"`與專案目錄的實際路徑。
+確保更換`"Your Document Directory"`與專案目錄的實際路徑。
 
 ## 第 3 步：載入 SVG 圖像
 

@@ -81,7 +81,7 @@ Dalam tutorial ini, kami telah menunjukkan cara mempertahankan font asli saat me
 
 ### Q1: Dapatkah saya menyesuaikan daftar font yang dikecualikan?
 
- Ya kamu bisa. Ubah`fontNameExcludeList` array untuk menyertakan atau mengecualikan font tertentu sesuai dengan kebutuhan Anda.
+ Ya kamu bisa. Ubah`fontNameExcludeList`array untuk menyertakan atau mengecualikan font tertentu sesuai dengan kebutuhan Anda.
 
 ### Q2: Bagaimana jika saya tidak ingin menyematkan semua font?
 

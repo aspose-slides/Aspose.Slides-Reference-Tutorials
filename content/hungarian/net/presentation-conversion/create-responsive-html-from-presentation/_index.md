@@ -43,7 +43,7 @@ using (Presentation presentation = new Presentation(dataDir + "Convert_HTML.pptx
 
 ## 6. HTML-beállítások konfigurálása
 
- Konfigurálja a HTML-beállításokat egy`HtmlOptions` tárgy. Igény szerint testreszabhatja a HTML formázást. Például egyéni HTML-formázót hozhat létre a`HtmlFormatter.CreateCustomFormatter(controller)` módszer.
+ Konfigurálja a HTML beállításokat egy`HtmlOptions` tárgy. A HTML formázást igény szerint testre szabhatja. Például létrehozhat egy egyéni HTML-formázót a`HtmlFormatter.CreateCustomFormatter(controller)` módszer.
 
 ```csharp
 ResponsiveHtmlController controller = new ResponsiveHtmlController();

@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/convert-presentation-responsive-html-java-
 
 ## Bevezetés a prezentáció átalakításához reszponzív HTML-vé a Java Slides-ben
 
-A prezentációk világában a reszponzív HTML formátumba konvertálás képessége értékes készség. A Java Slides segítségével ez a feladat nem csak megvalósítható, hanem hatékony is lesz. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan alakíthat át prezentációt reszponzív HTML formátumba az Aspose.Slides for Java könyvtár használatával. Egyből merüljünk bele!
+A prezentációk világában a reszponzív HTML formátumba konvertálás képessége értékes készség. A Java Slides segítségével ez a feladat nem csak megvalósítható, hanem hatékony is lesz. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan alakíthat át prezentációt reszponzív HTML formátumba az Aspose.Slides for Java könyvtár használatával. Ugorjunk bele!
 
 ## Előfeltételek
 
@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## 3. lépés: Töltse be a prezentációt
 
-Most töltsük be a konvertálni kívánt prezentációt. Cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával:
+ Most töltsük be a konvertálni kívánt prezentációt. Cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Gratulálunk! Sikeresen átalakított egy prezentációt reszponzív HTML formá
 
 ### Testreszabhatom a HTML kimenetet?
 
- Igen, testreszabhatja a HTML-kimenetet a`ResponsiveHtmlController` és`HtmlOptions`tárgyakat. Ez lehetővé teszi, hogy a HTML-kimenetet az Ön egyedi igényeihez igazítsa.
+ Igen, testreszabhatja a HTML-kimenetet a`ResponsiveHtmlController` és`HtmlOptions` tárgyakat. Ez lehetővé teszi, hogy a HTML-kimenetet az Ön egyedi igényeihez igazítsa.
 
 ### Vannak licenckövetelmények az Aspose.Slides for Java számára?
 

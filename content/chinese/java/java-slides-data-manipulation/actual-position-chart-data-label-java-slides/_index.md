@@ -1,6 +1,6 @@
 ---
-title: 获取 Java 幻灯片中图表数据标签的实际位置
-linktitle: 获取 Java 幻灯片中图表数据标签的实际位置
+title: 获取 Java Slides 中图表数据标签的实际位置
+linktitle: 获取 Java Slides 中图表数据标签的实际位置
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 获取 Java Slides 中图表数据标签的实际位置。带有源代码的分步指南。
 type: docs
@@ -8,17 +8,17 @@ weight: 18
 url: /zh/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
 
-## Java幻灯片中获取图表数据标签实际位置简介
+## Java Slides 中获取图表数据标签实际位置的介绍
 
-在本教程中，您将学习如何使用 Aspose.Slides for Java 检索图表数据标签的实际位置。我们将创建一个 Java 程序，该程序生成带有图表的 PowerPoint 演示文稿、自定义数据标签，然后添加表示这些数据标签位置的形状。
+在本教程中，您将学习如何使用 Aspose.Slides for Java 检索图表数据标签的实际位置。我们将创建一个 Java 程序，该程序生成带有图表的 PowerPoint 演示文稿，自定义数据标签，然后添加表示这些数据标签位置的形状。
 
 ## 先决条件
 
-开始之前，请确保您的 Java 项目中已设置 Aspose.Slides for Java 库。
+开始之前，请确保您已在 Java 项目中设置了 Aspose.Slides for Java 库。
 
-## 第 1 步：创建 PowerPoint 演示文稿
+## 步骤 1：创建 PowerPoint 演示文稿
 
-首先，让我们创建一个新的 PowerPoint 演示文稿并向其中添加一个图表。我们将在本教程后面自定义图表的数据标签。
+首先，让我们创建一个新的 PowerPoint 演示文稿并向其中添加图表。我们将在本教程的后面部分自定义图表的数据标签。
 
 ```java
 //文档目录的路径。
@@ -33,11 +33,11 @@ try {
 ```
 
 ## 第 2 步：自定义数据标签
-现在，让我们自定义图表系列的数据标签。我们将设定他们的位置并展示他们的价值观。
+现在，让我们自定义图表系列的数据标签。我们将设置它们的位置并显示值。
 
 ```java
 try {
-    // ...（之前的代码）
+    // ...（前一个代码）
     for (IChartSeries series : chart.getChartData().getSeries()) {
         series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
         series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -49,11 +49,11 @@ try {
 ```
 
 ## 步骤 3：获取数据标签的实际位置
-在此步骤中，我们将迭代图表系列的数据点并检索值大于 4 的数据标签的实际位置。然后我们将添加省略号来表示这些位置。
+在此步骤中，我们将遍历图表系列的数据点并检索值大于 4 的数据标签的实际位置。然后我们将添加省略号来表示这些位置。
 
 ```java
 try {
-    // ...（之前的代码）
+    // ...（前一个代码）
     for (IChartSeries series : chart.getChartData().getSeries()) {
         for (IChartDataPoint point : series.getDataPoints()) {
             if (point.getValue().toDouble() > 4) {
@@ -73,19 +73,19 @@ try {
 }
 ```
 
-## 第 4 步：保存演示文稿
+## 步骤 4：保存演示文稿
 最后，将生成的演示文稿保存到文件中。
 
 ```java
 try {
-    // ...（之前的代码）
+    // ...（前一个代码）
     pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Java幻灯片中获取图表数据标签实际位置的完整源代码
+## 获取 Java 幻灯片中图表数据标签实际位置的完整源代码
 
 ```java
 //文档目录的路径。
@@ -126,13 +126,13 @@ finally
 
 ## 结论
 
-在本教程中，您学习了如何使用 Aspose.Slides for Java 检索 Java Slides 中图表数据标签的实际位置。现在，您可以利用这些知识，通过自定义数据标签和位置的视觉表示来增强 PowerPoint 演示文稿。
+在本教程中，您学习了如何使用 Aspose.Slides for Java 检索 Java Slides 中图表数据标签的实际位置。现在，您可以使用这些知识通过自定义数据标签及其位置的视觉表示来增强您的 PowerPoint 演示文稿。
 
 ## 常见问题解答
 
 ### 如何自定义图表中的数据标签？
 
-要自定义图表中的数据标签，您可以使用`setDefaultDataLabelFormat`图表系列上的方法并设置位置和可见性等属性。例如：
+要自定义图表中的数据标签，您可以使用`setDefaultDataLabelFormat`方法并设置位置和可见性等属性。例如：
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -142,7 +142,7 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 
 ### 如何添加形状来表示数据标签位置？
 
-您可以迭代图表系列的数据点并使用`getActualX`, `getActualY`, `getActualWidth`， 和`getActualHeight`数据标签的方法来获取其位置。然后，您可以使用添加形状`addAutoShape`方法。这是一个例子：
+您可以遍历图表系列的数据点并使用`getActualX`, `getActualY`, `getActualWidth`， 和`getActualHeight`方法获取其位置。然后，您可以使用`addAutoShape`方法。以下是示例：
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -153,7 +153,7 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 
 ### 如何保存生成的演示文稿？
 
-您可以使用以下命令保存生成的演示文稿`save`方法。提供所需的文件路径和`SaveFormat`作为参数。例如：
+您可以使用`save`方法。提供所需的文件路径和`SaveFormat`作为参数。例如：
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```

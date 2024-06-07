@@ -41,7 +41,7 @@ Sekarang, mari kita tulis kode Java untuk memverifikasi format presentasi tanpa 
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Ini akan mengembalikan "LoadFormat.Unknown" jika file tersebut selain format presentasi
+//Ini akan mengembalikan "LoadFormat.Unknown" jika file tersebut selain format presentasi
 ```
 
  Dalam kode ini, kami menggunakan`PresentationFactory` untuk mendapatkan informasi tentang file presentasi, termasuk formatnya. Jika file tersebut bukan format presentasi yang valid, maka akan menampilkan "LoadFormat.Unknown."
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Jalur ke direktori dokumen.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Ini akan mengembalikan "LoadFormat.Unknown" jika file tersebut selain format presentasi
+        //Ini akan mengembalikan "LoadFormat.Unknown" jika file tersebut selain format presentasi
 ```
 
 ## Kesimpulan

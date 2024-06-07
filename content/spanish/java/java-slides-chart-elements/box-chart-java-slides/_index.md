@@ -52,7 +52,7 @@ En este paso, creamos una forma de gráfico de cuadro en la primera diapositiva 
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- En este paso, definimos las categorías para el gráfico de cajas. Usamos el`IChartDataWorkbook`para agregar categorías y etiquetarlas en consecuencia.
+ En este paso, definimos las categorías para el gráfico de cajas. Usamos el`IChartDataWorkbook` para agregar categorías y etiquetarlas en consecuencia.
 
 ## Paso 4: crea la serie
 

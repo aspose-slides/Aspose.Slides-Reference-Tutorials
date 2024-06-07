@@ -243,7 +243,7 @@ try
 	catTitle.getPortionFormat().setFontHeight(20);
 	catTitle.getPortionFormat().setFontBold(NullableBool.True);
 	catTitle.getPortionFormat().setFontItalic(NullableBool.True);
-	// Настройка положения метки оси категории
+	// Настройка положения метки оси категорий
 	chart.getAxes().getHorizontalAxis().setTickLabelPosition(TickLabelPositionType.Low);
 	// Настройка угла поворота метки оси категории
 	chart.getAxes().getHorizontalAxis().setTickLabelRotationAngle(45);

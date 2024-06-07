@@ -11,7 +11,7 @@ url: /nl/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 In de dynamische wereld van presentaties onderscheidt Aspose.Slides voor .NET zich als een krachtig hulpmiddel om uw ervaring met het maken van dia's te verbeteren. Een van de opvallende kenmerken die het biedt, is de mogelijkheid om een samenvattingszoom te maken, een visueel aantrekkelijke manier om een verzameling dia's te presenteren. In deze zelfstudie begeleiden we u bij het maken van presentatiedia's met samenvattende zoom in met behulp van Aspose.Slides voor .NET.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
--  Aspose.Slides voor .NET: Zorg ervoor dat de bibliotheek in uw .NET-omgeving is geïnstalleerd. Als dit niet het geval is, kunt u deze downloaden van de[pagina vrijgeven](https://releases.aspose.com/slides/net/).
+- Aspose.Slides voor .NET: Zorg ervoor dat de bibliotheek in uw .NET-omgeving is geïnstalleerd. Als dit niet het geval is, kunt u deze downloaden van de[pagina vrijgeven](https://releases.aspose.com/slides/net/).
 - Ontwikkelomgeving: Stel uw .NET-ontwikkelomgeving in, inclusief Visual Studio of een andere gewenste IDE.
 - Basiskennis van C#: Deze tutorial gaat ervan uit dat je een basiskennis hebt van programmeren in C#.
 ## Naamruimten importeren
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Stap 2: dia's en secties toevoegen
- Deze stap omvat het maken van individuele dia's en het organiseren ervan in secties binnen de presentatie. De`AddEmptySlide` methode voegt een nieuwe dia toe, en de`Sections.AddSection` methode stelt secties vast voor een betere organisatie.
+ Deze stap omvat het maken van individuele dia's en het organiseren ervan in secties binnen de presentatie. De`AddEmptySlide`methode voegt een nieuwe dia toe, en de`Sections.AddSection` methode stelt secties vast voor een betere organisatie.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Code voor het stylen van de dia vindt u hier
@@ -78,4 +78,4 @@ Absoluut! U kunt hyperlinks in uw dia's opnemen en deze werken naadloos binnen h
 ### Zijn er beperkingen op het aantal secties in een presentatie?
 Vanaf de nieuwste versie zijn er geen strikte beperkingen op het aantal secties dat u aan een presentatie kunt toevoegen.
 ### Is er een proefversie beschikbaar voor Aspose.Slides?
-Ja, u kunt de functies van Aspose.Slides verkennen door het bestand[gratis proefversie](https://releases.aspose.com/).
+ Ja, u kunt de functies van Aspose.Slides verkennen door het bestand[gratis proefversie](https://releases.aspose.com/).

@@ -1,22 +1,22 @@
 ---
-title: Java スライドのプレゼンテーション保護をチェックする
-linktitle: Java スライドのプレゼンテーション保護をチェックする
+title: Java スライドのプレゼンテーション保護を確認する
+linktitle: Java スライドのプレゼンテーション保護を確認する
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して Java スライドのプレゼンテーション保護をチェックする方法を学びます。このステップバイステップのガイドでは、書き込み保護チェックとオープン保護チェックのコード例を示します。
+description: Aspose.Slides for Java を使用して Java スライドのプレゼンテーション保護をチェックする方法を学びます。このステップバイステップ ガイドでは、書き込み保護とオープン保護のチェックのコード例を示します。
 type: docs
 weight: 15
 url: /ja/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
 
-## Java スライドでのプレゼンテーション保護のチェックの概要
+## Java スライドでのプレゼンテーション保護の確認の概要
 
-このチュートリアルでは、Aspose.Slides for Java を使用してプレゼンテーションの保護をチェックする方法を検討します。プレゼンテーションの書き込み保護のチェックとオープン保護のチェックという 2 つのシナリオについて説明します。各シナリオの段階的なコード例を提供します。
+このチュートリアルでは、Aspose.Slides for Java を使用してプレゼンテーション保護をチェックする方法について説明します。プレゼンテーションの書き込み保護のチェックとオープン保護のチェックという 2 つのシナリオについて説明します。各シナリオについて、ステップバイステップのコード例を示します。
 
 ## 前提条件
 
-始める前に、Java プロジェクトに Aspose.Slides for Java ライブラリが設定されていることを確認してください。 Aspose Web サイトからダウンロードして、プロジェクトの依存関係に追加できます。
+始める前に、Java プロジェクトに Aspose.Slides for Java ライブラリが設定されていることを確認してください。Aspose Web サイトからダウンロードして、プロジェクトの依存関係に追加できます。
 
-### Maven の依存関係
+### Maven 依存関係
 
 ```xml
 <dependency>
@@ -26,11 +26,11 @@ url: /ja/java/presentation-properties/check-presentation-protection-in-java-slid
 </dependency>
 ```
 
-交換する`your_version_here`使用している Aspose.Slides for Java のバージョンを変更します。
+交換する`your_version_here`使用している Aspose.Slides for Java のバージョンに応じて異なります。
 
-## ステップ 1: 書き込み保護を確認する
+## ステップ1: 書き込み保護を確認する
 
-プレゼンテーションがパスワードで書き込み保護されているかどうかを確認するには、`IPresentationInfo`インターフェース。これを行うコードは次のとおりです。
+プレゼンテーションがパスワードで書き込み保護されているかどうかを確認するには、`IPresentationInfo`インターフェース。これを行うためのコードは次のとおりです。
 
 ```java
 //ソースプレゼンテーションのパス
@@ -44,24 +44,24 @@ boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == Null
 System.out.println("Is presentation write protected by password = " + isWriteProtectedByPassword);
 ```
 
-交換する`"path_to_presentation.pptx"`プレゼンテーション ファイルへの実際のパスと`"password_here"`書き込み保護パスワード付き。
+交換する`"path_to_presentation.pptx"`プレゼンテーションファイルへの実際のパスと`"password_here"`書き込み保護パスワードを使用します。
 
-## ステップ 2: オープン保護をチェックする
+## ステップ2: オープン保護を確認する
 
-プレゼンテーションを開くためのパスワードが保護されているかどうかを確認するには、`IPresentationInfo`インターフェース。これを行うコードは次のとおりです。
+プレゼンテーションを開くためのパスワードで保護されているかどうかを確認するには、`IPresentationInfo`インターフェース。これを行うためのコードは次のとおりです。
 
 ```java
 //ソースプレゼンテーションのパス
 String pptFile = "path_to_presentation.ppt";
 
-// IPresentationInfo インターフェイス経由でプレゼンテーションのオープン保護を確認する
+// IPresentationInfo インターフェイス経由でプレゼンテーションのオープン保護をチェックする
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected()) {
     System.out.println("The presentation is protected by password to open.");
 }
 ```
 
-交換する`"path_to_presentation.ppt"`プレゼンテーション ファイルへの実際のパスを含めます。
+交換する`"path_to_presentation.ppt"`プレゼンテーション ファイルへの実際のパスを入力します。
 
 ## Java スライドのプレゼンテーション保護をチェックするための完全なソース コード
 
@@ -84,7 +84,7 @@ finally
 {
 	if (presentation != null) presentation.dispose();
 }
-// IPresentationInfo インターフェイス経由でプレゼンテーションのオープン保護を確認する
+// IPresentationInfo インターフェイス経由でプレゼンテーションのオープン保護をチェックする
 presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 if (presentationInfo.isPasswordProtected())
 {
@@ -94,21 +94,21 @@ if (presentationInfo.isPasswordProtected())
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用して Java スライドのプレゼンテーション保護をチェックする方法を学びました。書き込み保護のチェックとオープン保護のチェックという 2 つのシナリオについて説明しました。これらのチェックを Java アプリケーションに統合して、保護されたプレゼンテーションを効果的に処理できるようになりました。
+このチュートリアルでは、Aspose.Slides for Java を使用して Java スライドのプレゼンテーション保護をチェックする方法を学びました。書き込み保護のチェックとオープン保護のチェックという 2 つのシナリオを取り上げました。これらのチェックを Java アプリケーションに統合して、保護されたプレゼンテーションを効果的に処理できるようになりました。
 
 ## よくある質問
 
-### Java 用の Aspose.Slides を入手するにはどうすればよいですか?
+### Aspose.Slides for Java を入手するにはどうすればよいですか?
 
-Aspose.Slides for Java は、Aspose Web サイトからダウンロードすることも、前提条件セクションに示されているように、Maven 依存関係としてプロジェクトに追加することもできます。
+Aspose.Slides for Java は、Aspose Web サイトからダウンロードするか、前提条件セクションに示されているように、プロジェクトに Maven 依存関係として追加することができます。
 
 ### プレゼンテーションの書き込み保護とオープン保護の両方をチェックできますか?
 
-はい、提供されているコード例を使用して、プレゼンテーションの書き込み保護とオープン保護の両方を確認できます。
+はい、提供されているコード例を使用して、プレゼンテーションの書き込み保護とオープン保護の両方をチェックできます。
 
-### 保護パスワードを忘れた場合はどうすればよいですか?
+### 保護パスワードを忘れた場合はどうすればいいですか?
 
-プレゼンテーションの保護パスワードを忘れた場合、それを回復する組み込みの方法はありません。このような事態を避けるために、必ずパスワードを記録してください。
+プレゼンテーションの保護パスワードを忘れた場合、それを回復する方法は組み込まれていません。このような状況を避けるために、パスワードを必ず記録しておいてください。
 
 ### Aspose.Slides for Java は最新の PowerPoint ファイル形式と互換性がありますか?
 

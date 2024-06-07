@@ -10,7 +10,7 @@ url: /hu/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ## Bevezetés
 vizuálisan lebilincselő prezentációs diák elkészítése elengedhetetlen a közönség figyelmének megragadásához és fenntartásához. Ebben az oktatóanyagban végigvezetjük Önt a diák javításának folyamatán az Aspose.Slides for .NET segítségével egy ellipszis alakzat színátmenettel való kitöltésével.
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 - C# programozási nyelv alapismerete.
 - A Visual Studio telepítve van a gépedre.
 -  Aspose.Slides a .NET könyvtárhoz. Töltsd le[itt](https://releases.aspose.com/slides/net/).
@@ -70,6 +70,6 @@ V: Természetesen! Az Aspose.Slides for .NET támogatja a színátmenetes kitöl
 ### K: Elérhető ingyenes próbaverzió az Aspose.Slides for .NET számára?
  V: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### K: Hogyan kaphatok támogatást az Aspose.Slides for .NET-hez?
- V: Kérjen segítséget, és lépjen kapcsolatba a közösséggel[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+V: Kérjen segítséget, és lépjen kapcsolatba a közösséggel[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
 ### K: Vásárolhatok ideiglenes licencet az Aspose.Slides for .NET számára?
  V: Természetesen kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

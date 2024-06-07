@@ -56,7 +56,7 @@ Presentation pres = new Presentation();
 
 ## Bước 5: Thêm hình ảnh Blob
 
-Bây giờ là lúc thêm hình ảnh Blob vào bài thuyết trình. Chúng tôi sử dụng`addImage` phương pháp để đạt được điều này.
+ Bây giờ là lúc thêm hình ảnh Blob vào bài thuyết trình. Chúng tôi sử dụng`addImage`phương pháp để đạt được điều này.
 
 ```java
 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
@@ -116,7 +116,7 @@ Chúc mừng! Bạn đã học thành công cách thêm hình ảnh Blob vào b�
 
 ### Làm cách nào để cài đặt Aspose.Slides cho Java?
 
- Aspose.Slides cho Java có thể dễ dàng cài đặt bằng cách tải xuống thư viện từ trang web[đây](https://releases.aspose.com/slides/java/). Làm theo hướng dẫn cài đặt được cung cấp để tích hợp nó vào dự án Java của bạn.
+Aspose.Slides cho Java có thể dễ dàng cài đặt bằng cách tải xuống thư viện từ trang web[đây](https://releases.aspose.com/slides/java/). Làm theo hướng dẫn cài đặt được cung cấp để tích hợp nó vào dự án Java của bạn.
 
 ### Tôi có thể thêm nhiều hình ảnh Blob vào một bản trình bày không?
 
@@ -128,7 +128,7 @@ Bạn nên sử dụng các định dạng hình ảnh phổ biến như JPEG ho
 
 ### Làm cách nào tôi có thể tùy chỉnh vị trí và kích thước của hình ảnh Blob được thêm vào?
 
-Bạn có thể điều chỉnh vị trí và kích thước của hình ảnh Blob đã thêm bằng cách sửa đổi các tham số trong`addPictureFrame` phương pháp. Bốn giá trị (tọa độ x, tọa độ y, chiều rộng và chiều cao) xác định vị trí và kích thước của khung hình.
+ Bạn có thể điều chỉnh vị trí và kích thước của hình ảnh Blob đã thêm bằng cách sửa đổi các tham số trong`addPictureFrame` phương pháp. Bốn giá trị (tọa độ x, tọa độ y, chiều rộng và chiều cao) xác định vị trí và kích thước của khung hình.
 
 ### Aspose.Slides có phù hợp với các tác vụ tự động hóa PowerPoint nâng cao không?
 

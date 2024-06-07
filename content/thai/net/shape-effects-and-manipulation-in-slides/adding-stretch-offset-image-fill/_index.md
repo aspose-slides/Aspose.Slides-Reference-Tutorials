@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## ขั้นตอนที่ 4: สร้างอินสแตนซ์คลาส ImageEx
- สร้างอินสแตนซ์ของ`ImageEx` คลาสเพื่อจัดการรูปภาพที่คุณต้องการเพิ่มลงในสไลด์
+ สร้างอินสแตนซ์ของ`ImageEx`คลาสเพื่อจัดการรูปภาพที่คุณต้องการเพิ่มลงในสไลด์
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

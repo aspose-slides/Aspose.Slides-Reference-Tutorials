@@ -16,7 +16,7 @@ En este tutorial, aprenderemos cómo establecer un formato de fecha para el eje 
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
-1.  Biblioteca Aspose.Slides para Java (puede descargarla desde[aquí](https://releases.aspose.com/slides/java/).
+1. Biblioteca Aspose.Slides para Java (puede descargarla desde[aquí](https://releases.aspose.com/slides/java/).
 2. Configuración del entorno de desarrollo Java.
 
 ## Paso 1: crea una presentación de PowerPoint
@@ -138,4 +138,4 @@ Sí, puedes configurar diferentes formatos de fecha para los ejes de categorías
 
 ### ¿Cómo agrego más puntos de datos al gráfico?
 
- Para agregar más puntos de datos al gráfico, use el`getDataPoints().addDataPointForLineSeries` método en la serie de datos y proporcionar los valores de los datos.
+ Para agregar más puntos de datos al gráfico, use el`getDataPoints().addDataPointForLineSeries`método en la serie de datos y proporcionar los valores de los datos.

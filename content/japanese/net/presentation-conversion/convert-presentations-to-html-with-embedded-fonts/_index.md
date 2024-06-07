@@ -1,91 +1,91 @@
 ---
-title: フォントが埋め込まれたプレゼンテーションを HTML に変換する
-linktitle: フォントが埋め込まれたプレゼンテーションを HTML に変換する
+title: プレゼンテーションを埋め込みフォント付きの HTML に変換する
+linktitle: プレゼンテーションを埋め込みフォント付きの HTML に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
-description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションをフォントが埋め込まれた HTML に変換します。オリジナリティをシームレスに維持します。
+description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションを埋め込みフォント付きの HTML に変換します。独創性をシームレスに維持します。
 type: docs
 weight: 13
 url: /ja/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
 
-今日のデジタル時代では、プレゼンテーションやドキュメントをオンラインで共有することが一般的になっています。ただし、プレゼンテーションを HTML に変換するときにフォントが正しく表示されるかどうかが、よく発生する課題の 1 つです。このステップバイステップのチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションをフォントが埋め込まれた HTML に変換し、ドキュメントが意図したとおりに表示されるようにするプロセスを説明します。
+今日のデジタル時代では、プレゼンテーションやドキュメントをオンラインで共有することが一般的になっています。しかし、プレゼンテーションを HTML に変換するときにフォントが正しく表示されるようにすることが、よく発生する課題の 1 つです。このステップ バイ ステップのチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションを埋め込みフォント付きの HTML に変換し、ドキュメントが意図したとおりに表示されるようにする手順を説明します。
 
-## Aspose.Slides for .NET の概要
+## Aspose.Slides for .NET の紹介
 
-チュートリアルに入る前に、Aspose.Slides for .NET について簡単に紹介しましょう。これは、開発者が .NET アプリケーションで PowerPoint プレゼンテーションを操作できるようにする強力なライブラリです。 Aspose.Slides を使用すると、PowerPoint ファイルをプログラムで作成、変更、変換できます。
+チュートリアルに進む前に、Aspose.Slides for .NET について簡単に紹介します。これは、開発者が .NET アプリケーションで PowerPoint プレゼンテーションを操作できるようにする強力なライブラリです。Aspose.Slides を使用すると、プログラムによって PowerPoint ファイルを作成、変更、変換できます。
 
 ## 前提条件
 
 始める前に、次の前提条件が満たされていることを確認してください。
 
--  Aspose.Slides for .NET: Aspose.Slides ライブラリがプロジェクトにインストールされている必要があります。からダウンロードできます[ここ](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: プロジェクトにAspose.Slidesライブラリがインストールされている必要があります。ダウンロードはこちらから行えます。[ここ](https://releases.aspose.com/slides/net/).
 
-## ステップ 1: プロジェクトをセットアップする
+## ステップ1: プロジェクトを設定する
 
-1. 新しいプロジェクトを作成するか、好みの .NET 開発環境で既存のプロジェクトを開きます。
+1. 好みの .NET 開発環境で新しいプロジェクトを作成するか、既存のプロジェクトを開きます。
 
 2. プロジェクトに Aspose.Slides ライブラリへの参照を追加します。
 
-3. 必要な名前空間をコードにインポートします。
+3. コードに必要な名前空間をインポートします。
 
    ```csharp
    using Aspose.Slides;
    ```
 
-## ステップ 2: プレゼンテーションをロードする
+## ステップ2: プレゼンテーションを読み込む
 
-まず、HTML に変換するプレゼンテーションをロードする必要があります。交換する`"Your Document Directory"`プレゼンテーション ファイルが配置されている実際のディレクトリに置き換えます。
+まず、HTMLに変換するプレゼンテーションを読み込む必要があります。`"Your Document Directory"`プレゼンテーション ファイルが配置されている実際のディレクトリに置き換えます。
 
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 {
-    //コードはここに入力します
+    //ここにコードを入力してください
 }
 ```
 
-## ステップ 3: デフォルトのプレゼンテーション フォントを除外する
+## ステップ3: デフォルトのプレゼンテーションフォントを除外する
 
-このステップでは、埋め込みから除外するデフォルトのプレゼンテーション フォントを指定できます。これは、生成される HTML ファイルのサイズを最適化するのに役立ちます。
+この手順では、埋め込みから除外するデフォルトのプレゼンテーション フォントを指定できます。これにより、生成される HTML ファイルのサイズを最適化できます。
 
 ```csharp
 string[] fontNameExcludeList = { };
 ```
 
-## ステップ 4: HTML コントローラーを選択する
+## ステップ4: HTMLコントローラーを選択する
 
-HTML にフォントを埋め込むには 2 つのオプションがあります。
+HTML にフォントを埋め込むには、次の 2 つのオプションがあります。
 
-### オプション 1: すべてのフォントを埋め込む
+### オプション1: すべてのフォントを埋め込む
 
-プレゼンテーションで使用されるすべてのフォントを埋め込むには、`EmbedAllFontsHtmlController`.
+プレゼンテーションで使用されているすべてのフォントを埋め込むには、`EmbedAllFontsHtmlController`.
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
 ```
 
-### オプション 2: すべてのフォントをリンクする
+### オプション2: すべてのフォントをリンクする
 
-プレゼンテーションで使用されているすべてのフォントにリンクするには、`LinkAllFontsHtmlController`。システム上でフォントが配置されているディレクトリを指定する必要があります。
+プレゼンテーションで使用されているすべてのフォントにリンクするには、`LinkAllFontsHtmlController`システム上でフォントが配置されているディレクトリを指定する必要があります。
 
 ```csharp
 LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");
 ```
 
-## ステップ 5: HTML オプションを定義する
+## ステップ5: HTMLオプションを定義する
 
-を作成します`HtmlOptions`オブジェクトを選択し、HTML フォーマッタを前の手順で選択したものに設定します。
+作成する`HtmlOptions`オブジェクトを作成し、HTML フォーマッタを前の手順で選択したものに設定します。
 
 ```csharp
 HtmlOptions htmlOptionsEmbed = new HtmlOptions
 {
-    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) //すべてのフォントを埋め込むには embedFontsController を使用します
+    HtmlFormatter = HtmlFormatter.CreateCustomFormatter(linkcont) //すべてのフォントを埋め込むにはembedFontsControllerを使用します
 };
 ```
 
-## ステップ 6: HTML として保存する
+## ステップ6: HTMLとして保存
 
-最後に、プレゼンテーションを HTML ファイルとして保存します。どちらかを選択できます`SaveFormat.Html`または`SaveFormat.Html5`要件に応じて。
+最後に、プレゼンテーションをHTMLファイルとして保存します。`SaveFormat.Html`または`SaveFormat.Html5`ご要望に応じて。
 
 ```csharp
 pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
@@ -93,30 +93,30 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## 結論
 
-おめでとう！ Aspose.Slides for .NET を使用して、プレゼンテーションをフォントが埋め込まれた HTML に正常に変換しました。これにより、プレゼンテーションをオンラインで共有するときにフォントが正しく表示されます。
+おめでとうございます! Aspose.Slides for .NET を使用して、プレゼンテーションを埋め込みフォント付きの HTML に正常に変換しました。これにより、プレゼンテーションをオンラインで共有するときにフォントが正しく表示されるようになります。
 
-美しくフォーマットされたプレゼンテーションを自信を持って簡単に共有できるようになり、聴衆は意図したとおりにプレゼンテーションを閲覧できることがわかります。
+これで、美しくフォーマットされたプレゼンテーションを、視聴者があなたの意図したとおりに見られることを確信して、自信を持って簡単に共有できるようになります。
 
-詳細と詳細な API リファレンスについては、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
+詳しい情報と詳細なAPIリファレンスについては、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
 
 ## よくある質問
 
-### 1. Aspose.Slides for .NET をバッチ モードで使用して、PowerPoint プレゼンテーションを HTML に変換できますか?
+### 1. Aspose.Slides for .NET をバッチ モードで使用して PowerPoint プレゼンテーションを HTML に変換できますか?
 
-はい、Aspose.Slides for .NET を使用してプレゼンテーション ファイルをループし、それぞれに変換プロセスを適用することで、複数のプレゼンテーションを HTML にバッチ変換できます。
+はい、Aspose.Slides for .NET を使用してプレゼンテーション ファイルをループし、各ファイルに変換プロセスを適用することで、複数のプレゼンテーションを一括して HTML に変換できます。
 
 ### 2. HTML 出力の外観をカスタマイズする方法はありますか?
 
-確かに！ Aspose.Slides for .NET には、色、フォント、レイアウトの調整など、HTML 出力の外観と書式設定をカスタマイズするためのさまざまなオプションが用意されています。
+もちろんです! Aspose.Slides for .NET には、色、フォント、レイアウトの調整など、HTML 出力の外観と書式をカスタマイズするためのさまざまなオプションが用意されています。
 
-### 3. Aspose.Slides for .NET を使用して HTML にフォントを埋め込むことに制限はありますか?
+### 3. Aspose.Slides for .NET を使用して HTML にフォントを埋め込む場合、制限はありますか?
 
-Aspose.Slides for .NET は優れたフォント埋め込み機能を提供しますが、フォントを埋め込むと HTML ファイルのサイズが増加する可能性があることに注意してください。 Web での使用に合わせてフォントの選択を最適化してください。
+Aspose.Slides for .NET は優れたフォント埋め込み機能を提供しますが、フォントを埋め込むと HTML ファイルのサイズが大きくなる可能性があることに注意してください。Web での使用に合わせてフォントの選択を最適化してください。
 
 ### 4. Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを他の形式に変換できますか?
 
-はい、Aspose.Slides for .NET は、PDF、画像などを含む幅広い出力形式をサポートしています。プレゼンテーションを選択した形式に簡単に変換できます。
+はい、Aspose.Slides for .NET は、PDF、画像など、幅広い出力形式をサポートしています。プレゼンテーションを任意の形式に簡単に変換できます。
 
-### 5. Aspose.Slides for .NET の追加リソースとサポートはどこで入手できますか?
+### 5. Aspose.Slides for .NET に関する追加のリソースとサポートはどこで入手できますか?
 
 ドキュメントを含む豊富なリソースにアクセスできます。[Aspose.Slides for .NET API リファレンス](https://reference.aspose.com/slides/net/).

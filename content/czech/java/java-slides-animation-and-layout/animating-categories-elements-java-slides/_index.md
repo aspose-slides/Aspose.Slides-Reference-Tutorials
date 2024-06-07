@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
- tomto kódu načteme existující prezentaci PowerPoint, která obsahuje graf, který chcete animovat. Nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+ V tomto kódu načteme existující prezentaci PowerPoint, která obsahuje graf, který chcete animovat. Nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
 
 ## Krok 3: Získejte odkaz na objekt grafu
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Zapište soubor prezentace na disk
+	// Zapište soubor prezentace na disk
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Ano, podobné animace můžete použít na jiné typy grafů úpravou kódu tak,
 
 ### Jak se dozvím více o Aspose.Slides pro Java?
 
-Kompletní dokumentaci a další zdroje naleznete na adrese[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . Knihovnu si také můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
+ Kompletní dokumentaci a další zdroje naleznete na adrese[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . Knihovnu si také můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).

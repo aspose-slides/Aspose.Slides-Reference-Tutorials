@@ -80,7 +80,7 @@ Ez a kódrészlet lekéri az első bekezdés téglalap alakú koordinátáit (X,
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanulta, hogyan használja az Aspose.Slides for Java alkalmazást egy PowerPoint bemutatón belüli bekezdés téglalap alakú koordinátáinak lekérésére. Ez akkor lehet hasznos, ha programozottan kell elemeznie vagy módosítania kell a szöveg helyzetét és méretét a diákon belül.
+Ebben az oktatóanyagban megtanulta, hogyan használja az Aspose.Slides for Java alkalmazást egy PowerPoint-bemutatón belüli bekezdés téglalap alakú koordinátáinak lekérésére. Ez akkor lehet hasznos, ha programozottan kell elemeznie vagy módosítania kell a szöveg helyzetét és méretét a diákon belül.
 
 ## GYIK
 
@@ -95,7 +95,7 @@ A PowerPoint dián belüli bekezdések eléréséhez az Aspose.Slides for Java h
 
 ### Lekérhetem több diában lévő bekezdések koordinátáit?
 
-Igen, lekérheti a bekezdések koordinátáit több diában úgy, hogy szükség szerint ismételgeti a diákat és az alakzatokat. Egyszerűen ismételje meg a bekezdések elérését az egyes diaformákon belül, hogy megkapja a koordinátáikat.
+Igen, lekérheti a bekezdések koordinátáit több diában úgy, hogy szükség szerint ismételgeti a diákat és az alakzatokat. Egyszerűen ismételje meg az egyes diaformákon belüli bekezdések elérésének folyamatát, hogy megkapja azok koordinátáit.
 
 ### Hogyan módosíthatom programozottan a bekezdés koordinátáit?
 
@@ -107,7 +107,7 @@ Igen, az Aspose.Slides for Java kiválóan alkalmas PowerPoint fájlok kötegelt
 
 ### Hol találok további példákat és dokumentációt?
 
-További kódpéldákat és részletes dokumentációt találhat az Aspose.Slides for Java-hoz a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) weboldal. Ezenkívül felfedezheti a[Aspose.Slides fórumok](https://forum.aspose.com/c/slides) közösségi támogatásra és beszélgetésekre.
+ További kódpéldákat és részletes dokumentációt találhat az Aspose.Slides for Java-hoz a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/)weboldal. Ezenkívül felfedezheti a[Aspose.Slides fórumok](https://forum.aspose.com/c/slides) közösségi támogatásra és beszélgetésekre.
 
 ### Szükségem van licencre az Aspose.Slides for Java használatához?
 

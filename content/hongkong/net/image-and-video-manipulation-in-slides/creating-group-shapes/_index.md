@@ -22,7 +22,7 @@ using Aspose.Slides;
 ```
 ## 第 1 步：實例化演示類
 
-建立一個實例`Presentation`class 並指定儲存文件的目錄：
+建立一個實例`Presentation` class 並指定儲存文件的目錄：
 
 ```csharp
 string dataDir = "Your Documents Directory";

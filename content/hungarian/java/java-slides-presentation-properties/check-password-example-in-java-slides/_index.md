@@ -8,7 +8,7 @@ weight: 14
 url: /hu/java/presentation-properties/check-password-example-in-java-slides/
 ---
 
-## Bevezetés a Jelszó-ellenőrzés példájába a Java Slides-ben
+## Bevezetés a jelszó ellenőrzésére példa a Java Slides programban
 
 Ebben a cikkben megvizsgáljuk, hogyan ellenőrizhető a jelszó a Java Slides alkalmazásban az Aspose.Slides for Java API használatával. Végigvezetjük a prezentációs fájl jelszavának ellenőrzéséhez szükséges lépéseket. Akár kezdő, akár tapasztalt fejlesztő, ez az útmutató világos megértést nyújt a jelszó-ellenőrzés megvalósításáról a Java Slides projektekben.
 

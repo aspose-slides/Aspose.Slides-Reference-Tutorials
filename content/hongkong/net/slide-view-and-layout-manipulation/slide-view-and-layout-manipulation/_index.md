@@ -13,7 +13,7 @@ url: /zh-hant/net/slide-view-and-layout-manipulation/slide-view-and-layout-manip
 
 ## Aspose.Slides for .NET 簡介
 
-Aspose.Slides for .NET 是一個功能豐富的函式庫，使 .NET 開發人員能夠建立、修改和轉換 PowerPoint 簡報。它提供了廣泛的功能，包括幻燈片操作、格式設定、動畫等等。在本文中，我們將重點放在如何使用這個功能強大的庫來處理投影片檢視和佈局。
+Aspose.Slides for .NET 是一個功能豐富的函式庫，使 .NET 開發人員能夠建立、修改和轉換 PowerPoint 簡報。它提供了廣泛的功能，包括幻燈片操作、格式設定、動畫等等。在本文中，我們將重點介紹如何使用這個強大的庫來處理投影片檢視和佈局。
 
 ## 入門：安裝和設定
 
@@ -22,7 +22,7 @@ Aspose.Slides for .NET 是一個功能豐富的函式庫，使 .NET 開發人員
 1. ### 下載並安裝 Aspose.Slides 套件：
    您可以從以下位置下載 Aspose.Slides for .NET 套件：[下載連結](https://releases.aspose.com/slides/net/)。下載後，使用您喜歡的套件管理器安裝它。
 
-2. ### 建立一個新的 .NET 專案：
+2. ### 建立一個新的.NET專案：
    開啟 Visual Studio IDE 並建立新的 .NET 項目，您將在其中使用 Aspose.Slides。
 
 3. ### 新增對 Aspose.Slides 的引用：
@@ -94,7 +94,7 @@ Aspose.Slides 使您能夠自訂投影片內容，例如文字、形狀、圖像
 //存取投影片的形狀
 IShapeCollection shapes = slide.Shapes;
 
-//在投影片中新增文字框
+//新增文字框
 ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 ```
 

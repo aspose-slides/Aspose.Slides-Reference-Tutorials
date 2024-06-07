@@ -92,4 +92,4 @@ Console.WriteLine("GetRange result: {0}", result);
  Μπορείτε να ζητήσετε μια προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Τι είδους επιλογές υποστήριξης είναι διαθέσιμες για το Aspose.Slides για χρήστες .NET;
-Μπορείτε να λάβετε υποστήριξη και βοήθεια από την κοινότητα του Aspose[φόρουμ υποστήριξης](https://forum.aspose.com/).
+ Μπορείτε να λάβετε υποστήριξη και βοήθεια από την κοινότητα του Aspose[φόρουμ υποστήριξης](https://forum.aspose.com/).

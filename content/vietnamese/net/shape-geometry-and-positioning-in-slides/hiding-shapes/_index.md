@@ -68,8 +68,8 @@ Có, Aspose.Slides hỗ trợ .NET Core, mang lại sự linh hoạt trong môi 
 ### Tôi có thể ẩn hình dạng dựa trên các điều kiện khác ngoài văn bản thay thế không?
 Tuyệt đối! Bạn có thể tùy chỉnh logic ẩn dựa trên các thuộc tính khác nhau như loại hình dạng, màu sắc hoặc vị trí.
 ### Tôi có thể tìm thêm tài liệu Aspose.Slides ở đâu?
- Khám phá tài liệu[đây](https://reference.aspose.com/slides/net/) để biết thông tin chi tiết và ví dụ.
+ Khám phá tài liệu[đây](https://reference.aspose.com/slides/net/)để biết thông tin chi tiết và ví dụ.
 ### Giấy phép tạm thời có sẵn cho Aspose.Slides không?
- Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+ Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/)cho mục đích thử nghiệm.
 ### Làm cách nào tôi có thể nhận được sự hỗ trợ của cộng đồng cho Aspose.Slides?
  Tham gia cộng đồng Aspose.Slides trên[diễn đàn](https://forum.aspose.com/c/slides/11) để thảo luận và hỗ trợ.

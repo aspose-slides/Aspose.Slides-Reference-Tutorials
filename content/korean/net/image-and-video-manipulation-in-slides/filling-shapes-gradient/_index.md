@@ -70,6 +70,6 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
 ### Q: Aspose.Slides for .NET에 대한 무료 평가판이 있습니까?
  A: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: .NET용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
- 답변: 도움을 구하고 커뮤니티에 참여하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+답변: 도움을 구하고 커뮤니티에 참여하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
 ### Q: .NET용 Aspose.Slides의 임시 라이선스를 구입할 수 있나요?
  A: 물론 임시면허를 취득할 수도 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

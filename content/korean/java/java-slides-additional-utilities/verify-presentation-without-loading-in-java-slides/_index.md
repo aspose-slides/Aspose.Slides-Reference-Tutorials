@@ -41,7 +41,7 @@ import com.aspose.slides.PresentationFactory;
 // 문서 디렉터리의 경로입니다.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// 파일이 프레젠테이션 형식이 아닌 경우 "LoadFormat.Unknown"을 반환합니다.
+//파일이 프레젠테이션 형식이 아닌 경우 "LoadFormat.Unknown"을 반환합니다.
 ```
 
  이 코드에서는`PresentationFactory` 형식을 포함하여 프리젠테이션 파일에 대한 정보를 얻으려면 파일이 유효한 프리젠테이션 형식이 아닌 경우 "LoadFormat.Unknown"이 반환됩니다.
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // 문서 디렉터리의 경로입니다.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // 파일이 프레젠테이션 형식이 아닌 경우 "LoadFormat.Unknown"을 반환합니다.
+        //파일이 프레젠테이션 형식이 아닌 경우 "LoadFormat.Unknown"을 반환합니다.
 ```
 
 ## 결론

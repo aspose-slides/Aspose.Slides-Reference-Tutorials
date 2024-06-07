@@ -113,7 +113,7 @@ foreach (ISlide slide in pres.Slides)
 
 ## Wniosek
 
-Aspose.Slides dla .NET upraszcza proces wyodrębniania dźwięku i obrazu z prezentacji programu PowerPoint. Niezależnie od tego, czy pracujesz nad archiwizacją, zmianą przeznaczenia czy analizą treści multimedialnych, ta biblioteka usprawnia to zadanie.
+Aspose.Slides dla .NET upraszcza proces wyodrębniania dźwięku i obrazu z prezentacji programu PowerPoint. Niezależnie od tego, czy pracujesz nad archiwizacją, zmianą przeznaczenia czy analizą treści multimedialnych, ta biblioteka usprawni to zadanie.
 
 Wykonując czynności opisane w tym przewodniku, możesz łatwo wyodrębnić dźwięk i wideo z prezentacji programu PowerPoint i wykorzystać te elementy na różne sposoby.
 

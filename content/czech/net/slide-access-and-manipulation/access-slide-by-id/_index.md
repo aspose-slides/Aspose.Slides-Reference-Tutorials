@@ -56,7 +56,7 @@ Každý snímek v prezentaci má jedinečný identifikátor, který lze použít
 Přístup ke snímku podle jeho indexu:
 
 ```csharp
-int slideIndex = 0; // Nahraďte požadovaným indexem
+int slideIndex = 0; //Nahraďte požadovaným indexem
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
@@ -89,7 +89,7 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 
 ## Závěr
 
-této příručce jsme prozkoumali, jak přistupovat ke snímkům pomocí jejich jedinečných identifikátorů pomocí Aspose.Slides for .NET. Zabývali jsme se načítáním prezentací, přístupem ke snímkům podle indexu a ID, úpravou obsahu snímků a ukládáním změn. Aspose.Slides for .NET umožňuje vývojářům vytvářet dynamické a přizpůsobené PowerPointové prezentace programově, čímž otevírá dveře široké škále možností automatizace a vylepšení.
+V této příručce jsme prozkoumali, jak přistupovat ke snímkům pomocí jejich jedinečných identifikátorů pomocí Aspose.Slides for .NET. Zabývali jsme se načítáním prezentací, přístupem ke snímkům podle indexu a ID, úpravou obsahu snímků a ukládáním změn. Aspose.Slides for .NET umožňuje vývojářům vytvářet dynamické a přizpůsobené PowerPointové prezentace programově, čímž otevírá dveře široké škále možností automatizace a vylepšení.
 
 ## FAQ
 

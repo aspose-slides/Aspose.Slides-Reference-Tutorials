@@ -16,7 +16,7 @@ I den här handledningen kommer du att lära dig hur du öppnar en lösenordssky
 
 Innan du börjar, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.Slides for Java Library: Se till att du har laddat ner och installerat Aspose.Slides for Java-biblioteket. Du kan få det från[Aspose hemsida](https://products.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Se till att du har laddat ner och installerat Aspose.Slides for Java-biblioteket. Du kan få det från[Aspose hemsida](https://products.aspose.com/slides/java/).
 
 2.  Java-utvecklingsmiljö: Konfigurera en Java-utvecklingsmiljö på ditt system om du inte redan har gjort det. Du kan ladda ner Java från[Oracle hemsida](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Ersätt "pass" med ditt presentationslöseno
 
 ## Steg 3: Öppna presentationen
 
- Nu kommer du att öppna den lösenordsskyddade presentationen med hjälp av`Presentation` klasskonstruktor, som tar filsökvägen och laddningsalternativen som parametrar.
+ Nu kommer du att öppna den lösenordsskyddade presentationen med hjälp av`Presentation`klasskonstruktor, som tar filsökvägen och laddningsalternativen som parametrar.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -90,13 +90,13 @@ finally
 
 ## Slutsats
 
-I den här handledningen lärde du dig hur du öppnar en lösenordsskyddad presentation i Java med Aspose.Slides for Java-biblioteket. Du kan nu komma åt och manipulera presentationsdata efter behov i din Java-applikation.
+den här handledningen lärde du dig hur du öppnar en lösenordsskyddad presentation i Java med Aspose.Slides for Java-biblioteket. Du kan nu komma åt och manipulera presentationsdata efter behov i din Java-applikation.
 
 ## FAQ's
 
 ### Hur ställer jag in lösenordet för en presentation?
 
-För att ställa in lösenordet för en presentation, använd`loadOptions.setPassword("password")` metod, var`"password"` bör ersättas med önskat lösenord.
+ För att ställa in lösenordet för en presentation, använd`loadOptions.setPassword("password")` metod, var`"password"` bör ersättas med ditt önskade lösenord.
 
 ### Kan jag öppna presentationer med olika format, som PPT och PPTX?
 

@@ -101,7 +101,7 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 恭喜！您已使用 Aspose.Slides for Java 成功將 Donut Callout 新增至 Java 投影片中。現在，您可以執行 Java 應用程式來產生具有圓環圖和標註的 PowerPoint 簡報。
 
-## 在 Java 投影片中新增甜甜圈標註的完整原始碼
+## 在 Java 投影片中加入甜甜圈標註的完整原始碼
 
 ```java
 String dataDir = "Your Document Directory";

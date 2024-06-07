@@ -95,7 +95,7 @@ try {
 	Html5Options options = new Html5Options();
 	//Tvinga spara inte bilder i HTML5-dokument
 	options.setEmbedImages(false);
-	// Ställ in sökväg för externa bilder
+	// Ange sökväg för externa bilder
 	options.setOutputPath(outFilePath);
 	// Skapa katalog för utdata HTML-dokument
 	File f = new File(outFilePath);

@@ -149,4 +149,4 @@ Puede recorrer los puntos de datos y establecer valores de barra de error person
 
 ### ¿Es posible ocultar barras de error para puntos de datos específicos?
 
- Sí, puede controlar la visibilidad de las barras de error para puntos de datos individuales configurando el`setVisible` propiedad de la`IErrorBarsFormat` objeto.
+Sí, puede controlar la visibilidad de las barras de error para puntos de datos individuales configurando el`setVisible` propiedad de la`IErrorBarsFormat` objeto.

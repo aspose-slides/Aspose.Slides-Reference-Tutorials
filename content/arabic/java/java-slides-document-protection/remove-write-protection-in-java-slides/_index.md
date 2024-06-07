@@ -45,7 +45,7 @@ Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pp
 
 ```java
 try {
-    // التحقق مما إذا كان العرض التقديمي محميًا ضد الكتابة
+    //التحقق مما إذا كان العرض التقديمي محميًا ضد الكتابة
     if (presentation.getProtectionManager().isWriteProtected())
         // إزالة الحماية ضد الكتابة
         presentation.getProtectionManager().removeWriteProtection();
@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 try
 {
-	// التحقق مما إذا كان العرض التقديمي محميًا ضد الكتابة
+	//التحقق مما إذا كان العرض التقديمي محميًا ضد الكتابة
 	if (presentation.getProtectionManager().isWriteProtected())
 		// إزالة الحماية ضد الكتابة
 		presentation.getProtectionManager().removeWriteProtection();

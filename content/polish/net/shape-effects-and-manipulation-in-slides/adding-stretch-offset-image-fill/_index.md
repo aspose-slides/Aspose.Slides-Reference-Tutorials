@@ -42,7 +42,7 @@ Pobierz pierwszy slajd z prezentacji, z którym będziesz mógł pracować.
 ISlide sld = pres.Slides[0];
 ```
 ## Krok 4: Utwórz instancję klasy ImageEx
- Utwórz instancję`ImageEx` klasę do obsługi obrazu, który chcesz dodać do slajdu.
+ Utwórz instancję`ImageEx`klasę do obsługi obrazu, który chcesz dodać do slajdu.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

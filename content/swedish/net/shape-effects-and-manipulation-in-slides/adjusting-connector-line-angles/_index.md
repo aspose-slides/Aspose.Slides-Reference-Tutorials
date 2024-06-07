@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "ConnectorLineAngle.pptx");
 ```
  Ladda din PowerPoint-presentationsfil i`Presentation`objekt. Ersätt "Din dokumentkatalog" med den faktiska sökvägen till din fil.
-## Steg 3: Få åtkomst till bilden och formerna
+## Steg 3: Få tillgång till bilden och formerna
 ```csharp
 Slide slide = (Slide)pres.Slides[0];
 Shape shape;

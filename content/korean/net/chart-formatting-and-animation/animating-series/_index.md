@@ -44,7 +44,7 @@ using Aspose.Slides;
 // 문서 디렉터리 경로
 string dataDir = "Your Document Directory";
 
-//프리젠테이션 파일을 나타내는 프리젠테이션 클래스 인스턴스화
+// 프리젠테이션 파일을 나타내는 프리젠테이션 클래스 인스턴스화
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // 귀하의 코드는 여기에 있습니다

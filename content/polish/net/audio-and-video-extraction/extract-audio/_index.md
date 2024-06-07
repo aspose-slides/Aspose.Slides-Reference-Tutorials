@@ -12,7 +12,7 @@ W świecie prezentacji dodanie dźwięku do slajdów może zwiększyć ogólny e
 
 ## Warunki wstępne
 
-Zanim zagłębimy się w proces wyodrębniania dźwięku ze slajdu przy użyciu Aspose.Slides dla .NET, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim zagłębimy się w proces wyodrębniania dźwięku ze slajdu za pomocą Aspose.Slides dla .NET, upewnij się, że spełnione są następujące wymagania wstępne:
 
 ### 1. Aspose.Slides dla biblioteki .NET
  Musisz mieć zainstalowaną bibliotekę Aspose.Slides for .NET. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go z[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).

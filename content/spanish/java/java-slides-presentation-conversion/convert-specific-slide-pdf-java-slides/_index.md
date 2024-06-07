@@ -16,7 +16,7 @@ En el mundo del desarrollo de Java, trabajar con diapositivas de presentación e
 
 Antes de profundizar en el código, asegúrese de cumplir con los siguientes requisitos previos:
 
-1.  Biblioteca Aspose.Slides para Java: necesitará tener instalada la biblioteca Aspose.Slides para Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
+1. Biblioteca Aspose.Slides para Java: necesitará tener instalada la biblioteca Aspose.Slides para Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
 
 2. Entorno de desarrollo Java: asegúrese de tener un entorno de desarrollo Java configurado en su sistema.
 
@@ -48,7 +48,7 @@ finally
 
 En este código:
 
-- Especificamos la ruta al directorio que contiene el archivo de presentación (`SelectedSlides.pptx`que desea convertir a PDF.
+- Especificamos la ruta al directorio que contiene el archivo de presentación (`SelectedSlides.pptx`) que desea convertir a PDF.
 
 -  Creamos un`Presentation` objeto que representa el archivo de presentación.
 

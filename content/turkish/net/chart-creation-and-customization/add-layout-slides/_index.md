@@ -16,7 +16,7 @@ Eğiticiye dalmadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
 
 1.  Aspose.Slides for .NET Library: Aspose.Slides for .NET kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-2. Geliştirme Ortamı: Kodu yazmak ve yürütmek için Visual Studio gibi bir geliştirme ortamının kurulduğundan emin olun.
+2. Geliştirme Ortamı: Kodu yazmak ve yürütmek için Visual Studio gibi bir geliştirme ortamı kurduğunuzdan emin olun.
 
 3. Örnek Sunum: Çalışmak için örnek bir PowerPoint sunumuna ihtiyacınız olacak. Mevcut sunumunuzu kullanabilir veya yeni bir sunum oluşturabilirsiniz.
 

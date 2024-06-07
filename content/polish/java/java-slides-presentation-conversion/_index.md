@@ -30,11 +30,11 @@ Rozpoczynając swoją podróż związaną z konwersją prezentacji slajdów w j�
 
 Dzięki Aspose.Slides dla Java świat konwersji prezentacji slajdów jest na wyciągnięcie ręki. Nasze tutoriale, wsparte mocą tego niezwykłego API, zapewnią Ci wiedzę i narzędzia, dzięki którym osiągniesz sukces w świecie konwersji slajdów Java. Zacznij już dziś i odblokuj potencjał swoich prezentacji.
 
-Podsumowując, opanowanie sztuki konwersji prezentacji slajdów w Javie jest cenną umiejętnością, a dzięki Aspose.Slides for Java jest ona w Twoim zasięgu. Zapoznaj się z naszymi samouczkami, postępuj zgodnie z instrukcjami i pozwól swoim prezentacjom zabłysnąć w cyfrowym świecie. Miłego konwertowania!
+Podsumowując, opanowanie sztuki konwersji prezentacji slajdów w Javie to cenna umiejętność, a dzięki Aspose.Slides for Java jest ona w Twoim zasięgu. Zapoznaj się z naszymi samouczkami, postępuj zgodnie z instrukcjami i pozwól swoim prezentacjom zabłysnąć w cyfrowym świecie. Miłego konwertowania!
 
 ## Poradniki konwersji prezentacji slajdów Java
 ### [Konwersja do formatu TIFF z notatkami w slajdach Java](./conversion-tiff-notes-java-slides/)
-Dowiedz się, jak konwertować slajdy Java do formatu TIFF z osadzonymi notatkami za pomocą Aspose.Slides dla Java. W zestawie instrukcja krok po kroku i kod źródłowy
+Dowiedz się, jak konwertować slajdy Java do formatu TIFF z osadzonymi notatkami przy użyciu Aspose.Slides dla Java. W zestawie instrukcja krok po kroku i kod źródłowy
 ### [Konwertuj obrazy HTML do osadzania w slajdach Java](./convert-html-embedding-images-java-slides/)
 Konwertuj program PowerPoint na HTML za pomocą osadzonych obrazów. Przewodnik krok po kroku dotyczący korzystania z Aspose.Slides dla Java. Naucz się bez wysiłku automatyzować konwersję prezentacji w Javie.
 ### [Konwertuj indywidualny slajd w slajdach Java](./convert-individual-slide-java-slides/)

@@ -2,7 +2,7 @@
 title: Grafiekmarkeringsopties op gegevenspunt in Java-dia's
 linktitle: Grafiekmarkeringsopties op gegevenspunt in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
-description: Optimaliseer uw Java-dia's met aangepaste grafiekmarkeringsopties. Leer hoe u datapunten visueel kunt verbeteren met Aspose.Slides voor Java. Ontdek stapsgewijze begeleiding en veelgestelde vragen.
+description: Optimaliseer uw Java-dia's met aangepaste diagrammarkeringsopties. Leer hoe u datapunten visueel kunt verbeteren met Aspose.Slides voor Java. Ontdek stapsgewijze begeleiding en veelgestelde vragen.
 type: docs
 weight: 14
 url: /nl/java/data-manipulation/chart-marker-options-data-point-java-slides/
@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // Herhaal dit voor andere gegevenspunten
 // ...
 
-//De grootte van de markering van de kaartserie wijzigen
+// De grootte van de markering van de kaartserie wijzigen
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ Met Aspose.Slides voor Java kunt u uw presentaties naar een hoger niveau tillen 
 
 ### Kan ik afbeeldingen gebruiken als aangepaste markeringen?
 
-Ja, u kunt afbeeldingen gebruiken als aangepaste markeringen voor gegevenspunten. Stel het vultype in op`FillType.Picture` en geef de afbeelding op die u wilt gebruiken.
+ Ja, u kunt afbeeldingen gebruiken als aangepaste markeringen voor gegevenspunten. Stel het vultype in op`FillType.Picture`en geef de afbeelding op die u wilt gebruiken.
 
 ### Is Aspose.Slides voor Java geschikt voor het maken van dynamische grafieken?
 

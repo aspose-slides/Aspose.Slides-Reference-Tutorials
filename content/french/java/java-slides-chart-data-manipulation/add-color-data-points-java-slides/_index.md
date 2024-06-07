@@ -27,7 +27,7 @@ Tout d’abord, nous allons créer une nouvelle présentation à l’aide d’As
 Presentation pres = new Presentation();
 ```
 
-## Étape 2 : Ajouter un graphique Sunburst
+## Étape 2 : ajouter un graphique Sunburst
 
 Maintenant, ajoutons un graphique Sunburst à la présentation. Nous spécifions le type, la position et la taille du graphique.
 
@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 Au cours de cette étape, nous personnaliserons des points de données spécifiques. Ici, nous modifions la couleur des points de données et configurons les paramètres des étiquettes.
 
 ```java
-// Personnaliser le point de données 0
+//Personnaliser le point de données 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -108,7 +108,7 @@ Dans ce didacticiel, vous avez appris à ajouter de la couleur aux points de don
 
 ### Comment puis-je changer la couleur d’autres points de données ?
 
-Pour modifier la couleur d'autres points de données, vous pouvez suivre une approche similaire à celle illustrée à l'étape 4. Accédez au point de données que vous souhaitez personnaliser et modifiez ses paramètres de couleur et d'étiquette.
+Pour modifier la couleur d'autres points de données, vous pouvez suivre une approche similaire à celle présentée à l'étape 4. Accédez au point de données que vous souhaitez personnaliser et modifiez ses paramètres de couleur et d'étiquette.
 
 ### Puis-je personnaliser d’autres aspects du graphique ?
 
@@ -116,4 +116,4 @@ Pour modifier la couleur d'autres points de données, vous pouvez suivre une app
 
 ### Où puis-je trouver plus d’exemples et de documentation ?
 
- Vous pouvez trouver plus d'exemples et une documentation détaillée sur l'utilisation d'Aspose.Slides pour Java sur le[Documentation Aspose.Slides](https://reference.aspose.com/slides/java/) site web.
+Vous pouvez trouver plus d'exemples et une documentation détaillée sur l'utilisation d'Aspose.Slides pour Java sur le[Documentation Aspose.Slides](https://reference.aspose.com/slides/java/) site web.

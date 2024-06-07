@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // "Çıktı_yolunuz"u istediğ
 Presentation pres = new Presentation();
 ```
 
- Yukarıdaki kodda çıktı sunum dosyasının yolunu tanımlayıp yeni bir dosya oluşturuyoruz.`Presentation` nesne.
+Yukarıdaki kodda çıktı sunum dosyasının yolunu tanımlayıp yeni bir dosya oluşturuyoruz.`Presentation` nesne.
 
 ## Adım 2: Kök Dizin ClsId'sini Ayarlayın
 
- Kök Dizin ClsId'yi ayarlamak için bir örneğini oluşturmanız gerekir:`PptOptions`ve istediğiniz CLSID'yi ayarlayın. CLSID, bir köprü etkinleştirildiğinde kök dizin olarak kullanılacak uygulamayı temsil eder.
+ Kök Dizin ClsId'yi ayarlamak için bir örneğini oluşturmanız gerekir:`PptOptions` ve istediğiniz CLSID'yi ayarlayın. CLSID, bir köprü etkinleştirildiğinde kök dizin olarak kullanılacak uygulamayı temsil eder.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// CLSID'yi 'Microsoft Powerpoint.Show.8' olarak ayarlayın
+	//CLSID'yi 'Microsoft Powerpoint.Show.8' olarak ayarlayın
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Sunuyu kaydet
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

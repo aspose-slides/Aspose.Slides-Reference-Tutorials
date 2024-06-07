@@ -100,7 +100,7 @@ tym samouczku dowiedzieliśmy się, jak sprawdzić ochronę prezentacji na slajd
 
 ### Jak uzyskać Aspose.Slides dla Java?
 
-Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose lub dodać go jako zależność Maven w swoim projekcie, jak pokazano w sekcji wymagań wstępnych.
+Możesz pobrać Aspose.Slides dla Java ze strony Aspose lub dodać ją jako zależność Maven w swoim projekcie, jak pokazano w sekcji wymagań wstępnych.
 
 ### Czy mogę sprawdzić zarówno ochronę przed zapisem, jak i ochronę przed otwarciem prezentacji?
 

@@ -28,7 +28,7 @@ Börja med att skapa ett nytt C#-projekt i din föredragna utvecklingsmiljö. Se
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // Ladda bild som ska läggas till i presentationsbildsamlingen
+    //Ladda bild som ska läggas till i presentationsbildsamlingen
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...

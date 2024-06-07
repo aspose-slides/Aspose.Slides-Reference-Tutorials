@@ -71,7 +71,7 @@ Este código garante que a cor de preenchimento da série seja definida como aut
 Para salvar a apresentação, use o seguinte código:
 
 ```java
-//Grave o arquivo de apresentação no disco
+// Grave o arquivo de apresentação no disco
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Grave o arquivo de apresentação no disco
+	// Grave o arquivo de apresentação no disco
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

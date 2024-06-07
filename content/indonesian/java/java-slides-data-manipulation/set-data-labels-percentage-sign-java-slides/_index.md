@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Kami menambahkan data ke grafik dengan membuat seri dan titik data. Dalam contoh ini, kami menambahkan dua rangkaian dengan titik datanya masing-masing.
 
 ```java
-//Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data bagan
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Tambahkan seri baru
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data bagan
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Tambahkan seri baru
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

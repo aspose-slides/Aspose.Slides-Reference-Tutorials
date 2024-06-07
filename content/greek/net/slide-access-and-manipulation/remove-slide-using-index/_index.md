@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Ο κωδικός σας για τον χειρισμό της διαφάνειας θα πάει εδώ
+    //Ο κωδικός σας για τον χειρισμό της διαφάνειας θα πάει εδώ
 }
 ```
 

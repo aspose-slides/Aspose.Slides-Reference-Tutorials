@@ -8,7 +8,7 @@ weight: 28
 url: /fr/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
 
-À l’ère numérique d’aujourd’hui, la conversion de présentations au format HTML est devenue une exigence courante. Il vous permet de partager facilement vos présentations sur le Web, les rendant ainsi accessibles à un public plus large. Aspose.Slides for .NET est un outil puissant qui simplifie ce processus. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus de conversion d'une présentation en HTML à l'aide d'Aspose.Slides pour .NET.
+À l'ère numérique d'aujourd'hui, la conversion de présentations au format HTML est devenue une exigence courante. Il vous permet de partager facilement vos présentations sur le Web, les rendant ainsi accessibles à un public plus large. Aspose.Slides for .NET est un outil puissant qui simplifie ce processus. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus de conversion d'une présentation en HTML à l'aide d'Aspose.Slides pour .NET.
 
 ## 1. Introduction
 

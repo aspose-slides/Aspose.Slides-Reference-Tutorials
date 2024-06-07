@@ -47,7 +47,7 @@ pres.Save(destFileName, SaveFormat.TiffNotes);
 
 ## Dönüştürülen Dosyayı Kaydetme
 
-Notları içeren dönüştürülmüş TIFF dosyası, belirtilen çıktı dizinine kaydedilecektir. Artık ona erişebilir ve gerektiğinde kullanabilirsiniz.
+Notları içeren dönüştürülmüş TIFF dosyası, belirtilen çıktı dizinine kaydedilecektir. Artık buna erişebilir ve gerektiğinde kullanabilirsiniz.
 
 ## Çözüm
 

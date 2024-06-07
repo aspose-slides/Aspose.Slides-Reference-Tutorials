@@ -10,7 +10,7 @@ url: /cs/java/media-controls/root-directory-clsid-in-java-slides/
 
 ## Úvod do nastavení ClsId kořenového adresáře v Aspose.Slides pro Javu
 
-Aspose.Slides for Java můžete nastavit ClsId kořenového adresáře, což je identifikátor CLSID (Identifikátor třídy) používaný k určení aplikace, která se má použít jako kořenový adresář, když je ve vaší prezentaci aktivován hypertextový odkaz. V této příručce vás provedeme krok za krokem, jak to udělat.
+V Aspose.Slides for Java můžete nastavit ClsId kořenového adresáře, což je identifikátor CLSID (Identifikátor třídy) používaný k určení aplikace, která se má použít jako kořenový adresář, když je ve vaší prezentaci aktivován hypertextový odkaz. V této příručce vás provedeme krok za krokem, jak to udělat.
 
 ## Předpoklady
 
@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Nahraďte "your_output_path"
 Presentation pres = new Presentation();
 ```
 
- Ve výše uvedeném kódu definujeme cestu pro výstupní soubor prezentace a vytvoříme nový`Presentation` objekt.
+Ve výše uvedeném kódu definujeme cestu pro výstupní soubor prezentace a vytvoříme nový`Presentation` objekt.
 
 ## Krok 2: Nastavte ClsId kořenového adresáře
 
- Chcete-li nastavit ClsId kořenového adresáře, musíte vytvořit instanci`PptOptions` nastavte požadované CLSID. CLSID představuje aplikaci, která bude použita jako kořenový adresář při aktivaci hypertextového odkazu.
+ Chcete-li nastavit ClsId kořenového adresáře, musíte vytvořit instanci`PptOptions` a nastavte požadované CLSID. CLSID představuje aplikaci, která bude použita jako kořenový adresář při aktivaci hypertextového odkazu.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// nastavte CLSID na 'Microsoft Powerpoint.Show.8'
+	//nastavte CLSID na 'Microsoft Powerpoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Uložit prezentaci
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

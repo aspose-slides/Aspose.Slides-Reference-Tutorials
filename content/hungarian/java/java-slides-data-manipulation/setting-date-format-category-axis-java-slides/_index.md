@@ -16,7 +16,7 @@ Ebben az oktatóanyagban megtanuljuk, hogyan állíthat be dátumformátumot a k
 
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-1.  Aspose.Slides for Java könyvtár (letöltheti a[itt](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java könyvtár (letöltheti a[itt](https://releases.aspose.com/slides/java/).
 2. Java fejlesztői környezet beállítása.
 
 ## 1. lépés: Hozzon létre egy PowerPoint-bemutatót
@@ -134,8 +134,8 @@ Sikeresen testreszabta a dátumformátumot a kategóriatengelyhez a Java Slides 
 
 ### Használhatok különböző dátumformátumokat a különböző diagramokhoz ugyanabban a prezentációban?
 
-Igen, beállíthat különböző dátumformátumokat a kategóriatengelyekhez ugyanazon a bemutatón belül a különböző diagramokon. Egyszerűen szabja testre a kategóriatengelyt az egyes diagramokhoz szükség szerint.
+Igen, beállíthat különböző dátumformátumokat a kategóriatengelyekhez ugyanazon a bemutatón belül a különböző diagramokon. Egyszerűen szabja testre a kategóriatengelyt az egyes diagramokhoz, ha szükséges.
 
 ### Hogyan adhatok hozzá további adatpontokat a diagramhoz?
 
- Ha további adatpontokat szeretne hozzáadni a diagramhoz, használja a`getDataPoints().addDataPointForLineSeries` módszert az adatsoron, és adja meg az adatértékeket.
+ Ha további adatpontokat szeretne hozzáadni a diagramhoz, használja a`getDataPoints().addDataPointForLineSeries`módszert az adatsoron, és adja meg az adatértékeket.

@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Αντικαταστήστε
 Presentation pres = new Presentation();
 ```
 
- Στον παραπάνω κώδικα, ορίζουμε τη διαδρομή για το αρχείο παρουσίασης εξόδου και δημιουργούμε ένα νέο`Presentation` αντικείμενο.
+Στον παραπάνω κώδικα, ορίζουμε τη διαδρομή για το αρχείο παρουσίασης εξόδου και δημιουργούμε ένα νέο`Presentation` αντικείμενο.
 
 ## Βήμα 2: Ορισμός ClsId καταλόγου ρίζας
 
- Για να ορίσετε το ClsId του καταλόγου ρίζας, πρέπει να δημιουργήσετε μια παρουσία του`PptOptions`και ορίστε το επιθυμητό CLSID. Το CLSID αντιπροσωπεύει την εφαρμογή που θα χρησιμοποιηθεί ως ριζικός κατάλογος όταν ενεργοποιείται μια υπερ-σύνδεση.
+ Για να ορίσετε το ClsId του καταλόγου ρίζας, πρέπει να δημιουργήσετε μια παρουσία του`PptOptions` και ορίστε το επιθυμητό CLSID. Το CLSID αντιπροσωπεύει την εφαρμογή που θα χρησιμοποιηθεί ως ριζικός κατάλογος όταν ενεργοποιείται μια υπερ-σύνδεση.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// ορίστε το CLSID σε "Microsoft Powerpoint.Show.8"
+	//ορίστε το CLSID σε "Microsoft Powerpoint.Show.8"
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Αποθήκευση παρουσίασης
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

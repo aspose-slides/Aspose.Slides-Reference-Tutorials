@@ -18,7 +18,7 @@ url: /ko/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
     .NET용 Aspose.Slides가 설치되어 있어야 합니다. 아직 다운로드하지 않았다면 웹사이트에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/net/).
 
 ### 2. 파워포인트 프레젠테이션
-   세련된 메모 서식을 추가하려는 PowerPoint 프레젠테이션 파일(PPTX)이 있어야 합니다. 이 프리젠테이션 파일의 경로를 알고 있는지 확인하십시오.
+   세련된 메모 서식을 추가하려는 PowerPoint 프레젠테이션 파일(PPTX)이 있어야 합니다. 이 프리젠테이션 파일의 경로를 알고 있는지 확인하세요.
 
 이제 전제 조건이 준비되었으므로 단계별 가이드를 진행해 보겠습니다.
 
@@ -37,7 +37,7 @@ using Aspose.Slides.Export;
 
 ### 2.1단계: 프레젠테이션 클래스 인스턴스화
 
- 먼저, 인스턴스를 생성해야 합니다.`Presentation`PowerPoint 프레젠테이션 파일을 나타내는 클래스입니다. 다음 위치에 프리젠테이션 파일의 경로를 제공해야 합니다.`dataDir` 변하기 쉬운.
+ 먼저, 인스턴스를 생성해야 합니다.`Presentation` PowerPoint 프레젠테이션 파일을 나타내는 클래스입니다. 다음 위치에 프리젠테이션 파일의 경로를 제공해야 합니다.`dataDir` 변하기 쉬운.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### 2.2단계: 마스터 노트 슬라이드에 액세스
 
- 내`using` 블록을 클릭하면 마스터 노트 슬라이드에 액세스합니다. 마스터 노트 슬라이드에는 프레젠테이션의 노트에 대한 기본 스타일이 포함되어 있습니다.
+ 내`using`블록을 클릭하면 마스터 노트 슬라이드에 액세스합니다. 마스터 노트 슬라이드에는 프레젠테이션의 노트에 대한 기본 스타일이 포함되어 있습니다.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

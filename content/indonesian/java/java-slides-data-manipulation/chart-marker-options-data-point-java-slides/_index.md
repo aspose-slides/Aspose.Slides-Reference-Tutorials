@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // Ulangi untuk titik data lainnya
 // ...
 
-//Mengubah ukuran penanda seri bagan
+// Mengubah ukuran penanda seri bagan
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ Dengan Aspose.Slides untuk Java, Anda dapat meningkatkan presentasi Anda dengan 
 
 ### Bisakah saya menggunakan gambar sebagai penanda khusus?
 
-Ya, Anda dapat menggunakan gambar sebagai penanda khusus untuk titik data. Atur jenis isian menjadi`FillType.Picture` dan berikan gambar yang ingin Anda gunakan.
+ Ya, Anda dapat menggunakan gambar sebagai penanda khusus untuk titik data. Atur jenis isian menjadi`FillType.Picture`dan berikan gambar yang ingin Anda gunakan.
 
 ### Apakah Aspose.Slides untuk Java cocok untuk membuat grafik dinamis?
 

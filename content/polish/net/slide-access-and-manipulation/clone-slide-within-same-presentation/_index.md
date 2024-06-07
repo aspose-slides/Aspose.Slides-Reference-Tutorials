@@ -82,7 +82,7 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym przewodniku nauczyłeś się, jak sklonować slajd w tej samej prezentacji przy użyciu Aspose.Slides dla .NET. Postępując zgodnie ze szczegółowymi instrukcjami i korzystając z dostarczonych przykładów kodu źródłowego, możesz efektywnie manipulować prezentacjami programu PowerPoint w aplikacjach .NET. Aspose.Slides upraszcza ten proces, pozwalając Ci skupić się na tworzeniu dynamicznych i angażujących prezentacji.
+W tym przewodniku nauczyłeś się, jak sklonować slajd w tej samej prezentacji przy użyciu Aspose.Slides dla .NET. Postępując zgodnie ze szczegółowymi instrukcjami i korzystając z dostarczonych przykładów kodu źródłowego, możesz efektywnie manipulować prezentacjami PowerPoint w swoich aplikacjach .NET. Aspose.Slides upraszcza ten proces, pozwalając Ci skupić się na tworzeniu dynamicznych i angażujących prezentacji.
 
 ## Często zadawane pytania
 

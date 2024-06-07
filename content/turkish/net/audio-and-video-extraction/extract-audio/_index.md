@@ -8,7 +8,7 @@ weight: 11
 url: /tr/net/audio-and-video-extraction/extract-audio/
 ---
 
-Sunum dünyasında slaytlarınıza ses eklemek genel etkiyi ve etkileşimi artırabilir. Aspose.Slides for .NET, sunumlarla çalışmak için güçlü bir araç seti sağlar ve bu eğitimde, adım adım bir kılavuzla bir slayttan sesin nasıl çıkarılacağını keşfedeceğiz. İster bu süreci otomatikleştirmek isteyen bir geliştirici olun, ister sadece bunun nasıl yapıldığını anlamakla ilgileniyor olun, bu eğitim size süreç boyunca yol gösterecektir.
+Sunum dünyasında slaytlarınıza ses eklemek genel etkiyi ve etkileşimi artırabilir. Aspose.Slides for .NET, sunumlarla çalışmak için güçlü bir araç seti sağlar ve bu eğitimde, adım adım bir kılavuzla bir slayttan sesin nasıl çıkarılacağını keşfedeceğiz. İster bu süreci otomatikleştirmek isteyen bir geliştirici olun, ister yalnızca bunun nasıl yapıldığını anlamakla ilgileniyor olun, bu eğitim size süreç boyunca yol gösterecektir.
 
 ## Önkoşullar
 

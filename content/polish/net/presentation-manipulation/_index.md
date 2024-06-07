@@ -42,7 +42,7 @@ Dowiedz się, jak bez wysiłku przekonwertować PPT na PPTX za pomocą Aspose.Sl
 ### [Konwertuj prezentację do formatu TIFF za pomocą niestandardowego formatu obrazu](./convert-presentation-to-tiff-with-custom-image-format/)
 Dowiedz się, jak konwertować prezentacje do formatu TIFF z niestandardowymi ustawieniami obrazu przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z przykładami kodu.
 ### [Konwertuj prezentację do formatu TIFF z domyślnym rozmiarem](./convert-presentation-to-tiff-with-default-size/)
-Dowiedz się, jak bez wysiłku konwertować prezentacje na obrazy TIFF z ich domyślnym rozmiarem za pomocą Aspose.Slides dla .NET.
+Dowiedz się, jak bez wysiłku konwertować prezentacje do obrazów TIFF z ich domyślnym rozmiarem za pomocą Aspose.Slides dla .NET.
 ### [Renderuj notatki podczas konwertowania prezentacji do formatu HTML](./render-notes-while-converting-presentation-to-html/)
 Dowiedz się, jak skutecznie renderować notatki prelegenta podczas konwersji prezentacji do formatu HTML za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego i spostrzeżenia, które pomogą Ci osiągnąć bezproblemową konwersję z zachowaniem notatek. 
 ### [Eksportuj prezentację do formatu HTML za pomocą plików CSS](./export-presentation-to-html-with-css-files/)

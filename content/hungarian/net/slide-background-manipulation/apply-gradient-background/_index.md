@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## 5. lépés: Határozza meg a színátmenet formátumát
 
- Ebben a lépésben adja meg a színátmenet formátumát. A színátmenetet saját igényei szerint testreszabhatja. Itt használjuk`TileFlip.FlipBoth` vizuálisan tetszetős hatás létrehozásához.
+Ebben a lépésben adja meg a színátmenet formátumát. A színátmenetet saját igényei szerint testreszabhatja. Itt használjuk`TileFlip.FlipBoth` vizuálisan tetszetős hatás létrehozásához.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

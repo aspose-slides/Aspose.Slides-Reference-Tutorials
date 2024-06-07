@@ -63,3 +63,20 @@ Scopri come gestire le immagini nelle diapositive Java utilizzando i tutorial As
 Scopri come migliorare la sicurezza dei tuoi documenti Java Slides con Aspose.Slides. Esplora tutorial passo passo per la protezione dei documenti.
 ### [Opzioni di salvataggio delle diapositive Java](./saving-options/)
 Scopri le opzioni di salvataggio delle diapositive Java con Aspose.Slides per Java. Esplora tutorial e guide completi per una gestione e una personalizzazione efficienti delle diapositive.
+
+### [Operazioni di salvataggio di Java PowerPoint](./java-powerpoint-save-operations/)
+Scopri come salvare presentazioni PowerPoint utilizzando Aspose.Slides per Java. Tutorial sul salvataggio su file, streaming e sull'aggiunta della protezione tramite password.
+### [Gestione delle proprietà di Java PowerPoint](./java-powerpoint-properties-management/)
+Scopri come gestire le proprietà di PowerPoint utilizzando Aspose.Slides per Java. Accedi, modifica e aggiorna le proprietà senza sforzo con i nostri tutorial completi.
+### [Tecniche di rendering di PowerPoint in Java](./java-powerpoint-rendering-techniques/)
+Scopri come eseguire il rendering di commenti, grafica 3D, emoji e altro in PowerPoint utilizzando Aspose.Slides per Java. Tutorial completi per presentazioni migliorate.
+### [Forma Java PowerPoint e inserimento multimediale](./java-powerpoint-shape-media-insertion/)
+Scopri come inserire forme e contenuti multimediali nelle presentazioni PowerPoint utilizzando Aspose.Slides per Java. Le esercitazioni includono l'aggiunta di linee, audio, oggetti OLE e video.
+### [Creazione di forme e miniature Java PowerPoint](./java-powerpoint-shape-thumbnail-creation/)
+Impara a creare forme e miniature in PowerPoint utilizzando Aspose.Slides Java. Tutorial dettagliati sulla creazione di forme di gruppo, miniature dei fattori di ridimensionamento ed effetti di zoom.
+### [Animazione Java PowerPoint e manipolazione di forme](./java-powerpoint-animation-shape-manipulation/)
+Scopri come animare e manipolare forme in PowerPoint utilizzando Aspose.Slides per Java. Tutorial completi per presentazioni dinamiche.
+### [Formattazione e geometria delle forme di Java PowerPoint](./java-powerpoint-shape-formatting-geometry/)
+Scopri i tutorial sulla formattazione delle forme e sulla geometria di Java PowerPoint. Impara a riempire forme, trovare forme e creare geometrie personalizzate con Aspose.Slides per Java.
+### [Tecniche di clonazione di diapositive Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
+Masterizza la clonazione delle diapositive in PowerPoint utilizzando Aspose.Slides per Java. Impara a clonare le diapositive all'interno della stessa presentazione o tra presentazioni senza problemi.

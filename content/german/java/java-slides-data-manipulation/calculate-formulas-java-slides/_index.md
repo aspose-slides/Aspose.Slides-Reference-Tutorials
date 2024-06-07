@@ -1,6 +1,6 @@
 ---
-title: Berechnen Sie Formeln in Java-Folien
-linktitle: Berechnen Sie Formeln in Java-Folien
+title: Formeln in Java-Folien berechnen
+linktitle: Formeln in Java-Folien berechnen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Formeln in Java Slides berechnen. Schritt-für-Schritt-Anleitung mit Quellcode für dynamische PowerPoint-Präsentationen.
 type: docs
@@ -8,21 +8,21 @@ weight: 10
 url: /de/java/data-manipulation/calculate-formulas-java-slides/
 ---
 
-## Einführung in die Berechnung von Formeln in Java Slides mit Aspose.Slides
+## Einführung in die Berechnung von Formeln in Java-Folien mit Aspose.Slides
 
-In diesem Handbuch zeigen wir, wie Sie Formeln in Java Slides mithilfe der Aspose.Slides für Java-API berechnen. Aspose.Slides ist eine leistungsstarke Bibliothek für die Arbeit mit PowerPoint-Präsentationen und bietet Funktionen zum Bearbeiten von Diagrammen und zum Durchführen von Formelberechnungen in Folien.
+In dieser Anleitung zeigen wir, wie man Formeln in Java Slides mithilfe der Aspose.Slides für Java-API berechnet. Aspose.Slides ist eine leistungsstarke Bibliothek für die Arbeit mit PowerPoint-Präsentationen und bietet Funktionen zum Bearbeiten von Diagrammen und Durchführen von Formelberechnungen innerhalb von Folien.
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 - Java-Entwicklungsumgebung
--  Aspose.Slides für Java-Bibliothek (Sie können sie herunterladen von[Hier](https://releases.aspose.com/slides/java/)
+-  Aspose.Slides für Java-Bibliothek (Sie können es herunterladen von[Hier](https://releases.aspose.com/slides/java/)
 - Grundkenntnisse der Java-Programmierung
 
 ## Schritt 1: Erstellen Sie eine neue Präsentation
 
-Lassen Sie uns zunächst eine neue PowerPoint-Präsentation erstellen und eine Folie hinzufügen. In diesem Beispiel arbeiten wir mit einer einzelnen Folie.
+Lassen Sie uns zunächst eine neue PowerPoint-Präsentation erstellen und ihr eine Folie hinzufügen. In diesem Beispiel arbeiten wir mit einer einzelnen Folie.
 
 ```java
 String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
@@ -31,7 +31,7 @@ Presentation presentation = new Presentation();
 
 ## Schritt 2: Fügen Sie der Folie ein Diagramm hinzu
 
-Nun fügen wir der Folie ein gruppiertes Säulendiagramm hinzu. Wir werden dieses Diagramm verwenden, um Formelberechnungen zu demonstrieren.
+Fügen wir der Folie nun ein gruppiertes Säulendiagramm hinzu. Wir verwenden dieses Diagramm, um Formelberechnungen zu demonstrieren.
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
@@ -44,30 +44,30 @@ Als Nächstes legen wir mithilfe der Aspose.Slides-API Formeln und Werte für di
 ```java
 IChartDataWorkbook workbook = s_chart.getChartData().getChartDataWorkbook();
 
-// Legen Sie die Formel für Zelle A1 fest
+// Formel für Zelle A1 festlegen
 IChartDataCell cell = workbook.getCell(0, "A1");
 cell.setFormula("ABS(A2) + MAX(B2:C2)");
 
-// Legen Sie den Wert für Zelle A2 fest
+// Wert für Zelle A2 festlegen
 workbook.getCell(0, "A2").setValue(-1);
 workbook.calculateFormulas();
 
-// Legen Sie die Formel für Zelle B2 fest
+// Formel für Zelle B2 festlegen
 workbook.getCell(0, "B2").setFormula("2");
 workbook.calculateFormulas();
 
-// Legen Sie die Formel für Zelle C2 fest
+// Formel für Zelle C2 festlegen
 workbook.getCell(0, "C2").setFormula("A2 + 4");
 workbook.calculateFormulas();
 
-// Legen Sie die Formel für Zelle A1 erneut fest
+// Formel für Zelle A1 erneut festlegen
 cell.setFormula("MAX(2:2)");
 workbook.calculateFormulas();
 ```
 
 ## Schritt 4: Speichern Sie die Präsentation
 
-Abschließend speichern wir die geänderte Darstellung mit den berechneten Formeln.
+Abschließend speichern wir die geänderte Darstellung mit den berechneten Formeln ab.
 
 ```java
 presentation.save(resultPath, SaveFormat.Pptx);
@@ -99,18 +99,18 @@ try {
 
 ## Abschluss
 
-In dieser Anleitung haben wir gelernt, wie man mit Aspose.Slides für Java Formeln in Java Slides berechnet. Wir haben eine neue Präsentation erstellt, ein Diagramm hinzugefügt, Formeln und Werte für Diagrammdatenzellen festgelegt und die Präsentation mit den berechneten Formeln gespeichert.
+In dieser Anleitung haben wir gelernt, wie man Formeln in Java Slides mit Aspose.Slides für Java berechnet. Wir haben eine neue Präsentation erstellt, ihr ein Diagramm hinzugefügt, Formeln und Werte für Diagrammdatenzellen festgelegt und die Präsentation mit den berechneten Formeln gespeichert.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie lege ich Formeln für Diagrammdatenzellen fest?
 
- Mit können Sie Formeln für Diagrammdatenzellen festlegen`setFormula` Methode von`IChartDataCell` in Aspose.Slides.
+ Sie können Formeln für Diagrammdatenzellen festlegen mit dem`setFormula` Methode von`IChartDataCell` in Aspose.Slides.
 
 ### Wie lege ich Werte für Diagrammdatenzellen fest?
 
- Mit können Sie Werte für Diagrammdatenzellen festlegen`setValue` Methode von`IChartDataCell` in Aspose.Slides.
+ Sie können Werte für Diagrammdatenzellen festlegen mit dem`setValue` Methode von`IChartDataCell` in Aspose.Slides.
 
 ### Wie berechne ich Formeln in einer Arbeitsmappe?
 
- Sie können Formeln in einer Arbeitsmappe mit berechnen`calculateFormulas` Methode von`IChartDataWorkbook` in Aspose.Slides.
+ Sie können Formeln in einer Arbeitsmappe berechnen mit dem`calculateFormulas` Methode von`IChartDataWorkbook` in Aspose.Slides.

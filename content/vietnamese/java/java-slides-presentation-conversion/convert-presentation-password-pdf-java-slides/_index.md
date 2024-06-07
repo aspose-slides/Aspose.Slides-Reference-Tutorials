@@ -141,7 +141,7 @@ Aspose.Slides cung cấp các tính năng bảo vệ mật khẩu PDF mạnh m�
 
 ### Tôi có thể tự động hóa quá trình này cho nhiều bài thuyết trình không?
 
-Có, bạn có thể tự động hóa quá trình chuyển đổi nhiều bản trình bày thành tệp PDF được bảo vệ bằng mật khẩu bằng cách lặp lại các tệp bản trình bày của mình và áp dụng mã chuyển đổi cho từng tệp.
+Có, bạn có thể tự động hóa quá trình chuyển đổi nhiều bản trình bày thành tệp PDF được bảo vệ bằng mật khẩu bằng cách lặp qua các tệp bản trình bày của mình và áp dụng mã chuyển đổi cho từng tệp.
 
 ### Aspose.Slides cho Java có phù hợp cho mục đích thương mại không?
 

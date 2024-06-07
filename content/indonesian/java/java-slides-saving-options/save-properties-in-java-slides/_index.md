@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-// Buat instance objek Presentasi yang mewakili file PPT
+//Buat instance objek Presentasi yang mewakili file PPT
 Presentation presentation = new Presentation();
 try
 {

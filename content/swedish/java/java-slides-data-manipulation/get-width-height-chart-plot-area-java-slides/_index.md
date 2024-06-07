@@ -65,7 +65,7 @@ pres.save(dataDir + "Chart_out.pptx", SaveFormat.Pptx);
 
  Se till att byta ut`"Chart_out.pptx"` med önskat utdatafilnamn.
 
-## Komplett källkod för att få bredd och höjd från sjökortsområdet i Java Slides
+## Komplett källkod för att få bredd och höjd från diagramområdet i Java Slides
 
 ```java
 // Sökvägen till dokumentkatalogen.
@@ -90,7 +90,7 @@ finally
 
 ## Slutsats
 
-I den här artikeln har vi behandlat hur du får bredden och höjden på ett diagrams plotområde i Java Slides med hjälp av Aspose.Slides för Java API. Denna information kan vara värdefull när du dynamiskt behöver justera layouten för dina diagram i PowerPoint-presentationer.
+den här artikeln har vi behandlat hur du får bredden och höjden på ett diagrams plotområde i Java Slides med hjälp av Aspose.Slides för Java API. Denna information kan vara värdefull när du dynamiskt behöver justera layouten för dina diagram i PowerPoint-presentationer.
 
 ## FAQ's
 

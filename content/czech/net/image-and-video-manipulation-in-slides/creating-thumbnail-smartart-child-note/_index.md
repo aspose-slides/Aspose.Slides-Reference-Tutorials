@@ -11,7 +11,7 @@ url: /cs/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 V oblasti dynamických prezentací vyniká Aspose.Slides for .NET jako výkonný nástroj, který vývojářům poskytuje možnost programově manipulovat a vylepšovat prezentace PowerPoint. Jednou ze zajímavých funkcí je schopnost generovat miniatury pro SmartArt Child Notes, které dodávají vašim prezentacím vrstvu vizuální přitažlivosti. Tento podrobný průvodce vás provede procesem vytváření miniatur pro SmartArt Child Notes pomocí Aspose.Slides pro .NET.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-- Aspose.Slides pro .NET: Ujistěte se, že máte knihovnu Aspose.Slides integrovanou do svého projektu .NET. Pokud ne, stáhněte si jej z[stránka vydání](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides pro .NET: Ujistěte se, že máte knihovnu Aspose.Slides integrovanou do svého projektu .NET. Pokud ne, stáhněte si jej z[stránka vydání](https://releases.aspose.com/slides/net/).
 - Vývojové prostředí: Nastavte funkční vývojové prostředí .NET a mějte základní znalosti o programování v C#.
 - Ukázková prezentace: Vytvořte nebo získejte PowerPointovou prezentaci obsahující SmartArt s Child Notes pro testování.
 ## Importovat jmenné prostory
@@ -57,8 +57,8 @@ Odpověď: Ano, můžete upravit rozměry a formát náhledu úpravou odpovídaj
 ### Otázka: Podporuje Aspose.Slides další rozvržení SmartArt?
 A: Rozhodně! Aspose.Slides nabízí řadu rozvržení SmartArt, což vám umožní vybrat si to, které nejlépe vyhovuje vašim potřebám prezentace.
 ### Otázka: Je k dispozici dočasná licence pro účely testování?
-Odpověď: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
+ Odpověď: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
 ### Otázka: Kde mohu vyhledat pomoc nebo se spojit s komunitou Aspose.Slides?
- A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) zapojit se do komunity, klást otázky a hledat řešení.
+A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) zapojit se do komunity, klást otázky a hledat řešení.
 ### Otázka: Mohu si zakoupit Aspose.Slides pro .NET?
  A: Určitě! Prozkoumejte možnosti nákupu[tady](https://purchase.aspose.com/buy) odemknout plný potenciál Aspose.Slides ve vašich projektech.

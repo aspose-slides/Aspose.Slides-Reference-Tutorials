@@ -16,7 +16,7 @@ url: /th/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Slides สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides สำหรับไลบรารี Java (คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
 2. ตั้งค่าสภาพแวดล้อมการพัฒนา Java
 
 ## ขั้นตอนที่ 1: สร้างงานนำเสนอ PowerPoint
@@ -138,4 +138,4 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ### ฉันจะเพิ่มจุดข้อมูลลงในแผนภูมิได้อย่างไร
 
- หากต้องการเพิ่มจุดข้อมูลลงในแผนภูมิ ให้ใช้`getDataPoints().addDataPointForLineSeries` วิธีการในชุดข้อมูลและจัดเตรียมค่าข้อมูล
+ หากต้องการเพิ่มจุดข้อมูลลงในแผนภูมิ ให้ใช้`getDataPoints().addDataPointForLineSeries`วิธีการในชุดข้อมูลและจัดเตรียมค่าข้อมูล

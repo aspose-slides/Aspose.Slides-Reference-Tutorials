@@ -70,7 +70,7 @@ presentation.Save(dataDir + "PresentationWithoutNotes.pptx", SaveFormat.Pptx);
 
 I to wszystko! Pomyślnie usunąłeś notatki ze wszystkich slajdów w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla .NET.
 
- W tym samouczku omówiliśmy podstawowe kroki, aby skutecznie wykonać to zadanie. Jeśli napotkasz jakiekolwiek problemy lub masz dalsze pytania, możesz zapoznać się z Aspose.Slides dla .NET[dokumentacja](https://reference.aspose.com/slides/net/) lub poproś o pomoc na stronie[Forum wsparcia Aspose](https://forum.aspose.com/).
+ W tym samouczku omówiliśmy podstawowe kroki umożliwiające skuteczne wykonanie tego zadania. Jeśli napotkasz jakiekolwiek problemy lub masz dalsze pytania, możesz zapoznać się z Aspose.Slides dla .NET[dokumentacja](https://reference.aspose.com/slides/net/) lub poproś o pomoc na stronie[Forum wsparcia Aspose](https://forum.aspose.com/).
 
 ## Wniosek
 

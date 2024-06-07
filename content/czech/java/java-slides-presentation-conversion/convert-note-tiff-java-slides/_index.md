@@ -61,7 +61,7 @@ try {
 
 ## Krok 4: Vyčistěte zdroje
 
- V`finally` blok, ujistěte se, že je zlikvidujete`Presentation` objekt k uvolnění všech přidělených zdrojů.
+ V`finally` blok, ujistěte se, že zlikvidujete`Presentation` objekt k uvolnění všech přidělených zdrojů.
 
 A je to! Úspěšně jste převedli PowerPointovou prezentaci s poznámkami řečníka do formátu TIFF pomocí Aspose.Slides for Java.
 
@@ -94,7 +94,7 @@ tomto tutoriálu jsme se naučili převést powerpointovou prezentaci s poznámk
 
 ### Jak nainstaluji Aspose.Slides for Java?
 
- Aspose.Slides pro Java si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/) postupujte podle pokynů k instalaci uvedených v dokumentaci.
+ Aspose.Slides pro Java si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/) a postupujte podle pokynů k instalaci uvedených v dokumentaci.
 
 ### Mohu převést PowerPointové prezentace také do jiných formátů?
 

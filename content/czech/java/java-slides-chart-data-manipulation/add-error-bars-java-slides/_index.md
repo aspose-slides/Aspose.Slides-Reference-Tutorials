@@ -14,7 +14,7 @@ V tomto tutoriálu si ukážeme, jak přidat chybové úsečky do grafu na sním
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte v projektu Java nainstalovanou a nastavenou knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z[Aspose webové stránky](https://downloads.aspose.com/slides/java).
+ Než začnete, ujistěte se, že máte v projektu Java nainstalovanou a nastavenou knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z[Aspose webové stránky](https://downloads.aspose.com/slides/java).
 
 ## Krok 1: Vytvořte prázdnou prezentaci
 
@@ -25,7 +25,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-V tomto kroku vytvoříme prázdnou prezentaci, kam přidáme náš graf s chybovými úsečkami.
+tomto kroku vytvoříme prázdnou prezentaci, kam přidáme náš graf s chybovými úsečkami.
 
 ## Krok 2: Vytvořte bublinový graf
 
@@ -39,7 +39,7 @@ Zde vytvoříme bublinový graf a určíme jeho polohu a rozměry na snímku.
 ## Krok 3: Přidání chybových pruhů a nastavení formátu
 
 ```java
-// Přidání chybových pruhů a nastavení jejich formátu
+// Přidání chybových pruhů a nastavení jeho formátu
 IErrorBarsFormat errBarX = chart.getChartData().getSeries().get_Item(0).getErrorBarsXFormat();
 IErrorBarsFormat errBarY = chart.getChartData().getSeries().get_Item(0).getErrorBarsYFormat();
 errBarX.setVisible(true);
@@ -62,7 +62,7 @@ V tomto kroku přidáme do grafu chybové úsečky a nastavíme jejich formát. 
 - `setValue` nastavuje hodnotu pro chybové úsečky.
 - `setType` definuje typ chybových pruhů (např. Plus nebo Minus).
 -  Šířku čar chybového pruhu nastavíme pomocí`getFormat().getLine().setWidth(2)`.
-- `setEndCap`určuje, zda se mají na chybové úsečky zahrnout koncovky.
+- `setEndCap` určuje, zda se mají na chybové úsečky zahrnout koncovky.
 
 ## Krok 4: Uložte prezentaci
 
@@ -73,7 +73,7 @@ presentation.save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 
 Nakonec prezentaci s přidanými chybovými úsečkami uložíme na určené místo.
 
-A je to! Úspěšně jste přidali chybové úsečky do grafu na snímku aplikace PowerPoint pomocí Aspose.Slides for Java.
+je to! Úspěšně jste přidali chybové úsečky do grafu na snímku aplikace PowerPoint pomocí Aspose.Slides for Java.
 
 ## Kompletní zdrojový kód pro přidání chybových pruhů do snímků Java
 
@@ -86,7 +86,7 @@ try
 {
 	// Vytvoření bublinového grafu
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
-	// Přidání chybových pruhů a nastavení jejich formátu
+	// Přidání chybových pruhů a nastavení jeho formátu
 	IErrorBarsFormat errBarX = chart.getChartData().getSeries().get_Item(0).getErrorBarsXFormat();
 	IErrorBarsFormat errBarY = chart.getChartData().getSeries().get_Item(0).getErrorBarsYFormat();
 	errBarX.setVisible(true);
@@ -123,7 +123,7 @@ Ano, do různých typů grafů podporovaných Aspose.Slides for Java můžete p�
 
 ### Jak mohu upravit polohu a velikost grafu na snímku?
 
- Polohu a rozměry grafu můžete ovládat úpravou parametrů v`addChart` způsob, jak je ukázáno v kroku 2.
+Polohu a rozměry grafu můžete ovládat úpravou parametrů v`addChart` způsob, jak je ukázáno v kroku 2.
 
 ### Kde najdu více informací o Aspose.Slides for Java?
 

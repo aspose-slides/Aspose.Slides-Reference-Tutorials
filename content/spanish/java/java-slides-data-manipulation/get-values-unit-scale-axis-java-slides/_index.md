@@ -10,7 +10,7 @@ url: /es/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 
 ## Introducción a obtener valores y escala de unidades de Axis en diapositivas de Java
 
-En este tutorial, exploraremos cómo recuperar valores y escala de unidades de un eje en Java Slides usando la API Aspose.Slides para Java. Ya sea que esté trabajando en un proyecto de visualización de datos o necesite analizar datos de gráficos en sus aplicaciones Java, es esencial comprender cómo acceder a los valores de los ejes. Lo guiaremos a través del proceso paso a paso, brindándole ejemplos de código a lo largo del camino.
+En este tutorial, exploraremos cómo recuperar valores y escala de unidades de un eje en Java Slides usando la API Aspose.Slides para Java. Ya sea que esté trabajando en un proyecto de visualización de datos o necesite analizar datos de gráficos en sus aplicaciones Java, comprender cómo acceder a los valores de los ejes es esencial. Lo guiaremos a través del proceso paso a paso, brindándole ejemplos de código a lo largo del camino.
 
 ## Requisitos previos
 
@@ -18,7 +18,7 @@ Antes de profundizar en el código, asegúrese de cumplir con los siguientes req
 
 1. Entorno de desarrollo de Java: asegúrese de tener Java instalado en su sistema y estar familiarizado con los conceptos de programación de Java.
 
-2. Aspose.Slides para Java: descargue e instale la biblioteca Aspose.Slides para Java desde[enlace de descarga](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides para Java: descargue e instale la biblioteca Aspose.Slides para Java desde[enlace de descarga](https://releases.aspose.com/slides/java/).
 
 ## Paso 1: crear una presentación
 

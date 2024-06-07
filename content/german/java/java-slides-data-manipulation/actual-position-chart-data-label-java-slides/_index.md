@@ -1,6 +1,6 @@
 ---
-title: Ermitteln Sie die tatsächliche Position der Diagrammdatenbeschriftung in Java-Folien
-linktitle: Ermitteln Sie die tatsächliche Position der Diagrammdatenbeschriftung in Java-Folien
+title: Aktuelle Position der Diagrammdatenbeschriftung in Java-Folien abrufen
+linktitle: Aktuelle Position der Diagrammdatenbeschriftung in Java-Folien abrufen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java die tatsächliche Position von Diagrammdatenbeschriftungen in Java Slides ermitteln. Schritt-für-Schritt-Anleitung mit Quellcode.
 type: docs
@@ -8,20 +8,20 @@ weight: 18
 url: /de/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
 
-## Einführung in das Abrufen der tatsächlichen Position der Diagrammdatenbeschriftung in Java-Folien
+## Einführung zum Abrufen der tatsächlichen Position der Diagrammdatenbeschriftung in Java-Folien
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java die tatsächliche Position von Diagrammdatenbeschriftungen abrufen. Wir erstellen ein Java-Programm, das eine PowerPoint-Präsentation mit einem Diagramm generiert, die Datenbeschriftungen anpasst und dann Formen hinzufügt, die die Positionen dieser Datenbeschriftungen darstellen.
+In diesem Tutorial erfahren Sie, wie Sie die tatsächliche Position von Diagrammdatenbeschriftungen mit Aspose.Slides für Java abrufen. Wir erstellen ein Java-Programm, das eine PowerPoint-Präsentation mit einem Diagramm generiert, die Datenbeschriftungen anpasst und dann Formen hinzufügt, die die Positionen dieser Datenbeschriftungen darstellen.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihrem Java-Projekt eingerichtet ist.
+Stellen Sie vor dem Beginn sicher, dass Sie die Bibliothek Aspose.Slides für Java in Ihrem Java-Projekt eingerichtet haben.
 
 ## Schritt 1: Erstellen Sie eine PowerPoint-Präsentation
 
-Lassen Sie uns zunächst eine neue PowerPoint-Präsentation erstellen und ein Diagramm hinzufügen. Wir werden die Datenbeschriftungen des Diagramms später im Tutorial anpassen.
+Lassen Sie uns zunächst eine neue PowerPoint-Präsentation erstellen und ihr ein Diagramm hinzufügen. Wir werden die Datenbeschriftungen des Diagramms später im Tutorial anpassen.
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try {
@@ -33,7 +33,7 @@ try {
 ```
 
 ## Schritt 2: Datenbeschriftungen anpassen
-Passen wir nun die Datenbeschriftungen für die Diagrammreihe an. Wir werden ihre Position festlegen und die Werte anzeigen.
+Passen wir nun die Datenbeschriftungen für die Diagrammreihe an. Wir legen ihre Position fest und zeigen die Werte an.
 
 ```java
 try {
@@ -42,14 +42,14 @@ try {
         series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
         series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
     }
-    // ... (verbleibender Code)
+    // ... (restlicher Code)
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## Schritt 3: Ermitteln Sie die tatsächliche Position der Datenbeschriftungen
-In diesem Schritt durchlaufen wir die Datenpunkte der Diagrammreihe und rufen die tatsächliche Position von Datenbeschriftungen ab, die einen Wert größer als 4 haben. Anschließend fügen wir Ellipsen hinzu, um diese Positionen darzustellen.
+## Schritt 3: Tatsächliche Position der Datenbeschriftungen ermitteln
+In diesem Schritt durchlaufen wir die Datenpunkte der Diagrammreihe und rufen die tatsächliche Position der Datenbeschriftungen ab, die einen Wert größer als 4 haben. Anschließend fügen wir Ellipsen hinzu, um diese Positionen darzustellen.
 
 ```java
 try {
@@ -67,14 +67,14 @@ try {
             }
         }
     }
-    // ... (verbleibender Code)
+    // ... (restlicher Code)
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
 ## Schritt 4: Speichern Sie die Präsentation
-Speichern Sie abschließend die generierte Präsentation in einer Datei.
+Speichern Sie abschließend die erstellte Präsentation in einer Datei.
 
 ```java
 try {
@@ -88,7 +88,7 @@ try {
 ## Vollständiger Quellcode zum Abrufen der tatsächlichen Position der Diagrammdatenbeschriftung in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 try
@@ -126,13 +126,13 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für Java die tatsächliche Position von Diagrammdatenbeschriftungen in Java Slides abrufen. Sie können dieses Wissen nun nutzen, um Ihre PowerPoint-Präsentationen mit benutzerdefinierten Datenbeschriftungen und visuellen Darstellungen ihrer Positionen zu erweitern.
+In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für Java die tatsächliche Position von Diagrammdatenbeschriftungen in Java-Folien abrufen. Dieses Wissen können Sie nun nutzen, um Ihre PowerPoint-Präsentationen mit benutzerdefinierten Datenbeschriftungen und visuellen Darstellungen ihrer Positionen zu verbessern.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie kann ich Datenbeschriftungen in einem Diagramm anpassen?
 
- Um Datenbeschriftungen in einem Diagramm anzupassen, können Sie die verwenden`setDefaultDataLabelFormat` Methode für die Diagrammreihe und legen Sie Eigenschaften wie Position und Sichtbarkeit fest. Zum Beispiel:
+ Um Datenbeschriftungen in einem Diagramm anzupassen, können Sie das`setDefaultDataLabelFormat` Methode für die Diagrammreihe und legen Sie Eigenschaften wie Position und Sichtbarkeit fest. Beispiel:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -142,7 +142,7 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 
 ### Wie kann ich Formen hinzufügen, um Datenbeschriftungspositionen darzustellen?
 
- Sie können die Datenpunkte einer Diagrammreihe durchlaufen und verwenden`getActualX`, `getActualY`, `getActualWidth` , Und`getActualHeight`Methoden des Datenetiketts, um seine Position zu ermitteln. Anschließend können Sie mit dem Formen hinzufügen`addAutoShape` Methode. Hier ist ein Beispiel:
+ Sie können die Datenpunkte einer Diagrammreihe durchlaufen und die`getActualX`, `getActualY`, `getActualWidth` , Und`getActualHeight`Methoden der Datenbeschriftung, um ihre Position zu erhalten. Anschließend können Sie Formen hinzufügen, indem Sie`addAutoShape` Methode. Hier ist ein Beispiel:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -151,9 +151,9 @@ float h = point.getLabel().getActualHeight();
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 ```
 
-### Wie kann ich die generierte Präsentation speichern?
+### Wie kann ich die erstellte Präsentation speichern?
 
- Sie können die generierte Präsentation mit speichern`save` Methode. Geben Sie den gewünschten Dateipfad und die Datei an`SaveFormat` als Parameter. Zum Beispiel:
+ Sie können die erstellte Präsentation speichern mit dem`save` Methode. Geben Sie den gewünschten Dateipfad und die`SaveFormat` als Parameter. Beispiel:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```

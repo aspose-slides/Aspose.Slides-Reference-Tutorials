@@ -78,7 +78,7 @@ finally
 
 ## Závěr
 
- V tomto tutoriálu jste se naučili, jak pomocí Aspose.Slides for Java převést prezentaci v PowerPointu na dokument XPS, aniž byste museli zadávat jakékoli možnosti XPS. Proces převodu můžete dále přizpůsobit prozkoumáním možností, které poskytuje Aspose.Slides for Java. Pro pokročilejší funkce a podrobnou dokumentaci navštivte stránku[Aspose.Slides pro dokumentaci Java](https://docs.aspose.com/slides/java/).
+ V tomto tutoriálu jste se naučili, jak pomocí Aspose.Slides for Java převést PowerPointovou prezentaci na dokument XPS, aniž byste museli zadávat jakékoli možnosti XPS. Proces převodu můžete dále přizpůsobit prozkoumáním možností, které poskytuje Aspose.Slides for Java. Pro pokročilejší funkce a podrobnou dokumentaci navštivte stránku[Aspose.Slides pro dokumentaci Java](https://docs.aspose.com/slides/java/).
 
 ## FAQ
 

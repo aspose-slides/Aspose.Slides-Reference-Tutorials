@@ -10,7 +10,7 @@ url: /cs/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 
 ## Úvod k přidání obrázku blob do prezentace v Java Slides
 
-V tomto komplexním průvodci prozkoumáme, jak přidat obrázek blob do prezentace pomocí Java Slides. Aspose.Slides for Java poskytuje výkonné funkce pro programovou manipulaci s prezentacemi PowerPoint. Na konci tohoto kurzu budete mít jasno v tom, jak začlenit obrázky BLOB do vašich prezentací. Pojďme se ponořit!
+tomto komplexním průvodci prozkoumáme, jak přidat obrázek blob do prezentace pomocí Java Slides. Aspose.Slides for Java poskytuje výkonné funkce pro programovou manipulaci s prezentacemi PowerPoint. Na konci tohoto kurzu budete mít jasno v tom, jak začlenit obrázky BLOB do vašich prezentací. Pojďme se ponořit!
 
 ## Předpoklady
 
@@ -56,7 +56,7 @@ Presentation pres = new Presentation();
 
 ## Krok 5: Přidejte obrázek blob
 
-Nyní je čas přidat do prezentace obrázek objektu Blob. Používáme`addImage` způsob, jak toho dosáhnout.
+ Nyní je čas přidat do prezentace obrázek objektu Blob. Používáme`addImage`způsob, jak toho dosáhnout.
 
 ```java
 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
@@ -116,7 +116,7 @@ Gratulujeme! Úspěšně jste se naučili, jak přidat obrázek blob do prezenta
 
 ### Jak nainstaluji Aspose.Slides for Java?
 
- Aspose.Slides for Java lze snadno nainstalovat stažením knihovny z webových stránek[tady](https://releases.aspose.com/slides/java/). Postupujte podle pokynů k instalaci a integrujte jej do svého projektu Java.
+Aspose.Slides for Java lze snadno nainstalovat stažením knihovny z webových stránek[tady](https://releases.aspose.com/slides/java/). Postupujte podle pokynů k instalaci a integrujte jej do svého projektu Java.
 
 ### Mohu přidat více obrázků BLOB do jedné prezentace?
 
@@ -128,7 +128,7 @@ Pro prezentace je vhodné používat běžné obrazové formáty jako JPEG nebo 
 
 ### Jak mohu přizpůsobit pozici a velikost přidaného obrázku blob?
 
-Pozici a velikost přidaného obrázku blob můžete upravit úpravou parametrů v`addPictureFrame` metoda. Čtyři hodnoty (souřadnice x, souřadnice y, šířka a výška) určují polohu a rozměry rámečku obrazu.
+ Pozici a velikost přidaného obrázku blob můžete upravit úpravou parametrů v`addPictureFrame` metoda. Čtyři hodnoty (souřadnice x, souřadnice y, šířka a výška) určují polohu a rozměry rámečku obrazu.
 
 ### Je Aspose.Slides vhodný pro pokročilé úkoly automatizace PowerPoint?
 

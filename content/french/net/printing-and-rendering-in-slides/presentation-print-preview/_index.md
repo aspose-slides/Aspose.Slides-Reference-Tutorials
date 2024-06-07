@@ -20,7 +20,7 @@ Dans votre projet Visual Studio, importez les espaces de noms nécessaires pour 
 Lancez Visual Studio et ouvrez votre projet.
 ## Étape 2 : ajouter une référence Aspose.Slides
 Dans votre projet, cliquez avec le bouton droit sur Références et choisissez "Ajouter une référence". Accédez à l’emplacement où vous avez enregistré la bibliothèque Aspose.Slides et ajoutez la référence.
-## Étape 3 : Importer des espaces de noms
+## Étape 3 : Importer les espaces de noms
 Dans votre fichier de code, importez les espaces de noms requis :
 ```csharp
 using System;

@@ -67,6 +67,6 @@ Sim, o Aspose.Slides se integra perfeitamente ao Visual Studio para desenvolvime
 ### Posso personalizar a aparência do quadro de zoom da seção?
 Absolutamente! Você tem controle total sobre as dimensões, o posicionamento e o estilo do quadro de zoom da seção.
 ### Existe uma versão de teste disponível para Aspose.Slides?
- Sim, você pode explorar os recursos do Aspose.Slides usando o[teste grátis](https://releases.aspose.com/).
+Sim, você pode explorar os recursos do Aspose.Slides usando o[teste grátis](https://releases.aspose.com/).
 ### Onde posso obter suporte para consultas relacionadas ao Aspose.Slides?
  Para qualquer suporte ou dúvida, visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).

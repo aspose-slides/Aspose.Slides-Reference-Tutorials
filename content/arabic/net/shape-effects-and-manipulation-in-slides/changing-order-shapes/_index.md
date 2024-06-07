@@ -67,6 +67,6 @@ presentation.Save(dataDir + "Reshape_out.pptx", SaveFormat.Pptx);
 ### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ .NET؟
  ج: نعم، يمكنك استكشاف الميزات باستخدام[تجربة مجانية](https://releases.aspose.com/) متاح على موقع Aspose.Slides.
 ### س: أين يمكنني العثور على الدعم أو طرح الأسئلة المتعلقة بـ Aspose.Slides for .NET؟
- ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على الدعم والتفاعل مع المجتمع.
+ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على الدعم والتفاعل مع المجتمع.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
  ج: يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.

@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Twój kod do manipulacji slajdami zostanie umieszczony tutaj
+    //Twój kod do manipulacji slajdami zostanie umieszczony tutaj
 }
 ```
 
@@ -45,13 +45,13 @@ Teraz, gdy mamy już załadowaną prezentację, przejdźmy do uzyskiwania dostę
 
 ```csharp
 // Dostęp do slajdu według jego indeksu sekwencyjnego (od 0)
-int slideIndex = 2; // Zastąp żądanym indeksem
+int slideIndex = 2; //Zastąp żądanym indeksem
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## Wyjaśnienie kodu źródłowego
 
-- Używamy`Slides` zbiór`Presentation` obiekt umożliwiający dostęp do slajdów.
+-  Używamy`Slides` zbiór`Presentation` obiekt umożliwiający dostęp do slajdów.
 - Indeks slajdu w kolekcji jest oparty na 0, więc pierwszy slajd ma indeks 0, drugi slajd ma indeks 1 i tak dalej.
 - Określamy żądany indeks slajdu, aby pobrać odpowiedni obiekt slajdu.
 
@@ -63,7 +63,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ## Wniosek
 
-W tym przewodniku dowiedzieliśmy się, jak uzyskać dostęp do slajdów według ich indeksu sekwencyjnego za pomocą Aspose.Slides dla .NET. Omówiliśmy ładowanie prezentacji programu PowerPoint, uzyskiwanie dostępu do slajdów i udostępnialiśmy kod źródłowy niezbędny do wykonania tego zadania. Aspose.Slides dla .NET upraszcza proces programowej pracy z prezentacjami programu PowerPoint, dając programistom elastyczność w automatyzacji różnych zadań.
+tym przewodniku dowiedzieliśmy się, jak uzyskać dostęp do slajdów według ich indeksu sekwencyjnego za pomocą Aspose.Slides dla .NET. Omówiliśmy ładowanie prezentacji programu PowerPoint, uzyskiwanie dostępu do slajdów i udostępnialiśmy kod źródłowy niezbędny do wykonania tego zadania. Aspose.Slides dla .NET upraszcza proces programowej pracy z prezentacjami programu PowerPoint, dając programistom elastyczność w automatyzacji różnych zadań.
 
 ## Często zadawane pytania
 
@@ -81,7 +81,7 @@ Nie, Aspose.Slides dla .NET jest biblioteką komercyjną wymagającą ważnej li
 
 ### Jakie inne funkcjonalności oferuje Aspose.Slides dla .NET?
 
- Aspose.Slides dla .NET oferuje szeroką gamę funkcjonalności, w tym tworzenie prezentacji od podstaw, manipulowanie slajdami, dodawanie kształtów i obrazów, stosowanie formatowania i wiele innych. Możesz odwołać się do[dokumentacja](https://reference.aspose.com/slides/net/) w celu uzyskania wyczerpujących informacji.
+Aspose.Slides dla .NET oferuje szeroką gamę funkcjonalności, w tym tworzenie prezentacji od podstaw, manipulowanie slajdami, dodawanie kształtów i obrazów, stosowanie formatowania i wiele innych. Możesz odwołać się do[dokumentacja](https://reference.aspose.com/slides/net/) w celu uzyskania wyczerpujących informacji.
 
 ### Jak mogę dowiedzieć się więcej o automatyzacji programu PowerPoint za pomocą Aspose.Slides?
 

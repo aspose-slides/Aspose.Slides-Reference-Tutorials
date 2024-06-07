@@ -110,7 +110,7 @@ class Program
 
 ## Következtetés
 
-Ebben a cikkben megvizsgáltuk, hogyan konvertálhat bemutató diákat GIF formátumba az Aspose.Slides for .NET segítségével. Kitértünk a könyvtár telepítésére, a prezentáció betöltésére, a GIF beállítások testreszabására és a kivételek kezelésére. A lépésenkénti útmutató követésével és a mellékelt kódrészletek felhasználásával könnyedén integrálhatja ezt a funkciót alkalmazásaiba, és javíthatja prezentációinak vizuális vonzerejét.
+Ebben a cikkben megvizsgáltuk, hogyan konvertálhat bemutató diákat GIF formátumba az Aspose.Slides for .NET segítségével. Kitértünk a könyvtár telepítésére, a prezentáció betöltésére, a GIF beállítások testreszabására és a kivételek kezelésére. A lépésenkénti útmutató követésével és a mellékelt kódrészletek felhasználásával könnyedén integrálhatja ezt a funkciót alkalmazásaiba, és fokozhatja prezentációinak vizuális vonzerejét.
 
 ## GYIK
 

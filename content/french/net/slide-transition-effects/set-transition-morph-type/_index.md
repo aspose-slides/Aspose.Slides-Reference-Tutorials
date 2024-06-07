@@ -26,7 +26,7 @@ Commençons maintenant par définir le type de morphing de transition sur une di
 
 Tout d’abord, vous devez importer les espaces de noms nécessaires pour accéder à la fonctionnalité Aspose.Slides. Voici comment procéder :
 
-### Étape 1 : Importer les espaces de noms
+### Étape 1 : Importer des espaces de noms
 
 ```csharp
 using Aspose.Slides;

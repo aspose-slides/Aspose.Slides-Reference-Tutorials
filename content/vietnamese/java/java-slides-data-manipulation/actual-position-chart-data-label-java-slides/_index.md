@@ -10,7 +10,7 @@ url: /vi/java/data-manipulation/actual-position-chart-data-label-java-slides/
 
 ## Giới thiệu Cách lấy vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides
 
-Trong hướng dẫn này, bạn sẽ tìm hiểu cách truy xuất vị trí thực tế của nhãn dữ liệu biểu đồ bằng Aspose.Slides cho Java. Chúng ta sẽ tạo một chương trình Java để tạo bản trình bày PowerPoint có biểu đồ, tùy chỉnh nhãn dữ liệu, sau đó thêm các hình thể hiện vị trí của các nhãn dữ liệu này.
+Trong hướng dẫn này, bạn sẽ tìm hiểu cách truy xuất vị trí thực tế của nhãn dữ liệu biểu đồ bằng Aspose.Slides cho Java. Chúng tôi sẽ tạo một chương trình Java để tạo bản trình bày PowerPoint có biểu đồ, tùy chỉnh nhãn dữ liệu, sau đó thêm các hình dạng biểu thị vị trí của các nhãn dữ liệu này.
 
 ## Điều kiện tiên quyết
 

@@ -46,11 +46,11 @@ using (Presentation pres = new Presentation())
 ## Krok 3: Dostosuj tła slajdów
 Popraw atrakcyjność wizualną swoich slajdów, dostosowując ich tła. W tym przykładzie dla drugiego slajdu ustawiliśmy jednolite, cyjanowe tło.
 ```csharp
-// Utwórz tło dla drugiego slajdu
+//Utwórz tło dla drugiego slajdu
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//... (Kontynuuj dostosowywanie tła dla innych slajdów)
+// ... (Kontynuuj dostosowywanie tła dla innych slajdów)
 ```
 ## Krok 4: Dodaj pola tekstowe do slajdów
 Dołącz pola tekstowe, aby przekazać informacje na slajdach. Tutaj dodajemy prostokątne pole tekstowe do drugiego slajdu.

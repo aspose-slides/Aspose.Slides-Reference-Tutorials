@@ -101,7 +101,7 @@ Dans ce didacticiel, nous avons appris à ajouter une image d'un objet SVG prove
 
 ### Comment puis-je personnaliser la position de l'image SVG ajoutée sur la diapositive ?
 
- Vous pouvez ajuster la position de l'image SVG en modifiant les coordonnées dans le`addPictureFrame`méthode. Les paramètres`(0, 0)` représentent les coordonnées X et Y du coin supérieur gauche du cadre de l'image.
+ Vous pouvez ajuster la position de l'image SVG en modifiant les coordonnées dans le`addPictureFrame` méthode. Les paramètres`(0, 0)` représentent les coordonnées X et Y du coin supérieur gauche du cadre de l'image.
 
 ### Puis-je utiliser cette approche pour ajouter plusieurs images SVG à une seule diapositive ?
 
