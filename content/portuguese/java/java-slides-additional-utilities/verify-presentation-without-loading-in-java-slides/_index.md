@@ -41,7 +41,7 @@ Agora, vamos escrever código Java para verificar o formato da apresentação se
 // O caminho para o diretório de documentos.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Ele retornará "LoadFormat.Unknown" se o arquivo não for um formato de apresentação
+//Ele retornará "LoadFormat.Unknown" se o arquivo não for um formato de apresentação
 ```
 
  Neste código, usamos`PresentationFactory` para obter informações sobre o arquivo de apresentação, incluindo seu formato. Se o arquivo não tiver um formato de apresentação válido, ele retornará "LoadFormat.Unknown".
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // O caminho para o diretório de documentos.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Ele retornará "LoadFormat.Unknown" se o arquivo não for um formato de apresentação
+        //Ele retornará "LoadFormat.Unknown" se o arquivo não for um formato de apresentação
 ```
 
 ## Conclusão
@@ -65,7 +65,7 @@ Neste guia, exploramos como verificar uma apresentação sem carregá-la usando 
 
  Você pode baixar Aspose.Slides para Java no site[aqui](https://releases.aspose.com/slides/java/). Siga as instruções de instalação fornecidas no site para integrá-lo ao seu projeto Java.
 
-### Aspose.Slides for Java é compatível com diferentes formatos de apresentação?
+### O Aspose.Slides for Java é compatível com diferentes formatos de apresentação?
 
 Sim, Aspose.Slides for Java oferece suporte a vários formatos de apresentação, incluindo PPTX, PPT e muito mais. Você pode usá-lo para trabalhar perfeitamente com apresentações em diferentes formatos.
 

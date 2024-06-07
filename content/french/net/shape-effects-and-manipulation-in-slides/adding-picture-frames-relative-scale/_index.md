@@ -28,7 +28,7 @@ Commencez par créer un nouveau projet C# dans votre environnement de développe
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // Charger l'image à ajouter dans la collection d'images de présentation
+    //Charger l'image à ajouter dans la collection d'images de présentation
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...

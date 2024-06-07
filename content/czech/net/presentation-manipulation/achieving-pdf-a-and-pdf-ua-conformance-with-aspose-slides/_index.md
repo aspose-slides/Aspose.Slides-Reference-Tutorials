@@ -62,7 +62,7 @@ Pro shodu s PDF/UA je zásadní zajistit dostupnost. Funkce usnadnění můžete
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Přidejte podporu usnadnění pro PDF/UA
+//Přidejte podporu usnadnění pro PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Načíst prezentaci
 using var presentation = new Presentation("presentation.pptx");
 
-// Přidejte podporu usnadnění pro PDF/UA
+//Přidejte podporu usnadnění pro PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

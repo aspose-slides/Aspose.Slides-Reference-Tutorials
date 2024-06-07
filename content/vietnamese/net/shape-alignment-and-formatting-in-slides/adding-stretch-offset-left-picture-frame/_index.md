@@ -11,7 +11,7 @@ url: /vi/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các bản trình bày PowerPoint một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình thêm phần bù kéo dài ở bên trái cho khung ảnh bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này để nâng cao kỹ năng làm việc với hình ảnh và hình dạng trong bản trình bày PowerPoint của bạn.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện. Nếu không, hãy tải xuống từ[Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện. Nếu không, hãy tải xuống từ[Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net/).
 - Môi trường phát triển: Có môi trường phát triển làm việc với khả năng .NET.
 ## Nhập không gian tên
 Bắt đầu bằng cách nhập các vùng tên cần thiết trong dự án .NET của bạn:

@@ -11,7 +11,7 @@ url: /sv/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides för .NET är ett kraftfullt bibliotek som ger utvecklare möjlighet att manipulera PowerPoint-presentationer med lätthet. I den här handledningen kommer vi att utforska processen att lägga till en sträckförskjutning till vänster för en bildram med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden för att förbättra dina färdigheter i att arbeta med bilder och former i PowerPoint-presentationer.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
-- Aspose.Slides för .NET: Se till att du har biblioteket installerat. Om inte, ladda ner den från[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides för .NET: Se till att du har biblioteket installerat. Om inte, ladda ner den från[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
 - Utvecklingsmiljö: Ha en fungerande utvecklingsmiljö med .NET-funktioner.
 ## Importera namnområden
 Börja med att importera de nödvändiga namnområdena i ditt .NET-projekt:
@@ -58,7 +58,7 @@ Ange bilden för att fylla formen:
 ```csharp
 aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
 ```
-## Steg 8: Ange Stretch Offsets
+## Steg 8: Specificera Stretch Offsets
 Definiera bildförskjutningarna från motsvarande kanter på formens begränsningsram:
 ```csharp
 aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
@@ -73,7 +73,7 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
 ```
 Grattis! Du har framgångsrikt lagt till en sträckförskjutning till vänster för en bildram med Aspose.Slides för .NET.
 ## Slutsats
-I den här handledningen utforskade vi processen att manipulera bildramar i PowerPoint-presentationer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden har du fått insikter i att arbeta med bilder, former och förskjutningar.
+den här handledningen utforskade vi processen att manipulera bildramar i PowerPoint-presentationer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden har du fått insikter i att arbeta med bilder, former och förskjutningar.
 ## Vanliga frågor
 ### F: Kan jag använda sträckförskjutningar på andra former förutom rektanglar?
 S: Även om den här handledningen fokuserar på rektanglar, kan sträckförskjutningar tillämpas på olika former som stöds av Aspose.Slides.

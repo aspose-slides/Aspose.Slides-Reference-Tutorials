@@ -133,7 +133,7 @@ Có, bạn có thể sử dụng dữ liệu từ bất kỳ tệp Excel nào b�
 
 ### Tôi có thể tạo những loại biểu đồ nào khác bằng Aspose.Slides cho Java?
 
-Aspose.Slides cho Java hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ thanh, biểu đồ đường, biểu đồ phân tán, v.v. Bạn có thể chọn loại biểu đồ phù hợp nhất với nhu cầu trình bày dữ liệu của mình.
+Aspose.Slides for Java hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ thanh, biểu đồ đường, biểu đồ phân tán, v.v. Bạn có thể chọn loại biểu đồ phù hợp nhất với nhu cầu trình bày dữ liệu của mình.
 
 ### Có thể cập nhật dữ liệu biểu đồ một cách linh hoạt trong bản trình bày đang chạy không?
 

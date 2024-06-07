@@ -101,7 +101,7 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu cách thêm hình ảnh t�
 
 ### Làm cách nào để tùy chỉnh vị trí của hình ảnh SVG đã thêm trên trang chiếu?
 
- Bạn có thể điều chỉnh vị trí của hình ảnh SVG bằng cách sửa đổi tọa độ trong`addPictureFrame`phương pháp. Những thông số`(0, 0)` biểu thị tọa độ X và Y ở góc trên bên trái của khung hình.
+ Bạn có thể điều chỉnh vị trí của hình ảnh SVG bằng cách sửa đổi tọa độ trong`addPictureFrame` phương pháp. Những thông số`(0, 0)` biểu thị tọa độ X và Y ở góc trên bên trái của khung hình.
 
 ### Tôi có thể sử dụng phương pháp này để thêm nhiều hình ảnh SVG vào một trang chiếu không?
 

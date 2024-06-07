@@ -8,7 +8,7 @@ weight: 20
 url: /hu/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
 ## Bevezetés
-Üdvözöljük az Aspose.Slides for .NET lenyűgöző világában, amely átjáró a lenyűgöző prezentációk páratlan egyszerű elkészítéséhez. Ebben az oktatóanyagban az Aspose.Slides for .NET segítségével való hatékony levágási adatok beszerzésének bonyolultságába fogunk bele a prezentációs diák alakzataihoz.
+Üdvözöljük az Aspose.Slides for .NET lenyűgöző világában, amely átjáró a lenyűgöző prezentációk páratlan egyszerű elkészítéséhez. Ebben az oktatóanyagban az Aspose.Slides for .NET segítségével történő hatékony levágási adatok beszerzésének bonyolultságába fogunk bele a prezentációs diák alakzataihoz.
 ## Előfeltételek
 Mielőtt nekivágnánk ennek az izgalmas utazásnak, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
 1.  Aspose.Slides for .NET Library: Töltse le és telepítse a könyvtárat a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
@@ -47,7 +47,7 @@ Itt inicializáljuk a Presentation osztály új példányát, és betöltjük a 
 IThreeDFormatEffectiveData threeDEffectiveData = pres.Slides[0].Shapes[0].ThreeDFormat.GetEffective();
 ```
 Ez a sor lekéri az első dia első alakzatának tényleges háromdimenziós adatait.
-## 4. lépés: A ferde szögadatok megjelenítése
+## 4. lépés: A ferdeszögadatok megjelenítése
 ```csharp
 Console.WriteLine("= Effective shape's top face relief properties =");
 Console.WriteLine("Type: " + threeDEffectiveData.BevelTop.BevelType);

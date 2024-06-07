@@ -1,5 +1,5 @@
 ---
-title: Jak nastavit typ transformace přechodu na snímku pomocí Aspose.Slides
+title: Jak nastavit typ morfologie přechodu na snímku pomocí Aspose.Slides
 linktitle: Na snímku nastavte typ přeměny přechodu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak nastavit typ přechodu na snímcích pomocí Aspose.Slides pro .NET. Podrobný průvodce s příklady kódu. Vylepšete své prezentace hned teď!

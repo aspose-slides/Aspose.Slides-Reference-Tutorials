@@ -114,7 +114,7 @@ chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.Width = 3;
 Προσαρμόστε τη μορφή αριθμών για τον άξονα τιμών.
 
 ```csharp
-// Ορισμός μορφής αριθμού άξονα τιμής
+// Ρύθμιση τιμής μορφής αριθμού άξονα
 chart.Axes.VerticalAxis.IsNumberFormatLinkedToSource = false;
 chart.Axes.VerticalAxis.DisplayUnit = DisplayUnitType.Thousands;
 chart.Axes.VerticalAxis.NumberFormat = "0.0%";

@@ -88,8 +88,8 @@ In deze zelfstudie hebben we geleerd hoe u tweede plotopties kunt toevoegen aan 
 
 ###  Wat doet`PieSplitBy` control in a Pie of Pie chart?
 
- De`PieSplitBy`eigenschap bepaalt hoe het cirkeldiagram wordt gesplitst. Je kunt het op beide instellen`PieSplitType.ByPercentage` of`PieSplitType.ByValue` om het diagram respectievelijk op percentage of op een specifieke waarde te splitsen.
+ De`PieSplitBy` eigenschap bepaalt hoe het cirkeldiagram wordt gesplitst. Je kunt het op beide instellen`PieSplitType.ByPercentage` of`PieSplitType.ByValue` om het diagram respectievelijk op percentage of op een specifieke waarde te splitsen.
 
 ### Hoe stel ik de positie van de splitsing in een cirkeldiagram in?
 
- U kunt de positie van de splitsing in een cirkeldiagram instellen met behulp van de`setPieSplitPosition` methode. Pas de waarde aan om de gewenste positie op te geven.
+ kunt de positie van de splitsing in een cirkeldiagram instellen met behulp van de`setPieSplitPosition` methode. Pas de waarde aan om de gewenste positie op te geven.

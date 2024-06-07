@@ -26,7 +26,7 @@ url: /ar/java/animation-and-layout/animating-series-java-slides/
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-//إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
+// إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-//إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
+// إنشاء فئة العرض التقديمي التي تمثل ملف العرض التقديمي
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ finally
 
 ### كيف أتحكم في ترتيب سلسلة الرسوم المتحركة؟
 
- للتحكم في ترتيب سلسلة الرسوم المتحركة، استخدم`EffectTriggerType.AfterPrevious` المعلمة عند إضافة التأثيرات. سيؤدي هذا إلى بدء كل سلسلة من الرسوم المتحركة بعد انتهاء الرسوم المتحركة السابقة.
+ للتحكم في ترتيب سلسلة الرسوم المتحركة، استخدم`EffectTriggerType.AfterPrevious`المعلمة عند إضافة التأثيرات. سيؤدي هذا إلى بدء كل سلسلة من الرسوم المتحركة بعد انتهاء الرسوم المتحركة السابقة.
 
 ### هل يمكنني تطبيق رسوم متحركة مختلفة على كل سلسلة؟
 

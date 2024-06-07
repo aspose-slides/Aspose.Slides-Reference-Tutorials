@@ -28,7 +28,7 @@ Bắt đầu bằng cách tạo một dự án C# mới trong môi trường ph�
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // Tải hình ảnh cần thêm vào bộ sưu tập hình ảnh trình bày
+    //Tải hình ảnh cần thêm vào bộ sưu tập hình ảnh trình bày
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...

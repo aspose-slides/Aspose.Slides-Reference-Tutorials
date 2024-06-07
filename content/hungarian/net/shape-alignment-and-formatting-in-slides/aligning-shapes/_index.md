@@ -14,7 +14,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 -  Aspose.Slides for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Slides for .NET könyvtár. Letöltheti[itt](https://releases.aspose.com/slides/net/).
 - Fejlesztői környezet: Állítson be egy .NET fejlesztői környezetet a gépén.
 ## Névterek importálása
-.NET-alkalmazásban importálja az Aspose.Slides használatához szükséges névtereket:
+A .NET-alkalmazásban importálja az Aspose.Slides használatához szükséges névtereket:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 A .NET-hez készült Aspose.Slides segítségével az alakzatok precíz igazítása érdekében könnyedén fokozza prezentációs diákjainak vizuális vonzerejét. Ez a lépésenkénti útmutató felvértezi Önt az igazítási folyamat egyszerűsítéséhez és professzionális megjelenésű prezentációk létrehozásához szükséges ismeretekkel.
 ## GYIK
 ### Igazíthatok-e alakzatokat egy meglévő prezentációban az Aspose.Slides for .NET használatával?
- Igen, betölthet egy meglévő prezentációt a használatával`Presentation.Load` majd folytassa az alakzatok igazításával.
+ Igen, betölthet egy meglévő prezentációt a használatával`Presentation.Load`majd folytassa az alakzatok igazításával.
 ### Vannak más igazítási lehetőségek az Aspose.Slides-ben?
 Az Aspose.Slides különféle igazítási lehetőségeket kínál, beleértve az AlignTop, AlignRight, AlignBottom, AlignLeft stb.
 ### Igazíthatom az alakzatokat a dián való eloszlásuk alapján?

@@ -46,11 +46,11 @@ using (Presentation pres = new Presentation())
 ## Passaggio 3: personalizza gli sfondi delle diapositive
 Migliora l'impatto visivo delle tue diapositive personalizzandone gli sfondi. In questo esempio, impostiamo uno sfondo ciano uniforme per la seconda diapositiva.
 ```csharp
-// Crea uno sfondo per la seconda diapositiva
+//Crea uno sfondo per la seconda diapositiva
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//... (Continua a personalizzare gli sfondi per altre diapositive)
+// ... (Continua a personalizzare gli sfondi per altre diapositive)
 ```
 ## Passaggio 4: aggiungi caselle di testo alle diapositive
 Incorpora caselle di testo per trasmettere informazioni sulle diapositive. Qui aggiungiamo una casella di testo rettangolare alla seconda diapositiva.

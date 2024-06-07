@@ -8,17 +8,17 @@ weight: 13
 url: /zh/java/chart-elements/font-size-legend-java-slides/
 ---
 
-## Java 幻灯片中字体大小图例简介
+## Java 幻灯片中字体大小图例介绍
 
 在本教程中，您将学习如何使用 Aspose.Slides for Java 自定义 PowerPoint 幻灯片中图例的字体大小。我们将提供分步说明和源代码来完成此任务。
 
 ## 先决条件
 
-在开始之前，请确保您已在 Java 项目中安装并设置了 Aspose.Slides for Java 库。您可以从以下位置下载该库[这里](https://releases.aspose.com/slides/java/).
+开始之前，请确保已在 Java 项目中安装并设置了 Aspose.Slides for Java 库。您可以从以下位置下载该库[这里](https://releases.aspose.com/slides/java/).
 
-## 第 1 步：初始化演示文稿
+## 步骤 1：初始化演示文稿
 
-首先，导入必要的类并初始化 PowerPoint 演示文稿。
+首先，导入必要的类并初始化您的 PowerPoint 演示文稿。
 
 ```java
 //文档目录的路径。
@@ -26,11 +26,11 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-代替`"Your Document Directory"`与 PowerPoint 文件的实际路径。
+代替`"Your Document Directory"`使用您的 PowerPoint 文件的实际路径。
 
-## 第 2 步：添加图表
+## 步骤 2：添加图表
 
-接下来，我们将在幻灯片中添加图表并设置图例的字体大小。
+接下来，我们将在幻灯片中添加图表，并设置图例的字体大小。
 
 ```java
 try
@@ -40,9 +40,9 @@ try
 }
 ```
 
-在此代码中，我们在第一张幻灯片上创建一个聚集柱形图，并将图例文本的字体大小设置为 20 磅。您可以调整`setFontHeight`根据需要更改字体大小的值。
+在此代码中，我们在第一张幻灯片上创建了一个簇状柱形图，并将图例文本的字体大小设置为 20 磅。您可以调整`setFontHeight`值来根据需要更改字体大小。
 
-## 第 3 步：自定义轴值
+## 步骤 3：自定义轴值
 
 现在，让我们自定义图表的垂直轴值。
 
@@ -53,11 +53,11 @@ try
     chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-在这里，我们设置垂直轴的最小值和最大值。您可以根据您的数据要求修改这些值。
+在这里，我们设置垂直轴的最小值和最大值。您可以根据数据要求修改这些值。
 
-## 第 4 步：保存演示文稿
+## 步骤 4：保存演示文稿
 
-最后，将修改后的演示文稿保存到新文件中。
+最后，将修改后的演示文稿保存到新文件。
 
 ```java
     pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
@@ -68,7 +68,7 @@ finally
 }
 ```
 
-此代码将修改后的演示文稿保存为指定目录中的“output.pptx”。
+此代码将修改后的演示文稿作为“output.pptx”保存在指定目录中。
 
 ## Java 幻灯片中字体大小图例的完整源代码
 
@@ -94,7 +94,7 @@ finally
 
 ## 结论
 
-您已使用 Aspose.Slides for Java 成功自定义了 Java PowerPoint 幻灯片中图例的字体大小。您可以进一步探索 Aspose.Slides 的功能来创建交互式且具有视觉吸引力的演示文稿。
+您已成功使用 Aspose.Slides for Java 自定义 Java PowerPoint 幻灯片中图例的字体大小。您可以进一步探索 Aspose.Slides 的功能，以创建具有交互性和视觉吸引力的演示文稿。
 
 ## 常见问题解答
 
@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
-在此代码中，我们创建一个图表并将图例文本的字体大小设置为 20 磅。您可以调整`setFontHeight`值来更改字体大小。
+在此代码中，我们创建一个图表，并将图例文本的字体大小设置为 20 磅。您可以调整`setFontHeight`值来改变字体大小。
 
 ### 我可以自定义图表中图例的其他属性吗？
 
@@ -117,11 +117,11 @@ chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 chart.getLegend().setPosition(LegendPosition.Bottom);
 ```
 
-此代码将图例设置为显示在图表底部。浏览 Aspose.Slides 文档以获取更多自定义选项。
+此代码将图例设置为显示在图表底部。探索 Aspose.Slides 文档以获取更多自定义选项。
 
 ### 如何设置图表中垂直轴的最小值和最大值？
 
-要设置图表中垂直轴的最小值和最大值，可以使用以下代码：
+要设置图表垂直轴的最小值和最大值，可以使用以下代码：
 
 ```java
 chart.getAxes().getVerticalAxis().setAutomaticMinValue(false);
@@ -134,4 +134,4 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 
 ### 在哪里可以找到有关 Aspose.Slides 的更多信息和文档？
 
-您可以在 Aspose 文档网站上找到 Aspose.Slides for Java 的综合文档和 API 参考。访问[这里](https://reference.aspose.com/slides/java/)有关使用图书馆的详细信息。
+您可以在 Aspose 文档网站上找到 Aspose.Slides for Java 的全面文档和 API 参考。访问[这里](https://reference.aspose.com/slides/java/)有关使用该库的详细信息。

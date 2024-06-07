@@ -136,4 +136,4 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 }
 ```
 
-Bu kod, sunumdaki tüm özel özelliklerin adlarını ve değerlerini görüntüler.
+Bu kod, sunumdaki tüm özel özelliklerin adlarını ve değerlerini görüntüleyecektir.

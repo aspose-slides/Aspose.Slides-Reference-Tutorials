@@ -10,7 +10,7 @@ url: /pl/java/image-handling/add-image-from-svg-object-from-external-resource-in
 
 ## Wprowadzenie do dodawania obrazu z obiektu SVG z zasobu zewnętrznego w slajdach Java
 
-tym samouczku omówimy, jak dodać obraz z obiektu SVG (Scalable Vector Graphics) z zasobu zewnętrznego do slajdów Java za pomocą Aspose.Slides. Może to być cenna funkcja, jeśli chcesz włączyć do prezentacji obrazy wektorowe, zapewniając wysoką jakość obrazu. Przejdźmy do przewodnika krok po kroku.
+W tym samouczku omówimy, jak dodać obraz z obiektu SVG (Scalable Vector Graphics) z zasobu zewnętrznego do slajdów Java za pomocą Aspose.Slides. Może to być cenna funkcja, jeśli chcesz włączyć do prezentacji obrazy wektorowe, zapewniając wysoką jakość obrazu. Przejdźmy do przewodnika krok po kroku.
 
 ## Warunki wstępne
 
@@ -101,7 +101,7 @@ W tym samouczku nauczyliśmy się, jak dodać obraz z obiektu SVG z zasobu zewn�
 
 ### Jak mogę dostosować położenie dodanego obrazu SVG na slajdzie?
 
- Możesz dostosować położenie obrazu SVG, modyfikując współrzędne w pliku`addPictureFrame`metoda. Parametry`(0, 0)` reprezentują współrzędne X i Y lewego górnego rogu ramki obrazu.
+ Możesz dostosować położenie obrazu SVG, modyfikując współrzędne w pliku`addPictureFrame` metoda. Parametry`(0, 0)` reprezentują współrzędne X i Y lewego górnego rogu ramki obrazu.
 
 ### Czy mogę zastosować tę metodę, aby dodać wiele obrazów SVG do jednego slajdu?
 

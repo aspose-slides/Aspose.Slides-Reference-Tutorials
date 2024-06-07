@@ -14,7 +14,7 @@ En este tutorial, exploraremos cómo validar el diseño del gráfico en una pres
 
 ## Paso 1: inicializando la presentación
 
-Primero, necesitamos inicializar un objeto de presentación y cargar una presentación de PowerPoint existente. Reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación (`test.pptx` en este ejemplo).
+ Primero, necesitamos inicializar un objeto de presentación y cargar una presentación de PowerPoint existente. Reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación (`test.pptx` en este ejemplo).
 
 ```java
 // La ruta al directorio de documentos.
@@ -88,7 +88,7 @@ En este tutorial, profundizamos en el mundo del trabajo con gráficos en present
 
 ### ¿Cómo cambio el tipo de gráfico?
 
- Para cambiar el tipo de gráfico, simplemente reemplace`ChartType.ClusteredColumn` con el tipo de gráfico deseado en el`addChart()` método.
+ Para cambiar el tipo de gráfico, simplemente reemplace`ChartType.ClusteredColumn`con el tipo de gráfico deseado en el`addChart()` método.
 
 ### ¿Puedo personalizar los datos del gráfico?
 

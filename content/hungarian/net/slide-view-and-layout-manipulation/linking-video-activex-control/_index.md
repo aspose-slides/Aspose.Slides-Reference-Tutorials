@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## GYIK:
 
 ### Hogyan tudom megadni a linkelt videó méretét és pozícióját a dián?
- Az ActiveX vezérlőkeret méreteit és pozícióját a paraméterek segítségével állíthatja be`AddOleObjectFrame` módszer. A négy numerikus argumentum a bal felső sarok X és Y koordinátáit, illetve a keret szélességét és magasságát jelenti.
+Az ActiveX vezérlőkeret méreteit és pozícióját a paraméterek segítségével állíthatja be`AddOleObjectFrame` módszer. A négy numerikus argumentum a bal felső sarok X és Y koordinátáit, illetve a keret szélességét és magasságát jelenti.
 
 ### Linkelhetek különböző formátumú videókat ezzel a módszerrel?
 Igen, összekapcsolhat különféle formátumú videókat, amennyiben rendelkezésre áll a megfelelő ActiveX-vezérlő az adott formátumhoz. Például az ebben az útmutatóban használt ShockwaveFlash ActiveX vezérlő alkalmas Flash videókhoz (SWF). Más formátumok esetén előfordulhat, hogy más ProgID-ket kell használnia.

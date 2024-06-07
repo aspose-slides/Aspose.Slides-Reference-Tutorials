@@ -1,6 +1,6 @@
 ---
-title: Gemessene Lizenzierung in Java Slides
-linktitle: Gemessene Lizenzierung in Java Slides
+title: Maßgeschneiderte Lizenzierung in Java-Folien
+linktitle: Maßgeschneiderte Lizenzierung in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Optimieren Sie Ihre Aspose.Slides für die Java-Nutzung mit Metered Licensing. Erfahren Sie, wie Sie es einrichten und Ihren API-Verbrauch überwachen.
 type: docs
@@ -8,28 +8,28 @@ weight: 10
 url: /de/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
 
-## Einführung in die gemessene Lizenzierung in Aspose.Slides für Java
+## Einführung in die gebührenbasierte Lizenzierung in Aspose.Slides für Java
 
-Mit der getakteten Lizenzierung können Sie Ihre Nutzung der Aspose.Slides für Java-API überwachen und steuern. Dieser Leitfaden führt Sie durch den Prozess der Implementierung einer gemessenen Lizenzierung in Ihrem Java-Projekt mithilfe von Aspose.Slides. 
+Mit der gebührenpflichtigen Lizenzierung können Sie Ihre Nutzung von Aspose.Slides für Java API überwachen und steuern. Diese Anleitung führt Sie durch den Prozess der Implementierung einer gebührenpflichtigen Lizenzierung in Ihrem Java-Projekt mit Aspose.Slides. 
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-- Aspose.Slides für Java JAR-Dateien in Ihr Projekt integriert.
-- Öffentliche und private Schlüssel für die getaktete Lizenzierung, die Sie bei Aspose erhalten können.
+- Aspose.Slides für Java JAR-Dateien, die in Ihr Projekt integriert sind.
+- Öffentliche und private Schlüssel für die zählerbasierte Lizenzierung, die Sie von Aspose erhalten können.
 
 ## Implementierung einer gebührenpflichtigen Lizenzierung
 
-Führen Sie die folgenden Schritte aus, um die getaktete Lizenzierung in Aspose.Slides für Java zu verwenden:
+Um die mengengeregelte Lizenzierung in Aspose.Slides für Java zu verwenden, führen Sie die folgenden Schritte aus:
 
-###  Schritt 1: Erstellen Sie eine Instanz von`Metered` class:
+###  Schritt 1: Erstellen Sie eine Instanz des`Metered` class:
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Schritt 2: Legen Sie den gemessenen Schlüssel mit Ihren öffentlichen und privaten Schlüsseln fest:
+### Schritt 2: Legen Sie den gemessenen Schlüssel mit Ihrem öffentlichen und privaten Schlüssel fest:
 
 ```java
 try
@@ -42,10 +42,10 @@ catch (Exception ex)
 }
 ```
 
-### Schritt 3: Erhalten Sie die gemessene Datenmenge vor und nach dem Aufruf der API:
+### Schritt 3: Ermitteln Sie die gemessene Datenmenge vor und nach dem Aufruf der API:
 
 ```java
-// Erhalten Sie die gemessene Datenmenge, bevor Sie die API aufrufen
+// Abrufen der gemessenen Datenmenge vor dem Aufruf der API
 double amountBefore = Metered.getConsumptionQuantity();
 
 // Informationen anzeigen
@@ -53,7 +53,7 @@ System.out.println("Amount Consumed Before: " + amountBefore);
 
 // Rufen Sie hier die Aspose.Slides-API-Methoden auf
 
-// Erhalten Sie die gemessene Datenmenge nach dem Aufruf der API
+// Abrufen der gemessenen Datenmenge nach dem Aufruf der API
 double amountAfter = Metered.getConsumptionQuantity();
 
 // Informationen anzeigen
@@ -61,17 +61,17 @@ System.out.println("Amount Consumed After: " + amountAfter);
 ```
 ## Vollständiger Quellcode
 ```java
-// Erstellen Sie eine Instanz der CAD Metered-Klasse
+// Erstellen einer Instanz der CAD Metered-Klasse
 Metered metered = new Metered();
 try
 {
-	// Greifen Sie auf die Eigenschaft setMeteredKey zu und übergeben Sie öffentliche und private Schlüssel als Parameter
+	// Greifen Sie auf die Eigenschaft „setMeteredKey“ zu und übergeben Sie öffentliche und private Schlüssel als Parameter.
 	metered.setMeteredKey("*****", "*****");
-	// Erhalten Sie die gemessene Datenmenge, bevor Sie die API aufrufen
+	// Abrufen der gemessenen Datenmenge vor dem Aufruf der API
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Informationen anzeigen
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// Erhalten Sie die gemessene Datenmenge nach dem Aufruf der API
+	//Abrufen der gemessenen Datenmenge nach dem Aufruf der API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Informationen anzeigen
 	System.out.println("Amount Consumed After: " + amountafter);
@@ -84,26 +84,26 @@ catch (Exception ex)
 
 ## Abschluss
 
-Durch die Implementierung einer gemessenen Lizenzierung in Aspose.Slides für Java können Sie Ihre API-Nutzung effizient überwachen. Dies kann besonders nützlich sein, wenn Sie die Kosten verwalten und innerhalb der zugewiesenen Grenzen bleiben möchten.
+Durch die Implementierung einer gebührenpflichtigen Lizenzierung in Aspose.Slides für Java können Sie Ihre API-Nutzung effizient überwachen. Dies kann besonders nützlich sein, wenn Sie Kosten verwalten und innerhalb der Ihnen zugewiesenen Grenzen bleiben möchten.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie erhalte ich gebührenpflichtige Lizenzschlüssel?
 
-Sie können gebührenpflichtige Lizenzschlüssel von Aspose erhalten. Kontaktieren Sie den Support oder besuchen Sie die Website für weitere Informationen.
+Sie können gebührenpflichtige Lizenzschlüssel von Aspose erhalten. Wenden Sie sich an den Support oder besuchen Sie die Website, um weitere Informationen zu erhalten.
 
-### Ist für die Verwendung von Aspose.Slides für Java eine gebührenpflichtige Lizenz erforderlich?
+### Ist für die Verwendung von Aspose.Slides für Java eine gemessene Lizenz erforderlich?
 
-Die getaktete Lizenzierung ist optional, kann Ihnen aber dabei helfen, den Überblick über Ihre API-Nutzung zu behalten und die Kosten effektiv zu verwalten.
+Die gebührenpflichtige Lizenzierung ist optional, kann Ihnen jedoch dabei helfen, Ihre API-Nutzung im Auge zu behalten und die Kosten effektiv zu verwalten.
 
-### Kann ich die getaktete Lizenzierung mit anderen Aspose-Produkten verwenden?
+### Kann ich eine getaktete Lizenzierung mit anderen Aspose-Produkten verwenden?
 
-Ja, eine getaktete Lizenzierung ist für verschiedene Aspose-Produkte verfügbar, einschließlich Aspose.Slides für Java.
+Ja, für verschiedene Aspose-Produkte, einschließlich Aspose.Slides für Java, sind mengengeregelte Lizenzen verfügbar.
 
-### Was passiert, wenn ich mein gemessenes Limit überschreite?
+### Was passiert, wenn ich mein Messlimit überschreite?
 
-Wenn Sie Ihr gemessenes Limit überschreiten, müssen Sie möglicherweise Ihre Lizenz aktualisieren oder sich an Aspose wenden, um Unterstützung zu erhalten.
+Wenn Sie Ihr Messlimit überschreiten, müssen Sie möglicherweise Ihre Lizenz aktualisieren oder sich für Unterstützung an Aspose wenden.
 
-### Benötige ich für die getaktete Lizenzierung eine Internetverbindung?
+### Benötige ich für die zählerbasierte Lizenzierung eine Internetverbindung?
 
-Ja, zum Einrichten und Validieren der gebührenpflichtigen Lizenzierung ist eine Internetverbindung erforderlich.
+Ja, zum Einrichten und Validieren einer zählerabhängigen Lizenz ist eine Internetverbindung erforderlich.

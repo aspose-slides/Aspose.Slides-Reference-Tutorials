@@ -75,7 +75,7 @@ workbook.calculateFormulas();
 
 Ez a lépés biztosítja, hogy a diagram tükrözze a képletek alapján frissített értékeket.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse a módosított prezentációt egy fájlba.
 
@@ -83,7 +83,7 @@ Végül mentse a módosított prezentációt egy fájlba.
 presentation.save(outpptxFile, SaveFormat.Pptx);
 ```
 
-## A Java Slides diagramadat-cellaképleteinek teljes forráskódja
+## Java Slides diagramadat-cellaképleteinek teljes forráskódja
 
 ```java
 String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";

@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 이 단계에서는 특정 데이터 포인트를 맞춤설정합니다. 여기서는 데이터 포인트의 색상을 변경하고 레이블 설정을 구성합니다.
 
 ```java
-// 데이터 포인트 0 사용자 정의
+//데이터 포인트 0 사용자 정의
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ finally
 
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
 
- Aspose.Slides for Java 사용에 대한 더 많은 예제와 자세한 문서는 다음 페이지에서 찾을 수 있습니다.[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 웹사이트.
+Aspose.Slides for Java 사용에 대한 더 많은 예제와 자세한 문서는 다음 페이지에서 찾을 수 있습니다.[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 웹사이트.

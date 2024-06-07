@@ -46,7 +46,7 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-I det här exemplet har vi ställt in diagrammet så att dess layoutmåltyp är "Inre", vilket betyder att det kommer att placeras och dimensioneras i förhållande till det inre området av bilden.
+I det här exemplet har vi ställt in diagrammet så att dess layoutmåltyp är "Inre", vilket betyder att den kommer att placeras och dimensioneras i förhållande till det inre området av bilden.
 
 ## Steg 4: Spara presentationen
 

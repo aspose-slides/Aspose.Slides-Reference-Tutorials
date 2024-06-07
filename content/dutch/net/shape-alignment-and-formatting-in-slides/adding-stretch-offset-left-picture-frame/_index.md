@@ -11,7 +11,7 @@ url: /nl/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties gemakkelijk kunnen manipuleren. In deze zelfstudie verkennen we het proces van het toevoegen van een rekverschuiving aan de linkerkant voor een fotolijst met behulp van Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding om uw vaardigheden in het werken met afbeeldingen en vormen in PowerPoint-presentaties te verbeteren.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-- Aspose.Slides voor .NET: Zorg ervoor dat de bibliotheek is geïnstalleerd. Als dit niet het geval is, downloadt u deze van de[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides voor .NET: Zorg ervoor dat de bibliotheek is geïnstalleerd. Als dit niet het geval is, downloadt u deze van de[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
 - Ontwikkelomgeving: Zorg voor een werkende ontwikkelomgeving met .NET-mogelijkheden.
 ## Naamruimten importeren
 Begin met het importeren van de benodigde naamruimten in uw .NET-project:

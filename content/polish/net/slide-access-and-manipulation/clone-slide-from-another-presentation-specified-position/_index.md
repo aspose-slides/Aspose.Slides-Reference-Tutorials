@@ -23,7 +23,7 @@ Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące 
 
 Aspose.Slides dla .NET to bogata w funkcje biblioteka, która umożliwia programistom tworzenie, modyfikowanie i manipulowanie prezentacjami programu PowerPoint bez konieczności korzystania z pakietu Microsoft Office. Zapewnia szeroką gamę funkcji, w tym klonowanie slajdów, manipulację tekstem, formatowanie i wiele innych.
 
-## 2. Ładowanie prezentacji źródła i miejsca docelowego
+## 2. Ładowanie prezentacji źródłowej i docelowej
 
 Aby rozpocząć, utwórz nowy projekt C# w preferowanym środowisku programistycznym i dodaj odniesienia do biblioteki Aspose.Slides for .NET. Następnie użyj poniższego kodu, aby załadować prezentacje źródłowe i docelowe:
 

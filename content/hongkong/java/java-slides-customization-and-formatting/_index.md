@@ -34,7 +34,7 @@ Aspose.Slides for Java 是一個強大且多功能的函式庫，讓 Java 開發
 
 ## Java 投影片自訂與格式設定教學課程
 ### [在 Java 投影片中新增自訂行](./adding-custom-lines-java-slides/)
-使用自訂行增強您的 Java 投影片。使用 Aspose.Slides for Java 的逐步指南。了解在簡報中添加和自訂線條以獲得有影響力的視覺效果。
+使用自訂線條增強您的 Java 投影片。使用 Aspose.Slides for Java 的逐步指南。了解在簡報中添加和自訂線條以獲得有影響力的視覺效果。
 ### [Java 投影片中圖表的字型屬性](./font-properties-for-chart-java-slides/)
 使用 Aspose.Slides for Java 增強 Java 投影片中的圖表字體屬性。自訂字體大小、樣式和顏色，以獲得有影響力的簡報。
 ### [Java 投影片中單一圖例的字體屬性](./font-properties-individual-legend-java-slides/)

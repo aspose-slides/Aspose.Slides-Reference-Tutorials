@@ -14,7 +14,7 @@ Dans ce didacticiel, nous explorerons comment valider la disposition du graphiqu
 
 ## Étape 1 : initialisation de la présentation
 
-Tout d’abord, nous devons initialiser un objet de présentation et charger une présentation PowerPoint existante. Remplacer`"Your Document Directory"` avec le chemin réel de votre fichier de présentation (`test.pptx` dans cet exemple).
+ Tout d’abord, nous devons initialiser un objet de présentation et charger une présentation PowerPoint existante. Remplacer`"Your Document Directory"` avec le chemin réel de votre fichier de présentation (`test.pptx` dans cet exemple).
 
 ```java
 // Le chemin d'accès au répertoire des documents.
@@ -32,7 +32,7 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartTyp
 
 ## Étape 3 : validation de la mise en page du graphique
 
- Maintenant, nous allons valider la disposition du graphique à l'aide du`validateChartLayout()` méthode. Cela garantit que le graphique est correctement disposé dans la diapositive.
+ Maintenant, nous allons valider la présentation du graphique à l'aide du`validateChartLayout()` méthode. Cela garantit que le graphique est correctement disposé dans la diapositive.
 
 ```java
 chart.validateChartLayout();
@@ -88,7 +88,7 @@ Dans ce didacticiel, nous avons plongé dans le monde de l'utilisation de graphi
 
 ### Comment changer le type de graphique ?
 
- Pour changer le type de graphique, remplacez simplement`ChartType.ClusteredColumn` avec le type de graphique souhaité dans le`addChart()` méthode.
+ Pour changer le type de graphique, remplacez simplement`ChartType.ClusteredColumn`avec le type de graphique souhaité dans le`addChart()` méthode.
 
 ### Puis-je personnaliser les données du graphique ?
 

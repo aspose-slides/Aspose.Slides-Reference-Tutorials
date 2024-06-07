@@ -103,4 +103,4 @@ Aspose.Slides for Java มีคุณสมบัติด้านความ
 
 ### ฉันจะหาแหล่งข้อมูลเพิ่มเติมและเอกสารประกอบสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/) . นอกจากนี้ คุณสามารถดาวน์โหลดไลบรารี่ได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+ คุณสามารถเข้าถึงเอกสารที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/) - นอกจากนี้ คุณสามารถดาวน์โหลดไลบรารี่ได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).

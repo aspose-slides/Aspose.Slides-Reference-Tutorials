@@ -114,7 +114,7 @@ Zpracování chyb je důležité k zajištění toho, aby vaše aplikace zpracov
 
 ## Další funkce
 
- Aspose.Slides for .NET nabízí širokou škálu dalších funkcí, jako je přidávání textu, tvarů, animací a dalších do vašich prezentací. Další informace najdete v dokumentaci:[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net).
+ Aspose.Slides for .NET nabízí širokou škálu dalších funkcí, jako je přidávání textu, tvarů, animací a dalších do vašich prezentací. Další informace naleznete v dokumentaci:[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net).
 
 ## Závěr
 

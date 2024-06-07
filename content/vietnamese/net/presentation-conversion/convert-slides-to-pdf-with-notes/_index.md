@@ -97,4 +97,4 @@ Có, Aspose.Slides for .NET hỗ trợ nhiều định dạng đầu ra khác nh
 
  Có, bạn có thể mua giấy phép tạm thời tại[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
-Tóm lại, bằng cách sử dụng Aspose.Slides cho .NET, bạn có thể dễ dàng chuyển đổi các slide PowerPoint sang định dạng PDF mà không có ghi chú. Đây là một công cụ có giá trị dành cho những chuyên gia cần chia sẻ bài thuyết trình với đồng nghiệp và khách hàng trong khi vẫn đảm bảo rằng bối cảnh quan trọng không bị bỏ sót.
+Tóm lại, bằng cách sử dụng Aspose.Slides cho .NET, bạn có thể dễ dàng chuyển đổi các slide PowerPoint sang định dạng PDF mà không có ghi chú. Đây là một công cụ có giá trị dành cho các chuyên gia cần chia sẻ bài thuyết trình với đồng nghiệp và khách hàng trong khi vẫn đảm bảo rằng bối cảnh quan trọng không bị mất.

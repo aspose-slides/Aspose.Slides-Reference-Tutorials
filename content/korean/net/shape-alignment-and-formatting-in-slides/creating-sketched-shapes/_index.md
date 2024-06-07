@@ -73,4 +73,4 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 ### 4. .NET용 Aspose.Slides를 어떻게 구매할 수 있나요?
  .NET용 Aspose.Slides를 구입하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
 ### 5. 임시 라이센스를 제공합니까?
- 예, 임시 라이센스를 사용할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ 예, 임시 라이선스를 사용할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

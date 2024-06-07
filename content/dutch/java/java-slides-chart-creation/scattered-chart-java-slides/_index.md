@@ -56,7 +56,7 @@ Laten we nu de gegevens voor ons spreidingsdiagram voorbereiden. We voegen twee 
 // De standaard werkbladindex voor diagramgegevens ophalen
 int defaultWorksheetIndex = 0;
 
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Demoserie verwijderen
@@ -66,7 +66,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 
-// Neem de eerste kaartenserie
+// Neem de eerste kaartenreeks
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
 // Voeg gegevenspunten toe aan de eerste reeks
@@ -78,7 +78,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10); // Wijzig de markeringsgrootte
 series.getMarker().setSymbol(MarkerStyleType.Star); // Markeringssymbool wijzigen
 
-// Neem de tweede kaartenserie
+// Neem de tweede kaartenreeks
 series = chart.getChartData().getSeries().get_Item(1);
 
 // Voeg gegevenspunten toe aan de tweede reeks
@@ -116,14 +116,14 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // De standaard werkbladindex voor diagramgegevens ophalen
 int defaultWorksheetIndex = 0;
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Demoserie verwijderen
 chart.getChartData().getSeries().clear();
 // Nieuwe serie toevoegen
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
-// Neem de eerste kaartenserie
+// Neem de eerste kaartenreeks
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 // Voeg daar een nieuw punt (1:3) toe.
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
@@ -134,13 +134,13 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 // De kaartreeksmarkering wijzigen
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
-// Neem de tweede kaartenreeks
+// Neem de tweede kaartenserie
 series = chart.getChartData().getSeries().get_Item(1);
 // Voeg daar een nieuw punt (5:2) toe.
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Nieuw punt toevoegen (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Nieuw punt toevoegen (2:2)
+// Nieuw punt toevoegen (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Nieuw punt toevoegen (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ In deze zelfstudie hebben we u door het proces geleid van het maken van een spre
 
 ### Hoe kan ik het diagramtype wijzigen?
 
- Om het diagramtype te wijzigen, gebruikt u de`setType` methode voor de kaartserie en geef het gewenste kaarttype op. Bijvoorbeeld,`series.setType(ChartType.Line)` zou de reeks veranderen in een lijndiagram.
+ Om het diagramtype te wijzigen, gebruikt u de`setType`methode voor de kaartserie en geef het gewenste kaarttype op. Bijvoorbeeld,`series.setType(ChartType.Line)` zou de reeks veranderen in een lijndiagram.
 
 ### Hoe pas ik de grootte en stijl van de marker aan?
 

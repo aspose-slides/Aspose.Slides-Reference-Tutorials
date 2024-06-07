@@ -16,7 +16,7 @@ Bu eğitimde Aspose.Slides for Java API'sini kullanarak şifre korumalı bir sun
 
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Slides for Java Library: Aspose.Slides for Java kütüphanesini indirip yüklediğinizden emin olun. adresinden temin edebilirsiniz.[Web sitesi](https://products.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Aspose.Slides for Java kütüphanesini indirip yüklediğinizden emin olun. adresinden temin edebilirsiniz.[Web sitesi](https://products.aspose.com/slides/java/).
 
 2.  Java Geliştirme Ortamı: Henüz yapmadıysanız sisteminizde bir Java geliştirme ortamı kurun. Java'yı şuradan indirebilirsiniz:[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // "Pass"ı sunum şifrenizle değiştirin
 
 ## 3. Adım: Sunuyu açın
 
- Şimdi parola korumalı sunumu aşağıdaki düğmeyi kullanarak açacaksınız:`Presentation` Dosya yolunu ve yükleme seçeneklerini parametre olarak alan sınıf yapıcısı.
+ Şimdi parola korumalı sunumu aşağıdaki düğmeyi kullanarak açacaksınız:`Presentation`Dosya yolunu ve yükleme seçeneklerini parametre olarak alan sınıf yapıcısı.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -96,7 +96,7 @@ Bu eğitimde, Aspose.Slides for Java kütüphanesini kullanarak Java'da şifre k
 
 ### Bir sunumun şifresini nasıl ayarlayabilirim?
 
-Bir sunumun parolasını ayarlamak için`loadOptions.setPassword("password")` yöntem, nerede`"password"` istediğiniz şifreyle değiştirilmelidir.
+ Bir sunumun parolasını ayarlamak için`loadOptions.setPassword("password")` yöntem, nerede`"password"` istediğiniz şifreyle değiştirilmelidir.
 
 ### PPT ve PPTX gibi farklı formatlardaki sunumları açabilir miyim?
 

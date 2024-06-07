@@ -11,7 +11,7 @@ url: /zh-hant/net/image-and-video-manipulation-in-slides/creating-thumbnail-smar
 在動態簡報領域，Aspose.Slides for .NET 是一款功能強大的工具，它為開發人員提供了以程式設計方式操作和增強 PowerPoint 簡報的能力。一個有趣的功能是能夠為 SmartArt Child Notes 產生縮圖，為您的簡報增添一層視覺吸引力。本逐步指南將引導您完成使用 Aspose.Slides for .NET 為 SmartArt Child Notes 建立縮圖的過程。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
-- Aspose.Slides for .NET：確保您已將 Aspose.Slides 庫整合到您的 .NET 專案中。如果沒有，請從以下位置下載[發布頁面](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：確保您已將 Aspose.Slides 庫整合到您的 .NET 專案中。如果沒有，請從以下位置下載[發布頁面](https://releases.aspose.com/slides/net/).
 - 開發環境：建構有效的.NET開發環境，對C#程式設計有基本的了解。
 - 範例簡報：建立或取得包含帶有子註解的 SmartArt 的 PowerPoint 簡報以進行測試。
 ## 導入命名空間

@@ -8,18 +8,18 @@ weight: 25
 url: /zh/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
 
-## 在Aspose.Slides for Java中设置数据标签标注的简介
+## Aspose.Slides for Java 中数据标签标注设置简介
 
-在本教程中，我们将演示如何使用 Aspose.Slides for Java 在图表中设置数据标签的标注。标注对于突出显示图表中的特定数据点非常有用。我们将逐步浏览代码并提供必要的源代码。
+在本教程中，我们将演示如何使用 Aspose.Slides for Java 设置图表中数据标签的标注。标注可用于突出显示图表中的特定数据点。我们将逐步介绍代码并提供必要的源代码。
 
 ## 先决条件
 
-- 您应该安装 Aspose.Slides for Java。
+- 您应该已经安装了 Aspose.Slides for Java。
 - 创建一个 Java 项目并将 Aspose.Slides 库添加到您的项目中。
 
-## 第 1 步：创建演示文稿并添加图表
+## 步骤 1：创建演示文稿并添加图表
 
-首先，我们需要创建一个演示文稿并将图表添加到幻灯片中。确保更换`"Your Document Directory"`与文档目录的实际路径。
+首先，我们需要创建一个演示文稿并在幻灯片中添加图表。确保替换`"Your Document Directory"`使用您的文档目录的实际路径。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -28,7 +28,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## 第 2 步：配置图表
+## 步骤 2：配置图表
 
 接下来，我们将通过设置图例、系列和类别等属性来配置图表。
 
@@ -53,7 +53,7 @@ while (categoryIndex < 15) {
     chart.getChartData().getCategories().add(workBook.getCell(0, categoryIndex + 1, 0, "CATEGORY " + categoryIndex));
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
-        //在此添加数据点
+        //在此处添加数据点
         //...
         i++;
     }
@@ -61,9 +61,9 @@ while (categoryIndex < 15) {
 }
 ```
 
-## 第 3 步：自定义数据标签
+## 步骤 3：自定义数据标签
 
-现在，我们将自定义数据标签，包括为最后一个系列设置标注。
+现在，我们将自定义数据标签，包括设置最后一个系列的标注。
 
 ```java
 int i = 0;
@@ -88,15 +88,15 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## 第 4 步：保存演示文稿
+## 步骤 4：保存演示文稿
 
-最后，使用配置的图表保存演示文稿。
+最后，保存配置好的图表的演示文稿。
 
 ```java
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-现在，您已经使用 Aspose.Slides for Java 成功设置了图表中数据标签的标注。根据您的具体图表和数据要求自定义代码。
+现在，您已成功使用 Aspose.Slides for Java 设置图表中数据标签的标注。根据您的特定图表和数据要求自定义代码。
 
 ## 在 Java 幻灯片中设置数据标签标注的完整源代码
 
@@ -146,7 +146,7 @@ while (categoryIndex < 15)
 			lbl.getDataLabelFormat().setShowValue(false);
 			lbl.getDataLabelFormat().setShowCategoryName(true);
 			lbl.getDataLabelFormat().setShowSeriesName(false);
-			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
+			//lbl.获取数据标签格式()。设置显示标签为数据调用(true);
 			lbl.getDataLabelFormat().setShowLeaderLines(true);
 			lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 			chart.validateChartLayout();
@@ -162,7 +162,7 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## 结论
 
-在本教程中，我们探索了如何使用 Aspose.Slides for Java 在图表中设置数据标签的标注。标注是强调图表和演示文稿中特定数据点的宝贵工具。我们提供了分步指南以及源代码来帮助您实现此自定义。
+在本教程中，我们探索了如何使用 Aspose.Slides for Java 设置图表中数据标签的标注。标注是强调图表和演示文稿中特定数据点的宝贵工具。我们提供了分步指南以及源代码来帮助您实现此自定义。
 
 ## 常见问题解答
 
@@ -183,16 +183,16 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### 如何启用或禁用数据标签的标注？
 
-要启用或禁用数据标签的标注，请使用`setShowLabelAsDataCallout`方法。将其设置为`true`启用标注和`false`禁用它们。
+要启用或禁用数据标签的标注，请使用`setShowLabelAsDataCallout`方法。将其设置为`true`启用标注和`false`来禁用它们。
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); //启用标注
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); //禁用标注
 ```
 
-### 我可以自定义数据标签的引导线吗？
+### 我可以自定义数据标签的引出线吗？
 
-是的，您可以使用线条样式、颜色和宽度等属性自定义数据标签的引导线。例如：
+是的，您可以使用线条样式、颜色和宽度等属性自定义数据标签的引线。例如：
 
 ```java
 lbl.getDataLabelFormat().setShowLeaderLines(true); //启用引导线
@@ -202,4 +202,4 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-这些是 Aspose.Slides for Java 中数据标签和标注的一些常见自定义选项。您可以根据您的特定需求进一步定制外观。
+这些是 Aspose.Slides for Java 中数据标签和标注的一些常见自定义选项。您可以进一步根据您的特定需求定制外观。

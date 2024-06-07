@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## ขั้นตอนที่ 5: กำหนดรูปแบบการไล่ระดับสี
 
- ในขั้นตอนนี้ คุณจะต้องระบุรูปแบบการไล่ระดับสี คุณสามารถปรับแต่งการไล่ระดับสีได้ตามความต้องการของคุณ นี่เราใช้`TileFlip.FlipBoth` เพื่อสร้างเอฟเฟกต์ที่น่าดึงดูดสายตา
+ในขั้นตอนนี้ คุณจะต้องระบุรูปแบบการไล่ระดับสี คุณสามารถปรับแต่งการไล่ระดับสีได้ตามความต้องการของคุณ นี่เราใช้`TileFlip.FlipBoth` เพื่อสร้างเอฟเฟกต์ที่น่าดึงดูดสายตา
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

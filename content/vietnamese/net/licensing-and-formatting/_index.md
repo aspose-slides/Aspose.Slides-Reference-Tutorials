@@ -10,7 +10,7 @@ url: /vi/net/licensing-and-formatting/
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn Cấp phép và định dạng Aspose.Slides. Trong loạt bài này, chúng ta sẽ đi sâu vào các khía cạnh quan trọng của quản lý cấp phép và tối ưu hóa định dạng bằng cách sử dụng API Aspose.Slides mạnh mẽ cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới sử dụng Aspose.Slides, những hướng dẫn này đều được thiết kế để trang bị cho bạn kiến thức và kỹ năng cần thiết để làm việc hiệu quả với giấy phép và tạo các bài thuyết trình hấp dẫn về mặt hình ảnh.
+Chào mừng bạn đến với hướng dẫn Cấp phép và định dạng Aspose.Slides. Trong loạt bài này, chúng ta sẽ đi sâu vào các khía cạnh quan trọng của quản lý cấp phép và tối ưu hóa định dạng bằng cách sử dụng API Aspose.Slides mạnh mẽ cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới sử dụng Aspose.Slides, những hướng dẫn này đều được thiết kế để trang bị cho bạn kiến thức và kỹ năng cần thiết để làm việc hiệu quả với giấy phép và tạo các bài thuyết trình hấp dẫn trực quan.
 
 ### Điều hướng các thách thức cấp phép
 

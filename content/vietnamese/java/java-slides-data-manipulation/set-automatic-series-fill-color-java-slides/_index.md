@@ -71,7 +71,7 @@ Mã này đảm bảo rằng màu tô của chuỗi được đặt thành tự 
 Để lưu bản trình bày, hãy sử dụng đoạn mã sau:
 
 ```java
-//Ghi tập tin trình bày vào đĩa
+// Ghi tập tin trình bày vào đĩa
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Ghi tập tin trình bày vào đĩa
+	// Ghi tập tin trình bày vào đĩa
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

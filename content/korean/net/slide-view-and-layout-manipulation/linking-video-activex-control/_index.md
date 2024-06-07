@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## 자주 묻는 질문:
 
 ### 슬라이드에 링크된 동영상의 크기와 위치를 어떻게 지정하나요?
- 매개변수를 사용하여 ActiveX 제어 프레임의 크기와 위치를 조정할 수 있습니다.`AddOleObjectFrame` 방법. 4개의 숫자 인수는 각각 왼쪽 상단 모서리의 X 및 Y 좌표와 프레임의 너비 및 높이를 나타냅니다.
+매개변수를 사용하여 ActiveX 제어 프레임의 크기와 위치를 조정할 수 있습니다.`AddOleObjectFrame` 방법. 4개의 숫자 인수는 각각 왼쪽 상단 모서리의 X 및 Y 좌표와 프레임의 너비 및 높이를 나타냅니다.
 
 ### 이 접근 방식을 사용하여 다양한 형식의 비디오를 연결할 수 있습니까?
 예, 해당 형식에 적합한 ActiveX 컨트롤을 사용할 수 있는 한 다양한 형식의 비디오를 연결할 수 있습니다. 예를 들어, 이 가이드에 사용된 ShockwaveFlash ActiveX 컨트롤은 Flash 비디오(SWF)에 적합합니다. 다른 형식의 경우 다른 ProgID를 사용해야 할 수도 있습니다.

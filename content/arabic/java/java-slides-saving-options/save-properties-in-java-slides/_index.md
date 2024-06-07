@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-// إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف PPT
+//إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف PPT
 Presentation presentation = new Presentation();
 try
 {

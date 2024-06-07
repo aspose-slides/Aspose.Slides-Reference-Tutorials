@@ -87,7 +87,7 @@ File.WriteAllBytes(outMediaPath, audio);
 
 .NET용 Aspose.Slides를 사용하면 PowerPoint 프레젠테이션의 멀티미디어 요소를 쉽게 사용할 수 있습니다. 이 튜토리얼에서는 프레젠테이션에서 오디오를 추출하는 방법을 단계별로 배웠습니다. 올바른 도구와 약간의 C# 지식만 있으면 프레젠테이션을 향상하고 매력적인 멀티미디어 콘텐츠를 만들 수 있습니다.
 
- 질문이 있거나 추가 지원이 필요한 경우, 주저하지 말고 다음 연락처로 문의하세요.[Aspose.Slides 지원 포럼](https://forum.aspose.com/).
+ 질문이 있거나 추가 지원이 필요한 경우 주저하지 말고[Aspose.Slides 지원 포럼](https://forum.aspose.com/).
 
 ## 자주 묻는 질문(FAQ)
 

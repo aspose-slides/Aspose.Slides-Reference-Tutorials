@@ -54,7 +54,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 
 Ez a lépés "Fade" animációs effektust ad a teljes diagramhoz, így az az előző animáció után jelenik meg.
 
-Ezután animációt adunk az egyes elemekhez a diagram minden kategóriáján belül. Itt történik az igazi varázslat.
+Ezután animációt adunk az egyes elemekhez a diagram minden kategóriájában. Itt történik az igazi varázslat.
 
 ## 3. lépés: Animálja az egyes elemeket
 
@@ -93,10 +93,10 @@ A folyamat megismétlődik az 1. kategória esetében, animálva annak egyes ele
 
 Ugyanez a folyamat folytatódik a 2. kategória esetében is, elemeit külön-külön animálva.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 ```csharp
-//Írja a bemutató fájlt lemezre
+// Írja a bemutató fájlt lemezre
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

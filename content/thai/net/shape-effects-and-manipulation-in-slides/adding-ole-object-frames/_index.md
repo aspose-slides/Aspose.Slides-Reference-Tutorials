@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## ขั้นตอนที่ 4: เพิ่มรูปร่างกรอบวัตถุ OLE
 ```csharp
-// เพิ่มรูปร่าง OLE Object Frame
+//เพิ่มรูปร่าง OLE Object Frame
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ### ถาม: ฉันสามารถปรับแต่งลักษณะที่ปรากฏของ OLE Object Frame ที่ฝังไว้ได้หรือไม่
 ตอบ: แน่นอน คุณสามารถปรับขนาด ตำแหน่ง และคุณสมบัติอื่นๆ ของ OLE Object Frame ได้ตามความต้องการของคุณ
 ### ถาม: ฉันจะขอความช่วยเหลือได้ที่ไหนหากฉันเผชิญกับความท้าทายระหว่างการดำเนินการ
- ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนและคำแนะนำจากชุมชน
+ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนและคำแนะนำจากชุมชน

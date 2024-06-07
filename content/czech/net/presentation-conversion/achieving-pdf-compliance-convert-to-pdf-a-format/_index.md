@@ -14,9 +14,9 @@ V oblasti správy dokumentů a tvorby prezentací je zásadní zajistit soulad s
 
 ## Předpoklady
 
-Než se pustíte do procesu převodu, ujistěte se, že máte splněny následující předpoklady:
+Než se ponoříte do procesu převodu, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.Slides for .NET: Ujistěte se, že máte v projektu .NET nainstalovanou knihovnu Aspose.Slides. Pokud ne, můžete[stáhněte si jej zde](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Ujistěte se, že máte v projektu .NET nainstalovanou knihovnu Aspose.Slides. Pokud ne, můžete[stáhněte si to zde](https://releases.aspose.com/slides/net/).
 
 - Dokument k převodu: Měli byste mít prezentaci PowerPoint (PPTX), kterou chcete převést do formátu PDF/A.
 
@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- V tomto fragmentu kódu nahraďte`"Your Document Directory"`se skutečnou cestou k adresáři dokumentů a`"YourPresentation.pptx"` s názvem vaší PowerPointové prezentace.
+ V tomto fragmentu kódu nahraďte`"Your Document Directory"` se skutečnou cestou k adresáři dokumentů a`"YourPresentation.pptx"` s názvem vaší PowerPointové prezentace.
 
 ### Krok 3: Nakonfigurujte možnosti PDF
 

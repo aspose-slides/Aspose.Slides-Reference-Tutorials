@@ -26,7 +26,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-//Instantieer de klasse Presentatie die een presentatiebestand vertegenwoordigt
+// Instantieer de klasse Presentatie die een presentatiebestand vertegenwoordigt
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-//Instantieer de klasse Presentatie die een presentatiebestand vertegenwoordigt
+// Instantieer de klasse Presentatie die een presentatiebestand vertegenwoordigt
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -106,13 +106,13 @@ finally
 
 ## Conclusie
 
-hebt met succes series geanimeerd in een PowerPoint-diagram met Aspose.Slides voor Java. Dit kan uw presentaties aantrekkelijker en visueel aantrekkelijker maken. Ontdek meer animatieopties en verfijn uw presentaties indien nodig.
+U hebt met succes series geanimeerd in een PowerPoint-diagram met Aspose.Slides voor Java. Dit kan uw presentaties aantrekkelijker en visueel aantrekkelijker maken. Ontdek meer animatieopties en verfijn uw presentaties indien nodig.
 
 ## Veelgestelde vragen
 
 ### Hoe bepaal ik de volgorde van serie-animaties?
 
- Om de volgorde van serie-animaties te bepalen, gebruikt u de`EffectTriggerType.AfterPrevious` parameter bij het toevoegen van de effecten. Hierdoor begint elke serie-animatie nadat de vorige is afgelopen.
+ Om de volgorde van serie-animaties te bepalen, gebruikt u de`EffectTriggerType.AfterPrevious`parameter bij het toevoegen van de effecten. Hierdoor begint elke serie-animatie nadat de vorige is afgelopen.
 
 ### Kan ik op elke serie verschillende animaties toepassen?
 
@@ -124,4 +124,4 @@ U kunt de lus in stap 3 uitbreiden om animaties toe te voegen voor alle reeksen 
 
 ### Hoe kan ik de duur en vertraging van de animatie aanpassen?
 
-kunt de duur en vertraging van de animatie aanpassen door eigenschappen voor de animatie-effecten in te stellen. Controleer de Aspose.Slides for Java-documentatie voor details over beschikbare aanpassingsopties.
+U kunt de duur en vertraging van de animatie aanpassen door eigenschappen voor de animatie-effecten in te stellen. Controleer de Aspose.Slides for Java-documentatie voor details over beschikbare aanpassingsopties.

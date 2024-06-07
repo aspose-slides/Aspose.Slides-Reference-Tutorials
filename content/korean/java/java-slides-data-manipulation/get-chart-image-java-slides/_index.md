@@ -75,7 +75,7 @@ Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트 이미지�
 
 ### Java용 Aspose.Slides를 어떻게 설치하나요?
 
- Java용 Aspose.Slides 설치는 간단합니다. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/)설명서에 제공된 설치 지침을 따르세요.
+ Java용 Aspose.Slides 설치는 간단합니다. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/) 설명서에 제공된 설치 지침을 따르세요.
 
 ### 이미지를 얻기 전에 차트를 사용자 정의할 수 있나요?
 
@@ -91,4 +91,4 @@ Aspose.Slides for Java는 슬라이드 생성, 텍스트 조작, 모양 편집 �
 
 ### 차트 이미지를 다른 형식으로 저장할 수 있나요?
 
-틀림없이! 에서 적절한 파일 확장자를 지정하여 차트 이미지를 JPEG, GIF 등 다양한 형식으로 저장할 수 있습니다.`ImageIO.write` 방법.
+ 틀림없이! 에서 적절한 파일 확장자를 지정하여 차트 이미지를 JPEG, GIF 등 다양한 형식으로 저장할 수 있습니다.`ImageIO.write` 방법.

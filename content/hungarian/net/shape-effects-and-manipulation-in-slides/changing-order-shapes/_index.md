@@ -67,6 +67,6 @@ V: Igen, az Aspose.Slides for .NET Windows és Linux környezetekkel egyaránt k
 ### K: Elérhető ingyenes próbaverzió az Aspose.Slides for .NET számára?
  V: Igen, felfedezheti a funkciókat a[ingyenes próbaverzió](https://releases.aspose.com/) elérhető az Aspose.Slides weboldalán.
 ### K: Hol találhatok támogatást, vagy hol tehetek fel kérdéseket az Aspose.Slides for .NET-hez kapcsolódóan?
- V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) támogatást kapni és kapcsolatba lépni a közösséggel.
+V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) támogatást kapni és kapcsolatba lépni a közösséggel.
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for .NET számára?
  V: Megszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) értékelési célokra.

@@ -74,7 +74,7 @@ A to je vše! Úspěšně jste odstranili poznámky ze všech snímků v prezent
 
 ## Závěr
 
-Odstranění poznámek ze snímků aplikace PowerPoint vám může pomoci prezentovat publiku čistou a profesionálně vypadající prezentaci. Aspose.Slides for .NET dělá tento úkol přímočarým a umožňuje vám snadno manipulovat s prezentacemi v PowerPointu. Podle kroků uvedených v této příručce můžete rychle odstranit poznámky ze všech snímků v prezentaci, čímž zvýšíte její jasnost a vizuální přitažlivost.
+Odstranění poznámek ze snímků aplikace PowerPoint vám může pomoci prezentovat publiku čistou a profesionálně vypadající prezentaci. Aspose.Slides for .NET dělá tento úkol přímočarým a umožňuje vám snadno manipulovat s prezentacemi v PowerPointu. Podle kroků uvedených v této příručce můžete rychle odstranit poznámky ze všech snímků prezentace, čímž zvýšíte její jasnost a vizuální přitažlivost.
 
 ## Často kladené otázky (FAQ)
 

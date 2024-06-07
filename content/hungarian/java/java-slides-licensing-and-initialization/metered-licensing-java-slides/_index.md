@@ -10,7 +10,7 @@ url: /hu/java/licensing-and-initialization/metered-licensing-java-slides/
 
 ## Bevezetés az Aspose.Slides for Java mérőszámos licencelésébe
 
-A mért licencelés lehetővé teszi az Aspose.Slides for Java API használatának figyelemmel kísérését és szabályozását. Ez az útmutató végigvezeti Önt az Aspose.Slides segítségével a mérőszámos licencelés megvalósításának folyamatán a Java-projektben. 
+mért licencelés lehetővé teszi az Aspose.Slides for Java API használatának figyelemmel kísérését és szabályozását. Ez az útmutató végigvezeti Önt az Aspose.Slides segítségével a mérőszámos licencelés megvalósításának folyamatán a Java-projektben. 
 
 ## Előfeltételek
 
@@ -71,7 +71,7 @@ try
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Információk megjelenítése
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// Mért adatmennyiség lekérése API hívása után
+	//Mért adatmennyiség lekérése API hívása után
 	double amountafter = Metered.getConsumptionQuantity();
 	// Információk megjelenítése
 	System.out.println("Amount Consumed After: " + amountafter);
@@ -94,7 +94,7 @@ Az Aspose-tól beszerezheti a mért licenckulcsokat. További információért l
 
 ### Szükséges-e az Aspose.Slides for Java használatához mért licenc?
 
-mért licencelés nem kötelező, de segíthet nyomon követni az API-használatot és hatékonyan kezelni a költségeket.
+A mért licencelés nem kötelező, de segíthet nyomon követni az API-használatot és hatékonyan kezelni a költségeket.
 
 ### Használhatom a mért licencet más Aspose termékekkel?
 

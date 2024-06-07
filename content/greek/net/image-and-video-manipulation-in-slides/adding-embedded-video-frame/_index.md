@@ -56,7 +56,7 @@ vf.EmbeddedVideo = vid;
 vf.PlayMode = VideoPlayModePreset.Auto;
 vf.Volume = AudioVolumeMode.Loud;
 ```
-## Βήμα 6: Αποθηκεύστε την Παρουσίαση
+## Βήμα 6: Αποθηκεύστε την παρουσίαση
 Τέλος, αποθηκεύστε το αρχείο PPTX στο δίσκο:
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);

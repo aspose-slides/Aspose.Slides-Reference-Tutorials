@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## 3단계: 프레젠테이션 로드
 
-이제 변환하려는 프레젠테이션을 로드해 보겠습니다. 바꾸다`"Your Document Directory"` 프레젠테이션 파일의 실제 경로:
+ 이제 변환하려는 프레젠테이션을 로드해 보겠습니다. 바꾸다`"Your Document Directory"` 프레젠테이션 파일의 실제 경로:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ finally
 
 ### HTML 출력을 추가로 사용자 정의할 수 있나요?
 
- 예, 다음을 수정하여 HTML 출력을 사용자 정의할 수 있습니다.`ResponsiveHtmlController` 그리고`HtmlOptions`사물. 이를 통해 HTML 출력을 특정 요구 사항에 맞게 조정할 수 있습니다.
+ 예, 다음을 수정하여 HTML 출력을 사용자 정의할 수 있습니다.`ResponsiveHtmlController` 그리고`HtmlOptions` 사물. 이를 통해 HTML 출력을 특정 요구 사항에 맞게 조정할 수 있습니다.
 
 ### Aspose.Slides for Java에 대한 라이선스 요구 사항이 있나요?
 

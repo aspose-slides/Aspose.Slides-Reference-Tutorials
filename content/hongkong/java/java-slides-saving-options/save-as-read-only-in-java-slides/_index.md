@@ -120,7 +120,7 @@ presentation.getProtectionManager().removeWriteProtection();
 
 是的，您可以透過在單一投影片上設定寫入保護來保護簡報中的特定投影片。使用`Slide`對象的`getProtectionManager()`管理特定幻燈片保護的方法。
 
-### 如果我忘記寫保護密碼會怎樣？
+### 如果忘記寫保護密碼會怎樣？
 
 如果您忘記了寫入保護密碼，則沒有內建方法可以恢復它。請務必將您的密碼記錄保存在安全的位置，以避免任何不便。
 

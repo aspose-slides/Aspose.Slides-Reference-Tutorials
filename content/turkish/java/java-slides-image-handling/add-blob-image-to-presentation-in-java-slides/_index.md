@@ -56,7 +56,7 @@ Presentation pres = new Presentation();
 
 ## 5. Adım: Blob Görüntüsünü Ekleme
 
-Şimdi Blob görüntüsünü sunuma ekleme zamanı geldi. biz kullanıyoruz`addImage` bunu başarmanın yöntemi.
+ Şimdi Blob görüntüsünü sunuma ekleme zamanı geldi. biz kullanıyoruz`addImage`bunu başarmanın yöntemi.
 
 ```java
 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
@@ -86,7 +86,7 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
             try
             {
                 // görüntüyü sunuma ekleyelim - KeepLocked davranışını seçiyoruz çünkü
-                // "largeImage.png" dosyasına erişme niyetiniz var.
+                // "largeImage.png" dosyasına erişme niyetiniz varsa.
                 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
                 pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
                 // sunuyu kaydedin. Buna rağmen çıktı sunumu olacak
@@ -116,7 +116,7 @@ Tebrikler! Aspose.Slides'ı kullanarak Java Slides'ta bir sunuma Blob görüntü
 
 ### Aspose.Slides for Java'yı nasıl yüklerim?
 
- Aspose.Slides for Java, kütüphane web sitesinden indirilerek kolayca kurulabilir.[Burada](https://releases.aspose.com/slides/java/). Java projenize entegre etmek için sağlanan kurulum talimatlarını izleyin.
+Aspose.Slides for Java, kütüphane web sitesinden indirilerek kolayca kurulabilir.[Burada](https://releases.aspose.com/slides/java/). Java projenize entegre etmek için sağlanan kurulum talimatlarını izleyin.
 
 ### Tek bir sunuya birden fazla Blob görüntüsü ekleyebilir miyim?
 
@@ -128,7 +128,7 @@ Sunumlar için JPEG veya PNG gibi yaygın resim formatlarının kullanılması t
 
 ### Eklenen Blob görüntüsünün konumunu ve boyutunu nasıl özelleştirebilirim?
 
-Eklenen Blob görüntüsünün konumunu ve boyutunu, aşağıdaki parametrelerde değişiklik yaparak ayarlayabilirsiniz:`addPictureFrame` yöntem. Dört değer (x koordinatı, y koordinatı, genişlik ve yükseklik) görüntü çerçevesinin konumunu ve boyutlarını belirler.
+ Eklenen Blob görüntüsünün konumunu ve boyutunu, aşağıdaki parametrelerde değişiklik yaparak ayarlayabilirsiniz:`addPictureFrame` yöntem. Dört değer (x koordinatı, y koordinatı, genişlik ve yükseklik) görüntü çerçevesinin konumunu ve boyutlarını belirler.
 
 ### Aspose.Slides gelişmiş PowerPoint otomasyon görevleri için uygun mudur?
 

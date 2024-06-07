@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //Δημιουργία κλάδου 1
+    // Δημιουργία κλάδου 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -78,7 +78,7 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    // Αποθηκεύστε την παρουσίαση με το γράφημα του Χάρτη δέντρου
+    // Αποθηκεύστε την παρουσίαση με το γράφημα Tree Map
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();

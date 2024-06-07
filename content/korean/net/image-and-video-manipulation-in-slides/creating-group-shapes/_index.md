@@ -93,7 +93,7 @@ Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 그룹 모양�
 ### 구매하기 전에 Aspose.Slides를 사용해 볼 수 있나요?
  전적으로! 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Slides 관련 쿼리에 대한 지원은 어디서 찾을 수 있나요?
- Aspose.Slides를 방문하세요.[법정](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
+Aspose.Slides를 방문하세요.[법정](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
 ### Aspose.Slides에 대한 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides의 정식 라이센스는 어디서 구입할 수 있나요?

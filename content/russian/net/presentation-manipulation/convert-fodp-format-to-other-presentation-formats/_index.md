@@ -74,7 +74,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 ### 3. Как я могу получить временную лицензию на Aspose.Slides для .NET?
 
-Если вам нужна временная лицензия, вы можете получить ее в[страница временной лицензии](https://purchase.aspose.com/temporary-license/).
+ Если вам нужна временная лицензия, вы можете получить ее в[страница временной лицензии](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Какие форматы презентаций поддерживаются для конвертации?
 

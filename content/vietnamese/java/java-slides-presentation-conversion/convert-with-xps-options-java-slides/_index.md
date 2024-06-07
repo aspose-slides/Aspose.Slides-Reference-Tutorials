@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Bước 4: Tùy chỉnh tùy chọn chuyển đổi
 
- Để tùy chỉnh quá trình chuyển đổi, bạn có thể tạo một phiên bản của`XpsOptions` lớp học. Trong ví dụ, chúng tôi đặt tùy chọn lưu siêu tệp dưới dạng hình ảnh PNG.
+Để tùy chỉnh quá trình chuyển đổi, bạn có thể tạo một phiên bản của`XpsOptions` lớp học. Trong ví dụ, chúng tôi đặt tùy chọn lưu siêu tệp dưới dạng hình ảnh PNG.
 
 ```java
 XpsOptions opts = new XpsOptions();

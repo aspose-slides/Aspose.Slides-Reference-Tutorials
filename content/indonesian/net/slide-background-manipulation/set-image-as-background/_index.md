@@ -92,7 +92,7 @@ Sekarang Anda telah berhasil mengatur gambar sebagai latar belakang slide menggu
 
 ## Kesimpulan
 
-Aspose.Slides untuk .NET memberdayakan pengembang untuk memanipulasi presentasi PowerPoint secara efisien. Dalam tutorial ini, kami telah menunjukkan kepada Anda cara mengatur gambar sebagai latar belakang slide langkah demi langkah. Dengan pengetahuan ini, Anda dapat menyempurnakan presentasi dan laporan Anda, menjadikannya menarik dan menarik secara visual.
+Aspose.Slides untuk .NET memberdayakan pengembang untuk memanipulasi presentasi PowerPoint secara efisien. Dalam tutorial ini, kami telah menunjukkan kepada Anda cara mengatur gambar sebagai latar belakang slide langkah demi langkah. Dengan pengetahuan ini, Anda dapat menyempurnakan presentasi dan laporan Anda, menjadikannya menarik dan memikat secara visual.
 
 ## FAQ
 

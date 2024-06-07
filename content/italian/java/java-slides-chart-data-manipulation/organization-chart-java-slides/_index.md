@@ -22,7 +22,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 ## Passaggio 1: configura il tuo progetto Java
 
 1. Crea un nuovo progetto Java nel tuo IDE preferito.
-2.  Aggiungi la libreria Aspose.Slides per Java al tuo progetto. È possibile scaricare la libreria da[Sito web Aspose](https://products.aspose.com/slides/java) e includerlo come dipendenza.
+2.  Aggiungi la libreria Aspose.Slides per Java al tuo progetto. È possibile scaricare la libreria da[Sito web Aspose](https://products.aspose.com/slides/java) includerlo come dipendenza.
 
 ## Passaggio 2: importa le librerie richieste
 Nella tua classe Java, importa le librerie necessarie per lavorare con Aspose.Slides:
@@ -59,7 +59,7 @@ try {
 }
 ```
 
- Sostituire`"Your Document Directory"`con il percorso effettivo della directory dei documenti e`"test.pptx"` con il nome della presentazione PowerPoint inserita.
+ Sostituire`"Your Document Directory"` con il percorso effettivo della directory dei documenti e`"test.pptx"` con il nome della presentazione PowerPoint inserita.
 
 ## Passaggio 4: esegui il codice
 
@@ -102,4 +102,4 @@ Sì, puoi aggiungere ulteriori forme, testo e connettori all'organigramma per ra
 
 ### È possibile creare strutture organizzative complesse a più livelli?
 
-Sì, Aspose.Slides ti consente di creare strutture organizzative complesse con più livelli aggiungendo e disponendo forme all'interno dell'organigramma. È possibile definire relazioni gerarchiche tra le forme per rappresentare la struttura desiderata.
+Sì, Aspose.Slides ti consente di creare strutture organizzative complesse con più livelli aggiungendo e organizzando forme all'interno dell'organigramma. È possibile definire relazioni gerarchiche tra le forme per rappresentare la struttura desiderata.

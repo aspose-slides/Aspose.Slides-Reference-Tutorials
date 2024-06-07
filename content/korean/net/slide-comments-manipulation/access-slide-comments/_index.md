@@ -101,7 +101,7 @@ Aspose.Slides for .NET은 PowerPoint 프레젠테이션의 슬라이드 주석�
 ### .NET용 Aspose.Slides란 무엇입니까?
 Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있게 해주는 강력한 라이브러리입니다. PowerPoint 파일을 생성, 수정 및 관리하기 위한 다양한 기능을 제공합니다.
 
-### 다른 .NET 애플리케이션에서 .NET용 Aspose.Slides를 사용할 수 있습니까?
+### 다른 .NET 애플리케이션에서 .NET용 Aspose.Slides를 사용할 수 있나요?
 예, Aspose.Slides for .NET은 Windows Forms, ASP.NET 및 콘솔 애플리케이션을 포함한 다양한 .NET 애플리케이션에서 사용할 수 있습니다.
 
 ### .NET용 Aspose.Slides에 대한 무료 평가판이 있습니까?

@@ -37,7 +37,7 @@ string outSvgFileName = outPath + "SingleShape.svg";
 
 using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 {
-    // Mã để xuất hình dạng của bạn sẽ xuất hiện ở đây.
+    // Mã của bạn để xuất hình dạng sẽ xuất hiện ở đây.
 }
 ```
 

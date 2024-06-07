@@ -16,7 +16,7 @@ Licencjonowanie Aspose.Slides dla Java to pierwszy i najważniejszy krok przed z
 
 1.  Uzyskanie licencji: Odwiedź stronę[Strona zakupu Aspose](https://purchase.aspose.com/buy) w celu uzyskania ważnej licencji. Możesz wybierać spośród różnych opcji licencjonowania dostosowanych do Twoich potrzeb, w tym licencji tymczasowych na projekty krótkoterminowe.
 
-2. Inicjalizacja licencji: Gdy już uzyskasz licencję, musisz ją zainicjować w aplikacji Java. Ten krok jest niezbędny, aby aplikacja rozpoznała licencję i działała prawidłowo.
+2. Inicjalizacja licencji: Po uzyskaniu licencji należy ją zainicjować w aplikacji Java. Ten krok jest niezbędny, aby aplikacja rozpoznała licencję i działała prawidłowo.
 
 3. Stosowanie licencji: Użyj interfejsu API Aspose.Slides, aby zastosować licencję do swojego projektu Java. Ten krok zapewnia dostęp do wszystkich funkcji i możliwości biblioteki.
 

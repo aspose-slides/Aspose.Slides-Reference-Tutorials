@@ -2,7 +2,7 @@
 title: Kartendiagramm in Java-Folien
 linktitle: Kartendiagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erstellen Sie mit Aspose.Slides für Java atemberaubende Kartendiagramme in PowerPoint-Präsentationen. Schritt-für-Schritt-Anleitung und Quellcode für Java-Entwickler.
+description: Erstellen Sie mit Aspose.Slides für Java beeindruckende Kartendiagramme in PowerPoint-Präsentationen. Schritt-für-Schritt-Anleitung und Quellcode für Java-Entwickler.
 type: docs
 weight: 15
 url: /de/java/chart-elements/map-chart-java-slides/
@@ -14,11 +14,11 @@ In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Karten
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihr Java-Projekt integriert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/java/).
+ Bevor Sie beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek in Ihr Java-Projekt integriert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Richten Sie Ihr Projekt ein
 
-Stellen Sie sicher, dass Sie Ihr Java-Projekt eingerichtet und die Aspose.Slides for Java-Bibliothek zum Klassenpfad Ihres Projekts hinzugefügt haben.
+Stellen Sie sicher, dass Sie Ihr Java-Projekt eingerichtet und die Bibliothek Aspose.Slides für Java zum Klassenpfad Ihres Projekts hinzugefügt haben.
 
 ## Schritt 2: Erstellen Sie eine PowerPoint-Präsentation
 
@@ -29,7 +29,7 @@ String resultPath = "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
-## Schritt 3: Fügen Sie ein Kartendiagramm hinzu
+## Schritt 3: Ein Kartendiagramm hinzufügen
 
 Jetzt fügen wir der Präsentation ein Kartendiagramm hinzu.
 
@@ -86,7 +86,7 @@ Das ist es! Sie haben mit Aspose.Slides für Java ein Kartendiagramm in einer Po
 String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
-	//Erstellen Sie ein leeres Diagramm
+	//leeres Diagramm erstellen
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Map, 50, 50, 500, 400, false);
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	//Fügen Sie Serien und einige Datenpunkte hinzu
@@ -101,7 +101,7 @@ try {
 	//Datenpunktwert ändern
 	IChartDataPoint dataPoint = series.getDataPoints().get_Item(1);
 	dataPoint.getColorValue().getAsCell().setValue("15");
-	//Legen Sie das Erscheinungsbild des Datenpunkts fest
+	//Festlegen des Erscheinungsbilds von Datenpunkten
 	dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 	dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 	presentation.save(resultPath, SaveFormat.Pptx);
@@ -112,21 +112,21 @@ try {
 
 ## Abschluss
 
-In diesem Tutorial haben wir den Prozess der Erstellung eines Kartendiagramms in einer PowerPoint-Präsentation mit Aspose.Slides für Java durchlaufen. Kartendiagramme sind eine effektive Möglichkeit, geografische Daten zu visualisieren und Ihre Präsentationen ansprechender und informativer zu gestalten. Fassen wir die wichtigsten Schritte zusammen:
+In diesem Tutorial haben wir den Prozess der Erstellung eines Kartendiagramms in einer PowerPoint-Präsentation mit Aspose.Slides für Java durchgegangen. Kartendiagramme sind eine effektive Möglichkeit, geografische Daten zu visualisieren und Ihre Präsentationen ansprechender und informativer zu gestalten. Lassen Sie uns die wichtigsten Schritte zusammenfassen:
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie kann ich den Kartendiagrammtyp ändern?
 
- Sie können den Diagrammtyp durch Ersetzen ändern`ChartType.Map` Geben Sie beim Erstellen des Diagramms in Schritt 3 den gewünschten Diagrammtyp an.
+ Sie können den Diagrammtyp ändern, indem Sie`ChartType.Map` mit dem gewünschten Diagrammtyp, wenn Sie das Diagramm in Schritt 3 erstellen.
 
 ### Wie kann ich das Erscheinungsbild des Kartendiagramms anpassen?
 
- Sie können das Erscheinungsbild des Diagramms anpassen, indem Sie die Eigenschaften des ändern`dataPoint` Objekt in Schritt 6. Sie können Farben, Werte und mehr ändern.
+ Sie können das Erscheinungsbild des Diagramms anpassen, indem Sie die Eigenschaften des`dataPoint` Objekt in Schritt 6. Sie können Farben, Werte und mehr ändern.
 
 ### Kann ich weitere Datenpunkte und Kategorien hinzufügen?
 
- Ja, Sie können beliebig viele Datenpunkte und Kategorien hinzufügen. Nutzen Sie einfach die`series.getDataPoints().addDataPointForMapSeries()` Und`chart.getChartData().getCategories().add()` Methoden, um sie hinzuzufügen.
+ Ja, Sie können so viele Datenpunkte und Kategorien hinzufügen, wie Sie benötigen. Verwenden Sie einfach die`series.getDataPoints().addDataPointForMapSeries()` Und`chart.getChartData().getCategories().add()` Methoden, um sie hinzuzufügen.
 
 ### Wie integriere ich Aspose.Slides für Java in mein Projekt?
 

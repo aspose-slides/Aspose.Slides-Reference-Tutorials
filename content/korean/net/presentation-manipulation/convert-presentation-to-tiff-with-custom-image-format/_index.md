@@ -91,4 +91,4 @@ Aspose.Slides for .NET은 .NET 애플리케이션에서 PowerPoint 프레젠테�
 
 ### .NET용 Aspose.Slides는 TIFF 외에 다른 출력 형식을 지원합니까?
 
-예, TIFF 외에도 Aspose.Slides for .NET은 PDF, JPEG, PNG, GIF 등을 포함하여 프레젠테이션 변환을 위한 다양한 출력 형식을 지원합니다. 이를 통해 특정 사용 사례에 가장 적합한 형식을 선택할 수 있는 유연성을 얻을 수 있습니다.
+예, TIFF 외에도 .NET용 Aspose.Slides는 PDF, JPEG, PNG, GIF 등을 포함하여 프레젠테이션 변환을 위한 다양한 출력 형식을 지원합니다. 이를 통해 특정 사용 사례에 가장 적합한 형식을 선택할 수 있는 유연성을 얻을 수 있습니다.

@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Nous ajoutons des données au graphique en créant des séries et des points de données. Dans cet exemple, nous ajoutons deux séries avec leurs points de données respectifs.
 
 ```java
-//Obtenir la feuille de calcul des données du graphique
+// Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Ajouter une nouvelle série
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Obtenir la feuille de calcul des données du graphique
+// Obtenir la feuille de calcul des données du graphique
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Ajouter une nouvelle série
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

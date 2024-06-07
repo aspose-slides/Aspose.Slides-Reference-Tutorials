@@ -1,6 +1,6 @@
 ---
 title: Hur man får diagramdataintervall i Aspose.Slides för .NET
-linktitle: Hämta diagramdataintervall
+linktitle: Få diagramdataintervall
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du extraherar diagramdataintervall från PowerPoint-presentationer med Aspose.Slides för .NET. En steg-för-steg-guide för utvecklare.
 type: docs
@@ -92,4 +92,4 @@ Ja, du kan arbeta med bilder, former, text, bilder och andra element i en PowerP
  Du kan begära en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
 
 ### Vilken typ av supportalternativ finns tillgängliga för Aspose.Slides för .NET-användare?
-Du kan få stöd och hjälp från Aspose-gemenskapen på deras[supportforum](https://forum.aspose.com/).
+ Du kan få stöd och hjälp från Aspose-gemenskapen på deras[supportforum](https://forum.aspose.com/).

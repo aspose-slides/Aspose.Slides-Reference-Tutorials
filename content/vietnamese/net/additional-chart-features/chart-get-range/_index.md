@@ -92,4 +92,4 @@ Có, bạn có thể làm việc với các trang trình bày, hình dạng, vă
  Bạn có thể yêu cầu giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Loại tùy chọn hỗ trợ nào có sẵn cho Aspose.Slides cho người dùng .NET?
-Bạn có thể nhận được sự hỗ trợ và trợ giúp từ cộng đồng Aspose trên[diễn đàn hỗ trợ](https://forum.aspose.com/).
+ Bạn có thể nhận được sự hỗ trợ và trợ giúp từ cộng đồng Aspose trên[diễn đàn hỗ trợ](https://forum.aspose.com/).

@@ -11,7 +11,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 Aspose.Slides for .NET은 개발자가 PowerPoint 프레젠테이션을 원활하게 사용할 수 있도록 지원하는 강력한 라이브러리입니다. 주목할만한 기능 중 하나는 프레젠테이션 내의 모양에 대한 축소판을 생성하는 기능입니다. 이 튜토리얼은 Aspose.Slides for .NET을 사용하여 모양의 썸네일을 만드는 과정을 안내합니다.
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1. .NET용 Aspose.Slides: Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/slides/net/).
+1.  .NET용 Aspose.Slides: Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/slides/net/).
 2. 개발 환경: Visual Studio 등 적합한 개발 환경을 설정하고 C# 프로그래밍에 대한 기본적인 이해가 있어야 합니다.
 ## 네임스페이스 가져오기
 시작하려면 C# 코드에서 필요한 네임스페이스를 가져와야 합니다. 이러한 네임스페이스는 Aspose.Slides 라이브러리와의 통신을 용이하게 합니다. C# 파일 시작 부분에 다음 줄을 추가합니다.
@@ -56,4 +56,4 @@ A: try-catch 블록을 사용하여 오류 처리 메커니즘을 구현하여 �
 ### Q: 썸네일을 포함할 수 있는 도형의 크기나 유형에 제한이 있나요?
 A: Aspose.Slides는 텍스트 상자, 이미지 등을 포함한 다양한 모양의 썸네일을 생성할 수 있는 유연성을 제공합니다.
 ### Q: 생성된 썸네일의 크기와 해상도를 사용자 정의할 수 있나요?
- A: 예, 전화를 걸 때 매개변수를 조정할 수 있습니다.`GetThumbnail` 크기와 해상도를 제어하는 방법.
+A: 예, 전화를 걸 때 매개변수를 조정할 수 있습니다.`GetThumbnail` 크기와 해상도를 제어하는 방법.

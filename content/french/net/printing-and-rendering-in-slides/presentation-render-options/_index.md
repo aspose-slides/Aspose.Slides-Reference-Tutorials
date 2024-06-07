@@ -10,7 +10,7 @@ url: /fr/net/printing-and-rendering-in-slides/presentation-render-options/
 Créer des présentations époustouflantes implique souvent d’affiner les options de rendu pour obtenir l’impact visuel souhaité. Dans ce didacticiel, nous plongerons dans le monde des options de rendu pour les diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Suivez-nous pour découvrir comment optimiser vos présentations avec des étapes détaillées et des exemples.
 ## Conditions préalables
 Avant de nous lancer dans cette aventure de rendu, assurez-vous d'avoir les prérequis suivants en place :
-- Aspose.Slides pour .NET : téléchargez et installez la bibliothèque Aspose.Slides. Vous pouvez trouver la bibliothèque à[ce lien](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides pour .NET : téléchargez et installez la bibliothèque Aspose.Slides. Vous pouvez trouver la bibliothèque à[ce lien](https://releases.aspose.com/slides/net/).
 - Répertoire de documents : créez un répertoire pour vos documents et mémorisez le chemin. Vous en aurez besoin pour les exemples de code.
 ## Importer des espaces de noms
 Dans votre application .NET, commencez par importer les espaces de noms nécessaires pour accéder à la fonctionnalité Aspose.Slides.
@@ -69,4 +69,4 @@ R : Oui, explorez la documentation Aspose.Slides pour une liste complète des o
 ### Q : Puis-je utiliser des polices personnalisées non installées sur mon système ?
  R : Oui, spécifiez le chemin du fichier de police à l'aide du`AddFonts` méthode dans le`FontsLoader` classe.
 ### Q : Où puis-je demander de l'aide ou me connecter avec la communauté ?
- R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et l’engagement communautaire.
+R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et l’engagement communautaire.

@@ -53,7 +53,7 @@ Console.WriteLine("Field of view: " + threeDEffectiveData.Camera.FieldOfViewAngl
 Console.WriteLine("Zoom: " + threeDEffectiveData.Camera.Zoom);
 ```
 Trích xuất dữ liệu camera hiệu quả từ hình dạng đầu tiên trong slide đầu tiên. Bạn có thể tùy chỉnh chỉ mục slide và hình dạng dựa trên yêu cầu cụ thể của mình.
-Lặp lại các bước này cho từng trang chiếu hoặc hình mà bạn muốn tìm nạp dữ liệu máy ảnh.
+Lặp lại các bước này cho từng trang chiếu hoặc hình dạng mà bạn muốn tìm nạp dữ liệu máy ảnh.
 ## Phần kết luận
 Chúc mừng! Bạn đã học thành công cách truy xuất dữ liệu camera hiệu quả từ các slide thuyết trình bằng Aspose.Slides for .NET. Điều này mở ra vô số khả năng để cải thiện bài thuyết trình của bạn một cách linh hoạt.
 Có nhiều câu hỏi hơn không? Hãy giải quyết một số câu hỏi phổ biến trong phần Câu hỏi thường gặp bên dưới.

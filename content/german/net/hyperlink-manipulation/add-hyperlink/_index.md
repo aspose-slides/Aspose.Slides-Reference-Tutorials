@@ -1,24 +1,24 @@
 ---
-title: Hinzufügen von Hyperlinks zu Folien in .NET mithilfe von Aspose.Slides
+title: Hinzufügen von Hyperlinks zu Folien in .NET mit Aspose.Slides
 linktitle: Hyperlink zur Folie hinzufügen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Hyperlinks zu PowerPoint-Folien hinzufügen. Bereichern Sie Ihre Präsentationen mit interaktiven Elementen.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Hyperlinks zu PowerPoint-Folien hinzufügen. Verbessern Sie Ihre Präsentationen mit interaktiven Elementen.
 type: docs
 weight: 12
 url: /de/net/hyperlink-manipulation/add-hyperlink/
 ---
 
-In der Welt der digitalen Präsentationen ist Interaktivität der Schlüssel. Durch das Hinzufügen von Hyperlinks zu Ihren Folien kann Ihre Präsentation ansprechender und informativer werden. Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie PowerPoint-Präsentationen programmgesteuert erstellen, ändern und bearbeiten können. In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Slides für .NET Hyperlinks zu Ihren Folien hinzufügen. 
+In der Welt der digitalen Präsentationen ist Interaktivität der Schlüssel. Durch das Hinzufügen von Hyperlinks zu Ihren Folien können Sie Ihre Präsentation ansprechender und informativer gestalten. Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie PowerPoint-Präsentationen programmgesteuert erstellen, ändern und bearbeiten können. In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Slides für .NET Hyperlinks zu Ihren Folien hinzufügen. 
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Hinzufügen von Hyperlinks zu Folien befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir mit dem Hinzufügen von Hyperlinks zu Folien beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Visual Studio: Sie sollten Visual Studio auf Ihrem Computer installiert haben, um den .NET-Code schreiben und ausführen zu können.
+1. Visual Studio: Zum Schreiben und Ausführen des .NET-Codes sollte Visual Studio auf Ihrem Computer installiert sein.
 
-2. Aspose.Slides für .NET: Sie müssen die Aspose.Slides für .NET-Bibliothek installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net/).
+2. Aspose.Slides für .NET: Sie müssen die Bibliothek Aspose.Slides für .NET installiert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/net/).
 
-3. Grundlegende C#-Kenntnisse: Vertrautheit mit der C#-Programmierung ist von Vorteil.
+3. Grundlegende C#-Kenntnisse: Kenntnisse in der C#-Programmierung sind von Vorteil.
 
 ## Namespaces importieren
 
@@ -29,16 +29,16 @@ using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-Lassen Sie uns nun den Prozess des Hinzufügens von Hyperlinks zu Folien in mehrere Schritte unterteilen.
+Lassen Sie uns nun den Vorgang des Hinzufügens von Hyperlinks zu Folien in mehrere Schritte aufteilen.
 
 ## Schritt 1: Präsentation initialisieren
 
-Erstellen Sie zunächst eine neue Präsentation mit Aspose.Slides. So können Sie es machen:
+Erstellen Sie zunächst eine neue Präsentation mit Aspose.Slides. So geht's:
 
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    // Ihr Code kommt hierher
+    // Ihr Code kommt hier rein
 }
 ```
 
@@ -46,18 +46,18 @@ Dieser Code initialisiert eine neue PowerPoint-Präsentation.
 
 ## Schritt 2: Textrahmen hinzufügen
 
-Jetzt fügen wir Ihrer Folie einen Textrahmen hinzu. Dieser Textrahmen dient als anklickbares Element in Ihrer Folie. 
+Fügen wir nun Ihrer Folie einen Textrahmen hinzu. Dieser Textrahmen dient als anklickbares Element in Ihrer Folie. 
 
 ```csharp
 IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 600, 50, false);
 shape1.AddTextFrame("Aspose: File Format APIs");
 ```
 
-Der obige Code erstellt eine rechteckige automatische Form und fügt einen Textrahmen mit dem Text „Aspose: File Format APIs“ hinzu.
+Der obige Code erstellt eine rechteckige Autoform und fügt einen Textrahmen mit dem Text „Aspose: File Format APIs“ hinzu.
 
 ## Schritt 3: Hyperlink hinzufügen
 
-Als Nächstes fügen wir dem von Ihnen erstellten Textrahmen einen Hyperlink hinzu. Dadurch wird der Text anklickbar.
+Als Nächstes fügen wir dem erstellten Textrahmen einen Hyperlink hinzu. Dadurch wird der Text anklickbar.
 
 ```csharp
 shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
@@ -65,7 +65,7 @@ shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip 
 shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-In diesem Schritt setzen wir die Hyperlink-URL auf „https://www.aspose.com/“ und stellen einen Tooltip für zusätzliche Informationen bereit. Sie können auch das Erscheinungsbild des Hyperlinks formatieren, wie oben gezeigt.
+In diesem Schritt setzen wir die Hyperlink-URL auf „https://www.aspose.com/“ und stellen einen Tooltip für zusätzliche Informationen bereit. Sie können das Erscheinungsbild des Hyperlinks auch wie oben gezeigt formatieren.
 
 ## Schritt 4: Präsentation speichern
 
@@ -81,23 +81,23 @@ Jetzt haben Sie mit Aspose.Slides für .NET erfolgreich einen Hyperlink zu einer
 
 ## Abschluss
 
-In diesem Tutorial haben wir untersucht, wie Sie mithilfe von Aspose.Slides für .NET Hyperlinks zu Folien in PowerPoint-Präsentationen hinzufügen. Wenn Sie diese Schritte befolgen, können Sie Ihre Präsentationen interaktiver und ansprechender gestalten und wertvolle Links zu zusätzlichen Ressourcen oder Informationen bereitstellen.
+In diesem Tutorial haben wir untersucht, wie Sie mit Aspose.Slides für .NET Hyperlinks zu Folien in PowerPoint-Präsentationen hinzufügen. Indem Sie diese Schritte befolgen, können Sie Ihre Präsentationen interaktiver und ansprechender gestalten und wertvolle Links zu zusätzlichen Ressourcen oder Informationen bereitstellen.
 
- Ausführlichere Informationen und Dokumentation finden Sie unter[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+ Ausführlichere Informationen und Dokumentationen finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
 
 ## FAQs
 
-### 1. Kann ich neben Textrahmen auch Hyperlinks zu anderen Formen hinzufügen?
+### 1. Kann ich Hyperlinks auch zu anderen Formen als Textrahmen hinzufügen?
 
 Ja, Sie können mit Aspose.Slides für .NET Hyperlinks zu verschiedenen Formen wie Rechtecken, Bildern und mehr hinzufügen.
 
-### 2. Wie kann ich einen Hyperlink von einer Form in einer PowerPoint-Folie entfernen?
+### 2. Wie kann ich einen Hyperlink aus einer Form in einer PowerPoint-Folie entfernen?
 
- Sie können einen Hyperlink aus einer Form entfernen, indem Sie Folgendes festlegen`HyperlinkClick` Eigentum zu`null`.
+ Sie können einen Hyperlink aus einer Form entfernen, indem Sie das`HyperlinkClick` Eigentum an`null`.
 
 ### 3. Kann ich die Hyperlink-URL in meinem Code dynamisch ändern?
 
- Absolut! Sie können die URL eines Hyperlinks an jeder Stelle in Ihrem Code aktualisieren, indem Sie die URL ändern`Hyperlink` Eigentum.
+ Auf jeden Fall! Sie können die URL eines Hyperlinks jederzeit in Ihrem Code aktualisieren, indem Sie die`Hyperlink` Eigentum.
 
 ### 4. Welche anderen interaktiven Elemente kann ich mit Aspose.Slides zu PowerPoint-Folien hinzufügen?
 

@@ -7,7 +7,7 @@ type: docs
 weight: 13
 url: /es/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-Los controles ActiveX son elementos poderosos que pueden mejorar la funcionalidad y la interactividad de sus presentaciones de PowerPoint. Estos controles le permiten incrustar y manipular objetos como reproductores multimedia, formularios de entrada de datos y más directamente dentro de sus diapositivas. En este artículo, exploraremos cómo administrar los controles ActiveX en PowerPoint usando Aspose.Slides para .NET, una biblioteca versátil que permite la integración y manipulación perfecta de archivos de PowerPoint en sus aplicaciones .NET.
+Los controles ActiveX son elementos poderosos que pueden mejorar la funcionalidad y la interactividad de sus presentaciones de PowerPoint. Estos controles le permiten incrustar y manipular objetos como reproductores multimedia, formularios de entrada de datos y más directamente dentro de sus diapositivas. En este artículo, exploraremos cómo administrar controles ActiveX en PowerPoint usando Aspose.Slides para .NET, una biblioteca versátil que permite la integración y manipulación perfecta de archivos de PowerPoint en sus aplicaciones .NET.
 
 ## Agregar controles ActiveX a diapositivas de PowerPoint
 
@@ -29,7 +29,7 @@ ISlide slide = presentation.Slides[0];
 // Definir las propiedades del control ActiveX.
 int left = 100; // Especificar la posición izquierda
 int top = 100; // Especifique la posición superior
-int width = 200; // Especifique el ancho
+int width = 200; // Especificar el ancho
 int height = 100; // Especifique la altura
 string progId = "YourActiveXControl.ProgID"; // Especifique el ProgID del control ActiveX
 
@@ -98,7 +98,7 @@ Si desea eliminar un control ActiveX de una diapositiva, siga estos pasos:
 
 1.  Acceder al Control: Obtenga una referencia al control ActiveX usando el`IOleObjectFrame` referencia como se mostró anteriormente.
 
-2. Eliminar el control: use el siguiente código para eliminar el control de la diapositiva:
+2. Eliminar el control: utilice el siguiente código para eliminar el control de la diapositiva:
 
 ```csharp
 slide.Shapes.Remove(oleObjectFrame);

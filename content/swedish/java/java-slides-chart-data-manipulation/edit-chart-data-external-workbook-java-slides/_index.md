@@ -35,7 +35,7 @@ När presentationen har laddats måste vi komma åt diagrammet i presentationen.
 IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
 
-## Steg 3: Ändra sjökortsdata
+## Steg 3: Ändra diagramdata
 
 Låt oss nu ändra diagramdata. Vi kommer att fokusera på att ändra en specifik datapunkt i diagrammet. I det här exemplet ställer vi in värdet för den första datapunkten i den första serien till 100. Du kan justera detta värde efter behov.
 

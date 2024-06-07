@@ -8,7 +8,7 @@ weight: 12
 url: /hu/net/additional-chart-features/chart-recover-workbook/
 ---
 
-Ha PowerPoint prezentációkkal szeretne dolgozni .NET-ben, az Aspose.Slides for .NET egy hatékony könyvtár, amely segíthet céljai elérésében. Ebben az oktatóanyagban végigvezetjük a munkafüzet helyreállításának folyamatán egy PowerPoint-prezentáció diagramjából az Aspose.Slides for .NET segítségével. Ez a hatékony funkció akkor lehet hasznos, ha adatokat kell kinyernie a prezentációkon belüli diagramokból. A folyamatot könnyen követhető lépésekre bontjuk, így biztosítva, hogy világosan megértse, hogyan kell ezt a feladatot elvégezni.
+Ha PowerPoint prezentációkkal szeretne dolgozni .NET-ben, az Aspose.Slides for .NET egy hatékony könyvtár, amely segíthet elérni céljait. Ebben az oktatóanyagban végigvezetjük a munkafüzet helyreállításának folyamatán egy PowerPoint-prezentáció diagramjából az Aspose.Slides for .NET segítségével. Ez a hatékony funkció akkor lehet hasznos, ha adatokat kell kinyernie a prezentációkon belüli diagramokból. A folyamatot könnyen követhető lépésekre bontjuk, így biztosítva, hogy világosan megértse, hogyan kell ezt a feladatot elvégezni.
 
 ## Előfeltételek
 

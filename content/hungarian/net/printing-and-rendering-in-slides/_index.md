@@ -18,7 +18,7 @@ dianyomtatás a prezentáció előkészítésének elengedhetetlen része, amely
 
 ## Renderelési technikák elsajátítása:
 
-renderelés a diák vizuálisan tetszetős digitális eszközökké alakításának művészete. Legyen szó online megosztásról vagy archiválásról, a renderelés megértése kulcsfontosságú. Ebben a részben azt vizsgáljuk meg, hogyan hozhat létre prezentációiból kiváló minőségű képeket és PDF-eket. Betekintést nyerhet a képfelbontás optimalizálásába, a betűtípusok kezelésébe és a pontos színmegjelenítés biztosításába. Ennek az oktatóanyagnak a végére olyan tudás birtokában lesz, amellyel lenyűgöző rendereléseket hozhat létre, amelyek igazodnak a prezentáció tartalmához.
+renderelés a diák vizuálisan tetszetős digitális eszközökké alakításának művészete. Legyen szó online megosztásról vagy archiválásról, a renderelés megértése kulcsfontosságú. Ebben a részben azt vizsgáljuk meg, hogyan hozhat létre kiváló minőségű képeket és PDF-eket prezentációiból. Betekintést nyerhet a képfelbontás optimalizálásába, a betűtípusok kezelésébe és a pontos színmegjelenítés biztosításába. Ennek az oktatóanyagnak a végére olyan tudás birtokában lesz, amellyel lenyűgöző rendereléseket hozhat létre, amelyek igazodnak a prezentáció tartalmához.
 
 ## Nyomtatás és renderelés a Diákban oktatóanyagok
 ### [Prezentációk nyomtatása az Aspose.Slides alapértelmezett nyomtatójával](./printing-with-default-printer/)

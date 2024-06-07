@@ -58,7 +58,7 @@ Här får vi indexet för standarddiagramdatakalkylbladet.
 ## Steg 3: Skaffa arbetsbladet för diagramdata
 
 ```csharp
-//Hämta arbetsbladet för diagramdata
+// Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Vi ställer in bildmarkörer för datapunkter, så att du kan anpassa hur varje 
 ## Steg 6: Ändra storleken på diagramseriens markör
 
 ```csharp
-//Ändra storleken på kartseriens markör
+// Ändra storleken på kartseriens markör
 series.Marker.Size = 15;
 ```
 

@@ -72,7 +72,7 @@ Wykonując poniższe kroki, możesz łatwo przekonwertować prezentacje programu
 
 ### Jak mogę dostosować wygląd wyniku HTML5?
 
-Możesz dostosować wygląd wyniku HTML5, ustawiając różne opcje w pliku`Html5Options` klasa. Patrz[dokumentacja](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) dla dostępnych opcji dostosowywania.
+ Możesz dostosować wygląd wyniku HTML5, ustawiając różne opcje w pliku`Html5Options`klasa. Patrz[dokumentacja](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) dla dostępnych opcji dostosowywania.
 
 ### Czy mogę konwertować prezentacje za pomocą animacji i przejść?
 

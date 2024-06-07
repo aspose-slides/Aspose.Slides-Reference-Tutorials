@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 {
     // Skapa ny form
     GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, R * 2, R * 2);
-    // Ange en ny geometrisk väg till formen
+    // Ställ in ny geometrisk väg till formen
     shape.SetGeometryPath(starPath);
     // Spara presentationen
     string resultPath = Path.Combine(dataDir, "GeometryShapeCreatesCustomGeometry.pptx");

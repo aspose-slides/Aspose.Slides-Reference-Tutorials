@@ -10,7 +10,7 @@ url: /hu/net/slide-access-and-manipulation/access-all-slides/
 
 ## Az Aspose.Slides .NET-hez bemutatása
 
-Az Aspose.Slides for .NET egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásaikban PowerPoint-prezentációkat hozzanak létre, kezeljenek és átalakítsanak. Átfogó API-készletet biztosít, amely lehetővé teszi különböző feladatok elvégzését, például diák létrehozását, tartalom hozzáadását és információk kinyerését a prezentációkból.
+Az Aspose.Slides for .NET egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásaikban PowerPoint-prezentációkat hozzanak létre, kezeljenek és átalakítsanak. Átfogó API-készletet biztosít, amely lehetővé teszi különféle feladatok elvégzését, például diák létrehozását, tartalom hozzáadását és információk kinyerését a prezentációkból.
 
 ## A projekt beállítása
 
@@ -112,7 +112,7 @@ class Program
 
 ## Következtetés
 
-Ebben az útmutatóban megvizsgáltuk, hogyan lehet lekérni a PowerPoint-prezentáció összes diákját az Aspose.Slides for .NET használatával. Kezdtük a projekt beállításával és a prezentáció betöltésével. Ezután bemutattuk, hogyan lehet a diainformációkat lekérni és a diatulajdonságokat elérni a könyvtár API-jaival. Ezen lépések követésével hatékonyan dolgozhat programozottan a prezentációs fájlokkal, és kinyerheti a szükséges információkat a további feldolgozáshoz.
+Ebben az útmutatóban megvizsgáltuk, hogyan lehet lekérni a PowerPoint-prezentáció összes diákját az Aspose.Slides for .NET használatával. Kezdtük a projekt beállításával és a prezentáció betöltésével. Ezután bemutattuk, hogyan lehet a diainformációkat lekérni és a diatulajdonságokat elérni a könyvtár API-jaival. Ezen lépések követésével hatékonyan dolgozhat programozottan a prezentációs fájlokkal, és kivonhatja a szükséges információkat a további feldolgozáshoz.
 
 ## GYIK
 

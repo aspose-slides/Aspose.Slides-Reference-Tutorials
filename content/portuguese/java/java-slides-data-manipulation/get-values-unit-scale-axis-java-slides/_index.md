@@ -18,7 +18,7 @@ Antes de mergulharmos no código, certifique-se de ter os seguintes pré-requisi
 
 1. Ambiente de desenvolvimento Java: certifique-se de ter o Java instalado em seu sistema e de estar familiarizado com os conceitos de programação Java.
 
-2. Aspose.Slides for Java: Baixe e instale a biblioteca Aspose.Slides for Java do[Link para Download](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Baixe e instale a biblioteca Aspose.Slides for Java do[Link para Download](https://releases.aspose.com/slides/java/).
 
 ## Etapa 1: Criando uma apresentação
 

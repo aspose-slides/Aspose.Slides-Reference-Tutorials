@@ -48,7 +48,7 @@ Aspose.Slides för Java är en spelväxlare för utvecklare som vill skapa dynam
 
 {{% /alert %}}
 Det här är länkar till några användbara resurser:
-- [Java Slides-licensiering och initiering](./java/licensing-and-initialization)
+- [Java Slides licensiering och initiering](./java/licensing-and-initialization)
 - [Java Slides Chart Data Manipulation](./java/chart-data-manipulation)
 - [Anpassning och formatering av Java Slides](./java/customization-and-formatting)
 - [Java Slides-animering och layout](./java/animation-and-layout)

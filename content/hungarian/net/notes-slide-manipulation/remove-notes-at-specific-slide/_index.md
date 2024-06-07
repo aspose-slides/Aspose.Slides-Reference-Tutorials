@@ -50,7 +50,7 @@ INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 mgr.RemoveNotesSlide();
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse vissza a módosított prezentációt a lemezre.
 

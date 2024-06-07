@@ -74,7 +74,7 @@ pres.Save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### 화살촉 스타일을 추가로 사용자 정의할 수 있나요?
 전적으로! Aspose.Slides는 화살촉 길이, 스타일 등을 사용자 정의하기 위한 포괄적인 옵션을 제공합니다.
 ### 추가 Aspose.Slides 문서는 어디서 찾을 수 있나요?
- 문서 살펴보기[여기](https://reference.aspose.com/slides/net/) 자세한 정보와 예시를 확인하세요.
+ 문서 살펴보기[여기](https://reference.aspose.com/slides/net/)자세한 정보와 예시를 확인하세요.
 ### 무료 평가판이 제공되나요?
  예, 무료 평가판을 통해 Aspose.Slides를 경험할 수 있습니다. 다운로드 해[여기](https://releases.aspose.com/).
 ### Aspose.Slides에 대한 지원은 어떻게 받을 수 있나요?

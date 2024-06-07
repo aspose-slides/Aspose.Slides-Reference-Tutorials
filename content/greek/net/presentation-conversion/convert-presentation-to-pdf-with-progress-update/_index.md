@@ -81,7 +81,7 @@ class ExportProgressHandler : IProgressCallback
 Α: Μπορείτε να εφαρμόσετε μηχανισμούς διαχείρισης σφαλμάτων στον κώδικά σας για να διαχειριστείτε με χάρη τυχόν σφάλματα μετατροπής.
 
 ### Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides για .NET;
- Α: Ναι, μπορείτε να έχετε πρόσβαση σε δωρεάν δοκιμή στη διεύθυνση[https://releases.aspose.com/](https://releases.aspose.com/).
+ Α: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή στη διεύθυνση[https://releases.aspose.com/](https://releases.aspose.com/).
 
 ### Ε: Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides για .NET;
  Α: Μπορείτε να βρείτε υποστήριξη και συζητήσεις κοινότητας στο[https://forum.aspose.com/](https://forum.aspose.com/).

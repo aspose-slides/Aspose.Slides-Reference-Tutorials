@@ -1,8 +1,8 @@
 ---
-title: Java スライドでの位置軸の設定
-linktitle: Java スライドでの位置軸の設定
+title: Java スライドで位置軸を設定する
+linktitle: Java スライドで位置軸を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用してグラフを強化します。 Java スライドで位置軸を設定し、魅力的なプレゼンテーションを作成し、グラフのレイアウトを簡単にカスタマイズする方法を学びます。
+description: Aspose.Slides for Java でグラフを強化します。Java スライドで位置軸を設定する方法、魅力的なプレゼンテーションを作成する方法、グラフのレイアウトを簡単にカスタマイズする方法を学びます。
 type: docs
 weight: 16
 url: /ja/java/customization-and-formatting/setting-position-axis-java-slides/
@@ -10,34 +10,34 @@ url: /ja/java/customization-and-formatting/setting-position-axis-java-slides/
 
 ## Aspose.Slides for Java での位置軸の設定の概要
 
-このチュートリアルでは、Aspose.Slides for Java を使用してチャートに位置軸を設定する方法を学習します。軸の位置は、グラフの外観とレイアウトをカスタマイズする場合に便利です。集合縦棒グラフを作成し、カテゴリ間の横軸の位置を調整します。
+このチュートリアルでは、Aspose.Slides for Java を使用してグラフの位置軸を設定する方法を学習します。軸の位置設定は、グラフの外観とレイアウトをカスタマイズする場合に役立ちます。集合縦棒グラフを作成し、カテゴリ間の水平軸の位置を調整します。
 
 ## 前提条件
 
-始める前に、Aspose.Slides for Java ライブラリがインストールされ、Java プロジェクトに設定されていることを確認してください。ライブラリはからダウンロードできます[ここ](https://releases.aspose.com/slides/java/).
+始める前に、Aspose.Slides for JavaライブラリがJavaプロジェクトにインストールされ、設定されていることを確認してください。ライブラリは以下からダウンロードできます。[ここ](https://releases.aspose.com/slides/java/).
 
-## ステップ 1: プレゼンテーションを作成する
+## ステップ1: プレゼンテーションの作成
 
-まず、使用する新しいプレゼンテーションを作成しましょう。
+まず、作業する新しいプレゼンテーションを作成しましょう。
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-必ず交換してください`"Your Document Directory"`ドキュメントディレクトリへの実際のパスを置き換えます。
+必ず交換してください`"Your Document Directory"`ドキュメント ディレクトリへの実際のパスを入力します。
 
-## ステップ 2: グラフの追加
+## ステップ2: チャートの追加
 
-次に、集合縦棒グラフをスライドに追加します。チャートのタイプ、位置 (x、y 座標)、およびチャートの寸法 (幅と高さ) を指定します。
+次に、スライドに集合縦棒グラフを追加します。グラフの種類、位置 (x、y 座標)、グラフの寸法 (幅と高さ) を指定します。
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 450, 300);
 ```
 
-ここでは、位置 (50, 50) に幅 450、高さ 300 の集合縦棒グラフを追加しました。必要に応じてこれらの値を調整できます。
+ここでは、幅 450、高さ 300 の集合縦棒グラフを位置 (50, 50) に追加しました。必要に応じてこれらの値を調整できます。
 
-## ステップ 3: 位置軸の設定
+## ステップ3: 位置軸の設定
 
 カテゴリ間の位置軸を設定するには、次のコードを使用できます。
 
@@ -45,19 +45,19 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getAxes().getHorizontalAxis().setAxisBetweenCategories(true);
 ```
 
-このコードは、カテゴリ間に表示する横軸を設定します。これは、特定のグラフ レイアウトに役立ちます。
+このコードは、カテゴリ間に表示する水平軸を設定します。これは、特定のグラフ レイアウトに役立ちます。
 
-## ステップ 4: プレゼンテーションを保存する
+## ステップ4: プレゼンテーションを保存する
 
-最後に、グラフを含むプレゼンテーションを保存しましょう。
+最後に、グラフを含むプレゼンテーションを保存します。
 
 ```java
 pres.save(dataDir + "AsposeClusteredColumnChart.pptx", SaveFormat.Pptx);
 ```
 
-交換する`"AsposeClusteredColumnChart.pptx"`任意のファイル名を付けてください。
+交換する`"AsposeClusteredColumnChart.pptx"`希望するファイル名を入力します。
 
-それでおしまい！ Aspose.Slides for Java を使用して集合縦棒グラフを作成し、カテゴリ間の位置軸を設定することに成功しました。
+これで完了です。Aspose.Slides for Java を使用して、集合縦棒グラフを作成し、カテゴリ間の位置軸を設定できました。
 
 ## 完全なソースコード
 ```java
@@ -77,26 +77,26 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用してチャートに位置軸を設定する方法を検討しました。このガイドで概説されている手順に従うことで、集合縦棒グラフを作成し、カテゴリ間に横軸を配置して外観をカスタマイズする方法を学習しました。 Aspose.Slides for Java は、グラフやプレゼンテーションを操作するための強力な機能を提供しており、Java 開発者にとって貴重なツールとなっています。
+このチュートリアルでは、Aspose.Slides for Java を使用してグラフの位置軸を設定する方法について説明しました。このガイドで説明されている手順に従うことで、集合縦棒グラフを作成し、カテゴリ間に水平軸を配置して外観をカスタマイズする方法を学習しました。Aspose.Slides for Java は、グラフやプレゼンテーションを操作するための強力な機能を備えているため、Java 開発者にとって貴重なツールとなっています。
 
 ## よくある質問
 
-### グラフをさらにカスタマイズするにはどうすればよいですか?
+### チャートをさらにカスタマイズするにはどうすればよいですか?
 
-データ系列、グラフのタイトル、凡例など、グラフのさまざまな側面をカスタマイズできます。を参照してください。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)詳細な手順と例については、
+データ系列、グラフタイトル、凡例など、グラフのさまざまな側面をカスタマイズできます。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)詳細な手順と例については、こちらをご覧ください。
 
 ### グラフの種類を変更できますか?
 
-はい、グラフの種類を変更するには、`ChartType`チャートを追加するときのパラメータ。 Aspose.Slides for Java は、棒グラフ、折れ線グラフなどのさまざまなグラフの種類をサポートしています。
+はい、チャートの種類を変更するには、`ChartType`グラフを追加するときにパラメーターを指定します。Aspose.Slides for Java は、棒グラフ、折れ線グラフなど、さまざまな種類のグラフをサポートしています。
 
-### 他の例やドキュメントはどこで入手できますか?
+### その他の例やドキュメントはどこで見つかりますか?
 
-包括的なドキュメントとその他の例は、[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)ページ。
+包括的なドキュメントとその他の例については、[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)ページ。
 
-システム リソースを解放するためにプレゼンテーション オブジェクトを使い終わったら、忘れずに破棄してください。
+プレゼンテーション オブジェクトの使用が終わったら、システム リソースを解放するために必ずプレゼンテーション オブジェクトを破棄してください。
 
 ```java
 if (pres != null) pres.dispose();
 ```
 
-このチュートリアルはこれで終わりです。 Aspose.Slides for Java を使用してチャートに位置軸を設定する方法を学習しました。
+このチュートリアルはこれで終わりです。Aspose.Slides for Java を使用してグラフの位置軸を設定する方法を学習しました。

@@ -10,7 +10,7 @@ url: /pl/java/document-protection/remove-write-protection-in-java-slides/
 
 ## Wprowadzenie do usuwania ochrony przed zapisem w slajdach Java
 
-W tym przewodniku krok po kroku dowiemy się, jak usunąć ochronę przed zapisem z prezentacji programu PowerPoint za pomocą języka Java. Ochrona przed zapisem może uniemożliwić użytkownikom wprowadzanie zmian w prezentacji i czasami może być konieczne programowe usunięcie tej funkcji. Do wykonania tego zadania użyjemy biblioteki Aspose.Slides for Java. Zacznijmy!
+tym przewodniku krok po kroku dowiemy się, jak usunąć ochronę przed zapisem z prezentacji programu PowerPoint za pomocą języka Java. Ochrona przed zapisem może uniemożliwić użytkownikom wprowadzanie zmian w prezentacji i czasami może być konieczne programowe usunięcie tej funkcji. Do wykonania tego zadania użyjemy biblioteki Aspose.Slides for Java. Zacznijmy!
 
 ## Warunki wstępne
 
@@ -45,7 +45,7 @@ Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pp
 
 ```java
 try {
-    // Sprawdzanie, czy prezentacja jest zabezpieczona przed zapisem
+    //Sprawdzanie, czy prezentacja jest zabezpieczona przed zapisem
     if (presentation.getProtectionManager().isWriteProtected())
         // Usuwanie ochrony przed zapisem
         presentation.getProtectionManager().removeWriteProtection();
@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 try
 {
-	// Sprawdzanie, czy prezentacja jest zabezpieczona przed zapisem
+	//Sprawdzanie, czy prezentacja jest zabezpieczona przed zapisem
 	if (presentation.getProtectionManager().isWriteProtected())
 		// Usuwanie ochrony przed zapisem
 		presentation.getProtectionManager().removeWriteProtection();

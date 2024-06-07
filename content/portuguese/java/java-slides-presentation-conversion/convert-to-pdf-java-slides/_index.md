@@ -75,7 +75,7 @@ finally
 
 ## Conclusão
 
-Neste tutorial, demonstramos como converter uma apresentação do PowerPoint em um documento PDF usando Aspose.Slides para Java. Você aprendeu como carregar uma apresentação, realizar a conversão e realizar tarefas comuns relacionadas à conversão de PDF. Aspose.Slides fornece ampla funcionalidade para trabalhar com apresentações do PowerPoint, permitindo automatizar várias tarefas em seus aplicativos Java.
+Neste tutorial, demonstramos como converter uma apresentação do PowerPoint em um documento PDF usando Aspose.Slides para Java. Você aprendeu como carregar uma apresentação, realizar a conversão e realizar tarefas comuns relacionadas à conversão de PDF. Aspose.Slides oferece ampla funcionalidade para trabalhar com apresentações do PowerPoint, permitindo automatizar várias tarefas em seus aplicativos Java.
 
 ## Perguntas frequentes
 

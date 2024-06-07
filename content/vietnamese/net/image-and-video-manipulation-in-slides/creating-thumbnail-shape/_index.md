@@ -11,7 +11,7 @@ url: /vi/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 Aspose.Slides for .NET là một thư viện mạnh mẽ hỗ trợ các nhà phát triển làm việc liền mạch với các bản trình bày PowerPoint. Một trong những tính năng đáng chú ý của nó là khả năng tạo hình thu nhỏ cho các hình dạng trong bản trình bày. Hướng dẫn này sẽ hướng dẫn bạn quy trình tạo hình thu nhỏ cho các hình dạng bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-1. Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Slides. Bạn có thể tải nó xuống từ[trang phát hành](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Slides. Bạn có thể tải nó xuống từ[trang phát hành](https://releases.aspose.com/slides/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển phù hợp, chẳng hạn như Visual Studio và có hiểu biết cơ bản về lập trình C#.
 ## Nhập không gian tên
 Để bắt đầu, bạn cần nhập các vùng tên cần thiết vào mã C# của mình. Các không gian tên này tạo điều kiện giao tiếp với thư viện Aspose.Slides. Thêm các dòng sau vào đầu tệp C# của bạn:
@@ -56,4 +56,4 @@ Trả lời: Bạn có thể triển khai cơ chế xử lý lỗi bằng cách 
 ### Câu hỏi: Có bất kỳ hạn chế nào về kích thước hoặc loại hình có thể có hình thu nhỏ không?
 Trả lời: Aspose.Slides mang đến sự linh hoạt trong việc tạo hình thu nhỏ cho nhiều hình dạng khác nhau, bao gồm hộp văn bản, hình ảnh, v.v.
 ### Hỏi: Tôi có thể tùy chỉnh kích thước và độ phân giải của hình thu nhỏ được tạo không?
- A: Có, bạn có thể điều chỉnh các thông số khi gọi`GetThumbnail` phương pháp để kiểm soát kích thước và độ phân giải.
+A: Có, bạn có thể điều chỉnh các thông số khi gọi`GetThumbnail` phương pháp để kiểm soát kích thước và độ phân giải.

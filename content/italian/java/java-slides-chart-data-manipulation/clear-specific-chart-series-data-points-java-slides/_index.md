@@ -10,7 +10,7 @@ url: /it/java/chart-data-manipulation/clear-specific-chart-series-data-points-ja
 
 ## Introduzione alla cancellazione dei dati dei punti dati di serie di grafici specifici nelle diapositive Java
 
-In questo tutorial, ti guideremo attraverso il processo di cancellazione di punti dati specifici da una serie di grafici in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Ciò può essere utile quando desideri rimuovere determinati punti dati da un grafico per aggiornare o modificare la visualizzazione dei dati.
+In questo tutorial ti guideremo attraverso il processo di cancellazione di punti dati specifici da una serie di grafici in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Ciò può essere utile quando desideri rimuovere determinati punti dati da un grafico per aggiornare o modificare la visualizzazione dei dati.
 
 ## Prerequisiti
 
@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Questo codice scorre ciascun punto dati nella prima serie (indice 0) e imposta entrambi i valori X e Y su`null`cancellando efficacemente i punti dati.
+Questo codice scorre ciascun punto dati nella prima serie (indice 0) e imposta entrambi i valori X e Y su`null`, cancellando efficacemente i punti dati.
 
 ## Passaggio 4: rimuovere i punti dati cancellati
 
@@ -116,7 +116,7 @@ Sì, puoi cancellare i punti dati in base a una condizione aggiungendo logica co
 
 ### Come posso aggiungere nuovi punti dati a una serie di grafici utilizzando Aspose.Slides per Java?
 
- Per aggiungere nuovi punti dati a una serie di grafici, puoi utilizzare il file`addDataPoint`metodo della serie. Crea semplicemente nuovi punti dati e aggiungili alla serie utilizzando questo metodo.
+Per aggiungere nuovi punti dati a una serie di grafici, puoi utilizzare il file`addDataPoint` metodo della serie. Crea semplicemente nuovi punti dati e aggiungili alla serie utilizzando questo metodo.
 
 ### Dove posso trovare ulteriori informazioni su Aspose.Slides per Java?
 

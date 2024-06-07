@@ -26,7 +26,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 ```
-## Βήμα 1: Εκκίνηση του Καταλόγου Εγγράφων
+## Βήμα 1: Αρχικοποίηση του Καταλόγου Εγγράφων
 ```csharp
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "Your Document Directory";

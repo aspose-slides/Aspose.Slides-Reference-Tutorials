@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Étape 4 : Personnaliser les options de conversion
 
- Pour personnaliser le processus de conversion, vous pouvez créer une instance du`XpsOptions` classe. Dans l'exemple, nous définissons l'option permettant d'enregistrer les métafichiers sous forme d'images PNG.
+Pour personnaliser le processus de conversion, vous pouvez créer une instance du`XpsOptions` classe. Dans l'exemple, nous définissons l'option permettant d'enregistrer les métafichiers sous forme d'images PNG.
 
 ```java
 XpsOptions opts = new XpsOptions();

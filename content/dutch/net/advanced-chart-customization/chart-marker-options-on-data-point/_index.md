@@ -58,7 +58,7 @@ Hier verkrijgen we de index van het standaard werkblad met grafiekgegevens.
 ## Stap 3: Het werkblad met grafiekgegevens ophalen
 
 ```csharp
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -86,7 +86,7 @@ IPPImage imgx1 = pres.Images.AddImage(img1);
 System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
 IPPImage imgx2 = pres.Images.AddImage(img2);
 
-// Neem de eerste kaartenserie
+// Neem de eerste kaartenreeks
 IChartSeries series = chart.ChartData.Series[0];
 
 // Voeg nieuwe gegevenspunten toe met afbeeldingsvulling
@@ -112,7 +112,7 @@ We stellen afbeeldingsmarkeringen in voor gegevenspunten, zodat u kunt aanpassen
 ## Stap 6: De maat van de markering van de kaartserie wijzigen
 
 ```csharp
-//De grootte van de markering van de kaartserie wijzigen
+// De grootte van de markering van de kaartserie wijzigen
 series.Marker.Size = 15;
 ```
 

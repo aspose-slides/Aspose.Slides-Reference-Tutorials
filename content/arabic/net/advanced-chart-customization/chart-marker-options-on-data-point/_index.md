@@ -58,7 +58,7 @@ int defaultWorksheetIndex = 0;
 ## الخطوة 3: الحصول على ورقة عمل بيانات المخطط
 
 ```csharp
-//الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ## الخطوة 6: تغيير حجم علامة سلسلة المخطط
 
 ```csharp
-//تغيير حجم علامة سلسلة الرسم البياني
+// تغيير حجم علامة سلسلة الرسم البياني
 series.Marker.Size = 15;
 ```
 

@@ -11,7 +11,7 @@ url: /zh-hant/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset
 Aspose.Slides for .NET 是一個功能強大的程式庫，讓開發人員能夠輕鬆操作 PowerPoint 簡報。在本教學中，我們將探索使用 Aspose.Slides for .NET 在圖片框架的左側新增拉伸偏移的過程。請依照此逐步指南增強您在 PowerPoint 簡報中處理影像和形狀的技能。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
-- Aspose.Slides for .NET：確保您已安裝該程式庫。如果沒有，請從以下位置下載[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：確保您已安裝該程式庫。如果沒有，請從以下位置下載[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).
 - 開發環境：擁有具有 .NET 功能的工作開發環境。
 ## 導入命名空間
 首先在 .NET 專案中導入必要的命名空間：
@@ -58,8 +58,8 @@ aShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 ```csharp
 aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
 ```
-## 第 8 步：指定拉伸偏移
-定義影像相對於形狀邊界框對應邊緣的偏移：
+## 步驟 8：指定拉伸偏移
+定義影像相對於形狀邊界框的相應邊緣的偏移：
 ```csharp
 aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
 aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;

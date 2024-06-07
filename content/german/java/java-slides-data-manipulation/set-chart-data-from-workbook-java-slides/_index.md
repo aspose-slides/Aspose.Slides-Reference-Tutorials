@@ -1,8 +1,8 @@
 ---
-title: Legen Sie Diagrammdaten aus der Arbeitsmappe in Java-Folien fest
-linktitle: Legen Sie Diagrammdaten aus der Arbeitsmappe in Java-Folien fest
+title: Festlegen von Diagrammdaten aus der Arbeitsmappe in Java-Folien
+linktitle: Festlegen von Diagrammdaten aus der Arbeitsmappe in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mithilfe von Aspose.Slides Diagrammdaten aus einer Excel-Arbeitsmappe in Java Slides festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen für dynamische Präsentationen.
+description: Erfahren Sie, wie Sie mit Aspose.Slides Diagrammdaten aus einer Excel-Arbeitsmappe in Java Slides festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen für dynamische Präsentationen.
 type: docs
 weight: 15
 url: /de/java/data-manipulation/set-chart-data-from-workbook-java-slides/
@@ -10,14 +10,14 @@ url: /de/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 
 ## Einführung in das Festlegen von Diagrammdaten aus einer Arbeitsmappe in Java-Folien
 
-Aspose.Slides für Java ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten. Es bietet umfangreiche Funktionen zum Erstellen, Bearbeiten und Verwalten von PowerPoint-Folien. Eine häufige Anforderung bei der Arbeit mit Präsentationen besteht darin, Diagrammdaten dynamisch aus einer externen Datenquelle, beispielsweise einer Excel-Arbeitsmappe, festzulegen. In diesem Tutorial zeigen wir Ihnen, wie Sie dies mit Java erreichen.
+Aspose.Slides für Java ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten. Sie bietet umfangreiche Funktionen zum Erstellen, Bearbeiten und Verwalten von PowerPoint-Folien. Eine häufige Anforderung bei der Arbeit mit Präsentationen besteht darin, Diagrammdaten dynamisch aus einer externen Datenquelle, beispielsweise einer Excel-Arbeitsmappe, festzulegen. In diesem Tutorial zeigen wir, wie dies mit Java erreicht werden kann.
 
 ## Voraussetzungen
 
-Bevor wir uns mit der Implementierung befassen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor wir mit der Implementierung beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-- Java Development Kit (JDK) auf Ihrem System installiert.
-- Aspose.Slides für Java-Bibliothek zu Ihrem Projekt hinzugefügt.
+- Auf Ihrem System ist Java Development Kit (JDK) installiert.
+- Aspose.Slides für die Java-Bibliothek zu Ihrem Projekt hinzugefügt.
 - Eine Excel-Arbeitsmappe mit den Daten, die Sie für das Diagramm verwenden möchten.
 
 ## Schritt 1: Erstellen Sie eine Präsentation
@@ -29,7 +29,7 @@ Presentation pres = new Presentation();
 
 Wir beginnen mit der Erstellung einer neuen PowerPoint-Präsentation mit Aspose.Slides für Java.
 
-## Schritt 2: Fügen Sie ein Diagramm hinzu
+## Schritt 2: Diagramm hinzufügen
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
@@ -51,7 +51,7 @@ Wir löschen alle vorhandenen Daten aus dem Diagramm, um es für neue Daten aus 
 Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
 ```
 
- Wir laden die Excel-Arbeitsmappe, die die Daten enthält, die wir für das Diagramm verwenden möchten. Ersetzen`"book1.xlsx"` mit dem Pfad zu Ihrer Excel-Datei.
+ Wir laden die Excel-Arbeitsmappe, die die Daten enthält, die wir für das Diagramm verwenden möchten. Ersetzen Sie`"book1.xlsx"` durch den Pfad zu Ihrer Excel-Datei.
 
 ## Schritt 5: Arbeitsmappen-Stream in Diagrammdaten schreiben
 
@@ -62,17 +62,17 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-Wir konvertieren die Excel-Arbeitsmappendaten in einen Stream und schreiben ihn in die Diagrammdaten.
+Wir konvertieren die Daten der Excel-Arbeitsmappe in einen Stream und schreiben sie in die Diagrammdaten.
 
-## Schritt 6: Legen Sie den Datenbereich des Diagramms fest
+## Schritt 6: Datenbereich des Diagramms festlegen
 
 ```java
 chart.getChartData().setRange("Sheet2!$A$1:$B$3");
 ```
 
-Wir geben den Zellbereich aus der Excel-Arbeitsmappe an, der als Daten für das Diagramm verwendet werden soll. Passen Sie den Bereich nach Bedarf für Ihre Daten an.
+Wir geben den Zellbereich aus der Excel-Arbeitsmappe an, der als Daten für das Diagramm verwendet werden soll. Passen Sie den Bereich nach Bedarf an Ihre Daten an.
 
-## Schritt 7: Diagrammreihen anpassen
+## Schritt 7: Diagrammserien anpassen
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
@@ -89,7 +89,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 Abschließend speichern wir die Präsentation mit den aktualisierten Diagrammdaten im angegebenen Ausgabepfad.
 
-## Vollständiger Quellcode zum Festlegen von Diagrammdaten aus der Arbeitsmappe in Java-Folien
+## Vollständiger Quellcode zum Festlegen von Diagrammdaten aus einer Arbeitsmappe in Java-Folien
 
 ```java
 String outPath = RunExamples.getOutPath() + "response2.pptx";
@@ -119,26 +119,26 @@ try {
 
 ## Abschluss
 
-In diesem Tutorial haben wir gelernt, wie man mithilfe der Aspose.Slides for Java-Bibliothek Diagrammdaten aus einer Excel-Arbeitsmappe in Java Slides festlegt. Indem Sie der Schritt-für-Schritt-Anleitung folgen und die bereitgestellten Quellcode-Beispiele verwenden, können Sie dynamische Diagrammdaten problemlos in Ihre PowerPoint-Präsentationen integrieren.
+In diesem Tutorial haben wir gelernt, wie Sie mithilfe der Bibliothek Aspose.Slides für Java Diagrammdaten aus einer Excel-Arbeitsmappe in Java Slides festlegen. Indem Sie der Schritt-für-Schritt-Anleitung folgen und die bereitgestellten Quellcodebeispiele verwenden, können Sie dynamische Diagrammdaten problemlos in Ihre PowerPoint-Präsentationen integrieren.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie kann ich das Erscheinungsbild des Diagramms in meiner Präsentation anpassen?
 
-Sie können das Erscheinungsbild des Diagramms anpassen, indem Sie Eigenschaften wie Farben, Schriftarten, Beschriftungen usw. ändern. Ausführliche Informationen zu Diagrammanpassungsoptionen finden Sie in der Dokumentation zu Aspose.Slides für Java.
+Sie können das Erscheinungsbild des Diagramms anpassen, indem Sie Eigenschaften wie Farben, Schriftarten, Beschriftungen usw. ändern. Detaillierte Informationen zu den Anpassungsoptionen für Diagramme finden Sie in der Dokumentation zu Aspose.Slides für Java.
 
-### Kann ich Daten aus einer anderen Excel-Datei für das Diagramm verwenden?
+### Kann ich für das Diagramm Daten aus einer anderen Excel-Datei verwenden?
 
-Ja, Sie können Daten aus jeder Excel-Datei verwenden, indem Sie beim Laden der Arbeitsmappe im Code den richtigen Dateipfad angeben.
+Ja, Sie können Daten aus jeder beliebigen Excel-Datei verwenden, indem Sie beim Laden der Arbeitsmappe im Code den richtigen Dateipfad angeben.
 
-### Welche anderen Arten von Diagrammen kann ich mit Aspose.Slides für Java erstellen?
+### Welche anderen Diagrammtypen kann ich mit Aspose.Slides für Java erstellen?
 
-Aspose.Slides für Java unterstützt verschiedene Diagrammtypen, darunter Balkendiagramme, Liniendiagramme, Streudiagramme und mehr. Sie können den Diagrammtyp auswählen, der Ihren Datendarstellungsanforderungen am besten entspricht.
+Aspose.Slides für Java unterstützt verschiedene Diagrammtypen, darunter Balkendiagramme, Liniendiagramme, Streudiagramme und mehr. Sie können den Diagrammtyp auswählen, der Ihren Anforderungen an die Datendarstellung am besten entspricht.
 
-### Ist es möglich, die Diagrammdaten in einer laufenden Präsentation dynamisch zu aktualisieren?
+### Ist es möglich, die Diagrammdaten während einer laufenden Präsentation dynamisch zu aktualisieren?
 
 Ja, Sie können Diagrammdaten in einer Präsentation dynamisch aktualisieren, indem Sie die zugrunde liegende Arbeitsmappe ändern und dann die Diagrammdaten aktualisieren.
 
-### Wo finde ich weitere Beispiele und Ressourcen für die Arbeit mit Aspose.Slides für Java?
+### Wo finde ich weitere Beispiele und Ressourcen zur Arbeit mit Aspose.Slides für Java?
 
- Weitere Beispiele und Ressourcen finden Sie unter[Aspose-Website](https://www.aspose.com/). Darüber hinaus bietet die Dokumentation zu Aspose.Slides für Java umfassende Anleitungen zum Arbeiten mit der Bibliothek.
+ Weitere Beispiele und Ressourcen finden Sie auf der[Aspose-Website](https://www.aspose.com/). Darüber hinaus bietet die Aspose.Slides für Java-Dokumentation umfassende Anleitungen zur Arbeit mit der Bibliothek.

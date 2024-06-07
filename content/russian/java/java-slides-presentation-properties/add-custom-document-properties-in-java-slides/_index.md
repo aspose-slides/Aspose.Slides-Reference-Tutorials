@@ -14,7 +14,7 @@ url: /ru/java/presentation-properties/add-custom-document-properties-in-java-sli
 
 ## Предварительные условия
 
-Прежде чем начать, убедитесь, что у вас установлена и настроена библиотека Aspose.Slides for Java в вашем Java-проекте.
+Прежде чем начать, убедитесь, что у вас установлена и настроена библиотека Aspose.Slides for Java в вашем проекте Java.
 
 ## Шаг 1. Импортируйте необходимые пакеты
 

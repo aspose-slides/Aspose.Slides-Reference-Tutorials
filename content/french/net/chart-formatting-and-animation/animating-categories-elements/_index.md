@@ -96,7 +96,7 @@ Le même processus se poursuit pour la catégorie 2, en animant ses éléments i
 ## Étape 4 : Enregistrez la présentation
 
 ```csharp
-//Écrire le fichier de présentation sur le disque
+// Écrire le fichier de présentation sur le disque
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

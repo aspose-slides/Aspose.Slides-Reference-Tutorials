@@ -40,7 +40,7 @@ INotesCommentsLayoutingOptions options = pdfOptions.getNotesCommentsLayouting();
 options.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-U kunt andere PDF-opties aanpassen aan uw vereisten.
+U kunt andere PDF-opties aanpassen aan uw wensen.
 
 ## Stap 4: Sla de presentatie op als PDF met notities
 Laten we ten slotte de presentatie opslaan als PDF-bestand, inclusief de aantekeningen. U kunt de naam van het uitvoerbestand opgeven (bijv.`"Pdf_Notes_out.pdf"`) en kies het formaat (`SaveFormat.Pdf`). Hier is de code om dat te doen:

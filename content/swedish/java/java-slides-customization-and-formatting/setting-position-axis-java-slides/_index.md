@@ -99,4 +99,4 @@ Kom ihåg att kassera presentationsobjektet när du är klar med det för att fr
 if (pres != null) pres.dispose();
 ```
 
-Det var allt för den här handledningen. Du har lärt dig hur du ställer in positionsaxeln i ett diagram med Aspose.Slides för Java.
+Det var allt för denna handledning. Du har lärt dig hur du ställer in positionsaxeln i ett diagram med Aspose.Slides för Java.

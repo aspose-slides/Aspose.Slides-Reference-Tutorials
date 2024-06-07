@@ -10,7 +10,7 @@ url: /hu/net/slide-comments-manipulation/
 
 ## Bevezetés
 
-Üdvözöljük az Aspose.Slides oktatóanyagában a dia megjegyzésekkel való manipulációról! Ebben az oktatóanyagban belemerülünk a megjegyzések kezelésének világába a PowerPoint-prezentációkban az Aspose.Slides API for .NET használatával. Akár magyarázó megjegyzéseket szeretne hozzáadni, akár a csapattagokkal szeretne együttműködni, akár visszajelzést szeretne adni a prezentációkkal kapcsolatban, a dia megjegyzéseinek programozott manipulálása hatékony módot kínál a munkafolyamat egyszerűsítésére.
+Üdvözöljük az Aspose.Slides oktatóanyagában a dia megjegyzésekkel való manipulációról! Ebben az oktatóanyagban belemerülünk a megjegyzések kezelésének világába a PowerPoint-prezentációkban az Aspose.Slides API for .NET használatával. Függetlenül attól, hogy magyarázó megjegyzéseket szeretne hozzáadni, együttműködik a csapattagokkal, vagy visszajelzést szeretne adni a prezentációkról, a dia megjegyzéseinek programozott manipulálása hatékony módot kínál a munkafolyamat egyszerűsítésére.
 
 Ebben az oktatóanyag-sorozatban megtudhatja, hogyan kommunikálhat a megjegyzésekkel, hogyan hozhat létre új megjegyzéseket, módosíthatja a meglévőket, és hogyan rendezheti őket a diákon belül. Végigvezetjük a teljes folyamaton, a dia megjegyzéseinek elérésétől a szerkesztésekig és a formázási módosításokig. Ennek az oktatóanyagnak a végére rendelkezni fog azzal a tudással és készségekkel, amelyekkel zökkenőmentesen integrálhatja a diakommentárok kezelését .NET-alkalmazásaiba, így időt és erőfeszítést takaríthat meg.
 
@@ -18,7 +18,7 @@ Tehát, akár fejlesztő, aki a prezentációkkal kapcsolatos együttműködést
 
 ## Dia megjegyzések Manipulációs oktatóanyagok
 ### [Dia megjegyzések Manipuláció az Aspose.Slides használatával](./slide-comments-manipulation/)
-Ismerje meg, hogyan kezelheti a diák megjegyzéseit PowerPoint-prezentációkban az Aspose.Slides API for .NET használatával. Fedezze fel a lépésenkénti útmutatókat és a forráskód példákat a dia megjegyzések hozzáadásához, szerkesztéséhez és formázásához. 
+Ismerje meg, hogyan kezelheti a diák megjegyzéseit PowerPoint-prezentációkban az Aspose.Slides API for .NET használatával. Fedezze fel a lépésenkénti útmutatókat és a forráskód-példákat a dia megjegyzések hozzáadásához, szerkesztéséhez és formázásához. 
 ### [Hozzáférés a Dia megjegyzésekhez](./access-slide-comments/)
 Ismerje meg, hogyan érheti el a dia megjegyzéseit az Aspose.Slides API for .NET használatával. Lépésről lépésre, kódpéldákkal és GYIK-ekkel a zökkenőmentes élmény érdekében.
 ### [Szülői megjegyzések hozzáadása a diához](./add-parent-comments/)

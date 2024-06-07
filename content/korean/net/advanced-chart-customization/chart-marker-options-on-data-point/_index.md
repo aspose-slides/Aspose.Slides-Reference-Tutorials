@@ -58,7 +58,7 @@ int defaultWorksheetIndex = 0;
 ## 3단계: 차트 데이터 워크시트 가져오기
 
 ```csharp
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ## 6단계: 차트 시리즈 표시자 크기 변경
 
 ```csharp
-//차트 시리즈 마커 크기 변경
+// 차트 시리즈 마커 크기 변경
 series.Marker.Size = 15;
 ```
 

@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // แทนที่ "your_out
 Presentation pres = new Presentation();
 ```
 
- ในโค้ดด้านบน เรากำหนดเส้นทางสำหรับไฟล์การนำเสนอเอาท์พุตและสร้างไฟล์ใหม่`Presentation` วัตถุ.
+ในโค้ดด้านบน เรากำหนดเส้นทางสำหรับไฟล์การนำเสนอเอาท์พุตและสร้างไฟล์ใหม่`Presentation` วัตถุ.
 
 ## ขั้นตอนที่ 2: ตั้งค่า ClsId ไดเรกทอรีราก
 
- หากต้องการตั้งค่า Root Directory ClsId คุณต้องสร้างอินสแตนซ์ของ`PptOptions`และตั้งค่า CLSID ที่ต้องการ CLSID แสดงถึงแอปพลิเคชันที่จะใช้เป็นไดเร็กทอรีรากเมื่อเปิดใช้งานไฮเปอร์ลิงก์
+ หากต้องการตั้งค่า Root Directory ClsId คุณต้องสร้างอินสแตนซ์ของ`PptOptions` และตั้งค่า CLSID ที่ต้องการ CLSID แสดงถึงแอปพลิเคชันที่จะใช้เป็นไดเร็กทอรีรากเมื่อเปิดใช้งานไฮเปอร์ลิงก์
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// ตั้งค่า CLSID เป็น 'Microsoft Powerpoint.Show.8'
+	//ตั้งค่า CLSID เป็น 'Microsoft Powerpoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// บันทึกการนำเสนอ
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

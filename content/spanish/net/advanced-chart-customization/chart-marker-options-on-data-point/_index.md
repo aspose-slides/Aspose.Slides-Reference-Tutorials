@@ -58,7 +58,7 @@ Aquí obtenemos el índice de la hoja de trabajo de datos del gráfico predeterm
 ## Paso 3: Obtener la hoja de trabajo de datos del gráfico
 
 ```csharp
-//Obtener la hoja de trabajo de datos del gráfico
+// Obtener la hoja de trabajo de datos del gráfico
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Configuramos marcadores de imágenes para puntos de datos, lo que le permite per
 ## Paso 6: cambiar el tamaño del marcador de la serie de gráficos
 
 ```csharp
-//Cambiar el tamaño del marcador de serie de gráficos
+// Cambiar el tamaño del marcador de serie de gráficos
 series.Marker.Size = 15;
 ```
 

@@ -42,7 +42,7 @@ Ambil slide pertama dari presentasi untuk dikerjakan.
 ISlide sld = pres.Slides[0];
 ```
 ## Langkah 4: Buat instance Kelas ImageEx
- Buat sebuah instance dari`ImageEx` kelas untuk menangani gambar yang ingin Anda tambahkan ke slide.
+ Buat sebuah instance dari`ImageEx`kelas untuk menangani gambar yang ingin Anda tambahkan ke slide.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

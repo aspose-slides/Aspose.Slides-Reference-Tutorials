@@ -12,7 +12,7 @@ Dalam hal mengelola dan memanipulasi presentasi, Aspose.Slides untuk .NET menawa
 
 ## Pengantar Teks Alternatif Bentuk Grup
 
-Teks alternatif, juga dikenal sebagai teks alternatif, adalah komponen penting dalam membuat presentasi dapat diakses oleh individu dengan gangguan penglihatan. Ini memberikan deskripsi tekstual tentang gambar, bentuk, dan elemen visual lainnya, memungkinkan pembaca layar menyampaikan konten kepada pengguna yang tidak dapat melihat visualnya. Jika menyangkut bentuk grup, yang terdiri dari beberapa bentuk yang dikelompokkan bersama, mengakses dan memodifikasi teks alternatif memerlukan teknik khusus.
+Teks alternatif, juga dikenal sebagai teks alternatif, adalah komponen penting dalam membuat presentasi dapat diakses oleh individu dengan gangguan penglihatan. Ini memberikan deskripsi tekstual tentang gambar, bentuk, dan elemen visual lainnya, memungkinkan pembaca layar menyampaikan konten kepada pengguna yang tidak dapat melihat visualnya. Terkait bentuk grup, yang terdiri dari beberapa bentuk yang dikelompokkan bersama, mengakses dan memodifikasi teks alternatif memerlukan teknik khusus.
 
 ## Menyiapkan Lingkungan Pengembangan Anda
 

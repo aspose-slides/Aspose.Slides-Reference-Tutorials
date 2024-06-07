@@ -16,7 +16,7 @@ In questo tutorial imparerai come aprire una presentazione protetta da password 
 
 Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
-1.  Aspose.Slides per Java Library: assicurati di aver scaricato e installato la libreria Aspose.Slides per Java. Puoi ottenerlo da[Sito web Aspose](https://products.aspose.com/slides/java/).
+1. Aspose.Slides per Java Library: assicurati di aver scaricato e installato la libreria Aspose.Slides per Java. Puoi ottenerlo da[Sito web Aspose](https://products.aspose.com/slides/java/).
 
 2.  Ambiente di sviluppo Java: configura un ambiente di sviluppo Java sul tuo sistema se non lo hai già fatto. È possibile scaricare Java da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Sostituisci "pass" con la password della pre
 
 ## Passaggio 3: apri la presentazione
 
- Ora aprirai la presentazione protetta da password utilizzando il file`Presentation` costruttore della classe, che accetta il percorso del file e le opzioni di caricamento come parametri.
+ Ora aprirai la presentazione protetta da password utilizzando il file`Presentation`costruttore della classe, che accetta il percorso del file e le opzioni di caricamento come parametri.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -96,7 +96,7 @@ In questo tutorial, hai imparato come aprire una presentazione protetta da passw
 
 ### Come faccio a impostare la password per una presentazione?
 
-Per impostare la password per una presentazione, utilizzare il file`loadOptions.setPassword("password")` metodo, dove`"password"` dovrebbe essere sostituita con la password desiderata.
+ Per impostare la password per una presentazione, utilizzare il file`loadOptions.setPassword("password")` metodo, dove`"password"` dovrebbe essere sostituita con la password desiderata.
 
 ### Posso aprire presentazioni con formati diversi, come PPT e PPTX?
 

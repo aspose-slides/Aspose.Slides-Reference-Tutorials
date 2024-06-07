@@ -89,7 +89,7 @@ chart.getChartDataTable().getTextFormat().getPortionFormat().setFontColor(Color.
 
 ### Czy mogę zmienić czcionkę innego tekstu na slajdach?
 
-Tak, możesz zmienić czcionkę innych elementów tekstowych na slajdach, takich jak tytuły i etykiety. Użyj odpowiednich obiektów i metod, aby uzyskać dostęp do właściwości czcionki i dostosować je do określonych elementów tekstowych.
+Tak, możesz zmienić czcionkę innych elementów tekstowych na slajdach, takich jak tytuły i etykiety. Użyj odpowiednich obiektów i metod, aby uzyskać dostęp i dostosować właściwości czcionki dla określonych elementów tekstowych.
 
 ### Jak ustawić styl czcionki kursywy?
 

@@ -56,6 +56,6 @@ A: 예, 특정 슬라이드를 선택적으로 인쇄하도록 코드를 수정�
 ### Q: Aspose.Slides에 대한 추가 지원이나 질문은 어디서 찾을 수 있나요?
  A: Aspose.Slides를 방문하세요.[지원 포럼](https://forum.aspose.com/c/slides/11) 도움을 위해.
 ### Q: 구매하기 전에 Aspose.Slides를 무료로 사용해 볼 수 있나요?
-답: 물론이죠! 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
+ 답: 물론이죠! 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
 ### Q: .NET용 Aspose.Slides를 어떻게 구매하나요?
  A: 도서관을 구입하실 수 있습니다[여기](https://purchase.aspose.com/buy).

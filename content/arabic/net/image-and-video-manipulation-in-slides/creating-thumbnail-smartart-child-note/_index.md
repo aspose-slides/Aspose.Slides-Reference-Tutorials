@@ -11,7 +11,7 @@ url: /ar/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 في عالم العروض التقديمية الديناميكية، يبرز Aspose.Slides for .NET كأداة قوية توفر للمطورين القدرة على التعامل مع عروض PowerPoint التقديمية وتحسينها برمجيًا. إحدى الميزات المثيرة للاهتمام هي القدرة على إنشاء صور مصغرة لملاحظات SmartArt Child Notes، مما يضيف طبقة من الجاذبية المرئية إلى العروض التقديمية الخاصة بك. سيرشدك هذا الدليل خطوة بخطوة خلال عملية إنشاء صور مصغرة لملاحظات SmartArt Child Notes باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-- Aspose.Slides for .NET: تأكد من دمج مكتبة Aspose.Slides في مشروع .NET الخاص بك. إذا لم يكن الأمر كذلك، قم بتنزيله من[صفحة الإصدارات](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: تأكد من دمج مكتبة Aspose.Slides في مشروع .NET الخاص بك. إذا لم يكن الأمر كذلك، قم بتنزيله من[صفحة الإصدارات](https://releases.aspose.com/slides/net/).
 - بيئة التطوير: قم بإعداد بيئة تطوير .NET عاملة، واحصل على فهم أساسي لبرمجة C#.
 - نموذج عرض تقديمي: قم بإنشاء أو الحصول على عرض تقديمي لـ PowerPoint يحتوي على SmartArt مع ملاحظات فرعية للاختبار.
 ## استيراد مساحات الأسماء
@@ -22,7 +22,7 @@ using System.Drawing.Imaging;
 using Aspose.Slides.SmartArt;
 using Aspose.Slides;
 ```
-## الخطوة 1: إنشاء مثيل لفئة العرض التقديمي
+## الخطوة 1: إنشاء فئة العرض التقديمي
  ابدأ بإنشاء مثيل لـ`Presentation` class، يمثل ملف PPTX الذي ستعمل معه.
 ```csharp
 string dataDir = "Your Documents Directory";
@@ -57,8 +57,8 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
 ### س: هل يدعم Aspose.Slides تخطيطات SmartArt الأخرى؟
 ج: بالتأكيد! يقدم Aspose.Slides مجموعة متنوعة من تخطيطات SmartArt، مما يسمح لك باختيار التخطيط الذي يناسب احتياجات العرض التقديمي الخاص بك.
 ### س: هل الترخيص المؤقت متاح لأغراض الاختبار؟
-ج: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/) للاختبار والتقييم.
+ ج: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/) للاختبار والتقييم.
 ### س: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.Slides؟
- ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للتواصل مع المجتمع وطرح الأسئلة وإيجاد الحلول.
+ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للتواصل مع المجتمع وطرح الأسئلة وإيجاد الحلول.
 ### س: هل يمكنني شراء Aspose.Slides لـ .NET؟
  ج: بالتأكيد! استكشاف خيارات الشراء[هنا](https://purchase.aspose.com/buy) لفتح الإمكانات الكاملة لـ Aspose.Slides في مشاريعك.

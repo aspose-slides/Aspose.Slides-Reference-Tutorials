@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- Trong đoạn mã này, thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục tài liệu của bạn và`"YourPresentation.pptx"` với tên của bản trình bày PowerPoint của bạn.
+ Trong đoạn mã này, thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn và`"YourPresentation.pptx"` với tên của bản trình bày PowerPoint của bạn.
 
 ### Bước 3: Định cấu hình tùy chọn PDF
 

@@ -44,7 +44,7 @@ Naučte se vytvářet snímky Java s výchozími značkami v grafech pomocí Asp
 Naučte se upravovat data grafu v externím sešitu pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
 ### [Graf trychtýře v Java Slides](./funnel-chart-java-slides/)
 Naučte se vytvářet trychtýřové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro efektivní vizualizaci dat.
-### [Histogramový graf v Java Slides](./histogram-chart-java-slides/)
+### [Histogram Chart v Java Slides](./histogram-chart-java-slides/)
 Naučte se vytvářet histogramové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vizualizaci dat.
 ### [Multi-Category Chart v Java Slides](./multi-category-chart-java-slides/)
 Vytvářejte vícekategorní grafy v Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce se zdrojovým kódem pro působivou vizualizaci dat v prezentacích.

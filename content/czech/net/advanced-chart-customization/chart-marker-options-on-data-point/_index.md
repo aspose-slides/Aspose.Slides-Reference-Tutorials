@@ -58,7 +58,7 @@ Zde získáme index výchozího listu dat grafu.
 ## Krok 3: Získání listu dat grafu
 
 ```csharp
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Nastavili jsme obrázkové značky pro datové body, což vám umožní přizpů
 ## Krok 6: Změna velikosti značky řady grafů
 
 ```csharp
-//Změna velikosti značky řady grafů
+// Změna velikosti značky řady grafu
 series.Marker.Size = 15;
 ```
 

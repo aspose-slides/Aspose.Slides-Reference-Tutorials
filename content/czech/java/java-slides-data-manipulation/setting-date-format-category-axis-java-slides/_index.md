@@ -10,13 +10,13 @@ url: /cs/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ## Úvod do nastavení formátu data pro osu kategorií v Java Slides
 
-tomto tutoriálu se naučíme, jak nastavit formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides pro Java. Aspose.Slides for Java je výkonná knihovna, která vám umožňuje programově vytvářet, manipulovat a spravovat prezentace PowerPoint.
+V tomto tutoriálu se naučíme, jak nastavit formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides pro Java. Aspose.Slides for Java je výkonná knihovna, která vám umožňuje programově vytvářet, manipulovat a spravovat prezentace PowerPoint.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
-1.  Knihovna Aspose.Slides for Java (můžete si ji stáhnout z[tady](https://releases.aspose.com/slides/java/).
+1. Knihovna Aspose.Slides for Java (můžete si ji stáhnout z[tady](https://releases.aspose.com/slides/java/).
 2. Nastavení vývojového prostředí Java.
 
 ## Krok 1: Vytvořte prezentaci v PowerPointu
@@ -78,7 +78,7 @@ Nakonec uložte prezentaci v PowerPointu.
 pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 ```
 
-je to! Úspěšně jste nastavili formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides for Java.
+A je to! Úspěšně jste nastavili formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides for Java.
 
 ## Kompletní zdrojový kód pro nastavení formátu data pro osu kategorií v Java Slides
 
@@ -138,4 +138,4 @@ Ano, můžete nastavit různé formáty data pro osy kategorií v různých graf
 
 ### Jak přidám do grafu další datové body?
 
- Chcete-li do grafu přidat další datové body, použijte`getDataPoints().addDataPointForLineSeries` na datové řadě a poskytnout hodnoty dat.
+ Chcete-li do grafu přidat další datové body, použijte`getDataPoints().addDataPointForLineSeries`na datové řadě a poskytnout hodnoty dat.

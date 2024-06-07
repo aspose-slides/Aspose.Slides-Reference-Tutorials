@@ -53,7 +53,7 @@ Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx")
 
  Nous chargeons le classeur Excel contenant les données que nous souhaitons utiliser pour le graphique. Remplacer`"book1.xlsx"` avec le chemin d'accès à votre fichier Excel.
 
-## Étape 5 : Écrire un flux de classeur pour tracer des données
+## Étape 5 : Écrire un flux de classeur dans un graphique de données
 
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();

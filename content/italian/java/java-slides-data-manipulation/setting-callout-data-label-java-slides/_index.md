@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Personalizza la formattazione dell'etichetta (carattere, riempimento, ecc.)
+        //Personalizza la formattazione dell'etichetta (carattere, riempimento, ecc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Come posso abilitare o disabilitare i callout per le etichette dati?
 
- Per abilitare o disabilitare i callout per le etichette dati, utilizzare il file`setShowLabelAsDataCallout` metodo. Impostalo su`true` per abilitare i callout e`false` per disabilitarli.
+ Per abilitare o disabilitare i callout per le etichette dati, utilizzare il file`setShowLabelAsDataCallout` metodo. Impostalo su`true` per abilitare i callout e`false`per disabilitarli.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Abilita callout

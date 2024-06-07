@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Personalize a formatação da etiqueta (fonte, preenchimento, etc.)
+        //Personalize a formatação da etiqueta (fonte, preenchimento, etc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Como posso ativar ou desativar chamadas para rótulos de dados?
 
- Para ativar ou desativar chamadas para rótulos de dados, use o`setShowLabelAsDataCallout` método. Defina-o para`true` para ativar chamadas e`false` para desativá-los.
+ Para ativar ou desativar chamadas para rótulos de dados, use o`setShowLabelAsDataCallout` método. Defina-o para`true` para ativar chamadas e`false`para desativá-los.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Ativar frases de destaque

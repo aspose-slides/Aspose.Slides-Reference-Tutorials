@@ -10,7 +10,7 @@ url: /fr/net/presentation-manipulation/convert-presentation-to-tiff-with-default
 
 ## Introduction
 
-Aspose.Slides for .NET est une bibliothèque robuste qui fournit des fonctionnalités complètes pour créer, modifier et convertir des présentations PowerPoint par programme. L'une de ses fonctionnalités remarquables est la possibilité de convertir des présentations en différents formats d'image, y compris TIFF.
+Aspose.Slides pour .NET est une bibliothèque robuste qui fournit des fonctionnalités complètes pour créer, modifier et convertir des présentations PowerPoint par programme. L'une de ses fonctionnalités remarquables est la possibilité de convertir des présentations en différents formats d'image, y compris TIFF.
 
 ## Conditions préalables
 

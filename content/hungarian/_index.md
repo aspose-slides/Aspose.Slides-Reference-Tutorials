@@ -35,7 +35,7 @@ Ezek a linkek néhány hasznos forráshoz:
 - [Diagram formázás és animáció](./net/chart-formatting-and-animation/)
 - [Speciális diagram testreszabása](./net/advanced-chart-customization/)
 - [További diagram funkciók](./net/additional-chart-features/)
-- [Nyomtatás és renderelés a Diákban](./net/printing-and-rendering-in-slides/)
+- [Nyomtatás és renderelés a diákban](./net/printing-and-rendering-in-slides/)
 - [Alakhatások és manipuláció a diákban](./net/shape-effects-and-manipulation-in-slides/)
 - [Kép- és videómanipuláció a Diákban](./net/image-and-video-manipulation-in-slides/)
 - [Alakzat geometria és pozicionálás a diákban](./net/shape-geometry-and-positioning-in-slides/)

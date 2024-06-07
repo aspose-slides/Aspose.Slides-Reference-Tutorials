@@ -2,7 +2,7 @@
 title: Alternatív szöveg elérése csoportformákban az Aspose.Slides segítségével
 linktitle: Alternatív szöveg elérése csoportformákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan érhet el alternatív szöveget csoportformákban az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
+description: Ismerje meg, hogyan érhet el alternatív szöveget csoportformákban az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 type: docs
 weight: 10
 url: /hu/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/

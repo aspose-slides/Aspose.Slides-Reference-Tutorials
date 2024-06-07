@@ -56,7 +56,7 @@ using (var presentation = new Presentation(presentationPath))
 색인으로 슬라이드에 액세스하려면:
 
 ```csharp
-int slideIndex = 0; // 원하는 인덱스로 교체
+int slideIndex = 0; //원하는 인덱스로 교체
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

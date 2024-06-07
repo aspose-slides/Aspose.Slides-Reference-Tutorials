@@ -58,7 +58,7 @@ try {
 ```java
         // Η διαδρομή προς τον κατάλογο εγγράφων.
         String dataDir = "Your Document Directory";
-        // Άνοιγμα του αρχείου παρουσίασης περνώντας τη διαδρομή αρχείου στον κατασκευαστή της κλάσης Presentation
+        //Άνοιγμα του αρχείου παρουσίασης περνώντας τη διαδρομή αρχείου στον κατασκευαστή της κλάσης Presentation
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- Yukarıdaki kodda değiştirin`"Your Document Directory"`belge dizininizin gerçek yolu ile ve`"Hyperlink.pptx"` PowerPoint sunum dosyanızın adıyla.
+ Yukarıdaki kodda değiştirin`"Your Document Directory"` belge dizininizin gerçek yolu ile ve`"Hyperlink.pptx"` PowerPoint sunum dosyanızın adıyla.
 
 ## 3. Adım: Köprüleri Kaldır
 

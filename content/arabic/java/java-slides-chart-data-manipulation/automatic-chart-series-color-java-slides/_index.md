@@ -47,7 +47,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```java
 // إعداد فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
-//الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات المخطط
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
 chart.getChartData().getSeries().clear();
@@ -70,14 +70,14 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 ```java
 // خذ سلسلة الرسم البياني الأولى
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// الآن ملء بيانات السلسلة
+//الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // خذ سلسلة الرسم البياني الثانية
 series = chart.getChartData().getSeries().get_Item(1);
-// الآن ملء بيانات السلسلة
+//الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// إعداد فهرس ورقة بيانات الرسم البياني
 	int defaultWorksheetIndex = 0;
-	//الحصول على ورقة عمل بيانات المخطط
+	// الحصول على ورقة عمل بيانات المخطط
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
 	chart.getChartData().getSeries().clear();
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// خذ سلسلة الرسم البياني الأولى
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// الآن ملء بيانات السلسلة
+	//الآن ملء بيانات السلسلة
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// خذ سلسلة الرسم البياني الثانية
 	series = chart.getChartData().getSeries().get_Item(1);
-	// الآن ملء بيانات السلسلة
+	//الآن ملء بيانات السلسلة
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// تحديد لون التعبئة للسلسلة
+	//تحديد لون التعبئة للسلسلة
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// حفظ العرض التقديمي مع الرسم البياني
@@ -160,7 +160,7 @@ finally
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، تعلمنا كيفية إنشاء عرض تقديمي لـ PowerPoint باستخدام مخطط باستخدام Aspose.Slides لـ Java وتعيين ألوان التعبئة التلقائية لسلسلة المخططات. يمكن للألوان التلقائية أن تعزز المظهر المرئي لمخططاتك وتجعل عروضك التقديمية أكثر جاذبية. يمكنك أيضًا تخصيص المخطط حسب الحاجة لمتطلباتك المحددة.
+في هذا البرنامج التعليمي، تعلمنا كيفية إنشاء عرض تقديمي لبرنامج PowerPoint باستخدام مخطط باستخدام Aspose.Slides لـ Java وتعيين ألوان التعبئة التلقائية لسلسلة المخططات. يمكن للألوان التلقائية أن تعزز المظهر المرئي لمخططاتك وتجعل عروضك التقديمية أكثر جاذبية. يمكنك أيضًا تخصيص المخطط حسب الحاجة لمتطلباتك المحددة.
 
 ## الأسئلة الشائعة
 
@@ -181,7 +181,7 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### كيف يمكنني إضافة سلسلة أو فئات إضافية إلى المخطط؟
 
- لإضافة سلسلة أو فئات إضافية إلى المخطط، استخدم`getSeries()` و`getCategories()` طرق الرسم البياني`ChartData` هدف. يمكنك إضافة سلاسل وفئات جديدة عن طريق تحديد بياناتها وتسمياتها.
+لإضافة سلسلة أو فئات إضافية إلى المخطط، استخدم`getSeries()` و`getCategories()` طرق الرسم البياني`ChartData` هدف. يمكنك إضافة سلاسل وفئات جديدة عن طريق تحديد بياناتها وتسمياتها.
 
 ### هل من الممكن مواصلة تنسيق الرسم البياني والتسميات؟
 

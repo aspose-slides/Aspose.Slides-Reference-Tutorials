@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## Stap 3: Laad de presentatie
 
-Laten we nu de presentatie laden die u wilt converteren. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw presentatiebestand:
+ Laten we nu de presentatie laden die u wilt converteren. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw presentatiebestand:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Gefeliciteerd! U hebt een presentatie met succes geconverteerd naar responsieve 
 
 ### Kan ik de HTML-uitvoer verder aanpassen?
 
- Ja, u kunt de HTML-uitvoer aanpassen door het`ResponsiveHtmlController` En`HtmlOptions`voorwerpen. Hierdoor kunt u de HTML-uitvoer afstemmen op uw specifieke vereisten.
+ Ja, u kunt de HTML-uitvoer aanpassen door het`ResponsiveHtmlController` En`HtmlOptions` voorwerpen. Hierdoor kunt u de HTML-uitvoer afstemmen op uw specifieke vereisten.
 
 ### Zijn er licentievereisten voor Aspose.Slides voor Java?
 

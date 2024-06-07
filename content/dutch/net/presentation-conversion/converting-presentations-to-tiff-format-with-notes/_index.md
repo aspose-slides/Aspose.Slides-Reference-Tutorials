@@ -35,7 +35,7 @@ Presentation pres = new Presentation(srcFileName);
 
 ## Converteren naar TIFF met Notes
 
-Laten we nu doorgaan met het converteren van de geladen presentatie naar het TIFF-formaat met behoud van de aantekeningen. Aspose.Slides voor .NET maakt dit proces eenvoudig:
+Laten we nu doorgaan met het converteren van de geladen presentatie naar TIFF-indeling met behoud van de aantekeningen. Aspose.Slides voor .NET maakt dit proces eenvoudig:
 
 ```csharp
 string outPath = "Your Output Directory";

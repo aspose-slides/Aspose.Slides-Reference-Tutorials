@@ -56,7 +56,7 @@ Presentation pres = new Presentation();
 
 ## 5. lépés: Adja hozzá a Blob képet
 
-Itt az ideje, hogy hozzáadja a Blob képet a bemutatóhoz. Használjuk a`addImage` módszer ennek elérésére.
+ Itt az ideje, hogy hozzáadja a Blob képet a bemutatóhoz. Használjuk a`addImage`módszer ennek elérésére.
 
 ```java
 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
@@ -116,7 +116,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá Blob-képet egy prezent�
 
 ### Hogyan telepíthetem az Aspose.Slides for Java programot?
 
- Az Aspose.Slides for Java könnyen telepíthető, ha letölti a könyvtárat a webhelyről[itt](https://releases.aspose.com/slides/java/). Kövesse a mellékelt telepítési utasításokat a Java projektbe való integrálásához.
+Az Aspose.Slides for Java könnyen telepíthető, ha letölti a könyvtárat a webhelyről[itt](https://releases.aspose.com/slides/java/). Kövesse a mellékelt telepítési utasításokat a Java projektbe való integrálásához.
 
 ### Hozzáadhatok több Blob-képet egyetlen prezentációhoz?
 
@@ -128,7 +128,7 @@ A bemutatókhoz tanácsos olyan általános képformátumokat használni, mint a
 
 ### Hogyan szabhatom testre a hozzáadott Blob kép helyzetét és méretét?
 
- hozzáadott Blob kép helyzetét és méretét a paraméterek módosításával állíthatja be`addPictureFrame` módszer. A négy érték (x-koordináta, y-koordináta, szélesség és magasság) határozza meg a képkeret helyzetét és méreteit.
+ A hozzáadott Blob kép helyzetét és méretét a paraméterek módosításával állíthatja be`addPictureFrame` módszer. A négy érték (x-koordináta, y-koordináta, szélesség és magasság) határozza meg a képkeret helyzetét és méreteit.
 
 ### Az Aspose.Slides alkalmas haladó PowerPoint automatizálási feladatokra?
 

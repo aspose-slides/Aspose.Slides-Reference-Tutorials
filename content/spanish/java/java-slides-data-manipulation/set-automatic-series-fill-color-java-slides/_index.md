@@ -71,7 +71,7 @@ Este código garantiza que el color de relleno de la serie esté configurado en 
 Para guardar la presentación, utilice el siguiente código:
 
 ```java
-//Escribe el archivo de presentación en el disco.
+// Escribe el archivo de presentación en el disco.
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Escribe el archivo de presentación en el disco.
+	// Escribe el archivo de presentación en el disco.
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

@@ -1,30 +1,30 @@
 ---
-title: Java スライドの複数カテゴリのグラフ
-linktitle: Java スライドの複数カテゴリのグラフ
+title: Java スライドのマルチカテゴリ チャート
+linktitle: Java スライドのマルチカテゴリ チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、Java Slides で複数カテゴリのグラフを作成します。プレゼンテーションで印象的なデータを視覚化するためのソース コードを含むステップバイステップ ガイド。
+description: Aspose.Slides for Java を使用して、Java スライドでマルチカテゴリ チャートを作成します。プレゼンテーションで印象的なデータ視覚化を実現するためのソース コード付きのステップバイステップ ガイドです。
 type: docs
 weight: 20
 url: /ja/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
 
-## Aspose.Slides を使用した Java Slides での複数カテゴリ チャートの概要
+## Aspose.Slides を使用した Java スライドのマルチカテゴリ チャートの紹介
 
-このチュートリアルでは、Aspose.Slides for Java API を使用して Java スライドでマルチカテゴリ グラフを作成する方法を学習します。このガイドでは、複数のカテゴリと系列を含む集合縦棒グラフを作成するのに役立つ、ソース コードとともに段階的な手順を説明します。
+このチュートリアルでは、Aspose.Slides for Java API を使用して、Java スライドでマルチカテゴリ チャートを作成する方法を学習します。このガイドでは、複数のカテゴリとシリーズを含む集合縦棒グラフを作成するための手順をソース コードとともに段階的に説明します。
 
 ## 前提条件
-始める前に、Aspose.Slides for Java ライブラリが Java 開発環境にインストールされ、セットアップされていることを確認してください。
+始める前に、Java 開発環境に Aspose.Slides for Java ライブラリがインストールされ、設定されていることを確認してください。
 
-## ステップ 1: 環境のセットアップ
-まず、必要なクラスをインポートし、スライドを操作するための新しいプレゼンテーション オブジェクトを作成します。
+## ステップ1: 環境の設定
+まず、必要なクラスをインポートし、スライドを操作するための新しい Presentation オブジェクトを作成します。
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
-## ステップ 2: スライドとグラフを追加する
+## ステップ2: スライドとグラフを追加する
 次に、スライドを作成し、それに集合縦棒グラフを追加します。
 
 ```java
@@ -32,15 +32,15 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart ch = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 600, 450);
 ```
 
-## ステップ 3: 既存のデータの消去
-既存のデータをグラフから消去します。
+## ステップ3: 既存のデータを消去する
+グラフから既存のデータをすべてクリアします。
 
 ```java
 ch.getChartData().getSeries().clear();
 ch.getChartData().getCategories().clear();
 ```
 
-## ステップ 4: データ カテゴリの設定
+## ステップ4: データカテゴリの設定
 次に、グラフのデータ カテゴリを設定しましょう。複数のカテゴリを作成し、グループ化します。
 
 ```java
@@ -71,8 +71,8 @@ category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
-## ステップ 5: シリーズの追加
-次に、データ ポイントとともに系列をグラフに追加しましょう。
+## ステップ5: シリーズの追加
+ここで、データ ポイントとともにシリーズをグラフに追加してみましょう。
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -87,19 +87,19 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D9", 80));
 ```
 
-## ステップ 6: プレゼンテーションを保存する
-最後に、プレゼンテーションをグラフとともに保存します。
+## ステップ6: プレゼンテーションを保存する
+最後に、グラフを含むプレゼンテーションを保存します。
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-それでおしまい！ Aspose.Slides を使用して、Java スライドに複数カテゴリのグラフを作成することができました。このグラフは、特定の要件に合わせてさらにカスタマイズできます。
+これで完了です。Aspose.Slides を使用して、Java スライドにマルチカテゴリ チャートを作成しました。このチャートは、特定の要件に合わせてさらにカスタマイズできます。
 
-## Java スライドの複数カテゴリ チャートの完全なソース コード
+## Java スライドのマルチカテゴリ チャートの完全なソース コード
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
@@ -132,28 +132,28 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D7", 60));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D8", 70));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D9", 80));
-//プレゼンテーションをグラフとともに保存する
+//グラフ付きのプレゼンテーションを保存する
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java API を使用して Java スライドでマルチカテゴリ グラフを作成する方法を学習しました。ソースコードを含むステップバイステップのガイドを実行して、複数のカテゴリと系列を含む集合縦棒グラフを作成しました。
+このチュートリアルでは、Aspose.Slides for Java API を使用して、Java スライドでマルチカテゴリ チャートを作成する方法を学習しました。ソース コードを使用したステップ バイ ステップ ガイドに従って、複数のカテゴリとシリーズを含む集合縦棒グラフを作成しました。
 
 ## よくある質問
 
-### グラフの外観をカスタマイズするにはどうすればよいですか?
+### チャートの外観をカスタマイズするにはどうすればよいですか?
 
-色、フォント、スタイルなどのプロパティを変更することで、グラフの外観をカスタマイズできます。カスタマイズ オプションの詳細については、Aspose.Slides のドキュメントを参照してください。
+色、フォント、スタイルなどのプロパティを変更することで、グラフの外観をカスタマイズできます。詳細なカスタマイズ オプションについては、Aspose.Slides のドキュメントを参照してください。
 
 ### チャートにさらにシリーズを追加できますか?
 
-はい、ステップ 5 と同様のプロセスに従って、グラフに系列を追加できます。
+はい、手順 5 に示すのと同様のプロセスに従って、グラフにシリーズを追加できます。
 
 ### グラフの種類を変更するにはどうすればよいですか?
 
-グラフの種類を変更するには、`ChartType.ClusteredColumn`ステップ 2 でグラフを追加するときに、目的のグラフ タイプを指定します。
+チャートの種類を変更するには、`ChartType.ClusteredColumn`手順 2 でグラフを追加するときに、目的のグラフ タイプを選択します。
 
-### グラフにタイトルを追加するにはどうすればよいですか?
+### チャートにタイトルを追加するにはどうすればよいですか?
 
-を使用してグラフにタイトルを追加できます。`ch.getChartTitle().getTextFrame().setText("Chart Title");`方法。
+チャートにタイトルを追加するには、`ch.getChartTitle().getTextFrame().setText("Chart Title");`方法。

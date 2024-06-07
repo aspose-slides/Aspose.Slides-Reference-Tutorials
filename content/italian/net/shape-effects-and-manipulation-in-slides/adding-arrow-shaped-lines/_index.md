@@ -74,7 +74,7 @@ Sì, Aspose.Slides supporta .NET Core, consentendoti di sfruttare le sue funzion
 ### Posso personalizzare ulteriormente gli stili delle punte delle frecce?
 Assolutamente! Aspose.Slides offre opzioni complete per personalizzare la lunghezza, gli stili e altro delle punte delle frecce.
 ### Dove posso trovare ulteriore documentazione Aspose.Slides?
- Esplora la documentazione[Qui](https://reference.aspose.com/slides/net/) per approfondimenti ed esempi.
+ Esplora la documentazione[Qui](https://reference.aspose.com/slides/net/)per approfondimenti ed esempi.
 ### È disponibile una prova gratuita?
  Sì, puoi provare Aspose.Slides con una prova gratuita. Scaricalo[Qui](https://releases.aspose.com/).
 ### Come posso ottenere supporto per Aspose.Slides?

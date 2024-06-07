@@ -11,7 +11,7 @@ url: /id/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 Dalam dunia presentasi yang dinamis, menambahkan daya tarik visual ke slide Anda dapat meningkatkan dampak pesan Anda secara signifikan. Aspose.Slides for .NET menyediakan perangkat canggih untuk memanipulasi dan mempercantik slide presentasi Anda secara terprogram. Salah satu fitur menariknya adalah kemampuan untuk menerapkan efek bevel pada bentuk, menambah kedalaman dan dimensi pada visual Anda.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-- Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET Anda, dan miliki pemahaman dasar tentang C#.
 - Direktori Dokumen: Buat direktori untuk dokumen Anda tempat file presentasi yang dihasilkan akan disimpan.
 ## Impor Namespace

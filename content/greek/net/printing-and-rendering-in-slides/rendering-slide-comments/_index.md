@@ -85,4 +85,4 @@ System.Diagnostics.Process.Start(resultPath);
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Slides;
  Α: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να αναζητήσω βοήθεια και υποστήριξη για το Aspose.Slides;
- Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη.
+Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη.

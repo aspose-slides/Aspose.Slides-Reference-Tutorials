@@ -53,7 +53,7 @@ penColor.setColor(Color.GREEN);
 
 ### Dia's toevoegen
 
-Laten we enkele dia's aan onze presentatie toevoegen. We klonen een bestaande dia om het eenvoudig te houden.
+Laten we enkele dia's aan onze presentatie toevoegen. We klonen een bestaande dia om het simpel te houden.
 
 ```java
 pres.getSlides().addClone(pres.getSlides().get_Item(0));

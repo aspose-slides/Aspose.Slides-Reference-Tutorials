@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation(dataDir + "DemoFile.pptx"))
 
 ## Langkah 3: Atur Opsi PDF
 
- Pada langkah ini, Anda akan mengatur opsi konversi PDF. Secara khusus, Anda akan menetapkan kata sandi untuk PDF untuk meningkatkan keamanan. Mengganti`"password"` dengan kata sandi yang Anda inginkan.
+ Pada langkah ini, Anda akan mengatur opsi konversi PDF. Secara khusus, Anda akan menetapkan kata sandi untuk PDF guna meningkatkan keamanan. Mengganti`"password"` dengan kata sandi yang Anda inginkan.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();

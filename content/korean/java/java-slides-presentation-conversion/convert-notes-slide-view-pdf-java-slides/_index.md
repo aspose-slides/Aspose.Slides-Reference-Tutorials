@@ -101,7 +101,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Aspose.Slides를 사용하기 위한 라이선스 요구 사항이 있나요?
 
-예, Aspose.Slides를 상업적으로 사용하려면 유효한 라이선스가 필요합니다. Aspose 웹사이트에서 라이선스를 얻을 수 있습니다.
+예, Aspose.Slides를 상업적으로 사용하려면 유효한 라이센스가 필요합니다. Aspose 웹사이트에서 라이선스를 얻을 수 있습니다.
 
 ### 추가 문서와 예제는 어디에서 찾을 수 있나요?
 

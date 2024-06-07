@@ -45,7 +45,7 @@ Zodra u uw project heeft opgezet, kunt u gaan werken met presentatiebestanden:
 Nu komt het kerngedeelte van het proces: het vergelijken van dia's binnen presentaties:
 
 1. Gemeenschappelijke en unieke dia's identificeren:
-   U kunt de dia's van beide presentaties doorlopen en ze vergelijken om gemeenschappelijke dia's te identificeren en dia's die uniek zijn voor elke presentatie:
+   U kunt de dia's van beide presentaties doorlopen en vergelijken om gemeenschappelijke dia's te identificeren en dia's die uniek zijn voor elke presentatie:
 
    ```csharp
    foreach (ISlide sourceSlide in sourcePresentation.Slides)

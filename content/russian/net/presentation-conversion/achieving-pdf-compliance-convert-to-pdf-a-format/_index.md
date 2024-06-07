@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- В этом фрагменте кода замените`"Your Document Directory"`с фактическим путем к каталогу вашего документа и`"YourPresentation.pptx"` с названием вашей презентации PowerPoint.
+ В этом фрагменте кода замените`"Your Document Directory"` с фактическим путем к каталогу вашего документа и`"YourPresentation.pptx"` с названием вашей презентации PowerPoint.
 
 ### Шаг 3. Настройте параметры PDF
 

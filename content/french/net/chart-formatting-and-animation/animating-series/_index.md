@@ -44,7 +44,7 @@ Dans cette étape, chargez votre présentation PowerPoint (PPTX) existante conte
 // Chemin d'accès au répertoire des documents
 string dataDir = "Your Document Directory";
 
-//Instancier la classe Présentation qui représente un fichier de présentation
+// Instancier la classe Présentation qui représente un fichier de présentation
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Votre code va ici
@@ -99,7 +99,7 @@ Dans ce didacticiel, nous vous avons expliqué le processus d'animation de séri
 Oui, vous pouvez animer divers éléments de graphique, notamment des points de données, des axes et des légendes, à l'aide d'Aspose.Slides pour .NET.
 
 ### Aspose.Slides pour .NET est-il compatible avec les dernières versions de PowerPoint ?
-Aspose.Slides for .NET prend en charge diverses versions de PowerPoint, notamment PowerPoint 2007 et versions ultérieures, garantissant ainsi la compatibilité avec les versions les plus récentes.
+Aspose.Slides for .NET prend en charge différentes versions de PowerPoint, notamment PowerPoint 2007 et versions ultérieures, garantissant ainsi la compatibilité avec les versions les plus récentes.
 
 ### Puis-je personnaliser les effets d’animation pour chaque série de graphiques individuellement ?
 Oui, vous pouvez personnaliser les effets d'animation pour chaque série de graphiques afin de créer des présentations uniques et attrayantes.

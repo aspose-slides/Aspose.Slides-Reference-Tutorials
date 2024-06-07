@@ -56,7 +56,7 @@ Bây giờ, hãy chuẩn bị dữ liệu cho biểu đồ phân tán của chú
 // Lấy chỉ mục bảng tính dữ liệu biểu đồ mặc định
 int defaultWorksheetIndex = 0;
 
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Xóa loạt bản demo
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Lấy chỉ mục bảng tính dữ liệu biểu đồ mặc định
 int defaultWorksheetIndex = 0;
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Xóa loạt bản demo
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Thêm điểm mới (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Thêm điểm mới (2:2)
+// Thêm điểm mới (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Thêm điểm mới (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn bạn quy trình tạ
 
 ### Làm cách nào để thay đổi loại biểu đồ?
 
- Để thay đổi loại biểu đồ, hãy sử dụng`setType` phương pháp trên chuỗi biểu đồ và cung cấp loại biểu đồ mong muốn. Ví dụ,`series.setType(ChartType.Line)` sẽ thay đổi chuỗi thành biểu đồ đường.
+ Để thay đổi loại biểu đồ, hãy sử dụng`setType`phương pháp trên chuỗi biểu đồ và cung cấp loại biểu đồ mong muốn. Ví dụ,`series.setType(ChartType.Line)` sẽ thay đổi chuỗi thành biểu đồ đường.
 
 ### Làm cách nào để tùy chỉnh kích thước và kiểu điểm đánh dấu?
 

@@ -75,7 +75,7 @@ finally
 
 ## Conclusie
 
-In deze zelfstudie hebt u geleerd hoe u lettertype-eigenschappen instelt voor tekst in Java-dia's met behulp van Aspose.Slides voor Java. U kunt deze technieken toepassen om de weergave van tekst in uw PowerPoint-presentaties te verbeteren.
+In deze zelfstudie hebt u geleerd hoe u lettertype-eigenschappen voor tekst in Java-dia's kunt instellen met Aspose.Slides voor Java. U kunt deze technieken toepassen om de weergave van tekst in uw PowerPoint-presentaties te verbeteren.
 
 ## Veelgestelde vragen
 

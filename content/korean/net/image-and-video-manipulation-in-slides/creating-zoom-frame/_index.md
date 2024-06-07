@@ -46,11 +46,11 @@ using (Presentation pres = new Presentation())
 ## 3단계: 슬라이드 배경 사용자 정의
 배경을 사용자 정의하여 슬라이드의 시각적 매력을 향상시키세요. 이 예에서는 두 번째 슬라이드에 단색 청록색 배경을 설정했습니다.
 ```csharp
-// 두 번째 슬라이드의 배경 만들기
+//두 번째 슬라이드의 배경 만들기
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//... (다른 슬라이드의 배경 사용자 정의 계속)
+// ... (다른 슬라이드의 배경 사용자 정의 계속)
 ```
 ## 4단계: 슬라이드에 텍스트 상자 추가
 슬라이드에 정보를 전달하기 위해 텍스트 상자를 통합하세요. 여기서는 두 번째 슬라이드에 직사각형 텍스트 상자를 추가합니다.

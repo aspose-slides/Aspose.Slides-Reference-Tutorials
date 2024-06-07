@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## Steg 3: Ladda presentationen
 
-Låt oss nu ladda presentationen du vill konvertera. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil:
+ Låt oss nu ladda presentationen du vill konvertera. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Grattis! Du har framgångsrikt konverterat en presentation till responsiv HTML m
 
 ### Kan jag anpassa HTML-utdata ytterligare?
 
- Ja, du kan anpassa HTML-utdata genom att ändra`ResponsiveHtmlController` och`HtmlOptions`föremål. Detta gör att du kan skräddarsy HTML-utdata efter dina specifika krav.
+ Ja, du kan anpassa HTML-utdata genom att ändra`ResponsiveHtmlController` och`HtmlOptions` föremål. Detta gör att du kan skräddarsy HTML-utdata efter dina specifika krav.
 
 ### Finns det några licenskrav för Aspose.Slides för Java?
 

@@ -98,7 +98,7 @@ Jangan ragu untuk menjelajahi lebih banyak fitur dan kemampuan Aspose.Slides unt
 ## FAQ
 
 1. ### Apa itu Aspose.Slide untuk .NET?
-Aspose.Slides for .NET adalah pustaka .NET untuk bekerja dengan presentasi PowerPoint secara terprogram.
+Aspose.Slides for .NET adalah perpustakaan .NET untuk bekerja dengan presentasi PowerPoint secara terprogram.
 
 2. ### Di mana saya bisa mendapatkan Aspose.Slides untuk .NET?
  Anda dapat mengunduh Aspose.Slides untuk .NET dari[Di Sini](https://purchase.aspose.com/buy).

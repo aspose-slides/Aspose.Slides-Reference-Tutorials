@@ -22,7 +22,7 @@ Než začnete, ujistěte se, že máte následující:
 
 ## Krok 1: Načtěte prezentaci
 
-Nejprve musíte načíst prezentaci PowerPoint obsahující graf, který chcete animovat. Nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+ Nejprve musíte načíst prezentaci PowerPoint obsahující graf, který chcete animovat. Nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -109,11 +109,11 @@ Naučili jste se animovat prvky série ve snímcích PowerPoint pomocí Aspose.S
 
 ### Jak mohu přizpůsobit animaci pro jednotlivé prvky grafu?
 
-Animaci pro jednotlivé prvky grafu můžete přizpůsobit úpravou typu animace a spouštěče v kódu. V našem příkladu jsme použili efekt "Objevit se", ale můžete si vybrat z různých typů animací, jako je "Fade", "Fly In" atd., a určit různé spouštěče, jako "On Click", "After Previous" nebo "S předchozím."
+Animaci pro jednotlivé prvky grafu můžete přizpůsobit úpravou typu animace a spouštěče v kódu. V našem příkladu jsme použili efekt „Objevit se“, ale můžete si vybrat z různých typů animací, jako je „Fade“, „Fly In“ atd., a určit různé spouštěče, jako je „On Click“, „After Previous“ nebo "S předchozím."
 
 ### Mohu použít animace na jiné objekty na snímku aplikace PowerPoint?
 
-Ano, animace můžete použít na různé objekty na snímku aplikace PowerPoint, nejen na grafy. Použijte`addEffect` metoda k určení objektu, který chcete animovat, a požadovaných vlastností animace.
+ Ano, animace můžete použít na různé objekty na snímku aplikace PowerPoint, nejen na grafy. Použijte`addEffect` metoda k určení objektu, který chcete animovat, a požadovaných vlastností animace.
 
 ### Jak integruji Aspose.Slides for Java do svého projektu?
 

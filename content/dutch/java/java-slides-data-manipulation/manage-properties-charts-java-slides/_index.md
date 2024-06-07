@@ -1,6 +1,6 @@
 ---
-title: Beheer eigenschappendiagrammen in Java-dia's
-linktitle: Beheer eigenschappendiagrammen in Java-dia's
+title: Beheer eigenschappengrafieken in Java-dia's
+linktitle: Beheer eigenschappengrafieken in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer verbluffende grafieken maken en eigenschappen beheren in Java-dia's met Aspose.Slides. Stap-voor-stap handleiding met broncode voor krachtige presentaties.
 type: docs
@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Haal de diagramgegevenswerkmap op.
 
 ```java
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -84,7 +84,7 @@ Laten we nu de 3D-rotatie-eigenschappen voor het diagram instellen:
 chart.getRotation3D().setRightAngleAxes(true);
 ```
 
-9. Stel de rotatiehoeken voor de X- en Y-assen in. In dit voorbeeld roteren we X met 40 graden en Y met 270 graden.
+9. Stel de rotatiehoeken voor de X- en Y-assen in. In dit voorbeeld draaien we X 40 graden en Y 270 graden.
 
 ```java
 chart.getRotation3D().setRotationX((byte) 40);
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // De index van het kaartgegevensblad instellen
 int defaultWorksheetIndex = 0;
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Serie toevoegen
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -158,9 +158,9 @@ chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
-// Neem de tweede kaartenreeks
+// Neem de tweede kaartenserie
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Vult nu seriegegevens in
+//Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

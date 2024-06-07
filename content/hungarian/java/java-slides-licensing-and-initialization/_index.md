@@ -2,7 +2,7 @@
 title: Java Slides licencelés és inicializálás
 linktitle: Java Slides licencelés és inicializálás
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Fedezze fel, hogyan licencelheti és inicializálhatja hatékonyan az Aspose.Slides for Java programot átfogó oktatóanyagainkból. Kezdje el a Java Slides használatát most!
+description: Fedezze fel, hogyan licencelheti és inicializálhatja hatékonyan az Aspose.Slides for Java programot átfogó oktatóanyagainkban. Kezdje el a Java Slides használatát most!
 type: docs
 weight: 10
 url: /hu/java/licensing-and-initialization/

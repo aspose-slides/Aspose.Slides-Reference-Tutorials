@@ -1,26 +1,26 @@
 ---
-title: Java スライドのマップ チャート
-linktitle: Java スライドのマップ チャート
+title: Java スライドのマップチャート
+linktitle: Java スライドのマップチャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで見事なマップ チャートを作成します。 Java 開発者向けのステップバイステップのガイドとソース コード。
+description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで魅力的なマップ チャートを作成します。Java 開発者向けのステップ バイ ステップ ガイドとソース コード。
 type: docs
 weight: 15
 url: /ja/java/chart-elements/map-chart-java-slides/
 ---
 
-## Aspose.Slides for Java を使用した Java スライドのマップ チャートの概要
+## Aspose.Slides for Java を使用した Java スライドのマップ チャートの紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでマップ チャートを作成するプロセスを説明します。マップ チャートは、プレゼンテーションで地理データを視覚化する優れた方法です。
+このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでマップ チャートを作成する手順を説明します。マップ チャートは、プレゼンテーションで地理データを視覚化するのに最適な方法です。
 
 ## 前提条件
 
-始める前に、Aspose.Slides for Java ライブラリが Java プロジェクトに統合されていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/slides/java/).
+始める前に、JavaプロジェクトにAspose.Slides for Javaライブラリが統合されていることを確認してください。ダウンロードはこちらからできます。[ここ](https://releases.aspose.com/slides/java/).
 
-## ステップ 1: プロジェクトをセットアップする
+## ステップ1: プロジェクトを設定する
 
 Java プロジェクトを設定し、Aspose.Slides for Java ライブラリをプロジェクトのクラスパスに追加したことを確認してください。
 
-## ステップ 2: PowerPoint プレゼンテーションを作成する
+## ステップ2: PowerPointプレゼンテーションを作成する
 
 まず、新しい PowerPoint プレゼンテーションを作成しましょう。
 
@@ -29,16 +29,16 @@ String resultPath = "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
-## ステップ 3: マップ チャートを追加する
+## ステップ3: マップチャートを追加する
 
-次に、プレゼンテーションにマップ チャートを追加します。
+ここで、プレゼンテーションにマップ チャートを追加します。
 
 ```java
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Map, 50, 50, 500, 400, false);
 IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 ```
 
-## ステップ 4: マップ チャートにデータを追加する
+## ステップ4: マップチャートにデータを追加する
 
 マップ チャートにデータを追加してみましょう。シリーズを作成し、それにデータ ポイントを追加します。
 
@@ -49,9 +49,9 @@ series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B3", 1));
 series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B4", 10));
 ```
 
-## ステップ 5: カテゴリを追加する
+## ステップ5: カテゴリを追加する
 
-さまざまな地理的領域を表すカテゴリをマップ チャートに追加する必要があります。
+さまざまな地理的地域を表すカテゴリをマップ チャートに追加する必要があります。
 
 ```java
 chart.getChartData().getCategories().add(wb.getCell(0, "A2", "United States"));
@@ -59,9 +59,9 @@ chart.getChartData().getCategories().add(wb.getCell(0, "A3", "Mexico"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Brazil"));
 ```
 
-## ステップ 6: データポイントをカスタマイズする
+## ステップ6: データポイントをカスタマイズする
 
-個々のデータポイントをカスタマイズできます。この例では、特定のデータ ポイントの色と値を変更します。
+個々のデータ ポイントをカスタマイズできます。この例では、特定のデータ ポイントの色と値を変更します。
 
 ```java
 IChartDataPoint dataPoint = series.getDataPoints().get_Item(1);
@@ -70,15 +70,15 @@ dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-## ステップ 7: プレゼンテーションを保存する
+## ステップ7: プレゼンテーションを保存する
 
-最後に、プレゼンテーションをマップ チャートとともに保存します。
+最後に、マップ チャートを含むプレゼンテーションを保存します。
 
 ```java
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-それでおしまい！ Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでマップ チャートを作成しました。グラフをさらにカスタマイズし、Aspose.Slides が提供する他の機能を探索して、プレゼンテーションを強化することができます。
+これで完了です。Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションにマップ チャートを作成しました。チャートをさらにカスタマイズし、Aspose.Slides が提供するその他の機能を活用してプレゼンテーションを強化することができます。
 
 ## Java スライドのマップ チャートの完全なソース コード
 
@@ -89,16 +89,16 @@ try {
 	//空のチャートを作成する
 	IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Map, 50, 50, 500, 400, false);
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-	//シリーズといくつかのデータ ポイントを追加する
+	//シリーズといくつかのデータポイントを追加する
 	IChartSeries series = chart.getChartData().getSeries().add(ChartType.Map);
 	series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B2", 5));
 	series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B3", 1));
 	series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B4", 10));
-	//カテゴリを追加する
+	//カテゴリを追加
 	chart.getChartData().getCategories().add(wb.getCell(0, "A2", "United States"));
 	chart.getChartData().getCategories().add(wb.getCell(0, "A3", "Mexico"));
 	chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Brazil"));
-	//データポイント値を変更する
+	//データポイントの値を変更する
 	IChartDataPoint dataPoint = series.getDataPoints().get_Item(1);
 	dataPoint.getColorValue().getAsCell().setValue("15");
 	//データポイントの外観を設定する
@@ -112,22 +112,22 @@ try {
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでマップ チャートを作成するプロセスを説明しました。マップ チャートは地理データを視覚化する効果的な方法であり、プレゼンテーションをより魅力的で有益なものにします。主要な手順をまとめてみましょう。
+このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでマップ チャートを作成する手順を説明しました。マップ チャートは地理データを視覚化する効果的な方法であり、プレゼンテーションをより魅力的で有益なものにします。主な手順をまとめてみましょう。
 
 ## よくある質問
 
-### 地図グラフの種類を変更するにはどうすればよいですか?
+### マップチャートの種類を変更するにはどうすればよいですか?
 
-を置き換えることでグラフの種類を変更できます。`ChartType.Map`ステップ 3 でグラフを作成するときに、目的のグラフ タイプを指定します。
+チャートの種類を変更するには、`ChartType.Map`手順 3 でグラフを作成するときに、目的のグラフ タイプを選択します。
 
 ### マップ チャートの外観をカスタマイズするにはどうすればよいですか?
 
-のプロパティを変更することで、グラフの外観をカスタマイズできます。`dataPoint`色や値などを変更できます。
+グラフの外観をカスタマイズするには、`dataPoint`ステップ 6 のオブジェクト。色や値などを変更できます。
 
-### さらにデータポイントとカテゴリを追加できますか?
+### さらにデータポイントやカテゴリを追加できますか?
 
-はい、必要な数のデータ ポイントとカテゴリを追加できます。単純に使用してください`series.getDataPoints().addDataPointForMapSeries()`そして`chart.getChartData().getCategories().add()`それらを追加するメソッド。
+はい、必要な数だけデータポイントとカテゴリを追加できます。`series.getDataPoints().addDataPointForMapSeries()`そして`chart.getChartData().getCategories().add()`追加する方法。
 
 ### Aspose.Slides for Java をプロジェクトに統合するにはどうすればよいですか?
 
-からライブラリをダウンロードします[ここ](https://releases.aspose.com/slides/java/)それをプロジェクトのクラスパスに追加します。
+ライブラリをダウンロードするには[ここ](https://releases.aspose.com/slides/java/)プロジェクトのクラスパスに追加します。

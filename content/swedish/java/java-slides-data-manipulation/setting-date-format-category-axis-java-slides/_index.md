@@ -10,13 +10,13 @@ url: /sv/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ## Introduktion till inställning av datumformat för kategoriaxel i Java Slides
 
-den här handledningen kommer vi att lära oss hur du ställer in ett datumformat för kategoriaxeln i ett PowerPoint-diagram med Aspose.Slides för Java. Aspose.Slides för Java är ett kraftfullt bibliotek som låter dig skapa, manipulera och hantera PowerPoint-presentationer programmatiskt.
+I den här handledningen kommer vi att lära oss hur du ställer in ett datumformat för kategoriaxeln i ett PowerPoint-diagram med Aspose.Slides för Java. Aspose.Slides för Java är ett kraftfullt bibliotek som låter dig skapa, manipulera och hantera PowerPoint-presentationer programmatiskt.
 
 ## Förutsättningar
 
 Innan du börjar, se till att du har följande:
 
-1.  Aspose.Slides för Java-biblioteket (du kan ladda ner det från[här](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides för Java-biblioteket (du kan ladda ner det från[här](https://releases.aspose.com/slides/java/).
 2. Java utvecklingsmiljö inrättad.
 
 ## Steg 1: Skapa en PowerPoint-presentation
@@ -138,4 +138,4 @@ Ja, du kan ställa in olika datumformat för kategoriaxlar i olika diagram inom 
 
 ### Hur lägger jag till fler datapunkter i diagrammet?
 
- Om du vill lägga till fler datapunkter i diagrammet använder du`getDataPoints().addDataPointForLineSeries` metod på dataserien och tillhandahålla datavärdena.
+ Om du vill lägga till fler datapunkter i diagrammet använder du`getDataPoints().addDataPointForLineSeries`metod på dataserien och tillhandahålla datavärdena.

@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Thiết lập chỉ mục của bảng dữ liệu biểu đồ
 	int defaultWorksheetIndex = 0;
-	//Lấy bảng tính dữ liệu biểu đồ
+	// Lấy bảng tính dữ liệu biểu đồ
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Xóa chuỗi và danh mục được tạo mặc định
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Thêm loạt phim mới
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Hiện đang điền dữ liệu chuỗi
+	//Hiện đang điền dữ liệu chuỗi
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Bạn đã tạo thành công biểu đồ hình tròn trong bản trình bày P
 
 ### Làm cách nào tôi có thể tùy chỉnh màu sắc của từng lát trong biểu đồ hình tròn?
 
- Để tùy chỉnh màu của từng lát trong biểu đồ hình tròn, bạn có thể sử dụng`getAutomaticSeriesColors`phương pháp để truy xuất bảng màu mặc định và sau đó sửa đổi màu nếu cần. Đây là một ví dụ:
+ Để tùy chỉnh màu của từng lát trong biểu đồ hình tròn, bạn có thể sử dụng`getAutomaticSeriesColors` phương pháp để truy xuất bảng màu mặc định và sau đó sửa đổi màu nếu cần. Đây là một ví dụ:
 
 ```java
-// Lấy bảng màu mặc định
+//Lấy bảng màu mặc định
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Sửa đổi màu sắc theo nhu cầu

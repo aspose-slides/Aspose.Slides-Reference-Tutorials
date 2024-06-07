@@ -60,7 +60,7 @@ IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 20, 20,
 
 ## Krok 3: Dodaj linie trendu do wykresu
 
-Teraz do serii wykresów dodajemy różne rodzaje linii trendu.
+Teraz do serii wykresów dodajemy różne typy linii trendu.
 
 ### Dodawanie wykładniczej linii trendu
 

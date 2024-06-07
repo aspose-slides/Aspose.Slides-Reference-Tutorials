@@ -8,7 +8,7 @@ weight: 15
 url: /sv/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
 ## Introduktion
-Att skapa dynamiska och engagerande presentationsbilder involverar ofta inkorporering av olika multimediaelement. I den här självstudien kommer vi att undersöka hur man ersätter bildrubriken för en OLE (Object Linking and Embedding)-objektram i presentationsbilder med hjälp av det kraftfulla Aspose.Slides for .NET-biblioteket. Aspose.Slides förenklar processen att hantera OLE-objekt, vilket ger utvecklare verktygen för att förbättra sina presentationer med lätthet.
+Att skapa dynamiska och engagerande presentationsbilder involverar ofta inkorporering av olika multimediaelement. I den här självstudien kommer vi att undersöka hur man ersätter bildtiteln för en OLE (Object Linking and Embedding)-objektram i presentationsbilder med det kraftfulla Aspose.Slides for .NET-biblioteket. Aspose.Slides förenklar processen att hantera OLE-objekt, vilket ger utvecklare verktygen för att förbättra sina presentationer med lätthet.
 ## Förutsättningar
 Innan vi dyker in i steg-för-steg-guiden, se till att du har följande förutsättningar på plats:
 -  Aspose.Slides for .NET Library: Se till att du har Aspose.Slides for .NET-biblioteket installerat. Du kan ladda ner den från[Aspose.Slides .NET dokumentation](https://reference.aspose.com/slides/net/).

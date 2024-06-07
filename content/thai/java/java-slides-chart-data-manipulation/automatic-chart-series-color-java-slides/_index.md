@@ -47,7 +47,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```java
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 int defaultWorksheetIndex = 0;
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // ลบซีรี่ส์และหมวดหมู่ที่สร้างโดยค่าเริ่มต้น
 chart.getChartData().getSeries().clear();
@@ -70,14 +70,14 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 ```java
 // ใช้แผนภูมิชุดแรก
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// กำลังเติมข้อมูลซีรีส์
+//กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // ใช้แผนภูมิชุดที่สอง
 series = chart.getChartData().getSeries().get_Item(1);
-// กำลังเติมข้อมูลซีรีส์
+//กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 	int defaultWorksheetIndex = 0;
-	//รับแผ่นงานข้อมูลแผนภูมิ
+	// รับแผ่นงานข้อมูลแผนภูมิ
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// ลบซีรี่ส์และหมวดหมู่ที่สร้างโดยค่าเริ่มต้น
 	chart.getChartData().getSeries().clear();
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// ใช้แผนภูมิชุดแรก
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// กำลังเติมข้อมูลซีรีส์
+	//กำลังเติมข้อมูลซีรีส์
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// ใช้แผนภูมิชุดที่สอง
 	series = chart.getChartData().getSeries().get_Item(1);
-	// กำลังเติมข้อมูลซีรีส์
+	//กำลังเติมข้อมูลซีรีส์
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// การตั้งค่าสีเติมสำหรับซีรี่ส์
+	//การตั้งค่าสีเติมสำหรับซีรี่ส์
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// บันทึกการนำเสนอด้วยแผนภูมิ
@@ -181,7 +181,7 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### ฉันจะเพิ่มซีรี่ส์หรือหมวดหมู่เพิ่มเติมลงในแผนภูมิได้อย่างไร
 
- หากต้องการเพิ่มซีรี่ส์หรือหมวดหมู่เพิ่มเติมลงในแผนภูมิ ให้ใช้`getSeries()` และ`getCategories()` วิธีการของแผนภูมิ`ChartData` วัตถุ. คุณสามารถเพิ่มซีรี่ส์และหมวดหมู่ใหม่ได้โดยระบุข้อมูลและป้ายกำกับ
+หากต้องการเพิ่มซีรี่ส์หรือหมวดหมู่เพิ่มเติมลงในแผนภูมิ ให้ใช้`getSeries()` และ`getCategories()` วิธีการของแผนภูมิ`ChartData` วัตถุ. คุณสามารถเพิ่มซีรี่ส์และหมวดหมู่ใหม่ได้โดยระบุข้อมูลและป้ายกำกับ
 
 ### เป็นไปได้ไหมที่จะจัดรูปแบบแผนภูมิและป้ายกำกับเพิ่มเติม
 

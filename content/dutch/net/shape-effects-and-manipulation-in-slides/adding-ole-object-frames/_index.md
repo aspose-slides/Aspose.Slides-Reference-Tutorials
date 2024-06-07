@@ -2,7 +2,7 @@
 title: OLE-objectframes toevoegen aan presentatie met Aspose.Slides
 linktitle: OLE-objectframes toevoegen aan presentatie met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer hoe u PowerPoint-presentaties kunt verbeteren met dynamische inhoud! Volg onze stapsgewijze handleiding met Aspose.Slides voor .NET. Verhoog de betrokkenheid nu!
+description: Leer hoe u PowerPoint-presentaties kunt verbeteren met dynamische inhoud! Volg onze stapsgewijze handleiding met Aspose.Slides voor .NET. Vergroot de betrokkenheid nu!
 type: docs
 weight: 15
 url: /nl/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Stap 4: Voeg een OLE-objectframevorm toe
 ```csharp
-// Voeg een OLE-objectframe-vorm toe
+//Voeg een OLE-objectframe-vorm toe
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ A: Ja, Aspose.Slides ondersteunt de nieuwste PowerPoint-bestandsindelingen, incl
 ### Vraag: Kan ik het uiterlijk van het ingebedde OLE-objectframe aanpassen?
 A: Absoluut, u kunt de grootte, positie en andere eigenschappen van het OLE-objectframe aanpassen aan uw voorkeuren.
 ### Vraag: Waar kan ik hulp zoeken als ik tijdens de implementatie tegen problemen aanloop?
- A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en begeleiding.
+A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en begeleiding.

@@ -57,7 +57,7 @@ class ExportProgressHandler : IProgressCallback
 }
 ```
 
- Deze klasse implementeert de`IProgressCallback` interface en definieert de`Reporting` methode om voortgangsupdates af te handelen. Het drukt het huidige voortgangspercentage af naar de console.
+ Deze klasse implementeert de`IProgressCallback` interface en definieert de`Reporting` methode om voortgangsupdates af te handelen. Het drukt het huidige voortgangspercentage af op de console.
 
 ## Stap 4: De code uitvoeren
 

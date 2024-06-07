@@ -62,7 +62,7 @@ Het garanderen van toegankelijkheid is cruciaal voor PDF/UA-compliance. U kunt t
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Voeg toegankelijkheidsondersteuning toe voor PDF/UA
+//Voeg toegankelijkheidsondersteuning toe voor PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Presentatie laden
 using var presentation = new Presentation("presentation.pptx");
 
-// Voeg toegankelijkheidsondersteuning toe voor PDF/UA
+//Voeg toegankelijkheidsondersteuning toe voor PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -126,4 +126,4 @@ Om de toegankelijkheid van PDF/UA-documenten te garanderen, kunt u de functies v
 
 ### Is PDF/UA-compatibiliteit noodzakelijk voor alle documenten?
 
-Conformiteit met PDF/UA is vooral belangrijk voor documenten die bedoeld zijn om toegankelijk te zijn voor gebruikers met een handicap. De noodzaak van PDF/UA-compliance hangt echter af van de specifieke eisen van uw doelgroep.
+Conformiteit met PDF/UA is vooral belangrijk voor documenten die bedoeld zijn om toegankelijk te zijn voor gebruikers met een beperking. De noodzaak van PDF/UA-compliance hangt echter af van de specifieke eisen van uw doelgroep.

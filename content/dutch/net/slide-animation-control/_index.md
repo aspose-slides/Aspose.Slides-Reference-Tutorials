@@ -20,7 +20,7 @@ Dia-animaties kunnen statische presentaties omzetten in dynamische visuele ervar
 - Animatie-eigenschappen aanpassen: Ontdek technieken om de eigenschappen van animatie-effecten aan te passen, inclusief timing, duur en volgorde.
 - Animatietriggers toepassen: begrijp hoe u triggers kunt toepassen die animaties initiëren op basis van specifieke gebeurtenissen, waardoor een dynamische stroom ontstaat.
 - Meerdere animaties coördineren: leer de kunst van het synchroniseren en coördineren van meerdere animaties voor naadloze visuele verhalen.
-- Animatie afspelen en pauzeren: Ontdek methoden om het afspelen van animaties te regelen, zodat u het tempo van uw presentatie kunt bepalen.
+- Controle over afspelen en pauzeren van animaties: Ontdek methoden om het afspelen van animaties te regelen, zodat u het tempo van uw presentatie kunt bepalen.
 - Animatie van dia-overgangen: Breid uw kennis uit met dia-overgangsanimaties voor een vloeiende en boeiende presentatiestroom.
 
 ## Begin aan je animatiereis:

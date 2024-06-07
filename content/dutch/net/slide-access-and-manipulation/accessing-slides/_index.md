@@ -117,7 +117,7 @@ In deze handleiding hebben we onderzocht hoe u toegang krijgt tot dia's in Power
 
 ### Hoe installeer ik Aspose.Slides voor .NET?
 
-kunt Aspose.Slides voor .NET installeren via NuGet door te zoeken naar "Aspose.Slides" en op "Installeren" te klikken in de NuGet Package Manager van uw project.
+U kunt Aspose.Slides voor .NET installeren via NuGet door te zoeken naar "Aspose.Slides" en op "Installeren" te klikken in de NuGet Package Manager van uw project.
 
 ### Kan ik afbeeldingen aan dia's toevoegen met Aspose.Slides?
 

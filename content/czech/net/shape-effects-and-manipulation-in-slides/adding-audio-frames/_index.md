@@ -8,7 +8,7 @@ weight: 14
 url: /cs/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
 ## Úvod
-dynamickém světě prezentací může začlenění zvukových prvků výrazně zlepšit celkový zážitek pro vaše publikum. Aspose.Slides for .NET umožňuje vývojářům bezproblémově integrovat zvukové snímky do snímků prezentace, čímž přidává novou vrstvu zapojení a interaktivity. Tento podrobný průvodce vás provede procesem přidávání zvukových snímků do snímků prezentace pomocí Aspose.Slides pro .NET.
+V dynamickém světě prezentací může začlenění zvukových prvků výrazně zlepšit celkový zážitek pro vaše publikum. Aspose.Slides for .NET umožňuje vývojářům bezproblémově integrovat zvukové snímky do snímků prezentace, čímž přidává novou vrstvu zapojení a interaktivity. Tento podrobný průvodce vás provede procesem přidávání zvukových snímků do snímků prezentace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 1.  Knihovna Aspose.Slides for .NET: Stáhněte a nainstalujte knihovnu Aspose.Slides for .NET z[odkaz ke stažení](https://releases.aspose.com/slides/net/).
@@ -27,7 +27,7 @@ string dataDir = "Your Document Directory";
 using (Presentation pres = new Presentation())
 {
     ISlide sld = pres.Slides[0];
-    // Zde je váš kód pro vytvoření snímku
+    // Zde je váš kód pro vytváření snímků
 }
 ```
 ## Krok 2: Načtěte zvukový soubor
@@ -61,5 +61,5 @@ Ano, Aspose.Slides poskytuje flexibilitu při konfiguraci nastavení přehrává
  Ano, funkce Aspose.Slides pro .NET můžete prozkoumat pomocí[zkušební verze zdarma](https://releases.aspose.com/).
 ### Kde najdu podporu pro Aspose.Slides pro .NET?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) vyhledat pomoc a zapojit se do komunity.
-### Jak si koupím Aspose.Slides pro .NET?
+### Jak koupím Aspose.Slides pro .NET?
  Knihovnu si můžete zakoupit od[Aspose obchod](https://purchase.aspose.com/buy).

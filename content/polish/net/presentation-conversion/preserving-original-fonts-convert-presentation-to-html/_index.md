@@ -81,7 +81,7 @@ W tym samouczku pokazaliśmy, jak zachować oryginalne czcionki podczas konwerto
 
 ### P1: Czy mogę dostosować listę wykluczonych czcionek?
 
- Tak, możesz. Zmodyfikuj`fontNameExcludeList` array, aby uwzględnić lub wykluczyć określone czcionki zgodnie z Twoimi wymaganiami.
+ Tak, możesz. Zmodyfikuj`fontNameExcludeList`array, aby uwzględnić lub wykluczyć określone czcionki zgodnie z Twoimi wymaganiami.
 
 ### P2: Co się stanie, jeśli nie chcę osadzać wszystkich czcionek?
 

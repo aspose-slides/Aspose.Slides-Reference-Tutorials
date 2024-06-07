@@ -88,8 +88,8 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ###  무엇을`PieSplitBy` control in a Pie of Pie chart?
 
- 그만큼`PieSplitBy`속성은 원형 차트가 분할되는 방식을 제어합니다. 다음 중 하나로 설정할 수 있습니다.`PieSplitType.ByPercentage` 또는`PieSplitType.ByValue` 차트를 각각 백분율 또는 특정 값으로 분할합니다.
+ 그만큼`PieSplitBy` 속성은 원형 차트가 분할되는 방식을 제어합니다. 다음 중 하나로 설정할 수 있습니다.`PieSplitType.ByPercentage` 또는`PieSplitType.ByValue` 차트를 각각 백분율 또는 특정 값으로 분할합니다.
 
 ### 원형 원형 차트에서 분할 위치를 어떻게 설정합니까?
 
- 다음을 사용하여 원형 원형 차트에서 분할 위치를 설정할 수 있습니다.`setPieSplitPosition` 방법. 값을 조정하여 원하는 위치를 지정하세요.
+다음을 사용하여 원형 원형 차트에서 분할 위치를 설정할 수 있습니다.`setPieSplitPosition` 방법. 값을 조정하여 원하는 위치를 지정하세요.

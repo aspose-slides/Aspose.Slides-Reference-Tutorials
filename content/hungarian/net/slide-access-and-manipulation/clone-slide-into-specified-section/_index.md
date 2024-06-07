@@ -38,7 +38,7 @@ Ezek a névterek lehetővé teszik, hogy prezentációkkal, diákkal és egyéb 
 
 ## Dia másolása egy kijelölt szakaszba
 
-Most, hogy beállította a projektet, és importálta a szükséges névtereket, merüljön el a fő folyamatban: egy dia másolása egy prezentáció egy meghatározott részébe.
+Most, hogy beállította a projektet, és importálta a szükséges névtereket, merüljön el a fő folyamatban: egy dia másolása egy prezentáció egy meghatározott szakaszába.
 
 ### 2. lépés: Hozzon létre egy prezentációt
 
@@ -66,7 +66,7 @@ using (IPresentation presentation = new Presentation())
 
 ### 3. lépés: szakaszok hozzáadása
 
- Ezután részeket adunk a bemutatóhoz a`AddSection` és`AppendEmptySection` mód. Ebben a példában az „1. szakasz” az első diához, a „2. szakasz” pedig hozzá van fűzve.
+ Ezután részeket adunk az előadáshoz a segítségével`AddSection` és`AppendEmptySection` mód. Ebben a példában az „1. szakasz” az első diához, a „2. szakasz” pedig hozzá van fűzve.
 
 ### 4. lépés: Másolja le a diát
 

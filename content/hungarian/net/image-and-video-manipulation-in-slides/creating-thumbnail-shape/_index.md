@@ -11,7 +11,7 @@ url: /hu/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 Az Aspose.Slides for .NET egy hatékony könyvtár, amely képessé teszi a fejlesztőket arra, hogy zökkenőmentesen dolgozzanak a PowerPoint prezentációkkal. Egyik figyelemre méltó tulajdonsága, hogy képes miniatűröket generálni a prezentáción belüli alakzatokhoz. Ez az oktatóanyag végigvezeti Önt az Aspose.Slides for .NET használatával bélyegképek létrehozásának folyamatán.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-1. Aspose.Slides for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Slides könyvtár. Letöltheti a[kiadási oldal](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Slides könyvtár. Letöltheti a[kiadási oldal](https://releases.aspose.com/slides/net/).
 2. Fejlesztői környezet: Hozzon létre egy megfelelő fejlesztői környezetet, például a Visual Studio-t, és rendelkezzen alapvető ismeretekkel a C# programozásról.
 ## Névterek importálása
 A kezdéshez importálnia kell a szükséges névtereket a C# kódba. Ezek a névterek megkönnyítik az Aspose.Slides könyvtárral való kommunikációt. Adja hozzá a következő sorokat a C# fájl elejéhez:
@@ -40,7 +40,7 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail())
 }
 ```
 ## 4. lépés: Mentse el a képet
-Mentse el a generált bélyegképet lemezre. Kiválaszthatja, hogy milyen formátumban szeretné menteni a képet. Ebben a példában PNG formátumban mentjük el.
+Mentse el a generált miniatűr képet lemezre. Kiválaszthatja, hogy milyen formátumban szeretné menteni a képet. Ebben a példában PNG formátumban mentjük el.
 ```csharp
 bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 ```
@@ -56,4 +56,4 @@ V: Hibakezelési mechanizmusokat implementálhat try-catch blokkokkal a kivétel
 ### K: Vannak-e korlátozások a bélyegképeket tartalmazó alakzatok méretére vagy típusára vonatkozóan?
 V: Az Aspose.Slides rugalmasságot biztosít különféle alakzatokhoz, például szövegdobozokhoz, képekhez és egyebekhez való bélyegképek létrehozásához.
 ### K: Testreszabhatom a generált miniatűrök méretét és felbontását?
- V: Igen, beállíthatja a paramétereket a hívásakor`GetThumbnail` módszer a méret és a felbontás szabályozására.
+V: Igen, beállíthatja a paramétereket a hívásakor`GetThumbnail` módszer a méret és a felbontás szabályozására.

@@ -73,7 +73,7 @@ La personalizzazione delle proprietà del controllo ActiveX può migliorare note
 
 1.  Proprietà di accesso: come accennato in precedenza, è possibile accedere alle proprietà del controllo ActiveX utilizzando il file`IOleObjectFrame` riferimento.
 
-2.  Imposta proprietà: utilizza il file`SetProperty`metodo per impostare varie proprietà del controllo ActiveX. Ad esempio, puoi cambiare il colore dello sfondo in questo modo:
+2.  Imposta proprietà: utilizzare il`SetProperty`metodo per impostare varie proprietà del controllo ActiveX. Ad esempio, puoi cambiare il colore dello sfondo in questo modo:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);

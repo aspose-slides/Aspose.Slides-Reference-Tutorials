@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Veelgestelde vragen:
 
 ### Hoe kan ik de grootte en positie van de gekoppelde video op de dia opgeven?
- U kunt de afmetingen en positie van het ActiveX-controleframe aanpassen met behulp van de parameters van de`AddOleObjectFrame` methode. De vier numerieke argumenten vertegenwoordigen respectievelijk de X- en Y-coördinaten van de linkerbovenhoek en de breedte en hoogte van het frame.
+ kunt de afmetingen en positie van het ActiveX-controleframe aanpassen met behulp van de parameters van de`AddOleObjectFrame` methode. De vier numerieke argumenten vertegenwoordigen respectievelijk de X- en Y-coördinaten van de linkerbovenhoek en de breedte en hoogte van het frame.
 
 ### Kan ik op deze manier video's van verschillende formaten aan elkaar koppelen?
 Ja, u kunt video's van verschillende formaten koppelen, zolang het juiste ActiveX-besturingselement beschikbaar is voor dat formaat. Het ShockwaveFlash ActiveX-besturingselement dat in deze handleiding wordt gebruikt, is bijvoorbeeld geschikt voor Flash-video's (SWF). Voor andere formaten moet u mogelijk andere ProgID's gebruiken.

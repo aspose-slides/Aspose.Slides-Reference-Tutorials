@@ -36,7 +36,7 @@ using Aspose.Slides.Comment;
 using System;
 ```
 
-Nu we de vereisten hebben behandeld en de benodigde naamruimten hebben geïmporteerd, gaan we dieper in op het stapsgewijze proces voor toegang tot dia-opmerkingen met Aspose.Slides voor .NET.
+Nu we de vereisten hebben besproken en de benodigde naamruimten hebben geïmporteerd, gaan we dieper in op het stapsgewijze proces voor toegang tot dia-opmerkingen met Aspose.Slides voor .NET.
 
 ## Stap 2: Stel de documentmap in
 

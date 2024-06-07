@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Seriler ve veri noktaları oluşturarak grafiğe veri ekliyoruz. Bu örnekte, ilgili veri noktalarıyla birlikte iki seri ekliyoruz.
 
 ```java
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Yeni seri ekle
@@ -103,7 +103,7 @@ Son olarak sunumu PowerPoint dosyasına kaydediyoruz.
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-Bu kadar! Aspose.Slides for Java'yı kullanarak yığılmış sütun grafiği ve veri etiketlerini yüzdeleri gösterecek şekilde yapılandırdığınız bir PowerPoint sunumunu başarıyla oluşturdunuz.
+Bu kadar! Aspose.Slides for Java'yı kullanarak, yığılmış sütun grafiği ve veri etiketlerini yüzdeleri gösterecek şekilde yapılandırdığınız bir PowerPoint sunumunu başarıyla oluşturdunuz.
 
 ## Java Slaytlarında Veri Etiketlerini Ayarlama Yüzdesi Oturum Açma İçin Tam Kaynak Kodu
 
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Yeni seri ekle
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

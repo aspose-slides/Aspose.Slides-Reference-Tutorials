@@ -44,7 +44,7 @@ Ebben a lépésben töltse be a meglévő PowerPoint-prezentációt (PPTX), amel
 // A dokumentumkönyvtár elérési útja
 string dataDir = "Your Document Directory";
 
-//Példányosítás Prezentáció osztály, amely egy prezentációs fájlt képvisel
+// Példányosítás Prezentáció osztály, amely egy prezentációs fájlt képvisel
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // A kódod ide kerül

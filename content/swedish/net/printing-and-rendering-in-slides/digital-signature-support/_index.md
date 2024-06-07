@@ -15,7 +15,7 @@ Innan du dyker in i handledningen, se till att du har följande:
 - Digitalt certifikat: Skaffa en digital certifikatfil (PFX) tillsammans med lösenordet för att signera din presentation. Du kan generera en eller skaffa den från en betrodd certifikatutfärdare.
 - Grundläggande kunskaper om C#: Denna handledning förutsätter att du har en grundläggande förståelse för C#-programmering.
 ## Importera namnområden
-I din C#-kod, importera de nödvändiga namnrymden för att arbeta med digitala signaturer i Aspose.Slides:
+din C#-kod, importera de nödvändiga namnrymden för att arbeta med digitala signaturer i Aspose.Slides:
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Examples.CSharp;

@@ -74,7 +74,7 @@ Gefeliciteerd! U hebt met succes een bestand in FODP-indeling naar andere presen
 
 ### 3. Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Slides voor .NET?
 
-Als u een tijdelijke licentie nodig heeft, kunt u deze verkrijgen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+ Als u een tijdelijke licentie nodig heeft, kunt u deze verkrijgen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Welke presentatieformaten worden ondersteund voor conversie?
 

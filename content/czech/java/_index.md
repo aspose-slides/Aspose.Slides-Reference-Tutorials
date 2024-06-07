@@ -42,7 +42,7 @@ Odemkněte sílu manipulace s daty Java Slides Chart pomocí Aspose.Slides for J
 ### [Přizpůsobení a formátování snímků Java](./customization-and-formatting/)
 Objevte sílu Aspose.Slides pro Java při přizpůsobování a formátování snímků Java. Naučte se krok za krokem v našich návodech. Zvyšte své prezentační dovednosti.
 ### [Animace a rozvržení snímků Java](./animation-and-layout/)
-Naučte se animaci a rozvržení snímků Java s Aspose.Slides pro Java. Ovládněte interaktivní prezentace. Ponořte se do dynamické tvorby obsahu.
+Naučte se animaci a rozvržení Java Slides s Aspose.Slides pro Java. Ovládněte interaktivní prezentace. Ponořte se do dynamické tvorby obsahu.
 ### [Prvky grafu Java Slides](./chart-elements/)
 Naučte se vytvářet dynamické grafy na snímcích Java pomocí Aspose.Slides for Java s našimi komplexními výukovými programy. Zvyšte své prezentační dovednosti ještě dnes!
 ### [Tvorba grafů Java Slides](./chart-creation/)
@@ -63,3 +63,20 @@ Naučte se, jak zacházet s obrázky ve snímcích Java pomocí výukových prog
 Naučte se, jak zvýšit zabezpečení vašich dokumentů Java Slides pomocí Aspose.Slides. Prozkoumejte podrobné návody na ochranu dokumentů.
 ### [Možnosti ukládání snímků Java](./saving-options/)
 Přečtěte si o možnostech ukládání snímků Java pomocí Aspose.Slides pro Java. Prozkoumejte komplexní výukové programy a průvodce pro efektivní správu a přizpůsobení snímků.
+
+### [Operace ukládání Java PowerPoint](./java-powerpoint-save-operations/)
+Naučte se ukládat prezentace PowerPoint pomocí Aspose.Slides for Java. Návody na ukládání do souboru, streamování a přidávání ochrany heslem.
+### [Správa vlastností Java PowerPoint](./java-powerpoint-properties-management/)
+Objevte, jak spravovat vlastnosti aplikace PowerPoint pomocí Aspose.Slides for Java. Přistupujte k vlastnostem, upravujte je a aktualizujte bez námahy pomocí našich komplexních výukových programů.
+### [Techniky vykreslování Java PowerPoint](./java-powerpoint-rendering-techniques/)
+Naučte se vykreslovat komentáře, 3D grafiku, emotikony a další v PowerPointu pomocí Aspose.Slides for Java. Komplexní výukové programy pro vylepšené prezentace.
+### [Java PowerPoint Shape a vkládání médií](./java-powerpoint-shape-media-insertion/)
+Naučte se vkládat tvary a média do prezentací PowerPoint pomocí Aspose.Slides for Java. Výukové programy zahrnují přidávání čar, zvuku, objektů OLE a videí.
+### [Java PowerPoint Shape a vytváření miniatur](./java-powerpoint-shape-thumbnail-creation/)
+Naučte se vytvářet tvary a miniatury v PowerPointu pomocí Aspose.Slides Java. Podrobné návody na vytváření skupinových tvarů, miniatury měřítka a efekty přiblížení.
+### [Java PowerPoint animace a manipulace s tvary](./java-powerpoint-animation-shape-manipulation/)
+Naučte se animovat a manipulovat s tvary v PowerPointu pomocí Aspose.Slides for Java. Komplexní tutoriály pro dynamické prezentace.
+### [Formátování tvaru a geometrie Java PowerPoint](./java-powerpoint-shape-formatting-geometry/)
+Objevte výukové programy formátování tvarů a geometrie Java PowerPoint. Naučte se vyplňovat tvary, hledat tvary a vytvářet vlastní geometrii pomocí Aspose.Slides for Java.
+### [Techniky klonování snímků Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
+Hlavní klonování snímků v aplikaci PowerPoint pomocí Aspose.Slides for Java. Naučte se bezproblémově klonovat snímky v rámci jedné prezentace nebo napříč prezentacemi.

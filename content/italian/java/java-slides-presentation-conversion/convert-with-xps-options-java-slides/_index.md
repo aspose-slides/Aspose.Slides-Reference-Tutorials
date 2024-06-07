@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Passaggio 4: personalizza le opzioni di conversione
 
- Per personalizzare il processo di conversione, puoi creare un'istanza del file`XpsOptions` classe. Nell'esempio, impostiamo l'opzione per salvare i metafile come immagini PNG.
+Per personalizzare il processo di conversione, puoi creare un'istanza del file`XpsOptions` classe. Nell'esempio, impostiamo l'opzione per salvare i metafile come immagini PNG.
 
 ```java
 XpsOptions opts = new XpsOptions();

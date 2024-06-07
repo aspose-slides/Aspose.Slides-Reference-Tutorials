@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // استبدل "your_output_pa
 Presentation pres = new Presentation();
 ```
 
- في الكود أعلاه، نحدد المسار لملف العرض التقديمي الناتج وننشئ ملفًا جديدًا`Presentation` هدف.
+في الكود أعلاه، نحدد المسار لملف العرض التقديمي الناتج وننشئ ملفًا جديدًا`Presentation` هدف.
 
 ## الخطوة 2: قم بتعيين ClsId للدليل الجذر
 
- لتعيين معرف الجذر ClsId، تحتاج إلى إنشاء مثيل لـ`PptOptions`وقم بتعيين CLSID المطلوب. يمثل CLSID التطبيق الذي سيتم استخدامه كدليل جذر عند تنشيط الارتباط التشعبي.
+ لتعيين معرف الجذر ClsId، تحتاج إلى إنشاء مثيل لـ`PptOptions` وقم بتعيين CLSID المطلوب. يمثل CLSID التطبيق الذي سيتم استخدامه كدليل جذر عند تنشيط الارتباط التشعبي.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// اضبط CLSID على "Microsoft Powerpoint.Show.8"
+	//اضبط CLSID على "Microsoft Powerpoint.Show.8"
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// حفظ العرض التقديمي
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

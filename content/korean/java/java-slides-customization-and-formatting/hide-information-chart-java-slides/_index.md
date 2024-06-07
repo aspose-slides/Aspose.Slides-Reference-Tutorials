@@ -50,7 +50,7 @@ chart.getAxes().getVerticalAxis().setVisible(false);
 
 ## 6단계: 카테고리 축 숨기기
 
-범주 축(가로 축)을 숨기려면 다음 코드를 사용하세요.
+범주 축(가로 축)을 숨기려면 다음 코드를 사용합니다.
 
 ```java
 chart.getAxes().getHorizontalAxis().setVisible(false);

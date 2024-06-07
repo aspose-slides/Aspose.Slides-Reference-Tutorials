@@ -111,7 +111,7 @@ Sikeresen konvertált egy PowerPoint prezentációt SWF formátumba az Aspose.Sl
 
 ### Beilleszthetek megjegyzéseket és megjegyzéseket az SWF-fájlba?
 
- Igen, megjegyzéseket és megjegyzéseket is elhelyezhet az SWF-fájlban, ha konfigurálja a`SwfOptions` Eszerint. Használja a`setViewerIncluded` módszer annak ellenőrzésére, hogy a megjegyzések és megjegyzések szerepeljenek-e.
+ Igen, megjegyzéseket és megjegyzéseket helyezhet el az SWF-fájlban, ha konfigurálja a`SwfOptions` Eszerint. Használja a`setViewerIncluded` módszer annak ellenőrzésére, hogy megjegyzések és megjegyzések szerepeljenek-e.
 
 ### Mi az alapértelmezett jegyzetpozíció az SWF-fájlban?
 

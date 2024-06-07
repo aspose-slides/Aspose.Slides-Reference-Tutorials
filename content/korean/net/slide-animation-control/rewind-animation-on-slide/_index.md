@@ -56,7 +56,7 @@ effect.Timing.Rewind = true;
 presentation.Save(RunExamples.OutPath + "AnimationRewind-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 ```
 ## 6단계: 대상 프리젠테이션에서 되감기 효과 확인
-수정된 프레젠테이션을 로드하고 되감기 효과가 적용되었는지 확인합니다.
+수정된 프레젠테이션을 로드하고 되감기 효과가 적용되었는지 확인하세요.
 ```csharp
 using (Presentation pres = new Presentation(RunExamples.OutPath + "AnimationRewind-out.pptx"))
 {

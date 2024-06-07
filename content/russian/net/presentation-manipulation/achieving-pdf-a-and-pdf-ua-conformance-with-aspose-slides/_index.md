@@ -31,7 +31,7 @@ Install-Package Aspose.Slides
 
 ## Загрузка файлов презентации
 
-После интеграции Aspose.Slides в ваш проект вы можете начать работу с файлами презентаций. Загрузка презентации проста:
+После интеграции Aspose.Slides в ваш проект вы можете начать работать с файлами презентаций. Загрузка презентации проста:
 
 ```csharp
 using Aspose.Slides;
@@ -62,7 +62,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Добавить поддержку специальных возможностей для PDF/UA.
+//Добавить поддержку специальных возможностей для PDF/UA.
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Загрузить презентацию
 using var presentation = new Presentation("presentation.pptx");
 
-// Добавить поддержку специальных возможностей для PDF/UA.
+//Добавить поддержку специальных возможностей для PDF/UA.
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

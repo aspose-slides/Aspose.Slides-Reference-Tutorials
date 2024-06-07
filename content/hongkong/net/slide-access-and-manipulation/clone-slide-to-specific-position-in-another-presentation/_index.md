@@ -89,7 +89,7 @@ destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 
 ### 我可以使用 Aspose.Slides 操作投影片內容，例如文字和圖像嗎？
 
-是的，Aspose.Slides 允許您以程式設計方式操作投影片內容，包括文字、圖像、形狀等，讓您完全控制簡報。
+是的，Aspose.Slides 允許您以程式設計方式操作投影片內容，包括文字、圖像、形狀等，讓您可以完全控制簡報。
 
 ### 在哪裡可以找到有關 Aspose.Slides 的更多文件和範例？
 

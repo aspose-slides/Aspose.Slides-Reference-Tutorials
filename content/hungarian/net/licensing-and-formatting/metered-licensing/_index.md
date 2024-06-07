@@ -110,7 +110,7 @@ Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fej
  Igen, letöltheti az Aspose.Slides for .NET ingyenes próbaverzióját a webhelyről[ez a link](https://releases.aspose.com/).
 
 ### Hogyan vásárolhatok licencet az Aspose.Slides for .NET számára?
- Licenc vásárlásához látogasson el az Aspose áruházba a címen[ez a link](https://purchase.aspose.com/buy).
+ Licenc vásárlásához keresse fel az Aspose üzletet a címen[ez a link](https://purchase.aspose.com/buy).
 
 ### Létezik fórum az Aspose.Slides támogatásához és vitáihoz?
  Igen, támogatást találhat és beszélgetéseket folytathat az Aspose.Slides fórumon a címen[ez a link](https://forum.aspose.com/).

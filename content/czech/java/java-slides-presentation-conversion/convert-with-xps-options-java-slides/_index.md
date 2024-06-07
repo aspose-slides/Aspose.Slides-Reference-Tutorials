@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Krok 4: Přizpůsobte možnosti převodu
 
- Chcete-li přizpůsobit proces převodu, můžete vytvořit instanci souboru`XpsOptions` třída. V příkladu jsme nastavili možnost ukládat metasoubory jako obrázky PNG.
+Chcete-li přizpůsobit proces převodu, můžete vytvořit instanci souboru`XpsOptions` třída. V příkladu jsme nastavili možnost ukládat metasoubory jako obrázky PNG.
 
 ```java
 XpsOptions opts = new XpsOptions();

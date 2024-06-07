@@ -71,7 +71,7 @@ Ten kod gwarantuje, że kolor wypełnienia serii zostanie ustawiony na automatyc
 Aby zapisać prezentację użyj następującego kodu:
 
 ```java
-//Zapisz plik prezentacji na dysku
+// Zapisz plik prezentacji na dysku
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Zapisz plik prezentacji na dysku
+	// Zapisz plik prezentacji na dysku
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

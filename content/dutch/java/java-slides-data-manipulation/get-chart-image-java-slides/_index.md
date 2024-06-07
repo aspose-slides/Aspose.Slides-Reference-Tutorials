@@ -75,7 +75,7 @@ Het verkrijgen van diagramafbeeldingen uit Java Slides met Aspose.Slides voor Ja
 
 ### Hoe installeer ik Aspose.Slides voor Java?
 
- Het installeren van Aspose.Slides voor Java is eenvoudig. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/slides/java/)en volg de installatie-instructies in de documentatie.
+ Het installeren van Aspose.Slides voor Java is eenvoudig. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/slides/java/) en volg de installatie-instructies in de documentatie.
 
 ### Kan ik het diagram aanpassen voordat ik de afbeelding verkrijg?
 
@@ -91,4 +91,4 @@ Ja, Aspose.Slides voor Java kan voor commerciële doeleinden worden gebruikt. He
 
 ### Kan ik de kaartafbeelding in een ander formaat opslaan?
 
-Zeker! U kunt de kaartafbeelding in verschillende formaten opslaan, zoals JPEG of GIF, door de juiste bestandsextensie op te geven in het`ImageIO.write` methode.
+ Zeker! U kunt de kaartafbeelding in verschillende formaten opslaan, zoals JPEG of GIF, door de juiste bestandsextensie op te geven in het`ImageIO.write` methode.

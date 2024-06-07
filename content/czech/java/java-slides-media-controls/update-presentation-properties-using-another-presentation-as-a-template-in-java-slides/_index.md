@@ -121,4 +121,4 @@ Ano, kód můžete přizpůsobit tak, aby aktualizoval konkrétní vlastnosti na
 
 ### Existuje nějaké omezení typu prezentací, které lze aktualizovat?
 
-Ne, můžete aktualizovat vlastnosti prezentací v různých formátech, včetně PPTX, ODP a PPT.
+Ne, vlastnosti prezentací můžete aktualizovat v různých formátech, včetně PPTX, ODP a PPT.

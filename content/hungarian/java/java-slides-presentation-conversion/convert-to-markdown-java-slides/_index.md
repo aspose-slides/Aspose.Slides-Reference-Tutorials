@@ -2,7 +2,7 @@
 title: Konvertálás Markdown-ra a Java Slides-ben
 linktitle: Konvertálás Markdown-ra a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Konvertálja a PowerPoint prezentációkat Markdown formátumba az Aspose.Slides for Java segítségével. Kövesse ezt a lépésről lépésre útmutatót, hogy könnyedén átalakítsa diákjait.
+description: Konvertálja a PowerPoint prezentációkat Markdown formátumba az Aspose.Slides for Java segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót, hogy könnyedén átalakítsa diákjait.
 type: docs
 weight: 24
 url: /hu/java/presentation-conversion/convert-to-markdown-java-slides/

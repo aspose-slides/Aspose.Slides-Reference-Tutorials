@@ -46,11 +46,11 @@ using (Presentation pres = new Presentation())
 ## 3. lépés: A dia háttereinek testreszabása
 Növelje diákjai vizuális vonzerejét a hátterük testreszabásával. Ebben a példában szilárd cián hátteret állítottunk be a második diához.
 ```csharp
-// Hozzon létre hátteret a második diához
+//Hozzon létre hátteret a második diához
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//... (A hátterek testreszabásának folytatása más diákhoz)
+// ... (A hátterek testreszabásának folytatása más diákhoz)
 ```
 ## 4. lépés: Szövegdobozok hozzáadása a diákhoz
 Szereljen be szövegdobozokat, hogy információkat közvetítsen a diákon. Itt egy téglalap alakú szövegdobozt adunk a második diához.

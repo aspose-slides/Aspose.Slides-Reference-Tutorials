@@ -81,7 +81,7 @@ Bu eğitimde, Aspose.Slides for .NET kullanarak bir PowerPoint sunumunu HTML'ye 
 
 ### S1: Hariç tutulan yazı tiplerinin listesini özelleştirebilir miyim?
 
- Evet yapabilirsin. Değiştirmek`fontNameExcludeList` Gereksinimlerinize göre belirli yazı tiplerini dahil etmek veya hariç tutmak için dizi.
+ Evet yapabilirsin. Değiştirmek`fontNameExcludeList`Gereksinimlerinize göre belirli yazı tiplerini dahil etmek veya hariç tutmak için dizi.
 
 ### S2: Tüm yazı tiplerini gömmek istemezsem ne olur?
 

@@ -83,7 +83,7 @@ Dans ce didacticiel, nous avons exploré comment convertir des présentations Po
 
 ## FAQ
 
-### Comment modifier la position des notes dans le PDF ?
+### Comment modifier la position des notes dans le PDF ?
 
  Vous pouvez changer la position des notes dans le PDF en modifiant le`setNotesPosition` argument de méthode. Par exemple, vous pouvez le définir sur`NotesPositions.RightFull` pour positionner les notes sur le côté droit des diapositives.
 

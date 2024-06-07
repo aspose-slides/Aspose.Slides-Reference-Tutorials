@@ -44,7 +44,7 @@ lo.getSpreadsheetOptions().setRecoverWorkbookFromChartCache(true);
 Presentation pres = new Presentation(pptxFile, lo);
 ```
 
-## Steg 4: Få tillgång till sjökortsdata
+## Steg 4: Få åtkomst till sjökortsdata
 
 Nu kan du komma åt diagramdata och återställa arbetsboken:
 
@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    //Utför operationer på arbetsboksdata här
+    // Utför åtgärder på arbetsboksdata här
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -86,7 +86,7 @@ finally
 
 ## Slutsats
 
-I den här guiden har vi gått igenom processen att återställa en arbetsbok från ett diagram i Java Slides med Aspose.Slides för Java. Det här biblioteket förenklar uppgiften, vilket gör det lättare för utvecklare att arbeta med PowerPoint-presentationer programmatiskt. Nu kan du tryggt hantera datadrivna presentationer och extrahera arbetsboksinformation efter behov.
+den här guiden har vi gått igenom processen att återställa en arbetsbok från ett diagram i Java Slides med Aspose.Slides för Java. Det här biblioteket förenklar uppgiften, vilket gör det lättare för utvecklare att arbeta med PowerPoint-presentationer programmatiskt. Nu kan du tryggt hantera datadrivna presentationer och extrahera arbetsboksinformation efter behov.
 
 ## FAQ's
 

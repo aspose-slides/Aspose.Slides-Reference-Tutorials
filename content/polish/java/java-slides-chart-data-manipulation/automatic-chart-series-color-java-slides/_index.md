@@ -10,7 +10,7 @@ url: /pl/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 
 ## Wprowadzenie do automatycznego koloru serii wykresów w Aspose.Slides dla Java
 
-tym samouczku dowiemy się, jak utworzyć prezentację programu PowerPoint z wykresem przy użyciu Aspose.Slides dla Java i ustawić automatyczne kolory wypełnienia dla serii wykresów. Automatyczne kolory wypełnienia mogą sprawić, że Twoje wykresy będą bardziej atrakcyjne wizualnie i zaoszczędzić czas, pozwalając bibliotece wybrać kolory za Ciebie.
+W tym samouczku dowiemy się, jak utworzyć prezentację programu PowerPoint z wykresem przy użyciu Aspose.Slides dla Java i ustawić automatyczne kolory wypełnienia dla serii wykresów. Automatyczne kolory wypełnienia mogą sprawić, że Twoje wykresy będą bardziej atrakcyjne wizualnie i zaoszczędzić czas, pozwalając bibliotece wybrać kolory za Ciebie.
 
 ## Warunki wstępne
 
@@ -47,7 +47,7 @@ Teraz wypełnimy wykres danymi. Zaczniemy od usunięcia domyślnie wygenerowanyc
 ```java
 // Ustawianie indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Usuń domyślnie wygenerowane serie i kategorie
 chart.getChartData().getSeries().clear();
@@ -70,14 +70,14 @@ Wypełnimy dane serii zarówno dla Serii 1, jak i Serii 2.
 ```java
 // Weź pierwszą serię wykresów
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Teraz wypełniam dane serii
+//Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Weź drugą serię wykresów
 series = chart.getChartData().getSeries().get_Item(1);
-// Teraz wypełniam dane serii
+//Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Ustawianie indeksu arkusza danych wykresu
 	int defaultWorksheetIndex = 0;
-	//Pobieranie arkusza danych wykresu
+	// Pobieranie arkusza danych wykresu
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Usuń domyślnie wygenerowane serie i kategorie
 	chart.getChartData().getSeries().clear();
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Weź pierwszą serię wykresów
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// Teraz wypełniam dane serii
+	//Teraz wypełniam dane serii
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Weź drugą serię wykresów
 	series = chart.getChartData().getSeries().get_Item(1);
-	// Teraz wypełniam dane serii
+	//Teraz wypełniam dane serii
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// Ustawianie koloru wypełnienia serii
+	//Ustawianie koloru wypełnienia serii
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Zapisz prezentację z wykresem
@@ -160,7 +160,7 @@ finally
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak utworzyć prezentację programu PowerPoint z wykresem przy użyciu Aspose.Slides dla Java i ustawić automatyczne kolory wypełnienia dla serii wykresów. Automatyczne kolory mogą poprawić atrakcyjność wizualną wykresów i uczynić prezentacje bardziej wciągającymi. Możesz dodatkowo dostosować wykres zgodnie z potrzebami.
+W tym samouczku nauczyliśmy się tworzyć prezentację programu PowerPoint z wykresem przy użyciu Aspose.Slides dla Java i ustawiać automatyczne kolory wypełniania serii wykresów. Automatyczne kolory mogą poprawić atrakcyjność wizualną wykresów i uczynić prezentacje bardziej wciągającymi. Możesz dodatkowo dostosować wykres zgodnie z potrzebami.
 
 ## Często zadawane pytania
 
@@ -181,7 +181,7 @@ Ten kod pozwoli bibliotece automatycznie wybrać kolory dla serii wykresów.
 
 ### Jak mogę dodać dodatkowe serie lub kategorie do wykresu?
 
- Aby dodać do wykresu dodatkowe serie lub kategorie, użyj opcji`getSeries()` I`getCategories()` metody wykresów`ChartData` obiekt. Możesz dodawać nowe serie i kategorie, określając ich dane i etykiety.
+Aby dodać do wykresu dodatkowe serie lub kategorie, użyj opcji`getSeries()` I`getCategories()` metody wykresów`ChartData` obiekt. Możesz dodawać nowe serie i kategorie, określając ich dane i etykiety.
 
 ### Czy można dodatkowo sformatować wykres i etykiety?
 

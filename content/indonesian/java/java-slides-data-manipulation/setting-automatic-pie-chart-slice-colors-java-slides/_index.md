@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Mengatur indeks lembar data grafik
 	int defaultWorksheetIndex = 0;
-	//Mendapatkan lembar kerja data bagan
+	// Mendapatkan lembar kerja data bagan
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Hapus seri dan kategori yang dihasilkan secara default
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Menambahkan seri baru
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Sekarang mengisi data seri
+	//Sekarang mengisi data seri
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Anda telah berhasil membuat diagram lingkaran dalam presentasi PowerPoint menggu
 
 ### Bagaimana cara menyesuaikan warna masing-masing irisan dalam diagram lingkaran?
 
- Untuk menyesuaikan warna masing-masing irisan dalam diagram lingkaran, Anda dapat menggunakan`getAutomaticSeriesColors`metode untuk mengambil skema warna default dan kemudian memodifikasi warna sesuai kebutuhan. Berikut ini contohnya:
+ Untuk menyesuaikan warna masing-masing irisan dalam diagram lingkaran, Anda dapat menggunakan`getAutomaticSeriesColors` metode untuk mengambil skema warna default dan kemudian memodifikasi warna sesuai kebutuhan. Berikut ini contohnya:
 
 ```java
-// Dapatkan skema warna default
+//Dapatkan skema warna default
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Ubah warna sesuai kebutuhan

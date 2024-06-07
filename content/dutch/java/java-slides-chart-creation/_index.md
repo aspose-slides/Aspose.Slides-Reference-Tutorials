@@ -14,7 +14,7 @@ Bent u klaar om de kracht van dynamische grafieken in uw Java-dia's te ontsluite
 
  Voordat u zich gaat verdiepen in het maken van diagrammen, is het van cruciaal belang om Aspose.Slides voor Java in te stellen. U kunt de API downloaden van[hier](https://releases.aspose.com/slides/java/) en krijg toegang tot de API-documentatie[hier](https://reference.aspose.com/slides/java/) . Als u nieuw bent bij Aspose, overweeg dan een gratis proefperiode[hier](https://releases.aspose.com/) of verken tijdelijke licentieopties[hier](https://purchase.aspose.com/temporary-license/).
 
-## Basisbeginselen van Java-diagrafieken
+## Basisbeginselen van Java-diagrafieën
 
 Laten we beginnen met de grondbeginselen. Met Aspose.Slides voor Java kunt u verschillende diagramtypen ontwerpen, waaronder staaf-, cirkel-, lijn- en meer. Duik in onze tutorials voor elk diagramtype, met stapsgewijze instructies en codevoorbeelden. In een mum van tijd maakt u indrukwekkende grafieken.
 

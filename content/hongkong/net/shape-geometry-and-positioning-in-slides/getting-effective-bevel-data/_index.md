@@ -55,7 +55,7 @@ Console.WriteLine("Width: " + threeDEffectiveData.BevelTop.Width);
 Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 ```
 最後，我們列印出形狀頂面的斜角數據，包括其類型、寬度和高度。
-現在你就擁有了！您已使用 Aspose.Slides for .NET 成功檢索並顯示了簡報中形狀的有效斜角資料。
+現在你就得到它了！您已使用 Aspose.Slides for .NET 成功檢索並顯示了簡報中形狀的有效斜角資料。
 ## 結論
 在本教程中，我們探索了使用 Aspose.Slides for .NET 從簡報投影片中的形狀獲取有效斜角資料的基礎知識。有了這些知識，您現在可以透過客製化的三維效果來增強您的簡報。
 ## 經常問的問題

@@ -10,7 +10,7 @@ url: /cs/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 
 ## Úvod do získávání hodnot a měřítka jednotek z Axis v Java Slides
 
-V tomto tutoriálu prozkoumáme, jak načíst hodnoty a měřítko jednotek z osy v Java Slides pomocí Aspose.Slides for Java API. Ať už pracujete na projektu vizualizace dat nebo potřebujete analyzovat data grafu ve svých aplikacích Java, je nezbytné pochopit, jak získat přístup k hodnotám os. Provedeme vás procesem krok za krokem a poskytneme vám příklady kódu.
+tomto tutoriálu prozkoumáme, jak načíst hodnoty a měřítko jednotek z osy v Java Slides pomocí Aspose.Slides for Java API. Ať už pracujete na projektu vizualizace dat nebo potřebujete analyzovat data grafu ve svých aplikacích Java, je nezbytné pochopit, jak získat přístup k hodnotám os. Provedeme vás procesem krok za krokem a poskytneme vám příklady kódu.
 
 ## Předpoklady
 
@@ -18,7 +18,7 @@ Než se ponoříme do kódu, ujistěte se, že máte splněny následující př
 
 1. Vývojové prostředí Java: Ujistěte se, že máte na svém systému nainstalovanou Javu a znáte programovací koncepty Java.
 
-2. Aspose.Slides for Java: Stáhněte si a nainstalujte knihovnu Aspose.Slides for Java z[odkaz ke stažení](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Stáhněte si a nainstalujte knihovnu Aspose.Slides for Java z[odkaz ke stažení](https://releases.aspose.com/slides/java/).
 
 ## Krok 1: Vytvoření prezentace
 
@@ -99,7 +99,7 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak získat hodnoty a měřítko jednotek z os v Java Slides pomocí Aspose.Slides for Java. To může být neuvěřitelně cenné při práci s grafy a analýze dat ve vašich aplikacích Java. Aspose.Slides for Java poskytuje nástroje, které potřebujete k programové práci s prezentacemi, a poskytuje vám kontrolu nad daty grafů a mnoho dalšího.
+tomto tutoriálu jsme prozkoumali, jak získat hodnoty a měřítko jednotek z os v Java Slides pomocí Aspose.Slides for Java. To může být neuvěřitelně cenné při práci s grafy a analýze dat ve vašich aplikacích Java. Aspose.Slides for Java poskytuje nástroje, které potřebujete k programové práci s prezentacemi, a poskytuje vám kontrolu nad daty grafů a mnoho dalšího.
 
 ## FAQ
 

@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## Steg 5: Definiera gradientformat
 
- I det här steget kommer du att ange gradientformatet. Du kan anpassa övertoningen efter dina önskemål. Här använder vi`TileFlip.FlipBoth` för att skapa en visuellt tilltalande effekt.
+ det här steget kommer du att ange gradientformatet. Du kan anpassa övertoningen efter dina önskemål. Här använder vi`TileFlip.FlipBoth` för att skapa en visuellt tilltalande effekt.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

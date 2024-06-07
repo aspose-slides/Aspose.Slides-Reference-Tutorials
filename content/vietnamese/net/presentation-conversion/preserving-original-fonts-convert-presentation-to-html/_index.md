@@ -81,7 +81,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày cách giữ nguyên phô
 
 ### Q1: Tôi có thể tùy chỉnh danh sách các phông chữ bị loại trừ không?
 
- Vâng, bạn có thể. Sửa đổi`fontNameExcludeList` array để bao gồm hoặc loại trừ các phông chữ cụ thể theo yêu cầu của bạn.
+ Vâng, bạn có thể. Sửa đổi`fontNameExcludeList`array để bao gồm hoặc loại trừ các phông chữ cụ thể theo yêu cầu của bạn.
 
 ### Câu hỏi 2: Nếu tôi không muốn nhúng tất cả phông chữ thì sao?
 

@@ -12,7 +12,7 @@ url: /zh-hant/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
 1.  Aspose.Slides for .NET Library：從以下位置下載並安裝該程式庫：[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).
-2. 開發環境：確保您設定了有效的 .NET 開發環境。
+2. 開發環境：確保您已設定有效的 .NET 開發環境。
 現在，讓我們開始使用逐步指南。
 ## 導入命名空間
 首先，導入必要的命名空間以在 .NET 應用程式中利用 Aspose.Slides 功能。

@@ -8,7 +8,7 @@ weight: 15
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
 ## Introduktion
-I den här handledningen kommer vi att fördjupa oss i processen att lägga till OLE (Object Linking and Embedding)-objektramar till presentationsbilder med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med PowerPoint-filer programmatiskt. Följ den här steg-för-steg-guiden för att sömlöst bädda in OLE-objekt i dina presentationsbilder och förbättra dina PowerPoint-filer med dynamiskt och interaktivt innehåll.
+den här handledningen kommer vi att fördjupa oss i processen att lägga till OLE (Object Linking and Embedding)-objektramar till presentationsbilder med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med PowerPoint-filer programmatiskt. Följ den här steg-för-steg-guiden för att sömlöst bädda in OLE-objekt i dina presentationsbilder och förbättra dina PowerPoint-filer med dynamiskt och interaktivt innehåll.
 ## Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar på plats:
 1.  Aspose.Slides for .NET Library: Se till att du har Aspose.Slides-biblioteket för .NET installerat. Du kan ladda ner den från[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Steg 4: Lägg till en OLE-objektramform
 ```csharp
-// Lägg till en OLE-objektramform
+//Lägg till en OLE-objektramform
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ S: Ja, Aspose.Slides stöder de senaste PowerPoint-filformaten, inklusive PPTX.
 ### F: Kan jag anpassa utseendet på den inbäddade OLE-objektramen?
 S: Absolut, du kan justera storleken, positionen och andra egenskaper för OLE Object Frame enligt dina önskemål.
 ### F: Var kan jag söka hjälp om jag stöter på utmaningar under implementeringen?
- A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och vägledning.
+A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och vägledning.

@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // Repita para outros pontos de dados
 // ...
 
-//Alterando o tamanho do marcador da série do gráfico
+// Alterando o tamanho do marcador da série do gráfico
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ Com Aspose.Slides for Java, você pode elevar suas apresentações personalizand
 
 ### Posso usar imagens como marcadores personalizados?
 
-Sim, você pode usar imagens como marcadores personalizados para pontos de dados. Defina o tipo de preenchimento como`FillType.Picture` e forneça a imagem que deseja usar.
+ Sim, você pode usar imagens como marcadores personalizados para pontos de dados. Defina o tipo de preenchimento como`FillType.Picture` forneça a imagem que deseja usar.
 
 ### O Aspose.Slides for Java é adequado para criar gráficos dinâmicos?
 

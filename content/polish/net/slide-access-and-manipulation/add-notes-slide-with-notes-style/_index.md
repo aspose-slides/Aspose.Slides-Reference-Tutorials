@@ -37,7 +37,7 @@ Przejdźmy teraz do sedna naszego samouczka — dodawania stylowych notatek do s
 
 ### Krok 2.1: Utwórz instancję klasy prezentacji
 
- Najpierw musimy utworzyć instancję`Presentation`klasa reprezentująca plik prezentacji programu PowerPoint. Powinieneś podać ścieżkę do pliku prezentacji w formacie`dataDir` zmienny.
+ Najpierw musimy utworzyć instancję`Presentation` klasa reprezentująca plik prezentacji programu PowerPoint. Powinieneś podać ścieżkę do pliku prezentacji w formacie`dataDir` zmienny.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Krok 2.2: Otwórz slajd z notatkami głównymi
 
- W ramach`using` bloku, uzyskujemy dostęp do slajdu notatek głównych. Slajd notatek wzorcowych zawiera domyślny styl notatek w prezentacji.
+ W ramach`using`bloku, uzyskujemy dostęp do slajdu notatek głównych. Slajd notatek wzorcowych zawiera domyślny styl notatek w prezentacji.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

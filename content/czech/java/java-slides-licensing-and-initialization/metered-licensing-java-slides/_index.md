@@ -71,7 +71,7 @@ try
 	double amountbefore = Metered.getConsumptionQuantity();
 	// Zobrazení informací
 	System.out.println("Amount Consumed Before: " + amountbefore);
-	// Získejte naměřené množství dat po volání API
+	//Získejte naměřené množství dat po volání API
 	double amountafter = Metered.getConsumptionQuantity();
 	// Zobrazení informací
 	System.out.println("Amount Consumed After: " + amountafter);

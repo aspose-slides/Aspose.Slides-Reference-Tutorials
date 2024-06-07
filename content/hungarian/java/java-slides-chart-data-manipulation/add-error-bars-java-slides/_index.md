@@ -14,7 +14,7 @@ Ebben az oktatóanyagban bemutatjuk, hogyan lehet hibasávokat hozzáadni egy Po
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtár letölthető a[Aspose honlapja](https://downloads.aspose.com/slides/java).
+ Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtár letölthető a[Aspose honlapja](https://downloads.aspose.com/slides/java).
 
 ## 1. lépés: Hozzon létre egy üres prezentációt
 
@@ -62,9 +62,9 @@ Ebben a lépésben hibasávokat adunk a diagramhoz, és beállítjuk a formátum
 - `setValue` beállítja a hibasávok értékét.
 - `setType` meghatározza a hibasávok típusát (pl. plusz vagy mínusz).
 -  A hibasáv vonalainak szélességét a segítségével állítjuk be`getFormat().getLine().setWidth(2)`.
-- `setEndCap`megadja, hogy szerepeljenek-e zárófejek a hibasávokon.
+- `setEndCap` megadja, hogy szerepeljenek-e zárófejek a hibasávokon.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 ```java
 // Prezentáció mentése
@@ -123,7 +123,7 @@ Igen, az Aspose.Slides for Java által támogatott különféle diagramtípusokh
 
 ### Hogyan állíthatom be a diagram helyzetét és méretét a dián?
 
- A diagram helyzetét és méreteit a paraméterek beállításával szabályozhatja`addChart` módszert a 2. lépésben látható módon.
+ diagram helyzetét és méreteit a paraméterek beállításával szabályozhatja`addChart` módszert a 2. lépésben látható módon.
 
 ### Hol találhatok további információt az Aspose.Slides for Java programról?
 

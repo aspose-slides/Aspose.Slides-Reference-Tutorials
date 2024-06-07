@@ -21,7 +21,7 @@ Než se ponoříte do složitosti správy prezentací pomocí Aspose.Slides for 
 
 3. Vytvoření nového projektu: Otevřete preferované integrované vývojové prostředí (IDE) a vytvořte nový projekt.
 
-4. Přidat odkaz: Přidejte odkaz na Aspose.Slides DLL ve vašem projektu.
+4. Přidat odkaz: Přidejte odkaz na knihovnu DLL Aspose.Slides ve vašem projektu.
 
 ## Vytvoření nové prezentace
 

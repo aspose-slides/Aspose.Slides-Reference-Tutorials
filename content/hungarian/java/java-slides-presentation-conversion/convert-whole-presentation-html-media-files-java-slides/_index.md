@@ -51,7 +51,7 @@ Presentation pres = new Presentation("presentationWith.pptx");
 
 ## 4. lépés: Hozza létre a HTML-vezérlőt
 
- Létrehozunk a`VideoPlayerHtmlController` az átalakítási folyamat kezelésére. Cserélje ki az URL-t a kívánt webcímre.
+ Létrehozunk a`VideoPlayerHtmlController` kezelni az átalakítási folyamatot. Cserélje ki az URL-t a kívánt webcímre.
 
 ```java
 VideoPlayerHtmlController controller = new VideoPlayerHtmlController(

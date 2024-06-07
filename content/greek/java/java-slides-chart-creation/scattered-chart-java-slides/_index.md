@@ -56,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0
 // Λήψη του προεπιλεγμένου ευρετηρίου φύλλου εργασίας δεδομένων γραφήματος
 int defaultWorksheetIndex = 0;
 
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Διαγραφή σειράς επίδειξης
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Λήψη του προεπιλεγμένου ευρετηρίου φύλλου εργασίας δεδομένων γραφήματος
 int defaultWorksheetIndex = 0;
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Διαγραφή σειράς επίδειξης
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Προσθήκη νέου σημείου (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Προσθήκη νέου σημείου (2:2)
+// Προσθήκη νέου σημείου (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Προσθήκη νέου σημείου (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### Πώς μπορώ να αλλάξω τον τύπο του γραφήματος;
 
- Για να αλλάξετε τον τύπο γραφήματος, χρησιμοποιήστε το`setType` μέθοδο στη σειρά γραφημάτων και παρέχετε τον επιθυμητό τύπο γραφήματος. Για παράδειγμα,`series.setType(ChartType.Line)` θα άλλαζε τη σειρά σε γραμμικό γράφημα.
+ Για να αλλάξετε τον τύπο γραφήματος, χρησιμοποιήστε το`setType`μέθοδο στη σειρά γραφημάτων και παρέχετε τον επιθυμητό τύπο γραφήματος. Για παράδειγμα,`series.setType(ChartType.Line)` θα άλλαζε τη σειρά σε γραμμικό γράφημα.
 
 ### Πώς μπορώ να προσαρμόσω το μέγεθος και το στυλ του δείκτη;
 

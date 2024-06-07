@@ -62,7 +62,7 @@ Garantir a acessibilidade é crucial para a conformidade com PDF/UA. Você pode 
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Adicione suporte de acessibilidade para PDF/UA
+//Adicione suporte de acessibilidade para PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Carregar apresentação
 using var presentation = new Presentation("presentation.pptx");
 
-// Adicione suporte de acessibilidade para PDF/UA
+//Adicione suporte de acessibilidade para PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

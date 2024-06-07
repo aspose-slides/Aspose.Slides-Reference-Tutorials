@@ -1,23 +1,23 @@
 ---
-title: Konvertieren Sie in PDF mit Fortschrittsaktualisierung in Java Slides
-linktitle: Konvertieren Sie in PDF mit Fortschrittsaktualisierung in Java Slides
+title: Mit Fortschrittsaktualisierung in Java Slides in PDF konvertieren
+linktitle: Mit Fortschrittsaktualisierung in Java Slides in PDF konvertieren
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Konvertieren Sie PowerPoint in PDF mit Fortschrittsaktualisierungen in Java mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode und Fortschrittsverfolgung für eine reibungslose Konvertierung.
+description: Konvertieren Sie PowerPoint mit Fortschrittsaktualisierungen in Java in PDF mithilfe von Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode und Fortschrittsverfolgung für eine nahtlose Konvertierung.
 type: docs
 weight: 36
 url: /de/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
 
-## Einführung in die Konvertierung von PowerPoint in PDF mit Fortschrittsaktualisierungen in Java mithilfe von Aspose.Slides für Java
+## Einführung in die Konvertierung von PowerPoint in PDF mit Fortschrittsaktualisierungen in Java unter Verwendung von Aspose.Slides für Java
 
-In dieser Schritt-für-Schritt-Anleitung zeigen wir, wie Sie mit Aspose.Slides für Java eine PowerPoint-Präsentation (PPTX) in eine PDF-Datei in Java konvertieren. Darüber hinaus werden wir während des Konvertierungsprozesses Fortschrittsaktualisierungen einbinden.
+In dieser Schritt-für-Schritt-Anleitung zeigen wir, wie man mit Aspose.Slides für Java eine PowerPoint-Präsentation (PPTX) in Java in eine PDF-Datei konvertiert. Darüber hinaus werden wir während des Konvertierungsprozesses Fortschrittsaktualisierungen einbinden.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Stellen Sie zunächst sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Einrichtung einer Java-Entwicklungsumgebung.
--  Aspose.Slides für Java-Bibliothek zu Ihrem Projekt hinzugefügt. Sie können es herunterladen unter[Hier](https://downloads.aspose.com/slides/java).
+- Java-Entwicklungsumgebung eingerichtet.
+-  Aspose.Slides für Java-Bibliothek zu Ihrem Projekt hinzugefügt. Sie können es herunterladen von[Hier](https://downloads.aspose.com/slides/java).
 
 ## Schritt 1: Importieren Sie Aspose.Slides für die Java-Bibliothek
 
@@ -27,14 +27,14 @@ Um zu beginnen, müssen Sie die Aspose.Slides-Bibliothek in Ihr Java-Projekt imp
 import com.aspose.slides.*;
 ```
 
-## Schritt 2: Erstellen Sie eine Java-Klasse
+## Schritt 2: Erstellen einer Java-Klasse
 
-Erstellen Sie eine Java-Klasse, in der Sie die PowerPoint-zu-PDF-Konvertierung durchführen. Nennen wir es`PowerPointToPdfConverter`.
+Erstellen Sie eine Java-Klasse, in der Sie die PowerPoint-zu-PDF-Konvertierung durchführen. Nennen wir sie`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
     public static void main(String[] args) {
-        // Der Pfad zum Dokumentenverzeichnis.
+        // Der Pfad zum Dokumentverzeichnis.
         String dataDir = "Your Document Directory";
         Presentation presentation = new Presentation(dataDir + "ConvertToPDF.pptx");
         try {
@@ -48,32 +48,32 @@ public class PowerPointToPdfConverter {
 }
 ```
 
-## Schritt 3: Fortschrittsrückruf implementieren
+## Schritt 3: Implementieren Sie den Fortschrittsrückruf
 
- Wir werden einen Fortschritts-Callback-Handler implementieren, um während des Konvertierungsprozesses Aktualisierungen zu erhalten. Erstellen wir eine Klasse mit dem Namen`ExportProgressHandler` für diesen Zweck.
+ Wir werden einen Fortschritts-Callback-Handler implementieren, um während des Konvertierungsprozesses Updates zu erhalten. Erstellen wir eine Klasse namens`ExportProgressHandler` für diesen Zweck.
 
 ```java
 class ExportProgressHandler implements IProgressCallback {
     public void reporting(double progressValue) {
-        // Verwenden Sie hier den Fortschrittsprozentwert
+        // Verwenden Sie hier den Prozentwert des Fortschritts
         long progress = Math.round(progressValue);
         System.out.println(progress + "% file converted");
     }
 }
 ```
 
-## Schritt 4: Ersetzen Sie „Ihr Dokumentenverzeichnis“
+## Schritt 4: Ersetzen Sie „Ihr Dokumentverzeichnis“
 
- Ersetzen`"Your Document Directory"` im`PowerPointToPdfConverter` -Klasse mit dem tatsächlichen Pfad zu Ihrer PowerPoint-Datei und dem gewünschten Ausgabeverzeichnis.
+ Ersetzen`"Your Document Directory"` im`PowerPointToPdfConverter` Klasse durch den tatsächlichen Pfad zu Ihrer PowerPoint-Datei und dem gewünschten Ausgabeverzeichnis.
 
 ## Schritt 5: Kompilieren und ausführen
 
- Kompilieren Sie Ihre Java-Klasse und führen Sie die aus`PowerPointToPdfConverter` Klasse. Es konvertiert die PowerPoint-Präsentation in eine PDF-Datei und stellt Fortschrittsaktualisierungen in der Konsole bereit.
+ Kompilieren Sie Ihre Java-Klasse und führen Sie die`PowerPointToPdfConverter` Klasse. Es konvertiert die PowerPoint-Präsentation in eine PDF-Datei und stellt gleichzeitig Fortschrittsaktualisierungen in der Konsole bereit.
 
-## Vollständiger Quellcode für die Konvertierung in PDF mit Fortschrittsaktualisierung in Java Slides
+## Vollständiger Quellcode für die Konvertierung in PDF mit Fortschrittsaktualisierung in Java-Folien
 
 ```java
-        // Der Pfad zum Dokumentenverzeichnis.
+        // Der Pfad zum Dokumentverzeichnis.
         String dataDir = "Your Document Directory";
         Presentation presentation = new Presentation(dataDir + "ConvertToPDF.pptx");
         try
@@ -92,24 +92,24 @@ class ExportProgressHandler implements IProgressCallback
 {
     public void reporting(double progressValue)
     {
-        // Verwenden Sie hier den Fortschrittsprozentwert
+        // Verwenden Sie hier den Prozentwert des Fortschritts
         long progress = Math.round(progressValue);
         System.out.println(progress + "% file converted");
 ```
 
 ## Abschluss
 
-In dieser Schritt-für-Schritt-Anleitung haben wir untersucht, wie Sie mit Aspose.Slides für Java eine PowerPoint-Präsentation (PPTX) in eine PDF-Datei in Java konvertieren. Darüber hinaus haben wir während des Konvertierungsprozesses Fortschrittsaktualisierungen implementiert, um den Status des Vorgangs im Auge zu behalten.
+In dieser Schritt-für-Schritt-Anleitung haben wir untersucht, wie man eine PowerPoint-Präsentation (PPTX) mit Aspose.Slides für Java in Java in eine PDF-Datei konvertiert. Darüber hinaus haben wir während des Konvertierungsprozesses Fortschrittsaktualisierungen implementiert, um den Status des Vorgangs zu verfolgen.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie lade ich Aspose.Slides für Java herunter?
 
- Sie können Aspose.Slides für Java von der Aspose-Website unter herunterladen[Hier](https://downloads.aspose.com/slides/java).
+ Sie können Aspose.Slides für Java von der Aspose-Website unter herunterladen.[Hier](https://downloads.aspose.com/slides/java).
 
 ###  Was ist der Zweck von`IProgressCallback`?
 
-`IProgressCallback` ist eine von Aspose.Slides für Java bereitgestellte Schnittstelle zur Implementierung von Fortschrittsberichten während Exportvorgängen. Damit können Sie den Fortschritt von Aufgaben wie der Konvertierung von Präsentationen in PDF verfolgen.
+`IProgressCallback` ist eine von Aspose.Slides für Java bereitgestellte Schnittstelle zur Implementierung von Fortschrittsberichten während Exportvorgängen. Sie ermöglicht Ihnen, den Fortschritt von Aufgaben wie der Konvertierung von Präsentationen in PDF zu verfolgen.
 
 ### Kann ich Aspose.Slides für Java für andere PowerPoint-Vorgänge verwenden?
 
@@ -117,4 +117,4 @@ Ja, Aspose.Slides für Java bietet umfangreiche Funktionen für die Arbeit mit P
 
 ### Wie kann ich die PDF-Konvertierungsoptionen anpassen?
 
- Sie können die PDF-Konvertierungsoptionen anpassen, indem Sie die ändern`PdfOptions` Objekt vor dem Aufruf des`presentation.save`Methode. Dazu gehört das Festlegen von Eigenschaften wie Seitengröße, Qualität und mehr.
+ Sie können die PDF-Konvertierungsoptionen anpassen, indem Sie die`PdfOptions` Objekt vor dem Aufruf des`presentation.save`Methode. Dazu gehört das Festlegen von Eigenschaften wie Seitengröße, Qualität und mehr.

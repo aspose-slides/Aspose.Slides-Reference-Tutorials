@@ -10,7 +10,7 @@ url: /zh-hant/java/presentation-conversion/convert-to-animation-java-slides/
 
 # 使用 Aspose.Slides for Java 在 Java 投影片中轉換為動畫的簡介
 
-Aspose.Slides for Java 是一個功能強大的 API，可讓您以程式設計方式處理 PowerPoint 簡報。在本逐步指南中，我們將探索如何使用 Java 和 Aspose.Slides for Java 將靜態 PowerPoint 簡報轉換為動畫簡報。在本教程結束時，您將能夠創建吸引觀眾的動態簡報。
+Aspose.Slides for Java 是一個功能強大的 API，可讓您以程式設計方式處理 PowerPoint 簡報。在本逐步指南中，我們將探討如何使用 Java 和 Aspose.Slides for Java 將靜態 PowerPoint 簡報轉換為動畫簡報。在本教程結束時，您將能夠創建吸引觀眾的動態簡報。
 
 ## 先決條件
 

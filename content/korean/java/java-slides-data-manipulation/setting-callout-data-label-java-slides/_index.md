@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // 라벨 형식 지정(글꼴, 채우기 등)
+        //라벨 형식 지정(글꼴, 채우기 등)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### 데이터 레이블에 대한 콜아웃을 활성화하거나 비활성화하려면 어떻게 해야 합니까?
 
- 데이터 레이블에 대한 콜아웃을 활성화하거나 비활성화하려면`setShowLabelAsDataCallout` 방법. 다음으로 설정하세요`true` 콜아웃을 활성화하고`false` 비활성화합니다.
+ 데이터 레이블에 대한 콜아웃을 활성화하거나 비활성화하려면`setShowLabelAsDataCallout` 방법. 다음으로 설정하세요`true` 콜아웃을 활성화하고`false`비활성화합니다.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // 콜아웃 활성화

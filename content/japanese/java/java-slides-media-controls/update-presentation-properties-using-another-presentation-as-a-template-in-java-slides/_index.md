@@ -1,28 +1,28 @@
 ---
-title: Java スライドのテンプレートとして別のプレゼンテーションを使用してプレゼンテーション プロパティを更新する
-linktitle: Java スライドのテンプレートとして別のプレゼンテーションを使用してプレゼンテーション プロパティを更新する
+title: Java スライドで別のプレゼンテーションをテンプレートとして使用してプレゼンテーションのプロパティを更新する
+linktitle: Java スライドで別のプレゼンテーションをテンプレートとして使用してプレゼンテーションのプロパティを更新する
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、更新されたメタデータで PowerPoint プレゼンテーションを強化します。 Java スライドのテンプレートを使用して、作成者、タイトル、キーワードなどのプロパティを更新する方法を学びます。
+description: Aspose.Slides for Java を使用して、更新されたメタデータで PowerPoint プレゼンテーションを強化します。Java Slides のテンプレートを使用して、作成者、タイトル、キーワードなどのプロパティを更新する方法を学習します。
 type: docs
 weight: 14
 url: /ja/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
 
-## Java スライドのテンプレートとして別のプレゼンテーションを使用してプレゼンテーション プロパティを更新する方法の概要
+## Java スライドで別のプレゼンテーションをテンプレートとして使用してプレゼンテーション プロパティを更新する方法の概要
 
-このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのプレゼンテーション プロパティ (メタデータ) を更新するプロセスについて説明します。別のプレゼンテーションをテンプレートとして使用して、作成者、タイトル、キーワードなどのプロパティを更新できます。段階的な手順とソース コードの例を提供します。
+このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのプレゼンテーション プロパティ (メタデータ) を更新する手順について説明します。別のプレゼンテーションをテンプレートとして使用して、作成者、タイトル、キーワードなどのプロパティを更新できます。ステップバイステップの手順とソース コードの例を提供します。
 
 ## 前提条件
 
-始める前に、Aspose.Slides for Java ライブラリが Java プロジェクトに統合されていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/slides/java/).
+始める前に、JavaプロジェクトにAspose.Slides for Javaライブラリが統合されていることを確認してください。ダウンロードはこちらからできます。[ここ](https://releases.aspose.com/slides/java/).
 
-## ステップ 1: プロジェクトをセットアップする
+## ステップ1: プロジェクトを設定する
 
-Java プロジェクトを作成し、Aspose.Slides for Java ライブラリをプロジェクトの依存関係に追加したことを確認してください。
+Java プロジェクトを作成し、プロジェクトの依存関係に Aspose.Slides for Java ライブラリを追加したことを確認してください。
 
-## ステップ 2: 必要なパッケージをインポートする
+## ステップ2: 必要なパッケージをインポートする
 
-プレゼンテーションのプロパティを操作するために必要な Aspose.Slides パッケージをインポートする必要があります。 Java クラスの先頭に次のインポート ステートメントを含めます。
+プレゼンテーション プロパティを操作するには、必要な Aspose.Slides パッケージをインポートする必要があります。Java クラスの先頭に次のインポート ステートメントを含めます。
 
 ```java
 import com.aspose.slides.DocumentProperties;
@@ -31,20 +31,20 @@ import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
 ```
 
-## ステップ 3: プレゼンテーションのプロパティを更新する
+## ステップ3: プレゼンテーションのプロパティを更新する
 
-次に、別のプレゼンテーションをテンプレートとして使用して、プレゼンテーションのプロパティを更新しましょう。この例では、複数のプレゼンテーションのプロパティを更新しますが、このコードを特定の使用例に適応させることができます。
+ここで、別のプレゼンテーションをテンプレートとして使用して、プレゼンテーションのプロパティを更新してみましょう。この例では、複数のプレゼンテーションのプロパティを更新しますが、このコードを特定のユースケースに合わせて調整できます。
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 
-//プロパティのコピー元のテンプレート プレゼンテーションをロードします。
+//プロパティをコピーするテンプレートプレゼンテーションをロードします
 DocumentProperties template;
 IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "template.pptx");
 template = (DocumentProperties) info.readDocumentProperties();
 
-//更新するプロパティを設定します
+//更新したいプロパティを設定します
 template.setAuthor("Template Author");
 template.setTitle("Template Title");
 template.setCategory("Template Category");
@@ -60,7 +60,7 @@ updateByTemplate(dataDir + "doc2.odp", template);
 updateByTemplate(dataDir + "doc3.ppt", template);
 ```
 
-## ステップ 4: を定義する`updateByTemplate` Method
+## ステップ4: 定義する`updateByTemplate` Method
 
 テンプレートを使用して個々のプレゼンテーションのプロパティを更新するメソッドを定義しましょう。このメソッドは、更新するプレゼンテーションのパスとテンプレートのプロパティをパラメーターとして受け取ります。
 
@@ -78,10 +78,10 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 }
 ```
 
-## Java スライドのテンプレートとして別のプレゼンテーションを使用してプレゼンテーション プロパティを更新するための完全なソース コード
+## Java スライドで別のプレゼンテーションをテンプレートとして使用してプレゼンテーション プロパティを更新するための完全なソース コード
 
 ```java
-	//ドキュメントディレクトリへのパス。
+	//ドキュメント ディレクトリへのパス。
 	String dataDir = "Your Document Directory";
 	DocumentProperties template;
 	IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo(dataDir + "template.pptx");
@@ -107,18 +107,18 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 
 ## 結論
 
-この包括的なチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのプレゼンテーション プロパティを更新する方法を説明しました。私たちは、別のプレゼンテーションをテンプレートとして使用して、作成者名、タイトル、キーワードなどのメタデータを効率的に更新することに特に焦点を当てました。
+この包括的なチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのプレゼンテーション プロパティを更新する方法について説明しました。特に、別のプレゼンテーションをテンプレートとして使用して、作成者名、タイトル、キーワードなどのメタデータを効率的に更新することに焦点を当てました。
 
 ## よくある質問
 
 ### より多くのプレゼンテーションのプロパティを更新するにはどうすればよいですか?
 
-を呼び出すことで、複数のプレゼンテーションのプロパティを更新できます。`updateByTemplate`必要なパスを持つ各プレゼンテーションのメソッド。
+複数のプレゼンテーションのプロパティを更新するには、`updateByTemplate`希望するパスを持つ各プレゼンテーションのメソッド。
 
 ### このコードをさまざまなプロパティに合わせてカスタマイズできますか?
 
-はい、コードをカスタマイズして、要件に基づいて特定のプロパティを更新できます。単に変更するだけです`template`必要なプロパティ値を持つオブジェクト。
+はい、要件に応じて特定のプロパティを更新するようにコードをカスタマイズできます。`template`必要なプロパティ値を持つオブジェクト。
 
 ### 更新できるプレゼンテーションの種類に制限はありますか?
 
-いいえ、PPTX、ODP、PPT などのさまざまな形式のプレゼンテーションのプロパティを更新できます。
+いいえ、PPTX、ODP、PPT など、さまざまな形式のプレゼンテーションのプロパティを更新できます。

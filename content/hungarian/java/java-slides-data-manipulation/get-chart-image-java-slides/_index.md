@@ -25,7 +25,7 @@ Kezdje azzal, hogy hozzon létre egy Java-projektet a kívánt integrált fejles
 
 ## 2. lépés: Inicializálja a prezentációt
 
-kezdéshez inicializálnia kell egy PowerPoint bemutatót. Ebben a példában feltételezzük, hogy a dokumentumkönyvtárban van egy „test.pptx” nevű PowerPoint-fájl.
+A kezdéshez inicializálnia kell egy PowerPoint bemutatót. Ebben a példában feltételezzük, hogy a dokumentumkönyvtárban van egy „test.pptx” nevű PowerPoint-fájl.
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -75,7 +75,7 @@ A diagramképek beszerzése a Java Slides programból az Aspose.Slides for Java 
 
 ### Hogyan telepíthetem az Aspose.Slides for Java programot?
 
- Az Aspose.Slides for Java telepítése egyszerű. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/slides/java/)és kövesse a dokumentációban található telepítési utasításokat.
+ Az Aspose.Slides for Java telepítése egyszerű. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/slides/java/) és kövesse a dokumentációban található telepítési utasításokat.
 
 ### Testreszabhatom a diagramot a kép beszerzése előtt?
 
@@ -83,12 +83,12 @@ Igen, testreszabhatja a diagram megjelenését, adatait és egyéb tulajdonsága
 
 ### Milyen egyéb funkciókat kínál az Aspose.Slides for Java?
 
-Az Aspose.Slides for Java funkciók széles skáláját kínálja a PowerPoint prezentációkkal való munkavégzéshez, beleértve a diakészítést, a szövegkezelést, az alakzatok szerkesztését és még sok mást. Részletes információkért tekintse meg a dokumentációt.
+Az Aspose.Slides for Java funkciók széles skáláját kínálja a PowerPoint-prezentációkkal való munkavégzéshez, beleértve a diakészítést, a szövegszerkesztést, az alakzatszerkesztést és még sok mást. Részletes információkért tekintse meg a dokumentációt.
 
 ### Az Aspose.Slides for Java alkalmas kereskedelmi használatra?
 
-Igen, az Aspose.Slides for Java használható kereskedelmi célokra. Olyan licencelési lehetőségeket biztosít, amelyek mind az egyéni fejlesztők, mind a vállalkozások számára kiszolgálnak.
+Igen, az Aspose.Slides for Java felhasználható kereskedelmi célokra. Olyan licencelési lehetőségeket biztosít, amelyek mind az egyéni fejlesztők, mind a vállalkozások számára kiszolgálnak.
 
 ### Elmenthetem a diagram képét más formátumban?
 
-Biztosan! A diagram képét különféle formátumokban, például JPEG vagy GIF formátumban mentheti, ha megadja a megfelelő fájlkiterjesztést a`ImageIO.write` módszer.
+ Biztosan! A diagram képét különféle formátumokban, például JPEG vagy GIF formátumban mentheti, ha megadja a megfelelő fájlkiterjesztést a`ImageIO.write` módszer.

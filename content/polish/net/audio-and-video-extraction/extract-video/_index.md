@@ -54,7 +54,7 @@ foreach (ISlide slide in presentation.Slides)
     {
 ```
 
-W tym miejscu przeglądamy każdy slajd prezentacji, a następnie przeglądamy kształty na pierwszym slajdzie (w razie potrzeby modyfikujemy).
+tym miejscu przeglądamy każdy slajd prezentacji, a następnie przeglądamy kształty na pierwszym slajdzie (w razie potrzeby modyfikujemy).
 
 ## Krok 4: Sprawdź, czy kształt jest klatką wideo
 
@@ -92,7 +92,7 @@ Po wykonaniu tych kroków pomyślnie wyodrębnisz wideo ze slajdu programu Power
 
 ## Wniosek
 
-Aspose.Slides dla .NET upraszcza proces pracy z prezentacjami programu PowerPoint, umożliwiając łatwe wykonywanie takich zadań, jak wyodrębnianie filmów ze slajdów. Postępując zgodnie z tym przewodnikiem krok po kroku i korzystając z biblioteki Aspose.Slides, możesz ulepszyć swoje aplikacje .NET za pomocą zaawansowanych funkcji programu PowerPoint.
+Aspose.Slides dla .NET upraszcza proces pracy z prezentacjami programu PowerPoint, umożliwiając łatwe wykonywanie takich zadań, jak wyodrębnianie filmów ze slajdów. Postępując zgodnie z tym przewodnikiem krok po kroku i korzystając z biblioteki Aspose.Slides, możesz ulepszyć swoje aplikacje .NET za pomocą potężnych funkcji programu PowerPoint.
 
 ## Często zadawane pytania (FAQ)
 

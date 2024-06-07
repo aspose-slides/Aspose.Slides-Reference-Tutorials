@@ -11,7 +11,7 @@ url: /sv/net/slide-access-and-manipulation/
 
 Välkommen till en värld av dynamisk presentationsmanipulation med Aspose.Slides för .NET! Den här samlingen av självstudiekurser är din nyckel till att låsa upp den fulla potentialen hos Aspose.Slides API, och erbjuder dig verktyg och kunskap för att sömlöst komma åt och manipulera bilder i dina .NET-applikationer. Från att skapa fängslande presentationer till att implementera komplicerade ändringar, dessa handledningar ger dig en omfattande färdplan. Oavsett om du är en erfaren utvecklare eller precis har börjat din resa med Aspose.Slides, kommer våra steg-för-steg-guider och kodexempel att ge dig möjlighet att dra nytta av kraften i bilder för effektfullt visuellt berättande. Följ med oss när vi ger oss ut på en resa in i sfären av bildåtkomst och manipulation, och utforska funktionerna som Aspose.Slides ger dig till hands.
 
-## Självstudier för bildåtkomst och manipulation
+## Handledning för bildåtkomst och manipulation
 ### [Få åtkomst till bilder i Aspose.Slides](./accessing-slides/)
 Lär dig hur du kommer åt och manipulerar PowerPoint-bilder programmatiskt med Aspose.Slides för .NET. Den här steg-för-steg-guiden täcker inläsning, ändring och lagring av presentationer, tillsammans med exempel på källkod.
 ### [Få åtkomst till Slide av Unique Identifier](./access-slide-by-id/)

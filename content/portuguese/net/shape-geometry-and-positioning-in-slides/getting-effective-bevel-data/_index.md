@@ -54,7 +54,7 @@ Console.WriteLine("Type: " + threeDEffectiveData.BevelTop.BevelType);
 Console.WriteLine("Width: " + threeDEffectiveData.BevelTop.Width);
 Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 ```
-Por fim, imprimimos os dados de chanfro da face superior da forma, incluindo tipo, largura e altura.
+Finalmente, imprimimos os dados do chanfro para a face superior da forma, incluindo seu tipo, largura e altura.
 E aí está! Você recuperou e exibiu com sucesso dados de chanfro efetivos para uma forma em sua apresentação usando Aspose.Slides for .NET.
 ## Conclusão
 Neste tutorial, exploramos os fundamentos da busca de dados de chanfro efetivos de formas em slides de apresentação usando Aspose.Slides for .NET. Armado com esse conhecimento, agora você pode aprimorar suas apresentações com efeitos tridimensionais personalizados.

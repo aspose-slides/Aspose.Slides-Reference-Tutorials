@@ -37,7 +37,7 @@ Ora tuffiamoci nel nocciolo del nostro tutorial: aggiungere una formattazione el
 
 ### Passaggio 2.1: istanziare la classe di presentazione
 
- Per prima cosa dobbiamo creare un'istanza del file`Presentation`classe che rappresenta il file di presentazione di PowerPoint. Dovresti fornire il percorso del file di presentazione nel file`dataDir` variabile.
+ Per prima cosa dobbiamo creare un'istanza del file`Presentation` classe che rappresenta il file di presentazione di PowerPoint. Dovresti fornire il percorso del file di presentazione nel file`dataDir` variabile.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Passaggio 2.2: accesso alla diapositiva delle note principali
 
- All'interno del`using` blocco, accediamo alla diapositiva delle note principali. La diapositiva delle note principali contiene lo stile predefinito per le note nella presentazione.
+ All'interno del`using`blocco, accediamo alla diapositiva delle note principali. La diapositiva delle note principali contiene lo stile predefinito per le note nella presentazione.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;
@@ -96,9 +96,9 @@ Incorpora questa tecnica nelle tue presentazioni e sarai sulla buona strada per 
 ## Domande frequenti
 
 ### Cos'è Aspose.Slides per .NET?
-Aspose.Slides per .NET è una potente libreria per lavorare con file Microsoft PowerPoint a livello di programmazione. Ti consente di creare, manipolare e convertire presentazioni PowerPoint utilizzando applicazioni .NET.
+Aspose.Slides per .NET è una potente libreria per lavorare con file Microsoft PowerPoint a livello di codice. Ti consente di creare, manipolare e convertire presentazioni PowerPoint utilizzando applicazioni .NET.
 
-### Dove posso trovare la documentazione Aspose.Slides per .NET?
+### Dove posso trovare la documentazione di Aspose.Slides per .NET?
  È possibile accedere alla documentazione[Qui](https://reference.aspose.com/slides/net/). Fornisce informazioni complete sull'utilizzo della libreria.
 
 ### Aspose.Slides per .NET è gratuito?

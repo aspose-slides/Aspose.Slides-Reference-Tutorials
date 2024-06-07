@@ -16,7 +16,7 @@ url: /ko/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
-1.  Aspose.Slides for Java 라이브러리(다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java 라이브러리(다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 2. Java 개발 환경이 설정되었습니다.
 
 ## 1단계: PowerPoint 프레젠테이션 만들기
@@ -138,4 +138,4 @@ Aspose.Slides for Java를 사용하여 Java 슬라이드 차트에서 범주 축
 
 ### 차트에 데이터 포인트를 더 추가하려면 어떻게 해야 합니까?
 
- 차트에 더 많은 데이터 포인트를 추가하려면`getDataPoints().addDataPointForLineSeries` 데이터 시리즈에 대한 메소드를 생성하고 데이터 값을 제공합니다.
+ 차트에 더 많은 데이터 포인트를 추가하려면`getDataPoints().addDataPointForLineSeries`데이터 시리즈에 대한 메소드를 생성하고 데이터 값을 제공합니다.

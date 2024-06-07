@@ -49,7 +49,7 @@ if (masterNotesSlide != null)
 {
     IMasterNotesSlideHeaderFooterManager headerFooterManager = masterNotesSlide.HeaderFooterManager;
     
-    // جعل العناصر النائبة للرأس والتذييل مرئية
+    // اجعل العناصر النائبة للرأس والتذييل مرئية
     headerFooterManager.SetHeaderAndChildHeadersVisibility(true);
     headerFooterManager.SetFooterAndChildFootersVisibility(true);
     headerFooterManager.SetSlideNumberAndChildSlideNumbersVisibility(true);

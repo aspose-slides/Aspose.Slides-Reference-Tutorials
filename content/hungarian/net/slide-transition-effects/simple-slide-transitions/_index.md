@@ -102,7 +102,7 @@ Igen, az Aspose.Slides for .NET lehetőséget biztosít az átmenet sebességén
 Az Aspose.Slides for .NET a PowerPoint különféle verzióival való együttműködésre készült, így biztosítja a kompatibilitást a legújabb kiadásokkal.
 
 ### 4. Milyen egyéb funkciókat kínál az Aspose.Slides for .NET?
-Az Aspose.Slides for .NET funkciók széles skáláját kínálja, beleértve a diakészítést, a szövegformázást, az animációkat és egyebeket. Tekintse meg a dokumentációt egy átfogó listaért.
+Az Aspose.Slides for .NET funkciók széles skáláját kínálja, beleértve a diakészítést, a szövegformázást, az animációkat és még sok mást. Tekintse meg a dokumentációt egy átfogó listaért.
 
 ### 5. Kipróbálhatom az Aspose.Slides for .NET-et a vásárlás előtt?
  Igen, kipróbálhatja az Aspose.Slides for .NET alkalmazást, ha ingyenes próbaverziót szerez a webhelyről[itt](https://releases.aspose.com/).

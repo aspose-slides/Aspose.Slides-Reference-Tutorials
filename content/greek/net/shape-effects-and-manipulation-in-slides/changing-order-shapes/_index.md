@@ -67,6 +67,6 @@ presentation.Save(dataDir + "Reshape_out.pptx", SaveFormat.Pptx);
 ### Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides για .NET;
  Α: Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες με το[δωρεάν δοκιμή](https://releases.aspose.com/) διατίθεται στον ιστότοπο Aspose.Slides.
 ### Ε: Πού μπορώ να βρω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το Aspose.Slides για .NET;
- Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για να λάβετε υποστήριξη και να συνεργαστείτε με την κοινότητα.
+Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για να λάβετε υποστήριξη και να συνεργαστείτε με την κοινότητα.
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET;
  Α: Μπορείτε να αποκτήσετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.

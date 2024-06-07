@@ -18,7 +18,7 @@ Sebelum kita mendalami kodenya, pastikan Anda memiliki prasyarat berikut:
 
 1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda dan memahami konsep pemrograman Java.
 
-2. Aspose.Slides for Java: Unduh dan instal pustaka Aspose.Slides for Java dari[tautan unduhan](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Unduh dan instal pustaka Aspose.Slides for Java dari[tautan unduhan](https://releases.aspose.com/slides/java/).
 
 ## Langkah 1: Membuat Presentasi
 
@@ -40,7 +40,7 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartTyp
 chart.validateChartLayout();
 ```
 
-Kami telah menambahkan bagan area ke slide pertama presentasi. Anda dapat menyesuaikan jenis dan posisi grafik sesuai kebutuhan.
+Kami telah menambahkan diagram area ke slide pertama presentasi. Anda dapat menyesuaikan jenis dan posisi grafik sesuai kebutuhan.
 
 ## Langkah 3: Mengambil Nilai Sumbu Vertikal
 

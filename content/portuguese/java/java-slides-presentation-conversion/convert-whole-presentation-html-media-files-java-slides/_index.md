@@ -116,9 +116,9 @@ Neste tutorial, percorremos o processo de conversão de uma apresentação intei
 
 ### Aspose.Slides for Java oferece suporte a outros formatos de saída?
 
-Sim, Aspose.Slides for Java suporta vários formatos de saída, incluindo PDF, PPTX e muito mais. Você pode explorar essas opções na documentação.
+Sim, Aspose.Slides for Java oferece suporte a vários formatos de saída, incluindo PDF, PPTX e muito mais. Você pode explorar essas opções na documentação.
 
-### O Aspose.Slides for Java é adequado para projetos comerciais?
+### Aspose.Slides for Java é adequado para projetos comerciais?
 
 Sim, Aspose.Slides for Java é uma solução robusta e comercialmente viável para lidar com tarefas relacionadas à apresentação em aplicativos Java. É amplamente utilizado em projetos de nível empresarial.
 

@@ -76,7 +76,7 @@ try
 		// Inställningsserier överlappar varandra
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//Skriv presentationsfilen till disk
+	// Skriv presentationsfilen till disk
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

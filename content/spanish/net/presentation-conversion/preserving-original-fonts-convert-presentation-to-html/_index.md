@@ -81,7 +81,7 @@ En este tutorial, hemos demostrado cómo conservar las fuentes originales al con
 
 ### P1: ¿Puedo personalizar la lista de fuentes excluidas?
 
- Sí tu puedes. Modificar el`fontNameExcludeList` matriz para incluir o excluir fuentes específicas según sus requisitos.
+ Sí tu puedes. Modificar el`fontNameExcludeList`matriz para incluir o excluir fuentes específicas según sus requisitos.
 
 ### P2: ¿Qué pasa si no quiero incrustar todas las fuentes?
 

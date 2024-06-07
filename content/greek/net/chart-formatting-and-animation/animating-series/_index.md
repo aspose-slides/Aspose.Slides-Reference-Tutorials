@@ -44,7 +44,7 @@ using Aspose.Slides;
 // Διαδρομή στον κατάλογο εγγράφων
 string dataDir = "Your Document Directory";
 
-//Κλάση Instantiate Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
+// Κλάση Instantiate Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Ο κωδικός σας πηγαίνει εδώ

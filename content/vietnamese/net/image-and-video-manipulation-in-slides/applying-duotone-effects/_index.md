@@ -72,7 +72,7 @@ Lặp lại các bước này cho các slide bổ sung nếu cần.
 Cải thiện các slide thuyết trình của bạn bằng các hiệu ứng hai tông màu sẽ tạo thêm cảm giác năng động và chuyên nghiệp. Với Aspose.Slides cho .NET, quá trình này trở nên liền mạch, cho phép bạn dễ dàng tạo các bản trình bày hấp dẫn về mặt hình ảnh.
 ## Câu hỏi thường gặp
 ### Tôi có thể chỉ áp dụng hiệu ứng hai tông màu cho các slide cụ thể không?
-Có, bạn có thể áp dụng hiệu ứng hai tông màu cho các slide cụ thể bằng cách sửa đổi mã cho phù hợp.
+Có, bạn có thể áp dụng hiệu ứng song sắc cho các slide cụ thể bằng cách sửa đổi mã cho phù hợp.
 ### Có các hiệu ứng chuyển đổi hình ảnh khác có sẵn trong Aspose.Slides không?
 Aspose.Slides cung cấp một loạt các hiệu ứng chuyển đổi hình ảnh, bao gồm thang độ xám, màu nâu đỏ, v.v. Kiểm tra tài liệu để biết chi tiết.
 ### Aspose.Slides có tương thích với .NET framework mới nhất không?

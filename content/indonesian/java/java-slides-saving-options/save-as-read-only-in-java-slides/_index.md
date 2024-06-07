@@ -37,7 +37,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-// Buat instance objek Presentasi yang mewakili file PPT
+//Buat instance objek Presentasi yang mewakili file PPT
 Presentation presentation = new Presentation();
 ```
 
@@ -78,7 +78,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// Buat instance objek Presentasi yang mewakili file PPT
+//Buat instance objek Presentasi yang mewakili file PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -120,10 +120,10 @@ Ya, Anda dapat mengatur kata sandi berbeda untuk proteksi baca-saja dan proteksi
 
  Ya, Anda dapat melindungi slide tertentu dalam presentasi dengan mengatur perlindungan penulisan pada masing-masing slide. Menggunakan`Slide` objek`getProtectionManager()`metode untuk mengelola perlindungan untuk slide tertentu.
 
-### Apa yang terjadi jika saya lupa kata sandi perlindungan tulis?
+### Apa yang terjadi jika saya lupa kata sandi perlindungan penulisan?
 
 Jika Anda lupa kata sandi perlindungan penulisan, tidak ada cara bawaan untuk memulihkannya. Pastikan untuk menyimpan catatan kata sandi Anda di lokasi yang aman untuk menghindari ketidaknyamanan.
 
-### Bisakah saya mengubah kata sandi read-only setelah menyetelnya?
+### Bisakah saya mengubah kata sandi read-only setelah mengaturnya?
 
  Ya, Anda dapat mengubah kata sandi read-only setelah mengaturnya. Menggunakan`setReadProtection(String newPassword)` metode dengan kata sandi baru untuk memperbarui kata sandi perlindungan read-only.

@@ -44,7 +44,7 @@ V tomto kroku načtěte existující PowerPoint prezentaci (PPTX), která obsahu
 // Cesta k adresáři dokumentů
 string dataDir = "Your Document Directory";
 
-//Instantiate Prezentační třída, která představuje soubor prezentace
+// Instantiate Prezentační třída, která představuje soubor prezentace
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Váš kód je zde

@@ -96,7 +96,7 @@ Neste tutorial, aprendemos como obter informações de formato de arquivo em Jav
 
 ### Como obtenho a biblioteca Aspose.Slides para Java?
 
- Você pode baixar a biblioteca Aspose.Slides para Java no site Aspose em[esse link](https://releases.aspose.com/slides/java/). Escolha a versão apropriada para o seu projeto.
+ Você pode baixar a biblioteca Aspose.Slides para Java no site Aspose em[esse link](https://releases.aspose.com/slides/java/)Escolha a versão apropriada para o seu projeto.
 
 ### Posso usar este código com outras bibliotecas de apresentação Java?
 

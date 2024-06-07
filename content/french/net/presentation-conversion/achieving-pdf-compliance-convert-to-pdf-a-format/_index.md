@@ -26,7 +26,7 @@ Commençons maintenant par le processus de conversion.
 
 Pour commencer, vous devez importer les espaces de noms nécessaires pour travailler avec Aspose.Slides et gérer la conversion PDF dans votre projet .NET. Suivez ces étapes:
 
-### Étape 1 : Importer les espaces de noms
+### Étape 1 : Importer des espaces de noms
 
 Dans votre projet .NET, ouvrez votre fichier de code et importez les espaces de noms requis :
 
@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- Dans cet extrait de code, remplacez`"Your Document Directory"`avec le chemin réel vers votre répertoire de documents et`"YourPresentation.pptx"` avec le nom de votre présentation PowerPoint.
+ Dans cet extrait de code, remplacez`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents et`"YourPresentation.pptx"` avec le nom de votre présentation PowerPoint.
 
 ### Étape 3 : Configurer les options PDF
 

@@ -67,7 +67,7 @@ swfOptions.setViewerIncluded(true);
 presentation.save(dataDir + "SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 ```
 
-## Etapa 6: limpeza
+## Etapa 6: limpar
 
  Finalmente, certifique-se de descartar o`Presentation`objetar a liberação de quaisquer recursos.
 

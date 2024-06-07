@@ -33,7 +33,7 @@ string resultPath = Path.Combine(dataDir, "ZoomFramePresentation.pptx");
 string imagePath = Path.Combine(dataDir, "aspose-logo.jpg");
 ```
 ## Étape 2 : Créer des diapositives de présentation
-Utilisez Aspose.Slides pour créer une présentation et y ajouter des diapositives vides. Cela forme la toile sur laquelle vous travaillerez.
+Utilisez Aspose.Slides pour créer une présentation et y ajouter des diapositives vides. Cela forme la toile sur laquelle vous allez travailler.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -46,11 +46,11 @@ using (Presentation pres = new Presentation())
 ## Étape 3 : Personnaliser les arrière-plans des diapositives
 Améliorez l'attrait visuel de vos diapositives en personnalisant leurs arrière-plans. Dans cet exemple, nous définissons un arrière-plan cyan uni pour la deuxième diapositive.
 ```csharp
-// Créer un arrière-plan pour la deuxième diapositive
+//Créer un arrière-plan pour la deuxième diapositive
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//... (Continuez à personnaliser les arrière-plans des autres diapositives)
+// ... (Continuez à personnaliser les arrière-plans des autres diapositives)
 ```
 ## Étape 4 : ajouter des zones de texte aux diapositives
 Incorporez des zones de texte pour transmettre des informations sur vos diapositives. Ici, nous ajoutons une zone de texte rectangulaire à la deuxième diapositive.

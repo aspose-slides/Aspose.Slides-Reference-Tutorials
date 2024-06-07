@@ -18,7 +18,7 @@ Slayt animasyonları, statik sunumları dinamik görsel deneyimlere dönüştür
 
 - Animasyon Efektlerine Erişim: Slaytlarınızdaki farklı öğelerle ilişkili animasyon efektlerine nasıl erişeceğinizi ve bunları nasıl tanımlayacağınızı öğrenin.
 - Animasyon Özelliklerini Değiştirin: Zamanlama, süre ve sıra dahil olmak üzere animasyon efektlerinin özelliklerini değiştirme tekniklerini keşfedin.
-- Animasyon Tetikleyicilerini Uygulama: Belirli olaylara dayalı olarak animasyonları başlatan ve dinamik bir akış oluşturan tetikleyicilerin nasıl uygulanacağını anlayın.
+- Animasyon Tetikleyicilerini Uygulayın: Belirli olaylara dayalı olarak animasyonları başlatan ve dinamik bir akış oluşturan tetikleyicilerin nasıl uygulanacağını anlayın.
 - Çoklu Animasyonları Koordine Edin: Kesintisiz görsel hikaye anlatımı için birden fazla animasyonu senkronize etme ve koordine etme sanatını öğrenin.
 - Animasyon Oynatmayı ve Duraklatmayı Kontrol Edin: Animasyonların oynatılmasını kontrol etmeye yönelik yöntemleri keşfedin, böylece sunumunuzun ilerleme hızını kontrol edebilirsiniz.
 - Slayt Geçişlerini Canlandırın: Akıcı ve ilgi çekici bir sunum akışı için bilginizi slayt geçiş animasyonlarını içerecek şekilde genişletin.

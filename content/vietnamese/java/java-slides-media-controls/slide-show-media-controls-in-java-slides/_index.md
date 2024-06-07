@@ -33,7 +33,7 @@ Trước khi chúng ta đi sâu vào mã, hãy đảm bảo rằng bạn đã th
 Hãy bắt đầu bằng cách tạo một bản trình bày mới. Đây là cách bạn có thể làm điều đó trong Java Slides:
 
 ```java
-// Đường dẫn tới tài liệu PPTX
+// Đường dẫn đến tài liệu PPTX
 String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
@@ -70,7 +70,7 @@ Mã này lưu bản trình bày của bạn khi bật điều khiển phương t
 ## Mã nguồn hoàn chỉnh cho các điều khiển phương tiện trình chiếu trong Java Slides
 
 ```java
-// Đường dẫn tới tài liệu PPTX
+// Đường dẫn đến tài liệu PPTX
 String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {

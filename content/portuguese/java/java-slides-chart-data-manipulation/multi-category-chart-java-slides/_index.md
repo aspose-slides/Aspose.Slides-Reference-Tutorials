@@ -13,7 +13,7 @@ url: /pt/java/chart-data-manipulation/multi-category-chart-java-slides/
 Neste tutorial, aprenderemos como criar um gráfico de múltiplas categorias em slides Java usando a API Aspose.Slides for Java. Este guia fornecerá instruções passo a passo junto com o código-fonte para ajudá-lo a criar um gráfico de colunas agrupadas com várias categorias e séries.
 
 ## Pré-requisitos
-Antes de começar, certifique-se de ter a biblioteca Aspose.Slides for Java instalada e configurada em seu ambiente de desenvolvimento Java.
+Antes de começar, certifique-se de ter a biblioteca Aspose.Slides para Java instalada e configurada em seu ambiente de desenvolvimento Java.
 
 ## Etapa 1: Configurando o Ambiente
 Primeiro, importe as classes necessárias e crie um novo objeto Presentation para trabalhar com slides.

@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Tùy chỉnh định dạng nhãn (Phông chữ, Điền, v.v.)
+        //Tùy chỉnh định dạng nhãn (Phông chữ, Điền, v.v.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Làm cách nào để bật hoặc tắt chú thích cho nhãn dữ liệu?
 
- Để bật hoặc tắt chú thích cho nhãn dữ liệu, hãy sử dụng`setShowLabelAsDataCallout` phương pháp. Đặt nó thành`true` để bật chú thích và`false` để vô hiệu hóa chúng.
+ Để bật hoặc tắt chú thích cho nhãn dữ liệu, hãy sử dụng`setShowLabelAsDataCallout` phương pháp. Đặt nó thành`true` để bật chú thích và`false`để vô hiệu hóa chúng.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Bật chú thích
@@ -202,4 +202,4 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Đây là một số tùy chọn tùy chỉnh phổ biến cho nhãn dữ liệu và chú thích trong Aspose.Slides for Java. Bạn có thể điều chỉnh thêm giao diện theo nhu cầu cụ thể của mình.
+Đây là một số tùy chọn tùy chỉnh phổ biến cho nhãn dữ liệu và chú thích trong Aspose.Slides cho Java. Bạn có thể điều chỉnh thêm giao diện theo nhu cầu cụ thể của mình.

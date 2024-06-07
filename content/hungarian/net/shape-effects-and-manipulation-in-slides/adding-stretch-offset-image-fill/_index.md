@@ -42,7 +42,7 @@ Töltse le a prezentáció első diáját, amellyel dolgozni szeretne.
 ISlide sld = pres.Slides[0];
 ```
 ## 4. lépés: Az ImageEx osztály példányosítása
- Hozzon létre egy példányt a`ImageEx` osztályt a diához hozzáadni kívánt kép kezeléséhez.
+ Hozzon létre egy példányt a`ImageEx`osztályt a diához hozzáadni kívánt kép kezeléséhez.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

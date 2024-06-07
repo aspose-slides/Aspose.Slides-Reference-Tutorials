@@ -14,7 +14,7 @@ En este tutorial, demostraremos cómo agregar barras de error a un gráfico en u
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java. Puedes descargar la biblioteca desde[Aspose sitio web](https://downloads.aspose.com/slides/java).
+ Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su proyecto Java. Puedes descargar la biblioteca desde[Aspose sitio web](https://downloads.aspose.com/slides/java).
 
 ## Paso 1: crea una presentación vacía
 
@@ -36,7 +36,7 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartTy
 
 Aquí, creamos un gráfico de burbujas y especificamos su posición y dimensiones en la diapositiva.
 
-## Paso 3: Agregar barras de error y configurar el formato
+## Paso 3: agregar barras de error y configurar el formato
 
 ```java
 // Agregar barras de error y configurar su formato
@@ -62,7 +62,7 @@ En este paso, agregamos barras de error al gráfico y configuramos su formato. P
 - `setValue` establece el valor de las barras de error.
 - `setType` define el tipo de barras de error (por ejemplo, Más o Menos).
 -  Establecemos el ancho de las líneas de la barra de error usando`getFormat().getLine().setWidth(2)`.
-- `setEndCap`especifica si se incluyen tapas de extremo en las barras de error.
+- `setEndCap` especifica si se incluyen tapas de extremo en las barras de error.
 
 ## Paso 4: guarde la presentación
 
@@ -123,7 +123,7 @@ Sí, puede agregar barras de error a varios tipos de gráficos compatibles con A
 
 ### ¿Cómo puedo ajustar la posición y el tamaño del gráfico en la diapositiva?
 
- Puede controlar la posición y las dimensiones del gráfico ajustando los parámetros en el`addChart` método, como se muestra en el Paso 2.
+Puede controlar la posición y las dimensiones del gráfico ajustando los parámetros en el`addChart` método, como se muestra en el Paso 2.
 
 ### ¿Dónde puedo encontrar más información sobre Aspose.Slides para Java?
 

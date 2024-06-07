@@ -67,6 +67,6 @@ Ja, Aspose.Slides integreert naadloos met Visual Studio voor .NET-ontwikkeling.
 ### Kan ik het uiterlijk van het sectiezoomframe aanpassen?
 Absoluut! U heeft volledige controle over de afmetingen, positionering en stijl van het sectiezoomframe.
 ### Is er een proefversie beschikbaar voor Aspose.Slides?
- Ja, u kunt de functies van Aspose.Slides verkennen met behulp van de[gratis proefperiode](https://releases.aspose.com/).
+Ja, u kunt de functies van Aspose.Slides verkennen met behulp van de[gratis proefperiode](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides-gerelateerde vragen?
  Voor ondersteuning of vragen kunt u terecht op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).

@@ -16,7 +16,7 @@ url: /el/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα ακόλουθα:
 
-1.  Aspose.Slides for Java βιβλιοθήκη (μπορείτε να την κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java βιβλιοθήκη (μπορείτε να την κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
 2. Ρύθμιση περιβάλλοντος ανάπτυξης Java.
 
 ## Βήμα 1: Δημιουργήστε μια παρουσίαση PowerPoint
@@ -138,4 +138,4 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ### Πώς μπορώ να προσθέσω περισσότερα σημεία δεδομένων στο γράφημα;
 
- Για να προσθέσετε περισσότερα σημεία δεδομένων στο γράφημα, χρησιμοποιήστε το`getDataPoints().addDataPointForLineSeries` μέθοδος στη σειρά δεδομένων και παρέχετε τις τιμές δεδομένων.
+ Για να προσθέσετε περισσότερα σημεία δεδομένων στο γράφημα, χρησιμοποιήστε το`getDataPoints().addDataPointForLineSeries`μέθοδος στη σειρά δεδομένων και παρέχετε τις τιμές δεδομένων.

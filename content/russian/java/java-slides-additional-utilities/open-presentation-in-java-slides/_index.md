@@ -58,7 +58,7 @@ try {
 ```java
         // Путь к каталогу документов.
         String dataDir = "Your Document Directory";
-        // Открытие файла презентации путем передачи пути к файлу конструктору класса Presentation.
+        //Открытие файла презентации путем передачи пути к файлу конструктору класса Presentation.
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

@@ -32,7 +32,7 @@ Presentation presentation = new Presentation(dataDir + "NotesFile.pptx");
 ```
 
 ## 3. lépés: Konfigurálja a PDF-beállításokat
-Most konfiguráljuk a PDF-exportálási beállításokat. Pontosabban, a megjegyzések pozícióját "BottomFull" értékre állítjuk, hogy a PDF-ben a diák alatti megjegyzések is megjelenjenek. Íme a kód:
+Most konfiguráljuk a PDF exportálási beállításokat. Pontosabban, a megjegyzések pozícióját "BottomFull" értékre állítjuk, hogy a PDF-ben a diák alatti megjegyzések is megjelenjenek. Íme a kód:
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();

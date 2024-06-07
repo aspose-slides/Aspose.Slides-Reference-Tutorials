@@ -10,7 +10,7 @@ url: /cs/net/additional-chart-features/
 
 ## Úvod
 
-Vítejte v obsáhlém průvodci prozkoumáváním dalších funkcí grafu v Aspose.Slides pro .NET. V tomto tutoriálu se ponoříme do pokročilých možností Aspose.Slides API, které vám umožní vytvářet, přizpůsobovat a vylepšovat grafy v prezentacích PowerPoint. Ať už jste zkušený vývojář nebo nováček v Aspose.Slides, tento průvodce vás vybaví znalostmi a nástroji, které posunou vaši manipulaci s grafy na další úroveň.
+Vítejte v obsáhlém průvodci prozkoumáváním dalších funkcí grafu v Aspose.Slides pro .NET. V tomto tutoriálu se ponoříme do pokročilých možností Aspose.Slides API, které vám umožní vytvářet, upravovat a vylepšovat grafy v prezentacích PowerPoint. Ať už jste zkušený vývojář nebo nováček v Aspose.Slides, tento průvodce vás vybaví znalostmi a nástroji, které posunou vaši manipulaci s grafy na další úroveň.
 
 ## Uvolnění pokročilých funkcí grafu
 
@@ -19,7 +19,7 @@ Aspose.Slides for .NET nabízí množství dalších funkcí grafů, které vám
 - Dynamická vazba dat: Naučte se, jak svázat grafy s dynamickými datovými zdroji a zajistit, aby vaše grafy bez problémů odrážely informace v reálném čase.
 - Interaktivní prvky: Ponořte se do interaktivity přidáním interaktivních prvků do grafů, jako jsou popisky nástrojů a popisky dat, čímž se zvýší zapojení uživatelů.
 - Vlastní styl: Objevte techniky přizpůsobení stylů grafů, barev, písem a dalších vizuálních atributů tak, aby odpovídaly estetice vaší prezentace.
-- Trendové čáry a chybové úsečky: Pochopte, jak začlenit čáry trendů a chybové úsečky do svých grafů, a poskytnout tak hlubší pohled na trendy a variabilitu dat.
+- Trendové čáry a chybové úsečky: Pochopte, jak začlenit čáry trendů a chybové úsečky do svých grafů, a poskytnout tak hlubší vhled do trendů a variability dat.
 - Více os: Prozkoumejte flexibilitu více os v grafech, což vám umožní zobrazit různé datové řady s různými měřítky na jednom grafu.
 - Šablony grafů: Naučte se vytvářet a používat šablony grafů a zjednodušit proces standardizace grafů napříč prezentacemi.
 

@@ -11,7 +11,7 @@ url: /ko/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides for .NET은 개발자가 PowerPoint 프레젠테이션을 쉽게 조작할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 그림 프레임의 왼쪽에 스트레치 오프셋을 추가하는 과정을 살펴보겠습니다. PowerPoint 프레젠테이션 내에서 이미지 및 모양 작업 기술을 향상하려면 이 단계별 가이드를 따르세요.
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-- .NET용 Aspose.Slides: 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드하십시오.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
+-  .NET용 Aspose.Slides: 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드하십시오.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 - 개발 환경: .NET 기능을 갖춘 작업 개발 환경을 갖추고 있습니다.
 ## 네임스페이스 가져오기
 .NET 프로젝트에서 필요한 네임스페이스를 가져오는 것부터 시작하세요.

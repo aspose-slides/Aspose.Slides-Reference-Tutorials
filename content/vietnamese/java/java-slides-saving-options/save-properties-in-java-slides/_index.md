@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-// Khởi tạo đối tượng Trình bày đại diện cho tệp PPT
+//Khởi tạo đối tượng Trình bày đại diện cho tệp PPT
 Presentation presentation = new Presentation();
 try
 {

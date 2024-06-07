@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 
 ## Bevezetés a diák PDF formátumba konvertálásához a jegyzetekkel Java nyelven
 
-A digitális prezentációk világában értékes szolgáltatás a diák PDF formátumba konvertálása a kísérő megjegyzésekkel. A Java-fejlesztők ezt az Aspose.Slides for Java könyvtár segítségével érhetik el, amely robusztus eszközkészletet biztosít a PowerPoint-prezentációk programozott használatához. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan konvertálhat diákat PDF formátumba jegyzetekkel a Java és az Aspose.Slides for Java használatával.
+digitális prezentációk világában értékes szolgáltatás a diák PDF formátumba konvertálása a kísérő megjegyzésekkel. A Java-fejlesztők ezt az Aspose.Slides for Java könyvtár segítségével érhetik el, amely robusztus eszközkészletet biztosít a PowerPoint-prezentációk programozott használatához. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan konvertálhat diákat PDF formátumba jegyzetekkel a Java és az Aspose.Slides for Java használatával.
 
 ## Előfeltételek
 

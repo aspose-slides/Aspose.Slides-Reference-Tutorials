@@ -2,7 +2,7 @@
 title: 在 Java 投影片中新增自訂行
 linktitle: 在 Java 投影片中新增自訂行
 second_title: Aspose.Slides Java PowerPoint 處理 API
-description: 使用自訂行增強您的 Java 投影片。使用 Aspose.Slides for Java 的逐步指南。了解在簡報中添加和自訂線條以獲得有影響力的視覺效果。
+description: 使用自訂線條增強您的 Java 投影片。使用 Aspose.Slides for Java 的逐步指南。了解在簡報中添加和自訂線條以獲得有影響力的視覺效果。
 type: docs
 weight: 10
 url: /zh-hant/java/customization-and-formatting/adding-custom-lines-java-slides/

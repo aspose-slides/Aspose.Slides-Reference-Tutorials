@@ -31,7 +31,7 @@ using Aspose.Slides.Export;
 
 Most bontsuk több lépésre a hiperhivatkozások diákhoz való hozzáadásának folyamatát.
 
-## 1. lépés: Inicializálja a prezentációt
+## 1. lépés: A prezentáció inicializálása
 
 Először hozzon létre egy új prezentációt az Aspose.Slides segítségével. A következőképpen teheti meg:
 
@@ -67,7 +67,7 @@ shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 
 Ebben a lépésben a hiperhivatkozás URL-jét a „https://www.aspose.com/” értékre állítjuk, és eszközleírást biztosítunk további információkért. A fentiek szerint formázhatja a hiperhivatkozás megjelenését is.
 
-## 4. lépés: Prezentáció mentése
+## 4. lépés: Mentse a bemutatót
 
 Végül mentse a prezentációt a hozzáadott hiperhivatkozással.
 

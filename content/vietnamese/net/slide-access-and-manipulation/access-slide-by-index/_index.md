@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Mã thao tác slide của bạn sẽ ở đây
+    //Mã thao tác slide của bạn sẽ ở đây
 }
 ```
 
@@ -45,13 +45,13 @@ Bây giờ chúng ta đã tải xong bản trình bày của mình, hãy tiếp 
 
 ```csharp
 // Truy cập một slide theo chỉ mục tuần tự của nó (dựa trên 0)
-int slideIndex = 2; // Thay thế bằng chỉ mục mong muốn
+int slideIndex = 2; //Thay thế bằng chỉ mục mong muốn
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## Giải thích mã nguồn
 
-- Chúng tôi sử dụng`Slides` bộ sưu tập của`Presentation` đối tượng truy cập vào slide.
+-  Chúng tôi sử dụng`Slides` bộ sưu tập của`Presentation` đối tượng truy cập vào slide.
 - Chỉ mục của trang chiếu trong bộ sưu tập dựa trên 0, do đó, trang chiếu đầu tiên có chỉ mục là 0, trang chiếu thứ hai có chỉ mục là 1, v.v.
 - Chúng ta chỉ định chỉ mục slide mong muốn để truy xuất đối tượng slide tương ứng.
 
@@ -81,7 +81,7 @@ Không, Aspose.Slides for .NET là thư viện thương mại yêu cầu giấy 
 
 ### Aspose.Slides cho .NET cung cấp những chức năng nào khác?
 
- Aspose.Slides cho .NET cung cấp nhiều chức năng, bao gồm tạo bản trình bày từ đầu, thao tác với các trang chiếu, thêm hình dạng và hình ảnh, áp dụng định dạng, v.v. Bạn có thể tham khảo các[tài liệu](https://reference.aspose.com/slides/net/) để biết thông tin toàn diện.
+Aspose.Slides cho .NET cung cấp nhiều chức năng, bao gồm tạo bản trình bày từ đầu, thao tác với các trang chiếu, thêm hình dạng và hình ảnh, áp dụng định dạng, v.v. Bạn có thể tham khảo các[tài liệu](https://reference.aspose.com/slides/net/) để biết thông tin toàn diện.
 
 ### Làm cách nào tôi có thể tìm hiểu thêm về tự động hóa PowerPoint bằng Aspose.Slides?
 

@@ -43,7 +43,7 @@ Aktualizujte tyto cesty skutečnými cestami k vašemu ukázkovému souboru Exce
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    // Zde bude kód pro další kroky
+    // Zde bude uveden kód pro následující kroky
 }
 ```
  Inicializujte novou instanci souboru`Presentation` třída.

@@ -134,7 +134,7 @@ Việc kết hợp các điều khiển ActiveX vào bản trình bày PowerPoin
 
 ### Tôi có thể thao tác các điều khiển ActiveX theo chương trình không?
 
- Có, bạn có thể thao tác các điều khiển ActiveX theo chương trình bằng cách sử dụng Aspose.Slides cho .NET. Bằng cách có được một tham chiếu đến`IOleObjectFrame` đại diện cho điều khiển, bạn có thể gọi các phương thức và đặt thuộc tính để tương tác động với điều khiển.
+ Có, bạn có thể thao tác các điều khiển ActiveX theo chương trình bằng cách sử dụng Aspose.Slides for .NET. Bằng cách có được một tham chiếu đến`IOleObjectFrame` đại diện cho điều khiển, bạn có thể gọi các phương thức và đặt thuộc tính để tương tác động với điều khiển.
 
 ### Làm cách nào để xử lý các sự kiện
 

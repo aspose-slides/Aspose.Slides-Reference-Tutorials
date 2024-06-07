@@ -22,7 +22,7 @@ url: /ko/java/animation-and-layout/animating-series-elements-java-slides/
 
 ## 1단계: 프레젠테이션 로드
 
-먼저 애니메이션을 적용하려는 차트가 포함된 PowerPoint 프레젠테이션을 로드해야 합니다. 바꾸다`"Your Document Directory"` 문서 디렉토리의 실제 경로를 사용하십시오.
+ 먼저 애니메이션을 적용하려는 차트가 포함된 PowerPoint 프레젠테이션을 로드해야 합니다. 바꾸다`"Your Document Directory"` 문서 디렉토리의 실제 경로를 사용하십시오.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -113,7 +113,7 @@ Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드의 시리즈 요�
 
 ### PowerPoint 슬라이드의 다른 개체에 애니메이션을 적용할 수 있나요?
 
-예, 차트뿐만 아니라 PowerPoint 슬라이드의 다양한 개체에 애니메이션을 적용할 수 있습니다. 사용`addEffect` 애니메이션을 적용할 개체와 원하는 애니메이션 속성을 지정하는 방법입니다.
+ 예, 차트뿐만 아니라 PowerPoint 슬라이드의 다양한 개체에 애니메이션을 적용할 수 있습니다. 사용`addEffect` 애니메이션을 적용할 개체와 원하는 애니메이션 속성을 지정하는 방법입니다.
 
 ### Java용 Aspose.Slides를 내 프로젝트에 어떻게 통합하나요?
 

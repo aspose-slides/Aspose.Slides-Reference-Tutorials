@@ -74,7 +74,7 @@ Gratulujeme! Úspěšně jste převedli soubor formátu FODP do jiných prezenta
 
 ### 3. Jak mohu získat dočasnou licenci pro Aspose.Slides pro .NET?
 
-Pokud potřebujete dočasnou licenci, můžete ji získat z[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
+ Pokud potřebujete dočasnou licenci, můžete ji získat z[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Jaké prezentační formáty jsou podporovány pro převod?
 

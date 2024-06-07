@@ -125,7 +125,7 @@ Ebben a példában egy PowerPoint bemutatót töltünk be (`TestChart.pptx` ), �
 
 Az Aspose.Slides for .NET robusztus platformot biztosít a PowerPoint prezentációk diagramjaival való munkavégzéshez. Az ebben az oktatóanyagban bemutatott haladó funkciókkal az adatvizualizációt és a prezentációtervezést a következő szintre emelheti. Akár adatokat kell kinyernie, akár munkafüzeteket kell helyreállítania, akár a diagram adatpontjait kell manipulálnia, az Aspose.Slides for .NET mindent megtalál.
 
-A mellékelt kódpéldák és -lépések követésével kihasználhatja az Aspose.Slides for .NET erejét PowerPoint-prezentációk fejlesztéséhez és hatásos adatvezérelt látványelemek létrehozásához.
+A mellékelt kódpéldák és -lépések követésével kihasználhatja az Aspose.Slides for .NET erejét PowerPoint-prezentációk javításához és hatásos adatvezérelt látványelemek létrehozásához.
 
 ## GYIK (Gyakran Ismételt Kérdések)
 
@@ -133,7 +133,7 @@ A mellékelt kódpéldák és -lépések követésével kihasználhatja az Aspos
    
 Igen, az Aspose.Slides for .NET minden szintű fejlesztőt szolgál ki, a kezdőktől a szakértőkig. A könyvtár felhasználóbarát felületet biztosít, miközben fejlett funkciókat kínál a tapasztalt fejlesztők számára.
 
-### Használhatom az Aspose.Slides for .NET alkalmazást diagramok létrehozására más dokumentumformátumokban, például PDF-ben vagy képekben?
+### Használhatom az Aspose.Slides for .NET-et diagramok létrehozására más dokumentumformátumokban, például PDF-ben vagy képekben?
 
 Igen, az Aspose.Slides for .NET segítségével diagramokat hozhat létre különféle formátumokban, beleértve a PDF-et, képeket és egyebeket. A könyvtár sokoldalú exportálási lehetőségeket kínál.
 

@@ -1,41 +1,41 @@
 ---
-title: Animierende Serien in Java-Folien
-linktitle: Animierende Serien in Java-Folien
+title: Animieren von Serien in Java-Folien
+linktitle: Animieren von Serien in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Optimieren Sie Ihre Präsentationen mit Serienanimationen in Aspose.Slides für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung mit Quellcode-Beispielen, um ansprechende PowerPoint-Animationen zu erstellen.
+description: Optimieren Sie Ihre Präsentationen mit Serienanimationen in Aspose.Slides für Java. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcodebeispielen, um ansprechende PowerPoint-Animationen zu erstellen.
 type: docs
 weight: 11
 url: /de/java/animation-and-layout/animating-series-java-slides/
 ---
 
-## Einführung in die Animationsserie in Aspose.Slides für Java
+## Einführung in die Animation von Serien in Aspose.Slides für Java
 
-In diesem Leitfaden führen wir Sie durch den Prozess der Animation von Serien in Java-Folien mithilfe der Aspose.Slides für Java-API. Mit dieser Bibliothek können Sie programmgesteuert mit PowerPoint-Präsentationen arbeiten.
+In dieser Anleitung führen wir Sie durch den Prozess der Animation von Serien in Java-Folien mithilfe der Aspose.Slides für Java API. Mit dieser Bibliothek können Sie programmgesteuert mit PowerPoint-Präsentationen arbeiten.
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Aspose.Slides für Java-Bibliothek.
-- Einrichtung einer Java-Entwicklungsumgebung.
+- Aspose.Slides für die Java-Bibliothek.
+- Java-Entwicklungsumgebung eingerichtet.
 
 ## Schritt 1: Laden Sie die Präsentation
 
- Zuerst müssen wir eine vorhandene PowerPoint-Präsentation laden, die ein Diagramm enthält. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer Präsentationsdatei.
+ Zuerst müssen wir eine vorhandene PowerPoint-Präsentation laden, die ein Diagramm enthält. Ersetzen Sie`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
-//Instanziieren Sie eine Präsentationsklasse, die eine Präsentationsdatei darstellt
+// Instanziieren Sie die Präsentationsklasse, die eine Präsentationsdatei darstellt
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-## Schritt 2: Greifen Sie auf das Diagramm zu
+## Schritt 2: Zugriff auf das Diagramm
 
-Als nächstes greifen wir auf das Diagramm innerhalb der Präsentation zu. In diesem Beispiel gehen wir davon aus, dass sich das Diagramm auf der ersten Folie befindet und die erste Form auf dieser Folie ist.
+Als Nächstes greifen wir auf das Diagramm innerhalb der Präsentation zu. In diesem Beispiel gehen wir davon aus, dass sich das Diagramm auf der ersten Folie befindet und die erste Form auf dieser Folie darstellt.
 
 ```java
-// Verweis auf das Diagrammobjekt abrufen
+// Referenz zum Chart-Objekt abrufen
 ISlide slide = presentation.getSlides().get_Item(0);
 IShapeCollection shapes = slide.getShapes();
 IChart chart = (IChart) shapes.get_Item(0);
@@ -43,13 +43,13 @@ IChart chart = (IChart) shapes.get_Item(0);
 
 ## Schritt 3: Animationen hinzufügen
 
-Nun fügen wir der Reihe innerhalb des Diagramms Animationen hinzu. Wir werden einen Einblendeffekt verwenden und jede Serie nacheinander erscheinen lassen.
+Fügen wir nun den Reihen im Diagramm Animationen hinzu. Wir verwenden einen Einblendeffekt und lassen jede Reihe nacheinander erscheinen.
 
 ```java
 // Animieren Sie das gesamte Diagramm
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
-// Fügen Sie jeder Serie Animationen hinzu (vorausgesetzt, es gibt 4 Serien).
+// Fügen Sie jeder Serie Animationen hinzu (vorausgesetzt, es gibt 4 Serien)
 for (int i = 0; i < 4; i++) {
     ((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart,
             EffectChartMajorGroupingType.BySeries, i,
@@ -57,7 +57,7 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 
-Im obigen Code verwenden wir einen Einblendeffekt für das gesamte Diagramm und fügen dann mithilfe einer Schleife nacheinander einen „Erscheinen“-Effekt zu jeder Serie hinzu.
+Im obigen Code verwenden wir einen Einblendeffekt für das gesamte Diagramm und fügen anschließend in einer Schleife nacheinander jeder Reihe einen „Erscheinen“-Effekt hinzu.
 
 ## Schritt 4: Speichern Sie die Präsentation
 
@@ -67,16 +67,16 @@ Speichern Sie abschließend die geänderte Präsentation auf der Festplatte.
 presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 
-## Vollständiger Quellcode für Animationsserien in Aspose.Slides für Java
+## Vollständiger Quellcode zum Animieren von Serien in Aspose.Slides für Java
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
-//Instanziieren Sie eine Präsentationsklasse, die eine Präsentationsdatei darstellt
+// Instanziieren Sie die Präsentationsklasse, die eine Präsentationsdatei darstellt
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
-	// Rufen Sie die Referenz des Diagrammobjekts ab
+	// Referenz des Diagrammobjekts abrufen
 	ISlide slide = presentation.getSlides().get_Item(0);
 	IShapeCollection shapes = slide.getShapes();
 	IChart chart = (IChart) shapes.get_Item(0);
@@ -106,22 +106,22 @@ finally
 
 ## Abschluss
 
-Sie haben mit Aspose.Slides für Java erfolgreich Serien in einem PowerPoint-Diagramm animiert. Dadurch können Ihre Präsentationen ansprechender und optisch ansprechender gestaltet werden. Entdecken Sie weitere Animationsoptionen und optimieren Sie Ihre Präsentationen nach Bedarf.
+Sie haben mit Aspose.Slides für Java erfolgreich Serien in einem PowerPoint-Diagramm animiert. Dadurch können Sie Ihre Präsentationen ansprechender und optisch ansprechender gestalten. Entdecken Sie weitere Animationsoptionen und optimieren Sie Ihre Präsentationen nach Bedarf.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### Wie kontrolliere ich die Reihenfolge der Serienanimationen?
+### Wie steuere ich die Reihenfolge von Serienanimationen?
 
- Um die Reihenfolge der Serienanimationen zu steuern, verwenden Sie die`EffectTriggerType.AfterPrevious` Parameter beim Hinzufügen der Effekte. Dadurch beginnt jede Serienanimation, nachdem die vorherige beendet ist.
+ Um die Reihenfolge der Serienanimationen zu steuern, verwenden Sie die`EffectTriggerType.AfterPrevious`Parameter beim Hinzufügen der Effekte. Dadurch wird jede Serienanimation gestartet, nachdem die vorherige beendet ist.
 
-### Kann ich auf jede Serie unterschiedliche Animationen anwenden?
+### Kann ich für jede Serie unterschiedliche Animationen verwenden?
 
- Ja, Sie können auf jede Serie unterschiedliche Animationen anwenden, indem Sie unterschiedliche angeben`EffectType` Und`EffectSubtype` Werte beim Hinzufügen von Effekten.
+ Ja, Sie können für jede Serie unterschiedliche Animationen verwenden, indem Sie unterschiedliche`EffectType` Und`EffectSubtype` Werte beim Hinzufügen von Effekten.
 
-### Was passiert, wenn meine Präsentation mehr als vier Serien umfasst?
+### Was ist, wenn meine Präsentation mehr als vier Serien umfasst?
 
-Sie können die Schleife in Schritt 3 erweitern, um Animationen für alle Reihen in Ihrem Diagramm hinzuzufügen. Passen Sie einfach den Zustand der Schleife entsprechend an.
+Sie können die Schleife in Schritt 3 erweitern, um Animationen für alle Reihen in Ihrem Diagramm hinzuzufügen. Passen Sie einfach die Bedingung der Schleife entsprechend an.
 
 ### Wie kann ich die Dauer und Verzögerung der Animation anpassen?
 
-Sie können die Animationsdauer und -verzögerung anpassen, indem Sie Eigenschaften für die Animationseffekte festlegen. Einzelheiten zu den verfügbaren Anpassungsoptionen finden Sie in der Dokumentation zu Aspose.Slides für Java.
+Sie können die Dauer und Verzögerung der Animation anpassen, indem Sie Eigenschaften für die Animationseffekte festlegen. Weitere Informationen zu den verfügbaren Anpassungsoptionen finden Sie in der Dokumentation zu Aspose.Slides für Java.

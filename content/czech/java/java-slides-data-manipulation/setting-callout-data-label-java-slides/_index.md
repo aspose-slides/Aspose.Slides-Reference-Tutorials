@@ -10,7 +10,7 @@ url: /cs/java/data-manipulation/setting-callout-data-label-java-slides/
 
 ## Úvod do nastavení popisku pro štítek dat v Aspose.Slides pro Javu
 
-V tomto tutoriálu si ukážeme, jak nastavit popisky pro popisky dat v grafu pomocí Aspose.Slides for Java. Popisky mohou být užitečné ke zvýraznění konkrétních datových bodů v grafu. Projdeme si kód krok za krokem a poskytneme potřebný zdrojový kód.
+tomto tutoriálu si ukážeme, jak nastavit popisky pro popisky dat v grafu pomocí Aspose.Slides for Java. Popisky mohou být užitečné ke zvýraznění konkrétních datových bodů v grafu. Projdeme si kód krok za krokem a poskytneme potřebný zdrojový kód.
 
 ## Předpoklady
 
@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Přizpůsobte formátování štítků (Písmo, Výplň atd.)
+        //Přizpůsobte formátování štítků (Písmo, Výplň atd.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Jak mohu povolit nebo zakázat popisky pro datové štítky?
 
- Chcete-li povolit nebo zakázat popisky pro datové štítky, použijte`setShowLabelAsDataCallout` metoda. Nastavte na`true` pro povolení popisků a`false` zakázat je.
+ Chcete-li povolit nebo zakázat popisky pro datové štítky, použijte`setShowLabelAsDataCallout` metoda. Nastavte na`true` pro povolení popisků a`false`zakázat je.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Povolit popisky

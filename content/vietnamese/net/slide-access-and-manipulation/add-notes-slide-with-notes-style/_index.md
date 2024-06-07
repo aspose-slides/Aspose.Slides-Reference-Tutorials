@@ -37,7 +37,7 @@ Bây giờ, hãy đi sâu vào phần cốt lõi của hướng dẫn của chú
 
 ### Bước 2.1: Khởi tạo lớp trình bày
 
- Đầu tiên, chúng ta cần tạo một instance của`Presentation`lớp đại diện cho tệp bản trình bày PowerPoint của bạn. Bạn nên cung cấp đường dẫn đến tệp trình bày của mình trong`dataDir` Biến đổi.
+ Đầu tiên, chúng ta cần tạo một instance của`Presentation` lớp đại diện cho tệp bản trình bày PowerPoint của bạn. Bạn nên cung cấp đường dẫn đến tệp trình bày của mình trong`dataDir` Biến đổi.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Bước 2.2: Truy cập Master Notes Slide
 
- Trong`using` chặn, chúng ta truy cập vào slide ghi chú chính. Trang ghi chú chính chứa kiểu dáng mặc định cho các ghi chú trong bản trình bày của bạn.
+ Trong`using`chặn, chúng ta truy cập vào slide ghi chú chính. Trang ghi chú chính chứa kiểu dáng mặc định cho các ghi chú trong bản trình bày của bạn.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

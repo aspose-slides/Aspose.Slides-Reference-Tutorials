@@ -28,7 +28,7 @@ Zacznijmy od skonfigurowania środowiska programistycznego, aby przygotować pro
 
 2. Dodaj odwołanie do biblioteki Aspose.Slides for .NET w swoim projekcie. Zwykle można to zrobić, klikając projekt prawym przyciskiem myszy w Eksploratorze rozwiązań, wybierając opcję „Dodaj”, a następnie „Odwołanie”. Przejdź do pobranego wcześniej pliku DLL Aspose.Slides i dodaj go jako odniesienie.
 
-3. Możesz teraz zintegrować dostarczony kod źródłowy ze swoim projektem. Upewnij się, że masz gotowy kod źródłowy do następnego kroku.
+3. Możesz teraz zintegrować dostarczony kod źródłowy ze swoim projektem. Upewnij się, że masz kod źródłowy gotowy do następnego kroku.
 
 ## Ładowanie prezentacji
 Pierwsza część kodu skupia się na ładowaniu prezentacji PowerPoint. Ten krok jest niezbędny do uzyskania dostępu do slajdów w prezentacji i pracy z nimi.

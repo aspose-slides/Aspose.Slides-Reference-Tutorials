@@ -2,7 +2,7 @@
 title: 使用 ShapeUtil 掌握幾何圖形 - Aspose.Slides .NET
 linktitle: 在簡報投影片中使用 ShapeUtil 繪製幾何形狀
 second_title: Aspose.Slides .NET PowerPoint 處理 API
-description: 探索 Aspose.Slides for .NET 與 ShapeUtil 的動態幾何形狀的強大功能。輕鬆創建引人入勝的簡報。立即下載！了解如何使用 Aspose.Slides 增強 PowerPoint 簡報。探索用於幾何形狀操作的 ShapeUtil。 .NET 原始碼的逐步指南。有效優化演示。
+description: 探索 Aspose.Slides for .NET 與 ShapeUtil 的動態幾何形狀的強大功能。輕鬆創建引人入勝的簡報。立即下載！探索用於幾何形狀操作的 ShapeUtil。 .NET 原始碼的逐步指南。有效優化演示。
 type: docs
 weight: 17
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/

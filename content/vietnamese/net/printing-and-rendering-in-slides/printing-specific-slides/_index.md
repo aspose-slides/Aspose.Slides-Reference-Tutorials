@@ -56,6 +56,6 @@ In các slide thuyết trình theo chương trình bằng Aspose.Slides cho .NET
 ### Câu hỏi: Tôi có thể tìm thêm hỗ trợ hoặc đặt câu hỏi về Aspose.Slides ở đâu?
  Đáp: Truy cập Aspose.Slides[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11) để được hỗ trợ.
 ### Hỏi: Tôi có thể dùng thử Aspose.Slides miễn phí trước khi mua không?
-Đ: Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Đ: Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào để mua Aspose.Slides cho .NET?
  A: Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy).

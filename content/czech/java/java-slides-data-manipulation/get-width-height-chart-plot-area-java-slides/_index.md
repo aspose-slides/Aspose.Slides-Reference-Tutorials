@@ -29,7 +29,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.Pptx");
 ```
 
- Nahradit`"Your Document Directory"` s cestou k vašemu adresáři dokumentů.
+ Nahradit`"Your Document Directory"` s cestou k adresáři s dokumenty.
 
 ## Krok 3: Přidání grafu
 
@@ -90,7 +90,7 @@ finally
 
 ## Závěr
 
-V tomto článku jsme se zabývali tím, jak získat šířku a výšku oblasti grafu v aplikaci Java Slides pomocí Aspose.Slides for Java API. Tyto informace mohou být cenné, když potřebujete dynamicky upravit rozvržení grafů v prezentacích PowerPoint.
+tomto článku jsme se zabývali tím, jak získat šířku a výšku oblasti grafu v aplikaci Java Slides pomocí Aspose.Slides for Java API. Tyto informace mohou být cenné, když potřebujete dynamicky upravit rozvržení grafů v prezentacích PowerPoint.
 
 ## FAQ
 

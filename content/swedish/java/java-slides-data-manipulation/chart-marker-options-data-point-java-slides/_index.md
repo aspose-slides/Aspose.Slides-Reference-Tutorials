@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // Upprepa för andra datapunkter
 // ...
 
-//Ändra storleken på kartseriens markör
+// Ändra storleken på kartseriens markör
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ Med Aspose.Slides för Java kan du lyfta dina presentationer genom att anpassa d
 
 ### Kan jag använda bilder som anpassade markörer?
 
-Ja, du kan använda bilder som anpassade markörer för datapunkter. Ställ in fyllningstypen till`FillType.Picture` och ange den bild du vill använda.
+ Ja, du kan använda bilder som anpassade markörer för datapunkter. Ställ in fyllningstypen till`FillType.Picture`och ange den bild du vill använda.
 
 ### Är Aspose.Slides för Java lämplig för att skapa dynamiska diagram?
 

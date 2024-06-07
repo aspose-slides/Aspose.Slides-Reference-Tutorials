@@ -58,7 +58,7 @@ try {
 ```java
         // المسار إلى دليل المستندات.
         String dataDir = "Your Document Directory";
-        // فتح ملف العرض التقديمي عن طريق تمرير مسار الملف إلى مُنشئ فئة العرض التقديمي
+        //فتح ملف العرض التقديمي عن طريق تمرير مسار الملف إلى مُنشئ فئة العرض التقديمي
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

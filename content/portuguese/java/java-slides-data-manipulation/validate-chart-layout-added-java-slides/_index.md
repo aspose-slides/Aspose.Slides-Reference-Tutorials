@@ -14,7 +14,7 @@ Neste tutorial, exploraremos como validar o layout do gráfico em uma apresenta�
 
 ## Etapa 1: inicializando a apresentação
 
-Primeiro, precisamos inicializar um objeto de apresentação e carregar uma apresentação existente do PowerPoint. Substituir`"Your Document Directory"` com o caminho real para o seu arquivo de apresentação (`test.pptx` neste exemplo).
+ Primeiro, precisamos inicializar um objeto de apresentação e carregar uma apresentação existente do PowerPoint. Substituir`"Your Document Directory"` com o caminho real para o seu arquivo de apresentação (`test.pptx` neste exemplo).
 
 ```java
 // O caminho para o diretório de documentos.
@@ -88,7 +88,7 @@ Neste tutorial, mergulhamos no mundo do trabalho com gráficos em apresentaçõe
 
 ### Como altero o tipo de gráfico?
 
- Para alterar o tipo de gráfico, basta substituir`ChartType.ClusteredColumn` com o tipo de gráfico desejado no`addChart()` método.
+ Para alterar o tipo de gráfico, basta substituir`ChartType.ClusteredColumn`com o tipo de gráfico desejado no`addChart()` método.
 
 ### Posso personalizar os dados do gráfico?
 

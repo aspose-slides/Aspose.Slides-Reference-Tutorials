@@ -28,7 +28,7 @@ Začněte vytvořením nového projektu C# ve vámi preferovaném vývojovém pr
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // Načíst obrázek, který má být přidán do kolekce obrázků prezentace
+    //Načíst obrázek, který má být přidán do kolekce obrázků prezentace
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...

@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## Βήμα 4: Προσθέστε ένα γράφημα πίτας
 
 ```java
-// Προσθέστε ένα γράφημα πίτας με προεπιλεγμένα δεδομένα
+//Προσθέστε ένα γράφημα πίτας με προεπιλεγμένα δεδομένα
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Ρύθμιση του ευρετηρίου του φύλλου δεδομένων γραφήματος
 int defaultWorksheetIndex = 0;
 
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Διαγραφή προεπιλεγμένων σειρών και κατηγοριών που δημιουργούνται
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Προσαρμόστε άλλους τομείς με παρόμοιο τρόπο
+// Προσαρμόστε άλλους τομείς με παρόμοιο τρόπο
 ```
 
 Προσαρμόστε την εμφάνιση κάθε τομέα στο γράφημα πίτας. Μπορείτε να αλλάξετε τα χρώματα, τα στυλ περιγράμματος και άλλες οπτικές ιδιότητες.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Ρύθμιση του ευρετηρίου του φύλλου δεδομένων γραφήματος
 int defaultWorksheetIndex = 0;
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Διαγραφή προεπιλεγμένων σειρών και κατηγοριών που δημιουργούνται
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Προσθήκη νέας σειράς
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Τώρα συμπληρώνονται δεδομένα σειράς
+//Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Δεν λειτουργεί σε νέα έκδοση
+// Δεν λειτουργεί σε νέα έκδοση
 // Προσθήκη νέων σημείων και ρύθμιση χρώματος τομέα
 // series.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### Πώς μπορώ να αλλάξω τα χρώματα μεμονωμένων τομέων στο γράφημα πίτας;
 
- Για να αλλάξετε τα χρώματα μεμονωμένων τομέων στο γράφημα πίτας, μπορείτε να προσαρμόσετε το χρώμα πλήρωσης για κάθε σημείο δεδομένων. Στο παρεχόμενο παράδειγμα κώδικα, δείξαμε πώς να ορίσετε το χρώμα πλήρωσης για κάθε τομέα χρησιμοποιώντας το`getSolidFillColor().setColor()`μέθοδος. Μπορείτε να τροποποιήσετε τις τιμές χρώματος για να επιτύχετε την επιθυμητή εμφάνιση.
+ Για να αλλάξετε τα χρώματα μεμονωμένων τομέων στο γράφημα πίτας, μπορείτε να προσαρμόσετε το χρώμα πλήρωσης για κάθε σημείο δεδομένων. Στο παρεχόμενο παράδειγμα κώδικα, δείξαμε πώς να ορίσετε το χρώμα πλήρωσης για κάθε τομέα χρησιμοποιώντας το`getSolidFillColor().setColor()` μέθοδος. Μπορείτε να τροποποιήσετε τις τιμές χρώματος για να επιτύχετε την επιθυμητή εμφάνιση.
 
 ### Μπορώ να προσθέσω περισσότερες κατηγορίες και σειρές δεδομένων στο γράφημα πίτας;
 
@@ -278,7 +278,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### Μπορώ να δημιουργήσω άλλους τύπους γραφημάτων χρησιμοποιώντας το Aspose.Slides για Java;
 
- Ναι, το Aspose.Slides για Java υποστηρίζει διάφορους τύπους γραφημάτων, συμπεριλαμβανομένων των γραφημάτων ράβδων, των γραμμικών γραφημάτων και άλλων. Μπορείτε να δημιουργήσετε διαφορετικούς τύπους γραφημάτων αλλάζοντας το`ChartType` κατά την προσθήκη γραφήματος. Ανατρέξτε στην τεκμηρίωση Aspose.Slides για περισσότερες λεπτομέρειες σχετικά με τη δημιουργία διαφορετικών τύπων γραφημάτων.
+Ναι, το Aspose.Slides για Java υποστηρίζει διάφορους τύπους γραφημάτων, συμπεριλαμβανομένων των γραφημάτων ράβδων, των γραμμικών γραφημάτων και άλλων. Μπορείτε να δημιουργήσετε διαφορετικούς τύπους γραφημάτων αλλάζοντας το`ChartType` κατά την προσθήκη γραφήματος. Ανατρέξτε στην τεκμηρίωση Aspose.Slides για περισσότερες λεπτομέρειες σχετικά με τη δημιουργία διαφορετικών τύπων γραφημάτων.
 
 ### Πώς μπορώ να βρω περισσότερες πληροφορίες και παραδείγματα για την εργασία με το Aspose.Slides για Java;
 

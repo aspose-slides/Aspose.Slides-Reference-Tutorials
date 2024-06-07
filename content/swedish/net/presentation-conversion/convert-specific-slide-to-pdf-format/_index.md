@@ -30,7 +30,7 @@ För att komma igång, skapa ett nytt C#-projekt i Visual Studio eller din före
 
 ## Steg 2: Skriva koden
 
-Låt oss nu skriva koden som konverterar specifika bilder till PDF. Här är C#-kodavsnittet du kan använda:
+Låt oss nu skriva koden som konverterar specifika bilder till PDF. Här är C#-kodavsnittet som du kan använda:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -51,7 +51,7 @@ I denna kod:
 -  Byta ut`"Your Document Directory"`med katalogsökvägen där din PowerPoint-presentationsfil finns.
 -  Byta ut`"Your Output Directory"` med katalogen där du vill spara den konverterade PDF-filen.
 
-## Steg 3: Kör koden
+## Steg 3: Köra koden
 
 Bygg och kör ditt projekt. Koden kommer att köras och specifika bilder (i det här fallet bild 1 och 3) från din PowerPoint-presentation kommer att konverteras till PDF-format och sparas i den angivna utdatakatalogen.
 

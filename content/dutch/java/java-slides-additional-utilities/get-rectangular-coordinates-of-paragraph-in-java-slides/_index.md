@@ -107,7 +107,7 @@ Ja, Aspose.Slides voor Java is zeer geschikt voor batchverwerking van PowerPoint
 
 ### Waar kan ik meer voorbeelden en documentatie vinden?
 
-Meer codevoorbeelden en gedetailleerde documentatie voor Aspose.Slides voor Java vindt u op de website[Aspose.Slides-documentatie](https://reference.aspose.com/slides/java/) website. Daarnaast kunt u de[Aspose.Slides-forums](https://forum.aspose.com/c/slides) voor gemeenschapsondersteuning en discussies.
+ Meer codevoorbeelden en gedetailleerde documentatie voor Aspose.Slides voor Java vindt u op de website[Aspose.Slides-documentatie](https://reference.aspose.com/slides/java/)website. Daarnaast kunt u de[Aspose.Slides-forums](https://forum.aspose.com/c/slides) voor gemeenschapsondersteuning en discussies.
 
 ### Heb ik een licentie nodig om Aspose.Slides voor Java te gebruiken?
 

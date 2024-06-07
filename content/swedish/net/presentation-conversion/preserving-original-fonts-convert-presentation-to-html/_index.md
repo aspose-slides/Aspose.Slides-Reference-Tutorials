@@ -79,9 +79,9 @@ I den här handledningen har vi visat hur man bevarar originaltypsnitt när man 
 
 ## 9. Vanliga frågor
 
-### F1: Kan jag anpassa listan över uteslutna typsnitt?
+### F1: Kan jag anpassa listan över uteslutna teckensnitt?
 
- Jo det kan du. Ändra`fontNameExcludeList` array för att inkludera eller utesluta specifika teckensnitt enligt dina krav.
+ Jo det kan du. Ändra`fontNameExcludeList`array för att inkludera eller utesluta specifika teckensnitt enligt dina krav.
 
 ### F2: Vad händer om jag inte vill bädda in alla teckensnitt?
 

@@ -55,7 +55,7 @@ string dataDir = "Your Document Directory";
 
 ### Étape 2 : ouvrez la présentation
 
- Utilisez le`Presentation` classe pour ouvrir votre présentation PowerPoint. Assurez-vous d'avoir le chemin d'accès correct au fichier.
+ Utilisez le`Presentation` classe pour ouvrir votre présentation PowerPoint. Assurez-vous d'avoir le chemin de fichier correct.
 
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlide.pptx"))

@@ -93,7 +93,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 就是這樣！您已使用 Aspose.Slides for .NET 成功從投影片中刪除了超連結。
 
-總而言之，Aspose.Slides for .NET 提供了一種有效的方法來操作簡報中的超鏈接，使您能夠創建互動式且引人入勝的幻燈片。無論您是想新增或刪除外部資源的超鏈接，Aspose.Slides 都能簡化流程並增強您的簡報建立功能。
+總而言之，Aspose.Slides for .NET 提供了一種有效的方法來操作簡報中的超鏈接，使您能夠創建互動式且引人入勝的幻燈片。無論您想要新增或刪除外部資源的超鏈接，Aspose.Slides 都能簡化流程並增強您的簡報建立功能。
 
 感謝您加入我們有關 Aspose.Slides for .NET 中超連結操作的教學。如果您有任何疑問或需要進一步協助，請隨時探索[Aspose.Slides 文檔](https://reference.aspose.com/slides/net/)或聯絡 Aspose 社區[支援論壇](https://forum.aspose.com/).
 

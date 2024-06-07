@@ -42,7 +42,7 @@ Recupere la primera diapositiva de la presentación para trabajar.
 ISlide sld = pres.Slides[0];
 ```
 ## Paso 4: crear una instancia de la clase ImageEx
- Crear una instancia del`ImageEx` clase para manejar la imagen que desea agregar a la diapositiva.
+ Crear una instancia del`ImageEx`clase para manejar la imagen que desea agregar a la diapositiva.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

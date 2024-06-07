@@ -10,7 +10,7 @@ url: /it/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 
 ## introduzione
 
-grafici rappresentano un modo efficace per visualizzare i dati nelle presentazioni di PowerPoint. A volte potrebbe essere necessario conoscere le dimensioni dell'area del tracciato di un grafico per vari motivi, ad esempio il ridimensionamento o il riposizionamento degli elementi all'interno del grafico. Questa guida mostrerà come ottenere la larghezza e l'altezza dell'area del tracciato utilizzando Java e Aspose.Slides per Java.
+I grafici rappresentano un modo efficace per visualizzare i dati nelle presentazioni di PowerPoint. A volte potrebbe essere necessario conoscere le dimensioni dell'area del tracciato di un grafico per vari motivi, ad esempio il ridimensionamento o il riposizionamento degli elementi all'interno del grafico. Questa guida mostrerà come ottenere la larghezza e l'altezza dell'area del tracciato utilizzando Java e Aspose.Slides per Java.
 
 ## Prerequisiti
 

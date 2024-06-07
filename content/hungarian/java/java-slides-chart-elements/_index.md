@@ -54,7 +54,7 @@ Javítsa PowerPoint prezentációit az Aspose.Slides for Java segítségével. I
 Javítsa a PowerPoint prezentációkat az Aspose.Slides for Java segítségével. Lépésről lépésre szóló útmutatónkból megtudhatja, hogyan szabhatja személyre a jelmagyarázat betűméretét és még sok mást.
 ### [Tölcsérdiagram a Java Slides-ben](./funnel-chart-java-slides/)
 Fedezze fel az Aspose.Slides for Java alkalmazást lépésről lépésre bemutató oktatóanyagokkal. Lenyűgöző tölcsérdiagramok és még sok más létrehozása.
-### [Térkép diagram a Java Slides-ben](./map-chart-java-slides/)
+### [Térképdiagram a Java Slides-ben](./map-chart-java-slides/)
 Készítsen lenyűgöző térképdiagramokat a PowerPoint-bemutatókban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató és forráskód Java fejlesztők számára.
 ### [Sunburst diagram a Java Slides-ben](./sunburst-chart-java-slides/)
 Az Aspose.Slides segítségével lenyűgöző Sunburst diagramokat készíthet a Java Slides-ben. Ismerje meg a diagramok létrehozását és adatkezelését lépésről lépésre.

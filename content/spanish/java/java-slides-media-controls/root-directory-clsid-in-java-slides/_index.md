@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Reemplace "your_output_path"
 Presentation pres = new Presentation();
 ```
 
- En el código anterior, definimos la ruta para el archivo de presentación de salida y creamos un nuevo`Presentation` objeto.
+En el código anterior, definimos la ruta para el archivo de presentación de salida y creamos un nuevo`Presentation` objeto.
 
 ## Paso 2: configurar el ClsId del directorio raíz
 
- Para configurar el ClsId del directorio raíz, debe crear una instancia de`PptOptions` configure el CLSID deseado. El CLSID representa la aplicación que se utilizará como directorio raíz cuando se active un hipervínculo.
+ Para configurar el ClsId del directorio raíz, debe crear una instancia de`PptOptions` y configure el CLSID deseado. El CLSID representa la aplicación que se utilizará como directorio raíz cuando se active un hipervínculo.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// establezca CLSID en 'Microsoft Powerpoint.Show.8'
+	//establezca CLSID en 'Microsoft Powerpoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Guardar presentación
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

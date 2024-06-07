@@ -62,7 +62,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// إضافة دعم إمكانية الوصول إلى PDF/UA
+//إضافة دعم إمكانية الوصول إلى PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // تحميل العرض التقديمي
 using var presentation = new Presentation("presentation.pptx");
 
-// إضافة دعم إمكانية الوصول إلى PDF/UA
+//إضافة دعم إمكانية الوصول إلى PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

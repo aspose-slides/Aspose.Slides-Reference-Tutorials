@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. 차트 데이터 통합 문서를 가져옵니다.
 
 ```java
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // 차트 데이터 시트의 인덱스 설정
 int defaultWorksheetIndex = 0;
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // 시리즈 추가
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // 두 번째 차트 시리즈 가져오기
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// 이제 계열 데이터를 채우는 중입니다.
+//이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -189,7 +189,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### 시리즈에 더 많은 데이터 포인트를 추가하려면 어떻게 해야 합니까?
 
- 다음을 사용하여 계열에 더 많은 데이터 포인트를 추가할 수 있습니다.`series.getDataPoints().addDataPointForBarSeries()` 방법을 사용하고 데이터 값이 포함된 셀을 지정합니다.
+ 다음을 사용하여 계열에 더 많은 데이터 요소를 추가할 수 있습니다.`series.getDataPoints().addDataPointForBarSeries()` 방법을 사용하고 데이터 값이 포함된 셀을 지정합니다.
 
 ### 다른 회전 각도를 어떻게 설정하나요?
 

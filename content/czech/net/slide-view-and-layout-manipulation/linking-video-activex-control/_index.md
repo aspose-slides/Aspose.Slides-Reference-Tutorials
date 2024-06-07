@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Nejčastější dotazy:
 
 ### Jak mohu určit velikost a polohu propojeného videa na snímku?
- Rozměry a polohu ovládacího rámečku ActiveX můžete upravit pomocí parametrů`AddOleObjectFrame` metoda. Čtyři číselné argumenty představují souřadnice X a Y levého horního rohu a šířku a výšku rámečku.
+Rozměry a polohu ovládacího rámečku ActiveX můžete upravit pomocí parametrů`AddOleObjectFrame` metoda. Čtyři číselné argumenty představují souřadnice X a Y levého horního rohu a šířku a výšku rámečku.
 
 ### Mohu pomocí tohoto přístupu propojit videa různých formátů?
 Ano, můžete propojit videa různých formátů, pokud je pro daný formát k dispozici příslušný ovládací prvek ActiveX. Například ovládací prvek ShockwaveFlash ActiveX použitý v této příručce je vhodný pro videa Flash (SWF). Pro jiné formáty možná budete muset použít jiné ProgID.

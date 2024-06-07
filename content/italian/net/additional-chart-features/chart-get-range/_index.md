@@ -92,4 +92,4 @@ Sì, puoi lavorare con diapositive, forme, testo, immagini e altri elementi all'
  È possibile richiedere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Che tipo di opzioni di supporto sono disponibili per Aspose.Slides per gli utenti .NET?
-Puoi ottenere supporto e assistenza dalla comunità Aspose sul loro sito[Forum di assistenza](https://forum.aspose.com/).
+ Puoi ottenere supporto e assistenza dalla comunità Aspose sul loro sito[Forum di assistenza](https://forum.aspose.com/).

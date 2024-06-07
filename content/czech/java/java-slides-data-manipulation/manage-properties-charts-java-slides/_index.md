@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Získejte sešit dat grafu.
 
 ```java
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Přidat sérii
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Vezměte druhou řadu grafů
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Nyní se vyplňují data série
+//Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

@@ -70,6 +70,6 @@ C: Kesinlikle! Aspose.Slides for .NET dikdörtgenler, çokgenler ve daha fazlas�
 ### S: Aspose.Slides for .NET'in ücretsiz deneme sürümü mevcut mu?
  C: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Slides for .NET için nasıl destek alabilirim?
- C: Yardım isteyin ve toplulukla etkileşime geçin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
+C: Yardım isteyin ve toplulukla etkileşime geçin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
 ### S: Aspose.Slides for .NET için geçici bir lisans satın alabilir miyim?
  C: Elbette geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

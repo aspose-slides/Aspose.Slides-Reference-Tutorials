@@ -65,7 +65,7 @@ class Program
 
 ## 4. 運行應用程式
 
-建置並運行您的應用程式。它將載入輸入演示文稿，使用指定的自訂影像格式設定將其轉換為 TIFF，並將輸出作為「output.tiff」保存在與應用程式相同的目錄中。
+建置並運行您的應用程式。它將載入輸入演示文稿，使用指定的自訂影像格式設定將其轉換為 TIFF，並將輸出儲存為“output.tiff”，與應用程式位於同一目錄中。
 
 ## 結論
 
@@ -91,4 +91,4 @@ Aspose.Slides for .NET 是一個強大的程式庫，有助於在 .NET 應用程
 
 ### 除了 TIFF 之外，Aspose.Slides for .NET 是否支援其他輸出格式？
 
-是的，除了 TIFF 之外，Aspose.Slides for .NET 支援多種用於轉換簡報的輸出格式，包括 PDF、JPEG、PNG、GIF 等。這使您可以靈活地為您的特定用例選擇最合適的格式。
+是的，除了 TIFF 之外，Aspose.Slides for .NET 還支援多種用於轉換簡報的輸出格式，包括 PDF、JPEG、PNG、GIF 等。這使您可以靈活地為您的特定用例選擇最合適的格式。

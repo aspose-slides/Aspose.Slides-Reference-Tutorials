@@ -77,4 +77,4 @@ Absolutamente! Aspose.Slides for .NET oferece várias opções para personalizar
 
 Você pode explorar tutoriais e exemplos adicionais no[Documentação da API Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
 
-Agora que você converteu com sucesso a visualização de slides do Notes para o formato PDF, você pode explorar mais recursos e capacidades do Aspose.Slides for .NET para aprimorar suas tarefas de automação do PowerPoint. Boa codificação!
+Agora que você converteu com êxito a visualização de slides do Notes para o formato PDF, você pode explorar mais recursos e capacidades do Aspose.Slides for .NET para aprimorar suas tarefas de automação do PowerPoint. Boa codificação!

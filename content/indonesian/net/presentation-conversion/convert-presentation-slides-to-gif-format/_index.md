@@ -110,7 +110,7 @@ class Program
 
 ## Kesimpulan
 
-Dalam artikel ini, kami menjelajahi cara mengonversi slide presentasi ke format GIF menggunakan Aspose.Slides untuk .NET. Kami membahas instalasi perpustakaan, memuat presentasi, menyesuaikan opsi GIF, dan menangani pengecualian. Dengan mengikuti panduan langkah demi langkah dan memanfaatkan cuplikan kode yang disediakan, Anda dapat dengan mudah mengintegrasikan fungsi ini ke dalam aplikasi Anda dan meningkatkan daya tarik visual presentasi Anda.
+Dalam artikel ini, kami mempelajari cara mengonversi slide presentasi ke format GIF menggunakan Aspose.Slides untuk .NET. Kami membahas instalasi perpustakaan, memuat presentasi, menyesuaikan opsi GIF, dan menangani pengecualian. Dengan mengikuti panduan langkah demi langkah dan memanfaatkan cuplikan kode yang disediakan, Anda dapat dengan mudah mengintegrasikan fungsi ini ke dalam aplikasi Anda dan meningkatkan daya tarik visual presentasi Anda.
 
 ## FAQ
 

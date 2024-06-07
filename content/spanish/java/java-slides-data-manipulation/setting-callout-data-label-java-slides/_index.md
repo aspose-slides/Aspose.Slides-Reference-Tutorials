@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Personalice el formato de la etiqueta (fuente, relleno, etc.)
+        //Personalice el formato de la etiqueta (fuente, relleno, etc.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### ¿Cómo puedo habilitar o deshabilitar llamadas para etiquetas de datos?
 
- Para habilitar o deshabilitar llamadas para etiquetas de datos, use el`setShowLabelAsDataCallout` método. Configúrelo en`true` para habilitar llamadas y`false` para desactivarlos.
+ Para habilitar o deshabilitar llamadas para etiquetas de datos, use el`setShowLabelAsDataCallout` método. Configúrelo en`true` para habilitar llamadas y`false`para desactivarlos.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Habilitar llamadas

@@ -74,7 +74,7 @@ Grattis! Du har framgångsrikt konverterat en fil i FODP-format till andra prese
 
 ### 3. Hur kan jag få en tillfällig licens för Aspose.Slides för .NET?
 
-Om du behöver en tillfällig licens kan du få en från[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
+ Om du behöver en tillfällig licens kan du få en från[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Vilka presentationsformat stöds för konvertering?
 

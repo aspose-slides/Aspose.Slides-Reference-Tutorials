@@ -117,7 +117,7 @@ Sì, Aspose.Slides ti consente di aggiungere collegamenti ipertestuali a vari og
 Assolutamente. Aspose.Slides supporta vari formati PowerPoint, inclusi PPT, PPTX, PPS e altri. Garantisce la compatibilità con diverse versioni di Microsoft PowerPoint.
 
 ### Dove posso trovare risorse aggiuntive e supporto per Aspose.Slides?
-Per documentazione approfondita e supporto della community, visitare il[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/) e il[Aspose forum di supporto](https://forum.aspose.com/).
+ Per documentazione approfondita e supporto della community, visitare il[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/) e il[Aspose forum di supporto](https://forum.aspose.com/).
 
 ### Come posso ottenere una licenza temporanea per Aspose.Slides?
  Se hai bisogno di una licenza temporanea per Aspose.Slides, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).

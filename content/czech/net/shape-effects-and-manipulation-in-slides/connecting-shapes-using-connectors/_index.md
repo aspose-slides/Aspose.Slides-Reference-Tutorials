@@ -12,7 +12,7 @@ V dynamickém světě prezentací přidává možnost spojovat tvary pomocí kon
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte následující:
 - Základní znalost C# a .NET frameworku.
--  Aspose.Slides pro .NET nainstalován. Pokud ne, stáhněte si ji[tady](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides pro .NET nainstalován. Pokud ne, stáhněte si jej[tady](https://releases.aspose.com/slides/net/).
 - Vytvořeno vývojové prostředí.
 ## Importovat jmenné prostory
 V kódu C# začněte importováním potřebných jmenných prostorů:

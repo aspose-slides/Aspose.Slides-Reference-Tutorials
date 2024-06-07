@@ -148,4 +148,4 @@ Du kan hantera händelser som utlöses av ActiveX-kontroller genom att prenumere
 
 ### Kan jag ta bort en ActiveX-kontroll från en bild?
 
- Ja, du kan ta bort en ActiveX-kontroll från en bild med hjälp av`Remove` metod för`Shapes` samling. Skicka referensen till`IOleObjectFrame` representerar kontrollen som ett argument till`Remove` metod och kontrollen tas bort från bilden.
+ Ja, du kan ta bort en ActiveX-kontroll från en bild med hjälp av`Remove` metod för`Shapes` samling. Skicka referensen till`IOleObjectFrame` representerar kontrollen som ett argument till`Remove` metoden och kontrollen tas bort från bilden.

@@ -131,7 +131,7 @@ finally
 
 ## Slutsats
 
-I den här omfattande handledningen har du lärt dig hur du förbättrar dina PowerPoint-presentationer genom att lägga till anpassade felstaplar till diagram med Aspose.Slides för Java. Felstaplar ger värdefulla insikter om datavariabilitet och osäkerhet, vilket gör dina diagram mer informativa och visuellt tilltalande.
+den här omfattande handledningen har du lärt dig hur du förbättrar dina PowerPoint-presentationer genom att lägga till anpassade felstaplar till diagram med Aspose.Slides för Java. Felstaplar ger värdefulla insikter om datavariabilitet och osäkerhet, vilket gör dina diagram mer informativa och visuellt tilltalande.
 
 ## FAQ's
 
@@ -149,4 +149,4 @@ Du kan gå igenom datapunkterna och ställa in anpassade felstapelvärden för v
 
 ### Är det möjligt att dölja felstaplar för specifika datapunkter?
 
- Ja, du kan kontrollera synligheten för felstaplar för enskilda datapunkter genom att ställa in`setVisible` egendom av`IErrorBarsFormat` objekt.
+Ja, du kan kontrollera synligheten för felstaplar för enskilda datapunkter genom att ställa in`setVisible` egendom av`IErrorBarsFormat` objekt.

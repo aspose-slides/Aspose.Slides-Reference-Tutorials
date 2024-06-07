@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## 4단계: OLE 개체 프레임 모양 추가
 ```csharp
-// OLE 개체 프레임 모양 추가
+//OLE 개체 프레임 모양 추가
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ A: 예, Aspose.Slides는 PPTX를 포함한 최신 PowerPoint 파일 형식을 �
 ### Q: 포함된 OLE 개체 프레임의 모양을 사용자 지정할 수 있습니까?
 A: 물론입니다. 원하는 대로 OLE 개체 프레임의 크기, 위치 및 기타 속성을 조정할 수 있습니다.
 ### Q: 구현 중에 문제가 발생하면 어디에서 도움을 요청할 수 있습니까?
- 답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회의 지원과 지도를 위해.
+답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회의 지원과 지도를 위해.

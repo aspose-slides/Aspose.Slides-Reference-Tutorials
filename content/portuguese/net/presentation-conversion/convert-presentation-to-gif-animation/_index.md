@@ -45,7 +45,7 @@ Nesta seção, definimos os caminhos dos arquivos para a apresentação de entra
 ### 4.2. Salve a apresentação como GIF
 
 ```csharp
-// Salve a apresentação em GIF
+// Salve a apresentação em Gif
 presentation.Save(outPath, SaveFormat.Gif, new GifOptions
 {
     FrameSize = new Size(540, 480), // o tamanho do GIF resultante

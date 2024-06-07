@@ -94,11 +94,11 @@ finally
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ Java؟
 
- يمكنك تنزيل Aspose.Slides لـ Java من[هنا](https://releases.aspose.com/slides/java/)واتبع تعليمات التثبيت المتوفرة في الوثائق.
+ يمكنك تنزيل Aspose.Slides لـ Java من[هنا](https://releases.aspose.com/slides/java/) واتبع تعليمات التثبيت المتوفرة في الوثائق.
 
 ### هل يمكنني تحويل عروض PowerPoint التقديمية إلى تنسيقات أخرى أيضًا؟
 
-نعم، يدعم Aspose.Slides for Java مجموعة واسعة من تنسيقات الإخراج، بما في ذلك تنسيقات PDF وHTML وتنسيقات الصور مثل TIFF وPNG.
+نعم، يدعم Aspose.Slides for Java نطاقًا واسعًا من تنسيقات الإخراج، بما في ذلك تنسيقات PDF وHTML وتنسيقات الصور مثل TIFF وPNG.
 
 ### ماذا لو لم يكن عرض PowerPoint التقديمي الخاص بي يحتوي على ملاحظات؟
 

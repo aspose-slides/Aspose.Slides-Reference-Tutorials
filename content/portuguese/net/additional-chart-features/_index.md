@@ -18,7 +18,7 @@ Aspose.Slides for .NET oferece uma variedade de recursos gráficos adicionais qu
 
 - Vinculação dinâmica de dados: aprenda como vincular gráficos a fontes de dados dinâmicas, garantindo que seus gráficos reflitam informações em tempo real de maneira integrada.
 - Elementos interativos: mergulhe na interatividade adicionando elementos interativos aos seus gráficos, como dicas de ferramentas e rótulos de dados, aumentando o envolvimento do usuário.
-- Estilo personalizado: descubra técnicas para personalizar estilos de gráfico, cores, fontes e outros atributos visuais para combinar com a estética da sua apresentação.
+- Estilo personalizado: descubra técnicas para personalizar estilos de gráficos, cores, fontes e outros atributos visuais para combinar com a estética da sua apresentação.
 - Linhas de tendência e barras de erro: entenda como incorporar linhas de tendência e barras de erro em seus gráficos, fornecendo insights mais profundos sobre tendências e variabilidade dos dados.
 - Vários eixos: explore a flexibilidade de vários eixos em gráficos, permitindo exibir diferentes séries de dados com escalas variadas em um único gráfico.
 - Modelos de gráficos: aprenda como criar e aplicar modelos de gráficos, agilizando o processo de padronização de gráficos em apresentações.
@@ -29,6 +29,6 @@ Explore recursos gráficos avançados em Aspose.Slides for .NET. Aprimore as apr
 ### [Obter intervalo de dados do gráfico](./chart-get-range/)
 Aprenda como extrair dados de gráficos com eficiência usando Aspose.Slides for .NET. Guia passo a passo com exemplos de código e perguntas frequentes.
 ### [Recuperar pasta de trabalho do gráfico](./chart-recover-workbook/)
-Aprenda como recuperar uma pasta de trabalho de um gráfico usando Aspose.Slides for .NET. Extraia dados de gráficos e crie pastas de trabalho do Excel de forma programática.
+Aprenda como recuperar uma pasta de trabalho de um gráfico usando Aspose.Slides for .NET. Extraia dados de gráficos e crie pastas de trabalho do Excel de maneira programática.
 ### [Limpar pontos de dados específicos da série de gráficos](./clear-specific-chart-series-data-points-data/)
 Aprenda como limpar pontos de dados específicos do gráfico em Aspose.Slides for .NET. Guia passo a passo com código-fonte incluído.

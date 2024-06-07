@@ -44,7 +44,7 @@ printerSettings.DefaultPageSettings.Margins.Left = 10;
 ```csharp
 presentation.Print(printerSettings, "Please set your printer name here");
 ```
-Ricordarsi di sostituire "Directory dei documenti" e "Imposta qui il nome della stampante" rispettivamente con il percorso della directory dei documenti e il nome della stampante effettivi.
+Ricordati di sostituire "Directory dei documenti" e "Imposta qui il nome della stampante" rispettivamente con il percorso della directory dei documenti e il nome della stampante effettivi.
 Ora analizziamo ogni passaggio per capire cosa sta succedendo.
 ## Conclusione
 La stampa di diapositive di presentazione a livello di codice con Aspose.Slides per .NET è un processo semplice. Seguendo questi passaggi è possibile integrare perfettamente questa funzionalità nelle applicazioni .NET.
@@ -56,6 +56,6 @@ R: Sì, puoi ottenerlo modificando il codice per stampare selettivamente diaposi
 ### D: Dove posso trovare ulteriore supporto o porre domande su Aspose.Slides?
  R: Visita Aspose.Slides[Forum di assistenza](https://forum.aspose.com/c/slides/11) per assistenza.
 ### D: Posso provare Aspose.Slides gratuitamente prima dell'acquisto?
-R: Assolutamente! È possibile scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).
+ R: Assolutamente! È possibile scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).
 ### D: Come posso acquistare Aspose.Slides per .NET?
  R: Puoi acquistare la libreria[Qui](https://purchase.aspose.com/buy).

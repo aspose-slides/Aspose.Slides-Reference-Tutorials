@@ -96,7 +96,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 ## 4단계: 프레젠테이션 저장
 
 ```csharp
-//프리젠테이션 파일을 디스크에 쓰기
+// 프리젠테이션 파일을 디스크에 쓰기
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -105,7 +105,7 @@ presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.P
 
 ## 결론
 
-차트의 범주 요소에 애니메이션을 적용하면 프레젠테이션의 시각적 매력을 향상시킬 수 있습니다. .NET용 Aspose.Slides를 사용하면 이 프로세스가 간단하고 효율적이 됩니다. 네임스페이스를 가져오고, 프레젠테이션을 로드하고, 전체 차트와 개별 요소에 애니메이션을 추가하는 방법을 배웠습니다. .NET용 Aspose.Slides를 사용하여 창의력을 발휘하고 프레젠테이션을 더욱 매력적으로 만드세요.
+차트의 범주 요소에 애니메이션을 적용하면 프레젠테이션의 시각적 매력을 향상시킬 수 있습니다. .NET용 Aspose.Slides를 사용하면 이 프로세스가 간단하고 효율적이 됩니다. 네임스페이스를 가져오고, 프레젠테이션을 로드하고, 전체 차트와 개별 요소에 애니메이션을 추가하는 방법을 배웠습니다. .NET용 Aspose.Slides를 사용하여 창의성을 발휘하고 프레젠테이션을 더욱 매력적으로 만드세요.
 
 ## 자주 묻는 질문
 

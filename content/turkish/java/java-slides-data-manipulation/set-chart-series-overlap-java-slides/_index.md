@@ -76,7 +76,7 @@ try
 		// Seri çakışmasını ayarlama
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//Sunum dosyasını diske yazın
+	// Sunum dosyasını diske yazın
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

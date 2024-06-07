@@ -18,7 +18,7 @@ url: /el/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 
  Βεβαιωθείτε ότι έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.Slides for .NET. Μπορείτε να το κατεβάσετε από το[Aspose.Slides για τεκμηρίωση .NET](https://reference.aspose.com/slides/net/) ή χρησιμοποιήστε το NuGet Package Manager στο Visual Studio.
 
-### 2. .NET Αναπτυξιακό Περιβάλλον
+### 2. Περιβάλλον Ανάπτυξης .NET
 
 Θα πρέπει να έχετε ένα λειτουργικό περιβάλλον ανάπτυξης .NET, συμπεριλαμβανομένου του Visual Studio, εγκατεστημένο στο σύστημά σας.
 

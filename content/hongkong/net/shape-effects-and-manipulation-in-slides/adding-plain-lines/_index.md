@@ -1,6 +1,6 @@
 ---
-title: 使用 Aspose.Slides 新增普通線條到簡報投影片
-linktitle: 使用 Aspose.Slides 新增普通線條到簡報投影片
+title: 使用 Aspose.Slides 將普通線條加入簡報投影片
+linktitle: 使用 Aspose.Slides 將普通線條加入簡報投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides 增強 .NET 中的 PowerPoint 簡報。按照我們的逐步指南輕鬆添加簡單線條。
 type: docs

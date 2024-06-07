@@ -1,6 +1,6 @@
 ---
-title: Kopírovat snímek do nové prezentace s hlavním snímkem
-linktitle: Kopírovat snímek do nové prezentace s hlavním snímkem
+title: Zkopírujte snímek do nové prezentace s hlavním snímkem
+linktitle: Zkopírujte snímek do nové prezentace s hlavním snímkem
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se kopírovat snímky s hlavními snímky pomocí Aspose.Slides for .NET. Zlepšete své prezentační dovednosti pomocí tohoto podrobného průvodce.
 type: docs
@@ -47,7 +47,7 @@ using (Presentation srcPres = new Presentation(dataDir + "YourSourcePresentation
 }
 ```
 
- V tomto kroku použijeme`Presentation` třídy a otevřete zdrojovou prezentaci.
+ V tomto kroku použijeme`Presentation` třídy otevřít zdrojovou prezentaci.
 
 ## Krok 3: Vytvořte prezentaci cíle
 

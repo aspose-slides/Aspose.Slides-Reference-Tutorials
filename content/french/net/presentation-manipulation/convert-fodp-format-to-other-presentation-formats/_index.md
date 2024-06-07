@@ -74,7 +74,7 @@ Toutes nos félicitations! Vous avez converti avec succès un fichier au format 
 
 ### 3. Comment puis-je obtenir une licence temporaire pour Aspose.Slides pour .NET ?
 
-Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+ Si vous avez besoin d'un permis temporaire, vous pouvez en obtenir un auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Quels formats de présentation sont pris en charge pour la conversion ?
 

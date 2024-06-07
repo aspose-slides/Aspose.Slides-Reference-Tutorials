@@ -20,7 +20,7 @@ Innan vi dyker in i detaljerna för att extrahera ljud och video från PowerPoin
 
 1. Visual Studio: Se till att du har Visual Studio installerat på din maskin för .NET-utveckling.
 
-2.  Aspose.Slides för .NET: Ladda ner och installera Aspose.Slides för .NET. Du hittar biblioteket och dokumentationen på[Aspose.Slides för .NET webbplats](https://releases.aspose.com/slides/net/).
+2.  Aspose.Slides för .NET: Ladda ner och installera Aspose.Slides för .NET. Du hittar biblioteket och dokumentationen på[Aspose.Slides för .NET-webbplats](https://releases.aspose.com/slides/net/).
 
 3. En PowerPoint-presentation: Förbered en PowerPoint-presentation som innehåller ljud- och videoelement för att öva extraktion.
 

@@ -2,60 +2,60 @@
 title: Java スライドの円グラフ
 linktitle: Java スライドの円グラフ
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで美しい円グラフを作成する方法を学びます。 Java 開発者向けのソース コードを含むステップバイステップ ガイド。
+description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで魅力的な円グラフを作成する方法を学びます。Java 開発者向けのソース コード付きのステップバイステップ ガイドです。
 type: docs
 weight: 23
 url: /ja/java/chart-data-manipulation/pie-chart-java-slides/
 ---
 
-## Aspose.Slides を使用した Java Slides での円グラフの作成の概要
+## Aspose.Slides を使用して Java スライドで円グラフを作成する方法の紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションで円グラフを作成する方法を説明します。開始に役立つ段階的な手順と Java ソース コードを提供します。このガイドは、Aspose.Slides for Java を使用して開発環境がすでにセットアップされていることを前提としています。
+このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションで円グラフを作成する方法を説明します。作業を開始できるように、ステップバイステップの手順と Java ソース コードを提供します。このガイドでは、Aspose.Slides for Java を使用して開発環境を既にセットアップしていることを前提としています。
 
 ## 前提条件
 
-始める前に、Aspose.Slides for Java ライブラリがプロジェクトにインストールされ、構成されていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/slides/java/).
+始める前に、Aspose.Slides for Javaライブラリがプロジェクトにインストールされ、設定されていることを確認してください。ダウンロードはここから行えます。[ここ](https://releases.aspose.com/slides/java/).
 
-## ステップ 1: 必要なライブラリをインポートする
+## ステップ1: 必要なライブラリをインポートする
 
 ```java
 import com.aspose.slides.*;
 import com.aspose.slides.charts.*;
 ```
 
-必要なクラスを Aspose.Slides ライブラリからインポートしてください。
+Aspose.Slides ライブラリから必要なクラスを必ずインポートしてください。
 
-## ステップ 2: プレゼンテーションを初期化する
+## ステップ2: プレゼンテーションを初期化する
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 
-// PPTX ファイルを表すプレゼンテーション クラスをインスタンス化します。
+// PPTXファイルを表すプレゼンテーションクラスをインスタンス化する
 Presentation presentation = new Presentation();
 ```
 
- PowerPoint ファイルを表す新しいプレゼンテーション オブジェクトを作成します。交換する`"Your Document Directory"`プレゼンテーションを保存する実際のパスに置き換えます。
+ PowerPointファイルを表す新しいプレゼンテーションオブジェクトを作成します。`"Your Document Directory"`プレゼンテーションを保存する実際のパスを入力します。
 
-## ステップ 3: スライドを追加する
+## ステップ3: スライドを追加する
 
 ```java
-//最初のスライドにアクセスする
+//最初のスライドにアクセス
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
 円グラフを追加するプレゼンテーションの最初のスライドを取得します。
 
-## ステップ 4: 円グラフを追加する
+## ステップ4: 円グラフを追加する
 
 ```java
-//デフォルトのデータを含む円グラフを追加する
+//デフォルトデータで円グラフを追加する
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
-指定した位置とサイズで円グラフをスライドに追加します。
+指定した位置とサイズでスライドに円グラフを追加します。
 
-## ステップ 5: グラフのタイトルを設定する
+## ステップ5: グラフのタイトルを設定する
 
 ```java
 //グラフのタイトルを設定する
@@ -67,10 +67,10 @@ chart.setTitle(true);
 
 円グラフのタイトルを設定します。必要に応じてタイトルをカスタマイズできます。
 
-## ステップ 6: グラフ データをカスタマイズする
+## ステップ6: グラフデータをカスタマイズする
 
 ```java
-//最初の系列を値を表示するように設定します
+//最初のシリーズに値を表示するように設定する
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 //チャートデータシートのインデックスの設定
@@ -83,7 +83,7 @@ IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 
-//新しいカテゴリの追加
+//新しいカテゴリーの追加
 chart.getChartData().getCategories().add(workbook.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(workbook.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(workbook.getCell(0, 3, 0, "3rd Qtr"));
@@ -97,31 +97,31 @@ series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForPieSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 30));
 ```
 
-カテゴリと系列を追加し、それらの値を設定して、グラフ データをカスタマイズします。この例には、3 つのカテゴリと、対応するデータ ポイントを持つ 1 つのシリーズがあります。
+カテゴリとシリーズを追加し、その値を設定して、グラフ データをカスタマイズします。この例では、3 つのカテゴリと、対応するデータ ポイントを持つ 1 つのシリーズがあります。
 
-## ステップ 7: 円グラフのセクターをカスタマイズする
+## ステップ7: 円グラフのセクターをカスタマイズする
 
 ```java
-//セクターの色の設定
+//セクターの色を設定する
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
 //各セクターの外観をカスタマイズする
 IChartDataPoint point1 = series.getDataPoints().get_Item(0);
 point1.getFormat().getFill().setFillType(FillType.Solid);
 point1.getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.Cyan));
-//セクターの境界線をカスタマイズする
+//セクター境界をカスタマイズする
 point1.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 point1.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GRAY);
 point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//同様の方法で他のセクターをカスタマイズする
+//他のセクターも同様にカスタマイズする
 ```
 
 円グラフの各セクターの外観をカスタマイズします。色、境界線のスタイル、その他の視覚的なプロパティを変更できます。
 
-## ステップ 8: データラベルをカスタマイズする
+## ステップ8: データラベルをカスタマイズする
 
 ```java
 //データラベルをカスタマイズする
@@ -131,52 +131,52 @@ lbl1.getDataLabelFormat().setShowValue(true);
 //同様の方法で他のデータポイントのデータラベルをカスタマイズします
 ```
 
-円グラフの各データ ポイントのデータ ラベルをカスタマイズします。グラフに表示する値を制御できます。
+円グラフの各データ ポイントのデータ ラベルをカスタマイズします。グラフに表示される値を制御できます。
 
-## ステップ 9: 引き出し線を表示する
+## ステップ9: 引き出し線を表示する
 
 ```java
-//チャートの引き出し線を表示する
+//グラフの引き出し線を表示する
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 ```
 
-引き出し線を有効にして、データ ラベルを対応するセクターに接続します。
+リーダー ラインを有効にして、データ ラベルを対応するセクターに接続します。
 
-## ステップ 10: 円グラフの回転角度を設定する
+## ステップ10: 円グラフの回転角度を設定する
 
 ```java
-//円グラフのセクターの回転角度を設定する
+//円グラフセクターの回転角度を設定する
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
 ```
 
-円グラフのセクターの回転角度を設定します。この例では、180 度に設定します。
+円グラフセクターの回転角度を設定します。この例では、180 度に設定しています。
 
-## ステップ 11: プレゼンテーションを保存する
+## ステップ11: プレゼンテーションを保存する
 
 ```java
-//円グラフを含むプレゼンテーションを保存する
+//円グラフ付きのプレゼンテーションを保存する
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-円グラフを含むプレゼンテーションを指定したディレクトリに保存します。
+円グラフを含むプレゼンテーションを指定されたディレクトリに保存します。
 
 ## Java スライドの円グラフの完全なソース コード
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-// PPTX ファイルを表すプレゼンテーション クラスをインスタンス化します。
+// PPTXファイルを表すプレゼンテーションクラスをインスタンス化する
 Presentation presentation = new Presentation();
-//最初のスライドにアクセスする
+//最初のスライドにアクセス
 ISlide slides = presentation.getSlides().get_Item(0);
-//デフォルトのデータを含むグラフを追加する
+//デフォルトデータでグラフを追加
 IChart chart = slides.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
-//設定表タイトル
+//設定チャートタイトル
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-//最初のシリーズを「値を表示」に設定します
+//最初のシリーズを値を表示に設定
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 //チャートデータシートのインデックスの設定
 int defaultWorksheetIndex = 0;
@@ -185,13 +185,13 @@ IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 //デフォルトで生成されたシリーズとカテゴリを削除する
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
-//新しいカテゴリの追加
+//新しいカテゴリーの追加
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 //新しいシリーズの追加
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//シリーズデータを入力中です
+//シリーズデータを入力中
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -226,7 +226,7 @@ point2.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 point2.getFormat().getLine().setWidth(2.0);
 point2.getFormat().getLine().setStyle(LineStyle.ThinThin);
 point2.getFormat().getLine().setDashStyle(LineDashStyle.LargeDashDotDot);
-//新しいシリーズのカテゴリごとにカスタム ラベルを作成する
+//新しいシリーズの各カテゴリにカスタムラベルを作成する
 IDataLabel lbl1 = series.getDataPoints().get_Item(0).getLabel();
 //lbl.setShowCategoryName(true);
 lbl1.getDataLabelFormat().setShowValue(true);
@@ -237,49 +237,49 @@ lbl2.getDataLabelFormat().setShowPercentage(true);
 IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
-//チャートの引き出し線の表示
+//チャートの引き出し線を表示する
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
-//円グラフのセクターの回転角度の設定
+//円グラフセクターの回転角度の設定
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
-//プレゼンテーションをグラフとともに保存する
+//グラフ付きのプレゼンテーションを保存する
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
 ## 結論
 
-Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで円グラフを作成することに成功しました。特定の要件に応じて、グラフの外観とデータ ラベルをカスタマイズできます。このチュートリアルでは基本的な例を提供しますが、必要に応じてグラフをさらに拡張およびカスタマイズできます。
+Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションに円グラフを作成しました。グラフの外観とデータ ラベルは、特定の要件に応じてカスタマイズできます。このチュートリアルでは基本的な例を示しますが、必要に応じてグラフをさらに強化およびカスタマイズできます。
 
 ## よくある質問
 
-### 円グラフの個々のセクターの色を変更するにはどうすればよいですか?
+### 円グラフ内の個々のセクターの色を変更するにはどうすればよいですか?
 
-円グラフの個々のセクターの色を変更するには、各データ ポイントの塗りつぶしの色をカスタマイズできます。提供されたコード例では、`getSolidFillColor().setColor()`方法。希望の外観を実現するために色の値を変更できます。
+円グラフの各セクターの色を変更するには、各データポイントの塗りつぶし色をカスタマイズします。提供されているコード例では、`getSolidFillColor().setColor()`方法。色の値を変更して、希望する外観を実現できます。
 
 ### 円グラフにさらにカテゴリやデータ系列を追加できますか?
 
-はい、円グラフにカテゴリやデータ系列を追加できます。これを行うには、`getChartData().getCategories().add()`そして`getChartData().getSeries().add()`例に示すように、メソッド。新しいカテゴリとシリーズに適切なデータとラベルを指定するだけで、グラフを拡張できます。
+はい、円グラフにカテゴリやデータ系列を追加することができます。これを行うには、`getChartData().getCategories().add()`そして`getChartData().getSeries().add()`例に示すように、新しいカテゴリとシリーズに適切なデータとラベルを指定するだけで、グラフを拡張できます。
 
-### データラベルの外観をカスタマイズするにはどうすればよいですか?
+### データ ラベルの外観をカスタマイズするにはどうすればよいですか?
 
-データラベルの外観をカスタマイズするには、`getDataLabelFormat()`各データポイントのラベルのメソッド。この例では、次を使用してデータ ラベルの値を表示する方法を示しました。`getDataLabelFormat().setShowValue(true)`。表示する値を制御したり、凡例キーを表示したり、その他の書式設定オプションを調整したりすることで、データ ラベルをさらにカスタマイズできます。
+データラベルの外観をカスタマイズするには、`getDataLabelFormat()`各データポイントのラベルにメソッドを適用します。例では、データラベルに値を表示する方法を示しました。`getDataLabelFormat().setShowValue(true)`表示される値を制御したり、凡例キーを表示したり、その他の書式設定オプションを調整したりすることで、データ ラベルをさらにカスタマイズできます。
 
 ### 円グラフのタイトルを変更できますか?
 
-はい、円グラフのタイトルを変更できます。提供されたコードでは、次を使用してグラフのタイトルを設定します。`chart.getChartTitle().addTextFrameForOverriding("Sample Title")` 。交換できます`"Sample Title"`希望のタイトルテキストを付けます。
+はい、円グラフのタイトルは変更できます。提供されているコードでは、グラフのタイトルを次のように設定しています。`chart.getChartTitle().addTextFrameForOverriding("Sample Title")`置き換えることができます`"Sample Title"`希望するタイトルテキストを入力します。
 
 ### 円グラフを含む生成されたプレゼンテーションを保存するにはどうすればよいですか?
 
-円グラフを含むプレゼンテーションを保存するには、`presentation.save()`方法。プレゼンテーションを保存する形式とともに、目的のファイル パスと名前を指定します。例えば：
+円グラフ付きのプレゼンテーションを保存するには、`presentation.save()`方法。プレゼンテーションを保存する形式とともに、希望のファイル パスと名前を指定します。例:
 ```java
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-必ず正しいファイル パスと形式を指定してください。
+正しいファイル パスと形式を指定してください。
 
-### Aspose.Slides for Java を使用して他のタイプのグラフを作成できますか?
+### Aspose.Slides for Java を使用して他の種類のグラフを作成できますか?
 
-はい、Aspose.Slides for Java は、棒グラフ、折れ線グラフなど、さまざまな種類のグラフをサポートしています。を変更することで、さまざまなタイプのグラフを作成できます。`ChartType`グラフを追加するとき。さまざまなタイプのグラフの作成の詳細については、Aspose.Slides のドキュメントを参照してください。
+はい、Aspose.Slides for Javaは、棒グラフ、折れ線グラフなど、さまざまなグラフタイプをサポートしています。`ChartType`グラフを追加するとき。さまざまな種類のグラフを作成する方法の詳細については、Aspose.Slides のドキュメントを参照してください。
 
-### Aspose.Slides for Java を使用するための詳細情報と例を見つけるにはどうすればよいですか?
+### Aspose.Slides for Java の操作に関する詳細情報や例はどこで見つけることができますか?
 
-詳細、詳細なドキュメント、追加の例については、次のサイトを参照してください。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)。ライブラリを効果的に使用するための包括的なリソースを提供します。
+詳細情報、詳細なドキュメント、追加の例については、[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)ライブラリを効果的に使用するための包括的なリソースを提供します。

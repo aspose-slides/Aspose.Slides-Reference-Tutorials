@@ -92,7 +92,7 @@ finally
 
 ## 結論
 
-在這份綜合指南中，您了解如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 PDF，同時保留隱藏的投影片。我們為您提供了逐步教學以及無縫完成此任務所需的原始程式碼。
+在本綜合指南中，您了解如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 PDF，同時保留隱藏的投影片。我們為您提供了逐步教學以及無縫完成此任務所需的原始程式碼。
 
 ## 常見問題解答
 

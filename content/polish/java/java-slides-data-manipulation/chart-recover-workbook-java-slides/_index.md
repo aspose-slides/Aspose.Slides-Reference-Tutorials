@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    //Wykonaj tutaj operacje na danych skoroszytu
+    // Wykonaj tutaj operacje na danych skoroszytu
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -86,7 +86,7 @@ finally
 
 ## Wniosek
 
-W tym przewodniku omówiliśmy proces odzyskiwania skoroszytu z wykresu w Java Slides przy użyciu Aspose.Slides dla Java. Ta biblioteka upraszcza zadanie, ułatwiając programistom programową pracę z prezentacjami programu PowerPoint. Teraz możesz bez obaw obsługiwać prezentacje oparte na danych i w razie potrzeby wyodrębniać informacje ze skoroszytu.
+tym przewodniku omówiliśmy proces odzyskiwania skoroszytu z wykresu w Java Slides przy użyciu Aspose.Slides dla Java. Ta biblioteka upraszcza zadanie, ułatwiając programistom programową pracę z prezentacjami programu PowerPoint. Teraz możesz bez obaw obsługiwać prezentacje oparte na danych i w razie potrzeby wyodrębniać informacje ze skoroszytu.
 
 ## Często zadawane pytania
 

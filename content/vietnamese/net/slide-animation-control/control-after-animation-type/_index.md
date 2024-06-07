@@ -2,7 +2,7 @@
 title: Làm chủ các hiệu ứng sau hoạt ảnh trong PowerPoint với Aspose.Slides
 linktitle: Kiểm soát sau khi nhập hoạt ảnh vào slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
-description: Tìm hiểu cách kiểm soát hiệu ứng sau hoạt ảnh trong trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Nâng cao bài thuyết trình của bạn với các yếu tố hình ảnh động.
+description: Tìm hiểu cách kiểm soát hiệu ứng sau hoạt ảnh trong trang chiếu PowerPoint bằng Aspose.Slides for .NET. Nâng cao bài thuyết trình của bạn với các yếu tố hình ảnh động.
 type: docs
 weight: 11
 url: /vi/net/slide-animation-control/control-after-animation-type/

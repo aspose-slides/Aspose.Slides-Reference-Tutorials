@@ -52,7 +52,7 @@ Tento řádek kódu dává Java Slides pokyn k zobrazení ovládacích prvků m�
 
 ## Krok 4: Přidání médií do snímků
 
-Nyní do našich snímků přidáme média. Pomocí rozsáhlých funkcí Java Slides můžete do snímků přidávat audio nebo video soubory.
+Nyní přidejte média do našich snímků. Pomocí rozsáhlých funkcí Java Slides můžete do snímků přidávat audio nebo video soubory.
 
 Přizpůsobte přehrávání médií
 Přehrávání médií můžete dále přizpůsobit, například nastavení času začátku a konce, hlasitosti a dalších, a vytvořit tak multimediální zážitek přizpůsobený vašemu publiku.

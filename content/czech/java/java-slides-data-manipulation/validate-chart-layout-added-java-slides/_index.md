@@ -14,7 +14,7 @@ V tomto tutoriálu prozkoumáme, jak ověřit rozložení grafu v prezentaci Pow
 
 ## Krok 1: Inicializace prezentace
 
-Nejprve musíme inicializovat objekt prezentace a načíst existující prezentaci v PowerPointu. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace (`test.pptx` v tomto příkladu).
+ Nejprve musíme inicializovat objekt prezentace a načíst existující prezentaci v PowerPointu. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace (`test.pptx` v tomto příkladu).
 
 ```java
 // Cesta k adresáři dokumentů.
@@ -88,7 +88,7 @@ V tomto tutoriálu jsme se ponořili do světa práce s grafy v prezentacích Po
 
 ### Jak změním typ grafu?
 
- Chcete-li změnit typ grafu, jednoduše jej nahraďte`ChartType.ClusteredColumn` s požadovaným typem grafu v`addChart()` metoda.
+ Chcete-li změnit typ grafu, jednoduše jej nahraďte`ChartType.ClusteredColumn` požadovaným typem grafu v`addChart()` metoda.
 
 ### Mohu přizpůsobit data grafu?
 

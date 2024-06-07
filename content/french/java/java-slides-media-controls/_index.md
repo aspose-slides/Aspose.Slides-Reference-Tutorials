@@ -16,7 +16,7 @@ url: /fr/java/media-controls/
 
 Avant d'entrer dans les détails techniques, comprenons ce que sont les contrôles multimédias et pourquoi ils sont importants. Les contrôles multimédias font référence aux éléments interactifs d'une présentation qui vous permettent de lire des fichiers audio et vidéo. Ces commandes vous donnent le pouvoir de créer des présentations multimédia attrayantes qui laissent une impression durable à votre public.
 
-Imaginez un scénario dans lequel vous présentez un argumentaire de vente et souhaitez présenter une vidéo de démonstration de produit dans votre présentation. Avec les commandes multimédias, vous pouvez intégrer la vidéo de manière transparente, la lire au bon moment et même contrôler les options de lecture telles que la pause, la lecture et le volume. Ce niveau d'interactivité élève votre présentation à un tout autre niveau.
+Imaginez un scénario dans lequel vous présentez un argumentaire de vente et souhaitez présenter une vidéo de démonstration de produit dans votre présentation. Avec les commandes multimédias, vous pouvez intégrer de manière transparente la vidéo, la lire au bon moment et même contrôler les options de lecture telles que la pause, la lecture et le volume. Ce niveau d'interactivité élève votre présentation à un tout autre niveau.
 
 ## Aspose.Slides pour Java : votre clé pour maîtriser le contrôle des médias
 

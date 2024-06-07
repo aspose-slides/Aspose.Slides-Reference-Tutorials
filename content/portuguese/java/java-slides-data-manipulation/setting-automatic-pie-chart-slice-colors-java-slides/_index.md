@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Configurando o índice da planilha de dados do gráfico
 	int defaultWorksheetIndex = 0;
-	//Obtendo a planilha de dados do gráfico
+	// Obtendo a planilha de dados do gráfico
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Excluir séries e categorias geradas padrão
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Adicionando nova série
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Agora preenchendo dados de série
+	//Agora preenchendo dados de série
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Você criou com sucesso um gráfico de pizza em uma apresentação do PowerPoint
 
 ### Como posso personalizar as cores de fatias individuais no gráfico de pizza?
 
- Para personalizar as cores de fatias individuais no gráfico de pizza, você pode usar o`getAutomaticSeriesColors`método para recuperar o esquema de cores padrão e, em seguida, modificar as cores conforme necessário. Aqui está um exemplo:
+ Para personalizar as cores de fatias individuais no gráfico de pizza, você pode usar o`getAutomaticSeriesColors` método para recuperar o esquema de cores padrão e, em seguida, modificar as cores conforme necessário. Aqui está um exemplo:
 
 ```java
-// Obtenha o esquema de cores padrão
+//Obtenha o esquema de cores padrão
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Modifique as cores conforme necessário

@@ -8,7 +8,7 @@ weight: 13
 url: /cs/net/hyperlink-manipulation/macro-hyperlink/
 ---
 
-Ve světě moderního vývoje softwaru je klíčovým aspektem vytváření dynamických a interaktivních prezentací. Aspose.Slides for .NET je výkonná knihovna, která vám umožní bezproblémově pracovat s prezentacemi. Ať už vytváříte obchodní prezentaci nebo vzdělávací slideshow, možnost nastavit makro kliknutí na hypertextový odkaz může výrazně zlepšit uživatelský zážitek. V tomto podrobném průvodci vás provedeme procesem nastavení kliknutí na makro hypertextový odkaz pomocí Aspose.Slides pro .NET. 
+Ve světě moderního vývoje softwaru je klíčovým aspektem vytváření dynamických a interaktivních prezentací. Aspose.Slides for .NET je výkonná knihovna, která vám umožní bezproblémově pracovat s prezentacemi. Ať už vytváříte obchodní prezentaci nebo vzdělávací prezentaci, možnost nastavit kliknutí na makro hypertextový odkaz může výrazně zlepšit uživatelský zážitek. V tomto podrobném průvodci vás provedeme procesem nastavení kliknutí na makro hypertextový odkaz pomocí Aspose.Slides pro .NET. 
 
 ## Předpoklady
 
@@ -60,7 +60,7 @@ IAutoShape shape = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.BlankBut
 
 Zde vytvoříme automatický tvar s typem "Prázdné tlačítko" na konkrétních souřadnicích (20, 20) a o rozměrech 80x30. Tyto hodnoty můžete přizpůsobit tak, aby vyhovovaly rozvržení vaší prezentace.
 
-### Krok 4: Klepněte na hypertextový odkaz na makro
+### Krok 4: Nastavení kliknutí na makro hypertextový odkaz
 
 Nyní přichází část, kde nastavíte kliknutí na makro hypertextový odkaz. Jako parametr budete muset zadat název makra.
 

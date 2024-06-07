@@ -47,7 +47,7 @@ Agora, preencheremos o gráfico com dados. Começaremos excluindo as séries e c
 ```java
 // Configurando o índice da planilha de dados do gráfico
 int defaultWorksheetIndex = 0;
-//Obtendo a planilha de dados do gráfico
+// Obtendo a planilha de dados do gráfico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Excluir séries e categorias geradas padrão
 chart.getChartData().getSeries().clear();
@@ -70,14 +70,14 @@ Preenchemos os dados da série para a Série 1 e a Série 2.
 ```java
 // Veja a primeira série de gráficos
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Agora preenchendo dados de série
+//Agora preenchendo dados de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Veja a segunda série de gráficos
 series = chart.getChartData().getSeries().get_Item(1);
-// Agora preenchendo dados de série
+//Agora preenchendo dados de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Configurando o índice da planilha de dados do gráfico
 	int defaultWorksheetIndex = 0;
-	//Obtendo a planilha de dados do gráfico
+	// Obtendo a planilha de dados do gráfico
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Excluir séries e categorias geradas padrão
 	chart.getChartData().getSeries().clear();
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Veja a primeira série de gráficos
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// Agora preenchendo dados de série
+	//Agora preenchendo dados de série
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Veja a segunda série de gráficos
 	series = chart.getChartData().getSeries().get_Item(1);
-	// Agora preenchendo dados de série
+	//Agora preenchendo dados de série
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// Definir cor de preenchimento para séries
+	//Definir cor de preenchimento para séries
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Salvar apresentação com gráfico
@@ -181,7 +181,7 @@ Este código permitirá que a biblioteca escolha as cores automaticamente para a
 
 ### Como posso adicionar séries ou categorias adicionais ao gráfico?
 
- Para adicionar séries ou categorias adicionais ao gráfico, use o`getSeries()` e`getCategories()` métodos do gráfico`ChartData` objeto. Você pode adicionar novas séries e categorias especificando seus dados e rótulos.
+Para adicionar séries ou categorias adicionais ao gráfico, use o`getSeries()` e`getCategories()` métodos do gráfico`ChartData` objeto. Você pode adicionar novas séries e categorias especificando seus dados e rótulos.
 
 ### É possível formatar ainda mais o gráfico e os rótulos?
 

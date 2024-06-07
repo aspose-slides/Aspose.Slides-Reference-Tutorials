@@ -67,6 +67,6 @@ A: Ja, Aspose.Slides voor .NET is compatibel met zowel Windows- als Linux-omgevi
 ### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.Slides voor .NET?
  A: Ja, u kunt de functies verkennen met de[gratis proefperiode](https://releases.aspose.com/) beschikbaar op de Aspose.Slides-website.
 ### Vraag: Waar kan ik ondersteuning vinden of vragen stellen met betrekking tot Aspose.Slides voor .NET?
- A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om steun te krijgen en betrokken te raken bij de gemeenschap.
+A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om steun te krijgen en betrokken te raken bij de gemeenschap.
 ### Vraag: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Slides voor .NET?
  A: U kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.

@@ -26,7 +26,7 @@ url: /th/java/animation-and-layout/animating-series-java-slides/
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
-//สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์การนำเสนอ
+// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์การนำเสนอ
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
-//สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์การนำเสนอ
+// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึงไฟล์การนำเสนอ
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ finally
 
 ### ฉันจะควบคุมลำดับภาพเคลื่อนไหวของซีรีส์ได้อย่างไร
 
- หากต้องการควบคุมลำดับภาพเคลื่อนไหวของซีรีส์ ให้ใช้`EffectTriggerType.AfterPrevious` พารามิเตอร์เมื่อเพิ่มเอฟเฟกต์ ซึ่งจะทำให้แอนิเมชันแต่ละซีรีส์เริ่มต้นหลังจากแอนิเมชันก่อนหน้าเสร็จสิ้น
+ หากต้องการควบคุมลำดับภาพเคลื่อนไหวของซีรีส์ ให้ใช้`EffectTriggerType.AfterPrevious`พารามิเตอร์เมื่อเพิ่มเอฟเฟกต์ ซึ่งจะทำให้แอนิเมชันแต่ละซีรีส์เริ่มต้นหลังจากแอนิเมชันก่อนหน้าเสร็จสิ้น
 
 ### ฉันสามารถใช้แอนิเมชั่นที่แตกต่างกันกับแต่ละซีรีส์ได้หรือไม่?
 

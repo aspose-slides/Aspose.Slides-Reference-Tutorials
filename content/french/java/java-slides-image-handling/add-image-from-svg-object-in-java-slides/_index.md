@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Assurez-vous de remplacer`"Your Document Directory"`avec le chemin réel vers le répertoire de votre projet où se trouve le fichier SVG.
+ Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel vers le répertoire de votre projet où se trouve le fichier SVG.
 
 ## Étape 2 : Créer une nouvelle présentation PowerPoint
 
@@ -113,7 +113,7 @@ Oui, vous pouvez ajouter plusieurs images SVG à une seule diapositive en répé
 
 Vous pouvez parcourir les diapositives de votre présentation et ajouter des images SVG à chaque diapositive en suivant la même procédure décrite dans ce guide.
 
-### a-t-il une limite à la taille ou à la complexité des images SVG qui peuvent être ajoutées ?
+### Y a-t-il une limite à la taille ou à la complexité des images SVG qui peuvent être ajoutées ?
 
 Aspose.Slides pour Java peut gérer une large gamme d'images SVG. Cependant, les images SVG très volumineuses ou complexes peuvent nécessiter une optimisation supplémentaire pour garantir un rendu fluide dans vos présentations.
 

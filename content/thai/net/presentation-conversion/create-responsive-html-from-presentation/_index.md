@@ -16,7 +16,7 @@ url: /th/net/presentation-conversion/create-responsive-html-from-presentation/
 
 ## 2. เริ่มต้นใช้งาน Aspose.Slides สำหรับ .NET
 
- ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Slides สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/net/). เมื่อติดตั้งแล้ว คุณก็พร้อมที่จะเริ่มต้น
+ ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Slides สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/net/)- เมื่อติดตั้งแล้ว คุณก็พร้อมที่จะเริ่มต้น
 
 ## 3. การตั้งค่าสภาพแวดล้อมของคุณ
 

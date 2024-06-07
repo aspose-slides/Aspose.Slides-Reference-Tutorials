@@ -56,7 +56,7 @@ using (Presentation pres = new Presentation(dataDir + "ChangePosition.pptx"))
 
  Burada adlı sunum dosyanızı yüklüyorsunuz.`"ChangePosition.pptx"`.
 
-### Adım 3: Taşınacak Slaydı Alın
+### Adım 3: Taşınacak Slaytın Alınması
 
 Sunudaki konumunu değiştirmek istediğiniz slaydı belirleyin.
 

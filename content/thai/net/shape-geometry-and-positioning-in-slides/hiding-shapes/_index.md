@@ -68,8 +68,8 @@ Congratulations! You've successfully hidden shapes in your presentation using As
 ### ฉันสามารถซ่อนรูปร่างตามเงื่อนไขอื่นที่ไม่ใช่ข้อความแสดงแทนได้หรือไม่
 อย่างแน่นอน! คุณสามารถปรับแต่งตรรกะการซ่อนตามคุณลักษณะต่างๆ เช่น ประเภทรูปร่าง สี หรือตำแหน่ง
 ### ฉันจะหาเอกสารประกอบ Aspose.Slides เพิ่มเติมได้จากที่ไหน
- สำรวจเอกสารประกอบ[ที่นี่](https://reference.aspose.com/slides/net/) สำหรับข้อมูลเชิงลึกและตัวอย่าง
+ สำรวจเอกสารประกอบ[ที่นี่](https://reference.aspose.com/slides/net/)สำหรับข้อมูลเชิงลึกและตัวอย่าง
 ### มีใบอนุญาตชั่วคราวสำหรับ Aspose.Slides หรือไม่
- ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบ
+ ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/)เพื่อวัตถุประสงค์ในการทดสอบ
 ### ฉันจะรับการสนับสนุนจากชุมชนสำหรับ Aspose.Slides ได้อย่างไร
  เข้าร่วมชุมชน Aspose.Slides บน[ฟอรั่ม](https://forum.aspose.com/c/slides/11) เพื่อหารือและช่วยเหลือ

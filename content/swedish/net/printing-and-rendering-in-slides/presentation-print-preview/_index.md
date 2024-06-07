@@ -19,7 +19,7 @@ I ditt Visual Studio-projekt, importera de nödvändiga namnområdena för att k
 ## Steg 1: Öppna ditt Visual Studio-projekt
 Starta Visual Studio och öppna ditt projekt.
 ## Steg 2: Lägg till Aspose.Slides-referens
-ditt projekt högerklickar du på Referenser och väljer "Lägg till referens". Bläddra till platsen där du sparade Aspose.Slides-biblioteket och lägg till referensen.
+I ditt projekt högerklickar du på Referenser och väljer "Lägg till referens". Bläddra till platsen där du sparade Aspose.Slides-biblioteket och lägg till referensen.
 ## Steg 3: Importera namnområden
 Importera de nödvändiga namnområdena i din kodfil:
 ```csharp
@@ -59,7 +59,7 @@ pres.Print(printerSettings);
 ```
 Grattis! Du har framgångsrikt förhandsgranskat utskriften av en presentation med Aspose.Slides för .NET.
 ## Slutsats
-I den här handledningen har vi täckt de väsentliga stegen för att integrera och använda Aspose.Slides för .NET i dina projekt. Detta kraftfulla bibliotek öppnar upp en värld av möjligheter att arbeta med PowerPoint-presentationer programmatiskt. Experimentera, utforska och förbättra dina applikationer med den flexibilitet som Aspose.Slides erbjuder.
+den här handledningen har vi täckt de väsentliga stegen för att integrera och använda Aspose.Slides för .NET i dina projekt. Detta kraftfulla bibliotek öppnar upp en värld av möjligheter att arbeta med PowerPoint-presentationer programmatiskt. Experimentera, utforska och förbättra dina applikationer med den flexibilitet som Aspose.Slides erbjuder.
 ## Vanliga frågor
 ### Är Aspose.Slides kompatibel med de senaste versionerna av PowerPoint?
 Ja, Aspose.Slides stöder de senaste PowerPoint-formaten, vilket säkerställer kompatibilitet med de senaste versionerna.

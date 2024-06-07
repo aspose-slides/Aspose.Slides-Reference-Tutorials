@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Ρύθμιση του ευρετηρίου του φύλλου δεδομένων γραφήματος
 int defaultWorksheetIndex = 0;
 
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Αλλαγή ονομάτων κατηγοριών γραφημάτων
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Ρύθμιση του ευρετηρίου του φύλλου δεδομένων γραφήματος
 int defaultWorksheetIndex = 0;
-//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Αλλαγή γραφήματος Όνομα κατηγορίας
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Πάρτε την 3η σειρά γραφημάτων
 series = chart.getChartData().getSeries().get_Item(2);
-// Τώρα συμπληρώνονται δεδομένα σειράς
+//Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

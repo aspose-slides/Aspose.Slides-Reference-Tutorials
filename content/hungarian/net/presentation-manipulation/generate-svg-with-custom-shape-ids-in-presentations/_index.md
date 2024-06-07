@@ -58,7 +58,7 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
 
 ### Következtetés
 
-És megvan! Sikeresen generált egyéni alakazonosítókkal rendelkező SVG-fájlokat az Aspose.Slides for .NET segítségével. Ez a hatékony funkció lehetővé teszi az SVG-kimenet testreszabását az Ön egyedi igényeinek megfelelően.
+És megvan! Sikeresen generált egyéni alakazonosítókkal rendelkező SVG-fájlokat az Aspose.Slides for .NET segítségével. Ez a hatékony funkció lehetővé teszi az SVG-kimenet testreszabását az egyedi igényeinek megfelelően.
 
 ### GYIK
 

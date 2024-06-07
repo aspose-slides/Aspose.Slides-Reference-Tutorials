@@ -81,7 +81,7 @@ In deze zelfstudie hebben we gedemonstreerd hoe u originele lettertypen kunt beh
 
 ### V1: Kan ik de lijst met uitgesloten lettertypen aanpassen?
 
- Ja, dat kan. Wijzig de`fontNameExcludeList` array om specifieke lettertypen op te nemen of uit te sluiten volgens uw vereisten.
+ Ja, dat kan. Wijzig de`fontNameExcludeList`array om specifieke lettertypen op te nemen of uit te sluiten volgens uw vereisten.
 
 ### Vraag 2: Wat moet ik doen als ik niet alle lettertypen wil insluiten?
 

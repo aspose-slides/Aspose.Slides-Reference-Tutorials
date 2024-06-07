@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## الخطوة 4: إنشاء مثيل لفئة ImageEx
- إنشاء مثيل لـ`ImageEx` class للتعامل مع الصورة التي تريد إضافتها إلى الشريحة.
+ إنشاء مثيل لـ`ImageEx`class للتعامل مع الصورة التي تريد إضافتها إلى الشريحة.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

@@ -81,7 +81,7 @@ Neste tutorial, demonstramos como preservar as fontes originais ao converter uma
 
 ### Q1: Posso personalizar a lista de fontes excluídas?
 
- Sim você pode. Modifique o`fontNameExcludeList` array para incluir ou excluir fontes específicas de acordo com suas necessidades.
+ Sim você pode. Modifique o`fontNameExcludeList`array para incluir ou excluir fontes específicas de acordo com suas necessidades.
 
 ### P2: E se eu não quiser incorporar todas as fontes?
 

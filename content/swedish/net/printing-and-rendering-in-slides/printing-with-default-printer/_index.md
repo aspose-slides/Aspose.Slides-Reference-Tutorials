@@ -14,7 +14,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 1.  Aspose.Slides för .NET: Se till att du har installerat Aspose.Slides-biblioteket för .NET. Om inte, kan du hitta de nödvändiga resurserna[här](https://releases.aspose.com/slides/net/).
 2. Utvecklingsmiljö: Ha en funktionell .NET-utvecklingsmiljö, inklusive Visual Studio eller någon annan IDE du väljer.
 ## Importera namnområden
-I ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för att utnyttja Aspose.Slides-funktionerna. Lägg till följande rader i din kod:
+ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för att utnyttja Aspose.Slides-funktionerna. Lägg till följande rader i din kod:
 ```csharp
 using Aspose.Slides;
 ```

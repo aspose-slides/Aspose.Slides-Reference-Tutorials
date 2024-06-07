@@ -80,7 +80,7 @@ presentation.Save(dataDir + "PresentationWithoutNotes.pptx", SaveFormat.Pptx);
 
 ### 1. ฉันสามารถใช้ Aspose.Slides สำหรับ .NET กับภาษาการเขียนโปรแกรมอื่นๆ ได้หรือไม่
 
-ใช่ Aspose.Slides พร้อมใช้งานสำหรับ Java, C เช่นกัน++ และภาษาโปรแกรมอื่นๆ อีกมากมาย
+ใช่ Aspose.Slides พร้อมใช้งานสำหรับ Java, C เช่นกัน- และภาษาโปรแกรมอื่นๆ อีกมากมาย
 
 ### 2. Aspose.Slides สำหรับ .NET เป็นไลบรารี่ฟรีหรือไม่
 

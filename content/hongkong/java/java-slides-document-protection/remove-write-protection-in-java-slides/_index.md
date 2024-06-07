@@ -35,7 +35,7 @@ import com.aspose.slides.*;
 //文檔目錄的路徑。
 String dataDir = "Your Document Directory";
 
-//開啟簡報文件
+//開啟演示文件
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 ```
 
@@ -66,7 +66,7 @@ presentation.save(dataDir + "File_Without_WriteProtection_out.pptx", SaveFormat.
 ```java
 //文檔目錄的路徑。
 String dataDir = "Your Document Directory";
-//開啟簡報文件
+//開啟演示文件
 Presentation presentation = new Presentation(dataDir + "RemoveWriteProtection.pptx");
 try
 {

@@ -44,7 +44,7 @@ Pada langkah ini, muat presentasi PowerPoint (PPTX) yang sudah ada yang berisi b
 // Jalur ke direktori dokumen
 string dataDir = "Your Document Directory";
 
-//Buat instance kelas Presentasi yang mewakili file presentasi
+// Buat instance kelas Presentasi yang mewakili file presentasi
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Kode Anda ada di sini

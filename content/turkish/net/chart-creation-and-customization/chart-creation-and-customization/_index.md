@@ -30,7 +30,7 @@ string FileName = FilePath + "Adding Layout Slides.pptx";
 
 using (Presentation p = new Presentation(FileName))
 {
-    // Düzen slayt türüne göre aramayı deneyin
+    // Düzen slayt türüne göre arama yapmayı deneyin
     IMasterLayoutSlideCollection layoutSlides = p.Masters[0].LayoutSlides;
     ILayoutSlide layoutSlide =
         layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ??

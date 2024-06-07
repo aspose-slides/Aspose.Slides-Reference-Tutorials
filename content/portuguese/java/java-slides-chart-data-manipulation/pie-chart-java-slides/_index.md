@@ -49,7 +49,7 @@ Obtenha o primeiro slide da apresentação onde deseja adicionar o gráfico de p
 ## Etapa 4: adicionar um gráfico de pizza
 
 ```java
-// Adicione um gráfico de pizza com dados padrão
+//Adicione um gráfico de pizza com dados padrão
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Configurando o índice da planilha de dados do gráfico
 int defaultWorksheetIndex = 0;
 
-//Obtendo a planilha de dados do gráfico
+// Obtendo a planilha de dados do gráfico
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Excluir séries e categorias geradas padrão
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Personalize outros setores de maneira semelhante
+// Personalize outros setores de maneira semelhante
 ```
 
 Personalize a aparência de cada setor no gráfico de pizza. Você pode alterar as cores, estilos de borda e outras propriedades visuais.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Configurando o índice da planilha de dados do gráfico
 int defaultWorksheetIndex = 0;
-//Obtendo a planilha de dados do gráfico
+// Obtendo a planilha de dados do gráfico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Excluir séries e categorias geradas padrão
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Adicionando nova série
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Agora preenchendo dados de série
+//Agora preenchendo dados de série
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Não funciona na nova versão
+// Não funciona na nova versão
 // Adicionando novos pontos e definindo a cor do setor
 // série.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ Você criou com sucesso um gráfico de pizza em uma apresentação do PowerPoint
 
 ### Como posso alterar as cores de setores individuais no gráfico circular?
 
- Para alterar as cores de setores individuais no gráfico de pizza, você pode personalizar a cor de preenchimento de cada ponto de dados. No exemplo de código fornecido, demonstramos como definir a cor de preenchimento para cada setor usando o`getSolidFillColor().setColor()`método. Você pode modificar os valores das cores para obter a aparência desejada.
+ Para alterar as cores de setores individuais no gráfico de pizza, você pode personalizar a cor de preenchimento de cada ponto de dados. No exemplo de código fornecido, demonstramos como definir a cor de preenchimento para cada setor usando o`getSolidFillColor().setColor()` método. Você pode modificar os valores das cores para obter a aparência desejada.
 
 ### Posso adicionar mais categorias e séries de dados ao gráfico de pizza?
 
@@ -278,7 +278,7 @@ Certifique-se de especificar o caminho e o formato corretos do arquivo.
 
 ### Posso criar outros tipos de gráficos usando Aspose.Slides for Java?
 
- Sim, Aspose.Slides for Java oferece suporte a vários tipos de gráficos, incluindo gráficos de barras, gráficos de linhas e muito mais. Você pode criar diferentes tipos de gráficos alterando o`ChartType` ao adicionar um gráfico. Consulte a documentação do Aspose.Slides para obter mais detalhes sobre a criação de diferentes tipos de gráficos.
+Sim, Aspose.Slides for Java oferece suporte a vários tipos de gráficos, incluindo gráficos de barras, gráficos de linhas e muito mais. Você pode criar diferentes tipos de gráficos alterando o`ChartType` ao adicionar um gráfico. Consulte a documentação do Aspose.Slides para obter mais detalhes sobre a criação de diferentes tipos de gráficos.
 
 ### Como posso encontrar mais informações e exemplos para trabalhar com Aspose.Slides for Java?
 

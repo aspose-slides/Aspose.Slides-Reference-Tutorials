@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Etiket biçimlendirmesini özelleştirin (Yazı Tipi, Dolgu vb.)
+        //Etiket biçimlendirmesini özelleştirin (Yazı Tipi, Dolgu vb.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Veri etiketleri için belirtme çizgilerini nasıl etkinleştirebilir veya devre dışı bırakabilirim?
 
- Veri etiketleri için belirtme çizgilerini etkinleştirmek veya devre dışı bırakmak için`setShowLabelAsDataCallout` yöntem. Şuna ayarla:`true` belirtme çizgilerini etkinleştirmek ve`false` bunları devre dışı bırakmak için.
+ Veri etiketleri için belirtme çizgilerini etkinleştirmek veya devre dışı bırakmak için`setShowLabelAsDataCallout` yöntem. Şuna ayarla:`true` belirtme çizgilerini etkinleştirmek ve`false`bunları devre dışı bırakmak için.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Ek bilgileri etkinleştir

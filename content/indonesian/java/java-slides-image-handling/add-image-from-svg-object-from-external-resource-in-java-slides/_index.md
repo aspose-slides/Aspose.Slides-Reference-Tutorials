@@ -101,7 +101,7 @@ Dalam tutorial ini, kita mempelajari cara menambahkan gambar dari objek SVG dari
 
 ### Bagaimana cara menyesuaikan posisi gambar SVG yang ditambahkan pada slide?
 
- Anda dapat mengatur posisi gambar SVG dengan memodifikasi koordinat di`addPictureFrame`metode. Parameternya`(0, 0)` mewakili koordinat X dan Y dari sudut kiri atas bingkai gambar.
+ Anda dapat mengatur posisi gambar SVG dengan memodifikasi koordinat di`addPictureFrame` metode. Parameternya`(0, 0)` mewakili koordinat X dan Y dari sudut kiri atas bingkai gambar.
 
 ### Bisakah saya menggunakan pendekatan ini untuk menambahkan beberapa gambar SVG ke satu slide?
 

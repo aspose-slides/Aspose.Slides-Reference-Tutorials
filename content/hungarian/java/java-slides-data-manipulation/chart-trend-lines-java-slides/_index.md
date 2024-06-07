@@ -121,7 +121,7 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 
 Gratulálunk! Sikeresen létrehozott egy prezentációt különböző típusú trendvonalakkal a Java Slides programban az Aspose.Slides for Java segítségével.
 
-## A Java Slides diagramok trendvonalainak teljes forráskódja
+## Java Slides diagramok trendvonalainak teljes forráskódja
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -173,11 +173,11 @@ Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá különböző típu
 
 ### Hogyan változtathatom meg egy trendvonal színét az Aspose.Slides for Java programban?
 
- trendvonal színének megváltoztatásához használhatja a`getSolidFillColor().setColor(Color)` módszert, amint az a példában látható egy lineáris trendvonal hozzáadására.
+ A trendvonal színének megváltoztatásához használhatja a`getSolidFillColor().setColor(Color)` módszert, amint az a példában látható egy lineáris trendvonal hozzáadására.
 
 ### Hozzáadhatok több trendvonalat egyetlen diagramsorozathoz?
 
- Igen, több trendvonalat is hozzáadhat egyetlen diagramsorozathoz. Egyszerűen hívja a`getTrendLines().add()` módszert minden egyes hozzáadni kívánt trendvonalhoz.
+Igen, több trendvonalat is hozzáadhat egyetlen diagramsorozathoz. Egyszerűen hívja a`getTrendLines().add()` módszert minden egyes hozzáadni kívánt trendvonalhoz.
 
 ### Hogyan távolíthatok el trendvonalat az Aspose.Slides for Java diagramjából?
 

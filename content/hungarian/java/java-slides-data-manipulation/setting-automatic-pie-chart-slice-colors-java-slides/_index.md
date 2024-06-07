@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## 2. lépés: Hozzon létre egy PowerPoint-bemutatót
 
- Példányosítsa a`Presentation` osztályban új PowerPoint-prezentáció létrehozásához:
+ Példányosítsa a`Presentation` osztályban új PowerPoint prezentáció létrehozásához:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Diagram adatlap indexének beállítása
 	int defaultWorksheetIndex = 0;
-	// diagram adatlap beszerzése
+	// A diagram adatlapjának lekérése
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Törölje az alapértelmezett generált sorozatokat és kategóriákat
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Új sorozat hozzáadása
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Most a sorozatadatok feltöltése
+	//Most a sorozatadatok feltöltése
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Sikeresen létrehozott egy kördiagramot egy PowerPoint-prezentációban az Aspo
 
 ### Hogyan szabhatom testre a kördiagram egyes szeleteinek színét?
 
- A kördiagram egyes szeleteinek színének testreszabásához használhatja a`getAutomaticSeriesColors`módszerrel lekérheti az alapértelmezett színsémát, majd szükség szerint módosíthatja a színeket. Íme egy példa:
+ A kördiagram egyes szeleteinek színének testreszabásához használhatja a`getAutomaticSeriesColors` módszerrel lekérheti az alapértelmezett színsémát, majd szükség szerint módosíthatja a színeket. Íme egy példa:
 
 ```java
-// Szerezze be az alapértelmezett színsémát
+//Szerezze be az alapértelmezett színsémát
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Szükség szerint módosítsa a színeket
@@ -194,7 +194,7 @@ Igen, módosíthatja a cím betűtípusát és stílusát. A cím betűtípusán
 ```java
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontHeight(20); // Betűméret beállítása
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontBold(NullableBool.True); // Tegye félkövérre a címet
-chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Tegye a címet dőlt betűvel
+chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // A címet dőlt betűvel szedjük
 ```
 
 Szükség szerint módosíthatja a betűméretet, a vastagságot és a dőlt stílust.

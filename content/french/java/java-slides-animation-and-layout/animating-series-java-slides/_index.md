@@ -26,7 +26,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 ```java
 // Le chemin d'accès au répertoire des documents.
 String dataDir = "Your Document Directory";
-//Instancier la classe Présentation qui représente un fichier de présentation
+// Instancier la classe Présentation qui représente un fichier de présentation
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Le chemin d'accès au répertoire des documents.
 String dataDir = "Your Document Directory";
-//Instancier la classe Présentation qui représente un fichier de présentation
+// Instancier la classe Présentation qui représente un fichier de présentation
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Vous avez animé avec succès une série dans un graphique PowerPoint à l'aide 
 
 ### Comment contrôler l’ordre des animations des séries ?
 
- Pour contrôler l'ordre des animations de séries, utilisez le`EffectTriggerType.AfterPrevious` paramètre lors de l’ajout des effets. Cela fera démarrer chaque animation de série après la fin de la précédente.
+ Pour contrôler l'ordre des animations de séries, utilisez le`EffectTriggerType.AfterPrevious`paramètre lors de l’ajout des effets. Cela fera démarrer chaque animation de série après la fin de la précédente.
 
 ### Puis-je appliquer des animations différentes à chaque série ?
 

@@ -27,7 +27,7 @@ using Aspose.Slides;
 ```csharp
 Presentation pres = new Presentation();
 ```
-## Шаг 3. Добавьте автофигуру
+## Шаг 3. Добавьте автофигуру
 Добавьте на слайд автофигуру, указав ее тип, положение и размеры:
 ```csharp
 IShape autoShape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 30, 30, 200, 200);

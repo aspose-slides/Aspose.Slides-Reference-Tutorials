@@ -79,13 +79,13 @@ try {
 
 ## Conclusión
 
-En este tutorial, hemos aprendido cómo convertir una presentación de PowerPoint a un archivo PDF compatible con PDF/A-2a usando Aspose.Slides para Java. Este nivel de cumplimiento garantiza que el PDF resultante sea adecuado para el archivado y la accesibilidad a largo plazo. Ahora puede integrar este código en sus aplicaciones Java para una conversión perfecta de PowerPoint a PDF conforme a las normas.
+En este tutorial, hemos aprendido cómo convertir una presentación de PowerPoint a un archivo PDF compatible con PDF/A-2a utilizando Aspose.Slides para Java. Este nivel de cumplimiento garantiza que el PDF resultante sea adecuado para el archivado y la accesibilidad a largo plazo. Ahora puede integrar este código en sus aplicaciones Java para una conversión perfecta de PowerPoint a PDF conforme a las normas.
 
 ## Preguntas frecuentes
 
 ## ¿Qué es el cumplimiento de PDF/A-2a?
 
-PDF/A-2a es un nivel de cumplimiento para archivos PDF. Especifica un conjunto de estándares para el archivo a largo plazo de documentos electrónicos. En el contexto de este tutorial, configurar el cumplimiento de PDF en PDF/A-2a garantiza que el archivo PDF resultante cumpla con estos estándares, lo que lo hace adecuado para el almacenamiento y la accesibilidad a largo plazo.
+PDF/A-2a es un nivel de cumplimiento para archivos PDF. Especifica un conjunto de estándares para el archivo a largo plazo de documentos electrónicos. En el contexto de este tutorial, configurar el cumplimiento de PDF en PDF/A-2a garantiza que el archivo PDF resultante cumpla con estos estándares, lo que lo hace adecuado para almacenamiento y accesibilidad a largo plazo.
 
 ## ¿Por qué debería utilizar la compatibilidad con PDF/A-2a?
 

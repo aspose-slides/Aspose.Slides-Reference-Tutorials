@@ -94,7 +94,7 @@ Tebrikler! Aspose.Slides for .NET'i kullanarak PowerPoint sunumunuzdaki slayt yo
 
 ## Çözüm
 
-Aspose.Slides for .NET, PowerPoint sunumlarınızda slayt yorumlarına erişmeniz ve bunları değiştirmeniz için kusursuz bir yol sağlar. Bu kılavuzda özetlenen adımları izleyerek slaytlarınızdan değerli bilgileri etkili bir şekilde çıkarabilir, işbirliğinizi ve iş akışınızı geliştirebilirsiniz.
+Aspose.Slides for .NET, PowerPoint sunumlarınızda slayt yorumlarına erişmeniz ve bunları değiştirmeniz için kusursuz bir yol sağlar. Bu kılavuzda özetlenen adımları izleyerek slaytlarınızdan değerli bilgileri verimli bir şekilde çıkarabilir, işbirliğinizi ve iş akışınızı geliştirebilirsiniz.
 
 ### Sıkça Sorulan Sorular (SSS)
 

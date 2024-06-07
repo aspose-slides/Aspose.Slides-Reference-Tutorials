@@ -18,7 +18,7 @@ Antes de comenzar, asegúrese de tener Java instalado en su sistema. Puede desca
 
 ## Agregar Aspose.Slides a su proyecto
 
-Para utilizar Aspose.Slides para Java, debe agregarlo a su proyecto. Puede hacer esto incluyendo el archivo JAR Aspose.Slides en la ruta de clases de su proyecto.
+Para utilizar Aspose.Slides para Java, debe agregarlo a su proyecto. Puede hacer esto incluyendo el archivo JAR Aspose.Slides en la ruta de clase de su proyecto.
 
 ## Paso 1: crear una nueva presentación
 

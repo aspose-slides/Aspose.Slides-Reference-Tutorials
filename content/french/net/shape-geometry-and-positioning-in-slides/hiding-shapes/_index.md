@@ -68,8 +68,8 @@ Oui, Aspose.Slides prend en charge .NET Core, offrant ainsi une flexibilité à 
 ### Puis-je masquer des formes en fonction de conditions autres que le texte alternatif ?
 Absolument! Vous pouvez personnaliser la logique de masquage en fonction de divers attributs tels que le type de forme, la couleur ou la position.
 ### Où puis-je trouver de la documentation supplémentaire sur Aspose.Slides ?
- Explorer la documentation[ici](https://reference.aspose.com/slides/net/) pour des informations détaillées et des exemples.
+ Explorer la documentation[ici](https://reference.aspose.com/slides/net/)pour des informations détaillées et des exemples.
 ### Des licences temporaires sont-elles disponibles pour Aspose.Slides ?
- Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) à des fins de tests.
+ Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/)à des fins de tests.
 ### Comment puis-je obtenir le soutien de la communauté pour Aspose.Slides ?
  Rejoignez la communauté Aspose.Slides sur le[forum](https://forum.aspose.com/c/slides/11) pour des discussions et de l'aide.

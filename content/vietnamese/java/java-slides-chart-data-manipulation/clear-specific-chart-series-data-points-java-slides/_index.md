@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Mã này lặp qua từng điểm dữ liệu trong chuỗi đầu tiên (chỉ mục 0) và đặt cả giá trị X và Y thành`null`xóa các điểm dữ liệu một cách hiệu quả.
+Mã này lặp qua từng điểm dữ liệu trong chuỗi đầu tiên (chỉ mục 0) và đặt cả giá trị X và Y thành`null`, xóa các điểm dữ liệu một cách hiệu quả.
 
 ## Bước 4: Xóa điểm dữ liệu đã xóa
 
@@ -116,7 +116,7 @@ Có, bạn có thể xóa các điểm dữ liệu dựa trên một điều ki�
 
 ### Làm cách nào tôi có thể thêm điểm dữ liệu mới vào chuỗi biểu đồ bằng Aspose.Slides cho Java?
 
- Để thêm các điểm dữ liệu mới vào một chuỗi biểu đồ, bạn có thể sử dụng`addDataPoint`phương pháp của chuỗi. Chỉ cần tạo các điểm dữ liệu mới và thêm chúng vào chuỗi bằng phương pháp này.
+Để thêm các điểm dữ liệu mới vào một chuỗi biểu đồ, bạn có thể sử dụng`addDataPoint` phương pháp của chuỗi. Chỉ cần tạo các điểm dữ liệu mới và thêm chúng vào chuỗi bằng phương pháp này.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho Java ở đâu?
 

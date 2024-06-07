@@ -14,7 +14,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách xác thực bố cụ
 
 ## Bước 1: Khởi tạo bản trình bày
 
-Đầu tiên, chúng ta cần khởi tạo một đối tượng trình bày và tải bản trình bày PowerPoint hiện có. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn (`test.pptx` trong ví dụ này).
+ Đầu tiên, chúng ta cần khởi tạo một đối tượng trình bày và tải bản trình bày PowerPoint hiện có. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn (`test.pptx` trong ví dụ này).
 
 ```java
 // Đường dẫn đến thư mục tài liệu.
@@ -88,7 +88,7 @@ Trong hướng dẫn này, chúng ta đã đi sâu vào thế giới làm việc
 
 ### Làm cách nào để thay đổi loại biểu đồ?
 
- Để thay đổi loại biểu đồ, chỉ cần thay thế`ChartType.ClusteredColumn` với loại biểu đồ mong muốn trong`addChart()` phương pháp.
+ Để thay đổi loại biểu đồ, chỉ cần thay thế`ChartType.ClusteredColumn`với loại biểu đồ mong muốn trong`addChart()` phương pháp.
 
 ### Tôi có thể tùy chỉnh dữ liệu biểu đồ không?
 

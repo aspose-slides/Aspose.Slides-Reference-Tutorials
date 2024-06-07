@@ -69,7 +69,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Ustawianie indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
 
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Usuń domyślnie wygenerowane serie i kategorie
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Ustawianie koloru wypełnienia serii
+//Ustawianie koloru wypełnienia serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// Ustawianie koloru wypełnienia serii
+//Ustawianie koloru wypełnienia serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -170,7 +170,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Ustawianie indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Usuń domyślnie wygenerowane serie i kategorie
 chart.getChartData().getSeries().clear();
@@ -186,23 +186,23 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Weź pierwszą serię wykresów
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Teraz wypełniam dane serii
+//Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// Ustawianie koloru wypełnienia serii
+//Ustawianie koloru wypełnienia serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Weź drugą serię wykresów
 series = chart.getChartData().getSeries().get_Item(1);
-// Teraz wypełniam dane serii
+//Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Ustawianie koloru wypełnienia serii
+//Ustawianie koloru wypełnienia serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-//Pierwsza etykieta wyświetli nazwę kategorii
+// Pierwsza etykieta wyświetli nazwę kategorii
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
@@ -217,7 +217,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # Wniosek
 
-W tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides przy użyciu Aspose.Slides for Java API. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, jak utworzyć grupowany wykres kolumnowy w prezentacji programu PowerPoint.
+tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides przy użyciu Aspose.Slides for Java API. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, jak utworzyć grupowany wykres kolumnowy w prezentacji programu PowerPoint.
 
 ## Często zadawane pytania
 
@@ -239,4 +239,4 @@ W tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides p
 
 ### Jak zapisać wykres w innym formacie pliku?
 
-Aby zapisać wykres w innym formacie pliku, zmień opcję`SaveFormat` parametr w`pres.save()` metodę do żądanego formatu (np. PDF, PNG, JPEG).
+ Aby zapisać wykres w innym formacie pliku, zmień opcję`SaveFormat` parametr w`pres.save()`metodę do żądanego formatu (np. PDF, PNG, JPEG).

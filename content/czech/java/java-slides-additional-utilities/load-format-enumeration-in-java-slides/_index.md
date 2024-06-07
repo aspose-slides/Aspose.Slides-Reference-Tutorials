@@ -10,11 +10,11 @@ url: /cs/java/additional-utilities/load-format-enumeration-in-java-slides/
 
 ## Úvod do načítání formátu prezentace v Java Slides
 
- tomto tutoriálu prozkoumáme, jak určit formát prezentace PowerPoint pomocí rozhraní Aspose.Slides for Java API. Konkrétně se zaměříme na načtení prezentace a kontrolu jejího formátu pomocí`LoadFormat` výčet. To vám pomůže zjistit, zda je prezentace ve starším formátu, jako je PowerPoint 95, nebo novějším formátu.
+ V tomto tutoriálu prozkoumáme, jak určit formát prezentace PowerPoint pomocí rozhraní Aspose.Slides for Java API. Konkrétně se zaměříme na načtení prezentace a kontrolu jejího formátu pomocí`LoadFormat` výčet. To vám pomůže zjistit, zda je prezentace ve starším formátu, jako je PowerPoint 95, nebo novějším formátu.
 
 ## Předpoklady
 
- Než začneme, ujistěte se, že máte ve svém projektu Java nainstalovanou a nastavenou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[Aspose webové stránky](https://products.aspose.com/slides/java/) a postupujte podle pokynů k instalaci.
+Než začneme, ujistěte se, že máte ve svém projektu Java nainstalovanou a nastavenou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[Aspose webové stránky](https://products.aspose.com/slides/java/) a postupujte podle pokynů k instalaci.
 
 ## Krok 1: Importujte požadované třídy
 
@@ -34,7 +34,7 @@ String dataDir = "Your Document Directory";
 boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(dataDir + "presentation.ppt").getLoadFormat() == LoadFormat.Ppt95;
 ```
 
- Ve výše uvedeném kódu používáme`PresentationFactory.getInstance().getPresentationInfo()`získat informace o prezentaci včetně jejího formátu. Poté porovnáme formát s`LoadFormat.Ppt95` zkontrolovat, zda se nejedná o starší formát PowerPoint 95.
+ Ve výše uvedeném kódu používáme`PresentationFactory.getInstance().getPresentationInfo()` získat informace o prezentaci včetně jejího formátu. Poté porovnáme formát s`LoadFormat.Ppt95` zkontrolovat, zda se nejedná o starší formát PowerPoint 95.
 
 ## Kompletní zdrojový kód pro načtení formátu výčtu v Java Slides
 
@@ -45,7 +45,7 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Závěr
 
- V tomto tutoriálu jsme se naučili, jak načíst prezentaci PowerPoint v Javě pomocí Aspose.Slides a zkontrolovat její formát pomocí`LoadFormat` výčet. To může být užitečné, když potřebujete v aplikaci Java zacházet s prezentacemi různých formátů odlišně.
+ V tomto tutoriálu jsme se naučili, jak načíst prezentaci PowerPoint v Javě pomocí Aspose.Slides a zkontrolovat její formát pomocí`LoadFormat`výčet. To může být užitečné, když potřebujete v aplikaci Java zacházet s prezentacemi různých formátů odlišně.
 
 ## FAQ
 

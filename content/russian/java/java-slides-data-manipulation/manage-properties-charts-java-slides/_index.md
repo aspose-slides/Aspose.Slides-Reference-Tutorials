@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Получите книгу данных диаграммы.
 
 ```java
-//Получение листа данных диаграммы
+// Получение листа данных диаграммы
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Установка индекса таблицы данных диаграммы
 int defaultWorksheetIndex = 0;
-//Получение листа данных диаграммы
+// Получение листа данных диаграммы
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Добавить серию
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Возьмите вторую серию диаграмм
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Теперь заполняем данные серии
+//Теперь заполняем данные серии
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

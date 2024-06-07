@@ -22,7 +22,7 @@ Avant de vous lancer dans l'extraction audio de présentations PowerPoint, vous 
 
 Maintenant que tout est en place, passons au guide étape par étape.
 
-## Étape 1 : Importer les espaces de noms
+## Étape 1 : Importer des espaces de noms
 
 Pour commencer, vous devez importer les espaces de noms nécessaires pour travailler avec Aspose.Slides et gérer les opérations sur les fichiers. Ajoutez le code suivant à votre projet C# :
 

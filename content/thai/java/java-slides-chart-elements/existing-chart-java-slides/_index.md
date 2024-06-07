@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 int defaultWorksheetIndex = 0;
 
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // เปลี่ยนชื่อหมวดหมู่แผนภูมิ
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 int defaultWorksheetIndex = 0;
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // การเปลี่ยนชื่อหมวดหมู่แผนภูมิ
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // ใช้แผนภูมิลำดับที่ 3
 series = chart.getChartData().getSeries().get_Item(2);
-// กำลังเติมข้อมูลซีรีส์
+//กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

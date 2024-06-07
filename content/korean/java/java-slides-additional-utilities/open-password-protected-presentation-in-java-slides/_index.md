@@ -16,7 +16,7 @@ url: /ko/java/additional-utilities/open-password-protected-presentation-in-java-
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1.  Java 라이브러리용 Aspose.Slides: Java 라이브러리용 Aspose.Slides를 다운로드하고 설치했는지 확인하세요. 에서 얻으실 수 있습니다.[Aspose 웹사이트](https://products.aspose.com/slides/java/).
+1. Java 라이브러리용 Aspose.Slides: Java 라이브러리용 Aspose.Slides를 다운로드하고 설치했는지 확인하세요. 에서 얻으실 수 있습니다.[Aspose 웹사이트](https://products.aspose.com/slides/java/).
 
 2.  Java 개발 환경: 아직 설치하지 않은 경우 시스템에 Java 개발 환경을 설정하십시오. 다음에서 Java를 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // "pass"를 프레젠테이션 비밀번호로
 
 ## 3단계: 프레젠테이션 열기
 
- 이제 다음을 사용하여 비밀번호로 보호된 프레젠테이션을 엽니다.`Presentation` 파일 경로와 로드 옵션을 매개변수로 사용하는 클래스 생성자.
+ 이제 다음을 사용하여 비밀번호로 보호된 프레젠테이션을 엽니다.`Presentation`파일 경로와 로드 옵션을 매개변수로 사용하는 클래스 생성자.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -96,7 +96,7 @@ finally
 
 ### 프레젠테이션 비밀번호를 어떻게 설정하나요?
 
-프레젠테이션의 비밀번호를 설정하려면 다음을 사용하세요.`loadOptions.setPassword("password")` 방법, 여기서`"password"` 원하는 비밀번호로 바꿔야 합니다.
+ 프레젠테이션의 비밀번호를 설정하려면 다음을 사용하세요.`loadOptions.setPassword("password")` 방법, 여기서`"password"` 원하는 비밀번호로 바꿔야 합니다.
 
 ### PPT, PPTX 등 다양한 형식의 프레젠테이션을 열 수 있나요?
 

@@ -62,7 +62,7 @@ if (masterNotesSlide != null)
 }
 ```
 
-### 4. lépés: Mentse el a prezentációt
+### 4. lépés: Mentse el a bemutatót
 
 ```csharp
 presentation.Save(dataDir + "testresult.pptx", SaveFormat.Pptx);
@@ -94,7 +94,7 @@ INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 mgr.RemoveNotesSlide();
 ```
 
-### 4. lépés: Mentse el a prezentációt
+### 4. lépés: Mentse el a bemutatót
 
 ```csharp
 presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
@@ -130,7 +130,7 @@ for (int i = 0; i < presentation.Slides.Count; i++)
 }
 ```
 
-### 4. lépés: Mentse el a prezentációt
+### 4. lépés: Mentse el a bemutatót
 
 ```csharp
 presentation.Save(dataDir + "RemoveNotesFromAllSlides_out.pptx", SaveFormat.Pptx);

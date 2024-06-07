@@ -1,6 +1,6 @@
 ---
-title: Lägg till anpassade felfält i diagrammet
-linktitle: Lägg till anpassade felfält i diagrammet
+title: Lägg till anpassade felstaplar till diagrammet
+linktitle: Lägg till anpassade felstaplar till diagrammet
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du skapar fantastiska presentationer med Aspose.Slides för .NET genom att lägga till anpassade felstaplar i dina diagram. Lyft ditt datavisualiseringsspel idag!
 type: docs
@@ -65,7 +65,7 @@ using (Presentation presentation = new Presentation())
 
 ## Steg 3: Lägg till ett bubbeldiagram
 
-det här steget skapar du ett bubbeldiagram i presentationen. Du kan anpassa diagrammets position och storlek enligt dina krav.
+I det här steget skapar du ett bubbeldiagram i presentationen. Du kan anpassa diagrammets position och storlek enligt dina krav.
 
 ```csharp
 // Skapa ett bubbeldiagram

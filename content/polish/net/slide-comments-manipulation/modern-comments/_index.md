@@ -2,7 +2,7 @@
 title: Nowoczesne zarządzanie komentarzami przy użyciu Aspose.Slides
 linktitle: Nowoczesne zarządzanie komentarzami
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Dowiedz się, jak zarządzać nowoczesnymi komentarzami w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla .NET. Współpracuj bez wysiłku!
+description: Dowiedz się, jak zarządzać nowoczesnymi komentarzami w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Współpracuj bez wysiłku!
 type: docs
 weight: 14
 url: /pl/net/slide-comments-manipulation/modern-comments/

@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## 5단계: 그라데이션 형식 정의
 
- 이 단계에서는 그라데이션 형식을 지정합니다. 원하는 대로 그라데이션을 맞춤 설정할 수 있습니다. 여기서 우리는`TileFlip.FlipBoth` 시각적으로 매력적인 효과를 만들 수 있습니다.
+이 단계에서는 그라데이션 형식을 지정합니다. 원하는 대로 그라데이션을 맞춤 설정할 수 있습니다. 여기서 우리는`TileFlip.FlipBoth` 시각적으로 매력적인 효과를 만들 수 있습니다.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

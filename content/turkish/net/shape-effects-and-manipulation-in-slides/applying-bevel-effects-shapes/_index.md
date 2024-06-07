@@ -11,7 +11,7 @@ url: /tr/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 Sunumların dinamik dünyasında slaytlarınıza görsel çekicilik eklemek mesajınızın etkisini önemli ölçüde artırabilir. Aspose.Slides for .NET, sunum slaytlarınızı programlı olarak değiştirmek ve güzelleştirmek için güçlü bir araç seti sağlar. Bu tür ilgi çekici özelliklerden biri, şekillere eğim efektleri uygulayarak görsellerinize derinlik ve boyut katma yeteneğidir.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-- Aspose.Slides for .NET: Aspose.Slides kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Aspose.Slides kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
 - Geliştirme Ortamı: .NET geliştirme ortamınızı kurun ve temel C# anlayışına sahip olun.
 - Belge Dizini: Belgeleriniz için oluşturulan sunum dosyalarının kaydedileceği bir dizin oluşturun.
 ## Ad Alanlarını İçe Aktar

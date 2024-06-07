@@ -94,7 +94,7 @@ Neste tutorial, aprendemos como converter uma apresentação do PowerPoint com n
 
 ### Como faço para instalar o Aspose.Slides para Java?
 
- Você pode baixar Aspose.Slides para Java em[aqui](https://releases.aspose.com/slides/java/) siga as instruções de instalação fornecidas na documentação.
+ Você pode baixar Aspose.Slides para Java em[aqui](https://releases.aspose.com/slides/java/) e siga as instruções de instalação fornecidas na documentação.
 
 ### Posso converter apresentações do PowerPoint para outros formatos também?
 
@@ -104,7 +104,7 @@ Sim, Aspose.Slides for Java oferece suporte a uma ampla variedade de formatos de
 
 Se a sua apresentação não tiver notas, o processo de conversão ainda funcionará e você obterá uma imagem TIFF dos slides sem notas.
 
-### O Aspose.Slides for Java é adequado para projetos comerciais?
+### Aspose.Slides for Java é adequado para projetos comerciais?
 
 Sim, Aspose.Slides for Java é uma biblioteca robusta e confiável usada por muitas empresas para processamento e manipulação de documentos em seus aplicativos Java.
 

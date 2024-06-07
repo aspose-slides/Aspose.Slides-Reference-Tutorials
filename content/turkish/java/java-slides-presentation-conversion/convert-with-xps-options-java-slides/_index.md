@@ -10,7 +10,7 @@ url: /tr/java/presentation-conversion/convert-with-xps-options-java-slides/
 
 ## Java Slaytlarında XPS Seçenekleri ile Dönüştürmeye Giriş
 
-Java programlama dünyasında sunum dosyalarıyla çalışmak yaygın bir iştir. İster dinamik raporlar ister etkileşimli slayt gösterileri oluşturuyor olun, doğru araçlara ve kitaplıklara sahip olmak işinizi büyük ölçüde kolaylaştırabilir. Böyle güçlü araçlardan biri, PowerPoint sunumlarını kolaylıkla değiştirmenize ve dönüştürmenize olanak tanıyan bir API olan Aspose.Slides for Java'dır.
+Java programlama dünyasında sunum dosyalarıyla çalışmak yaygın bir iştir. İster dinamik raporlar ister etkileşimli slayt gösterileri oluşturuyor olun, doğru araçlara ve kitaplıklara sahip olmak işinizi büyük ölçüde kolaylaştırabilir. Bu güçlü araçlardan biri, PowerPoint sunumlarını kolaylıkla değiştirmenize ve dönüştürmenize olanak tanıyan bir API olan Aspose.Slides for Java'dır.
 
 ## Önkoşullar
 
@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Adım 4: Dönüşüm Seçeneklerini Özelleştirin
 
- Dönüştürme sürecini özelleştirmek için aşağıdakilerin bir örneğini oluşturabilirsiniz:`XpsOptions` sınıf. Örnekte meta dosyalarını PNG görüntüleri olarak kaydetme seçeneğini ayarladık.
+Dönüştürme sürecini özelleştirmek için aşağıdakilerin bir örneğini oluşturabilirsiniz:`XpsOptions` sınıf. Örnekte meta dosyalarını PNG görüntüleri olarak kaydetme seçeneğini ayarladık.
 
 ```java
 XpsOptions opts = new XpsOptions();

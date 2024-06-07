@@ -61,7 +61,7 @@ using (FileStream stream = new FileStream(outPath + "YourFileName.svg", FileMode
 ```
 
 ## 6. Conclusión
-En este tutorial, exploramos el proceso de convertir formas de presentación a SVG usando Aspose.Slides para .NET. Ha aprendido cómo configurar su entorno, crear una presentación, configurar opciones SVG y realizar la conversión. Esta funcionalidad abre interesantes posibilidades para mejorar sus aplicaciones .NET con gráficos vectoriales escalables.
+En este tutorial, exploramos el proceso de convertir formas de presentación a SVG usando Aspose.Slides para .NET. Ha aprendido cómo configurar su entorno, crear una presentación, configurar opciones SVG y realizar la conversión. Esta funcionalidad abre posibilidades interesantes para mejorar sus aplicaciones .NET con gráficos vectoriales escalables.
 
 ## 7. Preguntas frecuentes (FAQ)
 

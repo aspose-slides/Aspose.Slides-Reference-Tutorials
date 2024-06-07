@@ -72,7 +72,7 @@ int desiredY = 800;  // Magasság
 
 ## 4. lépés: Számítsa ki a méretezési tényezőket
 
-A dia képarányának megőrzéséhez számítsa ki az X és Y méretek méretezési tényezőit a dia mérete és a kívánt méretek alapján.
+A dia képarányának megőrzése érdekében számítsa ki az X és Y méretek méretezési tényezőit a dia mérete és a kívánt méretek alapján.
 
 ```csharp
 float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;

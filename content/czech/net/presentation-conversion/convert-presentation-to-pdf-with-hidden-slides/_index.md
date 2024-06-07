@@ -72,7 +72,7 @@ class Program
 
 ## Závěr
 
-Převod prezentací do PDF je běžný úkol, ale při práci se skrytými snímky je důležité používat spolehlivou knihovnu, jako je Aspose.Slides pro .NET. Podle kroků uvedených v této příručce můžete bez problémů převést prezentace do formátu PDF a zároveň zajistit, aby byly zahrnuty skryté snímky, a zachovat tak celkovou kvalitu a kontext prezentace.
+Převod prezentací do PDF je běžný úkol, ale při práci se skrytými snímky je důležité používat spolehlivou knihovnu, jako je Aspose.Slides pro .NET. Podle kroků popsaných v této příručce můžete bez problémů převádět prezentace do formátu PDF a přitom zajistit, aby byly zahrnuty skryté snímky, a zachovat tak celkovou kvalitu a kontext prezentace.
 
 ## FAQ
 

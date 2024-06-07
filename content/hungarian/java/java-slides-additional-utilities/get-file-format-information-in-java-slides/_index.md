@@ -96,7 +96,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan szerezhet be fájlformátum-inform�
 
 ### Hogyan szerezhetem be az Aspose.Slides for Java könyvtárat?
 
- Az Aspose.Slides for Java könyvtárat letöltheti az Aspose webhelyéről:[ez a link](https://releases.aspose.com/slides/java/). Válassza ki a projektnek megfelelő verziót.
+ Az Aspose.Slides for Java könyvtárat letöltheti az Aspose webhelyéről:[ez a link](https://releases.aspose.com/slides/java/)Válassza ki a projektnek megfelelő verziót.
 
 ### Használhatom ezt a kódot más Java prezentációs könyvtárakkal?
 

@@ -10,7 +10,7 @@ url: /nl/net/shape-geometry-and-positioning-in-slides/
 
 ## Invoering
 
-Welkom in de meeslepende wereld van Aspose.Slides-tutorials, waar u de kunst van vormgeometrie en positionering in dia's onder de knie krijgt met behulp van de krachtige Aspose.Slides API voor .NET. In deze uitgebreide handleiding gaan we in op de fijne kneepjes van het programmatisch beheren van vormen, het controleren van hun afmetingen en het bereiken van een nauwkeurige uitlijning binnen uw presentaties.
+Welkom in de meeslepende wereld van Aspose.Slides-tutorials, waar u de kunst van vormgeometrie en positionering in dia's onder de knie krijgt met behulp van de krachtige Aspose.Slides API voor .NET. In deze uitgebreide handleiding gaan we dieper in op de fijne kneepjes van het programmatisch beheren van vormen, het controleren van hun afmetingen en het bereiken van een nauwkeurige uitlijning binnen uw presentaties.
 
 ### Ontgrendel de kracht van vormgeometrie
 

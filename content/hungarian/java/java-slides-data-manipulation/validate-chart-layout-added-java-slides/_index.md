@@ -14,7 +14,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan érvényesíthető a diagram elr
 
 ## 1. lépés: A prezentáció inicializálása
 
-Először inicializálnunk kell egy prezentációs objektumot, és betöltenünk egy meglévő PowerPoint-prezentációt. Cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával (`test.pptx` ebben a példában).
+ Először inicializálnunk kell egy prezentációs objektumot, és betöltenünk egy meglévő PowerPoint-prezentációt. Cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával (`test.pptx` ebben a példában).
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -57,7 +57,7 @@ double h = chart.getPlotArea().getActualHeight();
 pres.save(dataDir + "Result.pptx", SaveFormat.Pptx);
 ```
 
-## Java Slides-hez hozzáadott diagramelrendezés érvényesítésének teljes forráskódja
+## A Java Slides-hez hozzáadott diagramelrendezés érvényesítésének teljes forráskódja
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -88,7 +88,7 @@ Ebben az oktatóanyagban elmélyültünk a PowerPoint-prezentációk diagramjaiv
 
 ### Hogyan változtathatom meg a diagram típusát?
 
- A diagram típusának megváltoztatásához egyszerűen cserélje ki`ChartType.ClusteredColumn` a kívánt diagramtípussal a`addChart()` módszer.
+ A diagram típusának megváltoztatásához egyszerűen cserélje ki`ChartType.ClusteredColumn` kívánt diagramtípussal a`addChart()` módszer.
 
 ### Testreszabhatom a diagram adatait?
 

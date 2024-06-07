@@ -22,7 +22,7 @@ url: /ko/java/presentation-conversion/convert-to-pdf-java-slides/
 
 ## 1단계: Java 라이브러리용 Aspose.Slides 가져오기
 
-먼저 Java 프로젝트에 Aspose.Slides 라이브러리를 포함해야 합니다. 프로젝트에 JAR 파일로 추가하거나 그에 따라 빌드 시스템을 구성할 수 있습니다.
+먼저 Java 프로젝트에 Aspose.Slides 라이브러리를 포함해야 합니다. 프로젝트에 JAR 파일로 추가하거나 이에 따라 빌드 시스템을 구성할 수 있습니다.
 
 ## 2단계: PowerPoint 프레젠테이션 로드
 

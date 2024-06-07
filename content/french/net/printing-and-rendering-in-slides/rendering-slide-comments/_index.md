@@ -85,4 +85,4 @@ R : Absolument ! Le didacticiel comprend des options permettant de personnaliser
 ### Q : Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
  R : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je demander de l'aide et du support pour Aspose.Slides ?
- R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté.
+R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté.

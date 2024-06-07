@@ -10,7 +10,7 @@ url: /tr/java/chart-elements/map-chart-java-slides/
 
 ## Aspose.Slides for Java kullanarak Java Slaytlarındaki Harita Grafiğine Giriş
 
-Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda Harita Grafiği oluşturma sürecinde size rehberlik edeceğiz. Harita grafikleri, sunumlarınızda coğrafi verileri görselleştirmenin harika bir yoludur.
+Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda Harita Grafiği oluşturma sürecinde size rehberlik edeceğiz. Harita grafikleri, sunumlarınızda coğrafi verileri görselleştirmenin harika bir yoludur.
 
 ## Önkoşullar
 

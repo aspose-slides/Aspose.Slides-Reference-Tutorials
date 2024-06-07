@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- Pada kode di atas, ganti`"Your Document Directory"`dengan jalur sebenarnya ke direktori dokumen Anda dan`"Hyperlink.pptx"` dengan nama file presentasi PowerPoint Anda.
+ Pada kode di atas, ganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda dan`"Hyperlink.pptx"` dengan nama file presentasi PowerPoint Anda.
 
 ## Langkah 3: Hapus Hyperlink
 

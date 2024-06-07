@@ -22,7 +22,7 @@ Mielőtt belemerülnénk a diagram entitások világába, győződjön meg arró
 
 Most kezdjük el a diagramok létrehozását és testreszabását az Aspose.Slides for Java használatával.
 
-## 1. lépés: Prezentáció létrehozása
+## 1. lépés: Prezentáció készítése
 
 Az első lépés egy új prezentáció létrehozása, amelyhez hozzá kell adni a diagramot. Íme egy kódrészlet a prezentáció létrehozásához:
 

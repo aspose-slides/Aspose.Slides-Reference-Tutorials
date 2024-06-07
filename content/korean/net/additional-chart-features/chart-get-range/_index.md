@@ -92,4 +92,4 @@ Aspose.Slides for .NET은 최신 파일 형식을 포함하여 다양한 PowerPo
  다음에서 임시 라이센스를 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### .NET 사용자를 위한 Aspose.Slides에는 어떤 종류의 지원 옵션이 제공됩니까?
-Aspose 커뮤니티로부터 지원과 지원을 받을 수 있습니다.[지원 포럼](https://forum.aspose.com/).
+ Aspose 커뮤니티로부터 지원과 지원을 받을 수 있습니다.[지원 포럼](https://forum.aspose.com/).

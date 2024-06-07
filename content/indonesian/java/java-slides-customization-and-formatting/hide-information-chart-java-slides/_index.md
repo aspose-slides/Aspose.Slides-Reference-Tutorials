@@ -125,7 +125,7 @@ try
 	chart.getAxes().getHorizontalAxis().setVisible(false);
 	//Menyembunyikan Legenda
 	chart.setLegend(false);
-	//Menyembunyikan MajorGridLines
+	//Menyembunyikan Garis MajorGrid
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.NoFill);
 	for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 	{

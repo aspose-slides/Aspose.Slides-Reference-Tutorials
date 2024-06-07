@@ -10,7 +10,7 @@ url: /cs/java/chart-elements/box-chart-java-slides/
 
 ## Úvod do Box Chart v Aspose.Slides pro Javu
 
-V tomto tutoriálu vás provedeme procesem vytváření krabicového grafu pomocí Aspose.Slides for Java. Krabicové grafy jsou užitečné pro vizualizaci statistických dat s různými kvartily a odlehlými hodnotami. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem, které vám pomohou začít.
+tomto tutoriálu vás provedeme procesem vytváření krabicového grafu pomocí Aspose.Slides for Java. Krabicové grafy jsou užitečné pro vizualizaci statistických dat s různými kvartily a odlehlými hodnotami. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem, které vám pomohou začít.
 
 ## Předpoklady
 
@@ -52,7 +52,7 @@ V tomto kroku vytvoříme na prvním snímku prezentace tvar krabicového grafu.
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- V tomto kroku definujeme kategorie pro Box Chart. Používáme`IChartDataWorkbook`přidat kategorie a odpovídajícím způsobem je označit.
+ V tomto kroku definujeme kategorie pro Box Chart. Používáme`IChartDataWorkbook` přidat kategorie a odpovídajícím způsobem je označit.
 
 ## Krok 4: Vytvořte sérii
 
@@ -65,7 +65,7 @@ V tomto kroku vytvoříme na prvním snímku prezentace tvar krabicového grafu.
     series.setShowOutlierPoints(true);
 ```
 
-Zde pro graf vytvoříme sérii BoxAndWhisker a nakonfigurujeme různé možnosti, jako je kvartilová metoda, střední čára, střední značky, vnitřní body a odlehlé body.
+Zde pro graf vytvoříme řadu BoxAndWhisker a nakonfigurujeme různé možnosti, jako je kvartilová metoda, střední čára, střední značky, vnitřní body a odlehlé body.
 
 ## Krok 5: Přidejte datové body
 

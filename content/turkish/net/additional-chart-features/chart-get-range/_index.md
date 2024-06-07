@@ -69,7 +69,7 @@ string result = chart.ChartData.GetRange();
 Console.WriteLine("GetRange result: {0}", result);
 ```
 
-Ve bu kadar! Aspose.Slides for .NET'i kullanarak grafik veri aralığını PowerPoint sununuzdan başarıyla aldınız.
+Ve bu kadar! Aspose.Slides for .NET kullanarak grafik veri aralığını PowerPoint sununuzdan başarıyla aldınız.
 
 ## Çözüm
 
@@ -92,4 +92,4 @@ Evet, PowerPoint sunumundaki slaytlar, şekiller, metinler, resimler ve diğer �
  Geçici lisans talebinde bulunabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Slides for .NET kullanıcıları için ne tür destek seçenekleri mevcut?
-Aspose topluluğundan destek ve yardım alabilirsiniz.[destek Forumu](https://forum.aspose.com/).
+ Aspose topluluğundan destek ve yardım alabilirsiniz.[destek Forumu](https://forum.aspose.com/).

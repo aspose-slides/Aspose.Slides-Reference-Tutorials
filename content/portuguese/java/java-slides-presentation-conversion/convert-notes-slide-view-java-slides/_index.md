@@ -78,7 +78,7 @@ finally
 
 ## Conclusão
 
-Neste tutorial, cobrimos as etapas essenciais para converter visualizações de slides de notas em Java Slides usando Aspose.Slides. Seguindo essas etapas e personalizando o código de acordo com suas necessidades específicas, você pode manipular e converter com eficiência apresentações do PowerPoint de forma programática em seus aplicativos Java.
+Neste tutorial, cobrimos as etapas essenciais para converter visualizações de slides de notas em Java Slides usando Aspose.Slides. Seguindo essas etapas e personalizando o código de acordo com suas necessidades específicas, você pode manipular e converter com eficiência apresentações do PowerPoint de maneira programática em seus aplicativos Java.
 
 ## Perguntas frequentes
 

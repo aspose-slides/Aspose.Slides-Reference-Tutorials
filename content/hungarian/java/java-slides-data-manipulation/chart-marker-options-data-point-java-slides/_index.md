@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // Ismételje meg a többi adatpont esetében is
 // ...
 
-// diagramsorozat-jelölő méretének módosítása
+// A diagramsorozat-jelölő méretének módosítása
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ Az Aspose.Slides for Java segítségével az adatpontokon lévő diagramjelölő
 
 ### Használhatok képeket egyéni markerként?
 
-Igen, használhat képeket egyéni jelölőkként az adatpontokhoz. Állítsa be a kitöltés típusát`FillType.Picture` és adja meg a használni kívánt képet.
+ Igen, használhat képeket egyéni jelölőkként az adatpontokhoz. Állítsa be a kitöltés típusát`FillType.Picture`és adja meg a használni kívánt képet.
 
 ### Az Aspose.Slides for Java alkalmas dinamikus diagramok készítésére?
 

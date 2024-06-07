@@ -58,7 +58,7 @@ int defaultWorksheetIndex = 0;
 ## Bước 3: Lấy bảng tính dữ liệu biểu đồ
 
 ```csharp
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Chúng tôi đặt các điểm đánh dấu hình ảnh cho các điểm dữ l
 ## Bước 6: Thay đổi kích thước điểm đánh dấu chuỗi biểu đồ
 
 ```csharp
-//Thay đổi kích thước điểm đánh dấu chuỗi biểu đồ
+// Thay đổi kích thước điểm đánh dấu chuỗi biểu đồ
 series.Marker.Size = 15;
 ```
 

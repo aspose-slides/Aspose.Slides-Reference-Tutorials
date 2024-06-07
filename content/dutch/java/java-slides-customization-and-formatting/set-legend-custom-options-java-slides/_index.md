@@ -65,7 +65,7 @@ chart.getLegend().setX(50 / chart.getWidth());
 chart.getLegend().setY(50 / chart.getHeight());
 ```
 
-- Stel de breedte van de legenda in (ten opzichte van de grafiekbreedte):
+- Stel de breedte van de legenda in (ten opzichte van de diagrambreedte):
 
 ```java
 chart.getLegend().setWidth(100 / chart.getWidth());

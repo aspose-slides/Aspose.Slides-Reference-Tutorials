@@ -41,7 +41,7 @@ import com.aspose.slides.PresentationFactory;
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// มันจะส่งคืน "LoadFormat.Unknown" หากไฟล์นั้นไม่ใช่รูปแบบการนำเสนอ
+//มันจะส่งคืน "LoadFormat.Unknown" หากไฟล์นั้นไม่ใช่รูปแบบการนำเสนอ
 ```
 
  ในโค้ดนี้เราใช้`PresentationFactory` เพื่อรับข้อมูลเกี่ยวกับไฟล์งานนำเสนอรวมถึงรูปแบบของไฟล์ หากไฟล์ไม่ใช่รูปแบบการนำเสนอที่ถูกต้อง ไฟล์นั้นจะส่งคืน "LoadFormat.Unknown"
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // เส้นทางไปยังไดเร็กทอรีเอกสาร
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // มันจะส่งคืน "LoadFormat.Unknown" หากไฟล์นั้นไม่ใช่รูปแบบการนำเสนอ
+        //มันจะส่งคืน "LoadFormat.Unknown" หากไฟล์นั้นไม่ใช่รูปแบบการนำเสนอ
 ```
 
 ## บทสรุป
@@ -63,7 +63,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 
 ### ฉันจะติดตั้ง Aspose.Slides สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/slides/java/). ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้บนเว็บไซต์เพื่อรวมเข้ากับโปรเจ็กต์ Java ของคุณ
+ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/slides/java/)- ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้บนเว็บไซต์เพื่อรวมเข้ากับโปรเจ็กต์ Java ของคุณ
 
 ### Aspose.Slides สำหรับ Java เข้ากันได้กับรูปแบบการนำเสนอที่แตกต่างกันหรือไม่
 
@@ -79,4 +79,4 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 
 ### ฉันจะหาแหล่งข้อมูลเพิ่มเติมและเอกสารประกอบสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/). เอกสารนี้จะช่วยคุณในการเรียนรู้ API และฟังก์ชันต่างๆ ของ API
+ คุณสามารถเข้าถึงเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/)- เอกสารนี้จะช่วยคุณในการเรียนรู้ API และฟังก์ชันต่างๆ ของ API

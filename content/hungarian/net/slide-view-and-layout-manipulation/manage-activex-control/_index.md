@@ -1,13 +1,13 @@
 ---
-title: ActiveX-vezérlők kezelése a PowerPointban
-linktitle: ActiveX-vezérlők kezelése a PowerPointban
+title: Az ActiveX-vezérlők kezelése a PowerPointban
+linktitle: Az ActiveX-vezérlők kezelése a PowerPointban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja a PowerPoint bemutatókat ActiveX-vezérlőkkel az Aspose.Slides for .NET segítségével. Lépésről lépésre szóló útmutatónk kiterjed a beillesztésre, a manipulációra, a testreszabásra, az eseménykezelésre és még sok másra.
 type: docs
 weight: 13
 url: /hu/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-Az ActiveX-vezérlők hatékony elemek, amelyek javíthatják a PowerPoint-prezentációk funkcionalitását és interaktivitását. Ezekkel a vezérlőkkel közvetlenül a diákba ágyazhat be és kezelhet olyan objektumokat, mint a multimédiás lejátszók, adatbeviteli űrlapok és még sok más. Ebben a cikkben megvizsgáljuk, hogyan kezelheti az ActiveX-vezérlőket a PowerPointban az Aspose.Slides for .NET használatával, amely egy sokoldalú könyvtár, amely lehetővé teszi a PowerPoint-fájlok zökkenőmentes integrációját és kezelését .NET-alkalmazásaiban.
+Az ActiveX-vezérlők hatékony elemek, amelyek javíthatják a PowerPoint-prezentációk funkcionalitását és interaktivitását. Ezekkel a vezérlőkkel közvetlenül a diákba ágyazhat be és kezelhet olyan objektumokat, mint a multimédiás lejátszók, adatbeviteli űrlapok és még sok más. Ebben a cikkben megvizsgáljuk, hogyan kezelheti az ActiveX-vezérlőket a PowerPointban az Aspose.Slides for .NET használatával, amely egy sokoldalú könyvtár, amely lehetővé teszi a PowerPoint-fájlok zökkenőmentes integrációját és kezelését a .NET-alkalmazásokban.
 
 ## ActiveX-vezérlők hozzáadása a PowerPoint diákhoz
 
@@ -124,7 +124,7 @@ Az Aspose.Slides for .NET leegyszerűsíti az ActiveX-vezérlőkkel való munká
 
 ## Következtetés
 
-Az ActiveX-vezérlők beépítése a PowerPoint-prezentációkba növelheti a közönség interaktivitását és elkötelezettségét. Az Aspose.Slides for .NET segítségével hatékony eszköz áll rendelkezésére az ActiveX-vezérlők zökkenőmentes kezeléséhez, lehetővé téve dinamikus és lebilincselő prezentációk készítését, amelyek maradandó benyomást keltenek.
+Az ActiveX-vezérlők beépítése a PowerPoint-prezentációkba növelheti a közönség interaktivitását és elkötelezettségét. Az Aspose.Slides for .NET segítségével hatékony eszköz áll rendelkezésére az ActiveX-vezérlők zökkenőmentes kezeléséhez, lehetővé téve dinamikus és lebilincselő prezentációk készítését, amelyek tartós benyomást keltenek.
 
 ## GYIK
 

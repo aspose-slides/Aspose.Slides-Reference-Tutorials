@@ -54,7 +54,7 @@ while (categoryIndex < 15) {
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
         //在此新增數據點
-        //…
+        //……
         i++;
     }
     categoryIndex++;
@@ -90,7 +90,7 @@ while (i < chart.getChartData().getSeries().size()) {
 
 ## 第 4 步：儲存簡報
 
-最後，使用配置的圖表儲存簡報。
+最後，儲存帶有配置圖表的簡報。
 
 ```java
 pres.save("chart.pptx", SaveFormat.Pptx);

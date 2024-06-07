@@ -56,7 +56,7 @@ Tento kód můžete přizpůsobit tak, aby exportoval různé tvary nebo podle p
 
 ## 6. Závěr
 
-V tomto tutoriálu jsme prošli procesem exportu tvarů do formátu SVG z prezentace PowerPoint pomocí Aspose.Slides pro .NET. Tato výkonná knihovna zjednodušuje úlohu, umožňuje automatizovat proces exportu a vylepšit pracovní postup.
+V tomto tutoriálu jsme prošli procesem exportu tvarů do formátu SVG z prezentace PowerPoint pomocí Aspose.Slides pro .NET. Tato výkonná knihovna zjednodušuje úlohu a umožňuje automatizovat proces exportu a vylepšit pracovní postup.
 
 ## 7. Nejčastější dotazy
 

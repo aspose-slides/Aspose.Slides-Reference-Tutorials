@@ -8,7 +8,7 @@ weight: 13
 url: /cs/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
 
-Vytváření vlastních miniatur vašich prezentací v PowerPointu může být cenným přínosem, ať už vytváříte interaktivní aplikaci, vylepšujete uživatelskou zkušenost nebo optimalizujete obsah pro různé platformy. V tomto tutoriálu vás provedeme procesem generování vlastních miniatur obrázků z prezentací PowerPoint pomocí knihovny Aspose.Slides for .NET. Tato výkonná knihovna vám umožňuje manipulovat, převádět a vylepšovat soubory PowerPoint programově v aplikacích .NET.
+Vytváření vlastních miniatur vašich prezentací v PowerPointu může být cenným přínosem, ať už vytváříte interaktivní aplikaci, vylepšujete uživatelské prostředí nebo optimalizujete obsah pro různé platformy. V tomto tutoriálu vás provedeme procesem generování vlastních miniatur obrázků z prezentací PowerPoint pomocí knihovny Aspose.Slides for .NET. Tato výkonná knihovna vám umožňuje manipulovat, převádět a vylepšovat soubory PowerPoint programově v aplikacích .NET.
 
 ## Předpoklady
 
@@ -48,7 +48,7 @@ string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 // Vytvořte instanci třídy Presentation, která představuje soubor prezentace
 using (Presentation pres = new Presentation(srcFileName))
 {
-    // Sem bude umístěn váš kód pro generování náhledů
+    // Sem bude umístěn váš kód pro generování miniatur
 }
 ```
 

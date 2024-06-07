@@ -74,7 +74,7 @@ series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B5", 400));
 series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B6", 500));
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül elmentjük a bemutatót a Csatornadiagrammal egy megadott fájlba.
 
@@ -128,7 +128,7 @@ A csatornadiagram megjelenését testreszabhatja a diagram különféle tulajdon
 
 ### Hozzáadhatok további adatpontokat vagy kategóriákat a csatornadiagramhoz?
 
-Igen, a 3. lépésben megadott kód kiterjesztésével további adatpontokat és kategóriákat adhat a csatornadiagramhoz. Egyszerűen adjon hozzá további kategóriacímkéket és adatpontokat szükség szerint.
+Igen, a 3. lépésben megadott kód kiterjesztésével további adatpontokat és kategóriákat is hozzáadhat a csatornadiagramhoz. Szükség szerint egyszerűen adjon hozzá további kategóriacímkéket és adatpontokat.
 
 ### Hogyan változtathatom meg a tölcsérdiagram helyzetét és méretét a dián?
 

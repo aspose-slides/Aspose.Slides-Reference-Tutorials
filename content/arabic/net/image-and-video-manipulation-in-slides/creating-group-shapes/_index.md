@@ -20,7 +20,7 @@ url: /ar/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
-## الخطوة 1: إنشاء مثيل لفئة العرض التقديمي
+## الخطوة 1: إنشاء فئة العرض التقديمي
 
  إنشاء مثيل لـ`Presentation` فئة وحدد الدليل حيث يتم تخزين المستندات الخاصة بك:
 
@@ -93,7 +93,7 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
 ### هل يمكنني تجربة Aspose.Slides قبل الشراء؟
  قطعاً! يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟
- قم بزيارة Aspose.Slides[المنتدى](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
+قم بزيارة Aspose.Slides[المنتدى](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء ترخيص كامل لـ Aspose.Slides؟

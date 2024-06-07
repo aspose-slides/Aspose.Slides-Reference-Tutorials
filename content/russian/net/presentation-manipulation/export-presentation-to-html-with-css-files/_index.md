@@ -62,7 +62,7 @@ using (Presentation pres = new Presentation(dataDir + "pres.pptx"))
  Да, вы можете получить лицензию от[Aspose](https://purchase.aspose.com/buy) использовать все возможности API.
 
 ### Вопрос 3: Могу ли я попробовать Aspose.Slides для .NET бесплатно?
- Конечно! Вы можете получить бесплатную пробную версию на[здесь](https://releases.aspose.com/).
+ Конечно! Вы можете получить бесплатную пробную версию на сайте[здесь](https://releases.aspose.com/).
 
 ### Вопрос 4: Как мне получить поддержку Aspose.Slides для .NET?
  Для получения технической помощи или вопросов посетите[Форум Aspose.Slides](https://forum.aspose.com/).

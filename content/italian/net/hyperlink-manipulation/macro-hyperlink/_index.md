@@ -31,7 +31,7 @@ using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
- Abbiamo importato il file`Aspose.Slides` namespace, che è lo spazio dei nomi principale per lavorare con le presentazioni, e il file`Aspose.Slides.Export` spazio dei nomi.
+ Abbiamo importato il`Aspose.Slides` namespace, che è lo spazio dei nomi principale per lavorare con le presentazioni, e il file`Aspose.Slides.Export` spazio dei nomi.
 
 ## Impostazione del clic sul collegamento ipertestuale macro
 

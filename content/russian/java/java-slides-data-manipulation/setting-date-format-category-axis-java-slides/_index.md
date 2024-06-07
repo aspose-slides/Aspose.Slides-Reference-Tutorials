@@ -16,7 +16,7 @@ url: /ru/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Библиотека Aspose.Slides для Java (ее можно скачать с сайта[здесь](https://releases.aspose.com/slides/java/).
+1. Библиотека Aspose.Slides для Java (ее можно скачать с сайта[здесь](https://releases.aspose.com/slides/java/).
 2. Настроена среда разработки Java.
 
 ## Шаг 1. Создайте презентацию PowerPoint
@@ -138,4 +138,4 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ### Как добавить на диаграмму дополнительные точки данных?
 
- Чтобы добавить дополнительные точки данных на диаграмму, используйте`getDataPoints().addDataPointForLineSeries` метод для ряда данных и укажите значения данных.
+ Чтобы добавить дополнительные точки данных на диаграмму, используйте`getDataPoints().addDataPointForLineSeries`метод для ряда данных и укажите значения данных.

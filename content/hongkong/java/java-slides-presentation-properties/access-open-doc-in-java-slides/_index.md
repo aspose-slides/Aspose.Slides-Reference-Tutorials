@@ -18,7 +18,7 @@ Aspose.Slides for Java 是一個功能強大的 API，可讓開發人員以程�
 
 1. Java 開發環境：確保系統上安裝了 Java JDK（Java 開發工具包）。
 
-2.  Aspose.Slides for Java：從下列位置下載並安裝 Aspose.Slides for Java：[網站](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java：從下列位置下載並安裝 Aspose.Slides for Java：[網站](https://releases.aspose.com/slides/java/).
 
 3. 範例 ODP 檔案：您需要一個範例 ODP 檔案才能使用。代替`"Your Document Directory"`在程式碼中包含 ODP 檔案的路徑。
 

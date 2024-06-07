@@ -81,7 +81,7 @@ Dans ce didacticiel, nous avons montré comment conserver les polices d'origine 
 
 ### Q1 : Puis-je personnaliser la liste des polices exclues ?
 
- Oui, vous pouvez. Modifier le`fontNameExcludeList` tableau pour inclure ou exclure des polices spécifiques en fonction de vos besoins.
+ Oui, vous pouvez. Modifier le`fontNameExcludeList`tableau pour inclure ou exclure des polices spécifiques en fonction de vos besoins.
 
 ### Q2 : Que faire si je ne souhaite pas intégrer toutes les polices ?
 

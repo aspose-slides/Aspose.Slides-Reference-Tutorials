@@ -37,7 +37,7 @@ using Aspose.Slides.Export;
 
 ### ขั้นตอนที่ 2.1: สร้างอินสแตนซ์ของชั้นเรียนการนำเสนอ
 
- ขั้นแรกเราต้องสร้างอินสแตนซ์ของ`Presentation`คลาสที่แสดงถึงไฟล์งานนำเสนอ PowerPoint ของคุณ คุณควรระบุเส้นทางไปยังไฟล์การนำเสนอของคุณในรูปแบบ`dataDir` ตัวแปร.
+ ขั้นแรกเราต้องสร้างอินสแตนซ์ของ`Presentation` คลาสที่แสดงถึงไฟล์งานนำเสนอ PowerPoint ของคุณ คุณควรระบุเส้นทางไปยังไฟล์การนำเสนอของคุณในรูปแบบ`dataDir` ตัวแปร.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### ขั้นตอนที่ 2.2: เข้าถึงสไลด์บันทึกย่อหลัก
 
- ภายใน`using` บล็อก เราจะเข้าถึงสไลด์บันทึกย่อหลัก สไลด์บันทึกย่อหลักมีสไตล์เริ่มต้นสำหรับบันทึกย่อในงานนำเสนอของคุณ
+ ภายใน`using`บล็อก เราจะเข้าถึงสไลด์บันทึกย่อหลัก สไลด์บันทึกย่อหลักมีสไตล์เริ่มต้นสำหรับบันทึกย่อในงานนำเสนอของคุณ
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;
@@ -99,7 +99,7 @@ presentation.Save(dataDir + "StylishNotesPresentation.pptx", SaveFormat.Pptx);
 Aspose.Slides สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับไฟล์ Microsoft PowerPoint โดยทางโปรแกรม ช่วยให้คุณสามารถสร้าง จัดการ และแปลงงานนำเสนอ PowerPoint โดยใช้แอปพลิเคชัน .NET
 
 ### ฉันจะหาเอกสารประกอบ Aspose.Slides สำหรับ .NET ได้ที่ไหน
- คุณสามารถเข้าถึงเอกสารประกอบ[ที่นี่](https://reference.aspose.com/slides/net/). ให้ข้อมูลที่ครอบคลุมเกี่ยวกับการใช้ห้องสมุด
+ คุณสามารถเข้าถึงเอกสารประกอบ[ที่นี่](https://reference.aspose.com/slides/net/)- ให้ข้อมูลที่ครอบคลุมเกี่ยวกับการใช้ห้องสมุด
 
 ### Aspose.Slides สำหรับ .NET ใช้งานได้ฟรีหรือไม่
  Aspose.Slides สำหรับ .NET เป็นไลบรารีเชิงพาณิชย์ และต้องมีใบอนุญาตสำหรับการใช้งานเต็มรูปแบบ อย่างไรก็ตาม คุณสามารถสำรวจมันได้ด้วยการทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).

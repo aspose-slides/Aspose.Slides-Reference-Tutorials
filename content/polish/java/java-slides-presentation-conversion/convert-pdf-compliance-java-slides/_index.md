@@ -10,7 +10,7 @@ url: /pl/java/presentation-conversion/convert-pdf-compliance-java-slides/
 
 ## Wprowadzenie do konwersji na zgodność z formatem PDF w slajdach Java
 
-tym samouczku przyjrzymy się, jak przekonwertować prezentację programu PowerPoint na plik PDF zgodnie z przepisami przy użyciu Aspose.Slides dla Java. W szczególności ustawimy zgodność plików PDF na PDF/A-2a. Ten poziom zgodności zapewnia, że powstały plik PDF spełnia określone standardy długoterminowej archiwizacji i dostępności.
+tym samouczku przyjrzymy się, jak przekonwertować prezentację programu PowerPoint na plik PDF zgodnie ze zgodnością przy użyciu Aspose.Slides dla Java. W szczególności ustawimy zgodność plików PDF na PDF/A-2a. Ten poziom zgodności zapewnia, że powstały plik PDF spełnia określone standardy długoterminowej archiwizacji i dostępności.
 
 ## Warunki wstępne
 
@@ -79,7 +79,7 @@ try {
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak przekonwertować prezentację programu PowerPoint na plik PDF zgodny z formatem PDF/A-2a przy użyciu Aspose.Slides for Java. Ten poziom zgodności zapewnia, że powstały plik PDF nadaje się do długoterminowej archiwizacji i zapewnia dostępność. Możesz teraz zintegrować ten kod z aplikacjami Java, aby uzyskać bezproblemową konwersję programu PowerPoint do formatu PDF, zachowując zgodność.
+W tym samouczku nauczyliśmy się, jak przekonwertować prezentację programu PowerPoint na plik PDF zgodny z formatem PDF/A-2a przy użyciu programu Aspose.Slides for Java. Ten poziom zgodności zapewnia, że powstały plik PDF nadaje się do długoterminowej archiwizacji i zapewnia dostępność. Możesz teraz zintegrować ten kod z aplikacjami Java, aby uzyskać bezproblemową konwersję programu PowerPoint do formatu PDF, zachowując zgodność.
 
 ## Często zadawane pytania
 

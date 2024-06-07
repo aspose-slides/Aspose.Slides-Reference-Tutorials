@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- Bu kod parçacığında değiştirin`"Your Document Directory"`belge dizininizin gerçek yolu ile ve`"YourPresentation.pptx"` PowerPoint sununuzun adıyla birlikte.
+ Bu kod parçacığında değiştirin`"Your Document Directory"` belge dizininizin gerçek yolu ile ve`"YourPresentation.pptx"` PowerPoint sununuzun adıyla birlikte.
 
 ### 3. Adım: PDF Seçeneklerini Yapılandırın
 
@@ -79,7 +79,7 @@ presentation.Save(dataDir, SaveFormat.Pdf, pdfOptions);
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for .NET kullanarak PowerPoint sunumlarını PDF/A formatına dönüştürerek PDF uyumluluğunu nasıl elde edeceğinizi öğrendiniz. Bu adımları izleyerek belgelerinizin en katı uyumluluk standartlarını karşıladığından emin olabilir, böylece onları uzun vadeli arşivlemeye ve dağıtıma uygun hale getirebilirsiniz.
+Bu eğitimde, Aspose.Slides for .NET kullanarak PowerPoint sunumlarını PDF/A formatına dönüştürerek PDF uyumluluğunu nasıl elde edebileceğinizi öğrendiniz. Bu adımları izleyerek belgelerinizin en katı uyumluluk standartlarını karşıladığından emin olabilir, böylece onları uzun vadeli arşivlemeye ve dağıtıma uygun hale getirebilirsiniz.
 
  Belge yönetimi iş akışınızı geliştirmek için Aspose.Slides tarafından sunulan diğer olanakları ve özelleştirme seçeneklerini keşfetmekten çekinmeyin. Daha fazla bilgi için şu adrese başvurabilirsiniz:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
 

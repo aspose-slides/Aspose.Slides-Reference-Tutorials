@@ -22,7 +22,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 ## Steg 1: Konfigurera ditt Java-projekt
 
 1. Skapa ett nytt Java-projekt i din föredragna IDE.
-2.  Lägg till Aspose.Slides för Java-biblioteket till ditt projekt. Du kan ladda ner biblioteket från[Aspose hemsida](https://products.aspose.com/slides/java) och inkludera det som ett beroende.
+2.  Lägg till Aspose.Slides för Java-biblioteket till ditt projekt. Du kan ladda ner biblioteket från[Aspose hemsida](https://products.aspose.com/slides/java)och inkludera det som ett beroende.
 
 ## Steg 2: Importera de obligatoriska biblioteken
 I din Java-klass, importera de nödvändiga biblioteken för att arbeta med Aspose.Slides:
@@ -59,7 +59,7 @@ try {
 }
 ```
 
- Byta ut`"Your Document Directory"`med den faktiska sökvägen till din dokumentkatalog och`"test.pptx"` med namnet på din PowerPoint-presentation.
+ Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog och`"test.pptx"` med namnet på din PowerPoint-presentation.
 
 ## Steg 4: Kör koden
 

@@ -91,7 +91,7 @@ Después de eliminar los hipervínculos, guarde la presentación:
 presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-¡Y eso es! Ha eliminado con éxito los hipervínculos de una diapositiva usando Aspose.Slides para .NET.
+¡Y eso es! Ha eliminado con éxito los hipervínculos de una diapositiva utilizando Aspose.Slides para .NET.
 
 En conclusión, Aspose.Slides para .NET proporciona una manera eficiente de manipular hipervínculos en sus presentaciones, permitiéndole crear diapositivas interactivas y atractivas. Ya sea que desee agregar hipervínculos a recursos externos o eliminarlos, Aspose.Slides simplifica el proceso y mejora sus capacidades de creación de presentaciones.
 
@@ -117,7 +117,7 @@ Sí, Aspose.Slides le permite agregar hipervínculos a varios objetos, incluidas
 Absolutamente. Aspose.Slides admite varios formatos de PowerPoint, incluidos PPT, PPTX, PPS y más. Garantiza la compatibilidad con diferentes versiones de Microsoft PowerPoint.
 
 ### ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Slides?
-Para obtener documentación detallada y soporte de la comunidad, visite el[Documentación de Aspose.Slides](https://reference.aspose.com/slides/net/) y el[Aspose foro de soporte](https://forum.aspose.com/).
+ Para obtener documentación detallada y soporte de la comunidad, visite el[Documentación de Aspose.Slides](https://reference.aspose.com/slides/net/) y el[Aspose foro de soporte](https://forum.aspose.com/).
 
 ### ¿Cómo puedo obtener una licencia temporal para Aspose.Slides?
  Si necesita una licencia temporal para Aspose.Slides, puede obtener una[aquí](https://purchase.aspose.com/temporary-license/).

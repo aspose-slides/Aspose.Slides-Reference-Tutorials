@@ -152,7 +152,7 @@ Aspose.Slides for .NET permite que você assuma o controle total de suas apresen
 
 ### Existe um teste gratuito disponível?
 
- Sim, você pode obter uma versão de teste gratuita em[aqui](https://releases.aspose.com/).
+ Sim, você pode obter uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
 
 ### Onde posso encontrar suporte para Aspose.Slides for .NET?
 

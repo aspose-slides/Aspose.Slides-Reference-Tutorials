@@ -26,7 +26,7 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các đi�
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-//Khởi tạo lớp Trình bày đại diện cho một tệp trình bày
+// Khởi tạo lớp Trình bày đại diện cho một tệp trình bày
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-//Khởi tạo lớp Trình bày đại diện cho một tệp trình bày
+// Khởi tạo lớp Trình bày đại diện cho một tệp trình bày
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Bạn đã tạo thành công chuỗi hoạt hình trong biểu đồ PowerPoint
 
 ### Làm cách nào để kiểm soát thứ tự của loạt hoạt ảnh?
 
- Để kiểm soát thứ tự của chuỗi hoạt ảnh, hãy sử dụng`EffectTriggerType.AfterPrevious` tham số khi thêm hiệu ứng. Điều này sẽ làm cho mỗi loạt hoạt ảnh bắt đầu sau khi hoạt ảnh trước đó kết thúc.
+ Để kiểm soát thứ tự của chuỗi hoạt ảnh, hãy sử dụng`EffectTriggerType.AfterPrevious`tham số khi thêm hiệu ứng. Điều này sẽ làm cho mỗi loạt hoạt ảnh bắt đầu sau khi hoạt ảnh trước đó kết thúc.
 
 ### Tôi có thể áp dụng các hình ảnh động khác nhau cho mỗi bộ phim không?
 

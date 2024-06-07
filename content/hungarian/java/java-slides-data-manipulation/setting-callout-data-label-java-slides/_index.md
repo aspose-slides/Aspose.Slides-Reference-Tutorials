@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Címkeformázás testreszabása (betűtípus, kitöltés stb.)
+        //Címkeformázás testreszabása (betűtípus, kitöltés stb.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -88,7 +88,7 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse el a prezentációt a konfigurált diagrammal.
 
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Hogyan engedélyezhetem vagy tilthatom le az adatcímkék kiemelését?
 
- Az adatcímkék kiemelésének engedélyezéséhez vagy letiltásához használja a`setShowLabelAsDataCallout` módszer. Állítsa be`true` feliratok engedélyezéséhez és`false` letiltani őket.
+ Az adatcímkék kiemelésének engedélyezéséhez vagy letiltásához használja a`setShowLabelAsDataCallout` módszer. Állítsa be`true` feliratok engedélyezéséhez és`false`letiltani őket.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Feliratok engedélyezése

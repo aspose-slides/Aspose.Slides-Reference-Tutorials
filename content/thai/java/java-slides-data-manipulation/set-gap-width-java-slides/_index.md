@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. รับสมุดงานข้อมูลแผนภูมิ
 
 ```java
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 int defaultWorksheetIndex = 0;
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // เพิ่มซีรีส์
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -128,7 +128,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // ใช้แผนภูมิชุดที่สอง
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// กำลังเติมข้อมูลซีรีส์
+//กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

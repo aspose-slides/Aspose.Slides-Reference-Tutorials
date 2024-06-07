@@ -46,11 +46,11 @@ using (Presentation pres = new Presentation())
 ## Steg 3: Anpassa bildbakgrunder
 Förbättra det visuella tilltalande av dina bilder genom att anpassa deras bakgrunder. I det här exemplet ställer vi in en solid cyan bakgrund för den andra bilden.
 ```csharp
-// Skapa en bakgrund för den andra bilden
+//Skapa en bakgrund för den andra bilden
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//... (Fortsätt anpassa bakgrunder för andra bilder)
+// ... (Fortsätt anpassa bakgrunder för andra bilder)
 ```
 ## Steg 4: Lägg till textrutor till bilder
 Inkludera textrutor för att förmedla information på dina bilder. Här lägger vi till en rektangulär textruta till den andra bilden.
@@ -63,7 +63,7 @@ autoshape.TextFrame.Text = "Second Slide";
 ## Steg 5: Inkorporera ZoomFrames
 Det här steget introducerar den spännande delen – att lägga till ZoomFrames. Dessa ramar skapar dynamiska effekter, som förhandsvisningar av diabilder och anpassade bilder.
 ```csharp
-// Lägg till ZoomFrame-objekt med förhandsgranskning
+// Lägg till ZoomFrame-objekt med förhandsgranskning av bilden
 var zoomFrame1 = pres.Slides[0].Shapes.AddZoomFrame(20, 20, 250, 200, slide2);
 // Lägg till ZoomFrame-objekt med en anpassad bild
 IPPImage image = pres.Images.AddImage(Image.FromFile(imagePath));

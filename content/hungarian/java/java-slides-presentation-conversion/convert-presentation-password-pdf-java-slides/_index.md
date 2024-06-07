@@ -112,7 +112,7 @@ PdfLoadOptions loadOptions = new PdfLoadOptions();
 loadOptions.setPassword("password"); // Adja meg a PDF létrehozása során használt jelszót
 Presentation presentation = new Presentation("PasswordProtectedPDF_out.pdf", loadOptions);
 
-// Mostantól szükség szerint dolgozhat a prezentációval
+// Most már szükség szerint dolgozhat a prezentációval
 ```
 
 ### Módosíthatom egy meglévő, jelszóval védett PDF jelszavát az Aspose.Slides segítségével?
@@ -141,7 +141,7 @@ Az Aspose.Slides robusztus PDF jelszavas védelmi funkciókat kínál. Fontos az
 
 ### Automatizálhatom ezt a folyamatot több prezentációhoz?
 
-Igen, automatizálhatja a több prezentáció jelszóval védett PDF-fájllá konvertálásának folyamatát, ha végigfut a prezentációs fájlokon, és mindegyikre alkalmazza a konverziós kódot.
+Igen, automatizálhatja a több prezentáció jelszóval védett PDF-formátumba konvertálásának folyamatát, ha végignézi a prezentációs fájlokat, és mindegyikre alkalmazza a konverziós kódot.
 
 ### Az Aspose.Slides for Java alkalmas kereskedelmi használatra?
 

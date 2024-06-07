@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## الخطوة 3: قم بتحميل العرض التقديمي
 
-الآن، لنقم بتحميل العرض التقديمي الذي تريد تحويله. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك:
+ الآن، لنقم بتحميل العرض التقديمي الذي تريد تحويله. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ finally
 
 ### هل يمكنني تخصيص مخرجات HTML بشكل أكبر؟
 
- نعم، يمكنك تخصيص مخرجات HTML عن طريق تعديل ملف`ResponsiveHtmlController` و`HtmlOptions`أشياء. يتيح لك ذلك تخصيص مخرجات HTML وفقًا لمتطلباتك المحددة.
+ نعم، يمكنك تخصيص مخرجات HTML عن طريق تعديل ملف`ResponsiveHtmlController` و`HtmlOptions` أشياء. يتيح لك ذلك تخصيص مخرجات HTML وفقًا لمتطلباتك المحددة.
 
 ### هل هناك أي متطلبات ترخيص لـ Aspose.Slides لـ Java؟
 

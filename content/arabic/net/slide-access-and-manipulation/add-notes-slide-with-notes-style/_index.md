@@ -37,7 +37,7 @@ using Aspose.Slides.Export;
 
 ### الخطوة 2.1: إنشاء فئة العرض التقديمي
 
- أولاً، نحتاج إلى إنشاء مثيل لـ`Presentation`الفئة التي تمثل ملف عرض PowerPoint التقديمي الخاص بك. يجب عليك توفير المسار إلى ملف العرض التقديمي الخاص بك في ملف`dataDir` عامل.
+ أولاً، نحتاج إلى إنشاء مثيل لـ`Presentation` الفئة التي تمثل ملف عرض PowerPoint التقديمي الخاص بك. يجب عليك توفير المسار إلى ملف العرض التقديمي الخاص بك في ملف`dataDir` عامل.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### الخطوة 2.2: الوصول إلى شريحة الملاحظات الرئيسية
 
- في حدود`using` الكتلة، يمكننا الوصول إلى شريحة الملاحظات الرئيسية. تحتوي شريحة الملاحظات الرئيسية على النمط الافتراضي للملاحظات في العرض التقديمي.
+ في حدود`using`الكتلة، يمكننا الوصول إلى شريحة الملاحظات الرئيسية. تحتوي شريحة الملاحظات الرئيسية على النمط الافتراضي للملاحظات في العرض التقديمي.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

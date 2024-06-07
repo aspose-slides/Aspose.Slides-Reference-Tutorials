@@ -46,7 +46,7 @@ IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
 
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Grafik kategorisi adlarını değiştirme
@@ -128,7 +128,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 IChart chart = (IChart) sld.getShapes().get_Item(0);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Grafik Kategori Adını değiştirme
 fact.getCell(defaultWorksheetIndex, 1, 0, "Modified Category 1");
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // 3. grafik serisini alın
 series = chart.getChartData().getSeries().get_Item(2);
-// Şimdi seri verileri dolduruluyor
+//Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

@@ -173,11 +173,11 @@ Trong hướng dẫn này, chúng ta đã học cách thêm các loại đườn
 
 ### Làm cách nào để thay đổi màu của đường xu hướng trong Aspose.Slides cho Java?
 
-Để thay đổi màu của đường xu hướng, bạn có thể sử dụng`getSolidFillColor().setColor(Color)` phương pháp, như trong ví dụ về cách thêm đường xu hướng tuyến tính.
+ Để thay đổi màu của đường xu hướng, bạn có thể sử dụng`getSolidFillColor().setColor(Color)` phương pháp, như trong ví dụ về cách thêm đường xu hướng tuyến tính.
 
 ### Tôi có thể thêm nhiều đường xu hướng vào một chuỗi biểu đồ không?
 
- Có, bạn có thể thêm nhiều đường xu hướng vào một chuỗi biểu đồ. Đơn giản chỉ cần gọi`getTrendLines().add()` phương pháp cho từng đường xu hướng bạn muốn thêm.
+Có, bạn có thể thêm nhiều đường xu hướng vào một chuỗi biểu đồ. Đơn giản chỉ cần gọi`getTrendLines().add()` phương pháp cho từng đường xu hướng bạn muốn thêm.
 
 ### Làm cách nào để xóa đường xu hướng khỏi biểu đồ trong Aspose.Slides cho Java?
 

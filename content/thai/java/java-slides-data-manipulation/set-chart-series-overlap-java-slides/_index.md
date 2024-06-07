@@ -76,7 +76,7 @@ try
 		// การตั้งค่าชุดการทับซ้อนกัน
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//เขียนไฟล์การนำเสนอลงดิสก์
+	// เขียนไฟล์การนำเสนอลงดิสก์
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

@@ -103,7 +103,7 @@ Aspose.Slides for .NET é uma biblioteca que permite que aplicativos .NET funcio
  Você pode encontrar a documentação[aqui](https://reference.aspose.com/slides/net/).
 
 ### O Aspose.Slides for .NET está disponível para teste gratuito?
- Sim, você pode obter uma versão de teste gratuita em[aqui](https://releases.aspose.com/).
+ Sim, você pode obter uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
 
 ### Como posso obter uma licença temporária do Aspose.Slides for .NET?
  Você pode solicitar uma licença temporária de[esse link](https://purchase.aspose.com/temporary-license/).

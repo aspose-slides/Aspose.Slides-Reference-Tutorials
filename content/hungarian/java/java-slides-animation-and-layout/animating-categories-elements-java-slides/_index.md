@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-Ebben a kódban egy meglévő PowerPoint-prezentációt töltünk be, amely tartalmazza az animálni kívánt diagramot. Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Ebben a kódban egy meglévő PowerPoint-prezentációt töltünk be, amely tartalmazza az animálni kívánt diagramot. Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
 ## 3. lépés: Szerezzen hivatkozást a diagramobjektumra
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Írja a bemutató fájlt lemezre
+	// Írja a bemutató fájlt lemezre
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -102,13 +102,13 @@ finally
 
 ## Következtetés
 
-Sikeresen animálta a kategóriaelemeket egy Java dián az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató megadta a szükséges forráskódot és magyarázatokat ahhoz, hogy ezt az animációs hatást elérhesse PowerPoint-prezentációiban. Kísérletezzen különböző effektusokkal és beállításokkal az animációk testreszabásához.
+Sikeresen animálta a kategóriaelemeket egy Java dián az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató megadja a szükséges forráskódot és magyarázatokat ahhoz, hogy ezt az animációs hatást elérhesse PowerPoint-prezentációiban. Kísérletezzen különböző effektusokkal és beállításokkal az animációk testreszabásához.
 
 ## GYIK
 
 ### Hogyan szabhatom testre az animációs effektusokat?
 
- Az animációs effektusokat testreszabhatja a`EffectType` és`EffectSubtype` paramétereket, amikor effektusokat ad hozzá a diagramelemekhez. Az elérhető animációs effektusokról az Aspose.Slides for Java dokumentációjában talál további részleteket.
+ Az animációs effektusokat testreszabhatja a`EffectType` és`EffectSubtype` paramétereket, amikor effektusokat ad hozzá a diagramelemekhez. Az elérhető animációs effektusokkal kapcsolatos további részletekért tekintse meg az Aspose.Slides for Java dokumentációt.
 
 ### Alkalmazhatom ezeket az animációkat más típusú diagramokon?
 
@@ -116,4 +116,4 @@ Igen, alkalmazhat hasonló animációkat más típusú diagramokon is, ha módos
 
 ### Hogyan tudhatok meg többet az Aspose.Slides for Java programról?
 
-Átfogó dokumentációért és további forrásokért keresse fel a[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . A könyvtárat innen is letöltheti[itt](https://releases.aspose.com/slides/java/).
+ Átfogó dokumentációért és további forrásokért keresse fel a[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . A könyvtárat innen is letöltheti[itt](https://releases.aspose.com/slides/java/).

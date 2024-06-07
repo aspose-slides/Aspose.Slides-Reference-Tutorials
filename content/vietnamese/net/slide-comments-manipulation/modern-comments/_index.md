@@ -35,7 +35,7 @@ using Aspose.Slides.Comments;
 
 ## Thêm bình luận hiện đại
 
-Trong phần này, chúng tôi sẽ chia nhỏ quá trình thêm nhận xét hiện đại vào bản trình bày PowerPoint thành nhiều bước.
+Trong phần này, chúng tôi sẽ chia nhỏ quy trình thêm nhận xét hiện đại vào bản trình bày PowerPoint thành nhiều bước.
 
 ### Bước 2: Tạo bản trình bày mới
 

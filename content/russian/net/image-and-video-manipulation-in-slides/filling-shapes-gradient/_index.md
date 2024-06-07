@@ -70,6 +70,6 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
 ### Вопрос: Существует ли бесплатная пробная версия Aspose.Slides для .NET?
  О: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/).
 ### Вопрос: Как я могу получить поддержку Aspose.Slides для .NET?
- Ответ: Обращайтесь за помощью и взаимодействуйте с сообществом по[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
+Ответ: Обращайтесь за помощью и взаимодействуйте с сообществом по[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Вопрос: Могу ли я приобрести временную лицензию на Aspose.Slides для .NET?
  О: Конечно, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).

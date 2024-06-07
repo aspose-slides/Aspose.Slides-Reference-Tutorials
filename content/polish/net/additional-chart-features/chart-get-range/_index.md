@@ -92,4 +92,4 @@ Tak, w prezentacji programu PowerPoint możesz pracować ze slajdami, kształtam
  Możesz poprosić o licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie opcje wsparcia są dostępne dla użytkowników Aspose.Slides for .NET?
-Możesz uzyskać wsparcie i pomoc od społeczności Aspose na ich stronie[forum wsparcia](https://forum.aspose.com/).
+ Możesz uzyskać wsparcie i pomoc od społeczności Aspose na ich stronie[forum wsparcia](https://forum.aspose.com/).

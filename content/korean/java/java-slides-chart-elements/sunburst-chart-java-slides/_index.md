@@ -159,7 +159,7 @@ finally
 
 ### 차트에 데이터 포인트를 더 추가할 수 있나요?
 
- 예, 다음을 사용하여 차트에 더 많은 데이터 포인트를 추가할 수 있습니다.`series.getDataPoints().addDataPointForSunburstSeries()` 포함하려는 각 데이터 포인트에 대한 메서드입니다.
+ 예, 다음을 사용하여 차트에 더 많은 데이터 포인트를 추가할 수 있습니다.`series.getDataPoints().addDataPointForSunburstSeries()` 포함하려는 각 데이터 포인트에 대한 방법입니다.
 
 ### Sunburst 차트에 도구 설명을 어떻게 추가할 수 있나요?
 

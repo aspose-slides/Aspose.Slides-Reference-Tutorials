@@ -26,7 +26,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 ```java
 // Il percorso della directory dei documenti.
 String dataDir = "Your Document Directory";
-//Crea un'istanza della classe Presentation che rappresenta un file di presentazione
+// Crea un'istanza della classe Presentation che rappresenta un file di presentazione
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Il percorso della directory dei documenti.
 String dataDir = "Your Document Directory";
-//Crea un'istanza della classe Presentation che rappresenta un file di presentazione
+// Crea un'istanza della classe Presentation che rappresenta un file di presentazione
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Hai animato con successo serie in un grafico di PowerPoint utilizzando Aspose.Sl
 
 ### Come posso controllare l'ordine delle animazioni delle serie?
 
- Per controllare l'ordine delle animazioni della serie, utilizzare il comando`EffectTriggerType.AfterPrevious` parametro quando si aggiungono gli effetti. Ciò farà sì che ogni animazione della serie inizi dopo il termine della precedente.
+ Per controllare l'ordine delle animazioni della serie, utilizzare il comando`EffectTriggerType.AfterPrevious`parametro quando si aggiungono gli effetti. Ciò farà sì che ogni animazione della serie inizi dopo il termine della precedente.
 
 ### Posso applicare animazioni diverse a ciascuna serie?
 

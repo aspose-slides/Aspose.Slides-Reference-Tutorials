@@ -69,7 +69,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // 차트 데이터 시트의 인덱스 설정
 int defaultWorksheetIndex = 0;
 
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // 기본 생성된 시리즈 및 카테고리 삭제
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// 계열의 채우기 색상 설정
+//계열의 채우기 색상 설정
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// 계열의 채우기 색상 설정
+//계열의 채우기 색상 설정
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -170,7 +170,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // 차트 데이터 시트의 인덱스 설정
 int defaultWorksheetIndex = 0;
-//차트 데이터 워크시트 가져오기
+// 차트 데이터 워크시트 가져오기
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // 기본 생성된 시리즈 및 카테고리 삭제
 chart.getChartData().getSeries().clear();
@@ -186,23 +186,23 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // 첫 번째 차트 시리즈 가져오기
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// 이제 계열 데이터를 채우는 중입니다.
+//이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// 계열의 채우기 색상 설정
+//계열의 채우기 색상 설정
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // 두 번째 차트 시리즈 가져오기
 series = chart.getChartData().getSeries().get_Item(1);
-// 이제 계열 데이터를 채우는 중입니다.
+//이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// 계열의 채우기 색상 설정
+//계열의 채우기 색상 설정
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-//첫 번째 라벨은 카테고리 이름을 표시합니다.
+// 첫 번째 라벨은 카테고리 이름을 표시합니다.
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
@@ -239,4 +239,4 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### 차트를 다른 파일 형식으로 저장하려면 어떻게 해야 합니까?
 
-차트를 다른 파일 형식으로 저장하려면`SaveFormat` 매개변수`pres.save()` 방법을 원하는 형식(예: PDF, PNG, JPEG)으로 변경합니다.
+ 차트를 다른 파일 형식으로 저장하려면`SaveFormat` 매개변수`pres.save()`방법을 원하는 형식(예: PDF, PNG, JPEG)으로 변경합니다.

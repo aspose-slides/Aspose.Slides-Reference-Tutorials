@@ -92,7 +92,7 @@ if (!headerFooterManager.IsDateTimeVisible)
 }
 ```
 
-### Langkah 7: Atur Teks Footer dan Tanggal-Waktu
+### Langkah 7: Atur Footer dan Teks Tanggal-Waktu
 
 Terakhir, Anda dapat mengatur teks untuk footer dan placeholder tanggal-waktu.
 

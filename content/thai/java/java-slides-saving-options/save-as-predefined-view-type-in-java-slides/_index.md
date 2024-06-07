@@ -51,7 +51,7 @@ Presentation presentation = new Presentation();
 presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
 ```
 
- ในโค้ดข้างต้น เราใช้`setLastView` วิธีการของ`ViewProperties` คลาสเพื่อกำหนดประเภทมุมมองเป็น`SlideMasterView`. คุณสามารถเลือกประเภทมุมมองอื่นๆ ได้ตามต้องการ
+ ในโค้ดข้างต้น เราใช้`setLastView` วิธีการของ`ViewProperties` คลาสเพื่อกำหนดประเภทมุมมองเป็น`SlideMasterView`- คุณสามารถเลือกประเภทมุมมองอื่นๆ ได้ตามต้องการ
 
 ## ขั้นตอนที่ 3: บันทึกการนำเสนอ
 

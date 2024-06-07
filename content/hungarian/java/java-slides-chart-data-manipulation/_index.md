@@ -15,7 +15,7 @@ Az Aspose.Slides for Java egy hatékony API, amely a Java fejlesztők számára 
 
 ## Könnyű diagramadat-manipuláció
 
-Az Aspose.Slides for Java egyik kiemelkedő tulajdonsága, hogy könnyedén tudja kezelni a diagramadatokat. Mondjon búcsút a kézi adatbevitelnek és az unalmas frissítéseknek. Az Aspose.Slides segítségével dinamikusan frissítheti diagramjait, így prezentációit vonzóbbá és naprakészebbé teheti.
+Az Aspose.Slides for Java egyik kiemelkedő tulajdonsága, hogy könnyedén tudja kezelni a diagramadatokat. Mondjon búcsút a kézi adatbevitelnek és az unalmas frissítéseknek. Az Aspose.Slides segítségével dinamikusan frissítheti diagramjait, így prezentációi vonzóbbá és naprakészebbé válhatnak.
 
 ## Interaktív látványelemek készítése
 
@@ -29,7 +29,7 @@ Az Aspose.Slides for Java integrálása a Java-alkalmazásokba zökkenőmentes. 
 ### [Adjon színt a Java Slides adatpontjaihoz](./add-color-data-points-java-slides/)
 Ismerje meg, hogyan adhat színt a Java diák adatpontjaihoz az Aspose.Slides for Java segítségével.
 ### [Egyéni hiba hozzáadása a Java Slides-hez](./add-custom-error-java-slides/)
-Ismerje meg, hogyan adhat egyéni hibasávokat a PowerPoint diagramokhoz a Java Slides programban az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal az adatok pontos megjelenítéséhez.
+Ismerje meg, hogyan adhat egyéni hibasávokat a Java Slides PowerPoint diagramjaihoz az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal az adatok pontos megjelenítéséhez.
 ### [Donut Callout hozzáadása a Java Slides-hez](./add-doughnut-callout-java-slides/)
 Ismerje meg, hogyan adhat hozzá fánkfeliratokat a Java Slides-hez az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a továbbfejlesztett prezentációkhoz.
 ### [Hibasávok hozzáadása a Java Slides-hez](./add-error-bars-java-slides/)

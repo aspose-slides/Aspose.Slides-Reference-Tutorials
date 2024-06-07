@@ -14,7 +14,7 @@ url: /ru/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 
 ## Предварительные условия
 
-Прежде чем начать, убедитесь, что у вас установлена и настроена библиотека Aspose.Slides for Java в вашем Java-проекте.
+Прежде чем начать, убедитесь, что у вас установлена и настроена библиотека Aspose.Slides for Java в вашем проекте Java.
 
 ## Шаг 1. Создайте презентацию
 

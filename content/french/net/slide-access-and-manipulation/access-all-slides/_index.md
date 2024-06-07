@@ -112,7 +112,7 @@ class Program
 
 ## Conclusion
 
-Dans ce guide, nous avons expliqué comment récupérer toutes les diapositives d'une présentation PowerPoint à l'aide d'Aspose.Slides pour .NET. Nous avons commencé par configurer le projet et charger la présentation. Ensuite, nous avons montré comment récupérer les informations des diapositives et accéder aux propriétés des diapositives à l'aide des API de la bibliothèque. En suivant ces étapes, vous pouvez travailler efficacement avec les fichiers de présentation par programme et extraire les informations nécessaires pour un traitement ultérieur.
+Dans ce guide, nous avons expliqué comment récupérer toutes les diapositives d'une présentation PowerPoint à l'aide d'Aspose.Slides pour .NET. Nous avons commencé par configurer le projet et charger la présentation. Ensuite, nous avons montré comment récupérer les informations des diapositives et accéder aux propriétés des diapositives à l'aide des API de la bibliothèque. En suivant ces étapes, vous pouvez travailler efficacement avec des fichiers de présentation par programme et extraire les informations nécessaires pour un traitement ultérieur.
 
 ## FAQ
 

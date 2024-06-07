@@ -1,7 +1,7 @@
 ---
 title: Tutoriais Aspose.Slides para processamento de PowerPoint
 linktitle: Tutoriais Aspose.Slides
-additionalTitle: Aspose Referências de API
+additionalTitle: Aspor referências de API
 description: Domine o processamento de apresentações com tutoriais Aspose.Slides. Crie, modifique e aprimore apresentações do PowerPoint com eficiência. Excel em manipulação de conteúdo dinâmico.
 type: docs
 weight: 10

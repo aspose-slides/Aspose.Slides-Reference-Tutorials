@@ -71,7 +71,7 @@ Kode ini memastikan bahwa warna isian rangkaian diatur ke otomatis.
 Untuk menyimpan presentasi, gunakan kode berikut:
 
 ```java
-//Tulis file presentasi ke disk
+// Tulis file presentasi ke disk
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Tulis file presentasi ke disk
+	// Tulis file presentasi ke disk
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -109,7 +109,7 @@ Selamat! Anda telah berhasil mengatur warna isian rangkaian otomatis di Slide Ja
 
 ### Bagaimana cara mengubah tipe bagan ke gaya lain?
 
- Anda dapat mengubah jenis grafik dengan menggantinya`ChartType.ClusteredColumn` dengan tipe grafik yang diinginkan, misalnya`ChartType.Line` atau`ChartType.Pie`.
+ Anda dapat mengubah jenis grafik dengan menggantinya`ChartType.ClusteredColumn` dengan tipe grafik yang diinginkan, seperti`ChartType.Line` atau`ChartType.Pie`.
 
 ### Bisakah saya menyesuaikan tampilan grafik lebih lanjut?
 

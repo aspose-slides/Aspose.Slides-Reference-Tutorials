@@ -58,7 +58,7 @@ Di sini, kita memperoleh indeks lembar kerja data grafik default.
 ## Langkah 3: Mendapatkan Lembar Kerja Data Bagan
 
 ```csharp
-//Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data bagan
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Kami menetapkan penanda gambar untuk titik data, sehingga Anda dapat menyesuaika
 ## Langkah 6: Mengubah Ukuran Penanda Seri Bagan
 
 ```csharp
-//Mengubah ukuran penanda seri bagan
+// Mengubah ukuran penanda seri bagan
 series.Marker.Size = 15;
 ```
 

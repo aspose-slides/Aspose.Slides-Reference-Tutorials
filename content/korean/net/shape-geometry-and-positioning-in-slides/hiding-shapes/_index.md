@@ -68,8 +68,8 @@ Congratulations! You've successfully hidden shapes in your presentation using As
 ### 대체 텍스트가 아닌 조건에 따라 도형을 숨길 수 있나요?
 전적으로! 모양 유형, 색상 또는 위치와 같은 다양한 속성을 기반으로 숨기기 논리를 사용자 정의할 수 있습니다.
 ### 추가 Aspose.Slides 문서는 어디서 찾을 수 있나요?
- 문서 살펴보기[여기](https://reference.aspose.com/slides/net/) 자세한 정보와 예시를 확인하세요.
+ 문서 살펴보기[여기](https://reference.aspose.com/slides/net/)자세한 정보와 예시를 확인하세요.
 ### Aspose.Slides에 임시 라이선스를 사용할 수 있나요?
- 네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
+ 네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/)테스트 목적으로.
 ### Aspose.Slides에 대한 커뮤니티 지원은 어떻게 받을 수 있나요?
  Aspose.Slides 커뮤니티에 가입하세요.[법정](https://forum.aspose.com/c/slides/11) 토론과 지원을 위해.

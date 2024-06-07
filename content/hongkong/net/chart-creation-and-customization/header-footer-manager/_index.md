@@ -47,7 +47,7 @@ string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
 {
     //您的頁首和頁尾管理程式碼將位於此處。
-    //…
+    //……
 }
 ```
 

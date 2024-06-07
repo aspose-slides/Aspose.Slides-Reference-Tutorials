@@ -177,7 +177,7 @@ try
 	// Thêm loạt phim mới
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	// Hiện đang điền dữ liệu chuỗi
+	//Hiện đang điền dữ liệu chuỗi
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));

@@ -14,7 +14,7 @@ Dalam tutorial ini, kami akan mendemonstrasikan cara menambahkan bilah kesalahan
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Slides untuk Java di proyek Java Anda. Anda dapat mengunduh perpustakaan dari[Asumsikan situs web](https://downloads.aspose.com/slides/java).
+ Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Slides untuk Java di proyek Java Anda. Anda dapat mengunduh perpustakaan dari[Asumsikan situs web](https://downloads.aspose.com/slides/java).
 
 ## Langkah 1: Buat Presentasi Kosong
 
@@ -62,7 +62,7 @@ Pada langkah ini, kami menambahkan bilah kesalahan ke bagan dan mengatur formatn
 - `setValue` menetapkan nilai untuk bilah kesalahan.
 - `setType` mendefinisikan jenis bilah kesalahan (misalnya, Plus atau Minus).
 -  Kami mengatur lebar garis bilah kesalahan menggunakan`getFormat().getLine().setWidth(2)`.
-- `setEndCap`menentukan apakah akan menyertakan batas akhir pada bilah kesalahan.
+- `setEndCap` menentukan apakah akan menyertakan batas akhir pada bilah kesalahan.
 
 ## Langkah 4: Simpan Presentasi
 
@@ -123,7 +123,7 @@ Ya, Anda dapat menambahkan bilah kesalahan ke berbagai tipe bagan yang didukung 
 
 ### Bagaimana cara mengatur posisi dan ukuran grafik pada slide?
 
- Anda dapat mengontrol posisi dan dimensi grafik dengan menyesuaikan parameter di`addChart` metode, seperti yang ditunjukkan pada Langkah 2.
+Anda dapat mengontrol posisi dan dimensi grafik dengan menyesuaikan parameter di`addChart` metode, seperti yang ditunjukkan pada Langkah 2.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Slides untuk Java?
 

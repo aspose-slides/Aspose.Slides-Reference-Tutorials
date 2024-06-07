@@ -56,7 +56,7 @@ Setiap slide dalam presentasi memiliki pengenal unik yang dapat digunakan untuk 
 Untuk mengakses slide berdasarkan indeksnya:
 
 ```csharp
-int slideIndex = 0; // Ganti dengan indeks yang diinginkan
+int slideIndex = 0; //Ganti dengan indeks yang diinginkan
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

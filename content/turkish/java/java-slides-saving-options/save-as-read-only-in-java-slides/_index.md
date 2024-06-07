@@ -37,7 +37,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-// Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
+//Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
 Presentation presentation = new Presentation();
 ```
 
@@ -78,7 +78,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
+//Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
 Presentation presentation = new Presentation();
 try
 {
@@ -116,7 +116,7 @@ Evet, salt okunur koruma ve yazma koruması için farklı şifreler ayarlayabili
 - `setReadProtection(String password)` salt okunur koruma için.
 - `setWriteProtection(String password)` yazma koruması için.
 
-### Bir sunumdaki belirli slaytları korumak mümkün mü?
+### Bir sunumdaki belirli slaytları korumak mümkün müdür?
 
  Evet, tek tek slaytlarda yazma korumasını ayarlayarak bir sunumdaki belirli slaytları koruyabilirsiniz. Kullan`Slide` nesnenin`getProtectionManager()`Belirli slaytlara yönelik korumayı yönetme yöntemi.
 

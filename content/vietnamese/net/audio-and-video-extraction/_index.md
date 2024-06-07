@@ -24,7 +24,7 @@ Các yếu tố đa phương tiện đóng một vai trò quan trọng trong vi�
 ### [Trích xuất âm thanh và video từ các slide bằng Aspose.Slides](./audio-and-video-extraction/)
 Tìm hiểu cách trích xuất âm thanh và video từ các trang trình bày bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã để nâng cao bản trình bày.
 ### [Trích xuất âm thanh từ slide](./extract-audio/)
-Tìm hiểu cách trích xuất âm thanh từ một trang chiếu bằng Aspose.Slides for .NET. Hướng dẫn từng bước với mã nguồn. Tạo, thao tác và chuyển đổi bản trình bày PowerPoint một cách dễ dàng.
+Tìm hiểu cách trích xuất âm thanh từ một trang trình bày bằng Aspose.Slides for .NET. Hướng dẫn từng bước với mã nguồn. Tạo, thao tác và chuyển đổi bản trình bày PowerPoint một cách dễ dàng.
 ### [Trích xuất âm thanh từ siêu liên kết](./extract-audio-from-hyperlink/)
 Tìm hiểu cách trích xuất âm thanh từ siêu liên kết bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã và câu hỏi thường gặp.
 ### [Trích xuất âm thanh từ dòng thời gian](./extract-audio-from-timeline/)

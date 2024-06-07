@@ -58,7 +58,7 @@ int defaultWorksheetIndex = 0;
 ## ขั้นตอนที่ 3: รับแผ่นงานข้อมูลแผนภูมิ
 
 ```csharp
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ## ขั้นตอนที่ 6: การเปลี่ยนขนาดเครื่องหมายชุดแผนภูมิ
 
 ```csharp
-//การเปลี่ยนขนาดเครื่องหมายชุดแผนภูมิ
+// การเปลี่ยนขนาดเครื่องหมายชุดแผนภูมิ
 series.Marker.Size = 15;
 ```
 

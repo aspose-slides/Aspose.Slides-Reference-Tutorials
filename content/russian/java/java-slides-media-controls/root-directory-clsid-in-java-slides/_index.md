@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Замените «ваш_в
 Presentation pres = new Presentation();
 ```
 
- В приведенном выше коде мы определяем путь к выходному файлу презентации и создаем новый файл.`Presentation` объект.
+В приведенном выше коде мы определяем путь к выходному файлу презентации и создаем новый файл.`Presentation` объект.
 
 ## Шаг 2. Установите ClsId корневого каталога
 
- Чтобы установить ClsId корневого каталога, вам необходимо создать экземпляр`PptOptions`и установите желаемый CLSID. CLSID представляет приложение, которое будет использоваться в качестве корневого каталога при активации гиперссылки.
+ Чтобы установить ClsId корневого каталога, вам необходимо создать экземпляр`PptOptions` и установите желаемый CLSID. CLSID представляет приложение, которое будет использоваться в качестве корневого каталога при активации гиперссылки.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// установите CLSID на «Microsoft Powerpoint.Show.8»
+	//установите CLSID на «Microsoft Powerpoint.Show.8»
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Сохранить презентацию
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

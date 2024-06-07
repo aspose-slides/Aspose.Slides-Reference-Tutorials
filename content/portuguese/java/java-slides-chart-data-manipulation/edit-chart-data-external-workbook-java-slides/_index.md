@@ -102,4 +102,4 @@ Você pode adaptar o código para lidar com diferentes formatos de pasta de trab
 
 ### Como posso automatizar esse processo para múltiplas apresentações?
 
-Você pode criar um loop para processar múltiplas apresentações, carregando cada uma delas, fazendo as alterações desejadas e salvando as apresentações modificadas uma por uma.
+Você pode criar um loop para processar múltiplas apresentações, carregando cada uma, fazendo as alterações desejadas e salvando as apresentações modificadas uma por uma.

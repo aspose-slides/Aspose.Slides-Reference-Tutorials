@@ -113,7 +113,7 @@ Alternativní text poskytuje textový popis vizuálních prvků a umožňuje jed
 
 ### Jak mohu otestovat přístupnost svých prezentací?
 
-K vyhodnocení efektivity alternativního textu prezentací a celkové přístupnosti můžete použít programy pro čtení z obrazovky nebo nástroje pro testování usnadnění.
+K vyhodnocení účinnosti alternativního textu prezentací a celkové přístupnosti můžete použít programy pro čtení z obrazovky nebo nástroje pro testování usnadnění.
 
 ### Je Aspose.Slides vhodný pro začátečníky i zkušené vývojáře?
 

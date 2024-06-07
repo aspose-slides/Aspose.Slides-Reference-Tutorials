@@ -10,7 +10,7 @@ url: /pl/java/data-manipulation/setting-callout-data-label-java-slides/
 
 ## Wprowadzenie do ustawiania objaśnień dla etykiety danych w Aspose.Slides dla Java
 
-W tym samouczku pokażemy, jak skonfigurować objaśnienia etykiet danych na wykresie za pomocą Aspose.Slides dla Java. Objaśnienia mogą być przydatne do wyróżniania określonych punktów danych na wykresie. Przejdziemy przez kod krok po kroku i udostępnimy niezbędny kod źródłowy.
+tym samouczku pokażemy, jak skonfigurować objaśnienia etykiet danych na wykresie za pomocą Aspose.Slides dla Java. Objaśnienia mogą być przydatne do wyróżniania określonych punktów danych na wykresie. Przejdziemy przez kod krok po kroku i udostępnimy niezbędny kod źródłowy.
 
 ## Warunki wstępne
 
@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Dostosuj formatowanie etykiet (czcionka, wypełnienie itp.)
+        //Dostosuj formatowanie etykiet (czcionka, wypełnienie itp.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Jak włączyć lub wyłączyć objaśnienia etykiet danych?
 
- Aby włączyć lub wyłączyć objaśnienia etykiet danych, użyj opcji`setShowLabelAsDataCallout` metoda. Ustaw to na`true` aby włączyć objaśnienia i`false` aby je wyłączyć.
+ Aby włączyć lub wyłączyć objaśnienia etykiet danych, użyj opcji`setShowLabelAsDataCallout` metoda. Ustaw to na`true` aby włączyć objaśnienia i`false`aby je wyłączyć.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Włącz objaśnienia

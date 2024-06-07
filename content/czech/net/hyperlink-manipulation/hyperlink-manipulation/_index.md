@@ -117,7 +117,7 @@ Ano, Aspose.Slides vám umožňuje přidávat hypertextové odkazy na různé ob
 Absolutně. Aspose.Slides podporuje různé formáty PowerPoint, včetně PPT, PPTX, PPS a dalších. Zajišťuje kompatibilitu s různými verzemi aplikace Microsoft PowerPoint.
 
 ### Kde najdu další zdroje a podporu pro Aspose.Slides?
-Pro podrobnou dokumentaci a podporu komunity navštivte stránku[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/net/) a[Aspose fórum podpory](https://forum.aspose.com/).
+ Pro podrobnou dokumentaci a podporu komunity navštivte stránku[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/net/) a[Aspose fórum podpory](https://forum.aspose.com/).
 
 ### Jak mohu získat dočasnou licenci pro Aspose.Slides?
  Pokud potřebujete dočasnou licenci pro Aspose.Slides, můžete si ji pořídit[tady](https://purchase.aspose.com/temporary-license/).

@@ -64,7 +64,7 @@ motionBhv.Path.Add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto,
 pts[0] = new PointF(-0.076f, -0.59f);
 motionBhv.Path.Add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, false);
 motionBhv.Path.Add(MotionCommandPathType.End, null, MotionPathPointsType.Auto, false);
-// Spara presentationen som PPTX till disk
+// Spara presentationen som PPTX på disk
 pres.Save(dataDir + "AnimExample_out.pptx", SaveFormat.Pptx);
 ```
 Detta kompletterar steg-för-steg-guiden för att applicera animationer på former med Aspose.Slides för .NET.

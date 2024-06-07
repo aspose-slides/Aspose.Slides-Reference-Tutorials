@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //Skapa gren 1
+    // Skapa gren 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -133,7 +133,7 @@ finally
 
 ## Slutsats
 
-I den här handledningen har du lärt dig hur du skapar ett trädkartadiagram i en PowerPoint-presentation med Aspose.Slides för Java-biblioteket. Trädkartadiagram är ett värdefullt verktyg för att visualisera hierarkisk data, vilket gör dina presentationer mer informativa och engagerande.
+den här handledningen har du lärt dig hur du skapar ett trädkartadiagram i en PowerPoint-presentation med Aspose.Slides för Java-biblioteket. Trädkartadiagram är ett värdefullt verktyg för att visualisera hierarkisk data, vilket gör dina presentationer mer informativa och engagerande.
 
 ## FAQ's
 

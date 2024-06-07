@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## ขั้นตอนที่ 4: เพิ่มแผนภูมิวงกลม
 
 ```java
-// เพิ่มแผนภูมิวงกลมด้วยข้อมูลเริ่มต้น
+//เพิ่มแผนภูมิวงกลมด้วยข้อมูลเริ่มต้น
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 int defaultWorksheetIndex = 0;
 
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // ลบซีรี่ส์และหมวดหมู่ที่สร้างโดยค่าเริ่มต้น
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//ปรับแต่งภาคอื่นๆ ในลักษณะเดียวกัน
+// ปรับแต่งภาคอื่นๆ ในลักษณะเดียวกัน
 ```
 
 ปรับแต่งลักษณะที่ปรากฏของแต่ละส่วนในแผนภูมิวงกลม คุณสามารถเปลี่ยนสี ลักษณะเส้นขอบ และคุณสมบัติการมองเห็นอื่นๆ ได้
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 int defaultWorksheetIndex = 0;
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // ลบซีรี่ส์และหมวดหมู่ที่สร้างโดยค่าเริ่มต้น
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // กำลังเพิ่มซีรีส์ใหม่
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// กำลังเติมข้อมูลซีรีส์
+//กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//ไม่ได้ทำงานในเวอร์ชันใหม่
+// ไม่ได้ทำงานในเวอร์ชันใหม่
 // การเพิ่มจุดใหม่และการตั้งค่าสีเซกเตอร์
 // series.IsColorVaried = จริง;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### ฉันจะเปลี่ยนสีของแต่ละส่วนในแผนภูมิวงกลมได้อย่างไร
 
- หากต้องการเปลี่ยนสีของแต่ละส่วนในแผนภูมิวงกลม คุณสามารถปรับแต่งสีเติมสำหรับแต่ละจุดข้อมูลได้ ในตัวอย่างโค้ดที่ให้มา เราได้สาธิตวิธีการตั้งค่าสีเติมสำหรับแต่ละเซกเตอร์โดยใช้`getSolidFillColor().setColor()`วิธี. คุณสามารถแก้ไขค่าสีเพื่อให้ได้ลักษณะที่ต้องการได้
+ หากต้องการเปลี่ยนสีของแต่ละส่วนในแผนภูมิวงกลม คุณสามารถปรับแต่งสีเติมสำหรับแต่ละจุดข้อมูลได้ ในตัวอย่างโค้ดที่ให้มา เราได้สาธิตวิธีการตั้งค่าสีเติมสำหรับแต่ละเซกเตอร์โดยใช้`getSolidFillColor().setColor()` วิธี. คุณสามารถแก้ไขค่าสีเพื่อให้ได้ลักษณะที่ต้องการได้
 
 ### ฉันสามารถเพิ่มหมวดหมู่และชุดข้อมูลเพิ่มเติมลงในแผนภูมิวงกลมได้หรือไม่
 
@@ -261,11 +261,11 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### ฉันจะปรับแต่งลักษณะที่ปรากฏของป้ายกำกับข้อมูลได้อย่างไร
 
- คุณสามารถปรับแต่งลักษณะที่ปรากฏของป้ายกำกับข้อมูลได้โดยใช้`getDataLabelFormat()` วิธีการบนฉลากของแต่ละจุดข้อมูล ในตัวอย่าง เราได้สาธิตวิธีการแสดงค่าบนป้ายกำกับข้อมูลโดยใช้`getDataLabelFormat().setShowValue(true)`. คุณสามารถปรับแต่งป้ายกำกับข้อมูลเพิ่มเติมได้โดยการควบคุมค่าที่จะแสดง แสดงคีย์คำอธิบาย และปรับตัวเลือกการจัดรูปแบบอื่นๆ
+ คุณสามารถปรับแต่งลักษณะที่ปรากฏของป้ายกำกับข้อมูลได้โดยใช้`getDataLabelFormat()` วิธีการบนฉลากของแต่ละจุดข้อมูล ในตัวอย่าง เราได้สาธิตวิธีการแสดงค่าบนป้ายกำกับข้อมูลโดยใช้`getDataLabelFormat().setShowValue(true)`- คุณสามารถปรับแต่งป้ายกำกับข้อมูลเพิ่มเติมได้โดยการควบคุมค่าที่จะแสดง แสดงคีย์คำอธิบาย และปรับตัวเลือกการจัดรูปแบบอื่นๆ
 
 ### ฉันสามารถเปลี่ยนชื่อของแผนภูมิวงกลมได้หรือไม่
 
- ได้ คุณสามารถเปลี่ยนชื่อของแผนภูมิวงกลมได้ ในโค้ดที่ให้มา เราตั้งชื่อแผนภูมิโดยใช้`chart.getChartTitle().addTextFrameForOverriding("Sample Title")` . คุณสามารถแทนที่ได้`"Sample Title"` พร้อมข้อความหัวเรื่องที่คุณต้องการ
+ ได้ คุณสามารถเปลี่ยนชื่อของแผนภูมิวงกลมได้ ในโค้ดที่ให้มา เราตั้งชื่อแผนภูมิโดยใช้`chart.getChartTitle().addTextFrameForOverriding("Sample Title")` - คุณสามารถแทนที่ได้`"Sample Title"` พร้อมข้อความหัวเรื่องที่คุณต้องการ
 
 ### ฉันจะบันทึกงานนำเสนอที่สร้างขึ้นด้วยแผนภูมิวงกลมได้อย่างไร
 
@@ -278,8 +278,8 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### ฉันสามารถสร้างแผนภูมิประเภทอื่นโดยใช้ Aspose.Slides สำหรับ Java ได้หรือไม่
 
- ใช่ Aspose.Slides สำหรับ Java รองรับแผนภูมิหลายประเภท รวมถึงแผนภูมิแท่ง แผนภูมิเส้น และอื่นๆ คุณสามารถสร้างแผนภูมิประเภทต่างๆ ได้โดยการเปลี่ยน`ChartType` เมื่อเพิ่มแผนภูมิ โปรดดูเอกสารประกอบของ Aspose.Slides สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการสร้างแผนภูมิประเภทต่างๆ
+ใช่ Aspose.Slides สำหรับ Java รองรับแผนภูมิหลายประเภท รวมถึงแผนภูมิแท่ง แผนภูมิเส้น และอื่นๆ คุณสามารถสร้างแผนภูมิประเภทต่างๆ ได้โดยการเปลี่ยน`ChartType` เมื่อเพิ่มแผนภูมิ โปรดดูเอกสารประกอบของ Aspose.Slides สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการสร้างแผนภูมิประเภทต่างๆ
 
 ### ฉันจะค้นหาข้อมูลเพิ่มเติมและตัวอย่างการทำงานกับ Aspose.Slides สำหรับ Java ได้อย่างไร
 
- สำหรับข้อมูลเพิ่มเติม เอกสารโดยละเอียด และตัวอย่างเพิ่มเติม คุณสามารถไปที่[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/). มีทรัพยากรที่ครอบคลุมเพื่อช่วยให้คุณใช้ห้องสมุดได้อย่างมีประสิทธิภาพ
+ สำหรับข้อมูลเพิ่มเติม เอกสารโดยละเอียด และตัวอย่างเพิ่มเติม คุณสามารถไปที่[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/)- มีทรัพยากรที่ครอบคลุมเพื่อช่วยให้คุณใช้ห้องสมุดได้อย่างมีประสิทธิภาพ

@@ -136,7 +136,7 @@ comment1.Remove();
 pres.Save(outPptxFile + "remove_comment.pptx", SaveFormat.Pptx);
 ```
 
-此步驟對於管理和更新演示內容非常有用。
+此步驟對於管理和更新簡報內容非常有用。
 
 透過這些步驟，您可以使用 Aspose.Slides for .NET 建立具有互動式評論和回應的簡報。無論您是想吸引觀眾還是與團隊成員合作，此功能都提供了廣泛的可能性。
 

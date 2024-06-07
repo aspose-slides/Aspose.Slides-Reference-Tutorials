@@ -99,7 +99,7 @@ try {
 
 ## Slutsats
 
-I den här guiden har vi lärt oss hur man beräknar formler i Java Slides med Aspose.Slides för Java. Vi skapade en ny presentation, la till ett diagram i den, ställde in formler och värden för diagramdataceller och sparade presentationen med de beräknade formlerna.
+I den här guiden har vi lärt oss hur man beräknar formler i Java Slides med Aspose.Slides för Java. Vi skapade en ny presentation, lade till ett diagram i den, ställde in formler och värden för diagramdataceller och sparade presentationen med de beräknade formlerna.
 
 ## FAQ's
 

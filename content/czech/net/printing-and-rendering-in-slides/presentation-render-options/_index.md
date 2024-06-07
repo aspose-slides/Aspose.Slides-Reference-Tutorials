@@ -10,7 +10,7 @@ url: /cs/net/printing-and-rendering-in-slides/presentation-render-options/
 Vytváření úžasných prezentací často zahrnuje jemné doladění možností vykreslování, abyste dosáhli požadovaného vizuálního dopadu. V tomto tutoriálu se ponoříme do světa možností vykreslování snímků prezentace pomocí Aspose.Slides for .NET. Postupujte podle podrobných kroků a příkladů a zjistěte, jak optimalizovat své prezentace.
 ## Předpoklady
 Než se pustíme do tohoto renderovacího dobrodružství, ujistěte se, že máte splněny následující předpoklady:
-- Aspose.Slides for .NET: Stáhněte a nainstalujte knihovnu Aspose.Slides. Knihovnu najdete na[tento odkaz](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Stáhněte a nainstalujte knihovnu Aspose.Slides. Knihovnu najdete na[tento odkaz](https://releases.aspose.com/slides/net/).
 - Adresář dokumentů: Nastavte adresář pro své dokumenty a zapamatujte si cestu. Budete jej potřebovat pro příklady kódu.
 ## Importovat jmenné prostory
 Ve své aplikaci .NET začněte importováním potřebných jmenných prostorů pro přístup k funkcím Aspose.Slides.
@@ -69,4 +69,4 @@ Odpověď: Ano, prozkoumejte dokumentaci Aspose.Slides, kde najdete úplný sezn
 ### Otázka: Mohu použít vlastní písma, která nejsou nainstalována v mém systému?
  Odpověď: Ano, zadejte cestu k souboru písem pomocí`AddFonts` metoda v`FontsLoader` třída.
 ### Otázka: Kde mohu vyhledat pomoc nebo se spojit s komunitou?
- A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a zapojení komunity.
+A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a zapojení komunity.

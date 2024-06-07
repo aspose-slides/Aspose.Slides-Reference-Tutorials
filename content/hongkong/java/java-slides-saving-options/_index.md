@@ -9,7 +9,7 @@ url: /zh-hant/java/saving-options/
 ---
 
 
-在動態簡報的世界中，Java 已成為一種多功能語言，提供了大量的工具和程式庫來增強您的投影片簡報。在管理和自訂投影片方面，Aspose.Slides for Java 是一個功能強大的解決方案。在本文中，我們將使用 Aspose.Slides for Java 深入研究 Java 投影片保存選項的令人興奮的領域。
+在動態簡報的世界中，Java 已成為一種多功能語言，提供了大量的工具和程式庫來增強您的投影片。在管理和自訂投影片方面，Aspose.Slides for Java 是一個功能強大的解決方案。在本文中，我們將使用 Aspose.Slides for Java 深入研究 Java 投影片保存選項的令人興奮的領域。
 
 ## Java 版 Aspose.Slides 簡介
 
@@ -23,7 +23,7 @@ Aspose.Slides for Java 的關鍵功能之一是能夠以各種格式儲存簡報
 
 PDF 是一種廣泛使用的共用文件格式。 Aspose.Slides for Java 可以輕鬆地將投影片儲存為 PDF 檔案。您可以自訂 PDF 設置，包括頁面大小、方向和質量，以滿足您的特定要求。
 
-### 導出為影像
+### 導出為圖像
 
 有時，您可能需要將投影片儲存為影像，以便在其他文件或線上平台中使用。 Aspose.Slides for Java 可讓您將單一投影片或整個簡報匯出為 JPEG、PNG 等格式的高品質圖片。
 

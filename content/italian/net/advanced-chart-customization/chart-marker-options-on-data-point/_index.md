@@ -58,7 +58,7 @@ Qui otteniamo l'indice del foglio di lavoro dei dati del grafico predefinito.
 ## Passaggio 3: ottenere il foglio di lavoro dei dati del grafico
 
 ```csharp
-//Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Impostiamo indicatori di immagine per i punti dati, consentendoti di personalizz
 ## Passaggio 6: modifica della dimensione dell'indicatore della serie di grafici
 
 ```csharp
-//Modifica delle dimensioni dell'indicatore delle serie di grafici
+// Modifica delle dimensioni dell'indicatore delle serie di grafici
 series.Marker.Size = 15;
 ```
 

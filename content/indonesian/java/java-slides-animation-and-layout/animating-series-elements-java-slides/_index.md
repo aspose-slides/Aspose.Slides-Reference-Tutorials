@@ -22,7 +22,7 @@ Sebelum memulai, pastikan Anda memiliki hal berikut:
 
 ## Langkah 1: Muat Presentasi
 
-Pertama, Anda perlu memuat presentasi PowerPoint yang berisi bagan yang ingin Anda animasikan. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
+ Pertama, Anda perlu memuat presentasi PowerPoint yang berisi bagan yang ingin Anda animasikan. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -113,7 +113,7 @@ Anda dapat menyesuaikan animasi untuk elemen bagan individual dengan mengubah je
 
 ### Bisakah saya menerapkan animasi ke objek lain di slide PowerPoint?
 
-Ya, Anda bisa menerapkan animasi ke berbagai objek di slide PowerPoint, bukan hanya grafik. Menggunakan`addEffect` metode untuk menentukan objek yang ingin Anda animasikan dan properti animasi yang diinginkan.
+ Ya, Anda bisa menerapkan animasi ke berbagai objek di slide PowerPoint, bukan hanya grafik. Menggunakan`addEffect` metode untuk menentukan objek yang ingin Anda animasikan dan properti animasi yang diinginkan.
 
 ### Bagaimana cara mengintegrasikan Aspose.Slides untuk Java ke dalam proyek saya?
 

@@ -47,7 +47,7 @@ Bây giờ, chúng ta sẽ điền dữ liệu vào biểu đồ. Chúng ta sẽ
 ```java
 // Thiết lập chỉ mục của bảng dữ liệu biểu đồ
 int defaultWorksheetIndex = 0;
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Xóa chuỗi và danh mục được tạo mặc định
 chart.getChartData().getSeries().clear();
@@ -70,14 +70,14 @@ Chúng tôi sẽ điền dữ liệu chuỗi cho cả Series 1 và Series 2.
 ```java
 // Lấy loạt biểu đồ đầu tiên
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Hiện đang điền dữ liệu chuỗi
+//Hiện đang điền dữ liệu chuỗi
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Lấy loạt biểu đồ thứ hai
 series = chart.getChartData().getSeries().get_Item(1);
-// Hiện đang điền dữ liệu chuỗi
+//Hiện đang điền dữ liệu chuỗi
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Thiết lập chỉ mục của bảng dữ liệu biểu đồ
 	int defaultWorksheetIndex = 0;
-	//Lấy bảng tính dữ liệu biểu đồ
+	// Lấy bảng tính dữ liệu biểu đồ
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Xóa chuỗi và danh mục được tạo mặc định
 	chart.getChartData().getSeries().clear();
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Lấy loạt biểu đồ đầu tiên
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// Hiện đang điền dữ liệu chuỗi
+	//Hiện đang điền dữ liệu chuỗi
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Lấy loạt biểu đồ thứ hai
 	series = chart.getChartData().getSeries().get_Item(1);
-	// Hiện đang điền dữ liệu chuỗi
+	//Hiện đang điền dữ liệu chuỗi
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// Đặt màu tô cho chuỗi
+	//Đặt màu tô cho chuỗi
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Lưu bài thuyết trình bằng biểu đồ
@@ -181,7 +181,7 @@ Mã này sẽ cho phép thư viện tự động chọn màu cho chuỗi biểu 
 
 ### Làm cách nào tôi có thể thêm chuỗi hoặc danh mục bổ sung vào biểu đồ?
 
- Để thêm chuỗi hoặc danh mục bổ sung vào biểu đồ, hãy sử dụng`getSeries()` Và`getCategories()` các phương pháp biểu đồ`ChartData` sự vật. Bạn có thể thêm chuỗi và danh mục mới bằng cách chỉ định dữ liệu và nhãn của chúng.
+Để thêm chuỗi hoặc danh mục bổ sung vào biểu đồ, hãy sử dụng`getSeries()` Và`getCategories()` các phương pháp biểu đồ`ChartData` sự vật. Bạn có thể thêm chuỗi và danh mục mới bằng cách chỉ định dữ liệu và nhãn của chúng.
 
 ### Có thể định dạng thêm biểu đồ và nhãn không?
 

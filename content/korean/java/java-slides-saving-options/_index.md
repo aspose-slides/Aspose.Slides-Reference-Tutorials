@@ -40,7 +40,7 @@ Aspose.Slides for Java는 PPTX, PPT, ODP, HTML과 같은 다양한 형식을 지
 Aspose.Slides for Java를 작업 흐름에 통합하면 의심할 여지 없이 프레젠테이션 게임이 향상되어 슬라이드가 이전보다 더 밝게 빛날 것입니다. 그렇다면 왜 기다리나요? Aspose.Slides for Java를 사용하여 Java 슬라이드의 세계에 뛰어들어 다음 프레젠테이션 걸작을 위한 무한한 가능성을 열어보세요.
 
 ## Java 슬라이드 저장 옵션 튜토리얼
-### [Java 슬라이드에 사전 정의된 보기 유형으로 저장](./save-as-predefined-view-type-in-java-slides/)
+### [Java 슬라이드에 미리 정의된 보기 유형으로 저장](./save-as-predefined-view-type-in-java-slides/)
 Aspose.Slides for Java를 사용하여 Java Slides에서 사전 정의된 보기 유형을 설정하는 방법을 알아보세요. 코드 예제와 FAQ가 포함된 단계별 가이드입니다.
 ### [Java 슬라이드에서 읽기 전용으로 저장](./save-as-read-only-in-java-slides/)
 Aspose.Slides를 사용하여 Java에서 PowerPoint 프레젠테이션을 읽기 전용으로 저장하는 방법을 알아보세요. 단계별 지침과 코드 예제를 통해 콘텐츠를 보호하세요.

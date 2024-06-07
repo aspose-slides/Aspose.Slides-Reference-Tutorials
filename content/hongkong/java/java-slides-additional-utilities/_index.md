@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /zh-hant/java/additional-utilities/
 ---
-您準備好將 Java Slides 演示提升到新的水平了嗎？ Aspose.Slides for Java 提供了一系列額外的實用程式和功能，可以將您的投影片轉變為迷人的傑作。在本文中，我們將探討 Aspose.Slides for Java 提供的各種工具和技術，讓您能夠創建給人留下深刻印象的簡報。
+您準備好將 Java Slides 演示提升到新的水平了嗎？ Aspose.Slides for Java 提供了一系列額外的實用程式和功能，可以將您的投影片轉變為迷人的傑作。在本文中，我們將探索 Aspose.Slides for Java 提供的各種工具和技術，使您能夠創建給人留下深刻印象的簡報。
 
 ## Aspose.Slides for Java 的強大功能
 
@@ -29,7 +29,7 @@ Aspose.Slides for Java 是一個強大的函式庫，為 Java 開發人員提供
 
 使用 Aspose.Slides for Java 教程釋放 Java Slides 簡報的潛力。潛入創意和功能的世界。現在就開始吧！
 
-## Java 投影片附加實用程式教學
+## Java 投影片附加實用程式教程
 ### [刪除 Java 投影片中未使用的 Layout Master](./remove-unused-layout-master-in-java-slides/)
 使用 Aspose.Slides 刪除未使用的版面母版。逐步指南和代碼。提高演示效率。
 ### [取得 Java 幻燈片中的文件格式信息](./get-file-format-information-in-java-slides/)

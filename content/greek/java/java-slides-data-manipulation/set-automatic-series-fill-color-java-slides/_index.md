@@ -71,7 +71,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 Για να αποθηκεύσετε την παρουσίαση, χρησιμοποιήστε τον ακόλουθο κώδικα:
 
 ```java
-//Γράψτε το αρχείο παρουσίασης στο δίσκο
+// Γράψτε το αρχείο παρουσίασης στο δίσκο
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Γράψτε το αρχείο παρουσίασης στο δίσκο
+	// Γράψτε το αρχείο παρουσίασης στο δίσκο
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

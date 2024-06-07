@@ -96,7 +96,7 @@ Dalam tutorial ini, kita telah mempelajari cara mendapatkan informasi format fil
 
 ### Bagaimana cara mendapatkan perpustakaan Aspose.Slides untuk Java?
 
- Anda dapat mengunduh perpustakaan Aspose.Slides untuk Java dari situs web Aspose di[Link ini](https://releases.aspose.com/slides/java/). Pilih versi yang sesuai untuk proyek Anda.
+ Anda dapat mengunduh perpustakaan Aspose.Slides untuk Java dari situs web Aspose di[Link ini](https://releases.aspose.com/slides/java/)Pilih versi yang sesuai untuk proyek Anda.
 
 ### Bisakah saya menggunakan kode ini dengan perpustakaan presentasi Java lainnya?
 

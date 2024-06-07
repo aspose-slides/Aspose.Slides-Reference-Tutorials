@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Lấy sổ làm việc dữ liệu biểu đồ
 
 ```java
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Thiết lập chỉ mục của bảng dữ liệu biểu đồ
 int defaultWorksheetIndex = 0;
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Thêm loạt bài
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -128,7 +128,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Lấy loạt biểu đồ thứ hai
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Hiện đang điền dữ liệu chuỗi
+//Hiện đang điền dữ liệu chuỗi
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -143,7 +143,7 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Phần kết luận
 
-Trong hướng dẫn này, bạn đã học cách đặt Độ rộng khoảng cách cho biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Điều chỉnh Độ rộng Khoảng cách cho phép bạn kiểm soát khoảng cách giữa các cột hoặc thanh trong biểu đồ, nâng cao khả năng trình bày trực quan dữ liệu của bạn.
+Trong hướng dẫn này, bạn đã học cách đặt Độ rộng khoảng cách cho biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Điều chỉnh Độ rộng khoảng cách cho phép bạn kiểm soát khoảng cách giữa các cột hoặc thanh trong biểu đồ, nâng cao khả năng trình bày trực quan dữ liệu của bạn.
 
 ## Câu hỏi thường gặp
 

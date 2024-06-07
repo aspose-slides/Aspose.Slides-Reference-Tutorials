@@ -101,4 +101,4 @@ Neste tutorial, você aprendeu como personalizar as propriedades da fonte para u
 
 ### Como posso personalizar as propriedades da fonte para elementos específicos do gráfico?
 
-Para personalizar as propriedades da fonte para elementos específicos do gráfico, como rótulos de eixo ou texto de legenda, você pode acessar esses elementos e definir suas propriedades de fonte usando métodos semelhantes aos mostrados acima.
+Para personalizar propriedades de fonte para elementos específicos do gráfico, como rótulos de eixo ou texto de legenda, você pode acessar esses elementos e definir suas propriedades de fonte usando métodos semelhantes aos mostrados acima.

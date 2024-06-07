@@ -41,7 +41,7 @@ import com.aspose.slides.PresentationFactory;
 // Путь к каталогу документов.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Он вернет «LoadFormat.Unknown», если файл имеет формат, отличный от формата презентации.
+//Он вернет «LoadFormat.Unknown», если файл имеет формат, отличный от формата презентации.
 ```
 
  В этом коде мы используем`PresentationFactory` чтобы получить информацию о файле презентации, включая его формат. Если файл не является допустимым форматом представления, он вернет «LoadFormat.Unknown».
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Путь к каталогу документов.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Он вернет «LoadFormat.Unknown», если файл имеет формат, отличный от формата презентации.
+        //Он вернет «LoadFormat.Unknown», если файл имеет формат, отличный от формата презентации.
 ```
 
 ## Заключение

@@ -16,7 +16,7 @@ Neste tutorial, você aprenderá como abrir uma apresentação protegida por sen
 
 Antes de começar, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-1.  Biblioteca Aspose.Slides for Java: certifique-se de ter baixado e instalado a biblioteca Aspose.Slides for Java. Você pode obtê-lo no[Aspor site](https://products.aspose.com/slides/java/).
+1. Biblioteca Aspose.Slides for Java: certifique-se de ter baixado e instalado a biblioteca Aspose.Slides for Java. Você pode obtê-lo no[Aspor site](https://products.aspose.com/slides/java/).
 
 2.  Ambiente de Desenvolvimento Java: Configure um ambiente de desenvolvimento Java em seu sistema, caso ainda não o tenha feito. Você pode baixar o Java do[Site da Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Substitua “pass” pela senha da sua apres
 
 ## Etapa 3: abra a apresentação
 
- Agora, você abrirá a apresentação protegida por senha usando o`Presentation` construtor de classe, que usa o caminho do arquivo e as opções de carregamento como parâmetros.
+ Agora, você abrirá a apresentação protegida por senha usando o`Presentation`construtor de classe, que usa o caminho do arquivo e as opções de carregamento como parâmetros.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -96,7 +96,7 @@ Neste tutorial, você aprendeu como abrir uma apresentação protegida por senha
 
 ### Como definir a senha para uma apresentação?
 
-Para definir a senha para uma apresentação, use o`loadOptions.setPassword("password")` método, onde`"password"` deve ser substituído pela senha desejada.
+ Para definir a senha para uma apresentação, use o`loadOptions.setPassword("password")` método, onde`"password"` deve ser substituído pela senha desejada.
 
 ### Posso abrir apresentações em formatos diferentes, como PPT e PPTX?
 

@@ -53,7 +53,7 @@ IAutoShape shape1 = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectang
 shape1.AddTextFrame("Aspose: File Format APIs");
 ```
 
-Il codice sopra crea una forma automatica rettangolare e aggiunge una cornice di testo con il testo "Aspose: File Format APIs".
+Il codice precedente crea una forma automatica rettangolare e aggiunge una cornice di testo con il testo "Aspose: File Format APIs".
 
 ## Passaggio 3: aggiungi il collegamento ipertestuale
 

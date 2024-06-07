@@ -67,6 +67,6 @@ pres.Save(resultPath, SaveFormat.Pptx);
 ### 단면 확대/축소 프레임의 모양을 사용자 정의할 수 있나요?
 전적으로! 단면 확대/축소 프레임의 치수, 위치 지정 및 스타일을 완벽하게 제어할 수 있습니다.
 ### Aspose.Slides에 사용할 수 있는 평가판이 있습니까?
- 예, 다음을 사용하여 Aspose.Slides의 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
+예, 다음을 사용하여 Aspose.Slides의 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
 ### Aspose.Slides 관련 쿼리에 대한 지원은 어디서 받을 수 있나요?
  지원이나 문의사항이 있는 경우 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).

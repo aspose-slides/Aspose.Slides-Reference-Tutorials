@@ -16,7 +16,7 @@ Antes de nos aprofundarmos no guia passo a passo, vamos garantir que você tenha
 
 1.  Aspose.Slides para .NET: Você deve ter o Aspose.Slides para .NET instalado. Se ainda não o fez, você pode baixá-lo no site[Site Aspose.Slides para .NET](https://releases.aspose.com/slides/net/).
 
-2. Ambiente de desenvolvimento: você deve ter um ambiente de desenvolvimento .NET configurado em seu sistema.
+2. Ambiente de Desenvolvimento: Você deve ter um ambiente de desenvolvimento .NET configurado em seu sistema.
 
 3. Conhecimento básico de C#: Familiaridade com programação C# é benéfica, pois usaremos C# para demonstrar a implementação.
 

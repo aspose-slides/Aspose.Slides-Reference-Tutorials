@@ -28,7 +28,7 @@ Kezdje egy új C# projekt létrehozásával a kívánt fejlesztői környezetben
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // Kép betöltése a bemutató képgyűjteménybe adandó
+    //Kép betöltése a bemutató képgyűjteménybe adandó
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...

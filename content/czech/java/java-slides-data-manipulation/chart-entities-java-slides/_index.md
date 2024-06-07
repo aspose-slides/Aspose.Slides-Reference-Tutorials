@@ -105,7 +105,7 @@ IPortion valtitle = chart.getAxes().getVerticalAxis().getTitle().getTextFrameFor
 valtitle.setText("Primary Axis");
 ```
 
-## Krok 7: Formátování osy kategorií
+## Krok 7: Formátování osy kategorie
 
 Osu kategorií, která obvykle představuje kategorie dat, lze také přizpůsobit:
 

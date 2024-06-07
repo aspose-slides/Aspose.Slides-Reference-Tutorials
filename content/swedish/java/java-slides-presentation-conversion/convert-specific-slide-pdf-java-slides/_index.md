@@ -10,13 +10,13 @@ url: /sv/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 ## Introduktion till att konvertera specifik bild till PDF i Java Slides
 
-en värld av Java-utveckling är det en vanlig uppgift att arbeta med presentationsbilder. Oavsett om du bygger ett rapporteringsverktyg eller ett presentationshanteringssystem kan möjligheten att konvertera specifika bilder till PDF-format vara en värdefull funktion. I den här steg-för-steg-guiden kommer vi att utforska hur man uppnår detta med Aspose.Slides för Java.
+I en värld av Java-utveckling är det en vanlig uppgift att arbeta med presentationsbilder. Oavsett om du bygger ett rapporteringsverktyg eller ett presentationshanteringssystem kan möjligheten att konvertera specifika bilder till PDF-format vara en värdefull funktion. I den här steg-för-steg-guiden kommer vi att utforska hur man uppnår detta med Aspose.Slides för Java.
 
 ## Förutsättningar
 
 Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.Slides for Java Library: Du måste ha Aspose.Slides for Java-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Du måste ha Aspose.Slides for Java-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
 
 2. Java-utvecklingsmiljö: Se till att du har en Java-utvecklingsmiljö inställd på ditt system.
 
@@ -48,7 +48,7 @@ finally
 
 I denna kod:
 
-- Vi anger sökvägen till katalogen som innehåller presentationsfilen (`SelectedSlides.pptx`som du vill konvertera till PDF.
+- Vi anger sökvägen till katalogen som innehåller presentationsfilen (`SelectedSlides.pptx`) som du vill konvertera till PDF.
 
 -  Vi skapar en`Presentation` objekt som representerar presentationsfilen.
 
@@ -58,7 +58,7 @@ I denna kod:
 
  Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 
-## Steg 3: Kör koden
+## Steg 3: Köra koden
 
 Kompilera och kör din Java-kod. Om allt är korrekt inställt hittar du PDF-filen som innehåller de specifika bilderna du valde i din dokumentkatalog.
 

@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //Crea ramo 1
+    // Crea ramo 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");

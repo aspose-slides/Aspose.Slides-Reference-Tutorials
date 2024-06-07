@@ -96,7 +96,7 @@ Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java Slides'ta dosya for
 
 ### Aspose.Slides for Java kütüphanesini nasıl edinebilirim?
 
- Aspose.Slides for Java kütüphanesini Aspose web sitesinden indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/java/). Projeniz için uygun sürümü seçin.
+ Aspose.Slides for Java kütüphanesini Aspose web sitesinden indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/java/)Projeniz için uygun sürümü seçin.
 
 ### Bu kodu diğer Java sunum kitaplıklarıyla kullanabilir miyim?
 

@@ -1,6 +1,6 @@
 ---
-title: Преобразование слайдов заметок в слайды Java
-linktitle: Преобразование слайдов заметок в слайды Java
+title: Преобразование режима слайдов заметок в слайды Java
+linktitle: Преобразование режима слайдов заметок в слайды Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как конвертировать представления слайдов заметок в Java Slides с помощью Aspose.Slides для Java. Пошаговое руководство с примерами кода для эффективного манипулирования PowerPoint.
 type: docs

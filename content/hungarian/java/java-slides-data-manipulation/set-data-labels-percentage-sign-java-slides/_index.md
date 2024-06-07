@@ -16,7 +16,7 @@ Ebben az útmutatóban végigvezetjük a százalékjellel ellátott adatcímkék
 
  Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár hozzáadva van a projekthez. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Hozzon létre egy új bemutatót
+## 1. lépés: Hozzon létre egy új prezentációt
 
 Először is létrehozunk egy új PowerPoint-prezentációt az Aspose.Slides segítségével.
 
@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Adatokat adunk a diagramhoz sorozatok és adatpontok létrehozásával. Ebben a példában két sorozatot adunk hozzá a megfelelő adatpontokkal.
 
 ```java
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Új sorozat hozzáadása
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Új sorozat hozzáadása
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

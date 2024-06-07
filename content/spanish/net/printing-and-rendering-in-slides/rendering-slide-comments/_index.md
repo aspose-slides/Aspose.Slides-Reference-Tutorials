@@ -55,7 +55,7 @@ notesOptions.NotesPosition = NotesPositions.BottomTruncated;
 renderOptions.SlidesLayoutOptions = notesOptions;
 ```
 ## Paso 6: renderizar en gráficos
-Renderice la primera diapositiva con comentarios al objeto gráfico especificado:
+Renderice la primera diapositiva con comentarios en el objeto gráfico especificado:
 ```csharp
 using (Graphics graphics = Graphics.FromImage(bmp))
 {
@@ -85,4 +85,4 @@ R: ¡Absolutamente! El tutorial incluye opciones para personalizar el color, el 
 ### P: ¿Cómo obtengo una licencia temporal para Aspose.Slides?
  R: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo buscar ayuda y soporte para Aspose.Slides?
- R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para el apoyo de la comunidad.
+R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para el apoyo de la comunidad.

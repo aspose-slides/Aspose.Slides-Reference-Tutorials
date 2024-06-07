@@ -16,7 +16,7 @@ In questo tutorial impareremo come impostare un formato di data per l'asse delle
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1.  Aspose.Slides per la libreria Java (puoi scaricarla da[Qui](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides per la libreria Java (puoi scaricarla da[Qui](https://releases.aspose.com/slides/java/).
 2. Configurazione dell'ambiente di sviluppo Java.
 
 ## Passaggio 1: crea una presentazione PowerPoint
@@ -138,4 +138,4 @@ Sì, puoi impostare formati di data diversi per gli assi delle categorie in graf
 
 ### Come faccio ad aggiungere più punti dati al grafico?
 
- Per aggiungere più punti dati al grafico, utilizzare il file`getDataPoints().addDataPointForLineSeries` metodo sulla serie di dati e fornire i valori dei dati.
+ Per aggiungere più punti dati al grafico, utilizzare il file`getDataPoints().addDataPointForLineSeries`metodo sulla serie di dati e fornire i valori dei dati.

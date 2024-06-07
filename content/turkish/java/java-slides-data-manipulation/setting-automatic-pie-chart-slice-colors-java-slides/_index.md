@@ -10,7 +10,7 @@ url: /tr/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-sl
 
 ## Java Slaytlarında Otomatik Pasta Grafiği Dilim Renklerini Ayarlamaya Giriş
 
-Bu derste Aspose.Slides for Java kullanarak bir PowerPoint sunumunda pasta grafiğinin nasıl oluşturulacağını ve grafik için otomatik dilim renklerinin nasıl ayarlanacağını keşfedeceğiz. Kaynak koduyla birlikte adım adım rehberlik sağlayacağız.
+Bu derste, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda pasta grafiğinin nasıl oluşturulacağını ve grafik için otomatik dilim renklerinin nasıl ayarlanacağını keşfedeceğiz. Kaynak koduyla birlikte adım adım rehberlik sağlayacağız.
 
 ## Önkoşullar
 
@@ -103,7 +103,7 @@ Pasta grafiği için çeşitli dilim renklerini etkinleştirin:
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-## Adım 9: Sunuyu Kaydetme
+## Adım 9: Sunuyu Kaydedin
 
 Son olarak sunuyu bir PowerPoint dosyasına kaydedin:
 
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Grafik veri sayfasının indeksini ayarlama
 	int defaultWorksheetIndex = 0;
-	//Grafik verileri çalışma sayfasını alma
+	// Grafik verileri çalışma sayfasını alma
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Varsayılan oluşturulan serileri ve kategorileri silin
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Yeni seriler ekleniyor
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Şimdi seri verileri dolduruluyor
+	//Şimdi seri verileri dolduruluyor
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumunda başarılı bir �
 
 ### Pasta grafiğindeki tek tek dilimlerin renklerini nasıl özelleştirebilirim?
 
- Pasta grafiğindeki tek tek dilimlerin renklerini özelleştirmek için`getAutomaticSeriesColors`Varsayılan renk şemasını alma ve ardından renkleri gerektiği gibi değiştirme yöntemini kullanın. İşte bir örnek:
+ Pasta grafiğindeki tek tek dilimlerin renklerini özelleştirmek için`getAutomaticSeriesColors` Varsayılan renk şemasını alma ve ardından renkleri gerektiği gibi değiştirme yöntemini kullanın. İşte bir örnek:
 
 ```java
-// Varsayılan renk şemasını alın
+//Varsayılan renk şemasını alın
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Renkleri gerektiği gibi değiştirin

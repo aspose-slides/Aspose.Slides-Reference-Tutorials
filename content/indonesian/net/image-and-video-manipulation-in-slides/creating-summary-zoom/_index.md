@@ -11,7 +11,7 @@ url: /id/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 Dalam dunia presentasi yang dinamis, Aspose.Slides untuk .NET menonjol sebagai alat yang ampuh untuk meningkatkan pengalaman pembuatan slide Anda. Salah satu fitur penting yang ditawarkannya adalah kemampuan untuk membuat Zoom Ringkasan, cara yang menarik secara visual untuk menyajikan koleksi slide. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Ringkasan Zoom pada slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan di lingkungan .NET Anda. Jika belum, Anda dapat mendownloadnya dari[halaman rilis](https://releases.aspose.com/slides/net/).
+- Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan di lingkungan .NET Anda. Jika belum, Anda dapat mendownloadnya dari[halaman rilis](https://releases.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET Anda, termasuk Visual Studio atau IDE pilihan lainnya.
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
 ## Impor Namespace
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Langkah 2: Tambahkan Slide dan Bagian
- Langkah ini melibatkan pembuatan slide individual dan mengaturnya menjadi beberapa bagian dalam presentasi. Itu`AddEmptySlide` metode menambahkan slide baru, dan`Sections.AddSection` metode menetapkan bagian untuk organisasi yang lebih baik.
+ Langkah ini melibatkan pembuatan slide individual dan mengaturnya menjadi beberapa bagian dalam presentasi. Itu`AddEmptySlide`metode menambahkan slide baru, dan`Sections.AddSection` metode menetapkan bagian untuk organisasi yang lebih baik.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Kode untuk menata slide ada di sini
@@ -78,4 +78,4 @@ Sangat! Anda dapat menyertakan hyperlink di slide Anda, dan hyperlink tersebut a
 ### Apakah ada batasan jumlah bagian dalam presentasi?
 Pada versi terbaru, tidak ada batasan ketat mengenai jumlah bagian yang dapat Anda tambahkan ke presentasi.
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides?
-Ya, Anda dapat menjelajahi fitur Aspose.Slides dengan mengunduh[versi percobaan gratis](https://releases.aspose.com/).
+ Ya, Anda dapat menjelajahi fitur Aspose.Slides dengan mengunduh[versi percobaan gratis](https://releases.aspose.com/).

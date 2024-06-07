@@ -29,7 +29,7 @@ Pro ty, kteří hledají pokročilá bezpečnostní opatření, je tento tutori�
 
 Aspose.Slides for Java otevírá svět možností pro zvýšení bezpečnosti vašich dokumentů Java Slides. Dodržováním těchto výukových programů budete dobře vybaveni k ochraně vašeho cenného obsahu před neoprávněným přístupem a zachování důvěrnosti vašich prezentací. Začněte se zabezpečením svých dokumentů Java Slides ještě dnes pomocí Aspose.Slides for Java.
 
-V tomto článku jsme se ponořili do důležitosti ochrany dokumentů, představili Aspose.Slides pro Javu jako řešení a nastínili jsme klíčové výukové programy, které vám pomohou začít. Zabezpečení vašeho obsahu je ve vašich rukou a Aspose.Slides for Java je vaším důvěryhodným spojencem v tomto úsilí. Vydejte se tedy na cestu k bezpečné správě dokumentů již nyní!
+V tomto článku jsme se ponořili do důležitosti ochrany dokumentů, představili Aspose.Slides pro Java jako řešení a nastínili jsme klíčové výukové programy, které vám pomohou začít. Zabezpečení vašeho obsahu je ve vašich rukou a Aspose.Slides for Java je vaším důvěryhodným spojencem v tomto úsilí. Vydejte se tedy na cestu k bezpečné správě dokumentů již nyní!
 
 ## Výukové programy ochrany dokumentů Java Slides
 ### [Odebrat ochranu proti zápisu v Java Slides](./remove-write-protection-in-java-slides/)

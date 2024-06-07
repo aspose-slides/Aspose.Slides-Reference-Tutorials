@@ -81,7 +81,7 @@ pres.getProtectionManager().setReadOnlyRecommended(false);
 
 ### Beállíthatok jelszót egy írásvédett, ajánlott prezentációhoz?
 
-Igen, az Aspose.Slides for Java segítségével beállíthat jelszót a csak olvasható, ajánlott prezentációkhoz. Használhatja a`setPassword` módszerrel jelszót állíthat be a prezentációhoz. Ha be van állítva jelszó, a felhasználóknak meg kell adniuk azt a prezentáció megnyitásához, még csak olvasható módban is.
+Igen, az Aspose.Slides for Java segítségével beállíthat jelszót a csak olvasható, ajánlott prezentációkhoz. Használhatja a`setPassword` módszer a prezentáció jelszavának beállítására. Ha be van állítva jelszó, a felhasználóknak meg kell adniuk azt a prezentáció megnyitásához, még csak olvasható módban is.
 
 ```java
 pres.getProtectionManager().setPassword("YourPassword");

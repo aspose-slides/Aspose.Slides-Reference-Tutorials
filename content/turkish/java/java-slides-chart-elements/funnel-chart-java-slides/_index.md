@@ -121,7 +121,7 @@ finally
 
 ## Çözüm
 
-Bu eğitimde size Aspose.Slides for Java kullanarak Java Slides'da nasıl huni grafiği oluşturulacağını gösterdik. Renkleri, etiketleri ve diğer özellikleri özel ihtiyaçlarınıza uyacak şekilde ayarlayarak grafiği daha da özelleştirebilirsiniz.
+Bu eğitimde size Aspose.Slides for Java kullanarak Java Slides'ta nasıl huni grafiği oluşturulacağını gösterdik. Renkleri, etiketleri ve diğer özellikleri özel ihtiyaçlarınıza uyacak şekilde ayarlayarak grafiği daha da özelleştirebilirsiniz.
 
 ## SSS'ler
 

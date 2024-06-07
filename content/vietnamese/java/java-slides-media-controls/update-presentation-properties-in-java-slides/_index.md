@@ -10,7 +10,7 @@ url: /vi/java/media-controls/update-presentation-properties-in-java-slides/
 
 ## Giới thiệu về Cập nhật thuộc tính bản trình bày trong Java Slides
 
-Trong thời đại kỹ thuật số ngày nay, bài thuyết trình đóng vai trò quan trọng trong việc truyền tải thông tin một cách hiệu quả. Cho dù đó là một đề xuất kinh doanh, một bài giảng giáo dục hay một bài thuyết trình bán hàng, bài thuyết trình đều được sử dụng để truyền đạt ý tưởng, dữ liệu và khái niệm. Trong thế giới lập trình Java, bạn có thể thấy mình cần thao tác với các thuộc tính của bản trình bày để nâng cao chất lượng và tác động của các trang trình bày của mình. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình cập nhật các thuộc tính bản trình bày trong các trang trình bày Java bằng Aspose.Slides cho Java.
+Trong thời đại kỹ thuật số ngày nay, bài thuyết trình đóng một vai trò quan trọng trong việc truyền tải thông tin một cách hiệu quả. Cho dù đó là một đề xuất kinh doanh, một bài giảng giáo dục hay một bài thuyết trình bán hàng, bài thuyết trình đều được sử dụng để truyền đạt ý tưởng, dữ liệu và khái niệm. Trong thế giới lập trình Java, bạn có thể thấy mình cần thao tác với các thuộc tính của bản trình bày để nâng cao chất lượng và tác động của các trang trình bày của mình. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình cập nhật các thuộc tính bản trình bày trong các trang trình bày Java bằng Aspose.Slides cho Java.
 
 ## Điều kiện tiên quyết
 

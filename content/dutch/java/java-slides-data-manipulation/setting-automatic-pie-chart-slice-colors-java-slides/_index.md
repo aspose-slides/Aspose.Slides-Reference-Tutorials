@@ -129,11 +129,11 @@ try
 	chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 	chart.getChartTitle().setHeight(20);
 	chart.setTitle(true);
-	// Stel de eerste reeks in op Waarden tonen
+	// Stel de eerste reeks in op Waarden weergeven
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// De index van het kaartgegevensblad instellen
 	int defaultWorksheetIndex = 0;
-	//Het werkblad met diagramgegevens ophalen
+	// Het werkblad met diagramgegevens ophalen
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Verwijder standaard gegenereerde series en categorieën
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Nieuwe serie toevoegen
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Vult nu seriegegevens in
+	//Vult nu seriegegevens in
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ U hebt met succes een cirkeldiagram gemaakt in een PowerPoint-presentatie met be
 
 ### Hoe kan ik de kleuren van afzonderlijke segmenten in het cirkeldiagram aanpassen?
 
- Om de kleuren van individuele segmenten in het cirkeldiagram aan te passen, kunt u de`getAutomaticSeriesColors`methode om het standaardkleurenschema op te halen en vervolgens de kleuren indien nodig aan te passen. Hier is een voorbeeld:
+ Om de kleuren van individuele segmenten in het cirkeldiagram aan te passen, kunt u de`getAutomaticSeriesColors` methode om het standaardkleurenschema op te halen en vervolgens de kleuren indien nodig aan te passen. Hier is een voorbeeld:
 
 ```java
-// Verkrijg het standaardkleurenschema
+//Verkrijg het standaardkleurenschema
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Pas de kleuren indien nodig aan

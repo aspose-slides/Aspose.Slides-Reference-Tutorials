@@ -68,8 +68,8 @@ Tak, Aspose.Slides obsługuje .NET Core, zapewniając elastyczność w Twoim śr
 ### Czy mogę ukryć kształty na podstawie warunków innych niż tekst alternatywny?
 Absolutnie! Możesz dostosować logikę ukrywania w oparciu o różne atrybuty, takie jak typ kształtu, kolor lub położenie.
 ### Gdzie mogę znaleźć dodatkową dokumentację Aspose.Slides?
- Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/slides/net/) szczegółowe informacje i przykłady.
+ Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/slides/net/)szczegółowe informacje i przykłady.
 ### Czy dostępne są tymczasowe licencje dla Aspose.Slides?
- Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowych.
+ Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/)do celów testowych.
 ### Jak mogę uzyskać wsparcie społeczności dla Aspose.Slides?
  Dołącz do społeczności Aspose.Slides na stronie[forum](https://forum.aspose.com/c/slides/11) za dyskusję i pomoc.

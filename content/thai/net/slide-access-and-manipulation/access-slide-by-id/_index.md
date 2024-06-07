@@ -56,7 +56,7 @@ using (var presentation = new Presentation(presentationPath))
 วิธีเข้าถึงสไลด์ตามดัชนี:
 
 ```csharp
-int slideIndex = 0; // แทนที่ด้วยดัชนีที่ต้องการ
+int slideIndex = 0; //แทนที่ด้วยดัชนีที่ต้องการ
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

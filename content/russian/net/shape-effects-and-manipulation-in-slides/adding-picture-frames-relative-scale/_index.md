@@ -22,13 +22,13 @@ using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
 ## Шаг 1. Настройте свой проект
-Начните с создания нового проекта C# в предпочитаемой вами среде разработки. Обязательно добавьте библиотеку Aspose.Slides for .NET в свой проект, ссылаясь на нее.
+Начните с создания нового проекта C# в предпочитаемой вами среде разработки. Обязательно добавьте в свой проект библиотеку Aspose.Slides for .NET, указав на нее ссылку.
 ## Шаг 2. Загрузите презентацию и изображение
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // Загрузите изображение, которое будет добавлено в коллекцию изображений презентации.
+    //Загрузите изображение, которое будет добавлено в коллекцию изображений презентации.
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...

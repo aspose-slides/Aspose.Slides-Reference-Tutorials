@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## 4단계: 변환 옵션 사용자 정의
 
- 변환 프로세스를 사용자 정의하기 위해 다음의 인스턴스를 생성할 수 있습니다.`XpsOptions` 수업. 예제에서는 메타파일을 PNG 이미지로 저장하는 옵션을 설정했습니다.
+변환 프로세스를 사용자 정의하기 위해 다음의 인스턴스를 생성할 수 있습니다.`XpsOptions` 수업. 예제에서는 메타파일을 PNG 이미지로 저장하는 옵션을 설정했습니다.
 
 ```java
 XpsOptions opts = new XpsOptions();

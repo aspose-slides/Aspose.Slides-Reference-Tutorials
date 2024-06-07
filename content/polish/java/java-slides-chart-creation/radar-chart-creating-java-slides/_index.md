@@ -10,7 +10,7 @@ url: /pl/java/chart-creation/radar-chart-creating-java-slides/
 
 ## Wprowadzenie do tworzenia wykresu radarowego w Java Slides
 
-W tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu radarowego przy użyciu interfejsu API Aspose.Slides for Java. Wykresy radarowe są przydatne do wizualizacji danych w formie kołowej, co ułatwia porównywanie wielu serii danych. Dostarczymy instrukcje krok po kroku wraz z kodem źródłowym Java.
+tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu radarowego przy użyciu interfejsu API Aspose.Slides for Java. Wykresy radarowe są przydatne do wizualizacji danych w formie kołowej, co ułatwia porównywanie wielu serii danych. Dostarczymy instrukcje krok po kroku wraz z kodem źródłowym Java.
 
 ## Warunki wstępne
 
@@ -177,7 +177,7 @@ try
 	// Dodawanie nowej serii
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	// Teraz wypełniam dane serii
+	//Teraz wypełniam dane serii
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));

@@ -77,7 +77,7 @@ slideShow.setSlides(slidesRange);
 
 kezdő és záró diaszámok beállításával szabályozhatja, hogy mely diák legyenek a diavetítés részei.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül a beállított prezentációt elmentjük egy fájlba.
 
@@ -95,7 +95,7 @@ Presentation pres = new Presentation();
 try {
 	// Lekéri a diavetítés beállításait
 	SlideShowSettings slideShow = pres.getSlideShowSettings();
-	// Beállítja az "Időzítés használata" paramétert
+	// Beállítja az „Időzítés használata” paramétert
 	slideShow.setUseTimings(false);
 	// Beállítja a toll színét
 	IColorFormat penColor = (ColorFormat)slideShow.getPenColor();
@@ -133,7 +133,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan állíthat be bemutató diavetíté
 
 ### Hogyan adhatok hozzá adott diákat a diavetítéshez?
 
- Ha konkrét diákat szeretne bevonni a diavetítésbe, hozzon létre a`SlidesRange` objektumot, és állítsa be a dia kezdő és záró számát a segítségével`setStart` és`setEnd` mód. Ezután rendelje hozzá ezt a tartományt a diavetítés beállításaihoz a segítségével`slideShow.setSlides(slidesRange)`.
+ Ha konkrét diákat szeretne bevonni a diavetítésbe, hozzon létre a`SlidesRange` objektumot, és állítsa be a dia kezdő és záró számát a gombbal`setStart` és`setEnd` mód. Ezután rendelje hozzá ezt a tartományt a diavetítés beállításaihoz a segítségével`slideShow.setSlides(slidesRange)`.
 
 ### Hozzáadhatok több diát a prezentációhoz?
 

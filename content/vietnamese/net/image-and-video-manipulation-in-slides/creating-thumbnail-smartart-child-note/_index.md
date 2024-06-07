@@ -11,7 +11,7 @@ url: /vi/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 Trong lĩnh vực thuyết trình động, Aspose.Slides for .NET nổi bật như một công cụ mạnh mẽ, cung cấp cho các nhà phát triển khả năng thao tác và nâng cao các bài thuyết trình PowerPoint theo chương trình. Một tính năng hấp dẫn là khả năng tạo hình thu nhỏ cho SmartArt Child Notes, thêm một lớp hấp dẫn trực quan cho bản trình bày của bạn. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình tạo hình thu nhỏ cho SmartArt Child Notes bằng Aspose.Slides for .NET.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Aspose.Slides for .NET: Đảm bảo bạn đã tích hợp thư viện Aspose.Slides vào dự án .NET của mình. Nếu không, hãy tải xuống từ[trang phát hành](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Đảm bảo bạn đã tích hợp thư viện Aspose.Slides vào dự án .NET của mình. Nếu không, hãy tải xuống từ[trang phát hành](https://releases.aspose.com/slides/net/).
 - Môi trường phát triển: Thiết lập môi trường phát triển .NET đang hoạt động và có hiểu biết cơ bản về lập trình C#.
 - Bản trình bày mẫu: Tạo hoặc lấy bản trình bày PowerPoint có chứa SmartArt với Ghi chú con để thử nghiệm.
 ## Nhập không gian tên
@@ -23,7 +23,7 @@ using Aspose.Slides.SmartArt;
 using Aspose.Slides;
 ```
 ## Bước 1: Khởi tạo lớp trình bày
- Bắt đầu bằng cách khởi tạo`Presentation` lớp, đại diện cho tệp PPTX mà bạn sẽ làm việc.
+ Bắt đầu bằng việc khởi tạo`Presentation` lớp, đại diện cho tệp PPTX mà bạn sẽ làm việc.
 ```csharp
 string dataDir = "Your Documents Directory";
 Presentation pres = new Presentation();
@@ -57,8 +57,8 @@ Trả lời: Có, bạn có thể điều chỉnh kích thước và định d�
 ### Câu hỏi: Aspose.Slides có hỗ trợ các bố cục SmartArt khác không?
 Đ: Chắc chắn rồi! Aspose.Slides cung cấp nhiều bố cục SmartArt khác nhau, cho phép bạn chọn bố cục phù hợp nhất với nhu cầu thuyết trình của mình.
 ### Hỏi: Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
-Đáp: Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
+ Đáp: Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
 ### Hỏi: Tôi có thể tìm kiếm trợ giúp hoặc kết nối với cộng đồng Aspose.Slides ở đâu?
- Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để tương tác với cộng đồng, đặt câu hỏi và tìm giải pháp.
+Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để tương tác với cộng đồng, đặt câu hỏi và tìm giải pháp.
 ### Câu hỏi: Tôi có thể mua Aspose.Slides cho .NET không?
  Đ: Chắc chắn rồi! Khám phá các lựa chọn mua hàng[đây](https://purchase.aspose.com/buy) để khai thác toàn bộ tiềm năng của Aspose.Slides trong các dự án của bạn.

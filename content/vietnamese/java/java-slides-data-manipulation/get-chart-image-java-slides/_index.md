@@ -75,7 +75,7 @@ Lấy hình ảnh biểu đồ từ Java Slides bằng Aspose.Slides for Java l�
 
 ### Làm cách nào để cài đặt Aspose.Slides cho Java?
 
- Việc cài đặt Aspose.Slides cho Java rất đơn giản. Bạn có thể tải thư viện từ[đây](https://releases.aspose.com/slides/java/)và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+ Việc cài đặt Aspose.Slides cho Java rất đơn giản. Bạn có thể tải thư viện từ[đây](https://releases.aspose.com/slides/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Tôi có thể tùy chỉnh biểu đồ trước khi lấy hình ảnh của nó không?
 
@@ -91,4 +91,4 @@ Có, Aspose.Slides cho Java có thể được sử dụng cho mục đích thư
 
 ### Tôi có thể lưu hình ảnh biểu đồ ở định dạng khác không?
 
-Chắc chắn! Bạn có thể lưu hình ảnh biểu đồ ở nhiều định dạng khác nhau, chẳng hạn như JPEG hoặc GIF, bằng cách chỉ định phần mở rộng tệp thích hợp trong phần`ImageIO.write` phương pháp.
+ Chắc chắn! Bạn có thể lưu hình ảnh biểu đồ ở nhiều định dạng khác nhau, chẳng hạn như JPEG hoặc GIF, bằng cách chỉ định phần mở rộng tệp thích hợp trong phần`ImageIO.write` phương pháp.

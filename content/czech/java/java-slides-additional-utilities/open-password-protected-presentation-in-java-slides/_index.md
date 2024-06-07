@@ -16,7 +16,7 @@ V tomto tutoriálu se naučíte, jak otevřít heslem chráněnou prezentaci pom
 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Knihovna Aspose.Slides for Java: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.Slides for Java. Můžete jej získat z[Aspose webové stránky](https://products.aspose.com/slides/java/).
+1. Knihovna Aspose.Slides for Java: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.Slides for Java. Můžete jej získat z[Aspose webové stránky](https://products.aspose.com/slides/java/).
 
 2.  Vývojové prostředí Java: Pokud jste tak dosud neučinili, nastavte ve svém systému vývojové prostředí Java. Java si můžete stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Nahraďte „pass“ heslem k prezentaci
 
 ## Krok 3: Otevřete prezentaci
 
- Nyní otevřete heslem chráněnou prezentaci pomocí`Presentation` konstruktor třídy, který jako parametry bere cestu k souboru a možnosti načítání.
+ Nyní otevřete heslem chráněnou prezentaci pomocí`Presentation`konstruktor třídy, který jako parametry bere cestu k souboru a možnosti načítání.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -90,13 +90,13 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jste se naučili, jak otevřít heslem chráněnou prezentaci v Javě pomocí knihovny Aspose.Slides for Java. Nyní můžete přistupovat k datům prezentace a manipulovat s nimi podle potřeby ve vaší aplikaci Java.
+tomto tutoriálu jste se naučili, jak otevřít heslem chráněnou prezentaci v Javě pomocí knihovny Aspose.Slides for Java. Nyní můžete přistupovat k datům prezentace a manipulovat s nimi podle potřeby ve vaší aplikaci Java.
 
 ## FAQ
 
 ### Jak nastavím heslo pro prezentaci?
 
-Chcete-li nastavit heslo pro prezentaci, použijte`loadOptions.setPassword("password")` metoda, kde`"password"` by mělo být nahrazeno požadovaným heslem.
+ Chcete-li nastavit heslo pro prezentaci, použijte`loadOptions.setPassword("password")` metoda, kde`"password"` by mělo být nahrazeno požadovaným heslem.
 
 ### Mohu otevírat prezentace v různých formátech, jako je PPT a PPTX?
 

@@ -8,34 +8,34 @@ weight: 19
 url: /zh/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
 
-## 使用 Aspose.Slides 介绍 Java Slides 中的直方图
+## 使用 Aspose.Slides 在 Java Slides 中制作直方图的简介
 
-在本教程中，我们将指导您完成使用 Aspose.Slides for Java API 在 PowerPoint 演示文稿中创建直方图的过程。直方图用于表示连续间隔内的数据分布。
+在本教程中，我们将指导您使用 Aspose.Slides for Java API 在 PowerPoint 演示文稿中创建直方图的过程。直方图用于表示连续间隔内数据的分布。
 
 ## 先决条件
 
-在开始之前，请确保您已安装 Aspose.Slides for Java 库。您可以从[阿斯普斯网站](https://releases.aspose.com/slides/java/).
+开始之前，请确保已安装 Aspose.Slides for Java 库。您可以从[Aspose 网站](https://releases.aspose.com/slides/java/).
 
-## 第 1 步：初始化您的项目
+## 步骤 1：初始化您的项目
 
-创建一个 Java 项目并将 Aspose.Slides 库包含在项目的依赖项中。
+创建一个 Java 项目并将 Aspose.Slides 库包含在项目依赖项中。
 
-## 第2步：导入必要的库
+## 第 2 步：导入必要的库
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## 第 3 步：加载现有演示文稿
+## 步骤 3：加载现有演示文稿
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-确保更换`"Your Document Directory"`与 PowerPoint 文档的实际路径。
+确保更换`"Your Document Directory"`使用您的 PowerPoint 文档的实际路径。
 
-## 第 4 步：创建直方图
+## 步骤 4：创建直方图
 
 现在，让我们在演示文稿的幻灯片上创建直方图。
 
@@ -46,7 +46,7 @@ try {
     chart.getChartData().getSeries().clear();
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     
-    //将数据点添加到系列中
+    //向系列添加数据点
     IChartSeries series = chart.getChartData().getSeries().add(ChartType.Histogram);
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A1", 15));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A2", -41));
@@ -55,7 +55,7 @@ try {
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A5", -23));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A6", 16));
     
-    //将水平轴聚合类型设置为自动
+    //将水平轴聚合类型设置为“自动”
     chart.getAxes().getHorizontalAxis().setAggregationType(AxisAggregationType.Automatic);
     
     //保存演示文稿
@@ -65,7 +65,7 @@ try {
 }
 ```
 
-在此代码中，我们首先从图表中清除所有现有类别和系列。然后，我们使用以下方法将数据点添加到该系列中`getDataPoints().addDataPointForHistogramSeries`方法。最后，我们将水平轴聚合类型设置为自动并保存演示文稿。
+在此代码中，我们首先清除图表中现有的所有类别和系列。然后，我们使用`getDataPoints().addDataPointForHistogramSeries`方法。最后，我们将横轴聚合类型设置为自动，并保存演示。
 
 ## Java 幻灯片中直方图的完整源代码
 
@@ -97,17 +97,17 @@ finally
 
 ## 结论
 
-在本教程中，我们探索了如何使用 Aspose.Slides for Java API 在 PowerPoint 演示文稿中创建直方图。直方图是可视化连续时间间隔内数据分布的宝贵工具，它们可以为您的演示文稿提供强大的补充，尤其是在处理统计或分析内容时。
+在本教程中，我们探索了如何使用 Aspose.Slides for Java API 在 PowerPoint 演示文稿中创建直方图。直方图是可视化连续间隔内数据分布的宝贵工具，它们可以成为演示文稿的有力补充，尤其是在处理统计或分析内容时。
 
 ## 常见问题解答
 
 ### 如何安装 Aspose.Slides for Java？
 
-您可以从以下位置下载 Aspose.Slides for Java 库[这里](https://releases.aspose.com/slides/java/)。请按照其网站上提供的安装说明进行操作。
+您可以从以下位置下载 Aspose.Slides for Java 库[这里](https://releases.aspose.com/slides/java/)按照其网站上提供的安装说明进行操作。
 
-### 直方图有什么用？
+### 直方图有何用途？
 
-直方图用于可视化连续间隔内的数据分布。它通常在统计中用于表示频率分布。
+直方图用于直观显示连续间隔内的数据分布。它通常用于统计中以表示频率分布。
 
 ### 我可以自定义直方图的外观吗？
 

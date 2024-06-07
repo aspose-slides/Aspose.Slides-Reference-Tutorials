@@ -46,7 +46,7 @@ Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
 
 ## Langkah 4: Sesuaikan Opsi Konversi
 
- Untuk menyesuaikan proses konversi, Anda dapat membuat instance dari`XpsOptions` kelas. Dalam contoh ini, kami menetapkan opsi untuk menyimpan metafile sebagai gambar PNG.
+Untuk menyesuaikan proses konversi, Anda dapat membuat instance dari`XpsOptions` kelas. Dalam contoh ini, kami menetapkan opsi untuk menyimpan metafile sebagai gambar PNG.
 
 ```java
 XpsOptions opts = new XpsOptions();

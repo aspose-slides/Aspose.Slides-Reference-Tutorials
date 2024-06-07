@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## الخطوة 4: إضافة شكل مستطيل
- استخدم ال`Shapes` خاصية الشريحة لإضافة شكل تلقائي من النوع المستطيل. حدد موضع المستطيل وأبعاده.
+ استخدم ال`Shapes` خاصية الشريحة لإضافة شكل تلقائي من نوع المستطيل. حدد موضع المستطيل وأبعاده.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

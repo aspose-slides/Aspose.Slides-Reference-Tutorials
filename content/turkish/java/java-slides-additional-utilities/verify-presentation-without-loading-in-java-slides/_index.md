@@ -41,7 +41,7 @@ import com.aspose.slides.PresentationFactory;
 // Belgeler dizininin yolu.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Dosya sunum formatlarından farklıysa "LoadFormat.Unknown" değerini döndürür
+//Dosya sunum formatlarından farklıysa "LoadFormat.Unknown" değerini döndürür
 ```
 
  Bu kodda kullandığımız`PresentationFactory` Sunum dosyası hakkında, formatı da dahil olmak üzere bilgi almak için. Dosya geçerli bir sunum formatı değilse "LoadFormat.Unknown" değerini döndürür.
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Belgeler dizininin yolu.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Dosya sunum formatlarından farklıysa "LoadFormat.Unknown" değerini döndürür
+        //Dosya sunum formatlarından farklıysa "LoadFormat.Unknown" değerini döndürür
 ```
 
 ## Çözüm

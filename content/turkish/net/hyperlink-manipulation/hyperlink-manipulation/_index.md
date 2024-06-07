@@ -111,13 +111,13 @@ Aspose.Slides ile çalışma veya sunum tasarımının diğer yönleri hakkında
 Aspose.Slides for .NET, sunum oluşturmak, düzenlemek ve dönüştürmek için çok çeşitli özellikler sunar. Slaytlarınıza içerik, animasyon ve etkileşim eklemek için kapsamlı bir araç seti sağlar.
 
 ### Aspose.Slides'ta metin dışındaki nesnelere köprüler ekleyebilir miyim?
-Evet, Aspose.Slides şekiller, resimler ve metinler de dahil olmak üzere çeşitli nesnelere köprüler eklemenize olanak tanıyarak etkileşimli sunumlar oluşturmada size esneklik sağlar.
+Evet, Aspose.Slides şekiller, görüntüler ve metinler dahil olmak üzere çeşitli nesnelere köprüler eklemenize olanak tanıyarak etkileşimli sunumlar oluşturmada size esneklik sağlar.
 
 ### Aspose.Slides farklı PowerPoint dosya formatlarıyla uyumlu mu?
 Kesinlikle. Aspose.Slides, PPT, PPTX, PPS ve daha fazlası dahil olmak üzere çeşitli PowerPoint formatlarını destekler. Microsoft PowerPoint'in farklı sürümleriyle uyumluluk sağlar.
 
 ### Aspose.Slides için ek kaynakları ve desteği nerede bulabilirim?
-Ayrıntılı belgeler ve topluluk desteği için şu adresi ziyaret edin:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) ve[Aspose destek forumu](https://forum.aspose.com/).
+ Ayrıntılı belgeler ve topluluk desteği için şu adresi ziyaret edin:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) ve[Aspose destek forumu](https://forum.aspose.com/).
 
 ### Aspose.Slides için nasıl geçici lisans alabilirim?
  Aspose.Slides için geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

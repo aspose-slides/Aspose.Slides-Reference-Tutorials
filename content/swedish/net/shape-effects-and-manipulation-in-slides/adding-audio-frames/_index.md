@@ -8,7 +8,7 @@ weight: 14
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
 ## Introduktion
-den dynamiska presentationsvärlden kan inkorporering av ljudelement avsevärt förbättra den övergripande upplevelsen för din publik. Aspose.Slides för .NET ger utvecklare möjlighet att sömlöst integrera ljudramar i presentationsbilder, vilket lägger till ett nytt lager av engagemang och interaktivitet. Den här steg-för-steg-guiden leder dig genom processen att lägga till ljudramar till presentationsbilder med Aspose.Slides för .NET.
+I den dynamiska presentationsvärlden kan inkorporering av ljudelement avsevärt förbättra den övergripande upplevelsen för din publik. Aspose.Slides för .NET ger utvecklare möjlighet att sömlöst integrera ljudramar i presentationsbilder, vilket lägger till ett nytt lager av engagemang och interaktivitet. Den här steg-för-steg-guiden leder dig genom processen att lägga till ljudramar till presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 1.  Aspose.Slides for .NET Library: Ladda ner och installera Aspose.Slides for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/slides/net/).

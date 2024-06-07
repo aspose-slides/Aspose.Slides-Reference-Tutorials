@@ -66,7 +66,7 @@ foreach (IShape shape in groupShape.Shapes)
 
 ## 修改替代文本
 
-要修改形狀的替代文本，只需為其分配新值即可`AlternativeText`財產：
+要修改形狀的替代文本，只需為其指定一個新值即可`AlternativeText`財產：
 
 ```csharp
 shape.AlternativeText = "New alt text";

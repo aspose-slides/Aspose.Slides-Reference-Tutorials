@@ -71,7 +71,7 @@ presentation.getProtectionManager().encrypt("your_password");
 
  Αντικαθιστώ`"your_password"` με τον κωδικό πρόσβασης που επιθυμείτε.
 
-## Βήμα 6: Αποθηκεύστε την Παρουσίαση
+## Βήμα 6: Αποθηκεύστε την παρουσίαση
 
 Τέλος, αποθηκεύστε την παρουσίαση σε ένα αρχείο. Σε αυτό το παράδειγμα, θα το αποθηκεύσουμε ως αρχείο PPTX:
 
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
-// Δημιουργήστε ένα αντικείμενο παρουσίασης που αντιπροσωπεύει ένα αρχείο PPT
+//Δημιουργήστε ένα αντικείμενο παρουσίασης που αντιπροσωπεύει ένα αρχείο PPT
 Presentation presentation = new Presentation();
 try
 {

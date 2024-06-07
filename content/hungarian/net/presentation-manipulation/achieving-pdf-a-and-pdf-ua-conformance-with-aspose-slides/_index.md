@@ -10,13 +10,13 @@ url: /hu/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-wi
 
 ## Bevezetés
 
-digitális dokumentumok világában a kompatibilitás és a hozzáférhetőség biztosítása kiemelten fontos. A PDF/A és a PDF/UA két szabvány, amelyek ezeket a problémákat kezelik. A PDF/A az archiválásra, míg a PDF/UA a fogyatékkal élő felhasználók akadálymentesítésére helyezi a hangsúlyt. Az Aspose.Slides for .NET hatékony módot kínál a PDF/A és a PDF/UA megfelelőség elérésére, így a prezentációk univerzálisan használhatók.
+A digitális dokumentumok világában a kompatibilitás és a hozzáférhetőség biztosítása kiemelten fontos. A PDF/A és a PDF/UA két szabvány, amelyek ezeket a problémákat kezelik. A PDF/A az archiválásra, míg a PDF/UA a fogyatékkal élő felhasználók akadálymentesítésére helyezi a hangsúlyt. Az Aspose.Slides for .NET hatékony módot kínál a PDF/A és a PDF/UA megfelelőség elérésére, így a prezentációk univerzálisan használhatók.
 
 ## A PDF/A és a PDF/UA megértése
 
 A PDF/A a Portable Document Format (PDF) digitális megőrzésre specializálódott, ISO szabvány szerinti változata. Biztosítja, hogy a dokumentum tartalma idővel sértetlen maradjon, így ideális archiválási célokra.
 
-A PDF/UA viszont a „PDF/Universal Accessibility” rövidítése. Ez egy ISO-szabvány az univerzálisan hozzáférhető PDF-fájlok létrehozására, amelyeket a fogyatékkal élők kisegítő technológiák segítségével olvashatnak és navigálhatnak.
+PDF/UA viszont a „PDF/Universal Accessibility” rövidítése. Ez egy ISO-szabvány az univerzálisan hozzáférhető PDF-fájlok létrehozására, amelyeket a fogyatékkal élők kisegítő technológiák segítségével olvashatnak és navigálhatnak.
 
 ## Az Aspose.Slides első lépései
 
@@ -62,7 +62,7 @@ A hozzáférhetőség biztosítása kulcsfontosságú a PDF/UA megfelelőség sz
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Kisegítő lehetőségek támogatása a PDF/UA fájlokhoz
+//Kisegítő lehetőségek támogatása a PDF/UA fájlokhoz
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Bemutató betöltése
 using var presentation = new Presentation("presentation.pptx");
 
-// Kisegítő lehetőségek támogatása a PDF/UA fájlokhoz
+//Kisegítő lehetőségek támogatása a PDF/UA fájlokhoz
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -100,7 +100,7 @@ presentation.Save("accessible_output.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## Következtetés
 
-PDF/A és PDF/UA megfelelőség elérése az Aspose.Slides for .NET segítségével lehetővé teszi, hogy archiválható és hozzáférhető dokumentumokat készítsen. Az ebben az útmutatóban felvázolt lépések követésével és a mellékelt forráskód-példák felhasználásával biztosíthatja, hogy prezentációi megfeleljenek a kompatibilitás és az inkluzivitás legmagasabb követelményeinek.
+A PDF/A és PDF/UA megfelelőség elérése az Aspose.Slides for .NET segítségével lehetővé teszi, hogy archiválható és hozzáférhető dokumentumokat készítsen. Az ebben az útmutatóban felvázolt lépések követésével és a mellékelt forráskód-példák felhasználásával biztosíthatja, hogy prezentációi megfeleljenek a kompatibilitás és az inkluzivitás legmagasabb követelményeinek.
 
 ## GYIK
 

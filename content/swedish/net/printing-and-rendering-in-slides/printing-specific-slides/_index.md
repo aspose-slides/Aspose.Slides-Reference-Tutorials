@@ -16,7 +16,7 @@ Innan vi dyker in i stegen, se till att du har följande på plats:
 3. Integrated Development Environment (IDE): Ha en .NET-utvecklingsmiljö inrättad, som Visual Studio.
 4. Dokumentkatalog: Ange katalogen där dina presentationsfiler lagras.
 ## Importera namnområden
-I ditt .NET-projekt, importera de nödvändiga namnrymden för att använda funktionerna i Aspose.Slides:
+ditt .NET-projekt, importera de nödvändiga namnrymden för att använda funktionerna i Aspose.Slides:
 ```csharp
 using System;
 using Aspose.Slides;
@@ -56,6 +56,6 @@ S: Ja, du kan uppnå det genom att ändra koden för att selektivt skriva ut spe
 ### F: Var kan jag hitta ytterligare support eller ställa frågor om Aspose.Slides?
  S: Besök Aspose.Slides[supportforum](https://forum.aspose.com/c/slides/11) för assistens.
 ### F: Kan jag prova Aspose.Slides gratis innan jag köper?
-A: Absolut! Du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
+ A: Absolut! Du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 ### F: Hur köper jag Aspose.Slides för .NET?
  S: Du kan köpa biblioteket[här](https://purchase.aspose.com/buy).

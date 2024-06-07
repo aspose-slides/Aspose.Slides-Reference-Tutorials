@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Ρύθμιση του ευρετηρίου του φύλλου δεδομένων γραφήματος
 	int defaultWorksheetIndex = 0;
-	//Λήψη του φύλλου εργασίας δεδομένων γραφήματος
+	// Λήψη του φύλλου εργασίας δεδομένων γραφήματος
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Διαγραφή προεπιλεγμένων σειρών και κατηγοριών που δημιουργούνται
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Προσθήκη νέας σειράς
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Τώρα συμπληρώνονται δεδομένα σειράς
+	//Τώρα συμπληρώνονται δεδομένα σειράς
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ finally
 
 ### Πώς μπορώ να προσαρμόσω τα χρώματα μεμονωμένων τμημάτων στο γράφημα πίτας;
 
- Για να προσαρμόσετε τα χρώματα των μεμονωμένων τμημάτων στο γράφημα πίτας, μπορείτε να χρησιμοποιήσετε το`getAutomaticSeriesColors`μέθοδο για να ανακτήσετε τον προεπιλεγμένο συνδυασμό χρωμάτων και στη συνέχεια να τροποποιήσετε τα χρώματα όπως απαιτείται. Εδώ είναι ένα παράδειγμα:
+ Για να προσαρμόσετε τα χρώματα των μεμονωμένων τμημάτων στο γράφημα πίτας, μπορείτε να χρησιμοποιήσετε το`getAutomaticSeriesColors` μέθοδο για να ανακτήσετε τον προεπιλεγμένο συνδυασμό χρωμάτων και στη συνέχεια να τροποποιήσετε τα χρώματα όπως απαιτείται. Εδώ είναι ένα παράδειγμα:
 
 ```java
-// Λάβετε τον προεπιλεγμένο συνδυασμό χρωμάτων
+//Λάβετε τον προεπιλεγμένο συνδυασμό χρωμάτων
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Τροποποιήστε τα χρώματα όπως απαιτείται

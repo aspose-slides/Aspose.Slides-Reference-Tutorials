@@ -56,6 +56,6 @@ C: Evet, kodu değiştirerek belirli slaytları seçici olarak yazdırarak bunu 
 ### S: Aspose.Slides hakkında nereden ek destek bulabilirim veya soru sorabilirim?
  C: Aspose.Slides'ı ziyaret edin[destek Forumu](https://forum.aspose.com/c/slides/11) yardım için.
 ### S: Satın almadan önce Aspose.Slides'ı ücretsiz deneyebilir miyim?
-C: Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+ C: Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Slides for .NET'i nasıl satın alabilirim?
  C: Kütüphaneyi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

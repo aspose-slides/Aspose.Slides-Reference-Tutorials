@@ -58,7 +58,7 @@ try {
 ```java
         // เส้นทางไปยังไดเร็กทอรีเอกสาร
         String dataDir = "Your Document Directory";
-        // การเปิดไฟล์การนำเสนอโดยส่งเส้นทางของไฟล์ไปยังตัวสร้างของคลาสการนำเสนอ
+        //การเปิดไฟล์การนำเสนอโดยส่งเส้นทางของไฟล์ไปยังตัวสร้างของคลาสการนำเสนอ
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

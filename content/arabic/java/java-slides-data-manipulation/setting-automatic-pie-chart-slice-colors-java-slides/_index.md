@@ -10,7 +10,7 @@ url: /ar/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-sl
 
 ## مقدمة لإعداد ألوان شريحة المخطط الدائري التلقائي في شرائح Java
 
-في هذا البرنامج التعليمي، سوف نستكشف كيفية إنشاء مخطط دائري في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides لـ Java وتعيين ألوان الشرائح التلقائية للمخطط. سنقدم إرشادات خطوة بخطوة مع كود المصدر.
+في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء مخطط دائري في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides لـ Java وتعيين ألوان الشرائح التلقائية للمخطط. سنقدم إرشادات خطوة بخطوة مع كود المصدر.
 
 ## المتطلبات الأساسية
 
@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// إعداد فهرس ورقة بيانات الرسم البياني
 	int defaultWorksheetIndex = 0;
-	//الحصول على ورقة عمل بيانات المخطط
+	// الحصول على ورقة عمل بيانات المخطط
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// إضافة سلسلة جديدة
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// الآن ملء بيانات السلسلة
+	//الآن ملء بيانات السلسلة
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ finally
 
 ### كيف يمكنني تخصيص ألوان الشرائح الفردية في المخطط الدائري؟
 
- لتخصيص ألوان الشرائح الفردية في المخطط الدائري، يمكنك استخدام`getAutomaticSeriesColors`طريقة لاسترداد نظام الألوان الافتراضي ومن ثم تعديل الألوان حسب الحاجة. هنا مثال:
+ لتخصيص ألوان الشرائح الفردية في المخطط الدائري، يمكنك استخدام`getAutomaticSeriesColors` طريقة لاسترداد نظام الألوان الافتراضي ومن ثم تعديل الألوان حسب الحاجة. هنا مثال:
 
 ```java
-// احصل على نظام الألوان الافتراضي
+//احصل على نظام الألوان الافتراضي
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // تعديل الألوان حسب الحاجة

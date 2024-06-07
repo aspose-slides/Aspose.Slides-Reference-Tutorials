@@ -136,4 +136,4 @@ Pozici a velikost grafu cesty můžete upravit úpravou souřadnic a rozměrů p
 
 ### Mohu exportovat graf do různých formátů, jako je PDF nebo obrázek?
 
- Ano, Aspose.Slides for Java umožňuje exportovat prezentaci s trychtýřovým grafem do různých formátů, včetně PDF, obrazových formátů a dalších. Můžete použít`SaveFormat` možnosti určit požadovaný výstupní formát při ukládání prezentace.
+ Ano, Aspose.Slides for Java umožňuje exportovat prezentaci s trychtýřovým grafem do různých formátů, včetně PDF, obrázkových formátů a dalších. Můžete použít`SaveFormat` možnosti určit požadovaný výstupní formát při ukládání prezentace.

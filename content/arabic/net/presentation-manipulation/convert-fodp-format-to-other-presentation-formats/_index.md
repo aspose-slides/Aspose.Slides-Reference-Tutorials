@@ -74,7 +74,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 ### 3. كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 
-إذا كنت بحاجة إلى ترخيص مؤقت، فيمكنك الحصول عليه من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+ إذا كنت بحاجة إلى ترخيص مؤقت، فيمكنك الحصول عليه من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
 
 ### 4. ما هي تنسيقات العرض المدعومة للتحويل؟
 

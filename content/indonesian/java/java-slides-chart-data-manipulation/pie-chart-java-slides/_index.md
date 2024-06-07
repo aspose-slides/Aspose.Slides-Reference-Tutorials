@@ -49,7 +49,7 @@ Dapatkan slide pertama presentasi di mana Anda ingin menambahkan Diagram Lingkar
 ## Langkah 4: Tambahkan Diagram Lingkaran
 
 ```java
-// Tambahkan diagram lingkaran dengan data default
+//Tambahkan diagram lingkaran dengan data default
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Mengatur indeks lembar data grafik
 int defaultWorksheetIndex = 0;
 
-//Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data bagan
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Hapus seri dan kategori yang dihasilkan secara default
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Sesuaikan sektor lain dengan cara yang sama
+// Sesuaikan sektor lain dengan cara yang sama
 ```
 
 Sesuaikan tampilan setiap sektor di Pie Chart. Anda dapat mengubah warna, gaya batas, dan properti visual lainnya.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Mengatur indeks lembar data grafik
 int defaultWorksheetIndex = 0;
-//Mendapatkan lembar kerja data bagan
+// Mendapatkan lembar kerja data bagan
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Hapus seri dan kategori yang dihasilkan secara default
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Menambahkan seri baru
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Sekarang mengisi data seri
+//Sekarang mengisi data seri
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Tidak berfungsi di versi baru
+// Tidak berfungsi di versi baru
 // Menambahkan titik baru dan mengatur warna sektor
 // seri.IsColorVaried = benar;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ Anda telah berhasil membuat Diagram Lingkaran dalam presentasi PowerPoint menggu
 
 ### Bagaimana cara mengubah warna masing-masing sektor di Diagram Lingkaran?
 
- Untuk mengubah warna masing-masing sektor dalam Diagram Lingkaran, Anda dapat menyesuaikan warna isian untuk setiap titik data. Dalam contoh kode yang diberikan, kami mendemonstrasikan cara mengatur warna isian untuk setiap sektor menggunakan`getSolidFillColor().setColor()`metode. Anda dapat mengubah nilai warna untuk mendapatkan tampilan yang diinginkan.
+ Untuk mengubah warna masing-masing sektor dalam Diagram Lingkaran, Anda dapat menyesuaikan warna isian untuk setiap titik data. Dalam contoh kode yang diberikan, kami mendemonstrasikan cara mengatur warna isian untuk setiap sektor menggunakan`getSolidFillColor().setColor()` metode. Anda dapat mengubah nilai warna untuk mendapatkan tampilan yang diinginkan.
 
 ### Bisakah saya menambahkan lebih banyak kategori dan rangkaian data ke Diagram Lingkaran?
 
@@ -278,7 +278,7 @@ Pastikan untuk menentukan jalur dan format file yang benar.
 
 ### Bisakah saya membuat tipe bagan lain menggunakan Aspose.Slides untuk Java?
 
- Ya, Aspose.Slides untuk Java mendukung berbagai jenis bagan, termasuk Bagan Batang, Bagan Garis, dan banyak lagi. Anda dapat membuat berbagai jenis bagan dengan mengubah`ChartType` saat menambahkan bagan. Lihat dokumentasi Aspose.Slides untuk detail selengkapnya tentang pembuatan berbagai jenis bagan.
+Ya, Aspose.Slides untuk Java mendukung berbagai jenis bagan, termasuk Bagan Batang, Bagan Garis, dan banyak lagi. Anda dapat membuat berbagai jenis bagan dengan mengubah`ChartType` saat menambahkan bagan. Lihat dokumentasi Aspose.Slides untuk detail selengkapnya tentang pembuatan berbagai jenis bagan.
 
 ### Bagaimana saya dapat menemukan informasi lebih lanjut dan contoh untuk bekerja dengan Aspose.Slides untuk Java?
 

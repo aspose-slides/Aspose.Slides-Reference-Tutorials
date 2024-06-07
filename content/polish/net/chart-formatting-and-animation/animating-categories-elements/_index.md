@@ -96,7 +96,7 @@ Ten sam proces jest kontynuowany w przypadku kategorii 2, indywidualnie animują
 ## Krok 4: Zapisz prezentację
 
 ```csharp
-//Zapisz plik prezentacji na dysku
+// Zapisz plik prezentacji na dysku
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

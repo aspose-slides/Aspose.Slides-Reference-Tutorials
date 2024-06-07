@@ -58,7 +58,7 @@ presentation.Save(outPath, SaveFormat.Gif, new GifOptions
 
 ## 5. 運行程式碼
 
-若要成功運行此程式碼，請確保您已替換`"Your Document Directory"`和`"Your Output Directory"`以及簡報和所需輸出目錄的實際路徑。
+要成功運行此程式碼，請確保您已替換`"Your Document Directory"`和`"Your Output Directory"`以及簡報和所需輸出目錄的實際路徑。
 
 ## 六，結論
 

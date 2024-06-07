@@ -10,11 +10,11 @@ url: /tr/java/additional-utilities/load-format-enumeration-in-java-slides/
 
 ## Java Slaytlarında Sunum Formatını Yüklemeye Giriş
 
-Bu eğitimde Aspose.Slides for Java API'sini kullanarak bir PowerPoint sunumunun formatının nasıl belirleneceğini inceleyeceğiz. Özellikle bir sunumu yüklemeye ve formatını kontrol etmeye odaklanacağız.`LoadFormat` numaralandırma. Bu, sunumun PowerPoint 95 gibi daha eski bir biçimde mi yoksa daha yeni bir biçimde mi olduğunu belirlemenize yardımcı olacaktır.
+ Bu eğitimde Aspose.Slides for Java API'sini kullanarak bir PowerPoint sunumunun formatının nasıl belirleneceğini inceleyeceğiz. Özellikle bir sunumu yüklemeye ve formatını kontrol etmeye odaklanacağız.`LoadFormat` numaralandırma. Bu, sunumun PowerPoint 95 gibi daha eski bir biçimde mi yoksa daha yeni bir biçimde mi olduğunu belirlemenize yardımcı olacaktır.
 
 ## Önkoşullar
 
- Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin kurulu ve kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Web sitesi](https://products.aspose.com/slides/java/) ve kurulum talimatlarını takip edin.
+Başlamadan önce, Java projenizde Aspose.Slides for Java kütüphanesinin kurulu ve kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Web sitesi](https://products.aspose.com/slides/java/) ve kurulum talimatlarını takip edin.
 
 ## 1. Adım: Gerekli Sınıfları İçe Aktarın
 
@@ -34,7 +34,7 @@ String dataDir = "Your Document Directory";
 boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(dataDir + "presentation.ppt").getLoadFormat() == LoadFormat.Ppt95;
 ```
 
- Yukarıdaki kodda şunu kullanıyoruz:`PresentationFactory.getInstance().getPresentationInfo()`Sunum hakkında, formatı da dahil olmak üzere bilgi edinmek. Daha sonra formatı şununla karşılaştırırız:`LoadFormat.Ppt95` eski bir PowerPoint 95 biçimi olup olmadığını kontrol etmek için.
+ Yukarıdaki kodda şunu kullanıyoruz:`PresentationFactory.getInstance().getPresentationInfo()` Sunum hakkında, formatı da dahil olmak üzere bilgi edinmek. Daha sonra formatı şununla karşılaştırırız:`LoadFormat.Ppt95` eski bir PowerPoint 95 biçimi olup olmadığını kontrol etmek için.
 
 ## Java Slaytlarında Yük Formatı Numaralandırması İçin Tam Kaynak Kodu
 
@@ -45,7 +45,7 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Çözüm
 
- Bu eğitimde, Aspose.Slides'ı kullanarak Java'da bir PowerPoint sunumunun nasıl yükleneceğini ve biçimini kontrol etmeyi öğrendik.`LoadFormat` numaralandırma. Bu, Java uygulamanızda farklı biçimlerdeki sunumları farklı şekilde işlemeniz gerektiğinde yararlı olabilir.
+ Bu eğitimde, Aspose.Slides'ı kullanarak Java'da bir PowerPoint sunumunun nasıl yükleneceğini ve biçimini kontrol etmeyi öğrendik.`LoadFormat`numaralandırma. Bu, Java uygulamanızda farklı biçimlerdeki sunumları farklı şekilde işlemeniz gerektiğinde yararlı olabilir.
 
 ## SSS'ler
 
@@ -63,7 +63,7 @@ Evet, belge işleme yeteneklerinizi geliştirmek için Aspose.Slides for Java'y�
 
 ### Aspose.Slides for Java için nasıl destek alabilirim?
 
-Aspose.Slides for Java için Aspose destek forumlarını ziyaret ederek veya web sitelerinde sağlanan kanallar aracılığıyla destek ekibiyle iletişime geçerek destek alabilirsiniz. Hem topluluk hem de ücretli destek seçenekleri sunuyorlar.
+Aspose destek forumlarını ziyaret ederek veya web sitelerinde sağlanan kanallar aracılığıyla destek ekibiyle iletişime geçerek Aspose.Slides for Java konusunda destek alabilirsiniz. Hem topluluk hem de ücretli destek seçenekleri sunuyorlar.
 
 ### Aspose.Slides for Java ticari projelere uygun mu?
 

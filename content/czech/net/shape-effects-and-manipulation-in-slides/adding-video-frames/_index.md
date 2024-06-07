@@ -36,7 +36,7 @@ Načtěte první snímek z prezentace:
 ISlide sld = pres.Slides[0];
 ```
 ## Krok 3: Přidejte video rámeček
-Nyní přidejte snímek videa na snímek:
+Nyní přidejte na snímek snímek videa:
 ```csharp
 IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 150, dataDir + "video1.avi");
 ```

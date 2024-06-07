@@ -14,7 +14,7 @@ url: /hu/net/licensing-and-formatting/
 
 ### Navigálás az engedélyezési kihívásokban
 
-megfelelő licencelés alapvető fontosságú az Aspose.Slides projektekbe való integrálásakor. Az első oktatóanyagunkban végigvezetjük az Aspose.Slides licencek megszerzésének, beállításának és kezelésének folyamatán. A lépésről lépésre bemutatott utasítások és gyakorlati példák segítségével világosan megértheti, hogyan biztosíthatja a megfelelőséget, és hogyan aknázza ki az API-ban rejlő lehetőségeket.
+megfelelő engedélyezés alapvető fontosságú az Aspose.Slides projektekbe való integrálásakor. Az első oktatóanyagunkban végigvezetjük az Aspose.Slides licencek megszerzésének, beállításának és kezelésének folyamatán. A lépésről lépésre bemutatott utasítások és gyakorlati példák segítségével világosan megértheti, hogyan biztosíthatja a megfelelőséget, és hogyan aknázza ki az API teljes potenciálját.
 
 ### A prezentáció formázásának elsajátítása
 

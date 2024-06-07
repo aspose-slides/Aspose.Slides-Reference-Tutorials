@@ -22,7 +22,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 ## 1. lépés: Állítsa be Java projektjét
 
 1. Hozzon létre egy új Java-projektet a kívánt IDE-ben.
-2.  Adja hozzá az Aspose.Slides for Java könyvtárat a projekthez. A könyvtár letölthető a[Aspose honlapja](https://products.aspose.com/slides/java) és függőségként szerepeltesse.
+2.  Adja hozzá az Aspose.Slides for Java könyvtárat a projekthez. A könyvtár letölthető a[Aspose honlapja](https://products.aspose.com/slides/java)és szerepeltesse függőségként.
 
 ## 2. lépés: Importálja a szükséges könyvtárakat
 Java osztályában importálja a szükséges könyvtárakat az Aspose.Slides használatához:
@@ -59,7 +59,7 @@ try {
 }
 ```
 
- Cserélje ki`"Your Document Directory"` dokumentumkönyvtár tényleges elérési útjával és`"test.pptx"` a bevitt PowerPoint-prezentáció nevével.
+ Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával és`"test.pptx"` a bevitt PowerPoint-prezentáció nevével.
 
 ## 4. lépés: Futtassa a kódot
 

@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Grafik verileri çalışma kitabını edinin.
 
 ```java
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Seri ekle
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // İkinci grafik serisini alın
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Şimdi seri verileri dolduruluyor
+//Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -195,6 +195,6 @@ Evet, seri veri noktalarının veya kategorilerinin dolgu özelliklerini ayarlay
 
  X ve Y eksenleri için farklı bir dönüş açısı ayarlamak için şunu kullanın:`chart.getRotation3D().setRotationX()` Ve`chart.getRotation3D().setRotationY()` İstenilen açı değerlerinde.
 
-### Başka hangi 3D özelliklerini özelleştirebilirim?
+### Başka hangi 3B özelliklerini özelleştirebilirim?
 
 Aspose.Slides belgelerine başvurarak grafiğin derinlik, perspektif ve aydınlatma gibi diğer 3B özelliklerini keşfedebilirsiniz.

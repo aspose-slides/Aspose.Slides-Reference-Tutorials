@@ -71,7 +71,7 @@ Sonuç olarak Aspose.Slides for .NET, geliştiricilere dinamik öğeler ekleyere
 ### S: Aspose.Slides'ın ücretsiz deneme sürümü mevcut mu?
  C: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Slides için nereden destek bulabilirim?
- C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
+C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
 ### S: Aspose.Slides için geçici lisansı nasıl edinebilirim?
  C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Slides for .NET'i nereden satın alabilirim?

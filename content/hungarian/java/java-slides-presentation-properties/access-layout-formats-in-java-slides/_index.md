@@ -28,7 +28,7 @@ Presentation pres = new Presentation(dataDir + "pres.pptx");
 
 ## 2. lépés: Nyissa meg az elrendezési formátumokat
 
-Most lapozzuk át a prezentáció elrendezési diákjait, és érjük el az egyes elrendezési diákon található alakzatok kitöltési formátumait és vonalformátumait.
+Most nézzük át a prezentáció elrendezési diákjait, és érjük el az egyes elrendezési diákon található alakzatok kitöltési formátumait és vonalformátumait.
 
 ```java
 try

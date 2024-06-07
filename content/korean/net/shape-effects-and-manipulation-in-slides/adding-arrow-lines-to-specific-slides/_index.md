@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation())
 ### Q: Aspose.Slides에 사용할 수 있는 무료 평가판이 있나요?
  A: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Slides에 대한 지원은 어디서 찾을 수 있나요?
- 답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
+답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
 ### Q: Aspose.Slides의 임시 라이선스를 어떻게 얻나요?
  A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: .NET용 Aspose.Slides를 어디서 구입할 수 있나요?

@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Ganti "your_output_path" den
 Presentation pres = new Presentation();
 ```
 
- Dalam kode di atas, kita menentukan jalur untuk file presentasi keluaran dan membuat yang baru`Presentation` obyek.
+Dalam kode di atas, kita menentukan jalur untuk file presentasi keluaran dan membuat yang baru`Presentation` obyek.
 
 ## Langkah 2: Tetapkan ClsId Direktori Root
 
- Untuk mengatur ClsId Direktori Root, Anda perlu membuat sebuah instance dari`PptOptions`dan atur CLSID yang diinginkan. CLSID mewakili aplikasi yang akan digunakan sebagai direktori root ketika hyperlink diaktifkan.
+ Untuk mengatur ClsId Direktori Root, Anda perlu membuat sebuah instance dari`PptOptions` dan atur CLSID yang diinginkan. CLSID mewakili aplikasi yang akan digunakan sebagai direktori root ketika hyperlink diaktifkan.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// atur CLSID ke 'Microsoft Powerpoint.Show.8'
+	//atur CLSID ke 'Microsoft Powerpoint.Show.8'
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Simpan presentasi
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

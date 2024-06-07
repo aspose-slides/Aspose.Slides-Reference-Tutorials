@@ -37,7 +37,7 @@ import com.aspose.slides.SaveFormat;
 
 ## Krok 3: Załaduj prezentację
 
-Teraz załadujmy prezentację, którą chcesz przekonwertować. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji:
+ Teraz załadujmy prezentację, którą chcesz przekonwertować. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Gratulacje! Pomyślnie przekonwertowałeś prezentację na responsywny kod HTML 
 
 ### Czy mogę bardziej dostosować dane wyjściowe HTML?
 
- Tak, możesz dostosować wyjście HTML, modyfikując plik`ResponsiveHtmlController` I`HtmlOptions`obiekty. Dzięki temu możesz dostosować wynik HTML do swoich konkretnych wymagań.
+ Tak, możesz dostosować wyjście HTML, modyfikując plik`ResponsiveHtmlController` I`HtmlOptions` obiekty. Dzięki temu możesz dostosować wynik HTML do swoich konkretnych wymagań.
 
 ### Czy są jakieś wymagania licencyjne dla Aspose.Slides dla Java?
 

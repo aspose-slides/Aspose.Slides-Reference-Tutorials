@@ -68,8 +68,8 @@ Evet, Aspose.Slides .NET Core'u destekleyerek geliştirme ortamınıza esneklik 
 ### Alternatif metin dışındaki koşullara dayalı olarak şekilleri gizleyebilir miyim?
 Kesinlikle! Şekil türü, renk veya konum gibi çeşitli niteliklere göre gizleme mantığını özelleştirebilirsiniz.
 ### Ek Aspose.Slides belgelerini nerede bulabilirim?
- Belgeleri keşfedin[Burada](https://reference.aspose.com/slides/net/) Ayrıntılı bilgi ve örnekler için.
+ Belgeleri keşfedin[Burada](https://reference.aspose.com/slides/net/)Ayrıntılı bilgi ve örnekler için.
 ### Aspose.Slides için geçici lisanslar mevcut mu?
- Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
+ Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/)test amaçlı.
 ### Aspose.Slides için topluluk desteğini nasıl alabilirim?
  Aspose.Slides topluluğuna katılın[forum](https://forum.aspose.com/c/slides/11) Tartışma ve yardım için.

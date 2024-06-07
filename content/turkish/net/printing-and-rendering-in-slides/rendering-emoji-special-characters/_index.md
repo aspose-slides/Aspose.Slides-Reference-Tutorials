@@ -11,7 +11,7 @@ url: /tr/net/printing-and-rendering-in-slides/rendering-emoji-special-characters
 Sunumların dinamik dünyasında duyguların ve özel karakterlerin aktarılması, yaratıcılık ve benzersizlik katabilir. Aspose.Slides for .NET, geliştiricilerin sunumlarında emojileri ve özel karakterleri sorunsuz bir şekilde oluşturmasına olanak tanıyarak ifadede yeni bir boyutun kilidini açar. Bu eğitimde Aspose.Slides'ı kullanarak adım adım rehberlikle bunu nasıl başaracağımızı keşfedeceğiz.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
--  Aspose.Slides for .NET: Kitaplığın kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Kitaplığın kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/slides/net/).
 - Geliştirme Ortamı: Makinenizde çalışan bir .NET geliştirme ortamı kurun.
 - Giriş Sunumu: Bir PowerPoint dosyası hazırlayın (`input.pptx`) emojilerle zenginleştirmek istediğiniz içeriği içeren.
 - Belge Dizini: Belgeleriniz için bir dizin oluşturun ve koddaki "Belge Dizininiz"i gerçek yolla değiştirin.

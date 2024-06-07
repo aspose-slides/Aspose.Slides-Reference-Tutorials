@@ -21,7 +21,7 @@ using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
 ## 第 1 步：設定您的文件目錄
-確保您有一個指定的文檔目錄。如果不存在，請建立一個：
+確保您有一個指定的文檔目錄。如果不存在，則建立一個：
 ```csharp
 string dataDir = "Your Document Directory";
 bool isExists = System.IO.Directory.Exists(dataDir);
@@ -69,7 +69,7 @@ presentation.Save(dataDir + "Connecting_Shape_on_desired_connection_site_out.ppt
 Aspose.Slides for .NET 簡化了連接形狀的過程，讓您輕鬆建立具有視覺吸引力的簡報。透過遵循此逐步指南，您可以增強幻燈片的視覺吸引力並有效地傳達您的訊息。
 ## 經常問的問題
 ### Aspose.Slides 與 Visual Studio 2019 相容嗎？
-是的，Aspose.Slides 與 Visual Studio 2019 相容。請確保您安裝了適當的版本。
+是的，Aspose.Slides 與 Visual Studio 2019 相容。
 ### 我可以在一個連接器中連接兩個以上的形狀嗎？
 Aspose.Slides 允許您使用單一連接器連接兩個形狀。要連接更多形狀，您將需要額外的連接器。
 ### 使用 Aspose.Slides 時如何處理異常？

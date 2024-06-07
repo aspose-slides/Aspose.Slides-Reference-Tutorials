@@ -55,7 +55,7 @@ int defaultWorksheetIndex = 0;
 5. Lấy sổ làm việc dữ liệu biểu đồ.
 
 ```java
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -144,7 +144,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn3D, 0, 0, 500, 500);
 // Thiết lập chỉ mục của bảng dữ liệu biểu đồ
 int defaultWorksheetIndex = 0;
-//Lấy bảng tính dữ liệu biểu đồ
+// Lấy bảng tính dữ liệu biểu đồ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Thêm loạt bài
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Lấy loạt biểu đồ thứ hai
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Hiện đang điền dữ liệu chuỗi
+//Hiện đang điền dữ liệu chuỗi
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

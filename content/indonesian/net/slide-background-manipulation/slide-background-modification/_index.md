@@ -122,4 +122,4 @@ Dalam tutorial ini, kita telah mempelajari cara mengubah latar belakang slide di
 
 ### 5. Bisakah saya menyesuaikan latar belakang slide untuk beberapa slide dalam presentasi?
 
-Ya, Anda dapat mengubah latar belakang slide untuk slide apa pun dalam presentasi menggunakan Aspose.Slides untuk .NET. Cukup targetkan slide yang ingin Anda sesuaikan dan ikuti langkah-langkah yang sama yang dijelaskan dalam tutorial ini.
+Ya, Anda dapat mengubah latar belakang slide untuk slide apa pun dalam presentasi menggunakan Aspose.Slides untuk .NET. Cukup targetkan slide yang ingin Anda sesuaikan dan ikuti langkah-langkah yang sama yang diuraikan dalam tutorial ini.

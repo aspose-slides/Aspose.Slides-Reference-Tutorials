@@ -71,7 +71,7 @@ Ez a kód biztosítja, hogy a sorozat kitöltési színe automatikus legyen.
 prezentáció mentéséhez használja a következő kódot:
 
 ```java
-//Írja a bemutató fájlt lemezre
+// Írja a bemutató fájlt lemezre
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//Írja a bemutató fájlt lemezre
+	// Írja a bemutató fájlt lemezre
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

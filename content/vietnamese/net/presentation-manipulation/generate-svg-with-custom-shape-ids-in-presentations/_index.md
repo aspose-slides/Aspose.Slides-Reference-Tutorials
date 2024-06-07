@@ -58,7 +58,7 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
 
 ### Phần kết luận
 
-Và bạn có nó rồi đấy! Bạn đã tạo thành công các tệp SVG có ID hình dạng tùy chỉnh bằng Aspose.Slides cho .NET. Tính năng mạnh mẽ này cho phép bạn tùy chỉnh đầu ra SVG để đáp ứng nhu cầu cụ thể của bạn.
+Và bạn có nó rồi đấy! Bạn đã tạo thành công các tệp SVG có ID hình dạng tùy chỉnh bằng Aspose.Slides cho .NET. Tính năng mạnh mẽ này cho phép bạn tùy chỉnh đầu ra SVG để đáp ứng nhu cầu cụ thể của mình.
 
 ### Câu hỏi thường gặp
 

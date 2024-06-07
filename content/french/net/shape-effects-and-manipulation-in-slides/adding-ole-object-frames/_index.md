@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Étape 4 : ajouter une forme de cadre d'objet OLE
 ```csharp
-// Ajouter une forme de cadre d'objet OLE
+//Ajouter une forme de cadre d'objet OLE
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -79,8 +79,8 @@ R : Oui, Aspose.Slides prend en charge l'intégration de divers objets OLE, nota
 ### Q : Comment gérer les erreurs lors du processus d’incorporation d’objets OLE ?
 R : Assurez-vous d'une gestion appropriée des exceptions dans votre code pour résoudre tout problème pouvant survenir lors du processus d'intégration.
 ### Q : Aspose.Slides est-il compatible avec les derniers formats de fichiers PowerPoint ?
-R : Oui, Aspose.Slides prend en charge les derniers formats de fichiers PowerPoint, y compris PPTX.
+: Oui, Aspose.Slides prend en charge les derniers formats de fichiers PowerPoint, y compris PPTX.
 ### Q : Puis-je personnaliser l’apparence du cadre d’objet OLE intégré ?
 R : Absolument, vous pouvez ajuster la taille, la position et d’autres propriétés du cadre d’objet OLE selon vos préférences.
 ### Q : Où puis-je demander de l'aide si je rencontre des difficultés lors de la mise en œuvre ?
- R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et les conseils de la communauté.
+R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et les conseils de la communauté.

@@ -29,7 +29,7 @@ Voici des liens vers quelques ressources utiles :
 - [Manipulation des diapositives de notes](./net/notes-slide-manipulation/)
 - [Génération de miniatures de diapositives](./net/slide-thumbnail-generation/)
 - [Contrôle de l'animation des diapositives](./net/slide-animation-control/)
-- [Effets de transition de diapositive](./net/slide-transition-effects/)
+- [Effets de transition des diapositives](./net/slide-transition-effects/)
 - [Affichage des diapositives et manipulation de la mise en page](./net/slide-view-and-layout-manipulation/)
 - [Licence et formatage](./net/licensing-and-formatting/)
 - [Formatage et animation des graphiques](./net/chart-formatting-and-animation/)

@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Votre code pour la manipulation des diapositives ira ici
+    //Votre code pour la manipulation des diapositives ira ici
 }
 ```
 
@@ -45,13 +45,13 @@ Maintenant que notre présentation est chargée, passons à l'accès aux diaposi
 
 ```csharp
 // Accéder à une diapositive par son index séquentiel (basé sur 0)
-int slideIndex = 2; // Remplacer par l'index souhaité
+int slideIndex = 2; //Remplacer par l'index souhaité
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## Explication du code source
 
-- Nous utilisons le`Slides` collecte des`Presentation` objet pour accéder aux diapositives.
+-  Nous utilisons le`Slides` collecte des`Presentation` objet pour accéder aux diapositives.
 - L'index de la diapositive dans la collection est basé sur 0, donc la première diapositive a un index de 0, la deuxième diapositive a un index de 1, et ainsi de suite.
 - Nous spécifions l'index de diapositive souhaité pour récupérer l'objet diapositive correspondant.
 
@@ -81,7 +81,7 @@ Non, Aspose.Slides pour .NET est une bibliothèque commerciale qui nécessite un
 
 ### Quelles autres fonctionnalités Aspose.Slides pour .NET offre-t-il ?
 
- Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment la création de présentations à partir de zéro, la manipulation de diapositives, l'ajout de formes et d'images, l'application d'un formatage, etc. Vous pouvez vous référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations complètes.
+Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment la création de présentations à partir de zéro, la manipulation de diapositives, l'ajout de formes et d'images, l'application d'un formatage, etc. Vous pouvez vous référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations complètes.
 
 ### Comment puis-je en savoir plus sur l’automatisation PowerPoint à l’aide d’Aspose.Slides ?
 

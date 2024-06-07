@@ -20,7 +20,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő el�
 -  Aspose.Slides for Java könyvtár hozzáadva a projekthez. Letöltheti innen[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/).
 - Java fejlesztéshez beállított kódszerkesztő vagy integrált fejlesztési környezet (IDE).
 
-## 1. lépés: Hozzon létre egy új bemutatót
+## 1. lépés: Hozzon létre egy új prezentációt
 
 Először is hozzunk létre egy új bemutatót az Aspose.Slides for Java segítségével. Ebben a példában egy üres prezentációt fogunk létrehozni.
 
@@ -30,11 +30,11 @@ String resultPath = "your_output_path/pres.ppt"; // Cserélje ki a "saját_kimen
 Presentation pres = new Presentation();
 ```
 
- A fenti kódban meghatározzuk a kimeneti prezentációs fájl elérési útját, és létrehozunk egy újat`Presentation` tárgy.
+ fenti kódban meghatározzuk a kimeneti prezentációs fájl elérési útját, és létrehozunk egy újat`Presentation` tárgy.
 
 ## 2. lépés: Állítsa be a Root Directory ClsId
 
- A gyökérkönyvtár ClsId beállításához létre kell hoznia egy példányt`PptOptions`és állítsa be a kívánt CLSID-t. A CLSID azt az alkalmazást jelöli, amely a hiperhivatkozás aktiválásakor gyökérkönyvtárként lesz használva.
+ A gyökérkönyvtár ClsId beállításához létre kell hoznia egy példányt`PptOptions` és állítsa be a kívánt CLSID-t. A CLSID azt az alkalmazást jelöli, amely a hiperhivatkozás aktiválásakor gyökérkönyvtárként lesz használva.
 
 ```java
 PptOptions pptOptions = new PptOptions();
@@ -73,7 +73,7 @@ String resultPath = RunExamples.getOutPath() + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
-	// állítsa be a CLSID-t "Microsoft Powerpoint.Show.8"-ra
+	//állítsa be a CLSID-t "Microsoft Powerpoint.Show.8"-ra
 	pptOptions.setRootDirectoryClsid(UUID.fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
 	// Prezentáció mentése
 	pres.save(resultPath, SaveFormat.Ppt, pptOptions);

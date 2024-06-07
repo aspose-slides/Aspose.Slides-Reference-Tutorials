@@ -14,7 +14,7 @@ I den här handledningen kommer vi att visa hur man lägger till felstaplar till
 
 ## Förutsättningar
 
-Innan du börjar, se till att du har Aspose.Slides för Java-biblioteket installerat och konfigurerat i ditt Java-projekt. Du kan ladda ner biblioteket från[Aspose hemsida](https://downloads.aspose.com/slides/java).
+ Innan du börjar, se till att du har Aspose.Slides för Java-biblioteket installerat och konfigurerat i ditt Java-projekt. Du kan ladda ner biblioteket från[Aspose hemsida](https://downloads.aspose.com/slides/java).
 
 ## Steg 1: Skapa en tom presentation
 
@@ -25,7 +25,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-I det här steget skapar vi en tom presentation där vi lägger till vårt diagram med felstaplar.
+det här steget skapar vi en tom presentation där vi lägger till vårt diagram med felstaplar.
 
 ## Steg 2: Skapa ett bubbeldiagram
 
@@ -62,7 +62,7 @@ I det här steget lägger vi till felstaplar i diagrammet och ställer in deras 
 - `setValue` anger värdet för felstaplar.
 - `setType` definierar typen av felstaplar (t.ex. plus eller minus).
 -  Vi ställer in bredden på felfältslinjerna med hjälp av`getFormat().getLine().setWidth(2)`.
-- `setEndCap`anger om ändkapslar ska inkluderas på felstaplarna.
+- `setEndCap` anger om ändkapslar ska inkluderas på felstaplarna.
 
 ## Steg 4: Spara presentationen
 
@@ -123,7 +123,7 @@ Ja, du kan lägga till felstaplar till olika diagramtyper som stöds av Aspose.S
 
 ### Hur kan jag justera positionen och storleken på diagrammet på bilden?
 
- Du kan styra diagrammets position och dimensioner genom att justera parametrarna i`addChart` metod, som visas i steg 2.
+Du kan styra diagrammets position och dimensioner genom att justera parametrarna i`addChart` metod, som visas i steg 2.
 
 ### Var kan jag hitta mer information om Aspose.Slides för Java?
 

@@ -101,7 +101,7 @@ Bu adım adım kılavuzda, ad alanlarının içe aktarılması ve ölçülü lis
 ## Sıkça Sorulan Sorular (SSS)
 
 ### Aspose.Slides for .NET nedir?
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. PowerPoint dosyalarını oluşturmak, düzenlemek ve değiştirmek için çok çeşitli özellikler sunar.
+Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. PowerPoint dosyalarını oluşturmak, düzenlemek ve değiştirmek için çok çeşitli özellikler sağlar.
 
 ### Aspose.Slides belgelerini nerede bulabilirim?
  Aspose.Slides belgelerine şu adresten ulaşabilirsiniz:[bu bağlantı](https://reference.aspose.com/slides/net/).

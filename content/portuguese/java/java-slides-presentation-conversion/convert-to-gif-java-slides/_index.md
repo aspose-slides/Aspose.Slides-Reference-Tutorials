@@ -59,7 +59,7 @@ Por fim, salvaremos a apresentação como um arquivo GIF. Especifique o caminho 
 // O caminho para o arquivo de saída
 String outPath = "Your Output Directory/ConvertToGif.gif";
 
-// Salve a apresentação em GIF
+// Salve a apresentação em Gif
 presentation.save(outPath, SaveFormat.Gif, gifOptions);
 ```
 
@@ -79,7 +79,7 @@ try {
 	gifOptions.setFrameSize(new Dimension(540, 480)); // o tamanho do GIF resultante
 	gifOptions.setDefaultDelay(1500); // quanto tempo cada slide será mostrado até que seja alterado para o próximo
 	gifOptions.setTransitionFps(60); // aumente o FPS para melhor qualidade de animação de transição
-	// Salve a apresentação em GIF
+	// Salve a apresentação em Gif
 	presentation.save(outPath, SaveFormat.Gif, gifOptions);
 } finally {
 	if (presentation != null) presentation.dispose();

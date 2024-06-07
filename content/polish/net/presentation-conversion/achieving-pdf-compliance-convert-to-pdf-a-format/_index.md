@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- W tym fragmencie kodu zamień`"Your Document Directory"` rzeczywistą ścieżką do katalogu dokumentów i`"YourPresentation.pptx"` z nazwą prezentacji programu PowerPoint.
+ W tym fragmencie kodu zamień`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów i`"YourPresentation.pptx"` z nazwą prezentacji programu PowerPoint.
 
 ### Krok 3: Skonfiguruj opcje PDF
 

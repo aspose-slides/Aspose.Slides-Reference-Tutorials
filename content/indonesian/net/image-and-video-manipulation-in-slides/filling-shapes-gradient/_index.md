@@ -70,6 +70,6 @@ J: Tentu saja! Aspose.Slides untuk .NET mendukung pengisian gradien untuk berbag
 ### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Slides untuk .NET?
  A: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### T: Bagaimana cara mendapatkan dukungan untuk Aspose.Slides untuk .NET?
- J: Mencari bantuan dan terlibat dengan komunitas di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+J: Mencari bantuan dan terlibat dengan komunitas di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
 ### T: Bisakah saya membeli lisensi sementara Aspose.Slides untuk .NET?
  A: Tentu saja, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

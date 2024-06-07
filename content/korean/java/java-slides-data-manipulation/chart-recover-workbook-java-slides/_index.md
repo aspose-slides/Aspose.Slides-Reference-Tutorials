@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    //여기에서 통합 문서 데이터에 대한 작업을 수행합니다.
+    // 여기에서 통합 문서 데이터에 대한 작업을 수행합니다.
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally

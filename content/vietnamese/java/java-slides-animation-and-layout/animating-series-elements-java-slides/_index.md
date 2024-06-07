@@ -22,7 +22,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 ## Bước 1: Tải bài thuyết trình
 
-Trước tiên, bạn cần tải bản trình bày PowerPoint chứa biểu đồ mà bạn muốn tạo hiệu ứng động. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+ Trước tiên, bạn cần tải bản trình bày PowerPoint chứa biểu đồ mà bạn muốn tạo hiệu ứng động. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -113,7 +113,7 @@ Bạn có thể tùy chỉnh hoạt ảnh cho từng thành phần biểu đồ 
 
 ### Tôi có thể áp dụng hình động cho các đối tượng khác trong slide PowerPoint không?
 
-Có, bạn có thể áp dụng hình động cho nhiều đối tượng khác nhau trong trang chiếu PowerPoint chứ không chỉ biểu đồ. Sử dụng`addEffect` phương thức để chỉ định đối tượng bạn muốn tạo hiệu ứng động và các thuộc tính hoạt hình mong muốn.
+ Có, bạn có thể áp dụng hình động cho nhiều đối tượng khác nhau trong trang chiếu PowerPoint chứ không chỉ biểu đồ. Sử dụng`addEffect` phương thức để chỉ định đối tượng bạn muốn tạo hiệu ứng động và các thuộc tính hoạt hình mong muốn.
 
 ### Làm cách nào để tích hợp Aspose.Slides cho Java vào dự án của tôi?
 

@@ -1,6 +1,6 @@
 ---
-title: Verifiera presentationen utan att ladda i Java Slides
-linktitle: Verifiera presentationen utan att ladda i Java Slides
+title: Verifiera presentation utan att ladda i Java Slides
+linktitle: Verifiera presentation utan att ladda i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du verifierar presentationer utan att ladda dem i Java Slides med Aspose.Slides för Java. Säkerställ filintegritet effektivt med denna steg-för-steg-guide.
 type: docs
@@ -41,7 +41,7 @@ Låt oss nu skriva Java-kod för att verifiera presentationsformatet utan att fa
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Det kommer att returnera "LoadFormat.Unknown" om filen är annat än presentationsformat
+//Det kommer att returnera "LoadFormat.Unknown" om filen är annat än presentationsformat
 ```
 
  I den här koden använder vi`PresentationFactory` för att få information om presentationsfilen, inklusive dess format. Om filen inte är ett giltigt presentationsformat kommer den att returnera "LoadFormat.Unknown."
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Sökvägen till dokumentkatalogen.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Det kommer att returnera "LoadFormat.Unknown" om filen är annat än presentationsformat
+        //Det kommer att returnera "LoadFormat.Unknown" om filen är annat än presentationsformat
 ```
 
 ## Slutsats

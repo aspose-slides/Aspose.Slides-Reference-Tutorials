@@ -93,8 +93,8 @@ Bu eğitimde Aspose.Slides for .NET ile grup şekilleri oluşturma sürecini inc
 ### Satın almadan önce Aspose.Slides'ı deneyebilir miyim?
  Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Slides ile ilgili sorgular için nereden destek bulabilirim?
- Aspose.Slides'ı ziyaret edin[forum](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
+Aspose.Slides'ı ziyaret edin[forum](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
 ### Aspose.Slides için geçici lisansı nasıl edinebilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides'ın tam lisansını nereden satın alabilirim?
- adresinden lisans satın alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
+ Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).

@@ -94,7 +94,7 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 
 ### 我可以插入其他簡報中的投影片嗎？
 
-是的你可以。您可以從另一個簡報複製投影片並使用以下命令將它們插入到目前簡報中，而不是從頭開始建立新投影片`InsertClone`方法。
+是的你可以。您可以從另一個簡報複製投影片並將其插入到目前簡報中，而不是從頭開始建立新投影片。`InsertClone`方法。
 
 ### 如果我想在簡報的開頭插入投影片怎麼辦？
 

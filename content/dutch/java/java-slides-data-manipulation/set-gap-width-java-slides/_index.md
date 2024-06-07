@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Download de werkmap Diagramgegevens
 
 ```java
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // De index van het kaartgegevensblad instellen
 int defaultWorksheetIndex = 0;
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Serie toevoegen
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -126,9 +126,9 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// Neem de tweede kaartenreeks
+// Neem de tweede kaartenserie
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Vult nu seriegegevens in
+//Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -149,7 +149,7 @@ In deze zelfstudie hebt u geleerd hoe u de tussenruimte instelt voor een diagram
 
 ### Hoe wijzig ik de waarde van de tussenruimte?
 
- Om de tussenruimte te wijzigen, gebruikt u de`setGapWidth` methode op de`ParentSeriesGroup`van de kaartenserie. In het gegeven voorbeeld stellen we de tussenruimte in op 50, maar u kunt deze waarde aanpassen aan de gewenste afstand.
+ Om de tussenruimte te wijzigen, gebruikt u de`setGapWidth` methode op de`ParentSeriesGroup`van de kaartenreeks. In het gegeven voorbeeld stellen we de tussenruimte in op 50, maar u kunt deze waarde aanpassen aan de gewenste afstand.
 
 ### Kan ik andere diagrameigenschappen aanpassen?
 

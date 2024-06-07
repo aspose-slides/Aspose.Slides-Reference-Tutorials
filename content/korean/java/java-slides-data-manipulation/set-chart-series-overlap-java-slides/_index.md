@@ -76,7 +76,7 @@ try
 		// 시리즈 중복 설정
 		series.get_Item(0).getParentSeriesGroup().setOverlap((byte) -30);
 	}
-	//프리젠테이션 파일을 디스크에 쓰기
+	// 프리젠테이션 파일을 디스크에 쓰기
 	presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 }
 finally

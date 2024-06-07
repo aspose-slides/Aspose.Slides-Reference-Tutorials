@@ -91,7 +91,7 @@ V tomto tutoriálu jsme prozkoumali, jak převést PowerPointové prezentace se 
 options.setNotesPosition(NotesPositions.RightFull);
 ```
 
-### Mohu export PDF dále přizpůsobit?
+### Mohu export PDF dále upravit?
 
 Ano, export PDF si můžete přizpůsobit úpravou různých možností v`PdfOptions` objekt. Můžete si například nastavit kvalitu, kompresi a další parametry podle svých potřeb.
 

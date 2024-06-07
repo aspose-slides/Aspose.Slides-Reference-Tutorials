@@ -52,7 +52,7 @@ Nesta etapa, criamos um formato Box Chart no primeiro slide da apresentação. T
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Nesta etapa definimos as categorias do Box Chart. Nós usamos o`IChartDataWorkbook`para adicionar categorias e rotulá-las de acordo.
+ Nesta etapa definimos as categorias do Box Chart. Nós usamos o`IChartDataWorkbook` para adicionar categorias e rotulá-las de acordo.
 
 ## Etapa 4: crie a série
 

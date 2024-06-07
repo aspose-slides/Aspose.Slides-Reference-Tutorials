@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation())
     //將新投影片新增至簡報
     ISlide slide2 = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
     ISlide slide3 = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
-    //...（繼續創建其他幻燈片）
+    // ...（繼續創建其他幻燈片）
 }
 ```
 ## 第 3 步：自訂投影片背景
@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation())
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
-//……（繼續自訂其他投影片的背景）
+// ……（繼續自訂其他投影片的背景）
 ```
 ## 步驟 4：將文字方塊新增至投影片
 合併文字方塊以在投影片上傳達訊息。在這裡，我們為第二張投影片新增一個矩形文字方塊。
@@ -58,7 +58,7 @@ slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
 //為第二張投影片建立一個文字框
 IAutoShape autoshape = slide2.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 200, 500, 200);
 autoshape.TextFrame.Text = "Second Slide";
-//...（繼續為其他幻燈片添加文字方塊）
+// ...（繼續為其他幻燈片添加文字方塊）
 ```
 ## 第 5 步：合併 ZoomFrames
 這一步介紹了令人興奮的部分——添加 ZoomFrames。這些框架可建立動態效果，例如投影片預覽和自訂影像。

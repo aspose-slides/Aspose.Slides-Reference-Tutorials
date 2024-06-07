@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Vi lägger till data i diagrammet genom att skapa serier och datapunkter. I det här exemplet lägger vi till två serier med sina respektive datapunkter.
 
 ```java
-//Hämta arbetsbladet för diagramdata
+// Hämta arbetsbladet för diagramdata
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Lägg till nya serier
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Hämta arbetsbladet för diagramdata
+// Hämta arbetsbladet för diagramdata
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Lägg till nya serier
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

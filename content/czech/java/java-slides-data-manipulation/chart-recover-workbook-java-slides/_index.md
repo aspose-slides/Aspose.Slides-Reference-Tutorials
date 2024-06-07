@@ -53,7 +53,7 @@ try
 {
     IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
-    //Zde provádějte operace s daty sešitu
+    // Zde provádějte operace s daty sešitu
     pres.save(outPptxFile, SaveFormat.Pptx);
 }
 finally
@@ -86,7 +86,7 @@ finally
 
 ## Závěr
 
-V této příručce jsme prošli procesem obnovení sešitu z grafu v aplikaci Java Slides pomocí Aspose.Slides for Java. Tato knihovna zjednodušuje úkol a usnadňuje vývojářům programovou práci s prezentacemi PowerPoint. Nyní můžete s jistotou zpracovávat prezentace založené na datech a podle potřeby extrahovat informace ze sešitu.
+této příručce jsme prošli procesem obnovení sešitu z grafu v aplikaci Java Slides pomocí Aspose.Slides for Java. Tato knihovna zjednodušuje úkol a usnadňuje vývojářům programovou práci s prezentacemi PowerPoint. Nyní můžete s jistotou zpracovávat prezentace založené na datech a podle potřeby extrahovat informace ze sešitu.
 
 ## FAQ
 

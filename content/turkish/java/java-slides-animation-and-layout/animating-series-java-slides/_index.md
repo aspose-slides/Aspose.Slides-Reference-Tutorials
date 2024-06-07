@@ -26,7 +26,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 ```java
 // Belgeler dizininin yolu.
 String dataDir = "Your Document Directory";
-//Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
+// Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Belgeler dizininin yolu.
 String dataDir = "Your Document Directory";
-//Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
+// Bir sunum dosyasını temsil eden Sunum sınıfını somutlaştırın
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -112,7 +112,7 @@ Aspose.Slides for Java'yı kullanarak bir PowerPoint grafiğindeki serileri baş
 
 ### Seri animasyonların sırasını nasıl kontrol ederim?
 
- Seri animasyonların sırasını kontrol etmek için`EffectTriggerType.AfterPrevious` Efektleri eklerken parametre. Bu, her serinin animasyonunun bir öncekinin bitiminden sonra başlamasını sağlayacaktır.
+ Seri animasyonların sırasını kontrol etmek için`EffectTriggerType.AfterPrevious`Efektleri eklerken parametre. Bu, her serinin animasyonunun bir öncekinin bitiminden sonra başlamasını sağlayacaktır.
 
 ### Her seriye farklı animasyonlar uygulayabilir miyim?
 

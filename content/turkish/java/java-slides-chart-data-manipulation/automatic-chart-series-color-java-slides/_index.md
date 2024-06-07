@@ -47,7 +47,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 ```java
 // Grafik veri sayfasının indeksini ayarlama
 int defaultWorksheetIndex = 0;
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Varsayılan oluşturulan serileri ve kategorileri silin
 chart.getChartData().getSeries().clear();
@@ -70,14 +70,14 @@ Hem Seri 1 hem de Seri 2 için seri verilerini dolduracağız.
 ```java
 // İlk grafik serisini alın
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Şimdi seri verileri dolduruluyor
+//Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // İkinci grafik serisini alın
 series = chart.getChartData().getSeries().get_Item(1);
-// Şimdi seri verileri dolduruluyor
+//Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,7 +118,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Grafik veri sayfasının indeksini ayarlama
 	int defaultWorksheetIndex = 0;
-	//Grafik verileri çalışma sayfasını alma
+	// Grafik verileri çalışma sayfasını alma
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Varsayılan oluşturulan serileri ve kategorileri silin
 	chart.getChartData().getSeries().clear();
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// İlk grafik serisini alın
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// Şimdi seri verileri dolduruluyor
+	//Şimdi seri verileri dolduruluyor
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// İkinci grafik serisini alın
 	series = chart.getChartData().getSeries().get_Item(1);
-	// Şimdi seri verileri dolduruluyor
+	//Şimdi seri verileri dolduruluyor
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// Seri için dolgu rengini ayarlama
+	//Seri için dolgu rengini ayarlama
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Sunuyu grafikle kaydet
@@ -181,7 +181,7 @@ Bu kod, kütüphanenin grafik serisi için renkleri otomatik olarak seçmesine o
 
 ### Grafiğe nasıl ek seri veya kategori ekleyebilirim?
 
- Grafiğe ek seriler veya kategoriler eklemek için`getSeries()` Ve`getCategories()` grafiğin yöntemleri`ChartData` nesne. Verilerini ve etiketlerini belirterek yeni seri ve kategoriler ekleyebilirsiniz.
+Grafiğe ek seriler veya kategoriler eklemek için`getSeries()` Ve`getCategories()` grafiğin yöntemleri`ChartData` nesne. Verilerini ve etiketlerini belirterek yeni seri ve kategoriler ekleyebilirsiniz.
 
 ### Grafiği ve etiketleri daha da biçimlendirmek mümkün mü?
 

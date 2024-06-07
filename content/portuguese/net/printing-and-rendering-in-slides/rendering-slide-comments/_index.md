@@ -85,4 +85,4 @@ R: Absolutamente! O tutorial inclui opções para personalizar a cor, largura e 
 ### P: Como obtenho uma licença temporária do Aspose.Slides?
  R: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso procurar ajuda e suporte para Aspose.Slides?
- R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio comunitário.
+R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio comunitário.

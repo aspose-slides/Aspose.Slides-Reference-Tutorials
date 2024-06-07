@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## Paso 5: definir el formato de degradado
 
- En este paso, especificará el formato de degradado. Puede personalizar el degradado según sus preferencias. Aquí usamos`TileFlip.FlipBoth` para crear un efecto visualmente atractivo.
+En este paso, especificará el formato de degradado. Puede personalizar el degradado según sus preferencias. Aquí usamos`TileFlip.FlipBoth` para crear un efecto visualmente atractivo.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

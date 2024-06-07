@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## Шаг 4. Добавьте круговую диаграмму
 
 ```java
-// Добавьте круговую диаграмму с данными по умолчанию
+//Добавьте круговую диаграмму с данными по умолчанию
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Установка индекса таблицы данных диаграммы
 int defaultWorksheetIndex = 0;
 
-//Получение листа данных диаграммы
+// Получение листа данных диаграммы
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Удалить созданные по умолчанию серии и категории
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Настройте другие сектора аналогичным образом
+// Настройте другие сектора аналогичным образом
 ```
 
 Настройте внешний вид каждого сектора круговой диаграммы. Вы можете изменить цвета, стили границ и другие визуальные свойства.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Установка индекса таблицы данных диаграммы
 int defaultWorksheetIndex = 0;
-//Получение листа данных диаграммы
+// Получение листа данных диаграммы
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Удалить созданные по умолчанию серии и категории
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Добавляем новую серию
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Теперь заполняем данные серии
+//Теперь заполняем данные серии
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Не работает в новой версии
+// Не работает в новой версии
 // Добавление новых точек и установка цвета сектора
 // series.IsColorVaried = правда;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### Как изменить цвета отдельных секторов круговой диаграммы?
 
- Чтобы изменить цвета отдельных секторов круговой диаграммы, вы можете настроить цвет заливки для каждой точки данных. В предоставленном примере кода мы продемонстрировали, как установить цвет заливки для каждого сектора с помощью`getSolidFillColor().setColor()`метод. Вы можете изменить значения цвета для достижения желаемого внешнего вида.
+ Чтобы изменить цвета отдельных секторов круговой диаграммы, вы можете настроить цвет заливки для каждой точки данных. В предоставленном примере кода мы продемонстрировали, как установить цвет заливки для каждого сектора с помощью`getSolidFillColor().setColor()` метод. Вы можете изменить значения цвета для достижения желаемого внешнего вида.
 
 ### Могу ли я добавить в круговую диаграмму дополнительные категории и ряды данных?
 
@@ -278,7 +278,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### Могу ли я создавать другие типы диаграмм с помощью Aspose.Slides для Java?
 
- Да, Aspose.Slides for Java поддерживает различные типы диаграмм, включая гистограммы, линейные диаграммы и т. д. Вы можете создавать различные типы диаграмм, изменяя`ChartType` при добавлении диаграммы. Обратитесь к документации Aspose.Slides для получения более подробной информации о создании различных типов диаграмм.
+Да, Aspose.Slides for Java поддерживает различные типы диаграмм, включая гистограммы, линейные диаграммы и т. д. Вы можете создавать различные типы диаграмм, изменяя`ChartType` при добавлении диаграммы. Обратитесь к документации Aspose.Slides для получения более подробной информации о создании различных типов диаграмм.
 
 ### Как я могу найти дополнительную информацию и примеры для работы с Aspose.Slides для Java?
 

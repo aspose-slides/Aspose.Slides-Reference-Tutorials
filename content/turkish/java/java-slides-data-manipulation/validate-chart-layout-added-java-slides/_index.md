@@ -14,7 +14,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumunda grafik d
 
 ## Adım 1: Sunumu Başlatma
 
-Öncelikle bir sunum nesnesini başlatmamız ve mevcut bir PowerPoint sunumunu yüklememiz gerekiyor. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu içeren (`test.pptx` bu örnekte).
+ Öncelikle bir sunum nesnesini başlatmamız ve mevcut bir PowerPoint sunumunu yüklememiz gerekiyor. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu içeren (`test.pptx` bu örnekte).
 
 ```java
 // Belgeler dizininin yolu.
@@ -88,7 +88,7 @@ Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarında graf
 
 ### Grafik türünü nasıl değiştiririm?
 
- Grafik türünü değiştirmek için basitçe değiştirin`ChartType.ClusteredColumn` İstenilen grafik türü ile`addChart()` yöntem.
+ Grafik türünü değiştirmek için basitçe değiştirin`ChartType.ClusteredColumn`İstenilen grafik türü ile`addChart()` yöntem.
 
 ### Grafik verilerini özelleştirebilir miyim?
 

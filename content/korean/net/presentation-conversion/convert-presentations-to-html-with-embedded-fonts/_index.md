@@ -101,7 +101,7 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## 자주 묻는 질문
 
-### 1. 배치 모드에서 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션을 HTML로 변환할 수 있나요?
+### 1. 배치 모드에서 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션을 HTML로 변환할 수 있습니까?
 
 예, Aspose.Slides for .NET을 사용하여 프레젠테이션 파일을 반복하고 각 프레젠테이션에 변환 프로세스를 적용하여 여러 프레젠테이션을 HTML로 일괄 변환할 수 있습니다.
 

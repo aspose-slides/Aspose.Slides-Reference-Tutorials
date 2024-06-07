@@ -44,7 +44,7 @@ Presentation pres = new Presentation();
 // Szerezd meg az első diát
 ISlide slide = pres.getSlides().get_Item(0);
 
-// A szóródási diagram készítése
+// Szórványdiagram készítése
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
 
@@ -56,7 +56,7 @@ Most készítsük elő az adatokat a szóródiagramunkhoz. Két sorozatot adunk 
 // Az alapértelmezett diagramadat-munkalapindex lekérése
 int defaultWorksheetIndex = 0;
 
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Demósorozat törlése
@@ -92,7 +92,7 @@ series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse a prezentációt a pontdiagrammal egy PPTX fájlba.
 
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Az alapértelmezett diagramadat-munkalapindex lekérése
 int defaultWorksheetIndex = 0;
-// diagram adatlap beszerzése
+// A diagram adatlapjának lekérése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Demósorozat törlése
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Új pont hozzáadása (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Új pont hozzáadása (2:2)
+// Új pont hozzáadása (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Új pont hozzáadása (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ Ebben az oktatóanyagban végigvezettük a szóródási diagram létrehozásána
 
 ### Hogyan tudom megváltoztatni a diagram típusát?
 
- A diagram típusának módosításához használja a`setType` módszert a diagramsorozaton, és adja meg a kívánt diagramtípust. Például,`series.setType(ChartType.Line)` vonaldiagrammá változtatná a sorozatot.
+ A diagram típusának módosításához használja a`setType`módszert a diagramsorozaton, és adja meg a kívánt diagramtípust. Például,`series.setType(ChartType.Line)` vonaldiagrammá változtatná a sorozatot.
 
 ### Hogyan szabhatom testre a marker méretét és stílusát?
 

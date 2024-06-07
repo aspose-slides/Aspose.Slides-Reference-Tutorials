@@ -11,7 +11,7 @@ url: /pt/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 No mundo dinâmico das apresentações, adicionar apelo visual aos slides pode aumentar significativamente o impacto da sua mensagem. Aspose.Slides for .NET fornece um kit de ferramentas poderoso para manipular e embelezar seus slides de apresentação de forma programática. Um desses recursos intrigantes é a capacidade de aplicar efeitos de chanfro às formas, adicionando profundidade e dimensão aos seus visuais.
 ## Pré-requisitos
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
-- Aspose.Slides para .NET: Certifique-se de ter a biblioteca Aspose.Slides instalada. Você pode baixá-lo no[local na rede Internet](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides para .NET: Certifique-se de ter a biblioteca Aspose.Slides instalada. Você pode baixá-lo no[local na rede Internet](https://releases.aspose.com/slides/net/).
 - Ambiente de desenvolvimento: Configure seu ambiente de desenvolvimento .NET e tenha um conhecimento básico de C#.
 - Diretório de Documentos: Crie um diretório para seus documentos onde serão salvos os arquivos de apresentação gerados.
 ## Importar namespaces

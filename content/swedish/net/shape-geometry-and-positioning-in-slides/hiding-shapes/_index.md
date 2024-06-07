@@ -68,8 +68,8 @@ Ja, Aspose.Slides stöder .NET Core, vilket ger flexibilitet i din utvecklingsmi
 ### Kan jag dölja former baserat på andra villkor än alternativ text?
 Absolut! Du kan anpassa döljningslogiken baserat på olika attribut som formtyp, färg eller position.
 ### Var kan jag hitta ytterligare Aspose.Slides-dokumentation?
- Utforska dokumentationen[här](https://reference.aspose.com/slides/net/) för fördjupad information och exempel.
+ Utforska dokumentationen[här](https://reference.aspose.com/slides/net/)för fördjupad information och exempel.
 ### Finns tillfälliga licenser tillgängliga för Aspose.Slides?
- Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för teständamål.
+ Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/)för teständamål.
 ### Hur kan jag få gemenskapsstöd för Aspose.Slides?
  Gå med i Aspose.Slides-communityt på[forum](https://forum.aspose.com/c/slides/11) för diskussioner och hjälp.

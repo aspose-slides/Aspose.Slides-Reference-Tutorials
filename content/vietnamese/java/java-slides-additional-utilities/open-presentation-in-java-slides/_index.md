@@ -58,7 +58,7 @@ try {
 ```java
         // Đường dẫn đến thư mục tài liệu.
         String dataDir = "Your Document Directory";
-        // Mở tệp trình bày bằng cách chuyển đường dẫn tệp tới hàm tạo của lớp Trình bày
+        //Mở tệp trình bày bằng cách chuyển đường dẫn tệp tới hàm tạo của lớp Trình bày
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

@@ -46,7 +46,7 @@ url: /zh-hant/net/presentation-manipulation/
 ### [將簡報轉換為 HTML 時渲染註釋](./render-notes-while-converting-presentation-to-html/)
 了解如何使用 Aspose.Slides for .NET 將簡報轉換為 HTML 時有效地呈現演講者註解。本逐步指南提供了原始程式碼範例和見解，可協助您透過註解保存實現無縫轉換。 
 ### [使用 CSS 檔案將簡報匯出為 HTML](./export-presentation-to-html-with-css-files/)
-了解如何使用 Aspose.Slides for .NET 將 PowerPoint 簡報匯出為帶有 CSS 檔案的 HTML。無縫轉換的逐步指南。保留風格和佈局！ 
+了解如何使用 Aspose.Slides for .NET 將 PowerPoint 簡報匯出為包含 CSS 檔案的 HTML。無縫轉換的逐步指南。保留風格和佈局！ 
 ### [簡報的 SVG 轉換選項](./svg-conversion-options-for-presentations/)
 了解如何使用 Aspose.Slides for .NET 對簡報執行 SVG 轉換。此綜合指南涵蓋逐步說明、原始程式碼範例和各種 SVG 轉換選項。
 ### [設定簡報中 SVG 的格式](./formatting-svgs-in-presentations/)

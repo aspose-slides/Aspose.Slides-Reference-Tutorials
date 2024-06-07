@@ -98,7 +98,7 @@ bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 ### Q：我可以為簡報中的多張投影片產生縮圖嗎？
 答：是的，您可以修改程式碼來為簡報中的任何投影片或形狀產生縮圖。
 
-### Q：儲存縮圖支援哪些影像格式？
+### Q：儲存縮圖支援哪些圖像格式？
 答：Aspose.Slides for .NET 支援各種圖片格式，包括 PNG、JPEG 和 BMP。
 
 ### Q：縮圖生成過程有什麼限制嗎？

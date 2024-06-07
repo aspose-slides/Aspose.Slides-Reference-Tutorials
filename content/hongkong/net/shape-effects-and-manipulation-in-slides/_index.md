@@ -33,7 +33,7 @@ Aspose.Slides 提供了一系列為 .NET 開發人員量身訂製的形狀操作
 透過音訊增強您的簡報！了解如何使用 Aspose.Slides API for .NET 將音訊影格新增至簡報投影片。取得逐步指南和程式碼範例。
 ### [使用 Aspose.Slides 將 OLE 物件框架新增至簡報投影片](./adding-ole-object-frames/)
 了解如何使用 Aspose.Slides for .NET 無縫整合 OLE 物件框架來增強簡報投影片。將您的簡報提升到一個新的水平。
-### [使用 Aspose.Slides 新增普通線條到簡報投影片](./adding-plain-lines/)
+### [使用 Aspose.Slides 將普通線條加入簡報投影片](./adding-plain-lines/)
 了解如何使用 Aspose.Slides for .NET 新增簡單線條來增強簡報投影片。請遵循這份包含逐步說明和原始程式碼範例的綜合指南。
 ### [在 Aspose.Slides 中加入具有相對比例高度的圖片框](./adding-picture-frames-relative-scale/)
 了解如何使用 Aspose.Slides for .NET 新增具有相對比例高度的圖片框架來增強簡報。輕鬆創建具有視覺吸引力的幻燈片。

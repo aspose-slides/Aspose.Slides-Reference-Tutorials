@@ -30,7 +30,7 @@ Para comenzar, cree un nuevo proyecto de C# en Visual Studio o su entorno de des
 
 ## Paso 2: escribir el código
 
-Ahora, escribamos el código que convertirá diapositivas específicas a PDF. Aquí está el fragmento de código C# que puede usar:
+Ahora, escribamos el código que convertirá diapositivas específicas a PDF. Aquí está el fragmento de código C# que puede utilizar:
 
 ```csharp
 string dataDir = "Your Document Directory";

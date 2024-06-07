@@ -16,7 +16,7 @@ En este tutorial, aprenderá cómo abrir una presentación protegida con contras
 
 Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
-1.  Biblioteca Aspose.Slides para Java: asegúrese de haber descargado e instalado la biblioteca Aspose.Slides para Java. Puedes obtenerlo del[Aspose sitio web](https://products.aspose.com/slides/java/).
+1. Biblioteca Aspose.Slides para Java: asegúrese de haber descargado e instalado la biblioteca Aspose.Slides para Java. Puedes obtenerlo del[Aspose sitio web](https://products.aspose.com/slides/java/).
 
 2.  Entorno de desarrollo Java: configure un entorno de desarrollo Java en su sistema si aún no lo ha hecho. Puede descargar Java desde el[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-downloads.html).
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Reemplace "pase" con su contraseña de prese
 
 ## Paso 3: abre la presentación
 
- Ahora, abrirá la presentación protegida con contraseña usando el`Presentation` constructor de clase, que toma la ruta del archivo y las opciones de carga como parámetros.
+ Ahora, abrirá la presentación protegida con contraseña usando el`Presentation`constructor de clase, que toma la ruta del archivo y las opciones de carga como parámetros.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -96,7 +96,7 @@ En este tutorial, aprendió cómo abrir una presentación protegida con contrase
 
 ### ¿Cómo configuro la contraseña para una presentación?
 
-Para establecer la contraseña para una presentación, utilice el`loadOptions.setPassword("password")` método, donde`"password"` debe reemplazarse con la contraseña deseada.
+ Para establecer la contraseña para una presentación, utilice el`loadOptions.setPassword("password")` método, donde`"password"` debe reemplazarse con la contraseña deseada.
 
 ### ¿Puedo abrir presentaciones con diferentes formatos, como PPT y PPTX?
 
@@ -106,7 +106,7 @@ Para establecer la contraseña para una presentación, utilice el`loadOptions.se
 
  Debe incluir el código para abrir la presentación dentro de un`try` bloquear y usar un`finally` bloque para garantizar que la presentación se elimine correctamente, incluso si se produce una excepción.
 
-### ¿Existe alguna manera de eliminar la contraseña de una presentación?
+### ¿Existe alguna forma de eliminar la contraseña de una presentación?
 
 Aspose.Slides brinda la capacidad de configurar y cambiar la contraseña para una presentación, pero no ofrece un método directo para eliminar una contraseña existente. Para eliminar una contraseña, es posible que deba guardar la presentación sin contraseña y luego volver a guardarla con una nueva contraseña si es necesario.
 

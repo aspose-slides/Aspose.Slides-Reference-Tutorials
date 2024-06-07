@@ -107,7 +107,7 @@ diagram egyéb tulajdonságainak eléréséhez és módosításához felfedezhet
 
 ### Szükségem van licencre az Aspose.Slides for Java használatához kereskedelmi projektekben?
 
-Igen, általában érvényes licenc szükséges az Aspose.Slides for Java használatához kereskedelmi projektekben. Az Aspose különféle licencelési lehetőségeket kínál, beleértve az ingyenes kiértékelési licencet tesztelési és próbaüzemi célokra. A termelési felhasználáshoz azonban meg kell szereznie a megfelelő kereskedelmi engedélyt. Meglátogatni a[Aspose vásárlási oldal](https://purchase.aspose.com/) az engedélyezési részletekért.
+Igen, általában érvényes licenc szükséges az Aspose.Slides for Java használatához kereskedelmi projektekben. Az Aspose különféle licencelési lehetőségeket kínál, beleértve az ingyenes kiértékelési licencet tesztelési és próbaüzemi célokra. A termelési felhasználáshoz azonban meg kell szereznie a megfelelő kereskedelmi engedélyt. Meglátogatni a[Aspose vásárlási oldal](https://purchase.aspose.com/) az engedély részleteiért.
 
 ### Hogyan kaphatok műszaki támogatást az Aspose.Slides for Java-hoz?
 

@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Ustawianie indeksu arkusza danych wykresu
 	int defaultWorksheetIndex = 0;
-	//Pobieranie arkusza danych wykresu
+	// Pobieranie arkusza danych wykresu
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Usuń domyślnie wygenerowane serie i kategorie
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Dodawanie nowej serii
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Teraz wypełniam dane serii
+	//Teraz wypełniam dane serii
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Pomyślnie utworzyłeś wykres kołowy w prezentacji programu PowerPoint przy u�
 
 ### Jak mogę dostosować kolory poszczególnych wycinków na wykresie kołowym?
 
- Aby dostosować kolory poszczególnych wycinków na wykresie kołowym, możesz użyć opcji`getAutomaticSeriesColors`metodę pobierania domyślnego schematu kolorów, a następnie modyfikowania kolorów w razie potrzeby. Oto przykład:
+ Aby dostosować kolory poszczególnych wycinków na wykresie kołowym, możesz użyć opcji`getAutomaticSeriesColors` metodę pobierania domyślnego schematu kolorów, a następnie modyfikowania kolorów w razie potrzeby. Oto przykład:
 
 ```java
-// Uzyskaj domyślny schemat kolorów
+//Uzyskaj domyślny schemat kolorów
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // W razie potrzeby zmodyfikuj kolory

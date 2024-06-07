@@ -11,7 +11,7 @@ url: /ar/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من التعامل مع عروض PowerPoint التقديمية بسهولة. في هذا البرنامج التعليمي، سوف نستكشف عملية إضافة إزاحة امتداد إلى اليسار لإطار الصورة باستخدام Aspose.Slides for .NET. اتبع هذا الدليل التفصيلي خطوة بخطوة لتحسين مهاراتك في العمل مع الصور والأشكال داخل عروض PowerPoint التقديمية.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-- Aspose.Slides for .NET: تأكد من تثبيت المكتبة. إذا لم يكن الأمر كذلك، قم بتنزيله من[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: تأكد من تثبيت المكتبة. إذا لم يكن الأمر كذلك، قم بتنزيله من[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
 - بيئة التطوير: تمتع ببيئة تطوير عمل بقدرات .NET.
 ## استيراد مساحات الأسماء
 ابدأ باستيراد مساحات الأسماء الضرورية في مشروع .NET الخاص بك:

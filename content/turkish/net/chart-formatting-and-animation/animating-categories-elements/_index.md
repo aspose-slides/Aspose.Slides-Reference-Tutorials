@@ -96,7 +96,7 @@ Kategori 2 için de aynı süreç devam ederek öğeleri ayrı ayrı canlandır�
 ## 4. Adım: Sunuyu Kaydetme
 
 ```csharp
-//Sunum dosyasını diske yazın
+// Sunum dosyasını diske yazın
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -115,7 +115,7 @@ Bir grafikteki kategori öğelerini canlandırmak sunumlarınızın görsel çek
 ### 2. Aspose.Slides for .NET'i kullanmak için kodlama deneyimine ihtiyacım var mı?
 Kodlama deneyimi yararlı olsa da Aspose.Slides for .NET, tüm beceri seviyelerindeki kullanıcılara yardımcı olacak kapsamlı belgeler ve örnekler sağlar.
 
-### 3. Aspose.Slides for .NET'i PowerPoint'in herhangi bir sürümüyle kullanabilir miyim?
+### 3. Aspose.Slides for .NET'i herhangi bir PowerPoint sürümüyle kullanabilir miyim?
 Aspose.Slides for .NET, çeşitli PowerPoint sürümleriyle çalışacak ve uyumluluk sağlayacak şekilde tasarlanmıştır.
 
 ### 4. Aspose.Slides for .NET için nasıl geçici lisans alabilirim?

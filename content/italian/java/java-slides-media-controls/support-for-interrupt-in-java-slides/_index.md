@@ -1,6 +1,6 @@
 ---
-title: Supporto per Interrupt nelle diapositive Java
-linktitle: Supporto per Interrupt nelle diapositive Java
+title: Supporto per Interrupt in Java Slides
+linktitle: Supporto per Interrupt in Java Slides
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Gestione delle interruzioni di Master Java Slides con Aspose.Slides per Java. Questa guida dettagliata fornisce istruzioni dettagliate ed esempi di codice per una gestione fluida degli interrupt.
 type: docs

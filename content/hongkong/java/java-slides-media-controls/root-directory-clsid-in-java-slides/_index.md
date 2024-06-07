@@ -8,7 +8,7 @@ weight: 10
 url: /zh-hant/java/media-controls/root-directory-clsid-in-java-slides/
 ---
 
-## Aspose.Slides for Java中設定根目錄ClsId介紹
+## Aspose.Slides for Java中設定根目錄ClsId簡介
 
 在Aspose.Slides for Java中，您可以設定根目錄ClsId，它是CLSID（類別識別碼），用於指定在啟動簡報中的超連結時用作根目錄的應用程式。在本指南中，我們將引導您逐步完成此操作。
 
@@ -55,7 +55,7 @@ pres.save(resultPath, SaveFormat.Ppt, pptOptions);
 
 在此步驟中，我們將簡報儲存到指定的`resultPath`與`PptOptions`我們之前創建的。
 
-## 第 4 步：清理
+## 第四步：清理
 
 不要忘記丟棄`Presentation`對象釋放任何分配的資源。
 

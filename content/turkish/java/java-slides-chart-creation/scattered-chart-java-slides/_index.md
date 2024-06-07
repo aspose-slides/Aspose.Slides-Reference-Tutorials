@@ -56,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0
 // Varsayılan grafik verileri çalışma sayfası dizinini alma
 int defaultWorksheetIndex = 0;
 
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Demo serisini sil
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Varsayılan grafik verileri çalışma sayfası dizinini alma
 int defaultWorksheetIndex = 0;
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Demo serisini sil
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // Yeni nokta ekle (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//Yeni nokta ekle (2:2)
+// Yeni nokta ekle (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // Yeni nokta ekle (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -152,13 +152,13 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Çözüm
 
-Bu eğitimde size Aspose.Slides for Java'yı kullanarak Dağılım Grafiği oluşturma sürecini anlattık. Dağılım grafikleri, iki boyutlu bir alandaki veri noktalarını görselleştirmeye yönelik güçlü araçlardır ve karmaşık veri ilişkilerini analiz etmeyi ve anlamayı kolaylaştırır.
+Bu eğitimde size Aspose.Slides for Java'yı kullanarak Dağılım Grafiği oluşturma sürecini anlattık. Dağılım grafikleri, iki boyutlu bir alanda veri noktalarını görselleştirmeye yönelik güçlü araçlardır ve karmaşık veri ilişkilerini analiz etmeyi ve anlamayı kolaylaştırır.
 
 ## SSS'ler
 
 ### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü değiştirmek için`setType` Grafik serisindeki yöntemi seçin ve istenen grafik türünü sağlayın. Örneğin,`series.setType(ChartType.Line)` seriyi çizgi grafiğine dönüştürür.
+ Grafik türünü değiştirmek için`setType`Grafik serisindeki yöntemi seçin ve istenen grafik türünü sağlayın. Örneğin,`series.setType(ChartType.Line)` seriyi çizgi grafiğine dönüştürür.
 
 ### İşaretçi boyutunu ve stilini nasıl özelleştiririm?
 

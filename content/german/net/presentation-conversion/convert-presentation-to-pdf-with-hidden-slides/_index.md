@@ -1,8 +1,8 @@
 ---
-title: Konvertieren Sie eine Präsentation mit versteckten Folien in PDF
-linktitle: Konvertieren Sie eine Präsentation mit versteckten Folien in PDF
+title: Konvertieren Sie Präsentationen mit ausgeblendeten Folien in PDF
+linktitle: Konvertieren Sie Präsentationen mit ausgeblendeten Folien in PDF
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen mit ausgeblendeten Folien nahtlos in PDF konvertieren.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen nahtlos in PDF mit ausgeblendeten Folien konvertieren.
 type: docs
 weight: 26
 url: /de/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
@@ -10,18 +10,18 @@ url: /de/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-sli
 
 ## Einführung in Aspose.Slides für .NET
 
-Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die umfassende Funktionen für die Arbeit mit Präsentationen in .NET-Anwendungen bietet. Es ermöglicht Entwicklern, Präsentationen zu erstellen, zu bearbeiten, zu manipulieren und in verschiedene Formate, einschließlich PDF, zu konvertieren.
+Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die umfassende Funktionen für die Arbeit mit Präsentationen in .NET-Anwendungen bietet. Entwickler können damit Präsentationen erstellen, bearbeiten, bearbeiten und in verschiedene Formate, einschließlich PDF, konvertieren.
 
-## Versteckte Folien in Präsentationen verstehen
+## Informationen zu ausgeblendeten Folien in Präsentationen
 
-Versteckte Folien sind Folien innerhalb einer Präsentation, die während einer normalen Diashow nicht sichtbar sind. Sie können ergänzende Informationen, Backup-Inhalte oder Inhalte enthalten, die für bestimmte Zielgruppen bestimmt sind. Beim Konvertieren von Präsentationen in PDF muss unbedingt darauf geachtet werden, dass auch diese versteckten Folien enthalten sind, um die Integrität der Präsentation zu wahren.
+Versteckte Folien sind Folien innerhalb einer Präsentation, die während einer normalen Diashow nicht sichtbar sind. Sie können ergänzende Informationen, Sicherungsinhalte oder Inhalte enthalten, die für bestimmte Zielgruppen bestimmt sind. Beim Konvertieren von Präsentationen in PDF muss unbedingt sichergestellt werden, dass diese versteckten Folien ebenfalls einbezogen werden, um die Integrität der Präsentation zu wahren.
 
 ## Einrichten der Entwicklungsumgebung
 
-Bevor wir beginnen, stellen Sie sicher, dass Folgendes vorhanden ist:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes eingerichtet haben:
 
-- Visual Studio oder eine beliebige .NET-Entwicklungsumgebung installiert.
--  Aspose.Slides für .NET-Bibliothek. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/net).
+- Visual Studio oder eine andere .NET-Entwicklungsumgebung installiert.
+-  Aspose.Slides für .NET-Bibliothek. Sie können es herunterladen von[Hier](https://releases.aspose.com/slides/net).
 
 ## Laden einer Präsentationsdatei
 
@@ -34,24 +34,24 @@ using Aspose.Slides;
 using var presentation = new Presentation("sample.pptx");
 ```
 
-## Konvertieren einer Präsentation in PDF mit versteckten Folien
+## Konvertieren einer Präsentation in PDF mit ausgeblendeten Folien
 
-Nachdem wir nun versteckte Folien identifizieren können, fahren wir mit der Konvertierung der Präsentation in PDF fort und stellen dabei sicher, dass versteckte Folien enthalten sind:
+Nachdem wir nun versteckte Folien identifizieren können, fahren wir mit der Konvertierung der Präsentation ins PDF-Format fort und stellen dabei sicher, dass versteckte Folien eingeschlossen werden:
 
 ```csharp
 var pdfOptions = new PdfOptions();
-pdfOptions.ShowHiddenSlides = true; // Fügen Sie versteckte Folien in PDF ein
+pdfOptions.ShowHiddenSlides = true; // Ausgeblendete Folien in PDF einbinden
 
 presentation.Save("output.pdf", SaveFormat.Pdf, pdfOptions);
 ```
 
 ## Zusätzliche Optionen und Anpassungen
 
-Aspose.Slides für .NET bietet verschiedene Optionen und Anpassungen für den Konvertierungsprozess. Sie können PDF-spezifische Optionen wie Seitengröße, Ausrichtung und Qualität festlegen, um die Ausgabe-PDF zu optimieren.
+Aspose.Slides für .NET bietet verschiedene Optionen und Anpassungen für den Konvertierungsprozess. Sie können PDF-spezifische Optionen wie Seitengröße, Ausrichtung und Qualität festlegen, um das Ausgabe-PDF zu optimieren.
 
-## Codebeispiel: Präsentation in PDF mit ausgeblendeten Folien konvertieren
+## Codebeispiel: Präsentation mit ausgeblendeten Folien in PDF konvertieren
 
-Hier ist ein vollständiges Beispiel für die Konvertierung einer Präsentation in PDF mit ausgeblendeten Folien mithilfe von Aspose.Slides für .NET:
+Hier ist ein vollständiges Beispiel für die Konvertierung einer Präsentation mit ausgeblendeten Folien in PDF mithilfe von Aspose.Slides für .NET:
 
 ```csharp
 using Aspose.Slides;
@@ -72,25 +72,25 @@ class Program
 
 ## Abschluss
 
-Das Konvertieren von Präsentationen in PDF ist eine häufige Aufgabe, aber beim Umgang mit versteckten Folien ist es wichtig, eine zuverlässige Bibliothek wie Aspose.Slides für .NET zu verwenden. Wenn Sie die in dieser Anleitung beschriebenen Schritte befolgen, können Sie Präsentationen nahtlos in PDF konvertieren und gleichzeitig sicherstellen, dass versteckte Folien einbezogen werden, sodass die Gesamtqualität und der Kontext der Präsentation erhalten bleiben.
+Das Konvertieren von Präsentationen in PDF ist eine gängige Aufgabe, aber beim Umgang mit versteckten Folien ist es wichtig, eine zuverlässige Bibliothek wie Aspose.Slides für .NET zu verwenden. Indem Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie Präsentationen nahtlos in PDF konvertieren und gleichzeitig sicherstellen, dass versteckte Folien eingeschlossen werden und die Gesamtqualität und der Kontext der Präsentation erhalten bleiben.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### Wie füge ich mit Aspose.Slides für .NET versteckte Folien in die PDF-Datei ein?
+### Wie füge ich mit Aspose.Slides für .NET versteckte Folien in das PDF ein?
 
- Um ausgeblendete Folien in die PDF-Konvertierung einzubeziehen, können Sie Folgendes festlegen`ShowHiddenSlides` Eigentum zu`true` in den PDF-Optionen, bevor Sie die Präsentation als PDF speichern.
+ Um versteckte Folien in die PDF-Konvertierung einzubeziehen, können Sie die`ShowHiddenSlides` Eigentum an`true` in den PDF-Optionen, bevor Sie die Präsentation als PDF speichern.
 
 ### Kann ich die PDF-Ausgabeeinstellungen mit Aspose.Slides anpassen?
 
-Ja, Aspose.Slides für .NET bietet verschiedene Optionen zum Anpassen der PDF-Ausgabeeinstellungen, wie z. B. Seitengröße, Ausrichtung und Bildqualität.
+Ja, Aspose.Slides für .NET bietet verschiedene Optionen zum Anpassen der PDF-Ausgabeeinstellungen, wie Seitengröße, Ausrichtung und Bildqualität.
 
-### Eignet sich Aspose.Slides für .NET sowohl für einfache als auch für komplexe Präsentationen?
+### Ist Aspose.Slides für .NET sowohl für einfache als auch für komplexe Präsentationen geeignet?
 
-Aspose.Slides für .NET ist auf jeden Fall darauf ausgelegt, Präsentationen unterschiedlicher Komplexität zu verarbeiten. Es eignet sich sowohl für einfache als auch komplexe Präsentationskonvertierungsaufgaben.
+Absolut, Aspose.Slides für .NET ist für die Verarbeitung von Präsentationen unterschiedlicher Komplexität konzipiert. Es eignet sich sowohl für einfache als auch für komplexe Präsentationskonvertierungsaufgaben.
 
-### Wo kann ich die Aspose.Slides für .NET-Bibliothek herunterladen?
+### Wo kann ich die Aspose.Slides-Bibliothek für .NET herunterladen?
 
- Sie können die Aspose.Slides für .NET-Bibliothek unter herunterladen[Hier](https://releases.aspose.com/slides/net).
+ Sie können die Aspose.Slides für .NET-Bibliothek herunterladen von[Hier](https://releases.aspose.com/slides/net).
 
 ### Gibt es eine Dokumentation für Aspose.Slides für .NET?
 

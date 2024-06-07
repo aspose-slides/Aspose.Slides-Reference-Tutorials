@@ -14,7 +14,7 @@ In questo tutorial esploreremo come convalidare il layout del grafico in una pre
 
 ## Passaggio 1: inizializzazione della presentazione
 
-Innanzitutto, dobbiamo inizializzare un oggetto di presentazione e caricare una presentazione PowerPoint esistente. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione (`test.pptx` in questo esempio).
+ Innanzitutto, dobbiamo inizializzare un oggetto di presentazione e caricare una presentazione PowerPoint esistente. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione (`test.pptx` in questo esempio).
 
 ```java
 // Il percorso della directory dei documenti.
@@ -88,7 +88,7 @@ In questo tutorial, abbiamo approfondito il mondo del lavoro con i grafici nelle
 
 ### Come posso cambiare il tipo di grafico?
 
- Per modificare il tipo di grafico, è sufficiente sostituirlo`ChartType.ClusteredColumn` con il tipo di grafico desiderato nel file`addChart()` metodo.
+ Per modificare il tipo di grafico, è sufficiente sostituirlo`ChartType.ClusteredColumn`con il tipo di grafico desiderato nel file`addChart()` metodo.
 
 ### Posso personalizzare i dati del grafico?
 

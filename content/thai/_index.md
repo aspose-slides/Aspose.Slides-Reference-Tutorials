@@ -59,6 +59,6 @@ Aspose.Slides สำหรับ Java เป็นตัวเปลี่ยน
 - [ยูทิลิตี้เพิ่มเติมของ Java Slides](./java/additional-utilities/)
 - [คุณสมบัติการนำเสนอสไลด์ Java](./java/presentation-properties/)
 - [การควบคุมสื่อ Java Slides](./java/media-controls/)
-- [การจัดการรูปภาพ Java Slides](./java/image-handling/)
+- [การจัดการภาพ Java Slides](./java/image-handling/)
 - [การป้องกันเอกสาร Java Slides](./java/document-protection/)
 - [ตัวเลือกการบันทึก Java Slides](./java/saving-options/)

@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## Stap 5: Definieer het verloopformaat
 
- In deze stap specificeert u het verloopformaat. U kunt het verloop aanpassen aan uw voorkeuren. Hier gebruiken wij`TileFlip.FlipBoth` om een visueel aantrekkelijk effect te creëren.
+In deze stap specificeert u het verloopformaat. U kunt het verloop aanpassen aan uw voorkeuren. Hier gebruiken wij`TileFlip.FlipBoth` om een visueel aantrekkelijk effect te creëren.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

@@ -8,7 +8,7 @@ weight: 12
 url: /vi/net/licensing-and-formatting/add-color-to-data-points/
 ---
 
-Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm màu vào các điểm dữ liệu trong biểu đồ bằng Aspose.Slides for .NET. Aspose.Slides là một thư viện mạnh mẽ để làm việc với các bản trình bày PowerPoint trong các ứng dụng .NET. Việc thêm màu vào các điểm dữ liệu trong biểu đồ có thể làm cho bản trình bày của bạn hấp dẫn trực quan hơn và dễ hiểu hơn.
+Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm màu vào các điểm dữ liệu trong biểu đồ bằng Aspose.Slides cho .NET. Aspose.Slides là một thư viện mạnh mẽ để làm việc với các bản trình bày PowerPoint trong các ứng dụng .NET. Việc thêm màu vào các điểm dữ liệu trong biểu đồ có thể làm cho bản trình bày của bạn hấp dẫn trực quan hơn và dễ hiểu hơn.
 
 ## Điều kiện tiên quyết
 

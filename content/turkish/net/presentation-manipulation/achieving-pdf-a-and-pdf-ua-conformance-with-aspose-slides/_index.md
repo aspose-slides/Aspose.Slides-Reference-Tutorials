@@ -62,7 +62,7 @@ Erişilebilirliğin sağlanması PDF/UA uyumluluğu açısından çok önemlidir
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// PDF/UA için erişilebilirlik desteği ekleyin
+//PDF/UA için erişilebilirlik desteği ekleyin
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Sunumu yükle
 using var presentation = new Presentation("presentation.pptx");
 
-// PDF/UA için erişilebilirlik desteği ekleyin
+//PDF/UA için erişilebilirlik desteği ekleyin
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -100,7 +100,7 @@ presentation.Save("accessible_output.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## Çözüm
 
-Aspose.Slides for .NET ile PDF/A ve PDF/UA uyumluluğuna ulaşmak, hem arşivlenebilir hem de erişilebilir belgeler oluşturmanıza olanak sağlar. Bu kılavuzda özetlenen adımları izleyerek ve sağlanan kaynak kodu örneklerini kullanarak sunumlarınızın en yüksek uyumluluk ve kapsayıcılık standartlarını karşılamasını sağlayabilirsiniz.
+Aspose.Slides for .NET ile PDF/A ve PDF/UA uyumluluğuna ulaşmak, hem arşivlenebilir hem de erişilebilir belgeler oluşturmanıza olanak tanır. Bu kılavuzda özetlenen adımları izleyerek ve sağlanan kaynak kodu örneklerini kullanarak sunumlarınızın en yüksek uyumluluk ve kapsayıcılık standartlarını karşılamasını sağlayabilirsiniz.
 
 ## SSS'ler
 

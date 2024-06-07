@@ -8,7 +8,7 @@ weight: 15
 url: /zh-hant/net/slide-background-manipulation/change-slide-background-normal/
 ---
 
-在簡報設計領域，創建引人注目且引人入勝的幻燈片至關重要。 Aspose.Slides for .NET 是一個強大的工具，可讓您以程式設計方式操作 PowerPoint 簡報。在本逐步指南中，我們將向您展示如何使用 Aspose.Slides for .NET 變更投影片的背景。這可以幫助您增強簡報的視覺吸引力並使其更具影響力。 
+在簡報設計領域，創建引人注目且引人入勝的幻燈片至關重要。 Aspose.Slides for .NET 是一個功能強大的工具，可讓您以程式設計方式操作 PowerPoint 簡報。在本逐步指南中，我們將向您展示如何使用 Aspose.Slides for .NET 變更投影片的背景。這可以幫助您增強簡報的視覺吸引力並使其更具影響力。 
 
 ## 先決條件
 
@@ -80,9 +80,9 @@ Aspose.Slides for .NET 提供了多種以程式設計方式操作 PowerPoint 簡
 
 ## 經常問的問題
 
-### 1.我可以將背景更改為自訂圖像嗎？
+### 1. 我可以將背景更改為自訂圖像嗎？
 
-是的，您可以使用 Aspose.Slides for .NET 將投影片的背景設定為自訂影像。您需要使用適當的方法來指定圖像作為背景填充。
+是的，您可以使用 Aspose.Slides for .NET 將投影片的背景設定為自訂圖像。您需要使用適當的方法來指定圖像作為背景填充。
 
 ### 2. Aspose.Slides for .NET 與最新版本的 PowerPoint 相容嗎？
 

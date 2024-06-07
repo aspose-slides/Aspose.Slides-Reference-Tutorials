@@ -32,7 +32,7 @@ Hãy theo dõi khi chúng tôi bắt đầu cuộc hành trình này để khám
 
 ## Ghi chú Hướng dẫn thao tác với slide
 ### [Lưu ý Thao tác với slide bằng Aspose.Slides](./notes-slide-manipulation/)
-Tìm hiểu cách thao tác các trang ghi chú trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này bao gồm cách truy cập, thêm nội dung và trích xuất nội dung từ các trang ghi chú kèm theo các ví dụ về mã nguồn.
+Tìm hiểu cách thao tác các trang ghi chú trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này bao gồm việc truy cập, thêm nội dung và trích xuất nội dung từ các trang ghi chú kèm theo các ví dụ về mã nguồn.
 ### [Quản lý Header và Footer trong Notes Slide](./header-and-footer-in-notes-slide/)
 Tìm hiểu cách tùy chỉnh đầu trang và chân trang trong các trang ghi chú bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn và bao gồm các phần tử truy cập, sửa đổi và tạo kiểu.
 ### [Xóa ghi chú tại slide cụ thể](./remove-notes-at-specific-slide/)

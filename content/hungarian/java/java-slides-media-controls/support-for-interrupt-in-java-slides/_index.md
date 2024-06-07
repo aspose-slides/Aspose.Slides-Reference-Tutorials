@@ -124,7 +124,7 @@ Java Slides megszakításkezelése arra utal, hogy a PowerPoint-prezentációk f
 
 ### Használható a megszakításkezelés az Aspose.Slides for Java bármely műveletéhez?
 
-Igen, a megszakításkezelés az Aspose.Slides for Java különféle műveleteire alkalmazható. Megszakíthatja az olyan feladatokat, mint a prezentációk betöltése, a bemutatók mentése és egyéb időigényes műveletek, így biztosítva az alkalmazás zökkenőmentes irányítását.
+Igen, a megszakításkezelés az Aspose.Slides for Java különféle műveleteire alkalmazható. Megszakíthatja az olyan feladatokat, mint a prezentációk betöltése, a prezentációk mentése és egyéb időigényes műveletek, így biztosítva az alkalmazás zökkenőmentes irányítását.
 
 ### Vannak olyan konkrét forgatókönyvek, ahol a megszakításkezelés különösen hasznos?
 

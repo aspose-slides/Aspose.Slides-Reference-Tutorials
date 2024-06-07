@@ -14,7 +14,7 @@ Bem-vindo ao tutorial Aspose.Slides sobre extração de áudio e vídeo em aplic
 
 ## Extraindo conteúdo de áudio e vídeo:
 
-Neste tutorial, você aprenderá como extrair elementos de áudio e vídeo de apresentações do PowerPoint usando Aspose.Slides for .NET. Abordaremos vários cenários, incluindo a extração de clipes de áudio e vídeo individuais, o gerenciamento de configurações de reprodução e a exportação desses elementos multimídia para diferentes formatos. Com instruções passo a passo e exemplos de código-fonte, você poderá integrar perfeitamente a extração de áudio e vídeo em seus aplicativos.
+Neste tutorial, você aprenderá como extrair elementos de áudio e vídeo de apresentações do PowerPoint usando Aspose.Slides for .NET. Cobriremos vários cenários, incluindo a extração de clipes de áudio e vídeo individuais, o gerenciamento de configurações de reprodução e a exportação desses elementos multimídia para diferentes formatos. Com instruções passo a passo e exemplos de código-fonte, você poderá integrar perfeitamente a extração de áudio e vídeo em seus aplicativos.
 
 ## Por que a extração de áudio e vídeo é importante:
 

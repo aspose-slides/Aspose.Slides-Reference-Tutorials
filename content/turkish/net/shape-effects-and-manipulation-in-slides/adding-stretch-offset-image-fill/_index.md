@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## Adım 4: ImageEx Sınıfını Örneklendirin
- Bir örneğini oluşturun`ImageEx` Slayda eklemek istediğiniz görüntüyü işlemek için class.
+ Bir örneğini oluşturun`ImageEx`Slayda eklemek istediğiniz görüntüyü işlemek için class.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

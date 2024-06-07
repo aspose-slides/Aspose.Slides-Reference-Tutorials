@@ -19,7 +19,7 @@ A Visual Studio projektben importálja a szükséges névtereket az Aspose.Slide
 ## 1. lépés: Nyissa meg a Visual Studio projektet
 Indítsa el a Visual Studio programot, és nyissa meg a projektet.
 ## 2. lépés: Az Aspose.Slides Reference hozzáadása
-projektben kattintson a jobb gombbal a Referenciák elemre, és válassza a "Hivatkozás hozzáadása" lehetőséget. Keresse meg azt a helyet, ahová az Aspose.Slides könyvtárat mentette, és adja hozzá a hivatkozást.
+A projektben kattintson a jobb gombbal a Referenciák elemre, és válassza a "Hivatkozás hozzáadása" lehetőséget. Keresse meg azt a helyet, ahová az Aspose.Slides könyvtárat mentette, és adja hozzá a hivatkozást.
 ## 3. lépés: Névterek importálása
 A kódfájlban importálja a szükséges névtereket:
 ```csharp

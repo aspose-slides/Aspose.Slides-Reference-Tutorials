@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 We voegen gegevens aan het diagram toe door reeksen en gegevenspunten te maken. In dit voorbeeld voegen we twee reeksen toe met hun respectievelijke gegevenspunten.
 
 ```java
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Nieuwe serie toevoegen
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Het werkblad met diagramgegevens ophalen
+// Het werkblad met diagramgegevens ophalen
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Nieuwe serie toevoegen
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());

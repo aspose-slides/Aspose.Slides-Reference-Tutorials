@@ -37,7 +37,7 @@ String presentationFilePath = dataDir + "OpenPresentation.pptx";
 
 ## Stap 3: Open de presentatie
 
- Laten we nu de presentatie openen met behulp van de`Presentation` klasse constructeur. We drukken ook het totale aantal dia's in de presentatie af. Vergeet niet om uitzonderingen af te handelen met behulp van a`try-finally` blokkeren om ervoor te zorgen dat hulpbronnen op de juiste manier worden afgevoerd.
+ Laten we nu de presentatie openen met behulp van de`Presentation` klasse constructor. We drukken ook het totale aantal dia's in de presentatie af. Vergeet niet om uitzonderingen af te handelen met behulp van a`try-finally` blokkeren om ervoor te zorgen dat hulpbronnen op de juiste manier worden afgevoerd.
 
 ```java
 Presentation presentation = null;
@@ -58,7 +58,7 @@ try {
 ```java
         // Het pad naar de documentenmap.
         String dataDir = "Your Document Directory";
-        // Het presentatiebestand openen door het bestandspad door te geven aan de constructor van de klasse Presentation
+        //Het presentatiebestand openen door het bestandspad door te geven aan de constructor van de klasse Presentation
         Presentation pres = new Presentation(dataDir + "OpenPresentation.pptx");
         try
         {

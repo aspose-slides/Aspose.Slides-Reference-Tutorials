@@ -10,7 +10,7 @@ url: /sv/java/chart-elements/box-chart-java-slides/
 
 ## Introduktion till Box Chart i Aspose.Slides för Java
 
-I den här handledningen kommer vi att leda dig genom processen att skapa ett boxdiagram med Aspose.Slides för Java. Boxdiagram är användbara för att visualisera statistiska data med olika kvartiler och extremvärden. Vi kommer att tillhandahålla steg-för-steg-instruktioner tillsammans med källkod för att hjälpa dig komma igång.
+den här handledningen kommer vi att leda dig genom processen att skapa ett boxdiagram med Aspose.Slides för Java. Boxdiagram är användbara för att visualisera statistiska data med olika kvartiler och extremvärden. Vi kommer att tillhandahålla steg-för-steg-instruktioner tillsammans med källkod för att hjälpa dig komma igång.
 
 ## Förutsättningar
 
@@ -52,7 +52,7 @@ I det här steget skapar vi en Box Chart-form på den första bilden av presenta
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- I det här steget definierar vi kategorierna för boxdiagrammet. Vi använder`IChartDataWorkbook`för att lägga till kategorier och märka dem därefter.
+ I det här steget definierar vi kategorierna för boxdiagrammet. Vi använder`IChartDataWorkbook` för att lägga till kategorier och märka dem därefter.
 
 ## Steg 4: Skapa serien
 

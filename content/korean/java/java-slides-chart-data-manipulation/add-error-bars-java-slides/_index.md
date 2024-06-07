@@ -14,7 +14,7 @@ url: /ko/java/chart-data-manipulation/add-error-bars-java-slides/
 
 ## 전제조건
 
-시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://downloads.aspose.com/slides/java).
+ 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://downloads.aspose.com/slides/java).
 
 ## 1단계: 빈 프레젠테이션 만들기
 
@@ -36,7 +36,7 @@ IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartTy
 
 여기에서는 버블 차트를 만들고 슬라이드에서 위치와 크기를 지정합니다.
 
-## 3단계: 오차 막대 추가 및 형식 설정
+## 3단계: 오류 막대 추가 및 형식 설정
 
 ```java
 // 오류 막대 추가 및 형식 설정
@@ -62,7 +62,7 @@ errBarX.setEndCap(true);
 - `setValue` 오류 막대의 값을 설정합니다.
 - `setType` 오류 막대의 유형(예: 플러스 또는 마이너스)을 정의합니다.
 -  다음을 사용하여 오차 막대 선의 너비를 설정합니다.`getFormat().getLine().setWidth(2)`.
-- `setEndCap`오류 막대에 끝 대문자를 포함할지 여부를 지정합니다.
+- `setEndCap` 오류 막대에 끝 대문자를 포함할지 여부를 지정합니다.
 
 ## 4단계: 프레젠테이션 저장
 
@@ -123,7 +123,7 @@ finally
 
 ### 슬라이드에서 차트의 위치와 크기를 어떻게 조정하나요?
 
- 매개변수를 조정하여 차트의 위치와 크기를 제어할 수 있습니다.`addChart` 2단계에 표시된 대로 방법을 사용합니다.
+매개변수를 조정하여 차트의 위치와 크기를 제어할 수 있습니다.`addChart` 2단계에 표시된 대로 방법을 사용합니다.
 
 ### Aspose.Slides for Java에 대한 자세한 정보는 어디서 찾을 수 있나요?
 

@@ -24,7 +24,7 @@ url: /tr/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimension
 
 ### 3. Geliştirme Ortamı
 
-Bu öğreticiyi takip etmek için, C# kullanarak .NET programlama konusunda çalışma bilgisine ve Visual Studio gibi bir geliştirme ortamı kurulumuna sahip olmanız gerekir.
+Bu öğreticiyi takip etmek için C# kullanarak .NET programlama konusunda çalışma bilgisine ve Visual Studio gibi bir geliştirme ortamı kurulumuna sahip olmanız gerekir.
 
 Artık önkoşulları ele aldığımıza göre, özel küçük resimler oluşturma sürecini adım adım talimatlara ayıralım.
 

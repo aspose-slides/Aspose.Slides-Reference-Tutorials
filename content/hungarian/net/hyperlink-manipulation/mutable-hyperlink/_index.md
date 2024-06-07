@@ -21,7 +21,7 @@ Mielőtt belevetnénk magunkat a változtatható hiperhivatkozások világába, 
 Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a gépére. Az Aspose.Slides for .NET működéséhez a .NET-keretrendszer szükséges.
 
 ### 3. Integrált fejlesztési környezet (IDE)
-A .NET-kód írásához és végrehajtásához IDE-re lesz szüksége, például a Visual Studio-ra.
+A .NET kód írásához és végrehajtásához szüksége lesz egy IDE-re, például a Visual Studiora.
 
 Most, hogy megvannak a szükséges előfeltételek, folytassuk a módosítható hivatkozások létrehozását az Aspose.Slides for .NET-ben.
 

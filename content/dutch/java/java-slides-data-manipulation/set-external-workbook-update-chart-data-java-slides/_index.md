@@ -16,7 +16,7 @@ In deze uitgebreide handleiding leiden we u door het proces van het instellen va
 
 Voordat we ingaan op de implementatie, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1.  Aspose.Slides voor Java: De bibliotheek Aspose.Slides voor Java moet geïnstalleerd zijn. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides voor Java: De Aspose.Slides voor Java-bibliotheek moet geïnstalleerd zijn. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
 
 2. Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw systeem is geïnstalleerd.
 

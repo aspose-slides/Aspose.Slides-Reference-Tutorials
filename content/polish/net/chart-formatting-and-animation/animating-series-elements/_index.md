@@ -22,7 +22,7 @@ Teraz, gdy masz już niezbędne wymagania wstępne, zacznijmy animować elementy
 
 ## Importuj przestrzenie nazw
 
-Zanim zaczniesz kodować, musisz zaimportować wymagane przestrzenie nazw, aby móc pracować z Aspose.Slides dla .NET. Te przestrzenie nazw zapewnią dostęp do niezbędnych klas i metod tworzenia animacji.
+Zanim zaczniesz kodować, musisz zaimportować wymagane przestrzenie nazw do pracy z Aspose.Slides dla .NET. Te przestrzenie nazw zapewnią dostęp do niezbędnych klas i metod tworzenia animacji.
 
 ```csharp
 ﻿using Aspose.Slides.Charts;

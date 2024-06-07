@@ -56,7 +56,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0
 // รับดัชนีแผ่นงานข้อมูลแผนภูมิเริ่มต้น
 int defaultWorksheetIndex = 0;
 
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // ลบชุดสาธิต
@@ -116,7 +116,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // รับดัชนีแผ่นงานข้อมูลแผนภูมิเริ่มต้น
 int defaultWorksheetIndex = 0;
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // ลบชุดสาธิต
 chart.getChartData().getSeries().clear();
@@ -140,7 +140,7 @@ series = chart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
 // เพิ่มจุดใหม่ (3:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 3), fact.getCell(defaultWorksheetIndex, 3, 4, 1));
-//เพิ่มจุดใหม่ (2:2)
+// เพิ่มจุดใหม่ (2:2)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 4, 3, 2), fact.getCell(defaultWorksheetIndex, 4, 4, 2));
 // เพิ่มจุดใหม่ (5:1)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 5, 3, 5), fact.getCell(defaultWorksheetIndex, 5, 4, 1));
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร?
 
- หากต้องการเปลี่ยนประเภทแผนภูมิ ให้ใช้`setType` วิธีการชุดแผนภูมิและระบุประเภทแผนภูมิที่ต้องการ ตัวอย่างเช่น,`series.setType(ChartType.Line)` จะเปลี่ยนชุดข้อมูลเป็นแผนภูมิเส้น
+ หากต้องการเปลี่ยนประเภทแผนภูมิ ให้ใช้`setType`วิธีการชุดแผนภูมิและระบุประเภทแผนภูมิที่ต้องการ ตัวอย่างเช่น,`series.setType(ChartType.Line)` จะเปลี่ยนชุดข้อมูลเป็นแผนภูมิเส้น
 
 ### ฉันจะปรับแต่งขนาดและรูปแบบของมาร์กเกอร์ได้อย่างไร
 

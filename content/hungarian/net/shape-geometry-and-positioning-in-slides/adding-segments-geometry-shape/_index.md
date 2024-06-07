@@ -37,7 +37,7 @@ Hozzon létre egy geometriai alakzatot a prezentáción belül. Például adjunk
 ```csharp
 GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ```
-## 4. lépés: Get Geometry Path
+## 4. lépés: Szerezze be a geometriai útvonalat
 A szegmensek manipulálásához kérje le a létrehozott alakzat geometriai útvonalát.
 ```csharp
 IGeometryPath geometryPath = shape.GetGeometryPaths()[0];

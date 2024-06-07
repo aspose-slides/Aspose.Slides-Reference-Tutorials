@@ -8,7 +8,7 @@ weight: 15
 url: /it/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
 ## introduzione
-In questo tutorial, approfondiremo il processo di aggiunta di frame di oggetti OLE (Object Linking and Embedding) alle diapositive di presentazione utilizzando Aspose.Slides per .NET. Aspose.Slides è una potente libreria che consente agli sviluppatori di lavorare con i file PowerPoint a livello di programmazione. Segui questa guida passo passo per incorporare perfettamente oggetti OLE nelle diapositive della tua presentazione, migliorando i tuoi file PowerPoint con contenuti dinamici e interattivi.
+In questo tutorial, approfondiremo il processo di aggiunta di frame di oggetti OLE (Object Linking and Embedding) alle diapositive di presentazione utilizzando Aspose.Slides per .NET. Aspose.Slides è una potente libreria che consente agli sviluppatori di lavorare con i file PowerPoint a livello di codice. Segui questa guida passo passo per incorporare perfettamente oggetti OLE nelle diapositive della tua presentazione, migliorando i tuoi file PowerPoint con contenuti dinamici e interattivi.
 ## Prerequisiti
 Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 1.  Libreria Aspose.Slides per .NET: assicurati di avere la libreria Aspose.Slides per .NET installata. Puoi scaricarlo da[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Passaggio 4: aggiungere una forma di cornice oggetto OLE
 ```csharp
-// Aggiungere una forma frame oggetto OLE
+//Aggiungere una forma frame oggetto OLE
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ R: Sì, Aspose.Slides supporta gli ultimi formati di file PowerPoint, incluso PP
 ### D: Posso personalizzare l'aspetto del frame dell'oggetto OLE incorporato?
 R: Assolutamente, puoi regolare la dimensione, la posizione e altre proprietà del frame dell'oggetto OLE in base alle tue preferenze.
 ### D: Dove posso chiedere assistenza se incontro difficoltà durante l'implementazione?
- R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e l’orientamento della comunità.
+R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e l’orientamento della comunità.

@@ -79,7 +79,7 @@ Aspose.Slides를 사용하여 Java 슬라이드의 Excel 통합 문서에서 차
 ### [Java 슬라이드에서 데이터 레이블 백분율 로그인 설정](./set-data-labels-percentage-sign-java-slides/)
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 백분율 기호로 데이터 레이블을 설정하는 방법을 알아보세요. 단계별 지침과 소스 코드를 사용하여 매력적인 차트를 만듭니다.
 ### [Java 슬라이드에서 데이터 범위 설정](./set-data-range-java-slides/)
-Aspose.Slides for Java를 사용하여 Java 슬라이드에서 데이터 범위를 쉽게 설정하는 방법을 알아보세요. 이 단계별 가이드를 통해 역동적인 데이터 기반 프레젠테이션을 만들어 보세요. 
+Aspose.Slides for Java를 사용하여 Java 슬라이드에서 데이터 범위를 쉽게 설정하는 방법을 알아보세요. 이 단계별 가이드를 통해 역동적인 데이터 기반 프레젠테이션을 만들어보세요. 
 ### [Java 슬라이드에서 외부 통합 문서 설정](./set-external-workbook-java-slides/)
 Aspose.Slides for Java를 사용하여 Java Slides에서 외부 통합 문서를 설정하는 방법을 알아보세요. Excel 데이터 통합으로 동적 프레젠테이션을 만드세요.
 ### [Java 슬라이드의 업데이트 차트 데이터로 외부 통합 문서 설정](./set-external-workbook-update-chart-data-java-slides/)

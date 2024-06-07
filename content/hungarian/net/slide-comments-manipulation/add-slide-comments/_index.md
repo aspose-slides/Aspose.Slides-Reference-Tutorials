@@ -33,7 +33,7 @@ using Aspose.Slides.Export;
 
 Most, hogy az előfeltételeket és a névtereket rendeztük, továbbléphetünk a lépésről lépésre szóló útmutatóra.
 
-## 1. lépés: Hozzon létre egy új bemutatót
+## 1. lépés: Hozzon létre egy új prezentációt
 
 Kezdjük egy új prezentáció létrehozásával, amelyben megjegyzéseket fűzhetünk egy diához. Ehhez kövesse az alábbi kódot:
 
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
     point.X = 1;
     point.Y = 1;
 
-    // Diára vonatkozó megjegyzés hozzáadása egy szerzőhöz a dián
+    // Diák megjegyzésének hozzáadása egy szerzőhöz a dián
     author.Comments.AddComment("Hello Zeeshan, this is a slide comment", pres.Slides[0], point, DateTime.Now);
     
     // Mentse el a bemutatót
@@ -77,7 +77,7 @@ Ezekkel a lépésekkel sikeresen hozzáadott egy megjegyzést egy diához az Asp
 
 ## Következtetés
 
-A diákhoz való megjegyzések hozzáadása értékes szolgáltatás azok számára, akik prezentációkkal dolgoznak, legyen szó akár együttműködési projektekről, akár oktatási célokról. Az Aspose.Slides for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve a megjegyzések egyszerű létrehozását, szerkesztését és kezelését. Az ebben az útmutatóban ismertetett lépések követésével kihasználhatja az Aspose.Slides for .NET erejét a prezentációk tökéletesítésére.
+A diákhoz megjegyzések hozzáadása értékes funkció azok számára, akik prezentációkkal dolgoznak, akár együttműködési projektek, akár oktatási célból. Az Aspose.Slides for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve a megjegyzések egyszerű létrehozását, szerkesztését és kezelését. Az ebben az útmutatóban ismertetett lépések követésével kihasználhatja az Aspose.Slides for .NET erejét a prezentációk tökéletesítésére.
 
  Ha bármilyen problémája van, vagy kérdése van, ne habozzon kérni segítséget a[Aspose.Slides fórum](https://forum.aspose.com/).
 
@@ -87,7 +87,7 @@ A diákhoz való megjegyzések hozzáadása értékes szolgáltatás azok szám�
 
 ### 1. Hogyan szabhatom testre a megjegyzések megjelenését az Aspose.Slides for .NET-ben?
 
-Az Aspose.Slides könyvtár használatával testreszabhatja a megjegyzések megjelenését különféle tulajdonságok, például szín, méret és betűtípus módosításával. Tekintse meg a dokumentációt a részletes útmutatásért.
+Az Aspose.Slides könyvtár használatával testreszabhatja a megjegyzések megjelenését különféle tulajdonságok, például szín, méret és betűtípus módosításával. A részletes útmutatásért tekintse meg a dokumentációt.
 
 ### 2. Hozzáfűzhetek megjegyzéseket a dián belüli egyes elemekhez, például alakzatokhoz vagy képekhez?
 

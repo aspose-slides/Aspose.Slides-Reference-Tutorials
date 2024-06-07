@@ -24,7 +24,7 @@ using Aspose.Slides.Animation;
 using System.Drawing;
 ```
 ## 1단계: 프레젠테이션 만들기
- 다음을 사용하여 새 프레젠테이션을 만드는 것부터 시작하세요.`Presentation` 수업:
+ 다음을 사용하여 새 프리젠테이션을 작성하여 시작하십시오.`Presentation` 수업:
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);

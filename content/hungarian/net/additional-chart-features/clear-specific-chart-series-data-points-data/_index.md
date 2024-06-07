@@ -65,7 +65,7 @@ foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
 chart.ChartData.Series[0].DataPoints.Clear();
 ```
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Az adott diagramsorozat adatpontjainak törlése után el kell mentenie a módosított prezentációt egy új fájlba, vagy felül kell írnia az eredetit, az igényeitől függően.
 

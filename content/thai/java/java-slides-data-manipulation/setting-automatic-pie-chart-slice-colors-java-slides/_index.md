@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
 	int defaultWorksheetIndex = 0;
-	//รับแผ่นงานข้อมูลแผนภูมิ
+	// รับแผ่นงานข้อมูลแผนภูมิ
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// ลบซีรี่ส์และหมวดหมู่ที่สร้างโดยค่าเริ่มต้น
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// กำลังเพิ่มซีรีส์ใหม่
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// กำลังเติมข้อมูลซีรีส์
+	//กำลังเติมข้อมูลซีรีส์
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ finally
 
 ### ฉันจะปรับแต่งสีของแต่ละชิ้นในแผนภูมิวงกลมได้อย่างไร
 
- หากต้องการปรับแต่งสีของแต่ละชิ้นในแผนภูมิวงกลม คุณสามารถใช้`getAutomaticSeriesColors`วิธีการดึงข้อมูลโครงร่างสีเริ่มต้น จากนั้นปรับเปลี่ยนสีตามต้องการ นี่คือตัวอย่าง:
+ หากต้องการปรับแต่งสีของแต่ละชิ้นในแผนภูมิวงกลม คุณสามารถใช้`getAutomaticSeriesColors` วิธีการดึงข้อมูลโครงร่างสีเริ่มต้น จากนั้นปรับเปลี่ยนสีตามต้องการ นี่คือตัวอย่าง:
 
 ```java
-// รับโทนสีเริ่มต้น
+//รับโทนสีเริ่มต้น
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // ปรับเปลี่ยนสีได้ตามต้องการ

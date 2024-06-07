@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // Lặp lại cho các điểm dữ liệu khác
 // ...
 
-//Thay đổi kích thước điểm đánh dấu chuỗi biểu đồ
+// Thay đổi kích thước điểm đánh dấu chuỗi biểu đồ
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ Với Aspose.Slides cho Java, bạn có thể nâng cao bản trình bày của 
 
 ### Tôi có thể sử dụng hình ảnh làm điểm đánh dấu tùy chỉnh không?
 
-Có, bạn có thể sử dụng hình ảnh làm điểm đánh dấu tùy chỉnh cho điểm dữ liệu. Đặt loại điền thành`FillType.Picture` và cung cấp hình ảnh bạn muốn sử dụng.
+ Có, bạn có thể sử dụng hình ảnh làm điểm đánh dấu tùy chỉnh cho điểm dữ liệu. Đặt loại điền thành`FillType.Picture`và cung cấp hình ảnh bạn muốn sử dụng.
 
 ### Aspose.Slides cho Java có phù hợp để tạo biểu đồ động không?
 

@@ -16,7 +16,7 @@ url: /ru/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 Прежде чем мы углубимся в код, убедитесь, что у вас есть следующие предварительные условия:
 
-1.  Библиотека Aspose.Slides для Java: вам потребуется установить библиотеку Aspose.Slides для Java. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
+1. Библиотека Aspose.Slides для Java: вам потребуется установить библиотеку Aspose.Slides для Java. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
 
 2. Среда разработки Java: убедитесь, что в вашей системе настроена среда разработки Java.
 
@@ -24,7 +24,7 @@ url: /ru/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 Для начала создайте новый проект Java в вашей любимой IDE. Подготовив проект, добавьте библиотеку Aspose.Slides for Java в зависимости вашего проекта.
 
-## Шаг 2. Написание Java-кода
+## Шаг 2. Написание кода Java
 
 Теперь давайте напишем код Java для преобразования определенных слайдов в PDF. Ниже приведен фрагмент кода, выполняющий эту задачу:
 

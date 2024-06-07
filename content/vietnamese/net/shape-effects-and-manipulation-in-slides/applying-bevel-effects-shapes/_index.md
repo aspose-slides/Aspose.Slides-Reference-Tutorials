@@ -11,7 +11,7 @@ url: /vi/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 Trong thế giới năng động của các bài thuyết trình, việc thêm sức hấp dẫn trực quan vào các trang chiếu của bạn có thể nâng cao đáng kể tác động của thông điệp của bạn. Aspose.Slides for .NET cung cấp một bộ công cụ mạnh mẽ để thao tác và làm đẹp các slide thuyết trình của bạn theo chương trình. Một tính năng hấp dẫn như vậy là khả năng áp dụng các hiệu ứng vát cho các hình dạng, thêm chiều sâu và kích thước cho hình ảnh của bạn.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Slides. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Slides. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/slides/net/).
 - Môi trường phát triển: Thiết lập môi trường phát triển .NET của bạn và có hiểu biết cơ bản về C#.
 - Thư mục Tài liệu: Tạo một thư mục cho tài liệu của bạn để lưu các tệp trình bày đã tạo.
 ## Nhập không gian tên

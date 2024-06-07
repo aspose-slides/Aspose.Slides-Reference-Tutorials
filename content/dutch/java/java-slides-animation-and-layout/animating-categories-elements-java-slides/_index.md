@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-In deze code laden we een bestaande PowerPoint-presentatie die het diagram bevat dat u wilt animeren. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
+ In deze code laden we een bestaande PowerPoint-presentatie die het diagram bevat dat u wilt animeren. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
 
 ## Stap 3: Haal een verwijzing naar het diagramobject op
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Schrijf het presentatiebestand naar schijf
+	// Schrijf het presentatiebestand naar schijf
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -102,7 +102,7 @@ finally
 
 ## Conclusie
 
-U hebt met succes de categorie-elementen in een Java-dia geanimeerd met behulp van Aspose.Slides voor Java. Deze stapsgewijze handleiding gaf u de benodigde broncode en uitleg om dit animatie-effect in uw PowerPoint-presentaties te bereiken. Experimenteer met verschillende effecten en instellingen om uw animaties verder aan te passen.
+hebt met succes de categorie-elementen in een Java-dia geanimeerd met behulp van Aspose.Slides voor Java. Deze stapsgewijze handleiding gaf u de benodigde broncode en uitleg om dit animatie-effect in uw PowerPoint-presentaties te bereiken. Experimenteer met verschillende effecten en instellingen om uw animaties verder aan te passen.
 
 ## Veelgestelde vragen
 
@@ -116,4 +116,4 @@ Ja, u kunt vergelijkbare animaties toepassen op andere typen diagrammen door de 
 
 ### Hoe kom ik meer te weten over Aspose.Slides voor Java?
 
-Voor uitgebreide documentatie en aanvullende bronnen gaat u naar de[Aspose.Slides voor Java API-referentie](https://reference.aspose.com/slides/java/) . U kunt de bibliotheek ook downloaden van[hier](https://releases.aspose.com/slides/java/).
+ Voor uitgebreide documentatie en aanvullende bronnen gaat u naar de[Aspose.Slides voor Java API-referentie](https://reference.aspose.com/slides/java/) . U kunt de bibliotheek ook downloaden van[hier](https://releases.aspose.com/slides/java/).

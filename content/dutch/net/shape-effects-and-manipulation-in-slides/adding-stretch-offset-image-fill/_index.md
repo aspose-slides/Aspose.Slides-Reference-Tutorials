@@ -42,7 +42,7 @@ Haal de eerste dia uit de presentatie op om mee te werken.
 ISlide sld = pres.Slides[0];
 ```
 ## Stap 4: Instantie van ImageEx-klasse
- Maak een exemplaar van de`ImageEx` klasse om de afbeelding te verwerken die u aan de dia wilt toevoegen.
+ Maak een exemplaar van de`ImageEx`klasse om de afbeelding te verwerken die u aan de dia wilt toevoegen.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

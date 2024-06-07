@@ -8,7 +8,7 @@ weight: 15
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
 ## Wstęp
-W tym samouczku zagłębimy się w proces dodawania ramek obiektów OLE (łączenie i osadzanie obiektów) do slajdów prezentacji za pomocą Aspose.Slides dla .NET. Aspose.Slides to potężna biblioteka, która umożliwia programistom programową pracę z plikami programu PowerPoint. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bezproblemowo osadzać obiekty OLE w slajdach prezentacji, wzbogacając pliki programu PowerPoint o dynamiczną i interaktywną zawartość.
+tym samouczku zagłębimy się w proces dodawania ramek obiektów OLE (łączenie i osadzanie obiektów) do slajdów prezentacji za pomocą Aspose.Slides dla .NET. Aspose.Slides to potężna biblioteka, która umożliwia programistom programową pracę z plikami programu PowerPoint. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bezproblemowo osadzać obiekty OLE w slajdach prezentacji, wzbogacając pliki programu PowerPoint o dynamiczną i interaktywną zawartość.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 1.  Biblioteka Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides dla .NET. Można go pobrać z[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
@@ -61,7 +61,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 ```
 ## Krok 4: Dodaj kształt ramki obiektu OLE
 ```csharp
-// Dodaj kształt ramki obiektu OLE
+//Dodaj kształt ramki obiektu OLE
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
@@ -83,4 +83,4 @@ Odp.: Tak, Aspose.Slides obsługuje najnowsze formaty plików PowerPoint, w tym 
 ### P: Czy mogę dostosować wygląd osadzonej ramki obiektu OLE?
 O: Oczywiście możesz dostosować rozmiar, położenie i inne właściwości ramki obiektu OLE zgodnie ze swoimi preferencjami.
 ### P: Gdzie mogę szukać pomocy, jeśli napotkam wyzwania podczas wdrażania?
- O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) o wsparcie i wskazówki społeczności.
+O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) o wsparcie i wskazówki społeczności.

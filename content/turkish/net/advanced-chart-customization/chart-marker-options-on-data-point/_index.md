@@ -8,11 +8,11 @@ weight: 11
 url: /tr/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
-Sunumlar ve veri görselleştirmeyle çalışırken Aspose.Slides for .NET, grafikleri oluşturmak, özelleştirmek ve değiştirmek için çok çeşitli güçlü özellikler sunar. Bu öğreticide grafik sunumlarınızı geliştirmek için veri noktalarında grafik işaretleyici seçeneklerinin nasıl kullanılacağını keşfedeceğiz. Bu adım adım kılavuz, önkoşullardan ve ad alanlarının içe aktarılmasından başlayarak her örneği birden çok adıma ayırmaya kadar süreç boyunca size yol gösterecektir.
+Sunumlar ve veri görselleştirmeyle çalışırken Aspose.Slides for .NET, grafikleri oluşturmak, özelleştirmek ve değiştirmek için çok çeşitli güçlü özellikler sunar. Bu öğreticide, grafik sunumlarınızı geliştirmek için veri noktalarında grafik işaretleyici seçeneklerinin nasıl kullanılacağını keşfedeceğiz. Bu adım adım kılavuz, önkoşullardan ve ad alanlarının içe aktarılmasından başlayarak her örneği birden çok adıma ayırmaya kadar süreç boyunca size yol gösterecektir.
 
 ## Önkoşullar
 
-Veri noktalarında grafik işaretleyici seçeneklerini kullanmaya başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Veri noktalarında grafik işaretleyici seçeneklerini kullanmaya dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 -  Aspose.Slides for .NET: Aspose.Slides for .NET'in kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
 
@@ -58,7 +58,7 @@ Burada, varsayılan grafik verileri çalışma sayfasının indeksini elde ediyo
 ## Adım 3: Grafik Verileri Çalışma Sayfasını Alma
 
 ```csharp
-//Grafik verileri çalışma sayfasını alma
+// Grafik verileri çalışma sayfasını alma
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Veri noktaları için resim işaretleyicileri ayarlayarak her bir veri noktasın
 ## Adım 6: Grafik Serisi İşaretleyici Boyutunun Değiştirilmesi
 
 ```csharp
-//Grafik serisi işaretleyici boyutunu değiştirme
+// Grafik serisi işaretleyici boyutunu değiştirme
 series.Marker.Size = 15;
 ```
 
@@ -128,7 +128,7 @@ Son olarak sunumu yeni grafik ayarlarıyla kaydediyoruz.
 
 ## Çözüm
 
-Aspose.Slides for .NET, çeşitli özelleştirme seçenekleriyle çarpıcı grafik sunumları oluşturmanıza olanak tanır. Bu öğreticide verilerinizin görsel temsilini geliştirmek için veri noktalarında grafik işaretleyici seçeneklerini kullanmaya odaklandık. Aspose.Slides for .NET ile sunumlarınızı bir sonraki aşamaya taşıyabilir, onları daha ilgi çekici ve bilgilendirici hale getirebilirsiniz.
+Aspose.Slides for .NET, çeşitli özelleştirme seçenekleriyle etkileyici grafik sunumları oluşturmanıza olanak tanır. Bu öğreticide verilerinizin görsel temsilini geliştirmek için veri noktalarında grafik işaretleyici seçeneklerini kullanmaya odaklandık. Aspose.Slides for .NET ile sunumlarınızı bir sonraki aşamaya taşıyabilir, onları daha ilgi çekici ve bilgilendirici hale getirebilirsiniz.
 
  Aspose.Slides for .NET ile ilgili herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa şu adresi ziyaret etmekten çekinmeyin:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) veya iletişime geçin[Topluluğu düşünün](https://forum.aspose.com/) destek için.
 

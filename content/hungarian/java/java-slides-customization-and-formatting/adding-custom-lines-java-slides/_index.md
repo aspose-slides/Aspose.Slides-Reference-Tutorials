@@ -100,7 +100,7 @@ shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.YOUR_CO
 
 ### Hogyan tudom megváltoztatni a vonal vastagságát?
 
- A vonalvastagságot megváltoztathatja a`Width` a sorformátum tulajdonsága. Például:
+ A vonalvastagságot a beállításával módosíthatja`Width` a sorformátum tulajdonsága. Például:
 ```java
 shape.getLineFormat().setWidth(2); // Állítsa be a vonalvastagságot 2 pontra
 ```

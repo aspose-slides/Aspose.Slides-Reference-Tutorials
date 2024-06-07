@@ -1,6 +1,6 @@
 ---
 title: Hur man ställer in makrohyperlänk Klicka i Aspose.Slides för .NET
-linktitle: Hyperlänkhantering med makron
+linktitle: Hyperlänkhantering med hjälp av makron
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du ställer in makrohyperlänkar i dina presentationer med Aspose.Slides för .NET. Förbättra interaktivitet och engagera din publik.
 type: docs
@@ -8,7 +8,7 @@ weight: 13
 url: /sv/net/hyperlink-manipulation/macro-hyperlink/
 ---
 
-I en värld av modern mjukvaruutveckling är skapande av dynamiska och interaktiva presentationer en nyckelaspekt. Aspose.Slides för .NET är ett kraftfullt bibliotek som låter dig arbeta med presentationer på ett sömlöst sätt. Oavsett om du bygger en företagspresentation eller ett pedagogiskt bildspel, kan möjligheten att ställa in makro-hyperlänksklick förbättra användarupplevelsen avsevärt. I den här steg-för-steg-guiden går vi igenom processen att ställa in ett makro-hyperlänksklick med Aspose.Slides för .NET. 
+I en värld av modern mjukvaruutveckling är skapande av dynamiska och interaktiva presentationer en nyckelaspekt. Aspose.Slides för .NET är ett kraftfullt bibliotek som låter dig arbeta med presentationer på ett sömlöst sätt. Oavsett om du bygger en företagspresentation eller ett pedagogiskt bildspel, kan möjligheten att ställa in makrohyperlänksklick förbättra användarupplevelsen avsevärt. I den här steg-för-steg-guiden går vi igenom processen att ställa in ett makro-hyperlänksklick med Aspose.Slides för .NET. 
 
 ## Förutsättningar
 

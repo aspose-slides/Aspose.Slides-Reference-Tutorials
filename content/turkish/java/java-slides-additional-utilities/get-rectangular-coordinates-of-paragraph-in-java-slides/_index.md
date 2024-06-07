@@ -107,7 +107,7 @@ Evet, Aspose.Slides for Java, PowerPoint dosyalarının toplu işlenmesi için �
 
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
 
-Aspose.Slides for Java için daha fazla kod örneğini ve ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/) İnternet sitesi. Ek olarak şunları keşfedebilirsiniz:[Aspose.Slides forumları](https://forum.aspose.com/c/slides) topluluk desteği ve tartışmalar için.
+ Aspose.Slides for Java için daha fazla kod örneğini ve ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/)İnternet sitesi. Ek olarak şunları keşfedebilirsiniz:[Aspose.Slides forumları](https://forum.aspose.com/c/slides) topluluk desteği ve tartışmalar için.
 
 ### Aspose.Slides for Java'yı kullanmak için lisansa ihtiyacım var mı?
 

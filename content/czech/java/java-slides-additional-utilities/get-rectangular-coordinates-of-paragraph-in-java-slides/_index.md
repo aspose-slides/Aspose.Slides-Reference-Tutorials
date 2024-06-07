@@ -2,7 +2,7 @@
 title: Získejte obdélníkové souřadnice odstavce v Java Slides
 linktitle: Získejte obdélníkové souřadnice odstavce v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak načíst souřadnice odstavce v prezentacích PowerPoint pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem pro přesné umístění.
+description: Naučte se, jak získat souřadnice odstavce v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem pro přesné umístění.
 type: docs
 weight: 13
 url: /cs/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
@@ -10,7 +10,7 @@ url: /cs/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-j
 
 ## Úvod do získávání pravoúhlých souřadnic odstavce v Aspose.Slides pro Javu
 
-V tomto tutoriálu si ukážeme, jak načíst pravoúhlé souřadnice odstavce v prezentaci PowerPoint pomocí Aspose.Slides for Java API. Pomocí následujících kroků můžete programově získat polohu a rozměry odstavce na snímku.
+V tomto tutoriálu si ukážeme, jak získat pravoúhlé souřadnice odstavce v prezentaci PowerPoint pomocí Aspose.Slides for Java API. Pomocí následujících kroků můžete programově získat polohu a rozměry odstavce na snímku.
 
 ## Předpoklady
 
@@ -107,7 +107,7 @@ Ano, Aspose.Slides for Java se dobře hodí pro dávkové zpracování souborů 
 
 ### Kde najdu další příklady a dokumentaci?
 
-Více příkladů kódu a podrobnou dokumentaci k Aspose.Slides pro Java můžete najít na[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/) webová stránka. Kromě toho můžete prozkoumat[Aspose.Slides fóra](https://forum.aspose.com/c/slides) za podporu komunity a diskuze.
+ Více příkladů kódu a podrobnou dokumentaci k Aspose.Slides pro Java můžete najít na[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/)webová stránka. Kromě toho můžete prozkoumat[Aspose.Slides fóra](https://forum.aspose.com/c/slides) za podporu komunity a diskuze.
 
 ### Potřebuji licenci k používání Aspose.Slides for Java?
 

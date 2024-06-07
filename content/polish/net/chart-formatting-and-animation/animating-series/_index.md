@@ -44,7 +44,7 @@ W tym kroku załaduj istniejącą prezentację programu PowerPoint (PPTX) zawier
 // Ścieżka do katalogu dokumentów
 string dataDir = "Your Document Directory";
 
-//Klasa prezentacji instancji, która reprezentuje plik prezentacji
+// Klasa prezentacji instancji, która reprezentuje plik prezentacji
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Twój kod trafia tutaj

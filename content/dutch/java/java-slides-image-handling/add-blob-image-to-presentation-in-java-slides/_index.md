@@ -56,7 +56,7 @@ Presentation pres = new Presentation();
 
 ## Stap 5: Voeg de Blob-afbeelding toe
 
-Nu is het tijd om de Blob-afbeelding aan de presentatie toe te voegen. Wij gebruiken de`addImage` methode om dit te bereiken.
+ Nu is het tijd om de Blob-afbeelding aan de presentatie toe te voegen. Wij gebruiken de`addImage`methode om dit te bereiken.
 
 ```java
 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
@@ -116,7 +116,7 @@ Gefeliciteerd! U hebt met succes geleerd hoe u een Blob-afbeelding kunt toevoege
 
 ### Hoe installeer ik Aspose.Slides voor Java?
 
- Aspose.Slides voor Java kan eenvoudig worden geïnstalleerd door de bibliotheek van de website te downloaden[hier](https://releases.aspose.com/slides/java/). Volg de meegeleverde installatie-instructies om het in uw Java-project te integreren.
+Aspose.Slides voor Java kan eenvoudig worden geïnstalleerd door de bibliotheek van de website te downloaden[hier](https://releases.aspose.com/slides/java/). Volg de meegeleverde installatie-instructies om het in uw Java-project te integreren.
 
 ### Kan ik meerdere Blob-afbeeldingen toevoegen aan één presentatie?
 
@@ -128,7 +128,7 @@ Het is raadzaam om voor presentaties gangbare afbeeldingsformaten zoals JPEG of 
 
 ### Hoe kan ik de positie en grootte van de toegevoegde Blob-afbeelding aanpassen?
 
- kunt de positie en grootte van de toegevoegde Blob-afbeelding aanpassen door de parameters in het`addPictureFrame` methode. De vier waarden (x-coördinaat, y-coördinaat, breedte en hoogte) bepalen de positie en afmetingen van het afbeeldingsframe.
+ U kunt de positie en grootte van de toegevoegde Blob-afbeelding aanpassen door de parameters in het`addPictureFrame` methode. De vier waarden (x-coördinaat, y-coördinaat, breedte en hoogte) bepalen de positie en afmetingen van het afbeeldingsframe.
 
 ### Is Aspose.Slides geschikt voor geavanceerde PowerPoint-automatiseringstaken?
 

@@ -92,4 +92,4 @@ Console.WriteLine("GetRange result: {0}", result);
  يمكنك طلب ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### ما نوع خيارات الدعم المتاحة لـ Aspose.Slides لمستخدمي .NET؟
-يمكنك الحصول على الدعم والمساعدة من مجتمع Aspose على موقعهم[منتدى الدعم](https://forum.aspose.com/).
+ يمكنك الحصول على الدعم والمساعدة من مجتمع Aspose على موقعهم[منتدى الدعم](https://forum.aspose.com/).

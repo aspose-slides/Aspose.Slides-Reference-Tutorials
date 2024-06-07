@@ -25,7 +25,7 @@ using SaveFormat = Aspose.Slides.Export.SaveFormat;
 ```
 ## Βήμα 1: Ρύθμιση του έργου σας
 Ξεκινήστε δημιουργώντας ένα νέο έργο C# και εισάγοντας τη βιβλιοθήκη Aspose.Slides. Βεβαιωθείτε ότι το έργο σας έχει ρυθμιστεί σωστά και ότι έχετε τις απαιτούμενες εξαρτήσεις.
-## Βήμα 2: Πρόσβαση στην Παρουσίαση και τη Διαφάνεια
+## Βήμα 2: Πρόσβαση στην παρουσίαση και τη διαφάνεια
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);

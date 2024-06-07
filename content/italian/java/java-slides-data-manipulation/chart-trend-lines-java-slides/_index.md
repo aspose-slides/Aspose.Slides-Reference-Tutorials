@@ -173,11 +173,11 @@ In questo tutorial, abbiamo imparato come aggiungere diversi tipi di linee di te
 
 ### Come posso cambiare il colore di una linea di tendenza in Aspose.Slides per Java?
 
-Per cambiare il colore di una linea di tendenza, puoi usare il`getSolidFillColor().setColor(Color)` metodo, come mostrato nell'esempio per l'aggiunta di una linea di tendenza lineare.
+ Per cambiare il colore di una linea di tendenza, puoi usare il`getSolidFillColor().setColor(Color)` metodo, come mostrato nell'esempio per l'aggiunta di una linea di tendenza lineare.
 
 ### Posso aggiungere più linee di tendenza a una singola serie di grafici?
 
- Sì, puoi aggiungere più linee di tendenza a una singola serie di grafici. Chiama semplicemente il`getTrendLines().add()` metodo per ogni linea di tendenza che desideri aggiungere.
+Sì, puoi aggiungere più linee di tendenza a una singola serie di grafici. Chiama semplicemente il`getTrendLines().add()` metodo per ogni linea di tendenza che desideri aggiungere.
 
 ### Come rimuovo una linea di tendenza da un grafico in Aspose.Slides per Java?
 

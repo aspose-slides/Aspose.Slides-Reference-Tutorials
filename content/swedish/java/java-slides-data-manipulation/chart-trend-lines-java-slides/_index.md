@@ -173,11 +173,11 @@ I den här handledningen har vi lärt oss hur man lägger till olika typer av tr
 
 ### Hur ändrar jag färgen på en trendlinje i Aspose.Slides för Java?
 
-För att ändra färgen på en trendlinje kan du använda`getSolidFillColor().setColor(Color)` metod, som visas i exemplet för att lägga till en linjär trendlinje.
+ För att ändra färgen på en trendlinje kan du använda`getSolidFillColor().setColor(Color)` metod, som visas i exemplet för att lägga till en linjär trendlinje.
 
 ### Kan jag lägga till flera trendlinjer i en enda diagramserie?
 
- Ja, du kan lägga till flera trendlinjer i en enda diagramserie. Ring helt enkelt`getTrendLines().add()` metod för varje trendlinje du vill lägga till.
+Ja, du kan lägga till flera trendlinjer i en enda diagramserie. Ring helt enkelt`getTrendLines().add()` metod för varje trendlinje du vill lägga till.
 
 ### Hur tar jag bort en trendlinje från ett diagram i Aspose.Slides för Java?
 

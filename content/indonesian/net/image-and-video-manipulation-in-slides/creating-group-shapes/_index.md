@@ -93,7 +93,7 @@ Dalam tutorial ini, kita menjelajahi proses pembuatan bentuk grup dengan Aspose.
 ### Bisakah saya mencoba Aspose.Slides sebelum membeli?
  Sangat! Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.Slides?
- Kunjungi Aspose.Slide[forum](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
+Kunjungi Aspose.Slide[forum](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Slides?
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli lisensi penuh untuk Aspose.Slides?

@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-Neste código, carregamos uma apresentação existente do PowerPoint que contém o gráfico que você deseja animar. Substituir`"Your Document Directory"` com o caminho real para o diretório do seu documento.
+ Neste código, carregamos uma apresentação existente do PowerPoint que contém o gráfico que você deseja animar. Substituir`"Your Document Directory"` com o caminho real para o diretório do seu documento.
 
 ## Etapa 3: Obtenha uma referência para o objeto gráfico
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Grave o arquivo de apresentação no disco
+	// Grave o arquivo de apresentação no disco
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Sim, você pode aplicar animações semelhantes a outros tipos de gráficos, mod
 
 ### Como posso aprender mais sobre Aspose.Slides para Java?
 
-Para obter documentação abrangente e recursos adicionais, visite o[Referência da API Aspose.Slides para Java](https://reference.aspose.com/slides/java/) . Você também pode baixar a biblioteca em[aqui](https://releases.aspose.com/slides/java/).
+ Para obter documentação abrangente e recursos adicionais, visite o[Referência da API Aspose.Slides para Java](https://reference.aspose.com/slides/java/) . Você também pode baixar a biblioteca em[aqui](https://releases.aspose.com/slides/java/).

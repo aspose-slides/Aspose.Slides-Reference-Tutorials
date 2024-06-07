@@ -58,7 +58,7 @@ Aqui, obtemos o índice da planilha de dados do gráfico padrão.
 ## Etapa 3: Obtendo a planilha de dados do gráfico
 
 ```csharp
-//Obtendo a planilha de dados do gráfico
+// Obtendo a planilha de dados do gráfico
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 ```
 
@@ -112,7 +112,7 @@ Definimos marcadores de imagem para pontos de dados, permitindo personalizar com
 ## Etapa 6: alterar o tamanho do marcador da série do gráfico
 
 ```csharp
-//Alterando o tamanho do marcador da série do gráfico
+// Alterando o tamanho do marcador da série do gráfico
 series.Marker.Size = 15;
 ```
 

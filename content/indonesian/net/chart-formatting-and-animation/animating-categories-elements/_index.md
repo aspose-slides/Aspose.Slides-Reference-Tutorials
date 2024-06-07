@@ -96,7 +96,7 @@ Proses yang sama berlanjut untuk kategori 2, menganimasikan elemen-elemennya sat
 ## Langkah 4: Simpan Presentasi
 
 ```csharp
-//Tulis file presentasi ke disk
+// Tulis file presentasi ke disk
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

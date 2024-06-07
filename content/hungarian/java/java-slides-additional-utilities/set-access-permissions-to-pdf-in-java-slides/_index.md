@@ -10,7 +10,7 @@ url: /hu/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 
 ## Bevezetés a PDF-hez való hozzáférési engedélyek beállításához a Java Slides alkalmazásban
 
-Ebben az átfogó útmutatóban megvizsgáljuk, hogyan állíthatunk be hozzáférési engedélyeket egy PDF-dokumentumhoz az Aspose által biztosított hatékony könyvtár, a Java Slides segítségével. Megtanulja, hogyan védheti meg PDF-fájljait jelszavas védelem alkalmazásával és különféle engedélyek vezérlésével, mint például a nyomtatás és a jó minőségű nyomtatás. Világos magyarázatokkal végigvezetjük a lépéseken, és Java-forráskód-példákat adunk a folyamat minden részéhez.
+Ebben az átfogó útmutatóban megvizsgáljuk, hogyan állíthatunk be hozzáférési engedélyeket PDF-dokumentumokhoz az Aspose által biztosított hatékony könyvtár, a Java Slides segítségével. Megtanulja, hogyan védheti meg PDF-fájljait jelszavas védelem alkalmazásával és különféle engedélyek vezérlésével, mint például a nyomtatás és a jó minőségű nyomtatás. Világos magyarázatokkal végigvezetjük a lépéseken, és Java-forráskód-példákat adunk a folyamat minden részéhez.
 
 ## A Java környezet beállítása
 

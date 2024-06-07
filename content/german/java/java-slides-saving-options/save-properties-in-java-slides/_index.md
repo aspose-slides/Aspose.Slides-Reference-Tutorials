@@ -1,8 +1,8 @@
 ---
-title: Speichern Sie Eigenschaften in Java-Folien
-linktitle: Speichern Sie Eigenschaften in Java-Folien
+title: Eigenschaften in Java-Folien speichern
+linktitle: Eigenschaften in Java-Folien speichern
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Optimieren Sie Ihre PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie, wie Sie Eigenschaften festlegen, die Verschlüsselung deaktivieren, einen Passwortschutz hinzufügen und mühelos speichern.
+description: Optimieren Sie Ihre PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie, wie Sie Eigenschaften festlegen, die Verschlüsselung deaktivieren, einen Kennwortschutz hinzufügen und mühelos speichern.
 type: docs
 weight: 12
 url: /de/java/saving-options/save-properties-in-java-slides/
@@ -10,11 +10,11 @@ url: /de/java/saving-options/save-properties-in-java-slides/
 
 ## Einführung in das Speichern von Eigenschaften in Java-Folien
 
-In diesem Tutorial führen wir Sie durch den Prozess des Speicherns von Eigenschaften in einer PowerPoint-Präsentation mit Aspose.Slides für Java. Sie erfahren, wie Sie Dokumenteigenschaften festlegen, die Verschlüsselung für Dokumenteigenschaften deaktivieren, ein Kennwort zum Schutz Ihrer Präsentation festlegen und diese in einer Datei speichern. Wir stellen Ihnen Schritt-für-Schritt-Anleitungen und Quellcode-Beispiele zur Verfügung.
+In diesem Tutorial führen wir Sie durch den Prozess des Speicherns von Eigenschaften in einer PowerPoint-Präsentation mit Aspose.Slides für Java. Sie erfahren, wie Sie Dokumenteigenschaften festlegen, die Verschlüsselung für Dokumenteigenschaften deaktivieren, ein Kennwort zum Schutz Ihrer Präsentation festlegen und sie in einer Datei speichern. Wir stellen Ihnen Schritt-für-Schritt-Anleitungen und Quellcodebeispiele zur Verfügung.
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihr Java-Projekt integriert ist. Sie können die Bibliothek von der Aspose-Website herunterladen[Hier](https://downloads.aspose.com/slides/java).
+ Bevor Sie beginnen, stellen Sie sicher, dass Sie die Bibliothek Aspose.Slides für Java in Ihr Java-Projekt integriert haben. Sie können die Bibliothek von der Aspose-Website herunterladen.[Hier](https://downloads.aspose.com/slides/java).
 
 ## Schritt 1: Erforderliche Bibliotheken importieren
 
@@ -27,13 +27,13 @@ import com.aspose.slides.SaveFormat;
 
 ## Schritt 2: Erstellen Sie ein Präsentationsobjekt
 
-Instanziieren Sie ein Präsentationsobjekt zur Darstellung Ihrer PowerPoint-Präsentation. Sie können entweder eine neue Präsentation erstellen oder eine vorhandene laden. In diesem Beispiel erstellen wir eine neue Präsentation.
+Instanziieren Sie ein Präsentationsobjekt, um Ihre PowerPoint-Präsentation darzustellen. Sie können entweder eine neue Präsentation erstellen oder eine vorhandene laden. In diesem Beispiel erstellen wir eine neue Präsentation.
 
 ```java
-// Der Pfad zu dem Verzeichnis, in dem Sie die Präsentation speichern möchten
+// Der Pfad zum Verzeichnis, in dem Sie die Präsentation speichern möchten
 String dataDir = "Your Document Directory";
 
-// Instanziieren Sie ein Präsentationsobjekt
+// Instanziieren eines Präsentationsobjekts
 Presentation presentation = new Presentation();
 ```
 
@@ -48,11 +48,11 @@ presentation.getDocumentProperties().setTitle("My Presentation");
 // Legen Sie den Autor der Präsentation fest
 presentation.getDocumentProperties().setAuthor("John Doe");
 
-// Legen Sie Schlüsselwörter für die Präsentation fest
+// Schlagworte für die Präsentation festlegen
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 
-## Schritt 4: Deaktivieren Sie die Verschlüsselung für Dokumenteigenschaften
+## Schritt 4: Deaktivieren der Verschlüsselung für Dokumenteigenschaften
 
 Standardmäßig verschlüsselt Aspose.Slides Dokumenteigenschaften. Wenn Sie die Verschlüsselung für Dokumenteigenschaften deaktivieren möchten, verwenden Sie den folgenden Code:
 
@@ -60,43 +60,43 @@ Standardmäßig verschlüsselt Aspose.Slides Dokumenteigenschaften. Wenn Sie die
 presentation.getProtectionManager().setEncryptDocumentProperties(false);
 ```
 
-## Schritt 5: Legen Sie ein Passwort fest, um die Präsentation zu schützen
+## Schritt 5: Legen Sie ein Passwort zum Schutz der Präsentation fest
 
- Sie können Ihre Präsentation mit einem Passwort schützen, um den Zugriff einzuschränken. Benutzen Sie die`encrypt` Methode zum Festlegen eines Passworts:
+ Sie können Ihre Präsentation mit einem Passwort schützen, um den Zugriff einzuschränken. Verwenden Sie dazu das`encrypt` Methode zum Festlegen eines Passworts:
 
 ```java
 // Legen Sie ein Passwort fest, um die Präsentation zu schützen
 presentation.getProtectionManager().encrypt("your_password");
 ```
 
- Ersetzen`"your_password"` mit Ihrem Wunschpasswort.
+ Ersetzen`"your_password"` mit Ihrem gewünschten Passwort.
 
 ## Schritt 6: Speichern Sie die Präsentation
 
-Speichern Sie abschließend die Präsentation in einer Datei. In diesem Beispiel speichern wir es als PPTX-Datei:
+Speichern Sie die Präsentation abschließend in einer Datei. In diesem Beispiel speichern wir sie als PPTX-Datei:
 
 ```java
-// Speichern Sie die Präsentation in einer Datei
+// Speichern der Präsentation in einer Datei
 presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveFormat.Pptx);
 ```
 
- Ersetzen`"Password_Protected_Presentation_out.pptx"` mit Ihrem gewünschten Dateinamen und Pfad.
+ Ersetzen`"Password_Protected_Presentation_out.pptx"` durch den gewünschten Dateinamen und Pfad.
 
 ## Vollständiger Quellcode zum Speichern von Eigenschaften in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
-// Instanziieren Sie ein Präsentationsobjekt, das eine PPT-Datei darstellt
+//Instanziieren Sie ein Präsentationsobjekt, das eine PPT-Datei darstellt
 Presentation presentation = new Presentation();
 try
 {
-	//....arbeiten Sie hier.....
-	// Festlegen des Zugriffs auf Dokumenteigenschaften im passwortgeschützten Modus
+	//....mach hier etwas Arbeit.....
+	// Festlegen des Zugriffs auf Dokumenteigenschaften im kennwortgeschützten Modus
 	presentation.getProtectionManager().setEncryptDocumentProperties(false);
-	// Passwort festlegen
+	// Kennwort festlegen
 	presentation.getProtectionManager().encrypt("pass");
-	// Speichern Sie Ihre Präsentation in einer Datei
+	// Speichern Ihrer Präsentation in einer Datei
 	presentation.save(dataDir + "Password Protected Presentation_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -107,13 +107,13 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie Dokumenteigenschaften in einer PowerPoint-Präsentation mit Aspose.Slides für Java speichern. Sie können verschiedene Eigenschaften festlegen, die Verschlüsselung für Dokumenteigenschaften deaktivieren, ein Kennwort zum Schutz festlegen und die Präsentation im gewünschten Format speichern.
+In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für Java Dokumenteigenschaften in einer PowerPoint-Präsentation speichern. Sie können verschiedene Eigenschaften festlegen, die Verschlüsselung für Dokumenteigenschaften deaktivieren, ein Kennwort zum Schutz festlegen und die Präsentation im gewünschten Format speichern.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie kann ich Dokumenteigenschaften in Aspose.Slides für Java festlegen?
 
- Um Dokumenteigenschaften in Aspose.Slides für Java festzulegen, können Sie die verwenden`DocumentProperties` Klasse. Hier ist ein Beispiel für das Festlegen von Eigenschaften wie Titel, Autor und Schlüsselwörtern:
+ Um Dokumenteigenschaften in Aspose.Slides für Java festzulegen, können Sie den`DocumentProperties` Klasse. Hier ist ein Beispiel, wie Eigenschaften wie Titel, Autor und Schlüsselwörter festgelegt werden:
 
 ```java
 // Legen Sie den Titel der Präsentation fest
@@ -122,13 +122,13 @@ presentation.getDocumentProperties().setTitle("My Presentation");
 // Legen Sie den Autor der Präsentation fest
 presentation.getDocumentProperties().setAuthor("John Doe");
 
-// Legen Sie Schlüsselwörter für die Präsentation fest
+// Schlagworte für die Präsentation festlegen
 presentation.getDocumentProperties().setKeywords("Aspose, Slides, Java, Tutorial");
 ```
 
-### Welchen Zweck hat die Deaktivierung der Verschlüsselung für Dokumenteigenschaften?
+### Was ist der Zweck der Deaktivierung der Verschlüsselung für Dokumenteigenschaften?
 
-Wenn Sie die Verschlüsselung für Dokumenteigenschaften deaktivieren, können Sie Dokumentmetadaten ohne Verschlüsselung speichern. Dies kann nützlich sein, wenn Sie möchten, dass die Dokumenteigenschaften (wie Titel, Autor usw.) sichtbar und zugänglich sind, ohne dass ein Passwort eingegeben werden muss.
+Durch die Deaktivierung der Verschlüsselung für Dokumenteigenschaften können Sie Dokumentmetadaten unverschlüsselt speichern. Dies kann nützlich sein, wenn Sie möchten, dass die Dokumenteigenschaften (wie Titel, Autor usw.) ohne Eingabe eines Kennworts sichtbar und zugänglich sind.
 
 Sie können die Verschlüsselung mit dem folgenden Code deaktivieren:
 
@@ -136,20 +136,20 @@ Sie können die Verschlüsselung mit dem folgenden Code deaktivieren:
 presentation.getProtectionManager().setEncryptDocumentProperties(false);
 ```
 
-### Wie kann ich meine PowerPoint-Präsentation mit Aspose.Slides für Java mit einem Passwort schützen?
+### Wie kann ich meine PowerPoint-Präsentation mit Aspose.Slides für Java mit einem Kennwort schützen?
 
-Um Ihre PowerPoint-Präsentation mit einem Passwort zu schützen, können Sie das verwenden`encrypt` Methode, die von der bereitgestellt wird`ProtectionManager` Klasse. So legen Sie ein Passwort fest:
+Um Ihre PowerPoint-Präsentation mit einem Passwort zu schützen, können Sie das`encrypt` Methode bereitgestellt durch die`ProtectionManager` Klasse. So legen Sie ein Passwort fest:
 
 ```java
 // Legen Sie ein Passwort fest, um die Präsentation zu schützen
 presentation.getProtectionManager().encrypt("your_password");
 ```
 
- Ersetzen`"your_password"` mit Ihrem Wunschpasswort.
+ Ersetzen`"your_password"` mit Ihrem gewünschten Passwort.
 
 ### Kann ich die Präsentation in einem anderen Format als PPTX speichern?
 
- Ja, Sie können die Präsentation in verschiedenen Formaten speichern, die von Aspose.Slides für Java unterstützt werden, z. B. PPT, PDF und mehr. Um in einem anderen Format zu speichern, ändern Sie das`SaveFormat` Parameter in der`presentation.save` Methode. Zum Beispiel zum Speichern als PDF:
+ Ja, Sie können die Präsentation in verschiedenen von Aspose.Slides für Java unterstützten Formaten speichern, z. B. PPT, PDF und mehr. Um in einem anderen Format zu speichern, ändern Sie die`SaveFormat` Parameter im`presentation.save` Methode. Um beispielsweise als PDF zu speichern:
 
 ```java
 presentation.save(dataDir + "Presentation.pdf", SaveFormat.Pdf);
@@ -157,7 +157,7 @@ presentation.save(dataDir + "Presentation.pdf", SaveFormat.Pdf);
 
 ### Ist es notwendig, das Präsentationsobjekt nach dem Speichern zu entsorgen?
 
- Es empfiehlt sich, das Präsentationsobjekt zu entsorgen, um Systemressourcen freizugeben. Sie können a verwenden`finally` blockieren, um eine ordnungsgemäße Entsorgung sicherzustellen, wie im Codebeispiel gezeigt:
+ Es ist eine gute Praxis, das Präsentationsobjekt zu veräußern, um Systemressourcen freizugeben. Sie können ein`finally` -Block, um eine ordnungsgemäße Entsorgung sicherzustellen, wie im Codebeispiel gezeigt:
 
 ```java
 finally {
@@ -165,8 +165,8 @@ finally {
 }
 ```
 
-Dies trägt dazu bei, Speicherlecks in Ihrer Anwendung zu verhindern.
+Dies hilft, Speicherlecks in Ihrer Anwendung zu verhindern.
 
 ### Wie kann ich mehr über Aspose.Slides für Java und seine Funktionen erfahren?
 
- Sie können die Aspose.Slides für Java-Dokumentation unter erkunden[Hier](https://docs.aspose.com/slides/java/) Ausführliche Informationen, Tutorials und Beispiele zur Verwendung der Bibliothek finden Sie hier.
+ Sie können die Aspose.Slides für Java-Dokumentation unter folgender Adresse erkunden:[Hier](https://docs.aspose.com/slides/java/) für detaillierte Informationen, Tutorials und Beispiele zur Verwendung der Bibliothek.

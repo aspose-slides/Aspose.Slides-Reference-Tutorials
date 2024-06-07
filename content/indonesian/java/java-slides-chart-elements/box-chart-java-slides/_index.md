@@ -52,7 +52,7 @@ Pada langkah ini, kita membuat bentuk Bagan Kotak pada slide pertama presentasi.
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Pada langkah ini, kita menentukan kategori untuk Bagan Kotak. Kami menggunakan`IChartDataWorkbook`untuk menambahkan kategori dan memberi label yang sesuai.
+ Pada langkah ini, kita menentukan kategori untuk Bagan Kotak. Kami menggunakan`IChartDataWorkbook` untuk menambahkan kategori dan memberi label yang sesuai.
 
 ## Langkah 4: Buat Seri
 

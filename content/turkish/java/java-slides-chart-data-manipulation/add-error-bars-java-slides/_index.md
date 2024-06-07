@@ -14,7 +14,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint slaytındaki bir grafi
 
 ## Önkoşullar
 
-Başlamadan önce Java projenizde Aspose.Slides for Java kitaplığının kurulu olduğundan ve kurulduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Web sitesi](https://downloads.aspose.com/slides/java).
+ Başlamadan önce Java projenizde Aspose.Slides for Java kitaplığının kurulu olduğundan ve kurulduğundan emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Web sitesi](https://downloads.aspose.com/slides/java).
 
 ## 1. Adım: Boş Bir Sunu Oluşturun
 
@@ -62,7 +62,7 @@ Bu adımda grafiğe hata çubukları ekliyoruz ve formatlarını ayarlıyoruz. D
 - `setValue` hata çubuklarının değerini ayarlar.
 - `setType` hata çubuklarının türünü tanımlar (örn. Artı veya Eksi).
 -  Hata çubuğu çizgilerinin genişliğini kullanarak ayarlıyoruz.`getFormat().getLine().setWidth(2)`.
-- `setEndCap`hata çubuklarına uç kapaklarının eklenip eklenmeyeceğini belirtir.
+- `setEndCap` hata çubuklarına uç kapaklarının eklenip eklenmeyeceğini belirtir.
 
 ## 4. Adım: Sunuyu Kaydetme
 
@@ -123,8 +123,8 @@ Evet, Aspose.Slides for Java'nın desteklediği çeşitli grafik türlerine hata
 
 ### Slayttaki grafiğin konumunu ve boyutunu nasıl ayarlayabilirim?
 
- Parametreleri ayarlayarak grafiğin konumunu ve boyutlarını kontrol edebilirsiniz.`addChart` Yöntem, Adım 2'de gösterildiği gibi.
+Parametreleri ayarlayarak grafiğin konumunu ve boyutlarını kontrol edebilirsiniz.`addChart` Yöntem, Adım 2'de gösterildiği gibi.
 
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Şuraya başvurabilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımı hakkında detaylı bilgi için.
+ Şuraya başvurabilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımına ilişkin detaylı bilgi için.

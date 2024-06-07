@@ -10,7 +10,7 @@ url: /vi/net/shape-effects-and-manipulation-in-slides/
 
 ## Giới thiệu
 
-Chào mừng bạn đến với thế giới hướng dẫn của Aspose.Slides, nơi chúng tôi đi sâu vào thế giới quyến rũ của các hiệu ứng và thao tác hình dạng. Trong loạt bài này, chúng tôi khám phá những bí quyết tạo ra các bài thuyết trình hấp dẫn về mặt hình ảnh bằng cách khai thác khả năng của các công cụ thao tác hình dạng của Aspose.Slides. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu hành trình lập trình của mình, những hướng dẫn này sẽ hướng dẫn bạn qua từng bước, làm sáng tỏ các hiệu ứng hình dạng và trang bị cho bạn các kỹ năng để tạo các trang trình bày động để lại tác động lâu dài.
+Chào mừng bạn đến với thế giới hướng dẫn của Aspose.Slides, nơi chúng tôi đi sâu vào thế giới quyến rũ của các hiệu ứng và thao tác hình dạng. Trong loạt bài này, chúng tôi khám phá những bí quyết tạo ra các bài thuyết trình hấp dẫn về mặt hình ảnh bằng cách khai thác khả năng của các công cụ thao tác hình dạng của Aspose.Slides. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu hành trình lập trình của mình, những hướng dẫn này sẽ hướng dẫn bạn qua từng bước, làm sáng tỏ các hiệu ứng hình dạng và trang bị cho bạn các kỹ năng để tạo các trang trình bày động để lại tác động lâu dài.
 
 ## Giải phóng sức mạnh của hiệu ứng hình dạng
 
@@ -50,7 +50,7 @@ Tìm hiểu cách đặt mục tiêu hoạt ảnh cho hình dạng trang trình 
 ### [Áp dụng hiệu ứng xoay 3D trên các hình dạng trong các slide thuyết trình với Aspose.Slides](./applying-3d-rotation-effect-shapes/)
 Tìm hiểu cách áp dụng các hiệu ứng xoay 3D quyến rũ cho các trang trình bày bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn để tạo ra tác động trực quan ấn tượng.
 ### [Áp dụng hiệu ứng góc xiên cho hình dạng trong slide thuyết trình bằng Aspose.Slides](./applying-bevel-effects-shapes/)
-Áp dụng các hiệu ứng góc xiên quyến rũ cho các slide thuyết trình bằng API Aspose.Slides. Nâng cao sức hấp dẫn trực quan bằng hướng dẫn từng bước và mã nguồn. Tìm hiểu cách triển khai hiệu ứng góc xiên cho bản trình bày động.
+Áp dụng các hiệu ứng góc xiên quyến rũ cho các trang trình bày bằng API Aspose.Slides. Nâng cao sức hấp dẫn trực quan bằng hướng dẫn từng bước và mã nguồn. Tìm hiểu cách triển khai hiệu ứng góc xiên cho bản trình bày động.
 ### [Thay đổi dữ liệu đối tượng OLE trong các slide thuyết trình bằng Aspose.Slides](./changing-ole-object-data/)
 Tìm hiểu cách thay đổi hiệu quả dữ liệu đối tượng OLE trong các trang trình bày bằng API Aspose.Slides. Hướng dẫn từng bước này cung cấp các ví dụ về mã và thông tin chi tiết cần thiết.
 ### [Thay đổi thứ tự hình dạng trong các slide thuyết trình bằng Aspose.Slides](./changing-order-shapes/)

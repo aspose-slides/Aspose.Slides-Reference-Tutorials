@@ -63,7 +63,7 @@ while (categoryIndex < 15) {
 
 ## Шаг 3. Настройте метки данных
 
-Теперь настроим метки данных, в том числе настроим выноски для последней серии.
+Теперь мы настроим метки данных, включая настройку выносок для последней серии.
 
 ```java
 int i = 0;
@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // Настройте форматирование этикетки (шрифт, заливка и т. д.)
+        //Настройте форматирование этикетки (шрифт, заливка и т. д.)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### Как включить или отключить выноски для меток данных?
 
- Чтобы включить или отключить выноски для меток данных, используйте`setShowLabelAsDataCallout` метод. Установите его на`true` чтобы включить уточнения и`false` чтобы отключить их.
+ Чтобы включить или отключить выноски для меток данных, используйте`setShowLabelAsDataCallout` метод. Установите его на`true` чтобы включить уточнения и`false`чтобы отключить их.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // Включить уточнения
@@ -202,4 +202,4 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Это некоторые распространенные варианты настройки меток данных и выносок в Aspose.Slides для Java. Вы можете дополнительно адаптировать внешний вид к вашим конкретным потребностям.
+Это некоторые распространенные параметры настройки меток данных и выносок в Aspose.Slides для Java. Вы можете дополнительно адаптировать внешний вид к вашим конкретным потребностям.

@@ -111,7 +111,7 @@ Aspose.Slides voor .NET biedt compatibiliteit met verschillende versies van Powe
 
 ### 4. Waar kan ik meer documentatie en ondersteuning vinden voor Aspose.Slides voor .NET?
 
- U kunt gedetailleerde documentatie vinden en toegang krijgen tot de ondersteuningsgemeenschap op de[Aspose.Slides-website](https://reference.aspose.com/slides/net/).
+ U kunt gedetailleerde documentatie vinden en toegang krijgen tot de ondersteuningscommunity op de[Aspose.Slides-website](https://reference.aspose.com/slides/net/).
 
 ### 5. Is er een gratis proefversie beschikbaar voor Aspose.Slides voor .NET?
 

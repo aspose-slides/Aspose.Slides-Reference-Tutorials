@@ -56,7 +56,7 @@ Presentation pres = new Presentation();
 
 ## الخطوة 5: إضافة صورة النقطة
 
-الآن، حان الوقت لإضافة صورة Blob إلى العرض التقديمي. نحن نستخدم ال`addImage` طريقة لتحقيق ذلك.
+ الآن، حان الوقت لإضافة صورة Blob إلى العرض التقديمي. نحن نستخدم ال`addImage`طريقة لتحقيق ذلك.
 
 ```java
 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
@@ -116,7 +116,7 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ Java؟
 
- يمكن تثبيت Aspose.Slides for Java بسهولة عن طريق تنزيل المكتبة من موقع الويب[هنا](https://releases.aspose.com/slides/java/). اتبع تعليمات التثبيت المقدمة لدمجها في مشروع Java الخاص بك.
+يمكن تثبيت Aspose.Slides for Java بسهولة عن طريق تنزيل المكتبة من موقع الويب[هنا](https://releases.aspose.com/slides/java/). اتبع تعليمات التثبيت المقدمة لدمجها في مشروع Java الخاص بك.
 
 ### هل يمكنني إضافة صور Blob متعددة إلى عرض تقديمي واحد؟
 
@@ -128,7 +128,7 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني تخصيص موضع وحجم صورة Blob المضافة؟
 
-يمكنك ضبط موضع وحجم صورة Blob المضافة عن طريق تعديل المعلمات في ملف`addPictureFrame` طريقة. تحدد القيم الأربع (الإحداثي x، والإحداثي y، والعرض، والارتفاع) موضع إطار الصورة وأبعاده.
+ يمكنك ضبط موضع وحجم صورة Blob المضافة عن طريق تعديل المعلمات في ملف`addPictureFrame` طريقة. تحدد القيم الأربع (الإحداثي x، والإحداثي y، والعرض، والارتفاع) موضع إطار الصورة وأبعاده.
 
 ### هل Aspose.Slides مناسب لمهام أتمتة PowerPoint المتقدمة؟
 

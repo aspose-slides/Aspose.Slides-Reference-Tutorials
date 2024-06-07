@@ -16,15 +16,15 @@ In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java ein Datumsf
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1.  Aspose.Slides für Java-Bibliothek (Sie können sie herunterladen von[Hier](https://releases.aspose.com/slides/java/).
-2. Einrichtung einer Java-Entwicklungsumgebung.
+1. Aspose.Slides für Java-Bibliothek (Sie können es herunterladen von[Hier](https://releases.aspose.com/slides/java/).
+2. Java-Entwicklungsumgebung eingerichtet.
 
 ## Schritt 1: Erstellen Sie eine PowerPoint-Präsentation
 
 Zuerst müssen wir eine PowerPoint-Präsentation erstellen, in die wir ein Diagramm einfügen. Stellen Sie sicher, dass Sie die erforderlichen Aspose.Slides-Klassen importiert haben.
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
@@ -63,7 +63,7 @@ series.getDataPoints().addDataPointForLineSeries(wb.getCell(0, "B5", 4));
 ```
 
 ## Schritt 4: Kategorieachse anpassen
-Passen wir nun die Kategorieachse an, um Datumsangaben in einem bestimmten Format anzuzeigen (z. B. jjjj).
+Passen wir nun die Kategorieachse an, um Daten in einem bestimmten Format anzuzeigen (z. B. jjjj).
 
 ```java
 chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
@@ -83,7 +83,7 @@ Das ist es! Sie haben mit Aspose.Slides für Java erfolgreich ein Datumsformat f
 ## Vollständiger Quellcode zum Festlegen des Datumsformats für die Kategorieachse in Java-Folien
 
 ```java
-	// Der Pfad zum Dokumentenverzeichnis.
+	// Der Pfad zum Dokumentverzeichnis.
 	String dataDir = "Your Document Directory";
 	Presentation pres = new Presentation();
 	try
@@ -124,18 +124,18 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ##Abschluss
 
-Sie haben das Datumsformat für die Kategorieachse in einem Java Slides-Diagramm mit Aspose.Slides für Java erfolgreich angepasst. Dadurch können Sie Datumswerte im gewünschten Format in Ihren Diagrammen darstellen. Entdecken Sie gerne weitere Anpassungsmöglichkeiten basierend auf Ihren spezifischen Anforderungen.
+Sie haben das Datumsformat für die Kategorieachse in einem Java Slides-Diagramm mithilfe von Aspose.Slides für Java erfolgreich angepasst. Auf diese Weise können Sie Datumswerte in Ihren Diagrammen im gewünschten Format darstellen. Sie können gerne weitere Anpassungsoptionen basierend auf Ihren spezifischen Anforderungen erkunden.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie ändere ich das Datumsformat für die Kategorieachse?
 
- Um das Datumsformat für die Kategorieachse zu ändern, verwenden Sie die`setNumberFormat` Methode auf der Kategorieachse und geben Sie das gewünschte Datumsformatmuster an, z. B. „JJJJ-MM-TT“ oder „MM/JJJJ“. Stellen Sie sicher, dass Sie es einstellen`setNumberFormatLinkedToSource(false)` um das Standardformat zu überschreiben.
+ Um das Datumsformat für die Kategorieachse zu ändern, verwenden Sie die`setNumberFormat` Methode auf der Kategorieachse und geben Sie das gewünschte Datumsformatmuster an, z. B. "yyyy-MM-dd" oder "MM/yyyy". Stellen Sie sicher, dass Sie`setNumberFormatLinkedToSource(false)` um das Standardformat zu überschreiben.
 
-### Kann ich in derselben Präsentation unterschiedliche Datumsformate für unterschiedliche Diagramme verwenden?
+### Kann ich für unterschiedliche Diagramme in derselben Präsentation unterschiedliche Datumsformate verwenden?
 
-Ja, Sie können in verschiedenen Diagrammen innerhalb derselben Präsentation unterschiedliche Datumsformate für Kategorieachsen festlegen. Passen Sie einfach die Kategorieachse für jedes Diagramm nach Bedarf an.
+Ja, Sie können in verschiedenen Diagrammen innerhalb derselben Präsentation unterschiedliche Datumsformate für Kategorieachsen festlegen. Passen Sie die Kategorieachse für jedes Diagramm einfach nach Bedarf an.
 
 ### Wie füge ich dem Diagramm weitere Datenpunkte hinzu?
 
- Um dem Diagramm weitere Datenpunkte hinzuzufügen, verwenden Sie die`getDataPoints().addDataPointForLineSeries` Methode für die Datenreihe und stellen Sie die Datenwerte bereit.
+ Um dem Diagramm weitere Datenpunkte hinzuzufügen, verwenden Sie die`getDataPoints().addDataPointForLineSeries`Methode auf die Datenreihe anwenden und die Datenwerte bereitstellen.

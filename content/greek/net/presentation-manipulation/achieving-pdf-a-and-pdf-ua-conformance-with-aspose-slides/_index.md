@@ -62,7 +62,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 ```csharp
 using Aspose.Slides.Export.Pdf;
 
-// Προσθέστε υποστήριξη προσβασιμότητας για PDF/UA
+//Προσθέστε υποστήριξη προσβασιμότητας για PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa
@@ -90,7 +90,7 @@ presentation.Save("output.pdf", SaveFormat.Pdf, options);
 // Φόρτωση παρουσίασης
 using var presentation = new Presentation("presentation.pptx");
 
-// Προσθέστε υποστήριξη προσβασιμότητας για PDF/UA
+//Προσθέστε υποστήριξη προσβασιμότητας για PDF/UA
 var pdfOptions = new PdfOptions
 {
     Compliance = PdfCompliance.PdfUa

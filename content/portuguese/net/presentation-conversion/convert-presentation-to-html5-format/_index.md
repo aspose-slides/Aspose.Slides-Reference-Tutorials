@@ -72,7 +72,7 @@ Seguindo essas etapas, você pode converter facilmente apresentações do PowerP
 
 ### Como posso personalizar a aparência da saída HTML5?
 
-Você pode personalizar a aparência da saída HTML5 definindo várias opções no campo`Html5Options` aula. Consulte o[documentação](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) para opções de personalização disponíveis.
+ Você pode personalizar a aparência da saída HTML5 definindo várias opções no campo`Html5Options`aula. Consulte o[documentação](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) para opções de personalização disponíveis.
 
 ### Posso converter apresentações com animações e transições?
 

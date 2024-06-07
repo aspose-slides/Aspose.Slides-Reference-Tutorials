@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-ในโค้ดนี้ เราจะโหลดงานนำเสนอ PowerPoint ที่มีอยู่ซึ่งมีแผนภูมิที่คุณต้องการทำให้เคลื่อนไหว แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+ ในโค้ดนี้ เราจะโหลดงานนำเสนอ PowerPoint ที่มีอยู่ซึ่งมีแผนภูมิที่คุณต้องการทำให้เคลื่อนไหว แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
 
 ## ขั้นตอนที่ 3: รับการอ้างอิงไปยังวัตถุแผนภูมิ
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//เขียนไฟล์การนำเสนอลงดิสก์
+	// เขียนไฟล์การนำเสนอลงดิสก์
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ finally
 
 ### ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้อย่างไร
 
-สำหรับเอกสารที่ครอบคลุมและแหล่งข้อมูลเพิ่มเติม โปรดไปที่[Aspose.Slides สำหรับการอ้างอิง Java API](https://reference.aspose.com/slides/java/) . คุณยังสามารถดาวน์โหลดห้องสมุดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+ สำหรับเอกสารที่ครอบคลุมและแหล่งข้อมูลเพิ่มเติม โปรดไปที่[Aspose.Slides สำหรับการอ้างอิง Java API](https://reference.aspose.com/slides/java/) - คุณยังสามารถดาวน์โหลดห้องสมุดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).

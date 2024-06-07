@@ -10,7 +10,7 @@ url: /hu/java/chart-data-manipulation/histogram-chart-java-slides/
 
 ## hisztogram diagram bemutatása Java Slides-ben az Aspose.Slides használatával
 
-Ebben az oktatóanyagban végigvezetjük a hisztogram diagram létrehozásának folyamatán egy PowerPoint prezentációban az Aspose.Slides for Java API használatával. A hisztogram diagram az adatok folyamatos intervallumon belüli eloszlását ábrázolja.
+Ebben az oktatóanyagban végigvezetjük a hisztogram diagram létrehozásának folyamatán egy PowerPoint-prezentációban az Aspose.Slides for Java API használatával. A hisztogram diagram az adatok folyamatos intervallumon belüli eloszlását ábrázolja.
 
 ## Előfeltételek
 

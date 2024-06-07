@@ -74,7 +74,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 ### 3. Aspose.Slides for .NET에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 
-임시 라이센스가 필요한 경우 다음에서 얻을 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
+ 임시 라이센스가 필요한 경우 다음에서 얻을 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
 
 ### 4. 변환에는 어떤 프레젠테이션 형식이 지원됩니까?
 

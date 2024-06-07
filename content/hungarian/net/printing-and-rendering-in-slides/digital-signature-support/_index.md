@@ -15,7 +15,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik
 - Digitális tanúsítvány: Szerezzen be egy digitális tanúsítványfájlt (PFX) a jelszóval együtt a bemutató aláírásához. Létrehozhat egyet, vagy beszerezhet egy megbízható tanúsító hatóságtól.
 - Alapvető C# ismerete: Ez az oktatóanyag feltételezi, hogy alapvető ismeretekkel rendelkezik a C# programozásról.
 ## Névterek importálása
-A C#-kódban importálja a szükséges névtereket az Aspose.Slides digitális aláírásainak kezeléséhez:
+C#-kódban importálja a szükséges névtereket az Aspose.Slides digitális aláírásainak kezeléséhez:
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Examples.CSharp;

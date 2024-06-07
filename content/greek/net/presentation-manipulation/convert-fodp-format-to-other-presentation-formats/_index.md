@@ -74,7 +74,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 ### 3. Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET;
 
-Εάν χρειάζεστε μια προσωρινή άδεια, μπορείτε να αποκτήσετε μια από το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
+ Εάν χρειάζεστε μια προσωρινή άδεια, μπορείτε να αποκτήσετε μια από το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
 
 ### 4. Ποιες μορφές παρουσίασης υποστηρίζονται για μετατροπή;
 

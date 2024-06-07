@@ -22,7 +22,7 @@ Avant de plonger dans le didacticiel étape par étape, assurez-vous que les con
 
 Maintenant que nos prérequis sont prêts, passons au guide étape par étape.
 
-## Étape 1 : Importer les espaces de noms
+## Étape 1 : Importer des espaces de noms
 
 Pour commencer, vous devez importer les espaces de noms nécessaires dans votre projet .NET. Ces espaces de noms sont essentiels pour travailler avec Aspose.Slides pour .NET. Voici comment procéder :
 
@@ -37,7 +37,7 @@ Passons maintenant au cœur de notre didacticiel : ajouter une mise en forme de
 
 ### Étape 2.1 : Instancier la classe de présentation
 
- Tout d'abord, nous devons créer une instance du`Presentation`classe qui représente votre fichier de présentation PowerPoint. Vous devez fournir le chemin d'accès à votre fichier de présentation dans le`dataDir` variable.
+ Tout d'abord, nous devons créer une instance du`Presentation` classe qui représente votre fichier de présentation PowerPoint. Vous devez fournir le chemin d'accès à votre fichier de présentation dans le`dataDir` variable.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Étape 2.2 : Accéder à la diapositive des notes principales
 
- Au sein du`using` bloc, nous accédons à la diapositive des notes principales. La diapositive de notes principales contient le style par défaut des notes de votre présentation.
+ Au sein du`using`bloc, nous accédons à la diapositive des notes principales. La diapositive de notes principales contient le style par défaut des notes de votre présentation.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;
@@ -96,7 +96,7 @@ Intégrez cette technique à vos présentations et vous serez sur la bonne voie 
 ## Questions fréquemment posées
 
 ### Qu’est-ce qu’Aspose.Slides pour .NET ?
-Aspose.Slides for .NET est une bibliothèque puissante permettant de travailler par programmation avec des fichiers Microsoft PowerPoint. Il vous permet de créer, manipuler et convertir des présentations PowerPoint à l'aide d'applications .NET.
+Aspose.Slides for .NET est une bibliothèque puissante permettant de travailler avec des fichiers Microsoft PowerPoint par programme. Il vous permet de créer, manipuler et convertir des présentations PowerPoint à l'aide d'applications .NET.
 
 ### Où puis-je trouver la documentation Aspose.Slides pour .NET ?
  Vous pouvez accéder à la documentation[ici](https://reference.aspose.com/slides/net/). Il fournit des informations complètes sur l'utilisation de la bibliothèque.

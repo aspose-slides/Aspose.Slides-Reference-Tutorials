@@ -16,7 +16,7 @@ Java geliştirme dünyasında sunum slaytlarıyla çalışmak yaygın bir iştir
 
 Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Slides for Java Library: Aspose.Slides for Java kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Aspose.Slides for Java kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
 
 2. Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
 
@@ -48,7 +48,7 @@ finally
 
 Bu kodda:
 
-- Sunum dosyasını içeren dizinin yolunu belirtiyoruz (`SelectedSlides.pptx`PDF'ye dönüştürmek istediğiniz dosya.
+- Sunum dosyasını içeren dizinin yolunu belirtiyoruz (`SelectedSlides.pptx`) PDF'ye dönüştürmek istediğiniz dosya.
 
 -  Biz bir yaratıyoruz`Presentation` sunum dosyasını temsil eden nesne.
 

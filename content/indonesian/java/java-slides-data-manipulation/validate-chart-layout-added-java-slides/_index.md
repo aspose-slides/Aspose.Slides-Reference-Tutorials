@@ -2,7 +2,7 @@
 title: Validasi Tata Letak Bagan yang Ditambahkan di Slide Java
 linktitle: Validasi Tata Letak Bagan yang Ditambahkan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Validasi tata letak bagan utama di PowerPoint dengan Aspose.Slides untuk Java. Belajar memanipulasi bagan secara terprogram untuk presentasi yang memukau.
+description: Validasi tata letak bagan utama di PowerPoint dengan Aspose.Slides untuk Java. Belajar memanipulasi bagan secara terprogram untuk presentasi yang menakjubkan.
 type: docs
 weight: 10
 url: /id/java/data-manipulation/validate-chart-layout-added-java-slides/
@@ -14,7 +14,7 @@ Dalam tutorial ini, kita akan mempelajari cara memvalidasi tata letak bagan dala
 
 ## Langkah 1: Menginisialisasi Presentasi
 
-Pertama, kita perlu menginisialisasi objek presentasi dan memuat presentasi PowerPoint yang ada. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file presentasi Anda (`test.pptx` dalam contoh ini).
+ Pertama, kita perlu menginisialisasi objek presentasi dan memuat presentasi PowerPoint yang ada. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file presentasi Anda (`test.pptx` dalam contoh ini).
 
 ```java
 // Jalur ke direktori dokumen.
@@ -88,7 +88,7 @@ Dalam tutorial ini, kita mempelajari dunia bekerja dengan grafik dalam presentas
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Untuk mengubah tipe grafik, cukup ganti`ChartType.ClusteredColumn` dengan tipe grafik yang diinginkan di`addChart()` metode.
+ Untuk mengubah tipe grafik, cukup ganti`ChartType.ClusteredColumn`dengan tipe grafik yang diinginkan di`addChart()` metode.
 
 ### Bisakah saya menyesuaikan data grafik?
 

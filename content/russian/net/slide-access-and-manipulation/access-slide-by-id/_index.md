@@ -56,7 +56,7 @@ using (var presentation = new Presentation(presentationPath))
 Чтобы получить доступ к слайду по его индексу:
 
 ```csharp
-int slideIndex = 0; // Замените желаемым индексом
+int slideIndex = 0; //Замените желаемым индексом
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

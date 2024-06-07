@@ -16,7 +16,7 @@ Neste tutorial, aprenderemos como definir um formato de data para o eixo de cate
 
 Antes de começar, certifique-se de ter o seguinte:
 
-1.  Biblioteca Aspose.Slides para Java (você pode baixá-la em[aqui](https://releases.aspose.com/slides/java/).
+1. Biblioteca Aspose.Slides para Java (você pode baixá-la em[aqui](https://releases.aspose.com/slides/java/).
 2. Ambiente de desenvolvimento Java configurado.
 
 ## Etapa 1: crie uma apresentação em PowerPoint
@@ -138,4 +138,4 @@ Sim, você pode definir diferentes formatos de data para eixos de categoria em d
 
 ### Como adiciono mais pontos de dados ao gráfico?
 
- Para adicionar mais pontos de dados ao gráfico, use o`getDataPoints().addDataPointForLineSeries` método na série de dados e forneça os valores dos dados.
+ Para adicionar mais pontos de dados ao gráfico, use o`getDataPoints().addDataPointForLineSeries`método na série de dados e forneça os valores dos dados.

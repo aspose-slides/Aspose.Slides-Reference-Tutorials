@@ -11,7 +11,7 @@ url: /it/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di manipolare facilmente le presentazioni PowerPoint. In questo tutorial, esploreremo il processo di aggiunta di un offset di stiramento a sinistra per una cornice utilizzando Aspose.Slides per .NET. Segui questa guida passo passo per migliorare le tue capacità di lavorare con immagini e forme all'interno delle presentazioni PowerPoint.
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
-- Aspose.Slides per .NET: assicurati di avere la libreria installata. In caso contrario, scaricalo da[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides per .NET: assicurati di avere la libreria installata. In caso contrario, scaricalo da[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
 - Ambiente di sviluppo: disporre di un ambiente di sviluppo funzionante con funzionalità .NET.
 ## Importa spazi dei nomi
 Inizia importando gli spazi dei nomi necessari nel tuo progetto .NET:

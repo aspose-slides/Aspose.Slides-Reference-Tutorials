@@ -48,7 +48,7 @@ using (Presentation pres = new Presentation(pptxFile))
 
  En este paso, cargamos la presentación de PowerPoint desde el archivo especificado. Asegúrate de reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación.
 
-### Paso 2.2: acceda a la diapositiva y a la línea de tiempo
+### Paso 2.2: acceda a la diapositiva y la línea de tiempo
 
 ```csharp
 ISlide slide = pres.Slides[0];

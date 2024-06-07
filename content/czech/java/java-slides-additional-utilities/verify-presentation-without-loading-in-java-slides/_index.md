@@ -41,7 +41,7 @@ Nyní napíšeme kód Java pro ověření formátu prezentace, aniž bychom jej 
 // Cesta k adresáři dokumentů.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Pokud je soubor jiný než formát prezentace, vrátí "LoadFormat.Unknown".
+//Pokud je soubor jiný než formát prezentace, vrátí "LoadFormat.Unknown".
 ```
 
  V tomto kódu používáme`PresentationFactory` získat informace o souboru prezentace, včetně jeho formátu. Pokud soubor není platný formát prezentace, vrátí "LoadFormat.Unknown."
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // Cesta k adresáři dokumentů.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Pokud je soubor jiný než formát prezentace, vrátí "LoadFormat.Unknown".
+        //Pokud je soubor jiný než formát prezentace, vrátí "LoadFormat.Unknown".
 ```
 
 ## Závěr

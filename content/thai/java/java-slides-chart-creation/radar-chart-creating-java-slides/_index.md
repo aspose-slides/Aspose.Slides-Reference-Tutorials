@@ -76,7 +76,7 @@ series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetI
 series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 5, 1, 5));
 series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 6, 1, 3.5));
 
-// ตั้งค่าสีซีรีส์
+// ตั้งค่าสีของซีรีย์
 series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 
@@ -89,7 +89,7 @@ series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetI
 series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 5, 2, 4));
 series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 6, 2, 3.6));
 
-// ตั้งค่าสีซีรีส์
+// ตั้งค่าสีของซีรีย์
 series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
 ```
@@ -177,7 +177,7 @@ try
 	// กำลังเพิ่มซีรีส์ใหม่
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	// กำลังเติมข้อมูลซีรีส์
+	//กำลังเติมข้อมูลซีรีส์
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -185,7 +185,7 @@ try
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 4, 1, 3.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 5, 1, 5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 6, 1, 3.5));
-	// ตั้งค่าสีซีรีส์
+	// ตั้งค่าสีของซีรีย์
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 	// กำลังเติมข้อมูลชุดอื่น
@@ -196,7 +196,7 @@ try
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 4, 2, 3.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 5, 2, 4));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 6, 2, 3.6));
-	// ตั้งค่าสีซีรีส์
+	// ตั้งค่าสีของซีรีย์
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
 	// กำหนดตำแหน่งคำอธิบาย
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### ฉันจะบันทึกแผนภูมิเป็นรูปแบบไฟล์อื่นได้อย่างไร
 
- คุณสามารถเปลี่ยนรูปแบบเอาต์พุตได้โดยแก้ไขนามสกุลไฟล์ในรูปแบบ`outPath` ตัวแปรและการใช้ให้เหมาะสม`SaveFormat` . ตัวอย่างเช่น หากต้องการบันทึกเป็น PDF ให้ใช้`SaveFormat.Pdf`.
+ คุณสามารถเปลี่ยนรูปแบบเอาต์พุตได้โดยแก้ไขนามสกุลไฟล์ในรูปแบบ`outPath` ตัวแปรและการใช้ให้เหมาะสม`SaveFormat` - ตัวอย่างเช่น หากต้องการบันทึกเป็น PDF ให้ใช้`SaveFormat.Pdf`.

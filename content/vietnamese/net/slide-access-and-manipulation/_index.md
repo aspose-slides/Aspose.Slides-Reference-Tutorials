@@ -27,7 +27,7 @@ Tìm hiểu cách chèn các trang trình bày bổ sung vào bản trình bày 
 ### [Sao chép slide từ bản trình bày khác sang vị trí được chỉ định](./clone-slide-from-another-presentation-specified-position/)
 Tìm hiểu cách sao chép các trang trình bày từ các bản trình bày khác nhau đến một vị trí được chỉ định bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn hoàn chỉnh, bao gồm nhân bản slide, đặc tả vị trí và lưu bản trình bày.
 ### [Sao chép slide ở cuối bản trình bày riêng biệt](./clone-slide-end-of-another-presentation/)
-Tìm hiểu cách sao chép một trang chiếu từ một bản trình bày PowerPoint và thêm nó vào một bản trình bày khác bằng Aspose.Slides for .NET. Hướng dẫn từng bước này cung cấp mã nguồn và hướng dẫn rõ ràng để thao tác với slide liền mạch.
+Tìm hiểu cách sao chép một trang chiếu từ một bản trình bày PowerPoint và thêm nó vào một bản trình bày khác bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp mã nguồn và hướng dẫn rõ ràng để thao tác với slide liền mạch.
 ### [Sao chép slide đến vị trí chính xác trong bản trình bày khác](./clone-slide-to-specific-position-in-another-presentation/)
 Tìm hiểu cách sao chép các trang trình bày đến các vị trí chính xác trong các bản trình bày khác nhau bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp mã nguồn và hướng dẫn thao tác PowerPoint liền mạch.
 ### [Sao chép slide vào phần được chỉ định trong bản trình bày](./clone-slide-into-specified-section/)

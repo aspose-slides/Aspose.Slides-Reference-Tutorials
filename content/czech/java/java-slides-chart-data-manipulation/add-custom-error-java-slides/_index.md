@@ -131,7 +131,7 @@ finally
 
 ## Závěr
 
-V tomto komplexním tutoriálu jste se naučili, jak vylepšit své prezentace v PowerPointu přidáním vlastních chybových pruhů do grafů pomocí Aspose.Slides for Java. Chybové úsečky poskytují cenné informace o variabilitě a nejistotě dat, díky čemuž jsou vaše grafy informativnější a vizuálně přitažlivější.
+tomto komplexním tutoriálu jste se naučili, jak vylepšit své prezentace v PowerPointu přidáním vlastních chybových pruhů do grafů pomocí Aspose.Slides for Java. Chybové úsečky poskytují cenné informace o variabilitě a nejistotě dat, díky čemuž jsou vaše grafy informativnější a vizuálně přitažlivější.
 
 ## FAQ
 
@@ -149,4 +149,4 @@ Můžete procházet datové body a pro každý bod nastavit vlastní hodnoty chy
 
 ### Je možné skrýt chybové úsečky pro konkrétní datové body?
 
- Ano, viditelnost chybových pruhů pro jednotlivé datové body můžete ovládat nastavením`setVisible` vlastnictvím`IErrorBarsFormat` objekt.
+Ano, viditelnost chybových pruhů pro jednotlivé datové body můžete ovládat nastavením`setVisible` vlastnictvím`IErrorBarsFormat` objekt.

@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- 꼭 교체하세요`"Your Document Directory"`SVG 파일이 있는 프로젝트 디렉토리의 실제 경로를 사용하세요.
+ 꼭 교체하세요`"Your Document Directory"` SVG 파일이 있는 프로젝트 디렉토리의 실제 경로를 사용하세요.
 
 ## 2단계: 새 PowerPoint 프레젠테이션 만들기
 

@@ -11,7 +11,7 @@ url: /id/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Aspose.Slides for .NET adalah perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi presentasi PowerPoint dengan mudah. Dalam tutorial ini, kita akan menjelajahi proses menambahkan offset regangan ke kiri untuk bingkai foto menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini untuk meningkatkan keterampilan Anda dalam bekerja dengan gambar dan bentuk dalam presentasi PowerPoint.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-- Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan. Jika tidak, unduh dari[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan. Jika tidak, unduh dari[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Memiliki lingkungan pengembangan yang berfungsi dengan kemampuan .NET.
 ## Impor Namespace
 Mulailah dengan mengimpor namespace yang diperlukan dalam proyek .NET Anda:

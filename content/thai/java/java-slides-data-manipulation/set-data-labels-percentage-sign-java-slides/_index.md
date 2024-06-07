@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 เราเพิ่มข้อมูลลงในแผนภูมิโดยการสร้างชุดข้อมูลและจุดข้อมูล ในตัวอย่างนี้ เราเพิ่มสองชุดพร้อมกับจุดข้อมูลตามลำดับ
 
 ```java
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // เพิ่มซีรีส์ใหม่
@@ -121,7 +121,7 @@ chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//รับแผ่นงานข้อมูลแผนภูมิ
+// รับแผ่นงานข้อมูลแผนภูมิ
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // เพิ่มซีรีส์ใหม่
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -129,7 +129,7 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// การตั้งค่าสีเติมของซีรี่ส์
+// การตั้งค่าสีเติมของซีรีส์
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // การตั้งค่าคุณสมบัติ LabelFormat
@@ -161,7 +161,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## บทสรุป
 
-ด้วยการทำตามคำแนะนำนี้ คุณจะได้เรียนรู้วิธีสร้างงานนำเสนอที่น่าสนใจด้วยป้ายกำกับข้อมูลตามเปอร์เซ็นต์ ซึ่งจะเป็นประโยชน์อย่างยิ่งในการถ่ายทอดข้อมูลอย่างมีประสิทธิภาพในรายงานทางธุรกิจ สื่อการเรียนรู้ และอื่นๆ
+ด้วยการทำตามคำแนะนำนี้ คุณจะได้เรียนรู้วิธีสร้างงานนำเสนอที่น่าสนใจด้วยป้ายข้อมูลตามเปอร์เซ็นต์ ซึ่งจะเป็นประโยชน์อย่างยิ่งในการถ่ายทอดข้อมูลอย่างมีประสิทธิภาพในรายงานทางธุรกิจ เอกสารทางการศึกษา และอื่นๆ
 
 ## คำถามที่พบบ่อย
 
@@ -171,7 +171,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ### ฉันสามารถกำหนดขนาดตัวอักษรของป้ายข้อมูลได้หรือไม่
 
- ได้ คุณสามารถปรับแต่งขนาดตัวอักษรของป้ายกำกับข้อมูลได้โดยการตั้งค่า`setFontHeight` คุณสมบัติตามที่แสดงในรหัส
+ ได้ คุณสามารถปรับแต่งขนาดตัวอักษรของป้ายกำกับข้อมูลได้โดยตั้งค่า`setFontHeight` คุณสมบัติตามที่แสดงในรหัส
 
 ### ฉันจะเพิ่มซีรี่ส์ลงในแผนภูมิได้อย่างไร
 

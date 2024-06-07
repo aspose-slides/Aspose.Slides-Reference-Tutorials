@@ -12,7 +12,7 @@ V dnešním světě založeném na datech je efektivní vizualizace dat klíčem
 
 ## Předpoklady
 
-Než se vrhneme na vytváření krásných grafů pomocí Aspose.Slides pro .NET, musíte se ujistit, že máte splněny následující předpoklady:
+Než se pustíme do vytváření krásných grafů pomocí Aspose.Slides pro .NET, musíte se ujistit, že máte splněny následující předpoklady:
 
 1.  Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides for .NET. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/slides/net/).
 

@@ -42,12 +42,12 @@ Récupérez la première diapositive de la présentation avec laquelle travaille
 ISlide sld = pres.Slides[0];
 ```
 ## Étape 4 : Instancier la classe ImageEx
- Créez une instance du`ImageEx` classe pour gérer l’image que vous souhaitez ajouter à la diapositive.
+ Créez une instance du`ImageEx`classe pour gérer l’image que vous souhaitez ajouter à la diapositive.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);
 ```
-## Étape 5 : Ajouter un cadre photo
+## Étape 5 : ajouter un cadre photo
  Utiliser le`AddPictureFrame` méthode pour ajouter un cadre photo à la diapositive. Spécifiez les dimensions et la position du cadre.
 ```csharp
 sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);

@@ -39,7 +39,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    //Criar filial 1
+    // Criar filial 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -104,7 +104,7 @@ try
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C3", "Leaf3"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem2");
 	chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
-	//filial 2
+	//ramo 2
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch2");

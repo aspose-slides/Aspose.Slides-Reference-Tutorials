@@ -35,11 +35,11 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // 슬라이드 조작을 위한 코드가 여기에 표시됩니다.
+    //슬라이드 조작을 위한 코드가 여기에 표시됩니다.
 }
 ```
 
-## 순차적 인덱스로 슬라이드 지우기
+## 순차 색인별로 슬라이드 지우기
 
 이제 순차적 인덱스를 기준으로 슬라이드를 지우는 코드를 작성해 보겠습니다.
 

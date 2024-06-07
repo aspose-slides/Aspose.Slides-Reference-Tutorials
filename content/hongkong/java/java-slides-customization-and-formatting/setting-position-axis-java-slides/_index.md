@@ -35,7 +35,7 @@ Presentation pres = new Presentation();
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 450, 300);
 ```
 
-在這裡，我們在位置 (50, 50) 中新增了一個寬度為 450、高度為 300 的聚集長條圖。您可以根據需要調整這些值。
+在這裡，我們在位置 (50, 50) 中新增了一個寬度為 450、高度為 300 的聚集長條圖。
 
 ## 第三步：設定位置軸
 

@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Ställa in index för diagramdatabladet
 	int defaultWorksheetIndex = 0;
-	//Hämta arbetsbladet för diagramdata
+	// Hämta arbetsbladet för diagramdata
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Ta bort standardgenererade serier och kategorier
 	chart.getChartData().getSeries().clear();
@@ -142,9 +142,9 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 	chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
-	// Lägger till nya serier
+	// Lägger till ny serie
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Fyller nu på seriedata
+	//Fyller nu på seriedata
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Du har framgångsrikt skapat ett cirkeldiagram i en PowerPoint-presentation med 
 
 ### Hur kan jag anpassa färgerna på enskilda skivor i cirkeldiagrammet?
 
- För att anpassa färgerna på enskilda skivor i cirkeldiagrammet kan du använda`getAutomaticSeriesColors`metod för att hämta standardfärgschemat och sedan ändra färgerna efter behov. Här är ett exempel:
+ För att anpassa färgerna på enskilda skivor i cirkeldiagrammet kan du använda`getAutomaticSeriesColors` metod för att hämta standardfärgschemat och sedan ändra färgerna efter behov. Här är ett exempel:
 
 ```java
-// Hämta standardfärgschemat
+//Hämta standardfärgschemat
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Ändra färgerna efter behov

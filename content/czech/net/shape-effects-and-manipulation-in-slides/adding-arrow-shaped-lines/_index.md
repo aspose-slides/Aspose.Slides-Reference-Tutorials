@@ -74,7 +74,7 @@ Ano, Aspose.Slides podporuje .NET Core, což vám umožňuje využít jeho funkc
 ### Mohu dále přizpůsobit styly šipek?
 Absolutně! Aspose.Slides poskytuje komplexní možnosti pro přizpůsobení délek, stylů a dalších šipek.
 ### Kde najdu další dokumentaci Aspose.Slides?
- Prozkoumejte dokumentaci[tady](https://reference.aspose.com/slides/net/) pro podrobné informace a příklady.
+ Prozkoumejte dokumentaci[tady](https://reference.aspose.com/slides/net/)pro podrobné informace a příklady.
 ### Je k dispozici bezplatná zkušební verze?
  Ano, Aspose.Slides můžete zažít s bezplatnou zkušební verzí. Stáhnout to[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.Slides?

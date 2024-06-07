@@ -31,7 +31,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-Trong mã này, chúng tôi tải bản trình bày PowerPoint hiện có chứa biểu đồ mà bạn muốn tạo hiệu ứng động. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+ Trong mã này, chúng tôi tải bản trình bày PowerPoint hiện có chứa biểu đồ mà bạn muốn tạo hiệu ứng động. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 3: Lấy tham chiếu đến đối tượng biểu đồ
 
@@ -91,7 +91,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInCategory, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	//Ghi tập tin trình bày vào đĩa
+	// Ghi tập tin trình bày vào đĩa
 	presentation.save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -116,4 +116,4 @@ Có, bạn có thể áp dụng hoạt ảnh tương tự cho các loại biểu
 
 ### Làm cách nào để tìm hiểu thêm về Aspose.Slides cho Java?
 
-Để có tài liệu toàn diện và các tài nguyên bổ sung, hãy truy cập[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/) . Bạn cũng có thể tải xuống thư viện từ[đây](https://releases.aspose.com/slides/java/).
+ Để có tài liệu toàn diện và các tài nguyên bổ sung, hãy truy cập[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/) . Bạn cũng có thể tải xuống thư viện từ[đây](https://releases.aspose.com/slides/java/).

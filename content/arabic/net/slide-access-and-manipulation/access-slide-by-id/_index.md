@@ -10,7 +10,7 @@ url: /ar/net/slide-access-and-manipulation/access-slide-by-id/
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
-Aspose.Slides for .NET هي مكتبة شاملة تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها باستخدام إطار عمل .NET. فهو يوفر مجموعة واسعة من الميزات للعمل مع جوانب مختلفة من العروض التقديمية، بما في ذلك الشرائح والأشكال والنص والصور والرسوم المتحركة والمزيد.
+Aspose.Slides for .NET هي مكتبة شاملة تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها باستخدام إطار عمل .NET. فهو يوفر مجموعة واسعة من الميزات للعمل مع جوانب مختلفة من العروض التقديمية، بما في ذلك الشرائح والأشكال والنصوص والصور والرسوم المتحركة والمزيد.
 
 ## المتطلبات الأساسية
 
@@ -56,7 +56,7 @@ using (var presentation = new Presentation(presentationPath))
 للوصول إلى شريحة من خلال فهرسها:
 
 ```csharp
-int slideIndex = 0; // استبدل بالمؤشر المطلوب
+int slideIndex = 0; //استبدل بالمؤشر المطلوب
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

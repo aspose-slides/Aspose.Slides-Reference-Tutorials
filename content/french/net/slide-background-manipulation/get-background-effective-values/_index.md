@@ -80,7 +80,7 @@ else
 
 Si le type de remplissage d'arrière-plan est uni, ce code imprimera la couleur de remplissage. S'il n'est pas solide, il affichera le type de remplissage.
 
-C'est ça! Vous avez réussi à obtenir les valeurs d’arrière-plan effectives d’une diapositive à l’aide d’Aspose.Slides pour .NET.
+C'est ça! Vous avez obtenu avec succès les valeurs d’arrière-plan effectives d’une diapositive à l’aide d’Aspose.Slides pour .NET.
 
 ## Conclusion
 

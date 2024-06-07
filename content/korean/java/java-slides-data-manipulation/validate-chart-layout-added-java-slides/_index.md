@@ -14,7 +14,7 @@ url: /ko/java/data-manipulation/validate-chart-layout-added-java-slides/
 
 ## 1단계: 프레젠테이션 초기화
 
-먼저 프레젠테이션 개체를 초기화하고 기존 PowerPoint 프레젠테이션을 로드해야 합니다. 바꾸다`"Your Document Directory"` 프리젠테이션 파일의 실제 경로(`test.pptx` 이 예에서는).
+ 먼저 프레젠테이션 개체를 초기화하고 기존 PowerPoint 프레젠테이션을 로드해야 합니다. 바꾸다`"Your Document Directory"` 프리젠테이션 파일의 실제 경로(`test.pptx` 이 예에서는).
 
 ```java
 // 문서 디렉터리의 경로입니다.
@@ -88,7 +88,7 @@ finally
 
 ### 차트 종류를 어떻게 변경하나요?
 
- 차트 유형을 변경하려면 간단히 바꾸십시오.`ChartType.ClusteredColumn` 원하는 차트 유형을`addChart()` 방법.
+ 차트 유형을 변경하려면 간단히 바꾸십시오.`ChartType.ClusteredColumn`원하는 차트 유형을`addChart()` 방법.
 
 ### 차트 데이터를 맞춤설정할 수 있나요?
 

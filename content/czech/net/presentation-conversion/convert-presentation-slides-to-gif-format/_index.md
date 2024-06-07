@@ -110,7 +110,7 @@ class Program
 
 ## Závěr
 
-tomto článku jsme prozkoumali, jak převést prezentační snímky do formátu GIF pomocí Aspose.Slides for .NET. Zabývali jsme se instalací knihovny, načtením prezentace, přizpůsobením možností GIF a zpracováním výjimek. Pokud budete postupovat podle podrobného průvodce a pomocí poskytnutých úryvků kódu, můžete tuto funkci snadno integrovat do svých aplikací a zvýšit vizuální přitažlivost vašich prezentací.
+tomto článku jsme prozkoumali, jak převést prezentační snímky do formátu GIF pomocí Aspose.Slides for .NET. Zabývali jsme se instalací knihovny, načtením prezentace, přizpůsobením možností GIF a zpracováním výjimek. Pokud budete postupovat podle podrobného průvodce a pomocí poskytnutých úryvků kódu, můžete tuto funkci snadno integrovat do svých aplikací a zvýšit vizuální přitažlivost svých prezentací.
 
 ## FAQ
 

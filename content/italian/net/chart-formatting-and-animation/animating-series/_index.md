@@ -44,7 +44,7 @@ In questo passaggio, carica la presentazione PowerPoint esistente (PPTX) che con
 // Percorso della directory dei documenti
 string dataDir = "Your Document Directory";
 
-//Crea un'istanza della classe Presentation che rappresenta un file di presentazione
+// Crea un'istanza della classe Presentation che rappresenta un file di presentazione
 using (Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx"))
 {
     // Il tuo codice va qui

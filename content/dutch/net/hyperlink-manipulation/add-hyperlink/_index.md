@@ -81,7 +81,7 @@ Nu hebt u met succes een hyperlink aan een dia toegevoegd met Aspose.Slides voor
 
 ## Conclusie
 
-In deze zelfstudie hebben we onderzocht hoe u hyperlinks kunt toevoegen aan dia's in PowerPoint-presentaties met Aspose.Slides voor .NET. Door deze stappen te volgen, kunt u uw presentaties interactiever en boeiender maken en waardevolle links naar aanvullende bronnen of informatie bieden.
+In deze zelfstudie hebben we onderzocht hoe u hyperlinks kunt toevoegen aan dia's in PowerPoint-presentaties met Aspose.Slides voor .NET. Door deze stappen te volgen, kunt u uw presentaties interactiever en boeiender maken en waardevolle koppelingen naar aanvullende bronnen of informatie bieden.
 
  Voor meer gedetailleerde informatie en documentatie, bezoek de[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
 

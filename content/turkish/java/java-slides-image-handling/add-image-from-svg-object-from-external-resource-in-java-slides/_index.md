@@ -101,7 +101,7 @@ Bu eğitimde, Aspose.Slides kullanarak harici bir kaynaktan bir SVG nesnesinden 
 
 ### Eklenen SVG görüntüsünün slayttaki konumunu nasıl özelleştirebilirim?
 
- SVG görüntüsünün konumunu, koordinatları değiştirerek ayarlayabilirsiniz.`addPictureFrame`yöntem. Parametreler`(0, 0)` görüntü çerçevesinin sol üst köşesinin X ve Y koordinatlarını temsil eder.
+ SVG görüntüsünün konumunu, koordinatları değiştirerek ayarlayabilirsiniz.`addPictureFrame` yöntem. Parametreler`(0, 0)` görüntü çerçevesinin sol üst köşesinin X ve Y koordinatlarını temsil eder.
 
 ### Tek bir slayda birden fazla SVG görüntüsü eklemek için bu yaklaşımı kullanabilir miyim?
 

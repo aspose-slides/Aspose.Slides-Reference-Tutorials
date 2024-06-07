@@ -16,7 +16,7 @@ url: /ar/net/licensing-and-formatting/licensing-and-formatting/
 
 1.  Aspose.Slides for .NET: تأكد من أنك قمت بتثبيت Aspose.Slides for .NET في بيئة التطوير الخاصة بك. يمكنك تحميل المكتبة من[رابط التحميل](https://releases.aspose.com/slides/net/).
 
-2.  ملف الترخيص: احصل على ملف ترخيص Aspose.Slides صالح، يُسمى عادةً "Aspose.Slides.lic". يمكنك الحصول على تراخيص من[موقع أسبوز](https://purchase.aspose.com/buy) أو طلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+2.  ملف الترخيص: احصل على ملف ترخيص Aspose.Slides صالح، يُسمى عادةً "Aspose.Slides.lic." يمكنك الحصول على تراخيص من[موقع أسبوز](https://purchase.aspose.com/buy) أو طلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
 
 ## استيراد مساحات الأسماء
 

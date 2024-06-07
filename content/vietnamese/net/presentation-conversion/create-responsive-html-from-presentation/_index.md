@@ -68,7 +68,7 @@ Chúc mừng! Bạn đã chuyển đổi thành công bản trình bày PowerPoi
  Có, bạn có thể tùy chỉnh đầu ra HTML để phù hợp với yêu cầu cụ thể của mình bằng cách sửa đổi`HtmlOptions`.
 
 ### Q2. Aspose.Slides cho .NET có phù hợp cho mục đích thương mại không?
- Có, Aspose.Slides for .NET có thể được sử dụng cho mục đích thương mại. Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+ Có, Aspose.Slides cho .NET có thể được sử dụng cho mục đích thương mại. Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
 
 ### Q3. Có bản dùng thử miễn phí không?
  Có, bạn có thể dùng thử Aspose.Slides cho .NET miễn phí bằng cách tải xuống từ[đây](https://releases.aspose.com/).

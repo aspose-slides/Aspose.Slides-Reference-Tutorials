@@ -26,7 +26,7 @@ url: /el/java/animation-and-layout/animating-series-java-slides/
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
-//Κλάση Instantiate Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
+// Κλάση Instantiate Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
@@ -72,7 +72,7 @@ presentation.save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
-//Κλάση Instantiate Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
+// Κλάση Instantiate Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
@@ -110,9 +110,9 @@ finally
 
 ## Συχνές ερωτήσεις
 
-### Πώς μπορώ να ελέγξω τη σειρά των κινούμενων σχεδίων σειρών;
+### Πώς μπορώ να ελέγξω τη σειρά των κινούμενων εικόνων σειρών;
 
- Για να ελέγξετε τη σειρά των κινούμενων εικόνων σειρών, χρησιμοποιήστε το`EffectTriggerType.AfterPrevious` παράμετρο κατά την προσθήκη των εφέ. Αυτό θα κάνει κάθε κινούμενη εικόνα της σειράς να ξεκινά μετά την ολοκλήρωση της προηγούμενης.
+ Για να ελέγξετε τη σειρά των κινούμενων εικόνων σειρών, χρησιμοποιήστε το`EffectTriggerType.AfterPrevious`παράμετρο κατά την προσθήκη των εφέ. Αυτό θα κάνει κάθε κινούμενη εικόνα της σειράς να ξεκινά μετά την ολοκλήρωση της προηγούμενης.
 
 ### Μπορώ να εφαρμόσω διαφορετικά κινούμενα σχέδια σε κάθε σειρά;
 

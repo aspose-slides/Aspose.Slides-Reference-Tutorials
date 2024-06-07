@@ -8,7 +8,7 @@ weight: 14
 url: /pl/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
 ---
 
-świecie nowoczesnych prezentacji treści matematyczne często odgrywają kluczową rolę w przekazywaniu złożonych pomysłów i danych. Jeśli pracujesz z Aspose.Slides dla .NET, masz szczęście! Ten samouczek poprowadzi Cię przez proces eksportowania akapitów matematycznych do MathML, umożliwiając bezproblemową integrację treści matematycznych z prezentacjami. Zanurzmy się więc w świat MathML i Aspose.Slides.
+W świecie nowoczesnych prezentacji treści matematyczne często odgrywają kluczową rolę w przekazywaniu złożonych pomysłów i danych. Jeśli pracujesz z Aspose.Slides dla .NET, masz szczęście! Ten samouczek poprowadzi Cię przez proces eksportowania akapitów matematycznych do MathML, umożliwiając bezproblemową integrację treści matematycznych z prezentacjami. Zanurzmy się więc w świat MathML i Aspose.Slides.
 
 ## 1. Wprowadzenie do Aspose.Slides dla .NET
 

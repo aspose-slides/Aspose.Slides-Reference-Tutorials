@@ -95,13 +95,13 @@ Este código salva a apresentação como "presentation_external.pptx" no diretó
 
 ## Conclusão
 
-Neste tutorial, aprendemos como adicionar uma imagem de um objeto SVG de um recurso externo a slides Java usando Aspose.Slides. Este recurso permite incluir imagens vetoriais de alta qualidade em suas apresentações, aumentando seu apelo visual.
+Neste tutorial, aprendemos como adicionar uma imagem de um objeto SVG de um recurso externo a slides Java usando Aspose.Slides. Este recurso permite incluir imagens vetoriais de alta qualidade em suas apresentações, melhorando seu apelo visual.
 
 ## Perguntas frequentes
 
 ### Como posso personalizar a posição da imagem SVG adicionada no slide?
 
- Você pode ajustar a posição da imagem SVG modificando as coordenadas no campo`addPictureFrame`método. Os parametros`(0, 0)` representam as coordenadas X e Y do canto superior esquerdo do quadro da imagem.
+ Você pode ajustar a posição da imagem SVG modificando as coordenadas no campo`addPictureFrame` método. Os parametros`(0, 0)` representam as coordenadas X e Y do canto superior esquerdo do quadro da imagem.
 
 ### Posso usar essa abordagem para adicionar várias imagens SVG a um único slide?
 

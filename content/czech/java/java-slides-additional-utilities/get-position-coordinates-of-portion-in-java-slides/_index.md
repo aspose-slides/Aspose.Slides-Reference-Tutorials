@@ -97,7 +97,7 @@ finally
 
 ## Závěr
 
-tomto tutoriálu jsme se zabývali tím, jak získat souřadnice polohy textových částí na snímcích Java pomocí Aspose.Slides for Java API. Tyto znalosti mohou být zvláště užitečné, když potřebujete přesnou kontrolu nad umístěním textových prvků v prezentacích PowerPoint.
+V tomto tutoriálu jsme se zabývali tím, jak získat souřadnice polohy textových částí na snímcích Java pomocí Aspose.Slides for Java API. Tyto znalosti mohou být zvláště užitečné, když potřebujete přesnou kontrolu nad umístěním textových prvků v prezentacích PowerPoint.
 
 ## FAQ
 

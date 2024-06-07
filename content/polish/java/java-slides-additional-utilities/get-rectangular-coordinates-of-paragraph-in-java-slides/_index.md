@@ -107,7 +107,7 @@ Tak, Aspose.Slides for Java doskonale nadaje się do przetwarzania wsadowego pli
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
 
-Więcej przykładów kodu i szczegółową dokumentację Aspose.Slides for Java można znaleźć na stronie[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) strona internetowa. Dodatkowo możesz eksplorować[Fora Aspose.Slides](https://forum.aspose.com/c/slides) za wsparcie społeczności i dyskusje.
+ Więcej przykładów kodu i szczegółową dokumentację Aspose.Slides for Java można znaleźć na stronie[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/)strona internetowa. Dodatkowo możesz eksplorować[Fora Aspose.Slides](https://forum.aspose.com/c/slides) za wsparcie społeczności i dyskusje.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Slides dla Java?
 

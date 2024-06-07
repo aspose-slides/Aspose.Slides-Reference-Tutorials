@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Установка индекса таблицы данных диаграммы
 	int defaultWorksheetIndex = 0;
-	//Получение листа данных диаграммы
+	// Получение листа данных диаграммы
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Удалить созданные по умолчанию серии и категории
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Добавляем новую серию
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Теперь заполняем данные серии
+	//Теперь заполняем данные серии
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ finally
 
 ### Как настроить цвета отдельных фрагментов круговой диаграммы?
 
- Чтобы настроить цвета отдельных фрагментов круговой диаграммы, вы можете использовать`getAutomaticSeriesColors`метод для получения цветовой схемы по умолчанию и последующего изменения цветов по мере необходимости. Вот пример:
+ Чтобы настроить цвета отдельных фрагментов круговой диаграммы, вы можете использовать`getAutomaticSeriesColors` метод для получения цветовой схемы по умолчанию и последующего изменения цветов по мере необходимости. Вот пример:
 
 ```java
-// Получить цветовую схему по умолчанию
+//Получить цветовую схему по умолчанию
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Измените цвета по мере необходимости
@@ -197,4 +197,4 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Сделайте заголовок курсивом
 ```
 
-При необходимости вы можете настроить размер, жирность и курсив шрифта.
+При необходимости вы можете настроить размер шрифта, его жирность и стиль курсива.

@@ -8,43 +8,43 @@ weight: 17
 url: /de/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
 
-## Einführung in das Festlegen der Prozentangabe für Datenbeschriftungen in Aspose.Slides für Java
+## Einführung in das Festlegen des Prozentzeichens für Datenbeschriftungen in Aspose.Slides für Java
 
-In dieser Anleitung führen wir Sie durch den Prozess des Festlegens von Datenbeschriftungen mit einem Prozentzeichen mithilfe von Aspose.Slides für Java. Wir erstellen eine PowerPoint-Präsentation mit einem gestapelten Säulendiagramm und konfigurieren Datenbeschriftungen zur Anzeige von Prozentsätzen.
+In dieser Anleitung führen wir Sie durch den Prozess zum Festlegen von Datenbeschriftungen mit einem Prozentzeichen mithilfe von Aspose.Slides für Java. Wir erstellen eine PowerPoint-Präsentation mit einem gestapelten Säulendiagramm und konfigurieren Datenbeschriftungen zur Anzeige von Prozentsätzen.
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass Ihrem Projekt die Aspose.Slides for Java-Bibliothek hinzugefügt wurde. Sie können es herunterladen unter[Hier](https://releases.aspose.com/slides/java/).
+ Bevor Sie beginnen, stellen Sie sicher, dass Sie die Bibliothek Aspose.Slides für Java zu Ihrem Projekt hinzugefügt haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Erstellen Sie eine neue Präsentation
 
 Zuerst erstellen wir mit Aspose.Slides eine neue PowerPoint-Präsentation.
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
-// Erstellen Sie eine Instanz der Presentation-Klasse
+// Erstellen Sie eine Instanz der Präsentationsklasse
 Presentation presentation = new Presentation();
 ```
 
-## Schritt 2: Fügen Sie eine Folie und ein Diagramm hinzu
+## Schritt 2: Folie und Diagramm hinzufügen
 
-Als Nächstes fügen wir der Präsentation eine Folie und ein gestapeltes Säulendiagramm hinzu.
+Als nächstes fügen wir der Präsentation eine Folie und ein gestapeltes Säulendiagramm hinzu.
 
 ```java
-// Holen Sie sich eine Referenz der Folie
+// Referenz der Folie erhalten
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// Fügen Sie ein PercentsStackedColumn-Diagramm auf einer Folie hinzu
+// Hinzufügen eines PercentsStackedColumn-Diagramms auf einer Folie
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## Schritt 3: Konfigurieren Sie das Achsennummernformat
+## Schritt 3: Achsennummernformat konfigurieren
 
 Um Prozentsätze anzuzeigen, müssen wir das Zahlenformat für die vertikale Achse des Diagramms konfigurieren.
 
 ```java
-//Legen Sie NumberFormatLinkedToSource auf false fest
+//Setzen Sie NumberFormatLinkedToSource auf „false“.
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -54,7 +54,7 @@ chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 Wir fügen dem Diagramm Daten hinzu, indem wir Reihen und Datenpunkte erstellen. In diesem Beispiel fügen wir zwei Reihen mit ihren jeweiligen Datenpunkten hinzu.
 
 ```java
-//Abrufen des Diagrammdaten-Arbeitsblatts
+// Abrufen des Arbeitsblatts mit den Diagrammdaten
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Neue Serie hinzufügen
@@ -74,10 +74,10 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 
 ## Schritt 5: Datenbeschriftungen anpassen
 
-Passen wir nun das Erscheinungsbild der Datenbeschriftungen an.
+Lassen Sie uns nun das Erscheinungsbild der Datenbeschriftungen anpassen.
 
 ```java
-// Festlegen von LabelFormat-Eigenschaften
+// Festlegen der LabelFormat-Eigenschaften
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -96,32 +96,32 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 
 ## Schritt 6: Speichern Sie die Präsentation
 
-Abschließend speichern wir die Präsentation in einer PowerPoint-Datei.
+Abschließend speichern wir die Präsentation als PowerPoint-Datei.
 
 ```java
-// Präsentation auf Diskette schreiben
+// Präsentation auf Festplatte schreiben
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben mit Aspose.Slides für Java erfolgreich eine PowerPoint-Präsentation mit einem gestapelten Säulendiagramm erstellt und Datenbeschriftungen für die Anzeige von Prozentsätzen konfiguriert.
+Das ist es! Sie haben erfolgreich eine PowerPoint-Präsentation mit einem gestapelten Säulendiagramm erstellt und Datenbeschriftungen zur Anzeige von Prozentsätzen mit Aspose.Slides für Java konfiguriert.
 
-## Vollständiger Quellcode zum Festlegen von Datenbeschriftungen, Prozentzeichen in Java-Folien
+## Vollständiger Quellcode zum Festlegen von Datenbeschriftungen und Prozentzeichen in Java-Folien
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
-// Erstellen Sie eine Instanz der Presentation-Klasse
+// Erstellen Sie eine Instanz der Präsentationsklasse
 Presentation presentation = new Presentation();
-// Holen Sie sich eine Referenz der Folie
+// Referenz der Folie erhalten
 ISlide slide = presentation.getSlides().get_Item(0);
-// Fügen Sie ein PercentsStackedColumn-Diagramm auf einer Folie hinzu
+// Hinzufügen eines PercentsStackedColumn-Diagramms auf einer Folie
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Legen Sie NumberFormatLinkedToSource auf false fest
+//Setzen Sie NumberFormatLinkedToSource auf „false“.
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-//Abrufen des Diagrammdaten-Arbeitsblatts
+// Abrufen des Arbeitsblatts mit den Diagrammdaten
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // Neue Serie hinzufügen
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -129,10 +129,10 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// Festlegen der Füllfarbe der Serie
+// Festlegen der Füllfarbe von Serien
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Festlegen von LabelFormat-Eigenschaften
+// Festlegen der LabelFormat-Eigenschaften
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -155,24 +155,24 @@ series2.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().setFontHeight(10);
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().setFillType(FillType.Solid);
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
-// Präsentation auf Diskette schreiben
+// Präsentation auf Festplatte schreiben
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Abschluss
 
-Durch die Befolgung dieses Leitfadens haben Sie gelernt, wie Sie ansprechende Präsentationen mit prozentualen Datenbeschriftungen erstellen, die besonders nützlich sein können, um Informationen in Geschäftsberichten, Lehrmaterialien und mehr effektiv zu vermitteln.
+In dieser Anleitung haben Sie gelernt, wie Sie ansprechende Präsentationen mit prozentbasierten Datenbeschriftungen erstellen, die insbesondere für die effektive Vermittlung von Informationen in Geschäftsberichten, Lehrmaterialien usw. nützlich sein können.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### Wie kann ich die Farben der Diagrammreihe ändern?
+### Wie kann ich die Farben der Diagrammreihen ändern?
 
- Sie können die Füllfarbe von Diagrammreihen mit ändern`setFill` Methode wie im Beispiel gezeigt.
+ Sie können die Füllfarbe von Diagrammreihen ändern, indem Sie auf`setFill` Methode wie im Beispiel gezeigt.
 
 ### Kann ich die Schriftgröße der Datenbeschriftungen anpassen?
 
- Ja, Sie können die Schriftgröße von Datenbeschriftungen anpassen, indem Sie Folgendes festlegen`setFontHeight` Eigenschaft, wie im Code gezeigt.
+ Ja, Sie können die Schriftgröße von Datenbeschriftungen anpassen, indem Sie die`setFontHeight` Eigenschaft, wie im Code gezeigt.
 
-### Wie kann ich dem Diagramm weitere Serien hinzufügen?
+### Wie kann ich dem Diagramm weitere Reihen hinzufügen?
 
- Sie können dem Diagramm zusätzliche Reihen hinzufügen, indem Sie verwenden`add` Methode auf der`IChartSeriesCollection` Objekt.
+ Sie können dem Diagramm weitere Reihen hinzufügen, indem Sie das`add` Methode auf der`IChartSeriesCollection` Objekt.

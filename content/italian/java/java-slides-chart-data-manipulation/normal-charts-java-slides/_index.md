@@ -69,7 +69,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
 
-//Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
 // Elimina le serie e le categorie generate predefinite
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Impostazione del colore di riempimento per le serie
+//Impostazione del colore di riempimento per le serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// Impostazione del colore di riempimento per le serie
+//Impostazione del colore di riempimento per le serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -170,7 +170,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
-//Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Elimina le serie e le categorie generate predefinite
 chart.getChartData().getSeries().clear();
@@ -186,23 +186,23 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Prendi la prima serie di grafici
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Ora popolano i dati delle serie
+//Ora popolano i dati delle serie
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// Impostazione del colore di riempimento per le serie
+//Impostazione del colore di riempimento per le serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Prendi la seconda serie di grafici
 series = chart.getChartData().getSeries().get_Item(1);
-// Ora popolano i dati delle serie
+//Ora popolano i dati delle serie
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// Impostazione del colore di riempimento per le serie
+//Impostazione del colore di riempimento per le serie
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-//La prima etichetta mostrerà il nome della categoria
+// La prima etichetta mostrerà il nome della categoria
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
@@ -239,4 +239,4 @@ In questo tutorial, abbiamo imparato come creare grafici normali in Java Slides 
 
 ### Come faccio a salvare il grafico in un formato di file diverso?
 
-Per salvare il grafico in un formato file diverso, modificare il file`SaveFormat` parametro nel`pres.save()` metodo nel formato desiderato (ad esempio, PDF, PNG, JPEG).
+ Per salvare il grafico in un formato file diverso, modificare il file`SaveFormat` parametro nel`pres.save()`metodo nel formato desiderato (ad esempio, PDF, PNG, JPEG).

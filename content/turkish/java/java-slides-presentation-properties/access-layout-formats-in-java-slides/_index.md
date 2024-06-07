@@ -10,7 +10,7 @@ url: /tr/java/presentation-properties/access-layout-formats-in-java-slides/
 
 ## Java Slaytlarındaki Erişim Düzeni Formatlarına Giriş
 
-Bu eğitimde, Aspose.Slides for Java API'sini kullanarak Java Slides'daki düzen formatlarına nasıl erişeceğimizi ve bunlarla nasıl çalışacağımızı keşfedeceğiz. Düzen formatları, bir sunumun düzen slaytlarındaki şekillerin ve çizgilerin görünümünü denetlemenize olanak tanır. Düzen slaytlarındaki şekiller için dolgu formatlarının ve çizgi formatlarının nasıl alınacağını ele alacağız.
+Bu eğitimde, Aspose.Slides for Java API'sini kullanarak Java Slides'ta düzen formatlarına nasıl erişeceğimizi ve bunlarla nasıl çalışacağımızı keşfedeceğiz. Düzen formatları, bir sunumun düzen slaytlarındaki şekillerin ve çizgilerin görünümünü denetlemenize olanak tanır. Düzen slaytlarındaki şekiller için dolgu formatlarının ve çizgi formatlarının nasıl alınacağını ele alacağız.
 
 ## Önkoşullar
 

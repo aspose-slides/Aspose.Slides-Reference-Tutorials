@@ -10,7 +10,7 @@ url: /hu/java/additional-utilities/get-position-coordinates-of-portion-in-java-s
 
 ## Bevezetés a rész pozíciókoordinátáinak lekéréséhez Java Slides-ben
 
-Ebben az átfogó útmutatóban megvizsgáljuk, hogyan lehet lekérni a Java diákon belüli rész pozíciókoordinátáit az Aspose.Slides for Java API használatával. Megtanulhatja, hogyan érheti el és kezelheti a szövegrészeket egy diában, és hogyan bonthatja ki azok X és Y koordinátáit. Ez a lépésenkénti oktatóanyag forráskód-példákat és értékes információkat tartalmaz, amelyek segítenek elsajátítani ezt a feladatot.
+Ebben az átfogó útmutatóban megvizsgáljuk, hogyan lehet lekérni a Java diákon belüli rész pozíciókoordinátáit az Aspose.Slides for Java API használatával. Megtanulja, hogyan érheti el és kezelheti a szövegrészeket egy diában, és hogyan bonthatja ki azok X és Y koordinátáit. Ez a lépésenkénti oktatóanyag forráskód-példákat és értékes információkat tartalmaz, amelyek segítenek elsajátítani ezt a feladatot.
 
 ## Előfeltételek
 
@@ -24,7 +24,7 @@ Most pedig kezdjük a megvalósítással.
 
 ## 1. lépés: A projekt beállítása
 
-Mielőtt az Aspose.Slides for Java programmal dolgozhatnánk, be kell állítanunk egy Java projektet, és konfigurálnunk kell a könyvtárat. Kövesse az alábbi lépéseket a projekt elkészítéséhez:
+Mielőtt az Aspose.Slides for Java-val dolgozhatnánk, be kell állítanunk egy Java projektet, és konfigurálnunk kell a könyvtárat. Kövesse az alábbi lépéseket a projekt elkészítéséhez:
 
 1. Hozzon létre egy új Java-projektet az IDE-ben.
 2. Adja hozzá az Aspose.Slides for Java könyvtárat projektje függőségeihez.

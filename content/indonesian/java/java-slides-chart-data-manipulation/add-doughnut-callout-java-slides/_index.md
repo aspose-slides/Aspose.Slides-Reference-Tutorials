@@ -179,4 +179,4 @@ Ya, Anda dapat menambahkan titik data sebanyak yang diperlukan ke bagan Donat. C
 
 ### Bagaimana cara menyesuaikan posisi dan ukuran bagan Donat pada slide?
 
- Anda dapat mengubah posisi dan ukuran bagan Donat dengan memodifikasi parameter di`addChart` metode. Keempat angka dalam metode tersebut masing-masing sesuai dengan koordinat X dan Y dari sudut kiri atas grafik serta lebar dan tingginya.
+Anda dapat mengubah posisi dan ukuran bagan Donat dengan memodifikasi parameter di`addChart` metode. Keempat angka dalam metode tersebut masing-masing sesuai dengan koordinat X dan Y dari sudut kiri atas grafik serta lebar dan tingginya.

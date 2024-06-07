@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/conversion-tiff-notes-java-slides/
 
 ## Bevezetés a TIFF-re való konvertálásba a Java Slides jegyzeteivel
 
-Ha Java Slides-szel dolgozik, és a prezentációkat beágyazott jegyzetekkel kell TIFF formátumba konvertálnia, akkor jó helyen jár. Ez a lépésenkénti útmutató végigvezeti a folyamaton az Aspose.Slides for Java használatával. A cikk végére birtokában lesz a feladat zökkenőmentes elvégzéséhez szükséges tudásnak és forráskódnak.
+Ha Java Slides-szel dolgozik, és a prezentációkat TIFF formátumba kell konvertálnia beágyazott jegyzetekkel, akkor jó helyen jár. Ez a lépésenkénti útmutató végigvezeti a folyamaton az Aspose.Slides for Java használatával. A cikk végére birtokában lesz a feladat zökkenőmentes elvégzéséhez szükséges tudásnak és forráskódnak.
 
 ## Előfeltételek
 

@@ -19,7 +19,7 @@ Voordat we aan onze reis beginnen om uw presentaties te verbeteren met overgangs
 
 Om te beginnen moet Aspose.Slides voor .NET geïnstalleerd zijn. Als je dat nog niet hebt gedaan, download en installeer het dan vanaf de website.
 
--  Download Aspose.Slides voor .NET:[Download link](https://releases.aspose.com/slides/net/)
+-  Aspose.Slides downloaden voor .NET:[Download link](https://releases.aspose.com/slides/net/)
 
 ### 2. Ontwikkelomgeving
 

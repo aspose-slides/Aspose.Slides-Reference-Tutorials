@@ -27,7 +27,7 @@ url: /zh-hant/java/data-manipulation/chart-marker-options-data-point-java-slides
 
 ## 第 2 步：載入簡報
 
-首先，載入範例簡報文件。在提供的程式碼中，我們假設文件名稱為「Test.pptx」。
+首先，載入範例簡報文件。在提供的程式碼中，我們假設該文件名為「Test.pptx」。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -73,7 +73,7 @@ point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
 
 //對其他數據點重複此操作
-//…
+//……
 
 //更改圖表系列標記大小
 series.getMarker().setSize(15);

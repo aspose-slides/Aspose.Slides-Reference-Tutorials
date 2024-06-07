@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // Slayt düzenleme kodunuz buraya gelecek
+    //Slayt düzenleme kodunuz buraya gelecek
 }
 ```
 
@@ -45,13 +45,13 @@ Artık sunumumuzu yüklediğimize göre slaytlara sıralı indekslerine göre er
 
 ```csharp
 // Bir slayta sıralı dizinine göre erişme (0 tabanlı)
-int slideIndex = 2; // İstenilen indeksle değiştirin
+int slideIndex = 2; //İstenilen indeksle değiştirin
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## Kaynak Kodu Açıklaması
 
-- biz kullanıyoruz`Slides` koleksiyonu`Presentation` slaytlara erişmek için nesne.
+-  biz kullanıyoruz`Slides` koleksiyonu`Presentation` slaytlara erişmek için nesne.
 - Koleksiyondaki slaydın dizini 0 tabanlıdır, dolayısıyla ilk slaydın dizini 0'dır, ikinci slaydın dizini 1'dir vb.
 - İlgili slayt nesnesini almak için istenilen slayt indeksini belirtiriz.
 
@@ -81,7 +81,7 @@ Hayır, Aspose.Slides for .NET geçerli bir lisans gerektiren ticari bir kütüp
 
 ### Aspose.Slides for .NET başka hangi işlevleri sunuyor?
 
- Aspose.Slides for .NET, sıfırdan sunumlar oluşturma, slaytları düzenleme, şekiller ve görüntüler ekleme, biçimlendirme uygulama ve daha fazlasını içeren geniş bir işlevsellik yelpazesi sunar. Şuraya başvurabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/net/) kapsamlı bilgi için.
+Aspose.Slides for .NET, sıfırdan sunumlar oluşturma, slaytları düzenleme, şekiller ve görüntüler ekleme, biçimlendirme uygulama ve daha fazlasını içeren geniş bir işlevsellik yelpazesi sunar. Şuraya başvurabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/net/) kapsamlı bilgi için.
 
 ### Aspose.Slides'ı kullanarak PowerPoint otomasyonu hakkında nasıl daha fazla bilgi edinebilirim?
 

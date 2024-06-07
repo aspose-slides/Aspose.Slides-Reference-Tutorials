@@ -24,7 +24,7 @@ Než se ponoříme do kódu, ujistěte se, že máte splněny následující př
 
 ## Nastavení prostředí Java
 
-Před použitím Aspose.Slides for Java se ujistěte, že máte nainstalovaný Java JDK. Můžete si jej stáhnout z webu Java a postupovat podle pokynů k instalaci.
+Před použitím Aspose.Slides for Java se ujistěte, že máte nainstalovaný Java JDK. Můžete si jej stáhnout z webu Java a postupujte podle pokynů k instalaci.
 
 ## Krok 1: Načtení souboru ODP
 

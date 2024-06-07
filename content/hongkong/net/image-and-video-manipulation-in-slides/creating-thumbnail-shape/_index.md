@@ -11,7 +11,7 @@ url: /zh-hant/net/image-and-video-manipulation-in-slides/creating-thumbnail-shap
 Aspose.Slides for .NET 是一個功能強大的程式庫，可讓開發人員無縫處理 PowerPoint 簡報。其顯著功能之一是能夠為簡報中的形狀產生縮圖。本教學將引導您使用 Aspose.Slides for .NET 建立形狀縮圖的過程。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
-1. Aspose.Slides for .NET：確保您已安裝 Aspose.Slides 函式庫。您可以從[發布頁面](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET：確保您已安裝 Aspose.Slides 函式庫。您可以從[發布頁面](https://releases.aspose.com/slides/net/).
 2. 開發環境：建置合適的開發環境，如Visual Studio，對C#程式設計有基本的了解。
 ## 導入命名空間
 首先，您需要在 C# 程式碼中匯入必要的命名空間。這些命名空間有助於與 Aspose.Slides 庫的通訊。在 C# 檔案的開頭新增以下行：
@@ -56,4 +56,4 @@ bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 ### Q：可以包含縮圖的形狀的大小或類型有限制嗎？
 答：Aspose.Slides 提供了為各種形狀（包括文字方塊、圖像等）建立縮圖的靈活性。
 ### Q：我可以自訂生成的縮圖的大小和解析度嗎？
- A：可以，呼叫時可以調整參數`GetThumbnail`控制尺寸和解析度的方法。
+A：可以，呼叫時可以調整參數`GetThumbnail`控制尺寸和解析度的方法。

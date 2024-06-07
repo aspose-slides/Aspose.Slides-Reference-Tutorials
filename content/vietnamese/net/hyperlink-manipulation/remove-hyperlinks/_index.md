@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- Trong đoạn mã trên, thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục tài liệu của bạn và`"Hyperlink.pptx"` với tên của tệp bản trình bày PowerPoint của bạn.
+ Trong đoạn mã trên, thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn và`"Hyperlink.pptx"` với tên của tệp bản trình bày PowerPoint của bạn.
 
 ## Bước 3: Xóa siêu liên kết
 

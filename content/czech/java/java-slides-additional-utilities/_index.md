@@ -11,7 +11,7 @@ Jste připraveni posunout své prezentace Java Slides na další úroveň? Aspos
 
 ## The Power of Aspose.Slides for Java
 
-Aspose.Slides for Java je robustní knihovna, která vybavuje vývojáře v jazyce Java nástroji potřebnými k manipulaci, vytváření a vylepšování prezentací PowerPoint programově. Ať už vytváříte dynamické sestavy, interaktivní panely nebo poutavý vzdělávací obsah, Aspose.Slides pro Java je vaším řešením.
+Aspose.Slides for Java je robustní knihovna, která vybavuje vývojáře v jazyce Java nástroji potřebnými pro manipulaci, vytváření a vylepšování prezentací PowerPoint programově. Ať už vytváříte dynamické sestavy, interaktivní panely nebo poutavý vzdělávací obsah, Aspose.Slides pro Java je vaším řešením.
 
 ## Uvolněte kreativitu pomocí dalších nástrojů
 
@@ -37,7 +37,7 @@ Naučte se, jak získat informace o formátu souboru v Java Slides pomocí Aspos
 ### [Získejte souřadnice pozice části v Java Slides](./get-position-coordinates-of-portion-in-java-slides/)
 Naučte se získávat souřadnice textové části ve snímcích Java pomocí Aspose.Slides for Java API. Získejte přesnou kontrolu nad umístěním textu v prezentacích PowerPoint.
 ### [Získejte obdélníkové souřadnice odstavce v Java Slides](./get-rectangular-coordinates-of-paragraph-in-java-slides/)
-Naučte se, jak načíst souřadnice odstavce v prezentacích PowerPoint pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem pro přesné umístění.
+Naučte se, jak získat souřadnice odstavce v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem pro přesné umístění.
 ### [Načíst výčet formátů v Java Slides](./load-format-enumeration-in-java-slides/)
 Naučte se, jak zkontrolovat formát prezentací PowerPoint v Javě pomocí Aspose.Slides. Postupujte podle našeho podrobného průvodce s příklady zdrojového kódu pro efektivní detekci formátu.
 ### [Otevřete heslem chráněnou prezentaci v Java Slides](./open-password-protected-presentation-in-java-slides/)

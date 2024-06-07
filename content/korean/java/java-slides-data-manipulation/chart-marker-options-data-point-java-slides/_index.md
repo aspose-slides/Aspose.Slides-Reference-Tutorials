@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // 다른 데이터 포인트에 대해서도 반복합니다.
 // ...
 
-//차트 시리즈 마커 크기 변경
+// 차트 시리즈 마커 크기 변경
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ Aspose.Slides for Java를 사용하면 데이터 포인트의 차트 마커를 �
 
 ### 이미지를 맞춤 마커로 사용할 수 있나요?
 
-예, 이미지를 데이터 포인트의 사용자 정의 마커로 사용할 수 있습니다. 채우기 유형을 다음으로 설정합니다.`FillType.Picture` 사용하고 싶은 이미지를 제공하세요.
+ 예, 이미지를 데이터 포인트의 사용자 정의 마커로 사용할 수 있습니다. 채우기 유형을 다음으로 설정합니다.`FillType.Picture`사용하고 싶은 이미지를 제공하세요.
 
 ### Aspose.Slides for Java는 동적 차트 생성에 적합합니까?
 

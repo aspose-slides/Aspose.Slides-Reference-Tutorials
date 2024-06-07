@@ -139,6 +139,6 @@ In deze uitgebreide zelfstudie hebt u geleerd hoe u Java-dia's kunt maken met st
 
  Om de kleuren van het diagram te wijzigen, kunt u de`IChartSeriesFormat` En`IShapeFillFormat` interfaces om vul- en lijneigenschappen in te stellen.
 
-### Kan ik labels aan de gegevenspunten toevoegen?
+### Kan ik labels aan de datapunten toevoegen?
 
  Ja, u kunt labels aan gegevenspunten toevoegen met behulp van de`IDataPoint.getLabel()` methode en pas deze indien nodig aan.

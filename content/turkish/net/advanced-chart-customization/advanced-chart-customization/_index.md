@@ -16,7 +16,7 @@ Aspose.Slides for .NET ile gelişmiş grafik özelleştirmesine dalmadan önce a
 
 1. Aspose.Slides for .NET Kütüphanesi: Aspose.Slides kütüphanesinin .NET projenizde kurulu ve düzgün şekilde yapılandırılmış olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-2. .NET Geliştirme Ortamı: Visual Studio veya seçtiğiniz başka bir IDE dahil olmak üzere bir .NET geliştirme ortamı kurmuş olmalısınız.
+2. .NET Geliştirme Ortamı: Visual Studio veya seçtiğiniz herhangi bir IDE dahil olmak üzere bir .NET geliştirme ortamı kurmuş olmalısınız.
 
 3. Temel C# Bilgisi: Aspose.Slides ile çalışmak üzere C# kodu yazacağımız için C# programlama diline aşina olmak faydalı olacaktır.
 

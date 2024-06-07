@@ -71,7 +71,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++)
 프레젠테이션을 저장하려면 다음 코드를 사용하십시오.
 
 ```java
-//프리젠테이션 파일을 디스크에 쓰기
+// 프리젠테이션 파일을 디스크에 쓰기
 presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -92,7 +92,7 @@ try
 	{
 		chart.getChartData().getSeries().get_Item(i).getAutomaticSeriesColor();
 	}
-	//프리젠테이션 파일을 디스크에 쓰기
+	// 프리젠테이션 파일을 디스크에 쓰기
 	presentation.save(dataDir + "AutoFillSeries_out.pptx", SaveFormat.Pptx);
 }
 finally

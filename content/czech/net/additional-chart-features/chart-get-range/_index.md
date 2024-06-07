@@ -92,4 +92,4 @@ Ano, v powerpointové prezentaci můžete pracovat se snímky, tvary, textem, ob
  Můžete požádat o dočasnou licenci z[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Jaké možnosti podpory jsou k dispozici pro uživatele Aspose.Slides pro .NET?
-Na jejich stránkách můžete získat podporu a pomoc od komunity Aspose[Fórum podpory](https://forum.aspose.com/).
+ Na jejich stránkách můžete získat podporu a pomoc od komunity Aspose[Fórum podpory](https://forum.aspose.com/).

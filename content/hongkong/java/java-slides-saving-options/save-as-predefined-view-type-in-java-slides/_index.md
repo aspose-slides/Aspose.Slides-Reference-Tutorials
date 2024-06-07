@@ -36,7 +36,7 @@ url: /zh-hant/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ```java
 //文檔目錄的路徑。
 String dataDir = "Your Document Directory";
-//開啟簡報文件
+//開啟演示文件
 Presentation presentation = new Presentation();
 ```
 
@@ -69,7 +69,7 @@ presentation.save(dataDir + "SetViewType_out.pptx", SaveFormat.Pptx);
 ```java
 //文檔目錄的路徑。
 String dataDir = "Your Document Directory";
-//開啟簡報文件
+//開啟演示文件
 Presentation presentation = new Presentation();
 try
 {

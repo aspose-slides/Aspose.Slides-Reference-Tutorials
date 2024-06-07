@@ -2,21 +2,21 @@
 title: Java スライドのドーナツ チャートの穴
 linktitle: Java スライドのドーナツ チャートの穴
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して、Java スライドでカスタムの穴サイズを持つドーナツ チャートを作成します。チャートをカスタマイズするためのソース コードを含むステップバイステップ ガイド。
+description: Aspose.Slides for Java を使用して、Java スライドでカスタムの穴のサイズを持つドーナツ グラフを作成します。グラフのカスタマイズに関するソース コード付きのステップ バイ ステップ ガイド。
 type: docs
 weight: 11
 url: /ja/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
 
-## Java スライドでの穴のあるドーナツ グラフの紹介
+## Java スライドの穴付きドーナツ チャートの紹介
 
-このチュートリアルでは、Aspose.Slides for Java を使用して穴のあるドーナツ グラフを作成する方法を説明します。このステップバイステップのガイドでは、ソース コードの例を使用してプロセスを説明します。
+このチュートリアルでは、Aspose.Slides for Java を使用して穴の開いたドーナツ グラフを作成する手順を説明します。このステップ バイ ステップ ガイドでは、ソース コードの例を使用してプロセスを順を追って説明します。
 
 ## 前提条件
 
-始める前に、Aspose.Slides for Java ライブラリがインストールされ、Java プロジェクトに設定されていることを確認してください。からダウンロードできます。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/).
+始める前に、JavaプロジェクトにAspose.Slides for Javaライブラリがインストールされ、設定されていることを確認してください。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/).
 
-## ステップ 1: 必要なライブラリをインポートする
+## ステップ1: 必要なライブラリをインポートする
 
 ```java
 import com.aspose.slides.ChartType;
@@ -25,24 +25,24 @@ import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 ```
 
-## ステップ 2: プレゼンテーションを初期化する
+## ステップ2: プレゼンテーションを初期化する
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
 
-// Presentationクラスのインスタンスを作成する
+//プレゼンテーションクラスのインスタンスを作成する
 Presentation presentation = new Presentation();
 ```
 
-## ステップ 3: ドーナツ チャートを作成する
+## ステップ3: ドーナツグラフを作成する
 
 ```java
 try {
-    //最初のスライドでドーナツ グラフを作成する
+    //最初のスライドにドーナツグラフを作成する
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
     
-    //ドーナツ チャートの穴のサイズを設定します (パーセント単位)。
+    //ドーナツグラフの穴のサイズを設定します（パーセンテージ）
     chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
     
     //プレゼンテーションをディスクに保存する
@@ -53,16 +53,16 @@ try {
 }
 ```
 
-## ステップ 4: コードを実行する
+## ステップ4: コードを実行する
 
-IDE またはテキスト エディタで Java コードを実行して、指定した穴サイズのドーナツ チャートを作成します。必ず交換してください`"Your Document Directory"`プレゼンテーションを保存する実際のパスに置き換えます。
+IDEまたはテキストエディタでJavaコードを実行して、穴のサイズが指定されたドーナツグラフを作成します。`"Your Document Directory"`プレゼンテーションを保存する実際のパスを入力します。
 
 ## Java スライドのドーナツ チャート ホールの完全なソース コード
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-// Presentationクラスのインスタンスを作成する
+//プレゼンテーションクラスのインスタンスを作成する
 Presentation presentation = new Presentation();
 try
 {
@@ -79,18 +79,18 @@ finally
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java を使用して穴のあるドーナツ グラフを作成する方法を学習しました。を調整することで穴のサイズをカスタマイズできます。`setDoughnutHoleSize`メソッドのパラメータ。
+このチュートリアルでは、Aspose.Slides for Javaを使用して穴のあるドーナツグラフを作成する方法を学びました。穴のサイズは、`setDoughnutHoleSize`メソッドパラメータ。
 
 ## よくある質問
 
-### チャートセグメントの色を変更するにはどうすればよいですか?
+### グラフのセグメントの色を変更するにはどうすればよいですか?
 
-グラフセグメントの色を変更するには、`setDataPointsInLegend`のメソッド`IChart`オブジェクトを選択し、各データ ポイントに必要な色を設定します。
+チャートセグメントの色を変更するには、`setDataPointsInLegend`方法`IChart`オブジェクトを作成し、各データ ポイントに希望の色を設定します。
 
 ### ドーナツ グラフのセグメントにラベルを追加できますか?
 
-はい、ドーナツ チャートのセグメントにラベルを追加するには、`setDataPointsLabelValue`のメソッド`IChart`物体。
+はい、ドーナツグラフのセグメントにラベルを追加することができます。`setDataPointsLabelValue`方法`IChart`物体。
 
-### グラフにタイトルを追加することはできますか?
+### チャートにタイトルを追加することは可能ですか?
 
-確かに！を使用してグラフにタイトルを追加できます。`setTitle`のメソッド`IChart`オブジェクトを作成し、必要なタイトル テキストを指定します。
+もちろんです！チャートにタイトルを追加するには、`setTitle`方法`IChart`オブジェクトを作成し、必要なタイトル テキストを指定します。

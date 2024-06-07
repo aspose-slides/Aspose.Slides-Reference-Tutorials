@@ -18,7 +18,7 @@ url: /th/net/presentation-conversion/convert-presentation-to-gif-animation/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นที่จำเป็น:
 
--  Aspose.Slides สำหรับไลบรารี .NET (คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/net/))
+-  Aspose.Slides สำหรับไลบรารี .NET (คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/net/-)
 - Visual Studio หรือ IDE ที่รองรับ
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
 
@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 ```
 
-ในส่วนนี้ เรากำหนดเส้นทางไฟล์สำหรับการนำเสนออินพุต (`dataDir`) และไฟล์ GIF เอาต์พุต (`outPath` ). จากนั้นเราก็สร้าง`Presentation` วัตถุที่แสดงถึงไฟล์การนำเสนอของเรา
+ในส่วนนี้ เรากำหนดเส้นทางไฟล์สำหรับการนำเสนออินพุต (`dataDir`) และไฟล์ GIF เอาต์พุต (`outPath` - จากนั้นเราก็สร้าง`Presentation` วัตถุที่แสดงถึงไฟล์การนำเสนอของเรา
 
 ### 4.2. บันทึกงานนำเสนอเป็น GIF
 

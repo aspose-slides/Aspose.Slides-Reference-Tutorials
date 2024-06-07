@@ -11,7 +11,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 역동적인 프레젠테이션 세계에서 Aspose.Slides for .NET은 슬라이드 생성 경험을 향상시키는 강력한 도구로 돋보입니다. 이 앱이 제공하는 주목할만한 기능 중 하나는 슬라이드 모음을 표시하는 시각적으로 매력적인 방법인 요약 확대/축소를 생성하는 기능입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에서 요약 확대/축소를 만드는 과정을 안내합니다.
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
--  .NET용 Aspose.Slides: .NET 환경에 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/slides/net/).
+- .NET용 Aspose.Slides: .NET 환경에 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/slides/net/).
 - 개발 환경: Visual Studio 또는 기타 선호하는 IDE를 포함하여 .NET 개발 환경을 설정합니다.
 - C#에 대한 기본 지식: 이 자습서에서는 사용자가 C# 프로그래밍에 대한 기본 지식을 가지고 있다고 가정합니다.
 ## 네임스페이스 가져오기
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## 2단계: 슬라이드 및 섹션 추가
- 이 단계에는 개별 슬라이드를 만들고 프레젠테이션 내의 섹션으로 구성하는 작업이 포함됩니다. 그만큼`AddEmptySlide` 메서드는 새 슬라이드를 추가하고`Sections.AddSection` 방법은 더 나은 구성을 위한 섹션을 설정합니다.
+ 이 단계에는 개별 슬라이드를 만들고 프레젠테이션 내의 섹션으로 구성하는 작업이 포함됩니다. 그만큼`AddEmptySlide`메서드는 새 슬라이드를 추가하고`Sections.AddSection` 방법은 더 나은 구성을 위한 섹션을 설정합니다.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // 슬라이드 스타일을 지정하는 코드는 여기에 있습니다.
@@ -78,4 +78,4 @@ Aspose.Slides는 최신 .NET 버전과의 호환성을 보장하기 위해 정�
 ### 프레젠테이션의 섹션 수에 제한이 있나요?
 최신 버전에서는 프레젠테이션에 추가할 수 있는 섹션 수에 대한 엄격한 제한이 없습니다.
 ### Aspose.Slides에 사용할 수 있는 평가판이 있습니까?
-예, Aspose.Slides를 다운로드하여 기능을 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/).
+ 예, Aspose.Slides를 다운로드하여 기능을 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/).

@@ -187,7 +187,7 @@ legend.setPosition(LegendPositionType.Right); //設定圖例位置
 legend.setOverlay(true); //在圖表上顯示圖例
 ```
 
-### 我可以更改標題字體和样式嗎？
+### 我可以更改標題字體和樣式嗎？
 
 是的，您可以變更標題字體和樣式。使用以下程式碼設定標題字體和樣式：
 

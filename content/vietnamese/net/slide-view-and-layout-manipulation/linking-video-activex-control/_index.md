@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Câu hỏi thường gặp:
 
 ### Làm cách nào tôi có thể chỉ định kích thước và vị trí của video được liên kết trên trang chiếu?
- Bạn có thể điều chỉnh kích thước và vị trí của khung điều khiển ActiveX bằng cách sử dụng các tham số của`AddOleObjectFrame` phương pháp. Bốn đối số bằng số lần lượt biểu thị tọa độ X và Y của góc trên bên trái cũng như chiều rộng và chiều cao của khung.
+Bạn có thể điều chỉnh kích thước và vị trí của khung điều khiển ActiveX bằng cách sử dụng các tham số của`AddOleObjectFrame` phương pháp. Bốn đối số bằng số lần lượt biểu thị tọa độ X và Y của góc trên bên trái cũng như chiều rộng và chiều cao của khung.
 
 ### Tôi có thể liên kết các video có định dạng khác nhau bằng cách sử dụng phương pháp này không?
 Có, bạn có thể liên kết các video có nhiều định dạng khác nhau miễn là có sẵn điều khiển ActiveX thích hợp cho định dạng đó. Ví dụ: điều khiển ShockwaveFlash ActiveX được sử dụng trong hướng dẫn này phù hợp với video Flash (SWF). Đối với các định dạng khác, bạn có thể cần sử dụng các ProgID khác nhau.

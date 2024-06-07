@@ -1,6 +1,6 @@
 ---
 title: การจัดการภาพ Java Slides โดยใช้ Aspose.Slides สำหรับ Java
-linktitle: การจัดการรูปภาพ Java Slides
+linktitle: การจัดการภาพ Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดการรูปภาพในสไลด์ Java โดยใช้ Aspose.Slides สำหรับบทช่วยสอน Java สำรวจคำแนะนำทีละขั้นตอนเพื่อการจัดการรูปภาพที่มีประสิทธิภาพ
 type: docs

@@ -10,7 +10,7 @@ url: /vi/net/printing-and-rendering-in-slides/presentation-render-options/
 Việc tạo các bài thuyết trình ấn tượng thường liên quan đến việc tinh chỉnh các tùy chọn hiển thị để đạt được tác động trực quan như mong muốn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới các tùy chọn kết xuất cho các slide thuyết trình bằng Aspose.Slides cho .NET. Hãy theo dõi để khám phá cách tối ưu hóa bản trình bày của bạn với các bước và ví dụ chi tiết.
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt tay vào cuộc phiêu lưu kết xuất này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Aspose.Slides for .NET: Tải xuống và cài đặt thư viện Aspose.Slides. Bạn có thể tìm thấy thư viện tại[liên kết này](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Tải xuống và cài đặt thư viện Aspose.Slides. Bạn có thể tìm thấy thư viện tại[liên kết này](https://releases.aspose.com/slides/net/).
 - Thư mục tài liệu: Thiết lập một thư mục cho tài liệu của bạn và ghi nhớ đường dẫn. Bạn sẽ cần nó cho các ví dụ về mã.
 ## Nhập không gian tên
 Trong ứng dụng .NET của bạn, hãy bắt đầu bằng cách nhập các vùng tên cần thiết để truy cập chức năng Aspose.Slides.
@@ -68,5 +68,5 @@ Tối ưu hóa các tùy chọn kết xuất trong Aspose.Slides cho .NET cung c
 Trả lời: Có, hãy khám phá tài liệu Aspose.Slides để biết danh sách đầy đủ các tùy chọn bố cục.
 ### Hỏi: Tôi có thể sử dụng phông chữ tùy chỉnh chưa được cài đặt trên hệ thống của mình không?
  A: Có, chỉ định đường dẫn tệp phông chữ bằng cách sử dụng`AddFonts` phương pháp trong`FontsLoader` lớp học.
-### Hỏi: Tôi có thể tìm kiếm sự trợ giúp hoặc kết nối với cộng đồng ở đâu?
- Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ và tham gia cộng đồng.
+### Hỏi: Tôi có thể tìm kiếm sự giúp đỡ hoặc kết nối với cộng đồng ở đâu?
+Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ và tham gia cộng đồng.

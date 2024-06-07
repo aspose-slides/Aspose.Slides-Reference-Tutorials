@@ -108,7 +108,7 @@ Door deze stappen te volgen, kunt u effectief werken met tijdelijke aanduidingen
 
 ## Conclusie
 
-Aspose.Slides voor .NET stelt ontwikkelaars in staat PowerPoint-presentaties gemakkelijk te manipuleren. In deze zelfstudie hebben we de basisbeginselen besproken om aan de slag te gaan, naamruimten te importeren en een praktisch voorbeeld gegeven van het werken met tijdelijke aanduidingen en effecten. Met deze kennis kunt u dynamische en interactieve presentaties maken in uw .NET-applicaties.
+Aspose.Slides voor .NET stelt ontwikkelaars in staat PowerPoint-presentaties gemakkelijk te manipuleren. In deze zelfstudie hebben we de basisbeginselen behandeld om aan de slag te gaan, naamruimten te importeren en een praktisch voorbeeld gegeven van het werken met tijdelijke aanduidingen en effecten. Met deze kennis kunt u dynamische en interactieve presentaties maken in uw .NET-applicaties.
 
 Nu is het tijd om in uw eigen projecten te duiken en de enorme mogelijkheden van Aspose.Slides voor .NET te verkennen. Of u nu zakelijke presentaties, educatief materiaal of interactieve rapporten maakt, deze bibliotheek heeft alles voor u.
 

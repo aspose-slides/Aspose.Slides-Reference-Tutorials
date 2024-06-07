@@ -16,7 +16,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet beállítani a Java-diák 
 
  Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár hozzáadva van a projekthez. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Inicializálja a prezentációt
+## 1. lépés: A prezentáció inicializálása
 
  Először is inicializálnia kell egy prezentációs objektumot egy meglévő PowerPoint-fájl betöltésével. Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
@@ -46,7 +46,7 @@ chart.getChartDataTable().getTextFormat().getPortionFormat().setFontHeight(20);
 - `setFontBold(NullableBool.True)`: Ez a sor félkövérre állítja a betűtípust.
 - `setFontHeight(20)`: Ez a sor 20 pontra állítja a betűmagasságot. Ezt az értéket szükség szerint módosíthatja.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
 Végül mentse a módosított prezentációt egy új fájlba. Megadhatja a kimeneti formátumot; ebben az esetben PPTX fájlként mentjük el.
 
@@ -79,7 +79,7 @@ Ebben az oktatóanyagban megtanulta, hogyan állíthat be betűtípus-tulajdons�
 
 ## GYIK
 
-### Hogyan változtathatom meg a betűtípus színét?
+### Hogyan változtathatom meg a betűszínt?
 
  A betűszín megváltoztatásához használja a`setFontColor` módszert, és adja meg a kívánt színt. Például:
 

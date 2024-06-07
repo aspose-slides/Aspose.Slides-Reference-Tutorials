@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Φροντίστε να αντικαταστήσετε`"Your Document Directory"`με την πραγματική διαδρομή προς τον κατάλογο του έργου σας όπου βρίσκεται το αρχείο SVG.
+ Φροντίστε να αντικαταστήσετε`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο του έργου σας όπου βρίσκεται το αρχείο SVG.
 
 ## Βήμα 2: Δημιουργήστε μια νέα παρουσίαση PowerPoint
 

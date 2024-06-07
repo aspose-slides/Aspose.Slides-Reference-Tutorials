@@ -39,7 +39,7 @@ using (Presentation p = new Presentation(FileName))
     if (layoutSlide == null)
     {
         //สถานการณ์เมื่องานนำเสนอไม่มีเค้าโครงบางประเภท
-        // ...
+        // -
 
         // เพิ่มสไลด์เปล่าพร้อมเพิ่มสไลด์เลย์เอาต์
         p.Slides.InsertEmptySlide(0, layoutSlide);
@@ -62,11 +62,11 @@ using (Presentation presentation = new Presentation(presentationName))
     ISlide slide = presentation.Slides[0];
     IShape shape = slide.Shapes[0];
 
-    // ...
+    // -
 
     IShape masterShape = layoutShape.GetBasePlaceholder();
 
-    // ...
+    // -
 }
 ```
 
@@ -80,7 +80,7 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 {
     IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
 
-    // ...
+    // -
 
     presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 }

@@ -24,7 +24,7 @@ Onze tutorials zijn ontworpen om u gemakkelijk door het conversieproces te leide
 
 ### Sluit u aan bij de Aspose.Slides-community
 
-Wanneer u aan uw reis van conversie van Java-diapresentaties begint, moet u er rekening mee houden dat u niet de enige bent. De Aspose.Slides-community is er om u te ondersteunen. Als u onderweg problemen tegenkomt of vragen heeft, zijn onze forums een waardevolle hulpbron om hulp te zoeken.
+Terwijl u aan uw reis van conversie van Java-diapresentaties begint, moet u er rekening mee houden dat u niet de enige bent. De Aspose.Slides-community is er om u te ondersteunen. Als u onderweg problemen tegenkomt of vragen heeft, zijn onze forums een waardevolle hulpbron om hulp te zoeken.
 
 ## Begin met vertrouwen met converteren
 

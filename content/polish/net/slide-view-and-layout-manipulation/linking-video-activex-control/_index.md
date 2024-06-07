@@ -68,7 +68,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 ## Często zadawane pytania:
 
 ### Jak określić rozmiar i położenie połączonego wideo na slajdzie?
- Możesz dostosować wymiary i położenie ramki kontrolnej ActiveX za pomocą parametrów pliku`AddOleObjectFrame` metoda. Cztery argumenty liczbowe reprezentują odpowiednio współrzędne X i Y lewego górnego rogu oraz szerokość i wysokość ramki.
+Możesz dostosować wymiary i położenie ramki kontrolnej ActiveX za pomocą parametrów pliku`AddOleObjectFrame` metoda. Cztery argumenty liczbowe reprezentują odpowiednio współrzędne X i Y lewego górnego rogu oraz szerokość i wysokość ramki.
 
 ### Czy przy użyciu tej metody mogę łączyć filmy w różnych formatach?
 Tak, możesz łączyć filmy w różnych formatach, jeśli dla tego formatu dostępna jest odpowiednia kontrolka ActiveX. Na przykład formant ActiveX ShockwaveFlash użyty w tym przewodniku jest odpowiedni dla filmów Flash (SWF). W przypadku innych formatów może być konieczne użycie różnych identyfikatorów ProgID.

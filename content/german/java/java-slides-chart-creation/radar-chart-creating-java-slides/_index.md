@@ -2,32 +2,32 @@
 title: Erstellen von Radardiagrammen in Java-Folien
 linktitle: Erstellen von Radardiagrammen in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API Radardiagramme in Java-PowerPoint-Präsentationen erstellen.
+description: Erfahren Sie, wie Sie mit Aspose.Slides für die Java-API Radardiagramme in Java-PowerPoint-Präsentationen erstellen.
 type: docs
 weight: 10
 url: /de/java/chart-creation/radar-chart-creating-java-slides/
 ---
 
-## Einführung in die Erstellung eines Radardiagramms in Java-Folien
+## Einführung in das Erstellen eines Radardiagramms in Java-Folien
 
-In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Radardiagramms mithilfe der Aspose.Slides für Java-API. Netzdiagramme eignen sich zur Visualisierung von Daten in einem kreisförmigen Muster und erleichtern so den Vergleich mehrerer Datenreihen. Wir stellen Schritt-für-Schritt-Anleitungen zusammen mit dem Java-Quellcode zur Verfügung.
+In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Radardiagramms mithilfe der Aspose.Slides für Java-API. Radardiagramme sind nützlich, um Daten in einem kreisförmigen Muster zu visualisieren, wodurch mehrere Datenreihen leichter verglichen werden können. Wir stellen Ihnen Schritt-für-Schritt-Anleitungen sowie Java-Quellcode zur Verfügung.
 
 ## Voraussetzungen
 
- Bevor wir beginnen, stellen Sie sicher, dass die Aspose.Slides for Java-Bibliothek in Ihr Projekt integriert ist. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/slides/java/).
+ Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek in Ihr Projekt integriert haben. Sie können die Bibliothek hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
 
 ## Schritt 1: Einrichten der Präsentation
 
-Beginnen wir damit, eine neue PowerPoint-Präsentation einzurichten und ihr eine Folie hinzuzufügen.
+Beginnen wir mit dem Einrichten einer neuen PowerPoint-Präsentation und dem Hinzufügen einer Folie.
 
 ```java
 String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
-## Schritt 2: Hinzufügen einer Radarkarte
+## Schritt 2: Hinzufügen eines Radardiagramms
 
-Als Nächstes fügen wir der Folie ein Radardiagramm hinzu. Wir legen die Position und Abmessungen des Diagramms fest.
+Als Nächstes fügen wir der Folie ein Radardiagramm hinzu. Wir geben die Position und Abmessungen des Diagramms an.
 
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
@@ -36,7 +36,7 @@ IChart ichart = sld.getShapes().addChart(ChartType.Radar, 0, 0, 400, 400);
 
 ## Schritt 3: Diagrammdaten festlegen
 
-Wir werden nun die Diagrammdaten festlegen. Dazu gehört das Erstellen einer Datenarbeitsmappe, das Hinzufügen von Kategorien und das Hinzufügen von Serien.
+Wir legen nun die Diagrammdaten fest. Dazu müssen wir eine Datenarbeitsmappe erstellen, Kategorien hinzufügen und Reihen hinzufügen.
 
 ```java
 int defaultWorksheetIndex = 0;
@@ -57,17 +57,17 @@ ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 4,
 ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 5, 0, "Category 9"));
 ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 6, 0, "Category 11"));
 
-// Neue Serie hinzufügen
+// Neue Serien hinzufügen
 ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
 ```
 
 ## Schritt 4: Auffüllen der Seriendaten
 
-Jetzt füllen wir die Reihendaten für unser Radardiagramm aus.
+Jetzt füllen wir die Seriendaten für unser Radardiagramm aus.
 
 ```java
-// Füllen Sie Seriendaten für Serie 1 aus
+// Seriendaten für Serie 1 auffüllen
 IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -80,7 +80,7 @@ series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetI
 series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 
-// Füllen Sie Seriendaten für Serie 2 aus
+// Seriendaten für Serie 2 auffüllen
 series = ichart.getChartData().getSeries().get_Item(1);
 series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -94,7 +94,7 @@ series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.ORANGE);
 ```
 
-## Schritt 5: Anpassen von Achsen und Legenden
+## Schritt 5: Achsen und Legenden anpassen
 
 Passen wir die Achsen und Legenden für unser Radardiagramm an.
 
@@ -118,7 +118,7 @@ txtleg.getFillFormat().setFillType(FillType.Solid);
 txtleg.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtleg.setLatinFont(new FontData("Calibri"));
 
-// Festlegen der Texteigenschaften der Wertachse
+// Festlegen der Texteigenschaften der Werteachse
 IChartPortionFormat txtVal = ichart.getAxes().getVerticalAxis().getTextFormat().getPortionFormat();
 txtVal.setFontBold(NullableBool.True);
 txtVal.setFontHeight(10);
@@ -126,18 +126,18 @@ txtVal.getFillFormat().setFillType(FillType.Solid);
 txtVal.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtVal.setLatinFont(new FontData("Calibri"));
 
-// Einstellen des Zahlenformats der Wertachse
+// Zahlenformat der Werteachse festlegen
 ichart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 ichart.getAxes().getVerticalAxis().setNumberFormat("\"$\"#,##0.00");
 
-// Festlegen des Haupteinheitenwerts des Diagramms
+// Einstellen des Haupteinheitswerts im Diagramm
 ichart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 ichart.getAxes().getVerticalAxis().setMajorUnit(1.25f);
 ```
 
 ## Schritt 6: Speichern der Präsentation
 
-Abschließend speichern Sie die generierte Präsentation mit dem Radardiagramm
+Speichern Sie abschließend die erstellte Präsentation mit dem Radardiagramm
 
 .
 
@@ -145,22 +145,22 @@ Abschließend speichern Sie die generierte Präsentation mit dem Radardiagramm
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
-Das ist es! Sie haben mit Aspose.Slides für Java erfolgreich ein Radardiagramm in einer PowerPoint-Präsentation erstellt. Sie können dieses Beispiel nun weiter an Ihre spezifischen Bedürfnisse anpassen.
+Das ist es! Sie haben erfolgreich ein Radardiagramm in einer PowerPoint-Präsentation mit Aspose.Slides für Java erstellt. Sie können dieses Beispiel jetzt weiter an Ihre spezifischen Anforderungen anpassen.
 
-## Vollständiger Quellcode für die Erstellung von Radardiagrammen in Java-Folien
+## Vollständiger Quellcode zum Erstellen von Radardiagrammen in Java-Folien
 
 ```java
 String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
-	// Greifen Sie auf die erste Folie zu
+	// Zur ersten Folie
 	ISlide sld = pres.getSlides().get_Item(0);
-	// Radarkarte hinzufügen
+	// Radardiagramm hinzufügen
 	IChart ichart = sld.getShapes().addChart(ChartType.Radar, 0, 0, 400, 400);
-	// Festlegen des Index des Diagrammdatenblatts
+	// Festlegen des Indexes des Diagrammdatenblattes
 	int defaultWorksheetIndex = 0;
-	// Abrufen des Diagrammdaten-Arbeitsblatts
+	// Abrufen der Diagrammdaten Arbeitsblatt
 	IChartDataWorkbook fact = ichart.getChartData().getChartDataWorkbook();
 	// Diagrammtitel festlegen
 	ichart.getChartTitle().addTextFrameForOverriding("Radar Chart");
@@ -174,10 +174,10 @@ try
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 4, 0, "Caetegoty 7"));
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 5, 0, "Caetegoty 9"));
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 6, 0, "Caetegoty 11"));
-	// Neue Serie hinzufügen
+	// Neue Serien hinzufügen
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	// Jetzt werden Seriendaten ausgefüllt
+	//Jetzt werden Seriendaten gefüllt
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Serienfarbe festlegen
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Füllen Sie nun eine weitere Datenreihe aus
+	// Jetzt wird eine weitere Datenreihe gefüllt
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -215,17 +215,17 @@ try
 	txtleg.getFillFormat().setFillType(FillType.Solid);
 	txtleg.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtCat.setLatinFont(new FontData("Calibri"));
-	// Festlegen der Texteigenschaften der Wertachse
+	// Festlegen der Texteigenschaften der Werteachse
 	IChartPortionFormat txtVal = ichart.getAxes().getVerticalAxis().getTextFormat().getPortionFormat();
 	txtVal.setFontBold(NullableBool.True);
 	txtVal.setFontHeight(10);
 	txtVal.getFillFormat().setFillType(FillType.Solid);
 	txtVal.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtVal.setLatinFont(new FontData("Calibri"));
-	// Einstellen des Zahlenformats der Wertachse
+	// Zahlenformat der Werteachse festlegen
 	ichart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 	ichart.getAxes().getVerticalAxis().setNumberFormat("\"$\"#,##0.00");
-	// Festlegen des Haupteinheitenwerts des Diagramms
+	// Einstellen des Haupteinheitswerts im Diagramm
 	ichart.getAxes().getVerticalAxis().setAutomaticMajorUnit(false);
 	ichart.getAxes().getVerticalAxis().setMajorUnit(1.25f);
 	// Generierte Präsentation speichern
@@ -239,9 +239,9 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für Java ein Radardiagramm in einer PowerPoint-Präsentation erstellen. Sie können diese Konzepte anwenden, um Ihre Daten effektiv in Ihren Java-Anwendungen zu visualisieren und darzustellen.
+In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für Java ein Radardiagramm in einer PowerPoint-Präsentation erstellen. Sie können diese Konzepte anwenden, um Ihre Daten in Ihren Java-Anwendungen effektiv zu visualisieren und zu präsentieren.
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Wie kann ich den Diagrammtitel ändern?
 
@@ -252,19 +252,19 @@ ichart.getChartTitle().addTextFrameForOverriding("Radar Chart");
 
 ### Kann ich dem Radardiagramm weitere Datenreihen hinzufügen?
 
-Ja, Sie können weitere Datenreihen hinzufügen, indem Sie die Schritte in „Schritt 3“ und „Schritt 4“ für jede zusätzliche Datenreihe ausführen, die Sie einschließen möchten.
+Ja, Sie können weitere Datenreihen hinzufügen, indem Sie die Schritte in „Schritt 3“ und „Schritt 4“ für jede zusätzliche Reihe befolgen, die Sie einschließen möchten.
 
-### Wie kann ich die Diagrammfarben anpassen?
+### Wie passe ich die Diagrammfarben an?
 
- Sie können die Serienfarben anpassen, indem Sie die Linien ändern, die die festlegen`SolidFillColor` Eigenschaft für jede Serie. Zum Beispiel:
+ Sie können die Serienfarben anpassen, indem Sie die Linien ändern, die die`SolidFillColor` Eigenschaft für jede Serie. Beispiel:
 ```java
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-### Wie kann ich die Achsenbeschriftungen und Formatierung ändern?
+### Wie kann ich die Achsenbeschriftungen und die Formatierung ändern?
 
-Beziehen Sie sich auf „Schritt 5“, um die Achsenbeschriftungen und Formatierung, einschließlich Schriftgröße und -farbe, anzupassen.
+Informationen zum Anpassen der Achsenbeschriftungen und -formatierung, einschließlich Schriftgröße und -farbe, finden Sie unter „Schritt 5“.
 
 ### Wie speichere ich das Diagramm in einem anderen Dateiformat?
 
- Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung in ändern`outPath` Variable und die entsprechende Verwendung`SaveFormat` . Um beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.
+ Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung im`outPath` Variable und unter Verwendung der entsprechenden`SaveFormat` . Um beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.

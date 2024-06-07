@@ -11,7 +11,7 @@ url: /sv/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 den dynamiska presentationsvärlden kan det förbättra ditt budskaps genomslag avsevärt genom att lägga till visuella tilltal till dina bilder. Aspose.Slides för .NET tillhandahåller en kraftfull verktygslåda för att manipulera och försköna dina presentationsbilder programmatiskt. En sådan spännande funktion är möjligheten att applicera avfasningseffekter på former, vilket ger djup och dimension till dina bilder.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
-- Aspose.Slides för .NET: Se till att du har Aspose.Slides-biblioteket installerat. Du kan ladda ner den från[hemsida](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides för .NET: Se till att du har Aspose.Slides-biblioteket installerat. Du kan ladda ner den från[hemsida](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Ställ in din .NET-utvecklingsmiljö och ha en grundläggande förståelse för C#.
 - Dokumentkatalog: Skapa en katalog för dina dokument där de genererade presentationsfilerna kommer att sparas.
 ## Importera namnområden

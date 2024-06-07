@@ -72,7 +72,7 @@ Bu adımları izleyerek PowerPoint sunumlarınızı Aspose.Slides for .NET küt�
 
 ### HTML5 çıktısının görünümünü nasıl özelleştirebilirim?
 
-HTML5 çıktısının görünümünü, çeşitli seçenekleri ayarlayarak özelleştirebilirsiniz.`Html5Options` sınıf. Bakın[dokümantasyon](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) Mevcut özelleştirme seçenekleri için.
+ HTML5 çıktısının görünümünü, çeşitli seçenekleri ayarlayarak özelleştirebilirsiniz.`Html5Options`sınıf. Bakın[dokümantasyon](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) Mevcut özelleştirme seçenekleri için.
 
 ### Animasyonlar ve geçişler içeren sunumları dönüştürebilir miyim?
 

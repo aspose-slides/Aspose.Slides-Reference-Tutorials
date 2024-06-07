@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 
 ## Bevezetés a PowerPoint PDF formátumba konvertálásához Java folyamatfrissítésekkel az Aspose.Slides for Java használatával
 
-Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan konvertálhat PowerPoint prezentációt (PPTX) PDF-fájllá Java nyelven az Aspose.Slides for Java segítségével. Ezenkívül az átalakítási folyamat során az előrehaladásról szóló frissítéseket is tartalmazni fogjuk.
+Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan konvertálhat PowerPoint-prezentációt (PPTX) PDF-fájllá Java nyelven az Aspose.Slides for Java segítségével. Ezenkívül az átalakítási folyamat során az előrehaladásról szóló frissítéseket is tartalmazni fogjuk.
 
 ## Előfeltételek
 
@@ -109,7 +109,7 @@ Ebben a lépésenkénti útmutatóban megvizsgáltuk, hogyan lehet a PowerPoint 
 
 ###  Mi a célja`IProgressCallback`?
 
-`IProgressCallback` az Aspose.Slides for Java által biztosított interfész, amellyel az exportálási műveletek során az előrehaladás jelentését megvalósíthatja. Lehetővé teszi az olyan feladatok előrehaladásának nyomon követését, mint a prezentációk PDF-be konvertálása.
+`IProgressCallback` az Aspose.Slides for Java által biztosított interfész, amely az exportálási műveletek során az előrehaladás jelentését valósítja meg. Lehetővé teszi az olyan feladatok előrehaladásának nyomon követését, mint a prezentációk PDF-be konvertálása.
 
 ### Használhatom az Aspose.Slides for Java programot más PowerPoint-műveletekhez?
 

@@ -63,3 +63,20 @@ is_root: true
 了解如何使用 Aspose.Slides 增強 Java Slides 文件的安全性。探索文件保護的逐步教學。
 ### [Java 投影片儲存選項](./saving-options/)
 了解有關 Aspose.Slides for Java 的 Java 投影片儲存選項。探索全面的教程和指南，以實現高效的幻燈片管理和自訂。
+
+### [Java PowerPoint 儲存操作](./java-powerpoint-save-operations/)
+了解如何使用 Aspose.Slides for Java 儲存 PowerPoint 簡報。有關保存到文件、流和添加密碼保護的教程。
+### [Java PowerPoint 屬性管理](./java-powerpoint-properties-management/)
+了解如何使用 Aspose.Slides for Java 管理 PowerPoint 屬性。透過我們全面的教程輕鬆存取、修改和更新屬性。
+### [Java PowerPoint 渲染技術](./java-powerpoint-rendering-techniques/)
+了解如何使用 Aspose.Slides for Java 在 PowerPoint 中渲染註解、3D 圖形、表情符號等。用於增強演示的綜合教程。
+### [Java PowerPoint 形狀與媒體插入](./java-powerpoint-shape-media-insertion/)
+了解如何使用 Aspose.Slides for Java 將形狀和媒體插入 PowerPoint 簡報中。教程包括添加線條、音訊、OLE 物件和視訊。
+### [Java PowerPoint 形狀與縮圖創建](./java-powerpoint-shape-thumbnail-creation/)
+學習使用 Aspose.Slides Java 在 PowerPoint 中建立形狀和縮圖。有關建立群組形狀、比例因子縮圖和縮放效果的詳細教學。
+### [Java PowerPoint 動畫與形狀操作](./java-powerpoint-animation-shape-manipulation/)
+了解如何使用 Aspose.Slides for Java 在 PowerPoint 中製作動畫和操作形狀。動態演示的綜合教學。
+### [Java PowerPoint 形狀格式與幾何](./java-powerpoint-shape-formatting-geometry/)
+探索 Java PowerPoint 形狀格式化和幾何教學。學習使用 Aspose.Slides for Java 填滿形狀、尋找形狀以及建立自訂幾何圖形。
+### [Java PowerPoint 投影片複製技術](./java-powerpoint-slide-cloning-techniques/)
+使用 Aspose.Slides for Java 在 PowerPoint 中掌握投影片複製。了解在同一簡報中或跨簡報無縫複製投影片。

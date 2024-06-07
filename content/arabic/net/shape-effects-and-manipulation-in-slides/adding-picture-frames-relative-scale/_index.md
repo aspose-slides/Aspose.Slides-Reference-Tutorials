@@ -28,7 +28,7 @@ using Aspose.Slides;
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation())
 {
-    // قم بتحميل الصورة المراد إضافتها إلى مجموعة صور العرض التقديمي
+    //قم بتحميل الصورة المراد إضافتها إلى مجموعة صور العرض التقديمي
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
     // ...

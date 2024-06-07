@@ -2,50 +2,50 @@
 title: Java スライドのデータ ポイントのチャート マーカー オプション
 linktitle: Java スライドのデータ ポイントのチャート マーカー オプション
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: カスタム チャート マーカー オプションを使用して Java スライドを最適化します。 Aspose.Slides for Java を使用してデータ ポイントを視覚的に強化する方法を学びます。ステップバイステップのガイダンスとよくある質問をご覧ください。
+description: カスタム チャート マーカー オプションを使用して Java スライドを最適化します。Aspose.Slides for Java を使用してデータ ポイントを視覚的に強化する方法を学びます。ステップ バイ ステップのガイダンスと FAQ を参照してください。
 type: docs
 weight: 14
 url: /ja/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
 
-## Java スライドのデータ ポイントのチャート マーカー オプションの概要
+## Java スライドのデータ ポイントのチャート マーカー オプションの紹介
 
-インパクトのあるプレゼンテーションを作成する場合、データ ポイント上のチャート マーカーをカスタマイズおよび操作できる機能が大きな違いを生みます。 Aspose.Slides for Java を使用すると、グラフを動的で視覚的に魅力的な要素に変換できます。
+インパクトのあるプレゼンテーションを作成する場合、データ ポイント上のグラフ マーカーをカスタマイズおよび操作する機能が大きな違いを生みます。Aspose.Slides for Java を使用すると、グラフを動的で視覚的に魅力的な要素に変換できます。
 
 ## 前提条件
 
-コーディング部分に入る前に、次の前提条件が満たされていることを確認してください。
+コーディング部分に進む前に、次の前提条件が満たされていることを確認してください。
 
 - Java開発環境
-- Java ライブラリの Aspose.Slides
+- Aspose.Slides for Java ライブラリ
 - Java 統合開発環境 (IDE)
-- サンプル プレゼンテーション ドキュメント (例: "Test.pptx")
+- サンプルプレゼンテーションドキュメント（例： "Test.pptx"）
 
-## ステップ 1: 環境のセットアップ
+## ステップ1: 環境の設定
 
-まず、必要なツールがインストールされ、準備ができていることを確認します。 IDE で Java プロジェクトを作成し、Aspose.Slides for Java ライブラリをインポートします。
+まず、必要なツールがインストールされ、準備ができていることを確認します。IDE で Java プロジェクトを作成し、Aspose.Slides for Java ライブラリをインポートします。
 
-## ステップ 2: プレゼンテーションをロードする
+## ステップ2: プレゼンテーションの読み込み
 
-まず、サンプル プレゼンテーション ドキュメントをロードします。提供されたコードでは、ドキュメントの名前が「Test.pptx」であると仮定します。
+まず、サンプルのプレゼンテーション ドキュメントを読み込みます。提供されているコードでは、ドキュメントの名前が「Test.pptx」であると想定しています。
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Test.pptx");
 ```
 
-## ステップ 3: グラフの作成
+## ステップ3: チャートを作成する
 
-次に、プレゼンテーションでグラフを作成しましょう。この例では、マーカー付きの折れ線グラフを使用します。
+それでは、プレゼンテーションにグラフを作成しましょう。この例では、マーカー付き折れ線グラフを使用します。
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
-## ステップ 4: グラフ データの操作
+## ステップ4: チャートデータの操作
 
-チャート データを操作するには、チャート データ ワークブックにアクセスし、データ シリーズを準備する必要があります。デフォルトのシリーズをクリアし、カスタム データを追加します。
+グラフ データを操作するには、グラフ データ ワークブックにアクセスしてデータ シリーズを準備する必要があります。既定のシリーズをクリアし、カスタム データを追加します。
 
 ```java
 int defaultWorksheetIndex = 0;
@@ -54,9 +54,9 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 ```
 
-## ステップ 5: カスタム マーカーの追加
+## ステップ5: カスタムマーカーの追加
 
-ここからがエキサイティングな部分、つまりデータ ポイント上のマーカーのカスタマイズです。この例では、マーカーとして画像を使用します。
+ここからが面白い部分です。データ ポイント上のマーカーをカスタマイズします。この例では、画像をマーカーとして使用します。
 
 ```java
 BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
@@ -67,7 +67,7 @@ IPPImage imgx2 = pres.getImages().addImage(img2);
 
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
-//データポイントへのカスタムマーカーの追加
+//データポイントにカスタムマーカーを追加する
 IChartDataPoint point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5));
 point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
@@ -75,13 +75,13 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 //他のデータポイントについても繰り返します
 //...
 
-//チャートシリーズのマーカーサイズの変更
+//チャートシリーズマーカーのサイズを変更する
 series.getMarker().setSize(15);
 ```
 
-## ステップ 6: プレゼンテーションを保存する
+## ステップ6: プレゼンテーションを保存する
 
-グラフ マーカーをカスタマイズしたら、プレゼンテーションを保存して、実際の変更を確認します。
+グラフマーカーをカスタマイズしたら、プレゼンテーションを保存して変更が実際に反映されているかどうかを確認します。
 
 ```java
 pres.save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
@@ -93,13 +93,13 @@ pres.save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Test.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
-//デフォルトのグラフの作成
+//デフォルトのチャートを作成する
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
-//デフォルトのチャート データ ワークシート インデックスの取得
+//デフォルトのグラフデータワークシートインデックスを取得する
 int defaultWorksheetIndex = 0;
 //チャートデータワークシートの取得
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-//デモシリーズを削除する
+//デモシリーズを削除
 chart.getChartData().getSeries().clear();
 //新しいシリーズを追加
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
@@ -109,9 +109,9 @@ IPPImage imgx1 = pres.getImages().addImage(img);
 //画像を設定する
 BufferedImage img2 = ImageIO.read(new File(dataDir + "Tulips.jpg"));
 IPPImage imgx2 = pres.getImages().addImage(img2);
-//最初のチャート シリーズを取得する
+//最初のチャートシリーズ
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//そこに新しい点(1:3)を追加します。
+//そこに新しいポイント（1:3）を追加します。
 IChartDataPoint point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5));
 point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
@@ -131,21 +131,21 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 ## 結論
 
-Aspose.Slides for Java を使用すると、データ ポイント上のグラフ マーカーをカスタマイズしてプレゼンテーションを向上させることができます。これにより、聴衆を魅了する、視覚的に魅力的で有益なスライドを作成できます。
+Aspose.Slides for Java を使用すると、データ ポイント上のグラフ マーカーをカスタマイズしてプレゼンテーションの質を高めることができます。これにより、視聴者を魅了する視覚的に魅力的で情報豊富なスライドを作成できます。
 
 ## よくある質問
 
 ### データ ポイントのマーカー サイズを変更するにはどうすればよいですか?
 
-データ ポイントのマーカー サイズを変更するには、`series.getMarker().setSize()`メソッドを使用し、必要なサイズを引数として指定します。
+データポイントのマーカーサイズを変更するには、`series.getMarker().setSize()`メソッドを呼び出して、希望のサイズを引数として指定します。
 
-### 画像をカスタム マーカーとして使用できますか?
+### 画像をカスタムマーカーとして使用できますか?
 
-はい、画像をデータ ポイントのカスタム マーカーとして使用できます。塗りつぶしタイプを次のように設定します。`FillType.Picture`使用したい画像を指定します。
+はい、データをカスタムマーカーとして使用できます。塗りつぶしの種類を`FillType.Picture`使用したい画像を指定します。
 
 ### Aspose.Slides for Java は動的なグラフの作成に適していますか?
 
-絶対に！ Aspose.Slides for Java は、プレゼンテーションで動的でインタラクティブなグラフを作成するための広範な機能を提供します。
+もちろんです! Aspose.Slides for Java は、プレゼンテーションで動的かつインタラクティブなグラフを作成するための幅広い機能を提供します。
 
 ### Aspose.Slides を使用してグラフの他の側面をカスタマイズできますか?
 
@@ -153,4 +153,4 @@ Aspose.Slides for Java を使用すると、データ ポイント上のグラ�
 
 ### Aspose.Slides for Java のドキュメントとダウンロードにはどこでアクセスできますか?
 
-ドキュメントは次の場所にあります。[ここ](https://reference.aspose.com/slides/java/)そしてライブラリをダウンロードします[ここ](https://releases.aspose.com/slides/java/).
+ドキュメントは次の場所にあります。[ここ](https://reference.aspose.com/slides/java/)ライブラリをダウンロードするには[ここ](https://releases.aspose.com/slides/java/).

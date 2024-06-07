@@ -11,7 +11,7 @@ url: /ko/net/printing-and-rendering-in-slides/rendering-emoji-special-characters
 역동적인 프레젠테이션 세계에서 감정과 특수 문자를 전달하면 창의성과 독창성을 더할 수 있습니다. .NET용 Aspose.Slides는 개발자가 프레젠테이션에서 이모티콘과 특수 문자를 원활하게 렌더링하여 새로운 차원의 표현을 가능하게 해줍니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 단계별 지침을 통해 이를 달성하는 방법을 살펴보겠습니다.
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
--  .NET용 Aspose.Slides: 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).
+- .NET용 Aspose.Slides: 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).
 - 개발 환경: 컴퓨터에 작동하는 .NET 개발 환경을 설정하십시오.
 - 입력 프리젠테이션: PowerPoint 파일 준비(`input.pptx`) 이모티콘으로 풍성하게 만들고 싶은 콘텐츠가 포함되어 있습니다.
 - 문서 디렉터리: 문서 디렉터리를 설정하고 코드의 "문서 디렉터리"를 실제 경로로 바꿉니다.

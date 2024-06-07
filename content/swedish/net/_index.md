@@ -51,9 +51,9 @@ Förbättra dina presentationer med avancerad diagramanpassning med Aspose.Slide
 ### [Ytterligare diagramfunktioner](./additional-chart-features/)
 Utforska avancerade diagramfunktioner i Aspose.Slides för .NET! Lär dig att skapa dynamiska, interaktiva diagram med anpassade stilar, trendlinjer och mer. Lyft dina presentationer med kraftfull datavisualisering.
 ### [Utskrift och rendering i diabilder](./printing-and-rendering-in-slides/)
-Förbättra dina färdigheter i att skriva ut och rendera bilder med Aspose.Slides-tutorials för .NET. Lär dig steg för steg-tekniker för högkvalitativ utskrift. Dyk in i rutschkansmanipulation nu!
+Förbättra dina färdigheter i att skriva ut och rendera bilder med Aspose.Slides-tutorials för .NET. Lär dig steg för steg-tekniker för högkvalitativ utskrift. Dyk in i rutschbanan nu!
 ### [Formeffekter och manipulation i diabilder](./shape-effects-and-manipulation-in-slides/)
-Förbättra din presentations visuella tilltalande med Aspose.Slides-handledningar om formeffekter och manipulation. Lär dig hur du skapar fantastiska bilder med hjälp av formeffekter, animationer och mer.
+Förbättra din presentations visuella tilltalande med Aspose.Slides-handledningar om formeffekter och manipulation. Lär dig hur du skapar fantastiska bilder med formeffekter, animationer och mer.
 ### [Bild- och videomanipulation i Slides](./image-and-video-manipulation-in-slides/)
 Förbättra dina bildpresentationer med fängslande bilder och videor med Aspose.Slides för .NET. Lär dig steg för steg hur du manipulerar bilder och videor i bilder för visuellt engagerande innehåll.
 ### [Formgeometri och positionering i diabilder](./shape-geometry-and-positioning-in-slides/)

@@ -96,7 +96,7 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu cách lấy thông tin đ�
 
 ### Làm cách nào để có được thư viện Aspose.Slides cho Java?
 
- Bạn có thể tải xuống thư viện Aspose.Slides cho Java từ trang web Aspose tại[liên kết này](https://releases.aspose.com/slides/java/). Chọn phiên bản phù hợp cho dự án của bạn.
+ Bạn có thể tải xuống thư viện Aspose.Slides cho Java từ trang web Aspose tại[liên kết này](https://releases.aspose.com/slides/java/)Chọn phiên bản phù hợp cho dự án của bạn.
 
 ### Tôi có thể sử dụng mã này với các thư viện trình bày Java khác không?
 

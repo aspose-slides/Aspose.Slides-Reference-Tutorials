@@ -60,13 +60,13 @@ Ini melengkapi panduan langkah demi langkah untuk mengubah urutan bentuk di slid
 ## Kesimpulan
 Aspose.Slides untuk .NET menyederhanakan tugas memanipulasi slide presentasi secara terprogram. Dengan mengikuti tutorial ini, Anda telah mempelajari cara menyusun ulang bentuk, memungkinkan Anda meningkatkan daya tarik visual presentasi Anda.
 ## FAQ
-### T: Bisakah saya menggunakan Aspose.Slides untuk .NET di lingkungan Windows dan Linux?
+### T: Dapatkah saya menggunakan Aspose.Slides untuk .NET di lingkungan Windows dan Linux?
 J: Ya, Aspose.Slides untuk .NET kompatibel dengan lingkungan Windows dan Linux.
 ### T: Apakah ada pertimbangan lisensi untuk menggunakan Aspose.Slides dalam proyek komersial?
  J: Ya, Anda dapat menemukan detail lisensi dan opsi pembelian di[Halaman pembelian Aspose.Slide](https://purchase.aspose.com/buy).
 ### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Slides untuk .NET?
  A: Ya, Anda dapat menjelajahi fitur-fiturnya dengan[uji coba gratis](https://releases.aspose.com/) tersedia di situs web Aspose.Slides.
 ### T: Di mana saya dapat menemukan dukungan atau mengajukan pertanyaan terkait Aspose.Slides untuk .NET?
- J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk mendapatkan dukungan dan terlibat dengan masyarakat.
+J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk mendapatkan dukungan dan terlibat dengan masyarakat.
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Slides untuk .NET?
  A: Anda dapat memperoleh a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.

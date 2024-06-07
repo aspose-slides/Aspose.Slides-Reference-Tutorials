@@ -102,7 +102,7 @@ shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.YOUR_CO
 
  Du kan ändra linjetjockleken genom att ställa in`Width` egenskapen för linjeformatet. Till exempel:
 ```java
-shape.getLineFormat().setWidth(2); // Ställ in linjetjockleken på 2 punkter
+shape.getLineFormat().setWidth(2); // Ställ in linjetjockleken till 2 punkter
 ```
 
 ### Är det möjligt att lägga till flera rader till en bild?

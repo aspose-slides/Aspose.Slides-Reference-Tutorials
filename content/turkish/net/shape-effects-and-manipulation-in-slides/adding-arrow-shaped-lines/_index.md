@@ -74,7 +74,7 @@ Evet, Aspose.Slides .NET Core'u destekleyerek platformlar arası uygulamalarda �
 ### Ok ucu stillerini daha da özelleştirebilir miyim?
 Kesinlikle! Aspose.Slides ok ucu uzunluklarını, stillerini ve daha fazlasını özelleştirmek için kapsamlı seçenekler sunar.
 ### Ek Aspose.Slides belgelerini nerede bulabilirim?
- Belgeleri keşfedin[Burada](https://reference.aspose.com/slides/net/) Ayrıntılı bilgi ve örnekler için.
+ Belgeleri keşfedin[Burada](https://reference.aspose.com/slides/net/)Ayrıntılı bilgi ve örnekler için.
 ### Ücretsiz deneme mevcut mu?
  Evet, Aspose.Slides'ı ücretsiz deneme sürümüyle deneyimleyebilirsiniz. İndir[Burada](https://releases.aspose.com/).
 ### Aspose.Slides için nasıl destek alabilirim?

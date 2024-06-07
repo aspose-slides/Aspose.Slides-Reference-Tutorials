@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation())
 ### Вопрос: Существует ли бесплатная пробная версия Aspose.Slides?
  О: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/).
 ### Вопрос: Где я могу найти поддержку Aspose.Slides?
- А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку сообщества и обсуждения.
+А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку сообщества и обсуждения.
 ### Вопрос: Как мне получить временную лицензию на Aspose.Slides?
  О: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу приобрести Aspose.Slides для .NET?

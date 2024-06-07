@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // 슬라이드 조작을 위한 코드가 여기에 표시됩니다.
+    //슬라이드 조작을 위한 코드가 여기에 표시됩니다.
 }
 ```
 
@@ -45,13 +45,13 @@ using (Presentation presentation = new Presentation(presentationPath))
 
 ```csharp
 // 순차 인덱스(0부터 시작)로 슬라이드에 액세스
-int slideIndex = 2; // 원하는 인덱스로 교체
+int slideIndex = 2; //원하는 인덱스로 교체
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## 소스코드 설명
 
-- 우리는`Slides` 의 컬렉션`Presentation` 슬라이드에 액세스하려면 개체를 사용하세요.
+-  우리는`Slides` 의 컬렉션`Presentation` 슬라이드에 액세스하려면 개체를 사용하세요.
 - 컬렉션에 있는 슬라이드의 인덱스는 0부터 시작하므로 첫 번째 슬라이드의 인덱스는 0이고 두 번째 슬라이드의 인덱스는 1입니다.
 - 해당 슬라이드 객체를 검색하기 위해 원하는 슬라이드 인덱스를 지정합니다.
 
@@ -81,7 +81,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ### .NET용 Aspose.Slides는 어떤 다른 기능을 제공합니까?
 
- Aspose.Slides for .NET은 처음부터 프레젠테이션 만들기, 슬라이드 조작, 모양 및 이미지 추가, 서식 적용 등을 포함한 광범위한 기능을 제공합니다. 당신은[선적 서류 비치](https://reference.aspose.com/slides/net/) 포괄적인 정보를 얻으려면.
+Aspose.Slides for .NET은 처음부터 프레젠테이션 만들기, 슬라이드 조작, 모양 및 이미지 추가, 서식 적용 등을 포함한 광범위한 기능을 제공합니다. 당신은[선적 서류 비치](https://reference.aspose.com/slides/net/) 포괄적인 정보를 얻으려면.
 
 ### Aspose.Slides를 사용하여 PowerPoint 자동화에 대해 자세히 알아보려면 어떻게 해야 합니까?
 

@@ -60,7 +60,7 @@ using (Presentation destPres = new Presentation())
 }
 ```
 
-這`destPres`將作為您複製的投影片的新簡報。
+這`destPres`將作為新的簡報與您複製的投影片一起使用。
 
 ## 第 4 步：克隆母版投影片
 
@@ -89,7 +89,7 @@ slds.AddClone(SourceSlide, iSlide, true);
 
 ## 步驟 6：儲存目標簡報
 
-最後，將目標簡報儲存到指定目錄。此步驟可確保您複製的投影片保留在新簡報中：
+最後，將目標簡報儲存到您指定的目錄中。此步驟可確保您複製的投影片保留在新簡報中：
 
 ```csharp
 destPres.Save(dataDir + "YourDestinationPresentation.pptx", SaveFormat.Pptx);

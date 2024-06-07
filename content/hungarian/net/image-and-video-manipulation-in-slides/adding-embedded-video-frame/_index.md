@@ -8,7 +8,7 @@ weight: 19
 url: /hu/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
 ## Bevezetés
-A prezentációk dinamikus világában a multimédiás elemek integrálása jelentősen fokozhatja az elköteleződést. Az Aspose.Slides for .NET hatékony megoldást kínál beágyazott videokockák beépítésére a bemutató diákjaiba. Ez az oktatóanyag végigvezeti Önt a folyamaton, lebontva az egyes lépéseket a zökkenőmentes élmény érdekében.
+A prezentációk dinamikus világában a multimédiás elemek integrálása jelentősen fokozhatja az elköteleződést. Az Aspose.Slides for .NET hatékony megoldást kínál a beágyazott videokockák prezentációs diákjaiba való beépítésére. Ez az oktatóanyag végigvezeti Önt a folyamaton, lebontva az egyes lépéseket a zökkenőmentes élmény érdekében.
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következőkkel:
 -  Aspose.Slides for .NET Library: Töltse le és telepítse a könyvtárat a[kiadási oldal](https://releases.aspose.com/slides/net/).

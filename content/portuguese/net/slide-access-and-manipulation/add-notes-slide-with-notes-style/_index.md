@@ -37,7 +37,7 @@ Agora, vamos mergulhar no núcleo do nosso tutorial - adicionar formatação de 
 
 ### Etapa 2.1: Instanciar aula de apresentação
 
- Primeiro, precisamos criar uma instância do`Presentation`classe que representa seu arquivo de apresentação do PowerPoint. Você deve fornecer o caminho para o seu arquivo de apresentação no`dataDir` variável.
+ Primeiro, precisamos criar uma instância do`Presentation` classe que representa seu arquivo de apresentação do PowerPoint. Você deve fornecer o caminho para o seu arquivo de apresentação no`dataDir` variável.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Etapa 2.2: Acesse o slide das notas mestres
 
- Dentro do`using` bloco, acessamos o slide de notas mestre. O slide de notas mestre contém o estilo padrão para notas em sua apresentação.
+ Dentro do`using`bloco, acessamos o slide de notas mestre. O slide de notas mestre contém o estilo padrão para notas em sua apresentação.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

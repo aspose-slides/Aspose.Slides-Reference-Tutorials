@@ -94,7 +94,7 @@ In deze zelfstudie hebben we geleerd hoe u een PowerPoint-presentatie met notiti
 
 ### Hoe installeer ik Aspose.Slides voor Java?
 
- U kunt Aspose.Slides voor Java downloaden van[hier](https://releases.aspose.com/slides/java/)en volg de installatie-instructies in de documentatie.
+ U kunt Aspose.Slides voor Java downloaden van[hier](https://releases.aspose.com/slides/java/) en volg de installatie-instructies in de documentatie.
 
 ### Kan ik PowerPoint-presentaties ook naar andere formaten converteren?
 

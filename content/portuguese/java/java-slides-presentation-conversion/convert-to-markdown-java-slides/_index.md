@@ -113,7 +113,7 @@ try {
 
 ## Conclusão
 
-conversão de apresentações para o formato Markdown abre novas possibilidades para compartilhar seu conteúdo online. Com Aspose.Slides for Java, esse processo se torna simples e eficiente. Seguindo as etapas descritas neste guia, você pode converter facilmente suas apresentações e aprimorar seu fluxo de trabalho de criação de conteúdo da web.
+conversão de apresentações para o formato Markdown abre novas possibilidades para compartilhar seu conteúdo online. Com Aspose.Slides for Java, esse processo se torna direto e eficiente. Seguindo as etapas descritas neste guia, você pode converter facilmente suas apresentações e aprimorar seu fluxo de trabalho de criação de conteúdo da web.
 
 ## Perguntas frequentes
 

@@ -96,7 +96,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 ## Шаг 4. Сохраните презентацию
 
 ```csharp
-//Запишите файл презентации на диск.
+// Запишите файл презентации на диск.
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

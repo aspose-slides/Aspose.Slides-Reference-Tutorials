@@ -41,7 +41,7 @@ Ahora, escribamos código Java para verificar el formato de presentación sin te
 // La ruta al directorio de documentos.
 String dataDir = "Your Document Directory";
 int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-// Devolverá "LoadFormat.Unknown" si el archivo no tiene formatos de presentación
+//Devolverá "LoadFormat.Unknown" si el archivo no tiene formatos de presentación
 ```
 
  En este código usamos`PresentationFactory` para obtener información sobre el archivo de presentación, incluido su formato. Si el archivo no tiene un formato de presentación válido, devolverá "LoadFormat.Unknown".
@@ -52,7 +52,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
         // La ruta al directorio de documentos.
         String dataDir = "Your Document Directory";
         int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "HelloWorld.pptx").getLoadFormat();
-        // Devolverá "LoadFormat.Unknown" si el archivo no tiene formatos de presentación
+        //Devolverá "LoadFormat.Unknown" si el archivo no tiene formatos de presentación
 ```
 
 ## Conclusión

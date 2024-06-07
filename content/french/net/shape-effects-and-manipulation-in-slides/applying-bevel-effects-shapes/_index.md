@@ -11,7 +11,7 @@ url: /fr/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 Dans le monde dynamique des présentations, ajouter un attrait visuel à vos diapositives peut améliorer considérablement l'impact de votre message. Aspose.Slides for .NET fournit une boîte à outils puissante pour manipuler et embellir vos diapositives de présentation par programme. L’une de ces fonctionnalités intéressantes est la possibilité d’appliquer des effets de biseau aux formes, ajoutant ainsi de la profondeur et de la dimension à vos visuels.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-- Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est installée. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est installée. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/slides/net/).
 - Environnement de développement : configurez votre environnement de développement .NET et possédez une compréhension de base de C#.
 - Répertoire de documents : créez un répertoire pour vos documents dans lequel les fichiers de présentation générés seront enregistrés.
 ## Importer des espaces de noms

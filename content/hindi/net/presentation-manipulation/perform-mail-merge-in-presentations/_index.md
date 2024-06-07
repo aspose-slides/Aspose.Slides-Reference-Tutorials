@@ -1,22 +1,22 @@
 ---
-title: प्रेजेंटेशन में मेल मर्ज करें
-linktitle: प्रेजेंटेशन में मेल मर्ज करें
-second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग एपीआई
-description: इस चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों में मेल मर्ज के बारे में जानें। सहजता से गतिशील, वैयक्तिकृत प्रस्तुतियाँ बनाएँ।
+title: प्रस्तुतियों में मेल मर्ज निष्पादित करें
+linktitle: प्रस्तुतियों में मेल मर्ज निष्पादित करें
+second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
+description: इस चरण-दर-चरण मार्गदर्शिका में Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन में मेल मर्ज करना सीखें। आसानी से गतिशील, वैयक्तिकृत प्रेजेंटेशन बनाएँ।
 type: docs
 weight: 21
 url: /hi/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
 ## परिचय
-.NET विकास की दुनिया में, गतिशील और वैयक्तिकृत प्रस्तुतियाँ बनाना एक सामान्य आवश्यकता है। इस प्रक्रिया को सरल बनाने वाला एक शक्तिशाली उपकरण .NET के लिए Aspose.Slides है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों में मेल मर्ज करने के आकर्षक क्षेत्र में गहराई से उतरेंगे।
+.NET विकास की दुनिया में, गतिशील और व्यक्तिगत प्रस्तुतियाँ बनाना एक सामान्य आवश्यकता है। एक शक्तिशाली उपकरण जो इस प्रक्रिया को सरल बनाता है वह है Aspose.Slides for .NET। इस ट्यूटोरियल में, हम Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों में मेल मर्ज करने के आकर्षक क्षेत्र में गहराई से उतरेंगे।
 ## आवश्यक शर्तें
-इससे पहले कि हम इस यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
-- .NET लाइब्रेरी के लिए Aspose.Slides: सुनिश्चित करें कि आपके पास .NET लाइब्रेरी के लिए Aspose.Slides स्थापित है। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
-- दस्तावेज़ टेम्पलेट: एक प्रेजेंटेशन टेम्पलेट तैयार करें (उदाहरण के लिए, प्रेजेंटेशन टेम्पलेट.पीपीटीएक्स) जो मेल मर्ज के लिए आधार के रूप में काम करेगा।
-- डेटा स्रोत: मेल मर्ज के लिए आपको डेटा स्रोत की आवश्यकता है। हमारे उदाहरण में, हम XML डेटा (TestData.xml) का उपयोग करेंगे, लेकिन Aspose.Slides RDBMS जैसे विभिन्न डेटा स्रोतों का समर्थन करता है।
-अब, आइए .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों में मेल मर्ज करने के चरणों पर गौर करें।
+इससे पहले कि हम इस यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
+- Aspose.Slides for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Slides for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/net/).
+- दस्तावेज़ टेम्पलेट: एक प्रस्तुति टेम्पलेट तैयार करें (उदाहरण के लिए, PresentationTemplate.pptx) जो मेल मर्ज के लिए आधार के रूप में काम करेगा।
+- डेटा स्रोत: मेल मर्ज के लिए आपको डेटा स्रोत की आवश्यकता होती है। हमारे उदाहरण में, हम XML डेटा (TestData.xml) का उपयोग करेंगे, लेकिन Aspose.Slides RDBMS जैसे विभिन्न डेटा स्रोतों का समर्थन करता है।
+अब, आइए Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों में मेल मर्ज करने के चरणों पर नजर डालें।
 ## नामस्थान आयात करें
-सबसे पहले, सुनिश्चित करें कि आप Aspose.Slides द्वारा प्रदान की गई कार्यक्षमताओं का लाभ उठाने के लिए आवश्यक नामस्थान आयात करें:
+सबसे पहले, सुनिश्चित करें कि आप Aspose.Slides द्वारा प्रदान की गई कार्यक्षमताओं का लाभ उठाने के लिए आवश्यक नामस्थानों को आयात करें:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -37,11 +37,11 @@ using DataTable = System.Data.DataTable;
 string dataDir = "Your Document Directory";
 string presTemplatePath = Path.Combine(dataDir, "PresentationTemplate.pptx");
 string resultPath = Path.Combine(RunExamples.OutPath, "MailMergeResult");
-// जांचें कि क्या परिणाम पथ मौजूद है
+// जाँचें कि क्या परिणाम पथ मौजूद है
 if (!Directory.Exists(resultPath))
     Directory.CreateDirectory(resultPath);
 ```
-## चरण 2: XML डेटा का उपयोग करके एक डेटासेट बनाएं
+## चरण 2: XML डेटा का उपयोग करके डेटासेट बनाएं
 ```csharp
 using (DataSet dataSet = new DataSet())
 {
@@ -51,13 +51,13 @@ using (DataSet dataSet = new DataSet())
     DataTable staffListTable = dataTables["StaffList"];
     DataTable planFactTable = dataTables["Plan_Fact"];
 ```
-## चरण 3: रिकॉर्ड्स के माध्यम से लूप करें और व्यक्तिगत प्रस्तुतियाँ बनाएं
+## चरण 3: रिकॉर्ड्स के माध्यम से लूप करें और व्यक्तिगत प्रस्तुतियाँ बनाएँ
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
-    // परिणाम (व्यक्तिगत) प्रस्तुति नाम बनाएँ
+    // परिणाम बनाएं (व्यक्तिगत) प्रस्तुति नाम
     string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
-    // प्रेजेंटेशन टेम्प्लेट लोड करें
+    // प्रस्तुति टेम्पलेट लोड करें
     using (Presentation pres = new Presentation(presTemplatePath))
     {
         // मुख्य तालिका से डेटा के साथ टेक्स्ट बॉक्स भरें
@@ -65,11 +65,11 @@ foreach (DataRow userRow in usersTable.Rows)
         ((AutoShape)pres.Slides[0].Shapes[4]).TextFrame.Text = userRow["Department"].ToString();
         // डेटाबेस से छवि प्राप्त करें
         byte[] bytes = Convert.FromBase64String(userRow["Img"].ToString());
-        //प्रस्तुतिकरण के चित्र फ़्रेम में छवि डालें
+        //प्रस्तुति के चित्र फ़्रेम में छवि डालें
         IPPImage image = pres.Images.AddImage(bytes);
         IPictureFrame pf = pres.Slides[0].Shapes[1] as PictureFrame;
         pf.PictureFormat.Picture.Image.ReplaceImage(image);
-        // डेटा से भरने के लिए टेक्स्ट फ़्रेम प्राप्त करें और तैयार करें
+        // डेटा से भरने के लिए टेक्स्ट फ़्रेम प्राप्त करें और उसे तैयार करें
         IAutoShape list = pres.Slides[0].Shapes[2] as IAutoShape;
         ITextFrame textFrame = list.TextFrame;
         textFrame.Paragraphs.Clear();
@@ -105,7 +105,7 @@ static void FillStaffList(ITextFrame textFrame, DataRow userRow, DataTable staff
     }
 }
 ```
-## चरण 5: सेकेंडरी प्लानफैक्ट टेबल से डेटा चार्ट भरें
+## चरण 5: द्वितीयक योजना तथ्य तालिका से डेटा चार्ट भरें
 ```csharp
 static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable)
 {
@@ -116,7 +116,7 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     string range = chart.ChartData.GetRange();
     IChartDataWorkbook cellsFactory = chart.ChartData.ChartDataWorkbook;
     int worksheetIndex = 0;
-    // पंक्ति श्रृंखला के लिए डेटा बिंदु जोड़ें
+    // रेखा श्रृंखला के लिए डेटा बिंदु जोड़ें
     chart.ChartData.Series[0].DataPoints.AddDataPointForLineSeries
 (cellsFactory.GetCell(worksheetIndex, 1, 1, double.Parse(selRows[0]["PlanData"].ToString())));
     chart.ChartData.Series[1].DataPoints.AddDataPointForLineSeries(
@@ -136,17 +136,17 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-ये चरण .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों में मेल मर्ज करने पर एक व्यापक मार्गदर्शिका प्रदर्शित करते हैं। अब, आइए कुछ अक्सर पूछे जाने वाले प्रश्नों पर ध्यान दें।
+ये चरण Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों में मेल मर्ज करने के बारे में एक व्यापक मार्गदर्शिका प्रदर्शित करते हैं। अब, आइए कुछ अक्सर पूछे जाने वाले प्रश्नों पर ध्यान दें।
 ## अक्सर पूछे जाने वाले प्रश्नों
-### 1. क्या .NET के लिए Aspose.Slides विभिन्न डेटा स्रोतों के साथ संगत है?
-हां, .NET के लिए Aspose.Slides XML, RDBMS और अन्य सहित विभिन्न डेटा स्रोतों का समर्थन करता है।
-### 2. क्या मैं उत्पन्न प्रस्तुति में बुलेट बिंदुओं की उपस्थिति को अनुकूलित कर सकता हूँ?
- निश्चित रूप से! बुलेट बिंदुओं की उपस्थिति पर आपका पूर्ण नियंत्रण है, जैसा कि इसमें दिखाया गया है`FillStaffList` तरीका।
-### 3. मैं .NET के लिए Aspose.Slides का उपयोग करके किस प्रकार के चार्ट बना सकता हूं?
+### 1. क्या Aspose.Slides for .NET विभिन्न डेटा स्रोतों के साथ संगत है?
+हां, Aspose.Slides for .NET विभिन्न डेटा स्रोतों का समर्थन करता है, जिसमें XML, RDBMS, आदि शामिल हैं।
+### 2. क्या मैं तैयार प्रस्तुति में बुलेट पॉइंट्स के स्वरूप को अनुकूलित कर सकता हूँ?
+ निश्चित रूप से! बुलेट पॉइंट्स की उपस्थिति पर आपका पूरा नियंत्रण है, जैसा कि दिखाया गया है`FillStaffList` तरीका।
+### 3. मैं .NET के लिए Aspose.Slides का उपयोग करके किस प्रकार के चार्ट बना सकता हूँ?
 .NET के लिए Aspose.Slides चार्ट की एक विस्तृत श्रृंखला का समर्थन करता है, जिसमें हमारे उदाहरण में दिखाए गए लाइन चार्ट, बार चार्ट, पाई चार्ट और बहुत कुछ शामिल हैं।
-### 4. मैं .NET के लिए Aspose.Slides से सहायता कैसे प्राप्त करूं या सहायता कैसे प्राप्त करूं?
- समर्थन और सहायता के लिए, आप यहां जा सकते हैं[Aspose.स्लाइड्स फोरम](https://forum.aspose.com/c/slides/11).
-### 5. क्या मैं खरीदने से पहले .NET के लिए Aspose.Slides आज़मा सकता हूँ?
- निश्चित रूप से! आप .NET के लिए Aspose.Slides के निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
+### 4. मैं Aspose.Slides for .NET के लिए समर्थन कैसे प्राप्त करूं या सहायता कैसे प्राप्त करूं?
+ समर्थन और सहायता के लिए, आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+### 5. क्या मैं खरीदने से पहले Aspose.Slides for .NET आज़मा सकता हूँ?
+ ज़रूर! आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ## निष्कर्ष
-इस ट्यूटोरियल में, हमने प्रस्तुतियों में मेल मर्ज करने में .NET के लिए Aspose.Slides की रोमांचक क्षमताओं का पता लगाया। चरण-दर-चरण मार्गदर्शिका का पालन करके, आप सहजता से गतिशील और वैयक्तिकृत प्रस्तुतियाँ बना सकते हैं। निर्बाध प्रस्तुति निर्माण के लिए Aspose.Slides के साथ अपने .NET विकास अनुभव को उन्नत करें।
+इस ट्यूटोरियल में, हमने प्रेजेंटेशन में मेल मर्ज करने में Aspose.Slides for .NET की रोमांचक क्षमताओं का पता लगाया। चरण-दर-चरण गाइड का पालन करके, आप आसानी से गतिशील और वैयक्तिकृत प्रेजेंटेशन बना सकते हैं। सहज प्रेजेंटेशन निर्माण के लिए Aspose.Slides के साथ अपने .NET विकास अनुभव को बढ़ाएँ।

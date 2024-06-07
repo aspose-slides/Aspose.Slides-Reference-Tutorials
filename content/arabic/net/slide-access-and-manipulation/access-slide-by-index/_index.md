@@ -35,7 +35,7 @@ using Aspose.Slides;
 string presentationPath = "path_to_your_presentation.pptx";
 using (Presentation presentation = new Presentation(presentationPath))
 {
-    // سيتم وضع الكود الخاص بك لمعالجة الشرائح هنا
+    //سيتم وضع الكود الخاص بك لمعالجة الشرائح هنا
 }
 ```
 
@@ -45,13 +45,13 @@ using (Presentation presentation = new Presentation(presentationPath))
 
 ```csharp
 // الوصول إلى الشريحة من خلال فهرسها المتسلسل (يعتمد على 0)
-int slideIndex = 2; // استبدل بالمؤشر المطلوب
+int slideIndex = 2; //استبدل بالمؤشر المطلوب
 ISlide slide = presentation.Slides[slideIndex];
 ```
 
 ## شرح كود المصدر
 
-- نحن نستخدم ال`Slides` جمع من`Presentation` كائن للوصول إلى الشرائح.
+-  نحن نستخدم ال`Slides` جمع من`Presentation` كائن للوصول إلى الشرائح.
 - يستند فهرس الشريحة في المجموعة إلى 0، لذا تحتوي الشريحة الأولى على فهرس 0، والشريحة الثانية تحتوي على فهرس 1، وهكذا.
 - نحدد فهرس الشريحة المطلوب لاسترداد كائن الشريحة المقابل.
 
@@ -81,7 +81,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ### ما هي الوظائف الأخرى التي يقدمها Aspose.Slides لـ .NET؟
 
- يوفر Aspose.Slides for .NET مجموعة واسعة من الوظائف، بما في ذلك إنشاء العروض التقديمية من البداية ومعالجة الشرائح وإضافة الأشكال والصور وتطبيق التنسيق والمزيد. يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/) للحصول على معلومات شاملة.
+يوفر Aspose.Slides for .NET مجموعة واسعة من الوظائف، بما في ذلك إنشاء العروض التقديمية من البداية ومعالجة الشرائح وإضافة الأشكال والصور وتطبيق التنسيق والمزيد. يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/) للحصول على معلومات شاملة.
 
 ### كيف يمكنني معرفة المزيد حول أتمتة PowerPoint باستخدام Aspose.Slides؟
 

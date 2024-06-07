@@ -99,7 +99,7 @@ class MySvgShapeFormattingController : ISvgShapeAndTextFormattingController
 
 ## 常見問題解答
 
-### 什麼是 SVG 格式？為什麼它在簡報中很重要？
+### 什麼是 SVG 格式？
 SVG 格式是指簡報中使用的可縮放向量圖形的樣式和設計。這很重要，因為它可以增強幻燈片的視覺吸引力和參與。
 
 ### 我可以將 Aspose.Slides for .NET 與其他程式語言一起使用嗎？

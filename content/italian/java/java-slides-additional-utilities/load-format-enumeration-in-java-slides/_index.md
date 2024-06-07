@@ -10,11 +10,11 @@ url: /it/java/additional-utilities/load-format-enumeration-in-java-slides/
 
 ## Introduzione al caricamento del formato di presentazione nelle diapositive Java
 
-In questo tutorial, esploreremo come determinare il formato di una presentazione di PowerPoint utilizzando l'API Aspose.Slides per Java. Ci concentreremo in particolare sul caricamento di una presentazione e sul controllo del suo formato utilizzando il file`LoadFormat` enumerazione. Ciò ti aiuterà a identificare se la presentazione è in un formato precedente, come PowerPoint 95, o in un formato più recente.
+ In questo tutorial, esploreremo come determinare il formato di una presentazione di PowerPoint utilizzando l'API Aspose.Slides per Java. Ci concentreremo in particolare sul caricamento di una presentazione e sul controllo del suo formato utilizzando il file`LoadFormat` enumerazione. Ciò ti aiuterà a identificare se la presentazione è in un formato precedente, come PowerPoint 95, o in un formato più recente.
 
 ## Prerequisiti
 
- Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto Java. Puoi scaricarlo da[Sito web Aspose](https://products.aspose.com/slides/java/) e seguire le istruzioni di installazione.
+Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto Java. Puoi scaricarlo da[Sito web Aspose](https://products.aspose.com/slides/java/) e seguire le istruzioni di installazione.
 
 ## Passaggio 1: importa le classi richieste
 
@@ -34,7 +34,7 @@ String dataDir = "Your Document Directory";
 boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(dataDir + "presentation.ppt").getLoadFormat() == LoadFormat.Ppt95;
 ```
 
- Nel codice sopra, usiamo`PresentationFactory.getInstance().getPresentationInfo()`per ottenere informazioni sulla presentazione, incluso il suo formato. Confrontiamo quindi il formato con`LoadFormat.Ppt95` per verificare se si tratta di un formato PowerPoint 95 precedente.
+ Nel codice sopra, usiamo`PresentationFactory.getInstance().getPresentationInfo()` per ottenere informazioni sulla presentazione, incluso il suo formato. Confrontiamo quindi il formato con`LoadFormat.Ppt95` per verificare se si tratta di un formato PowerPoint 95 precedente.
 
 ## Codice sorgente completo per l'enumerazione del formato di caricamento nelle diapositive Java
 
@@ -45,7 +45,7 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Conclusione
 
- In questo tutorial, abbiamo imparato come caricare una presentazione PowerPoint in Java utilizzando Aspose.Slides e verificarne il formato utilizzando il comando`LoadFormat` enumerazione. Ciò può essere utile quando è necessario gestire presentazioni di formati diversi in modo diverso nell'applicazione Java.
+ In questo tutorial, abbiamo imparato come caricare una presentazione PowerPoint in Java utilizzando Aspose.Slides e verificarne il formato utilizzando il comando`LoadFormat`enumerazione. Ciò può essere utile quando è necessario gestire presentazioni di formati diversi in modo diverso nell'applicazione Java.
 
 ## Domande frequenti
 

@@ -37,7 +37,7 @@ Sekarang, mari selami inti tutorial kami - menambahkan format catatan penuh gaya
 
 ### Langkah 2.1: Membuat Instansiasi Kelas Presentasi
 
- Pertama, kita perlu membuat sebuah instance dari`Presentation`kelas yang mewakili file presentasi PowerPoint Anda. Anda harus memberikan jalur ke file presentasi Anda di`dataDir` variabel.
+ Pertama, kita perlu membuat sebuah instance dari`Presentation` kelas yang mewakili file presentasi PowerPoint Anda. Anda harus memberikan jalur ke file presentasi Anda di`dataDir` variabel.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Langkah 2.2: Akses Slide Catatan Utama
 
- Dalam`using` blok, kita mengakses slide catatan utama. Slide catatan master berisi gaya default untuk catatan dalam presentasi Anda.
+ Dalam`using`blok, kita mengakses slide catatan utama. Slide catatan master berisi gaya default untuk catatan dalam presentasi Anda.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

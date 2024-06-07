@@ -66,7 +66,7 @@ EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlControll
 
 ### ตัวเลือกที่ 2: เชื่อมโยงแบบอักษรทั้งหมด
 
- หากต้องการลิงก์ไปยังแบบอักษรทั้งหมดที่ใช้ในงานนำเสนอ ให้ใช้`LinkAllFontsHtmlController`. คุณควรระบุไดเร็กทอรีที่มีแบบอักษรอยู่ในระบบของคุณ
+ หากต้องการลิงก์ไปยังแบบอักษรทั้งหมดที่ใช้ในงานนำเสนอ ให้ใช้`LinkAllFontsHtmlController`- คุณควรระบุไดเร็กทอรีที่มีแบบอักษรอยู่ในระบบของคุณ
 
 ```csharp
 LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, @"C:\Windows\Fonts\");

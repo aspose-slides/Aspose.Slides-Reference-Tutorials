@@ -22,11 +22,11 @@ Cấp phép Aspose.Slides cho Java là bước đầu tiên và quan trọng nh�
 
 ### Đang khởi tạo Aspose.Slides cho Java
 
-Với giấy phép của bạn đã có, đã đến lúc khởi chạy Aspose.Slides cho Java và bắt đầu tạo các trang trình bày tuyệt vời. Đây là cách thực hiện:
+Với giấy phép của bạn đã có, đã đến lúc khởi tạo Aspose.Slides cho Java và bắt đầu tạo các trang trình bày tuyệt vời. Đây là cách thực hiện:
 
 1.  Tải xuống và cài đặt: Bắt đầu bằng cách tải xuống thư viện Aspose.Slides cho Java từ[trang tải xuống](https://releases.aspose.com/slides/net/). Làm theo hướng dẫn cài đặt để thiết lập thư viện trong môi trường Java của bạn.
 
-2. Nhập thư viện: Trong mã Java của bạn, hãy nhập các thư viện Aspose.Slides cần thiết để truy cập các hàm và lớp cần thiết để tạo trang chiếu.
+2. Nhập thư viện: Trong mã Java của bạn, hãy nhập các thư viện Aspose.Slides cần thiết để truy cập các hàm và lớp cần thiết cho việc tạo slide.
 
 3. Tạo bản trình bày: Khởi tạo đối tượng bản trình bày, đối tượng này đóng vai trò là khung vẽ cho các trang chiếu của bạn. Bạn có thể chọn từ nhiều định dạng trình bày khác nhau, bao gồm PPT và PPTX.
 
@@ -37,4 +37,4 @@ Với giấy phép của bạn đã có, đã đến lúc khởi chạy Aspose.S
 Tóm lại, cấp phép và khởi tạo Aspose.Slides cho Java là các bước cơ bản để bắt đầu hành trình tạo các bản trình bày trực quan ấn tượng của bạn. Với giấy phép phù hợp và cách khởi tạo phù hợp, bạn sẽ có những công cụ cần thiết để thu hút khán giả và truyền tải thông điệp của mình một cách hiệu quả. Vì vậy, tại sao phải chờ đợi? Hãy bắt đầu với Java Slides ngay hôm nay và khám phá sức mạnh của Aspose.Slides cho Java!
 ## Hướng dẫn khởi tạo và cấp phép Java Slides
 ### [Cấp phép theo định mức trong Java Slides](./metered-licensing-java-slides/)
-Tối ưu hóa việc sử dụng Aspose.Slides của bạn cho Java bằng Metered Licensing. Tìm hiểu cách thiết lập và theo dõi mức tiêu thụ API của bạn.
+Tối ưu hóa việc sử dụng Aspose.Slides của bạn cho Java bằng Metered Licensing. Tìm hiểu cách thiết lập và theo dõi mức sử dụng API của bạn.

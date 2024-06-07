@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Paso 3: agregue la autoforma 3D
-Crea una autoforma 3D en la diapositiva:
+Cree una autoforma 3D en la diapositiva:
 ```csharp
 IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
 shape.TextFrame.Text = "3D";

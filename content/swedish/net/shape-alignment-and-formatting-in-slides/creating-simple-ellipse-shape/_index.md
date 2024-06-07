@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
-// Instant presentation klass
+// Instant presentationsklass
 using (Presentation pres = new Presentation())
 {
     // Få den första bilden

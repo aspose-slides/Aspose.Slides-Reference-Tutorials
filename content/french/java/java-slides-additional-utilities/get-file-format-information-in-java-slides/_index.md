@@ -96,7 +96,7 @@ Dans ce didacticiel, nous avons appris comment obtenir des informations sur le f
 
 ### Comment obtenir la bibliothèque Aspose.Slides pour Java ?
 
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour Java à partir du site Web Aspose à l'adresse[ce lien](https://releases.aspose.com/slides/java/). Choisissez la version appropriée pour votre projet.
+ Vous pouvez télécharger la bibliothèque Aspose.Slides pour Java à partir du site Web Aspose à l'adresse[ce lien](https://releases.aspose.com/slides/java/)Choisissez la version appropriée pour votre projet.
 
 ### Puis-je utiliser ce code avec d’autres bibliothèques de présentation Java ?
 

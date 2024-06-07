@@ -11,7 +11,7 @@ url: /fr/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-
 Dans le domaine des présentations dynamiques, Aspose.Slides pour .NET se distingue comme un outil puissant, offrant aux développeurs la possibilité de manipuler et d'améliorer les présentations PowerPoint par programme. Une fonctionnalité intéressante est la possibilité de générer des vignettes pour SmartArt Child Notes, ajoutant ainsi une couche d'attrait visuel à vos présentations. Ce guide étape par étape vous guidera tout au long du processus de création de vignettes pour SmartArt Child Notes à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-- Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est intégrée à votre projet .NET. Sinon, téléchargez-le depuis le[page des versions](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides est intégrée à votre projet .NET. Sinon, téléchargez-le depuis le[page des versions](https://releases.aspose.com/slides/net/).
 - Environnement de développement : mettre en place un environnement de développement .NET fonctionnel et avoir une compréhension de base de la programmation C#.
 - Exemple de présentation : créez ou obtenez une présentation PowerPoint contenant SmartArt avec Child Notes à des fins de test.
 ## Importer des espaces de noms
@@ -57,8 +57,8 @@ R : Oui, vous pouvez ajuster les dimensions et le format de la vignette en modif
 ### Q : Aspose.Slides prend-il en charge d’autres mises en page SmartArt ?
 R : Absolument ! Aspose.Slides propose une variété de mises en page SmartArt, vous permettant de choisir celle qui correspond le mieux à vos besoins de présentation.
 ### Q : Une licence temporaire est-elle disponible à des fins de test ?
- : Oui, vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
+ R : Oui, vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
 ### Q : Où puis-je demander de l'aide ou me connecter à la communauté Aspose.Slides ?
- R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour interagir avec la communauté, poser des questions et trouver des solutions.
+R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour interagir avec la communauté, poser des questions et trouver des solutions.
 ### Q : Puis-je acheter Aspose.Slides pour .NET ?
  R : Certainement ! Explorez les options d'achat[ici](https://purchase.aspose.com/buy) pour libérer tout le potentiel d’Aspose.Slides dans vos projets.

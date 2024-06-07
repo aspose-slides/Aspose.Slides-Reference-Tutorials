@@ -112,7 +112,7 @@ Dans ce didacticiel, nous avons appris à modifier les arrière-plans des diapos
 
  Oui, vous pouvez essayer Aspose.Slides pour .NET en obtenant une version d'essai gratuite auprès de[ici](https://releases.aspose.com/).
 
-### 3. Comment puis-je obtenir de l'aide pour Aspose.Slides pour .NET ?
+### 3. Comment puis-je obtenir de l'assistance pour Aspose.Slides pour .NET ?
 
  Si vous avez besoin d'aide ou si vous avez des questions sur Aspose.Slides pour .NET, vous pouvez visiter le forum d'assistance[ici](https://forum.aspose.com/).
 

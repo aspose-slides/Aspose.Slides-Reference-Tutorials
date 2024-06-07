@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Đảm bảo thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục dự án của bạn nơi chứa tệp SVG.
+ Đảm bảo thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục dự án của bạn nơi chứa tệp SVG.
 
 ## Bước 2: Tạo bản trình bày PowerPoint mới
 
@@ -97,7 +97,7 @@ Cuối cùng, chúng tôi lưu bản trình bày ở định dạng PPTX. Đừn
 
 ## Phần kết luận
 
-Trong hướng dẫn toàn diện này, chúng ta đã học cách thêm hình ảnh từ đối tượng SVG vào Java Slides bằng Aspose.Slides for Java. Kỹ năng này là vô giá khi bạn muốn tạo ra những bài thuyết trình hấp dẫn về mặt hình ảnh và giàu thông tin để thu hút sự chú ý của khán giả.
+Trong hướng dẫn toàn diện này, chúng ta đã học cách thêm hình ảnh từ đối tượng SVG vào Java Slides bằng Aspose.Slides for Java. Kỹ năng này là vô giá khi bạn muốn tạo các bài thuyết trình hấp dẫn về mặt hình ảnh và giàu thông tin để thu hút sự chú ý của khán giả.
 
 ## Câu hỏi thường gặp
 

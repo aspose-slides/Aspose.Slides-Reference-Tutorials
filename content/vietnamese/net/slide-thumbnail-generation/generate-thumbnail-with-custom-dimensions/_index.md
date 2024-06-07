@@ -111,7 +111,7 @@ Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà ph�
  Aspose.Slides for .NET là một thư viện thương mại. Bạn có thể tìm thấy thông tin về giá cả và giấy phép[đây](https://purchase.aspose.com/buy).
 
 ### Tôi có cần kỹ năng lập trình nâng cao để sử dụng Aspose.Slides cho .NET không?
-Mặc dù một số kiến thức về lập trình .NET là có lợi nhưng Aspose.Slides for .NET cung cấp API thân thiện với người dùng giúp đơn giản hóa công việc với các bản trình bày PowerPoint.
+Mặc dù một số kiến thức về lập trình .NET là có lợi nhưng Aspose.Slides cho .NET cung cấp API thân thiện với người dùng giúp đơn giản hóa công việc với các bản trình bày PowerPoint.
 
 ### Có hỗ trợ kỹ thuật cho Aspose.Slides cho .NET không?
  Có, bạn có thể truy cập diễn đàn cộng đồng và hỗ trợ kỹ thuật[đây](https://forum.aspose.com/).

@@ -71,7 +71,7 @@ try {
 ## Mã nguồn hoàn chỉnh để chuyển đổi sang HTML5 trong Java Slides
 
 ```java
-// Đường dẫn tới thư mục tài liệu
+// Đường dẫn đến thư mục tài liệu
 String dataDir = "Your Document Directory";
 // Đường dẫn đến tập tin đầu ra
 String outFilePath = RunExamples.getOutPath() + "Demo.html";

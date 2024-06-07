@@ -72,7 +72,7 @@ Pomocí těchto kroků můžete snadno převést prezentace PowerPoint do formá
 
 ### Jak mohu přizpůsobit vzhled výstupu HTML5?
 
-Vzhled výstupu HTML5 můžete přizpůsobit nastavením různých možností v`Html5Options` třída. Odkazovat na[dokumentace](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) pro dostupné možnosti přizpůsobení.
+ Vzhled výstupu HTML5 můžete přizpůsobit nastavením různých možností v`Html5Options`třída. Odkazovat na[dokumentace](https://reference.aspose.com/slides/net/aspose.slides.export/html5options) pro dostupné možnosti přizpůsobení.
 
 ### Mohu převádět prezentace s animacemi a přechody?
 

@@ -51,11 +51,11 @@ using (DataSet dataSet = new DataSet())
     DataTable staffListTable = dataTables["StaffList"];
     DataTable planFactTable = dataTables["Plan_Fact"];
 ```
-## 步驟 3： 循環記錄並建立單獨的簡報
+## 步驟 3：循環記錄並建立單獨的簡報
 ```csharp
 foreach (DataRow userRow in usersTable.Rows)
 {
-    //建立結果（個人）示範名稱
+    //建立結果（個人）簡報名稱
     string presPath = Path.Combine(resultPath, "PresFor_" + userRow["Name"] + ".pptx");
     //載入示範模板
     using (Presentation pres = new Presentation(presTemplatePath))

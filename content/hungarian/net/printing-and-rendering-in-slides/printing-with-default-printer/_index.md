@@ -14,7 +14,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 1.  Aspose.Slides for .NET: Győződjön meg arról, hogy telepítette a .NET Aspose.Slides könyvtárát. Ha nem, akkor megtalálja a szükséges forrásokat[itt](https://releases.aspose.com/slides/net/).
 2. Fejlesztési környezet: rendelkezzen funkcionális .NET fejlesztői környezettel, beleértve a Visual Studiót vagy bármely más választott IDE-t.
 ## Névterek importálása
-A .NET-projektben kezdje a szükséges névterek importálásával az Aspose.Slides funkciók kihasználásához. Adja hozzá a következő sorokat a kódhoz:
+.NET-projektben kezdje a szükséges névterek importálásával az Aspose.Slides funkciók kihasználásához. Adja hozzá a következő sorokat a kódhoz:
 ```csharp
 using Aspose.Slides;
 ```

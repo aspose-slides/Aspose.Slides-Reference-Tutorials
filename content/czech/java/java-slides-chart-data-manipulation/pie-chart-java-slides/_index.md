@@ -49,7 +49,7 @@ Získejte první snímek prezentace, kam chcete přidat výsečový graf.
 ## Krok 4: Přidejte výsečový graf
 
 ```java
-// Přidejte výsečový graf s výchozími daty
+//Přidejte výsečový graf s výchozími daty
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
 
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Smazat výchozí vygenerované série a kategorie
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Podobným způsobem přizpůsobte další sektory
+// Podobným způsobem přizpůsobte další sektory
 ```
 
 Přizpůsobte vzhled každého sektoru v koláčovém grafu. Můžete změnit barvy, styly ohraničení a další vizuální vlastnosti.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Nastavení indexu datového listu grafu
 int defaultWorksheetIndex = 0;
-//Získání listu dat grafu
+// Získání listu dat grafu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Smazat výchozí vygenerované série a kategorie
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Přidávání nové série
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Nyní se vyplňují data série
+//Nyní se vyplňují data série
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// nové verzi nefunguje
+// V nové verzi nefunguje
 // Přidávání nových bodů a nastavení barvy sektoru
 // series.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -237,7 +237,7 @@ lbl2.getDataLabelFormat().setShowPercentage(true);
 IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
-// Zobrazení vůdčích čar pro graf
+// Zobrazení vedoucích čar pro graf
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 // Nastavení úhlu rotace pro sektory koláčového grafu
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
@@ -253,7 +253,7 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 
 ### Jak mohu změnit barvy jednotlivých sektorů v koláčovém grafu?
 
- Chcete-li změnit barvy jednotlivých sektorů ve výsečovém grafu, můžete upravit barvu výplně pro každý datový bod. V poskytnutém příkladu kódu jsme ukázali, jak nastavit barvu výplně pro každý sektor pomocí`getSolidFillColor().setColor()`metoda. Hodnoty barev můžete upravit, abyste dosáhli požadovaného vzhledu.
+ Chcete-li změnit barvy jednotlivých sektorů ve výsečovém grafu, můžete upravit barvu výplně pro každý datový bod. V poskytnutém příkladu kódu jsme ukázali, jak nastavit barvu výplně pro každý sektor pomocí`getSolidFillColor().setColor()` metoda. Hodnoty barev můžete upravit, abyste dosáhli požadovaného vzhledu.
 
 ### Mohu do výsečového grafu přidat další kategorie a datové řady?
 
@@ -278,7 +278,7 @@ Ujistěte se, že jste zadali správnou cestu a formát souboru.
 
 ### Mohu pomocí Aspose.Slides for Java vytvářet jiné typy grafů?
 
- Ano, Aspose.Slides for Java podporuje různé typy grafů, včetně sloupcových grafů, spojnicových grafů a dalších. Můžete vytvářet různé typy grafů změnou`ChartType` při přidávání grafu. Další podrobnosti o vytváření různých typů grafů naleznete v dokumentaci Aspose.Slides.
+Ano, Aspose.Slides for Java podporuje různé typy grafů, včetně sloupcových grafů, spojnicových grafů a dalších. Můžete vytvářet různé typy grafů změnou`ChartType` při přidávání grafu. Další podrobnosti o vytváření různých typů grafů naleznete v dokumentaci Aspose.Slides.
 
 ### Jak najdu další informace a příklady pro práci s Aspose.Slides for Java?
 

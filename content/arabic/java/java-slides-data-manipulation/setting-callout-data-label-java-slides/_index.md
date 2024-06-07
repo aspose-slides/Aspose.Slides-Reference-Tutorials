@@ -76,7 +76,7 @@ while (i < chart.getChartData().getSeries().size()) {
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        // تخصيص تنسيق التسمية (الخط، التعبئة، وما إلى ذلك)
+        //تخصيص تنسيق التسمية (الخط، التعبئة، وما إلى ذلك)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
@@ -183,7 +183,7 @@ lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor
 
 ### كيف يمكنني تمكين وسائل الشرح أو تعطيلها لتسميات البيانات؟
 
- لتمكين وسائل الشرح أو تعطيلها لتسميات البيانات، استخدم`setShowLabelAsDataCallout` طريقة. اضبطه على`true` لتمكين وسائل الشرح و`false` لتعطيلهم.
+ لتمكين وسائل الشرح أو تعطيلها لتسميات البيانات، استخدم`setShowLabelAsDataCallout` طريقة. اضبطه على`true` لتمكين وسائل الشرح و`false`لتعطيلهم.
 
 ```java
 lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // تمكين وسائل الشرح

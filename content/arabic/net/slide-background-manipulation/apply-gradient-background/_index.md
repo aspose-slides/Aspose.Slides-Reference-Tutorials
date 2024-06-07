@@ -63,7 +63,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Gradient;
 
 ## الخطوة 5: تحديد تنسيق التدرج
 
- في هذه الخطوة، سوف تحدد تنسيق التدرج. يمكنك تخصيص التدرج وفقًا لتفضيلاتك. وهنا نستخدم`TileFlip.FlipBoth` لخلق تأثير جذاب بصريا.
+في هذه الخطوة، سوف تحدد تنسيق التدرج. يمكنك تخصيص التدرج وفقًا لتفضيلاتك. وهنا نستخدم`TileFlip.FlipBoth` لخلق تأثير جذاب بصريا.
 
 ```csharp
 pres.Slides[0].Background.FillFormat.GradientFormat.TileFlip = TileFlip.FlipBoth;

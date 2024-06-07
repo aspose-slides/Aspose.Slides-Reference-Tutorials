@@ -51,7 +51,7 @@ Presentation pres = new Presentation("presentationWith.pptx");
 
 ## Steg 4: Skapa HTML-kontrollern
 
- Vi skapar en`VideoPlayerHtmlController` att hantera konverteringsprocessen. Byt ut URL:en mot önskad webbadress.
+ Vi skapar en`VideoPlayerHtmlController` att hantera konverteringsprocessen. Byt ut URL:en med din önskade webbadress.
 
 ```java
 VideoPlayerHtmlController controller = new VideoPlayerHtmlController(
@@ -102,7 +102,7 @@ finally
 
 ## Slutsats
 
-I den här handledningen har vi gått igenom processen att konvertera en hel presentation till HTML med mediafiler med hjälp av Java Slides och Aspose.Slides för Java API. Genom att följa dessa steg kan du effektivt omvandla dina presentationer till ett webbvänligt format och bevara alla väsentliga medieelement.
+I den här handledningen har vi gått igenom processen att konvertera en hel presentation till HTML med mediafiler med hjälp av Java Slides och Aspose.Slides for Java API. Genom att följa dessa steg kan du effektivt omvandla dina presentationer till ett webbvänligt format och bevara alla väsentliga medieelement.
 
 ## FAQ's
 

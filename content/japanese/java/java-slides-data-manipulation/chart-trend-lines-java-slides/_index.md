@@ -1,192 +1,192 @@
 ---
-title: Java スライドのグラフの傾向線
-linktitle: Java スライドのグラフの傾向線
+title: Java スライドのチャートトレンドライン
+linktitle: Java スライドのチャートトレンドライン
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して Java スライドにさまざまな傾向線を追加する方法を学びます。効果的なデータ視覚化のためのコード例を含むステップバイステップのガイド。
+description: Aspose.Slides for Java を使用して、Java スライドにさまざまなトレンド ラインを追加する方法を学びます。効果的なデータ視覚化のためのコード例を含むステップ バイ ステップ ガイド。
 type: docs
 weight: 15
 url: /ja/java/data-manipulation/chart-trend-lines-java-slides/
 ---
 
-## Java スライドでのグラフの傾向線の紹介: ステップバイステップ ガイド
+## Java スライドでのチャートトレンドラインの紹介: ステップバイステップガイド
 
-この包括的なガイドでは、Aspose.Slides for Java を使用して Java Slides でチャートの傾向線を作成する方法を説明します。グラフの傾向線はプレゼンテーションに貴重な追加機能を提供し、データの傾向を効果的に視覚化して分析するのに役立ちます。わかりやすい説明とコード例を使用してプロセスを説明します。
+この包括的なガイドでは、Aspose.Slides for Java を使用して Java スライドでチャート トレンド ラインを作成する方法について説明します。チャート トレンド ラインはプレゼンテーションに貴重な追加要素となり、データの傾向を効果的に視覚化して分析するのに役立ちます。わかりやすい説明とコード例を使用して、プロセスを順を追って説明します。
 
 ## 前提条件
 
-チャートの傾向線の作成に入る前に、次の前提条件が満たされていることを確認してください。
+チャートのトレンド ラインの作成に進む前に、次の前提条件が満たされていることを確認してください。
 
 - Java開発環境
-- Java ライブラリの Aspose.Slides
-- 好みのコードエディター
+- Aspose.Slides for Java ライブラリ
+- お好みのコードエディタ
 
-## ステップ 1: はじめに
+## ステップ1: 開始する
 
-まずは必要な環境をセットアップし、新しいプレゼンテーションを作成しましょう。
+まず、必要な環境を設定し、新しいプレゼンテーションを作成しましょう。
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//ディレクトリが存在しない場合は作成します。
+//ディレクトリがまだ存在しない場合は作成します。
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-//空のプレゼンテーションの作成
+//空のプレゼンテーションを作成しています
 Presentation pres = new Presentation();
 ```
 
-プレゼンテーションを初期化したので、集合縦棒グラフを追加する準備が整いました。
+プレゼンテーションを初期化したので、集合縦棒グラフを追加する準備ができました。
 
 ```java
 //集合縦棒グラフの作成
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
 ```
 
-## ステップ 2: 指数近似曲線を追加する
+## ステップ2: 指数トレンドラインの追加
 
-まず、指数関数的なトレンド ラインをグラフ シリーズに追加しましょう。
+まず、チャート シリーズに指数トレンド ラインを追加してみましょう。
 
 ```java
-//チャート シリーズ 1 に指数関数的なトレンド ラインを追加する
+//チャートシリーズ 1 に指数トレンド ラインを追加する
 ITrendline trendLineExp = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 trendLineExp.setDisplayEquation(false);
 trendLineExp.setDisplayRSquaredValue(false);
 ```
 
-## ステップ 3: 線形傾向線の追加
+## ステップ3: 線形トレンドラインの追加
 
-次に、一連のグラフに線形傾向線を追加します。
+次に、チャート シリーズに線形トレンド ラインを追加します。
 
 ```java
-//チャート シリーズ 1 に線形トレンド ラインを追加
+//チャートシリーズ 1 に線形トレンド ラインを追加する
 ITrendline trendLineLinear = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 trendLineLinear.setTrendlineType(TrendlineType.Linear);
 trendLineLinear.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 trendLineLinear.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-## ステップ 4: 対数傾向線の追加
+## ステップ4: 対数トレンドラインの追加
 
-次に、対数トレンド ラインを別のグラフ シリーズに追加してみましょう。
+ここで、別のチャート シリーズに対数トレンド ラインを追加してみましょう。
 
 ```java
-//チャート シリーズ 2 に対数トレンド ラインを追加
+//チャートシリーズ 2 に対数トレンド ラインを追加する
 ITrendline trendLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);
 trendLineLog.setTrendlineType(TrendlineType.Logarithmic);
 trendLineLog.addTextFrameForOverriding("New log trend line");
 ```
 
-## ステップ 5: 移動平均傾向線の追加
+## ステップ5: 移動平均トレンドラインの追加
 
-移動平均トレンド ラインを追加することもできます。
+移動平均トレンドラインを追加することもできます。
 
 ```java
-//チャート シリーズ 2 に移動平均トレンド ラインを追加
+//チャートシリーズ2に移動平均トレンドラインを追加する
 ITrendline trendLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.MovingAverage);
 trendLineMovAvg.setTrendlineType(TrendlineType.MovingAverage);
 trendLineMovAvg.setPeriod((byte) 3);
 trendLineMovAvg.setTrendlineName("New TrendLine Name");
 ```
 
-## ステップ 6: 多項式傾向線の追加
+## ステップ6: 多項式トレンドラインの追加
 
-多項式近似曲線を追加します。
+多項式トレンドラインの追加:
 
 ```java
-//チャート シリーズ 3 に多項式トレンド ラインを追加
+//チャートシリーズ 3 に多項式トレンド ラインを追加する
 ITrendline trendLinePolynomial = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
 trendLinePolynomial.setTrendlineType(TrendlineType.Polynomial);
 trendLinePolynomial.setForward(1);
 trendLinePolynomial.setOrder((byte) 3);
 ```
 
-## ステップ 7: 電力トレンド ラインの追加
+## ステップ7: パワートレンドラインの追加
 
-最後に、パワー トレンド ラインを追加しましょう。
+最後に、パワートレンドラインを追加しましょう。
 
 ```java
-//チャート シリーズ 3 にパワー トレンド ラインを追加
+//チャートシリーズ 3 にパワートレンドラインを追加する
 ITrendline trendLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);
 trendLinePower.setTrendlineType(TrendlineType.Power);
 trendLinePower.setBackward(1);
 ```
 
-## ステップ 8: プレゼンテーションを保存する
+## ステップ8: プレゼンテーションを保存する
 
-グラフにさまざまな傾向線を追加したので、プレゼンテーションを保存しましょう。
+チャートにさまざまなトレンド ラインを追加したので、プレゼンテーションを保存しましょう。
 
 ```java
 pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ```
 
-おめでとう！ Aspose.Slides for Java を使用して、Java Slides でさまざまなタイプの傾向線を含むプレゼンテーションを作成することができました。
+おめでとうございます! Aspose.Slides for Java を使用して、Java スライドでさまざまな種類のトレンド ラインを含むプレゼンテーションを正常に作成しました。
 
-## Java スライドのチャート傾向線の完全なソース コード
+## Java スライドのチャートトレンドラインの完全なソースコード
 
 ```java
-//ドキュメントディレクトリへのパス。
+//ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//ディレクトリが存在しない場合は作成します。
+//ディレクトリがまだ存在しない場合は作成します。
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-//空のプレゼンテーションの作成
+//空のプレゼンテーションを作成しています
 Presentation pres = new Presentation();
 //集合縦棒グラフの作成
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-//チャート シリーズ 1 にポテンシャル トレンド ラインを追加
+//チャートシリーズ 1 に指数トレンド ラインを追加する
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
-//チャート シリーズ 1 に線形トレンド ラインを追加
+//チャートシリーズ 1 に線形トレンド ラインを追加する
 ITrendline tredLineLin = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 tredLineLin.setTrendlineType(TrendlineType.Linear);
 tredLineLin.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 tredLineLin.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-//チャート シリーズ 2 に対数トレンド ラインを追加
+//チャートシリーズ 2 に対数トレンド ラインを追加する
 ITrendline tredLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);
 tredLineLog.setTrendlineType(TrendlineType.Logarithmic);
 tredLineLog.addTextFrameForOverriding("New log trend line");
-//チャート シリーズ 2 に移動平均トレンド ラインを追加
+//チャートシリーズ2に移動平均トレンドラインを追加する
 ITrendline tredLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.MovingAverage);
 tredLineMovAvg.setTrendlineType(TrendlineType.MovingAverage);
 tredLineMovAvg.setPeriod((byte) 3);
 tredLineMovAvg.setTrendlineName("New TrendLine Name");
-//チャート シリーズ 3 に多項式トレンド ラインを追加
+//チャートシリーズ 3 に多項式トレンド ラインを追加する
 ITrendline tredLinePol = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
 tredLinePol.setTrendlineType(TrendlineType.Polynomial);
 tredLinePol.setForward(1);
 tredLinePol.setOrder((byte) 3);
-//チャート シリーズ 3 にパワー トレンド ラインを追加
+//チャートシリーズ 3 にパワートレンドラインを追加する
 ITrendline tredLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);
 tredLinePower.setTrendlineType(TrendlineType.Power);
 tredLinePower.setBackward(1);
-//プレゼンテーションの保存
+//プレゼンテーションを保存しています
 pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ```
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for Java ライブラリを使用して、Java Slides のグラフにさまざまなタイプの傾向線を追加する方法を学習しました。データ分析に取り組んでいる場合でも、有益なプレゼンテーションを作成している場合でも、傾向を視覚化する機能は強力なツールとなります。
+このチュートリアルでは、Aspose.Slides for Java ライブラリを使用して、Java スライドのグラフにさまざまな種類のトレンド ラインを追加する方法を学習しました。データ分析に取り組んでいる場合でも、情報豊富なプレゼンテーションを作成している場合でも、トレンドを視覚化する機能は強力なツールになります。
 
 ## よくある質問
 
-### Aspose.Slides for Java で傾向線の色を変更するにはどうすればよいですか?
+### Aspose.Slides for Java でトレンド ラインの色を変更するにはどうすればよいですか?
 
-傾向線の色を変更するには、`getSolidFillColor().setColor(Color)`直線トレンド ラインを追加する例に示すように、メソッドを使用します。
+トレンドラインの色を変更するには、`getSolidFillColor().setColor(Color)`線形トレンド ラインを追加する例に示すように、この方法を使用します。
 
-### 単一のグラフ シリーズに複数の傾向線を追加できますか?
+### 1 つのチャート シリーズに複数のトレンド ラインを追加できますか?
 
-はい、複数の傾向線を 1 つのグラフ シリーズに追加できます。電話するだけです`getTrendLines().add()`追加するトレンドラインごとにメソッドを追加します。
+はい、1つのチャートシリーズに複数のトレンドラインを追加できます。`getTrendLines().add()`追加するトレンド ラインごとにメソッドを選択します。
 
-### Aspose.Slides for Java のグラフから傾向線を削除するにはどうすればよいですか?
+### Aspose.Slides for Java のグラフからトレンド ラインを削除するにはどうすればよいですか?
 
-チャートから傾向線を削除するには、`removeAt(int index)`メソッドを使用して、削除する傾向線のインデックスを指定します。
+チャートからトレンドラインを削除するには、`removeAt(int index)`メソッドでは、削除するトレンド ラインのインデックスを指定します。
 
-### 傾向線の方程式の表示をカスタマイズすることはできますか?
+### トレンドライン方程式の表示をカスタマイズすることは可能ですか?
 
-はい、傾向線の方程式の表示をカスタマイズできます。`setDisplayEquation(boolean)`例で示したように、メソッドを使用します。
+はい、トレンドライン方程式の表示をカスタマイズするには、`setDisplayEquation(boolean)`例に示すように、この方法を使用します。
 
-### Aspose.Slides for Java のその他のリソースや例にアクセスするにはどうすればよいですか?
+### Aspose.Slides for Java のその他のリソースや例にアクセスするにはどうすればよいでしょうか?
 
- Aspose.Slides for Java の追加リソース、ドキュメント、例には、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/).
+ Aspose.Slides for Javaの追加のリソース、ドキュメント、およびサンプルは、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/).

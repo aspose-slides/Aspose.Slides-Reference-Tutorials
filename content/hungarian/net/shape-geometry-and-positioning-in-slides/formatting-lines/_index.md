@@ -40,7 +40,7 @@ ISlide sld = pres.Slides[0];
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 75);
 ```
-## 5. lépés: Állítsa be a téglalap kitöltési színét
+## 5. lépés: Állítsa be a Téglalap kitöltési színét
 ```csharp
 shp.FillFormat.FillType = FillType.Solid;
 shp.FillFormat.SolidFillColor.Color = Color.White;
@@ -56,7 +56,7 @@ shp.LineFormat.DashStyle = LineDashStyle.Dash;
 shp.LineFormat.FillFormat.FillType = FillType.Solid;
 shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Blue;
 ```
-## 8. lépés: Mentse el a bemutatót
+## 8. lépés: Mentse el a prezentációt
 ```csharp
 pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
 }

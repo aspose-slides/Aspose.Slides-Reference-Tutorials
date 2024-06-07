@@ -18,7 +18,7 @@ A prezentációk dinamikus birodalmában az alakzatok klónozásának képesség
 
 Az alakzatok klónozása magában foglalja a meglévő alakzatok azonos másolatainak létrehozását egy bemutató dián belül. Ez a technika rendkívül hasznos, ha konzisztens tervezési témát szeretne megőrizni a diák során, vagy ha összetett alakzatokat kell lemásolnia anélkül, hogy a nulláról kezdené.
 
-### Az Aspose ereje. Diák
+### Az Aspose ereje.Diák
 
 Az Aspose.Slides egy vezető API, amely felhatalmazza a fejlesztőket a prezentációs fájlok programozott kezelésére. Gazdag szolgáltatáskészlete magában foglalja az alakzatok erőfeszítés nélküli klónozásának lehetőségét, így időt és erőfeszítést takaríthat meg a prezentáció létrehozási folyamata során.
 
@@ -74,7 +74,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 Ha egyszerre több alakzatot szeretne klónozni, hozzon létre egy hurkot, amely végigfut a forrásalakzatokon, és klónokat ad hozzá a céldiához.
 
-### Klónozhatok alakzatokat a különböző prezentációk között?
+### Lehet-e alakzatokat klónozni a különböző prezentációk között?
 
 Igen tudsz. Egyszerűen nyissa meg a forrásbemutatót és a célprezentációt az Aspose.Slides segítségével, majd kövesse az ebben az útmutatóban felvázolt klónozási folyamatot.
 

@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
- Ez a kód az első sorozat (0. index) minden adatpontján áthalad, és mind az X, mind az Y értékeket beállítja`null`hatékonyan törli az adatpontokat.
+Ez a kód az első sorozat (0. index) minden adatpontján áthalad, és mind az X, mind az Y értékeket beállítja`null`, hatékonyan törli az adatpontokat.
 
 ## 4. lépés: Távolítsa el a törölt adatpontokat
 
@@ -116,7 +116,7 @@ Igen, törölheti az adatpontokat egy feltétel alapján, ha feltételes logiká
 
 ### Hogyan adhatok új adatpontokat egy diagramsorozathoz az Aspose.Slides for Java segítségével?
 
- Ha új adatpontokat szeretne hozzáadni egy diagramsorozathoz, használja a`addDataPoint`sorozat módszere. Egyszerűen hozzon létre új adatpontokat, és adja hozzá őket a sorozathoz ezzel a módszerrel.
+Ha új adatpontokat szeretne hozzáadni egy diagramsorozathoz, használja a`addDataPoint` sorozat módszere. Egyszerűen hozzon létre új adatpontokat, és adja hozzá őket a sorozathoz ezzel a módszerrel.
 
 ### Hol találhatok további információt az Aspose.Slides for Java programról?
 

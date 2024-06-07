@@ -75,7 +75,7 @@ Aspose.Slides for Java kullanarak Java Slides'tan grafik görüntüleri elde etm
 
 ### Aspose.Slides for Java'yı nasıl yüklerim?
 
- Aspose.Slides for Java'yı yüklemek basittir. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/)ve belgelerde verilen kurulum talimatlarını izleyin.
+ Aspose.Slides for Java'yı yüklemek basittir. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/) ve belgelerde verilen kurulum talimatlarını izleyin.
 
 ### Grafiği, görüntüsünü almadan önce özelleştirebilir miyim?
 
@@ -91,4 +91,4 @@ Evet, Aspose.Slides for Java ticari amaçlarla kullanılabilir. Hem bireysel gel
 
 ### Grafik görselini farklı bir formatta kaydedebilir miyim?
 
-Kesinlikle! Grafik görselini, uygun dosya uzantısını belirterek, JPEG veya GIF gibi çeşitli formatlarda kaydedebilirsiniz.`ImageIO.write` yöntem.
+ Kesinlikle! Grafik görselini, uygun dosya uzantısını belirterek, JPEG veya GIF gibi çeşitli formatlarda kaydedebilirsiniz.`ImageIO.write` yöntem.

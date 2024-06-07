@@ -14,7 +14,7 @@ V dynamické sféře prezentací je schopnost klonovat tvary životně důležit
 
 ## Klonování tvarů: Základy
 
-### Porozumění klonování
+### Pochopení klonování
 
 Klonování tvarů zahrnuje vytváření identických kopií existujících tvarů v rámci snímku prezentace. Tato technika je nesmírně užitečná, když chcete zachovat konzistentní téma designu na snímcích nebo když potřebujete duplikovat složité tvary, aniž byste začínali od nuly.
 
@@ -70,7 +70,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 ## Často kladené otázky (FAQ)
 
-### Jak mohu naklonovat více tvarů současně?
+### Jak mohu klonovat více tvarů současně?
 
 Chcete-li klonovat více obrazců najednou, vytvořte smyčku, která bude iterovat zdrojové obrazce a přidá klony do cílového snímku.
 

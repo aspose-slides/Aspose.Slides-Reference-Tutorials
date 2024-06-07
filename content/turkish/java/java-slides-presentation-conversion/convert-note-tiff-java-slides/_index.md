@@ -94,7 +94,7 @@ Bu eğitimde, Aspose.Slides for Java kütüphanesini kullanarak notlar içeren b
 
 ### Aspose.Slides for Java'yı nasıl yüklerim?
 
- Aspose.Slides for Java'yı şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/java/)ve belgelerde verilen kurulum talimatlarını izleyin.
+ Aspose.Slides for Java'yı şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/java/) ve belgelerde verilen kurulum talimatlarını izleyin.
 
 ### PowerPoint sunumlarını diğer formatlara da dönüştürebilir miyim?
 

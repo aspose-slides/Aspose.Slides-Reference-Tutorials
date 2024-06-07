@@ -46,7 +46,7 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-Bu örnekte grafiği, düzen hedef türü "İç" olacak şekilde ayarladık; bu, grafiğin slaydın iç alanına göre konumlandırılacağı ve boyutlandırılacağı anlamına gelir.
+Bu örnekte grafiği, düzen hedef türü "İç" olacak şekilde ayarladık; bu, slaydın iç alanına göre konumlandırılacağı ve boyutlandırılacağı anlamına gelir.
 
 ## 4. Adım: Sunuyu Kaydetme
 

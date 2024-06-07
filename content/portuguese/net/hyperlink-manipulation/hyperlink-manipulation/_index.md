@@ -117,7 +117,7 @@ Sim, Aspose.Slides permite adicionar hiperlinks a vários objetos, incluindo for
 Absolutamente. Aspose.Slides oferece suporte a vários formatos de PowerPoint, incluindo PPT, PPTX, PPS e muito mais. Garante compatibilidade com diferentes versões do Microsoft PowerPoint.
 
 ### Onde posso encontrar recursos adicionais e suporte para Aspose.Slides?
-Para documentação detalhada e suporte da comunidade, visite o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/) e a[Aspose fórum de suporte](https://forum.aspose.com/).
+ Para documentação detalhada e suporte da comunidade, visite o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/) e a[Aspose fórum de suporte](https://forum.aspose.com/).
 
 ### Como posso obter uma licença temporária para Aspose.Slides?
  Se precisar de uma licença temporária para Aspose.Slides, você pode obter uma[aqui](https://purchase.aspose.com/temporary-license/).

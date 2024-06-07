@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// 차트 데이터 시트의 인덱스 설정
 	int defaultWorksheetIndex = 0;
-	//차트 데이터 워크시트 가져오기
+	// 차트 데이터 워크시트 가져오기
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// 기본 생성된 시리즈 및 카테고리 삭제
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// 새로운 시리즈 추가
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// 이제 계열 데이터를 채우는 중입니다.
+	//이제 계열 데이터를 채우는 중입니다.
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 원�
 
 ### 원형 차트에서 개별 조각의 색상을 어떻게 사용자 정의할 수 있나요?
 
- 원형 차트에서 개별 조각의 색상을 사용자 정의하려면`getAutomaticSeriesColors`기본 색상 구성표를 검색한 다음 필요에 따라 색상을 수정하는 방법입니다. 예는 다음과 같습니다.
+ 원형 차트에서 개별 조각의 색상을 사용자 정의하려면`getAutomaticSeriesColors` 기본 색상 구성표를 검색한 다음 필요에 따라 색상을 수정하는 방법입니다. 예는 다음과 같습니다.
 
 ```java
-// 기본 색 구성표 가져오기
+//기본 색 구성표 가져오기
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // 필요에 따라 색상을 수정하세요.

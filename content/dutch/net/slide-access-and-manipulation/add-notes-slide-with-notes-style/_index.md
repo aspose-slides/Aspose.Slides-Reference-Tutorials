@@ -18,7 +18,7 @@ Voordat we ingaan op de stapsgewijze zelfstudie, moet u ervoor zorgen dat u aan 
     Aspose.Slides voor .NET moet geïnstalleerd zijn. Als u dat nog niet heeft gedaan, kunt u deze downloaden van de website[hier](https://releases.aspose.com/slides/net/).
 
 ### 2. Een PowerPoint-presentatie
-   U zou een PowerPoint-presentatiebestand (PPTX) moeten hebben waaraan u stijlvolle notitieopmaak wilt toevoegen. Zorg ervoor dat u het pad naar dit presentatiebestand kent.
+   zou een PowerPoint-presentatiebestand (PPTX) moeten hebben waaraan u stijlvolle notitieopmaak wilt toevoegen. Zorg ervoor dat u het pad naar dit presentatiebestand kent.
 
 Nu we onze vereisten gereed hebben, gaan we verder met de stapsgewijze handleiding.
 
@@ -37,7 +37,7 @@ Laten we nu eens in de kern van onze tutorial duiken: stijlvolle notitieopmaak t
 
 ### Stap 2.1: Presentatieklas instantiëren
 
- Eerst moeten we een exemplaar maken van de`Presentation`klasse die uw PowerPoint-presentatiebestand vertegenwoordigt. U moet het pad naar uw presentatiebestand opgeven in het`dataDir` variabel.
+ Eerst moeten we een exemplaar maken van de`Presentation` klasse die uw PowerPoint-presentatiebestand vertegenwoordigt. U moet het pad naar uw presentatiebestand opgeven in het`dataDir` variabel.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Stap 2.2: Toegang tot de Master Notes-dia
 
- Binnen de`using` blok, hebben we toegang tot de dia met hoofdnotities. De dia met basisnotities bevat de standaardstijl voor notities in uw presentatie.
+ Binnen de`using`blok, hebben we toegang tot de dia met hoofdnotities. De dia met basisnotities bevat de standaardstijl voor notities in uw presentatie.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

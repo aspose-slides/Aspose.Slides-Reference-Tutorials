@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Tingkatkan daya tarik visual slide presentasi Anda dengan mudah dengan memanfaatkan Aspose.Slides untuk .NET untuk menyelaraskan bentuk dengan tepat. Panduan langkah demi langkah ini telah membekali Anda dengan pengetahuan untuk menyederhanakan proses penyelarasan dan membuat presentasi yang terlihat profesional.
 ## FAQ
 ### Bisakah saya menyelaraskan bentuk dalam presentasi yang sudah ada menggunakan Aspose.Slides untuk .NET?
- Ya, Anda dapat memuat presentasi yang sudah ada menggunakan`Presentation.Load` dan kemudian lanjutkan dengan menyelaraskan bentuk.
+ Ya, Anda dapat memuat presentasi yang sudah ada menggunakan`Presentation.Load`dan kemudian lanjutkan dengan menyelaraskan bentuk.
 ### Apakah ada opsi penyelarasan lain yang tersedia di Aspose.Slides?
 Aspose.Slides menawarkan berbagai opsi perataan, termasuk AlignTop, AlignRight, AlignBottom, AlignLeft, dan banyak lagi.
 ### Bisakah saya menyelaraskan bentuk berdasarkan distribusinya dalam slide?

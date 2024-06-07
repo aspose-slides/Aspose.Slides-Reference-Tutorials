@@ -70,7 +70,7 @@ p.Slides.InsertEmptySlide(0, layoutSlide);
 
 Ebben a példában az üres diát a 0 pozícióba szúrjuk be, de szükség szerint megadhat egy másik pozíciót is.
 
-## 4. lépés: Mentse el a prezentációt
+## 4. lépés: Mentse el a bemutatót
 
  Végül itt az ideje, hogy mentse a frissített prezentációt. Használhatja a`Save`módszerrel mentheti a prezentációt a kívánt formátumban. Íme a kód:
 

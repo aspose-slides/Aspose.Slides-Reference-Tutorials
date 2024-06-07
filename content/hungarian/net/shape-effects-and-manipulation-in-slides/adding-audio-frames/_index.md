@@ -8,7 +8,7 @@ weight: 14
 url: /hu/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
 ## Bevezetés
-prezentációk dinamikus világában az audioelemek beépítése jelentősen javíthatja a közönség általános élményét. Az Aspose.Slides for .NET lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen integrálják az audio kereteket a prezentációs diákba, új réteget adva hozzá az elköteleződéshez és az interaktivitáshoz. Ez a részletes útmutató végigvezeti az Aspose.Slides for .NET segítségével hangkeretek hozzáadásának folyamatán.
+A prezentációk dinamikus világában az audioelemek beépítése jelentősen javíthatja a közönség általános élményét. Az Aspose.Slides for .NET lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen integrálják az audio kereteket a prezentációs diákba, új réteget adva hozzá az elköteleződéshez és az interaktivitáshoz. Ez a részletes útmutató végigvezeti az Aspose.Slides for .NET segítségével hangkeretek hozzáadásának folyamatán.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 1.  Aspose.Slides for .NET Library: Töltse le és telepítse az Aspose.Slides for .NET könyvtárat a[letöltési link](https://releases.aspose.com/slides/net/).

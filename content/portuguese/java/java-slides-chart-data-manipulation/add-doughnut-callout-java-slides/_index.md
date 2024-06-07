@@ -179,4 +179,4 @@ Sim, você pode adicionar quantos pontos de dados forem necessários ao gráfico
 
 ### Como posso ajustar a posição e o tamanho do gráfico de rosca no slide?
 
- Você pode alterar a posição e o tamanho do gráfico de rosca modificando os parâmetros na caixa`addChart` método. Os quatro números nesse método correspondem às coordenadas X e Y do canto superior esquerdo do gráfico e à sua largura e altura, respectivamente.
+Você pode alterar a posição e o tamanho do gráfico de rosca modificando os parâmetros na caixa`addChart` método. Os quatro números nesse método correspondem às coordenadas X e Y do canto superior esquerdo do gráfico e à sua largura e altura, respectivamente.

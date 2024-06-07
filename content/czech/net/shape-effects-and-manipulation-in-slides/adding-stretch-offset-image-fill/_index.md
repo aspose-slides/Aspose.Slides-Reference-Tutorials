@@ -42,7 +42,7 @@ Načtěte první snímek z prezentace, se kterým budete pracovat.
 ISlide sld = pres.Slides[0];
 ```
 ## Krok 4: Vytvořte instanci třídy ImageEx
- Vytvořte instanci souboru`ImageEx` třídy pro zpracování obrázku, který chcete přidat na snímek.
+ Vytvořte instanci souboru`ImageEx`třídy pro zpracování obrázku, který chcete přidat na snímek.
 ```csharp
 System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
 IPPImage imgx = pres.Images.AddImage(img);

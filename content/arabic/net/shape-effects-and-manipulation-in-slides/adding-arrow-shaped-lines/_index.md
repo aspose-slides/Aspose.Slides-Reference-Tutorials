@@ -74,7 +74,7 @@ pres.Save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### هل يمكنني تخصيص أنماط رأس السهم بشكل أكبر؟
 قطعاً! يوفر Aspose.Slides خيارات شاملة لتخصيص أطوال رأس السهم وأنماطه والمزيد.
 ### أين يمكنني العثور على وثائق Aspose.Slides الإضافية؟
- استكشف الوثائق[هنا](https://reference.aspose.com/slides/net/) للحصول على معلومات وأمثلة متعمقة.
+ استكشف الوثائق[هنا](https://reference.aspose.com/slides/net/)للحصول على معلومات وأمثلة متعمقة.
 ### هل هناك نسخة تجريبية مجانية متاحة؟
  نعم، يمكنك تجربة Aspose.Slides من خلال النسخة التجريبية المجانية. تنزيله[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides؟

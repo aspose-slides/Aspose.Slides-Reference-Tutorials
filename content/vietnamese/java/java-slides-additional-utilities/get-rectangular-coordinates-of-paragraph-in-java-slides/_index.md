@@ -99,7 +99,7 @@ Có, bạn có thể truy xuất tọa độ cho các đoạn văn trong nhiều
 
 ### Làm cách nào để thao tác tọa độ đoạn văn theo chương trình?
 
-Khi bạn đã truy xuất tọa độ của một đoạn văn, bạn có thể sử dụng thông tin này để thao tác theo chương trình vị trí và kích thước của đoạn văn đó. Ví dụ: bạn có thể định vị lại đoạn văn, điều chỉnh chiều rộng hoặc chiều cao của đoạn văn hoặc thực hiện các phép tính dựa trên tọa độ của đoạn văn đó.
+Khi bạn đã truy xuất tọa độ của một đoạn văn, bạn có thể sử dụng thông tin này để lập trình thao tác vị trí và kích thước của đoạn văn đó. Ví dụ: bạn có thể định vị lại đoạn văn, điều chỉnh chiều rộng hoặc chiều cao của đoạn văn hoặc thực hiện các phép tính dựa trên tọa độ của đoạn văn đó.
 
 ### Aspose.Slides có phù hợp để xử lý hàng loạt tệp PowerPoint không?
 
@@ -107,7 +107,7 @@ Có, Aspose.Slides cho Java rất phù hợp để xử lý hàng loạt tệp P
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
 
-Bạn có thể tìm thêm các ví dụ về mã và tài liệu chi tiết về Aspose.Slides for Java trên[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/) trang mạng. Ngoài ra, bạn có thể khám phá các[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides) để được cộng đồng hỗ trợ và thảo luận.
+ Bạn có thể tìm thêm các ví dụ về mã và tài liệu chi tiết về Aspose.Slides for Java trên[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/)trang mạng. Ngoài ra, bạn có thể khám phá các[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides) để được cộng đồng hỗ trợ và thảo luận.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Slides cho Java không?
 

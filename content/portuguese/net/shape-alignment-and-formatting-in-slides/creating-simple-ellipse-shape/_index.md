@@ -57,7 +57,7 @@ Congratulations! You've successfully created a simple ellipse shape in a present
 ## Perguntas frequentes
 ### Posso personalizar ainda mais a forma da elipse?
 Sim, você pode modificar várias propriedades da forma da elipse, como cor, tamanho e posição, para atender aos seus requisitos específicos de projeto.
-### Aspose.Slides é compatível com os frameworks .NET mais recentes?
+### O Aspose.Slides é compatível com os frameworks .NET mais recentes?
 Sim, o Aspose.Slides é atualizado regularmente para garantir compatibilidade com os frameworks .NET mais recentes.
 ### Onde posso encontrar mais tutoriais e exemplos para Aspose.Slides?
  Visite a[documentação](https://reference.aspose.com/slides/net/) para guias e exemplos completos.

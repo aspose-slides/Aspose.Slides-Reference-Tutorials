@@ -52,7 +52,7 @@ Trong bước này, chúng ta tạo hình Biểu đồ Hộp trên slide đầu 
     chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 1"));
 ```
 
- Trong bước này, chúng tôi xác định các danh mục cho Biểu đồ hộp. Chúng tôi sử dụng`IChartDataWorkbook`để thêm danh mục và gắn nhãn cho chúng cho phù hợp.
+ Trong bước này, chúng tôi xác định các danh mục cho Biểu đồ hộp. Chúng tôi sử dụng`IChartDataWorkbook` để thêm danh mục và gắn nhãn cho chúng cho phù hợp.
 
 ## Bước 4: Tạo chuỗi
 

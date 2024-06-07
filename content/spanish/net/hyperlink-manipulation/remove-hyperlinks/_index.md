@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- En el código anterior, reemplace`"Your Document Directory"`con la ruta real a su directorio de documentos y`"Hyperlink.pptx"` con el nombre de su archivo de presentación de PowerPoint.
+ En el código anterior, reemplace`"Your Document Directory"` con la ruta real a su directorio de documentos y`"Hyperlink.pptx"` con el nombre de su archivo de presentación de PowerPoint.
 
 ## Paso 3: eliminar hipervínculos
 
@@ -83,4 +83,4 @@ Absolutamente. Aspose.Slides para .NET le permite automatizar tareas en múltipl
 Sí, Aspose.Slides para .NET ofrece una amplia gama de funciones, incluida la creación, edición y conversión de diapositivas a varios formatos.
 
 ### ¿Hay soporte técnico disponible para Aspose.Slides para .NET?
- Sí, puede buscar soporte técnico e interactuar con la comunidad de Aspose en el[asponer foro](https://forum.aspose.com/).
+ Sí, puede buscar soporte técnico e interactuar con la comunidad de Aspose en el[aspose foro](https://forum.aspose.com/).

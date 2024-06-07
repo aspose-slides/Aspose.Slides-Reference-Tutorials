@@ -10,7 +10,7 @@ url: /sv/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 
 ## Introduktion till Automatic Chart Series Color i Aspose.Slides för Java
 
-den här handledningen kommer vi att utforska hur man skapar en PowerPoint-presentation med ett diagram med Aspose.Slides för Java och ställer in automatiska fyllningsfärger för diagramserier. Automatiska fyllningsfärger kan göra dina diagram mer visuellt tilltalande och spara tid genom att låta biblioteket välja färger åt dig.
+I den här handledningen kommer vi att utforska hur man skapar en PowerPoint-presentation med ett diagram med Aspose.Slides för Java och ställer in automatiska fyllningsfärger för diagramserier. Automatiska fyllningsfärger kan göra dina diagram mer visuellt tilltalande och spara tid genom att låta biblioteket välja färger åt dig.
 
 ## Förutsättningar
 
@@ -47,13 +47,13 @@ Nu kommer vi att fylla i diagrammet med data. Vi börjar med att ta bort de stan
 ```java
 // Ställa in index för diagramdatabladet
 int defaultWorksheetIndex = 0;
-//Hämta arbetsbladet för diagramdata
+// Hämta arbetsbladet för diagramdata
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Ta bort standardgenererade serier och kategorier
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 
-// Lägger till nya serier
+// Lägger till ny serie
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 
@@ -70,14 +70,14 @@ Vi kommer att fylla i seriedata för både serie 1 och serie 2.
 ```java
 // Ta första diagramserien
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// Fyller nu på seriedata
+//Fyller nu på seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// Ta andra diagramserien
+// Ta den andra diagramserien
 series = chart.getChartData().getSeries().get_Item(1);
-// Fyller nu på seriedata
+//Fyller nu på seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -118,14 +118,14 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Ställa in index för diagramdatabladet
 	int defaultWorksheetIndex = 0;
-	//Hämta arbetsbladet för diagramdata
+	// Hämta arbetsbladet för diagramdata
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Ta bort standardgenererade serier och kategorier
 	chart.getChartData().getSeries().clear();
 	chart.getChartData().getCategories().clear();
 	int s = chart.getChartData().getSeries().size();
 	s = chart.getChartData().getCategories().size();
-	// Lägger till nya serier
+	// Lägger till ny serie
 	chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 	chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 	// Lägger till nya kategorier
@@ -134,19 +134,19 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Ta första diagramserien
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	// Fyller nu på seriedata
+	//Fyller nu på seriedata
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 	// Ställa in automatisk fyllningsfärg för serier
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
-	// Ta andra diagramserien
+	// Ta den andra diagramserien
 	series = chart.getChartData().getSeries().get_Item(1);
-	// Fyller nu på seriedata
+	//Fyller nu på seriedata
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	// Ställa in fyllningsfärg för serier
+	//Ställa in fyllnadsfärg för serier
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Spara presentationen med diagram
@@ -181,7 +181,7 @@ Denna kod låter biblioteket välja färger automatiskt för diagramserien.
 
 ### Hur kan jag lägga till ytterligare serier eller kategorier i diagrammet?
 
- För att lägga till ytterligare serier eller kategorier till diagrammet, använd`getSeries()` och`getCategories()` diagrammets metoder`ChartData` objekt. Du kan lägga till nya serier och kategorier genom att ange deras data och etiketter.
+För att lägga till ytterligare serier eller kategorier till diagrammet, använd`getSeries()` och`getCategories()` diagrammets metoder`ChartData` objekt. Du kan lägga till nya serier och kategorier genom att ange deras data och etiketter.
 
 ### Är det möjligt att ytterligare formatera diagrammet och etiketterna?
 

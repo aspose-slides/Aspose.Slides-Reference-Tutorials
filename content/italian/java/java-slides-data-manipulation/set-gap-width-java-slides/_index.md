@@ -54,7 +54,7 @@ int defaultWorksheetIndex = 0;
 ### 5. Ottieni la cartella di lavoro dei dati del grafico
 
 ```java
-//Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 ```
 
@@ -117,7 +117,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.StackedColumn, 0, 0, 500, 500);
 // Impostazione dell'indice della scheda grafica
 int defaultWorksheetIndex = 0;
-//Ottenere il foglio di lavoro con i dati del grafico
+// Ottenere il foglio di lavoro con i dati del grafico
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Aggiungi serie
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
@@ -128,7 +128,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Prendi la seconda serie di grafici
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-// Ora popolano i dati delle serie
+//Ora popolano i dati delle serie
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

@@ -58,7 +58,7 @@ Sekarang, presentasi Anda menyertakan bingkai video yang terintegrasi dengan mul
 Memasukkan bingkai video ke dalam slide presentasi menggunakan Aspose.Slides untuk .NET adalah proses mudah yang menambahkan sentuhan dinamis pada konten Anda. Sempurnakan presentasi Anda dengan memanfaatkan elemen multimedia, memikat audiens, dan memberikan pengalaman yang tak terlupakan.
 ## FAQ
 ### Q1: Dapatkah saya menambahkan beberapa bingkai video ke satu slide?
-Ya, Anda dapat menambahkan beberapa bingkai video ke satu slide dengan mengulangi proses yang dijelaskan dalam tutorial untuk setiap bingkai video.
+Ya, Anda dapat menambahkan beberapa bingkai video ke satu slide dengan mengulangi proses yang diuraikan dalam tutorial untuk setiap bingkai video.
 ### Q2: Format video apa yang didukung oleh Aspose.Slides untuk .NET?
 Aspose.Slides untuk .NET mendukung berbagai format video, termasuk AVI, WMV, dan MP4.
 ### Q3: Dapatkah saya mengontrol opsi pemutaran untuk video yang disisipkan?

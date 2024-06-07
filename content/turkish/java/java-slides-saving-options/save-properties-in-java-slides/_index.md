@@ -42,7 +42,7 @@ Presentation presentation = new Presentation();
 Başlık, yazar, anahtar kelimeler ve daha fazlası gibi çeşitli belge özelliklerini ayarlayabilirsiniz. Burada birkaç ortak özelliği belirleyeceğiz:
 
 ```java
-// Sunumun başlığını belirleyin
+// Sunumun başlığını ayarlayın
 presentation.getDocumentProperties().setTitle("My Presentation");
 
 // Sununun yazarını ayarlama
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Belgeler dizininin yolu.
 String dataDir = "Your Document Directory";
-// Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
+//Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
 Presentation presentation = new Presentation();
 try
 {
@@ -116,7 +116,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumunda belge ö
  Aspose.Slides for Java'da belge özelliklerini ayarlamak için`DocumentProperties` sınıf. Başlık, yazar ve anahtar kelimeler gibi özelliklerin nasıl ayarlanacağına ilişkin bir örneği burada bulabilirsiniz:
 
 ```java
-// Sunumun başlığını belirleyin
+// Sunumun başlığını ayarlayın
 presentation.getDocumentProperties().setTitle("My Presentation");
 
 // Sununun yazarını ayarlama

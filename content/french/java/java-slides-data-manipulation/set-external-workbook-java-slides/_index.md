@@ -37,7 +37,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 
 
 Ensuite, nous insérons un diagramme circulaire dans la présentation. Vous pouvez personnaliser le type et la position du graphique selon vos besoins.
 
-## Étape 3 : accéder au classeur externe
+## Étape 3 : Accéder au classeur externe
 
 ```java
 IChartData chartData = chart.getChartData();
@@ -46,7 +46,7 @@ chartData.setExternalWorkbook(dataDir + "externalWorkbook.xlsx");
 
  Pour accéder au classeur externe, nous utilisons le`setExternalWorkbook` et fournissez le chemin d’accès au classeur Excel contenant les données.
 
-## Étape 4 : lier les données du graphique
+## Étape 4 : Lier les données du graphique
 
 ```java
 chartData.getSeries().add(chartData.getChartDataWorkbook().getCell(0, "B1"), ChartType.Pie);

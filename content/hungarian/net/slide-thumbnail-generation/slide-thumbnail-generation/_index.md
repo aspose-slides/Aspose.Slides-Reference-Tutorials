@@ -8,7 +8,7 @@ weight: 10
 url: /hu/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
 
-Ha dia miniatűröket szeretne létrehozni .NET-alkalmazásaiban az Aspose.Slides segítségével, akkor jó helyen jár. A diabélyegképek létrehozása értékes szolgáltatás lehet különféle forgatókönyvekben, például egyéni PowerPoint-megtekintők készítésénél vagy prezentációk kép-előnézeteinek létrehozásában. Ebben az átfogó útmutatóban lépésről lépésre végigvezetjük a folyamaton. Leírjuk az előfeltételeket, a névterek importálását, és az egyes példákat több lépésre bontjuk, így megkönnyítve a dia miniatűrök létrehozásának zökkenőmentes megvalósítását.
+Ha dia miniatűröket szeretne létrehozni .NET-alkalmazásaiban az Aspose.Slides segítségével, akkor jó helyen jár. A diabélyegképek létrehozása értékes szolgáltatás lehet különféle forgatókönyvekben, például egyéni PowerPoint-megtekintők készítésénél vagy prezentációk kép-előnézeteinek létrehozásában. Ebben az átfogó útmutatóban lépésről lépésre végigvezetjük a folyamaton. Leírjuk az előfeltételeket, a névterek importálását, és az egyes példákat több lépésre bontjuk, így megkönnyítve a diabélyegképek létrehozásának zökkenőmentes megvalósítását.
 
 ## Előfeltételek
 
@@ -25,7 +25,7 @@ Szüksége lesz egy PowerPoint-dokumentumra a dia miniatűrök kinyeréséhez. G
 ### 3. .NET fejlesztői környezet
 A .NET gyakorlati ismerete és a beállított fejlesztői környezet elengedhetetlen ehhez az oktatóanyaghoz.
 
-Most, hogy teljesítette az előfeltételeket, kezdjük el az Aspose.Slides for .NET-hez készült csúsztatási miniatűrök létrehozásának lépésenkénti útmutatójával.
+Most, hogy teljesítette az előfeltételeket, kezdjük el az Aspose.Slides for.NET-hez készült csúsztatási miniatűrök létrehozásának lépésenkénti útmutatójával.
 
 ## Névterek importálása
 

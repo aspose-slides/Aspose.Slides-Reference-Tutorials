@@ -15,7 +15,7 @@ In deze zelfstudie onderzoeken we hoe u een PowerPoint-presentatie (PPTX) naar H
 ## Stap 1: Het project opzetten
 Voordat we in de code duiken, moeten we ervoor zorgen dat u over de benodigde instellingen beschikt:
 
-1. Aspose.Slides voor Java downloaden: Als u dat nog niet heeft gedaan, downloadt u de Aspose.Slides voor Java-bibliotheek en neemt u deze op in uw project.
+1. Aspose.Slides voor Java downloaden: als u dat nog niet heeft gedaan, downloadt u de Aspose.Slides voor Java-bibliotheek en neemt u deze op in uw project.
 
 2. Maak een Java-project: stel een Java-project in uw favoriete IDE in en zorg ervoor dat u een "lib"-map hebt waarin u het JAR-bestand Aspose.Slides kunt plaatsen.
 

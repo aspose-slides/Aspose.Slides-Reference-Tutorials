@@ -37,7 +37,7 @@ Ahora, profundicemos en el núcleo de nuestro tutorial: agregar un formato de no
 
 ### Paso 2.1: Crear una instancia de la clase de presentación
 
- Primero, necesitamos crear una instancia del`Presentation`clase que representa su archivo de presentación de PowerPoint. Debe proporcionar la ruta a su archivo de presentación en el`dataDir` variable.
+ Primero, necesitamos crear una instancia del`Presentation` clase que representa su archivo de presentación de PowerPoint. Debe proporcionar la ruta a su archivo de presentación en el`dataDir` variable.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 
 ### Paso 2.2: Acceda a la diapositiva de notas maestras
 
- Dentro de`using` bloque, accedemos a la diapositiva de notas maestras. La diapositiva de notas maestras contiene el estilo predeterminado para las notas de su presentación.
+ Dentro de`using`bloque, accedemos a la diapositiva de notas maestras. La diapositiva de notas maestras contiene el estilo predeterminado para las notas de su presentación.
 
 ```csharp
 IMasterNotesSlide notesMaster = presentation.MasterNotesSlideManager.MasterNotesSlide;

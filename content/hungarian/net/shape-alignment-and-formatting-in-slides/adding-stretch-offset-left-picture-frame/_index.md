@@ -11,7 +11,7 @@ url: /hu/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left
 Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a PowerPoint prezentációk egyszerű kezelését. Ebben az oktatóanyagban azt a folyamatot vizsgáljuk meg, amely során az Aspose.Slides for .NET segítségével nyúlási eltolást adunk a képkeret bal oldalához. Kövesse ezt a lépésenkénti útmutatót a PowerPoint-bemutatókon belüli képekkel és alakzatokkal kapcsolatos készségeinek fejlesztéséhez.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-- Aspose.Slides for .NET: Győződjön meg arról, hogy a könyvtár telepítve van. Ha nem, töltse le a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Győződjön meg arról, hogy a könyvtár telepítve van. Ha nem, töltse le a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
 - Fejlesztési környezet: .NET-képességekkel rendelkező, működő fejlesztői környezettel.
 ## Névterek importálása
 Kezdje a szükséges névterek importálásával a .NET-projektben:

@@ -49,7 +49,7 @@ Pobierz pierwszy slajd prezentacji, do którego chcesz dodać wykres kołowy.
 ## Krok 4: Dodaj wykres kołowy
 
 ```java
-// Dodaj wykres kołowy z danymi domyślnymi
+//Dodaj wykres kołowy z danymi domyślnymi
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -76,7 +76,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 // Ustawianie indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
 
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // Usuń domyślnie wygenerowane serie i kategorie
@@ -116,7 +116,7 @@ point1.getFormat().getLine().setWidth(3.0);
 point1.getFormat().getLine().setStyle(LineStyle.ThinThick);
 point1.getFormat().getLine().setDashStyle(LineDashStyle.DashDot);
 
-//Dostosuj inne sektory w podobny sposób
+// Dostosuj inne sektory w podobny sposób
 ```
 
 Dostosuj wygląd każdego sektora na wykresie kołowym. Można zmieniać kolory, style obramowań i inne właściwości wizualne.
@@ -180,7 +180,7 @@ chart.setTitle(true);
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // Ustawianie indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
-//Pobieranie arkusza danych wykresu
+// Pobieranie arkusza danych wykresu
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 // Usuń domyślnie wygenerowane serie i kategorie
 chart.getChartData().getSeries().clear();
@@ -191,11 +191,11 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Dodawanie nowej serii
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-// Teraz wypełniam dane serii
+//Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Nie działa w nowej wersji
+// Nie działa w nowej wersji
 // Dodawanie nowych punktów i ustawianie koloru sektora
 // seria.IsColorVaried = true;
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
@@ -253,7 +253,7 @@ Pomyślnie utworzyłeś wykres kołowy w prezentacji programu PowerPoint przy u�
 
 ### Jak mogę zmienić kolory poszczególnych sektorów na wykresie kołowym?
 
- Aby zmienić kolory poszczególnych sektorów na wykresie kołowym, możesz dostosować kolor wypełnienia każdego punktu danych. W podanym przykładzie kodu zademonstrowaliśmy, jak ustawić kolor wypełnienia dla każdego sektora za pomocą`getSolidFillColor().setColor()`metoda. Możesz modyfikować wartości kolorów, aby uzyskać pożądany wygląd.
+ Aby zmienić kolory poszczególnych sektorów na wykresie kołowym, możesz dostosować kolor wypełnienia każdego punktu danych. W podanym przykładzie kodu zademonstrowaliśmy, jak ustawić kolor wypełnienia dla każdego sektora za pomocą`getSolidFillColor().setColor()` metoda. Możesz modyfikować wartości kolorów, aby uzyskać pożądany wygląd.
 
 ### Czy mogę dodać więcej kategorii i serii danych do wykresu kołowego?
 
@@ -278,7 +278,7 @@ Upewnij się, że podałeś poprawną ścieżkę i format pliku.
 
 ### Czy mogę tworzyć inne typy wykresów za pomocą Aspose.Slides for Java?
 
- Tak, Aspose.Slides for Java obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy liniowe i inne. Można tworzyć różne typy wykresów, zmieniając`ChartType` podczas dodawania wykresu. Więcej szczegółów na temat tworzenia różnych typów wykresów można znaleźć w dokumentacji Aspose.Slides.
+Tak, Aspose.Slides for Java obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy liniowe i inne. Można tworzyć różne typy wykresów, zmieniając`ChartType` podczas dodawania wykresu. Więcej szczegółów na temat tworzenia różnych typów wykresów można znaleźć w dokumentacji Aspose.Slides.
 
 ### Jak mogę znaleźć więcej informacji i przykładów pracy z Aspose.Slides dla Java?
 

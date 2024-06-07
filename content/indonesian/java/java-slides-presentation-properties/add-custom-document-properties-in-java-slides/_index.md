@@ -117,7 +117,7 @@ Object customPropertyValue = documentProperties.get_Item("New Custom");
 
 ### Bisakah saya menambahkan properti khusus dari tipe data berbeda?
 
-Ya, Anda bisa menambahkan properti kustom dari berbagai tipe data, termasuk angka, string, tanggal, dan lainnya, seperti yang ditunjukkan dalam contoh. Aspose.Slides untuk Java menangani tipe data yang berbeda dengan mulus.
+Ya, Anda bisa menambahkan properti kustom dari berbagai tipe data, termasuk angka, string, tanggal, dan lainnya, seperti yang ditunjukkan dalam contoh. Aspose.Slides untuk Java menangani tipe data yang berbeda dengan lancar.
 
 ### Apakah ada batasan jumlah properti khusus yang dapat saya tambahkan?
 

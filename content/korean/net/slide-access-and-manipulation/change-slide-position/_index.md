@@ -96,7 +96,7 @@ pres.Save(dataDir + "Aspose_out.pptx", SaveFormat.Pptx);
 
 Aspose.Slides for .NET은 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 생성, 수정 및 변환할 수 있는 라이브러리입니다.
 
-### 2. Aspose.Slides for .NET을 사용하여 기존 프레젠테이션에서 슬라이드 위치를 조정할 수 있나요?
+### 2. Aspose.Slides for .NET을 사용하여 기존 프레젠테이션에서 슬라이드 위치를 조정할 수 있습니까?
 
 예, 이 튜토리얼에서 설명한 대로 Aspose.Slides for .NET을 사용하여 프레젠테이션 내에서 슬라이드 위치를 조정할 수 있습니다.
 

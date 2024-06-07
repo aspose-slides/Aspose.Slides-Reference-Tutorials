@@ -102,7 +102,7 @@ Tak, możesz dostosować pozycje slajdów w prezentacji za pomocą Aspose.Slides
 
 ### 3. Gdzie mogę znaleźć więcej dokumentacji i wsparcia dla Aspose.Slides dla .NET?
 
- Dostęp do dokumentacji można uzyskać pod adresem[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/) , a aby uzyskać wsparcie, odwiedź stronę[Forum wsparcia Aspose](https://forum.aspose.com/).
+ Dostęp do dokumentacji można uzyskać pod adresem[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/) i aby uzyskać wsparcie, odwiedź stronę[Forum wsparcia Aspose](https://forum.aspose.com/).
 
 ### 4. Czy są jakieś inne zaawansowane funkcje oferowane przez Aspose.Slides dla .NET?
 

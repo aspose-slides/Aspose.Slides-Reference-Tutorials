@@ -88,8 +88,8 @@ Trong hướng dẫn này, chúng ta đã học cách thêm tùy chọn biểu �
 
 ###  làm gì`PieSplitBy` control in a Pie of Pie chart?
 
- Các`PieSplitBy`thuộc tính kiểm soát cách phân chia biểu đồ hình tròn. Bạn có thể đặt nó thành một trong hai`PieSplitType.ByPercentage` hoặc`PieSplitType.ByValue` để chia biểu đồ theo tỷ lệ phần trăm hoặc theo một giá trị cụ thể tương ứng.
+ Các`PieSplitBy` thuộc tính kiểm soát cách phân chia biểu đồ hình tròn. Bạn có thể đặt nó thành một trong hai`PieSplitType.ByPercentage` hoặc`PieSplitType.ByValue` để chia biểu đồ theo tỷ lệ phần trăm hoặc theo một giá trị cụ thể tương ứng.
 
 ### Làm cách nào để đặt vị trí phần tách trong biểu đồ Pie of Pie?
 
- Bạn có thể đặt vị trí của phần phân chia trong biểu đồ Pie of Pie bằng cách sử dụng`setPieSplitPosition` phương pháp. Điều chỉnh giá trị để xác định vị trí mong muốn.
+Bạn có thể đặt vị trí của phần phân chia trong biểu đồ Pie of Pie bằng cách sử dụng`setPieSplitPosition` phương pháp. Điều chỉnh giá trị để xác định vị trí mong muốn.

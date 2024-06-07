@@ -39,7 +39,7 @@ IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresen
 
 ## Krok 3: Zweryfikuj hasło
 
- Sprawdźmy teraz, czy hasło jest poprawne. Będziemy korzystać z`checkPassword` metoda`IPresentationInfo` interfejs.
+ Sprawdźmy teraz, czy hasło jest prawidłowe. Będziemy korzystać z`checkPassword` metoda`IPresentationInfo` interfejs.
 
 ```java
 boolean isPasswordCorrect = presentationInfo.checkPassword("your_password");

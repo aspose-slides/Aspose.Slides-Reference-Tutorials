@@ -56,7 +56,7 @@ Chaque diapositive d'une présentation possède un identifiant unique qui peut �
 Pour accéder à une diapositive par son index :
 
 ```csharp
-int slideIndex = 0; // Remplacer par l'index souhaité
+int slideIndex = 0; //Remplacer par l'index souhaité
 ISlide slide = presentation.Slides[slideIndex];
 ```
 

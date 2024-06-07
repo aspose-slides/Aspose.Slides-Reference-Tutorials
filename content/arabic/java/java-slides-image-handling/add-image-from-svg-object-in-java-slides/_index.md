@@ -19,7 +19,7 @@ url: /ar/java/image-handling/add-image-from-svg-object-in-java-slides/
 - تم تثبيت Java Development Kit (JDK) على نظامك.
 -  Aspose.Slides لمكتبة جافا. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
 
-أولاً، تحتاج إلى استيراد مكتبة Aspose.Slides for Java إلى مشروع Java الخاص بك. يمكنك إضافته إلى مسار إنشاء مشروعك أو تضمينه كتبعية في تكوين Maven أو Gradle.
+أولاً، تحتاج إلى استيراد مكتبة Aspose.Slides for Java إلى مشروع Java الخاص بك. يمكنك إضافته إلى مسار بناء مشروعك أو تضمينه كتبعية في تكوين Maven أو Gradle.
 
 ## الخطوة 1: تحديد المسار إلى ملف SVG
 
@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- تأكد من استبدال`"Your Document Directory"`بالمسار الفعلي إلى دليل مشروعك حيث يوجد ملف SVG.
+ تأكد من استبدال`"Your Document Directory"` بالمسار الفعلي إلى دليل مشروعك حيث يوجد ملف SVG.
 
 ## الخطوة 2: إنشاء عرض تقديمي جديد لـ PowerPoint
 

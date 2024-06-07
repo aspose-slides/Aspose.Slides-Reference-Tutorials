@@ -56,7 +56,7 @@ using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 
 Låt oss nu tillämpa de önskade övergångarna på specifika bilder i din presentation.
 
-#### Steg 4: Applicera Circle Type Transition
+#### Steg 4: Tillämpa Circle Type Transition
 
 ```csharp
 pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;

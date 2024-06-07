@@ -10,13 +10,13 @@ url: /hu/java/chart-elements/funnel-chart-java-slides/
 
 ## A Java Slides tölcsérdiagramjának bemutatása
 
-Ebben az oktatóanyagban bemutatjuk, hogyan hozhat létre tölcsérdiagramot az Aspose.Slides for Java használatával. A tölcsérdiagramok hasznosak egy szekvenciális folyamat vizualizálására, amelynek szakaszai fokozatosan szűkülnek, mint például az értékesítési konverziók vagy az ügyfélszerzés.
+Ebben az oktatóanyagban bemutatjuk, hogyan hozhat létre tölcsérdiagramot az Aspose.Slides for Java használatával. A tölcsérdiagramok hasznosak egy szekvenciális folyamat vizualizálására, amelyek fokozatosan szűkülnek, mint például az értékesítési konverziók vagy az ügyfélszerzés.
 
 ## Előfeltételek
 
  Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides könyvtár hozzáadva van a Java-projekthez. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Inicializálja a prezentációt
+## 1. lépés: A prezentáció inicializálása
 
 Először inicializáljunk egy prezentációt, és adjunk hozzá egy diát, ahol elhelyezzük a tölcsérdiagramunkat.
 

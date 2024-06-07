@@ -96,7 +96,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 ## Βήμα 4: Αποθηκεύστε την Παρουσίαση
 
 ```csharp
-//Γράψτε το αρχείο παρουσίασης στο δίσκο
+// Γράψτε το αρχείο παρουσίασης στο δίσκο
 presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.Pptx);
 }
 ```

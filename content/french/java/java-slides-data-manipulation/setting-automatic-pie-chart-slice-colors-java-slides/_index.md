@@ -133,7 +133,7 @@ try
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// Définition de l'index de la feuille de données du graphique
 	int defaultWorksheetIndex = 0;
-	//Obtenir la feuille de calcul des données du graphique
+	// Obtenir la feuille de calcul des données du graphique
 	IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 	// Supprimer les séries et catégories générées par défaut
 	chart.getChartData().getSeries().clear();
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Ajout d'une nouvelle série
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	// Remplir maintenant les données de série
+	//Remplir maintenant les données de série
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -165,10 +165,10 @@ Vous avez créé avec succès un diagramme circulaire dans une présentation Pow
 
 ### Comment puis-je personnaliser les couleurs des tranches individuelles dans le diagramme circulaire ?
 
- Pour personnaliser les couleurs des tranches individuelles du graphique à secteurs, vous pouvez utiliser l'option`getAutomaticSeriesColors`méthode pour récupérer le jeu de couleurs par défaut, puis modifier les couleurs si nécessaire. Voici un exemple :
+ Pour personnaliser les couleurs des tranches individuelles du graphique à secteurs, vous pouvez utiliser l'option`getAutomaticSeriesColors` méthode pour récupérer le jeu de couleurs par défaut, puis modifier les couleurs si nécessaire. Voici un exemple :
 
 ```java
-// Obtenez le jeu de couleurs par défaut
+//Obtenez le jeu de couleurs par défaut
 IColorFormatCollection colors = chart.getChartData().getSeries().get_Item(0).getAutomaticSeriesColors();
 
 // Modifier les couleurs selon vos besoins

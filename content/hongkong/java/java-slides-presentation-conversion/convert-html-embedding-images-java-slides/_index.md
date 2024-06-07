@@ -48,7 +48,7 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//強制不在 HTML5 文件中儲存影像
+//強制不在 HTML5 文件中儲存圖片
 options.setEmbedImages(true); //設定為 true 以嵌入圖像
 //設定外部影像的路徑（如果需要）
 options.setOutputPath("path/to/output/directory/");
@@ -93,7 +93,7 @@ String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separato
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//強制不在 HTML5 文件中儲存影像
+	//強制不在 HTML5 文件中儲存圖片
 	options.setEmbedImages(false);
 	//設定外部影像的路徑
 	options.setOutputPath(outFilePath);
@@ -110,7 +110,7 @@ try {
 
 ## 結論
 
-在本綜合指南中，我們學習如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 HTML 文件，同時嵌入圖片。透過遵循逐步說明，您可以將此功能無縫整合到您的 Java 應用程式中並增強您的文件轉換流程。
+在這份綜合指南中，我們學習如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 HTML 文件，同時嵌入圖片。透過遵循逐步說明，您可以將此功能無縫整合到您的 Java 應用程式中並增強您的文件轉換流程。
 
 ## 常見問題解答
 

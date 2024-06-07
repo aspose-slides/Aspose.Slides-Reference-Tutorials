@@ -63,7 +63,7 @@ Pelajari cara mendapatkan nilai dan skala satuan dari sumbu di Java Slides mengg
 ### [Dapatkan Lebar dan Tinggi dari Area Plot Bagan di Slide Java](./get-width-height-chart-plot-area-java-slides/)
 Pelajari cara mengambil dimensi area plot bagan di Java Slides menggunakan Aspose.Slides untuk Java. Tingkatkan keterampilan otomatisasi PowerPoint Anda
 ### [Validasi Tata Letak Bagan yang Ditambahkan di Slide Java](./validate-chart-layout-added-java-slides/)
-Validasi tata letak bagan utama di PowerPoint dengan Aspose.Slides untuk Java. Belajar memanipulasi bagan secara terprogram untuk presentasi yang memukau.
+Validasi tata letak bagan utama di PowerPoint dengan Aspose.Slides untuk Java. Belajar memanipulasi bagan secara terprogram untuk presentasi yang menakjubkan.
 ### [Balikkan Jika Negatif untuk Seri Individual di Slide Java](./invert-if-negative-individual-series-java-slides/)
 Pelajari cara menggunakan fitur Balikkan Jika Negatif di Aspose.Slides untuk Java untuk menyempurnakan visual bagan dalam presentasi PowerPoint.
 ### [Warna Garis Pemimpin di Slide Java](./leader-line-color-java-slides/)

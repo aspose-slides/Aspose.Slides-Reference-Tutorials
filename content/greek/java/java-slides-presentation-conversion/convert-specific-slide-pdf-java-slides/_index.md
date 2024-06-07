@@ -16,7 +16,7 @@ url: /el/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 Πριν βουτήξουμε στον κώδικα, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
-1.  Aspose.Slides for Java Library: Θα χρειαστεί να έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.Slides for Java. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
+1. Aspose.Slides for Java Library: Θα χρειαστεί να έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.Slides for Java. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
 
 2. Περιβάλλον ανάπτυξης Java: Βεβαιωθείτε ότι έχετε ρυθμίσει ένα περιβάλλον ανάπτυξης Java στο σύστημά σας.
 
@@ -48,7 +48,7 @@ finally
 
 Σε αυτόν τον κώδικα:
 
-- Καθορίζουμε τη διαδρομή προς τον κατάλογο που περιέχει το αρχείο παρουσίασης (`SelectedSlides.pptx`που θέλετε να μετατρέψετε σε PDF.
+- Καθορίζουμε τη διαδρομή προς τον κατάλογο που περιέχει το αρχείο παρουσίασης (`SelectedSlides.pptx`) που θέλετε να μετατρέψετε σε PDF.
 
 -  Δημιουργούμε α`Presentation` αντικείμενο που αντιπροσωπεύει το αρχείο παρουσίασης.
 

@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- 이 코드 조각에서`"Your Document Directory"`문서 디렉토리의 실제 경로와`"YourPresentation.pptx"` PowerPoint 프레젠테이션의 이름으로
+ 이 코드 조각에서`"Your Document Directory"` 문서 디렉토리의 실제 경로와`"YourPresentation.pptx"` PowerPoint 프레젠테이션의 이름으로
 
 ### 3단계: PDF 옵션 구성
 

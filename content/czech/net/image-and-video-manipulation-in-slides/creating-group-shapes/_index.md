@@ -93,7 +93,7 @@ V tomto tutoriálu jsme prozkoumali proces vytváření skupinových tvarů pomo
 ### Mohu vyzkoušet Aspose.Slides před nákupem?
  Absolutně! Můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Kde najdu podporu pro dotazy související s Aspose.Slides?
- Navštivte Aspose.Slides[Fórum](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
+Navštivte Aspose.Slides[Fórum](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
 ### Jak získám dočasnou licenci pro Aspose.Slides?
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde si mohu zakoupit plnou licenci pro Aspose.Slides?
