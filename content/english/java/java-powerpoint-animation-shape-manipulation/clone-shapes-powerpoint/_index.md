@@ -18,7 +18,7 @@ Before we get started, make sure you have the following prerequisites:
 To begin, you'll need to import the necessary packages into your Java project. These packages provide the functionalities required to work with PowerPoint presentations using Aspose.Slides for Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Step 1: Load the Presentation
 First, you need to load the PowerPoint presentation containing the shapes you want to clone. Use the `Presentation` class to load the source presentation.

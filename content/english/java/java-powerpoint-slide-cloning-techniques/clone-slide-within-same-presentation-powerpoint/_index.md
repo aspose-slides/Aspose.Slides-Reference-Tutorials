@@ -22,7 +22,7 @@ First, let's import the necessary packages to work with Aspose.Slides for Java.
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## Step 1: Set Up Your Project

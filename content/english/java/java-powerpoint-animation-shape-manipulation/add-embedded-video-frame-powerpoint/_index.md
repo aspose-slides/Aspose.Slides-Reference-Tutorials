@@ -19,7 +19,7 @@ Before diving into the code, ensure you have the following prerequisites in plac
 First, you'll need to import the necessary packages to work with Aspose.Slides. These imports will help you manage slides, videos, and presentation files.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

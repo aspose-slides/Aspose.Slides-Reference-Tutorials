@@ -20,7 +20,7 @@ Before diving into the code, let's make sure you have everything you need to get
 Before we begin, you need to import the necessary packages. Make sure you have included Aspose.Slides for Java in your project dependencies.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Step 1: Set Up Your Project
@@ -86,7 +86,7 @@ Finally, save the presentation to your desired location. This step ensures all y
 1. Define the Output Path: Specify the path where the presentation will be saved.
 2. Save the Presentation: Use the `save` method to save the file in PPTX format.
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### Dispose of the Presentation Object

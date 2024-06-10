@@ -19,7 +19,7 @@ Before we dive into the tutorial, let's make sure you have everything you need:
 To start, you'll need to import the necessary packages for Aspose.Slides and other required Java classes.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;

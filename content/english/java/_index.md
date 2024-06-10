@@ -80,3 +80,30 @@ Learn how to animate and manipulate shapes in PowerPoint using Aspose.Slides for
 Discover Java PowerPoint shape formatting and geometry tutorials. Learn to fill shapes, find shapes, and create custom geometry with Aspose.Slides for Java.
 ### [Java PowerPoint Slide Cloning Techniques](./java-powerpoint-slide-cloning-techniques/)
 Master slide cloning in PowerPoint using Aspose.Slides for Java. Learn to clone slides within the same presentation or across presentations seamlessly.
+### [Java PowerPoint Text Box Manipulation](./java-powerpoint-text-box-manipulation/)
+
+### [Java PowerPoint Font Management](./java-powerpoint-font-management/)
+
+### [Java PowerPoint Animation and Effects](./java-powerpoint-animation-effects/)
+
+### [Java PowerPoint Text Alignment and Formatting](./java-powerpoint-text-alignment-formatting/)
+
+### [Java PowerPoint Font Management](./java-powerpoint-font-management/)
+
+### [Java PowerPoint Text Highlighting and Fallback Rules](./java-powerpoint-text-highlighting-fallback-rules/)
+
+### [Java PowerPoint Text and Paragraph Management](./java-powerpoint-text-paragraph-management/)
+
+### [Java PowerPoint Font Management and Text Replacement](./java-powerpoint-font-management-text-replacement/)
+
+### [Java PowerPoint Advanced Paragraph and Font Properties](./java-powerpoint-advanced-paragraph-font-properties/)
+
+### [Java PowerPoint Text and Font Customization](./java-powerpoint-text-font-customization/)
+
+### [Java PowerPoint Table Manipulation](./java-powerpoint-table-manipulation/)
+
+### [Java PowerPoint Table Formatting and Updates](./java-powerpoint-table-formatting-updates/)
+
+### [Java PowerPoint SmartArt Manipulation](./java-powerpoint-smartart-manipulation/)
+
+### [Java PowerPoint SmartArt Manipulation](./java-powerpoint-smartart-manipulation/)

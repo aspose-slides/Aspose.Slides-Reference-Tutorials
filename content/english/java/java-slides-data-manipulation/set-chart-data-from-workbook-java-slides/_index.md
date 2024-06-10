@@ -23,7 +23,7 @@ Before we dive into the implementation, make sure you have the following prerequ
 ## Step 1: Create a Presentation
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ We clear any existing data from the chart to prepare it for new data from the Ex
 ## Step 4: Load Excel Workbook
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
 We load the Excel workbook that contains the data we want to use for the chart. Replace `"book1.xlsx"` with the path to your Excel file.
@@ -92,14 +92,14 @@ Finally, we save the presentation with the updated chart data to the specified o
 ## Complete Source Code For Set Chart Data From Workbook in Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

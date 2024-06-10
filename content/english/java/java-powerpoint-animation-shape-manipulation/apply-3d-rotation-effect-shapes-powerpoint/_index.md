@@ -19,7 +19,7 @@ Before we start, ensure you have the following in place:
 First, let's import the necessary packages in your Java project. These imports will help you handle presentations and shapes with Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Step 1: Set Up Your Project
 Before diving into the code, set up your project environment. Ensure you have added Aspose.Slides for Java to your project's dependencies.

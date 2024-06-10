@@ -21,7 +21,7 @@ Before you begin, make sure you have the Aspose.Slides for Java library added to
 First, we need to create a new PowerPoint presentation. Here's how you can do it in Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ Make sure to provide the desired output file path.
 ## Complete Source Code For Presentation Slide Show Setup in Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Gets SlideShow settings

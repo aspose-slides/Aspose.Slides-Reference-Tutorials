@@ -64,8 +64,8 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Complete Source Code For Leader Line Color in Java Slides
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Get the chart from the first slide

@@ -19,7 +19,7 @@ Before we dive into the step-by-step guide, there are a few prerequisites you ne
 First things first, you need to import the necessary packages from Aspose.Slides. This will allow you to access all the functionalities required for creating and manipulating PowerPoint presentations.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Let's break down the process of adding segments to geometry shapes into detailed steps to ensure clarity and ease of understanding.
 ## Step 1: Create a New Presentation

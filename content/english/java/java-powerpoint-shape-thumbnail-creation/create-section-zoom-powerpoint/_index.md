@@ -18,13 +18,13 @@ Before we begin, ensure you have the following prerequisites installed and set u
 First, import the necessary packages required for working with Aspose.Slides for Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Step 1: Output File Setup
 Define the path for the output presentation file:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Step 2: Initialize Presentation Object
 Create a new instance of the `Presentation` class:

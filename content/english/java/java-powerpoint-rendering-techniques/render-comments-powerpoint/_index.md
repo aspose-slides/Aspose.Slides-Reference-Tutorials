@@ -18,7 +18,7 @@ Before we begin, ensure you have the following:
 Start by importing the necessary packages in your Java code:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

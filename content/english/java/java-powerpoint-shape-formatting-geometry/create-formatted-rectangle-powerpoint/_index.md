@@ -19,7 +19,7 @@ Before we dive into the code, let's cover the prerequisites. You'll need the fol
 To get started, you'll need to import the necessary packages from the Aspose.Slides library. Here's how you can do it:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

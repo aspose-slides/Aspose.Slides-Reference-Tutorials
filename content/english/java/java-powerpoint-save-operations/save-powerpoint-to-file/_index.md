@@ -19,13 +19,13 @@ First, import the necessary packages to use Aspose.Slides functionality in your 
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Step 1: Set up the Data Directory
 ```java
 // The path to the documents directory.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Create directory if it is not already present.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)

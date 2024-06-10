@@ -23,7 +23,7 @@ For full functionality, you might want to get a license for Aspose.Slides. You c
 Before writing the code, you need to import the necessary packages from Aspose.Slides. Here’s how you can do it:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Now, let's break down the process into manageable steps. Follow each step carefully to achieve the desired outcome.
 ## Step 1: Set Up the Data Directory

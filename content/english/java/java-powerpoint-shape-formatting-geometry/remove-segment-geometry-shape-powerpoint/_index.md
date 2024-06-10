@@ -19,7 +19,7 @@ Before we begin, ensure you have the following:
 To start, we need to import the necessary packages from the Aspose.Slides library. Here’s how you do it:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Let's break down the process of removing a segment from a geometry shape in a PowerPoint slide into multiple steps.
 ## Step 1: Create a New Presentation
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Step 6: Save the Presentation
 Finally, save the modified presentation to a file.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Step 7: Clean Up Resources

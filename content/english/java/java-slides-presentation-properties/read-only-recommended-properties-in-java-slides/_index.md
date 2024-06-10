@@ -21,7 +21,7 @@ Before we begin, make sure you have the Aspose.Slides for Java library set up in
 We'll start by creating a new PowerPoint presentation using Aspose.Slides for Java. If you already have a presentation, you can skip this step.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Finally, we save the presentation with the Read-Only Recommended property enable
 ## Complete Source Code For Read-Only Recommended Properties in Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {
