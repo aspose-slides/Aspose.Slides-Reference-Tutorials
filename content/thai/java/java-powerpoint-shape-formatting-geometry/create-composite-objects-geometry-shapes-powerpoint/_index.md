@@ -19,12 +19,12 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 ก่อนอื่น เรามานำเข้าแพ็คเกจที่จำเป็นเพื่อเริ่มต้นใช้งาน Aspose.Slides สำหรับ Java กันก่อน
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 การสร้างวัตถุคอมโพสิตอาจฟังดูซับซ้อน แต่การแบ่งมันออกเป็นขั้นตอนที่สามารถจัดการได้ คุณจะพบว่ามันง่ายกว่าที่คุณคิด เราจะสร้างงานนำเสนอ PowerPoint เพิ่มรูปร่าง จากนั้นกำหนดและใช้เส้นทางเรขาคณิตหลายเส้นทางเพื่อสร้างรูปร่างคอมโพสิต
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
-ก่อนที่คุณจะเขียนโค้ดใดๆ ให้ตั้งค่าโปรเจ็กต์ Java ของคุณ สร้างโปรเจ็กต์ใหม่ใน IDE ของคุณและรวม Aspose.Slides สำหรับ Java คุณสามารถเพิ่มไลบรารีโดยใช้ Maven หรือดาวน์โหลดไฟล์ JAR จากไฟล์[หน้าดาวน์โหลด Aspose.Slides](https://releases.aspose.com/slides/java/).
+ ก่อนที่คุณจะเขียนโค้ดใดๆ ให้ตั้งค่าโปรเจ็กต์ Java ของคุณ สร้างโปรเจ็กต์ใหม่ใน IDE ของคุณและรวม Aspose.Slides สำหรับ Java คุณสามารถเพิ่มไลบรารีโดยใช้ Maven หรือดาวน์โหลดไฟล์ JAR จากไฟล์[หน้าดาวน์โหลด Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### การเพิ่ม Aspose.Slides ในโครงการของคุณโดยใช้ Maven
  หากคุณใช้ Maven ให้เพิ่มการพึ่งพาต่อไปนี้ให้กับ your`pom.xml` ไฟล์:
 ```xml
@@ -35,10 +35,10 @@ import com.aspose.slides.examples.RunExamples;
 </dependency>
 ```
 ## ขั้นตอนที่ 2: เริ่มต้นการนำเสนอ
- ตอนนี้เรามาสร้างงานนำเสนอ PowerPoint ใหม่กันดีกว่า เราจะเริ่มต้นด้วยการเริ่มต้น`Presentation` ระดับ.
+ตอนนี้เรามาสร้างงานนำเสนอ PowerPoint ใหม่กันดีกว่า เราจะเริ่มต้นด้วยการเริ่มต้น`Presentation` ระดับ.
 ```java
 // ชื่อไฟล์เอาท์พุต
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## ขั้นตอนที่ 3: สร้างรูปร่างใหม่
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## ขั้นตอนที่ 7: บันทึกการนำเสนอ
 สุดท้าย ให้บันทึกงานนำเสนอของคุณเป็นไฟล์
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## ขั้นตอนที่ 8: ทำความสะอาดทรัพยากร

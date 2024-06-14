@@ -48,9 +48,9 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//HTML5 belgesindeki görüntüleri kaydetmemeye zorla
-options.setEmbedImages(true); // Görüntüleri gömmek için true değerine ayarlayın
-// Harici görüntülerin yolunu ayarlayın (gerekirse)
+// HTML5 belgesindeki görüntüleri kaydetmemeye zorla
+options.setEmbedImages(true); // Görüntüleri gömmek için true olarak ayarlayın
+//Harici görüntülerin yolunu ayarlayın (gerekirse)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Kaynak sunumuna giden yol
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // HTML belgesinin yolu
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//HTML5 belgesindeki görüntüleri kaydetmemeye zorla
+	// HTML5 belgesindeki görüntüleri kaydetmemeye zorla
 	options.setEmbedImages(false);
 	// Harici görüntüler için yolu ayarla
 	options.setOutputPath(outFilePath);

@@ -11,7 +11,7 @@ url: /id/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Membuat presentasi PowerPoint yang menarik secara visual sangat penting untuk memikat audiens Anda. Salah satu cara efektif untuk menyempurnakan slide Anda adalah dengan mengisi bentuk dengan gradien. Tutorial ini akan memandu Anda melalui proses penggunaan Aspose.Slides untuk Java untuk mengisi bentuk dengan gradien di PowerPoint. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan berguna dan mudah diikuti. Mari selami dunia gradien dan lihat bagaimana gradien dapat mengubah presentasi Anda.
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
--  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Pastikan Anda telah menginstal JDK. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides untuk Java: Unduh versi terbaru dari[Di Sini](https://releases.aspose.com/slides/java/).
 - Lingkungan Pengembangan Terintegrasi (IDE): IDE seperti IntelliJ IDEA atau Eclipse akan membuat pengalaman pengkodean Anda lebih lancar.
 - Pengetahuan Dasar tentang Java: Keakraban dengan pemrograman Java sangat penting.
@@ -19,7 +19,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 Untuk memulai dengan Aspose.Slides, Anda perlu mengimpor paket yang diperlukan. Pastikan Anda telah menambahkan Aspose.Slides for Java ke dependensi proyek Anda.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

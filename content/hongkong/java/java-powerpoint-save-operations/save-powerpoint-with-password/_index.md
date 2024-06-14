@@ -12,14 +12,14 @@ url: /zh-hant/java/java-powerpoint-save-operations/save-powerpoint-with-password
 ## 先決條件
 在開始之前，請確保您具備以下先決條件：
 1. Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。
-2. Aspose.Slides for Java：從下列位置下載並安裝 Aspose.Slides for Java：[下載頁面](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java：從下列位置下載並安裝 Aspose.Slides for Java：[下載頁面](https://releases.aspose.com/slides/java/).
 
 ## 導入包
 首先，您需要在 Java 檔案中匯入必要的套件：
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 第 1 步：設定環境
@@ -44,7 +44,7 @@ Presentation pres = new Presentation();
 //設定密碼
 pres.getProtectionManager().encrypt("your_password");
 ```
-代替`"your_password"`以及您演示所需的密碼。
+代替`"your_password"`使用簡報所需的密碼。
 ## 第 4 步：儲存簡報
 使用指定的密碼將簡報儲存到文件中。
 ```java

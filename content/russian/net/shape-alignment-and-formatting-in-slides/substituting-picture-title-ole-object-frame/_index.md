@@ -65,7 +65,7 @@ using (MemoryStream ms = new MemoryStream(imgBuf))
 }
 ```
 Прочтите файл изображения и добавьте его в презентацию как объект изображения.
-## Шаг 6. Установите заголовок для значка OLE
+## Шаг 6. Установите заголовок на значок OLE
 ```csharp
 oof.SubstitutePictureTitle = "Caption example";
 ```

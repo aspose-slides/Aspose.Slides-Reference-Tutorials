@@ -21,7 +21,7 @@ url: /ja/java/data-manipulation/chart-data-cell-formulas-java-slides/
 まず、新しい PowerPoint プレゼンテーションを作成し、それにグラフを追加しましょう。
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -32,7 +32,7 @@ try
     IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
     
     //データセル操作を続行する
-    //...
+    // ...
     
     //プレゼンテーションを保存する
     presentation.save(outpptxFile, SaveFormat.Pptx);
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Java スライドのグラフ データ セル数式の完全なソース コード
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

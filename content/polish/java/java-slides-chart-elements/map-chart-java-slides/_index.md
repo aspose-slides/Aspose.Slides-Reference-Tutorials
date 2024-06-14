@@ -78,12 +78,12 @@ Na koniec zapisz prezentację z wykresem mapy.
 presentation.save(resultPath, SaveFormat.Pptx);
 ```
 
-Otóż to! Utworzyłeś wykres mapy w prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Możesz dodatkowo dostosować wykres i poznać inne funkcje oferowane przez Aspose.Slides, aby ulepszyć swoje prezentacje.
+Otóż to! Utworzyłeś wykres mapy w prezentacji programu PowerPoint przy użyciu programu Aspose.Slides for Java. Możesz dodatkowo dostosować wykres i poznać inne funkcje oferowane przez Aspose.Slides, aby ulepszyć swoje prezentacje.
 
 ## Kompletny kod źródłowy wykresu mapy w slajdach Java
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//utwórz pusty wykres

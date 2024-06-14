@@ -19,12 +19,12 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 Πρώτα πράγματα πρώτα, ας εισάγουμε τα απαραίτητα πακέτα για να ξεκινήσουμε με το Aspose.Slides για Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Η δημιουργία σύνθετων αντικειμένων μπορεί να ακούγεται περίπλοκη, αλλά αναλύοντάς τα σε διαχειρίσιμα βήματα, θα διαπιστώσετε ότι είναι πιο εύκολο από όσο νομίζετε. Θα δημιουργήσουμε μια παρουσίαση PowerPoint, θα προσθέσουμε ένα σχήμα και στη συνέχεια θα ορίσουμε και θα εφαρμόσουμε πολλαπλές γεωμετρικές διαδρομές για να σχηματίσουμε ένα σύνθετο σχήμα.
 ## Βήμα 1: Ρύθμιση του έργου σας
-Πριν γράψετε οποιονδήποτε κώδικα, ρυθμίστε το έργο σας Java. Δημιουργήστε ένα νέο έργο στο IDE σας και συμπεριλάβετε το Aspose.Slides για Java. Μπορείτε να προσθέσετε τη βιβλιοθήκη χρησιμοποιώντας το Maven ή να κάνετε λήψη του αρχείου JAR από το[Σελίδα λήψης Aspose.Slides](https://releases.aspose.com/slides/java/).
+ Πριν γράψετε οποιονδήποτε κώδικα, ρυθμίστε το έργο σας Java. Δημιουργήστε ένα νέο έργο στο IDE σας και συμπεριλάβετε το Aspose.Slides για Java. Μπορείτε να προσθέσετε τη βιβλιοθήκη χρησιμοποιώντας το Maven ή να κάνετε λήψη του αρχείου JAR από το[Σελίδα λήψης Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### Προσθήκη Aspose.Slides στο έργο σας χρησιμοποιώντας το Maven
  Εάν χρησιμοποιείτε το Maven, προσθέστε την ακόλουθη εξάρτησή σας`pom.xml` αρχείο:
 ```xml
@@ -35,10 +35,10 @@ import com.aspose.slides.examples.RunExamples;
 </dependency>
 ```
 ## Βήμα 2: Αρχικοποιήστε την Παρουσίαση
- Τώρα, ας δημιουργήσουμε μια νέα παρουσίαση PowerPoint. Θα ξεκινήσουμε αρχικοποιώντας το`Presentation` τάξη.
+Τώρα, ας δημιουργήσουμε μια νέα παρουσίαση PowerPoint. Θα ξεκινήσουμε αρχικοποιώντας το`Presentation` τάξη.
 ```java
 // Όνομα αρχείου εξόδου
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Βήμα 3: Δημιουργήστε ένα νέο σχήμα
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Βήμα 7: Αποθηκεύστε την Παρουσίαση
 Τέλος, αποθηκεύστε την παρουσίασή σας σε ένα αρχείο.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Βήμα 8: Εκκαθάριση πόρων

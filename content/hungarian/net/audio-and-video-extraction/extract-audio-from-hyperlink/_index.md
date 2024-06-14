@@ -8,7 +8,7 @@ weight: 12
 url: /hu/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
 
-multimédiás prezentációk világában a hang létfontosságú szerepet játszik a diák általános hatásának fokozásában. Találkozott már olyan PowerPoint prezentációval, amely audiohiperhivatkozásokat tartalmaz, és azon töprengett, hogyan bonthatja ki a hanganyagot más célokra? Az Aspose.Slides for .NET segítségével könnyedén elvégezheti ezt a feladatot. Ebben a lépésenkénti útmutatóban végigvezetjük a PowerPoint-prezentációban található hiperhivatkozások hangjának kinyerésének folyamatán.
+A multimédiás prezentációk világában a hang létfontosságú szerepet játszik a diák általános hatásának fokozásában. Találkozott már olyan PowerPoint prezentációval, amely audiohiperhivatkozásokat tartalmaz, és azon töprengett, hogyan bonthatja ki a hanganyagot más célokra? Az Aspose.Slides for .NET segítségével könnyedén elvégezheti ezt a feladatot. Ebben a lépésenkénti útmutatóban végigvezetjük a PowerPoint-prezentációban található hiperhivatkozások hangjának kinyerésének folyamatán.
 
 ## Előfeltételek
 
@@ -16,7 +16,7 @@ Mielőtt belevágnánk a kitermelési folyamatba, győződjön meg arról, hogy 
 
 ### 1. Aspose.Slides for .NET Library
 
- A fejlesztői környezetében telepíteni kell az Aspose.Slides for .NET könyvtárat. Ha még nem tette meg, letöltheti a webhelyről:[Aspose.Slides a .NET-dokumentációhoz](https://reference.aspose.com/slides/net/).
+ fejlesztői környezetében telepíteni kell az Aspose.Slides for .NET könyvtárat. Ha még nem tette meg, letöltheti a webhelyről:[Aspose.Slides a .NET-dokumentációhoz](https://reference.aspose.com/slides/net/).
 
 ### 2. PowerPoint prezentáció audiohiperhivatkozásokkal
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## 2. lépés: Töltse be a PowerPoint-prezentációt
 
- Az Aspose.Slides segítségével töltse be az audio hiperhivatkozást tartalmazó PowerPoint bemutatót (PPTX). Cserélje ki`"HyperlinkSound.pptx"` a prezentáció tényleges fájlnevével.
+ Az Aspose.Slides segítségével töltse be az audio hiperhivatkozást tartalmazó PowerPoint bemutatót (PPTX). Cserélje ki`"HyperlinkSound.pptx"` prezentáció tényleges fájlnevével.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,13 +73,13 @@ if (link.Sound != null)
 Ha a hiperhivatkozáshoz hang is tartozik, akkor azt bájttömbként kibonthatjuk és médiafájlként menthetjük.
 
 ```csharp
-// hiperhivatkozás hangját bájttömbben bontja ki
+// A hiperhivatkozás hangját bájttömbben bontja ki
 byte[] audioData = link.Sound.BinaryData;
 
 // Adja meg az elérési utat, ahová a kivont hangot menteni szeretné
 string outMediaPath = Path.Combine(dataDir, "HyperlinkSound.mpg");
 
-// Mentse a kibontott hanganyagot egy médiafájlba
+// Mentse a kibontott hangot egy médiafájlba
 File.WriteAllBytes(outMediaPath, audioData);
 ```
 
@@ -101,7 +101,7 @@ Igen, az Aspose.Slides for .NET támogatja a PPTX és a PPT formátumokat is a h
  Igen, segítséget kaphat, és megoszthatja tapasztalatait az Aspose.Slides-szel a[Aspose.Slides közösségi fórum](https://forum.aspose.com/).
 
 ### Vásárolhatok ideiglenes licencet az Aspose.Slides-hez egy rövid távú projekthez?
- Igen, ideiglenes licencet szerezhet az Aspose.Slides for .NET-hez, hogy kielégítse rövid távú projektszükségleteit, ha ellátogat[ez a link](https://purchase.aspose.com/temporary-license/).
+Igen, ideiglenes licencet szerezhet az Aspose.Slides for .NET-hez, hogy kielégítse rövid távú projektszükségleteit, ha ellátogat[ez a link](https://purchase.aspose.com/temporary-license/).
 
 ### Az MPG-n kívül más audioformátumok is támogatottak a kinyeréshez?
 Az Aspose.Slides for .NET lehetővé teszi a hangok különféle formátumok kivonatát, nem korlátozva az MPG-re. Kibontás után konvertálhatja a kívánt formátumra.

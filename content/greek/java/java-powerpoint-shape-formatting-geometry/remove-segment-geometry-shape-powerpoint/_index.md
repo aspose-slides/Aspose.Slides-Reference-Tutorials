@@ -12,14 +12,14 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-
 ## Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
 1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε από το[Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java: Κάντε λήψη της βιβλιοθήκης Aspose.Slides for Java από[εδώ](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Κάντε λήψη της βιβλιοθήκης Aspose.Slides for Java από[εδώ](https://releases.aspose.com/slides/java/).
 3. Ενσωματωμένο περιβάλλον ανάπτυξης (IDE): Χρησιμοποιήστε ένα IDE όπως το IntelliJ IDEA ή το Eclipse για να γράψετε και να εκτελέσετε τον κώδικα Java σας.
 4. Βασικές γνώσεις Java: Η βασική κατανόηση του προγραμματισμού Java θα σας βοηθήσει να ακολουθήσετε αυτό το σεμινάριο.
 ## Εισαγωγή πακέτων
 Για να ξεκινήσουμε, πρέπει να εισάγουμε τα απαραίτητα πακέτα από τη βιβλιοθήκη Aspose.Slides. Δείτε πώς το κάνετε:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Ας αναλύσουμε τη διαδικασία αφαίρεσης ενός τμήματος από ένα σχήμα γεωμετρίας σε μια διαφάνεια PowerPoint σε πολλά βήματα.
 ## Βήμα 1: Δημιουργία νέας παρουσίασης
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Βήμα 6: Αποθηκεύστε την παρουσίαση
 Τέλος, αποθηκεύστε την τροποποιημένη παρουσίαση σε ένα αρχείο.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Βήμα 7: Εκκαθάριση πόρων

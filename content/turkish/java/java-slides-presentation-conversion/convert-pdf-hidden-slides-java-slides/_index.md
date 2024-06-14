@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## 3. Adım: PDF Seçeneklerini Yapılandırın
 
- PDF çıktısına gizli slaytları dahil etmek için PDF seçeneklerini yapılandırın. Bunu ayarlayarak yapabilirsiniz`setShowHiddenSlides` mülkiyeti`PdfOptions` sınıf`true`.
+PDF çıktısına gizli slaytları dahil etmek için PDF seçeneklerini yapılandırın. Bunu ayarlayarak yapabilirsiniz`setShowHiddenSlides` mülkiyeti`PdfOptions` sınıf`true`.
 
 ```java
 // PdfOptions sınıfını örnekleyin
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Aspose.Slides for Java'yı nasıl indirebilirim?
 
-Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret edin[Aspose.Slides for Java indirme sayfası](https://releases.aspose.com/slides/java/) En son sürümü almak için.
+ Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret edin[Aspose.Slides for Java indirme sayfası](https://releases.aspose.com/slides/java/) En son sürümü almak için.

@@ -10,13 +10,13 @@ url: /ko/net/licensing-and-formatting/add-color-to-data-points/
 
 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 차트의 데이터 포인트에 색상을 추가하는 과정을 안내합니다. Aspose.Slides는 .NET 애플리케이션에서 PowerPoint 프레젠테이션 작업을 위한 강력한 라이브러리입니다. 차트의 데이터 요소에 색상을 추가하면 프레젠테이션을 시각적으로 더욱 매력적이고 이해하기 쉽게 만들 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 필수 구성 요소가 갖추어져 있는지 확인하세요.
 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있어야 합니다.
 
-2. .NET용 Aspose.Slides: 다음에서 .NET용 Aspose.Slides를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/slides/net/).
+2.  .NET용 Aspose.Slides: 다음에서 .NET용 Aspose.Slides를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/slides/net/).
 
 3. C#에 대한 기본 이해: C# 프로그래밍에 대한 기본 지식이 있어야 합니다.
 

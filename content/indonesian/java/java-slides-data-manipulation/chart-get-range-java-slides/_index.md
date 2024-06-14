@@ -97,4 +97,4 @@ Ya, Anda dapat menyesuaikan tampilan bagan, seperti mengubah warna, font, dan ga
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Slides untuk Java?
 
- Anda dapat menemukan dokumentasi dan sumber daya komprehensif untuk Aspose.Slides untuk Java di situs:[Aspose.Slide untuk Dokumentasi Java](https://reference.aspose.com/slides/java/).
+ Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.Slides untuk Java di situs:[Aspose.Slide untuk Dokumentasi Java](https://reference.aspose.com/slides/java/).

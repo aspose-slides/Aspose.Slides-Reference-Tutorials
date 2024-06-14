@@ -19,7 +19,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 Importeer om te beginnen de benodigde pakketten in uw Java-klasse:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Ja, u kunt meerdere pijlvormige lijnen aan één dia toevoegen door het proces d
 ### Is Aspose.Slides voor Java compatibel met de nieuwste versies van PowerPoint?
 Aspose.Slides voor Java ondersteunt compatibiliteit met verschillende versies van PowerPoint, waardoor een naadloze integratie met uw presentaties wordt gegarandeerd.
 ### Kan ik de kleur van de pijlvormige lijn aanpassen?
- Ja, u kunt de kleur van de pijlvormige lijn aanpassen door de`SolidFillColor` eigenschap in de code.
+Ja, u kunt de kleur van de pijlvormige lijn aanpassen door de`SolidFillColor` eigenschap in de code.
 ### Ondersteunt Aspose.Slides voor Java naast lijnen ook andere vormen?
 Ja, Aspose.Slides voor Java biedt uitgebreide ondersteuning voor het toevoegen van verschillende vormen, waaronder rechthoeken, cirkels en polygonen, aan PowerPoint-dia's.
 ### Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Slides voor Java?

@@ -74,7 +74,7 @@ try {
 //文檔目錄的路徑
 String dataDir = "Your Document Directory";
 //輸出檔案的路徑
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	//將包含投影片轉場、動畫和造型動畫的簡報匯出為 HTML5

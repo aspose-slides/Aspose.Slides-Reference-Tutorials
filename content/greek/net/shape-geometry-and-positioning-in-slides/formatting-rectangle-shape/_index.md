@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Βήμα 2: Δημιουργήστε ένα αντικείμενο παρουσίασης
- Στιγμιότυπο το`Presentation`κλάση για την αναπαράσταση του αρχείου PPTX. Αυτό θα είναι το θεμέλιο για την παρουσίασή σας στο PowerPoint.
+ Στιγμιότυπο το`Presentation` κλάση για την αναπαράσταση του αρχείου PPTX. Αυτό θα είναι το θεμέλιο για την παρουσίασή σας στο PowerPoint.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## Βήμα 4: Προσθέστε ένα σχήμα ορθογωνίου
- Χρησιμοποιήστε το`Shapes` ιδιότητα της διαφάνειας να προσθέτει ένα αυτόματο σχήμα ορθογωνίου τύπου. Καθορίστε τη θέση και τις διαστάσεις του ορθογωνίου.
+ Χρησιμοποιήστε το`Shapes`ιδιότητα της διαφάνειας να προσθέτει ένα αυτόματο σχήμα ορθογωνίου τύπου. Καθορίστε τη θέση και τις διαστάσεις του ορθογωνίου.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

@@ -64,7 +64,7 @@ Tebrikler! Aspose.Slides for .NET'i kullanarak köprüleri PowerPoint sununuzdan
 
 ## Çözüm
 
-Bu eğitimde Aspose.Slides for .NET kullanarak PowerPoint sunumlarından köprüleri kaldırma sürecini anlattık. Yalnızca birkaç basit adımla slaytlarınızın profesyonel ve düzenli görünmesini sağlayabilirsiniz. Aspose.Slides for .NET, PowerPoint sunumlarıyla çalışma görevini basitleştirerek verimli ve hassas yönetim için ihtiyacınız olan araçları sağlar.
+Bu eğitimde Aspose.Slides for .NET kullanarak PowerPoint sunumlarından köprüleri kaldırma sürecini anlattık. Sadece birkaç basit adımla slaytlarınızın profesyonel ve düzenli görünmesini sağlayabilirsiniz. Aspose.Slides for .NET, PowerPoint sunumlarıyla çalışma görevini basitleştirerek verimli ve hassas yönetim için ihtiyacınız olan araçları sağlar.
 
 Bu kılavuzu yararlı bulduysanız Aspose.Slides for .NET'in diğer özelliklerini ve yeteneklerini belgelerde keşfedebilirsiniz.[Burada](https://reference.aspose.com/slides/net/) . Ayrıca kütüphaneyi adresinden indirebilirsiniz.[bu bağlantı](https://releases.aspose.com/slides/net/) ve bir lisans satın alın[Burada](https://purchase.aspose.com/buy) eğer henüz yapmadıysanız. İlk önce denemek isteyenler için ücretsiz deneme sürümü mevcuttur[Burada](https://releases.aspose.com/) ve geçici lisanslar alınabilecek[Burada](https://purchase.aspose.com/temporary-license/).
 

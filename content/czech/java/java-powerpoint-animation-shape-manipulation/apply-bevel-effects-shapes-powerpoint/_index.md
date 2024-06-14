@@ -11,7 +11,7 @@ url: /cs/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Vytváření vizuálně přitažlivých prezentací je zásadní pro upoutání a udržení pozornosti publika. Přidání efektů zkosení k tvarům může zlepšit celkovou estetiku vašich snímků a vaše prezentace vynikne. V tomto tutoriálu vás provedeme procesem aplikace efektů zkosení na tvary v PowerPointu pomocí Aspose.Slides for Java. Ať už jste vývojář, který chce automatizovat tvorbu prezentací, nebo jen někdo, kdo si rád pohrává s designem, tato příručka vám pomůže.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
--  Java Development Kit (JDK): Ujistěte se, že máte nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Ujistěte se, že máte nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides pro Javu Library: Stáhněte si knihovnu z[Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 - IDE (Integrované vývojové prostředí): Použijte libovolné IDE podle svého výběru, například IntelliJ IDEA, Eclipse nebo NetBeans.
 -  Licence Aspose: Chcete-li používat Aspose.Slides bez omezení, získejte licenci od[Aspose Nákup](https://purchase.aspose.com/buy) nebo získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro hodnocení.
@@ -19,7 +19,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 Nejprve musíte importovat potřebné balíčky pro práci s Aspose.Slides ve vašem projektu Java. Můžete to udělat takto:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Krok 1: Nastavte svůj projekt

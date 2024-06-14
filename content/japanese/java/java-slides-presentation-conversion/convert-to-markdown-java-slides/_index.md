@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 //ソースプレゼンテーションへのパス
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	//マークダウンデータを保存するためのパスとフォルダ名
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	//Markdown作成オプションを作成する
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	//すべてのアイテムをレンダリングするためのパラメータを設定します (グループ化されたアイテムは一緒にレンダリングされます)。

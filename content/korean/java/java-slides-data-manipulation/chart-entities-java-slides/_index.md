@@ -8,11 +8,11 @@ weight: 13
 url: /ko/java/data-manipulation/chart-entities-java-slides/
 ---
 
-## Java 슬라이드의 차트 엔터티 소개
+## Java 슬라이드의 차트 항목 소개
 
 차트는 프레젠테이션의 데이터를 시각화하는 강력한 도구입니다. 비즈니스 보고서, 학술 프레젠테이션 또는 기타 콘텐츠 형식을 만들 때 차트는 정보를 효과적으로 전달하는 데 도움이 됩니다. Aspose.Slides for Java는 차트 작업을 위한 강력한 기능을 제공하므로 Java 개발자가 선택할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 차트 엔터티의 세계를 살펴보기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 
@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//범주 축에 대한 보조 그리드선 형식 설정
+// 범주 축에 대한 보조 그리드선 형식 설정
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//범주 축에 대한 보조 그리드선 형식 설정
+	// 범주 축에 대한 보조 그리드선 형식 설정
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -257,14 +257,14 @@ try
 	// 차트가 겹치지 않도록 차트 범례 표시 설정
 	chart.getLegend().setOverlay(true);
 	// 보조 값 축에 첫 번째 계열 표시
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
 	// 차트 뒷벽 색상 설정
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// 플롯 영역 색상 설정
+	//플롯 영역 색상 설정
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// 프레젠테이션 저장

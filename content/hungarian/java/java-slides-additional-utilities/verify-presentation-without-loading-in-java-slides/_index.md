@@ -75,7 +75,7 @@ Igen, az Aspose.Slides for Java használható kereskedelmi alkalmazásokban. Lic
 
 ### Vannak további funkciókat az Aspose.Slides for Java?
 
-Teljesen! Az Aspose.Slides for Java szolgáltatások széles skáláját kínálja a prezentációkkal való munkavégzéshez, beleértve a diák létrehozását, szerkesztését, konvertálását és manipulálását. Tekintse meg a dokumentációt a képességek teljes listájáért.
+Teljesen! Az Aspose.Slides for Java szolgáltatások széles skáláját kínálja a prezentációkkal való munkavégzéshez, beleértve a diák létrehozását, szerkesztését, konvertálását és manipulálását. Tekintse meg a dokumentációt a képességek teljes listájához.
 
 ### Hol találok további forrásokat és dokumentációt az Aspose.Slides for Java-hoz?
 

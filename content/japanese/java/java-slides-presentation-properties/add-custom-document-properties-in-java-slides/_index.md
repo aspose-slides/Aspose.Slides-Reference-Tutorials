@@ -10,7 +10,7 @@ url: /ja/java/presentation-properties/add-custom-document-properties-in-java-sli
 
 ## Java スライドでのカスタム ドキュメント プロパティの追加の概要
 
-このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションにカスタム ドキュメント プロパティを追加する手順について説明します。カスタム ドキュメント プロパティを使用すると、参照または分類のためにプレゼンテーションに関する追加情報を保存できます。
+このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションにカスタム ドキュメント プロパティを追加するプロセスについて説明します。カスタム ドキュメント プロパティを使用すると、参照または分類のためにプレゼンテーションに関する追加情報を保存できます。
 
 ## 前提条件
 
@@ -34,7 +34,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-## ステップ3: ドキュメントのプロパティを取得する
+## ステップ3: ドキュメントプロパティの取得
 
 次に、プレゼンテーションのドキュメント プロパティを取得します。これらのプロパティには、タイトル、作成者などの組み込みプロパティと、追加できるカスタム プロパティが含まれます。
 

@@ -11,7 +11,7 @@ url: /vi/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 Trong thế giới năng động của thiết kế bản trình bày, việc kết hợp các hình dạng như hình elip có thể tạo thêm nét sáng tạo và tính chuyên nghiệp. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để thao tác các tệp trình bày theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình tạo hình elip đơn giản trong các slide thuyết trình bằng Aspose.Slides for .NET.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Slides cho .NET. Bạn có thể tải nó xuống từ[trang phát hành](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Slides cho .NET. Bạn có thể tải nó xuống từ[trang phát hành](https://releases.aspose.com/slides/net/).
 - Môi trường phát triển: Thiết lập môi trường phát triển .NET trên máy của bạn.
 ## Nhập không gian tên
 Trong dự án .NET của bạn, hãy bắt đầu bằng cách nhập các vùng tên cần thiết:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Mã này khởi tạo một bản trình bày mới và chọn slide đầu tiên để thao tác thêm.
 ## Bước 2: Thêm hình elip
-Bây giờ, hãy thêm hình elip vào slide bằng cách sử dụng`AddAutoShape` phương pháp:
+ Bây giờ, hãy thêm hình elip vào slide bằng cách sử dụng`AddAutoShape` phương pháp:
 ```csharp
 // Thêm hình tự động của loại hình elip
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

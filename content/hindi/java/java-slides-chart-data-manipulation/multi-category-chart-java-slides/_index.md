@@ -156,4 +156,4 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट में शीर्षक कैसे जोड़ सकता हूँ?
 
- आप इसका उपयोग करके चार्ट में शीर्षक जोड़ सकते हैं`ch.getChartTitle().getTextFrame().setText("Chart Title");` तरीका।
+ आप चार्ट में शीर्षक जोड़ सकते हैं`ch.getChartTitle().getTextFrame().setText("Chart Title");` तरीका।

@@ -35,7 +35,7 @@ Recupera la prima diapositiva della presentazione:
 ```csharp
 ISlide sld = pres.Slides[0];
 ```
-## Passaggio 3: aggiungi fotogramma video
+## Passaggio 3: aggiungi un fotogramma video
 Ora aggiungi un fotogramma video alla diapositiva:
 ```csharp
 IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 150, dataDir + "video1.avi");
@@ -61,7 +61,7 @@ Incorporare fotogrammi video nelle diapositive di presentazione utilizzando Aspo
 Sì, puoi aggiungere più fotogrammi video a una singola diapositiva ripetendo la procedura descritta nel tutorial per ciascun fotogramma video.
 ### Q2: Quali formati video sono supportati da Aspose.Slides per .NET?
 Aspose.Slides per .NET supporta vari formati video, inclusi AVI, WMV e MP4.
-### Q3: Posso controllare le opzioni di riproduzione per il video inserito?
+### Q3: Posso controllare le opzioni di riproduzione del video inserito?
 Assolutamente! Hai il pieno controllo sulle opzioni di riproduzione, come la modalità di riproduzione e il volume, come dimostrato nel tutorial.
 ### Q4: È disponibile una versione di prova per Aspose.Slides per .NET?
  Sì, puoi esplorare le funzionalità di Aspose.Slides per .NET scaricando la versione di prova[Qui](https://releases.aspose.com/).

@@ -31,7 +31,7 @@ url: /zh/java/chart-creation/
 了解如何使用 Aspose.Slides for Java API 在 Java PowerPoint 演示文稿中创建雷达图。
 ### [Java 幻灯片中的散点图](./scattered-chart-java-slides/)
 了解如何使用 Aspose.Slides 在 Java 中创建散点图。使用 Java 源代码进行演示文稿数据可视化的分步指南。
-### [Java Slides 中图表的第二个绘图选项](./second-plot-options-charts-java-slides/)
+### [Java 幻灯片中的图表第二个绘图选项](./second-plot-options-charts-java-slides/)
 了解如何使用 Aspose.Slides for Java 自定义 Java Slides 中的图表。探索第二个绘图选项并增强您的演示文稿。
 ### [Java 幻灯片中的树形图](./tree-map-chart-java-slides/)
 使用 Aspose.Slides for Java 在 Java Slides 中创建树形图。带有源代码的分步指南，用于可视化分层数据。

@@ -79,7 +79,7 @@ Ebben az oktatóanyagban megtanulta, hogyan állíthat be betűtípus-tulajdons�
 
 ## GYIK
 
-### Hogyan változtathatom meg a betűszínt?
+### Hogyan változtathatom meg a betűtípus színét?
 
  A betűszín megváltoztatásához használja a`setFontColor` módszert, és adja meg a kívánt színt. Például:
 

@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effectiv
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสาร
 กำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณซึ่งมีการนำเสนอ PowerPoint:

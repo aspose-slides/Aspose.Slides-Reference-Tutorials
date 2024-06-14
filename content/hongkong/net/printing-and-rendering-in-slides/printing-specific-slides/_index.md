@@ -14,7 +14,7 @@ url: /zh-hant/net/printing-and-rendering-in-slides/printing-specific-slides/
 1.  Aspose.Slides 函式庫：確保您安裝了適用於 .NET 的 Aspose.Slides 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/slides/net/).
 2. 印表機配置：確保您的印表機配置正確並且可以從 .NET 環境存取。
 3. 整合開發環境 (IDE)：設定 .NET 開發環境，例如 Visual Studio。
-4. 文件目錄：指定儲存簡報文件的目錄。
+4. 文檔目錄：指定儲存演示文件的目錄。
 ## 導入命名空間
 在您的 .NET 專案中，匯入必要的命名空間以利用 Aspose.Slides 的功能：
 ```csharp
@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation())
 }
 ```
 ## 步驟 2：設定印表機設定
-在此步驟中，我們設定印表機設定。您可以根據您的要求自訂份數、頁面方向、邊距和其他相關設定。
+在此步驟中，我們設定印表機設定。您可以根據需要自訂份數、頁面方向、邊距和其他相關設定。
 ```csharp
 PrinterSettings printerSettings = new PrinterSettings();
 printerSettings.Copies = 2;

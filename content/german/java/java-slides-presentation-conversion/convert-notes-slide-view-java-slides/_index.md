@@ -84,7 +84,7 @@ In diesem Tutorial haben wir die wesentlichen Schritte zum Konvertieren von Noti
 
 ### Wie kann ich das Ausgabeformat beim Konvertieren einer Präsentation anpassen?
 
- Sie können das Ausgabeformat anpassen, indem Sie das`SaveFormat` Aufzählung im Code. Um die Präsentation beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.
+ Sie können das Ausgabeformat anpassen, indem Sie das`SaveFormat`Aufzählung im Code. Um die Präsentation beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.
 
 ### Muss ich eine Lizenz für Aspose.Slides für Java erwerben?
 
@@ -100,4 +100,4 @@ Aspose.Slides ist für die Arbeit mit verschiedenen PowerPoint-Formaten konzipie
 
 ### Wo finde ich weitere Codebeispiele und Tutorials für Aspose.Slides für Java?
 
- Eine Fülle von Codebeispielen und Tutorials finden Sie im[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/). Sehen Sie sich die Dokumentation an, um mehr über die Funktionen dieser leistungsstarken Bibliothek zu erfahren.
+ Eine Fülle von Codebeispielen und Tutorials finden Sie im[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/)Sehen Sie sich die Dokumentation an, um mehr über die Funktionen dieser leistungsstarken Bibliothek zu erfahren.

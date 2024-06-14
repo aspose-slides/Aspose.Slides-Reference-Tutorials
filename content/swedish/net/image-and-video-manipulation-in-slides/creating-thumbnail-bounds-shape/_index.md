@@ -39,10 +39,10 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbn
     // Bitmappsobjektet innehåller nu miniatyrbilden med angivna gränser.
 }
 ```
- Detta steg innebär att skapa en miniatyrbild av en form med specificerade gränser. Här,`ShapeThumbnailBounds.Appearance`används för att definiera utseendets gränser. Justera parametrarna (1, 1) enligt dina krav.
+ Detta steg innebär att skapa en miniatyrbild av en form med specificerade gränser. Här,`ShapeThumbnailBounds.Appearance` används för att definiera utseendets gränser. Justera parametrarna (1, 1) enligt dina krav.
 ## Steg 3: Spara bilden på disk
 ```csharp
-// Spara bilden på disk i PNG-format
+//Spara bilden på disk i PNG-format
 bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 ```
 I detta sista steg sparas den genererade miniatyrbilden på disken i PNG-format. Du kan anpassa filnamnet och formatet baserat på dina preferenser.
@@ -53,9 +53,9 @@ Aspose.Slides för .NET förenklar processen att arbeta med PowerPoint-presentat
 ### Är Aspose.Slides kompatibel med det senaste .NET-ramverket?
 Ja, Aspose.Slides uppdateras regelbundet för att säkerställa kompatibilitet med de senaste .NET framework-versionerna.
 ### Kan jag använda Aspose.Slides för kommersiella projekt?
-Absolut! Aspose.Slides erbjuder licensalternativ för både individuell och kommersiell användning. Besök[här](https://purchase.aspose.com/buy) för att utforska licensdetaljer.
+ Absolut! Aspose.Slides erbjuder licensalternativ för både individuell och kommersiell användning. Besök[här](https://purchase.aspose.com/buy) för att utforska licensdetaljer.
 ### Finns det en gratis testversion tillgänglig för Aspose.Slides?
- Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/) att utforska funktionerna innan du gör ett köp.
+ Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/)att utforska funktionerna innan du gör ett köp.
 ### Hur kan jag få support för Aspose.Slides?
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att få kontakt med samhället och söka hjälp från erfarna utvecklare.
 ### Kan jag få en tillfällig licens för Aspose.Slides?

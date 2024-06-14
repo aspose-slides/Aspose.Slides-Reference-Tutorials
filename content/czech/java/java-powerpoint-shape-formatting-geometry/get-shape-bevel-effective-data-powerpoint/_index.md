@@ -19,7 +19,7 @@ Začněte importováním potřebných balíčků do vašeho projektu Java:
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte adresář dokumentů
 Definujte cestu k adresáři dokumentů, kde je umístěna prezentace PowerPoint:

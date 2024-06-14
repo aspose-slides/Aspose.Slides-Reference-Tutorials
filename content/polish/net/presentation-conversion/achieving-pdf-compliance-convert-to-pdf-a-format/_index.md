@@ -97,5 +97,5 @@ Tak, Aspose.Slides obsługuje konwersje wsadowe, umożliwiając przetwarzanie wi
 ### Czy są dostępne opcje licencjonowania dla Aspose.Slides dla .NET?
  Tak, możesz zapoznać się z opcjami licencjonowania, w tym licencjami tymczasowymi, odwiedzając witrynę[Strona licencji Aspose](https://purchase.aspose.com/buy).
 
-### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Slides dla .NET, jeśli napotkam jakiekolwiek problemy?
+### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Slides dla .NET, jeśli napotkam jakieś problemy?
  Jeśli masz pytania lub napotkasz problemy, możesz zwrócić się o pomoc i wsparcie na stronie[Forum Aspose.Slides](https://forum.aspose.com/).

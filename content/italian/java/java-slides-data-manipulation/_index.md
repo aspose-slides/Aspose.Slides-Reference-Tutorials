@@ -81,7 +81,7 @@ Scopri come impostare le etichette dei dati con segni di percentuale nelle prese
 ### [Imposta l'intervallo di dati nelle diapositive Java](./set-data-range-java-slides/)
 Scopri come impostare gli intervalli di dati nelle diapositive Java senza sforzo con Aspose.Slides per Java. Crea presentazioni dinamiche e basate sui dati con questa guida passo passo. 
 ### [Imposta la cartella di lavoro esterna nelle diapositive Java](./set-external-workbook-java-slides/)
-Scopri come impostare cartelle di lavoro esterne in Java Slides utilizzando Aspose.Slides per Java. Crea presentazioni dinamiche con l'integrazione dei dati Excel.
+Scopri come impostare cartelle di lavoro esterne in Diapositive Java utilizzando Aspose.Slides per Java. Crea presentazioni dinamiche con l'integrazione dei dati Excel.
 ### [Imposta la cartella di lavoro esterna con l'aggiornamento dei dati del grafico nelle diapositive Java](./set-external-workbook-update-chart-data-java-slides/)
 Scopri come impostare cartelle di lavoro esterne e aggiornare i dati del grafico in Diapositive Java utilizzando Aspose.Slides per Java. Migliora le tue capacità di automazione di PowerPoint.
 ### [Imposta la larghezza dello spazio nelle diapositive Java](./set-gap-width-java-slides/)

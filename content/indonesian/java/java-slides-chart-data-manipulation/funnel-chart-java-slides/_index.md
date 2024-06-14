@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Tambahkan Bagan Corong pada slide pertama pada koordinat (50, 50) dengan dimensi (500, 400).
+    //Tambahkan Bagan Corong pada slide pertama pada koordinat (50, 50) dengan dimensi (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Anda dapat menyesuaikan posisi dan ukuran Bagan Corong dengan memodifikasi koord
 
 ### Bisakah saya mengekspor grafik ke format lain, seperti PDF atau gambar?
 
- Ya, Aspose.Slides untuk Java memungkinkan Anda mengekspor presentasi dengan Bagan Corong ke berbagai format, termasuk PDF, format gambar, dan lainnya. Anda dapat menggunakan`SaveFormat` opsi untuk menentukan format output yang diinginkan saat menyimpan presentasi.
+Ya, Aspose.Slides untuk Java memungkinkan Anda mengekspor presentasi dengan Bagan Corong ke berbagai format, termasuk PDF, format gambar, dan lainnya. Anda dapat menggunakan`SaveFormat` opsi untuk menentukan format output yang diinginkan saat menyimpan presentasi.

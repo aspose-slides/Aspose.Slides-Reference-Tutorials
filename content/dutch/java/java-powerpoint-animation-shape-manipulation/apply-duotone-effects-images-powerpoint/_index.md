@@ -19,7 +19,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u over het volgende b
 Eerst moet u de benodigde pakketten in uw Java-programma importeren. Zo doe je het:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

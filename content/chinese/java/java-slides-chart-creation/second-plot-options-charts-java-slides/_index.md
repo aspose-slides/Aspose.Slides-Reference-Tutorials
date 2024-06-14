@@ -1,6 +1,6 @@
 ---
-title: Java Slides 中图表的第二个绘图选项
-linktitle: Java Slides 中图表的第二个绘图选项
+title: Java 幻灯片中的图表第二个绘图选项
+linktitle: Java 幻灯片中的图表第二个绘图选项
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 自定义 Java Slides 中的图表。探索第二个绘图选项并增强您的演示文稿。
 type: docs

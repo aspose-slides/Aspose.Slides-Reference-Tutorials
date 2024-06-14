@@ -21,7 +21,7 @@ url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 现在，让我们将从一个演示文稿克隆幻灯片并将其添加到另一个演示文稿的过程分解为简单易懂的步骤。
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
 首先，我们需要加载要克隆幻灯片的源演示文稿。这是使用`Presentation`Aspose.Slides 提供的类。
 ```java
 //文档目录的路径。
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 //实例化 Presentation 类以加载源演示文件
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

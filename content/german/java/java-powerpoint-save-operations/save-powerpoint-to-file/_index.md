@@ -19,13 +19,13 @@ Importieren Sie zunächst die erforderlichen Pakete, um die Aspose.Slides-Funkti
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Schritt 1: Einrichten des Datenverzeichnisses
 ```java
 // Der Pfad zum Dokumentverzeichnis.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 In diesem Schritt definieren wir den Pfad zum Verzeichnis, in dem die PowerPoint-Präsentation gespeichert wird. Wenn das Verzeichnis nicht existiert, wird es erstellt.
 ## Schritt 2: Präsentationsobjekt instanziieren
 ```java
-//Instanziieren Sie ein Präsentationsobjekt, das eine PPT-Datei darstellt
+// Instanziieren Sie ein Präsentationsobjekt, das eine PPT-Datei darstellt
 Presentation presentation = new Presentation();
 ```
- Hier erstellen wir eine neue Instanz des`Presentation` Klasse, die eine PowerPoint-Präsentation darstellt.
+Hier erstellen wir eine neue Instanz des`Presentation` Klasse, die eine PowerPoint-Präsentation darstellt.
 ## Schritt 3: Operationen an der Präsentation durchführen (optional)
 ```java
 //...hier etwas arbeiten...

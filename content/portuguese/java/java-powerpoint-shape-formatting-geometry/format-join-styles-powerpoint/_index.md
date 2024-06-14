@@ -12,14 +12,14 @@ Criar apresentações em PowerPoint visualmente atraentes pode ser uma tarefa di
 ## Pré-requisitos
 Antes de começarmos, existem alguns pré-requisitos que você precisa ter em vigor:
 1.  Java Development Kit (JDK): Certifique-se de ter o JDK instalado em sua máquina. Você pode baixá-lo em[Site da Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Biblioteca Aspose.Slides for Java: Você precisa baixar e incluir Aspose.Slides for Java em seu projeto. Você pode obtê-lo de[aqui](https://releases.aspose.com/slides/java/).
+2.  Biblioteca Aspose.Slides for Java: Você precisa baixar e incluir Aspose.Slides for Java em seu projeto. Você pode obtê-lo de[aqui](https://releases.aspose.com/slides/java/).
 3. Ambiente de Desenvolvimento Integrado (IDE): Use um IDE como IntelliJ IDEA, Eclipse ou NetBeans para escrever e executar seu código Java.
 4. Conhecimento básico de Java: Uma compreensão fundamental da programação Java o ajudará a acompanhar o tutorial.
 ## Importar pacotes
 Primeiro, você precisa importar os pacotes necessários para Aspose.Slides. Isto é essencial para acessar as classes e métodos necessários para nossas manipulações de apresentação.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 Nesta etapa, definimos um caminho de diretório e verificamos se ele existe. Caso contrário, criamos o diretório. Esta é uma maneira simples, mas eficaz de manter seus arquivos organizados.
 ## Etapa 2: inicializar a apresentação
- A seguir, instanciamos o`Presentation`class, que representa nosso arquivo PowerPoint. Esta é a base sobre a qual construiremos nossos slides e formas.
+ A seguir, instanciamos o`Presentation` class, que representa nosso arquivo PowerPoint. Esta é a base sobre a qual construiremos nossos slides e formas.
 ```java
 Presentation pres = new Presentation();
 ```
@@ -65,7 +65,7 @@ shp3.getFillFormat().setFillType(FillType.Solid);
 shp3.getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 ### Definir largura e cor da linha
-seguir, definimos a largura e a cor da linha para cada retângulo. Isso ajuda a diferenciar visualmente os estilos de junção.
+A seguir, definimos a largura e a cor da linha para cada retângulo. Isso ajuda a diferenciar visualmente os estilos de junção.
 ```java
 shp1.getLineFormat().setWidth(15);
 shp2.getLineFormat().setWidth(15);
@@ -100,7 +100,7 @@ pres.save(dataDir + "RectShpLnJoin_out.pptx", SaveFormat.Pptx);
 ```
 Este comando grava a apresentação em um arquivo PPTX, que você pode abrir com o Microsoft PowerPoint ou qualquer outro software compatível.
 ## Conclusão
-aí está! Você acabou de criar um slide do PowerPoint com três retângulos, cada um apresentando um estilo de junção de linha diferente usando Aspose.Slides para Java. Este tutorial não apenas ajuda você a entender os fundamentos do Aspose.Slides, mas também mostra como aprimorar suas apresentações com estilos exclusivos. Boa apresentação!
+E aí está! Você acabou de criar um slide do PowerPoint com três retângulos, cada um apresentando um estilo de junção de linha diferente usando Aspose.Slides para Java. Este tutorial não apenas ajuda você a entender os fundamentos do Aspose.Slides, mas também mostra como aprimorar suas apresentações com estilos exclusivos. Boa apresentação!
 ## Perguntas frequentes
 ### O que é Aspose.Slides para Java?
 Aspose.Slides for Java é uma API poderosa para criar, manipular e gerenciar apresentações do PowerPoint de forma programática.

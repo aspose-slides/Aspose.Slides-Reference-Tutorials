@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Conclusie
 
- In deze zelfstudie hebben we geleerd hoe u een PowerPoint-presentatie in Java laadt met Aspose.Slides en het formaat ervan controleert met behulp van de`LoadFormat`opsomming. Dit kan handig zijn als u presentaties van verschillende formaten anders moet verwerken in uw Java-toepassing.
+ In deze zelfstudie hebben we geleerd hoe u een PowerPoint-presentatie in Java laadt met Aspose.Slides en het formaat ervan controleert met behulp van de`LoadFormat` opsomming. Dit kan handig zijn als u presentaties van verschillende formaten anders moet verwerken in uw Java-toepassing.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik Aspose.Slides voor Java downloaden?
 
- U kunt de Aspose.Slides voor Java-bibliotheek downloaden van de Aspose-website door naar te gaan[deze link](https://releases.aspose.com/slides/java/).
+ kunt de Aspose.Slides voor Java-bibliotheek downloaden van de Aspose-website door naar te gaan[deze link](https://releases.aspose.com/slides/java/).
 
 ### Wat is het doel van het controleren van het presentatieformaat?
 

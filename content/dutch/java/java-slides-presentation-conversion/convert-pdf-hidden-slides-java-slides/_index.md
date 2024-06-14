@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## Stap 3: Configureer PDF-opties
 
- Configureer de PDF-opties om verborgen dia's op te nemen in de PDF-uitvoer. Dit kunt u doen door het instellen van de`setShowHiddenSlides` eigendom van de`PdfOptions` klasse aan`true`.
+Configureer de PDF-opties om verborgen dia's op te nemen in de PDF-uitvoer. Dit kunt u doen door het instellen van de`setShowHiddenSlides` eigendom van de`PdfOptions` klasse aan`true`.
 
 ```java
 // Instantieer de klasse PdfOptions
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Hoe download ik Aspose.Slides voor Java?
 
- kunt Aspose.Slides voor Java downloaden van de Aspose-website. Bezoek de[Aspose.Slides voor Java-downloadpagina](https://releases.aspose.com/slides/java/) om de nieuwste versie te krijgen.
+ U kunt Aspose.Slides voor Java downloaden van de Aspose-website. Bezoek de[Aspose.Slides voor Java-downloadpagina](https://releases.aspose.com/slides/java/) om de nieuwste versie te krijgen.

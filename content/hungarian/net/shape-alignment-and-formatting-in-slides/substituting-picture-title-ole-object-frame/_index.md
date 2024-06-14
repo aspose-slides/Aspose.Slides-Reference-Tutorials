@@ -8,7 +8,7 @@ weight: 15
 url: /hu/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
 ## Bevezetés
-dinamikus és lebilincselő prezentációs diák létrehozása gyakran magában foglalja a különféle multimédiás elemek beépítését. Ebben az oktatóanyagban azt fogjuk megvizsgálni, hogyan lehet helyettesíteni egy OLE (Object Linking and Embedding) objektumkeret képcímét a bemutató diákjaiban a hatékony Aspose.Slides for .NET könyvtár használatával. Az Aspose.Slides leegyszerűsíti az OLE-objektumok kezelésének folyamatát, és olyan eszközöket biztosít a fejlesztőknek, amelyek segítségével könnyedén javíthatják prezentációikat.
+A dinamikus és lebilincselő prezentációs diák létrehozása gyakran magában foglalja a különféle multimédiás elemek beépítését. Ebben az oktatóanyagban azt fogjuk megvizsgálni, hogyan lehet helyettesíteni egy OLE (Object Linking and Embedding) objektumkeret képcímét a bemutató diákjaiban a hatékony Aspose.Slides for .NET könyvtár használatával. Az Aspose.Slides leegyszerűsíti az OLE-objektumok kezelésének folyamatát, és olyan eszközöket biztosít a fejlesztőknek, amelyek segítségével könnyedén javíthatják prezentációikat.
 ## Előfeltételek
 Mielőtt belevágnánk a lépésről lépésre szóló útmutatóba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 -  Aspose.Slides for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Slides for .NET könyvtár. Letöltheti a[Aspose.Slides .NET dokumentáció](https://reference.aspose.com/slides/net/).
@@ -78,7 +78,7 @@ Igen, az Aspose.Slides támogatja a különféle típusú fájlok, például Exc
 ### Testreszabható az OLE objektum ikonja?
 Teljesen. Az alapértelmezett ikont bármely tetszőleges képre lecserélheti, hogy jobban illeszkedjen a prezentáció témájához.
 ### Az Aspose.Slides támogatja az OLE objektumokat tartalmazó animációkat?
-A legújabb verziótól kezdve az Aspose.Slides az OLE objektumok beágyazására és megjelenítésére összpontosít, és nem kezeli közvetlenül az OLE objektumokon belüli animációkat.
+legújabb verziótól kezdve az Aspose.Slides az OLE objektumok beágyazására és megjelenítésére összpontosít, és nem kezeli közvetlenül az OLE objektumokon belüli animációkat.
 ### Programozottan kezelhetem az OLE objektumokat, miután hozzáadtam őket egy diához?
 Biztosan. Teljes programozási vezérléssel rendelkezik az OLE objektumok felett, így szükség szerint módosíthatja azok tulajdonságait és megjelenését.
 ### Vannak korlátozások a beágyazott OLE objektumok méretére vonatkozóan?

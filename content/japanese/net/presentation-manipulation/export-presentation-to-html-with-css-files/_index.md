@@ -59,7 +59,7 @@ HTML プレゼンテーションの外観を向上させるには、「styles.cs
  Aspose.Slides for .NET は次の Web サイトからダウンロードできます。[Aspose.Slides をダウンロード](https://releases.aspose.com/slides/net/)
 
 ### Q2: Aspose.Slides for .NET のライセンスは必要ですか?
-はい、ライセンスは以下から取得できます。[アポーズ](https://purchase.aspose.com/buy)API の全機能を使用するには。
+はい、ライセンスは以下から取得できます。[アポーズ](https://purchase.aspose.com/buy) API の全機能を使用するには。
 
 ### Q3: Aspose.Slides for .NET を無料で試すことはできますか?
 もちろんです！無料体験版は[ここ](https://releases.aspose.com/).

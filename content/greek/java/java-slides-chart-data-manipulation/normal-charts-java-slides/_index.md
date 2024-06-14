@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Ρύθμιση χρώματος γεμίσματος για σειρά
+// Ρύθμιση χρώματος γεμίσματος για τη σειρά
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Ρύθμιση χρώματος γεμίσματος για σειρά
+// Ρύθμιση χρώματος γεμίσματος για τη σειρά
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Πάρτε την πρώτη σειρά γραφημάτων
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Τώρα συμπληρώνονται δεδομένα σειράς
+// Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Ρύθμιση χρώματος γεμίσματος για σειρά
+// Ρύθμιση χρώματος γεμίσματος για τη σειρά
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Πάρτε τη δεύτερη σειρά γραφημάτων
 series = chart.getChartData().getSeries().get_Item(1);
-//Τώρα συμπληρώνονται δεδομένα σειράς
+// Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Ρύθμιση χρώματος γεμίσματος για σειρά
+// Ρύθμιση χρώματος γεμίσματος για τη σειρά
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // Η πρώτη ετικέτα θα εμφανίζεται στο όνομα της κατηγορίας
@@ -223,7 +223,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### Πώς μπορώ να αλλάξω τον τύπο του γραφήματος;
 
- Για να αλλάξετε τον τύπο γραφήματος, τροποποιήστε το`ChartType` παράμετρος κατά την προσθήκη του γραφήματος χρησιμοποιώντας`sld.getShapes().addChart()`. Μπορείτε να επιλέξετε από διάφορους τύπους γραφημάτων που είναι διαθέσιμοι στο Aspose.Slides.
+ Για να αλλάξετε τον τύπο γραφήματος, τροποποιήστε το`ChartType`παράμετρος κατά την προσθήκη του γραφήματος χρησιμοποιώντας`sld.getShapes().addChart()`. Μπορείτε να επιλέξετε από διάφορους τύπους γραφημάτων που είναι διαθέσιμοι στο Aspose.Slides.
 
 ### Μπορώ να αλλάξω τα χρώματα της σειράς γραφημάτων;
 
@@ -239,4 +239,4 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### Πώς μπορώ να αποθηκεύσω το γράφημα σε διαφορετική μορφή αρχείου;
 
- Για να αποθηκεύσετε το γράφημα σε διαφορετική μορφή αρχείου, αλλάξτε το`SaveFormat` παράμετρος στο`pres.save()`μέθοδο στην επιθυμητή μορφή (π.χ. PDF, PNG, JPEG).
+ Για να αποθηκεύσετε το γράφημα σε διαφορετική μορφή αρχείου, αλλάξτε το`SaveFormat` παράμετρος στο`pres.save()` μέθοδο στην επιθυμητή μορφή (π.χ. PDF, PNG, JPEG).

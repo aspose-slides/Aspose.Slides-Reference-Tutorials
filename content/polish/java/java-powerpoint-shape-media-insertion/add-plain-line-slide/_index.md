@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Krok 1: Skonfiguruj środowisko
@@ -61,4 +61,4 @@ Absolutnie! Aspose.Slides oferuje szeroką gamę typów kształtów, w tym prost
 ### Czy mogę dodać tekst do slajdu wraz z kształtem linii?
 Tak, możesz dodawać tekst, obrazy i inną zawartość do slajdu za pomocą interfejsu API Aspose.Slides.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Slides?
-Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides z[Tutaj](https://releases.aspose.com/).
+ Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides z[Tutaj](https://releases.aspose.com/).

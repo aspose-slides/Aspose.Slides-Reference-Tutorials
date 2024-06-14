@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 
 ## Bevezetés a jegyzetek dianézetének PDF formátumba konvertálásához a Java Slides alkalmazásban
 
-Ebben az oktatóanyagban végigvezetjük a PowerPoint-prezentáció jegyzetekkel dianézetet tartalmazó PDF-formátumba konvertálásának folyamatán az Aspose.Slides for Java könyvtár használatával. Ez a könyvtár hatékony funkciókat kínál a PowerPoint prezentációk használatához Java nyelven.
+Ebben az oktatóanyagban végigvezetjük a PowerPoint prezentáció jegyzeteket tartalmazó dianézetű PDF-formátumba konvertálásának folyamatán az Aspose.Slides for Java könyvtár használatával. Ez a könyvtár hatékony funkciókat kínál a PowerPoint prezentációk használatához Java nyelven.
 
 ## Előfeltételek
 1. Java Development Kit (JDK) telepítve.
@@ -32,7 +32,7 @@ Presentation presentation = new Presentation(dataDir + "NotesFile.pptx");
 ```
 
 ## 3. lépés: Konfigurálja a PDF-beállításokat
-Most konfiguráljuk a PDF exportálási beállításokat. Pontosabban, a megjegyzések pozícióját "BottomFull" értékre állítjuk, hogy a PDF-ben a diák alatti megjegyzések is megjelenjenek. Íme a kód:
+Most konfiguráljuk a PDF-exportálási beállításokat. Pontosabban, a megjegyzések pozícióját "BottomFull" értékre állítjuk, hogy a PDF-ben a diák alatti megjegyzések is megjelenjenek. Íme a kód:
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Igényei szerint testreszabhat más PDF-beállításokat.
 
 ## 4. lépés: Mentse el a prezentációt PDF formátumban a Megjegyzésekkel
-Végül mentsük el a prezentációt PDF fájlként a jegyzetekkel együtt. Megadhatja a kimeneti fájl nevét (pl.`"Pdf_Notes_out.pdf"`) és válassza ki a formátumot (`SaveFormat.Pdf`). Íme a kód ehhez:
+ Végül mentsük el a prezentációt PDF fájlként a jegyzetekkel együtt. Megadhatja a kimeneti fájl nevét (pl.`"Pdf_Notes_out.pdf"`) és válassza ki a formátumot (`SaveFormat.Pdf`). Íme a kód ehhez:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -79,7 +79,7 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan konvertálhatunk PowerPoint-prezentációkat jegyzetdianézetekkel PDF-fájlokká az Aspose.Slides for Java könyvtár használatával. A konverzió eléréséhez lépésről lépésre követtük a forráskódot tartalmazó útmutatót. Íme a legfontosabb tudnivalók:
+Ebben az oktatóanyagban megvizsgáltuk, hogyan konvertálhat feljegyzés-dianézetet tartalmazó PowerPoint-prezentációkat PDF-fájlokká az Aspose.Slides for Java könyvtár használatával. A konverzió eléréséhez lépésről lépésre követtük a forráskódot tartalmazó útmutatót. Íme a legfontosabb tudnivalók:
 
 ## GYIK
 
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Testreszabhatom a PDF-exportálást?
 
-Igen, testreszabhatja a PDF-exportálást a különböző beállítások módosításával`PdfOptions` tárgy. Például beállíthatja a minőséget, a tömörítést és egyéb paramétereket igényei szerint.
+ Igen, testreszabhatja a PDF-exportálást a különböző beállítások módosításával`PdfOptions` tárgy. Például beállíthatja a minőséget, a tömörítést és egyéb paramétereket igényei szerint.
 
 ### Hogyan szerezhetem be az Aspose.Slides for Java programot?
 

@@ -119,4 +119,4 @@ Ja, Aspose.Slides voor Java ondersteunt verschillende PowerPoint-bestandsindelin
 
 ### Hoe kan ik verdere ondersteuning of assistentie krijgen met Aspose.Slides voor Java?
 
-U kunt toegang krijgen tot aanvullende ondersteuning en bronnen op de Aspose-website. Ze bieden forums, documentatie en premium ondersteuningsopties voor gebruikers.
+kunt toegang krijgen tot aanvullende ondersteuning en bronnen op de Aspose-website. Ze bieden forums, documentatie en premium ondersteuningsopties voor gebruikers.

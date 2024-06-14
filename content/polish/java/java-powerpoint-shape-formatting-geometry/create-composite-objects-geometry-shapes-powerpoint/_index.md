@@ -19,12 +19,12 @@ Zanim przejdziemy do kodu, potrzebujemy kilku rzeczy:
 Na początek zaimportujmy niezbędne pakiety, aby rozpocząć korzystanie z Aspose.Slides dla Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Tworzenie obiektów złożonych może wydawać się skomplikowane, ale dzieląc je na łatwe do wykonania etapy, przekonasz się, że jest to łatwiejsze niż myślisz. Stworzymy prezentację programu PowerPoint, dodamy kształt, a następnie zdefiniujemy i zastosujemy wiele ścieżek geometrii, aby utworzyć kształt złożony.
 ## Krok 1: Skonfiguruj swój projekt
-Zanim napiszesz jakikolwiek kod, skonfiguruj projekt Java. Utwórz nowy projekt w swoim IDE i dołącz Aspose.Slides dla Java. Możesz dodać bibliotekę za pomocą Mavena lub pobrać plik JAR z[Strona pobierania Aspose.Slides](https://releases.aspose.com/slides/java/).
+ Zanim napiszesz jakikolwiek kod, skonfiguruj projekt Java. Utwórz nowy projekt w swoim IDE i dołącz Aspose.Slides dla Java. Możesz dodać bibliotekę za pomocą Mavena lub pobrać plik JAR z[Strona pobierania Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### Dodawanie Aspose.Slides do projektu za pomocą Mavena
  Jeśli używasz Mavena, dodaj następującą zależność do pliku`pom.xml` plik:
 ```xml
@@ -35,10 +35,10 @@ Zanim napiszesz jakikolwiek kod, skonfiguruj projekt Java. Utwórz nowy projekt 
 </dependency>
 ```
 ## Krok 2: Zainicjuj prezentację
- Teraz utwórzmy nową prezentację programu PowerPoint. Zaczniemy od inicjalizacji pliku`Presentation` klasa.
+Teraz utwórzmy nową prezentację programu PowerPoint. Zaczniemy od inicjalizacji pliku`Presentation` klasa.
 ```java
 // Nazwa pliku wyjściowego
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Krok 3: Utwórz nowy kształt
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Krok 7: Zapisz prezentację
 Na koniec zapisz prezentację w pliku.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Krok 8: Oczyść zasoby

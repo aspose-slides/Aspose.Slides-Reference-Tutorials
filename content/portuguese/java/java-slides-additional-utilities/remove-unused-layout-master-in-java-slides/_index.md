@@ -84,7 +84,7 @@ Este código imprimirá as contagens atualizadas em sua apresentação, mostrand
 ## Código-fonte completo para remover layout mestre não utilizado em slides Java
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

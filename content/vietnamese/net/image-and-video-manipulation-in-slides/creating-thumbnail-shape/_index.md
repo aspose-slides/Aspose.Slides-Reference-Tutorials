@@ -23,7 +23,7 @@ using Aspose.Slides;
 ## Bước 1: Thiết lập dự án của bạn
 Tạo một dự án C# mới trong môi trường phát triển ưa thích của bạn. Đảm bảo rằng thư viện Aspose.Slides được tham chiếu trong dự án của bạn.
 ## Bước 2: Khởi tạo bản trình bày
- Khởi tạo một lớp Trình bày để thể hiện tệp PowerPoint. Cung cấp đường dẫn đến tệp trình bày của bạn trong`dataDir` Biến đổi.
+Khởi tạo một lớp Trình bày để thể hiện tệp PowerPoint. Cung cấp đường dẫn đến tệp trình bày của bạn trong`dataDir` Biến đổi.
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -56,4 +56,4 @@ Trả lời: Bạn có thể triển khai cơ chế xử lý lỗi bằng cách 
 ### Câu hỏi: Có bất kỳ hạn chế nào về kích thước hoặc loại hình có thể có hình thu nhỏ không?
 Trả lời: Aspose.Slides mang đến sự linh hoạt trong việc tạo hình thu nhỏ cho nhiều hình dạng khác nhau, bao gồm hộp văn bản, hình ảnh, v.v.
 ### Hỏi: Tôi có thể tùy chỉnh kích thước và độ phân giải của hình thu nhỏ được tạo không?
-A: Có, bạn có thể điều chỉnh các thông số khi gọi`GetThumbnail` phương pháp để kiểm soát kích thước và độ phân giải.
+ A: Có, bạn có thể điều chỉnh các thông số khi gọi`GetThumbnail` phương pháp để kiểm soát kích thước và độ phân giải.

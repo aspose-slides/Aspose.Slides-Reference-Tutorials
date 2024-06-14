@@ -10,7 +10,7 @@ url: /pt/net/slide-background-manipulation/
 
 ## Introdução
 
-Bem-vindo ao tutorial Aspose.Slides sobre manipulação de fundo de slides. Neste tutorial, mergulharemos no mundo da criação de slides cativantes, explorando várias técnicas para manipular planos de fundo de slides. Seja você um desenvolvedor experiente ou um novato, este tutorial foi feito sob medida para fornecer o conhecimento e as habilidades necessárias para criar apresentações visualmente impressionantes.
+Bem-vindo ao tutorial Aspose.Slides sobre manipulação de fundo de slides. Neste tutorial, mergulharemos no mundo da criação de slides cativantes, explorando várias técnicas para manipular planos de fundo de slides. Quer você seja um desenvolvedor experiente ou um novato, este tutorial foi feito sob medida para fornecer o conhecimento e as habilidades necessárias para criar apresentações visualmente impressionantes.
 
 ## Revelando o poder dos planos de fundo dos slides
 

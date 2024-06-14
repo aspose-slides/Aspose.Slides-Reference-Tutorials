@@ -96,7 +96,7 @@ Na tym etapie konfigurujemy niestandardowy moduł oszczędzania danych wyjściow
 
 ```java
 	// Ścieżka do prezentacji źródłowej
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Utwórz opcje konwersji
@@ -109,7 +109,7 @@ Na tym etapie konfigurujemy niestandardowy moduł oszczędzania danych wyjściow
 		pres.save(xamlOptions);
 		// Zapisz pliki XAML w katalogu wyjściowym
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

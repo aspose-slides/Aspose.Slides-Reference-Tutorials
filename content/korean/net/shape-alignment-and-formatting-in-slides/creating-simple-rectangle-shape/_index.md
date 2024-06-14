@@ -9,7 +9,7 @@ url: /ko/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-
 ---
 ## 소개
 역동적이고 시각적으로 매력적인 PowerPoint 프레젠테이션으로 .NET 애플리케이션을 향상시키려는 경우 Aspose.Slides for .NET이 최적의 솔루션입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 간단한 직사각형 모양을 만드는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - Visual Studio: 개발 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요.
 -  .NET용 Aspose.Slides: 다음에서 .NET용 Aspose.Slides 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/net/).

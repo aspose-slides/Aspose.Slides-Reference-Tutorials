@@ -19,7 +19,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u over het volgende b
 Om te beginnen moet u de benodigde pakketten in uw Java-project importeren. Deze import biedt toegang tot de Aspose.Slides-functionaliteiten die vereist zijn voor deze zelfstudie.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 We willen onze dia's visueel onderscheidend maken door achtergrondkleuren toe te voegen.
 ### Achtergrond instellen voor de tweede dia
 ```java
-    //Maak een achtergrond voor de tweede dia
+    // Maak een achtergrond voor de tweede dia
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

@@ -9,17 +9,17 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 ---
 ## 소개
 시각적으로 매력적인 프레젠테이션을 만드는 것은 청중의 관심을 끌고 유지하는 데 중요합니다. 도형에 경사 효과를 추가하면 슬라이드의 전반적인 미학이 향상되어 프레젠테이션이 돋보이게 됩니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint의 도형에 경사 효과를 적용하는 과정을 안내합니다. 프레젠테이션 작성을 자동화하려는 개발자이거나 디자인 작업을 좋아하는 사람이라면 이 가이드가 도움이 될 것입니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
--  JDK(Java Development Kit): JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
+- JDK(Java Development Kit): JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Java 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하세요.[Java용 Aspose.Slides](https://releases.aspose.com/slides/java/).
 - IDE(통합 개발 환경): IntelliJ IDEA, Eclipse, NetBeans 등 원하는 IDE를 사용하세요.
--  Aspose 라이선스: Aspose.Slides를 제한 없이 사용하려면 다음에서 라이선스를 받으세요.[구매 제안](https://purchase.aspose.com/buy) 아니면[임시 면허증](https://purchase.aspose.com/temporary-license/) 평가를 위해.
+-  Aspose 라이선스: Aspose.Slides를 제한 없이 사용하려면 다음에서 라이선스를 받으세요.[구매 제안](https://purchase.aspose.com/buy) 아니면[임시면허](https://purchase.aspose.com/temporary-license/) 평가를 위해.
 ## 패키지 가져오기
 먼저 Java 프로젝트에서 Aspose.Slides 작업에 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 1단계: 프로젝트 설정

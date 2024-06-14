@@ -67,6 +67,6 @@ Sí, Aspose.Slides se integra perfectamente con Visual Studio para el desarrollo
 ### ¿Puedo personalizar la apariencia del marco de zoom de la sección?
 ¡Absolutamente! Tienes control total sobre las dimensiones, la posición y el estilo del marco de zoom de la sección.
 ### ¿Existe una versión de prueba disponible para Aspose.Slides?
-Sí, puede explorar las funciones de Aspose.Slides utilizando el[prueba gratis](https://releases.aspose.com/).
+ Sí, puede explorar las funciones de Aspose.Slides utilizando el[prueba gratis](https://releases.aspose.com/).
 ### ¿Dónde puedo obtener asistencia para consultas relacionadas con Aspose.Slides?
  Para cualquier soporte o consulta visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).

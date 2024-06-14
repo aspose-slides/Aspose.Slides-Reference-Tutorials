@@ -62,7 +62,7 @@ In deze zelfstudie hebben we het proces doorlopen van het exporteren van vormen 
 
 ### Q1: Wat is het SVG-formaat?
 
-Scalable Vector Graphics (SVG) is een op XML gebaseerd vectorafbeeldingsformaat dat veel wordt gebruikt vanwege de schaalbaarheid en compatibiliteit met webbrowsers.
+Scalable Vector Graphics (SVG) is een op XML gebaseerd formaat voor vectorafbeeldingen dat veel wordt gebruikt vanwege de schaalbaarheid en compatibiliteit met webbrowsers.
 
 ### Vraag 2: Kan ik meerdere vormen tegelijk exporteren?
 

@@ -19,7 +19,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 Ten eerste moet u de benodigde pakketten in uw Java-code importeren om de functionaliteiten van Aspose.Slides te kunnen gebruiken. Voeg de volgende importinstructies toe aan het begin van uw Java-bestand:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ Ja, u kunt de code aanpassen om vormen op elke dia te targeten door de dia-index
 ### Ondersteunt Aspose.Slides andere afbeeldingsformaten voor het opslaan van miniaturen?
 Ja, naast PNG ondersteunt Aspose.Slides het opslaan van miniaturen in verschillende afbeeldingsformaten zoals JPEG, GIF en BMP.
 ### Is Aspose.Slides geschikt voor commercieel gebruik?
-Ja, Aspose.Slides biedt commerciële licenties voor bedrijven en organisaties. U kunt een licentie kopen bij[hier](https://purchase.aspose.com/buy).
+ Ja, Aspose.Slides biedt commerciële licenties voor bedrijven en organisaties. U kunt een licentie kopen bij[hier](https://purchase.aspose.com/buy).
 ### Kan ik Aspose.Slides uitproberen voordat ik een aankoop doe?
  Absoluut! U kunt een gratis proefversie van Aspose.Slides downloaden van[hier](https://releases.aspose.com/) om de kenmerken en mogelijkheden ervan te evalueren.
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides?

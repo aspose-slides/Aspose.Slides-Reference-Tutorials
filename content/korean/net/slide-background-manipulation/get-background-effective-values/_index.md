@@ -10,7 +10,7 @@ url: /ko/net/slide-background-manipulation/get-background-effective-values/
 
 역동적이고 매력적인 프레젠테이션 세계에서 Aspose.Slides for .NET은 개발자와 전문가가 PowerPoint 파일의 다양한 측면을 조작하고 제어할 수 있도록 지원하는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드의 효과적인 배경 값을 얻는 과정을 안내합니다. 이 기술은 프레젠테이션의 배경 디자인과 색 구성표를 사용하여 시각적으로 멋진 슬라이드를 만들어야 할 때 특히 유용합니다. 
 
-## 전제조건
+## 전제 조건
 
 세부 사항을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -18,7 +18,7 @@ url: /ko/net/slide-background-manipulation/get-background-effective-values/
 
  개발 환경에 Aspose.Slides for .NET이 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다.[.NET용 Aspose.Slides 다운로드 페이지](https://releases.aspose.com/slides/net/).
 
-### 2. C#의 기본지식
+### 2. C#의 기본 지식
 
 Aspose.Slides와 상호 작용하기 위해 C# 코드를 사용하므로 C# 프로그래밍에 대한 기본적인 이해가 필수적입니다.
 

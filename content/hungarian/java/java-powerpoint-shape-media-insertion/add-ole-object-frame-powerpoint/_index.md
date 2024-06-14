@@ -12,13 +12,13 @@ OLE (Object Linking and Embedding) objektumkeret hozzáadása a PowerPoint-preze
 ### Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java Development Kit (JDK) telepítve van a rendszerén.
-2. Aspose.Slides for Java: Töltse le és telepítse az Aspose.Slides for Java programot a webhelyről[itt](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Töltse le és telepítse az Aspose.Slides for Java programot a webhelyről[itt](https://releases.aspose.com/slides/java/).
 3. A Java programozás alapjai: Ismerkedjen meg a Java programozási fogalmakkal és szintaxisával.
 ## Csomagok importálása
 Először is importálnia kell a szükséges csomagokat az Aspose.Slides for Java funkcióinak kihasználásához. A következőképpen teheti meg:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Győződjön meg arról, hogy a projekt megfelelően van konfigurálva, és az A
 Hozzon létre egy prezentációs objektumot, amely képviseli azt a PowerPoint fájlt, amellyel dolgozik:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Példányos bemutató osztály, amely a PPTX-et képviseli
 Presentation pres = new Presentation();
 ```
@@ -75,7 +75,7 @@ Igen, különféle típusú objektumokat ágyazhat be, beleértve a Word dokumen
 ### Az Aspose.Slides kompatibilis a PowerPoint különböző verzióival?
 Az Aspose.Slides a PowerPoint-verziók széles választékával kompatibilis, biztosítva a zökkenőmentes integrációt.
 ### Testreszabhatom az OLE objektumkeret megjelenését?
-Teljesen! Az Aspose.Slides széles körű lehetőségeket kínál az OLE objektumkeretek megjelenésének és viselkedésének testreszabására.
+Teljesen! Az Aspose.Slides kiterjedt lehetőségeket kínál az OLE objektumkeretek megjelenésének és viselkedésének testreszabására.
 ### Elérhető az Aspose.Slides for Java próbaverziója?
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hol találok támogatást az Aspose.Slides for Java számára?

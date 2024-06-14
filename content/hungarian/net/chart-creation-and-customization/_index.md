@@ -18,7 +18,7 @@ Készen áll arra, hogy adatait lenyűgöző vizuális történetekké alakítsa
 
 ## Diagramkészítési és testreszabási oktatóanyagok
 ### [Diagram létrehozása és testreszabása az Aspose.Slides-ben](./chart-creation-and-customization/)
-Ismerje meg, hogyan hozhat létre és szabhat testre lenyűgöző diagramokat az Aspose.Slides for .NET használatával. Útmutató lépésről lépésre kódpéldákkal.
+Ismerje meg, hogyan hozhat létre és szabhat testre lenyűgöző diagramokat az Aspose.Slides for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
 ### [Adjon hozzá elrendezési diákat a bemutatóhoz](./add-layout-slides/)
 Javítsa a prezentációkat az Aspose.Slides for .NET segítségével: Adjon hozzá elrendezési diákat zökkenőmentesen a vizuálisan lenyűgöző tartalom érdekében.
 ### [Diák összehasonlítása a prezentáción belül](./check-slides-comparison/)

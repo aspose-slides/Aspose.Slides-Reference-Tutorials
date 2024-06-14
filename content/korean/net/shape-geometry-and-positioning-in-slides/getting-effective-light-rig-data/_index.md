@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/getting-effective-light-ri
 ---
 ## 소개
 역동적이고 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것은 오늘날 디지털 시대의 일반적인 요구 사항입니다. 한 가지 필수적인 측면은 전체적인 미학을 향상시키기 위해 조명 장비 속성을 조작하는 것입니다. 이 튜토리얼은 Aspose.Slides for .NET을 사용하여 프리젠테이션 슬라이드에서 효과적인 조명 장비 데이터를 얻는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 - C# 및 .NET 프로그래밍에 대한 기본 지식.
 -  .NET 라이브러리용 Aspose.Slides가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).
@@ -40,7 +40,7 @@ if (!isExists)
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // 효과적인 조명 장비 데이터를 검색하기 위한 코드가 여기에 있습니다.
+    //효과적인 조명 장비 데이터를 검색하기 위한 코드가 여기에 있습니다.
 }
 ```
 ## 4단계: 효과적인 조명 장비 데이터 검색

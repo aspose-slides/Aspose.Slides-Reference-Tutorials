@@ -18,7 +18,7 @@ url: /ja/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-pi
 まず、Java プロジェクトに必要なパッケージをインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

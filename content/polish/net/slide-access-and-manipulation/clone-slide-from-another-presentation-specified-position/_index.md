@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Po sklonowaniu slajdu i wstawieniu go w żądanym miejscu należy zapisać zmodyfikowaną prezentację docelową. Użyj poniższego kodu, aby zapisać prezentację:
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Wstaw sklonowany slajd w określonym miejscu
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Zapisz zmodyfikowaną prezentację
+            //Zapisz zmodyfikowaną prezentację
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }
@@ -136,4 +136,4 @@ Oczywiście możesz modyfikować zawartość, formatowanie i właściwości sklo
 
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Slides dla .NET?
 
- Możesz odwołać się do[dokumentacja](https://reference.aspose.com/slides/net/) aby uzyskać szczegółowe informacje, przykłady i odniesienia do API związane z Aspose.Slides dla .NET.
+ Możesz zapoznać się z[dokumentacja](https://reference.aspose.com/slides/net/) aby uzyskać szczegółowe informacje, przykłady i odniesienia do API związane z Aspose.Slides dla .NET.

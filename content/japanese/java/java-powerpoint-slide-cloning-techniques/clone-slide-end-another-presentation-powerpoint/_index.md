@@ -21,7 +21,7 @@ url: /ja/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ここで、あるプレゼンテーションからスライドを複製し、それを別のプレゼンテーションに追加するプロセスを、シンプルでわかりやすい手順に分解してみましょう。
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
 まず、スライドを複製したい元のプレゼンテーションを読み込む必要があります。これは、`Presentation` Aspose.Slides によって提供されるクラス。
 ```java
 //ドキュメント ディレクトリへのパス。
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 //ソースプレゼンテーションファイルをロードするためにプレゼンテーションクラスをインスタンス化する
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

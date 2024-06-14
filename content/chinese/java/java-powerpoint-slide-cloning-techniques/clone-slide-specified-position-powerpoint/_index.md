@@ -21,13 +21,13 @@ url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-pos
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置数据目录
 您需要一个目录来存储 PowerPoint 文件。您将在此处加载源文件并保存克隆的演示文稿。
 ```java
 //文档目录的路径。
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## 步骤 2：加载源演示文稿
 接下来，我们将加载包含您要克隆的幻灯片的源演示文稿。此步骤至关重要，因为它是克隆操作的基础。

@@ -18,7 +18,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 Gerekli paketleri Java projenize aktarın:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -72,6 +72,6 @@ Kesinlikle. Aspose.Slides for Java'yı kullanarak ses oynatmayı belirli slayt g
 ### Aspose.Slides for Java platformlar arası uyumluluk desteği sağlıyor mu?
 Evet, farklı platformlarla uyumlu gömülü ses çerçeveleriyle PowerPoint sunumları oluşturabilirsiniz.
 ### Sunumdaki ses oynatıcısının görünümünü özelleştirebilir miyim?
-Aspose.Slides for Java, ses oynatıcınızın görünümünü tercihlerinize göre uyarlamanıza olanak tanıyan kapsamlı özelleştirme seçenekleri sunar.
+Aspose.Slides for Java, ses oynatıcınızın görünümünü tercihlerinize göre uyarlamanıza olanak tanıyan kapsamlı kişiselleştirme seçenekleri sunar.
 ### Aspose.Slides for Java'nın deneme sürümü mevcut mu?
  Evet, Aspose.Slides for Java'nın ücretsiz deneme sürümüne kendi sitelerinden erişebilirsiniz.[İnternet sitesi](https://releases.aspose.com/).

@@ -9,7 +9,7 @@ url: /ko/net/printing-and-rendering-in-slides/rendering-3d-effects/
 ---
 ## 소개
 효과적인 의사소통을 위해서는 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것이 필수적입니다. Aspose.Slides for .NET은 3D 효과 렌더링 기능을 포함하여 슬라이드를 향상시키는 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 활용하여 프레젠테이션 슬라이드에 멋진 3D 효과를 손쉽게 추가하는 방법을 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/net/).
 - 개발 환경: 선호하는 .NET 개발 환경을 설정합니다.
@@ -74,6 +74,6 @@ pres.Slides[0].GetThumbnail(2, 2).Save(outPngFile, ImageFormat.Png);
 ### 더 많은 튜토리얼과 예제는 어디서 찾을 수 있나요?
  Aspose.Slides 문서 살펴보기[여기](https://reference.aspose.com/slides/net/) 포괄적인 튜토리얼과 예제를 보려면
 ### 무료 평가판이 제공되나요?
- 예, Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+예, Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?
  Aspose.Slides 포럼을 방문하세요[여기](https://forum.aspose.com/c/slides/11) 지역 사회 지원 및 지원을 위해.

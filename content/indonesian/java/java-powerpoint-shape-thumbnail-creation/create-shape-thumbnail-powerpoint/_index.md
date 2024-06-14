@@ -19,7 +19,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 Pertama, Anda perlu mengimpor paket yang diperlukan dalam kode Java Anda untuk memanfaatkan fungsi Aspose.Slides. Sertakan pernyataan import berikut di awal file Java Anda:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ Ya, Anda dapat memodifikasi kode untuk menargetkan bentuk pada slide mana pun de
 ### Apakah Aspose.Slides mendukung format gambar lain untuk menyimpan thumbnail?
 Ya, selain PNG, Aspose.Slides mendukung penyimpanan thumbnail dalam berbagai format gambar seperti JPEG, GIF, dan BMP.
 ### Apakah Aspose.Slides cocok untuk penggunaan komersial?
-Ya, Aspose.Slides menawarkan lisensi komersial untuk bisnis dan organisasi. Anda dapat membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy).
+ Ya, Aspose.Slides menawarkan lisensi komersial untuk bisnis dan organisasi. Anda dapat membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy).
 ### Bisakah saya mencoba Aspose.Slides sebelum membeli?
  Sangat! Anda dapat mengunduh Aspose.Slides versi uji coba gratis dari[Di Sini](https://releases.aspose.com/) untuk mengevaluasi fitur dan kemampuannya.
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Slides?

@@ -57,7 +57,7 @@ Simpan presentasi dengan efek 3D tambahan:
 ```csharp
 pres.Save(outPptxFile, SaveFormat.Pptx);
 ```
-## Langkah 6: Hasilkan Gambar Mini
+## Langkah 6: Hasilkan Gambar Kecil
 Hasilkan gambar mini slide:
 ```csharp
 string outPngFile = Path.Combine(dataDir, "sample_3d.png");
@@ -74,6 +74,6 @@ Sangat! Aspose.Slides menyediakan opsi luas untuk menyesuaikan properti 3D untuk
 ### Di mana saya dapat menemukan tutorial dan contoh lainnya?
  Jelajahi dokumentasi Aspose.Slides[Di Sini](https://reference.aspose.com/slides/net/) untuk tutorial dan contoh yang komprehensif.
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda dapat mengunduh Aspose.Slides versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh Aspose.Slides versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
  Kunjungi forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11) untuk dukungan dan bantuan masyarakat.

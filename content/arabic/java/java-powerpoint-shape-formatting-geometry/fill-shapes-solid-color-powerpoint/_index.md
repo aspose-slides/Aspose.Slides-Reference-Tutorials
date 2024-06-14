@@ -20,7 +20,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-
 لبدء استخدام Aspose.Slides لـ Java، تحتاج إلى استيراد الحزم الضرورية. وإليك كيف يمكنك القيام بذلك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## الخطوة 1: قم بإعداد مشروعك
@@ -56,13 +56,13 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## الخطوة 5: اضبط نوع التعبئة على صلب
  لتعبئة الشكل بلون خالص، قم بتعيين نوع التعبئة على`Solid`.
 ```java
-//اضبط نوع التعبئة على Solid
+// اضبط نوع التعبئة على Solid
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## الخطوة 6: اختيار وتطبيق اللون
 اختر لونًا للشكل. هنا، نستخدم اللون الأصفر، ولكن يمكنك اختيار أي لون تريده.
 ```java
-// اضبط لون المستطيل
+//اضبط لون المستطيل
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
 ## الخطوة 7: احفظ العرض التقديمي
@@ -84,4 +84,4 @@ Aspose.Slides for Java هي مكتبة قوية للعمل مع عروض PowerPo
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ Java؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[موقع أسبوز](https://releases.aspose.com/).
 ### أين يمكنني العثور على مزيد من الوثائق والدعم؟
- الوثائق التفصيلية متاحة على[موقع أسبوز](https://reference.aspose.com/slides/java/) ، ويمكنك طلب الدعم على[اطرح المنتديات](https://forum.aspose.com/c/slides/11).
+ الوثائق التفصيلية متاحة على[موقع أسبوز](https://reference.aspose.com/slides/java/)، ويمكنك طلب الدعم على[اطرح المنتديات](https://forum.aspose.com/c/slides/11).

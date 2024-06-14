@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides for .NET ile Ses ve Video Çıkarmada Uzmanlaşma
+title: Aspose.Slides for .NET ile Ses ve Video Çıkarmada Uzmanlaşmak
 linktitle: Aspose.Slides kullanarak Slaytlardan Ses ve Video Çıkarma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarından nasıl ses ve video çıkaracağınızı öğrenin. Zahmetsiz multimedya çıkarma.
@@ -128,10 +128,10 @@ Evet, Aspose.Slides for .NET, PPTX dahil en yeni PowerPoint formatlarını deste
 Evet, birden fazla slaytta ilerlemek ve her birinden multimedya çıkarmak için kodu değiştirebilirsiniz.
 
 ### Aspose.Slides for .NET için herhangi bir lisanslama seçeneği var mı?
- Aspose, ücretsiz denemeler ve geçici lisanslar dahil olmak üzere çeşitli lisanslama seçenekleri sunar. Bu seçenekleri kendi sitelerinde keşfedebilirsiniz.[İnternet sitesi](https://purchase.aspose.com/buy).
+Aspose, ücretsiz denemeler ve geçici lisanslar dahil olmak üzere çeşitli lisanslama seçenekleri sunar. Bu seçenekleri kendi sitelerinde keşfedebilirsiniz.[İnternet sitesi](https://purchase.aspose.com/buy).
 
 ### Aspose.Slides for .NET için nasıl destek alabilirim?
  Teknik destek ve topluluk tartışmaları için Aspose.Slides'ı ziyaret edebilirsiniz.[forum](https://forum.aspose.com/).
 
 ### Aspose.Slides for .NET ile başka hangi görevleri gerçekleştirebilirim?
-Aspose.Slides for .NET, PowerPoint sunumları oluşturma, değiştirme ve dönüştürme dahil çok çeşitli özellikler sunar. Daha fazla ayrıntı için belgeleri inceleyebilirsiniz:[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET, PowerPoint sunumları oluşturma, değiştirme ve dönüştürme dahil çok çeşitli özellikler sunar. Daha fazla ayrıntı için belgeleri inceleyebilirsiniz:[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/).

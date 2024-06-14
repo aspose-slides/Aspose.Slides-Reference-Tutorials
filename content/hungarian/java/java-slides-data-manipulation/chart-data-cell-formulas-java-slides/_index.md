@@ -21,7 +21,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk diagram-adatcella-k
 Először hozzunk létre egy új PowerPoint-prezentációt, és adjunk hozzá egy diagramot.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -54,7 +54,7 @@ IChartDataCell cell1 = workbook.getCell(0, "B2");
 cell1.setFormula("1 + SUM(F2:H5)");
 ```
 
-A fenti kódban beállítunk egy képletet a B2 cellához az A1 jelöléssel. A képlet kiszámítja az F2 és H5 cellák összegét, és az eredményhez hozzáad 1-et.
+A fenti kódban beállítunk egy képletet a B2 cellához A1 jelöléssel. A képlet kiszámítja az F2 és H5 cellák összegét, és az eredményhez hozzáad 1-et.
 
 ### 2. cella: R1C1 jelölés használata
 
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Java Slides diagramadat-cellaképleteinek teljes forráskódja
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

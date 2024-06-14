@@ -10,7 +10,7 @@ url: /pl/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 
 ## Wprowadzenie do konwertowania prezentacji programu PowerPoint do formatu PDF z ukrytymi slajdami przy użyciu Aspose.Slides dla Java
 
-W tym przewodniku krok po kroku dowiesz się, jak przekonwertować prezentację programu PowerPoint do formatu PDF, zachowując jednocześnie ukryte slajdy za pomocą Aspose.Slides for Java. Ukryte slajdy to te, które nie są wyświetlane podczas zwykłej prezentacji, ale można je uwzględnić w pliku wyjściowym PDF. Dostarczymy Ci kod źródłowy i szczegółowe instrukcje dotyczące wykonania tego zadania.
+tym przewodniku krok po kroku dowiesz się, jak przekonwertować prezentację programu PowerPoint do formatu PDF, zachowując jednocześnie ukryte slajdy za pomocą Aspose.Slides for Java. Ukryte slajdy to te, które nie są wyświetlane podczas zwykłej prezentacji, ale można je uwzględnić w pliku wyjściowym PDF. Dostarczymy Ci kod źródłowy i szczegółowe instrukcje dotyczące wykonania tego zadania.
 
 ## Warunki wstępne
 
@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## Krok 3: Skonfiguruj opcje PDF
 
- Skonfiguruj opcje PDF, aby uwzględnić ukryte slajdy w wyjściowym pliku PDF. Można to zrobić ustawiając`setShowHiddenSlides` własność`PdfOptions` klasa do`true`.
+Skonfiguruj opcje PDF, aby uwzględnić ukryte slajdy w wyjściowym pliku PDF. Można to zrobić ustawiając`setShowHiddenSlides` własność`PdfOptions` klasa do`true`.
 
 ```java
 // Utwórz instancję klasy PdfOptions
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Jak pobrać Aspose.Slides dla Java?
 
-Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose. Odwiedzić[Strona pobierania Aspose.Slides dla Java](https://releases.aspose.com/slides/java/) aby uzyskać najnowszą wersję.
+ Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose. Odwiedzić[Strona pobierania Aspose.Slides dla Java](https://releases.aspose.com/slides/java/) aby uzyskać najnowszą wersję.

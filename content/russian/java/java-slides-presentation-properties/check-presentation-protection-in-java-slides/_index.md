@@ -67,8 +67,8 @@ if (presentationInfo.isPasswordProtected()) {
 
 ```java
 //Путь для презентации исходного кода
-String pptxFile = RunExamples.getDataDir_PresentationProperties() + "modify_pass2.pptx";
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptxFile = "Your Document Directory";
+String pptFile = "Your Document Directory";
 // Проверьте пароль защиты от записи через интерфейс IPresentationInfo.
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");
@@ -98,17 +98,17 @@ if (presentationInfo.isPasswordProtected())
 
 ## Часто задаваемые вопросы
 
-### Как мне получить Aspose.Slides для Java?
+### Как получить Aspose.Slides для Java?
 
 Вы можете загрузить Aspose.Slides для Java с веб-сайта Aspose или добавить его в качестве зависимости Maven в свой проект, как показано в разделе «Предварительные требования».
 
-### Могу ли я проверить защиту от записи и открытую защиту для презентации?
+### Могу ли я проверить презентацию как на защиту от записи, так и на открытую защиту?
 
 Да, вы можете проверить как защиту от записи, так и открытую защиту презентации, используя предоставленные примеры кода.
 
 ### Что делать, если я забыл пароль защиты?
 
-Если вы забыли пароль защиты презентации, встроенных способов его восстановления не существует. Обязательно сохраняйте свои пароли, чтобы избежать подобных ситуаций.
+Если вы забудете пароль защиты презентации, встроенных способов его восстановления не существует. Обязательно сохраняйте свои пароли, чтобы избежать подобных ситуаций.
 
 ### Совместим ли Aspose.Slides для Java с новейшими форматами файлов PowerPoint?
 

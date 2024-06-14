@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 Chcete-li začít, importujte potřebné balíčky do třídy Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Ano, na jeden snímek můžete přidat více čar ve tvaru šipky opakováním p
 ### Je Aspose.Slides for Java kompatibilní s nejnovějšími verzemi PowerPointu?
 Aspose.Slides for Java podporuje kompatibilitu s různými verzemi PowerPointu a zajišťuje bezproblémovou integraci s vašimi prezentacemi.
 ### Mohu přizpůsobit barvu čáry ve tvaru šipky?
- Ano, můžete upravit barvu čáry ve tvaru šipky úpravou`SolidFillColor` vlastnost v kódu.
+Ano, můžete upravit barvu čáry ve tvaru šipky úpravou`SolidFillColor` vlastnost v kódu.
 ### Podporuje Aspose.Slides pro Java jiné tvary kromě čar?
 Ano, Aspose.Slides for Java poskytuje rozsáhlou podporu pro přidávání různých tvarů, včetně obdélníků, kruhů a mnohoúhelníků, do snímků aplikace PowerPoint.
 ### Kde najdu další zdroje a podporu pro Aspose.Slides for Java?

@@ -179,4 +179,4 @@ Có, bạn có thể thêm bao nhiêu điểm dữ liệu nếu cần vào biể
 
 ### Làm cách nào để điều chỉnh vị trí và kích thước của biểu đồ Donut trên slide?
 
-Bạn có thể thay đổi vị trí và kích thước của biểu đồ Donut bằng cách sửa đổi các tham số trong`addChart` phương pháp. Bốn số trong phương thức đó tương ứng với tọa độ X và Y ở góc trên bên trái của biểu đồ cũng như chiều rộng và chiều cao của nó.
+ Bạn có thể thay đổi vị trí và kích thước của biểu đồ Donut bằng cách sửa đổi các tham số trong`addChart` phương pháp. Bốn số trong phương thức đó tương ứng với tọa độ X và Y ở góc trên bên trái của biểu đồ cũng như chiều rộng và chiều cao của nó.

@@ -82,7 +82,7 @@ Gratulálunk! Sikeresen hozzáadott egy modern megjegyzést egy PowerPoint-preze
 
 ## Következtetés
 
-Az Aspose.Slides for .NET robusztus megoldást kínál a PowerPoint prezentációk modern megjegyzéskezelésére. Az ebben az útmutatóban felvázolt lépésekkel zökkenőmentesen integrálhatja ezt a funkciót .NET-alkalmazásaiba. Akár együttműködési eszközöket épít, akár prezentációi automatizálását fejleszti, az Aspose.Slides felhatalmazza a szükséges eszközöket.
+Az Aspose.Slides for .NET robusztus megoldást kínál a PowerPoint prezentációk modern megjegyzéskezelésére. Az ebben az útmutatóban ismertetett lépésekkel zökkenőmentesen integrálhatja ezt a funkciót .NET-alkalmazásaiba. Akár együttműködési eszközöket épít, akár prezentációi automatizálását fejleszti, az Aspose.Slides felhatalmazza a szükséges eszközöket.
 
  Ha bármilyen kérdése van, vagy további segítségre van szüksége, ne habozzon kapcsolatba lépni az Aspose.Slides közösségével.[támogatói fórum](https://forum.aspose.com/). Mindig készek segíteni.
 

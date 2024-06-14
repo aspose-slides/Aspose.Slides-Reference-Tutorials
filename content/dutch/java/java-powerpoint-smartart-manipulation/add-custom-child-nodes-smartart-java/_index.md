@@ -1,0 +1,81 @@
+---
+title: Voeg aangepaste onderliggende knooppunten toe in SmartArt met behulp van Java
+linktitle: Voeg aangepaste onderliggende knooppunten toe in SmartArt met behulp van Java
+second_title: Aspose.Slides Java PowerPoint-verwerkings-API
+description: Leer hoe u aangepaste onderliggende knooppunten kunt toevoegen aan SmartArt in PowerPoint-presentaties met behulp van Java met Aspose.Slides. Verbeter uw dia's moeiteloos met professionele afbeeldingen.
+type: docs
+weight: 11
+url: /nl/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
+---
+## Invoering
+SmartArt is een krachtige functie in PowerPoint waarmee gebruikers snel en eenvoudig professioneel ogende afbeeldingen kunnen maken. In deze zelfstudie leren we hoe u aangepaste onderliggende knooppunten aan SmartArt kunt toevoegen met behulp van Java met Aspose.Slides.
+## Vereisten
+Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
+1. Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd.
+2.  Aspose.Slides voor Java: Download en installeer Aspose.Slides voor Java van[hier](https://releases.aspose.com/slides/java/).
+
+## Pakketten importeren
+Importeer om te beginnen de benodigde pakketten in uw Java-project:
+```java
+import com.aspose.slides.*;
+```
+## Stap 1: Laad de presentatie
+Laad de PowerPoint-presentatie waar u aangepaste onderliggende knooppunten aan de SmartArt wilt toevoegen:
+```java
+String dataDir = "Your Document Directory";
+// Laad de gewenste presentatie
+Presentation pres = new Presentation(dataDir + "YourPresentation.pptx");
+```
+## Stap 2: SmartArt toevoegen aan dia
+Laten we nu SmartArt aan de dia toevoegen:
+```java
+ISmartArt smart = pres.getSlides().get_Item(0).getShapes().addSmartArt(20, 20, 600, 500, SmartArtLayoutType.OrganizationChart);
+```
+## Stap 3: Verplaats SmartArt-vorm
+Verplaats de SmartArt-vorm naar een nieuwe positie:
+```java
+ISmartArtNode node = smart.getAllNodes().get_Item(1);
+ISmartArtShape shape = node.getShapes().get_Item(1);
+shape.setX(shape.getX() + (shape.getWidth() * 2));
+shape.setY(shape.getY() - (shape.getHeight() / 2));
+```
+## Stap 4: Verander de vormbreedte
+Wijzig de breedte van de SmartArt-vorm:
+```java
+node = smart.getAllNodes().get_Item(2);
+shape = node.getShapes().get_Item(1);
+shape.setWidth(shape.getWidth() + (shape.getWidth() / 2));
+```
+## Stap 5: Verander de vormhoogte
+Wijzig de hoogte van de SmartArt-vorm:
+```java
+node = smart.getAllNodes().get_Item(3);
+shape = node.getShapes().get_Item(1);
+shape.setHeight(shape.getHeight() + (shape.getHeight() / 2));
+```
+## Stap 6: Roteer de vorm
+Roteer de SmartArt-vorm:
+```java
+node = smart.getAllNodes().get_Item(4);
+shape = node.getShapes().get_Item(1);
+shape.setRotation(90);
+```
+## Stap 7: Sla de presentatie op
+Sla ten slotte de gewijzigde presentatie op:
+```java
+pres.save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
+```
+
+## Conclusie
+In deze zelfstudie hebben we geleerd hoe u aangepaste onderliggende knooppunten aan SmartArt kunt toevoegen met behulp van Java met Aspose.Slides. Door deze stappen te volgen, kunt u uw presentaties verbeteren met aangepaste afbeeldingen, waardoor ze aantrekkelijker en professioneler worden.
+## Veelgestelde vragen
+### Kan ik verschillende soorten SmartArt-lay-outs toevoegen met Aspose.Slides voor Java?
+Ja, Aspose.Slides voor Java ondersteunt verschillende SmartArt-lay-outs, zodat u degene kunt kiezen die het beste bij uw presentatiebehoeften past.
+### Is Aspose.Slides voor Java compatibel met verschillende versies van PowerPoint?
+Aspose.Slides voor Java is ontworpen om naadloos samen te werken met verschillende versies van PowerPoint, waardoor compatibiliteit en consistentie tussen platforms wordt gegarandeerd.
+### Kan ik het uiterlijk van SmartArt-vormen programmatisch aanpassen?
+Absoluut! Met Aspose.Slides voor Java kunt u het uiterlijk, de grootte, de kleur en de lay-out van SmartArt-vormen programmatisch aanpassen aan uw ontwerpvoorkeuren.
+### Biedt Aspose.Slides voor Java documentatie en ondersteuning?
+Ja, u kunt uitgebreide documentatie en toegang tot community-ondersteuningsforums vinden op de Aspose-website.
+### Is er een proefversie beschikbaar voor Aspose.Slides voor Java?
+ Ja, u kunt een gratis proefversie van Aspose.Slides voor Java downloaden van de website om de functies en mogelijkheden ervan te verkennen voordat u een aankoop doet[hier](https://releases.aspose.com/slides/java/).

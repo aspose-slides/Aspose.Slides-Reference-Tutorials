@@ -55,7 +55,7 @@ try {
 
 ## 4. lépés: Futtassa a kódot
 
- Futtassa a Java-kódot az IDE-ben vagy a szövegszerkesztőben, hogy meghatározott lyukméretű fánkdiagramot hozzon létre. Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová a prezentációt menteni szeretné.
+ Futtassa a Java-kódot az IDE-ben vagy a szövegszerkesztőben, hogy meghatározott lyukméretű fánkdiagramot hozzon létre. Mindenképpen cserélje ki`"Your Document Directory"` azzal a tényleges elérési úttal, ahová a prezentációt menteni szeretné.
 
 ## Java Slides Donut Chart Hole teljes forráskódja
 

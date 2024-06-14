@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## Krok 2: Skonfiguruj opcje prezentacji i TIFF
 
-Zdefiniuj ścieżkę do pliku prezentacji (`ConvertWithNoteToTiff.pptx` ) i utwórz plik`Presentation` obiekt. Następnie skonfiguruj`TiffOptions` do konwersji.
+Zdefiniuj ścieżkę do pliku prezentacji (`ConvertWithNoteToTiff.pptx` ) i utwórz plik`Presentation` obiekt. Następnie skonfiguruj`TiffOptions`do konwersji.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -88,7 +88,7 @@ finally
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak konwertować prezentację programu PowerPoint z notatkami do formatu TIFF w Javie przy użyciu biblioteki Aspose.Slides for Java. Może to być cenne narzędzie dla programistów, którzy muszą zautomatyzować konwersję dokumentów i zachować ważne notatki w swoich prezentacjach.
+W tym samouczku nauczyliśmy się, jak konwertować prezentację programu PowerPoint z notatkami do formatu TIFF w Javie przy użyciu biblioteki Aspose.Slides for Java. Może to być cenne narzędzie dla programistów, którzy muszą zautomatyzować konwersję dokumentów i zachować ważne notatki w swoich prezentacjach.
 
 ## Często zadawane pytania
 

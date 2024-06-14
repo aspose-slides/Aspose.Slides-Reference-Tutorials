@@ -10,7 +10,7 @@ url: /tr/java/presentation-conversion/convert-with-xps-options-java-slides/
 
 ## Java Slaytlarında XPS Seçenekleri ile Dönüştürmeye Giriş
 
-Java programlama dünyasında sunum dosyalarıyla çalışmak yaygın bir iştir. İster dinamik raporlar ister etkileşimli slayt gösterileri oluşturuyor olun, doğru araçlara ve kitaplıklara sahip olmak işinizi büyük ölçüde kolaylaştırabilir. Bu güçlü araçlardan biri, PowerPoint sunumlarını kolaylıkla değiştirmenize ve dönüştürmenize olanak tanıyan bir API olan Aspose.Slides for Java'dır.
+Java programlama dünyasında sunum dosyalarıyla çalışmak yaygın bir iştir. İster dinamik raporlar ister etkileşimli slayt gösterileri oluşturuyor olun, doğru araçlara ve kitaplıklara sahip olmak işinizi büyük ölçüde kolaylaştırabilir. Böyle güçlü araçlardan biri, PowerPoint sunumlarını kolaylıkla değiştirmenize ve dönüştürmenize olanak tanıyan bir API olan Aspose.Slides for Java'dır.
 
 ## Önkoşullar
 
@@ -101,7 +101,7 @@ Tebrikler! Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını Java'd
 
 ### Aspose.Slides for Java'yı nasıl indirebilirim?
 
-Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/slides/java/) İndirme bağlantısına erişmek için.
+ Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/slides/java/) İndirme bağlantısına erişmek için.
 
 ### Aspose.Slides for Java'yı kullanmak için herhangi bir lisans gereksinimi var mı?
 

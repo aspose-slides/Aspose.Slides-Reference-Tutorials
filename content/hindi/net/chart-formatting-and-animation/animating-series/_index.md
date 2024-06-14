@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 एक बार जब आप अपने चार्ट में एनीमेशन प्रभाव जोड़ लें, तो संशोधित प्रस्तुति को डिस्क पर सहेजें।
 
 ```csharp
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

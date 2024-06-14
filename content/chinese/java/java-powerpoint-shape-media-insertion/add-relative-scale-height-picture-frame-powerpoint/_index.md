@@ -18,14 +18,14 @@ url: /zh/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-pi
 首先，在您的 Java 项目中导入必要的包：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 ```
 ## 步骤 1：设置你的项目
-首先，确保您已为项目设置目录，并且 Java 环境已正确配置。
+首先，确保您已为项目设置了目录，并且 Java 环境已正确配置。
 ## 步骤 2：实例化展示对象
 使用 Aspose.Slides 创建一个新的演示对象：
 ```java

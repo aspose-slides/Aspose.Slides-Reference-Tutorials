@@ -41,7 +41,7 @@ Tìm hiểu cách chuyển đổi bản trình bày sang HTML đáp ứng bằng
 ### [Chuyển đổi slide sang PDF bằng ghi chú](./convert-slides-to-pdf-with-notes/)
 Dễ dàng chuyển đổi các slide thuyết trình có ghi chú của diễn giả sang PDF bằng Aspose.Slides for .NET. Bảo tồn nội dung và bối cảnh một cách liền mạch.
 ### [Chuyển đổi slide cụ thể sang định dạng PDF](./convert-specific-slide-to-pdf-format/)
-Tìm hiểu cách chuyển đổi các trang chiếu PowerPoint cụ thể sang định dạng PDF bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã.
+Tìm hiểu cách chuyển đổi các trang chiếu PowerPoint cụ thể sang định dạng PDF bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
 ### [Chuyển đổi bản trình bày thành ảnh động GIF](./convert-presentation-to-gif-animation/)
 Tạo bản trình bày hấp dẫn bằng ảnh động GIF bằng Aspose.Slides for .NET. Chuyển đổi các slide tĩnh thành trải nghiệm hình ảnh động.
 ### [Chuyển đổi slide thuyết trình sang định dạng GIF](./convert-presentation-slides-to-gif-format/)

@@ -40,7 +40,7 @@ Använd följande kod för att ladda en presentationsfil:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Din kod för att hämta effektiv ljusriggdata finns här
+    //Din kod för att hämta effektiv ljusriggdata finns här
 }
 ```
 ## Steg 4: Hämta effektiv Light Rig-data

@@ -10,7 +10,7 @@ url: /ko/net/additional-chart-features/additional-chart-features/
 
 데이터 시각화 및 프레젠테이션 디자인 분야에서 .NET용 Aspose.Slides는 멋진 차트를 만들고 PowerPoint 프레젠테이션을 향상시키는 강력한 도구로 돋보입니다. 이 단계별 가이드는 Aspose.Slides for .NET이 제공하는 다양한 고급 차트 기능을 안내합니다. 당신이 개발자이든 프레젠테이션 매니아이든 이 튜토리얼은 이 라이브러리의 잠재력을 최대한 활용하는 데 도움이 될 것입니다.
 
-## 전제조건
+## 전제 조건
 
 자세한 예제를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

@@ -96,7 +96,7 @@ Au cours de cette étape, nous configurons l'économiseur de sortie personnalis�
 
 ```java
 	// Présentation du chemin d'accès à la source
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Créer des options de conversion
@@ -109,7 +109,7 @@ Au cours de cette étape, nous configurons l'économiseur de sortie personnalis�
 		pres.save(xamlOptions);
 		// Enregistrer les fichiers XAML dans un répertoire de sortie
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

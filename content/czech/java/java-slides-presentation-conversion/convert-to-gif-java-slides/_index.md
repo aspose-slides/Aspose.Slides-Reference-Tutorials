@@ -71,7 +71,7 @@ to je vše! Úspěšně jste převedli prezentaci PowerPoint na GIF pomocí Java
 // Cesta k adresáři dokumentů
 String dataDir = "Your Document Directory";
 // Cesta k výstupnímu souboru
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Vytvořte instanci objektu Presentation, který představuje soubor prezentace
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

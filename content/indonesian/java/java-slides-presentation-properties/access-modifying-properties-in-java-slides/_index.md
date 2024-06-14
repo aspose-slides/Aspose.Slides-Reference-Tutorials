@@ -31,7 +31,7 @@ Untuk bekerja dengan presentasi PowerPoint, Anda harus memuatnya terlebih dahulu
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-//Buat instance kelas Presentasi yang mewakili PPTX
+// Buat instance kelas Presentasi yang mewakili PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

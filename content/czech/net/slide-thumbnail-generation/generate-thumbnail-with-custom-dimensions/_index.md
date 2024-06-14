@@ -48,7 +48,7 @@ string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 // Vytvořte instanci třídy Presentation, která představuje soubor prezentace
 using (Presentation pres = new Presentation(srcFileName))
 {
-    // Sem bude umístěn váš kód pro generování miniatur
+    // Sem bude umístěn váš kód pro generování náhledů
 }
 ```
 

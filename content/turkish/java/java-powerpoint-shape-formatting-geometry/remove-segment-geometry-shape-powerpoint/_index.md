@@ -12,14 +12,14 @@ Java kullanarak PowerPoint sunumlarınızdaki şekilleri değiştirmek mi istiyo
 ## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 1.  Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini şu adresten indirin:[Burada](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini şu adresten indirin:[Burada](https://releases.aspose.com/slides/java/).
 3. Entegre Geliştirme Ortamı (IDE): Java kodunuzu yazmak ve çalıştırmak için IntelliJ IDEA veya Eclipse gibi bir IDE kullanın.
 4. Temel Java Bilgisi: Java programlamaya ilişkin temel bir anlayış, bu öğreticiyi takip etmenize yardımcı olacaktır.
 ## Paketleri İçe Aktar
 Başlamak için gerekli paketleri Aspose.Slides kütüphanesinden içe aktarmamız gerekiyor. İşte bunu nasıl yapacağınız:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 PowerPoint slaydındaki bir geometri şeklinden bir parçayı kaldırma işlemini birden çok adıma ayıralım.
 ## 1. Adım: Yeni Bir Sunu Oluşturun
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Adım 6: Sunuyu Kaydetme
 Son olarak değiştirilen sunumu bir dosyaya kaydedin.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Adım 7: Kaynakları Temizleyin

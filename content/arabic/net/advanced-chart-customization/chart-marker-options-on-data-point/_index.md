@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// إنشاء المخطط الافتراضي
+//إنشاء المخطط الافتراضي
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 يمكّنك Aspose.Slides for .NET من إنشاء عروض تقديمية مذهلة للمخططات مع خيارات التخصيص المتنوعة. في هذا البرنامج التعليمي، ركزنا على استخدام خيارات علامات المخطط على نقاط البيانات لتحسين التمثيل المرئي لبياناتك. باستخدام Aspose.Slides for .NET، يمكنك الارتقاء بعروضك التقديمية إلى المستوى التالي، مما يجعلها أكثر جاذبية وغنية بالمعلومات.
 
- إذا كانت لديك أية أسئلة أو كنت بحاجة إلى مساعدة فيما يتعلق بـ Aspose.Slides for .NET، فلا تتردد في زيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net/) أو الوصول إلى[مجتمع أسوس](https://forum.aspose.com/) للدعم.
+إذا كانت لديك أية أسئلة أو كنت بحاجة إلى مساعدة فيما يتعلق بـ Aspose.Slides for .NET، فلا تتردد في زيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net/) أو الوصول إلى[مجتمع أسوس](https://forum.aspose.com/) للدعم.
 
 ## الأسئلة المتداولة (الأسئلة الشائعة)
 
@@ -138,7 +138,7 @@ pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 نعم، يمكنك استخدام صور مخصصة كعلامات لنقاط البيانات في Aspose.Slides لـ .NET، كما هو موضح في هذا البرنامج التعليمي.
 
 ### كيف يمكنني تغيير نوع المخطط في Aspose.Slides لـ .NET؟
-يمكنك تغيير نوع المخطط عن طريق تحديد نوع مختلف`ChartType` عند إنشاء المخطط، مثل "شريط" أو "دائري" أو "منطقة".
+ يمكنك تغيير نوع المخطط عن طريق تحديد نوع مختلف`ChartType` عند إنشاء المخطط، مثل "شريط" أو "دائري" أو "منطقة".
 
 ### هل يتوافق Aspose.Slides for .NET مع أحدث إصدارات PowerPoint؟
 تم تصميم Aspose.Slides for .NET للعمل مع تنسيقات PowerPoint المختلفة ويتم تحديثه بانتظام للحفاظ على التوافق مع أحدث إصدارات PowerPoint.

@@ -20,7 +20,7 @@ Java-projektjébe importálja a szükséges Aspose.Slides osztályokat:
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: A környezet beállítása
 Határozza meg a PowerPoint fájlt tartalmazó könyvtár elérési útját:

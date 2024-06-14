@@ -65,7 +65,7 @@ try {
 }
 ```
 
-Bu kodda öncelikle mevcut kategorileri ve serileri grafikten temizliyoruz. Daha sonra seriye veri noktalarını kullanarak ekliyoruz.`getDataPoints().addDataPointForHistogramSeries` yöntem. Son olarak yatay eksen toplama tipini Otomatik olarak ayarlayıp sunumu kaydediyoruz.
+ Bu kodda öncelikle mevcut kategorileri ve serileri grafikten temizliyoruz. Daha sonra seriye veri noktalarını kullanarak ekliyoruz.`getDataPoints().addDataPointForHistogramSeries` yöntem. Son olarak yatay eksen toplama tipini Otomatik olarak ayarlayıp sunumu kaydediyoruz.
 
 ## Java Slaytlarındaki Histogram Grafiği İçin Tam Kaynak Kodu
 

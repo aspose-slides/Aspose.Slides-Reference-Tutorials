@@ -85,7 +85,7 @@ finally
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben eine Präsentation mithilfe von Aspose.Slides für Java erfolgreich in responsives HTML konvertiert. Dies kann unglaublich nützlich sein, um Ihre Präsentationen auf verschiedenen Geräten und Bildschirmgrößen zugänglich zu machen.
+Herzlichen Glückwunsch! Sie haben eine Präsentation mit Aspose.Slides für Java erfolgreich in responsives HTML konvertiert. Dies kann unglaublich nützlich sein, um Ihre Präsentationen auf verschiedenen Geräten und Bildschirmgrößen zugänglich zu machen.
 
 ## Häufig gestellte Fragen
 

@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Java 投影片中支援中斷的完整原始碼
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

@@ -20,13 +20,13 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-p
 قبل الغوص في جزء البرمجة، دعونا نستورد الحزم الضرورية.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## الخطوة 1: إعداد المشروع
-للبدء، قم بإعداد مشروع Java الخاص بك وقم بتضمين مكتبة Aspose.Slides for Java في تبعيات مشروعك. إذا كنت تستخدم Maven، فأضف التبعية التالية إلى ملفك`pom.xml`:
+ للبدء، قم بإعداد مشروع Java الخاص بك وقم بتضمين مكتبة Aspose.Slides for Java في تبعيات مشروعك. إذا كنت تستخدم Maven، فأضف التبعية التالية إلى ملفك`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>

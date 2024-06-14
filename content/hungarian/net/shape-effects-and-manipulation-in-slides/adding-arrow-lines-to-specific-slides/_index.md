@@ -71,7 +71,7 @@ Sikeresen hozzáadott egy nyíl alakú vonalat egy adott diához az Aspose.Slide
 ### K: Elérhető az Aspose.Slides ingyenes próbaverziója?
  V: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### K: Hol találok támogatást az Aspose.Slides számára?
-V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásra és beszélgetésekre.
+ V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásra és beszélgetésekre.
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
  V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol vásárolhatom meg az Aspose.Slides-t .NET-hez?

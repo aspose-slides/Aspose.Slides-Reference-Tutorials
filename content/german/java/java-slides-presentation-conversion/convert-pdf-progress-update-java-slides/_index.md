@@ -10,7 +10,7 @@ url: /de/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 
 ## Einführung in die Konvertierung von PowerPoint in PDF mit Fortschrittsaktualisierungen in Java unter Verwendung von Aspose.Slides für Java
 
-In dieser Schritt-für-Schritt-Anleitung zeigen wir, wie man mit Aspose.Slides für Java eine PowerPoint-Präsentation (PPTX) in Java in eine PDF-Datei konvertiert. Darüber hinaus werden wir während des Konvertierungsprozesses Fortschrittsaktualisierungen einbinden.
+In dieser Schritt-für-Schritt-Anleitung zeigen wir, wie man mit Aspose.Slides für Java eine PowerPoint-Präsentation (PPTX) in Java in eine PDF-Datei konvertiert. Darüber hinaus werden wir während des Konvertierungsprozesses Fortschrittsaktualisierungen bereitstellen.
 
 ## Voraussetzungen
 
@@ -29,7 +29,7 @@ import com.aspose.slides.*;
 
 ## Schritt 2: Erstellen einer Java-Klasse
 
-Erstellen Sie eine Java-Klasse, in der Sie die PowerPoint-zu-PDF-Konvertierung durchführen. Nennen wir sie`PowerPointToPdfConverter`.
+ Erstellen Sie eine Java-Klasse, in der Sie die PowerPoint-zu-PDF-Konvertierung durchführen. Nennen wir sie`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -68,7 +68,7 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## Schritt 5: Kompilieren und ausführen
 
- Kompilieren Sie Ihre Java-Klasse und führen Sie die`PowerPointToPdfConverter` Klasse. Es konvertiert die PowerPoint-Präsentation in eine PDF-Datei und stellt gleichzeitig Fortschrittsaktualisierungen in der Konsole bereit.
+Kompilieren Sie Ihre Java-Klasse und führen Sie die`PowerPointToPdfConverter` Klasse. Es konvertiert die PowerPoint-Präsentation in eine PDF-Datei und stellt gleichzeitig Fortschrittsaktualisierungen in der Konsole bereit.
 
 ## Vollständiger Quellcode für die Konvertierung in PDF mit Fortschrittsaktualisierung in Java-Folien
 
@@ -117,4 +117,4 @@ Ja, Aspose.Slides für Java bietet umfangreiche Funktionen für die Arbeit mit P
 
 ### Wie kann ich die PDF-Konvertierungsoptionen anpassen?
 
- Sie können die PDF-Konvertierungsoptionen anpassen, indem Sie die`PdfOptions` Objekt vor dem Aufruf des`presentation.save`Methode. Dazu gehört das Festlegen von Eigenschaften wie Seitengröße, Qualität und mehr.
+ Sie können die PDF-Konvertierungsoptionen anpassen, indem Sie die`PdfOptions` Objekt vor dem Aufruf des`presentation.save` Methode. Dazu gehört das Festlegen von Eigenschaften wie Seitengröße, Qualität und mehr.

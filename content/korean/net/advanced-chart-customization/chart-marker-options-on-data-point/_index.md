@@ -10,7 +10,7 @@ url: /ko/net/advanced-chart-customization/chart-marker-options-on-data-point/
 
 프레젠테이션 및 데이터 시각화 작업을 할 때 Aspose.Slides for .NET은 차트를 생성, 사용자 정의 및 조작할 수 있는 광범위하고 강력한 기능을 제공합니다. 이 튜토리얼에서는 데이터 포인트의 차트 마커 옵션을 사용하여 차트 프리젠테이션을 향상시키는 방법을 살펴보겠습니다. 이 단계별 가이드에서는 필수 구성 요소부터 네임스페이스 가져오기를 시작하여 각 예제를 여러 단계로 분류하는 프로세스를 안내합니다.
 
-## 전제조건
+## 전제 조건
 
 데이터 포인트에 차트 표시 옵션을 사용하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// 기본 차트 만들기
+//기본 차트 만들기
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 .NET용 Aspose.Slides를 사용하면 다양한 사용자 정의 옵션을 사용하여 멋진 차트 프레젠테이션을 만들 수 있습니다. 이 튜토리얼에서는 데이터 포인트의 차트 표시 옵션을 사용하여 데이터의 시각적 표현을 향상시키는 데 중점을 두었습니다. .NET용 Aspose.Slides를 사용하면 프레젠테이션을 한 단계 더 발전시켜 더욱 매력적이고 유익하게 만들 수 있습니다.
 
- .NET용 Aspose.Slides에 대해 질문이 있거나 도움이 필요하면 언제든지 다음을 방문하세요.[Aspose.Slides 문서](https://reference.aspose.com/slides/net/) 또는 다음 연락처로 연락하세요.[커뮤니티를 제안하세요](https://forum.aspose.com/) 지원을 위해.
+.NET용 Aspose.Slides에 대해 질문이 있거나 도움이 필요하면 언제든지 다음을 방문하세요.[Aspose.Slides 문서](https://reference.aspose.com/slides/net/) 또는 다음 연락처로 연락하세요.[커뮤니티를 제안하세요](https://forum.aspose.com/) 지원을 위해.
 
 ## 자주 묻는 질문(FAQ)
 
@@ -138,7 +138,7 @@ pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 예, 이 튜토리얼에서 설명한 대로 Aspose.Slides for .NET의 데이터 포인트에 대한 마커로 사용자 정의 이미지를 사용할 수 있습니다.
 
 ### .NET용 Aspose.Slides에서 차트 유형을 어떻게 변경할 수 있나요?
-다른 항목을 지정하여 차트 유형을 변경할 수 있습니다.`ChartType` "Bar", "Pie" 또는 "Area"와 같은 차트를 만들 때
+ 다른 항목을 지정하여 차트 유형을 변경할 수 있습니다.`ChartType` "Bar", "Pie" 또는 "Area"와 같은 차트를 만들 때
 
 ### Aspose.Slides for .NET은 최신 버전의 PowerPoint와 호환됩니까?
 Aspose.Slides for .NET은 다양한 PowerPoint 형식과 작동하도록 설계되었으며 최신 PowerPoint 버전과의 호환성을 유지하기 위해 정기적으로 업데이트됩니다.

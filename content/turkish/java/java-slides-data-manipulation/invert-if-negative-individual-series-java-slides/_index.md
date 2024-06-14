@@ -130,4 +130,4 @@ Evet, ters çevrilmiş veri noktalarının görünümünü özelleştirebilirsin
 
 ### Aspose.Slides for Java belgelerine nereden erişebilirim?
 
- Aspose.Slides for Java belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/java/).

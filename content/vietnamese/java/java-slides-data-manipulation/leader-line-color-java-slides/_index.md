@@ -20,7 +20,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 ## Bước 1: Tải bài thuyết trình
 
-Trước tiên, bạn cần tải bản trình bày PowerPoint chứa biểu đồ bạn muốn sửa đổi. Thay thế`presentationName` với đường dẫn đến tệp PowerPoint của bạn.
+ Trước tiên, bạn cần tải bản trình bày PowerPoint chứa biểu đồ bạn muốn sửa đổi. Thay thế`presentationName` với đường dẫn đến tệp PowerPoint của bạn.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Tiếp theo, chúng ta sẽ truy cập vào biểu đồ và nhãn dữ liệu t
 // Lấy biểu đồ từ slide đầu tiên
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Nhận loạt biểu đồ
+//Nhận loạt biểu đồ
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Nhận nhãn của loạt phim đầu tiên
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Cuối cùng, lưu bản trình bày với màu dòng dẫn đã sửa đổi vào một tệp mới.
 
 ```java
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Mã nguồn hoàn chỉnh cho màu dòng đầu trong Java Slides
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Lấy biểu đồ từ slide đầu tiên
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Nhận loạt biểu đồ
+            //Nhận loạt biểu đồ
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Nhận lebels của loạt phim đầu tiên
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ Có, bạn có thể thay đổi màu của đường dẫn thành màu tùy ch�
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Slides cho Java trong một dự án thương mại không?
 
-Có, thông thường bạn cần có giấy phép hợp lệ để sử dụng Aspose.Slides cho Java trong một dự án thương mại. Aspose cung cấp nhiều tùy chọn cấp phép khác nhau, bao gồm giấy phép đánh giá miễn phí cho mục đích thử nghiệm và dùng thử. Tuy nhiên, để sử dụng trong sản xuất, bạn nên có giấy phép thương mại phù hợp. Tham quan[Trang mua hàng giả định](https://purchase.aspose.com/) để biết chi tiết cấp phép.
+ Có, thông thường bạn cần có giấy phép hợp lệ để sử dụng Aspose.Slides cho Java trong một dự án thương mại. Aspose cung cấp nhiều tùy chọn cấp phép khác nhau, bao gồm giấy phép đánh giá miễn phí cho mục đích thử nghiệm và dùng thử. Tuy nhiên, để sử dụng trong sản xuất, bạn nên có giấy phép thương mại phù hợp. Tham quan[Trang mua hàng giả định](https://purchase.aspose.com/) để biết chi tiết cấp phép.
 
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Slides cho Java?
 

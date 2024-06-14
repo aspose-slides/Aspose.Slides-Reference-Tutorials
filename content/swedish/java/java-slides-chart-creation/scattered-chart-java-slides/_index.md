@@ -10,7 +10,7 @@ url: /sv/java/chart-creation/scattered-chart-java-slides/
 
 ## Introduktion till spridda diagram i Aspose.Slides för Java
 
-I den här handledningen kommer vi att guida dig genom processen att skapa ett scatterdiagram med Aspose.Slides för Java. Spridningsdiagram är användbara för att visualisera datapunkter på ett tvådimensionellt plan. Vi kommer att tillhandahålla steg-för-steg-instruktioner och inkluderar Java-källkod för din bekvämlighet.
+I den här handledningen kommer vi att guida dig genom processen att skapa ett scatterdiagram med Aspose.Slides för Java. Spridningsdiagram är användbara för att visualisera datapunkter på ett tvådimensionellt plan. Vi tillhandahåller steg-för-steg-instruktioner och inkluderar Java-källkod för din bekvämlighet.
 
 ## Förutsättningar
 
@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Steg 2: Lägg till en bild och skapa spridningsdiagrammet
 
- Lägg sedan till en bild och skapa ett punktdiagram på den. Vi kommer att använda`ScatterWithSmoothLines` diagramtyp i det här exemplet.
+ Lägg sedan till en bild och skapa ett punktdiagram på den. Vi kommer att använda`ScatterWithSmoothLines`diagramtyp i det här exemplet.
 
 ```java
 // Få den första bilden
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Skapar standarddiagrammet
+//Skapar standarddiagrammet
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Hämta standarddiagrammets kalkylbladsindex
 int defaultWorksheetIndex = 0;
@@ -134,7 +134,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 // Ändra diagramseriemarkören
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
-// Ta den andra diagramserien
+// Ta andra diagramserien
 series = chart.getChartData().getSeries().get_Item(1);
 // Lägg till ny punkt (5:2) där.
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
@@ -158,7 +158,7 @@ I den här handledningen har vi gått igenom processen för att skapa ett scatte
 
 ### Hur kan jag ändra diagramtypen?
 
- För att ändra diagramtypen, använd`setType`metod på diagramserien och ange önskad diagramtyp. Till exempel,`series.setType(ChartType.Line)` skulle ändra serien till ett linjediagram.
+ För att ändra diagramtypen, använd`setType` metod på diagramserien och ange önskad diagramtyp. Till exempel,`series.setType(ChartType.Line)` skulle ändra serien till ett linjediagram.
 
 ### Hur anpassar jag markörens storlek och stil?
 

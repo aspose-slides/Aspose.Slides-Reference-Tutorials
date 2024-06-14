@@ -130,4 +130,4 @@ Ja, u kunt het uiterlijk van de omgekeerde gegevenspunten aanpassen. Aspose.Slid
 
 ### Waar kan ik toegang krijgen tot de Aspose.Slides voor Java-documentatie?
 
- U kunt de documentatie voor Aspose.Slides voor Java openen op[hier](https://reference.aspose.com/slides/java/).
+ kunt de documentatie voor Aspose.Slides voor Java openen op[hier](https://reference.aspose.com/slides/java/).

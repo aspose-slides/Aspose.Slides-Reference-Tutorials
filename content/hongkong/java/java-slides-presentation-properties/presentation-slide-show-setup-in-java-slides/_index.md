@@ -21,7 +21,7 @@ url: /zh-hant/java/presentation-properties/presentation-slide-show-setup-in-java
 首先，我們需要建立一個新的 PowerPoint 簡報。以下是用 Java 實作的方法：
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## Java 投影片中簡報投影片放映設定的完整原始碼
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	//取得幻燈片設定
@@ -119,7 +119,7 @@ try {
 
 ## 結論
 
-在本教程中，我們學習如何使用 Aspose.Slides for Java 在 Java 中設定簡報投影片。您可以自訂各種幻燈片放映設置，包括時間、筆顏色和幻燈片範圍，以創建互動式且引人入勝的簡報。
+在本教程中，我們學習如何使用 Aspose.Slides for Java 在 Java 中設定簡報投影片。您可以自訂各種幻燈片放映設置，包括時間、畫筆顏色和幻燈片範圍，以創建互動式且引人入勝的簡報。
 
 ## 常見問題解答
 

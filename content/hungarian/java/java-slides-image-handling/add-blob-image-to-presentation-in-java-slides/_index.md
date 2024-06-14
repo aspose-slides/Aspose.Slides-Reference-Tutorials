@@ -89,7 +89,7 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
                 // szándékában áll hozzáférni a "largeImage.png" fájlhoz.
                 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
                 pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
-                // mentse el a prezentációt. Ennek ellenére a kimeneti bemutató lesz
+                // mentse a prezentációt. Ennek ellenére a kimeneti bemutató az lesz
                 // nagy, a memóriafogyasztás alacsony lesz a pres objektum teljes élettartama alatt
                 pres.save(dataDir + "presentationWithLargeImage.pptx", SaveFormat.Pptx);
             }

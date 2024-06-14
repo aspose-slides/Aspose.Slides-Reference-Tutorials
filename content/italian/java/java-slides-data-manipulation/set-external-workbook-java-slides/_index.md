@@ -2,7 +2,7 @@
 title: Imposta la cartella di lavoro esterna nelle diapositive Java
 linktitle: Imposta la cartella di lavoro esterna nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come impostare cartelle di lavoro esterne in Java Slides utilizzando Aspose.Slides per Java. Crea presentazioni dinamiche con l'integrazione dei dati Excel.
+description: Scopri come impostare cartelle di lavoro esterne in Diapositive Java utilizzando Aspose.Slides per Java. Crea presentazioni dinamiche con l'integrazione dei dati Excel.
 type: docs
 weight: 19
 url: /it/java/data-manipulation/set-external-workbook-java-slides/

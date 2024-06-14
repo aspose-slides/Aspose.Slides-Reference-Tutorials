@@ -19,7 +19,7 @@ Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes req
 Para comenzar, debe importar los paquetes necesarios de la biblioteca Aspose.Slides. Estas importaciones le permitirán trabajar con presentaciones, diapositivas y formas.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 En esta guía, dividiremos el proceso de cambiar el orden de las formas en varios pasos para una mejor comprensión y facilidad de implementación.
 ## Paso 1: Cargue la presentación

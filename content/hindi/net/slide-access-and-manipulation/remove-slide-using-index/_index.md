@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 एक बार जब आप वांछित स्लाइड्स मिटा देते हैं, तो आपको संशोधित प्रस्तुति को सहेजना होगा:
 
 ```csharp
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

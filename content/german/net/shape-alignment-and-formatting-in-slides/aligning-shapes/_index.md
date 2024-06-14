@@ -8,7 +8,7 @@ weight: 10
 url: /de/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
 ## Einführung
-Das Erstellen optisch ansprechender Präsentationsfolien erfordert häufig eine präzise Ausrichtung der Formen. Aspose.Slides für .NET bietet eine leistungsstarke Lösung, um dies problemlos zu erreichen. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für .NET Formen in Präsentationsfolien ausrichten.
+Das Erstellen optisch ansprechender Präsentationsfolien erfordert häufig eine präzise Ausrichtung der Formen. Aspose.Slides für .NET bietet eine leistungsstarke Lösung, um dies mühelos zu erreichen. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für .NET Formen in Präsentationsfolien ausrichten.
 ## Voraussetzungen
 Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 -  Aspose.Slides für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Slides für .NET-Bibliothek installiert haben. Sie können sie herunterladen[Hier](https://releases.aspose.com/slides/net/).
@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Verbessern Sie mühelos die visuelle Attraktivität Ihrer Präsentationsfolien, indem Sie Aspose.Slides für .NET nutzen, um Formen präzise auszurichten. Diese Schritt-für-Schritt-Anleitung hat Ihnen das Wissen vermittelt, um den Ausrichtungsprozess zu optimieren und professionell aussehende Präsentationen zu erstellen.
 ## FAQs
 ### Kann ich mit Aspose.Slides für .NET Formen in einer vorhandenen Präsentation ausrichten?
- Ja, Sie können eine vorhandene Präsentation laden mit`Presentation.Load`und fahren Sie dann mit dem Ausrichten der Formen fort.
+ Ja, Sie können eine vorhandene Präsentation laden mit`Presentation.Load` und fahren Sie dann mit dem Ausrichten der Formen fort.
 ### Gibt es in Aspose.Slides andere Ausrichtungsoptionen?
 Aspose.Slides bietet verschiedene Ausrichtungsoptionen, darunter AlignTop, AlignRight, AlignBottom, AlignLeft und mehr.
 ### Kann ich Formen basierend auf ihrer Verteilung in einer Folie ausrichten?

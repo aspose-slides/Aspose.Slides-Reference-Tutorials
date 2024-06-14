@@ -42,7 +42,7 @@ class Program
         // Laden Sie die Präsentation
         using (Presentation presentation = new Presentation("sample.pptx"))
         {
-            // Ihr Code für die Folienansicht und Layoutmanipulation wird hier eingefügt
+            // Ihr Code für die Folienansicht und Layoutbearbeitung wird hier eingefügt
         }
     }
 }
@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 Wenn Sie alle notwendigen Änderungen vorgenommen haben, speichern Sie die geänderte Präsentation:
 
 ```csharp
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

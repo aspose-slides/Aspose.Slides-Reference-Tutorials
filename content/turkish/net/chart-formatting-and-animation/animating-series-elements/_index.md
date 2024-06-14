@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 Tebrikler! Aspose.Slides for .NET'i kullanarak bir grafikteki seri öğelerine nasıl animasyon uygulayacağınızı başarıyla öğrendiniz. Bu bilgiyle hedef kitlenizi büyüleyen dinamik ve ilgi çekici PowerPoint sunumları oluşturabilirsiniz.
 
- Aspose.Slides for .NET, PowerPoint dosyalarıyla programlı olarak çalışmak için güçlü bir araçtır ve profesyonel sunumlar oluşturmak için bir olasılıklar dünyasının kapılarını açar. Keşfetmekten çekinmeyin[dokümantasyon](https://reference.aspose.com/slides/net/) daha gelişmiş özellikler ve kişiselleştirme seçenekleri için.
+ Aspose.Slides for .NET, PowerPoint dosyalarıyla programlı olarak çalışmak için güçlü bir araçtır ve profesyonel sunumlar oluşturmak için bir olasılıklar dünyasının kapılarını açar. Keşfetmekten çekinmeyin[dokümantasyon](https://reference.aspose.com/slides/net/)daha gelişmiş özellikler ve kişiselleştirme seçenekleri için.
 
 ## Sıkça Sorulan Sorular
 

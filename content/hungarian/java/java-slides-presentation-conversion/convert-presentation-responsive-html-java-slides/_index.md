@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/convert-presentation-responsive-html-java-
 
 ## Bevezetés a prezentáció átalakításához reszponzív HTML-vé a Java Slides-ben
 
-A prezentációk világában a reszponzív HTML formátumba konvertálás képessége értékes készség. A Java Slides segítségével ez a feladat nem csak megvalósítható, hanem hatékony is lesz. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan alakíthat át prezentációt reszponzív HTML formátumba az Aspose.Slides for Java könyvtár használatával. Ugorjunk bele!
+A prezentációk világában a reszponzív HTML formátumba konvertálás képessége értékes készség. A Java Slides segítségével ez a feladat nem csak megvalósítható, hanem hatékony is lesz. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan alakíthat át prezentációt reszponzív HTML formátumba az Aspose.Slides for Java könyvtár használatával. Egyből merüljünk bele!
 
 ## Előfeltételek
 

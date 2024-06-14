@@ -12,7 +12,7 @@ url: /el/java/presentation-conversion/convert-presentation-html-preserve-fonts-j
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να μετατρέψετε μια παρουσίαση PowerPoint (PPTX) σε HTML διατηρώντας παράλληλα τις αρχικές γραμματοσειρές χρησιμοποιώντας το Aspose.Slides για Java. Αυτό θα διασφαλίσει ότι το HTML που προκύπτει μοιάζει πολύ με την εμφάνιση της αρχικής παρουσίασης.
 
-## Βήμα 1: Ρύθμιση του Έργου
+## Βήμα 1: Ρύθμιση του έργου
 Πριν βουτήξουμε στον κώδικα, ας βεβαιωθούμε ότι έχετε εφαρμόσει την απαραίτητη ρύθμιση:
 
 1. Λήψη Aspose.Slides για Java: Εάν δεν το έχετε κάνει ήδη, κάντε λήψη και συμπεριλάβετε τη βιβλιοθήκη Aspose.Slides για Java στο έργο σας.
@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Εξαιρέστε τις προεπιλεγμένες γραμματοσειρές παρουσίασης όπως το Calibri και το Arial
+    // Εξαιρέστε τις προεπιλεγμένες γραμματοσειρές παρουσίασης όπως το Calibri και το Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ try {
 
 -  Φορτώνουμε την παρουσίαση PowerPoint εισόδου χρησιμοποιώντας`Presentation`.
 
-- Ορίζουμε μια λίστα γραμματοσειρών (`fontNameExcludeList`) που θέλουμε να εξαιρέσουμε από την ενσωμάτωση στην HTML. Αυτό είναι χρήσιμο για την εξαίρεση κοινών γραμματοσειρών όπως το Calibri και το Arial για τη μείωση του μεγέθους του αρχείου.
+- Ορίζουμε μια λίστα γραμματοσειρών (`fontNameExcludeList`που θέλουμε να εξαιρέσουμε από την ενσωμάτωση στην HTML. Αυτό είναι χρήσιμο για την εξαίρεση κοινών γραμματοσειρών όπως το Calibri και το Arial για τη μείωση του μεγέθους του αρχείου.
 
 -  Δημιουργούμε ένα παράδειγμα του`EmbedAllFontsHtmlController` και περάστε τη λίστα εξαιρέσεων γραμματοσειρών σε αυτό.
 
@@ -98,7 +98,7 @@ finally
 
 ### Πώς μπορώ να κατεβάσω το Aspose.Slides για Java;
 
-Μπορείτε να κάνετε λήψη του Aspose.Slides για Java από τον ιστότοπο Aspose. Επίσκεψη[εδώ](https://downloads.aspose.com/slides/java/) για να λάβετε την πιο πρόσφατη έκδοση.
+ Μπορείτε να κάνετε λήψη του Aspose.Slides για Java από τον ιστότοπο Aspose. Επίσκεψη[εδώ](https://downloads.aspose.com/slides/java/) για να λάβετε την πιο πρόσφατη έκδοση.
 
 ### Μπορώ να προσαρμόσω τη λίστα με τις εξαιρούμενες γραμματοσειρές;
 

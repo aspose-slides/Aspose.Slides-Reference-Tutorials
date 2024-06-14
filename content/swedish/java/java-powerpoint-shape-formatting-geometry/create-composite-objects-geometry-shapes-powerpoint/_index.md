@@ -8,7 +8,7 @@ weight: 20
 url: /sv/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
 ## Introduktion
-Hallå där! Har du någonsin velat skapa fantastiska och intrikata former i dina PowerPoint-presentationer med Java? Tja, du är på rätt plats. I den här handledningen kommer vi att dyka in i det kraftfulla Aspose.Slides för Java-biblioteket för att skapa sammansatta objekt i geometriska former. Oavsett om du är en erfaren utvecklare eller precis har börjat, hjälper den här steg-för-steg-guiden dig att uppnå imponerande resultat på nolltid. Redo att börja? Låt oss dyka in!
+Hallå där! Har du någonsin velat skapa fantastiska och intrikata former i dina PowerPoint-presentationer med Java? Tja, du är på rätt plats. I den här handledningen kommer vi att dyka in i det kraftfulla Aspose.Slides för Java-biblioteket för att skapa sammansatta objekt i geometriska former. Oavsett om du är en erfaren utvecklare eller precis har börjat, hjälper den här steg-för-steg-guiden dig att uppnå imponerande resultat på nolltid. Redo att komma igång? Låt oss dyka in!
 ## Förutsättningar
 Innan vi hoppar in i koden finns det några saker du behöver:
 - Java Development Kit (JDK): Se till att du har JDK 1.8 eller högre installerat på din maskin.
@@ -19,13 +19,13 @@ Innan vi hoppar in i koden finns det några saker du behöver:
 Först och främst, låt oss importera de nödvändiga paketen för att komma igång med Aspose.Slides för Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Att skapa sammansatta objekt kan låta komplicerat, men genom att dela upp det i hanterbara steg kommer du att upptäcka att det är enklare än du tror. Vi skapar en PowerPoint-presentation, lägger till en form och definierar och tillämpar sedan flera geometribanor för att bilda en sammansatt form.
 ## Steg 1: Konfigurera ditt projekt
-Innan du skriver någon kod, ställ in ditt Java-projekt. Skapa ett nytt projekt i din IDE och inkludera Aspose.Slides för Java. Du kan lägga till biblioteket med Maven eller ladda ner JAR-filen från[Aspose.Slides nedladdningssida](https://releases.aspose.com/slides/java/).
-### Lägga till Aspose.Slides till ditt projekt med Maven
+ Innan du skriver någon kod, ställ in ditt Java-projekt. Skapa ett nytt projekt i din IDE och inkludera Aspose.Slides för Java. Du kan lägga till biblioteket med Maven eller ladda ner JAR-filen från[Aspose.Slides nedladdningssida](https://releases.aspose.com/slides/java/).
+### Lägga till Aspose.Slides till ditt projekt med hjälp av Maven
  Om du använder Maven, lägg till följande beroende till din`pom.xml` fil:
 ```xml
 <dependency>
@@ -35,10 +35,10 @@ Innan du skriver någon kod, ställ in ditt Java-projekt. Skapa ett nytt projekt
 </dependency>
 ```
 ## Steg 2: Initiera presentationen
- Nu ska vi skapa en ny PowerPoint-presentation. Vi börjar med att initiera`Presentation` klass.
+Nu ska vi skapa en ny PowerPoint-presentation. Vi börjar med att initiera`Presentation` klass.
 ```java
 // Utdatafilnamn
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Steg 3: Skapa en ny form
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Steg 7: Spara presentationen
 Slutligen, spara din presentation i en fil.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Steg 8: Rensa upp resurser

@@ -14,7 +14,7 @@ url: /hi/net/advanced-chart-customization/chart-trend-lines/
 
 इससे पहले कि हम .NET के लिए Aspose.Slides के साथ काम करना शुरू करें, आपको यह सुनिश्चित करना होगा कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Slides for .NET: लाइब्रेरी तक पहुँचने और उसका उपयोग करने के लिए, आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। आप लाइब्रेरी यहाँ से प्राप्त कर सकते हैं[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: लाइब्रेरी तक पहुँचने और उसका उपयोग करने के लिए, आपके पास Aspose.Slides for .NET इंस्टॉल होना चाहिए। आप लाइब्रेरी यहाँ से प्राप्त कर सकते हैं[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/net/).
 
 2. विकास परिवेश: आपके पास एक विकास परिवेश स्थापित होना चाहिए, अधिमानतः Visual Studio जैसे .NET एकीकृत विकास परिवेश का उपयोग करते हुए।
 
@@ -123,7 +123,7 @@ tredLinePower.Backward = 1;
 pres.Save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ```
 
-बस! आपने .NET के लिए Aspose.Slides का उपयोग करके अपने चार्ट में विभिन्न ट्रेंड लाइनें सफलतापूर्वक जोड़ दी हैं।
+बस! आपने .NET के लिए Aspose.Slides का उपयोग करके अपने चार्ट में विभिन्न ट्रेंड लाइनों को सफलतापूर्वक जोड़ दिया है।
 
 ## निष्कर्ष
 

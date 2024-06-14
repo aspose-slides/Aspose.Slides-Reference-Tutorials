@@ -14,7 +14,7 @@ W tym samouczku pokażemy, jak dodać słupki błędów do wykresu na slajdzie p
 
 ## Warunki wstępne
 
- Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java. Bibliotekę można pobrać ze strony[Strona Aspose](https://downloads.aspose.com/slides/java).
+Zanim zaczniesz, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim projekcie Java. Bibliotekę można pobrać ze strony[Strona Aspose](https://downloads.aspose.com/slides/java).
 
 ## Krok 1: Utwórz pustą prezentację
 
@@ -25,7 +25,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation();
 ```
 
-tym kroku tworzymy pustą prezentację, do której dodamy nasz wykres ze słupkami błędów.
+W tym kroku tworzymy pustą prezentację, do której dodamy nasz wykres ze słupkami błędów.
 
 ## Krok 2: Utwórz wykres bąbelkowy
 
@@ -62,7 +62,7 @@ W tym kroku dodajemy słupki błędów do wykresu i ustalamy ich format. Można 
 - `setValue` ustawia wartość słupków błędów.
 - `setType` określa rodzaj słupków błędów (np. Plus lub Minus).
 -  Szerokość linii słupków błędu ustalamy za pomocą`getFormat().getLine().setWidth(2)`.
-- `setEndCap` określa, czy słupki błędów mają uwzględniać zaślepki końcowe.
+- `setEndCap`określa, czy słupki błędów mają uwzględniać zaślepki końcowe.
 
 ## Krok 4: Zapisz prezentację
 
@@ -123,8 +123,8 @@ Tak, możesz dodać słupki błędów do różnych typów wykresów obsługiwany
 
 ### Jak mogę dostosować położenie i rozmiar wykresu na slajdzie?
 
-Możesz kontrolować położenie i wymiary wykresu, dostosowując parametry w pliku`addChart` metodę, jak pokazano w kroku 2.
+ Możesz kontrolować położenie i wymiary wykresu, dostosowując parametry w pliku`addChart` metodę, jak pokazano w kroku 2.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Slides dla Java?
 
- Możesz odwołać się do[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) szczegółowe informacje na temat korzystania z biblioteki.
+ Możesz zapoznać się z[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) szczegółowe informacje na temat korzystania z biblioteki.

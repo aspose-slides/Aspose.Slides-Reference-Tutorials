@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Seu código para modificação do plano de fundo do slide irá aqui.
     // Exploraremos isso nas próximas etapas.
     
-    // Salve a apresentação modificada
+    //Salve a apresentação modificada
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ Nesta etapa, personalizamos o plano de fundo do primeiro slide. Você pode modif
 ## Etapa 6: salve a apresentação modificada
 
 ```csharp
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

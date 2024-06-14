@@ -30,7 +30,7 @@ Ebben az oktatóanyag-sorozatban a diagramformázás és az animáció különf�
 ### [Diagram formázás és animáció az Aspose.Slides programban](./chart-formatting-and-animation/)
 Tanuljon meg dinamikus prezentációkat készíteni lenyűgöző diagramformázással és animációkkal az Aspose.Slides for .NET segítségével.
 ### [Animáló kategóriák elemei a diagramon](./animating-categories-elements/)
-Ismerje meg, hogyan adhat lenyűgöző animációkat a diagramkategória elemeihez az Aspose.Slides for .NET segítségével. Emelje fel prezentációit dinamikus látványvilággal.
+Ismerje meg, hogyan adhat lenyűgöző animációkat a diagramkategória elemeihez az Aspose.Slides for .NET segítségével. Emelje fel prezentációit dinamikus látványelemekkel.
 ### [Animációs sorozat a diagramon](./animating-series/)
 Ismerje meg, hogyan animálhat diagramsorozatokat az Aspose.Slides for .NET használatával. Hozzon létre dinamikus prezentációkat lenyűgöző adatvizualizációkkal.
 ### [Animációs sorozatelemek a diagramon](./animating-series-elements/)

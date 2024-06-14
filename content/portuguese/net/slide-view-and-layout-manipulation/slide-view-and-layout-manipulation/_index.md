@@ -17,7 +17,7 @@ Aspose.Slides for .NET é uma biblioteca rica em recursos que permite aos desenv
 
 ## Primeiros passos: instalação e configuração
 
-Para começar a usar o Aspose.Slides for .NET, siga estas etapas:
+Para começar a usar Aspose.Slides for .NET, siga estas etapas:
 
 1. ### Baixe e instale o pacote Aspose.Slides:
     Você pode baixar o pacote Aspose.Slides for .NET em[ Link para Download](https://releases.aspose.com/slides/net/). Após o download, instale-o usando o gerenciador de pacotes de sua preferência.
@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 Depois de fazer todas as alterações necessárias, salve a apresentação modificada:
 
 ```csharp
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Αλλάξτε τη θέση του σχολίου
 comment.Position = new Point(100, 100);
 
-// Αποθηκεύστε την τροποποιημένη παρουσίαση
+//Αποθηκεύστε την τροποποιημένη παρουσίαση
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Διαγράψτε το σχόλιο
 slide.Comments.Remove(comment);
 
-// Αποθηκεύστε την τροποποιημένη παρουσίαση
+//Αποθηκεύστε την τροποποιημένη παρουσίαση
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

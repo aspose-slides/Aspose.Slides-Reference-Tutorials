@@ -1,6 +1,6 @@
 ---
-title: Konvertálja XAML-re a Java Slides alkalmazásban
-linktitle: Konvertálja XAML-re a Java Slides alkalmazásban
+title: Konvertálja XAML-re a Java Slides-ben
+linktitle: Konvertálja XAML-re a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat XAML-re Java nyelven az Aspose.Slides segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
 type: docs
@@ -96,7 +96,7 @@ Ebben a lépésben beállítjuk az egyéni kimenetkímélőt, végrehajtjuk az �
 
 ```java
 	// Útvonal a forrás bemutatásához
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Konverziós beállítások létrehozása
@@ -109,7 +109,7 @@ Ebben a lépésben beállítjuk az egyéni kimenetkímélőt, végrehajtjuk az �
 		pres.save(xamlOptions);
 		// Mentse az XAML fájlokat egy kimeneti könyvtárba
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

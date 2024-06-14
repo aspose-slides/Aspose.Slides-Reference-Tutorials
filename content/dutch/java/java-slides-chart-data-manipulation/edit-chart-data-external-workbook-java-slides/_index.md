@@ -75,7 +75,7 @@ Nu hebt u met succes de diagramgegevens in een externe werkmap binnen uw PowerPo
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ In deze uitgebreide handleiding hebben we onderzocht hoe u diagramgegevens in ex
 
 ### Hoe geef ik een ander diagram of andere dia op?
 
- Om toegang te krijgen tot een ander diagram of een andere dia, wijzigt u de juiste index in het`getSlides().get_Item()` En`getShapes().get_Item()` methoden. Houd er rekening mee dat de indexering begint vanaf 0.
+ Om toegang te krijgen tot een ander diagram of een andere dia, wijzigt u de juiste index in het`getSlides().get_Item()` En`getShapes().get_Item()`methoden. Houd er rekening mee dat de indexering begint vanaf 0.
 
 ### Kan ik gegevens in meerdere diagrammen binnen dezelfde presentatie bewerken?
 

@@ -2,7 +2,7 @@
 title: Diagramsorozat-átfedés beállítása a Java diákban
 linktitle: Diagramsorozat-átfedés beállítása a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: mesterdiagram-sorozatok átfedésben vannak a Java Slides-ben az Aspose.Slides for Java-val. Ismerje meg lépésről lépésre, hogyan szabhatja testre a diagramok látványvilágát lenyűgöző prezentációkhoz.
+description: A mesterdiagram-sorozatok átfedésben vannak a Java Slides-ben az Aspose.Slides for Java-val. Ismerje meg lépésről lépésre, hogyan szabhatja testre a diagramok látványvilágát lenyűgöző prezentációkhoz.
 type: docs
 weight: 16
 url: /hu/java/data-manipulation/set-chart-series-overlap-java-slides/
@@ -33,7 +33,7 @@ Presentation presentation = new Presentation();
 
 ## 2. lépés: Diagram hozzáadása
 
-következő kóddal fürtözött oszlopdiagramot adunk a bemutatónkhoz:
+A következő kóddal fürtözött oszlopdiagramot adunk a bemutatónkhoz:
 
 ```java
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400, true);

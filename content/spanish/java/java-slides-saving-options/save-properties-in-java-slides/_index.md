@@ -45,7 +45,7 @@ Puede configurar varias propiedades del documento, como título, autor, palabras
 // Establecer el título de la presentación.
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Establecer el autor de la presentación.
+//Establecer el autor de la presentación.
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Establecer palabras clave para la presentación.
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // La ruta al directorio de documentos.
 String dataDir = "Your Document Directory";
-//Crear una instancia de un objeto de presentación que represente un archivo PPT
+// Crear una instancia de un objeto de presentación que represente un archivo PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ En este tutorial, aprendió cómo guardar las propiedades del documento en una p
 // Establecer el título de la presentación.
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Establecer el autor de la presentación.
+//Establecer el autor de la presentación.
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Establecer palabras clave para la presentación.

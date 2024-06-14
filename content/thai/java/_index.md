@@ -57,7 +57,7 @@ is_root: true
 เรียนรู้วิธีปรับปรุงคุณสมบัติการนำเสนอสไลด์ Java ของคุณด้วย Aspose.Slides สำหรับบทช่วยสอน Java ค้นพบคำแนะนำและเคล็ดลับสำหรับการนำเสนอแบบไดนามิก
 ### [การควบคุมสื่อ Java Slides](./media-controls/)
 เรียนรู้วิธีใช้งานการควบคุมสื่อในสไลด์ Java โดยใช้ Aspose.Slides สำหรับบทช่วยสอน Java ปรับปรุงการนำเสนอของคุณด้วยเสียงและวิดีโอได้อย่างราบรื่น
-### [การจัดการภาพ Java Slides](./image-handling/)
+### [การจัดการรูปภาพ Java Slides](./image-handling/)
 เรียนรู้วิธีจัดการรูปภาพในสไลด์ Java โดยใช้ Aspose.Slides สำหรับบทช่วยสอน Java สำรวจคำแนะนำทีละขั้นตอนเพื่อการจัดการรูปภาพที่มีประสิทธิภาพ
 ### [การป้องกันเอกสาร Java Slides](./document-protection/)
 เรียนรู้วิธีเพิ่มความปลอดภัยให้กับเอกสาร Java Slides ของคุณด้วย Aspose.Slides สำรวจบทช่วยสอนทีละขั้นตอนสำหรับการป้องกันเอกสาร
@@ -80,3 +80,27 @@ is_root: true
 ค้นพบการจัดรูปแบบรูปร่าง Java PowerPoint และบทช่วยสอนเรขาคณิต เรียนรู้การเติมรูปร่าง ค้นหารูปร่าง และสร้างเรขาคณิตแบบกำหนดเองด้วย Aspose.Slides สำหรับ Java
 ### [เทคนิคการโคลนสไลด์ Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
 การโคลนสไลด์ต้นแบบใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เรียนรู้การโคลนสไลด์ภายในงานนำเสนอเดียวกันหรือข้ามงานนำเสนอได้อย่างราบรื่น
+### [การจัดการกล่องข้อความ Java PowerPoint](./java-powerpoint-text-box-manipulation/)
+สำรวจบทช่วยสอนที่ครอบคลุมเกี่ยวกับการจัดการกล่องข้อความ Java PowerPoint ด้วย Aspose.Slides ปรับปรุงการนำเสนอของคุณทีละขั้นตอนด้วยคำแนะนำของเรา
+### [การจัดการแบบอักษร Java PowerPoint](./java-powerpoint-font-management/)
+ค้นพบบทช่วยสอนการจัดการแบบอักษร Java PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เรียนรู้เทคนิคการฝัง การบีบอัด และการปรับแต่งเพื่อปรับปรุงการนำเสนอ
+### [Java PowerPoint ภาพเคลื่อนไหวและเอฟเฟ็กต์](./java-powerpoint-animation-effects/)
+ฝึกฝนภาพเคลื่อนไหวและเอฟเฟกต์ Java PowerPoint ด้วยบทช่วยสอนที่ครอบคลุมของเรา เรียนรู้วิธีการเพิ่มภาพเคลื่อนไหว เงาด้านนอกและด้านในโดยใช้ Aspose.Slides สำหรับ Java
+### [การจัดตำแหน่งและการจัดรูปแบบข้อความ Java PowerPoint](./java-powerpoint-text-alignment-formatting/)
+ค้นพบการจัดแนวข้อความ Java PowerPoint และบทช่วยสอนการจัดรูปแบบ เรียนรู้วิธีจัดตำแหน่ง จัดรูปแบบ ส่งออก และเน้นข้อความโดยใช้ Aspose.Slides สำหรับ Java 
+### [การเน้นข้อความ Java PowerPoint และกฎทางเลือก](./java-powerpoint-text-highlighting-fallback-rules/)
+กฎการเน้นข้อความและกฎทางเลือกแบบอักษรหลักใน Java PowerPoint พร้อม Aspose.Slides ปฏิบัติตามบทช่วยสอนของเราเพื่อปรับปรุงและทำให้การนำเสนอของคุณเป็นอัตโนมัติได้อย่างราบรื่น
+### [การจัดการข้อความและย่อหน้า Java PowerPoint](./java-powerpoint-text-paragraph-management/)
+เชี่ยวชาญการจัดการข้อความและย่อหน้า Java PowerPoint ด้วย Aspose.Slides เรียนรู้วิธีนำเข้าข้อความ HTML จัดการระยะห่างบรรทัด สร้างสัญลักษณ์แสดงหัวข้อย่อย และจัดแนวย่อหน้า
+### [การจัดการแบบอักษร Java PowerPoint และการแทนที่ข้อความ](./java-powerpoint-font-management-text-replacement/)
+การจัดการแบบอักษร Java PowerPoint ต้นแบบและการแทนที่ข้อความด้วย Aspose.Slides เรียนรู้การโหลดแบบอักษรที่กำหนดเอง จัดการแบบอักษรที่ฝัง และแทนที่ข้อความได้อย่างราบรื่น
+### [Java PowerPoint ย่อหน้าขั้นสูงและคุณสมบัติแบบอักษร](./java-powerpoint-advanced-paragraph-font-properties/)
+เชี่ยวชาญคุณสมบัติย่อหน้าและแบบอักษรขั้นสูงใน Java PowerPoint โดยใช้ Aspose.Slides เรียนรู้การปรับแต่งแบบอักษร เพิ่มสัญลักษณ์แสดงหัวข้อย่อยรูปภาพ และใช้แบบอักษรสำรอง
+### [การปรับแต่งข้อความและแบบอักษร Java PowerPoint](./java-powerpoint-text-font-customization/)
+สำรวจบทช่วยสอนเกี่ยวกับการปรับแต่งข้อความและแบบอักษร Java PowerPoint ด้วย Aspose.Slides เรียนรู้การหมุนเวียน การเปลี่ยนแบบอักษร และอื่นๆ เพื่อปรับปรุงการนำเสนอของคุณ
+### [การจัดการตาราง Java PowerPoint](./java-powerpoint-table-manipulation/)
+การจัดการตาราง Java PowerPoint ต้นแบบด้วย Aspose.Slides เรียนรู้การเพิ่มรูปภาพ แยกเซลล์ สร้างตาราง และอื่นๆ ผ่านบทช่วยสอนทีละขั้นตอนโดยละเอียดของเรา
+### [การจัดรูปแบบตาราง Java PowerPoint และการอัพเดต](./java-powerpoint-table-formatting-updates/)
+ปรับปรุงงานนำเสนอ Java PowerPoint ด้วยการจัดรูปแบบตารางและการอัปเดตโดยใช้ Aspose.Slides เรียนรู้วิธีการเพิ่มเส้นขอบ จัดรูปแบบข้อความในคอลัมน์และแถว และอัปเดตตาราง
+### [การจัดการ Java PowerPoint SmartArt](./java-powerpoint-smartart-manipulation/)
+เรียนรู้วิธีจัดการ Java PowerPoint SmartArt อย่างมีประสิทธิภาพด้วย GroupDocs.Slides สำหรับบทช่วยสอน Java เข้าถึงโหนดลูก เพิ่มโหนด เปลี่ยนเค้าโครง และอื่นๆ อีกมากมาย!

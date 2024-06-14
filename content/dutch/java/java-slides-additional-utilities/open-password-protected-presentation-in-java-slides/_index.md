@@ -16,9 +16,9 @@ In deze zelfstudie leert u hoe u een met een wachtwoord beveiligde presentatie o
 
 Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1. Aspose.Slides voor Java-bibliotheek: Zorg ervoor dat u de Aspose.Slides voor Java-bibliotheek hebt gedownload en geïnstalleerd. U kunt deze verkrijgen bij de[Aspose-website](https://products.aspose.com/slides/java/).
+1.  Aspose.Slides voor Java-bibliotheek: Zorg ervoor dat u de Aspose.Slides voor Java-bibliotheek hebt gedownload en geïnstalleerd. U kunt deze verkrijgen bij de[Aspose-website](https://products.aspose.com/slides/java/).
 
-2.  Java-ontwikkelomgeving: Zet een Java-ontwikkelomgeving op uw systeem op als u dat nog niet heeft gedaan. U kunt Java downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Java-ontwikkelomgeving: Zet een Java-ontwikkelomgeving op uw systeem op als u dat nog niet heeft gedaan. U kunt Java downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## Stap 1: Importeer de Aspose.Slides-bibliotheek
 
@@ -29,7 +29,7 @@ import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
 ```
 
-## Stap 2: Geef het documentpad en het wachtwoord op
+## Stap 2: Geef het documentpad en wachtwoord op
 
 In deze stap geeft u het pad naar het met een wachtwoord beveiligde presentatiebestand op en stelt u het toegangswachtwoord in.
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Vervang "pass" door uw presentatiewachtwoord
 
 ## Stap 3: Open de presentatie
 
- Nu opent u de met een wachtwoord beveiligde presentatie met behulp van de`Presentation`class constructor, die het bestandspad en de laadopties als parameters gebruikt.
+ Nu opent u de met een wachtwoord beveiligde presentatie met behulp van de`Presentation` class constructor, die het bestandspad en de laadopties als parameters gebruikt.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);

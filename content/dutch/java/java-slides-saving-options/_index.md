@@ -21,7 +21,7 @@ Een van de belangrijkste functionaliteiten van Aspose.Slides voor Java is de mog
 
 ### Opslaan als PDF
 
-PDF is een veelgebruikt formaat voor het delen van documenten. Met Aspose.Slides voor Java kunt u uw dia's moeiteloos opslaan als PDF-bestanden. U kunt de PDF-instellingen, inclusief paginaformaat, afdrukstand en kwaliteit, aanpassen aan uw specifieke vereisten.
+PDF is een veelgebruikt formaat voor het delen van documenten. Met Aspose.Slides voor Java kunt u uw dia's moeiteloos als PDF-bestanden opslaan. U kunt de PDF-instellingen, inclusief paginaformaat, afdrukstand en kwaliteit, aanpassen aan uw specifieke vereisten.
 
 ### Exporteren als afbeeldingen
 

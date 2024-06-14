@@ -17,7 +17,7 @@ Antes de profundizar en los detalles, es fundamental comprender por qué la prot
 
 ### Configuración de contraseñas
 
-El primer paso en la protección de documentos es establecer contraseñas. Con Aspose.Slides para Java, puede proteger fácilmente con contraseña sus documentos de Java Slides. Este tutorial lo guiará a través del proceso, garantizando que su contenido siga siendo accesible solo para aquellos con las credenciales correctas.
+El primer paso en la protección de documentos es establecer contraseñas. Con Aspose.Slides para Java, puede proteger fácilmente con contraseña sus documentos de Java Slides. Este tutorial lo guiará a través del proceso, asegurando que su contenido siga siendo accesible sólo para aquellos con las credenciales correctas.
 
 ### Cifrar diapositivas
 

@@ -10,7 +10,7 @@ url: /cs/java/presentation-conversion/convert-pdf-compliance-java-slides/
 
 ## Úvod do souladu s převodem do PDF v Java Slides
 
-tomto tutoriálu prozkoumáme, jak pomocí Aspose.Slides for Java převést prezentaci v PowerPointu na soubor PDF s kompatibilitou. Konkrétně nastavíme shodu s PDF na PDF/A-2a. Tato úroveň souladu zajišťuje, že výsledný soubor PDF splňuje specifické standardy pro dlouhodobou archivaci a dostupnost.
+V tomto tutoriálu prozkoumáme, jak pomocí Aspose.Slides for Java převést prezentaci v PowerPointu na soubor PDF s kompatibilitou. Konkrétně nastavíme shodu s PDF na PDF/A-2a. Tato úroveň souladu zajišťuje, že výsledný soubor PDF splňuje specifické standardy pro dlouhodobou archivaci a dostupnost.
 
 ## Předpoklady
 
@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Kompletní zdrojový kód pro převod do PDF v souladu s Java Slides
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ Používání souladu s PDF/A-2a je zásadní, když potřebujete dlouhodobě ar
 
 ## Mohu změnit úroveň shody s PDF na něco jiného než PDF/A-2a?
 
- Ano, Aspose.Slides for Java poskytuje flexibilitu při výběru úrovně shody s PDF. V poskytnutém kódu můžete změnit úroveň souladu úpravou`pdfOptions.setCompliance()` čára. Můžete si vybrat další úrovně shody, jako je PDF/A-1a, PDF/A-1b, PDF/A-3a atd., v závislosti na vašich konkrétních požadavcích.
+ Ano, Aspose.Slides for Java poskytuje flexibilitu při výběru úrovně shody s PDF. V poskytnutém kódu můžete změnit úroveň souladu úpravou`pdfOptions.setCompliance()`čára. Můžete si vybrat další úrovně shody, jako je PDF/A-1a, PDF/A-1b, PDF/A-3a atd., v závislosti na vašich konkrétních požadavcích.
 
 ## Jaké jsou rozdíly mezi PDF/A-2a a jinými úrovněmi souladu?
 
@@ -113,4 +113,4 @@ Ano, obvykle potřebujete platnou licenci pro Aspose.Slides for Java, abyste moh
 
 ## Kde najdu další informace o Aspose.Slides pro standard Java a PDF?
 
- Podrobnější informace o Aspose.Slides for Java a jeho funkcích, včetně nastavení souladu s PDF, naleznete v dokumentaci na[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/)Kromě toho můžete prozkoumat příklady kódu a výukové programy a dále rozšířit své znalosti o knihovně.
+ Podrobnější informace o Aspose.Slides for Java a jeho funkcích, včetně nastavení souladu s PDF, naleznete v dokumentaci na[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/). Kromě toho můžete prozkoumat příklady kódu a výukové programy a dále rozšířit své znalosti o knihovně.

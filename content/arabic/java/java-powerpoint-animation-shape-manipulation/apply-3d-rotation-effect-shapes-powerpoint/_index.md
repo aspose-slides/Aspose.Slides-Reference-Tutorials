@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-eff
 أولاً، لنستورد الحزم الضرورية في مشروع Java الخاص بك. ستساعدك هذه الواردات في التعامل مع العروض التقديمية والأشكال باستخدام Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: قم بإعداد مشروعك
 قبل الغوص في التعليمات البرمجية، قم بإعداد بيئة مشروعك. تأكد من إضافة Aspose.Slides for Java إلى تبعيات مشروعك.
@@ -72,7 +72,7 @@ pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
 يحفظ هذا الرمز العرض التقديمي الخاص بك باسم الملف المحدد بالتنسيق المطلوب.
 ## خاتمة
-تهانينا! لقد نجحت في تطبيق تأثيرات التدوير ثلاثي الأبعاد على الأشكال في عرض PowerPoint التقديمي باستخدام Aspose.Slides لـ Java. باتباع هذه الخطوات، يمكنك إنشاء عروض تقديمية جذابة وديناميكية. لمزيد من التخصيص والمزيد من الميزات المتقدمة، راجع[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/).
+ تهانينا! لقد نجحت في تطبيق تأثيرات التدوير ثلاثي الأبعاد على الأشكال في عرض PowerPoint التقديمي باستخدام Aspose.Slides لـ Java. باتباع هذه الخطوات، يمكنك إنشاء عروض تقديمية جذابة وديناميكية. لمزيد من التخصيص والمزيد من الميزات المتقدمة، راجع[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/).
 ## الأسئلة الشائعة
 ### ما هو Aspose.Slides لجافا؟
 Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قوية لإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجيًا.

@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/multi-category-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 다중 카테고리 차트를 만드는 방법을 알아봅니다. 이 가이드는 소스 코드와 함께 단계별 지침을 제공하여 여러 범주와 계열이 포함된 클러스터형 세로 막대형 차트를 만드는 데 도움이 됩니다.
 
-## 전제조건
+## 전제 조건
 시작하기 전에 Java 개발 환경에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요.
 
 ## 1단계: 환경 설정

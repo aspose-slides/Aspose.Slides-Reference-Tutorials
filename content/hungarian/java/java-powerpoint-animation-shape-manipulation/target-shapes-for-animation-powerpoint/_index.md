@@ -21,7 +21,7 @@ A kezdéshez importálja a szükséges csomagokat a Java projektbe:
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be a prezentációs fájlt
 Kezdje a forrásprezentációs fájl elérési útjának megadásával:

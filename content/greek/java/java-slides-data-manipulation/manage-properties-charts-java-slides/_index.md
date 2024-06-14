@@ -14,7 +14,7 @@ url: /el/java/data-manipulation/manage-properties-charts-java-slides/
 
 ## Προαπαιτούμενα
 
- Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε εγκαταστήσει και ρυθμίσει τη βιβλιοθήκη Aspose.Slides για Java στο έργο σας. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε εγκαταστήσει και ρυθμίσει τη βιβλιοθήκη Aspose.Slides για Java στο έργο σας. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
 
 ## Προσθήκη γραφήματος σε διαφάνεια
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Πάρτε τη δεύτερη σειρά γραφημάτων
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Τώρα συμπληρώνονται δεδομένα σειράς
+// Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### Πώς μπορώ να αλλάξω τον τύπο του γραφήματος;
 
- Μπορείτε να αλλάξετε τον τύπο γραφήματος τροποποιώντας το`ChartType`παράμετρο κατά την προσθήκη του γραφήματος. Ανατρέξτε στην τεκμηρίωση Aspose.Slides για διαθέσιμους τύπους γραφημάτων.
+ Μπορείτε να αλλάξετε τον τύπο γραφήματος τροποποιώντας το`ChartType` παράμετρο κατά την προσθήκη του γραφήματος. Ανατρέξτε στην τεκμηρίωση Aspose.Slides για διαθέσιμους τύπους γραφημάτων.
 
 ### Μπορώ να προσαρμόσω τα χρώματα του γραφήματος;
 

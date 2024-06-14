@@ -8,7 +8,7 @@ weight: 23
 url: /it/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
 ## introduzione
- La creazione di presentazioni PowerPoint visivamente accattivanti spesso richiede molto più del semplice utilizzo di forme e testo standard. Immagina di poter aggiungere forme e percorsi di testo personalizzati direttamente nelle tue diapositive, migliorando l'impatto visivo della tua presentazione. Utilizzando Aspose.Slides per Java, puoi raggiungere questo obiettivo facilmente. Questo tutorial ti guiderà attraverso il processo di utilizzo di`ShapeUtil`classe per creare forme geometriche nelle presentazioni di PowerPoint. Che tu sia uno sviluppatore esperto o abbia appena iniziato, questa guida passo passo ti aiuterà a sfruttare la potenza di Aspose.Slides per Java per creare contenuti straordinari e personalizzati.
+La creazione di presentazioni PowerPoint visivamente accattivanti spesso richiede molto più del semplice utilizzo di forme e testo standard. Immagina di poter aggiungere forme e percorsi di testo personalizzati direttamente nelle tue diapositive, migliorando l'impatto visivo della tua presentazione. Utilizzando Aspose.Slides per Java, puoi raggiungere questo obiettivo facilmente. Questo tutorial ti guiderà attraverso il processo di utilizzo di`ShapeUtil` classe per creare forme geometriche nelle presentazioni di PowerPoint. Che tu sia uno sviluppatore esperto o abbia appena iniziato, questa guida passo passo ti aiuterà a sfruttare la potenza di Aspose.Slides per Java per creare contenuti straordinari e personalizzati.
 ## Prerequisiti
 Prima di immergerci nel tutorial, ci sono alcune cose di cui avrai bisogno:
 1. Java Development Kit (JDK): assicurati di avere JDK 8 o versione successiva installata sul tuo computer.
@@ -19,7 +19,7 @@ Prima di immergerci nel tutorial, ci sono alcune cose di cui avrai bisogno:
 Per iniziare, è necessario importare i pacchetti necessari per lavorare con Aspose.Slides e Java AWT (Abstract Window Toolkit):
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;
@@ -70,7 +70,7 @@ Aspose.Slides per Java è una potente API per lavorare con file PowerPoint in Ja
 ### Come installo Aspose.Slides per Java?
  È possibile scaricare la versione più recente da[pagina di download](https://releases.aspose.com/slides/java/) e aggiungi i file JAR al tuo progetto.
 ### Posso utilizzare Aspose.Slides gratuitamente?
- Aspose.Slides offre una versione di prova gratuita, da cui puoi scaricare[Qui](https://releases.aspose.com/). Per la piena funzionalità è necessario acquistare una licenza.
+Aspose.Slides offre una versione di prova gratuita, da cui puoi scaricare[Qui](https://releases.aspose.com/)Per la piena funzionalità è necessario acquistare una licenza.
 ### Qual è l'uso della classe ShapeUtil?
  IL`ShapeUtil` La classe in Aspose.Slides fornisce metodi di utilità per lavorare con le forme, come la conversione di percorsi grafici in percorsi geometrici.
 ### Dove posso ottenere supporto per Aspose.Slides?

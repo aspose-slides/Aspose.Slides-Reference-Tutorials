@@ -14,7 +14,7 @@ en värld av presentationshantering kan möjligheten att lägga till kommentarer
 
 Innan vi går in i steg-för-steg-guiden, låt oss se till att du har allt du behöver för att komma igång:
 
-1.  Aspose.Slides för .NET: Du måste ha Aspose.Slides för .NET installerat. Om du inte redan har gjort det kan du ladda ner det från[Aspose.Slides för .NET-webbplats](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides för .NET: Du måste ha Aspose.Slides för .NET installerat. Om du inte redan har gjort det kan du ladda ner det från[Aspose.Slides för .NET webbplats](https://releases.aspose.com/slides/net/).
 
 2. Utvecklingsmiljö: Du bör ha en .NET-utvecklingsmiljö inställd på ditt system.
 
@@ -49,7 +49,7 @@ using (Presentation pres = new Presentation())
     // Lägger till författare
     ICommentAuthor author = pres.CommentAuthors.AddAuthor("Zeeshan", "MZ");
 
-    // Placering av kommentarer
+    // Kommentarer
     PointF point = new PointF();
     point.X = 1;
     point.Y = 1;

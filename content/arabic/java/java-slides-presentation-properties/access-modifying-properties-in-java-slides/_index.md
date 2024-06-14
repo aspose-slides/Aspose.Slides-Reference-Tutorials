@@ -31,7 +31,7 @@ url: /ar/java/presentation-properties/access-modifying-properties-in-java-slides
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-//قم بإنشاء مثيل لفئة العرض التقديمي التي تمثل PPTX
+// قم بإنشاء مثيل لفئة العرض التقديمي التي تمثل PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

@@ -13,18 +13,18 @@ Dans ce didacticiel, nous aborderons la création de zooms de section dans des p
 ## Conditions préalables
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont installées et configurées sur votre système :
 1.  Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système. Vous pouvez télécharger et installer la dernière version à partir de[ici](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides pour Java : téléchargez et configurez la bibliothèque Aspose.Slides pour Java. Vous pouvez trouver la documentation[ici](https://reference.aspose.com/slides/java/)et téléchargez la bibliothèque depuis[ce lien](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides pour Java : téléchargez et configurez la bibliothèque Aspose.Slides pour Java. Vous pouvez trouver la documentation[ici](https://reference.aspose.com/slides/java/) et téléchargez la bibliothèque depuis[ce lien](https://releases.aspose.com/slides/java/).
 ## Importer des packages
 Tout d’abord, importez les packages nécessaires pour travailler avec Aspose.Slides pour Java :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Étape 1 : configuration du fichier de sortie
 Définissez le chemin du fichier de présentation de sortie :
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Étape 2 : initialiser l'objet de présentation
  Créez une nouvelle instance du`Presentation` classe:

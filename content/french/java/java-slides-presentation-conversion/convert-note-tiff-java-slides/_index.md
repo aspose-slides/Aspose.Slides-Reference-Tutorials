@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## Étape 2 : configurer les options de présentation et TIFF
 
-Définissez le chemin d'accès à votre fichier de présentation (`ConvertWithNoteToTiff.pptx` ) et créez un`Presentation` objet. Ensuite, configurez le`TiffOptions` pour la conversion.
+Définissez le chemin d'accès à votre fichier de présentation (`ConvertWithNoteToTiff.pptx` ) et créez un`Presentation` objet. Ensuite, configurez le`TiffOptions`pour la conversion.
 
 ```java
 String dataDir = "Your Document Directory";

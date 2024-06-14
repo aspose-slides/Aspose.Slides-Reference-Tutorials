@@ -61,7 +61,7 @@ foreach (IEffect effect in seq)
 }
 ```
 Снова клонируйте первый слайд, на этот раз изменив эффект после анимации на «Цвет» с зеленым цветом.
-## Шаг 6. Измените эффекты после анимации на слайде 3
+## Шаг 6. Измените эффекты после анимации на слайде 3.
 ```csharp
 ISlide slide3 = pres.Slides.AddClone(pres.Slides[0]);
 seq = slide3.Timeline.MainSequence;

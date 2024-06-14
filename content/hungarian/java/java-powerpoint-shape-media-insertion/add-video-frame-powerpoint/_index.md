@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 Először is importálnia kell a szükséges csomagokat az Aspose.Slides funkciók használatához a Java kódban. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat

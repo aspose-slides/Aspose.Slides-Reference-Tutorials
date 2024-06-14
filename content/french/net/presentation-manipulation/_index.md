@@ -13,10 +13,10 @@ Dans le domaine du traitement PowerPoint, Aspose.Slides pour .NET apparaît comm
 Explorez nos didacticiels de manipulation de présentation et découvrez les capacités d'Aspose.Slides pour .NET. Apprenez à créer, modifier et améliorer par programmation des présentations PowerPoint à l'aide de diverses fonctionnalités et techniques. De la gestion des diapositives et du contenu à l'intégration d'éléments multimédias, ces didacticiels fournissent des conseils pratiques pour un traitement de présentation efficace et dynamique, vous permettant de rationaliser vos tâches d'automatisation PowerPoint et d'obtenir des résultats professionnels. Commencez dès aujourd’hui votre voyage dans le monde de la manipulation de présentations avec Aspose.Slides pour .NET.
 
 ## Tutoriels de manipulation de présentation
-### [Créer de nouvelles présentations par programmation](./create-new-presentations-programmatically/)
+### [Créer de nouvelles présentations par programme](./create-new-presentations-programmatically/)
 Découvrez comment créer des présentations par programmation à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source pour une automatisation efficace.
 ### [Options de conversion PDF personnalisées pour les présentations](./custom-pdf-conversion-options-for-presentations/)
-Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd’hui.
+Améliorez vos options de conversion PDF pour les présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape explique comment obtenir des paramètres de conversion PDF personnalisés, garantissant un contrôle précis sur votre sortie. Optimisez vos conversions de présentation dès aujourd'hui.
 ### [Exporter des paragraphes mathématiques vers MathML dans des présentations](./export-math-paragraphs-to-mathml-in-presentations/)
 Améliorez vos présentations en exportant des paragraphes mathématiques vers MathML à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour un rendu mathématique précis. Téléchargez Aspose.Slides et commencez à créer des présentations convaincantes dès aujourd'hui.
 ### [Exporter des fichiers multimédias au format HTML à partir d'une présentation](./export-media-files-to-html-from-presentation/)

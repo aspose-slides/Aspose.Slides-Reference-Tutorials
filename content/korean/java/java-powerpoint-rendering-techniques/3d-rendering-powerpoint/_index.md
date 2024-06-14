@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 멋진 3D 렌더링을 PowerPoint 프레젠테이션에 통합하는 방법을 살펴보겠습니다. 이러한 단계별 지침을 따르면 청중에게 깊은 인상을 줄 매혹적인 시각 효과를 만들 수 있습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
 1.  Java 개발 환경: 시스템에 Java가 설치되어 있는지 확인하십시오. 다음에서 Java를 다운로드하고 설치할 수 있습니다.[여기](https://www.java.com/download/).
 2.  Aspose.Slides for Java 라이브러리: 다음에서 Aspose.Slides for Java 라이브러리를 다운로드하세요.[웹사이트](https://releases.aspose.com/slides/java/). 프로젝트에 라이브러리를 설정하려면 설명서에 제공된 설치 지침을 따르세요.
@@ -17,7 +17,7 @@ url: /ko/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
@@ -49,8 +49,8 @@ shape.getThreeDFormat().getExtrusionColor().setColor(Color.BLUE);
 ## 4단계: 프레젠테이션 저장
 3D 설정을 구성한 후 프레젠테이션을 저장합니다.
 ```java
-String outPptxFile = RunExamples.getOutPath() + "sandbox_3d.pptx";
-String outPngFile = RunExamples.getOutPath() + "sample_3d.png";
+String outPptxFile = "Your Output Directory" + "sandbox_3d.pptx";
+String outPngFile = "Your Output Directory" + "sample_3d.png";
 try {
     ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(2, 2), "PNG", new File(outPngFile));
     pres.save(outPptxFile, SaveFormat.Pptx);

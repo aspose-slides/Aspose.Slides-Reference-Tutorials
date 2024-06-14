@@ -23,7 +23,7 @@ import com.aspose.slides.IVideoFrame;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.VideoPlayModePreset;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -64,7 +64,7 @@ try (InputStream input = connection.getInputStream();
     videoFrame.getPictureFormat().getPicture().setImage(pres.getImages().addImage(output.toByteArray()));
 }
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Τέλος, αποθηκεύστε την τροποποιημένη παρουσίαση:
 ```java
 pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx);

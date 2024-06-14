@@ -76,7 +76,7 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 ### 1 つのプレゼンテーション内の複数の OLE オブジェクトからデータを抽出できますか?
 もちろんです! 提供されたコードは、プレゼンテーション内の複数の OLE オブジェクトを処理するように設計されています。
 ### Aspose.Slides のその他のチュートリアルや例はどこで見つかりますか?
- Aspose.Slides のドキュメントを見る[ここ](https://reference.aspose.com/slides/net/)豊富なチュートリアルと例をご覧ください。
+ Aspose.Slides のドキュメントをご覧ください[ここ](https://reference.aspose.com/slides/net/)豊富なチュートリアルと例をご覧ください。
 ### Aspose.Slides の無料試用版はありますか?
 はい、無料試用版を入手できます[ここ](https://releases.aspose.com/).
 ### Aspose.Slides 関連のクエリのサポートを受けるにはどうすればよいですか?

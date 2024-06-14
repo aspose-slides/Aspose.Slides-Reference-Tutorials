@@ -2,7 +2,7 @@
 title: Создание диаграммы слайдов Java
 linktitle: Создание диаграммы слайдов Java
 second_title: Aspose.Slides API обработки Java PowerPoint
-description: Узнайте, как создавать динамические слайды Java с диаграммами, используя Aspose.Slides для Java. Наши подробные руководства шаг за шагом проведут вас через этот процесс.
+description: Узнайте, как создавать динамические слайды Java с диаграммами с помощью Aspose.Slides для Java. Наши подробные руководства шаг за шагом проведут вас через этот процесс.
 type: docs
 weight: 16
 url: /ru/java/chart-creation/

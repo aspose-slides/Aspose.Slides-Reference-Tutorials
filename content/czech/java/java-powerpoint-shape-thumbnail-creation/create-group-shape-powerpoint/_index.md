@@ -8,21 +8,21 @@ weight: 11
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
 ## Úvod
-moderních prezentacích je pro efektivní předávání informací zásadní začlenění vizuálně přitažlivých a dobře strukturovaných prvků. Skupinové tvary v PowerPointu umožňují uspořádat více tvarů do jedné jednotky, což usnadňuje manipulaci a formátování. Aspose.Slides for Java poskytuje výkonné funkce pro vytváření a manipulaci s tvary skupin programově, nabízí flexibilitu a kontrolu nad návrhem vaší prezentace.
+V moderních prezentacích je pro efektivní předávání informací zásadní začlenění vizuálně přitažlivých a dobře strukturovaných prvků. Skupinové tvary v PowerPointu umožňují uspořádat více tvarů do jedné jednotky, což usnadňuje manipulaci a formátování. Aspose.Slides for Java poskytuje výkonné funkce pro vytváření a manipulaci s tvary skupin programově, nabízí flexibilitu a kontrolu nad návrhem vaší prezentace.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte nastaveny následující předpoklady:
 1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK.
-2.  Knihovna Aspose.Slides for Java: Stáhněte si a zahrňte knihovnu Aspose.Slides for Java do svého projektu. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+2. Knihovna Aspose.Slides for Java: Stáhněte si a zahrňte knihovnu Aspose.Slides for Java do svého projektu. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
 3. Integrované vývojové prostředí (IDE): Vyberte si Java IDE podle svých preferencí, jako je IntelliJ IDEA nebo Eclipse.
 
 ## Importujte balíčky
 Chcete-li začít, importujte potřebné balíčky pro používání funkcí Aspose.Slides for Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte své prostředí
- Ujistěte se, že máte pro svůj projekt nastavený adresář, kde můžete vytvářet a ukládat prezentace PowerPoint. Nahradit`"Your Document Directory"` cestou k požadovanému adresáři.
+ Ujistěte se, že máte pro svůj projekt nastavený adresář, kde můžete vytvářet a ukládat prezentace PowerPoint. Nahradit`"Your Document Directory"` s cestou k požadovanému adresáři.
 ```java
 String dataDir = "Your Document Directory";
 ```

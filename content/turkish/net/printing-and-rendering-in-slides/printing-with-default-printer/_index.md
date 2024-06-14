@@ -50,4 +50,4 @@ Kesinlikle Aspose.Slides, en son .NET framework sürümleriyle uyumluluğun sağ
 ### Test amaçlı geçici lisanslar mevcut mu?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
 ### Nasıl yardım isteyebilirim veya Aspose.Slides topluluğuyla nasıl bağlantı kurabilirim?
- Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11)sorular sormak, içgörüleri paylaşmak ve diğer geliştiricilerle bağlantı kurmak için.
+ Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) sorular sormak, içgörüleri paylaşmak ve diğer geliştiricilerle bağlantı kurmak için.

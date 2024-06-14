@@ -10,8 +10,8 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 ## परिचय
 अपने दर्शकों का ध्यान आकर्षित करने और उसे बनाए रखने के लिए आकर्षक प्रस्तुतिकरण बनाना बहुत ज़रूरी है। आकृतियों में बेवल इफ़ेक्ट जोड़ने से आपकी स्लाइड्स की समग्र सुंदरता बढ़ सकती है, जिससे आपकी प्रस्तुति अलग नज़र आएगी। इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों पर बेवल इफ़ेक्ट लगाने की प्रक्रिया के बारे में बताएँगे। चाहे आप डेवलपर हों जो प्रस्तुति निर्माण को स्वचालित करना चाहते हों या कोई ऐसा व्यक्ति जो डिज़ाइन के साथ छेड़छाड़ करना पसंद करता हो, यह गाइड आपके लिए है।
 ## आवश्यक शर्तें
-ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
--  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके पास JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
+ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
+- जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके पास JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  जावा के लिए Aspose.Slides लाइब्रेरी: लाइब्रेरी को यहां से डाउनलोड करें[Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 - IDE (एकीकृत विकास वातावरण): अपनी पसंद का कोई भी IDE उपयोग करें, जैसे IntelliJ IDEA, Eclipse, या NetBeans.
 -  Aspose लाइसेंस: Aspose.Slides को बिना किसी सीमा के उपयोग करने के लिए, लाइसेंस प्राप्त करें[Aspose खरीद](https://purchase.aspose.com/buy) या प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन के लिए।
@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 सबसे पहले, आपको अपने जावा प्रोजेक्ट में Aspose.Slides के साथ काम करने के लिए आवश्यक पैकेज आयात करने होंगे। आप इसे इस प्रकार कर सकते हैं:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## चरण 1: अपना प्रोजेक्ट सेट करें

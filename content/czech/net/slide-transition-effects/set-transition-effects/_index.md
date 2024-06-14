@@ -16,7 +16,7 @@ Než se ponoříte do světa přechodových efektů, ujistěte se, že máte spl
 
 ### 1. Instalace Visual Studio a Aspose.Slides
 
- Abyste mohli pracovat s Aspose.Slides for .NET, musíte mít na svém systému nainstalované Visual Studio. Dále se ujistěte, že máte knihovnu Aspose.Slides správně integrovanou do vašeho projektu. Knihovnu si můžete stáhnout z[Stránka ke stažení Aspose.Slides for .NET](https://releases.aspose.com/slides/net/).
+ Abyste mohli pracovat s Aspose.Slides for .NET, musíte mít v systému nainstalované Visual Studio. Dále se ujistěte, že máte knihovnu Aspose.Slides správně integrovanou do vašeho projektu. Knihovnu si můžete stáhnout z[Stránka ke stažení Aspose.Slides for .NET](https://releases.aspose.com/slides/net/).
 
 ### 2. Prezentace snímků
 
@@ -111,7 +111,7 @@ Aspose.Slides for .NET poskytuje kompatibilitu s různými verzemi PowerPointu a
 
 ### 4. Kde najdu další dokumentaci a podporu pro Aspose.Slides pro .NET?
 
- Podrobnou dokumentaci a přístup ke komunitě podpory najdete na[Web Aspose.Slides](https://reference.aspose.com/slides/net/).
+ Podrobnou dokumentaci a přístup ke komunitě podpory naleznete na[Web Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ### 5. Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro .NET?
 

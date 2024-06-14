@@ -101,7 +101,7 @@ Selamat! Anda telah berhasil mempelajari cara mengonversi presentasi PowerPoint 
 
 ### Bagaimana cara mengunduh Aspose.Slides untuk Java?
 
-Anda dapat mengunduh Aspose.Slides untuk Java dari situs web Aspose. Mengunjungi[Di Sini](https://releases.aspose.com/slides/java/) untuk mengakses tautan unduhan.
+ Anda dapat mengunduh Aspose.Slides untuk Java dari situs web Aspose. Mengunjungi[Di Sini](https://releases.aspose.com/slides/java/) untuk mengakses tautan unduhan.
 
 ### Apakah ada persyaratan lisensi untuk menggunakan Aspose.Slides untuk Java?
 

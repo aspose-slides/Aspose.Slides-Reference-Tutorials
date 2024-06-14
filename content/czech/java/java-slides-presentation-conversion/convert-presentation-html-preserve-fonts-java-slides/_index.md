@@ -10,7 +10,7 @@ url: /cs/java/presentation-conversion/convert-presentation-html-preserve-fonts-j
 
 ## Úvod do převodu prezentace do HTML se zachováním původních písem v Java Slides
 
-tomto tutoriálu prozkoumáme, jak převést prezentaci PowerPoint (PPTX) do HTML při zachování původních písem pomocí Aspose.Slides for Java. Tím zajistíte, že výsledný HTML bude co nejvíce odpovídat vzhledu původní prezentace.
+V tomto tutoriálu prozkoumáme, jak převést prezentaci PowerPoint (PPTX) do HTML při zachování původních písem pomocí Aspose.Slides for Java. Tím zajistíte, že výsledný HTML bude co nejvíce odpovídat vzhledu původní prezentace.
 
 ## Krok 1: Nastavení projektu
 Než se ponoříme do kódu, ujistěte se, že máte potřebné nastavení:
@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Vyloučit výchozí prezentační písma jako Calibri a Arial
+    // Vyloučit výchozí prezentační písma jako Calibri a Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -98,7 +98,7 @@ V tomto tutoriálu jste se naučili, jak převést prezentaci PowerPoint do HTML
 
 ### Jak si stáhnu Aspose.Slides for Java?
 
-Aspose.Slides for Java si můžete stáhnout z webu Aspose. Návštěva[tady](https://downloads.aspose.com/slides/java/) získat nejnovější verzi.
+ Aspose.Slides for Java si můžete stáhnout z webu Aspose. Návštěva[tady](https://downloads.aspose.com/slides/java/) získat nejnovější verzi.
 
 ### Mohu přizpůsobit seznam vyloučených písem?
 

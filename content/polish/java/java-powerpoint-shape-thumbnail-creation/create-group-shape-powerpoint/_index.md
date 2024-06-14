@@ -8,21 +8,21 @@ weight: 11
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
 ## Wstęp
-nowoczesnych prezentacjach, dla skutecznego przekazania informacji kluczowe znaczenie ma atrakcyjne wizualnie i dobrze zorganizowane elementy. Grupowanie kształtów w programie PowerPoint umożliwia organizowanie wielu kształtów w jedną całość, co ułatwia manipulację i formatowanie. Aspose.Slides dla Java zapewnia zaawansowane funkcje do programowego tworzenia i manipulowania kształtami grup, oferując elastyczność i kontrolę nad projektem prezentacji.
+We współczesnych prezentacjach, aby skutecznie przekazać informacje, kluczowe znaczenie ma atrakcyjne wizualnie i dobrze zorganizowane elementy. Grupowanie kształtów w programie PowerPoint umożliwia organizowanie wielu kształtów w jedną całość, co ułatwia manipulację i formatowanie. Aspose.Slides dla Java zapewnia zaawansowane funkcje do programowego tworzenia i manipulowania kształtami grup, oferując elastyczność i kontrolę nad projektem prezentacji.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
 1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie.
-2.  Biblioteka Aspose.Slides for Java: Pobierz i dołącz bibliotekę Aspose.Slides for Java do swojego projektu. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+2. Biblioteka Aspose.Slides for Java: Pobierz i dołącz bibliotekę Aspose.Slides for Java do swojego projektu. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
 3. Zintegrowane środowisko programistyczne (IDE): Wybierz preferowane środowisko Java IDE, takie jak IntelliJ IDEA lub Eclipse.
 
 ## Importuj pakiety
 Aby rozpocząć, zaimportuj niezbędne pakiety do korzystania z funkcjonalności Aspose.Slides for Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Skonfiguruj swoje środowisko
- Upewnij się, że masz skonfigurowany katalog dla swojego projektu, w którym możesz tworzyć i zapisywać prezentacje programu PowerPoint. Zastępować`"Your Document Directory"`ze ścieżką do żądanego katalogu.
+ Upewnij się, że masz skonfigurowany katalog dla swojego projektu, w którym możesz tworzyć i zapisywać prezentacje programu PowerPoint. Zastępować`"Your Document Directory"` ze ścieżką do żądanego katalogu.
 ```java
 String dataDir = "Your Document Directory";
 ```

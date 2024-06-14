@@ -78,13 +78,13 @@ finally
 
 ## Slutsats
 
-den här handledningen har vi täckt de väsentliga stegen för att konvertera anteckningsbilder i Java Slides med Aspose.Slides. Genom att följa dessa steg och anpassa koden till dina specifika behov kan du effektivt manipulera och konvertera PowerPoint-presentationer programmatiskt i dina Java-applikationer.
+I den här handledningen har vi täckt de väsentliga stegen för att konvertera anteckningsbilder i Java Slides med Aspose.Slides. Genom att följa dessa steg och anpassa koden till dina specifika behov kan du effektivt manipulera och konvertera PowerPoint-presentationer programmatiskt i dina Java-applikationer.
 
 ## FAQ's
 
 ### Hur kan jag anpassa utdataformatet när jag konverterar en presentation?
 
- Du kan anpassa utdataformatet genom att ändra`SaveFormat` uppräkning i koden. För att till exempel spara presentationen som en PDF, använd`SaveFormat.Pdf`.
+ Du kan anpassa utdataformatet genom att ändra`SaveFormat`uppräkning i koden. För att till exempel spara presentationen som en PDF, använd`SaveFormat.Pdf`.
 
 ### Behöver jag köpa en licens för Aspose.Slides för Java?
 
@@ -100,4 +100,4 @@ Aspose.Slides är designad för att fungera med olika PowerPoint-format, inklusi
 
 ### Var kan jag hitta fler kodexempel och handledningar för Aspose.Slides för Java?
 
- Du kan hitta en mängd kodexempel och handledningar i[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/). Utforska dokumentationen för att lära dig mer om funktionerna i detta kraftfulla bibliotek.
+ Du kan hitta en mängd kodexempel och handledningar i[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/)Utforska dokumentationen för att lära dig mer om funktionerna i detta kraftfulla bibliotek.

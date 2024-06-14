@@ -12,15 +12,15 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-dat
 ## Προαπαιτούμενα
 Πριν ξεκινήσουμε, υπάρχουν μερικές προϋποθέσεις που πρέπει να έχετε:
 1. Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει στο μηχάνημά σας JDK 8 ή νεότερη έκδοση.
-2. Aspose.Slides for Java Library: Κάντε λήψη της πιο πρόσφατης έκδοσης από το[δικτυακός τόπος](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: Κάντε λήψη της πιο πρόσφατης έκδοσης από το[δικτυακός τόπος](https://releases.aspose.com/slides/java/).
 3. Ενσωματωμένο περιβάλλον ανάπτυξης (IDE): Χρησιμοποιήστε ένα IDE όπως το IntelliJ IDEA ή το Eclipse για μια πιο ομαλή εμπειρία κωδικοποίησης.
-4.  Δείγμα αρχείου PowerPoint: Έχετε ένα αρχείο PowerPoint (π.χ.`Presentation1.pptx`) έτοιμο να δοκιμάσει τον κώδικα.
+4.  Δείγμα αρχείου PowerPoint: Έχετε ένα αρχείο PowerPoint (π.χ.`Presentation1.pptx`έτοιμο να δοκιμάσει τον κώδικα.
 ## Εισαγωγή πακέτων
 Αρχικά, ας εισάγουμε τα απαραίτητα πακέτα για να δουλέψουμε με το Aspose.Slides για Java. Αυτές οι εισαγωγές θα μας επιτρέψουν να διαχειριζόμαστε παρουσιάσεις και να έχουμε πρόσβαση στις ιδιότητές τους.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Ρύθμιση του έργου σας
 ### Δημιουργία ενός έργου Java

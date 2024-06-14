@@ -20,7 +20,7 @@ Prima di iniziare, assicurati di avere quanto segue:
 
 ## Passaggio 1: caricare la presentazione
 
-Per prima cosa devi caricare la presentazione di PowerPoint che contiene il grafico che desideri modificare. Sostituire`presentationName` con il percorso del file PowerPoint.
+ Per prima cosa devi caricare la presentazione di PowerPoint che contiene il grafico che desideri modificare. Sostituire`presentationName` con il percorso del file PowerPoint.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Successivamente, accederemo al grafico e alle etichette dei dati all'interno del
 // Ottieni il grafico dalla prima diapositiva
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Ottieni le serie del grafico
+//Ottieni le serie del grafico
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Ottieni le etichette della prima serie
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Infine, salva la presentazione con i colori della linea guida modificati in un nuovo file.
 
 ```java
-// Salva la presentazione modificata
+//Salva la presentazione modificata
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Codice sorgente completo per il colore della linea guida nelle diapositive Java
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Ottieni il grafico dalla prima diapositiva
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Ottieni le serie del grafico
+            //Ottieni le serie del grafico
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Ottieni i titoli della prima serie
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ Per accedere e modificare altre proprietà del grafico, è possibile esplorare l
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Slides per Java in un progetto commerciale?
 
-Sì, in genere è necessaria una licenza valida per utilizzare Aspose.Slides per Java in un progetto commerciale. Aspose offre varie opzioni di licenza, inclusa una licenza di valutazione gratuita a scopo di test e prova. Tuttavia, per l'utilizzo in produzione, è necessario ottenere la licenza commerciale appropriata. Visitare il[Aspose Pagina di acquisto](https://purchase.aspose.com/) per i dettagli sulla licenza.
+ Sì, in genere è necessaria una licenza valida per utilizzare Aspose.Slides per Java in un progetto commerciale. Aspose offre varie opzioni di licenza, inclusa una licenza di valutazione gratuita a scopo di test e prova. Tuttavia, per l'utilizzo in produzione, è necessario ottenere la licenza commerciale appropriata. Visitare il[Aspose Pagina di acquisto](https://purchase.aspose.com/) per i dettagli sulla licenza.
 
 ### Come posso ottenere supporto tecnico per Aspose.Slides per Java?
 

@@ -33,7 +33,7 @@ if (!isExists)
 string presentationFileName = Path.Combine(dataDir, "AnimationShapesExample.pptx");
 using (Presentation pres = new Presentation(presentationFileName))
 {
-    //Diğer işlemler için kodunuz buraya gelecek
+    // Diğer işlemler için kodunuz buraya gelecek
 }
 ```
 ## Adım 2: Slaytlar ve Animasyon Efektlerini Yineleyin

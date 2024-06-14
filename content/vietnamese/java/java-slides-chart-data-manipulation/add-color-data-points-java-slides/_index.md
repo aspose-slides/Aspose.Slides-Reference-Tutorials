@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 Trong bước này, chúng tôi sẽ tùy chỉnh các điểm dữ liệu cụ thể. Ở đây, chúng tôi đang thay đổi màu của các điểm dữ liệu và định cấu hình cài đặt nhãn.
 
 ```java
-//Tùy chỉnh điểm dữ liệu 0
+// Tùy chỉnh điểm dữ liệu 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ Trong hướng dẫn này, bạn đã học cách thêm màu vào điểm dữ l
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
 
-Bạn có thể tìm thêm ví dụ và tài liệu chi tiết về cách sử dụng Aspose.Slides cho Java trên[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/) trang mạng.
+ Bạn có thể tìm thêm ví dụ và tài liệu chi tiết về cách sử dụng Aspose.Slides cho Java trên[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/) trang mạng.

@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fil
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 이미지 채우기를 위한 스트레치 오프셋을 추가하는 방법을 배웁니다. 이 기능을 사용하면 슬라이드 내의 이미지를 조작하여 이미지 모양을 더 효과적으로 제어할 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항을 확인하세요.
 1. 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
 2. Java 라이브러리용 Aspose.Slides가 Java 프로젝트에 다운로드되어 설정되었습니다.
@@ -17,7 +17,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fil
 시작하려면 Java 프로젝트에 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

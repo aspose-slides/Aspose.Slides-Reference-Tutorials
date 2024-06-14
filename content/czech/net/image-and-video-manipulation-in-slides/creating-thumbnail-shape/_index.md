@@ -23,7 +23,7 @@ using Aspose.Slides;
 ## Krok 1: Nastavte svůj projekt
 Vytvořte nový projekt C# ve vámi preferovaném vývojovém prostředí. Ujistěte se, že je ve vašem projektu odkazováno na knihovnu Aspose.Slides.
 ## Krok 2: Inicializujte prezentaci
- Vytvořte instanci třídy Prezentace, která bude reprezentovat soubor PowerPoint. Zadejte cestu k souboru prezentace v souboru`dataDir` variabilní.
+Vytvořte instanci třídy Prezentace, která bude reprezentovat soubor PowerPoint. Zadejte cestu k souboru prezentace v souboru`dataDir` variabilní.
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -56,4 +56,4 @@ Odpověď: Ke správě výjimek můžete implementovat mechanismy zpracování c
 ### Otázka: Existují nějaká omezení velikosti nebo typu tvarů, které mohou mít miniatury?
 Odpověď: Aspose.Slides poskytuje flexibilitu pro vytváření miniatur pro různé tvary, včetně textových polí, obrázků a dalších.
 ### Otázka: Mohu přizpůsobit velikost a rozlišení generovaných miniatur?
-Odpověď: Ano, můžete upravit parametry při volání`GetThumbnail` způsob ovládání velikosti a rozlišení.
+ Odpověď: Ano, můžete upravit parametry při volání`GetThumbnail` způsob ovládání velikosti a rozlišení.

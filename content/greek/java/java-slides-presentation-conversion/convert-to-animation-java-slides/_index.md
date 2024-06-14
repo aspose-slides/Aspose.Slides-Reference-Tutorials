@@ -34,7 +34,7 @@ import java.io.IOException;
  Για να ξεκινήσετε, φορτώστε την παρουσίαση του PowerPoint που θέλετε να μετατρέψετε σε κινούμενη εικόνα. Αντικαθιστώ`"SimpleAnimations.pptx"` με τη διαδρομή προς το αρχείο παρουσίασής σας:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 Καθώς παίζεται η παρουσίαση, κάθε καρέ θα αποθηκευτεί ως εικόνα PNG στον καθορισμένο κατάλογο εξόδου. Μπορείτε να προσαρμόσετε τη διαδρομή εξόδου όπως απαιτείται:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Ολοκληρώστε τον πηγαίο κώδικα για μετατροπή σε κινούμενη εικόνα σε διαφάνειες Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

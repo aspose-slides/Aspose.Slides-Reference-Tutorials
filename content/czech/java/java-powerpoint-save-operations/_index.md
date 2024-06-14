@@ -22,9 +22,9 @@ Efektivní ukládání powerpointových prezentací je klíčovou součástí ka
 
 ## Uložit PowerPoint s heslem
 
- Bezpečnost je prvořadá při práci s citlivými nebo důvěrnými informacemi. Přidáním ochrany heslem do vašich prezentací v PowerPointu zajistíte, že k vašemu obsahu budou mít přístup pouze oprávněné osoby. Tutoriál[Uložit PowerPoint s heslem](./save-powerpoint-with-password/) vás naučí, jak přidat ochranu heslem do vašich prezentací pomocí Aspose.Slides pro Java. Tato funkce je zásadní pro zachování integrity a důvěrnosti vašich prezentací, což vám dává jistotu, že vaše práce je bezpečná.
+ Bezpečnost je prvořadá při práci s citlivými nebo důvěrnými informacemi. Přidání ochrany heslem do vašich prezentací v PowerPointu zajistí, že k vašemu obsahu budou mít přístup pouze oprávněné osoby. Tutoriál[Uložit PowerPoint s heslem](./save-powerpoint-with-password/) vás naučí, jak přidat ochranu heslem do vašich prezentací pomocí Aspose.Slides pro Java. Tato funkce je zásadní pro zachování integrity a důvěrnosti vašich prezentací, což vám dává jistotu, že vaše práce je bezpečná.
 
-Podle těchto výukových programů si můžete osvojit umění ukládání prezentací PowerPoint pomocí Aspose.Slides for Java. Ať už potřebujete uložit svou práci do souboru, dynamicky streamovat nebo přidat vrstvu zabezpečení s ochranou heslem, tyto příručky poskytují znalosti a nástroje, které potřebujete. Ponořte se do každého výukového programu a vylepšete způsob, jakým zpracováváte prezentace v PowerPointu ve vašich aplikacích Java.
+Podle těchto výukových programů si můžete osvojit umění ukládání prezentací PowerPoint pomocí Aspose.Slides for Java. Ať už potřebujete uložit svou práci do souboru, dynamicky streamovat nebo přidat vrstvu zabezpečení s ochranou heslem, tyto příručky poskytují znalosti a nástroje, které potřebujete. Ponořte se do každého výukového programu a vylepšete způsob, jakým zacházíte s prezentacemi PowerPoint ve vašich aplikacích Java.
 ## Java PowerPoint Save Operations tutoriály
 ### [Uložit PowerPoint do souboru](./save-powerpoint-to-file/)
 Naučte se ukládat prezentace PowerPoint do souborů programově pomocí Aspose.Slides for Java. Postupujte podle našeho průvodce pro efektivní manipulaci s PowerPointem.

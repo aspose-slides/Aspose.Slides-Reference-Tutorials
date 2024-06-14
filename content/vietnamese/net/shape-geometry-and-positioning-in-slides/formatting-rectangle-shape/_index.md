@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Bước 2: Tạo đối tượng trình bày
- Khởi tạo`Presentation`lớp để thể hiện tệp PPTX. Đây sẽ là nền tảng cho bài thuyết trình PowerPoint của bạn.
+ Khởi tạo`Presentation` lớp để thể hiện tệp PPTX. Đây sẽ là nền tảng cho bài thuyết trình PowerPoint của bạn.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Truy cập trang chiếu đầu tiên trong bản trình bày của bạn vì đ
 ISlide sld = pres.Slides[0];
 ```
 ## Bước 4: Thêm hình chữ nhật
- Sử dụng`Shapes` thuộc tính của slide để thêm hình dạng tự động thuộc loại hình chữ nhật. Xác định vị trí và kích thước của hình chữ nhật.
+ Sử dụng`Shapes`thuộc tính của slide để thêm hình dạng tự động thuộc loại hình chữ nhật. Xác định vị trí và kích thước của hình chữ nhật.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

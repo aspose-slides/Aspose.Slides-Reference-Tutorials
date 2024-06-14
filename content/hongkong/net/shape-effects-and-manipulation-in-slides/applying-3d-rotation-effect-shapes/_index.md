@@ -11,7 +11,7 @@ url: /zh-hant/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-
 創建引人入勝且動態的簡報投影片是有效溝通的關鍵面向。 Aspose.Slides for .NET 提供了一組強大的工具來增強您的簡報，包括將 3D 旋轉效果應用於形狀的能力。在本教學中，我們將逐步介紹使用 Aspose.Slides for .NET 將 3D 旋轉效果應用於簡報投影片中的形狀的過程。
 ## 先決條件
 在我們深入學習本教程之前，請確保您具備以下先決條件：
--  Aspose.Slides for .NET：確保您已安裝 Aspose.Slides for .NET 程式庫。您可以從[網站](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET：確保您已安裝 Aspose.Slides for .NET 程式庫。您可以從[網站](https://releases.aspose.com/slides/net/).
 - 開發環境：設定 .NET 開發環境（例如 Visual Studio）來編寫和執行程式碼。
 ## 導入命名空間
 在您的 .NET 專案中，匯入必要的命名空間以利用 Aspose.Slides 的功能。在程式碼開頭包含以下命名空間：

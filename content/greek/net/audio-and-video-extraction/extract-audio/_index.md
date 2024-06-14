@@ -1,6 +1,6 @@
 ---
-title: Εξαγωγή ήχου από τη Διαφάνεια
-linktitle: Εξαγωγή ήχου από τη Διαφάνεια
+title: Εξαγωγή ήχου από τη διαφάνεια
+linktitle: Εξαγωγή ήχου από τη διαφάνεια
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: LLΜάθετε πώς να εξάγετε ήχο από διαφάνειες χρησιμοποιώντας το Aspose.Slides για .NET. Βελτιώστε τις παρουσιάσεις σας με αυτόν τον οδηγό βήμα προς βήμα.
 type: docs

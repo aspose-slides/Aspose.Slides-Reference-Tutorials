@@ -63,7 +63,7 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 string outPngFile = Path.Combine(dataDir, "sample_3d.png");
 pres.Slides[0].GetThumbnail(2, 2).Save(outPngFile, ImageFormat.Png);
 ```
-現在，您已經使用 Aspose.Slides for .NET 在簡報投影片中成功渲染了 3D 效果。
+現在您已經使用 Aspose.Slides for .NET 在簡報投影片中成功渲染了 3D 效果。
 ## 結論
 使用 3D 效果增強簡報投影片可以吸引觀眾並更有效地傳達訊息。 Aspose.Slides for .NET 簡化了這個過程，讓您輕鬆創建視覺上令人驚嘆的簡報。
 ## 經常問的問題

@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Φροντίστε να αντικαταστήσετε`"Your Document Directory"`με τη διαδρομή όπου θέλετε να αποθηκεύσετε τα αρχεία παρουσίασής σας.
+ Φροντίστε να αντικαταστήσετε`"Your Document Directory"` με τη διαδρομή όπου θέλετε να αποθηκεύσετε τα αρχεία παρουσίασής σας.
 ## Βήμα 2: Φορτώστε την παρουσίαση
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

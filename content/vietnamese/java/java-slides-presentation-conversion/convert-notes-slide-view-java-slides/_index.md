@@ -84,7 +84,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày các bước cần thi�
 
 ### Làm cách nào để tùy chỉnh định dạng đầu ra khi chuyển đổi bản trình bày?
 
- Bạn có thể tùy chỉnh định dạng đầu ra bằng cách thay đổi`SaveFormat` liệt kê trong mã. Ví dụ: để lưu bản trình bày dưới dạng PDF, hãy sử dụng`SaveFormat.Pdf`.
+ Bạn có thể tùy chỉnh định dạng đầu ra bằng cách thay đổi`SaveFormat`liệt kê trong mã. Ví dụ: để lưu bản trình bày dưới dạng PDF, hãy sử dụng`SaveFormat.Pdf`.
 
 ### Tôi có cần mua giấy phép cho Aspose.Slides cho Java không?
 
@@ -100,4 +100,4 @@ Aspose.Slides được thiết kế để hoạt động với nhiều định d
 
 ### Tôi có thể tìm thêm ví dụ về mã và hướng dẫn về Aspose.Slides cho Java ở đâu?
 
- Bạn có thể tìm thấy rất nhiều ví dụ về mã và hướng dẫn trong[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/). Khám phá tài liệu để tìm hiểu thêm về khả năng của thư viện mạnh mẽ này.
+ Bạn có thể tìm thấy rất nhiều ví dụ về mã và hướng dẫn trong[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/)Khám phá tài liệu để tìm hiểu thêm về khả năng của thư viện mạnh mẽ này.

@@ -19,7 +19,7 @@ Sebelum mendalami kode, pastikan Anda memiliki prasyarat berikut:
 Pertama, mari kita impor paket-paket yang diperlukan untuk contoh kita.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

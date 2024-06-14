@@ -25,7 +25,7 @@ Le animazioni delle diapositive possono trasformare presentazioni statiche in es
 
 ## Intraprendi il tuo viaggio nell'animazione:
 
-Ora che hai un'idea di cosa c'è in serbo, è tempo di intraprendere il tuo viaggio nell'animazione. Sia che tu stia cercando di aggiungere transizioni sottili o creare sequenze animate elaborate, questo tutorial ti fornirà le competenze per dare vita alle tue presentazioni. Quindi, tuffiamoci e sveliamo il mondo del controllo dell'animazione delle diapositive utilizzando Aspose.Slides per .NET.
+Ora che hai un'idea di cosa c'è in serbo, è tempo di intraprendere il tuo viaggio nell'animazione. Che tu stia cercando di aggiungere transizioni sottili o creare sequenze animate elaborate, questo tutorial ti fornirà le competenze per dare vita alle tue presentazioni. Quindi, tuffiamoci e sveliamo il mondo del controllo dell'animazione delle diapositive utilizzando Aspose.Slides per .NET.
 
 ## Esercitazioni sul controllo dell'animazione delle diapositive
 ### [Controllo dell'animazione delle diapositive in Aspose.Slides](./slide-animation-control/)

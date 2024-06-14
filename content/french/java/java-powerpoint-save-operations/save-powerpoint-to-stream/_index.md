@@ -21,7 +21,7 @@ import com.aspose.slides.IAutoShape;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -47,7 +47,7 @@ presentation.save(toStream, SaveFormat.Pptx);
 toStream.close();
 ```
 ## Étape 5 : Éliminer les ressources
- Jetez le`Presentation` s'opposer à libérer toutes les ressources qui lui sont associées.
+ Jetez le`Presentation` s’opposer à libérer toutes les ressources qui lui sont associées.
 ```java
 if (presentation != null) presentation.dispose();
 ```

@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-sha
 Перво-наперво вам необходимо импортировать необходимые пакеты из Aspose.Slides. Это позволит вам получить доступ ко всем функциям, необходимым для создания презентаций PowerPoint и управления ими.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Давайте разобьем процесс добавления сегментов к геометрическим фигурам на подробные этапы, чтобы обеспечить ясность и простоту понимания.
 ## Шаг 1. Создайте новую презентацию

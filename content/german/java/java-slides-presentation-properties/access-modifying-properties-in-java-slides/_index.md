@@ -31,7 +31,7 @@ Um mit einer PowerPoint-Präsentation arbeiten zu können, müssen Sie diese zun
 ```java
 // Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
-//Instanziieren Sie die Präsentationsklasse, die die PPTX darstellt
+// Instanziieren Sie die Präsentationsklasse, die die PPTX darstellt
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

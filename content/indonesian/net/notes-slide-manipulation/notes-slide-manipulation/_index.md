@@ -20,7 +20,7 @@ Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan: Anda harus memiliki lingkungan pengembangan yang berfungsi dengan Visual Studio atau alat pengembangan .NET lainnya.
 
-Sekarang, mari kita mulai mengerjakan setiap tugas selangkah demi selangkah.
+Sekarang, mari kita mulai mengerjakan setiap tugas langkah demi langkah.
 
 ## Tugas 1: Mengelola Header dan Footer di Slide Catatan
 
@@ -136,7 +136,7 @@ for (int i = 0; i < presentation.Slides.Count; i++)
 presentation.Save(dataDir + "RemoveNotesFromAllSlides_out.pptx", SaveFormat.Pptx);
 ```
 
-Dengan mengikuti langkah-langkah ini, Anda dapat mengelola dan mengkustomisasi presentasi PowerPoint Anda secara efektif menggunakan Aspose.Slides untuk .NET. Apakah Anda perlu memanipulasi header dan footer di slide catatan atau menghapus catatan dari slide tertentu atau semua slide, panduan ini siap membantu Anda.
+Dengan mengikuti langkah-langkah ini, Anda dapat secara efektif mengelola dan mengkustomisasi presentasi PowerPoint Anda menggunakan Aspose.Slides untuk .NET. Apakah Anda perlu memanipulasi header dan footer di slide catatan atau menghapus catatan dari slide tertentu atau semua slide, panduan ini siap membantu Anda.
 
 Sekarang, giliran Anda untuk mengeksplorasi berbagai kemungkinan dengan Aspose.Slides dan bawa presentasi Anda ke level berikutnya!
 

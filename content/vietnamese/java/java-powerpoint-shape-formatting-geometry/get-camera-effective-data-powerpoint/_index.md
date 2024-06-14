@@ -12,15 +12,15 @@ Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà ph�
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu, có một số điều kiện tiên quyết bạn cần phải có:
 1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên trên máy của mình.
-2. Aspose.Slides for Java Library: Tải xuống phiên bản mới nhất từ[trang mạng](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: Tải xuống phiên bản mới nhất từ[trang mạng](https://releases.aspose.com/slides/java/).
 3. Môi trường phát triển tích hợp (IDE): Sử dụng IDE như IntelliJ IDEA hoặc Eclipse để có trải nghiệm mã hóa mượt mà hơn.
-4.  Tệp PowerPoint mẫu: Có tệp PowerPoint (ví dụ:`Presentation1.pptx`) sẵn sàng kiểm tra mã.
+4.  Tệp PowerPoint mẫu: Có tệp PowerPoint (ví dụ:`Presentation1.pptx`sẵn sàng kiểm tra mã.
 ## Gói nhập khẩu
 Trước tiên, hãy nhập các gói cần thiết để làm việc với Aspose.Slides cho Java. Những lần nhập này sẽ cho phép chúng tôi quản lý bản trình bày và truy cập các thuộc tính của chúng.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập dự án của bạn
 ### Tạo một dự án Java

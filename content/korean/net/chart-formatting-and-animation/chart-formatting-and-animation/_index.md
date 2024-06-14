@@ -10,7 +10,7 @@ url: /ko/net/chart-formatting-and-animation/chart-formatting-and-animation/
 
 동적 차트와 애니메이션을 사용하여 매력적인 프레젠테이션을 만들면 메시지의 영향력을 크게 높일 수 있습니다. .NET용 Aspose.Slides를 사용하면 바로 그 목표를 달성할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 차트에 애니메이션을 적용하고 서식을 지정하는 과정을 안내합니다. 개념을 철저하게 이해할 수 있도록 단계를 관리 가능한 섹션으로 나누어 보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 Aspose.Slides를 사용하여 차트 서식 지정 및 애니메이션을 시작하기 전에 다음이 필요합니다.
 

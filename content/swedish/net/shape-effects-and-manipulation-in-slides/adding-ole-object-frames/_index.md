@@ -83,4 +83,4 @@ S: Ja, Aspose.Slides stöder de senaste PowerPoint-filformaten, inklusive PPTX.
 ### F: Kan jag anpassa utseendet på den inbäddade OLE-objektramen?
 S: Absolut, du kan justera storleken, positionen och andra egenskaper för OLE Object Frame enligt dina önskemål.
 ### F: Var kan jag söka hjälp om jag stöter på utmaningar under implementeringen?
-A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och vägledning.
+ A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och vägledning.

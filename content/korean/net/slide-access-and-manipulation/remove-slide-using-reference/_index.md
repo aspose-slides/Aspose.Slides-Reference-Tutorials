@@ -14,7 +14,7 @@ url: /ko/net/slide-access-and-manipulation/remove-slide-using-reference/
 
 Microsoft PowerPoint는 프레젠테이션을 만들고 전달하는 강력한 도구입니다. 그러나 프레젠테이션에서 슬라이드를 제거해야 하는 경우가 있을 수 있습니다. Aspose.Slides for .NET은 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있는 라이브러리입니다. 이 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드 삭제라는 특정 작업에 중점을 둘 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

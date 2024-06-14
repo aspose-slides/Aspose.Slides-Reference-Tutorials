@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-s
 首先，將必要的套件匯入到您的 Java 類別中：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

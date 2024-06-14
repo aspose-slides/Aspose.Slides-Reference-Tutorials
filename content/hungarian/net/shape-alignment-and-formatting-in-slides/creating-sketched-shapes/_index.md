@@ -65,7 +65,7 @@ Ez az! Sikeresen létrehozott egy prezentációt felvázolt alakzatokkal az Aspo
 Ha vázlatos formákat ad a prezentáció diákjaihoz, az javíthatja a vizuális vonzerőt és bevonhatja a közönséget. Az Aspose.Slides for .NET segítségével a folyamat egyszerűvé válik, így könnyedén szabadjára engedheti kreativitását.
 ## GYIK
 ### 1. Testreszabhatom a vázolt hatást?
-Igen, az Aspose.Slides for .NET különféle testreszabási lehetőségeket kínál a vázlatos effektusokhoz. Utal[dokumentáció](https://reference.aspose.com/slides/net/) részletes információkért.
+ Igen, az Aspose.Slides for .NET különféle testreszabási lehetőségeket kínál a vázlatos effektusokhoz. Utal[dokumentáció](https://reference.aspose.com/slides/net/) részletes információkért.
 ### 2. Van-e ingyenes próbaverzió?
  Biztosan! Megtekintheti az Aspose.Slides .NET-hez készült ingyenes próbaverzióját[itt](https://releases.aspose.com/).
 ### 3. Hol kaphatok támogatást?

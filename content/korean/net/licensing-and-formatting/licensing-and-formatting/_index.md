@@ -10,13 +10,13 @@ url: /ko/net/licensing-and-formatting/licensing-and-formatting/
 
 .NET 개발 세계에서 Aspose.Slides는 Microsoft PowerPoint 파일을 프로그래밍 방식으로 작업할 수 있는 강력하고 다재다능한 라이브러리입니다. PowerPoint 프레젠테이션을 생성, 조작 또는 변환해야 하는 경우 Aspose.Slides가 도와드립니다. 해당 기능을 최대한 활용하려면 라이선스의 중요성을 이해해야 합니다. 이 단계별 가이드에서는 Aspose.Slides for .NET 라이선스를 취득하고 애플리케이션이 원활하게 작동할 준비가 되었는지 확인하는 방법을 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 라이선스 프로세스를 살펴보기 전에 다음과 같은 전제 조건을 충족해야 합니다.
 
-1.  .NET용 Aspose.Slides: 개발 환경에 .NET용 Aspose.Slides가 설치되어 있는지 확인하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[다운로드 링크](https://releases.aspose.com/slides/net/).
+1. .NET용 Aspose.Slides: 개발 환경에 .NET용 Aspose.Slides가 설치되어 있는지 확인하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[다운로드 링크](https://releases.aspose.com/slides/net/).
 
-2.  라이센스 파일: 일반적으로 "Aspose.Slides.lic"이라는 이름의 유효한 Aspose.Slides 라이센스 파일을 획득합니다. 에서 라이센스를 얻을 수 있습니다.[Aspose 웹사이트](https://purchase.aspose.com/buy) 또는 요청[임시 면허증](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+2.  라이센스 파일: 일반적으로 "Aspose.Slides.lic"이라는 이름의 유효한 Aspose.Slides 라이센스 파일을 획득합니다. 에서 라이센스를 얻을 수 있습니다.[Aspose 웹사이트](https://purchase.aspose.com/buy) 또는 요청[임시면허](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
 
 ## 네임스페이스 가져오기
 
@@ -58,7 +58,7 @@ license.SetLicense("Aspose.Slides.lic");
 
 ### 4단계: 라이선스 검증
 
-라이센스가 유효한지 확인하려면 다음을 사용하십시오.`IsLicensed` 방법. 라이센스가 활성화되었는지 여부를 나타내는 부울 값을 반환합니다.
+ 라이센스가 유효한지 확인하려면 다음을 사용하십시오.`IsLicensed` 방법. 라이센스가 활성화되었는지 여부를 나타내는 부울 값을 반환합니다.
 
 ```csharp
 if (license.IsLicensed())
@@ -85,7 +85,7 @@ Aspose.Slides for .NET은 .NET 애플리케이션에서 Microsoft PowerPoint 파
  Aspose 웹사이트를 방문하여 .NET용 Aspose.Slides 라이선스를 취득할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
 
 ### 라이선스를 구매하기 전에 Aspose.Slides for .NET을 평가할 수 있나요?
- 예, 요청하실 수 있습니다[임시 면허증](https://purchase.aspose.com/temporary-license/) 개발 환경에서 .NET용 Aspose.Slides를 평가합니다.
+ 예, 요청하실 수 있습니다[임시면허](https://purchase.aspose.com/temporary-license/) 개발 환경에서 .NET용 Aspose.Slides를 평가합니다.
 
 ### .NET용 Aspose.Slides에 사용할 수 있는 무료 리소스나 문서가 있습니까?
  예, 다음에서 Aspose.Slides for .NET에 대한 문서와 리소스에 액세스할 수 있습니다.[문서 페이지](https://reference.aspose.com/slides/net/).

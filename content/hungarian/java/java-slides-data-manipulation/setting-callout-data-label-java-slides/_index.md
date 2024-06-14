@@ -19,7 +19,7 @@ Ebben az oktatóanyagban bemutatjuk, hogyan állíthat be kiemeléseket az adatc
 
 ## 1. lépés: Hozzon létre egy prezentációt és adjon hozzá egy diagramot
 
- Először is létre kell hoznunk egy prezentációt, és diagramot kell hozzáadnunk egy diához. Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Először is létre kell hoznunk egy prezentációt, és diagramot kell hozzáadnunk egy diához. Mindenképpen cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
 ```java
 String dataDir = "Your Document Directory";

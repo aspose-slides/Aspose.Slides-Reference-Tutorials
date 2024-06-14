@@ -21,7 +21,7 @@ url: /hi/java/presentation-properties/read-only-recommended-properties-in-java-s
 हम Aspose.Slides for Java का उपयोग करके एक नया PowerPoint प्रेजेंटेशन बनाकर शुरू करेंगे। यदि आपके पास पहले से ही एक प्रेजेंटेशन है, तो आप इस चरण को छोड़ सकते हैं।
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ finally
 ## जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुणों के लिए पूर्ण स्रोत कोड
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

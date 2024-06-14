@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-pos
 ---
 ## 소개
 PowerPoint 게임을 한 단계 더 발전시킬 준비가 되셨나요? 숙련된 개발자이든 슬라이드 조작을 자동화하려는 초보자이든 관계없이 올바른 위치에 오셨습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 지정된 위치에 슬라이드를 복제하는 과정을 안내합니다. 버클을 채우고 함께 이 여행에 뛰어들어 보세요!
-## 전제조건
+## 전제 조건
 핵심적인 내용으로 넘어가기 전에 필요한 모든 것이 갖추어져 있는지 확인하겠습니다.
 1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Java용 Aspose.Slides: 다음에서 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/slides/java/).
@@ -21,13 +21,13 @@ PowerPoint 게임을 한 단계 더 발전시킬 준비가 되셨나요? 숙련�
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 데이터 디렉터리 설정
 PowerPoint 파일을 저장하려면 디렉터리가 필요합니다. 여기에서 소스 파일을 로드하고 복제된 프레젠테이션을 저장할 수 있습니다.
 ```java
 // 문서 디렉터리의 경로입니다.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## 2단계: 소스 프레젠테이션 로드
 다음으로 복제하려는 슬라이드가 포함된 소스 프레젠테이션을 로드합니다. 이 단계는 복제 작업의 기반이 되므로 매우 중요합니다.

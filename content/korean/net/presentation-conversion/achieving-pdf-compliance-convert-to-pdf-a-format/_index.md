@@ -12,7 +12,7 @@ url: /ko/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-f
 
 문서 관리 및 프리젠테이션 작성 영역에서는 업계 표준을 준수하는 것이 필수적입니다. PDF 규정 준수, 특히 프레젠테이션을 PDF/A 형식으로 변환하는 것은 일반적인 요구 사항입니다. 이 단계별 가이드에서는 프로그래밍 방식으로 PowerPoint 프레젠테이션 작업을 위한 강력한 도구인 Aspose.Slides for .NET을 사용하여 이 작업을 수행하는 방법을 보여줍니다. 이 튜토리얼이 끝나면 가장 엄격한 규정 준수 표준을 충족하면서 PowerPoint 프레젠테이션을 PDF/A 형식으로 원활하게 변환할 수 있게 됩니다.
 
-## 전제조건
+## 전제 조건
 
 변환 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

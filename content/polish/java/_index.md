@@ -22,7 +22,7 @@ Aby rozpocząć przygodę z Aspose.Slides dla Java, musisz najpierw zainstalowa�
 
 ### Przeglądanie dokumentacji
 
- Każda wielka przygoda zaczyna się od mapy, a w tym przypadku jest to dokumentacja. The[Dokumentacja API Aspose.Slides](https://reference.aspose.com/slides/java/) jest Twoim najlepszym przewodnikiem. Zawiera wyczerpujące informacje na temat klas, metod i przykładów, które pomogą Ci zrozumieć i efektywnie wykorzystać interfejs API.
+ Każda wielka przygoda zaczyna się od mapy, a w tym przypadku jest to dokumentacja. The[Dokumentacja API Aspose.Slides](https://reference.aspose.com/slides/java/) jest Twoim najlepszym przewodnikiem. Zawiera wyczerpujące informacje na temat klas, metod i przykładów, które pomogą Ci zrozumieć i efektywnie wykorzystać API.
 
 ## Zaawansowane funkcje
 
@@ -79,4 +79,28 @@ Dowiedz się, jak animować kształty i manipulować nimi w programie PowerPoint
 ### [Formatowanie i geometria kształtów w programie Java PowerPoint](./java-powerpoint-shape-formatting-geometry/)
 Odkryj samouczki dotyczące formatowania kształtów i geometrii w programie Java PowerPoint. Naucz się wypełniać kształty, znajdować kształty i tworzyć niestandardową geometrię za pomocą Aspose.Slides dla Java.
 ### [Techniki klonowania slajdów w programie Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
-Opanuj klonowanie slajdów w programie PowerPoint przy użyciu programu Aspose.Slides dla języka Java. Dowiedz się, jak bezproblemowo klonować slajdy w ramach tej samej prezentacji lub między prezentacjami.
+Opanuj klonowanie slajdów w programie PowerPoint przy użyciu programu Aspose.Slides dla języka Java. Dowiedz się, jak płynnie klonować slajdy w ramach tej samej prezentacji lub między prezentacjami.
+### [Manipulacja polami tekstowymi w programie Java PowerPoint](./java-powerpoint-text-box-manipulation/)
+Zapoznaj się z obszernymi samouczkami dotyczącymi manipulacji polami tekstowymi w programie Java PowerPoint za pomocą Aspose.Slides. Ulepsz swoje prezentacje krok po kroku, korzystając z naszych przewodników.
+### [Zarządzanie czcionkami w programie Java PowerPoint](./java-powerpoint-font-management/)
+Odkryj samouczki dotyczące zarządzania czcionkami w programie Java PowerPoint przy użyciu Aspose.Slides dla języka Java. Poznaj techniki osadzania, kompresji i dostosowywania w celu ulepszenia prezentacji.
+### [Animacja i efekty Java PowerPoint](./java-powerpoint-animation-effects/)
+Opanuj animacje i efekty Java PowerPoint dzięki naszym obszernym samouczkom. Naucz się dodawać animacje, cienie zewnętrzne i wewnętrzne za pomocą Aspose.Slides dla Java.
+### [Wyrównanie i formatowanie tekstu w programie Java PowerPoint](./java-powerpoint-text-alignment-formatting/)
+Odkryj samouczki dotyczące wyrównywania i formatowania tekstu w programie Java PowerPoint. Naucz się wyrównywać, formatować, eksportować i wyróżniać tekst za pomocą Aspose.Slides dla Java. 
+### [Zasady wyróżniania i zastępowania tekstu w programie Java PowerPoint](./java-powerpoint-text-highlighting-fallback-rules/)
+Opanuj reguły podświetlania tekstu i zastępowania czcionek w programie Java PowerPoint za pomocą Aspose.Slides. Skorzystaj z naszych samouczków, aby bezproblemowo ulepszać i automatyzować swoje prezentacje.
+### [Zarządzanie tekstem i akapitami w programie Java PowerPoint](./java-powerpoint-text-paragraph-management/)
+Opanuj zarządzanie tekstem i akapitami w programie Java PowerPoint za pomocą Aspose.Slides. Dowiedz się, jak importować tekst HTML, zarządzać odstępami między wierszami, tworzyć punktory i wyrównywać akapity.
+### [Zarządzanie czcionkami w programie Java PowerPoint i zastępowanie tekstu](./java-powerpoint-font-management-text-replacement/)
+Opanuj zarządzanie czcionkami w programie Java PowerPoint i zastępowanie tekstu za pomocą Aspose.Slides. Dowiedz się, jak ładować niestandardowe czcionki, zarządzać osadzonymi czcionkami i płynnie zastępować tekst.
+### [Zaawansowane właściwości akapitów i czcionek w programie Java PowerPoint](./java-powerpoint-advanced-paragraph-font-properties/)
+Opanuj zaawansowane właściwości akapitów i czcionek w programie Java PowerPoint przy użyciu Aspose.Slides. Dowiedz się, jak dostosowywać czcionki, dodawać punktory obrazkowe i używać czcionek zastępczych.
+### [Dostosowywanie tekstu i czcionek w programie Java PowerPoint](./java-powerpoint-text-font-customization/)
+Zapoznaj się z samouczkami na temat dostosowywania tekstu i czcionek w programie Java PowerPoint za pomocą Aspose.Slides. Dowiedz się o rotacji, wymianie czcionek i nie tylko, aby ulepszyć swoje prezentacje.
+### [Manipulacja tabelami w programie Java PowerPoint](./java-powerpoint-table-manipulation/)
+Opanuj manipulację tabelami w programie Java PowerPoint za pomocą Aspose.Slides. Dowiedz się, jak dodawać obrazy, dzielić komórki, tworzyć tabele i wykonywać inne czynności, korzystając z naszych szczegółowych samouczków krok po kroku.
+### [Formatowanie i aktualizacje tabeli Java PowerPoint](./java-powerpoint-table-formatting-updates/)
+Ulepsz prezentacje Java PowerPoint dzięki formatowaniu tabel i aktualizacjom za pomocą Aspose.Slides. Naucz się dodawać obramowania, formatować tekst w kolumnach i wierszach oraz aktualizować tabele.
+### [Manipulacja grafiką SmartArt w programie Java PowerPoint](./java-powerpoint-smartart-manipulation/)
+Dowiedz się, jak efektywnie manipulować grafiką Java PowerPoint SmartArt, korzystając z samouczków GroupDocs.Slides for Java. Uzyskaj dostęp do węzłów podrzędnych, dodawaj węzły, zmieniaj układy i wiele więcej!

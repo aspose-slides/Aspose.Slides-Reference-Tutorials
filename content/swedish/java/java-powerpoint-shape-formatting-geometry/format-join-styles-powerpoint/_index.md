@@ -12,14 +12,14 @@ Att skapa visuellt tilltalande PowerPoint-presentationer kan vara en skrämmande
 ## Förutsättningar
 Innan vi börjar finns det några förutsättningar du måste ha på plats:
 1.  Java Development Kit (JDK): Se till att du har JDK installerat på din maskin. Du kan ladda ner den från[Oracles hemsida](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java Library: Du måste ladda ner och inkludera Aspose.Slides för Java i ditt projekt. Du kan få det från[här](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: Du måste ladda ner och inkludera Aspose.Slides för Java i ditt projekt. Du kan få det från[här](https://releases.aspose.com/slides/java/).
 3. Integrated Development Environment (IDE): Använd en IDE som IntelliJ IDEA, Eclipse eller NetBeans för att skriva och köra din Java-kod.
 4. Grundläggande kunskaper om Java: En grundläggande förståelse för Java-programmering hjälper dig att följa handledningen.
 ## Importera paket
 Först måste du importera de nödvändiga paketen för Aspose.Slides. Detta är viktigt för att komma åt de klasser och metoder som krävs för våra presentationsmanipulationer.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,11 +34,11 @@ if (!IsExists)
 ```
 I det här steget definierar vi en katalogsökväg och kontrollerar om den finns. Om det inte gör det skapar vi katalogen. Detta är ett enkelt men effektivt sätt att hålla dina filer organiserade.
 ## Steg 2: Initiera presentationen
- Därefter instansierar vi`Presentation`klass, som representerar vår PowerPoint-fil. Detta är grunden på vilken vi kommer att bygga våra diabilder och former.
+ Därefter instansierar vi`Presentation` klass, som representerar vår PowerPoint-fil. Detta är grunden på vilken vi kommer att bygga våra diabilder och former.
 ```java
 Presentation pres = new Presentation();
 ```
-Denna kodrad skapar en ny presentation. Se det som att öppna en tom PowerPoint-fil där du lägger till allt innehåll.
+Denna kodrad skapar en ny presentation. Se det som att öppna en tom PowerPoint-fil där du lägger till allt ditt innehåll.
 ## Steg 3: Lägg till former i bilden
 ### Skaffa den första bilden
 Innan vi lägger till former måste vi få en referens till den första bilden i vår presentation. Som standard innehåller en ny presentation en tom bild.
@@ -55,7 +55,7 @@ IShape shp3 = sld.getShapes().addAutoShape(ShapeType.Rectangle, 50, 250, 150, 75
 I det här steget lägger vi till tre rektanglar på angivna positioner på bilden. Varje rektangel kommer senare att utformas annorlunda för att visa upp olika sammanfogningsstilar.
 ## Steg 4: Style formerna
 ### Ställ in fyllningsfärg
-Vi vill att våra rektanglar ska fyllas med en enfärgad färg. Här väljer vi svart för fyllningsfärgen.
+Vi vill att våra rektanglar ska fyllas med en enfärgad färg. Här väljer vi svart som fyllningsfärg.
 ```java
 shp1.getFillFormat().setFillType(FillType.Solid);
 shp1.getFillFormat().getSolidFillColor().setColor(Color.BLACK);

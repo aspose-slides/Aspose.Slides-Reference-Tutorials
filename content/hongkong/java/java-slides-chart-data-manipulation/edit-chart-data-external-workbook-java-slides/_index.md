@@ -75,7 +75,7 @@ if (pres != null) pres.dispose();
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -96,7 +96,7 @@ if (pres != null) pres.dispose();
 
 是的，您可以透過對每個圖表重複圖表資料修改步驟來編輯同一簡報中多個圖表中的資料。
 
-### 如果我想編輯外部工作簿中不同格式的資料該怎麼辦？
+### 如果我想編輯具有不同格式的外部工作簿中的資料該怎麼辦？
 
 您可以使用適當的 Aspose.Cells 類別和方法來調整程式碼以處理不同的外部工作簿格式，以讀取和寫入該格式的資料。
 

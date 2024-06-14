@@ -169,4 +169,4 @@ Du har framgångsrikt konverterat enskilda bilder från en PowerPoint-presentati
 
 ### Hur hanterar jag ytterligare formatering för former och text i bilder?
 
-Du kan förlänga`CustomFormattingController` klass för att hantera formspecifik formatering genom att implementera`writeShapeStart` och`writeShapeEnd` metoder och tillämpa anpassad formateringslogik inom dem.
+ Du kan förlänga`CustomFormattingController` klass för att hantera formspecifik formatering genom att implementera`writeShapeStart` och`writeShapeEnd` metoder och tillämpa anpassad formateringslogik inom dem.

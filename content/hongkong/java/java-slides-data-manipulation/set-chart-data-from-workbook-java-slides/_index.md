@@ -23,7 +23,7 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以
 ## 第 1 步：建立簡報
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ chart.getChartData().getChartDataWorkbook().clear(0);
 ## 第 4 步：載入 Excel 工作簿
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
 我們載入包含要用於圖表的資料的 Excel 工作簿。代替`"book1.xlsx"`以及 Excel 檔案的路徑。
@@ -92,14 +92,14 @@ pres.save(outPath, SaveFormat.Pptx);
 ## 在 Java 投影片中從工作簿設定圖表資料的完整原始碼
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

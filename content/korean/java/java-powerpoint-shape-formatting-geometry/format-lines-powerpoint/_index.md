@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
 ## 소개
 PowerPoint 프레젠테이션은 전문적인 환경과 교육적인 환경 모두에서 필수적인 요소입니다. 슬라이드의 줄 서식을 효과적으로 지정하는 기능을 사용하면 프레젠테이션을 세련되고 전문적으로 보이게 만들 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 줄 서식을 지정하는 방법을 살펴보겠습니다. 이 가이드를 마치면 슬라이드에서 쉽게 선을 만들고 서식을 지정할 수 있습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
 1.  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하십시오. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Java용 Aspose.Slides: Aspose.Slides 라이브러리를 다운로드하여 프로젝트에 포함하세요. 당신은 그것을 얻을 수 있습니다[여기](https://releases.aspose.com/slides/java/).
@@ -18,7 +18,7 @@ PowerPoint 프레젠테이션은 전문적인 환경과 교육적인 환경 모�
 먼저 Aspose.Slides 작업에 필요한 필수 패키지를 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

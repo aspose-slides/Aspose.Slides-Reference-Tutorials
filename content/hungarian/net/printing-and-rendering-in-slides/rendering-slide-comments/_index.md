@@ -8,7 +8,7 @@ weight: 12
 url: /hu/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
 ## Bevezetés
-Üdvözöljük átfogó oktatóanyagunkban a diakommentárok Aspose.Slides for .NET használatával történő megjelenítéséről! Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak PowerPoint prezentációkkal .NET-alkalmazásaikban. Ebben az útmutatóban egy konkrét feladatra összpontosítunk – a dia megjegyzéseinek megjelenítésére –, és lépésről lépésre végigvezetjük a folyamaton.
+Üdvözöljük átfogó oktatóanyagunkban a diakommentárok megjelenítéséről az Aspose.Slides for .NET használatával! Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak PowerPoint prezentációkkal .NET-alkalmazásaikban. Ebben az útmutatóban egy konkrét feladatra összpontosítunk – a diák megjegyzéseinek megjelenítésére –, és lépésről lépésre végigvezetjük a folyamaton.
 ## Előfeltételek
 Mielőtt belevetnénk magunkat az oktatóanyagba, győződjön meg arról, hogy a helyén van a következők:
 -  Aspose.Slides for .NET Library: Győződjön meg arról, hogy a fejlesztői környezetében telepítve van az Aspose.Slides for .NET könyvtár. Ha még nem tette meg, letöltheti[itt](https://releases.aspose.com/slides/net/).
@@ -85,4 +85,4 @@ V: Abszolút! Az oktatóanyag tartalmazza a megjegyzésterület színének, szé
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
  V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kérhetek segítséget és támogatást az Aspose.Slides-hez?
-V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért.
+ V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért.

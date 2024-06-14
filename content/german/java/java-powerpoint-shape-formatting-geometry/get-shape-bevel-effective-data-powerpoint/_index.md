@@ -19,7 +19,7 @@ Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt:
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Dokumentverzeichnis einrichten
 Geben Sie den Pfad zu Ihrem Dokumentverzeichnis an, in dem sich die PowerPoint-Präsentation befindet:

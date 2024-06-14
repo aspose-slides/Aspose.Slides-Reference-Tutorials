@@ -20,7 +20,7 @@ Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő e
 
 2.  Aspose.Slides for Java: Töltse le és telepítse az Aspose.Slides for Java könyvtárat a[letöltési link](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Prezentáció készítése
+## 1. lépés: Prezentáció létrehozása
 
 A kezdéshez hozzunk létre egy új prezentációt az Aspose.Slides for Java használatával:
 

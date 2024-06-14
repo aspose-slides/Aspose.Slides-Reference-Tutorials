@@ -21,7 +21,7 @@ url: /th/java/chart-creation/radar-chart-creating-java-slides/
 เริ่มต้นด้วยการตั้งค่างานนำเสนอ PowerPoint ใหม่และเพิ่มสไลด์ลงไป
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## กรอกซอร์สโค้ดสำหรับการสร้างแผนภูมิเรดาร์ใน Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// กำลังเพิ่มซีรีส์ใหม่
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//กำลังเติมข้อมูลซีรีส์
+	// กำลังเติมข้อมูลซีรีส์
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// ตั้งค่าสีของซีรีย์
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// กำลังเติมข้อมูลชุดอื่น
+	//กำลังเติมข้อมูลชุดอื่น
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### ฉันจะบันทึกแผนภูมิเป็นรูปแบบไฟล์อื่นได้อย่างไร
 
- คุณสามารถเปลี่ยนรูปแบบเอาต์พุตได้โดยแก้ไขนามสกุลไฟล์ในรูปแบบ`outPath` ตัวแปรและการใช้ให้เหมาะสม`SaveFormat` - ตัวอย่างเช่น หากต้องการบันทึกเป็น PDF ให้ใช้`SaveFormat.Pdf`.
+คุณสามารถเปลี่ยนรูปแบบเอาต์พุตได้โดยแก้ไขนามสกุลไฟล์ในรูปแบบ`outPath` ตัวแปรและการใช้ให้เหมาะสม`SaveFormat` - ตัวอย่างเช่น หากต้องการบันทึกเป็น PDF ให้ใช้`SaveFormat.Pdf`.

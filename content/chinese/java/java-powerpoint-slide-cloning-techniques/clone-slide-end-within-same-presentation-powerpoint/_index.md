@@ -16,12 +16,12 @@ url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-sa
 3. 您选择的 IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。
 4. 对 Java 编程有基本的了解。
 ## 导入包
-首先，您需要将 Aspose.Slides for Java 所需的软件包导入到您的项目中。此步骤至关重要，因为它包括演示操作所需的库和类。
+首先，您需要将 Aspose.Slides for Java 所需的包导入到您的项目中。此步骤至关重要，因为它包括演示操作所需的库和类。
 ```java
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置你的项目
 首先，在您喜欢的 IDE 中设置您的 Java 项目，并将 Aspose.Slides 库包含在您的项目依赖项中。

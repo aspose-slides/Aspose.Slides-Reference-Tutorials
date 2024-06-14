@@ -12,13 +12,13 @@ Dodanie ramki obiektu OLE (łączenie i osadzanie obiektów) do prezentacji prog
 ### Warunki wstępne
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 1. Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK).
-2. Aspose.Slides dla Java: Pobierz i zainstaluj Aspose.Slides dla Java ze strony internetowej[Tutaj](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides dla Java: Pobierz i zainstaluj Aspose.Slides dla Java ze strony internetowej[Tutaj](https://releases.aspose.com/slides/java/).
 3. Podstawowa wiedza na temat programowania w języku Java: Zapoznaj się z koncepcjami i składnią programowania w języku Java.
 ## Importuj pakiety
 Po pierwsze, musisz zaimportować niezbędne pakiety, aby wykorzystać funkcjonalność Aspose.Slides dla Java. Oto jak możesz to zrobić:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Upewnij się, że Twój projekt jest poprawnie skonfigurowany, a biblioteka Aspo
 Utwórz obiekt prezentacji reprezentujący plik programu PowerPoint, z którym pracujesz:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Klasa prezentacji natychmiastowej reprezentująca PPTX
 Presentation pres = new Presentation();
 ```
@@ -67,7 +67,7 @@ pres.save(outPath + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Wniosek
-Gratulacje! Pomyślnie nauczyłeś się, jak dodawać ramkę obiektu OLE do prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Ta zaawansowana funkcja umożliwia osadzanie różnego rodzaju obiektów, zwiększając interaktywność i atrakcyjność wizualną slajdów.
+Gratulacje! Pomyślnie nauczyłeś się dodawać ramkę obiektu OLE do prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Ta zaawansowana funkcja umożliwia osadzanie różnego rodzaju obiektów, zwiększając interaktywność i atrakcyjność wizualną slajdów.
 
 ## Często zadawane pytania
 ### Czy mogę osadzać obiekty inne niż pliki Excel przy użyciu Aspose.Slides for Java?

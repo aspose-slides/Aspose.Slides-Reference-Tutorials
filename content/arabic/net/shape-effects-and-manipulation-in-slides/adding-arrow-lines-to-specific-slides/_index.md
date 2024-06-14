@@ -1,6 +1,6 @@
 ---
-title: إضافة خطوط على شكل سهم إلى شرائح محددة باستخدام Aspose.Slides
-linktitle: إضافة خطوط على شكل سهم إلى شرائح محددة باستخدام Aspose.Slides
+title: إضافة خطوط على شكل سهم إلى شرائح معينة باستخدام Aspose.Slides
+linktitle: إضافة خطوط على شكل سهم إلى شرائح معينة باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين عروضك التقديمية بخطوط على شكل سهم باستخدام Aspose.Slides for .NET. تعلم كيفية إضافة العناصر المرئية ديناميكيًا لتأسر جمهورك.
 type: docs
@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation())
 ### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides؟
  ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني العثور على الدعم لـ Aspose.Slides؟
-ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
+ ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني شراء Aspose.Slides لـ .NET؟

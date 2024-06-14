@@ -10,7 +10,7 @@ url: /ko/net/presentation-conversion/password-protect-presentations-convert-to-p
 
 오늘날의 디지털 시대에는 민감한 프레젠테이션을 보호하는 것이 무엇보다 중요합니다. PowerPoint 프레젠테이션의 기밀성을 보장하는 효과적인 방법 중 하나는 프레젠테이션을 암호로 보호된 PDF로 변환하는 것입니다. .NET용 Aspose.Slides를 사용하면 이를 원활하게 수행할 수 있습니다. 이 종합 가이드에서는 Aspose.Slides for .NET API를 사용하여 프레젠테이션을 비밀번호로 보호된 PDF로 변환하는 과정을 안내합니다. 이 튜토리얼을 마치면 프레젠테이션을 쉽게 보호할 수 있는 지식과 도구를 갖추게 될 것입니다.
 
-## 전제조건
+## 전제 조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

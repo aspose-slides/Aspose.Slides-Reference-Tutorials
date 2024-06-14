@@ -14,7 +14,7 @@ Ve světě vývoje .NET je Aspose.Slides výkonná a všestranná knihovna, kter
 
 Než se ponoříme do licenčního procesu, měli byste mít splněny následující předpoklady:
 
-1.  Aspose.Slides for .NET: Ujistěte se, že jste ve svém vývojovém prostředí nainstalovali Aspose.Slides for .NET. Knihovnu si můžete stáhnout z[odkaz ke stažení](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Ujistěte se, že jste ve svém vývojovém prostředí nainstalovali Aspose.Slides for .NET. Knihovnu si můžete stáhnout z[odkaz ke stažení](https://releases.aspose.com/slides/net/).
 
 2.  Licenční soubor: Získejte platný licenční soubor Aspose.Slides, obvykle pojmenovaný "Aspose.Slides.lic." Licence můžete získat od[Aspose webové stránky](https://purchase.aspose.com/buy) nebo požádat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
 
@@ -30,7 +30,7 @@ Chcete-li pracovat s Aspose.Slides ve vaší aplikaci .NET, musíte importovat p
 using Aspose.Slides;
 ```
 
-importovaným jmenným prostorem můžete ve své aplikaci začít využívat sílu Aspose.Slides.
+S importovaným jmenným prostorem můžete ve své aplikaci začít využívat sílu Aspose.Slides.
 
 ## Inicializace licence
 
@@ -58,7 +58,7 @@ Po nastavení cesty k licenčnímu souboru je nezbytné se ujistit, že je vaše
 
 ### Krok 4: Ověření licence
 
-Chcete-li zkontrolovat, zda je vaše licence platná, použijte`IsLicensed` metoda. Vrací logickou hodnotu označující, zda je vaše licence aktivní.
+ Chcete-li zkontrolovat, zda je vaše licence platná, použijte`IsLicensed` metoda. Vrací logickou hodnotu označující, zda je vaše licence aktivní.
 
 ```csharp
 if (license.IsLicensed())

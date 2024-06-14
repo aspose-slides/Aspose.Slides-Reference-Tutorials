@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 string resultPath = Path.Combine(dataDir, "GeometryShapeCompositeObjects.pptx");
 ```
-I det här steget initierar vi miljön genom att ställa in katalogen och resultatsökvägen för vår presentation.
+det här steget initierar vi miljön genom att ställa in katalogen och resultatsökvägen för vår presentation.
 ## Steg 2: Skapa en presentation och en geometrisk form
 ```csharp
 using (Presentation pres = new Presentation())

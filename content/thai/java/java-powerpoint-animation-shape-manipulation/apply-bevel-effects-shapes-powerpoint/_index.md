@@ -11,7 +11,7 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 การสร้างงานนำเสนอที่ดึงดูดสายตาถือเป็นสิ่งสำคัญในการดึงดูดความสนใจของผู้ชม การเพิ่มเอฟเฟ็กต์เอียงให้กับรูปร่างสามารถเสริมความสวยงามโดยรวมของสไลด์ได้ ทำให้งานนำเสนอของคุณโดดเด่น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการใช้เอฟเฟกต์มุมเอียงกับรูปร่างใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่ต้องการสร้างงานนำเสนอแบบอัตโนมัติหรือเพียงผู้ที่รักการปรับแต่งการออกแบบ คู่มือนี้ก็ครอบคลุมทุกอย่างแล้ว
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
--  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides สำหรับ Java Library: ดาวน์โหลดไลบรารีจาก[Aspose.Slides สำหรับ Java](https://releases.aspose.com/slides/java/).
 - IDE (สภาพแวดล้อมการพัฒนาแบบรวม): ใช้ IDE ใดก็ได้ที่คุณเลือก เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
 -  Aspose License: หากต้องการใช้ Aspose.Slides โดยไม่มีข้อจำกัด ให้ขอรับใบอนุญาตจาก[กำหนดให้จัดซื้อ](https://purchase.aspose.com/buy) หรือได้รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) สำหรับการประเมินผล
@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นสำหรับการทำงานกับ Aspose.Slides ในโปรเจ็กต์ Java ของคุณ ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ

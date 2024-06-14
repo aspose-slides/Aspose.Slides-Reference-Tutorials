@@ -75,7 +75,7 @@ Vous avez maintenant modifié avec succès les données du graphique dans un cla
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ Dans ce guide complet, nous avons exploré comment modifier les données d'un gr
 
 ### Comment puis-je spécifier un autre graphique ou une autre diapositive ?
 
- Pour accéder à un autre graphique ou diapositive, modifiez l'index approprié dans le`getSlides().get_Item()` et`getShapes().get_Item()` méthodes. N'oubliez pas que l'indexation commence à 0.
+ Pour accéder à un autre graphique ou diapositive, modifiez l'index approprié dans le`getSlides().get_Item()` et`getShapes().get_Item()`méthodes. N'oubliez pas que l'indexation commence à 0.
 
 ### Puis-je modifier les données de plusieurs graphiques au sein de la même présentation ?
 

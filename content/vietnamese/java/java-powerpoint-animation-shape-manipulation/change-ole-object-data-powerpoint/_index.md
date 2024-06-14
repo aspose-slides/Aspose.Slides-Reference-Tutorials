@@ -15,14 +15,14 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần th
 2.  Aspose.Slides for Java: Tải xuống phiên bản mới nhất từ[Trang tải xuống Aspose.Slides](https://releases.aspose.com/slides/java/).
 3. Môi trường phát triển tích hợp (IDE): Bạn có thể sử dụng bất kỳ IDE Java nào như IntelliJ IDEA, Eclipse hoặc NetBeans.
 4.  Aspose.Cells for Java: Điều này là cần thiết để sửa đổi dữ liệu được nhúng trong đối tượng OLE. Tải xuống từ[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. Tệp bản trình bày: Chuẩn bị sẵn tệp PowerPoint với đối tượng OLE được nhúng. Đối với hướng dẫn này, hãy đặt tên cho nó`ChangeOLEObjectData.pptx`.
+5.  Tệp bản trình bày: Chuẩn bị sẵn tệp PowerPoint với đối tượng OLE được nhúng. Đối với hướng dẫn này, hãy đặt tên cho nó`ChangeOLEObjectData.pptx`.
 ## Gói nhập khẩu
 Trước tiên, hãy nhập các gói cần thiết vào dự án Java của bạn.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

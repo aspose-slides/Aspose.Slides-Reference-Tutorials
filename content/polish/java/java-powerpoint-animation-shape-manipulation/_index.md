@@ -10,15 +10,15 @@ url: /pl/java/java-powerpoint-animation-shape-manipulation/
 
 ## Wstęp
 
-Prezentacje programu PowerPoint mogą zmienić zasady gry w każdym projekcie, niezależnie od tego, czy jest to prezentacja biznesowa, sesja edukacyjna, czy kreatywny pokaz. Dzięki GroupDocs.Slides dla Java masz możliwość ulepszania swoich slajdów jak nigdy dotąd. W tym artykule szczegółowo opisano różne samouczki, które pomogą Ci animować kształty i manipulować nimi w programie PowerPoint przy użyciu tej solidnej biblioteki.
+Prezentacje programu PowerPoint mogą zmienić zasady gry w każdym projekcie, niezależnie od tego, czy jest to prezentacja biznesowa, sesja edukacyjna, czy kreatywny pokaz. Dzięki GroupDocs.Slides for Java masz możliwość ulepszania swoich slajdów jak nigdy dotąd. W tym artykule szczegółowo opisano różne samouczki, które pomogą Ci animować kształty i manipulować nimi w programie PowerPoint przy użyciu tej solidnej biblioteki.
 
 ## Dodawaj animacje do kształtów w programie PowerPoint
 
- Animacje mogą sprawić, że Twoje prezentacje będą bardziej wciągające i dynamiczne. Korzystając z GroupDocs.Slides for Java, możesz łatwo dodawać animacje do kształtów, nadając swoim slajdom dodatkową przewagę. Samouczek krok po kroku[Dodawaj animacje do kształtów w programie PowerPoint](./add-animations-to-shapes-powerpoint/) przeprowadzi Cię przez cały proces, dzięki czemu możesz bez wysiłku tworzyć urzekające prezentacje.
+Animacje mogą sprawić, że Twoje prezentacje będą bardziej wciągające i dynamiczne. Korzystając z GroupDocs.Slides for Java, możesz łatwo dodawać animacje do kształtów, nadając swoim slajdom dodatkową przewagę. Samouczek krok po kroku[Dodawaj animacje do kształtów w programie PowerPoint](./add-animations-to-shapes-powerpoint/) przeprowadzi Cię przez cały proces, dzięki czemu możesz bez wysiłku tworzyć urzekające prezentacje.
 
 ## Kształty docelowe dla animacji w programie PowerPoint
 
- Skoncentrowanie animacji na konkretnych kształtach może pomóc podkreślić kluczowe punkty i utrzymać uwagę publiczności. Poradnik[Kształty docelowe dla animacji w programie PowerPoint](./target-shapes-for-animation-powerpoint/)jest idealny do nauki wskazywania kształtów, które chcesz animować. Dzięki temu Twoje prezentacje będą nie tylko informacyjne, ale także atrakcyjne wizualnie.
+ Skoncentrowanie animacji na konkretnych kształtach może pomóc podkreślić kluczowe punkty i utrzymać uwagę publiczności. Poradnik[Kształty docelowe dla animacji w programie PowerPoint](./target-shapes-for-animation-powerpoint/) jest idealny do nauki wskazywania kształtów, które chcesz animować. Dzięki temu Twoje prezentacje będą nie tylko informacyjne, ale także atrakcyjne wizualnie.
 
 ## Zastosuj efekt obrotu 3D na kształtach w programie PowerPoint
 
@@ -26,7 +26,7 @@ Prezentacje programu PowerPoint mogą zmienić zasady gry w każdym projekcie, n
 
 ## Zastosuj efekty skosu na kształtach w programie PowerPoint
 
- Efekty skosu mogą dodać głębi i wymiaru Twoim kształtom, czyniąc je wyjątkowymi. Niezależnie od tego, czy zależy Ci na subtelnym udoskonaleniu, czy na odważnym stwierdzeniu, efekty skosu są doskonałym wyborem. Dowiedz się, jak je zastosować, korzystając z samouczka[Zastosuj efekty skosu na kształtach w programie PowerPoint](./apply-bevel-effects-shapes-powerpoint/).
+Efekty skosu mogą dodać głębi i wymiaru Twoim kształtom, czyniąc je wyjątkowymi. Niezależnie od tego, czy zależy Ci na subtelnym udoskonaleniu, czy na odważnym stwierdzeniu, efekty skosu są doskonałym wyborem. Dowiedz się, jak je zastosować, korzystając z samouczka[Zastosuj efekty skosu na kształtach w programie PowerPoint](./apply-bevel-effects-shapes-powerpoint/).
 
 ## Zmień dane obiektu OLE w programie PowerPoint
 
@@ -38,7 +38,7 @@ Prezentacje programu PowerPoint mogą zmienić zasady gry w każdym projekcie, n
 
 ## Klonuj kształty w programie PowerPoint
 
- Klonowanie kształtów może usprawnić pracę, zwłaszcza podczas tworzenia powtarzalnych elementów. Ten poradnik[Klonuj kształty w programie PowerPoint](./clone-shapes-powerpoint/) poprowadzi Cię przez proces, ułatwiając powielanie kształtów i zachowanie spójności w całej prezentacji.
+ Klonowanie kształtów może usprawnić pracę, zwłaszcza podczas tworzenia powtarzalnych elementów. Ten poradnik[Klonuj kształty w programie PowerPoint](./clone-shapes-powerpoint/)poprowadzi Cię przez proces, ułatwiając powielanie kształtów i zachowanie spójności w całej prezentacji.
 
 ## Ustaw kąt linii łączącej w programie PowerPoint
 
@@ -46,7 +46,7 @@ Prezentacje programu PowerPoint mogą zmienić zasady gry w każdym projekcie, n
 
 ## Łącz kształty za pomocą łączników w programie PowerPoint
 
- Łączenie kształtów za pomocą łączników jest niezbędne do tworzenia schematów blokowych i diagramów. Poradnik[Łącz kształty za pomocą łączników w programie PowerPoint](./connect-shapes-using-connectors-powerpoint/)obejmuje podstawy, pomagając początkującym płynnie łączyć kształty.
+ Łączenie kształtów za pomocą łączników jest niezbędne do tworzenia schematów blokowych i diagramów. Poradnik[Łącz kształty za pomocą łączników w programie PowerPoint](./connect-shapes-using-connectors-powerpoint/) obejmuje podstawy, pomagając początkującym płynnie łączyć kształty.
 
 ## Połącz kształty za pomocą witryn połączeń w programie PowerPoint
 
@@ -54,7 +54,7 @@ Prezentacje programu PowerPoint mogą zmienić zasady gry w każdym projekcie, n
 
 ## Zastosuj efekty Duotone na obrazach w programie PowerPoint
 
- Efekty dwutonowe mogą nadać Twoim zdjęciom stylowy, nowoczesny wygląd. Ten poradnik[Zastosuj efekty Duotone na obrazach w programie PowerPoint](./apply-duotone-effects-images-powerpoint/) wyjaśnia, jak zastosować te efekty, aby ulepszyć efekty wizualne prezentacji.
+ Efekty Duotone mogą nadać Twoim zdjęciom stylowy, nowoczesny wygląd. Ten poradnik[Zastosuj efekty Duotone na obrazach w programie PowerPoint](./apply-duotone-effects-images-powerpoint/)wyjaśnia, jak zastosować te efekty, aby ulepszyć efekty wizualne prezentacji.
 
 ## Dodaj osadzoną ramkę wideo w programie PowerPoint
 
@@ -62,7 +62,7 @@ Prezentacje programu PowerPoint mogą zmienić zasady gry w każdym projekcie, n
 
 ## Wyodrębnij dane z osadzonego pliku z obiektu OLE w programie PowerPoint
 
- Zarządzanie osadzonymi danymi plików może mieć kluczowe znaczenie dla zapewnienia aktualności i aktualności prezentacji. Poradnik[Wyodrębnij dane z osadzonego pliku z obiektu OLE w programie PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)omawia, jak efektywnie wyodrębnić te dane, zapewniając, że Twoje prezentacje będą zawsze aktualne.
+ Zarządzanie osadzonymi danymi plików może mieć kluczowe znaczenie dla zapewnienia aktualności i aktualności prezentacji. Poradnik[Wyodrębnij dane z osadzonego pliku z obiektu OLE w programie PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/) omawia, jak efektywnie wyodrębnić te dane, zapewniając, że Twoje prezentacje będą zawsze aktualne.
 ## Samouczki dotyczące animacji i manipulacji kształtami w programie Java PowerPoint
 ### [Dodawaj animacje do kształtów w programie PowerPoint](./add-animations-to-shapes-powerpoint/)
 Dowiedz się, jak dodawać animacje do kształtów w programie PowerPoint przy użyciu Aspose.Slides dla Java, korzystając z tego szczegółowego samouczka. Idealny do tworzenia angażujących prezentacji.
@@ -75,7 +75,7 @@ Dowiedz się, jak zastosować efekty skosu do kształtów w programie PowerPoint
 ### [Zmień dane obiektu OLE w programie PowerPoint](./change-ole-object-data-powerpoint/)
 Dowiedz się, jak zmieniać dane obiektu OLE w programie PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku dotyczący skutecznych i łatwych aktualizacji.
 ### [Zmień kolejność kształtów w programie PowerPoint](./change-shape-order-powerpoint/)
-tego samouczka krok po kroku dowiesz się, jak zmienić kolejność kształtów w programie PowerPoint przy użyciu Aspose.Slides dla języka Java. Zwiększ swoje umiejętności prezentacji bez wysiłku.
+Z tego samouczka krok po kroku dowiesz się, jak zmienić kolejność kształtów w programie PowerPoint przy użyciu Aspose.Slides dla języka Java. Zwiększ swoje umiejętności prezentacji bez wysiłku.
 ### [Klonuj kształty w programie PowerPoint](./clone-shapes-powerpoint/)
 Dowiedz się, jak klonować kształty w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Usprawnij swój przepływ pracy dzięki temu łatwemu do zrozumienia samouczkowi.
 ### [Ustaw kąt linii łączącej w programie PowerPoint](./set-connector-line-angle-powerpoint/)

@@ -2,7 +2,7 @@
 title: Alakítsa át az SVG képobjektumot alakzatcsoporttá a Java diákban
 linktitle: Alakítsa át az SVG képobjektumot alakzatcsoporttá a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan alakíthat át SVG-képeket alakzatcsoportokká a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató kódpéldákkal.
+description: Ismerje meg, hogyan alakíthat át SVG-képeket alakzatcsoportokká a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Útmutató lépésről lépésre kódpéldákkal.
 type: docs
 weight: 13
 url: /hu/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/

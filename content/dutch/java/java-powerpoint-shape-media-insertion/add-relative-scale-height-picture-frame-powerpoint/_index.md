@@ -18,14 +18,14 @@ Zorg ervoor dat u over het volgende beschikt voordat u begint:
 Importeer om te beginnen de benodigde pakketten in uw Java-project:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 ```
 ## Stap 1: Stel uw project in
-Zorg er eerst voor dat u een directory hebt ingesteld voor uw project en dat uw Java-omgeving correct is geconfigureerd.
+Zorg er eerst voor dat u een map hebt ingesteld voor uw project en dat uw Java-omgeving correct is geconfigureerd.
 ## Stap 2: Presentatieobject instantiëren
 Maak een nieuw presentatieobject met Aspose.Slides:
 ```java

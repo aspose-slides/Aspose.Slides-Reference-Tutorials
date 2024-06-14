@@ -81,11 +81,11 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Nadat u de animatie-effecten aan uw diagram heeft toegevoegd, slaat u de gewijzigde presentatie op schijf op.
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 
-Dat is het! Je hebt met succes series in een diagram geanimeerd met Aspose.Slides voor .NET.
+Dat is het! U hebt met succes series in een diagram geanimeerd met Aspose.Slides voor .NET.
 
 ## Conclusie
 

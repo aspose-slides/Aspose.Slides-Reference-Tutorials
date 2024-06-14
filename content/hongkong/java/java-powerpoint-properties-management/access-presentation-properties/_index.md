@@ -21,12 +21,12 @@ url: /zh-hant/java/java-powerpoint-properties-management/access-presentation-pro
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第1步：設定資料目錄
 在深入了解核心功能之前，請設定資料目錄以存取您的簡報檔案：
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## 第 2 步：建立載入選項
 實例化載入選項以配置演示文件的存取方式。在此範例中，我們將存取密碼設為 null 並啟用僅載入文件屬性：

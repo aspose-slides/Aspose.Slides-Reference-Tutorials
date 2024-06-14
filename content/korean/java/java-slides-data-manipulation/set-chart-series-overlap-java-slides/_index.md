@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-chart-series-overlap-java-slides/
 
 이 포괄적인 가이드에서는 강력한 Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 차트 시리즈 중첩을 조작하는 매혹적인 세계를 탐구할 것입니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 튜토리얼을 통해 이 필수 작업을 마스터하는 데 필요한 지식과 소스 코드를 얻을 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

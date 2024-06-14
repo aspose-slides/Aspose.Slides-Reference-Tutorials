@@ -16,7 +16,7 @@ url: /ja/java/presentation-conversion/convert-html-embedding-images-java-slides/
 
 始める前に、以下のものを用意してください。
 
-1. Aspose.Slides for Javaライブラリがインストールされています。ここからダウンロードできます。[ここ](https://downloads.aspose.com/slides/java).
+1.  Aspose.Slides for Javaライブラリがインストールされています。ここからダウンロードできます。[ここ](https://downloads.aspose.com/slides/java).
 
 2. HTML に変換する PowerPoint プレゼンテーション ファイル (PPTX 形式)。
 
@@ -48,7 +48,7 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//HTML5 ドキュメントに画像を保存しないように強制する
+// HTML5 ドキュメントに画像を保存しないように強制する
 options.setEmbedImages(true); //画像を埋め込むにはtrueに設定
 //外部画像のパスを設定する（必要な場合）
 options.setOutputPath("path/to/output/directory/");
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 //ソースプレゼンテーションへのパス
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 //HTML ドキュメントへのパス
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//HTML5 ドキュメントに画像を保存しないように強制する
+	// HTML5 ドキュメントに画像を保存しないように強制する
 	options.setEmbedImages(false);
 	//外部画像のパスを設定する
 	options.setOutputPath(outFilePath);

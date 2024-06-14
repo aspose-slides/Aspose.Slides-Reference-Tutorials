@@ -89,7 +89,7 @@ var newSlide = slides.AddEmptySlide(presentation.LayoutSlides[0]);
 
 ## Mazání snímků
 
-Pokud potřebujete z prezentace odstranit nechtěné snímky, můžete tak učinit následovně:
+Pokud potřebujete z prezentace odstranit nežádoucí snímky, můžete tak učinit následovně:
 
 ```csharp
 // Odeberte konkrétní snímek
@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 Po provedení změn v prezentaci budete chtít změny uložit. Takto můžete uložit upravenou prezentaci:
 
 ```csharp
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -133,4 +133,4 @@ Ano, Aspose.Slides podporuje různé formáty PowerPoint, včetně PPT, PPTX, PP
 
 ### Je Aspose.Slides vhodný pro vytváření prezentací od začátku?
 
-Absolutně! Aspose.Slides umožňuje vytvářet nové prezentace od začátku, přidávat snímky, nastavovat rozvržení a naplňovat je obsahem, čímž poskytuje plnou kontrolu nad procesem vytváření prezentace.
+Absolutně! Aspose.Slides vám umožňuje vytvářet nové prezentace od začátku, přidávat snímky, nastavovat rozvržení a naplňovat je obsahem, čímž poskytuje plnou kontrolu nad procesem vytváření prezentace.

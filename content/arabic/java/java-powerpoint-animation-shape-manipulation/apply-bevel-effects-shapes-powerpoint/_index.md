@@ -11,7 +11,7 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 يعد إنشاء عروض تقديمية جذابة بصريًا أمرًا بالغ الأهمية لجذب انتباه جمهورك والحفاظ عليه. يمكن أن تؤدي إضافة تأثيرات مشطوفة إلى الأشكال إلى تحسين الجماليات العامة لشرائحك، مما يجعل عرضك التقديمي مميزًا. في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق التأثيرات المجسمة المائلة على الأشكال في PowerPoint باستخدام Aspose.Slides for Java. سواء كنت مطورًا يتطلع إلى أتمتة عملية إنشاء العروض التقديمية أو مجرد شخص يحب إجراء تعديلات على التصميم، فإن هذا الدليل يوفر لك كل ما تحتاجه.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
--  Java Development Kit (JDK): تأكد من تثبيت JDK. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): تأكد من تثبيت JDK. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides لمكتبة Java: قم بتنزيل المكتبة من[Aspose.Slides لجافا](https://releases.aspose.com/slides/java/).
 - IDE (بيئة التطوير المتكاملة): استخدم أي IDE من اختيارك، مثل IntelliJ IDEA أو Eclipse أو NetBeans.
 -  ترخيص Aspose: لاستخدام Aspose.Slides دون قيود، احصل على ترخيص من[Aspose الشراء](https://purchase.aspose.com/buy) أو الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) للتقييم.
@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 أولاً، تحتاج إلى استيراد الحزم اللازمة للعمل مع Aspose.Slides في مشروع Java الخاص بك. وإليك كيف يمكنك القيام بذلك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## الخطوة 1: قم بإعداد مشروعك

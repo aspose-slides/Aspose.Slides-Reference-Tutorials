@@ -12,14 +12,14 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/format-join-styles-power
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่มต้น มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมี:
 1.  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของออราเคิล](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides สำหรับ Java Library: คุณต้องดาวน์โหลดและรวม Aspose.Slides สำหรับ Java ในโปรเจ็กต์ของคุณ คุณสามารถรับได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides สำหรับ Java Library: คุณต้องดาวน์โหลดและรวม Aspose.Slides สำหรับ Java ในโปรเจ็กต์ของคุณ คุณสามารถรับได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
 3. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): ใช้ IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans เพื่อเขียนและรันโค้ด Java ของคุณ
 4. ความรู้พื้นฐานของ Java: ความเข้าใจพื้นฐานของการเขียนโปรแกรม Java จะช่วยให้คุณปฏิบัติตามบทช่วยสอน
 ## แพ็คเกจนำเข้า
 ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นสำหรับ Aspose.Slides นี่เป็นสิ่งสำคัญในการเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับการจัดการการนำเสนอของเรา
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 ในขั้นตอนนี้ เราจะกำหนดเส้นทางไดเรกทอรีและตรวจสอบว่ามีอยู่หรือไม่ หากไม่เป็นเช่นนั้น เราจะสร้างไดเร็กทอรีขึ้นมา นี่เป็นวิธีที่เรียบง่ายแต่มีประสิทธิภาพในการจัดระเบียบไฟล์ของคุณ
 ## ขั้นตอนที่ 2: เริ่มต้นการนำเสนอ
- ต่อไป เราจะยกตัวอย่าง`Presentation`คลาสซึ่งแสดงถึงไฟล์ PowerPoint ของเรา นี่คือรากฐานที่เราจะสร้างสไลด์และรูปร่างของเรา
+ ต่อไป เราจะยกตัวอย่าง`Presentation` คลาสซึ่งแสดงถึงไฟล์ PowerPoint ของเรา นี่คือรากฐานที่เราจะสร้างสไลด์และรูปร่างของเรา
 ```java
 Presentation pres = new Presentation();
 ```

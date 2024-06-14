@@ -70,6 +70,6 @@ R: Certamente! Aspose.Slides for .NET suporta preenchimento gradiente para vári
 ### P: Existe uma avaliação gratuita disponível para Aspose.Slides for .NET?
  R: Sim, você pode acessar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 ### P: Como posso obter suporte para Aspose.Slides for .NET?
-R: Procure assistência e envolva-se com a comunidade no[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ R: Procure assistência e envolva-se com a comunidade no[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### P: Posso adquirir uma licença temporária do Aspose.Slides for .NET?
  R: Certamente, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

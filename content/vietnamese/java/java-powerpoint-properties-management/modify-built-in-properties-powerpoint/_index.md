@@ -20,7 +20,7 @@ Trong dự án Java của bạn, hãy nhập các lớp Aspose.Slides cần thi�
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập môi trường
 Xác định đường dẫn đến thư mục chứa file PowerPoint của bạn:

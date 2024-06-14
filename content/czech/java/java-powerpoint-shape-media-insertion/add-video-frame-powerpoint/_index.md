@@ -8,7 +8,7 @@ weight: 17
 url: /cs/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
 ## Úvod
-tomto tutoriálu vás provedeme procesem přidání rámečku videa do prezentace PowerPoint pomocí Aspose.Slides for Java. Budete-li se řídit těmito podrobnými pokyny, budete moci bez problémů integrovat videoobsah do svých prezentací.
+V tomto tutoriálu vás provedeme procesem přidání rámečku videa do prezentace PowerPoint pomocí Aspose.Slides for Java. Budete-li se řídit těmito podrobnými pokyny, budete moci bez problémů integrovat videoobsah do svých prezentací.
 ## Předpoklady
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 - Java Development Kit (JDK) nainstalovaný ve vašem systému
@@ -17,7 +17,7 @@ Než začnete, ujistěte se, že máte splněny následující předpoklady:
 Nejprve musíte importovat potřebné balíčky, abyste mohli využívat funkce Aspose.Slides ve vašem kódu Java. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Krok 1: Nastavte adresář dokumentů

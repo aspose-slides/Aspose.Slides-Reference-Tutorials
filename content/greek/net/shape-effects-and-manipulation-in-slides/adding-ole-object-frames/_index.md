@@ -65,7 +65,7 @@ IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx
 IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
     pres.SlideSize.Size.Height, dataInfo);
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 ```csharp
 // Γράψτε το PPTX στο δίσκο
 pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
@@ -83,4 +83,4 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ### Ε: Μπορώ να προσαρμόσω την εμφάνιση του ενσωματωμένου πλαισίου αντικειμένου OLE;
 Α: Οπωσδήποτε, μπορείτε να προσαρμόσετε το μέγεθος, τη θέση και άλλες ιδιότητες του πλαισίου αντικειμένου OLE σύμφωνα με τις προτιμήσεις σας.
 ### Ε: Πού μπορώ να αναζητήσω βοήθεια εάν αντιμετωπίσω προκλήσεις κατά την εφαρμογή;
-Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και καθοδήγηση.
+ Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και καθοδήγηση.

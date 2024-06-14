@@ -2,7 +2,7 @@
 title: Konversi Gambar Penyematan HTML di Slide Java
 linktitle: Konversi Gambar Penyematan HTML di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
-description: Konversi PowerPoint ke HTML dengan Gambar Tertanam. Panduan langkah demi langkah menggunakan Aspose.Slides untuk Java. Pelajari cara mengotomatiskan konversi presentasi di Java dengan mudah.
+description: Konversi PowerPoint ke HTML dengan Gambar Tersemat. Panduan langkah demi langkah menggunakan Aspose.Slides untuk Java. Pelajari cara mengotomatiskan konversi presentasi di Java dengan mudah.
 type: docs
 weight: 11
 url: /id/java/presentation-conversion/convert-html-embedding-images-java-slides/
@@ -48,9 +48,9 @@ Sekarang, Anda akan mengonfigurasi opsi konversi HTML. Dalam contoh ini, kita ak
 
 ```java
 Html5Options options = new Html5Options();
-//Paksa jangan simpan gambar dalam dokumen HTML5
+// Paksa jangan simpan gambar dalam dokumen HTML5
 options.setEmbedImages(true); // Setel ke true untuk menyematkan gambar
-// Tetapkan jalur untuk gambar eksternal (jika diperlukan)
+//Tetapkan jalur untuk gambar eksternal (jika diperlukan)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Jalur menuju presentasi sumber
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Jalur ke dokumen HTML
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Paksa jangan simpan gambar dalam dokumen HTML5
+	// Paksa jangan simpan gambar dalam dokumen HTML5
 	options.setEmbedImages(false);
 	// Tetapkan jalur untuk gambar eksternal
 	options.setOutputPath(outFilePath);

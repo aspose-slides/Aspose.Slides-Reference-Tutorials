@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Βήμα 1: Ρυθμίστε το Περιβάλλον
@@ -38,7 +38,7 @@ if (!isExists)
 // Δημιουργήστε ένα αντικείμενο παρουσίασης
 Presentation pres = new Presentation();
 ```
-## Βήμα 3: Ορισμός Προστασίας με κωδικό πρόσβασης
+## Βήμα 3: Ορισμός προστασίας κωδικού πρόσβασης
  Ορίστε έναν κωδικό πρόσβασης για την παρουσίαση χρησιμοποιώντας το`encrypt` μέθοδος για`ProtectionManager`.
 ```java
 // Ρύθμιση κωδικού πρόσβασης

@@ -96,7 +96,7 @@ In questo passaggio configuriamo il salvataggio dell'output personalizzato, eseg
 
 ```java
 	// Percorso alla presentazione dell'origine
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Crea opzioni di conversione
@@ -109,7 +109,7 @@ In questo passaggio configuriamo il salvataggio dell'output personalizzato, eseg
 		pres.save(xamlOptions);
 		// Salva i file XAML in una directory di output
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Kecualikan font presentasi default seperti Calibri dan Arial
+    // Kecualikan font presentasi default seperti Calibri dan Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ Dalam cuplikan kode ini:
 
 -  Kami memuat input presentasi PowerPoint menggunakan`Presentation`.
 
-- Kami mendefinisikan daftar font (`fontNameExcludeList`) yang ingin kami kecualikan dari penyematan di HTML. Ini berguna untuk mengecualikan font umum seperti Calibri dan Arial guna mengurangi ukuran file.
+- Kami mendefinisikan daftar font (`fontNameExcludeList`yang ingin kami kecualikan dari penyematan di HTML. Ini berguna untuk mengecualikan font umum seperti Calibri dan Arial guna mengurangi ukuran file.
 
 -  Kami membuat sebuah instance dari`EmbedAllFontsHtmlController` dan meneruskan daftar pengecualian font ke sana.
 
@@ -98,7 +98,7 @@ Dalam tutorial ini, Anda telah mempelajari cara mengonversi presentasi PowerPoin
 
 ### Bagaimana cara mengunduh Aspose.Slides untuk Java?
 
-Anda dapat mengunduh Aspose.Slides untuk Java dari situs web Aspose. Mengunjungi[Di Sini](https://downloads.aspose.com/slides/java/) untuk mendapatkan versi terbaru.
+ Anda dapat mengunduh Aspose.Slides untuk Java dari situs web Aspose. Mengunjungi[Di Sini](https://downloads.aspose.com/slides/java/) untuk mendapatkan versi terbaru.
 
 ### Bisakah saya menyesuaikan daftar font yang dikecualikan?
 

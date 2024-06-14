@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Teljes forráskód a Java Slides PDF-kompatibilis konvertálásához
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -85,19 +85,19 @@ Ebben az oktatóanyagban megtanultuk, hogyan alakíthat át PowerPoint-prezentá
 
 ## Mi a PDF/A-2a megfelelőség?
 
-A PDF/A-2a a PDF-fájlok megfelelőségi szintje. Szabványokat határoz meg az elektronikus dokumentumok hosszú távú archiválására. Ennek az oktatóanyagnak a keretében a PDF-megfelelőség PDF/A-2a beállításával biztosítja, hogy az eredményül kapott PDF-fájl megfeleljen ezeknek a szabványoknak, így alkalmassá válik a hosszú távú tárolásra és hozzáférhetőségre.
+PDF/A-2a a PDF-fájlok megfelelőségi szintje. Szabványokat határoz meg az elektronikus dokumentumok hosszú távú archiválására. Ennek az oktatóanyagnak a keretében a PDF-megfelelőség PDF/A-2a beállításával biztosítja, hogy az eredményül kapott PDF-fájl megfeleljen ezeknek a szabványoknak, így alkalmassá válik a hosszú távú tárolásra és hozzáférhetőségre.
 
 ## Miért használjam a PDF/A-2a megfelelőséget?
 
-PDF/A-2a megfelelőség használata elengedhetetlen, ha hosszú távon kell archiválnia az elektronikus dokumentumokat. Garantálja, hogy a PDF-fájl idővel megőrzi vizuális integritását és hozzáférhetőségét. Ez a megfelelőségi szint különösen fontos az olyan iparágakban, mint a jogi, a kormányzat és az egészségügy, ahol a dokumentumok megőrzése kritikus fontosságú.
+A PDF/A-2a megfelelőség használata elengedhetetlen, ha hosszú távon kell archiválnia az elektronikus dokumentumokat. Garantálja, hogy a PDF-fájl idővel megőrzi vizuális integritását és hozzáférhetőségét. Ez a megfelelőségi szint különösen fontos az olyan iparágakban, mint a jogi, a kormányzat és az egészségügy, ahol a dokumentumok megőrzése kritikus fontosságú.
 
 ## Módosíthatom a PDF megfelelőségi szintjét a PDF/A-2a-tól eltérőre?
 
- Igen, az Aspose.Slides for Java rugalmasságot biztosít a PDF megfelelőségi szint kiválasztásában. A megadott kódban módosíthatja a megfelelőségi szintet a`pdfOptions.setCompliance()` vonal. Választhat más megfelelőségi szinteket is, például PDF/A-1a, PDF/A-1b, PDF/A-3a stb., az Ön speciális követelményeitől függően.
+ Igen, az Aspose.Slides for Java rugalmasságot biztosít a PDF megfelelőségi szint kiválasztásában. A megadott kódban módosíthatja a megfelelőségi szintet a`pdfOptions.setCompliance()`vonal. Választhat más megfelelőségi szinteket is, például PDF/A-1a, PDF/A-1b, PDF/A-3a stb., az Ön speciális követelményeitől függően.
 
 ## Mi a különbség a PDF/A-2a és a többi megfelelőségi szint között?
 
-PDF/A-2a funkciókban gazdagabb a korábbi megfelelőségi szintekhez képest. Támogatja az olyan funkciókat, mint a rétegek, az átlátszóság és az OpenType betűtípusok, így a dokumentumok szélesebb körére alkalmas. Ha azonban szervezete vagy projektje bizonyos szabványok szigorúbb betartását követeli meg, választhat más megfelelőségi szintet, például a PDF/A-1a-t, amely kevesebb funkcióval rendelkezik, de nagyon megbízható a hosszú távú archiváláshoz.
+A PDF/A-2a funkciókban gazdagabb a korábbi megfelelőségi szintekhez képest. Támogatja az olyan funkciókat, mint a rétegek, az átlátszóság és az OpenType betűtípusok, így a dokumentumok szélesebb körére alkalmas. Ha azonban szervezete vagy projektje bizonyos szabványok szigorúbb betartását követeli meg, választhat más megfelelőségi szintet, például a PDF/A-1a-t, amely kevesebb funkcióval rendelkezik, de nagyon megbízható a hosszú távú archiváláshoz.
 
 ## Vannak korlátozások a PDF/A-2a megfelelőség használatára vonatkozóan?
 
@@ -113,4 +113,4 @@ Igen, általában érvényes licencre van szüksége az Aspose.Slides for Java s
 
 ## Hol találhatok további információt az Aspose.Slides for Java és PDF megfelelőségről?
 
- Az Aspose.Slides for Java programról és szolgáltatásairól, beleértve a PDF-megfelelőségi beállításokat is, tekintse meg a következő dokumentumot.[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/)Ezenkívül felfedezhet kódpéldákat és oktatóanyagokat, hogy tovább bővítse a könyvtárral kapcsolatos ismereteit.
+ Az Aspose.Slides for Java programról és szolgáltatásairól, beleértve a PDF-megfelelőségi beállításokat is, tekintse meg a következő dokumentumot.[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/). Ezenkívül felfedezhet kódpéldákat és oktatóanyagokat, hogy tovább bővítse a könyvtárral kapcsolatos ismereteit.

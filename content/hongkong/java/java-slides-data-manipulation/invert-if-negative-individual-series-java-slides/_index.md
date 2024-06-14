@@ -114,7 +114,7 @@ finally
 
 ### Aspose.Slides for Java 中「Invert If Negative」功能的目的為何？
 
-Aspose.Slides for Java 中的「Invert If Negative」功能可讓您直觀地區分圖表中的負資料點。透過突出顯示特定數據點，它有助於使您的簡報內容更加豐富、更具吸引力。
+Aspose.Slides for Java 中的「Invert If Negative」功能可讓您直觀地區分圖表中的負資料點。它透過突出顯示特定數據點，幫助您的簡報內容更加豐富、更具吸引力。
 
 ### 如何在我的 Java 專案中包含 Aspose.Slides 函式庫？
 

@@ -18,7 +18,7 @@ PowerPoint 演示文稿是专业和教育环境中的必备工具。在幻灯片
 首先，让我们导入使用 Aspose.Slides 所需的必要包。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

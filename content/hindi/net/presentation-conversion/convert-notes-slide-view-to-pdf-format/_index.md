@@ -77,4 +77,4 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 आप अतिरिक्त ट्यूटोरियल और उदाहरण देख सकते हैं[.NET API के लिए Aspose.Slides दस्तावेज़](https://reference.aspose.com/slides/net/).
 
-अब जब आपने नोट्स स्लाइड व्यू को सफलतापूर्वक PDF प्रारूप में बदल लिया है, तो आप अपने PowerPoint स्वचालन कार्यों को बढ़ाने के लिए .NET के लिए Aspose.Slides की अधिक सुविधाओं और क्षमताओं का पता लगा सकते हैं। हैप्पी कोडिंग!
+अब जब आपने नोट्स स्लाइड व्यू को सफलतापूर्वक PDF प्रारूप में बदल लिया है, तो आप अपने PowerPoint स्वचालन कार्यों को बढ़ाने के लिए Aspose.Slides for .NET की अधिक सुविधाओं और क्षमताओं का पता लगा सकते हैं। हैप्पी कोडिंग!

@@ -100,5 +100,5 @@ Nếu có bất kỳ câu hỏi nào liên quan đến kỹ thuật hoặc sản
 
 ### 5. Tôi có thể áp dụng những hiệu ứng chuyển tiếp nào khác bằng Aspose.Slides cho .NET?
 
- Aspose.Slides cho .NET cung cấp nhiều hiệu ứng chuyển tiếp, bao gồm làm mờ, đẩy, xóa, v.v. Bạn có thể tìm hiểu tài liệu về[Trang tài liệu Aspose.Slides cho .NET](https://reference.aspose.com/slides/net/) để biết chi tiết về tất cả các loại chuyển tiếp có sẵn.
+ Aspose.Slides for .NET cung cấp nhiều hiệu ứng chuyển tiếp, bao gồm làm mờ, đẩy, xóa, v.v. Bạn có thể tìm hiểu tài liệu về[Trang tài liệu Aspose.Slides cho .NET](https://reference.aspose.com/slides/net/) để biết chi tiết về tất cả các loại chuyển tiếp có sẵn.
 

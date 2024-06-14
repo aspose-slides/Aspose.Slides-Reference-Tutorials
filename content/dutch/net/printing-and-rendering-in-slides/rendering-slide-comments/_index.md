@@ -85,4 +85,4 @@ EEN: Absoluut! De zelfstudie bevat opties om de kleur, breedte en positie van he
 ### Vraag: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Slides?
  A: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik hulp en ondersteuning zoeken voor Aspose.Slides?
-A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapssteun.
+ A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapssteun.

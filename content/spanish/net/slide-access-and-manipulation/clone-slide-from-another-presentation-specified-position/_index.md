@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Una vez que la diapositiva haya sido clonada e insertada en la posición deseada, deberá guardar la presentación de destino modificada. Utilice el siguiente código para guardar la presentación:
 
 ```csharp
-// Guardar la presentación modificada
+//Guardar la presentación modificada
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Inserte la diapositiva clonada en la posición especificada
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Guardar la presentación modificada
+            //Guardar la presentación modificada
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

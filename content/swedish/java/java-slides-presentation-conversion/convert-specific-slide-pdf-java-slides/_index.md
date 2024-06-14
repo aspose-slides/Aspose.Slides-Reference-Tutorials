@@ -16,7 +16,7 @@ I en värld av Java-utveckling är det en vanlig uppgift att arbeta med presenta
 
 Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
 
-1. Aspose.Slides for Java Library: Du måste ha Aspose.Slides for Java-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides for Java Library: Du måste ha Aspose.Slides for Java-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
 
 2. Java-utvecklingsmiljö: Se till att du har en Java-utvecklingsmiljö inställd på ditt system.
 
@@ -52,13 +52,13 @@ I denna kod:
 
 -  Vi skapar en`Presentation` objekt som representerar presentationsfilen.
 
-- Vi definierar en uppsättning bildpositioner som du vill konvertera. I det här exemplet konverterar vi bilder på positionerna 1 och 3. Du kan justera denna array för att välja de specifika bilderna du behöver.
+- Vi definierar en uppsättning bildpositioner som du vill konvertera. I det här exemplet konverterar vi bilder på position 1 och 3. Du kan justera denna array för att välja de specifika bilder du behöver.
 
 - Slutligen sparar vi de valda bilderna som en PDF-fil (`RequiredSelectedSlides_out.pdf`).
 
  Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 
-## Steg 3: Köra koden
+## Steg 3: Kör koden
 
 Kompilera och kör din Java-kod. Om allt är korrekt inställt hittar du PDF-filen som innehåller de specifika bilderna du valde i din dokumentkatalog.
 

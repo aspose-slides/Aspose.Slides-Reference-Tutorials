@@ -83,7 +83,7 @@ Det är allt! Du har skapat ett kartdiagram i en PowerPoint-presentation med Asp
 ## Komplett källkod för kartdiagram i Java Slides
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//skapa ett tomt diagram

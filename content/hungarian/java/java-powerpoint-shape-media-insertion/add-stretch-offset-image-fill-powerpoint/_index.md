@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel
 Kezdésként importálja a szükséges csomagokat a Java projektbe:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

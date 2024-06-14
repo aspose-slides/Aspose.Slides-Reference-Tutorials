@@ -8,7 +8,7 @@ weight: 13
 url: /hu/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
 ## Bevezetés
-Java fejlesztés területén az Aspose.Slides hatékony eszköz a PowerPoint prezentációk programozott kezeléséhez. Java-könyvtárával a fejlesztők automatizálhatják az olyan feladatokat, mint a prezentációk létrehozása, módosítása és konvertálása, így ez felbecsülhetetlen értékű eszköz a vállalkozások és magánszemélyek számára egyaránt. Az Aspose.Slidesben rejlő lehetőségek teljes kihasználása azonban megköveteli a funkcióinak alapos megértését, valamint azt, hogy hogyan lehet azokat hatékonyan integrálni a Java-projektekbe. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk a prezentáció tulajdonságainak frissítését egy új sablon segítségével, így biztosítva, hogy minden fogalmat alaposan megértsen.
+Java fejlesztés területén az Aspose.Slides hatékony eszköz a PowerPoint prezentációk programozott kezeléséhez. Java-könyvtárával a fejlesztők automatizálhatják az olyan feladatokat, mint a prezentációk létrehozása, módosítása és konvertálása, így ez felbecsülhetetlen értékű eszköz a vállalkozások és magánszemélyek számára egyaránt. Az Aspose.Slides teljes potenciáljának kiaknázása azonban megköveteli a funkcióinak alapos megértését, és azt, hogy hogyan integrálhatja azokat hatékonyan Java-projektjeibe. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk a prezentáció tulajdonságainak frissítését egy új sablon segítségével, így biztosítva, hogy alaposan megértse az egyes fogalmakat.
 ## Előfeltételek
 Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 - Java programozási alapismeretek.
@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Határozza meg a fő módszert
 Hozzon létre egy fő módszert, amellyel elindíthatja a prezentáció tulajdonságainak frissítését egy új sablonnal. Ez a módszer a Java-alkalmazás belépési pontjaként szolgál.

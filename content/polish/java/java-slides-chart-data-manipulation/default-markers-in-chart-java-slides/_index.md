@@ -127,13 +127,13 @@ Otóż to! Utworzyłeś wykres liniowy z domyślnymi znacznikami przy użyciu As
 ```
 ## Wniosek
 
-tym obszernym samouczku nauczyłeś się tworzyć slajdy Java z domyślnymi znacznikami na wykresach przy użyciu Aspose.Slides dla Java. Omówiliśmy cały proces, od skonfigurowania prezentacji po dostosowanie wyglądu wykresu i zapisanie wyniku.
+W tym obszernym samouczku nauczyłeś się tworzyć slajdy Java z domyślnymi znacznikami na wykresach przy użyciu Aspose.Slides dla Java. Omówiliśmy cały proces, od skonfigurowania prezentacji po dostosowanie wyglądu wykresu i zapisanie wyniku.
 
 ## Często zadawane pytania
 
 ### Jak mogę zmienić symbole znaczników?
 
- Możesz dostosować symbole znaczników, ustawiając styl znaczników dla każdego punktu danych. Używać`IDataPoint.setMarkerStyle()` aby zmienić symbol znacznika.
+Możesz dostosować symbole znaczników, ustawiając styl znaczników dla każdego punktu danych. Używać`IDataPoint.setMarkerStyle()` aby zmienić symbol znacznika.
 
 ### Jak dostosować kolory wykresu?
 

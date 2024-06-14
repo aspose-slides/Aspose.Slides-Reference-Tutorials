@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: กำหนดวิธีการหลัก
 สร้างวิธีการหลักที่คุณจะเริ่มต้นกระบวนการอัปเดตคุณสมบัติการนำเสนอด้วยเทมเพลตใหม่ เมธอดนี้ทำหน้าที่เป็นจุดเริ่มต้นสำหรับแอปพลิเคชัน Java ของคุณ

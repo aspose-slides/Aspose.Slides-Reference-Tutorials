@@ -20,7 +20,7 @@ Aspose.Slides for Java डेवलपर्स को PowerPoint प्रस�
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: वातावरण सेट करें
 अपनी PowerPoint फ़ाइल वाली निर्देशिका का पथ निर्धारित करें:

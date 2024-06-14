@@ -23,7 +23,7 @@ IntelliJ IDEA、Eclipse、NetBeans などの統合開発環境 (IDE) を使用�
 コードを書く前に、Aspose.Slides から必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 それでは、プロセスを管理しやすいステップに分解してみましょう。各ステップを慎重に実行して、望ましい結果を達成してください。
 ## ステップ1: データディレクトリを設定する

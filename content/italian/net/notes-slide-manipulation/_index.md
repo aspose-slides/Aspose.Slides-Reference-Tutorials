@@ -31,7 +31,7 @@ Che tu stia cercando di ottimizzare la consegna della tua presentazione o di aut
 Resta sintonizzato mentre ci imbarchiamo in questo viaggio per scoprire le possibilità della manipolazione delle diapositive di Notes con Aspose.Slides per .NET. Immergiamoci e padroneggiamo l'arte di migliorare le presentazioni attraverso un'efficace gestione delle note del relatore.
 
 ## Esercitazioni sulla manipolazione delle diapositive di Notes
-### [Note Manipolazione delle diapositive utilizzando Aspose.Slides](./notes-slide-manipulation/)
+### [Manipolazione delle diapositive di Notes utilizzando Aspose.Slides](./notes-slide-manipulation/)
 Scopri come manipolare le diapositive delle note nelle presentazioni PowerPoint utilizzando Aspose.Slides per .NET. Questa guida passo passo illustra l'accesso, l'aggiunta e l'estrazione di contenuto dalle diapositive delle note con esempi di codice sorgente.
 ### [Gestisci intestazione e piè di pagina nella diapositiva delle note](./header-and-footer-in-notes-slide/)
 Scopri come personalizzare intestazione e piè di pagina nelle diapositive delle note utilizzando Aspose.Slides per .NET. Questa guida passo passo fornisce esempi di codice sorgente e illustra l'accesso, la modifica e lo styling degli elementi.

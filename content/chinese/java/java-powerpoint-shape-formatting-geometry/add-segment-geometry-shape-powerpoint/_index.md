@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-sha
 首先，您需要从 Aspose.Slides 导入必要的软件包。这将允许您访问创建和操作 PowerPoint 演示文稿所需的所有功能。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 让我们将向几何形状添加线段的过程分解为详细步骤，以确保清晰且易于理解。
 ## 步骤 1：创建新演示文稿

@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Dopo aver inserito le diapositive aggiuntive, dovresti salvare la presentazione modificata.
 
 ```csharp
-// Salva la presentazione modificata
+//Salva la presentazione modificata
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Sostituire`"path_to_modified_presentation.pptx"` con il percorso e il nome file desiderati per la presentazione modificata.
+ Sostituire`"path_to_modified_presentation.pptx"`con il percorso e il nome file desiderati per la presentazione modificata.
 
 ## Conclusione
 
@@ -98,7 +98,7 @@ Puoi personalizzare il contenuto delle nuove diapositive accedendo alle loro for
 
 ### Cosa succede se voglio inserire delle diapositive all'inizio della presentazione?
 
- Per inserire diapositive all'inizio della presentazione, impostare il file`insertionIndex` A`0`.
+Per inserire diapositive all'inizio della presentazione, impostare il file`insertionIndex` A`0`.
 
 ### E' possibile modificare il layout delle slide inserite?
 

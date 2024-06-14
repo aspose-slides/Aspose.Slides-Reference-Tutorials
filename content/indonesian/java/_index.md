@@ -80,3 +80,27 @@ Pelajari cara menganimasikan dan memanipulasi bentuk di PowerPoint menggunakan A
 Temukan tutorial pemformatan bentuk dan geometri Java PowerPoint. Pelajari cara mengisi bentuk, menemukan bentuk, dan membuat geometri khusus dengan Aspose.Slides untuk Java.
 ### [Teknik Kloning Slide PowerPoint Java](./java-powerpoint-slide-cloning-techniques/)
 Kloning slide master di PowerPoint menggunakan Aspose.Slides untuk Java. Pelajari cara mengkloning slide dalam presentasi yang sama atau di seluruh presentasi dengan lancar.
+### [Manipulasi Kotak Teks Java PowerPoint](./java-powerpoint-text-box-manipulation/)
+Jelajahi tutorial komprehensif untuk manipulasi kotak teks Java PowerPoint dengan Aspose.Slides. Sempurnakan presentasi Anda langkah demi langkah dengan panduan kami.
+### [Manajemen Font Java PowerPoint](./java-powerpoint-font-management/)
+Temukan tutorial manajemen font Java PowerPoint menggunakan Aspose.Slides untuk Java. Pelajari teknik penyematan, kompresi, dan penyesuaian untuk menyempurnakan presentasi.
+### [Animasi dan Efek Java PowerPoint](./java-powerpoint-animation-effects/)
+Kuasai animasi dan efek Java PowerPoint dengan tutorial komprehensif kami. Pelajari cara menambahkan animasi, bayangan luar dan dalam menggunakan Aspose.Slides untuk Java.
+### [Penyelarasan dan Pemformatan Teks Java PowerPoint](./java-powerpoint-text-alignment-formatting/)
+Temukan tutorial penyelarasan dan pemformatan teks Java PowerPoint. Pelajari cara menyelaraskan, memformat, mengekspor, dan menyorot teks menggunakan Aspose.Slides untuk Java. 
+### [Penyorotan Teks Java PowerPoint dan Aturan Penggantian](./java-powerpoint-text-highlighting-fallback-rules/)
+Kuasai penyorotan teks dan aturan penggantian font di Java PowerPoint dengan Aspose.Slides. Ikuti tutorial kami untuk menyempurnakan dan mengotomatiskan presentasi Anda dengan lancar.
+### [Manajemen Teks dan Paragraf Java PowerPoint](./java-powerpoint-text-paragraph-management/)
+Kuasai manajemen teks dan paragraf Java PowerPoint dengan Aspose.Slides. Pelajari cara mengimpor teks HTML, mengatur spasi baris, membuat poin, dan menyelaraskan paragraf.
+### [Manajemen Font Java PowerPoint dan Penggantian Teks](./java-powerpoint-font-management-text-replacement/)
+Kuasai manajemen font Java PowerPoint dan penggantian teks dengan Aspose.Slides. Pelajari cara memuat font khusus, mengelola font yang disematkan, dan mengganti teks dengan lancar.
+### [Paragraf Lanjutan Java PowerPoint dan Properti Font](./java-powerpoint-advanced-paragraph-font-properties/)
+Kuasai properti paragraf dan font tingkat lanjut di Java PowerPoint menggunakan Aspose.Slides. Pelajari cara menyesuaikan font, menambahkan poin gambar, dan menggunakan font cadangan.
+### [Kustomisasi Teks dan Font Java PowerPoint](./java-powerpoint-text-font-customization/)
+Jelajahi tutorial tentang kustomisasi teks dan font Java PowerPoint dengan Aspose.Slides. Pelajari rotasi, penggantian font, dan lainnya untuk menyempurnakan presentasi Anda.
+### [Manipulasi Tabel Java PowerPoint](./java-powerpoint-table-manipulation/)
+Manipulasi tabel Java PowerPoint dengan Aspose.Slides. Pelajari cara menambahkan gambar, memisahkan sel, membuat tabel, dan banyak lagi melalui tutorial langkah demi langkah kami yang mendetail.
+### [Pemformatan dan Pembaruan Tabel Java PowerPoint](./java-powerpoint-table-formatting-updates/)
+Sempurnakan presentasi Java PowerPoint dengan pemformatan tabel dan pembaruan menggunakan Aspose.Slides. Pelajari cara menambahkan batas, memformat teks dalam kolom dan baris & memperbarui tabel.
+### [Manipulasi SmartArt Java PowerPoint](./java-powerpoint-smartart-manipulation/)
+Pelajari cara memanipulasi Java PowerPoint SmartArt secara efektif dengan tutorial GroupDocs.Slides untuk Java. Akses node anak, tambahkan node, ubah tata letak, dan banyak lagi!

@@ -11,7 +11,7 @@ url: /zh-hant/net/printing-and-rendering-in-slides/rendering-emoji-special-chara
 在動態的簡報世界中，傳達情感和特殊字元可以增添創造力和獨特性。 Aspose.Slides for .NET 使開發人員能夠在簡報中無縫渲染表情符號和特殊字符，從而解鎖新的表達維度。在本教程中，我們將探索如何使用 Aspose.Slides 透過逐步指導來實現這一目標。
 ## 先決條件
 在深入學習本教學之前，請確保您具備以下條件：
-- Aspose.Slides for .NET：確保您已安裝該程式庫。你可以下載它[這裡](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：確保您已安裝該程式庫。你可以下載它[這裡](https://releases.aspose.com/slides/net/).
 - 開發環境：在您的電腦上設定一個有效的 .NET 開發環境。
 - 輸入簡報：準備 PowerPoint 文件（`input.pptx`）包含您想要用表情符號豐富的內容。
 - 文檔目錄：為您的文檔建立一個目錄，並將程式碼中的「您的文檔目錄」替換為實際路徑。
@@ -43,7 +43,7 @@ pres.Save(dataDir + "emoji.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
 ## 常見問題解答
 ### 我可以在簡報中使用自訂表情符號嗎？
 Aspose.Slides 支援多種表情符號，包括自訂表情符號。確保您選擇的表情符號與庫相容。
-### 使用 Aspose.Slides 需要授權嗎？
+### 使用 Aspose.Slides 需要許可證嗎？
 是的，您可以獲得許可證[這裡](https://purchase.aspose.com/buy)對於 Aspose.Slides。
 ### 有免費試用嗎？
 是的，探索免費試用[這裡](https://releases.aspose.com/)體驗 Aspose.Slides 的功能。

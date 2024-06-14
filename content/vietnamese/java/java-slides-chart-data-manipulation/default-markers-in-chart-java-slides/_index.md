@@ -133,7 +133,7 @@ Trong hướng dẫn toàn diện này, bạn đã học cách tạo Java Slides
 
 ### Làm cách nào để thay đổi các ký hiệu đánh dấu?
 
- Bạn có thể tùy chỉnh các ký hiệu điểm đánh dấu bằng cách đặt kiểu điểm đánh dấu cho từng điểm dữ liệu. Sử dụng`IDataPoint.setMarkerStyle()` để thay đổi biểu tượng đánh dấu.
+Bạn có thể tùy chỉnh các ký hiệu điểm đánh dấu bằng cách đặt kiểu điểm đánh dấu cho từng điểm dữ liệu. Sử dụng`IDataPoint.setMarkerStyle()` để thay đổi biểu tượng đánh dấu.
 
 ### Làm cách nào để điều chỉnh màu sắc của biểu đồ?
 

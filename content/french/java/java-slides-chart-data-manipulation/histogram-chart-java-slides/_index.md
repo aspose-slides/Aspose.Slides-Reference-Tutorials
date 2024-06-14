@@ -65,7 +65,7 @@ try {
 }
 ```
 
-Dans ce code, nous effaçons d’abord toutes les catégories et séries existantes du graphique. Ensuite, nous ajoutons des points de données à la série en utilisant le`getDataPoints().addDataPointForHistogramSeries` méthode. Enfin, nous définissons le type d'agrégation de l'axe horizontal sur Automatique et enregistrons la présentation.
+ Dans ce code, nous effaçons d’abord toutes les catégories et séries existantes du graphique. Ensuite, nous ajoutons des points de données à la série en utilisant le`getDataPoints().addDataPointForHistogramSeries` méthode. Enfin, nous définissons le type d'agrégation de l'axe horizontal sur Automatique et enregistrons la présentation.
 
 ## Code source complet pour le graphique d'histogramme dans les diapositives Java
 

@@ -14,7 +14,7 @@ url: /zh/java/chart-elements/sunburst-chart-java-slides/
 
 ## 先决条件
 
-开始之前，请确保已在 Java 项目中安装并配置了 Aspose.Slides for Java 库。您可以从以下位置下载该库[这里](https://releases.aspose.com/slides/java/).
+开始之前，请确保已在 Java 项目中安装并配置了 Aspose.Slides for Java 库。您可以从以下网址下载该库[这里](https://releases.aspose.com/slides/java/).
 
 ## 步骤 1：导入所需库
 

@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
-此程式碼片段初始化必要的目錄和文件路徑，打開 PowerPoint 演示文稿，然後將其轉換為 SVG 文件，同時使用`MySvgShapeFormattingController`.
+此程式碼片段初始化必要的目錄和文件路徑，打開 PowerPoint 演示文稿，並將其轉換為 SVG 文件，同時使用`MySvgShapeFormattingController`.
 
 ## 了解 SVG 形狀格式化控制器
 

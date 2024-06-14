@@ -58,7 +58,7 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
 
 ### Következtetés
 
-És megvan! Sikeresen generált egyéni alakazonosítókkal rendelkező SVG-fájlokat az Aspose.Slides for .NET segítségével. Ez a hatékony funkció lehetővé teszi az SVG-kimenet testreszabását az egyedi igényeinek megfelelően.
+És megvan! Sikeresen generált egyéni alakazonosítókkal rendelkező SVG-fájlokat az Aspose.Slides for .NET segítségével. Ez a hatékony funkció lehetővé teszi az SVG-kimenet testreszabását az Ön egyedi igényeinek megfelelően.
 
 ### GYIK
 
@@ -72,7 +72,7 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
    Az Aspose.Slides for .NET kifejezetten .NET-alkalmazásokhoz készült. Az Aspose azonban más platformokhoz és nyelvekhez is biztosít könyvtárakat.
 
 4. ### Vannak korlátai az SVG létrehozásának az Aspose.Slides for .NET segítségével?
-   Míg az Aspose.Slides for .NET hatékony SVG-generálási lehetőségeket kínál, elengedhetetlen, hogy megértsük a könyvtár dokumentációját, hogy maximalizáljuk a benne rejlő lehetőségeket.
+   Míg az Aspose.Slides for .NET hatékony SVG-generálási képességeket kínál, elengedhetetlen, hogy megértsük a könyvtár dokumentációját, hogy maximalizáljuk a benne rejlő lehetőségeket.
 
 5. ### Hol találok további forrásokat és támogatást az Aspose.Slides for .NET-hez?
     További dokumentációért keresse fel a[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).

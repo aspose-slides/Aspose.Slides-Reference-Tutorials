@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## ขั้นตอนที่ 3: ปรับแต่งพื้นหลังสไลด์
 เพิ่มความน่าดึงดูดให้กับสไลด์ของคุณด้วยการปรับแต่งพื้นหลัง ในตัวอย่างนี้ เราตั้งค่าพื้นหลังสีฟ้าทึบสำหรับสไลด์ที่สอง
 ```csharp
-//สร้างพื้นหลังสำหรับสไลด์ที่สอง
+// สร้างพื้นหลังสำหรับสไลด์ที่สอง
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

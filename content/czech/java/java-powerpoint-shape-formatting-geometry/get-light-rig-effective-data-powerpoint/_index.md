@@ -20,7 +20,7 @@ Nejprve si nastavíme náš projekt a naimportujeme potřebné balíčky. Vytvo�
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte adresář projektu
 Začněte nastavením adresáře projektu. Vytvořte složku, do které budete ukládat své soubory Java a prezentaci PowerPoint (`Presentation1.pptx`).
@@ -54,7 +54,7 @@ Nakonec se ujistěte, že jste objekt prezentace zlikvidovali, abyste uvolnili z
 }
 ```
 ## Závěr
-Gratulujeme! Úspěšně jste načetli efektivní data osvětlovací soupravy z prezentace PowerPoint pomocí Aspose.Slides for Java. Tento tutoriál se zabýval základními kroky, od nastavení vašeho projektu až po přístup k vlastnostem světelného zařízení a jejich zobrazení. Aspose.Slides nabízí množství funkcí, které vám mohou pomoci programově manipulovat se soubory PowerPoint, což z něj činí neocenitelný nástroj pro vývojáře.
+Gratulujeme! Úspěšně jste načetli efektivní data osvětlovací soupravy z prezentace PowerPoint pomocí Aspose.Slides for Java. Tento tutoriál se zabýval základními kroky, od nastavení vašeho projektu až po přístup k vlastnostem světelného zařízení a jejich zobrazení. Aspose.Slides nabízí velké množství funkcí, které vám mohou pomoci programově manipulovat se soubory PowerPoint, což z něj činí neocenitelný nástroj pro vývojáře.
 ## FAQ
 ### Co je Aspose.Slides for Java?
 Aspose.Slides for Java je výkonná knihovna pro vytváření, manipulaci a konverzi souborů PowerPoint pomocí Java.

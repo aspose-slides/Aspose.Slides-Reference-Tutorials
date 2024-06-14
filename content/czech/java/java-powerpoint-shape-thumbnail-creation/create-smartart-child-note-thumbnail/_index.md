@@ -12,7 +12,7 @@ V tomto tutoriálu prozkoumáme, jak vytvořit miniatury podřízených poznáme
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující:
 1. Java Development Kit (JDK) nainstalovaný ve vašem systému.
-2. Knihovna Aspose.Slides for Java stažená a nakonfigurovaná ve vašem projektu. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
+2.  Knihovna Aspose.Slides for Java stažená a nakonfigurovaná ve vašem projektu. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
 
 ## Importujte balíčky
 Ujistěte se, že importujete potřebné balíčky do vaší třídy Java:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

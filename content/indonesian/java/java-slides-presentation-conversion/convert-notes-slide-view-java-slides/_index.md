@@ -84,7 +84,7 @@ Dalam tutorial ini, kami telah membahas langkah-langkah penting untuk mengonvers
 
 ### Bagaimana cara menyesuaikan format output saat mengonversi presentasi?
 
- Anda dapat menyesuaikan format keluaran dengan mengubah`SaveFormat` enumerasi dalam kode. Misalnya, untuk menyimpan presentasi sebagai PDF, gunakan`SaveFormat.Pdf`.
+ Anda dapat menyesuaikan format keluaran dengan mengubah`SaveFormat`enumerasi dalam kode. Misalnya, untuk menyimpan presentasi sebagai PDF, gunakan`SaveFormat.Pdf`.
 
 ### Apakah saya perlu membeli lisensi Aspose.Slides untuk Java?
 
@@ -100,4 +100,4 @@ Aspose.Slides dirancang untuk bekerja dengan berbagai format PowerPoint, termasu
 
 ### Di mana saya dapat menemukan lebih banyak contoh kode dan tutorial untuk Aspose.Slides untuk Java?
 
- Anda dapat menemukan banyak contoh kode dan tutorial di[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/). Jelajahi dokumentasi untuk mempelajari lebih lanjut tentang kemampuan perpustakaan canggih ini.
+ Anda dapat menemukan banyak contoh kode dan tutorial di[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/)Jelajahi dokumentasi untuk mempelajari lebih lanjut tentang kemampuan perpustakaan canggih ini.

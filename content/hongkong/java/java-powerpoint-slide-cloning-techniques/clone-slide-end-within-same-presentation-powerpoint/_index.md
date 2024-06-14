@@ -8,7 +8,7 @@ weight: 16
 url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-same-presentation-powerpoint/
 ---
 ## 介紹
-您是否希望透過 Java 提升您的簡報操作技能？ Aspose.Slides for Java 是一個功能強大的程式庫，可讓您輕鬆建立、修改和操作 PowerPoint 簡報。在本綜合指南中，我們將引導您了解如何使用 Aspose.Slides for Java 將投影片複製到相同簡報的結尾。在本教程結束時，您將牢牢掌握如何在自己的專案中使用此功能。讓我們深入了解一下吧！
+您是否希望透過 Java 提升您的簡報操作技能？ Aspose.Slides for Java 是一個功能強大的程式庫，可讓您輕鬆建立、修改和操作 PowerPoint 簡報。在本綜合指南中，我們將引導您了解如何使用 Aspose.Slides for Java 將投影片複製到相同簡報的結尾。在本教程結束時，您將牢牢掌握如何在自己的專案中使用此功能。讓我們深入了解吧！
 ## 先決條件
 在我們開始之前，請確保您具備以下條件：
 1. 您的電腦上安裝了 Java 開發工具包 (JDK)。您可以從[Java網站](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -21,7 +21,7 @@ url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-with
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：設定您的項目
 首先，在您首選的 IDE 中設定 Java 項目，並將 Aspose.Slides 庫包含在專案的依賴項中。
@@ -52,7 +52,7 @@ pres.save(dataDir + "Aspose_CloneWithinSamePresentationToEnd_out.pptx", SaveForm
 if (pres != null) pres.dispose();
 ```
 ## 結論
-現在你就得到它了！透過執行這些步驟，您可以使用 Aspose.Slides for Java 輕鬆地將投影片複製到相同簡報的結尾。這個強大的程式庫使得以程式設計方式處理 PowerPoint 簡報變得輕而易舉。無論您是要自動產生報表還是建立動態簡報工具，Aspose.Slides 都能滿足您的需求。
+現在你就擁有了！透過執行這些步驟，您可以使用 Aspose.Slides for Java 輕鬆地將投影片複製到相同簡報的結尾。這個強大的程式庫使得以程式設計方式處理 PowerPoint 簡報變得輕而易舉。無論您是要自動產生報表還是建立動態簡報工具，Aspose.Slides 都能滿足您的需求。
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.Slides？
 Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以程式設計方式建立、操作和轉換 PowerPoint 簡報。

@@ -96,7 +96,7 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan állíthat be külső munkafüzetet a Java Slides programban az Aspose.Slides segítségével. Mostantól prezentációkat készíthet, amelyek dinamikusan hivatkoznak az Excel-munkafüzetekből származó adatokra, növelve a diák rugalmasságát és interaktivitását.
+Ebben az oktatóanyagban megtanultuk, hogyan állíthat be külső munkafüzetet a Java Slides programban az Aspose.Slides segítségével. Mostantól prezentációkat hozhat létre, amelyek dinamikusan hivatkoznak az Excel-munkafüzetekből származó adatokra, növelve a diák rugalmasságát és interaktivitását.
 
 ## GYIK
 

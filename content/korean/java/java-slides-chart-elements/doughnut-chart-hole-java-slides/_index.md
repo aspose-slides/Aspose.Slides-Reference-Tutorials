@@ -12,7 +12,7 @@ url: /ko/java/chart-elements/doughnut-chart-hole-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 구멍이 있는 도넛 차트를 만드는 과정을 안내합니다. 이 단계별 가이드는 소스 코드 예제를 통해 프로세스를 안내합니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/).
 

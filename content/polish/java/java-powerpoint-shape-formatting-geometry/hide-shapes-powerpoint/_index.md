@@ -19,9 +19,9 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 Aby rozpocząć, musisz zaimportować niezbędne pakiety dla Aspose.Slides. Oto jak możesz to zrobić:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
-tej sekcji podzielimy proces ukrywania kształtów w programie PowerPoint na łatwe do wykonania kroki. Każdy krok zawiera nagłówek i szczegółowe wyjaśnienie.
+W tej sekcji podzielimy proces ukrywania kształtów w programie PowerPoint na łatwe do wykonania kroki. Każdy krok zawiera nagłówek i szczegółowe wyjaśnienie.
 ## Krok 1: Skonfiguruj swój projekt
 Po pierwsze, musisz skonfigurować projekt Java i uwzględnić Aspose.Slides jako zależność. Oto jak:
 ### Utwórz nowy projekt Java
@@ -74,7 +74,7 @@ Gratulacje! Pomyślnie nauczyłeś się, jak ukrywać kształty w prezentacji pr
 ### Co to jest Aspose.Slides dla Java?
 Aspose.Slides for Java to potężny interfejs API do programowego manipulowania plikami programu PowerPoint. Umożliwia programistom tworzenie, modyfikowanie i zarządzanie prezentacjami bez konieczności korzystania z programu Microsoft PowerPoint.
 ### Jak ukryć kształt w programie PowerPoint przy użyciu języka Java?
- Możesz ukryć kształt, ustawiając jego`setHidden` własność do`true`Obejmuje to identyfikację kształtu na podstawie alternatywnego tekstu i przeglądanie kształtów na slajdzie.
+ Możesz ukryć kształt, ustawiając jego`setHidden` własność do`true`. Obejmuje to identyfikację kształtu na podstawie alternatywnego tekstu i przeglądanie kształtów na slajdzie.
 ### Czy mogę używać Aspose.Slides for Java z innymi językami programowania?
 Aspose.Slides jest dostępny dla różnych języków programowania, w tym .NET, Python i C++. Jednak ten przewodnik dotyczy konkretnie języka Java.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Slides?

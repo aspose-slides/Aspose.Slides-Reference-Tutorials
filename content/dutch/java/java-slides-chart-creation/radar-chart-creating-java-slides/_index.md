@@ -21,7 +21,7 @@ In deze zelfstudie begeleiden we u bij het maken van een radardiagram met behulp
 Laten we beginnen met het opzetten van een nieuwe PowerPoint-presentatie en het toevoegen van een dia eraan.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ Dat is het! U hebt met succes een radardiagram gemaakt in een PowerPoint-present
 ## Volledige broncode voor het maken van radardiagrammen in Java-dia's
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Nieuwe serie toevoegen
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Vult nu seriegegevens in
+	// Vult nu seriegegevens in
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Seriekleur instellen
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Nu worden er nog een reeks gegevens ingevuld
+	//Nu worden er nog een reeks gegevens ingevuld
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ Raadpleeg "Stap 5" om de aslabels en opmaak aan te passen, inclusief lettergroot
 
 ### Hoe sla ik het diagram op in een ander bestandsformaat?
 
- U kunt het uitvoerformaat wijzigen door de bestandsextensie in het`outPath` variabele en gebruik de juiste`SaveFormat` . Als u bijvoorbeeld als PDF wilt opslaan, gebruikt u`SaveFormat.Pdf`.
+ kunt het uitvoerformaat wijzigen door de bestandsextensie in het`outPath` variabele en gebruik de juiste`SaveFormat` . Als u bijvoorbeeld als PDF wilt opslaan, gebruikt u`SaveFormat.Pdf`.

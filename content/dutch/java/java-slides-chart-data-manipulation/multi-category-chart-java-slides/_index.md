@@ -144,7 +144,7 @@ In deze zelfstudie hebben we geleerd hoe u een diagram met meerdere categorieën
 
 ### Hoe kan ik de weergave van het diagram aanpassen?
 
-U kunt het uiterlijk van het diagram aanpassen door eigenschappen zoals kleuren, lettertypen en stijlen te wijzigen. Raadpleeg de Aspose.Slides-documentatie voor gedetailleerde aanpassingsopties.
+kunt het uiterlijk van het diagram aanpassen door eigenschappen zoals kleuren, lettertypen en stijlen te wijzigen. Raadpleeg de Aspose.Slides-documentatie voor gedetailleerde aanpassingsopties.
 
 ### Kan ik meer series aan het diagram toevoegen?
 

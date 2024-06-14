@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-animation-shape-manipulation/set-connector-line-an
 まず、必要なパッケージを Java プロジェクトにインポートします。PowerPoint の機能にアクセスするために、Aspose.Slides ライブラリを必ず含めてください。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: プレゼンテーションオブジェクトの初期化
 まず、プレゼンテーション オブジェクトを初期化して PowerPoint ファイルを読み込みます。

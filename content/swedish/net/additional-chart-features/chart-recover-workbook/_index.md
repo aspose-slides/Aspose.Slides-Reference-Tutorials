@@ -8,7 +8,7 @@ weight: 12
 url: /sv/net/additional-chart-features/chart-recover-workbook/
 ---
 
-Om du vill arbeta med PowerPoint-presentationer i .NET är Aspose.Slides för .NET ett kraftfullt bibliotek som kan hjälpa dig att nå dina mål. I den här handledningen guidar vi dig genom processen att återställa en arbetsbok från ett diagram i en PowerPoint-presentation med Aspose.Slides för .NET. Denna kraftfulla funktion kan vara användbar när du behöver extrahera data från diagram i dina presentationer. Vi delar upp processen i steg som är lätta att följa, så att du har en tydlig förståelse för hur du ska utföra denna uppgift.
+Om du vill arbeta med PowerPoint-presentationer i .NET är Aspose.Slides för .NET ett kraftfullt bibliotek som kan hjälpa dig att nå dina mål. I den här självstudien guidar vi dig genom processen att återställa en arbetsbok från ett diagram i en PowerPoint-presentation med Aspose.Slides för .NET. Denna kraftfulla funktion kan vara användbar när du behöver extrahera data från diagram i dina presentationer. Vi delar upp processen i steg som är lätta att följa, så att du har en tydlig förståelse för hur du ska utföra denna uppgift.
 
 ## Förutsättningar
 

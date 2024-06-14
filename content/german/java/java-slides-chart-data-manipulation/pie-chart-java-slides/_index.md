@@ -49,7 +49,7 @@ Holen Sie sich die erste Folie der Präsentation, der Sie das Kreisdiagramm hinz
 ## Schritt 4: Kreisdiagramm hinzufügen
 
 ```java
-//Fügen Sie ein Kreisdiagramm mit Standarddaten hinzu
+// Fügen Sie ein Kreisdiagramm mit Standarddaten hinzu
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Legen Sie einen Titel für das Kreisdiagramm fest. Sie können den Titel nach Be
 ## Schritt 6: Diagrammdaten anpassen
 
 ```java
-// Festlegen der ersten Reihe zum Anzeigen von Werten
+//Festlegen der ersten Reihe zum Anzeigen von Werten
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Festlegen des Indexes des Diagrammdatenblattes
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Neue Serien hinzufügen
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Jetzt werden Seriendaten gefüllt
+// Jetzt werden Seriendaten gefüllt
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

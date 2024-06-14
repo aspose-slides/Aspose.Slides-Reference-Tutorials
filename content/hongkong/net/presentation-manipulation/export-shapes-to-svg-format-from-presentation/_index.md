@@ -80,6 +80,6 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 
 您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/)用於支持和社區討論。
 
-現在您已經了解如何將形狀匯出為 SVG 格式，您可以增強簡報並使其更適合不同用途。快樂編碼！
+現在您已經了解如何將形狀匯出為 SVG 格式，您可以增強您的簡報並使其更適合不同用途。快樂編碼！
 
 如需更多詳細資訊和進階功能，請參閱[Aspose.Slides for .NET API 參考](https://reference.aspose.com/slides/net/).

@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/set-connector-line-an
 للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. تأكد من تضمين مكتبة Aspose.Slides للوصول إلى وظائف PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: تهيئة كائن العرض التقديمي
 ابدأ بتهيئة كائن العرض التقديمي لتحميل ملف PowerPoint الخاص بك.
@@ -75,7 +75,7 @@ public static double getDirection(float w, float h, boolean flipH, boolean flipV
 ### هل Aspose.Slides مناسب لمهام PowerPoint البسيطة والمعقدة؟
 نعم، يقدم Aspose.Slides مجموعة واسعة من الوظائف التي تلبي متطلبات PowerPoint المختلفة، بدءًا من معالجة الشرائح الأساسية وحتى التنسيق المتقدم ومهام الرسوم المتحركة.
 ### هل يدعم Aspose.Slides جميع ميزات PowerPoint؟
-يسعى Aspose.Slides جاهداً لدعم معظم ميزات PowerPoint. ومع ذلك، بالنسبة لوظائف محددة أو متقدمة، يوصى بمراجعة الوثائق أو التواصل مع فريق دعم Aspose.
+يسعى Aspose.Slides جاهداً لدعم معظم ميزات PowerPoint. ومع ذلك، بالنسبة لوظائف محددة أو متقدمة، يوصى بمراجعة الوثائق أو التواصل مع دعم Aspose.
 ### هل يمكنني تخصيص أنماط خطوط الموصل باستخدام Aspose.Slides؟
 بالتأكيد! يوفر Aspose.Slides خيارات شاملة لتخصيص خطوط الموصل، بما في ذلك الأنماط والسمك ونقاط النهاية، مما يسمح لك بإنشاء عروض تقديمية جذابة بصريًا.
 ### أين يمكنني العثور على الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟

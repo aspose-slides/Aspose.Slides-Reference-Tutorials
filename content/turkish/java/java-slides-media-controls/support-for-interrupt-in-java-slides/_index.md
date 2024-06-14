@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Java Slaytlarında Kesinti Desteği İçin Tam Kaynak Kodu
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

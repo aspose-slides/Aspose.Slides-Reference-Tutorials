@@ -10,7 +10,7 @@ url: /pl/java/data-manipulation/set-chart-series-overlap-java-slides/
 
 ## Wprowadzenie do ustawiania nakładania się serii wykresów w slajdach Java
 
-W tym obszernym przewodniku zagłębimy się w fascynujący świat manipulowania nakładającymi się seriami wykresów w Java Slides przy użyciu potężnego interfejsu API Aspose.Slides for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek krok po kroku wyposaży Cię w wiedzę i kod źródłowy potrzebny do opanowania tego istotnego zadania.
+tym obszernym przewodniku zagłębimy się w fascynujący świat manipulowania nakładającymi się seriami wykresów w Java Slides przy użyciu potężnego interfejsu API Aspose.Slides for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek krok po kroku wyposaży Cię w wiedzę i kod źródłowy potrzebny do opanowania tego istotnego zadania.
 
 ## Warunki wstępne
 

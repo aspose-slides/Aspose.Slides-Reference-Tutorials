@@ -18,7 +18,7 @@ Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass Sie über Folg
 Importieren wir zunächst die erforderlichen Pakete, die für die Arbeit mit Aspose.Slides erforderlich sind.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

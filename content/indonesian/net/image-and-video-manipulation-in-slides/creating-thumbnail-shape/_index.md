@@ -8,7 +8,7 @@ weight: 14
 url: /id/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
 ## Perkenalan
-Aspose.Slides for .NET adalah perpustakaan canggih yang memberdayakan pengembang untuk bekerja secara lancar dengan presentasi PowerPoint. Salah satu fitur penting adalah kemampuan untuk menghasilkan thumbnail untuk bentuk dalam presentasi. Tutorial ini akan memandu Anda melalui proses pembuatan thumbnail untuk bentuk menggunakan Aspose.Slides untuk .NET.
+Aspose.Slides for .NET adalah perpustakaan canggih yang memberdayakan pengembang untuk bekerja secara lancar dengan presentasi PowerPoint. Salah satu fitur utamanya adalah kemampuan untuk menghasilkan thumbnail untuk bentuk dalam presentasi. Tutorial ini akan memandu Anda melalui proses pembuatan thumbnail untuk bentuk menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 1.  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/slides/net/).
@@ -23,7 +23,7 @@ using Aspose.Slides;
 ## Langkah 1: Siapkan Proyek Anda
 Buat proyek C# baru di lingkungan pengembangan pilihan Anda. Pastikan perpustakaan Aspose.Slides direferensikan dalam proyek Anda.
 ## Langkah 2: Inisialisasi Presentasi
- Buat instance kelas Presentasi untuk mewakili file PowerPoint. Berikan jalur ke file presentasi Anda di`dataDir` variabel.
+Buat instance kelas Presentasi untuk mewakili file PowerPoint. Berikan jalur ke file presentasi Anda di`dataDir` variabel.
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -56,4 +56,4 @@ J: Anda dapat menerapkan mekanisme penanganan kesalahan menggunakan blok coba-ta
 ### T: Apakah ada batasan pada ukuran atau jenis bentuk yang boleh memiliki gambar mini?
 J: Aspose.Slides memberikan fleksibilitas untuk membuat thumbnail untuk berbagai bentuk, termasuk kotak teks, gambar, dan lainnya.
 ### T: Dapatkah saya menyesuaikan ukuran dan resolusi gambar mini yang dihasilkan?
-A: Ya, Anda dapat menyesuaikan parameter saat memanggil`GetThumbnail` metode untuk mengontrol ukuran dan resolusi.
+ A: Ya, Anda dapat menyesuaikan parameter saat memanggil`GetThumbnail` metode untuk mengontrol ukuran dan resolusi.

@@ -12,7 +12,7 @@ Java geliştirme alanında sunumları sorunsuz bir şekilde yönetmek zorlu bir 
 ## Önkoşullar
 Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 1. Java Development Kit (JDK): Aspose.Slides for Java'nın sorunsuz çalışması için Java çalışma ortamı ortamına ihtiyaç duyulduğundan JDK'nın sisteminizde kurulu olduğundan emin olun.
-2. Aspose.Slides for Java Kütüphanesi: Sağlanan kaynaktan Aspose.Slides for Java kütüphanesini indirin ve yükleyin.[İndirme: {link](https://releases.aspose.com/slides/java/). Bu kütüphane sunum yönetimi çabalarımızın temel taşı olacaktır.
+2. Aspose.Slides for Java Library: Sağlanan kaynaktan Aspose.Slides for Java kütüphanesini indirin ve yükleyin.[İndirme: {link](https://releases.aspose.com/slides/java/). Bu kütüphane sunum yönetimi çabalarımızın temel taşı olacaktır.
 3. Entegre Geliştirme Ortamı (IDE): Java geliştirme için tercih ettiğiniz IDE'yi seçin. Eclipse, IntelliJ IDEA veya başka bir IDE olsun, güvenilir bir IDE'ye sahip olmak kodlama deneyiminizi kolaylaştıracaktır.
 
 ## Paketleri İçe Aktar
@@ -21,12 +21,12 @@ Bu adımda Aspose.Slides yolculuğumuzu başlatmak için gerekli paketleri içe 
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Veri Dizinini Ayarlayın
 Temel işlevlere dalmadan önce, sunum dosyanıza erişmek için veri dizinini ayarlayın:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Adım 2: Yükleme Seçenekleri Oluşturun
 Sunum dosyasına nasıl erişileceğini yapılandırmak için yükleme seçeneklerini somutlaştırın. Bu örnekte erişim parolasını null olarak ayarlıyoruz ve yalnızca belge özelliklerinin yüklenmesini etkinleştiriyoruz:

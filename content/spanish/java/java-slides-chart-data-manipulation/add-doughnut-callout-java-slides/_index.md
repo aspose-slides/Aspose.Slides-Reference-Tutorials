@@ -179,4 +179,4 @@ Sí, puede agregar tantos puntos de datos como necesite al gráfico de anillos. 
 
 ### ¿Cómo puedo ajustar la posición y el tamaño del gráfico de anillos en la diapositiva?
 
-Puede cambiar la posición y el tamaño del gráfico de anillos modificando los parámetros en el`addChart` método. Los cuatro números de ese método corresponden a las coordenadas X e Y de la esquina superior izquierda del gráfico y su ancho y alto, respectivamente.
+ Puede cambiar la posición y el tamaño del gráfico de anillos modificando los parámetros en el`addChart` método. Los cuatro números de ese método corresponden a las coordenadas X e Y de la esquina superior izquierda del gráfico y su ancho y alto, respectivamente.

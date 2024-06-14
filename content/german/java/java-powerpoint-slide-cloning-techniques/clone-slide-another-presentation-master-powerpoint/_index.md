@@ -19,7 +19,7 @@ Bevor Sie mit der Codierung beginnen, stellen Sie sicher, dass Sie die folgenden
 Um zu beginnen, müssen Sie die erforderlichen Aspose.Slides-Pakete in Ihr Java-Projekt importieren. So geht's:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Lassen Sie uns den Vorgang des Klonens einer Folie in eine andere Präsentation mit der zugehörigen Masterfolie in detaillierte Schritte aufschlüsseln.
 ## Schritt 1: Laden Sie die Quellpräsentation
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Schritt 4: Masterfolie in Zielpräsentation klonen
 Klonen Sie die Masterfolie aus der Quellpräsentation in die Mastersammlung der Zielpräsentation.
 ```java
-//Klonen Sie die gewünschte Masterfolie aus der Quellpräsentation in die Mastersammlung der Zielpräsentation.
+// Klonen Sie die gewünschte Masterfolie aus der Quellpräsentation in die Mastersammlung der Zielpräsentation.
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

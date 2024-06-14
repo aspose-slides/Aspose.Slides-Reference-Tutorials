@@ -12,7 +12,7 @@ Mengoptimalkan presentasi Anda sangat penting untuk komunikasi yang efektif. Kom
 
 ## Pengantar Manipulasi Komentar Slide
 
-Komentar Slide adalah anotasi yang memungkinkan Anda menambahkan catatan penjelasan, saran, atau umpan balik langsung ke slide tertentu dalam presentasi. Aspose.Slides menyederhanakan proses bekerja dengan komentar ini secara terprogram, memungkinkan Anda mengotomatiskan dan meningkatkan alur kerja presentasi Anda. Baik Anda ingin menambah, mengedit, menghapus, atau memformat komentar slide, Aspose.Slides memberikan solusi yang lancar dan efisien.
+Komentar Slide adalah anotasi yang memungkinkan Anda menambahkan catatan penjelasan, saran, atau umpan balik langsung ke slide tertentu dalam presentasi. Aspose.Slides menyederhanakan proses bekerja dengan komentar ini secara terprogram, memungkinkan Anda mengotomatisasi dan meningkatkan alur kerja presentasi Anda. Baik Anda ingin menambah, mengedit, menghapus, atau memformat komentar slide, Aspose.Slides memberikan solusi yang lancar dan efisien.
 
 ## Memulai dengan Aspose.Slide
 
@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Ubah posisi komentar
 comment.Position = new Point(100, 100);
 
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Hapus komentar tersebut
 slide.Comments.Remove(comment);
 
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

@@ -197,7 +197,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 كما هو الحال مع محور القيمة، يمكنك تخصيص خطوط الشبكة الثانوية لمحور الفئة.
 
 ```csharp
-//ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
+// ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// تحديد لون منطقة الأرض
+//تحديد لون منطقة الأرض
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

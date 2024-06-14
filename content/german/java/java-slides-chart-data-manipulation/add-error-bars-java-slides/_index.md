@@ -14,7 +14,7 @@ In diesem Tutorial zeigen wir, wie Sie mit Aspose.Slides für Java Fehlerbalken 
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass Sie die Bibliothek Aspose.Slides für Java in Ihrem Java-Projekt installiert und eingerichtet haben. Sie können die Bibliothek von der[Aspose-Website](https://downloads.aspose.com/slides/java).
+Bevor Sie beginnen, stellen Sie sicher, dass Sie die Bibliothek Aspose.Slides für Java in Ihrem Java-Projekt installiert und eingerichtet haben. Sie können die Bibliothek von der[Aspose-Website](https://downloads.aspose.com/slides/java).
 
 ## Schritt 1: Erstellen Sie eine leere Präsentation
 
@@ -62,7 +62,7 @@ In diesem Schritt fügen wir dem Diagramm Fehlerbalken hinzu und legen ihr Forma
 - `setValue` legt den Wert für Fehlerbalken fest.
 - `setType` definiert die Art der Fehlerbalken (z. B. Plus oder Minus).
 -  Wir setzen die Breite der Fehlerbalkenlinien mit`getFormat().getLine().setWidth(2)`.
-- `setEndCap` Gibt an, ob die Fehlerbalken mit Endkappen versehen werden sollen.
+- `setEndCap`Gibt an, ob die Fehlerbalken mit Endkappen versehen werden sollen.
 
 ## Schritt 4: Speichern Sie die Präsentation
 
@@ -123,7 +123,7 @@ Ja, Sie können Fehlerbalken zu verschiedenen Diagrammtypen hinzufügen, die von
 
 ### Wie kann ich die Position und Größe des Diagramms auf der Folie anpassen?
 
-Sie können die Position und die Abmessungen des Diagramms steuern, indem Sie die Parameter im`addChart` Methode, wie in Schritt 2 gezeigt.
+ Sie können die Position und die Abmessungen des Diagramms steuern, indem Sie die Parameter im`addChart` Methode, wie in Schritt 2 gezeigt.
 
 ### Wo finde ich weitere Informationen zu Aspose.Slides für Java?
 

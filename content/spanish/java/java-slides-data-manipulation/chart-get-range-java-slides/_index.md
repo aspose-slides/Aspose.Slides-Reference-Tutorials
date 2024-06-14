@@ -75,7 +75,7 @@ finally
 
 ## Conclusión
 
-En esta guía, hemos aprendido cómo obtener el rango de un gráfico en Java Slides usando la API Aspose.Slides para Java. Cubrimos la configuración del entorno, la creación de una presentación, la adición de un gráfico y la obtención del rango. Ahora puede utilizar este conocimiento en sus proyectos de Java Slides para acceder a rangos de gráficos de manera efectiva.
+En esta guía, aprendimos cómo obtener el rango de un gráfico en Java Slides usando la API Aspose.Slides para Java. Cubrimos la configuración del entorno, la creación de una presentación, la adición de un gráfico y la obtención del rango. Ahora puede utilizar este conocimiento en sus proyectos de Java Slides para acceder a rangos de gráficos de manera efectiva.
 
 ## Preguntas frecuentes
 

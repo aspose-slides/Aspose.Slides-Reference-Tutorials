@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 İstediğiniz slaytları sildikten sonra değiştirilen sunuyu kaydetmeniz gerekir:
 
 ```csharp
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

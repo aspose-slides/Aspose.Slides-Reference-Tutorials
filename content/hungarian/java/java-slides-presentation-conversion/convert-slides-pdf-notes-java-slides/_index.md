@@ -119,7 +119,7 @@ Igen, az Aspose.Slides for Java egy kereskedelmi célú könyvtár, és előford
 
 ### Konvertálhatok több diát egyszerre?
 
-Biztosan! A prezentáció diákjait végigpörgetheti, és az új prezentációba klónozhatja, így egyszerre több diák PDF-formátumba konvertálhat jegyzetekkel.
+Biztosan! A prezentáció diákjait végigpörgetheti, és az új prezentációba klónozhatja, így egyszerre több diát konvertálhat PDF formátumba jegyzetekkel.
 
 ### Hol találok további dokumentációt az Aspose.Slides for Java-hoz?
 

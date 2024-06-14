@@ -51,7 +51,7 @@ shape.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 
 Τέλος, αποθηκεύστε την παρουσίαση στη θέση που επιθυμείτε.
 

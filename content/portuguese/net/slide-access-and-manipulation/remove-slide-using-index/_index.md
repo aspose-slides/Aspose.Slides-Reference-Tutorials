@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Depois de apagar os slides desejados, você precisa salvar a apresentação modificada:
 
 ```csharp
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

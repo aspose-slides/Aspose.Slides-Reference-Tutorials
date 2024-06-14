@@ -8,7 +8,7 @@ weight: 20
 url: /de/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
 
-Im heutigen digitalen Zeitalter spielen visuelle Inhalte eine wichtige Rolle in der Kommunikation. Manchmal müssen Sie eine Präsentation in eine GIF-Animation umwandeln, um sie ansprechender und teilbarer zu gestalten. Glücklicherweise wird diese Aufgabe mithilfe von Aspose.Slides für .NET ganz einfach. In diesem Tutorial führen wir Sie mithilfe des folgenden Quellcodes durch den Prozess der Konvertierung einer Präsentation in eine GIF-Animation.
+Im heutigen digitalen Zeitalter spielen visuelle Inhalte eine wichtige Rolle in der Kommunikation. Manchmal müssen Sie eine Präsentation in eine GIF-Animation umwandeln, um sie ansprechender und teilbarer zu machen. Glücklicherweise wird diese Aufgabe mithilfe von Aspose.Slides für .NET ganz einfach. In diesem Tutorial führen wir Sie mithilfe des folgenden Quellcodes durch den Prozess der Konvertierung einer Präsentation in eine GIF-Animation.
 
 ## 1. Einleitung
 

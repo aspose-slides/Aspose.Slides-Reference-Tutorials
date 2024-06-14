@@ -19,7 +19,7 @@ Antes de mergulhar na parte de codificação, certifique-se de ter os seguintes 
 Para começar, você precisa importar os pacotes Aspose.Slides necessários para o seu projeto Java. Veja como você faz isso:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Vamos dividir o processo de clonagem de um slide para outra apresentação com seu slide mestre em etapas detalhadas.
 ## Etapa 1: carregar a apresentação original
@@ -30,7 +30,7 @@ String dataDir = "path/to/your/documents/directory/";
 // Instancie a classe Presentation para carregar o arquivo de apresentação de origem
 Presentation srcPres = new Presentation(dataDir + "CloneToAnotherPresentationWithMaster.pptx");
 ```
-## Etapa 2: instanciar a apresentação de destino
+## Etapa 2: instanciar a apresentação do destino
  Em seguida, crie uma instância do`Presentation` class para a apresentação de destino onde o slide será clonado.
 ```java
 // Instanciar classe de apresentação para apresentação de destino
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Etapa 4: clonar o slide mestre para a apresentação de destino
 Clone o slide mestre da apresentação de origem para a coleção de slides mestre na apresentação de destino.
 ```java
-//Clone o slide mestre desejado da apresentação de origem para a coleção de mestres na apresentação de destino
+// Clone o slide mestre desejado da apresentação de origem para a coleção de mestres na apresentação de destino
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```
@@ -63,7 +63,7 @@ Finalmente, salve a apresentação de destino no disco.
 // Salve a apresentação de destino no disco
 destPres.save(dataDir + "CloneToAnotherPresentationWithMaster_out.pptx", SaveFormat.Pptx);
 ```
-## Passo 7: Descarte as Apresentações
+## Etapa 7: Descarte as apresentações
 Para liberar recursos, descarte as apresentações de origem e de destino.
 ```java
 // Descarte as apresentações

@@ -86,7 +86,7 @@ using (Presentation presentation = new Presentation("Your Document Directory\\Ex
 
 ### 第 2 步：將動畫加入系列中
 
-現在，讓我們為圖表系列添加動畫。我們在這裡也使用淡入效果。
+現在，讓我們為圖表系列新增動畫。我們在這裡也使用淡入效果。
 
 ```csharp
 slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);

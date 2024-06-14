@@ -54,7 +54,7 @@ string[] fontNameExcludeList = { };
 
 ## 4. lépés: Válasszon egy HTML-vezérlőt
 
-Most két lehetőség közül választhat a betűtípusok HTML-be ágyazására:
+Most két lehetősége van a betűtípusok HTML-be ágyazására:
 
 ### 1. lehetőség: Minden betűtípus beágyazása
 
@@ -93,9 +93,9 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## Következtetés
 
-Gratulálunk! Sikeresen átalakította prezentációját beágyazott betűtípusokkal rendelkező HTML-formátumba az Aspose.Slides for .NET segítségével. Ez biztosítja, hogy a betűtípusok megfelelően jelenjenek meg prezentációi online megosztása során.
+Gratulálunk! Sikeresen átalakította prezentációját beágyazott betűtípusokkal rendelkező HTML formátumba az Aspose.Slides for .NET segítségével. Ez biztosítja, hogy a betűtípusok megfelelően jelenjenek meg prezentációi online megosztása során.
 
-Mostantól könnyedén megoszthatja gyönyörűen formázott prezentációit magabiztosan, tudva, hogy a közönség pontosan úgy fogja látni őket, ahogyan azt szerette volna.
+Mostantól könnyedén megoszthatja gyönyörűen formázott prezentációit magabiztosan, tudva, hogy a közönsége pontosan úgy fogja látni őket, ahogyan azt szerette volna.
 
  További információkért és részletes API-referenciákért tekintse meg a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
 
@@ -107,11 +107,11 @@ Igen, kötegelt konvertálhat több prezentációt HTML formátumba az Aspose.Sl
 
 ### 2. Van mód a HTML kimenet megjelenésének testreszabására?
 
-Biztosan! Az Aspose.Slides for .NET különféle lehetőségeket kínál a HTML-kimenet megjelenésének és formázásának testreszabására, például a színek, a betűtípusok és az elrendezés módosítására.
+Biztosan! Az Aspose.Slides for .NET különféle lehetőségeket kínál a HTML-kimenet megjelenésének és formázásának testreszabásához, például a színek, a betűtípusok és az elrendezés módosításához.
 
 ### 3. Vannak-e korlátozások a betűtípusok HTML-be ágyazására az Aspose.Slides for .NET használatával?
 
-Bár az Aspose.Slides for .NET kiváló betűtípus-beágyazási lehetőségeket kínál, ne feledje, hogy a HTML-fájlok mérete megnőhet a betűtípusok beágyazásakor. Ügyeljen arra, hogy a webhasználathoz optimalizálja a betűtípus-választást.
+Míg az Aspose.Slides for .NET kiváló betűtípus-beágyazási lehetőségeket kínál, ne feledje, hogy a HTML-fájlok mérete megnőhet a betűtípusok beágyazásakor. Ügyeljen arra, hogy a webhasználathoz optimalizálja a betűtípus-választást.
 
 ### 4. Átalakíthatom a PowerPoint prezentációkat más formátumokba az Aspose.Slides for .NET segítségével?
 

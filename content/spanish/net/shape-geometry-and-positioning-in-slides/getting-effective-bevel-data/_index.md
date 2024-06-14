@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Asegúrese de reemplazar`"Your Document Directory"`con la ruta donde desea almacenar sus archivos de presentación.
+ Asegúrese de reemplazar`"Your Document Directory"` con la ruta donde desea almacenar sus archivos de presentación.
 ## Paso 2: cargue la presentación
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

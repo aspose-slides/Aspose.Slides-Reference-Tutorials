@@ -8,7 +8,7 @@ weight: 12
 url: /sv/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
 
-en värld av moderna presentationer är visuellt innehåll kung. Att skapa tilltalande bilder är avgörande för effektiv kommunikation. Ett sätt att förbättra dina presentationer är genom att generera miniatyrer från bilder, särskilt när du vill framhäva specifika detaljer eller dela en översikt. Aspose.Slides för .NET är ett kraftfullt verktyg som kan hjälpa dig att uppnå detta sömlöst. I den här steg-för-steg-guiden går vi igenom processen att generera miniatyrer från bilder i anteckningssektionen i en presentation med Aspose.Slides för .NET.
+en värld av moderna presentationer är visuellt innehåll kung. Att skapa tilltalande bilder är avgörande för effektiv kommunikation. Ett sätt att förbättra dina presentationer är genom att generera miniatyrer från bilder, särskilt när du vill framhäva specifika detaljer eller dela en översikt. Aspose.Slides för .NET är ett kraftfullt verktyg som kan hjälpa dig att uppnå detta sömlöst. I den här steg-för-steg-guiden kommer vi att leda dig genom processen att generera miniatyrer från bilder i anteckningsdelen av en presentation med Aspose.Slides för .NET.
 
 ## Förutsättningar
 

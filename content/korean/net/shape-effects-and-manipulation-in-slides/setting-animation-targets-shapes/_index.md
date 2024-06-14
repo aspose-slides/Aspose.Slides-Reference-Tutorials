@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 슬라이드에 애니메이션을 추가하면 판도를 바꿀 수 있습니다. .NET용 Aspose.Slides는 슬라이드 모양의 애니메이션 대상을 정밀하게 제어함으로써 개발자가 매력적이고 시각적으로 매력적인 프레젠테이션을 만들 수 있도록 지원합니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 애니메이션 타겟을 설정하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 프레젠테이션에서 애니메이션의 힘을 활용하는 데 도움이 될 것입니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 - 개발 환경: 컴퓨터에 작동하는 .NET 개발 환경이 설정되어 있는지 확인하세요.
@@ -33,7 +33,7 @@ if (!isExists)
 string presentationFileName = Path.Combine(dataDir, "AnimationShapesExample.pptx");
 using (Presentation pres = new Presentation(presentationFileName))
 {
-    //추가 작업을 위한 코드는 여기에 있습니다.
+    // 추가 작업을 위한 코드는 여기에 있습니다.
 }
 ```
 ## 2단계: 슬라이드 및 애니메이션 효과 반복

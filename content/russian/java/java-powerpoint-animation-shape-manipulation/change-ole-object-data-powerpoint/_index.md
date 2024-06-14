@@ -15,14 +15,14 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/change-ole-object-dat
 2.  Aspose.Slides для Java: загрузите последнюю версию с сайта[Страница загрузки Aspose.Slides](https://releases.aspose.com/slides/java/).
 3. Интегрированная среда разработки (IDE). Вы можете использовать любую среду разработки Java, например IntelliJ IDEA, Eclipse или NetBeans.
 4.  Aspose.Cells для Java: требуется для изменения встроенных данных в объекте OLE. Загрузите его с[Страница загрузки Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. Файл презентации: подготовьте файл PowerPoint со встроенным объектом OLE. Для этого урока назовем его`ChangeOLEObjectData.pptx`.
+5.  Файл презентации: подготовьте файл PowerPoint со встроенным объектом OLE. Для этого урока назовем его`ChangeOLEObjectData.pptx`.
 ## Импортировать пакеты
 Сначала давайте импортируем необходимые пакеты в ваш Java-проект.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```
@@ -44,7 +44,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 Перебирайте фигуры на слайде, чтобы найти объект OLE.
 ```java
 OleObjectFrame ole = null;
-// Обход всех фигур для рамки Ole
+// Обход всех форм для рамки Ole
 for (IShape shape : slide.getShapes()) {
     if (shape instanceof OleObjectFrame) {
         ole = (OleObjectFrame) shape;

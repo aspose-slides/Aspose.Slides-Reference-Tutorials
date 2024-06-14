@@ -13,7 +13,7 @@ En el mundo del desarrollo de software, crear y manipular presentaciones de Powe
 
 ## Introducción a Aspose.Slides para .NET
 
-Aspose.Slides para .NET es una biblioteca rica en funciones que permite a los desarrolladores de .NET crear, modificar y convertir presentaciones de PowerPoint. Ofrece una amplia gama de funcionalidades, que incluyen manipulación de diapositivas, formato, animaciones y más. En este artículo, nos centraremos en cómo trabajar con diseños y vistas de diapositivas utilizando esta potente biblioteca.
+Aspose.Slides para .NET es una biblioteca rica en funciones que permite a los desarrolladores de .NET crear, modificar y convertir presentaciones de PowerPoint. Ofrece una amplia gama de funcionalidades, que incluyen manipulación de diapositivas, formato, animaciones y más. En este artículo, nos centraremos en cómo trabajar con diseños y vistas de diapositivas utilizando esta poderosa biblioteca.
 
 ## Primeros pasos: instalación y configuración
 
@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 Una vez que haya realizado todos los cambios necesarios, guarde la presentación modificada:
 
 ```csharp
-// Guardar la presentación modificada
+//Guardar la presentación modificada
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

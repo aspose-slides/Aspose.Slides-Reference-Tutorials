@@ -56,7 +56,7 @@ Ezt a kódot testreszabhatja különböző alakzatok exportálásához, vagy sz�
 
 ## 6. Következtetés
 
-Ebben az oktatóanyagban végigjártuk az alakzatok SVG formátumba exportálásának folyamatát egy PowerPoint prezentációból az Aspose.Slides for .NET használatával. Ez a hatékony könyvtár leegyszerűsíti a feladatot, lehetővé téve az exportálási folyamat automatizálását és a munkafolyamat javítását.
+Ebben az oktatóanyagban végigjártuk az alakzatok SVG formátumba exportálásának folyamatát egy PowerPoint-prezentációból az Aspose.Slides for .NET használatával. Ez a hatékony könyvtár leegyszerűsíti a feladatot, lehetővé téve az exportálási folyamat automatizálását és a munkafolyamat javítását.
 
 ## 7. GYIK
 

@@ -84,7 +84,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ## Ολοκληρώστε τον πηγαίο κώδικα για την κατάργηση του μη χρησιμοποιημένου Layout Master σε διαφάνειες Java
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

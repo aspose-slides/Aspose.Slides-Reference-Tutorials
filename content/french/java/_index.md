@@ -80,3 +80,27 @@ Apprenez à animer et manipuler des formes dans PowerPoint à l'aide d'Aspose.Sl
 Découvrez les didacticiels de mise en forme et de géométrie des formes Java PowerPoint. Apprenez à remplir des formes, à rechercher des formes et à créer une géométrie personnalisée avec Aspose.Slides pour Java.
 ### [Techniques de clonage de diapositives Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
 Clonage de diapositives principales dans PowerPoint à l'aide d'Aspose.Slides pour Java. Apprenez à cloner des diapositives au sein de la même présentation ou entre des présentations de manière transparente.
+### [Manipulation de la zone de texte Java PowerPoint](./java-powerpoint-text-box-manipulation/)
+Explorez des didacticiels complets sur la manipulation des zones de texte Java PowerPoint avec Aspose.Slides. Améliorez vos présentations étape par étape avec nos guides.
+### [Gestion des polices Java PowerPoint](./java-powerpoint-font-management/)
+Découvrez les didacticiels de gestion des polices Java PowerPoint à l'aide d'Aspose.Slides pour Java. Apprenez les techniques d’intégration, de compression et de personnalisation pour améliorer les présentations.
+### [Animation et effets Java PowerPoint](./java-powerpoint-animation-effects/)
+Maîtrisez les animations et effets Java PowerPoint avec nos didacticiels complets. Apprenez à ajouter des animations, des ombres extérieures et intérieures à l'aide d'Aspose.Slides pour Java.
+### [Alignement et formatage du texte Java PowerPoint](./java-powerpoint-text-alignment-formatting/)
+Découvrez les didacticiels d'alignement et de formatage de texte Java PowerPoint. Apprenez à aligner, formater, exporter et surligner du texte à l'aide d'Aspose.Slides pour Java. 
+### [Règles de mise en surbrillance et de secours du texte Java PowerPoint](./java-powerpoint-text-highlighting-fallback-rules/)
+Maîtrisez la surbrillance du texte et les règles de remplacement des polices dans Java PowerPoint avec Aspose.Slides. Suivez nos tutoriels pour améliorer et automatiser vos présentations en toute transparence.
+### [Gestion du texte et des paragraphes Java PowerPoint](./java-powerpoint-text-paragraph-management/)
+Maîtrisez la gestion des textes et des paragraphes Java PowerPoint avec Aspose.Slides. Apprenez à importer du texte HTML, à gérer l'espacement des lignes, à créer des puces et à aligner des paragraphes.
+### [Gestion des polices Java PowerPoint et remplacement du texte](./java-powerpoint-font-management-text-replacement/)
+Maîtrisez la gestion des polices Java PowerPoint et le remplacement de texte avec Aspose.Slides. Apprenez à charger des polices personnalisées, à gérer les polices intégrées et à remplacer du texte de manière transparente.
+### [Propriétés avancées des paragraphes et des polices Java PowerPoint](./java-powerpoint-advanced-paragraph-font-properties/)
+Maîtrisez les propriétés avancées des paragraphes et des polices dans Java PowerPoint à l'aide d'Aspose.Slides. Apprenez à personnaliser les polices, à ajouter des puces d'image et à utiliser des polices de secours.
+### [Personnalisation du texte et des polices Java PowerPoint](./java-powerpoint-text-font-customization/)
+Explorez les didacticiels sur la personnalisation du texte et des polices Java PowerPoint avec Aspose.Slides. Apprenez la rotation, le remplacement des polices et bien plus encore pour améliorer vos présentations.
+### [Manipulation de tableaux Java PowerPoint](./java-powerpoint-table-manipulation/)
+Maîtrisez la manipulation des tableaux Java PowerPoint avec Aspose.Slides. Apprenez à ajouter des images, diviser des cellules, créer des tableaux et bien plus encore grâce à nos didacticiels détaillés étape par étape.
+### [Formatage et mises à jour des tableaux Java PowerPoint](./java-powerpoint-table-formatting-updates/)
+Améliorez les présentations Java PowerPoint avec le formatage des tableaux et les mises à jour à l'aide d'Aspose.Slides. Apprenez à ajouter des bordures, à formater le texte en colonnes et en lignes et à mettre à jour les tableaux.
+### [Manipulation Java PowerPoint SmartArt](./java-powerpoint-smartart-manipulation/)
+Apprenez à manipuler efficacement Java PowerPoint SmartArt avec les didacticiels GroupDocs.Slides pour Java. Accédez aux nœuds enfants, ajoutez des nœuds, modifiez les dispositions et bien plus encore !

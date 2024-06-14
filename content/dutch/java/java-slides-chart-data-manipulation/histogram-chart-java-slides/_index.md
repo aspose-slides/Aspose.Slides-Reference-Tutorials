@@ -65,7 +65,7 @@ try {
 }
 ```
 
-In deze code verwijderen we eerst alle bestaande categorieën en reeksen uit het diagram. Vervolgens voegen we gegevenspunten toe aan de reeks met behulp van de`getDataPoints().addDataPointForHistogramSeries` methode. Ten slotte stellen we het aggregatietype voor de horizontale as in op Automatisch en slaan we de presentatie op.
+ In deze code verwijderen we eerst alle bestaande categorieën en reeksen uit het diagram. Vervolgens voegen we gegevenspunten toe aan de reeks met behulp van de`getDataPoints().addDataPointForHistogramSeries` methode. Ten slotte stellen we het aggregatietype voor de horizontale as in op Automatisch en slaan we de presentatie op.
 
 ## Volledige broncode voor histogramdiagram in Java-dia's
 

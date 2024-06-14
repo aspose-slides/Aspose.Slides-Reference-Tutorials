@@ -2,7 +2,7 @@
 title: Aspose.Slides'ı kullanarak Slayt Yorumlarına Erişin
 linktitle: Slayt Yorumlarına Erişim
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarındaki slayt yorumlarına nasıl erişeceğinizi öğrenin. İşbirliğini ve iş akışını zahmetsizce geliştirin.
+description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarında slayt yorumlarına nasıl erişeceğinizi öğrenin. İşbirliğini ve iş akışını zahmetsizce geliştirin.
 type: docs
 weight: 11
 url: /tr/net/slide-comments-manipulation/access-slide-comments/

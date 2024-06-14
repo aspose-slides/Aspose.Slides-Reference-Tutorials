@@ -8,7 +8,7 @@ weight: 12
 url: /sv/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
 
-en värld av multimediapresentationer spelar ljud en avgörande roll för att förbättra den övergripande effekten av dina bilder. Har du någonsin stött på en PowerPoint-presentation med ljudhyperlänkar och undrat hur man extraherar ljudet för andra ändamål? Med Aspose.Slides för .NET kan du enkelt utföra denna uppgift. I den här steg-för-steg-guiden går vi igenom processen att extrahera ljud från en hyperlänk i en PowerPoint-presentation.
+I en värld av multimediapresentationer spelar ljud en avgörande roll för att förbättra den övergripande effekten av dina bilder. Har du någonsin stött på en PowerPoint-presentation med ljudhyperlänkar och undrat hur man extraherar ljudet för andra ändamål? Med Aspose.Slides för .NET kan du enkelt utföra denna uppgift. I den här steg-för-steg-guiden går vi igenom processen att extrahera ljud från en hyperlänk i en PowerPoint-presentation.
 
 ## Förutsättningar
 
@@ -16,7 +16,7 @@ Innan vi dyker in i utvinningsprocessen, se till att du har följande förutsät
 
 ### 1. Aspose.Slides för .NET Library
 
- Du måste ha Aspose.Slides för .NET-biblioteket installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner det från webbplatsen på[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+Du måste ha Aspose.Slides för .NET-biblioteket installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner det från webbplatsen på[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
 
 ### 2. PowerPoint-presentation med ljudhyperlänkar
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Steg 2: Ladda PowerPoint-presentationen
 
- Ladda PowerPoint-presentationen (PPTX) som innehåller ljudhyperlänken med Aspose.Slides. Byta ut`"HyperlinkSound.pptx"` med det faktiska filnamnet på din presentation.
+ Ladda PowerPoint-presentationen (PPTX) som innehåller ljudhyperlänken med Aspose.Slides. Byta ut`"HyperlinkSound.pptx"`med det faktiska filnamnet på din presentation.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 Om hyperlänken har ett associerat ljud kan vi extrahera det som en byte-array och spara det som en mediefil.
 
 ```csharp
-//Extraherar hyperlänksljudet i byte-array
+// Extraherar hyperlänksljudet i byte-array
 byte[] audioData = link.Sound.BinaryData;
 
 // Ange sökvägen där du vill spara det extraherade ljudet
@@ -101,7 +101,7 @@ Ja, Aspose.Slides för .NET stöder både PPTX- och PPT-format för att extraher
  Ja, du kan få hjälp och dela dina erfarenheter med Aspose.Slides i[Aspose.Slides community forum](https://forum.aspose.com/).
 
 ### Kan jag köpa en tillfällig licens för Aspose.Slides för ett kortsiktigt projekt?
- Ja, du kan få en tillfällig licens för Aspose.Slides för .NET för att möta dina kortsiktiga projektbehov genom att besöka[den här länken](https://purchase.aspose.com/temporary-license/).
+Ja, du kan få en tillfällig licens för Aspose.Slides för .NET för att möta dina kortsiktiga projektbehov genom att besöka[den här länken](https://purchase.aspose.com/temporary-license/).
 
 ### Finns det andra ljudformat som stöds för extraktion, förutom MPG?
 Aspose.Slides för .NET låter dig extrahera ljud i olika format, inte begränsat till MPG. Du kan konvertera den till önskat format efter extraktion.

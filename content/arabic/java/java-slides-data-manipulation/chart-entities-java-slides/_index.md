@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
+// ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
+	// ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -245,7 +245,7 @@ try
 	catTitle.getPortionFormat().setFontItalic(NullableBool.True);
 	// تحديد موضع تسمية محور الفئة
 	chart.getAxes().getHorizontalAxis().setTickLabelPosition(TickLabelPositionType.Low);
-	// ضبط زاوية دوران تسمية محور الفئة
+	// تحديد زاوية دوران تسمية محور الفئة
 	chart.getAxes().getHorizontalAxis().setTickLabelRotationAngle(45);
 	// ضبط خصائص نص وسائل الإيضاح
 	IChartPortionFormat txtleg = chart.getLegend().getTextFormat().getPortionFormat();
@@ -257,14 +257,14 @@ try
 	// قم بتعيين إظهار وسائل إيضاح المخطط دون تداخل المخطط
 	chart.getLegend().setOverlay(true);
 	// رسم السلسلة الأولى على محور القيمة الثانوية
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
 	// تحديد لون الجدار الخلفي للمخطط
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// تحديد لون منطقة الأرض
+	//تحديد لون منطقة الأرض
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// حفظ العرض التقديمي

@@ -19,13 +19,13 @@ url: /th/java/java-powerpoint-save-operations/save-powerpoint-to-file/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีข้อมูล
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // สร้างไดเร็กทอรีหากไม่มีอยู่
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 ในขั้นตอนนี้ เราจะกำหนดเส้นทางไปยังไดเร็กทอรีที่จะบันทึกงานนำเสนอ PowerPoint หากไม่มีไดเร็กทอรี มันจะถูกสร้างขึ้น
 ## ขั้นตอนที่ 2: สร้างอินสแตนซ์ของวัตถุการนำเสนอ
 ```java
-//สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
+// สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
 Presentation presentation = new Presentation();
 ```
- ที่นี่เราสร้างอินสแตนซ์ใหม่ของ`Presentation` คลาสซึ่งแสดงถึงการนำเสนอ PowerPoint
+ที่นี่เราสร้างอินสแตนซ์ใหม่ของ`Presentation` คลาสซึ่งแสดงถึงการนำเสนอ PowerPoint
 ## ขั้นตอนที่ 3: ดำเนินการกับการนำเสนอ (ไม่บังคับ)
 ```java
 //...มาทำงานที่นี่...

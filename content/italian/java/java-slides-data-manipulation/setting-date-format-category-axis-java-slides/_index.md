@@ -105,7 +105,7 @@ Questo è tutto! Hai impostato correttamente un formato di data per l'asse delle
 		chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
 		chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 		chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
-		pres.save(RunExamples.getOutPath() + "test.pptx", SaveFormat.Pptx);
+		pres.save("Your Output Directory" + "test.pptx", SaveFormat.Pptx);
 	}
 	finally
 	{

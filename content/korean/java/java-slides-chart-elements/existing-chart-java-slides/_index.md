@@ -12,7 +12,7 @@ url: /ko/java/chart-elements/existing-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 기존 차트를 수정하는 방법을 보여줍니다. 차트 데이터, 카테고리 이름, 시리즈 이름을 변경하고 차트에 새 시리즈를 추가하는 단계를 살펴보겠습니다. 프로젝트에 Java용 Aspose.Slides가 설정되어 있는지 확인하세요.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // 세 번째 차트 시리즈 가져오기
 series = chart.getChartData().getSeries().get_Item(2);
-//이제 계열 데이터를 채우는 중입니다.
+// 이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

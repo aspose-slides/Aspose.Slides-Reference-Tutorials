@@ -35,7 +35,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ConvertToPDF.pptx");
 ```
 
-## 3. lépés: Konvertálja a prezentációt PDF-be
+## 3. lépés: A prezentáció konvertálása PDF-be
 
  Most alakítsuk át a betöltött prezentációt PDF-fájllá az Aspose.Slides segítségével. Használjuk a`save` módszerrel a`SaveFormat.Pdf` lehetőség a prezentáció PDF-fájlként történő mentésére.
 

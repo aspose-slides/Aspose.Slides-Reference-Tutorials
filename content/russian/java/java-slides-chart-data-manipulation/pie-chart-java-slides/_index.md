@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## Шаг 4. Добавьте круговую диаграмму
 
 ```java
-//Добавьте круговую диаграмму с данными по умолчанию
+// Добавьте круговую диаграмму с данными по умолчанию
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ chart.setTitle(true);
 ## Шаг 6. Настройте данные диаграммы
 
 ```java
-// Установите первую серию для отображения значений
+//Установите первую серию для отображения значений
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Установка индекса таблицы данных диаграммы
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Добавляем новую серию
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Теперь заполняем данные серии
+// Теперь заполняем данные серии
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

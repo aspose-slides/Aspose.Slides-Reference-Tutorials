@@ -18,7 +18,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Gerekli paketleri Java kodunuza aktararak başlayın:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

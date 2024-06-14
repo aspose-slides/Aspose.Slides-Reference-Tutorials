@@ -21,7 +21,7 @@ Bu eğitimde Aspose.Slides for Java'yı kullanarak grafik veri hücresi formüll
 Öncelikle yeni bir PowerPoint sunusu oluşturalım ve ona bir grafik ekleyelim.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Java Slaytlarındaki Grafik Veri Hücresi Formülleri İçin Tam Kaynak Kodu
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

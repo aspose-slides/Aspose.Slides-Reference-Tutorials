@@ -48,7 +48,7 @@ using Aspose.Slides.Export;
 
 ## Βήμα 1: Φορτώστε την παρουσίαση
 
- Για να εργαστείτε με μια παρουσίαση, πρέπει πρώτα να τη φορτώσετε. Δώστε τη διαδρομή προς το αρχείο PowerPoint στο`presentationName` μεταβλητός.
+ Για να εργαστείτε με μια παρουσίαση, πρέπει πρώτα να τη φορτώσετε. Καταχωρίστε τη διαδρομή προς το αρχείο PowerPoint στο`presentationName` μεταβλητός.
 
 ```csharp
 string presentationName = Path.Combine("Your Document Directory", "placeholder.pptx");

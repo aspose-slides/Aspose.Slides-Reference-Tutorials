@@ -76,7 +76,7 @@ series.getFormat().getFill().getSolidFillColor().setColor(seriesColor);
 series.getInvertedSolidFillColor().setColor(Color.RED);
 ```
 
-Yukarıdaki kodda seriyi negatif değerler için dolgu rengini ters çevirecek şekilde ayarladık ve ters dolgunun rengini belirledik.
+Yukarıdaki kodda seriyi negatif değerler için dolgu rengini ters çevirecek şekilde ayarladık ve ters çevrilmiş dolgunun rengini belirledik.
 
 ## Adım 6: Sunuyu Kaydetme
 

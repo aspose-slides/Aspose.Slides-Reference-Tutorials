@@ -15,8 +15,8 @@ Klonowanie slajdów w prezentacjach programu PowerPoint może zaoszczędzić mn�
 
 Klonowanie slajdów w tej samej prezentacji jest częstym zadaniem, zwłaszcza gdy trzeba wielokrotnie odtworzyć konkretny slajd. Aspose.Slides dla Java znacznie upraszcza ten proces.
 
--  Klonuj slajdy w tej samej prezentacji: Dowiedz się, jak bez wysiłku klonować slajdy w ramach tej samej prezentacji. Nasz przewodnik[Klonuj slajd w tej samej prezentacji](./clone-slide-within-same-presentation-powerpoint/) zapewnia szczegółowe podejście krok po kroku.
--  Klonuj slajd do końca w tej samej prezentacji: chcesz sklonować slajd do końca prezentacji? Ten poradnik[Klonuj slajd do końca w ramach tej samej prezentacji](./clone-slide-end-within-same-presentation-powerpoint/)pokazuje dokładnie, jak to zrobić, zapewniając płynne uzupełnienie pokazu slajdów.
+-  Klonuj slajdy w tej samej prezentacji: Dowiedz się, jak bez wysiłku klonować slajdy w ramach tej samej prezentacji. Nasz przewodnik[Klonuj slajd w ramach tej samej prezentacji](./clone-slide-within-same-presentation-powerpoint/) zapewnia szczegółowe podejście krok po kroku.
+-  Klonuj slajd na koniec w tej samej prezentacji: chcesz sklonować slajd na koniec prezentacji? Ten poradnik[Klonuj slajd do końca w ramach tej samej prezentacji](./clone-slide-end-within-same-presentation-powerpoint/)pokazuje dokładnie, jak to zrobić, zapewniając płynne uzupełnienie pokazu slajdów.
 
 ## Klonowanie slajdów w różnych prezentacjach
 
@@ -24,7 +24,7 @@ Czasami trzeba sklonować slajdy z jednej prezentacji do drugiej. Może to być 
 
 -  Klonuj slajd na końcu innej prezentacji: Dowiedz się, jak z łatwością sklonować slajd na końcu innej prezentacji. Postępuj zgodnie z naszym obszernym przewodnikiem[Klonuj slajd na końcu innej prezentacji](./clone-slide-end-another-presentation-powerpoint/) aby uzyskać szczegółowy opis przejścia.
 -  Klonuj slajd w określonej pozycji w programie PowerPoint: Pozycjonowanie ma kluczowe znaczenie podczas klonowania slajdów w prezentacjach. Nasz poradnik[Klonuj slajd w określonej pozycji w programie PowerPoint](./clone-slide-specified-position-powerpoint/) uczy, jak umieszczać sklonowane slajdy w określonych pozycjach.
--  Klonuj slajd do innej prezentacji za pomocą wzorca: Utrzymywanie slajdu wzorcowego podczas klonowania ma kluczowe znaczenie dla spójności. Dowiedz się, jak to zrobić, korzystając z naszego przewodnika krok po kroku[Klonuj slajd do innej prezentacji z mistrzem](./clone-slide-another-presentation-master-powerpoint/).
+-  Klonuj slajd do innej prezentacji za pomocą wzorca: Utrzymanie slajdu wzorcowego podczas klonowania ma kluczowe znaczenie dla spójności. Dowiedz się, jak to zrobić, korzystając z naszego przewodnika krok po kroku[Klonuj slajd do innej prezentacji z mistrzem](./clone-slide-another-presentation-master-powerpoint/).
 
 ## Zaawansowane techniki klonowania slajdów
 
@@ -40,12 +40,12 @@ Klonuj slajdy programu PowerPoint w określonych pozycjach bez wysiłku za pomoc
 ### [Klonuj slajd na końcu innej prezentacji](./clone-slide-end-another-presentation-powerpoint/)
 Dowiedz się, jak sklonować slajd na końcu innej prezentacji za pomocą Aspose.Slides dla Java, w tym kompleksowym samouczku krok po kroku.
 ### [Klonuj slajd na końcu innej prezentacji w określonej pozycji](./clone-slide-end-another-specific-position-powerpoint/)
-Dowiedz się, jak klonować slajdy w Javie Przewodnik krok po kroku dotyczący używania Aspose.Slides dla Java do klonowania slajdów z jednej prezentacji programu PowerPoint do drugiej.
+Dowiedz się, jak klonować slajdy w Javie Przewodnik krok po kroku dotyczący używania Aspose.Slides for Java do klonowania slajdów z jednej prezentacji programu PowerPoint do drugiej.
 ### [Klonuj slajd do określonej sekcji w programie PowerPoint](./clone-slide-specified-section-powerpoint/)
 Bez wysiłku klonuj slajdy do określonych sekcji w programie PowerPoint za pomocą Aspose.Slides dla Java. Ulepsz swoje prezentacje dzięki temu przewodnikowi krok po kroku.
 ### [Klonuj slajd do innej prezentacji z mistrzem](./clone-slide-another-presentation-master-powerpoint/)
 Dowiedz się, jak klonować slajdy między prezentacjami w Javie za pomocą Aspose.Slides. Samouczek krok po kroku dotyczący konserwacji slajdów wzorcowych.
-### [Klonuj slajd w tej samej prezentacji](./clone-slide-within-same-presentation-powerpoint/)
-Klonuj slajdy w tej samej prezentacji, korzystając z Aspose.Slides dla Java, korzystając z naszego przewodnika. Idealny dla programistów, którzy chcą usprawnić manipulacje w programie PowerPoint.
+### [Klonuj slajd w ramach tej samej prezentacji](./clone-slide-within-same-presentation-powerpoint/)
+Klonuj slajdy w tej samej prezentacji, używając Aspose.Slides dla Java, korzystając z naszego przewodnika. Idealny dla programistów, którzy chcą usprawnić manipulacje w programie PowerPoint.
 ### [Klonuj slajd do końca w ramach tej samej prezentacji](./clone-slide-end-within-same-presentation-powerpoint/)
 Dowiedz się, jak sklonować slajd na końcu prezentacji za pomocą Aspose.Slides dla Java, korzystając z tego przewodnika krok po kroku. Idealny dla programistów Java.

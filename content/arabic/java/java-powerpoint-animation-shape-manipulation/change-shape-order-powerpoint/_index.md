@@ -19,11 +19,11 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/change-shape-order-po
 للبدء، تحتاج إلى استيراد الحزم الضرورية من مكتبة Aspose.Slides. ستسمح لك هذه الواردات بالعمل مع العروض التقديمية والشرائح والأشكال.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 في هذا الدليل، سنقوم بتقسيم عملية تغيير ترتيب الشكل إلى عدة خطوات لفهم أفضل وسهولة التنفيذ.
 ## الخطوة 1: قم بتحميل العرض التقديمي
- أولاً، تحتاج إلى تحميل ملف العرض التقديمي PowerPoint الذي تريد العمل معه. تتضمن هذه الخطوة تهيئة`Presentation` فئة مع المسار إلى ملف PowerPoint الخاص بك.
+ أولاً، تحتاج إلى تحميل ملف عرض PowerPoint التقديمي الذي تريد العمل معه. تتضمن هذه الخطوة تهيئة`Presentation` فئة مع المسار إلى ملف PowerPoint الخاص بك.
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation1 = new Presentation(dataDir + "HelloWorld.pptx");

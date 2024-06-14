@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 
 차트는 PowerPoint 프레젠테이션에서 데이터를 시각화하는 강력한 방법입니다. 경우에 따라 차트 내의 요소 크기 조정이나 위치 조정과 같은 다양한 이유로 차트 그림 영역의 크기를 알아야 할 수도 있습니다. 이 가이드에서는 Java 및 Aspose.Slides for Java를 사용하여 플롯 영역의 너비와 높이를 얻는 방법을 보여줍니다.
 
-## 전제조건
+## 전제 조건
 
  코드를 살펴보기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. Aspose 웹사이트에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 

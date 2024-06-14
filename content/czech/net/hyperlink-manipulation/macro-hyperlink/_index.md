@@ -60,7 +60,7 @@ IAutoShape shape = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.BlankBut
 
 Zde vytvoříme automatický tvar s typem "Prázdné tlačítko" na konkrétních souřadnicích (20, 20) a o rozměrech 80x30. Tyto hodnoty můžete přizpůsobit tak, aby vyhovovaly rozvržení vaší prezentace.
 
-### Krok 4: Nastavení kliknutí na makro hypertextový odkaz
+### Krok 4: Klepněte na hypertextový odkaz na makro
 
 Nyní přichází část, kde nastavíte kliknutí na makro hypertextový odkaz. Jako parametr budete muset zadat název makra.
 

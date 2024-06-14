@@ -88,7 +88,7 @@ pres.Save(dataDir + "YourModifiedPresentation.pptx", SaveFormat.Pptx);
 
  "सर्कल" और "कॉम्ब" जैसे ट्रांज़िशन लागू करके, आप अपनी स्लाइड्स में जान डाल सकते हैं और अपनी प्रस्तुतियों को ज़्यादा आकर्षक बना सकते हैं।[प्रलेखन](https://reference.aspose.com/slides/net/) Aspose.Slides for .NET की अधिक जानकारी और सुविधाओं के लिए.
 
-क्या आपके कोई प्रश्न हैं या आपको और सहायता की आवश्यकता है? Aspose.Slides समुदाय फ़ोरम देखें[यहाँ](https://forum.aspose.com/).
+ क्या आपके कोई प्रश्न हैं या आपको और सहायता की आवश्यकता है? Aspose.Slides समुदाय फ़ोरम देखें[यहाँ](https://forum.aspose.com/).
 
 ## पूछे जाने वाले प्रश्न
 

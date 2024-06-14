@@ -34,7 +34,7 @@ V bloku Prezentace vytvořte v plném měřítku obraz tvaru, pro který chcete 
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //Zde je váš kód pro uložení obrázku
+    // Zde je váš kód pro uložení obrázku
 }
 ```
 ## Krok 3: Uložte obrázek na disk
@@ -52,6 +52,6 @@ Ano, Aspose.Slides je kompatibilní s různými .NET frameworky a poskytuje flex
 ### Q3: Jak mohu získat dočasnou licenci pro Aspose.Slides?
  Dočasnou licenci pro Aspose.Slides můžete získat návštěvou[tento odkaz](https://purchase.aspose.com/temporary-license/).
 ### Q4: Kde najdu další podporu pro Aspose.Slides?
-Máte-li jakékoli dotazy nebo pomoc, neváhejte navštívit fórum podpory Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
+ Máte-li jakékoli dotazy nebo pomoc, neváhejte navštívit fórum podpory Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
 ### Q5: Mohu zakoupit Aspose.Slides pro .NET?
  Rozhodně! Chcete-li zakoupit Aspose.Slides pro .NET, navštivte stránku nákupu[tady](https://purchase.aspose.com/buy).

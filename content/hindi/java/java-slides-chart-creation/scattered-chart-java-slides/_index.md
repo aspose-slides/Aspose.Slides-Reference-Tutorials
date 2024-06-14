@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## चरण 2: स्लाइड जोड़ें और स्कैटर चार्ट बनाएं
 
- इसके बाद, एक स्लाइड जोड़ें और उस पर स्कैटर चार्ट बनाएं। हम इसका उपयोग करेंगे`ScatterWithSmoothLines` इस उदाहरण में चार्ट प्रकार.
+ इसके बाद, एक स्लाइड जोड़ें और उस पर स्कैटर चार्ट बनाएं। हम इसका उपयोग करेंगे`ScatterWithSmoothLines`इस उदाहरण में चार्ट प्रकार.
 
 ```java
 // पहली स्लाइड प्राप्त करें
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// डिफ़ॉल्ट चार्ट बनाना
+//डिफ़ॉल्ट चार्ट बनाना
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // डिफ़ॉल्ट चार्ट डेटा वर्कशीट इंडेक्स प्राप्त करना
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट का प्रकार कैसे बदल सकता हूँ?
 
- चार्ट प्रकार बदलने के लिए, का उपयोग करें`setType`चार्ट श्रृंखला पर विधि और वांछित चार्ट प्रकार प्रदान करें। उदाहरण के लिए,`series.setType(ChartType.Line)` श्रृंखला को लाइन चार्ट में बदल दिया जाएगा।
+ चार्ट प्रकार बदलने के लिए, का उपयोग करें`setType` चार्ट श्रृंखला पर विधि और वांछित चार्ट प्रकार प्रदान करें। उदाहरण के लिए,`series.setType(ChartType.Line)` श्रृंखला को लाइन चार्ट में बदल दिया जाएगा।
 
 ### मैं मार्कर का आकार और शैली कैसे अनुकूलित करूं?
 

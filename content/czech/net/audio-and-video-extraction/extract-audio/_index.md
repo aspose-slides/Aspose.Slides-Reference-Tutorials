@@ -65,7 +65,7 @@ byte[] audio = transition.Sound.BinaryData;
 System.Console.WriteLine("Length: " + audio.Length);
 ```
 
-je to! Úspěšně jste extrahovali zvuk ze snímku pomocí Aspose.Slides pro .NET.
+A je to! Úspěšně jste extrahovali zvuk ze snímku pomocí Aspose.Slides pro .NET.
 
 ## Závěr
 

@@ -14,7 +14,7 @@ url: /ko/net/presentation-conversion/export-presentation-to-xaml-format/
 
 튜토리얼을 시작하기 전에 Aspose.Slides for .NET에 대해 간략하게 소개하겠습니다. 개발자가 Microsoft PowerPoint 자체 없이도 PowerPoint 프레젠테이션을 생성, 수정, 변환 및 관리할 수 있는 강력한 라이브러리입니다. Aspose.Slides for .NET을 사용하면 PowerPoint 프레젠테이션과 관련된 다양한 작업을 자동화하여 개발 프로세스를 더욱 효율적으로 만들 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 이 튜토리얼을 진행하려면 다음이 필요합니다.
 

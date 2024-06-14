@@ -12,18 +12,18 @@ Czy chcesz usprawnić proces tworzenia prezentacji PowerPoint? Wyobraź sobie, �
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, omówmy wymagania wstępne. Upewnienie się, że wszystko jest na swoim miejscu, sprawi, że proces będzie przebiegał płynniej i wydajniej.
 ### Środowisko programistyczne Java
- Najpierw upewnij się, że masz skonfigurowane środowisko programistyczne Java. Będziesz potrzebować zainstalowanego na swoim komputerze pakietu JDK (Java Development Kit). Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+Najpierw upewnij się, że masz skonfigurowane środowisko programistyczne Java. Będziesz potrzebować zainstalowanego na swoim komputerze pakietu JDK (Java Development Kit). Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides dla biblioteki Java
  Następnie pobierz bibliotekę Aspose.Slides for Java. Można go zdobyć z[Strona pobierania Aspose.Slides](https://releases.aspose.com/slides/java/). Ta biblioteka zapewni wszystkie niezbędne narzędzia do programowego manipulowania prezentacjami PowerPoint.
-### Rozwój IDE
+### Programowanie IDE
 Korzystanie ze zintegrowanego środowiska programistycznego (IDE), takiego jak IntelliJ IDEA, Eclipse lub NetBeans, sprawi, że proces programowania będzie prostszy. Upewnij się, że Twoje IDE jest skonfigurowane do pracy z Javą.
 ### Licencja Aspose
- Aby uzyskać pełną funkcjonalność, możesz chcieć uzyskać licencję na Aspose.Slides. Możesz kupić jeden[Tutaj](https://purchase.aspose.com/buy) . Alternatywnie możesz ubiegać się o tzw[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)aby wypróbować funkcje przed zatwierdzeniem.
+ Aby uzyskać pełną funkcjonalność, możesz chcieć uzyskać licencję na Aspose.Slides. Możesz kupić jeden[Tutaj](https://purchase.aspose.com/buy) . Alternatywnie możesz ubiegać się o tzw[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby wypróbować funkcje przed zatwierdzeniem.
 ## Importuj pakiety
 Przed napisaniem kodu musisz zaimportować niezbędne pakiety z Aspose.Slides. Oto jak możesz to zrobić:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Podzielmy teraz proces na łatwe do wykonania etapy. Uważnie postępuj zgodnie z każdym krokiem, aby osiągnąć pożądany efekt.
 ## Krok 1: Skonfiguruj katalog danych
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## Krok 5: Sklonuj slajd do określonej sekcji
-Główną częścią tego samouczka jest klonowanie slajdu do określonej sekcji. Użyj`addClone` metoda klonowania pierwszego slajdu do drugiej sekcji.
+ Główną częścią tego samouczka jest klonowanie slajdu do określonej sekcji. Użyj`addClone` metoda klonowania pierwszego slajdu do drugiej sekcji.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

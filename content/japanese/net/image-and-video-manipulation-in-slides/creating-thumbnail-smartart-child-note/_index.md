@@ -34,7 +34,7 @@ Presentation pres = new Presentation();
 ISmartArt smart = pres.Slides[0].Shapes.AddSmartArt(10, 10, 400, 300, SmartArtLayoutType.BasicCycle);
 ```
 ## ステップ3: ノード参照を取得する
-SmartArt 内の特定のノードを操作するには、インデックスを使用してその参照を取得します。
+SmartArt 内の特定のノードを操作するには、そのインデックスを使用してその参照を取得します。
 ```csharp
 ISmartArtNode node = smart.Nodes[1];
 ```
@@ -59,6 +59,6 @@ A: もちろんです! Aspose.Slides ではさまざまな SmartArt レイアウ
 ### Q: テスト目的で一時ライセンスを利用できますか?
  A: はい、一時ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/)テストと評価のため。
 ### Q: Aspose.Slides コミュニティでサポートを受けたり、コミュニティとつながったりするには、どこですればよいですか?
-A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティと関わり、質問し、解決策を見つけます。
+ A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティと関わり、質問し、解決策を見つけます。
 ### Q: Aspose.Slides for .NET を購入できますか?
  A: もちろんです！購入オプションをご覧ください[ここ](https://purchase.aspose.com/buy)プロジェクトで Aspose.Slides の可能性を最大限に引き出します。

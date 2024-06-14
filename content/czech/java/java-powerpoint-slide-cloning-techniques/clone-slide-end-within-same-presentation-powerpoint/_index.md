@@ -1,6 +1,6 @@
 ---
-title: Klonovat snímek do konce v rámci stejné prezentace
-linktitle: Klonovat snímek do konce v rámci stejné prezentace
+title: Klonovat posunutím do konce v rámci stejné prezentace
+linktitle: Klonovat posunutím do konce v rámci stejné prezentace
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak klonovat snímek na konec prezentace pomocí Aspose.Slides for Java, pomocí tohoto podrobného průvodce. Ideální pro vývojáře v Javě.
 type: docs
@@ -21,7 +21,7 @@ Nejprve musíte do svého projektu importovat potřebné balíčky z Aspose.Slid
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte svůj projekt
 Chcete-li začít, nastavte svůj projekt Java ve vašem preferovaném IDE a zahrňte knihovnu Aspose.Slides do závislostí vašeho projektu.
@@ -59,7 +59,7 @@ Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům pr
 ### Mohu klonovat více snímků najednou?
  Ano, můžete klonovat více snímků procházením snímků, které chcete klonovat, a pomocí`addClone` metoda pro každého.
 ### Je Aspose.Slides for Java zdarma?
- Aspose.Slides for Java je placená knihovna, ale můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) vyzkoušet jeho vlastnosti.
+ Aspose.Slides for Java je placená knihovna, ale můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) otestovat jeho vlastnosti.
 ### Jak mohu získat podporu pro Aspose.Slides?
  Můžete získat podporu od[Fórum podpory Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Mohu použít Aspose.Slides for Java k převodu prezentací do PDF?

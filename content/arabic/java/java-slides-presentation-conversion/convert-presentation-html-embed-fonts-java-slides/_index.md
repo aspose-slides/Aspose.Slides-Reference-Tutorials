@@ -17,7 +17,7 @@ url: /ar/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 قبل أن نتعمق في التعليمات البرمجية وعملية التحويل، تأكد من توفر المتطلبات الأساسية التالية:
 
 - تم تثبيت Java Development Kit (JDK) على نظامك.
-- Aspose.Slides for Java API، والذي يمكنك التنزيل منه[هنا](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API، والذي يمكنك التنزيل منه[هنا](https://releases.aspose.com/slides/java/).
 -  ملف العرض التقديمي (على سبيل المثال،`presentation.pptx`) الذي تريد تحويله إلى HTML.
 
 ## الخطوة 1: إعداد بيئة جافا
@@ -26,7 +26,7 @@ url: /ar/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## الخطوة 2: تحميل ملف العرض التقديمي
 
- في كود Java الخاص بك، تحتاج إلى تحميل ملف العرض التقديمي الذي تريد تحويله. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك.
+في كود Java الخاص بك، تحتاج إلى تحميل ملف العرض التقديمي الذي تريد تحويله. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -59,7 +59,7 @@ finally
 
 ## الخطوة 5: حفظ ملف HTML
 
-الخطوة الأخيرة هي حفظ ملف HTML بالخطوط المضمنة. سيتم حفظ ملف HTML في الدليل المحدد، مما يضمن تضمين كافة الخطوط.
+الخطوة الأخيرة هي حفظ ملف HTML بالخطوط المضمنة. سيتم حفظ ملف HTML في الدليل المحدد، مما يضمن تضمين جميع الخطوط.
 
 هذا كل شيء! لقد نجحت في تحويل عرض تقديمي إلى HTML أثناء تضمين جميع الخطوط باستخدام Aspose.Slides لـ Java.
 
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ finally
 
 ### هل يمكنني تخصيص مخرجات HTML بشكل أكبر، مثل التصميم والتخطيط؟
 
- نعم، يمكنك تخصيص مخرجات HTML عن طريق تعديل ملف`HtmlOptions`وقالب HTML المستخدم للتنسيق. يوفر Aspose.Slides for Java المرونة في هذا الصدد.
+ نعم، يمكنك تخصيص مخرجات HTML عن طريق تعديل ملف`HtmlOptions` وقالب HTML المستخدم للتنسيق. يوفر Aspose.Slides for Java المرونة في هذا الصدد.
 
 ### هل هناك أي قيود عند تضمين الخطوط في HTML؟
 

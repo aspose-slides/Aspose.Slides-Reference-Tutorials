@@ -21,7 +21,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet engedélyezni az Írásvé
 Kezdjük egy új PowerPoint prezentáció létrehozásával az Aspose.Slides for Java használatával. Ha már van prezentációja, kihagyhatja ezt a lépést.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Végül a prezentációt úgy mentjük el, hogy engedélyezve van a Read-Only Re
 ## Teljes forráskód a Java Slides csak olvasható, ajánlott tulajdonságaihoz
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 パーセンテージを表示するには、グラフの垂直軸の数値形式を設定する必要があります。
 
 ```java
-//NumberFormatLinkedToSource を false に設定する
+// NumberFormatLinkedToSource を false に設定する
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -74,7 +74,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 
 ## ステップ5: データラベルをカスタマイズする
 
-次に、データ ラベルの外観をカスタマイズしましょう。
+次に、データ ラベルの外観をカスタマイズします。
 
 ```java
 // LabelFormatプロパティの設定
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 //スライドにパーセント積み上げ縦棒グラフを追加する
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//NumberFormatLinkedToSource を false に設定する
+// NumberFormatLinkedToSource を false に設定する
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();

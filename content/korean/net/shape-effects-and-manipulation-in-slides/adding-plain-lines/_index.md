@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
 ## 소개
 매력적이고 시각적으로 매력적인 PowerPoint 프레젠테이션을 만들려면 다양한 모양과 요소를 통합해야 하는 경우가 많습니다. .NET으로 작업하는 경우 Aspose.Slides는 프로세스를 단순화하는 강력한 도구입니다. 이 튜토리얼은 .NET용 Aspose.Slides를 사용하여 프리젠테이션 슬라이드에 일반 선을 추가하는 데 중점을 둡니다. 따라하기 쉬운 이 가이드를 따라 프레젠테이션을 개선해 보세요.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - .NET 프로그래밍에 대한 기본 지식.
 - Visual Studio 또는 선호하는 .NET 개발 환경을 설치했습니다.

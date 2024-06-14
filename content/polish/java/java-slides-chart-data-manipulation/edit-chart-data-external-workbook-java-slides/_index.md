@@ -10,7 +10,7 @@ url: /pl/java/chart-data-manipulation/edit-chart-data-external-workbook-java-sli
 
 ## Wprowadzenie do edycji danych wykresu w zewnętrznym skoroszycie w aplikacji Java Slides
 
-tym przewodniku pokażemy, jak edytować dane wykresu w zewnętrznym skoroszycie za pomocą Aspose.Slides dla Java. Dowiesz się, jak programowo modyfikować dane wykresów w prezentacji programu PowerPoint. Upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides dla Java w swoim projekcie.
+W tym przewodniku pokażemy, jak edytować dane wykresu w zewnętrznym skoroszycie za pomocą Aspose.Slides dla Java. Dowiesz się, jak programowo modyfikować dane wykresów w prezentacji programu PowerPoint. Upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides dla Java w swoim projekcie.
 
 ## Warunki wstępne
 
@@ -75,7 +75,7 @@ Teraz pomyślnie edytowałeś dane wykresu w zewnętrznym skoroszycie w prezenta
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -84,13 +84,13 @@ Teraz pomyślnie edytowałeś dane wykresu w zewnętrznym skoroszycie w prezenta
 ```
 ## Wniosek
 
-tym obszernym przewodniku omówiliśmy, jak edytować dane wykresów w zewnętrznych skoroszytach w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Postępując zgodnie ze szczegółowymi instrukcjami i przykładami kodu źródłowego, zdobyłeś wiedzę i umiejętności umożliwiające łatwe programowe modyfikowanie danych wykresów.
+W tym obszernym przewodniku omówiliśmy, jak edytować dane wykresów w zewnętrznych skoroszytach w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Postępując zgodnie ze szczegółowymi instrukcjami i przykładami kodu źródłowego, zdobyłeś wiedzę i umiejętności umożliwiające łatwe programowe modyfikowanie danych wykresów.
 
 ## Często zadawane pytania
 
 ### Jak określić inny wykres lub slajd?
 
- Aby uzyskać dostęp do innego wykresu lub slajdu, zmodyfikuj odpowiedni indeks w pliku`getSlides().get_Item()` I`getShapes().get_Item()` metody. Pamiętaj, że indeksowanie zaczyna się od 0.
+ Aby uzyskać dostęp do innego wykresu lub slajdu, zmodyfikuj odpowiedni indeks w pliku`getSlides().get_Item()` I`getShapes().get_Item()`metody. Pamiętaj, że indeksowanie zaczyna się od 0.
 
 ### Czy mogę edytować dane na wielu wykresach w tej samej prezentacji?
 

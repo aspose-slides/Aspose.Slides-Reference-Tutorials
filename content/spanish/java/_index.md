@@ -30,7 +30,7 @@ Una vez que haya dominado los conceptos básicos, es hora de explorar las funcio
 
 ## Únase a la comunidad Aspose
 
- medida que profundiza en el mundo de Aspose.Slides para Java, es posible que encuentre preguntas o desafíos. No te preocupes; No estás solo. El[Aspose foro de la comunidad](https://forum.aspose.com/) es un centro para que desarrolladores como usted busquen ayuda, compartan experiencias y colaboren en proyectos.
+ medida que profundiza en el mundo de Aspose.Slides para Java, es posible que encuentre preguntas o se enfrente a desafíos. No te preocupes; No estás solo. El[Aspose foro de la comunidad](https://forum.aspose.com/) es un centro para que desarrolladores como usted busquen ayuda, compartan experiencias y colaboren en proyectos.
 
 En conclusión, Aspose.Slides para Java cambia las reglas del juego para los desarrolladores que buscan crear presentaciones dinámicas y atractivas en aplicaciones Java. Nuestros tutoriales serán sus compañeros de confianza en este emocionante viaje y le ayudarán a desbloquear todo el potencial de esta extraordinaria API. ¿Entonces, Qué esperas? ¡Sumérgete en los tutoriales y deja que tu creatividad brille con Aspose.Slides para Java!
 
@@ -80,3 +80,27 @@ Aprenda a animar y manipular formas en PowerPoint usando Aspose.Slides para Java
 Descubra los tutoriales de geometría y formato de formas de Java PowerPoint. Aprenda a rellenar formas, buscar formas y crear geometría personalizada con Aspose.Slides para Java.
 ### [Técnicas de clonación de diapositivas de PowerPoint en Java](./java-powerpoint-slide-cloning-techniques/)
 Clonación maestra de diapositivas en PowerPoint usando Aspose.Slides para Java. Aprenda a clonar diapositivas dentro de la misma presentación o entre presentaciones sin problemas.
+### [Manipulación de cuadros de texto de Java PowerPoint](./java-powerpoint-text-box-manipulation/)
+Explore tutoriales completos para la manipulación de cuadros de texto de PowerPoint en Java con Aspose.Slides. Mejora tus presentaciones paso a paso con nuestras guías.
+### [Gestión de fuentes de PowerPoint Java](./java-powerpoint-font-management/)
+Descubra los tutoriales de administración de fuentes de PowerPoint en Java utilizando Aspose.Slides para Java. Aprenda técnicas de incrustación, compresión y personalización para mejorar las presentaciones.
+### [Animación y efectos de PowerPoint en Java](./java-powerpoint-animation-effects/)
+Domine las animaciones y efectos de Java PowerPoint con nuestros completos tutoriales. Aprenda a agregar animaciones y sombras exteriores e interiores usando Aspose.Slides para Java.
+### [Alineación y formato de texto de PowerPoint en Java](./java-powerpoint-text-alignment-formatting/)
+Descubra los tutoriales de formato y alineación de texto de Java PowerPoint. Aprenda a alinear, formatear, exportar y resaltar texto usando Aspose.Slides para Java. 
+### [Resaltado de texto de PowerPoint en Java y reglas alternativas](./java-powerpoint-text-highlighting-fallback-rules/)
+Domine el resaltado de texto y las reglas de reserva de fuentes en Java PowerPoint con Aspose.Slides. Siga nuestros tutoriales para mejorar y automatizar sus presentaciones sin problemas.
+### [Gestión de textos y párrafos de Java PowerPoint](./java-powerpoint-text-paragraph-management/)
+Domine la gestión de textos y párrafos de Java PowerPoint con Aspose.Slides. Aprenda a importar texto HTML, administrar el interlineado, crear viñetas y alinear párrafos.
+### [Gestión de fuentes de PowerPoint Java y reemplazo de texto](./java-powerpoint-font-management-text-replacement/)
+Domine la administración de fuentes de Java PowerPoint y el reemplazo de texto con Aspose.Slides. Aprenda a cargar fuentes personalizadas, administrar fuentes incrustadas y reemplazar texto sin problemas.
+### [Propiedades avanzadas de párrafo y fuente de Java PowerPoint](./java-powerpoint-advanced-paragraph-font-properties/)
+Domine las propiedades avanzadas de párrafos y fuentes en Java PowerPoint usando Aspose.Slides. Aprenda a personalizar fuentes, agregar viñetas de imágenes y utilizar fuentes alternativas.
+### [Personalización de fuentes y texto de PowerPoint en Java](./java-powerpoint-text-font-customization/)
+Explore tutoriales sobre personalización de fuentes y texto de PowerPoint en Java con Aspose.Slides. Aprenda a rotar, reemplazar fuentes y más para mejorar sus presentaciones.
+### [Manipulación de tablas de PowerPoint en Java](./java-powerpoint-table-manipulation/)
+Domine la manipulación de tablas de PowerPoint en Java con Aspose.Slides. Aprenda a agregar imágenes, dividir celdas, crear tablas y más a través de nuestros tutoriales detallados paso a paso.
+### [Actualizaciones y formato de tablas de PowerPoint de Java](./java-powerpoint-table-formatting-updates/)
+Mejore las presentaciones de Java PowerPoint con formato de tabla y actualizaciones usando Aspose.Slides. Aprenda a agregar bordes, dar formato al texto en columnas y filas y actualizar tablas.
+### [Manipulación de SmartArt de Java PowerPoint](./java-powerpoint-smartart-manipulation/)
+Aprenda a manipular Java PowerPoint SmartArt de forma eficaz con los tutoriales de GroupDocs.Slides para Java. ¡Acceda a nodos secundarios, agregue nodos, cambie diseños y más!

@@ -20,7 +20,7 @@ url: /el/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Προετοιμάστε τον Κατάλογο δεδομένων σας
  Δημιουργήστε έναν κατάλογο για να αποθηκεύσετε το αρχείο PowerPoint και άλλους πόρους. Ας το ονομάσουμε`dataDir`.

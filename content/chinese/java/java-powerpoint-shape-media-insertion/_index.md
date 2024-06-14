@@ -50,6 +50,6 @@ url: /zh/java/java-powerpoint-shape-media-insertion/
 ### [在 PowerPoint 中添加图像填充的拉伸偏移](./add-stretch-offset-image-fill-powerpoint/)
 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中添加图像填充的拉伸偏移。包含分步教程。
 ### [在 PowerPoint 中添加视频帧](./add-video-frame-powerpoint/)
-了解如何使用 Aspose.Slides for Java 将视频内容无缝集成到 PowerPoint 演示文稿中。您的幻灯片带有多媒体元素，可以吸引观众。
+了解如何使用 Aspose.Slides for Java 将视频内容无缝集成到 PowerPoint 演示文稿中。您的幻灯片包含多媒体元素，以吸引观众。
 ### [在 PowerPoint 中从 Web 源添加视频帧](./add-video-frame-web-source-powerpoint/)
 了解如何使用 Aspose.Slides for Java 添加来自 Web 资源的视频帧来增强您的 PowerPoint 演示文稿。

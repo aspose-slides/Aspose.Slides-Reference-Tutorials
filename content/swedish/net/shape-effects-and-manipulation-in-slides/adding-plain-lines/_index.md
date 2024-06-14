@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## Steg 4: Lägg till en Autoshape-linje
-Lägg till en linjeautoform på bilden:
+Lägg till en linjeautoform till bilden:
 ```csharp
 sld.Shapes.AddAutoShape(ShapeType.Line, 50, 150, 300, 0);
 ```

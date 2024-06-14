@@ -10,7 +10,7 @@ url: /fr/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frame
 
 ## Introduction
 
-Dans le domaine des présentations dynamiques et interactives, les objets Object Linking and Embedding (OLE) jouent un rôle central. Ces objets vous permettent d'intégrer de manière transparente le contenu d'autres applications, enrichissant vos diapositives avec polyvalence et interactivité. Aspose.Slides, une API puissante pour travailler avec des fichiers de présentation, permet aux développeurs d'exploiter le potentiel des cadres d'objets OLE dans les diapositives de présentation. Cet article explore les subtilités de l'accès aux cadres d'objets OLE à l'aide d'Aspose.Slides pour .NET, vous guidant tout au long du processus avec clarté et des exemples pratiques.
+Dans le domaine des présentations dynamiques et interactives, les objets Object Linking and Embedding (OLE) jouent un rôle central. Ces objets vous permettent d'intégrer de manière transparente le contenu d'autres applications, enrichissant vos diapositives avec polyvalence et interactivité. Aspose.Slides, une API puissante pour travailler avec des fichiers de présentation, permet aux développeurs d'exploiter le potentiel des cadres d'objets OLE dans les diapositives de présentation. Cet article explore les subtilités de l'accès aux cadres d'objets OLE à l'aide d'Aspose.Slides pour .NET, vous guidant tout au long du processus avec clarté et exemples pratiques.
 
 ## Accès aux cadres d'objets OLE : un guide étape par étape
 

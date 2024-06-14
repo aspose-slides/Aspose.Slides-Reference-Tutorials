@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 เมื่อคุณลบสไลด์ที่ต้องการแล้ว คุณจะต้องบันทึกงานนำเสนอที่แก้ไข:
 
 ```csharp
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

@@ -17,7 +17,7 @@ Trong thời đại kỹ thuật số ngày nay, việc chuyển đổi bản tr
 Trước khi chúng ta đi sâu vào mã và quy trình chuyển đổi, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-- Aspose.Slides cho API Java mà bạn có thể tải xuống từ[đây](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides cho API Java mà bạn có thể tải xuống từ[đây](https://releases.aspose.com/slides/java/).
 -  Một tập tin trình bày (ví dụ,`presentation.pptx`) mà bạn muốn chuyển đổi sang HTML.
 
 ## Bước 1: Thiết lập môi trường Java
@@ -26,7 +26,7 @@ Trước khi chúng ta đi sâu vào mã và quy trình chuyển đổi, hãy đ
 
 ## Bước 2: Tải tệp trình bày
 
- Trong mã Java, bạn cần tải tệp trình bày mà bạn muốn chuyển đổi. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn.
+Trong mã Java, bạn cần tải tệp trình bày mà bạn muốn chuyển đổi. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ Bạn có thể kiểm tra mã nguồn của tệp HTML và tìm tài liệu tha
 
 ### Tôi có thể tùy chỉnh thêm đầu ra HTML, chẳng hạn như kiểu dáng và bố cục không?
 
- Có, bạn có thể tùy chỉnh đầu ra HTML bằng cách sửa đổi`HtmlOptions`và mẫu HTML được sử dụng để định dạng. Aspose.Slides for Java cung cấp tính linh hoạt trong vấn đề này.
+ Có, bạn có thể tùy chỉnh đầu ra HTML bằng cách sửa đổi`HtmlOptions` và mẫu HTML được sử dụng để định dạng. Aspose.Slides for Java cung cấp tính linh hoạt trong vấn đề này.
 
 ### Có bất kỳ hạn chế nào khi nhúng phông chữ vào HTML không?
 

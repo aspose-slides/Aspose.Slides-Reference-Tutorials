@@ -12,14 +12,14 @@ Czy chcesz manipulować kształtami w prezentacjach programu PowerPoint przy uż
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 1.  Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides dla Java: Pobierz bibliotekę Aspose.Slides dla Java ze strony[Tutaj](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides dla Java: Pobierz bibliotekę Aspose.Slides dla Java ze strony[Tutaj](https://releases.aspose.com/slides/java/).
 3. Zintegrowane środowisko programistyczne (IDE): Użyj IDE, takiego jak IntelliJ IDEA lub Eclipse, do pisania i uruchamiania kodu Java.
 4. Podstawowa znajomość języka Java: Podstawowa znajomość programowania w języku Java pomoże Ci postępować zgodnie z tym samouczkiem.
 ## Importuj pakiety
 Na początek musimy zaimportować niezbędne pakiety z biblioteki Aspose.Slides. Oto jak to zrobić:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Podzielmy proces usuwania segmentu z kształtu geometrycznego na slajdzie programu PowerPoint na kilka etapów.
 ## Krok 1: Utwórz nową prezentację
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Krok 6: Zapisz prezentację
 Na koniec zapisz zmodyfikowaną prezentację do pliku.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Krok 7: Oczyść zasoby
@@ -59,7 +59,7 @@ Zawsze pamiętaj o wyczyszczeniu zasobów, aby zapobiec wyciekom pamięci.
 if (pres != null) pres.dispose();
 ```
 ## Wniosek
-I masz to! Dzięki Aspose.Slides dla Java manipulowanie kształtami w prezentacjach programu PowerPoint jest proste i wydajne. Wykonując czynności opisane w tym samouczku, możesz łatwo usuwać segmenty z kształtów geometrycznych, co daje większą kontrolę nad projektem i funkcjonalnością slajdów. Miłego kodowania!
+masz to! Dzięki Aspose.Slides dla Java manipulowanie kształtami w prezentacjach programu PowerPoint jest proste i wydajne. Wykonując czynności opisane w tym samouczku, możesz łatwo usuwać segmenty z kształtów geometrycznych, co daje większą kontrolę nad projektem i funkcjonalnością slajdów. Miłego kodowania!
 ## Często zadawane pytania
 ### Co to jest Aspose.Slides dla Java?
 Aspose.Slides for Java to potężny interfejs API do programowego tworzenia, modyfikowania i zarządzania prezentacjami programu PowerPoint.

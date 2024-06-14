@@ -9,20 +9,20 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/change-ole-object-dat
 ---
 ## 소개
 PowerPoint 프레젠테이션에서 OLE 개체 데이터를 변경하는 것은 각 슬라이드를 수동으로 편집하지 않고 포함된 콘텐츠를 업데이트해야 하는 경우 중요한 작업이 될 수 있습니다. 이 포괄적인 가이드는 PowerPoint 프레젠테이션 처리를 위해 설계된 강력한 라이브러리인 Aspose.Slides for Java를 사용하는 프로세스를 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼이 유용하고 따라하기 쉽다는 것을 알게 될 것입니다.
-## 전제조건
+## 전제 조건
 코드를 살펴보기 전에 시작하는 데 필요한 모든 것이 갖추어져 있는지 확인하겠습니다.
 1.  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides for Java: 다음에서 최신 버전을 다운로드하세요.[Aspose.Slides 다운로드 페이지](https://releases.aspose.com/slides/java/).
 3. 통합 개발 환경(IDE): IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 Java IDE를 사용할 수 있습니다.
 4.  Aspose.Cells for Java: OLE 개체 내에 포함된 데이터를 수정하는 데 필요합니다. 다음에서 다운로드하세요.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/java/).
-5. 프리젠테이션 파일: OLE 개체가 포함된 PowerPoint 파일을 준비합니다. 이 튜토리얼에서는 이름을 지정하겠습니다.`ChangeOLEObjectData.pptx`.
+5.  프리젠테이션 파일: OLE 개체가 포함된 PowerPoint 파일을 준비합니다. 이 튜토리얼에서는 이름을 지정하겠습니다.`ChangeOLEObjectData.pptx`.
 ## 패키지 가져오기
 먼저 Java 프로젝트에 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

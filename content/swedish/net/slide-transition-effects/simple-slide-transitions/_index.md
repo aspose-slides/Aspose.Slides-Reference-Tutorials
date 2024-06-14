@@ -88,7 +88,7 @@ I den här handledningen har du lärt dig hur du använder Aspose.Slides för .N
 
  Genom att använda övergångar som "Circle" och "Comb" kan du ge liv åt dina bilder och göra dina presentationer mer engagerande. Glöm inte att utforska[dokumentation](https://reference.aspose.com/slides/net/) för mer information och funktioner i Aspose.Slides för .NET.
 
-Har du frågor eller behöver ytterligare hjälp? Kolla in Aspose.Slides community-forum[här](https://forum.aspose.com/).
+ Har du frågor eller behöver ytterligare hjälp? Kolla in Aspose.Slides community-forum[här](https://forum.aspose.com/).
 
 ## Vanliga frågor
 

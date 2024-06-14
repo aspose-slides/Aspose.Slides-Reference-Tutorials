@@ -54,7 +54,7 @@ pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Expor
 ```
 Ismételje meg ezeket a lépéseket további effektusok eléréséhez, vagy szabja testre azokat a prezentációs követelményeknek megfelelően.
 ## Következtetés
-A dinamikus animációk beépítése PowerPoint-prezentációiba még soha nem volt ilyen egyszerű az Aspose.Slides for .NET segítségével. Ez a lépésenkénti útmutató felvértezi az animációtípusok kezeléséhez szükséges ismeretekkel, így biztosítva, hogy diákjai maradandó benyomást hagyjanak a közönségben.
+A dinamikus animációk beépítése PowerPoint-prezentációiba még soha nem volt ilyen egyszerű az Aspose.Slides for .NET segítségével. Ez a részletes útmutató felvértezi Önt az animációtípusok kezeléséhez szükséges ismeretekkel, így biztosítva, hogy diákjai maradandó benyomást hagyjanak a közönségben.
 ## Gyakran Ismételt Kérdések
 ### Alkalmazhatom ezeket az animációkat egy dián belüli adott objektumokra?
 Igen, megcélozhat bizonyos objektumokat, ha hozzáfér a sorozaton belüli egyedi hatásukhoz.

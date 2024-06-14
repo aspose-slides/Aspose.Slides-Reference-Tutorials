@@ -12,14 +12,14 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-
 ## 先决条件
 在开始之前，请确保您已准备好以下物品：
 1.  Java 开发工具包 (JDK)：确保您的系统上已安装 JDK。您可以从[Oracle 网站](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java：从以下网址下载 Aspose.Slides for Java 库[这里](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java：从以下网址下载 Aspose.Slides for Java 库[这里](https://releases.aspose.com/slides/java/).
 3. 集成开发环境 (IDE)：使用 IntelliJ IDEA 或 Eclipse 等 IDE 编写和运行 Java 代码。
 4. Java 基础知识：对 Java 编程的基本了解将帮助您学习本教程。
 ## 导入包
 首先，我们需要从 Aspose.Slides 库导入必要的包。操作方法如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 让我们将从 PowerPoint 幻灯片中的几何形状中删除线段的过程分解为多个步骤。
 ## 步骤 1：创建新演示文稿
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## 步骤 6：保存演示文稿
 最后，将修改后的演示文稿保存到文件中。
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## 步骤 7：清理资源

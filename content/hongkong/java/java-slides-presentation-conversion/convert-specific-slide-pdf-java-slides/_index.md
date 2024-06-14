@@ -16,7 +16,7 @@ url: /zh-hant/java/presentation-conversion/convert-specific-slide-pdf-java-slide
 
 在我們深入研究程式碼之前，請確保您具備以下先決條件：
 
-1. Aspose.Slides for Java 函式庫：您需要安裝 Aspose.Slides for Java 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides for Java 函式庫：您需要安裝 Aspose.Slides for Java 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/slides/java/).
 
 2. Java 開發環境：確保您的系統上設定了 Java 開發環境。
 

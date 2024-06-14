@@ -8,7 +8,7 @@ weight: 18
 url: /sv/java/data-manipulation/set-data-range-java-slides/
 ---
 
-## Introduktion till att ställa in dataintervall i Java Slides
+## Introduktion till inställning av dataintervall i Java Slides
 
 Presentationer innehåller ofta diagram och grafer för att förmedla data effektivt. Aspose.Slides för Java förenklar processen att arbeta med diagram i PowerPoint-presentationer. I den här handledningen kommer vi att fokusera på den avgörande uppgiften att ställa in ett dataintervall för ett diagram i en presentation.
 
@@ -70,7 +70,7 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen lärde vi oss hur man ställer in ett dataintervall för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Detta API förenklar processen att arbeta med presentationer och gör det möjligt för utvecklare att automatisera uppgifter effektivt.
+den här handledningen lärde vi oss hur man ställer in ett dataintervall för ett diagram i en PowerPoint-presentation med Aspose.Slides för Java. Detta API förenklar processen att arbeta med presentationer och gör det möjligt för utvecklare att automatisera uppgifter effektivt.
 
 ## FAQ's
 

@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 {
     ISlide slide = pres.Slides[0];
     //創建一些形狀
-    //……
+    //…
 }
 ```
 ## 步驟 2：對齊投影片內的形狀

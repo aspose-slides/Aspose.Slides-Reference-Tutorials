@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-po
 Αρχικά, πρέπει να εισαγάγετε τα απαραίτητα πακέτα στον κώδικα Java σας για να χρησιμοποιήσετε τις λειτουργίες του Aspose.Slides. Συμπεριλάβετε τις ακόλουθες δηλώσεις εισαγωγής στην αρχή του αρχείου σας Java:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
 ### Το Aspose.Slides υποστηρίζει άλλες μορφές εικόνας για την αποθήκευση μικρογραφιών;
 Ναι, εκτός από το PNG, το Aspose.Slides υποστηρίζει την αποθήκευση μικρογραφιών σε διάφορες μορφές εικόνας όπως JPEG, GIF και BMP.
 ### Είναι το Aspose.Slides κατάλληλο για εμπορική χρήση;
-Ναι, το Aspose.Slides προσφέρει εμπορικές άδειες για επιχειρήσεις και οργανισμούς. Μπορείτε να αγοράσετε άδεια από[εδώ](https://purchase.aspose.com/buy).
+ Ναι, το Aspose.Slides προσφέρει εμπορικές άδειες για επιχειρήσεις και οργανισμούς. Μπορείτε να αγοράσετε άδεια από[εδώ](https://purchase.aspose.com/buy).
 ### Μπορώ να δοκιμάσω το Aspose.Slides πριν από την αγορά;
  Απολύτως! Μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Slides από[εδώ](https://releases.aspose.com/) να αξιολογήσει τα χαρακτηριστικά και τις δυνατότητές του.
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Slides;

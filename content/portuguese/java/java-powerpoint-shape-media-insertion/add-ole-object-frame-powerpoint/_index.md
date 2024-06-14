@@ -12,13 +12,13 @@ Adicionar um quadro de objeto OLE (vinculação e incorporação de objetos) em 
 ### Pré-requisitos
 Antes de começarmos, certifique-se de ter os seguintes pré-requisitos em vigor:
 1. Ambiente de Desenvolvimento Java: Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema.
-2. Aspose.Slides para Java: Baixe e instale Aspose.Slides para Java do site[aqui](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides para Java: Baixe e instale Aspose.Slides para Java do site[aqui](https://releases.aspose.com/slides/java/).
 3. Compreensão básica da programação Java: Familiarize-se com os conceitos e sintaxe da programação Java.
 ## Importar pacotes
 Primeiramente, você precisa importar os pacotes necessários para aproveitar as funcionalidades do Aspose.Slides for Java. Veja como você pode fazer isso:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Certifique-se de que seu projeto esteja configurado corretamente e que a bibliot
 Crie um objeto Presentation para representar o arquivo PowerPoint com o qual você está trabalhando:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Instancie a classe Presentation que representa o PPTX
 Presentation pres = new Presentation();
 ```

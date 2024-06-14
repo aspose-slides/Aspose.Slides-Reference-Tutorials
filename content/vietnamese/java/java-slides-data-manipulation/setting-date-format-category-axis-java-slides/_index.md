@@ -80,7 +80,7 @@ pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 
 Đó là nó! Bạn đã đặt thành công định dạng ngày cho trục danh mục trong biểu đồ PowerPoint bằng Aspose.Slides cho Java.
 
-## Mã nguồn hoàn chỉnh để thiết lập định dạng ngày cho trục danh mục trong các slide Java
+## Mã nguồn hoàn chỉnh để thiết lập định dạng ngày cho trục danh mục trong Java Slides
 
 ```java
 	// Đường dẫn đến thư mục tài liệu.
@@ -105,7 +105,7 @@ pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 		chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
 		chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 		chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
-		pres.save(RunExamples.getOutPath() + "test.pptx", SaveFormat.Pptx);
+		pres.save("Your Output Directory" + "test.pptx", SaveFormat.Pptx);
 	}
 	finally
 	{

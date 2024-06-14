@@ -65,7 +65,7 @@ Dieser Codeausschnitt fügt die duplizierte Folie am Ende der Präsentation hinz
 Nachdem wir die duplizierte Folie hinzugefügt haben, müssen wir die geänderte Präsentation speichern. So geht's:
 
 ```csharp
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

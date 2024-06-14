@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-with-xps-options-java-slides/
 
 Java 프로그래밍 세계에서는 프리젠테이션 파일 작업이 일반적인 작업입니다. 동적 보고서를 작성하든 대화형 슬라이드쇼를 작성하든 올바른 도구와 라이브러리를 사용하면 작업을 크게 단순화할 수 있습니다. 이러한 강력한 도구 중 하나는 PowerPoint 프레젠테이션을 쉽게 조작하고 변환할 수 있는 API인 Aspose.Slides for Java입니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -101,7 +101,7 @@ finally
 
 ### Java용 Aspose.Slides를 어떻게 다운로드할 수 있나요?
 
-Aspose 웹사이트에서 Java용 Aspose.Slides를 다운로드할 수 있습니다. 방문하다[여기](https://releases.aspose.com/slides/java/) 다운로드 링크에 액세스합니다.
+ Aspose 웹사이트에서 Java용 Aspose.Slides를 다운로드할 수 있습니다. 방문하다[여기](https://releases.aspose.com/slides/java/) 다운로드 링크에 액세스합니다.
 
 ### Aspose.Slides for Java를 사용하기 위한 라이선스 요구 사항이 있나요?
 

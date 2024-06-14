@@ -17,7 +17,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 Để bắt đầu, hãy nhập các gói cần thiết trong dự án Java của bạn:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

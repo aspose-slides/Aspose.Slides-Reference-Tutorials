@@ -1,6 +1,6 @@
 ---
 title: Улучшение презентаций форматирование прямоугольных фигур с помощью Aspose.Slides
-linktitle: Форматирование прямоугольной формы в слайдах презентации с помощью Aspose.Slides
+linktitle: Форматирование прямоугольной формы в слайдах презентации с использованием Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Научитесь форматировать прямоугольные формы в презентациях PowerPoint с помощью Aspose.Slides для .NET. Улучшите свои слайды с помощью динамических визуальных элементов.
 type: docs
@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Шаг 2. Создайте объект презентации
- Создайте экземпляр`Presentation`класс для представления файла PPTX. Это будет основой вашей презентации PowerPoint.
+ Создайте экземпляр`Presentation` класс для представления файла PPTX. Это будет основой вашей презентации PowerPoint.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## Шаг 4. Добавьте прямоугольную форму
- Использовать`Shapes` свойство слайда для добавления автоматической фигуры типа прямоугольника. Укажите положение и размеры прямоугольника.
+ Использовать`Shapes`свойство слайда для добавления автоматической фигуры типа прямоугольника. Укажите положение и размеры прямоугольника.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```
@@ -72,7 +72,7 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
  Вы можете обратиться к документации[здесь](https://reference.aspose.com/slides/net/).
 ### В3: Как я могу получить поддержку Aspose.Slides?
  Для поддержки и обсуждения посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
-### В4: Есть ли бесплатная пробная версия?
+### В4: Доступна ли бесплатная пробная версия?
  Да, вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/).
 ### Вопрос 5: Где я могу приобрести Aspose.Slides для .NET?
  Вы можете купить Aspose.Slides для .NET.[здесь](https://purchase.aspose.com/buy).

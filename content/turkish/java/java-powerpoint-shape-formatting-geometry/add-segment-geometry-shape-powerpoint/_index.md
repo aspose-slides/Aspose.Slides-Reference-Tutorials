@@ -19,7 +19,7 @@ Adım adım kılavuza dalmadan önce, yerine getirmeniz gereken birkaç önkoşu
 Öncelikle gerekli paketleri Aspose.Slides'tan içe aktarmanız gerekiyor. Bu, PowerPoint sunumları oluşturmak ve düzenlemek için gereken tüm işlevlere erişmenizi sağlayacaktır.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Açıklık ve anlaşılırlık sağlamak için geometri şekillerine parça ekleme sürecini ayrıntılı adımlara ayıralım.
 ## 1. Adım: Yeni Bir Sunu Oluşturun

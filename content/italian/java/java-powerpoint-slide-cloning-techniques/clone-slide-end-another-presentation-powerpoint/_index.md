@@ -2,13 +2,13 @@
 title: Clona diapositiva alla fine di un'altra presentazione
 linktitle: Clona diapositiva alla fine di un'altra presentazione
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
-description: Scopri come clonare una diapositiva alla fine di un'altra presentazione utilizzando Aspose.Slides per Java in questo tutorial completo passo dopo passo.
+description: Scopri come clonare una diapositiva alla fine di un'altra presentazione utilizzando Aspose.Slides per Java in questo tutorial completo passo passo.
 type: docs
 weight: 11
 url: /it/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
 ## introduzione
-Ti sei mai trovato in una situazione in cui avevi bisogno di unire diapositive da più presentazioni PowerPoint? Può essere una bella seccatura, vero? Bene, non più! Aspose.Slides per Java è una potente libreria che semplifica la manipolazione delle presentazioni PowerPoint. In questo tutorial ti guideremo attraverso il processo di clonazione di una diapositiva da una presentazione e di aggiunta alla fine di un'altra presentazione utilizzando Aspose.Slides per Java. Credimi, alla fine di questa guida gestirai le tue presentazioni come un professionista!
+Ti sei mai trovato in una situazione in cui avevi bisogno di unire diapositive da più presentazioni PowerPoint? Può essere una bella seccatura, vero? Beh, non più! Aspose.Slides per Java è una potente libreria che semplifica la manipolazione delle presentazioni PowerPoint. In questo tutorial ti guideremo attraverso il processo di clonazione di una diapositiva da una presentazione e di aggiunta alla fine di un'altra presentazione utilizzando Aspose.Slides per Java. Credimi, alla fine di questa guida gestirai le tue presentazioni come un professionista!
 ## Prerequisiti
 Prima di addentrarci nel nocciolo della questione, ci sono alcune cose che dovrai avere a disposizione:
 1.  Java Development Kit (JDK): assicurati di avere JDK installato sul tuo computer. In caso contrario, puoi scaricarlo da[Qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
@@ -21,7 +21,7 @@ Per prima cosa importiamo i pacchetti necessari. Questi pacchetti sono essenzial
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Ora analizziamo il processo di clonazione di una diapositiva da una presentazione e di aggiunta a un'altra in passaggi semplici e digeribili.
@@ -29,7 +29,7 @@ Ora analizziamo il processo di clonazione di una diapositiva da una presentazion
  Per iniziare, dobbiamo caricare la presentazione sorgente da cui vogliamo clonare una diapositiva. Questo viene fatto utilizzando il`Presentation` classe fornita da Aspose.Slides.
 ```java
 // Il percorso della directory dei documenti.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Crea un'istanza della classe Presentation per caricare il file di presentazione di origine
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

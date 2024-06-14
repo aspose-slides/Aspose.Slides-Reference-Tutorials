@@ -12,7 +12,7 @@ url: /ko/java/image-handling/add-image-from-svg-object-from-external-resource-in
 
 이 튜토리얼에서는 Aspose.Slides를 사용하여 외부 리소스의 SVG(Scalable Vector Graphics) 개체 이미지를 Java 슬라이드에 추가하는 방법을 살펴보겠습니다. 이는 벡터 기반 이미지를 프레젠테이션에 통합하여 고품질의 시각적 효과를 보장하려는 경우 유용한 기능이 될 수 있습니다. 단계별 가이드를 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

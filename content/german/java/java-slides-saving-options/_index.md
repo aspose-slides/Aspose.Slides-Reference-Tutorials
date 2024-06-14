@@ -25,7 +25,7 @@ PDF ist ein weit verbreitetes Format zum Teilen von Dokumenten. Mit Aspose.Slide
 
 ### Als Bilder exportieren
 
-Manchmal müssen Sie Ihre Folien als Bilder speichern, um sie in anderen Dokumenten oder auf Online-Plattformen zu verwenden. Mit Aspose.Slides für Java können Sie einzelne Folien oder die gesamte Präsentation als qualitativ hochwertige Bilder in Formaten wie JPEG, PNG und mehr exportieren.
+Manchmal müssen Sie Ihre Folien als Bilder speichern, um sie in anderen Dokumenten oder auf Online-Plattformen zu verwenden. Mit Aspose.Slides für Java können Sie einzelne Folien oder die gesamte Präsentation als hochwertige Bilder in Formaten wie JPEG, PNG und mehr exportieren.
 
 ### Andere Formate
 

@@ -19,12 +19,12 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 أول الأشياء أولاً، فلنستورد الحزم اللازمة للبدء في استخدام Aspose.Slides لـ Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
-قد يبدو إنشاء كائنات مركبة أمرًا معقدًا، ولكن بتقسيمه إلى خطوات يمكن التحكم فيها، ستجد أن الأمر أسهل مما تعتقد. سنقوم بإنشاء عرض تقديمي لبرنامج PowerPoint، وإضافة شكل، ثم تحديد وتطبيق مسارات هندسية متعددة لتشكيل شكل مركب.
+قد يبدو إنشاء كائنات مركبة أمرًا معقدًا، ولكن بتقسيمه إلى خطوات يمكن التحكم فيها، ستجد أن الأمر أسهل مما تعتقد. سنقوم بإنشاء عرض تقديمي لـ PowerPoint، وإضافة شكل، ثم تحديد وتطبيق مسارات هندسية متعددة لتشكيل شكل مركب.
 ## الخطوة 1: قم بإعداد مشروعك
-قبل أن تكتب أي تعليمات برمجية، قم بإعداد مشروع Java الخاص بك. قم بإنشاء مشروع جديد في IDE الخاص بك وقم بتضمين Aspose.Slides لـ Java. يمكنك إضافة المكتبة باستخدام Maven أو تنزيل ملف JAR من ملف[صفحة تنزيل Aspose.Slides](https://releases.aspose.com/slides/java/).
+ قبل أن تكتب أي تعليمات برمجية، قم بإعداد مشروع Java الخاص بك. قم بإنشاء مشروع جديد في IDE الخاص بك وقم بتضمين Aspose.Slides لـ Java. يمكنك إضافة المكتبة باستخدام Maven أو تنزيل ملف JAR من ملف[صفحة تنزيل Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### إضافة Aspose.Slides إلى مشروعك باستخدام Maven
  إذا كنت تستخدم Maven، فأضف التبعية التالية إلى ملفك`pom.xml` ملف:
 ```xml
@@ -35,10 +35,10 @@ import com.aspose.slides.examples.RunExamples;
 </dependency>
 ```
 ## الخطوة 2: تهيئة العرض التقديمي
- الآن، لنقم بإنشاء عرض تقديمي جديد لبرنامج PowerPoint. سنبدأ بتهيئة`Presentation` فصل.
+الآن، لنقم بإنشاء عرض تقديمي جديد لبرنامج PowerPoint. سنبدأ بتهيئة`Presentation` فصل.
 ```java
 // ضع اسم الملف
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## الخطوة 3: إنشاء شكل جديد
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## الخطوة 7: احفظ العرض التقديمي
 وأخيرًا، احفظ العرض التقديمي الخاص بك في ملف.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## الخطوة 8: تنظيف الموارد

@@ -55,7 +55,7 @@ presentation.Print(printerSettings, "Please set your printer name here");
 答：是的，请确保您拥有适当的执照。您可以获得临时执照[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：我可以在哪里找到更多支持或者询问有关 Aspose.Slides 的问题？
 答：访问 Aspose.Slides[支持论坛](https://forum.aspose.com/c/slides/11)寻求帮助。
-### 问：在购买之前我可以免费试用 Aspose.Slides 吗？
+### 问：购买之前我可以免费试用 Aspose.Slides 吗？
 答：当然可以！您可以下载免费试用版[这里](https://releases.aspose.com/).
 ### 问：如何购买 Aspose.Slides for .NET？
 答：你可以购买图书馆[这里](https://purchase.aspose.com/buy).

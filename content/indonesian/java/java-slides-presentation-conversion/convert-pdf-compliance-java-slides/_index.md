@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Kode Sumber Lengkap Untuk Kepatuhan Konversi ke PDF di Slide Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ Menggunakan kepatuhan PDF/A-2a sangat penting ketika Anda perlu mengarsipkan dok
 
 ## Bisakah saya mengubah tingkat kepatuhan PDF ke selain PDF/A-2a?
 
- Ya, Aspose.Slides for Java memberikan fleksibilitas dalam memilih tingkat kepatuhan PDF. Dalam kode yang diberikan, Anda dapat mengubah tingkat kepatuhan dengan memodifikasi`pdfOptions.setCompliance()` garis. Anda dapat memilih tingkat kepatuhan lainnya seperti PDF/A-1a, PDF/A-1b, PDF/A-3a, dll., bergantung pada kebutuhan spesifik Anda.
+ Ya, Aspose.Slides for Java memberikan fleksibilitas dalam memilih tingkat kepatuhan PDF. Dalam kode yang diberikan, Anda dapat mengubah tingkat kepatuhan dengan memodifikasi`pdfOptions.setCompliance()`garis. Anda dapat memilih tingkat kepatuhan lainnya seperti PDF/A-1a, PDF/A-1b, PDF/A-3a, dll., bergantung pada kebutuhan spesifik Anda.
 
 ## Apa perbedaan antara PDF/A-2a dan tingkat kepatuhan lainnya?
 
@@ -113,4 +113,4 @@ Ya, Anda biasanya memerlukan lisensi yang valid untuk Aspose.Slides for Java unt
 
 ## Di mana saya dapat menemukan informasi selengkapnya tentang Aspose.Slides untuk kepatuhan Java dan PDF?
 
- Untuk informasi lebih detail tentang Aspose.Slides untuk Java dan fitur-fiturnya, termasuk pengaturan kepatuhan PDF, Anda dapat merujuk ke dokumentasi di[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/)Selain itu, Anda dapat menjelajahi contoh kode dan tutorial untuk lebih meningkatkan pengetahuan Anda tentang perpustakaan.
+ Untuk informasi lebih detail tentang Aspose.Slides untuk Java dan fitur-fiturnya, termasuk pengaturan kepatuhan PDF, Anda dapat merujuk ke dokumentasi di[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/). Selain itu, Anda dapat menjelajahi contoh kode dan tutorial untuk lebih meningkatkan pengetahuan Anda tentang perpustakaan.

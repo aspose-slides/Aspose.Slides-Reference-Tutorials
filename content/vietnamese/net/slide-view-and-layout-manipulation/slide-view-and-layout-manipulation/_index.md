@@ -2,7 +2,7 @@
 title: Chế độ xem slide và thao tác bố cục trong Aspose.Slides
 linktitle: Chế độ xem slide và thao tác bố cục trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
-description: Tìm hiểu cách thao tác các chế độ xem và bố cục trang chiếu trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã.
+description: Tìm hiểu cách thao tác với chế độ xem và bố cục trang chiếu trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã.
 type: docs
 weight: 10
 url: /vi/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 Khi bạn đã thực hiện tất cả các thay đổi cần thiết, hãy lưu bản trình bày đã sửa đổi:
 
 ```csharp
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

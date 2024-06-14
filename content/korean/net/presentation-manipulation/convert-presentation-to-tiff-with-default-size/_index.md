@@ -12,7 +12,7 @@ url: /ko/net/presentation-manipulation/convert-presentation-to-tiff-with-default
 
 Aspose.Slides for .NET은 PowerPoint 프레젠테이션을 프로그래밍 방식으로 생성, 수정 및 변환하기 위한 포괄적인 기능을 제공하는 강력한 라이브러리입니다. 주목할만한 기능 중 하나는 프레젠테이션을 TIFF를 포함한 다양한 이미지 형식으로 변환하는 기능입니다.
 
-## 전제조건
+## 전제 조건
 
 코딩 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인해야 합니다.
 

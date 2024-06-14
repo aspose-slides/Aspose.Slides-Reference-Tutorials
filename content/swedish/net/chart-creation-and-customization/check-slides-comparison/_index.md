@@ -54,7 +54,7 @@ Nu kommer kärndelen av processen – att jämföra bilder i presentationer:
        {
            if (AreSlidesEqual(sourceSlide, targetSlide))
            {
-               // Slides är desamma
+               // Diabilder är desamma
            }
            else
            {

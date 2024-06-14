@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation(presentationName))
 
 ### 步骤 3：配置 PDF 选项
 
-为了实现 PDF 合规性，您需要指定 PDF 选项。为了符合 PDF/A 规范，我们将使用`PdfCompliance.PdfA2a`配置 PDF 选项如下：
+为了实现 PDF 合规性，您需要指定 PDF 选项。为了符合 PDF/A 规范，我们将使用`PdfCompliance.PdfA2a`配置PDF选项如下：
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions() { Compliance = PdfCompliance.PdfA2a };

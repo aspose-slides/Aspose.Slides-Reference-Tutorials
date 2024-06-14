@@ -12,7 +12,7 @@ url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-smartart-chil
 ## 先決條件
 在我們開始之前，請確保您具備以下條件：
 1. 您的系統上安裝了 Java 開發工具包 (JDK)。
-2. Aspose.Slides for Java 程式庫已下載並在您的專案中設定。您可以從以下位置下載該程式庫[這裡](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java 程式庫已下載並在您的專案中設定。您可以從以下位置下載該程式庫[這裡](https://releases.aspose.com/slides/java/).
 
 ## 導入包
 確保在 Java 類別中導入必要的套件：
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

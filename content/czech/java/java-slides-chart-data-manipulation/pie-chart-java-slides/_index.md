@@ -2,7 +2,7 @@
 title: Koláčový graf v Java Slides
 linktitle: Koláčový graf v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se vytvářet úžasné výsečové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vývojáře v jazyce Java.
+description: Naučte se vytvářet úžasné koláčové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vývojáře v jazyce Java.
 type: docs
 weight: 23
 url: /cs/java/chart-data-manipulation/pie-chart-java-slides/
@@ -10,7 +10,7 @@ url: /cs/java/chart-data-manipulation/pie-chart-java-slides/
 
 ## Úvod do vytváření výsečového grafu v Java Slides pomocí Aspose.Slides
 
-V tomto tutoriálu si ukážeme, jak vytvořit výsečový graf v powerpointové prezentaci pomocí Aspose.Slides for Java. Poskytneme vám podrobné pokyny a zdrojový kód Java, které vám pomohou začít. Tato příručka předpokládá, že jste již nastavili své vývojové prostředí s Aspose.Slides for Java.
+tomto tutoriálu si ukážeme, jak vytvořit výsečový graf v powerpointové prezentaci pomocí Aspose.Slides for Java. Poskytneme vám podrobné pokyny a zdrojový kód Java, které vám pomohou začít. Tato příručka předpokládá, že jste již nastavili své vývojové prostředí s Aspose.Slides for Java.
 
 ## Předpoklady
 
@@ -49,7 +49,7 @@ Získejte první snímek prezentace, kam chcete přidat výsečový graf.
 ## Krok 4: Přidejte výsečový graf
 
 ```java
-//Přidejte výsečový graf s výchozími daty
+// Přidejte výsečový graf s výchozími daty
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Nastavte název výsečového grafu. Titul si můžete upravit podle potřeby.
 ## Krok 6: Přizpůsobte data grafu
 
 ```java
-// Nastavte první řadu tak, aby zobrazovala hodnoty
+//Nastavte první řadu tak, aby zobrazovala hodnoty
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Nastavení indexu datového listu grafu
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Přidávání nové série
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Nyní se vyplňují data série
+// Nyní se vyplňují data série
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -237,7 +237,7 @@ lbl2.getDataLabelFormat().setShowPercentage(true);
 IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
-// Zobrazení vedoucích čar pro graf
+// Zobrazení vůdčích čar pro graf
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 // Nastavení úhlu rotace pro sektory koláčového grafu
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);

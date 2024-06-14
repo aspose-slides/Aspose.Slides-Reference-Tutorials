@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Setelah slide dikloning dan disisipkan pada posisi yang diinginkan, Anda perlu menyimpan presentasi tujuan yang dimodifikasi. Gunakan kode berikut untuk menyimpan presentasi:
 
 ```csharp
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Masukkan slide yang dikloning pada posisi yang ditentukan
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Simpan presentasi yang dimodifikasi
+            //Simpan presentasi yang dimodifikasi
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

@@ -16,7 +16,7 @@ url: /el/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 
 ### 1. Aspose.Slides για .NET Library
 
- Πρέπει να έχετε εγκατεστημένη τη βιβλιοθήκη Aspose.Slides for .NET στο περιβάλλον ανάπτυξης σας. Εάν δεν το έχετε κάνει ήδη, μπορείτε να το κατεβάσετε από τον ιστότοπο στη διεύθυνση[Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/).
+Πρέπει να έχετε εγκατεστημένη τη βιβλιοθήκη Aspose.Slides for .NET στο περιβάλλον ανάπτυξης σας. Εάν δεν το έχετε κάνει ήδη, μπορείτε να το κατεβάσετε από τον ιστότοπο στη διεύθυνση[Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/).
 
 ### 2. Παρουσίαση PowerPoint με ηχητικούς υπερσυνδέσμους
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Βήμα 2: Φορτώστε την παρουσίαση του PowerPoint
 
- Φορτώστε την παρουσίαση του PowerPoint (PPTX) που περιέχει την υπερ-σύνδεση ήχου χρησιμοποιώντας το Aspose.Slides. Αντικαθιστώ`"HyperlinkSound.pptx"` με το πραγματικό όνομα αρχείου της παρουσίασής σας.
+ Φορτώστε την παρουσίαση του PowerPoint (PPTX) που περιέχει την υπερ-σύνδεση ήχου χρησιμοποιώντας το Aspose.Slides. Αντικαθιστώ`"HyperlinkSound.pptx"`με το πραγματικό όνομα αρχείου της παρουσίασής σας.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 Εάν ο υπερσύνδεσμος έχει σχετικό ήχο, μπορούμε να τον εξαγάγουμε ως πίνακα byte και να τον αποθηκεύσουμε ως αρχείο πολυμέσων.
 
 ```csharp
-//Εξάγει τον ήχο υπερσύνδεσης σε πίνακα byte
+// Εξάγει τον ήχο υπερσύνδεσης σε πίνακα byte
 byte[] audioData = link.Sound.BinaryData;
 
 // Καθορίστε τη διαδρομή στην οποία θέλετε να αποθηκεύσετε τον εξαγόμενο ήχο
@@ -101,7 +101,7 @@ File.WriteAllBytes(outMediaPath, audioData);
  Ναι, μπορείτε να λάβετε βοήθεια και να μοιραστείτε τις εμπειρίες σας με το Aspose.Slides στο[Φόρουμ κοινότητας Aspose.Slides](https://forum.aspose.com/).
 
 ### Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για ένα βραχυπρόθεσμο έργο;
- Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια για το Aspose.Slides για .NET για να καλύψετε τις βραχυπρόθεσμες ανάγκες του έργου σας μεταβαίνοντας στο[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
+Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια για το Aspose.Slides για .NET για να καλύψετε τις βραχυπρόθεσμες ανάγκες του έργου σας μεταβαίνοντας στο[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
 
 ### Υπάρχουν άλλες μορφές ήχου που υποστηρίζονται για εξαγωγή, εκτός από το MPG;
 Το Aspose.Slides for .NET σάς επιτρέπει να εξάγετε ήχο σε διάφορες μορφές, χωρίς να περιορίζεται σε MPG. Μπορείτε να το μετατρέψετε στην προτιμώμενη μορφή μετά την εξαγωγή.

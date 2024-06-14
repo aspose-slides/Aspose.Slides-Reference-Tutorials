@@ -8,13 +8,13 @@ weight: 12
 url: /tr/net/advanced-chart-customization/chart-trend-lines/
 ---
 
-Veri görselleştirme ve sunum dünyasında grafikleri birleştirmek, bilgiyi etkili bir şekilde iletmenin güçlü bir yolu olabilir. Aspose.Slides for .NET, grafiklerinizle çalışmak için grafiklerinize trend çizgileri ekleme yeteneği de dahil olmak üzere zengin özelliklere sahip araçlar sunar. Bu derste Aspose.Slides for .NET'i kullanarak adım adım bir grafiğe trend çizgileri ekleme sürecini inceleyeceğiz. 
+Veri görselleştirme ve sunum dünyasında grafikleri birleştirmek, bilgiyi etkili bir şekilde iletmenin güçlü bir yolu olabilir. Aspose.Slides for .NET, grafiklerinizle çalışmak için grafiklerinize trend çizgileri ekleme yeteneği de dahil olmak üzere zengin özelliklere sahip araçlar sağlar. Bu derste Aspose.Slides for .NET'i kullanarak adım adım bir grafiğe trend çizgileri ekleme sürecini inceleyeceğiz. 
 
 ## Önkoşullar
 
 Aspose.Slides for .NET ile çalışmaya başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olmanız gerekir:
 
-1.  Aspose.Slides for .NET: Kütüphaneye erişmek ve onu kullanmak için Aspose.Slides for .NET'in kurulu olması gerekir. Kütüphaneyi adresinden temin edebilirsiniz.[indirme sayfası](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Kütüphaneye erişmek ve onu kullanmak için Aspose.Slides for .NET'in kurulu olması gerekir. Kütüphaneyi adresinden temin edebilirsiniz.[indirme sayfası](https://releases.aspose.com/slides/net/).
 
 2. Geliştirme Ortamı: Tercihen Visual Studio gibi bir .NET entegre geliştirme ortamı kullanan bir geliştirme ortamı kurmalısınız.
 

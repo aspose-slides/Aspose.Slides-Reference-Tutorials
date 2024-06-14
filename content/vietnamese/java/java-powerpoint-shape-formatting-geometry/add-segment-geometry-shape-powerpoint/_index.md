@@ -19,7 +19,7 @@ Trước khi chúng ta đi sâu vào hướng dẫn từng bước, bạn cần 
 Trước tiên, bạn cần nhập các gói cần thiết từ Aspose.Slides. Điều này sẽ cho phép bạn truy cập tất cả các chức năng cần thiết để tạo và thao tác với bản trình bày PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Hãy chia nhỏ quá trình thêm các phân đoạn vào hình dạng hình học thành các bước chi tiết để đảm bảo sự rõ ràng và dễ hiểu.
 ## Bước 1: Tạo bản trình bày mới

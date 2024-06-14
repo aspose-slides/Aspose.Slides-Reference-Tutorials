@@ -19,7 +19,7 @@ Nejprve je třeba importovat potřebné balíčky do vašeho projektu Java. Na z
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte objekt prezentace
 Začněte nastavením objektu Prezentace tak, aby představoval prezentaci PowerPoint, se kterou chcete pracovat. Můžete to udělat takto:

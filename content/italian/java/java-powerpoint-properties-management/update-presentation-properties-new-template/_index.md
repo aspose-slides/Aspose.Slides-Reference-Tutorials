@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: definire il metodo principale
 Crea un metodo principale in cui avvierai il processo di aggiornamento delle proprietà della presentazione con un nuovo modello. Questo metodo funge da punto di ingresso per l'applicazione Java.

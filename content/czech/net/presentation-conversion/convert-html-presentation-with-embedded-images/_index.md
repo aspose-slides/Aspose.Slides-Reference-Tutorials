@@ -67,7 +67,7 @@ Dále nakonfigurujte možnosti převodu HTML. Můžete určit různá nastavení
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //Vynutit neukládání obrázků v dokumentu HTML5
+    // Vynutit neukládání obrázků v dokumentu HTML5
     EmbedImages = false,
     // Nastavte cestu pro externí obrázky
     OutputPath = outPath

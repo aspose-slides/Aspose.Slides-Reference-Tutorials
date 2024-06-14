@@ -9,7 +9,7 @@ url: /ko/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 슬라이드의 순서와 구성을 제어하는 것은 효과적인 의사소통에 매우 중요합니다. Aspose.Slides for .NET은 프레젠테이션 내의 슬라이드 번호를 조작할 수 있는 강력한 솔루션을 제공하여 콘텐츠를 원활하게 사용자 정의할 수 있는 유연성을 제공합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Slides: Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/net/).
 - 개발 환경: 컴퓨터에 작동하는 .NET 개발 환경을 설정하십시오.

@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Criando o gráfico padrão
+//Criando o gráfico padrão
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ Por fim, salvamos a apresentação com as novas configurações do gráfico.
 
 Aspose.Slides for .NET permite que você crie apresentações de gráficos impressionantes com várias opções de personalização. Neste tutorial, nos concentramos no uso de opções de marcadores de gráfico em pontos de dados para aprimorar a representação visual de seus dados. Com Aspose.Slides for .NET, você pode levar suas apresentações para o próximo nível, tornando-as mais envolventes e informativas.
 
- Se você tiver alguma dúvida ou precisar de ajuda com Aspose.Slides for .NET, sinta-se à vontade para visitar o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/) ou entre em contato com[Aspor comunidade](https://forum.aspose.com/) para suporte.
+Se você tiver alguma dúvida ou precisar de ajuda com Aspose.Slides for .NET, sinta-se à vontade para visitar o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/) ou entre em contato com[Aspor comunidade](https://forum.aspose.com/) para suporte.
 
 ## Perguntas frequentes (FAQ)
 
@@ -138,7 +138,7 @@ Aspose.Slides for .NET permite que você crie apresentações de gráficos impre
 Sim, você pode usar imagens personalizadas como marcadores para pontos de dados no Aspose.Slides for .NET, conforme demonstrado neste tutorial.
 
 ### Como posso alterar o tipo de gráfico no Aspose.Slides for .NET?
-Você pode alterar o tipo de gráfico especificando um diferente`ChartType` ao criar o gráfico, como "Barra", "Pizza" ou "Área".
+ Você pode alterar o tipo de gráfico especificando um diferente`ChartType` ao criar o gráfico, como "Barra", "Pizza" ou "Área".
 
 ### O Aspose.Slides for .NET é compatível com as versões mais recentes do PowerPoint?
 Aspose.Slides for .NET foi projetado para funcionar com vários formatos de PowerPoint e é atualizado regularmente para manter a compatibilidade com as versões mais recentes do PowerPoint.

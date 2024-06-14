@@ -13,14 +13,14 @@ Dans ce guide étape par étape, nous vous guiderons tout au long du processus, 
 ## Conditions préalables
 Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer :
 1.  Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre ordinateur. Vous pouvez le télécharger depuis le[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides pour Java : téléchargez la bibliothèque à partir du[Page des versions d'Aspose](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides pour Java : téléchargez la bibliothèque à partir du[Page des versions d'Aspose](https://releases.aspose.com/slides/java/).
 3. Environnement de développement intégré (IDE) : utilisez un IDE comme IntelliJ IDEA, Eclipse ou NetBeans pour une expérience de développement plus transparente.
 4. Connaissance de base de Java : la familiarité avec les concepts de programmation Java vous aidera à comprendre et à mettre en œuvre les étapes de ce guide.
 ## Importer des packages
 Avant de commencer, vous devez importer les packages nécessaires. Assurez-vous d'avoir inclus Aspose.Slides pour Java dans les dépendances de votre projet.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Étape 1 : Configurez votre projet
@@ -76,7 +76,7 @@ pres.getSections().addSection("Section 4", slide);
 Nous allons maintenant créer un cadre de zoom récapitulatif sur la première diapositive. Ce cadre agira comme un élément interactif permettant aux utilisateurs de zoomer sur différentes sections.
 
 1. Localisez la première diapositive : récupérez la première diapositive dans laquelle vous ajouterez le cadre de zoom récapitulatif.
-2. Ajoutez le cadre de zoom récapitulatif : utilisez le`addSummaryZoomFrame` méthode pour ajouter le cadre.
+2.  Ajoutez le cadre de zoom récapitulatif : utilisez le`addSummaryZoomFrame` méthode pour ajouter le cadre.
 ```java
 ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().addSummaryZoomFrame(150, 50, 300, 200);
 ```
@@ -86,7 +86,7 @@ Enfin, enregistrez la présentation à l'emplacement souhaité. Cette étape gar
 1. Définir le chemin de sortie : spécifiez le chemin où la présentation sera enregistrée.
 2.  Enregistrez la présentation : utilisez le`save` méthode pour enregistrer le fichier au format PPTX.
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### Se débarrasser de l'objet de présentation
@@ -95,14 +95,14 @@ Supprimez l'objet de présentation pour libérer toutes les ressources qu'il uti
 if (pres != null) pres.dispose();
 ```
 ## Conclusion
- Toutes nos félicitations! Vous avez créé avec succès un zoom récapitulatif dans PowerPoint à l'aide d'Aspose.Slides pour Java. Cette fonctionnalité améliore vos présentations en les rendant plus interactives et attrayantes. En suivant ce guide, vous disposez désormais des compétences nécessaires pour implémenter cette fonctionnalité dans vos propres projets. N'oubliez pas d'explorer le[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/) pour des fonctionnalités plus avancées et des options de personnalisation.
+ Toutes nos félicitations! Vous avez créé avec succès un zoom récapitulatif dans PowerPoint à l'aide d'Aspose.Slides pour Java. Cette fonctionnalité améliore vos présentations en les rendant plus interactives et attrayantes. En suivant ce guide, vous disposez désormais des compétences nécessaires pour implémenter cette fonctionnalité dans vos propres projets. N'oubliez pas d'explorer le[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/)pour des fonctionnalités plus avancées et des options de personnalisation.
 ## FAQ
 ### Qu’est-ce qu’Aspose.Slides pour Java ?
 Aspose.Slides pour Java est une bibliothèque puissante qui permet aux développeurs de créer, modifier et manipuler des présentations PowerPoint par programme à l'aide de Java.
 ### Puis-je utiliser Aspose.Slides for Java pour créer d’autres types de contenu dans PowerPoint ?
 Oui, Aspose.Slides pour Java prend en charge un large éventail de fonctionnalités, notamment la création de diapositives, l'ajout de formes, de graphiques, de tableaux et bien plus encore.
 ### Existe-t-il un essai gratuit disponible pour Aspose.Slides pour Java ?
- Oui, vous pouvez télécharger un essai gratuit d'Aspose.Slides pour Java à partir du[site web](https://releases.aspose.com/).
+Oui, vous pouvez télécharger un essai gratuit d'Aspose.Slides pour Java à partir du[site web](https://releases.aspose.com/).
 ### Comment obtenir une licence temporaire pour Aspose.Slides pour Java ?
  Vous pouvez obtenir une licence temporaire auprès du[Page d'achat Aspose](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver plus d’exemples et de support pour Aspose.Slides pour Java ?

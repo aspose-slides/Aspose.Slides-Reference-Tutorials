@@ -14,7 +14,7 @@ Trong hướng dẫn này, chúng tôi sẽ trình bày cách truy xuất tọa 
 
 ## Điều kiện tiên quyết
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập thư viện Aspose.Slides for Java trong môi trường phát triển Java của mình. Bạn có thể tải nó xuống từ[đây](https://downloads.aspose.com/slides/java).
+ Trước khi chúng ta bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập thư viện Aspose.Slides for Java trong môi trường phát triển Java của mình. Bạn có thể tải nó xuống từ[đây](https://downloads.aspose.com/slides/java).
 
 ## Bước 1: Nhập các thư viện cần thiết
 
@@ -107,7 +107,7 @@ Có, Aspose.Slides cho Java rất phù hợp để xử lý hàng loạt tệp P
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
 
- Bạn có thể tìm thêm các ví dụ về mã và tài liệu chi tiết về Aspose.Slides for Java trên[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/)trang mạng. Ngoài ra, bạn có thể khám phá các[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides) để được cộng đồng hỗ trợ và thảo luận.
+ Bạn có thể tìm thêm các ví dụ về mã và tài liệu chi tiết về Aspose.Slides for Java trên[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/) trang mạng. Ngoài ra, bạn có thể khám phá các[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides) để được cộng đồng hỗ trợ và thảo luận.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Slides cho Java không?
 

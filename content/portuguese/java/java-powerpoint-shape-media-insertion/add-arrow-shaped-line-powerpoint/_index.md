@@ -19,7 +19,7 @@ Antes de começarmos, certifique-se de ter os seguintes pré-requisitos:
 Para começar, importe os pacotes necessários em sua classe Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Sim, você pode adicionar várias linhas em forma de seta a um único slide, rep
 ### O Aspose.Slides for Java é compatível com as versões mais recentes do PowerPoint?
 Aspose.Slides for Java suporta compatibilidade com várias versões do PowerPoint, garantindo integração perfeita com suas apresentações.
 ### Posso personalizar a cor da linha em forma de seta?
- Sim, você pode personalizar a cor da linha em forma de seta ajustando o`SolidFillColor` propriedade no código.
+Sim, você pode personalizar a cor da linha em forma de seta ajustando o`SolidFillColor` propriedade no código.
 ### O Aspose.Slides for Java oferece suporte a outras formas além de linhas?
 Sim, Aspose.Slides for Java oferece amplo suporte para adicionar várias formas, incluindo retângulos, círculos e polígonos, a slides do PowerPoint.
 ### Onde posso encontrar mais recursos e suporte para Aspose.Slides for Java?

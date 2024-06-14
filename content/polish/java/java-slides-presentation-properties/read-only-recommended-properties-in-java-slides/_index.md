@@ -18,10 +18,10 @@ tym samouczku przyjrzymy się, jak włączyć właściwości zalecane tylko do o
 
 ## Krok 1: Utwórz nową prezentację programu PowerPoint
 
-Zaczniemy od stworzenia nowej prezentacji PowerPoint przy użyciu Aspose.Slides dla Java. Jeśli masz już prezentację, możesz pominąć ten krok.
+Zaczniemy od utworzenia nowej prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Jeśli masz już prezentację, możesz pominąć ten krok.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Na koniec zapisujemy prezentację z włączoną właściwością Zalecane tylko 
 ## Kompletny kod źródłowy zalecanych właściwości tylko do odczytu w slajdach Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

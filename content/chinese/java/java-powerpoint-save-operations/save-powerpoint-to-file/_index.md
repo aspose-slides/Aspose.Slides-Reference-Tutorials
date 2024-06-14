@@ -19,13 +19,13 @@ PowerPoint 演示文稿是传达视觉信息的宝贵工具。使用 Aspose.Slid
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 步骤 1：设置数据目录
 ```java
 //文档目录的路径。
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 //如果目录尚不存在，则创建目录。
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)

@@ -21,7 +21,7 @@ I den här handledningen kommer vi att utforska hur man ställer in ett presenta
 Först måste vi skapa en ny PowerPoint-presentation. Så här kan du göra det i Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ Se till att ange den önskade sökvägen till utdatafilen.
 ## Komplett källkod för presentation av bildspelsinställningar i Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Hämtar bildspelsinställningar

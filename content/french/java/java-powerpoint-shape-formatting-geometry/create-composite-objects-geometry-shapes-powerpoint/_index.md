@@ -19,12 +19,12 @@ Avant de passer au code, vous aurez besoin de quelques éléments :
 Tout d’abord, importons les packages nécessaires pour démarrer avec Aspose.Slides pour Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 La création d'objets composites peut sembler complexe, mais en la décomposant en étapes gérables, vous constaterez que c'est plus facile que vous ne le pensez. Nous allons créer une présentation PowerPoint, ajouter une forme, puis définir et appliquer plusieurs chemins géométriques pour former une forme composite.
 ## Étape 1 : Configurez votre projet
-Avant d'écrire du code, configurez votre projet Java. Créez un nouveau projet dans votre IDE et incluez Aspose.Slides pour Java. Vous pouvez ajouter la bibliothèque à l'aide de Maven ou télécharger le fichier JAR depuis le[Page de téléchargement d'Aspose.Slides](https://releases.aspose.com/slides/java/).
+ Avant d'écrire du code, configurez votre projet Java. Créez un nouveau projet dans votre IDE et incluez Aspose.Slides pour Java. Vous pouvez ajouter la bibliothèque à l'aide de Maven ou télécharger le fichier JAR depuis le[Page de téléchargement d'Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### Ajout d'Aspose.Slides à votre projet à l'aide de Maven
  Si vous utilisez Maven, ajoutez la dépendance suivante à votre`pom.xml` déposer:
 ```xml
@@ -35,10 +35,10 @@ Avant d'écrire du code, configurez votre projet Java. Créez un nouveau projet 
 </dependency>
 ```
 ## Étape 2 : initialiser la présentation
- Maintenant, créons une nouvelle présentation PowerPoint. Nous allons commencer par initialiser le`Presentation` classe.
+Maintenant, créons une nouvelle présentation PowerPoint. Nous allons commencer par initialiser le`Presentation` classe.
 ```java
 // Nom du fichier de sortie
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Étape 3 : Créer une nouvelle forme
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Étape 7 : Enregistrez la présentation
 Enfin, enregistrez votre présentation dans un fichier.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Étape 8 : Nettoyer les ressources

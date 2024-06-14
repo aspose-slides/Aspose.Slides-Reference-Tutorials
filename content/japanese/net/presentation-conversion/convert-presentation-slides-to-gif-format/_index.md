@@ -45,7 +45,7 @@ pres.Save(gifStream, SaveFormat.Gif);
 
 ```csharp
 GifOptions gifOptions = new GifOptions(){
-FrameSize = new Size(800, 600), //結果のGIFのサイズ
+FrameSize = new Size(800, 600), //生成されたGIFのサイズ
 DefaultDelay = 2000, //次のスライドに切り替わるまでの各スライドの表示時間
 TransitionFps = 35 //FPSを上げてトランジションアニメーションの品質を向上させる
 }
@@ -94,7 +94,7 @@ class Program
         using Presentation pres = new Presentation("presentation.pptx");
 
         GifOptions gifOptions = new GifOptions(){
-        FrameSize = new Size(800, 600), //結果のGIFのサイズ
+        FrameSize = new Size(800, 600), //生成されたGIFのサイズ
         DefaultDelay = 2000, //次のスライドに切り替わるまでの各スライドの表示時間
         TransitionFps = 35 //FPSを上げてトランジションアニメーションの品質を向上させる
         }

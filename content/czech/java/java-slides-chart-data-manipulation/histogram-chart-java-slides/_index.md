@@ -65,7 +65,7 @@ try {
 }
 ```
 
- tomto kódu nejprve vymažeme všechny existující kategorie a řady z grafu. Poté přidáme datové body do řady pomocí`getDataPoints().addDataPointForHistogramSeries` metoda. Nakonec nastavíme typ agregace vodorovné osy na Automaticky a prezentaci uložíme.
+ V tomto kódu nejprve vymažeme všechny existující kategorie a řady z grafu. Poté přidáme datové body do řady pomocí`getDataPoints().addDataPointForHistogramSeries` metoda. Nakonec nastavíme typ agregace vodorovné osy na Automaticky a prezentaci uložíme.
 
 ## Kompletní zdrojový kód pro histogramový graf v Java Slides
 
@@ -97,7 +97,7 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak vytvořit histogramový graf v prezentaci PowerPoint pomocí Aspose.Slides for Java API. Histogramové grafy jsou cennými nástroji pro vizualizaci distribuce dat v nepřetržitém intervalu a mohou být účinným doplňkem vašich prezentací, zejména při práci se statistickým nebo analytickým obsahem.
+tomto tutoriálu jsme prozkoumali, jak vytvořit histogramový graf v prezentaci PowerPoint pomocí Aspose.Slides for Java API. Histogramové grafy jsou cennými nástroji pro vizualizaci distribuce dat v nepřetržitém intervalu a mohou být účinným doplňkem vašich prezentací, zejména při práci se statistickým nebo analytickým obsahem.
 
 ## FAQ
 

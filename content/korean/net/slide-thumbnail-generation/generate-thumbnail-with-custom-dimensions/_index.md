@@ -10,7 +10,7 @@ url: /ko/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimension
 
 PowerPoint 프레젠테이션의 사용자 정의 축소판 이미지를 만드는 것은 대화형 응용 프로그램을 구축하든, 사용자 경험을 향상시키든, 다양한 플랫폼에 맞게 콘텐츠를 최적화하든 귀중한 자산이 될 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET 라이브러리를 사용하여 PowerPoint 프레젠테이션에서 사용자 정의 썸네일 이미지를 생성하는 과정을 안내합니다. 이 강력한 라이브러리를 사용하면 .NET 응용 프로그램에서 프로그래밍 방식으로 PowerPoint 파일을 조작, 변환 및 향상할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 사용자 정의 썸네일 이미지 생성을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

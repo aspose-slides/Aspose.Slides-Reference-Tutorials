@@ -21,7 +21,7 @@ url: /el/java/presentation-properties/presentation-slide-show-setup-in-java-slid
 Αρχικά, πρέπει να δημιουργήσουμε μια νέα παρουσίαση PowerPoint. Δείτε πώς μπορείτε να το κάνετε σε Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## Ολοκληρώστε τον πηγαίο κώδικα για τη ρύθμιση παρουσίασης παρουσίασης σε διαφάνειες Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Λαμβάνει ρυθμίσεις SlideShow

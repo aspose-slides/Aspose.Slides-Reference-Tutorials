@@ -2,7 +2,7 @@
 title: Alternatív szöveg elérése csoportformákban az Aspose.Slides segítségével
 linktitle: Alternatív szöveg elérése csoportformákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan érhet el alternatív szöveget csoportformákban az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
+description: Ismerje meg, hogyan érhet el alternatív szöveget csoportformákban az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
 type: docs
 weight: 10
 url: /hu/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
@@ -10,7 +10,7 @@ url: /hu/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-s
 
 Ha prezentációk kezeléséről és manipulálásáról van szó, az Aspose.Slides for .NET hatékony eszközkészletet kínál. Ebben a cikkben ennek az API-nak egy sajátos aspektusát vizsgáljuk meg – Alternatív szöveg elérése csoportalakzatokban. Akár tapasztalt fejlesztő, akár csak most kezdi az Aspose.Slides-t, ez az átfogó útmutató végigvezeti a folyamaton, lépésről lépésre és kódpéldákkal. A végére alapos ismerete lesz arról, hogyan dolgozhat hatékonyan alternatív szövegekkel csoportformákban az Aspose.Slides segítségével.
 
-## Bevezetés az alternatív szövegekbe csoportformákban
+## Bevezetés az alternatív szövegekbe csoportos alakzatokban
 
 Az alternatív szöveg, más néven alternatív szöveg, kulcsfontosságú összetevője annak, hogy a prezentációkat a látássérült egyének számára is hozzáférhetővé tegyék. Szöveges leírást ad a képekről, formákról és egyéb vizuális elemekről, lehetővé téve a képernyőolvasók számára, hogy a tartalmat eljuttassák a vizuális elemeket nem látó felhasználókhoz. Ha csoportos alakzatokról van szó, amelyek több, csoportosított alakzatból állnak, az alternatív szöveg elérése és módosítása speciális technikákat igényel.
 
@@ -38,7 +38,7 @@ using Presentation presentation = new Presentation("your-presentation.pptx");
 Az alternatív szöveg elérése előtt meg kell határoznia a csoport alakzatait a bemutatón belül. Az Aspose.Slides módszereket biztosít az alakzatok iterálására és a csoportok azonosítására:
 
 ```csharp
-// Iteráljon diákon keresztül
+// Iteráció diákon keresztül
 foreach (ISlide slide in presentation.Slides)
 {
     // Ismételje meg az alakzatokat minden dián

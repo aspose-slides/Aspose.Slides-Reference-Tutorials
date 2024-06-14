@@ -19,7 +19,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 A kezdéshez importálja a szükséges csomagokat a Java projektbe:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: A Shapes Collection elérése
 Hozzáférés a kiválasztott diához tartozó alakzatgyűjteményhez:

@@ -103,7 +103,7 @@ SWF (Shockwave Flash) je multimediální formát používaný pro animace, hry a
 ### Je Aspose.Slides for .NET zdarma k použití?
  Aspose.Slides for .NET nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si možná budete muset zakoupit licenci. Můžete zkontrolovat ceny a podrobnosti o licencích[tady](https://purchase.aspose.com/buy).
 
-### Mohu si Aspose.Slides for .NET vyzkoušet před zakoupením licence?
+### Mohu vyzkoušet Aspose.Slides pro .NET před zakoupením licence?
  Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro .NET[tady](https://releases.aspose.com/).
 
 ### Potřebuji znalosti programování, abych mohl používat Aspose.Slides pro .NET?

@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- I den här koden skapar vi ett diagram och ställer in teckenstorleken på förklaringstexten till 20 punkter. Du kan justera`setFontHeight`värde för att ändra teckenstorleken.
+ I den här koden skapar vi ett diagram och ställer in teckenstorleken på förklaringstexten till 20 punkter. Du kan justera`setFontHeight` värde för att ändra teckenstorleken.
 
 ### Kan jag anpassa andra egenskaper för förklaringen i ett diagram?
 
@@ -134,4 +134,4 @@ Här inaktiverar vi automatisk axelskalning och anger minimi- och maxvärden fö
 
 ### Var kan jag hitta mer information och dokumentation för Aspose.Slides?
 
-Du kan hitta omfattande dokumentation och API-referenser för Aspose.Slides för Java på Aspose-dokumentationswebbplatsen. Besök[här](https://reference.aspose.com/slides/java/) för detaljerad information om hur du använder biblioteket.
+ Du kan hitta omfattande dokumentation och API-referenser för Aspose.Slides för Java på Aspose-dokumentationswebbplatsen. Besök[här](https://reference.aspose.com/slides/java/) för detaljerad information om hur du använder biblioteket.

@@ -69,4 +69,4 @@ R : Oui, explorez la documentation Aspose.Slides pour une liste complète des o
 ### Q : Puis-je utiliser des polices personnalisées non installées sur mon système ?
  R : Oui, spécifiez le chemin du fichier de police à l'aide du`AddFonts` méthode dans le`FontsLoader` classe.
 ### Q : Où puis-je demander de l'aide ou me connecter avec la communauté ?
-R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et l’engagement communautaire.
+ R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et l’engagement communautaire.

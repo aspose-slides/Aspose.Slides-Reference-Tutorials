@@ -10,13 +10,13 @@ url: /ko/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 
 멀티미디어 프리젠테이션 세계에서 오디오는 슬라이드의 전반적인 효과를 높이는 데 중요한 역할을 합니다. 오디오 하이퍼링크가 포함된 PowerPoint 프레젠테이션을 접하고 다른 용도로 오디오를 추출하는 방법이 궁금한 적이 있습니까? .NET용 Aspose.Slides를 사용하면 이 작업을 쉽게 수행할 수 있습니다. 이 단계별 가이드에서는 PowerPoint 프레젠테이션의 하이퍼링크에서 오디오를 추출하는 과정을 안내합니다.
 
-## 전제조건
+## 전제 조건
 
 추출 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 ### 1. .NET 라이브러리용 Aspose.Slides
 
- 개발 환경에 Aspose.Slides for .NET 라이브러리가 설치되어 있어야 합니다. 아직 다운로드하지 않으셨다면, 다음 웹사이트에서 다운로드하실 수 있습니다.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
+개발 환경에 Aspose.Slides for .NET 라이브러리가 설치되어 있어야 합니다. 아직 다운로드하지 않으셨다면, 다음 웹사이트에서 다운로드하실 수 있습니다.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 ### 2. 오디오 하이퍼링크가 포함된 PowerPoint 프레젠테이션
 
@@ -32,7 +32,7 @@ using System.IO;
 using Aspose.Slides;
 ```
 
-이제 전제조건이 준비되었고 필수 네임스페이스를 가져왔으므로 추출 프로세스를 여러 단계로 나누어 보겠습니다.
+이제 전제 조건이 준비되었고 필수 네임스페이스를 가져왔으므로 추출 프로세스를 여러 단계로 나누어 보겠습니다.
 
 ## 1단계: 문서 디렉터리 정의
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## 2단계: PowerPoint 프레젠테이션 로드
 
- Aspose.Slides를 사용하여 오디오 하이퍼링크가 포함된 PowerPoint 프레젠테이션(PPTX)을 로드합니다. 바꾸다`"HyperlinkSound.pptx"` 프레젠테이션의 실제 파일 이름을 사용하세요.
+ Aspose.Slides를 사용하여 오디오 하이퍼링크가 포함된 PowerPoint 프레젠테이션(PPTX)을 로드합니다. 바꾸다`"HyperlinkSound.pptx"`프레젠테이션의 실제 파일 이름을 사용하세요.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 하이퍼링크에 관련 사운드가 있는 경우 이를 바이트 배열로 추출하여 미디어 파일로 저장할 수 있습니다.
 
 ```csharp
-//하이퍼링크 사운드를 바이트 배열로 추출합니다.
+// 하이퍼링크 사운드를 바이트 배열로 추출합니다.
 byte[] audioData = link.Sound.BinaryData;
 
 // 추출된 오디오를 저장할 경로를 지정하세요.
@@ -101,7 +101,7 @@ File.WriteAllBytes(outMediaPath, audioData);
  예, Aspose에 대한 도움을 받고 경험을 공유할 수 있습니다.[Aspose.Slides 커뮤니티 포럼](https://forum.aspose.com/).
 
 ### 단기 프로젝트를 위해 Aspose.Slides의 임시 라이선스를 구입할 수 있나요?
- 예, 다음 사이트를 방문하여 단기 프로젝트 요구 사항을 충족하기 위해 Aspose.Slides for .NET에 대한 임시 라이센스를 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
+예, 다음 사이트를 방문하여 단기 프로젝트 요구 사항을 충족하기 위해 Aspose.Slides for .NET에 대한 임시 라이센스를 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
 
 ### MPG 외에 추출을 지원하는 다른 오디오 형식이 있습니까?
 .NET용 Aspose.Slides를 사용하면 MPG에 국한되지 않고 다양한 형식으로 오디오를 추출할 수 있습니다. 추출 후 원하는 형식으로 변환할 수 있습니다.

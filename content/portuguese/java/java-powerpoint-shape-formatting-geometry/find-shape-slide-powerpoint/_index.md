@@ -21,7 +21,7 @@ Primeiro, você precisa importar os pacotes Aspose.Slides necessários para o se
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Etapa 1: Crie o diretório do projeto

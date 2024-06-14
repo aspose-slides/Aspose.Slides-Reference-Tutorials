@@ -21,7 +21,7 @@ Chcete-li začít, importujte potřebné balíčky do projektu Java:
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte soubor prezentace
 Začněte zadáním cesty ke zdrojovému souboru prezentace:
@@ -57,7 +57,7 @@ Ano, Aspose.Slides for Java poskytuje rozsáhlé funkce pro vytváření složit
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro Java?
  Ano, máte přístup k bezplatné zkušební verzi Aspose.Slides for Java z[tady](https://releases.aspose.com/).
 ### Kde najdu podporu pro Aspose.Slides pro Java?
- Podporu a pomoc můžete hledat na fóru komunity Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
+ Podporu a pomoc můžete vyhledat na fóru komunity Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
 ### Jak mohu získat dočasnou licenci pro Aspose.Slides for Java?
  Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde mohu zakoupit Aspose.Slides pro Java?

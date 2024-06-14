@@ -21,7 +21,7 @@ tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu radarowego przy
 Zacznijmy od skonfigurowania nowej prezentacji PowerPoint i dodania do niej slajdu.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ Otóż to! Pomyślnie utworzyłeś wykres radarowy w prezentacji programu PowerP
 ## Kompletny kod źródłowy do tworzenia wykresów radarowych w slajdach Java
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Dodawanie nowej serii
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Teraz wypełniam dane serii
+	// Teraz wypełniam dane serii
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Ustaw kolor serii
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Teraz wypełniam dane z kolejnej serii
+	//Teraz wypełniam dane z kolejnej serii
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ Aby dostosować etykiety osi i formatowanie, w tym rozmiar i kolor czcionki, zob
 
 ### Jak zapisać wykres w innym formacie pliku?
 
- Możesz zmienić format wyjściowy, modyfikując rozszerzenie pliku w formacie`outPath` zmiennej i używając odpowiedniego`SaveFormat` . Na przykład, aby zapisać jako plik PDF, użyj`SaveFormat.Pdf`.
+Możesz zmienić format wyjściowy, modyfikując rozszerzenie pliku w formacie`outPath` zmiennej i używając odpowiedniego`SaveFormat` . Na przykład, aby zapisać jako plik PDF, użyj`SaveFormat.Pdf`.

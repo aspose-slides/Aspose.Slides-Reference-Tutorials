@@ -39,7 +39,7 @@ Vervolgens voegen we een bellendiagram toe aan de presentatie.
 IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Bubble, 50, 50, 400, 300, true);
 ```
 
-## Stap 3: Aangepaste foutbalken toevoegen
+## Stap 3: aangepaste foutbalken toevoegen
 
 Laten we nu aangepaste foutbalken toevoegen aan de diagramreeks.
 
@@ -143,10 +143,10 @@ In deze uitgebreide zelfstudie hebt u geleerd hoe u uw PowerPoint-presentaties k
 
 Ja, u kunt foutbalken toevoegen aan verschillende diagramtypen die worden ondersteund door Aspose.Slides voor Java, inclusief staafdiagrammen, lijndiagrammen en spreidingsdiagrammen.
 
-### Hoe stel ik voor elk gegevenspunt verschillende foutbalkwaarden in?
+### Hoe stel ik verschillende foutbalkwaarden in voor elk gegevenspunt?
 
-U kunt de gegevenspunten doorlopen en voor elk punt aangepaste foutbalkwaarden instellen, zoals weergegeven in de bovenstaande code.
+kunt de gegevenspunten doorlopen en voor elk punt aangepaste foutbalkwaarden instellen, zoals weergegeven in de bovenstaande code.
 
 ### Is het mogelijk om foutbalken voor specifieke gegevenspunten te verbergen?
 
-Ja, u kunt de zichtbaarheid van foutbalken voor individuele gegevenspunten bepalen door de`setVisible` eigendom van de`IErrorBarsFormat` voorwerp.
+ Ja, u kunt de zichtbaarheid van foutbalken voor individuele gegevenspunten bepalen door de`setVisible` eigendom van de`IErrorBarsFormat` voorwerp.

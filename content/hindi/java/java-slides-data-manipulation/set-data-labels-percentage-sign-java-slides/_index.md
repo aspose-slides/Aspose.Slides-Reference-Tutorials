@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 प्रतिशत प्रदर्शित करने के लिए, हमें चार्ट के ऊर्ध्वाधर अक्ष के लिए संख्या प्रारूप को कॉन्फ़िगर करना होगा।
 
 ```java
-//NumberFormatLinkedToSource को false पर सेट करें
+// NumberFormatLinkedToSource को false पर सेट करें
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // स्लाइड पर PercentsStackedColumn चार्ट जोड़ें
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//NumberFormatLinkedToSource को false पर सेट करें
+// NumberFormatLinkedToSource को false पर सेट करें
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ### क्या मैं डेटा लेबल के फ़ॉन्ट आकार को अनुकूलित कर सकता हूँ?
 
- हां, आप डेटा लेबल के फ़ॉन्ट आकार को सेट करके अनुकूलित कर सकते हैं`setFontHeight` संपत्ति जैसा कि कोड में दर्शाया गया है।
+हां, आप डेटा लेबल के फ़ॉन्ट आकार को सेट करके अनुकूलित कर सकते हैं`setFontHeight` संपत्ति जैसा कि कोड में दर्शाया गया है।
 
 ### मैं चार्ट में और अधिक श्रृंखला कैसे जोड़ सकता हूँ?
 

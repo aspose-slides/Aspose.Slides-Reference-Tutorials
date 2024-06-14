@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation())
     //プレゼンテーション画像コレクションに追加する画像を読み込む
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
-    //...
+    // ...
 }
 ```
 このステップでは、新しいプレゼンテーション オブジェクトを作成し、プレゼンテーションに追加する画像を読み込みます。

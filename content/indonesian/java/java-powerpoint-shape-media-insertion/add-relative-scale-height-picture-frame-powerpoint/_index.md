@@ -18,7 +18,7 @@ Sebelum memulai, pastikan Anda memiliki hal berikut:
 Untuk memulai, impor paket yang diperlukan dalam proyek Java Anda:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -37,7 +37,7 @@ Muat gambar yang ingin Anda tambahkan ke presentasi:
 BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
 IPPImage image = presentation.getImages().addImage(img);
 ```
-## Langkah 4: Tambahkan Bingkai Gambar ke Slide
+## Langkah 4: Tambahkan Bingkai Foto ke Slide
 Menambahkan bingkai foto ke slide dalam presentasi:
 ```java
 IPictureFrame pf = presentation.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 50, 50, 100, 100, image);

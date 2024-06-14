@@ -39,10 +39,10 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbn
     // Het bitmapobject bevat nu de miniatuurafbeelding met opgegeven grenzen.
 }
 ```
- Deze stap omvat het maken van een miniatuurafbeelding van een vorm met gespecificeerde grenzen. Hier,`ShapeThumbnailBounds.Appearance`wordt gebruikt om de weergavegrenzen te definiëren. Pas de parameters (1, 1) aan volgens uw vereisten.
+ Deze stap omvat het maken van een miniatuurafbeelding van een vorm met gespecificeerde grenzen. Hier,`ShapeThumbnailBounds.Appearance` wordt gebruikt om de weergavegrenzen te definiëren. Pas de parameters (1, 1) aan volgens uw vereisten.
 ## Stap 3: Sla de afbeelding op schijf op
 ```csharp
-// Sla de afbeelding op schijf op in PNG-indeling
+//Sla de afbeelding op schijf op in PNG-indeling
 bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 ```
 In deze laatste stap wordt de gegenereerde miniatuurafbeelding in PNG-indeling op de schijf opgeslagen. U kunt de bestandsnaam en het formaat aanpassen aan uw voorkeuren.
@@ -53,9 +53,9 @@ Aspose.Slides voor .NET vereenvoudigt het werken met PowerPoint-presentaties en 
 ### Is Aspose.Slides compatibel met het nieuwste .NET-framework?
 Ja, Aspose.Slides wordt regelmatig bijgewerkt om compatibiliteit met de nieuwste .NET-frameworkversies te garanderen.
 ### Kan ik Aspose.Slides gebruiken voor commerciële projecten?
-Absoluut! Aspose.Slides biedt licentieopties voor zowel individueel als commercieel gebruik. Bezoek[hier](https://purchase.aspose.com/buy) om licentiedetails te verkennen.
+ Absoluut! Aspose.Slides biedt licentieopties voor zowel individueel als commercieel gebruik. Bezoek[hier](https://purchase.aspose.com/buy) om licentiedetails te verkennen.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Slides?
- Ja, u krijgt toegang tot een gratis proefperiode[hier](https://releases.aspose.com/) om de functies te verkennen voordat u een aankoop doet.
+ Ja, u krijgt toegang tot een gratis proefperiode[hier](https://releases.aspose.com/)om de functies te verkennen voordat u een aankoop doet.
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides?
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om verbinding te maken met de community en hulp te zoeken bij ervaren ontwikkelaars.
 ### Kan ik een tijdelijke licentie krijgen voor Aspose.Slides?

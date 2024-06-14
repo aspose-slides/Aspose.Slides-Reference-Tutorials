@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/histogram-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 PowerPoint 프레젠테이션에서 히스토그램 차트를 만드는 과정을 안내합니다. 히스토그램 차트는 연속 간격에 대한 데이터 분포를 나타내는 데 사용됩니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Aspose.Slides for Java 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/slides/java/).
 
@@ -65,7 +65,7 @@ try {
 }
 ```
 
-이 코드에서는 먼저 차트에서 기존 범주와 계열을 모두 지웁니다. 그런 다음 다음을 사용하여 계열에 데이터 포인트를 추가합니다.`getDataPoints().addDataPointForHistogramSeries` 방법. 마지막으로 가로축 집계 유형을 자동으로 설정하고 프레젠테이션을 저장합니다.
+ 이 코드에서는 먼저 차트에서 기존 범주와 계열을 모두 지웁니다. 그런 다음 다음을 사용하여 계열에 데이터 포인트를 추가합니다.`getDataPoints().addDataPointForHistogramSeries` 방법. 마지막으로 가로축 집계 유형을 자동으로 설정하고 프레젠테이션을 저장합니다.
 
 ## Java 슬라이드의 히스토그램 차트에 대한 완전한 소스 코드
 

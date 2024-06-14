@@ -85,7 +85,7 @@ finally
 
 ## Conclusión
 
-En este tutorial, hemos aprendido cómo eliminar la protección contra escritura de presentaciones de PowerPoint usando Java y la biblioteca Aspose.Slides para Java. Esto puede resultar útil en situaciones en las que necesita realizar cambios mediante programación en una presentación protegida.
+En este tutorial, aprendimos cómo eliminar la protección contra escritura de presentaciones de PowerPoint usando Java y la biblioteca Aspose.Slides para Java. Esto puede resultar útil en situaciones en las que necesita realizar cambios mediante programación en una presentación protegida.
 
 ## Preguntas frecuentes
 

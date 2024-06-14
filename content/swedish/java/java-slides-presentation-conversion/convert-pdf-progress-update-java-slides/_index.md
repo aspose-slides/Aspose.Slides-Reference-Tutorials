@@ -10,7 +10,7 @@ url: /sv/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 
 ## Introduktion till att konvertera PowerPoint till PDF med framstegsuppdateringar i Java med Aspose.Slides för Java
 
-I denna steg-för-steg-guide kommer vi att visa hur man konverterar en PowerPoint-presentation (PPTX) till en PDF-fil i Java med Aspose.Slides för Java. Dessutom kommer vi att inkludera förloppsuppdateringar under konverteringsprocessen.
+denna steg-för-steg-guide kommer vi att visa hur man konverterar en PowerPoint-presentation (PPTX) till en PDF-fil i Java med Aspose.Slides för Java. Dessutom kommer vi att inkludera förloppsuppdateringar under konverteringsprocessen.
 
 ## Förutsättningar
 
@@ -29,7 +29,7 @@ import com.aspose.slides.*;
 
 ## Steg 2: Skapa en Java-klass
 
-Skapa en Java-klass där du ska utföra konverteringen från PowerPoint till PDF. Låt oss namnge det`PowerPointToPdfConverter`.
+ Skapa en Java-klass där du ska utföra konverteringen från PowerPoint till PDF. Låt oss namnge det`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -68,7 +68,7 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## Steg 5: Kompilera och kör
 
- Kompilera din Java-klass och kör`PowerPointToPdfConverter` klass. Det kommer att konvertera PowerPoint-presentationen till en PDF-fil samtidigt som den tillhandahåller förloppsuppdateringar i konsolen.
+Kompilera din Java-klass och kör`PowerPointToPdfConverter` klass. Det kommer att konvertera PowerPoint-presentationen till en PDF-fil samtidigt som den tillhandahåller förloppsuppdateringar i konsolen.
 
 ## Komplett källkod för konvertering till PDF med Progress Update i Java Slides
 
@@ -99,7 +99,7 @@ class ExportProgressHandler implements IProgressCallback
 
 ## Slutsats
 
-den här steg-för-steg-guiden utforskade vi hur man konverterar en PowerPoint-presentation (PPTX) till en PDF-fil i Java med Aspose.Slides för Java. Dessutom implementerade vi förloppsuppdateringar under konverteringsprocessen för att hålla reda på verksamhetens status.
+I den här steg-för-steg-guiden utforskade vi hur man konverterar en PowerPoint-presentation (PPTX) till en PDF-fil i Java med Aspose.Slides för Java. Dessutom implementerade vi förloppsuppdateringar under konverteringsprocessen för att hålla reda på verksamhetens status.
 
 ## FAQ's
 
@@ -117,4 +117,4 @@ Ja, Aspose.Slides för Java tillhandahåller omfattande funktioner för att arbe
 
 ### Hur kan jag anpassa PDF-konverteringsalternativ?
 
- Du kan anpassa PDF-konverteringsalternativen genom att ändra`PdfOptions` objekt innan du anropar`presentation.save`metod. Detta inkluderar inställning av egenskaper som sidstorlek, kvalitet och mer.
+ Du kan anpassa PDF-konverteringsalternativen genom att ändra`PdfOptions` objekt innan du anropar`presentation.save` metod. Detta inkluderar inställning av egenskaper som sidstorlek, kvalitet och mer.

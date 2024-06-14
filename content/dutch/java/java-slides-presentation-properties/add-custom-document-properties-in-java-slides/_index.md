@@ -64,7 +64,7 @@ String getPropertyName = documentProperties.getCustomPropertyName(2);
 
 ## Stap 6: Een geselecteerde eigenschap verwijderen
 
-Als u een aangepaste eigenschap wilt verwijderen, kunt u dit doen door de naam ervan op te geven. Hier verwijderen we de eigendommen die we in stap 5 hebben verkregen.
+Als u een aangepaste eigenschap wilt verwijderen, kunt u dit doen door de naam ervan op te geven. Hier verwijderen we het eigendom dat we in stap 5 hebben verkregen.
 
 ```java
 // Geselecteerde eigenschap verwijderen

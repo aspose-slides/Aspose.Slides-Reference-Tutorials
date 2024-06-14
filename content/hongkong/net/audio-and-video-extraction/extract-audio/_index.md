@@ -12,7 +12,7 @@ url: /zh-hant/net/audio-and-video-extraction/extract-audio/
 
 ## 先決條件
 
-在我們深入研究使用 Aspose.Slides for .NET 從投影片中提取音訊的過程之前，請確保您具備以下先決條件：
+在我們深入研究使用 Aspose.Slides for .NET 從投影片中提取音訊的過程之前，請確保滿足以下先決條件：
 
 ### 1. .NET 函式庫的 Aspose.Slides
 您需要安裝 Aspose.Slides for .NET 函式庫。如果您還沒有，您可以從以下位置下載[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).

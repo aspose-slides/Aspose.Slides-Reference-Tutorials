@@ -73,7 +73,7 @@ Het aanpassen van de eigenschappen van uw ActiveX-besturingselement kan de gebru
 
 1.  Toegang tot eigenschappen: Zoals eerder vermeld, hebt u toegang tot de eigenschappen van het ActiveX-besturingselement met behulp van de`IOleObjectFrame` referentie.
 
-2.  Eigenschappen instellen: Gebruik de`SetProperty`methode om verschillende eigenschappen van het ActiveX-besturingselement in te stellen. U kunt de achtergrondkleur bijvoorbeeld als volgt wijzigen:
+2.  Eigenschappen instellen: gebruik de`SetProperty`methode om verschillende eigenschappen van het ActiveX-besturingselement in te stellen. U kunt de achtergrondkleur bijvoorbeeld als volgt wijzigen:
 
 ```csharp
 oleObjectFrame.SetProperty("BackColor", Color.Red);

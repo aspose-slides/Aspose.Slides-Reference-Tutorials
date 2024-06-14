@@ -10,7 +10,7 @@ url: /ko/net/presentation-conversion/convert-html-presentation-with-embedded-ima
 
 오늘날의 디지털 세계에서는 PowerPoint 프레젠테이션을 HTML로 변환하는 것이 점점 더 중요해지고 있습니다. 온라인으로 콘텐츠를 공유하든 웹 기반 프레젠테이션을 만들든 PowerPoint 파일을 HTML로 변환하는 기능은 귀중한 자산이 될 수 있습니다. Aspose.Slides for .NET은 이러한 변환을 원활하게 수행할 수 있는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 이미지가 포함된 HTML 프레젠테이션을 변환하는 과정을 안내합니다.
 
-## 전제조건
+## 전제 조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인해야 합니다.
 
@@ -51,7 +51,7 @@ string outFilePath = Path.Combine(dataDir, "HTMLConversion");
 
 ## 2단계: PowerPoint 프레젠테이션 로드
 
-이제 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 로드합니다.
+이제 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 로드하세요.
 
 ```csharp
 using (Presentation pres = new Presentation(presentationName))
@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation(presentationName))
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //HTML5 문서에 이미지를 강제로 저장하지 않음
+    // HTML5 문서에 이미지를 강제로 저장하지 않음
     EmbedImages = false,
     // 외부 이미지 경로 설정
     OutputPath = outPath

@@ -8,7 +8,7 @@ weight: 12
 url: /id/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
 ## Perkenalan
-Apakah Anda siap untuk membawa presentasi PowerPoint Anda ke level berikutnya? Menambahkan efek rotasi 3D dapat membuat slide Anda lebih dinamis dan menarik. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial langkah demi langkah ini akan menunjukkan cara menerapkan efek rotasi 3D pada bentuk di PowerPoint menggunakan Aspose.Slides untuk Java. Mari selami!
+Apakah Anda siap untuk membawa presentasi PowerPoint Anda ke level selanjutnya? Menambahkan efek rotasi 3D dapat membuat slide Anda lebih dinamis dan menarik. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial langkah demi langkah ini akan menunjukkan cara menerapkan efek rotasi 3D pada bentuk di PowerPoint menggunakan Aspose.Slides untuk Java. Mari selami!
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 1.  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -19,7 +19,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 Pertama, mari impor paket yang diperlukan ke proyek Java Anda. Impor ini akan membantu Anda menangani presentasi dan bentuk dengan Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Siapkan Proyek Anda
 Sebelum mendalami kodenya, siapkan lingkungan proyek Anda. Pastikan Anda telah menambahkan Aspose.Slides for Java ke dependensi proyek Anda.
@@ -72,7 +72,7 @@ pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
 Kode ini menyimpan presentasi Anda dengan nama file yang ditentukan dalam format yang diinginkan.
 ## Kesimpulan
-Selamat! Anda telah berhasil menerapkan efek rotasi 3D ke bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat membuat presentasi yang menarik secara visual dan dinamis. Untuk penyesuaian lebih lanjut dan fitur lebih lanjut, lihat[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/).
+ Selamat! Anda telah berhasil menerapkan efek rotasi 3D ke bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat membuat presentasi yang menarik secara visual dan dinamis. Untuk penyesuaian lebih lanjut dan fitur lebih lanjut, lihat[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/).
 ## FAQ
 ### Apa itu Aspose.Slide untuk Java?
 Aspose.Slides untuk Java adalah API yang kuat untuk membuat, memodifikasi, dan memanipulasi presentasi PowerPoint secara terprogram.

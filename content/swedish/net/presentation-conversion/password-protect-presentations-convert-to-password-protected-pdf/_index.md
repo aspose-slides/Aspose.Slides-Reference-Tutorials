@@ -54,7 +54,7 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 
 Grattis! Du har framgångsrikt konverterat din presentation till en lösenordsskyddad PDF med Aspose.Slides för .NET. Denna enkla process säkerställer att ditt känsliga innehåll förblir konfidentiellt och säkert.
 
-Genom att följa denna steg-för-steg handledning har du fått färdigheterna att skydda dina presentationer från obehörig åtkomst. Kom ihåg att förvara ditt lösenord säkert och lättillgängligt för behöriga användare.
+Genom att följa denna steg-för-steg handledning har du fått färdigheter att skydda dina presentationer från obehörig åtkomst. Kom ihåg att förvara ditt lösenord säkert och lättillgängligt för behöriga användare.
 
 ## FAQ's
 

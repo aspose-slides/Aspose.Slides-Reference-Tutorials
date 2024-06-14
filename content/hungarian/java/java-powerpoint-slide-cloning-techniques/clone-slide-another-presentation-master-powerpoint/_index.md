@@ -1,6 +1,6 @@
 ---
-title: Dia klónozása egy másik prezentációhoz Mesterrel
-linktitle: Dia klónozása egy másik prezentációhoz Mesterrel
+title: Dia klónozása egy másik prezentációhoz a Mesterrel
+linktitle: Dia klónozása egy másik prezentációhoz a Mesterrel
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan klónozhat diákot a prezentációk között Java nyelven az Aspose.Slides segítségével. Lépésről lépésre bemutató mesterdiák karbantartásáról.
 type: docs
@@ -19,7 +19,7 @@ Mielőtt belevágna a kódolási részbe, győződjön meg arról, hogy a követ
 A kezdéshez importálnia kell a szükséges Aspose.Slides csomagokat a Java projektbe. Íme, hogyan kell csinálni:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Bontsuk le részletes lépésekre a dia klónozásának folyamatát egy másik prezentációba a fődiával együtt.
 ## 1. lépés: Töltse be a forrásbemutatót
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## 4. lépés: Klónozza a fődiát a célprezentációhoz
 Klónozza a mesterdiát a forrásbemutatóból a célprezentáció mesterdiáiba.
 ```java
-//Klónozza a kívánt mesterdiát a forrásbemutatóból a mesterdiák gyűjteményébe a Cél prezentációban
+// Klónozza a kívánt mesterdiát a forrásbemutatóból a mesterdiák gyűjteményébe a Cél prezentációban
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

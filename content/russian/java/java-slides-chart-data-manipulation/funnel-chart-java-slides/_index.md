@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Добавьте воронкообразную диаграмму на первый слайд с координатами (50, 50) и размерами (500, 400).
+    //Добавьте воронкообразную диаграмму на первый слайд с координатами (50, 50) и размерами (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -64,7 +64,7 @@ chart.getChartData().getCategories().add(wb.getCell(0, "A4", "Category 4"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A5", "Category 5"));
 chart.getChartData().getCategories().add(wb.getCell(0, "A6", "Category 6"));
 
-// Добавьте точки данных для серии «Воронкообразная диаграмма».
+// Добавьте точки данных для серии воронкообразных диаграмм.
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Funnel);
 series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B1", 50));
 series.getDataPoints().addDataPointForFunnelSeries(wb.getCell(0, "B2", 100));
@@ -118,7 +118,7 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ```
 ## Заключение
 
-В этом пошаговом руководстве мы продемонстрировали, как создать диаграмму-воронку в презентации PowerPoint с помощью Aspose.Slides для Java. Диаграммы-воронки — это ценный инструмент для визуализации данных, которые следуют шаблону прогрессии или сужения, что позволяет легко и эффективно передавать информацию. 
+В этом пошаговом руководстве мы продемонстрировали, как создать диаграмму-воронку в презентации PowerPoint с помощью Aspose.Slides для Java. Диаграммы-воронки — ценный инструмент для визуализации данных, которые следуют шаблону прогрессии или сужения, что позволяет легко и эффективно передавать информацию. 
 
 ## Часто задаваемые вопросы
 
@@ -136,4 +136,4 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 
 ### Могу ли я экспортировать диаграмму в другие форматы, например PDF или изображение?
 
- Да, Aspose.Slides for Java позволяет экспортировать презентацию с воронкообразной диаграммой в различные форматы, включая PDF, форматы изображений и другие. Вы можете использовать`SaveFormat` параметры для указания желаемого формата вывода при сохранении презентации.
+Да, Aspose.Slides for Java позволяет экспортировать презентацию с воронкообразной диаграммой в различные форматы, включая PDF, форматы изображений и другие. Вы можете использовать`SaveFormat` параметры для указания желаемого формата вывода при сохранении презентации.

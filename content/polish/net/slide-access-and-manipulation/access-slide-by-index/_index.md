@@ -81,7 +81,7 @@ Nie, Aspose.Slides dla .NET jest biblioteką komercyjną wymagającą ważnej li
 
 ### Jakie inne funkcjonalności oferuje Aspose.Slides dla .NET?
 
-Aspose.Slides dla .NET oferuje szeroką gamę funkcjonalności, w tym tworzenie prezentacji od podstaw, manipulowanie slajdami, dodawanie kształtów i obrazów, stosowanie formatowania i wiele innych. Możesz odwołać się do[dokumentacja](https://reference.aspose.com/slides/net/) w celu uzyskania wyczerpujących informacji.
+Aspose.Slides dla .NET oferuje szeroką gamę funkcjonalności, w tym tworzenie prezentacji od podstaw, manipulowanie slajdami, dodawanie kształtów i obrazów, stosowanie formatowania i wiele innych. Możesz zapoznać się z[dokumentacja](https://reference.aspose.com/slides/net/) w celu uzyskania wyczerpujących informacji.
 
 ### Jak mogę dowiedzieć się więcej o automatyzacji programu PowerPoint za pomocą Aspose.Slides?
 

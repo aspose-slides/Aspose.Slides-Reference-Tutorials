@@ -12,7 +12,7 @@ url: /ko/java/chart-creation/scattered-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 분산형 차트를 만드는 과정을 안내합니다. 분산형 차트는 2차원 평면에서 데이터 요소를 시각화하는 데 유용합니다. 귀하의 편의를 위해 단계별 지침을 제공하고 Java 소스 코드를 포함하겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## 2단계: 슬라이드 추가 및 분산형 차트 만들기
 
- 다음으로 슬라이드를 추가하고 그 위에 분산형 차트를 만듭니다. 우리는`ScatterWithSmoothLines` 이 예에서는 차트 유형입니다.
+ 다음으로 슬라이드를 추가하고 그 위에 분산형 차트를 만듭니다. 우리는`ScatterWithSmoothLines`이 예에서는 차트 유형입니다.
 
 ```java
 // 첫 번째 슬라이드 가져오기
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// 기본 차트 만들기
+//기본 차트 만들기
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // 기본 차트 데이터 워크시트 색인 가져오기
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### 차트 유형을 어떻게 변경할 수 있나요?
 
- 차트 유형을 변경하려면`setType`차트 시리즈에 메소드를 적용하고 원하는 차트 유형을 제공합니다. 예를 들어,`series.setType(ChartType.Line)` 계열을 꺾은선형 차트로 변경합니다.
+ 차트 유형을 변경하려면`setType` 차트 시리즈에 메소드를 적용하고 원하는 차트 유형을 제공합니다. 예를 들어,`series.setType(ChartType.Line)` 계열을 꺾은선형 차트로 변경합니다.
 
 ### 마커 크기와 스타일을 어떻게 사용자 정의합니까?
 

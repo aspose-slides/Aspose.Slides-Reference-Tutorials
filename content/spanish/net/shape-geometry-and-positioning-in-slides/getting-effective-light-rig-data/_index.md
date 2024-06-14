@@ -40,7 +40,7 @@ Utilice el siguiente código para cargar un archivo de presentación:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Su código para recuperar datos efectivos de plataformas ligeras va aquí
+    //Su código para recuperar datos efectivos de plataformas ligeras va aquí
 }
 ```
 ## Paso 4: recuperar datos efectivos del equipo de iluminación

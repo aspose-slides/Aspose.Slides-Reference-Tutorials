@@ -37,7 +37,7 @@ IChart chart = (IChart) slide.getShapes().get_Item(0);
 
 ## Schritt 3: Bestimmte Datenpunkte löschen
 
-Nun durchlaufen wir die Datenpunkte der ersten Diagrammreihe und löschen ihre X- und Y-Werte.
+Jetzt durchlaufen wir die Datenpunkte der ersten Reihe des Diagramms und löschen ihre X- und Y-Werte.
 
 ```java
 for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).getDataPoints()) {
@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
-Dieser Code durchläuft jeden Datenpunkt in der ersten Reihe (Index 0) und setzt sowohl die X- als auch die Y-Werte auf`null`, wodurch die Datenpunkte effektiv gelöscht werden.
+ Dieser Code durchläuft jeden Datenpunkt in der ersten Reihe (Index 0) und setzt sowohl die X- als auch die Y-Werte auf`null`wodurch die Datenpunkte effektiv gelöscht werden.
 
 ## Schritt 4: Gelöschte Datenpunkte entfernen
 
@@ -58,7 +58,7 @@ chart.getChartData().getSeries().get_Item(0).getDataPoints().clear();
 
 Dieser Code löscht alle Datenpunkte aus der ersten Reihe.
 
-## Schritt 5: Speichern Sie die geänderte Präsentation
+## Schritt 5: Speichern der geänderten Präsentation
 
 Abschließend speichern wir die geänderte Präsentation in einer neuen Datei.
 
@@ -116,7 +116,7 @@ Ja, Sie können Datenpunkte basierend auf einer Bedingung löschen, indem Sie de
 
 ### Wie kann ich mit Aspose.Slides für Java einer Diagrammreihe neue Datenpunkte hinzufügen?
 
-Um neue Datenpunkte zu einer Diagrammreihe hinzuzufügen, können Sie das`addDataPoint` Methode der Reihe. Erstellen Sie einfach neue Datenpunkte und fügen Sie sie mit dieser Methode der Reihe hinzu.
+ Um neue Datenpunkte zu einer Diagrammreihe hinzuzufügen, können Sie das`addDataPoint` Methode der Reihe. Erstellen Sie einfach neue Datenpunkte und fügen Sie sie mit dieser Methode der Reihe hinzu.
 
 ### Wo finde ich weitere Informationen zu Aspose.Slides für Java?
 

@@ -73,14 +73,14 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 
 ## 6. lépés: Mentse a bemutatót
 
-további diák beszúrása után el kell mentenie a módosított prezentációt.
+A további diák beszúrása után el kell mentenie a módosított prezentációt.
 
 ```csharp
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Cserélje ki`"path_to_modified_presentation.pptx"` a módosított bemutató kívánt elérési útjával és fájlnevével.
+ Cserélje ki`"path_to_modified_presentation.pptx"` módosított bemutató kívánt elérési útjával és fájlnevével.
 
 ## Következtetés
 
@@ -98,7 +98,7 @@ Az Aspose.Slides API használatával testreszabhatja az új diák tartalmát, ha
 
 ### Mi a teendő, ha diákat akarok beszúrni a prezentáció elejére?
 
- Diák beszúrásához a prezentáció elejére állítsa be a`insertionIndex` nak nek`0`.
+Diák beszúrásához a prezentáció elejére állítsa be a`insertionIndex` nak nek`0`.
 
 ### Lehetséges-e módosítani a beillesztett diák elrendezését?
 

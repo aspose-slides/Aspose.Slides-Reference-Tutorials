@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 Gratulujeme! Úspěšně jste se naučili animovat prvky série v grafu pomocí Aspose.Slides pro .NET. S těmito znalostmi můžete vytvářet dynamické a poutavé prezentace v PowerPointu, které zaujmou vaše publikum.
 
- Aspose.Slides for .NET je výkonný nástroj pro programovou práci se soubory PowerPoint a otevírá svět možností pro vytváření profesionálních prezentací. Neváhejte a prozkoumejte[dokumentace](https://reference.aspose.com/slides/net/) pro pokročilejší funkce a možnosti přizpůsobení.
+ Aspose.Slides for .NET je výkonný nástroj pro programovou práci se soubory PowerPoint a otevírá svět možností pro vytváření profesionálních prezentací. Neváhejte a prozkoumejte[dokumentace](https://reference.aspose.com/slides/net/)pro pokročilejší funkce a možnosti přizpůsobení.
 
 ## Často kladené otázky
 

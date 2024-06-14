@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Po zkopírování a umístění snímku musíme upravenou cílovou prezentaci uložit.
 
 ```csharp
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

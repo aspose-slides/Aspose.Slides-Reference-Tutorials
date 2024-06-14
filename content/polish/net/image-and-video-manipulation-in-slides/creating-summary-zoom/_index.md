@@ -11,11 +11,11 @@ url: /pl/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 W dynamicznym świecie prezentacji Aspose.Slides dla .NET wyróżnia się jako potężne narzędzie poprawiające jakość tworzenia slajdów. Jedną z godnych uwagi funkcji, jakie oferuje, jest możliwość utworzenia powiększenia podsumowującego, atrakcyjnego wizualnie sposobu prezentacji kolekcji slajdów. W tym samouczku przeprowadzimy Cię przez proces tworzenia powiększenia podsumowującego na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
 Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
-- Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę w środowisku .NET. Jeśli nie, możesz pobrać go ze strony[strona wydania](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę w środowisku .NET. Jeśli nie, możesz pobrać go ze strony[strona wydania](https://releases.aspose.com/slides/net/).
 - Środowisko programistyczne: Skonfiguruj środowisko programistyczne .NET, w tym Visual Studio lub dowolne inne preferowane IDE.
 - Podstawowa znajomość języka C#: W tym samouczku założono, że masz podstawową wiedzę na temat programowania w języku C#.
 ## Importuj przestrzenie nazw
-W swoim projekcie C# uwzględnij niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.Slides. Dodaj następujące wiersze na początku kodu:
+swoim projekcie C# uwzględnij niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.Slides. Dodaj następujące wiersze na początku kodu:
 ```csharp
 using System;
 using System.Drawing;
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Krok 2: Dodaj slajdy i sekcje
- Ten krok polega na utworzeniu pojedynczych slajdów i uporządkowaniu ich w sekcje w prezentacji. The`AddEmptySlide`metoda dodaje nowy slajd, a metoda`Sections.AddSection` metoda ustanawia sekcje dla lepszej organizacji.
+ Ten krok polega na utworzeniu pojedynczych slajdów i uporządkowaniu ich w sekcje w prezentacji. The`AddEmptySlide` metoda dodaje nowy slajd, a metoda`Sections.AddSection` metoda ustanawia sekcje dla lepszej organizacji.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Tutaj znajduje się kod stylizujący slajd
@@ -47,7 +47,7 @@ pres.Sections.AddSection("Section 1", slide);
 // Powtórz te kroki dla innych sekcji (Sekcja 2, Sekcja 3, Sekcja 4)
 ```
 ## Krok 3: Dostosuj tło slajdu
-W tym miejscu dostosowujemy tło każdego slajdu, ustawiając typ wypełnienia, kolor wypełnienia i typ tła. Ten krok dodaje atrakcyjności wizualnej każdemu slajdowi.
+tym miejscu dostosowujemy tło każdego slajdu, ustawiając typ wypełnienia, kolor wypełnienia i typ tła. Ten krok dodaje atrakcyjności wizualnej każdemu slajdowi.
 ```csharp
 slide.Background.FillFormat.FillType = FillType.Solid;
 slide.Background.FillFormat.SolidFillColor.Color = Color.Brown;
@@ -78,4 +78,4 @@ Absolutnie! Do slajdów możesz dodawać hiperłącza, które będą płynnie dz
 ### Czy są jakieś ograniczenia dotyczące liczby sekcji w prezentacji?
 Od najnowszej wersji nie ma ścisłych ograniczeń co do liczby sekcji, które można dodać do prezentacji.
 ### Czy dostępna jest wersja próbna Aspose.Slides?
- Tak, możesz poznać funkcje Aspose.Slides, pobierając plik[bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak, możesz poznać funkcje Aspose.Slides, pobierając plik[bezpłatna wersja próbna](https://releases.aspose.com/).

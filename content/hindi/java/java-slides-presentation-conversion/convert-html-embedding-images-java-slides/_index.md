@@ -48,9 +48,9 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//HTML5 दस्तावेज़ में छवियों को बलपूर्वक न सहेजें
+// HTML5 दस्तावेज़ में छवियों को बलपूर्वक न सहेजें
 options.setEmbedImages(true); // छवियाँ एम्बेड करने के लिए true पर सेट करें
-// बाह्य छवियों के लिए पथ सेट करें (यदि आवश्यक हो)
+//बाह्य छवियों के लिए पथ सेट करें (यदि आवश्यक हो)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // स्रोत तक पथ प्रस्तुति
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // HTML दस्तावेज़ का पथ
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//HTML5 दस्तावेज़ में छवियों को बलपूर्वक न सहेजें
+	// HTML5 दस्तावेज़ में छवियों को बलपूर्वक न सहेजें
 	options.setEmbedImages(false);
 	// बाह्य छवियों के लिए पथ सेट करें
 	options.setOutputPath(outFilePath);

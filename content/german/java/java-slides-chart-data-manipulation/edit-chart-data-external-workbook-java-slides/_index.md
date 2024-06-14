@@ -75,7 +75,7 @@ Jetzt haben Sie die Diagrammdaten in einer externen Arbeitsmappe innerhalb Ihrer
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ In diesem umfassenden Handbuch haben wir untersucht, wie Sie Diagrammdaten in ex
 
 ### Wie gebe ich ein anderes Diagramm oder eine andere Folie an?
 
- Um auf ein anderes Diagramm oder eine andere Folie zuzugreifen, ändern Sie den entsprechenden Index im`getSlides().get_Item()` Und`getShapes().get_Item()` Methoden. Denken Sie daran, dass die Indizierung bei 0 beginnt.
+ Um auf ein anderes Diagramm oder eine andere Folie zuzugreifen, ändern Sie den entsprechenden Index im`getSlides().get_Item()` Und`getShapes().get_Item()`Methoden. Denken Sie daran, dass die Indizierung bei 0 beginnt.
 
 ### Kann ich Daten in mehreren Diagrammen innerhalb derselben Präsentation bearbeiten?
 

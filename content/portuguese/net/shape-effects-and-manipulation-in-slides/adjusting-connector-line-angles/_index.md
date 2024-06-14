@@ -77,7 +77,7 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
 ## Conclusão
 Com essas etapas, você pode ajustar programaticamente os ângulos das linhas do conector em sua apresentação do PowerPoint usando Aspose.Slides for .NET. Este tutorial fornece uma base para aprimorar o apelo visual de seus slides.
 ## Perguntas frequentes
-### O Aspose.Slides é adequado para aplicativos Windows e web?
+### Aspose.Slides é adequado para aplicativos Windows e web?
 Sim, o Aspose.Slides pode ser usado em aplicativos Windows e web.
 ### Posso baixar uma versão de avaliação gratuita do Aspose.Slides antes de comprar?
  Sim, você pode baixar uma versão de teste gratuita[aqui](https://releases.aspose.com/).

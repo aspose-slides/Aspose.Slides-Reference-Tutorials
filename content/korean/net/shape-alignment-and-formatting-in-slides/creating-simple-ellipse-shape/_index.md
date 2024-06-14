@@ -9,9 +9,9 @@ url: /ko/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 ---
 ## 소개
 프리젠테이션 디자인의 역동적인 세계에서 타원과 같은 모양을 통합하면 창의성과 전문성을 더할 수 있습니다. Aspose.Slides for .NET은 프레젠테이션 파일을 프로그래밍 방식으로 조작하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼은 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 간단한 타원 모양을 만드는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
--  .NET용 Aspose.Slides: .NET용 Aspose.Slides 라이브러리를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/slides/net/).
+- .NET용 Aspose.Slides: .NET용 Aspose.Slides 라이브러리를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/slides/net/).
 - 개발 환경: 컴퓨터에 .NET 개발 환경을 설정합니다.
 ## 네임스페이스 가져오기
 .NET 프로젝트에서 필요한 네임스페이스를 가져오는 것부터 시작합니다.
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 이 코드는 새 프레젠테이션을 초기화하고 추가 조작을 위해 첫 번째 슬라이드를 선택합니다.
 ## 2단계: 타원 모양 추가
-이제 다음을 사용하여 슬라이드에 타원 모양을 추가해 보겠습니다.`AddAutoShape` 방법:
+ 이제 다음을 사용하여 슬라이드에 타원 모양을 추가해 보겠습니다.`AddAutoShape` 방법:
 ```csharp
 // 타원형 자동모양 추가
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

@@ -8,10 +8,10 @@ weight: 11
 url: /sv/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
 ## Introduktion
-den dynamiska världen av presentationsdesign kan inkorporering av former som ellipser lägga till en touch av kreativitet och professionalism. Aspose.Slides för .NET erbjuder en kraftfull lösning för att manipulera presentationsfiler programmatiskt. Denna handledning guidar dig genom processen att skapa en enkel ellipsform i presentationsbilder med Aspose.Slides för .NET.
+I den dynamiska världen av presentationsdesign kan inkorporering av former som ellipser lägga till en touch av kreativitet och professionalism. Aspose.Slides för .NET erbjuder en kraftfull lösning för att manipulera presentationsfiler programmatiskt. Denna handledning guidar dig genom processen att skapa en enkel ellipsform i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
--  Aspose.Slides för .NET: Se till att du har installerat Aspose.Slides-biblioteket för .NET. Du kan ladda ner den från[släpper sida](https://releases.aspose.com/slides/net/).
+- Aspose.Slides för .NET: Se till att du har installerat Aspose.Slides-biblioteket för .NET. Du kan ladda ner den från[släpper sida](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Konfigurera en .NET-utvecklingsmiljö på din maskin.
 ## Importera namnområden
 I ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Den här koden initierar en ny presentation och väljer den första bilden för vidare manipulation.
 ## Steg 2: Lägg till Ellipse Shape
-Låt oss nu lägga till en ellipsform till bilden med hjälp av`AddAutoShape` metod:
+ Låt oss nu lägga till en ellipsform till bilden med hjälp av`AddAutoShape` metod:
 ```csharp
 // Lägg till autoform av ellipstyp
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

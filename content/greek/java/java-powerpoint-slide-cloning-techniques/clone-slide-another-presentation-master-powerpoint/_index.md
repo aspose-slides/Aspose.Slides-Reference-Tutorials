@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-prese
 Για να ξεκινήσετε, πρέπει να εισαγάγετε τα απαραίτητα πακέτα Aspose.Slides στο έργο σας Java. Δείτε πώς το κάνετε:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Ας αναλύσουμε τη διαδικασία κλωνοποίησης μιας διαφάνειας σε μια άλλη παρουσίαση με την κύρια διαφάνεια σε λεπτομερή βήματα.
 ## Βήμα 1: Φορτώστε την παρουσίαση πηγής
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Βήμα 4: Κλωνοποιήστε την κύρια διαφάνεια στην παρουσίαση προορισμού
 Κλωνοποιήστε την κύρια διαφάνεια από την παρουσίαση πηγής στη συλλογή των κυρίων στην παρουσίαση προορισμού.
 ```java
-//Κλωνοποιήστε την επιθυμητή κύρια διαφάνεια από την παρουσίαση πηγής στη συλλογή των κυρίων στην παρουσίαση Προορισμού
+// Κλωνοποιήστε την επιθυμητή κύρια διαφάνεια από την παρουσίαση πηγής στη συλλογή των κυρίων στην παρουσίαση Προορισμού
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

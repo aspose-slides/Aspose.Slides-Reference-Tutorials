@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-pdf-compliance-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 규격에 맞게 PDF 파일로 변환하는 방법을 살펴보겠습니다. 특히 PDF 규격을 PDF/A-2a로 설정하겠습니다. 이 규정 준수 수준은 결과 PDF 파일이 장기 보관 및 접근성에 대한 특정 표준을 준수하도록 보장합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음이 설정되어 있는지 확인하세요.
 
@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Java 슬라이드에서 PDF 규격으로 변환하기 위한 완전한 소스 코드
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ PDF/A-2a는 PDF 파일에 대한 준수 수준입니다. 전자 문서의 장기
 
 ## PDF 준수 수준을 PDF/A-2a가 아닌 다른 수준으로 변경할 수 있습니까?
 
- 예, Aspose.Slides for Java는 PDF 준수 수준을 선택할 수 있는 유연성을 제공합니다. 제공된 코드에서 다음을 수정하여 준수 수준을 변경할 수 있습니다.`pdfOptions.setCompliance()` 선. 특정 요구 사항에 따라 PDF/A-1a, PDF/A-1b, PDF/A-3a 등과 같은 다른 규정 준수 수준을 선택할 수 있습니다.
+ 예, Aspose.Slides for Java는 PDF 준수 수준을 선택할 수 있는 유연성을 제공합니다. 제공된 코드에서 다음을 수정하여 준수 수준을 변경할 수 있습니다.`pdfOptions.setCompliance()`선. 특정 요구 사항에 따라 PDF/A-1a, PDF/A-1b, PDF/A-3a 등과 같은 다른 규정 준수 수준을 선택할 수 있습니다.
 
 ## PDF/A-2a와 다른 규정 준수 수준의 차이점은 무엇입니까?
 
@@ -113,4 +113,4 @@ PDF/A-2a는 향상된 기능을 제공하지만 특히 복잡한 문서를 변�
 
 ## Java 및 PDF 준수를 위한 Aspose.Slides에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
 
- PDF 규정 준수 설정을 포함한 Aspose.Slides for Java 및 해당 기능에 대한 자세한 내용은 다음 문서를 참조하세요.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/)또한 코드 예제와 튜토리얼을 탐색하여 라이브러리에 대한 지식을 더욱 향상시킬 수 있습니다.
+ PDF 규정 준수 설정을 포함한 Aspose.Slides for Java 및 해당 기능에 대한 자세한 내용은 다음 문서를 참조하세요.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/). 또한 코드 예제와 튜토리얼을 탐색하여 라이브러리에 대한 지식을 더욱 향상시킬 수 있습니다.

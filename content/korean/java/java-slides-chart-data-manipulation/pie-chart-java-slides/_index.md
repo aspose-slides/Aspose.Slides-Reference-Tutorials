@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/pie-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 원형 차트를 만드는 방법을 보여줍니다. 시작하는 데 도움이 되는 단계별 지침과 Java 소스 코드가 제공됩니다. 이 가이드에서는 Aspose.Slides for Java를 사용하여 개발 환경을 이미 설정했다고 가정합니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 구성되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## 4단계: 원형 차트 추가
 
 ```java
-//기본 데이터가 포함된 원형 차트 추가
+// 기본 데이터가 포함된 원형 차트 추가
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ chart.setTitle(true);
 ## 6단계: 차트 데이터 사용자 정의
 
 ```java
-// 값을 표시하도록 첫 번째 계열 설정
+//값을 표시하도록 첫 번째 계열 설정
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // 차트 데이터 시트의 인덱스 설정
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // 새로운 시리즈 추가
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//이제 계열 데이터를 채우는 중입니다.
+// 이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -237,7 +237,7 @@ lbl2.getDataLabelFormat().setShowPercentage(true);
 IDataLabel lbl3 = series.getDataPoints().get_Item(2).getLabel();
 lbl3.getDataLabelFormat().setShowSeriesName(true);
 lbl3.getDataLabelFormat().setShowPercentage(true);
-// 차트 지시선 표시
+// 차트의 지시선 표시
 series.getLabels().getDefaultDataLabelFormat().setShowLeaderLines(true);
 // 원형 차트 섹터의 회전 각도 설정
 chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);

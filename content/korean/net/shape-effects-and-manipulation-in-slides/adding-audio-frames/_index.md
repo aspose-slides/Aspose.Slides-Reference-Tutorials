@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 오디오 요소를 통합하면 청중의 전반적인 경험을 크게 향상시킬 수 있습니다. .NET용 Aspose.Slides는 개발자가 오디오 프레임을 프레젠테이션 슬라이드에 원활하게 통합하여 새로운 참여 및 상호 작용 계층을 추가할 수 있도록 지원합니다. 이 단계별 가이드는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 오디오 프레임을 추가하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Slides: 다음에서 .NET 라이브러리용 Aspose.Slides를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/slides/net/).
 2. 개발 환경: Visual Studio와 같은 .NET용 개발 환경이 작동하는지 확인하세요.

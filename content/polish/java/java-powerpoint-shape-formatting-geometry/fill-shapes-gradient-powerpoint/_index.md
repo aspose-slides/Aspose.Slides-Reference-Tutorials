@@ -11,7 +11,7 @@ url: /pl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Tworzenie atrakcyjnych wizualnie prezentacji programu PowerPoint ma kluczowe znaczenie dla przyciągnięcia uwagi odbiorców. Jednym ze skutecznych sposobów ulepszania slajdów jest wypełnianie kształtów gradientami. Ten samouczek poprowadzi Cię przez proces używania Aspose.Slides dla Java do wypełniania kształtów gradientami w programie PowerPoint. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik będzie pomocny i łatwy w obsłudze. Zanurzmy się w świat gradientów i zobaczmy, jak mogą one przekształcić Twoje prezentacje.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
--  Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides dla Java: Pobierz najnowszą wersję z[Tutaj](https://releases.aspose.com/slides/java/).
 - Zintegrowane środowisko programistyczne (IDE): IDE, takie jak IntelliJ IDEA lub Eclipse, sprawi, że kodowanie stanie się płynniejsze.
 - Podstawowa znajomość języka Java: Znajomość programowania w języku Java jest niezbędna.
@@ -19,7 +19,7 @@ Zanim zaczniemy, upewnij się, że masz następujące elementy:
 Aby rozpocząć pracę z Aspose.Slides, musisz zaimportować niezbędne pakiety. Upewnij się, że dodałeś Aspose.Slides for Java do zależności swojego projektu.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

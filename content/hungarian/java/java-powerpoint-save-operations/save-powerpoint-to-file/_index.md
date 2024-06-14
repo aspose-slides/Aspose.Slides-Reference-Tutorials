@@ -19,13 +19,13 @@ Először is importálja a szükséges csomagokat az Aspose.Slides funkció hasz
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
-## 1. lépés: Állítsa be az adatkönyvtárat
+## 1. lépés: Állítsa be az adattárat
 ```java
 // A dokumentumok könyvtárának elérési útja.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Hozzon létre könyvtárat, ha még nincs jelen.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 Ebben a lépésben meghatározzuk annak a könyvtárnak az elérési útját, ahová a PowerPoint-prezentáció mentésre kerül. Ha a könyvtár nem létezik, akkor létrejön.
 ## 2. lépés: Prezentációs objektum példányosítása
 ```java
-//Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
+// Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
 Presentation presentation = new Presentation();
 ```
- Itt létrehozunk egy új példányt a`Presentation` osztály, amely egy PowerPoint bemutatót jelent.
+Itt létrehozunk egy új példányt a`Presentation` osztály, amely egy PowerPoint bemutatót jelent.
 ## 3. lépés: Műveletek végrehajtása a bemutatón (opcionális)
 ```java
 //...dolgozzon itt egy kicsit...

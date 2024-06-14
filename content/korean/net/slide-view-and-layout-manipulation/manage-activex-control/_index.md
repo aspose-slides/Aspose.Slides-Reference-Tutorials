@@ -148,4 +148,4 @@ ActiveX 컨트롤을 PowerPoint 프레젠테이션에 통합하면 청중의 상
 
 ### 슬라이드에서 ActiveX 컨트롤을 제거할 수 있나요?
 
- 예, 다음을 사용하여 슬라이드에서 ActiveX 컨트롤을 제거할 수 있습니다.`Remove` 의 방법`Shapes` 수집. 다음에 대한 참조를 전달합니다.`IOleObjectFrame` 컨트롤을 인수로 표현`Remove` 방법을 사용하면 컨트롤이 슬라이드에서 제거됩니다.
+ 예, 다음을 사용하여 슬라이드에서 ActiveX 컨트롤을 제거할 수 있습니다.`Remove` 의 방법`Shapes` 수집. 참조를 다음 항목에 전달합니다.`IOleObjectFrame` 컨트롤을 인수로 표현`Remove` 방법을 사용하면 컨트롤이 슬라이드에서 제거됩니다.

@@ -21,7 +21,7 @@ Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalı
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Adım 1: Proje Dizinini Oluşturun

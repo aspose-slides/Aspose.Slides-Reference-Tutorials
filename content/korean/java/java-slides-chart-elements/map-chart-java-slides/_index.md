@@ -12,7 +12,7 @@ url: /ko/java/chart-elements/map-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 지도 차트를 만드는 과정을 안내합니다. 지도 차트는 프레젠테이션에서 지리적 데이터를 시각화하는 좋은 방법입니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 통합된 Java용 Aspose.Slides 라이브러리가 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -83,7 +83,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Java 슬라이드의 지도 차트에 대한 완전한 소스 코드
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//빈 차트 만들기

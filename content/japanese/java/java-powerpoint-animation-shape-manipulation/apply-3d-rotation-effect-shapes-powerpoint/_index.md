@@ -19,7 +19,7 @@ PowerPoint プレゼンテーションを次のレベルに引き上げる準備
 まず、Java プロジェクトに必要なパッケージをインポートしましょう。これらのインポートは、Aspose.Slides でプレゼンテーションや図形を処理するのに役立ちます。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: プロジェクトを設定する
 コードに進む前に、プロジェクト環境を設定します。プロジェクトの依存関係に Aspose.Slides for Java が追加されていることを確認します。

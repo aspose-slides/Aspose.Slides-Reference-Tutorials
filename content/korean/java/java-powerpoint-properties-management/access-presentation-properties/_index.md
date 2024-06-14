@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-properties-management/access-presentation-properti
 ---
 ## 소개
 Java 개발 영역에서 프레젠테이션을 원활하게 관리하는 것은 어려운 일이 될 수 있습니다. 그러나 Java용 Aspose.Slides의 출현으로 개발자는 이러한 복잡성을 쉽게 탐색할 수 있는 강력한 툴킷을 갖게 되었습니다. 이 튜토리얼은 프레젠테이션 속성에 액세스하기 위해 Aspose.Slides를 활용하는 복잡한 과정을 공개하는 등불 역할을 합니다. 우리는 전제 조건을 조사하고, 패키지를 가져오고, 각 예를 소화 가능한 단계로 나누어 숙달을 향한 여정이 원활하고 풍요롭게 유지되도록 할 것입니다.
-## 전제조건
+## 전제 조건
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 1. JDK(Java Development Kit): Java용 Aspose.Slides가 원활하게 작동하려면 Java 런타임 환경이 필요하므로 시스템에 JDK가 설치되어 있는지 확인하십시오.
 2. Aspose.Slides for Java 라이브러리: 제공된 Aspose.Slides for Java 라이브러리를 다운로드하고 설치합니다.[다운로드 링크](https://releases.aspose.com/slides/java/). 이 라이브러리는 프레젠테이션 관리 노력의 초석이 될 것입니다.
@@ -21,12 +21,12 @@ Java 개발 영역에서 프레젠테이션을 원활하게 관리하는 것은 
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 데이터 디렉터리 설정
 핵심 기능을 살펴보기 전에 프레젠테이션 파일에 액세스할 데이터 디렉터리를 설정하세요.
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## 2단계: 로드 옵션 생성
 프리젠테이션 파일에 액세스하는 방법을 구성하는 로드 옵션을 인스턴스화합니다. 이 예에서는 액세스 비밀번호를 null로 설정하고 문서 속성만 로드하도록 설정합니다.

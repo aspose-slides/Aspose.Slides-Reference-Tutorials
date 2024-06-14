@@ -12,13 +12,13 @@ Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki şekil
 ## Önkoşullar
 Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 1.  Java Geliştirme Kiti (JDK): Sisteminizde Java Geliştirme Kitinin kurulu olduğundan emin olun. En son sürümü şuradan indirip yükleyebilirsiniz:[İnternet sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java Kütüphanesi: Aspose.Slides for Java kütüphanesini indirin ve Java projenize ekleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Kütüphanesi: Aspose.Slides for Java kütüphanesini indirin ve Java projenize ekleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/slides/java/).
 
 ## Paketleri İçe Aktar
 Başlamak için gerekli paketleri Java projenize aktarmanız gerekir. Bu paketler Aspose.Slides for Java kullanarak PowerPoint sunumlarıyla çalışmak için gereken işlevleri sağlar.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Sunuyu Yükleyin
  Öncelikle klonlamak istediğiniz şekilleri içeren PowerPoint sunumunu yüklemeniz gerekir. Kullan`Presentation` Kaynak sunumunu yüklemek için sınıf.

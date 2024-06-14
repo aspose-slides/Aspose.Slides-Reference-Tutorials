@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 Για να ξεκινήσετε, εισαγάγετε τα απαραίτητα πακέτα στο έργο σας Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Πρόσβαση στη Συλλογή Σχημάτων
 Πρόσβαση στη συλλογή σχημάτων για την επιλεγμένη διαφάνεια:

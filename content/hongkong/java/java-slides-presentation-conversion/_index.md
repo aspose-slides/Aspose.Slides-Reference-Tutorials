@@ -16,7 +16,7 @@ url: /zh-hant/java/presentation-conversion/
 
 ### 轉換過程
 
-現在您已經熟悉了該工具，讓我們開始轉換過程。 Aspose.Slides for Java 簡化了投影片簡報從一種格式到另一種格式的轉換。無論您需要將 PowerPoint 轉換為 PDF、將投影片擷取為影像或執行任何其他轉換，我們的逐步教學都能滿足您的需求。
+現在您已經熟悉了該工具，讓我們開始轉換過程。 Aspose.Slides for Java 簡化了投影片簡報從一種格式到另一種格式的轉換。無論您需要將 PowerPoint 轉換為 PDF、將投影片擷取為影像，或是執行任何其他轉換，我們的逐步教學都能滿足您的需求。
 
 ### 逐步教程
 
@@ -74,10 +74,10 @@ url: /zh-hant/java/presentation-conversion/
 ### [將 Java 幻燈片中的整個簡報轉換為 HTML](./convert-whole-presentation-html-java-slides/)
 了解如何使用 Aspose.Slides 將 PowerPoint 簡報轉換為 Java 中的 HTML。帶有程式碼範例的分步指南。
 ### [使用 Java 幻燈片中的媒體檔案將整個簡報轉換為 HTML](./convert-whole-presentation-html-media-files-java-slides/)
-了解如何使用 Java 投影片將簡報轉換為包含媒體檔案的 HTML。請遵循我們的 Aspose.Slides for Java API 逐步指南。
+了解如何使用 Java Slides 將簡報轉換為帶有媒體檔案的 HTML。請遵循我們的 Aspose.Slides for Java API 逐步指南。
 ### [在 Java 投影片中使用自訂尺寸進行轉換](./convert-custom-size-java-slides/)
 了解如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為具有自訂尺寸的 TIFF 影像。為開發人員提供包含程式碼範例的逐步指南。
-### [在 Java 投影片中將註解轉換為 TIFF](./convert-note-tiff-java-slides/)
+### [在 Java 投影片中使用註解轉換為 TIFF](./convert-note-tiff-java-slides/)
 使用 Aspose.Slides 輕鬆將帶有演講者註解的 PowerPoint 簡報轉換為 Java 中的 TIFF 格式。請按照我們的原始碼逐步指南進行無縫文件轉換。
 ### [Java 投影片中不使用 XPS 選項進行轉換](./convert-without-xps-options-java-slides/)
 了解如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 XPS 格式。帶有原始程式碼的分步指南。

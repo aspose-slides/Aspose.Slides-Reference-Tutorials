@@ -75,7 +75,7 @@ finally
 
 ## Slutsats
 
-den här guiden har vi lärt oss hur man får räckvidden för ett diagram i Java Slides med hjälp av Aspose.Slides for Java API. Vi gick igenom hur man ställer in miljön, skapar en presentation, lägger till ett diagram och skaffar intervallet. Du kan nu använda denna kunskap i dina Java Slides-projekt för att effektivt komma åt diagramintervall.
+I den här guiden har vi lärt oss hur man får räckvidden för ett diagram i Java Slides med hjälp av Aspose.Slides for Java API. Vi gick igenom hur man ställer in miljön, skapar en presentation, lägger till ett diagram och skaffar intervallet. Du kan nu använda denna kunskap i dina Java Slides-projekt för att effektivt komma åt diagramintervall.
 
 ## FAQ's
 

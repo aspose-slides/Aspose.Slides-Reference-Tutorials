@@ -19,7 +19,7 @@ Voordat u in het codeergedeelte duikt, moet u ervoor zorgen dat u aan de volgend
 Om aan de slag te gaan, moet u de benodigde Aspose.Slides-pakketten in uw Java-project importeren. Zo doe je het:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Laten we het proces van het klonen van een dia naar een andere presentatie met de hoofddia in gedetailleerde stappen opsplitsen.
 ## Stap 1: Laad de bronpresentatie
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Stap 4: Kloon de basisdia naar de doelpresentatie
 Kloon de basisdia van de bronpresentatie naar de verzameling modellen in de doelpresentatie.
 ```java
-//Kloon de gewenste basisdia van de bronpresentatie naar de verzameling modellen in de doelpresentatie
+// Kloon de gewenste basisdia van de bronpresentatie naar de verzameling modellen in de doelpresentatie
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

@@ -17,7 +17,7 @@ url: /zh-hant/net/slide-view-and-layout-manipulation/manage-presentation-normal-
 
 1. 下載 .NET 版 Aspose.Slides：訪問[下載頁面](https://releases.aspose.com/slides/net/)取得最新版本的 Aspose.Slides for .NET。
 
-2. 安裝Aspose.Slides：下載庫後，請按照文件中提供的安裝說明進行操作。
+2. 安裝Aspose.Slides：下載庫後，請依照文件中提供的安裝說明進行操作。
 
 3. 建立新專案：開啟您首選的整合開發環境 (IDE) 並建立新專案。
 
@@ -79,7 +79,7 @@ slide.SlideShowTransition.Type = TransitionType.Fade;
 slide.SlideShowTransition.AdvanceOnClick = true;
 ```
 
-## 新增演講者備註
+## 新增演講者註釋
 
 演講者註釋在簡報者瀏覽投影片時向他們提供重要資訊。您可以使用以下程式碼新增演講者註解：
 

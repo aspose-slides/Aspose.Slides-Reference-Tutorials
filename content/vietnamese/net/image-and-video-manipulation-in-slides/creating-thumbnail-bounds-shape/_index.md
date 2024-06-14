@@ -39,10 +39,10 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbn
     // Đối tượng bitmap hiện chứa hình ảnh thu nhỏ với các giới hạn được chỉ định.
 }
 ```
- Bước này liên quan đến việc tạo hình ảnh thu nhỏ của một hình có giới hạn được chỉ định. Đây,`ShapeThumbnailBounds.Appearance`được sử dụng để xác định giới hạn xuất hiện. Điều chỉnh các thông số (1, 1) theo yêu cầu của bạn.
+ Bước này liên quan đến việc tạo hình ảnh thu nhỏ của một hình có giới hạn được chỉ định. Đây,`ShapeThumbnailBounds.Appearance` được sử dụng để xác định giới hạn xuất hiện. Điều chỉnh các thông số (1, 1) theo yêu cầu của bạn.
 ## Bước 3: Lưu hình ảnh vào đĩa
 ```csharp
-// Lưu hình ảnh vào đĩa ở định dạng PNG
+//Lưu hình ảnh vào đĩa ở định dạng PNG
 bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 ```
 Ở bước cuối cùng này, hình thu nhỏ được tạo sẽ được lưu vào đĩa ở định dạng PNG. Bạn có thể tùy chỉnh tên tệp và định dạng dựa trên sở thích của mình.
@@ -53,9 +53,9 @@ Aspose.Slides for .NET đơn giản hóa quá trình làm việc với bản tr�
 ### Aspose.Slides có tương thích với .NET framework mới nhất không?
 Có, Aspose.Slides được cập nhật thường xuyên để đảm bảo khả năng tương thích với các phiên bản .NET framework mới nhất.
 ### Tôi có thể sử dụng Aspose.Slides cho các dự án thương mại không?
-Tuyệt đối! Aspose.Slides cung cấp các tùy chọn cấp phép cho cả mục đích sử dụng cá nhân và thương mại. Thăm nom[đây](https://purchase.aspose.com/buy) để khám phá chi tiết cấp phép.
+ Tuyệt đối! Aspose.Slides cung cấp các tùy chọn cấp phép cho cả mục đích sử dụng cá nhân và thương mại. Thăm nom[đây](https://purchase.aspose.com/buy) để khám phá chi tiết cấp phép.
 ### Có bản dùng thử miễn phí cho Aspose.Slides không?
- Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/) để khám phá các tính năng trước khi mua hàng.
+ Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/)để khám phá các tính năng trước khi mua hàng.
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để kết nối với cộng đồng và tìm kiếm sự hỗ trợ từ các nhà phát triển có kinh nghiệm.
 ### Tôi có thể xin giấy phép tạm thời cho Aspose.Slides không?

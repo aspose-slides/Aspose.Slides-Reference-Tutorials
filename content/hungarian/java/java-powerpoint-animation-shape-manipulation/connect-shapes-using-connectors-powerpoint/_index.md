@@ -14,13 +14,13 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő el�
 - Java programozási nyelv alapismerete.
 - Java Development Kit (JDK) telepítve a rendszerére.
 -  Letöltötte és beállította az Aspose.Slides for Java-t. Ha még nem telepítette, letöltheti innen[itt](https://releases.aspose.com/slides/java/).
-- Egy kódszerkesztő, például az Eclipse vagy az IntelliJ IDEA.
+- Kódszerkesztő, például Eclipse vagy IntelliJ IDEA.
 
 ## Csomagok importálása
 Először is importálja a szükséges csomagokat az Aspose.Slides használatához a Java projektben.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Példányos bemutató osztály
  Példányosítsa a`Presentation`osztály, amely azt a PPTX fájlt jelöli, amelyen éppen dolgozik.

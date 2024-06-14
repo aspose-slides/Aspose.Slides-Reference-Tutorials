@@ -10,7 +10,7 @@ url: /sv/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 
 ## Introduktion till att konvertera PowerPoint-presentationer till PDF med dolda bilder med Aspose.Slides för Java
 
-I den här steg-för-steg-guiden får du lära dig hur du konverterar en PowerPoint-presentation till PDF samtidigt som du bevarar dolda bilder med Aspose.Slides för Java. Dolda bilder är de som inte visas under en vanlig presentation men som kan inkluderas i PDF-utdata. Vi kommer att förse dig med källkoden och detaljerade instruktioner för att utföra denna uppgift.
+den här steg-för-steg-guiden får du lära dig hur du konverterar en PowerPoint-presentation till PDF samtidigt som du bevarar dolda bilder med Aspose.Slides för Java. Dolda bilder är de som inte visas under en vanlig presentation men som kan inkluderas i PDF-utdata. Vi kommer att förse dig med källkoden och detaljerade instruktioner för att utföra denna uppgift.
 
 ## Förutsättningar
 
@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## Steg 3: Konfigurera PDF-alternativ
 
- Konfigurera PDF-alternativen för att inkludera dolda bilder i PDF-utdata. Du kan göra detta genom att ställa in`setShowHiddenSlides` egendom av`PdfOptions` klass till`true`.
+Konfigurera PDF-alternativen för att inkludera dolda bilder i PDF-utdata. Du kan göra detta genom att ställa in`setShowHiddenSlides` egendom av`PdfOptions` klass till`true`.
 
 ```java
 // Instantiera klassen PdfOptions
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Hur laddar jag ner Aspose.Slides för Java?
 
-Du kan ladda ner Aspose.Slides för Java från Asposes webbplats. Besök[Aspose.Slides för Java nedladdningssida](https://releases.aspose.com/slides/java/) för att få den senaste versionen.
+ Du kan ladda ner Aspose.Slides för Java från Asposes webbplats. Besök[Aspose.Slides för Java nedladdningssida](https://releases.aspose.com/slides/java/) för att få den senaste versionen.

@@ -175,7 +175,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## 结论
 
-在本教程中，我们深入研究了如何使用 Aspose.Slides 在 Java 幻灯片中管理属性和创建图表。Aspose.Slides 是一个强大的 Java API，可帮助开发人员高效处理 PowerPoint 演示文稿。我们介绍了基本步骤并提供了源代码示例来指导您完成整个过程。
+在本教程中，我们深入研究了如何使用 Aspose.Slides 在 Java 幻灯片中管理属性和创建图表。Aspose.Slides 是一个强大的 Java API，可帮助开发人员高效地处理 PowerPoint 演示文稿。我们介绍了基本步骤并提供了源代码示例来指导您完成整个过程。
 
 ## 常见问题解答
 

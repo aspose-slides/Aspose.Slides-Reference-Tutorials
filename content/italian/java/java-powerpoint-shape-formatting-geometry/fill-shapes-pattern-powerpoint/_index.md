@@ -19,7 +19,7 @@ Prima di immergerti nel codice, assicurati di avere i seguenti prerequisiti:
 Per prima cosa importiamo i pacchetti necessari per il nostro esempio.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

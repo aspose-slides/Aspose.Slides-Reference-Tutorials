@@ -28,7 +28,7 @@ Hozzon létre egy új projektet, vagy nyisson meg egy meglévőt. Győződjön m
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    // A következő lépések kódja ide kerül.
+    // A további lépések kódja ide kerül.
 }
 ```
 ## 3. lépés: Szerezd meg az első diát

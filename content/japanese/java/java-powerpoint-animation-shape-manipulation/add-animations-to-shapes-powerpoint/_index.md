@@ -14,12 +14,12 @@ url: /ja/java/java-powerpoint-animation-shape-manipulation/add-animations-to-sha
 1.  Aspose.Slides for Javaライブラリ: Aspose.Slides for Javaライブラリがインストールされている必要があります。[ここからダウンロード](https://releases.aspose.com/slides/java/).
 2. Java 開発キット (JDK): マシンに JDK がインストールされていることを確認します。
 3. 統合開発環境 (IDE): IntelliJ IDEA、Eclipse、NetBeans などの任意の Java IDE を使用します。
-4. Java の基礎知識: このチュートリアルでは、Java プログラミングの基本的な知識があることを前提としています。
+4. Java の基礎知識: このチュートリアルでは、Java プログラミングの基本を理解していることを前提としています。
 ## パッケージのインポート
 まず、Aspose.Slides に必要なパッケージとその他の必要な Java クラスをインポートする必要があります。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;

@@ -21,7 +21,7 @@ Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő e
 
 ## 1. lépés: A Java projekt beállítása
 
-kezdéshez hozzon létre egy új Java-projektet kedvenc integrált fejlesztőkörnyezetében (IDE). Győződjön meg arról, hogy az Aspose.Slides könyvtár hozzáadva van a projekt osztályútvonalához.
+A kezdéshez hozzon létre egy új Java-projektet kedvenc integrált fejlesztőkörnyezetében (IDE). Győződjön meg arról, hogy az Aspose.Slides könyvtár hozzáadva van a projekt osztályútvonalához.
 
 ## 2. lépés: A szükséges könyvtárak importálása
 
@@ -34,7 +34,7 @@ import com.aspose.slides.SaveFormat;
 
 ## 3. lépés: A prezentáció betöltése
 
-A PowerPoint bemutatók használatához be kell töltenie azt a Java alkalmazásba. Prezentáció betöltéséhez használja a következő kódot:
+PowerPoint bemutatók használatához be kell töltenie azt a Java alkalmazásba. Prezentáció betöltéséhez használja a következő kódot:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -84,7 +84,7 @@ Ebben az oktatóanyagban bemutattuk a jegyzetek dianézeteinek konvertálásána
 
 ### Hogyan szabhatom testre a kimeneti formátumot prezentáció konvertálásakor?
 
- Testreszabhatja a kimeneti formátumot a`SaveFormat` felsorolása a kódban. Például a prezentáció PDF formátumban történő mentéséhez használja a`SaveFormat.Pdf`.
+ Testreszabhatja a kimeneti formátumot a`SaveFormat`felsorolása a kódban. Például a prezentáció PDF formátumban történő mentéséhez használja a`SaveFormat.Pdf`.
 
 ### Kell vásárolnom az Aspose.Slides for Java licencet?
 
@@ -100,4 +100,4 @@ Az Aspose.Slides különféle PowerPoint-formátumokkal működik, beleértve a 
 
 ### Hol találok további kódpéldákat és oktatóanyagokat az Aspose.Slides for Java számára?
 
- Rengeteg kódpéldát és oktatóanyagot találhat a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/). Fedezze fel a dokumentációt, hogy többet tudjon meg ennek a nagy teljesítményű könyvtárnak a képességeiről.
+ Rengeteg kódpéldát és oktatóanyagot találhat a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/)Fedezze fel a dokumentációt, hogy többet tudjon meg ennek a nagy teljesítményű könyvtárnak a képességeiről.

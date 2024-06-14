@@ -20,7 +20,7 @@ Dalam proyek Java Anda, impor kelas Aspose.Slides yang diperlukan:
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Siapkan Lingkungan
 Tentukan jalur ke direktori yang berisi file PowerPoint Anda:

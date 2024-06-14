@@ -16,7 +16,7 @@ url: /ar/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 قبل أن نتعمق في الكود، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. Aspose.Slides لمكتبة Java: سوف تحتاج إلى تثبيت Aspose.Slides لمكتبة Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides لمكتبة Java: سوف تحتاج إلى تثبيت Aspose.Slides لمكتبة Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
 
 2. بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على نظامك.
 

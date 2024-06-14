@@ -2,7 +2,7 @@
 title: Dia-achtergrondwijziging in Aspose.Slides
 linktitle: Dia-achtergrondwijziging in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer hoe u dia-achtergronden kunt aanpassen met Aspose.Slides voor .NET. Verbeter uw presentaties met visueel aantrekkelijke achtergronden. Begin vandaag!
+description: Leer hoe u dia-achtergronden kunt aanpassen met Aspose.Slides voor .NET. Geef uw presentaties een boost met visueel aantrekkelijke achtergronden. Begin vandaag!
 type: docs
 weight: 10
 url: /nl/net/slide-background-manipulation/slide-background-modification/
@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Uw code voor het wijzigen van de dia-achtergrond komt hier terecht.
     // We zullen dit in de volgende stappen onderzoeken.
     
-    // Sla de gewijzigde presentatie op
+    //Sla de gewijzigde presentatie op
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ In deze stap passen we de achtergrond van de eerste dia aan. U kunt het aanpasse
 ## Stap 6: Sla de aangepaste presentatie op
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

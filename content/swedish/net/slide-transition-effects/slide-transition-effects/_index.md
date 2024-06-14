@@ -86,7 +86,7 @@ När du har tillämpat de önskade övergångseffekterna är det dags att spara 
 ### 3.1 Spara presentationen
 
 ```csharp
-// Spara den ändrade presentationen i en ny fil
+// Spara den ändrade presentationen till en ny fil
 presentation.Save("SampleTransition_out.pptx", SaveFormat.Pptx);
 ```
 

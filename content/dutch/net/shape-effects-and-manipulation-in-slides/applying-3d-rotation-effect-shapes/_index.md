@@ -8,10 +8,10 @@ weight: 23
 url: /nl/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
 ## Invoering
-Het creëren van boeiende en dynamische presentatiedia's is een belangrijk aspect van effectieve communicatie. Aspose.Slides voor .NET biedt een krachtige set tools om uw presentaties te verbeteren, inclusief de mogelijkheid om 3D-rotatie-effecten op vormen toe te passen. In deze zelfstudie doorlopen we het proces van het toepassen van een 3D-rotatie-effect op vormen in presentatiedia's met behulp van Aspose.Slides voor .NET.
+Het creëren van boeiende en dynamische presentatiedia's is een belangrijk aspect van effectieve communicatie. Aspose.Slides voor .NET biedt een krachtige set hulpmiddelen om uw presentaties te verbeteren, inclusief de mogelijkheid om 3D-rotatie-effecten op vormen toe te passen. In deze zelfstudie doorlopen we het proces van het toepassen van een 3D-rotatie-effect op vormen in presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
 Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
--  Aspose.Slides voor .NET: Zorg ervoor dat de Aspose.Slides-bibliotheek voor .NET is geïnstalleerd. Je kunt het downloaden van de[website](https://releases.aspose.com/slides/net/).
+- Aspose.Slides voor .NET: Zorg ervoor dat de Aspose.Slides-bibliotheek voor .NET is geïnstalleerd. Je kunt het downloaden van de[website](https://releases.aspose.com/slides/net/).
 - Ontwikkelomgeving: Zet een .NET-ontwikkelomgeving op, zoals Visual Studio, om uw code te schrijven en uit te voeren.
 ## Naamruimten importeren
 Importeer in uw .NET-project de benodigde naamruimten om de functionaliteit van Aspose.Slides te benutten. Voeg de volgende naamruimten toe aan het begin van uw code:

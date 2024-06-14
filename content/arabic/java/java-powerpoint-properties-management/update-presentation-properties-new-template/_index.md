@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: تحديد الطريقة الرئيسية
 قم بإنشاء طريقة رئيسية حيث ستبدأ عملية تحديث خصائص العرض التقديمي باستخدام قالب جديد. تعمل هذه الطريقة كنقطة دخول لتطبيق Java الخاص بك.

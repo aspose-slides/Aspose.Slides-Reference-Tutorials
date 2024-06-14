@@ -57,7 +57,7 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## 7. Wnioski
 
-Gratulacje! Pomyślnie przekonwertowałeś widok slajdu Notatek na format PDF przy użyciu Aspose.Slides dla .NET. Ta potężna biblioteka upraszcza takie złożone zadania, co czyni ją doskonałym wyborem do programowej pracy z prezentacjami programu PowerPoint.
+Gratulacje! Pomyślnie przekonwertowałeś widok slajdów Notatek na format PDF przy użyciu Aspose.Slides dla .NET. Ta potężna biblioteka upraszcza takie złożone zadania, co czyni ją doskonałym wyborem do programowej pracy z prezentacjami programu PowerPoint.
 
 ## 8. Często zadawane pytania
 

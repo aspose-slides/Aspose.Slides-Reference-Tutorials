@@ -74,7 +74,7 @@ try {
 // Путь к каталогу документов
 String dataDir = "Your Document Directory";
 // Путь к выходному файлу
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Экспортируйте презентацию, содержащую переходы слайдов, анимацию и анимацию фигур, в HTML5.

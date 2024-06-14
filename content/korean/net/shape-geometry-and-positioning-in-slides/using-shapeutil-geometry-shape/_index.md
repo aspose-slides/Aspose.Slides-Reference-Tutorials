@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-s
 ---
 ## 소개
 시각적으로 매력적이고 역동적인 프레젠테이션 슬라이드를 만드는 것은 필수적인 기술이며 .NET용 Aspose.Slides는 이를 달성하기 위한 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 프리젠테이션 슬라이드에서 기하학적 모양을 처리하기 위해 ShapeUtil을 사용하는 방법을 살펴보겠습니다. 숙련된 개발자이든 Aspose.Slides를 처음 시작하든 이 가이드는 ShapeUtil을 활용하여 프레젠테이션을 향상시키는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 및 .NET 프로그래밍에 대한 기본 이해.
 -  .NET 라이브러리용 Aspose.Slides를 설치했습니다. 그렇지 않은 경우 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/net/).

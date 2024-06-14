@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Đường dẫn đến bản trình bày nguồn
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Đường dẫn và tên thư mục để lưu dữ liệu đánh dấu
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Tạo tùy chọn tạo Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Đặt tham số để hiển thị tất cả các mục (các mục được nhóm sẽ được hiển thị cùng nhau).

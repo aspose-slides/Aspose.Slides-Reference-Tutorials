@@ -20,7 +20,7 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: प्रोजेक्ट निर्देशिका सेट करें
 अपनी प्रोजेक्ट डायरेक्टरी सेट अप करके शुरू करें। एक फ़ोल्डर बनाएँ जहाँ आप अपनी जावा फ़ाइलें और पावरपॉइंट प्रेजेंटेशन स्टोर करेंगे (`Presentation1.pptx`).
@@ -46,7 +46,7 @@ System.out.println("= Effective light rig properties =");
 System.out.println("Type: " + threeDEffectiveData.getLightRig().getLightType());
 System.out.println("Direction: " + threeDEffectiveData.getLightRig().getDirection());
 ```
-## चरण 5: प्रेजेंटेशन ऑब्जेक्ट को हटा दें
+## चरण 5: प्रेजेंटेशन ऑब्जेक्ट को हटाएँ
 अंत में, संसाधनों को मुक्त करने के लिए प्रस्तुति ऑब्जेक्ट को हटाना सुनिश्चित करें।
 ```java
 } finally {

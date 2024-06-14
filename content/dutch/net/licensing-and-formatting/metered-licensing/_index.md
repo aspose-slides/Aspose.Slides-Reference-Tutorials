@@ -96,7 +96,7 @@ Door deze stappen te volgen, heeft u met succes gemeten licenties geïmplementee
 
 ## Conclusie
 
-In deze stapsgewijze handleiding hebben we de essentie behandeld van het instellen van Aspose.Slides voor .NET, inclusief het importeren van naamruimten en het implementeren van gemeten licenties. U bent nu goed uitgerust om PowerPoint-presentaties te maken, manipuleren en beheren met Aspose.Slides. Benut de kracht van deze bibliotheek om uw PowerPoint-gerelateerde projecten naar een hoger niveau te tillen.
+In deze stapsgewijze handleiding hebben we de essentie van het instellen van Aspose.Slides voor .NET besproken, inclusief het importeren van naamruimten en het implementeren van gemeten licenties. U bent nu goed uitgerust om PowerPoint-presentaties te maken, manipuleren en beheren met Aspose.Slides. Benut de kracht van deze bibliotheek om uw PowerPoint-gerelateerde projecten naar een hoger niveau te tillen.
 
 ## Veelgestelde vragen (FAQ's)
 

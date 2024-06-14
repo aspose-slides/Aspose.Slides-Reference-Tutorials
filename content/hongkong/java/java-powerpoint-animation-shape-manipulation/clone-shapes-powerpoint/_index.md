@@ -18,7 +18,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/clone-shapes-pow
 首先，您需要將必要的套件匯入到您的 Java 專案中。這些套件提供了使用 Aspose.Slides for Java 處理 PowerPoint 簡報所需的功能。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：載入簡報
 首先，您需要載入包含要複製的形狀的 PowerPoint 簡報。使用`Presentation`類別來載入來源簡報。

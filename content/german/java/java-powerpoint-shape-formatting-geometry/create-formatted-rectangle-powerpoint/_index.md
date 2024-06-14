@@ -19,7 +19,7 @@ Bevor wir uns in den Code vertiefen, klären wir die Voraussetzungen. Sie benöt
 Um zu beginnen, müssen Sie die erforderlichen Pakete aus der Aspose.Slides-Bibliothek importieren. So können Sie das tun:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -73,13 +73,13 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Diese Codezeile speichert die Präsentation als PPTX-Datei in Ihrem angegebenen Verzeichnis.
 ## Schritt 7: Ressourcen bereinigen
- Es ist eine gute Praxis, die`Presentation`Objekt, um Ressourcen freizugeben.
+ Es ist eine gute Praxis, die`Presentation` Objekt, um Ressourcen freizugeben.
 ```java
 if (pres != null) pres.dispose();
 ```
 Dadurch wird sichergestellt, dass alle Ressourcen ordnungsgemäß freigegeben werden.
 ## Abschluss
-Das Erstellen und Formatieren von Formen in einer PowerPoint-Präsentation mit Aspose.Slides für Java ist ein unkomplizierter Vorgang. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie die Erstellung optisch ansprechender Folien ganz einfach automatisieren. Egal, ob Sie Anwendungen für Geschäftsberichte, Bildungsinhalte oder dynamische Präsentationen entwickeln, Aspose.Slides für Java bietet die Tools, die Sie für Ihren Erfolg benötigen.
+Das Erstellen und Formatieren von Formen in einer PowerPoint-Präsentation mit Aspose.Slides für Java ist ein unkomplizierter Vorgang. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie die Erstellung optisch ansprechender Folien ganz einfach automatisieren. Egal, ob Sie Anwendungen für Geschäftsberichte, Bildungsinhalte oder dynamische Präsentationen entwickeln, Aspose.Slides für Java bietet die Tools, die Sie zum Erfolg benötigen.
 ## Häufig gestellte Fragen
 ### Was ist Aspose.Slides für Java?
 Aspose.Slides für Java ist eine Bibliothek, mit der Entwickler PowerPoint-Präsentationen programmgesteuert erstellen, ändern und konvertieren können.
@@ -88,6 +88,6 @@ Ja, Sie können Aspose.Slides für Java mit jeder Java-kompatiblen IDE wie Intel
 ### Wie kann ich eine kostenlose Testversion von Aspose.Slides für Java erhalten?
  Sie können eine kostenlose Testversion von Aspose.Slides für Java herunterladen von[Hier](https://releases.aspose.com/).
 ###  Ist die Entsorgung der`Presentation` object?
- Ja, die Entsorgung der`Presentation`Objekt hilft, Ressourcen freizugeben und Speicherlecks zu vermeiden.
+ Ja, die Entsorgung der`Presentation` Objekt hilft, Ressourcen freizugeben und Speicherlecks zu vermeiden.
 ### Wo finde ich die Dokumentation für Aspose.Slides für Java?
  Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/java/).

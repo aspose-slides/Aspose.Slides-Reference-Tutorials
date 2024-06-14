@@ -12,13 +12,13 @@ PowerPoint プレゼンテーションに OLE (オブジェクトのリンクと
 ### 前提条件
 始める前に、次の前提条件が満たされていることを確認してください。
 1. Java 開発環境: システムに Java 開発キット (JDK) がインストールされていることを確認してください。
-2. Aspose.Slides for Java: WebサイトからAspose.Slides for Javaをダウンロードしてインストールします。[ここ](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: WebサイトからAspose.Slides for Javaをダウンロードしてインストールします。[ここ](https://releases.aspose.com/slides/java/).
 3. Java プログラミングの基本的な理解: Java プログラミングの概念と構文を理解します。
 ## パッケージのインポート
 まず、Aspose.Slides for Java の機能を活用するために必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ import java.io.IOException;
 作業中の PowerPoint ファイルを表すプレゼンテーション オブジェクトを作成します。
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // PPTXを表すプレゼンテーションクラスをインスタンス化する
 Presentation pres = new Presentation();
 ```
@@ -72,7 +72,7 @@ pres.save(outPath + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ## よくある質問
 ### Aspose.Slides for Java を使用して Excel ファイル以外のオブジェクトを埋め込むことはできますか?
 はい、Word 文書、PDF ファイルなど、さまざまな種類のオブジェクトを埋め込むことができます。
-### Aspose.Slides は PowerPoint のさまざまなバージョンと互換性がありますか?
+### Aspose.Slides はさまざまなバージョンの PowerPoint と互換性がありますか?
 Aspose.Slides は、幅広いバージョンの PowerPoint との互換性を提供し、シームレスな統合を保証します。
 ### OLE オブジェクト フレームの外観をカスタマイズできますか?
 もちろんです! Aspose.Slides には、OLE オブジェクト フレームの外観と動作をカスタマイズするための幅広いオプションが用意されています。

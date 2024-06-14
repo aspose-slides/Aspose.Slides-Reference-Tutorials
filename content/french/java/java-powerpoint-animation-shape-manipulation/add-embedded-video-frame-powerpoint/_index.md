@@ -19,7 +19,7 @@ Avant de plonger dans le code, assurez-vous d'avoir les conditions préalables s
 Tout d’abord, vous devrez importer les packages nécessaires pour travailler avec Aspose.Slides. Ces importations vous aideront à gérer les diapositives, les vidéos et les fichiers de présentation.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -35,7 +35,7 @@ String resultPath = "Path to Save Result" + "VideoFrame_out.pptx";
 boolean isExists = new File(dataDir).exists();
 if (!isExists) new File(dataDir).mkdirs();
 ```
-## Étape 2 : Instancier la classe de présentation
+## Étape 2 : Instancier un cours de présentation
  Créez une instance du`Presentation` classe. Cette classe représente votre fichier PowerPoint.
 ```java
 // Instancier la classe de présentation qui représente le PPTX

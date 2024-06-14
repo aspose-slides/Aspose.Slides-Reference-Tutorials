@@ -76,7 +76,7 @@ documentProperties.removeCustomProperty(getPropertyName);
 Slutligen, spara presentationen med de tillagda och borttagna anpassade egenskaperna till en fil.
 
 ```java
-// Sparar presentation
+// Sparar presentationen
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -97,7 +97,7 @@ documentProperties.set_Item("Custom", 124);
 String getPropertyName = documentProperties.getCustomPropertyName(2);
 // Tar bort den valda egenskapen
 documentProperties.removeCustomProperty(getPropertyName);
-// Sparar presentation
+// Sparar presentationen
 presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 

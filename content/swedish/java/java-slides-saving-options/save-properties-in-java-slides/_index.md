@@ -45,7 +45,7 @@ Du kan ställa in olika dokumentegenskaper som titel, författare, nyckelord och
 // Ställ in titeln på presentationen
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Ställ in författaren till presentationen
+//Ställ in författaren till presentationen
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Ställ in nyckelord för presentationen
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-//Instantiera ett presentationsobjekt som representerar en PPT-fil
+// Instantiera ett presentationsobjekt som representerar en PPT-fil
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ den här handledningen har du lärt dig hur du sparar dokumentegenskaper i en Po
 // Ställ in titeln på presentationen
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Ställ in författaren till presentationen
+//Ställ in författaren till presentationen
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Ställ in nyckelord för presentationen

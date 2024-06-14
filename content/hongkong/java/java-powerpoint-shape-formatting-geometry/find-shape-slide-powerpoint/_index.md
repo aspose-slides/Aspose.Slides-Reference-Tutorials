@@ -21,7 +21,7 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-po
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 步驟1：建立專案目錄
@@ -72,7 +72,7 @@ if (shape != null) {
 if (p != null) p.dispose();
 ```
 ## 結論
-現在你就得到它了！現在您已經了解如何使用 Aspose.Slides for Java 在 PowerPoint 投影片中尋找形狀。透過執行這些步驟，您可以自動執行在簡報中尋找形狀的繁瑣任務，從而節省時間和精力。
+現在你就擁有了！現在您已經了解如何使用 Aspose.Slides for Java 在 PowerPoint 投影片中尋找形狀。透過執行這些步驟，您可以自動執行在簡報中尋找形狀的繁瑣任務，從而節省時間和精力。
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.Slides？
 Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以程式設計方式建立、修改和操作 PowerPoint 簡報。

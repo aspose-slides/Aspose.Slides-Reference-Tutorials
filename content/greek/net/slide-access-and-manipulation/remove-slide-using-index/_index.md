@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Αφού διαγράψετε τις επιθυμητές διαφάνειες, πρέπει να αποθηκεύσετε την τροποποιημένη παρουσίαση:
 
 ```csharp
-// Αποθηκεύστε την τροποποιημένη παρουσίαση
+//Αποθηκεύστε την τροποποιημένη παρουσίαση
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

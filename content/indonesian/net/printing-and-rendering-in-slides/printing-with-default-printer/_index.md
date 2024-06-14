@@ -50,4 +50,4 @@ Tentu saja, Aspose.Slides diperbarui secara berkala untuk memastikan kompatibili
 ### Apakah lisensi sementara tersedia untuk tujuan pengujian?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
 ### Bagaimana saya bisa mencari bantuan atau terhubung dengan komunitas Aspose.Slides?
- Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11)untuk mengajukan pertanyaan, berbagi wawasan, dan terhubung dengan sesama pengembang.
+ Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk mengajukan pertanyaan, berbagi wawasan, dan terhubung dengan sesama pengembang.

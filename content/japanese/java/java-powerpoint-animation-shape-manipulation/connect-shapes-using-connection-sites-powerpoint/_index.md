@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 まず、必要なパッケージを Java プロジェクトにインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: 図形コレクションへのアクセス
 選択したスライドの図形コレクションにアクセスします。

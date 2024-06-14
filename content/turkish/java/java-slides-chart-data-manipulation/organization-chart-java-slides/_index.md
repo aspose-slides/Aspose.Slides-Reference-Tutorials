@@ -22,7 +22,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 ## 1. Adım: Java Projenizi Kurun
 
 1. Tercih ettiğiniz IDE'de yeni bir Java projesi oluşturun.
-2.  Aspose.Slides for Java kütüphanesini projenize ekleyin. Kütüphaneyi adresinden indirebilirsiniz.[Web sitesi](https://products.aspose.com/slides/java)ve bunu bir bağımlılık olarak ekleyin.
+2.  Aspose.Slides for Java kütüphanesini projenize ekleyin. Kütüphaneyi adresinden indirebilirsiniz.[Web sitesi](https://products.aspose.com/slides/java) ve bunu bir bağımlılık olarak ekleyin.
 
 ## Adım 2: Gerekli Kitaplıkları İçe Aktarın
 Aspose.Slides ile çalışmak için gerekli kütüphaneleri Java sınıfınıza aktarın:

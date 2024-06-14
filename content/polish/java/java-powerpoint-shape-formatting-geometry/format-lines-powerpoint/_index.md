@@ -18,7 +18,7 @@ Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące el
 Najpierw zaimportujmy niezbędne pakiety wymagane do pracy z Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

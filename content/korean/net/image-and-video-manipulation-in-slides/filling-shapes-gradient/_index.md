@@ -9,7 +9,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
 ## 소개
 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것은 청중의 관심을 끌고 유지하는 데 필수적입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 타원 모양에 그라데이션을 채워 슬라이드를 향상시키는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 - C# 프로그래밍 언어에 대한 기본 지식.
 - 컴퓨터에 Visual Studio가 설치되어 있습니다.
@@ -70,6 +70,6 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
 ### Q: Aspose.Slides for .NET에 대한 무료 평가판이 있습니까?
  A: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: .NET용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
-답변: 도움을 구하고 커뮤니티에 참여하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+ 답변: 도움을 구하고 커뮤니티에 참여하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
 ### Q: .NET용 Aspose.Slides의 임시 라이선스를 구입할 수 있나요?
  A: 물론 임시면허를 취득할 수도 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

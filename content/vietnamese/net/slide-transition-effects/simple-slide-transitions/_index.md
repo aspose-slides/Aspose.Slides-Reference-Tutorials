@@ -88,7 +88,7 @@ Trong hướng dẫn này, bạn đã học cách sử dụng Aspose.Slides cho 
 
  Bằng cách áp dụng các hiệu ứng chuyển tiếp như "Vòng tròn" và "Chiếc lược", bạn có thể mang lại sức sống cho các trang trình bày của mình và làm cho bản trình bày của mình hấp dẫn hơn. Đừng quên khám phá[tài liệu](https://reference.aspose.com/slides/net/) để biết thêm chi tiết và tính năng của Aspose.Slides cho .NET.
 
-Có bất kỳ câu hỏi hoặc cần hỗ trợ thêm? Xem diễn đàn cộng đồng Aspose.Slides[đây](https://forum.aspose.com/).
+ Có bất kỳ câu hỏi hoặc cần hỗ trợ thêm? Xem diễn đàn cộng đồng Aspose.Slides[đây](https://forum.aspose.com/).
 
 ## Câu hỏi thường gặp
 

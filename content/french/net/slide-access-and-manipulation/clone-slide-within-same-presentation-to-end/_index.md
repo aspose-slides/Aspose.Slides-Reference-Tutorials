@@ -65,7 +65,7 @@ Cet extrait de code ajoute la diapositive dupliquée à la fin de la présentati
 Après avoir ajouté la diapositive dupliquée, nous devons enregistrer la présentation modifiée. Voici comment:
 
 ```csharp
-// Enregistrez la présentation modifiée
+//Enregistrez la présentation modifiée
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

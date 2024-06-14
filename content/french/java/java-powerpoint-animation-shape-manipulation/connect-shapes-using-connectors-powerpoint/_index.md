@@ -20,7 +20,7 @@ Avant de commencer, assurez-vous de disposer des prérequis suivants :
 Tout d’abord, importez les packages nécessaires pour travailler avec Aspose.Slides dans votre projet Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Étape 1 : Instancier un cours de présentation
  Instancier le`Presentation`classe, qui représente le fichier PPTX sur lequel vous travaillez.
@@ -42,7 +42,7 @@ IAutoShape ellipse = shapes.addAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
 // Ajouter un rectangle de forme automatique
 IAutoShape rectangle = shapes.addAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
 ```
-## Étape 4 : ajouter un connecteur
+## Étape 4 : Ajouter un connecteur
 Ajoutez une forme de connecteur à la collection de formes de diapositive.
 ```java
 IConnector connector = shapes.addConnector(ShapeType.BentConnector2, 0, 0, 10, 10);

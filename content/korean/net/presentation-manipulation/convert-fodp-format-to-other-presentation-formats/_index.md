@@ -10,7 +10,7 @@ url: /ko/net/presentation-manipulation/convert-fodp-format-to-other-presentation
 
 오늘날의 디지털 시대에서는 다양한 프레젠테이션 형식으로 작업하는 것이 일반적인 작업이며 효율성이 핵심입니다. .NET용 Aspose.Slides는 이 프로세스를 원활하게 만드는 강력한 API를 제공합니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 FODP 형식을 다른 프레젠테이션 형식으로 변환하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 이 강력한 도구를 최대한 활용하는 데 도움이 될 것입니다.
 
-## 전제조건
+## 전제 조건
 
 변환 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

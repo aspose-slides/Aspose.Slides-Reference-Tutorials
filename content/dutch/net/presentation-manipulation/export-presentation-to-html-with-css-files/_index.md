@@ -56,7 +56,7 @@ In deze zelfstudie hebben we gedemonstreerd hoe u een PowerPoint-presentatie naa
 ## 7. Veelgestelde vragen
 
 ### V1: Hoe kan ik Aspose.Slides voor .NET installeren?
- U kunt Aspose.Slides voor .NET downloaden van de website:[Download Aspose.Slides](https://releases.aspose.com/slides/net/)
+ U kunt Aspose.Slides voor .NET downloaden van de website:[Aspose.Slides downloaden](https://releases.aspose.com/slides/net/)
 
 ### V2: Heb ik een licentie nodig voor Aspose.Slides voor .NET?
  Ja, u kunt een licentie verkrijgen bij[Stel](https://purchase.aspose.com/buy) om de volledige functies van de API te gebruiken.

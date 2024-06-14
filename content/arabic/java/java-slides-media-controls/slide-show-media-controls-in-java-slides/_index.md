@@ -34,7 +34,7 @@ url: /ar/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ```java
 // المسار إلى وثيقة PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 ```java
 // المسار إلى وثيقة PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// تمكين عرض التحكم في الوسائط في وضع عرض الشرائح.

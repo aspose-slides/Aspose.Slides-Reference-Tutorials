@@ -11,7 +11,7 @@ url: /nl/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Het creëren van visueel aantrekkelijke presentaties is cruciaal om de aandacht van uw publiek te trekken en vast te houden. Door schuine effecten aan vormen toe te voegen, kunt u de algehele esthetiek van uw dia's verbeteren, waardoor uw presentatie opvalt. In deze zelfstudie begeleiden we u bij het toepassen van schuine effecten op vormen in PowerPoint met behulp van Aspose.Slides voor Java. Of u nu een ontwikkelaar bent die het maken van presentaties wil automatiseren of gewoon iemand bent die graag aan het ontwerp sleutelt, deze handleiding heeft de oplossing voor u.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
--  Java Development Kit (JDK): Zorg ervoor dat JDK is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Zorg ervoor dat JDK is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides voor Java Library: Download de bibliotheek van[Aspose.Slides voor Java](https://releases.aspose.com/slides/java/).
 - IDE (Integrated Development Environment): Gebruik elke IDE van uw keuze, zoals IntelliJ IDEA, Eclipse of NetBeans.
 -  Aspose-licentie: Om Aspose.Slides zonder beperkingen te gebruiken, dient u een licentie aan te vragen bij[Stel aankoop voor](https://purchase.aspose.com/buy) of krijg een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor evaluatie.
@@ -19,7 +19,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 Eerst moet u de benodigde pakketten importeren om met Aspose.Slides in uw Java-project te kunnen werken. Hier ziet u hoe u het kunt doen:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Stap 1: Stel uw project in

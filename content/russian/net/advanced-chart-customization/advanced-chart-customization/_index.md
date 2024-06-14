@@ -12,7 +12,7 @@ url: /ru/net/advanced-chart-customization/advanced-chart-customization/
 
 ## Предварительные условия
 
-Прежде чем погрузиться в расширенную настройку диаграмм с помощью Aspose.Slides для .NET, убедитесь, что у вас есть следующие предварительные условия:
+Прежде чем углубляться в расширенную настройку диаграмм с помощью Aspose.Slides для .NET, убедитесь, что у вас есть следующие предварительные условия:
 
 1. Библиотека Aspose.Slides для .NET: вам необходимо установить и правильно настроить библиотеку Aspose.Slides в вашем проекте .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/net/).
 
@@ -94,7 +94,7 @@ chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.Width = 5;
 chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.DashStyle = LineDashStyle.DashDot;
 ```
 
-На этом этапе настраивается внешний вид основных линий сетки на оси значений.
+На этом шаге настраивается внешний вид основных линий сетки на оси значений.
 
 ## Шаг 6: Настройте второстепенные линии сетки
 
@@ -122,7 +122,7 @@ chart.Axes.VerticalAxis.NumberFormat = "0.0%";
 
 Этот шаг позволяет форматировать числа, отображаемые на оси значений.
 
-## Шаг 8: Установите максимальное и минимальное значения диаграммы
+## Шаг 8. Установите максимальное и минимальное значения диаграммы
 
 Определите максимальное и минимальное значения для диаграммы.
 
@@ -197,7 +197,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 Подобно оси значений, вы можете настроить второстепенные линии сетки для оси категорий.
 
 ```csharp
-//Настройка формата второстепенных линий сетки для оси категорий
+// Настройка формата второстепенных линий сетки для оси категорий
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Настройка цвета области графика
+//Настройка цвета области графика
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 
@@ -300,7 +300,7 @@ Aspose.Slides для .NET поддерживает различные верси
  Чтобы добавить пользовательские метки данных в серию диаграмм, вы можете получить доступ к`DataLabels` свойство серии и настройте метки по мере необходимости. Образцы кода и примеры см. в документации.
 
 ### Можно ли экспортировать диаграмму в другие форматы файлов, например PDF или изображения?
-Да, Aspose.Slides for .NET предоставляет возможность экспорта вашей презентации с диаграммами в различные форматы, включая PDF и форматы изображений. Вы можете использовать библиотеку, чтобы сохранить свою работу в желаемом выходном формате.
+Да, Aspose.Slides для .NET предоставляет возможность экспорта вашей презентации с диаграммами в различные форматы, включая PDF и форматы изображений. Вы можете использовать библиотеку, чтобы сохранить свою работу в желаемом выходном формате.
 
 ### Где я могу найти дополнительные руководства и примеры для Aspose.Slides для .NET?
  Вы можете найти множество учебных пособий, примеров кода и документации на сайте Aspose.Slides.[Веб-сайт](https://reference.aspose.com/slides/net/).

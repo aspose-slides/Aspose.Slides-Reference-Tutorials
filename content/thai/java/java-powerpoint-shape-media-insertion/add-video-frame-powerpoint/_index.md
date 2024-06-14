@@ -17,7 +17,7 @@ url: /th/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นเพื่อใช้ฟังก์ชัน Aspose.Slides ในโค้ด Java ของคุณ 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสาร

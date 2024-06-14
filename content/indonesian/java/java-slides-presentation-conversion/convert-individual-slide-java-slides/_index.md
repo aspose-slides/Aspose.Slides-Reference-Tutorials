@@ -169,4 +169,4 @@ Anda telah berhasil mengonversi setiap slide dari presentasi PowerPoint ke HTML 
 
 ### Bagaimana cara menangani pemformatan tambahan untuk bentuk dan teks dalam slide?
 
-Anda dapat memperpanjang`CustomFormattingController` kelas untuk menangani pemformatan bentuk tertentu dengan mengimplementasikan`writeShapeStart` Dan`writeShapeEnd` metode dan menerapkan logika pemformatan khusus di dalamnya.
+ Anda dapat memperpanjang`CustomFormattingController` kelas untuk menangani pemformatan bentuk tertentu dengan mengimplementasikan`writeShapeStart` Dan`writeShapeEnd` metode dan menerapkan logika pemformatan khusus di dalamnya.

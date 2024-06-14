@@ -16,7 +16,7 @@ Eğiticiye dalmadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
 
 1.  Aspose.Slides for .NET Library: Aspose.Slides for .NET kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-2. Geliştirme Ortamı: Kodu yazmak ve yürütmek için Visual Studio gibi bir geliştirme ortamı kurduğunuzdan emin olun.
+2. Geliştirme Ortamı: Kodu yazmak ve yürütmek için Visual Studio gibi bir geliştirme ortamının kurulduğundan emin olun.
 
 3. Örnek Sunum: Çalışmak için örnek bir PowerPoint sunumuna ihtiyacınız olacak. Mevcut sunumunuzu kullanabilir veya yeni bir sunum oluşturabilirsiniz.
 
@@ -91,7 +91,7 @@ Farklı düzen slayt türlerini denemekten ve sunumlarınızı ihtiyaçlarınız
 ## Sıkça Sorulan Sorular (SSS)
 
 ### Aspose.Slides for .NET nedir?
-Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasını sağlayan bir .NET kitaplığıdır. PowerPoint dosyalarını oluşturmak, düzenlemek ve değiştirmek için çok çeşitli özellikler sunar.
+Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasını sağlayan bir .NET kitaplığıdır. PowerPoint dosyalarını oluşturmak, düzenlemek ve değiştirmek için çok çeşitli özellikler sağlar.
 
 ### Aspose.Slides for .NET belgelerini nerede bulabilirim?
  Belgeleri şu adreste bulabilirsiniz:[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/). Başlamanıza yardımcı olacak ayrıntılı bilgiler ve örnekler sunar.

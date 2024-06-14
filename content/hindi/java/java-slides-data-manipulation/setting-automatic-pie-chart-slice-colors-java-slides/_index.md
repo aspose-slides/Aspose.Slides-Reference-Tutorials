@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// नई श्रृंखला जोड़ना
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	//अब श्रृंखला डेटा भरा जा रहा है
+	// अब श्रृंखला डेटा भरा जा रहा है
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -159,7 +159,7 @@ finally
 
 ## निष्कर्ष
 
-आपने Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुति में पाई चार्ट सफलतापूर्वक बनाया है और इसे स्वचालित स्लाइस रंग देने के लिए कॉन्फ़िगर किया है। यह चरण-दर-चरण मार्गदर्शिका आपको इसे प्राप्त करने के लिए आवश्यक स्रोत कोड प्रदान करती है। आप आवश्यकतानुसार चार्ट और प्रस्तुति को और भी अनुकूलित कर सकते हैं।
+आपने Aspose.Slides for Java का उपयोग करके PowerPoint प्रेजेंटेशन में पाई चार्ट सफलतापूर्वक बनाया है और इसे स्वचालित स्लाइस रंग देने के लिए कॉन्फ़िगर किया है। यह चरण-दर-चरण मार्गदर्शिका आपको इसे प्राप्त करने के लिए आवश्यक स्रोत कोड प्रदान करती है। आप आवश्यकतानुसार चार्ट और प्रेजेंटेशन को और भी अनुकूलित कर सकते हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

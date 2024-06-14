@@ -12,7 +12,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre SmartArt gyermekje
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 1. Java Development Kit (JDK) telepítve a rendszerére.
-2. Aspose.Slides for Java könyvtár letöltve és konfigurálva a projektben. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java könyvtár letöltve és konfigurálva a projektben. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/slides/java/).
 
 ## Csomagok importálása
 Ügyeljen arra, hogy importálja a szükséges csomagokat a Java osztályba:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

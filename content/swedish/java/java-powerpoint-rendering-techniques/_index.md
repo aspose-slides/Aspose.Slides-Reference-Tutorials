@@ -12,9 +12,9 @@ url: /sv/java/java-powerpoint-rendering-techniques/
 
 PowerPoint-presentationer är en stapelvara i olika professionella och pedagogiska miljöer, och att förbättra deras visuella tilltalande kan göra en betydande skillnad. Med Aspose.Slides för Java kan du lyfta dina presentationer genom att behärska olika renderingstekniker. Den här artikeln täcker viktiga handledningar som guidar dig genom att rendera kommentarer, 3D-grafik, emojis och anpassa renderingsalternativ i PowerPoint.
 
-## Gör kommentarer i PowerPoint
+## Återge kommentarer i PowerPoint
 
- Kommentarer i PowerPoint kan ge värdefull kontext och feedback, vilket gör samarbetet mer effektivt. Med Aspose.Slides för Java kan du återge dessa kommentarer och anpassa deras utseende, så att de är synliga och lätta att förstå. Handledningen[Gör kommentarer i PowerPoint](./render-comments-powerpoint/) leder dig genom stegen för att effektivt generera bildförhandsvisningar av kommentarer. Den här funktionen är särskilt användbar för att granska och dela presentationer med team.
+ Kommentarer i PowerPoint kan ge värdefull kontext och feedback, vilket gör samarbetet mer effektivt. Med Aspose.Slides för Java kan du återge dessa kommentarer och anpassa deras utseende, så att de är synliga och lätta att förstå. Handledningen[Återge kommentarer i PowerPoint](./render-comments-powerpoint/) leder dig genom stegen för att effektivt generera bildförhandsvisningar av kommentarer. Den här funktionen är särskilt användbar för att granska och dela presentationer med team.
 
 ## 3D-rendering i PowerPoint
 
@@ -30,7 +30,7 @@ Att lägga till 3D-grafik till dina presentationer kan skapa en fantastisk visue
 
 Genom att utforska dessa handledningar kan du bemästra konsten att rendera i PowerPoint med Aspose.Slides för Java. Oavsett om du renderar kommentarer, skapar 3D-grafik, lägger till emojis eller anpassar renderingsalternativ, ger dessa guider de verktyg och kunskap du behöver för att förbättra dina presentationer. Dyk in i varje handledning för att börja förvandla dina PowerPoint-bilder och fängsla din publik som aldrig förr.
 ## Självstudier för Java PowerPoint-renderingstekniker
-### [Gör kommentarer i PowerPoint](./render-comments-powerpoint/)
+### [Återge kommentarer i PowerPoint](./render-comments-powerpoint/)
 Lär dig hur du återger kommentarer i PowerPoint-presentationer med Aspose.Slides för Java. Anpassa utseendet och generera bildförhandsvisningar effektivt.
 ### [3D-rendering i PowerPoint](./3d-rendering-powerpoint/)
 Lär dig hur du skapar fantastiska 3D-renderingar i PowerPoint med Aspose.Slides för Java. Lyft dina presentationer.

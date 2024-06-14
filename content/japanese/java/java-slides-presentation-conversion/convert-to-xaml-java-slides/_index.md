@@ -96,7 +96,7 @@ try {
 
 ```java
 	//ソースプレゼンテーションへのパス
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		//変換オプションを作成する
@@ -109,7 +109,7 @@ try {
 		pres.save(xamlOptions);
 		//XAMLファイルを出力ディレクトリに保存する
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

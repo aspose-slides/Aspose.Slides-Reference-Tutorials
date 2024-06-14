@@ -11,7 +11,7 @@ url: /ja/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 プレゼンテーションのダイナミックな世界では、Aspose.Slides for .NET はスライド作成エクスペリエンスを強化する強力なツールとして際立っています。このツールが提供する注目すべき機能の 1 つは、スライドのコレクションを視覚的に魅力的に提示するサマリー ズームを作成する機能です。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドにサマリー ズームを作成する手順を説明します。
 ## 前提条件
 チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
-- Aspose.Slides for .NET: .NET環境にライブラリがインストールされていることを確認してください。インストールされていない場合は、[リリースページ](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: .NET環境にライブラリがインストールされていることを確認してください。インストールされていない場合は、[リリースページ](https://releases.aspose.com/slides/net/).
 - 開発環境: Visual Studio やその他の推奨 IDE を含む .NET 開発環境をセットアップします。
 - C# の基本知識: このチュートリアルでは、C# プログラミングの基本を理解していることを前提としています。
 ## 名前空間のインポート
@@ -32,7 +32,7 @@ string resultPath = Path.Combine(dataDir, "SummaryZoomPresentation.pptx");
 using (Presentation pres = new Presentation())
 {
     //スライドとセクションを作成するためのコードをここに記述します
-    //...
+    // ...
     //プレゼンテーションを保存する
     pres.Save(resultPath, SaveFormat.Pptx);
 }
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 //スライドのスタイルを設定するコードはここに記述します
-//...
+// ...
 pres.Sections.AddSection("Section 1", slide);
 //他のセクション（セクション2、セクション3、セクション4）でもこれらの手順を繰り返します。
 ```
@@ -55,7 +55,7 @@ slide.Background.Type = BackgroundType.OwnBackground;
 //異なる色の他のスライドでもこの手順を繰り返します。
 ```
 ## ステップ4: サマリーズームフレームを追加する
-この重要なステップには、プレゼンテーションのセクションをつなぐ視覚要素であるサマリーズームフレームの作成が含まれます。`AddSummaryZoomFrame`メソッドは、指定されたスライドにこのフレームを追加します。
+この重要なステップでは、プレゼンテーションのセクションをつなぐ視覚要素であるサマリーズームフレームを作成します。`AddSummaryZoomFrame`メソッドは、指定されたスライドにこのフレームを追加します。
 ```csharp
 ISummaryZoomFrame summaryZoomFrame = pres.Slides[0].Shapes.AddSummaryZoomFrame(150, 50, 300, 200);
 //好みに応じて座標と寸法を調整します

@@ -21,12 +21,12 @@ In diesem Schritt importieren wir die erforderlichen Pakete, um unsere Aspose.Sl
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Festlegen des Datenverzeichnisses
 Bevor Sie sich in die Kernfunktionalität vertiefen, legen Sie das Datenverzeichnis für den Zugriff auf Ihre Präsentationsdatei fest:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Schritt 2: Ladeoptionen erstellen
 Instanziieren Sie Ladeoptionen, um zu konfigurieren, wie auf die Präsentationsdatei zugegriffen wird. In diesem Beispiel setzen wir das Zugriffskennwort auf null und aktivieren das Laden nur von Dokumenteigenschaften:

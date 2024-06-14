@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powe
 सबसे पहले, आइए हमारे उदाहरण के लिए आवश्यक पैकेजों को आयात करें।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

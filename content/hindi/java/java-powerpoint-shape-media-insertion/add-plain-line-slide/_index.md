@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## चरण 1: वातावरण सेट करें
@@ -61,4 +61,4 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 ### क्या मैं लाइन आकार के साथ स्लाइड में पाठ भी जोड़ सकता हूँ?
 हां, आप Aspose.Slides API का उपयोग करके स्लाइड में टेक्स्ट, चित्र और अन्य सामग्री जोड़ सकते हैं।
 ### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
-हां, आप Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+ हां, आप Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).

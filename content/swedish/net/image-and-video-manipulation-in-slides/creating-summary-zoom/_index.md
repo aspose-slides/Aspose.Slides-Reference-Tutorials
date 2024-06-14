@@ -11,11 +11,11 @@ url: /sv/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 I den dynamiska presentationsvärlden framstår Aspose.Slides för .NET som ett kraftfullt verktyg för att förbättra din upplevelse av att skapa bilder. En av de anmärkningsvärda funktionerna som den erbjuder är möjligheten att skapa en sammanfattningszoom, ett visuellt engagerande sätt att presentera en samling bilder. I den här handledningen guidar vi dig genom processen att skapa en sammanfattning Zooma in presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar:
-- Aspose.Slides för .NET: Se till att du har biblioteket installerat i din .NET-miljö. Om inte kan du ladda ner den från[släpp sida](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides för .NET: Se till att du har biblioteket installerat i din .NET-miljö. Om inte kan du ladda ner den från[släppsidan](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Konfigurera din .NET-utvecklingsmiljö, inklusive Visual Studio eller någon annan föredragen IDE.
 - Grundläggande kunskaper om C#: Denna handledning förutsätter att du har en grundläggande förståelse för C#-programmering.
 ## Importera namnområden
-I ditt C#-projekt, inkludera de nödvändiga namnrymden för att komma åt funktionerna i Aspose.Slides. Lägg till följande rader i början av din kod:
+ditt C#-projekt, inkludera de nödvändiga namnrymden för att komma åt funktionerna i Aspose.Slides. Lägg till följande rader i början av din kod:
 ```csharp
 using System;
 using System.Drawing;
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Steg 2: Lägg till bilder och avsnitt
- Detta steg innebär att skapa individuella bilder och organisera dem i avsnitt i presentationen. De`AddEmptySlide`metoden lägger till en ny bild, och`Sections.AddSection` Metoden etablerar sektioner för bättre organisation.
+ Detta steg innebär att skapa individuella bilder och organisera dem i avsnitt i presentationen. De`AddEmptySlide` metoden lägger till en ny bild, och`Sections.AddSection` Metoden etablerar sektioner för bättre organisation.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Koden för styling av bilden går här
@@ -55,7 +55,7 @@ slide.Background.Type = BackgroundType.OwnBackground;
 // Upprepa dessa steg för andra bilder med olika färger
 ```
 ## Steg 4: Lägg till sammanfattningszoomram
- Detta avgörande steg innebär att skapa en sammanfattningszoomram, ett visuellt element som kopplar samman avsnitt i presentationen. De`AddSummaryZoomFrame` metod lägger till den här ramen till den angivna bilden.
+ Detta avgörande steg innebär att skapa en sammanfattningszoomram, ett visuellt element som kopplar samman avsnitt i presentationen. De`AddSummaryZoomFrame` metod lägger till denna ram till den angivna bilden.
 ```csharp
 ISummaryZoomFrame summaryZoomFrame = pres.Slides[0].Shapes.AddSummaryZoomFrame(150, 50, 300, 200);
 // Justera koordinaterna och dimensionerna enligt dina önskemål
@@ -74,8 +74,8 @@ Ja, du kan justera koordinaterna och dimensionerna för sammanfattningszoomramen
 ### Är Aspose.Slides kompatibel med de senaste .NET-versionerna?
 Aspose.Slides uppdateras regelbundet för att säkerställa kompatibilitet med de senaste .NET-versionerna.
 ### Kan jag lägga till hyperlänkar i sammanfattningszoomramen?
-Absolut! Du kan inkludera hyperlänkar i dina bilder och de kommer att fungera sömlöst inom ramen för Sammanfattningszoom.
+Absolut! Du kan inkludera hyperlänkar i dina bilder, och de kommer att fungera sömlöst inom ramen för Sammanfattningszoom.
 ### Finns det några begränsningar för antalet avsnitt i en presentation?
 Från och med den senaste versionen finns det inga strikta begränsningar för hur många avsnitt du kan lägga till i en presentation.
 ### Finns det en testversion tillgänglig för Aspose.Slides?
- Ja, du kan utforska funktionerna i Aspose.Slides genom att ladda ner[gratis testversion](https://releases.aspose.com/).
+Ja, du kan utforska funktionerna i Aspose.Slides genom att ladda ner[gratis testversion](https://releases.aspose.com/).

@@ -10,7 +10,7 @@ url: /ko/net/chart-formatting-and-animation/animating-series/
 
 애니메이션 차트를 사용하여 프레젠테이션에 활기를 더하고 싶으십니까? .NET용 Aspose.Slides는 차트에 생기를 불어넣기 위해 여기에 있습니다. 이 단계별 가이드에서는 .NET용 Aspose.Slides를 사용하여 차트의 시리즈에 애니메이션을 적용하는 방법을 보여줍니다. 하지만 작업을 시작하기 전에 전제 조건을 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 .NET용 Aspose.Slides를 사용하여 차트의 시리즈에 성공적으로 애니메이션을 적용하려면 다음이 필요합니다.
 
@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 차트에 애니메이션 효과를 추가한 후 수정된 프레젠테이션을 디스크에 저장하세요.
 
 ```csharp
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

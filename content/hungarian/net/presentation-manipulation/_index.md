@@ -40,7 +40,7 @@ Ismerje meg, hogyan importálhat zökkenőmentesen PDF-tartalmat prezentációkb
 ### [Konvertálja a PPT-t PPTX formátumba](./convert-ppt-to-pptx-format/)
 Ismerje meg, hogyan konvertálhat könnyedén PPT-t PPTX-re az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal a zökkenőmentes formátumátalakításhoz.
 ### [Konvertálja a prezentációt TIFF formátumba egyéni képformátummal](./convert-presentation-to-tiff-with-custom-image-format/)
-Ismerje meg, hogyan konvertálhat prezentációkat TIFF-formátumba egyéni képbeállításokkal az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
+Ismerje meg, hogyan konvertálhat prezentációkat TIFF-formátumba egyéni képbeállításokkal az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 ### [Konvertálja a prezentációt TIFF formátumba az alapértelmezett mérettel](./convert-presentation-to-tiff-with-default-size/)
 Ismerje meg, hogyan konvertálhat könnyedén prezentációkat TIFF-képekké az alapértelmezett méretükkel az Aspose.Slides for .NET segítségével.
 ### [Rendereljen jegyzeteket a prezentáció HTML formátumba konvertálásakor](./render-notes-while-converting-presentation-to-html/)

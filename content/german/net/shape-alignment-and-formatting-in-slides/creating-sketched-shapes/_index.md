@@ -65,7 +65,7 @@ Das ist es! Sie haben erfolgreich eine Präsentation mit skizzierten Formen mit 
 Das Hinzufügen skizzierter Formen zu Ihren Präsentationsfolien kann die visuelle Attraktivität steigern und Ihr Publikum fesseln. Mit Aspose.Slides für .NET wird der Prozess unkompliziert und Sie können Ihrer Kreativität mühelos freien Lauf lassen.
 ## FAQs
 ### 1. Kann ich den Skizzeneffekt anpassen?
-Ja, Aspose.Slides für .NET bietet verschiedene Anpassungsoptionen für skizzierte Effekte. Weitere Informationen finden Sie im[Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen.
+ Ja, Aspose.Slides für .NET bietet verschiedene Anpassungsoptionen für skizzierte Effekte. Weitere Informationen finden Sie im[Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen.
 ### 2. Gibt es eine kostenlose Testversion?
  Sicher! Sie können eine kostenlose Testversion von Aspose.Slides für .NET ausprobieren[Hier](https://releases.aspose.com/).
 ### 3. Wo bekomme ich Unterstützung?

@@ -10,7 +10,7 @@ url: /sv/java/presentation-conversion/convert-pdf-compliance-java-slides/
 
 ## Introduktion till Konvertering till PDF-kompatibilitet i Java Slides
 
-den här handledningen kommer vi att utforska hur man konverterar en PowerPoint-presentation till en PDF-fil med överensstämmelse med Aspose.Slides för Java. Specifikt kommer vi att ställa in PDF-kompatibiliteten till PDF/A-2a. Denna överensstämmelsenivå säkerställer att den resulterande PDF-filen följer specifika standarder för långsiktig arkivering och tillgänglighet.
+I den här handledningen kommer vi att utforska hur man konverterar en PowerPoint-presentation till en PDF-fil med överensstämmelse med Aspose.Slides för Java. Specifikt kommer vi att ställa in PDF-kompatibiliteten till PDF/A-2a. Denna överensstämmelsenivå säkerställer att den resulterande PDF-filen följer specifika standarder för långsiktig arkivering och tillgänglighet.
 
 ## Förutsättningar
 
@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Komplett källkod för att konvertera till PDF-kompatibilitet i Java Slides
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ Att använda PDF/A-2a-kompatibilitet är viktigt när du behöver arkivera elekt
 
 ## Kan jag ändra PDF-kompatibilitetsnivån till något annat än PDF/A-2a?
 
- Ja, Aspose.Slides för Java ger flexibilitet vid val av PDF-kompatibilitetsnivå. I koden som tillhandahålls kan du ändra efterlevnadsnivån genom att ändra`pdfOptions.setCompliance()` linje. Du kan välja andra efterlevnadsnivåer som PDF/A-1a, PDF/A-1b, PDF/A-3a, etc., beroende på dina specifika krav.
+ Ja, Aspose.Slides för Java ger flexibilitet vid val av PDF-kompatibilitetsnivå. I koden som tillhandahålls kan du ändra efterlevnadsnivån genom att ändra`pdfOptions.setCompliance()`linje. Du kan välja andra efterlevnadsnivåer som PDF/A-1a, PDF/A-1b, PDF/A-3a, etc., beroende på dina specifika krav.
 
 ## Vilka är skillnaderna mellan PDF/A-2a och andra efterlevnadsnivåer?
 
@@ -113,4 +113,4 @@ Ja, du behöver vanligtvis en giltig licens för Aspose.Slides för Java för at
 
 ## Var kan jag hitta mer information om Aspose.Slides för Java och PDF-kompatibilitet?
 
- För mer detaljerad information om Aspose.Slides för Java och dess funktioner, inklusive PDF-kompatibilitetsinställningar, kan du se dokumentationen på[Aspose.Slides för Java API Referens](https://reference.aspose.com/slides/java/)Dessutom kan du utforska kodexempel och handledning för att ytterligare förbättra din kunskap om biblioteket.
+ För mer detaljerad information om Aspose.Slides för Java och dess funktioner, inklusive PDF-kompatibilitetsinställningar, kan du se dokumentationen på[Aspose.Slides för Java API Referens](https://reference.aspose.com/slides/java/). Dessutom kan du utforska kodexempel och handledning för att ytterligare förbättra din kunskap om biblioteket.

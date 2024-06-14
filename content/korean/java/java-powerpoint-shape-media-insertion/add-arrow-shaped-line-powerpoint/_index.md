@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerp
 ---
 ## 소개
 PowerPoint 프레젠테이션에 화살표 모양의 선을 추가하면 시각적 매력을 높이고 정보를 효과적으로 전달하는 데 도움이 될 수 있습니다. Aspose.Slides for Java는 Java 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작할 수 있는 포괄적인 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에 화살표 모양의 선을 추가하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
 2. Java 라이브러리용 Aspose.Slides가 다운로드되어 프로젝트의 클래스 경로에 추가되었습니다.
@@ -19,7 +19,7 @@ PowerPoint 프레젠테이션에 화살표 모양의 선을 추가하면 시각�
 시작하려면 Java 클래스에 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### Aspose.Slides for Java는 최신 버전의 PowerPoint와 호환됩니까?
 Aspose.Slides for Java는 다양한 버전의 PowerPoint와의 호환성을 지원하여 프레젠테이션과의 원활한 통합을 보장합니다.
 ### 화살표 모양 선의 색상을 맞춤 설정할 수 있나요?
- 예, 화살표 모양 선의 색상을 조정하여 사용자 정의할 수 있습니다.`SolidFillColor` 코드의 속성입니다.
+예, 화살표 모양 선의 색상을 조정하여 사용자 정의할 수 있습니다.`SolidFillColor` 코드의 속성입니다.
 ### Aspose.Slides for Java는 선 외에 다른 모양도 지원합니까?
 예, Aspose.Slides for Java는 직사각형, 원, 다각형을 포함한 다양한 모양을 PowerPoint 슬라이드에 추가하기 위한 광범위한 지원을 제공합니다.
 ### Aspose.Slides for Java에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?

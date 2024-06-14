@@ -71,7 +71,7 @@ En dat is het! U hebt met succes een PowerPoint-presentatie naar een GIF geconve
 // Het pad naar de documentenmap
 String dataDir = "Your Document Directory";
 // Het pad naar het uitvoerbestand
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Instantieer een presentatieobject dat een presentatiebestand vertegenwoordigt
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

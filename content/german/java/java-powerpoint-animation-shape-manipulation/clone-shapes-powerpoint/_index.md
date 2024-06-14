@@ -12,13 +12,13 @@ In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java Formen in P
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 1.  Java Development Kit (JDK): Stellen Sie sicher, dass Java Development Kit auf Ihrem System installiert ist. Sie können die neueste Version von der Website herunterladen und installieren.[Webseite](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides für Java-Bibliothek: Laden Sie die Aspose.Slides für Java-Bibliothek herunter und binden Sie sie in Ihr Java-Projekt ein. Den Download-Link finden Sie[Hier](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides für Java-Bibliothek: Laden Sie die Aspose.Slides für Java-Bibliothek herunter und binden Sie sie in Ihr Java-Projekt ein. Den Download-Link finden Sie[Hier](https://releases.aspose.com/slides/java/).
 
 ## Pakete importieren
 Zu Beginn müssen Sie die erforderlichen Pakete in Ihr Java-Projekt importieren. Diese Pakete bieten die erforderlichen Funktionen zum Arbeiten mit PowerPoint-Präsentationen mit Aspose.Slides für Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Laden Sie die Präsentation
  Zuerst müssen Sie die PowerPoint-Präsentation mit den Formen laden, die Sie klonen möchten. Verwenden Sie die`Presentation` Klasse zum Laden der Quellpräsentation.

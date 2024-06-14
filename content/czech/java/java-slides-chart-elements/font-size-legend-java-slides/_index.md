@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- V tomto kódu vytvoříme graf a nastavíme velikost písma textu legendy na 20 bodů. Můžete upravit`setFontHeight`hodnotu pro změnu velikosti písma.
+ V tomto kódu vytvoříme graf a nastavíme velikost písma textu legendy na 20 bodů. Můžete upravit`setFontHeight` hodnotu pro změnu velikosti písma.
 
 ### Mohu upravit další vlastnosti legendy v grafu?
 
@@ -134,4 +134,4 @@ Zde zakážeme automatické škálování os a určíme minimální a maximáln�
 
 ### Kde najdu další informace a dokumentaci k Aspose.Slides?
 
-Komplexní dokumentaci a reference API pro Aspose.Slides for Java můžete najít na webu dokumentace Aspose. Návštěva[tady](https://reference.aspose.com/slides/java/) pro podrobné informace o používání knihovny.
+ Komplexní dokumentaci a reference API pro Aspose.Slides for Java můžete najít na webu dokumentace Aspose. Návštěva[tady](https://reference.aspose.com/slides/java/) pro podrobné informace o používání knihovny.

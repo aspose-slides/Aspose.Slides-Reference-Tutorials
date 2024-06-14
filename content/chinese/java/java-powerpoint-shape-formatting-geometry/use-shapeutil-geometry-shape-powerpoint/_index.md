@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-s
 首先，您需要导入使用 Aspose.Slides 和 Java AWT (Abstract Window Toolkit) 所需的包：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;
@@ -70,7 +70,7 @@ Aspose.Slides for Java 是一个功能强大的 API，用于在 Java 中处理 P
 ### 如何安装 Aspose.Slides for Java？
 您可以从[下载页面](https://releases.aspose.com/slides/java/)并将 JAR 文件添加到您的项目。
 ### 我可以免费使用 Aspose.Slides 吗？
- Aspose.Slides 提供免费试用版，您可以从[这里](https://releases.aspose.com/)。要获得完整功能，您需要购买许可证。
+Aspose.Slides 提供免费试用版，您可以从[这里](https://releases.aspose.com/)。要获得完整功能，您需要购买许可证。
 ### ShapeUtil 类有什么用途？
 这`ShapeUtil` Aspose.Slides 中的类提供了处理形状的实用方法，例如将图形路径转换为几何路径。
 ### 我可以在哪里获得 Aspose.Slides 的支持？

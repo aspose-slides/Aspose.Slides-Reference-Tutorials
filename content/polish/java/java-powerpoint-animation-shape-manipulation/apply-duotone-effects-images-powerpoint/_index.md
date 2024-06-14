@@ -19,7 +19,7 @@ Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące el
 Najpierw musisz zaimportować niezbędne pakiety do swojego programu Java. Oto jak to zrobić:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

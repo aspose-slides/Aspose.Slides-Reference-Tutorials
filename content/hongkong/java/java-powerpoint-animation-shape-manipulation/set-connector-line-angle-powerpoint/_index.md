@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/set-connector-li
 首先，將必要的套件匯入到您的 Java 專案中。確保包含 Aspose.Slides 庫以存取 PowerPoint 功能。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：初始化表示對象
 首先初始化一個Presentation 物件來載入您的PowerPoint 檔案。

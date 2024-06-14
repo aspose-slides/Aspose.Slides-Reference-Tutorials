@@ -165,7 +165,7 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-tomto tutoriálu jsme se zabývali procesem přidávání Donut Callout do snímku Java pomocí Aspose.Slides for Java. Naučili jste se, jak vytvořit prstencový graf, přizpůsobit jeho vzhled a přidat datové body. Neváhejte dále vylepšit své prezentace pomocí této výkonné knihovny a prozkoumejte další možnosti vytváření grafů.
+V tomto tutoriálu jsme se zabývali procesem přidávání Donut Callout do snímku Java pomocí Aspose.Slides for Java. Naučili jste se, jak vytvořit prstencový graf, přizpůsobit jeho vzhled a přidat datové body. Neváhejte dále vylepšit své prezentace pomocí této výkonné knihovny a prozkoumejte další možnosti vytváření grafů.
 
 ## FAQ
 
@@ -179,4 +179,4 @@ Ano, do prstencového grafu můžete přidat tolik datových bodů, kolik potře
 
 ### Jak mohu upravit polohu a velikost prstencového grafu na snímku?
 
-Pozici a velikost prstencového grafu můžete změnit úpravou parametrů v`addChart` metoda. Čtyři čísla v této metodě odpovídají souřadnicím X a Y levého horního rohu grafu a jeho šířce a výšce.
+ Pozici a velikost prstencového grafu můžete změnit úpravou parametrů v`addChart` metoda. Čtyři čísla v této metodě odpovídají souřadnicím X a Y levého horního rohu grafu a jeho šířce a výšce.

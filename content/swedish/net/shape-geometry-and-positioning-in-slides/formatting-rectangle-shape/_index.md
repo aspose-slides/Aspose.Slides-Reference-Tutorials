@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Steg 2: Skapa ett presentationsobjekt
- Instantiera`Presentation`klass för att representera PPTX-filen. Detta kommer att vara grunden för din PowerPoint-presentation.
+ Instantiera`Presentation` klass för att representera PPTX-filen. Detta kommer att vara grunden för din PowerPoint-presentation.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Få tillgång till den första bilden i din presentation, eftersom det kommer at
 ISlide sld = pres.Slides[0];
 ```
 ## Steg 4: Lägg till en rektangelform
- Använd`Shapes` egenskapen för bilden för att lägga till en automatisk form av rektangeltyp. Ange rektangelns position och dimensioner.
+ Använd`Shapes`egenskapen för bilden för att lägga till en automatisk form av rektangeltyp. Ange rektangelns position och dimensioner.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```
@@ -64,7 +64,7 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Grattis! Du har framgångsrikt formaterat en rektangelform i en presentation med Aspose.Slides för .NET.
 ## Slutsats
-den här handledningen täckte vi grunderna för att arbeta med rektangelformer i Aspose.Slides för .NET. Du lärde dig hur du ställer in ditt projekt, skapar en presentation, lägger till en rektangelform och använder formatering för att förbättra dess visuella tilltalande. När du fortsätter att utforska Aspose.Slides kommer du att upptäcka ännu fler sätt att lyfta dina PowerPoint-presentationer.
+I den här handledningen täckte vi grunderna för att arbeta med rektangelformer i Aspose.Slides för .NET. Du lärde dig hur du ställer in ditt projekt, skapar en presentation, lägger till en rektangelform och använder formatering för att förbättra dess visuella tilltalande. När du fortsätter att utforska Aspose.Slides kommer du att upptäcka ännu fler sätt att lyfta dina PowerPoint-presentationer.
 ## Vanliga frågor
 ### F1: Kan jag använda Aspose.Slides för .NET med andra .NET-språk?
 Ja, Aspose.Slides stöder andra .NET-språk som VB.NET och F# förutom C#.

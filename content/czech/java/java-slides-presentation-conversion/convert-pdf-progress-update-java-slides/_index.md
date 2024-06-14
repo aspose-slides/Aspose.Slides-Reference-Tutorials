@@ -10,7 +10,7 @@ url: /cs/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 
 ## Úvod do převodu PowerPointu do PDF s Progress Updates v Javě pomocí Aspose.Slides pro Javu
 
-V tomto podrobném průvodci si ukážeme, jak převést PowerPointovou prezentaci (PPTX) do souboru PDF v Javě pomocí Aspose.Slides for Java. Kromě toho zahrneme aktualizace průběhu během procesu převodu.
+tomto podrobném průvodci si ukážeme, jak převést PowerPointovou prezentaci (PPTX) do souboru PDF v Javě pomocí Aspose.Slides for Java. Kromě toho zahrneme aktualizace průběhu během procesu převodu.
 
 ## Předpoklady
 
@@ -29,7 +29,7 @@ import com.aspose.slides.*;
 
 ## Krok 2: Vytvořte třídu Java
 
-Vytvořte třídu Java, kde budete provádět převod PowerPointu do PDF. Pojďme si to pojmenovat`PowerPointToPdfConverter`.
+ Vytvořte třídu Java, kde budete provádět převod PowerPointu do PDF. Pojďme si to pojmenovat`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -68,7 +68,7 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## Krok 5: Kompilace a spuštění
 
- Zkompilujte svou třídu Java a spusťte`PowerPointToPdfConverter` třída. Převede prezentaci PowerPoint na soubor PDF a zároveň poskytne aktualizace průběhu v konzole.
+Zkompilujte svou třídu Java a spusťte`PowerPointToPdfConverter` třída. Převede prezentaci PowerPoint na soubor PDF a zároveň poskytne aktualizace průběhu v konzole.
 
 ## Kompletní zdrojový kód pro převod do PDF s aktualizací Progress v Java Slides
 
@@ -99,7 +99,7 @@ class ExportProgressHandler implements IProgressCallback
 
 ## Závěr
 
-tomto podrobném průvodci jsme prozkoumali, jak převést prezentaci v PowerPointu (PPTX) na soubor PDF v Javě pomocí Aspose.Slides for Java. Kromě toho jsme během procesu převodu implementovali aktualizace průběhu, abychom mohli sledovat stav operace.
+V tomto podrobném průvodci jsme prozkoumali, jak převést prezentaci v PowerPointu (PPTX) na soubor PDF v Javě pomocí Aspose.Slides for Java. Kromě toho jsme během procesu převodu implementovali aktualizace průběhu, abychom mohli sledovat stav operace.
 
 ## FAQ
 
@@ -117,4 +117,4 @@ Ano, Aspose.Slides for Java poskytuje rozsáhlé funkce pro práci s PowerPoint 
 
 ### Jak mohu přizpůsobit možnosti převodu PDF?
 
- Možnosti převodu PDF můžete upravit úpravou souboru`PdfOptions` objekt před voláním`presentation.save`metoda. To zahrnuje nastavení vlastností, jako je velikost stránky, kvalita a další.
+ Možnosti převodu PDF můžete upravit úpravou souboru`PdfOptions` objekt před voláním`presentation.save` metoda. To zahrnuje nastavení vlastností, jako je velikost stránky, kvalita a další.

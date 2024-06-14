@@ -20,7 +20,7 @@ Ve svém projektu Java importujte potřebné třídy Aspose.Slides:
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte prostředí
 Definujte cestu k adresáři obsahujícímu váš PowerPoint soubor:
@@ -53,7 +53,7 @@ presentation.save(dataDir + "DocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Závěr
-V tomto tutoriálu jste se naučili, jak upravit vestavěné vlastnosti v prezentacích PowerPoint pomocí Aspose.Slides for Java. Tato funkce vám umožňuje programově přizpůsobit metadata spojená s vašimi prezentacemi, čímž se zlepší jejich použitelnost a organizace.
+tomto tutoriálu jste se naučili, jak upravit vestavěné vlastnosti v prezentacích PowerPoint pomocí Aspose.Slides for Java. Tato funkce vám umožňuje programově přizpůsobit metadata spojená s vašimi prezentacemi, čímž se zlepší jejich použitelnost a organizace.
 ## Nejčastější dotazy
 ### Mohu upravit jiné vlastnosti dokumentu kromě uvedených?
 Ano, můžete upravit různé další vlastnosti, jako je kategorie, klíčová slova, společnost atd., pomocí podobných metod poskytovaných Aspose.Slides.

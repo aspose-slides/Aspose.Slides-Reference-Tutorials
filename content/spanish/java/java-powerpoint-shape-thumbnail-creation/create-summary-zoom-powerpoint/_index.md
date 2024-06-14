@@ -13,14 +13,14 @@ En esta guía paso a paso, lo guiaremos a través de todo el proceso, desde la c
 ## Requisitos previos
 Antes de profundizar en el código, asegurémonos de tener todo lo que necesita para comenzar:
 1.  Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su máquina. Puedes descargarlo desde el[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides para Java: descargue la biblioteca desde[Página de lanzamientos de Aspose](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides para Java: descargue la biblioteca desde[Página de lanzamientos de Aspose](https://releases.aspose.com/slides/java/).
 3. Entorno de desarrollo integrado (IDE): utilice un IDE como IntelliJ IDEA, Eclipse o NetBeans para disfrutar de una experiencia de desarrollo más fluida.
 4. Conocimientos básicos de Java: la familiaridad con los conceptos de programación de Java le ayudará a comprender e implementar los pasos de esta guía.
 ## Importar paquetes
 Antes de comenzar, debe importar los paquetes necesarios. Asegúrese de haber incluido Aspose.Slides para Java en las dependencias de su proyecto.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Paso 1: configura tu proyecto
@@ -76,7 +76,7 @@ pres.getSections().addSection("Section 4", slide);
 Ahora, crearemos un marco de Zoom de resumen en la primera diapositiva. Este marco actuará como elemento interactivo que permitirá a los usuarios hacer zoom en diferentes secciones.
 
 1. Localice la primera diapositiva: recupere la primera diapositiva donde agregará el marco de zoom de resumen.
-2. Agregar el marco de zoom de resumen: use el`addSummaryZoomFrame` método para agregar el marco.
+2.  Agregar el marco de zoom de resumen: use el`addSummaryZoomFrame` método para agregar el marco.
 ```java
 ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().addSummaryZoomFrame(150, 50, 300, 200);
 ```
@@ -86,7 +86,7 @@ Finalmente, guarde la presentación en la ubicación deseada. Este paso garantiz
 1. Definir la ruta de salida: especifique la ruta donde se guardará la presentación.
 2.  Guarde la presentación: utilice el`save` Método para guardar el archivo en formato PPTX.
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### Deseche el objeto de presentación
@@ -95,14 +95,14 @@ Deseche el objeto de presentación para liberar los recursos que esté utilizand
 if (pres != null) pres.dispose();
 ```
 ## Conclusión
- ¡Felicidades! Ha creado con éxito un zoom de resumen en PowerPoint utilizando Aspose.Slides para Java. Esta característica mejora sus presentaciones haciéndolas más interactivas y atractivas. Si sigue esta guía, ahora tendrá las habilidades para implementar esta función en sus propios proyectos. Recuerde explorar el[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/) para funciones más avanzadas y opciones de personalización.
+ ¡Felicidades! Ha creado con éxito un zoom de resumen en PowerPoint usando Aspose.Slides para Java. Esta característica mejora sus presentaciones haciéndolas más interactivas y atractivas. Si sigue esta guía, ahora tendrá las habilidades para implementar esta función en sus propios proyectos. Recuerde explorar el[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/)para funciones más avanzadas y opciones de personalización.
 ## Preguntas frecuentes
 ### ¿Qué es Aspose.Slides para Java?
 Aspose.Slides para Java es una poderosa biblioteca que permite a los desarrolladores crear, modificar y manipular presentaciones de PowerPoint mediante programación usando Java.
 ### ¿Puedo usar Aspose.Slides para Java para crear otros tipos de contenido en PowerPoint?
 Sí, Aspose.Slides para Java admite una amplia gama de funciones, incluida la creación de diapositivas, la adición de formas, gráficos, tablas y mucho más.
 ### ¿Hay una prueba gratuita disponible para Aspose.Slides para Java?
- Sí, puede descargar una prueba gratuita de Aspose.Slides para Java desde[sitio web](https://releases.aspose.com/).
+Sí, puede descargar una prueba gratuita de Aspose.Slides para Java desde[sitio web](https://releases.aspose.com/).
 ### ¿Cómo obtengo una licencia temporal de Aspose.Slides para Java?
  Puede obtener una licencia temporal del[Aspose página de compra](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar más ejemplos y soporte para Aspose.Slides para Java?

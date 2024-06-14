@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/change-shape-order-po
 ---
 ## 소개
 시각적으로 매력적이고 잘 구성된 프레젠테이션을 만드는 것은 어려운 작업일 수 있습니다. 그러나 올바른 도구와 기술을 사용하면 훨씬 쉽게 만들 수 있습니다. Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작하고 관리하는 데 도움이 되는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드의 모양 순서를 변경하는 단계를 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Java 라이브러리용 Aspose.Slides: 다음에서 최신 버전을 다운로드하세요.[Aspose.Slides for Java 다운로드 페이지](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/change-shape-order-po
 시작하려면 Aspose.Slides 라이브러리에서 필요한 패키지를 가져와야 합니다. 이러한 가져오기를 사용하면 프레젠테이션, 슬라이드, 도형 작업을 할 수 있습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 이 가이드에서는 더 나은 이해와 구현 용이성을 위해 모양 순서를 변경하는 과정을 여러 단계로 나누어 보겠습니다.
 ## 1단계: 프레젠테이션 로드

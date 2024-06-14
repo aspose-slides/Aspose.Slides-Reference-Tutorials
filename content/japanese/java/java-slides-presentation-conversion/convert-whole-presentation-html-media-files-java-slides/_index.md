@@ -1,6 +1,6 @@
 ---
-title: Java スライドでメディア ファイルを使用してプレゼンテーション全体を HTML に変換する
-linktitle: Java スライドでメディア ファイルを使用してプレゼンテーション全体を HTML に変換する
+title: Java スライドでメディア ファイルを含むプレゼンテーション全体を HTML に変換する
+linktitle: Java スライドでメディア ファイルを含むプレゼンテーション全体を HTML に変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Java Slides を使用して、プレゼンテーションをメディア ファイル付きの HTML に変換する方法を学びます。Aspose.Slides for Java API のステップ バイ ステップ ガイドに従ってください。
 type: docs

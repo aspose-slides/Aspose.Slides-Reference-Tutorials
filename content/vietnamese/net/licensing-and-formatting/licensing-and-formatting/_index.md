@@ -14,7 +14,7 @@ Trong thế giới phát triển .NET, Aspose.Slides là một thư viện mạn
 
 Trước khi chúng ta đi sâu vào quy trình cấp phép, bạn nên có sẵn các điều kiện tiên quyết sau:
 
-1.  Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt Aspose.Slides for .NET trong môi trường phát triển của mình. Bạn có thể tải xuống thư viện từ[Liên kết tải xuống](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt Aspose.Slides for .NET trong môi trường phát triển của mình. Bạn có thể tải xuống thư viện từ[Liên kết tải xuống](https://releases.aspose.com/slides/net/).
 
 2.  Tệp giấy phép: Nhận tệp giấy phép Aspose.Slides hợp lệ, thường có tên là "Aspose.Slides.lic." Bạn có thể nhận được giấy phép từ[trang web giả định](https://purchase.aspose.com/buy) hoặc yêu cầu một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
 
@@ -58,7 +58,7 @@ Sau khi thiết lập đường dẫn tệp giấy phép, điều cần thiết 
 
 ### Bước 4: Xác thực giấy phép
 
-Để kiểm tra xem giấy phép của bạn có hợp lệ hay không, hãy sử dụng`IsLicensed` phương pháp. Nó trả về một giá trị boolean cho biết giấy phép của bạn có hoạt động hay không.
+ Để kiểm tra xem giấy phép của bạn có hợp lệ hay không, hãy sử dụng`IsLicensed` phương pháp. Nó trả về một giá trị boolean cho biết giấy phép của bạn có hoạt động hay không.
 
 ```csharp
 if (license.IsLicensed())

@@ -75,7 +75,7 @@ finally
 
 ## Závěr
 
-této příručce jsme se naučili, jak získat rozsah grafu v Java Slides pomocí Aspose.Slides for Java API. Zabývali jsme se nastavením prostředí, vytvořením prezentace, přidáním grafu a získáním rozsahu. Tyto znalosti nyní můžete využít ve svých projektech Java Slides k efektivnímu přístupu k rozsahům grafů.
+V této příručce jsme se naučili, jak získat rozsah grafu v Java Slides pomocí Aspose.Slides for Java API. Zabývali jsme se nastavením prostředí, vytvořením prezentace, přidáním grafu a získáním rozsahu. Tyto znalosti nyní můžete využít ve svých projektech Java Slides k efektivnímu přístupu k rozsahům grafů.
 
 ## FAQ
 

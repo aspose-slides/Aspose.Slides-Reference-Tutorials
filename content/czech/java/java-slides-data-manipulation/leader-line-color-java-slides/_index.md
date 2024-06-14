@@ -20,7 +20,7 @@ Než začnete, ujistěte se, že máte následující:
 
 ## Krok 1: Načtěte prezentaci
 
-Nejprve musíte načíst prezentaci PowerPoint obsahující graf, který chcete upravit. Nahradit`presentationName` s cestou k souboru PowerPoint.
+ Nejprve musíte načíst prezentaci PowerPoint obsahující graf, který chcete upravit. Nahradit`presentationName` s cestou k souboru PowerPoint.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Dále přistoupíme k grafu a štítkům dat v rámci prezentace. V tomto přík
 // Získejte graf z prvního snímku
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Získejte řadu grafu
+//Získejte řadu grafu
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Získejte štítky první série
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Nakonec uložte prezentaci s upravenými barvami odkazové čáry do nového souboru.
 
 ```java
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Kompletní zdrojový kód pro barvu vodící čáry v Java Slides
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Získejte graf z prvního snímku
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Získejte řadu grafu
+            //Získejte řadu grafu
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Získejte lebely první série
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -85,7 +85,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak změnit barvu vodicí čáry v grafu PowerPoint pomocí Aspose.Slides pro Java. Barvu a další možnosti formátování můžete přizpůsobit svým konkrétním potřebám. To může být zvláště užitečné, když chcete zvýraznit určité datové body v grafech pro lepší vizualizaci.
+V tomto tutoriálu jsme se naučili, jak změnit barvu vodicí čáry v grafu PowerPoint pomocí Aspose.Slides pro Java. Barvu a další možnosti formátování můžete přizpůsobit svým konkrétním potřebám. To může být zvláště užitečné, když chcete zvýraznit určité datové body v grafech pro lepší vizualizaci.
 
 ## FAQ
 
@@ -107,7 +107,7 @@ Chcete-li získat přístup a upravit další vlastnosti grafu, můžete prozkou
 
 ### Potřebuji licenci k použití Aspose.Slides for Java v komerčním projektu?
 
-Ano, obecně potřebujete platnou licenci k použití Aspose.Slides for Java v komerčním projektu. Aspose nabízí různé možnosti licencování, včetně bezplatné zkušební licence pro testovací a zkušební účely. Pro produkční použití byste však měli získat příslušnou komerční licenci. Navštivte[Aspose Nákupní stránku](https://purchase.aspose.com/) pro podrobnosti o licencích.
+ Ano, obecně potřebujete platnou licenci k použití Aspose.Slides for Java v komerčním projektu. Aspose nabízí různé možnosti licencování, včetně bezplatné zkušební licence pro testovací a zkušební účely. Pro produkční použití byste však měli získat příslušnou komerční licenci. Navštivte[Aspose Nákupní stránku](https://purchase.aspose.com/) pro podrobnosti o licencích.
 
 ### Jak mohu získat technickou podporu pro Aspose.Slides pro Java?
 

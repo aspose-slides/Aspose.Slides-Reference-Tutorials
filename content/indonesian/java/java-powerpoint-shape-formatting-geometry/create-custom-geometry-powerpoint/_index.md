@@ -20,13 +20,13 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 Sebelum masuk ke bagian pengkodean, mari impor paket yang diperlukan.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## Langkah 1: Menyiapkan Proyek
-Untuk memulai, siapkan proyek Java Anda dan sertakan pustaka Aspose.Slides for Java dalam dependensi proyek Anda. Jika Anda menggunakan Maven, tambahkan ketergantungan berikut ke file Anda`pom.xml`:
+ Untuk memulai, siapkan proyek Java Anda dan sertakan pustaka Aspose.Slides for Java dalam dependensi proyek Anda. Jika Anda menggunakan Maven, tambahkan ketergantungan berikut ke file Anda`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>

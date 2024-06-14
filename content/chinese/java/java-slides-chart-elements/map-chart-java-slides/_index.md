@@ -83,7 +83,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Java 幻灯片中地图图表的完整源代码
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//创建空图表

@@ -32,7 +32,7 @@ import com.aspose.slides.SaveFormat;
 
 ## चरण 2: पावरपॉइंट प्रेजेंटेशन लोड करें
 
- इसके बाद, आपको उस PowerPoint प्रेजेंटेशन को लोड करना होगा जिसे आप HTML5 में बदलना चाहते हैं।`"Your Document Directory"` और`"Demo.pptx"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ:
+ इसके बाद, आपको उस PowerPoint प्रेजेंटेशन को लोड करना होगा जिसे आप HTML5 में बदलना चाहते हैं।`"Your Document Directory"` और`"Demo.pptx"` आपकी प्रस्तुति फ़ाइल का वास्तविक पथ:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -74,7 +74,7 @@ try {
 // दस्तावेज़ निर्देशिका का पथ
 String dataDir = "Your Document Directory";
 // आउटपुट फ़ाइल का पथ
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// स्लाइड ट्रांजिशन, एनिमेशन और आकार एनिमेशन वाली प्रस्तुति को HTML5 में निर्यात करें
@@ -94,7 +94,7 @@ try {
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं HTML5 आउटपुट को और अधिक अनुकूलित कैसे कर सकता हूँ?
+### मैं HTML5 आउटपुट को और अधिक कैसे अनुकूलित कर सकता हूँ?
 
 आप विकल्पों को समायोजित करके HTML5 आउटपुट को और अधिक अनुकूलित कर सकते हैं`Html5Options` उदाहरण के लिए, आप छवियों की गुणवत्ता नियंत्रित कर सकते हैं, स्लाइड का आकार सेट कर सकते हैं, और बहुत कुछ कर सकते हैं।
 

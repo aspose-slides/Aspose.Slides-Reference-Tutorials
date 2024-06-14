@@ -21,7 +21,7 @@ V tomto tutoriálu prozkoumáme, jak nastavit prezentaci prezentace pomocí Aspo
 Nejprve musíme vytvořit novou prezentaci v PowerPointu. Zde je návod, jak to udělat v Javě:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ Ujistěte se, že jste poskytli požadovanou cestu k výstupnímu souboru.
 ## Kompletní zdrojový kód pro nastavení prezentace prezentace v Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Získá nastavení prezentace

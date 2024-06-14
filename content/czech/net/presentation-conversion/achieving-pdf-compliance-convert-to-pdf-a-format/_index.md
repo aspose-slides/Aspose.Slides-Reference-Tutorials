@@ -95,7 +95,7 @@ PDF/A je ISO standardizovaná verze PDF určená pro digitální uchovávání. 
 Ano, Aspose.Slides podporuje dávkové konverze, což vám umožní zpracovat více prezentací najednou.
 
 ### Jsou pro Aspose.Slides pro .NET k dispozici nějaké možnosti licencování?
- Ano, možnosti licencování, včetně dočasných licencí, můžete prozkoumat na návštěvě[Licenční stránka Aspose](https://purchase.aspose.com/buy).
+ Ano, možnosti licencování, včetně dočasných licencí, můžete prozkoumat návštěvou[Licenční stránka Aspose](https://purchase.aspose.com/buy).
 
 ### Kde najdu podporu pro Aspose.Slides pro .NET, pokud narazím na nějaké problémy?
  Pokud máte dotazy nebo narazíte na problémy, můžete vyhledat pomoc a pomoc na webu[Fórum Aspose.Slides](https://forum.aspose.com/).

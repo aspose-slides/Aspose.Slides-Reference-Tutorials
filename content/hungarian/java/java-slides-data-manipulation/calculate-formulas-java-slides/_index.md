@@ -25,13 +25,13 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel
 Először hozzunk létre egy új PowerPoint-prezentációt, és adjunk hozzá egy diát. Ebben a példában egyetlen diával fogunk dolgozni.
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
 ## 2. lépés: Adjon hozzá egy diagramot a diához
 
-Most adjunk hozzá egy fürtözött oszlopdiagramot a diához. Ezt a diagramot a képletszámítások bemutatására fogjuk használni.
+Most adjunk hozzá egy fürtözött oszlopdiagramot a diához. Ezt a diagramot használjuk a képletszámítások bemutatására.
 
 ```java
 IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Teljes forráskód a Java Slides képletek kiszámításához
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

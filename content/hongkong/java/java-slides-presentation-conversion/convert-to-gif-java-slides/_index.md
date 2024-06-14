@@ -71,7 +71,7 @@ presentation.save(outPath, SaveFormat.Gif, gifOptions);
 //文檔目錄的路徑
 String dataDir = "Your Document Directory";
 //輸出檔案的路徑
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 //實例化表示簡報文件的簡報對象
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 
 不，Aspose.Slides for .NET 是一個商業 API，提供免費試用，但需要許可證才能完全使用。您可以探索授權選項[這裡](https://purchase.aspose.com/buy).
 
-### 2. 我可以將Aspose.Slides for .NET與其他程式語言一起使用嗎？
+### 2. 我可以將 Aspose.Slides for .NET 與其他程式語言一起使用嗎？
 
 Aspose.Slides for .NET 是專門為 .NET 應用程式設計的。其他程式語言也有類似的函式庫，例如 Java 的 Aspose.Slides。
 

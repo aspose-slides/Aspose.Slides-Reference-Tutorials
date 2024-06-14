@@ -83,4 +83,4 @@ R : Assurez-vous d'une gestion appropriée des exceptions dans votre code pour
 ### Q : Puis-je personnaliser l’apparence du cadre d’objet OLE intégré ?
 R : Absolument, vous pouvez ajuster la taille, la position et d’autres propriétés du cadre d’objet OLE selon vos préférences.
 ### Q : Où puis-je demander de l'aide si je rencontre des difficultés lors de la mise en œuvre ?
-R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et les conseils de la communauté.
+ R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et les conseils de la communauté.

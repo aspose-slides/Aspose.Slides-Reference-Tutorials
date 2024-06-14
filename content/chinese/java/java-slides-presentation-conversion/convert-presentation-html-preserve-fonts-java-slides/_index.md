@@ -52,7 +52,7 @@ try {
     //将演示文稿保存为 HTML
     pres.save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 } finally {
-    //处置演示对象
+    //处置展示对象
     if (pres != null) pres.dispose();
 }
 ```

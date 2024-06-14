@@ -12,7 +12,7 @@ url: /ko/net/slide-access-and-manipulation/clone-slide-end-of-another-presentati
 
 Aspose.Slides for .NET은 .NET 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 수정 및 변환할 수 있도록 하는 라이브러리입니다. 슬라이드, 도형, 텍스트, 이미지, 애니메이션 등을 작업하기 위한 다양한 기능을 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

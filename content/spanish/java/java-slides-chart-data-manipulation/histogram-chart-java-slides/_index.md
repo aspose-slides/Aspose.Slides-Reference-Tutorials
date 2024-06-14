@@ -65,7 +65,7 @@ try {
 }
 ```
 
-En este código, primero borramos del gráfico todas las categorías y series existentes. Luego, agregamos puntos de datos a la serie usando el`getDataPoints().addDataPointForHistogramSeries` método. Finalmente, configuramos el tipo de agregación del eje horizontal en Automático y guardamos la presentación.
+ En este código, primero borramos del gráfico todas las categorías y series existentes. Luego, agregamos puntos de datos a la serie usando el`getDataPoints().addDataPointForHistogramSeries` método. Finalmente, configuramos el tipo de agregación del eje horizontal en Automático y guardamos la presentación.
 
 ## Código fuente completo para gráfico de histograma en diapositivas de Java
 

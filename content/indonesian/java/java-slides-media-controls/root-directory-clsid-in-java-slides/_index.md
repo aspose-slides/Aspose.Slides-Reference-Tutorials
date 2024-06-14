@@ -69,7 +69,7 @@ if (pres != null) {
 
 ```java
 // Nama file keluaran
-String resultPath = RunExamples.getOutPath() + "pres.ppt";
+String resultPath = "Your Output Directory" + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();

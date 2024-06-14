@@ -15,7 +15,7 @@ Aspose.Slides for .NET 是一个功能强大的库，允许开发人员在其 .N
 - 安装了 Visual Studio 或任何其他首选的 C# 开发环境。
 - Aspose.Slides for .NET 库已添加到您的项目中。
 ## 导入命名空间
-首先将必要的命名空间导入到您的 C# 代码中。此步骤可确保您可以访问 Aspose.Slides 库提供的类和功能。
+首先将必要的命名空间导入到您的 C# 代码中。此步骤确保您可以访问 Aspose.Slides 库提供的类和功能。
 ```csharp
 using System.Drawing;
 using Aspose.Slides.Export;
@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation())
     //加载要添加到演示图像集合中的图像
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
-    //...
+    // ...
 }
 ```
 在这一步中，我们创建一个新的演示对象并加载我们想要添加到演示中的图像。

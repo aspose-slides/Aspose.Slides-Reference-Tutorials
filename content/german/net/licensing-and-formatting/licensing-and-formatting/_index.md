@@ -14,7 +14,7 @@ In der Welt der .NET-Entwicklung ist Aspose.Slides eine leistungsstarke und viel
 
 Bevor wir uns mit dem Lizenzierungsprozess befassen, sollten die folgenden Voraussetzungen erfüllt sein:
 
-1.  Aspose.Slides für .NET: Stellen Sie sicher, dass Sie Aspose.Slides für .NET in Ihrer Entwicklungsumgebung installiert haben. Sie können die Bibliothek von der[Download-Link](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides für .NET: Stellen Sie sicher, dass Sie Aspose.Slides für .NET in Ihrer Entwicklungsumgebung installiert haben. Sie können die Bibliothek von der[Download-Link](https://releases.aspose.com/slides/net/).
 
 2.  Lizenzdatei: Erwerben Sie eine gültige Aspose.Slides-Lizenzdatei, die normalerweise den Namen „Aspose.Slides.lic“ trägt. Sie erhalten Lizenzen von der[Aspose-Website](https://purchase.aspose.com/buy) oder fordern Sie ein[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) zu Auswertungszwecken.
 
@@ -58,7 +58,7 @@ Nachdem Sie den Lizenzdateipfad festgelegt haben, müssen Sie unbedingt sicherst
 
 ### Schritt 4: Lizenzvalidierung
 
-Um zu überprüfen, ob Ihre Lizenz gültig ist, verwenden Sie das`IsLicensed` -Methode. Sie gibt einen booleschen Wert zurück, der angibt, ob Ihre Lizenz aktiv ist.
+ Um zu überprüfen, ob Ihre Lizenz gültig ist, verwenden Sie das`IsLicensed` -Methode. Sie gibt einen booleschen Wert zurück, der angibt, ob Ihre Lizenz aktiv ist.
 
 ```csharp
 if (license.IsLicensed())
@@ -74,7 +74,7 @@ Herzlichen Glückwunsch! Sie haben Aspose.Slides für .NET erfolgreich lizenzier
 
 In dieser Schritt-für-Schritt-Anleitung haben wir den wesentlichen Prozess der Lizenzierung von Aspose.Slides für .NET behandelt. Indem Sie sicherstellen, dass Sie die richtigen Voraussetzungen haben, die erforderlichen Namespaces importieren und Ihre Lizenz korrekt validieren, können Sie die Funktionen dieser Bibliothek für Ihre PowerPoint-bezogenen Entwicklungsanforderungen voll ausschöpfen.
 
- Denken Sie daran, dass eine gültige Lizenz nicht nur die Einhaltung gesetzlicher Anforderungen gewährleistet, sondern Ihnen auch den Zugriff auf Premiumfunktionen und die Unterstützung durch die Aspose-Community ermöglicht. Stellen Sie sicher, dass Sie eine Lizenz erhalten, die den Anforderungen Ihres Projekts entspricht, und zwar von der[Aspose-Käufe](https://purchase.aspose.com/buy) oder erkunden Sie Aspose's[Kostenlose Testphase](https://releases.aspose.com/) um einen Vorgeschmack auf seine Fähigkeiten zu bekommen.
+ Denken Sie daran, dass eine gültige Lizenz nicht nur die Einhaltung gesetzlicher Anforderungen gewährleistet, sondern Ihnen auch den Zugriff auf Premium-Funktionen und den Support der Aspose-Community ermöglicht. Stellen Sie sicher, dass Sie eine Lizenz erhalten, die den Anforderungen Ihres Projekts entspricht, von der[Aspose-Käufe](https://purchase.aspose.com/buy) oder erkunden Sie Aspose's[Kostenlose Testphase](https://releases.aspose.com/) um einen Vorgeschmack auf seine Fähigkeiten zu bekommen.
 
 ## Häufig gestellte Fragen
 

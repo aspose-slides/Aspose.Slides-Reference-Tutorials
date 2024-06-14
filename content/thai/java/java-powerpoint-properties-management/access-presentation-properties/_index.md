@@ -21,12 +21,12 @@ url: /th/java/java-powerpoint-properties-management/access-presentation-properti
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีข้อมูล
 ก่อนที่จะเจาะลึกถึงฟังก์ชันหลัก ให้ตั้งค่าไดเร็กทอรีข้อมูลเพื่อเข้าถึงไฟล์การนำเสนอของคุณ:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## ขั้นตอนที่ 2: สร้างตัวเลือกการโหลด
 สร้างอินสแตนซ์ของตัวเลือกการโหลดเพื่อกำหนดค่าวิธีการเข้าถึงไฟล์การนำเสนอ ในตัวอย่างนี้ เรากำลังตั้งค่ารหัสผ่านการเข้าถึงเป็น null และเปิดใช้งานการโหลดเฉพาะคุณสมบัติเอกสาร:

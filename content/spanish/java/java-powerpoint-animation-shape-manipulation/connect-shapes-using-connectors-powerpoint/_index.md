@@ -20,7 +20,7 @@ Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 Primero, importe los paquetes necesarios para trabajar con Aspose.Slides en su proyecto Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Paso 1: crear una instancia de la clase de presentación
  Instanciar el`Presentation`clase, que representa el archivo PPTX en el que estás trabajando.
@@ -77,7 +77,7 @@ Sí, puede personalizar varias propiedades de los conectores, como el color, el 
 ### ¿Aspose.Slides para Java es compatible con todas las versiones de PowerPoint?
 Aspose.Slides para Java admite varios formatos de PowerPoint, incluidos PPTX, PPT y ODP.
 ### ¿Puedo conectar más de dos formas con un solo conector?
-Sí, puede conectar varias formas utilizando conectores complejos proporcionados por Aspose.Slides para Java.
+Sí, puedes conectar varias formas utilizando conectores complejos proporcionados por Aspose.Slides para Java.
 ### ¿Aspose.Slides para Java ofrece soporte para agregar texto a formas?
 Por supuesto, puedes agregar texto fácilmente a formas y conectores mediante programación usando Aspose.Slides para Java.
 ### ¿Existe un foro comunitario o un canal de soporte disponible para los usuarios de Aspose.Slides para Java?

@@ -20,7 +20,7 @@ Importera nödvändiga Aspose.Slides-klasser i ditt Java-projekt:
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Ställ in miljön
 Definiera sökvägen till katalogen som innehåller din PowerPoint-fil:
@@ -53,7 +53,7 @@ presentation.save(dataDir + "DocumentProperties_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Slutsats
-I den här handledningen lärde du dig hur du ändrar inbyggda egenskaper i PowerPoint-presentationer med Aspose.Slides för Java. Den här funktionen låter dig anpassa metadata kopplade till dina presentationer programmatiskt, vilket förbättrar deras användbarhet och organisation.
+den här handledningen lärde du dig hur du ändrar inbyggda egenskaper i PowerPoint-presentationer med Aspose.Slides för Java. Den här funktionen låter dig anpassa metadata kopplade till dina presentationer programmatiskt, vilket förbättrar deras användbarhet och organisation.
 ## Vanliga frågor
 ### Kan jag ändra andra dokumentegenskaper förutom de som nämns?
 Ja, du kan ändra olika andra egenskaper som kategori, nyckelord, företag, etc., med liknande metoder som tillhandahålls av Aspose.Slides.

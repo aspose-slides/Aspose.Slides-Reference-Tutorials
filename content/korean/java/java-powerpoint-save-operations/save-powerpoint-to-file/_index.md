@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-save-operations/save-powerpoint-to-file/
 ---
 ## 소개
 PowerPoint 프레젠테이션은 정보를 시각적으로 전달하는 데 매우 유용한 도구입니다. Aspose.Slides for Java를 사용하면 프로그래밍 방식으로 PowerPoint 파일을 쉽게 조작할 수 있습니다. 이 튜토리얼에서는 PowerPoint 프레젠테이션을 파일에 저장하는 과정을 단계별로 안내합니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
 2.  Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리를 다운로드하여 Java 프로젝트에 포함하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/java/).
@@ -19,13 +19,13 @@ PowerPoint 프레젠테이션은 정보를 시각적으로 전달하는 데 매�
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1단계: 데이터 디렉터리 설정
 ```java
 // 문서 디렉터리의 경로입니다.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // 디렉터리가 아직 없으면 만듭니다.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 이 단계에서는 PowerPoint 프레젠테이션이 저장될 디렉터리의 경로를 정의합니다. 디렉터리가 없으면 생성됩니다.
 ## 2단계: 프레젠테이션 개체 인스턴스화
 ```java
-//PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
+// PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
 Presentation presentation = new Presentation();
 ```
- 여기서는 새로운 인스턴스를 생성합니다.`Presentation` PowerPoint 프레젠테이션을 나타내는 클래스입니다.
+여기서는 새로운 인스턴스를 생성합니다.`Presentation` PowerPoint 프레젠테이션을 나타내는 클래스입니다.
 ## 3단계: 프레젠테이션 작업 수행(선택 사항)
 ```java
 //...여기서 일 좀 하세요...

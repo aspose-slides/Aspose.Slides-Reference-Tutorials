@@ -133,7 +133,7 @@ Bu kapsamlı eğitimde Aspose.Slides for Java'yı kullanarak grafiklerde varsay�
 
 ### İşaretçi sembollerini nasıl değiştirebilirim?
 
- Her veri noktası için işaretçi stilini ayarlayarak işaretçi sembollerini özelleştirebilirsiniz. Kullanmak`IDataPoint.setMarkerStyle()` İşaretçi sembolünü değiştirmek için.
+Her veri noktası için işaretçi stilini ayarlayarak işaretçi sembollerini özelleştirebilirsiniz. Kullanmak`IDataPoint.setMarkerStyle()` İşaretçi sembolünü değiştirmek için.
 
 ### Grafiğin renklerini nasıl ayarlarım?
 

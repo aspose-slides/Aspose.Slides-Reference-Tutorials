@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-whole-presentation-html-java-slide
 
 오늘날 디지털 시대에 프레젠테이션을 HTML로 변환하는 것은 일반적인 요구 사항이며, 특히 프레젠테이션을 온라인으로 공유하거나 웹 사이트에 포함하려는 경우 더욱 그렇습니다. Java Slides로 작업 중이고 전체 프레젠테이션을 HTML로 변환해야 한다면 잘 찾아오셨습니다. 이 단계별 가이드에서는 Aspose.Slides for Java API를 사용하는 프로세스를 안내합니다.
 
-## 전제조건
+## 전제 조건
 
 변환 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

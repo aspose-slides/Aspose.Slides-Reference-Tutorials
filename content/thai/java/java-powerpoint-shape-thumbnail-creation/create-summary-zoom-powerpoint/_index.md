@@ -13,14 +13,14 @@ url: /th/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-power
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่จำเป็นในการเริ่มต้น:
 1.  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides สำหรับ Java: ดาวน์โหลดไลบรารีจาก[กำหนดหน้าการเผยแพร่](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides สำหรับ Java: ดาวน์โหลดไลบรารีจาก[กำหนดหน้าการเผยแพร่](https://releases.aspose.com/slides/java/).
 3. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): ใช้ IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans เพื่อประสบการณ์การพัฒนาที่ราบรื่นยิ่งขึ้น
 4. ความรู้พื้นฐานของ Java: ความคุ้นเคยกับแนวคิดการเขียนโปรแกรม Java จะช่วยให้คุณเข้าใจและดำเนินการตามขั้นตอนในคู่มือนี้
 ## แพ็คเกจนำเข้า
 ก่อนที่เราจะเริ่ม คุณต้องนำเข้าแพ็คเกจที่จำเป็นก่อน ตรวจสอบให้แน่ใจว่าคุณได้รวม Aspose.Slides สำหรับ Java ไว้ในการอ้างอิงโปรเจ็กต์ของคุณ
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
@@ -76,7 +76,7 @@ pres.getSections().addSection("Section 4", slide);
 ตอนนี้ เราจะสร้างกรอบการซูมสรุปบนสไลด์แรก เฟรมนี้จะทำหน้าที่เป็นองค์ประกอบเชิงโต้ตอบที่ช่วยให้ผู้ใช้สามารถซูมไปยังส่วนต่างๆ ได้
 
 1. ค้นหาสไลด์แรก: ดึงสไลด์แรกที่คุณจะเพิ่มกรอบการซูมสรุป
-2. เพิ่มกรอบการซูมสรุป: ใช้`addSummaryZoomFrame` วิธีการเพิ่มเฟรม
+2.  เพิ่มกรอบการซูมสรุป: ใช้`addSummaryZoomFrame` วิธีการเพิ่มเฟรม
 ```java
 ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().addSummaryZoomFrame(150, 50, 300, 200);
 ```
@@ -86,7 +86,7 @@ ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().ad
 1. กำหนดเส้นทางเอาต์พุต: ระบุเส้นทางที่จะบันทึกการนำเสนอ
 2.  บันทึกการนำเสนอ: ใช้`save` วิธีการบันทึกไฟล์ในรูปแบบ PPTX
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### กำจัดวัตถุการนำเสนอ
@@ -95,14 +95,14 @@ pres.save(resultPath, SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 ## บทสรุป
- ยินดีด้วย! คุณสร้างการซูมสรุปใน PowerPoint สำเร็จโดยใช้ Aspose.Slides สำหรับ Java คุณลักษณะนี้ปรับปรุงการนำเสนอของคุณโดยทำให้มีการโต้ตอบและมีส่วนร่วมมากขึ้น เมื่อทำตามคำแนะนำนี้ คุณจะมีทักษะในการใช้ฟีเจอร์นี้ในโครงการของคุณเอง อย่าลืมสำรวจ[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/) สำหรับคุณสมบัติขั้นสูงและตัวเลือกการปรับแต่งเพิ่มเติม
+ ยินดีด้วย! คุณสร้างการซูมสรุปใน PowerPoint สำเร็จโดยใช้ Aspose.Slides สำหรับ Java คุณลักษณะนี้ปรับปรุงการนำเสนอของคุณโดยทำให้มีการโต้ตอบและมีส่วนร่วมมากขึ้น เมื่อทำตามคำแนะนำนี้ คุณจะมีทักษะในการใช้ฟีเจอร์นี้ในโครงการของคุณเอง อย่าลืมสำรวจ[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/)สำหรับคุณสมบัติขั้นสูงและตัวเลือกการปรับแต่งเพิ่มเติม
 ## คำถามที่พบบ่อย
 ### Aspose.Slides สำหรับ Java คืออะไร
 Aspose.Slides สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรมโดยใช้ Java
 ### ฉันสามารถใช้ Aspose.Slides สำหรับ Java เพื่อสร้างเนื้อหาประเภทอื่นๆ ใน PowerPoint ได้หรือไม่
 ใช่ Aspose.Slides สำหรับ Java รองรับคุณสมบัติที่หลากหลาย รวมถึงการสร้างสไลด์ การเพิ่มรูปร่าง แผนภูมิ ตาราง และอื่นๆ อีกมากมาย
 ### มีการทดลองใช้ฟรีสำหรับ Aspose.Slides สำหรับ Java หรือไม่
- ใช่ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java รุ่นทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java รุ่นทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/).
 ### ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับ Java ได้อย่างไร
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[กำหนดหน้าการซื้อ](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะหาตัวอย่างเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน

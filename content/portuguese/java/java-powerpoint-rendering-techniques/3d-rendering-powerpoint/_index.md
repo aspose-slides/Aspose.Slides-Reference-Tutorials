@@ -17,7 +17,7 @@ Antes de mergulharmos no tutorial, certifique-se de ter o seguinte:
 Para começar, importe os pacotes necessários para o seu projeto Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
@@ -49,8 +49,8 @@ shape.getThreeDFormat().getExtrusionColor().setColor(Color.BLUE);
 ## Etapa 4: salve a apresentação
 Após definir as configurações 3D, salve a apresentação:
 ```java
-String outPptxFile = RunExamples.getOutPath() + "sandbox_3d.pptx";
-String outPngFile = RunExamples.getOutPath() + "sample_3d.png";
+String outPptxFile = "Your Output Directory" + "sandbox_3d.pptx";
+String outPngFile = "Your Output Directory" + "sample_3d.png";
 try {
     ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(2, 2), "PNG", new File(outPngFile));
     pres.save(outPptxFile, SaveFormat.Pptx);
@@ -60,7 +60,7 @@ try {
 ```
 
 ## Conclusão
-Parabéns! Você aprendeu com sucesso como criar renderizações 3D impressionantes no PowerPoint usando Aspose.Slides para Java. Seguindo essas etapas simples, você pode elevar suas apresentações ao próximo nível e cativar seu público com efeitos visuais envolventes.
+Parabéns! Você aprendeu com sucesso como criar renderizações 3D impressionantes no PowerPoint usando Aspose.Slides para Java. Seguindo essas etapas simples, você pode elevar suas apresentações ao próximo nível e cativar o público com efeitos visuais envolventes.
 ## Perguntas frequentes
 ### Posso personalizar ainda mais a forma 3D?
 Sim, você pode explorar as várias propriedades e métodos fornecidos pelo Aspose.Slides para personalizar a forma 3D de acordo com suas necessidades.

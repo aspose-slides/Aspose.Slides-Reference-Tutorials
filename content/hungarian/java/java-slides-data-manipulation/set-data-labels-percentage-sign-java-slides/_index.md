@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 A százalékok megjelenítéséhez konfigurálnunk kell a diagram függőleges tengelyének számformátumát.
 
 ```java
-//Állítsa be a NumberFormatLinkedToSource értéket false értékre
+// Állítsa be a NumberFormatLinkedToSource értéket false értékre
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Adja hozzá a PercentsStackedColumn diagramot egy diához
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Állítsa be a NumberFormatLinkedToSource értéket false értékre
+// Állítsa be a NumberFormatLinkedToSource értéket false értékre
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Az útmutató követésével megtanulta, hogyan hozhat létre lenyűgöző preze
 
 ### Testreszabhatom az adatcímkék betűméretét?
 
- Igen, testreszabhatja az adatcímkék betűméretét a`setFontHeight` kódban bemutatott tulajdonság.
+Igen, testreszabhatja az adatcímkék betűméretét a`setFontHeight` kódban bemutatott tulajdonság.
 
 ### Hogyan tudok több sorozatot hozzáadni a diagramhoz?
 

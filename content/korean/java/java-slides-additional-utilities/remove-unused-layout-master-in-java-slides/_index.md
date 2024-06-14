@@ -12,7 +12,7 @@ url: /ko/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 
 Java Slides로 작업하는 경우 프레젠테이션에 사용되지 않은 레이아웃 마스터가 포함되어 있는 상황이 발생할 수 있습니다. 이러한 사용되지 않는 요소는 프레젠테이션을 부풀려 효율성을 떨어뜨릴 수 있습니다. 이 기사에서는 Aspose.Slides for Java를 사용하여 사용되지 않는 레이아웃 마스터를 제거하는 방법을 안내합니다. 이 작업을 원활하게 수행할 수 있도록 단계별 지침과 코드 예제를 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 사용하지 않는 레이아웃 마스터를 제거하는 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -84,7 +84,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ## Java 슬라이드에서 사용되지 않는 레이아웃 마스터를 제거하기 위한 전체 소스 코드
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());
@@ -114,7 +114,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 
 ### 프레젠테이션을 최적화하기 위해 프로그래밍 방식으로 레이아웃 마스터를 제거할 수 있나요?
 
-예, 이 기사에 설명된 대로 Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 레이아웃 마스터를 제거할 수 있습니다. 프레젠테이션을 최적화하고 파일 크기를 줄이는 데 유용한 기술입니다.
+예, 이 기사에 설명된 대로 Java용 Aspose.Slides를 사용하여 프로그래밍 방식으로 레이아웃 마스터를 제거할 수 있습니다. 프레젠테이션을 최적화하고 파일 크기를 줄이는 데 유용한 기술입니다.
 
 ### 사용하지 않는 레이아웃 마스터를 제거하면 내 슬라이드 형식에 영향을 미치나요?
 

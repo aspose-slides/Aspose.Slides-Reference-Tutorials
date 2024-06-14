@@ -136,12 +136,12 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
     chart.ChartData.SetRange(range);
 }
 ```
-Ezek a lépések átfogó útmutatót mutatnak be az Aspose.Slides for .NET használatával prezentációkban történő körlevél-egyesítés végrehajtásához. Most pedig válaszoljunk néhány gyakran ismételt kérdésre.
+Ezek a lépések egy átfogó útmutatót mutatnak be az Aspose.Slides for .NET használatával prezentációkban történő körlevél-egyesítéshez. Most pedig válaszoljunk néhány gyakran ismételt kérdésre.
 ## Gyakran Ismételt Kérdések
 ### 1. Az Aspose.Slides for .NET kompatibilis a különböző adatforrásokkal?
 Igen, az Aspose.Slides for .NET különféle adatforrásokat támogat, beleértve az XML-t, az RDBMS-t és egyebeket.
-### 2. Testreszabhatom a felsoroláspontok megjelenését a generált prezentációban?
- Biztosan! Teljes ellenőrzése alatt áll a felsoroláspontok megjelenése felett, amint azt a`FillStaffList` módszer.
+### 2. Testreszabhatom a felsorolásjelek megjelenését a generált prezentációban?
+ Biztosan! Teljes ellenőrzése alatt áll a felsorolásjelek megjelenése felett, amint azt a`FillStaffList` módszer.
 ### 3. Milyen típusú diagramokat hozhatok létre az Aspose.Slides for .NET használatával?
 Az Aspose.Slides for .NET diagramok széles skáláját támogatja, beleértve a példánkban bemutatott vonaldiagramokat, oszlopdiagramokat, kördiagramokat és egyebeket.
 ### 4. Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.Slides for .NET-hez?

@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpo
 Для начала вам необходимо импортировать необходимые пакеты в ваш Java-проект. Этот импорт обеспечит доступ к функциям Aspose.Slides, необходимым для этого руководства.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Мы хотим сделать наши слайды визуально отличными, добавив цвета фона.
 ### Установка фона для второго слайда
 ```java
-    //Создайте фон для второго слайда
+    // Создайте фон для второго слайда
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

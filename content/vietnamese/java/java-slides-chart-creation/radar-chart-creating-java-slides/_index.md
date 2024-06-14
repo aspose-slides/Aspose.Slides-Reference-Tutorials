@@ -21,7 +21,7 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạ
 Hãy bắt đầu bằng cách thiết lập một bản trình bày PowerPoint mới và thêm một trang trình bày vào đó.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Mã nguồn hoàn chỉnh để tạo biểu đồ radar trong Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Thêm loạt phim mới
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Hiện đang điền dữ liệu chuỗi
+	// Hiện đang điền dữ liệu chuỗi
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Đặt màu chuỗi
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Hiện đang điền dữ liệu chuỗi khác
+	//Hiện đang điền dữ liệu chuỗi khác
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ Tham khảo "Bước 5" để tùy chỉnh nhãn và định dạng trục, bao 
 
 ### Làm cách nào để lưu biểu đồ sang định dạng tệp khác?
 
- Bạn có thể thay đổi định dạng đầu ra bằng cách sửa đổi phần mở rộng của tệp trong`outPath` biến và sử dụng thích hợp`SaveFormat` . Ví dụ: để lưu dưới dạng PDF, hãy sử dụng`SaveFormat.Pdf`.
+Bạn có thể thay đổi định dạng đầu ra bằng cách sửa đổi phần mở rộng của tệp trong`outPath` biến và sử dụng thích hợp`SaveFormat` . Ví dụ: để lưu dưới dạng PDF, hãy sử dụng`SaveFormat.Pdf`.

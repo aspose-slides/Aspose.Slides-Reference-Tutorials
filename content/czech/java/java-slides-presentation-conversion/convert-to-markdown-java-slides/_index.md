@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Cesta ke zdrojové prezentaci
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Cesta a název složky pro ukládání dat markdown
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Vytvořit možnosti vytváření Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Nastavte parametr pro vykreslení všech položek (položky, které jsou seskupeny, se vykreslí společně).

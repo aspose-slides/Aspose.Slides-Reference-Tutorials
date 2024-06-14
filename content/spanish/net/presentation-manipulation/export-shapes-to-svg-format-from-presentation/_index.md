@@ -12,7 +12,7 @@ En el mundo digital actual, las presentaciones desempeñan un papel crucial a la
 
 ## 1. Introducción
 
-Las presentaciones suelen contener elementos visuales importantes como cuadros, diagramas e ilustraciones. Exportar estos elementos al formato SVG puede resultar valioso para aplicaciones basadas en web, impresión o edición adicional en software de gráficos vectoriales. Aspose.Slides para .NET es una poderosa biblioteca que le permite automatizar tareas como esta.
+Las presentaciones suelen contener elementos visuales importantes como cuadros, diagramas e ilustraciones. Exportar estos elementos al formato SVG puede resultar valioso para aplicaciones basadas en web, impresión o edición posterior en software de gráficos vectoriales. Aspose.Slides para .NET es una poderosa biblioteca que le permite automatizar tareas como esta.
 
 ## 2. Requisitos previos
 
@@ -24,7 +24,7 @@ Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
 ## 3. Configurando tu entorno
 
-Para comenzar, cree un nuevo proyecto de C# en su IDE favorito. Asegúrese de haber hecho referencia a la biblioteca Aspose.Slides para .NET en su proyecto.
+Para comenzar, cree un nuevo proyecto C# en su IDE favorito. Asegúrese de haber hecho referencia a la biblioteca Aspose.Slides para .NET en su proyecto.
 
 ## 4. Cargando la presentación
 

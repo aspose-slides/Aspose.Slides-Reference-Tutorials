@@ -19,7 +19,7 @@ Voordat we in de code duiken, bespreken we eerst de vereisten. Je hebt het volge
 Om aan de slag te gaan, moet u de benodigde pakketten uit de Aspose.Slides-bibliotheek importeren. Hier ziet u hoe u het kunt doen:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Met deze coderegel wordt de presentatie opgeslagen als een PPTX-bestand in de door u opgegeven map.
 ## Stap 7: Bronnen opruimen
- Het is een goede gewoonte om de`Presentation`bezwaar maken tegen het vrijmaken van middelen.
+ Het is een goede gewoonte om de`Presentation` bezwaar maken tegen het vrijmaken van middelen.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Ja, u kunt Aspose.Slides voor Java gebruiken met elke Java-compatibele IDE, zoal
 ### Hoe kan ik een gratis proefversie van Aspose.Slides voor Java krijgen?
  U kunt een gratis proefversie van Aspose.Slides voor Java downloaden van[hier](https://releases.aspose.com/).
 ###  Is het nodig om de`Presentation` object?
- Ja, het weggooien van de`Presentation`object helpt bronnen vrij te maken en geheugenlekken te voorkomen.
+ Ja, het weggooien van de`Presentation` object helpt bronnen vrij te maken en geheugenlekken te voorkomen.
 ### Waar kan ik de documentatie voor Aspose.Slides voor Java vinden?
  De documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).

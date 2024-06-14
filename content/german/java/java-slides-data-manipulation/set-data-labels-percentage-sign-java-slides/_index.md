@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Um Prozentsätze anzuzeigen, müssen wir das Zahlenformat für die vertikale Achse des Diagramms konfigurieren.
 
 ```java
-//Setzen Sie NumberFormatLinkedToSource auf „false“.
+// Setzen Sie NumberFormatLinkedToSource auf „false“.
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Hinzufügen eines PercentsStackedColumn-Diagramms auf einer Folie
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Setzen Sie NumberFormatLinkedToSource auf „false“.
+// Setzen Sie NumberFormatLinkedToSource auf „false“.
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ In dieser Anleitung haben Sie gelernt, wie Sie ansprechende Präsentationen mit 
 
 ### Kann ich die Schriftgröße der Datenbeschriftungen anpassen?
 
- Ja, Sie können die Schriftgröße von Datenbeschriftungen anpassen, indem Sie die`setFontHeight` Eigenschaft, wie im Code gezeigt.
+Ja, Sie können die Schriftgröße von Datenbeschriftungen anpassen, indem Sie die`setFontHeight` Eigenschaft, wie im Code gezeigt.
 
 ### Wie kann ich dem Diagramm weitere Reihen hinzufügen?
 

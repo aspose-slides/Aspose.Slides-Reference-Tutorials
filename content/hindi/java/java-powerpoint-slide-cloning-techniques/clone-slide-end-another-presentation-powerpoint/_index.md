@@ -21,7 +21,7 @@ url: /hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 अब, आइए एक प्रस्तुति से स्लाइड को क्लोन करने और उसे दूसरे में जोड़ने की प्रक्रिया को सरल, सुगम चरणों में विभाजित करें।
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
  शुरू करने के लिए, हमें उस स्रोत प्रस्तुति को लोड करना होगा जिससे हम स्लाइड क्लोन करना चाहते हैं। यह कार्य का उपयोग करके किया जाता है`Presentation` Aspose.Slides द्वारा प्रदान की गई क्लास.
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // स्रोत प्रस्तुति फ़ाइल को लोड करने के लिए प्रस्तुतिकरण क्लास को तत्कालित करें
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

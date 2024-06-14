@@ -20,7 +20,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-
 Για να ξεκινήσετε να χρησιμοποιείτε το Aspose.Slides για Java, πρέπει να εισαγάγετε τα απαραίτητα πακέτα. Δείτε πώς μπορείτε να το κάνετε:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Βήμα 1: Ρύθμιση του έργου σας
@@ -56,13 +56,13 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## Βήμα 5: Ορίστε τον Τύπο πλήρωσης σε Στερεό
  Για να γεμίσετε το σχήμα με ένα συμπαγές χρώμα, ορίστε τον τύπο πλήρωσης σε`Solid`.
 ```java
-//Ορίστε τον τύπο πλήρωσης σε Στερεό
+// Ορίστε τον τύπο πλήρωσης σε Στερεό
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## Βήμα 6: Επιλέξτε και εφαρμόστε το χρώμα
 Επιλέξτε ένα χρώμα για το σχήμα. Εδώ, χρησιμοποιούμε κίτρινο, αλλά μπορείτε να επιλέξετε όποιο χρώμα θέλετε.
 ```java
-// Ρυθμίστε το χρώμα του ορθογωνίου
+//Ρυθμίστε το χρώμα του ορθογωνίου
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
 ## Βήμα 7: Αποθηκεύστε την Παρουσίαση
@@ -84,4 +84,4 @@ presentation.save(dataDir + "RectShpSolid_out.pptx", SaveFormat.Pptx);
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides για Java;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από το[Aspose website](https://releases.aspose.com/).
 ### Πού μπορώ να βρω περισσότερα έγγραφα και υποστήριξη;
- Λεπτομερής τεκμηρίωση είναι διαθέσιμη στο[Aspose website](https://reference.aspose.com/slides/java/) , και μπορείτε να αναζητήσετε υποστήριξη στο[Aspose φόρουμ](https://forum.aspose.com/c/slides/11).
+ Λεπτομερής τεκμηρίωση είναι διαθέσιμη στο[Aspose website](https://reference.aspose.com/slides/java/) και μπορείτε να αναζητήσετε υποστήριξη στο[Aspose φόρουμ](https://forum.aspose.com/c/slides/11).

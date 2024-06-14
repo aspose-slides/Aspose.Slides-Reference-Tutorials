@@ -65,7 +65,7 @@ presentation.Slides.AddClone(duplicatedSlide);
 После добавления дублированного слайда нам необходимо сохранить измененную презентацию. Вот как:
 
 ```csharp
-// Сохраните измененную презентацию
+//Сохраните измененную презентацию
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

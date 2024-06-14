@@ -22,7 +22,7 @@ PowerPoint プレゼンテーションで作業しているとき、あるプレ
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 それでは、プロセスを簡単なステップに分解してみましょう。

@@ -10,7 +10,7 @@ url: /cs/net/additional-chart-features/
 
 ## Úvod
 
-Vítejte v obsáhlém průvodci prozkoumáváním dalších funkcí grafu v Aspose.Slides pro .NET. V tomto tutoriálu se ponoříme do pokročilých možností Aspose.Slides API, které vám umožní vytvářet, upravovat a vylepšovat grafy v prezentacích PowerPoint. Ať už jste zkušený vývojář nebo nováček v Aspose.Slides, tento průvodce vás vybaví znalostmi a nástroji, které posunou vaši manipulaci s grafy na další úroveň.
+Vítejte v obsáhlém průvodci prozkoumáváním dalších funkcí grafu v Aspose.Slides pro .NET. V tomto tutoriálu se ponoříme do pokročilých možností Aspose.Slides API, které vám umožní vytvářet, přizpůsobovat a vylepšovat grafy v prezentacích PowerPoint. Ať už jste zkušený vývojář nebo nováček v Aspose.Slides, tento průvodce vás vybaví znalostmi a nástroji, které posunou vaši manipulaci s grafy na další úroveň.
 
 ## Uvolnění pokročilých funkcí grafu
 

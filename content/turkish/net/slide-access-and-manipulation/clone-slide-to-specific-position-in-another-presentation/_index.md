@@ -2,7 +2,7 @@
 title: Slaydı Farklı Sunumda Tam Konuma Kopyala
 linktitle: Slaydı Farklı Sunumda Tam Konuma Kopyala
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET'i kullanarak slaytları farklı sunumlarda belirli konumlara nasıl kopyalayacağınızı öğrenin. Bu adım adım kılavuz, kusursuz PowerPoint düzenlemesi için kaynak kodu ve talimatlar sağlar.
+description: Aspose.Slides for .NET'i kullanarak slaytları farklı sunumlardaki belirli konumlara nasıl kopyalayacağınızı öğrenin. Bu adım adım kılavuz, kusursuz PowerPoint düzenlemesi için kaynak kodu ve talimatlar sağlar.
 type: docs
 weight: 18
 url: /tr/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Slaydı kopyalayıp yerleştirdikten sonra değiştirilen hedef sunumu kaydetmemiz gerekiyor.
 
 ```csharp
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

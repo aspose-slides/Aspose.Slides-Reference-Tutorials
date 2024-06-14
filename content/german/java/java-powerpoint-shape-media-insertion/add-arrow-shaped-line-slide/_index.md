@@ -12,14 +12,14 @@ In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java einer Folie
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Auf Ihrem System ist Java Development Kit (JDK) installiert.
-- Aspose.Slides für Java-Bibliothek heruntergeladen und in Ihrem Java-Projekt eingerichtet. Sie können es herunterladen von[Hier](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides für Java-Bibliothek heruntergeladen und in Ihrem Java-Projekt eingerichtet. Sie können es herunterladen von[Hier](https://releases.aspose.com/slides/java/).
 - Grundkenntnisse der Programmiersprache Java.
 
 ## Pakete importieren
 Importieren Sie zunächst die erforderlichen Pakete in Ihre Java-Klasse:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java einer 
 ### Kann ich die Farbe der Pfeillinie anpassen?
  Ja, Sie können jede beliebige Farbe angeben mit dem`setColor` Methode mit`SolidFillColor`.
 ### Wie kann ich die Position und Größe der Pfeillinie ändern?
-Passen Sie die Parameter an, die an den`addAutoShape` Methode zum Ändern der Position und Abmessungen.
+ Passen Sie die Parameter an, die an den`addAutoShape` Methode zum Ändern der Position und Abmessungen.
 ### Ist Aspose.Slides mit allen Versionen von PowerPoint kompatibel?
 Aspose.Slides unterstützt verschiedene PowerPoint-Formate und stellt so die Kompatibilität zwischen verschiedenen Versionen sicher.
 ### Kann ich der Pfeillinie Text hinzufügen?

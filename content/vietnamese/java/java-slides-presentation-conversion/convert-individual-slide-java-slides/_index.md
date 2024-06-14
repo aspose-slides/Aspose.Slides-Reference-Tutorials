@@ -169,4 +169,4 @@ Bạn đã chuyển đổi thành công các slide riêng lẻ từ bản trình
 
 ### Làm cách nào để xử lý định dạng bổ sung cho hình dạng và văn bản trong trang chiếu?
 
-Bạn có thể mở rộng`CustomFormattingController` lớp để xử lý định dạng hình dạng cụ thể bằng cách triển khai`writeShapeStart` Và`writeShapeEnd` các phương thức và áp dụng logic định dạng tùy chỉnh bên trong chúng.
+ Bạn có thể mở rộng`CustomFormattingController` lớp để xử lý định dạng hình dạng cụ thể bằng cách triển khai`writeShapeStart` Và`writeShapeEnd` các phương thức và áp dụng logic định dạng tùy chỉnh bên trong chúng.

@@ -65,7 +65,7 @@ shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkClick.Tooltip 
 shape1.TextFrame.Paragraphs[0].Portions[0].PortionFormat.FontHeight = 32;
 ```
 
-Ebben a lépésben a hiperhivatkozás URL-jét a „https://www.aspose.com/” értékre állítjuk, és eszközleírást biztosítunk további információkért. A fentiek szerint formázhatja a hiperhivatkozás megjelenését is.
+Ebben a lépésben a hiperhivatkozás URL-címét a „https://www.aspose.com/” értékre állítjuk, és eszközleírást biztosítunk további információkért. A fentiek szerint formázhatja a hiperhivatkozás megjelenését is.
 
 ## 4. lépés: Mentse a bemutatót
 
@@ -81,13 +81,13 @@ Sikeresen hozzáadott egy hiperhivatkozást egy diához az Aspose.Slides for .NE
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan adhatunk hiperhivatkozásokat a diákhoz a PowerPoint-prezentációkban az Aspose.Slides for .NET használatával. Ha követi ezeket a lépéseket, interaktívabbá és vonzóbbá teheti prezentációit, értékes hivatkozásokat biztosítva további forrásokhoz vagy információkhoz.
+Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet hiperhivatkozásokat hozzáadni a PowerPoint-prezentációk diákjaihoz az Aspose.Slides for .NET használatával. Ha követi ezeket a lépéseket, interaktívabbá és vonzóbbá teheti prezentációit, értékes hivatkozásokat biztosítva további forrásokhoz vagy információkhoz.
 
  Részletes információkért és dokumentációért látogassa meg a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
 
 ## GYIK
 
-### 1. Hozzáadhatok hivatkozásokat más alakzatokhoz a szövegkereteken kívül?
+### 1. Hozzáadhatok hiperhivatkozásokat más alakzatokhoz a szövegkereteken kívül?
 
 Igen, az Aspose.Slides for .NET segítségével hiperhivatkozásokat adhat hozzá különféle alakzatokhoz, például téglalapokhoz, képekhez és egyebekhez.
 

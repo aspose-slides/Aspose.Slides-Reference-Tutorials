@@ -11,7 +11,7 @@ url: /ko/net/presentation-conversion/convert-presentation-to-html5-format/
 
 이 가이드에서는 Aspose.Slides for .NET 라이브러리를 사용하여 PowerPoint 프레젠테이션(PPT/PPTX)을 HTML5 형식으로 변환하는 과정을 안내합니다. Aspose.Slides는 다양한 형식의 PowerPoint 프레젠테이션을 조작하고 변환할 수 있는 강력한 라이브러리입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

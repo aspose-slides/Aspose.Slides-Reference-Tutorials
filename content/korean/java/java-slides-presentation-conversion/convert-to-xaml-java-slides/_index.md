@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-to-xaml-java-slides/
 
 이 포괄적인 가이드에서는 Aspose.Slides for Java API를 사용하여 프레젠테이션을 XAML 형식으로 변환하는 방법을 살펴보겠습니다. XAML(Extensible Application Markup Language)은 사용자 인터페이스를 만드는 데 널리 사용되는 마크업 언어입니다. 프레젠테이션을 XAML로 변환하는 것은 PowerPoint 콘텐츠를 다양한 응용 프로그램, 특히 WPF(Windows Presentation Foundation)와 같은 기술로 구축된 응용 프로그램에 통합하는 데 중요한 단계일 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 변환 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -96,7 +96,7 @@ try {
 
 ```java
 	// 소스 프레젠테이션 경로
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// 변환 옵션 생성
@@ -109,7 +109,7 @@ try {
 		pres.save(xamlOptions);
 		// XAML 파일을 출력 디렉터리에 저장
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

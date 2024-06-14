@@ -19,7 +19,7 @@ Než se ponoříme do podrobného průvodce, je třeba splnit několik předpokl
 Nejprve musíte naimportovat potřebné balíčky z Aspose.Slides. To vám umožní přístup ke všem funkcím potřebným pro vytváření a manipulaci s prezentacemi PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Pojďme si rozdělit proces přidávání segmentů do geometrických tvarů do podrobných kroků, abychom zajistili jasnost a snadné porozumění.
 ## Krok 1: Vytvořte novou prezentaci
@@ -73,7 +73,7 @@ Aspose.Slides for Java je výkonné rozhraní API pro vytváření, úpravy a ma
 ### Mohu používat Aspose.Slides pro Javu s jinými programovacími jazyky?
 Ne, Aspose.Slides for Java je speciálně navržen pro použití s Java. Aspose však nabízí podobná rozhraní API pro jiné jazyky, jako je .NET a Python.
 ### Je Aspose.Slides for Java zdarma?
- Aspose.Slides for Java je placená knihovna, ale můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) vyzkoušet jeho vlastnosti.
+ Aspose.Slides for Java je placená knihovna, ale můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) otestovat jeho vlastnosti.
 ### Jaké typy tvarů mohu přidat do prezentace pomocí Aspose.Slides?
 Můžete přidat různé tvary včetně obdélníků, elips, čar a vlastních geometrických tvarů.
 ### Jak mohu získat podporu pro Aspose.Slides pro Java?

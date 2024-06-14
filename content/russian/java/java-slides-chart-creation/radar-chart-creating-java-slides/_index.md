@@ -21,7 +21,7 @@ url: /ru/java/chart-creation/radar-chart-creating-java-slides/
 Начнем с настройки новой презентации PowerPoint и добавления в нее слайда.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Полный исходный код для создания радиолокационной диаграммы в слайдах Java
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Добавляем новую серию
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Теперь заполняем данные серии
+	// Теперь заполняем данные серии
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Установить цвет серии
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Теперь заполняем данные другой серии
+	//Теперь заполняем данные другой серии
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -252,7 +252,7 @@ ichart.getChartTitle().addTextFrameForOverriding("Radar Chart");
 
 ### Могу ли я добавить дополнительные ряды данных на радиолокационную диаграмму?
 
-Да, вы можете добавить дополнительные серии данных, выполнив действия, описанные в «Шагах 3» и «Шагах 4» для каждой дополнительной серии, которую вы хотите включить.
+Да, вы можете добавить дополнительные серии данных, выполнив шаги «Шаг 3» и «Шаг 4» для каждой дополнительной серии, которую вы хотите включить.
 
 ### Как настроить цвета диаграммы?
 
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### Как сохранить диаграмму в другом формате файла?
 
- Вы можете изменить формат вывода, изменив расширение файла в`outPath` переменную и используя соответствующий`SaveFormat` . Например, чтобы сохранить в формате PDF, используйте`SaveFormat.Pdf`.
+Вы можете изменить формат вывода, изменив расширение файла в`outPath` переменную и используя соответствующий`SaveFormat` . Например, чтобы сохранить в формате PDF, используйте`SaveFormat.Pdf`.

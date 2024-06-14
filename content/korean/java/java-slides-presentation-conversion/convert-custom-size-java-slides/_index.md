@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-custom-size-java-slides/
 
 이 기사에서는 Aspose.Slides for Java API를 사용하여 PowerPoint 프레젠테이션을 사용자 정의 크기의 TIFF 이미지로 변환하는 방법을 살펴보겠습니다. Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint 파일을 작업할 수 있게 해주는 강력한 라이브러리입니다. 우리는 단계별로 진행하여 이 작업을 수행하는 데 필요한 Java 코드를 제공할 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

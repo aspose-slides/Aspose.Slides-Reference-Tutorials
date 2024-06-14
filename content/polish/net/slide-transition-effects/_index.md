@@ -36,4 +36,4 @@ Dowiedz się, jak dodać wspaniałe efekty przejścia do slajdów prezentacji za
 ### [Ustaw typ zmiany przejścia na slajdzie](./set-transition-morph-type/)
 zarabiaj, jak ustawić typ zmiany przejścia na slajdach za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z przykładami kodu. Ulepsz swoje prezentacje już teraz! 
 ### [Proste przejścia slajdów](./simple-slide-transitions/)
-Dowiedz się, jak ulepszyć prezentacje programu PowerPoint za pomocą prostych przejść slajdów przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym. Zaangażuj odbiorców urzekającymi efektami wizualnymi!
+Dowiedz się, jak ulepszyć swoje prezentacje PowerPoint za pomocą prostych przejść slajdów przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym. Zaangażuj odbiorców urzekającymi efektami wizualnymi!

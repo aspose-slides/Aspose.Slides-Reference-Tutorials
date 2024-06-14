@@ -10,7 +10,7 @@ url: /ko/net/slide-access-and-manipulation/change-slide-position/
 
 프레젠테이션 슬라이드를 재구성하고 .NET용 Aspose.Slides를 사용하여 위치를 조정하는 방법이 궁금하십니까? 이 단계별 가이드는 각 단계를 명확하게 이해할 수 있도록 프로세스를 안내합니다. 튜토리얼을 시작하기 전에 시작하는 데 필요한 전제 조건과 네임스페이스 가져오기를 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 이 튜토리얼을 성공적으로 따르려면 다음 전제 조건이 충족되어야 합니다.
 
@@ -38,7 +38,7 @@ using Aspose.Slides;
 
 ### 1단계: 문서 디렉터리 정의
 
-먼저 프레젠테이션 파일이 있는 디렉터리를 지정합니다.
+먼저 프리젠테이션 파일이 있는 디렉토리를 지정하십시오.
 
 ```csharp
 string dataDir = "Your Document Directory";

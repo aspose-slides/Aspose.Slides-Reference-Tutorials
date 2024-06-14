@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## الخطوة 2: إضافة شريحة وإنشاء المخطط المبعثر
 
- بعد ذلك، أضف شريحة وقم بإنشاء المخطط المبعثر عليها. سوف نستخدم`ScatterWithSmoothLines` نوع المخطط في هذا المثال.
+ بعد ذلك، أضف شريحة وقم بإنشاء المخطط المبعثر عليها. سوف نستخدم`ScatterWithSmoothLines`نوع المخطط في هذا المثال.
 
 ```java
 // احصل على الشريحة الأولى
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// إنشاء المخطط الافتراضي
+//إنشاء المخطط الافتراضي
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // الحصول على فهرس ورقة عمل بيانات المخطط الافتراضي
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني تغيير نوع الرسم البياني؟
 
- لتغيير نوع المخطط، استخدم`setType`الطريقة على سلسلة المخططات وتوفير نوع المخطط المطلوب. على سبيل المثال،`series.setType(ChartType.Line)` سيغير السلسلة إلى مخطط خطي.
+ لتغيير نوع المخطط، استخدم`setType` الطريقة على سلسلة المخططات وتوفير نوع المخطط المطلوب. على سبيل المثال،`series.setType(ChartType.Line)` سيغير السلسلة إلى مخطط خطي.
 
 ### كيف يمكنني تخصيص حجم العلامة ونمطها؟
 

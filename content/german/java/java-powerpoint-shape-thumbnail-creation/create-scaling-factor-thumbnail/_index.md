@@ -20,7 +20,7 @@ Importieren Sie zunächst die erforderlichen Pakete, die für die Arbeit mit Asp
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -54,7 +54,7 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Scaling Factor Thumbnail_out.p
  Stellen Sie sicher, dass Sie ersetzen`"Scaling Factor Thumbnail_out.png"` durch den gewünschten Ausgabedateinamen.
 
 ## Abschluss
-Abschließend haben Sie mit Aspose.Slides für Java erfolgreich eine Miniaturansicht mit Skalierungsfaktor erstellt. Indem Sie die angegebenen Schritte befolgen, können Sie diese Funktionalität problemlos in Ihre Java-Anwendungen integrieren.
+Abschließend haben Sie mit Aspose.Slides für Java erfolgreich ein Miniaturbild mit Skalierungsfaktor erstellt. Indem Sie die angegebenen Schritte befolgen, können Sie diese Funktionalität problemlos in Ihre Java-Anwendungen integrieren.
 ## Häufig gestellte Fragen
 ### Kann ich Aspose.Slides für Java mit jeder Java-IDE verwenden?
 Ja, Aspose.Slides für Java kann mit jeder Java Integrated Development Environment (IDE) wie Eclipse, IntelliJ IDEA oder NetBeans verwendet werden.

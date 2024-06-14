@@ -83,4 +83,4 @@ V: Igen, az Aspose.Slides támogatja a legújabb PowerPoint fájlformátumokat, 
 ### K: Testreszabhatom a beágyazott OLE objektumkeret megjelenését?
 V: Természetesen beállíthatja az OLE objektumkeret méretét, helyzetét és egyéb tulajdonságait saját preferenciái szerint.
 ### K: Hol kérhetek segítséget, ha kihívásokba ütközöm a megvalósítás során?
-V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért és útmutatásért.
+ V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért és útmutatásért.

@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumb
 ---
 ## 소개
 Aspose.Slides for Java는 Java 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 경계가 있는 모양의 썸네일 이미지를 만드는 방법을 알아봅니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1. 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
 2.  Java 라이브러리용 Aspose.Slides가 다운로드되어 프로젝트에 추가되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ Java 코드에 필요한 패키지를 가져왔는지 확인하세요.
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

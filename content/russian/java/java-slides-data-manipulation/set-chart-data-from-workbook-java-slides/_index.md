@@ -23,7 +23,7 @@ Aspose.Slides for Java — это мощная библиотека, котор�
 ## Шаг 1. Создайте презентацию
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ chart.getChartData().getChartDataWorkbook().clear(0);
 ## Шаг 4. Загрузите книгу Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Мы загружаем книгу Excel, содержащую данные, которые мы хотим использовать для диаграммы. Заменять`"book1.xlsx"` с путем к вашему файлу Excel.
@@ -92,14 +92,14 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Полный исходный код для набора данных диаграммы из книги в слайдах Java
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

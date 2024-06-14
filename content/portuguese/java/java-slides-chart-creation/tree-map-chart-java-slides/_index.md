@@ -104,7 +104,7 @@ try
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C3", "Leaf3"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem2");
 	chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
-	//ramo 2
+	//filial 2
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -143,7 +143,7 @@ Neste tutorial, você aprendeu como criar um gráfico de mapa de árvore em uma 
 
 ### Como posso personalizar a aparência do gráfico Tree Map?
 
- Você pode personalizar a aparência do gráfico Tree Map modificando várias propriedades do`chart` e`series` objetos, como cores, rótulos e layouts.
+ Você pode personalizar a aparência do gráfico Tree Map modificando várias propriedades do`chart` e`series`objetos, como cores, rótulos e layouts.
 
 ### Posso criar vários gráficos de mapa de árvore em uma única apresentação?
 

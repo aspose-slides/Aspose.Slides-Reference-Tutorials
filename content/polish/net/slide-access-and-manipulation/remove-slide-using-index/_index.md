@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Po usunięciu żądanych slajdów musisz zapisać zmodyfikowaną prezentację:
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

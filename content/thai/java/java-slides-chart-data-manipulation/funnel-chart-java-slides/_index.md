@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // เพิ่มแผนภูมิกรวยลงในสไลด์แรกที่พิกัด (50, 50) พร้อมขนาด (500, 400)
+    //เพิ่มแผนภูมิกรวยลงในสไลด์แรกที่พิกัด (50, 50) พร้อมขนาด (500, 400)
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 
 ### ฉันสามารถส่งออกแผนภูมิเป็นรูปแบบต่างๆ เช่น PDF หรือรูปภาพได้หรือไม่
 
- ใช่ Aspose.Slides สำหรับ Java ช่วยให้คุณสามารถส่งออกงานนำเสนอด้วยแผนภูมิกรวยเป็นรูปแบบต่างๆ รวมถึง PDF รูปแบบรูปภาพ และอื่นๆ คุณสามารถใช้`SaveFormat` ตัวเลือกเพื่อระบุรูปแบบผลลัพธ์ที่ต้องการเมื่อบันทึกงานนำเสนอ
+ใช่ Aspose.Slides สำหรับ Java ช่วยให้คุณสามารถส่งออกงานนำเสนอด้วยแผนภูมิกรวยเป็นรูปแบบต่างๆ รวมถึง PDF รูปแบบรูปภาพ และอื่นๆ คุณสามารถใช้`SaveFormat` ตัวเลือกเพื่อระบุรูปแบบผลลัพธ์ที่ต้องการเมื่อบันทึกงานนำเสนอ

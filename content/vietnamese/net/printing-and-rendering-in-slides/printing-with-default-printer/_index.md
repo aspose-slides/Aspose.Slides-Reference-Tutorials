@@ -50,4 +50,4 @@ Hoàn toàn có thể, Aspose.Slides được cập nhật thường xuyên đ�
 ### Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
 ### Làm cách nào tôi có thể tìm kiếm sự trợ giúp hoặc kết nối với cộng đồng Aspose.Slides?
- Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11)để đặt câu hỏi, chia sẻ thông tin chi tiết và kết nối với các nhà phát triển đồng nghiệp.
+ Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để đặt câu hỏi, chia sẻ thông tin chi tiết và kết nối với các nhà phát triển đồng nghiệp.

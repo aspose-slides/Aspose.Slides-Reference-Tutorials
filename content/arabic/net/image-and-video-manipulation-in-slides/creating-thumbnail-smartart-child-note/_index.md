@@ -22,7 +22,7 @@ using System.Drawing.Imaging;
 using Aspose.Slides.SmartArt;
 using Aspose.Slides;
 ```
-## الخطوة 1: إنشاء فئة العرض التقديمي
+## الخطوة 1: إنشاء مثيل لفئة العرض التقديمي
  ابدأ بإنشاء مثيل لـ`Presentation` class، يمثل ملف PPTX الذي ستعمل معه.
 ```csharp
 string dataDir = "Your Documents Directory";
@@ -59,6 +59,6 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
 ### س: هل الترخيص المؤقت متاح لأغراض الاختبار؟
  ج: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/) للاختبار والتقييم.
 ### س: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.Slides؟
-ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للتواصل مع المجتمع وطرح الأسئلة وإيجاد الحلول.
+ ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للتواصل مع المجتمع وطرح الأسئلة وإيجاد الحلول.
 ### س: هل يمكنني شراء Aspose.Slides لـ .NET؟
  ج: بالتأكيد! استكشاف خيارات الشراء[هنا](https://purchase.aspose.com/buy) لفتح الإمكانات الكاملة لـ Aspose.Slides في مشاريعك.

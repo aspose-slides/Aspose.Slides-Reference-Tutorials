@@ -45,7 +45,7 @@ Você pode definir várias propriedades do documento, como título, autor, palav
 // Defina o título da apresentação
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Defina o autor da apresentação
+//Defina o autor da apresentação
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Defina palavras-chave para a apresentação
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // O caminho para o diretório de documentos.
 String dataDir = "Your Document Directory";
-//Instancie um objeto Presentation que representa um arquivo PPT
+// Instancie um objeto Presentation que representa um arquivo PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ Neste tutorial, você aprendeu como salvar propriedades de documentos em uma apr
 // Defina o título da apresentação
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Defina o autor da apresentação
+//Defina o autor da apresentação
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Defina palavras-chave para a apresentação

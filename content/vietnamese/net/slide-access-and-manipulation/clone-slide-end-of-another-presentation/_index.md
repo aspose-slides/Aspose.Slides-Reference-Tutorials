@@ -80,7 +80,7 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các đi�
 
 ## Phần kết luận
 
-Trong hướng dẫn này, bạn đã học cách sao chép một trang chiếu từ một bản trình bày và thêm nó vào cuối bản trình bày khác bằng Aspose.Slides cho .NET. Thư viện mạnh mẽ này giúp đơn giản hóa quá trình làm việc với các bản trình bày PowerPoint theo chương trình.
+Trong hướng dẫn này, bạn đã học cách sao chép một slide từ một bản trình bày và thêm nó vào cuối một bản trình bày khác bằng Aspose.Slides cho .NET. Thư viện mạnh mẽ này giúp đơn giản hóa quá trình làm việc với các bản trình bày PowerPoint theo chương trình.
 
 ## Câu hỏi thường gặp
 

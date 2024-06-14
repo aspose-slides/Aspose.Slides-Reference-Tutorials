@@ -14,7 +14,7 @@ Bu eğitimde Aspose.Slides kullanarak Java slaytlarında özelliklerin nasıl y�
 
 ## Önkoşullar
 
- Başlamadan önce projenizde Java için Aspose.Slides kütüphanesinin kurulu ve kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+Başlamadan önce projenizde Java için Aspose.Slides kütüphanesinin kurulu ve kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
 
 ## Slayta Grafik Ekleme
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // İkinci grafik serisini alın
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Şimdi seri verileri dolduruluyor
+// Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ Bu eğitimde Aspose.Slides'ı kullanarak Java slaytlarında özellikleri yönetm
 
 ### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü değiştirerek değiştirebilirsiniz.`ChartType`Grafiği eklerken parametre. Mevcut grafik türleri için Aspose.Slides belgelerine bakın.
+ Grafik türünü değiştirerek değiştirebilirsiniz.`ChartType` Grafiği eklerken parametre. Mevcut grafik türleri için Aspose.Slides belgelerine bakın.
 
 ### Grafik renklerini özelleştirebilir miyim?
 

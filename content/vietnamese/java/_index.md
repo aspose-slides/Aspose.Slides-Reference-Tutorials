@@ -80,3 +80,27 @@ Tìm hiểu cách tạo hiệu ứng động và thao tác các hình dạng tro
 Khám phá các hướng dẫn hình học và định dạng hình dạng Java PowerPoint. Tìm hiểu cách điền hình, tìm hình và tạo hình học tùy chỉnh bằng Aspose.Slides cho Java.
 ### [Kỹ thuật nhân bản slide Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
 Nhân bản slide chính trong PowerPoint bằng Aspose.Slides cho Java. Tìm hiểu cách sao chép các trang trình bày trong cùng một bản trình bày hoặc trên nhiều bản trình bày một cách liền mạch.
+### [Thao tác với hộp văn bản Java PowerPoint](./java-powerpoint-text-box-manipulation/)
+Khám phá các hướng dẫn toàn diện về thao tác với hộp văn bản Java PowerPoint với Aspose.Slides. Nâng cao bản trình bày của bạn từng bước với hướng dẫn của chúng tôi.
+### [Quản lý phông chữ Java PowerPoint](./java-powerpoint-font-management/)
+Khám phá hướng dẫn quản lý phông chữ Java PowerPoint bằng Aspose.Slides cho Java. Tìm hiểu các kỹ thuật nhúng, nén và tùy chỉnh để cải thiện bản trình bày.
+### [Hoạt ảnh và hiệu ứng Java PowerPoint](./java-powerpoint-animation-effects/)
+Làm chủ các hoạt ảnh và hiệu ứng Java PowerPoint bằng các hướng dẫn toàn diện của chúng tôi. Tìm hiểu cách thêm hoạt ảnh, bóng bên ngoài và bên trong bằng Aspose.Slides cho Java.
+### [Căn chỉnh và định dạng văn bản PowerPoint bằng Java](./java-powerpoint-text-alignment-formatting/)
+Khám phá hướng dẫn định dạng và căn chỉnh văn bản Java PowerPoint. Tìm hiểu cách căn chỉnh, định dạng, xuất và đánh dấu văn bản bằng Aspose.Slides cho Java. 
+### [Quy tắc đánh dấu và dự phòng văn bản PowerPoint của Java](./java-powerpoint-text-highlighting-fallback-rules/)
+Nắm vững các quy tắc đánh dấu văn bản và dự phòng phông chữ trong Java PowerPoint với Aspose.Slides. Hãy làm theo hướng dẫn của chúng tôi để nâng cao và tự động hóa bản trình bày của bạn một cách liền mạch.
+### [Quản lý đoạn văn và văn bản Java PowerPoint](./java-powerpoint-text-paragraph-management/)
+Quản lý đoạn văn và văn bản PowerPoint Java thành thạo với Aspose.Slides. Tìm hiểu cách nhập văn bản HTML, quản lý khoảng cách dòng, tạo dấu đầu dòng và căn chỉnh các đoạn văn.
+### [Quản lý phông chữ Java PowerPoint và thay thế văn bản](./java-powerpoint-font-management-text-replacement/)
+Làm chủ việc quản lý phông chữ Java PowerPoint và thay thế văn bản bằng Aspose.Slides. Tìm hiểu cách tải phông chữ tùy chỉnh, quản lý phông chữ được nhúng và thay thế văn bản một cách liền mạch.
+### [Thuộc tính phông chữ và đoạn văn nâng cao của Java PowerPoint](./java-powerpoint-advanced-paragraph-font-properties/)
+Nắm vững các thuộc tính phông chữ và đoạn văn nâng cao trong Java PowerPoint bằng Aspose.Slides. Tìm hiểu cách tùy chỉnh phông chữ, thêm dấu đầu dòng hình ảnh và sử dụng phông chữ dự phòng.
+### [Tùy chỉnh phông chữ và văn bản Java PowerPoint](./java-powerpoint-text-font-customization/)
+Khám phá các hướng dẫn về tùy chỉnh phông chữ và văn bản Java PowerPoint với Aspose.Slides. Tìm hiểu cách xoay, thay thế phông chữ và hơn thế nữa để cải thiện bản trình bày của bạn.
+### [Thao tác với bảng Java PowerPoint](./java-powerpoint-table-manipulation/)
+Làm chủ thao tác bảng Java PowerPoint với Aspose.Slides. Tìm hiểu cách thêm hình ảnh, tách ô, tạo bảng và hơn thế nữa thông qua hướng dẫn chi tiết từng bước của chúng tôi.
+### [Cập nhật và định dạng bảng Java PowerPoint](./java-powerpoint-table-formatting-updates/)
+Nâng cao bản trình bày Java PowerPoint với định dạng và cập nhật bảng bằng Aspose.Slides. Tìm hiểu cách thêm đường viền, định dạng văn bản trong cột, hàng và cập nhật bảng.
+### [Thao tác SmartArt của Java PowerPoint](./java-powerpoint-smartart-manipulation/)
+Tìm hiểu cách thao tác Java PowerPoint SmartArt hiệu quả với hướng dẫn GroupDocs.Slides for Java. Truy cập các nút con, thêm nút, thay đổi bố cục và hơn thế nữa!

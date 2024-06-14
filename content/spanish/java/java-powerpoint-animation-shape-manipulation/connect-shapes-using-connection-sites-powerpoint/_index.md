@@ -19,7 +19,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 Para comenzar, importe los paquetes necesarios a su proyecto Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Paso 1: acceder a la colección de formas
 Accede a la colección de formas para la diapositiva seleccionada:
@@ -47,7 +47,7 @@ Une las formas al conector:
 connector.setStartShapeConnectedTo(ellipse);
 connector.setEndShapeConnectedTo(rectangle);
 ```
-## Paso 5: Configurar el índice del sitio de conexión
+## Paso 5: Configuración del índice del sitio de conexión
 Establezca el índice del sitio de conexión deseado para las formas:
 ```java
 long wantedIndex = 6;

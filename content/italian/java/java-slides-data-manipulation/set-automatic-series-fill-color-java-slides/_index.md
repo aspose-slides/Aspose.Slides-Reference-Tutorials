@@ -43,7 +43,7 @@ Presentation presentation = new Presentation();
 
 ## Passaggio 4: aggiunta di un grafico alla presentazione
 
-Successivamente, aggiungiamo un istogramma in cluster alla presentazione. Utilizzeremo il seguente codice per ottenere ciò:
+Successivamente, aggiungiamo un istogramma in cluster alla presentazione. Utilizzeremo il seguente codice per ottenere questo risultato:
 
 ```java
 // Creazione di un istogramma a colonne raggruppate
@@ -121,7 +121,7 @@ Sì, Aspose.Slides per Java può essere utilizzato sia per progetti personali ch
 
 ### Ci sono altre funzionalità fornite da Aspose.Slides per Java?
 
-Sì, Aspose.Slides per Java offre un'ampia gamma di funzionalità, tra cui la manipolazione delle diapositive, la formattazione del testo e il supporto dell'animazione.
+Sì, Aspose.Slides per Java offre un'ampia gamma di funzionalità, tra cui la manipolazione delle diapositive, la formattazione del testo e il supporto delle animazioni.
 
 ### Dove posso trovare ulteriori risorse e documentazione?
 

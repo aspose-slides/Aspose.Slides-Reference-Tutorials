@@ -8,10 +8,10 @@ weight: 11
 url: /hu/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
 ## Bevezetés
-prezentációtervezés dinamikus világában a formák, például az ellipszisek beépítése egy kis kreativitást és professzionalizmust adhat. Az Aspose.Slides for .NET hatékony megoldást kínál a prezentációs fájlok programozott kezeléséhez. Ez az oktatóanyag végigvezeti Önt az Aspose.Slides for .NET segítségével egyszerű ellipszis-alakzat létrehozásának folyamatán.
+A prezentációtervezés dinamikus világában a formák, például az ellipszisek beépítése egy kis kreativitást és professzionalizmust adhat. Az Aspose.Slides for .NET hatékony megoldást kínál a prezentációs fájlok programozott kezeléséhez. Ez az oktatóanyag végigvezeti Önt az Aspose.Slides for .NET segítségével egyszerű ellipszis-alakzat létrehozásának folyamatán.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
--  Aspose.Slides for .NET: Győződjön meg arról, hogy telepítette a .NET Aspose.Slides könyvtárát. Letöltheti a[kiadások oldala](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Győződjön meg arról, hogy telepítette a .NET Aspose.Slides könyvtárát. Letöltheti a[kiadások oldala](https://releases.aspose.com/slides/net/).
 - Fejlesztői környezet: Állítson be egy .NET fejlesztői környezetet a gépén.
 ## Névterek importálása
 A .NET-projektben kezdje a szükséges névterek importálásával:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Ez a kód inicializál egy új prezentációt, és kiválasztja az első diát a további manipulációhoz.
 ## 2. lépés: Adjon hozzá ellipszis alakzatot
-Most adjunk hozzá egy ellipszis alakzatot a diához a segítségével`AddAutoShape` módszer:
+ Most adjunk hozzá egy ellipszis alakzatot a diához a segítségével`AddAutoShape` módszer:
 ```csharp
 // Ellipszis típusú automatikus alakzat hozzáadása
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

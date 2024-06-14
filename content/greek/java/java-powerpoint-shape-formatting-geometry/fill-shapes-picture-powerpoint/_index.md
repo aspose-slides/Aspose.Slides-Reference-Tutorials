@@ -18,7 +18,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powe
 Στο έργο σας Java, εισαγάγετε τα απαραίτητα πακέτα:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

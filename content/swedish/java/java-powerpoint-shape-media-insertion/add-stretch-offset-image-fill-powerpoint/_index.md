@@ -17,7 +17,7 @@ Innan du börjar, se till att du har följande:
 För att börja, importera de nödvändiga paketen i ditt Java-projekt:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -41,7 +41,7 @@ BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
 IPPImage imgx = pres.getImages().addImage(img);
 ```
 ## Steg 4: Lägg till bildram
-Skapa en bildram med måtten som motsvarar bilden:
+Skapa en bildram med mått som motsvarar bilden:
 ```java
 sld.getShapes().addPictureFrame(ShapeType.Rectangle, 50, 150, imgx.getWidth(), imgx.getHeight(), imgx);
 ```
@@ -52,10 +52,10 @@ pres.save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Slutsats
-Grattis! Du har framgångsrikt lärt dig hur man lägger till en sträckförskjutning för bildfyllning i PowerPoint med Aspose.Slides för Java. Den här funktionen öppnar upp en värld av möjligheter för att förbättra dina presentationer med anpassade bilder.
+Grattis! Du har framgångsrikt lärt dig hur du lägger till en sträckförskjutning för bildfyllning i PowerPoint med Aspose.Slides för Java. Den här funktionen öppnar upp en värld av möjligheter för att förbättra dina presentationer med anpassade bilder.
 ## FAQ's
 ### Kan jag använda den här metoden för att lägga till bilder till specifika bilder i en presentation?
-Ja, du kan ange diabildsindex när du hämtar diaobjektet för att rikta in sig på en specifik bild.
+Ja, du kan ange diabildsindex när du hämtar diaobjektet för att rikta in dig på en specifik bild.
 ### Stöder Aspose.Slides för Java andra bildformat än JPEG?
 Ja, Aspose.Slides för Java stöder olika bildformat, inklusive PNG, GIF och BMP, bland andra.
 ### Finns det en gräns för storleken på bilderna jag kan lägga till med den här metoden?

@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
 ```csharp
     ISlide sld = pres.Slides[0];
 ```
-## Steg 4: Lägg till en Autoshape av typlinje
+## Steg 4: Lägg till en autoform av typlinje
 ```csharp
     IAutoShape shp = sld.Shapes.AddAutoShape(ShapeType.Line, 50, 150, 300, 0);
 ```
@@ -71,7 +71,7 @@ Sammanfattningsvis ger Aspose.Slides för .NET utvecklare möjlighet att ta sina
 ### F: Finns det en gratis testversion tillgänglig för Aspose.Slides?
  S: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 ### F: Var kan jag hitta support för Aspose.Slides?
-A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
+ A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
 ### F: Hur får jag en tillfällig licens för Aspose.Slides?
  S: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag köpa Aspose.Slides för .NET?

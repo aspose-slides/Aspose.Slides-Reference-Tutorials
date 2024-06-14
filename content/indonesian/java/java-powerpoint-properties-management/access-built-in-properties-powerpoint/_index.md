@@ -19,7 +19,7 @@ Pertama, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda. Tambahk
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Siapkan Objek Presentasi
 Mulailah dengan menyiapkan objek Presentasi untuk mewakili presentasi PowerPoint yang ingin Anda kerjakan. Inilah cara Anda melakukannya:

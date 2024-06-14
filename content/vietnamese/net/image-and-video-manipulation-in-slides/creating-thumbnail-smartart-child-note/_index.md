@@ -59,6 +59,6 @@ Trả lời: Có, bạn có thể điều chỉnh kích thước và định d�
 ### Hỏi: Giấy phép tạm thời có sẵn cho mục đích thử nghiệm không?
  Đáp: Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
 ### Hỏi: Tôi có thể tìm kiếm trợ giúp hoặc kết nối với cộng đồng Aspose.Slides ở đâu?
-Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để tương tác với cộng đồng, đặt câu hỏi và tìm giải pháp.
+ Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để tương tác với cộng đồng, đặt câu hỏi và tìm giải pháp.
 ### Câu hỏi: Tôi có thể mua Aspose.Slides cho .NET không?
  Đ: Chắc chắn rồi! Khám phá các lựa chọn mua hàng[đây](https://purchase.aspose.com/buy) để khai thác toàn bộ tiềm năng của Aspose.Slides trong các dự án của bạn.

@@ -84,7 +84,7 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan opsi plot kedua ke b
 
 ### Bagaimana cara mengubah ukuran pai kedua dalam diagram Pie of Pie?
 
- Untuk mengubah ukuran pai kedua dalam diagram Pie of Pie, gunakan`setSecondPieSize` metode seperti yang ditunjukkan pada contoh kode di atas. Sesuaikan nilainya untuk menentukan ukuran dalam persentase.
+Untuk mengubah ukuran pai kedua dalam diagram Pie of Pie, gunakan`setSecondPieSize` metode seperti yang ditunjukkan pada contoh kode di atas. Sesuaikan nilainya untuk menentukan ukuran dalam persentase.
 
 ###  Apa artinya?`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ Dalam tutorial ini, kita telah mempelajari cara menambahkan opsi plot kedua ke b
 
 ### Bagaimana cara mengatur posisi pemisahan pada diagram Pie of Pie?
 
-Anda dapat mengatur posisi pemisahan dalam diagram Pie of Pie menggunakan`setPieSplitPosition` metode. Sesuaikan nilainya untuk menentukan posisi yang diinginkan.
+ Anda dapat mengatur posisi pemisahan dalam diagram Pie of Pie menggunakan`setPieSplitPosition` metode. Sesuaikan nilainya untuk menentukan posisi yang diinginkan.

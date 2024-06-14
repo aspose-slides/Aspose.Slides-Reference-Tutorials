@@ -21,7 +21,7 @@ url: /zh-hant/java/chart-creation/radar-chart-creating-java-slides/
 讓我們先設定一個新的 PowerPoint 簡報並在其中新增一張投影片。
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## 在 Java 投影片中建立雷達圖的完整原始碼
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {

@@ -8,7 +8,7 @@ weight: 23
 url: /tr/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
 ## giriiş
- Görsel olarak çekici PowerPoint sunumları oluşturmak genellikle standart şekilleri ve metni kullanmaktan daha fazlasını gerektirir. Sununuzun görsel etkisini artıracak şekilde doğrudan slaytlarınıza özelleştirilmiş şekiller ve metin yolları ekleyebileceğinizi hayal edin. Aspose.Slides for Java'yı kullanarak bunu kolaylıkla başarabilirsiniz. Bu eğitim, kullanım sürecinde size rehberlik edecektir.`ShapeUtil`PowerPoint sunumlarında geometri şekilleri oluşturmak için sınıf. İster tecrübeli bir geliştirici olun ister yeni başlıyor olun, bu adım adım kılavuz Aspose.Slides for Java'nın gücünden yararlanarak çarpıcı, özel şekilli içerikler oluşturmanıza yardımcı olacaktır.
+Görsel olarak çekici PowerPoint sunumları oluşturmak genellikle standart şekilleri ve metni kullanmaktan daha fazlasını gerektirir. Sununuzun görsel etkisini artıracak şekilde doğrudan slaytlarınıza özelleştirilmiş şekiller ve metin yolları ekleyebileceğinizi hayal edin. Aspose.Slides for Java'yı kullanarak bunu kolaylıkla başarabilirsiniz. Bu eğitim, kullanım sürecinde size rehberlik edecektir.`ShapeUtil` PowerPoint sunumlarında geometri şekilleri oluşturmak için sınıf. İster tecrübeli bir geliştirici olun ister yeni başlıyor olun, bu adım adım kılavuz Aspose.Slides for Java'nın gücünden yararlanarak çarpıcı, özel şekilli içerikler oluşturmanıza yardımcı olacaktır.
 ## Önkoşullar
 Eğiticiye dalmadan önce ihtiyacınız olacak birkaç şey var:
 1. Java Geliştirme Kiti (JDK): Makinenizde JDK 8 veya üstünün kurulu olduğundan emin olun.
@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce ihtiyacınız olacak birkaç şey var:
 Başlamak için Aspose.Slides ve Java AWT (Soyut Pencere Araç Seti) ile çalışmak için gerekli paketleri içe aktarmanız gerekir:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;
@@ -70,7 +70,7 @@ Aspose.Slides for Java, Java'da PowerPoint dosyalarıyla çalışmak için güç
 ### Aspose.Slides for Java'yı nasıl yüklerim?
  En son sürümü adresinden indirebilirsiniz.[indirme sayfası](https://releases.aspose.com/slides/java/) ve JAR dosyalarını projenize ekleyin.
 ### Aspose.Slides'ı ücretsiz kullanabilir miyim?
- Aspose.Slides, şu adresten indirebileceğiniz ücretsiz bir deneme sürümü sunuyor:[Burada](https://releases.aspose.com/). Tam işlevsellik için bir lisans satın almanız gerekir.
+Aspose.Slides, şu adresten indirebileceğiniz ücretsiz bir deneme sürümü sunuyor:[Burada](https://releases.aspose.com/)Tam işlevsellik için bir lisans satın almanız gerekir.
 ### ShapeUtil sınıfının kullanımı nedir?
 `ShapeUtil` Aspose.Slides'taki sınıf, şekillerle çalışmak için grafiksel yolları geometri yollarına dönüştürmek gibi yardımcı yöntemler sağlar.
 ### Aspose.Slides için nereden destek alabilirim?

@@ -8,10 +8,10 @@ weight: 11
 url: /pl/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
 ## Wstęp
-dynamicznym świecie projektowania prezentacji włączenie kształtów takich jak elipsy może dodać odrobinę kreatywności i profesjonalizmu. Aspose.Slides dla .NET oferuje potężne rozwiązanie do programowego manipulowania plikami prezentacji. Ten samouczek poprowadzi Cię przez proces tworzenia prostego kształtu elipsy na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
+W dynamicznym świecie projektowania prezentacji włączenie kształtów takich jak elipsy może dodać odrobinę kreatywności i profesjonalizmu. Aspose.Slides dla .NET oferuje potężne rozwiązanie do programowego manipulowania plikami prezentacji. Ten samouczek poprowadzi Cię przez proces tworzenia prostego kształtu elipsy na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
--  Aspose.Slides dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Slides dla .NET. Można go pobrać z[strona z wydaniami](https://releases.aspose.com/slides/net/).
+- Aspose.Slides dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Slides dla .NET. Można go pobrać z[strona z wydaniami](https://releases.aspose.com/slides/net/).
 - Środowisko programistyczne: Skonfiguruj środowisko programistyczne .NET na swoim komputerze.
 ## Importuj przestrzenie nazw
 W projekcie .NET zacznij od zaimportowania niezbędnych przestrzeni nazw:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Ten kod inicjuje nową prezentację i wybiera pierwszy slajd do dalszej manipulacji.
 ## Krok 2: Dodaj kształt elipsy
-Teraz dodajmy kształt elipsy do slajdu za pomocą`AddAutoShape` metoda:
+ Teraz dodajmy kształt elipsy do slajdu za pomocą`AddAutoShape` metoda:
 ```csharp
 // Dodaj autokształt typu elipsy
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

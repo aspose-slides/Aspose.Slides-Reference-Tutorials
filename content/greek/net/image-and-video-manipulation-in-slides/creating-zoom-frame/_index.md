@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Βήμα 3: Προσαρμογή φόντου διαφανειών
 Βελτιώστε την οπτική ελκυστικότητα των διαφανειών σας προσαρμόζοντας το φόντο τους. Σε αυτό το παράδειγμα, ορίσαμε ένα συμπαγές κυανό φόντο για τη δεύτερη διαφάνεια.
 ```csharp
-//Δημιουργήστε ένα φόντο για τη δεύτερη διαφάνεια
+// Δημιουργήστε ένα φόντο για τη δεύτερη διαφάνεια
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

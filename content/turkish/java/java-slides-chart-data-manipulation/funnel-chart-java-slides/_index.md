@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // İlk slayta (50, 50) koordinatlarında ve (500, 400) boyutlarında bir Huni Grafiği ekleyin.
+    //İlk slayta (50, 50) koordinatlarında ve (500, 400) boyutlarında bir Huni Grafiği ekleyin.
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Grafiği 2. Adımda slayta eklerken verilen koordinatları ve boyutları değiş
 
 ### Grafiği PDF veya resim gibi farklı formatlara aktarabilir miyim?
 
- Evet, Aspose.Slides for Java, Huni Tablosu ile sunumunuzu PDF, görüntü formatları ve daha fazlası dahil olmak üzere çeşitli formatlara aktarmanıza olanak tanır. Şunu kullanabilirsiniz:`SaveFormat` Sunumu kaydederken istenen çıktı formatını belirtme seçenekleri.
+Evet, Aspose.Slides for Java, Huni Tablosu ile sunumunuzu PDF, görüntü formatları ve daha fazlası dahil olmak üzere çeşitli formatlara aktarmanıza olanak tanır. Şunu kullanabilirsiniz:`SaveFormat` Sunumu kaydederken istenen çıktı formatını belirtme seçenekleri.

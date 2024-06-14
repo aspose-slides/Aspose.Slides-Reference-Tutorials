@@ -197,7 +197,7 @@ Ce code configure l'apparence des lignes principales du quadrillage sur l'axe de
 Semblable à l’axe des valeurs, vous pouvez personnaliser les lignes de grille mineures pour l’axe des catégories.
 
 ```csharp
-//Définition du format des lignes de quadrillage mineures pour l'axe des catégories
+// Définition du format des lignes de quadrillage mineures pour l'axe des catégories
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Définition de la couleur de la zone de tracé
+//Définition de la couleur de la zone de tracé
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

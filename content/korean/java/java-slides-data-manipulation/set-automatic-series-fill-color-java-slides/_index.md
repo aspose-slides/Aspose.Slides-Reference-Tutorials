@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 자동 시리즈 채우기 색상을 설정하는 방법을 살펴보겠습니다. Aspose.Slides for Java는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 생성, 조작 및 관리할 수 있는 강력한 라이브러리입니다. 이 가이드가 끝나면 쉽게 차트를 만들고 자동 계열 채우기 색상을 설정할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

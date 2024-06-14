@@ -10,7 +10,7 @@ url: /ko/net/presentation-manipulation/custom-pdf-conversion-options-for-present
 
 문서 관리 및 조작 분야에서 Aspose.Slides for .NET은 프레젠테이션 작업을 위한 강력한 도구로 돋보입니다. 높은 수준의 사용자 정의 기능을 통해 프레젠테이션을 PDF를 포함한 다양한 형식으로 변환할 수 있습니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 사용자 정의 PDF 변환을 수행하는 방법을 살펴보겠습니다. 이제 코딩 장비를 챙겨서 시작해 보세요!
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

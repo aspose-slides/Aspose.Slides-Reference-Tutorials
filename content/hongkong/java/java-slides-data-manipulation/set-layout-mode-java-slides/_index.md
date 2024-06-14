@@ -36,7 +36,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 60
 
 ## 第三步：設定圖表佈局
 
-現在，讓我們設定圖表的佈局。我們將使用`setX`, `setY`, `setWidth`, `setHeight`方法。此外，我們將設置`LayoutTargetType`來確定佈局模式。
+現在，讓我們設定圖表的佈局。我們將使用以下命令調整幻燈片中圖表的位置和大小`setX`, `setY`, `setWidth`, `setHeight`方法。此外，我們將設置`LayoutTargetType`來確定佈局模式。
 
 ```java
 chart.getPlotArea().setX(0.2f);

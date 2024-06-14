@@ -126,4 +126,4 @@ Um die Zugänglichkeit in PDF/UA-Dokumenten sicherzustellen, können Sie die Fun
 
 ### Ist PDF/UA-Konformität für alle Dokumente erforderlich?
 
-PDF/UA-Konformität ist besonders wichtig für Dokumente, die für Benutzer mit Behinderungen zugänglich sein sollen. Die Notwendigkeit der PDF/UA-Konformität hängt jedoch von den spezifischen Anforderungen Ihrer Zielgruppe ab.
+Die PDF/UA-Konformität ist besonders wichtig für Dokumente, die für Benutzer mit Behinderungen zugänglich sein sollen. Die Notwendigkeit der PDF/UA-Konformität hängt jedoch von den spezifischen Anforderungen Ihrer Zielgruppe ab.

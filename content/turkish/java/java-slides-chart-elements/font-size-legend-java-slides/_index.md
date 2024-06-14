@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Bu kodda bir grafik oluşturup lejant metninin yazı tipi boyutunu 20 punto olarak ayarlıyoruz. Ayarlayabilirsiniz`setFontHeight`Yazı tipi boyutunu değiştirmek için değer.
+ Bu kodda bir grafik oluşturup lejant metninin yazı tipi boyutunu 20 punto olarak ayarlıyoruz. Ayarlayabilirsiniz`setFontHeight` Yazı tipi boyutunu değiştirmek için değer.
 
 ### Bir grafikteki göstergenin diğer özelliklerini özelleştirebilir miyim?
 
@@ -134,4 +134,4 @@ Burada otomatik eksen ölçeklendirmeyi devre dışı bırakıp dikey eksen içi
 
 ### Aspose.Slides için daha fazla bilgi ve belgeyi nerede bulabilirim?
 
-Aspose dokümantasyon web sitesinde Aspose.Slides for Java için kapsamlı dokümantasyon ve API referansları bulabilirsiniz. Ziyaret etmek[Burada](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımına ilişkin detaylı bilgi için.
+ Aspose dokümantasyon web sitesinde Aspose.Slides for Java için kapsamlı dokümantasyon ve API referansları bulabilirsiniz. Ziyaret etmek[Burada](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımına ilişkin detaylı bilgi için.

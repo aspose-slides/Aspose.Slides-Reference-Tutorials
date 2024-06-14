@@ -45,7 +45,7 @@ Presentation presentation = new Presentation();
 // قم بتعيين عنوان العرض التقديمي
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// قم بتعيين مؤلف العرض التقديمي
+//قم بتعيين مؤلف العرض التقديمي
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // تعيين الكلمات الرئيسية للعرض التقديمي
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-//إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف PPT
+// إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ finally
 // قم بتعيين عنوان العرض التقديمي
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// قم بتعيين مؤلف العرض التقديمي
+//قم بتعيين مؤلف العرض التقديمي
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // تعيين الكلمات الرئيسية للعرض التقديمي

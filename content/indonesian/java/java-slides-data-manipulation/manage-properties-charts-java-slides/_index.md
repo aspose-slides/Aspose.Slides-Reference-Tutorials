@@ -14,7 +14,7 @@ Dalam tutorial ini, kita akan mempelajari cara mengelola properti dan membuat ba
 
 ## Prasyarat
 
- Sebelum kita mulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Slides untuk Java di proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+Sebelum kita mulai, pastikan Anda telah menginstal dan menyiapkan pustaka Aspose.Slides untuk Java di proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
 
 ## Menambahkan Bagan ke Slide
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Ambil seri grafik kedua
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Sekarang mengisi data seri
+// Sekarang mengisi data seri
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ Dalam tutorial ini, kita mempelajari dunia pengelolaan properti dan membuat baga
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Anda dapat mengubah tipe bagan dengan memodifikasi`ChartType`parameter saat menambahkan grafik. Lihat dokumentasi Aspose.Slides untuk tipe bagan yang tersedia.
+ Anda dapat mengubah tipe bagan dengan memodifikasi`ChartType` parameter saat menambahkan grafik. Lihat dokumentasi Aspose.Slides untuk tipe bagan yang tersedia.
 
 ### Bisakah saya menyesuaikan warna grafik?
 

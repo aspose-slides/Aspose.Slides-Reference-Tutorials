@@ -12,7 +12,7 @@ Apakah Anda siap terjun ke dunia konversi presentasi slide Java? Dengan kekuatan
 
 ## Memulai dengan Aspose.Slides untuk Java
 
-Sebelum kita mempelajari seluk-beluk konversi slide presentasi, mari berkenalan dengan Aspose.Slides untuk Java. API canggih ini adalah pintu gerbang Anda menuju manipulasi slide yang lancar dan efisien. Baik Anda menggunakan PowerPoint, Google Slides, atau format lainnya, Aspose.Slides untuk Java siap membantu Anda.
+Sebelum kita mempelajari seluk-beluk konversi slide presentasi, mari berkenalan dengan Aspose.Slides untuk Java. API canggih ini adalah pintu gerbang Anda menuju manipulasi slide yang mulus dan efisien. Baik Anda menggunakan PowerPoint, Google Slides, atau format lainnya, Aspose.Slides untuk Java siap membantu Anda.
 
 ### Proses Konversi
 
@@ -36,7 +36,7 @@ Kesimpulannya, menguasai seni konversi presentasi slide Java adalah keterampilan
 ### [Konversi ke TIFF dengan Catatan di Java Slides](./conversion-tiff-notes-java-slides/)
 Pelajari cara mengonversi Slide Java ke format TIFF dengan catatan tersemat menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dan kode sumber disertakan
 ### [Konversi Gambar Penyematan HTML di Slide Java](./convert-html-embedding-images-java-slides/)
-Konversi PowerPoint ke HTML dengan Gambar Tertanam. Panduan langkah demi langkah menggunakan Aspose.Slides untuk Java. Pelajari cara mengotomatiskan konversi presentasi di Java dengan mudah.
+Konversi PowerPoint ke HTML dengan Gambar Tersemat. Panduan langkah demi langkah menggunakan Aspose.Slides untuk Java. Pelajari cara mengotomatiskan konversi presentasi di Java dengan mudah.
 ### [Konversi Slide Individu di Slide Java](./convert-individual-slide-java-slides/)
 Pelajari cara mengonversi setiap slide PowerPoint ke HTML selangkah demi selangkah dengan contoh kode menggunakan Aspose.Slides untuk Java. 
 ### [Mengonversi Presentasi ke HTML dengan Sematkan Semua Font di Slide Java](./convert-presentation-html-embed-fonts-java-slides/)

@@ -23,7 +23,7 @@ Než se pustíme do implementace, ujistěte se, že máte následující předpo
 ## Krok 1: Vytvořte prezentaci
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -43,12 +43,12 @@ Dále přidáme graf na jeden ze snímků v prezentaci. V tomto příkladu přid
 chart.getChartData().getChartDataWorkbook().clear(0);
 ```
 
-Z grafu vymažeme všechna existující data, abychom je připravili na nová data z excelového sešitu.
+grafu vymažeme všechna existující data, abychom je připravili na nová data z excelového sešitu.
 
 ## Krok 4: Načtěte sešit aplikace Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Načteme sešit Excel, který obsahuje data, která chceme použít pro graf. Nahradit`"book1.xlsx"` s cestou k souboru Excel.
@@ -92,14 +92,14 @@ Nakonec prezentaci s aktualizovanými daty grafu uložíme do zadané výstupní
 ## Kompletní zdrojový kód pro nastavení dat grafu ze sešitu v Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}
@@ -119,7 +119,7 @@ try {
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak nastavit data grafu z excelového sešitu v Java Slides pomocí knihovny Aspose.Slides for Java. Podle podrobného průvodce a pomocí poskytnutých příkladů zdrojového kódu můžete snadno integrovat data dynamických grafů do svých prezentací PowerPoint.
+tomto tutoriálu jsme se naučili, jak nastavit data grafu z excelového sešitu v Java Slides pomocí knihovny Aspose.Slides for Java. Podle podrobného průvodce a pomocí poskytnutých příkladů zdrojového kódu můžete snadno integrovat data dynamických grafů do svých prezentací PowerPoint.
 
 ## FAQ
 

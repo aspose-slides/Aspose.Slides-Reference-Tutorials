@@ -14,7 +14,7 @@ W tym samouczku omówimy, jak zarządzać właściwościami i tworzyć wykresy n
 
 ## Warunki wstępne
 
- Zanim zaczniemy, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides dla Java w swoim projekcie. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+Zanim zaczniemy, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides dla Java w swoim projekcie. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Dodawanie wykresu do slajdu
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Weź drugą serię wykresów
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Teraz wypełniam dane serii
+// Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -175,13 +175,13 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym samouczku zagłębiliśmy się w świat zarządzania właściwościami i tworzenia wykresów na slajdach Java za pomocą Aspose.Slides. Aspose.Slides to solidny interfejs API Java, który umożliwia programistom efektywną pracę z prezentacjami programu PowerPoint. Omówiliśmy najważniejsze kroki i udostępniliśmy przykłady kodu źródłowego, które poprowadzą Cię przez cały proces.
+tym samouczku zagłębiliśmy się w świat zarządzania właściwościami i tworzenia wykresów na slajdach Java za pomocą Aspose.Slides. Aspose.Slides to solidny interfejs API Java, który umożliwia programistom efektywną pracę z prezentacjami programu PowerPoint. Omówiliśmy najważniejsze kroki i udostępniliśmy przykłady kodu źródłowego, które poprowadzą Cię przez cały proces.
 
 ## Często zadawane pytania
 
 ### Jak mogę zmienić typ wykresu?
 
- Typ wykresu można zmienić, modyfikując plik`ChartType`parametr podczas dodawania wykresu. Informacje o dostępnych typach wykresów można znaleźć w dokumentacji Aspose.Slides.
+ Typ wykresu można zmienić, modyfikując plik`ChartType` parametr podczas dodawania wykresu. Informacje o dostępnych typach wykresów można znaleźć w dokumentacji Aspose.Slides.
 
 ### Czy mogę dostosować kolory wykresów?
 

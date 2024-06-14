@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 Po wprowadzeniu zmian w prezentacji warto je zapisać. Oto jak możesz zapisać zmodyfikowaną prezentację:
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

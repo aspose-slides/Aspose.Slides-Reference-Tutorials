@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Twój kod modyfikacji tła slajdu zostanie umieszczony tutaj.
     // Zbadamy to w kolejnych krokach.
     
-    // Zapisz zmodyfikowaną prezentację
+    //Zapisz zmodyfikowaną prezentację
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,13 +90,13 @@ Na tym etapie dostosowujemy tło pierwszego slajdu. Można go modyfikować wedł
 ## Krok 6: Zapisz zmodyfikowaną prezentację
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 
 Po dokonaniu odpowiednich modyfikacji tła zapisz prezentację ze zmianami.
 
-Otóż to! Pomyślnie zmodyfikowałeś tło slajdu za pomocą Aspose.Slides dla .NET. Możesz teraz tworzyć atrakcyjne wizualnie prezentacje z niestandardowym tłem slajdów.
+Otóż to! Pomyślnie zmodyfikowałeś tło slajdu przy użyciu Aspose.Slides dla .NET. Możesz teraz tworzyć atrakcyjne wizualnie prezentacje z niestandardowym tłem slajdów.
 
 ## Wniosek
 

@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte následující:
 Do svého projektu Java naimportujte potřebné balíčky:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -36,7 +36,7 @@ if (!isExists)
 ```java
 Presentation pres = new Presentation();
 ```
- Vytvořte instanci`Presentation` třídy k vytvoření nové prezentace PowerPoint.
+ Vytvořte instanci`Presentation` třídy k vytvoření nové powerpointové prezentace.
 ## Krok 3: Přidejte snímek a tvar
 ```java
 ISlide sld = pres.getSlides().get_Item(0);

@@ -19,7 +19,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 Aspose.Slides'ın fonksiyonlarını kullanabilmek için öncelikle Java kodunuza gerekli paketleri içe aktarmanız gerekiyor. Java dosyanızın başına aşağıdaki içe aktarma ifadelerini ekleyin:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ Evet, slayt dizinini uygun şekilde ayarlayarak kodu herhangi bir slayttaki şek
 ### Aspose.Slides küçük resimlerin kaydedilmesi için diğer görüntü formatlarını destekliyor mu?
 Evet, Aspose.Slides PNG'nin yanı sıra küçük resimlerin JPEG, GIF ve BMP gibi çeşitli görüntü formatlarında kaydedilmesini de destekler.
 ### Aspose.Slides ticari kullanıma uygun mudur?
-Evet, Aspose.Slides işletmeler ve kuruluşlar için ticari lisanslar sunmaktadır. adresinden lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+ Evet, Aspose.Slides işletmeler ve kuruluşlar için ticari lisanslar sunmaktadır. adresinden lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
 ### Satın almadan önce Aspose.Slides'ı deneyebilir miyim?
  Kesinlikle! Aspose.Slides'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/) özelliklerini ve yeteneklerini değerlendirmek.
 ### Aspose.Slides için nereden destek bulabilirim?

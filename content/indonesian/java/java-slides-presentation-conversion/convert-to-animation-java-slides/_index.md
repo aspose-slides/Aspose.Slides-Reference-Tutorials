@@ -34,7 +34,7 @@ import java.io.IOException;
  Untuk memulai, muat presentasi PowerPoint yang ingin Anda ubah menjadi animasi. Mengganti`"SimpleAnimations.pptx"` dengan jalur ke file presentasi Anda:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 Saat presentasi diputar, setiap frame akan disimpan sebagai gambar PNG di direktori keluaran yang ditentukan. Anda dapat menyesuaikan jalur keluaran sesuai kebutuhan:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Kode Sumber Lengkap Untuk Konversi ke Animasi di Slide Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

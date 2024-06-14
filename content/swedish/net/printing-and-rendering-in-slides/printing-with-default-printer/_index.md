@@ -50,4 +50,4 @@ Absolut, Aspose.Slides uppdateras regelbundet för att säkerställa kompatibili
 ### Finns tillfälliga licenser tillgängliga för teständamål?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för testning och utvärdering.
 ### Hur kan jag söka hjälp eller få kontakt med Aspose.Slides-communityt?
- Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11)att ställa frågor, dela insikter och få kontakt med andra utvecklare.
+ Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att ställa frågor, dela insikter och få kontakt med andra utvecklare.

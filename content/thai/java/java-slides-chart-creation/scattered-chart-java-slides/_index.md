@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## ขั้นตอนที่ 2: เพิ่มสไลด์และสร้างแผนภูมิกระจาย
 
- จากนั้น เพิ่มสไลด์และสร้างแผนภูมิกระจายบนสไลด์ เราจะใช้`ScatterWithSmoothLines` ประเภทแผนภูมิในตัวอย่างนี้
+ จากนั้น เพิ่มสไลด์และสร้างแผนภูมิกระจายบนสไลด์ เราจะใช้`ScatterWithSmoothLines`ประเภทแผนภูมิในตัวอย่างนี้
 
 ```java
 // รับสไลด์แรก
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// การสร้างแผนภูมิเริ่มต้น
+//การสร้างแผนภูมิเริ่มต้น
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // รับดัชนีแผ่นงานข้อมูลแผนภูมิเริ่มต้น
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร?
 
- หากต้องการเปลี่ยนประเภทแผนภูมิ ให้ใช้`setType`วิธีการชุดแผนภูมิและระบุประเภทแผนภูมิที่ต้องการ ตัวอย่างเช่น,`series.setType(ChartType.Line)` จะเปลี่ยนชุดข้อมูลเป็นแผนภูมิเส้น
+ หากต้องการเปลี่ยนประเภทแผนภูมิ ให้ใช้`setType` วิธีการชุดแผนภูมิและระบุประเภทแผนภูมิที่ต้องการ ตัวอย่างเช่น,`series.setType(ChartType.Line)` จะเปลี่ยนชุดข้อมูลเป็นแผนภูมิเส้น
 
 ### ฉันจะปรับแต่งขนาดและรูปแบบของมาร์กเกอร์ได้อย่างไร
 

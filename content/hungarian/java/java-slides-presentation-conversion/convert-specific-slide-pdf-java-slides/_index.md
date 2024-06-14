@@ -16,13 +16,13 @@ A Java fejlesztés világában gyakori feladat a bemutató diákkal való munka.
 
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Aspose.Slides for Java Library: telepítenie kell az Aspose.Slides for Java könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides for Java Library: telepítenie kell az Aspose.Slides for Java könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
 
 2. Java fejlesztői környezet: Győződjön meg arról, hogy a rendszeren be van állítva Java fejlesztői környezet.
 
 ## 1. lépés: A projekt beállítása
 
-A kezdéshez hozzon létre egy új Java-projektet kedvenc IDE-jében. Ha elkészült a projekttel, adja hozzá az Aspose.Slides for Java könyvtárat a projekt függőségeihez.
+kezdéshez hozzon létre egy új Java-projektet kedvenc IDE-jében. Ha elkészült a projekttel, adja hozzá az Aspose.Slides for Java könyvtárat a projekt függőségeihez.
 
 ## 2. lépés: Írja meg a Java kódot
 
@@ -56,7 +56,7 @@ Ebben a kódban:
 
 - Végül elmentjük a kiválasztott diákat PDF fájlként (`RequiredSelectedSlides_out.pdf`).
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
 ## 3. lépés: A kód futtatása
 

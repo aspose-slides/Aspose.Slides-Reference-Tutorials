@@ -49,7 +49,7 @@ Ottieni la prima diapositiva della presentazione in cui desideri aggiungere il g
 ## Passaggio 4: aggiungi un grafico a torta
 
 ```java
-//Aggiungi un grafico a torta con dati predefiniti
+// Aggiungi un grafico a torta con dati predefiniti
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Imposta un titolo per il grafico a torta. Puoi personalizzare il titolo secondo 
 ## Passaggio 6: personalizzare i dati del grafico
 
 ```java
-// Imposta la prima serie per mostrare i valori
+//Imposta la prima serie per mostrare i valori
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Impostazione dell'indice della scheda grafica
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Aggiunta di nuove serie
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Ora popolano i dati delle serie
+// Ora popolano i dati delle serie
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -274,7 +274,7 @@ Hai creato con successo un grafico a torta in una presentazione di PowerPoint ut
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
-Assicurati di specificare il percorso e il formato del file corretti.
+Assicurati di specificare il percorso e il formato file corretti.
 
 ### Posso creare altri tipi di grafici utilizzando Aspose.Slides per Java?
 

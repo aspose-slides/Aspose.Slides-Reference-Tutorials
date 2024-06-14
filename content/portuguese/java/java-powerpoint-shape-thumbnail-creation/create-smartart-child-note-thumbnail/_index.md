@@ -12,7 +12,7 @@ Neste tutorial, exploraremos como criar miniaturas de notas infantis SmartArt em
 ## Pré-requisitos
 Antes de começarmos, certifique-se de ter o seguinte:
 1. Java Development Kit (JDK) instalado em seu sistema.
-2. Biblioteca Aspose.Slides para Java baixada e configurada em seu projeto. Você pode baixar a biblioteca em[aqui](https://releases.aspose.com/slides/java/).
+2.  Biblioteca Aspose.Slides para Java baixada e configurada em seu projeto. Você pode baixar a biblioteca em[aqui](https://releases.aspose.com/slides/java/).
 
 ## Importar pacotes
 Certifique-se de importar os pacotes necessários em sua classe Java:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

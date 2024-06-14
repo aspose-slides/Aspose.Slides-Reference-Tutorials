@@ -9,7 +9,7 @@ url: /ko/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
 ## 소개
 .NET 개발 영역에서 Aspose.Slides는 PowerPoint 프레젠테이션을 생성, 조작 및 렌더링하기 위한 강력한 도구로 돋보입니다. 다양한 기능 중에서 프레젠테이션을 기본 프린터로 직접 인쇄하는 기능은 개발자가 자주 찾는 편리한 기능입니다. 이 튜토리얼은 프로세스를 단계별로 안내하므로 Aspose.Slides를 비교적 처음 접하는 사람이라도 접근할 수 있습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET용 Aspose.Slides: .NET용 Aspose.Slides 라이브러리를 설치했는지 확인하세요. 그렇지 않은 경우 필요한 리소스를 찾을 수 있습니다.[여기](https://releases.aspose.com/slides/net/).
 2. 개발 환경: Visual Studio 또는 원하는 다른 IDE를 포함하여 기능적인 .NET 개발 환경을 갖추고 있습니다.
@@ -50,4 +50,4 @@ Aspose.Slides for .NET을 사용하여 기본 프린터로 프레젠테이션을
 ### 테스트 목적으로 임시 라이센스를 사용할 수 있습니까?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
 ### Aspose.Slides 커뮤니티에 어떻게 도움을 요청하거나 연결할 수 있나요?
- 방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11)질문하고, 통찰력을 공유하고, 동료 개발자와 연결하세요.
+ 방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 질문하고, 통찰력을 공유하고, 동료 개발자와 연결하세요.

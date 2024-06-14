@@ -48,9 +48,9 @@ Teraz skonfigurujesz opcje konwersji HTML. W tym przykładzie osadzimy obrazy w 
 
 ```java
 Html5Options options = new Html5Options();
-//Wymuś nie zapisywanie obrazów w dokumencie HTML5
+// Wymuś nie zapisywanie obrazów w dokumencie HTML5
 options.setEmbedImages(true); // Ustaw na true, aby osadzać obrazy
-// Ustaw ścieżkę dla obrazów zewnętrznych (w razie potrzeby)
+//Ustaw ścieżkę dla obrazów zewnętrznych (w razie potrzeby)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Ścieżka do prezentacji źródłowej
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Ścieżka do dokumentu HTML
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Wymuś nie zapisywanie obrazów w dokumencie HTML5
+	// Wymuś nie zapisywanie obrazów w dokumencie HTML5
 	options.setEmbedImages(false);
 	// Ustaw ścieżkę dla obrazów zewnętrznych
 	options.setOutputPath(outFilePath);
@@ -110,7 +110,7 @@ try {
 
 ## Wniosek
 
-tym obszernym przewodniku dowiedzieliśmy się, jak przekonwertować prezentację programu PowerPoint na dokument HTML podczas osadzania obrazów za pomocą Aspose.Slides for Java. Postępując zgodnie ze szczegółowymi instrukcjami, możesz bezproblemowo zintegrować tę funkcjonalność z aplikacjami Java i usprawnić procesy konwersji dokumentów.
+W tym obszernym przewodniku dowiedzieliśmy się, jak przekonwertować prezentację programu PowerPoint na dokument HTML podczas osadzania obrazów za pomocą Aspose.Slides for Java. Postępując zgodnie ze szczegółowymi instrukcjami, możesz bezproblemowo zintegrować tę funkcjonalność z aplikacjami Java i usprawnić procesy konwersji dokumentów.
 
 ## Często zadawane pytania
 

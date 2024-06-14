@@ -83,4 +83,4 @@ Trả lời: Có, Aspose.Slides hỗ trợ các định dạng tệp PowerPoint 
 ### Câu hỏi: Tôi có thể tùy chỉnh giao diện của Khung đối tượng OLE được nhúng không?
 Trả lời: Hoàn toàn có thể, bạn có thể điều chỉnh kích thước, vị trí và các thuộc tính khác của Khung đối tượng OLE theo sở thích của mình.
 ### Hỏi: Tôi có thể tìm kiếm sự hỗ trợ ở đâu nếu gặp khó khăn trong quá trình thực hiện?
-Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và hướng dẫn.
+ Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và hướng dẫn.

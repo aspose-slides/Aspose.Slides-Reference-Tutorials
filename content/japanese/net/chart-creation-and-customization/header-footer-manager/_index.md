@@ -47,7 +47,7 @@ string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
 {
     //ヘッダーとフッターを管理するためのコードをここに記述します。
-    //...
+    // ...
 }
 ```
 

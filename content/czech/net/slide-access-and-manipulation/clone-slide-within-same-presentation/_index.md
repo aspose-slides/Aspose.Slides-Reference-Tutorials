@@ -74,7 +74,7 @@ Po provedení nezbytných změn můžete prezentaci uložit:
 presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Spouštění kodexu
+## Spuštění kodexu
 
 1. Sestavte svůj projekt tak, abyste zajistili, že nebudou žádné chyby.
 2. Spusťte aplikaci.

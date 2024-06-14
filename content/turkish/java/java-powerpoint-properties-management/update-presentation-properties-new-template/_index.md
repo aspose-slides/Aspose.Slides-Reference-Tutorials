@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Adım 1: Ana Yöntemi Tanımlayın
 Sunum özelliklerini yeni bir şablonla güncelleme sürecini başlatacağınız bir ana yöntem oluşturun. Bu yöntem, Java uygulamanız için giriş noktası görevi görür.
@@ -54,7 +54,7 @@ private static void updateByTemplate(String path, IDocumentProperties template) 
 }
 ```
 ## 4. Adım: Sunumları Güncelleyin
- Çağır`updateByTemplate`Güncellemek istediğiniz her sunum için yöntemi seçin. Şablon özellikleriyle birlikte her sunum dosyasının yolunu belirtin.
+ Çağır`updateByTemplate`Güncellemek istediğiniz her sunum için yöntemi seçin. Şablon özellikleriyle birlikte her sunum dosyasının yolunu sağlayın.
 ```java
 updateByTemplate(dataDir + "doc1.pptx", template);
 updateByTemplate(dataDir + "doc2.odp", template);

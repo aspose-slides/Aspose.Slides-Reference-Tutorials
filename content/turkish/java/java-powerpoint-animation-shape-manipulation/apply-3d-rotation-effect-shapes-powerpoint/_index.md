@@ -19,7 +19,7 @@ Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
 Öncelikle Java projenize gerekli paketleri import edelim. Bu içe aktarmalar Aspose.Slides ile sunumları ve şekilleri yönetmenize yardımcı olacaktır.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Projenizi Kurun
 Koda dalmadan önce proje ortamınızı ayarlayın. Aspose.Slides for Java'yı projenizin bağımlılıklarına eklediğinizden emin olun.
@@ -72,7 +72,7 @@ pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
 Bu kod sununuzu belirtilen dosya adı ile istenilen formatta kaydeder.
 ## Çözüm
-Tebrikler! Aspose.Slides for Java'yı kullanarak PowerPoint sunumundaki şekillere 3D döndürme efektlerini başarıyla uyguladınız. Bu adımları takip ederek görsel açıdan çekici ve dinamik sunumlar oluşturabilirsiniz. Daha fazla özelleştirme ve daha gelişmiş özellikler için bkz.[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/).
+ Tebrikler! Aspose.Slides for Java'yı kullanarak PowerPoint sunumundaki şekillere 3D döndürme efektlerini başarıyla uyguladınız. Bu adımları takip ederek görsel açıdan çekici ve dinamik sunumlar oluşturabilirsiniz. Daha fazla özelleştirme ve daha gelişmiş özellikler için bkz.[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/).
 ## SSS'ler
 ### Aspose.Slides for Java nedir?
 Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak oluşturmak, değiştirmek ve yönetmek için kullanılan güçlü bir API'dir.

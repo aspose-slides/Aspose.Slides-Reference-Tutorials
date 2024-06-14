@@ -34,7 +34,7 @@ Laten we beginnen met het maken van een nieuwe presentatie. Zo kunt u het doen i
 
 ```java
 // Pad naar PPTX-document
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ Met deze code wordt uw presentatie opgeslagen terwijl de mediabediening is inges
 
 ```java
 // Pad naar PPTX-document
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Schakel mediabedieningsweergave in diavoorstellingsmodus in.

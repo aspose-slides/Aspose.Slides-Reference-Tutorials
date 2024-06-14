@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Để hiển thị tỷ lệ phần trăm, chúng ta cần cấu hình định dạng số cho trục tung của biểu đồ.
 
 ```java
-//Đặt NumberFormatLinkedToSource thành sai
+// Đặt NumberFormatLinkedToSource thành sai
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Thêm biểu đồ PercentsStackedColumn trên trang chiếu
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Đặt NumberFormatLinkedToSource thành sai
+// Đặt NumberFormatLinkedToSource thành sai
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo bản t
 
 ### Tôi có thể tùy chỉnh kích thước phông chữ của nhãn dữ liệu không?
 
- Có, bạn có thể tùy chỉnh kích thước phông chữ của nhãn dữ liệu bằng cách đặt`setFontHeight` thuộc tính như được thể hiện trong mã.
+Có, bạn có thể tùy chỉnh kích thước phông chữ của nhãn dữ liệu bằng cách đặt`setFontHeight` thuộc tính như được thể hiện trong mã.
 
 ### Làm cách nào tôi có thể thêm nhiều chuỗi vào biểu đồ?
 

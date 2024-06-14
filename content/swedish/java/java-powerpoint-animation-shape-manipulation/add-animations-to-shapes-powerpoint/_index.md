@@ -2,7 +2,7 @@
 title: Lägg till animationer till former i PowerPoint
 linktitle: Lägg till animationer till former i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du lägger till animationer till former i PowerPoint med Aspose.Slides för Java med den här detaljerade självstudien. Perfekt för att skapa engagerande presentationer.
+description: Lär dig hur du lägger till animationer till former i PowerPoint med Aspose.Slides för Java med denna detaljerade självstudiekurs. Perfekt för att skapa engagerande presentationer.
 type: docs
 weight: 10
 url: /sv/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
@@ -19,7 +19,7 @@ Innan vi dyker in i handledningen, låt oss se till att du har allt du behöver:
 För att börja måste du importera de nödvändiga paketen för Aspose.Slides och andra obligatoriska Java-klasser.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -53,7 +53,7 @@ Lägg till en rektangelform på bilden och infoga lite text i den.
 IAutoShape ashp = sld.getShapes().addAutoShape(ShapeType.Rectangle, 150, 150, 250, 25);
 ashp.addTextFrame("Animated TextBox");
 ```
-## Steg 5: Använd en animationseffekt
+## Steg 5: Använd en animeringseffekt
 Applicera animationseffekten "PathFootball" på formen.
 ```java
 // Lägg till PathFootBall-animationseffekt
@@ -73,7 +73,7 @@ Definiera en sekvens av effekter för knappen.
 ISequence seqInter = pres.getSlides().get_Item(0).getTimeline().getInteractiveSequences().add(shapeTrigger);
 ```
 ## Steg 8: Lägg till en anpassad användarsökväg
-Lägg till en anpassad användarsökvägsanimering till formen.
+Lägg till en anpassad användarbanaanimering till formen.
 ```java
 // Lägg till anpassad animeringseffekt för användarväg
 IEffect fxUserPath = seqInter.addEffect(ashp, EffectType.PathUser, EffectSubtype.None, EffectTriggerType.OnClick);
@@ -107,4 +107,4 @@ Aspose.Slides stöder Java SE 6 och högre.
 ### Hur lägger jag till olika animationer till flera former?
 Du kan lägga till olika animationer till flera former genom att upprepa stegen för varje form och ange olika effekter efter behov.
 ### Var kan jag hitta fler exempel och dokumentation?
- Kolla in[dokumentation](https://reference.aspose.com/slides/java/) och[supportforum](https://forum.aspose.com/c/slides/11) för fler exempel och hjälp.
+ Kolla in[dokumentation](https://reference.aspose.com/slides/java/) och[supportforum](https://forum.aspose.com/c/slides/11)för fler exempel och hjälp.

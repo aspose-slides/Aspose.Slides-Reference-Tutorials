@@ -18,7 +18,7 @@ url: /hi/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 अपने जावा कोड में आवश्यक पैकेज आयात करके प्रारंभ करें:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

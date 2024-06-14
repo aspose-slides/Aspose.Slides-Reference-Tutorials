@@ -10,7 +10,7 @@ url: /cs/java/chart-data-manipulation/normal-charts-java-slides/
 
 ## Úvod do normálních grafů v Java Slides
 
-V tomto tutoriálu projdeme procesem vytváření normálních grafů v Java Slides pomocí Aspose.Slides for Java API. Použijeme podrobné pokyny spolu se zdrojovým kódem, abychom předvedli, jak vytvořit seskupený sloupcový graf v prezentaci PowerPoint.
+tomto tutoriálu projdeme procesem vytváření normálních grafů v Java Slides pomocí Aspose.Slides for Java API. Použijeme podrobné pokyny spolu se zdrojovým kódem, abychom předvedli, jak vytvořit seskupený sloupcový graf v prezentaci PowerPoint.
 
 ## Předpoklady
 
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Nastavení barvy výplně pro sérii
+// Nastavení barvy výplně pro sérii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Nastavení barvy výplně pro sérii
+// Nastavení barvy výplně pro sérii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Vezměte první sérii grafů
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Nyní se vyplňují data série
+// Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Nastavení barvy výplně pro sérii
+// Nastavení barvy výplně pro sérii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Vezměte druhou řadu grafů
 series = chart.getChartData().getSeries().get_Item(1);
-//Nyní se vyplňují data série
+// Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Nastavení barvy výplně pro sérii
+// Nastavení barvy výplně pro sérii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // První štítek bude zobrazovat název kategorie
@@ -217,13 +217,13 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # Závěr
 
-tomto tutoriálu jsme se naučili, jak vytvořit normální grafy v Java Slides pomocí Aspose.Slides for Java API. Prošli jsme si podrobným průvodcem se zdrojovým kódem k vytvoření seskupeného sloupcového grafu v prezentaci PowerPoint.
+V tomto tutoriálu jsme se naučili, jak vytvořit normální grafy v Java Slides pomocí Aspose.Slides for Java API. Prošli jsme si podrobným průvodcem se zdrojovým kódem k vytvoření seskupeného sloupcového grafu v prezentaci PowerPoint.
 
 ## FAQ
 
 ### Jak mohu změnit typ grafu?
 
- Chcete-li změnit typ grafu, upravte`ChartType` parametr při přidávání grafu pomocí`sld.getShapes().addChart()`. Můžete si vybrat z různých typů grafů dostupných v Aspose.Slides.
+ Chcete-li změnit typ grafu, upravte`ChartType`parametr při přidávání grafu pomocí`sld.getShapes().addChart()`. Můžete si vybrat z různých typů grafů dostupných v Aspose.Slides.
 
 ### Mohu změnit barvy řady grafů?
 
@@ -239,4 +239,4 @@ tomto tutoriálu jsme se naučili, jak vytvořit normální grafy v Java Slides 
 
 ### Jak uložím graf do jiného formátu souboru?
 
- Chcete-li uložit graf do jiného formátu souboru, změňte`SaveFormat` parametr v`pres.save()`metodou do požadovaného formátu (např. PDF, PNG, JPEG).
+ Chcete-li uložit graf do jiného formátu souboru, změňte`SaveFormat` parametr v`pres.save()` metodou do požadovaného formátu (např. PDF, PNG, JPEG).

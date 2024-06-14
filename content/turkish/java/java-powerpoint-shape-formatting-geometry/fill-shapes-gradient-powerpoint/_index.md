@@ -11,7 +11,7 @@ url: /tr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Görsel olarak çekici PowerPoint sunumları oluşturmak, izleyicilerinizi büyülemek için çok önemlidir. Slaytlarınızı geliştirmenin etkili yollarından biri şekilleri degradelerle doldurmaktır. Bu eğitim, PowerPoint'te şekilleri degradelerle doldurmak için Aspose.Slides for Java'yı kullanma sürecinde size rehberlik edecektir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuzu yararlı ve takip edilmesi kolay bulacaksınız. Haydi degradelerin dünyasına dalalım ve bunların sunumlarınızı nasıl dönüştürebileceğini görelim.
 ## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
--  Java Geliştirme Kiti (JDK): JDK'nın kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Geliştirme Kiti (JDK): JDK'nın kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides for Java: En son sürümü şu adresten indirin:[Burada](https://releases.aspose.com/slides/java/).
 - Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA veya Eclipse gibi bir IDE, kodlama deneyiminizi daha sorunsuz hale getirecektir.
 - Temel Java Bilgisi: Java programlamaya aşinalık çok önemlidir.
@@ -19,7 +19,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Aspose.Slides'ı kullanmaya başlamak için gerekli paketleri içe aktarmanız gerekir. Aspose.Slides for Java'yı projenizin bağımlılıklarına eklediğinizden emin olun.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

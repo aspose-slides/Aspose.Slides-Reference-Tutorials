@@ -12,7 +12,7 @@ V dynamickém světě prezentací je ovládání úrovně přiblížení zásadn
 ## Předpoklady
 Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
 - Základní znalost programování v C#.
--  Nainstalovaná knihovna Aspose.Slides for .NET. Pokud ne, stáhněte si jej[tady](https://releases.aspose.com/slides/net/).
+-  Nainstalovaná knihovna Aspose.Slides for .NET. Pokud ne, stáhněte si ji[tady](https://releases.aspose.com/slides/net/).
 - Vývojové prostředí nastavené pomocí sady Visual Studio nebo jakéhokoli jiného .NET IDE.
 ## Importovat jmenné prostory
 Ujistěte se, že ve svém kódu C# importujete potřebné jmenné prostory pro přístup k funkcím Aspose.Slides. Na začátek skriptu vložte následující řádky:

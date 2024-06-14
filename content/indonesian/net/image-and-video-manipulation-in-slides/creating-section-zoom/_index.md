@@ -67,6 +67,6 @@ Ya, Aspose.Slides terintegrasi secara mulus dengan Visual Studio untuk pengemban
 ### Bisakah saya menyesuaikan tampilan bingkai zoom bagian?
 Sangat! Anda memiliki kendali penuh atas dimensi, posisi, dan gaya bingkai zoom bagian.
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides?
-Ya, Anda dapat menjelajahi fitur Aspose.Slides dengan menggunakan[uji coba gratis](https://releases.aspose.com/).
+ Ya, Anda dapat menjelajahi fitur Aspose.Slides dengan menggunakan[uji coba gratis](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk pertanyaan terkait Aspose.Slides?
  Untuk dukungan atau pertanyaan apa pun, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).

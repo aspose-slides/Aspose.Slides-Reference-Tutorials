@@ -10,7 +10,7 @@ url: /sv/java/chart-data-manipulation/normal-charts-java-slides/
 
 ## Introduktion till normala diagram i Java Slides
 
-I den här handledningen kommer vi att gå igenom processen att skapa normala diagram i Java Slides med hjälp av Aspose.Slides for Java API. Vi kommer att använda steg-för-steg-instruktioner tillsammans med källkod för att visa hur man skapar ett klustrade kolumndiagram i en PowerPoint-presentation.
+den här handledningen kommer vi att gå igenom processen att skapa normala diagram i Java Slides med hjälp av Aspose.Slides for Java API. Vi kommer att använda steg-för-steg-instruktioner tillsammans med källkod för att visa hur man skapar ett klustrade kolumndiagram i en PowerPoint-presentation.
 
 ## Förutsättningar
 
@@ -46,7 +46,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 
 ## Steg 3: Lägga till ett diagram
 
-Vi kommer att lägga till ett klustrat kolumndiagram till bilden och ange dess titel.
+Vi kommer att lägga till ett klustrade kolumndiagram till bilden och ange dess titel.
 
 ```java
 // Lägg till diagram med standarddata
@@ -76,7 +76,7 @@ IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 
-// Lägger till ny serie
+// Lägger till nya serier
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 
@@ -99,11 +99,11 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Ställa in fyllnadsfärg för serier
+// Ställa in fyllningsfärg för serier
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
-// Ta den andra diagramserien
+// Ta andra diagramserien
 series = chart.getChartData().getSeries().get_Item(1);
 
 // Fyller på seriedata
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Ställa in fyllnadsfärg för serier
+// Ställa in fyllningsfärg för serier
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -177,7 +177,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 int s = chart.getChartData().getSeries().size();
 s = chart.getChartData().getCategories().size();
-// Lägger till ny serie
+// Lägger till nya serier
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 // Lägger till nya kategorier
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Ta första diagramserien
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Fyller nu på seriedata
+// Fyller nu på seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Ställa in fyllnadsfärg för serier
+// Ställa in fyllningsfärg för serier
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// Ta den andra diagramserien
+// Ta andra diagramserien
 series = chart.getChartData().getSeries().get_Item(1);
-//Fyller nu på seriedata
+// Fyller nu på seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Ställa in fyllnadsfärg för serier
+// Ställa in fyllningsfärg för serier
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // Första etiketten kommer att visa Kategorinamn
@@ -217,13 +217,13 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # Slutsats
 
-den här handledningen har vi lärt oss hur man skapar normala diagram i Java Slides med hjälp av Aspose.Slides for Java API. Vi gick igenom en steg-för-steg-guide med källkod för att skapa ett klustrat kolumndiagram i en PowerPoint-presentation.
+I den här handledningen har vi lärt oss hur man skapar normala diagram i Java Slides med hjälp av Aspose.Slides for Java API. Vi gick igenom en steg-för-steg-guide med källkod för att skapa ett klustrat kolumndiagram i en PowerPoint-presentation.
 
 ## FAQ's
 
 ### Hur kan jag ändra diagramtypen?
 
- För att ändra diagramtypen, ändra`ChartType` parameter när du lägger till diagrammet med hjälp av`sld.getShapes().addChart()`. Du kan välja mellan olika diagramtyper tillgängliga i Aspose.Slides.
+ För att ändra diagramtypen, ändra`ChartType`parameter när du lägger till diagrammet med hjälp av`sld.getShapes().addChart()`. Du kan välja mellan olika diagramtyper tillgängliga i Aspose.Slides.
 
 ### Kan jag ändra färgerna på diagramserien?
 
@@ -239,4 +239,4 @@ den här handledningen har vi lärt oss hur man skapar normala diagram i Java Sl
 
 ### Hur sparar jag diagrammet i ett annat filformat?
 
- För att spara diagrammet till ett annat filformat, ändra`SaveFormat` parametern i`pres.save()`till önskat format (t.ex. PDF, PNG, JPEG).
+ För att spara diagrammet till ett annat filformat, ändra`SaveFormat` parametern i`pres.save()` till önskat format (t.ex. PDF, PNG, JPEG).

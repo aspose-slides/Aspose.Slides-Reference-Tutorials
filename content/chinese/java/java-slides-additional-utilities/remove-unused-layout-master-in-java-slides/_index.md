@@ -17,7 +17,7 @@ url: /zh/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 在深入研究删除未使用的布局母版的过程之前，请确保您已满足以下先决条件：
 
 - [Aspose.Slides for Java](https://downloads.aspose.com/slides/java)已安装库。
-- 已设置一个 Java 项目并准备与 Aspose.Slides 一起使用。
+- 已设置好 Java 项目并准备与 Aspose.Slides 一起使用。
 
 ## 步骤 1：加载演示文稿
 
@@ -84,7 +84,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ## Java Slides 中删除未使用的布局母版的完整源代码
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

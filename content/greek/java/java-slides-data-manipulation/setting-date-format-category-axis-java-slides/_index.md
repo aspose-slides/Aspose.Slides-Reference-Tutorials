@@ -71,7 +71,7 @@ chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
 ```
 
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Τέλος, αποθηκεύστε την παρουσίαση του PowerPoint.
 
 ```java
@@ -105,7 +105,7 @@ pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 		chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
 		chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 		chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
-		pres.save(RunExamples.getOutPath() + "test.pptx", SaveFormat.Pptx);
+		pres.save("Your Output Directory" + "test.pptx", SaveFormat.Pptx);
 	}
 	finally
 	{

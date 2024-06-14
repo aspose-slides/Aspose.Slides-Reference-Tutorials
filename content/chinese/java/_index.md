@@ -80,3 +80,27 @@ is_root: true
 了解 Java PowerPoint 形状格式和几何教程。学习使用 Aspose.Slides for Java 填充形状、查找形状和创建自定义几何图形。
 ### [Java PowerPoint 幻灯片克隆技术](./java-powerpoint-slide-cloning-techniques/)
 掌握使用 Aspose.Slides for Java 在 PowerPoint 中进行幻灯片克隆的方法。学习如何无缝克隆同一演示文稿或跨演示文稿的幻灯片。
+### [Java PowerPoint 文本框操作](./java-powerpoint-text-box-manipulation/)
+探索使用 Aspose.Slides 进行 Java PowerPoint 文本框操作的全面教程。使用我们的指南逐步增强您的演示文稿。
+### [Java PowerPoint 字体管理](./java-powerpoint-font-management/)
+发现使用 Aspose.Slides for Java 的 Java PowerPoint 字体管理教程。学习嵌入、压缩和自定义技术以增强演示文稿。
+### [Java PowerPoint 动画和效果](./java-powerpoint-animation-effects/)
+通过我们全面的教程掌握 Java PowerPoint 动画和效果。学习使用 Aspose.Slides for Java 添加动画、外部和内部阴影。
+### [Java PowerPoint 文本对齐和格式化](./java-powerpoint-text-alignment-formatting/)
+了解 Java PowerPoint 文本对齐和格式化教程。学习使用 Aspose.Slides for Java 对齐、格式化、导出和突出显示文本。 
+### [Java PowerPoint 文本突出显示和后备规则](./java-powerpoint-text-highlighting-fallback-rules/)
+使用 Aspose.Slides 掌握 Java PowerPoint 中的文本突出显示和字体回退规则。按照我们的教程无缝增强和自动化您的演示文稿。
+### [Java PowerPoint 文本和段落管理](./java-powerpoint-text-paragraph-management/)
+掌握使用 Aspose.Slides 进行 Java PowerPoint 文本和段落管理。学习导入 HTML 文本、管理行距、创建项目符号和对齐段落。
+### [Java PowerPoint 字体管理和文本替换](./java-powerpoint-font-management-text-replacement/)
+掌握使用 Aspose.Slides 进行 Java PowerPoint 字体管理和文本替换。学习加载自定义字体、管理嵌入字体和无缝替换文本。
+### [Java PowerPoint 高级段落和字体属性](./java-powerpoint-advanced-paragraph-font-properties/)
+使用 Aspose.Slides 掌握 Java PowerPoint 中的高级段落和字体属性。学习自定义字体、添加图片项目符号和使用后备字体。
+### [Java PowerPoint 文本和字体自定义](./java-powerpoint-text-font-customization/)
+探索使用 Aspose.Slides 定制 Java PowerPoint 文本和字体的教程。学习旋转、字体替换等以增强您的演示文稿。
+### [Java PowerPoint 表格操作](./java-powerpoint-table-manipulation/)
+掌握使用 Aspose.Slides 进行 Java PowerPoint 表格操作。通过我们详细的分步教程学习如何添加图像、拆分单元格、创建表格等。
+### [Java PowerPoint 表格格式和更新](./java-powerpoint-table-formatting-updates/)
+使用 Aspose.Slides 的表格格式和更新功能增强 Java PowerPoint 演示文稿。学习添加边框、在列和行中格式化文本以及更新表格。
+### [Java PowerPoint SmartArt 操作](./java-powerpoint-smartart-manipulation/)
+了解如何使用 GroupDocs.Slides for Java 教程有效地操作 Java PowerPoint SmartArt。访问子节点、添加节点、更改布局等等！

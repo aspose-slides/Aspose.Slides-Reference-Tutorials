@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation())
     //載入要新增到演示圖像集合中的圖像
     Image img = new Bitmap(dataDir + "aspose-logo.jpg");
     IPPImage image = presentation.Images.AddImage(img);
-    //……
+    //…
 }
 ```
 在此步驟中，我們建立一個新的簡報物件並載入要新增到簡報中的影像。

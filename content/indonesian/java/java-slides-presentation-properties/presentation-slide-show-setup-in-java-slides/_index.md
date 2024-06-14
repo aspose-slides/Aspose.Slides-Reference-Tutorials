@@ -21,7 +21,7 @@ Dalam tutorial ini, kita akan mempelajari cara mengatur tayangan slide presentas
 Pertama, kita perlu membuat presentasi PowerPoint baru. Inilah cara Anda melakukannya di Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ Pastikan untuk memberikan jalur file keluaran yang diinginkan.
 ## Kode Sumber Lengkap Untuk Pengaturan Tampilan Slide Presentasi di Slide Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Mendapatkan pengaturan SlideShow

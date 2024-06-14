@@ -8,8 +8,8 @@ weight: 23
 url: /ko/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
 ## 소개
- 시각적으로 매력적인 PowerPoint 프레젠테이션을 만들려면 표준 모양과 텍스트를 사용하는 것 이상이 필요한 경우가 많습니다. 사용자 정의된 모양과 텍스트 경로를 슬라이드에 직접 추가하여 프레젠테이션의 시각적 효과를 향상시킬 수 있다고 상상해 보십시오. Aspose.Slides for Java를 사용하면 이를 쉽게 달성할 수 있습니다. 이 튜토리얼에서는 다음을 사용하는 과정을 안내합니다.`ShapeUtil`PowerPoint 프레젠테이션에서 기하학적 모양을 만드는 클래스입니다. 숙련된 개발자이든 이제 막 시작하든 이 단계별 가이드는 Aspose.Slides for Java의 강력한 기능을 활용하여 멋진 맞춤형 콘텐츠를 만드는 데 도움이 될 것입니다.
-## 전제조건
+시각적으로 매력적인 PowerPoint 프레젠테이션을 만들려면 표준 모양과 텍스트를 사용하는 것 이상이 필요한 경우가 많습니다. 사용자 정의된 모양과 텍스트 경로를 슬라이드에 직접 추가하여 프레젠테이션의 시각적 효과를 향상시킬 수 있다고 상상해 보십시오. Aspose.Slides for Java를 사용하면 이를 쉽게 달성할 수 있습니다. 이 튜토리얼에서는 다음을 사용하는 과정을 안내합니다.`ShapeUtil` PowerPoint 프레젠테이션에서 기하학적 모양을 만드는 클래스입니다. 숙련된 개발자이든 이제 막 시작하든 이 단계별 가이드는 Aspose.Slides for Java의 강력한 기능을 활용하여 멋진 맞춤형 콘텐츠를 만드는 데 도움이 될 것입니다.
+## 전제 조건
 튜토리얼을 시작하기 전에 필요한 몇 가지 사항이 있습니다.
 1. JDK(Java Development Kit): 컴퓨터에 JDK 8 이상이 설치되어 있는지 확인하세요.
 2.  Aspose.Slides for Java: 다음에서 최신 버전을 다운로드하세요.[다운로드 페이지](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-s
 시작하려면 Aspose.Slides 및 Java AWT(Abstract Window Toolkit) 작업에 필요한 패키지를 가져와야 합니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;
@@ -70,7 +70,7 @@ Aspose.Slides for Java는 Java에서 PowerPoint 파일을 작업하기 위한 �
 ### Java용 Aspose.Slides를 어떻게 설치하나요?
  최신 버전은 다음 사이트에서 다운로드할 수 있습니다.[다운로드 페이지](https://releases.aspose.com/slides/java/) JAR 파일을 프로젝트에 추가하십시오.
 ### Aspose.Slides를 무료로 사용할 수 있나요?
- Aspose.Slides는 다음에서 다운로드할 수 있는 무료 평가판을 제공합니다.[여기](https://releases.aspose.com/). 전체 기능을 사용하려면 라이센스를 구매해야 합니다.
+Aspose.Slides는 다음에서 다운로드할 수 있는 무료 평가판을 제공합니다.[여기](https://releases.aspose.com/)전체 기능을 사용하려면 라이센스를 구매해야 합니다.
 ### ShapeUtil 클래스의 용도는 무엇입니까?
  그만큼`ShapeUtil` Aspose.Slides의 클래스는 그래픽 경로를 지오메트리 경로로 변환하는 등 모양 작업을 위한 유틸리티 메서드를 제공합니다.
 ### Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?

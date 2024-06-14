@@ -47,7 +47,7 @@ using Aspose.Slides.Transition;
 ### 1.1 Tải bài thuyết trình
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu
+// Đường dẫn tới thư mục tài liệu
 string dataDir = "Your Document Directory";
 
 // Khởi tạo lớp Trình bày để tải tệp trình bày nguồn

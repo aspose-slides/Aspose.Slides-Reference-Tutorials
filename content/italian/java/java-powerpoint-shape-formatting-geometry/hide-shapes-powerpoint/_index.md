@@ -19,7 +19,7 @@ Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisi
 Per iniziare, dovrai importare i pacchetti necessari per Aspose.Slides. Ecco come puoi farlo:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 In questa sezione, suddivideremo il processo di nascondere le forme in PowerPoint in passaggi facili da seguire. Ogni passaggio include un titolo e una spiegazione dettagliata.
 ## Passaggio 1: imposta il tuo progetto
@@ -74,7 +74,7 @@ Congratulazioni! Hai imparato con successo come nascondere le forme in una prese
 ### Cos'è Aspose.Slides per Java?
 Aspose.Slides per Java è una potente API per manipolare i file PowerPoint a livello di codice. Consente agli sviluppatori di creare, modificare e gestire presentazioni senza bisogno di Microsoft PowerPoint.
 ### Come posso nascondere una forma in PowerPoint utilizzando Java?
- Puoi nascondere una forma impostandola`setHidden` proprietà a`true`Ciò implica identificare la forma in base al testo alternativo e scorrere le forme su una diapositiva.
+ Puoi nascondere una forma impostandola`setHidden` proprietà a`true`. Ciò implica identificare la forma in base al testo alternativo e scorrere le forme su una diapositiva.
 ### Posso utilizzare Aspose.Slides per Java con altri linguaggi di programmazione?
 Aspose.Slides è disponibile per vari linguaggi di programmazione tra cui .NET, Python e C++. Tuttavia, questa guida riguarda specificamente Java.
 ### È disponibile una prova gratuita per Aspose.Slides?

@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx")
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //Ο κωδικός σας για την αποθήκευση της εικόνας βρίσκεται εδώ
+    // Ο κωδικός σας για την αποθήκευση της εικόνας βρίσκεται εδώ
 }
 ```
 ## Βήμα 3: Αποθηκεύστε την εικόνα στο δίσκο
@@ -52,6 +52,6 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
 ### Ε3: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Slides;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια για το Aspose.Slides επισκεπτόμενοι[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
 ### Ε4: Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.Slides;
-Για οποιαδήποτε απορία ή βοήθεια, μη διστάσετε να επισκεφτείτε το φόρουμ υποστήριξης Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
+ Για οποιαδήποτε απορία ή βοήθεια, μη διστάσετε να επισκεφτείτε το φόρουμ υποστήριξης Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
 ### Ε5: Μπορώ να αγοράσω Aspose.Slides για .NET;
  Σίγουρα! Για να αγοράσετε Aspose.Slides για .NET, επισκεφτείτε τη σελίδα αγοράς[εδώ](https://purchase.aspose.com/buy).

@@ -21,7 +21,7 @@ Dans ce didacticiel, nous vous guiderons tout au long du processus de création 
 Commençons par créer une nouvelle présentation PowerPoint et y ajouter une diapositive.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ C'est ça! Vous avez créé avec succès un graphique radar dans une présentati
 ## Code source complet pour la création de graphiques radar dans des diapositives Java
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Ajout d'une nouvelle série
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Remplir maintenant les données de série
+	// Remplir maintenant les données de série
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Définir la couleur de la série
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Remplir maintenant les données d'une autre série
+	//Remplir maintenant les données d'une autre série
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ Reportez-vous à « Étape 5 » pour personnaliser les étiquettes et le formata
 
 ### Comment puis-je enregistrer le graphique dans un format de fichier différent ?
 
- Vous pouvez changer le format de sortie en modifiant l'extension du fichier dans le`outPath` variable et en utilisant le`SaveFormat` . Par exemple, pour enregistrer au format PDF, utilisez`SaveFormat.Pdf`.
+Vous pouvez changer le format de sortie en modifiant l'extension du fichier dans le`outPath` variable et en utilisant le`SaveFormat` . Par exemple, pour enregistrer au format PDF, utilisez`SaveFormat.Pdf`.

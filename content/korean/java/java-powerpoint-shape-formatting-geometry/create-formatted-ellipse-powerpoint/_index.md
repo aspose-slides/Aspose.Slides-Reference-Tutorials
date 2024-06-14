@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse
 ---
 ## 소개
 Aspose.Slides for Java를 사용하여 PowerPoint에서 형식화된 타원을 만드는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Slides는 개발자가 PowerPoint 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 라이브러리입니다. 슬라이드 생성을 자동화하든 사용자 정의 모양으로 프레젠테이션을 향상시키든 이 가이드는 모든 단계를 안내하여 완벽하게 서식이 지정된 타원을 슬라이드에 쉽게 추가할 수 있도록 도와줍니다. 자세히 알아보고 이를 어떻게 달성할 수 있는지 살펴보겠습니다!
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. JDK(Java Development Kit): JDK 1.6 이상이 설치되어 있는지 확인하세요.
 2.  Java용 Aspose.Slides: 다음에서 최신 버전을 다운로드하세요.[Java용 Aspose.Slides](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ Aspose.Slides for Java를 사용하여 PowerPoint에서 형식화된 타원을 �
 Aspose.Slides 사용을 시작하려면 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -90,8 +90,8 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
 ### 모든 IDE에서 Aspose.Slides for Java를 사용할 수 있나요?
 예, IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 Java IDE에서 Aspose.Slides for Java를 사용할 수 있습니다.
 ### Aspose.Slides에 대한 라이선스가 필요합니까?
- 예, Aspose.Slides는 상업용 제품이므로 전체 기능을 사용하려면 라이선스가 필요합니다. 임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+예, Aspose.Slides는 상업용 제품이므로 전체 기능을 사용하려면 라이선스가 필요합니다. 임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java에 대한 추가 문서는 어디서 찾을 수 있나요?
-Aspose.Slides for Java에서 자세한 문서를 찾을 수 있습니다.[문서 페이지](https://reference.aspose.com/slides/java/).
+ Aspose.Slides for Java에서 자세한 문서를 찾을 수 있습니다.[문서 페이지](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides에 대한 지원이 제공됩니까?
  예, Aspose는 다음을 통해 지원을 제공합니다.[법정](https://forum.aspose.com/c/slides/11).

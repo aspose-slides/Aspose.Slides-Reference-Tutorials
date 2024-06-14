@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //ไม่รวมแบบอักษรการนำเสนอเริ่มต้นเช่น Calibri และ Arial
+    // ไม่รวมแบบอักษรการนำเสนอเริ่มต้นเช่น Calibri และ Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ try {
 
 -  เราโหลดการนำเสนอ PowerPoint อินพุตโดยใช้`Presentation`.
 
-- เรากำหนดรายการแบบอักษร (`fontNameExcludeList`) ที่เราต้องการแยกออกจากการฝังใน HTML สิ่งนี้มีประโยชน์สำหรับการยกเว้นแบบอักษรทั่วไปเช่น Calibri และ Arial เพื่อลดขนาดไฟล์
+- เรากำหนดรายการแบบอักษร (`fontNameExcludeList`ที่เราต้องการแยกออกจากการฝังใน HTML สิ่งนี้มีประโยชน์สำหรับการยกเว้นแบบอักษรทั่วไปเช่น Calibri และ Arial เพื่อลดขนาดไฟล์
 
 -  เราสร้างอินสแตนซ์ของ`EmbedAllFontsHtmlController` และส่งรายการยกเว้นแบบอักษรไปให้
 
@@ -98,7 +98,7 @@ finally
 
 ### ฉันจะดาวน์โหลด Aspose.Slides สำหรับ Java ได้อย่างไร
 
-คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose เยี่ยม[ที่นี่](https://downloads.aspose.com/slides/java/) เพื่อรับเวอร์ชันล่าสุด
+ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose เยี่ยม[ที่นี่](https://downloads.aspose.com/slides/java/) เพื่อรับเวอร์ชันล่าสุด
 
 ### ฉันสามารถปรับแต่งรายการแบบอักษรที่แยกออกได้หรือไม่
 

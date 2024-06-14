@@ -31,7 +31,7 @@ url: /th/java/presentation-properties/access-modifying-properties-in-java-slides
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
-//สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึง PPTX
+// สร้างอินสแตนซ์คลาสการนำเสนอที่แสดงถึง PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

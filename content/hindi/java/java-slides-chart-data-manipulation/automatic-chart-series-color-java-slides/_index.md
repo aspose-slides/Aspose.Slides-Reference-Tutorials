@@ -70,14 +70,14 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 ```java
 // पहली चार्ट श्रृंखला लें
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//अब श्रृंखला डेटा भरा जा रहा है
+// अब श्रृंखला डेटा भरा जा रहा है
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // दूसरा चार्ट श्रृंखला लें
 series = chart.getChartData().getSeries().get_Item(1);
-//अब श्रृंखला डेटा भरा जा रहा है
+// अब श्रृंखला डेटा भरा जा रहा है
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// पहली चार्ट श्रृंखला लें
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//अब श्रृंखला डेटा भरा जा रहा है
+	// अब श्रृंखला डेटा भरा जा रहा है
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// दूसरा चार्ट श्रृंखला लें
 	series = chart.getChartData().getSeries().get_Item(1);
-	//अब श्रृंखला डेटा भरा जा रहा है
+	// अब श्रृंखला डेटा भरा जा रहा है
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//श्रृंखला के लिए भरण रंग सेट करना
+	// श्रृंखला के लिए भरण रंग सेट करना
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// चार्ट के साथ प्रस्तुति सहेजें
@@ -181,7 +181,7 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### मैं चार्ट में अतिरिक्त श्रृंखला या श्रेणियां कैसे जोड़ सकता हूं?
 
-चार्ट में अतिरिक्त श्रृंखला या श्रेणियाँ जोड़ने के लिए, का उपयोग करें`getSeries()` और`getCategories()` चार्ट के तरीके`ChartData` आप उनके डेटा और लेबल निर्दिष्ट करके नई श्रृंखला और श्रेणियां जोड़ सकते हैं।
+ चार्ट में अतिरिक्त श्रृंखला या श्रेणियाँ जोड़ने के लिए, का उपयोग करें`getSeries()` और`getCategories()` चार्ट के तरीके`ChartData` आप उनके डेटा और लेबल निर्दिष्ट करके नई श्रृंखला और श्रेणियां जोड़ सकते हैं।
 
 ### क्या चार्ट और लेबल को और अधिक प्रारूपित करना संभव है?
 

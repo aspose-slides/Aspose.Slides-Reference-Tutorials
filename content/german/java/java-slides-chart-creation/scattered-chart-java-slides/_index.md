@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Schritt 2: Folie hinzufügen und Streudiagramm erstellen
 
- Als nächstes fügen wir eine Folie hinzu und erstellen darauf das Streudiagramm. Wir verwenden die`ScatterWithSmoothLines` Diagrammtyp in diesem Beispiel.
+ Als nächstes fügen wir eine Folie hinzu und erstellen darauf das Streudiagramm. Wir verwenden die`ScatterWithSmoothLines`Diagrammtyp in diesem Beispiel.
 
 ```java
 // Holen Sie sich die erste Folie
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Erstellen des Standarddiagramms
+//Erstellen des Standarddiagramms
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Abrufen des Standardarbeitsblattindexes für Diagrammdaten
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ In diesem Tutorial haben wir Sie durch den Prozess der Erstellung eines Streudia
 
 ### Wie kann ich den Diagrammtyp ändern?
 
- Um den Diagrammtyp zu ändern, verwenden Sie die`setType`Methode auf der Diagrammreihe und geben Sie den gewünschten Diagrammtyp an. Beispiel:`series.setType(ChartType.Line)` würde die Reihe in ein Liniendiagramm ändern.
+ Um den Diagrammtyp zu ändern, verwenden Sie die`setType` Methode auf der Diagrammreihe und geben Sie den gewünschten Diagrammtyp an. Beispiel:`series.setType(ChartType.Line)` würde die Reihe in ein Liniendiagramm ändern.
 
 ### Wie passe ich Größe und Stil der Markierung an?
 

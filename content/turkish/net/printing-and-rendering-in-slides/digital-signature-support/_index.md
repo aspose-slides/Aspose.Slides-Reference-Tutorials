@@ -34,7 +34,7 @@ Tercih ettiğiniz IDE'de yeni bir C# projesi oluşturun ve Aspose.Slides kütüp
 string dataDir = "Your Document Directory";
 DigitalSignature signature = new DigitalSignature(dataDir + "testsignature1.pfx", @"testpass1");
 ```
-## 3. Adım: Yorum Ekle (İsteğe bağlı)
+## 3. Adım: Yorum Ekle (İsteğe Bağlı)
 İsteğe bağlı olarak, daha iyi belgelendirme için dijital imzanıza yorumlar ekleyebilirsiniz:
 ```csharp
 signature.Comments = "Aspose.Slides digital signing test.";

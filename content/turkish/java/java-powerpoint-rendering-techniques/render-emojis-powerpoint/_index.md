@@ -20,7 +20,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Veri Dizininizi Hazırlayın
  PowerPoint dosyanızı ve diğer kaynaklarınızı depolamak için bir dizin oluşturun. Adını koyalım`dataDir`.
@@ -49,6 +49,6 @@ Aspose.Slides for Java, standart Unicode emojiler ve özel emojiler de dahil olm
 ### Oluşturulan emojilerin boyutunu ve konumunu özelleştirebilir miyim?
 Evet, Aspose.Slides for Java API'yi kullanarak oluşturulan emojilerin boyutunu, konumunu ve diğer özelliklerini programlı olarak özelleştirebilirsiniz.
 ### Aspose.Slides for Java, PowerPoint'in tüm sürümlerinde emoji oluşturmayı destekliyor mu?
-Evet, Aspose.Slides for Java, PowerPoint'in tüm sürümleriyle uyumludur ve emojilerin farklı platformlarda kusursuz şekilde işlenmesini sağlar.
+Evet, Aspose.Slides for Java, PowerPoint'in tüm sürümleriyle uyumludur ve farklı platformlarda emojilerin kusursuz şekilde işlenmesini sağlar.
 ### Aspose.Slides for Java'nın deneme sürümü mevcut mu?
  Evet, Aspose.Slides for Java'nın ücretsiz deneme sürümünü şuradan indirebilirsiniz:[İnternet sitesi](https://releases.aspose.com/) Satın almadan önce özelliklerini keşfetmek için.

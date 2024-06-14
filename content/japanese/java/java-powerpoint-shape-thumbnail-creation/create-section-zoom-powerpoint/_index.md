@@ -18,13 +18,13 @@ url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-power
 まず、Aspose.Slides for Java を操作するために必要なパッケージをインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## ステップ1: 出力ファイルの設定
 出力プレゼンテーション ファイルのパスを定義します。
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## ステップ2: プレゼンテーションオブジェクトの初期化
 新しいインスタンスを作成する`Presentation`クラス：

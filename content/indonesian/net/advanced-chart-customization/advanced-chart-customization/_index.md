@@ -197,7 +197,7 @@ Kode ini mengonfigurasi tampilan garis kisi utama pada sumbu kategori.
 Mirip dengan sumbu nilai, Anda dapat menyesuaikan garis kisi kecil untuk sumbu kategori.
 
 ```csharp
-//Mengatur format garis kisi kecil untuk sumbu Kategori
+// Mengatur format garis kisi kecil untuk sumbu Kategori
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Mengatur warna area Plot
+//Mengatur warna area Plot
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 
@@ -299,7 +299,7 @@ Ya, Aspose.Slides untuk .NET memungkinkan Anda membuat bagan dari sumber data ek
 ### Bagaimana cara menambahkan label data khusus ke rangkaian bagan saya?
  Untuk menambahkan label data khusus ke rangkaian bagan, Anda dapat mengakses`DataLabels` properti seri dan sesuaikan label sesuai kebutuhan. Lihat dokumentasi untuk contoh dan contoh kode.
 
-### Apakah mungkin untuk mengekspor grafik ke format file yang berbeda, seperti format PDF atau gambar?
+### Apakah mungkin untuk mengekspor grafik ke format file yang berbeda, seperti PDF atau format gambar?
 Ya, Aspose.Slides untuk .NET menyediakan opsi untuk mengekspor presentasi Anda dengan bagan ke berbagai format, termasuk PDF dan format gambar. Anda dapat menggunakan perpustakaan untuk menyimpan pekerjaan Anda dalam format keluaran yang diinginkan.
 
 ### Di mana saya dapat menemukan lebih banyak tutorial dan contoh Aspose.Slides untuk .NET?

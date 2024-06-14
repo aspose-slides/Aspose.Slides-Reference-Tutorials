@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 활용하여 PowerPoint 프레젠테이션의 렌더링 옵션을 조작하는 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 프로세스를 단계별로 안내합니다.
-## 전제조건
+## 전제 조건
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 2.  Aspose.Slides for Java: Aspose.Slides for Java 라이브러리를 다운로드하고 설치하세요. 에서 얻으실 수 있습니다.[다운로드 페이지](https://releases.aspose.com/slides/java/).
@@ -21,7 +21,7 @@ import com.aspose.slides.IRenderingOptions;
 import com.aspose.slides.NotesPositions;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.RenderingOptions;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;

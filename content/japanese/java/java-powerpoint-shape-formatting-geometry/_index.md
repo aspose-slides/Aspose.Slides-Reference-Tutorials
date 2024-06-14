@@ -15,8 +15,8 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/
 
 プレゼンテーションを視覚的に魅力的にするための重要な要素の 1 つは、図形にさまざまな塗りつぶしスタイルを使用することです。図形をグラデーション、パターン、画像、単色で塗りつぶす場合、Aspose.Slides for Java は包括的なソリューションを提供します。 
 
-- グラデーション塗りつぶし: グラデーション塗りつぶしを追加すると、図形に洗練された外観を与えることができます。チュートリアル[PowerPoint でグラデーションを使って図形を塗りつぶす](./fill-shapes-gradient-powerpoint/)プロセスをステップごとにガイドします。
-- パターン塗りつぶし: パターンは図形にテクスチャを追加し、視覚的な面白さを高めます。チュートリアルでパターンの適用方法を学びましょう。[PowerPoint で図形をパターンで塗りつぶす](./fill-shapes-pattern-powerpoint/).
+- グラデーション塗りつぶし: グラデーション塗りつぶしを追加すると、図形に洗練された外観を与えることができます。チュートリアル[PowerPoint で図形をグラデーションで塗りつぶす](./fill-shapes-gradient-powerpoint/)プロセスをステップごとにガイドします。
+- パターン塗りつぶし: パターンは図形にテクスチャを追加し、視覚的な面白さを高めます。チュートリアルでパターンの適用方法を学びましょう[PowerPoint で図形をパターンで塗りつぶす](./fill-shapes-pattern-powerpoint/).
 - 画像塗りつぶし: よりダイナミックで魅力的なプレゼンテーションには、図形を画像で塗りつぶすのが最適です。チュートリアル[PowerPoint で図形を画像で塗りつぶす](./fill-shapes-picture-powerpoint/)これを簡単に行う方法を紹介します。
 - 単色塗りつぶし: シンプルさが鍵となる場合もあり、単色塗りつぶしは非常に効果的です。[PowerPoint で図形を単色で塗りつぶす](./fill-shapes-solid-color-powerpoint/)この技術を習得する。
 
@@ -38,7 +38,7 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/
 
 これらのチュートリアルを学習することで、Aspose.Slides for Java を使用して PowerPoint で図形の書式設定とジオメトリを習得できます。図形を鮮やかなパターンで塗りつぶしたり、図形を見つけてすばやく編集したり、カスタムの幾何学的デザインを作成したりする場合でも、これらのガイドはプロフェッショナルで魅力的なプレゼンテーションを作成するスキルを身に付けることができます。各チュートリアルを学習して、今すぐ PowerPoint スライドの変換を開始してください。
 ## Java PowerPoint 図形の書式設定とジオメトリのチュートリアル
-### [PowerPoint でグラデーションを使って図形を塗りつぶす](./fill-shapes-gradient-powerpoint/)
+### [PowerPoint で図形をグラデーションで塗りつぶす](./fill-shapes-gradient-powerpoint/)
 この詳細なステップバイステップ ガイドでは、Aspose.Slides for Java を使用して PowerPoint で図形をグラデーションで塗りつぶす方法を学習します。
 ### [PowerPoint で図形をパターンで塗りつぶす](./fill-shapes-pattern-powerpoint/)
 Aspose.Slides for Java を使用して、PowerPoint で図形をパターンで塗りつぶす方法を学びます。簡単なステップバイステップのガイドに従って、プレゼンテーションを視覚的に強化します。

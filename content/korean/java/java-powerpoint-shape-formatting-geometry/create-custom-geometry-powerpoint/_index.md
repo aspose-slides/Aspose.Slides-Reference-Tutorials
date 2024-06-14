@@ -9,10 +9,10 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-p
 ---
 ## 소개
 PowerPoint에서 사용자 정의 모양과 기하학을 만들면 프레젠테이션의 시각적 매력을 크게 향상시킬 수 있습니다. Aspose.Slides for Java는 개발자가 PowerPoint 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에서 사용자 정의 기하학, 특히 별 모양을 만드는 방법을 살펴보겠습니다. 뛰어들어보자!
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
-2. Java용 Aspose.Slides: Aspose.Slides 라이브러리를 다운로드하고 설치하세요.
+2. Java용 Aspose.Slides: Aspose.Slides 라이브러리를 다운로드하고 설치합니다.
    - [Java용 Aspose.Slides 다운로드](https://releases.aspose.com/slides/java/)
 3. IDE(통합 개발 환경): IntelliJ IDEA 또는 Eclipse와 같은 IDE입니다.
 4. Java에 대한 기본 이해: Java 프로그래밍에 대한 지식이 필요합니다.
@@ -20,13 +20,13 @@ PowerPoint에서 사용자 정의 모양과 기하학을 만들면 프레젠테�
 코딩 부분을 살펴보기 전에 필요한 패키지를 가져와 보겠습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## 1단계: 프로젝트 설정
-시작하려면 Java 프로젝트를 설정하고 프로젝트 종속성에 Aspose.Slides for Java 라이브러리를 포함하세요. Maven을 사용하는 경우 다음 종속성을 추가하십시오.`pom.xml`:
+ 시작하려면 Java 프로젝트를 설정하고 프로젝트 종속성에 Aspose.Slides for Java 라이브러리를 포함하세요. Maven을 사용하는 경우 다음 종속성을 추가하십시오.`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>

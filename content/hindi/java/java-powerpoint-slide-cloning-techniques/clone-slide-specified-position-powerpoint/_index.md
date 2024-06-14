@@ -21,13 +21,13 @@ url: /hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-pos
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: डेटा निर्देशिका सेट करें
 आपको अपनी PowerPoint फ़ाइलों को संग्रहीत करने के लिए एक निर्देशिका की आवश्यकता होगी। यह वह जगह है जहाँ आप अपनी स्रोत फ़ाइल लोड करेंगे और क्लोन की गई प्रस्तुति को सहेजेंगे।
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## चरण 2: स्रोत प्रस्तुति लोड करें
 इसके बाद, हम उस स्रोत प्रस्तुति को लोड करेंगे जिसमें वह स्लाइड है जिसे आप क्लोन करना चाहते हैं। यह चरण महत्वपूर्ण है क्योंकि यह आपके क्लोनिंग ऑपरेशन के लिए आधार के रूप में कार्य करता है।

@@ -18,7 +18,7 @@ url: /zh/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 首先在 Java 代码中导入必要的包：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -66,7 +66,7 @@ try {
 是的，您可以遍历演示文稿中的所有幻灯片并单独从每张幻灯片中发表评论。
 ### 是否可以自定义呈现的评论的外观？
 当然，您可以根据自己的喜好调整评论区域的颜色、大小、位置等各项参数。
-### Aspose.Slides 除了支持 PNG 之外，还支持以其他图像格式渲染注释吗？
+### Aspose.Slides 除了 PNG 之外还支持以其他图像格式渲染注释吗？
 是的，除了 PNG，您还可以将评论呈现为 Java 的 ImageIO 类支持的其他图像格式。
 ### 我可以以编程方式呈现评论而不在 PowerPoint 中显示它们吗？
 是的，使用 Aspose.Slides，您无需打开 PowerPoint 应用程序即可对图像发表评论。

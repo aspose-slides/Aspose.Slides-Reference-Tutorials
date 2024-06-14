@@ -19,7 +19,7 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn những �
 Trước tiên, hãy nhập các gói cần thiết vào dự án Java của bạn. Những thao tác nhập này sẽ giúp bạn xử lý các bản trình bày và hình dạng bằng Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập dự án của bạn
 Trước khi đi sâu vào mã, hãy thiết lập môi trường dự án của bạn. Đảm bảo bạn đã thêm Aspose.Slides cho Java vào phần phụ thuộc của dự án.
@@ -72,7 +72,7 @@ pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
 Mã này lưu bản trình bày của bạn với tên tệp được chỉ định ở định dạng mong muốn.
 ## Phần kết luận
-Chúc mừng! Bạn đã áp dụng thành công hiệu ứng xoay 3D cho các hình trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Bằng cách làm theo các bước này, bạn có thể tạo các bài thuyết trình sinh động và hấp dẫn về mặt hình ảnh. Để tùy chỉnh thêm và các tính năng nâng cao hơn, hãy tham khảo[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/).
+ Chúc mừng! Bạn đã áp dụng thành công hiệu ứng xoay 3D cho các hình trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Bằng cách làm theo các bước này, bạn có thể tạo các bài thuyết trình sinh động và hấp dẫn về mặt hình ảnh. Để tùy chỉnh thêm và các tính năng nâng cao hơn, hãy tham khảo[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/).
 ## Câu hỏi thường gặp
 ### Aspose.Slides cho Java là gì?
 Aspose.Slides cho Java là một API mạnh mẽ để tạo, sửa đổi và thao tác với các bản trình bày PowerPoint theo chương trình.

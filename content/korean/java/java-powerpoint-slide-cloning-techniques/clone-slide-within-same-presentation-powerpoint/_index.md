@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-p
 ---
 ## 소개
 Aspose.Slides for Java의 세계로 뛰어들어 동일한 프레젠테이션 내에서 슬라이드를 복제하는 방법을 배울 준비가 되셨습니까? 이 튜토리얼에서는 전제 조건부터 최종 구현까지 알아야 할 모든 것을 안내합니다. 시작하자!
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides for Java: 다음에서 최신 버전을 다운로드하세요.[웹사이트](https://releases.aspose.com/slides/java/).
@@ -22,11 +22,11 @@ Aspose.Slides for Java의 세계로 뛰어들어 동일한 프레젠테이션 �
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## 1단계: 프로젝트 설정
- IDE에서 Java 프로젝트를 설정하는 것부터 시작하세요. 새 프로젝트를 만들고 Aspose.Slides for Java 라이브러리를 프로젝트 종속성에 추가하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose.Slides for Java 다운로드 페이지](https://releases.aspose.com/slides/java/).
+IDE에서 Java 프로젝트를 설정하는 것부터 시작하세요. 새 프로젝트를 만들고 Aspose.Slides for Java 라이브러리를 프로젝트 종속성에 추가하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose.Slides for Java 다운로드 페이지](https://releases.aspose.com/slides/java/).
 ## 2단계: 데이터 디렉터리 정의
 프리젠테이션 파일이 있는 문서 디렉토리의 경로를 정의하십시오. 이는 Aspose.Slides가 파일을 올바르게 찾고 저장하는 데 도움이 됩니다.
 ```java
@@ -62,8 +62,8 @@ Aspose.Slides for Java는 Java 애플리케이션에서 PowerPoint 프레젠테�
 ### Java용 Aspose.Slides를 어떻게 다운로드할 수 있나요?
  Java용 Aspose.Slides의 최신 버전은 다음 사이트에서 다운로드할 수 있습니다.[다운로드 페이지](https://releases.aspose.com/slides/java/).
 ### Aspose.Slides for Java에 대한 무료 평가판이 있습니까?
-예, 다음 사이트를 방문하여 Aspose.Slides for Java의 무료 평가판에 액세스할 수 있습니다.[무료 평가판 페이지](https://releases.aspose.com/).
+ 예, 다음 사이트를 방문하여 Aspose.Slides for Java의 무료 평가판에 액세스할 수 있습니다.[무료 평가판 페이지](https://releases.aspose.com/).
 ### Java용 Aspose.Slides에 대한 설명서는 어디에서 찾을 수 있나요?
- Java용 Aspose.Slides에 대한 문서는 다음에서 확인할 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/).
+Java용 Aspose.Slides에 대한 문서는 다음에서 확인할 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/).
 ### Java용 Aspose.Slides를 어떻게 구매할 수 있나요?
  다음 사이트를 방문하여 Java용 Aspose.Slides를 구매할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).

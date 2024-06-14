@@ -18,7 +18,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u over het volgende b
 Laten we eerst de benodigde pakketten importeren die nodig zijn om met Aspose.Slides te werken.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

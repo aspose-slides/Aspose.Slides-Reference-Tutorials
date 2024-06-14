@@ -56,7 +56,7 @@ using (Presentation pres = new Presentation(dataDir + "ChangePosition.pptx"))
 
  Tutaj ładujesz plik prezentacji o nazwie`"ChangePosition.pptx"`.
 
-### Krok 3: Spraw, aby slajd został przeniesiony
+### Krok 3: Przesuń slajd
 
 Wskaż slajd w prezentacji, którego położenie chcesz zmienić.
 

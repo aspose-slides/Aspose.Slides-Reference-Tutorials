@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation(dataDir + "Presentation.pptx"))
 
 ## 5. HTML-Optionen konfigurieren
 
-Als Nächstes müssen wir die HTML-Konvertierungsoptionen konfigurieren. Insbesondere möchten wir die Notizen am unteren Ende der HTML-Seiten positionieren. Verwenden Sie den folgenden Codeausschnitt, um die Optionen einzurichten:
+Als nächstes müssen wir die HTML-Konvertierungsoptionen konfigurieren. Insbesondere möchten wir die Notizen am Ende der HTML-Seiten positionieren. Verwenden Sie den folgenden Codeausschnitt, um die Optionen einzurichten:
 
 ```csharp
 HtmlOptions opt = new HtmlOptions();

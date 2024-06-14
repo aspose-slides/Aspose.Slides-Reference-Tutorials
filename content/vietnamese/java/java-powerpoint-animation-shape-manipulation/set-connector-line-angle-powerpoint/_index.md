@@ -19,7 +19,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những đi�
 Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn. Đảm bảo bạn bao gồm thư viện Aspose.Slides để truy cập các chức năng của PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Khởi tạo đối tượng trình bày
 Bắt đầu bằng cách khởi tạo đối tượng Trình bày để tải tệp PowerPoint của bạn.

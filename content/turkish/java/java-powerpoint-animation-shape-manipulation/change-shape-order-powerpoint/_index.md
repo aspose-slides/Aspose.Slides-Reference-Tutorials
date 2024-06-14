@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 Başlamak için gerekli paketleri Aspose.Slides kütüphanesinden içe aktarmanız gerekir. Bu içe aktarmalar sunumlar, slaytlar ve şekillerle çalışmanıza olanak tanır.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Bu kılavuzda, daha iyi anlaşılması ve uygulama kolaylığı için şekil sırasını değiştirme sürecini birkaç adıma ayıracağız.
 ## 1. Adım: Sunuyu Yükleyin

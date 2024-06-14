@@ -21,13 +21,13 @@ PowerPoint oyununuzu geliştirmeye hazır mısınız? İster deneyimli bir geli�
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Veri Dizinini Ayarlayın
 PowerPoint dosyalarınızı depolamak için bir dizine ihtiyacınız olacak. Burası kaynak dosyanızı yükleyeceğiniz ve klonlanan sunuyu kaydedeceğiniz yerdir.
 ```java
 // Belgeler dizininin yolu.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Adım 2: Kaynak Sunumunu Yükleyin
 Daha sonra, kopyalamak istediğiniz slaydı içeren kaynak sunumunu yükleyeceğiz. Bu adım, klonlama operasyonunuzun temelini oluşturduğu için çok önemlidir.

@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Обязательно замените`"Your Document Directory"`с указанием пути, по которому вы хотите хранить файлы презентаций.
+ Обязательно замените`"Your Document Directory"` с указанием пути, по которому вы хотите хранить файлы презентаций.
 ## Шаг 2. Загрузите презентацию
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

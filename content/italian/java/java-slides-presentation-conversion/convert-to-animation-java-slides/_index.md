@@ -34,7 +34,7 @@ import java.io.IOException;
  Per iniziare, carica la presentazione PowerPoint che desideri convertire in animazione. Sostituire`"SimpleAnimations.pptx"` con il percorso del file di presentazione:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 Durante la riproduzione della presentazione, ogni fotogramma verrà salvato come immagine PNG nella directory di output specificata. È possibile personalizzare il percorso di output secondo necessità:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Codice sorgente completo per convertire in animazione in diapositive Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

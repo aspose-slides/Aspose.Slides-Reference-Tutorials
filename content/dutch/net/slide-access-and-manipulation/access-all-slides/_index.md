@@ -112,7 +112,7 @@ class Program
 
 ## Conclusie
 
-In deze handleiding hebben we onderzocht hoe u alle dia's binnen een PowerPoint-presentatie kunt ophalen met Aspose.Slides voor .NET. We zijn begonnen met het opzetten van het project en het laden van de presentatie. Vervolgens hebben we gedemonstreerd hoe u dia-informatie kunt ophalen en dia-eigenschappen kunt openen met behulp van de API's van de bibliotheek. Door deze stappen te volgen, kunt u efficiënt programmatisch met presentatiebestanden werken en de benodigde informatie extraheren voor verdere verwerking.
+In deze handleiding hebben we onderzocht hoe u alle dia's binnen een PowerPoint-presentatie kunt ophalen met Aspose.Slides voor .NET. We zijn begonnen met het opzetten van het project en het laden van de presentatie. Vervolgens hebben we gedemonstreerd hoe u dia-informatie kunt ophalen en dia-eigenschappen kunt openen met behulp van de API's van de bibliotheek. Door deze stappen te volgen, kunt u programmatisch efficiënt met presentatiebestanden werken en de benodigde informatie extraheren voor verdere verwerking.
 
 ## Veelgestelde vragen
 

@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx")
 }
 ```
 ## Steg 3: Hämta och ställ in bildnummer
- Hämta det aktuella diabildsnumret med hjälp av`FirstSlideNumber` egenskap och ställ sedan in den till önskat värde. I exemplet satte vi den till 10.
+ Hämta nuvarande bildnummer med hjälp av`FirstSlideNumber` egenskap och ställ sedan in den till önskat värde. I exemplet satte vi den till 10.
 ```csharp
 int firstSlideNumber = presentation.FirstSlideNumber;
 presentation.FirstSlideNumber = 10;

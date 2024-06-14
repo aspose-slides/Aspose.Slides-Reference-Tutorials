@@ -112,7 +112,7 @@ U hebt met succes series geanimeerd in een PowerPoint-diagram met Aspose.Slides 
 
 ### Hoe bepaal ik de volgorde van serie-animaties?
 
- Om de volgorde van serie-animaties te bepalen, gebruikt u de`EffectTriggerType.AfterPrevious`parameter bij het toevoegen van de effecten. Hierdoor begint elke serie-animatie nadat de vorige is afgelopen.
+ Om de volgorde van serie-animaties te bepalen, gebruikt u de`EffectTriggerType.AfterPrevious` parameter bij het toevoegen van de effecten. Hierdoor begint elke serie-animatie nadat de vorige is afgelopen.
 
 ### Kan ik op elke serie verschillende animaties toepassen?
 

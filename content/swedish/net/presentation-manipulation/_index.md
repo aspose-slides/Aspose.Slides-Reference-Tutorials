@@ -43,11 +43,11 @@ Lär dig hur du enkelt konverterar PPT till PPTX med Aspose.Slides för .NET. St
 Lär dig hur du konverterar presentationer till TIFF med anpassade bildinställningar med Aspose.Slides för .NET. Steg-för-steg guide med kodexempel.
 ### [Konvertera presentation till TIFF med standardstorlek](./convert-presentation-to-tiff-with-default-size/)
 Lär dig hur du enkelt konverterar presentationer till TIFF-bilder med deras standardstorlek med Aspose.Slides för .NET.
-### [Gör anteckningar medan du konverterar presentation till HTML](./render-notes-while-converting-presentation-to-html/)
+### [Återge anteckningar medan du konverterar presentation till HTML](./render-notes-while-converting-presentation-to-html/)
 Lär dig hur du effektivt renderar talaranteckningar samtidigt som du konverterar en presentation till HTML med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger källkodsexempel och insikter som hjälper dig att uppnå sömlös konvertering med anteckningsbevarande. 
 ### [Exportera presentation till HTML med CSS-filer](./export-presentation-to-html-with-css-files/)
 Lär dig hur du exporterar PowerPoint-presentationer till HTML med CSS-filer med Aspose.Slides för .NET. En steg-för-steg guide till sömlös konvertering. Bevara stil och layout! 
 ### [SVG-konverteringsalternativ för presentationer](./svg-conversion-options-for-presentations/)
 Lär dig hur du utför SVG-konvertering för presentationer med Aspose.Slides för .NET. Den här omfattande guiden täcker steg-för-steg-instruktioner, källkodsexempel och olika SVG-konverteringsalternativ.
-### [Formatera SVG i presentationer](./formatting-svgs-in-presentations/)
+### [Formatera SVG:er i presentationer](./formatting-svgs-in-presentations/)
 Optimera dina presentationer med fantastiska SVG:er med Aspose.Slides för .NET. Lär dig steg för steg hur du formaterar SVG:er för effektfulla bilder. Lyft ditt presentationsspel idag! 

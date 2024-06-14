@@ -10,7 +10,7 @@ url: /sv/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ## Introduktion till mediakontroller för bildspel i Java-bilder
 
-I sfären av dynamiska och engagerande presentationer spelar multimediaelement en avgörande roll för att fånga publikens uppmärksamhet. Java Slides, med hjälp av Aspose.Slides för Java, ger utvecklare möjlighet att skapa fängslande bildspel som innehåller mediakontroller sömlöst. Oavsett om du designar en träningsmodul, en säljpresentation eller en pedagogisk presentation, är möjligheten att styra media under bildspelet en spelomvandlare.
+I sfären av dynamiska och engagerande presentationer spelar multimediaelement en avgörande roll för att fånga publikens uppmärksamhet. Java Slides, med hjälp av Aspose.Slides för Java, ger utvecklare möjlighet att skapa fängslande bildspel som innehåller mediakontroller sömlöst. Oavsett om du designar en träningsmodul, en säljpresentation eller en pedagogisk presentation, är möjligheten att kontrollera media under bildspelet en spelomvandlare.
 
 ## Förutsättningar
 
@@ -34,7 +34,7 @@ Låt oss börja med att skapa en ny presentation. Så här kan du göra det i Ja
 
 ```java
 // Sökväg till PPTX-dokument
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ Den här koden sparar din presentation med mediakontroller aktiverade.
 
 ```java
 // Sökväg till PPTX-dokument
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Еaktivera mediakontrollskärm i bildspelsläge.

@@ -39,13 +39,13 @@ Presentation presentation = new Presentation();
 
 ## Stap 3: Documenteigenschappen instellen
 
-kunt verschillende documenteigenschappen instellen, zoals titel, auteur, trefwoorden en meer. Hier stellen we een aantal algemene eigenschappen in:
+U kunt verschillende documenteigenschappen instellen, zoals titel, auteur, trefwoorden en meer. Hier stellen we een aantal algemene eigenschappen in:
 
 ```java
 // Stel de titel van de presentatie in
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Stel de auteur van de presentatie in
+//Stel de auteur van de presentatie in
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Stel trefwoorden in voor de presentatie
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-//Instantieer een presentatieobject dat een PPT-bestand vertegenwoordigt
+// Instantieer een presentatieobject dat een PPT-bestand vertegenwoordigt
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ In deze zelfstudie hebt u geleerd hoe u documenteigenschappen in een PowerPoint-
 // Stel de titel van de presentatie in
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Stel de auteur van de presentatie in
+//Stel de auteur van de presentatie in
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Stel trefwoorden in voor de presentatie

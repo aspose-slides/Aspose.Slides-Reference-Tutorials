@@ -13,14 +13,14 @@ Vill du automatisera dina PowerPoint-presentationsuppgifter med Java? Kolla inte
 Innan du dyker in i koden, se till att du har följande förutsättningar:
 1. Java Development Kit (JDK): Se till att du har JDK 8 eller högre installerat på ditt system.
 2.  Aspose.Slides för Java: Ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
-3. IDE: Använd en Integrated Development Environment (IDE) som IntelliJ IDEA eller Eclipse för kodning.
+3. IDE: Använd en integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse för kodning.
 4. Presentationsfil: Ett exempel på PowerPoint-fil (`Presentation1.pptx`) för att testa koden.
 ## Importera paket
 Låt oss först ställa in vårt projekt och importera de nödvändiga paketen. Skapa ett nytt Java-projekt i din IDE och lägg till Aspose.Slides for Java-biblioteket till ditt projekts byggväg.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Konfigurera projektkatalogen
 Börja med att ställa in din projektkatalog. Skapa en mapp där du ska lagra dina Java-filer och PowerPoint-presentationen (`Presentation1.pptx`).

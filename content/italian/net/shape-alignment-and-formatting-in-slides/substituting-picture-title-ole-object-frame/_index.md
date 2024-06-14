@@ -78,7 +78,7 @@ Sì, Aspose.Slides supporta l'incorporamento di vari tipi di file, come fogli di
 ### L'icona dell'oggetto OLE è personalizzabile?
 Assolutamente. Puoi sostituire l'icona predefinita con qualsiasi immagine di tua scelta per adattarla meglio al tema della presentazione.
 ### Aspose.Slides fornisce supporto per le animazioni con oggetti OLE?
-A partire dall'ultima versione, Aspose.Slides si concentra sull'incorporamento e sulla visualizzazione di oggetti OLE e non gestisce direttamente le animazioni all'interno degli oggetti OLE.
+partire dall'ultima versione, Aspose.Slides si concentra sull'incorporamento e sulla visualizzazione di oggetti OLE e non gestisce direttamente le animazioni all'interno degli oggetti OLE.
 ### Posso manipolare gli oggetti OLE a livello di codice dopo averli aggiunti a una diapositiva?
 Certamente. Hai il controllo programmatico completo sugli oggetti OLE, consentendoti di modificarne le proprietà e l'aspetto secondo necessità.
 ### Esistono limitazioni alla dimensione degli oggetti OLE incorporati?

@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 まず最初に、Aspose.Slides for Java を使い始めるために必要なパッケージをインポートしましょう。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 複合オブジェクトの作成は複雑に聞こえるかもしれませんが、扱いやすい手順に分解すると、思ったより簡単であることがわかります。PowerPoint プレゼンテーションを作成し、図形を追加してから、複数のジオメトリ パスを定義して適用し、複合図形を形成します。
@@ -38,7 +38,7 @@ Mavenを使用している場合は、次の依存関係を`pom.xml`ファイル
 それでは、新しいPowerPointプレゼンテーションを作成しましょう。まずは`Presentation`クラス。
 ```java
 //出力ファイル名
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## ステップ3: 新しい図形を作成する
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## ステップ7: プレゼンテーションを保存する
 最後に、プレゼンテーションをファイルに保存します。
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## ステップ8: リソースをクリーンアップする

@@ -12,7 +12,7 @@ url: /ko/java/animation-and-layout/animating-series-elements-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드의 시리즈 요소에 애니메이션을 적용하는 방법을 안내합니다. 애니메이션을 사용하면 프레젠테이션을 더욱 흥미롭고 유익하게 만들 수 있습니다. 이 예에서는 PowerPoint 슬라이드의 차트에 애니메이션을 적용하는 데 중점을 둡니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

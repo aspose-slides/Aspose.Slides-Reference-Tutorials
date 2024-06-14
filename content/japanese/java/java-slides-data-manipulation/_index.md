@@ -1,8 +1,8 @@
 ---
-title: Java スライド データ操作
-linktitle: Java スライド データ操作
+title: Java スライドデータ操作
+linktitle: Java スライドデータ操作
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java チュートリアルで、Java スライドのデータ操作スキルを強化します。プレゼンテーションを効率的に作成、編集、変換する方法を段階的に学習します。
+description: Aspose.Slides for Java チュートリアルで、Java スライドのデータ操作スキルを強化します。プレゼンテーションを効率的に作成、編集、変換する方法をステップごとに学習します。
 type: docs
 weight: 13
 url: /ja/java/data-manipulation/

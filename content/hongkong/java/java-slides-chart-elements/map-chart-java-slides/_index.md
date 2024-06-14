@@ -83,7 +83,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Java 投影片中地圖圖表的完整原始碼
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//建立空白圖表

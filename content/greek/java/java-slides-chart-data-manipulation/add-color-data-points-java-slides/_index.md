@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 Σε αυτό το βήμα, θα προσαρμόσουμε συγκεκριμένα σημεία δεδομένων. Εδώ, αλλάζουμε το χρώμα των σημείων δεδομένων και διαμορφώνουμε τις ρυθμίσεις ετικετών.
 
 ```java
-//Προσαρμόστε το σημείο δεδομένων 0
+// Προσαρμόστε το σημείο δεδομένων 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -63,7 +63,7 @@ steam4Format.getFill().setFillType(FillType.Solid);
 steam4Format.getFill().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(0, 176, 240, 255).d());
 ```
 
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 
 Τέλος, αποθηκεύστε την παρουσίαση με το προσαρμοσμένο γράφημα.
 
@@ -116,4 +116,4 @@ finally
 
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
 
-Μπορείτε να βρείτε περισσότερα παραδείγματα και λεπτομερή τεκμηρίωση σχετικά με τη χρήση του Aspose.Slides για Java στο[Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/java/) δικτυακός τόπος.
+ Μπορείτε να βρείτε περισσότερα παραδείγματα και λεπτομερή τεκμηρίωση σχετικά με τη χρήση του Aspose.Slides για Java στο[Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/java/) δικτυακός τόπος.

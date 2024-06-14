@@ -8,7 +8,7 @@ weight: 23
 url: /vi/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
 ## Giới thiệu
- Việc tạo các bản trình bày PowerPoint hấp dẫn về mặt trực quan thường đòi hỏi nhiều thứ hơn là chỉ sử dụng các hình dạng và văn bản tiêu chuẩn. Hãy tưởng tượng bạn có thể thêm các hình dạng và đường dẫn văn bản tùy chỉnh trực tiếp vào trang trình bày của mình, nâng cao tác động trực quan cho bản trình bày của bạn. Sử dụng Aspose.Slides cho Java, bạn có thể đạt được điều này một cách dễ dàng. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình sử dụng`ShapeUtil`lớp tạo các hình dạng hình học trong bài thuyết trình PowerPoint. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ giúp bạn tận dụng sức mạnh của Aspose.Slides dành cho Java để tạo nội dung tuyệt đẹp, có hình dạng tùy chỉnh.
+Việc tạo các bản trình bày PowerPoint hấp dẫn về mặt trực quan thường đòi hỏi nhiều thứ hơn là chỉ sử dụng các hình dạng và văn bản tiêu chuẩn. Hãy tưởng tượng bạn có thể thêm các hình dạng và đường dẫn văn bản tùy chỉnh trực tiếp vào trang trình bày của mình, nâng cao tác động trực quan cho bản trình bày của bạn. Sử dụng Aspose.Slides cho Java, bạn có thể đạt được điều này một cách dễ dàng. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình sử dụng`ShapeUtil` lớp tạo các hình dạng hình học trong bài thuyết trình PowerPoint. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ giúp bạn tận dụng sức mạnh của Aspose.Slides dành cho Java để tạo nội dung tuyệt đẹp, có hình dạng tùy chỉnh.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, có một số điều bạn cần:
 1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên trên máy của mình.
@@ -19,7 +19,7 @@ Trước khi chúng ta đi sâu vào hướng dẫn, có một số điều bạ
 Để bắt đầu, bạn cần nhập các gói cần thiết để làm việc với Aspose.Slides và Java AWT (Bộ công cụ cửa sổ trừu tượng):
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;
@@ -70,7 +70,7 @@ Aspose.Slides cho Java là một API mạnh mẽ để làm việc với các t�
 ### Làm cách nào để cài đặt Aspose.Slides cho Java?
  Bạn có thể tải phiên bản mới nhất từ[trang tải xuống](https://releases.aspose.com/slides/java/) và thêm các tệp JAR vào dự án của bạn.
 ### Tôi có thể sử dụng Aspose.Slides miễn phí không?
- Aspose.Slides cung cấp phiên bản dùng thử miễn phí, bạn có thể tải xuống từ[đây](https://releases.aspose.com/). Để có đầy đủ chức năng, bạn cần phải mua giấy phép.
+Aspose.Slides cung cấp phiên bản dùng thử miễn phí, bạn có thể tải xuống từ[đây](https://releases.aspose.com/)Để có đầy đủ chức năng, bạn cần phải mua giấy phép.
 ### Công dụng của lớp ShapeUtil là gì?
  Các`ShapeUtil` lớp trong Aspose.Slides cung cấp các phương thức tiện ích để làm việc với các hình dạng, chẳng hạn như chuyển đổi đường dẫn đồ họa thành đường dẫn hình học.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides ở đâu?

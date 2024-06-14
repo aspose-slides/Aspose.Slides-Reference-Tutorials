@@ -20,7 +20,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều 
 Đầu tiên, nhập các gói cần thiết để làm việc với Aspose.Slides trong dự án Java của bạn.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Khởi tạo lớp trình bày
  Khởi tạo`Presentation`lớp, đại diện cho tệp PPTX bạn đang làm việc.

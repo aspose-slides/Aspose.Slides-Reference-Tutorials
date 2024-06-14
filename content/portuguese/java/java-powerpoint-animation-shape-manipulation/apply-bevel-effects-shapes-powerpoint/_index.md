@@ -11,7 +11,7 @@ url: /pt/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Criar apresentações visualmente atraentes é crucial para capturar e manter a atenção do público. Adicionar efeitos de chanfro às formas pode melhorar a estética geral dos slides, destacando sua apresentação. Neste tutorial, orientaremos você no processo de aplicação de efeitos de chanfro a formas no PowerPoint usando Aspose.Slides para Java. Quer você seja um desenvolvedor que deseja automatizar a criação de apresentações ou apenas alguém que adora mexer no design, este guia tem o que você precisa.
 ## Pré-requisitos
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
--  Kit de desenvolvimento Java (JDK): certifique-se de ter o JDK instalado. Você pode baixá-lo no[Site da Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Kit de desenvolvimento Java (JDK): certifique-se de ter o JDK instalado. Você pode baixá-lo no[Site da Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Biblioteca Aspose.Slides para Java: Baixe a biblioteca em[Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
 - IDE (Ambiente de Desenvolvimento Integrado): Use qualquer IDE de sua escolha, como IntelliJ IDEA, Eclipse ou NetBeans.
 -  Licença Aspose: Para usar Aspose.Slides sem limitações, obtenha uma licença de[Assuma a compra](https://purchase.aspose.com/buy) ou obter um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliação.
@@ -19,7 +19,7 @@ Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisito
 Primeiro, você precisa importar os pacotes necessários para trabalhar com Aspose.Slides em seu projeto Java. Veja como você pode fazer isso:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Etapa 1: configure seu projeto

@@ -18,7 +18,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 Kezdje a szükséges csomagok importálásával a Java kódban:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -71,4 +71,4 @@ Igen, a PNG mellett más, a Java ImageIO osztálya által támogatott képformá
 ### Megjeleníthetem a megjegyzéseket programozottan anélkül, hogy megjeleníteném őket a PowerPointban?
 Igen, az Aspose.Slides használatával megjegyzéseket jeleníthet meg a képekhez a PowerPoint alkalmazás megnyitása nélkül.
 ### Van mód a megjegyzések közvetlenül PDF-dokumentumban való megjelenítésére?
-Igen, az Aspose.Slides lehetővé teszi a megjegyzések közvetlen PDF-dokumentumokban való megjelenítését, lehetővé téve a zökkenőmentes integrációt a dokumentum munkafolyamatába.
+Igen, az Aspose.Slides lehetővé teszi a megjegyzések közvetlenül PDF-dokumentumokban való megjelenítését, lehetővé téve a zökkenőmentes integrációt a dokumentumok munkafolyamatába.

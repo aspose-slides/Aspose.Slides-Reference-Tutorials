@@ -169,4 +169,4 @@ Pomyślnie przekonwertowałeś pojedyncze slajdy z prezentacji programu PowerPoi
 
 ### Jak sobie poradzić z dodatkowym formatowaniem kształtów i tekstu na slajdach?
 
-Możesz przedłużyć`CustomFormattingController` klasę do obsługi formatowania specyficznego dla kształtu poprzez implementację metody`writeShapeStart` I`writeShapeEnd` metod i stosując w nich niestandardową logikę formatowania.
+ Możesz przedłużyć`CustomFormattingController` klasę do obsługi formatowania specyficznego dla kształtu poprzez implementację metody`writeShapeStart` I`writeShapeEnd` metod i stosując w nich niestandardową logikę formatowania.

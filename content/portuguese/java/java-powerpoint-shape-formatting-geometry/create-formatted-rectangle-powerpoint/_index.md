@@ -19,7 +19,7 @@ Antes de nos aprofundarmos no código, vamos abordar os pré-requisitos. Você p
 Para começar, você precisará importar os pacotes necessários da biblioteca Aspose.Slides. Veja como você pode fazer isso:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Esta linha de código salva a apresentação como um arquivo PPTX no diretório especificado.
 ## Etapa 7: limpar recursos
- É uma boa prática descartar`Presentation`objetar à liberação de recursos.
+ É uma boa prática descartar`Presentation` objetar à liberação de recursos.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Sim, você pode usar Aspose.Slides for Java com qualquer IDE compatível com Jav
 ### Como posso obter uma avaliação gratuita do Aspose.Slides para Java?
  Você pode baixar uma avaliação gratuita do Aspose.Slides para Java em[aqui](https://releases.aspose.com/).
 ###  É necessário descartar o`Presentation` object?
- Sim, descartando o`Presentation`object ajuda a liberar recursos e evitar vazamentos de memória.
+ Sim, descartando o`Presentation` object ajuda a liberar recursos e evitar vazamentos de memória.
 ### Onde posso encontrar a documentação do Aspose.Slides for Java?
  A documentação está disponível[aqui](https://reference.aspose.com/slides/java/).

@@ -21,13 +21,13 @@ url: /el/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-pos
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Ρύθμιση του καταλόγου δεδομένων
 Θα χρειαστείτε έναν κατάλογο για να αποθηκεύσετε τα αρχεία σας PowerPoint. Εδώ θα φορτώσετε το αρχείο προέλευσης και θα αποθηκεύσετε την κλωνοποιημένη παρουσίαση.
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Βήμα 2: Φορτώστε την παρουσίαση προέλευσης
 Στη συνέχεια, θα φορτώσουμε την παρουσίαση πηγής που περιέχει τη διαφάνεια που θέλετε να κλωνοποιήσετε. Αυτό το βήμα είναι ζωτικής σημασίας καθώς χρησιμεύει ως βάση για τη λειτουργία κλωνοποίησης σας.
@@ -51,7 +51,7 @@ ISlideCollection slideCollection = destPres.getSlides();
 // Κλωνοποιήστε την επιθυμητή διαφάνεια από την παρουσίαση πηγής στην καθορισμένη θέση στην παρουσίαση προορισμού
 slideCollection.insertClone(1, sourcePresentation.getSlides().get_Item(1));
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση προορισμού
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση Προορισμού
 Μετά την επιτυχή κλωνοποίηση της διαφάνειας, το τελευταίο βήμα είναι η αποθήκευση της παρουσίασης προορισμού στο δίσκο. Αυτό το βήμα διασφαλίζει ότι η κλωνοποιημένη διαφάνειά σας διατηρείται σε νέο αρχείο.
 ```java
 // Γράψτε την παρουσίαση προορισμού στο δίσκο

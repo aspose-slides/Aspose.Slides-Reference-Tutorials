@@ -130,4 +130,4 @@ Ya, Anda dapat menyesuaikan tampilan titik data terbalik. Aspose.Slides untuk Ja
 
 ### Di mana saya dapat mengakses dokumentasi Aspose.Slides untuk Java?
 
- Anda dapat mengakses dokumentasi Aspose.Slides untuk Java di[Di Sini](https://reference.aspose.com/slides/java/).
+Anda dapat mengakses dokumentasi Aspose.Slides untuk Java di[Di Sini](https://reference.aspose.com/slides/java/).

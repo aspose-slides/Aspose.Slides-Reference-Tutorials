@@ -1,8 +1,8 @@
 ---
-title: Skrýt tvary v PowerPointu pomocí Aspose.Slides .NET Tutorial
+title: Skrýt tvary v aplikaci PowerPoint pomocí výukového programu Aspose.Slides .NET
 linktitle: Skrytí obrazců v prezentačních snímcích s Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se skrýt tvary ve snímcích PowerPoint pomocí Aspose.Slides for .NET. Přizpůsobte si prezentace programově pomocí tohoto podrobného průvodce.
+description: Naučte se, jak skrýt tvary ve snímcích PowerPoint pomocí Aspose.Slides for .NET. Přizpůsobte si prezentace programově pomocí tohoto podrobného průvodce.
 type: docs
 weight: 21
 url: /cs/net/shape-geometry-and-positioning-in-slides/hiding-shapes/

@@ -10,7 +10,7 @@ url: /ko/net/additional-chart-features/clear-specific-chart-series-data-points-d
 
 Aspose.Slides for .NET은 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에서 특정 차트 시리즈 데이터 포인트를 지우는 과정을 안내합니다. 이 튜토리얼이 끝나면 차트 데이터 포인트를 쉽게 조작할 수 있게 됩니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인해야 합니다.
 

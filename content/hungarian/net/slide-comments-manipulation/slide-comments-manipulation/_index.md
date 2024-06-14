@@ -47,10 +47,10 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 
 ## Dia megjegyzések szerkesztése és formázása
 
-Az Aspose.Slides segítségével nem csak megjegyzéseket fűzhet hozzá, hanem szükség szerint módosíthatja és formázhatja azokat. Ez lehetővé teszi világos és tömör megjegyzések készítését. Nézzük meg, hogyan szerkeszthetjük és formázhatjuk a dia megjegyzéseit:
+Az Aspose.Slides segítségével nem csak megjegyzéseket fűzhet hozzá, hanem szükség szerint módosíthatja és formázhatja azokat. Ez lehetővé teszi világos és tömör megjegyzések készítését. Vizsgáljuk meg, hogyan szerkeszthetjük és formázhatjuk a dia megjegyzéseit:
 
 ```csharp
-// Töltsd fel a prezentációt megjegyzésekkel
+// Töltse be a prezentációt megjegyzésekkel
 using var presentation = new Presentation("modified.pptx");
 
 // Szerezd meg az első diát
@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Módosítsa a megjegyzés pozícióját
 comment.Position = new Point(100, 100);
 
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -77,7 +77,7 @@ presentation.Save("formatted.pptx", SaveFormat.Pptx);
 A prezentációk fejlődésével előfordulhat, hogy el kell távolítania az elavult vagy szükségtelen megjegyzéseket. Az Aspose.Slides lehetővé teszi a megjegyzések egyszerű törlését. Itt van, hogyan:
 
 ```csharp
-// Töltsd fel a prezentációt megjegyzésekkel
+// Töltse be a prezentációt megjegyzésekkel
 using var presentation = new Presentation("formatted.pptx");
 
 // Szerezd meg az első diát
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Törölje a megjegyzést
 slide.Comments.Remove(comment);
 
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

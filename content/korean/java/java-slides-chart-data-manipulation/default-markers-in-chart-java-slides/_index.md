@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 기본 마커가 있는 차트를 만드는 방법을 살펴보겠습니다. 기본 마커는 차트의 데이터 포인트를 강조 표시하기 위해 추가된 기호 또는 모양입니다. 데이터를 시각화하기 위해 마커가 포함된 꺾은선형 차트를 만들어 보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요.
 
@@ -133,7 +133,7 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 
 ### 마커 기호를 어떻게 변경할 수 있나요?
 
- 각 데이터 포인트에 대한 마커 스타일을 설정하여 마커 기호를 사용자 정의할 수 있습니다. 사용`IDataPoint.setMarkerStyle()` 마커 기호를 변경하려면
+각 데이터 포인트에 대한 마커 스타일을 설정하여 마커 기호를 사용자 정의할 수 있습니다. 사용`IDataPoint.setMarkerStyle()` 마커 기호를 변경하려면
 
 ### 차트 색상을 어떻게 조정하나요?
 

@@ -71,7 +71,7 @@ try
 	double y = chart.getPlotArea().getActualY();
 	double w = chart.getPlotArea().getActualWidth();
 	double h = chart.getPlotArea().getActualHeight();
-	// Sparar presentation
+	// Sparar presentationen
 	pres.save(dataDir + "Result.pptx", SaveFormat.Pptx);
 }
 finally

@@ -169,4 +169,4 @@ Hai convertito con successo singole diapositive da una presentazione PowerPoint 
 
 ### Come posso gestire la formattazione aggiuntiva per forme e testo all'interno delle diapositive?
 
-Puoi estendere il`CustomFormattingController` classe per gestire la formattazione specifica della forma implementando il file`writeShapeStart` E`writeShapeEnd` metodi e applicando la logica di formattazione personalizzata al loro interno.
+ Puoi estendere il`CustomFormattingController` classe per gestire la formattazione specifica della forma implementando il file`writeShapeStart` E`writeShapeEnd` metodi e applicando la logica di formattazione personalizzata al loro interno.

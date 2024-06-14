@@ -16,11 +16,11 @@ url: /el/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 Πριν βουτήξουμε στον κώδικα, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
-1. Aspose.Slides for Java Library: Θα χρειαστεί να έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.Slides for Java. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides for Java Library: Θα χρειαστεί να έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.Slides for Java. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
 
 2. Περιβάλλον ανάπτυξης Java: Βεβαιωθείτε ότι έχετε ρυθμίσει ένα περιβάλλον ανάπτυξης Java στο σύστημά σας.
 
-## Βήμα 1: Ρύθμιση του Έργου
+## Βήμα 1: Ρύθμιση του έργου
 
 Για να ξεκινήσετε, δημιουργήστε ένα νέο έργο Java στο αγαπημένο σας IDE. Μόλις έχετε έτοιμο το έργο σας, προσθέστε τη βιβλιοθήκη Aspose.Slides for Java στις εξαρτήσεις του έργου σας.
 

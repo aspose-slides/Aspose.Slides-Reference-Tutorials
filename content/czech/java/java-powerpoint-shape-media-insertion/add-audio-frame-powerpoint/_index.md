@@ -18,7 +18,7 @@ Než začnete, ujistěte se, že máte splněny následující předpoklady:
 Importujte potřebné balíčky do svého projektu Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

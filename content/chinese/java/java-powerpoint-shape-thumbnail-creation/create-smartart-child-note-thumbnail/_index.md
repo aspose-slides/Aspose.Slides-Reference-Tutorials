@@ -12,7 +12,7 @@ url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-not
 ## 先决条件
 在开始之前，请确保您已准备好以下物品：
 1. 您的系统上安装了 Java 开发工具包 (JDK)。
-2. Aspose.Slides for Java 库已下载并配置到您的项目中。您可以从以下位置下载该库[这里](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java 库已下载并配置到您的项目中。您可以从以下位置下载该库[这里](https://releases.aspose.com/slides/java/).
 
 ## 导入包
 确保在 Java 类中导入必要的包：
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

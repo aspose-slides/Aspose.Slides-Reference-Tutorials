@@ -112,7 +112,7 @@ finally
 
 ### Jak mohu ovládat pořadí animací série?
 
- Chcete-li ovládat pořadí animací série, použijte`EffectTriggerType.AfterPrevious`parametr při přidávání efektů. To způsobí, že každá animace série začne poté, co skončí předchozí.
+ Chcete-li ovládat pořadí animací série, použijte`EffectTriggerType.AfterPrevious` parametr při přidávání efektů. To způsobí, že každá animace série začne poté, co skončí předchozí.
 
 ### Mohu na každou sérii použít různé animace?
 

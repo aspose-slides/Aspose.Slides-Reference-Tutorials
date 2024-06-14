@@ -31,7 +31,7 @@ Bir PowerPoint sunumuyla çalışmak için önce onu Java uygulamanıza yükleme
 ```java
 // Belgeler dizininin yolu.
 String dataDir = "Your Document Directory";
-//PPTX'i temsil eden Sunum sınıfını örnekleyin
+// PPTX'i temsil eden Sunum sınıfını örnekleyin
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

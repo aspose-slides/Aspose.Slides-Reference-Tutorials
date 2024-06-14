@@ -2,7 +2,7 @@
 title: Aspose.Slides For Java を使用した Java スライド画像の処理
 linktitle: Java スライド画像処理
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java チュートリアルを使用して、Java スライド内の画像を処理する方法を学びます。効率的な画像管理のためのステップバイステップのガイダンスをご覧ください。
+description: Aspose.Slides for Java チュートリアルを使用して、Java スライドで画像を処理する方法を学びます。効率的な画像管理のためのステップバイステップのガイダンスをご覧ください。
 type: docs
 weight: 23
 url: /ja/java/image-handling/

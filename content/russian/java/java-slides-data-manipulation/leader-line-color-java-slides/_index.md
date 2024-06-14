@@ -20,7 +20,7 @@ url: /ru/java/data-manipulation/leader-line-color-java-slides/
 
 ## Шаг 1. Загрузите презентацию
 
-Сначала вам необходимо загрузить презентацию PowerPoint, содержащую диаграмму, которую вы хотите изменить. Заменять`presentationName` с путем к файлу PowerPoint.
+ Сначала вам необходимо загрузить презентацию PowerPoint, содержащую диаграмму, которую вы хотите изменить. Заменять`presentationName` с путем к файлу PowerPoint.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Presentation pres = new Presentation(presentationName);
 // Получите диаграмму с первого слайда
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Получить серию диаграммы
+//Получить серию диаграммы
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Получите этикетки первой серии
@@ -57,22 +57,22 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Наконец, сохраните презентацию с измененными цветами линий выноски в новый файл.
 
 ```java
-// Сохраните измененную презентацию
+//Сохраните измененную презентацию
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Полный исходный код для цвета линии выноски в слайдах Java
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Получите диаграмму с первого слайда
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Получить серию диаграммы
+            //Получить серию диаграммы
             IChartSeriesCollection series = chart.getChartData().getSeries();
-            // Получите лебелы первой серии
+            // Получите лебели первой серии
             IDataLabelCollection labels = series.get_Item(0).getLabels();
             // Изменить цвет всех линий-выносок в коллекции.
             labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
@@ -107,7 +107,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ### Нужна ли мне лицензия для использования Aspose.Slides for Java в коммерческом проекте?
 
-Да, обычно вам нужна действующая лицензия для использования Aspose.Slides for Java в коммерческом проекте. Aspose предлагает различные варианты лицензирования, включая бесплатную ознакомительную лицензию для тестирования и пробной версии. Однако для производственного использования необходимо получить соответствующую коммерческую лицензию. Посетить[Страница покупки Aspose](https://purchase.aspose.com/) для получения подробной информации о лицензировании.
+ Да, обычно вам нужна действующая лицензия для использования Aspose.Slides for Java в коммерческом проекте. Aspose предлагает различные варианты лицензирования, включая бесплатную ознакомительную лицензию для тестирования и пробной версии. Однако для производственного использования необходимо получить соответствующую коммерческую лицензию. Посетить[Aspose Страница покупки](https://purchase.aspose.com/) для получения подробной информации о лицензировании.
 
 ### Как я могу получить техническую поддержку для Aspose.Slides для Java?
 

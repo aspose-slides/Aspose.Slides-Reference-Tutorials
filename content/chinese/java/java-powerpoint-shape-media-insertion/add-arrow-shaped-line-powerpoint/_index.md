@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerp
 首先，在 Java 类中导入必要的包：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

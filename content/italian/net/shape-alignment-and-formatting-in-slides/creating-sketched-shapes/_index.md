@@ -65,7 +65,7 @@ Questo è tutto! Hai creato con successo una presentazione con forme abbozzate u
 L'aggiunta di forme di schizzo alle diapositive della presentazione può migliorare l'attrattiva visiva e coinvolgere il pubblico. Con Aspose.Slides per .NET, il processo diventa semplice, permettendoti di liberare la tua creatività senza sforzo.
 ## Domande frequenti
 ### 1. Posso personalizzare l'effetto abbozzato?
-Sì, Aspose.Slides per .NET offre varie opzioni di personalizzazione per gli effetti di schizzo. Fare riferimento al[documentazione](https://reference.aspose.com/slides/net/) per informazioni dettagliate.
+ Sì, Aspose.Slides per .NET offre varie opzioni di personalizzazione per gli effetti di schizzo. Fare riferimento al[documentazione](https://reference.aspose.com/slides/net/) per informazioni dettagliate.
 ### 2. È disponibile una prova gratuita?
  Certamente! Puoi esplorare una prova gratuita di Aspose.Slides per .NET[Qui](https://releases.aspose.com/).
 ### 3. Dove posso ottenere supporto?

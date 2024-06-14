@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Stellen Sie sicher, dass Sie ersetzen`"Your Document Directory"`durch den Pfad, in dem Sie Ihre Präsentationsdateien speichern möchten.
+ Stellen Sie sicher, dass Sie ersetzen`"Your Document Directory"` durch den Pfad, in dem Sie Ihre Präsentationsdateien speichern möchten.
 ## Schritt 2: Laden Sie die Präsentation
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
@@ -62,7 +62,7 @@ In diesem Tutorial haben wir die Grundlagen zum Abrufen effektiver Abschrägungs
 ### Ist Aspose.Slides für .NET mit allen Versionen von .NET Framework kompatibel?
 Ja, Aspose.Slides für .NET unterstützt eine breite Palette von .NET Framework-Versionen und gewährleistet so die Kompatibilität mit verschiedenen Entwicklungsumgebungen.
 ### Wo finde ich zusätzliche Ressourcen und Support für Aspose.Slides für .NET?
- Besuche den[Aspose.Slides für .NET Forum](https://forum.aspose.com/c/slides/11) für Community-Unterstützung und erkunden Sie die umfassenden[Dokumentation](https://reference.aspose.com/slides/net/) für eine ausführliche Anleitung.
+ Besuche den[Aspose.Slides für .NET Forum](https://forum.aspose.com/c/slides/11) für die Unterstützung der Gemeinschaft und erkunden Sie die umfassenden[Dokumentation](https://reference.aspose.com/slides/net/) für eine ausführliche Anleitung.
 ### Wie kann ich eine temporäre Lizenz für Aspose.Slides für .NET erhalten?
  Erwerben Sie eine temporäre Lizenz von[Hier](https://purchase.aspose.com/temporary-license/) um das volle Potenzial von Aspose.Slides für .NET während Ihrer Testphase zu bewerten.
 ### Kann ich Aspose.Slides für .NET zur kommerziellen Nutzung erwerben?

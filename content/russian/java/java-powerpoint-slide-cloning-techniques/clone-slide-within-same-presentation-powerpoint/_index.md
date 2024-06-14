@@ -22,11 +22,11 @@ url: /ru/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## Шаг 1. Настройте свой проект
- Начните с настройки проекта Java в IDE. Создайте новый проект и добавьте библиотеку Aspose.Slides for Java в зависимости вашего проекта. Вы можете скачать библиотеку с сайта[Страница загрузки Aspose.Slides для Java](https://releases.aspose.com/slides/java/).
+Начните с настройки проекта Java в IDE. Создайте новый проект и добавьте библиотеку Aspose.Slides for Java в зависимости вашего проекта. Вы можете скачать библиотеку с сайта[Страница загрузки Aspose.Slides для Java](https://releases.aspose.com/slides/java/).
 ## Шаг 2. Определите каталог данных
 Определите путь к каталогу документов, в котором находится файл презентации. Это поможет Aspose.Slides правильно найти и сохранить файлы.
 ```java
@@ -62,8 +62,8 @@ Aspose.Slides for Java — это мощный API для работы с пре
 ### Как загрузить Aspose.Slides для Java?
  Вы можете загрузить последнюю версию Aspose.Slides для Java с сайта[страница загрузки](https://releases.aspose.com/slides/java/).
 ### Доступна ли бесплатная пробная версия Aspose.Slides для Java?
-Да, вы можете получить доступ к бесплатной пробной версии Aspose.Slides для Java, посетив[бесплатная пробная страница](https://releases.aspose.com/).
+ Да, вы можете получить доступ к бесплатной пробной версии Aspose.Slides для Java, посетив[бесплатная пробная страница](https://releases.aspose.com/).
 ### Где я могу найти документацию по Aspose.Slides для Java?
- Документация по Aspose.Slides для Java доступна на сайте[Веб-сайт Aspose](https://reference.aspose.com/slides/java/).
+Документация по Aspose.Slides для Java доступна на сайте[Веб-сайт Aspose](https://reference.aspose.com/slides/java/).
 ### Как я могу приобрести Aspose.Slides для Java?
  Вы можете приобрести Aspose.Slides для Java, посетив[страница покупки](https://purchase.aspose.com/buy).

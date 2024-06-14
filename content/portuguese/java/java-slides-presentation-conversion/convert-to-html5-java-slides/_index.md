@@ -74,7 +74,7 @@ try {
 // O caminho para o diretório de documentos
 String dataDir = "Your Document Directory";
 // O caminho para o arquivo de saída
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Exporte uma apresentação contendo transições de slides, animações e animações de formas para HTML5

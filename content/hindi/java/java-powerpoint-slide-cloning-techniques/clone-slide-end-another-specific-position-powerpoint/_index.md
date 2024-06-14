@@ -22,7 +22,7 @@ url: /hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-s
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 अब, आइये इस प्रक्रिया को सरल चरणों में विभाजित करें।
@@ -62,7 +62,7 @@ if (srcPres != null) srcPres.dispose();
 ```
 
 ## निष्कर्ष
-बधाई हो! आपने Aspose.Slides for Java का उपयोग करके एक प्रस्तुति से स्लाइड को दूसरे प्रस्तुति में एक विशिष्ट स्थान पर सफलतापूर्वक क्लोन किया है। यह शक्तिशाली सुविधा आपको बड़ी प्रस्तुतियों से निपटने या जब आपको कई फ़ाइलों में सामग्री का पुन: उपयोग करने की आवश्यकता होती है, तो आपका बहुत समय और प्रयास बचा सकती है।
+बधाई हो! आपने Aspose.Slides for Java का उपयोग करके एक प्रस्तुति से एक स्लाइड को दूसरे प्रस्तुति में एक विशिष्ट स्थान पर सफलतापूर्वक क्लोन किया है। यह शक्तिशाली सुविधा आपको बड़ी प्रस्तुतियों से निपटने या जब आपको कई फ़ाइलों में सामग्री का पुन: उपयोग करने की आवश्यकता होती है, तो आपका बहुत समय और प्रयास बचा सकती है।
  अधिक विस्तृत दस्तावेज़ीकरण के लिए, यहां जाएं[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) यदि आपको कोई समस्या आती है, तो[Aspose समर्थन मंच](https://forum.aspose.com/c/slides/11) सहायता प्राप्त करने के लिए एक बेहतरीन स्थान है।
 ## अक्सर पूछे जाने वाले प्रश्न
 ### क्या मैं एक साथ कई स्लाइडों का क्लोन बना सकता हूँ?

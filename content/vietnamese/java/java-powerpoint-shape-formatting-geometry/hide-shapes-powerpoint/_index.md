@@ -19,7 +19,7 @@ Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có
 Để bắt đầu, bạn cần nhập các gói cần thiết cho Aspose.Slides. Đây là cách bạn có thể làm điều đó:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Trong phần này, chúng tôi sẽ chia nhỏ quy trình ẩn hình trong PowerPoint thành các bước dễ thực hiện. Mỗi bước bao gồm một tiêu đề và giải thích chi tiết.
 ## Bước 1: Thiết lập dự án của bạn
@@ -74,7 +74,7 @@ Chúc mừng! Bạn đã học thành công cách ẩn hình dạng trong bản 
 ### Aspose.Slides cho Java là gì?
 Aspose.Slides cho Java là một API mạnh mẽ để thao tác các tệp PowerPoint theo chương trình. Nó cho phép các nhà phát triển tạo, sửa đổi và quản lý bản trình bày mà không cần Microsoft PowerPoint.
 ### Làm cách nào để ẩn hình trong PowerPoint bằng Java?
- Bạn có thể ẩn một hình dạng bằng cách đặt nó`setHidden` tài sản để`true`Điều này liên quan đến việc xác định hình dạng bằng văn bản thay thế và lặp qua các hình dạng trên trang chiếu.
+ Bạn có thể ẩn một hình dạng bằng cách đặt nó`setHidden` tài sản để`true`. Điều này liên quan đến việc xác định hình dạng bằng văn bản thay thế và lặp qua các hình dạng trên trang chiếu.
 ### Tôi có thể sử dụng Aspose.Slides cho Java với các ngôn ngữ lập trình khác không?
 Aspose.Slides có sẵn cho nhiều ngôn ngữ lập trình khác nhau bao gồm .NET, Python và C++. Tuy nhiên, hướng dẫn này đặc biệt đề cập đến Java.
 ### Có bản dùng thử miễn phí cho Aspose.Slides không?

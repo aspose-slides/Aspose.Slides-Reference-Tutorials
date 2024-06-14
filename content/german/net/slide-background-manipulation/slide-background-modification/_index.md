@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Ihr Code zur Änderung des Folienhintergrunds wird hier eingefügt.
     // Wir werden dies in den nächsten Schritten untersuchen.
     
-    // Speichern der geänderten Präsentation
+    //Speichern der geänderten Präsentation
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ In diesem Schritt passen wir den Hintergrund der ersten Folie an. Sie können ih
 ## Schritt 6: Speichern Sie die geänderte Präsentation
 
 ```csharp
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

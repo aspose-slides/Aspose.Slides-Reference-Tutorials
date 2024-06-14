@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 เมื่อคุณเพิ่มเอฟเฟ็กต์ภาพเคลื่อนไหวลงในแผนภูมิแล้ว ให้บันทึกงานนำเสนอที่แก้ไขลงในดิสก์
 
 ```csharp
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

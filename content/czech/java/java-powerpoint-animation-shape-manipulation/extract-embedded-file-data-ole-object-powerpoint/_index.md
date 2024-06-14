@@ -23,7 +23,7 @@ import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.OleObjectFrame;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 ```
@@ -49,7 +49,7 @@ Presentation pres = new Presentation(pptxFileName);
 for (ISlide sld : pres.getSlides()) {
     for (IShape shape : sld.getShapes()) {
 ```
-Zde iterujeme každý snímek a obrazec v rámci prezentace.
+Zde iterujeme každý snímek a obrazec v prezentaci.
 ## Krok 5: Zkontrolujte objekt OLE
 ```java
 if (shape instanceof OleObjectFrame) {

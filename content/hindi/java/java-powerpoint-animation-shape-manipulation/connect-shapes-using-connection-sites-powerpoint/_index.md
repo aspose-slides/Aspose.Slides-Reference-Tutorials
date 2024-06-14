@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: आकृति संग्रह तक पहुँचना
 चयनित स्लाइड के लिए आकृति संग्रह तक पहुंचें:

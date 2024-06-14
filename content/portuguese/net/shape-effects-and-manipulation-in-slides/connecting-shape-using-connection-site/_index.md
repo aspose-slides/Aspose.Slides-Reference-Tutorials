@@ -50,7 +50,7 @@ Conecte as formas usando o conector:
 connector.StartShapeConnectedTo = ellipse;
 connector.EndShapeConnectedTo = rectangle;
 ```
-## Etapa 5: definir o local de conexão desejado
+## Etapa 5: definir o site de conexão desejado
 Especifique o índice do site de conexão desejado para o conector:
 ```csharp
 uint wantedIndex = 6;

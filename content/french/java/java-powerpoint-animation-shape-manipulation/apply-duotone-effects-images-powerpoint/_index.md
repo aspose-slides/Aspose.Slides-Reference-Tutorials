@@ -14,12 +14,12 @@ Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivan
 1.  Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre ordinateur. Vous pouvez le télécharger depuis le[Site Web Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2.  Bibliothèque Aspose.Slides pour Java : vous pouvez télécharger la bibliothèque à partir du[Page de téléchargement d'Aspose.Slides](https://releases.aspose.com/slides/java/).
 3. Environnement de développement intégré (IDE) : un IDE comme IntelliJ IDEA ou Eclipse pour écrire et exécuter votre code Java.
-4.  Fichier image : un fichier image (par exemple,`aspose-logo.jpg`) pour appliquer l’effet Duotone.
+4.  Fichier image : un fichier image (par exemple,`aspose-logo.jpg`) pour appliquer l'effet Duotone.
 ## Importer des packages
 Tout d'abord, vous devrez importer les packages nécessaires dans votre programme Java. Voici comment procéder :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

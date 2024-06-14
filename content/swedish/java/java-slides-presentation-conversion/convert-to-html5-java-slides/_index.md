@@ -74,7 +74,7 @@ try {
 // Sökvägen till dokumentkatalogen
 String dataDir = "Your Document Directory";
 // Sökvägen till utdatafil
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Exportera en presentation som innehåller bildövergångar, animationer och formanimationer till HTML5

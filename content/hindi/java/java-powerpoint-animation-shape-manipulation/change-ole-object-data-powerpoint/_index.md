@@ -8,21 +8,21 @@ weight: 14
 url: /hi/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
 ## परिचय
-PowerPoint प्रस्तुतियों में OLE ऑब्जेक्ट डेटा को बदलना एक महत्वपूर्ण कार्य हो सकता है जब आपको प्रत्येक स्लाइड को मैन्युअल रूप से संपादित किए बिना एम्बेडेड सामग्री को अपडेट करने की आवश्यकता होती है। यह व्यापक गाइड आपको Aspose.Slides for Java का उपयोग करके प्रक्रिया के माध्यम से मार्गदर्शन करेगा, जो PowerPoint प्रस्तुतियों को संभालने के लिए डिज़ाइन की गई एक शक्तिशाली लाइब्रेरी है। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, आपको यह ट्यूटोरियल मददगार और अनुसरण करने में आसान लगेगा।
+PowerPoint प्रस्तुतियों में OLE ऑब्जेक्ट डेटा बदलना एक महत्वपूर्ण कार्य हो सकता है जब आपको प्रत्येक स्लाइड को मैन्युअल रूप से संपादित किए बिना एम्बेडेड सामग्री को अपडेट करने की आवश्यकता होती है। यह व्यापक गाइड आपको Aspose.Slides for Java का उपयोग करके प्रक्रिया के माध्यम से मार्गदर्शन करेगा, जो PowerPoint प्रस्तुतियों को संभालने के लिए डिज़ाइन की गई एक शक्तिशाली लाइब्रेरी है। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, आपको यह ट्यूटोरियल मददगार और अनुसरण करने में आसान लगेगा।
 ## आवश्यक शर्तें
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए आवश्यक सभी चीजें मौजूद हैं।
 1.  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल की साइट](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides for Java: से नवीनतम संस्करण डाउनलोड करें[Aspose.Slides डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (IDE): आप किसी भी जावा IDE जैसे कि IntelliJ IDEA, Eclipse, या NetBeans का उपयोग कर सकते हैं।
 4.  Aspose.Cells for Java: OLE ऑब्जेक्ट के भीतर एम्बेडेड डेटा को संशोधित करने के लिए यह आवश्यक है। इसे यहाँ से डाउनलोड करें[Aspose.Cells डाउनलोड पृष्ठ](https://releases.aspose.com/cells/java/).
-5. प्रेजेंटेशन फ़ाइल: एम्बेडेड OLE ऑब्जेक्ट के साथ एक PowerPoint फ़ाइल तैयार रखें। इस ट्यूटोरियल के लिए, आइए इसका नाम रखें`ChangeOLEObjectData.pptx`.
+5.  प्रेजेंटेशन फ़ाइल: एम्बेडेड OLE ऑब्जेक्ट के साथ एक PowerPoint फ़ाइल तैयार रखें। इस ट्यूटोरियल के लिए, आइए इसका नाम रखें`ChangeOLEObjectData.pptx`.
 ## पैकेज आयात करें
 सबसे पहले, आइए अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें।
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

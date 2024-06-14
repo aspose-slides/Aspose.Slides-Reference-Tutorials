@@ -70,6 +70,6 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
 ### ถาม: Aspose.Slides สำหรับ .NET มีรุ่นทดลองใช้ฟรีหรือไม่
  ตอบ: ได้ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Slides สำหรับ .NET ได้อย่างไร
-ตอบ: ขอความช่วยเหลือและมีส่วนร่วมกับชุมชนในเรื่อง[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ ตอบ: ขอความช่วยเหลือและมีส่วนร่วมกับชุมชนในเรื่อง[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### ถาม: ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับ .NET ได้หรือไม่
  ตอบ: แน่นอน คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).

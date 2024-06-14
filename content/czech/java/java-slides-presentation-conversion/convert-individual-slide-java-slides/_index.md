@@ -169,4 +169,4 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ### Jak zvládnu další formátování tvarů a textu na snímcích?
 
-Můžete prodloužit`CustomFormattingController` třídy pro zpracování formátování specifického pro tvar implementací`writeShapeStart` a`writeShapeEnd` metody a v nich aplikovat vlastní logiku formátování.
+ Můžete prodloužit`CustomFormattingController` třídy pro zpracování formátování specifického pro tvar implementací`writeShapeStart` a`writeShapeEnd` metody a v nich aplikovat vlastní logiku formátování.

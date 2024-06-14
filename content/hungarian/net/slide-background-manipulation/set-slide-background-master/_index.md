@@ -127,7 +127,7 @@ Igen, az Aspose.Slides for .NET rugalmasságot biztosít a gradiens hátterek be
 
 ### 3. Elérhetőek előre meghatározott háttérsablonok az Aspose.Slides for .NET-ben?
 
-Az Aspose.Slides for .NET előre meghatározott diaelrendezések és -sablonok széles skáláját kínálja, amelyeket prezentációi kiindulópontjaként használhat.
+Az Aspose.Slides for .NET előre definiált diaelrendezések és -sablonok széles skáláját kínálja, amelyeket prezentációi kiindulópontjaként használhat.
 
 ### 4. Beállíthatok háttérképet szín helyett?
 

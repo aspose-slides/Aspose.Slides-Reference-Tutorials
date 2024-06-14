@@ -101,7 +101,7 @@ Parabéns! Você aprendeu com sucesso como converter apresentações do PowerPoi
 
 ### Como posso baixar Aspose.Slides para Java?
 
-Você pode baixar Aspose.Slides para Java no site da Aspose. Visita[aqui](https://releases.aspose.com/slides/java/) para acessar o link de download.
+ Você pode baixar Aspose.Slides para Java no site da Aspose. Visita[aqui](https://releases.aspose.com/slides/java/) para acessar o link de download.
 
 ### Há algum requisito de licenciamento para usar Aspose.Slides for Java?
 

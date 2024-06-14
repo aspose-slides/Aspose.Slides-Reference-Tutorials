@@ -14,7 +14,7 @@ No mundo da visualização e apresentação de dados, a incorporação de gráfi
 
 Antes de começarmos a trabalhar com Aspose.Slides for .NET, você precisará garantir que possui os seguintes pré-requisitos:
 
-1.  Aspose.Slides for .NET: Para acessar a biblioteca e utilizá-la, você deve ter o Aspose.Slides for .NET instalado. Você pode obter a biblioteca no[página de download](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Para acessar a biblioteca e utilizá-la, você deve ter o Aspose.Slides for .NET instalado. Você pode obter a biblioteca no[página de download](https://releases.aspose.com/slides/net/).
 
 2. Ambiente de desenvolvimento: você deve ter um ambiente de desenvolvimento configurado, de preferência usando um ambiente de desenvolvimento integrado .NET como o Visual Studio.
 

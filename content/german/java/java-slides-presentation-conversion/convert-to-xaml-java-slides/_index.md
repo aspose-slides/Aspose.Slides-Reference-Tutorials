@@ -96,7 +96,7 @@ In diesem Schritt richten wir den benutzerdefinierten Ausgabespeicher ein, führ
 
 ```java
 	// Pfad zur Quellpräsentation
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Konvertierungsoptionen erstellen
@@ -109,7 +109,7 @@ In diesem Schritt richten wir den benutzerdefinierten Ausgabespeicher ein, führ
 		pres.save(xamlOptions);
 		// Speichern von XAML-Dateien in einem Ausgabeverzeichnis
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

@@ -111,7 +111,7 @@ Neste tutorial, exploramos como obter valores e escala de unidade de eixos em Ja
 
 Sim, você pode personalizar a aparência dos rótulos dos eixos do gráfico usando Aspose.Slides para Java. Consulte a documentação para obter orientação detalhada.
 
-### Aspose.Slides for Java é compatível com as versões mais recentes do Java?
+### O Aspose.Slides for Java é compatível com as versões mais recentes do Java?
 
 Aspose.Slides for Java é atualizado regularmente para oferecer suporte às versões mais recentes do Java, garantindo compatibilidade com os desenvolvimentos Java mais recentes.
 

@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Passaggio 2: aggiungi una diapositiva e crea il grafico a dispersione
 
- Successivamente, aggiungi una diapositiva e crea il grafico a dispersione su di essa. Utilizzeremo il`ScatterWithSmoothLines` tipo di grafico in questo esempio.
+ Successivamente, aggiungi una diapositiva e crea il grafico a dispersione su di essa. Utilizzeremo il`ScatterWithSmoothLines`tipo di grafico in questo esempio.
 
 ```java
 // Ottieni la prima diapositiva
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Creazione del grafico predefinito
+//Creazione del grafico predefinito
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Ottenere l'indice del foglio di lavoro dei dati del grafico predefinito
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ In questo tutorial, ti abbiamo guidato attraverso il processo di creazione di un
 
 ### Come posso cambiare il tipo di grafico?
 
- Per modificare il tipo di grafico, utilizzare il file`setType`metodo sulla serie di grafici e fornire il tipo di grafico desiderato. Per esempio,`series.setType(ChartType.Line)` cambierebbe la serie in un grafico a linee.
+ Per modificare il tipo di grafico, utilizzare il file`setType` metodo sulla serie di grafici e fornire il tipo di grafico desiderato. Per esempio,`series.setType(ChartType.Line)` cambierebbe la serie in un grafico a linee.
 
 ### Come posso personalizzare la dimensione e lo stile del pennarello?
 

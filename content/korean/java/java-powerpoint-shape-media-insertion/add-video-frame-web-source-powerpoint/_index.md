@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-p
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 YouTube와 같은 웹 소스의 비디오 프레임을 PowerPoint 프레젠테이션에 추가하는 방법을 알아봅니다. 이러한 단계별 지침을 따르면 매력적인 멀티미디어 요소를 통합하여 프레젠테이션을 향상시킬 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 - Java 프로그래밍에 대한 기본 지식.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
@@ -23,7 +23,7 @@ import com.aspose.slides.IVideoFrame;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.VideoPlayModePreset;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

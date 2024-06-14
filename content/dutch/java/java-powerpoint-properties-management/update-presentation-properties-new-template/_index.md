@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Definieer de hoofdmethode
 Maak een hoofdmethode waarmee u het proces voor het bijwerken van presentatie-eigenschappen met een nieuwe sjabloon start. Deze methode dient als toegangspunt voor uw Java-toepassing.

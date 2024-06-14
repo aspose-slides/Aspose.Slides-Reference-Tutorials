@@ -53,7 +53,7 @@ try {
 
 ## Шаг 6. Установите свойства легенды:
 
-- Установите X-позицию легенды (относительно ширины диаграммы):
+- Установите положение легенды по оси X (относительно ширины диаграммы):
 
 ```java
 chart.getLegend().setX(50 / chart.getWidth());
@@ -77,7 +77,7 @@ chart.getLegend().setWidth(100 / chart.getWidth());
 chart.getLegend().setHeight(100 / chart.getHeight());
 ```
 
-## Шаг 7. Сохраните презентацию на диск:
+## Шаг 7: Сохраните презентацию на диск:
 
 ```java
     presentation.save(dataDir + "Legend_out.pptx", SaveFormat.Pptx);

@@ -10,7 +10,7 @@ url: /id/net/shape-alignment-and-formatting-in-slides/
 
 ## Perkenalan
 
-Selamat datang di dunia tutorial Aspose.Slides yang didedikasikan untuk penyelarasan dan pemformatan bentuk! Seri tutorial ini dirancang untuk memberdayakan pengembang .NET dengan pengetahuan dan keterampilan yang dibutuhkan untuk memanipulasi dan mendesain slide dengan presisi. Baik Anda membuat presentasi yang menarik secara visual atau membuat diagram yang rumit, menguasai penyelarasan dan pemformatan bentuk sangat penting untuk mendapatkan tampilan yang halus dan profesional.
+Selamat datang di dunia tutorial Aspose.Slides yang didedikasikan untuk penyelarasan dan pemformatan bentuk! Seri tutorial ini dirancang untuk memberdayakan pengembang .NET dengan pengetahuan dan keterampilan yang diperlukan untuk memanipulasi dan mendesain slide dengan presisi. Baik Anda membuat presentasi yang menarik secara visual atau membuat diagram yang rumit, menguasai penyelarasan dan pemformatan bentuk sangat penting untuk mendapatkan tampilan yang halus dan profesional.
 
 ## Mengapa Penyelarasan Bentuk dan Pemformatan Penting
 
@@ -43,4 +43,4 @@ Pelajari cara membuat slide presentasi menawan dengan bentuk sketsa menggunakan 
 ### [Menambahkan Stretch Offset ke Kiri untuk Bingkai Gambar di Aspose.Slides](./adding-stretch-offset-left-picture-frame/)
 Pelajari cara menambahkan offset regangan ke kiri untuk bingkai foto di PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan contoh kode sumber lengkap.
 ### [Mengganti Judul Gambar Bingkai Objek OLE dalam Slide Presentasi](./substituting-picture-title-ole-object-frame/)
-Pelajari cara mengganti judul gambar bingkai objek OLE di slide presentasi menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber lengkap.
+Pelajari cara mengganti judul gambar bingkai objek OLE dalam slide presentasi menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber lengkap.

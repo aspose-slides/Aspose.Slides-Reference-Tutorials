@@ -40,7 +40,7 @@ Użyj poniższego kodu, aby załadować plik prezentacji:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Twój kod do pobierania danych dotyczących efektywnej platformy świetlnej znajduje się tutaj
+    //Twój kod do pobierania danych dotyczących efektywnej platformy świetlnej znajduje się tutaj
 }
 ```
 ## Krok 4: Pobierz efektywne dane z Light Rig

@@ -16,7 +16,7 @@ Multimedya sunumları dünyasında ses, slaytlarınızın genel etkisini artırm
 
 ### 1. Aspose.Slides for .NET Kitaplığı
 
- Aspose.Slides for .NET kütüphanesinin geliştirme ortamınızda kurulu olması gerekir. Henüz yapmadıysanız, adresindeki web sitesinden indirebilirsiniz.[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/).
+Aspose.Slides for .NET kütüphanesinin geliştirme ortamınızda kurulu olması gerekir. Henüz yapmadıysanız, adresindeki web sitesinden indirebilirsiniz.[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/).
 
 ### 2. Sesli Köprülerle PowerPoint Sunumu
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Adım 2: PowerPoint Sunumunu Yükleyin
 
- Aspose.Slides'ı kullanarak ses bağlantısını içeren PowerPoint sunumunu (PPTX) yükleyin. Yer değiştirmek`"HyperlinkSound.pptx"` sununuzun gerçek dosya adıyla.
+ Aspose.Slides'ı kullanarak ses bağlantısını içeren PowerPoint sunumunu (PPTX) yükleyin. Yer değiştirmek`"HyperlinkSound.pptx"`sununuzun gerçek dosya adıyla.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 Köprünün ilişkili bir sesi varsa, onu bir bayt dizisi olarak çıkarabilir ve bir medya dosyası olarak kaydedebiliriz.
 
 ```csharp
-//Bayt dizisindeki köprü sesini çıkarır
+// Bayt dizisindeki köprü sesini çıkarır
 byte[] audioData = link.Sound.BinaryData;
 
 // Çıkarılan sesi kaydetmek istediğiniz yolu belirtin
@@ -101,7 +101,7 @@ Evet, Aspose.Slides for .NET, köprülerden ses çıkarmak için hem PPTX hem de
  Evet, Aspose.Slides ile ilgili yardım alabilir ve deneyimlerinizi paylaşabilirsiniz.[Aspose.Slides topluluk forumu](https://forum.aspose.com/).
 
 ### Kısa süreli bir proje için Aspose.Slides'ın geçici lisansını satın alabilir miyim?
- Evet, kısa vadeli proje ihtiyaçlarınızı karşılamak için Aspose.Slides for .NET için geçici bir lisans alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Evet, kısa vadeli proje ihtiyaçlarınızı karşılamak için Aspose.Slides for .NET için geçici bir lisans alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### MPG dışında, çıkarma için desteklenen başka ses formatları var mı?
 Aspose.Slides for .NET, MPG ile sınırlı olmamak üzere çeşitli formatlarda ses çıkarmanıza olanak tanır. Çıkarma işleminden sonra tercih ettiğiniz formata dönüştürebilirsiniz.

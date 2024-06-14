@@ -22,7 +22,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 ## Étape 1 : Configurez votre projet Java
 
 1. Créez un nouveau projet Java dans votre IDE préféré.
-2.  Ajoutez la bibliothèque Aspose.Slides pour Java à votre projet. Vous pouvez télécharger la bibliothèque à partir du[Site Aspose](https://products.aspose.com/slides/java)et incluez-le comme dépendance.
+2.  Ajoutez la bibliothèque Aspose.Slides pour Java à votre projet. Vous pouvez télécharger la bibliothèque à partir du[Site Aspose](https://products.aspose.com/slides/java) et incluez-le comme dépendance.
 
 ## Étape 2 : Importer les bibliothèques requises
 Dans votre classe Java, importez les bibliothèques nécessaires pour travailler avec Aspose.Slides :

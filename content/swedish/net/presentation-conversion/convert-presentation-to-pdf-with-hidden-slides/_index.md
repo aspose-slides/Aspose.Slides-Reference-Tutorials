@@ -72,7 +72,7 @@ class Program
 
 ## Slutsats
 
-Att konvertera presentationer till PDF är en vanlig uppgift, men när man hanterar dolda bilder är det viktigt att använda ett tillförlitligt bibliotek som Aspose.Slides för .NET. Genom att följa stegen som beskrivs i den här guiden kan du sömlöst konvertera presentationer till PDF samtidigt som du säkerställer att dolda bilder ingår, vilket bibehåller presentationens övergripande kvalitet och sammanhang.
+Att konvertera presentationer till PDF är en vanlig uppgift, men när man hanterar dolda bilder är det viktigt att använda ett pålitligt bibliotek som Aspose.Slides för .NET. Genom att följa stegen som beskrivs i den här guiden kan du sömlöst konvertera presentationer till PDF samtidigt som du säkerställer att dolda bilder ingår, vilket bibehåller presentationens övergripande kvalitet och sammanhang.
 
 ## FAQ's
 

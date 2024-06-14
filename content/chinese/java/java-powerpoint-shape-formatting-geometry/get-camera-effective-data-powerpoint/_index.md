@@ -12,15 +12,15 @@ Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程
 ## 先决条件
 在开始之前，您需要满足一些先决条件：
 1. Java 开发工具包 (JDK)：确保您的机器上安装了 JDK 8 或更高版本。
-2. Aspose.Slides for Java 库：从下载最新版本[网站](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java 库：从下载最新版本[网站](https://releases.aspose.com/slides/java/).
 3. 集成开发环境 (IDE)：使用 IntelliJ IDEA 或 Eclipse 等 IDE 获得更流畅的编码体验。
-4. 示例 PowerPoint 文件：准备一个 PowerPoint 文件（例如，`Presentation1.pptx`) 准备测试代码。
+4. 示例 PowerPoint 文件：准备一个 PowerPoint 文件（例如，`Presentation1.pptx`准备测试代码。
 ## 导入包
 首先，让我们导入使用 Aspose.Slides for Java 所需的包。这些导入将允许我们管理演示文稿并访问其属性。
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置你的项目
 ### 创建 Java 项目

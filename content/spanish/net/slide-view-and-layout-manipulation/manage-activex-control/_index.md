@@ -17,7 +17,7 @@ Para comenzar a incorporar controles ActiveX en sus presentaciones de PowerPoint
 
 2. Agregar una diapositiva: use la biblioteca para agregar una nueva diapositiva a su presentación. Esta será la diapositiva donde desea insertar el control ActiveX.
 
-3. Inserte el control ActiveX: ahora es el momento de insertar el control ActiveX en la diapositiva. Puede lograr esto siguiendo el código de muestra a continuación:
+3. Inserte el control ActiveX: Ahora es el momento de insertar el control ActiveX en la diapositiva. Puede lograr esto siguiendo el código de muestra a continuación:
 
 ```csharp
 // Cargar la presentación
@@ -29,7 +29,7 @@ ISlide slide = presentation.Slides[0];
 // Definir las propiedades del control ActiveX.
 int left = 100; // Especificar la posición izquierda
 int top = 100; // Especifique la posición superior
-int width = 200; // Especificar el ancho
+int width = 200; // Especifique el ancho
 int height = 100; // Especifique la altura
 string progId = "YourActiveXControl.ProgID"; // Especifique el ProgID del control ActiveX
 
@@ -98,7 +98,7 @@ Si desea eliminar un control ActiveX de una diapositiva, siga estos pasos:
 
 1.  Acceder al Control: Obtenga una referencia al control ActiveX usando el`IOleObjectFrame` referencia como se mostró anteriormente.
 
-2. Eliminar el control: utilice el siguiente código para eliminar el control de la diapositiva:
+2. Eliminar el control: use el siguiente código para eliminar el control de la diapositiva:
 
 ```csharp
 slide.Shapes.Remove(oleObjectFrame);

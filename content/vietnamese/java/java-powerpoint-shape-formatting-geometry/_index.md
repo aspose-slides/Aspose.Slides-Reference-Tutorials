@@ -11,22 +11,22 @@ url: /vi/java/java-powerpoint-shape-formatting-geometry/
 
 Tạo bản trình bày PowerPoint hấp dẫn trực quan thường yêu cầu định dạng hình dạng chính xác và thao tác hình học. Với Aspose.Slides cho Java, các nhà phát triển có thể đưa bài thuyết trình của họ lên một tầm cao mới. Bài viết này khám phá các hướng dẫn cần thiết về cách điền hình, tìm hình và tạo hình học tùy chỉnh, làm cho trang chiếu của bạn trở nên nổi bật.
 
-## Điền vào các hình dạng với dải màu, hoa văn, hình ảnh và màu đồng nhất
+## Điền vào các hình dạng với độ dốc, hoa văn, hình ảnh và màu đồng nhất
 
-Một trong những khía cạnh quan trọng của việc làm cho bài thuyết trình của bạn trở nên hấp dẫn về mặt trực quan là sử dụng các kiểu tô màu khác nhau cho hình dạng. Cho dù bạn muốn lấp đầy các hình dạng bằng độ dốc, mẫu, hình ảnh hay màu đơn sắc, Aspose.Slides cho Java đều cung cấp các giải pháp toàn diện. 
+Một trong những khía cạnh quan trọng của việc làm cho bài thuyết trình của bạn trở nên hấp dẫn về mặt trực quan là sử dụng các kiểu tô màu khác nhau cho hình dạng. Cho dù bạn muốn lấp đầy các hình dạng bằng độ dốc, mẫu, hình ảnh hay màu đơn sắc, Aspose.Slides for Java đều cung cấp các giải pháp toàn diện. 
 
--  Màu tô chuyển màu: Việc thêm màu tô chuyển màu có thể mang lại cho hình dạng của bạn một cái nhìn tinh tế. hướng dẫn[Tô màu các hình dạng với dải màu trong PowerPoint](./fill-shapes-gradient-powerpoint/)hướng dẫn bạn thực hiện quy trình theo từng bước.
+-  Màu tô chuyển màu: Việc thêm màu tô chuyển màu có thể mang lại cho hình dạng của bạn một cái nhìn tinh tế. Hướng dẫn[Tô màu các hình dạng với dải màu trong PowerPoint](./fill-shapes-gradient-powerpoint/)hướng dẫn bạn thực hiện quy trình theo từng bước.
 -  Màu tô mẫu: Các mẫu có thể thêm họa tiết vào hình dạng của bạn, tăng cường sự thú vị về mặt hình ảnh. Tìm hiểu cách áp dụng các mẫu với hướng dẫn[Tô hình dạng bằng mẫu trong PowerPoint](./fill-shapes-pattern-powerpoint/).
--  Picture Fill: Để có một bản trình bày năng động và hấp dẫn hơn, việc lấp đầy các hình bằng hình ảnh là một lựa chọn tuyệt vời. hướng dẫn[Điền vào hình dạng bằng hình ảnh trong PowerPoint](./fill-shapes-picture-powerpoint/) chỉ cho bạn cách thực hiện việc này một cách dễ dàng.
+-  Picture Fill: Để có một bản trình bày năng động và hấp dẫn hơn, việc lấp đầy các hình bằng hình ảnh là một lựa chọn tuyệt vời. Hướng dẫn[Điền vào hình dạng bằng hình ảnh trong PowerPoint](./fill-shapes-picture-powerpoint/) chỉ cho bạn cách thực hiện việc này một cách dễ dàng.
 -  Tô màu đồng nhất: Đôi khi sự đơn giản là chìa khóa và việc tô màu đồng nhất có thể rất hiệu quả. Thực hiện theo các bước trong[Tô màu cho hình dạng bằng màu đồng nhất trong PowerPoint](./fill-shapes-solid-color-powerpoint/) để làm chủ được kỹ thuật này.
 
 ## Nhận dạng và định dạng hình dạng
 
 Việc tìm và định dạng hình dạng một cách hiệu quả có thể hợp lý hóa quy trình làm việc của bạn và đảm bảo các trang chiếu của bạn chính xác như bạn mong muốn. Aspose.Slides for Java cung cấp các công cụ mạnh mẽ cho các tác vụ này.
 
--  Tìm hình dạng: Việc định vị nhanh các hình dạng trong trang trình bày của bạn là rất quan trọng để chỉnh sửa hiệu quả. hướng dẫn[Tìm hình dạng trong slide](./find-shape-slide-powerpoint/) cung cấp một phương pháp liền mạch để xác định hình dạng.
+-  Tìm hình dạng: Việc định vị nhanh các hình dạng trong trang trình bày của bạn là rất quan trọng để chỉnh sửa hiệu quả. Hướng dẫn[Tìm hình dạng trong slide](./find-shape-slide-powerpoint/) cung cấp một phương pháp liền mạch để xác định hình dạng.
 -  Định dạng đường kẻ: Tùy chỉnh kiểu đường kẻ có thể nâng cao đáng kể chất lượng hình ảnh của hình dạng của bạn. Tìm hiểu cách định dạng dòng với[Định dạng dòng trong PowerPoint](./format-lines-powerpoint/).
--  Kiểu nối: Các kiểu nối đường khác nhau có thể tạo thêm vẻ bóng bẩy cho hình dạng của bạn. hướng dẫn[Định dạng kiểu nối trong PowerPoint](./format-join-styles-powerpoint/) hướng dẫn bạn thực hiện cải tiến này.
+-  Kiểu nối: Các kiểu nối đường khác nhau có thể tạo thêm vẻ bóng bẩy cho hình dạng của bạn. Hướng dẫn[Định dạng kiểu nối trong PowerPoint](./format-join-styles-powerpoint/) hướng dẫn bạn thực hiện cải tiến này.
 
 ## Thao tác hình học nâng cao
 

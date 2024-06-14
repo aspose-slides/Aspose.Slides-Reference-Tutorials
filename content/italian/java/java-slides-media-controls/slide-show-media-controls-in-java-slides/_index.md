@@ -10,7 +10,7 @@ url: /it/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ## Introduzione ai controlli multimediali della presentazione in Diapositive Java
 
-Nel regno delle presentazioni dinamiche e coinvolgenti, gli elementi multimediali svolgono un ruolo fondamentale nel catturare l'attenzione del pubblico. Java Slides, con l'assistenza di Aspose.Slides per Java, consente agli sviluppatori di creare presentazioni accattivanti che incorporano perfettamente i controlli multimediali. Che tu stia progettando un modulo di formazione, una presentazione di vendita o una presentazione educativa, la capacità di controllare i media durante la presentazione è un punto di svolta.
+Nel regno delle presentazioni dinamiche e coinvolgenti, gli elementi multimediali svolgono un ruolo fondamentale nel catturare l'attenzione del pubblico. Java Slides, con l'assistenza di Aspose.Slides per Java, consente agli sviluppatori di creare presentazioni accattivanti che incorporano perfettamente i controlli multimediali. Che tu stia progettando un modulo di formazione, una presentazione di vendita o una presentazione educativa, la possibilità di controllare i media durante la presentazione è un punto di svolta.
 
 ## Prerequisiti
 
@@ -34,7 +34,7 @@ Iniziamo creando una nuova presentazione. Ecco come puoi farlo in Presentazioni 
 
 ```java
 // Percorso del documento PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -55,7 +55,7 @@ Questa riga di codice indica a Java Slides di visualizzare i controlli multimedi
 Ora aggiungiamo i media alle nostre diapositive. Puoi aggiungere file audio o video alle diapositive utilizzando le funzionalità estese di Java Slides.
 
 Personalizza la riproduzione multimediale
-Puoi personalizzare ulteriormente la riproduzione multimediale, ad esempio impostando l'ora di inizio e fine, il volume e altro, per creare un'esperienza multimediale su misura per il tuo pubblico.
+Puoi personalizzare ulteriormente la riproduzione multimediale, ad esempio impostando l'ora di inizio e di fine, il volume e altro, per creare un'esperienza multimediale su misura per il tuo pubblico.
 
 ## Passaggio 5: salvataggio della presentazione
 
@@ -71,7 +71,7 @@ Questo codice salva la presentazione con i controlli multimediali abilitati.
 
 ```java
 // Percorso del documento PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Õabilita la visualizzazione del controllo multimediale in modalità presentazione.

@@ -65,7 +65,7 @@ try {
 }
 ```
 
- tym kodzie najpierw usuwamy z wykresu wszelkie istniejące kategorie i serie. Następnie dodajemy punkty danych do serii za pomocą`getDataPoints().addDataPointForHistogramSeries` metoda. Na koniec ustawiamy typ agregacji osi poziomej na Automatyczny i zapisujemy prezentację.
+ W tym kodzie najpierw usuwamy z wykresu wszelkie istniejące kategorie i serie. Następnie dodajemy punkty danych do serii za pomocą`getDataPoints().addDataPointForHistogramSeries` metoda. Na koniec ustawiamy typ agregacji osi poziomej na Automatyczny i zapisujemy prezentację.
 
 ## Kompletny kod źródłowy wykresu histogramu w slajdach Java
 
@@ -97,7 +97,7 @@ finally
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak utworzyć wykres histogramu w prezentacji programu PowerPoint przy użyciu interfejsu API Aspose.Slides for Java. Wykresy histogramowe to cenne narzędzia do wizualizacji rozkładu danych w ciągłym przedziale czasu i mogą stanowić potężny dodatek do prezentacji, zwłaszcza gdy mamy do czynienia z treściami statystycznymi lub analitycznymi.
+tym samouczku omówiliśmy, jak utworzyć wykres histogramu w prezentacji programu PowerPoint przy użyciu interfejsu API Aspose.Slides for Java. Wykresy histogramowe to cenne narzędzia do wizualizacji rozkładu danych w ciągłym przedziale czasu i mogą stanowić potężny dodatek do prezentacji, zwłaszcza gdy mamy do czynienia z treściami statystycznymi lub analitycznymi.
 
 ## Często zadawane pytania
 

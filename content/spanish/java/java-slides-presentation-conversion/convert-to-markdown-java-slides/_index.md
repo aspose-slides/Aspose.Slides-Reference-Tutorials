@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Ruta a la presentación fuente
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Ruta y nombre de carpeta para guardar datos de rebajas
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Crear opciones de creación de Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Establezca el parámetro para representar todos los elementos (los elementos que estén agrupados se representarán juntos).

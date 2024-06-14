@@ -19,12 +19,12 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 सबसे पहले, आइए Aspose.Slides for Java के साथ आरंभ करने के लिए आवश्यक पैकेजों को आयात करें।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 मिश्रित ऑब्जेक्ट बनाना जटिल लग सकता है, लेकिन इसे प्रबंधनीय चरणों में तोड़कर, आप पाएंगे कि यह जितना आप सोचते हैं उससे कहीं ज़्यादा आसान है। हम एक पावरपॉइंट प्रेजेंटेशन बनाएंगे, एक आकृति जोड़ेंगे, और फिर मिश्रित आकृति बनाने के लिए कई ज्यामिति पथों को परिभाषित और लागू करेंगे।
 ## चरण 1: अपना प्रोजेक्ट सेट करें
-कोई भी कोड लिखने से पहले, अपना जावा प्रोजेक्ट सेट अप करें। अपने IDE में एक नया प्रोजेक्ट बनाएँ और Aspose.Slides for Java को शामिल करें। आप Maven का उपयोग करके लाइब्रेरी जोड़ सकते हैं या JAR फ़ाइल को डाउनलोड कर सकते हैं।[Aspose.Slides डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
+ कोई भी कोड लिखने से पहले, अपना जावा प्रोजेक्ट सेट अप करें। अपने IDE में एक नया प्रोजेक्ट बनाएँ और Aspose.Slides for Java को शामिल करें। आप Maven का उपयोग करके लाइब्रेरी जोड़ सकते हैं या JAR फ़ाइल को डाउनलोड कर सकते हैं।[Aspose.Slides डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 ### Maven का उपयोग करके अपने प्रोजेक्ट में Aspose.Slides जोड़ना
  यदि आप Maven का उपयोग कर रहे हैं, तो अपने में निम्नलिखित निर्भरता जोड़ें`pom.xml` फ़ाइल:
 ```xml
@@ -35,10 +35,10 @@ import com.aspose.slides.examples.RunExamples;
 </dependency>
 ```
 ## चरण 2: प्रस्तुति आरंभ करें
- अब, चलिए एक नया पावरपॉइंट प्रेजेंटेशन बनाते हैं। हम इसे इनिशियलाइज़ करके शुरू करेंगे।`Presentation` कक्षा।
+अब, चलिए एक नया पावरपॉइंट प्रेजेंटेशन बनाते हैं। हम इसे इनिशियलाइज़ करके शुरू करेंगे।`Presentation` कक्षा।
 ```java
 // आउटपुट फ़ाइल नाम
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## चरण 3: एक नया आकार बनाएँ
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## चरण 7: प्रेजेंटेशन सहेजें
 अंत में, अपनी प्रस्तुति को एक फ़ाइल में सेव करें।
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## चरण 8: संसाधनों को साफ़ करें

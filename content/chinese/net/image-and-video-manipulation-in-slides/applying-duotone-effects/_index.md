@@ -73,7 +73,7 @@ Console.WriteLine("Duotone effective color2: " + duotoneEffective.Color2);
 ## 常见问题解答
 ### 我可以将双色调效果仅应用于特定的幻灯片吗？
 是的，您可以通过相应地修改代码将双色调效果应用于特定的幻灯片。
-### Aspose.Slides 中还有其他可用的图像转换效果吗？
+### Aspose.Slides 中还有其他图像转换效果吗？
 Aspose.Slides 提供一系列图像转换效果，包括灰度、棕褐色等。查看文档了解详情。
 ### Aspose.Slides 是否与最新的.NET 框架兼容？
 是的，Aspose.Slides 会定期更新以确保与最新的 .NET 框架版本兼容。

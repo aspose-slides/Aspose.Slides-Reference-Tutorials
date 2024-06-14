@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 للبدء، ستحتاج إلى استيراد الحزم اللازمة لـ Aspose.Slides. وإليك كيف يمكنك القيام بذلك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 في هذا القسم، سنقوم بتقسيم عملية إخفاء الأشكال في PowerPoint إلى خطوات سهلة المتابعة. تتضمن كل خطوة عنوانًا وشرحًا تفصيليًا.
 ## الخطوة 1: قم بإعداد مشروعك
@@ -74,7 +74,7 @@ pres.save(dataDir + "Hiding_Shapes_out.pptx", SaveFormat.Pptx);
 ### ما هو Aspose.Slides لجافا؟
 Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قوية لمعالجة ملفات PowerPoint برمجيًا. فهو يسمح للمطورين بإنشاء العروض التقديمية وتعديلها وإدارتها دون الحاجة إلى Microsoft PowerPoint.
 ### كيف يمكنني إخفاء شكل في PowerPoint باستخدام جافا؟
- يمكنك إخفاء الشكل من خلال ضبطه`setHidden` الملكية ل`true`يتضمن ذلك تحديد الشكل من خلال نصه البديل والتكرار خلال الأشكال الموجودة على الشريحة.
+ يمكنك إخفاء الشكل من خلال ضبطه`setHidden` الملكية ل`true`. يتضمن ذلك تحديد الشكل من خلال نصه البديل والتكرار خلال الأشكال الموجودة على الشريحة.
 ### هل يمكنني استخدام Aspose.Slides لـ Java مع لغات البرمجة الأخرى؟
 يتوفر Aspose.Slides للعديد من لغات البرمجة بما في ذلك .NET وPython وC++. ومع ذلك، يغطي هذا الدليل Java على وجه التحديد.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides؟

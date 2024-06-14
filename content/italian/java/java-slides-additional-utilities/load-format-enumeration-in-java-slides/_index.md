@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Conclusione
 
- In questo tutorial, abbiamo imparato come caricare una presentazione PowerPoint in Java utilizzando Aspose.Slides e verificarne il formato utilizzando il comando`LoadFormat`enumerazione. Ciò può essere utile quando è necessario gestire presentazioni di formati diversi in modo diverso nell'applicazione Java.
+ In questo tutorial, abbiamo imparato come caricare una presentazione PowerPoint in Java utilizzando Aspose.Slides e verificarne il formato utilizzando il comando`LoadFormat` enumerazione. Ciò può essere utile quando è necessario gestire presentazioni di formati diversi in modo diverso nell'applicazione Java.
 
 ## Domande frequenti
 
 ### Come posso scaricare Aspose.Slides per Java?
 
- È possibile scaricare la libreria Aspose.Slides per Java dal sito Web Aspose visitando[questo link](https://releases.aspose.com/slides/java/).
+È possibile scaricare la libreria Aspose.Slides per Java dal sito Web Aspose visitando[questo link](https://releases.aspose.com/slides/java/).
 
 ### Qual è lo scopo di controllare il formato della presentazione?
 

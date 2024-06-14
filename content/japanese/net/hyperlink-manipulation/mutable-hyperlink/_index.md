@@ -78,7 +78,7 @@ presentation.Save(dataDir + "presentation-out.pptx", SaveFormat.Pptx);
 
 Aspose.Slides for .NET を使用すると、PowerPoint プレゼンテーションで変更可能なハイパーリンクを簡単に作成できます。このガイドで説明されている簡単な手順に従うだけで、視聴者を魅了する動的でインタラクティブなプレゼンテーションを作成できます。企業向けプレゼンテーションや教育用資料を作成する開発者であれば、Aspose.Slides を使用すると、ハイパーリンクを追加してコンテンツを簡単に強化できます。
 
-より詳しい情報と資料については、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
+より詳しい情報とドキュメントについては、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
 
 ## よくある質問
 

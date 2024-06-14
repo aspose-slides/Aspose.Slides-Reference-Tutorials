@@ -12,7 +12,7 @@ A .NET fejlesztés világában az Aspose.Slides hatékony eszköz a prezentáci�
 ## Előfeltételek
 Mielőtt belemerülnénk a lépésekbe, győződjön meg arról, hogy a következők vannak a helyükön:
 1.  Aspose.Slides Library: Győződjön meg arról, hogy telepítve van a .NET Aspose.Slides könyvtára. Letöltheti innen[itt](https://releases.aspose.com/slides/net/).
-2. Nyomtatókonfiguráció: Győződjön meg arról, hogy a nyomtató megfelelően van konfigurálva, és elérhető a .NET-környezetből.
+2. Nyomtatókonfiguráció: Győződjön meg arról, hogy nyomtatója megfelelően van konfigurálva, és elérhető a .NET-környezetből.
 3. Integrált fejlesztői környezet (IDE): be kell állítania egy .NET fejlesztői környezetet, például a Visual Studio-t.
 4. Dokumentumkönyvtár: Adja meg a könyvtárat, ahol a prezentációs fájlokat tárolja.
 ## Névterek importálása

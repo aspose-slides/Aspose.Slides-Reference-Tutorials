@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Добавляем новую серию
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	//Теперь заполняем данные серии
+	// Теперь заполняем данные серии
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -197,4 +197,4 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().setFontItalic(NullableBool.True); // Сделайте заголовок курсивом
 ```
 
-При необходимости вы можете настроить размер шрифта, его жирность и стиль курсива.
+При необходимости вы можете настроить размер, жирность и курсив шрифта.

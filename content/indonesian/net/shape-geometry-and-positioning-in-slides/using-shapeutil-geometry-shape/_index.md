@@ -69,7 +69,7 @@ Gunakan ShapeUtil untuk mengubah jalur grafis menjadi jalur geometri dan mengatu
 ```csharp
 shape.SetGeometryPaths(new[] { originalPath, textPath });
 ```
-Gabungkan jalur geometri baru dengan jalur asli dan atur ke bentuk.
+Gabungkan jalur geometri baru dengan jalur asli dan atur ke bentuknya.
 ## Langkah 9: Simpan Presentasi
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);

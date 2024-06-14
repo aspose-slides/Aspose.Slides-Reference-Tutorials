@@ -12,7 +12,7 @@ url: /ko/java/presentation-properties/access-layout-formats-in-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드의 레이아웃 형식에 액세스하고 작업하는 방법을 살펴보겠습니다. 레이아웃 형식을 사용하면 프레젠테이션의 레이아웃 슬라이드 내에서 모양과 선의 모양을 제어할 수 있습니다. 레이아웃 슬라이드의 도형에 대한 채우기 형식과 선 형식을 검색하는 방법을 다룹니다.
 
-## 전제조건
+## 전제 조건
 
 1. Aspose.Slides for Java 라이브러리.
 2. 레이아웃 슬라이드가 포함된 PowerPoint 프레젠테이션(PPTX 형식)입니다.

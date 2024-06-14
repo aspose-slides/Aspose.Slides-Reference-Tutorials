@@ -102,13 +102,13 @@ finally
 
 ## Következtetés
 
-Sikeresen animálta a kategóriaelemeket egy Java dián az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató megadja a szükséges forráskódot és magyarázatokat ahhoz, hogy ezt az animációs hatást elérhesse PowerPoint-prezentációiban. Kísérletezzen különböző effektusokkal és beállításokkal az animációk testreszabásához.
+Sikeresen animálta a kategóriaelemeket egy Java dián az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató megadta a szükséges forráskódot és magyarázatokat ahhoz, hogy ezt az animációs hatást elérhesse PowerPoint-prezentációiban. Kísérletezzen különböző effektusokkal és beállításokkal az animációk testreszabásához.
 
 ## GYIK
 
 ### Hogyan szabhatom testre az animációs effektusokat?
 
- Az animációs effektusokat testreszabhatja a`EffectType` és`EffectSubtype` paramétereket, amikor effektusokat ad hozzá a diagramelemekhez. Az elérhető animációs effektusokkal kapcsolatos további részletekért tekintse meg az Aspose.Slides for Java dokumentációt.
+ Az animációs effektusokat testreszabhatja a`EffectType` és`EffectSubtype` paramétereket, amikor effektusokat ad hozzá a diagramelemekhez. Az elérhető animációs effektusokról az Aspose.Slides for Java dokumentációjában talál további részleteket.
 
 ### Alkalmazhatom ezeket az animációkat más típusú diagramokon?
 

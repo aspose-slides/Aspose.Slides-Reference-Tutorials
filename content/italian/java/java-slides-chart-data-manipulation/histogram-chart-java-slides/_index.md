@@ -65,7 +65,7 @@ try {
 }
 ```
 
-In questo codice, innanzitutto cancelliamo tutte le categorie e le serie esistenti dal grafico. Quindi, aggiungiamo i punti dati alla serie utilizzando il metodo`getDataPoints().addDataPointForHistogramSeries` metodo. Infine, impostiamo il tipo di aggregazione dell'asse orizzontale su Automatico e salviamo la presentazione.
+ In questo codice, innanzitutto cancelliamo tutte le categorie e le serie esistenti dal grafico. Quindi, aggiungiamo i punti dati alla serie utilizzando il metodo`getDataPoints().addDataPointForHistogramSeries` metodo. Infine, impostiamo il tipo di aggregazione dell'asse orizzontale su Automatico e salviamo la presentazione.
 
 ## Codice sorgente completo per il grafico dell'istogramma nelle diapositive Java
 

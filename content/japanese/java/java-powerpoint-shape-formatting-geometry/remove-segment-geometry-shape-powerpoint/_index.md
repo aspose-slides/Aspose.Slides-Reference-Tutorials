@@ -12,14 +12,14 @@ Java を使用して PowerPoint プレゼンテーションの図形を操作し
 ## 前提条件
 始める前に、以下のものを用意してください。
 1.  Java開発キット（JDK）：システムにJDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java: Aspose.Slides for Javaライブラリを以下からダウンロードしてください。[ここ](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Aspose.Slides for Javaライブラリを以下からダウンロードしてください。[ここ](https://releases.aspose.com/slides/java/).
 3. 統合開発環境 (IDE): Java コードの記述と実行には、IntelliJ IDEA や Eclipse などの IDE を使用します。
 4. Java の基礎知識: Java プログラミングの基本的な理解があれば、このチュートリアルを理解するのに役立ちます。
 ## パッケージのインポート
 まず、Aspose.Slides ライブラリから必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 PowerPoint スライドのジオメトリ図形からセグメントを削除するプロセスを複数のステップに分解してみましょう。
 ## ステップ1: 新しいプレゼンテーションを作成する
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## ステップ6: プレゼンテーションを保存する
 最後に、変更したプレゼンテーションをファイルに保存します。
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## ステップ7: リソースをクリーンアップする

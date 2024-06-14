@@ -75,7 +75,7 @@ finally
 
 ## Conclusão
 
-Neste tutorial, você aprendeu como definir propriedades de fonte para texto em slides Java usando Aspose.Slides for Java. Você pode aplicar essas técnicas para melhorar a aparência do texto nas apresentações do PowerPoint.
+Neste tutorial, você aprendeu como definir propriedades de fonte para texto em slides Java usando Aspose.Slides for Java. Você pode aplicar essas técnicas para melhorar a aparência do texto em suas apresentações do PowerPoint.
 
 ## Perguntas frequentes
 

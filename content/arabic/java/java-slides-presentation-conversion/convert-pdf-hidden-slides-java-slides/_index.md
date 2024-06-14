@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## الخطوة 3: تكوين خيارات PDF
 
- قم بتكوين خيارات PDF لتضمين الشرائح المخفية في مخرجات PDF. يمكنك القيام بذلك عن طريق تعيين`setShowHiddenSlides` ملكية`PdfOptions` الفئة الى`true`.
+قم بتكوين خيارات PDF لتضمين الشرائح المخفية في مخرجات PDF. يمكنك القيام بذلك عن طريق تعيين`setShowHiddenSlides` ملكية`PdfOptions` الفئة الى`true`.
 
 ```java
 // إنشاء مثيل لفئة PdfOptions
@@ -92,7 +92,7 @@ finally
 
 ## خاتمة
 
-في هذا الدليل الشامل، تعلمت كيفية تحويل عرض PowerPoint التقديمي إلى PDF مع الحفاظ على الشرائح المخفية باستخدام Aspose.Slides for Java. لقد قدمنا لك برنامجًا تعليميًا خطوة بخطوة بالإضافة إلى كود المصدر الضروري لتحقيق هذه المهمة بسلاسة.
+في هذا الدليل الشامل، تعلمت كيفية تحويل عرض PowerPoint التقديمي إلى PDF مع الحفاظ على الشرائح المخفية باستخدام Aspose.Slides لـ Java. لقد قدمنا لك برنامجًا تعليميًا خطوة بخطوة بالإضافة إلى كود المصدر الضروري لتحقيق هذه المهمة بسلاسة.
 
 ## الأسئلة الشائعة
 
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### كيف يمكنني تنزيل Aspose.Slides لنظام Java؟
 
-يمكنك تنزيل Aspose.Slides for Java من موقع Aspose. قم بزيارة[صفحة تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/) للحصول على أحدث إصدار.
+ يمكنك تنزيل Aspose.Slides for Java من موقع Aspose. قم بزيارة[صفحة تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/) للحصول على أحدث إصدار.

@@ -125,7 +125,7 @@ V tomto příkladu načteme prezentaci PowerPoint (`TestChart.pptx` ) a vymažte
 
 Aspose.Slides for .NET poskytuje robustní platformu pro práci s grafy v prezentacích PowerPoint. S pokročilými funkcemi předvedenými v tomto kurzu můžete posunout vizualizaci dat a návrh prezentace na další úroveň. Ať už potřebujete extrahovat data, obnovit sešity nebo manipulovat s datovými body grafu, Aspose.Slides pro .NET vás pokryje.
 
-Dodržováním poskytnutých příkladů kódu a kroků můžete využít sílu Aspose.Slides pro .NET k vylepšení vašich prezentací PowerPoint a vytvoření působivých vizuálů řízených daty.
+Podle poskytnutých příkladů kódu a kroků můžete využít sílu Aspose.Slides pro .NET k vylepšení vašich prezentací v PowerPointu a vytvořit působivé vizuály založené na datech.
 
 ## Často kladené otázky (FAQ)
 

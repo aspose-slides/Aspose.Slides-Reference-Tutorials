@@ -16,7 +16,7 @@ url: /zh-hant/java/additional-utilities/open-password-protected-presentation-in-
 
 在開始之前，請確保您具備以下先決條件：
 
-1. Aspose.Slides for Java 函式庫：確保您已下載並安裝 Aspose.Slides for Java 函式庫。您可以從[阿斯普斯網站](https://products.aspose.com/slides/java/).
+1.  Aspose.Slides for Java 函式庫：確保您已下載並安裝 Aspose.Slides for Java 函式庫。您可以從[阿斯普斯網站](https://products.aspose.com/slides/java/).
 
 2. Java 開發環境：如果您尚未在系統上設定 Java 開發環境，請先設定環境。您可以從以下位置下載 Java[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
 

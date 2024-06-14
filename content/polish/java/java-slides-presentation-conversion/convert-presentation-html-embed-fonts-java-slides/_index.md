@@ -10,14 +10,14 @@ url: /pl/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## Wprowadzenie do konwertowania prezentacji do formatu HTML za pomocą osadzania wszystkich czcionek w slajdach Java
 
-W dzisiejszej erze cyfrowej konwersja prezentacji do formatu HTML stała się niezbędna do płynnego udostępniania informacji na różnych platformach. Podczas pracy z Java Slides bardzo ważne jest, aby upewnić się, że wszystkie czcionki użyte w prezentacji są osadzone, aby zachować spójne formatowanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces konwertowania prezentacji do formatu HTML podczas osadzania wszystkich czcionek za pomocą Aspose.Slides for Java. Zacznijmy!
+dzisiejszej erze cyfrowej konwersja prezentacji do formatu HTML stała się niezbędna do płynnego udostępniania informacji na różnych platformach. Podczas pracy z Java Slides bardzo ważne jest, aby upewnić się, że wszystkie czcionki użyte w prezentacji są osadzone, aby zachować spójne formatowanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces konwertowania prezentacji do formatu HTML podczas osadzania wszystkich czcionek za pomocą Aspose.Slides for Java. Zacznijmy!
 
 ## Warunki wstępne
 
 Zanim zagłębimy się w kod i proces konwersji, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-- Aspose.Slides for Java API, z którego możesz pobrać[Tutaj](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API, z którego możesz pobrać[Tutaj](https://releases.aspose.com/slides/java/).
 -  Plik prezentacji (np.`presentation.pptx`), który chcesz przekonwertować na HTML.
 
 ## Krok 1: Konfigurowanie środowiska Java
@@ -26,7 +26,7 @@ Upewnij się, że masz poprawnie zainstalowane w systemie Java i Aspose.Slides f
 
 ## Krok 2: Ładowanie pliku prezentacji
 
- W kodzie Java musisz załadować plik prezentacji, który chcesz przekonwertować. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji.
+ kodzie Java musisz załadować plik prezentacji, który chcesz przekonwertować. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ Możesz sprawdzić kod źródłowy pliku HTML i poszukać odniesień do czcionek
 
 ### Czy mogę bardziej dostosować dane wyjściowe HTML, na przykład styl i układ?
 
- Tak, możesz dostosować wyjście HTML, modyfikując plik`HtmlOptions`oraz szablon HTML używany do formatowania. Aspose.Slides dla Java zapewnia elastyczność w tym zakresie.
+ Tak, możesz dostosować wyjście HTML, modyfikując plik`HtmlOptions` oraz szablon HTML używany do formatowania. Aspose.Slides dla Java zapewnia elastyczność w tym zakresie.
 
 ### Czy są jakieś ograniczenia podczas osadzania czcionek w formacie HTML?
 

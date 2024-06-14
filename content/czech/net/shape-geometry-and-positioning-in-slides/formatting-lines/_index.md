@@ -1,5 +1,5 @@
 ---
-title: Formátování prezentačních řádků pomocí výukového programu Aspose.Slides .NET
+title: Formátování prezentačních řádků pomocí Aspose.Slides .NET Tutorial
 linktitle: Formátování řádků v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentační snímky pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného průvodce a formátujte řádky bez námahy. Stáhněte si bezplatnou zkušební verzi nyní!

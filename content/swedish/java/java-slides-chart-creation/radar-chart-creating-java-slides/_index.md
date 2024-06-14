@@ -1,6 +1,6 @@
 ---
-title: Skapa radardiagram i Java Slides
-linktitle: Skapa radardiagram i Java Slides
+title: Radardiagram skapa i Java Slides
+linktitle: Radardiagram skapa i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar radardiagram i Java PowerPoint-presentationer med Aspose.Slides för Java API.
 type: docs
@@ -21,13 +21,13 @@ den här handledningen kommer vi att guida dig genom processen att skapa ett rad
 Låt oss börja med att skapa en ny PowerPoint-presentation och lägga till en bild till den.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
 ## Steg 2: Lägga till ett radardiagram
 
-Därefter lägger vi till ett radardiagram till bilden. Vi kommer att specificera diagrammets position och dimensioner.
+Därefter kommer vi att lägga till ett radardiagram till bilden. Vi kommer att specificera diagrammets position och dimensioner.
 
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
@@ -57,7 +57,7 @@ ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 4,
 ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 5, 0, "Category 9"));
 ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 6, 0, "Category 11"));
 
-// Lägger till ny serie
+// Lägger till nya serier
 ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
 ```
@@ -150,7 +150,7 @@ Det är allt! Du har framgångsrikt skapat ett radardiagram i en PowerPoint-pres
 ## Komplett källkod för att skapa radardiagram i Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -174,10 +174,10 @@ try
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 4, 0, "Caetegoty 7"));
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 5, 0, "Caetegoty 9"));
 	ichart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 6, 0, "Caetegoty 11"));
-	// Lägger till ny serie
+	// Lägger till nya serier
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Fyller nu på seriedata
+	// Fyller nu på seriedata
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Ställ in seriefärg
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Fyller nu på en annan seriedata
+	//Fyller nu på en annan seriedata
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -250,7 +250,7 @@ För att ändra diagramtiteln, ändra följande rad:
 ichart.getChartTitle().addTextFrameForOverriding("Radar Chart");
 ```
 
-### Kan jag lägga till fler dataserier till radardiagrammet?
+### Kan jag lägga till fler dataserier i radardiagrammet?
 
 Ja, du kan lägga till fler dataserier genom att följa stegen i "Steg 3" och "Steg 4" för varje ytterligare serie du vill inkludera.
 
@@ -267,4 +267,4 @@ Se "Steg 5" för att anpassa axeletiketter och formatering, inklusive teckenstor
 
 ### Hur sparar jag diagrammet i ett annat filformat?
 
- Du kan ändra utdataformatet genom att ändra filtillägget i`outPath` variabel och använda lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.
+Du kan ändra utdataformatet genom att ändra filtillägget i`outPath` variabel och använder lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.

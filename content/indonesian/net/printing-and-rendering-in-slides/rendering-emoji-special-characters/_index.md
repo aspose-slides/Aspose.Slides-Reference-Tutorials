@@ -11,7 +11,7 @@ url: /id/net/printing-and-rendering-in-slides/rendering-emoji-special-characters
 Dalam dunia presentasi yang dinamis, penyampaian emosi dan karakter khusus dapat menambah sentuhan kreativitas dan keunikan. Aspose.Slides for .NET memberdayakan pengembang untuk merender emoji dan karakter khusus dengan lancar dalam presentasi mereka, membuka dimensi ekspresi baru. Dalam tutorial ini, kita akan menjelajahi cara mencapainya dengan panduan langkah demi langkah menggunakan Aspose.Slides.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki hal berikut:
-- Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET yang berfungsi di mesin Anda.
 - Masukan Presentasi: Siapkan file PowerPoint (`input.pptx`) berisi konten yang ingin diperkaya dengan emoji.
 - Direktori Dokumen: Buat direktori untuk dokumen Anda dan ganti "Direktori Dokumen Anda" dalam kode dengan jalur sebenarnya.
@@ -37,7 +37,7 @@ Presentation pres = new Presentation(dataDir + "input.pptx");
 ```csharp
 pres.Save(dataDir + "emoji.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
 ```
-Sekarang, simpan presentasi dengan emoji sebagai file PDF. Aspose.Slides memastikan bahwa emoji dirender secara akurat di file keluaran.
+Sekarang, simpan presentasi dengan emoji sebagai file PDF. Aspose.Slides memastikan bahwa emoji dirender secara akurat di file output.
 ## Kesimpulan
 Selamat! Anda telah berhasil menyempurnakan presentasi Anda dengan menggabungkan emoji dan karakter khusus menggunakan Aspose.Slides untuk .NET. Ini menambahkan lapisan kreativitas dan keterlibatan pada slide Anda, membuat konten Anda lebih hidup.
 ## FAQ

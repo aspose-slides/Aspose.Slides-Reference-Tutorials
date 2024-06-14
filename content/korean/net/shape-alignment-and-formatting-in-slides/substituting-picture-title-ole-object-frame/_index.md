@@ -9,7 +9,7 @@ url: /ko/net/shape-alignment-and-formatting-in-slides/substituting-picture-title
 ---
 ## 소개
 역동적이고 매력적인 프레젠테이션 슬라이드를 만들려면 다양한 멀티미디어 요소를 통합해야 하는 경우가 많습니다. 이 튜토리얼에서는 강력한 Aspose.Slides for .NET 라이브러리를 사용하여 프레젠테이션 슬라이드에서 OLE(Object Linking and Embedding) 개체 프레임의 그림 제목을 대체하는 방법을 살펴보겠습니다. Aspose.Slides는 OLE 개체 처리 프로세스를 단순화하여 개발자에게 프레젠테이션을 쉽게 향상시킬 수 있는 도구를 제공합니다.
-## 전제조건
+## 전제 조건
 단계별 가이드를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.Slides: .NET 라이브러리용 Aspose.Slides가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.Slides .NET 문서](https://reference.aspose.com/slides/net/).
 - 샘플 데이터: 프레젠테이션에 OLE 개체로 포함할 샘플 Excel 파일(예: "ExcelObject.xlsx")을 준비합니다. 또한 OLE 개체의 아이콘 역할을 할 이미지 파일(예: "Image.png")이 있어야 합니다.

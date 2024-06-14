@@ -9,7 +9,7 @@ url: /ko/net/slide-animation-control/repeat-animation-on-slide/
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 애니메이션 제어 기능은 청중의 관심을 끌고 사로잡는 데 중추적인 역할을 합니다. .NET용 Aspose.Slides는 개발자가 슬라이드 내의 애니메이션 유형을 관리할 수 있도록 하여 보다 대화형이고 시각적으로 매력적인 프레젠테이션을 가능하게 합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드의 애니메이션 유형을 제어하는 방법을 단계별로 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/net/).
 2. .NET 개발 환경: 컴퓨터에 .NET 개발 환경을 설정합니다.
@@ -56,7 +56,7 @@ pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Expor
 ## 결론
 Aspose.Slides for .NET을 사용하면 PowerPoint 프레젠테이션에 동적 애니메이션을 통합하는 것이 그 어느 때보다 쉬워졌습니다. 이 단계별 가이드는 슬라이드가 청중에게 지속적인 인상을 남길 수 있도록 애니메이션 유형을 제어하는 지식을 제공합니다.
 ## 자주 묻는 질문
-### 슬라이드 내의 특정 개체에 이러한 애니메이션을 적용할 수 있나요?
+### 슬라이드 내의 특정 개체에 이러한 애니메이션을 적용할 수 있습니까?
 예, 시퀀스 내의 개별 효과에 액세스하여 특정 개체를 대상으로 지정할 수 있습니다.
 ### Aspose.Slides는 최신 PowerPoint 버전과 호환됩니까?
 Aspose.Slides는 다양한 PowerPoint 버전을 지원하여 이전 버전과 새 버전 모두와의 호환성을 보장합니다.

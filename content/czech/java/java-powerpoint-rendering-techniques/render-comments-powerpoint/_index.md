@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte následující:
 Začněte importováním potřebných balíčků do kódu Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

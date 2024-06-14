@@ -28,4 +28,4 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen im normalen An
 ### [Verknüpfen von Videos über ActiveX-Steuerelemente](./linking-video-activex-control/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Videos mit PowerPoint-Folien verknüpfen. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und Tipps zum Erstellen interaktiver und ansprechender Präsentationen mit verknüpften Videos.
 ### [Verwalten des ActiveX-Steuerelements in der Präsentation](./manage-activex-control/)
-Erfahren Sie, wie Sie PowerPoint-Präsentationen mit ActiveX-Steuerelementen mithilfe von Aspose.Slides für .NET verbessern können. Unsere Schritt-für-Schritt-Anleitung behandelt Einfügen, Bearbeiten, Anpassen, Ereignisbehandlung und mehr.
+Erfahren Sie, wie Sie PowerPoint-Präsentationen mit ActiveX-Steuerelementen mithilfe von Aspose.Slides für .NET verbessern können. Unsere Schritt-für-Schritt-Anleitung behandelt Einfügung, Bearbeitung, Anpassung, Ereignisbehandlung und mehr.

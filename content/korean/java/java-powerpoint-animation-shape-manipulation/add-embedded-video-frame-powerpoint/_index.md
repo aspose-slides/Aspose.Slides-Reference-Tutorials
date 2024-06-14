@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-fr
 ---
 ## 소개
 PowerPoint 프레젠테이션에 비디오를 추가하면 프레젠테이션을 더욱 매력적이고 유익하게 만들 수 있습니다. Aspose.Slides for Java를 사용하면 비디오를 슬라이드에 직접 쉽게 삽입할 수 있습니다. 이 튜토리얼에서는 프로세스를 단계별로 안내하여 코드의 모든 부분과 작동 방식을 이해할 수 있도록 합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 포함된 비디오를 사용하여 프레젠테이션을 향상시키는 데 도움이 될 것입니다.
-## 전제조건
+## 전제 조건
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요.
 2. Aspose.Slides for Java: Aspose.Slides for Java 라이브러리를 다운로드하고 설치하세요.
@@ -19,7 +19,7 @@ PowerPoint 프레젠테이션에 비디오를 추가하면 프레젠테이션을
 먼저 Aspose.Slides를 사용하려면 필요한 패키지를 가져와야 합니다. 이러한 가져오기는 슬라이드, 비디오 및 프리젠테이션 파일을 관리하는 데 도움이 됩니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

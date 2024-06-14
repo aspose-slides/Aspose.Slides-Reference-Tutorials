@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //Ο κωδικός σας για τη δημιουργία μιας παρουσίασης βρίσκεται εδώ.
+    // Ο κωδικός σας για τη δημιουργία μιας παρουσίασης βρίσκεται εδώ.
 }
 ```
 ## Βήμα 2: Προσθέστε κινούμενο σχήμα

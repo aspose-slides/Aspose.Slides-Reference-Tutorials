@@ -84,4 +84,4 @@ R : Aspose.Slides est régulièrement mis à jour pour garantir la compatibilit
 ### Q : Où puis-je trouver des exemples et des ressources supplémentaires pour Aspose.Slides ?
  R : Explorez le[Documentation Aspose.Slides](https://reference.aspose.com/slides/net/) pour des exemples et des conseils complets.
 ### Q : Puis-je appliquer plusieurs décalages d’étirement à une seule forme ?
-: Oui, vous pouvez combiner plusieurs décalages d'étirement pour obtenir des effets visuels complexes et personnalisés.
+R : Oui, vous pouvez combiner plusieurs décalages d'étirement pour obtenir des effets visuels complexes et personnalisés.

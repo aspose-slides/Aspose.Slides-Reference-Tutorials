@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Başlamak için gerekli paketleri Java projenize aktarmanız gerekir. Bu içe aktarmalar, bu eğitim için gerekli olan Aspose.Slides işlevlerine erişim sağlayacaktır.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Arka plan renkleri ekleyerek slaytlarımızı görsel olarak farklı kılmak istiyoruz.
 ### İkinci Slayt İçin Arka Planın Ayarlanması
 ```java
-    //İkinci slayt için bir arka plan oluşturun
+    // İkinci slayt için bir arka plan oluşturun
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

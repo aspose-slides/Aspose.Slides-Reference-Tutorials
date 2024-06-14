@@ -18,7 +18,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 Pour commencer, importez les packages nécessaires dans votre projet Java :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

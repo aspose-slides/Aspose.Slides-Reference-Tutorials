@@ -42,7 +42,7 @@ Récupérez le chemin géométrique de la forme créée pour manipuler ses segme
 ```csharp
 IGeometryPath geometryPath = shape.GetGeometryPaths()[0];
 ```
-## Étape 5 : ajouter des segments
+## Étape 5 : Ajouter des segments
 Ajoutez des segments (lignes) au chemin géométrique. Dans cet exemple, deux lignes sont ajoutées au chemin.
 ```csharp
 geometryPath.LineTo(100, 50, 1);

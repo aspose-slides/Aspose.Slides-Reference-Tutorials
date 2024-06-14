@@ -19,9 +19,9 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 För att komma igång måste du importera de nödvändiga paketen för Aspose.Slides. Så här kan du göra det:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
-det här avsnittet kommer vi att dela upp processen att dölja former i PowerPoint i lätta att följa steg. Varje steg innehåller en rubrik och en detaljerad förklaring.
+I det här avsnittet kommer vi att dela upp processen att dölja former i PowerPoint i lätta att följa steg. Varje steg innehåller en rubrik och en detaljerad förklaring.
 ## Steg 1: Konfigurera ditt projekt
 Först och främst måste du ställa in ditt Java-projekt och inkludera Aspose.Slides som ett beroende. Här är hur:
 ### Skapa ett nytt Java-projekt
@@ -74,7 +74,7 @@ Grattis! Du har framgångsrikt lärt dig hur du döljer former i en PowerPoint-p
 ### Vad är Aspose.Slides för Java?
 Aspose.Slides för Java är ett kraftfullt API för att manipulera PowerPoint-filer programmatiskt. Det låter utvecklare skapa, ändra och hantera presentationer utan att behöva Microsoft PowerPoint.
 ### Hur döljer jag en form i PowerPoint med Java?
- Du kan dölja en form genom att ställa in dess`setHidden` egendom till`true`Detta innebär att man identifierar formen med dess alternativa text och går igenom formerna på en bild.
+ Du kan dölja en form genom att ställa in dess`setHidden` egendom till`true`. Detta innebär att man identifierar formen med dess alternativa text och går igenom formerna på en bild.
 ### Kan jag använda Aspose.Slides för Java med andra programmeringsspråk?
 Aspose.Slides är tillgängligt för olika programmeringsspråk inklusive .NET, Python och C++. Den här guiden täcker dock specifikt Java.
 ### Finns det en gratis testversion tillgänglig för Aspose.Slides?

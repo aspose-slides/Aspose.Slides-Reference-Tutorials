@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 Selamat! Anda telah berhasil mempelajari cara menganimasikan elemen rangkaian dalam bagan menggunakan Aspose.Slides untuk .NET. Dengan pengetahuan ini, Anda dapat membuat presentasi PowerPoint yang dinamis dan menarik yang memikat audiens Anda.
 
- Aspose.Slides for .NET adalah alat yang ampuh untuk bekerja dengan file PowerPoint secara terprogram, dan ini membuka banyak kemungkinan untuk membuat presentasi profesional. Jangan ragu untuk menjelajahinya[dokumentasi](https://reference.aspose.com/slides/net/) untuk fitur lanjutan dan opsi penyesuaian lainnya.
+ Aspose.Slides for .NET adalah alat yang ampuh untuk bekerja dengan file PowerPoint secara terprogram, dan ini membuka banyak kemungkinan untuk membuat presentasi profesional. Jangan ragu untuk menjelajahinya[dokumentasi](https://reference.aspose.com/slides/net/)untuk fitur lanjutan dan opsi penyesuaian lainnya.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -18,7 +18,7 @@ Aspose.Slides for .NET هي مكتبة قوية تتيح للمطورين الع
 
 2. بيئة التطوير: تأكد من أن لديك بيئة تطوير عمل، مثل Visual Studio أو أي بيئة تطوير متكاملة أخرى متوافقة لتطوير .NET.
 
-3. المعرفة الأساسية بـ C#: الإلمام بلغة البرمجة C# سيكون مفيدًا، حيث سنقوم بكتابة كود C# للتفاعل مع Aspose.Slides.
+3. المعرفة الأساسية بـ C#: الإلمام بلغة برمجة C# سيكون مفيدًا، حيث سنقوم بكتابة كود C# للتفاعل مع Aspose.Slides.
 
 الآن بعد أن توفرت لديك كافة المتطلبات الأساسية، فلنبدأ في إدارة التعليقات الحديثة باستخدام Aspose.Slides for .NET.
 
@@ -78,7 +78,7 @@ IModernComment modernComment = newAuthor.Comments.AddModernComment("This is a mo
 pres.Save(outPptxFile, SaveFormat.Pptx);
 ```
 
-تهانينا! لقد نجحت في إضافة تعليق حديث إلى عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for .NET.
+تهانينا! لقد نجحت في إضافة تعليق حديث إلى عرض PowerPoint التقديمي باستخدام Aspose.Slides for .NET.
 
 ## خاتمة
 

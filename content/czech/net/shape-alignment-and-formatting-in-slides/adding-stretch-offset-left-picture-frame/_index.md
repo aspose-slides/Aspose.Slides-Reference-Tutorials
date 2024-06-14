@@ -73,7 +73,7 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
 ```
 Gratulujeme! Úspěšně jste přidali posunutí roztažení doleva pro rám obrazu pomocí Aspose.Slides pro .NET.
 ## Závěr
-tomto tutoriálu jsme prozkoumali proces manipulace s rámečky obrázků v prezentacích PowerPoint pomocí Aspose.Slides pro .NET. Sledováním tohoto podrobného průvodce jste získali přehled o práci s obrázky, tvary a posuny.
+V tomto tutoriálu jsme prozkoumali proces manipulace s rámečky obrázků v prezentacích PowerPoint pomocí Aspose.Slides pro .NET. Sledováním tohoto podrobného průvodce jste získali přehled o práci s obrázky, tvary a posuny.
 ## Často kladené otázky
 ### Otázka: Mohu použít odsazení roztažení na jiné tvary kromě obdélníků?
 Odpověď: I když se tento tutoriál zaměřuje na obdélníky, posuny roztažení lze použít na různé tvary podporované Aspose.Slides.

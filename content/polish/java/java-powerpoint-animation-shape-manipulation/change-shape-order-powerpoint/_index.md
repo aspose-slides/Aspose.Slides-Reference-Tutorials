@@ -19,9 +19,9 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 Aby rozpocząć, musisz zaimportować niezbędne pakiety z biblioteki Aspose.Slides. Importy te umożliwią pracę z prezentacjami, slajdami i kształtami.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
-W tym przewodniku podzielimy proces zmiany kolejności kształtów na kilka kroków, aby lepiej zrozumieć i ułatwić wdrożenie.
+tym przewodniku podzielimy proces zmiany kolejności kształtów na kilka kroków, aby lepiej zrozumieć i ułatwić wdrożenie.
 ## Krok 1: Załaduj prezentację
  Najpierw musisz załadować plik prezentacji PowerPoint, z którym chcesz pracować. Ten krok obejmuje inicjalizację pliku`Presentation` class ze ścieżką do pliku programu PowerPoint.
 ```java

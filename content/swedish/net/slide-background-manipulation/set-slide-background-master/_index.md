@@ -16,7 +16,7 @@ Innan vi ger oss ut på den här resan för att förbättra dina färdigheter i 
 
 ### 1. Aspose.Slides för .NET installerat
 
- För att komma igång måste du ha Aspose.Slides för .NET installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner det från[Aspose.Slides för .NET-webbplats](https://releases.aspose.com/slides/net/).
+ För att komma igång måste du ha Aspose.Slides för .NET installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner det från[Aspose.Slides för .NET webbplats](https://releases.aspose.com/slides/net/).
 
 ### 2. Grundläggande förtrogenhet med C#
 
@@ -72,7 +72,7 @@ Den här koden kontrollerar om katalogen finns och skapar den om den inte gör d
 using (Presentation pres = new Presentation())
 {
     // Din kod för att ställa in bakgrundsmastern kommer här.
-    // Vi tar upp detta i nästa steg.
+    // Vi kommer att täcka detta i nästa steg.
 }
 ```
 
@@ -113,7 +113,7 @@ I den här handledningen har vi gått igenom processen att ställa in bildbakgru
 
 Oavsett om du designar presentationer för affärsmöten, pedagogiska föreläsningar eller något annat syfte, kan en välarbetad bakgrund lämna ett bestående intryck. Aspose.Slides för .NET ger dig möjlighet att uppnå detta med lätthet.
 
-Om du har ytterligare frågor eller behöver hjälp kan du alltid besöka[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/) eller sök hjälp från[Aspose community forum](https://forum.aspose.com/).
+Om du har ytterligare frågor eller behöver hjälp kan du alltid besöka[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/) eller sök hjälp från[Aspose gemenskapsforum](https://forum.aspose.com/).
 
 ## Vanliga frågor
 

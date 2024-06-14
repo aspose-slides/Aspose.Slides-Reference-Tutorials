@@ -64,9 +64,9 @@ Az Aspose.Slides for .NET renderelési beállításainak optimalizálása haték
  V: Igen, a`NotesPosition` ingatlan a`NotesCommentsLayoutingOptions`.
 ### K: Hogyan változtathatom meg az alapértelmezett betűtípust a teljes bemutatóhoz?
  V: Állítsa be a`DefaultRegularFont` tulajdonságot a megjelenítési beállításokban a kívánt betűtípusra.
-### K: Vannak további elrendezési lehetőségek a diákhoz?
+### K: Vannak további elrendezési lehetőségek a diák számára?
 V: Igen, tekintse meg az Aspose.Slides dokumentációját az elrendezési lehetőségek átfogó listájához.
 ### K: Használhatok olyan egyéni betűtípusokat, amelyek nincsenek telepítve a rendszeremre?
  V: Igen, adja meg a font fájl elérési útját a`AddFonts` módszer a`FontsLoader` osztály.
 ### K: Hol kérhetek segítséget vagy csatlakozhatok a közösséghez?
-V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) támogatásért és közösségi szerepvállalásért.
+ V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) támogatásért és közösségi szerepvállalásért.

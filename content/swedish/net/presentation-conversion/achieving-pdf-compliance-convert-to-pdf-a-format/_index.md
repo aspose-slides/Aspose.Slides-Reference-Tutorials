@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- I det här kodavsnittet, ersätt`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog och`"YourPresentation.pptx"` med namnet på din PowerPoint-presentation.
+ Ersätt i det här kodavsnittet`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog och`"YourPresentation.pptx"` med namnet på din PowerPoint-presentation.
 
 ### Steg 3: Konfigurera PDF-alternativ
 
@@ -85,7 +85,7 @@ I den här handledningen har du lärt dig hur du uppnår PDF-kompatibilitet geno
 
 ## Vanliga frågor
 
-### Vad är PDF/A-kompatibilitet och varför är det viktigt?
+### Vad är PDF/A-efterlevnad och varför är det viktigt?
 PDF/A är en ISO-standardiserad version av PDF designad för digitalt bevarande. Det är viktigt eftersom det säkerställer att dina dokument förblir tillgängliga och visuellt konsekventa över tiden.
 
 ### Kan jag konvertera presentationer till andra PDF-format med Aspose.Slides för .NET?

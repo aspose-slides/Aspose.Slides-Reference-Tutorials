@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerp
 للبدء، قم باستيراد الحزم الضرورية في فئة Java الخاصة بك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### هل Aspose.Slides for Java متوافق مع أحدث إصدارات PowerPoint؟
 يدعم Aspose.Slides for Java التوافق مع الإصدارات المختلفة من PowerPoint، مما يضمن التكامل السلس مع العروض التقديمية الخاصة بك.
 ### هل يمكنني تخصيص لون الخط على شكل سهم؟
- نعم، يمكنك تخصيص لون الخط على شكل سهم عن طريق ضبط`SolidFillColor` الملكية في الكود.
+نعم، يمكنك تخصيص لون الخط على شكل سهم عن طريق ضبط`SolidFillColor` الملكية في الكود.
 ### هل يدعم Aspose.Slides for Java الأشكال الأخرى إلى جانب الخطوط؟
 نعم، يوفر Aspose.Slides for Java دعمًا شاملاً لإضافة أشكال متنوعة، بما في ذلك المستطيلات والدوائر والمضلعات، إلى شرائح PowerPoint.
 ### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Slides لـ Java؟

@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## الخطوة 2: إنشاء كائن العرض التقديمي
- إنشاء مثيل`Presentation`فئة لتمثيل ملف PPTX. سيكون هذا هو الأساس لعرض PowerPoint التقديمي الخاص بك.
+ إنشاء مثيل`Presentation` فئة لتمثيل ملف PPTX. سيكون هذا هو الأساس لعرض PowerPoint التقديمي الخاص بك.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## الخطوة 4: إضافة شكل مستطيل
- استخدم ال`Shapes` خاصية الشريحة لإضافة شكل تلقائي من نوع المستطيل. حدد موضع المستطيل وأبعاده.
+ استخدم ال`Shapes`خاصية الشريحة لإضافة شكل تلقائي من النوع المستطيل. حدد موضع المستطيل وأبعاده.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

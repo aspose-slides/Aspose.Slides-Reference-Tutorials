@@ -12,7 +12,7 @@ url: /ko/java/additional-utilities/verify-presentation-without-loading-in-java-s
 
 Java Slides 영역에서는 프레젠테이션을 실제로 로드하지 않고도 프레젠테이션을 확인할 수 있는 기능이 획기적인 변화를 가져올 수 있습니다. 프리젠테이션 파일을 로드하기 위해 시스템 리소스를 사용하기 전에 프리젠테이션 파일의 형식을 확인할 수 있다고 상상해 보십시오. 이 포괄적인 가이드에서 우리는 Aspose.Slides for Java의 세계를 탐구하고 이 놀라운 성과를 달성하는 방법을 배울 것입니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -57,7 +57,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 
 ## 결론
 
-이 가이드에서는 Aspose.Slides for Java를 사용하여 프레젠테이션을 로드하지 않고 확인하는 방법을 살펴보았습니다. 이 기능은 불필요한 리소스 소비를 방지하여 애플리케이션의 효율성을 크게 향상시킬 수 있습니다. Aspose.Slides for Java를 사용하면 개발자가 프레젠테이션 작업을 원활하게 수행할 수 있습니다.
+이 가이드에서는 Aspose.Slides for Java를 사용하여 프레젠테이션을 로드하지 않고 확인하는 방법을 살펴보았습니다. 이 기능은 불필요한 리소스 소비를 방지하여 애플리케이션의 효율성을 크게 향상시킬 수 있습니다. Aspose.Slides for Java는 개발자가 프레젠테이션 작업을 원활하게 수행할 수 있도록 지원합니다.
 
 ## FAQ
 

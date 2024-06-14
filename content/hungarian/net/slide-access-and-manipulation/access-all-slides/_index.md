@@ -10,7 +10,7 @@ url: /hu/net/slide-access-and-manipulation/access-all-slides/
 
 ## Az Aspose.Slides .NET-hez bemutatása
 
-Az Aspose.Slides for .NET egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásaikban PowerPoint-prezentációkat hozzanak létre, kezeljenek és átalakítsanak. Átfogó API-készletet biztosít, amely lehetővé teszi különféle feladatok elvégzését, például diák létrehozását, tartalom hozzáadását és információk kinyerését a prezentációkból.
+Az Aspose.Slides for .NET egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásaikban PowerPoint-prezentációkat hozzanak létre, kezeljenek és átalakítsanak. Átfogó API-készletet biztosít, amely lehetővé teszi különböző feladatok elvégzését, például diák létrehozását, tartalom hozzáadását és információk kinyerését a prezentációkból.
 
 ## A projekt beállítása
 

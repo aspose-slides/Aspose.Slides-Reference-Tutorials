@@ -97,7 +97,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 //Az alapértelmezett diagramadat-munkalapindex lekérése
 int defaultWorksheetIndex = 0;
-//A diagram adatlapjának lekérése
+//A diagram adatlap beszerzése
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 //Demósorozat törlése
 chart.getChartData().getSeries().clear();
@@ -141,7 +141,7 @@ Az Aspose.Slides for Java segítségével az adatpontokon lévő diagramjelölő
 
 ### Használhatok képeket egyéni markerként?
 
- Igen, használhat képeket egyéni jelölőkként az adatpontokhoz. Állítsa be a kitöltés típusát`FillType.Picture`és adja meg a használni kívánt képet.
+ Igen, használhat képeket egyéni jelölőkként az adatpontokhoz. Állítsa be a kitöltés típusát`FillType.Picture` és adja meg a használni kívánt képet.
 
 ### Az Aspose.Slides for Java alkalmas dinamikus diagramok készítésére?
 

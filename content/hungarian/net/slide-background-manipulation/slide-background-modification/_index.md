@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Ide kerül a dia háttér módosításához szükséges kód.
     // Ezt a következő lépésekben vizsgáljuk meg.
     
-    // Mentse el a módosított bemutatót
+    //Mentse el a módosított bemutatót
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -85,12 +85,12 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Solid;
 pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ```
 
-Ebben a lépésben testre szabjuk az első dia hátterét. Módosíthatja saját preferenciái szerint, megváltoztathatja a háttérszínt vagy más kitöltési lehetőségeket használva.
+Ebben a lépésben testre szabjuk az első dia hátterét. Módosíthatja saját preferenciái szerint, megváltoztathatja a háttérszínt vagy más kitöltési lehetőségeket.
 
 ## 6. lépés: Mentse el a módosított prezentációt
 
 ```csharp
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

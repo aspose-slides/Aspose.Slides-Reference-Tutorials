@@ -22,7 +22,7 @@ url: /zh-hant/net/additional-chart-features/chart-get-range/
 
 ## 導入命名空間
 
-第一步是導入必要的名稱空間。這允許您的程式碼存取使用 Aspose.Slides 所需的類別和方法。您可以這樣做：
+第一步是導入必要的命名空間。這允許您的程式碼存取使用 Aspose.Slides 所需的類別和方法。您可以這樣做：
 
 ```csharp
 using Aspose.Slides;

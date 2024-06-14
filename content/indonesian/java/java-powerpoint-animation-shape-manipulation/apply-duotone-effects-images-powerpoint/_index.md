@@ -19,7 +19,7 @@ Sebelum mendalami tutorial, pastikan Anda memiliki hal berikut:
 Pertama, Anda harus mengimpor paket yang diperlukan dalam program Java Anda. Inilah cara Anda melakukannya:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

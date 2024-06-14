@@ -11,7 +11,7 @@ url: /ja/net/printing-and-rendering-in-slides/rendering-emoji-special-characters
 プレゼンテーションのダイナミックな世界では、感情や特殊文字を伝えることで、創造性と独自性を高めることができます。Aspose.Slides for .NET を使用すると、開発者はプレゼンテーションで絵文字や特殊文字をシームレスにレンダリングできるため、表現の新しい次元が開かれます。このチュートリアルでは、Aspose.Slides を使用して、ステップ バイ ステップのガイダンスでこれを実現する方法を説明します。
 ## 前提条件
 チュートリアルに進む前に、次のものを用意してください。
-- Aspose.Slides for .NET: ライブラリがインストールされていることを確認してください。ダウンロードできます。[ここ](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: ライブラリがインストールされていることを確認してください。ダウンロードできます。[ここ](https://releases.aspose.com/slides/net/).
 - 開発環境: マシンに動作する .NET 開発環境をセットアップします。
 - プレゼンテーションの入力: PowerPointファイルを準備します（`input.pptx`絵文字を追加したいコンテンツを含む .csv ファイル (.csv) を作成します。
 - ドキュメント ディレクトリ: ドキュメント用のディレクトリを作成し、コード内の「ドキュメント ディレクトリ」を実際のパスに置き換えます。

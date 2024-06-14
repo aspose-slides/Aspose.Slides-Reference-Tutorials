@@ -12,7 +12,7 @@ I den här självstudien kommer vi att undersöka hur du skapar SmartArt-miniaty
 ## Förutsättningar
 Innan vi börjar, se till att du har följande:
 1. Java Development Kit (JDK) installerat på ditt system.
-2. Aspose.Slides för Java-bibliotek nedladdade och konfigurerade i ditt projekt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides för Java-bibliotek nedladdade och konfigurerade i ditt projekt. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/).
 
 ## Importera paket
 Se till att importera de nödvändiga paketen i din Java-klass:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

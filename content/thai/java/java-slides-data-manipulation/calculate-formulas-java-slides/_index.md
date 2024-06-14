@@ -25,7 +25,7 @@ url: /th/java/data-manipulation/calculate-formulas-java-slides/
 ขั้นแรก มาสร้างงานนำเสนอ PowerPoint ใหม่และเพิ่มสไลด์ลงไป เราจะทำงานกับสไลด์เดียวในตัวอย่างนี้
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## กรอกซอร์สโค้ดสำหรับการคำนวณสูตรใน Java Slides
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

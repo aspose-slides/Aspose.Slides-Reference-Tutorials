@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Πλήρης Πηγαίος Κώδικας για Συμμόρφωση Μετατροπής σε PDF σε Διαφάνειες Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ try {
 
 ## Μπορώ να αλλάξω το επίπεδο συμμόρφωσης PDF σε κάτι διαφορετικό από το PDF/A-2a;
 
- Ναι, το Aspose.Slides για Java παρέχει ευελιξία στην επιλογή του επιπέδου συμμόρφωσης PDF. Στον κώδικα που παρέχεται, μπορείτε να αλλάξετε το επίπεδο συμμόρφωσης τροποποιώντας το`pdfOptions.setCompliance()` γραμμή. Μπορείτε να επιλέξετε άλλα επίπεδα συμμόρφωσης όπως PDF/A-1a, PDF/A-1b, PDF/A-3a κ.λπ., ανάλογα με τις συγκεκριμένες απαιτήσεις σας.
+ Ναι, το Aspose.Slides για Java παρέχει ευελιξία στην επιλογή του επιπέδου συμμόρφωσης PDF. Στον κώδικα που παρέχεται, μπορείτε να αλλάξετε το επίπεδο συμμόρφωσης τροποποιώντας το`pdfOptions.setCompliance()`γραμμή. Μπορείτε να επιλέξετε άλλα επίπεδα συμμόρφωσης όπως PDF/A-1a, PDF/A-1b, PDF/A-3a κ.λπ., ανάλογα με τις συγκεκριμένες απαιτήσεις σας.
 
 ## Ποιες είναι οι διαφορές μεταξύ PDF/A-2a και άλλων επιπέδων συμμόρφωσης;
 
@@ -113,4 +113,4 @@ try {
 
 ## Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides για συμμόρφωση με Java και PDF;
 
- Για πιο λεπτομερείς πληροφορίες σχετικά με το Aspose.Slides for Java και τις δυνατότητές του, συμπεριλαμβανομένων των ρυθμίσεων συμμόρφωσης με PDF, μπορείτε να ανατρέξετε στην τεκμηρίωση στο[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/)Επιπλέον, μπορείτε να εξερευνήσετε παραδείγματα κώδικα και μαθήματα για να βελτιώσετε περαιτέρω τις γνώσεις σας για τη βιβλιοθήκη.
+ Για πιο λεπτομερείς πληροφορίες σχετικά με το Aspose.Slides for Java και τις δυνατότητές του, συμπεριλαμβανομένων των ρυθμίσεων συμμόρφωσης με PDF, μπορείτε να ανατρέξετε στην τεκμηρίωση στο[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/). Επιπλέον, μπορείτε να εξερευνήσετε παραδείγματα κώδικα και μαθήματα για να βελτιώσετε περαιτέρω τις γνώσεις σας για τη βιβλιοθήκη.

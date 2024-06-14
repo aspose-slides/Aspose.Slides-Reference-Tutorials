@@ -21,7 +21,7 @@ Först måste du importera de nödvändiga Aspose.Slides-paketen till ditt Java-
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Steg 1: Skapa projektkatalogen

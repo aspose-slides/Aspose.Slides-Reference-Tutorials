@@ -65,7 +65,7 @@ Este trecho de código adiciona o slide duplicado ao final da apresentação.
 Após adicionar o slide duplicado, precisamos salvar a apresentação modificada. Veja como:
 
 ```csharp
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

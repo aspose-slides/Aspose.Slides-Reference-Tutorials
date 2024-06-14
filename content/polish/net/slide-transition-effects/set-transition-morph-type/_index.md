@@ -88,7 +88,7 @@ Aspose.Slides dla .NET to potężna biblioteka do pracy z prezentacjami programu
 
 ### 2. Czy mogę wypróbować Aspose.Slides dla .NET przed zakupem?
 
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides dla .NET z[Strona próbna Aspose.Slides dla .NET](https://releases.aspose.com/). Dzięki temu możesz ocenić jego funkcje przed dokonaniem zakupu.
+ Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides dla .NET z[Strona próbna Aspose.Slides dla platformy .NET](https://releases.aspose.com/). Dzięki temu możesz ocenić jego funkcje przed dokonaniem zakupu.
 
 ### 3. Jak uzyskać tymczasową licencję na Aspose.Slides dla .NET?
 

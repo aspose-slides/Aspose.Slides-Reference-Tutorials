@@ -65,7 +65,7 @@ presentation.Slides.AddClone(duplicatedSlide);
 بعد إضافة الشريحة المكررة، نحتاج إلى حفظ العرض التقديمي المعدل. إليك الطريقة:
 
 ```csharp
-// احفظ العرض التقديمي المعدل
+//احفظ العرض التقديمي المعدل
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

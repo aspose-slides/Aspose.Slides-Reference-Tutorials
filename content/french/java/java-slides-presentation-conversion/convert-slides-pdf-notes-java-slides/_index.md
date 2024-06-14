@@ -115,7 +115,7 @@ Pour installer Aspose.Slides pour Java, procédez comme suit :
 
 ### Existe-t-il des conditions de licence pour utiliser Aspose.Slides pour Java ?
 
-Oui, Aspose.Slides for Java est une bibliothèque commerciale et vous devrez peut-être acquérir une licence pour l'utiliser en production. Visitez le site Web Aspose pour plus de détails sur les licences.
+Oui, Aspose.Slides pour Java est une bibliothèque commerciale et vous devrez peut-être acquérir une licence pour l'utiliser en production. Visitez le site Web Aspose pour plus de détails sur les licences.
 
 ### Puis-je convertir plusieurs diapositives à la fois ?
 

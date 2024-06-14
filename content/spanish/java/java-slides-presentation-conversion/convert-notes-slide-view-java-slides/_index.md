@@ -84,7 +84,7 @@ En este tutorial, cubrimos los pasos esenciales para convertir vistas de diaposi
 
 ### ¿Cómo puedo personalizar el formato de salida al convertir una presentación?
 
- Puede personalizar el formato de salida cambiando el`SaveFormat` enumeración en el código. Por ejemplo, para guardar la presentación como PDF, utilice`SaveFormat.Pdf`.
+ Puede personalizar el formato de salida cambiando el`SaveFormat`enumeración en el código. Por ejemplo, para guardar la presentación como PDF, utilice`SaveFormat.Pdf`.
 
 ### ¿Necesito comprar una licencia de Aspose.Slides para Java?
 
@@ -100,4 +100,4 @@ Aspose.Slides está diseñado para funcionar con varios formatos de PowerPoint, 
 
 ### ¿Dónde puedo encontrar más ejemplos de código y tutoriales para Aspose.Slides para Java?
 
- Puede encontrar una gran cantidad de ejemplos de código y tutoriales en[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/). Explore la documentación para obtener más información sobre las capacidades de esta poderosa biblioteca.
+ Puede encontrar una gran cantidad de ejemplos de código y tutoriales en[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/)Explore la documentación para obtener más información sobre las capacidades de esta poderosa biblioteca.

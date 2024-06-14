@@ -40,7 +40,7 @@ Prezentációs fájl betöltéséhez használja a következő kódot:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Itt található a hatékony világítási berendezés adatainak lekéréséhez szükséges kód
+    //Itt található a hatékony világítási berendezés adatainak lekéréséhez szükséges kód
 }
 ```
 ## 4. lépés: Az effektív fényberendezés adatainak lekérése

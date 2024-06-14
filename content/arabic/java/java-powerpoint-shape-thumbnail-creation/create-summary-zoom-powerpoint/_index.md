@@ -13,14 +13,14 @@ url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-power
 ## المتطلبات الأساسية
 قبل الغوص في الكود، دعنا نتأكد من أن لديك كل ما تحتاجه للبدء:
 1.  Java Development Kit (JDK): تأكد من تثبيت JDK على جهازك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java: قم بتنزيل المكتبة من ملف[صفحة الإصدارات Aspose](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: قم بتنزيل المكتبة من ملف[صفحة الإصدارات Aspose](https://releases.aspose.com/slides/java/).
 3. بيئة التطوير المتكاملة (IDE): استخدم IDE مثل IntelliJ IDEA أو Eclipse أو NetBeans للحصول على تجربة تطوير أكثر سلاسة.
 4. المعرفة الأساسية بـ Java: الإلمام بمفاهيم برمجة Java سيساعدك على فهم وتنفيذ الخطوات الواردة في هذا الدليل.
 ## حزم الاستيراد
 قبل أن نبدأ، تحتاج إلى استيراد الحزم اللازمة. تأكد من تضمين Aspose.Slides for Java في تبعيات مشروعك.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## الخطوة 1: قم بإعداد مشروعك
@@ -76,7 +76,7 @@ pres.getSections().addSection("Section 4", slide);
 الآن، سنقوم بإنشاء إطار تكبير ملخص على الشريحة الأولى. سيكون هذا الإطار بمثابة العنصر التفاعلي الذي يسمح للمستخدمين بتكبير الأقسام المختلفة.
 
 1. حدد موقع الشريحة الأولى: استرجع الشريحة الأولى حيث ستضيف إطار تكبير الملخص.
-2. إضافة إطار التكبير/التصغير الملخص: استخدم`addSummaryZoomFrame` طريقة إضافة الإطار.
+2.  إضافة إطار التكبير/التصغير الملخص: استخدم`addSummaryZoomFrame` طريقة إضافة الإطار.
 ```java
 ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().addSummaryZoomFrame(150, 50, 300, 200);
 ```
@@ -86,7 +86,7 @@ ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().ad
 1. تحديد مسار الإخراج: حدد المسار الذي سيتم حفظ العرض التقديمي فيه.
 2.  حفظ العرض التقديمي: استخدم`save` طريقة حفظ الملف بصيغة PPTX.
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### تخلص من كائن العرض التقديمي
@@ -95,14 +95,14 @@ pres.save(resultPath, SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 ## خاتمة
- تهانينا! لقد نجحت في إنشاء تكبير ملخص في PowerPoint باستخدام Aspose.Slides لـ Java. تعمل هذه الميزة على تحسين العروض التقديمية الخاصة بك عن طريق جعلها أكثر تفاعلية وجاذبية. باتباع هذا الدليل، لديك الآن المهارات اللازمة لتنفيذ هذه الميزة في مشاريعك الخاصة. تذكر أن تستكشف[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) لمزيد من الميزات المتقدمة وخيارات التخصيص.
+ تهانينا! لقد نجحت في إنشاء تكبير ملخص في PowerPoint باستخدام Aspose.Slides لـ Java. تعمل هذه الميزة على تحسين العروض التقديمية الخاصة بك عن طريق جعلها أكثر تفاعلية وجاذبية. باتباع هذا الدليل، لديك الآن المهارات اللازمة لتنفيذ هذه الميزة في مشاريعك الخاصة. تذكر أن تستكشف[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/)لمزيد من الميزات المتقدمة وخيارات التخصيص.
 ## الأسئلة الشائعة
 ### ما هو Aspose.Slides لجافا؟
 Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجياً باستخدام Java.
 ### هل يمكنني استخدام Aspose.Slides لـ Java لإنشاء أنواع أخرى من المحتوى في PowerPoint؟
 نعم، يدعم Aspose.Slides for Java مجموعة واسعة من الميزات، بما في ذلك إنشاء الشرائح وإضافة الأشكال والمخططات والجداول وغير ذلك الكثير.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ Java؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ Java من[موقع إلكتروني](https://releases.aspose.com/).
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ Java من[موقع إلكتروني](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على ترخيص مؤقت من[Aspose صفحة الشراء](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على المزيد من الأمثلة والدعم لـ Aspose.Slides لـ Java؟

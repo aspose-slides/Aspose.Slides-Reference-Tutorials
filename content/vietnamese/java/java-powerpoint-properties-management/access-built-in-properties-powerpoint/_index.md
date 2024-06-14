@@ -19,7 +19,7 @@ Trước tiên, bạn cần nhập các gói cần thiết vào dự án Java c�
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập đối tượng trình bày
 Bắt đầu bằng cách thiết lập đối tượng Trình bày để thể hiện bản trình bày PowerPoint mà bạn muốn làm việc. Đây là cách bạn có thể làm điều đó:

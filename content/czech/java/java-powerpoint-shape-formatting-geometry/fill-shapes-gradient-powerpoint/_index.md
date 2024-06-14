@@ -11,7 +11,7 @@ url: /cs/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Vytváření vizuálně přitažlivých prezentací v PowerPointu je zásadní pro to, abyste zaujali své publikum. Jedním z účinných způsobů, jak vylepšit snímky, je vyplnění tvarů přechody. Tento tutoriál vás provede procesem použití Aspose.Slides pro Java k vyplnění tvarů přechody v PowerPointu. Ať už jste zkušený vývojář nebo teprve začínáte, tato příručka vám bude užitečná a snadno se budete řídit. Pojďme se ponořit do světa přechodů a podívat se, jak mohou transformovat vaše prezentace.
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující:
--  Java Development Kit (JDK): Ujistěte se, že máte nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Ujistěte se, že máte nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides for Java: Stáhněte si nejnovější verzi z[tady](https://releases.aspose.com/slides/java/).
 - Integrované vývojové prostředí (IDE): IDE jako IntelliJ IDEA nebo Eclipse vám usnadní práci s kódováním.
 - Základní znalost Javy: Znalost programování v Javě je nezbytná.
@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 Chcete-li začít s Aspose.Slides, musíte importovat potřebné balíčky. Ujistěte se, že jste přidali Aspose.Slides for Java do závislostí vašeho projektu.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -103,6 +103,6 @@ Aspose.Slides for Java je výkonné API pro vytváření a manipulaci s prezenta
 ### Co jsou gradientní zastávky?
 Zarážky přechodu jsou specifické body v přechodu, které definují barvu a její polohu v přechodu.
 ### Jak mohu získat podporu pro Aspose.Slides?
- Pro podporu navštivte stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ Pro podporu navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Kde si mohu stáhnout nejnovější verzi Aspose.Slides pro Javu?
  Nejnovější verzi si můžete stáhnout z[Stránka ke stažení Aspose.Slides](https://releases.aspose.com/slides/java/).

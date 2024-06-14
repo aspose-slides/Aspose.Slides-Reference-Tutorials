@@ -90,7 +90,7 @@ Igen, használhat helyi fájlt külső munkafüzetként, ha URL helyett a fájl 
 
 ### Vannak-e korlátozások a külső munkafüzetek Aspose.Slides for Java alkalmazással való használatára?
 
-Bár a külső munkafüzetek használata hatékony szolgáltatás, ne feledje, hogy a külső munkafüzet adatainak elérhetősége attól függ, hogy a megadott URL-címen vagy fájl elérési úton elérhető-e. Győződjön meg arról, hogy a külső adatforrás elérhető a bemutató megnyitásakor, hogy elkerülje az adatlekérési problémákat.
+Bár a külső munkafüzetek használata hatékony szolgáltatás, ne feledje, hogy a külső munkafüzet adatainak elérhetősége attól függ, hogy a megadott URL-en vagy fájlútvonalon elérhető-e. Győződjön meg arról, hogy a külső adatforrás elérhető a bemutató megnyitásakor, hogy elkerülje az adatlekérési problémákat.
 
 ### Testreszabhatom a diagram megjelenését a külső munkafüzet beállítása után?
 

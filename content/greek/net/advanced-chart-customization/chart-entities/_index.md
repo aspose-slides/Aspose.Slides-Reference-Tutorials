@@ -102,7 +102,7 @@ chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType
 chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Red;
 chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.Width = 3;
 
-// Ρύθμιση τιμής μορφής αριθμού άξονα
+// Ορισμός μορφής αριθμού άξονα τιμής
 chart.Axes.VerticalAxis.IsNumberFormatLinkedToSource = false;
 chart.Axes.VerticalAxis.DisplayUnit = DisplayUnitType.Thousands;
 chart.Axes.VerticalAxis.NumberFormat = "0.0%";
@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Ρύθμιση της μορφής γραμμών δευτερεύοντος πλέγματος για τον άξονα κατηγορίας
+// Ρύθμιση της μορφής γραμμών δευτερεύοντος πλέγματος για τον άξονα κατηγορίας
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Ρύθμιση χρώματος περιοχής γραφήματος
+//Ρύθμιση χρώματος περιοχής γραφήματος
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ pres.Save(dataDir + "FormattedChart_out.pptx", SaveFormat.Pptx);
 
 ### 3. Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides για .NET;
 
-Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του Aspose.Slides για .NET από[εδώ](https://releases.aspose.com/).
+ Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του Aspose.Slides για .NET από[εδώ](https://releases.aspose.com/).
 
 ### 4. Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET;
 

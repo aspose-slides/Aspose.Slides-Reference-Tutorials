@@ -12,7 +12,7 @@ url: /ko/java/presentation-properties/check-password-example-in-java-slides/
 
 이 기사에서는 Aspose.Slides for Java API를 사용하여 Java Slides에서 비밀번호를 확인하는 방법을 살펴보겠습니다. 프리젠테이션 파일의 비밀번호를 확인하는 데 필요한 단계를 살펴보겠습니다. 귀하가 초보자이든 숙련된 개발자이든 이 가이드는 Java Slides 프로젝트에서 비밀번호 확인을 구현하는 방법에 대한 명확한 이해를 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -52,7 +52,7 @@ System.out.println("Is the password correct? " + isPasswordCorrect);
 
 ```java
 //소스 프레젠테이션 경로
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptFile = "Your Document Directory";
 // IPresentationInfo 인터페이스를 통해 비밀번호 확인
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 boolean isPasswordCorrect = presentationInfo.checkPassword("my_password");

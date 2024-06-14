@@ -19,12 +19,12 @@ Trước khi chúng ta chuyển sang mã, có một số thứ bạn cần:
 Trước tiên, hãy nhập các gói cần thiết để bắt đầu với Aspose.Slides cho Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Việc tạo các đối tượng tổng hợp nghe có vẻ phức tạp nhưng bằng cách chia nhỏ nó thành các bước có thể quản lý được, bạn sẽ thấy việc này dễ dàng hơn bạn nghĩ. Chúng ta sẽ tạo một bản trình bày PowerPoint, thêm một hình dạng, sau đó xác định và áp dụng nhiều đường dẫn hình học để tạo thành một hình dạng tổng hợp.
 ## Bước 1: Thiết lập dự án của bạn
-Trước khi bạn viết bất kỳ mã nào, hãy thiết lập dự án Java của bạn. Tạo một dự án mới trong IDE của bạn và bao gồm Aspose.Slides cho Java. Bạn có thể thêm thư viện bằng Maven hoặc tải xuống tệp JAR từ[Trang tải xuống Aspose.Slides](https://releases.aspose.com/slides/java/).
+ Trước khi bạn viết bất kỳ mã nào, hãy thiết lập dự án Java của bạn. Tạo một dự án mới trong IDE của bạn và bao gồm Aspose.Slides cho Java. Bạn có thể thêm thư viện bằng Maven hoặc tải xuống tệp JAR từ[Trang tải xuống Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### Thêm Aspose.Slides vào dự án của bạn bằng Maven
  Nếu bạn đang sử dụng Maven, hãy thêm phần phụ thuộc sau vào`pom.xml` tài liệu:
 ```xml
@@ -35,10 +35,10 @@ Trước khi bạn viết bất kỳ mã nào, hãy thiết lập dự án Java 
 </dependency>
 ```
 ## Bước 2: Khởi tạo bài thuyết trình
- Bây giờ, hãy tạo một bản trình bày PowerPoint mới. Chúng ta sẽ bắt đầu bằng cách khởi tạo`Presentation` lớp học.
+Bây giờ, hãy tạo một bản trình bày PowerPoint mới. Chúng ta sẽ bắt đầu bằng việc khởi tạo`Presentation` lớp học.
 ```java
 // Tên tệp xuất ra
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Bước 3: Tạo hình dạng mới
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Bước 7: Lưu bài thuyết trình
 Cuối cùng, lưu bản trình bày của bạn vào một tập tin.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Bước 8: Dọn dẹp tài nguyên

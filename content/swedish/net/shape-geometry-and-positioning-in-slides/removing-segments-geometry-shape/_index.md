@@ -11,7 +11,7 @@ url: /sv/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry
 Att skapa visuellt tilltalande presentationer innebär ofta att man manipulerar former och element för att uppnå önskad design. Med Aspose.Slides för .NET kan utvecklare enkelt kontrollera formernas geometri, vilket gör det möjligt att ta bort specifika segment. I den här handledningen kommer vi att guida dig genom processen att ta bort segment från en geometrisk form i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
--  Aspose.Slides for .NET Library: Se till att du har Aspose.Slides for .NET-biblioteket installerat. Du kan ladda ner den från[släpp sida](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET Library: Se till att du har Aspose.Slides for .NET-biblioteket installerat. Du kan ladda ner den från[släppsidan](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Konfigurera en .NET-utvecklingsmiljö, som Visual Studio, för att integrera Aspose.Slides i ditt projekt.
 - Dokumentkatalog: Skapa en katalog där du ska lagra dina dokument och ange sökvägen på lämpligt sätt i koden.
 ## Importera namnområden

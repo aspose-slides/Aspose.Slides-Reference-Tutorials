@@ -12,14 +12,14 @@ Wilt u vormen in uw PowerPoint-presentaties manipuleren met Java? U bent bij ons
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 1.  Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides voor Java: Download de Aspose.Slides voor Java-bibliotheek van[hier](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides voor Java: Download de Aspose.Slides voor Java-bibliotheek van[hier](https://releases.aspose.com/slides/java/).
 3. Integrated Development Environment (IDE): Gebruik een IDE zoals IntelliJ IDEA of Eclipse voor het schrijven en uitvoeren van uw Java-code.
 4. Basiskennis van Java: Een basiskennis van Java-programmeren zal u helpen deze tutorial te volgen.
 ## Pakketten importeren
 Om te beginnen moeten we de benodigde pakketten importeren uit de Aspose.Slides-bibliotheek. Zo doe je het:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Laten we het proces van het verwijderen van een segment uit een geometrische vorm in een PowerPoint-dia in meerdere stappen opsplitsen.
 ## Stap 1: Maak een nieuwe presentatie
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Stap 6: Sla de presentatie op
 Sla ten slotte de gewijzigde presentatie op in een bestand.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Stap 7: Bronnen opruimen

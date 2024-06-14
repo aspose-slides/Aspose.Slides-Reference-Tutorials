@@ -78,5 +78,29 @@ Erfahren Sie, wie Sie mit Aspose.Slides Java Formen und Miniaturansichten in Pow
 Erfahren Sie, wie Sie mit Aspose.Slides für Java Formen in PowerPoint animieren und bearbeiten. Umfassende Tutorials für dynamische Präsentationen.
 ### [Java PowerPoint-Formformatierung und -Geometrie](./java-powerpoint-shape-formatting-geometry/)
 Entdecken Sie Java PowerPoint-Formformatierungs- und Geometrie-Tutorials. Lernen Sie, Formen auszufüllen, Formen zu finden und benutzerdefinierte Geometrie mit Aspose.Slides für Java zu erstellen.
-### [Java-Techniken zum Klonen von PowerPoint-Folien](./java-powerpoint-slide-cloning-techniques/)
+### [Java PowerPoint-Folien-Klontechniken](./java-powerpoint-slide-cloning-techniques/)
 Meistern Sie das Folienklonen in PowerPoint mit Aspose.Slides für Java. Lernen Sie, Folien innerhalb derselben Präsentation oder über mehrere Präsentationen hinweg nahtlos zu klonen.
+### [Textfeldmanipulation in Java PowerPoint](./java-powerpoint-text-box-manipulation/)
+Entdecken Sie umfassende Tutorials zur Java PowerPoint-Textfeldbearbeitung mit Aspose.Slides. Verbessern Sie Ihre Präsentationen Schritt für Schritt mit unseren Anleitungen.
+### [Java PowerPoint-Schriftartenverwaltung](./java-powerpoint-font-management/)
+Entdecken Sie Java PowerPoint-Tutorials zur Schriftverwaltung mit Aspose.Slides für Java. Lernen Sie Einbettungs-, Komprimierungs- und Anpassungstechniken, um Präsentationen zu verbessern.
+### [Java PowerPoint-Animationen und -Effekte](./java-powerpoint-animation-effects/)
+Meistern Sie Java PowerPoint-Animationen und -Effekte mit unseren umfassenden Tutorials. Erfahren Sie, wie Sie mit Aspose.Slides für Java Animationen sowie äußere und innere Schatten hinzufügen.
+### [Textausrichtung und -formatierung in Java PowerPoint](./java-powerpoint-text-alignment-formatting/)
+Entdecken Sie Java PowerPoint-Tutorials zur Textausrichtung und -formatierung. Erfahren Sie, wie Sie mit Aspose.Slides für Java Text ausrichten, formatieren, exportieren und hervorheben. 
+### [Texthervorhebung und Fallback-Regeln in Java PowerPoint](./java-powerpoint-text-highlighting-fallback-rules/)
+Meistern Sie Texthervorhebung und Schriftart-Fallback-Regeln in Java PowerPoint mit Aspose.Slides. Folgen Sie unseren Tutorials, um Ihre Präsentationen nahtlos zu verbessern und zu automatisieren.
+### [Text- und Absatzverwaltung in Java PowerPoint](./java-powerpoint-text-paragraph-management/)
+Meistern Sie die Text- und Absatzverwaltung in Java PowerPoint mit Aspose.Slides. Erfahren Sie, wie Sie HTML-Text importieren, Zeilenabstände verwalten, Aufzählungszeichen erstellen und Absätze ausrichten.
+### [Schriftartenverwaltung und Textersetzung in Java PowerPoint](./java-powerpoint-font-management-text-replacement/)
+Meistern Sie die Schriftartenverwaltung und Textersetzung in Java PowerPoint mit Aspose.Slides. Erfahren Sie, wie Sie benutzerdefinierte Schriftarten laden, eingebettete Schriftarten verwalten und Text nahtlos ersetzen.
+### [Erweiterte Absatz- und Schrifteigenschaften in Java PowerPoint](./java-powerpoint-advanced-paragraph-font-properties/)
+Beherrschen Sie erweiterte Absatz- und Schrifteigenschaften in Java PowerPoint mit Aspose.Slides. Erfahren Sie, wie Sie Schriftarten anpassen, Bildaufzählungszeichen hinzufügen und Ersatzschriftarten verwenden.
+### [Java PowerPoint Text- und Schriftartanpassung](./java-powerpoint-text-font-customization/)
+Entdecken Sie Tutorials zur Text- und Schriftartanpassung in Java PowerPoint mit Aspose.Slides. Erfahren Sie mehr über Rotation, Schriftartenersetzung und mehr, um Ihre Präsentationen zu verbessern.
+### [Java PowerPoint-Tabellenmanipulation](./java-powerpoint-table-manipulation/)
+Meistern Sie die Java PowerPoint-Tabellenbearbeitung mit Aspose.Slides. Lernen Sie in unseren ausführlichen Schritt-für-Schritt-Tutorials, Bilder hinzuzufügen, Zellen aufzuteilen, Tabellen zu erstellen und vieles mehr.
+### [Formatierung und Aktualisierung von Java PowerPoint-Tabellen](./java-powerpoint-table-formatting-updates/)
+Verbessern Sie Java PowerPoint-Präsentationen mit Tabellenformatierungen und -aktualisierungen mithilfe von Aspose.Slides. Erfahren Sie, wie Sie Rahmen hinzufügen, Text in Spalten und Zeilen formatieren und Tabellen aktualisieren.
+### [Java PowerPoint SmartArt-Manipulation](./java-powerpoint-smartart-manipulation/)
+Erfahren Sie, wie Sie Java PowerPoint SmartArt effektiv bearbeiten können, mit GroupDocs.Slides für Java-Tutorials. Greifen Sie auf untergeordnete Knoten zu, fügen Sie Knoten hinzu, ändern Sie Layouts und mehr!

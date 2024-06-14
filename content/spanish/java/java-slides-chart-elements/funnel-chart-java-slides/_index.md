@@ -42,7 +42,7 @@ En el código anterior, agregamos un gráfico de embudo a la primera diapositiva
 
 ## Paso 3: definir los datos del gráfico
 
-A continuación, definiremos los datos de nuestro gráfico de embudo. Estableceremos las categorías y series del gráfico.
+continuación, definiremos los datos de nuestro gráfico de embudo. Estableceremos las categorías y series del gráfico.
 
 ```java
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
@@ -84,7 +84,7 @@ Finalmente, guardamos la presentación con el gráfico de embudo en un archivo d
 }
 ```
 
- Asegúrate de reemplazar`"Your Document Directory"` con la ubicación de guardado deseada.
+ Asegúrate de reemplazar`"Your Document Directory"` con la ubicación deseada para guardar.
 
 ## Código fuente completo para el gráfico de embudo en diapositivas de Java
 

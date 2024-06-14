@@ -17,7 +17,7 @@ url: /zh/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 在深入研究代码和转换过程之前，请确保您已满足以下先决条件：
 
 - 您的系统上安装了 Java 开发工具包 (JDK)。
-- Aspose.Slides for Java API，您可以从以下网址下载[这里](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API，您可以从以下网址下载[这里](https://releases.aspose.com/slides/java/).
 - 演示文件（例如，`presentation.pptx`) 并将其转换为 HTML。
 
 ## 步骤 1：设置 Java 环境
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {

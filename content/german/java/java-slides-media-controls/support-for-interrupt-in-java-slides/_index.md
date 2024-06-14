@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Vollständiger Quellcode zur Unterstützung von Interrupts in Java-Folien
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {
@@ -114,7 +114,7 @@ tokenSource.interrupt();
 
 ## Abschluss
 
-In diesem Tutorial haben wir untersucht, wie man die Interrupt-Behandlung in Java Slides mit Aspose.Slides für Java implementiert. Wir haben die wesentlichen Schritte behandelt, vom Einrichten Ihres Projekts bis zur ordnungsgemäßen Unterbrechung des Vorgangs. Diese Funktion ist von unschätzbarem Wert, wenn Sie in Ihren PowerPoint-Verarbeitungsanwendungen mit lang andauernden Aufgaben arbeiten.
+In diesem Tutorial haben wir untersucht, wie man die Interrupt-Behandlung in Java Slides mit Aspose.Slides für Java implementiert. Wir haben die wesentlichen Schritte behandelt, vom Einrichten Ihres Projekts bis zur ordnungsgemäßen Unterbrechung des Vorgangs. Diese Funktion ist von unschätzbarem Wert, wenn Sie in Ihren PowerPoint-Verarbeitungsanwendungen mit lang andauernden Aufgaben zu tun haben.
 
 ## Häufig gestellte Fragen
 

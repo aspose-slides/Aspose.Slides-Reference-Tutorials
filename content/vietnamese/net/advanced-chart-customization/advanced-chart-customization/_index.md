@@ -197,7 +197,7 @@ Mã này định cấu hình giao diện của các đường lưới chính tr�
 Tương tự như trục giá trị, bạn có thể tùy chỉnh các đường lưới phụ cho trục danh mục.
 
 ```csharp
-//Đặt định dạng đường lưới nhỏ cho trục Danh mục
+// Đặt định dạng đường lưới nhỏ cho trục Danh mục
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Cài đặt màu vùng Lô
+//Cài đặt màu vùng Lô
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

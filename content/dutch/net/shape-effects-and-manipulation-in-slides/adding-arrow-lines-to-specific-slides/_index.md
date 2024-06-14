@@ -71,7 +71,7 @@ Kortom, Aspose.Slides voor .NET stelt ontwikkelaars in staat hun presentaties na
 ### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.Slides?
  A: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 ### Vraag: Waar kan ik ondersteuning vinden voor Aspose.Slides?
-A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en discussies.
+ A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en discussies.
 ### Vraag: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Slides?
  A: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik Aspose.Slides voor .NET kopen?

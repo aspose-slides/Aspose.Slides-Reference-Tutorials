@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Etapa 1: configurar o ambiente
@@ -61,4 +61,4 @@ Absolutamente! Aspose.Slides oferece uma ampla variedade de tipos de formas, inc
 ### Posso adicionar texto ao slide junto com o formato da linha?
 Sim, você pode adicionar texto, imagens e outros conteúdos ao slide usando a API Aspose.Slides.
 ### Existe um teste gratuito disponível para Aspose.Slides?
-Sim, você pode baixar uma avaliação gratuita do Aspose.Slides em[aqui](https://releases.aspose.com/).
+ Sim, você pode baixar uma avaliação gratuita do Aspose.Slides em[aqui](https://releases.aspose.com/).

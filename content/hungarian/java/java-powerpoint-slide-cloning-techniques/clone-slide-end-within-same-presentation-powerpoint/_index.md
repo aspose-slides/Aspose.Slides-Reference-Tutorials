@@ -21,7 +21,7 @@ Először is importálnia kell a szükséges csomagokat az Aspose.Slides for Jav
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be projektjét
 Kezdésként állítsa be Java-projektjét a kívánt IDE-ben, és vegye fel az Aspose.Slides könyvtárat a projekt függőségeibe.

@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/setting-callout-data-label-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 차트의 데이터 레이블에 대한 콜아웃을 설정하는 방법을 보여줍니다. 설명선은 차트의 특정 데이터 포인트를 강조 표시하는 데 유용할 수 있습니다. 코드를 단계별로 살펴보고 필요한 소스 코드를 제공하겠습니다.
 
-## 전제조건
+## 전제 조건
 
 - Java용 Aspose.Slides가 설치되어 있어야 합니다.
 - Java 프로젝트를 생성하고 Aspose.Slides 라이브러리를 프로젝트에 추가합니다.

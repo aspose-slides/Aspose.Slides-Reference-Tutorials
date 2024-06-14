@@ -12,7 +12,7 @@ url: /ko/java/licensing-and-initialization/metered-licensing-java-slides/
 
 계량 라이선스를 사용하면 Aspose.Slides for Java API의 사용을 모니터링하고 제어할 수 있습니다. 이 가이드는 Aspose.Slides를 사용하여 Java 프로젝트에서 계량 라이선스를 구현하는 과정을 안내합니다. 
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

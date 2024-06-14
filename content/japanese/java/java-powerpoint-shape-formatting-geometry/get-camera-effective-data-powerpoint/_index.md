@@ -12,21 +12,21 @@ Aspose.Slides for Java は、開発者がプログラムで PowerPoint プレゼ
 ## 前提条件
 始める前に、いくつかの前提条件を満たす必要があります。
 1. Java 開発キット (JDK): マシンに JDK 8 以降がインストールされていることを確認します。
-2. Aspose.Slides for Javaライブラリ:最新バージョンを以下からダウンロードしてください。[Webサイト](https://releases.aspose.com/slides/java/).
-3. 統合開発環境 (IDE): よりスムーズなコーディングを実現するには、IntelliJ IDEA や Eclipse などの IDE を使用します。
-4. サンプルPowerPointファイル: PowerPointファイル（例：`Presentation1.pptx`) コードをテストする準備ができました。
+2.  Aspose.Slides for Javaライブラリ:最新バージョンを以下からダウンロードしてください。[Webサイト](https://releases.aspose.com/slides/java/).
+3. 統合開発環境 (IDE): よりスムーズなコーディング体験のために、IntelliJ IDEA や Eclipse などの IDE を使用します。
+4. サンプルPowerPointファイル: PowerPointファイル（例：`Presentation1.pptx`コードをテストする準備ができました。
 ## パッケージのインポート
 まず、Aspose.Slides for Java を操作するために必要なパッケージをインポートしましょう。これらのインポートにより、プレゼンテーションを管理し、そのプロパティにアクセスできるようになります。
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: プロジェクトの設定
 ### Javaプロジェクトの作成
 IDE を開いて、新しい Java プロジェクトを作成します。これが Aspose.Slides アプリケーションの基盤になります。
 ### Aspose.Slides ライブラリの追加
-Aspose.Slidesライブラリを以下からダウンロードしてください。[ダウンロードページ](https://releases.aspose.com/slides/java/)プロジェクトのビルドパスに追加します。IntelliJ IDEAでは、プロジェクトを右クリックして`Module Settings`、そして JAR ファイルを依存関係に追加します。
+ Aspose.Slidesライブラリを以下からダウンロードしてください。[ダウンロードページ](https://releases.aspose.com/slides/java/)プロジェクトのビルドパスに追加します。IntelliJ IDEAでは、プロジェクトを右クリックして`Module Settings`、そして JAR ファイルを依存関係に追加します。
 ## ステップ2: プレゼンテーションの読み込み
 ### データディレクトリを定義する
 PowerPoint ファイルが保存されているドキュメント ディレクトリへのパスを定義します。これにより、コード内でファイルにアクセスしやすくなります。

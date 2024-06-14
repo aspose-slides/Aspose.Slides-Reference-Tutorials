@@ -133,7 +133,7 @@ finally
 
 ## Závěr
 
-tomto tutoriálu jste se naučili, jak vytvořit graf stromové mapy v prezentaci PowerPoint pomocí knihovny Aspose.Slides for Java. Grafy stromové mapy jsou cenným nástrojem pro vizualizaci hierarchických dat, díky čemuž jsou vaše prezentace informativnější a poutavější.
+V tomto tutoriálu jste se naučili, jak vytvořit graf stromové mapy v prezentaci PowerPoint pomocí knihovny Aspose.Slides for Java. Grafy stromové mapy jsou cenným nástrojem pro vizualizaci hierarchických dat, díky čemuž jsou vaše prezentace informativnější a poutavější.
 
 ## FAQ
 
@@ -143,7 +143,7 @@ tomto tutoriálu jste se naučili, jak vytvořit graf stromové mapy v prezentac
 
 ### Jak mohu upravit vzhled stromové mapy?
 
- Vzhled stromové mapy si můžete přizpůsobit úpravou různých vlastností`chart` a`series` objekty, jako jsou barvy, štítky a rozvržení.
+ Vzhled stromové mapy si můžete přizpůsobit úpravou různých vlastností`chart` a`series`objekty, jako jsou barvy, štítky a rozvržení.
 
 ### Mohu vytvořit více grafů stromové mapy v jedné prezentaci?
 

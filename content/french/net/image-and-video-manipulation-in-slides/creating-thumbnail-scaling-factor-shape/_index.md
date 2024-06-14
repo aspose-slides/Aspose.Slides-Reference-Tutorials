@@ -34,7 +34,7 @@ Dans le bloc Présentation, créez une image grandeur nature de la forme pour la
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //Votre code pour enregistrer l'image va ici
+    // Votre code pour enregistrer l'image va ici
 }
 ```
 ## Étape 3 : Enregistrez l'image sur le disque
@@ -52,6 +52,6 @@ Oui, Aspose.Slides est compatible avec divers frameworks .NET, offrant une flexi
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
  Vous pouvez acquérir une licence temporaire pour Aspose.Slides en visitant[ce lien](https://purchase.aspose.com/temporary-license/).
 ### Q4 : Où puis-je trouver une assistance supplémentaire pour Aspose.Slides ?
-Pour toute question ou assistance, n'hésitez pas à visiter le forum d'assistance Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
+ Pour toute question ou assistance, n'hésitez pas à visiter le forum d'assistance Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
 ### Q5 : Puis-je acheter Aspose.Slides pour .NET ?
  Certainement! Pour acheter Aspose.Slides pour .NET, veuillez visiter la page d'achat[ici](https://purchase.aspose.com/buy).

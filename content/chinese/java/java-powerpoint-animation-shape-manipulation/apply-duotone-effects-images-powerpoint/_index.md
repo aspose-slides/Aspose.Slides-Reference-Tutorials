@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects
 首先，您需要在 Java 程序中导入必要的包。操作方法如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

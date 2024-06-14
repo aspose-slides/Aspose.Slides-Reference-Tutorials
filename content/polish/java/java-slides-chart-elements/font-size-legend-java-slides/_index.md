@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- W tym kodzie tworzymy wykres i ustawiamy rozmiar czcionki tekstu legendy na 20 punktów. Możesz dostosować`setFontHeight`wartość, aby zmienić rozmiar czcionki.
+ W tym kodzie tworzymy wykres i ustawiamy rozmiar czcionki tekstu legendy na 20 punktów. Możesz dostosować`setFontHeight` wartość, aby zmienić rozmiar czcionki.
 
 ### Czy mogę dostosować inne właściwości legendy na wykresie?
 
@@ -134,4 +134,4 @@ Tutaj wyłączamy automatyczne skalowanie osi i określamy minimalne i maksymaln
 
 ### Gdzie mogę znaleźć więcej informacji i dokumentacji dla Aspose.Slides?
 
-Obszerną dokumentację i odniesienia do API dla Aspose.Slides for Java można znaleźć na stronie dokumentacji Aspose. Odwiedzać[Tutaj](https://reference.aspose.com/slides/java/) szczegółowe informacje na temat korzystania z biblioteki.
+ Obszerną dokumentację i odniesienia do API dla Aspose.Slides for Java można znaleźć na stronie dokumentacji Aspose. Odwiedzać[Tutaj](https://reference.aspose.com/slides/java/) szczegółowe informacje na temat korzystania z biblioteki.

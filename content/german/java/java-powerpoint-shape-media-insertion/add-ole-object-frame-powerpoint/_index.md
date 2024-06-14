@@ -12,13 +12,13 @@ Das Hinzufügen eines OLE-Objektrahmens (Object Linking and Embedding) in PowerP
 ### Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System das Java Development Kit (JDK) installiert ist.
-2. Aspose.Slides für Java: Laden Sie Aspose.Slides für Java von der Website herunter und installieren Sie es[Hier](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides für Java: Laden Sie Aspose.Slides für Java von der Website herunter und installieren Sie es[Hier](https://releases.aspose.com/slides/java/).
 3. Grundlegende Kenntnisse der Java-Programmierung: Machen Sie sich mit den Konzepten und der Syntax der Java-Programmierung vertraut.
 ## Pakete importieren
 Zunächst müssen Sie die erforderlichen Pakete importieren, um die Funktionen von Aspose.Slides für Java nutzen zu können. So können Sie das tun:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Stellen Sie sicher, dass Ihr Projekt richtig konfiguriert ist und die Aspose.Sli
 Erstellen Sie ein Präsentationsobjekt, um die PowerPoint-Datei darzustellen, mit der Sie arbeiten:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Instanziieren Sie die Präsentationsklasse, die PPTX darstellt
 Presentation pres = new Presentation();
 ```

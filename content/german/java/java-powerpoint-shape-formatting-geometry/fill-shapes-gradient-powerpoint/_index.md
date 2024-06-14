@@ -11,7 +11,7 @@ url: /de/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Das Erstellen optisch ansprechender PowerPoint-Präsentationen ist entscheidend, um Ihr Publikum zu fesseln. Eine effektive Möglichkeit, Ihre Folien zu verbessern, besteht darin, Formen mit Farbverläufen zu füllen. Dieses Tutorial führt Sie durch den Prozess der Verwendung von Aspose.Slides für Java, um Formen in PowerPoint mit Farbverläufen zu füllen. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, Sie werden diese Anleitung hilfreich und leicht verständlich finden. Tauchen wir ein in die Welt der Farbverläufe und sehen, wie sie Ihre Präsentationen verwandeln können.
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
--  Java Development Kit (JDK): Stellen Sie sicher, dass Sie JDK installiert haben. Sie können es von der[Oracle-Website](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Stellen Sie sicher, dass Sie JDK installiert haben. Sie können es von der[Oracle-Website](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides für Java: Laden Sie die neueste Version herunter von[Hier](https://releases.aspose.com/slides/java/).
 - Integrierte Entwicklungsumgebung (IDE): Eine IDE wie IntelliJ IDEA oder Eclipse macht Ihre Codierung reibungsloser.
 - Grundkenntnisse in Java: Kenntnisse in der Java-Programmierung sind unbedingt erforderlich.
@@ -19,7 +19,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 Um mit Aspose.Slides zu beginnen, müssen Sie die erforderlichen Pakete importieren. Stellen Sie sicher, dass Sie Aspose.Slides für Java zu den Abhängigkeiten Ihres Projekts hinzugefügt haben.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

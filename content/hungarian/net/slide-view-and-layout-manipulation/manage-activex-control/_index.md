@@ -1,6 +1,6 @@
 ---
-title: Az ActiveX-vezérlők kezelése a PowerPointban
-linktitle: Az ActiveX-vezérlők kezelése a PowerPointban
+title: ActiveX-vezérlők kezelése a PowerPointban
+linktitle: ActiveX-vezérlők kezelése a PowerPointban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja a PowerPoint bemutatókat ActiveX-vezérlőkkel az Aspose.Slides for .NET segítségével. Lépésről lépésre szóló útmutatónk kiterjed a beillesztésre, a manipulációra, a testreszabásra, az eseménykezelésre és még sok másra.
 type: docs
@@ -37,7 +37,7 @@ string progId = "YourActiveXControl.ProgID"; // Adja meg az ActiveX-vezérlő Pr
 IOleObjectFrame oleObjectFrame = slide.Shapes.AddOleObjectFrame(left, top, width, height, progId);
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YourActiveXControl.ProgID"` a beilleszteni kívánt ActiveX-vezérlő tényleges ProgID-jével.
+ Mindenképpen cserélje ki`"YourActiveXControl.ProgID"` a beilleszteni kívánt ActiveX-vezérlő tényleges ProgID-jével.
 
 4. Prezentáció mentése: Az ActiveX-vezérlő beillesztése után mentse el a bemutatót a következő kóddal:
 
@@ -124,7 +124,7 @@ Az Aspose.Slides for .NET leegyszerűsíti az ActiveX-vezérlőkkel való munká
 
 ## Következtetés
 
-Az ActiveX-vezérlők beépítése a PowerPoint-prezentációkba növelheti a közönség interaktivitását és elkötelezettségét. Az Aspose.Slides for .NET segítségével hatékony eszköz áll rendelkezésére az ActiveX-vezérlők zökkenőmentes kezeléséhez, lehetővé téve dinamikus és lebilincselő prezentációk készítését, amelyek tartós benyomást keltenek.
+Az ActiveX-vezérlők beépítése a PowerPoint-prezentációkba növelheti a közönség interaktivitását és elkötelezettségét. Az Aspose.Slides for .NET segítségével hatékony eszköz áll rendelkezésére az ActiveX-vezérlők zökkenőmentes kezeléséhez, lehetővé téve dinamikus és lebilincselő prezentációk készítését, amelyek maradandó benyomást keltenek.
 
 ## GYIK
 

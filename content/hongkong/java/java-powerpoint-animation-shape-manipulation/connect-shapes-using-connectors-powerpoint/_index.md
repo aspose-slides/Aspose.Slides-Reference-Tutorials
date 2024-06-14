@@ -20,7 +20,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/connect-shapes-u
 首先，匯入在 Java 專案中使用 Aspose.Slides 所需的套件。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：實例化演示類
 實例化`Presentation`類，它代表您正在處理的 PPTX 文件。

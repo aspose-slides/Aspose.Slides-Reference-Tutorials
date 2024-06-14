@@ -10,7 +10,7 @@ url: /zh-hant/java/presentation-conversion/convert-presentation-html-preserve-fo
 
 ## 將簡報轉換為 HTML 並保留 Java 投影片中的原始字體簡介
 
-在本教學中，我們將探討如何使用 Aspose.Slides for Java 將 PowerPoint 簡報 (PPTX) 轉換為 HTML，同時保留原始字體。這將確保生成的 HTML 與原始簡報的外觀非常相似。
+在本教學中，我們將探索如何使用 Aspose.Slides for Java 將 PowerPoint 簡報 (PPTX) 轉換為 HTML，同時保留原始字體。這將確保生成的 HTML 與原始簡報的外觀非常相似。
 
 ## 第 1 步：設定項目
 在我們深入研究程式碼之前，讓我們確保您已完成必要的設定：
@@ -92,7 +92,7 @@ finally
 
 ## 結論
 
-在本教學中，您學習如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 HTML，同時保留原始字體。當您想要在網路上共享簡報時保持簡報的視覺保真度時，這非常有用。
+在本教學中，您學習如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 HTML，同時保留原始字體。當您希望在網路上共享簡報時保持簡報的視覺保真度時，這非常有用。
 
 ## 常見問題解答
 

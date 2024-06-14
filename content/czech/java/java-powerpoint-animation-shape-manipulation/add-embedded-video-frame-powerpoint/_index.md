@@ -19,7 +19,7 @@ Než se ponoříte do kódu, ujistěte se, že máte splněny následující př
 Nejprve budete muset importovat potřebné balíčky pro práci s Aspose.Slides. Tyto importy vám pomohou spravovat snímky, videa a soubory prezentací.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

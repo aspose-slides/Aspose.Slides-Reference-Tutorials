@@ -20,7 +20,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 ## Étape 1 : Charger la présentation
 
-Tout d’abord, vous devez charger la présentation PowerPoint contenant le graphique que vous souhaitez modifier. Remplacer`presentationName` avec le chemin d'accès à votre fichier PowerPoint.
+ Tout d’abord, vous devez charger la présentation PowerPoint contenant le graphique que vous souhaitez modifier. Remplacer`presentationName` avec le chemin d'accès à votre fichier PowerPoint.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Ensuite, nous accéderons au graphique et aux étiquettes de données dans la pr
 // Obtenez le graphique de la première diapositive
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Obtenir la série du graphique
+//Obtenir la série du graphique
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Obtenez les étiquettes de la première série
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Enfin, enregistrez la présentation avec les couleurs de ligne de repère modifiées dans un nouveau fichier.
 
 ```java
-// Enregistrez la présentation modifiée
+//Enregistrez la présentation modifiée
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Code source complet pour la couleur de la ligne de repère dans les diapositives Java
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Obtenez le graphique de la première diapositive
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Obtenir la série du graphique
+            //Obtenir la série du graphique
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Obtenez les labels de la première série
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ Pour accéder et modifier d'autres propriétés de graphique, vous pouvez explor
 
 ### Ai-je besoin d’une licence pour utiliser Aspose.Slides pour Java dans un projet commercial ?
 
-Oui, vous avez généralement besoin d'une licence valide pour utiliser Aspose.Slides for Java dans un projet commercial. Aspose propose diverses options de licence, notamment une licence d'évaluation gratuite à des fins de test et d'essai. Cependant, pour une utilisation en production, vous devez obtenir la licence commerciale appropriée. Visiter le[Page d'achat Aspose](https://purchase.aspose.com/) pour les détails de la licence.
+ Oui, vous avez généralement besoin d'une licence valide pour utiliser Aspose.Slides for Java dans un projet commercial. Aspose propose diverses options de licence, notamment une licence d'évaluation gratuite à des fins de test et d'essai. Cependant, pour une utilisation en production, vous devez obtenir la licence commerciale appropriée. Visiter le[Page d'achat Aspose](https://purchase.aspose.com/) pour les détails de la licence.
 
 ### Comment puis-je obtenir une assistance technique pour Aspose.Slides pour Java ?
 

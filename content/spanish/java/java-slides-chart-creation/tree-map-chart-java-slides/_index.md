@@ -143,7 +143,7 @@ En este tutorial, ha aprendido cómo crear un gráfico de mapa de árbol en una 
 
 ### ¿Cómo puedo personalizar la apariencia del gráfico del mapa de árbol?
 
- Puede personalizar la apariencia del gráfico de mapa de árbol modificando varias propiedades del`chart` y`series` objetos, como colores, etiquetas y diseños.
+ Puede personalizar la apariencia del gráfico de mapa de árbol modificando varias propiedades del`chart` y`series`objetos, como colores, etiquetas y diseños.
 
 ### ¿Puedo crear varios gráficos de Tree Map en una sola presentación?
 

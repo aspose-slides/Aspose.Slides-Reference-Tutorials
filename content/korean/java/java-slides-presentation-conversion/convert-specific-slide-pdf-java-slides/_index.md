@@ -12,11 +12,11 @@ url: /ko/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 Java 개발 세계에서는 프레젠테이션 슬라이드 작업이 일반적인 작업입니다. 보고 도구를 구축하든 프레젠테이션 관리 시스템을 구축하든 특정 슬라이드를 PDF 형식으로 변환하는 기능은 중요한 기능이 될 수 있습니다. 이 단계별 가이드에서는 Aspose.Slides for Java를 사용하여 이를 달성하는 방법을 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1. Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리가 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리가 설치되어 있어야 합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
 2. Java 개발 환경: 시스템에 Java 개발 환경이 설정되어 있는지 확인하십시오.
 

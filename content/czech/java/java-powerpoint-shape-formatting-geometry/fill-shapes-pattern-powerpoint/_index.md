@@ -19,7 +19,7 @@ Než se ponoříte do kódu, ujistěte se, že máte následující předpoklady
 Nejprve importujme potřebné balíčky požadované pro náš příklad.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

@@ -21,7 +21,7 @@ url: /th/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ตอนนี้ เรามาแจกแจงขั้นตอนการคัดลอกสไลด์จากงานนำเสนอหนึ่งและเพิ่มไปยังอีกสไลด์หนึ่งเป็นขั้นตอนง่ายๆ ที่เข้าใจง่าย
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
  ในการเริ่มต้น เราต้องโหลดงานนำเสนอต้นฉบับที่เราต้องการโคลนสไลด์ นี้จะกระทำโดยใช้`Presentation` คลาสที่จัดทำโดย Aspose.Slides
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // สร้างอินสแตนซ์คลาสการนำเสนอเพื่อโหลดไฟล์การนำเสนอต้นฉบับ
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```
@@ -54,7 +54,7 @@ try {
 ```
 ในตัวอย่างนี้ เรากำลังคัดลอกสไลด์แรก (ดัชนี 0) จากการนำเสนอต้นฉบับ และเพิ่มลงในคอลเลกชันสไลด์ของการนำเสนอปลายทาง
 ## ขั้นตอนที่ 4: บันทึกการนำเสนอปลายทาง
-หลังจากการโคลนสไลด์ ขั้นตอนสุดท้ายคือบันทึกงานนำเสนอปลายทางลงดิสก์
+หลังจากการโคลนสไลด์ ขั้นตอนสุดท้ายคือบันทึกงานนำเสนอปลายทางลงในดิสก์
 ```java
 // เขียนงานนำเสนอปลายทางลงดิสก์
 destPres.save(dataDir + "Aspose2_out.pptx", SaveFormat.Pptx);

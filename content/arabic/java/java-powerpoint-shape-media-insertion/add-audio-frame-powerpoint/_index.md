@@ -18,7 +18,7 @@ url: /ar/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -68,7 +68,7 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 ### هل يمكنني إضافة ملفات صوتية بتنسيقات مختلفة إلى العرض التقديمي الخاص بي؟
 نعم، يدعم Aspose.Slides for Java تنسيقات صوتية متنوعة، بما في ذلك WAV وMP3 والمزيد.
 ### هل من الممكن ضبط توقيت تشغيل الصوت في الشرائح؟
-قطعاً. يمكنك مزامنة تشغيل الصوت مع انتقالات شرائح محددة باستخدام Aspose.Slides لـ Java.
+قطعاً. يمكنك مزامنة تشغيل الصوت مع انتقالات شرائح معينة باستخدام Aspose.Slides لـ Java.
 ### هل يوفر Aspose.Slides for Java الدعم للتوافق عبر الأنظمة الأساسية؟
 نعم، يمكنك إنشاء عروض PowerPoint التقديمية باستخدام إطارات صوتية مضمنة متوافقة عبر منصات مختلفة.
 ### هل يمكنني تخصيص مظهر مشغل الصوت في العرض التقديمي؟

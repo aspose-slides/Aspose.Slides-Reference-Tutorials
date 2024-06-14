@@ -23,7 +23,7 @@ url: /el/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ## Βήμα 1: Δημιουργήστε μια παρουσίαση
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ chart.getChartData().getChartDataWorkbook().clear(0);
 ## Βήμα 4: Φορτώστε το βιβλίο εργασίας του Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Φορτώνουμε το βιβλίο εργασίας του Excel που περιέχει τα δεδομένα που θέλουμε να χρησιμοποιήσουμε για το γράφημα. Αντικαθιστώ`"book1.xlsx"` με τη διαδρομή προς το αρχείο Excel.
@@ -92,14 +92,14 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Ολοκληρώστε τον πηγαίο κώδικα για τη ρύθμιση δεδομένων γραφήματος από το βιβλίο εργασίας σε διαφάνειες Java
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

@@ -18,7 +18,7 @@ I den här handledningen får du lära dig hur du extraherar ljud- och videoelem
 
 ## Varför ljud- och videoextraktion är viktig:
 
-Multimediaelement spelar en avgörande roll för att skapa engagerande och dynamiska presentationer. Oavsett om du bygger e-lärande moduler, företagspresentationer eller interaktiva bildspel, öppnar möjligheten att extrahera och manipulera ljud- och videoinnehåll programmatiskt en värld av möjligheter. Aspose.Slides förenklar denna process, så att du kan förbättra dina presentationer genom att integrera skräddarsydda multimediaupplevelser som är skräddarsydda för din applikations behov.
+Multimediaelement spelar en avgörande roll för att skapa engagerande och dynamiska presentationer. Oavsett om du bygger e-lärande moduler, företagspresentationer eller interaktiva bildspel, öppnar möjligheten att extrahera och manipulera ljud- och videoinnehåll programmatiskt en värld av möjligheter. Aspose.Slides förenklar denna process, så att du kan förbättra dina presentationer genom att integrera skräddarsydda multimediaupplevelser skräddarsydda för din applikations behov.
 
 ## Ljud- och videoextraktionsstudier
 ### [Ljud- och videoextraktion från bilder med Aspose.Slides](./audio-and-video-extraction/)

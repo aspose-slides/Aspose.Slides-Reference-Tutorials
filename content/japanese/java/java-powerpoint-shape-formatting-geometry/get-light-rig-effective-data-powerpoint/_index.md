@@ -20,7 +20,7 @@ Java を使用して PowerPoint プレゼンテーション タスクを自動�
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: プロジェクトディレクトリを設定する
 プロジェクトディレクトリの設定から始めます。JavaファイルとPowerPointプレゼンテーションを保存するフォルダを作成します（`Presentation1.pptx`）。

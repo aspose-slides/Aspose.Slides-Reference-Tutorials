@@ -21,7 +21,7 @@ tomto tutoriálu vás provedeme procesem vytváření radarového grafu pomocí 
 Začněme nastavením nové PowerPointové prezentace a přidáním snímku do ní.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ A je to! Úspěšně jste vytvořili radarový graf v prezentaci PowerPoint pomo
 ## Kompletní zdrojový kód pro vytváření radarových grafů v Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Přidávání nové série
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Nyní se vyplňují data série
+	// Nyní se vyplňují data série
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Nastavit barvu série
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Nyní se vyplňují data další řady
+	//Nyní se vyplňují data další řady
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -261,10 +261,10 @@ Ano, můžete přidat další datové řady podle kroků v „Kroku 3“ a „Kr
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-### Jak mohu změnit označení os a formátování?
+### Jak mohu změnit popisky os a formátování?
 
 Viz "Krok 5" pro přizpůsobení štítků os a formátování, včetně velikosti a barvy písma.
 
 ### Jak uložím graf do jiného formátu souboru?
 
- Výstupní formát můžete změnit úpravou přípony souboru v`outPath` proměnné a pomocí příslušného`SaveFormat` . Chcete-li například uložit jako PDF, použijte`SaveFormat.Pdf`.
+Výstupní formát můžete změnit úpravou přípony souboru v`outPath` proměnné a pomocí příslušného`SaveFormat` . Chcete-li například uložit jako PDF, použijte`SaveFormat.Pdf`.

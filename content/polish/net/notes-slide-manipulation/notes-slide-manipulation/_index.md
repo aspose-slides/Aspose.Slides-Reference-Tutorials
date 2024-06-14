@@ -136,7 +136,7 @@ for (int i = 0; i < presentation.Slides.Count; i++)
 presentation.Save(dataDir + "RemoveNotesFromAllSlides_out.pptx", SaveFormat.Pptx);
 ```
 
-Wykonując poniższe kroki, możesz skutecznie zarządzać prezentacjami PowerPoint i dostosowywać je za pomocą Aspose.Slides dla .NET. Niezależnie od tego, czy chcesz manipulować nagłówkiem i stopką na slajdach z notatkami, czy też usuwać notatki z określonych lub wszystkich slajdów, ten przewodnik Ci to umożliwi.
+Wykonując te kroki, możesz skutecznie zarządzać prezentacjami PowerPoint i dostosowywać je za pomocą Aspose.Slides dla .NET. Niezależnie od tego, czy chcesz manipulować nagłówkiem i stopką na slajdach z notatkami, czy też usuwać notatki z określonych lub wszystkich slajdów, ten przewodnik Ci to umożliwi.
 
 Teraz Twoja kolej, aby odkryć możliwości Aspose.Slides i przenieść swoje prezentacje na wyższy poziom!
 

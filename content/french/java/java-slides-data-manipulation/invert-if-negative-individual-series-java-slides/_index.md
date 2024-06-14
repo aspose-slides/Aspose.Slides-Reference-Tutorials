@@ -130,4 +130,4 @@ Oui, vous pouvez personnaliser l'apparence des points de données inversés. Asp
 
 ### Où puis-je accéder à la documentation Aspose.Slides pour Java ?
 
- Vous pouvez accéder à la documentation d'Aspose.Slides pour Java à l'adresse[ici](https://reference.aspose.com/slides/java/).
+Vous pouvez accéder à la documentation d'Aspose.Slides pour Java à l'adresse[ici](https://reference.aspose.com/slides/java/).

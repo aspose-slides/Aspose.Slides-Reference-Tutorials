@@ -21,7 +21,7 @@ Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Radar Chart 
 Mari kita mulai dengan menyiapkan presentasi PowerPoint baru dan menambahkan slide ke dalamnya.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ Itu dia! Anda telah berhasil membuat bagan radar dalam presentasi PowerPoint men
 ## Kode Sumber Lengkap Untuk Pembuatan Bagan Radar di Slide Java
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Menambahkan seri baru
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Sekarang mengisi data seri
+	// Sekarang mengisi data seri
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Atur warna seri
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Sekarang mengisi data seri lainnya
+	//Sekarang mengisi data seri lainnya
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ Lihat "Langkah 5" untuk menyesuaikan label dan format sumbu, termasuk ukuran dan
 
 ### Bagaimana cara menyimpan grafik ke format file lain?
 
- Anda dapat mengubah format keluaran dengan memodifikasi ekstensi file di`outPath` variabel dan menggunakan yang sesuai`SaveFormat` . Misalnya, untuk menyimpan sebagai PDF, gunakan`SaveFormat.Pdf`.
+Anda dapat mengubah format keluaran dengan memodifikasi ekstensi file di`outPath` variabel dan menggunakan yang sesuai`SaveFormat` . Misalnya, untuk menyimpan sebagai PDF, gunakan`SaveFormat.Pdf`.

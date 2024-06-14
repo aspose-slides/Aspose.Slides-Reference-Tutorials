@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/invert-if-negative-individual-series-java-slides
 
 Aspose.Slides for Java는 프레젠테이션 작업을 위한 강력한 도구를 제공하며 흥미로운 기능 중 하나는 데이터 시리즈가 차트에 표시되는 방식을 제어하는 기능입니다. 이 기사에서는 Java 슬라이드의 개별 시리즈에 대해 "음수인 경우 반전" 기능을 사용하는 방법을 살펴보겠습니다. 이 기능을 사용하면 차트에서 부정적인 데이터 포인트를 시각적으로 구분하여 프레젠테이션을 더욱 유익하고 매력적으로 만들 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -130,4 +130,4 @@ Java 프로젝트에 Aspose.Slides 라이브러리를 포함하려면 프로젝�
 
 ### Java 설명서용 Aspose.Slides에 어디서 액세스할 수 있나요?
 
- Java용 Aspose.Slides 문서에 액세스할 수 있습니다.[여기](https://reference.aspose.com/slides/java/).
+Java용 Aspose.Slides 문서에 액세스할 수 있습니다.[여기](https://reference.aspose.com/slides/java/).

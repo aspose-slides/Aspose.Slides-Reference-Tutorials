@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Добавив эффекты анимации на диаграмму, сохраните измененную презентацию на диске.
 
 ```csharp
-// Сохраните измененную презентацию
+//Сохраните измененную презентацию
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

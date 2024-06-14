@@ -111,7 +111,7 @@ Ya, Anda dapat menambahkan beberapa gambar SVG ke satu slide dengan mengulangi p
 
 ### Bagaimana jika saya ingin menambahkan gambar SVG ke beberapa slide dalam presentasi?
 
-Anda dapat mengulangi slide dalam presentasi Anda dan menambahkan gambar SVG ke setiap slide dengan mengikuti prosedur yang sama yang dijelaskan dalam panduan ini.
+Anda dapat mengulangi slide dalam presentasi Anda dan menambahkan gambar SVG ke setiap slide dengan mengikuti prosedur yang sama yang diuraikan dalam panduan ini.
 
 ### Apakah ada batasan ukuran atau kompleksitas gambar SVG yang dapat ditambahkan?
 

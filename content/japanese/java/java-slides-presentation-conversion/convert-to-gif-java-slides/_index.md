@@ -46,7 +46,7 @@ Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 
 ```java
 GifOptions gifOptions = new GifOptions();
-gifOptions.setFrameSize(new Dimension(540, 480)); //結果のGIFのサイズ
+gifOptions.setFrameSize(new Dimension(540, 480)); //生成されたGIFのサイズ
 gifOptions.setDefaultDelay(1500); //次のスライドに切り替わるまでの各スライドの表示時間
 gifOptions.setTransitionFps(60); //FPSを上げてトランジションアニメーションの品質を向上させる
 ```
@@ -71,12 +71,12 @@ presentation.save(outPath, SaveFormat.Gif, gifOptions);
 //ドキュメントディレクトリへのパス
 String dataDir = "Your Document Directory";
 //出力ファイルへのパス
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 //プレゼンテーションファイルを表すプレゼンテーションオブジェクトをインスタンス化する
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {
 	GifOptions gifOptions = new GifOptions();
-	gifOptions.setFrameSize(new Dimension(540, 480)); //結果のGIFのサイズ
+	gifOptions.setFrameSize(new Dimension(540, 480)); //生成されたGIFのサイズ
 	gifOptions.setDefaultDelay(1500); //次のスライドに切り替わるまでの各スライドの表示時間
 	gifOptions.setTransitionFps(60); //FPSを上げてトランジションアニメーションの品質を向上させる
 	//プレゼンテーションをGIF形式で保存する

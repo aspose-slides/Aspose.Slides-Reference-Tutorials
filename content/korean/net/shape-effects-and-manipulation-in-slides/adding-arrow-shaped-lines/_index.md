@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/adding-arrow-shaped-lines/
 ---
 ## 소개
 역동적인 프레젠테이션의 세계에서는 슬라이드를 사용자 정의하고 향상시키는 능력이 매우 중요합니다. .NET용 Aspose.Slides를 사용하면 개발자가 화살표 모양 선과 같은 시각적으로 매력적인 요소를 프레젠테이션 슬라이드에 추가할 수 있습니다. 이 단계별 가이드는 Aspose.Slides for .NET을 사용하여 화살표 모양의 선을 슬라이드에 통합하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET용 Aspose.Slides: 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).
 2. 개발 환경: Visual Studio와 같은 .NET 개발 환경을 설정합니다.

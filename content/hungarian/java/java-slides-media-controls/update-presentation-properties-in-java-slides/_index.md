@@ -89,7 +89,7 @@ info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 
 ## Következtetés
 
-Ebben az útmutatóban megvizsgáltuk, hogyan frissítheti a prezentáció tulajdonságait Java diákban az Aspose.Slides for Java használatával. A fent vázolt lépések követésével testreszabhatja a különböző dokumentumtulajdonságokat a prezentációs fájlokhoz kapcsolódó információk javítása érdekében. Akár a szerzőt, akár a címet, akár más tulajdonságokat frissíti, az Aspose.Slides for Java robusztus megoldást kínál a prezentáció tulajdonságainak programozott kezelésére.
+Ebben az útmutatóban megvizsgáltuk, hogyan frissítheti a prezentáció tulajdonságait a Java diákban az Aspose.Slides for Java használatával. A fent vázolt lépések követésével testreszabhatja a különböző dokumentumtulajdonságokat, hogy javítsa a prezentációs fájlokhoz kapcsolódó információkat. Akár a szerzőt, akár a címet, akár más tulajdonságokat frissíti, az Aspose.Slides for Java robusztus megoldást kínál a prezentáció tulajdonságainak programozott kezelésére.
 
 ## GYIK
 

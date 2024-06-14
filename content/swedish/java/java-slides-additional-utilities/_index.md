@@ -46,5 +46,5 @@ Låsa upp lösenordsskyddade presentationer i Java. Lär dig hur du öppnar och 
 Lär dig hur du öppnar PowerPoint-presentationer i Java med Aspose.Slides för Java. Steg-för-steg-guide med källkodsexempel för effektiv presentationshantering.
 ### [Ställ in åtkomstbehörigheter till PDF i Java Slides](./set-access-permissions-to-pdf-in-java-slides/)
 Lär dig hur du säkrar dina PDF-dokument med åtkomstbehörigheter i Java Slides med Aspose.Slides. Den här steg-för-steg-guiden täcker lösenordsskydd och mer.
-### [Verifiera presentation utan att ladda i Java Slides](./verify-presentation-without-loading-in-java-slides/)
+### [Verifiera presentationen utan att ladda i Java Slides](./verify-presentation-without-loading-in-java-slides/)
 Lär dig hur du verifierar presentationer utan att ladda dem i Java Slides med Aspose.Slides för Java. Säkerställ filintegritet effektivt med denna steg-för-steg-guide.

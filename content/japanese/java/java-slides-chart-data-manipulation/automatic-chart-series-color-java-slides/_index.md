@@ -8,7 +8,7 @@ weight: 14
 url: /ja/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
 
-## Aspose.Slides for Java の自動チャート シリーズ カラーの概要
+## Aspose.Slides for Java での自動チャート シリーズ カラーの概要
 
 このチュートリアルでは、Aspose.Slides for Java を使用してグラフ付きの PowerPoint プレゼンテーションを作成し、グラフ シリーズの自動塗りつぶし色を設定する方法について説明します。自動塗りつぶし色を使用すると、グラフの視覚的な魅力が増し、ライブラリで色を選択できるため、時間の節約にもなります。
 
@@ -164,7 +164,7 @@ finally
 
 ## よくある質問
 
-### Aspose.Slides for Java でチャート シリーズの自動塗りつぶし色を設定するにはどうすればよいでしょうか?
+### Aspose.Slides for Java でチャート シリーズの自動塗りつぶし色を設定するにはどうすればよいですか?
 
 Aspose.Slides for Java でグラフ シリーズの自動塗りつぶし色を設定するには、次のコードを使用します。
 

@@ -9,7 +9,7 @@ url: /ko/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
 ## 소개
 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 원활하게 조작하고 향상할 수 있도록 지원하는 강력한 라이브러리인 Aspose.Slides for .NET의 세계에 오신 것을 환영합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 포괄적인 가이드는 Aspose.Slides의 잠재력을 최대한 활용하기 위한 필수 단계를 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. Visual Studio 설치됨: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요.
 2.  Aspose.Slides 라이브러리: 다음에서 Aspose.Slides 라이브러리를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/slides/net/).

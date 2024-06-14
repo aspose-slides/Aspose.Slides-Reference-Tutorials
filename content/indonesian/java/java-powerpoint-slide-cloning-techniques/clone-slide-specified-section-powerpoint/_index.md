@@ -12,18 +12,18 @@ Apakah Anda ingin menyederhanakan proses pembuatan presentasi PowerPoint Anda? B
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, mari kita bahas prasyaratnya. Memastikan Anda memiliki segalanya akan membuat prosesnya lebih lancar dan efisien.
 ### Lingkungan Pengembangan Jawa
- Pertama, pastikan Anda telah menyiapkan lingkungan pengembangan Java. Anda perlu menginstal JDK (Java Development Kit) di mesin Anda. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+Pertama, pastikan Anda telah menyiapkan lingkungan pengembangan Java. Anda perlu menginstal JDK (Java Development Kit) di mesin Anda. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slide untuk Perpustakaan Java
  Selanjutnya, unduh perpustakaan Aspose.Slides untuk Java. Anda bisa mendapatkannya dari[Halaman unduh Aspose.Slide](https://releases.aspose.com/slides/java/). Perpustakaan ini akan menyediakan semua alat yang diperlukan untuk memanipulasi presentasi PowerPoint secara terprogram.
 ### IDE Pengembangan
 Menggunakan Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA, Eclipse, atau NetBeans akan membuat proses pengembangan Anda lebih mudah. Pastikan IDE Anda dikonfigurasi untuk bekerja dengan Java.
 ### Lisensi Apose
- Untuk fungsionalitas penuh, Anda mungkin ingin mendapatkan lisensi untuk Aspose.Slides. Anda dapat membelinya[Di Sini](https://purchase.aspose.com/buy) . Alternatifnya, Anda dapat mengajukan permohonan a[izin sementara](https://purchase.aspose.com/temporary-license/)untuk mencoba fitur sebelum melakukan.
+ Untuk fungsionalitas penuh, Anda mungkin ingin mendapatkan lisensi untuk Aspose.Slides. Anda dapat membelinya[Di Sini](https://purchase.aspose.com/buy) . Alternatifnya, Anda dapat mengajukan permohonan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk mencoba fitur sebelum melakukan.
 ## Paket Impor
 Sebelum menulis kode, Anda perlu mengimpor paket yang diperlukan dari Aspose.Slides. Inilah cara Anda melakukannya:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Sekarang, mari kita bagi prosesnya menjadi langkah-langkah yang dapat dikelola. Ikuti setiap langkah dengan hati-hati untuk mencapai hasil yang diinginkan.
 ## Langkah 1: Siapkan Direktori Data
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## Langkah 5: Kloning Slide ke Bagian yang Ditentukan
-Bagian inti dari tutorial ini adalah mengkloning slide ke bagian tertentu. Menggunakan`addClone` metode untuk mengkloning slide pertama ke bagian kedua.
+ Bagian inti dari tutorial ini adalah mengkloning slide ke bagian tertentu. Menggunakan`addClone` metode untuk mengkloning slide pertama ke bagian kedua.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

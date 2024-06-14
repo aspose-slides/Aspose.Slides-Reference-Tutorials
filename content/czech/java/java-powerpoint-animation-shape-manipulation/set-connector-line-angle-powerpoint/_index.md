@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 Chcete-li začít, importujte potřebné balíčky do svého projektu Java. Ujistěte se, že používáte knihovnu Aspose.Slides pro přístup k funkcím aplikace PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Inicializujte objekt prezentace
 Začněte inicializací objektu Presentation pro načtení souboru PowerPoint.

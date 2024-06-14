@@ -23,7 +23,7 @@ using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 ## 1. lépés: Állítsa be projektjét
-Inicializálja a projektet, és adja meg a fájl elérési útját a dokumentumokhoz, beleértve a kimeneti prezentációs fájlt és a zoom effektushoz használandó képet.
+Inicializálja a projektet, és adja meg a dokumentumok elérési útját, beleértve a kimeneti prezentációs fájlt és a zoom effektushoz használandó képet.
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Documents Directory";
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## 3. lépés: A dia háttereinek testreszabása
 Növelje diákjai vizuális vonzerejét a hátterük testreszabásával. Ebben a példában szilárd cián hátteret állítottunk be a második diához.
 ```csharp
-//Hozzon létre hátteret a második diához
+// Hozzon létre hátteret a második diához
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

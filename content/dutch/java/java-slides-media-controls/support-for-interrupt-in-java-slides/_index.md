@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Volledige broncode voor ondersteuning voor onderbrekingen in Java-dia's
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

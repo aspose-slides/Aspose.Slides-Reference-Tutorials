@@ -8,18 +8,18 @@ weight: 11
 url: /pl/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
 ## Wstęp
-W tym samouczku przyjrzymy się, jak dodać linię w kształcie strzałki do slajdu za pomocą Aspose.Slides dla Java. Aspose.Slides to potężny interfejs API języka Java, który umożliwia programistom programowe tworzenie, modyfikowanie i konwertowanie prezentacji programu PowerPoint. Dodanie linii w kształcie strzałek do slajdów może poprawić atrakcyjność wizualną i przejrzystość prezentacji.
+tym samouczku przyjrzymy się, jak dodać linię w kształcie strzałki do slajdu za pomocą Aspose.Slides dla Java. Aspose.Slides to potężny interfejs API języka Java, który umożliwia programistom programowe tworzenie, modyfikowanie i konwertowanie prezentacji programu PowerPoint. Dodanie linii w kształcie strzałek do slajdów może poprawić atrakcyjność wizualną i przejrzystość prezentacji.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 - Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-- Biblioteka Aspose.Slides for Java pobrana i skonfigurowana w projekcie Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+-  Biblioteka Aspose.Slides for Java pobrana i skonfigurowana w projekcie Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
 - Podstawowa znajomość języka programowania Java.
 
 ## Importuj pakiety
 Najpierw zaimportuj niezbędne pakiety do swojej klasy Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -62,12 +62,12 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Wniosek
-W tym samouczku nauczyliśmy się, jak dodać linię w kształcie strzałki do slajdu za pomocą Aspose.Slides dla Java. Wykonując poniższe kroki, możesz tworzyć atrakcyjne wizualnie prezentacje o niestandardowych kształtach i stylach.
+tym samouczku nauczyliśmy się, jak dodać linię w kształcie strzałki do slajdu za pomocą Aspose.Slides dla Java. Wykonując poniższe kroki, możesz tworzyć atrakcyjne wizualnie prezentacje o niestandardowych kształtach i stylach.
 ## Często zadawane pytania
 ### Czy mogę dostosować kolor linii strzałki?
  Tak, możesz określić dowolny kolor za pomocą`setColor` metoda z`SolidFillColor`.
 ### Jak mogę zmienić położenie i rozmiar linii strzałki?
-Dostosuj parametry przekazane do`addAutoShape` metoda zmiany położenia i wymiarów.
+ Dostosuj parametry przekazane do`addAutoShape` metoda zmiany położenia i wymiarów.
 ### Czy Aspose.Slides jest kompatybilny ze wszystkimi wersjami programu PowerPoint?
 Aspose.Slides obsługuje różne formaty programu PowerPoint, zapewniając kompatybilność w różnych wersjach.
 ### Czy mogę dodać tekst do linii strzałki?

@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpo
 ---
 ## 소개
 특정 모양을 찾기 위해 PowerPoint 슬라이드를 뒤지는 데 지치셨나요? 단 몇 줄의 코드만으로 이 프로세스를 쉽게 자동화할 수 있다고 상상해 보십시오. 프레젠테이션 파일에서 모양을 찾기 위해 Java용 Aspose.Slides를 사용하는 방법에 대한 자세한 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 환경 설정부터 코드 실행까지 Aspose.Slides for Java를 사용하여 슬라이드에서 모양을 찾는 데 필요한 단계를 분석합니다.
-## 전제조건
+## 전제 조건
 코드를 살펴보기 전에 필요한 모든 것이 갖추어져 있는지 확인하겠습니다.
 1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Java용 Aspose.Slides: 다음에서 라이브러리를 다운로드하세요.[Aspose 릴리스](https://releases.aspose.com/slides/java/).
@@ -21,7 +21,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpo
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1단계: 프로젝트 디렉터리 생성

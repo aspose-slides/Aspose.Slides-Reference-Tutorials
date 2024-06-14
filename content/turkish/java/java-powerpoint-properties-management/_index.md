@@ -31,7 +31,7 @@ Bir PowerPoint sunumunun yerleşik özelliklerini anlamak, slaytlarınızı yön
 Bu eğitimleri takip ederek Aspose.Slides for Java'yı kullanarak PowerPoint özelliklerini yönetme sanatında ustalaşabilirsiniz. Yerleşik özelliklere erişiyorsanız, bunları değiştiriyorsanız veya yeni şablonlarla güncelliyorsanız, bu kılavuzlar sunumlarınızı geliştirmek ve iş akışınızı kolaylaştırmak için ihtiyaç duyduğunuz bilgi ve araçları sağlar. Her bir öğreticiyi ayrıntılı olarak inceleyin ve PowerPoint sunumlarınızı yönetme şeklinizi bugün dönüştürmeye başlayın.
 ## Java PowerPoint Özellikleri Yönetimi Eğitimleri
 ### [PowerPoint'te Yerleşik Özelliklere Erişin](./access-built-in-properties-powerpoint/)
-Aspose.Slides for Java'yı kullanarak PowerPoint'teki yerleşik özelliklere nasıl erişeceğinizi öğrenin. Bu eğitim, yazarı, oluşturulma tarihini ve daha fazlasını alma konusunda size yol gösterir.
+Aspose.Slides for Java'yı kullanarak PowerPoint'teki yerleşik özelliklere nasıl erişeceğinizi öğrenin. Bu eğitim, yazarın, oluşturulma tarihinin ve daha fazlasının alınması konusunda size yol gösterir.
 ### [Sunum Özelliklerine Erişim](./access-presentation-properties/)
 Aspose.Slides for Java'nın gücünün kilidini açın. Bu eğitimle sunum yönetiminde ustalaşın. Sunum özelliklerine zahmetsizce erişin, değiştirin ve geliştirin.
 ### [PowerPoint'te Yerleşik Özellikleri Değiştirme](./modify-built-in-properties-powerpoint/)

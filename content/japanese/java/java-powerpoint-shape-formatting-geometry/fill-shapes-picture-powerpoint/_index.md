@@ -18,7 +18,7 @@ PowerPoint プレゼンテーションでは、魅力を高め、情報を効果
 Java プロジェクトで、必要なパッケージをインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

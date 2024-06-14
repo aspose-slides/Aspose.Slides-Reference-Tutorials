@@ -1,6 +1,6 @@
 ---
-title: Dapatkan Contoh Placeholder Dasar
-linktitle: Dapatkan Contoh Placeholder Dasar
+title: Dapatkan Contoh Placeholder Basis
+linktitle: Dapatkan Contoh Placeholder Basis
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi Aspose.Slides untuk .NET, perpustakaan canggih untuk bekerja dengan presentasi PowerPoint di C#. Belajar membuat slide dinamis dengan mudah.
 type: docs

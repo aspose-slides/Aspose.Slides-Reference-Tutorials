@@ -86,7 +86,7 @@ ISlide newSlide = presentation.Slides.AddSlide(presentation.SlideLayouts[SlideLa
 presentation.Slides.RemoveAt(2);
 ```
 
-## 슬라이드 내용 사용자 정의
+## 슬라이드 콘텐츠 사용자 정의
 
 Aspose.Slides를 사용하면 텍스트, 도형, 이미지 등과 같은 슬라이드 콘텐츠를 사용자 정의할 수 있습니다.
 
@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 필요한 사항을 모두 변경한 후 수정된 프레젠테이션을 저장합니다.
 
 ```csharp
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

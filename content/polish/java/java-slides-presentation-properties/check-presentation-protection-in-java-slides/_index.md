@@ -67,8 +67,8 @@ if (presentationInfo.isPasswordProtected()) {
 
 ```java
 //Ścieżka prezentacji źródła
-String pptxFile = RunExamples.getDataDir_PresentationProperties() + "modify_pass2.pptx";
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptxFile = "Your Document Directory";
+String pptFile = "Your Document Directory";
 // Sprawdź hasło ochrony przed zapisem za pośrednictwem interfejsu IPresentationInfo
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");
@@ -100,7 +100,7 @@ tym samouczku dowiedzieliśmy się, jak sprawdzić ochronę prezentacji na slajd
 
 ### Jak uzyskać Aspose.Slides dla Java?
 
-Możesz pobrać Aspose.Slides dla Java ze strony Aspose lub dodać ją jako zależność Maven w swoim projekcie, jak pokazano w sekcji wymagań wstępnych.
+Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose lub dodać go jako zależność Maven w swoim projekcie, jak pokazano w sekcji wymagań wstępnych.
 
 ### Czy mogę sprawdzić zarówno ochronę przed zapisem, jak i ochronę przed otwarciem prezentacji?
 

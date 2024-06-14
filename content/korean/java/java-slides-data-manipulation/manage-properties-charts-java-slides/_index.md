@@ -12,9 +12,9 @@ url: /ko/java/data-manipulation/manage-properties-charts-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java 슬라이드에서 속성을 관리하고 차트를 만드는 방법을 살펴보겠습니다. Aspose.Slides는 PowerPoint 프레젠테이션 작업을 위한 강력한 Java API입니다. 소스 코드 예제를 포함하여 단계별 프로세스를 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
- 시작하기 전에 프로젝트에 Java용 Aspose.Slides 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
+시작하기 전에 프로젝트에 Java용 Aspose.Slides 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
 ## 슬라이드에 차트 추가
 
@@ -66,7 +66,7 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
 ```
 
-7. 차트에 카테고리를 추가합니다. 여기에 세 가지 카테고리를 추가합니다.
+7. 차트에 카테고리를 추가합니다. 여기서는 세 가지 카테고리를 추가합니다.
 
 ```java
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Category 1"));
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // 두 번째 차트 시리즈 가져오기
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//이제 계열 데이터를 채우는 중입니다.
+// 이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### 차트 유형을 어떻게 변경할 수 있나요?
 
- 차트 유형을 수정하여 차트 유형을 변경할 수 있습니다.`ChartType`차트를 추가할 때 매개변수입니다. 사용 가능한 차트 유형은 Aspose.Slides 설명서를 참조하세요.
+ 차트 유형을 수정하여 차트 유형을 변경할 수 있습니다.`ChartType` 차트를 추가할 때 매개변수입니다. 사용 가능한 차트 유형은 Aspose.Slides 설명서를 참조하세요.
 
 ### 차트 색상을 사용자 정의할 수 있나요?
 
@@ -189,7 +189,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### 시리즈에 더 많은 데이터 포인트를 추가하려면 어떻게 해야 합니까?
 
- 다음을 사용하여 계열에 더 많은 데이터 요소를 추가할 수 있습니다.`series.getDataPoints().addDataPointForBarSeries()` 방법을 사용하고 데이터 값이 포함된 셀을 지정합니다.
+ 다음을 사용하여 계열에 더 많은 데이터 포인트를 추가할 수 있습니다.`series.getDataPoints().addDataPointForBarSeries()` 방법을 사용하고 데이터 값이 포함된 셀을 지정합니다.
 
 ### 다른 회전 각도를 어떻게 설정하나요?
 

@@ -19,13 +19,13 @@ Trước tiên, hãy nhập các gói cần thiết để sử dụng chức nă
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Bước 1: Thiết lập thư mục dữ liệu
 ```java
 // Đường dẫn đến thư mục tài liệu.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Tạo thư mục nếu nó chưa có.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 Trong bước này, chúng tôi xác định đường dẫn đến thư mục nơi bản trình bày PowerPoint sẽ được lưu. Nếu thư mục không tồn tại, nó sẽ được tạo.
 ## Bước 2: Khởi tạo đối tượng trình bày
 ```java
-//Khởi tạo đối tượng Trình bày đại diện cho tệp PPT
+// Khởi tạo đối tượng Trình bày đại diện cho tệp PPT
 Presentation presentation = new Presentation();
 ```
- Ở đây, chúng ta tạo một phiên bản mới của`Presentation` lớp, đại diện cho một bản trình bày PowerPoint.
+Ở đây, chúng ta tạo một phiên bản mới của`Presentation` lớp, đại diện cho một bản trình bày PowerPoint.
 ## Bước 3: Thực hiện các thao tác trên bài thuyết trình (Tùy chọn)
 ```java
 //...làm vài việc ở đây...

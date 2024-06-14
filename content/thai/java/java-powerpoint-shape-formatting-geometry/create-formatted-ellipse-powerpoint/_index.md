@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse
 หากต้องการเริ่มใช้ Aspose.Slides คุณจะต้องนำเข้าแพ็คเกจที่จำเป็น ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -90,8 +90,8 @@ Aspose.Slides สำหรับ Java เป็นไลบรารีอัน
 ### ฉันสามารถใช้ Aspose.Slides สำหรับ Java กับ IDE ใด ๆ ได้หรือไม่
 ได้ คุณสามารถใช้ Aspose.Slides สำหรับ Java กับ Java IDE ใดก็ได้ เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
 ### ฉันต้องมีใบอนุญาตสำหรับ Aspose.Slides หรือไม่
- ใช่ Aspose.Slides เป็นผลิตภัณฑ์เชิงพาณิชย์ และคุณต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ Aspose.Slides เป็นผลิตภัณฑ์เชิงพาณิชย์ และคุณต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
-คุณสามารถดูเอกสารโดยละเอียดได้ที่ Aspose.Slides สำหรับ Java[หน้าเอกสาร](https://reference.aspose.com/slides/java/).
+ คุณสามารถดูเอกสารโดยละเอียดได้ที่ Aspose.Slides สำหรับ Java[หน้าเอกสาร](https://reference.aspose.com/slides/java/).
 ### มีการรองรับ Aspose.Slides หรือไม่
  ใช่ Aspose ให้การสนับสนุนผ่านทางพวกเขา[ฟอรั่ม](https://forum.aspose.com/c/slides/11).

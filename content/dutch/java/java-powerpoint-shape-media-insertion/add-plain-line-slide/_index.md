@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Stap 1: Stel de omgeving in
@@ -38,7 +38,7 @@ Haal de eerste dia van de presentatie op en sla deze op in een variabele.
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 ## Stap 4: Voeg een lijnvorm toe
-Voeg nu een autovorm-typelijn toe aan de dia.
+Voeg nu een autoshape-typelijn toe aan de dia.
 ```java
 slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
 ```
@@ -61,4 +61,4 @@ Absoluut! Aspose.Slides biedt een breed scala aan vormtypen, waaronder rechthoek
 ### Kan ik naast de lijnvorm ook tekst aan de dia toevoegen?
 Ja, u kunt tekst, afbeeldingen en andere inhoud aan de dia toevoegen met behulp van de Aspose.Slides API.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Slides?
-Ja, u kunt een gratis proefversie van Aspose.Slides downloaden van[hier](https://releases.aspose.com/).
+ Ja, u kunt een gratis proefversie van Aspose.Slides downloaden van[hier](https://releases.aspose.com/).

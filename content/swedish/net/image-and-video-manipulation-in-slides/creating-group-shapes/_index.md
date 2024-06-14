@@ -86,7 +86,7 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
 Upprepa dessa steg i din C#-applikation för att framgångsrikt skapa gruppformer i dina presentationsbilder med Aspose.Slides.
 
 ## Slutsats
-I den här handledningen utforskade vi processen att skapa gruppformer med Aspose.Slides för .NET. Genom att följa dessa steg kan du förbättra det visuella tilltalande och organiseringen av dina PowerPoint-presentationer.
+I den här handledningen utforskade vi processen att skapa gruppformer med Aspose.Slides för .NET. Genom att följa dessa steg kan du förbättra den visuella överklagandet och organisationen av dina PowerPoint-presentationer.
 ## Vanliga frågor
 ### Är Aspose.Slides kompatibel med den senaste versionen av .NET?
  Ja, Aspose.Slides uppdateras regelbundet för att stödja de senaste .NET-versionerna. Kolla[dokumentation](https://reference.aspose.com/slides/net/) för kompatibilitetsinformation.

@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-individual-slide-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 개별 슬라이드를 HTML로 변환하는 과정을 안내합니다. 이 단계별 가이드에서는 이 작업을 수행하는 데 도움이 되는 소스 코드와 설명을 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -169,4 +169,4 @@ Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 개별 �
 
 ### 슬라이드 내의 도형 및 텍스트에 대한 추가 서식을 어떻게 처리합니까?
 
-연장할 수 있습니다.`CustomFormattingController` 클래스를 구현하여 모양별 서식을 처리합니다.`writeShapeStart` 그리고`writeShapeEnd` 메소드와 그 안에 사용자 정의 형식 논리를 적용합니다.
+ 연장할 수 있습니다.`CustomFormattingController` 클래스를 구현하여 모양별 서식을 처리합니다.`writeShapeStart` 그리고`writeShapeEnd` 메소드와 그 안에 사용자 정의 형식 논리를 적용합니다.

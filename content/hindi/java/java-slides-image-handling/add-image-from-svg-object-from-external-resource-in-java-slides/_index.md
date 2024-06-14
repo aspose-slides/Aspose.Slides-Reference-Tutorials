@@ -18,7 +18,7 @@ url: /hi/java/image-handling/add-image-from-svg-object-from-external-resource-in
 
 - जावा विकास पर्यावरण
 - Aspose.Slides for Java लाइब्रेरी
-- एक SVG छवि फ़ाइल (उदाहरण के लिए, "image1.svg")
+- एक SVG छवि फ़ाइल (उदाहरणार्थ, "image1.svg")
 
 ## परियोजना की स्थापना
 

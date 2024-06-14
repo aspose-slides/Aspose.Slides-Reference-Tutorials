@@ -59,6 +59,6 @@ R: ¡Absolutamente! Aspose.Slides ofrece una variedad de diseños SmartArt, perm
 ### P: ¿Hay una licencia temporal disponible para realizar pruebas?
  R: Sí, puede obtener una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/) para pruebas y evaluación.
 ### P: ¿Dónde puedo buscar ayuda o conectarme con la comunidad Aspose.Slides?
-R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para interactuar con la comunidad, hacer preguntas y encontrar soluciones.
+ R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para interactuar con la comunidad, hacer preguntas y encontrar soluciones.
 ### P: ¿Puedo comprar Aspose.Slides para .NET?
  R: ¡Ciertamente! Explora las opciones de compra[aquí](https://purchase.aspose.com/buy) para desbloquear todo el potencial de Aspose.Slides en sus proyectos.

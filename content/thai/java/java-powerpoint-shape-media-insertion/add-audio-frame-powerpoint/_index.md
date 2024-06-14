@@ -18,7 +18,7 @@ url: /th/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 นำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

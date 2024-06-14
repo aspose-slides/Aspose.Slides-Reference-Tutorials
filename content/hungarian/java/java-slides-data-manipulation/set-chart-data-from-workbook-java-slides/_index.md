@@ -23,7 +23,7 @@ Mielőtt belevágnánk a megvalósításba, győződjön meg arról, hogy rendel
 ## 1. lépés: Hozzon létre egy prezentációt
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Minden meglévő adatot törölünk a diagramból, hogy felkészítsük az Excel
 ## 4. lépés: Töltse be az Excel-munkafüzetet
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Betöltjük azt az Excel munkafüzetet, amely a diagramhoz használni kívánt adatokat tartalmazza. Cserélje ki`"book1.xlsx"` az Excel-fájl elérési útjával.
@@ -92,14 +92,14 @@ Végül elmentjük a prezentációt a frissített diagramadatokkal a megadott ki
 ## A Java Slides munkafüzetből származó diagramadatok teljes forráskódja
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

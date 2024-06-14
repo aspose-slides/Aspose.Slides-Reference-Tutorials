@@ -16,7 +16,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện
 
 1. Visual Studio: Bạn cần cài đặt Visual Studio trên máy tính của mình.
 
-2. Aspose.Slides cho .NET: Tải xuống và cài đặt Aspose.Slides cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/slides/net/).
+2.  Aspose.Slides cho .NET: Tải xuống và cài đặt Aspose.Slides cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/slides/net/).
 
 3. Hiểu biết cơ bản về C#: Bạn phải có kiến thức cơ bản về lập trình C#.
 

@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Чтобы отображать проценты, нам необходимо настроить числовой формат для вертикальной оси диаграммы.
 
 ```java
-//Установите для NumberFormatLinkedToSource значение false
+// Установите для NumberFormatLinkedToSource значение false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Добавление диаграммы PercentsStackedColumn на слайд
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Установите для NumberFormatLinkedToSource значение false
+// Установите для NumberFormatLinkedToSource значение false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ### Могу ли я настроить размер шрифта меток данных?
 
- Да, вы можете настроить размер шрифта меток данных, установив`setFontHeight` свойство, как показано в коде.
+Да, вы можете настроить размер шрифта меток данных, установив`setFontHeight` свойство, как показано в коде.
 
 ### Как добавить на диаграмму больше серий?
 

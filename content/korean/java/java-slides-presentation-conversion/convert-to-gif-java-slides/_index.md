@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-to-gif-java-slides/
 
 Java를 사용하여 PowerPoint 프레젠테이션을 GIF 형식으로 변환하려고 하시나요? Aspose.Slides for Java를 사용하면 이 작업이 놀라울 정도로 간단하고 효율적이 됩니다. 이 단계별 가이드에서는 Java 코드를 사용하여 PowerPoint 프레젠테이션을 GIF 이미지로 변환하는 과정을 안내합니다. 따라하기 위해 프로그래밍 전문가가 될 필요는 없습니다. 우리의 지침은 초보자에게 친숙하고 이해하기 쉽습니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 필요한 모든 것이 갖추어져 있는지 확인하겠습니다.
 
@@ -71,7 +71,7 @@ presentation.save(outPath, SaveFormat.Gif, gifOptions);
 // 문서 디렉토리의 경로
 String dataDir = "Your Document Directory";
 // 출력 파일의 경로
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // 프리젠테이션 파일을 나타내는 Presentation 객체를 인스턴스화합니다.
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

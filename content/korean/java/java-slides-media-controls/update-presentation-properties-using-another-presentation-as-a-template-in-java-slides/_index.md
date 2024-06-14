@@ -12,7 +12,7 @@ url: /ko/java/media-controls/update-presentation-properties-using-another-presen
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 프레젠테이션 속성(메타데이터)을 업데이트하는 과정을 안내합니다. 다른 프레젠테이션을 템플릿으로 사용하여 작성자, 제목, 키워드 등과 같은 속성을 업데이트할 수 있습니다. 단계별 지침과 소스 코드 예제를 제공하겠습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 통합된 Java용 Aspose.Slides 라이브러리가 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 

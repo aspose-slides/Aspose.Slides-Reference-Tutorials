@@ -2,7 +2,7 @@
 title: Formázott ellipszis létrehozása a PowerPointban
 linktitle: Formázott ellipszis létrehozása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan hozhat létre formázott ellipszist a PowerPointban az Aspose.Slides for Java segítségével.
+description: A részletes, lépésenkénti útmutatónkból megtudhatja, hogyan hozhat létre formázott ellipszist a PowerPointban az Aspose.Slides for Java segítségével.
 type: docs
 weight: 17
 url: /hu/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
@@ -19,7 +19,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő el�
 Az Aspose.Slides használatának megkezdéséhez importálnia kell a szükséges csomagokat. A következőképpen teheti meg:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -90,8 +90,8 @@ Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fej
 ### Használhatom az Aspose.Slides for Java programot bármilyen IDE-vel?
 Igen, az Aspose.Slides for Java bármely Java IDE-vel használható, például az IntelliJ IDEA, az Eclipse vagy a NetBeans.
 ### Szükségem van licencre az Aspose.Slides-hez?
- Igen, az Aspose.Slides kereskedelmi termék, és a teljes funkcionalitáshoz licencre van szüksége. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+Igen, az Aspose.Slides kereskedelmi termék, és a teljes funkcionalitáshoz licencre van szüksége. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol találok további dokumentációt az Aspose.Slides for Java-ról?
-Részletes dokumentációt találhat az Aspose.Slides for Java webhelyen[dokumentációs oldal](https://reference.aspose.com/slides/java/).
+ Részletes dokumentációt találhat az Aspose.Slides for Java webhelyen[dokumentációs oldal](https://reference.aspose.com/slides/java/).
 ### Van-e támogatás az Aspose.Slides számára?
  Igen, az Aspose támogatást nyújt rajtuk keresztül[fórum](https://forum.aspose.com/c/slides/11).

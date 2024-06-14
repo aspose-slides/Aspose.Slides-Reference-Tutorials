@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-note-tiff-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 발표자 노트가 포함된 PowerPoint 프레젠테이션을 TIFF 형식으로 변환하는 방법을 보여줍니다. 이 라이브러리는 프로그래밍 방식으로 PowerPoint 파일 작업을 위한 강력한 기능을 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## 2단계: 프레젠테이션 및 TIFF 옵션 설정
 
-프레젠테이션 파일의 경로를 정의합니다(`ConvertWithNoteToTiff.pptx` ) 그리고`Presentation` 물체. 그런 다음`TiffOptions` 전환을 위해.
+프레젠테이션 파일의 경로를 정의합니다(`ConvertWithNoteToTiff.pptx` ) 그리고`Presentation` 물체. 그런 다음`TiffOptions`전환을 위해.
 
 ```java
 String dataDir = "Your Document Directory";

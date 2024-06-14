@@ -67,7 +67,7 @@ In deze stap maken we een boxdiagramvorm op de eerste dia van de presentatie. We
 
 Hier maken we een BoxAndWhisker-reeks voor het diagram en configureren we verschillende opties, zoals de kwartielmethode, gemiddelde lijn, gemiddelde markeringen, binnenste punten en uitschieters.
 
-## Stap 5: Voeg gegevenspunten toe
+## Stap 5: Gegevenspunten toevoegen
 
 ```java
     series.getDataPoints().addDataPointForBoxAndWhiskerSeries(wb.getCell(0, "B1", 15));
@@ -143,7 +143,7 @@ U kunt het uiterlijk van het boxdiagram aanpassen door eigenschappen zoals lijns
 
 ### Kan ik extra gegevensreeksen toevoegen aan het boxdiagram?
 
- Ja, u kunt meerdere gegevensreeksen aan het boxdiagram toevoegen door er meerdere te maken`IChartSeries` objecten en voegt er datapunten aan toe.
+ Ja, u kunt meerdere gegevensreeksen aan het boxdiagram toevoegen door er meerdere te maken`IChartSeries` objecten en voegt er gegevenspunten aan toe.
 
 ### Wat betekent QuartileMethodType.Exclusive?
 

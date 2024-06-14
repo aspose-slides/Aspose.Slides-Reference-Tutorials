@@ -12,14 +12,14 @@ In deze zelfstudie onderzoeken we hoe u een pijlvormige lijn aan een dia kunt to
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 - Java Development Kit (JDK) op uw systeem geïnstalleerd.
-- Aspose.Slides voor Java-bibliotheek gedownload en ingesteld in uw Java-project. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides voor Java-bibliotheek gedownload en ingesteld in uw Java-project. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
 - Basiskennis van de programmeertaal Java.
 
 ## Pakketten importeren
 Importeer eerst de benodigde pakketten in uw Java-klasse:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ In deze zelfstudie hebben we geleerd hoe u een pijlvormige lijn aan een dia kunt
 ### Kan ik de kleur van de pijllijn aanpassen?
  Ja, u kunt elke kleur opgeven met behulp van de`setColor` methode met`SolidFillColor`.
 ### Hoe kan ik de positie en grootte van de pijllijn wijzigen?
-Pas de parameters aan die worden doorgegeven aan de`addAutoShape` methode om de positie en afmetingen te wijzigen.
+ Pas de parameters aan die worden doorgegeven aan de`addAutoShape` methode om de positie en afmetingen te wijzigen.
 ### Is Aspose.Slides compatibel met alle versies van PowerPoint?
 Aspose.Slides ondersteunt verschillende PowerPoint-formaten, waardoor compatibiliteit tussen verschillende versies wordt gegarandeerd.
 ### Kan ik tekst toevoegen aan de pijllijn?

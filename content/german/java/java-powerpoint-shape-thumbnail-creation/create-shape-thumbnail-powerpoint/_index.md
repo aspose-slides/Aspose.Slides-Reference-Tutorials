@@ -19,7 +19,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen e
 Zunächst müssen Sie die erforderlichen Pakete in Ihren Java-Code importieren, um die Funktionen von Aspose.Slides nutzen zu können. Fügen Sie am Anfang Ihrer Java-Datei die folgenden Importanweisungen ein:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ Ja, Sie können den Code ändern, um Formen auf jeder Folie anzusprechen, indem 
 ### Unterstützt Aspose.Slides andere Bildformate zum Speichern von Miniaturansichten?
 Ja, neben PNG unterstützt Aspose.Slides das Speichern von Miniaturansichten in verschiedenen Bildformaten wie JPEG, GIF und BMP.
 ### Ist Aspose.Slides für die kommerzielle Nutzung geeignet?
-Ja, Aspose.Slides bietet kommerzielle Lizenzen für Unternehmen und Organisationen an. Sie können eine Lizenz erwerben bei[Hier](https://purchase.aspose.com/buy).
+ Ja, Aspose.Slides bietet kommerzielle Lizenzen für Unternehmen und Organisationen an. Sie können eine Lizenz erwerben bei[Hier](https://purchase.aspose.com/buy).
 ### Kann ich Aspose.Slides vor dem Kauf ausprobieren?
  Absolut! Sie können eine kostenlose Testversion von Aspose.Slides herunterladen von[Hier](https://releases.aspose.com/) um seine Funktionen und Fähigkeiten zu bewerten.
 ### Wo finde ich Unterstützung für Aspose.Slides?

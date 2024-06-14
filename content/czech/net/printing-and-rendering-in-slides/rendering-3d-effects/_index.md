@@ -74,6 +74,6 @@ Absolutně! Aspose.Slides poskytuje rozsáhlé možnosti přizpůsobení 3D vlas
 ### Kde najdu další návody a příklady?
  Prozkoumejte dokumentaci Aspose.Slides[tady](https://reference.aspose.com/slides/net/) pro komplexní návody a příklady.
 ### Je k dispozici bezplatná zkušební verze?
- Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides[tady](https://releases.aspose.com/).
+Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu, pokud narazím na problémy?
  Navštivte fórum Aspose.Slides[tady](https://forum.aspose.com/c/slides/11) za podporu a pomoc komunity.

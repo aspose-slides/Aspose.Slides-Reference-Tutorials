@@ -19,7 +19,7 @@ Antes de sumergirnos en la guía paso a paso, hay algunos requisitos previos que
 Lo primero es lo primero, debe importar los paquetes necesarios desde Aspose.Slides. Esto le permitirá acceder a todas las funcionalidades necesarias para crear y manipular presentaciones de PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Dividamos el proceso de agregar segmentos a formas geométricas en pasos detallados para garantizar la claridad y facilidad de comprensión.
 ## Paso 1: crea una nueva presentación

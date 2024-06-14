@@ -12,17 +12,17 @@ In modernen Präsentationen ist die Einbindung optisch ansprechender und gut str
 ## Voraussetzungen
 Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 1. Java Development Kit (JDK): Stellen Sie sicher, dass JDK auf Ihrem System installiert ist.
-2.  Aspose.Slides für Java-Bibliothek: Laden Sie die Aspose.Slides für Java-Bibliothek herunter und binden Sie sie in Ihr Projekt ein. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides für Java-Bibliothek: Laden Sie die Aspose.Slides für Java-Bibliothek herunter und binden Sie sie in Ihr Projekt ein. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
 3. Integrierte Entwicklungsumgebung (IDE): Wählen Sie eine Java-IDE Ihrer Wahl, beispielsweise IntelliJ IDEA oder Eclipse.
 
 ## Pakete importieren
 Importieren Sie zunächst die erforderlichen Pakete, um die Funktionen von Aspose.Slides für Java nutzen zu können:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Richten Sie Ihre Umgebung ein
- Stellen Sie sicher, dass Sie für Ihr Projekt ein Verzeichnis eingerichtet haben, in dem Sie PowerPoint-Präsentationen erstellen und speichern können. Ersetzen Sie`"Your Document Directory"`durch den Pfad zu Ihrem gewünschten Verzeichnis.
+ Stellen Sie sicher, dass Sie für Ihr Projekt ein Verzeichnis eingerichtet haben, in dem Sie PowerPoint-Präsentationen erstellen und speichern können. Ersetzen Sie`"Your Document Directory"` durch den Pfad zu Ihrem gewünschten Verzeichnis.
 ```java
 String dataDir = "Your Document Directory";
 ```

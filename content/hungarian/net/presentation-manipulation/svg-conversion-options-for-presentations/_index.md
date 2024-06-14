@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
-## 4. SVG-beállítások konfigurálása
+## 4. Az SVG-beállítások konfigurálása
 Az SVG-konverziós folyamat vezérléséhez különféle beállításokat konfigurálhat. Nézzünk meg néhány alapvető lehetőséget:
 
 - **UseFrameSize** : Ez az opció tartalmazza a keretet a renderelési területen. Állítsa be`true` hogy tartalmazza a keretet.

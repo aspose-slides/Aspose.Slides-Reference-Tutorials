@@ -19,7 +19,7 @@ Než se vrhneme na tutoriál, ujistěte se, že máte vše, co potřebujete:
 Chcete-li začít, budete muset importovat potřebné balíčky pro Aspose.Slides a další požadované třídy Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -107,4 +107,4 @@ Aspose.Slides podporuje Java SE 6 a vyšší.
 ### Jak přidám různé animace k více tvarům?
 K více tvarům můžete přidat různé animace opakováním kroků pro každý tvar a zadáním různých efektů podle potřeby.
 ### Kde najdu další příklady a dokumentaci?
- Podívejte se na[dokumentace](https://reference.aspose.com/slides/java/) a[Fórum podpory](https://forum.aspose.com/c/slides/11) pro další příklady a pomoc.
+ Podívejte se na[dokumentace](https://reference.aspose.com/slides/java/) a[Fórum podpory](https://forum.aspose.com/c/slides/11)pro další příklady a pomoc.

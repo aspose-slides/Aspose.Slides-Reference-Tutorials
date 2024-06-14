@@ -16,7 +16,7 @@ Nel mondo dello sviluppo Java, lavorare con le diapositive di presentazione è u
 
 Prima di immergerci nel codice, assicurati di avere i seguenti prerequisiti:
 
-1. Libreria Aspose.Slides per Java: sarà necessario avere installata la libreria Aspose.Slides per Java. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
+1.  Libreria Aspose.Slides per Java: sarà necessario avere installata la libreria Aspose.Slides per Java. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
 
 2. Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java configurato sul tuo sistema.
 

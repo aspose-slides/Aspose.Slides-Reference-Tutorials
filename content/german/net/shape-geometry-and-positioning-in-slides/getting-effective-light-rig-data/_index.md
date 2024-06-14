@@ -40,7 +40,7 @@ Verwenden Sie den folgenden Code, um eine Präsentationsdatei zu laden:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Ihr Code zum Abrufen effektiver Lichtanlagendaten kommt hier hin
+    //Ihr Code zum Abrufen effektiver Lichtanlagendaten kommt hier hin
 }
 ```
 ## Schritt 4: Abrufen effektiver Light Rig-Daten

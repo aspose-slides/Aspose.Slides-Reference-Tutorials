@@ -21,7 +21,7 @@ den här handledningen kommer vi att utforska hur du aktiverar Rekommenderade sk
 Vi börjar med att skapa en ny PowerPoint-presentation med Aspose.Slides för Java. Om du redan har en presentation kan du hoppa över det här steget.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Slutligen sparar vi presentationen med egenskapen Skrivskyddad rekommenderad akt
 ## Komplett källkod för skrivskyddade rekommenderade egenskaper i Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

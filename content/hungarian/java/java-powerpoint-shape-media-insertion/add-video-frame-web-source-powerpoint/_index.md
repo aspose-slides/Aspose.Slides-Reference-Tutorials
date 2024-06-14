@@ -8,7 +8,7 @@ weight: 18
 url: /hu/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
 ## Bevezetés
-Ebből az oktatóanyagból megtudjuk, hogyan adhatunk hozzá videokeretet webes forrásból, például a YouTube-ból, egy PowerPoint-prezentációhoz az Aspose.Slides for Java segítségével. Ha követi ezeket a lépésenkénti utasításokat, lenyűgöző multimédiás elemek beépítésével javíthatja prezentációit.
+Ebből az oktatóanyagból megtudjuk, hogyan adhatunk hozzá egy webes forrásból, például a YouTube-ból származó videokeretet egy PowerPoint-prezentációhoz az Aspose.Slides for Java segítségével. Ha követi ezeket a lépésenkénti utasításokat, lenyűgöző multimédiás elemek beépítésével javíthatja prezentációit.
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 - Java programozási alapismeretek.
@@ -23,7 +23,7 @@ import com.aspose.slides.IVideoFrame;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.VideoPlayModePreset;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -47,7 +47,7 @@ Cserélje ki a „VIDEO_ID” elemet a beágyazni kívánt YouTube-videó azonos
 videoFrame.setPlayMode(VideoPlayModePreset.Auto);
 ```
 ## 4. lépés: Bélyegkép betöltése
-A vizuális vonzerő fokozása érdekében betöltjük a videó indexképét. Ez a lépés magában foglalja az indexkép letöltését a webes forrásból:
+vizuális vonzerő fokozása érdekében betöltjük a videó indexképét. Ez a lépés magában foglalja az indexkép letöltését a webes forrásból:
 ```java
 String thumbnailUri = "https://www.youtube.com/watch?v=VIDEO_ID";
 URL url = new URL(thumbnailUri);

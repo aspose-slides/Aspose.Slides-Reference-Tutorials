@@ -12,7 +12,7 @@ In deze zelfstudie onderzoeken we hoe u SmartArt-miniaturen van onderliggende no
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 1. Java Development Kit (JDK) op uw systeem geïnstalleerd.
-2. Aspose.Slides voor Java-bibliotheek gedownload en geconfigureerd in uw project. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides voor Java-bibliotheek gedownload en geconfigureerd in uw project. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/slides/java/).
 
 ## Pakketten importeren
 Zorg ervoor dat u de benodigde pakketten in uw Java-klasse importeert:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Aggiungi un grafico a imbuto alla prima diapositiva alle coordinate (50, 50) con dimensioni (500, 400).
+    //Aggiungi un grafico a imbuto alla prima diapositiva alle coordinate (50, 50) con dimensioni (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Puoi regolare la posizione e le dimensioni del grafico a imbuto modificando le c
 
 ### Posso esportare il grafico in diversi formati, come PDF o immagine?
 
- Sì, Aspose.Slides per Java ti consente di esportare la presentazione con il grafico a imbuto in vari formati, inclusi PDF, formati di immagine e altro. Puoi usare il`SaveFormat` opzioni per specificare il formato di output desiderato quando si salva la presentazione.
+Sì, Aspose.Slides per Java ti consente di esportare la presentazione con il grafico a imbuto in vari formati, inclusi PDF, formati di immagine e altro. Puoi usare il`SaveFormat` opzioni per specificare il formato di output desiderato quando si salva la presentazione.

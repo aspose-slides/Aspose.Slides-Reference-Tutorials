@@ -67,7 +67,7 @@ Ezután konfigurálja a HTML-konverziós beállításokat. Különféle beállí
 ```csharp
 Html5Options options = new Html5Options()
 {
-    // képek HTML5 dokumentumba történő mentésének kényszerítése
+    // A képek HTML5 dokumentumba történő mentésének kényszerítése
     EmbedImages = false,
     // Állítsa be a külső képek elérési útját
     OutputPath = outPath

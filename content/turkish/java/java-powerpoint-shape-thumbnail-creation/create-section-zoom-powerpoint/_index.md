@@ -13,18 +13,18 @@ Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarında böl
 ## Önkoşullar
 Başlamadan önce, aşağıdaki önkoşulların sisteminizde kurulu ve ayarlanmış olduğundan emin olun:
 1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirip yükleyebilirsiniz:[Burada](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini indirin ve kurun. Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/slides/java/)ve kütüphaneyi şuradan indirin:[bu bağlantı](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Aspose.Slides for Java kütüphanesini indirin ve kurun. Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/slides/java/) ve kütüphaneyi şuradan indirin:[bu bağlantı](https://releases.aspose.com/slides/java/).
 ## Paketleri İçe Aktar
 Öncelikle Aspose.Slides for Java ile çalışmak için gerekli paketleri içe aktarın:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Adım 1: Çıktı Dosyası Kurulumu
 Çıktı sunum dosyasının yolunu tanımlayın:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Adım 2: Sunum Nesnesini Başlatın
  Yeni bir örneğini oluşturun`Presentation` sınıf:
@@ -64,7 +64,7 @@ Sonuç olarak, bu eğitimde Aspose.Slides for Java kullanılarak PowerPoint sunu
 ## SSS'ler
 ### Bölüm yakınlaştırma çerçevelerinin görünümünü özelleştirebilir miyim?
 Evet, kesit yakınlaştırma çerçevelerinin görünümünü, boyutlarını, konumlarını ve diğer özelliklerini gerektiği gibi ayarlayarak özelleştirebilirsiniz.
-### Aynı sunumda birden fazla bölüm yakınlaştırması oluşturmak mümkün mü?
+### Aynı sunumda birden fazla bölüm yakınlaştırması oluşturmak mümkün müdür?
 Kesinlikle, farklı bölümler arasında sorunsuz bir şekilde gezinmek için aynı sunumda birden fazla bölüm yakınlaştırması oluşturabilirsiniz.
 ### Aspose.Slides for Java destek bölümü eski PowerPoint formatlarını yakınlaştırıyor mu?
 Aspose.Slides for Java, PPTX, PPT ve daha fazlasını içeren çeşitli PowerPoint formatlarındaki bölüm yakınlaştırmalarını destekler.

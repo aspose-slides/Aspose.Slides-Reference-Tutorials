@@ -46,7 +46,7 @@ Ebben a lépésben új prezentációt kezdeményezünk, amely megtartja a diagra
 Ezután nyissa meg a bemutató első diáját, amelyhez hozzá szeretné adni a diagramot.
 
 ```csharp
-// Hozzáférés az első diához
+// Az első dia elérése
 ISlide slide = pres.Slides[0];
 ```
 
@@ -197,7 +197,7 @@ Ez a kód konfigurálja a főbb rácsvonalak megjelenését a kategória tengely
 Az értéktengelyhez hasonlóan testreszabhatja a kisebb rácsvonalakat a kategóriatengelyhez.
 
 ```csharp
-//Kisebb rácsvonalak formátumának beállítása a kategória tengelyhez
+// Kisebb rácsvonalak formátumának beállítása a kategória tengelyhez
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// A telekterület színének beállítása
+// telekterület színének beállítása
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

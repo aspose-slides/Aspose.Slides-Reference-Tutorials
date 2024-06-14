@@ -74,7 +74,7 @@ try {
     NewXamlSaver newXamlSaver = new NewXamlSaver();
     xamlOptions.setOutputSaver(newXamlSaver);
     
-    // Преобразование слайдов
+    // Конвертировать слайды
     pres.save(xamlOptions);
     
     // Сохраните файлы XAML в выходной каталог.
@@ -96,7 +96,7 @@ try {
 
 ```java
 	// Путь к исходной презентации
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Создайте варианты конвертации
@@ -105,11 +105,11 @@ try {
 		// Определите свою собственную службу сохранения выходных данных
 		NewXamlSaver newXamlSaver = new NewXamlSaver();
 		xamlOptions.setOutputSaver(newXamlSaver);
-		// Преобразование слайдов
+		// Конвертировать слайды
 		pres.save(xamlOptions);
 		// Сохраните файлы XAML в выходной каталог.
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

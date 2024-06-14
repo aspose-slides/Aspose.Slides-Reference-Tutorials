@@ -48,7 +48,7 @@ INotesCommentsLayoutingOptions notesOptions = swfOptions.getNotesCommentsLayouti
 notesOptions.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-## Шаг 4. Преобразование в SWF
+## Шаг 4. Преобразование в SWF
 
  Теперь вы можете преобразовать презентацию PowerPoint в формат SWF, используя команду`save` метод`Presentation` объект.
 

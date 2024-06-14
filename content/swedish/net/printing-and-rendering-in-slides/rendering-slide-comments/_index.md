@@ -74,7 +74,7 @@ System.Diagnostics.Process.Start(resultPath);
 ```
 Grattis! Du har framgångsrikt renderat bildkommentarer med Aspose.Slides för .NET.
 ## Slutsats
-den här handledningen undersökte vi processen för att rendera bildkommentarer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden kan du enkelt förbättra dina PowerPoint-automatiseringsfunktioner.
+I den här handledningen undersökte vi processen för att rendera bildkommentarer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden kan du enkelt förbättra dina PowerPoint-automatiseringsfunktioner.
 ## Vanliga frågor
 ### F: Är Aspose.Slides kompatibel med de senaste .NET framework-versionerna?
 S: Ja, Aspose.Slides uppdateras regelbundet för att stödja de senaste .NET framework-versionerna.
@@ -85,4 +85,4 @@ A: Absolut! Handledningen innehåller alternativ för att anpassa färg, bredd o
 ### F: Hur får jag en tillfällig licens för Aspose.Slides?
  S: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag söka hjälp och support för Aspose.Slides?
-A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd.
+ A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd.

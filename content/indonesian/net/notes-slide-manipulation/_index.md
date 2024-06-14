@@ -38,4 +38,4 @@ Pelajari cara mengkustomisasi header dan footer di slide catatan menggunakan Asp
 ### [Hapus Catatan pada Slide Tertentu](./remove-notes-at-specific-slide/)
 Pelajari cara menghapus catatan dari slide tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami dengan kode sumber lengkap untuk memanipulasi slide Anda secara terprogram dengan lancar.
 ### [Hapus Catatan dari Semua Slide](./remove-notes-from-all-slides/)
-Pelajari cara menghapus catatan dari semua slide di presentasi PowerPoint Anda menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode sumber lengkap untuk mencapai tujuan Anda dengan mudah.
+Pelajari cara menghapus catatan dari semua slide dalam presentasi PowerPoint Anda menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode sumber lengkap untuk mencapai tujuan Anda dengan mudah.

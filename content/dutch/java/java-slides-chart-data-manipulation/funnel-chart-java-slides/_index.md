@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Voeg een trechterdiagram toe aan de eerste dia op coördinaten (50, 50) met afmetingen (500, 400).
+    //Voeg een trechterdiagram toe aan de eerste dia op coördinaten (50, 50) met afmetingen (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ U kunt de positie en grootte van het trechterdiagram aanpassen door de coördina
 
 ### Kan ik het diagram naar verschillende formaten exporteren, zoals PDF of afbeelding?
 
- Ja, met Aspose.Slides voor Java kunt u de presentatie met het trechterdiagram exporteren naar verschillende formaten, waaronder PDF, afbeeldingsformaten en meer. U kunt gebruik maken van de`SaveFormat` opties om het gewenste uitvoerformaat op te geven bij het opslaan van de presentatie.
+Ja, met Aspose.Slides voor Java kunt u de presentatie met het trechterdiagram exporteren naar verschillende formaten, waaronder PDF, afbeeldingsformaten en meer. U kunt gebruik maken van de`SaveFormat` opties om het gewenste uitvoerformaat op te geven bij het opslaan van de presentatie.

@@ -2,7 +2,7 @@
 title: Dia klónozása egy másik prezentáció végén egy adott pozícióban
 linktitle: Dia klónozása egy másik prezentáció végén egy adott pozícióban
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan klónozhat diákat Java programban. Útmutató lépésről lépésre az Aspose.Slides for Java használatához diák klónozásához egyik PowerPoint-prezentációból a másikba.
+description: Ismerje meg, hogyan klónozhat diákat a Java programban. Útmutató lépésről lépésre az Aspose.Slides for Java használatához diák klónozásához egyik PowerPoint-prezentációból a másikba.
 type: docs
 weight: 12
 url: /hu/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-specific-position-powerpoint/
@@ -22,7 +22,7 @@ kezdéshez importálnia kell a szükséges csomagokat az Aspose.Slides-ből. Ez 
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Most bontsuk le a folyamatot egyszerű lépésekre.
@@ -62,7 +62,7 @@ if (srcPres != null) srcPres.dispose();
 ```
 
 ## Következtetés
-Gratulálunk! Az Aspose.Slides for Java segítségével sikeresen klónozott egy diát egy prezentációból egy másik prezentáció egy adott pozíciójába. Ezzel a hatékony funkcióval sok időt és erőfeszítést takaríthat meg, amikor nagy prezentációkkal foglalkozik, vagy ha több fájl tartalmát kell újra felhasználnia.
+Gratulálunk! Az Aspose.Slides for Java segítségével sikeresen klónozott egy diát egy prezentációból egy másik prezentáció egy adott pozíciójába. Ezzel a hatékony funkcióval sok időt és erőfeszítést takaríthat meg, ha nagy prezentációkkal foglalkozik, vagy ha több fájlban kell újra felhasználnia a tartalmat.
  Részletesebb dokumentációért keresse fel a[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/) . Ha bármilyen problémába ütközik, a[Aspose támogatási fórum](https://forum.aspose.com/c/slides/11) remek hely a segítség kérésére.
 ## GYIK
 ### Több diát is klónozhatok egyszerre?

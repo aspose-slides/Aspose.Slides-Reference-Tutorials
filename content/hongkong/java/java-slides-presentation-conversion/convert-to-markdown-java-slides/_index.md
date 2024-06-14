@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 //源演示的路徑
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Markdown資料保存路徑與資料夾名稱
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	//建立 Markdown 建立選項
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	//設定渲染所有項目的參數（分組的項目將一起渲染）。

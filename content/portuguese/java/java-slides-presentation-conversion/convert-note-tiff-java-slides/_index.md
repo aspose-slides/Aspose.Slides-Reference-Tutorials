@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## Etapa 2: configurar as opções de apresentação e TIFF
 
-Defina o caminho para o seu arquivo de apresentação (`ConvertWithNoteToTiff.pptx` ) e crie um`Presentation` objeto. Em seguida, configure o`TiffOptions` para a conversão.
+Defina o caminho para o seu arquivo de apresentação (`ConvertWithNoteToTiff.pptx` ) e crie um`Presentation` objeto. Em seguida, configure o`TiffOptions`para a conversão.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -104,7 +104,7 @@ Sim, Aspose.Slides for Java oferece suporte a uma ampla variedade de formatos de
 
 Se a sua apresentação não tiver notas, o processo de conversão ainda funcionará e você obterá uma imagem TIFF dos slides sem notas.
 
-### Aspose.Slides for Java é adequado para projetos comerciais?
+### O Aspose.Slides for Java é adequado para projetos comerciais?
 
 Sim, Aspose.Slides for Java é uma biblioteca robusta e confiável usada por muitas empresas para processamento e manipulação de documentos em seus aplicativos Java.
 

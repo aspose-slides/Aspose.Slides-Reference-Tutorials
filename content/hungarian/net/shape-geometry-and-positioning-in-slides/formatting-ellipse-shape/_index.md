@@ -61,7 +61,7 @@ shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
 shp.LineFormat.Width = 5;
 ```
 Alkalmazzon formázást az ellipszis alakra, állítsa be a kitöltés színét és a vonal tulajdonságait.
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 ```csharp
 pres.Save(dataDir + "EllipseShp2_out.pptx", SaveFormat.Pptx);
 ```

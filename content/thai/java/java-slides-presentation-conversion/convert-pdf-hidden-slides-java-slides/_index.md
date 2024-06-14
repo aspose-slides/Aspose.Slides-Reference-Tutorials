@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือก PDF
 
- กำหนดค่าตัวเลือก PDF เพื่อรวมสไลด์ที่ซ่อนอยู่ในเอาต์พุต PDF คุณสามารถทำได้โดยการตั้งค่า`setShowHiddenSlides` ทรัพย์สินของ`PdfOptions` ชั้นเรียนไป`true`.
+กำหนดค่าตัวเลือก PDF เพื่อรวมสไลด์ที่ซ่อนอยู่ในเอาต์พุต PDF คุณสามารถทำได้โดยการตั้งค่า`setShowHiddenSlides` ทรัพย์สินของ`PdfOptions` ชั้นเรียนไป`true`.
 
 ```java
 // สร้างอินสแตนซ์คลาส PdfOptions
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### ฉันจะดาวน์โหลด Aspose.Slides สำหรับ Java ได้อย่างไร
 
-คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose เยี่ยมชม[Aspose.Slides สำหรับหน้าดาวน์โหลด Java](https://releases.aspose.com/slides/java/) เพื่อรับเวอร์ชันล่าสุด
+ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose เยี่ยมชม[Aspose.Slides สำหรับหน้าดาวน์โหลด Java](https://releases.aspose.com/slides/java/) เพื่อรับเวอร์ชันล่าสุด

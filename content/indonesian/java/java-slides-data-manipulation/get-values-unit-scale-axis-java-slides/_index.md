@@ -40,7 +40,7 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartTyp
 chart.validateChartLayout();
 ```
 
-Kami telah menambahkan diagram area ke slide pertama presentasi. Anda dapat menyesuaikan jenis dan posisi grafik sesuai kebutuhan.
+Kami telah menambahkan bagan area ke slide pertama presentasi. Anda dapat menyesuaikan jenis dan posisi grafik sesuai kebutuhan.
 
 ## Langkah 3: Mengambil Nilai Sumbu Vertikal
 

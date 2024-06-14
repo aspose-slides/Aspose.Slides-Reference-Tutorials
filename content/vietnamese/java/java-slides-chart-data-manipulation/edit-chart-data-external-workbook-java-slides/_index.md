@@ -75,7 +75,7 @@ Bây giờ bạn đã chỉnh sửa thành công dữ liệu biểu đồ trong 
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá cách chỉn
 
 ### Làm cách nào để chỉ định một biểu đồ hoặc trang trình bày khác?
 
- Để truy cập vào một biểu đồ hoặc trang trình bày khác, hãy sửa đổi chỉ mục thích hợp trong`getSlides().get_Item()` Và`getShapes().get_Item()` phương pháp. Hãy nhớ rằng việc lập chỉ mục bắt đầu từ 0.
+ Để truy cập vào một biểu đồ hoặc trang trình bày khác, hãy sửa đổi chỉ mục thích hợp trong`getSlides().get_Item()` Và`getShapes().get_Item()`phương pháp. Hãy nhớ rằng việc lập chỉ mục bắt đầu từ 0.
 
 ### Tôi có thể chỉnh sửa dữ liệu trong nhiều biểu đồ trong cùng một bản trình bày không?
 

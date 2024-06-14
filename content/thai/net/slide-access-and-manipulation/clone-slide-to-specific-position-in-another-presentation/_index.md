@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 หลังจากคัดลอกและวางสไลด์แล้ว เราจำเป็นต้องบันทึกการนำเสนอปลายทางที่แก้ไข
 
 ```csharp
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

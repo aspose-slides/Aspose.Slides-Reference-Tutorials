@@ -19,7 +19,7 @@ Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 Importeer om te beginnen de benodigde pakketten in uw Java-project:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Toegang tot de Shapes-collectie
 Toegang tot de vormencollectie voor de geselecteerde dia:
@@ -31,7 +31,7 @@ Presentation presentation = new Presentation();
 IShapeCollection shapes = presentation.getSlides().get_Item(0).getShapes();
 ```
 ## Stap 2: Connectorvorm toevoegen
-Voeg een verbindingsvorm toe aan de verzameling diavormen:
+Voeg een connectorvorm toe aan de verzameling diavormen:
 ```java
 IConnector connector = shapes.addConnector(ShapeType.BentConnector3, 0, 0, 10, 10);
 ```

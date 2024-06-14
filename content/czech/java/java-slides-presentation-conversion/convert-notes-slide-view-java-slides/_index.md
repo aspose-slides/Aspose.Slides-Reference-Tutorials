@@ -1,6 +1,6 @@
 ---
-title: Převést zobrazení snímku poznámek v aplikaci Java Slides
-linktitle: Převést zobrazení snímku poznámek v aplikaci Java Slides
+title: Převést zobrazení snímku Notes v aplikaci Java Slides
+linktitle: Převést zobrazení snímku Notes v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si, jak převést zobrazení snímků s poznámkami v aplikaci Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce s příklady kódu pro efektivní manipulaci s PowerPointem.
 type: docs
@@ -78,13 +78,13 @@ finally
 
 ## Závěr
 
-tomto tutoriálu jsme se zabývali základními kroky pro převod zobrazení snímků s poznámkami v aplikaci Java Slides pomocí Aspose.Slides. Dodržením těchto kroků a přizpůsobením kódu svým konkrétním potřebám můžete efektivně manipulovat a převádět prezentace PowerPoint programově v aplikacích Java.
+V tomto tutoriálu jsme se zabývali základními kroky pro převod zobrazení snímků s poznámkami v aplikaci Java Slides pomocí Aspose.Slides. Dodržením těchto kroků a přizpůsobením kódu svým konkrétním potřebám můžete efektivně manipulovat a převádět PowerPointové prezentace programově v aplikacích Java.
 
 ## FAQ
 
 ### Jak mohu přizpůsobit výstupní formát při převodu prezentace?
 
- Výstupní formát můžete přizpůsobit změnou`SaveFormat` výčet v kódu. Chcete-li například uložit prezentaci jako PDF, použijte`SaveFormat.Pdf`.
+ Výstupní formát můžete přizpůsobit změnou`SaveFormat`výčet v kódu. Chcete-li například uložit prezentaci jako PDF, použijte`SaveFormat.Pdf`.
 
 ### Musím si zakoupit licenci pro Aspose.Slides for Java?
 
@@ -92,7 +92,7 @@ Ano, k používání Aspose.Slides for Java v produkčním prostředí budete po
 
 ### Mohu převést více prezentací v dávkovém režimu?
 
-Ano, Aspose.Slides for Java podporuje dávkové zpracování, což vám umožní převést více prezentací najednou. Můžete iterovat seznamem prezentačních souborů a aplikovat logiku převodu na každý z nich.
+Ano, Aspose.Slides for Java podporuje dávkové zpracování, což vám umožňuje převádět více prezentací najednou. Můžete iterovat seznamem prezentačních souborů a aplikovat logiku převodu na každý z nich.
 
 ### Je Aspose.Slides kompatibilní s nejnovějšími verzemi PowerPointu?
 
@@ -100,4 +100,4 @@ Aspose.Slides je navržen pro práci s různými formáty PowerPoint, včetně n
 
 ### Kde najdu další příklady kódu a návody pro Aspose.Slides pro Javu?
 
- Můžete najít velké množství příkladů kódu a tutoriálů v[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/). Prozkoumejte dokumentaci a zjistěte více o možnostech této výkonné knihovny.
+ Můžete najít velké množství příkladů kódu a tutoriálů v[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/)Prozkoumejte dokumentaci a zjistěte více o možnostech této výkonné knihovny.

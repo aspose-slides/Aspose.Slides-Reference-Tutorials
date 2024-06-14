@@ -169,4 +169,4 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ### Πώς μπορώ να χειριστώ πρόσθετη μορφοποίηση για σχήματα και κείμενο εντός διαφανειών;
 
-Μπορείτε να επεκτείνετε το`CustomFormattingController` κλάση για χειρισμό μορφοποίησης συγκεκριμένου σχήματος με την εφαρμογή του`writeShapeStart` και`writeShapeEnd` μεθόδους και την εφαρμογή προσαρμοσμένης λογικής μορφοποίησης εντός αυτών.
+ Μπορείτε να επεκτείνετε το`CustomFormattingController` κλάση για χειρισμό μορφοποίησης συγκεκριμένου σχήματος με την εφαρμογή του`writeShapeStart` και`writeShapeEnd` μεθόδους και την εφαρμογή προσαρμοσμένης λογικής μορφοποίησης εντός αυτών.

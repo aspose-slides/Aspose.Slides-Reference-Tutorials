@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Definiera huvudmetod
 Skapa en huvudmetod där du initierar processen att uppdatera presentationsegenskaper med en ny mall. Denna metod fungerar som startpunkten för din Java-applikation.

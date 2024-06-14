@@ -8,13 +8,13 @@ weight: 11
 url: /cs/net/hyperlink-manipulation/remove-hyperlinks/
 ---
 
-Ve světě profesionálních prezentací je zásadní zajistit, aby vaše snímky vypadaly úhledně a uklizeně. Jedním společným prvkem, který často zaplňuje snímky, jsou hypertextové odkazy. Ať už máte v prezentaci co do činění s hypertextovými odkazy na webové stránky, dokumenty nebo jiné snímky, možná je budete chtít odstranit, abyste získali čistší a cílenější vzhled. S Aspose.Slides pro .NET můžete tohoto úkolu snadno dosáhnout. V tomto podrobném průvodci vás provedeme procesem odstraňování hypertextových odkazů ze snímků pomocí Aspose.Slides for .NET.
+Ve světě profesionálních prezentací je zásadní zajistit, aby vaše snímky vypadaly úhledně a uklizeně. Jedním společným prvkem, který často zaplňuje snímky, jsou hypertextové odkazy. Ať už se v prezentaci zabýváte hypertextovými odkazy na webové stránky, dokumenty nebo jiné snímky, možná je budete chtít odstranit, abyste získali čistší a cílenější vzhled. S Aspose.Slides pro .NET můžete tohoto úkolu snadno dosáhnout. V tomto podrobném průvodci vás provedeme procesem odstraňování hypertextových odkazů ze snímků pomocí Aspose.Slides for .NET.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Aspose.Slides for .NET: Měli byste mít Aspose.Slides for .NET nainstalovaný a nastavený ve svém vývojovém prostředí. Pokud jste tak ještě neučinili, můžete jej získat z[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
+1.  Aspose.Slides for .NET: Aspose.Slides for .NET byste měli mít nainstalovaný a nastavený ve svém vývojovém prostředí. Pokud jste tak ještě neučinili, můžete jej získat z[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
 
 2. PowerPointová prezentace: Budete potřebovat PowerPointovou prezentaci (soubor PPTX), ze které chcete odstranit hypertextové odkazy.
 
@@ -42,7 +42,7 @@ Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 
 ## Krok 3: Odstraňte hypertextové odkazy
 
-Po načtení prezentace můžete pokračovat v odstraňování hypertextových odkazů. Aspose.Slides pro .NET poskytuje pro tento účel přímou metodu:
+Po načtení prezentace můžete pokračovat v odstraňování hypertextových odkazů. Aspose.Slides for .NET poskytuje pro tento účel přímou metodu:
 
 ```csharp
 presentation.HyperlinkQueries.RemoveAllHyperlinks();

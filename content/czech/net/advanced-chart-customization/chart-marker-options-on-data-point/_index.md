@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Vytvoření výchozího grafu
+//Vytvoření výchozího grafu
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -112,7 +112,7 @@ Nastavili jsme obrázkové značky pro datové body, což vám umožní přizpů
 ## Krok 6: Změna velikosti značky řady grafů
 
 ```csharp
-// Změna velikosti značky řady grafu
+// Změna velikosti značky řady grafů
 series.Marker.Size = 15;
 ```
 
@@ -130,7 +130,7 @@ Nakonec prezentaci uložíme s novým nastavením grafu.
 
 Aspose.Slides for .NET vám umožňuje vytvářet úžasné prezentace grafů s různými možnostmi přizpůsobení. V tomto kurzu jsme se zaměřili na použití možností značek grafu na datových bodech, abychom zlepšili vizuální reprezentaci vašich dat. S Aspose.Slides pro .NET můžete své prezentace posunout na další úroveň, díky čemuž budou poutavější a informativnější.
 
- Pokud máte nějaké dotazy nebo potřebujete pomoc s Aspose.Slides pro .NET, neváhejte navštívit[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/net/) nebo se obrátit na[Aspose komunita](https://forum.aspose.com/) pro podporu.
+Pokud máte nějaké dotazy nebo potřebujete pomoc s Aspose.Slides pro .NET, neváhejte navštívit[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/net/) nebo se obrátit na[Aspose komunita](https://forum.aspose.com/) pro podporu.
 
 ## Často kladené otázky (FAQ)
 
@@ -138,7 +138,7 @@ Aspose.Slides for .NET vám umožňuje vytvářet úžasné prezentace grafů s 
 Ano, můžete použít vlastní obrázky jako značky pro datové body v Aspose.Slides pro .NET, jak je ukázáno v tomto tutoriálu.
 
 ### Jak mohu změnit typ grafu v Aspose.Slides pro .NET?
-Typ grafu můžete změnit zadáním jiného`ChartType` při vytváření grafu, například „Sloupec“, „Koláč“ nebo „Plocha“.
+ Typ grafu můžete změnit zadáním jiného`ChartType` při vytváření grafu, například „Sloupec“, „Koláč“ nebo „Plocha“.
 
 ### Je Aspose.Slides for .NET kompatibilní s nejnovějšími verzemi PowerPointu?
 Aspose.Slides for .NET je navržen pro práci s různými formáty aplikace PowerPoint a je pravidelně aktualizován, aby byla zachována kompatibilita s nejnovějšími verzemi aplikace PowerPoint.

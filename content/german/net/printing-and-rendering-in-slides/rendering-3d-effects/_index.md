@@ -74,6 +74,6 @@ Auf jeden Fall! Aspose.Slides bietet umfangreiche Optionen zum Anpassen von 3D-E
 ### Wo finde ich weitere Tutorials und Beispiele?
  Erkunden Sie die Aspose.Slides-Dokumentation[Hier](https://reference.aspose.com/slides/net/) für umfassende Tutorials und Beispiele.
 ### Gibt es eine kostenlose Testversion?
- Ja, Sie können eine kostenlose Testversion von Aspose.Slides herunterladen[Hier](https://releases.aspose.com/).
+Ja, Sie können eine kostenlose Testversion von Aspose.Slides herunterladen[Hier](https://releases.aspose.com/).
 ### Wie kann ich Unterstützung erhalten, wenn ich auf Probleme stoße?
  Besuchen Sie das Aspose.Slides-Forum[Hier](https://forum.aspose.com/c/slides/11) für die Unterstützung und Hilfe der Community.

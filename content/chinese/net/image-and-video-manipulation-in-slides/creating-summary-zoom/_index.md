@@ -11,7 +11,7 @@ url: /zh/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 在动态的演示世界中，Aspose.Slides for .NET 是一款功能强大的工具，可增强您的幻灯片创建体验。它提供的一项显著功能是能够创建“摘要缩放”，这是一种以视觉效果吸引人的方式呈现幻灯片集合。在本教程中，我们将指导您使用 Aspose.Slides for .NET 在演示幻灯片中创建“摘要缩放”的过程。
 ## 先决条件
 在深入学习本教程之前，请确保您满足以下先决条件：
-- Aspose.Slides for .NET：请确保您的 .NET 环境中安装了该库。如果没有，您可以从[发布页面](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET：请确保您的 .NET 环境中安装了该库。如果没有，您可以从[发布页面](https://releases.aspose.com/slides/net/).
 - 开发环境：设置您的 .NET 开发环境，包括 Visual Studio 或任何其他首选 IDE。
 - C# 基础知识：本教程假设您对 C# 编程有基本的了解。
 ## 导入命名空间
@@ -32,7 +32,7 @@ string resultPath = Path.Combine(dataDir, "SummaryZoomPresentation.pptx");
 using (Presentation pres = new Presentation())
 {
     //此处提供创建幻灯片和章节的代码
-    //...
+    // ...
     //保存演示文稿
     pres.Save(resultPath, SaveFormat.Pptx);
 }
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 //幻灯片样式代码在此处
-//...
+// ...
 pres.Sections.AddSection("Section 1", slide);
 //对其他部分重复这些步骤（第 2 部分、第 3 部分、第 4 部分）
 ```

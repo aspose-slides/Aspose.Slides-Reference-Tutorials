@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/set-connector-line-an
 Для начала импортируйте необходимые пакеты в свой Java-проект. Обязательно включите библиотеку Aspose.Slides для доступа к функциям PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Инициализация объекта презентации
 Начните с инициализации объекта Presentation для загрузки файла PowerPoint.
@@ -71,7 +71,7 @@ public static double getDirection(float w, float h, boolean flipH, boolean flipV
 В этом уроке мы научились управлять углами соединительных линий в презентациях PowerPoint с помощью Aspose.Slides для Java. Следуя этим шагам, вы сможете эффективно настроить слайды для точного визуального представления данных и концепций.
 ## Часто задаваемые вопросы
 ### Могу ли я использовать Aspose.Slides для Java с другими библиотеками Java?
-Абсолютно! Aspose.Slides for Java легко интегрируется с другими библиотеками Java, что расширяет возможности создания презентаций и управления ими.
+Абсолютно! Aspose.Slides for Java легко интегрируется с другими библиотеками Java, расширяя возможности создания презентаций и управления ими.
 ### Подходит ли Aspose.Slides как для простых, так и для сложных задач PowerPoint?
 Да, Aspose.Slides предлагает широкий спектр функций, отвечающих различным требованиям PowerPoint: от базовых манипуляций со слайдами до расширенных задач форматирования и анимации.
 ### Поддерживает ли Aspose.Slides все функции PowerPoint?

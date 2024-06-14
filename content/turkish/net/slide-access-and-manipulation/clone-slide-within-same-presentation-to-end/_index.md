@@ -65,7 +65,7 @@ Bu kod pasajı, çoğaltılan slaydı sununun sonuna ekler.
 Çoğaltılmış slaydı ekledikten sonra değiştirilen sunumu kaydetmemiz gerekiyor. İşte nasıl:
 
 ```csharp
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

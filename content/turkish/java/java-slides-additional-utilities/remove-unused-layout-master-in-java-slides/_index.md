@@ -84,7 +84,7 @@ Bu kod, kullanılmayan öğelerin kaldırıldığını göstererek sununuzdaki g
 ## Java Slaytlarında Kullanılmayan Düzen Master'ını Kaldırmak İçin Kaynak Kodunu Tamamlayın
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

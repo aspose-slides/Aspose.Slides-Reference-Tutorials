@@ -10,7 +10,7 @@ url: /pl/java/chart-data-manipulation/clear-specific-chart-series-data-points-ja
 
 ## Wprowadzenie do czyszczenia danych punktów danych określonych serii wykresów w slajdach Java
 
-W tym samouczku przeprowadzimy Cię przez proces usuwania określonych punktów danych z serii wykresów w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Może to być przydatne, gdy chcesz usunąć określone punkty danych z wykresu w celu aktualizacji lub modyfikacji wizualizacji danych.
+tym samouczku przeprowadzimy Cię przez proces usuwania określonych punktów danych z serii wykresów w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Może to być przydatne, gdy chcesz usunąć określone punkty danych z wykresu w celu aktualizacji lub modyfikacji wizualizacji danych.
 
 ## Warunki wstępne
 
@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
-Ten kod przechodzi przez każdy punkt danych w pierwszej serii (indeks 0) i ustawia wartości X i Y`null`, skutecznie usuwając punkty danych.
+ Ten kod przechodzi przez każdy punkt danych w pierwszej serii (indeks 0) i ustawia wartości X i Y`null`skutecznie usuwając punkty danych.
 
 ## Krok 4: Usuń wyczyszczone punkty danych
 
@@ -116,7 +116,7 @@ Tak, możesz wyczyścić punkty danych na podstawie warunku, dodając logikę wa
 
 ### Jak mogę dodać nowe punkty danych do serii wykresów za pomocą Aspose.Slides dla Java?
 
-Aby dodać nowe punkty danych do serii wykresów, możesz użyć opcji`addDataPoint` metoda serii. Po prostu utwórz nowe punkty danych i dodaj je do serii, korzystając z tej metody.
+ Aby dodać nowe punkty danych do serii wykresów, możesz użyć opcji`addDataPoint` metoda serii. Po prostu utwórz nowe punkty danych i dodaj je do serii, korzystając z tej metody.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Slides dla Java?
 

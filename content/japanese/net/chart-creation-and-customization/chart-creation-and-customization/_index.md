@@ -39,7 +39,7 @@ using (Presentation p = new Presentation(FileName))
     if (layoutSlide == null)
     {
         //プレゼンテーションに何らかのレイアウトが含まれていない状況。
-        //...
+        // ...
 
         //レイアウトスライドを追加して空のスライドを追加する
         p.Slides.InsertEmptySlide(0, layoutSlide);
@@ -62,11 +62,11 @@ using (Presentation presentation = new Presentation(presentationName))
     ISlide slide = presentation.Slides[0];
     IShape shape = slide.Shapes[0];
 
-    //...
+    // ...
 
     IShape masterShape = layoutShape.GetBasePlaceholder();
 
-    //...
+    // ...
 }
 ```
 
@@ -80,7 +80,7 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 {
     IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
 
-    //...
+    // ...
 
     presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 }
@@ -106,7 +106,7 @@ Aspose.Slides for .NET は、.NET Framework や .NET Core を含む幅広い .NE
 はい、AsposeのWebサイトから無料トライアルをダウンロードできます。[ここ](https://releases.aspose.com/).
 
 ### Aspose.Slides for .NET の追加サポートとリソースはどこで見つかりますか?
- Aspose サポートフォーラムにアクセス[ここ](https://forum.aspose.com/)ご質問やサポートが必要な場合は、お気軽にお問い合わせください。
+ Aspose サポートフォーラムにアクセスしてください[ここ](https://forum.aspose.com/)ご質問やサポートが必要な場合は、お気軽にお問い合わせください。
 
 ### Aspose.Slides for .NET の一時ライセンスを購入できますか?
 はい、AsposeのWebサイトから一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).

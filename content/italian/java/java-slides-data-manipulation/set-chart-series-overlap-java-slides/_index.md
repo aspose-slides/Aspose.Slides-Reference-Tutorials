@@ -87,13 +87,13 @@ finally
 
 ## Conclusione
 
-Congratulazioni! Hai imparato con successo come impostare la sovrapposizione delle serie di grafici in Java Slides utilizzando Aspose.Slides per Java. Questa può essere un'abilità preziosa quando si lavora con le presentazioni, poiché consente di ottimizzare i grafici per soddisfare requisiti specifici.
+Congratulazioni! Hai imparato con successo come impostare la sovrapposizione delle serie di grafici in Java Slides utilizzando Aspose.Slides per Java. Questa può essere una capacità preziosa quando si lavora con le presentazioni, poiché consente di ottimizzare i grafici per soddisfare requisiti specifici.
 
 ## Domande frequenti
 
 ### Come posso modificare il tipo di grafico in Aspose.Slides per Java?
 
- Per modificare il tipo di grafico, puoi utilizzare il file`ChartType` enumerazione quando si aggiunge un grafico. Basta sostituirlo`ChartType.ClusteredColumn` con il tipo di grafico desiderato, ad esempio`ChartType.Line` O`ChartType.Pie`.
+ Per modificare il tipo di grafico, è possibile utilizzare il file`ChartType` enumerazione quando si aggiunge un grafico. Sostituisci semplicemente`ChartType.ClusteredColumn` con il tipo di grafico desiderato, ad esempio`ChartType.Line` O`ChartType.Pie`.
 
 ### Quali altre opzioni di personalizzazione del grafico sono disponibili?
 

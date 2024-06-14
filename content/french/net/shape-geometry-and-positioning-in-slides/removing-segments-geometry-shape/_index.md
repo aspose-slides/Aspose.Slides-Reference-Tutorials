@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
     pres.Save(resultPath, SaveFormat.Pptx);
 }
 ```
-## Étape 2 : Ajouter une forme géométrique
+## Étape 2 : ajouter une forme géométrique
 Dans cette étape, créez une nouvelle forme avec une géométrie spécifiée. Pour cet exemple, nous utilisons une forme de cœur.
 ```csharp
 GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Heart, 100, 100, 300, 300);

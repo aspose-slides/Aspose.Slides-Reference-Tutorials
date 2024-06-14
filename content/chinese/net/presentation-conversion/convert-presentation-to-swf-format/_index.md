@@ -78,7 +78,7 @@ presentation.Save(dataDir + "SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
 
 此行将把主演示文稿保存为 SWF 文件。
 
-## 第 5 步：使用注释保存
+## 步骤 5：使用注释保存
 
 如果您想包含注释，请使用以下代码：
 

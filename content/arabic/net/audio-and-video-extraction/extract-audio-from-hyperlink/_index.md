@@ -16,7 +16,7 @@ url: /ar/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 
 ### 1. Aspose.Slides لمكتبة .NET
 
- يجب أن يكون لديك مكتبة Aspose.Slides for .NET مثبتة في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، يمكنك تنزيله من موقع الويب على[Aspose.Slides لتوثيق .NET](https://reference.aspose.com/slides/net/).
+يجب أن يكون لديك مكتبة Aspose.Slides for .NET مثبتة في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بذلك بالفعل، يمكنك تنزيله من موقع الويب على[Aspose.Slides لتوثيق .NET](https://reference.aspose.com/slides/net/).
 
 ### 2. عرض PowerPoint التقديمي مع الارتباطات التشعبية الصوتية
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## الخطوة 2: قم بتحميل عرض PowerPoint التقديمي
 
- قم بتحميل عرض PowerPoint التقديمي (PPTX) الذي يحتوي على الارتباط التشعبي الصوتي باستخدام Aspose.Slides. يستبدل`"HyperlinkSound.pptx"` مع اسم الملف الفعلي للعرض التقديمي الخاص بك.
+ قم بتحميل عرض PowerPoint التقديمي (PPTX) الذي يحتوي على الارتباط التشعبي الصوتي باستخدام Aspose.Slides. يستبدل`"HyperlinkSound.pptx"`مع اسم الملف الفعلي للعرض التقديمي الخاص بك.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 إذا كان الارتباط التشعبي يحتوي على صوت مرتبط، فيمكننا استخراجه كمصفوفة بايت وحفظه كملف وسائط.
 
 ```csharp
-//يستخرج صوت الارتباط التشعبي في صفيف البايت
+// يستخرج صوت الارتباط التشعبي في صفيف البايت
 byte[] audioData = link.Sound.BinaryData;
 
 // حدد المسار الذي تريد حفظ الصوت المستخرج فيه
@@ -101,7 +101,7 @@ File.WriteAllBytes(outMediaPath, audioData);
  نعم، يمكنك الحصول على المساعدة ومشاركة تجاربك مع Aspose.Slides في[منتدى المجتمع Aspose.Slides](https://forum.aspose.com/).
 
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لمشروع قصير المدى؟
- نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.Slides for .NET لتلبية احتياجات مشروعك على المدى القصير من خلال زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.Slides for .NET لتلبية احتياجات مشروعك على المدى القصير من خلال زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
 
 ### هل هناك تنسيقات صوتية أخرى مدعومة للاستخراج، بخلاف MPG؟
 يسمح لك Aspose.Slides for .NET باستخراج الصوت بتنسيقات مختلفة، لا تقتصر على MPG. يمكنك تحويله إلى التنسيق المفضل لديك بعد الاستخراج.

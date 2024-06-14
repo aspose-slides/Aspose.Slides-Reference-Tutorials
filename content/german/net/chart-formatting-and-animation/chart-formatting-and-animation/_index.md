@@ -2,7 +2,7 @@
 title: Diagrammformatierung und Animation in Aspose.Slides
 linktitle: Diagrammformatierung und Animation in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie Diagramme in Aspose.Slides für .NET formatieren und animieren und Ihre Präsentationen mit fesselnden visuellen Elementen verbessern.
+description: Erfahren Sie, wie Sie Diagramme in Aspose.Slides für .NET formatieren und animieren und Ihre Präsentationen mit fesselnden Bildern verbessern.
 type: docs
 weight: 10
 url: /de/net/chart-formatting-and-animation/chart-formatting-and-animation/

@@ -36,7 +36,7 @@ import com.aspose.slides.*;
 String dataDir = "Your Document Directory";
 ```
 
-## ขั้นตอนที่ 3: โหลดงานนำเสนอ
+## ขั้นตอนที่ 3: โหลดการนำเสนอ
 
  สร้างอินสแตนซ์ของ`Presentation` ชั้นเรียนแล้วโหลดไฟล์งานนำเสนอ PowerPoint ที่คุณต้องการแปลง ในโค้ดที่ให้มา เราจะโหลดงานนำเสนอชื่อ "Convert_XPS_Options.pptx"
 
@@ -101,7 +101,7 @@ finally
 
 ### ฉันจะดาวน์โหลด Aspose.Slides สำหรับ Java ได้อย่างไร
 
-คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose เยี่ยม[ที่นี่](https://releases.aspose.com/slides/java/) เพื่อเข้าถึงลิงค์ดาวน์โหลด
+ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose เยี่ยม[ที่นี่](https://releases.aspose.com/slides/java/) เพื่อเข้าถึงลิงค์ดาวน์โหลด
 
 ### มีข้อกำหนดสิทธิ์การใช้งานสำหรับการใช้ Aspose.Slides สำหรับ Java หรือไม่
 

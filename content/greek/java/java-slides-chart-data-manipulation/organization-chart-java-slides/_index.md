@@ -22,7 +22,7 @@ url: /el/java/chart-data-manipulation/organization-chart-java-slides/
 ## Βήμα 1: Ρύθμιση του έργου Java σας
 
 1. Δημιουργήστε ένα νέο έργο Java στο IDE που προτιμάτε.
-2.  Προσθέστε τη βιβλιοθήκη Aspose.Slides for Java στο έργο σας. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από το[Aspose website](https://products.aspose.com/slides/java)και να το συμπεριλάβετε ως εξάρτηση.
+2.  Προσθέστε τη βιβλιοθήκη Aspose.Slides for Java στο έργο σας. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από το[Aspose website](https://products.aspose.com/slides/java) και να το συμπεριλάβετε ως εξάρτηση.
 
 ## Βήμα 2: Εισαγάγετε τις Απαιτούμενες Βιβλιοθήκες
 Στην τάξη Java, εισαγάγετε τις απαραίτητες βιβλιοθήκες για να εργαστείτε με το Aspose.Slides:

@@ -2,7 +2,7 @@
 title: 使用 Java 幻燈片中的媒體檔案將整個簡報轉換為 HTML
 linktitle: 使用 Java 幻燈片中的媒體檔案將整個簡報轉換為 HTML
 second_title: Aspose.Slides Java PowerPoint 處理 API
-description: 了解如何使用 Java 投影片將簡報轉換為包含媒體檔案的 HTML。請遵循我們的 Aspose.Slides for Java API 逐步指南。
+description: 了解如何使用 Java Slides 將簡報轉換為帶有媒體檔案的 HTML。請遵循我們的 Aspose.Slides for Java API 逐步指南。
 type: docs
 weight: 30
 url: /zh-hant/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/

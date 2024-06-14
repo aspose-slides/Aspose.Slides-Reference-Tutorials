@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/add-animations-to-sha
 Για να ξεκινήσετε, θα χρειαστεί να εισαγάγετε τα απαραίτητα πακέτα για το Aspose.Slides και άλλες απαιτούμενες κλάσεις Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -107,4 +107,4 @@ if (pres != null) pres.dispose();
 ### Πώς μπορώ να προσθέσω διαφορετικά κινούμενα σχέδια σε πολλά σχήματα;
 Μπορείτε να προσθέσετε διαφορετικά κινούμενα σχέδια σε πολλά σχήματα επαναλαμβάνοντας τα βήματα για κάθε σχήμα και προσδιορίζοντας διαφορετικά εφέ, όπως απαιτείται.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
- Ελέγξτε το[τεκμηρίωση](https://reference.aspose.com/slides/java/) και[φόρουμ υποστήριξης](https://forum.aspose.com/c/slides/11) για περισσότερα παραδείγματα και βοήθεια.
+ Ελέγξτε το[τεκμηρίωση](https://reference.aspose.com/slides/java/) και[φόρουμ υποστήριξης](https://forum.aspose.com/c/slides/11)για περισσότερα παραδείγματα και βοήθεια.

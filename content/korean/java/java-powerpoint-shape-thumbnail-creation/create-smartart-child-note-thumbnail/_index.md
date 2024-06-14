@@ -9,10 +9,10 @@ url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-not
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java에서 SmartArt 하위 노트 썸네일을 만드는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업하여 슬라이드를 쉽게 생성, 수정 및 조작할 수 있도록 하는 강력한 Java API입니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1. 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
-2. 프로젝트에 다운로드 및 구성된 Java 라이브러리용 Aspose.Slides. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
+2.  프로젝트에 다운로드 및 구성된 Java 라이브러리용 Aspose.Slides. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
 ## 패키지 가져오기
 Java 클래스에 필요한 패키지를 가져와야 합니다.
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

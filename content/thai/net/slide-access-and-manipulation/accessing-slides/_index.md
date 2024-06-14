@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 หลังจากเปลี่ยนแปลงงานนำเสนอแล้ว คุณจะต้องบันทึกการแก้ไข ต่อไปนี้คือวิธีที่คุณสามารถบันทึกงานนำเสนอที่แก้ไข:
 
 ```csharp
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

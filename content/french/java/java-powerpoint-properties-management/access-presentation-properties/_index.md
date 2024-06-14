@@ -8,9 +8,9 @@ weight: 11
 url: /fr/java/java-powerpoint-properties-management/access-presentation-properties/
 ---
 ## Introduction
-Dans le domaine du développement Java, gérer des présentations de manière transparente peut s'avérer une tâche difficile. Cependant, avec l'avènement d'Aspose.Slides pour Java, les développeurs disposent d'une boîte à outils robuste pour naviguer sans effort dans cette complexité. Ce didacticiel vous sert de guide, dévoilant les subtilités de l'utilisation d'Aspose.Slides pour accéder aux propriétés de présentation. Nous examinerons les prérequis, importerons des packages et décomposerons chaque exemple en étapes compréhensibles, garantissant ainsi que votre parcours vers la maîtrise reste fluide et enrichissant.
+Dans le domaine du développement Java, la gestion transparente des présentations peut s'avérer une tâche difficile. Cependant, avec l'avènement d'Aspose.Slides pour Java, les développeurs disposent d'une boîte à outils robuste pour naviguer sans effort dans cette complexité. Ce didacticiel vous sert de guide, dévoilant les subtilités de l'utilisation d'Aspose.Slides pour accéder aux propriétés de présentation. Nous examinerons les prérequis, importerons des packages et décomposerons chaque exemple en étapes compréhensibles, garantissant ainsi que votre parcours vers la maîtrise reste fluide et enrichissant.
 ## Conditions préalables
-Avant de vous lancer dans ce voyage, assurez-vous d’avoir les conditions préalables suivantes en place :
+Avant de vous lancer dans ce voyage, assurez-vous d'avoir les conditions préalables suivantes en place :
 1. Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre système, car Aspose.Slides pour Java nécessite un environnement d'exécution Java pour fonctionner de manière transparente.
 2. Bibliothèque Aspose.Slides pour Java : téléchargez et installez la bibliothèque Aspose.Slides pour Java à partir du fichier fourni.[lien de téléchargement](https://releases.aspose.com/slides/java/). Cette bibliothèque sera la pierre angulaire de nos efforts de gestion des présentations.
 3. Environnement de développement intégré (IDE) : choisissez votre IDE préféré pour le développement Java. Qu'il s'agisse d'Eclipse, d'IntelliJ IDEA ou de tout autre, disposer d'un IDE fiable rationalisera votre expérience de codage.
@@ -21,12 +21,12 @@ Dans cette étape, nous importerons les packages nécessaires pour démarrer not
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Étape 1 : définir le répertoire de données
 Avant de plonger dans les fonctionnalités de base, définissez le répertoire de données pour accéder à votre fichier de présentation :
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Étape 2 : Créer des options de chargement
 Instanciez les options de chargement pour configurer la manière dont le fichier de présentation sera accessible. Dans cet exemple, nous définissons le mot de passe d'accès sur null et autorisons le chargement uniquement des propriétés du document :

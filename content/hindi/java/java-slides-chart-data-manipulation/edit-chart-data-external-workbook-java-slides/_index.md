@@ -75,7 +75,7 @@ if (pres != null) pres.dispose();
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ if (pres != null) pres.dispose();
 
 ### मैं एक अलग चार्ट या स्लाइड कैसे निर्दिष्ट करूँ?
 
- किसी भिन्न चार्ट या स्लाइड तक पहुंचने के लिए, उपयुक्त इंडेक्स को संशोधित करें`getSlides().get_Item()` और`getShapes().get_Item()` याद रखें कि इंडेक्सिंग 0 से शुरू होती है।
+ किसी भिन्न चार्ट या स्लाइड तक पहुंचने के लिए, उपयुक्त इंडेक्स को संशोधित करें`getSlides().get_Item()` और`getShapes().get_Item()`याद रखें कि इंडेक्सिंग 0 से शुरू होती है।
 
 ### क्या मैं एक ही प्रस्तुति में एकाधिक चार्टों में डेटा संपादित कर सकता हूँ?
 
@@ -100,6 +100,6 @@ if (pres != null) pres.dispose();
 
 आप उस प्रारूप में डेटा पढ़ने और लिखने के लिए उपयुक्त Aspose.Cells कक्षाओं और विधियों का उपयोग करके विभिन्न बाह्य कार्यपुस्तिका प्रारूपों को संभालने के लिए कोड को अनुकूलित कर सकते हैं।
 
-### मैं एकाधिक प्रस्तुतियों के लिए इस प्रक्रिया को कैसे स्वचालित कर सकता हूँ?
+### मैं एकाधिक प्रस्तुतियों के लिए इस प्रक्रिया को स्वचालित कैसे कर सकता हूँ?
 
 आप एकाधिक प्रस्तुतियों को संसाधित करने, प्रत्येक को लोड करने, वांछित परिवर्तन करने और संशोधित प्रस्तुतियों को एक-एक करके सहेजने के लिए एक लूप बना सकते हैं।

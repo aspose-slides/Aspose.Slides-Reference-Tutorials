@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 
 이 단계별 가이드에서는 Aspose.Slides for Java를 사용하여 숨겨진 슬라이드를 유지하면서 PowerPoint 프레젠테이션을 PDF로 변환하는 방법을 알아봅니다. 숨겨진 슬라이드는 일반 프레젠테이션 중에는 표시되지 않지만 PDF 출력에는 포함될 수 있는 슬라이드입니다. 우리는 이 작업을 달성하기 위한 소스 코드와 자세한 지침을 제공할 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## 3단계: PDF 옵션 구성
 
- PDF 출력에 숨겨진 슬라이드를 포함하도록 PDF 옵션을 구성합니다. 이 작업은 다음을 설정하여 수행할 수 있습니다.`setShowHiddenSlides` 의 재산`PdfOptions` 수업`true`.
+PDF 출력에 숨겨진 슬라이드를 포함하도록 PDF 옵션을 구성합니다. 이 작업은 다음을 설정하여 수행할 수 있습니다.`setShowHiddenSlides` 의 재산`PdfOptions` 수업`true`.
 
 ```java
 // PdfOptions 클래스를 인스턴스화합니다.
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Java용 Aspose.Slides를 어떻게 다운로드하나요?
 
-Aspose 웹사이트에서 Java용 Aspose.Slides를 다운로드할 수 있습니다. 방문하다[Aspose.Slides for Java 다운로드 페이지](https://releases.aspose.com/slides/java/) 최신 버전을 얻으려면.
+ Aspose 웹사이트에서 Java용 Aspose.Slides를 다운로드할 수 있습니다. 방문하다[Aspose.Slides for Java 다운로드 페이지](https://releases.aspose.com/slides/java/) 최신 버전을 얻으려면.

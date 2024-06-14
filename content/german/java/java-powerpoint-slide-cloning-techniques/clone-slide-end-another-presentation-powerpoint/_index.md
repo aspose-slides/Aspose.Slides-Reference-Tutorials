@@ -21,7 +21,7 @@ Zunächst importieren wir die erforderlichen Pakete. Diese Pakete sind zum Laden
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Lassen Sie uns nun den Vorgang des Klonens einer Folie aus einer Präsentation und des Hinzufügens zu einer anderen in einfache, leicht verständliche Schritte aufschlüsseln.
@@ -29,7 +29,7 @@ Lassen Sie uns nun den Vorgang des Klonens einer Folie aus einer Präsentation u
  Zunächst müssen wir die Quellpräsentation laden, aus der wir eine Folie klonen möchten. Dies geschieht mit dem`Presentation` Klasse bereitgestellt von Aspose.Slides.
 ```java
 // Der Pfad zum Dokumentverzeichnis.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Instanziieren Sie die Präsentationsklasse, um die Quellpräsentationsdatei zu laden
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

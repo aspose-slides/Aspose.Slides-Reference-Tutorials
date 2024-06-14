@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Étape 2 : ajouter une diapositive et créer le graphique à nuages de points
 
- Ensuite, ajoutez une diapositive et créez le graphique à nuages de points dessus. Nous utiliserons le`ScatterWithSmoothLines` type de graphique dans cet exemple.
+ Ensuite, ajoutez une diapositive et créez le graphique à nuages de points dessus. Nous utiliserons le`ScatterWithSmoothLines`type de graphique dans cet exemple.
 
 ```java
 // Obtenez la première diapositive
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Création du graphique par défaut
+//Création du graphique par défaut
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Obtention de l'index de la feuille de calcul des données graphiques par défaut
 int defaultWorksheetIndex = 0;
@@ -152,13 +152,13 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Conclusion
 
-Dans ce didacticiel, nous vous avons expliqué le processus de création d'un graphique à nuages de points à l'aide d'Aspose.Slides pour Java. Les nuages de points sont des outils puissants pour visualiser des points de données dans un espace bidimensionnel, facilitant ainsi l'analyse et la compréhension des relations complexes entre les données.
+Dans ce didacticiel, nous vous avons expliqué le processus de création d'un graphique à nuages de points à l'aide d'Aspose.Slides pour Java. Les diagrammes à nuages de points sont des outils puissants pour visualiser des points de données dans un espace bidimensionnel, facilitant ainsi l'analyse et la compréhension des relations complexes entre les données.
 
 ## FAQ
 
 ### Comment puis-je changer le type de graphique ?
 
- Pour modifier le type de graphique, utilisez le`setType`méthode sur la série de graphiques et fournissez le type de graphique souhaité. Par exemple,`series.setType(ChartType.Line)` changerait la série en un graphique linéaire.
+ Pour modifier le type de graphique, utilisez le`setType` méthode sur la série de graphiques et fournissez le type de graphique souhaité. Par exemple,`series.setType(ChartType.Line)` changerait la série en un graphique linéaire.
 
 ### Comment puis-je personnaliser la taille et le style du marqueur ?
 

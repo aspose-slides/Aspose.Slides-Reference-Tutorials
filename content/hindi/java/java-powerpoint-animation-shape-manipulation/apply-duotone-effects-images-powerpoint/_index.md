@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects
 सबसे पहले, आपको अपने जावा प्रोग्राम में ज़रूरी पैकेज आयात करने होंगे। यह आप इस प्रकार कर सकते हैं:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

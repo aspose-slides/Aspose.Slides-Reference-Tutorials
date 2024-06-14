@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/convert-individual-slide-java-slides/
 
 ## Bevezetés az egyéni dia konvertálásához a Java diákban
 
-Ebben az oktatóanyagban végigvezetjük az Aspose.Slides for Java segítségével az egyes diák PowerPoint-prezentációból HTML-formátumba konvertálásának folyamatát. Ez a lépésenkénti útmutató forráskódot és magyarázatokat tartalmaz, amelyek segítenek elérni ezt a feladatot.
+Ebben az oktatóanyagban az Aspose.Slides for Java használatával az egyes diák PowerPoint-prezentációból HTML-formátumba konvertálásának folyamatát mutatjuk be. Ez a lépésenkénti útmutató forráskódot és magyarázatokat tartalmaz, amelyek segítenek elérni ezt a feladatot.
 
 ## Előfeltételek
 
@@ -44,7 +44,7 @@ import com.aspose.slides.IShape;
 
 ## 3. lépés: Határozza meg a fő átalakítási módszert
 
- Hozzon létre egy módszert az egyes diák konvertálására. Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Hozzon létre egy módszert az egyes diák konvertálására. Mindenképpen cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
 ```java
 public static void convertIndividualSlides() {
@@ -169,4 +169,4 @@ Sikeresen konvertálta az egyes diákat egy PowerPoint-prezentációból HTML-fo
 
 ### Hogyan kezelhetem a dián belüli alakzatok és szövegek további formázását?
 
-Meghosszabbíthatja a`CustomFormattingController` osztály az alakspecifikus formázás kezeléséhez a megvalósításával`writeShapeStart` és`writeShapeEnd` módszereket és egyéni formázási logikát alkalmazva bennük.
+ Meghosszabbíthatja a`CustomFormattingController` osztály az alakspecifikus formázás kezeléséhez a megvalósításával`writeShapeStart` és`writeShapeEnd` módszereket és egyéni formázási logikát alkalmazva bennük.

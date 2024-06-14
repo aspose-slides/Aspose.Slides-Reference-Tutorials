@@ -101,7 +101,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan konvertálhat PowerPoint prezentáci�
 
 ### Hogyan tölthetem le az Aspose.Slides for Java programot?
 
-Az Aspose.Slides for Java letölthető az Aspose webhelyéről. Látogatás[itt](https://releases.aspose.com/slides/java/) a letöltési link eléréséhez.
+ Az Aspose.Slides for Java letölthető az Aspose webhelyéről. Látogatás[itt](https://releases.aspose.com/slides/java/) a letöltési link eléréséhez.
 
 ### Vannak-e licenckövetelmények az Aspose.Slides for Java használatához?
 

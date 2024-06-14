@@ -103,7 +103,7 @@ Ahora puede compartir fácilmente sus presentaciones bellamente formateadas con 
 
 ### 1. ¿Puedo convertir presentaciones de PowerPoint a HTML usando Aspose.Slides para .NET en modo por lotes?
 
-Sí, puede convertir por lotes varias presentaciones a HTML usando Aspose.Slides para .NET recorriendo sus archivos de presentación y aplicando el proceso de conversión a cada uno.
+Sí, puede convertir por lotes varias presentaciones a HTML utilizando Aspose.Slides para .NET recorriendo sus archivos de presentación y aplicando el proceso de conversión a cada uno.
 
 ### 2. ¿Existe alguna forma de personalizar la apariencia de la salida HTML?
 

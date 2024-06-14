@@ -50,7 +50,7 @@ class Program
 
 ## Accesso alle visualizzazioni diapositive
 
-Aspose.Slides fornisce diverse visualizzazioni di diapositive, come le visualizzazioni Normale, Ordine diapositive e Note. Ecco come accedere e impostare la visualizzazione diapositiva:
+Aspose.Slides fornisce diverse visualizzazioni di diapositive, come le visualizzazioni Normale, Ordine diapositive e Note. Ecco come puoi accedere e impostare la visualizzazione diapositiva:
 
 ```csharp
 // Accedi alla prima diapositiva
@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 Dopo aver apportato tutte le modifiche necessarie, salva la presentazione modificata:
 
 ```csharp
-// Salva la presentazione modificata
+//Salva la presentazione modificata
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

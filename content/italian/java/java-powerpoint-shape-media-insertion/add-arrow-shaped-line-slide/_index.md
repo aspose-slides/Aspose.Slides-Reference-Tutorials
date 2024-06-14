@@ -12,19 +12,19 @@ In questo tutorial esploreremo come aggiungere una linea a forma di freccia a un
 ## Prerequisiti
 Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
 - Java Development Kit (JDK) installato sul tuo sistema.
-- Aspose.Slides per la libreria Java scaricata e configurata nel tuo progetto Java. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides per la libreria Java scaricata e configurata nel tuo progetto Java. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
 - Conoscenza base del linguaggio di programmazione Java.
 
 ## Importa pacchetti
 Innanzitutto, importa i pacchetti necessari nella tua classe Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
 ## Passaggio 1: impostare l'ambiente
-Assicurati di aver configurato le directory necessarie. Se la directory non esiste, creala.
+Assicurati di aver impostato le directory necessarie. Se la directory non esiste, creala.
 ```java
 String dataDir = "Your Document Directory";
 boolean isExists = new File(dataDir).exists();
@@ -67,7 +67,7 @@ In questo tutorial, abbiamo imparato come aggiungere una linea a forma di frecci
 ### Posso personalizzare il colore della linea della freccia?
  Sì, puoi specificare qualsiasi colore utilizzando il comando`setColor` metodo con`SolidFillColor`.
 ### Come posso modificare la posizione e la dimensione della linea della freccia?
-Regola i parametri passati al`addAutoShape` metodo per modificare la posizione e le dimensioni.
+ Regola i parametri passati al`addAutoShape` metodo per modificare la posizione e le dimensioni.
 ### Aspose.Slides è compatibile con tutte le versioni di PowerPoint?
 Aspose.Slides supporta vari formati PowerPoint, garantendo la compatibilità tra diverse versioni.
 ### Posso aggiungere testo alla linea della freccia?

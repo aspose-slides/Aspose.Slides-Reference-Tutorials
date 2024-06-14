@@ -130,4 +130,4 @@ finally
 
 ### Πού μπορώ να έχω πρόσβαση στην τεκμηρίωση Aspose.Slides for Java;
 
- Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση για το Aspose.Slides για Java στη διεύθυνση[εδώ](https://reference.aspose.com/slides/java/).
+Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση για το Aspose.Slides για Java στη διεύθυνση[εδώ](https://reference.aspose.com/slides/java/).

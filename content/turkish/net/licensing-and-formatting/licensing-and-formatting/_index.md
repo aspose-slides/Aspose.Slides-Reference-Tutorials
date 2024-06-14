@@ -14,7 +14,7 @@ url: /tr/net/licensing-and-formatting/licensing-and-formatting/
 
 Lisanslama sürecine geçmeden önce aşağıdaki önkoşulları yerine getirmelisiniz:
 
-1.  Aspose.Slides for .NET: Aspose.Slides for .NET'i geliştirme ortamınıza yüklediğinizden emin olun. Kütüphaneyi adresinden indirebilirsiniz.[İndirme: {link](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Aspose.Slides for .NET'i geliştirme ortamınıza yüklediğinizden emin olun. Kütüphaneyi adresinden indirebilirsiniz.[İndirme: {link](https://releases.aspose.com/slides/net/).
 
 2.  Lisans Dosyası: Genellikle "Aspose.Slides.lic" olarak adlandırılan geçerli bir Aspose.Slides lisans dosyası edinin. Lisansları adresinden alabilirsiniz.[Web sitesi](https://purchase.aspose.com/buy) veya bir istekte bulunun[geçici lisans](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
 
@@ -58,7 +58,7 @@ Lisans dosyası yolunu ayarladıktan sonra lisansınızın geçerli ve etkin old
 
 ### Adım 4: Lisans Doğrulaması
 
-Lisansınızın geçerli olup olmadığını kontrol etmek için`IsLicensed` yöntem. Lisansınızın etkin olup olmadığını belirten bir boole değeri döndürür.
+ Lisansınızın geçerli olup olmadığını kontrol etmek için`IsLicensed` yöntem. Lisansınızın etkin olup olmadığını belirten bir boole değeri döndürür.
 
 ```csharp
 if (license.IsLicensed())

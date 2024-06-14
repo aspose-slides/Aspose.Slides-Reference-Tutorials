@@ -19,7 +19,7 @@ Mielőtt belemerülne a kódba, győződjön meg arról, hogy a következő elő
 Először is importálnia kell a szükséges csomagokat az Aspose.Slides használatához. Ezek az importálások segítenek a diák, a videók és a prezentációs fájlok kezelésében.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -48,7 +48,7 @@ Nyissa meg a prezentáció első diáját, amelybe beágyazza a videót.
 ISlide sld = pres.getSlides().get_Item(0);
 ```
 ## 4. lépés: Adja hozzá a videót a bemutatóhoz
-videofájl beágyazása a prezentációba. Győződjön meg arról, hogy a videó elérési útja megfelelően van megadva.
+A videofájl beágyazása a prezentációba. Győződjön meg arról, hogy a videó elérési útja megfelelően van megadva.
 ```java
 // Videó beágyazása a prezentációba
 IVideo vid = pres.getVideos().addVideo(new FileInputStream(videoDir + "Wildlife.mp4"), LoadingStreamBehavior.ReadStreamAndRelease);
@@ -64,11 +64,11 @@ IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 350, vid);
 ```java
 // Állítsa be a videót Video Frame-re
 vf.setEmbeddedVideo(vid);
-// Állítsa be a lejátszási módot és a videó hangerejét
+// Állítsa be a videó lejátszási módját és hangerejét
 vf.setPlayMode(VideoPlayModePreset.Auto);
 vf.setVolume(AudioVolumeMode.Loud);
 ```
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 Mentse a prezentációt a beágyazott videóval a megadott könyvtárba.
 ```java
 // Írja ki a PPTX fájlt a lemezre
@@ -81,11 +81,11 @@ Végül dobja el a prezentációs objektumot, hogy erőforrásokat szabadítson 
 if (pres != null) pres.dispose();
 ```
 ## Következtetés
-videó beágyazása a PowerPoint-prezentációkba az Aspose.Slides for Java használatával egyszerű folyamat. Az ebben az útmutatóban ismertetett lépések követésével lenyűgöző videótartalommal javíthatja bemutatóit. Ne feledje, a gyakorlás teszi a mestert, ezért próbáljon meg különböző videókat beágyazni, és módosítsa a tulajdonságaikat, hogy megtudja, mi a legmegfelelőbb az Ön igényeinek.
+A videó beágyazása a PowerPoint-prezentációkba az Aspose.Slides for Java használatával egyszerű folyamat. Az ebben az útmutatóban ismertetett lépések követésével lenyűgöző videótartalommal javíthatja bemutatóit. Ne feledje, a gyakorlás teszi a mestert, ezért próbáljon meg különböző videókat beágyazni, és módosítsa a tulajdonságaikat, hogy megtudja, mi a legmegfelelőbb az Ön igényeinek.
 ## GYIK
 ### Beágyazhatok több videót egyetlen diába?
 Igen, több videót is beágyazhat egyetlen diába, ha több videókockát ad hozzá.
-### Hogyan tudom szabályozni a videó lejátszását?
+### Hogyan szabályozhatom a videó lejátszását?
  A lejátszást a gombbal vezérelheti`setPlayMode` és`setVolume` módszerei a`IVideoFrame` osztály.
 ### Milyen videóformátumokat támogat az Aspose.Slides?
 Az Aspose.Slides különféle videoformátumokat támogat, beleértve az MP4-et, az AVI-t és a WMV-t.

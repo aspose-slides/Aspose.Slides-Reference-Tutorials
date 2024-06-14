@@ -46,7 +46,7 @@ Låt oss nu konfigurera alternativen för GIF-konverteringen. Du kan anpassa des
 
 ```java
 GifOptions gifOptions = new GifOptions();
-gifOptions.setFrameSize(new Dimension(540, 480)); // storleken på den resulterande GIF
+gifOptions.setFrameSize(new Dimension(540, 480)); // storleken på den resulterande GIF-filen
 gifOptions.setDefaultDelay(1500); // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
 gifOptions.setTransitionFps(60); // öka FPS till bättre övergångsanimationskvalitet
 ```
@@ -71,12 +71,12 @@ Och det är allt! Du har framgångsrikt konverterat en PowerPoint-presentation t
 // Sökvägen till dokumentkatalogen
 String dataDir = "Your Document Directory";
 // Sökvägen till utdatafil
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Instantiera ett presentationsobjekt som representerar en presentationsfil
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {
 	GifOptions gifOptions = new GifOptions();
-	gifOptions.setFrameSize(new Dimension(540, 480)); // storleken på den resulterande GIF
+	gifOptions.setFrameSize(new Dimension(540, 480)); // storleken på den resulterande GIF-filen
 	gifOptions.setDefaultDelay(1500); // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
 	gifOptions.setTransitionFps(60); // öka FPS till bättre övergångsanimationskvalitet
 	// Spara presentationen till Gif

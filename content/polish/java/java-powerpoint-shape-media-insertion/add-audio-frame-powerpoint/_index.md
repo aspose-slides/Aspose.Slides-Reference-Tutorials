@@ -2,7 +2,7 @@
 title: Dodaj ramkę audio w programie PowerPoint
 linktitle: Dodaj ramkę audio w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak dodawać ramki audio do prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz swoje prezentacje dzięki wciągającym elementom audio bez wysiłku.
+description: Dowiedz się, jak dodawać ramki audio do prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Ulepsz swoje prezentacje dzięki wciągającym elementom audio bez wysiłku.
 type: docs
 weight: 12
 url: /pl/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
@@ -18,7 +18,7 @@ Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstęp
 Zaimportuj niezbędne pakiety do swojego projektu Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

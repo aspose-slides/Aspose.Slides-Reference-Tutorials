@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Nadat u de gewenste dia's heeft gewist, moet u de gewijzigde presentatie opslaan:
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

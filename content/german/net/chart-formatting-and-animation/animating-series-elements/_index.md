@@ -48,7 +48,7 @@ using (Presentation presentation = new Presentation(dataDir + "ExistingChart.ppt
 }
 ```
 
-## Schritt 2: Referenz des Chart-Objekts abrufen
+## Schritt 2: Referenz des Diagrammobjekts abrufen
 
 Sie müssen innerhalb Ihrer Präsentation auf das Diagramm zugreifen. Dazu erhalten Sie einen Verweis auf das Diagrammobjekt. Wir gehen davon aus, dass sich das Diagramm auf der ersten Folie befindet, aber Sie können dies anpassen, wenn sich Ihr Diagramm auf einer anderen Folie befindet.
 
@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Slides für .NET Serienelemente in einem Diagramm animieren. Mit diesem Wissen können Sie dynamische und ansprechende PowerPoint-Präsentationen erstellen, die Ihr Publikum fesseln.
 
- Aspose.Slides für .NET ist ein leistungsstarkes Tool für die programmgesteuerte Arbeit mit PowerPoint-Dateien und eröffnet eine Welt voller Möglichkeiten für die Erstellung professioneller Präsentationen. Erkunden Sie die[Dokumentation](https://reference.aspose.com/slides/net/) für erweiterte Funktionen und Anpassungsoptionen.
+ Aspose.Slides für .NET ist ein leistungsstarkes Tool für die programmgesteuerte Arbeit mit PowerPoint-Dateien und eröffnet eine Welt voller Möglichkeiten für die Erstellung professioneller Präsentationen. Erkunden Sie die[Dokumentation](https://reference.aspose.com/slides/net/)für erweiterte Funktionen und Anpassungsoptionen.
 
 ## Häufig gestellte Fragen
 

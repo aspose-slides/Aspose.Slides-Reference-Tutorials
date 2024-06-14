@@ -159,7 +159,7 @@ finally
 
 ### 我可以為圖表添加更多數據點嗎？
 
-是的，您可以使用以下命令在圖表中新增更多資料點`series.getDataPoints().addDataPointForSunburstSeries()`您想要包含的每個資料點的方法。
+是的，您可以使用以下命令在圖表中新增更多資料點`series.getDataPoints().addDataPointForSunburstSeries()`您想要包含的每個數據點的方法。
 
 ### 如何為 Sunburst 圖表新增工具提示？
 

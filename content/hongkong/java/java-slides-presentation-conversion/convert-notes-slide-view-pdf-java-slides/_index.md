@@ -79,7 +79,7 @@ finally
 
 ## 結論
 
-在本教學中，我們探索如何使用 Aspose.Slides for Java 函式庫將帶有註解投影片檢視的 PowerPoint 簡報轉換為 PDF。我們按照原始程式碼的逐步指南來實現此轉換。以下是重點：
+在本教學中，我們探索如何使用 Aspose.Slides for Java 程式庫將帶有筆記投影片檢視的 PowerPoint 簡報轉換為 PDF。我們按照原始程式碼的逐步指南來實現此轉換。以下是重點：
 
 ## 常見問題解答
 

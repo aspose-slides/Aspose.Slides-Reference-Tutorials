@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Шаг 3. Настройте фон слайдов
 Повысьте визуальную привлекательность своих слайдов, настроив их фон. В этом примере мы установили сплошной голубой фон для второго слайда.
 ```csharp
-//Создайте фон для второго слайда
+// Создайте фон для второго слайда
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

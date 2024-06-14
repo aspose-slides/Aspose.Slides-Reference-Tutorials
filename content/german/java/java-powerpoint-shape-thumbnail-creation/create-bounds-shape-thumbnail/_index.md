@@ -19,7 +19,7 @@ Stellen Sie sicher, dass Sie die erforderlichen Pakete in Ihren Java-Code import
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -48,7 +48,7 @@ try {
 In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java ein Miniaturbild einer Form mit Begrenzungen erstellt. Indem Sie diese Schritte befolgen, können Sie ganz einfach programmgesteuert Miniaturbilder von Formen in Ihren PowerPoint-Präsentationen erstellen.
 ## Häufig gestellte Fragen
 ### Kann ich Miniaturansichten für bestimmte Formen innerhalb einer Folie erstellen?
-Ja, Sie können mit Aspose.Slides für Java auf einzelne Formen innerhalb einer Folie zugreifen und Miniaturansichten dafür generieren.
+Ja, Sie können auf einzelne Formen innerhalb einer Folie zugreifen und mit Aspose.Slides für Java Miniaturansichten dafür generieren.
 ### Ist Aspose.Slides für Java mit allen Versionen von PowerPoint-Dateien kompatibel?
 Aspose.Slides für Java unterstützt verschiedene PowerPoint-Dateiformate, darunter PPT, PPTX, PPS, PPSX und mehr.
 ### Kann ich das Erscheinungsbild der generierten Miniaturbilder anpassen?

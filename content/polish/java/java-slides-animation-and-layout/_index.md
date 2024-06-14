@@ -39,6 +39,6 @@ Dobrze przemyślany układ może znacząco zmienić Twoje prezentacje. Aspose.Sl
 ### [Animowanie elementów kategorii w slajdach Java](./animating-categories-elements-java-slides/)
 Zoptymalizuj swoje prezentacje Java za pomocą Aspose.Slides for Java. Dowiedz się, jak krok po kroku animować elementy kategorii na slajdach programu PowerPoint.
 ### [Seria animowana w slajdach Java](./animating-series-java-slides/)
-Zoptymalizuj swoje prezentacje za pomocą animacji serii w Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu źródłowego, aby tworzyć atrakcyjne animacje programu PowerPoint.
+Optymalizuj swoje prezentacje za pomocą animacji serii w Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu źródłowego, aby tworzyć atrakcyjne animacje programu PowerPoint.
 ### [Animowanie elementów serii w slajdach Java](./animating-series-elements-java-slides/)
 Dowiedz się, jak animować elementy serii na slajdach programu PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z tym obszernym przewodnikiem krok po kroku z kodem źródłowym, aby ulepszyć swoje prezentacje.

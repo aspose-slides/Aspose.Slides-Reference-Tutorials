@@ -20,7 +20,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 सबसे पहले, अपने जावा प्रोजेक्ट में Aspose.Slides के साथ काम करने के लिए आवश्यक पैकेज आयात करें।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: प्रेजेंटेशन क्लास को इंस्टैंशिएट करें
  उदाहरण प्रस्तुत करें`Presentation`क्लास, जो उस PPTX फ़ाइल का प्रतिनिधित्व करता है जिस पर आप काम कर रहे हैं।
@@ -59,7 +59,7 @@ connector.setEndShapeConnectedTo(rectangle);
 connector.reroute();
 ```
 ## चरण 7: प्रस्तुति सहेजें
-कनेक्टर का उपयोग करके आकृतियों को जोड़ने के बाद प्रस्तुति को सहेजें।
+कनेक्टर का उपयोग करके आकृतियों को जोड़ने के बाद प्रस्तुति को सहेजें.
 ```java
 input.save(dataDir + "Connecting shapes using connectors_out.pptx", SaveFormat.Pptx);
 ```

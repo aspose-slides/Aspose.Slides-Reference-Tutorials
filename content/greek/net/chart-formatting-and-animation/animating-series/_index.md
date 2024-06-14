@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Αφού προσθέσετε τα εφέ κίνησης στο γράφημά σας, αποθηκεύστε την τροποποιημένη παρουσίαση στο δίσκο.
 
 ```csharp
-// Αποθηκεύστε την τροποποιημένη παρουσίαση
+//Αποθηκεύστε την τροποποιημένη παρουσίαση
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

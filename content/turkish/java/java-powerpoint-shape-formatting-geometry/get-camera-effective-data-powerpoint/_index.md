@@ -12,15 +12,15 @@ Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı ol
 ## Önkoşullar
 Başlamadan önce yerine getirmeniz gereken birkaç önkoşul vardır:
 1. Java Geliştirme Kiti (JDK): Makinenizde JDK 8 veya üstünün kurulu olduğundan emin olun.
-2. Aspose.Slides for Java Library: En son sürümü şuradan indirin:[İnternet sitesi](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: En son sürümü şuradan indirin:[İnternet sitesi](https://releases.aspose.com/slides/java/).
 3. Entegre Geliştirme Ortamı (IDE): Daha sorunsuz bir kodlama deneyimi için IntelliJ IDEA veya Eclipse gibi bir IDE kullanın.
-4.  Örnek PowerPoint Dosyası: Bir PowerPoint dosyanız olsun (ör.`Presentation1.pptx`) kodu test etmeye hazır.
+4.  Örnek PowerPoint Dosyası: Bir PowerPoint dosyanız olsun (ör.`Presentation1.pptx`kodu test etmeye hazır.
 ## Paketleri İçe Aktar
 Öncelikle Aspose.Slides for Java ile çalışmak için gerekli paketleri içe aktaralım. Bu içe aktarmalar, sunumları yönetmemize ve özelliklerine erişmemize olanak tanıyacak.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Projenizi Kurun
 ### Java Projesi Oluşturma

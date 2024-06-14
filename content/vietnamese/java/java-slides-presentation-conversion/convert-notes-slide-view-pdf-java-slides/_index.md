@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Bạn có thể tùy chỉnh các tùy chọn PDF khác theo yêu cầu của mình.
 
 ## Bước 4: Lưu bản trình bày dưới dạng PDF kèm Ghi chú
-Cuối cùng, hãy lưu bản trình bày dưới dạng tệp PDF, bao gồm cả ghi chú. Bạn có thể chỉ định tên tệp đầu ra (ví dụ:`"Pdf_Notes_out.pdf"`) và chọn định dạng (`SaveFormat.Pdf`). Đây là mã để làm điều đó:
+ Cuối cùng, hãy lưu bản trình bày dưới dạng tệp PDF, bao gồm cả ghi chú. Bạn có thể chỉ định tên tệp đầu ra (ví dụ:`"Pdf_Notes_out.pdf"`) và chọn định dạng (`SaveFormat.Pdf`). Đây là mã để làm điều đó:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Tôi có thể tùy chỉnh thêm việc xuất PDF không?
 
-Có, bạn có thể tùy chỉnh việc xuất PDF bằng cách điều chỉnh các tùy chọn khác nhau trong`PdfOptions` sự vật. Ví dụ: bạn có thể đặt chất lượng, độ nén và các thông số khác theo nhu cầu của mình.
+ Có, bạn có thể tùy chỉnh việc xuất PDF bằng cách điều chỉnh các tùy chọn khác nhau trong`PdfOptions` sự vật. Ví dụ: bạn có thể đặt chất lượng, độ nén và các thông số khác theo nhu cầu của mình.
 
 ### Làm cách nào tôi có thể lấy Aspose.Slides cho Java?
 

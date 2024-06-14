@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 ```
 
-このセクションでは、入力プレゼンテーションのファイルパスを定義します（`dataDir`) と出力GIFファイル (`outPath` ）。次に、`Presentation`プレゼンテーション ファイルを表すオブジェクト。
+このセクションでは、入力プレゼンテーションのファイルパスを定義します（`dataDir`) と出力 GIF ファイル (`outPath` ）。次に、`Presentation`プレゼンテーション ファイルを表すオブジェクト。
 
 ### 4.2. プレゼンテーションをGIFとして保存する
 
@@ -48,7 +48,7 @@ Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 //プレゼンテーションをGIF形式で保存する
 presentation.Save(outPath, SaveFormat.Gif, new GifOptions
 {
-    FrameSize = new Size(540, 480), //結果のGIFのサイズ
+    FrameSize = new Size(540, 480), //生成されたGIFのサイズ
     DefaultDelay = 1500, //次のスライドに切り替わるまでの各スライドの表示時間
     TransitionFps = 60 //FPSを上げてトランジションアニメーションの品質を向上させる
 });

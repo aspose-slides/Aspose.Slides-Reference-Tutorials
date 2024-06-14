@@ -1,6 +1,6 @@
 ---
-title: プレゼンテーションを進行状況の更新とともに PDF に変換する
-linktitle: プレゼンテーションを進行状況の更新とともに PDF に変換する
+title: プレゼンテーションを進行状況更新とともに PDF に変換する
+linktitle: プレゼンテーションを進行状況更新とともに PDF に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーションを進行状況の更新とともに PDF に変換する方法を学びます。ソース コードを含むステップ バイ ステップ ガイド。
 type: docs

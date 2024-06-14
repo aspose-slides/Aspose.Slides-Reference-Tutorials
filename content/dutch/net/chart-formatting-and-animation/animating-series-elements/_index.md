@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 Gefeliciteerd! U hebt met succes geleerd hoe u reekselementen in een diagram kunt animeren met Aspose.Slides voor .NET. Met deze kennis kunt u dynamische en boeiende PowerPoint-presentaties maken die uw publiek boeien.
 
- Aspose.Slides voor .NET is een krachtig hulpmiddel om programmatisch met PowerPoint-bestanden te werken en opent een wereld aan mogelijkheden voor het maken van professionele presentaties. Ontdek gerust de[documentatie](https://reference.aspose.com/slides/net/) voor meer geavanceerde functies en aanpassingsmogelijkheden.
+ Aspose.Slides voor .NET is een krachtig hulpmiddel om programmatisch met PowerPoint-bestanden te werken en opent een wereld aan mogelijkheden voor het maken van professionele presentaties. Ontdek gerust de[documentatie](https://reference.aspose.com/slides/net/)voor meer geavanceerde functies en aanpassingsmogelijkheden.
 
 ## Veel Gestelde Vragen
 

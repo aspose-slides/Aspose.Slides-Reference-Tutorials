@@ -58,7 +58,7 @@ INotesCommentsLayoutingOptions options = pdfOptions.getNotesCommentsLayouting();
 options.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-## Paso 7: guardar como PDF
+## Paso 7: Guardar como PDF
 
 ```java
 auxPresentation.save(dataDir + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);

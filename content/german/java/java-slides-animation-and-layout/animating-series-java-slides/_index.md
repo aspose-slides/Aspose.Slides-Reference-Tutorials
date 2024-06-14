@@ -112,7 +112,7 @@ Sie haben mit Aspose.Slides für Java erfolgreich Serien in einem PowerPoint-Dia
 
 ### Wie steuere ich die Reihenfolge von Serienanimationen?
 
- Um die Reihenfolge der Serienanimationen zu steuern, verwenden Sie die`EffectTriggerType.AfterPrevious`Parameter beim Hinzufügen der Effekte. Dadurch wird jede Serienanimation gestartet, nachdem die vorherige beendet ist.
+ Um die Reihenfolge der Serienanimationen zu steuern, verwenden Sie die`EffectTriggerType.AfterPrevious` Parameter beim Hinzufügen der Effekte. Dadurch wird jede Serienanimation gestartet, nachdem die vorherige beendet ist.
 
 ### Kann ich für jede Serie unterschiedliche Animationen verwenden?
 

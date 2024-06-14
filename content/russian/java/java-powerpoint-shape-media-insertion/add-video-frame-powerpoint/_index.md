@@ -17,7 +17,7 @@ url: /ru/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 Во-первых, вам необходимо импортировать необходимые пакеты для использования функций Aspose.Slides в вашем Java-коде. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Шаг 1. Настройка каталога документов

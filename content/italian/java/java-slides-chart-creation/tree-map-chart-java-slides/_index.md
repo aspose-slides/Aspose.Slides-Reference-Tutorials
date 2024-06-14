@@ -143,7 +143,7 @@ In questo tutorial, hai imparato come creare un grafico della mappa ad albero in
 
 ### Come posso personalizzare l'aspetto del grafico della mappa ad albero?
 
- È possibile personalizzare l'aspetto del grafico della mappa ad albero modificando varie proprietà del grafico`chart` E`series` oggetti, come colori, etichette e layout.
+ È possibile personalizzare l'aspetto del grafico della mappa ad albero modificando varie proprietà del grafico`chart` E`series`oggetti, come colori, etichette e layout.
 
 ### Posso creare più grafici ad albero in un'unica presentazione?
 

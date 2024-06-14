@@ -81,7 +81,7 @@ trendLineLog.addTextFrameForOverriding("New log trend line");
 We kunnen ook een voortschrijdend gemiddelde trendlijn toevoegen:
 
 ```java
-// Trendlijn voor voortschrijdend gemiddelde toegevoegd voor diagramreeks 2
+// Trendlijn voor voortschrijdend gemiddelde toegevoegd voor diagramserie 2
 ITrendline trendLineMovAvg = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.MovingAverage);
 trendLineMovAvg.setTrendlineType(TrendlineType.MovingAverage);
 trendLineMovAvg.setPeriod((byte) 3);
@@ -93,7 +93,7 @@ trendLineMovAvg.setTrendlineName("New TrendLine Name");
 Een polynomiale trendlijn toevoegen:
 
 ```java
-// Polynomiale trendlijn toegevoegd voor diagramserie 3
+// Polynomiale trendlijn toegevoegd voor diagramreeks 3
 ITrendline trendLinePolynomial = chart.getChartData().getSeries().get_Item(2).getTrendLines().add(TrendlineType.Polynomial);
 trendLinePolynomial.setTrendlineType(TrendlineType.Polynomial);
 trendLinePolynomial.setForward(1);
@@ -134,16 +134,16 @@ if (!IsExists)
 Presentation pres = new Presentation();
 // Een geclusterd kolomdiagram maken
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 20, 20, 500, 400);
-// Potentiele trendlijn toevoegen voor diagramreeks 1
+// Potentiele trendlijn toevoegen voor diagramserie 1
 ITrendline tredLinep = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Exponential);
 tredLinep.setDisplayEquation(false);
 tredLinep.setDisplayRSquaredValue(false);
-// Lineaire trendlijn toevoegen voor diagramserie 1
+// Lineaire trendlijn toevoegen voor diagramreeks 1
 ITrendline tredLineLin = chart.getChartData().getSeries().get_Item(0).getTrendLines().add(TrendlineType.Linear);
 tredLineLin.setTrendlineType(TrendlineType.Linear);
 tredLineLin.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 tredLineLin.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-// Logaritmische trendlijn toevoegen voor diagramserie 2
+// Logaritmische trendlijn toevoegen voor diagramreeks 2
 ITrendline tredLineLog = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Logarithmic);
 tredLineLog.setTrendlineType(TrendlineType.Logarithmic);
 tredLineLog.addTextFrameForOverriding("New log trend line");

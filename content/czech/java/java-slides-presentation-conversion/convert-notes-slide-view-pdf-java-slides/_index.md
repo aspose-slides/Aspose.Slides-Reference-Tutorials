@@ -10,7 +10,7 @@ url: /cs/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 
 ## Úvod do převodu zobrazení poznámek do formátu PDF v aplikaci Java Slides
 
-tomto tutoriálu vás provedeme procesem převodu prezentace PowerPoint se zobrazením snímku s poznámkami do formátu PDF pomocí knihovny Aspose.Slides for Java. Tato knihovna poskytuje výkonné funkce pro práci s PowerPointovými prezentacemi v Javě.
+V tomto tutoriálu vás provedeme procesem převodu prezentace PowerPoint se zobrazením snímku s poznámkami do formátu PDF pomocí knihovny Aspose.Slides for Java. Tato knihovna poskytuje výkonné funkce pro práci s PowerPointovými prezentacemi v Javě.
 
 ## Předpoklady
 1. Java Development Kit (JDK) nainstalován.
@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Další možnosti PDF si můžete přizpůsobit podle svých požadavků.
 
 ## Krok 4: Uložte prezentaci jako PDF s poznámkami
-Nakonec prezentaci uložme jako soubor PDF včetně poznámek. Můžete zadat název výstupního souboru (např.`"Pdf_Notes_out.pdf"`) a zvolte formát (`SaveFormat.Pdf`). Zde je kód, jak to udělat:
+ Nakonec prezentaci uložme jako soubor PDF včetně poznámek. Můžete zadat název výstupního souboru (např.`"Pdf_Notes_out.pdf"`) a zvolte formát (`SaveFormat.Pdf`). Zde je kód, jak to udělat:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -79,7 +79,7 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak převést PowerPointové prezentace se zobrazením snímků s poznámkami do PDF pomocí knihovny Aspose.Slides for Java. K dosažení této konverze jsme postupovali podle podrobného průvodce se zdrojovým kódem. Zde jsou hlavní poznatky:
+V tomto tutoriálu jsme prozkoumali, jak převést PowerPointové prezentace se zobrazením snímků poznámek do PDF pomocí knihovny Aspose.Slides for Java. K dosažení této konverze jsme postupovali podle podrobného průvodce se zdrojovým kódem. Zde jsou hlavní poznatky:
 
 ## FAQ
 
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Mohu export PDF dále upravit?
 
-Ano, export PDF si můžete přizpůsobit úpravou různých možností v`PdfOptions` objekt. Můžete si například nastavit kvalitu, kompresi a další parametry podle svých potřeb.
+ Ano, export PDF si můžete přizpůsobit úpravou různých možností v`PdfOptions` objekt. Můžete si například nastavit kvalitu, kompresi a další parametry podle svých potřeb.
 
 ### Jak mohu získat Aspose.Slides pro Java?
 

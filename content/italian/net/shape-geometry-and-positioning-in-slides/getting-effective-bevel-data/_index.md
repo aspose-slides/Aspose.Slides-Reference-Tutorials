@@ -8,7 +8,7 @@ weight: 20
 url: /it/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
 ## introduzione
-Benvenuto nell'affascinante mondo di Aspose.Slides per .NET, il tuo gateway per creare presentazioni straordinarie con una facilità senza precedenti. In questo tutorial, approfondiremo le complessità dell'ottenimento di dati di smussatura efficaci per le forme nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
+Benvenuto nell'affascinante mondo di Aspose.Slides per .NET, il tuo gateway per creare presentazioni straordinarie con una facilità senza pari. In questo tutorial, approfondiremo la complessità dell'ottenimento di dati di smussatura efficaci per le forme nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
 Prima di intraprendere questo entusiasmante viaggio, assicurati di possedere i seguenti prerequisiti:
 1.  Aspose.Slides per .NET Library: scarica e installa la libreria da[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Assicurarsi di sostituire`"Your Document Directory"`con il percorso in cui desideri archiviare i file di presentazione.
+ Assicurarsi di sostituire`"Your Document Directory"` con il percorso in cui desideri archiviare i file di presentazione.
 ## Passaggio 2: carica la presentazione
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
@@ -55,7 +55,7 @@ Console.WriteLine("Width: " + threeDEffectiveData.BevelTop.Width);
 Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 ```
 Infine, stampiamo i dati dello smusso per la faccia superiore della forma, inclusi tipo, larghezza e altezza.
-E il gioco è fatto! Hai recuperato e visualizzato con successo dati smussati efficaci per una forma nella presentazione utilizzando Aspose.Slides per .NET.
+il gioco è fatto! Hai recuperato e visualizzato con successo dati smussati efficaci per una forma nella presentazione utilizzando Aspose.Slides per .NET.
 ## Conclusione
 In questo tutorial, abbiamo esplorato le basi per recuperare dati di smussatura efficaci dalle forme nelle diapositive di presentazione utilizzando Aspose.Slides per .NET. Armati di questa conoscenza, ora puoi migliorare le tue presentazioni con effetti tridimensionali personalizzati.
 ## Domande frequenti

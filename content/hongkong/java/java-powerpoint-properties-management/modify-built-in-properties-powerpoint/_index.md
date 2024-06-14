@@ -20,7 +20,7 @@ Aspose.Slides for Java 使開發人員能夠以程式設計方式操作 PowerPoi
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：設定環境
 定義包含 PowerPoint 檔案的目錄的路徑：

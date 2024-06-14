@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
-Ce code parcourt chaque point de données de la première série (index 0) et définit les valeurs X et Y sur`null`, effaçant efficacement les points de données.
+ Ce code parcourt chaque point de données de la première série (index 0) et définit les valeurs X et Y sur`null`effaçant efficacement les points de données.
 
 ## Étape 4 : Supprimer les points de données effacés
 
@@ -116,7 +116,7 @@ Oui, vous pouvez effacer des points de données en fonction d'une condition en a
 
 ### Comment puis-je ajouter de nouveaux points de données à une série de graphiques à l'aide d'Aspose.Slides pour Java ?
 
-Pour ajouter de nouveaux points de données à une série de graphiques, vous pouvez utiliser l'outil`addDataPoint` méthode de la série. Créez simplement de nouveaux points de données et ajoutez-les à la série en utilisant cette méthode.
+ Pour ajouter de nouveaux points de données à une série de graphiques, vous pouvez utiliser l'outil`addDataPoint` méthode de la série. Créez simplement de nouveaux points de données et ajoutez-les à la série en utilisant cette méthode.
 
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour Java ?
 

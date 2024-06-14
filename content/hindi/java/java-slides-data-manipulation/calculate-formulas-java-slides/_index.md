@@ -2,7 +2,7 @@
 title: जावा स्लाइड्स में सूत्रों की गणना करें
 linktitle: जावा स्लाइड्स में सूत्रों की गणना करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java Slides में सूत्रों की गणना करना सीखें। गतिशील PowerPoint प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+description: Aspose.Slides for Java का उपयोग करके Java Slides में फ़ार्मुलों की गणना करना सीखें। गतिशील PowerPoint प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 type: docs
 weight: 10
 url: /hi/java/data-manipulation/calculate-formulas-java-slides/
@@ -25,7 +25,7 @@ url: /hi/java/data-manipulation/calculate-formulas-java-slides/
 सबसे पहले, आइए एक नया पावरपॉइंट प्रेजेंटेशन बनाएं और उसमें एक स्लाइड जोड़ें। इस उदाहरण में हम एक ही स्लाइड के साथ काम करेंगे।
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## जावा स्लाइड्स में सूत्रों की गणना के लिए पूर्ण स्रोत कोड
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
@@ -99,7 +99,7 @@ try {
 
 ## निष्कर्ष
 
-इस गाइड में, हमने सीखा है कि Aspose.Slides for Java का उपयोग करके Java Slides में फ़ार्मुलों की गणना कैसे की जाती है। हमने एक नई प्रस्तुति बनाई, उसमें एक चार्ट जोड़ा, चार्ट डेटा सेल के लिए फ़ार्मुलों और मानों को सेट किया, और गणना किए गए फ़ार्मुलों के साथ प्रस्तुति को सहेजा।
+इस गाइड में, हमने सीखा है कि Aspose.Slides for Java का उपयोग करके Java स्लाइड में फ़ार्मुलों की गणना कैसे करें। हमने एक नई प्रस्तुति बनाई, उसमें एक चार्ट जोड़ा, चार्ट डेटा सेल के लिए फ़ार्मुलों और मानों को सेट किया, और गणना किए गए फ़ार्मुलों के साथ प्रस्तुति को सहेजा।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

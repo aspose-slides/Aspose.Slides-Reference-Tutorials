@@ -12,14 +12,14 @@ url: /ja/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ## 前提条件
 始める前に、次の前提条件を満たしていることを確認してください。
 - Java 開発キット (JDK) がシステムにインストールされています。
-- Aspose.Slides for Javaライブラリがダウンロードされ、Javaプロジェクトにセットアップされます。ダウンロードはここから行えます。[ここ](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Javaライブラリがダウンロードされ、Javaプロジェクトにセットアップされます。ダウンロードはここから行えます。[ここ](https://releases.aspose.com/slides/java/).
 - Java プログラミング言語に関する基本的な知識。
 
 ## パッケージのインポート
 まず、必要なパッケージを Java クラスにインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

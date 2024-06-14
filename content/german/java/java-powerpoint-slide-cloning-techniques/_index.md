@@ -1,6 +1,6 @@
 ---
-title: Java PowerPoint-Folien-Klontechniken
-linktitle: Java PowerPoint-Folien-Klontechniken
+title: Java-Techniken zum Klonen von PowerPoint-Folien
+linktitle: Java-Techniken zum Klonen von PowerPoint-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Meistern Sie das Folienklonen in PowerPoint mit Aspose.Slides für Java. Lernen Sie, Folien innerhalb derselben Präsentation oder über mehrere Präsentationen hinweg nahtlos zu klonen.
 type: docs

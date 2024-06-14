@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Exclure les polices de présentation par défaut comme Calibri et Arial
+    // Exclure les polices de présentation par défaut comme Calibri et Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ Dans cet extrait de code :
 
 -  Nous chargeons la présentation PowerPoint d'entrée en utilisant`Presentation`.
 
-- Nous définissons une liste de polices (`fontNameExcludeList`) que nous souhaitons exclure de l'intégration dans le HTML. Ceci est utile pour exclure les polices courantes telles que Calibri et Arial afin de réduire la taille du fichier.
+- Nous définissons une liste de polices (`fontNameExcludeList`que nous souhaitons exclure de l'intégration dans le HTML. Ceci est utile pour exclure les polices courantes telles que Calibri et Arial afin de réduire la taille du fichier.
 
 -  Nous créons une instance de`EmbedAllFontsHtmlController` et transmettez-lui la liste d’exclusion de polices.
 
@@ -98,7 +98,7 @@ Dans ce didacticiel, vous avez appris à convertir une présentation PowerPoint 
 
 ### Comment télécharger Aspose.Slides pour Java ?
 
-Vous pouvez télécharger Aspose.Slides pour Java à partir du site Web Aspose. Visite[ici](https://downloads.aspose.com/slides/java/) pour obtenir la dernière version.
+ Vous pouvez télécharger Aspose.Slides pour Java à partir du site Web Aspose. Visite[ici](https://downloads.aspose.com/slides/java/) pour obtenir la dernière version.
 
 ### Puis-je personnaliser la liste des polices exclues ?
 

@@ -10,7 +10,7 @@ url: /nl/java/image-handling/add-image-from-svg-object-from-external-resource-in
 
 ## Inleiding tot het toevoegen van een afbeelding uit een SVG-object uit een externe bron in Java-dia's
 
-In deze zelfstudie onderzoeken we hoe u met Aspose.Slides een afbeelding van een SVG-object (Scalable Vector Graphics) van een externe bron aan uw Java-dia's kunt toevoegen. Dit kan een waardevolle functie zijn als u vectorgebaseerde afbeeldingen in uw presentaties wilt opnemen, zodat u zeker bent van hoogwaardige beelden. Laten we eens in de stapsgewijze handleiding duiken.
+In deze zelfstudie onderzoeken we hoe u met Aspose.Slides een afbeelding van een SVG-object (Scalable Vector Graphics) van een externe bron aan uw Java-dia's kunt toevoegen. Dit kan een waardevolle functie zijn als u vectorgebaseerde afbeeldingen in uw presentaties wilt opnemen, zodat beelden van hoge kwaliteit worden gegarandeerd. Laten we eens in de stapsgewijze handleiding duiken.
 
 ## Vereisten
 

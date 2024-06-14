@@ -19,7 +19,7 @@ Sebelum kita mendalami panduan langkah demi langkah, ada beberapa prasyarat yang
 Hal pertama yang pertama, Anda perlu mengimpor paket yang diperlukan dari Aspose.Slides. Ini akan memungkinkan Anda mengakses semua fungsi yang diperlukan untuk membuat dan memanipulasi presentasi PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Mari kita uraikan proses penambahan segmen ke bentuk geometri menjadi langkah-langkah mendetail untuk memastikan kejelasan dan kemudahan pemahaman.
 ## Langkah 1: Buat Presentasi Baru

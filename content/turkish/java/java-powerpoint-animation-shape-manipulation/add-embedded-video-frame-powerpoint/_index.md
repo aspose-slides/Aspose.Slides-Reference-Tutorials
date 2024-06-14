@@ -19,7 +19,7 @@ Kodun ayrıntılarına girmeden önce aşağıdaki önkoşulların yerine getiri
 Öncelikle Aspose.Slides ile çalışmak için gerekli paketleri içe aktarmanız gerekecek. Bu içe aktarmalar slaytları, videoları ve sunum dosyalarını yönetmenize yardımcı olacaktır.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

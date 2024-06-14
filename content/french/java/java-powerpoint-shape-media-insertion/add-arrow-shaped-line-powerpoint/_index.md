@@ -19,7 +19,7 @@ Avant de commencer, assurez-vous de disposer des prérequis suivants :
 Pour commencer, importez les packages nécessaires dans votre classe Java :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Oui, vous pouvez ajouter plusieurs lignes en forme de flèche à une seule diapo
 ### Aspose.Slides pour Java est-il compatible avec les dernières versions de PowerPoint ?
 Aspose.Slides pour Java prend en charge la compatibilité avec différentes versions de PowerPoint, garantissant une intégration transparente avec vos présentations.
 ### Puis-je personnaliser la couleur de la ligne en forme de flèche ?
- Oui, vous pouvez personnaliser la couleur de la ligne en forme de flèche en ajustant le`SolidFillColor` propriété dans le code.
+Oui, vous pouvez personnaliser la couleur de la ligne en forme de flèche en ajustant le`SolidFillColor` propriété dans le code.
 ### Aspose.Slides pour Java prend-il en charge d'autres formes que les lignes ?
 Oui, Aspose.Slides pour Java offre une prise en charge étendue pour l'ajout de diverses formes, notamment des rectangles, des cercles et des polygones, aux diapositives PowerPoint.
 ### Où puis-je trouver plus de ressources et d’assistance pour Aspose.Slides pour Java ?

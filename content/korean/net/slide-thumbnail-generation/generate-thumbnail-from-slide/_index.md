@@ -10,7 +10,7 @@ url: /ko/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 
 디지털 프레젠테이션 세계에서 매력적이고 유익한 슬라이드 축소판을 만드는 것은 청중의 관심을 끄는 데 필수적인 부분입니다. Aspose.Slides for .NET은 .NET 애플리케이션의 슬라이드에서 썸네일을 생성할 수 있는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 이를 달성하는 방법을 보여줍니다.
 
-## 전제조건
+## 전제 조건
 
 슬라이드에서 축소판을 생성하는 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인해야 합니다.
 

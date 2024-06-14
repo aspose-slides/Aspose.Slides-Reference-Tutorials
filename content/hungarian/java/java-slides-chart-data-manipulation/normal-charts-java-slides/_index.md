@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Kitöltési szín beállítása sorozatokhoz
+// Kitöltési szín beállítása sorozatokhoz
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Kitöltési szín beállítása sorozatokhoz
+// Kitöltési szín beállítása sorozatokhoz
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Vegyük az első diagramsorozatot
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Most a sorozatadatok feltöltése
+// Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Kitöltési szín beállítása sorozatokhoz
+// Kitöltési szín beállítása sorozatokhoz
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Vegyük a második diagramsorozatot
 series = chart.getChartData().getSeries().get_Item(1);
-//Most a sorozatadatok feltöltése
+// Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Kitöltési szín beállítása sorozatokhoz
+// Kitöltési szín beállítása sorozatokhoz
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // Az első címke a kategórianév megjelenítése lesz
@@ -223,9 +223,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet normál diagramokat létrehoz
 
 ### Hogyan tudom megváltoztatni a diagram típusát?
 
- A diagram típusának módosításához módosítsa a`ChartType` paraméterrel a diagram hozzáadásakor`sld.getShapes().addChart()`. Az Aspose.Slides-ben elérhető különféle diagramtípusok közül választhat.
+ A diagram típusának módosításához módosítsa a`ChartType`paraméterrel a diagram hozzáadásakor`sld.getShapes().addChart()`. Az Aspose.Slides-ben elérhető különféle diagramtípusok közül választhat.
 
-### Megváltoztathatom a diagramsorozat színeit?
+### Módosíthatom a diagramsorozat színeit?
 
  Igen, módosíthatja a diagramsorozat színeit az egyes sorozatok kitöltési színének beállításával`series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
 
@@ -239,4 +239,4 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet normál diagramokat létrehoz
 
 ### Hogyan menthetem el a diagramot másik fájlformátumba?
 
- A diagram másik fájlformátumba mentéséhez módosítsa a`SaveFormat` paraméter a`pres.save()`módszert a kívánt formátumra (pl. PDF, PNG, JPEG).
+ A diagram másik fájlformátumba mentéséhez módosítsa a`SaveFormat` paraméter a`pres.save()` módszert a kívánt formátumra (pl. PDF, PNG, JPEG).

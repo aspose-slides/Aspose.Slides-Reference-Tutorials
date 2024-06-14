@@ -1,6 +1,6 @@
 ---
-title: Kép hozzáadása az SVG objektumból a Java Slides alkalmazásban
-linktitle: Kép hozzáadása az SVG objektumból a Java Slides alkalmazásban
+title: Kép hozzáadása SVG objektumból a Java Slides alkalmazásban
+linktitle: Kép hozzáadása SVG objektumból a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá SVG-képeket a Java Slides-hez az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató kóddal a lenyűgöző prezentációkhoz.
 type: docs
@@ -30,7 +30,7 @@ String svgPath = dataDir + "sample.svg";
 String outPptxPath = dataDir + "presentation.pptx";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a projekt könyvtárának tényleges elérési útjával, ahol az SVG fájl található.
+ Mindenképpen cserélje ki`"Your Document Directory"` a projekt könyvtárának tényleges elérési útjával, ahol az SVG fájl található.
 
 ## 2. lépés: Hozzon létre egy új PowerPoint-bemutatót
 

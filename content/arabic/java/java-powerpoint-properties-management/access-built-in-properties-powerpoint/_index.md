@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-properties-management/access-built-in-properties-p
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: إعداد كائن العرض التقديمي
 ابدأ بإعداد كائن العرض التقديمي ليمثل عرض PowerPoint التقديمي الذي تريد العمل معه. وإليك كيف يمكنك القيام بذلك:

@@ -30,7 +30,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-## Krok 2: Otevřete Snímek a graf
+## Krok 2: Otevřete snímek a graf
 
 ```java
 // Otevřete první snímek
@@ -147,11 +147,11 @@ fact.getCell(defaultWorksheetIndex, 0, 2, "New_Series2");// Úprava názvu séri
 series.getDataPoints().get_Item(0).getValue().setData(23);
 series.getDataPoints().get_Item(1).getValue().setData(67);
 series.getDataPoints().get_Item(2).getValue().setData(99);
-// Nyní přidáváme novou sérii
+// Nyní přidávám nový seriál
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Vezměte 3. řadu grafů
 series = chart.getChartData().getSeries().get_Item(2);
-//Nyní se vyplňují data série
+// Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

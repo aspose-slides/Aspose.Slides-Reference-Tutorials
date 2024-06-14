@@ -18,7 +18,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powe
 في مشروع Java الخاص بك، قم باستيراد الحزم الضرورية:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

@@ -197,7 +197,7 @@ Este código configura la apariencia de las principales líneas de la cuadrícul
 De manera similar al eje de valores, puede personalizar las líneas de cuadrícula menores para el eje de categorías.
 
 ```csharp
-//Configuración del formato de líneas de cuadrícula menores para el eje de categorías
+// Configuración del formato de líneas de cuadrícula menores para el eje de categorías
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Configuración del color del área de trazado
+//Configuración del color del área de trazado
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-properties-management/access-built-in-properties-p
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 기본 제공 속성에 액세스하는 방법을 살펴보겠습니다. Aspose.Slides는 Java 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 사용하여 속성 읽기 및 수정과 같은 작업을 원활하게 수행할 수 있도록 하는 강력한 라이브러리입니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 1.  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하십시오. 다음에서 다운로드할 수 있습니다.[여기](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2.  Java용 Aspose.Slides: 다음에서 Java용 Aspose.Slides를 다운로드하고 설치하세요.[이 링크](https://releases.aspose.com/slides/java/).
@@ -19,9 +19,9 @@ url: /ko/java/java-powerpoint-properties-management/access-built-in-properties-p
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
-## 1단계: 프리젠테이션 개체 설정
+## 1단계: 프레젠테이션 개체 설정
 작업하려는 PowerPoint 프레젠테이션을 나타내기 위해 프레젠테이션 개체를 설정하는 것부터 시작하세요. 방법은 다음과 같습니다.
 ```java
 // 프리젠테이션 파일이 포함된 디렉토리의 경로

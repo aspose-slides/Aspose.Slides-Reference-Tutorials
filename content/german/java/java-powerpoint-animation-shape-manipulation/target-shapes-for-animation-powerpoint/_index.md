@@ -21,7 +21,7 @@ Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt:
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Einrichten der Präsentationsdatei
 Geben Sie zunächst den Pfad zu Ihrer Quellpräsentationsdatei an:

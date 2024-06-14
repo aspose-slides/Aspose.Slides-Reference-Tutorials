@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 Chúc mừng! Bạn đã học thành công cách tạo hiệu ứng cho các thành phần chuỗi trong biểu đồ bằng Aspose.Slides cho .NET. Với kiến thức này, bạn có thể tạo các bản trình bày PowerPoint năng động và hấp dẫn, thu hút khán giả của mình.
 
- Aspose.Slides for .NET là một công cụ mạnh mẽ để làm việc với các tệp PowerPoint theo chương trình và nó mở ra vô số khả năng để tạo các bài thuyết trình chuyên nghiệp. Hãy thoải mái khám phá[tài liệu](https://reference.aspose.com/slides/net/) để biết thêm các tính năng nâng cao và tùy chọn tùy chỉnh.
+ Aspose.Slides for .NET là một công cụ mạnh mẽ để làm việc với các tệp PowerPoint theo chương trình và nó mở ra vô số khả năng để tạo các bài thuyết trình chuyên nghiệp. Hãy thoải mái khám phá[tài liệu](https://reference.aspose.com/slides/net/)để biết thêm các tính năng nâng cao và tùy chọn tùy chỉnh.
 
 ## Các câu hỏi thường gặp
 

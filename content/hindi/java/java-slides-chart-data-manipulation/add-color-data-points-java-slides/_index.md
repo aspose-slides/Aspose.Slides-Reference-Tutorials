@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 इस चरण में, हम विशिष्ट डेटा बिंदुओं को कस्टमाइज़ करेंगे। यहाँ, हम डेटा बिंदुओं का रंग बदल रहे हैं और लेबल सेटिंग कॉन्फ़िगर कर रहे हैं।
 
 ```java
-//डेटा बिंदु 0 को अनुकूलित करें
+// डेटा बिंदु 0 को अनुकूलित करें
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ finally
 
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
 
-आप जावा के लिए Aspose.Slides का उपयोग करने पर अधिक उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) वेबसाइट।
+ आप जावा के लिए Aspose.Slides का उपयोग करने पर अधिक उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) वेबसाइट।

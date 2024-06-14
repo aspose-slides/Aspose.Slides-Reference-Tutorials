@@ -23,7 +23,7 @@ Antes de profundizar en la implementación, asegúrese de tener los siguientes r
 ## Paso 1: crea una presentación
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Borramos cualquier dato existente del gráfico para prepararlo para nuevos datos
 ## Paso 4: cargar el libro de Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Cargamos el libro de Excel que contiene los datos que queremos usar para el gráfico. Reemplazar`"book1.xlsx"` con la ruta a su archivo de Excel.
@@ -92,14 +92,14 @@ Finalmente, guardamos la presentación con los datos del gráfico actualizados e
 ## Código fuente completo para establecer datos de gráficos del libro de trabajo en diapositivas de Java
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

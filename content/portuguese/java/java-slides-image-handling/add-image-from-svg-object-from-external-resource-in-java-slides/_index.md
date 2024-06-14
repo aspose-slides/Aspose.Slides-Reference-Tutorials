@@ -111,7 +111,7 @@ Sim, você pode adicionar várias imagens SVG a um único slide repetindo o proc
 
 Aspose.Slides for Java suporta vários formatos SVG, mas é recomendado garantir que seus arquivos SVG sejam compatíveis com a biblioteca para obter os melhores resultados.
 
-### Aspose.Slides for Java é compatível com as versões mais recentes do Java?
+### O Aspose.Slides for Java é compatível com as versões mais recentes do Java?
 
 Sim, Aspose.Slides for Java é compatível com as versões mais recentes do Java. Certifique-se de usar uma versão compatível da biblioteca para seu ambiente Java.
 

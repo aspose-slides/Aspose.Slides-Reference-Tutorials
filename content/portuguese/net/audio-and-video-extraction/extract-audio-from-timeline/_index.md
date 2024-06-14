@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- Nesta etapa, carregamos a apresentação do PowerPoint do arquivo especificado. Certifique-se de substituir`"Your Document Directory"` com o caminho real para o seu arquivo de apresentação.
+Nesta etapa, carregamos a apresentação do PowerPoint do arquivo especificado. Certifique-se de substituir`"Your Document Directory"` com o caminho real para o seu arquivo de apresentação.
 
 ### Passo 2.2: Acesse o Slide e a Linha do Tempo
 

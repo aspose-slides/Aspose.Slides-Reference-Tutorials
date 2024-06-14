@@ -66,7 +66,7 @@ Mit dem SVG-Bild in der Hand können wir es nun in eine Gruppe von Formen umwand
     }
 ```
 
-## Schritt 5: Speichern Sie die geänderte Präsentation
+## Schritt 5: Speichern der geänderten Präsentation
 
 Nachdem Sie das SVG-Bild erfolgreich in eine Gruppe von Formen konvertiert haben, speichern Sie die geänderte Präsentation in einer neuen Datei.
 

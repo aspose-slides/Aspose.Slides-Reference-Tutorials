@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Seri için dolgu rengini ayarlama
+// Seri için dolgu rengini ayarlama
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Seri için dolgu rengini ayarlama
+// Seri için dolgu rengini ayarlama
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // İlk grafik serisini alın
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Şimdi seri verileri dolduruluyor
+// Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Seri için dolgu rengini ayarlama
+// Seri için dolgu rengini ayarlama
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // İkinci grafik serisini alın
 series = chart.getChartData().getSeries().get_Item(1);
-//Şimdi seri verileri dolduruluyor
+// Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Seri için dolgu rengini ayarlama
+// Seri için dolgu rengini ayarlama
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // İlk etikette Kategori adı gösterilecektir
@@ -223,7 +223,7 @@ Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java Slides'ta normal gr
 
 ### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü değiştirmek için`ChartType` kullanarak grafiği eklerken parametre`sld.getShapes().addChart()`. Aspose.Slides'ta bulunan çeşitli grafik türleri arasından seçim yapabilirsiniz.
+ Grafik türünü değiştirmek için`ChartType`kullanarak grafiği eklerken parametre`sld.getShapes().addChart()`. Aspose.Slides'ta bulunan çeşitli grafik türleri arasından seçim yapabilirsiniz.
 
 ### Grafik serisinin renklerini değiştirebilir miyim?
 
@@ -239,4 +239,4 @@ Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java Slides'ta normal gr
 
 ### Grafiği farklı bir dosya biçiminde nasıl kaydederim?
 
- Grafiği farklı bir dosya biçiminde kaydetmek için`SaveFormat` parametresi`pres.save()`yöntemi istenen formata (örneğin, PDF, PNG, JPEG) dönüştürebilirsiniz.
+ Grafiği farklı bir dosya biçiminde kaydetmek için`SaveFormat` parametresi`pres.save()` yöntemi istenen formata (örneğin, PDF, PNG, JPEG) dönüştürebilirsiniz.

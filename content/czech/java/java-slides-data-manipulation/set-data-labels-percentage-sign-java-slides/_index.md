@@ -2,7 +2,7 @@
 title: Nastavit štítky dat Procento přihlášení do Java Slides
 linktitle: Nastavit štítky dat Procento přihlášení do Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se, jak nastavit štítky dat se znaky procenta v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem.
+description: Naučte se, jak nastavit štítky dat se znaky procenta v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem.
 type: docs
 weight: 17
 url: /cs/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
@@ -10,7 +10,7 @@ url: /cs/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 
 ## Úvod k nastavení datových štítků Procento přihlášení Aspose.Slides for Java
 
-V této příručce vás provedeme procesem nastavení štítků dat se znakem procenta pomocí Aspose.Slides for Java. Vytvoříme prezentaci v PowerPointu se skládaným sloupcovým grafem a nakonfigurujeme popisky dat pro zobrazení procent.
+této příručce vás provedeme procesem nastavení štítků dat se znakem procenta pomocí Aspose.Slides for Java. Vytvoříme prezentaci v PowerPointu se skládaným sloupcovým grafem a nakonfigurujeme popisky dat pro zobrazení procent.
 
 ## Předpoklady
 
@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Chcete-li zobrazit procenta, musíme nakonfigurovat formát čísel pro svislou osu grafu.
 
 ```java
-//Nastavte NumberFormatLinkedToSource na hodnotu false
+// Nastavte NumberFormatLinkedToSource na hodnotu false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Přidejte graf PercentsStackedColumn na snímek
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Nastavte NumberFormatLinkedToSource na hodnotu false
+// Nastavte NumberFormatLinkedToSource na hodnotu false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Podle této příručky jste se naučili, jak vytvářet poutavé prezentace s d
 
 ### Mohu přizpůsobit velikost písma datových štítků?
 
- Ano, velikost písma datových štítků si můžete přizpůsobit nastavením`setFontHeight` vlastnost, jak je uvedeno v kódu.
+Ano, velikost písma datových štítků si můžete přizpůsobit nastavením`setFontHeight` vlastnost, jak je uvedeno v kódu.
 
 ### Jak mohu do grafu přidat další série?
 

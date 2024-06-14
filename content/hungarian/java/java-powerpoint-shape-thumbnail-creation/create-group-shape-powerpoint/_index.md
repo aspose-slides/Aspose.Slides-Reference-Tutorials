@@ -1,6 +1,6 @@
 ---
-title: Csoportalak létrehozása a PowerPointban
-linktitle: Csoportalak létrehozása a PowerPointban
+title: Csoportalakzat létrehozása a PowerPointban
+linktitle: Csoportalakzat létrehozása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre csoportalakzatokat PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Könnyedén javíthatja a szervezettséget és a látványt.
 type: docs
@@ -8,21 +8,21 @@ weight: 11
 url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
 ## Bevezetés
-modern prezentációkban a vizuálisan tetszetős és jól strukturált elemek beépítése kulcsfontosságú az információ hatékony közvetítéséhez. Az alakzatok csoportosítása a PowerPointban lehetővé teszi több alakzat egyetlen egységbe rendezését, ami megkönnyíti a kezelést és a formázást. Az Aspose.Slides for Java hatékony funkciókat biztosít a csoportalakzatok programozott létrehozásához és kezeléséhez, rugalmasságot és ellenőrzést biztosítva a prezentáció tervezése felett.
+A modern prezentációkban a vizuálisan tetszetős és jól strukturált elemek beépítése kulcsfontosságú az információ hatékony közvetítéséhez. Az alakzatok csoportosítása a PowerPointban lehetővé teszi több alakzat egyetlen egységbe rendezését, ami megkönnyíti a kezelést és a formázást. Az Aspose.Slides for Java hatékony funkciókat kínál a csoportalakzatok programozott létrehozásához és manipulálásához, rugalmasságot és ellenőrzést biztosítva a prezentáció tervezése felett.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy beállította a következő előfeltételeket:
 1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren.
-2.  Aspose.Slides for Java Library: Töltse le és foglalja bele a projektébe az Aspose.Slides for Java könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Library: Töltse le és foglalja bele a projektébe az Aspose.Slides for Java könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
 3. Integrált fejlesztői környezet (IDE): Válasszon egy Java IDE-t, például az IntelliJ IDEA-t vagy az Eclipse-t.
 
 ## Csomagok importálása
 Kezdésként importálja az Aspose.Slides for Java funkciók használatához szükséges csomagokat:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be környezetét
- Győződjön meg arról, hogy a projekthez beállított egy könyvtárat, ahol PowerPoint-bemutatókat hozhat létre és menthet. Cserélje ki`"Your Document Directory"` kívánt könyvtár elérési útjával.
+ Győződjön meg arról, hogy a projekthez beállított egy könyvtárat, ahol PowerPoint-bemutatókat hozhat létre és menthet. Cserélje ki`"Your Document Directory"` a kívánt könyvtár elérési útjával.
 ```java
 String dataDir = "Your Document Directory";
 ```
@@ -55,7 +55,7 @@ Opcionálisan testreszabhatja a csoport alakzatának keretét saját igényei sz
 ```java
 groupShape.setFrame(new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0));
 ```
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 Mentse a PowerPoint bemutatót a megadott könyvtárba.
 ```java
 pres.save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);

@@ -8,17 +8,17 @@ weight: 13
 url: /nl/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
 ## Invoering
-Het toevoegen van een OLE-objectframe (Object Linking and Embedding) aan PowerPoint-presentaties kan de visuele aantrekkingskracht en functionaliteit van uw dia's aanzienlijk verbeteren. Met Aspose.Slides voor Java wordt dit proces gestroomlijnd en efficiënt. In deze zelfstudie begeleiden we u door de stappen die nodig zijn om OLE-objectframes naadloos in uw PowerPoint-presentaties te integreren.
+Het toevoegen van een OLE-objectframe (Object Linking and Embedding) aan PowerPoint-presentaties kan de visuele aantrekkingskracht en functionaliteit van uw dia's aanzienlijk verbeteren. Met Aspose.Slides voor Java wordt dit proces gestroomlijnd en efficiënt. In deze zelfstudie begeleiden we u door de stappen die nodig zijn om OLE-objectframes naadloos te integreren in uw PowerPoint-presentaties.
 ### Vereisten
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 1. Java-ontwikkelomgeving: Zorg ervoor dat Java Development Kit (JDK) op uw systeem is geïnstalleerd.
-2. Aspose.Slides voor Java: Download en installeer Aspose.Slides voor Java vanaf de website[hier](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides voor Java: Download en installeer Aspose.Slides voor Java vanaf de website[hier](https://releases.aspose.com/slides/java/).
 3. Basiskennis van Java-programmering: maak uzelf vertrouwd met Java-programmeerconcepten en -syntaxis.
 ## Pakketten importeren
 Ten eerste moet u de benodigde pakketten importeren om de functionaliteiten van Aspose.Slides voor Java te benutten. Hier ziet u hoe u het kunt doen:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Zorg ervoor dat uw project correct is geconfigureerd en dat de bibliotheek Aspos
 Maak een presentatieobject om het PowerPoint-bestand waarmee u werkt weer te geven:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Instantieer de Presentation-klasse die de PPTX vertegenwoordigt
 Presentation pres = new Presentation();
 ```

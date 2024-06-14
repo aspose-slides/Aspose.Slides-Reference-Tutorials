@@ -17,7 +17,7 @@ Günümüzün dijital çağında, çeşitli platformlarda bilgilerin sorunsuz bi
 Koda ve dönüştürme sürecine dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 - Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-- Aspose.Slides for Java API'sini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API'sini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/slides/java/).
 -  Bir sunum dosyası (örn.`presentation.pptx`) HTML'ye dönüştürmek istediğiniz.
 
 ## 1. Adım: Java Ortamını Kurma
@@ -26,7 +26,7 @@ Sisteminizde Java ve Aspose.Slides for Java API'nin düzgün şekilde kurulu old
 
 ## Adım 2: Sunum Dosyasını Yükleme
 
- Java kodunuzda dönüştürmek istediğiniz sunum dosyasını yüklemeniz gerekmektedir. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+Java kodunuzda dönüştürmek istediğiniz sunum dosyasını yüklemeniz gerekmektedir. Yer değiştirmek`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ HTML dosyasının kaynak kodunu inceleyebilir ve yazı tipi referanslarını ara
 
 ### HTML çıktısını stil ve düzen gibi daha da özelleştirebilir miyim?
 
- Evet, HTML çıktısını değiştirerek özelleştirebilirsiniz.`HtmlOptions`ve biçimlendirme için kullanılan HTML şablonu. Aspose.Slides for Java bu konuda esneklik sağlar.
+ Evet, HTML çıktısını değiştirerek özelleştirebilirsiniz.`HtmlOptions` ve biçimlendirme için kullanılan HTML şablonu. Aspose.Slides for Java bu konuda esneklik sağlar.
 
 ### Yazı tiplerini HTML'ye gömerken herhangi bir sınırlama var mı?
 

@@ -35,7 +35,7 @@ using Aspose.Slides.Export;
 
 Låt oss nu dyka in i kärnan av vår handledning - lägga till snygg anteckningsformatering till dina PowerPoint-bilder. Vi delar upp detta i flera steg för bättre förståelse:
 
-### Steg 2.1: Instantera presentationsklass
+### Steg 2.1: Instantiera presentationsklass
 
  Först måste vi skapa en instans av`Presentation` klass som representerar din PowerPoint-presentationsfil. Du bör ange sökvägen till din presentationsfil i`dataDir` variabel.
 

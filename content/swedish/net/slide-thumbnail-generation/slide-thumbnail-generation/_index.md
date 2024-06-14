@@ -14,7 +14,7 @@ Om du vill skapa miniatyrbilder av bilder i dina .NET-applikationer med Aspose.S
 
 Innan du dyker in i processen att skapa miniatyrbilder med Aspose.Slides för .NET, se till att du har följande förutsättningar:
 
-### 1. Aspose.Slides Installation
+### 1. Aspose. Slides Installation
 För att komma igång, se till att du har Aspose.Slides för .NET installerat i din utvecklingsmiljö. Om du inte redan har gjort det kan du ladda ner det från Asposes webbplats.
 
 -  Nedladdningslänk:[Aspose.Slides för .NET](https://releases.aspose.com/slides/net/)

@@ -46,7 +46,7 @@ string dataDir = "Your Document Directory";
 // Instantiera ett presentationsobjekt som representerar en presentationsfil
 using (Presentation pres = new Presentation(dataDir + "YourPresentation.pptx"))
 {
-    //Din kod för att radera bilder kommer att hamna här.
+    //Din kod för radering av bilder kommer att hamna här.
 }
 ```
 

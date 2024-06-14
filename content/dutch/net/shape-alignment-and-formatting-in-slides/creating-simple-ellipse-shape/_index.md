@@ -11,7 +11,7 @@ url: /nl/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 In de dynamische wereld van presentatieontwerp kan het integreren van vormen zoals ellipsen een vleugje creativiteit en professionaliteit toevoegen. Aspose.Slides voor .NET biedt een krachtige oplossing voor het programmatisch manipuleren van presentatiebestanden. Deze zelfstudie leidt u door het proces van het maken van een eenvoudige ellipsvorm in presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
--  Aspose.Slides voor .NET: Zorg ervoor dat u de Aspose.Slides-bibliotheek voor .NET hebt geïnstalleerd. Je kunt het downloaden van de[releases pagina](https://releases.aspose.com/slides/net/).
+- Aspose.Slides voor .NET: Zorg ervoor dat u de Aspose.Slides-bibliotheek voor .NET hebt geïnstalleerd. Je kunt het downloaden van de[releases pagina](https://releases.aspose.com/slides/net/).
 - Ontwikkelomgeving: Zet een .NET-ontwikkelomgeving op uw computer op.
 ## Naamruimten importeren
 Begin in uw .NET-project met het importeren van de benodigde naamruimten:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Deze code initialiseert een nieuwe presentatie en selecteert de eerste dia voor verdere manipulatie.
 ## Stap 2: Ellipsvorm toevoegen
-Laten we nu een ellipsvorm aan de dia toevoegen met behulp van de`AddAutoShape` methode:
+ Laten we nu een ellipsvorm aan de dia toevoegen met behulp van de`AddAutoShape` methode:
 ```csharp
 // Voeg een autovorm van het ellipstype toe
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

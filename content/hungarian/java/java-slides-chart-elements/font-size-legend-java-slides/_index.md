@@ -40,7 +40,7 @@ try
 }
 ```
 
- Ebben a kódban az első dián fürtözött oszlopdiagramot hozunk létre, és a jelmagyarázat szövegének betűméretét 20 pontra állítjuk. Beállíthatja a`setFontHeight`értékét, hogy szükség szerint módosítsa a betűméretet.
+ Ebben a kódban az első dián fürtözött oszlopdiagramot hozunk létre, és a jelmagyarázat szövegének betűméretét 20 pontra állítjuk. Beállíthatja a`setFontHeight`értékét a betűméret igény szerinti módosításához.
 
 ## 3. lépés: A tengelyértékek testreszabása
 
@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Ebben a kódban létrehozunk egy diagramot, és a jelmagyarázat szövegének betűméretét 20 pontra állítjuk. Beállíthatja a`setFontHeight`értéket a betűméret módosításához.
+ Ebben a kódban létrehozunk egy diagramot, és a jelmagyarázat szövegének betűméretét 20 pontra állítjuk. Beállíthatja a`setFontHeight` értéket a betűméret módosításához.
 
 ### Testreszabhatom a jelmagyarázat egyéb tulajdonságait egy diagramban?
 
@@ -130,8 +130,8 @@ chart.getAxes().getVerticalAxis().setAutomaticMaxValue(false);
 chart.getAxes().getVerticalAxis().setMaxValue(10);
 ```
 
-Itt letiltjuk az automatikus tengelyméretezést, és megadjuk a függőleges tengely minimális és maximális értékét. Szükség szerint állítsa be az értékeket a diagramadatokhoz.
+Itt letiltjuk az automatikus tengelyméretezést, és megadjuk a függőleges tengely minimális és maximális értékét. Állítsa be a diagramadatokhoz szükséges értékeket.
 
 ### Hol találhatok további információt és dokumentációt az Aspose.Slides-hez?
 
-Az Aspose.Slides for Java-hoz átfogó dokumentációt és API-referenciákat találhat az Aspose dokumentációs webhelyén. Látogatás[itt](https://reference.aspose.com/slides/java/) a könyvtár használatával kapcsolatos részletes információkért.
+ Az Aspose.Slides for Java-hoz átfogó dokumentációt és API-referenciákat találhat az Aspose dokumentációs webhelyén. Látogatás[itt](https://reference.aspose.com/slides/java/) a könyvtár használatával kapcsolatos részletes információkért.

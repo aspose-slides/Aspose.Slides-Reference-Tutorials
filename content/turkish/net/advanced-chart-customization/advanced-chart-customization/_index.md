@@ -16,7 +16,7 @@ Aspose.Slides for .NET ile gelişmiş grafik özelleştirmesine dalmadan önce a
 
 1. Aspose.Slides for .NET Kütüphanesi: Aspose.Slides kütüphanesinin .NET projenizde kurulu ve düzgün şekilde yapılandırılmış olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 
-2. .NET Geliştirme Ortamı: Visual Studio veya seçtiğiniz herhangi bir IDE dahil olmak üzere bir .NET geliştirme ortamı kurmuş olmalısınız.
+2. .NET Geliştirme Ortamı: Visual Studio veya seçtiğiniz başka bir IDE dahil olmak üzere bir .NET geliştirme ortamı kurmuş olmalısınız.
 
 3. Temel C# Bilgisi: Aspose.Slides ile çalışmak üzere C# kodu yazacağımız için C# programlama diline aşina olmak faydalı olacaktır.
 
@@ -197,7 +197,7 @@ Bu kod, kategori eksenindeki ana kılavuz çizgilerinin görünümünü yapılan
 Değer eksenine benzer şekilde, kategori ekseni için ikincil kılavuz çizgilerini de özelleştirebilirsiniz.
 
 ```csharp
-//Kategori ekseni için İkincil kılavuz çizgileri formatını ayarlama
+// Kategori ekseni için İkincil kılavuz çizgileri formatını ayarlama
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -247,7 +247,7 @@ Bu adımda kategori ekseni için bir başlık belirleyebilirsiniz.
 Göstergeler, grafiğin arka duvarı, zemin ve çizim alanı renkleri gibi diğer özelleştirmeleri keşfedebilirsiniz. Bu özelleştirmeler grafiğinizin görsel çekiciliğini artırmanıza olanak tanır.
 
 ```csharp
-// Ek Özelleştirmeler (İsteğe bağlı)
+// Ek Özelleştirmeler (İsteğe Bağlı)
 
 // Efsane Metin Özelliklerini Ayarlama
 IChartPortionFormat txtleg = chart.Legend.TextFormat.PortionFormat;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Çizim alanı rengini ayarlama
+//Çizim alanı rengini ayarlama
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

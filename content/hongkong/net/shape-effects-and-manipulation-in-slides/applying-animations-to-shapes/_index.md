@@ -8,7 +8,7 @@ weight: 21
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
 ## 介紹
-在動態簡報的世界中，為形狀添加動畫可以顯著增強投影片的視覺吸引力和參與度。 Aspose.Slides for .NET 提供了一個強大的工具包來無縫實現這一目標。在本教程中，我們將引導您完成使用 Aspose.Slides 將動畫應用到形狀的過程，使您能夠創建令人印象深刻的迷人簡報。
+在動態簡報的世界中，為形狀添加動畫可以顯著增強投影片的視覺吸引力和參與度。 Aspose.Slides for .NET 提供了一個強大的工具包來無縫實現這一目標。在本教程中，我們將指導您完成使用 Aspose.Slides 將動畫應用到形狀的過程，使您能夠創建令人印象深刻的迷人簡報。
 ## 先決條件
 在我們深入學習本教學之前，請確保您已準備好以下內容：
 1.  Aspose.Slides for .NET：請確保您已安裝程式庫並準備使用。你可以下載它[這裡](https://releases.aspose.com/slides/net/).

@@ -33,7 +33,7 @@ if (!isExists)
 string presentationFileName = Path.Combine(dataDir, "AnimationShapesExample.pptx");
 using (Presentation pres = new Presentation(presentationFileName))
 {
-    //Din kod för ytterligare åtgärder finns här
+    // Din kod för ytterligare åtgärder finns här
 }
 ```
 ## Steg 2: Iterera genom bilder och animeringseffekter

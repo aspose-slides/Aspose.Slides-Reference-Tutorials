@@ -101,7 +101,7 @@ Gratulacje! Pomyślnie nauczyłeś się konwertować prezentacje PowerPoint do f
 
 ### Jak mogę pobrać Aspose.Slides dla Java?
 
-Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose. Odwiedzać[Tutaj](https://releases.aspose.com/slides/java/) aby uzyskać dostęp do łącza pobierania.
+ Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose. Odwiedzać[Tutaj](https://releases.aspose.com/slides/java/) aby uzyskać dostęp do łącza pobierania.
 
 ### Czy są jakieś wymagania licencyjne dotyczące korzystania z Aspose.Slides dla Java?
 

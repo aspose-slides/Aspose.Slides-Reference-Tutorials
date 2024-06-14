@@ -84,7 +84,7 @@ Denna kod kommer att skriva ut de uppdaterade räkningarna i din presentation, v
 ## Komplett källkod för att ta bort oanvänd layoutmaster i Java Slides
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

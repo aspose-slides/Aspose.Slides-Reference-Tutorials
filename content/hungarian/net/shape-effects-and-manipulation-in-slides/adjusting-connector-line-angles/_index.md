@@ -75,7 +75,7 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
 ```
  Végezze el a`getDirection` módszer a csatlakozóvonal szögének kiszámítására annak méretei és tájolása alapján.
 ## Következtetés
-Ezekkel a lépésekkel programozottan beállíthatja a csatlakozóvonalak szögét a PowerPoint-prezentációban az Aspose.Slides for .NET segítségével. Ez az oktatóanyag alapot nyújt diákjai vizuális vonzerejének fokozásához.
+Ezekkel a lépésekkel programozottan beállíthatja a csatlakozóvonalak szögeit a PowerPoint-prezentációban az Aspose.Slides for .NET segítségével. Ez az oktatóanyag alapot nyújt diákjai vizuális vonzerejének fokozásához.
 ## GYIK
 ### Az Aspose.Slides Windows és webes alkalmazásokhoz egyaránt alkalmas?
 Igen, az Aspose.Slides Windows és webes alkalmazásokban is használható.

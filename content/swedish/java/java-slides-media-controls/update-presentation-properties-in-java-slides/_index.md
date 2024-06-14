@@ -89,7 +89,7 @@ info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 
 ## Slutsats
 
-I den här guiden har vi utforskat hur du uppdaterar presentationsegenskaper i Java-bilder med Aspose.Slides för Java. Genom att följa stegen ovan kan du anpassa olika dokumentegenskaper för att förbättra informationen som är kopplad till dina presentationsfiler. Oavsett om du uppdaterar författaren, titeln eller andra egenskaper, erbjuder Aspose.Slides för Java en robust lösning för att hantera presentationsegenskaper programmatiskt.
+I den här guiden har vi utforskat hur du uppdaterar presentationsegenskaper i Java-bilder med Aspose.Slides för Java. Genom att följa stegen som beskrivs ovan kan du anpassa olika dokumentegenskaper för att förbättra informationen som är kopplad till dina presentationsfiler. Oavsett om du uppdaterar författaren, titeln eller andra egenskaper, erbjuder Aspose.Slides för Java en robust lösning för att hantera presentationsegenskaper programmatiskt.
 
 ## FAQ's
 

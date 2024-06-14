@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Исключить шрифты презентации по умолчанию, такие как Calibri и Arial.
+    // Исключить шрифты презентации по умолчанию, такие как Calibri и Arial.
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -98,7 +98,7 @@ finally
 
 ### Как загрузить Aspose.Slides для Java?
 
-Вы можете скачать Aspose.Slides для Java с веб-сайта Aspose. Посещать[здесь](https://downloads.aspose.com/slides/java/) чтобы получить последнюю версию.
+ Вы можете скачать Aspose.Slides для Java с веб-сайта Aspose. Посещать[здесь](https://downloads.aspose.com/slides/java/) чтобы получить последнюю версию.
 
 ### Могу ли я настроить список исключенных шрифтов?
 

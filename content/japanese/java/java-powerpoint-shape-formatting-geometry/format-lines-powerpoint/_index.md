@@ -8,7 +8,7 @@ weight: 16
 url: /ja/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
 ## 導入
-PowerPoint プレゼンテーションは、プロフェッショナル環境と教育環境の両方で欠かせません。スライドの線を効果的に書式設定する機能により、プレゼンテーションが洗練されプロフェッショナルに見えます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの線を書式設定する方法について説明します。このガイドを読み終えると、スライドの線を簡単に作成して書式設定できるようになります。
+PowerPoint プレゼンテーションは、プロフェッショナル環境と教育環境の両方で欠かせないものです。スライドの線を効果的に書式設定する機能により、プレゼンテーションが洗練されプロフェッショナルに見えます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの線を書式設定する方法について説明します。このガイドを読み終えると、スライドの線を簡単に作成して書式設定できるようになります。
 ## 前提条件
 チュートリアルに進む前に、次のものを用意してください。
 1.  Java開発キット（JDK）：システムにJDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -18,7 +18,7 @@ PowerPoint プレゼンテーションは、プロフェッショナル環境と
 まず、Aspose.Slides を操作するために必要なパッケージをインポートしましょう。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

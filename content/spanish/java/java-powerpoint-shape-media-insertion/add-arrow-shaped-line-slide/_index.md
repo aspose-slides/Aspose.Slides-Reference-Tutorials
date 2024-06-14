@@ -12,14 +12,14 @@ En este tutorial, exploraremos cómo agregar una línea en forma de flecha a una
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 - Kit de desarrollo de Java (JDK) instalado en su sistema.
-- Biblioteca Aspose.Slides para Java descargada y configurada en su proyecto Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
+-  Biblioteca Aspose.Slides para Java descargada y configurada en su proyecto Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
 - Conocimientos básicos del lenguaje de programación Java.
 
 ## Importar paquetes
 Primero, importe los paquetes necesarios a su clase Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ En este tutorial, aprendimos cómo agregar una línea en forma de flecha a una d
 ### ¿Puedo personalizar el color de la línea de flecha?
  Sí, puedes especificar cualquier color usando el`setColor` método con`SolidFillColor`.
 ### ¿Cómo puedo cambiar la posición y el tamaño de la línea de flecha?
-Ajustar los parámetros pasados al`addAutoShape` Método para cambiar la posición y las dimensiones.
+ Ajustar los parámetros pasados al`addAutoShape` Método para cambiar la posición y las dimensiones.
 ### ¿Aspose.Slides es compatible con todas las versiones de PowerPoint?
 Aspose.Slides admite varios formatos de PowerPoint, lo que garantiza la compatibilidad entre diferentes versiones.
 ### ¿Puedo agregar texto a la línea de flecha?

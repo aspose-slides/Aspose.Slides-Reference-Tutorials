@@ -1,6 +1,6 @@
 ---
-title: Generovat miniaturu z Slide in Notes
-linktitle: Generovat miniaturu z Slide in Notes
+title: Vygenerujte miniaturu z Slide in Notes
+linktitle: Vygenerujte miniaturu z Slide in Notes
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se generovat miniatury ze snímků v sekci poznámek vaší prezentace pomocí Aspose.Slides for .NET. Vylepšete svůj vizuální obsah!
 type: docs

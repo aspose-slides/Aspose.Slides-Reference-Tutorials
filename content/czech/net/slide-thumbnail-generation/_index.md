@@ -24,7 +24,7 @@ V tomto tutoriálu vás provedeme procesem generování miniatur snímků pomoc�
 - Náhled obsahu: Miniatury snímků poskytují uživatelům náhled obsahu snímku a pomáhají při objevování obsahu.
 - Uživatelsky přívětivá rozhraní: Prezentační aplikace s náhledy miniatur nabízejí intuitivnější a uživatelsky přívětivější prostředí.
 
-Zůstaňte naladěni, když se ponoříme do procesu krok za krokem, doplněného příklady kódu, které vám pomohou hladce integrovat generování miniatur snímků do vašich aplikací .NET. Ať už vyvíjíte e-learningové platformy, obchodní prezentační nástroje nebo jakoukoli aplikaci zahrnující obsah založený na snímcích, tento výukový program je vaší bránou k vylepšení funkčnosti a zapojení uživatelů.
+Zůstaňte naladěni, když se ponoříme do procesu krok za krokem, doplněného příklady kódu, které vám pomohou hladce integrovat generování miniatur snímků do vašich aplikací .NET. Ať už vyvíjíte e-learningové platformy, obchodní prezentační nástroje nebo jakoukoli aplikaci zahrnující obsah založený na snímcích, tento výukový program je vaší branou k vylepšení funkčnosti a zapojení uživatelů.
 
 Začněte svou cestu do světa generování miniatur snímků s Aspose.Slides a pozvedněte své prezentační aplikace na novou úroveň sofistikovanosti a pohodlí. Začněme!
 
@@ -33,7 +33,7 @@ Začněte svou cestu do světa generování miniatur snímků s Aspose.Slides a 
 Generujte miniatury snímků v Aspose.Slides pro .NET s podrobným průvodcem a příklady kódu. Přizpůsobte vzhled a uložte miniatury. Vylepšete náhledy prezentací.
 ### [Generovat miniaturu ze snímku](./generate-thumbnail-from-slide/)
 Naučte se generovat miniatury obrázků ze snímků aplikace PowerPoint pomocí Aspose.Slides for .NET. Průvodce krok za krokem se zdrojovým kódem. Vylepšete uživatelské prostředí pomocí náhledů snímků.
-### [Generovat miniaturu z Slide in Notes](./generate-thumbnail-from-slide-in-notes/)
+### [Vygenerujte miniaturu z Slide in Notes](./generate-thumbnail-from-slide-in-notes/)
 Generujte miniatury ze snímků, které obsahují poznámky, pomocí Aspose.Slides pro .NET. Naučte se krok za krokem extrahovat poznámky, vytvářet miniatury a vylepšovat práci s PowerPointem. 
 ### [Generování miniatur s vlastními dimenzemi](./generate-thumbnail-with-custom-dimensions/)
 Naučte se generovat vlastní velikosti miniatur ve snímcích pomocí Aspose.Slides for .NET. Průvodce krok za krokem se zdrojovým kódem. Vylepšete své prezentace pomocí poutavých vizuálů. 

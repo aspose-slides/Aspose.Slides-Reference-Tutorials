@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation(presentationName))
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //HTML5 ドキュメントに画像を保存しないように強制する
+    // HTML5 ドキュメントに画像を保存しないように強制する
     EmbedImages = false,
     //外部画像のパスを設定する
     OutputPath = outPath
@@ -113,5 +113,5 @@ pres.Save(Path.Combine(outFilePath, "pres.html"), SaveFormat.Html5, options);
 ### 複雑なアニメーションを含むプレゼンテーションを HTML に変換できますか?
 Aspose.Slides for .NET は、アニメーションを含むさまざまな要素を含むプレゼンテーションの変換をサポートしています。ただし、サポート レベルはアニメーションの複雑さに応じて異なる場合があります。
 
-### Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを他のどのような形式に変換できますか?
+### Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを他のどの形式に変換できますか?
 Aspose.Slides for .NET は、PDF、画像など、さまざまな形式への変換をサポートしています。サポートされている形式の包括的なリストについては、ドキュメントを確認してください。

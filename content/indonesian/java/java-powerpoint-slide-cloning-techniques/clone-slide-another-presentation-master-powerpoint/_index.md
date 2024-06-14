@@ -19,7 +19,7 @@ Sebelum mendalami bagian pengkodean, pastikan Anda memiliki prasyarat berikut:
 Untuk memulai, Anda perlu mengimpor paket Aspose.Slides yang diperlukan ke proyek Java Anda. Inilah cara Anda melakukannya:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Mari kita uraikan proses mengkloning slide ke presentasi lain dengan slide masternya menjadi langkah-langkah mendetail.
 ## Langkah 1: Muat Presentasi Sumber
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Langkah 4: Kloning Master Slide ke Presentasi Tujuan
 Kloning slide master dari presentasi sumber ke kumpulan master di presentasi tujuan.
 ```java
-//Kloning slide master yang diinginkan dari presentasi sumber ke kumpulan master di presentasi Tujuan
+// Kloning slide master yang diinginkan dari presentasi sumber ke kumpulan master di presentasi Tujuan
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

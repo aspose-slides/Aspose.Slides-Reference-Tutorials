@@ -18,7 +18,7 @@ url: /ja/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 必要なパッケージを Java プロジェクトにインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

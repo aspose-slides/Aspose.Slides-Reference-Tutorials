@@ -20,7 +20,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置项目目录
 首先设置项目目录。创建一个文件夹，用于存储 Java 文件和 PowerPoint 演示文稿 (`Presentation1.pptx`）。

@@ -14,7 +14,7 @@ In deze zelfstudie laten we zien hoe u foutbalken aan een diagram in een PowerPo
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. U kunt de bibliotheek downloaden via de[Aspose-website](https://downloads.aspose.com/slides/java).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-project. U kunt de bibliotheek downloaden via de[Aspose-website](https://downloads.aspose.com/slides/java).
 
 ## Stap 1: Maak een lege presentatie
 
@@ -62,7 +62,7 @@ In deze stap voegen we foutbalken toe aan het diagram en stellen we het formaat 
 - `setValue` stelt de waarde voor foutbalken in.
 - `setType` definieert het type foutbalken (bijvoorbeeld Plus of Min).
 -  We stellen de breedte van de foutbalklijnen in met behulp van`getFormat().getLine().setWidth(2)`.
-- `setEndCap` specificeert of einddoppen op de foutbalken moeten worden opgenomen.
+- `setEndCap`specificeert of einddoppen op de foutbalken moeten worden opgenomen.
 
 ## Stap 4: Sla de presentatie op
 
@@ -123,7 +123,7 @@ Ja, u kunt foutbalken toevoegen aan verschillende diagramtypen die worden onders
 
 ### Hoe kan ik de positie en grootte van het diagram op de dia aanpassen?
 
- kunt de positie en afmetingen van het diagram bepalen door de parameters in het diagram aan te passen`addChart` methode, zoals weergegeven in stap 2.
+ U kunt de positie en afmetingen van het diagram bepalen door de parameters in het diagram aan te passen`addChart` methode, zoals weergegeven in stap 2.
 
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor Java?
 

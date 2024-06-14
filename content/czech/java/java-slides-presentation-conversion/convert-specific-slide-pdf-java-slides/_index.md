@@ -16,7 +16,7 @@ Ve světě vývoje v Javě je práce s prezentačními snímky běžným úkolem
 
 Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-1. Knihovna Aspose.Slides for Java: Budete muset mít nainstalovanou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+1.  Knihovna Aspose.Slides for Java: Budete muset mít nainstalovanou knihovnu Aspose.Slides for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
 
 2. Vývojové prostředí Java: Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java.
 

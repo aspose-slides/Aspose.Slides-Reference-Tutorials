@@ -31,10 +31,10 @@ import java.io.IOException;
 
 ## चरण 2: पावरपॉइंट प्रेजेंटेशन लोड करें
 
- आरंभ करने के लिए, उस PowerPoint प्रस्तुति को लोड करें जिसे आप एनीमेशन में बदलना चाहते हैं।`"SimpleAnimations.pptx"` अपनी प्रस्तुति फ़ाइल का पथ सहित:
+ आरंभ करने के लिए, उस PowerPoint प्रस्तुति को लोड करें जिसे आप एनीमेशन में बदलना चाहते हैं।`"SimpleAnimations.pptx"` अपनी प्रस्तुति फ़ाइल के पथ के साथ:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -47,7 +47,7 @@ PresentationAnimationsGenerator animationsGenerator = new PresentationAnimations
 animationsGenerator.run(pres.getSlides());
 ```
 
-## चरण 4: एनिमेशन रेंडर करने के लिए प्लेयर बनाएं
+## चरण 4: एनिमेशन प्रस्तुत करने के लिए प्लेयर बनाएं
 
 एनिमेशन को रेंडर करने के लिए, हमें एक प्लेयर बनाना होगा। हम प्रत्येक फ़्रेम को PNG इमेज के रूप में सहेजने के लिए फ़्रेम टिक इवेंट भी सेट करेंगे:
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 जैसे ही प्रस्तुतिकरण चलाया जाएगा, प्रत्येक फ़्रेम निर्दिष्ट आउटपुट निर्देशिका में PNG छवि के रूप में सहेजा जाएगा। आप आवश्यकतानुसार आउटपुट पथ को अनुकूलित कर सकते हैं:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## जावा स्लाइड्स में एनीमेशन में कनवर्ट करने के लिए पूर्ण स्रोत कोड
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {
@@ -107,7 +107,7 @@ try {
 
 ## निष्कर्ष
 
-इस ट्यूटोरियल में, हमने सीखा है कि जावा और Aspose.Slides for Java का उपयोग करके एक स्थिर PowerPoint प्रेजेंटेशन को एनिमेटेड प्रेजेंटेशन में कैसे बदला जाए। यह आकर्षक प्रेजेंटेशन और विज़ुअल कंटेंट बनाने के लिए एक मूल्यवान तकनीक हो सकती है।
+इस ट्यूटोरियल में, हमने सीखा है कि जावा और Aspose.Slides for Java का उपयोग करके एक स्थिर PowerPoint प्रस्तुति को एनिमेटेड प्रस्तुति में कैसे बदला जाए। यह आकर्षक प्रस्तुतिकरण और दृश्य सामग्री बनाने के लिए एक मूल्यवान तकनीक हो सकती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

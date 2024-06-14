@@ -8,7 +8,7 @@ weight: 12
 url: /de/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
 ## Einführung
-Wenn Sie Ihre .NET-Anwendungen mit dynamischen und optisch ansprechenden PowerPoint-Präsentationen verbessern möchten, ist Aspose.Slides für .NET Ihre Lösung. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung einer einfachen Rechteckform in Präsentationsfolien mit Aspose.Slides für .NET.
+Wenn Sie Ihre .NET-Anwendungen mit dynamischen und optisch ansprechenden PowerPoint-Präsentationen verbessern möchten, ist Aspose.Slides für .NET die richtige Lösung für Sie. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung einer einfachen Rechteckform in Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
 Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Entwicklungscomputer installiert ist.

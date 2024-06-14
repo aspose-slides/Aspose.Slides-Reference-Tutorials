@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Jakmile do grafu přidáte efekty animace, uložte upravenou prezentaci na disk.
 
 ```csharp
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

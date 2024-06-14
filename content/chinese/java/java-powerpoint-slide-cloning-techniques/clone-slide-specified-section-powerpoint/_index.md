@@ -16,14 +16,14 @@ url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-sec
 ### Aspose.Slides for Java 库
 接下来，下载 Aspose.Slides for Java 库。你可以从[Aspose.Slides 下载页面](https://releases.aspose.com/slides/java/)。该库将提供以编程方式操作 PowerPoint 演示文稿所需的所有工具。
 ### 开发 IDE
-使用 IntelliJ IDEA、Eclipse 或 NetBeans 等集成开发环境 (IDE) 将使您的开发过程更加简单。确保您的 IDE 已配置为支持 Java。
+使用 IntelliJ IDEA、Eclipse 或 NetBeans 等集成开发环境 (IDE) 将使您的开发过程更加简单。确保您的 IDE 配置为与 Java 兼容。
 ### Aspose 许可证
 要获得完整功能，您可能需要获得 Aspose.Slides 的许可证。您可以购买一个[这里](https://purchase.aspose.com/buy)。或者，您可以申请[临时执照](https://purchase.aspose.com/temporary-license/)在提交之前先试用一下这些功能。
 ## 导入包
 在编写代码之前，您需要从 Aspose.Slides 导入必要的包。操作方法如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 现在，让我们将流程分解为可管理的步骤。仔细遵循每个步骤，以实现预期结果。
 ## 步骤 1：设置数据目录

@@ -161,7 +161,7 @@ tredLinePol.setOrder((byte) 3);
 ITrendline tredLinePower = chart.getChartData().getSeries().get_Item(1).getTrendLines().add(TrendlineType.Power);
 tredLinePower.setTrendlineType(TrendlineType.Power);
 tredLinePower.setBackward(1);
-// Sparar presentation
+// Sparar presentationen
 pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ```
 

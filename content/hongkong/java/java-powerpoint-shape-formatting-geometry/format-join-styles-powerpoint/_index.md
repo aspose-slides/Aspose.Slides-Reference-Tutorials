@@ -12,14 +12,14 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/format-join-styles-
 ## 先決條件
 在我們開始之前，您需要滿足一些先決條件：
 1.  Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK。您可以從以下位置下載：[甲骨文網站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java Library：您需要下載Aspose.Slides for Java並將其包含在您的專案中。你可以從[這裡](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library：您需要下載Aspose.Slides for Java並將其包含在您的專案中。你可以從[這裡](https://releases.aspose.com/slides/java/).
 3. 整合開發環境 (IDE)：使用 IntelliJ IDEA、Eclipse 或 NetBeans 等 IDE 來編寫和執行 Java 程式碼。
 4. Java 基礎知識：對 Java 程式設計的基本了解將幫助您遵循本教程。
 ## 導入包
 首先，您需要匯入Aspose.Slides所需的套件。這對於存取我們的演示操作所需的類別和方法至關重要。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -32,7 +32,7 @@ boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
 ```
-在這一步驟中，我們定義一個目錄路徑並檢查它是否存在。如果沒有，我們將建立該目錄。這是保持文件井然有序的簡單而有效的方法。
+在這一步驟中，我們定義一個目錄路徑並檢查它是否存在。如果沒有，我們將建立該目錄。這是一種保持文件井井有條的簡單而有效的方法。
 ## 第 2 步：初始化簡報
 接下來，我們實例化`Presentation`類，它代表我們的 PowerPoint 文件。這是我們建立幻燈片和形狀的基礎。
 ```java
@@ -55,7 +55,7 @@ IShape shp3 = sld.getShapes().addAutoShape(ShapeType.Rectangle, 50, 250, 150, 75
 在此步驟中，我們在投影片上的指定位置新增三個矩形。每個矩形稍後都會設定不同的樣式，以顯示各種連接樣式。
 ## 第四步：設定形狀樣式
 ### 設定填滿顏色
-我們希望矩形用純色填滿。在這裡，我們選擇黑色作為填充顏色。
+我們希望矩形填充純色。在這裡，我們選擇黑色作為填充顏色。
 ```java
 shp1.getFillFormat().setFillType(FillType.Solid);
 shp1.getFillFormat().getSolidFillColor().setColor(Color.BLACK);
@@ -100,7 +100,7 @@ pres.save(dataDir + "RectShpLnJoin_out.pptx", SaveFormat.Pptx);
 ```
 此命令將簡報寫入 PPTX 文件，您可以使用 Microsoft PowerPoint 或任何其他相容軟體開啟該文件。
 ## 結論
-現在你就得到它了！您剛剛使用 Aspose.Slides for Java 建立了一張包含三個矩形的 PowerPoint 投影片，每個矩形都展示了不同的線條連接樣式。本教學不僅幫助您了解 Aspose.Slides 的基礎知識，還展示瞭如何以獨特的風格增強您的簡報。快樂的演講！
+現在你就擁有了！您剛剛使用 Aspose.Slides for Java 建立了一張包含三個矩形的 PowerPoint 投影片，每個矩形都展示了不同的線條連接樣式。本教學不僅幫助您了解 Aspose.Slides 的基礎知識，還展示瞭如何以獨特的風格增強您的簡報。快樂的演講！
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.Slides？
 Aspose.Slides for Java 是一個功能強大的 API，用於以程式設計方式建立、操作和管理 PowerPoint 簡報。

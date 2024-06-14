@@ -42,7 +42,7 @@ No código acima, adicionamos um gráfico de funil ao primeiro slide nas coorden
 
 ## Etapa 3: definir os dados do gráfico
 
-A seguir, definiremos os dados para nosso gráfico de funil. Definiremos as categorias e séries do gráfico.
+seguir, definiremos os dados para nosso gráfico de funil. Definiremos as categorias e séries do gráfico.
 
 ```java
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();

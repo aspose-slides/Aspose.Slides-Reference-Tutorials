@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## 2. lépés: Adjon hozzá egy diát, és hozza létre a szóródiagramot
 
- Ezután adjunk hozzá egy diát, és hozzuk létre rajta a szóródiagramot. Használjuk a`ScatterWithSmoothLines` diagramtípus ebben a példában.
+ Ezután adjunk hozzá egy diát, és hozzuk létre rajta a szóródiagramot. Használjuk a`ScatterWithSmoothLines`diagramtípus ebben a példában.
 
 ```java
 // Szerezd meg az első diát
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Az alapértelmezett diagram létrehozása
+//Az alapértelmezett diagram létrehozása
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Az alapértelmezett diagramadat-munkalapindex lekérése
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ Ebben az oktatóanyagban végigvezettük a szóródási diagram létrehozásána
 
 ### Hogyan tudom megváltoztatni a diagram típusát?
 
- A diagram típusának módosításához használja a`setType`módszert a diagramsorozaton, és adja meg a kívánt diagramtípust. Például,`series.setType(ChartType.Line)` vonaldiagrammá változtatná a sorozatot.
+ A diagram típusának módosításához használja a`setType` módszert a diagramsorozaton, és adja meg a kívánt diagramtípust. Például,`series.setType(ChartType.Line)` vonaldiagrammá változtatná a sorozatot.
 
 ### Hogyan szabhatom testre a marker méretét és stílusát?
 

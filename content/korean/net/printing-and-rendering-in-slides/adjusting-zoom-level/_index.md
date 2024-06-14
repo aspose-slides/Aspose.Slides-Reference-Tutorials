@@ -9,7 +9,7 @@ url: /ko/net/printing-and-rendering-in-slides/adjusting-zoom-level/
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 확대/축소 수준을 제어하는 것은 청중에게 매력적이고 시각적으로 매력적인 경험을 제공하는 데 매우 중요합니다. Aspose.Slides for .NET은 프레젠테이션 슬라이드를 프로그래밍 방식으로 조작하기 위한 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 .NET 환경에서 Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 확대/축소 수준을 조정하는 방법을 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 - C# 프로그래밍에 대한 기본 지식.
 -  .NET 라이브러리용 Aspose.Slides가 설치되었습니다. 그렇지 않은 경우 다운로드하십시오.[여기](https://releases.aspose.com/slides/net/).

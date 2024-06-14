@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Παρουσίαση διαδρομής προς την πηγή
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Όνομα διαδρομής και φακέλου για την αποθήκευση δεδομένων σήμανσης
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Δημιουργήστε επιλογές δημιουργίας Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Ορίστε την παράμετρο για απόδοση όλων των στοιχείων (τα στοιχεία που ομαδοποιούνται θα αποδοθούν μαζί).

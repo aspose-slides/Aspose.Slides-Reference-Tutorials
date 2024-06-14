@@ -11,7 +11,7 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 अपने दर्शकों को आकर्षित करने के लिए आकर्षक PowerPoint प्रस्तुतियाँ बनाना महत्वपूर्ण है। अपनी स्लाइड्स को बेहतर बनाने के प्रभावी तरीकों में से एक है आकृतियों को ग्रेडिएंट से भरना। यह ट्यूटोरियल आपको PowerPoint में आकृतियों को ग्रेडिएंट से भरने के लिए Aspose.Slides for Java का उपयोग करने की प्रक्रिया के बारे में बताएगा। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, आपको यह गाइड मददगार और अनुसरण करने में आसान लगेगी। आइए ग्रेडिएंट की दुनिया में गोता लगाएँ और देखें कि वे आपकी प्रस्तुतियों को कैसे बदल सकते हैं।
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
--  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके पास JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
+- जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके पास JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides for Java: यहां से नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).
 - एकीकृत विकास वातावरण (आईडीई): इंटेलीज आईडिया या एक्लिप्स जैसा आईडीई आपके कोडिंग अनुभव को आसान बना देगा।
 - जावा का बुनियादी ज्ञान: जावा प्रोग्रामिंग से परिचित होना आवश्यक है।
@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Aspose.Slides के साथ शुरू करने के लिए, आपको आवश्यक पैकेज आयात करने की आवश्यकता है। सुनिश्चित करें कि आपने अपने प्रोजेक्ट की निर्भरताओं में Aspose.Slides for Java को जोड़ा है।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

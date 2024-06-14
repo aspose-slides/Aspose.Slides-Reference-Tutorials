@@ -12,7 +12,7 @@ url: /ko/net/slide-access-and-manipulation/access-slide-by-id/
 
 Aspose.Slides for .NET은 개발자가 .NET 프레임워크를 사용하여 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있는 포괄적인 라이브러리입니다. 슬라이드, 도형, 텍스트, 이미지, 애니메이션 등을 포함하여 프레젠테이션의 다양한 측면을 작업할 수 있는 광범위한 기능 세트를 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
 

@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Phần kết luận
 
- Trong hướng dẫn này, chúng ta đã học cách tải bản trình bày PowerPoint bằng Java bằng Aspose.Slides và kiểm tra định dạng của nó bằng cách sử dụng hàm`LoadFormat`sự liệt kê. Điều này có thể hữu ích khi bạn cần xử lý các bản trình bày có định dạng khác nhau một cách khác nhau trong ứng dụng Java của mình.
+ Trong hướng dẫn này, chúng ta đã học cách tải bản trình bày PowerPoint bằng Java bằng Aspose.Slides và kiểm tra định dạng của nó bằng cách sử dụng hàm`LoadFormat` sự liệt kê. Điều này có thể hữu ích khi bạn cần xử lý các bản trình bày có định dạng khác nhau một cách khác nhau trong ứng dụng Java của mình.
 
 ## Câu hỏi thường gặp
 
 ### Làm cách nào tôi có thể tải xuống Aspose.Slides cho Java?
 
- Bạn có thể tải xuống thư viện Aspose.Slides cho Java từ trang web Aspose bằng cách truy cập[liên kết này](https://releases.aspose.com/slides/java/).
+Bạn có thể tải xuống thư viện Aspose.Slides cho Java từ trang web Aspose bằng cách truy cập[liên kết này](https://releases.aspose.com/slides/java/).
 
 ### Mục đích của việc kiểm tra định dạng trình bày là gì?
 

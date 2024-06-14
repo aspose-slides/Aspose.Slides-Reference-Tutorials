@@ -17,7 +17,7 @@ Im heutigen digitalen Zeitalter ist die Konvertierung von Präsentationen in HTM
 Bevor wir uns in den Code und den Konvertierungsprozess vertiefen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - Auf Ihrem System ist Java Development Kit (JDK) installiert.
-- Aspose.Slides für Java API, das Sie herunterladen können von[Hier](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides für Java API, das Sie herunterladen können von[Hier](https://releases.aspose.com/slides/java/).
 -  Eine Präsentationsdatei (z. B.`presentation.pptx`), das Sie in HTML konvertieren möchten.
 
 ## Schritt 1: Einrichten der Java-Umgebung
@@ -26,7 +26,7 @@ Stellen Sie sicher, dass Java und Aspose.Slides für Java API ordnungsgemäß au
 
 ## Schritt 2: Laden der Präsentationsdatei
 
- In Ihrem Java-Code müssen Sie die Präsentationsdatei laden, die Sie konvertieren möchten. Ersetzen Sie`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
+In Ihrem Java-Code müssen Sie die Präsentationsdatei laden, die Sie konvertieren möchten. Ersetzen Sie`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ Sie können den Quellcode der HTML-Datei überprüfen und nach Schriftartenverwe
 
 ### Kann ich die HTML-Ausgabe, beispielsweise hinsichtlich Stil und Layout, weiter anpassen?
 
- Ja, Sie können die HTML-Ausgabe anpassen, indem Sie die`HtmlOptions`und die zur Formatierung verwendete HTML-Vorlage. Aspose.Slides für Java bietet diesbezüglich Flexibilität.
+ Ja, Sie können die HTML-Ausgabe anpassen, indem Sie die`HtmlOptions` und die zur Formatierung verwendete HTML-Vorlage. Aspose.Slides für Java bietet diesbezüglich Flexibilität.
 
 ### Gibt es Einschränkungen beim Einbetten von Schriftarten in HTML?
 

@@ -70,7 +70,7 @@ dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 
 Végül mentse el a bemutatót a térképdiagrammal.
 
@@ -83,7 +83,7 @@ Ez az! Az Aspose.Slides for Java segítségével térképdiagramot hozott létre
 ## A Java Slides térképdiagramjának teljes forráskódja
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//üres diagram létrehozása
@@ -112,7 +112,7 @@ try {
 
 ## Következtetés
 
-Ebben az oktatóanyagban végigvezettük a térképdiagram létrehozásának folyamatát egy PowerPoint-prezentációban az Aspose.Slides for Java használatával. A térképdiagramok hatékony módszert jelentenek a földrajzi adatok megjelenítésére, így prezentációit vonzóbbá és informatívabbá teszi. Foglaljuk össze a legfontosabb lépéseket:
+Ebben az oktatóanyagban végigvezettük a térképdiagram létrehozásának folyamatát egy PowerPoint-prezentációban az Aspose.Slides for Java használatával. A térképdiagramok hatékony módszert jelentenek a földrajzi adatok megjelenítésére, így a prezentációk vonzóbbá és informatívabbak. Foglaljuk össze a legfontosabb lépéseket:
 
 ## GYIK
 

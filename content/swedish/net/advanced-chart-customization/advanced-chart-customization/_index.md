@@ -197,7 +197,7 @@ Denna kod konfigurerar utseendet på större rutnätslinjer på kategoriaxeln.
 I likhet med värdeaxeln kan du anpassa de mindre rutnätslinjerna för kategoriaxeln.
 
 ```csharp
-//Ställa in format för mindre rutnätslinjer för kategoriaxel
+// Ställa in format för mindre rutnätslinjer för kategoriaxel
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Ställa in färg för plottyta
+//Ställa in färg för plottyta
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

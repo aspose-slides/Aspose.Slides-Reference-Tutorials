@@ -19,7 +19,7 @@ Begin met het importeren van de benodigde pakketten in uw Java-project:
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Documentmap instellen
 Definieer het pad naar uw documentmap waar de PowerPoint-presentatie zich bevindt:

@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 Asegúrese de que el directorio especificado exista o créelo si no es así.
-## Paso 2: definir la ruta del archivo de salida
+## Paso 2: Definir la ruta del archivo de salida
 ```csharp
 string outPath = Path.Combine(dataDir, "AnimationAfterEffect-out.pptx");
 ```

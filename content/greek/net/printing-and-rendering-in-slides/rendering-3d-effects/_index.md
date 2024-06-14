@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation())
     // Ο κωδικός σας πηγαίνει εδώ
 }
 ```
-## Βήμα 3: Προσθήκη 3D AutoShape
+## Βήμα 3: Προσθέστε 3D AutoShape
 Δημιουργήστε ένα τρισδιάστατο αυτόματο σχήμα στη διαφάνεια:
 ```csharp
 IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
@@ -74,6 +74,6 @@ pres.Slides[0].GetThumbnail(2, 2).Save(outPngFile, ImageFormat.Png);
 ### Πού μπορώ να βρω περισσότερα μαθήματα και παραδείγματα;
  Εξερευνήστε την τεκμηρίωση Aspose.Slides[εδώ](https://reference.aspose.com/slides/net/) για ολοκληρωμένα σεμινάρια και παραδείγματα.
 ### Υπάρχει δωρεάν δοκιμή διαθέσιμη;
- Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Slides[εδώ](https://releases.aspose.com/).
+Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Slides[εδώ](https://releases.aspose.com/).
 ### Πώς μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα;
  Επισκεφθείτε το φόρουμ Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και βοήθεια.

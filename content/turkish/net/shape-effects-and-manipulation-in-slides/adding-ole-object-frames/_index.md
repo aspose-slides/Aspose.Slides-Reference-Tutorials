@@ -67,7 +67,7 @@ IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSi
 ```
 ## Adım 5: Sunuyu Kaydetme
 ```csharp
-// PPTX'i diske yazın
+// PPTX'i diske yaz
 pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ```
 Artık Aspose.Slides for .NET'i kullanarak sunum slaydınıza başarıyla bir OLE Nesne Çerçevesi eklediniz.
@@ -83,4 +83,4 @@ C: Evet, Aspose.Slides, PPTX dahil en yeni PowerPoint dosya formatlarını deste
 ### S: Katıştırılmış OLE Nesne Çerçevesinin görünümünü özelleştirebilir miyim?
 C: Kesinlikle OLE Nesne Çerçevesinin boyutunu, konumunu ve diğer özelliklerini tercihlerinize göre ayarlayabilirsiniz.
 ### S: Uygulama sırasında zorluklarla karşılaşırsam nereden yardım alabilirim?
-C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve rehberlik için.
+ C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve rehberlik için.

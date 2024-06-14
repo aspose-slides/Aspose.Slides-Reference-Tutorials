@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Stap 2: Voeg een dia toe en maak het spreidingsdiagram
 
- Voeg vervolgens een dia toe en maak er het spreidingsdiagram op. Wij gebruiken de`ScatterWithSmoothLines` grafiektype in dit voorbeeld.
+ Voeg vervolgens een dia toe en maak er het spreidingsdiagram op. Wij gebruiken de`ScatterWithSmoothLines`grafiektype in dit voorbeeld.
 
 ```java
 // Haal de eerste dia
@@ -66,7 +66,7 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
 
-// Neem de eerste kaartenreeks
+// Neem de eerste kaartenserie
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
 // Voeg gegevenspunten toe aan de eerste reeks
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Het standaarddiagram maken
+//Het standaarddiagram maken
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // De standaard werkbladindex voor diagramgegevens ophalen
 int defaultWorksheetIndex = 0;
@@ -134,7 +134,7 @@ series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 // De kaartreeksmarkering wijzigen
 series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Star);
-// Neem de tweede kaartenserie
+// Neem de tweede kaartenreeks
 series = chart.getChartData().getSeries().get_Item(1);
 // Voeg daar een nieuw punt (5:2) toe.
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 5), fact.getCell(defaultWorksheetIndex, 2, 4, 2));
@@ -158,7 +158,7 @@ In deze zelfstudie hebben we u door het proces geleid van het maken van een spre
 
 ### Hoe kan ik het diagramtype wijzigen?
 
- Om het diagramtype te wijzigen, gebruikt u de`setType`methode voor de kaartserie en geef het gewenste kaarttype op. Bijvoorbeeld,`series.setType(ChartType.Line)` zou de reeks veranderen in een lijndiagram.
+ Om het diagramtype te wijzigen, gebruikt u de`setType` methode voor de kaartserie en geef het gewenste kaarttype op. Bijvoorbeeld,`series.setType(ChartType.Line)` zou de reeks veranderen in een lijndiagram.
 
 ### Hoe pas ik de grootte en stijl van de marker aan?
 

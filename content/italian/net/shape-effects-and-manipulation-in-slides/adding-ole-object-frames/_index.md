@@ -83,4 +83,4 @@ R: Sì, Aspose.Slides supporta gli ultimi formati di file PowerPoint, incluso PP
 ### D: Posso personalizzare l'aspetto del frame dell'oggetto OLE incorporato?
 R: Assolutamente, puoi regolare la dimensione, la posizione e altre proprietà del frame dell'oggetto OLE in base alle tue preferenze.
 ### D: Dove posso chiedere assistenza se incontro difficoltà durante l'implementazione?
-R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e l’orientamento della comunità.
+ R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e l’orientamento della comunità.

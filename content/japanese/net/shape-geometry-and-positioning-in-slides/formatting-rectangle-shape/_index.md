@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## ステップ2: プレゼンテーションオブジェクトを作成する
-インスタンス化する`Presentation`PPTX ファイルを表すクラス。これが PowerPoint プレゼンテーションの基礎となります。
+インスタンス化する`Presentation` PPTX ファイルを表すクラス。これが PowerPoint プレゼンテーションの基礎となります。
 ```csharp
 using (Presentation pres = new Presentation())
 {

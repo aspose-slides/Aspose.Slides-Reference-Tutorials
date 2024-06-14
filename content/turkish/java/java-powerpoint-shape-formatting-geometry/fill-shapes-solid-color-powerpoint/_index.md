@@ -20,11 +20,11 @@ Kodun ayrıntılarına girmeden önce yerine getirmeniz gereken birkaç önkoşu
 Aspose.Slides for Java'yı kullanmaya başlamak için gerekli paketleri içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 1. Adım: Projenizi Kurun
- Öncelikle Java projenizi kurmanız ve Aspose.Slides for Java'yı proje bağımlılıklarınıza dahil etmeniz gerekir. Maven kullanıyorsanız aşağıdaki bağımlılığı ekleyin:`pom.xml` dosya:
+ Öncelikle Java projenizi kurmanız ve Aspose.Slides for Java'yı proje bağımlılıklarınıza dahil etmeniz gerekir. Maven kullanıyorsanız aşağıdaki bağımlılığı ekleyin.`pom.xml` dosya:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,13 +56,13 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## Adım 5: Doldurma Türünü Katı Olarak Ayarlayın
  Şekli düz bir renkle doldurmak için dolgu türünü şu şekilde ayarlayın:`Solid`.
 ```java
-//Doldurma türünü Katı olarak ayarlayın
+// Doldurma türünü Katı olarak ayarlayın
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## Adım 6: Rengi Seçin ve Uygulayın
 Şekil için bir renk seçin. Burada sarı kullanıyoruz ama siz istediğiniz rengi seçebilirsiniz.
 ```java
-// Dikdörtgenin rengini ayarlayın
+//Dikdörtgenin rengini ayarlayın
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
 ## Adım 7: Sunuyu Kaydet
@@ -84,4 +84,4 @@ Evet, Aspose.Slides for Java, mevcut PowerPoint sunumlarını açmanıza, düzen
 ### Aspose.Slides for Java'nın ücretsiz deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Web sitesi](https://releases.aspose.com/).
 ### Daha fazla belge ve desteği nerede bulabilirim?
- Ayrıntılı belgeler şu adreste mevcuttur:[Web sitesi](https://reference.aspose.com/slides/java/) ve şu adresten destek arayabilirsiniz:[forumlar](https://forum.aspose.com/c/slides/11).
+ Ayrıntılı belgeler şu adreste mevcuttur:[Web sitesi](https://reference.aspose.com/slides/java/)ve şu adresten destek arayabilirsiniz:[forumlar](https://forum.aspose.com/c/slides/11).

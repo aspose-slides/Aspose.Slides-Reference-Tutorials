@@ -2,7 +2,7 @@
 title: Manipulation des diapositives Notes à l'aide d'Aspose.Slides
 linktitle: Manipulation des diapositives Notes à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
-description: Découvrez comment gérer l'en-tête et le pied de page dans les diapositives PowerPoint avec Aspose.Slides pour .NET. Supprimez des notes et personnalisez vos présentations sans effort.
+description: Découvrez comment gérer l'en-tête et le pied de page des diapositives PowerPoint avec Aspose.Slides for .NET. Supprimez des notes et personnalisez vos présentations sans effort.
 type: docs
 weight: 10
 url: /fr/net/notes-slide-manipulation/notes-slide-manipulation/

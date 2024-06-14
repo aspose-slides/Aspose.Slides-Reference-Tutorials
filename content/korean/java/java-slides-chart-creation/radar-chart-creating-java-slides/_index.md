@@ -12,7 +12,7 @@ url: /ko/java/chart-creation/radar-chart-creating-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 방사형 차트를 만드는 과정을 안내합니다. 방사형 차트는 데이터를 원형 패턴으로 시각화하는 데 유용하므로 여러 데이터 계열을 더 쉽게 비교할 수 있습니다. Java 소스 코드와 함께 단계별 지침을 제공합니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Aspose.Slides for Java 라이브러리가 프로젝트에 통합되어 있는지 확인하세요. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -21,7 +21,7 @@ url: /ko/java/chart-creation/radar-chart-creating-java-slides/
 먼저 새 PowerPoint 프레젠테이션을 설정하고 여기에 슬라이드를 추가해 보겠습니다.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Java 슬라이드에서 방사형 차트 생성을 위한 완전한 소스 코드
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// 새로운 시리즈 추가
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//이제 계열 데이터를 채우는 중입니다.
+	// 이제 계열 데이터를 채우는 중입니다.
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// 시리즈 색상 설정
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// 이제 다른 계열 데이터를 채우는 중입니다.
+	//이제 다른 계열 데이터를 채우는 중입니다.
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### 차트를 다른 파일 형식으로 저장하려면 어떻게 해야 합니까?
 
- 파일 확장자를 수정하여 출력 형식을 변경할 수 있습니다.`outPath` 변수를 사용하고 적절한`SaveFormat` . 예를 들어 PDF로 저장하려면 다음을 사용하세요.`SaveFormat.Pdf`.
+파일 확장자를 수정하여 출력 형식을 변경할 수 있습니다.`outPath` 변수를 사용하고 적절한`SaveFormat` . 예를 들어 PDF로 저장하려면 다음을 사용하세요.`SaveFormat.Pdf`.

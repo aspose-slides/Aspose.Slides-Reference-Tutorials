@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Ο κωδικός σας για την τροποποίηση φόντου της διαφάνειας θα πάει εδώ.
     // Θα το εξερευνήσουμε στα επόμενα βήματα.
     
-    // Αποθηκεύστε την τροποποιημένη παρουσίαση
+    //Αποθηκεύστε την τροποποιημένη παρουσίαση
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ## Βήμα 6: Αποθηκεύστε την Τροποποιημένη Παρουσίαση
 
 ```csharp
-// Αποθηκεύστε την τροποποιημένη παρουσίαση
+//Αποθηκεύστε την τροποποιημένη παρουσίαση
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

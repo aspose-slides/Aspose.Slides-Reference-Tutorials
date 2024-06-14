@@ -9,7 +9,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
 ## 소개
 프레젠테이션 슬라이드의 시각적 매력을 향상시키고 콘텐츠를 보다 효율적으로 구성하려는 경우 그룹 셰이프를 통합하는 것이 강력한 솔루션입니다. .NET용 Aspose.Slides는 PowerPoint 프레젠테이션에서 그룹 모양을 만들고 조작하는 원활한 방법을 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 그룹 모양을 만드는 과정을 따라하기 쉬운 단계로 나누어 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 -  .NET용 Aspose.Slides: Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/slides/net/).
 - 개발 환경: Visual Studio와 같은 .NET 호환 IDE를 사용하여 작업 환경을 설정합니다.

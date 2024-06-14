@@ -2,7 +2,7 @@
 title: Java Slides licencelés és inicializálás
 linktitle: Java Slides licencelés és inicializálás
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Fedezze fel, hogyan licencelheti és inicializálhatja hatékonyan az Aspose.Slides for Java programot átfogó oktatóanyagainkban. Kezdje el a Java Slides használatát most!
+description: Fedezze fel, hogyan licencelheti és inicializálhatja hatékonyan az Aspose.Slides for Java programot átfogó oktatóanyagainkból. Kezdje el a Java Slides használatát most!
 type: docs
 weight: 10
 url: /hu/java/licensing-and-initialization/
@@ -14,7 +14,7 @@ Java Slides világában a licencelés és az inicializálás a döntő első lé
 
 Az Aspose.Slides for Java licencelése az első és legfontosabb lépés, mielőtt belemerülne a dinamikus diakészítés világába. Érvényes licenc nélkül nem fogja tudni kihasználni ebben a hihetetlen könyvtárban rejlő lehetőségeket. A következőképpen teheti meg:
 
-1.  Licenc beszerzése: Látogassa meg a[Aspose vásárlási oldal](https://purchase.aspose.com/buy) érvényes engedély megszerzéséhez. Különféle licencelési lehetőségek közül választhat az igényeinek megfelelően, beleértve az ideiglenes licenceket a rövid távú projektekhez.
+1.  Licenc beszerzése: Látogassa meg a[Aspose vásárlási oldal](https://purchase.aspose.com/buy) érvényes engedély megszerzéséhez. Különféle licencelési lehetőségek közül választhat az igényeinek megfelelően, beleértve az ideiglenes licenceket rövid távú projektekhez.
 
 2. Licenc inicializálása: Miután megszerezte a licencet, inicializálnia kell azt a Java alkalmazásban. Ez a lépés elengedhetetlen annak biztosításához, hogy az alkalmazás felismerje a licencet és megfelelően működjön.
 

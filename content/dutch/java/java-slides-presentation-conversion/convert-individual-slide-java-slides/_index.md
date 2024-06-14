@@ -10,7 +10,7 @@ url: /nl/java/presentation-conversion/convert-individual-slide-java-slides/
 
 ## Inleiding tot het converteren van individuele dia's in Java-dia's
 
-In deze zelfstudie doorlopen we het proces van het converteren van afzonderlijke dia's van een PowerPoint-presentatie naar HTML met behulp van Aspose.Slides voor Java. Deze stapsgewijze handleiding biedt u broncode en uitleg om u te helpen deze taak te volbrengen.
+In deze zelfstudie doorlopen we het proces van het converteren van afzonderlijke dia's van een PowerPoint-presentatie naar HTML met behulp van Aspose.Slides voor Java. Deze stapsgewijze handleiding biedt u de broncode en uitleg om u te helpen deze taak te volbrengen.
 
 ## Vereisten
 
@@ -155,7 +155,7 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## Conclusie
 
-U hebt met succes afzonderlijke dia's van een PowerPoint-presentatie naar HTML geconverteerd met Aspose.Slides voor Java. Deze tutorial heeft u voorzien van de benodigde code en stappen om deze taak te volbrengen. U kunt de uitvoer en opmaak naar wens aanpassen aan uw specifieke vereisten.
+hebt met succes afzonderlijke dia's van een PowerPoint-presentatie naar HTML geconverteerd met Aspose.Slides voor Java. Deze tutorial heeft u voorzien van de benodigde code en stappen om deze taak te volbrengen. U kunt de uitvoer en opmaak naar wens aanpassen aan uw specifieke vereisten.
 
 ## Veelgestelde vragen
 
@@ -169,4 +169,4 @@ U hebt met succes afzonderlijke dia's van een PowerPoint-presentatie naar HTML g
 
 ### Hoe ga ik om met extra opmaak voor vormen en tekst in dia's?
 
-Je kunt de`CustomFormattingController` klasse om vormspecifieke opmaak af te handelen door het implementeren van de`writeShapeStart` En`writeShapeEnd` methoden en het toepassen van aangepaste opmaaklogica daarin.
+ Je kunt de`CustomFormattingController` klasse om vormspecifieke opmaak af te handelen door het implementeren van de`writeShapeStart` En`writeShapeEnd` methoden en het toepassen van aangepaste opmaaklogica daarin.

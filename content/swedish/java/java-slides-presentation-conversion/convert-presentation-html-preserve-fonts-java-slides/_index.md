@@ -10,7 +10,7 @@ url: /sv/java/presentation-conversion/convert-presentation-html-preserve-fonts-j
 
 ## Introduktion till att konvertera presentation till HTML med att bevara originalteckensnitt i Java Slides
 
-den här handledningen kommer vi att utforska hur man konverterar en PowerPoint-presentation (PPTX) till HTML samtidigt som de ursprungliga typsnitten bevaras med Aspose.Slides för Java. Detta kommer att säkerställa att den resulterande HTML-koden liknar utseendet på den ursprungliga presentationen.
+I den här handledningen kommer vi att utforska hur man konverterar en PowerPoint-presentation (PPTX) till HTML samtidigt som de ursprungliga typsnitten bevaras med Aspose.Slides för Java. Detta kommer att säkerställa att den resulterande HTML-koden liknar utseendet på den ursprungliga presentationen.
 
 ## Steg 1: Konfigurera projektet
 Innan vi dyker in i koden, låt oss se till att du har de nödvändiga inställningarna på plats:
@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Uteslut standardpresentationstypsnitt som Calibri och Arial
+    // Uteslut standardpresentationstypsnitt som Calibri och Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ I detta kodavsnitt:
 
 -  Vi laddar ingången PowerPoint-presentation med hjälp av`Presentation`.
 
-- Vi definierar en lista med teckensnitt (`fontNameExcludeList`) som vi vill utesluta från inbäddning i HTML. Detta är användbart för att utesluta vanliga typsnitt som Calibri och Arial för att minska filstorleken.
+- Vi definierar en lista med teckensnitt (`fontNameExcludeList`som vi vill utesluta från inbäddning i HTML. Detta är användbart för att utesluta vanliga typsnitt som Calibri och Arial för att minska filstorleken.
 
 -  Vi skapar en instans av`EmbedAllFontsHtmlController` och skicka listan över teckensnittsuteslutningar till den.
 
@@ -98,7 +98,7 @@ I den här handledningen har du lärt dig hur du konverterar en PowerPoint-prese
 
 ### Hur laddar jag ner Aspose.Slides för Java?
 
-Du kan ladda ner Aspose.Slides för Java från Asposes webbplats. Besök[här](https://downloads.aspose.com/slides/java/) för att få den senaste versionen.
+ Du kan ladda ner Aspose.Slides för Java från Asposes webbplats. Besök[här](https://downloads.aspose.com/slides/java/) för att få den senaste versionen.
 
 ### Kan jag anpassa listan över uteslutna typsnitt?
 

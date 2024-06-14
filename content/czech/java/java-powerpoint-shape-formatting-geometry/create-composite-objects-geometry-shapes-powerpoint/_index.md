@@ -19,12 +19,12 @@ Než se pustíme do kódu, budete potřebovat několik věcí:
 Nejprve naimportujte potřebné balíčky, abyste mohli začít s Aspose.Slides for Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Vytváření složených objektů může znít složitě, ale když je rozdělíte do zvládnutelných kroků, zjistíte, že je to jednodušší, než si myslíte. Vytvoříme prezentaci v PowerPointu, přidáme tvar a poté definujeme a použijeme více geometrických cest k vytvoření složeného tvaru.
 ## Krok 1: Nastavte svůj projekt
-Než napíšete jakýkoli kód, nastavte svůj projekt Java. Vytvořte nový projekt ve svém IDE a zahrňte Aspose.Slides for Java. Knihovnu můžete přidat pomocí Maven nebo si stáhnout soubor JAR z[Stránka ke stažení Aspose.Slides](https://releases.aspose.com/slides/java/).
+ Než napíšete jakýkoli kód, nastavte svůj projekt Java. Vytvořte nový projekt ve svém IDE a zahrňte Aspose.Slides for Java. Knihovnu můžete přidat pomocí Maven nebo si stáhnout soubor JAR z[Stránka ke stažení Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### Přidání Aspose.Slides do vašeho projektu pomocí Maven
  Pokud používáte Maven, přidejte do své závislosti následující závislost`pom.xml` soubor:
 ```xml
@@ -35,10 +35,10 @@ Než napíšete jakýkoli kód, nastavte svůj projekt Java. Vytvořte nový pro
 </dependency>
 ```
 ## Krok 2: Inicializujte prezentaci
- Nyní vytvoříme novou PowerPoint prezentaci. Začneme inicializací`Presentation` třída.
+Nyní vytvoříme novou PowerPoint prezentaci. Začneme inicializací`Presentation` třída.
 ```java
 // Název výstupního souboru
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Krok 3: Vytvořte nový tvar
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Krok 7: Uložte prezentaci
 Nakonec prezentaci uložte do souboru.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Krok 8: Vyčistěte zdroje

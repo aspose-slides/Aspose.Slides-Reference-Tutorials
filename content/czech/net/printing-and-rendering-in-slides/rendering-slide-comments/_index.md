@@ -74,7 +74,7 @@ System.Diagnostics.Process.Start(resultPath);
 ```
 Gratulujeme! Úspěšně jste vykreslili komentáře snímků pomocí Aspose.Slides for .NET.
 ## Závěr
-tomto tutoriálu jsme prozkoumali proces vykreslování komentářů ke snímkům pomocí Aspose.Slides pro .NET. Pokud budete postupovat podle podrobného průvodce, můžete snadno vylepšit své možnosti automatizace aplikace PowerPoint.
+V tomto tutoriálu jsme prozkoumali proces vykreslování komentářů ke snímkům pomocí Aspose.Slides pro .NET. Pokud budete postupovat podle podrobného průvodce, můžete snadno vylepšit své možnosti automatizace aplikace PowerPoint.
 ## Často kladené otázky
 ### Otázka: Je Aspose.Slides kompatibilní s nejnovějšími verzemi rozhraní .NET?
 Odpověď: Ano, Aspose.Slides je pravidelně aktualizován, aby podporoval nejnovější verze rámce .NET.
@@ -85,4 +85,4 @@ A: Rozhodně! Kurz obsahuje možnosti přizpůsobení barvy, šířky a polohy o
 ### Otázka: Jak získám dočasnou licenci pro Aspose.Slides?
  Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu hledat pomoc a podporu pro Aspose.Slides?
-A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity.
+ A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity.

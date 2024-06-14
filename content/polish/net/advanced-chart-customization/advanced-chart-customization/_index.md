@@ -197,7 +197,7 @@ Ten kod konfiguruje wygląd głównych linii siatki na osi kategorii.
 Podobnie jak w przypadku osi wartości, można dostosować mniejsze linie siatki dla osi kategorii.
 
 ```csharp
-//Ustawianie formatu mniejszych linii siatki dla osi kategorii
+// Ustawianie formatu mniejszych linii siatki dla osi kategorii
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Ustawianie koloru obszaru działki
+//Ustawianie koloru obszaru działki
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

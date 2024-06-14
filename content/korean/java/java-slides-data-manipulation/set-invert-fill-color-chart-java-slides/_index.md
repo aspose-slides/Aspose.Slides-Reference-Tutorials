@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트의 반전 채우기 색상을 설정하는 방법을 보여줍니다. 채우기 색상 반전은 차트에서 특정 색상으로 음수 값을 강조 표시하려는 경우 유용한 기능입니다. 이를 달성하기 위한 단계별 지침과 소스 코드를 제공할 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

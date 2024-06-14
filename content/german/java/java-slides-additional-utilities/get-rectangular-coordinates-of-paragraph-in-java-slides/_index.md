@@ -14,7 +14,7 @@ In diesem Tutorial zeigen wir, wie Sie die rechteckigen Koordinaten eines Absatz
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie die Bibliothek Aspose.Slides für Java in Ihrer Java-Entwicklungsumgebung installiert und eingerichtet haben. Sie können sie hier herunterladen:[Hier](https://downloads.aspose.com/slides/java).
+ Bevor wir beginnen, stellen Sie sicher, dass Sie die Bibliothek Aspose.Slides für Java in Ihrer Java-Entwicklungsumgebung installiert und eingerichtet haben. Sie können sie hier herunterladen:[Hier](https://downloads.aspose.com/slides/java).
 
 ## Schritt 1: Importieren Sie die erforderlichen Bibliotheken
 
@@ -107,7 +107,7 @@ Ja, Aspose.Slides für Java eignet sich gut für die Stapelverarbeitung von Powe
 
 ### Wo finde ich weitere Beispiele und Dokumentation?
 
- Weitere Codebeispiele und eine ausführliche Dokumentation für Aspose.Slides für Java finden Sie auf der[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/java/)Website. Darüber hinaus können Sie die[Aspose.Slides-Foren](https://forum.aspose.com/c/slides) für Community-Unterstützung und Diskussionen.
+ Weitere Codebeispiele und eine ausführliche Dokumentation für Aspose.Slides für Java finden Sie auf der[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/java/) Website. Darüber hinaus können Sie die[Aspose.Slides-Foren](https://forum.aspose.com/c/slides) für Community-Unterstützung und Diskussionen.
 
 ### Benötige ich eine Lizenz, um Aspose.Slides für Java zu verwenden?
 

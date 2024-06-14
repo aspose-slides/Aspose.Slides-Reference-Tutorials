@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Anda dapat menyesuaikan opsi PDF lainnya sesuai kebutuhan Anda.
 
 ## Langkah 4: Simpan Presentasi sebagai PDF dengan Catatan
-Terakhir, mari simpan presentasi sebagai file PDF, termasuk catatannya. Anda dapat menentukan nama file keluaran (misalnya,`"Pdf_Notes_out.pdf"`) dan pilih formatnya (`SaveFormat.Pdf`). Berikut kode untuk melakukan itu:
+ Terakhir, mari simpan presentasi sebagai file PDF, termasuk catatannya. Anda dapat menentukan nama file keluaran (misalnya,`"Pdf_Notes_out.pdf"`) dan pilih formatnya (`SaveFormat.Pdf`). Berikut kode untuk melakukan itu:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Bisakah saya menyesuaikan ekspor PDF lebih lanjut?
 
-Ya, Anda dapat menyesuaikan ekspor PDF dengan menyesuaikan berbagai opsi di`PdfOptions` obyek. Misalnya, Anda dapat mengatur kualitas, kompresi, dan parameter lainnya sesuai kebutuhan Anda.
+ Ya, Anda dapat menyesuaikan ekspor PDF dengan menyesuaikan berbagai opsi di`PdfOptions` obyek. Misalnya, Anda dapat mengatur kualitas, kompresi, dan parameter lainnya sesuai kebutuhan Anda.
 
 ### Bagaimana saya bisa mendapatkan Aspose.Slides untuk Java?
 

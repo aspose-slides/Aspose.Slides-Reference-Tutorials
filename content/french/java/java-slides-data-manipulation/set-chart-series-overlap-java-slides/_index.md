@@ -10,7 +10,7 @@ url: /fr/java/data-manipulation/set-chart-series-overlap-java-slides/
 
 ## Introduction à la définition du chevauchement des séries de graphiques dans les diapositives Java
 
-Dans ce guide complet, nous plongerons dans le monde fascinant de la manipulation du chevauchement des séries de graphiques dans Java Slides à l'aide de la puissante API Aspose.Slides pour Java. Que vous soyez un développeur chevronné ou un débutant, ce tutoriel étape par étape vous fournira les connaissances et le code source dont vous avez besoin pour maîtriser cette tâche essentielle.
+Dans ce guide complet, nous plongerons dans le monde fascinant de la manipulation du chevauchement des séries de graphiques dans Java Slides à l'aide de la puissante API Aspose.Slides pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, ce tutoriel étape par étape vous fournira les connaissances et le code source dont vous avez besoin pour maîtriser cette tâche essentielle.
 
 ## Conditions préalables
 

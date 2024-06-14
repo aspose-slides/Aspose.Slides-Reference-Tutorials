@@ -32,6 +32,6 @@ Aprenda a crear presentaciones dinámicas con animaciones y formatos de gráfico
 ### [Animar elementos de categorías en el gráfico](./animating-categories-elements/)
 Aprenda a agregar animaciones cautivadoras a elementos de categorías de gráficos usando Aspose.Slides para .NET. Mejore sus presentaciones con imágenes dinámicas.
 ### [Serie animada en gráfico](./animating-series/)
-Aprenda a animar series de gráficos usando Aspose.Slides para .NET. Cree presentaciones dinámicas con visualizaciones de datos atractivas.
+Aprenda a animar series de gráficos utilizando Aspose.Slides para .NET. Cree presentaciones dinámicas con visualizaciones de datos atractivas.
 ### [Animar elementos de la serie en el gráfico](./animating-series-elements/)
 Aprenda a animar series de gráficos usando Aspose.Slides para .NET. Cree presentaciones atractivas con imágenes dinámicas. Guía de expertos con ejemplos de código.

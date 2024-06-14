@@ -83,4 +83,4 @@ Odp.: Tak, Aspose.Slides obsługuje najnowsze formaty plików PowerPoint, w tym 
 ### P: Czy mogę dostosować wygląd osadzonej ramki obiektu OLE?
 O: Oczywiście możesz dostosować rozmiar, położenie i inne właściwości ramki obiektu OLE zgodnie ze swoimi preferencjami.
 ### P: Gdzie mogę szukać pomocy, jeśli napotkam wyzwania podczas wdrażania?
-O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) o wsparcie i wskazówki społeczności.
+ O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) o wsparcie i wskazówki społeczności.

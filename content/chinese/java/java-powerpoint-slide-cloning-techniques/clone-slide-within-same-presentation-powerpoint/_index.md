@@ -22,7 +22,7 @@ url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## 步骤 1：设置你的项目

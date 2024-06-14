@@ -12,7 +12,7 @@ url: /ko/java/customization-and-formatting/setting-rotation-angle-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java 라이브러리를 사용하여 차트 축 제목의 텍스트 회전 각도를 설정하는 방법을 살펴보겠습니다. 회전 각도를 조정하면 프레젠테이션 요구 사항에 더 적합하도록 차트 축 제목의 모양을 사용자 지정할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. Aspose 웹사이트에서 라이브러리를 다운로드하고 해당 문서에 제공된 설치 지침을 따를 수 있습니다.
 
@@ -60,7 +60,7 @@ finally
 }
 ```
 
-## Java 슬라이드에서 회전 각도를 설정하기 위한 완전한 소스 코드
+## Java 슬라이드에서 회전 각도를 설정하기 위한 전체 소스 코드
 
 ```java
 // 문서 디렉터리의 경로입니다.

@@ -43,7 +43,7 @@ string outPptxFile = "Output Path";
 
 ## Krok 3: Vytvořte prezentační třídu
 
- Budete chtít vytvořit instanci`Presentation` třídy reprezentující váš soubor prezentace. Nahradit`"SetBackgroundToGradient.pptx"` s cestou k souboru vstupní prezentace.
+ Budete chtít vytvořit instanci`Presentation` třídy reprezentující váš prezentační soubor. Nahradit`"SetBackgroundToGradient.pptx"` s cestou k souboru vstupní prezentace.
 
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "SetBackgroundToGradient.pptx"))

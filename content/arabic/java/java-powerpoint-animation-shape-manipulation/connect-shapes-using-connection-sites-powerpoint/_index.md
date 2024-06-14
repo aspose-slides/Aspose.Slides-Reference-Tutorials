@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: الوصول إلى مجموعة الأشكال
 الوصول إلى مجموعة الأشكال للشريحة المحددة:

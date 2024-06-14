@@ -10,7 +10,7 @@ url: /hu/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 
 ## Bevezetés a PowerPoint PDF formátumba konvertálásához Java folyamatfrissítésekkel az Aspose.Slides for Java használatával
 
-Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan konvertálhat PowerPoint-prezentációt (PPTX) PDF-fájllá Java nyelven az Aspose.Slides for Java segítségével. Ezenkívül az átalakítási folyamat során az előrehaladásról szóló frissítéseket is tartalmazni fogjuk.
+Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan konvertálhat PowerPoint prezentációt (PPTX) PDF-fájllá Java nyelven az Aspose.Slides for Java segítségével. Ezenkívül az átalakítási folyamat során az előrehaladásról szóló frissítéseket is tartalmazni fogjuk.
 
 ## Előfeltételek
 
@@ -29,7 +29,7 @@ import com.aspose.slides.*;
 
 ## 2. lépés: Hozzon létre egy Java osztályt
 
-Hozzon létre egy Java osztályt, ahol végrehajtja a PowerPoint PDF konvertálását. Nevezzük el`PowerPointToPdfConverter`.
+ Hozzon létre egy Java osztályt, ahol végrehajtja a PowerPoint PDF konvertálását. Nevezzük el`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -68,7 +68,7 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## 5. lépés: Fordítás és futtatás
 
- Fordítsa le a Java osztályt, és futtassa a`PowerPointToPdfConverter` osztály. A PowerPoint prezentációt PDF-fájllá konvertálja, miközben frissítéseket biztosít a konzolon.
+Fordítsa le a Java osztályt, és futtassa a`PowerPointToPdfConverter` osztály. A PowerPoint prezentációt PDF-fájllá konvertálja, miközben frissítéseket biztosít a konzolon.
 
 ## Teljes forráskód PDF formátumba konvertálásához a Java Slides folyamatfrissítésével
 
@@ -117,4 +117,4 @@ Igen, az Aspose.Slides for Java kiterjedt funkcionalitást biztosít a PowerPoin
 
 ### Hogyan szabhatom testre a PDF-konverziós beállításokat?
 
- A PDF-konverziós beállításokat személyre szabhatja a`PdfOptions` objektumot, mielőtt felhívná a`presentation.save`módszer. Ez magában foglalja az olyan tulajdonságok beállítását, mint az oldalméret, a minőség és egyebek.
+ A PDF-konverziós beállításokat személyre szabhatja a`PdfOptions` objektumot a`presentation.save` módszer. Ez magában foglalja az olyan tulajdonságok beállítását, mint az oldalméret, a minőség és egyebek.

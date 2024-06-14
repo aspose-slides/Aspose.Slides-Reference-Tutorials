@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-sha
 ก่อนอื่น คุณต้องนำเข้าแพ็คเกจที่จำเป็นจาก Aspose.Slides ซึ่งจะช่วยให้คุณสามารถเข้าถึงฟังก์ชันทั้งหมดที่จำเป็นสำหรับการสร้างและจัดการงานนำเสนอ PowerPoint
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 เรามาแจกแจงขั้นตอนการเพิ่มส่วนต่างๆ ให้กับรูปทรงเรขาคณิตเป็นขั้นตอนโดยละเอียดเพื่อให้แน่ใจว่ามีความชัดเจนและง่ายต่อการเข้าใจ
 ## ขั้นตอนที่ 1: สร้างงานนำเสนอใหม่

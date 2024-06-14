@@ -9,16 +9,16 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoi
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 모양을 복제하는 방법을 살펴보겠습니다. 모양 복제를 사용하면 프레젠테이션 내에서 기존 모양을 복제할 수 있습니다. 이는 일관된 레이아웃을 만들거나 슬라이드 전체에서 요소를 반복하는 데 특히 유용할 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 1.  JDK(Java Development Kit): 시스템에 Java Development Kit가 설치되어 있는지 확인하십시오. 최신 버전을 다운로드하여 설치할 수 있습니다.[웹사이트](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리를 다운로드하여 Java 프로젝트에 포함하세요. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리를 다운로드하여 Java 프로젝트에 포함하세요. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/slides/java/).
 
 ## 패키지 가져오기
 시작하려면 필요한 패키지를 Java 프로젝트로 가져와야 합니다. 이 패키지는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션 작업에 필요한 기능을 제공합니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 프레젠테이션 로드
  먼저 복제하려는 모양이 포함된 PowerPoint 프레젠테이션을 로드해야 합니다. 사용`Presentation` 소스 프레젠테이션을 로드하는 클래스입니다.

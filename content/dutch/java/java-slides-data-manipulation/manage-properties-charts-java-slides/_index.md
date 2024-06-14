@@ -1,6 +1,6 @@
 ---
-title: Beheer eigenschappengrafieken in Java-dia's
-linktitle: Beheer eigenschappengrafieken in Java-dia's
+title: Beheer eigenschappendiagrammen in Java-dia's
+linktitle: Beheer eigenschappendiagrammen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer verbluffende grafieken maken en eigenschappen beheren in Java-dia's met Aspose.Slides. Stap-voor-stap handleiding met broncode voor krachtige presentaties.
 type: docs
@@ -14,7 +14,7 @@ In deze zelfstudie onderzoeken we hoe u eigenschappen kunt beheren en grafieken 
 
 ## Vereisten
 
- Voordat we beginnen, moet u ervoor zorgen dat de Aspose.Slides-bibliotheek voor Java in uw project is geïnstalleerd en ingesteld. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+Voordat we beginnen, moet u ervoor zorgen dat de Aspose.Slides-bibliotheek voor Java in uw project is geïnstalleerd en ingesteld. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
 
 ## Een diagram aan een dia toevoegen
 
@@ -84,7 +84,7 @@ Laten we nu de 3D-rotatie-eigenschappen voor het diagram instellen:
 chart.getRotation3D().setRightAngleAxes(true);
 ```
 
-9. Stel de rotatiehoeken voor de X- en Y-assen in. In dit voorbeeld draaien we X 40 graden en Y 270 graden.
+9. Stel de rotatiehoeken voor de X- en Y-assen in. In dit voorbeeld roteren we X met 40 graden en Y met 270 graden.
 
 ```java
 chart.getRotation3D().setRotationX((byte) 40);
@@ -158,9 +158,9 @@ chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
-// Neem de tweede kaartenserie
+// Neem de tweede kaartenreeks
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Vult nu seriegegevens in
+// Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ In deze zelfstudie hebben we ons verdiept in de wereld van het beheren van eigen
 
 ### Hoe kan ik het diagramtype wijzigen?
 
- U kunt het diagramtype wijzigen door het`ChartType`parameter bij het toevoegen van het diagram. Raadpleeg de Aspose.Slides-documentatie voor beschikbare diagramtypen.
+ U kunt het diagramtype wijzigen door het`ChartType` parameter bij het toevoegen van het diagram. Raadpleeg de Aspose.Slides-documentatie voor beschikbare diagramtypen.
 
 ### Kan ik de grafiekkleuren aanpassen?
 
@@ -197,4 +197,4 @@ Ja, u kunt de diagramkleuren aanpassen door de vuleigenschappen van reeksgegeven
 
 ### Welke andere 3D-eigenschappen kan ik aanpassen?
 
-U kunt andere 3D-eigenschappen van het diagram verkennen, zoals diepte, perspectief en belichting, door de Aspose.Slides-documentatie te raadplegen.
+kunt andere 3D-eigenschappen van het diagram verkennen, zoals diepte, perspectief en belichting, door de Aspose.Slides-documentatie te raadplegen.

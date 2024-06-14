@@ -12,14 +12,14 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 1.  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर JDK इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं।[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Aspose.Slides for Java लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/).
 3. एकीकृत विकास वातावरण (आईडीई): अपने जावा कोड को लिखने और चलाने के लिए इंटेलीज आईडीईए या एक्लिप्स जैसे आईडीई का उपयोग करें।
 4. जावा का बुनियादी ज्ञान: जावा प्रोग्रामिंग की बुनियादी समझ आपको इस ट्यूटोरियल को आगे बढ़ाने में मदद करेगी।
 ## पैकेज आयात करें
 शुरू करने के लिए, हमें Aspose.Slides लाइब्रेरी से आवश्यक पैकेज आयात करने की आवश्यकता है। यहाँ बताया गया है कि आप इसे कैसे करते हैं:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 आइए, पावरपॉइंट स्लाइड में ज्यामिति आकृति से खंड हटाने की प्रक्रिया को कई चरणों में विभाजित करें।
 ## चरण 1: एक नई प्रस्तुति बनाएँ
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## चरण 6: प्रेजेंटेशन सहेजें
 अंत में, संशोधित प्रस्तुति को फ़ाइल में सहेजें।
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## चरण 7: संसाधनों को साफ करें

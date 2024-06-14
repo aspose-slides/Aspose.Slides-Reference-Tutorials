@@ -45,7 +45,7 @@ Presentation presentation = new Presentation();
 // Ορίστε τον τίτλο της παρουσίασης
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Ορίστε τον συγγραφέα της παρουσίασης
+//Ορίστε τον συγγραφέα της παρουσίασης
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Ορίστε λέξεις-κλειδιά για την παρουσίαση
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
-//Δημιουργήστε ένα αντικείμενο παρουσίασης που αντιπροσωπεύει ένα αρχείο PPT
+// Δημιουργήστε ένα αντικείμενο παρουσίασης που αντιπροσωπεύει ένα αρχείο PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ finally
 // Ορίστε τον τίτλο της παρουσίασης
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Ορίστε τον συγγραφέα της παρουσίασης
+//Ορίστε τον συγγραφέα της παρουσίασης
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Ορίστε λέξεις-κλειδιά για την παρουσίαση

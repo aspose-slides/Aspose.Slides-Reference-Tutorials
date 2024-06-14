@@ -16,7 +16,7 @@ Stellen Sie vor dem Start sicher, dass die folgenden Voraussetzungen erfüllt si
 
 1. Visual Studio: Sie müssen Visual Studio auf Ihrem Computer installiert haben.
 
-2. Aspose.Slides für .NET: Laden Sie Aspose.Slides für .NET herunter und installieren Sie es von der[Download-Link](https://releases.aspose.com/slides/net/).
+2.  Aspose.Slides für .NET: Laden Sie Aspose.Slides für .NET herunter und installieren Sie es von der[Download-Link](https://releases.aspose.com/slides/net/).
 
 3. Grundlegende Kenntnisse in C#: Sie sollten über Grundkenntnisse der C#-Programmierung verfügen.
 

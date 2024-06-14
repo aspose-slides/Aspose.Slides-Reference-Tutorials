@@ -70,7 +70,7 @@ pres.Save(dataDir + "ContentBG_out.pptx", SaveFormat.Pptx);
 
 Ez a kód elmenti a prezentációt a módosított háttérrel a megadott elérési útra.
 
-Sikeresen megváltoztatta a prezentáció egy diájának hátterét az Aspose.Slides for .NET segítségével. Ez egy hatékony eszköz lehet vizuálisan tetszetős diák létrehozásához prezentációihoz.
+Az Aspose.Slides for .NET segítségével sikeresen megváltoztatta a prezentáció egy diájának hátterét. Ez egy hatékony eszköz lehet vizuálisan tetszetős diák létrehozásához prezentációihoz.
 
 ## Következtetés
 

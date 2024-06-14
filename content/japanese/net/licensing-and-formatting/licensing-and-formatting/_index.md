@@ -14,7 +14,7 @@ url: /ja/net/licensing-and-formatting/licensing-and-formatting/
 
 ライセンス取得プロセスに進む前に、次の前提条件を満たしている必要があります。
 
-1.  Aspose.Slides for .NET: 開発環境にAspose.Slides for .NETがインストールされていることを確認してください。ライブラリは以下からダウンロードできます。[ダウンロードリンク](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: 開発環境にAspose.Slides for .NETがインストールされていることを確認してください。ライブラリは以下からダウンロードできます。[ダウンロードリンク](https://releases.aspose.com/slides/net/).
 
 2. ライセンスファイル: 有効なAspose.Slidesライセンスファイル(通常は「Aspose.Slides.lic」という名前)を取得します。ライセンスは、[Aspose ウェブサイト](https://purchase.aspose.com/buy)またはリクエスト[一時ライセンス](https://purchase.aspose.com/temporary-license/)評価目的のため。
 

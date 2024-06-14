@@ -76,7 +76,7 @@ System.Diagnostics.Process.Start(resultPath);
 ## 结论
 在本教程中，我们探索了使用 Aspose.Slides for .NET 渲染幻灯片注释的过程。通过遵循分步指南，您可以轻松增强 PowerPoint 自动化功能。
 ## 经常问的问题
-### 问：Aspose.Slides 是否与最新的.NET 框架版本兼容？
+### 问：Aspose.Slides 是否与最新的 .NET 框架版本兼容？
 答：是的，Aspose.Slides 会定期更新以支持最新的 .NET 框架版本。
 ### 问：我可以自定义渲染评论的外观吗？
 答：当然可以！本教程包含自定义评论区颜色、宽度和位置的选项。

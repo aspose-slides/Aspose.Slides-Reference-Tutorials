@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 string srcFileName = dataDir + "Conversion PPT to PPTX.ppt";
 string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 
-//สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
+// สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
 Presentation pres = new Presentation(srcFileName);
 
 //บันทึกการนำเสนอในรูปแบบ PPTX

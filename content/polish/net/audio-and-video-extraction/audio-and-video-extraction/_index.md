@@ -12,7 +12,7 @@ url: /pl/net/audio-and-video-extraction/audio-and-video-extraction/
 
 W epoce cyfrowej prezentacje multimedialne stały się integralną częścią komunikacji, edukacji i rozrywki. Slajdy programu PowerPoint są często używane do przekazywania informacji i często zawierają istotne elementy, takie jak dźwięk i wideo. Wyodrębnienie tych elementów może mieć kluczowe znaczenie z różnych powodów, od archiwizacji prezentacji po zmianę przeznaczenia treści.
 
-W tym przewodniku krok po kroku odkryjemy, jak wyodrębnić dźwięk i wideo ze slajdów programu PowerPoint za pomocą Aspose.Slides dla .NET. Aspose.Slides to potężna biblioteka, która umożliwia programistom .NET programową pracę z prezentacjami programu PowerPoint, dzięki czemu zadania takie jak wyodrębnianie multimediów są bardziej dostępne niż kiedykolwiek.
+tym przewodniku krok po kroku odkryjemy, jak wyodrębnić dźwięk i wideo ze slajdów programu PowerPoint za pomocą Aspose.Slides dla .NET. Aspose.Slides to potężna biblioteka, która umożliwia programistom .NET programową pracę z prezentacjami programu PowerPoint, dzięki czemu zadania takie jak wyodrębnianie multimediów są bardziej dostępne niż kiedykolwiek.
 
 ## Warunki wstępne
 
@@ -128,10 +128,10 @@ Tak, Aspose.Slides dla .NET obsługuje najnowsze formaty PowerPoint, w tym PPTX.
 Tak, możesz zmodyfikować kod, aby przeglądać wiele slajdów i wydobywać multimedia z każdego z nich.
 
 ### Czy są jakieś opcje licencjonowania Aspose.Slides dla .NET?
- Aspose oferuje różne opcje licencjonowania, w tym bezpłatne wersje próbne i licencje tymczasowe. Możesz sprawdzić te opcje na ich stronie[strona internetowa](https://purchase.aspose.com/buy).
+Aspose oferuje różne opcje licencjonowania, w tym bezpłatne wersje próbne i licencje tymczasowe. Możesz sprawdzić te opcje na ich stronie[strona internetowa](https://purchase.aspose.com/buy).
 
 ### Jak mogę uzyskać wsparcie dla Aspose.Slides dla .NET?
  Aby uzyskać pomoc techniczną i dyskusje społecznościowe, możesz odwiedzić stronę Aspose.Slides[forum](https://forum.aspose.com/).
 
 ### Jakie inne zadania mogę wykonać za pomocą Aspose.Slides dla .NET?
-Aspose.Slides dla .NET zapewnia szeroką gamę funkcji, w tym tworzenie, modyfikowanie i konwertowanie prezentacji PowerPoint. Możesz zapoznać się z dokumentacją, aby uzyskać więcej szczegółów:[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
+ Aspose.Slides dla .NET zapewnia szeroką gamę funkcji, w tym tworzenie, modyfikowanie i konwertowanie prezentacji PowerPoint. Możesz zapoznać się z dokumentacją, aby uzyskać więcej szczegółów:[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).

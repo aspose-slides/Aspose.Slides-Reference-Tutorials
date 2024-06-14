@@ -9,17 +9,17 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 슬라이드에 화살표 모양의 선을 추가하는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 수정 및 변환할 수 있는 강력한 Java API입니다. 슬라이드에 화살표 모양의 선을 추가하면 프레젠테이션의 시각적 매력과 명확성을 향상시킬 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
-- Java 라이브러리용 Aspose.Slides가 Java 프로젝트에 다운로드되어 설정되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
+-  Java 라이브러리용 Aspose.Slides가 Java 프로젝트에 다운로드되어 설정되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 - Java 프로그래밍 언어에 대한 기본 지식.
 
 ## 패키지 가져오기
 먼저 필요한 패키지를 Java 클래스로 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,10 +67,10 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### 화살표 선의 색상을 사용자 정의할 수 있나요?
  예, 다음을 사용하여 원하는 색상을 지정할 수 있습니다.`setColor` 방법`SolidFillColor`.
 ### 화살표 선의 위치와 크기를 어떻게 변경할 수 있나요?
-전달된 매개변수를 조정합니다.`addAutoShape` 위치와 크기를 변경하는 방법입니다.
+ 전달된 매개변수를 조정합니다.`addAutoShape` 위치와 크기를 변경하는 방법입니다.
 ### Aspose.Slides는 모든 버전의 PowerPoint와 호환됩니까?
 Aspose.Slides는 다양한 PowerPoint 형식을 지원하여 다양한 버전 간의 호환성을 보장합니다.
 ### 화살표 선에 텍스트를 추가할 수 있나요?
 예, TextFrame을 만들고 그에 따라 해당 속성을 설정하여 줄에 텍스트를 추가할 수 있습니다.
 ### Aspose.Slides에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
- 방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원 및 탐색을 위해[선적 서류 비치](https://reference.aspose.com/slides/java/) 자세한 정보를 보려면.
+ 방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원 및 탐색을 위해[선적 서류 비치](https://reference.aspose.com/slides/java/) 자세한 내용은.

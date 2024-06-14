@@ -21,12 +21,12 @@ Java 開発の分野では、プレゼンテーションをシームレスに管
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: データディレクトリを設定する
 コア機能に進む前に、プレゼンテーション ファイルにアクセスするためのデータ ディレクトリを設定します。
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## ステップ2: ロードオプションを作成する
 プレゼンテーション ファイルへのアクセス方法を構成するには、読み込みオプションをインスタンス化します。この例では、アクセス パスワードを null に設定し、ドキュメント プロパティのみの読み込みを有効にしています。

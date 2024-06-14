@@ -17,7 +17,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện
 Trước tiên, bạn cần nhập các gói cần thiết để sử dụng các chức năng Aspose.Slides trong mã Java của mình. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Bước 1: Thiết lập thư mục tài liệu

@@ -70,14 +70,14 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 ```java
 // خذ سلسلة الرسم البياني الأولى
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//الآن ملء بيانات السلسلة
+// الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // خذ سلسلة الرسم البياني الثانية
 series = chart.getChartData().getSeries().get_Item(1);
-//الآن ملء بيانات السلسلة
+// الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// خذ سلسلة الرسم البياني الأولى
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//الآن ملء بيانات السلسلة
+	// الآن ملء بيانات السلسلة
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// خذ سلسلة الرسم البياني الثانية
 	series = chart.getChartData().getSeries().get_Item(1);
-	//الآن ملء بيانات السلسلة
+	// الآن ملء بيانات السلسلة
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//تحديد لون التعبئة للسلسلة
+	// تحديد لون التعبئة للسلسلة
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// حفظ العرض التقديمي مع الرسم البياني
@@ -181,7 +181,7 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### كيف يمكنني إضافة سلسلة أو فئات إضافية إلى المخطط؟
 
-لإضافة سلسلة أو فئات إضافية إلى المخطط، استخدم`getSeries()` و`getCategories()` طرق الرسم البياني`ChartData` هدف. يمكنك إضافة سلاسل وفئات جديدة عن طريق تحديد بياناتها وتسمياتها.
+ لإضافة سلسلة أو فئات إضافية إلى المخطط، استخدم`getSeries()` و`getCategories()` طرق الرسم البياني`ChartData` هدف. يمكنك إضافة سلاسل وفئات جديدة عن طريق تحديد بياناتها وتسمياتها.
 
 ### هل من الممكن مواصلة تنسيق الرسم البياني والتسميات؟
 

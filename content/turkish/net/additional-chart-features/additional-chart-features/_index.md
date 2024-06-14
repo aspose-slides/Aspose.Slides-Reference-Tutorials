@@ -20,7 +20,7 @@ Ayrıntılı örneklere dalmadan önce aşağıdaki önkoşulların mevcut oldu�
 
 3. Temel C# Bilgisi: Kodu anlamak ve gerektiği gibi değiştirmek için C# programlamaya aşina olmak çok önemlidir.
 
-Artık önkoşulları öğrendiğinize göre Aspose.Slides for .NET'teki bazı gelişmiş grafik özelliklerini inceleyelim.
+Artık önkoşulları ele aldığınıza göre, Aspose.Slides for .NET'teki bazı gelişmiş grafik özelliklerini inceleyelim.
 
 ## Gerekli Ad Alanlarını İçe Aktarma
 

@@ -49,7 +49,7 @@ Obtenga la primera diapositiva de la presentación donde desea agregar el gráfi
 ## Paso 4: agregue un gráfico circular
 
 ```java
-//Agregar un gráfico circular con datos predeterminados
+// Agregar un gráfico circular con datos predeterminados
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Establezca un título para el gráfico circular. Puede personalizar el título s
 ## Paso 6: personalizar los datos del gráfico
 
 ```java
-// Establecer la primera serie para mostrar valores.
+//Establecer la primera serie para mostrar valores.
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Configuración del índice de la hoja de datos del gráfico
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Añadiendo nueva serie
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Ahora completando datos de series
+// Ahora completando datos de series
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

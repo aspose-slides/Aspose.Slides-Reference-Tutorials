@@ -169,4 +169,4 @@ Aspose.Slides for Java'yı kullanarak tek tek slaytları PowerPoint sunumundan H
 
 ### Slaytlardaki şekiller ve metinler için ek biçimlendirmeyi nasıl hallederim?
 
-Uzatabilirsiniz`CustomFormattingController` sınıfını uygulayarak şekle özgü biçimlendirmeyi işlemek için`writeShapeStart` Ve`writeShapeEnd` yöntemler ve bunların içinde özel biçimlendirme mantığının uygulanması.
+ Uzatabilirsiniz`CustomFormattingController` sınıfını uygulayarak şekle özgü biçimlendirmeyi işlemek için`writeShapeStart` Ve`writeShapeEnd` yöntemler ve bunların içinde özel biçimlendirme mantığının uygulanması.

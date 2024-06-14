@@ -22,7 +22,7 @@ Az Aspose.Slides a .NET-fejlesztők számára szabott alakmanipulációs eszköz
 
 ## Alakhatások és manipuláció a diák oktatóanyagaiban
 ### [Alternatív szöveg elérése csoportformákban az Aspose.Slides segítségével](./accessing-alt-text-group-shapes/)
-Ismerje meg, hogyan érhet el alternatív szöveget csoportformákban az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
+Ismerje meg, hogyan érhet el alternatív szöveget csoportformákban az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 ### [Hozzáférés az OLE objektumkeretekhez a prezentációs diákban az Aspose.Slides segítségével](./accessing-ole-object-frames/)
 Ismerje meg, hogyan érheti el és kezelheti az OLE-objektumkereteket a bemutató diákon belül az Aspose.Slides for .NET segítségével. Növelje diafeldolgozási képességeit lépésről lépésre szóló útmutatásokkal és gyakorlati kódpéldákkal.
 ### [Nyíl alakú vonalak hozzáadása a prezentációs diákhoz az Aspose.Slides segítségével](./adding-arrow-shaped-lines/)
@@ -58,7 +58,7 @@ Tanulja meg, hogyan rendezheti át és kezelheti az alakzatokat a bemutató diá
 ### [Alakzatok klónozása bemutató diákban az Aspose.Slides segítségével](./cloning-shapes/)
 Ismerje meg, hogyan klónozhat hatékonyan alakzatokat bemutató diákban az Aspose.Slides API segítségével. Könnyedén hozhat létre dinamikus prezentációkat. Fedezze fel a részletes útmutatót, a GYIK-et és sok mást.
 ### [Csatlakozóvonal szögeinek beállítása a bemutató diákban az Aspose.Slides segítségével](./adjusting-connector-line-angles/)
-Ismerje meg, hogyan javíthatja prezentációs diákjait a csatlakozóvonalak szögének beállításával az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
+Ismerje meg, hogyan javíthatja prezentációs diákjait a csatlakozóvonalak szögének beállításával az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 ### [Alakzatok összekapcsolása a prezentációs diák csatlakozóival az Aspose.Slides segítségével](./connecting-shapes-using-connectors/)
 Növelje prezentációs képességeit azáltal, hogy megtanulja, hogyan kapcsolhat össze alakzatokat a bemutatódiákban lévő csatlakozókkal az Aspose.Slides segítségével. Emelje fel vizuális történetmesélését még ma!
 ### [Alakzat összekapcsolása a csatlakozási hely használatával a bemutató diákban az Aspose.Slides segítségével](./connecting-shape-using-connection-site/)

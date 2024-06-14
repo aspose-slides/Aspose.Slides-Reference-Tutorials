@@ -29,7 +29,7 @@ Voici des liens vers quelques ressources utiles :
 - [Manipulation des diapositives de notes](./net/notes-slide-manipulation/)
 - [Génération de miniatures de diapositives](./net/slide-thumbnail-generation/)
 - [Contrôle de l'animation des diapositives](./net/slide-animation-control/)
-- [Effets de transition des diapositives](./net/slide-transition-effects/)
+- [Effets de transition de diapositive](./net/slide-transition-effects/)
 - [Affichage des diapositives et manipulation de la mise en page](./net/slide-view-and-layout-manipulation/)
 - [Licence et formatage](./net/licensing-and-formatting/)
 - [Formatage et animation des graphiques](./net/chart-formatting-and-animation/)
@@ -44,7 +44,7 @@ Voici des liens vers quelques ressources utiles :
 ## Aspose.Slides pour Java : l'API de traitement des présentations
 {{% alert color="primary" %}}
 
-Aspose.Slides pour Java change la donne pour les développeurs cherchant à créer des présentations dynamiques et attrayantes dans les applications Java. Nos tutoriels seront vos compagnons de confiance dans ce voyage passionnant, vous aidant à libérer tout le potentiel de cette API remarquable. Alors qu'est-ce que tu attends? Plongez dans les didacticiels et laissez briller votre créativité avec Aspose.Slides pour Java !
+Aspose.Slides for Java change la donne pour les développeurs cherchant à créer des présentations dynamiques et attrayantes dans les applications Java. Nos tutoriels seront vos compagnons de confiance dans ce voyage passionnant, vous aidant à libérer tout le potentiel de cette API remarquable. Alors qu'est-ce que tu attends? Plongez dans les didacticiels et laissez briller votre créativité avec Aspose.Slides pour Java !
 
 {{% /alert %}}
 Voici des liens vers quelques ressources utiles :

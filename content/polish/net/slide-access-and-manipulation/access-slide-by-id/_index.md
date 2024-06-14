@@ -89,7 +89,7 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym przewodniku omówiliśmy, jak uzyskać dostęp do slajdów za pomocą ich unikalnych identyfikatorów za pomocą Aspose.Slides dla .NET. Omówiliśmy ładowanie prezentacji, uzyskiwanie dostępu do slajdów według indeksu i identyfikatora, modyfikowanie zawartości slajdów i zapisywanie zmian. Aspose.Slides dla .NET umożliwia programistom programowe tworzenie dynamicznych i dostosowanych prezentacji programu PowerPoint, otwierając drzwi do szerokiej gamy możliwości automatyzacji i udoskonaleń.
+W tym przewodniku omówiliśmy, jak uzyskać dostęp do slajdów za pomocą ich unikalnych identyfikatorów za pomocą Aspose.Slides dla .NET. Omówiliśmy ładowanie prezentacji, uzyskiwanie dostępu do slajdów według indeksu i identyfikatora, modyfikowanie zawartości slajdów i zapisywanie zmian. Aspose.Slides dla .NET umożliwia programistom programowe tworzenie dynamicznych i dostosowanych prezentacji programu PowerPoint, otwierając drzwi do szerokiej gamy możliwości automatyzacji i ulepszeń.
 
 ## Często zadawane pytania
 

@@ -67,6 +67,6 @@ Igen, az Aspose.Slides zökkenőmentesen integrálható a Visual Studióval a .N
 ### Testreszabhatom a szakasznagyítási keret megjelenését?
 Teljesen! Teljes ellenőrzése alatt áll a metszetnagyítási keret méretei, elhelyezése és stílusa.
 ### Elérhető az Aspose.Slides próbaverziója?
-Igen, felfedezheti az Aspose.Slides szolgáltatásait a[ingyenes próbaverzió](https://releases.aspose.com/).
+ Igen, felfedezheti az Aspose.Slides szolgáltatásait a[ingyenes próbaverzió](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Slides-hez kapcsolódó lekérdezésekhez?
  Bármilyen támogatással vagy kérdéssel kapcsolatban keresse fel a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).

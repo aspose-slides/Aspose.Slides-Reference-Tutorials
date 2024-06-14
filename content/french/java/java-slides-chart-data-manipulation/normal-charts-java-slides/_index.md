@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Définition de la couleur de remplissage pour les séries
+// Définition de la couleur de remplissage pour les séries
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Définition de la couleur de remplissage pour les séries
+// Définition de la couleur de remplissage pour les séries
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Prendre la première série de graphiques
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Remplir maintenant les données de série
+// Remplir maintenant les données de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Définition de la couleur de remplissage pour les séries
+// Définition de la couleur de remplissage pour les séries
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Prendre la deuxième série de graphiques
 series = chart.getChartData().getSeries().get_Item(1);
-//Remplir maintenant les données de série
+// Remplir maintenant les données de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Définition de la couleur de remplissage pour les séries
+// Définition de la couleur de remplissage pour les séries
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // Le premier libellé affichera le nom de la catégorie
@@ -223,7 +223,7 @@ Dans ce didacticiel, nous avons appris à créer des graphiques normaux dans Jav
 
 ### Comment puis-je changer le type de graphique ?
 
- Pour changer le type de graphique, modifiez le`ChartType` paramètre lors de l'ajout du graphique à l'aide de`sld.getShapes().addChart()`. Vous pouvez choisir parmi différents types de graphiques disponibles dans Aspose.Slides.
+ Pour changer le type de graphique, modifiez le`ChartType`paramètre lors de l'ajout du graphique à l'aide de`sld.getShapes().addChart()`. Vous pouvez choisir parmi différents types de graphiques disponibles dans Aspose.Slides.
 
 ### Puis-je changer les couleurs de la série de graphiques ?
 
@@ -239,4 +239,4 @@ Dans ce didacticiel, nous avons appris à créer des graphiques normaux dans Jav
 
 ### Comment puis-je enregistrer le graphique dans un format de fichier différent ?
 
- Pour enregistrer le graphique dans un format de fichier différent, modifiez le`SaveFormat` paramètre dans le`pres.save()`méthode au format souhaité (par exemple, PDF, PNG, JPEG).
+ Pour enregistrer le graphique dans un format de fichier différent, modifiez le`SaveFormat` paramètre dans le`pres.save()` méthode au format souhaité (par exemple, PDF, PNG, JPEG).

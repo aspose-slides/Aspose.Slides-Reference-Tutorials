@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/chart-data-point-index-java-slides/
 
 이 기사에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 차트 데이터 포인트 인덱스로 작업하는 방법을 살펴보겠습니다. 차트 내의 데이터 포인트에 액세스하고 조작하는 단계별 프로세스를 다루겠습니다. PowerPoint 프레젠테이션의 차트에서 데이터를 추출하거나 조작하려는 경우 이 가이드가 적합합니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

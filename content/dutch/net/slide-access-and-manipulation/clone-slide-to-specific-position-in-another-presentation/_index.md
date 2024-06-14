@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Na het kopiëren en plaatsen van de dia moeten we de gewijzigde doelpresentatie opslaan.
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

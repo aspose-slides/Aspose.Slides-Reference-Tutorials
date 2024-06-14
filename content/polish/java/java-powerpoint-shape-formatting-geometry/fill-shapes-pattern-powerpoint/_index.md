@@ -19,7 +19,7 @@ Zanim zagłębisz się w kod, upewnij się, że spełniasz następujące wymagan
 Najpierw zaimportujmy niezbędne pakiety wymagane w naszym przykładzie.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

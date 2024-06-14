@@ -2,7 +2,7 @@
 title: Manipulace s pozadím snímku pomocí Aspose.Slides
 linktitle: Manipulace s pozadím snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Vylepšete svůj design snímků pomocí Aspose.Slides! Naučte se, jak manipulovat s pozadím snímků v tomto komplexním tutoriálu. Poskytnuté podrobné pokyny a příklady kódu.
+description: Vylepšete svůj design snímků pomocí Aspose.Slides! Naučte se, jak manipulovat s pozadím snímků v tomto komplexním tutoriálu. Poskytnuté pokyny krok za krokem a příklady kódu.
 type: docs
 weight: 11
 url: /cs/net/slide-background-manipulation/
@@ -32,7 +32,7 @@ Naučte se, jak získat efektivní hodnoty pozadí snímku pomocí Aspose.Slides
 ### [Použít na snímek pozadí přechodu](./apply-gradient-background/)
 Naučte se, jak použít na snímek pozadí s přechodem pomocí Aspose.Slides for .NET. Vylepšete své prezentace vizuálně přitažlivými návrhy.
 ### [Nastavte obrázek jako pozadí snímku](./set-image-as-background/)
-Naučte se, jak nastavit obrázek jako pozadí snímku pomocí Aspose.Slides pro .NET. Vytvářejte poutavé prezentace s podrobnými pokyny a zdrojovým kódem. Vylepšete vizuální dopad ještě dnes!
+Naučte se, jak nastavit obrázek jako pozadí snímku pomocí Aspose.Slides for .NET. Vytvářejte poutavé prezentace s podrobnými pokyny a zdrojovým kódem. Vylepšete vizuální dopad ještě dnes!
 ### [Nastavit předlohu pozadí snímku](./set-slide-background-master/)
 V tomto podrobném průvodci se dozvíte, jak zvládnout nastavení pozadí snímků pomocí Aspose.Slides. Pozvedněte své prezentace na další úroveň pomocí poutavých vizuálů.
 ### [Změnit pozadí normálního snímku](./change-slide-background-normal/)

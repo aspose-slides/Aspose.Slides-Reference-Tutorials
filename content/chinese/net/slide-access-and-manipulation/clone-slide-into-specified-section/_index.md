@@ -70,7 +70,7 @@ using (IPresentation presentation = new Presentation())
 
 ### 步骤 4：复制幻灯片
 
-本教程的核心是在重复幻灯片的那一行：
+本教程的核心在于重复幻灯片的那一行：
 
 ```csharp
 presentation.Slides.AddClone(presentation.Slides[0], section2);

@@ -21,7 +21,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir sunum slayt gösterisinin nas
 Öncelikle yeni bir PowerPoint sunumu oluşturmamız gerekiyor. Java'da bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## Java Slaytlarında Sunum Slayt Gösterisi Kurulumu İçin Tam Kaynak Kodu
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Slayt Gösterisi ayarlarını alır

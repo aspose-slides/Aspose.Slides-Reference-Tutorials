@@ -42,7 +42,7 @@ xamlOptions.setExportHiddenSlides(true);
 
 ## चरण 3: आउटपुट सेवर को लागू करना
 
-परिवर्तित XAML सामग्री को सहेजने के लिए, हमें आउटपुट सेवर को परिभाषित करने की आवश्यकता है। यहाँ XAML के लिए आउटपुट सेवर का कस्टम कार्यान्वयन दिया गया है:
+परिवर्तित XAML सामग्री को सहेजने के लिए, हमें आउटपुट सेवर को परिभाषित करने की आवश्यकता है। यहाँ XAML के लिए आउटपुट सेवर का एक कस्टम कार्यान्वयन दिया गया है:
 
 ```java
 class NewXamlSaver implements IXamlOutputSaver
@@ -96,7 +96,7 @@ try {
 
 ```java
 	// स्रोत तक पथ प्रस्तुति
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// रूपांतरण विकल्प बनाएँ
@@ -109,7 +109,7 @@ try {
 		pres.save(xamlOptions);
 		// XAML फ़ाइलों को आउटपुट निर्देशिका में सहेजें
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

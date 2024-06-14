@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Zdefiniuj metodę główną
 Utwórz metodę główną, w której zainicjujesz proces aktualizacji właściwości prezentacji za pomocą nowego szablonu. Ta metoda służy jako punkt wejścia dla aplikacji Java.

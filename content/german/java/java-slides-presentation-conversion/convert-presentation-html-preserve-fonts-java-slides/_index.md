@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Schließen Sie Standard-Präsentationsschriften wie Calibri und Arial aus
+    // Schließen Sie Standard-Präsentationsschriften wie Calibri und Arial aus
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -98,7 +98,7 @@ In diesem Tutorial haben Sie gelernt, wie Sie eine PowerPoint-Präsentation mit 
 
 ### Wie lade ich Aspose.Slides für Java herunter?
 
-Sie können Aspose.Slides für Java von der Aspose-Website herunterladen. Besuchen Sie[Hier](https://downloads.aspose.com/slides/java/) um die neueste Version zu erhalten.
+ Sie können Aspose.Slides für Java von der Aspose-Website herunterladen. Besuchen Sie[Hier](https://downloads.aspose.com/slides/java/) um die neueste Version zu erhalten.
 
 ### Kann ich die Liste der ausgeschlossenen Schriftarten anpassen?
 
@@ -110,4 +110,4 @@ Dieses Codebeispiel ist für PPTX-Dateien konzipiert. Wenn Sie ältere PPT-Datei
 
 ### Wie kann ich die HTML-Ausgabe weiter anpassen?
 
- Entdecken Sie die`HtmlOptions` Klasse, um verschiedene Aspekte der HTML-Ausgabe anzupassen, wie etwa Foliengröße, Bildqualität und mehr.
+ Entdecken Sie die`HtmlOptions` Klasse, um verschiedene Aspekte der HTML-Ausgabe anzupassen, beispielsweise Foliengröße, Bildqualität und mehr.

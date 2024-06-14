@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Mã nguồn hoàn chỉnh để hỗ trợ ngắt trong Java Slides
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

@@ -15,7 +15,7 @@ Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 특정 �
 
 Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있게 해주는 강력한 라이브러리입니다. 주요 기능 중 하나는 슬라이드를 PDF를 포함한 다양한 형식으로 변환하는 기능입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 특정 슬라이드를 PDF 형식으로 변환하는 방법에 중점을 둘 것입니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음을 설정해야 합니다.
 

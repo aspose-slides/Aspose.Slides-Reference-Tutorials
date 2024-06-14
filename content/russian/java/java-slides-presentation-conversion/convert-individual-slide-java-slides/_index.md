@@ -169,4 +169,4 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ### Как обрабатывать дополнительное форматирование фигур и текста на слайдах?
 
-Вы можете продлить`CustomFormattingController` класс для обработки форматирования, специфичного для фигуры, путем реализации`writeShapeStart` и`writeShapeEnd` методы и применение в них пользовательской логики форматирования.
+ Вы можете продлить`CustomFormattingController` класс для обработки форматирования, специфичного для фигуры, путем реализации`writeShapeStart` и`writeShapeEnd` методы и применение в них пользовательской логики форматирования.

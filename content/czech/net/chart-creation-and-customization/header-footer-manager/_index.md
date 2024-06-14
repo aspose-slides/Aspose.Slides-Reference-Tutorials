@@ -92,7 +92,7 @@ if (!headerFooterManager.IsDateTimeVisible)
 }
 ```
 
-### Krok 7: Nastavte text zápatí a data a času
+### Krok 7: Nastavte zápatí a text data a času
 
 Nakonec můžete nastavit text pro zápatí a zástupné symboly data a času.
 

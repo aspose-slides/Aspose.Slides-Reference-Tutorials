@@ -19,7 +19,7 @@ Trước khi đi sâu vào phần mã hóa, hãy đảm bảo bạn có các đi
 Để bắt đầu, bạn cần nhập các gói Aspose.Slides cần thiết vào dự án Java của mình. Đây là cách bạn làm điều đó:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Hãy chia nhỏ quá trình sao chép một slide sang một bản trình bày khác với slide chính của nó thành các bước chi tiết.
 ## Bước 1: Tải bản trình bày nguồn
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Bước 4: Sao chép slide chính vào bản trình bày đích
 Sao chép trang chiếu chính từ bản trình bày nguồn sang bộ sưu tập trang chiếu chính trong bản trình bày đích.
 ```java
-//Sao chép slide chính mong muốn từ bản trình bày nguồn vào bộ sưu tập các bản gốc trong bản trình bày Đích
+// Sao chép slide chính mong muốn từ bản trình bày nguồn vào bộ sưu tập các bản gốc trong bản trình bày Đích
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

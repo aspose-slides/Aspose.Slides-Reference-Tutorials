@@ -71,7 +71,7 @@ presentation.Slides[0].SlideShowTransition.Type = TransitionType.Cut;
 
 ### चरण 4: संक्रमण को अनुकूलित करें (वैकल्पिक)
 
-वैकल्पिक रूप से, आप ट्रांज़िशन को और भी कस्टमाइज़ कर सकते हैं। इस उदाहरण में, हमने ट्रांज़िशन को काली स्क्रीन से शुरू करने के लिए सेट किया है।
+वैकल्पिक रूप से, आप संक्रमण को और भी अनुकूलित कर सकते हैं। इस उदाहरण में, हमने संक्रमण को काली स्क्रीन से शुरू करने के लिए सेट किया है।
 
 ```csharp
 ((OptionalBlackTransition)presentation.Slides[0].SlideShowTransition.Value).FromBlack = true;

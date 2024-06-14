@@ -17,7 +17,7 @@ In het huidige digitale tijdperk is het converteren van presentaties naar HTML e
 Voordat we in de code en het conversieproces duiken, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Java Development Kit (JDK) op uw systeem geïnstalleerd.
-- Aspose.Slides voor Java API, waarvan u kunt downloaden[hier](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides voor Java API, waarvan u kunt downloaden[hier](https://releases.aspose.com/slides/java/).
 -  Een presentatiebestand (bijv.`presentation.pptx`) dat u naar HTML wilt converteren.
 
 ## Stap 1: Het opzetten van de Java-omgeving
@@ -26,7 +26,7 @@ Zorg ervoor dat Java en Aspose.Slides voor Java API correct op uw systeem zijn g
 
 ## Stap 2: Het presentatiebestand laden
 
- In uw Java-code moet u het presentatiebestand laden dat u wilt converteren. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw presentatiebestand.
+In uw Java-code moet u het presentatiebestand laden dat u wilt converteren. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw presentatiebestand.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ U kunt de broncode van het HTML-bestand inspecteren en naar lettertypereferentie
 
 ### Kan ik de HTML-uitvoer verder aanpassen, zoals stijl en lay-out?
 
- Ja, u kunt de HTML-uitvoer aanpassen door het`HtmlOptions`en de HTML-sjabloon die voor de opmaak wordt gebruikt. Aspose.Slides voor Java biedt flexibiliteit in dit opzicht.
+ Ja, u kunt de HTML-uitvoer aanpassen door het`HtmlOptions` en de HTML-sjabloon die voor de opmaak wordt gebruikt. Aspose.Slides voor Java biedt flexibiliteit in dit opzicht.
 
 ### Zijn er beperkingen bij het insluiten van lettertypen in HTML?
 

@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/add-segment-geometr
 首先，您需要從 Aspose.Slides 匯入必要的套件。這將允許您存取建立和操作 PowerPoint 簡報所需的所有功能。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 讓我們將向幾何形狀添加線段的過程分解為詳細步驟，以確保清晰度和易於理解。
 ## 第 1 步：建立新簡報
@@ -66,7 +66,7 @@ pres.save(resultPath, SaveFormat.Pptx);
 ```
 指定要儲存簡報的路徑和格式（在本例中為 PPTX）。
 ## 結論
-使用 Aspose.Slides for Java 在 PowerPoint 簡報中為幾何圖形添加片段是一個簡單的過程，可以顯著增強投影片的視覺吸引力。透過遵循本教學中概述的步驟，您可以建立自訂形狀並以程式設計方式為簡報添加複雜的細節。無論您是自動建立簡報還是只是嘗試程式碼，Aspose.Slides for Java 都能提供您高效完成工作所需的工具。
+使用 Aspose.Slides for Java 在 PowerPoint 簡報中為幾何圖形添加片段是一個簡單的過程，可以顯著增強投影片的視覺吸引力。透過遵循本教學中概述的步驟，您可以建立自訂形狀並以程式設計方式為簡報添加複雜的細節。無論您是要自動建立簡報還是只是嘗試程式碼，Aspose.Slides for Java 都可以提供您高效完成工作所需的工具。
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.Slides？
 Aspose.Slides for Java 是一個功能強大的 API，用於以程式設計方式建立、修改和操作 PowerPoint 簡報。

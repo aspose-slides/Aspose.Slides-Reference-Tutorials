@@ -18,7 +18,7 @@ Voordat we aan de slag gaan, moet u ervoor zorgen dat u aan de volgende vereiste
 
 2. Ontwikkelomgeving: U moet een ontwikkelomgeving hebben opgezet met Visual Studio of een ander .NET-ontwikkelprogramma.
 
-Nu u over de vereisten beschikt, gaan we de stapsgewijze handleiding bekijken om specifieke gegevenspunten van diagramreeksen te wissen met behulp van Aspose.Slides voor .NET.
+Nu u over de vereisten beschikt, gaan we de stapsgewijze handleiding bekijken om specifieke gegevenspunten uit diagramreeksen te wissen met behulp van Aspose.Slides voor .NET.
 
 ## Naamruimten importeren
 
@@ -85,7 +85,7 @@ hebt met succes geleerd hoe u specifieke gegevenspunten uit diagramreeksen kunt 
 Aspose.Slides is voornamelijk ontworpen voor .NET-talen. Er zijn echter ook versies beschikbaar voor Java en andere platforms.
 
 ### Is Aspose.Slides voor .NET een betaalde bibliotheek?
- Ja, Aspose.Slides is een commerciële bibliotheek, maar u kunt ook een[gratis proefperiode](https://releases.aspose.com/) vóór aankoop.
+ Ja, Aspose.Slides is een commerciële bibliotheek, maar u kunt ook een[gratis proefperiode](https://releases.aspose.com/) alvorens te kopen.
 
 ### Hoe kan ik nieuwe gegevenspunten aan een diagram toevoegen met Aspose.Slides voor .NET?
  U kunt nieuwe gegevenspunten toevoegen door exemplaren van te maken`IChartDataPoint` en vul ze met de gewenste waarden.

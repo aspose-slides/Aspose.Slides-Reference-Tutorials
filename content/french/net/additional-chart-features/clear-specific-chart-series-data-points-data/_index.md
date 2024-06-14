@@ -67,7 +67,7 @@ chart.ChartData.Series[0].DataPoints.Clear();
 
 ## Étape 4 : Enregistrez la présentation
 
-Après avoir effacé les points de données spécifiques de la série de graphiques, vous devez enregistrer la présentation modifiée dans un nouveau fichier ou écraser l'original, en fonction de vos besoins.
+Après avoir effacé les points de données spécifiques de la série de graphiques, vous devez enregistrer la présentation modifiée dans un nouveau fichier ou écraser celle d'origine, en fonction de vos besoins.
 
 ```csharp
 pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);

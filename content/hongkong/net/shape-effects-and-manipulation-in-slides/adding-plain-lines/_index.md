@@ -65,5 +65,5 @@ pres.Save(dataDir + "LineShape1_out.pptx", SaveFormat.Pptx);
 答：瀏覽文檔[這裡](https://reference.aspose.com/slides/net/).
 ### Q：如何取得 Aspose.Slides 的臨時授權？
 答：訪問[這裡](https://purchase.aspose.com/temporary-license/)以獲得臨時許可證。
-### Q：面臨問題？我可以在哪裡獲得支援？
+### Q：面臨問題？我在哪裡可以獲得支援？
 答：尋求協助[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).

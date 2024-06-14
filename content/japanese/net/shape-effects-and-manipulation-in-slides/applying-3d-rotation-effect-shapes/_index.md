@@ -11,7 +11,7 @@ url: /ja/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effec
 魅力的でダイナミックなプレゼンテーション スライドを作成することは、効果的なコミュニケーションの重要な側面です。Aspose.Slides for .NET は、図形に 3D 回転効果を適用する機能など、プレゼンテーションを強化するための強力なツール セットを提供します。このチュートリアルでは、Aspose.Slides for .NET を使用して、プレゼンテーション スライドの図形に 3D 回転効果を適用するプロセスについて説明します。
 ## 前提条件
 チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
--  Aspose.Slides for .NET: Aspose.Slidesライブラリがインストールされていることを確認してください。[Webサイト](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Aspose.Slidesライブラリがインストールされていることを確認してください。[Webサイト](https://releases.aspose.com/slides/net/).
 - 開発環境: コードを記述して実行するために、Visual Studio などの .NET 開発環境をセットアップします。
 ## 名前空間のインポート
 .NET プロジェクトで、Aspose.Slides の機能を活用するために必要な名前空間をインポートします。コードの先頭に次の名前空間を含めます。

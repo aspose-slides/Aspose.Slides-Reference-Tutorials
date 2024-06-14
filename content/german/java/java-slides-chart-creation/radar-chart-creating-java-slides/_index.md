@@ -21,7 +21,7 @@ In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Radard
 Beginnen wir mit dem Einrichten einer neuen PowerPoint-Präsentation und dem Hinzufügen einer Folie.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ Das ist es! Sie haben erfolgreich ein Radardiagramm in einer PowerPoint-Präsent
 ## Vollständiger Quellcode zum Erstellen von Radardiagrammen in Java-Folien
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Neue Serien hinzufügen
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Jetzt werden Seriendaten gefüllt
+	// Jetzt werden Seriendaten gefüllt
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Serienfarbe festlegen
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Jetzt wird eine weitere Datenreihe gefüllt
+	//Jetzt wird eine weitere Datenreihe gefüllt
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ Informationen zum Anpassen der Achsenbeschriftungen und -formatierung, einschlie
 
 ### Wie speichere ich das Diagramm in einem anderen Dateiformat?
 
- Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung im`outPath` Variable und unter Verwendung der entsprechenden`SaveFormat` . Um beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.
+Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung im`outPath` Variable und unter Verwendung der entsprechenden`SaveFormat` . Um beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.

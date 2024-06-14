@@ -14,11 +14,11 @@ PowerPoint 프레젠테이션은 비즈니스 프레젠테이션, 교육 세션,
 
 ## PowerPoint의 도형에 애니메이션 추가
 
- 애니메이션을 사용하면 프레젠테이션을 더욱 매력적이고 역동적으로 만들 수 있습니다. Java용 GroupDocs.Slides를 사용하면 도형에 애니메이션을 쉽게 추가하여 슬라이드에 추가 효과를 줄 수 있습니다. 단계별 튜토리얼[PowerPoint의 도형에 애니메이션 추가](./add-animations-to-shapes-powerpoint/) 매력적인 프레젠테이션을 쉽게 만들 수 있도록 과정을 안내합니다.
+애니메이션을 사용하면 프레젠테이션을 더욱 매력적이고 역동적으로 만들 수 있습니다. Java용 GroupDocs.Slides를 사용하면 도형에 애니메이션을 쉽게 추가하여 슬라이드에 추가 효과를 줄 수 있습니다. 단계별 튜토리얼[PowerPoint의 도형에 애니메이션 추가](./add-animations-to-shapes-powerpoint/) 매력적인 프레젠테이션을 쉽게 만들 수 있도록 과정을 안내합니다.
 
 ## PowerPoint 애니메이션의 대상 모양
 
- 특정 모양에 애니메이션을 집중시키면 핵심 사항을 강조하고 청중의 관심을 유지하는 데 도움이 될 수 있습니다. 튜토리얼[PowerPoint 애니메이션의 대상 모양](./target-shapes-for-animation-powerpoint/)애니메이션하려는 모양을 정확히 찾아내는 방법을 배우는 데 적합합니다. 이는 프레젠테이션을 유익할 뿐만 아니라 시각적으로도 매력적으로 만듭니다.
+ 특정 모양에 애니메이션을 집중시키면 핵심 사항을 강조하고 청중의 관심을 유지하는 데 도움이 될 수 있습니다. 튜토리얼[PowerPoint 애니메이션의 대상 모양](./target-shapes-for-animation-powerpoint/) 애니메이션하려는 모양을 정확히 찾아내는 방법을 배우는 데 적합합니다. 이는 프레젠테이션을 유익할 뿐만 아니라 시각적으로도 매력적으로 만듭니다.
 
 ## PowerPoint에서 도형에 3D 회전 효과 적용
 
@@ -26,7 +26,7 @@ PowerPoint 프레젠테이션은 비즈니스 프레젠테이션, 교육 세션,
 
 ## PowerPoint에서 도형에 경사 효과 적용
 
- 경사 효과는 모양에 깊이와 입체감을 더해 눈에 띄게 만들 수 있습니다. 미묘한 향상을 원하든, 대담한 표현을 원하든 베벨 효과는 훌륭한 선택입니다. 튜토리얼을 통해 이를 적용하는 방법을 알아보세요.[PowerPoint에서 도형에 경사 효과 적용](./apply-bevel-effects-shapes-powerpoint/).
+경사 효과는 모양에 깊이와 입체감을 더해 눈에 띄게 만들 수 있습니다. 미묘한 향상을 원하든, 대담한 표현을 원하든 베벨 효과는 훌륭한 선택입니다. 튜토리얼을 통해 이를 적용하는 방법을 알아보세요.[PowerPoint에서 도형에 경사 효과 적용](./apply-bevel-effects-shapes-powerpoint/).
 
 ## PowerPoint에서 OLE 개체 데이터 변경
 
@@ -38,7 +38,7 @@ PowerPoint 프레젠테이션은 비즈니스 프레젠테이션, 교육 세션,
 
 ## PowerPoint의 복제 모양
 
- 모양 복제는 특히 반복적인 요소를 생성할 때 작업 흐름을 간소화할 수 있습니다. 이 튜토리얼[PowerPoint의 복제 모양](./clone-shapes-powerpoint/) 과정을 안내하여 모양을 쉽게 복제하고 프레젠테이션 전체에서 일관성을 유지할 수 있습니다.
+ 모양 복제는 특히 반복적인 요소를 생성할 때 작업 흐름을 간소화할 수 있습니다. 이 튜토리얼[PowerPoint의 복제 모양](./clone-shapes-powerpoint/)과정을 안내하여 모양을 쉽게 복제하고 프레젠테이션 전체에서 일관성을 유지할 수 있습니다.
 
 ## PowerPoint에서 커넥터 선 각도 설정
 
@@ -46,7 +46,7 @@ PowerPoint 프레젠테이션은 비즈니스 프레젠테이션, 교육 세션,
 
 ## PowerPoint에서 커넥터를 사용하여 도형 연결
 
- 순서도와 다이어그램을 만들려면 연결선을 사용하여 셰이프를 연결하는 것이 필수적입니다. 튜토리얼[PowerPoint에서 커넥터를 사용하여 도형 연결](./connect-shapes-using-connectors-powerpoint/)기본 사항을 다루며 초보자도 모양을 원활하게 연결할 수 있도록 도와줍니다.
+ 순서도와 다이어그램을 만들려면 연결선을 사용하여 셰이프를 연결하는 것이 필수적입니다. 튜토리얼[PowerPoint에서 커넥터를 사용하여 도형 연결](./connect-shapes-using-connectors-powerpoint/) 기본 사항을 다루며 초보자도 모양을 원활하게 연결할 수 있도록 도와줍니다.
 
 ## PowerPoint에서 연결 사이트를 사용하여 셰이프 연결
 
@@ -54,7 +54,7 @@ PowerPoint 프레젠테이션은 비즈니스 프레젠테이션, 교육 세션,
 
 ## PowerPoint의 이미지에 이중톤 효과 적용
 
- 이중톤 효과를 사용하면 이미지에 세련되고 현대적인 느낌을 줄 수 있습니다. 이 튜토리얼[PowerPoint의 이미지에 이중톤 효과 적용](./apply-duotone-effects-images-powerpoint/) 프리젠테이션 시각적 효과를 향상시키기 위해 이러한 효과를 적용하는 방법을 설명합니다.
+ 이중톤 효과를 사용하면 이미지에 세련되고 현대적인 느낌을 줄 수 있습니다. 이 튜토리얼[PowerPoint의 이미지에 이중톤 효과 적용](./apply-duotone-effects-images-powerpoint/)프리젠테이션 시각적 효과를 향상시키기 위해 이러한 효과를 적용하는 방법을 설명합니다.
 
 ## PowerPoint에 포함된 비디오 프레임 추가
 
@@ -62,7 +62,7 @@ PowerPoint 프레젠테이션은 비즈니스 프레젠테이션, 교육 세션,
 
 ## PowerPoint의 OLE 개체에서 포함된 파일 데이터 추출
 
- 포함된 파일 데이터를 관리하는 것은 프레젠테이션을 최신 상태로 유지하고 관련성을 유지하는 데 중요할 수 있습니다. 튜토리얼[PowerPoint의 OLE 개체에서 포함된 파일 데이터 추출](./extract-embedded-file-data-ole-object-powerpoint/)이 데이터를 효율적으로 추출하여 프레젠테이션을 항상 최신 상태로 유지하는 방법을 다룹니다.
+ 포함된 파일 데이터를 관리하는 것은 프레젠테이션을 최신 상태로 유지하고 관련성을 유지하는 데 중요할 수 있습니다. 튜토리얼[PowerPoint의 OLE 개체에서 포함된 파일 데이터 추출](./extract-embedded-file-data-ole-object-powerpoint/) 이 데이터를 효율적으로 추출하여 프레젠테이션을 항상 최신 상태로 유지하는 방법을 다룹니다.
 ## Java PowerPoint 애니메이션 및 모양 조작 자습서
 ### [PowerPoint의 도형에 애니메이션 추가](./add-animations-to-shapes-powerpoint/)
 이 상세한 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint의 도형에 애니메이션을 추가하는 방법을 알아보세요. 매력적인 프레젠테이션을 만드는 데 적합합니다.

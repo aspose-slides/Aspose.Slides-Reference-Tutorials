@@ -86,7 +86,7 @@ Dowiedz się, jak ustawić zewnętrzne skoroszyty w Java Slides przy użyciu Asp
 Dowiedz się, jak ustawić zewnętrzne skoroszyty i zaktualizować dane wykresów w Java Slides przy użyciu Aspose.Slides dla Java. Popraw swoje umiejętności automatyzacji programu PowerPoint.
 ### [Ustaw szerokość przerwy w slajdach Java](./set-gap-width-java-slides/)
 Dowiedz się, jak ustawić szerokość przerwy w slajdach Java za pomocą Aspose.Slides dla Java. Ulepsz wizualizacje wykresów w prezentacjach programu PowerPoint.
-### [Ustaw opcję Odwróć tabelę kolorów wypełnienia w slajdach Java](./set-invert-fill-color-chart-java-slides/)
+### [Ustaw tabelę kolorów odwróconego wypełnienia w slajdach Java](./set-invert-fill-color-chart-java-slides/)
 Dowiedz się, jak ustawić odwracanie kolorów wypełnienia wykresów Java Slides za pomocą Aspose.Slides. Ulepsz swoje wizualizacje wykresów dzięki temu przewodnikowi krok po kroku i kodowi źródłowemu.
 ### [Ustaw tryb układu w slajdach Java](./set-layout-mode-java-slides/)
 Dowiedz się, jak ustawić tryby układu slajdów Java za pomocą Aspose.Slides. Dostosuj położenie i rozmiar wykresu w tym przewodniku krok po kroku z kodem źródłowym.

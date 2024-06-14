@@ -19,7 +19,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều 
 Để bắt đầu, hãy nhập các gói cần thiết trong lớp Java của bạn:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Có, bạn có thể thêm nhiều dòng hình mũi tên vào một trang chiế
 ### Aspose.Slides for Java có tương thích với các phiên bản PowerPoint mới nhất không?
 Aspose.Slides for Java hỗ trợ khả năng tương thích với nhiều phiên bản PowerPoint khác nhau, đảm bảo tích hợp liền mạch với bản trình bày của bạn.
 ### Tôi có thể tùy chỉnh màu của đường hình mũi tên không?
- Có, bạn có thể tùy chỉnh màu của đường hình mũi tên bằng cách điều chỉnh`SolidFillColor` thuộc tính trong mã.
+Có, bạn có thể tùy chỉnh màu của đường hình mũi tên bằng cách điều chỉnh`SolidFillColor` thuộc tính trong mã.
 ### Aspose.Slides cho Java có hỗ trợ các hình dạng khác ngoài đường thẳng không?
 Có, Aspose.Slides cho Java cung cấp hỗ trợ rộng rãi để thêm nhiều hình dạng khác nhau, bao gồm hình chữ nhật, hình tròn và đa giác vào các trang chiếu PowerPoint.
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Slides cho Java ở đâu?

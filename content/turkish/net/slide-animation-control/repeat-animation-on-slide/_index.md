@@ -8,7 +8,7 @@ weight: 12
 url: /tr/net/slide-animation-control/repeat-animation-on-slide/
 ---
 ## giriiş
-Sunumların dinamik dünyasında, animasyonları kontrol etme yeteneği izleyicinin dikkatini çekmede ve çekmede çok önemli bir rol oynar. Aspose.Slides for .NET, geliştiricilerin slaytlardaki animasyon türlerinin sorumluluğunu üstlenmelerini sağlayarak daha etkileşimli ve görsel açıdan çekici bir sunuma olanak tanır. Bu eğitimde Aspose.Slides for .NET kullanarak bir slayttaki animasyon türlerinin nasıl kontrol edileceğini adım adım inceleyeceğiz.
+Sunumların dinamik dünyasında, animasyonları kontrol etme yeteneği izleyicinin dikkatini çekmede ve çekmede çok önemli bir rol oynar. Aspose.Slides for .NET, geliştiricilerin slaytlardaki animasyon türlerinin sorumluluğunu üstlenmelerini sağlayarak daha etkileşimli ve görsel olarak çekici bir sunuma olanak tanır. Bu eğitimde Aspose.Slides for .NET kullanarak bir slayttaki animasyon türlerinin nasıl kontrol edileceğini adım adım inceleyeceğiz.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 1.  Aspose.Slides for .NET Library: Kütüphaneyi şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/slides/net/).

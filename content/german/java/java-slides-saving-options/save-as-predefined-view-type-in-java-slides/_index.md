@@ -92,7 +92,7 @@ In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java eine P
 
 ### Wie ändere ich den Ansichtstyp in etwas anderes als „Folienmasteransicht“?
 
- Um den Ansichtstyp in etwas anderes als "Folienmasteransicht" zu ändern, ersetzen Sie einfach`ViewType.SlideMasterView` mit dem gewünschten Ansichtstyp, wie zum Beispiel`ViewType.NormalView` oder`ViewType.SlideSorterView`, im Code, in dem wir den Ansichtstyp festlegen.
+ Um den Ansichtstyp auf etwas anderes als "Folienmasteransicht" zu ändern, ersetzen Sie einfach`ViewType.SlideMasterView` mit dem gewünschten Ansichtstyp, wie zum Beispiel`ViewType.NormalView` oder`ViewType.SlideSorterView`, im Code, in dem wir den Ansichtstyp festlegen.
 
 ### Kann ich Ansichtseigenschaften für einzelne Folien in der Präsentation festlegen?
 

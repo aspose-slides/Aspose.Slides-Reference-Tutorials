@@ -65,11 +65,11 @@ A je to! Úspěšně jste vytvořili prezentaci s načrtnutými tvary pomocí As
 Přidáním načrtnutých tvarů do snímků prezentace můžete zvýšit vizuální přitažlivost a zaujmout publikum. S Aspose.Slides pro .NET se proces stává přímočarým a umožňuje vám bez námahy popustit uzdu vaší kreativitě.
 ## Nejčastější dotazy
 ### 1. Mohu přizpůsobit načrtnutý efekt?
-Ano, Aspose.Slides for .NET poskytuje různé možnosti přizpůsobení pro načrtnuté efekty. Odkazovat na[dokumentace](https://reference.aspose.com/slides/net/) pro podrobné informace.
+ Ano, Aspose.Slides for .NET poskytuje různé možnosti přizpůsobení pro načrtnuté efekty. Odkazovat na[dokumentace](https://reference.aspose.com/slides/net/) pro podrobné informace.
 ### 2. Je k dispozici bezplatná zkušební verze?
  Rozhodně! Můžete prozkoumat bezplatnou zkušební verzi Aspose.Slides pro .NET[tady](https://releases.aspose.com/).
 ### 3. Kde mohu získat podporu?
- V případě jakékoli pomoci nebo dotazů navštivte stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ Pro jakoukoli pomoc nebo dotazy navštivte stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 4. Jak si mohu zakoupit Aspose.Slides pro .NET?
  Chcete-li zakoupit Aspose.Slides pro .NET, navštivte stránku[nákupní stránku](https://purchase.aspose.com/buy).
 ### 5. Nabízíte dočasné licence?

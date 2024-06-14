@@ -16,7 +16,7 @@ Trước khi chúng ta đi sâu vào quá trình trích xuất, hãy đảm bả
 
 ### 1. Aspose.Slides cho Thư viện .NET
 
- Bạn cần cài đặt thư viện Aspose.Slides for .NET trong môi trường phát triển của mình. Nếu chưa có, bạn có thể tải xuống từ trang web tại[Aspose.Slides cho Tài liệu .NET](https://reference.aspose.com/slides/net/).
+Bạn cần cài đặt thư viện Aspose.Slides for .NET trong môi trường phát triển của mình. Nếu chưa có, bạn có thể tải xuống từ trang web tại[Aspose.Slides cho Tài liệu .NET](https://reference.aspose.com/slides/net/).
 
 ### 2. Bản trình bày PowerPoint có siêu liên kết âm thanh
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Bước 2: Tải bản trình bày PowerPoint
 
- Tải bản trình bày PowerPoint (PPTX) có chứa siêu liên kết âm thanh bằng Aspose.Slides. Thay thế`"HyperlinkSound.pptx"` với tên tệp thực tế của bản trình bày của bạn.
+ Tải bản trình bày PowerPoint (PPTX) có chứa siêu liên kết âm thanh bằng Aspose.Slides. Thay thế`"HyperlinkSound.pptx"`với tên tệp thực tế của bản trình bày của bạn.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 Nếu siêu liên kết có âm thanh liên quan, chúng ta có thể trích xuất nó dưới dạng mảng byte và lưu dưới dạng tệp phương tiện.
 
 ```csharp
-//Trích xuất âm thanh siêu liên kết trong mảng byte
+// Trích xuất âm thanh siêu liên kết trong mảng byte
 byte[] audioData = link.Sound.BinaryData;
 
 // Chỉ định đường dẫn bạn muốn lưu âm thanh được trích xuất
@@ -101,7 +101,7 @@ Có, Aspose.Slides for .NET hỗ trợ cả định dạng PPTX và PPT để tr
  Có, bạn có thể nhận hỗ trợ và chia sẻ trải nghiệm của mình với Aspose.Slides trong[Diễn đàn cộng đồng Aspose.Slides](https://forum.aspose.com/).
 
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Slides cho một dự án ngắn hạn không?
- Có, bạn có thể nhận được giấy phép tạm thời cho Aspose.Slides for .NET để đáp ứng nhu cầu dự án ngắn hạn của mình bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể nhận được giấy phép tạm thời cho Aspose.Slides for .NET để đáp ứng nhu cầu dự án ngắn hạn của mình bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
 
 ### Có định dạng âm thanh nào khác được hỗ trợ để trích xuất ngoài MPG không?
 Aspose.Slides for .NET cho phép bạn trích xuất âm thanh ở nhiều định dạng khác nhau, không giới hạn ở MPG. Bạn có thể chuyển đổi nó sang định dạng ưa thích sau khi giải nén.

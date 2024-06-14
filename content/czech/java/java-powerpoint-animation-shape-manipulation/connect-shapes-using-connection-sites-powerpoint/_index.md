@@ -19,14 +19,14 @@ Než začneme, ujistěte se, že máte následující:
 Chcete-li začít, importujte potřebné balíčky do svého projektu Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Přístup ke kolekci Shapes
 Přístup ke kolekci tvarů pro vybraný snímek:
 ```java
 // Cesta k adresáři dokumentů.
 String dataDir = "Your Document Directory";
-// Třída Instantiate Presentation, která představuje soubor PPTX
+// Instantiate Presentation třída, která představuje soubor PPTX
 Presentation presentation = new Presentation();
 IShapeCollection shapes = presentation.getSlides().get_Item(0).getShapes();
 ```

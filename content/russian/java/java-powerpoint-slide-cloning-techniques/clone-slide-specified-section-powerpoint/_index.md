@@ -12,18 +12,18 @@ url: /ru/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-sec
 ## Предварительные условия
 Прежде чем мы углубимся в руководство, давайте рассмотрим предварительные условия. Если все будет на месте, процесс станет более плавным и эффективным.
 ### Среда разработки Java
- Во-первых, убедитесь, что у вас настроена среда разработки Java. Вам понадобится JDK (Java Development Kit), установленный на вашем компьютере. Вы можете скачать его с[сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+Во-первых, убедитесь, что у вас настроена среда разработки Java. Вам понадобится JDK (Java Development Kit), установленный на вашем компьютере. Вы можете скачать его с[сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides для библиотеки Java
  Затем загрузите библиотеку Aspose.Slides for Java. Вы можете получить его из[Страница загрузки Aspose.Slides](https://releases.aspose.com/slides/java/). Эта библиотека предоставит все необходимые инструменты для программного управления презентациями PowerPoint.
 ### IDE для разработки
 Использование интегрированной среды разработки (IDE), такой как IntelliJ IDEA, Eclipse или NetBeans, сделает процесс разработки более простым. Убедитесь, что ваша IDE настроена для работы с Java.
 ### Aspose Лицензия
- Для полной функциональности вам может потребоваться получить лицензию на Aspose.Slides. Вы можете приобрести один[здесь](https://purchase.aspose.com/buy) . Альтернативно, вы можете подать заявку на[временная лицензия](https://purchase.aspose.com/temporary-license/)чтобы опробовать функции перед совершением.
+ Для полной функциональности вам может потребоваться получить лицензию на Aspose.Slides. Вы можете приобрести один[здесь](https://purchase.aspose.com/buy) . Альтернативно, вы можете подать заявку на получение[временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы опробовать функции перед фиксацией.
 ## Импортировать пакеты
 Прежде чем писать код, вам необходимо импортировать необходимые пакеты из Aspose.Slides. Вот как вы можете это сделать:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Теперь давайте разобьем процесс на управляемые этапы. Внимательно выполняйте каждый шаг, чтобы достичь желаемого результата.
 ## Шаг 1. Настройте каталог данных
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## Шаг 5. Клонируйте слайд в указанный раздел
-Основная часть этого руководства — клонирование слайда в указанный раздел. Использовать`addClone` метод клонирования первого слайда во второй раздел.
+ Основная часть этого руководства — клонирование слайда в указанный раздел. Использовать`addClone` метод клонирования первого слайда во второй раздел.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

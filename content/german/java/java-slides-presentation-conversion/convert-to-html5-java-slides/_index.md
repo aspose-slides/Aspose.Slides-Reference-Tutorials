@@ -74,7 +74,7 @@ try {
 // Der Pfad zum Dokumentenverzeichnis
 String dataDir = "Your Document Directory";
 // Der Pfad zur Ausgabedatei
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Exportieren Sie eine Präsentation mit Folienübergängen, Animationen und Formanimationen nach HTML5

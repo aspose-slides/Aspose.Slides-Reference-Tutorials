@@ -12,18 +12,18 @@ url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-sec
 ## المتطلبات الأساسية
 قبل أن نتعمق في البرنامج التعليمي، دعونا نغطي المتطلبات الأساسية. إن التأكد من أن لديك كل شيء في مكانه سيجعل العملية أكثر سلاسة وكفاءة.
 ### بيئة تطوير جافا
- أولاً، تأكد من إعداد بيئة تطوير Java. ستحتاج إلى تثبيت JDK (Java Development Kit) على جهازك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
+أولاً، تأكد من إعداد بيئة تطوير Java. ستحتاج إلى تثبيت JDK (Java Development Kit) على جهازك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides لمكتبة جافا
  بعد ذلك، قم بتنزيل مكتبة Aspose.Slides لـ Java. يمكنك الحصول عليه من[صفحة تنزيل Aspose.Slides](https://releases.aspose.com/slides/java/). ستوفر هذه المكتبة كافة الأدوات اللازمة للتعامل مع عروض PowerPoint التقديمية برمجياً.
 ### بيئة تطوير متكاملة
 إن استخدام بيئة التطوير المتكاملة (IDE) مثل IntelliJ IDEA أو Eclipse أو NetBeans سيجعل عملية التطوير الخاصة بك أكثر وضوحًا. تأكد من تكوين IDE الخاص بك للعمل مع Java.
 ### ترخيص Aspose
- للحصول على الوظائف الكاملة، قد ترغب في الحصول على ترخيص لـ Aspose.Slides. يمكنك شراء واحدة[هنا](https://purchase.aspose.com/buy) . وبدلاً من ذلك، يمكنك التقدم بطلب للحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)لتجربة الميزات قبل الالتزام.
+ للحصول على الوظائف الكاملة، قد ترغب في الحصول على ترخيص لـ Aspose.Slides. يمكنك شراء واحدة[هنا](https://purchase.aspose.com/buy) . وبدلاً من ذلك، يمكنك التقدم بطلب للحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لتجربة الميزات قبل الالتزام.
 ## حزم الاستيراد
 قبل كتابة التعليمات البرمجية، تحتاج إلى استيراد الحزم اللازمة من Aspose.Slides. وإليك كيف يمكنك القيام بذلك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 الآن، دعونا نقسم العملية إلى خطوات يمكن التحكم فيها. اتبع كل خطوة بعناية لتحقيق النتيجة المرجوة.
 ## الخطوة 1: إعداد دليل البيانات
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## الخطوة 5: استنساخ الشريحة في القسم المحدد
-الجزء الأساسي من هذا البرنامج التعليمي هو استنساخ الشريحة في قسم محدد. استخدم ال`addClone` طريقة لاستنساخ الشريحة الأولى في القسم الثاني.
+ الجزء الأساسي من هذا البرنامج التعليمي هو استنساخ الشريحة في قسم محدد. استخدم ال`addClone` طريقة لاستنساخ الشريحة الأولى في القسم الثاني.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

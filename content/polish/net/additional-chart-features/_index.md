@@ -10,7 +10,7 @@ url: /pl/net/additional-chart-features/
 
 ## Wstęp
 
-Witamy w kompleksowym przewodniku na temat odkrywania dodatkowych funkcji wykresów w Aspose.Slides dla .NET. W tym samouczku zagłębimy się w zaawansowane możliwości interfejsu API Aspose.Slides, które umożliwiają tworzenie, dostosowywanie i ulepszanie wykresów w prezentacjach programu PowerPoint. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem w Aspose.Slides, ten przewodnik wyposaży Cię w wiedzę i narzędzia, które pozwolą Ci przenieść manipulację wykresami na wyższy poziom.
+Witamy w kompleksowym przewodniku na temat odkrywania dodatkowych funkcji wykresów w Aspose.Slides dla .NET. W tym samouczku zagłębimy się w zaawansowane możliwości interfejsu API Aspose.Slides, które umożliwiają tworzenie, dostosowywanie i ulepszanie wykresów w prezentacjach programu PowerPoint. Niezależnie od tego, czy jesteś doświadczonym programistą, czy też nowicjuszem w Aspose.Slides, ten przewodnik wyposaży Cię w wiedzę i narzędzia, które pozwolą Ci przenieść manipulację wykresami na wyższy poziom.
 
 ## Uwalnianie zaawansowanych funkcji wykresów
 

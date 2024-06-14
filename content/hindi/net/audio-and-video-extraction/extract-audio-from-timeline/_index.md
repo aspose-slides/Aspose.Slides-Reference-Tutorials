@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- इस चरण में, हम निर्दिष्ट फ़ाइल से PowerPoint प्रस्तुति लोड करते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+इस चरण में, हम निर्दिष्ट फ़ाइल से PowerPoint प्रस्तुति लोड करते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ### चरण 2.2: स्लाइड और टाइमलाइन तक पहुंचें
 

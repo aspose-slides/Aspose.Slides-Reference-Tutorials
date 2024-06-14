@@ -55,7 +55,7 @@ pres.Save(dataDir + "VideoFrame_out.pptx", SaveFormat.Pptx);
 ```
 Teraz Twoja prezentacja zawiera płynnie zintegrowaną klatkę wideo!
 ## Wniosek
-Włączanie klatek wideo do slajdów prezentacji za pomocą Aspose.Slides dla .NET to prosty proces, który dodaje dynamiki do treści. Ulepsz swoje prezentacje, wykorzystując elementy multimedialne, przykuwając uwagę odbiorców i zapewniając niezapomniane wrażenia.
+Włączanie klatek wideo do slajdów prezentacji przy użyciu Aspose.Slides dla .NET to prosty proces, który dodaje dynamiki do treści. Ulepsz swoje prezentacje, wykorzystując elementy multimedialne, przykuwając uwagę odbiorców i zapewniając niezapomniane wrażenia.
 ## Często zadawane pytania
 ### P1: Czy mogę dodać wiele klatek wideo do jednego slajdu?
 Tak, możesz dodać wiele klatek wideo do jednego slajdu, powtarzając proces opisany w samouczku dla każdej klatki wideo.

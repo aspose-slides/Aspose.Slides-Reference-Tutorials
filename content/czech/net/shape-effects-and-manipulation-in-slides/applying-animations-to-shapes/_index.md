@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //Zde je váš kód pro vytvoření prezentace.
+    // Zde je váš kód pro vytvoření prezentace.
 }
 ```
 ## Krok 2: Přidejte animovaný tvar

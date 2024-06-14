@@ -12,7 +12,7 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以
 ## 先決條件
 在我們開始之前，您需要滿足一些先決條件：
 1. Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK 8 或更高版本。
-2. Aspose.Slides for Java Library：從 下載最新版本[網站](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library：從 下載最新版本[網站](https://releases.aspose.com/slides/java/).
 3. 整合開發環境 (IDE)：使用 IntelliJ IDEA 或 Eclipse 等 IDE 獲得更流暢的程式設計體驗。
 4. 範例 PowerPoint 文件：有一個 PowerPoint 文件（例如，`Presentation1.pptx`）準備測試程式碼。
 ## 導入包
@@ -20,7 +20,7 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：設定您的項目
 ### 建立 Java 項目
@@ -58,7 +58,7 @@ System.out.println("Zoom: " + threeDEffectiveData.getCamera().getZoom());
 if (pres != null) pres.dispose();
 ```
 ## 結論
-現在你就得到它了！透過執行這些步驟，您已使用 Aspose.Slides for Java 成功從 PowerPoint 投影片中擷取了有效相機資料。這個強大的庫提供了管理簡報的廣泛功能，這個範例只是一個開始。進一步探索自動化和增強您的 PowerPoint 處理任務。
+現在你就擁有了！透過執行這些步驟，您已使用 Aspose.Slides for Java 成功從 PowerPoint 投影片中擷取了有效相機資料。這個強大的庫提供了管理簡報的廣泛功能，這個範例只是一個開始。進一步探索自動化和增強您的 PowerPoint 處理任務。
 ## 常見問題解答
 ### 我可以將 Aspose.Slides for Java 與其他程式語言一起使用嗎？
 Aspose.Slides 可用於包括 .NET 在內的多種程式語言，但本指南重點介紹 Java 版本。

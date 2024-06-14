@@ -15,14 +15,14 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/change-ole-object-dat
 2.  Aspose.Slides สำหรับ Java: ดาวน์โหลดเวอร์ชันล่าสุดจาก[หน้าดาวน์โหลด Aspose.Slides](https://releases.aspose.com/slides/java/).
 3. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): คุณสามารถใช้ Java IDE ใดก็ได้ เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
 4.  Aspose.Cells สำหรับ Java: สิ่งนี้จำเป็นสำหรับการแก้ไขข้อมูลที่ฝังตัวภายในออบเจ็กต์ OLE ดาวน์โหลดได้จาก[หน้าดาวน์โหลด Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. ไฟล์การนำเสนอ: เตรียมไฟล์ PowerPoint พร้อมวัตถุ OLE ที่ฝังอยู่ สำหรับบทช่วยสอนนี้ เรามาตั้งชื่อกัน`ChangeOLEObjectData.pptx`.
+5.  ไฟล์การนำเสนอ: เตรียมไฟล์ PowerPoint พร้อมวัตถุ OLE ที่ฝังอยู่ สำหรับบทช่วยสอนนี้ เรามาตั้งชื่อกัน`ChangeOLEObjectData.pptx`.
 ## แพ็คเกจนำเข้า
 ขั้นแรก เรามานำเข้าแพ็คเกจที่จำเป็นในโปรเจ็กต์ Java ของคุณกันก่อน
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

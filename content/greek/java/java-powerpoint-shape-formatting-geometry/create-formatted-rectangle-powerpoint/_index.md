@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectang
 Για να ξεκινήσετε, θα χρειαστεί να εισαγάγετε τα απαραίτητα πακέτα από τη βιβλιοθήκη Aspose.Slides. Δείτε πώς μπορείτε να το κάνετε:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Αυτή η γραμμή κώδικα αποθηκεύει την παρουσίαση ως αρχείο PPTX στον καθορισμένο κατάλογό σας.
 ## Βήμα 7: Εκκαθάριση πόρων
- Είναι καλή πρακτική η απόρριψη του`Presentation`αντίρρηση στην απελευθέρωση πόρων.
+ Είναι καλή πρακτική η απόρριψη του`Presentation` αντίρρηση στην απελευθέρωση πόρων.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ if (pres != null) pres.dispose();
 ### Πώς μπορώ να αποκτήσω μια δωρεάν δοκιμή του Aspose.Slides για Java;
  Μπορείτε να κατεβάσετε μια δωρεάν δοκιμή του Aspose.Slides για Java από[εδώ](https://releases.aspose.com/).
 ###  Είναι απαραίτητη η απόρριψη του`Presentation` object?
- Ναι, η απόρριψη του`Presentation`Το αντικείμενο βοηθά στην απελευθέρωση πόρων και στην αποφυγή διαρροών μνήμης.
+ Ναι, η απόρριψη του`Presentation` Το αντικείμενο βοηθά στην απελευθέρωση πόρων και στην αποφυγή διαρροών μνήμης.
 ### Πού μπορώ να βρω την τεκμηρίωση για το Aspose.Slides για Java;
  Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/java/).

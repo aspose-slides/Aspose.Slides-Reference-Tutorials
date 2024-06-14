@@ -83,7 +83,7 @@ Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, silakan kunj
 Aspose.Slides untuk .NET dirancang untuk bekerja dengan berbagai format file PowerPoint, termasuk yang terbaru. Periksa dokumentasi untuk detail spesifik.
 
 ### Bisakah saya memanipulasi elemen lain dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET?
-Ya, Anda bisa bekerja dengan slide, bentuk, teks, gambar, dan elemen lainnya dalam presentasi PowerPoint.
+Ya, Anda bisa bekerja dengan slide, bentuk, teks, gambar, dan elemen lain dalam presentasi PowerPoint.
 
 ### Apakah ada versi uji coba gratis yang tersedia untuk Aspose.Slides untuk .NET?
  Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).

@@ -1,6 +1,6 @@
 ---
-title: PowerPoint でグラデーションを使って図形を塗りつぶす
-linktitle: PowerPoint でグラデーションを使って図形を塗りつぶす
+title: PowerPoint で図形をグラデーションで塗りつぶす
+linktitle: PowerPoint で図形をグラデーションで塗りつぶす
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この詳細なステップバイステップ ガイドでは、Aspose.Slides for Java を使用して PowerPoint で図形をグラデーションで塗りつぶす方法を学習します。
 type: docs
@@ -11,7 +11,7 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 視覚的に魅力的な PowerPoint プレゼンテーションを作成することは、聴衆を魅了するために不可欠です。スライドを効果的に強化する方法の 1 つは、図形をグラデーションで塗りつぶすことです。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint で図形をグラデーションで塗りつぶす手順を説明します。熟練した開発者でも、初心者でも、このガイドは役立ち、わかりやすいものになっています。グラデーションの世界に飛び込んで、プレゼンテーションをどのように変えることができるかを見てみましょう。
 ## 前提条件
 始める前に、以下のものを用意してください。
--  Java開発キット（JDK）：JDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java開発キット（JDK）：JDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides for Java: 最新バージョンをダウンロード[ここ](https://releases.aspose.com/slides/java/).
 - 統合開発環境 (IDE): IntelliJ IDEA や Eclipse などの IDE を使用すると、コーディング作業がよりスムーズになります。
 - Java の基礎知識: Java プログラミングに精通していることが必須です。
@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Aspose.Slides を開始するには、必要なパッケージをインポートする必要があります。プロジェクトの依存関係に Aspose.Slides for Java を追加したことを確認してください。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -69,7 +69,7 @@ shp.getFillFormat().getGradientFormat().setGradientShape(GradientShape.Linear);
 //グラデーションの方向を設定する
 shp.getFillFormat().getGradientFormat().setGradientDirection(GradientDirection.FromCorner2);
 ```
-これにより、グラデーションが 1 つのコーナーから別のコーナーに流れるようになり、形状の美観が向上します。
+これにより、グラデーションが 1 つのコーナーから別のコーナーに流れるように設定され、形状の美観が向上します。
 ## ステップ7: グラデーションストップを追加する
 グラデーション ストップは、グラデーション内の色と位置を定義します。
 ```java

@@ -10,7 +10,7 @@ url: /ko/net/audio-and-video-extraction/extract-audio-from-timeline/
 
 멀티미디어 프리젠테이션 세계에서 사운드는 메시지를 효과적으로 전달하는 강력한 도구가 될 수 있습니다. Aspose.Slides for .NET은 PowerPoint 프레젠테이션에서 오디오를 추출하기 위한 완벽한 솔루션을 제공합니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에서 오디오를 추출하는 방법을 보여줍니다.
 
-## 전제조건
+## 전제 조건
 
 PowerPoint 프레젠테이션에서 오디오 추출을 시작하기 전에 다음 전제 조건이 필요합니다.
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- 이 단계에서는 지정된 파일에서 PowerPoint 프레젠테이션을 로드합니다. 꼭 교체하세요`"Your Document Directory"` 프레젠테이션 파일의 실제 경로를 사용하세요.
+이 단계에서는 지정된 파일에서 PowerPoint 프레젠테이션을 로드합니다. 꼭 교체하세요`"Your Document Directory"` 프레젠테이션 파일의 실제 경로를 사용하세요.
 
 ### 2.2단계: 슬라이드 및 타임라인에 액세스
 

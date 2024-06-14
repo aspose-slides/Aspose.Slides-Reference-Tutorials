@@ -13,7 +13,7 @@ Bienvenue dans la collection complète de didacticiels Aspose.Slides pour .NET, 
 Plongez dans le monde de la conversion de présentations avec Aspose.Slides pour .NET. Découvrez comment convertir sans effort des présentations PowerPoint dans une variété de formats, tels que PDF, images, etc. Ces didacticiels fournissent des informations sur la manière de maintenir l'intégrité de votre contenu tout en l'adaptant à différents formats de sortie, vous permettant ainsi de distribuer et de partager efficacement vos présentations sur diverses plateformes.
 
 ## Manipulation de présentation : dévoiler la magie des présentations dynamiques
-Libérez votre créativité et votre efficacité dans la manipulation de présentations à l'aide d'Aspose.Slides pour .NET. Explorez des didacticiels qui vous guident tout au long du processus de création, de modification et d'amélioration dynamiques de présentations PowerPoint par programmation. De la gestion de la mise en page et du contenu des diapositives à l'intégration d'animations et de multimédia, ces didacticiels vous permettent d'acquérir les compétences nécessaires pour créer des présentations attrayantes et interactives qui captivent votre public.
+Libérez votre créativité et votre efficacité dans la manipulation de présentations à l'aide d'Aspose.Slides pour .NET. Explorez des didacticiels qui vous guident tout au long du processus de création, de modification et d'amélioration dynamiques de présentations PowerPoint par programmation. De la gestion des mises en page et du contenu des diapositives à l'intégration d'animations et de multimédia, ces didacticiels vous permettent d'acquérir les compétences nécessaires pour créer des présentations attrayantes et interactives qui captivent votre public.
 
 ## Aspose.Slides pour les didacticiels .NET
 ### [Conversion de présentation](./presentation-conversion/)
@@ -38,7 +38,7 @@ Améliorez vos présentations avec précision ! Explorez le didacticiel Aspose.S
 Découvrez comment générer des miniatures de diapositives à l’aide d’Aspose.Slides pour .NET. Tutoriel pas à pas avec des exemples de code pour créer des aperçus dynamiques de diapositives. Améliorez vos applications de présentation avec cette fonctionnalité puissante.
 ### [Contrôle de l'animation des diapositives](./slide-animation-control/)
 Améliorez vos présentations avec des animations dynamiques à l'aide d'Aspose.Slides pour .NET. Apprenez à contrôler les animations de diapositives étape par étape dans ce didacticiel complet.
-### [Effets de transition des diapositives](./slide-transition-effects/)
+### [Effets de transition de diapositive](./slide-transition-effects/)
 Améliorez vos présentations avec des effets de transition de diapositives captivants à l'aide d'Aspose.Slides pour .NET. Découvrez comment ajouter des animations dynamiques aux diapositives pour une expérience visuelle attrayante.
 ### [Affichage des diapositives et manipulation de la mise en page](./slide-view-and-layout-manipulation/)
 Optimisez les vues et les mises en page des diapositives avec les didacticiels Aspose.Slides sur la vue des diapositives et la manipulation de la mise en page. Améliorez l’impact de la présentation et l’excellence visuelle à l’aide de puissants outils .NET.

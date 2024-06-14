@@ -11,7 +11,7 @@ url: /zh/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effec
 创建引人入胜且动态的演示幻灯片是有效沟通的关键方面。Aspose.Slides for .NET 提供了一套强大的工具来增强您的演示文稿，包括将 3D 旋转效果应用于形状的能力。在本教程中，我们将介绍使用 Aspose.Slides for .NET 将 3D 旋转效果应用于演示幻灯片中的形状的过程。
 ## 先决条件
 在深入学习本教程之前，请确保您已满足以下先决条件：
--  Aspose.Slides for .NET：确保您已安装 Aspose.Slides for .NET 库。您可以从[网站](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET：确保您已安装 Aspose.Slides for .NET 库。您可以从[网站](https://releases.aspose.com/slides/net/).
 - 开发环境：设置 .NET 开发环境，例如 Visual Studio，以编写和运行代码。
 ## 导入命名空间
 在您的 .NET 项目中，导入必要的命名空间以利用 Aspose.Slides 的功能。在代码开头包含以下命名空间：

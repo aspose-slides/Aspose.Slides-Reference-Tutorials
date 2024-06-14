@@ -19,13 +19,13 @@ Pertama, impor paket yang diperlukan untuk menggunakan fungsionalitas Aspose.Sli
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Langkah 1: Siapkan Direktori Data
 ```java
 // Jalur ke direktori dokumen.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Buat direktori jika belum ada.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 Pada langkah ini, kita menentukan jalur ke direktori tempat presentasi PowerPoint akan disimpan. Jika direktori tidak ada, maka akan dibuat.
 ## Langkah 2: Buat Instansiasi Objek Presentasi
 ```java
-//Buat instance objek Presentasi yang mewakili file PPT
+// Buat instance objek Presentasi yang mewakili file PPT
 Presentation presentation = new Presentation();
 ```
- Di sini, kami membuat instance baru dari`Presentation` kelas, yang mewakili presentasi PowerPoint.
+Di sini, kami membuat instance baru dari`Presentation` kelas, yang mewakili presentasi PowerPoint.
 ## Langkah 3: Lakukan Operasi pada Presentasi (Opsional)
 ```java
 //...melakukan beberapa pekerjaan di sini...

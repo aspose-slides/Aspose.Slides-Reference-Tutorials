@@ -57,7 +57,7 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 
 ## 結論
 
-このガイドでは、Aspose.Slides for Java を使用してプレゼンテーションをロードせずに検証する方法について説明しました。この機能により、不要なリソース消費を回避してアプリケーションの効率を大幅に向上できます。Aspose.Slides for Java により、開発者はプレゼンテーションをシームレスに操作できるようになります。
+このガイドでは、Aspose.Slides for Java を使用してプレゼンテーションをロードせずに検証する方法について説明しました。この機能により、不要なリソースの消費を回避してアプリケーションの効率を大幅に向上できます。Aspose.Slides for Java により、開発者はプレゼンテーションをシームレスに操作できるようになります。
 
 ## よくある質問
 

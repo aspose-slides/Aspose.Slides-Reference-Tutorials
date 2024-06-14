@@ -67,4 +67,4 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 
 ### Aspose.Slides for Java適合商業專案嗎？
 
-是的，Aspose.Slides for Java適合商業專案。它提供了一組強大的功能，可在 Java 應用程式中處理 PowerPoint 簡報，並廣泛用於商業和企業環境。
+是的，Aspose.Slides for Java適合商業專案。它提供了一組強大的功能，可在 Java 應用程式中處理 PowerPoint 簡報，並廣泛用於商業和企業環境中。

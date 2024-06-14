@@ -42,7 +42,7 @@ chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelForm
 
 ## 3. lépés: Töltse fel a diagramadatokat
 
-Most feltöltjük adatokkal a diagramot. Kezdjük az alapértelmezett generált sorozatok és kategóriák törlésével, majd új sorozatok és kategóriák hozzáadásával.
+Most feltöltjük a diagramot adatokkal. Kezdjük az alapértelmezett generált sorozatok és kategóriák törlésével, majd új sorozatok és kategóriák hozzáadásával.
 
 ```java
 // Diagram adatlap indexének beállítása
@@ -65,19 +65,19 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 
 ## 4. lépés: Töltse fel a sorozatadatokat
 
-A sorozatadatokat mind az 1., mind a 2. sorozat esetében feltöltjük.
+sorozatadatokat mind az 1., mind a 2. sorozat esetében feltöltjük.
 
 ```java
 // Vegyük az első diagramsorozatot
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Most a sorozatadatok feltöltése
+// Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Vegyük a második diagramsorozatot
 series = chart.getChartData().getSeries().get_Item(1);
-//Most a sorozatadatok feltöltése
+// Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Vegyük az első diagramsorozatot
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//Most a sorozatadatok feltöltése
+	// Most a sorozatadatok feltöltése
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Vegyük a második diagramsorozatot
 	series = chart.getChartData().getSeries().get_Item(1);
-	//Most a sorozatadatok feltöltése
+	// Most a sorozatadatok feltöltése
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//Kitöltési szín beállítása sorozatokhoz
+	// Kitöltési szín beállítása sorozatokhoz
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Prezentáció mentése diagrammal
@@ -160,7 +160,7 @@ finally
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan hozhat létre PowerPoint-prezentációt diagrammal az Aspose.Slides for Java használatával, és hogyan állíthat be automatikus kitöltési színeket a diagramsorozatokhoz. Az automatikus színek javíthatják a diagramok vizuális vonzerejét, és vonzóbbá tehetik prezentációit. A diagramot igény szerint tovább testreszabhatja az Ön egyedi igényei szerint.
+Ebben az oktatóanyagban megtanultuk, hogyan hozhat létre PowerPoint bemutatót diagrammal az Aspose.Slides for Java használatával, és hogyan állíthat be automatikus kitöltési színeket a diagramsorozatokhoz. Az automatikus színek javíthatják a diagramok vizuális vonzerejét, és vonzóbbá tehetik prezentációit. A diagramot igény szerint tovább testreszabhatja az Ön egyedi igényei szerint.
 
 ## GYIK
 
@@ -181,7 +181,7 @@ Ez a kód lehetővé teszi a könyvtár számára, hogy automatikusan válassza 
 
 ### Hogyan adhatok hozzá további sorozatokat vagy kategóriákat a diagramhoz?
 
-Ha további sorozatokat vagy kategóriákat szeretne hozzáadni a diagramhoz, használja a`getSeries()` és`getCategories()` diagram módszerei`ChartData` tárgy. Új sorozatokat és kategóriákat adhat hozzá azok adatainak és címkéinek megadásával.
+ Ha további sorozatokat vagy kategóriákat szeretne hozzáadni a diagramhoz, használja a`getSeries()` és`getCategories()` diagram módszerei`ChartData` tárgy. Új sorozatokat és kategóriákat adhat hozzá azok adatainak és címkéinek megadásával.
 
 ### Lehetséges a diagram és a címkék további formázása?
 

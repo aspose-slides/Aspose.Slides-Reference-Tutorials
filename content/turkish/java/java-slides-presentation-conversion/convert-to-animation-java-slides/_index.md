@@ -34,7 +34,7 @@ import java.io.IOException;
  Başlamak için animasyona dönüştürmek istediğiniz PowerPoint sunumunu yükleyin. Yer değiştirmek`"SimpleAnimations.pptx"` sunum dosyanızın yolu ile birlikte:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 Sunum oynatılırken her kare, belirtilen çıktı dizinine PNG görüntüsü olarak kaydedilecektir. Çıkış yolunu gerektiği gibi özelleştirebilirsiniz:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Java Slaytlarında Animasyona Dönüştürmek İçin Tam Kaynak Kodu
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

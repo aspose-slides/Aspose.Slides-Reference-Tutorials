@@ -19,7 +19,7 @@ Mielőtt belemerülne a kódba, győződjön meg arról, hogy rendelkezik a köv
 Először is importáljuk a példánkhoz szükséges csomagokat.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

@@ -12,14 +12,14 @@ url: /th/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 - ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
-- Aspose.Slides สำหรับไลบรารี Java ที่ดาวน์โหลดและตั้งค่าในโปรเจ็กต์ Java ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides สำหรับไลบรารี Java ที่ดาวน์โหลดและตั้งค่าในโปรเจ็กต์ Java ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
 - ความรู้พื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม Java
 
 ## แพ็คเกจนำเข้า
 ขั้นแรก อิมพอร์ตแพ็กเกจที่จำเป็นลงในคลาส Java ของคุณ:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### ฉันสามารถปรับแต่งสีของเส้นลูกศรได้หรือไม่?
  ใช่ คุณสามารถระบุสีใดก็ได้โดยใช้`setColor` วิธีการด้วย`SolidFillColor`.
 ### ฉันจะเปลี่ยนตำแหน่งและขนาดของเส้นลูกศรได้อย่างไร?
-ปรับพารามิเตอร์ที่ส่งไปยัง`addAutoShape` วิธีการเปลี่ยนตำแหน่งและขนาด
+ ปรับพารามิเตอร์ที่ส่งไปยัง`addAutoShape` วิธีการเปลี่ยนตำแหน่งและขนาด
 ### Aspose.Slides เข้ากันได้กับ PowerPoint ทุกรุ่นหรือไม่
 Aspose.Slides รองรับรูปแบบ PowerPoint ที่หลากหลาย ทำให้มั่นใจได้ถึงความเข้ากันได้ในเวอร์ชันต่างๆ
 ### ฉันสามารถเพิ่มข้อความที่เส้นลูกศรได้หรือไม่?

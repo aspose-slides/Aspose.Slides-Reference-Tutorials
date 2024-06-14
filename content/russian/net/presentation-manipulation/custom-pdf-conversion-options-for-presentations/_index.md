@@ -73,7 +73,7 @@ using (Presentation pres = new Presentation(dataDir + "ConvertToPDF.pptx"))
 
 ## Часто задаваемые вопросы
 
-### 1. Могу ли я использовать Aspose.Slides for .NET для других форматов документов?
+### 1. Могу ли я использовать Aspose.Slides для .NET для других форматов документов?
 
 Да, Aspose.Slides for .NET поддерживает различные форматы документов, а не только презентации PowerPoint. Вы можете работать с документами Word, электронными таблицами Excel и т. д.
 

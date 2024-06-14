@@ -22,13 +22,13 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Krok 1: Nastavte prostředí
  Nejprve vytvořte nový projekt Java a přidejte knihovnu Aspose.Slides for Java do cesty třídy vašeho projektu. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
 ## Krok 2: Vytvořte novou prezentaci
- Dále vytvořte instanci`Presentation` třídy k vytvoření nové prezentace PowerPoint.
+ Dále vytvořte instanci`Presentation` třídy k vytvoření nové powerpointové prezentace.
 ```java
 Presentation pres = new Presentation();
 ```
@@ -61,4 +61,4 @@ Absolutně! Aspose.Slides nabízí širokou škálu typů tvarů, včetně obdé
 ### Mohu na snímek přidat text spolu s tvarem čáry?
 Ano, pomocí Aspose.Slides API můžete na snímek přidat text, obrázky a další obsah.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Slides?
-Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides z[tady](https://releases.aspose.com/).
+ Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides z[tady](https://releases.aspose.com/).

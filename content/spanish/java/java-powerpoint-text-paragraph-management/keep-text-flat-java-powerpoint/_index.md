@@ -1,0 +1,66 @@
+---
+title: Mantenga el texto plano en Java PowerPoint
+linktitle: Mantenga el texto plano en Java PowerPoint
+second_title: Aspose.Slides API de procesamiento de PowerPoint Java
+description: Aprenda cómo mantener el texto plano en presentaciones de PowerPoint en Java usando Aspose.Slides para Java. Siga nuestra guía paso a paso para una manipulación de texto eficiente.
+type: docs
+weight: 11
+url: /es/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
+---
+## Introducción
+En el ámbito de la manipulación de PowerPoint basada en Java, Aspose.Slides para Java se destaca como un conjunto de herramientas robusto y versátil. Ya sea que sea un desarrollador experimentado o un recién llegado que busque mejorar sus presentaciones mediante programación, Aspose.Slides para Java ofrece un conjunto completo de funciones para crear, modificar y administrar presentaciones de PowerPoint sin problemas. Este tutorial profundiza en una funcionalidad específica: mantener el texto plano dentro de las diapositivas de PowerPoint usando Aspose.Slides para Java. Siguiendo esta guía, aprenderá cómo manipular el formato del texto para lograr resultados de presentación precisos.
+## Requisitos previos
+Antes de profundizar en este tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+- Kit de desarrollo de Java (JDK) instalado en su sistema.
+- Conocimientos básicos del lenguaje de programación Java.
+- Familiaridad con el entorno de desarrollo integrado (IDE) como Eclipse o IntelliJ IDEA.
+-  Descargué e instalé la biblioteca Aspose.Slides para Java. Puedes obtenerlo de[aquí](https://releases.aspose.com/slides/java/).
+
+## Importar paquetes
+Comience importando los paquetes necesarios de Aspose.Slides para Java a su archivo Java:
+```java
+import com.aspose.slides.AutoShape;
+import com.aspose.slides.IAutoShape;
+import com.aspose.slides.Presentation;
+import javax.imageio.ImageIO;
+import java.io.File;
+import java.io.IOException;
+```
+### Paso 1: cargar la presentación de PowerPoint
+Comience cargando su archivo de presentación de PowerPoint (`pptxFileName`) y definir la ruta de salida (`resultPath`) para la miniatura de la diapositiva procesada:
+```java
+String pptxFileName = "Your Document Directory";
+String resultPath = "Your Output Directory" + "KeepTextFlat_out.png";
+Presentation pres = new Presentation(pptxFileName);
+```
+## Paso 2: acceder y manipular formas de texto
+Acceda a las formas de texto dentro de la primera diapositiva de la presentación cargada (`pres` ). Ajustar el`KeepTextFlat` propiedad para cada forma en consecuencia:
+```java
+try {
+    IAutoShape shape1 = (AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+    IAutoShape shape2 = (AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(1);
+    // Establecer la propiedad KeepTextFlat para cada forma
+    shape1.getTextFrame().getTextFrameFormat().setKeepTextFlat(false);
+    shape2.getTextFrame().getTextFrameFormat().setKeepTextFlat(true);
+    // Genere una miniatura de la diapositiva y guárdela como PNG
+    ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(4 / 3f, 4 / 3f), "PNG", new File(resultPath));
+} catch (IOException e) {
+    e.printStackTrace();
+} finally {
+    if (pres != null) pres.dispose();
+}
+```
+
+## Conclusión
+Dominar el arte de manipular presentaciones de PowerPoint mediante programación abre puertas a posibilidades creativas ilimitadas. Con Aspose.Slides para Java, las tareas que antes parecían complejas se vuelven sencillas y eficientes. Al comprender cómo mantener el texto plano dentro de las diapositivas usando Aspose.Slides para Java, podrá adaptar las presentaciones con precisión a sus necesidades, garantizando claridad e impacto.
+## Preguntas frecuentes
+### ¿Qué es Aspose.Slides para Java?
+Aspose.Slides para Java es una API de Java que permite a los desarrolladores crear, modificar y convertir presentaciones de PowerPoint mediante programación.
+### ¿Dónde puedo encontrar documentación para Aspose.Slides para Java?
+Puedes explorar documentación detallada.[aquí](https://reference.aspose.com/slides/java/).
+### ¿Cómo puedo obtener una prueba gratuita de Aspose.Slides para Java?
+ Visita[aquí](https://releases.aspose.com/) para descargar una prueba gratuita.
+### ¿Aspose.Slides para Java es adecuado para uso comercial?
+ Sí, puedes comprar una licencia.[aquí](https://purchase.aspose.com/buy).
+### ¿Dónde puedo obtener soporte comunitario para Aspose.Slides para Java?
+ Únase al foro de la comunidad Aspose.Slides[aquí](https://forum.aspose.com/c/slides/11).

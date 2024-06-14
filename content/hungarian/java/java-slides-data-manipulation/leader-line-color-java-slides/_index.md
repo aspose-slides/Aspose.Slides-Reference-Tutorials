@@ -2,7 +2,7 @@
 title: Leader Line Color a Java Slides-ben
 linktitle: Leader Line Color a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan módosíthatja a vezetővonal színeit a PowerPoint diagramokban az Aspose.Slides for Java segítségével. Lépésről lépésre, forráskód-példákkal.
+description: Ismerje meg, hogyan módosíthatja a vezetővonal színeit a PowerPoint diagramokban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskód-példákkal.
 type: docs
 weight: 12
 url: /hu/java/data-manipulation/leader-line-color-java-slides/
@@ -20,7 +20,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel
 
 ## 1. lépés: Töltse be a prezentációt
 
-Először is be kell töltenie a módosítani kívánt diagramot tartalmazó PowerPoint bemutatót. Cserélje ki`presentationName` a PowerPoint-fájl elérési útjával.
+ Először is be kell töltenie a módosítani kívánt diagramot tartalmazó PowerPoint bemutatót. Cserélje ki`presentationName` a PowerPoint-fájl elérési útjával.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Ezután elérjük a diagramot és az adatcímkéket az előadáson belül. Ebben
 // Szerezze le a diagramot az első diáról
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Szerezze be a diagram sorozatát
+//Szerezze be a diagram sorozatát
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Szerezze be az első sorozat címkéit
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Végül mentse a prezentációt a módosított vezérvonalszínekkel egy új fájlba.
 
 ```java
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## A Java Slides Leader Line Color teljes forráskódja
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Szerezze le a diagramot az első diáról
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Szerezze be a diagram sorozatát
+            //Szerezze be a diagram sorozatát
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Szerezd meg az első sorozat lebeljeit
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -95,7 +95,7 @@ Igen, módosíthatja a vezetővonal színét egyéni színre. A megadott kódpé
 
 ### Hogyan érhetek el és módosíthatok más diagramtulajdonságokat az Aspose.Slides for Java segítségével?
 
-diagram egyéb tulajdonságainak eléréséhez és módosításához felfedezheti az Aspose.Slides for Java Chart API által biztosított különféle osztályokat és metódusokat. Módosíthatja a diagramadatokat, a formázást, a címkéket és egyebeket. Részletes információkat és kódpéldákat az Aspose.Slides for Java dokumentációjában talál.
+A diagram egyéb tulajdonságainak eléréséhez és módosításához felfedezheti az Aspose.Slides for Java Chart API által biztosított különféle osztályokat és metódusokat. Módosíthatja a diagramadatokat, a formázást, a címkéket és egyebeket. Részletes információkat és kódpéldákat az Aspose.Slides for Java dokumentációjában talál.
 
 ### Elérhető az Aspose.Slides for Java próbaverziója?
 
@@ -107,7 +107,7 @@ diagram egyéb tulajdonságainak eléréséhez és módosításához felfedezhet
 
 ### Szükségem van licencre az Aspose.Slides for Java használatához kereskedelmi projektekben?
 
-Igen, általában érvényes licenc szükséges az Aspose.Slides for Java használatához kereskedelmi projektekben. Az Aspose különféle licencelési lehetőségeket kínál, beleértve az ingyenes kiértékelési licencet tesztelési és próbaüzemi célokra. A termelési felhasználáshoz azonban meg kell szereznie a megfelelő kereskedelmi engedélyt. Meglátogatni a[Aspose vásárlási oldal](https://purchase.aspose.com/) az engedély részleteiért.
+ Igen, általában érvényes licenc szükséges az Aspose.Slides for Java használatához kereskedelmi projektekben. Az Aspose különféle licencelési lehetőségeket kínál, beleértve az ingyenes kiértékelési licencet tesztelési és próbaüzemi célokra. A termelési felhasználáshoz azonban meg kell szereznie a megfelelő kereskedelmi engedélyt. Meglátogatni a[Aspose vásárlási oldal](https://purchase.aspose.com/) az engedélyezési részletekért.
 
 ### Hogyan kaphatok műszaki támogatást az Aspose.Slides for Java-hoz?
 

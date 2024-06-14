@@ -40,7 +40,7 @@ Utilisez le code suivant pour charger un fichier de présentation :
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Votre code pour récupérer des données efficaces sur les plates-formes légères va ici
+    //Votre code pour récupérer des données efficaces sur les plates-formes légères va ici
 }
 ```
 ## Étape 4 : Récupérer des données efficaces sur les plates-formes légères

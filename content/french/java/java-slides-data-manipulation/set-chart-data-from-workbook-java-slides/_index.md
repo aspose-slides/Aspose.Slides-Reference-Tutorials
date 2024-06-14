@@ -23,7 +23,7 @@ Avant de nous lancer dans la mise en œuvre, assurez-vous de disposer des condit
 ## Étape 1 : Créer une présentation
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,12 +48,12 @@ Nous effaçons toutes les données existantes du graphique pour le préparer aux
 ## Étape 4 : Charger le classeur Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Nous chargeons le classeur Excel contenant les données que nous souhaitons utiliser pour le graphique. Remplacer`"book1.xlsx"` avec le chemin d'accès à votre fichier Excel.
 
-## Étape 5 : Écrire un flux de classeur dans un graphique de données
+## Étape 5 : Écrire un flux de classeur pour tracer des données
 
 ```java
 ByteArrayOutputStream mem = new ByteArrayOutputStream();
@@ -92,14 +92,14 @@ Enfin, nous enregistrons la présentation avec les données du graphique mises �
 ## Code source complet pour définir les données du graphique à partir du classeur dans les diapositives Java
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

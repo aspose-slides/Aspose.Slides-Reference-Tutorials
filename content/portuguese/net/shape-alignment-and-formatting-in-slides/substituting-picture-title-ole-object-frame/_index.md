@@ -8,7 +8,7 @@ weight: 15
 url: /pt/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
 ## Introdução
-criação de slides de apresentação dinâmicos e envolventes geralmente envolve a incorporação de vários elementos multimídia. Neste tutorial, exploraremos como substituir o título da imagem de um quadro de objeto OLE (Object Linking and Embedding) em slides de apresentação usando a poderosa biblioteca Aspose.Slides para .NET. Aspose.Slides simplifica o processo de manipulação de objetos OLE, fornecendo aos desenvolvedores as ferramentas para aprimorar suas apresentações com facilidade.
+A criação de slides de apresentação dinâmicos e envolventes geralmente envolve a incorporação de vários elementos multimídia. Neste tutorial, exploraremos como substituir o título da imagem de um quadro de objeto OLE (Object Linking and Embedding) em slides de apresentação usando a poderosa biblioteca Aspose.Slides para .NET. Aspose.Slides simplifica o processo de manipulação de objetos OLE, fornecendo aos desenvolvedores as ferramentas para aprimorar suas apresentações com facilidade.
 ## Pré-requisitos
 Antes de mergulharmos no guia passo a passo, certifique-se de ter os seguintes pré-requisitos em vigor:
 -  Biblioteca Aspose.Slides for .NET: Certifique-se de ter a biblioteca Aspose.Slides for .NET instalada. Você pode baixá-lo no[Documentação Aspose.Slides .NET](https://reference.aspose.com/slides/net/).
@@ -78,7 +78,7 @@ Sim, Aspose.Slides suporta a incorporação de vários tipos de arquivos, como p
 ### O ícone do objeto OLE é personalizável?
 Absolutamente. Você pode substituir o ícone padrão por qualquer imagem de sua escolha para melhor se adequar ao tema da sua apresentação.
 ### O Aspose.Slides oferece suporte para animações com objetos OLE?
-A partir da versão mais recente, Aspose.Slides concentra-se na incorporação e exibição de objetos OLE e não manipula diretamente animações dentro dos objetos OLE.
+partir da versão mais recente, Aspose.Slides concentra-se na incorporação e exibição de objetos OLE e não manipula diretamente animações dentro dos objetos OLE.
 ### Posso manipular objetos OLE programaticamente depois de adicioná-los a um slide?
 Certamente. Você tem controle programático total sobre objetos OLE, permitindo modificar suas propriedades e aparência conforme necessário.
 ### Há alguma limitação no tamanho dos objetos OLE incorporados?

@@ -24,7 +24,7 @@ W tym samouczku przeprowadzimy Cię przez proces generowania miniatur slajdów z
 - Podgląd zawartości: Miniatury slajdów pozwalają użytkownikom rzucić okiem na zawartość slajdu, pomagając w jej odkrywaniu.
 - Przyjazne dla użytkownika interfejsy: aplikacje do prezentacji z podglądem miniatur oferują bardziej intuicyjną i przyjazną dla użytkownika obsługę.
 
-Bądź na bieżąco, gdy będziemy zagłębiać się w proces krok po kroku, wraz z przykładami kodu, które pomogą Ci bezproblemowo zintegrować generowanie miniatur slajdów z aplikacjami .NET. Niezależnie od tego, czy tworzysz platformy e-learningowe, narzędzia do prezentacji biznesowych, czy jakąkolwiek aplikację zawierającą treści oparte na slajdach, ten samouczek jest bramą do zwiększenia funkcjonalności i zaangażowania użytkowników.
+Bądź na bieżąco, gdy zagłębimy się w proces krok po kroku, wraz z przykładami kodu, które pomogą Ci bezproblemowo zintegrować generowanie miniatur slajdów z aplikacjami .NET. Niezależnie od tego, czy tworzysz platformy e-learningowe, narzędzia do prezentacji biznesowych, czy jakąkolwiek aplikację zawierającą treści oparte na slajdach, ten samouczek jest bramą do zwiększenia funkcjonalności i zaangażowania użytkowników.
 
 Rozpocznij swoją podróż do świata generowania miniatur slajdów za pomocą Aspose.Slides i przenieś swoje aplikacje do prezentacji na nowy poziom wyrafinowania i wygody. Zacznijmy!
 

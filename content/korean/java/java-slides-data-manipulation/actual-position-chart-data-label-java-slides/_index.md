@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/actual-position-chart-data-label-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 차트 데이터 레이블의 실제 위치를 검색하는 방법을 배웁니다. 차트가 포함된 PowerPoint 프레젠테이션을 생성하고 데이터 레이블을 사용자 정의한 다음 이러한 데이터 레이블의 위치를 나타내는 모양을 추가하는 Java 프로그램을 만듭니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설정되어 있는지 확인하세요.
 

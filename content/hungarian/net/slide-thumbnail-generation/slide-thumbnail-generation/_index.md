@@ -8,7 +8,7 @@ weight: 10
 url: /hu/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
 
-Ha dia miniatűröket szeretne létrehozni .NET-alkalmazásaiban az Aspose.Slides segítségével, akkor jó helyen jár. A diabélyegképek létrehozása értékes szolgáltatás lehet különféle forgatókönyvekben, például egyéni PowerPoint-megtekintők készítésénél vagy prezentációk kép-előnézeteinek létrehozásában. Ebben az átfogó útmutatóban lépésről lépésre végigvezetjük a folyamaton. Leírjuk az előfeltételeket, a névterek importálását, és az egyes példákat több lépésre bontjuk, így megkönnyítve a diabélyegképek létrehozásának zökkenőmentes megvalósítását.
+Ha dia miniatűröket szeretne létrehozni .NET-alkalmazásaiban az Aspose.Slides segítségével, akkor jó helyen jár. A diabélyegképek létrehozása értékes szolgáltatás lehet különféle forgatókönyvekben, például egyéni PowerPoint-megtekintők készítésénél vagy prezentációk kép-előnézeteinek létrehozásában. Ebben az átfogó útmutatóban lépésről lépésre végigvezetjük a folyamaton. Leírjuk az előfeltételeket, a névterek importálását, és az egyes példákat több lépésre bontjuk, így megkönnyítve a dia miniatűrök zökkenőmentes létrehozását.
 
 ## Előfeltételek
 
@@ -64,7 +64,7 @@ using (Presentation presentation = new Presentation(dataDir + "YourPresentation.
 }
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YourPresentation.pptx"` a PowerPoint-fájl tényleges nevével.
+ Mindenképpen cserélje ki`"YourPresentation.pptx"` a PowerPoint-fájl tényleges nevével.
 
 ## 4. lépés: A bélyegkép létrehozása
 

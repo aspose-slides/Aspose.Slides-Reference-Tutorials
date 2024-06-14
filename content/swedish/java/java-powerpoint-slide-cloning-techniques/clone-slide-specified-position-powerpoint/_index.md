@@ -21,13 +21,13 @@ Först till kvarn, låt oss importera de nödvändiga paketen. Öppna din Java I
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Konfigurera datakatalogen
 Du behöver en katalog för att lagra dina PowerPoint-filer. Det är här du ska ladda din källfil och spara den klonade presentationen.
 ```java
 // Sökvägen till dokumentkatalogen.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Steg 2: Ladda källpresentationen
 Därefter laddar vi källpresentationen som innehåller bilden du vill klona. Detta steg är avgörande eftersom det fungerar som basen för din kloningsoperation.

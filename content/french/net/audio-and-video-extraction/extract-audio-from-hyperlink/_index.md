@@ -16,7 +16,7 @@ Avant de plonger dans le processus d’extraction, assurez-vous d’avoir les co
 
 ### 1. Aspose.Slides pour la bibliothèque .NET
 
- La bibliothèque Aspose.Slides pour .NET doit être installée dans votre environnement de développement. Si ce n'est pas déjà fait, vous pouvez le télécharger sur le site Web à l'adresse[Documentation Aspose.Slides pour .NET](https://reference.aspose.com/slides/net/).
+La bibliothèque Aspose.Slides pour .NET doit être installée dans votre environnement de développement. Si ce n'est pas déjà fait, vous pouvez le télécharger sur le site Web à l'adresse[Documentation Aspose.Slides pour .NET](https://reference.aspose.com/slides/net/).
 
 ### 2. Présentation PowerPoint avec hyperliens audio
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Étape 2 : Charger la présentation PowerPoint
 
- Chargez la présentation PowerPoint (PPTX) qui contient le lien hypertexte audio à l'aide d'Aspose.Slides. Remplacer`"HyperlinkSound.pptx"` avec le nom de fichier réel de votre présentation.
+ Chargez la présentation PowerPoint (PPTX) qui contient le lien hypertexte audio à l'aide d'Aspose.Slides. Remplacer`"HyperlinkSound.pptx"`avec le nom de fichier réel de votre présentation.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 Si le lien hypertexte est associé à un son, nous pouvons l'extraire sous forme de tableau d'octets et l'enregistrer en tant que fichier multimédia.
 
 ```csharp
-//Extrait le son du lien hypertexte dans un tableau d'octets
+// Extrait le son du lien hypertexte dans un tableau d'octets
 byte[] audioData = link.Sound.BinaryData;
 
 // Spécifiez le chemin où vous souhaitez enregistrer l'audio extrait
@@ -87,7 +87,7 @@ Toutes nos félicitations! Vous avez réussi à extraire l'audio d'un lien hyper
 
 ## Conclusion
 
-Aspose.Slides pour .NET fournit une solution puissante et conviviale pour extraire l'audio des hyperliens dans les présentations PowerPoint. Avec les étapes décrites dans ce guide, vous pouvez facilement améliorer vos projets multimédia en réutilisant le contenu audio de vos présentations.
+Aspose.Slides pour .NET fournit une solution puissante et conviviale pour extraire l'audio des hyperliens dans les présentations PowerPoint. Avec les étapes décrites dans ce guide, vous pouvez améliorer sans effort vos projets multimédia en réutilisant le contenu audio de vos présentations.
 
 ### Foire aux questions (FAQ)
 
@@ -101,7 +101,7 @@ Oui, Aspose.Slides pour .NET prend en charge les formats PPTX et PPT pour extrai
  Oui, vous pouvez obtenir de l'aide et partager vos expériences avec Aspose.[Forum communautaire Aspose.Slides](https://forum.aspose.com/).
 
 ### Puis-je acheter une licence temporaire pour Aspose.Slides pour un projet à court terme ?
- Oui, vous pouvez obtenir une licence temporaire pour Aspose.Slides pour .NET afin de répondre aux besoins de votre projet à court terme en visitant[ce lien](https://purchase.aspose.com/temporary-license/).
+Oui, vous pouvez obtenir une licence temporaire pour Aspose.Slides pour .NET afin de répondre aux besoins de votre projet à court terme en visitant[ce lien](https://purchase.aspose.com/temporary-license/).
 
 ### Existe-t-il d'autres formats audio pris en charge pour l'extraction, en dehors du MPG ?
 Aspose.Slides pour .NET vous permet d'extraire de l'audio dans différents formats, sans se limiter au MPG. Vous pouvez le convertir dans votre format préféré après l'extraction.

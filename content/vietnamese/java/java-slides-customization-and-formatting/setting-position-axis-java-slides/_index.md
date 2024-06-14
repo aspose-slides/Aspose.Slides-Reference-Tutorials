@@ -77,7 +77,7 @@ finally
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng ta đã khám phá cách đặt trục vị trí trong biểu đồ bằng Aspose.Slides cho Java. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn đã học được cách tạo biểu đồ cột được nhóm và tùy chỉnh giao diện của biểu đồ bằng cách định vị trục ngang giữa các danh mục. Aspose.Slides for Java cung cấp các tính năng mạnh mẽ để làm việc với biểu đồ và bản trình bày, khiến nó trở thành một công cụ có giá trị cho các nhà phát triển Java.
+Trong hướng dẫn này, chúng ta đã khám phá cách đặt trục vị trí trong biểu đồ bằng Aspose.Slides cho Java. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn đã học được cách tạo biểu đồ cột được nhóm và tùy chỉnh giao diện của biểu đồ bằng cách định vị trục hoành giữa các danh mục. Aspose.Slides for Java cung cấp các tính năng mạnh mẽ để làm việc với biểu đồ và bản trình bày, khiến nó trở thành một công cụ có giá trị cho các nhà phát triển Java.
 
 ## Câu hỏi thường gặp
 

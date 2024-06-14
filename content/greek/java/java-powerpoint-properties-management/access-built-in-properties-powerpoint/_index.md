@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-properties-management/access-built-in-properties-p
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Ρύθμιση του Αντικειμένου παρουσίασης
 Ξεκινήστε ρυθμίζοντας το αντικείμενο Παρουσίαση για να αντιπροσωπεύει την παρουσίαση του PowerPoint με την οποία θέλετε να εργαστείτε. Δείτε πώς μπορείτε να το κάνετε:

@@ -168,7 +168,7 @@ Dans ce didacticiel, nous avons expliqué comment configurer des légendes pour 
 
 ### Comment personnaliser l’apparence des étiquettes de données ?
 
-Pour personnaliser l'apparence des étiquettes de données, vous pouvez modifier des propriétés telles que les styles de police, de remplissage et de trait. Par exemple:
+Pour personnaliser l'apparence des étiquettes de données, vous pouvez modifier des propriétés telles que les styles de police, de remplissage et de ligne. Par exemple:
 
 ```java
 IDataLabel lbl = dataPoint.getLabel();

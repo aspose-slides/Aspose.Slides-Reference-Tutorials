@@ -9,7 +9,7 @@ url: /ko/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
 ## 소개
 .NET 개발 세계에서 Aspose.Slides는 프레젠테이션 파일 작업을 위한 강력한 도구로 돋보입니다. 프로그래밍 방식으로 프레젠테이션 슬라이드를 인쇄해야 하는 경우 올바른 위치에 오셨습니다. 이 튜토리얼에서는 .NET용 Aspose.Slides를 사용하여 이를 달성하는 방법을 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 단계를 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
 1.  Aspose.Slides 라이브러리: .NET용 Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/net/).
 2. 프린터 구성: 프린터가 올바르게 구성되어 있고 .NET 환경에서 액세스할 수 있는지 확인하세요.

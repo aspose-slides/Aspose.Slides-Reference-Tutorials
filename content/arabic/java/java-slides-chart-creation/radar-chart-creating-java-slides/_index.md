@@ -21,7 +21,7 @@ url: /ar/java/chart-creation/radar-chart-creating-java-slides/
 لنبدأ بإعداد عرض PowerPoint تقديمي جديد وإضافة شريحة إليه.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## أكمل كود المصدر لإنشاء مخطط الرادار في شرائح Java
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// إضافة سلسلة جديدة
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//الآن ملء بيانات السلسلة
+	// الآن ملء بيانات السلسلة
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// ضبط لون السلسلة
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// الآن ملء بيانات سلسلة أخرى
+	//الآن ملء بيانات سلسلة أخرى
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### كيف يمكنني حفظ المخطط بتنسيق ملف مختلف؟
 
- يمكنك تغيير تنسيق الإخراج عن طريق تعديل امتداد الملف في ملف`outPath` المتغير واستخدام المناسب`SaveFormat` . على سبيل المثال، للحفظ بصيغة PDF، استخدم`SaveFormat.Pdf`.
+يمكنك تغيير تنسيق الإخراج عن طريق تعديل امتداد الملف في ملف`outPath` المتغير واستخدام المناسب`SaveFormat` . على سبيل المثال، للحفظ بصيغة PDF، استخدم`SaveFormat.Pdf`.

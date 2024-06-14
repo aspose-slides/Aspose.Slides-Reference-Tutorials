@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 Nadat u wijzigingen in de presentatie heeft aangebracht, wilt u de wijzigingen opslaan. Zo kunt u de gewijzigde presentatie opslaan:
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

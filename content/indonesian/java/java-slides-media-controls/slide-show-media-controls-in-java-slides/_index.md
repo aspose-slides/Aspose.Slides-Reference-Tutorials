@@ -34,7 +34,7 @@ Mari kita mulai dengan membuat presentasi baru. Inilah cara Anda melakukannya di
 
 ```java
 // Jalur ke dokumen PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ Kode ini menyimpan presentasi Anda dengan kontrol media diaktifkan.
 
 ```java
 // Jalur ke dokumen PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Aktifkan tampilan kontrol media dalam mode slideshow.

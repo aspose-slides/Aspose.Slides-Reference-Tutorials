@@ -19,7 +19,7 @@ Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
 Per iniziare, importa i pacchetti necessari nella tua classe Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Sì, puoi aggiungere più linee a forma di freccia a una singola diapositiva rip
 ### Aspose.Slides per Java è compatibile con le ultime versioni di PowerPoint?
 Aspose.Slides per Java supporta la compatibilità con varie versioni di PowerPoint, garantendo una perfetta integrazione con le tue presentazioni.
 ### Posso personalizzare il colore della linea a forma di freccia?
- Sì, puoi personalizzare il colore della linea a forma di freccia regolando il`SolidFillColor` proprietà nel codice.
+Sì, puoi personalizzare il colore della linea a forma di freccia regolando il`SolidFillColor` proprietà nel codice.
 ### Aspose.Slides per Java supporta altre forme oltre alle linee?
 Sì, Aspose.Slides per Java fornisce un ampio supporto per l'aggiunta di varie forme, inclusi rettangoli, cerchi e poligoni, alle diapositive di PowerPoint.
 ### Dove posso trovare ulteriori risorse e supporto per Aspose.Slides per Java?

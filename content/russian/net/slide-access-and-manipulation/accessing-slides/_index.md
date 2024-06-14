@@ -84,7 +84,7 @@ foreach (var shape in shapes)
 var newSlide = slides.AddEmptySlide(presentation.LayoutSlides[0]);
 
 // Настройте новый слайд
-// Ваш код для добавления содержимого на новый слайд
+// Ваш код для добавления контента на новый слайд
 ```
 
 ## Удаление слайдов
@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 После внесения изменений в презентацию вам потребуется сохранить изменения. Вот как вы можете сохранить измененную презентацию:
 
 ```csharp
-// Сохраните измененную презентацию
+//Сохраните измененную презентацию
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

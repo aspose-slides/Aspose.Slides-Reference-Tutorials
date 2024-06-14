@@ -12,7 +12,7 @@ V tomto komplexním průvodci vás provedeme procesem zachování původních p�
 
 ## 1. Úvod
 
-Při převodu prezentací PowerPoint do HTML je zásadní zachovat původní písma, aby byla zajištěna vizuální konzistence obsahu. Aspose.Slides for .NET poskytuje výkonné řešení, jak toho dosáhnout. V tomto tutoriálu vás provedeme kroky potřebnými k zachování původních písem během procesu převodu.
+Při převodu prezentací PowerPoint do HTML je důležité zachovat původní písma, aby byla zajištěna vizuální konzistence obsahu. Aspose.Slides for .NET poskytuje výkonné řešení, jak toho dosáhnout. V tomto tutoriálu vás provedeme kroky potřebnými k zachování původních písem během procesu převodu.
 
 ## 2. Předpoklady
 

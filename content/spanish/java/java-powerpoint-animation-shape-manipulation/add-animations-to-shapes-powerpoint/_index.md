@@ -19,7 +19,7 @@ Antes de sumergirnos en el tutorial, asegurémonos de que tiene todo lo que nece
 Para comenzar, deberá importar los paquetes necesarios para Aspose.Slides y otras clases de Java requeridas.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -61,7 +61,7 @@ pres.getSlides().get_Item(0).getTimeline().getMainSequence().addEffect(ashp, Eff
         EffectSubtype.None, EffectTriggerType.AfterPrevious);
 ```
 ## Paso 6: cree un disparador interactivo
-Cree una forma de botón que activará la animación cuando se haga clic en él.
+Cree una forma de botón que activará la animación cuando se haga clic.
 ```java
 // Crea una forma de "botón" para activar la animación.
 IShape shapeTrigger = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Bevel, 10, 10, 20, 20);
@@ -107,4 +107,4 @@ Aspose.Slides es compatible con Java SE 6 y superior.
 ### ¿Cómo agrego diferentes animaciones a múltiples formas?
 Puede agregar diferentes animaciones a varias formas repitiendo los pasos para cada forma y especificando diferentes efectos según sea necesario.
 ### ¿Dónde puedo encontrar más ejemplos y documentación?
- Revisar la[documentación](https://reference.aspose.com/slides/java/) y[Foro de soporte](https://forum.aspose.com/c/slides/11) para más ejemplos y ayuda.
+ Revisar la[documentación](https://reference.aspose.com/slides/java/) y[Foro de soporte](https://forum.aspose.com/c/slides/11)para más ejemplos y ayuda.

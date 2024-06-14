@@ -19,7 +19,7 @@ Primeiro, você precisa importar os pacotes necessários em seu arquivo Java:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Etapa 1: configurar o ambiente

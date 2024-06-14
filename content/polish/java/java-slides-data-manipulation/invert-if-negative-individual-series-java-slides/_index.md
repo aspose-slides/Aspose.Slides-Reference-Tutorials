@@ -126,8 +126,8 @@ Tak, możesz używać różnych typów wykresów dzięki funkcji „Odwróć, je
 
 ### Czy można dostosować wygląd odwróconych punktów danych?
 
-Tak, możesz dostosować wygląd odwróconych punktów danych. Aspose.Slides for Java zapewnia opcje kontrolowania koloru i stylu punktów danych, gdy są one odwracane z powodu ustawienia „Odwróć, jeśli ujemne”.
+Tak, możesz dostosować wygląd odwróconych punktów danych. Aspose.Slides dla Java zapewnia opcje kontrolowania koloru i stylu punktów danych, gdy są one odwracane z powodu ustawienia „Odwróć, jeśli ujemne”.
 
 ### Gdzie mogę uzyskać dostęp do dokumentacji Aspose.Slides for Java?
 
- Dostęp do dokumentacji Aspose.Slides for Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/slides/java/).
+Dostęp do dokumentacji Aspose.Slides for Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/slides/java/).

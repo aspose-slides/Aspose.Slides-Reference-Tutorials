@@ -21,13 +21,13 @@ Hal pertama yang pertama, mari impor paket yang diperlukan. Buka Java IDE Anda d
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Siapkan Direktori Data
 Anda memerlukan direktori untuk menyimpan file PowerPoint Anda. Di sinilah Anda akan memuat file sumber dan menyimpan presentasi kloning.
 ```java
 // Jalur ke direktori dokumen.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Langkah 2: Muat Presentasi Sumber
 Selanjutnya, kita akan memuat presentasi sumber yang berisi slide yang ingin Anda tiru. Langkah ini penting karena berfungsi sebagai dasar operasi kloning Anda.
@@ -77,6 +77,6 @@ Sangat! Aspose.Slides mendukung berbagai format termasuk PPTX, PPT, dan banyak l
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Slides?
  Anda dapat memperoleh lisensi sementara dari[Asumsikan situs web](https://purchase.aspose.com/temporary-license/).
 ### Apa keuntungan menggunakan Aspose.Slides dibandingkan perpustakaan lain?
-Aspose.Slides menawarkan fitur canggih, dokumentasi ekstensif, dan dukungan luar biasa, menjadikannya pilihan pilihan untuk manipulasi PowerPoint.
+Aspose.Slides menawarkan fitur canggih, dokumentasi ekstensif, dan dukungan luar biasa, menjadikannya pilihan utama untuk manipulasi PowerPoint.
 ### Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Slides?
  Lihat[dokumentasi](https://reference.aspose.com/slides/java/) untuk tutorial dan contoh yang komprehensif.

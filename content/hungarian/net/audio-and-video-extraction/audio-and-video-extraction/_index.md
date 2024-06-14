@@ -65,7 +65,7 @@ byte[] audio = transition.Sound.BinaryData;
 System.Console.WriteLine("Length: " + audio.Length);
 ```
 
-## Videó kinyerése a diáról
+## Videó kinyerése a diából
 
 ### 1. lépés: Állítsa be projektjét
 
@@ -73,7 +73,7 @@ Csakúgy, mint a hangkivonatolási példában, kezdje egy új projekt létrehoz�
 
 ### 2. lépés: Töltse be a prezentációt
 
-Töltse be a PowerPoint prezentációt, amely tartalmazza a kicsomagolni kívánt videót:
+Töltse be a PowerPoint-prezentációt, amely tartalmazza a kicsomagolni kívánt videót:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -128,10 +128,10 @@ Igen, az Aspose.Slides for .NET támogatja a legújabb PowerPoint formátumokat,
 Igen, módosíthatja a kódot, hogy több dián keresztül ismételhessen, és mindegyikből kivonja a multimédiát.
 
 ### Vannak licencelési lehetőségek az Aspose.Slides for .NET számára?
- Az Aspose különféle licencelési lehetőségeket kínál, beleértve az ingyenes próbaverziókat és az ideiglenes licenceket. Ezeket a lehetőségeket fedezheti fel rajtuk[weboldal](https://purchase.aspose.com/buy).
+Az Aspose különféle licencelési lehetőségeket kínál, beleértve az ingyenes próbaverziókat és az ideiglenes licenceket. Ezeket a lehetőségeket fedezheti fel rajtuk[weboldal](https://purchase.aspose.com/buy).
 
 ### Hogyan kaphatok támogatást az Aspose.Slides for .NET-hez?
  Technikai támogatásért és közösségi megbeszélésekért látogasson el az Aspose.Slides oldalra[fórum](https://forum.aspose.com/).
 
 ### Milyen egyéb feladatokat hajthatok végre az Aspose.Slides for .NET segítségével?
-Az Aspose.Slides for .NET szolgáltatások széles skáláját kínálja, beleértve a PowerPoint prezentációk létrehozását, módosítását és konvertálását. További részletekért tekintse meg a dokumentációt:[Aspose.Slides a .NET-dokumentációhoz](https://reference.aspose.com/slides/net/).
+ Az Aspose.Slides for .NET szolgáltatások széles skáláját kínálja, beleértve a PowerPoint prezentációk létrehozását, módosítását és konvertálását. További részletekért tekintse meg a dokumentációt:[Aspose.Slides a .NET-dokumentációhoz](https://reference.aspose.com/slides/net/).

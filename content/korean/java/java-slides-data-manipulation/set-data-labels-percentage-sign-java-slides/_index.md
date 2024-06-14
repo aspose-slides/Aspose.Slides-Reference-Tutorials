@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 
 이 가이드에서는 Aspose.Slides for Java를 사용하여 백분율 기호로 데이터 레이블을 설정하는 과정을 안내합니다. 누적 세로 막대형 차트가 포함된 PowerPoint 프레젠테이션을 만들고 백분율을 표시하도록 데이터 레이블을 구성하겠습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 프로젝트에 Aspose.Slides for Java 라이브러리가 추가되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 백분율을 표시하려면 차트의 세로 축에 대한 숫자 형식을 구성해야 합니다.
 
 ```java
-//NumberFormatLinkedToSource를 false로 설정
+// NumberFormatLinkedToSource를 false로 설정
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // 슬라이드에 PercentsStackedColumn 차트 추가
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//NumberFormatLinkedToSource를 false로 설정
+// NumberFormatLinkedToSource를 false로 설정
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ### 데이터 레이블의 글꼴 크기를 사용자 정의할 수 있나요?
 
- 예, 다음을 설정하여 데이터 레이블의 글꼴 크기를 사용자 정의할 수 있습니다.`setFontHeight` 코드에 표시된 대로 속성을 사용합니다.
+예, 다음을 설정하여 데이터 레이블의 글꼴 크기를 사용자 정의할 수 있습니다.`setFontHeight` 코드에 표시된 대로 속성을 사용합니다.
 
 ### 차트에 시리즈를 더 추가하려면 어떻게 해야 합니까?
 

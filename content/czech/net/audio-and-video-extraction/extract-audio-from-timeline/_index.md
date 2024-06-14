@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- V tomto kroku načteme powerpointovou prezentaci ze zadaného souboru. Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace.
+ tomto kroku načteme powerpointovou prezentaci ze zadaného souboru. Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace.
 
 ### Krok 2.2: Otevřete snímek a časovou osu
 

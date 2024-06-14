@@ -70,7 +70,7 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita mempelajari cara mengatur rentang data untuk bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. API ini menyederhanakan proses bekerja dengan presentasi dan memungkinkan pengembang mengotomatisasi tugas secara efisien.
+Dalam tutorial ini, kita mempelajari cara mengatur rentang data untuk bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. API ini menyederhanakan proses bekerja dengan presentasi dan memungkinkan pengembang mengotomatiskan tugas secara efisien.
 
 ## FAQ
 

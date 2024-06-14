@@ -63,7 +63,7 @@ String outPath = "Your Output Directory/ConvertToGif.gif";
 presentation.save(outPath, SaveFormat.Gif, gifOptions);
 ```
 
-é isso! Você converteu com sucesso uma apresentação do PowerPoint em GIF usando Java e Aspose.Slides for Java.
+é isso! Você converteu com sucesso uma apresentação do PowerPoint em GIF usando Java e Aspose.Slides para Java.
 
 ## Código-fonte completo para conversão em GIF em slides Java
 
@@ -71,7 +71,7 @@ presentation.save(outPath, SaveFormat.Gif, gifOptions);
 // O caminho para o diretório de documentos
 String dataDir = "Your Document Directory";
 // O caminho para o arquivo de saída
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Instancie um objeto Presentation que representa um arquivo de apresentação
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Khi slide đã được sao chép và chèn vào vị trí mong muốn, bạn cần lưu bản trình bày đích đã sửa đổi. Sử dụng đoạn mã sau để lưu bản trình bày:
 
 ```csharp
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Chèn slide nhân bản vào vị trí được chỉ định
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Lưu bản trình bày đã sửa đổi
+            //Lưu bản trình bày đã sửa đổi
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

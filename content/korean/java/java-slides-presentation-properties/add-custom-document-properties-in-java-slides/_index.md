@@ -12,7 +12,7 @@ url: /ko/java/presentation-properties/add-custom-document-properties-in-java-sli
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 사용자 정의 문서 속성을 추가하는 과정을 안내합니다. 사용자 정의 문서 속성을 사용하면 참조 또는 분류를 위해 프레젠테이션에 대한 추가 정보를 저장할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요.
 

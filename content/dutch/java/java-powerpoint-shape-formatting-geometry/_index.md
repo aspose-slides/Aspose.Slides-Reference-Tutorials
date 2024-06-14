@@ -22,11 +22,11 @@ Een van de belangrijkste aspecten van het visueel aantrekkelijk maken van uw pre
 
 ## Vormidentificatie en opmaak
 
-Door vormen efficiënt te vinden en op te maken, kunt u uw workflow stroomlijnen en ervoor zorgen dat uw dia's precies zo zijn als u ze wilt. Aspose.Slides voor Java biedt krachtige hulpmiddelen voor deze taken.
+Door vormen efficiënt te vinden en op te maken, kunt u uw workflow stroomlijnen en ervoor zorgen dat uw dia's precies zo zijn als u ze wilt. Aspose.Slides voor Java biedt krachtige tools voor deze taken.
 
 -  Vormen zoeken: Het snel vinden van vormen in uw dia's is cruciaal voor effectief bewerken. De tutorial[Zoek vorm in dia](./find-shape-slide-powerpoint/) biedt een naadloze methode voor het identificeren van vormen.
--  Lijnopmaak: Het aanpassen van lijnstijlen kan de visuele kwaliteit van uw vormen aanzienlijk verbeteren. Leer hoe u lijnen kunt opmaken met[Lijnen opmaken in PowerPoint](./format-lines-powerpoint/).
--  Verbindingsstijlen: Verschillende lijnverbindingsstijlen kunnen een gepolijste uitstraling aan uw vormen toevoegen. De tutorial[Maak samenvoegstijlen op in PowerPoint](./format-join-styles-powerpoint/) begeleidt u bij deze verbetering.
+-  Lijnopmaak: Het aanpassen van lijnstijlen kan de visuele kwaliteit van uw vormen aanzienlijk verbeteren. Leer hoe u lijnen kunt opmaken[Lijnen opmaken in PowerPoint](./format-lines-powerpoint/).
+-  Verbindingsstijlen: Verschillende lijnverbindingsstijlen kunnen uw vormen een gepolijste uitstraling geven. De tutorial[Maak samenvoegstijlen op in PowerPoint](./format-join-styles-powerpoint/) begeleidt u bij deze verbetering.
 
 ## Geavanceerde geometriemanipulatie
 

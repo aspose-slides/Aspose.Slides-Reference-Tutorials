@@ -1,8 +1,8 @@
 ---
-title: Klonuj slajd w tej samej prezentacji
-linktitle: Klonuj slajd w tej samej prezentacji
+title: Klonuj slajd w ramach tej samej prezentacji
+linktitle: Klonuj slajd w ramach tej samej prezentacji
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Klonuj slajdy w tej samej prezentacji, korzystając z Aspose.Slides dla Java, korzystając z naszego przewodnika. Idealny dla programistów, którzy chcą usprawnić manipulacje w programie PowerPoint.
+description: Klonuj slajdy w tej samej prezentacji, używając Aspose.Slides dla Java, korzystając z naszego przewodnika. Idealny dla programistów, którzy chcą usprawnić manipulacje w programie PowerPoint.
 type: docs
 weight: 15
 url: /pl/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
@@ -22,11 +22,11 @@ Najpierw zaimportujmy niezbędne pakiety do pracy z Aspose.Slides dla Java.
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## Krok 1: Skonfiguruj swój projekt
- Rozpocznij od skonfigurowania projektu Java w środowisku IDE. Utwórz nowy projekt i dodaj bibliotekę Aspose.Slides for Java do zależności projektu. Bibliotekę można pobrać ze strony[Strona pobierania Aspose.Slides dla Java](https://releases.aspose.com/slides/java/).
+Rozpocznij od skonfigurowania projektu Java w środowisku IDE. Utwórz nowy projekt i dodaj bibliotekę Aspose.Slides for Java do zależności projektu. Bibliotekę można pobrać ze strony[Strona pobierania Aspose.Slides dla Java](https://releases.aspose.com/slides/java/).
 ## Krok 2: Zdefiniuj katalog danych
 Zdefiniuj ścieżkę do katalogu dokumentów, w którym znajduje się plik prezentacji. Pomoże to Aspose.Slides poprawnie zlokalizować i zapisać pliki.
 ```java
@@ -53,7 +53,7 @@ Na koniec pamiętaj o pozbyciu się obiektu prezentacji, aby zwolnić zasoby. Je
 ```java
 if (pres != null) pres.dispose();
 ```
-I to wszystko! Pomyślnie sklonowałeś slajd w tej samej prezentacji przy użyciu Aspose.Slides for Java.
+to wszystko! Pomyślnie sklonowałeś slajd w tej samej prezentacji przy użyciu Aspose.Slides for Java.
 ## Wniosek
 Klonowanie slajdów w tej samej prezentacji przy użyciu Aspose.Slides dla Java jest prostym procesem. Postępując zgodnie z tym szczegółowym przewodnikiem, możesz z łatwością powielać slajdy i modyfikować prezentacje zgodnie ze swoimi potrzebami. Niezależnie od tego, czy tworzysz szablony, automatyzujesz generowanie slajdów, czy modyfikujesz istniejące prezentacje, Aspose.Slides zapewnia potężny zestaw narzędzi pozwalający efektywnie wykonać tę pracę.
 ## Często zadawane pytania
@@ -62,8 +62,8 @@ Aspose.Slides for Java to potężny interfejs API do pracy z prezentacjami progr
 ### Jak mogę pobrać Aspose.Slides dla Java?
  Możesz pobrać najnowszą wersję Aspose.Slides dla Java z[strona pobierania](https://releases.aspose.com/slides/java/).
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Slides dla Java?
-Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Slides dla Java, odwiedzając stronę[bezpłatna strona próbna](https://releases.aspose.com/).
+ Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Slides dla Java, odwiedzając stronę[bezpłatna strona próbna](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć dokumentację Aspose.Slides dla Java?
- Dokumentacja Aspose.Slides dla Java jest dostępna na stronie[Strona Aspose](https://reference.aspose.com/slides/java/).
+Dokumentacja Aspose.Slides dla Java jest dostępna na stronie[Strona Aspose](https://reference.aspose.com/slides/java/).
 ### Jak mogę kupić Aspose.Slides dla Java?
  Możesz kupić Aspose.Slides dla Java, odwiedzając stronę[strona zakupu](https://purchase.aspose.com/buy).

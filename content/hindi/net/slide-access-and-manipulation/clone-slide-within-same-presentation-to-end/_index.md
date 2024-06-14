@@ -65,7 +65,7 @@ presentation.Slides.AddClone(duplicatedSlide);
 डुप्लिकेट स्लाइड जोड़ने के बाद, हमें संशोधित प्रस्तुति को सहेजना होगा। यहाँ बताया गया है कि कैसे:
 
 ```csharp
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

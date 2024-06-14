@@ -10,7 +10,7 @@ url: /ko/net/presentation-manipulation/convert-ppt-to-pptx-format/
 
 .NET을 사용하여 PowerPoint 파일을 이전 PPT 형식에서 최신 PPTX 형식으로 변환해야 한다면 잘 찾아오셨습니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET API를 사용하는 프로세스를 안내합니다. 이 강력한 라이브러리를 사용하면 이러한 변환을 쉽게 처리할 수 있습니다. 시작하자!
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음이 설정되어 있는지 확인하세요.
 
@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 string srcFileName = dataDir + "Conversion PPT to PPTX.ppt";
 string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 
-//PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
+// PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
 Presentation pres = new Presentation(srcFileName);
 
 //프레젠테이션을 PPTX 형식으로 저장

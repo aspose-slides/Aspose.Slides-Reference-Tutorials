@@ -12,7 +12,7 @@ Java でプレゼンテーション操作スキルを向上させたいとお考
 ## 前提条件
 始める前に、以下のものを用意してください。
 1.  Java開発キット（JDK）がマシンにインストールされている必要があります。[Java ウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Javaライブラリ。ダウンロードは[Aspose.Slides for Java のダウンロード ページ](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Javaライブラリ。ダウンロードは[Aspose.Slides for Java のダウンロード ページ](https://releases.aspose.com/slides/java/).
 3. IntelliJ IDEA、Eclipse、NetBeans など、任意の IDE。
 4. Java プログラミングの基本的な理解。
 ## パッケージのインポート
@@ -21,7 +21,7 @@ Java でプレゼンテーション操作スキルを向上させたいとお考
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: プロジェクトを設定する
 まず、お好みの IDE で Java プロジェクトを設定し、プロジェクトの依存関係に Aspose.Slides ライブラリを含めます。

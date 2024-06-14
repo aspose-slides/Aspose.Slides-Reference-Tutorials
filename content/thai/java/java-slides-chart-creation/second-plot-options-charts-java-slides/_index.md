@@ -84,7 +84,7 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ### ฉันจะเปลี่ยนขนาดของวงกลมที่สองในแผนภูมิ Pie of Pie ได้อย่างไร
 
- หากต้องการเปลี่ยนขนาดของวงกลมที่สองในแผนภูมิวงกลมจากวงกลม ให้ใช้`setSecondPieSize` วิธีการดังแสดงในตัวอย่างโค้ดด้านบน ปรับค่าเพื่อระบุขนาดเป็นเปอร์เซ็นต์
+หากต้องการเปลี่ยนขนาดของวงกลมที่สองในแผนภูมิวงกลมจากวงกลม ให้ใช้`setSecondPieSize` วิธีการดังแสดงในตัวอย่างโค้ดด้านบน ปรับค่าเพื่อระบุขนาดเป็นเปอร์เซ็นต์
 
 ###  ทำอะไร`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ### ฉันจะกำหนดตำแหน่งของการแยกในแผนภูมิ Pie of Pie ได้อย่างไร
 
-คุณสามารถกำหนดตำแหน่งของการแยกในแผนภูมิ Pie of Pie ได้โดยใช้`setPieSplitPosition` วิธี. ปรับค่าเพื่อระบุตำแหน่งที่ต้องการ
+ คุณสามารถกำหนดตำแหน่งของการแยกในแผนภูมิ Pie of Pie ได้โดยใช้`setPieSplitPosition` วิธี. ปรับค่าเพื่อระบุตำแหน่งที่ต้องการ

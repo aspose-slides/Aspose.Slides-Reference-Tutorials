@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin
 Başlamak için Aspose.Slides ve diğer gerekli Java sınıfları için gerekli paketleri içe aktarmanız gerekir.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -87,7 +87,7 @@ pts[0] = new Point2D.Float(-0.076f, -0.59f);
 motionBhv.getPath().add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, false);
 motionBhv.getPath().add(MotionCommandPathType.End, null, MotionPathPointsType.Auto, false);
 ```
-## Adım 9: Sunuyu Kaydedin
+## Adım 9: Sunuyu Kaydetme
 Son olarak sunuyu istediğiniz konuma kaydedin.
 ```java
 // Sunuyu PPTX dosyası olarak kaydedin
@@ -107,4 +107,4 @@ Aspose.Slides, Java SE 6 ve üzerini destekler.
 ### Birden fazla şekle farklı animasyonları nasıl eklerim?
 Her şekil için adımları tekrarlayarak ve gerektiği gibi farklı efektler belirterek, birden çok şekle farklı animasyonlar ekleyebilirsiniz.
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
- Kontrol et[dokümantasyon](https://reference.aspose.com/slides/java/) Ve[destek Forumu](https://forum.aspose.com/c/slides/11) Daha fazla örnek ve yardım için.
+ Kontrol et[dokümantasyon](https://reference.aspose.com/slides/java/) Ve[destek Forumu](https://forum.aspose.com/c/slides/11)Daha fazla örnek ve yardım için.

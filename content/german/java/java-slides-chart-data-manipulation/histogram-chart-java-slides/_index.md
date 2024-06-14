@@ -65,7 +65,7 @@ try {
 }
 ```
 
-In diesem Code löschen wir zunächst alle vorhandenen Kategorien und Reihen aus dem Diagramm. Dann fügen wir der Reihe Datenpunkte hinzu, indem wir`getDataPoints().addDataPointForHistogramSeries` Methode. Schließlich setzen wir den Aggregationstyp der horizontalen Achse auf Automatisch und speichern die Präsentation.
+ In diesem Code löschen wir zunächst alle vorhandenen Kategorien und Reihen aus dem Diagramm. Dann fügen wir der Reihe Datenpunkte hinzu, indem wir`getDataPoints().addDataPointForHistogramSeries` Methode. Schließlich setzen wir den Aggregationstyp der horizontalen Achse auf Automatisch und speichern die Präsentation.
 
 ## Vollständiger Quellcode für Histogrammdiagramme in Java-Folien
 

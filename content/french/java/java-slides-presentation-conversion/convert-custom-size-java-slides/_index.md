@@ -97,7 +97,7 @@ try
 	// LZW
 	// RLE
 	// La profondeur dépend du type de compression et ne peut pas être définie manuellement.
-	// L'unité de résolution est toujours égale à « 2 » (points par pouce)
+	// L'unité de résolution est toujours égale à « 2 » (points par pouce)
 	// Définition du DPI de l'image
 	opts.setDpiX(200);
 	opts.setDpiY(100);

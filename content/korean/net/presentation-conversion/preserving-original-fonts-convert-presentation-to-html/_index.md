@@ -52,7 +52,7 @@ string[] fontNameExcludeList = { "Calibri", "Arial" };
 
 ## 6. 모든 글꼴 포함
 
-다음으로 HTML 문서에 모든 글꼴을 포함하겠습니다. 이렇게 하면 원본 글꼴이 보존됩니다. 다음 코드를 사용하십시오.
+다음으로 HTML 문서에 모든 글꼴을 포함하겠습니다. 이렇게 하면 원본 글꼴이 보존됩니다. 다음 코드를 사용하세요.
 
 ```csharp
 EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
@@ -97,4 +97,4 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ### Q5: 추가 리소스와 지원은 어디서 이용할 수 있나요?
 
- Aspose 웹사이트에서 더 많은 문서, 튜토리얼 및 지원을 찾을 수 있습니다. 방문하다[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/) 자세한 정보를 보려면.
+ Aspose 웹사이트에서 더 많은 문서, 튜토리얼 및 지원을 찾을 수 있습니다. 방문하다[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/) 자세한 내용은.

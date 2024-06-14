@@ -17,7 +17,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Başlamak için gerekli paketleri Java projenize aktarın:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -33,7 +33,7 @@ PowerPoint dosyasını temsil edecek Sunum sınıfını başlatın:
 ```java
 Presentation pres = new Presentation();
 ```
-## 3. Adım: Slayta Resim Ekleme
+## 3. Adım: Slayda Resim Ekleme
 İlk slaydı alın ve ona bir resim ekleyin:
 ```java
 ISlide sld = pres.getSlides().get_Item(0);

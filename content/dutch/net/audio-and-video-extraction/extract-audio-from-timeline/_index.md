@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- In deze stap laden we de PowerPoint-presentatie vanuit het opgegeven bestand. Zorg ervoor dat u vervangt`"Your Document Directory"` met het daadwerkelijke pad naar uw presentatiebestand.
+In deze stap laden we de PowerPoint-presentatie vanuit het opgegeven bestand. Zorg ervoor dat u vervangt`"Your Document Directory"` met het daadwerkelijke pad naar uw presentatiebestand.
 
 ### Stap 2.2: Toegang tot de dia en tijdlijn
 

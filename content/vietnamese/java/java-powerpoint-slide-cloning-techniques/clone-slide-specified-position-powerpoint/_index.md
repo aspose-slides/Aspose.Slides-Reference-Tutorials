@@ -21,13 +21,13 @@ Trước tiên, hãy nhập các gói cần thiết. Mở Java IDE và thiết l
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập thư mục dữ liệu
 Bạn sẽ cần một thư mục để lưu trữ các tập tin PowerPoint của mình. Đây là nơi bạn sẽ tải tệp nguồn của mình và lưu bản trình bày được sao chép.
 ```java
 // Đường dẫn đến thư mục tài liệu.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Bước 2: Tải bản trình bày nguồn
 Tiếp theo, chúng tôi sẽ tải bản trình bày nguồn chứa slide mà bạn muốn sao chép. Bước này rất quan trọng vì nó đóng vai trò là cơ sở cho hoạt động nhân bản của bạn.

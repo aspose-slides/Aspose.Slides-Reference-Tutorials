@@ -11,7 +11,7 @@ url: /vi/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Tạo các bài thuyết trình hấp dẫn trực quan là rất quan trọng để thu hút và duy trì sự chú ý của khán giả. Việc thêm hiệu ứng góc xiên vào hình dạng có thể nâng cao tính thẩm mỹ tổng thể của trang chiếu, làm cho bản trình bày của bạn trở nên nổi bật. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng hiệu ứng góc xiên cho các hình dạng trong PowerPoint bằng Aspose.Slides cho Java. Cho dù bạn là nhà phát triển đang tìm cách tự động hóa việc tạo bản trình bày hay chỉ là người yêu thích mày mò thiết kế thì hướng dẫn này sẽ giúp bạn.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK. Bạn có thể tải nó xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK. Bạn có thể tải nó xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides cho Thư viện Java: Tải xuống thư viện từ[Aspose.Slides cho Java](https://releases.aspose.com/slides/java/).
 - IDE (Môi trường phát triển tích hợp): Sử dụng bất kỳ IDE nào bạn chọn, chẳng hạn như IntelliJ IDEA, Eclipse hoặc NetBeans.
 -  Giấy phép Aspose: Để sử dụng Aspose.Slides không có giới hạn, hãy lấy giấy phép từ[Quyết định mua hàng](https://purchase.aspose.com/buy) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
@@ -19,7 +19,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn cá
 Trước tiên, bạn cần nhập các gói cần thiết để làm việc với Aspose.Slides trong dự án Java của mình. Đây là cách bạn có thể làm điều đó:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Bước 1: Thiết lập dự án của bạn

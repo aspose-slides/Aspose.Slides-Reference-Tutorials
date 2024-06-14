@@ -38,10 +38,10 @@ Tìm hiểu cách cải thiện các trang trình bày của bạn bằng cách 
 ### [Thêm khung ảnh có chiều cao tỷ lệ tương đối trong Aspose.Slides](./adding-picture-frames-relative-scale/)
 Tìm hiểu cách nâng cao bản trình bày của bạn bằng cách thêm khung ảnh có chiều cao tỷ lệ tương đối bằng Aspose.Slides cho .NET. Tạo các slide hấp dẫn trực quan một cách dễ dàng.
 ### [Thêm Stretch Offset cho hình ảnh Điền vào các slide thuyết trình bằng Aspose.Slides](./adding-stretch-offset-image-fill/)
-Tìm hiểu cách cải thiện các trang trình bày của bạn bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này đề cập đến việc thêm độ lệch kéo dài để lấp đầy hình ảnh, tạo hình ảnh động và tối ưu hóa thiết kế.
+Tìm hiểu cách cải thiện các trang trình bày của bạn bằng Aspose.Slides for .NET. Hướng dẫn từng bước này đề cập đến việc thêm độ lệch kéo dài để lấp đầy hình ảnh, tạo hình ảnh động và tối ưu hóa thiết kế.
 ### [Thêm khung video vào slide thuyết trình bằng Aspose.Slides](./adding-video-frames/)
 Tìm hiểu cách nâng cao bản trình bày của bạn bằng cách thêm khung hình video bằng Aspose.Slides cho .NET. Tạo nội dung hấp dẫn và tương tác liền mạch.
-### [Thêm khung hình video từ nguồn web trong các slide thuyết trình bằng Aspose.Slides](./adding-video-frames-from-web-source/)
+### [Thêm khung hình video từ nguồn web trong các slide thuyết trình với Aspose.Slides](./adding-video-frames-from-web-source/)
 Tìm hiểu cách cải thiện các trang trình bày của bạn bằng cách thêm khung hình video từ các nguồn web bằng Aspose.Slides cho .NET. Tạo bản trình bày đa phương tiện hấp dẫn với hướng dẫn từng bước và ví dụ về mã nguồn.
 ### [Áp dụng Hoạt ảnh cho Hình dạng trong Trang trình bày với Aspose.Slides](./applying-animations-to-shapes/)
 Tìm hiểu cách áp dụng hoạt ảnh hấp dẫn cho các hình dạng bản trình bày bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn để tạo các slide động. Hãy nâng cao bài thuyết trình của bạn ngay bây giờ!

@@ -21,7 +21,7 @@ Ebben az oktatóanyagban végigvezetjük a radardiagram létrehozásának folyam
 Kezdjük egy új PowerPoint-prezentáció beállításával, és adjunk hozzá egy diát.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ Ez az! Sikeresen létrehozott egy radardiagramot egy PowerPoint-prezentációban
 ## Teljes forráskód a radardiagram létrehozásához Java Slides-ben
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Új sorozat hozzáadása
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Most a sorozatadatok feltöltése
+	// Most a sorozatadatok feltöltése
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Állítsa be a sorozat színét
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Most újabb sorozatadatokat tölt fel
+	//Most újabb sorozatadatokat tölt fel
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ Tekintse meg az "5. lépést" a tengelycímkék és a formázás testreszabásá
 
 ### Hogyan menthetem el a diagramot másik fájlformátumba?
 
- Módosíthatja a kimeneti formátumot a fájl kiterjesztésének módosításával a`outPath` változó és a megfelelő használatával`SaveFormat` . Például PDF formátumban történő mentéshez használja a`SaveFormat.Pdf`.
+Módosíthatja a kimeneti formátumot a fájl kiterjesztésének módosításával a`outPath` változó és a megfelelő használatával`SaveFormat` . Például PDF formátumban történő mentéshez használja a`SaveFormat.Pdf`.

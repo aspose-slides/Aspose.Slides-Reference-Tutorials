@@ -18,7 +18,7 @@ Innan du börjar, se till att du har följande förutsättningar på plats:
 Importera nödvändiga paket till ditt Java-projekt:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

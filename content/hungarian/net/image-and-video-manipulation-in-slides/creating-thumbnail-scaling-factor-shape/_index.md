@@ -34,7 +34,7 @@ A Prezentáció blokkon belül hozzon létre egy teljes méretű képet arról a
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //Ide kerül a kép mentéséhez szükséges kód
+    // Ide kerül a kép mentéséhez szükséges kód
 }
 ```
 ## 3. lépés: Mentse a képet lemezre
@@ -52,6 +52,6 @@ Igen, az Aspose.Slides kompatibilis a különböző .NET-keretrendszerekkel, rug
 ### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
  Ideiglenes licencet szerezhet az Aspose.Slides számára, ha meglátogatja[ez a link](https://purchase.aspose.com/temporary-license/).
 ### 4. kérdés: Hol találok további támogatást az Aspose.Slides számára?
-Ha kérdése vagy segítsége van, keresse fel az Aspose.Slides támogatási fórumát[itt](https://forum.aspose.com/c/slides/11).
+ Ha kérdése vagy segítsége van, keresse fel az Aspose.Slides támogatási fórumát[itt](https://forum.aspose.com/c/slides/11).
 ### 5. kérdés: Megvásárolhatom az Aspose.Slides-t .NET-hez?
  Biztosan! Az Aspose.Slides for .NET megvásárlásához látogasson el a vásárlási oldalra[itt](https://purchase.aspose.com/buy).

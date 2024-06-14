@@ -25,12 +25,12 @@ Animace snímků dokážou přeměnit statické prezentace na dynamické vizuál
 
 ## Vydejte se na cestu animací:
 
-Nyní, když máte letmý pohled na to, co vás čeká, je čas vydat se na cestu animací. Ať už chcete přidat jemné přechody nebo vytvořit propracované animované sekvence, tento tutoriál vás vybaví dovednostmi, jak přivést své prezentace k životu. Pojďme se tedy ponořit do světa ovládání animací snímků pomocí Aspose.Slides pro .NET.
+Nyní, když máte letmý pohled na to, co vás čeká, je čas vydat se na cestu animací. Ať už chcete přidat jemné přechody nebo vytvořit propracované animované sekvence, tento výukový program vás vybaví dovednostmi, jak přivést své prezentace k životu. Pojďme se tedy ponořit do světa ovládání animací snímků pomocí Aspose.Slides pro .NET.
 
 ## Výukové programy pro ovládání animací snímků
 ### [Ovládání animace snímku v Aspose.Slides](./slide-animation-control/)
 Naučte se ovládat animace snímků v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady zdrojového kódu pro přidávání, přizpůsobení a správu animací, čímž zvyšuje vizuální přitažlivost vašich prezentací.
-### [Ovládání po animaci Typ na snímku](./control-after-animation-type/)
+### [Kontrola po typu animace na snímku](./control-after-animation-type/)
 Naučte se ovládat typy animací ve snímcích PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady zdrojového kódu a pokrývá instalaci, implementaci kódu a úpravu efektů animace.
 ### [Opakujte animaci na snímku](./repeat-animation-on-slide/)
 Naučte se opakovat animace na snímku pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje zdrojový kód a jasné pokyny pro programové přidávání podmanivých animací do prezentací PowerPoint.

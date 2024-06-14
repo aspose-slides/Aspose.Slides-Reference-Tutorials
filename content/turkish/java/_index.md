@@ -30,7 +30,7 @@ Temel konularda uzmanlaştıktan sonra Aspose.Slides for Java'nın gelişmiş ö
 
 ## Aspose Topluluğuna Katılın
 
-Aspose.Slides for Java dünyasının derinliklerine indikçe sorularla veya zorluklarla karşılaşabilirsiniz. Merak etme; yalnız değilsin.[Topluluk forumu aspose](https://forum.aspose.com/) sizin gibi geliştiricilerin yardım aradığı, deneyimlerini paylaştığı ve projeler üzerinde işbirliği yaptığı bir merkezdir.
+Aspose.Slides for Java dünyasının derinliklerine indikçe sorularla veya zorluklarla karşılaşabilirsiniz. Merak etme; yalnız değilsin.[Topluluk forumu aspose](https://forum.aspose.com/) sizin gibi geliştiricilerin yardım araması, deneyimleri paylaşması ve projeler üzerinde işbirliği yapması için bir merkezdir.
 
 Sonuç olarak Aspose.Slides for Java, Java uygulamalarında dinamik ve ilgi çekici sunumlar oluşturmak isteyen geliştiriciler için ezber bozan bir çözümdür. Eğiticilerimiz bu heyecan verici yolculukta güvenilir arkadaşlarınız olacak ve bu olağanüstü API'nin tüm potansiyelini ortaya çıkarmanıza yardımcı olacak. Peki ne bekliyorsun? Eğitimlere dalın ve Aspose.Slides for Java ile yaratıcılığınızın parlamasına izin verin!
 
@@ -80,3 +80,27 @@ Aspose.Slides for Java'yı kullanarak PowerPoint'te şekilleri nasıl canlandır
 Java PowerPoint şekil biçimlendirme ve geometri eğitimlerini keşfedin. Aspose.Slides for Java ile şekilleri doldurmayı, şekilleri bulmayı ve özel geometri oluşturmayı öğrenin.
 ### [Java PowerPoint Slayt Klonlama Teknikleri](./java-powerpoint-slide-cloning-techniques/)
 Aspose.Slides for Java kullanarak PowerPoint'te ana slayt klonlama. Slaytları aynı sunum içinde veya sunumlar arasında sorunsuz bir şekilde kopyalamayı öğrenin.
+### [Java PowerPoint Metin Kutusu Manipülasyonu](./java-powerpoint-text-box-manipulation/)
+Aspose.Slides ile Java PowerPoint metin kutusu manipülasyonuna yönelik kapsamlı eğitimleri keşfedin. Kılavuzlarımızla sunumlarınızı adım adım geliştirin.
+### [Java PowerPoint Yazı Tipi Yönetimi](./java-powerpoint-font-management/)
+Aspose.Slides for Java'yı kullanarak Java PowerPoint yazı tipi yönetimi eğitimlerini keşfedin. Sunumları geliştirmek için yerleştirme, sıkıştırma ve özelleştirme tekniklerini öğrenin.
+### [Java PowerPoint Animasyonu ve Efektleri](./java-powerpoint-animation-effects/)
+Kapsamlı eğitimlerimizle Java PowerPoint animasyonlarında ve efektlerinde ustalaşın. Aspose.Slides for Java'yı kullanarak animasyonlar, dış ve iç gölgeler eklemeyi öğrenin.
+### [Java PowerPoint Metin Hizalama ve Biçimlendirme](./java-powerpoint-text-alignment-formatting/)
+Java PowerPoint metin hizalama ve biçimlendirme eğitimlerini keşfedin. Aspose.Slides for Java'yı kullanarak metni hizalamayı, biçimlendirmeyi, dışa aktarmayı ve vurgulamayı öğrenin. 
+### [Java PowerPoint Metni Vurgulama ve Geri Dönme Kuralları](./java-powerpoint-text-highlighting-fallback-rules/)
+Aspose.Slides ile Java PowerPoint'te metin vurgulama ve yazı tipi geri dönüş kurallarında ustalaşın. Sunumlarınızı sorunsuz bir şekilde geliştirmek ve otomatikleştirmek için eğitimlerimizi takip edin.
+### [Java PowerPoint Metin ve Paragraf Yönetimi](./java-powerpoint-text-paragraph-management/)
+Aspose.Slides ile Java PowerPoint metin ve paragraf yönetiminde ustalaşın. HTML metnini içe aktarmayı, satır aralığını yönetmeyi, madde işaretleri oluşturmayı ve paragrafları hizalamayı öğrenin.
+### [Java PowerPoint Yazı Tipi Yönetimi ve Metin Değiştirme](./java-powerpoint-font-management-text-replacement/)
+Aspose.Slides ile Java PowerPoint yazı tipi yönetimi ve metin değiştirme konusunda uzmanlaşın. Özel yazı tiplerini yüklemeyi, gömülü yazı tiplerini yönetmeyi ve metni sorunsuz bir şekilde değiştirmeyi öğrenin.
+### [Java PowerPoint Gelişmiş Paragraf ve Yazı Tipi Özellikleri](./java-powerpoint-advanced-paragraph-font-properties/)
+Aspose.Slides'ı kullanarak Java PowerPoint'te gelişmiş paragraf ve yazı tipi özelliklerinde uzmanlaşın. Yazı tiplerini özelleştirmeyi, resim madde işaretleri eklemeyi ve yedek yazı tiplerini kullanmayı öğrenin.
+### [Java PowerPoint Metni ve Yazı Tipi Özelleştirme](./java-powerpoint-text-font-customization/)
+Aspose.Slides ile Java PowerPoint metni ve yazı tipi özelleştirmesine ilişkin eğitimleri keşfedin. Sunumlarınızı geliştirmek için döndürme, yazı tipi değiştirme ve daha fazlasını öğrenin.
+### [Java PowerPoint Tablosu İşleme](./java-powerpoint-table-manipulation/)
+Aspose.Slides ile Java PowerPoint tablosu manipülasyonunda ustalaşın. Ayrıntılı adım adım eğitimlerimiz aracılığıyla resim eklemeyi, hücreleri bölmeyi, tablolar oluşturmayı ve daha fazlasını öğrenin.
+### [Java PowerPoint Tablosu Biçimlendirmesi ve Güncellemeler](./java-powerpoint-table-formatting-updates/)
+Aspose.Slides'ı kullanarak Java PowerPoint sunumlarını tablo formatlama ve güncellemelerle geliştirin. Kenarlık eklemeyi, sütun ve satırlardaki metni biçimlendirmeyi ve tabloları güncellemeyi öğrenin.
+### [Java PowerPoint SmartArt Manipülasyonu](./java-powerpoint-smartart-manipulation/)
+GroupDocs.Slides for Java eğitimleriyle Java PowerPoint SmartArt'ı etkili bir şekilde nasıl yöneteceğinizi öğrenin. Alt düğümlere erişin, düğüm ekleyin, düzenleri değiştirin ve daha fazlasını yapın!

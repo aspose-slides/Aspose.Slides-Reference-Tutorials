@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- In deze code maken we een diagram en stellen we de lettergrootte van de legendatekst in op 20 punten. U kunt de`setFontHeight`waarde om de lettergrootte te wijzigen.
+ In deze code maken we een diagram en stellen we de lettergrootte van de legendatekst in op 20 punten. U kunt de`setFontHeight` waarde om de lettergrootte te wijzigen.
 
 ### Kan ik andere eigenschappen van de legenda in een diagram aanpassen?
 
@@ -134,4 +134,4 @@ Hier schakelen we het automatisch schalen van de assen uit en specificeren we de
 
 ### Waar kan ik meer informatie en documentatie voor Aspose.Slides vinden?
 
-Uitgebreide documentatie en API-referenties voor Aspose.Slides voor Java vindt u op de documentatiewebsite van Aspose. Bezoek[hier](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over het gebruik van de bibliotheek.
+ Uitgebreide documentatie en API-referenties voor Aspose.Slides voor Java vindt u op de documentatiewebsite van Aspose. Bezoek[hier](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over het gebruik van de bibliotheek.

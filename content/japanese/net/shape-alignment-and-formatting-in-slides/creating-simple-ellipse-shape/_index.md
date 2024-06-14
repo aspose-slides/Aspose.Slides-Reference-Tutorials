@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides .NET で楕円を簡単に作成する
+title: Aspose.Slides .NET で楕円形を簡単に作成する
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにシンプルな楕円形を作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーション スライドに魅力的な楕円形を作成する方法を学びます。簡単な手順でダイナミックなデザインを作成できます。
@@ -11,7 +11,7 @@ url: /ja/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 プレゼンテーション デザインのダイナミックな世界では、楕円などの図形を組み込むことで、創造性とプロフェッショナリズムの雰囲気を演出できます。Aspose.Slides for .NET は、プレゼンテーション ファイルをプログラムで操作するための強力なソリューションを提供します。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドに単純な楕円を作成する手順を説明します。
 ## 前提条件
 チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
--  Aspose.Slides for .NET: Aspose.Slidesライブラリが.NET用にインストールされていることを確認してください。[リリースページ](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Aspose.Slidesライブラリが.NET用にインストールされていることを確認してください。[リリースページ](https://releases.aspose.com/slides/net/).
 - 開発環境: マシンに .NET 開発環境をセットアップします。
 ## 名前空間のインポート
 .NET プロジェクトでは、まず必要な名前空間をインポートします。

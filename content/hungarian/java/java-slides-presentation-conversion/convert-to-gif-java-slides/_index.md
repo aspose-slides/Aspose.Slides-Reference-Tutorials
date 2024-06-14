@@ -71,7 +71,7 @@ presentation.save(outPath, SaveFormat.Gif, gifOptions);
 // A dokumentumok könyvtárának elérési útja
 String dataDir = "Your Document Directory";
 // A kimeneti fájl elérési útja
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Példányosítson egy bemutató objektumot, amely egy prezentációs fájlt képvisel
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

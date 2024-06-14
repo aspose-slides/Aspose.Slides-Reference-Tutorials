@@ -1,5 +1,5 @@
 ---
-title: PowerPoint 図形サムネイルの作成 - Aspose.Slides .NET
+title: PowerPoint 図形サムネイルを作成する - Aspose.Slides .NET
 linktitle: Aspose.Slides で図形のサムネイルを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションの図形のサムネイルを作成する方法を学習します。開発者向けの包括的なステップバイステップ ガイドです。
@@ -23,7 +23,7 @@ using Aspose.Slides;
 ## ステップ1: プロジェクトを設定する
 希望する開発環境で新しい C# プロジェクトを作成します。プロジェクトで Aspose.Slides ライブラリが参照されていることを確認します。
 ## ステップ2: プレゼンテーションを初期化する
- PowerPointファイルを表すプレゼンテーションクラスをインスタンス化します。プレゼンテーションファイルへのパスを`dataDir`変数。
+PowerPointファイルを表すプレゼンテーションクラスをインスタンス化します。プレゼンテーションファイルへのパスを`dataDir`変数。
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -56,4 +56,4 @@ A: try-catch ブロックを使用して例外を管理するエラー処理メ�
 ### Q: サムネイルを作成できる図形のサイズや種類に制限はありますか?
 A: Aspose.Slides は、テキスト ボックス、画像など、さまざまな図形のサムネイルを柔軟に作成できます。
 ### Q: 生成されたサムネイルのサイズと解像度をカスタマイズできますか?
-A: はい、呼び出し時にパラメータを調整できます。`GetThumbnail`サイズと解像度を制御する方法。
+ A: はい、呼び出し時にパラメータを調整できます。`GetThumbnail`サイズと解像度を制御する方法。

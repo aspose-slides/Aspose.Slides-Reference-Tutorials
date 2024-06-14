@@ -101,7 +101,7 @@ finally
 
 ### Как загрузить Aspose.Slides для Java?
 
-Вы можете скачать Aspose.Slides для Java с веб-сайта Aspose. Посещать[здесь](https://releases.aspose.com/slides/java/) чтобы получить доступ к ссылке для скачивания.
+ Вы можете скачать Aspose.Slides для Java с веб-сайта Aspose. Посещать[здесь](https://releases.aspose.com/slides/java/) чтобы получить доступ к ссылке для скачивания.
 
 ### Существуют ли какие-либо лицензионные требования для использования Aspose.Slides для Java?
 

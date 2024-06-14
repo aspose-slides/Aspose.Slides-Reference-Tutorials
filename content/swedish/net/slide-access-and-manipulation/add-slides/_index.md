@@ -64,7 +64,7 @@ Nu när du har skapat de nya bilderna kan du infoga dem på önskad plats i pres
 
 ```csharp
 // Sätt in diabilder på en specifik position
-int insertionIndex = 2; // Index var du vill infoga de nya bilderna
+int insertionIndex = 2; // Index där du vill infoga de nya bilderna
 presentation.Slides.InsertClone(insertionIndex, slide1);
 presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 ```
@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 När du har infogat de ytterligare bilderna bör du spara den ändrade presentationen.
 
 ```csharp
-// Spara den ändrade presentationen
+//Spara den ändrade presentationen
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Byta ut`"path_to_modified_presentation.pptx"` med önskad sökväg och filnamn för den ändrade presentationen.
+ Byta ut`"path_to_modified_presentation.pptx"`med önskad sökväg och filnamn för den ändrade presentationen.
 
 ## Slutsats
 
@@ -98,7 +98,7 @@ Du kan anpassa innehållet i de nya bilderna genom att komma åt deras former oc
 
 ### Vad händer om jag vill infoga bilder i början av presentationen?
 
- För att infoga bilder i början av presentationen, ställ in`insertionIndex` till`0`.
+För att infoga bilder i början av presentationen, ställ in`insertionIndex` till`0`.
 
 ### Är det möjligt att ändra layouten på de infogade bilderna?
 

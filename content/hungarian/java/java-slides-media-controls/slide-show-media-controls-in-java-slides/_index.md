@@ -10,7 +10,7 @@ url: /hu/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ## A Java Slides diavetítési médiavezérlőinek bemutatása
 
-A dinamikus és lebilincselő prezentációk birodalmában a multimédiás elemek kulcsszerepet játszanak a közönség figyelmének megragadásában. A Java Slides az Aspose.Slides for Java segítségével lehetővé teszi a fejlesztők számára, hogy lenyűgöző diavetítéseket készítsenek, amelyek zökkenőmentesen tartalmazzák a médiavezérlőket. Akár egy képzési modult, egy értékesítési prezentációt vagy egy oktatási bemutatót tervez, a diavetítés során a média vezérlésének képessége megváltoztatja a játékot.
+A dinamikus és lebilincselő prezentációk birodalmában a multimédiás elemek kulcsszerepet játszanak a közönség figyelmének megragadásában. A Java Slides az Aspose.Slides for Java segítségével lehetővé teszi a fejlesztők számára, hogy lenyűgöző diavetítéseket készítsenek, amelyek zökkenőmentesen tartalmazzák a médiavezérlőket. Akár egy képzési modult, akár egy értékesítési prezentációt vagy egy oktatási bemutatót tervez, a diavetítés során a média vezérlésének képessége megváltoztatja a játékot.
 
 ## Előfeltételek
 
@@ -34,7 +34,7 @@ Kezdjük egy új prezentáció létrehozásával. Ezt a következőképpen tehet
 
 ```java
 // PPTX dokumentum elérési útja
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ Ez a kód elmenti a prezentációt a médiavezérlők engedélyezésével.
 
 ```java
 // PPTX dokumentum elérési útja
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// A médiavezérlő megjelenítés engedélyezése diavetítés módban.

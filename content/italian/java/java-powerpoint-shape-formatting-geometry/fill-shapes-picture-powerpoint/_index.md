@@ -8,7 +8,7 @@ weight: 12
 url: /it/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
 ## introduzione
-Le presentazioni di PowerPoint spesso richiedono elementi visivi come forme piene di immagini per aumentare il loro fascino e trasmettere le informazioni in modo efficace. Aspose.Slides per Java fornisce un potente set di strumenti per eseguire questa attività senza problemi. In questo tutorial impareremo come riempire forme con immagini utilizzando Aspose.Slides per Java passo dopo passo.
+Le presentazioni PowerPoint spesso richiedono elementi visivi come forme piene di immagini per aumentare il loro fascino e trasmettere le informazioni in modo efficace. Aspose.Slides per Java fornisce un potente set di strumenti per eseguire questa attività senza problemi. In questo tutorial impareremo come riempire forme con immagini utilizzando Aspose.Slides per Java passo dopo passo.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere quanto segue:
 1. Java Development Kit (JDK) installato sul tuo sistema.
@@ -18,7 +18,7 @@ Prima di iniziare, assicurati di avere quanto segue:
 Nel tuo progetto Java, importa i pacchetti necessari:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

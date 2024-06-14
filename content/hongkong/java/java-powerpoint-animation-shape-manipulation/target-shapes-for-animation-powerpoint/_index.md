@@ -21,7 +21,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/target-shapes-fo
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：設定示範文件
 首先指定來源簡報檔案的路徑：

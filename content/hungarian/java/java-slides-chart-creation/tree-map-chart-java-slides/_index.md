@@ -143,7 +143,7 @@ Ebben az oktatóanyagban megtanulta, hogyan hozhat létre fatérkép-diagramot e
 
 ### Hogyan szabhatom testre a fatérkép-diagram megjelenését?
 
- Testreszabhatja a fatérkép diagram megjelenését a különböző tulajdonságok módosításával`chart` és`series` objektumok, például színek, címkék és elrendezések.
+ Testreszabhatja a fatérkép diagram megjelenését a különböző tulajdonságok módosításával`chart` és`series`objektumok, például színek, címkék és elrendezések.
 
 ### Létrehozhatok több fatérkép-diagramot egyetlen prezentációban?
 

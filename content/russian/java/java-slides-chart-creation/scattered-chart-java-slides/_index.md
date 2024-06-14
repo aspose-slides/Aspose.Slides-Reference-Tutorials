@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Шаг 2. Добавьте слайд и создайте точечную диаграмму
 
- Затем добавьте слайд и создайте на нем точечную диаграмму. Мы будем использовать`ScatterWithSmoothLines` тип диаграммы в этом примере.
+ Затем добавьте слайд и создайте на нем точечную диаграмму. Мы будем использовать`ScatterWithSmoothLines`тип диаграммы в этом примере.
 
 ```java
 // Получить первый слайд
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Создание диаграммы по умолчанию
+//Создание диаграммы по умолчанию
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Получение индекса таблицы данных диаграммы по умолчанию
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### Как изменить тип диаграммы?
 
- Чтобы изменить тип диаграммы, используйте`setType`метод для серии диаграмм и укажите желаемый тип диаграммы. Например,`series.setType(ChartType.Line)` изменит ряд на линейный график.
+ Чтобы изменить тип диаграммы, используйте`setType` метод для серии диаграмм и укажите желаемый тип диаграммы. Например,`series.setType(ChartType.Line)` изменит ряд на линейный график.
 
 ### Как настроить размер и стиль маркера?
 

@@ -1,6 +1,6 @@
 ---
-title: Gör kommentarer i PowerPoint
-linktitle: Gör kommentarer i PowerPoint
+title: Återge kommentarer i PowerPoint
+linktitle: Återge kommentarer i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du återger kommentarer i PowerPoint-presentationer med Aspose.Slides för Java. Anpassa utseendet och generera bildförhandsvisningar effektivt.
 type: docs
@@ -18,7 +18,7 @@ Innan vi börjar, se till att du har följande:
 Börja med att importera de nödvändiga paketen i din Java-kod:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

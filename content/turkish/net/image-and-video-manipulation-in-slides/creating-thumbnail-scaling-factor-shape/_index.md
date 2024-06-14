@@ -34,7 +34,7 @@ Sunum bloğunda, küçük resmini oluşturmak istediğiniz şeklin tam ölçekli
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //Resmi kaydetme kodunuz buraya gelecek
+    // Resmi kaydetme kodunuz buraya gelecek
 }
 ```
 ## 3. Adım: Görüntüyü Diske Kaydedin
@@ -52,6 +52,6 @@ Evet, Aspose.Slides çeşitli .NET çerçeveleriyle uyumludur ve farklı uygulam
 ### S3: Aspose.Slides için nasıl geçici lisans alabilirim?
  adresini ziyaret ederek Aspose.Slides için geçici bir lisans alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/).
 ### S4: Aspose.Slides için ek desteği nerede bulabilirim?
-Sorularınız veya yardımlarınız için Aspose.Slides destek forumunu ziyaret etmekten çekinmeyin[Burada](https://forum.aspose.com/c/slides/11).
+ Sorularınız veya yardımlarınız için Aspose.Slides destek forumunu ziyaret etmekten çekinmeyin[Burada](https://forum.aspose.com/c/slides/11).
 ### S5: Aspose.Slides for .NET'i satın alabilir miyim?
  Kesinlikle! Aspose.Slides for .NET'i satın almak için lütfen satın alma sayfasını ziyaret edin[Burada](https://purchase.aspose.com/buy).

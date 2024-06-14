@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 لعرض النسب المئوية، نحتاج إلى تكوين تنسيق الأرقام للمحور الرأسي للمخطط.
 
 ```java
-//اضبط NumberFormatLinkedToSource على خطأ
+// اضبط NumberFormatLinkedToSource على خطأ
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // إضافة مخطط PercentsStackedColumn على الشريحة
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//اضبط NumberFormatLinkedToSource على خطأ
+// اضبط NumberFormatLinkedToSource على خطأ
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ### هل يمكنني تخصيص حجم خط تسميات البيانات؟
 
- نعم، يمكنك تخصيص حجم خط تسميات البيانات عن طريق تعيين`setFontHeight` الخاصية كما هو موضح في الكود.
+نعم، يمكنك تخصيص حجم خط تسميات البيانات عن طريق تعيين`setFontHeight` الخاصية كما هو موضح في الكود.
 
 ### كيف يمكنني إضافة المزيد من السلاسل إلى المخطط؟
 

@@ -74,6 +74,6 @@ Absolut! Aspose.Slides erbjuder omfattande alternativ för att anpassa 3D-egensk
 ### Var kan jag hitta fler handledningar och exempel?
  Utforska Aspose.Slides-dokumentationen[här](https://reference.aspose.com/slides/net/) för omfattande handledningar och exempel.
 ### Finns det en gratis provperiod?
- Ja, du kan ladda ner en gratis testversion av Aspose.Slides[här](https://releases.aspose.com/).
+Ja, du kan ladda ner en gratis testversion av Aspose.Slides[här](https://releases.aspose.com/).
 ### Hur kan jag få support om jag stöter på problem?
  Besök Aspose.Slides-forumet[här](https://forum.aspose.com/c/slides/11) för samhällsstöd och hjälp.

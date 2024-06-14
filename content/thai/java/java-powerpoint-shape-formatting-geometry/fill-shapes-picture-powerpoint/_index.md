@@ -18,7 +18,7 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powe
 ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็น:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

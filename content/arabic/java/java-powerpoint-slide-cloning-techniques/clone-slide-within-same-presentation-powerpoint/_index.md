@@ -22,11 +22,11 @@ url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## الخطوة 1: قم بإعداد مشروعك
- ابدأ بإعداد مشروع Java الخاص بك في IDE الخاص بك. أنشئ مشروعًا جديدًا وأضف مكتبة Aspose.Slides for Java إلى تبعيات مشروعك. يمكنك تحميل المكتبة من[صفحة تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
+ابدأ بإعداد مشروع Java الخاص بك في IDE الخاص بك. أنشئ مشروعًا جديدًا وأضف مكتبة Aspose.Slides for Java إلى تبعيات مشروعك. يمكنك تحميل المكتبة من[صفحة تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
 ## الخطوة 2: تحديد دليل البيانات
 حدد المسار إلى دليل المستندات الخاص بك حيث يوجد ملف العرض التقديمي الخاص بك. سيساعد هذا Aspose.Slides في تحديد موقع الملفات وحفظها بشكل صحيح.
 ```java
@@ -62,8 +62,8 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 ### كيف يمكنني تنزيل Aspose.Slides لجافا؟
  يمكنك تنزيل أحدث إصدار من Aspose.Slides لـ Java من[صفحة التحميل](https://releases.aspose.com/slides/java/).
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ Java؟
-نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Slides for Java من خلال زيارة الموقع[صفحة تجريبية مجانية](https://releases.aspose.com/).
+ نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Slides for Java من خلال زيارة الموقع[صفحة تجريبية مجانية](https://releases.aspose.com/).
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ Java؟
- الوثائق الخاصة بـ Aspose.Slides for Java متاحة على الموقع[موقع أسبوز](https://reference.aspose.com/slides/java/).
+الوثائق الخاصة بـ Aspose.Slides for Java متاحة على الموقع[موقع أسبوز](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني شراء Aspose.Slides لجافا؟
  يمكنك شراء Aspose.Slides لـ Java من خلال زيارة الموقع[صفحة الشراء](https://purchase.aspose.com/buy).

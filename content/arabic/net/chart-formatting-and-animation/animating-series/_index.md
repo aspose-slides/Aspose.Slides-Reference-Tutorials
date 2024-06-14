@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 بمجرد إضافة تأثيرات الرسوم المتحركة إلى المخطط الخاص بك، احفظ العرض التقديمي المعدل على القرص.
 
 ```csharp
-// احفظ العرض التقديمي المعدل
+//احفظ العرض التقديمي المعدل
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

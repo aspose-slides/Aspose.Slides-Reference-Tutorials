@@ -1,5 +1,5 @@
 ---
-title: 使用 Aspose.Slides 將超連結新增至 .NET 中的幻燈片
+title: 使用 Aspose.Slides 將超連結新增至 .NET 中的投影片
 linktitle: 新增超連結到幻燈片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 新增超連結到 PowerPoint 投影片。透過互動元素增強您的簡報。
@@ -8,7 +8,7 @@ weight: 12
 url: /zh-hant/net/hyperlink-manipulation/add-hyperlink/
 ---
 
-在數位演示領域，互動性是關鍵。在幻燈片中添加超連結可以使您的簡報更具吸引力和資訊量。 Aspose.Slides for .NET 是一個功能強大的程式庫，可讓您以程式設計方式建立、修改和操作 PowerPoint 簡報。在本教學中，我們將向您展示如何使用 Aspose.Slides for .NET 將超連結新增至投影片中。 
+在數位演示領域，互動性是關鍵。在幻燈片中添加超連結可以使您的簡報更具吸引力和資訊量。 Aspose.Slides for .NET 是一個功能強大的函式庫，可讓您以程式設計方式建立、修改和操作 PowerPoint 簡報。在本教學中，我們將向您展示如何使用 Aspose.Slides for .NET 將超連結新增至投影片中。 
 
 ## 先決條件
 
@@ -44,7 +44,7 @@ using (Presentation presentation = new Presentation())
 
 此程式碼初始化一個新的 PowerPoint 簡報。
 
-## 第 2 步：新增文字框
+## 第 2 步：新增文字框架
 
 現在，讓我們為幻燈片添加文字框架。此文字框架將用作幻燈片中的可點擊元素。 
 
@@ -81,7 +81,7 @@ presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 
 ## 結論
 
-在本教學中，我們探討如何使用 Aspose.Slides for .NET 在 PowerPoint 簡報中新增超連結到投影片。透過執行這些步驟，您可以使簡報更具互動性和吸引力，並提供指向其他資源或資訊的有價值的連結。
+在本教學中，我們探討如何使用 Aspose.Slides for .NET 在 PowerPoint 簡報中新增投影片的超連結。透過執行這些步驟，您可以使簡報更具互動性和吸引力，並提供指向其他資源或資訊的有價值的連結。
 
 有關更多詳細資訊和文檔，請訪問[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).
 

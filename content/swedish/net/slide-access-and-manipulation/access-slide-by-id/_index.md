@@ -95,7 +95,7 @@ I den här guiden har vi undersökt hur du kommer åt bilder med deras unika ide
 
 ### Hur kan jag installera Aspose.Slides för .NET?
 
- Du kan installera Aspose.Slides för .NET med NuGet Package Manager. Kör helt enkelt kommandot`Install-Package Aspose.Slides.NET` i Package Manager Console.
+ Du kan installera Aspose.Slides för .NET med NuGet Package Manager. Kör helt enkelt kommandot`Install-Package Aspose.Slides.NET` i Package Manager-konsolen.
 
 ### Vilka typer av bildidentifierare stöder Aspose.Slides?
 

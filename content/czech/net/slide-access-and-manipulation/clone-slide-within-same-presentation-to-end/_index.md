@@ -65,7 +65,7 @@ Tento fragment kódu přidá duplikovaný snímek na konec prezentace.
 Po přidání duplikovaného snímku musíme upravenou prezentaci uložit. Zde je postup:
 
 ```csharp
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

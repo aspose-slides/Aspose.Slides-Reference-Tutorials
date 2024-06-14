@@ -34,7 +34,7 @@ Trong khối Trình bày, tạo hình ảnh có kích thước đầy đủ củ
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //Mã của bạn để lưu hình ảnh ở đây
+    // Mã của bạn để lưu hình ảnh ở đây
 }
 ```
 ## Bước 3: Lưu hình ảnh vào đĩa
@@ -52,6 +52,6 @@ Có, Aspose.Slides tương thích với nhiều khung .NET khác nhau, mang lạ
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Slides?
  Bạn có thể nhận được giấy phép tạm thời cho Aspose.Slides bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi 4: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Slides ở đâu?
-Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, vui lòng truy cập diễn đàn hỗ trợ Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
+ Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, vui lòng truy cập diễn đàn hỗ trợ Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
 ### Câu hỏi 5: Tôi có thể mua Aspose.Slides cho .NET không?
  Chắc chắn! Để mua Aspose.Slides cho .NET, vui lòng truy cập trang mua hàng[đây](https://purchase.aspose.com/buy).

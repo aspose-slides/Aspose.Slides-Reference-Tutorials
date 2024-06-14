@@ -10,7 +10,7 @@ url: /pl/java/presentation-conversion/convert-presentation-html-preserve-fonts-j
 
 ## Wprowadzenie do konwertowania prezentacji do formatu HTML z zachowaniem oryginalnych czcionek w slajdach Java
 
-tym samouczku przyjrzymy się, jak przekonwertować prezentację programu PowerPoint (PPTX) na format HTML, zachowując jednocześnie oryginalne czcionki, za pomocą Aspose.Slides dla Java. Dzięki temu wynikowy kod HTML będzie bardzo przypominał wygląd oryginalnej prezentacji.
+W tym samouczku przyjrzymy się, jak przekonwertować prezentację programu PowerPoint (PPTX) na format HTML, zachowując jednocześnie oryginalne czcionki, za pomocą Aspose.Slides dla Java. Dzięki temu wynikowy kod HTML będzie bardzo przypominał wygląd oryginalnej prezentacji.
 
 ## Krok 1: Konfiguracja projektu
 Zanim zagłębimy się w kod, upewnijmy się, że masz niezbędną konfigurację:
@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Wyklucz domyślne czcionki prezentacyjne, takie jak Calibri i Arial
+    // Wyklucz domyślne czcionki prezentacyjne, takie jak Calibri i Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -59,7 +59,7 @@ try {
 
 W tym fragmencie kodu:
 
--  Wczytujemy wejściową prezentację PowerPoint za pomocą`Presentation`.
+-  Ładujemy wejściową prezentację PowerPoint za pomocą`Presentation`.
 
 - Definiujemy listę czcionek (`fontNameExcludeList`), które chcemy wykluczyć z osadzania w kodzie HTML. Jest to przydatne do wykluczania popularnych czcionek, takich jak Calibri i Arial, w celu zmniejszenia rozmiaru pliku.
 
@@ -98,7 +98,7 @@ W tym samouczku nauczyłeś się, jak przekonwertować prezentację programu Pow
 
 ### Jak pobrać Aspose.Slides dla Java?
 
-Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose. Odwiedzać[Tutaj](https://downloads.aspose.com/slides/java/) aby uzyskać najnowszą wersję.
+ Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose. Odwiedzać[Tutaj](https://downloads.aspose.com/slides/java/) aby uzyskać najnowszą wersję.
 
 ### Czy mogę dostosować listę wykluczonych czcionek?
 

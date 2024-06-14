@@ -93,7 +93,7 @@ series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D7", 4));
 series.getDataPoints().addDataPointForSunburstSeries(wb.getCell(0, "D8", 3));
 ```
 
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 
 Végül mentse el a prezentációt a Sunburst diagrammal.
 

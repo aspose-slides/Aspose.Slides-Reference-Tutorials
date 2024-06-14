@@ -11,7 +11,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 创建具有视觉吸引力的 PowerPoint 演示文稿对于吸引观众至关重要。增强幻灯片效果的有效方法之一是使用渐变填充形状。本教程将指导您完成使用 Aspose.Slides for Java 在 PowerPoint 中使用渐变填充形状的过程。无论您是经验丰富的开发人员还是刚刚入门，您都会发现本指南很有帮助且易于理解。让我们深入渐变的世界，看看它们如何改变您的演示文稿。
 ## 先决条件
 在开始之前，请确保您已准备好以下物品：
--  Java 开发工具包 (JDK)：确保已安装 JDK。您可以从[Oracle 网站](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java 开发工具包 (JDK)：确保已安装 JDK。您可以从[Oracle 网站](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides for Java：从以下网址下载最新版本[这里](https://releases.aspose.com/slides/java/).
 - 集成开发环境 (IDE)：IntelliJ IDEA 或 Eclipse 等 IDE 将使您的编码体验更加流畅。
 - Java 基础知识：熟悉 Java 编程至关重要。
@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 要开始使用 Aspose.Slides，您需要导入必要的包。确保您已将 Aspose.Slides for Java 添加到项目的依赖项中。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

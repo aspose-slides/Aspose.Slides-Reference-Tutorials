@@ -14,7 +14,7 @@ En este tutorial, demostraremos cómo recuperar las coordenadas rectangulares de
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su entorno de desarrollo Java. Puedes descargarlo desde[aquí](https://downloads.aspose.com/slides/java).
+ Antes de comenzar, asegúrese de tener la biblioteca Aspose.Slides para Java instalada y configurada en su entorno de desarrollo Java. Puedes descargarlo desde[aquí](https://downloads.aspose.com/slides/java).
 
 ## Paso 1: importe las bibliotecas necesarias
 
@@ -107,7 +107,7 @@ Sí, Aspose.Slides para Java es ideal para el procesamiento por lotes de archivo
 
 ### ¿Dónde puedo encontrar más ejemplos y documentación?
 
- Puede encontrar más ejemplos de código y documentación detallada para Aspose.Slides para Java en el[Documentación de Aspose.Slides](https://reference.aspose.com/slides/java/)sitio web. Además, puede explorar el[Foros de Aspose.Slides](https://forum.aspose.com/c/slides) para apoyo y debates de la comunidad.
+ Puede encontrar más ejemplos de código y documentación detallada para Aspose.Slides para Java en el[Documentación de Aspose.Slides](https://reference.aspose.com/slides/java/) sitio web. Además, puede explorar el[Foros de Aspose.Slides](https://forum.aspose.com/c/slides) para apoyo y debates de la comunidad.
 
 ### ¿Necesito una licencia para usar Aspose.Slides para Java?
 

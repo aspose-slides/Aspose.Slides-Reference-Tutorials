@@ -12,7 +12,7 @@ url: /zh/java/licensing-and-initialization/
 
 ## 为 Java 授权 Aspose.Slides
 
-获得 Aspose.Slides for Java 许可是进入动态幻灯片创建领域前的第一步。如果没有有效的许可证，您将无法充分利用这个令人难以置信的库的潜力。您可以按照以下方法操作：
+获得 Aspose.Slides for Java 许可是进入动态幻灯片创建领域的第一步。如果没有有效的许可证，您将无法充分利用这个令人难以置信的库的潜力。您可以按照以下方法操作：
 
 1. 获取许可证：访问[Aspose 购买页面](https://purchase.aspose.com/buy)获得有效许可证。您可以从各种许可选项中进行选择以满足您的需求，包括短期项目的临时许可证。
 

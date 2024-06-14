@@ -21,7 +21,7 @@ En este tutorial, exploraremos cómo configurar una presentación de diapositiva
 Primero, necesitamos crear una nueva presentación de PowerPoint. Así es como puedes hacerlo en Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ Asegúrese de proporcionar la ruta del archivo de salida deseada.
 ## Código fuente completo para la configuración de presentación de diapositivas en diapositivas de Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Obtiene la configuración de presentación de diapositivas

@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation(presentationName))
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //บังคับไม่บันทึกรูปภาพในเอกสาร HTML5
+    // บังคับไม่บันทึกรูปภาพในเอกสาร HTML5
     EmbedImages = false,
     // กำหนดเส้นทางสำหรับภาพภายนอก
     OutputPath = outPath

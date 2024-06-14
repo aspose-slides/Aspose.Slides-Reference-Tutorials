@@ -1,6 +1,6 @@
 ---
 title: Zvládnutí efektů po animaci v PowerPointu pomocí Aspose.Slides
-linktitle: Ovládání po animaci Typ na snímku
+linktitle: Kontrola po typu animace na snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se ovládat efekty po animaci ve snímcích PowerPoint pomocí Aspose.Slides for .NET. Vylepšete své prezentace dynamickými vizuálními prvky.
 type: docs
@@ -68,7 +68,7 @@ seq = slide3.Timeline.MainSequence;
 foreach (IEffect effect in seq)
     effect.AfterAnimationType = AfterAnimationType.HideAfterAnimation;
 ```
-Ještě jednou naklonujte první snímek a nastavte efekt po animaci na „Skrýt po animaci“.
+Klonujte ještě jednou první snímek a nastavte efekt po animaci na „Skrýt po animaci“.
 ## Krok 7: Uložte upravenou prezentaci
 ```csharp
 pres.Save(outPath, SaveFormat.Pptx);

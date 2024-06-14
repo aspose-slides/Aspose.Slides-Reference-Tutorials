@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Krok 2: Dodaj slajd i utwórz wykres punktowy
 
- Następnie dodaj slajd i utwórz na nim wykres punktowy. Skorzystamy z`ScatterWithSmoothLines` typ wykresu w tym przykładzie.
+ Następnie dodaj slajd i utwórz na nim wykres punktowy. Skorzystamy z`ScatterWithSmoothLines`typ wykresu w tym przykładzie.
 
 ```java
 // Zdobądź pierwszy slajd
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Tworzenie domyślnego wykresu
+//Tworzenie domyślnego wykresu
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Pobieranie domyślnego indeksu arkusza danych wykresu
 int defaultWorksheetIndex = 0;
@@ -152,13 +152,13 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym samouczku przeprowadziliśmy Cię przez proces tworzenia wykresu punktowego przy użyciu Aspose.Slides dla Java. Wykresy punktowe to zaawansowane narzędzia do wizualizacji punktów danych w przestrzeni dwuwymiarowej, ułatwiające analizowanie i zrozumienie złożonych relacji między danymi.
+W tym samouczku przeprowadziliśmy Cię przez proces tworzenia wykresu punktowego przy użyciu Aspose.Slides dla Java. Wykresy punktowe to potężne narzędzia do wizualizacji punktów danych w przestrzeni dwuwymiarowej, ułatwiające analizowanie i zrozumienie złożonych relacji między danymi.
 
 ## Często zadawane pytania
 
 ### Jak mogę zmienić typ wykresu?
 
- Aby zmienić typ wykresu, użyj opcji`setType`metodę w serii wykresów i podaj żądany typ wykresu. Na przykład,`series.setType(ChartType.Line)` zmieni serię na wykres liniowy.
+ Aby zmienić typ wykresu, użyj opcji`setType` metodę w serii wykresów i podaj żądany typ wykresu. Na przykład,`series.setType(ChartType.Line)` zmieni serię na wykres liniowy.
 
 ### Jak dostosować rozmiar i styl znacznika?
 

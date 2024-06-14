@@ -20,7 +20,7 @@ Sebelum memulai, pastikan Anda memiliki hal berikut:
 
 ## Langkah 1: Muat Presentasi
 
-Pertama, Anda perlu memuat presentasi PowerPoint yang berisi bagan yang ingin Anda modifikasi. Mengganti`presentationName` dengan jalur ke file PowerPoint Anda.
+ Pertama, Anda perlu memuat presentasi PowerPoint yang berisi bagan yang ingin Anda modifikasi. Mengganti`presentationName` dengan jalur ke file PowerPoint Anda.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Selanjutnya, kita akan mengakses grafik dan label data dalam presentasi. Dalam c
 // Dapatkan grafik dari slide pertama
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Dapatkan rangkaian bagan
+//Dapatkan rangkaian bagan
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Dapatkan label dari seri pertama
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Terakhir, simpan presentasi dengan warna garis pemimpin yang dimodifikasi ke file baru.
 
 ```java
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Kode Sumber Lengkap Untuk Warna Garis Pemimpin di Slide Java
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Dapatkan grafik dari slide pertama
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Dapatkan rangkaian bagan
+            //Dapatkan rangkaian bagan
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Dapatkan label seri pertama
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ Untuk mengakses dan memodifikasi properti bagan lainnya, Anda dapat menjelajahi 
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Slides untuk Java dalam proyek komersial?
 
-Ya, biasanya Anda memerlukan lisensi yang valid untuk menggunakan Aspose.Slides untuk Java dalam proyek komersial. Aspose menawarkan berbagai opsi lisensi, termasuk lisensi evaluasi gratis untuk tujuan pengujian dan uji coba. Namun, untuk penggunaan produksi, Anda harus mendapatkan izin komersial yang sesuai. Mengunjungi[Asumsikan Halaman Pembelian](https://purchase.aspose.com/) untuk rincian perizinan.
+ Ya, biasanya Anda memerlukan lisensi yang valid untuk menggunakan Aspose.Slides untuk Java dalam proyek komersial. Aspose menawarkan berbagai opsi lisensi, termasuk lisensi evaluasi gratis untuk tujuan pengujian dan uji coba. Namun, untuk penggunaan produksi, Anda harus mendapatkan izin komersial yang sesuai. Mengunjungi[Asumsikan Halaman Pembelian](https://purchase.aspose.com/) untuk rincian perizinan.
 
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Slides untuk Java?
 

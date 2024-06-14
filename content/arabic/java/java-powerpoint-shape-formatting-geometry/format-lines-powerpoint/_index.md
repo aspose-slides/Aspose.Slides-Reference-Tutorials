@@ -18,7 +18,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 أولاً، لنستورد الحزم الضرورية المطلوبة للعمل مع Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

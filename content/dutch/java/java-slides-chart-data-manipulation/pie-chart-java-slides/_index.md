@@ -44,12 +44,12 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
 
-Haal de eerste dia van de presentatie op waaraan u het cirkeldiagram wilt toevoegen.
+Haal de eerste dia van de presentatie op waar u het cirkeldiagram wilt toevoegen.
 
 ## Stap 4: Voeg een cirkeldiagram toe
 
 ```java
-//Voeg een cirkeldiagram met standaardgegevens toe
+// Voeg een cirkeldiagram met standaardgegevens toe
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Stel een titel in voor het cirkeldiagram. U kunt de titel indien nodig aanpassen
 ## Stap 6: Grafiekgegevens aanpassen
 
 ```java
-// Stel de eerste reeks in om waarden weer te geven
+//Stel de eerste reeks in om waarden weer te geven
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Instellen van de index van het kaartgegevensblad
@@ -176,7 +176,7 @@ chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// Stel de eerste reeks in op Waarden weergeven
+// Stel de eerste reeks in op Waarden tonen
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 // De index van het kaartgegevensblad instellen
 int defaultWorksheetIndex = 0;
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Nieuwe serie toevoegen
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Vult nu seriegegevens in
+// Vult nu seriegegevens in
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

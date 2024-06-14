@@ -16,7 +16,7 @@ url: /zh/net/shape-effects-and-manipulation-in-slides/adding-arrow-lines-to-spec
 2. Aspose.Slides 库：
    下载并安装适用于 .NET 的 Aspose.Slides 库。您可以找到该库[这里](https://releases.aspose.com/slides/net/).
 3. 文档目录：
-   在项目中为文档创建一个目录。您将使用此目录保存生成的演示文稿。
+   在您的项目中为您的文档创建一个目录。您将使用此目录来保存生成的演示文稿。
 ## 导入命名空间
 首先，将必要的命名空间导入到您的 .NET 项目中：
 ```csharp
@@ -25,7 +25,7 @@ using Aspose.Slides;
 using Aspose.Slides.Export;
 using System.Drawing;
 ```
-## 步骤 1：创建文档目录
+## 步骤1：创建文档目录
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);

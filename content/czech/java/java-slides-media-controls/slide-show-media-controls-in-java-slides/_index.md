@@ -34,7 +34,7 @@ Začněme vytvořením nové prezentace. Zde je návod, jak to udělat v Java Sl
 
 ```java
 // Cesta k dokumentu PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Tento řádek kódu dává Java Slides pokyn k zobrazení ovládacích prvků m�
 
 ## Krok 4: Přidání médií do snímků
 
-Nyní přidejte média do našich snímků. Pomocí rozsáhlých funkcí Java Slides můžete do snímků přidávat audio nebo video soubory.
+Nyní do našich snímků přidáme média. Pomocí rozsáhlých funkcí Java Slides můžete do snímků přidávat audio nebo video soubory.
 
 Přizpůsobte přehrávání médií
 Přehrávání médií můžete dále přizpůsobit, například nastavení času začátku a konce, hlasitosti a dalších, a vytvořit tak multimediální zážitek přizpůsobený vašemu publiku.
@@ -71,7 +71,7 @@ Tento kód uloží vaši prezentaci s povolenými ovládacími prvky médií.
 
 ```java
 // Cesta k dokumentu PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// ЕPovolit zobrazení ovládání médií v režimu prezentace.

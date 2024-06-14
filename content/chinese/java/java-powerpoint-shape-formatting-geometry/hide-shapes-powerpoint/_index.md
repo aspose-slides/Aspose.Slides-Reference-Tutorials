@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 首先，您需要导入 Aspose.Slides 所需的软件包。具体操作如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 在本节中，我们将把在 PowerPoint 中隐藏形状的过程分解为易于遵循的步骤。每个步骤都包含标题和详细说明。
 ## 步骤 1：设置你的项目

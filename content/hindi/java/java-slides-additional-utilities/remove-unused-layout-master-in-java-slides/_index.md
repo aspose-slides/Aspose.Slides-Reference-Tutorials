@@ -84,7 +84,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ## जावा स्लाइड्स में अप्रयुक्त लेआउट मास्टर को हटाने के लिए पूर्ण स्रोत कोड
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());
@@ -122,4 +122,4 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 
 ### मैं इस आलेख में प्रयुक्त स्रोत कोड कहां से प्राप्त कर सकता हूं?
 
-आप इस लेख में इस्तेमाल किए गए सोर्स कोड को प्रत्येक चरण में दिए गए कोड स्निपेट में पा सकते हैं। अपने प्रेजेंटेशन में अप्रयुक्त लेआउट मास्टर्स को हटाने के लिए बस कोड को अपने जावा प्रोजेक्ट में कॉपी और पेस्ट करें।
+आप इस लेख में इस्तेमाल किए गए सोर्स कोड को प्रत्येक चरण में दिए गए कोड स्निपेट में पा सकते हैं। अपने प्रेजेंटेशन में अप्रयुक्त लेआउट मास्टर्स को हटाने के लिए कोड को कॉपी करके अपने जावा प्रोजेक्ट में पेस्ट करें।

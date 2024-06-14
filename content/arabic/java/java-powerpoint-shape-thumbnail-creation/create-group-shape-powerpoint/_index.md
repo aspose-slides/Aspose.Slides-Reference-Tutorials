@@ -12,17 +12,17 @@ url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerp
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من إعداد المتطلبات الأساسية التالية:
 1. Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك.
-2.  Aspose.Slides for Java Library: قم بتنزيل مكتبة Aspose.Slides for Java وتضمينها في مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Library: قم بتنزيل مكتبة Aspose.Slides for Java وتضمينها في مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
 3. بيئة التطوير المتكاملة (IDE): اختر Java IDE الذي تفضله، مثل IntelliJ IDEA أو Eclipse.
 
 ## حزم الاستيراد
 للبدء، قم باستيراد الحزم اللازمة لاستخدام Aspose.Slides لوظائف Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: إعداد بيئتك
- تأكد من إعداد دليل لمشروعك حيث يمكنك إنشاء عروض PowerPoint التقديمية وحفظها. يستبدل`"Your Document Directory"`مع المسار إلى الدليل المطلوب.
+ تأكد من إعداد دليل لمشروعك حيث يمكنك إنشاء عروض PowerPoint التقديمية وحفظها. يستبدل`"Your Document Directory"` مع المسار إلى الدليل المطلوب.
 ```java
 String dataDir = "Your Document Directory";
 ```

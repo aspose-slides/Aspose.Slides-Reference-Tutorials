@@ -55,7 +55,7 @@ try {
 
 ## Krok 5: Spuštění v samostatné niti
 
-Aby bylo možné operaci přerušit, spustíme ji v samostatném vláknu.
+Aby bylo možné operaci přerušit, spustíme ji v samostatném vlákně.
 
 ```java
 Runnable interruption = new Runnable() {
@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Kompletní zdrojový kód pro podporu přerušení v Java Slides
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

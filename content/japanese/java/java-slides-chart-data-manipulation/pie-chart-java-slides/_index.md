@@ -269,7 +269,7 @@ Aspose.Slides for Java を使用して、PowerPoint プレゼンテーション�
 
 ### 円グラフを含む生成されたプレゼンテーションを保存するにはどうすればよいですか?
 
-円グラフ付きのプレゼンテーションを保存するには、`presentation.save()`方法。プレゼンテーションを保存する形式とともに、希望のファイル パスと名前を指定します。例:
+円グラフ付きのプレゼンテーションを保存するには、`presentation.save()`方法。プレゼンテーションを保存する形式とともに、希望するファイル パスと名前を指定します。例:
 ```java
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```

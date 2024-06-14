@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //استبعاد خطوط العرض الافتراضية مثل Calibri وArial
+    // استبعاد خطوط العرض الافتراضية مثل Calibri وArial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ try {
 
 -  نقوم بتحميل عرض PowerPoint التقديمي باستخدام`Presentation`.
 
-- نحدد قائمة الخطوط (`fontNameExcludeList`) الذي نريد استبعاده من التضمين في HTML. يعد هذا مفيدًا لاستبعاد الخطوط الشائعة مثل Calibri وArial لتقليل حجم الملف.
+- نحدد قائمة الخطوط (`fontNameExcludeList`الذي نريد استبعاده من التضمين في HTML. يعد هذا مفيدًا لاستبعاد الخطوط الشائعة مثل Calibri وArial لتقليل حجم الملف.
 
 -  نقوم بإنشاء مثيل لـ`EmbedAllFontsHtmlController` وتمرير قائمة استبعاد الخطوط إليها.
 
@@ -98,7 +98,7 @@ finally
 
 ### كيف يمكنني تنزيل Aspose.Slides لنظام Java؟
 
-يمكنك تنزيل Aspose.Slides for Java من موقع Aspose. يزور[هنا](https://downloads.aspose.com/slides/java/) للحصول على أحدث إصدار.
+ يمكنك تنزيل Aspose.Slides for Java من موقع Aspose. يزور[هنا](https://downloads.aspose.com/slides/java/) للحصول على أحدث إصدار.
 
 ### هل يمكنني تخصيص قائمة الخطوط المستبعدة؟
 

@@ -40,7 +40,7 @@ Gebruik de volgende code om een presentatiebestand te laden:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Hier vindt u uw code voor het ophalen van effectieve gegevens van lichte boorinstallaties
+    //Hier vindt u uw code voor het ophalen van effectieve gegevens van lichte boorinstallaties
 }
 ```
 ## Stap 4: Effectieve Light Rig-gegevens ophalen

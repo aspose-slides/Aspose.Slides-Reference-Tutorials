@@ -2,7 +2,7 @@
 title: Egyéni hiba hozzáadása a Java Slides-hez
 linktitle: Egyéni hiba hozzáadása a Java Slides-hez
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan adhat egyéni hibasávokat a Java Slides PowerPoint diagramjaihoz az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal az adatok pontos megjelenítéséhez.
+description: Ismerje meg, hogyan adhat egyéni hibasávokat a PowerPoint diagramokhoz a Java Slides programban az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal az adatok pontos megjelenítéséhez.
 type: docs
 weight: 11
 url: /hu/java/chart-data-manipulation/add-custom-error-java-slides/
@@ -87,7 +87,7 @@ presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 
 Ez az! Sikeresen hozzáadott egyéni hibasávokat egy PowerPoint-prezentáció diagramjához az Aspose.Slides for Java segítségével.
 
-## A Java Slides egyéni hibájának hozzáadása teljes forráskódja
+## Java Slides egyéni hibájának hozzáadása teljes forráskódja
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -149,4 +149,4 @@ Az adatpontok között hurkolhat, és minden ponthoz egyéni hibasáv-értékeke
 
 ### Lehetséges-e elrejteni a hibasávokat bizonyos adatpontokhoz?
 
-Igen, szabályozhatja az egyes adatpontok hibasávjainak láthatóságát a`setVisible` tulajdona a`IErrorBarsFormat` tárgy.
+ Igen, szabályozhatja az egyes adatpontok hibasávjainak láthatóságát a`setVisible` tulajdona a`IErrorBarsFormat` tárgy.

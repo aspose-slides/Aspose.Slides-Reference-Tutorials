@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-
 ---
 ## 소개
 Java를 사용하여 PowerPoint 프레젠테이션 작업을 자동화하려고 하시나요? 더 이상 보지 마세요! Aspose.Slides for Java는 개발자가 Microsoft PowerPoint를 설치하지 않고도 PowerPoint 파일을 생성, 조작 및 변환할 수 있는 강력한 라이브러리입니다. 이 종합 가이드에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 조명 장치의 효과적인 데이터를 얻는 단계를 안내합니다. 노련한 Java 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 프로젝트에서 Aspose.Slides의 잠재력을 최대한 활용하는 데 도움이 될 것입니다.
-## 전제조건
+## 전제 조건
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. JDK(Java Development Kit): 시스템에 JDK 8 이상이 설치되어 있는지 확인하십시오.
 2.  Java용 Aspose.Slides: 다음에서 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/slides/java/).
@@ -20,7 +20,7 @@ Java를 사용하여 PowerPoint 프레젠테이션 작업을 자동화하려고 
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 프로젝트 디렉터리 설정
 프로젝트 디렉터리를 설정하여 시작하세요. Java 파일과 PowerPoint 프레젠테이션을 저장할 폴더를 만듭니다(`Presentation1.pptx`).
@@ -54,7 +54,7 @@ System.out.println("Direction: " + threeDEffectiveData.getLightRig().getDirectio
 }
 ```
 ## 결론
-축하해요! Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 효과적인 조명 장비 데이터를 성공적으로 검색했습니다. 이 튜토리얼에서는 프로젝트 설정부터 조명 장비 속성 액세스 및 표시까지 필수 단계를 다루었습니다. Aspose.Slides는 프로그래밍 방식으로 PowerPoint 파일을 조작하는 데 도움이 되는 풍부한 기능을 제공하므로 개발자에게 귀중한 도구입니다.
+축하해요! Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 효과적인 조명 장치 데이터를 성공적으로 검색했습니다. 이 튜토리얼에서는 프로젝트 설정부터 조명 장비 속성 액세스 및 표시까지 필수 단계를 다루었습니다. Aspose.Slides는 프로그래밍 방식으로 PowerPoint 파일을 조작하는 데 도움이 되는 풍부한 기능을 제공하므로 개발자에게 귀중한 도구입니다.
 ## FAQ
 ### Java용 Aspose.Slides란 무엇입니까?
 Aspose.Slides for Java는 Java를 사용하여 PowerPoint 파일을 생성, 조작 및 변환하기 위한 강력한 라이브러리입니다.

@@ -8,7 +8,7 @@ weight: 23
 url: /es/net/slide-access-and-manipulation/change-slide-position/
 ---
 
-¿Está buscando reorganizar las diapositivas de su presentación y se pregunta cómo ajustar sus posiciones con Aspose.Slides para .NET? Esta guía paso a paso lo guiará a través del proceso, asegurándose de que comprenda cada paso con claridad. Antes de sumergirnos en el tutorial, repasemos los requisitos previos y importemos los espacios de nombres que necesita para comenzar.
+¿Está buscando reorganizar las diapositivas de su presentación y se pregunta cómo ajustar sus posiciones con Aspose.Slides para .NET? Esta guía paso a paso lo guiará a través del proceso, asegurándose de que comprenda cada paso con claridad. Antes de sumergirnos en el tutorial, repasemos los requisitos previos y los espacios de nombres de importación que necesita para comenzar.
 
 ## Requisitos previos
 

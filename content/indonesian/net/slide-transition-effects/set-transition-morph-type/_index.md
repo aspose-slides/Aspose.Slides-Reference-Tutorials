@@ -14,7 +14,7 @@ Dalam dunia presentasi yang dinamis, transisi yang tepat dapat membuat perbedaan
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Slides untuk .NET: Anda harus menginstal Aspose.Slides untuk .NET. Jika belum, Anda dapat mendownloadnya dari[Aspose.Slides untuk halaman unduh .NET](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides untuk .NET: Anda harus menginstal Aspose.Slides untuk .NET. Jika belum, Anda dapat mendownloadnya dari[Aspose.Slides untuk halaman unduhan .NET](https://releases.aspose.com/slides/net/).
 
 2.  Presentasi PowerPoint: Siapkan presentasi PowerPoint (misalnya,`presentation.pptx`) yang ingin Anda terapkan efek transisinya.
 

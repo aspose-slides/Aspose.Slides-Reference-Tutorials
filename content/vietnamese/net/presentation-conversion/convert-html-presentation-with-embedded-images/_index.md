@@ -67,7 +67,7 @@ Tiếp theo, định cấu hình các tùy chọn chuyển đổi HTML. Bạn c�
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //Buộc không lưu hình ảnh trong tài liệu HTML5
+    // Buộc không lưu hình ảnh trong tài liệu HTML5
     EmbedImages = false,
     // Đặt đường dẫn cho hình ảnh bên ngoài
     OutputPath = outPath

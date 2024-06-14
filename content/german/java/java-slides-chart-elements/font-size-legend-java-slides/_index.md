@@ -2,7 +2,7 @@
 title: Schriftgrößenlegende in Java-Folien
 linktitle: Schriftgrößenlegende in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
-description: Verbessern Sie PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die Schriftgröße der Legende und mehr anpassen.
+description: Verbessern Sie PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die Schriftgrößen von Legenden und mehr anpassen.
 type: docs
 weight: 13
 url: /de/java/chart-elements/font-size-legend-java-slides/
@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- In diesem Code erstellen wir ein Diagramm und setzen die Schriftgröße des Legendentextes auf 20 Punkte. Sie können die`setFontHeight`Wert, um die Schriftgröße zu ändern.
+ In diesem Code erstellen wir ein Diagramm und setzen die Schriftgröße des Legendentextes auf 20 Punkte. Sie können die`setFontHeight` Wert, um die Schriftgröße zu ändern.
 
 ### Kann ich andere Eigenschaften der Legende in einem Diagramm anpassen?
 
@@ -134,4 +134,4 @@ Hier deaktivieren wir die automatische Achsenskalierung und geben die Mindest- u
 
 ### Wo finde ich weitere Informationen und Dokumentation zu Aspose.Slides?
 
-Ausführliche Dokumentation und API-Referenzen für Aspose.Slides für Java finden Sie auf der Aspose-Dokumentationswebsite. Besuchen Sie[Hier](https://reference.aspose.com/slides/java/) für detaillierte Informationen zur Benutzung der Bibliothek.
+ Ausführliche Dokumentation und API-Referenzen für Aspose.Slides für Java finden Sie auf der Aspose-Dokumentationswebsite. Besuchen Sie[Hier](https://reference.aspose.com/slides/java/) für detaillierte Informationen zur Benutzung der Bibliothek.

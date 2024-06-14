@@ -20,13 +20,13 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel
 Mielőtt belemerülnénk a kódolási részbe, importáljuk a szükséges csomagokat.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## 1. lépés: A projekt beállítása
-Kezdésként állítsa be Java-projektjét, és vegye fel az Aspose.Slides for Java könyvtárat a projekt függőségeibe. Ha Maven-t használ, adja hozzá a következő függőséget`pom.xml`:
+ Kezdésként állítsa be Java-projektjét, és vegye fel az Aspose.Slides for Java könyvtárat a projekt függőségeibe. Ha Maven-t használ, adja hozzá a következő függőséget`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -75,7 +75,7 @@ private static GeometryPath createStarGeometry(float outerRadius, float innerRad
 ## 4. lépés: Adjon egyéni alakzatot a diához
 Ezt követően az előző lépésben létrehozott csillaggeometriai útvonal segítségével egyéni alakzatot adunk a bemutatónk első diájához.
 ```java
-// Adjon hozzá egyéni alakzatot a diához
+// Egyéni alakzat hozzáadása a diához
 float R = 100, r = 50; // Külső és belső csillagsugár
 GeometryPath starPath = createStarGeometry(R, r);
 // Hozzon létre új formát
@@ -94,7 +94,7 @@ pres.save(resultPath, SaveFormat.Pptx);
 ```
 
 ## Következtetés
-Egyéni geometriák létrehozása a PowerPointban az Aspose.Slides for Java segítségével egyszerű, és nagy vizuális érdeklődést kölcsönöz prezentációinak. Néhány sornyi kóddal összetett alakzatokat, például csillagokat hozhat létre, és beágyazhatja a diákba. Ez az útmutató lépésről lépésre ismertette a folyamatot, a projekt beállításától a végső prezentáció elmentéséig.
+Egyéni geometriák létrehozása a PowerPointban az Aspose.Slides for Java használatával egyszerű, és nagy vizuális érdeklődést kölcsönöz prezentációinak. Néhány sornyi kóddal összetett alakzatokat, például csillagokat hozhat létre, és beágyazhatja a diákba. Ez az útmutató lépésről lépésre ismertette a folyamatot, a projekt beállításától a végső prezentáció elmentéséig.
 ## GYIK
 ### Mi az Aspose.Slides for Java?
 Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára PowerPoint prezentációk programozott létrehozását, módosítását és kezelését.

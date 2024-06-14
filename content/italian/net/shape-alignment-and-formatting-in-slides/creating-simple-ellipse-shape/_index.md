@@ -11,7 +11,7 @@ url: /it/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 Nel dinamico mondo del design delle presentazioni, incorporare forme come le ellissi può aggiungere un tocco di creatività e professionalità. Aspose.Slides per .NET offre una potente soluzione per manipolare i file di presentazione a livello di codice. Questo tutorial ti guiderà attraverso il processo di creazione di una semplice forma ellittica nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
--  Aspose.Slides per .NET: assicurati di aver installato la libreria Aspose.Slides per .NET. Puoi scaricarlo da[pagina delle uscite](https://releases.aspose.com/slides/net/).
+- Aspose.Slides per .NET: assicurati di aver installato la libreria Aspose.Slides per .NET. Puoi scaricarlo da[pagina dei comunicati](https://releases.aspose.com/slides/net/).
 - Ambiente di sviluppo: configura un ambiente di sviluppo .NET sul tuo computer.
 ## Importa spazi dei nomi
 Nel tuo progetto .NET, inizia importando gli spazi dei nomi necessari:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Questo codice inizializza una nuova presentazione e seleziona la prima diapositiva per un'ulteriore manipolazione.
 ## Passaggio 2: aggiungi la forma dell'ellisse
-Ora aggiungiamo una forma ellittica alla diapositiva utilizzando il comando`AddAutoShape` metodo:
+ Ora aggiungiamo una forma ellittica alla diapositiva utilizzando il comando`AddAutoShape` metodo:
 ```csharp
 // Aggiungi forma automatica di tipo ellisse
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

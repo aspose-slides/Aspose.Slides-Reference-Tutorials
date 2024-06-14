@@ -1,6 +1,6 @@
 ---
-title: 将幻灯片复制到包含母版幻灯片的新演示文稿
-linktitle: 将幻灯片复制到包含母版幻灯片的新演示文稿
+title: 使用母版幻灯片将幻灯片复制到新演示文稿
+linktitle: 使用母版幻灯片将幻灯片复制到新演示文稿
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 复制带有主幻灯片的幻灯片。通过本分步指南提高您的演示技巧。
 type: docs

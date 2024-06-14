@@ -31,7 +31,7 @@ A PowerPoint bemutatók használatához először be kell töltenie azt a Java a
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String dataDir = "Your Document Directory";
-//Példányosítsa a PPTX-et képviselő Presentation osztályt
+// Példányosítsa a PPTX-et képviselő Presentation osztályt
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 
@@ -64,7 +64,7 @@ for (int i = 0; i < documentProperties.getCountOfCustomProperties(); i++) {
 
 ## 5. lépés: A módosított prezentáció mentése
 
-prezentáció módosítása után elengedhetetlen a módosított verzió mentése. Ezt a következő kóddal teheti meg:
+A prezentáció módosítása után elengedhetetlen a módosított verzió mentése. Ezt a következő kóddal teheti meg:
 
 ```java
 presentation.save(dataDir + "CustomDemoModified_out.pptx", SaveFormat.Pptx);

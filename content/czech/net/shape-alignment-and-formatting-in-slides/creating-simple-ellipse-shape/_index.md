@@ -8,10 +8,10 @@ weight: 11
 url: /cs/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
 ## Úvod
-dynamickém světě prezentačního designu může začlenění tvarů, jako jsou elipsy, přidat nádech kreativity a profesionality. Aspose.Slides for .NET nabízí výkonné řešení pro programovou manipulaci s prezentačními soubory. Tento tutoriál vás provede procesem vytváření jednoduchého tvaru elipsy na snímcích prezentace pomocí Aspose.Slides pro .NET.
+V dynamickém světě prezentačního designu může začlenění tvarů, jako jsou elipsy, přidat nádech kreativity a profesionality. Aspose.Slides for .NET nabízí výkonné řešení pro programovou manipulaci s prezentačními soubory. Tento tutoriál vás provede procesem vytváření jednoduchého tvaru elipsy na snímcích prezentace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
--  Aspose.Slides for .NET: Ujistěte se, že jste nainstalovali knihovnu Aspose.Slides pro .NET. Můžete si jej stáhnout z[stránka vydání](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Ujistěte se, že jste nainstalovali knihovnu Aspose.Slides pro .NET. Můžete si jej stáhnout z[stránka vydání](https://releases.aspose.com/slides/net/).
 - Vývojové prostředí: Nastavte na svém počítači vývojové prostředí .NET.
 ## Importovat jmenné prostory
 Ve svém projektu .NET začněte importováním potřebných jmenných prostorů:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Tento kód inicializuje novou prezentaci a vybere první snímek pro další manipulaci.
 ## Krok 2: Přidejte tvar elipsy
-Nyní přidáme na snímek tvar elipsy pomocí`AddAutoShape` metoda:
+ Nyní přidáme na snímek tvar elipsy pomocí`AddAutoShape` metoda:
 ```csharp
 // Přidejte automatický tvar typu elipsy
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

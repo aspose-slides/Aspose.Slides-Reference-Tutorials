@@ -71,7 +71,7 @@ Und das war’s! Sie haben eine PowerPoint-Präsentation erfolgreich mit Java un
 // Der Pfad zum Dokumentenverzeichnis
 String dataDir = "Your Document Directory";
 // Der Pfad zur Ausgabedatei
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Instanziieren Sie ein Präsentationsobjekt, das eine Präsentationsdatei darstellt
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

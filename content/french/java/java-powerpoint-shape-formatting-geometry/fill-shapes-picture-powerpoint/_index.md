@@ -18,7 +18,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 Dans votre projet Java, importez les packages nécessaires :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -75,7 +75,7 @@ Oui, Aspose.Slides pour Java prend en charge le remplissage de diverses formes a
 ### Aspose.Slides pour Java est-il compatible avec toutes les versions de PowerPoint ?
 Aspose.Slides for Java génère des présentations compatibles avec PowerPoint 97 et supérieur, garantissant une large compatibilité.
 ### Comment puis-je redimensionner l’image dans la forme ?
-Vous pouvez redimensionner l'image dans la forme en ajustant les dimensions de la forme ou en mettant l'image à l'échelle en conséquence avant de la définir comme remplissage.
+Vous pouvez redimensionner l'image dans la forme en ajustant les dimensions de la forme ou en redimensionnant l'image en conséquence avant de la définir comme remplissage.
 ### Existe-t-il des limitations sur les formats d'image pris en charge pour le remplissage de formes ?
 Aspose.Slides pour Java prend en charge un large éventail de formats d'image, notamment JPEG, PNG, GIF, BMP et TIFF.
 ### Puis-je appliquer des effets aux formes remplies ?

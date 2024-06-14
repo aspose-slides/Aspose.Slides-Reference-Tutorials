@@ -12,14 +12,14 @@ Tạo các bản trình bày PowerPoint hấp dẫn về mặt hình ảnh có t
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu, có một số điều kiện tiên quyết bạn cần phải có:
 1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên máy của mình. Bạn có thể tải nó xuống từ[trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Thư viện Aspose.Slides for Java: Bạn cần tải xuống và đưa Aspose.Slides for Java vào dự án của bạn. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/slides/java/).
+2.  Thư viện Aspose.Slides for Java: Bạn cần tải xuống và đưa Aspose.Slides for Java vào dự án của bạn. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/slides/java/).
 3. Môi trường phát triển tích hợp (IDE): Sử dụng IDE như IntelliJ IDEA, Eclipse hoặc NetBeans để viết và thực thi mã Java của bạn.
 4. Kiến thức cơ bản về Java: Hiểu biết cơ bản về lập trình Java sẽ giúp bạn làm theo hướng dẫn.
 ## Gói nhập khẩu
 Trước tiên, bạn cần nhập các gói cần thiết cho Aspose.Slides. Điều này rất cần thiết để truy cập các lớp và phương thức cần thiết cho các thao tác trình bày của chúng ta.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 Trong bước này, chúng tôi xác định đường dẫn thư mục và kiểm tra xem nó có tồn tại không. Nếu không, chúng tôi tạo thư mục. Đây là một cách đơn giản nhưng hiệu quả để giữ cho các tập tin của bạn được ngăn nắp.
 ## Bước 2: Khởi tạo bài thuyết trình
- Tiếp theo, chúng tôi khởi tạo`Presentation`class, đại diện cho tệp PowerPoint của chúng tôi. Đây là nền tảng mà chúng ta sẽ xây dựng các slide và hình dạng của mình.
+ Tiếp theo, chúng tôi khởi tạo`Presentation` class, đại diện cho tệp PowerPoint của chúng tôi. Đây là nền tảng mà chúng ta sẽ xây dựng các slide và hình dạng của mình.
 ```java
 Presentation pres = new Presentation();
 ```

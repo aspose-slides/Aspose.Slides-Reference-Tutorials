@@ -10,13 +10,13 @@ url: /zh/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 ## Java Slides 中将特定幻灯片转换为 PDF 的简介
 
-在 Java 开发领域，处理演示幻灯片是一项常见任务。无论您是构建报告工具还是演示管理系统，将特定幻灯片转换为 PDF 格式的能力都是一项宝贵的功能。在本分步指南中，我们将探讨如何使用 Aspose.Slides for Java 实现这一点。
+在 Java 开发领域，处理演示幻灯片是一项常见任务。无论您是构建报告工具还是演示管理系统，将特定幻灯片转换为 PDF 格式的能力都是一项宝贵的功能。在本分步指南中，我们将探讨如何使用 Aspose.Slides for Java 实现此目的。
 
 ## 先决条件
 
 在深入研究代码之前，请确保您已满足以下先决条件：
 
-1. Aspose.Slides for Java 库：您需要安装 Aspose.Slides for Java 库。您可以从以下网址下载[这里](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides for Java 库：您需要安装 Aspose.Slides for Java 库。您可以从以下网址下载[这里](https://releases.aspose.com/slides/java/).
 
 2. Java 开发环境：确保您的系统上已设置 Java 开发环境。
 

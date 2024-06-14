@@ -72,4 +72,4 @@ using (Presentation pres = new Presentation())
 
 是的，您可以使用 Aspose.Slides for .NET 輕鬆將 MathML 內容整合到現有簡報中。
 
-既然您已經了解如何使用 Aspose.Slides for .NET 將數學段落匯出到 MathML，您就可以建立包含數學內容的動態且引人入勝的簡報。快樂的演講！
+既然您已經了解如何使用 Aspose.Slides for .NET 將數學段落匯出到 MathML，您就可以建立包含數學內容的動態且引人入勝的簡報了。快樂的演講！

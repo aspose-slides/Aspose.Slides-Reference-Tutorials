@@ -14,7 +14,7 @@ Správa vlastností aplikace PowerPoint je zásadní pro vytváření profesion�
 
 ## Přístup k vestavěným vlastnostem v aplikaci PowerPoint
 
-Pochopení integrovaných vlastností prezentace PowerPoint může výrazně zlepšit vaši schopnost spravovat a organizovat snímky. Tyto vlastnosti zahrnují podrobnosti, jako je autor, datum vytvoření a datum poslední úpravy. Tutoriál[Přístup k vestavěným vlastnostem v aplikaci PowerPoint](./access-built-in-properties-powerpoint/) vás provede kroky k načtení těchto vlastností pomocí Aspose.Slides for Java. Ať už řídíte velký projekt nebo dolaďujete jedinou prezentaci, tato příručka vám pomůže snadno získat přístup k důležitým metadatům.
+Pochopení integrovaných vlastností prezentace PowerPoint může výrazně zlepšit vaši schopnost spravovat a organizovat snímky. Tyto vlastnosti zahrnují podrobnosti, jako je autor, datum vytvoření a datum poslední úpravy. Tutoriál[Přístup k vestavěným vlastnostem v aplikaci PowerPoint](./access-built-in-properties-powerpoint/) vás provede kroky k načtení těchto vlastností pomocí Aspose.Slides for Java. Ať už řídíte velký projekt nebo dolaďujete jedinou prezentaci, tento průvodce vám pomůže snadno získat přístup k důležitým metadatům.
 
 ## Přístup k vlastnostem prezentace
 
@@ -33,7 +33,7 @@ Podle těchto výukových programů můžete zvládnout umění správy vlastnos
 ### [Přístup k vestavěným vlastnostem v aplikaci PowerPoint](./access-built-in-properties-powerpoint/)
 Zjistěte, jak získat přístup k integrovaným vlastnostem v PowerPointu pomocí Aspose.Slides for Java. Tento výukový program vás provede vyhledáním autora, data vytvoření a dalšími.
 ### [Přístup k vlastnostem prezentace](./access-presentation-properties/)
-Odemkněte sílu Aspose.Slides pro Java. Osvojte si správu prezentací pomocí tohoto návodu. Bez námahy přistupujte k vlastnostem prezentace, upravujte je a vylepšujte.
+Odemkněte sílu Aspose.Slides for Java. Osvojte si správu prezentací pomocí tohoto návodu. Bez námahy přistupujte k vlastnostem prezentace, upravujte je a vylepšujte.
 ### [Upravte vestavěné vlastnosti v PowerPointu](./modify-built-in-properties-powerpoint/)
 Naučte se upravovat vestavěné vlastnosti v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vylepšete své prezentace programově.
 ### [Aktualizujte vlastnosti prezentace pomocí nové šablony](./update-presentation-properties-new-template/)

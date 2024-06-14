@@ -110,7 +110,7 @@ Gratulujeme! Nyní jste se naučili, jak převést objekt obrázku SVG na skupin
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali proces převodu objektu obrázku SVG na skupinu tvarů v rámci prezentace PowerPoint pomocí Java a knihovny Aspose.Slides for Java. Tato funkce otevírá četné možnosti pro vylepšení vašich prezentací dynamickým obsahem.
+V tomto tutoriálu jsme prozkoumali proces převodu objektu obrázku SVG na skupinu tvarů v rámci prezentace PowerPoint pomocí Javy a knihovny Aspose.Slides for Java. Tato funkce otevírá četné možnosti pro vylepšení vašich prezentací dynamickým obsahem.
 
 ## FAQ
 

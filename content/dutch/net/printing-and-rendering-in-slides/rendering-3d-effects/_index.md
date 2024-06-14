@@ -74,6 +74,6 @@ Absoluut! Aspose.Slides biedt uitgebreide mogelijkheden voor het aanpassen van 3
 ### Waar kan ik meer tutorials en voorbeelden vinden?
  Verken de Aspose.Slides-documentatie[hier](https://reference.aspose.com/slides/net/) voor uitgebreide tutorials en voorbeelden.
 ### Is er een gratis proefversie beschikbaar?
- Ja, u kunt een gratis proefversie van Aspose.Slides downloaden[hier](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie van Aspose.Slides downloaden[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen als ik problemen tegenkom?
  Bezoek het Aspose.Slides-forum[hier](https://forum.aspose.com/c/slides/11) voor steun en hulp van de gemeenschap.

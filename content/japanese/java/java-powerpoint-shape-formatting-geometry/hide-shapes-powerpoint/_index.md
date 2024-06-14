@@ -12,14 +12,14 @@ Aspose.Slides for Java を使用して PowerPoint で図形を非表示にする
 ## 前提条件
 チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
 -  Java開発キット（JDK）：マシンにJDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
--  Aspose.Slides for Javaライブラリ:最新バージョンをダウンロード[Aspose.Slides for Java リリース](https://releases.aspose.com/slides/java/).
+- Aspose.Slides for Javaライブラリ:最新バージョンをダウンロード[Aspose.Slides for Java リリース](https://releases.aspose.com/slides/java/).
 - 統合開発環境 (IDE): IntelliJ IDEA、Eclipse、NetBeans などの任意の Java IDE。
 - Java の基本的な理解: このチュートリアルは初心者向けですが、Java の基本的な理解があると役立ちます。
 ## パッケージのインポート
 開始するには、Aspose.Slides に必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 このセクションでは、PowerPoint で図形を非表示にするプロセスを、わかりやすい手順に分解します。各手順には見出しと詳細な説明が含まれています。
 ## ステップ1: プロジェクトを設定する
@@ -44,7 +44,7 @@ Presentation pres = new Presentation();
 ISlide sld = pres.getSlides().get_Item(0);
 ```
 ## ステップ4: スライドに図形を追加する
-この例では、スライドに長方形と月形の 2 つの図形を追加します。
+この例では、スライドに長方形と月の 2 つの図形を追加します。
 ```java
 //長方形タイプのオートシェイプを追加
 IShape shp1 = sld.getShapes().addAutoShape(ShapeType.Rectangle, 50, 40, 150, 50);

@@ -21,7 +21,7 @@ Dowiedz się, jak uzyskać dostęp do slajdów według indeksu sekwencyjnego za 
 ### [Pobierz wszystkie slajdy w prezentacji](./access-all-slides/)
 Dowiedz się, jak odzyskać wszystkie slajdy z prezentacji programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z pełnym kodem źródłowym, aby efektywnie pracować z prezentacjami w sposób programowy. Przeglądaj właściwości slajdów, instalację, dostosowywanie i nie tylko.
 ### [Dodaj slajd z notatkami ze stylowym formatowaniem notatek](./add-notes-slide-with-notes-style/)
-Dowiedz się, jak ulepszyć swoje prezentacje programu PowerPoint za pomocą stylowego formatowania notatek przy użyciu Aspose.Slides dla .NET. W tym przewodniku krok po kroku opisano dodawanie slajdu z notatkami, stosowanie atrakcyjnego formatowania i nie tylko.
+Dowiedz się, jak ulepszyć prezentacje programu PowerPoint za pomocą stylowego formatowania notatek przy użyciu Aspose.Slides dla .NET. W tym przewodniku krok po kroku opisano dodawanie slajdu z notatkami, stosowanie atrakcyjnego formatowania i nie tylko.
 ### [Wstaw dodatkowe slajdy do prezentacji](./add-slides/)
 Dowiedz się, jak wstawiać dodatkowe slajdy do prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego i szczegółowe instrukcje dotyczące płynnego ulepszania prezentacji. Zawiera konfigurowalną treść, wskazówki dotyczące wstawiania i często zadawane pytania.
 ### [Klonuj slajd z innej prezentacji do określonej pozycji](./clone-slide-from-another-presentation-specified-position/)

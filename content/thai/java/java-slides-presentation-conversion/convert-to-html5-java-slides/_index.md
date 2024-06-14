@@ -74,7 +74,7 @@ try {
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
 // เส้นทางไปยังไฟล์เอาต์พุต
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// ส่งออกงานนำเสนอที่มีการเปลี่ยนสไลด์ ภาพเคลื่อนไหว และภาพเคลื่อนไหวรูปร่างเป็น HTML5

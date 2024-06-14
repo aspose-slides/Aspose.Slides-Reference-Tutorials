@@ -37,7 +37,7 @@ Hozzon létre egy geometriai alakzatot a prezentáción belül. Például adjunk
 ```csharp
 GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ```
-## 4. lépés: Szerezze be a geometriai útvonalat
+## 4. lépés: Get Geometry Path
 A szegmensek manipulálásához kérje le a létrehozott alakzat geometriai útvonalát.
 ```csharp
 IGeometryPath geometryPath = shape.GetGeometryPaths()[0];
@@ -49,11 +49,11 @@ geometryPath.LineTo(100, 50, 1);
 geometryPath.LineTo(100, 50, 4);
 ```
 ## 6. lépés: Szerkesztett geometriai útvonal hozzárendelése
-módosítások alkalmazásához rendelje vissza a módosított geometriai útvonalat az alakzathoz.
+A módosítások alkalmazásához rendelje vissza a módosított geometriai útvonalat az alakzathoz.
 ```csharp
 shape.SetGeometryPath(geometryPath);
 ```
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 Mentse el a módosított prezentációt a kívánt helyre.
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);

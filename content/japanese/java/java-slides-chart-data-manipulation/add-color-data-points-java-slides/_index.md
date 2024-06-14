@@ -112,8 +112,8 @@ finally
 
 ### グラフの他の部分をカスタマイズできますか?
 
-はい、フォント、ラベル、タイトルなど、グラフのさまざまな側面をカスタマイズできます。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)詳細なカスタマイズオプションについては、こちらをご覧ください。
+はい、フォント、ラベル、タイトルなど、チャートのさまざまな側面をカスタマイズできます。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)詳細なカスタマイズオプションについては、こちらをご覧ください。
 
 ### その他の例やドキュメントはどこで見つかりますか?
 
-Aspose.Slides for Javaの使用に関する詳細な例とドキュメントは、[Aspose.Slides ドキュメント](https://reference.aspose.com/slides/java/) Webサイト。
+ Aspose.Slides for Javaの使用に関する詳細な例とドキュメントは、[Aspose.Slides ドキュメント](https://reference.aspose.com/slides/java/) Webサイト。

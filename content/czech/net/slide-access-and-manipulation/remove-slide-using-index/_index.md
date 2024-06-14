@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Jakmile vymažete požadované snímky, musíte upravenou prezentaci uložit:
 
 ```csharp
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

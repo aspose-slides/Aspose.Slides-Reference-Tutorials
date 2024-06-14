@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Skapar standarddiagrammet
+//Skapar standarddiagrammet
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ Slutligen sparar vi presentationen med de nya diagraminställningarna.
 
 Aspose.Slides för .NET ger dig möjlighet att skapa fantastiska diagrampresentationer med olika anpassningsalternativ. I den här handledningen fokuserade vi på att använda diagrammarkeringsalternativ på datapunkter för att förbättra den visuella representationen av dina data. Med Aspose.Slides för .NET kan du ta dina presentationer till nästa nivå och göra dem mer engagerande och informativa.
 
- Om du har några frågor eller behöver hjälp med Aspose.Slides för .NET, besök gärna[Aspose.Slides dokumentation](https://reference.aspose.com/slides/net/) eller nå ut till[Aspose gemenskap](https://forum.aspose.com/) för support.
+Om du har några frågor eller behöver hjälp med Aspose.Slides för .NET, besök gärna[Aspose.Slides dokumentation](https://reference.aspose.com/slides/net/) eller nå ut till[Aspose gemenskap](https://forum.aspose.com/) för support.
 
 ## Vanliga frågor (FAQs)
 
@@ -138,7 +138,7 @@ Aspose.Slides för .NET ger dig möjlighet att skapa fantastiska diagrampresenta
 Ja, du kan använda anpassade bilder som markörer för datapunkter i Aspose.Slides för .NET, som visas i denna handledning.
 
 ### Hur kan jag ändra diagramtypen i Aspose.Slides för .NET?
-Du kan ändra diagramtypen genom att ange en annan`ChartType` när du skapar diagrammet, t.ex. "Bar", "Pair" eller "Area".
+ Du kan ändra diagramtypen genom att ange en annan`ChartType` när du skapar diagrammet, t.ex. "Bar", "Pair" eller "Area".
 
 ### Är Aspose.Slides för .NET kompatibelt med de senaste versionerna av PowerPoint?
 Aspose.Slides för .NET är utformad för att fungera med olika PowerPoint-format och uppdateras regelbundet för att bibehålla kompatibiliteten med de senaste PowerPoint-versionerna.

@@ -179,4 +179,4 @@ Ja, Sie können dem Ringdiagramm beliebig viele Datenpunkte hinzufügen. Erweite
 
 ### Wie kann ich die Position und Größe des Ringdiagramms auf der Folie anpassen?
 
-Sie können die Position und Größe des Ringdiagramms ändern, indem Sie die Parameter im`addChart` Methode. Die vier Zahlen in dieser Methode entsprechen den X- und Y-Koordinaten der oberen linken Ecke des Diagramms bzw. seiner Breite und Höhe.
+ Sie können die Position und Größe des Ringdiagramms ändern, indem Sie die Parameter im`addChart` Methode. Die vier Zahlen in dieser Methode entsprechen den X- und Y-Koordinaten der oberen linken Ecke des Diagramms bzw. seiner Breite und Höhe.

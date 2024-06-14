@@ -26,7 +26,7 @@ Abyste mohli pokračovat v tomto tutoriálu, budete potřebovat následující:
 
 ## Krok 1: Nastavte svůj projekt
 
-tomto prvním kroku nastavíme náš projekt a ujistíme se, že máme připraveny všechny potřebné komponenty. Ujistěte se, že jste do projektu přidali odkaz na knihovnu Aspose.Slides for .NET.
+V tomto prvním kroku nastavíme náš projekt a ujistíme se, že máme připraveny všechny potřebné komponenty. Ujistěte se, že jste do projektu přidali odkaz na knihovnu Aspose.Slides for .NET.
 
 ```csharp
 string dataDir = "Your Document Directory";

@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//श्रेणी अक्ष के लिए लघु ग्रिड रेखा प्रारूप सेट करना
+// श्रेणी अक्ष के लिए लघु ग्रिड रेखा प्रारूप सेट करना
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//श्रेणी अक्ष के लिए लघु ग्रिड रेखा प्रारूप सेट करना
+	// श्रेणी अक्ष के लिए लघु ग्रिड रेखा प्रारूप सेट करना
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -257,14 +257,14 @@ try
 	// चार्ट को ओवरलैप किए बिना चार्ट लेजेंड दिखाने के लिए सेट करें
 	chart.getLegend().setOverlay(true);
 	// द्वितीयक मान अक्ष पर प्रथम श्रृंखला का आलेखन
-	//चार्ट.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = सत्य;
+	// चार्ट.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = सत्य;
 	// चार्ट बैक वॉल रंग सेट करना
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// प्लॉट क्षेत्र का रंग सेट करना
+	//प्लॉट क्षेत्र का रंग सेट करना
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// प्रस्तुति सहेजें
@@ -278,7 +278,7 @@ finally
 
 ## निष्कर्ष
 
-इस लेख में, हमने Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट इकाइयों की दुनिया का पता लगाया है। आपने सीखा है कि अपनी प्रस्तुतियों को बेहतर बनाने के लिए चार्ट कैसे बनाएं, कस्टमाइज़ करें और उनमें हेरफेर करें। चार्ट न केवल आपके डेटा को आकर्षक बनाते हैं, बल्कि आपके दर्शकों को जटिल जानकारी को अधिक आसानी से समझने में भी मदद करते हैं।
+इस लेख में, हमने Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट इकाइयों की दुनिया का पता लगाया है। आपने सीखा है कि अपनी प्रस्तुतियों को बेहतर बनाने के लिए चार्ट कैसे बनाएं, कस्टमाइज़ करें और उनमें हेरफेर करें। चार्ट न केवल आपके डेटा को आकर्षक बनाते हैं बल्कि आपके दर्शकों को जटिल जानकारी को अधिक आसानी से समझने में भी मदद करते हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

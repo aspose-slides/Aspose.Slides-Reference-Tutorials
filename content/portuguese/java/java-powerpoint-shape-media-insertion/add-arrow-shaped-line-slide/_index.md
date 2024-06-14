@@ -2,7 +2,7 @@
 title: Adicionar linha em forma de seta ao slide
 linktitle: Adicionar linha em forma de seta ao slide
 second_title: API de processamento Aspose.Slides Java PowerPoint
-description: Aprenda como adicionar linhas em forma de seta aos slides do PowerPoint usando Aspose.Slides para Java. Personalize estilos, cores e posições sem esforço.
+description: Aprenda como adicionar linhas em forma de seta aos slides do PowerPoint usando Aspose.Slides for Java. Personalize estilos, cores e posições sem esforço.
 type: docs
 weight: 11
 url: /pt/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
@@ -12,14 +12,14 @@ Neste tutorial, exploraremos como adicionar uma linha em forma de seta a um slid
 ## Pré-requisitos
 Antes de começarmos, certifique-se de ter os seguintes pré-requisitos:
 - Java Development Kit (JDK) instalado em seu sistema.
-- Biblioteca Aspose.Slides para Java baixada e configurada em seu projeto Java. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
+-  Biblioteca Aspose.Slides para Java baixada e configurada em seu projeto Java. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
 - Conhecimento básico da linguagem de programação Java.
 
 ## Importar pacotes
 Primeiro, importe os pacotes necessários para sua classe Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ Neste tutorial, aprendemos como adicionar uma linha em forma de seta a um slide 
 ### Posso personalizar a cor da linha da seta?
  Sim, você pode especificar qualquer cor usando o`setColor` método com`SolidFillColor`.
 ### Como posso alterar a posição e o tamanho da linha da seta?
-Ajuste os parâmetros passados para o`addAutoShape` método para alterar a posição e as dimensões.
+ Ajuste os parâmetros passados para o`addAutoShape` método para alterar a posição e as dimensões.
 ### O Aspose.Slides é compatível com todas as versões do PowerPoint?
 Aspose.Slides suporta vários formatos de PowerPoint, garantindo compatibilidade entre diferentes versões.
 ### Posso adicionar texto à linha de seta?

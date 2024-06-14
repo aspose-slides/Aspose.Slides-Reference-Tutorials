@@ -65,7 +65,7 @@ Det är allt! Du har framgångsrikt skapat en presentation med skissade former m
 Genom att lägga till skissade former till dina presentationsbilder kan du förbättra den visuella överklagandet och engagera din publik. Med Aspose.Slides för .NET blir processen enkel, så att du kan släppa loss din kreativitet utan ansträngning.
 ## Vanliga frågor
 ### 1. Kan jag anpassa den skissade effekten?
-Ja, Aspose.Slides för .NET tillhandahåller olika anpassningsalternativ för skissade effekter. Referera till[dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information.
+ Ja, Aspose.Slides för .NET tillhandahåller olika anpassningsalternativ för skissade effekter. Referera till[dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information.
 ### 2. Finns det en gratis provperiod?
  Säkert! Du kan utforska en gratis testversion av Aspose.Slides för .NET[här](https://releases.aspose.com/).
 ### 3. Var kan jag få stöd?

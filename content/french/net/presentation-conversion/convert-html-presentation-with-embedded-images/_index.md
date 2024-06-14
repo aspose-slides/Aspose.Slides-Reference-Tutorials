@@ -67,7 +67,7 @@ Ensuite, configurez les options de conversion HTML. Vous pouvez spécifier diver
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //Forcer à ne pas enregistrer les images dans le document HTML5
+    // Forcer à ne pas enregistrer les images dans le document HTML5
     EmbedImages = false,
     // Définir le chemin des images externes
     OutputPath = outPath

@@ -26,7 +26,7 @@ PowerPoint 演示文稿可以改变任何项目，无论是商业宣传、教育
 
 ## 在 PowerPoint 中对形状应用斜面效果
 
-斜面效果可以为您的形状增加深度和维度，使其脱颖而出。无论您是想要微妙的增强效果还是大胆的表达，斜面效果都是不错的选择。通过本教程了解如何应用这些效果[在 PowerPoint 中对形状应用斜面效果](./apply-bevel-effects-shapes-powerpoint/).
+斜面效果可以为您的形状增加深度和维度，使其脱颖而出。无论您是想要微妙的增强还是大胆的表达，斜面效果都是不错的选择。通过本教程了解如何应用这些效果[在 PowerPoint 中对形状应用斜面效果](./apply-bevel-effects-shapes-powerpoint/).
 
 ## 在 PowerPoint 中更改 OLE 对象数据
 

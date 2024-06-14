@@ -38,7 +38,7 @@ using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx")
     // Itt a kódod
 }
 ```
-## 3. lépés: Szerezze be és állítsa be a diaszámot
+## 3. lépés: Szerezze be és állítsa be a dia számát
  Az aktuális dia számának lekérése a gombbal`FirstSlideNumber` tulajdonságot, majd állítsa be a kívánt értékre. A példában 10-re állítjuk.
 ```csharp
 int firstSlideNumber = presentation.FirstSlideNumber;

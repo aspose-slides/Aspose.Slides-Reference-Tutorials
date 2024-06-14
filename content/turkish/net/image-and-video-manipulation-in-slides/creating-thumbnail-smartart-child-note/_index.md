@@ -59,6 +59,6 @@ C: Kesinlikle! Aspose.Slides çeşitli SmartArt düzenleri sunarak sunum ihtiya�
 ### S: Test amaçlı olarak geçici bir lisans mevcut mu?
  C: Evet, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
 ### S: Nereden yardım alabilirim veya Aspose.Slides topluluğuyla bağlantı kurabilirim?
-C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) toplulukla etkileşime geçmek, sorular sormak ve çözümler bulmak.
+ C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) toplulukla etkileşime geçmek, sorular sormak ve çözümler bulmak.
 ### S: Aspose.Slides for .NET'i satın alabilir miyim?
  C: Kesinlikle! Satın alma seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy) Projelerinizde Aspose.Slides'ın tüm potansiyelini açığa çıkarmak için.

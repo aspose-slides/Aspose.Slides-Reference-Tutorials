@@ -10,7 +10,7 @@ url: /cs/java/chart-data-manipulation/edit-chart-data-external-workbook-java-sli
 
 ## Úvod do úprav dat grafu v externím sešitu v Java Slides
 
-této příručce si ukážeme, jak upravit data grafu v externím sešitu pomocí Aspose.Slides for Java. Dozvíte se, jak programově upravit data grafu v prezentaci PowerPoint. Ujistěte se, že máte v projektu nainstalovanou a nakonfigurovanou knihovnu Aspose.Slides pro Javu.
+V této příručce si ukážeme, jak upravit data grafu v externím sešitu pomocí Aspose.Slides for Java. Dozvíte se, jak programově upravit data grafu v prezentaci PowerPoint. Ujistěte se, že máte v projektu nainstalovanou a nakonfigurovanou knihovnu Aspose.Slides pro Javu.
 
 ## Předpoklady
 
@@ -75,7 +75,7 @@ Nyní jste úspěšně upravili data grafu v externím sešitu v rámci prezenta
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -84,13 +84,13 @@ Nyní jste úspěšně upravili data grafu v externím sešitu v rámci prezenta
 ```
 ## Závěr
 
-tomto komplexním průvodci jsme prozkoumali, jak upravit data grafu v externích sešitech v rámci prezentací PowerPoint pomocí Aspose.Slides for Java. Dodržováním podrobných pokynů a příkladů zdrojového kódu jste získali znalosti a dovednosti, jak snadno programově upravovat data grafu.
+V tomto komplexním průvodci jsme prozkoumali, jak upravit data grafu v externích sešitech v rámci prezentací PowerPoint pomocí Aspose.Slides for Java. Dodržováním podrobných pokynů a příkladů zdrojového kódu jste získali znalosti a dovednosti, jak snadno programově upravovat data grafu.
 
 ## FAQ
 
 ### Jak určím jiný graf nebo snímek?
 
- Chcete-li získat přístup k jinému grafu nebo snímku, upravte příslušný index v souboru`getSlides().get_Item()` a`getShapes().get_Item()` metody. Pamatujte, že indexování začíná od 0.
+ Chcete-li získat přístup k jinému grafu nebo snímku, upravte příslušný index v souboru`getSlides().get_Item()` a`getShapes().get_Item()`metody. Pamatujte, že indexování začíná od 0.
 
 ### Mohu upravovat data ve více grafech v rámci jedné prezentace?
 

@@ -2,7 +2,7 @@
 title: Chuyển đổi slide cụ thể sang định dạng PDF
 linktitle: Chuyển đổi slide cụ thể sang định dạng PDF
 second_title: API xử lý Aspose.Slides .NET PowerPoint
-description: Tìm hiểu cách chuyển đổi các trang chiếu PowerPoint cụ thể sang định dạng PDF bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã.
+description: Tìm hiểu cách chuyển đổi các trang chiếu PowerPoint cụ thể sang định dạng PDF bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
 type: docs
 weight: 19
 url: /vi/net/presentation-conversion/convert-specific-slide-to-pdf-format/

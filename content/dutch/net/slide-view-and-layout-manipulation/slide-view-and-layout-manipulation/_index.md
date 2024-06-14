@@ -50,7 +50,7 @@ class Program
 
 ## Diaweergaven openen
 
-Aspose.Slides biedt verschillende diaweergaven, zoals de normale, diasorteerder- en notitieweergaven. Zo kunt u de diaweergave openen en instellen:
+Aspose.Slides biedt verschillende diaweergaven, zoals de weergave Normaal, Diasorteerder en Notities. Zo kunt u de diaweergave openen en instellen:
 
 ```csharp
 // Toegang tot de eerste dia
@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 Nadat u alle noodzakelijke wijzigingen heeft aangebracht, slaat u de gewijzigde presentatie op:
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

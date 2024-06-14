@@ -8,7 +8,7 @@ weight: 10
 url: /zh-hant/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
 ## 介紹
-在 .NET 開發領域，Aspose.Slides 作為創建、操作和渲染 PowerPoint 簡報的強大工具脫穎而出。在其一系列功能中，將簡報直接列印到預設印表機的能力是開發人員經常尋求的方便的功能。本教學將逐步引導您完成整個過程，即使您對 Aspose.Slides 比較陌生，也可以輕鬆上手。
+在 .NET 開發領域，Aspose.Slides 作為創建、操作和渲染 PowerPoint 簡報的強大工具脫穎而出。在其一系列功能中，將簡報直接列印到預設印表機的能力是開發人員經常尋求的便利功能。本教學將逐步引導您完成整個過程，即使您對 Aspose.Slides 比較陌生，也可以輕鬆上手。
 ## 先決條件
 在我們深入學習本教程之前，請確保您具備以下先決條件：
 1.  Aspose.Slides for .NET：請確定您已經安裝了 Aspose.Slides for .NET 函式庫。如果沒有，您可以找到必要的資源[這裡](https://releases.aspose.com/slides/net/).

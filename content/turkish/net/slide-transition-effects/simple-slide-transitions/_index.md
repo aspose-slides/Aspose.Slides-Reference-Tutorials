@@ -88,7 +88,7 @@ Bu eğitimde, sunumlarınızda ilgi çekici slayt geçişleri oluşturmak için 
 
  "Daire" ve "Tarak" gibi geçişleri uygulayarak slaytlarınıza hayat verebilir ve sunumlarınızı daha ilgi çekici hale getirebilirsiniz. Keşfetmeyi unutmayın[dokümantasyon](https://reference.aspose.com/slides/net/) Aspose.Slides for .NET hakkında daha fazla ayrıntı ve özellik için.
 
-Sorularınız mı var veya daha fazla yardıma mı ihtiyacınız var? Aspose.Slides topluluk forumuna göz atın[Burada](https://forum.aspose.com/).
+ Sorularınız mı var veya daha fazla yardıma mı ihtiyacınız var? Aspose.Slides topluluk forumuna göz atın[Burada](https://forum.aspose.com/).
 
 ## SSS
 

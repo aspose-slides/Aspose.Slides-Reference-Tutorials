@@ -19,7 +19,7 @@ Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 Untuk memulai, Anda perlu mengimpor paket yang diperlukan untuk Aspose.Slides. Inilah cara Anda melakukannya:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Di bagian ini, kami akan menguraikan proses menyembunyikan bentuk di PowerPoint menjadi langkah-langkah yang mudah diikuti. Setiap langkah mencakup judul dan penjelasan rinci.
 ## Langkah 1: Siapkan Proyek Anda
@@ -74,7 +74,7 @@ Selamat! Anda telah berhasil mempelajari cara menyembunyikan bentuk dalam presen
 ### Apa itu Aspose.Slide untuk Java?
 Aspose.Slides untuk Java adalah API yang kuat untuk memanipulasi file PowerPoint secara terprogram. Hal ini memungkinkan pengembang untuk membuat, memodifikasi, dan mengelola presentasi tanpa memerlukan Microsoft PowerPoint.
 ### Bagaimana cara menyembunyikan bentuk di PowerPoint menggunakan Java?
- Anda dapat menyembunyikan bentuk dengan mengaturnya`setHidden` properti ke`true`Hal ini melibatkan identifikasi bentuk berdasarkan teks alternatifnya dan mengulang-ulang bentuk pada slide.
+ Anda dapat menyembunyikan bentuk dengan mengaturnya`setHidden` properti ke`true`. Hal ini melibatkan identifikasi bentuk berdasarkan teks alternatifnya dan mengulang-ulang bentuk pada slide.
 ### Bisakah saya menggunakan Aspose.Slides untuk Java dengan bahasa pemrograman lain?
 Aspose.Slides tersedia untuk berbagai bahasa pemrograman termasuk .NET, Python, dan C++. Namun panduan ini khusus mencakup Java.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Slides?

@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## चरण 4: पाई चार्ट जोड़ें
 
 ```java
-//डिफ़ॉल्ट डेटा के साथ पाई चार्ट जोड़ें
+// डिफ़ॉल्ट डेटा के साथ पाई चार्ट जोड़ें
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ chart.setTitle(true);
 ## चरण 6: चार्ट डेटा को अनुकूलित करें
 
 ```java
-// मान दिखाने के लिए पहली श्रृंखला सेट करें
+//मान दिखाने के लिए पहली श्रृंखला सेट करें
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // चार्ट डेटा शीट का इंडेक्स सेट करना
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // नई श्रृंखला जोड़ना
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//अब श्रृंखला डेटा भरा जा रहा है
+// अब श्रृंखला डेटा भरा जा रहा है
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

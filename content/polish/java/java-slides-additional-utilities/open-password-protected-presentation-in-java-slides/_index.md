@@ -16,9 +16,9 @@ W tym samouczku dowiesz się, jak otworzyć prezentację chronioną hasłem przy
 
 Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Biblioteka Aspose.Slides for Java: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Slides for Java. Można go uzyskać od[Strona Aspose](https://products.aspose.com/slides/java/).
+1.  Biblioteka Aspose.Slides for Java: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Slides for Java. Można go uzyskać od[Strona Aspose](https://products.aspose.com/slides/java/).
 
-2.  Środowisko programistyczne Java: skonfiguruj środowisko programistyczne Java w swoim systemie, jeśli jeszcze tego nie zrobiłeś. Możesz pobrać Javę z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Środowisko programistyczne Java: skonfiguruj środowisko programistyczne Java w swoim systemie, jeśli jeszcze tego nie zrobiłeś. Możesz pobrać Javę z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## Krok 1: Zaimportuj bibliotekę Aspose.Slides
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Zastąp „pass” hasłem prezentacji
 
 ## Krok 3: Otwórz prezentację
 
- Teraz otworzysz prezentację chronioną hasłem za pomocą`Presentation`konstruktor klasy, który jako parametry przyjmuje ścieżkę pliku i opcje ładowania.
+ Teraz otworzysz prezentację chronioną hasłem za pomocą`Presentation` konstruktor klasy, który jako parametry przyjmuje ścieżkę pliku i opcje ładowania.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);
@@ -90,7 +90,7 @@ finally
 
 ## Wniosek
 
-tym samouczku nauczyłeś się otwierać prezentację zabezpieczoną hasłem w Javie przy użyciu biblioteki Aspose.Slides for Java. Możesz teraz uzyskać dostęp do danych prezentacji i manipulować nimi zgodnie z potrzebami w aplikacji Java.
+W tym samouczku nauczyłeś się otwierać prezentację zabezpieczoną hasłem w Javie przy użyciu biblioteki Aspose.Slides for Java. Możesz teraz uzyskać dostęp do danych prezentacji i manipulować nimi zgodnie z potrzebami w aplikacji Java.
 
 ## Często zadawane pytania
 

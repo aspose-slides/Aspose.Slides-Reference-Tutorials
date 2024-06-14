@@ -20,7 +20,7 @@ Aspose.Slides for Java 使开发人员能够以编程方式操作 PowerPoint 演
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置环境
 定义包含 PowerPoint 文件的目录的路径：

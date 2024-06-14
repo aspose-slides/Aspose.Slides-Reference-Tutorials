@@ -83,4 +83,4 @@ A: Ja, Aspose.Slides ondersteunt de nieuwste PowerPoint-bestandsindelingen, incl
 ### Vraag: Kan ik het uiterlijk van het ingebedde OLE-objectframe aanpassen?
 A: Absoluut, u kunt de grootte, positie en andere eigenschappen van het OLE-objectframe aanpassen aan uw voorkeuren.
 ### Vraag: Waar kan ik hulp zoeken als ik tijdens de implementatie tegen problemen aanloop?
-A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en begeleiding.
+ A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en begeleiding.

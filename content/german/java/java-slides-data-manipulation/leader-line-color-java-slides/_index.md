@@ -20,7 +20,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 ## Schritt 1: Laden Sie die Präsentation
 
-Zuerst müssen Sie die PowerPoint-Präsentation laden, die das zu ändernde Diagramm enthält. Ersetzen Sie`presentationName` durch den Pfad zu Ihrer PowerPoint-Datei.
+ Zuerst müssen Sie die PowerPoint-Präsentation laden, die das zu ändernde Diagramm enthält. Ersetzen Sie`presentationName` durch den Pfad zu Ihrer PowerPoint-Datei.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Als nächstes greifen wir auf das Diagramm und die Datenbeschriftungen innerhalb
 // Holen Sie sich das Diagramm von der ersten Folie
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Serien des Diagramms abrufen
+//Serien des Diagramms abrufen
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Erhalten Sie Etiketten der ersten Serie
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Speichern Sie abschließend die Präsentation mit den geänderten Führungslinienfarben in einer neuen Datei.
 
 ```java
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Vollständiger Quellcode für die Führungslinienfarbe in Java-Folien
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Holen Sie sich das Diagramm von der ersten Folie
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Serien des Diagramms abrufen
+            //Serien des Diagramms abrufen
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Erhalte Auszeichnungen der ersten Serie
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -91,7 +91,7 @@ In diesem Tutorial haben wir gelernt, wie man die Farbe der Führungslinie in ei
 
 ### Kann ich die Farbe der Führungslinie in eine benutzerdefinierte Farbe ändern?
 
-Ja, Sie können die Farbe der Führungslinie in eine benutzerdefinierte Farbe ändern. Im bereitgestellten Codebeispiel setzen wir die Farbe der Führungslinie auf Rot (Color.RED). Sie können „Color.RED“ durch jede andere gültige Farbe in Java ersetzen, um die gewünschte Farbe für Ihre Führungslinien zu erhalten.
+Ja, Sie können die Führungslinienfarbe in eine benutzerdefinierte Farbe ändern. Im bereitgestellten Codebeispiel setzen wir die Führungslinienfarbe auf Rot (Color.RED). Sie können „Color.RED“ durch jede andere gültige Farbe in Java ersetzen, um die gewünschte Farbe für Ihre Führungslinien zu erhalten.
 
 ### Wie greife ich mit Aspose.Slides für Java auf andere Diagrammeigenschaften zu und ändere diese?
 
@@ -107,7 +107,7 @@ Um auf andere Diagrammeigenschaften zuzugreifen und diese zu ändern, können Si
 
 ### Benötige ich eine Lizenz, um Aspose.Slides für Java in einem kommerziellen Projekt zu verwenden?
 
-Ja, Sie benötigen im Allgemeinen eine gültige Lizenz, um Aspose.Slides für Java in einem kommerziellen Projekt zu verwenden. Aspose bietet verschiedene Lizenzoptionen, darunter eine kostenlose Evaluierungslizenz für Test- und Testzwecke. Für den Produktionseinsatz sollten Sie jedoch die entsprechende kommerzielle Lizenz erwerben. Besuchen Sie die[Aspose-Kaufseite](https://purchase.aspose.com/) für Lizenzdetails.
+ Ja, Sie benötigen im Allgemeinen eine gültige Lizenz, um Aspose.Slides für Java in einem kommerziellen Projekt zu verwenden. Aspose bietet verschiedene Lizenzoptionen, darunter eine kostenlose Evaluierungslizenz für Test- und Testzwecke. Für den Produktionseinsatz sollten Sie jedoch die entsprechende kommerzielle Lizenz erwerben. Besuchen Sie die[Aspose-Kaufseite](https://purchase.aspose.com/) für Lizenzdetails.
 
 ### Wie kann ich technischen Support für Aspose.Slides für Java erhalten?
 

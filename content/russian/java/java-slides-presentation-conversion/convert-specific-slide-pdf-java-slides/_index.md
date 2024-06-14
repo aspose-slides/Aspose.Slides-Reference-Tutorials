@@ -16,7 +16,7 @@ url: /ru/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 Прежде чем мы углубимся в код, убедитесь, что у вас есть следующие предварительные условия:
 
-1. Библиотека Aspose.Slides для Java: вам потребуется установить библиотеку Aspose.Slides для Java. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
+1.  Библиотека Aspose.Slides для Java: вам потребуется установить библиотеку Aspose.Slides для Java. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
 
 2. Среда разработки Java: убедитесь, что в вашей системе настроена среда разработки Java.
 

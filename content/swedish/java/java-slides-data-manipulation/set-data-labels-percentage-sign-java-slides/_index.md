@@ -10,7 +10,7 @@ url: /sv/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 
 ## Introduktion till Ange dataetiketter Procent Logga in Aspose.Slides för Java
 
-I den här guiden går vi igenom processen att ställa in dataetiketter med ett procenttecken med Aspose.Slides för Java. Vi kommer att skapa en PowerPoint-presentation med ett staplat kolumndiagram och konfigurera dataetiketter för att visa procentsatser.
+den här guiden går vi igenom processen att ställa in dataetiketter med ett procenttecken med Aspose.Slides för Java. Vi kommer att skapa en PowerPoint-presentation med ett staplat kolumndiagram och konfigurera dataetiketter för att visa procentsatser.
 
 ## Förutsättningar
 
@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 För att visa procentsatser måste vi konfigurera talformatet för diagrammets vertikala axel.
 
 ```java
-//Ställ in NumberFormatLinkedToSource på false
+// Ställ in NumberFormatLinkedToSource på false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Lägg till PercentsStackedColumn-diagram på en bild
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Ställ in NumberFormatLinkedToSource på false
+// Ställ in NumberFormatLinkedToSource på false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Genom att följa den här guiden har du lärt dig hur du skapar engagerande pres
 
 ### Kan jag anpassa teckensnittsstorleken på dataetiketterna?
 
- Ja, du kan anpassa teckensnittsstorleken för dataetiketter genom att ställa in`setFontHeight` egendom som visas i koden.
+Ja, du kan anpassa teckensnittsstorleken för dataetiketter genom att ställa in`setFontHeight` egendom som visas i koden.
 
 ### Hur kan jag lägga till fler serier i diagrammet?
 

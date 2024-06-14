@@ -73,7 +73,7 @@ PowerPoint 簡報可以改變任何專案的遊戲規則，無論是商業宣傳
 ### [在 PowerPoint 中對形狀套用斜角效果](./apply-bevel-effects-shapes-powerpoint/)
 透過我們的逐步指南，了解如何使用 Aspose.Slides for Java 將斜角效果套用到 PowerPoint 中的形狀。增強您的簡報。
 ### [在 PowerPoint 中更改 OLE 物件數據](./change-ole-object-data-powerpoint/)
-了解如何使用 Aspose.Slides for Java 變更 PowerPoint 中的 OLE 物件資料。高效率、輕鬆更新的逐步指南。
+了解如何使用 Aspose.Slides for Java 變更 PowerPoint 中的 OLE 物件資料。高效、輕鬆更新的逐步指南。
 ### [在 PowerPoint 中更改形狀順序](./change-shape-order-powerpoint/)
 透過此逐步教學，了解如何使用 Aspose.Slides for Java 變更 PowerPoint 中的形狀順序。毫不費力地提升您的簡報技巧。
 ### [PowerPoint 中的克隆形狀](./clone-shapes-powerpoint/)

@@ -8,7 +8,7 @@ weight: 25
 url: /sv/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
 ## Introduktion
-Att skapa dynamiska och interaktiva PowerPoint-presentationer är ett vanligt krav i dagens digitala värld. Ett kraftfullt verktyg för att uppnå detta är Aspose.Slides för .NET, ett robust bibliotek som tillåter utvecklare att manipulera och förbättra PowerPoint-presentationer programmatiskt. I den här handledningen kommer vi att fördjupa oss i processen att ändra OLE (Object Linking and Embedding)-objektdata i presentationsbilder med Aspose.Slides.
+Att skapa dynamiska och interaktiva PowerPoint-presentationer är ett vanligt krav i dagens digitala värld. Ett kraftfullt verktyg för att uppnå detta är Aspose.Slides för .NET, ett robust bibliotek som låter utvecklare manipulera och förbättra PowerPoint-presentationer programmatiskt. I den här handledningen kommer vi att fördjupa oss i processen att ändra OLE (Object Linking and Embedding)-objektdata i presentationsbilder med Aspose.Slides.
 ## Förutsättningar
 Innan du börjar arbeta med Aspose.Slides för .NET, se till att du har följande förutsättningar på plats:
 1. Utvecklingsmiljö: Skapa en utvecklingsmiljö med .NET installerat.

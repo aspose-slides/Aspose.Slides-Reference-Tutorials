@@ -37,7 +37,7 @@ PrinterSettings printerSettings = new PrinterSettings();
 printerSettings.Copies = 2;
 printerSettings.DefaultPageSettings.Landscape = true;
 printerSettings.DefaultPageSettings.Margins.Left = 10;
-// ... Voeg eventuele andere benodigde printerinstellingen toe
+// ... Voeg eventuele andere noodzakelijke printerinstellingen toe
 ```
 ## Stap 3: Presentatie afdrukken op een gewenste printer
  Tenslotte gebruiken wij de`Print` methode om de presentatie naar de opgegeven printer te verzenden. Zorg ervoor dat u de tijdelijke aanduiding vervangt door de werkelijke naam van uw printer.

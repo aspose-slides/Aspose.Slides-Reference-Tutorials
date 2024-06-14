@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## خاتمة
 
- في هذا البرنامج التعليمي، تعلمنا كيفية تحميل عرض تقديمي لـ PowerPoint في Java باستخدام Aspose.Slides والتحقق من تنسيقه باستخدام`LoadFormat`تعداد. يمكن أن يكون هذا مفيدًا عندما تحتاج إلى التعامل مع العروض التقديمية ذات التنسيقات المختلفة بشكل مختلف في تطبيق Java الخاص بك.
+ في هذا البرنامج التعليمي، تعلمنا كيفية تحميل عرض تقديمي لـ PowerPoint في Java باستخدام Aspose.Slides والتحقق من تنسيقه باستخدام`LoadFormat` تعداد. يمكن أن يكون هذا مفيدًا عندما تحتاج إلى التعامل مع العروض التقديمية ذات التنسيقات المختلفة بشكل مختلف في تطبيق Java الخاص بك.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تنزيل Aspose.Slides لجافا؟
 
- يمكنك تنزيل مكتبة Aspose.Slides for Java من موقع Aspose الإلكتروني بزيارة[هذا الرابط](https://releases.aspose.com/slides/java/).
+يمكنك تنزيل مكتبة Aspose.Slides for Java من موقع Aspose الإلكتروني بزيارة[هذا الرابط](https://releases.aspose.com/slides/java/).
 
 ### ما هو الغرض من التحقق من تنسيق العرض التقديمي؟
 

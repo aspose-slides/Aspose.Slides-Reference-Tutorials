@@ -96,7 +96,7 @@ I det här steget ställer vi in den anpassade utdataspararen, utför konverteri
 
 ```java
 	// Presentation av väg till källa
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Skapa konverteringsalternativ
@@ -109,7 +109,7 @@ I det här steget ställer vi in den anpassade utdataspararen, utför konverteri
 		pres.save(xamlOptions);
 		// Spara XAML-filer till en utdatakatalog
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

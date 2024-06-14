@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides を使用したプレゼンテーションでの巻き戻しアニメーションの習得
+title: Aspose.Slides を使用したプレゼンテーションの巻き戻しアニメーションの習得
 linktitle: スライドの巻き戻しアニメーション
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint スライドのアニメーションを巻き戻す方法を学びます。完全なソース コード例を含むこのステップ バイ ステップ ガイドに従ってください。

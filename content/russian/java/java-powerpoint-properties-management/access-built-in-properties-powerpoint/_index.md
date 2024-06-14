@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-properties-management/access-built-in-properties-p
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Настройте объект презентации
 Начните с настройки объекта Presentation, который будет представлять презентацию PowerPoint, с которой вы хотите работать. Вот как вы можете это сделать:

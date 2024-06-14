@@ -44,7 +44,7 @@ import com.aspose.slides.IShape;
 
 ## चरण 3: मुख्य रूपांतरण विधि निर्धारित करें
 
- अलग-अलग स्लाइडों का रूपांतरण करने के लिए एक विधि बनाएँ। सुनिश्चित करें कि प्रतिस्थापित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+ अलग-अलग स्लाइड्स का रूपांतरण करने के लिए एक विधि बनाएँ। सुनिश्चित करें कि प्रतिस्थापित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ```java
 public static void convertIndividualSlides() {
@@ -169,4 +169,4 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ### मैं स्लाइडों में आकृतियों और पाठ के लिए अतिरिक्त स्वरूपण कैसे प्रबंधित करूँ?
 
-आप विस्तार कर सकते हैं`CustomFormattingController` वर्ग को कार्यान्वित करके आकार-विशिष्ट स्वरूपण को संभालने के लिए`writeShapeStart` और`writeShapeEnd` विधियों और उनके भीतर कस्टम स्वरूपण तर्क लागू करना।
+ आप विस्तार कर सकते हैं`CustomFormattingController` वर्ग को कार्यान्वित करके आकार-विशिष्ट स्वरूपण को संभालने के लिए`writeShapeStart` और`writeShapeEnd` विधियों और उनके भीतर कस्टम स्वरूपण तर्क लागू करना।

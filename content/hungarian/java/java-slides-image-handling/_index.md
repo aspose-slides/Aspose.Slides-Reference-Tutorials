@@ -36,7 +36,7 @@ Az Aspose.Slides for Java segítségével a Java diákon lévő képek kezelése
 ## Java Slides képkezelési oktatóanyagok
 ### [Adjon hozzá Blob képet a Java Slides prezentációjához](./add-blob-image-to-presentation-in-java-slides/)
 Ismerje meg, hogyan adhat hozzá blob-képeket könnyedén Java Slides-prezentációkhoz. Kövesse lépésenkénti útmutatónkat kódpéldákkal az Aspose.Slides for Java használatával.
-### [Kép hozzáadása az SVG objektumból a Java Slides alkalmazásban](./add-image-from-svg-object-in-java-slides/)
+### [Kép hozzáadása SVG objektumból a Java Slides alkalmazásban](./add-image-from-svg-object-in-java-slides/)
 Ismerje meg, hogyan adhat hozzá SVG-képeket a Java Slides-hez az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató kóddal a lenyűgöző prezentációkhoz.
 ### [Kép hozzáadása SVG-objektumból a Java Slides külső erőforrásából](./add-image-from-svg-object-from-external-resource-in-java-slides/)
 Ismerje meg, hogyan adhat hozzá külső forrásokból származó vektor alapú SVG-képeket Java diákhoz az Aspose.Slides segítségével. Lenyűgöző prezentációkat készíthet kiváló minőségű látványelemekkel.

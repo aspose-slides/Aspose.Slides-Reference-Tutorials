@@ -21,12 +21,12 @@ url: /el/java/java-powerpoint-properties-management/access-presentation-properti
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Ορίστε τον Κατάλογο δεδομένων
 Πριν βουτήξετε στην βασική λειτουργικότητα, ρυθμίστε τον κατάλογο δεδομένων για πρόσβαση στο αρχείο παρουσίασής σας:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Βήμα 2: Δημιουργία επιλογών φόρτωσης
 Δημιουργήστε επιλογές φόρτωσης για να διαμορφώσετε τον τρόπο πρόσβασης στο αρχείο παρουσίασης. Σε αυτό το παράδειγμα, ορίζουμε τον κωδικό πρόσβασης σε null και ενεργοποιούμε τη φόρτωση μόνο ιδιοτήτων εγγράφου:

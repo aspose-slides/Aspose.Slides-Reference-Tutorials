@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## ステップ3: PDFオプションを設定する
 
- PDF出力に非表示のスライドを含めるには、PDFオプションを設定します。`setShowHiddenSlides`の財産`PdfOptions`クラスに`true`.
+PDF出力に非表示のスライドを含めるには、PDFオプションを設定します。`setShowHiddenSlides`の財産`PdfOptions`クラスに`true`.
 
 ```java
 //PdfOptionsクラスをインスタンス化する

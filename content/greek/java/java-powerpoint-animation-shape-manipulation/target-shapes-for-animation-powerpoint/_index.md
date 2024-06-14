@@ -21,7 +21,7 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-ani
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Ρυθμίστε το Αρχείο παρουσίασης
 Ξεκινήστε καθορίζοντας τη διαδρομή προς το αρχείο παρουσίασης πηγής:

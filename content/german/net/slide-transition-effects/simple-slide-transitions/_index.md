@@ -88,7 +88,7 @@ In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für .NET fessel
 
  Durch die Anwendung von Übergängen wie „Kreis“ und „Kamm“ können Sie Ihren Folien Leben einhauchen und Ihre Präsentationen ansprechender gestalten. Vergessen Sie nicht, die[Dokumentation](https://reference.aspose.com/slides/net/) für weitere Details und Funktionen von Aspose.Slides für .NET.
 
-Haben Sie Fragen oder benötigen Sie weitere Hilfe? Schauen Sie sich das Aspose.Slides-Community-Forum an[Hier](https://forum.aspose.com/).
+ Haben Sie Fragen oder benötigen Sie weitere Hilfe? Schauen Sie sich das Aspose.Slides-Community-Forum an[Hier](https://forum.aspose.com/).
 
 ## FAQs
 

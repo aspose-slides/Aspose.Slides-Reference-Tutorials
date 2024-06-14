@@ -19,7 +19,7 @@ Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivan
 Pour commencer, vous devez importer les packages nécessaires dans votre projet Java. Ces importations donneront accès aux fonctionnalités Aspose.Slides requises pour ce tutoriel.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Nous souhaitons rendre nos diapositives visuellement distinctes en ajoutant des couleurs d'arrière-plan.
 ### Définition de l'arrière-plan de la deuxième diapositive
 ```java
-    //Créer un arrière-plan pour la deuxième diapositive
+    // Créer un arrière-plan pour la deuxième diapositive
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);
@@ -84,7 +84,7 @@ Pour que nos Zoom Frames se démarquent, nous personnaliserons leur apparence.
     zoomFrame2.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.MAGENTA);
     zoomFrame2.getLineFormat().setDashStyle(LineDashStyle.DashDot);
 ```
-### Masquage de l'arrière-plan de la première image de zoom
+### Masquage de l'arrière-plan du premier cadre de zoom
 ```java
     // Ne pas afficher l'arrière-plan de l'objet zoomFrame1
     zoomFrame1.setShowBackground(false);

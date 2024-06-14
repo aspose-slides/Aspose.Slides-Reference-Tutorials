@@ -130,4 +130,4 @@ Ano, vzhled inverzních datových bodů si můžete přizpůsobit. Aspose.Slides
 
 ### Kde mohu získat přístup k dokumentaci Aspose.Slides for Java?
 
- Dokumentaci k Aspose.Slides for Java můžete získat na adrese[tady](https://reference.aspose.com/slides/java/).
+Dokumentaci k Aspose.Slides for Java můžete získat na adrese[tady](https://reference.aspose.com/slides/java/).

@@ -197,7 +197,7 @@ Tento kód konfiguruje vzhled hlavních čar mřížky na ose kategorií.
 Podobně jako u osy hodnot můžete přizpůsobit vedlejší čáry mřížky pro osu kategorií.
 
 ```csharp
-//Nastavení formátu vedlejších čar mřížky pro osu kategorie
+// Nastavení formátu vedlejších čar mřížky pro osu kategorie
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Nastavení barvy oblasti plotru
+//Nastavení barvy oblasti plotru
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

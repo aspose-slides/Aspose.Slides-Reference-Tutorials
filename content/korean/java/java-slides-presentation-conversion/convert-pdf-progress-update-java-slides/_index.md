@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 
 이 단계별 가이드에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션(PPTX)을 Java PDF 파일로 변환하는 방법을 보여줍니다. 또한 변환 프로세스 중에 진행 상황 업데이트가 포함됩니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -29,7 +29,7 @@ import com.aspose.slides.*;
 
 ## 2단계: Java 클래스 생성
 
-PowerPoint에서 PDF로의 변환을 수행할 Java 클래스를 만듭니다. 이름을 지어보자`PowerPointToPdfConverter`.
+ PowerPoint에서 PDF로의 변환을 수행할 Java 클래스를 만듭니다. 이름을 지어보자`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -68,7 +68,7 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## 5단계: 컴파일 및 실행
 
- Java 클래스를 컴파일하고 실행합니다.`PowerPointToPdfConverter` 수업. 콘솔에서 진행 업데이트를 제공하면서 PowerPoint 프레젠테이션을 PDF 파일로 변환합니다.
+Java 클래스를 컴파일하고 실행합니다.`PowerPointToPdfConverter` 수업. 콘솔에서 진행 업데이트를 제공하면서 PowerPoint 프레젠테이션을 PDF 파일로 변환합니다.
 
 ## Java 슬라이드의 진행률 업데이트를 통해 PDF로 변환하기 위한 전체 소스 코드
 
@@ -117,4 +117,4 @@ class ExportProgressHandler implements IProgressCallback
 
 ### PDF 변환 옵션을 어떻게 사용자 정의할 수 있나요?
 
- PDF 변환 옵션을 수정하여 사용자 정의할 수 있습니다.`PdfOptions` 호출하기 전에 개체를`presentation.save`방법. 여기에는 페이지 크기, 품질 등과 같은 속성 설정이 포함됩니다.
+ PDF 변환 옵션을 수정하여 사용자 정의할 수 있습니다.`PdfOptions` 호출하기 전에 개체를`presentation.save` 방법. 여기에는 페이지 크기, 품질 등과 같은 속성 설정이 포함됩니다.

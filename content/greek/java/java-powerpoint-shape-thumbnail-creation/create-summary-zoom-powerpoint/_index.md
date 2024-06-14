@@ -13,14 +13,14 @@ url: /el/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-power
 ## Προαπαιτούμενα
 Πριν ξεκινήσετε τον κώδικα, ας βεβαιωθούμε ότι έχετε όλα όσα χρειάζεστε για να ξεκινήσετε:
 1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στον υπολογιστή σας. Μπορείτε να το κατεβάσετε από το[Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides για Java: Κάντε λήψη της βιβλιοθήκης από το[Σελίδα εκδόσεων Aspose](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides για Java: Κάντε λήψη της βιβλιοθήκης από το[Σελίδα εκδόσεων Aspose](https://releases.aspose.com/slides/java/).
 3. Ενσωματωμένο περιβάλλον ανάπτυξης (IDE): Χρησιμοποιήστε ένα IDE όπως το IntelliJ IDEA, το Eclipse ή το NetBeans για μια πιο απρόσκοπτη εμπειρία ανάπτυξης.
 4. Βασικές γνώσεις Java: Η εξοικείωση με τις έννοιες προγραμματισμού Java θα σας βοηθήσει να κατανοήσετε και να εφαρμόσετε τα βήματα σε αυτόν τον οδηγό.
 ## Εισαγωγή πακέτων
 Πριν ξεκινήσουμε, πρέπει να εισάγετε τα απαραίτητα πακέτα. Βεβαιωθείτε ότι έχετε συμπεριλάβει το Aspose.Slides για Java στις εξαρτήσεις του έργου σας.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Βήμα 1: Ρύθμιση του έργου σας
@@ -76,7 +76,7 @@ pres.getSections().addSection("Section 4", slide);
 Τώρα, θα δημιουργήσουμε ένα πλαίσιο Σύνοψης ζουμ στην πρώτη διαφάνεια. Αυτό το πλαίσιο θα λειτουργεί ως το διαδραστικό στοιχείο που επιτρέπει στους χρήστες να μεγεθύνουν σε διαφορετικές ενότητες.
 
 1. Εντοπισμός της πρώτης διαφάνειας: Ανακτήστε την πρώτη διαφάνεια όπου θα προσθέσετε το πλαίσιο Σύνοψης ζουμ.
-2. Προσθήκη του Summary Zoom Frame: Χρησιμοποιήστε το`addSummaryZoomFrame` μέθοδος προσθήκης του πλαισίου.
+2.  Προσθήκη του Summary Zoom Frame: Χρησιμοποιήστε το`addSummaryZoomFrame` μέθοδος προσθήκης του πλαισίου.
 ```java
 ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().addSummaryZoomFrame(150, 50, 300, 200);
 ```
@@ -86,7 +86,7 @@ ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().ad
 1. Καθορισμός της διαδρομής εξόδου: Καθορίστε τη διαδρομή όπου θα αποθηκευτεί η παρουσίαση.
 2.  Αποθήκευση της παρουσίασης: Χρησιμοποιήστε το`save` μέθοδος αποθήκευσης του αρχείου σε μορφή PPTX.
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### Απορρίψτε το Αντικείμενο Παρουσίασης
@@ -95,14 +95,14 @@ pres.save(resultPath, SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 ## συμπέρασμα
- Συγχαρητήρια! Δημιουργήσατε επιτυχώς ένα Summary Zoom στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αυτή η δυνατότητα βελτιώνει τις παρουσιάσεις σας καθιστώντας τις πιο διαδραστικές και ελκυστικές. Ακολουθώντας αυτόν τον οδηγό, έχετε πλέον τις δεξιότητες να εφαρμόσετε αυτήν τη δυνατότητα στα δικά σας έργα. Θυμηθείτε να εξερευνήσετε το[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/) για πιο προηγμένες δυνατότητες και επιλογές προσαρμογής.
+ Συγχαρητήρια! Δημιουργήσατε επιτυχώς ένα Summary Zoom στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αυτή η δυνατότητα βελτιώνει τις παρουσιάσεις σας καθιστώντας τις πιο διαδραστικές και ελκυστικές. Ακολουθώντας αυτόν τον οδηγό, έχετε πλέον τις δεξιότητες να εφαρμόσετε αυτήν τη δυνατότητα στα δικά σας έργα. Θυμηθείτε να εξερευνήσετε το[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/)για πιο προηγμένες δυνατότητες και επιλογές προσαρμογής.
 ## Συχνές ερωτήσεις
 ### Τι είναι το Aspose.Slides για Java;
 Το Aspose.Slides for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να τροποποιούν και να χειρίζονται παρουσιάσεις PowerPoint μέσω προγραμματισμού χρησιμοποιώντας Java.
 ### Μπορώ να χρησιμοποιήσω το Aspose.Slides για Java για να δημιουργήσω άλλους τύπους περιεχομένου στο PowerPoint;
 Ναι, το Aspose.Slides για Java υποστηρίζει ένα ευρύ φάσμα δυνατοτήτων, όπως δημιουργία διαφανειών, προσθήκη σχημάτων, γραφημάτων, πινάκων και πολλών άλλων.
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides για Java;
- Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής του Aspose.Slides για Java από το[δικτυακός τόπος](https://releases.aspose.com/).
+Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής του Aspose.Slides για Java από το[δικτυακός τόπος](https://releases.aspose.com/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Slides για Java;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[Σελίδα αγοράς Aspose](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και υποστήριξη για το Aspose.Slides για Java;

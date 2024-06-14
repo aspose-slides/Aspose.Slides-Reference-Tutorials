@@ -15,7 +15,7 @@ url: /ru/net/printing-and-rendering-in-slides/rendering-slide-comments/
 - Среда разработки: настройте рабочую среду разработки .NET и получите базовое понимание C#.
 Теперь давайте начнем с урока!
 ## Импортировать пространства имен
-В вашем коде C# вам необходимо импортировать необходимые пространства имен для использования функций Aspose.Slides. Добавьте следующие строки в начало вашего файла:
+В ваш код C# вам необходимо импортировать необходимые пространства имен для использования функций Aspose.Slides. Добавьте следующие строки в начало вашего файла:
 ```csharp
 using Aspose.Slides.Export;
 using Aspose.Slides;
@@ -85,4 +85,4 @@ System.Diagnostics.Process.Start(resultPath);
 ### Вопрос: Как мне получить временную лицензию на Aspose.Slides?
  О: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу получить помощь и поддержку по Aspose.Slides?
-А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для поддержки сообщества.
+ А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для поддержки сообщества.

@@ -21,7 +21,7 @@ url: /hi/java/chart-creation/radar-chart-creating-java-slides/
 आइए एक नया पावरपॉइंट प्रेजेंटेशन सेट करके और उसमें एक स्लाइड जोड़कर शुरुआत करें।
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## जावा स्लाइड्स में रडार चार्ट बनाने के लिए पूर्ण स्रोत कोड
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// नई श्रृंखला जोड़ना
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//अब श्रृंखला डेटा भरा जा रहा है
+	// अब श्रृंखला डेटा भरा जा रहा है
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// श्रृंखला रंग सेट करें
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// अब एक और श्रृंखला डेटा पॉपुलेट किया जा रहा है
+	//अब एक और श्रृंखला डेटा पॉपुलेट किया जा रहा है
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### मैं चार्ट को भिन्न फ़ाइल प्रारूप में कैसे सहेजूँ?
 
- आप फ़ाइल एक्सटेंशन को संशोधित करके आउटपुट प्रारूप बदल सकते हैं`outPath` परिवर्तनीय और उपयुक्त का उपयोग करना`SaveFormat` उदाहरण के लिए, PDF के रूप में सहेजने के लिए, उपयोग करें`SaveFormat.Pdf`.
+आप फ़ाइल एक्सटेंशन को संशोधित करके आउटपुट प्रारूप बदल सकते हैं`outPath` परिवर्तनीय और उपयुक्त का उपयोग करना`SaveFormat` उदाहरण के लिए, PDF के रूप में सहेजने के लिए, उपयोग करें`SaveFormat.Pdf`.

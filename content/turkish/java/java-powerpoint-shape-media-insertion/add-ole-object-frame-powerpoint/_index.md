@@ -12,13 +12,13 @@ PowerPoint sunumlarına bir OLE (Nesne Bağlama ve Gömme) Nesne Çerçevesi ekl
 ### Önkoşullar
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 1. Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kitinin (JDK) kurulu olduğundan emin olun.
-2. Aspose.Slides for Java: Aspose.Slides for Java'yı web sitesinden indirip yükleyin[Burada](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Aspose.Slides for Java'yı web sitesinden indirip yükleyin[Burada](https://releases.aspose.com/slides/java/).
 3. Java Programlamanın Temel Anlayışı: Java programlama kavramlarına ve sözdizimine aşina olun.
 ## Paketleri İçe Aktar
 Aspose.Slides for Java'nın işlevselliklerinden yararlanmak için öncelikle gerekli paketleri içe aktarmanız gerekiyor. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Projenizin doğru şekilde yapılandırıldığından ve Aspose.Slides kütüpha
 Üzerinde çalıştığınız PowerPoint dosyasını temsil edecek bir Sunum nesnesi oluşturun:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // PPTX'i temsil eden Örnek Sunum sınıfı
 Presentation pres = new Presentation();
 ```

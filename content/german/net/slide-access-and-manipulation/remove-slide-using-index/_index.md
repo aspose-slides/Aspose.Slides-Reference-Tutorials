@@ -56,14 +56,14 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Nachdem Sie die gewünschten Folien gelöscht haben, müssen Sie die geänderte Präsentation speichern:
 
 ```csharp
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```
 
 ## Abschluss
 
-In diesem Handbuch haben Sie gelernt, wie Sie Folien anhand ihres sequenziellen Indexes mit Aspose.Slides für .NET löschen. Wir haben die Schritte vom Einrichten Ihres Projekts über das Laden einer Präsentation, das Löschen von Folien bis hin zum Speichern der geänderten Präsentation behandelt. Mit Aspose.Slides können Sie Folienbearbeitungsaufgaben problemlos automatisieren, was es zu einem wertvollen Tool für .NET-Entwickler macht, die mit PowerPoint-Präsentationen arbeiten.
+In diesem Handbuch haben Sie gelernt, wie Sie Folien anhand ihres sequenziellen Indexes mit Aspose.Slides für .NET löschen. Wir haben die Schritte vom Einrichten Ihres Projekts bis zum Laden einer Präsentation, Löschen von Folien und Speichern der geänderten Präsentation behandelt. Mit Aspose.Slides können Sie Folienbearbeitungsaufgaben problemlos automatisieren, was es zu einem wertvollen Tool für .NET-Entwickler macht, die mit PowerPoint-Präsentationen arbeiten.
 
 ## Häufig gestellte Fragen
 

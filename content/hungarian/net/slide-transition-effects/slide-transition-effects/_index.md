@@ -38,7 +38,7 @@ using Aspose.Slides;
 using Aspose.Slides.Transition;
 ```
 
-Győződjön meg arról, hogy ezeket a névtereket felvette a .NET-projekt elején. Most pedig térjünk át a diaátmeneti effektusok alkalmazásának lépésenkénti útmutatójára.
+Győződjön meg arról, hogy ezeket a névtereket felvette a .NET-projekt elején. Most pedig folytassuk a diaátmeneti effektusok alkalmazásának lépésenkénti útmutatóját.
 
 ## 1. lépés: Töltse be a prezentációt
 
@@ -57,9 +57,9 @@ using (Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx
 }
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
-## 2. lépés: Alkalmazza a Diaáttűnési effektusokat
+## 2. lépés: Alkalmazza a Diaátmeneti effektusokat
 
 Most alkalmazzuk a kívánt diaátmenet-effektusokat a prezentáció egyes diákjaira. Ebben a példában a Circle és Comb átmeneti effektusokat alkalmazzuk az első két diára.
 
@@ -107,7 +107,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan javíthatja PowerPoint-prezentá
 ### Mik azok a diaátmeneti effektusok a PowerPointban?
    A diaátmeneti effektusok olyan animációk, amelyek akkor jelennek meg, amikor a PowerPoint-prezentáció egyik diájáról a másikra lép. Vizuális érdeklődést keltenek, és vonzóbbá tehetik a prezentációt.
 
-### Testreszabhatom a diaátmeneti effektusok időtartamát az Aspose.Slides-ben?
+### Testreszabhatom az Aspose.Slides diaátmeneti effektusainak időtartamát?
    Igen, személyre szabhatja a diaátmeneti effektusok időtartamát az Aspose.Slides alkalmazásban az „AdvanceAfterTime” tulajdonság beállításával az egyes dia átmenetekhez.
 
 ### Vannak más típusú diaátmenetek az Aspose.Slides for .NET-ben?

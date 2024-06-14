@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
-Bu kod, ilk serideki (indeks 0) her veri noktası boyunca döngü yapar ve hem X hem de Y değerlerini`null`, veri noktalarını etkili bir şekilde temizliyor.
+ Bu kod, ilk serideki (indeks 0) her veri noktası boyunca döngü yapar ve hem X hem de Y değerlerini`null`veri noktalarını etkili bir şekilde temizliyor.
 
 ## 4. Adım: Temizlenmiş Veri Noktalarını Kaldırma
 
@@ -116,7 +116,7 @@ Evet, veri noktaları boyunca yinelenen döngü içine koşullu mantık ekleyere
 
 ### Aspose.Slides for Java'yı kullanarak bir grafik serisine nasıl yeni veri noktaları ekleyebilirim?
 
-Bir grafik serisine yeni veri noktaları eklemek için`addDataPoint` serinin yöntemi. Basitçe yeni veri noktaları oluşturun ve bu yöntemi kullanarak bunları seriye ekleyin.
+ Bir grafik serisine yeni veri noktaları eklemek için`addDataPoint` serinin yöntemi. Basitçe yeni veri noktaları oluşturun ve bu yöntemi kullanarak bunları seriye ekleyin.
 
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 

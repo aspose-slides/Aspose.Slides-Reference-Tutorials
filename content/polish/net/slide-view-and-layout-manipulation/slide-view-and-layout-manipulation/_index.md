@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 Po wprowadzeniu wszystkich niezbędnych zmian zapisz zmodyfikowaną prezentację:
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 
@@ -123,7 +123,7 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 
 ### Jak dostosować zawartość slajdu?
 
- Możesz dostosować zawartość slajdów za pomocą`Shapes` zbiór slajdów. Dodawaj kształty, takie jak pola tekstowe, obrazy i inne, aby tworzyć angażujące treści.
+ Możesz dostosować zawartość slajdów za pomocą`Shapes` zbiór slajdów. Dodawaj kształty, takie jak pola tekstowe, obrazy i inne, aby tworzyć wciągające treści.
 
 ### W jakich formatach mogę zapisać zmodyfikowaną prezentację?
 

@@ -2,7 +2,7 @@
 title: جافا باور بوينت الشكل وإنشاء الصور المصغرة
 linktitle: جافا باور بوينت الشكل وإنشاء الصور المصغرة
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعلم كيفية إنشاء الأشكال والصور المصغرة في PowerPoint باستخدام Aspose.Slides Java. برامج تعليمية تفصيلية حول إنشاء أشكال المجموعة والصور المصغرة لعامل القياس وتأثيرات التكبير/التصغير.
+description: تعلم كيفية إنشاء الأشكال والصور المصغرة في PowerPoint باستخدام Aspose.Slides Java. دروس تفصيلية حول إنشاء أشكال المجموعة والصور المصغرة لعامل القياس وتأثيرات التكبير/التصغير.
 type: docs
 weight: 24
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/

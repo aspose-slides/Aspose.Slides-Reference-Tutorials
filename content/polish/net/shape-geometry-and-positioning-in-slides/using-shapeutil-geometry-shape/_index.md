@@ -8,7 +8,7 @@ weight: 17
 url: /pl/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
 ## Wstęp
-Tworzenie atrakcyjnych wizualnie i dynamicznych slajdów prezentacyjnych jest niezbędną umiejętnością, a Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi, aby to osiągnąć. W tym samouczku omówimy wykorzystanie narzędzia ShapeUtil do obsługi kształtów geometrycznych na slajdach prezentacji. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz pracę z Aspose.Slides, ten przewodnik przeprowadzi Cię przez proces wykorzystania ShapeUtil do ulepszania prezentacji.
+Tworzenie atrakcyjnych wizualnie i dynamicznych slajdów prezentacyjnych jest niezbędną umiejętnością, a Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi, aby to osiągnąć. W tym samouczku omówimy wykorzystanie narzędzia ShapeUtil do obsługi kształtów geometrycznych na slajdach prezentacji. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz z Aspose.Slides, ten przewodnik przeprowadzi Cię przez proces wykorzystania ShapeUtil do ulepszania prezentacji.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 - Podstawowa znajomość programowania w C# i .NET.

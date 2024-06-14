@@ -21,7 +21,7 @@ url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 الآن، دعونا نقسم عملية استنساخ شريحة من عرض تقديمي وإضافتها إلى أخرى إلى خطوات بسيطة وسهلة الفهم.
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
  للبدء، نحتاج إلى تحميل العرض التقديمي المصدر الذي نريد استنساخ الشريحة منه. ويتم ذلك باستخدام`Presentation` الطبقة المقدمة من Aspose.Slides.
 ```java
 // المسار إلى دليل المستندات.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // إنشاء فئة العرض التقديمي لتحميل ملف العرض التقديمي المصدر
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

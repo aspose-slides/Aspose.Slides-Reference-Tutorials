@@ -21,7 +21,7 @@ url: /zh/java/presentation-properties/presentation-slide-show-setup-in-java-slid
 首先，我们需要创建一个新的 PowerPoint 演示文稿。以下是使用 Java 执行此操作的方法：
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## Java 幻灯片中演示幻灯片放映设置的完整源代码
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	//获取幻灯片设置

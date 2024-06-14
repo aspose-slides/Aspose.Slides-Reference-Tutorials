@@ -80,3 +80,27 @@ Leer hoe u vormen in PowerPoint kunt animeren en manipuleren met Aspose.Slides v
 Ontdek Java PowerPoint-tutorials over vormopmaak en geometrie. Leer vormen vullen, vormen vinden en aangepaste geometrie maken met Aspose.Slides voor Java.
 ### [Technieken voor het klonen van Java PowerPoint-dia's](./java-powerpoint-slide-cloning-techniques/)
 Het klonen van masterdia's in PowerPoint met Aspose.Slides voor Java. Leer dia's naadloos binnen dezelfde presentatie of tussen presentaties te klonen.
+### [Manipulatie van Java PowerPoint-tekstvakken](./java-powerpoint-text-box-manipulation/)
+Ontdek uitgebreide tutorials voor het manipuleren van Java PowerPoint-tekstvakken met Aspose.Slides. Verbeter uw presentaties stap voor stap met onze handleidingen.
+### [Java PowerPoint-lettertypebeheer](./java-powerpoint-font-management/)
+Ontdek Java PowerPoint-tutorials over lettertypebeheer met Aspose.Slides voor Java. Leer insluitings-, compressie- en aanpassingstechnieken om presentaties te verbeteren.
+### [Java PowerPoint-animatie en effecten](./java-powerpoint-animation-effects/)
+Beheers Java PowerPoint-animaties en -effecten met onze uitgebreide tutorials. Leer animaties, buitenste en binnenste schaduwen toe te voegen met Aspose.Slides voor Java.
+### [Java PowerPoint-tekstuitlijning en opmaak](./java-powerpoint-text-alignment-formatting/)
+Ontdek Java PowerPoint-tutorials voor tekstuitlijning en opmaak. Leer tekst uitlijnen, opmaken, exporteren en markeren met Aspose.Slides voor Java. 
+### [Java PowerPoint-tekstmarkering en terugvalregels](./java-powerpoint-text-highlighting-fallback-rules/)
+Regels voor het markeren van tekst en het terugvallen van lettertypen in Java PowerPoint met Aspose.Slides. Volg onze tutorials om uw presentaties naadloos te verbeteren en te automatiseren.
+### [Java PowerPoint-tekst- en alineabeheer](./java-powerpoint-text-paragraph-management/)
+Beheers Java PowerPoint-tekst- en alineabeheer met Aspose.Slides. Leer HTML-tekst importeren, regelafstand beheren, opsommingstekens maken en alinea's uitlijnen.
+### [Java PowerPoint-lettertypebeheer en tekstvervanging](./java-powerpoint-font-management-text-replacement/)
+Beheers Java PowerPoint-lettertypebeheer en tekstvervanging met Aspose.Slides. Leer aangepaste lettertypen laden, ingesloten lettertypen beheren en tekst naadloos vervangen.
+### [Java PowerPoint Geavanceerde alinea- en lettertype-eigenschappen](./java-powerpoint-advanced-paragraph-font-properties/)
+Beheers geavanceerde alinea- en lettertype-eigenschappen in Java PowerPoint met Aspose.Slides. Leer lettertypen aanpassen, opsommingstekens toevoegen en reservelettertypen gebruiken.
+### [Java PowerPoint-tekst- en lettertypeaanpassing](./java-powerpoint-text-font-customization/)
+Ontdek tutorials over het aanpassen van Java PowerPoint-tekst en lettertypen met Aspose.Slides. Leer rotatie, lettertypevervanging en meer om uw presentaties te verbeteren.
+### [Manipulatie van Java PowerPoint-tabellen](./java-powerpoint-table-manipulation/)
+Beheers Java PowerPoint-tabelmanipulatie met Aspose.Slides. Leer afbeeldingen toevoegen, cellen splitsen, tabellen maken en meer via onze gedetailleerde stapsgewijze zelfstudies.
+### [Java PowerPoint-tabelopmaak en updates](./java-powerpoint-table-formatting-updates/)
+Verbeter Java PowerPoint-presentaties met tabelopmaak en updates met Aspose.Slides. Leer randen toevoegen, tekst in kolommen en rijen opmaken en tabellen bijwerken.
+### [Java PowerPoint SmartArt-manipulatie](./java-powerpoint-smartart-manipulation/)
+Leer hoe u Java PowerPoint SmartArt effectief kunt manipuleren met GroupDocs.Slides voor Java-tutorials. Krijg toegang tot onderliggende knooppunten, voeg knooppunten toe, wijzig de lay-out en meer!

@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Langkah 1: Siapkan Lingkungan
@@ -61,4 +61,4 @@ Sangat! Aspose.Slides menawarkan berbagai jenis bentuk, termasuk persegi panjang
 ### Bisakah saya menambahkan teks ke slide beserta bentuk garisnya?
 Ya, Anda dapat menambahkan teks, gambar, dan konten lainnya ke slide menggunakan Aspose.Slides API.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Slides?
-Ya, Anda dapat mengunduh uji coba gratis Aspose.Slides dari[Di Sini](https://releases.aspose.com/).
+ Ya, Anda dapat mengunduh uji coba gratis Aspose.Slides dari[Di Sini](https://releases.aspose.com/).

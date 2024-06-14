@@ -21,7 +21,7 @@ Untuk memulai, impor paket yang diperlukan dalam proyek Java Anda:
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Siapkan File Presentasi
 Mulailah dengan menentukan jalur ke file presentasi sumber Anda:
@@ -49,7 +49,7 @@ try {
 ```
 
 ## Kesimpulan
-Menguasai animasi dalam presentasi PowerPoint meningkatkan kemampuan Anda menyampaikan ide secara dinamis. Dengan Aspose.Slides untuk Java, penargetan bentuk untuk animasi menjadi lancar, memungkinkan Anda membuat presentasi visual menakjubkan yang memikat audiens Anda.
+Menguasai animasi dalam presentasi PowerPoint meningkatkan kemampuan Anda menyampaikan ide secara dinamis. Dengan Aspose.Slides for Java, penargetan bentuk untuk animasi menjadi lancar, memungkinkan Anda membuat presentasi visual menakjubkan yang memikat audiens Anda.
 
 ## FAQ
 ### Bisakah saya menggunakan Aspose.Slides for Java untuk membuat animasi yang kompleks?

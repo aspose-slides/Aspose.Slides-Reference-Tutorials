@@ -40,7 +40,7 @@ Bir sunum dosyasını yüklemek için aşağıdaki kodu kullanın:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Etkili hafif teçhizat verilerini almaya yönelik kodunuz buraya gelecek
+    //Etkili hafif teçhizat verilerini almaya yönelik kodunuz buraya gelecek
 }
 ```
 ## Adım 4: Etkili Light Rig Verilerini Alın

@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 string srcFileName = dataDir + "Conversion PPT to PPTX.ppt";
 string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 
-//Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
+// Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
 Presentation pres = new Presentation(srcFileName);
 
 // prezentáció mentése PPTX formátumban

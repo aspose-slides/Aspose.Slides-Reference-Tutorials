@@ -12,14 +12,14 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet nyíl alakú vonalat hozz�
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 - Java Development Kit (JDK) telepítve a rendszerére.
-- Aspose.Slides for Java könyvtár letöltve és beállítva a Java projektben. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java könyvtár letöltve és beállítva a Java projektben. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
 - Java programozási nyelv alapismerete.
 
 ## Csomagok importálása
 Először importálja a szükséges csomagokat a Java osztályba:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,10 +67,10 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet nyíl alakú vonalat hozzáad
 ### Testreszabhatom a nyílvonal színét?
  Igen, bármilyen színt megadhat a segítségével`setColor` módszerrel`SolidFillColor`.
 ### Hogyan változtathatom meg a nyílvonal helyzetét és méretét?
-Állítsa be az átadott paramétereket`addAutoShape` módszer a helyzet és a méretek megváltoztatására.
+ Állítsa be az átadott paramétereket`addAutoShape` módszer a helyzet és a méretek megváltoztatására.
 ### Az Aspose.Slides kompatibilis a PowerPoint összes verziójával?
 Az Aspose.Slides különféle PowerPoint formátumokat támogat, biztosítva a kompatibilitást a különböző verziók között.
-### Hozzáadhatok szöveget a nyílhoz?
+### Hozzáadhatok szöveget a nyílsorhoz?
 Igen, szöveget hozzáadhat a sorhoz, ha létrehoz egy TextFrame-et, és ennek megfelelően állítja be a tulajdonságait.
 ### Hol találok további forrásokat és támogatást az Aspose.Slides számára?
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) támogatásért és fedezze fel a[dokumentáció](https://reference.aspose.com/slides/java/) részletes információkért.

@@ -26,7 +26,7 @@ url: /zh/java/java-powerpoint-properties-management/
 
 ## 使用新模板更新演示属性
 
-在应用新模板时更新演示文稿属性可以节省大量时间和精力。此过程可确保您的演示文稿不仅看起来一致，而且还包含准确的元数据。本教程[使用新模板更新演示属性](./update-presentation-properties-new-template/)指导您完成使用 Aspose.Slides for Java 无缝更新演示属性所需的步骤。本指南对于希望通过高效的元数据管理增强 Java 项目的人来说非常有价值。
+在应用新模板时更新演示文稿属性可以节省大量时间和精力。此过程可确保您的演示文稿不仅看起来一致，而且还包含准确的元数据。本教程[使用新模板更新演示属性](./update-presentation-properties-new-template/)引导您完成使用 Aspose.Slides for Java 无缝更新演示属性所需的步骤。本指南对于希望通过高效的元数据管理增强 Java 项目的人来说非常有价值。
 
 通过学习这些教程，您可以掌握使用 Aspose.Slides for Java 管理 PowerPoint 属性的技巧。无论您是访问内置属性、修改它们还是使用新模板更新它们，这些指南都提供了增强演示文稿和简化工作流程所需的知识和工具。深入研究每个教程并立即开始改变您管理 PowerPoint 演示文稿的方式。
 ## Java PowerPoint 属性管理教程

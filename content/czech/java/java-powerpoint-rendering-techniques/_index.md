@@ -33,7 +33,7 @@ Prozkoumáním těchto výukových programů můžete zvládnout umění vykresl
 ### [Vykreslování komentářů v PowerPointu](./render-comments-powerpoint/)
 Naučte se vykreslovat komentáře v prezentacích PowerPoint pomocí Aspose.Slides for Java. Přizpůsobte si vzhled a efektivně generujte náhledy obrázků.
 ### [3D vykreslování v PowerPointu](./3d-rendering-powerpoint/)
-Naučte se vytvářet úžasné 3D vykreslování v PowerPointu pomocí Aspose.Slides for Java. Pozvedněte své prezentace.
+Naučte se vytvářet úžasné 3D rendery v PowerPointu pomocí Aspose.Slides for Java. Pozvedněte své prezentace.
 ### [Render Emojis v PowerPointu](./render-emojis-powerpoint/)
 Naučte se, jak snadno vykreslit emotikony v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vylepšete zapojení pomocí expresivních vizuálů.
 ### [Možnosti vykreslení v PowerPointu](./render-options-powerpoint/)

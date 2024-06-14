@@ -16,9 +16,9 @@ In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-AP
 
 Stellen Sie zunächst sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Aspose.Slides für Java-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek heruntergeladen und installiert haben. Sie erhalten sie von der[Aspose-Website](https://products.aspose.com/slides/java/).
+1.  Aspose.Slides für Java-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Slides für Java-Bibliothek heruntergeladen und installiert haben. Sie erhalten sie von der[Aspose-Website](https://products.aspose.com/slides/java/).
 
-2.  Java-Entwicklungsumgebung: Richten Sie eine Java-Entwicklungsumgebung auf Ihrem System ein, falls Sie dies noch nicht getan haben. Sie können Java von der[Oracle-Website](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Java-Entwicklungsumgebung: Richten Sie eine Java-Entwicklungsumgebung auf Ihrem System ein, falls Sie dies noch nicht getan haben. Sie können Java von der[Oracle-Website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## Schritt 1: Aspose.Slides-Bibliothek importieren
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Ersetzen Sie „pass“ durch Ihr Präsentat
 
 ## Schritt 3: Öffnen Sie die Präsentation
 
- Nun öffnen Sie die passwortgeschützte Präsentation über den`Presentation`Klassenkonstruktor, der den Dateipfad und die Ladeoptionen als Parameter verwendet.
+ Nun öffnen Sie die passwortgeschützte Präsentation über den`Presentation` Klassenkonstruktor, der den Dateipfad und die Ladeoptionen als Parameter verwendet.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);

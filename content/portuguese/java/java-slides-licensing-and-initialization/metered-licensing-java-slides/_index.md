@@ -17,7 +17,7 @@ licenciamento medido permite monitorar e controlar o uso da API Aspose.Slides fo
 Antes de começar, certifique-se de ter o seguinte:
 
 - Aspose.Slides para arquivos Java JAR integrados ao seu projeto.
-- Chaves públicas e privadas para licenciamento medido, que você pode obter na Aspose.
+- Chaves públicas e privadas para licenciamento medido, que você pode obter no Aspose.
 
 ## Implementando licenciamento medido
 
@@ -106,4 +106,4 @@ Se você exceder o limite medido, talvez seja necessário atualizar seu licencia
 
 ### Preciso de uma conexão com a Internet para licenciamento limitado?
 
-Sim, é necessária uma conexão com a Internet para definir e validar o licenciamento medido.
+Sim, é necessária uma conexão com a Internet para definir e validar o licenciamento limitado.

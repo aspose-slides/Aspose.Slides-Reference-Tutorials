@@ -49,7 +49,7 @@ Szerezze meg a prezentáció első diáját, amelyhez hozzá szeretné adni a k�
 ## 4. lépés: Kördiagram hozzáadása
 
 ```java
-//Kördiagram hozzáadása alapértelmezett adatokkal
+// Kördiagram hozzáadása alapértelmezett adatokkal
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Adja meg a kördiagram címét. A címet igény szerint személyre szabhatja.
 ## 6. lépés: A diagramadatok testreszabása
 
 ```java
-// Állítsa be az első sorozatot az értékek megjelenítésére
+//Állítsa be az első sorozatot az értékek megjelenítésére
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // A diagram adatlap indexének beállítása
@@ -151,10 +151,10 @@ chart.getChartData().getSeriesGroups().get_Item(0).setFirstSliceAngle(180);
 
 Állítsa be a kördiagram szektorok elforgatási szögét. Ebben a példában 180 fokra állítottuk.
 
-## 11. lépés: Mentse el a bemutatót
+## 11. lépés: Mentse el a prezentációt
 
 ```java
-// Mentse el a prezentációt a kördiagrammal
+// Mentse el a bemutatót a kördiagrammal
 presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Új sorozat hozzáadása
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Most a sorozatadatok feltöltése
+// Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

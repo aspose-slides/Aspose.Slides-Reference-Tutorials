@@ -18,7 +18,7 @@ Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 Impor paket yang diperlukan ke proyek Java Anda:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

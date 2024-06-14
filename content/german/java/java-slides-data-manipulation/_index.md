@@ -38,7 +38,7 @@ Zusammenfassend lässt sich sagen, dass Sie mit Aspose.Slides für Java die Kont
 
 Denken Sie daran, es geht nicht nur darum, Folien zu erstellen. Es geht darum, wirkungsvolle Präsentationen zu gestalten, die einen bleibenden Eindruck hinterlassen. Aspose.Slides für Java ist Ihre Geheimwaffe, um dies zu erreichen. Also, legen wir los!
 ## Java-Folien – Tutorials zur Datenmanipulation
-### [Formeln in Java-Folien berechnen](./calculate-formulas-java-slides/)
+### [Formeln in Java berechnen - Folien](./calculate-formulas-java-slides/)
 Erfahren Sie, wie Sie mit Aspose.Slides für Java Formeln in Java Slides berechnen. Schritt-für-Schritt-Anleitung mit Quellcode für dynamische PowerPoint-Präsentationen.
 ### [Diagrammdatenzellenformeln in Java-Folien](./chart-data-cell-formulas-java-slides/)
 Erfahren Sie, wie Sie mit Aspose.Slides für Java Diagrammdatenzellenformeln in Java PowerPoint-Präsentationen festlegen. Erstellen Sie dynamische Diagramme mit Formeln.

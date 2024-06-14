@@ -9,17 +9,17 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/format-join-styles-power
 ---
 ## 소개
 시각적으로 매력적인 PowerPoint 프레젠테이션을 만드는 것은 어려운 작업이 될 수 있으며, 특히 모든 세부 사항을 완벽하게 만들고 싶을 때 더욱 그렇습니다. 이것이 바로 Java용 Aspose.Slides가 유용한 곳입니다. 프로그래밍 방식으로 프레젠테이션을 생성, 조작 및 관리할 수 있는 강력한 API입니다. 활용할 수 있는 기능 중 하나는 모양에 대해 다양한 선 결합 스타일을 설정하는 것입니다. 이는 슬라이드의 미학을 크게 향상시킬 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 모양에 대한 조인 스타일을 설정하는 방법을 살펴보겠습니다. 
-## 전제조건
+## 전제 조건
 시작하기 전에 갖춰야 할 몇 가지 전제 조건이 있습니다.
 1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클의 웹사이트](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java 라이브러리: 프로젝트에 Aspose.Slides for Java를 다운로드하여 포함해야 합니다. 당신은 그것을 얻을 수 있습니다[여기](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java 라이브러리: 프로젝트에 Aspose.Slides for Java를 다운로드하여 포함해야 합니다. 당신은 그것을 얻을 수 있습니다[여기](https://releases.aspose.com/slides/java/).
 3. 통합 개발 환경(IDE): IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 IDE를 사용하여 Java 코드를 작성하고 실행합니다.
 4. Java의 기본 지식: Java 프로그래밍에 대한 기본적인 이해는 튜토리얼을 따라가는 데 도움이 됩니다.
 ## 패키지 가져오기
 먼저 Aspose.Slides에 필요한 패키지를 가져와야 합니다. 이는 프레젠테이션 조작에 필요한 클래스와 메서드에 액세스하는 데 필수적입니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 이 단계에서는 디렉터리 경로를 정의하고 해당 경로가 존재하는지 확인합니다. 그렇지 않은 경우 디렉터리를 만듭니다. 이는 파일을 체계적으로 정리하는 간단하면서도 효과적인 방법입니다.
 ## 2단계: 프레젠테이션 초기화
- 다음으로 인스턴스화합니다.`Presentation`PowerPoint 파일을 나타내는 클래스입니다. 이것이 슬라이드와 모양을 만드는 기초입니다.
+ 다음으로 인스턴스화합니다.`Presentation` PowerPoint 파일을 나타내는 클래스입니다. 이것이 슬라이드와 모양을 만드는 기초입니다.
 ```java
 Presentation pres = new Presentation();
 ```

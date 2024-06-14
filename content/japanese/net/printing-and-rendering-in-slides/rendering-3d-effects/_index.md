@@ -72,7 +72,7 @@ pres.Slides[0].GetThumbnail(2, 2).Save(outPngFile, ImageFormat.Png);
 ### 3D 効果をさらにカスタマイズできますか?
 もちろんです! Aspose.Slides には、特定のデザイン要件を満たすために 3D プロパティをカスタマイズするための幅広いオプションが用意されています。
 ### その他のチュートリアルや例はどこで見つかりますか?
- Aspose.Slides のドキュメントを見る[ここ](https://reference.aspose.com/slides/net/)包括的なチュートリアルと例については、こちらをご覧ください。
+ Aspose.Slides のドキュメントをご覧ください[ここ](https://reference.aspose.com/slides/net/)包括的なチュートリアルと例については、こちらをご覧ください。
 ### 無料トライアルはありますか？
 はい、Aspose.Slidesの無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/).
 ### 問題が発生した場合、どうすればサポートを受けることができますか?

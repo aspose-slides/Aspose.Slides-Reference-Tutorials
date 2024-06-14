@@ -21,13 +21,13 @@ url: /th/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-pos
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีข้อมูล
 คุณจะต้องมีไดเรกทอรีเพื่อจัดเก็บไฟล์ PowerPoint ของคุณ นี่คือที่ที่คุณจะโหลดไฟล์ต้นฉบับของคุณและบันทึกงานนำเสนอที่ลอกแบบมา
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## ขั้นตอนที่ 2: โหลดการนำเสนอต้นฉบับ
 ต่อไป เราจะโหลดงานนำเสนอต้นฉบับที่มีสไลด์ที่คุณต้องการโคลน ขั้นตอนนี้มีความสำคัญเนื่องจากทำหน้าที่เป็นฐานสำหรับการดำเนินการโคลนของคุณ

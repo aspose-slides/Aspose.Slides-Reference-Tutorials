@@ -67,6 +67,6 @@ Có, Aspose.Slides tích hợp liền mạch với Visual Studio để phát tri
 ### Tôi có thể tùy chỉnh giao diện của khung thu phóng phần không?
 Tuyệt đối! Bạn có toàn quyền kiểm soát kích thước, vị trí và kiểu dáng của khung thu phóng phần.
 ### Có phiên bản dùng thử cho Aspose.Slides không?
-Có, bạn có thể khám phá các tính năng của Aspose.Slides bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
+ Có, bạn có thể khám phá các tính năng của Aspose.Slides bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho các truy vấn liên quan đến Aspose.Slides ở đâu?
  Đối với bất kỳ hỗ trợ hoặc thắc mắc nào, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).

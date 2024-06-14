@@ -18,7 +18,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 Importa i pacchetti necessari nel tuo progetto Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -42,7 +42,7 @@ Recupera la prima diapositiva e carica il file audio dalla tua directory.
 ISlide sld = pres.getSlides().get_Item(0);
 FileInputStream fstr = new FileInputStream(dataDir + "sampleaudio.wav");
 ```
-## Passaggio 4: aggiungi frame audio
+## Passaggio 4: aggiungi cornice audio
 Aggiungi il fotogramma audio alla diapositiva.
 ```java
 IAudioFrame audioFrame = sld.getShapes().addAudioFrameEmbedded(50, 150, 100, 100, fstr);

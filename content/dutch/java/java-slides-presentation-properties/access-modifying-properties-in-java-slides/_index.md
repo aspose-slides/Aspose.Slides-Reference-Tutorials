@@ -31,7 +31,7 @@ Om met een PowerPoint-presentatie te kunnen werken, moet u deze eerst in uw Java
 ```java
 // Het pad naar de documentenmap.
 String dataDir = "Your Document Directory";
-//Instantieer de klasse Presentation die de PPTX vertegenwoordigt
+// Instantieer de klasse Presentation die de PPTX vertegenwoordigt
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-pi
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 상대 배율 높이가 있는 그림 프레임을 추가하는 방법을 배웁니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1. 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
 2. Java 라이브러리용 Aspose.Slides가 다운로드되어 Java 프로젝트에 추가되었습니다.
@@ -18,7 +18,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-pi
 시작하려면 Java 프로젝트에 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

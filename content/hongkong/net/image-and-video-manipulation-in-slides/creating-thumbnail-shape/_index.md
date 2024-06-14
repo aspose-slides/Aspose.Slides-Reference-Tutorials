@@ -56,4 +56,4 @@ bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 ### Q：可以包含縮圖的形狀的大小或類型有限制嗎？
 答：Aspose.Slides 提供了為各種形狀（包括文字方塊、圖像等）建立縮圖的靈活性。
 ### Q：我可以自訂生成的縮圖的大小和解析度嗎？
-A：可以，呼叫時可以調整參數`GetThumbnail`控制尺寸和解析度的方法。
+ A：可以，呼叫時可以調整參數`GetThumbnail`控制尺寸和解析度的方法。

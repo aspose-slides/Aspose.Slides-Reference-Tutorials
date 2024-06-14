@@ -136,4 +136,4 @@ Ano, můžete upravit DPI pomocí`setDpiX` a`setDpiY` metody v`TiffOptions` tř�
 
 ### Kde najdu více informací o Aspose.Slides for Java?
 
- Podrobnou dokumentaci a další informace o Aspose.Slides for Java naleznete v dokumentaci:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+ Podrobnou dokumentaci a další informace o Aspose.Slides pro Java naleznete v dokumentaci:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).

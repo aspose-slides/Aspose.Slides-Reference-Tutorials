@@ -68,7 +68,7 @@ if (masterNotesSlide != null)
 presentation.Save(dataDir + "testresult.pptx", SaveFormat.Pptx);
 ```
 
-## المهمة 2: إزالة الملاحظات من شريحة محددة
+## المهمة 2: إزالة الملاحظات من شريحة معينة
 
 ### الخطوة 1: استيراد مساحات الأسماء
 

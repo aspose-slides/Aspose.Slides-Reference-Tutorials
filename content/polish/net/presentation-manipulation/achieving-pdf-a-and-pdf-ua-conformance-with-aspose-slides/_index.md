@@ -100,7 +100,7 @@ presentation.Save("accessible_output.pdf", SaveFormat.Pdf, pdfOptions);
 
 ## Wniosek
 
-Osiągnięcie zgodności z formatami PDF/A i PDF/UA za pomocą Aspose.Slides dla .NET umożliwia tworzenie dokumentów, które można archiwizować i które są dostępne. Wykonując kroki opisane w tym przewodniku i korzystając z dostarczonych przykładów kodu źródłowego, możesz mieć pewność, że Twoje prezentacje spełniają najwyższe standardy kompatybilności i inkluzywności.
+Osiągnięcie zgodności z formatami PDF/A i PDF/UA za pomocą Aspose.Slides for .NET umożliwia tworzenie dokumentów, które można zarówno archiwizować, jak i łatwo udostępniać. Wykonując kroki opisane w tym przewodniku i korzystając z dostarczonych przykładów kodu źródłowego, możesz mieć pewność, że Twoje prezentacje spełniają najwyższe standardy kompatybilności i inkluzywności.
 
 ## Często zadawane pytania
 

@@ -12,7 +12,7 @@ url: /ko/java/presentation-properties/read-only-recommended-properties-in-java-s
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 대한 읽기 전용 권장 속성을 활성화하는 방법을 살펴보겠습니다. 읽기 전용 권장 속성은 사용자가 변경하지 않고 프레젠테이션을 보도록 유도하려는 경우 유용할 수 있습니다. 이러한 속성은 프레젠테이션을 읽기 전용 모드로 열어야 함을 나타냅니다. 이를 달성하기 위해 Java 소스 코드와 함께 단계별 가이드를 제공합니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 프로젝트에 Aspose.Slides for Java 라이브러리가 설정되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.Slides for Java 웹사이트](https://products.aspose.com/slides/java/).
 
@@ -21,7 +21,7 @@ url: /ko/java/presentation-properties/read-only-recommended-properties-in-java-s
 Aspose.Slides for Java를 사용하여 새로운 PowerPoint 프레젠테이션을 만드는 것부터 시작하겠습니다. 이미 프레젠테이션이 있는 경우 이 단계를 건너뛸 수 있습니다.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ finally
 ## Java 슬라이드의 읽기 전용 권장 속성에 대한 전체 소스 코드
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

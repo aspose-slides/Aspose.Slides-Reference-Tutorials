@@ -21,12 +21,12 @@ I det här steget importerar vi de nödvändiga paketen för att kickstarta vår
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Ställ in datakatalogen
 Innan du dyker in i kärnfunktionaliteten, ställ in datakatalogen för att komma åt din presentationsfil:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Steg 2: Skapa laddningsalternativ
 Instantiera laddningsalternativ för att konfigurera hur presentationsfilen ska nås. I det här exemplet ställer vi in åtkomstlösenordet till null och aktiverar endast inläsning av dokumentegenskaper:
@@ -61,6 +61,6 @@ Absolut! Aspose.Slides tillhandahåller omfattande API:er för att inte bara kom
 ### Finns det en gratis testversion tillgänglig för Aspose.Slides?
  Ja, du kan utforska funktionerna i Aspose.Slides genom att använda den kostnadsfria provperioden som erbjuds på[hemsida](https://releases.aspose.com/).
 ### Var kan jag söka hjälp eller support för Aspose.Slides-relaterade frågor?
- För frågor eller hjälp kan du besöka[Aspose.Slides forum](https://forum.aspose.com/c/slides/11), där experter och samhället är lätt tillgängliga för att hjälpa.
+ För eventuella frågor eller hjälp kan du besöka[Aspose.Slides forum](https://forum.aspose.com/c/slides/11), där experter och samhället är lättillgängliga för att hjälpa.
 ### Kan jag få en tillfällig licens för Aspose.Slides?
  Ja, tillfälliga licenser är tillgängliga för utvärdering eller testning. Du kan skaffa en tillfällig licens från[köpsidan](https://purchase.aspose.com/temporary-license/).

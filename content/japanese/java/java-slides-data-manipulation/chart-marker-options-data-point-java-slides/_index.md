@@ -73,7 +73,7 @@ point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
 
 //他のデータポイントについても繰り返します
-//...
+// ...
 
 //チャートシリーズマーカーのサイズを変更する
 series.getMarker().setSize(15);

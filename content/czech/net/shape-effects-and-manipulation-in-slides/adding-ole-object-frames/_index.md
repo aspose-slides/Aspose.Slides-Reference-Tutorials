@@ -83,4 +83,4 @@ Odpověď: Ano, Aspose.Slides podporuje nejnovější formáty souborů PowerPoi
 ### Otázka: Mohu upravit vzhled vloženého rámce objektu OLE?
 Odpověď: Rozhodně můžete upravit velikost, polohu a další vlastnosti rámečku objektu OLE podle svých preferencí.
 ### Otázka: Kde mohu vyhledat pomoc, pokud se během implementace setkám s problémy?
-A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a vedení komunity.
+ A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a vedení komunity.

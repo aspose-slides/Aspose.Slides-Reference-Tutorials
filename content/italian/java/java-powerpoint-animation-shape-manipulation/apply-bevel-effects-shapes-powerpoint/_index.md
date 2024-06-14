@@ -11,7 +11,7 @@ url: /it/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Creare presentazioni visivamente accattivanti è fondamentale per catturare e mantenere l'attenzione del pubblico. L'aggiunta di effetti smussati alle forme può migliorare l'estetica generale delle tue diapositive, facendo risaltare la tua presentazione. In questo tutorial ti guideremo attraverso il processo di applicazione degli effetti smussati alle forme in PowerPoint utilizzando Aspose.Slides per Java. Che tu sia uno sviluppatore che desidera automatizzare la creazione di presentazioni o semplicemente qualcuno che ama armeggiare con il design, questa guida fa al caso tuo.
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
--  Java Development Kit (JDK): assicurati di avere JDK installato. Puoi scaricarlo da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): assicurati di avere JDK installato. Puoi scaricarlo da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides per Java Library: scarica la libreria da[Aspose.Slides per Java](https://releases.aspose.com/slides/java/).
 - IDE (ambiente di sviluppo integrato): utilizza qualsiasi IDE di tua scelta, come IntelliJ IDEA, Eclipse o NetBeans.
 -  Licenza Aspose: per utilizzare Aspose.Slides senza limitazioni, ottenere una licenza da[Aspose l'acquisto](https://purchase.aspose.com/buy) o prendi un[licenza temporanea](https://purchase.aspose.com/temporary-license/) Per la valutazione.
@@ -19,7 +19,7 @@ Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 Innanzitutto, devi importare i pacchetti necessari per lavorare con Aspose.Slides nel tuo progetto Java. Ecco come puoi farlo:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Passaggio 1: imposta il tuo progetto

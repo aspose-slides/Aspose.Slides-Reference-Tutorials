@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Öncelikle gerekli paketleri Java programınıza aktarmanız gerekir. İşte bunu nasıl yapacağınız:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

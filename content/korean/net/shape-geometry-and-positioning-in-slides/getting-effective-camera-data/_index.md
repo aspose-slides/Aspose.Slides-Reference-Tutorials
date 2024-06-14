@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/getting-effective-camera-d
 ---
 ## 소개
 프레젠테이션 슬라이드에 포함된 카메라 데이터를 추출하고 조작하는 방법이 궁금하신가요? 더 이상 보지 마세요! 이 튜토리얼은 Aspose.Slides for .NET을 사용하여 효과적인 카메라 데이터를 얻는 과정을 안내합니다. Aspose.Slides는 .NET 애플리케이션에서 프레젠테이션 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다.
-## 전제조건
+## 전제 조건
 효과적인 카메라 데이터를 추출하는 방법에 대해 알아보기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 -  .NET용 Aspose.Slides: 아직 설치하지 않았다면 다음 페이지로 이동하세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/) 자세한 설치 지침을 확인하세요.
 -  Aspose.Slides 다운로드: 다음에서 .NET용 Aspose.Slides의 최신 버전을 다운로드할 수 있습니다.[이 링크](https://releases.aspose.com/slides/net/).

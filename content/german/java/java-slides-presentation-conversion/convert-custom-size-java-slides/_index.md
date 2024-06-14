@@ -60,7 +60,7 @@ opts.setDpiY(100);
 // Bildgröße festlegen
 opts.setImageSize(new Dimension(1728, 1078));
 
-// Notenposition festlegen
+// Notizenposition festlegen
 INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
 notesOptions.setNotesPosition(NotesPositions.BottomFull);
 ```
@@ -70,7 +70,7 @@ notesOptions.setNotesPosition(NotesPositions.BottomFull);
 Nachdem Sie alle Optionen konfiguriert haben, können Sie die Präsentation nun mit den angegebenen Einstellungen als TIFF-Bild speichern.
 
 ```java
-// Speichern Sie die Präsentation im TIFF-Format mit der angegebenen Bildgröße
+// Speichern Sie die Präsentation im TIFF-Format mit der angegebenen Bildgröße.
 pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 ```
 
@@ -103,7 +103,7 @@ try
 	opts.setDpiY(100);
 	// Bildgröße festlegen
 	opts.setImageSize(new Dimension(1728, 1078));
-	// Speichern Sie die Präsentation im TIFF-Format mit der angegebenen Bildgröße
+	// Speichern Sie die Präsentation im TIFF-Format mit der angegebenen Bildgröße.
 	pres.save(dataDir + "TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 finally

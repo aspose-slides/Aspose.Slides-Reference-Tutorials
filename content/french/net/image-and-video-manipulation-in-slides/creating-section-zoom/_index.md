@@ -67,6 +67,6 @@ Oui, Aspose.Slides s'intègre parfaitement au développement Visual Studio pour 
 ### Puis-je personnaliser l’apparence du cadre de zoom de section ?
 Absolument! Vous avez un contrôle total sur les dimensions, le positionnement et le style du cadre de zoom de section.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides ?
-Oui, vous pouvez explorer les fonctionnalités d'Aspose.Slides en utilisant le[essai gratuit](https://releases.aspose.com/).
+ Oui, vous pouvez explorer les fonctionnalités d'Aspose.Slides en utilisant le[essai gratuit](https://releases.aspose.com/).
 ### Où puis-je obtenir de l'aide pour les requêtes liées à Aspose.Slides ?
  Pour toute assistance ou question, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).

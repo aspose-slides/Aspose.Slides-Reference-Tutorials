@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerp
 Для начала импортируйте необходимые пакеты в свой Java-класс:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### Совместим ли Aspose.Slides для Java с последними версиями PowerPoint?
 Aspose.Slides for Java поддерживает совместимость с различными версиями PowerPoint, обеспечивая плавную интеграцию с вашими презентациями.
 ### Могу ли я настроить цвет линии в форме стрелки?
- Да, вы можете настроить цвет линии в форме стрелки, отрегулировав`SolidFillColor` свойство в коде.
+Да, вы можете настроить цвет линии в форме стрелки, отрегулировав`SolidFillColor` свойство в коде.
 ### Поддерживает ли Aspose.Slides for Java другие фигуры, кроме линий?
 Да, Aspose.Slides for Java обеспечивает обширную поддержку добавления различных фигур, включая прямоугольники, круги и многоугольники, к слайдам PowerPoint.
 ### Где я могу найти дополнительные ресурсы и поддержку Aspose.Slides для Java?

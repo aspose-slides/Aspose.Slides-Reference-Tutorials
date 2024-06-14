@@ -23,7 +23,7 @@ import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.OleObjectFrame;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 ```
@@ -44,13 +44,13 @@ String pptxFileName = dataDir + "TestOlePresentation.pptx";
 Presentation pres = new Presentation(pptxFileName);
 ```
  Эта строка инициализирует новый экземпляр`Presentation` класс, загружающий указанный файл презентации PowerPoint.
-## Шаг 4. Перебирайте слайды и фигуры
+## Шаг 4. Перебирайте слайды и фигуры
 ```java
 for (ISlide sld : pres.getSlides()) {
     for (IShape shape : sld.getShapes()) {
 ```
 Здесь мы просматриваем каждый слайд и фигуру в презентации.
-## Шаг 5. Проверьте наличие объекта OLE
+## Шаг 5. Проверьте наличие объекта OLE.
 ```java
 if (shape instanceof OleObjectFrame) {
 ```

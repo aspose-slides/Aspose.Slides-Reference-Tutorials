@@ -10,7 +10,7 @@ url: /sv/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 
 ## Introduktion till att konvertera Notes Slide View till PDF i Java Slides
 
-den här självstudien guidar vi dig genom processen att konvertera en PowerPoint-presentation med anteckningar till en PDF-fil med Aspose.Slides för Java-biblioteket. Det här biblioteket tillhandahåller kraftfulla funktioner för att arbeta med PowerPoint-presentationer i Java.
+I den här självstudien guidar vi dig genom processen att konvertera en PowerPoint-presentation med anteckningar till en PDF-fil med Aspose.Slides för Java-biblioteket. Det här biblioteket tillhandahåller kraftfulla funktioner för att arbeta med PowerPoint-presentationer i Java.
 
 ## Förutsättningar
 1. Java Development Kit (JDK) installerat.
@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Du kan anpassa andra PDF-alternativ enligt dina krav.
 
 ## Steg 4: Spara presentationen som PDF med Notes
-Slutligen, låt oss spara presentationen som en PDF-fil, inklusive anteckningarna. Du kan ange utdatafilens namn (t.ex.`"Pdf_Notes_out.pdf"`) och välj formatet (`SaveFormat.Pdf`). Här är koden för att göra det:
+ Slutligen, låt oss spara presentationen som en PDF-fil, inklusive anteckningarna. Du kan ange utdatafilens namn (t.ex.`"Pdf_Notes_out.pdf"`) och välj formatet (`SaveFormat.Pdf`). Här är koden för att göra det:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Kan jag anpassa PDF-exporten ytterligare?
 
-Ja, du kan anpassa PDF-exporten genom att justera olika alternativ i`PdfOptions` objekt. Du kan till exempel ställa in kvalitet, komprimering och andra parametrar efter dina behov.
+ Ja, du kan anpassa PDF-exporten genom att justera olika alternativ i`PdfOptions` objekt. Du kan till exempel ställa in kvalitet, komprimering och andra parametrar efter dina behov.
 
 ### Hur kan jag skaffa Aspose.Slides för Java?
 

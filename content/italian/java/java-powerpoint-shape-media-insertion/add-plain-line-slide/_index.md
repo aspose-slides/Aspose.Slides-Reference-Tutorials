@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Passaggio 1: impostare l'ambiente
@@ -61,4 +61,4 @@ Assolutamente! Aspose.Slides offre una vasta gamma di tipi di forme, inclusi ret
 ### Posso aggiungere testo alla diapositiva insieme alla forma della linea?
 Sì, puoi aggiungere testo, immagini e altri contenuti alla diapositiva utilizzando l'API Aspose.Slides.
 ### È disponibile una prova gratuita per Aspose.Slides?
-Sì, puoi scaricare una prova gratuita di Aspose.Slides da[Qui](https://releases.aspose.com/).
+ Sì, puoi scaricare una prova gratuita di Aspose.Slides da[Qui](https://releases.aspose.com/).

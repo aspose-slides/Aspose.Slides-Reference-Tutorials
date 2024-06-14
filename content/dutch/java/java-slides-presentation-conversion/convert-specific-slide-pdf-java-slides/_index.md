@@ -16,7 +16,7 @@ In de wereld van Java-ontwikkeling is het werken met presentatiedia's een veel v
 
 Voordat we in de code duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
-1. Aspose.Slides voor Java-bibliotheek: U moet de Aspose.Slides voor Java-bibliotheek geïnstalleerd hebben. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides voor Java-bibliotheek: U moet de Aspose.Slides voor Java-bibliotheek geïnstalleerd hebben. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
 
 2. Java-ontwikkelomgeving: Zorg ervoor dat er een Java-ontwikkelomgeving op uw systeem is geïnstalleerd.
 

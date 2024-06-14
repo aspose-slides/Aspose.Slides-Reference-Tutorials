@@ -23,7 +23,7 @@ Zanim przejdziemy do wdrożenia, upewnij się, że spełniasz następujące wyma
 ## Krok 1: Utwórz prezentację
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Usuwamy z wykresu wszelkie istniejące dane, aby przygotować je na nowe dane ze
 ## Krok 4: Załaduj skoroszyt programu Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Ładujemy skoroszyt Excela, który zawiera dane, które chcemy wykorzystać na wykresie. Zastępować`"book1.xlsx"` ze ścieżką do pliku Excel.
@@ -92,14 +92,14 @@ Na koniec zapisujemy prezentację ze zaktualizowanymi danymi wykresu do określo
 ## Kompletny kod źródłowy dla zestawu danych wykresu ze skoroszytu w slajdach Java
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}
@@ -119,7 +119,7 @@ try {
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak ustawiać dane wykresu ze skoroszytu programu Excel w aplikacji Java Slides przy użyciu biblioteki Aspose.Slides for Java. Postępując zgodnie ze szczegółowym przewodnikiem i korzystając z dostarczonych przykładów kodu źródłowego, możesz łatwo zintegrować dane wykresów dynamicznych z prezentacjami programu PowerPoint.
+tym samouczku nauczyliśmy się, jak ustawiać dane wykresu ze skoroszytu programu Excel w aplikacji Java Slides przy użyciu biblioteki Aspose.Slides for Java. Postępując zgodnie z przewodnikiem krok po kroku i korzystając z dostarczonych przykładów kodu źródłowego, możesz łatwo zintegrować dane wykresów dynamicznych z prezentacjami programu PowerPoint.
 
 ## Często zadawane pytania
 

@@ -18,7 +18,7 @@ Antes de começar, certifique-se de ter o seguinte:
 Para começar, importe os pacotes necessários em seu projeto Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -64,7 +64,7 @@ Sim, você pode adicionar vários porta-retratos a um slide repetindo o processo
 Aspose.Slides for Java é compatível com diversas versões do PowerPoint, garantindo flexibilidade na criação de apresentações.
 ### Posso personalizar a posição e o tamanho do porta-retratos?
  Com certeza, você pode ajustar os parâmetros de posição e tamanho no`addPictureFrame` método para atender às suas necessidades.
-### Aspose.Slides for Java oferece suporte a outros formatos de imagem além de JPEG?
+### O Aspose.Slides for Java oferece suporte a outros formatos de imagem além de JPEG?
 Sim, Aspose.Slides for Java suporta vários formatos de imagem, incluindo PNG, GIF, BMP e muito mais.
 ### Existe um fórum da comunidade ou canal de suporte disponível para usuários do Aspose.Slides?
 Sim, você pode visitar o fórum Aspose.Slides para qualquer dúvida, discussão ou assistência em relação à biblioteca.

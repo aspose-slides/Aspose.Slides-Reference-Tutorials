@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectang
 ในการเริ่มต้น คุณจะต้องนำเข้าแพ็คเกจที่จำเป็นจากไลบรารี Aspose.Slides ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -57,7 +57,7 @@ IShape shp = sld.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 150, 50)
 shp.getFillFormat().setFillType(FillType.Solid);
 shp.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Chocolate));
 ```
-รหัสนี้ตั้งค่าประเภทการเติมเป็นสีทึบและสีเติมเป็นช็อคโกแลต
+รหัสนี้ตั้งค่าประเภทการเติมเป็นสีทึบและสีเติมเป็นช็อกโกแลต
 ## จัดรูปแบบเส้นขอบของสี่เหลี่ยมผืนผ้า
 ต่อไปเราจะจัดรูปแบบเส้นขอบของสี่เหลี่ยม
 ```java
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 บรรทัดโค้ดนี้จะบันทึกงานนำเสนอเป็นไฟล์ PPTX ในไดเร็กทอรีที่คุณระบุ
 ## ขั้นตอนที่ 7: ทำความสะอาดทรัพยากร
- แนวทางปฏิบัติที่ดีคือการกำจัดทิ้ง`Presentation`คัดค้านการเพิ่มทรัพยากร
+ แนวทางปฏิบัติที่ดีคือการกำจัดทิ้ง`Presentation` คัดค้านการเพิ่มทรัพยากร
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Aspose.Slides for Java เป็นไลบรารีที่ช่วยใ
 ### ฉันจะทดลองใช้ Aspose.Slides สำหรับ Java ฟรีได้อย่างไร
  คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 ###  จำเป็นต้องกำจัดทิ้งหรือไม่.`Presentation` object?
- ใช่แล้ว การกำจัด.`Presentation`วัตถุช่วยเพิ่มพื้นที่ว่างทรัพยากรและหลีกเลี่ยงการรั่วไหลของหน่วยความจำ
+ ใช่แล้ว การกำจัด.`Presentation` วัตถุช่วยเพิ่มพื้นที่ว่างทรัพยากรและหลีกเลี่ยงการรั่วไหลของหน่วยความจำ
 ### ฉันจะหาเอกสารสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
  เอกสารก็มีให้[ที่นี่](https://reference.aspose.com/slides/java/).

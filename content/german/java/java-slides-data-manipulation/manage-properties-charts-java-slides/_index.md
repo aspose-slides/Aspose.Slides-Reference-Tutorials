@@ -14,7 +14,7 @@ In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides Eigenschaften verwalt
 
 ## Voraussetzungen
 
- Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für Java installiert und in Ihrem Projekt eingerichtet haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
+Bevor wir beginnen, stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für Java installiert und in Ihrem Projekt eingerichtet haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
 
 ## Hinzufügen eines Diagramms zu einer Folie
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Nehmen Sie die zweite Diagrammreihe
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Jetzt werden Seriendaten gefüllt
+// Jetzt werden Seriendaten gefüllt
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ In diesem Tutorial haben wir uns mit der Verwaltung von Eigenschaften und der Er
 
 ### Wie kann ich den Diagrammtyp ändern?
 
- Sie können den Diagrammtyp ändern, indem Sie die`ChartType`Parameter beim Hinzufügen des Diagramms. Informationen zu verfügbaren Diagrammtypen finden Sie in der Aspose.Slides-Dokumentation.
+ Sie können den Diagrammtyp ändern, indem Sie die`ChartType` Parameter beim Hinzufügen des Diagramms. Informationen zu verfügbaren Diagrammtypen finden Sie in der Aspose.Slides-Dokumentation.
 
 ### Kann ich die Diagrammfarben anpassen?
 

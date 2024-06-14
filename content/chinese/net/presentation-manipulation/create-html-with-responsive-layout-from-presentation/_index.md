@@ -52,7 +52,7 @@ presentation.Save(dataDir + "SomePresentation-out.html", SaveFormat.Html, saveOp
 此代码片段利用我们之前设置的选项将演示文稿保存为具有响应式布局的 HTML 文件。
 
 ## 5. 结论
-借助 Aspose.Slides for .NET，您现在可以轻松从 PowerPoint 演示文稿创建具有响应式布局的 HTML。您可以轻松地将此代码应用于您的项目，并确保您的内容在所有设备上都看起来很棒。
+借助 Aspose.Slides for .NET，现在您可以轻松从 PowerPoint 演示文稿创建具有响应式布局的 HTML。您可以轻松地将此代码应用于您的项目并确保您的内容在所有设备上都看起来很棒。
 
 ## 6. 常见问题
 

@@ -8,7 +8,7 @@ weight: 10
 url: /pt/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
 ## Introdução
-criação de apresentações envolventes geralmente requer a adição de animações a formas e texto. As animações podem tornar seus slides mais dinâmicos e cativantes, garantindo que seu público continue interessado. Neste tutorial, orientaremos você no processo de adição de animações a formas em uma apresentação do PowerPoint usando Aspose.Slides para Java. Ao final deste artigo, você será capaz de criar animações profissionais sem esforço.
+A criação de apresentações envolventes geralmente requer a adição de animações a formas e texto. As animações podem tornar seus slides mais dinâmicos e cativantes, garantindo que seu público continue interessado. Neste tutorial, orientaremos você no processo de adição de animações a formas em uma apresentação do PowerPoint usando Aspose.Slides para Java. Ao final deste artigo, você será capaz de criar animações profissionais sem esforço.
 ## Pré-requisitos
 Antes de mergulharmos no tutorial, vamos ter certeza de que você tem tudo o que precisa:
 1.  Biblioteca Aspose.Slides para Java: Você precisa ter a biblioteca Aspose.Slides para Java instalada. Você pode[baixe aqui](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ Antes de mergulharmos no tutorial, vamos ter certeza de que você tem tudo o que
 Para começar, você precisará importar os pacotes necessários para Aspose.Slides e outras classes Java necessárias.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -107,4 +107,4 @@ Aspose.Slides suporta Java SE 6 e superior.
 ### Como adiciono animações diferentes a várias formas?
 Você pode adicionar diferentes animações a diversas formas repetindo as etapas para cada forma e especificando diferentes efeitos conforme necessário.
 ### Onde posso encontrar mais exemplos e documentação?
- Confira a[documentação](https://reference.aspose.com/slides/java/) e[Fórum de suporte](https://forum.aspose.com/c/slides/11) para mais exemplos e ajuda.
+ Confira a[documentação](https://reference.aspose.com/slides/java/) e[Fórum de suporte](https://forum.aspose.com/c/slides/11)para mais exemplos e ajuda.

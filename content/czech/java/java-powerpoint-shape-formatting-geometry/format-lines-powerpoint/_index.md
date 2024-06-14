@@ -18,7 +18,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte následující
 Nejprve importujme potřebné balíčky potřebné pro práci s Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

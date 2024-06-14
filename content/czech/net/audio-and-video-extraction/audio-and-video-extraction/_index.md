@@ -12,7 +12,7 @@ url: /cs/net/audio-and-video-extraction/audio-and-video-extraction/
 
 V digitálním věku se multimediální prezentace staly nedílnou součástí komunikace, vzdělávání a zábavy. PowerPointové snímky se často používají k předávání informací a často obsahují základní prvky, jako je zvuk a video. Extrahování těchto prvků může být klíčové z různých důvodů, od archivace prezentací až po přepracování obsahu.
 
-V tomto podrobném průvodci prozkoumáme, jak extrahovat zvuk a video ze snímků aplikace PowerPoint pomocí Aspose.Slides for .NET. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům .NET pracovat s prezentacemi v PowerPointu programově, díky čemuž jsou úkoly, jako je extrakce multimédií, dostupnější než kdy dříve.
+tomto podrobném průvodci prozkoumáme, jak extrahovat zvuk a video ze snímků aplikace PowerPoint pomocí Aspose.Slides for .NET. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům .NET pracovat s prezentacemi v PowerPointu programově, díky čemuž jsou úkoly, jako je extrakce multimédií, dostupnější než kdy dříve.
 
 ## Předpoklady
 
@@ -128,10 +128,10 @@ Ano, Aspose.Slides for .NET podporuje nejnovější formáty PowerPoint, včetn�
 Ano, kód můžete upravit tak, aby procházel více snímky a extrahoval multimédia z každého z nich.
 
 ### Existují nějaké možnosti licencování pro Aspose.Slides pro .NET?
- Aspose nabízí různé možnosti licencování, včetně bezplatných zkušebních verzí a dočasných licencí. Tyto možnosti můžete prozkoumat na nich[webová stránka](https://purchase.aspose.com/buy).
+Aspose nabízí různé možnosti licencování, včetně bezplatných zkušebních verzí a dočasných licencí. Tyto možnosti můžete prozkoumat na nich[webová stránka](https://purchase.aspose.com/buy).
 
 ### Jak mohu získat podporu pro Aspose.Slides pro .NET?
  Pro technickou podporu a komunitní diskuse můžete navštívit Aspose.Slides[Fórum](https://forum.aspose.com/).
 
 ### Jaké další úkoly mohu provádět s Aspose.Slides pro .NET?
-Aspose.Slides for .NET poskytuje širokou škálu funkcí, včetně vytváření, úprav a převodu prezentací v PowerPointu. Další podrobnosti si můžete prohlédnout v dokumentaci:[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET poskytuje širokou škálu funkcí, včetně vytváření, úprav a převodu prezentací v PowerPointu. Další podrobnosti si můžete prohlédnout v dokumentaci:[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net/).

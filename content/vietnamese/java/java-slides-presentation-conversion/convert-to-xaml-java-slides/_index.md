@@ -96,7 +96,7 @@ Trong bước này, chúng tôi thiết lập trình tiết kiệm đầu ra tù
 
 ```java
 	// Đường dẫn đến bản trình bày nguồn
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Tạo tùy chọn chuyển đổi
@@ -109,7 +109,7 @@ Trong bước này, chúng tôi thiết lập trình tiết kiệm đầu ra tù
 		pres.save(xamlOptions);
 		// Lưu tệp XAML vào thư mục đầu ra
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

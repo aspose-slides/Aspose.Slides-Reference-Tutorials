@@ -20,7 +20,7 @@ url: /hi/java/data-manipulation/leader-line-color-java-slides/
 
 ## चरण 1: प्रस्तुति लोड करें
 
-सबसे पहले, आपको पावरपॉइंट प्रेजेंटेशन को लोड करना होगा जिसमें वह चार्ट है जिसे आप संशोधित करना चाहते हैं।`presentationName` अपनी PowerPoint फ़ाइल का पथ लिखें.
+ सबसे पहले, आपको पावरपॉइंट प्रेजेंटेशन को लोड करना होगा जिसमें वह चार्ट है जिसे आप संशोधित करना चाहते हैं।`presentationName` अपनी PowerPoint फ़ाइल का पथ लिखें.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Presentation pres = new Presentation(presentationName);
 // पहली स्लाइड से चार्ट प्राप्त करें
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// चार्ट की श्रृंखला प्राप्त करें
+//चार्ट की श्रृंखला प्राप्त करें
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // पहली श्रृंखला के लेबल प्राप्त करें
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 अंत में, संशोधित लीडर लाइन रंगों के साथ प्रस्तुति को एक नई फ़ाइल में सहेजें।
 
 ```java
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## जावा स्लाइड्स में लीडर लाइन रंग के लिए पूर्ण स्रोत कोड
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // पहली स्लाइड से चार्ट प्राप्त करें
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // चार्ट की श्रृंखला प्राप्त करें
+            //चार्ट की श्रृंखला प्राप्त करें
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // पहली श्रृंखला के लेबल प्राप्त करें
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ### क्या मुझे व्यावसायिक परियोजना में Aspose.Slides for Java का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
 
-हां, आपको आम तौर पर किसी व्यावसायिक प्रोजेक्ट में Aspose.Slides for Java का उपयोग करने के लिए वैध लाइसेंस की आवश्यकता होती है। Aspose विभिन्न लाइसेंसिंग विकल्प प्रदान करता है, जिसमें परीक्षण और परीक्षण उद्देश्यों के लिए निःशुल्क मूल्यांकन लाइसेंस शामिल है। हालाँकि, उत्पादन उपयोग के लिए, आपको उचित व्यावसायिक लाइसेंस प्राप्त करना चाहिए।[Aspose खरीद पृष्ठ](https://purchase.aspose.com/) लाइसेंसिंग विवरण के लिए कृपया देखें.
+ हां, आपको आम तौर पर किसी व्यावसायिक प्रोजेक्ट में Aspose.Slides for Java का उपयोग करने के लिए वैध लाइसेंस की आवश्यकता होती है। Aspose विभिन्न लाइसेंसिंग विकल्प प्रदान करता है, जिसमें परीक्षण और परीक्षण उद्देश्यों के लिए निःशुल्क मूल्यांकन लाइसेंस शामिल है। हालाँकि, उत्पादन उपयोग के लिए, आपको उचित व्यावसायिक लाइसेंस प्राप्त करना चाहिए।[Aspose खरीद पृष्ठ](https://purchase.aspose.com/) लाइसेंसिंग विवरण के लिए कृपया देखें.
 
 ### मैं Aspose.Slides for Java के लिए तकनीकी सहायता कैसे प्राप्त कर सकता हूं?
 

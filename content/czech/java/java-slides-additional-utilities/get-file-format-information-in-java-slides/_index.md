@@ -10,7 +10,7 @@ url: /cs/java/additional-utilities/get-file-format-information-in-java-slides/
 
 ## Úvod k získání informací o formátu souboru v Java Slides
 
-V tomto tutoriálu prozkoumáme, jak získat informace o formátu souboru v Java Slides pomocí Aspose.Slides for Java API. Pomocí poskytnutého fragmentu kódu můžete snadno určit formát souboru prezentace. Pojďme se ponořit do detailů.
+tomto tutoriálu prozkoumáme, jak získat informace o formátu souboru v Java Slides pomocí Aspose.Slides for Java API. Pomocí poskytnutého fragmentu kódu můžete snadno určit formát souboru prezentace. Pojďme se ponořit do detailů.
 
 ## Předpoklady
 
@@ -90,13 +90,13 @@ switch (info.getLoadFormat())
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak získat informace o formátu souboru v Java Slides pomocí Aspose.Slides for Java API. Porozumění formátu prezentačních souborů je nezbytné pro efektivní zpracování a manipulaci. Nyní můžete s jistotou identifikovat formát svých souborů a pokračovat v akcích specifických pro daný formát.
+tomto tutoriálu jsme se naučili, jak získat informace o formátu souboru v Java Slides pomocí Aspose.Slides for Java API. Porozumění formátu prezentačních souborů je nezbytné pro efektivní zpracování a manipulaci. Nyní můžete s jistotou identifikovat formát svých souborů a pokračovat v akcích specifických pro daný formát.
 
 ## FAQ
 
 ### Jak získám knihovnu Aspose.Slides for Java?
 
- Knihovnu Aspose.Slides for Java si můžete stáhnout z webu Aspose na adrese[tento odkaz](https://releases.aspose.com/slides/java/)Vyberte vhodnou verzi pro váš projekt.
+ Knihovnu Aspose.Slides for Java si můžete stáhnout z webu Aspose na adrese[tento odkaz](https://releases.aspose.com/slides/java/). Vyberte vhodnou verzi pro váš projekt.
 
 ### Mohu tento kód použít s jinými prezentačními knihovnami Java?
 

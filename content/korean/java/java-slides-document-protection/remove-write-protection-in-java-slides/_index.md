@@ -12,7 +12,7 @@ url: /ko/java/document-protection/remove-write-protection-in-java-slides/
 
 이 단계별 가이드에서는 Java를 사용하여 PowerPoint 프레젠테이션에서 쓰기 방지를 제거하는 방법을 살펴보겠습니다. 쓰기 보호는 사용자가 프레젠테이션을 변경하는 것을 방지할 수 있으며 프로그래밍 방식으로 프레젠테이션을 제거해야 하는 경우도 있습니다. 이 작업을 수행하기 위해 Aspose.Slides for Java 라이브러리를 사용하겠습니다. 시작하자!
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

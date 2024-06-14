@@ -10,7 +10,7 @@ url: /it/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 
 ## Introduzione all'acquisizione di valori e scala unitaria da Axis nelle diapositive Java
 
-In questo tutorial, esploreremo come recuperare valori e scala unitaria da un asse in Java Slides utilizzando l'API Aspose.Slides per Java. Che tu stia lavorando a un progetto di visualizzazione dei dati o abbia bisogno di analizzare i dati del grafico nelle tue applicazioni Java, capire come accedere ai valori degli assi è essenziale. Ti guideremo attraverso il processo passo dopo passo, fornendo esempi di codice lungo il percorso.
+In questo tutorial, esploreremo come recuperare valori e scala unitaria da un asse in Java Slides utilizzando l'API Aspose.Slides per Java. Che tu stia lavorando a un progetto di visualizzazione dei dati o abbia bisogno di analizzare i dati dei grafici nelle tue applicazioni Java, capire come accedere ai valori degli assi è essenziale. Ti guideremo attraverso il processo passo dopo passo, fornendo esempi di codice lungo il percorso.
 
 ## Prerequisiti
 

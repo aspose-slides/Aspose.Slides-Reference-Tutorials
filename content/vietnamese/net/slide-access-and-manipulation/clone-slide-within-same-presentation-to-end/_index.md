@@ -65,7 +65,7 @@ presentation.Slides.AddClone(duplicatedSlide);
 Sau khi thêm slide trùng lặp, chúng ta cần lưu lại bài thuyết trình đã sửa đổi. Đây là cách thực hiện:
 
 ```csharp
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

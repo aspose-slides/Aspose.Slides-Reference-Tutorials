@@ -21,7 +21,7 @@ import com.aspose.slides.IAutoShape;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -39,7 +39,7 @@ Puede agregar contenido como diapositivas, formas, texto, imágenes, etc., a la 
 IAutoShape shape = presentation.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 200, 200, 200, 200);
 shape.getTextFrame().setText("This demo shows how to Create PowerPoint file and save it to Stream.");
 ```
-## Paso 4: guarde la presentación en una secuencia
+## Paso 4: guarde la presentación en una transmisión
  Guarde la presentación en una secuencia usando el`save` método. Especifique el flujo de salida y el formato de guardado deseado (por ejemplo, PPTX).
 ```java
 FileOutputStream toStream = new FileOutputStream(new File(dataDir + "Save_As_Stream_out.pptx"));

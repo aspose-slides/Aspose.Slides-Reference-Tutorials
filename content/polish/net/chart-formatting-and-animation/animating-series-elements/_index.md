@@ -22,7 +22,7 @@ Teraz, gdy masz już niezbędne wymagania wstępne, zacznijmy animować elementy
 
 ## Importuj przestrzenie nazw
 
-Zanim zaczniesz kodować, musisz zaimportować wymagane przestrzenie nazw do pracy z Aspose.Slides dla .NET. Te przestrzenie nazw zapewnią dostęp do niezbędnych klas i metod tworzenia animacji.
+Zanim zaczniesz kodować, musisz zaimportować wymagane przestrzenie nazw, aby móc pracować z Aspose.Slides dla .NET. Te przestrzenie nazw zapewnią dostęp do niezbędnych klas i metod tworzenia animacji.
 
 ```csharp
 ﻿using Aspose.Slides.Charts;
@@ -58,9 +58,9 @@ var shapes = slide.Shapes as ShapeCollection;
 var chart = shapes[0] as IChart;
 ```
 
-## Krok 3: Animacja elementów serii
+## Krok 3: Animuj elementy serii
 
-Teraz następuje ekscytująca część — animowanie elementów serii na wykresie. Możesz dodać animacje, aby elementy pojawiały się lub znikały w atrakcyjny wizualnie sposób. W tym przykładzie elementy będą pojawiać się jeden po drugim.
+Teraz następuje ekscytująca część — animowanie elementów serii na wykresie. Możesz dodać animacje, aby elementy pojawiały się lub znikały w atrakcyjny wizualnie sposób. W tym przykładzie elementy będą wyświetlane jeden po drugim.
 
 ```csharp
 // Animuj cały wykres, aby zniknął po poprzedniej animacji.
@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 Gratulacje! Pomyślnie nauczyłeś się animować elementy serii na wykresie za pomocą Aspose.Slides dla .NET. Dzięki tej wiedzy możesz tworzyć dynamiczne i wciągające prezentacje PowerPoint, które przykują uwagę odbiorców.
 
- Aspose.Slides dla .NET to potężne narzędzie do programowej pracy z plikami PowerPoint, otwierające świat możliwości tworzenia profesjonalnych prezentacji. Zapraszamy do eksploracji[dokumentacja](https://reference.aspose.com/slides/net/) aby uzyskać bardziej zaawansowane funkcje i opcje dostosowywania.
+ Aspose.Slides dla .NET to potężne narzędzie do programowej pracy z plikami PowerPoint, otwierające świat możliwości tworzenia profesjonalnych prezentacji. Zapraszamy do eksploracji[dokumentacja](https://reference.aspose.com/slides/net/)aby uzyskać bardziej zaawansowane funkcje i opcje dostosowywania.
 
 ## Często Zadawane Pytania
 

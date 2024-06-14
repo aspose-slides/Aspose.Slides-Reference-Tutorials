@@ -39,10 +39,10 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbn
     // Bitmap nesnesi artık belirtilen sınırlara sahip küçük resim görüntüsünü içerir.
 }
 ```
- Bu adım, belirtilen sınırlara sahip bir şeklin küçük resmini oluşturmayı içerir. Burada,`ShapeThumbnailBounds.Appearance`Görünüm sınırlarını tanımlamak için kullanılır. Parametreleri (1, 1) gereksinimlerinize göre ayarlayın.
+ Bu adım, belirtilen sınırlara sahip bir şeklin küçük resmini oluşturmayı içerir. Burada,`ShapeThumbnailBounds.Appearance` Görünüm sınırlarını tanımlamak için kullanılır. Parametreleri (1, 1) gereksinimlerinize göre ayarlayın.
 ## 3. Adım: Görüntüyü Diske Kaydedin
 ```csharp
-// Görüntüyü PNG formatında diske kaydedin
+//Görüntüyü PNG formatında diske kaydedin
 bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 ```
 Bu son adımda, oluşturulan küçük resim görüntüsü diske PNG formatında kaydedilir. Dosya adını ve biçimini tercihlerinize göre özelleştirebilirsiniz.
@@ -53,9 +53,9 @@ Aspose.Slides for .NET, PowerPoint sunumlarıyla çalışma sürecini basitleşt
 ### Aspose.Slides en son .NET çerçevesiyle uyumlu mu?
 Evet, Aspose.Slides, en yeni .NET framework sürümleriyle uyumluluğun sağlanması için düzenli olarak güncellenmektedir.
 ### Aspose.Slides'ı ticari projeler için kullanabilir miyim?
-Kesinlikle! Aspose.Slides hem bireysel hem de ticari kullanım için lisanslama seçenekleri sunar. Ziyaret etmek[Burada](https://purchase.aspose.com/buy) Lisans ayrıntılarını keşfetmek için.
+ Kesinlikle! Aspose.Slides hem bireysel hem de ticari kullanım için lisanslama seçenekleri sunar. Ziyaret etmek[Burada](https://purchase.aspose.com/buy) Lisans ayrıntılarını keşfetmek için.
 ### Aspose.Slides'ın ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) Bir satın alma işlemi yapmadan önce özellikleri keşfetmek için.
+ Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özellikleri keşfetmek için.
 ### Aspose.Slides için nasıl destek alabilirim?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) toplulukla bağlantı kurmak ve deneyimli geliştiricilerden yardım istemek.
 ### Aspose.Slides için geçici lisans alabilir miyim?

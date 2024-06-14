@@ -10,7 +10,7 @@ url: /ko/net/advanced-chart-customization/advanced-chart-customization/
 
 시각적으로 매력적이고 유익한 차트를 만드는 것은 많은 응용 프로그램에서 데이터 표현의 필수적인 부분입니다. Aspose.Slides for .NET은 차트 사용자 정의를 위한 강력한 도구를 제공하여 차트의 모든 측면을 미세 조정할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 고급 차트 사용자 정의 기술을 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 .NET용 Aspose.Slides를 사용하여 고급 차트 사용자 정의를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -197,7 +197,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 값 축과 유사하게 범주 축의 보조 그리드 선을 사용자 정의할 수 있습니다.
 
 ```csharp
-//범주 축에 대한 보조 그리드선 형식 설정
+// 범주 축에 대한 보조 그리드선 형식 설정
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// 플롯 영역 색상 설정
+//플롯 영역 색상 설정
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

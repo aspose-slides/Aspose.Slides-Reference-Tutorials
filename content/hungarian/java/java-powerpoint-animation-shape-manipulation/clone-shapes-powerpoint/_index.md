@@ -8,17 +8,17 @@ weight: 16
 url: /hu/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
 ## Bevezetés
-Ebben az oktatóanyagban megvizsgáljuk, hogyan klónozhatunk alakzatokat PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Az alakzatok klónozása lehetővé teszi a meglévő alakzatok megkettőzését egy prezentáción belül, ami különösen hasznos lehet konzisztens elrendezések létrehozásához vagy elemek ismétléséhez a diákon belül.
+Ebben az oktatóanyagban megvizsgáljuk, hogyan klónozhatunk alakzatokat PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Az alakzatok klónozása lehetővé teszi a meglévő alakzatok megkettőzését egy prezentáción belül, ami különösen hasznos lehet konzisztens elrendezések létrehozásához vagy elemek ismétlődéséhez a diák között.
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdenénk, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 1.  Java Development Kit (JDK): Győződjön meg arról, hogy a Java Development Kit telepítve van a rendszeren. A legújabb verziót letöltheti és telepítheti a[weboldal](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java Library: Töltse le és foglalja bele az Aspose.Slides for Java könyvtárat Java projektjébe. A letöltési linket megtalálod[itt](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Library: Töltse le és foglalja bele az Aspose.Slides for Java könyvtárat Java projektjébe. A letöltési linket megtalálod[itt](https://releases.aspose.com/slides/java/).
 
 ## Csomagok importálása
-kezdéshez importálnia kell a szükséges csomagokat a Java projektbe. Ezek a csomagok biztosítják az Aspose.Slides for Java használatával való PowerPoint-prezentációkhoz szükséges funkciókat.
+A kezdéshez importálnia kell a szükséges csomagokat a Java projektbe. Ezek a csomagok biztosítják az Aspose.Slides for Java használatával való PowerPoint-prezentációkhoz szükséges funkciókat.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Töltse be a prezentációt
  Először is be kell töltenie a klónozni kívánt alakzatokat tartalmazó PowerPoint bemutatót. Használja a`Presentation` osztályba a forrásprezentáció betöltéséhez.
@@ -44,7 +44,7 @@ srcPres.save(dataDir + "CloneShape_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Következtetés
-Alakzatok klónozása PowerPoint-prezentációkban az Aspose.Slides for Java használatával egy egyszerű folyamat, amely segíthet a prezentációkészítési munkafolyamat egyszerűsítésében. Az ebben az oktatóanyagban ismertetett lépések követésével könnyedén lemásolhatja a meglévő alakzatokat, és szükség szerint testreszabhatja azokat.
+Alakzatok klónozása PowerPoint-prezentációkban az Aspose.Slides for Java használatával egy egyszerű folyamat, amely elősegítheti a prezentációkészítési munkafolyamat egyszerűsítését. Az ebben az oktatóanyagban ismertetett lépések követésével könnyedén lemásolhatja a meglévő alakzatokat, és szükség szerint testreszabhatja azokat.
 
 ## GYIK
 ### Klónozhatok alakzatokat különböző diákra?

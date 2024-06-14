@@ -8,7 +8,7 @@ weight: 11
 url: /sv/net/audio-and-video-extraction/extract-audio/
 ---
 
-I en värld av presentationer kan det öka den övergripande effekten och engagemanget genom att lägga till ljud till dina bilder. Aspose.Slides för .NET tillhandahåller en kraftfull uppsättning verktyg för att arbeta med presentationer, och i den här handledningen kommer vi att utforska hur man extraherar ljud från en bild i en steg-för-steg-guide. Oavsett om du är en utvecklare som vill automatisera den här processen eller bara är intresserad av att förstå hur det går till, kommer den här handledningen att leda dig genom processen.
+en värld av presentationer kan det öka den övergripande effekten och engagemanget genom att lägga till ljud till dina bilder. Aspose.Slides för .NET tillhandahåller en kraftfull uppsättning verktyg för att arbeta med presentationer, och i den här handledningen kommer vi att utforska hur man extraherar ljud från en bild i en steg-för-steg-guide. Oavsett om du är en utvecklare som vill automatisera den här processen eller bara är intresserad av att förstå hur det går till, kommer den här handledningen att leda dig genom processen.
 
 ## Förutsättningar
 

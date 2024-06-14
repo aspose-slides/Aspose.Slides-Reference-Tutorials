@@ -133,7 +133,7 @@ Dalam tutorial komprehensif ini, Anda telah mempelajari cara membuat Slide Java 
 
 ### Bagaimana cara mengubah simbol penanda?
 
- Anda dapat mengkustomisasi simbol penanda dengan mengatur gaya penanda untuk setiap titik data. Menggunakan`IDataPoint.setMarkerStyle()` untuk mengubah simbol penanda.
+Anda dapat mengkustomisasi simbol penanda dengan mengatur gaya penanda untuk setiap titik data. Menggunakan`IDataPoint.setMarkerStyle()` untuk mengubah simbol penanda.
 
 ### Bagaimana cara menyesuaikan warna grafik?
 

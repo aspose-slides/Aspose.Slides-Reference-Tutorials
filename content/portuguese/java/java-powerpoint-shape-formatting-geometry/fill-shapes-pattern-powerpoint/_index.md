@@ -19,7 +19,7 @@ Antes de mergulhar no código, certifique-se de ter os seguintes pré-requisitos
 Primeiro, vamos importar os pacotes necessários para o nosso exemplo.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -35,7 +35,7 @@ if (!isExists) {
     new File(dataDir).mkdirs();
 }
 ```
-Este trecho verifica se o diretório existe e o cria se não existir.
+Este trecho verifica se o diretório existe e o cria caso não exista.
 ## Etapa 3: instanciar a classe de apresentação
  Em seguida, precisamos criar uma instância do`Presentation` class, que representa nosso arquivo PowerPoint.
 ```java

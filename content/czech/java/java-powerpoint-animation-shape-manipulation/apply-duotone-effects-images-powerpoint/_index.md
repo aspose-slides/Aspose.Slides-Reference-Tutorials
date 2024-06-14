@@ -19,7 +19,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte následující
 Nejprve budete muset importovat potřebné balíčky do vašeho programu Java. Postup je následující:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -74,7 +74,7 @@ Chcete-li ověřit efekt, načtěte efektivní hodnoty efektu Duotone a vytiskn�
 ```
 
 ## Závěr
-Použití efektu Duotone na obrázky v PowerPointu může dát vašim prezentacím stylový a profesionální vzhled. S Aspose.Slides for Java je tento proces přímočarý a vysoce přizpůsobitelný. Postupujte podle kroků popsaných v tomto tutoriálu a přidejte do svých obrázků efekt Duotone a nechte své prezentace vyniknout.
+Použití efektu Duotone na obrázky v PowerPointu může dát vašim prezentacím stylový a profesionální vzhled. S Aspose.Slides for Java je tento proces přímočarý a vysoce přizpůsobitelný. Postupujte podle kroků popsaných v tomto tutoriálu, chcete-li do svých obrázků přidat efekt Duotone a nechat své prezentace vyniknout.
 ## FAQ
 ### Co je Aspose.Slides for Java?
 Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům programově vytvářet, upravovat a manipulovat s prezentacemi PowerPoint.

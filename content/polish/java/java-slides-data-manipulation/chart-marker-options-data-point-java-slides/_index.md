@@ -141,7 +141,7 @@ Dzięki Aspose.Slides for Java możesz ulepszyć swoje prezentacje, dostosowują
 
 ### Czy mogę używać obrazów jako niestandardowych znaczników?
 
- Tak, możesz używać obrazów jako niestandardowych znaczników punktów danych. Ustaw typ wypełnienia na`FillType.Picture` podaj obraz, którego chcesz użyć.
+ Tak, możesz używać obrazów jako niestandardowych znaczników punktów danych. Ustaw typ wypełnienia na`FillType.Picture` i podaj obraz, którego chcesz użyć.
 
 ### Czy Aspose.Slides for Java nadaje się do tworzenia dynamicznych wykresów?
 

@@ -75,7 +75,7 @@ Sekarang Anda telah berhasil mengedit data bagan di buku kerja eksternal dalam p
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ Dalam panduan komprehensif ini, kita telah menjelajahi cara mengedit data bagan 
 
 ### Bagaimana cara menentukan bagan atau slide yang berbeda?
 
- Untuk mengakses bagan atau slide yang berbeda, ubah indeks yang sesuai di`getSlides().get_Item()` Dan`getShapes().get_Item()` metode. Ingatlah bahwa pengindeksan dimulai dari 0.
+ Untuk mengakses bagan atau slide yang berbeda, ubah indeks yang sesuai di`getSlides().get_Item()` Dan`getShapes().get_Item()`metode. Ingatlah bahwa pengindeksan dimulai dari 0.
 
 ### Bisakah saya mengedit data di beberapa bagan dalam presentasi yang sama?
 

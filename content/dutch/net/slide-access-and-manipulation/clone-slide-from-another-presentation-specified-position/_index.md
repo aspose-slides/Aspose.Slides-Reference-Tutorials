@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Nadat de dia is gekloond en op de gewenste positie is ingevoegd, moet u de gewijzigde doelpresentatie opslaan. Gebruik de volgende code om de presentatie op te slaan:
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Plaats het gekloonde objectglaasje op de aangegeven positie
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Sla de gewijzigde presentatie op
+            //Sla de gewijzigde presentatie op
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

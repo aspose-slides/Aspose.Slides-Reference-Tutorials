@@ -62,7 +62,7 @@ mdOptions.ImagesSaveFolderName = "md-images";
 mdOptions.BasePath = outPath;
 ```
 
-## 6.以Markdown格式保存演示文稿
+## 6.以 Markdown 格式保存演示文稿
 
 加载演示文稿并配置 Markdown 转换选项后，我们现在可以将演示文稿保存为 Markdown 格式。
 

@@ -21,7 +21,7 @@ url: /ja/java/chart-creation/radar-chart-creating-java-slides/
 まず、新しい PowerPoint プレゼンテーションを設定し、それにスライドを追加してみましょう。
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Java スライドでレーダー チャートを作成するための完全なソース コード
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {

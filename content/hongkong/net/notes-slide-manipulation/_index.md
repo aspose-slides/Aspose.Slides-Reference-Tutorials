@@ -2,7 +2,7 @@
 title: 筆記投影片操作
 linktitle: 筆記投影片操作
 second_title: Aspose.Slides .NET PowerPoint 處理 API
-description: 精確增強您的簡報！探索 .NET 中筆記投影片操作的 Aspose.Slides 教學。了解以程式設計方式新增、編輯和管理演講者備註。
+description: 精確增強您的簡報！探索 .NET 中筆記投影片操作的 Aspose.Slides 教學。了解以程式設計方式新增、編輯和管理演講者註釋。
 type: docs
 weight: 16
 url: /zh-hant/net/notes-slide-manipulation/

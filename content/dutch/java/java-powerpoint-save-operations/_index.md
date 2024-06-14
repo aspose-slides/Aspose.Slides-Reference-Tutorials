@@ -31,4 +31,4 @@ Leer hoe u PowerPoint-presentaties programmatisch in bestanden kunt opslaan met 
 ### [Sla PowerPoint op om te streamen](./save-powerpoint-to-stream/)
 Leer hoe u PowerPoint-presentaties in een stream kunt opslaan met Aspose.Slides voor Java. Volg onze stapsgewijze handleiding voor een naadloze integratie.
 ### [Bewaar PowerPoint met wachtwoord](./save-powerpoint-with-password/)
-Leer hoe u wachtwoordbeveiliging kunt toevoegen aan PowerPoint-presentaties met Aspose.Slides voor Java. Zet uw dia's gemakkelijk vast.
+Leer hoe u wachtwoordbeveiliging kunt toevoegen aan PowerPoint-presentaties met Aspose.Slides voor Java. Beveilig uw dia's met gemak.

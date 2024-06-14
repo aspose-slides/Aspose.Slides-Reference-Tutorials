@@ -70,6 +70,6 @@ A: もちろんです! Aspose.Slides for .NET は、四角形、多角形など�
 ### Q: Aspose.Slides for .NET の無料試用版はありますか?
  A: はい、無料トライアルをご利用いただけます[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Slides for .NET のサポートを受けるにはどうすればよいですか?
-A: 支援を求め、コミュニティと関わりましょう[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+ A: 支援を求め、コミュニティと関わりましょう[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
 ### Q: Aspose.Slides for .NET の一時ライセンスを購入できますか?
  A: もちろん、臨時免許証を取得することは可能です[ここ](https://purchase.aspose.com/temporary-license/).

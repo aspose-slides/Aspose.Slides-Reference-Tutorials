@@ -12,14 +12,14 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/format-join-styles-power
 ## 先决条件
 在开始之前，您需要满足一些先决条件：
 1.  Java 开发工具包 (JDK)：确保您的机器上安装了 JDK。您可以从此处下载[Oracle 网站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java 库：您需要下载 Aspose.Slides for Java 并将其包含在您的项目中。您可以从[这里](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java 库：您需要下载 Aspose.Slides for Java 并将其包含在您的项目中。您可以从[这里](https://releases.aspose.com/slides/java/).
 3. 集成开发环境 (IDE)：使用 IntelliJ IDEA、Eclipse 或 NetBeans 等 IDE 来编写和执行 Java 代码。
 4. Java 基础知识：对 Java 编程的基本了解将帮助您学习本教程。
 ## 导入包
 首先，您需要导入 Aspose.Slides 所需的包。这对于访问演示操作所需的类和方法至关重要。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

@@ -8,7 +8,7 @@ weight: 12
 url: /fr/net/hyperlink-manipulation/add-hyperlink/
 ---
 
-Dans le monde des présentations numériques, l’interactivité est essentielle. L'ajout d'hyperliens à vos diapositives peut rendre votre présentation plus attrayante et informative. Aspose.Slides for .NET est une bibliothèque puissante qui vous permet de créer, modifier et manipuler des présentations PowerPoint par programme. Dans ce didacticiel, nous allons vous montrer comment ajouter des hyperliens à vos diapositives à l'aide d'Aspose.Slides pour .NET. 
+Dans le monde des présentations numériques, l’interactivité est essentielle. L'ajout d'hyperliens à vos diapositives peut rendre votre présentation plus attrayante et informative. Aspose.Slides pour .NET est une bibliothèque puissante qui vous permet de créer, modifier et manipuler des présentations PowerPoint par programme. Dans ce didacticiel, nous allons vous montrer comment ajouter des hyperliens à vos diapositives à l'aide d'Aspose.Slides pour .NET. 
 
 ## Conditions préalables
 

@@ -10,7 +10,7 @@ url: /pl/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 
 ## Wprowadzenie do konwertowania widoku slajdu notatek do formatu PDF w slajdach Java
 
-tym samouczku przeprowadzimy Cię przez proces konwertowania prezentacji programu PowerPoint z widokiem slajdu z notatkami do pliku PDF przy użyciu biblioteki Aspose.Slides for Java. Ta biblioteka zapewnia zaawansowane funkcje do pracy z prezentacjami programu PowerPoint w języku Java.
+W tym samouczku przeprowadzimy Cię przez proces konwertowania prezentacji programu PowerPoint z widokiem slajdu z notatkami do pliku PDF przy użyciu biblioteki Aspose.Slides for Java. Ta biblioteka zapewnia zaawansowane funkcje do pracy z prezentacjami programu PowerPoint w języku Java.
 
 ## Warunki wstępne
 1. Zainstalowany zestaw Java Development Kit (JDK).
@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Możesz dostosować inne opcje plików PDF zgodnie ze swoimi wymaganiami.
 
 ## Krok 4: Zapisz prezentację jako plik PDF z notatkami
-Na koniec zapiszmy prezentację jako plik PDF wraz z notatkami. Możesz określić nazwę pliku wyjściowego (np.`"Pdf_Notes_out.pdf"`) i wybierz format (`SaveFormat.Pdf`). Oto kod, aby to zrobić:
+ Na koniec zapiszmy prezentację jako plik PDF wraz z notatkami. Możesz określić nazwę pliku wyjściowego (np.`"Pdf_Notes_out.pdf"`) i wybierz format (`SaveFormat.Pdf`). Oto kod, aby to zrobić:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Czy mogę bardziej dostosować eksport do pliku PDF?
 
-Tak, możesz dostosować eksport do pliku PDF, dostosowując różne opcje w pliku`PdfOptions` obiekt. Możesz na przykład ustawić jakość, kompresję i inne parametry zgodnie ze swoimi potrzebami.
+ Tak, możesz dostosować eksport do pliku PDF, dostosowując różne opcje w pliku`PdfOptions` obiekt. Możesz na przykład ustawić jakość, kompresję i inne parametry zgodnie ze swoimi potrzebami.
 
 ### Jak mogę uzyskać Aspose.Slides dla Java?
 

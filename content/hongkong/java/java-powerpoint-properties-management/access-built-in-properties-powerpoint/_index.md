@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-properties-management/access-built-in-propert
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：設定演示對象
 首先設定Presentation 物件來表示您要使用的PowerPoint 簡報。您可以這樣做：

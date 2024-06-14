@@ -21,7 +21,7 @@ Nejprve naimportujme potřebné balíčky. Tyto balíčky jsou nezbytné pro na�
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Nyní si rozeberme proces klonování snímku z jedné prezentace a jeho přidání do jiné do jednoduchých, stravitelných kroků.
@@ -29,7 +29,7 @@ Nyní si rozeberme proces klonování snímku z jedné prezentace a jeho přidá
  Pro začátek musíme načíst zdrojovou prezentaci, ze které chceme snímek naklonovat. To se provádí pomocí`Presentation` třídy poskytuje Aspose.Slides.
 ```java
 // Cesta k adresáři dokumentů.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Instantiate Presentation class pro načtení zdrojového souboru prezentace
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

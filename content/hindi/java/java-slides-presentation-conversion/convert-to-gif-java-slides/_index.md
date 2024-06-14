@@ -71,7 +71,7 @@ presentation.save(outPath, SaveFormat.Gif, gifOptions);
 // दस्तावेज़ निर्देशिका का पथ
 String dataDir = "Your Document Directory";
 // आउटपुट फ़ाइल का पथ
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // एक प्रस्तुति ऑब्जेक्ट को इंस्टैंसिएट करें जो एक प्रस्तुति फ़ाइल का प्रतिनिधित्व करता है
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

@@ -34,7 +34,7 @@ import java.io.IOException;
  Kezdésként töltse be azt a PowerPoint-prezentációt, amelyet animációvá szeretne konvertálni. Cserélje ki`"SimpleAnimations.pptx"` a prezentációs fájl elérési útjával:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 A prezentáció lejátszása közben minden egyes képkocka PNG-képként kerül mentésre a megadott kimeneti könyvtárba. Szükség szerint testreszabhatja a kimeneti útvonalat:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Teljes forráskód a Java Slides animációvá alakításához
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

@@ -75,7 +75,7 @@ Ahora ha editado con éxito los datos del gráfico en un libro de trabajo extern
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ En esta guía completa, hemos explorado cómo editar datos de gráficos en libro
 
 ### ¿Cómo especifico un gráfico o diapositiva diferente?
 
- Para acceder a un gráfico o diapositiva diferente, modifique el índice apropiado en el`getSlides().get_Item()` y`getShapes().get_Item()` métodos. Recuerde que la indexación comienza desde 0.
+ Para acceder a un gráfico o diapositiva diferente, modifique el índice apropiado en el`getSlides().get_Item()` y`getShapes().get_Item()`métodos. Recuerde que la indexación comienza desde 0.
 
 ### ¿Puedo editar datos en varios gráficos dentro de la misma presentación?
 

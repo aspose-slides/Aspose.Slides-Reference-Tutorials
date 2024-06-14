@@ -9,18 +9,18 @@ url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-power
 ---
 ## Bevezetés
 Üdvözöljük átfogó oktatóanyagunkban, amely az Aspose.Slides for Java használatával összefoglaló nagyítást készít PowerPointban. Ha dinamikus és interaktív elemet szeretne hozzáadni prezentációihoz, a Summary Zoom egy fantasztikus funkció. Lehetővé teszi egyetlen dia létrehozását, amely a prezentáció különböző részeire nagyíthat, így vonzóbb és navigálhatóbb élményt kínál a közönség számára.
-Ebben a lépésenkénti útmutatóban végigvezetjük a teljes folyamaton, a fejlesztői környezet beállításától az Összefoglaló Zoom keret létrehozásáig és testreszabásáig. Akár tapasztalt Java-fejlesztő, akár csak most kezdi, ezt az útmutatót könnyen követheti, és értékes betekintést nyerhet.
+Ebben a lépésenkénti útmutatóban végigvezetjük a teljes folyamaton, a fejlesztői környezet beállításától az Összefoglaló zoom keret létrehozásáig és testreszabásáig. Akár tapasztalt Java-fejlesztő, akár csak most kezdi, ezt az útmutatót könnyen követheti, és értékes betekintést nyerhet.
 ## Előfeltételek
 Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami a kezdéshez szükséges:
 1.  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen. Letöltheti a[Oracle webhely](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java: Töltse le a könyvtárat a[Az Aspose kiadási oldala](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Töltse le a könyvtárat a[Az Aspose kiadási oldala](https://releases.aspose.com/slides/java/).
 3. Integrált fejlesztői környezet (IDE): Használjon olyan IDE-t, mint az IntelliJ IDEA, az Eclipse vagy a NetBeans a zökkenőmentes fejlesztési élmény érdekében.
 4. Alapvető Java ismerete: A Java programozási koncepciók ismerete segít megérteni és végrehajtani az útmutatóban szereplő lépéseket.
 ## Csomagok importálása
 Mielőtt elkezdenénk, importálnia kell a szükséges csomagokat. Győződjön meg arról, hogy az Aspose.Slides for Java fájlt belefoglalta a projektfüggőségekbe.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 1. lépés: Állítsa be projektjét
@@ -76,7 +76,7 @@ pres.getSections().addSection("Section 4", slide);
 Most az első dián létrehozunk egy Összefoglaló nagyítás keretet. Ez a keret interaktív elemként fog működni, amely lehetővé teszi a felhasználók számára, hogy különböző szakaszokra nagyítsanak.
 
 1. Keresse meg az első diát: Keresse meg az első diát, amelyhez hozzáadja az Összegzés zoom keretet.
-2. Összefoglaló nagyítási keret hozzáadása: Használja a`addSummaryZoomFrame` módszer a keret hozzáadásához.
+2.  Összefoglaló nagyítási keret hozzáadása: Használja a`addSummaryZoomFrame` módszer a keret hozzáadásához.
 ```java
 ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().addSummaryZoomFrame(150, 50, 300, 200);
 ```
@@ -86,7 +86,7 @@ Végül mentse a prezentációt a kívánt helyre. Ez a lépés biztosítja, hog
 1. Határozza meg a kimeneti útvonalat: Adja meg az elérési utat, ahová a prezentáció mentésre kerül.
 2.  A prezentáció mentése: Használja a`save` módszerrel mentheti a fájlt PPTX formátumban.
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### Dobja el a bemutató tárgyat
@@ -95,14 +95,14 @@ Dobja el a prezentációs objektumot az általa használt erőforrások felszaba
 if (pres != null) pres.dispose();
 ```
 ## Következtetés
- Gratulálunk! Sikeresen létrehozott egy összefoglaló nagyítást a PowerPointban az Aspose.Slides for Java segítségével. Ez a funkció interaktívabbá és vonzóbbá teszi a prezentációkat. Ha követi ezt az útmutatót, akkor most már rendelkezik azokkal a készségekkel, amelyekkel ezt a funkciót saját projektjeiben is megvalósíthatja. Ne felejtse el felfedezni a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/) fejlettebb funkciókért és testreszabási lehetőségekért.
+ Gratulálunk! Sikeresen létrehozott egy összefoglaló nagyítást a PowerPointban az Aspose.Slides for Java segítségével. Ez a funkció interaktívabbá és vonzóbbá teszi a prezentációkat. Ha követi ezt az útmutatót, akkor most már rendelkezik azokkal a készségekkel, amelyekkel ezt a funkciót saját projektjeiben is megvalósíthatja. Ne felejtse el felfedezni a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/)fejlettebb funkciókért és testreszabási lehetőségekért.
 ## GYIK
 ### Mi az Aspose.Slides for Java?
 Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára PowerPoint prezentációk programozott létrehozását, módosítását és manipulálását Java használatával.
 ### Használhatom az Aspose.Slides for Java programot más típusú tartalom létrehozására a PowerPointban?
 Igen, az Aspose.Slides for Java funkciók széles skáláját támogatja, beleértve a diák létrehozását, alakzatok, diagramok, táblázatok hozzáadását és még sok mást.
 ### Létezik ingyenes próbaverzió az Aspose.Slides for Java számára?
- Igen, letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről[weboldal](https://releases.aspose.com/).
+Igen, letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről[weboldal](https://releases.aspose.com/).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for Java számára?
  Ideiglenes engedélyt szerezhet a[Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/).
 ### Hol találok további példákat és támogatást az Aspose.Slides for Java-hoz?

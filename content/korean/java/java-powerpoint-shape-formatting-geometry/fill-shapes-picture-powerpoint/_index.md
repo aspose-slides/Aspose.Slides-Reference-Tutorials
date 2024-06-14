@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powe
 ---
 ## 소개
 PowerPoint 프레젠테이션에는 매력을 강화하고 정보를 효과적으로 전달하기 위해 이미지로 채워진 모양과 같은 시각적 요소가 필요한 경우가 많습니다. Aspose.Slides for Java는 이 작업을 원활하게 수행할 수 있는 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 그림으로 도형을 채우는 방법을 단계별로 알아봅니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1. 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
 2.  Java 라이브러리용 Aspose.Slides가 다운로드되었습니다. 당신은 그것을 얻을 수 있습니다[여기](https://releases.aspose.com/slides/java/).
@@ -18,7 +18,7 @@ PowerPoint 프레젠테이션에는 매력을 강화하고 정보를 효과적�
 Java 프로젝트에서 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

@@ -76,12 +76,12 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 ((Sequence)slide.Timeline.MainSequence).AddEffect(chart, EffectChartMajorGroupingType.BySeries, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 ```
 
-## Schritt 5: Speichern Sie die geänderte Präsentation
+## Schritt 5: Speichern der geänderten Präsentation
 
 Nachdem Sie Ihrem Diagramm die Animationseffekte hinzugefügt haben, speichern Sie die geänderte Präsentation auf der Festplatte.
 
 ```csharp
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ---
 ## 소개
 이모티콘은 프레젠테이션에 색상과 감정을 더해 커뮤니케이션의 필수적인 부분이 되었습니다. PowerPoint 슬라이드에 이모티콘을 통합하면 참여도를 높이고 복잡한 아이디어를 간단하게 전달할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint에서 이모티콘을 렌더링하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
 2.  Java용 Aspose.Slides: 다음 사이트에서 Java용 Aspose.Slides를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/slides/java/).
@@ -20,7 +20,7 @@ url: /ko/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 데이터 디렉터리 준비
  PowerPoint 파일과 기타 리소스를 저장할 디렉터리를 만듭니다. 이름을 지어보자`dataDir`.

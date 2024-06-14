@@ -20,7 +20,7 @@ url: /th/java/data-manipulation/leader-line-color-java-slides/
 
 ## ขั้นตอนที่ 1: โหลดงานนำเสนอ
 
-ขั้นแรก คุณต้องโหลดงานนำเสนอ PowerPoint ที่มีแผนภูมิที่คุณต้องการแก้ไข แทนที่`presentationName` พร้อมเส้นทางไปยังไฟล์ PowerPoint ของคุณ
+ ขั้นแรก คุณต้องโหลดงานนำเสนอ PowerPoint ที่มีแผนภูมิที่คุณต้องการแก้ไข แทนที่`presentationName` พร้อมเส้นทางไปยังไฟล์ PowerPoint ของคุณ
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Presentation pres = new Presentation(presentationName);
 // รับแผนภูมิจากสไลด์แรก
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// รับชุดของแผนภูมิ
+//รับชุดของแผนภูมิ
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // รับป้ายกำกับของซีรีส์แรก
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 สุดท้าย บันทึกงานนำเสนอที่มีสีเส้นตัวนำที่แก้ไขแล้วลงในไฟล์ใหม่
 
 ```java
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## กรอกซอร์สโค้ดสำหรับสีของเส้นผู้นำใน Java Slides
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // รับแผนภูมิจากสไลด์แรก
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // รับชุดของแผนภูมิ
+            //รับชุดของแผนภูมิ
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // รับเลเบลซีรีย์แรก
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Slides สำหรับ Java ในโครงการเชิงพาณิชย์หรือไม่
 
-ใช่ โดยทั่วไปคุณต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ Aspose.Slides สำหรับ Java ในโปรเจ็กต์เชิงพาณิชย์ Aspose เสนอตัวเลือกสิทธิ์การใช้งานที่หลากหลาย รวมถึงสิทธิ์การใช้งานการประเมินผลฟรีสำหรับวัตถุประสงค์ในการทดสอบและทดลองใช้งาน อย่างไรก็ตาม สำหรับการใช้งานจริง คุณควรได้รับใบอนุญาตเชิงพาณิชย์ที่เหมาะสม เยี่ยมชม[กำหนดหน้าการซื้อ](https://purchase.aspose.com/) สำหรับรายละเอียดใบอนุญาต
+ ใช่ โดยทั่วไปคุณต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ Aspose.Slides สำหรับ Java ในโปรเจ็กต์เชิงพาณิชย์ Aspose เสนอตัวเลือกสิทธิ์การใช้งานที่หลากหลาย รวมถึงสิทธิ์การใช้งานการประเมินผลฟรีสำหรับวัตถุประสงค์ในการทดสอบและทดลองใช้งาน อย่างไรก็ตาม สำหรับการใช้งานจริง คุณควรได้รับใบอนุญาตเชิงพาณิชย์ที่เหมาะสม เยี่ยมชม[กำหนดหน้าการซื้อ](https://purchase.aspose.com/) สำหรับรายละเอียดใบอนุญาต
 
 ### ฉันจะรับการสนับสนุนด้านเทคนิคสำหรับ Aspose.Slides สำหรับ Java ได้อย่างไร
 

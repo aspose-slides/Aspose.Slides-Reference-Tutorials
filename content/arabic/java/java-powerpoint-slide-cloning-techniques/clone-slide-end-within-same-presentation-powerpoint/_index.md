@@ -21,7 +21,7 @@ url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-sa
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: قم بإعداد مشروعك
 للبدء، قم بإعداد مشروع Java الخاص بك في IDE المفضل لديك وقم بتضمين مكتبة Aspose.Slides في تبعيات مشروعك.

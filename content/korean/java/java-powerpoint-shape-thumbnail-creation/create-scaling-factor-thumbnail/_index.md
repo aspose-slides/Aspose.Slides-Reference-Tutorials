@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thu
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 스케일링 팩터 썸네일을 생성하는 과정을 안내합니다. 원하는 결과를 얻으려면 다음 단계별 지침을 따르십시오.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
 - Java 라이브러리용 Aspose.Slides가 Java 프로젝트에 다운로드되어 설정되었습니다.
@@ -20,7 +20,7 @@ url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thu
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

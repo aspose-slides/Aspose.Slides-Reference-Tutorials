@@ -65,7 +65,7 @@ presentation.Slides.AddClone(duplicatedSlide);
 หลังจากเพิ่มสไลด์ที่ทำซ้ำแล้ว เราจำเป็นต้องบันทึกงานนำเสนอที่แก้ไข มีวิธีดังนี้:
 
 ```csharp
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

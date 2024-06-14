@@ -20,7 +20,7 @@ Először importálja a szükséges csomagokat a Java projektbe:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Készítse elő az adattárat
  Hozzon létre egy könyvtárat a PowerPoint-fájl és más erőforrások tárolására. Nevezzük el`dataDir`.
@@ -51,4 +51,4 @@ Igen, az Aspose.Slides for Java API segítségével programozottan testreszabhat
 ### Az Aspose.Slides for Java támogatja a hangulatjelek megjelenítését a PowerPoint összes verziójában?
 Igen, az Aspose.Slides for Java a PowerPoint összes verziójával kompatibilis, így biztosítja a hangulatjelek zökkenőmentes megjelenítését a különböző platformokon.
 ### Elérhető az Aspose.Slides for Java próbaverziója?
- Igen, letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről[weboldal](https://releases.aspose.com/) hogy vásárlás előtt ismerkedjen meg tulajdonságaival.
+ Igen, letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről[weboldal](https://releases.aspose.com/) hogy vásárlás előtt fedezze fel tulajdonságait.

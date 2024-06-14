@@ -25,7 +25,7 @@ Tvary a linie jsou základními prvky, které mohou zlepšit strukturu a design 
 Přidáním multimediálních prvků, jako je zvuk a video, mohou být vaše prezentace poutavější a interaktivnější. Aspose.Slides for Java poskytuje robustní metody pro bezproblémovou integraci těchto prvků.
 
 -  Zvukové snímky: Přidáním zvuku do snímků můžete poskytnout hudbu na pozadí, vyprávění nebo zvukové efekty. Tutoriál[Přidat zvukový rámec v PowerPointu](./add-audio-frame-powerpoint/) vás provede tímto procesem.
-- Videorámce: Integrace videoobsahu může výrazně zlepšit dopad vaší prezentace. Přečtěte si, jak přidat videa ze souborů pomocí[Přidat video rámeček v PowerPointu](./add-video-frame-powerpoint/) a z webových zdrojů s[Přidejte video snímek z webového zdroje v PowerPointu](./add-video-frame-web-source-powerpoint/).
+- Videorámce: Integrace videoobsahu může výrazně zlepšit dopad vaší prezentace. Přečtěte si, jak přidat videa ze souborů pomocí[Přidat video rámeček v PowerPointu](./add-video-frame-powerpoint/) a z webových zdrojů s[Přidejte video rámeček z webového zdroje v PowerPointu](./add-video-frame-web-source-powerpoint/).
 
 ## Pokročilá manipulace s tvary a médii
 
@@ -48,8 +48,8 @@ Naučte se, jak přidat prostou čáru do snímku aplikace PowerPoint pomocí pr
 ### [Přidejte rámeček obrázku v relativním měřítku výšky v aplikaci PowerPoint](./add-relative-scale-height-picture-frame-powerpoint/)
 Naučte se přidávat rámečky obrázků v relativním měřítku do prezentací aplikace PowerPoint pomocí Aspose.Slides for Java a vylepšit tak svůj vizuální obsah.
 ### [Přidejte odsazení roztažení pro výplň obrázku v PowerPointu](./add-stretch-offset-image-fill-powerpoint/)
-Naučte se, jak přidat odsazení roztažení pro výplň obrázků v prezentacích PowerPoint pomocí Aspose.Slides for Java. Včetně návodu krok za krokem.
+Naučte se, jak přidat odsazení roztažení pro výplň obrázků v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Včetně návodu krok za krokem.
 ### [Přidat video rámeček v PowerPointu](./add-video-frame-powerpoint/)
 Naučte se, jak bezproblémově integrovat videoobsah do prezentací PowerPoint pomocí Aspose.Slides for Java. Vaše snímky s multimediálními prvky pro zapojení publika.
-### [Přidejte video snímek z webového zdroje v PowerPointu](./add-video-frame-web-source-powerpoint/)
+### [Přidejte video rámeček z webového zdroje v PowerPointu](./add-video-frame-web-source-powerpoint/)
 Naučte se, jak vylepšit své prezentace v PowerPointu přidáním snímků videa z webových zdrojů pomocí Aspose.Slides for Java.

@@ -19,9 +19,9 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 Chcete-li začít, musíte importovat potřebné balíčky z knihovny Aspose.Slides. Tyto importy vám umožní pracovat s prezentacemi, snímky a tvary.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
-V této příručce rozdělíme proces změny pořadí tvaru do několika kroků pro lepší pochopení a snadnější implementaci.
+této příručce rozdělíme proces změny pořadí tvaru do několika kroků pro lepší pochopení a snadnější implementaci.
 ## Krok 1: Načtěte prezentaci
  Nejprve musíte načíst soubor prezentace PowerPoint, se kterým chcete pracovat. Tento krok zahrnuje inicializaci`Presentation` třídy s cestou k souboru PowerPoint.
 ```java

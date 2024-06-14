@@ -11,7 +11,7 @@ url: /nl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Het creëren van visueel aantrekkelijke PowerPoint-presentaties is cruciaal voor het boeien van uw publiek. Een van de effectieve manieren om uw dia's te verbeteren is door vormen met verlopen te vullen. Deze tutorial begeleidt u bij het gebruik van Aspose.Slides voor Java om vormen met verlopen te vullen in PowerPoint. Of u nu een doorgewinterde ontwikkelaar bent of net begint, u zult deze handleiding nuttig en gemakkelijk te volgen vinden. Laten we een duik nemen in de wereld van verlopen en kijken hoe ze uw presentaties kunnen transformeren.
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
--  Java Development Kit (JDK): Zorg ervoor dat JDK is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Zorg ervoor dat JDK is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides voor Java: Download de nieuwste versie van[hier](https://releases.aspose.com/slides/java/).
 - Integrated Development Environment (IDE): Een IDE zoals IntelliJ IDEA of Eclipse zal uw codeerervaring soepeler maken.
 - Basiskennis van Java: Bekendheid met programmeren in Java is essentieel.
@@ -19,7 +19,7 @@ Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 Om met Aspose.Slides te beginnen, moet u de benodigde pakketten importeren. Zorg ervoor dat u Aspose.Slides voor Java hebt toegevoegd aan de afhankelijkheden van uw project.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

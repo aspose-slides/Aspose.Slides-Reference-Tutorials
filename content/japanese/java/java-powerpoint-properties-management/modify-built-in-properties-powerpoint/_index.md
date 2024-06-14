@@ -2,7 +2,7 @@
 title: PowerPoint の組み込みプロパティを変更する
 linktitle: PowerPoint の組み込みプロパティを変更する
 second_title: Aspose.Slides Java PowerPoint 処理 API
-description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの組み込みプロパティを変更する方法を学習します。プログラムによってプレゼンテーションを強化します。
+description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの組み込みプロパティを変更する方法を学びます。プログラムによってプレゼンテーションを強化します。
 type: docs
 weight: 12
 url: /ja/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
@@ -20,7 +20,7 @@ Java プロジェクトで、必要な Aspose.Slides クラスをインポート
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: 環境を設定する
 PowerPoint ファイルを含むディレクトリへのパスを定義します。

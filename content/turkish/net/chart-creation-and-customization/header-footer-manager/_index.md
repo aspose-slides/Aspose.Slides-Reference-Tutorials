@@ -111,7 +111,7 @@ presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 
 ## Çözüm
 
-Aspose.Slides for .NET ile PowerPoint sunumunuza dinamik üstbilgi ve altbilgi eklemek çok kolay. Bu özellik, slaytlarınızın genel görsel çekiciliğini ve bilgi dağıtımını geliştirerek onları daha ilgi çekici ve profesyonel hale getirir.
+Aspose.Slides for .NET ile PowerPoint sunumunuza dinamik üstbilgi ve altbilgi eklemek çok kolaydır. Bu özellik, slaytlarınızın genel görsel çekiciliğini ve bilgi dağıtımını geliştirerek onları daha ilgi çekici ve profesyonel hale getirir.
 
 Artık PowerPoint sunumlarınızı bir sonraki seviyeye taşıyacak bilgiyle donatıldınız. Öyleyse devam edin ve slaytlarınızı daha dinamik, bilgilendirici ve görsel olarak büyüleyici hale getirin!
 

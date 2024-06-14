@@ -54,7 +54,7 @@ for (int i = 0; i < iCount; i++)
     }
 }
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Αποθηκεύστε την τροποποιημένη παρουσίαση στο δίσκο σε μορφή PPTX.
 ```csharp
 pres.Save(dataDir + "Hiding_Shapes_out.pptx", SaveFormat.Pptx);

@@ -10,7 +10,7 @@ url: /hu/java/saving-options/save-as-read-only-in-java-slides/
 
 ## Bevezetés a csak olvashatóként történő mentéshez Java-diákban az Aspose.Slides for Java használatával
 
-mai digitális korban a dokumentumok biztonságának és integritásának biztosítása a legfontosabb. Ha PowerPoint prezentációkkal dolgozik Java nyelven, akkor előfordulhat, hogy írásvédettként kell elmentenie őket az illetéktelen módosítások elkerülése érdekében. Ebben az átfogó útmutatóban megvizsgáljuk, hogyan érhető el ez a hatékony Aspose.Slides for Java API használatával. Lépésről lépésre útmutatásokat és forráskód-példákat adunk, amelyek segítenek hatékonyan megóvni prezentációit.
+mai digitális korban a dokumentumok biztonságának és integritásának biztosítása a legfontosabb. Ha PowerPoint-prezentációkat Java nyelven dolgozik, előfordulhat, hogy írásvédettként kell elmentenie őket az illetéktelen módosítások elkerülése érdekében. Ebben az átfogó útmutatóban megvizsgáljuk, hogyan érhető el ez a hatékony Aspose.Slides for Java API használatával. Lépésről lépésre útmutatásokat és forráskód-példákat adunk, amelyek segítenek hatékonyan megóvni prezentációit.
 
 ## Előfeltételek
 
@@ -37,11 +37,11 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-//Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
+// Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
 Presentation presentation = new Presentation();
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a kívánt könyvtár elérési útjával, ahová a bemutatót menteni szeretné.
+ Mindenképpen cserélje ki`"Your Document Directory"` a kívánt könyvtár elérési útjával, ahová a bemutatót menteni szeretné.
 
 ## 3. lépés: Tartalom hozzáadása (opcionális)
 
@@ -78,7 +78,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-//Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
+// Példányosítson egy PPT-fájlt képviselő prezentációs objektumot
 Presentation presentation = new Presentation();
 try
 {

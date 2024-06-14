@@ -14,7 +14,7 @@ Trong hướng dẫn này, chúng tôi sẽ trình bày cách thêm các thanh l
 
 ## Điều kiện tiên quyết
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập thư viện Aspose.Slides for Java trong dự án Java của mình. Bạn có thể tải xuống thư viện từ[trang web giả định](https://downloads.aspose.com/slides/java).
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập thư viện Aspose.Slides for Java trong dự án Java của mình. Bạn có thể tải xuống thư viện từ[trang web giả định](https://downloads.aspose.com/slides/java).
 
 ## Bước 1: Tạo một bài thuyết trình trống
 
@@ -62,7 +62,7 @@ Trong bước này, chúng ta thêm các thanh lỗi vào biểu đồ và đặ
 - `setValue` đặt giá trị cho các thanh lỗi.
 - `setType` xác định loại thanh lỗi (ví dụ: Plus hoặc Minus).
 -  Chúng tôi đặt độ rộng của các dòng thanh lỗi bằng cách sử dụng`getFormat().getLine().setWidth(2)`.
-- `setEndCap` chỉ định có bao gồm chữ hoa kết thúc trên thanh lỗi hay không.
+- `setEndCap`chỉ định có bao gồm chữ hoa kết thúc trên thanh lỗi hay không.
 
 ## Bước 4: Lưu bài thuyết trình
 
@@ -73,7 +73,7 @@ presentation.save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 
 Cuối cùng, chúng tôi lưu bản trình bày có thêm các thanh lỗi vào một vị trí được chỉ định.
 
-Đó là nó! Bạn đã thêm thành công các thanh lỗi vào biểu đồ trong slide PowerPoint bằng Aspose.Slides cho Java.
+Đó là nó! Bạn đã thêm thành công các thanh lỗi vào biểu đồ trong slide PowerPoint bằng Aspose.Slides for Java.
 
 ## Mã nguồn hoàn chỉnh để thêm thanh lỗi trong Java Slides
 
@@ -123,7 +123,7 @@ Có, bạn có thể thêm các thanh lỗi vào các loại biểu đồ khác 
 
 ### Làm cách nào để điều chỉnh vị trí và kích thước của biểu đồ trên slide?
 
-Bạn có thể kiểm soát vị trí và kích thước của biểu đồ bằng cách điều chỉnh các tham số trong`addChart` phương pháp như ở Bước 2.
+ Bạn có thể kiểm soát vị trí và kích thước của biểu đồ bằng cách điều chỉnh các tham số trong`addChart` phương pháp như ở Bước 2.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho Java ở đâu?
 

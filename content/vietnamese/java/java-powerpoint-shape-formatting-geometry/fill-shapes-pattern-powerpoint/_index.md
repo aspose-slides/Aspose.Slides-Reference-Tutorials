@@ -19,7 +19,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn có các điều kiện 
 Đầu tiên, hãy nhập các gói cần thiết cho ví dụ của chúng tôi.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

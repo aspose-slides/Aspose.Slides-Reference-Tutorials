@@ -22,7 +22,7 @@ Trước khi đi sâu vào mã, bạn cần phải có một số điều kiện
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Bây giờ, hãy chia quy trình thành các bước đơn giản.

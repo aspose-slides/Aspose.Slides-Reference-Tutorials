@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Krok 2: Vytvořte objekt prezentace
- Vytvořte instanci`Presentation`třídy reprezentující soubor PPTX. To bude základem pro vaši prezentaci v PowerPointu.
+ Vytvořte instanci`Presentation` třídy reprezentující soubor PPTX. To bude základem pro vaši prezentaci v PowerPointu.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Otevřete první snímek v prezentaci, protože to bude plátno, kam přidáte a
 ISlide sld = pres.Slides[0];
 ```
 ## Krok 4: Přidejte tvar obdélníku
- Použijte`Shapes` vlastnost snímku přidat automatický tvar typu obdélník. Určete polohu a rozměry obdélníku.
+ Použijte`Shapes`vlastnost snímku přidat automatický tvar typu obdélník. Určete polohu a rozměry obdélníku.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```
@@ -64,14 +64,14 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Gratulujeme! Úspěšně jste naformátovali obdélníkový tvar v prezentaci pomocí Aspose.Slides for .NET.
 ## Závěr
-tomto tutoriálu jsme probrali základy práce s obdélníkovými tvary v Aspose.Slides pro .NET. Naučili jste se, jak nastavit svůj projekt, vytvořit prezentaci, přidat tvar obdélníku a použít formátování pro zvýšení jeho vizuální přitažlivosti. Jak budete pokračovat v prozkoumávání Aspose.Slides, objevíte ještě více způsobů, jak pozvednout své PowerPointové prezentace.
+V tomto tutoriálu jsme probrali základy práce s obdélníkovými tvary v Aspose.Slides pro .NET. Naučili jste se, jak nastavit svůj projekt, vytvořit prezentaci, přidat tvar obdélníku a použít formátování pro zvýšení jeho vizuální přitažlivosti. Jak budete pokračovat v prozkoumávání Aspose.Slides, objevíte ještě více způsobů, jak pozvednout své PowerPointové prezentace.
 ## Nejčastější dotazy
 ### Q1: Mohu používat Aspose.Slides pro .NET s jinými jazyky .NET?
 Ano, Aspose.Slides podporuje kromě C# další jazyky .NET jako VB.NET a F#.
 ### Q2: Kde najdu dokumentaci k Aspose.Slides?
  Můžete se podívat na dokumentaci[tady](https://reference.aspose.com/slides/net/).
 ### Q3: Jak mohu získat podporu pro Aspose.Slides?
- Pro podporu a diskuse navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ Pro podporu a diskuze navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Q4: Je k dispozici bezplatná zkušební verze?
  Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Q5: Kde mohu zakoupit Aspose.Slides pro .NET?

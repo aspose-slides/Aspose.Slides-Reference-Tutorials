@@ -34,7 +34,7 @@ Maak binnen het presentatieblok een afbeelding op volledige schaal van de vorm w
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //Hier vindt u uw code voor het opslaan van de afbeelding
+    // Hier vindt u uw code voor het opslaan van de afbeelding
 }
 ```
 ## Stap 3: Sla de afbeelding op schijf op
@@ -52,6 +52,6 @@ Ja, Aspose.Slides is compatibel met verschillende .NET-frameworks en biedt flexi
 ### V3: Hoe kan ik een tijdelijke licentie voor Aspose.Slides verkrijgen?
  U kunt een tijdelijke licentie voor Aspose.Slides verkrijgen door naar te gaan[deze link](https://purchase.aspose.com/temporary-license/).
 ### V4: Waar kan ik aanvullende ondersteuning vinden voor Aspose.Slides?
-Voor vragen of hulp kunt u terecht op het ondersteuningsforum van Aspose.Slides[hier](https://forum.aspose.com/c/slides/11).
+ Voor vragen of hulp kunt u terecht op het ondersteuningsforum van Aspose.Slides[hier](https://forum.aspose.com/c/slides/11).
 ### V5: Kan ik Aspose.Slides voor .NET kopen?
  Zeker! Als u Aspose.Slides voor .NET wilt kopen, gaat u naar de aankooppagina[hier](https://purchase.aspose.com/buy).

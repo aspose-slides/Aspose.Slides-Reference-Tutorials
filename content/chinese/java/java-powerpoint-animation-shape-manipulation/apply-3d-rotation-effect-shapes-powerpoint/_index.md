@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-eff
 首先，让我们在 Java 项目中导入必要的包。这些导入将帮助您使用 Aspose.Slides 处理演示文稿和形状。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置你的项目
 在深入研究代码之前，请先设置您的项目环境。确保您已将 Aspose.Slides for Java 添加到项目的依赖项中。

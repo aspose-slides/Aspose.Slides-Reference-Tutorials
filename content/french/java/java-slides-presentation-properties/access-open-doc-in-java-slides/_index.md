@@ -63,7 +63,7 @@ pres.save(dataDir + "AccessOpenDoc_out.pptx", SaveFormat.Pptx);
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment accéder et convertir des fichiers Open Document Présentation (ODP) en Java à l'aide d'Aspose.Slides pour Java. Cette puissante bibliothèque simplifie le travail avec les fichiers PowerPoint, ce qui en fait un atout précieux pour les développeurs Java. Vous avez appris à charger un fichier ODP et à l'enregistrer au format PPTX.
+Dans ce didacticiel, nous avons expliqué comment accéder et convertir des fichiers ODP (Open Document Présentation) en Java à l'aide d'Aspose.Slides pour Java. Cette puissante bibliothèque simplifie le travail avec les fichiers PowerPoint, ce qui en fait un atout précieux pour les développeurs Java. Vous avez appris à charger un fichier ODP et à l'enregistrer au format PPTX.
 
 ## FAQ
 

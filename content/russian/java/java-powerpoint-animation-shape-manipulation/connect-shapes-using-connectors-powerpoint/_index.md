@@ -20,7 +20,7 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 Сначала импортируйте необходимые пакеты для работы с Aspose.Slides в свой Java-проект.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Создание экземпляра класса представления
  Создайте экземпляр`Presentation`класс, который представляет файл PPTX, над которым вы работаете.

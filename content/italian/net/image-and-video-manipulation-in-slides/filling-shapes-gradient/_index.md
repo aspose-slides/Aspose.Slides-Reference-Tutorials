@@ -70,6 +70,6 @@ R: Certamente! Aspose.Slides per .NET supporta il riempimento sfumato per varie 
 ### D: È disponibile una prova gratuita per Aspose.Slides per .NET?
  R: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
 ### D: Come posso ottenere supporto per Aspose.Slides per .NET?
-R: Cerca assistenza e interagisci con la comunità sul[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ R: Cerca assistenza e interagisci con la comunità sul[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### D: Posso acquistare una licenza temporanea per Aspose.Slides per .NET?
  R: Certamente puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).

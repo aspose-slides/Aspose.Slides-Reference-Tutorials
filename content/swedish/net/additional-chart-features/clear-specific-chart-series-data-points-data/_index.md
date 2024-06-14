@@ -14,7 +14,7 @@ Aspose.Slides för .NET är ett kraftfullt bibliotek som låter dig arbeta med P
 
 Innan vi börjar måste du se till att du har följande förutsättningar:
 
-1.  Aspose.Slides for .NET Library: Du bör ha Aspose.Slides for .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/slides/net/).
+1.  Aspose.Slides för .NET Library: Du bör ha Aspose.Slides för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/slides/net/).
 
 2. Utvecklingsmiljö: Du bör ha en utvecklingsmiljö inrättad med Visual Studio eller något annat .NET-utvecklingsverktyg.
 

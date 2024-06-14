@@ -74,7 +74,7 @@ try {
 // Η διαδρομή προς τον κατάλογο εγγράφων
 String dataDir = "Your Document Directory";
 // Η διαδρομή προς το αρχείο εξόδου
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Εξαγωγή μιας παρουσίασης που περιέχει μεταβάσεις διαφανειών, κινούμενα σχέδια και κινούμενα σχέδια σχημάτων σε HTML5

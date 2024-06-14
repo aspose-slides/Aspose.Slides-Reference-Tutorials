@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- Trong bước này, chúng tôi tải bản trình bày PowerPoint từ tệp được chỉ định. Đảm bảo thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn.
+Trong bước này, chúng tôi tải bản trình bày PowerPoint từ tệp được chỉ định. Đảm bảo thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp trình bày của bạn.
 
 ### Bước 2.2: Truy cập Slide và Timeline
 

@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## Adım 2: Sunum ve TIFF Seçeneklerini Ayarlayın
 
-Sunum dosyanızın yolunu tanımlayın (`ConvertWithNoteToTiff.pptx` ) ve bir tane oluşturun`Presentation` nesne. Ardından, yapılandırın`TiffOptions` dönüşüm için.
+Sunum dosyanızın yolunu tanımlayın (`ConvertWithNoteToTiff.pptx` ) ve bir tane oluşturun`Presentation` nesne. Ardından, yapılandırın`TiffOptions`dönüşüm için.
 
 ```java
 String dataDir = "Your Document Directory";

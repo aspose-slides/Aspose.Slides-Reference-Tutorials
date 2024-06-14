@@ -128,10 +128,10 @@ Aspose.Slides for .NET 简化了从 PowerPoint 演示文稿中提取音频和视
 是的，您可以修改代码以遍历多张幻灯片并从每张幻灯片中提取多媒体。
 
 ### Aspose.Slides for .NET 有任何许可选项吗？
- Aspose 提供各种许可选项，包括免费试用和临时许可证。您可以在其[网站](https://purchase.aspose.com/buy).
+Aspose 提供各种许可选项，包括免费试用和临时许可证。您可以在其[网站](https://purchase.aspose.com/buy).
 
 ### 如何获得对 Aspose.Slides for .NET 的支持？
 如需技术支持和社区讨论，您可以访问 Aspose.Slides[论坛](https://forum.aspose.com/).
 
 ### 我可以使用 Aspose.Slides for .NET 执行哪些其他任务？
-Aspose.Slides for .NET 提供了广泛的功能，包括创建、修改和转换 PowerPoint 演示文稿。您可以浏览文档以了解更多详细信息：[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET 提供了广泛的功能，包括创建、修改和转换 PowerPoint 演示文稿。您可以浏览文档以了解更多详细信息：[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).

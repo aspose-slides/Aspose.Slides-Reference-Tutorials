@@ -84,7 +84,7 @@ for (int i = 0; i < chart.getChartData().getSeries().size(); i++) {
 
 ## Steg 10: Anpassa diagramserier
 
-Du kan anpassa diagramserien efter behov. I det här exemplet ändrar vi markörstilen, dataetikettens position, markörstorleken, linjefärgen och streckstilen:
+Du kan anpassa diagramserien efter behov. I det här exemplet ändrar vi markörstil, dataetikettposition, markörstorlek, linjefärg och streckstil:
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);

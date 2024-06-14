@@ -21,11 +21,11 @@ Nejprve musíte do svého projektu Java importovat potřebné balíčky Aspose.S
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Krok 1: Vytvořte adresář projektu
-Potřebujete adresář pro uložení souborů projektu. Tento krok je zásadní pro udržení organizace vašeho projektu.
+Potřebujete adresář pro uložení souborů projektu. Tento krok je zásadní pro udržení organizace projektu.
 ```java
 String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
@@ -58,7 +58,7 @@ public static IShape findShape(ISlide slide, String alttext) {
     return null;
 }
 ```
-## Krok 6: Proveďte logiku hledání tvaru
+## Krok 6: Spusťte logiku hledání tvaru
 Zavolejte metodu, kterou jste vytvořili, abyste našli tvar a vytiskli jeho název, pokud byl nalezen.
 ```java
 IShape shape = findShape(slide, altText);

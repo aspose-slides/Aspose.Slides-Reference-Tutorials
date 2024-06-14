@@ -22,7 +22,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 ## Stap 1: Stel uw Java-project in
 
 1. Maak een nieuw Java-project in de IDE van uw voorkeur.
-2.  Voeg de Aspose.Slides voor Java-bibliotheek toe aan uw project. U kunt de bibliotheek downloaden via de[Aspose-website](https://products.aspose.com/slides/java)en neem het op als een afhankelijkheid.
+2.  Voeg de Aspose.Slides voor Java-bibliotheek toe aan uw project. U kunt de bibliotheek downloaden via de[Aspose-website](https://products.aspose.com/slides/java) en neem het op als een afhankelijkheid.
 
 ## Stap 2: Importeer de vereiste bibliotheken
 Importeer in uw Java-klasse de benodigde bibliotheken om met Aspose.Slides te werken:
@@ -102,4 +102,4 @@ Ja, u kunt extra vormen, tekst en verbindingslijnen aan het organigram toevoegen
 
 ### Is het mogelijk om complexe organisatiestructuren met meerdere niveaus te creëren?
 
-Ja, met Aspose.Slides kunt u complexe organisatiestructuren met meerdere niveaus creëren door vormen toe te voegen en te rangschikken binnen het organigram. U kunt hiërarchische relaties tussen vormen definiëren om de gewenste structuur weer te geven.
+Ja, met Aspose.Slides kunt u complexe organisatiestructuren met meerdere niveaus creëren door vormen binnen het organigram toe te voegen en te rangschikken. U kunt hiërarchische relaties tussen vormen definiëren om de gewenste structuur weer te geven.

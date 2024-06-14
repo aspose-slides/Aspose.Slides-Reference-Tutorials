@@ -12,7 +12,7 @@ url: /ko/java/presentation-properties/access-modifying-properties-in-java-slides
 
 Java 개발 세계에서는 PowerPoint 프레젠테이션을 조작하는 것이 일반적인 작업입니다. 동적 보고서를 생성하든, 프레젠테이션을 자동화하든, 응용 프로그램의 사용자 인터페이스를 향상시키든, PowerPoint 슬라이드의 다양한 속성을 수정해야 하는 경우가 종종 있습니다. 이 단계별 가이드에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드의 속성에 액세스하고 수정하는 방법을 보여줍니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -31,7 +31,7 @@ PowerPoint 프리젠테이션으로 작업하려면 먼저 이를 Java 애플리
 ```java
 // 문서 디렉터리의 경로입니다.
 String dataDir = "Your Document Directory";
-//PPTX를 나타내는 프레젠테이션 클래스를 인스턴스화합니다.
+// PPTX를 나타내는 프레젠테이션 클래스를 인스턴스화합니다.
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

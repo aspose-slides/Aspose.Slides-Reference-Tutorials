@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Μόλις η διαφάνεια κλωνοποιηθεί και εισαχθεί στην επιθυμητή θέση, πρέπει να αποθηκεύσετε την τροποποιημένη παρουσίαση προορισμού. Χρησιμοποιήστε τον παρακάτω κώδικα για να αποθηκεύσετε την παρουσίαση:
 
 ```csharp
-// Αποθηκεύστε την τροποποιημένη παρουσίαση
+//Αποθηκεύστε την τροποποιημένη παρουσίαση
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Εισαγάγετε την κλωνοποιημένη διαφάνεια στην καθορισμένη θέση
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Αποθηκεύστε την τροποποιημένη παρουσίαση
+            //Αποθηκεύστε την τροποποιημένη παρουσίαση
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

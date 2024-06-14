@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
 ## 소개
 청중을 사로잡으려면 시각적으로 매력적인 모양으로 PowerPoint 프레젠테이션을 향상시키는 것이 중요합니다. 그러한 모양 중 하나는 슬라이드에 우아함과 전문성을 더할 수 있는 타원입니다. 이 튜토리얼에서는 .NET용 Aspose.Slides를 사용하여 PowerPoint에서 타원 모양의 서식을 지정하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 프로그래밍 언어에 대한 기본 지식.
 - 컴퓨터에 Visual Studio가 설치되어 있습니다.
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ```csharp
 ISlide sld = pres.Slides[0];
 ```
-프레젠테이션의 첫 번째 슬라이드에 액세스합니다.
+프레젠테이션의 첫 번째 슬라이드에 액세스하세요.
 ## 5단계: 타원 도형 추가
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

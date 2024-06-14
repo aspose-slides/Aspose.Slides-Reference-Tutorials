@@ -19,13 +19,13 @@ Importeer eerst de benodigde pakketten om de Aspose.Slides-functionaliteit in uw
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Stap 1: Stel de gegevensdirectory in
 ```java
 // Het pad naar de documentenmap.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Maak een directory aan als deze nog niet aanwezig is.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 In deze stap definiëren we het pad naar de map waar de PowerPoint-presentatie wordt opgeslagen. Als de directory niet bestaat, wordt deze aangemaakt.
 ## Stap 2: Presentatieobject instantiëren
 ```java
-//Instantieer een presentatieobject dat een PPT-bestand vertegenwoordigt
+// Instantieer een presentatieobject dat een PPT-bestand vertegenwoordigt
 Presentation presentation = new Presentation();
 ```
- Hier maken we een nieuw exemplaar van de`Presentation` klasse, die een PowerPoint-presentatie vertegenwoordigt.
+Hier maken we een nieuw exemplaar van de`Presentation` klasse, die een PowerPoint-presentatie vertegenwoordigt.
 ## Stap 3: Bewerkingen uitvoeren bij presentatie (optioneel)
 ```java
 //...doe hier wat werk...

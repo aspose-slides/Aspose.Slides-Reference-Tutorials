@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerp
 आरंभ करने के लिए, अपने जावा क्लास में आवश्यक पैकेज आयात करें:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### क्या Aspose.Slides for Java PowerPoint के नवीनतम संस्करणों के साथ संगत है?
 Aspose.Slides for Java, PowerPoint के विभिन्न संस्करणों के साथ संगतता का समर्थन करता है, जो आपकी प्रस्तुतियों के साथ सहज एकीकरण सुनिश्चित करता है।
 ### क्या मैं तीर के आकार की रेखा का रंग अनुकूलित कर सकता हूँ?
- हां, आप तीर के आकार की रेखा के रंग को समायोजित करके अनुकूलित कर सकते हैं`SolidFillColor` कोड में संपत्ति.
+हां, आप तीर के आकार की रेखा के रंग को समायोजित करके अनुकूलित कर सकते हैं`SolidFillColor` कोड में संपत्ति.
 ### क्या Aspose.Slides for Java लाइनों के अलावा अन्य आकृतियों का समर्थन करता है?
 हां, Java के लिए Aspose.Slides PowerPoint स्लाइडों में आयतों, वृत्तों और बहुभुजों सहित विभिन्न आकृतियों को जोड़ने के लिए व्यापक समर्थन प्रदान करता है।
 ### मैं Aspose.Slides for Java के लिए और अधिक संसाधन और समर्थन कहां पा सकता हूं?

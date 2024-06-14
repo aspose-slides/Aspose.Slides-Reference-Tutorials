@@ -10,7 +10,7 @@ url: /cs/java/chart-data-manipulation/funnel-chart-java-slides/
 
 ## Úvod do vytváření diagramu trychtýře v Aspose.Slides pro Java
 
-V tomto tutoriálu vás provedeme procesem vytváření trychtýřového grafu v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Grafy trychtýřů jsou užitečné pro vizualizaci dat, která se postupně zužují nebo „cestují“ různými fázemi nebo kategoriemi. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem, které vám toho pomohou dosáhnout.
+tomto tutoriálu vás provedeme procesem vytváření trychtýřového grafu v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Grafy trychtýřů jsou užitečné pro vizualizaci dat, která se postupně zužují nebo „cestují“ různými fázemi nebo kategoriemi. Poskytneme vám podrobné pokyny spolu se zdrojovým kódem, které vám toho pomohou dosáhnout.
 
 ## Předpoklady
 
@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Přidejte diagram cesty na první snímek na souřadnicích (50, 50) s rozměry (500, 400).
+    //Přidejte diagram cesty na první snímek na souřadnicích (50, 50) s rozměry (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -82,7 +82,7 @@ Nakonec prezentaci s Funnel Chart uložíme do určeného souboru.
 pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ```
 
-je to! Úspěšně jste vytvořili trychtýřový graf pomocí Aspose.Slides for Java a vložili jej do prezentace v PowerPointu.
+A je to! Úspěšně jste vytvořili trychtýřový graf pomocí Aspose.Slides for Java a vložili jej do prezentace v PowerPointu.
 
 ## Kompletní zdrojový kód pro graf trychtýře v Java Slides
 
@@ -136,4 +136,4 @@ Pozici a velikost grafu cesty můžete upravit úpravou souřadnic a rozměrů p
 
 ### Mohu exportovat graf do různých formátů, jako je PDF nebo obrázek?
 
- Ano, Aspose.Slides for Java umožňuje exportovat prezentaci s trychtýřovým grafem do různých formátů, včetně PDF, obrázkových formátů a dalších. Můžete použít`SaveFormat` možnosti určit požadovaný výstupní formát při ukládání prezentace.
+Ano, Aspose.Slides for Java umožňuje exportovat prezentaci s trychtýřovým grafem do různých formátů, včetně PDF, obrázkových formátů a dalších. Můžete použít`SaveFormat` možnosti určit požadovaný výstupní formát při ukládání prezentace.

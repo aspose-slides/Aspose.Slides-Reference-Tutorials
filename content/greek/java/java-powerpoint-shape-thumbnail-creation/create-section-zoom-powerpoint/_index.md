@@ -13,18 +13,18 @@ url: /el/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-power
 ## Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε εγκαταστήσει και ρυθμίσει τις ακόλουθες προϋποθέσεις στο σύστημά σας:
 1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει Java στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε την πιο πρόσφατη έκδοση από[εδώ](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides για Java: Πραγματοποιήστε λήψη και ρύθμιση της βιβλιοθήκης Aspose.Slides for Java. Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/slides/java/)και κατεβάστε τη βιβλιοθήκη από[αυτός ο σύνδεσμος](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides για Java: Πραγματοποιήστε λήψη και ρύθμιση της βιβλιοθήκης Aspose.Slides for Java. Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/slides/java/) και κατεβάστε τη βιβλιοθήκη από[αυτός ο σύνδεσμος](https://releases.aspose.com/slides/java/).
 ## Εισαγωγή πακέτων
 Αρχικά, εισαγάγετε τα απαραίτητα πακέτα που απαιτούνται για την εργασία με το Aspose.Slides για Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Βήμα 1: Ρύθμιση αρχείου εξόδου
 Καθορίστε τη διαδρομή για το αρχείο παρουσίασης εξόδου:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Βήμα 2: Αρχικοποίηση αντικειμένου παρουσίασης
  Δημιουργήστε μια νέα παρουσία του`Presentation` τάξη:

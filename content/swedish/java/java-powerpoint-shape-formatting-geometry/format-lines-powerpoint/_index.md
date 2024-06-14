@@ -18,7 +18,7 @@ Innan du dyker in i handledningen, se till att du har följande:
 Låt oss först importera de nödvändiga paketen som krävs för att arbeta med Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

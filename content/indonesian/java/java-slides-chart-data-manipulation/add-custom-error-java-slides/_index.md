@@ -149,4 +149,4 @@ Anda dapat mengulang titik data dan menetapkan nilai bilah kesalahan khusus untu
 
 ### Apakah mungkin menyembunyikan bilah kesalahan untuk titik data tertentu?
 
-Ya, Anda dapat mengontrol visibilitas bilah kesalahan untuk masing-masing titik data dengan mengatur`setVisible` properti dari`IErrorBarsFormat` obyek.
+ Ya, Anda dapat mengontrol visibilitas bilah kesalahan untuk masing-masing titik data dengan mengatur`setVisible` properti dari`IErrorBarsFormat` obyek.

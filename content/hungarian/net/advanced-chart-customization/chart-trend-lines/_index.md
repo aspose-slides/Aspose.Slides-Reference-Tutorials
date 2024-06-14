@@ -14,7 +14,7 @@ Az adatvizualizáció és -megjelenítés világában a diagramok beépítése h
 
 Mielőtt elkezdenénk dolgozni az Aspose.Slides for .NET-szel, meg kell győződnie arról, hogy a következő előfeltételeket teljesíti:
 
-1.  Aspose.Slides for .NET: A könyvtár eléréséhez és használatához telepíteni kell az Aspose.Slides for .NET-et. A könyvtárat a[letöltési oldal](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: A könyvtár eléréséhez és használatához telepíteni kell az Aspose.Slides for .NET-et. A könyvtárat a[letöltési oldal](https://releases.aspose.com/slides/net/).
 
 2. Fejlesztői környezet: Be kell állítania egy fejlesztői környezetet, lehetőleg integrált .NET fejlesztői környezetet, például a Visual Studio-t használva.
 

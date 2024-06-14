@@ -11,7 +11,7 @@ url: /ja/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 視覚的に魅力的なプレゼンテーションを作成することは、聴衆の注目を集め、維持するために不可欠です。図形にベベル効果を追加すると、スライドの全体的な美観が向上し、プレゼンテーションが際立ちます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint の図形にベベル効果を適用する手順を説明します。プレゼンテーション作成の自動化を検討している開発者でも、デザインをいじるのが好きな人でも、このガイドは役に立ちます。
 ## 前提条件
 チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
--  Java開発キット（JDK）：JDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java開発キット（JDK）：JDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Java 用 Aspose.Slidesライブラリ:ライブラリをここからダウンロードしてください[Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 - IDE (統合開発環境): IntelliJ IDEA、Eclipse、NetBeans など、任意の IDE を使用します。
 -  Asposeライセンス: Aspose.Slidesを制限なく使用するには、以下のライセンスを取得してください。[Aspose 購入](https://purchase.aspose.com/buy)または[一時ライセンス](https://purchase.aspose.com/temporary-license/)評価のため。
@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 まず、Java プロジェクトで Aspose.Slides を操作するために必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## ステップ1: プロジェクトを設定する

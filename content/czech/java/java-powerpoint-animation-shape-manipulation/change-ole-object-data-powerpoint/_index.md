@@ -15,14 +15,14 @@ Než se ponoříme do kódu, ujistěte se, že máte vše, co potřebujete, abys
 2.  Aspose.Slides for Java: Stáhněte si nejnovější verzi z[Stránka ke stažení Aspose.Slides](https://releases.aspose.com/slides/java/).
 3. Integrované vývojové prostředí (IDE): Můžete použít jakékoli Java IDE, jako je IntelliJ IDEA, Eclipse nebo NetBeans.
 4.  Aspose.Cells for Java: Toto je vyžadováno pro úpravu vložených dat v objektu OLE. Stáhněte si jej z[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. Soubor prezentace: Připravte si soubor PowerPoint s vloženým objektem OLE. Pro tento tutoriál si to pojmenujme`ChangeOLEObjectData.pptx`.
+5.  Soubor prezentace: Připravte si soubor PowerPoint s vloženým objektem OLE. Pro tento tutoriál si to pojmenujme`ChangeOLEObjectData.pptx`.
 ## Importujte balíčky
 Nejprve importujme potřebné balíčky do vašeho projektu Java.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

@@ -10,7 +10,7 @@ url: /ko/net/audio-and-video-extraction/extract-video/
 
 Aspose.Slides for .NET은 .NET 환경에서 PowerPoint 프레젠테이션 작업을 할 수 있는 강력한 라이브러리입니다. 그것이 제공하는 유용한 기능 중 하나는 슬라이드에서 비디오를 추출하는 기능입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에서 비디오를 추출하는 방법을 보여줍니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

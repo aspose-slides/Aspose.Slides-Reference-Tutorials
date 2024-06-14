@@ -8,7 +8,7 @@ weight: 11
 url: /de/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
 ## Einführung
-Das Erstellen optisch ansprechender Präsentationen ist wichtig, um Ihr Publikum zu fesseln. Eine Möglichkeit, Ihre PowerPoint-Folien zu verbessern, besteht darin, Formen mit Mustern zu füllen. In diesem Tutorial führen wir Sie durch die Schritte zum Füllen von Formen mit Mustern mithilfe von Aspose.Slides für Java. Diese Anleitung richtet sich an Entwickler, die die leistungsstarken Funktionen von Aspose.Slides nutzen möchten, um programmgesteuert beeindruckende Präsentationen zu erstellen.
+Das Erstellen optisch ansprechender Präsentationen ist wichtig, um Ihr Publikum zu fesseln. Eine Möglichkeit, Ihre PowerPoint-Folien zu verbessern, besteht darin, Formen mit Mustern zu füllen. In diesem Tutorial führen wir Sie durch die Schritte zum Füllen von Formen mit Mustern mithilfe von Aspose.Slides für Java. Diese Anleitung ist auf Entwickler zugeschnitten, die die leistungsstarken Funktionen von Aspose.Slides nutzen möchten, um programmgesteuert beeindruckende Präsentationen zu erstellen.
 ## Voraussetzungen
 Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Auf Ihrem Computer ist Java Development Kit (JDK) installiert.
@@ -19,7 +19,7 @@ Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie die folgenden Vor
 Importieren wir zunächst die für unser Beispiel erforderlichen Pakete.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

@@ -10,7 +10,7 @@ url: /ko/net/additional-chart-features/chart-recover-workbook/
 
 .NET에서 PowerPoint 프레젠테이션 작업을 하려는 경우 Aspose.Slides for .NET은 목표 달성에 도움이 되는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 차트에서 통합 문서를 복구하는 과정을 안내합니다. 이 강력한 기능은 프레젠테이션 내의 차트에서 데이터를 추출해야 할 때 유용할 수 있습니다. 우리는 프로세스를 따라하기 쉬운 단계로 나누어서 귀하가 이 작업을 수행하는 방법을 명확하게 이해할 수 있도록 하겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

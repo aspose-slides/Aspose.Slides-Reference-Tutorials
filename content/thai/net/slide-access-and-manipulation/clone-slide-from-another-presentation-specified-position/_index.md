@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 เมื่อสไลด์ถูกโคลนและแทรกในตำแหน่งที่ต้องการแล้ว คุณจะต้องบันทึกการนำเสนอปลายทางที่แก้ไข ใช้รหัสต่อไปนี้เพื่อบันทึกการนำเสนอ:
 
 ```csharp
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // ใส่สไลด์ที่ลอกแบบมาในตำแหน่งที่ระบุ
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // บันทึกงานนำเสนอที่แก้ไข
+            //บันทึกงานนำเสนอที่แก้ไข
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

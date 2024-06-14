@@ -65,7 +65,7 @@ Ten fragment kodu dodaje zduplikowany slajd na końcu prezentacji.
 Po dodaniu zduplikowanego slajdu musimy zapisać zmodyfikowaną prezentację. Oto jak:
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

@@ -19,7 +19,7 @@ Antes de começarmos, certifique-se de ter o seguinte em vigor:
 Primeiro, vamos importar os pacotes necessários para o seu projeto Java. Essas importações irão ajudá-lo a lidar com apresentações e formas com Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Etapa 1: configure seu projeto
 Antes de mergulhar no código, configure o ambiente do seu projeto. Certifique-se de ter adicionado Aspose.Slides for Java às dependências do seu projeto.
@@ -36,7 +36,7 @@ Presentation pres = new Presentation();
 ```
 Este trecho de código inicializa um novo objeto de apresentação onde adicionaremos nossas formas.
 ## Etapa 3: adicionar uma forma retangular
-seguir, vamos adicionar uma forma retangular ao primeiro slide.
+A seguir, vamos adicionar uma forma retangular ao primeiro slide.
 ```java
 IShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 200, 200);
 ```
@@ -72,7 +72,7 @@ pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
 Este código salva sua apresentação com o nome de arquivo especificado no formato desejado.
 ## Conclusão
-Parabéns! Você aplicou com êxito efeitos de rotação 3D a formas em uma apresentação do PowerPoint usando Aspose.Slides para Java. Seguindo essas etapas, você pode criar apresentações dinâmicas e visualmente atraentes. Para maior personalização e recursos mais avançados, consulte o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/java/).
+ Parabéns! Você aplicou com êxito efeitos de rotação 3D a formas em uma apresentação do PowerPoint usando Aspose.Slides para Java. Seguindo essas etapas, você pode criar apresentações dinâmicas e visualmente atraentes. Para maior personalização e recursos mais avançados, consulte o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/java/).
 ## Perguntas frequentes
 ### O que é Aspose.Slides para Java?
 Aspose.Slides for Java é uma API poderosa para criar, modificar e manipular apresentações do PowerPoint de forma programática.

@@ -10,13 +10,13 @@ url: /de/net/chart-creation-and-customization/check-slides-comparison/
 
 ## Einführung zum Vergleichen von Folien innerhalb einer Präsentation
 
-In der Welt der Softwareentwicklung sind Präsentationen ein wirkungsvolles Mittel, um Informationen und Ideen zu vermitteln. Aspose.Slides für .NET ist eine vielseitige Bibliothek, die Entwicklern die Tools bietet, die sie zum programmgesteuerten Erstellen, Bearbeiten und Verbessern von Präsentationen benötigen. Eine der wichtigsten Funktionen von Aspose.Slides ist die Möglichkeit, Folien innerhalb einer Präsentation zu vergleichen, sodass Benutzer Unterschiede erkennen und fundierte Entscheidungen treffen können. In dieser Anleitung werden wir den Prozess des Vergleichens von Folien innerhalb einer Präsentation mit Aspose.Slides für .NET durchgehen.
+In der Welt der Softwareentwicklung sind Präsentationen ein wirksames Mittel zur Vermittlung von Informationen und Ideen. Aspose.Slides für .NET ist eine vielseitige Bibliothek, die Entwicklern die Tools bietet, die sie zum programmgesteuerten Erstellen, Bearbeiten und Verbessern von Präsentationen benötigen. Eine der wichtigsten Funktionen von Aspose.Slides ist die Möglichkeit, Folien innerhalb einer Präsentation zu vergleichen, sodass Benutzer Unterschiede erkennen und fundierte Entscheidungen treffen können. In diesem Handbuch werden wir den Prozess des Vergleichens von Folien innerhalb einer Präsentation mithilfe von Aspose.Slides für .NET durchgehen.
 
 ## Einrichten Ihrer Entwicklungsumgebung
 
 Um mit dem Vergleichen von Folien in Präsentationen mithilfe von Aspose.Slides für .NET zu beginnen, führen Sie die folgenden Schritte aus:
 
-1.  Aspose.Slides für .NET installieren: Zuerst müssen Sie die Bibliothek Aspose.Slides für .NET installieren. Sie können die Bibliothek von der[Aspose.Slides-Website](https://releases.aspose.com/slides/net/). Fügen Sie die Bibliothek nach dem Herunterladen als Referenz zu Ihrem Projekt hinzu.
+1.  Installieren von Aspose.Slides für .NET: Zuerst müssen Sie die Bibliothek Aspose.Slides für .NET installieren. Sie können die Bibliothek von der[Aspose.Slides-Website](https://releases.aspose.com/slides/net/). Fügen Sie die Bibliothek nach dem Herunterladen als Referenz zu Ihrem Projekt hinzu.
 
 2. Erstellen eines neuen Projekts: Erstellen Sie ein neues .NET-Projekt in Ihrer bevorzugten Entwicklungsumgebung. Sie können Visual Studio oder eine andere kompatible IDE verwenden.
 

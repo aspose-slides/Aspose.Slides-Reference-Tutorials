@@ -12,7 +12,7 @@ oblasti zpracování PowerPointu se Aspose.Slides for .NET ukazuje jako výkonn�
 ## Manipulace s prezentací
 Prozkoumejte naše výukové programy Manipulace s prezentacemi a objevte možnosti Aspose.Slides pro .NET. Naučte se, jak programově vytvářet, upravovat a vylepšovat prezentace PowerPoint pomocí různých funkcí a technik. Od správy snímků a obsahu až po začlenění multimediálních prvků, tyto výukové programy poskytují praktické rady pro efektivní a dynamické zpracování prezentací, což vám umožní zjednodušit úkoly automatizace aplikace PowerPoint a dosáhnout profesionálních výsledků. Začněte svou cestu do světa manipulace s prezentacemi s Aspose.Slides pro .NET ještě dnes.
 
-## Výukové programy manipulace s prezentacemi
+## Výukové programy pro manipulaci s prezentacemi
 ### [Vytvářejte nové prezentace programově](./create-new-presentations-programmatically/)
 Naučte se vytvářet prezentace programově pomocí Aspose.Slides pro .NET. Podrobný průvodce se zdrojovým kódem pro efektivní automatizaci.
 ### [Vlastní možnosti převodu PDF pro prezentace](./custom-pdf-conversion-options-for-presentations/)

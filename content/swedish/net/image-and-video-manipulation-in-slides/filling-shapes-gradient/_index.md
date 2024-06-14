@@ -70,6 +70,6 @@ A: Visst! Aspose.Slides för .NET stöder gradientfyllning för olika former som
 ### F: Finns det en gratis testversion tillgänglig för Aspose.Slides för .NET?
  S: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 ### F: Hur kan jag få support för Aspose.Slides för .NET?
-S: Sök hjälp och engagera dig i samhället[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+ S: Sök hjälp och engagera dig i samhället[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### F: Kan jag köpa en tillfällig licens för Aspose.Slides för .NET?
  S: Visst kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

@@ -17,7 +17,7 @@ Nell'era digitale di oggi, la conversione delle presentazioni in HTML è diventa
 Prima di approfondire il codice e il processo di conversione, assicurati di disporre dei seguenti prerequisiti:
 
 - Java Development Kit (JDK) installato sul tuo sistema.
-- Aspose.Slides per Java API, da cui puoi scaricare[Qui](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides per Java API, da cui puoi scaricare[Qui](https://releases.aspose.com/slides/java/).
 -  Un file di presentazione (ad es.`presentation.pptx`) che desideri convertire in HTML.
 
 ## Passaggio 1: configurazione dell'ambiente Java
@@ -26,7 +26,7 @@ Assicurati di avere Java e Aspose.Slides per l'API Java correttamente installati
 
 ## Passaggio 2: caricamento del file di presentazione
 
- Nel tuo codice Java, devi caricare il file di presentazione che desideri convertire. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione.
+Nel tuo codice Java, devi caricare il file di presentazione che desideri convertire. Sostituire`"Your Document Directory"` con il percorso effettivo del file di presentazione.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ Puoi controllare il codice sorgente del file HTML e cercare riferimenti ai carat
 
 ### Posso personalizzare ulteriormente l'output HTML, ad esempio stile e layout?
 
- Sì, puoi personalizzare l'output HTML modificando il file`HtmlOptions` il modello HTML utilizzato per la formattazione. Aspose.Slides per Java offre flessibilità a questo riguardo.
+ Sì, puoi personalizzare l'output HTML modificando il file`HtmlOptions` e il modello HTML utilizzato per la formattazione. Aspose.Slides per Java offre flessibilità a questo riguardo.
 
 ### Esistono limitazioni quando si incorporano i caratteri in HTML?
 

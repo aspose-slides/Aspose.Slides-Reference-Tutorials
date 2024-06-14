@@ -14,7 +14,7 @@ url: /zh-hant/net/licensing-and-formatting/licensing-and-formatting/
 
 在我們深入研究許可流程之前，您應該滿足以下先決條件：
 
-1.  Aspose.Slides for .NET：請確定您已在開發環境中安裝了 Aspose.Slides for .NET。您可以從以下位置下載該程式庫[下載連結](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET：請確定您已在開發環境中安裝了 Aspose.Slides for .NET。您可以從以下位置下載該程式庫[下載連結](https://releases.aspose.com/slides/net/).
 
 2. 許可證文件：取得有效的 Aspose.Slides 許可證文件，通常名為「Aspose.Slides.lic」。您可以從以下機構取得許可證[阿斯普斯網站](https://purchase.aspose.com/buy)或請求[臨時執照](https://purchase.aspose.com/temporary-license/)出於評估目的。
 

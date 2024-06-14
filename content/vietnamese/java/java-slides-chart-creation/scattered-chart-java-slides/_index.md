@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Bước 2: Thêm trang trình bày và tạo biểu đồ phân tán
 
- Tiếp theo, thêm một slide và tạo biểu đồ phân tán trên đó. Chúng tôi sẽ sử dụng`ScatterWithSmoothLines` loại biểu đồ trong ví dụ này.
+ Tiếp theo, thêm một slide và tạo biểu đồ phân tán trên đó. Chúng tôi sẽ sử dụng`ScatterWithSmoothLines`loại biểu đồ trong ví dụ này.
 
 ```java
 // Nhận slide đầu tiên
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Tạo biểu đồ mặc định
+//Tạo biểu đồ mặc định
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Lấy chỉ mục bảng tính dữ liệu biểu đồ mặc định
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn bạn quy trình tạ
 
 ### Làm cách nào để thay đổi loại biểu đồ?
 
- Để thay đổi loại biểu đồ, hãy sử dụng`setType`phương pháp trên chuỗi biểu đồ và cung cấp loại biểu đồ mong muốn. Ví dụ,`series.setType(ChartType.Line)` sẽ thay đổi chuỗi thành biểu đồ đường.
+ Để thay đổi loại biểu đồ, hãy sử dụng`setType` phương pháp trên chuỗi biểu đồ và cung cấp loại biểu đồ mong muốn. Ví dụ,`series.setType(ChartType.Line)` sẽ thay đổi chuỗi thành biểu đồ đường.
 
 ### Làm cách nào để tùy chỉnh kích thước và kiểu điểm đánh dấu?
 

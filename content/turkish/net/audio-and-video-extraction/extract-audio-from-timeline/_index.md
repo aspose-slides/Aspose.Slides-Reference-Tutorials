@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- Bu adımda belirtilen dosyadan PowerPoint sunumunu yüklüyoruz. Değiştirdiğinizden emin olun`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
+Bu adımda belirtilen dosyadan PowerPoint sunumunu yüklüyoruz. Değiştirdiğinizden emin olun`"Your Document Directory"` sunum dosyanızın gerçek yolunu belirtin.
 
 ### Adım 2.2: Slayt ve Zaman Çizelgesine Erişin
 

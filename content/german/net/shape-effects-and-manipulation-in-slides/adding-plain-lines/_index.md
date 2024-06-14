@@ -8,7 +8,7 @@ weight: 16
 url: /de/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
 ## Einführung
-Beim Erstellen ansprechender und optisch ansprechender PowerPoint-Präsentationen müssen häufig verschiedene Formen und Elemente integriert werden. Wenn Sie mit .NET arbeiten, ist Aspose.Slides ein leistungsstarkes Tool, das den Vorgang vereinfacht. In diesem Tutorial geht es darum, mit Aspose.Slides für .NET einfache Linien zu Präsentationsfolien hinzuzufügen. Folgen Sie dieser leicht verständlichen Anleitung, um Ihre Präsentationen zu verbessern.
+Beim Erstellen ansprechender und optisch ansprechender PowerPoint-Präsentationen müssen häufig verschiedene Formen und Elemente integriert werden. Wenn Sie mit .NET arbeiten, ist Aspose.Slides ein leistungsstarkes Tool, das den Vorgang vereinfacht. In diesem Tutorial geht es darum, Präsentationsfolien mit Aspose.Slides für .NET einfache Linien hinzuzufügen. Folgen Sie dieser leicht verständlichen Anleitung, um Ihre Präsentationen zu verbessern.
 ## Voraussetzungen
 Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Grundkenntnisse der .NET-Programmierung.

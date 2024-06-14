@@ -20,7 +20,7 @@ Innan vi dyker in i koden finns det några förutsättningar du måste ha på pl
 För att börja använda Aspose.Slides för Java måste du importera nödvändiga paket. Så här kan du göra det:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Steg 1: Konfigurera ditt projekt
@@ -56,13 +56,13 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## Steg 5: Ställ in Fyllningstyp till Solid
  För att fylla formen med en enfärgad färg, ställ in fyllningstypen till`Solid`.
 ```java
-//Ställ in fyllningstypen till Solid
+// Ställ in fyllningstypen till Solid
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## Steg 6: Välj och använd färgen
 Välj en färg för formen. Här använder vi gult, men du kan välja vilken färg du vill.
 ```java
-// Ställ in färgen på rektangeln
+//Ställ in färgen på rektangeln
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
 ## Steg 7: Spara presentationen
@@ -84,4 +84,4 @@ Ja, Aspose.Slides för Java låter dig öppna, redigera och spara befintliga Pow
 ### Finns det en gratis testversion tillgänglig för Aspose.Slides för Java?
  Ja, du kan ladda ner en gratis testversion från[Aspose hemsida](https://releases.aspose.com/).
 ### Var kan jag hitta mer dokumentation och support?
- Detaljerad dokumentation finns tillgänglig på[Aspose hemsida](https://reference.aspose.com/slides/java/) , och du kan söka stöd på[Aspose forum](https://forum.aspose.com/c/slides/11).
+ Detaljerad dokumentation finns tillgänglig på[Aspose hemsida](https://reference.aspose.com/slides/java/) och du kan söka stöd på[Aspose forum](https://forum.aspose.com/c/slides/11).

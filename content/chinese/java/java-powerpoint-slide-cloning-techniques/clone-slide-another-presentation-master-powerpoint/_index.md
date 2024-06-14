@@ -19,7 +19,7 @@ Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程
 首先，您需要将必要的 Aspose.Slides 包导入到您的 Java 项目中。操作方法如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 让我们将将幻灯片克隆到另一个演示文稿及其主幻灯片的过程分解为详细步骤。
 ## 步骤 1：加载源演示文稿

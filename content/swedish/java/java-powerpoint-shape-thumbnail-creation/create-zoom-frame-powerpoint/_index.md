@@ -19,7 +19,7 @@ Innan du dyker in i handledningen, se till att du har följande:
 Till att börja med måste du importera nödvändiga paket i ditt Java-projekt. Dessa importer ger tillgång till Aspose.Slides-funktionerna som krävs för den här handledningen.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Vi vill göra våra bilder visuellt distinkta genom att lägga till bakgrundsfärger.
 ### Ställa in bakgrund för den andra bilden
 ```java
-    //Skapa en bakgrund för den andra bilden
+    // Skapa en bakgrund för den andra bilden
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

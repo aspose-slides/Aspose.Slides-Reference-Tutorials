@@ -12,14 +12,14 @@ Tworzenie atrakcyjnych wizualnie prezentacji programu PowerPoint może być trud
 ## Warunki wstępne
 Zanim zaczniemy, musisz spełnić kilka warunków wstępnych:
 1.  Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK na swoim komputerze. Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Biblioteka Aspose.Slides for Java: Musisz pobrać i dołączyć Aspose.Slides for Java do swojego projektu. Możesz to dostać od[Tutaj](https://releases.aspose.com/slides/java/).
+2.  Biblioteka Aspose.Slides for Java: Musisz pobrać i dołączyć Aspose.Slides for Java do swojego projektu. Możesz to dostać od[Tutaj](https://releases.aspose.com/slides/java/).
 3. Zintegrowane środowisko programistyczne (IDE): Użyj IDE, takiego jak IntelliJ IDEA, Eclipse lub NetBeans, aby pisać i wykonywać kod Java.
 4. Podstawowa znajomość języka Java: Podstawowa znajomość programowania w języku Java pomoże w podążaniu za tutorialem.
 ## Importuj pakiety
 Najpierw musisz zaimportować niezbędne pakiety dla Aspose.Slides. Jest to niezbędne, aby uzyskać dostęp do klas i metod wymaganych do manipulacji naszą prezentacją.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,11 +34,11 @@ if (!IsExists)
 ```
 W tym kroku definiujemy ścieżkę do katalogu i sprawdzamy, czy istnieje. Jeśli nie, tworzymy katalog. Jest to prosty, ale skuteczny sposób na uporządkowanie plików.
 ## Krok 2: Zainicjuj prezentację
- Następnie tworzymy instancję`Presentation`class, która reprezentuje nasz plik PowerPoint. To jest podstawa, na której będziemy budować nasze slajdy i kształty.
+ Następnie tworzymy instancję`Presentation` class, która reprezentuje nasz plik PowerPoint. To jest podstawa, na której będziemy budować nasze slajdy i kształty.
 ```java
 Presentation pres = new Presentation();
 ```
-Ta linia kodu tworzy nową prezentację. Pomyśl o tym jak o otwarciu pustego pliku programu PowerPoint, do którego dodasz całą swoją zawartość.
+Ta linia kodu tworzy nową prezentację. Pomyśl o tym jak o otwarciu pustego pliku programu PowerPoint, do którego dodasz całą zawartość.
 ## Krok 3: Dodaj kształty do slajdu
 ### Zdobądź pierwszy slajd
 Przed dodaniem kształtów musimy uzyskać odniesienie do pierwszego slajdu w naszej prezentacji. Domyślnie nowa prezentacja zawiera jeden pusty slajd.
@@ -52,7 +52,7 @@ IShape shp1 = sld.getShapes().addAutoShape(ShapeType.Rectangle, 50, 100, 150, 75
 IShape shp2 = sld.getShapes().addAutoShape(ShapeType.Rectangle, 300, 100, 150, 75);
 IShape shp3 = sld.getShapes().addAutoShape(ShapeType.Rectangle, 50, 250, 150, 75);
 ```
-W tym kroku dodajemy trzy prostokąty w określonych pozycjach na slajdzie. Każdy prostokąt zostanie później stylizowany inaczej, aby zaprezentować różne style łączenia.
+W tym kroku dodajemy trzy prostokąty w określonych miejscach na slajdzie. Każdy prostokąt zostanie później stylizowany inaczej, aby zaprezentować różne style łączenia.
 ## Krok 4: Stylizuj kształty
 ### Ustaw kolor wypełnienia
 Chcemy, żeby nasze prostokąty były wypełnione jednolitym kolorem. Tutaj jako kolor wypełnienia wybieramy kolor czarny.
@@ -100,7 +100,7 @@ pres.save(dataDir + "RectShpLnJoin_out.pptx", SaveFormat.Pptx);
 ```
 To polecenie zapisuje prezentację do pliku PPTX, który można otworzyć za pomocą programu Microsoft PowerPoint lub innego kompatybilnego oprogramowania.
 ## Wniosek
-masz to! Właśnie utworzyłeś slajd programu PowerPoint składający się z trzech prostokątów, z których każdy przedstawia inny styl łączenia linii przy użyciu Aspose.Slides dla Java. Ten samouczek nie tylko pomaga zrozumieć podstawy Aspose.Slides, ale także pokazuje, jak ulepszyć swoje prezentacje za pomocą unikalnych stylów. Miłej prezentacji!
+I masz to! Właśnie utworzyłeś slajd programu PowerPoint składający się z trzech prostokątów, z których każdy przedstawia inny styl łączenia linii przy użyciu Aspose.Slides dla Java. Ten samouczek nie tylko pomaga zrozumieć podstawy Aspose.Slides, ale także pokazuje, jak ulepszyć swoje prezentacje za pomocą unikalnych stylów. Miłej prezentacji!
 ## Często zadawane pytania
 ### Co to jest Aspose.Slides dla Java?
 Aspose.Slides for Java to potężny interfejs API do programowego tworzenia, manipulowania i zarządzania prezentacjami programu PowerPoint.

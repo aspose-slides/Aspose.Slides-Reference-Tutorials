@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpo
 आरंभ करने के लिए, आपको अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करने की आवश्यकता है। ये आयात इस ट्यूटोरियल के लिए आवश्यक Aspose.Slides कार्यक्षमताओं तक पहुँच प्रदान करेंगे।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 हम पृष्ठभूमि रंग जोड़कर अपनी स्लाइडों को दृश्यात्मक रूप से विशिष्ट बनाना चाहते हैं।
 ### दूसरी स्लाइड के लिए पृष्ठभूमि सेट करना
 ```java
-    //दूसरी स्लाइड के लिए पृष्ठभूमि बनाएँ
+    // दूसरी स्लाइड के लिए पृष्ठभूमि बनाएँ
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

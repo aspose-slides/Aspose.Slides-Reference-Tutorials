@@ -10,7 +10,7 @@ url: /pl/java/chart-data-manipulation/pie-chart-java-slides/
 
 ## Wprowadzenie do tworzenia wykresu kołowego w slajdach Java przy użyciu Aspose.Slides
 
-W tym samouczku pokażemy, jak utworzyć wykres kołowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Udostępnimy Ci instrukcje krok po kroku i kod źródłowy Java, które pomogą Ci rozpocząć. W tym przewodniku założono, że masz już skonfigurowane środowisko programistyczne z Aspose.Slides dla Java.
+tym samouczku pokażemy, jak utworzyć wykres kołowy w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Udostępnimy Ci instrukcje krok po kroku i kod źródłowy Java, które pomogą Ci rozpocząć. W tym przewodniku założono, że masz już skonfigurowane środowisko programistyczne z Aspose.Slides dla Java.
 
 ## Warunki wstępne
 
@@ -49,7 +49,7 @@ Pobierz pierwszy slajd prezentacji, do którego chcesz dodać wykres kołowy.
 ## Krok 4: Dodaj wykres kołowy
 
 ```java
-//Dodaj wykres kołowy z danymi domyślnymi
+// Dodaj wykres kołowy z danymi domyślnymi
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Ustaw tytuł wykresu kołowego. Możesz dostosować tytuł według potrzeb.
 ## Krok 6: Dostosuj dane wykresu
 
 ```java
-// Ustaw pierwszą serię tak, aby pokazywała wartości
+//Ustaw pierwszą serię tak, aby pokazywała wartości
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Ustawianie indeksu arkusza danych wykresu
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Dodawanie nowej serii
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Teraz wypełniam dane serii
+// Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

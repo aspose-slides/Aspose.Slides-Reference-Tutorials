@@ -15,14 +15,14 @@ Antes de profundizar en el código, asegurémonos de que tiene todo lo que neces
 2.  Aspose.Slides para Java: descargue la última versión desde[Página de descarga de Aspose.Slides](https://releases.aspose.com/slides/java/).
 3. Entorno de desarrollo integrado (IDE): puede utilizar cualquier IDE de Java, como IntelliJ IDEA, Eclipse o NetBeans.
 4.  Aspose.Cells para Java: esto es necesario para modificar los datos incrustados dentro del objeto OLE. Descárgalo desde[Página de descarga de Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. Archivo de presentación: tenga listo un archivo de PowerPoint con un objeto OLE incrustado. Para este tutorial, pongámosle el nombre`ChangeOLEObjectData.pptx`.
+5.  Archivo de presentación: tenga listo un archivo de PowerPoint con un objeto OLE incrustado. Para este tutorial, pongámosle el nombre`ChangeOLEObjectData.pptx`.
 ## Importar paquetes
 Primero, importemos los paquetes necesarios en su proyecto Java.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

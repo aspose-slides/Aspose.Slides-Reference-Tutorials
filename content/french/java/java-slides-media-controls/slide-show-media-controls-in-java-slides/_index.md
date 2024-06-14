@@ -34,7 +34,7 @@ Commençons par créer une nouvelle présentation. Voici comment procéder dans 
 
 ```java
 // Chemin d'accès au document PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ Ce code enregistre votre présentation avec les commandes multimédias activées
 
 ```java
 // Chemin d'accès au document PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Activer l'affichage du contrôle multimédia en mode diaporama.

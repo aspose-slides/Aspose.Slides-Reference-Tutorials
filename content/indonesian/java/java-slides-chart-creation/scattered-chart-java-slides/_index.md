@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Langkah 2: Tambahkan Slide dan Buat Bagan Sebar
 
- Selanjutnya, tambahkan slide dan buat diagram sebar di atasnya. Kami akan menggunakan`ScatterWithSmoothLines` ketik bagan dalam contoh ini.
+ Selanjutnya, tambahkan slide dan buat diagram sebar di atasnya. Kami akan menggunakan`ScatterWithSmoothLines`ketik bagan dalam contoh ini.
 
 ```java
 // Dapatkan slide pertama
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Membuat bagan default
+//Membuat bagan default
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Mendapatkan indeks lembar kerja data bagan default
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ Dalam tutorial ini, kami telah memandu Anda melalui proses pembuatan Bagan Sebar
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Untuk mengubah jenis bagan, gunakan`setType`metode pada seri bagan dan berikan jenis bagan yang diinginkan. Misalnya,`series.setType(ChartType.Line)` akan mengubah seri menjadi diagram garis.
+ Untuk mengubah jenis bagan, gunakan`setType` metode pada seri bagan dan berikan jenis bagan yang diinginkan. Misalnya,`series.setType(ChartType.Line)` akan mengubah seri menjadi diagram garis.
 
 ### Bagaimana cara menyesuaikan ukuran dan gaya penanda?
 

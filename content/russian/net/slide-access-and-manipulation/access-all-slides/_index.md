@@ -88,7 +88,7 @@ class Program
             // Получить все слайды
             ISlideCollection slides = presentation.Slides;
 
-            // Отобразить информацию о слайде
+            // Отображение информации о слайде
             foreach (ISlide slide in slides)
             {
                 Console.WriteLine($"Slide Number: {slide.SlideNumber}");

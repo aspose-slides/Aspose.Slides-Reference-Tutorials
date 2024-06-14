@@ -63,7 +63,7 @@ Console.WriteLine(dir);
 ```csharp
 public static double getDirection(float w, float h, bool flipH, bool flipV)
 {
-    // Code voor het berekenen van richting
+    // Code voor het berekenen van de richting
 	float endLineX = w * (flipH ? -1 : 1);
 	float endLineY = h * (flipV ? -1 : 1);
 	float endYAxisX = 0;

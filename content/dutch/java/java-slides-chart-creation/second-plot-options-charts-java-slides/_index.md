@@ -84,7 +84,7 @@ In deze zelfstudie hebben we geleerd hoe u tweede plotopties kunt toevoegen aan 
 
 ### Hoe kan ik de grootte van de tweede cirkel in een cirkeldiagram wijzigen?
 
- Als u de grootte van de tweede cirkel in een cirkeldiagram wilt wijzigen, gebruikt u de`setSecondPieSize` methode zoals weergegeven in het bovenstaande codevoorbeeld. Pas de waarde aan om de grootte in procenten op te geven.
+Als u de grootte van de tweede cirkel in een cirkeldiagram wilt wijzigen, gebruikt u de`setSecondPieSize` methode zoals weergegeven in het bovenstaande codevoorbeeld. Pas de waarde aan om de grootte in procenten op te geven.
 
 ###  Wat doet`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ In deze zelfstudie hebben we geleerd hoe u tweede plotopties kunt toevoegen aan 
 
 ### Hoe stel ik de positie van de splitsing in een cirkeldiagram in?
 
- kunt de positie van de splitsing in een cirkeldiagram instellen met behulp van de`setPieSplitPosition` methode. Pas de waarde aan om de gewenste positie op te geven.
+ U kunt de positie van de splitsing in een cirkeldiagram instellen met behulp van de`setPieSplitPosition` methode. Pas de waarde aan om de gewenste positie op te geven.

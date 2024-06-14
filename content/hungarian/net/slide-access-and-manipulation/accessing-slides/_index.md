@@ -47,7 +47,7 @@ using var presentation = new Presentation("path/to/your/presentation.pptx");
 // Hozzáférés a diákhoz
 var slides = presentation.Slides;
 
-// Iteráljon diákon keresztül
+// Iteráció diákon keresztül
 foreach (var slide in slides)
 {
     // Az Ön kódja az egyes diákhoz
@@ -84,7 +84,7 @@ foreach (var shape in shapes)
 var newSlide = slides.AddEmptySlide(presentation.LayoutSlides[0]);
 
 // Az új dia testreszabása
-// A kód, amellyel tartalmat adhat hozzá az új diához
+// A kód, amellyel tartalmat adhat az új diához
 ```
 
 ## Diák törlése
@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 Miután módosította a bemutatót, el kell mentenie a módosításokat. Így mentheti el a módosított prezentációt:
 
 ```csharp
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

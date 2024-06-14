@@ -34,7 +34,7 @@ url: /ja/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ```java
 // PPTX ドキュメントへのパス
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 ```java
 // PPTX ドキュメントへのパス
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	//スライドショー モードでメディア コントロールの表示を有効にします。

@@ -96,7 +96,7 @@ Pada langkah ini, kami menyiapkan penghemat keluaran khusus, melakukan konversi,
 
 ```java
 	// Jalur menuju presentasi sumber
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Buat opsi konversi
@@ -109,7 +109,7 @@ Pada langkah ini, kami menyiapkan penghemat keluaran khusus, melakukan konversi,
 		pres.save(xamlOptions);
 		// Simpan file XAML ke direktori keluaran
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

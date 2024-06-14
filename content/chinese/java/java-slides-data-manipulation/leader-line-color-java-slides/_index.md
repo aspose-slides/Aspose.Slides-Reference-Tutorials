@@ -64,8 +64,8 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Java 幻灯片中引线颜色的完整源代码
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             //从第一张幻灯片获取图表
@@ -103,11 +103,11 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ### 如何才能了解有关使用 Aspose.Slides for Java 的更多信息？
 
-您可以在 Aspose 网站上找到有关如何使用 Aspose.Slides for Java 的全面文档和其他代码示例。请访问[Aspose.Slides for Java 文档](https://docs.aspose.com/slides/java/)获得详细的指南和教程。
+您可以在 Aspose 网站上找到有关如何使用 Aspose.Slides for Java 的全面文档和其他代码示例。请访问[Aspose.Slides for Java 文档](https://docs.aspose.com/slides/java/)以获得详细的指南和教程。
 
 ### 我是否需要许可证才能在商业项目中使用 Aspose.Slides for Java？
 
-是的，您通常需要有效的许可证才能在商业项目中使用 Aspose.Slides for Java。Aspose 提供各种许可选项，包括用于测试和试用的免费评估许可证。但是，对于生产用途，您应该获得适当的商业许可证。请访问[Aspose 购买页面](https://purchase.aspose.com/)了解许可详情。
+是的，您通常需要有效的许可证才能在商业项目中使用 Aspose.Slides for Java。Aspose 提供各种许可选项，包括用于测试和试用的免费评估许可证。但是，对于生产用途，您应该获得适当的商业许可证。访问[Aspose 购买页面](https://purchase.aspose.com/)了解许可详情。
 
 ### 如何获得 Aspose.Slides for Java 的技术支持？
 

@@ -108,4 +108,4 @@ Aspose.Slides для Java поддерживает различные форма
 
 ### Где я могу найти дополнительную информацию и документацию по Aspose.Slides для Java?
 
- Подробную документацию и ссылки на Aspose.Slides для Java можно найти на веб-сайте документации:[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/).
+ Для получения полной документации и справок по Aspose.Slides for Java посетите веб-сайт документации:[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/).

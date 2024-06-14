@@ -8,7 +8,7 @@ weight: 15
 url: /hu/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
 ## Bevezetés
-A tetszetős és jól strukturált prezentációk készítése ijesztő feladat lehet. A megfelelő eszközökkel és technikákkal azonban jelentősen megkönnyítheti a munkát. Az Aspose.Slides for Java egy hatékony könyvtár, amely segít a PowerPoint prezentációk programozott kezelésében és kezelésében. Ebben az oktatóanyagban végigvezetjük a PowerPoint dián az Aspose.Slides for Java segítségével az alakzatok sorrendjének megváltoztatásának lépésein.
+tetszetős és jól strukturált prezentációk készítése ijesztő feladat lehet. A megfelelő eszközökkel és technikákkal azonban jelentősen megkönnyítheti a munkát. Az Aspose.Slides for Java egy hatékony könyvtár, amely segít a PowerPoint prezentációk programozott kezelésében és kezelésében. Ebben az oktatóanyagban végigvezetjük a PowerPoint dián az Aspose.Slides for Java segítségével az alakzatok sorrendjének megváltoztatásának lépésein.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 1.  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen. Letöltheti a[Oracle webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -19,7 +19,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következ
 A kezdéshez importálnia kell a szükséges csomagokat az Aspose.Slides könyvtárból. Ezekkel az importálásokkal prezentációkkal, diákkal és alakzatokkal dolgozhat.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Ebben az útmutatóban az alaksorrend megváltoztatásának folyamatát több lépésre bontjuk a jobb megértés és a könnyebb megvalósítás érdekében.
 ## 1. lépés: Töltse be a prezentációt
@@ -29,7 +29,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation1 = new Presentation(dataDir + "HelloWorld.pptx");
 ```
 ## 2. lépés: Nyissa meg a kívánt diát
-prezentáció betöltése után nyissa meg azt a diát, ahol át szeretné rendezni az alakzatokat. A diák indexelése 0-tól kezdődően történik, ezért az első dia eléréséhez használja a 0 indexet.
+A prezentáció betöltése után nyissa meg azt a diát, ahol át szeretné rendezni az alakzatokat. A diák indexelése 0-tól kezdődően történik, ezért az első dia eléréséhez használja a 0 indexet.
 ```java
 ISlide slide = presentation1.getSlides().get_Item(0);
 ```
@@ -70,6 +70,6 @@ Igen, bármilyen Java IDE-vel, például IntelliJ IDEA, Eclipse vagy NetBeans se
 ### Az Aspose.Slides for Java kompatibilis az összes PowerPoint formátummal?
 Igen, az Aspose.Slides for Java támogatja a PPT, PPTX és más PowerPoint formátumokat.
 ### Hogyan szerezhetem be az Aspose.Slides for Java ingyenes próbaverzióját?
- Ingyenes próbaverziót tölthet le a webhelyről[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/).
+ Ingyenes próbaverziót letölthet a webhelyről[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/).
 ### Hol találok további dokumentációt az Aspose.Slides for Java-ról?
- Részletes dokumentációt találhat a[Aspose.Slides for Java dokumentációs oldal](https://reference.aspose.com/slides/java/).
+ A részletes dokumentációt megtalálja a[Aspose.Slides for Java dokumentációs oldal](https://reference.aspose.com/slides/java/).

@@ -8,7 +8,7 @@ weight: 12
 url: /ja/java/customization-and-formatting/
 ---
 
-この記事では、Aspose.Slides for Java を使用して Java スライドのカスタマイズとフォーマットの世界を詳しく見ていきます。熟練した開発者でも、Java プレゼンテーションを始めたばかりでも、このチュートリアル リストは Aspose.Slides の潜在能力を最大限に活用するためのガイドになります。|
+この記事では、Aspose.Slides for Java を使用して Java スライドのカスタマイズとフォーマットの世界を詳しく見ていきます。熟練した開発者でも、Java プレゼンテーションを始めたばかりの開発者でも、このチュートリアル リストは Aspose.Slides の潜在能力を最大限に活用するためのガイドになります。|
 
 ## Aspose.Slides for Java を選ぶ理由
 

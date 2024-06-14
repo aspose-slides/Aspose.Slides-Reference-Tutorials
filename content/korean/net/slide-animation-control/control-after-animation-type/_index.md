@@ -9,7 +9,7 @@ url: /ko/net/slide-animation-control/control-after-animation-type/
 ---
 ## 소개
 역동적인 애니메이션으로 프레젠테이션을 향상시키는 것은 청중의 관심을 끄는 데 있어 중요한 측면입니다. Aspose.Slides for .NET은 슬라이드의 애니메이션 후 효과를 제어하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드의 애니메이션 후 유형을 조작하는 과정을 안내합니다. 이 단계별 가이드를 따르면 더욱 대화형이고 시각적으로 매력적인 프레젠테이션을 만들 수 있습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
 - C# 및 .NET 프로그래밍에 대한 기본 지식.
 -  .NET 라이브러리용 Aspose.Slides가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).

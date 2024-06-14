@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-properties-management/access-built-in-properties-p
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: प्रेजेंटेशन ऑब्जेक्ट सेट करें
 आप जिस PowerPoint प्रेजेंटेशन के साथ काम करना चाहते हैं, उसे दर्शाने के लिए प्रेजेंटेशन ऑब्जेक्ट को सेट अप करके शुरू करें। आप इसे इस तरह से कर सकते हैं:

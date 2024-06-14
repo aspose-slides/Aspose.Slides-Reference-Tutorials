@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-ani
 ---
 ## 소개
 역동적인 프레젠테이션의 세계에서 애니메이션은 청중의 관심을 끌고 정보를 효과적으로 전달하는 데 중요한 역할을 합니다. Aspose.Slides for Java는 개발자가 특정 모양에 맞춰진 복잡한 애니메이션을 사용하여 매력적인 PowerPoint 프레젠테이션을 만들 수 있도록 지원합니다. 이 튜토리얼에서는 Java용 Aspose.Slides를 사용하여 애니메이션용 모양을 타겟팅하는 과정을 안내하여 프레젠테이션이 유동적인 전환과 정확한 애니메이션으로 돋보이도록 합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
 2.  Java용 Aspose.Slides: 다음에서 Java용 Aspose.Slides를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/java/).
@@ -21,7 +21,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-ani
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 프리젠테이션 파일 설정
 소스 프리젠테이션 파일의 경로를 지정하여 시작하십시오.

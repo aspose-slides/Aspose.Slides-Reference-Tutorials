@@ -169,4 +169,4 @@ Ha convertido con éxito diapositivas individuales de una presentación de Power
 
 ### ¿Cómo manejo el formato adicional para formas y texto dentro de las diapositivas?
 
-Puedes extender el`CustomFormattingController` clase para manejar el formato específico de la forma mediante la implementación de la`writeShapeStart` y`writeShapeEnd` métodos y aplicar lógica de formato personalizada dentro de ellos.
+ Puedes extender el`CustomFormattingController` clase para manejar el formato específico de la forma mediante la implementación de la`writeShapeStart` y`writeShapeEnd` métodos y aplicar lógica de formato personalizada dentro de ellos.

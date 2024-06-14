@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Présentation du chemin d'accès à la source
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Chemin et nom du dossier pour enregistrer les données de démarque
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Créer des options de création Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Définissez le paramètre pour afficher tous les éléments (les éléments regroupés seront rendus ensemble).

@@ -17,7 +17,7 @@ url: /ja/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 まず、必要なパッケージを Java プロジェクトにインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
@@ -49,8 +49,8 @@ shape.getThreeDFormat().getExtrusionColor().setColor(Color.BLUE);
 ## ステップ4: プレゼンテーションを保存する
 3D 設定を構成したら、プレゼンテーションを保存します。
 ```java
-String outPptxFile = RunExamples.getOutPath() + "sandbox_3d.pptx";
-String outPngFile = RunExamples.getOutPath() + "sample_3d.png";
+String outPptxFile = "Your Output Directory" + "sandbox_3d.pptx";
+String outPngFile = "Your Output Directory" + "sample_3d.png";
 try {
     ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(2, 2), "PNG", new File(outPngFile));
     pres.save(outPptxFile, SaveFormat.Pptx);
@@ -64,7 +64,7 @@ try {
 ## よくある質問
 ### 3D 形状をさらにカスタマイズできますか?
 はい、Aspose.Slides が提供するさまざまなプロパティとメソッドを調べて、要件に応じて 3D シェイプをカスタマイズできます。
-### Aspose.Slides は PowerPoint のさまざまなバージョンと互換性がありますか?
+### Aspose.Slides はさまざまなバージョンの PowerPoint と互換性がありますか?
 はい、Aspose.Slides はさまざまな PowerPoint 形式をサポートしており、ソフトウェアの異なるバージョン間での互換性が確保されています。
 ### 3D シェイプにアニメーションを追加できますか?
 もちろんです! Aspose.Slides は、3D 図形を含む PowerPoint プレゼンテーションにアニメーションやトランジションを追加するための広範なサポートを提供します。

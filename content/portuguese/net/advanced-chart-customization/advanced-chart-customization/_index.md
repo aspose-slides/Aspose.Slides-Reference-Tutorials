@@ -197,7 +197,7 @@ Este código configura a aparência das principais linhas de grade no eixo da ca
 Semelhante ao eixo de valor, você pode personalizar as linhas de grade secundárias do eixo de categoria.
 
 ```csharp
-//Configurando o formato das linhas de grade secundárias para o eixo de categoria
+// Configurando o formato das linhas de grade secundárias para o eixo de categoria
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Configurando a cor da área de plotagem
+//Configurando a cor da área de plotagem
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

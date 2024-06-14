@@ -16,7 +16,7 @@ url: /hi/net/licensing-and-formatting/add-color-to-data-points/
 
 1. विज़ुअल स्टूडियो: आपके कंप्यूटर पर विज़ुअल स्टूडियो स्थापित होना चाहिए।
 
-2. Aspose.Slides for .NET: Aspose.Slides for .NET को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/net/).
+2.  Aspose.Slides for .NET: Aspose.Slides for .NET को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/slides/net/).
 
 3. C# की बुनियादी समझ: आपको C# प्रोग्रामिंग का बुनियादी ज्ञान होना चाहिए।
 

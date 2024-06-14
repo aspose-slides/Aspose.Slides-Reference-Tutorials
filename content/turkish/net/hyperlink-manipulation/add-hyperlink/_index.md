@@ -22,7 +22,7 @@ Slaytlara köprü ekleme konusuna geçmeden önce aşağıdaki önkoşulların m
 
 ## Ad Alanlarını İçe Aktar
 
-Başlamak için gerekli ad alanlarını C# projenize aktarmanız gerekir. Bu durumda Aspose.Slides kütüphanesinden aşağıdaki ad alanlarına ihtiyacınız olacak:
+Başlamak için gerekli ad alanlarını C# projenize aktarmanız gerekir. Bu durumda Aspose.Slides kütüphanesinden aşağıdaki ad alanlarına ihtiyacınız olacaktır:
 
 ```csharp
 using Aspose.Slides;

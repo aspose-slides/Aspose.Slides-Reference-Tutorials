@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Tome la tercera serie de gráficos
 series = chart.getChartData().getSeries().get_Item(2);
-//Ahora completando datos de series
+// Ahora completando datos de series
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));
@@ -171,7 +171,7 @@ En este completo tutorial, hemos aprendido cómo modificar un gráfico existente
 
 ### ¿Puedo agregar más puntos de datos a una serie?
 
- Sí, puedes agregar más puntos de datos a una serie usando el`series.getDataPoints().addDataPointForBarSeries(cell)` método. Asegúrese de proporcionar los datos de la celda adecuados.
+ Sí, puedes agregar más puntos de datos a una serie usando el`series.getDataPoints().addDataPointForBarSeries(cell)` método. Asegúrese de proporcionar los datos de celda adecuados.
 
 ### ¿Cómo actualizo los nombres de las categorías?
 

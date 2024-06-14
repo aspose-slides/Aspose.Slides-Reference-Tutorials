@@ -50,7 +50,7 @@ tf.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
 Så här gör varje kodrad:
 
 - `get_Item(1)` hämtar den andra förklaringsposten (index 1). Du kan ändra indexet för att rikta in dig på en annan förklaringspost.
-- `setFontBold(NullableBool.True)` ställer in typsnittet till fetstil.
+- `setFontBold(NullableBool.True)` ställer in teckensnittet till fetstil.
 - `setFontHeight(20)` ställer in teckenstorleken till 20 punkter.
 - `setFontItalic(NullableBool.True)` ställer in teckensnittet till kursivt.
 - `setFillType(FillType.Solid)` anger att texten i förklaringsposten ska ha en fast fyllning.
@@ -58,7 +58,7 @@ Så här gör varje kodrad:
 
 ## Steg 3: Spara den ändrade presentationen
 
-Slutligen sparar du den ändrade presentationen i en ny fil för att bevara dina ändringar.
+Slutligen, spara den ändrade presentationen i en ny fil för att bevara dina ändringar.
 
 ```java
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);

@@ -21,7 +21,7 @@ url: /th/java/presentation-properties/presentation-slide-show-setup-in-java-slid
 ขั้นแรก เราต้องสร้างงานนำเสนอ PowerPoint ใหม่ นี่คือวิธีที่คุณสามารถทำได้ใน Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## ซอร์สโค้ดที่สมบูรณ์สำหรับการตั้งค่าการนำเสนอภาพนิ่งการนำเสนอใน Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// รับการตั้งค่าสไลด์โชว์
@@ -119,7 +119,7 @@ try {
 
 ## บทสรุป
 
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีตั้งค่าการนำเสนอสไลด์การนำเสนอใน Java โดยใช้ Aspose.Slides สำหรับ Java คุณสามารถปรับแต่งการตั้งค่าการนำเสนอสไลด์ต่างๆ รวมถึงการกำหนดเวลา สีปากกา และช่วงสไลด์ เพื่อสร้างงานนำเสนอเชิงโต้ตอบและน่าดึงดูด
+ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีตั้งค่าการนำเสนอสไลด์การนำเสนอใน Java โดยใช้ Aspose.Slides สำหรับ Java คุณสามารถปรับแต่งการตั้งค่าการนำเสนอสไลด์ต่างๆ รวมถึงการกำหนดเวลา สีปากกา และช่วงสไลด์ เพื่อสร้างงานนำเสนอแบบโต้ตอบและน่าดึงดูด
 
 ## คำถามที่พบบ่อย
 

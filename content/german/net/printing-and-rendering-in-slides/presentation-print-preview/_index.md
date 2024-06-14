@@ -70,4 +70,4 @@ Auf jeden Fall! Aspose.Slides ist vielseitig und kann nahtlos sowohl in Windows-
 ### Wie kann ich eine vorübergehende Lizenz für Aspose.Slides erhalten?
  Besuchen[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/) um eine temporäre Lizenz für Testzwecke zu erhalten.
 ### Benötigen Sie Unterstützung oder haben Sie weitere Fragen?
- Besuche den[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) um Hilfe zu erhalten und Kontakt mit der Community aufzunehmen.
+ Besuche den[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) um Hilfe zu erhalten und Kontakt zur Community aufzunehmen.

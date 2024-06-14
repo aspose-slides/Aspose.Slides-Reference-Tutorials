@@ -2,7 +2,7 @@
 title: Elementy wykresu slajdów Java
 linktitle: Elementy wykresu slajdów Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak tworzyć dynamiczne wykresy na slajdach Java przy użyciu Aspose.Slides for Java, korzystając z naszych kompleksowych samouczków. Podnieś swoje umiejętności prezentacji już dziś!
+description: Dowiedz się, jak tworzyć dynamiczne wykresy na slajdach Java za pomocą Aspose.Slides for Java, korzystając z naszych kompleksowych samouczków. Podnieś swoje umiejętności prezentacji już dziś!
 type: docs
 weight: 15
 url: /pl/java/chart-elements/
@@ -18,7 +18,7 @@ Aspose.Slides for Java to potężny interfejs API, który umożliwia programisto
 
 Zanim zagłębimy się w szczegóły, zrozummy, dlaczego Java Slides zmieniają zasady gry. Java Slides pozwala na:
 
-- Dynamiczna wizualizacja danych: twórz wykresy reagujące na zmieniające się dane, dzięki czemu Twoje prezentacje będą bardziej pouczające i wciągające.
+- Dynamiczna wizualizacja danych: Twórz wykresy reagujące na zmieniające się dane, dzięki czemu Twoje prezentacje będą bardziej pouczające i wciągające.
 
 - Interaktywność: zaimponuj swoim odbiorcom interaktywnymi wykresami, które można przeglądać podczas prezentacji.
 

@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/chart-recover-workbook-java-slides/
 
 Java로 PowerPoint 프레젠테이션을 작업할 때 차트에서 통합 문서 데이터를 복구해야 하는 시나리오가 발생할 수 있습니다. 이는 특히 데이터 기반 프레젠테이션을 다룰 때 중요한 작업이 될 수 있습니다. Aspose.Slides for Java는 이 프로세스를 단순화하며, 이 가이드에서는 그 방법을 보여드리겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

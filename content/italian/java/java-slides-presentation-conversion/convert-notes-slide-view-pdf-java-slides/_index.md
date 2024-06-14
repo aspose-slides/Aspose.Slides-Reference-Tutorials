@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Puoi personalizzare altre opzioni PDF in base alle tue esigenze.
 
 ## Passaggio 4: salva la presentazione come PDF con note
-Infine, salviamo la presentazione come file PDF, comprese le note. È possibile specificare il nome del file di output (ad esempio,`"Pdf_Notes_out.pdf"`) e scegli il formato (`SaveFormat.Pdf`). Ecco il codice per farlo:
+ Infine, salviamo la presentazione come file PDF, comprese le note. È possibile specificare il nome del file di output (ad esempio,`"Pdf_Notes_out.pdf"`) e scegli il formato (`SaveFormat.Pdf`). Ecco il codice per farlo:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Posso personalizzare ulteriormente l'esportazione in PDF?
 
-Sì, puoi personalizzare l'esportazione in PDF regolando varie opzioni nel file`PdfOptions` oggetto. Ad esempio, puoi impostare la qualità, la compressione e altri parametri in base alle tue esigenze.
+ Sì, puoi personalizzare l'esportazione in PDF regolando varie opzioni nel file`PdfOptions` oggetto. Ad esempio, puoi impostare la qualità, la compressione e altri parametri in base alle tue esigenze.
 
 ### Come posso ottenere Aspose.Slides per Java?
 

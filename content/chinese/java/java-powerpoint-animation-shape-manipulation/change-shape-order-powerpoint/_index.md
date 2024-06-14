@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/change-shape-order-po
 首先，您需要从 Aspose.Slides 库导入必要的包。这些导入将允许您处理演示文稿、幻灯片和形状。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 在本指南中，我们将改变形状顺序的过程分解为几个步骤，以便更好地理解和轻松实施。
 ## 步骤 1：加载演示文稿

@@ -12,7 +12,7 @@ url: /ko/java/additional-utilities/get-file-format-information-in-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 파일 형식 정보를 검색하는 방법을 살펴보겠습니다. 제공된 코드 조각을 사용하여 프리젠테이션 파일의 형식을 쉽게 결정할 수 있습니다. 자세한 내용을 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -96,7 +96,7 @@ switch (info.getLoadFormat())
 
 ### Java 라이브러리용 Aspose.Slides를 어떻게 구하나요?
 
- Aspose 웹사이트에서 Java 라이브러리용 Aspose.Slides를 다운로드할 수 있습니다.[이 링크](https://releases.aspose.com/slides/java/)프로젝트에 적합한 버전을 선택하세요.
+ Aspose 웹사이트에서 Java 라이브러리용 Aspose.Slides를 다운로드할 수 있습니다.[이 링크](https://releases.aspose.com/slides/java/). 프로젝트에 적합한 버전을 선택하세요.
 
 ### 이 코드를 다른 Java 프레젠테이션 라이브러리와 함께 사용할 수 있습니까?
 

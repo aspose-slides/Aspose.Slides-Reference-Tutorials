@@ -19,7 +19,7 @@ Először is importálnia kell a szükséges csomagokat a Java projektbe. Adja h
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be a prezentációs objektumot
 Kezdje a Prezentáció objektum beállításával, amely azt a PowerPoint-prezentációt képviseli, amellyel dolgozni szeretne. A következőképpen teheti meg:

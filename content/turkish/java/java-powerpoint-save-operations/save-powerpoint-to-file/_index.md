@@ -19,13 +19,13 @@ Aspose.Slides işlevini Java kodunuzda kullanmak için öncelikle gerekli paketl
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1. Adım: Veri Dizinini Ayarlayın
 ```java
 // Belgeler dizininin yolu.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Henüz mevcut değilse dizin oluşturun.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 Bu adımda PowerPoint sunumunun kaydedileceği dizinin yolunu tanımlıyoruz. Dizin mevcut değilse oluşturulacaktır.
 ## Adım 2: Sunum Nesnesini Örneklendirin
 ```java
-//Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
+// Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
 Presentation presentation = new Presentation();
 ```
- Burada yeni bir örneğini oluşturuyoruz.`Presentation` PowerPoint sunumunu temsil eden sınıf.
+Burada yeni bir örneğini oluşturuyoruz.`Presentation` PowerPoint sunumunu temsil eden sınıf.
 ## Adım 3: Sunumda İşlemleri Gerçekleştirin (İsteğe Bağlı)
 ```java
 //...burada biraz iş yap...

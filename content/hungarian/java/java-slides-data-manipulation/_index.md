@@ -56,7 +56,7 @@ Ismerje meg, hogyan kérheti le a diagramtartományokat a Java Slides alkalmazá
 Ismerje meg, hogyan állíthat helyre munkafüzeteket a Java Slides diagramjaiból az Aspose.Slides segítségével. Útmutató lépésről lépésre a PowerPoint automatizálásához.
 ### [Szerezze meg a diagram adatcímkéjének tényleges pozícióját a Java Slides-ben](./actual-position-chart-data-label-java-slides/)
 Ismerje meg, hogyan kaphatja meg a diagram adatcímkéinek tényleges pozícióját a Java Slides programban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
-### [Töltse le a diagramot a Java Slides alkalmazásban](./get-chart-image-java-slides/)
+### [Töltse le a diagram képét a Java Slides alkalmazásban](./get-chart-image-java-slides/)
 Ismerje meg, hogyan szerezhet be diagramképeket a Java Slides programban az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató forráskódot és tippeket ad a zökkenőmentes integrációhoz.
 ### [Szerezzen be értékeket és mértékegység-skálát az Axis szolgáltatásból a Java Slides-ben](./get-values-unit-scale-axis-java-slides/)
 Ismerje meg, hogyan szerezhet be értékeket és mértékegység-skálát a Java Slides tengelyeiből az Aspose.Slides for Java segítségével. Növelje adatelemzési képességeit.
@@ -67,7 +67,7 @@ Mesterdiagram elrendezésének ellenőrzése PowerPointban az Aspose.Slides for 
 ### [Invert, ha negatív a Java Slides egyes sorozatainál](./invert-if-negative-individual-series-java-slides/)
 Ismerje meg, hogyan használhatja az Aspose.Slides for Java programban az Invert If Negative funkciót a diagramok megjelenítésének javítására a PowerPoint-prezentációkban.
 ### [Leader Line Color a Java Slides-ben](./leader-line-color-java-slides/)
-Ismerje meg, hogyan módosíthatja a vezetővonal színeit a PowerPoint diagramokban az Aspose.Slides for Java segítségével. Lépésről lépésre, forráskód-példákkal.
+Ismerje meg, hogyan módosíthatja a vezetővonal színeit a PowerPoint diagramokban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskód-példákkal.
 ### [Tulajdonságdiagramok kezelése a Java Slides alkalmazásban](./manage-properties-charts-java-slides/)
 Tanuljon meg lenyűgöző diagramokat készíteni és tulajdonságait kezelni a Java diákon az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal a hatékony prezentációkhoz.
 ### [Állítsa be az automatikus sorozatkitöltés színét a Java diákban](./set-automatic-series-fill-color-java-slides/)

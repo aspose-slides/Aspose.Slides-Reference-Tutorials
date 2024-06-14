@@ -149,4 +149,4 @@ Bạn có thể lặp qua các điểm dữ liệu và đặt giá trị thanh l
 
 ### Có thể ẩn các thanh lỗi cho các điểm dữ liệu cụ thể không?
 
-Có, bạn có thể kiểm soát khả năng hiển thị của các thanh lỗi cho từng điểm dữ liệu bằng cách đặt`setVisible` tài sản của`IErrorBarsFormat` sự vật.
+ Có, bạn có thể kiểm soát khả năng hiển thị của các thanh lỗi cho từng điểm dữ liệu bằng cách đặt`setVisible` tài sản của`IErrorBarsFormat` sự vật.

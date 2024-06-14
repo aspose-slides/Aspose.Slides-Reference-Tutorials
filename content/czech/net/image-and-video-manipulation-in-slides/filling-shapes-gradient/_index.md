@@ -48,7 +48,7 @@ shp.FillFormat.GradientFormat.GradientShape = GradientShape.Linear;
 shp.FillFormat.GradientFormat.GradientDirection = GradientDirection.FromCorner2;
 ```
 ## Krok 4: Přidejte zarážky přechodu
-Definujte barvy a umístění zarážek přechodu:
+Definujte barvy a polohy zarážek přechodu:
 ```csharp
 shp.FillFormat.GradientFormat.GradientStops.Add((float)1.0, PresetColor.Purple);
 shp.FillFormat.GradientFormat.GradientStops.Add((float)0, PresetColor.Red);
@@ -70,6 +70,6 @@ A: Určitě! Aspose.Slides for .NET podporuje vyplnění přechodem pro různé 
 ### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro .NET?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Otázka: Jak mohu získat podporu pro Aspose.Slides pro .NET?
-Odpověď: Vyhledejte pomoc a zapojte se do komunity na webu[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ Odpověď: Vyhledejte pomoc a zapojte se do komunity na webu[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Otázka: Mohu si zakoupit dočasnou licenci pro Aspose.Slides pro .NET?
  Odpověď: Jistě, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).

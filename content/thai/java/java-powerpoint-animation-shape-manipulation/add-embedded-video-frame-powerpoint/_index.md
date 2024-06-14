@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-fr
 ขั้นแรก คุณจะต้องนำเข้าแพ็คเกจที่จำเป็นเพื่อทำงานกับ Aspose.Slides การนำเข้าเหล่านี้จะช่วยคุณจัดการสไลด์ วิดีโอ และไฟล์งานนำเสนอ
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

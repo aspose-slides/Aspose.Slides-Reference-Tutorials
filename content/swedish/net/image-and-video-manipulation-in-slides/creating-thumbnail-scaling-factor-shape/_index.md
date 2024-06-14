@@ -14,7 +14,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 -  Aspose.Slides för .NET: Se till att du har Aspose.Slides-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/slides/net/).
 - Utvecklingsmiljö: Ha en lämplig utvecklingsmiljö för .NET, som Visual Studio, inställd på din dator.
 ## Importera namnområden
-I din .NET-applikation börjar du med att importera de nödvändiga namnområdena för att komma åt Aspose.Slides-funktionerna:
+din .NET-applikation börjar du med att importera de nödvändiga namnområdena för att komma åt Aspose.Slides-funktionerna:
 ```csharp
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -34,7 +34,7 @@ Inom presentationsblocket skapar du en fullskalig bild av formen som du vill gen
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //Din kod för att spara bilden kommer här
+    // Din kod för att spara bilden kommer här
 }
 ```
 ## Steg 3: Spara bilden på disk
@@ -52,6 +52,6 @@ Ja, Aspose.Slides är kompatibel med olika .NET-ramverk, vilket ger flexibilitet
 ### F3: Hur kan jag få en tillfällig licens för Aspose.Slides?
  Du kan skaffa en tillfällig licens för Aspose.Slides genom att besöka[den här länken](https://purchase.aspose.com/temporary-license/).
 ### F4: Var kan jag hitta ytterligare stöd för Aspose.Slides?
-För eventuella frågor eller hjälp, besök gärna Aspose.Slides supportforum[här](https://forum.aspose.com/c/slides/11).
+ För eventuella frågor eller hjälp, besök gärna Aspose.Slides supportforum[här](https://forum.aspose.com/c/slides/11).
 ### F5: Kan jag köpa Aspose.Slides för .NET?
  Säkert! För att köpa Aspose.Slides för .NET, besök köpsidan[här](https://purchase.aspose.com/buy).

@@ -104,7 +104,7 @@ IEffect[] masterShapeEffects = slide.LayoutSlide.MasterSlide.Timeline.MainSequen
 Console.WriteLine("Master shape effects count = {0}", masterShapeEffects.Length);
 ```
 
-Wykonując poniższe kroki, możesz efektywnie pracować z symbolami zastępczymi i efektami w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET.
+Wykonując poniższe kroki, możesz efektywnie pracować z symbolami zastępczymi i efektami w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla .NET.
 
 ## Wniosek
 

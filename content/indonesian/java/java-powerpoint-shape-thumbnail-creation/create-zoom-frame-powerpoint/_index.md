@@ -19,7 +19,7 @@ Sebelum mendalami tutorial, pastikan Anda memiliki hal berikut:
 Untuk memulainya, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda. Impor ini akan memberikan akses ke fungsionalitas Aspose.Slides yang diperlukan untuk tutorial ini.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Kami ingin membuat slide kami berbeda secara visual dengan menambahkan warna latar belakang.
 ### Mengatur Latar Belakang untuk Slide Kedua
 ```java
-    //Buat latar belakang untuk slide kedua
+    // Buat latar belakang untuk slide kedua
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

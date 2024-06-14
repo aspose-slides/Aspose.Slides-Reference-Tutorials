@@ -96,13 +96,13 @@ Dalam tutorial ini, kita telah mempelajari cara mendapatkan informasi format fil
 
 ### Bagaimana cara mendapatkan perpustakaan Aspose.Slides untuk Java?
 
- Anda dapat mengunduh perpustakaan Aspose.Slides untuk Java dari situs web Aspose di[Link ini](https://releases.aspose.com/slides/java/)Pilih versi yang sesuai untuk proyek Anda.
+ Anda dapat mengunduh perpustakaan Aspose.Slides untuk Java dari situs web Aspose di[Link ini](https://releases.aspose.com/slides/java/). Pilih versi yang sesuai untuk proyek Anda.
 
 ### Bisakah saya menggunakan kode ini dengan perpustakaan presentasi Java lainnya?
 
 Kode ini khusus untuk Aspose.Slides untuk Java. Meskipun perpustakaan lain mungkin memiliki fungsi serupa, penerapannya mungkin berbeda. Disarankan untuk membaca dokumentasi perpustakaan tertentu yang Anda gunakan.
 
-### Bagaimana jika saya menemukan format "Tidak Dikenal"?
+### Bagaimana jika saya menemukan format "Tidak Diketahui"?
 
 Jika kode mengembalikan "Format presentasi tidak diketahui", berarti format file presentasi tidak dikenali atau didukung oleh Aspose.Slides untuk Java. Pastikan Anda menggunakan format yang kompatibel.
 

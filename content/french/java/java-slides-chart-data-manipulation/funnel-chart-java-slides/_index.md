@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Ajoutez un graphique en entonnoir à la première diapositive aux coordonnées (50, 50) et aux dimensions (500, 400).
+    //Ajoutez un graphique en entonnoir à la première diapositive aux coordonnées (50, 50) et aux dimensions (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Vous pouvez ajuster la position et la taille du graphique en entonnoir en modifi
 
 ### Puis-je exporter le graphique vers différents formats, tels que PDF ou image ?
 
- Oui, Aspose.Slides pour Java vous permet d'exporter la présentation avec le Funnel Chart vers différents formats, notamment PDF, formats d'image, etc. Vous pouvez utiliser le`SaveFormat` options pour spécifier le format de sortie souhaité lors de l’enregistrement de la présentation.
+Oui, Aspose.Slides pour Java vous permet d'exporter la présentation avec le Funnel Chart vers différents formats, notamment PDF, formats d'image, etc. Vous pouvez utiliser le`SaveFormat` options pour spécifier le format de sortie souhaité lors de l’enregistrement de la présentation.

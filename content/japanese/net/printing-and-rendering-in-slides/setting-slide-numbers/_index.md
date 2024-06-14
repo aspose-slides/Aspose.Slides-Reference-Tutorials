@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx")
 }
 ```
 ## ステップ3: スライド番号を取得して設定する
-現在のスライド番号を取得するには、`FirstSlideNumber`プロパティを選択し、希望する値に設定します。例では、10 に設定しています。
+現在のスライド番号を取得するには、`FirstSlideNumber`プロパティを選択し、希望する値に設定します。この例では、10 に設定しています。
 ```csharp
 int firstSlideNumber = presentation.FirstSlideNumber;
 presentation.FirstSlideNumber = 10;

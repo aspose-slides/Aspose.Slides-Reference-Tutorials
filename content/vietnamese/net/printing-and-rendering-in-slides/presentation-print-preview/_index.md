@@ -2,7 +2,7 @@
 title: Xem trước bản in của bản trình bày trong Aspose.Slides
 linktitle: Xem trước bản in của bản trình bày trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
-description: Tìm hiểu cách xem trước bản in của bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước này cùng với mã nguồn để tạo và tùy chỉnh bản xem trước bản in.
+description: Tìm hiểu cách xem trước bản in của bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này cùng với mã nguồn để tạo và tùy chỉnh bản xem trước bản in.
 type: docs
 weight: 11
 url: /vi/net/printing-and-rendering-in-slides/presentation-print-preview/

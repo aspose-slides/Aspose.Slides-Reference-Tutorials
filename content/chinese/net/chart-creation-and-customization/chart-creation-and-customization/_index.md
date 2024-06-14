@@ -39,7 +39,7 @@ using (Presentation p = new Presentation(FileName))
     if (layoutSlide == null)
     {
         //演示文稿不包含某些类型的布局的情况。
-        //...
+        // ...
 
         //添加空白幻灯片并添加布局幻灯片
         p.Slides.InsertEmptySlide(0, layoutSlide);
@@ -62,11 +62,11 @@ using (Presentation presentation = new Presentation(presentationName))
     ISlide slide = presentation.Slides[0];
     IShape shape = slide.Shapes[0];
 
-    //...
+    // ...
 
     IShape masterShape = layoutShape.GetBasePlaceholder();
 
-    //...
+    // ...
 }
 ```
 
@@ -80,7 +80,7 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 {
     IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
 
-    //...
+    // ...
 
     presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 }

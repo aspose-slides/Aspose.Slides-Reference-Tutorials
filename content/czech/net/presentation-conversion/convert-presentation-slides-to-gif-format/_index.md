@@ -78,7 +78,7 @@ catch (Exception ex)
 
 ## Dát to všechno dohromady
 
-Pojďme dát všechny úryvky kódu dohromady a vytvořit kompletní příklad převodu snímků prezentace do formátu GIF pomocí Aspose.Slides for .NET:
+Pojďme dát všechny úryvky kódu dohromady a vytvořit kompletní příklad převodu snímků prezentace do formátu GIF pomocí Aspose.Slides pro .NET:
 
 ```csharp
 using Aspose.Slides;
@@ -110,7 +110,7 @@ class Program
 
 ## Závěr
 
-tomto článku jsme prozkoumali, jak převést prezentační snímky do formátu GIF pomocí Aspose.Slides for .NET. Zabývali jsme se instalací knihovny, načtením prezentace, přizpůsobením možností GIF a zpracováním výjimek. Pokud budete postupovat podle podrobného průvodce a pomocí poskytnutých úryvků kódu, můžete tuto funkci snadno integrovat do svých aplikací a zvýšit vizuální přitažlivost svých prezentací.
+tomto článku jsme prozkoumali, jak převést prezentační snímky do formátu GIF pomocí Aspose.Slides for .NET. Zabývali jsme se instalací knihovny, načtením prezentace, přizpůsobením možností GIF a zpracováním výjimek. Pokud budete postupovat podle podrobného průvodce a pomocí poskytnutých úryvků kódu, můžete tuto funkci snadno integrovat do svých aplikací a zvýšit vizuální přitažlivost vašich prezentací.
 
 ## FAQ
 

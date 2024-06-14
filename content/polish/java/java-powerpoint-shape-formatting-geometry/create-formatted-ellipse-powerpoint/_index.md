@@ -19,7 +19,7 @@ Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 Aby rozpocząć korzystanie z Aspose.Slides, musisz zaimportować niezbędne pakiety. Oto jak możesz to zrobić:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -55,7 +55,7 @@ IShape shp = sld.getShapes().addAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);
 ```
  Tutaj,`50, 150, 150, 50` są współrzędnymi i rozmiarem elipsy (pozycja x, pozycja y, szerokość, wysokość).
 ## Krok 5: Zastosuj formatowanie do elipsy
-Teraz zastosuj formatowanie do elipsy. Ustawimy jednolity kolor wypełnienia i kolor linii.
+Teraz zastosuj formatowanie elipsy. Ustawimy jednolity kolor wypełnienia i kolor linii.
 ### Ustaw kolor wypełnienia
 ```java
 // Zastosuj formatowanie do kształtu elipsy
@@ -90,8 +90,8 @@ Aspose.Slides dla Java to potężna biblioteka, która umożliwia programistom p
 ### Czy mogę używać Aspose.Slides dla Java z dowolnym IDE?
 Tak, możesz używać Aspose.Slides for Java z dowolnym IDE Java, takim jak IntelliJ IDEA, Eclipse lub NetBeans.
 ### Czy potrzebuję licencji na Aspose.Slides?
- Tak, Aspose.Slides jest produktem komercyjnym i do pełnej funkcjonalności potrzebujesz licencji. Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, Aspose.Slides jest produktem komercyjnym i do pełnej funkcjonalności potrzebujesz licencji. Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Slides dla Java?
-Możesz znaleźć szczegółową dokumentację dotyczącą Aspose.Slides dla Java[strona z dokumentacją](https://reference.aspose.com/slides/java/).
+ Możesz znaleźć szczegółową dokumentację dotyczącą Aspose.Slides dla Java[strona z dokumentacją](https://reference.aspose.com/slides/java/).
 ### Czy dostępna jest obsługa Aspose.Slides?
  Tak, Aspose oferuje wsparcie za pośrednictwem swoich[forum](https://forum.aspose.com/c/slides/11).

@@ -10,7 +10,7 @@ url: /ko/net/slide-background-manipulation/slide-background-modification/
 
 시각적으로 매력적인 프레젠테이션을 만들려면 배경이 중요한 역할을 합니다. .NET용 Aspose.Slides를 사용하면 슬라이드 배경을 쉽게 사용자 정의할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드 배경을 수정하는 방법을 살펴보겠습니다. 
 
-## 전제조건
+## 전제 조건
 
 단계별 가이드를 시작하기 전에 다음 전제 조건이 충족되었는지 확인해야 합니다.
 
@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //슬라이드 배경 수정을 위한 코드가 여기에 표시됩니다.
     // 이에 대해서는 다음 단계에서 살펴보겠습니다.
     
-    // 수정된 프레젠테이션 저장
+    //수정된 프레젠테이션 저장
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ## 6단계: 수정된 프리젠테이션 저장
 
 ```csharp
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

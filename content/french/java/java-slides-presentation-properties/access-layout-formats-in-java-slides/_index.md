@@ -124,7 +124,7 @@ fillFormat.getSolidFillColor().setColor(Color.RED); // Définir la couleur de re
 
 ```java
 ILineFormat lineFormat = shape.getLineFormat();
-lineFormat.setStyle(LineStyle.Single); // Définir le style de ligne sur unique
+lineFormat.setStyle(LineStyle.Single); // Définir le style de ligne sur simple
 lineFormat.setWidth(2.0); // Définir la largeur de ligne sur 2,0 points
 lineFormat.getSolidFillColor().setColor(Color.BLUE); // Définir la couleur de la ligne sur bleu
 ```

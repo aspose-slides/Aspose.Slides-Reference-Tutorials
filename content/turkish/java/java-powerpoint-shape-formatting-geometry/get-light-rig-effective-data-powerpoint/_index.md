@@ -20,7 +20,7 @@ Koda dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Adım 1: Proje Dizinini Ayarlayın
 Proje dizininizi kurarak başlayın. Java dosyalarınızı ve PowerPoint sunumunuzu saklayacağınız bir klasör oluşturun (`Presentation1.pptx`).

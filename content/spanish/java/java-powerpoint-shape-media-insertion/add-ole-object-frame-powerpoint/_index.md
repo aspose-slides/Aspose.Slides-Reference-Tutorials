@@ -12,13 +12,13 @@ Agregar un marco de objetos OLE (vinculación e incrustación de objetos) en pre
 ### Requisitos previos
 Antes de comenzar, asegúrese de contar con los siguientes requisitos previos:
 1. Entorno de desarrollo de Java: asegúrese de tener el kit de desarrollo de Java (JDK) instalado en su sistema.
-2. Aspose.Slides para Java: descargue e instale Aspose.Slides para Java desde el sitio web[aquí](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides para Java: descargue e instale Aspose.Slides para Java desde el sitio web[aquí](https://releases.aspose.com/slides/java/).
 3. Comprensión básica de la programación Java: familiarícese con los conceptos y la sintaxis de la programación Java.
 ## Importar paquetes
 En primer lugar, debe importar los paquetes necesarios para aprovechar las funcionalidades de Aspose.Slides para Java. Así es como puedes hacerlo:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Asegúrese de que su proyecto esté configurado correctamente y que la bibliotec
 Cree un objeto de presentación para representar el archivo de PowerPoint con el que está trabajando:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Crear una instancia de la clase de presentación que representa el PPTX
 Presentation pres = new Presentation();
 ```

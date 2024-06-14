@@ -22,7 +22,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 ## Steg 1: Konfigurera ditt Java-projekt
 
 1. Skapa ett nytt Java-projekt i din föredragna IDE.
-2.  Lägg till Aspose.Slides för Java-biblioteket till ditt projekt. Du kan ladda ner biblioteket från[Aspose hemsida](https://products.aspose.com/slides/java)och inkludera det som ett beroende.
+2.  Lägg till Aspose.Slides för Java-biblioteket till ditt projekt. Du kan ladda ner biblioteket från[Aspose hemsida](https://products.aspose.com/slides/java) och inkludera det som ett beroende.
 
 ## Steg 2: Importera de obligatoriska biblioteken
 I din Java-klass, importera de nödvändiga biblioteken för att arbeta med Aspose.Slides:
@@ -84,7 +84,7 @@ finally
 
 ## Slutsats
 
-I den här handledningen lärde du dig hur du skapar ett organisationsschema i Java Slides med hjälp av Aspose.Slides for Java API. Du kan anpassa organisationsschemats utseende och innehåll efter dina specifika krav. Aspose.Slides tillhandahåller ett brett utbud av funktioner för att arbeta med PowerPoint-presentationer, vilket gör det till ett kraftfullt verktyg för att hantera och skapa visuellt innehåll.
+den här handledningen lärde du dig hur du skapar ett organisationsschema i Java Slides med hjälp av Aspose.Slides for Java API. Du kan anpassa organisationsschemats utseende och innehåll efter dina specifika krav. Aspose.Slides tillhandahåller ett brett utbud av funktioner för att arbeta med PowerPoint-presentationer, vilket gör det till ett kraftfullt verktyg för att hantera och skapa visuellt innehåll.
 
 ## FAQ's
 

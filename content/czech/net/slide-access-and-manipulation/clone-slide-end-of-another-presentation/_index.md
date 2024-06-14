@@ -80,7 +80,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 ## Závěr
 
-V tomto kurzu jste se naučili, jak replikovat snímek z jedné prezentace a přidat jej na konec jiné prezentace pomocí Aspose.Slides for .NET. Tato výkonná knihovna programově zjednodušuje proces práce s prezentacemi PowerPoint.
+V tomto tutoriálu jste se naučili replikovat snímek z jedné prezentace a přidat jej na konec jiné prezentace pomocí Aspose.Slides for .NET. Tato výkonná knihovna programově zjednodušuje proces práce s prezentacemi PowerPoint.
 
 ## FAQ
 

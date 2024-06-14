@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java 라이브러리를 사용하여 노트 슬라이드 보기가 포함된 PowerPoint 프레젠테이션을 PDF로 변환하는 과정을 안내합니다. 이 라이브러리는 Java에서 PowerPoint 프레젠테이션 작업을 위한 강력한 기능을 제공합니다.
 
-## 전제조건
+## 전제 조건
 1. JDK(Java 개발 키트)가 설치되었습니다.
 2. 프로젝트에 Java 라이브러리용 Aspose.Slides가 추가되었습니다.
 
@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 요구 사항에 따라 다른 PDF 옵션을 사용자 정의할 수 있습니다.
 
 ## 4단계: 프리젠테이션을 메모와 함께 PDF로 저장
-마지막으로 프레젠테이션을 메모를 포함하여 PDF 파일로 저장해 보겠습니다. 출력 파일 이름을 지정할 수 있습니다(예:`"Pdf_Notes_out.pdf"`)을 선택하고 형식(`SaveFormat.Pdf`). 이를 수행하는 코드는 다음과 같습니다.
+ 마지막으로 프레젠테이션을 메모를 포함하여 PDF 파일로 저장해 보겠습니다. 출력 파일 이름을 지정할 수 있습니다(예:`"Pdf_Notes_out.pdf"`)을 선택하고 형식(`SaveFormat.Pdf`). 이를 수행하는 코드는 다음과 같습니다.
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### PDF 내보내기를 추가로 사용자 정의할 수 있나요?
 
-예, 다음의 다양한 옵션을 조정하여 PDF 내보내기를 사용자 정의할 수 있습니다.`PdfOptions` 물체. 예를 들어 필요에 따라 품질, 압축 및 기타 매개변수를 설정할 수 있습니다.
+ 예, 다음의 다양한 옵션을 조정하여 PDF 내보내기를 사용자 정의할 수 있습니다.`PdfOptions` 물체. 예를 들어 필요에 따라 품질, 압축 및 기타 매개변수를 설정할 수 있습니다.
 
 ### Java용 Aspose.Slides를 어떻게 구할 수 있나요?
 

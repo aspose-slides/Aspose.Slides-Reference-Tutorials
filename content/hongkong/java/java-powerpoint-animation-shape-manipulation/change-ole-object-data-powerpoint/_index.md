@@ -2,13 +2,13 @@
 title: 在 PowerPoint 中更改 OLE 物件數據
 linktitle: 在 PowerPoint 中更改 OLE 物件數據
 second_title: Aspose.Slides Java PowerPoint 處理 API
-description: 了解如何使用 Aspose.Slides for Java 變更 PowerPoint 中的 OLE 物件資料。高效率、輕鬆更新的逐步指南。
+description: 了解如何使用 Aspose.Slides for Java 變更 PowerPoint 中的 OLE 物件資料。高效、輕鬆更新的逐步指南。
 type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
 ## 介紹
-當您需要更新嵌入內容而不手動編輯每張投影片時，變更 PowerPoint 簡報中的 OLE 物件資料可能是一項至關重要的任務。本綜合指南將引導您完成使用 Aspose.Slides for Java 的過程，Aspose.Slides for Java 是一個功能強大的函式庫，專為處理 PowerPoint 簡報而設計。無論您是經驗豐富的開發人員還是剛起步，您都會發現本教學很有幫助且易於遵循。
+當您需要更新嵌入內容而不手動編輯每張投影片時，變更 PowerPoint 簡報中的 OLE 物件資料可能是一項至關重要的任務。這份綜合指南將引導您完成使用 Aspose.Slides for Java 的過程，Aspose.Slides for Java 是一個功能強大的函式庫，專為處理 PowerPoint 簡報而設計。無論您是經驗豐富的開發人員還是剛起步，您都會發現本教學很有幫助且易於遵循。
 ## 先決條件
 在我們深入研究程式碼之前，讓我們確保您擁有開始使用所需的一切。
 1.  Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。您可以從以下位置下載：[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -22,7 +22,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/change-ole-objec
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

@@ -60,7 +60,7 @@ using (Presentation pres = new Presentation())
 ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
 IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 
-// Προσθήκη απάντησης για σχόλιο1
+// Προσθήκη απάντησης για σχόλιο 1
 ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
 IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 reply1.ParentComment = comment1;
@@ -73,7 +73,7 @@ reply1.ParentComment = comment1;
 Για να δημιουργήσετε μια ιεραρχική δομή σχολίων, μπορείτε να προσθέσετε περισσότερες απαντήσεις σε υπάρχοντα σχόλια. Εδώ, προσθέτουμε μια δεύτερη απάντηση στο "σχόλιο1".
 
 ```csharp
-// Προσθήκη απάντησης για σχόλιο1
+// Προσθήκη απάντησης για σχόλιο 1
 IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 reply2.ParentComment = comment1;
 ```

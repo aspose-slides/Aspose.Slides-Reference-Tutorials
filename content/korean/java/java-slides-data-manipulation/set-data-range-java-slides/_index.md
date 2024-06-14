@@ -2,7 +2,7 @@
 title: Java 슬라이드에서 데이터 범위 설정
 linktitle: Java 슬라이드에서 데이터 범위 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
-description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 데이터 범위를 쉽게 설정하는 방법을 알아보세요. 이 단계별 가이드를 통해 역동적인 데이터 기반 프레젠테이션을 만들어보세요.
+description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 데이터 범위를 쉽게 설정하는 방법을 알아보세요. 이 단계별 가이드를 통해 역동적인 데이터 기반 프레젠테이션을 만들어 보세요.
 type: docs
 weight: 18
 url: /ko/java/data-manipulation/set-data-range-java-slides/
@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-data-range-java-slides/
 
 프레젠테이션에는 데이터를 효과적으로 전달하기 위해 차트와 그래프가 포함되는 경우가 많습니다. Aspose.Slides for Java는 PowerPoint 프레젠테이션의 차트 작업 프로세스를 단순화합니다. 이 튜토리얼에서는 프레젠테이션 내 차트의 데이터 범위를 설정하는 중요한 작업에 중점을 둘 것입니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

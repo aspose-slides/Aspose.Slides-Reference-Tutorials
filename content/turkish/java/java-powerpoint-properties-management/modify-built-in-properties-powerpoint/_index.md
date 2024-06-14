@@ -20,7 +20,7 @@ Java projenizde gerekli Aspose.Slides sınıflarını içe aktarın:
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Ortamı Ayarlayın
 PowerPoint dosyanızı içeren dizinin yolunu tanımlayın:

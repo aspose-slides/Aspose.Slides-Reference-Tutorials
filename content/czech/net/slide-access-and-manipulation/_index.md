@@ -32,7 +32,7 @@ Naučte se replikovat snímek z jedné prezentace PowerPoint a přidat jej do ji
 Naučte se kopírovat snímky na přesná místa v různých prezentacích pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje zdrojový kód a pokyny pro bezproblémovou manipulaci s PowerPointem.
 ### [Duplikovat snímek do určené sekce v rámci prezentace](./clone-slide-into-specified-section/)
 Naučte se, jak duplikovat snímky a umístit je do určených sekcí v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady zdrojového kódu a pokrývá manipulaci se snímky, vytváření oddílů a další.
-### [Zkopírujte snímek do nové prezentace s hlavním snímkem](./clone-slide-to-another-presentation-with-master/)
+### [Kopírovat snímek do nové prezentace s hlavním snímkem](./clone-slide-to-another-presentation-with-master/)
 Naučte se, jak zkopírovat snímek do nové PowerPointové prezentace při zachování hlavního snímku pomocí Aspose.Slides for .NET. Tento komplexní průvodce krok za krokem obsahuje příklady zdrojového kódu a pokrývá načítání prezentací, kopírování snímků, uchovávání animací a další.
 ### [Klonovat snímek v rámci stejné prezentace](./clone-slide-within-same-presentation/)
 Naučte se klonovat snímky v rámci stejné prezentace PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle tohoto podrobného průvodce s úplnými příklady zdrojového kódu, abyste mohli efektivně manipulovat s prezentacemi.

@@ -2,7 +2,7 @@
 title: Få Shape Bevel-effektiva data i PowerPoint
 linktitle: Få Shape Bevel-effektiva data i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du hämtar effektiva data med formfasning i PowerPoint med Aspose.Slides för Java. Förbättra dina presentationer med fantastiska visuella effekter.
+description: Lär dig hur du hämtar effektiv data avfasad form i PowerPoint med Aspose.Slides för Java. Förbättra dina presentationer med fantastiska visuella effekter.
 type: docs
 weight: 26
 url: /sv/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
@@ -19,7 +19,7 @@ Börja med att importera de nödvändiga paketen i ditt Java-projekt:
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Konfigurera dokumentkatalog
 Definiera sökvägen till din dokumentkatalog där PowerPoint-presentationen finns:

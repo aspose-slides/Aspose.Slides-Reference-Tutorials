@@ -19,7 +19,7 @@ Antes de profundizar en el código, asegúrese de cumplir los siguientes requisi
 Primero, deberá importar los paquetes necesarios para trabajar con Aspose.Slides. Estas importaciones lo ayudarán a administrar diapositivas, videos y archivos de presentación.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

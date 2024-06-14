@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Java Slaytlarında PDF Uyumluluğuna Dönüştürmek İçin Tam Kaynak Kodu
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ Elektronik belgeleri uzun vadede arşivlemeniz gerektiğinde PDF/A-2a uyumluluğ
 
 ## PDF uyumluluk düzeyini PDF/A-2a dışında bir değerle değiştirebilir miyim?
 
- Evet, Aspose.Slides for Java, PDF uyumluluk düzeyinin seçiminde esneklik sağlar. Sağlanan kodda, uyumluluk düzeyini değiştirerek değiştirebilirsiniz.`pdfOptions.setCompliance()` astar. Özel gereksinimlerinize bağlı olarak PDF/A-1a, PDF/A-1b, PDF/A-3a vb. gibi diğer uyumluluk düzeylerini seçebilirsiniz.
+ Evet, Aspose.Slides for Java, PDF uyumluluk düzeyinin seçiminde esneklik sağlar. Sağlanan kodda, uyumluluk düzeyini değiştirerek değiştirebilirsiniz.`pdfOptions.setCompliance()`astar. Özel gereksinimlerinize bağlı olarak PDF/A-1a, PDF/A-1b, PDF/A-3a vb. gibi diğer uyumluluk düzeylerini seçebilirsiniz.
 
 ## PDF/A-2a ile diğer uyumluluk düzeyleri arasındaki farklar nelerdir?
 
@@ -113,4 +113,4 @@ Evet, Aspose.Slides for Java'nın PDF uyumluluğunu ayarlamak da dahil olmak üz
 
 ## Aspose.Slides for Java ve PDF uyumluluğu hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Aspose.Slides for Java ve özellikleri (PDF uyumluluk ayarları da dahil) hakkında daha ayrıntılı bilgi için şu adresteki belgelere başvurabilirsiniz:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/)Ek olarak, kitaplık hakkındaki bilginizi daha da geliştirmek için kod örneklerini ve eğitimleri keşfedebilirsiniz.
+ Aspose.Slides for Java ve özellikleri (PDF uyumluluk ayarları da dahil) hakkında daha ayrıntılı bilgi için şu adresteki belgelere başvurabilirsiniz:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/). Ek olarak, kitaplık hakkındaki bilginizi daha da geliştirmek için kod örneklerini ve eğitimleri keşfedebilirsiniz.

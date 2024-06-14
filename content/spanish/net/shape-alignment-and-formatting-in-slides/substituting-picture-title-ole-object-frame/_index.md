@@ -69,7 +69,7 @@ Lea el archivo de imagen y agréguelo a la presentación como un objeto de image
 ```csharp
 oof.SubstitutePictureTitle = "Caption example";
 ```
-Establezca el título deseado para el ícono OLE.
+Establezca el título deseado para el icono OLE.
 ## Conclusión
 Incorporar objetos OLE en las diapositivas de su presentación usando Aspose.Slides para .NET es un proceso sencillo. Este tutorial lo ha guiado a través de los pasos esenciales, desde configurar el directorio de documentos hasta agregar y personalizar objetos OLE. Experimente con diferentes tipos de archivos y títulos para mejorar el atractivo visual de sus presentaciones.
 ## Preguntas frecuentes
@@ -78,7 +78,7 @@ Sí, Aspose.Slides admite la incrustación de varios tipos de archivos, como hoj
 ### ¿Se puede personalizar el icono del objeto OLE?
 Absolutamente. Puede reemplazar el ícono predeterminado con cualquier imagen de su elección para que se adapte mejor al tema de su presentación.
 ### ¿Aspose.Slides proporciona soporte para animaciones con objetos OLE?
-A partir de la última versión, Aspose.Slides se centra en la incrustación y visualización de objetos OLE y no maneja directamente animaciones dentro de los objetos OLE.
+partir de la última versión, Aspose.Slides se centra en la incrustación y visualización de objetos OLE y no maneja directamente animaciones dentro de los objetos OLE.
 ### ¿Puedo manipular objetos OLE mediante programación después de agregarlos a una diapositiva?
 Ciertamente. Tiene control programático total sobre los objetos OLE, lo que le permite modificar sus propiedades y apariencia según sea necesario.
 ### ¿Existe alguna limitación en cuanto al tamaño de los objetos OLE incrustados?

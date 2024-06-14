@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Adım 2: Sunum Nesnesi Oluşturun
- Örnekleyin`Presentation`PPTX dosyasını temsil edecek sınıf. Bu PowerPoint sunumunuzun temelini oluşturacaktır.
+ Örnekleyin`Presentation` PPTX dosyasını temsil edecek sınıf. Bu PowerPoint sunumunuzun temelini oluşturacaktır.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Sununuzdaki ilk slayda erişin; çünkü bu, dikdörtgen şeklini eklediğiniz v
 ISlide sld = pres.Slides[0];
 ```
 ## Adım 4: Dikdörtgen Şekli Ekleme
- Kullan`Shapes` Dikdörtgen tipinde otomatik bir şekil eklemek için slaytın özelliği. Dikdörtgenin konumunu ve boyutlarını belirtin.
+ Kullan`Shapes`Dikdörtgen tipinde otomatik bir şekil eklemek için slaytın özelliği. Dikdörtgenin konumunu ve boyutlarını belirtin.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

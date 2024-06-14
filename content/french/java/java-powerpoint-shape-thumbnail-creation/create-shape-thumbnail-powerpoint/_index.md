@@ -19,7 +19,7 @@ Avant de commencer, assurez-vous d'avoir les prérequis suivants :
 Tout d'abord, vous devez importer les packages nécessaires dans votre code Java pour utiliser les fonctionnalités d'Aspose.Slides. Incluez les instructions d'importation suivantes au début de votre fichier Java :
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ Oui, vous pouvez modifier le code pour cibler les formes sur n'importe quelle di
 ### Aspose.Slides prend-il en charge d'autres formats d'image pour enregistrer les vignettes ?
 Oui, outre PNG, Aspose.Slides prend en charge l'enregistrement des vignettes dans divers formats d'image tels que JPEG, GIF et BMP.
 ### Aspose.Slides est-il adapté à un usage commercial ?
-Oui, Aspose.Slides propose des licences commerciales pour les entreprises et les organisations. Vous pouvez acheter une licence auprès de[ici](https://purchase.aspose.com/buy).
+ Oui, Aspose.Slides propose des licences commerciales pour les entreprises et les organisations. Vous pouvez acheter une licence auprès de[ici](https://purchase.aspose.com/buy).
 ### Puis-je essayer Aspose.Slides avant d’acheter ?
  Absolument! Vous pouvez télécharger une version d’essai gratuite d’Aspose.Slides à partir de[ici](https://releases.aspose.com/) pour évaluer ses caractéristiques et ses capacités.
 ### Où puis-je trouver de l’aide pour Aspose.Slides ?

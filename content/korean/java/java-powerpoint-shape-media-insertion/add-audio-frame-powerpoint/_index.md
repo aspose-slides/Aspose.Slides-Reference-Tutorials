@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
 ## 소개
 오디오 요소를 사용하여 프레젠테이션을 향상하면 영향력과 참여도를 크게 높일 수 있습니다. Aspose.Slides for Java를 사용하면 오디오 프레임을 PowerPoint 프레젠테이션에 통합하는 과정이 원활해집니다. 이 튜토리얼은 Aspose.Slides for Java를 사용하여 프레젠테이션에 오디오 프레임을 추가하는 단계별 프로세스를 안내합니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 1. JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하세요.
 2.  Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리를 다운로드하고 설치하세요. 다음에서 다운로드할 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/).
@@ -18,7 +18,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 필요한 패키지를 Java 프로젝트로 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

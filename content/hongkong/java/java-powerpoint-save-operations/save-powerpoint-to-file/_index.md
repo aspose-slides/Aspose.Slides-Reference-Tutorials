@@ -19,13 +19,13 @@ PowerPoint 簡報是視覺傳達訊息的寶貴工具。使用 Aspose.Slides for
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 第 1 步：設定資料目錄
 ```java
 //文檔目錄的路徑。
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 //如果目錄尚不存在，則建立該目錄。
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)

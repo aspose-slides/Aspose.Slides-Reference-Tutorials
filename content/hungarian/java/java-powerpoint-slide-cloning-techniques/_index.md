@@ -24,7 +24,7 @@ Időnként diákat kell klónoznia egyik prezentációból a másikba. Ez külö
 
 -  Dia klónozása egy másik prezentáció végén: Ismerje meg, hogyan klónozhat könnyedén egy diát egy másik bemutató végére. Kövesse átfogó útmutatónkat[Dia klónozása egy másik előadás végén](./clone-slide-end-another-presentation-powerpoint/) a részletes áttekintéshez.
 -  Dia klónozása a megadott pozícióban a PowerPointban: A pozicionálás kulcsfontosságú a diák prezentációk közötti klónozásánál. A mi oktatóanyagunk[Dia klónozása a megadott pozícióban a PowerPointban](./clone-slide-specified-position-powerpoint/) megtanítja, hogyan kell klónozott diákat elhelyezni meghatározott pozíciókban.
--  Dia klónozása egy másik prezentációhoz Mesterrel: A fődia klónozás közbeni karbantartása elengedhetetlen a következetesség érdekében. Fedezze fel, hogyan kell ezt megtenni lépésenkénti útmutatónkkal[Dia klónozása egy másik prezentációhoz Mesterrel](./clone-slide-another-presentation-master-powerpoint/).
+-  Dia klónozása egy másik prezentációhoz Mesterrel: A mesterdiának a klónozás során történő karbantartása elengedhetetlen a következetesség érdekében. Fedezze fel, hogyan kell ezt megtenni lépésenkénti útmutatónkkal[Dia klónozása egy másik prezentációhoz a Mesterrel](./clone-slide-another-presentation-master-powerpoint/).
 
 ## Speciális diaklónozási technikák
 
@@ -40,10 +40,10 @@ Az Aspose.Slides for Java segítségével könnyedén klónozhat PowerPoint diá
 ### [Dia klónozása egy másik előadás végén](./clone-slide-end-another-presentation-powerpoint/)
 Ebben az átfogó, lépésenkénti oktatóanyagban megtudhatja, hogyan klónozhat egy másik prezentáció végén lévő diát az Aspose.Slides for Java segítségével.
 ### [Dia klónozása egy másik prezentáció végén egy adott pozícióban](./clone-slide-end-another-specific-position-powerpoint/)
-Ismerje meg, hogyan klónozhat diákat Java programban. Útmutató lépésről lépésre az Aspose.Slides for Java használatához diák klónozásához egyik PowerPoint-prezentációból a másikba.
+Ismerje meg, hogyan klónozhat diákat a Java programban. Útmutató lépésről lépésre az Aspose.Slides for Java használatához diák klónozásához egyik PowerPoint-prezentációból a másikba.
 ### [Klónozza az ujját a PowerPoint meghatározott szakaszába](./clone-slide-specified-section-powerpoint/)
 Könnyedén klónozhat diákat meghatározott szakaszokba a PowerPointban az Aspose.Slides for Java segítségével. Fejlessze prezentációit ezzel a lépésenkénti útmutatóval.
-### [Dia klónozása egy másik prezentációhoz Mesterrel](./clone-slide-another-presentation-master-powerpoint/)
+### [Dia klónozása egy másik prezentációhoz a Mesterrel](./clone-slide-another-presentation-master-powerpoint/)
 Ismerje meg, hogyan klónozhat diákot a prezentációk között Java nyelven az Aspose.Slides segítségével. Lépésről lépésre bemutató mesterdiák karbantartásáról.
 ### [Dia klónozása ugyanazon a bemutatón belül](./clone-slide-within-same-presentation-powerpoint/)
 Diák klónozása ugyanazon a prezentáción belül az Aspose.Slides for Java segítségével útmutatónkkal. Tökéletes azoknak a fejlesztőknek, akik egyszerűsíteni szeretnék a PowerPoint-manipulációkat.

@@ -2,7 +2,7 @@
 title: Создавайте потрясающие градиенты в PowerPoint с помощью Aspose.Slides
 linktitle: Заполнение фигур градиентом на слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
-description: Улучшите свои презентации с помощью Aspose.Slides для .NET! Изучите пошаговый процесс заливки фигур градиентами. Загрузите бесплатную пробную версию прямо сейчас!
+description: Улучшите свои презентации с помощью Aspose.Slides для .NET! Изучите пошаговый процесс заполнения фигур градиентами. Загрузите бесплатную пробную версию прямо сейчас!
 type: docs
 weight: 21
 url: /ru/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
@@ -70,6 +70,6 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
 ### Вопрос: Существует ли бесплатная пробная версия Aspose.Slides для .NET?
  О: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/).
 ### Вопрос: Как я могу получить поддержку Aspose.Slides для .NET?
-Ответ: Обращайтесь за помощью и взаимодействуйте с сообществом по[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ Ответ: Обращайтесь за помощью и взаимодействуйте с сообществом по[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Вопрос: Могу ли я приобрести временную лицензию на Aspose.Slides для .NET?
  О: Конечно, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).

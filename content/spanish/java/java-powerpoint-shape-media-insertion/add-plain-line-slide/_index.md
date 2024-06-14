@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Paso 1: configurar el entorno
@@ -61,4 +61,4 @@ Sí, Aspose.Slides admite varios formatos de PowerPoint, incluidos PPT, PPTX y o
 ### ¿Puedo agregar texto a la diapositiva junto con la forma de la línea?
 Sí, puede agregar texto, imágenes y otro contenido a la diapositiva usando la API Aspose.Slides.
 ### ¿Hay una prueba gratuita disponible para Aspose.Slides?
-Sí, puedes descargar una prueba gratuita de Aspose.Slides desde[aquí](https://releases.aspose.com/).
+ Sí, puedes descargar una prueba gratuita de Aspose.Slides desde[aquí](https://releases.aspose.com/).

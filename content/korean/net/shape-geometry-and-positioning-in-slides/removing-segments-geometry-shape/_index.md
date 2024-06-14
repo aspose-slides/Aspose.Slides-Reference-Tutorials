@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry
 ---
 ## 소개
 시각적으로 매력적인 프레젠테이션을 만들려면 원하는 디자인을 얻기 위해 모양과 요소를 조작해야 하는 경우가 많습니다. .NET용 Aspose.Slides를 사용하면 개발자는 모양의 기하학적 구조를 쉽게 제어하여 특정 세그먼트를 제거할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 기하학적 모양에서 세그먼트를 제거하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.Slides: .NET 라이브러리용 Aspose.Slides가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/slides/net/).
 - 개발 환경: Aspose.Slides를 프로젝트에 통합하려면 Visual Studio와 같은 .NET 개발 환경을 설정하세요.

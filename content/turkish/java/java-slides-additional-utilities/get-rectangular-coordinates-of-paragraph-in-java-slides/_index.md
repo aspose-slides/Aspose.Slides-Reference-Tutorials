@@ -14,7 +14,7 @@ Bu eğitimde, Aspose.Slides for Java API'sini kullanarak bir PowerPoint sunumund
 
 ## Önkoşullar
 
-Başlamadan önce, Java geliştirme ortamınızda Aspose.Slides for Java kütüphanesinin kurulu olduğundan ve kurulduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://downloads.aspose.com/slides/java).
+ Başlamadan önce, Java geliştirme ortamınızda Aspose.Slides for Java kütüphanesinin kurulu olduğundan ve kurulduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://downloads.aspose.com/slides/java).
 
 ## 1. Adım: Gerekli Kitaplıkları İçe Aktarın
 
@@ -107,7 +107,7 @@ Evet, Aspose.Slides for Java, PowerPoint dosyalarının toplu işlenmesi için �
 
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
 
- Aspose.Slides for Java için daha fazla kod örneğini ve ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/)İnternet sitesi. Ek olarak şunları keşfedebilirsiniz:[Aspose.Slides forumları](https://forum.aspose.com/c/slides) topluluk desteği ve tartışmalar için.
+ Aspose.Slides for Java için daha fazla kod örneğini ve ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/) İnternet sitesi. Ek olarak şunları keşfedebilirsiniz:[Aspose.Slides forumları](https://forum.aspose.com/c/slides) topluluk desteği ve tartışmalar için.
 
 ### Aspose.Slides for Java'yı kullanmak için lisansa ihtiyacım var mı?
 

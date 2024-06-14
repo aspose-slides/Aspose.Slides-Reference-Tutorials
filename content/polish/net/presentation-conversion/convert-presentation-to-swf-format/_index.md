@@ -16,7 +16,7 @@ Zanim przejdziemy do samouczka, upewnij się, że posiadasz następujące elemen
 
 -  Aspose.Slides dla .NET: Jeśli jeszcze tego nie masz, możesz to zrobić[Pobierz to tutaj](https://releases.aspose.com/slides/net/).
 
-- Plik prezentacji: Będziesz potrzebował pliku prezentacji programu PowerPoint, który chcesz przekonwertować do formatu SWF.
+- Plik prezentacji: Będziesz potrzebować pliku prezentacji programu PowerPoint, który chcesz przekonwertować do formatu SWF.
 
 ## Krok 1: Skonfiguruj swoje środowisko
 

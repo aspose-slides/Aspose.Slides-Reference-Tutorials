@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 首先，让我们导入使用 Aspose.Slides for Java 所需的包。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 创建复合对象听起来可能很复杂，但通过将其分解为可管理的步骤，您会发现它比您想象的要容易。我们将创建一个 PowerPoint 演示文稿，添加一个形状，然后定义并应用多个几何路径以形成复合形状。
@@ -38,7 +38,7 @@ import com.aspose.slides.examples.RunExamples;
 现在，让我们创建一个新的 PowerPoint 演示文稿。我们将首先初始化`Presentation`班级。
 ```java
 //输出文件名
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## 步骤 3：创建新形状
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## 步骤 7：保存演示文稿
 最后，将您的演示文稿保存到文件中。
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## 步骤 8：清理资源

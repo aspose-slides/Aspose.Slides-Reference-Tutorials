@@ -2,7 +2,7 @@
 title: チャートの作成とカスタマイズ
 linktitle: チャートの作成とカスタマイズ
 second_title: Aspose.Slides .NET PowerPoint 処理 API
-description: Aspose.Slides を使用して .NET アプリケーションのプレゼンテーション機能を強化します。チャートの作成とカスタマイズに関するチュートリアルを詳しく見て、ステップバイステップのガイドとコード例を確認してください。
+description: Aspose.Slides を使用して、.NET アプリケーションのプレゼンテーション機能を強化します。チャートの作成とカスタマイズに関するチュートリアルを詳しく見て、ステップバイステップのガイドとコード例を確認してください。
 type: docs
 weight: 14
 url: /ja/net/chart-creation-and-customization/

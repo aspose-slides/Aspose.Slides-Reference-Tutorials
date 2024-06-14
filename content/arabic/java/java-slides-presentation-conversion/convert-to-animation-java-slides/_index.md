@@ -34,7 +34,7 @@ import java.io.IOException;
  للبدء، قم بتحميل عرض PowerPoint التقديمي الذي تريد تحويله إلى رسم متحرك. يستبدل`"SimpleAnimations.pptx"` مع المسار إلى ملف العرض التقديمي الخاص بك:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 أثناء تشغيل العرض التقديمي، سيتم حفظ كل إطار كصورة PNG في دليل الإخراج المحدد. يمكنك تخصيص مسار الإخراج حسب الحاجة:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## كود المصدر الكامل للتحويل إلى الرسوم المتحركة في شرائح جافا
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

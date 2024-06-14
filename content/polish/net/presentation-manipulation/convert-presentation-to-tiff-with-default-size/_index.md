@@ -2,7 +2,7 @@
 title: Konwertuj prezentację do formatu TIFF z domyślnym rozmiarem
 linktitle: Konwertuj prezentację do formatu TIFF z domyślnym rozmiarem
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Dowiedz się, jak bez wysiłku konwertować prezentacje do obrazów TIFF z ich domyślnym rozmiarem za pomocą Aspose.Slides dla .NET.
+description: Dowiedz się, jak bez wysiłku konwertować prezentacje na obrazy TIFF z ich domyślnym rozmiarem za pomocą Aspose.Slides dla .NET.
 type: docs
 weight: 27
 url: /pl/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/

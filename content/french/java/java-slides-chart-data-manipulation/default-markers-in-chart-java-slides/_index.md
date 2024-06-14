@@ -133,7 +133,7 @@ Dans ce didacticiel complet, vous avez appris à créer des diapositives Java av
 
 ### Comment puis-je modifier les symboles des marqueurs ?
 
- Vous pouvez personnaliser les symboles de marqueur en définissant le style de marqueur pour chaque point de données. Utiliser`IDataPoint.setMarkerStyle()` pour changer le symbole du marqueur.
+Vous pouvez personnaliser les symboles de marqueur en définissant le style de marqueur pour chaque point de données. Utiliser`IDataPoint.setMarkerStyle()` pour changer le symbole du marqueur.
 
 ### Comment ajuster les couleurs du graphique ?
 

@@ -70,6 +70,6 @@ Neste tutorial, demonstramos como exportar uma apresentação do PowerPoint para
 ### Q5: Posso usar Aspose.Slides for .NET com outras linguagens de programação?
 Aspose.Slides for .NET é principalmente para C#, mas Aspose também oferece versões para Java e outras linguagens.
 
-Com Aspose.Slides for .NET, você pode converter facilmente suas apresentações do PowerPoint em HTML com arquivos CSS, garantindo uma experiência de visualização perfeita para o seu público.
+Com Aspose.Slides for .NET, você pode facilmente converter suas apresentações do PowerPoint em HTML com arquivos CSS, garantindo uma experiência de visualização perfeita para o seu público.
 
 Agora vá em frente e crie apresentações HTML impressionantes com Aspose.Slides for .NET!

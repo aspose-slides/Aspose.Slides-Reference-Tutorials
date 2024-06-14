@@ -38,7 +38,7 @@ Seguindo esses tutoriais, você pode aprimorar suas apresentações do PowerPoin
 ### [Adicionar linha em forma de seta no PowerPoint](./add-arrow-shaped-line-powerpoint/)
 Aprenda como adicionar linhas em forma de seta a apresentações do PowerPoint usando Aspose.Slides para Java. Aumente o apelo visual sem esforço.
 ### [Adicionar linha em forma de seta ao slide](./add-arrow-shaped-line-slide/)
-Aprenda como adicionar linhas em forma de seta aos slides do PowerPoint usando Aspose.Slides para Java. Personalize estilos, cores e posições sem esforço.
+Aprenda como adicionar linhas em forma de seta aos slides do PowerPoint usando Aspose.Slides for Java. Personalize estilos, cores e posições sem esforço.
 ### [Adicionar quadro de áudio no PowerPoint](./add-audio-frame-powerpoint/)
 Aprenda como adicionar quadros de áudio a apresentações do PowerPoint usando Aspose.Slides para Java. Eleve suas apresentações com elementos de áudio envolventes sem esforço.
 ### [Adicionar quadro de objeto OLE no PowerPoint](./add-ole-object-frame-powerpoint/)

@@ -133,7 +133,7 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie mithilfe der Aspose.Slides-Bibliothek für Java ein Tree Map-Diagramm in einer PowerPoint-Präsentation erstellen. Tree Map-Diagramme sind ein wertvolles Tool zur Visualisierung hierarchischer Daten und machen Ihre Präsentationen informativer und ansprechender.
+In diesem Tutorial haben Sie gelernt, wie Sie mithilfe der Bibliothek Aspose.Slides für Java ein Tree Map-Diagramm in einer PowerPoint-Präsentation erstellen. Tree Map-Diagramme sind ein wertvolles Tool zur Visualisierung hierarchischer Daten und machen Ihre Präsentationen informativer und ansprechender.
 
 ## Häufig gestellte Fragen
 
@@ -143,7 +143,7 @@ In diesem Tutorial haben Sie gelernt, wie Sie mithilfe der Aspose.Slides-Bibliot
 
 ### Wie kann ich das Erscheinungsbild des TreeMap-Diagramms anpassen?
 
- Sie können das Erscheinungsbild des Tree Map-Diagramms anpassen, indem Sie verschiedene Eigenschaften des`chart` Und`series` Objekte wie Farben, Beschriftungen und Layouts.
+ Sie können das Erscheinungsbild des Tree Map-Diagramms anpassen, indem Sie verschiedene Eigenschaften des`chart` Und`series`Objekte wie Farben, Beschriftungen und Layouts.
 
 ### Kann ich mehrere TreeMap-Diagramme in einer einzigen Präsentation erstellen?
 

@@ -71,7 +71,7 @@ if (ole != null)
     }
 }
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 ```csharp
 pres.Save(dataDir + "OleEdit_out.pptx", SaveFormat.Pptx);
 ```

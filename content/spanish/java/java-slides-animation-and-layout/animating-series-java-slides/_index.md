@@ -112,7 +112,7 @@ Ha animado con éxito series en un gráfico de PowerPoint utilizando Aspose.Slid
 
 ### ¿Cómo controlo el orden de las animaciones de las series?
 
- Para controlar el orden de las animaciones de la serie, utilice el`EffectTriggerType.AfterPrevious`parámetro al agregar los efectos. Esto hará que la animación de cada serie comience después de que finalice la anterior.
+ Para controlar el orden de las animaciones de la serie, utilice el`EffectTriggerType.AfterPrevious` parámetro al agregar los efectos. Esto hará que la animación de cada serie comience después de que finalice la anterior.
 
 ### ¿Puedo aplicar diferentes animaciones a cada serie?
 

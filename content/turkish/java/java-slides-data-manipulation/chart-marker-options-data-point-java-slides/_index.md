@@ -141,7 +141,7 @@ Aspose.Slides for Java ile veri noktalarındaki grafik işaretçilerini özelle�
 
 ### Görselleri özel işaretçiler olarak kullanabilir miyim?
 
- Evet, görüntüleri veri noktaları için özel işaretleyiciler olarak kullanabilirsiniz. Doldurma türünü şu şekilde ayarlayın:`FillType.Picture`ve kullanmak istediğiniz görüntüyü sağlayın.
+ Evet, görüntüleri veri noktaları için özel işaretleyiciler olarak kullanabilirsiniz. Doldurma türünü şu şekilde ayarlayın:`FillType.Picture` ve kullanmak istediğiniz görüntüyü sağlayın.
 
 ### Aspose.Slides for Java dinamik grafikler oluşturmaya uygun mu?
 

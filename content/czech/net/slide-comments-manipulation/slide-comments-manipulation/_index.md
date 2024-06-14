@@ -16,7 +16,7 @@ Komentáře snímků jsou anotace, které umožňují přidávat vysvětlující
 
 ## Začínáme s Aspose.Slides
 
-Než se ponoříme do podrobností o manipulaci s komentáři ke snímku, nastavíme naše prostředí a zajistíme, že máme potřebné zdroje.
+Než se ponoříme do podrobností o manipulaci s komentáři ke snímkům, nastavíme naše prostředí a zajistíme, že máme potřebné zdroje.
 
 1. ### Stáhnout a nainstalovat Aspose.Slides: 
 	 Začněte stažením a instalací knihovny Aspose.Slides. Můžete najít nejnovější verzi[tady](https://releases.aspose.com/slides/net/).
@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Změňte pozici komentáře
 comment.Position = new Point(100, 100);
 
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Smazat komentář
 slide.Comments.Remove(comment);
 
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

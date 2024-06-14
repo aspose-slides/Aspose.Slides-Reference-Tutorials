@@ -38,7 +38,7 @@ Aspose.Slides kütüphanesini kullanarak PowerPoint sunumunu yükleyin:
 ```csharp
 Presentation pres = new Presentation(dataDir + "presentation.pptx");
 ```
-## 4. Adım: İşleme için bir Bitmap Oluşturun
+## Adım 4: İşleme için bir Bitmap Oluşturun
 İstediğiniz boyutlara sahip bir bitmap nesnesi oluşturun:
 ```csharp
 Bitmap bmp = new Bitmap(740, 960);
@@ -85,4 +85,4 @@ C: Kesinlikle! Eğitici, yorum alanı rengini, genişliğini ve konumunu özelle
 ### S: Aspose.Slides için geçici lisansı nasıl edinebilirim?
  C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Slides için nereden yardım ve destek alabilirim?
-C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.
+ C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.

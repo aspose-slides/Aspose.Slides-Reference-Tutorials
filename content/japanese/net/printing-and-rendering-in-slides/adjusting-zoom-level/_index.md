@@ -41,7 +41,7 @@ presentation.ViewProperties.SlideViewProperties.Scale = 100; //スライドビ�
 presentation.ViewProperties.NotesViewProperties.Scale = 100; //ノートビューのズーム値（パーセント）
 ```
 ## ステップ4: プレゼンテーションを保存する
-ズーム レベルを調整した変更されたプレゼンテーションを指定されたディレクトリに保存します。
+調整されたズーム レベルで変更されたプレゼンテーションを指定されたディレクトリに保存します。
 ```csharp
 presentation.Save(dataDir + "Zoom_out.pptx", SaveFormat.Pptx);
 ```

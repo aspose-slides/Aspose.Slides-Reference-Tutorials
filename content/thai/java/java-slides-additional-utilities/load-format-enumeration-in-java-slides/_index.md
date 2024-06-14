@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## บทสรุป
 
- ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีโหลดงานนำเสนอ PowerPoint ใน Java โดยใช้ Aspose.Slides และตรวจสอบรูปแบบโดยใช้`LoadFormat`การแจงนับ สิ่งนี้มีประโยชน์เมื่อคุณต้องการจัดการการนำเสนอในรูปแบบที่แตกต่างกันในแอปพลิเคชัน Java ของคุณ
+ ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีโหลดงานนำเสนอ PowerPoint ใน Java โดยใช้ Aspose.Slides และตรวจสอบรูปแบบโดยใช้`LoadFormat` การแจงนับ สิ่งนี้มีประโยชน์เมื่อคุณต้องการจัดการการนำเสนอในรูปแบบที่แตกต่างกันในแอปพลิเคชัน Java ของคุณ
 
 ## คำถามที่พบบ่อย
 
 ### ฉันจะดาวน์โหลด Aspose.Slides สำหรับ Java ได้อย่างไร
 
- คุณสามารถดาวน์โหลดไลบรารี Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose โดยไปที่[ลิงค์นี้](https://releases.aspose.com/slides/java/).
+คุณสามารถดาวน์โหลดไลบรารี Aspose.Slides สำหรับ Java ได้จากเว็บไซต์ Aspose โดยไปที่[ลิงค์นี้](https://releases.aspose.com/slides/java/).
 
 ### จุดประสงค์ของการตรวจสอบรูปแบบการนำเสนอคืออะไร?
 

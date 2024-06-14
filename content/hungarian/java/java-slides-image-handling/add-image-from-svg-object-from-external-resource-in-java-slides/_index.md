@@ -38,7 +38,7 @@ String outPptxPath = dataDir + "presentation_external.pptx";
 Presentation p = new Presentation();
 ```
 
- Győződjön meg róla, hogy kicserélte`"Your Document Directory"` a projektkönyvtár tényleges elérési útjával.
+ Győződjön meg róla, hogy cseréli`"Your Document Directory"` a projektkönyvtár tényleges elérési útjával.
 
 ## 3. lépés: Az SVG kép betöltése
 

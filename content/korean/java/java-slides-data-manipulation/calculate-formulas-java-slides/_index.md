@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/calculate-formulas-java-slides/
 
 이 가이드에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 수식을 계산하는 방법을 보여줍니다. Aspose.Slides는 PowerPoint 프레젠테이션 작업을 위한 강력한 라이브러리이며 슬라이드 내에서 차트를 조작하고 수식 계산을 수행하는 기능을 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -25,7 +25,7 @@ url: /ko/java/data-manipulation/calculate-formulas-java-slides/
 먼저 새 PowerPoint 프레젠테이션을 만들고 여기에 슬라이드를 추가해 보겠습니다. 이 예에서는 단일 슬라이드로 작업하겠습니다.
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Java 슬라이드의 수식 계산을 위한 완전한 소스 코드
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

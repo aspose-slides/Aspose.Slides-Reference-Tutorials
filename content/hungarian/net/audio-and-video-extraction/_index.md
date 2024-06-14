@@ -12,7 +12,7 @@ url: /hu/net/audio-and-video-extraction/
 
 Üdvözöljük az Aspose.Slides oktatóanyagában, amely a .NET-alkalmazások hang- és videokinyeréséről szól. Ez az oktatóanyag végigvezeti a hang- és videotartalmak programozott kinyerésének folyamatán a PowerPoint-prezentációkból a hatékony Aspose.Slides könyvtár segítségével. Akár tapasztalt fejlesztő, akár újonc az Aspose.Slides-ben, ez az oktatóanyag olyan ismereteket és eszközöket biztosít Önnek, amelyek segítségével hatékonyan dolgozhat a prezentációk multimédiás elemeivel.
 
-## Hang- és videótartalom kinyerése:
+## Hang- és videotartalom kinyerése:
 
 Ebből az oktatóanyagból megtudhatja, hogyan vonhat ki hang- és videóelemeket a PowerPoint-prezentációkból az Aspose.Slides for .NET segítségével. Különféle forgatókönyvekkel foglalkozunk, beleértve az egyes hang- és videoklipek kinyerését, a lejátszási beállítások kezelését és a multimédiás elemek exportálását különböző formátumokba. A lépésenkénti utasítások és a forráskód-példák segítségével zökkenőmentesen integrálhatja a hang- és képkivonást az alkalmazásaiba.
 

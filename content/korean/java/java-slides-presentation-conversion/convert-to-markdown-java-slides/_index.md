@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-to-markdown-java-slides/
 
 이 단계별 가이드에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 Markdown 형식으로 변환하는 방법을 알아봅니다. Aspose.Slides는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. 우리는 프로세스를 살펴보고 각 단계에 대한 Java 소스 코드를 제공할 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // 소스 프레젠테이션 경로
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// 마크다운 데이터 저장을 위한 경로 및 폴더 이름
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// 마크다운 생성 옵션 만들기
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// 모든 항목을 렌더링하기 위한 매개변수를 설정합니다(그룹화된 항목은 함께 렌더링됩니다).

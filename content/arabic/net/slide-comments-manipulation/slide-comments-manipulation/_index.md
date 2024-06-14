@@ -22,7 +22,7 @@ url: /ar/net/slide-comments-manipulation/slide-comments-manipulation/
 	 ابدأ بتنزيل وتثبيت مكتبة Aspose.Slides. يمكنك العثور على أحدث إصدار[هنا](https://releases.aspose.com/slides/net/).
 
 2. ### وثائق واجهة برمجة التطبيقات: 
-	 تعرف على وثائق Aspose.Slides API المتوفرة[هنا](https://reference.aspose.com/slides/net/). تعمل هذه الوثائق كمورد قيم لفهم الأساليب والفئات والخصائص المختلفة المتعلقة بمعالجة تعليقات الشرائح.
+	 تعرف على وثائق Aspose.Slides API المتاحة[هنا](https://reference.aspose.com/slides/net/). تعمل هذه الوثائق كمورد قيم لفهم الأساليب والفئات والخصائص المختلفة المتعلقة بمعالجة تعليقات الشرائح.
 
 ## إضافة تعليقات الشرائح
 
@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // تغيير موضع التعليق
 comment.Position = new Point(100, 100);
 
-// احفظ العرض التقديمي المعدل
+//احفظ العرض التقديمي المعدل
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // احذف التعليق
 slide.Comments.Remove(comment);
 
-// احفظ العرض التقديمي المعدل
+//احفظ العرض التقديمي المعدل
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## Βήμα 4: Προσθέστε ένα γράφημα πίτας
 
 ```java
-//Προσθέστε ένα γράφημα πίτας με προεπιλεγμένα δεδομένα
+// Προσθέστε ένα γράφημα πίτας με προεπιλεγμένα δεδομένα
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ chart.setTitle(true);
 ## Βήμα 6: Προσαρμογή δεδομένων γραφήματος
 
 ```java
-// Ρυθμίστε την πρώτη σειρά να εμφανίζει τιμές
+//Ρυθμίστε την πρώτη σειρά να εμφανίζει τιμές
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Ρύθμιση του ευρετηρίου του φύλλου δεδομένων γραφήματος
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Προσθήκη νέας σειράς
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Τώρα συμπληρώνονται δεδομένα σειράς
+// Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

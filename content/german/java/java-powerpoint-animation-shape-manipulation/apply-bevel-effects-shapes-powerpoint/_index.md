@@ -11,7 +11,7 @@ url: /de/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Das Erstellen optisch ansprechender Präsentationen ist entscheidend, um die Aufmerksamkeit Ihres Publikums zu gewinnen und zu erhalten. Das Hinzufügen von Abschrägungseffekten zu Formen kann die Gesamtästhetik Ihrer Folien verbessern und Ihre Präsentation hervorstechen lassen. In diesem Tutorial führen wir Sie durch den Prozess des Anwendens von Abschrägungseffekten auf Formen in PowerPoint mithilfe von Aspose.Slides für Java. Egal, ob Sie Entwickler sind, der die Erstellung von Präsentationen automatisieren möchte, oder einfach jemand, der gerne am Design herumbastelt, dieser Leitfaden hat alles für Sie.
 ## Voraussetzungen
 Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
--  Java Development Kit (JDK): Stellen Sie sicher, dass Sie JDK installiert haben. Sie können es von der[Oracle-Website](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Stellen Sie sicher, dass Sie JDK installiert haben. Sie können es von der[Oracle-Website](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides für Java-Bibliothek: Laden Sie die Bibliothek herunter von[Aspose.Slides für Java](https://releases.aspose.com/slides/java/).
 - IDE (Integrated Development Environment): Verwenden Sie eine IDE Ihrer Wahl, beispielsweise IntelliJ IDEA, Eclipse oder NetBeans.
 -  Aspose-Lizenz: Um Aspose.Slides ohne Einschränkungen nutzen zu können, erwerben Sie eine Lizenz von[Aspose Kauf](https://purchase.aspose.com/buy) oder erhalten Sie eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) zur Auswertung.
@@ -19,7 +19,7 @@ Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden 
 Zuerst müssen Sie die erforderlichen Pakete für die Arbeit mit Aspose.Slides in Ihrem Java-Projekt importieren. So können Sie das tun:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Schritt 1: Richten Sie Ihr Projekt ein

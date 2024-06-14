@@ -26,7 +26,7 @@ Aspose.Slides for .NET を使用してグループ図形内の代替テキスト
 ### [Aspose.Slides を使用してプレゼンテーション スライドの OLE オブジェクト フレームにアクセスする](./accessing-ole-object-frames/)
 Aspose.Slides for .NET を使用して、プレゼンテーション スライド内の OLE オブジェクト フレームにアクセスし、操作する方法を学びます。ステップ バイ ステップのガイダンスと実用的なコード例を使用して、スライド処理機能を強化します。
 ### [Aspose.Slides を使用してプレゼンテーション スライドに矢印形の線を追加する](./adding-arrow-shaped-lines/)
-Aspose.Slides for .NET を使用して、矢印形の線でプレゼンテーション スライドを強化する方法を学びます。コード サンプルと FAQ を含むステップ バイ ステップ ガイド。
+Aspose.Slides for .NET を使用して、矢印型の線でプレゼンテーション スライドを強化する方法を学びます。コード サンプルと FAQ を含むステップ バイ ステップ ガイド。
 ### [Aspose.Slides を使用して特定のスライドに矢印形の線を追加する](./adding-arrow-lines-to-specific-slides/)
 Aspose.Slides for .NET を使用して特定のスライドに矢印の線を追加し、PowerPoint プレゼンテーションを強化する方法を学びます。コンテンツを向上させ、効果的に視聴者を引き付けます。
 ### [Aspose.Slides を使用してプレゼンテーション スライドにオーディオ フレームを追加する](./adding-audio-frames/)

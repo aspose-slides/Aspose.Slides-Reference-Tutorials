@@ -19,7 +19,7 @@ Než se ponoříte do kódovací části, ujistěte se, že máte následující
 Chcete-li začít, musíte do svého projektu Java importovat potřebné balíčky Aspose.Slides. Postup je následující:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Pojďme si proces klonování snímku do jiné prezentace s hlavním snímkem rozdělit do podrobných kroků.
 ## Krok 1: Načtěte zdrojovou prezentaci
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Krok 4: Naklonujte hlavní snímek do cílové prezentace
 Klonujte hlavní snímek ze zdrojové prezentace do kolekce předloh v cílové prezentaci.
 ```java
-//Naklonujte požadovaný snímek předlohy ze zdrojové prezentace do kolekce předloh v prezentaci Cíl
+// Naklonujte požadovaný snímek předlohy ze zdrojové prezentace do kolekce předloh v prezentaci Cíl
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

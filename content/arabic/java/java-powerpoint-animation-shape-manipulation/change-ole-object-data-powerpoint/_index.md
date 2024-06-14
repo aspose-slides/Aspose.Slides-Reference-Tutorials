@@ -15,14 +15,14 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/change-ole-object-dat
 2.  Aspose.Slides لـ Java: قم بتنزيل أحدث إصدار من[صفحة تنزيل Aspose.Slides](https://releases.aspose.com/slides/java/).
 3. بيئة التطوير المتكاملة (IDE): يمكنك استخدام أي Java IDE مثل IntelliJ IDEA أو Eclipse أو NetBeans.
 4.  Aspose.Cells for Java: هذا مطلوب لتعديل البيانات المضمنة داخل كائن OLE. قم بتنزيله من[صفحة تنزيل Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. ملف العرض التقديمي: قم بإعداد ملف PowerPoint مع كائن OLE مضمن. بالنسبة لهذا البرنامج التعليمي، دعنا نسميه`ChangeOLEObjectData.pptx`.
+5.  ملف العرض التقديمي: قم بإعداد ملف PowerPoint مع كائن OLE مضمن. بالنسبة لهذا البرنامج التعليمي، دعنا نسميه`ChangeOLEObjectData.pptx`.
 ## حزم الاستيراد
 أولاً، لنستورد الحزم الضرورية في مشروع Java الخاص بك.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

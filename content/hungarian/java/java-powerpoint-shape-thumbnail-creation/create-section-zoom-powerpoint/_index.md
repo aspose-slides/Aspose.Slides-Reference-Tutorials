@@ -13,18 +13,18 @@ Ebben az oktatóanyagban a szakasznagyítások létrehozásával foglalkozunk a 
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek telepítve vannak és be vannak állítva a rendszeren:
 1.  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren. A legújabb verziót letöltheti és telepítheti a webhelyről[itt](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java: Töltse le és állítsa be az Aspose.Slides for Java könyvtárat. A dokumentációt megtalálod[itt](https://reference.aspose.com/slides/java/)és töltse le a könyvtárat innen[ez a link](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Töltse le és állítsa be az Aspose.Slides for Java könyvtárat. A dokumentációt megtalálod[itt](https://reference.aspose.com/slides/java/) és töltse le a könyvtárat innen[ez a link](https://releases.aspose.com/slides/java/).
 ## Csomagok importálása
 Először is importálja az Aspose.Slides for Java programhoz szükséges csomagokat:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 1. lépés: Kimeneti fájl beállítása
 Határozza meg a kimeneti prezentációs fájl elérési útját:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## 2. lépés: Inicializálja a bemutató objektumot
  Hozzon létre egy új példányt a`Presentation` osztály:
@@ -54,13 +54,13 @@ pres.getSections().addSection("Section 1", slide);
 ISectionZoomFrame sectionZoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(20, 20, 300, 200, pres.getSections().get_Item(1));
 ```
 ## 7. lépés: Mentse a bemutatót
-Mentse el a bemutatót a szakasznagyítással:
+Mentse el a bemutatót a szakasz nagyításával:
 ```java
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 
 ## Következtetés
-Összefoglalva, ez az oktatóanyag bemutatja, hogyan lehet szakasznagyítást létrehozni PowerPoint-prezentációkban az Aspose.Slides for Java használatával. A lépésenkénti útmutató követésével javíthatja prezentációinak rendszerezését és navigálását, ami még vonzóbb élményt nyújt a közönség számára.
+Összefoglalva, ez az oktatóanyag bemutatja, hogyan lehet szakasznagyítást létrehozni PowerPoint-prezentációkban az Aspose.Slides for Java használatával. A lépésenkénti útmutató követésével javíthatja prezentációinak rendszerezését és navigálását, ami vonzóbb élményt eredményez a közönség számára.
 ## GYIK
 ### Testreszabhatom a szakasznagyítási keretek megjelenését?
 Igen, testreszabhatja a szakaszos nagyítási keretek megjelenését a méretük, helyzetük és egyéb tulajdonságaik szükség szerinti módosításával.

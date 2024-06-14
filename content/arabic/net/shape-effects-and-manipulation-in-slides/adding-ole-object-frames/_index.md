@@ -83,4 +83,4 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ### س: هل يمكنني تخصيص مظهر إطار كائن OLE المضمن؟
 ج: بالتأكيد، يمكنك ضبط الحجم والموضع والخصائص الأخرى لإطار كائن OLE وفقًا لتفضيلاتك.
 ### س: أين يمكنني طلب المساعدة إذا واجهت تحديات أثناء التنفيذ؟
-ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم وتوجيه المجتمع.
+ ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع وتوجيهه.

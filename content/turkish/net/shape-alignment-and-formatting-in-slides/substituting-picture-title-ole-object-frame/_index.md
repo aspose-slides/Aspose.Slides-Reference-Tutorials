@@ -80,6 +80,6 @@ Kesinlikle. Sununuzun temasına daha iyi uyum sağlamak için varsayılan simgey
 ### Aspose.Slides, OLE nesneleri içeren animasyonlar için destek sağlıyor mu?
 En son sürümden itibaren Aspose.Slides, OLE nesnesi yerleştirme ve görüntülemeye odaklanıyor ve OLE nesneleri içindeki animasyonları doğrudan ele almıyor.
 ### OLE nesnelerini bir slayda ekledikten sonra programlı olarak değiştirebilir miyim?
-Kesinlikle. OLE nesneleri üzerinde tam programatik denetime sahip olursunuz ve bu nesnelerin özelliklerini ve görünümlerini gerektiği gibi değiştirmenize olanak tanır.
+Kesinlikle. OLE nesneleri üzerinde tam programatik denetime sahip olursunuz ve bu sayede özelliklerini ve görünümlerini gerektiği gibi değiştirebilirsiniz.
 ### Katıştırılmış OLE nesnelerinin boyutunda herhangi bir sınırlama var mı?
 Boyut sınırlamaları olsa da genellikle cömerttirler. Optimum performans sağlamak için özel kullanım durumunuzla test etmeniz önerilir.

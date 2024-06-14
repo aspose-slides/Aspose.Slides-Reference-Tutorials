@@ -134,4 +134,4 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 
 ### Aspose.Slides の詳細情報とドキュメントはどこで入手できますか?
 
-Aspose.Slides for Javaの包括的なドキュメントとAPIリファレンスは、AsposeドキュメントWebサイトでご覧いただけます。[ここ](https://reference.aspose.com/slides/java/)ライブラリの使用に関する詳細情報。
+ Aspose.Slides for Javaの包括的なドキュメントとAPIリファレンスは、AsposeドキュメントWebサイトでご覧いただけます。[ここ](https://reference.aspose.com/slides/java/)ライブラリの使用に関する詳細情報。

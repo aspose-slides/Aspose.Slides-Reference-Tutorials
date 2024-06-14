@@ -12,7 +12,7 @@ url: /ko/java/animation-and-layout/animating-series-java-slides/
 
 이 가이드에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드의 시리즈에 애니메이션을 적용하는 과정을 안내합니다. 이 라이브러리를 사용하면 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -112,7 +112,7 @@ Aspose.Slides for Java를 사용하여 PowerPoint 차트에 성공적으로 애�
 
 ### 시리즈 애니메이션의 순서를 어떻게 제어하나요?
 
- 시리즈 애니메이션의 순서를 제어하려면`EffectTriggerType.AfterPrevious`효과를 추가할 때 매개변수입니다. 이렇게 하면 각 시리즈 애니메이션이 이전 애니메이션이 끝난 후 시작됩니다.
+ 시리즈 애니메이션의 순서를 제어하려면`EffectTriggerType.AfterPrevious` 효과를 추가할 때 매개변수입니다. 이렇게 하면 각 시리즈 애니메이션이 이전 애니메이션이 끝난 후 시작됩니다.
 
 ### 시리즈마다 다른 애니메이션을 적용할 수 있나요?
 

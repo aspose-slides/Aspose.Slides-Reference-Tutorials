@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Java 幻灯片中支持中断的完整源代码
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

@@ -33,7 +33,7 @@ if (!isExists)
 string presentationFileName = Path.Combine(dataDir, "AnimationShapesExample.pptx");
 using (Presentation pres = new Presentation(presentationFileName))
 {
-    //Ο κωδικός σας για περαιτέρω ενέργειες βρίσκεται εδώ
+    // Ο κωδικός σας για περαιτέρω ενέργειες βρίσκεται εδώ
 }
 ```
 ## Βήμα 2: Επανάληψη μέσω διαφανειών και εφέ κινούμενων σχεδίων

@@ -26,7 +26,7 @@ S vaší licencí je čas inicializovat Aspose.Slides pro Java a začít vytvá�
 
 1.  Stažení a instalace: Začněte stažením knihovny Aspose.Slides for Java z[stránka ke stažení](https://releases.aspose.com/slides/net/). Postupujte podle pokynů k instalaci a nastavte knihovnu ve vašem prostředí Java.
 
-2. Import knihoven: Do kódu Java naimportujte potřebné knihovny Aspose.Slides, abyste získali přístup k funkcím a třídám potřebným pro vytváření snímků.
+2. Import knihoven: Do kódu Java naimportujte potřebné knihovny Aspose.Slides pro přístup k funkcím a třídám potřebným pro vytvoření snímku.
 
 3. Vytvoření prezentace: Inicializujte objekt prezentace, který slouží jako plátno pro vaše snímky. Můžete si vybrat z různých formátů prezentace, včetně PPT a PPTX.
 

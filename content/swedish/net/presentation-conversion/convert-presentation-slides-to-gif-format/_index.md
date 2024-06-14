@@ -45,7 +45,7 @@ Du kan anpassa GIF-genereringsprocessen genom att justera parametrar som bildens
 
 ```csharp
 GifOptions gifOptions = new GifOptions(){
-FrameSize = new Size(800, 600), // storleken på den resulterande GIF
+FrameSize = new Size(800, 600), // storleken på den resulterande GIF-filen
 DefaultDelay = 2000, // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
 TransitionFps = 35 // öka FPS till bättre övergångsanimationskvalitet
 }
@@ -94,7 +94,7 @@ class Program
         using Presentation pres = new Presentation("presentation.pptx");
 
         GifOptions gifOptions = new GifOptions(){
-        FrameSize = new Size(800, 600), // storleken på den resulterande GIF
+        FrameSize = new Size(800, 600), // storleken på den resulterande GIF-filen
         DefaultDelay = 2000, // hur länge varje bild kommer att visas tills den kommer att ändras till nästa
         TransitionFps = 35 // öka FPS till bättre övergångsanimationskvalitet
         }

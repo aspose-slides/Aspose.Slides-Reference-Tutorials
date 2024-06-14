@@ -34,7 +34,7 @@ import java.io.IOException;
  Для начала загрузите презентацию PowerPoint, которую вы хотите преобразовать в анимацию. Заменять`"SimpleAnimations.pptx"` с путем к файлу вашей презентации:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 Во время воспроизведения презентации каждый кадр будет сохраняться как изображение PNG в указанном выходном каталоге. Вы можете настроить путь вывода по мере необходимости:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Полный исходный код для преобразования в анимацию в слайдах Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {
@@ -121,7 +121,7 @@ try {
 
 ### Есть ли какие-либо ограничения на преобразование презентаций в анимацию?
 
-Хотя Aspose.Slides for Java предлагает мощные возможности анимации, важно помнить, что сложные анимации могут поддерживаться не полностью. Хорошей практикой является тщательное тестирование анимации, чтобы убедиться, что она работает должным образом.
+Хотя Aspose.Slides для Java предлагает мощные возможности анимации, важно помнить, что сложные анимации могут поддерживаться не полностью. Хорошей практикой является тщательное тестирование анимации, чтобы убедиться, что она работает должным образом.
 
 ### Могу ли я настроить формат файла экспортируемых кадров?
 

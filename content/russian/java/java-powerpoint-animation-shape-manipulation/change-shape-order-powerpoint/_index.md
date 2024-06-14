@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/change-shape-order-po
 Для начала вам необходимо импортировать необходимые пакеты из библиотеки Aspose.Slides. Этот импорт позволит вам работать с презентациями, слайдами и фигурами.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 В этом руководстве мы разобьем процесс изменения порядка фигур на несколько шагов для лучшего понимания и простоты реализации.
 ## Шаг 1. Загрузите презентацию

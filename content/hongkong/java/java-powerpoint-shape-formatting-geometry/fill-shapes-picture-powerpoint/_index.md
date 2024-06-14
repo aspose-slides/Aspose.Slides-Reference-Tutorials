@@ -18,7 +18,7 @@ PowerPoint 簡報通常需要視覺元素，例如充滿圖像的形狀，以增
 在您的 Java 專案中，匯入必要的套件：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

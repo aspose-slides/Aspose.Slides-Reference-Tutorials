@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Het standaarddiagram maken
+//Het standaarddiagram maken
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -86,7 +86,7 @@ IPPImage imgx1 = pres.Images.AddImage(img1);
 System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
 IPPImage imgx2 = pres.Images.AddImage(img2);
 
-// Neem de eerste kaartenreeks
+// Neem de eerste kaartenserie
 IChartSeries series = chart.ChartData.Series[0];
 
 // Voeg nieuwe gegevenspunten toe met afbeeldingsvulling
@@ -116,7 +116,7 @@ We stellen afbeeldingsmarkeringen in voor gegevenspunten, zodat u kunt aanpassen
 series.Marker.Size = 15;
 ```
 
-Hier passen we de grootte van de kaartreeksmarkering aan om deze visueel aantrekkelijk te maken.
+Hier passen we de grootte van de kaartseriemarkering aan om deze visueel aantrekkelijk te maken.
 
 ## Stap 7: De presentatie opslaan
 
@@ -130,7 +130,7 @@ Ten slotte slaan we de presentatie op met de nieuwe grafiekinstellingen.
 
 Met Aspose.Slides voor .NET kunt u verbluffende grafiekpresentaties maken met verschillende aanpassingsopties. In deze zelfstudie hebben we ons gericht op het gebruik van diagrammarkeringsopties op gegevenspunten om de visuele weergave van uw gegevens te verbeteren. Met Aspose.Slides voor .NET kunt u uw presentaties naar een hoger niveau tillen, waardoor ze aantrekkelijker en informatiever worden.
 
- Als u vragen heeft of hulp nodig heeft bij Aspose.Slides voor .NET, bezoek dan gerust de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/) of neem contact op met de[Stel gemeenschap](https://forum.aspose.com/) Voor ondersteuning.
+Als u vragen heeft of hulp nodig heeft met Aspose.Slides voor .NET, bezoek dan gerust de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/) of neem contact op met de[Stel gemeenschap](https://forum.aspose.com/) Voor ondersteuning.
 
 ## Veelgestelde vragen (FAQ's)
 
@@ -138,7 +138,7 @@ Met Aspose.Slides voor .NET kunt u verbluffende grafiekpresentaties maken met ve
 Ja, u kunt aangepaste afbeeldingen gebruiken als markeringen voor gegevenspunten in Aspose.Slides voor .NET, zoals gedemonstreerd in deze zelfstudie.
 
 ### Hoe kan ik het diagramtype in Aspose.Slides voor .NET wijzigen?
- kunt het diagramtype wijzigen door een ander diagramtype op te geven`ChartType` bij het maken van het diagram, zoals 'Bar', 'Taart' of 'Gebied'.
+ U kunt het diagramtype wijzigen door een ander diagramtype op te geven`ChartType` bij het maken van het diagram, zoals 'Bar', 'Taart' of 'Gebied'.
 
 ### Is Aspose.Slides voor .NET compatibel met de nieuwste versies van PowerPoint?
 Aspose.Slides voor .NET is ontworpen om met verschillende PowerPoint-formaten te werken en wordt regelmatig bijgewerkt om de compatibiliteit met de nieuwste PowerPoint-versies te behouden.

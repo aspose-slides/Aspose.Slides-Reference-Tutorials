@@ -34,7 +34,7 @@ Verbessern Sie Ihre Präsentationen mit Audio! Erfahren Sie, wie Sie mit der Asp
 ### [Hinzufügen von OLE-Objektrahmen zu Präsentationsfolien mit Aspose.Slides](./adding-ole-object-frames/)
 Erfahren Sie, wie Sie Ihre Präsentationsfolien durch die nahtlose Integration von OLE-Objektrahmen mit Aspose.Slides für .NET verbessern können. Bringen Sie Ihre Präsentationen auf die nächste Ebene.
 ### [Hinzufügen einfacher Linien zu Präsentationsfolien mit Aspose.Slides](./adding-plain-lines/)
-Erfahren Sie, wie Sie Ihre Präsentationsfolien durch Hinzufügen einfacher Linien mit Aspose.Slides für .NET verbessern können. Folgen Sie dieser umfassenden Anleitung mit Schritt-für-Schritt-Anweisungen und Quellcodebeispielen.
+Erfahren Sie, wie Sie Ihre Präsentationsfolien durch Hinzufügen einfacher Linien mit Aspose.Slides für .NET verbessern können. Folgen Sie dieser umfassenden Anleitung mit Schritt-für-Schritt-Anleitungen und Quellcodebeispielen.
 ### [Hinzufügen von Bilderrahmen mit relativer Skalenhöhe in Aspose.Slides](./adding-picture-frames-relative-scale/)
 Erfahren Sie, wie Sie Ihre Präsentationen verbessern können, indem Sie mit Aspose.Slides für .NET Bilderrahmen mit relativer Skalenhöhe hinzufügen. Erstellen Sie mühelos optisch ansprechende Folien.
 ### [Hinzufügen eines Streckungsversatzes zum Ausfüllen von Bildern in Präsentationsfolien mit Aspose.Slides](./adding-stretch-offset-image-fill/)

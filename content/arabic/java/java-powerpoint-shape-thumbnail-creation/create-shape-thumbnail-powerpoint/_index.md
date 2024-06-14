@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-po
 أولاً، تحتاج إلى استيراد الحزم الضرورية في كود Java الخاص بك للاستفادة من وظائف Aspose.Slides. قم بتضمين عبارات الاستيراد التالية في بداية ملف Java الخاص بك:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
 ### هل يدعم Aspose.Slides تنسيقات الصور الأخرى لحفظ الصور المصغرة؟
 نعم، إلى جانب PNG، يدعم Aspose.Slides حفظ الصور المصغرة بتنسيقات صور مختلفة مثل JPEG وGIF وBMP.
 ### هل Aspose.Slides مناسب للاستخدام التجاري؟
-نعم، يقدم Aspose.Slides تراخيص تجارية للشركات والمؤسسات. يمكنك شراء ترخيص من[هنا](https://purchase.aspose.com/buy).
+ نعم، يقدم Aspose.Slides تراخيص تجارية للشركات والمؤسسات. يمكنك شراء ترخيص من[هنا](https://purchase.aspose.com/buy).
 ### هل يمكنني تجربة Aspose.Slides قبل الشراء؟
  قطعاً! يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides من[هنا](https://releases.aspose.com/) لتقييم مميزاته وقدراته.
 ### أين يمكنني العثور على الدعم لـ Aspose.Slides؟

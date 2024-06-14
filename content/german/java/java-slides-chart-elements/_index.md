@@ -51,7 +51,7 @@ Erstellen Sie Donut-Diagramme mit benutzerdefinierten Lochgrößen in Java-Folie
 ### [Vorhandenes Diagramm in Java-Folien](./existing-chart-java-slides/)
 Verbessern Sie Ihre PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie, wie Sie vorhandene Diagramme programmgesteuert ändern. Schritt-für-Schritt-Anleitung mit Quellcode zur Diagrammanpassung.
 ### [Schriftgrößenlegende in Java-Folien](./font-size-legend-java-slides/)
-Verbessern Sie PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die Schriftgröße der Legende und mehr anpassen.
+Verbessern Sie PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die Schriftgrößen von Legenden und mehr anpassen.
 ### [Trichterdiagramm in Java-Folien](./funnel-chart-java-slides/)
 Entdecken Sie Aspose.Slides für Java mit Schritt-für-Schritt-Tutorials. Erstellen Sie beeindruckende Trichterdiagramme und mehr.
 ### [Kartendiagramm in Java-Folien](./map-chart-java-slides/)

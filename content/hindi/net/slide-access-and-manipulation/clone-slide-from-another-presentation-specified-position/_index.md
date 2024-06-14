@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 एक बार जब स्लाइड क्लोन हो जाए और उसे वांछित स्थान पर डाल दिया जाए, तो आपको संशोधित गंतव्य प्रस्तुति को सहेजना होगा। प्रस्तुति को सहेजने के लिए निम्न कोड का उपयोग करें:
 
 ```csharp
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // क्लोन की गई स्लाइड को निर्दिष्ट स्थान पर डालें
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // संशोधित प्रस्तुति सहेजें
+            //संशोधित प्रस्तुति सहेजें
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

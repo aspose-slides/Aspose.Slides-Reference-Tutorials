@@ -21,7 +21,7 @@ Laten we eerst de benodigde pakketten importeren. Deze pakketten zijn essentieel
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Laten we nu het proces van het klonen van een dia uit de ene presentatie en het toevoegen aan een andere presentatie in eenvoudige, begrijpelijke stappen opsplitsen.
@@ -29,7 +29,7 @@ Laten we nu het proces van het klonen van een dia uit de ene presentatie en het 
  Om te beginnen moeten we de bronpresentatie laden waarvan we een dia willen klonen. Dit gebeurt met behulp van de`Presentation` klasse aangeboden door Aspose.Slides.
 ```java
 // Het pad naar de documentenmap.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Instantieer de klasse Presentatie om het bronpresentatiebestand te laden
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

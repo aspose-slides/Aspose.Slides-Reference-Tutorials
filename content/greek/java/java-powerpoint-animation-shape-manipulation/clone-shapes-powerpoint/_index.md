@@ -12,13 +12,13 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoi
 ## Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκατεστημένο το Java Development Kit στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε την πιο πρόσφατη έκδοση από το[δικτυακός τόπος](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java Library: Κάντε λήψη και συμπεριλάβετε τη βιβλιοθήκη Aspose.Slides for Java στο έργο σας Java. Μπορείτε να βρείτε τον σύνδεσμο λήψης[εδώ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Library: Κάντε λήψη και συμπεριλάβετε τη βιβλιοθήκη Aspose.Slides for Java στο έργο σας Java. Μπορείτε να βρείτε τον σύνδεσμο λήψης[εδώ](https://releases.aspose.com/slides/java/).
 
 ## Εισαγωγή πακέτων
 Για να ξεκινήσετε, θα χρειαστεί να εισαγάγετε τα απαραίτητα πακέτα στο έργο σας Java. Αυτά τα πακέτα παρέχουν τις λειτουργίες που απαιτούνται για την εργασία με παρουσιάσεις PowerPoint χρησιμοποιώντας Aspose.Slides για Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Φορτώστε την παρουσίαση
  Αρχικά, πρέπει να φορτώσετε την παρουσίαση του PowerPoint που περιέχει τα σχήματα που θέλετε να κλωνοποιήσετε. Χρησιμοποιήστε το`Presentation` τάξη για να φορτώσει την παρουσίαση πηγής.

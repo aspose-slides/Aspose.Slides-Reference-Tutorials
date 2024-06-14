@@ -8,10 +8,10 @@ weight: 10
 url: /fr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerpoint/
 ---
 ## Introduction
-Créer des présentations PowerPoint visuellement attrayantes est crucial pour captiver votre public. L'un des moyens efficaces d'améliorer vos diapositives consiste à remplir les formes avec des dégradés. Ce didacticiel vous guidera tout au long du processus d'utilisation d'Aspose.Slides pour Java pour remplir des formes avec des dégradés dans PowerPoint. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, vous trouverez ce guide utile et facile à suivre. Plongeons dans le monde des dégradés et voyons comment ils peuvent transformer vos présentations.
+Créer des présentations PowerPoint visuellement attrayantes est crucial pour captiver votre public. L’un des moyens efficaces d’améliorer vos diapositives consiste à remplir les formes avec des dégradés. Ce didacticiel vous guidera tout au long du processus d'utilisation d'Aspose.Slides pour Java pour remplir des formes avec des dégradés dans PowerPoint. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, vous trouverez ce guide utile et facile à suivre. Plongeons dans le monde des dégradés et voyons comment ils peuvent transformer vos présentations.
 ## Conditions préalables
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
--  Kit de développement Java (JDK) : assurez-vous que JDK est installé. Vous pouvez le télécharger depuis le[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Kit de développement Java (JDK) : assurez-vous que JDK est installé. Vous pouvez le télécharger depuis le[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides pour Java : téléchargez la dernière version à partir de[ici](https://releases.aspose.com/slides/java/).
 - Environnement de développement intégré (IDE) : un IDE comme IntelliJ IDEA ou Eclipse rendra votre expérience de codage plus fluide.
 - Connaissance de base de Java : Une connaissance de la programmation Java est essentielle.
@@ -19,7 +19,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 Pour commencer avec Aspose.Slides, vous devez importer les packages nécessaires. Assurez-vous d'avoir ajouté Aspose.Slides pour Java aux dépendances de votre projet.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!isExists)
 	new File(dataDir).mkdirs();
 ```
 Cette étape garantit que le répertoire dans lequel vous souhaitez enregistrer votre fichier PowerPoint existe. Si ce n'est pas le cas, le code le créera pour vous.
-## Étape 2 : Instancier la classe de présentation
+## Étape 2 : Instancier un cours de présentation
 Ensuite, créez une instance de la classe Présentation qui représente un fichier PowerPoint.
 ```java
 // Instancier la classe de présentation qui représente le PPTX

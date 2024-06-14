@@ -21,7 +21,7 @@ url: /ar/java/presentation-conversion/conversion-tiff-notes-java-slides/
 
 ## الخطوة 1: إعداد مشروعك
 
-للبدء، قم بإنشاء مشروع Java جديد وأضف مكتبة Aspose.Slides إلى مسار فئة مشروعك. سيسمح لك هذا باستخدام Aspose.Slides API في كود Java الخاص بك.
+للبدء، قم بإنشاء مشروع Java جديد وأضف مكتبة Aspose.Slides إلى مسار الفصل الخاص بمشروعك. سيسمح لك هذا باستخدام Aspose.Slides API في كود Java الخاص بك.
 
 ## الخطوة 2: تحميل العرض التقديمي
 

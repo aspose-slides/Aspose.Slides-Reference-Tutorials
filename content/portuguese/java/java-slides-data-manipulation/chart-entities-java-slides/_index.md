@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//Configurando o formato das linhas de grade secundárias para o eixo de categoria
+// Configurando o formato das linhas de grade secundárias para o eixo de categoria
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//Configurando o formato das linhas de grade secundárias para o eixo de categoria
+	// Configurando o formato das linhas de grade secundárias para o eixo de categoria
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -256,15 +256,15 @@ try
 	txtleg.getFillFormat().getSolidFillColor().setColor(Color.RED);
 	// Definir mostrar legendas do gráfico sem gráfico sobreposto
 	chart.getLegend().setOverlay(true);
-	// Traçando a primeira série no eixo de valor secundário
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
+	// Plotando a primeira série no eixo de valor secundário
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
 	// Definir a cor da parede posterior do gráfico
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// Configurando a cor da área de plotagem
+	//Configurando a cor da área de plotagem
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Salvar apresentação
@@ -298,6 +298,6 @@ Você pode personalizar as cores do gráfico definindo o formato de preenchiment
 
  Sim, Aspose.Slides for Java suporta a criação de gráficos 3D. Você pode definir o`ChartType` para um tipo de gráfico 3D para criar um.
 
-### Aspose.Slides for Java é compatível com as versões mais recentes do Java?
+### O Aspose.Slides for Java é compatível com as versões mais recentes do Java?
 
 Sim, o Aspose.Slides for Java é atualizado regularmente para oferecer suporte às versões mais recentes do Java e fornece compatibilidade em uma ampla variedade de ambientes Java.

@@ -45,7 +45,7 @@ Presentation presentation = new Presentation();
 // Установите название презентации
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Установить автора презентации
+//Установить автора презентации
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Задайте ключевые слова для презентации
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Путь к каталогу документов.
 String dataDir = "Your Document Directory";
-//Создайте экземпляр объекта Presentation, представляющего файл PPT.
+// Создайте экземпляр объекта Presentation, представляющего файл PPT.
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ finally
 // Установите название презентации
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Установить автора презентации
+//Установить автора презентации
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Задайте ключевые слова для презентации

@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 
 Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있게 해주는 강력한 라이브러리입니다. PowerPoint 슬라이드를 생성, 조작 및 관리하기 위한 광범위한 기능을 제공합니다. 프레젠테이션 작업 시 일반적인 요구 사항 중 하나는 Excel 통합 문서와 같은 외부 데이터 원본에서 차트 데이터를 동적으로 설정하는 것입니다. 이 튜토리얼에서는 Java를 사용하여 이를 달성하는 방법을 보여줍니다.
 
-## 전제조건
+## 전제 조건
 
 구현을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -23,7 +23,7 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
 ## 1단계: 프레젠테이션 만들기
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Excel 통합 문서의 새 데이터를 준비하기 위해 차트에서 기존 
 ## 4단계: Excel 통합 문서 로드
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  차트에 사용하려는 데이터가 포함된 Excel 통합 문서를 로드합니다. 바꾸다`"book1.xlsx"` Excel 파일의 경로와 함께.
@@ -92,14 +92,14 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Java 슬라이드 통합 문서의 차트 데이터 세트에 대한 전체 소스 코드
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

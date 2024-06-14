@@ -34,7 +34,7 @@ Maak een exemplaar van de klasse Presentation om uw PPTX-bestand weer te geven:
 ```csharp
 using (Presentation input = new Presentation())
 {
-    // Toegang tot de vormenverzameling voor de geselecteerde dia
+    // Toegang tot de vormencollectie voor de geselecteerde dia
     IShapeCollection shapes = input.Slides[0].Shapes;
 ```
 ## 3. Voeg vormen toe aan de dia

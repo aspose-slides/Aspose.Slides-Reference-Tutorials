@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint의 연결 사이트를 사용하여 도형을 연결하는 방법을 살펴보겠습니다. 이 강력한 라이브러리를 사용하면 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하여 모양 연결과 같은 작업을 원활하고 효율적으로 만들 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1.  JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하세요. 에서 다운로드하여 설치할 수 있습니다.[웹사이트](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 2.  Java용 Aspose.Slides: 다음 사이트에서 Java용 Aspose.Slides를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: Shapes 컬렉션에 접근하기
 선택한 슬라이드의 모양 컬렉션에 액세스합니다.

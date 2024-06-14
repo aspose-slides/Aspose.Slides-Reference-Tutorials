@@ -12,14 +12,14 @@ Das Erstellen optisch ansprechender PowerPoint-Präsentationen kann eine gewalti
 ## Voraussetzungen
 Bevor wir beginnen, müssen einige Voraussetzungen erfüllt sein:
 1.  Java Development Kit (JDK): Stellen Sie sicher, dass JDK auf Ihrem Rechner installiert ist. Sie können es hier herunterladen:[Website von Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides für Java-Bibliothek: Sie müssen Aspose.Slides für Java herunterladen und in Ihr Projekt einbinden. Sie erhalten es von[Hier](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides für Java-Bibliothek: Sie müssen Aspose.Slides für Java herunterladen und in Ihr Projekt einbinden. Sie erhalten es von[Hier](https://releases.aspose.com/slides/java/).
 3. Integrierte Entwicklungsumgebung (IDE): Verwenden Sie eine IDE wie IntelliJ IDEA, Eclipse oder NetBeans, um Ihren Java-Code zu schreiben und auszuführen.
 4. Grundkenntnisse in Java: Grundlegende Kenntnisse der Java-Programmierung helfen Ihnen, dem Tutorial zu folgen.
 ## Pakete importieren
 Zuerst müssen Sie die erforderlichen Pakete für Aspose.Slides importieren. Dies ist wichtig, um auf die Klassen und Methoden zuzugreifen, die für unsere Präsentationsmanipulationen erforderlich sind.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 In diesem Schritt definieren wir einen Verzeichnispfad und prüfen, ob dieser existiert. Wenn nicht, erstellen wir das Verzeichnis. Dies ist eine einfache, aber effektive Möglichkeit, Ihre Dateien zu organisieren.
 ## Schritt 2: Initialisieren der Präsentation
- Als nächstes instantiieren wir den`Presentation`Klasse, die unsere PowerPoint-Datei darstellt. Dies ist die Grundlage, auf der wir unsere Folien und Formen erstellen werden.
+ Als nächstes instantiieren wir den`Presentation` Klasse, die unsere PowerPoint-Datei darstellt. Dies ist die Grundlage, auf der wir unsere Folien und Formen erstellen werden.
 ```java
 Presentation pres = new Presentation();
 ```

@@ -12,13 +12,13 @@ Dalam tutorial ini, kita akan mempelajari cara mengkloning bentuk dalam presenta
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java Development Kit di sistem Anda. Anda dapat mengunduh dan menginstal versi terbaru dari[situs web](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java Library: Unduh dan sertakan perpustakaan Aspose.Slides for Java dalam proyek Java Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Library: Unduh dan sertakan perpustakaan Aspose.Slides for Java dalam proyek Java Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/slides/java/).
 
 ## Paket Impor
 Untuk memulai, Anda harus mengimpor paket yang diperlukan ke proyek Java Anda. Paket-paket ini menyediakan fungsionalitas yang diperlukan untuk bekerja dengan presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Muat Presentasi
  Pertama, Anda perlu memuat presentasi PowerPoint yang berisi bentuk yang ingin Anda tiru. Menggunakan`Presentation` kelas untuk memuat presentasi sumber.

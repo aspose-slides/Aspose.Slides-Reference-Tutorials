@@ -16,7 +16,7 @@ url: /hi/java/chart-data-manipulation/funnel-chart-java-slides/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-- Aspose.Slides for Java लाइब्रेरी आपके प्रोजेक्ट में स्थापित और सेट अप हो गई है।
+- Aspose.Slides for Java लाइब्रेरी आपके प्रोजेक्ट में स्थापित और सेट अप की गई है।
 - एक पावरपॉइंट प्रेजेंटेशन (PPTX) फ़ाइल जहाँ आप फ़नल चार्ट सम्मिलित करना चाहते हैं।
 
 ## चरण 1: Java के लिए Aspose.Slides आयात करें
@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // पहली स्लाइड में निर्देशांक (50, 50) पर आयाम (500, 400) के साथ एक फ़नल चार्ट जोड़ें।
+    //पहली स्लाइड में निर्देशांक (50, 50) पर आयाम (500, 400) के साथ एक फ़नल चार्ट जोड़ें।
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 
 ### क्या मैं चार्ट को विभिन्न प्रारूपों में निर्यात कर सकता हूँ, जैसे कि PDF या छवि?
 
- हां, Aspose.Slides for Java आपको फ़नल चार्ट के साथ प्रेजेंटेशन को PDF, इमेज फॉर्मेट और अन्य सहित विभिन्न फॉर्मेट में एक्सपोर्ट करने की अनुमति देता है। आप इसका उपयोग कर सकते हैं`SaveFormat` प्रस्तुति को सहेजते समय वांछित आउटपुट प्रारूप निर्दिष्ट करने के लिए विकल्प।
+हां, Aspose.Slides for Java आपको फ़नल चार्ट के साथ प्रेजेंटेशन को PDF, इमेज फॉर्मेट और अन्य सहित विभिन्न फॉर्मेट में एक्सपोर्ट करने की अनुमति देता है। आप इसका उपयोग कर सकते हैं`SaveFormat` प्रस्तुति को सहेजते समय वांछित आउटपुट प्रारूप निर्दिष्ट करने के लिए विकल्प।

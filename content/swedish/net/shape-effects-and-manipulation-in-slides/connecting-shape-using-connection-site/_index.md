@@ -1,6 +1,6 @@
 ---
 title: Shape Connection Mastery med Aspose.Slides för .NET
-linktitle: Connecting Shape med Connection Site i presentationen
+linktitle: Connecting Shape med Connection Site i Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Skapa fängslande presentationer med Aspose.Slides för .NET, som sömlöst förbinder former. Följ vår guide för en smidig, engagerande upplevelse.
 type: docs

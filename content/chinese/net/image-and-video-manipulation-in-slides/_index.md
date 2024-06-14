@@ -25,7 +25,7 @@ url: /zh/net/image-and-video-manipulation-in-slides/
 - 图像和视频提取：探索从现有幻灯片中提取图像和视频的技术，实现重复使用和定制。
 - 动画和过渡：深入了解动画和过渡的世界，了解如何使用图像和视频来创建迷人的视觉序列。
 
-在本教程结束时，您将掌握使用 Aspose.Slides 处理演示文稿中的图像和视频的坚实基础，从而提升内容的视觉吸引力和参与度。无论您是旨在增强商业演示的开发人员，还是寻求创新方式传达概念的教育工作者，本教程都是您释放幻灯片中多媒体潜力的门户。
+在本教程结束时，您将掌握使用 Aspose.Slides 处理演示文稿中的图像和视频的坚实基础，从而提升内容的视觉吸引力和参与度。无论您是旨在增强商业演示的开发人员，还是寻求创新方式传达概念的教育工作者，本教程都是您释放幻灯片中多媒体潜力的途径。
 
 
 ## 幻灯片教程中的图像和视频处理
@@ -48,7 +48,7 @@ url: /zh/net/image-and-video-manipulation-in-slides/
 ### [使用 Aspose.Slides 在演示幻灯片中应用双色调效果](./applying-duotone-effects/)
 了解如何使用 Aspose.Slides for .NET 通过迷人的双色调效果增强您的演示幻灯片。按照我们的分步指南和完整的源代码创建引人注目的幻灯片，吸引您的观众。自定义双色调颜色，将效果应用于图像和文本，并无缝保存修改后的演示文稿。
 ### [使用 Aspose.Slides 在演示幻灯片中添加嵌入式视频帧](./adding-embedded-video-frame/)
-了解如何使用 Aspose.Slides for .NET 添加嵌入式视频帧来增强您的演示幻灯片。按照本分步指南和完整源代码无缝集成视频、自定义播放并创建引人入胜的演示文稿。
+了解如何使用 Aspose.Slides for .NET 添加嵌入式视频帧来增强您的演示幻灯片。按照包含完整源代码的分步指南无缝集成视频、自定义播放并创建引人入胜的演示文稿。
 ### [从 Aspose.Slides 中的 OLE 对象提取嵌入文件数据](./extracting-embedded-file-data-ole-object/)
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的 OLE 对象中提取嵌入文件数据。按照带有源代码的分步指南无缝检索和处理嵌入数据。
 ### [使用 Aspose.Slides 在演示幻灯片中用渐变填充形状](./filling-shapes-gradient/)

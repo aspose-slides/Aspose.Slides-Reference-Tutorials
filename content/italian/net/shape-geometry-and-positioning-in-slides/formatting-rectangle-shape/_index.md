@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Passaggio 2: crea un oggetto di presentazione
- Istanziare il`Presentation`classe per rappresentare il file PPTX. Questa sarà la base per la tua presentazione PowerPoint.
+ Istanziare il`Presentation` classe per rappresentare il file PPTX. Questa sarà la base per la tua presentazione PowerPoint.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Accedi alla prima diapositiva della presentazione, poiché sarà la tela in cui 
 ISlide sld = pres.Slides[0];
 ```
 ## Passaggio 4: aggiungi una forma rettangolare
- Usa il`Shapes` proprietà della diapositiva per aggiungere una forma automatica di tipo rettangolo. Specificare la posizione e le dimensioni del rettangolo.
+ Usa il`Shapes`proprietà della diapositiva per aggiungere una forma automatica di tipo rettangolo. Specificare la posizione e le dimensioni del rettangolo.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern
 首先，讓我們導入範例所需的必要包。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -47,7 +47,7 @@ Presentation pres = new Presentation();
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
 ```
-## 第5步：新增一個矩形形狀
+## 第5步：新增一個矩形
 讓我們在幻燈片中新增一個矩形。此矩形將填入圖案。
 ```java
 IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 150);

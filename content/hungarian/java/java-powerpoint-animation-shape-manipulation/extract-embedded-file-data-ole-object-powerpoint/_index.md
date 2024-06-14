@@ -23,7 +23,7 @@ import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.OleObjectFrame;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 ```
@@ -38,23 +38,23 @@ String dataDir = "Your Document Directory";
 ```java
 String pptxFileName = dataDir + "TestOlePresentation.pptx";
 ```
- Győződjön meg a cseréről`"TestOlePresentation.pptx"` a PowerPoint bemutatófájl nevével.
+ Győződjön meg a cseréről`"TestOlePresentation.pptx"` a PowerPoint bemutató fájl nevével.
 ## 3. lépés: Bemutató betöltése
 ```java
 Presentation pres = new Presentation(pptxFileName);
 ```
- Ez a sor inicializálja a`Presentation` osztályban, betölti a megadott PowerPoint prezentációs fájlt.
+ Ez a sor inicializálja a`Presentation` osztályban, betölti a megadott PowerPoint bemutató fájlt.
 ## 4. lépés: Iteráció diákon és alakzatokon keresztül
 ```java
 for (ISlide sld : pres.getSlides()) {
     for (IShape shape : sld.getShapes()) {
 ```
-Itt végigfutjuk a bemutatón belül minden diát és alakzatot.
+Itt a prezentáción belül minden diát és alakzatot iterálunk.
 ## 5. lépés: Ellenőrizze az OLE objektumot
 ```java
 if (shape instanceof OleObjectFrame) {
 ```
-Ez a feltétel ellenőrzi, hogy az alakzat OLE objektum-e.
+Ez a feltétel azt ellenőrzi, hogy az alakzat OLE objektum-e.
 ## 6. lépés: A beágyazott fájl adatainak kibontása
 ```java
 OleObjectFrame oleFrame = (OleObjectFrame) shape;

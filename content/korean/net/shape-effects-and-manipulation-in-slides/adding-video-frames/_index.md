@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
 ## 소개
 프레젠테이션의 역동적인 환경에서 멀티미디어 요소를 통합하면 전반적인 영향력과 참여도를 높일 수 있습니다. 슬라이드에 비디오 프레임을 추가하면 정적인 콘텐츠가 할 수 없는 방식으로 청중의 관심을 끌 수 있어 판도를 바꿀 수 있습니다. .NET용 Aspose.Slides는 비디오 프레임을 프레젠테이션 슬라이드에 원활하게 통합하기 위한 강력한 솔루션을 제공합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 및 .NET 프로그래밍에 대한 기본 이해.
 -  .NET 라이브러리용 Aspose.Slides가 설치되었습니다. 그렇지 않은 경우 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/net/).

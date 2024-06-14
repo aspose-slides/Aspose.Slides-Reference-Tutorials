@@ -95,7 +95,7 @@ url: /zh/net/chart-creation-and-customization/check-slides-comparison/
 2. 将报告导出为不同的格式：
    将比较报告导出为 PDF、DOCX 或 HTML 等各种格式，以便于共享和记录。
 
-## 处理复杂的演示文稿
+## 处理复杂的演示
 
 对于包含动画和多媒体内容的演示文稿：
 

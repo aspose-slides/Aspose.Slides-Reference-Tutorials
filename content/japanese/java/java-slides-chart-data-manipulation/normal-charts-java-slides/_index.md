@@ -217,7 +217,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # 結論
 
-このチュートリアルでは、Aspose.Slides for Java API を使用して Java スライドで通常のグラフを作成する方法を学習しました。PowerPoint プレゼンテーションで集合縦棒グラフを作成するためのステップバイステップのガイドとソース コードを確認しました。
+このチュートリアルでは、Aspose.Slides for Java API を使用して Java スライドで通常のグラフを作成する方法を学習しました。PowerPoint プレゼンテーションで集合縦棒グラフを作成するためのステップ バイ ステップ ガイドとソース コードを確認しました。
 
 ## よくある質問
 

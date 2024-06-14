@@ -18,7 +18,7 @@ url: /ru/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powe
 В свой Java-проект импортируйте необходимые пакеты:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

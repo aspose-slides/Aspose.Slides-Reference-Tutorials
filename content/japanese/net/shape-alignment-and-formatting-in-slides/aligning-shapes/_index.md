@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 {
     ISlide slide = pres.Slides[0];
     //いくつかの図形を作成する
-    //...
+    // ...
 }
 ```
 ## ステップ2: スライド内の図形を整列させる

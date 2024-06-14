@@ -13,13 +13,13 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующее:
 1.  Комплект разработки Java (JDK): убедитесь, что на вашем компьютере установлен JDK. Вы можете скачать его с сайта[Веб-сайт Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2.  Библиотека Aspose.Slides для Java: Вы можете загрузить библиотеку с сайта[Страница загрузки Aspose.Slides](https://releases.aspose.com/slides/java/).
-3. Интегрированная среда разработки (IDE). IDE, такая как IntelliJ IDEA или Eclipse, для написания и выполнения кода Java.
+3. Интегрированная среда разработки (IDE). IDE, например IntelliJ IDEA или Eclipse, для написания и выполнения кода Java.
 4.  Файл изображения: файл изображения (например,`aspose-logo.jpg`), чтобы применить эффект Duotone.
 ## Импортировать пакеты
-Сначала вам нужно будет импортировать необходимые пакеты в вашу программу Java. Вот как это сделать:
+Сначала вам нужно будет импортировать необходимые пакеты в вашу Java-программу. Вот как это сделать:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

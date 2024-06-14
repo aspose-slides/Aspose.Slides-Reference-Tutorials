@@ -15,7 +15,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 - Program Visual Studio zainstalowany na Twoim komputerze.
 - Biblioteka Aspose.Slides dla .NET pobrana i przywołana w Twoim projekcie.
 ## Importuj przestrzenie nazw
-W kodzie C# pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw, aby uzyskać dostęp do funkcjonalności Aspose.Slides. Dodaj następujące linie do swojego kodu:
+kodzie C# pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw, aby uzyskać dostęp do funkcjonalności Aspose.Slides. Dodaj następujące linie do swojego kodu:
 ```csharp
 using System.IO;
 using Aspose.Slides;

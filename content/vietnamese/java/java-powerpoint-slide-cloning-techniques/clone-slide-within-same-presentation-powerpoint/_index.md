@@ -22,11 +22,11 @@ Trước tiên, hãy nhập các gói cần thiết để làm việc với Aspo
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## Bước 1: Thiết lập dự án của bạn
- Bắt đầu bằng cách thiết lập dự án Java trong IDE của bạn. Tạo một dự án mới và thêm thư viện Aspose.Slides for Java vào các phần phụ thuộc của dự án của bạn. Bạn có thể tải xuống thư viện từ[Trang tải xuống Aspose.Slides cho Java](https://releases.aspose.com/slides/java/).
+Bắt đầu bằng cách thiết lập dự án Java trong IDE của bạn. Tạo một dự án mới và thêm thư viện Aspose.Slides for Java vào các phần phụ thuộc của dự án của bạn. Bạn có thể tải xuống thư viện từ[Trang tải xuống Aspose.Slides cho Java](https://releases.aspose.com/slides/java/).
 ## Bước 2: Xác định thư mục dữ liệu
 Xác định đường dẫn đến thư mục tài liệu nơi chứa tệp trình bày của bạn. Điều này sẽ giúp Aspose.Slides định vị và lưu tệp chính xác.
 ```java
@@ -62,8 +62,8 @@ Aspose.Slides cho Java là một API mạnh mẽ để làm việc với các b�
 ### Làm cách nào tôi có thể tải xuống Aspose.Slides cho Java?
  Bạn có thể tải xuống phiên bản mới nhất của Aspose.Slides cho Java từ[trang tải xuống](https://releases.aspose.com/slides/java/).
 ### Có bản dùng thử miễn phí cho Aspose.Slides cho Java không?
-Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Slides cho Java bằng cách truy cập[trang dùng thử miễn phí](https://releases.aspose.com/).
+ Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Slides cho Java bằng cách truy cập[trang dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu về Aspose.Slides cho Java ở đâu?
- Tài liệu về Aspose.Slides cho Java có sẵn trên[trang web giả định](https://reference.aspose.com/slides/java/).
+Tài liệu về Aspose.Slides cho Java có sẵn trên[trang web giả định](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể mua Aspose.Slides cho Java?
  Bạn có thể mua Aspose.Slides cho Java bằng cách truy cập[trang mua hàng](https://purchase.aspose.com/buy).

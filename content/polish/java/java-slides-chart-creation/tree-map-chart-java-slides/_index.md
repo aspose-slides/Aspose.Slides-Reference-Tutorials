@@ -133,7 +133,7 @@ finally
 
 ## Wniosek
 
-tym samouczku nauczyłeś się tworzyć wykres mapy drzewa w prezentacji programu PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Wykresy mapy drzewa są cennym narzędziem do wizualizacji danych hierarchicznych, dzięki czemu Twoje prezentacje są bardziej pouczające i wciągające.
+W tym samouczku nauczyłeś się tworzyć wykres mapy drzewa w prezentacji programu PowerPoint przy użyciu biblioteki Aspose.Slides for Java. Wykresy mapy drzewa są cennym narzędziem do wizualizacji danych hierarchicznych, dzięki czemu Twoje prezentacje są bardziej pouczające i wciągające.
 
 ## Często zadawane pytania
 
@@ -143,7 +143,7 @@ tym samouczku nauczyłeś się tworzyć wykres mapy drzewa w prezentacji program
 
 ### Jak mogę dostosować wygląd wykresu mapy drzewa?
 
- Można dostosować wygląd wykresu mapy drzewa, modyfikując różne właściwości pliku`chart` I`series` obiektów, takich jak kolory, etykiety i układy.
+ Możesz dostosować wygląd wykresu mapy drzewa, modyfikując różne właściwości pliku`chart` I`series`obiektów, takich jak kolory, etykiety i układy.
 
 ### Czy mogę utworzyć wiele wykresów mapy drzewa w jednej prezentacji?
 

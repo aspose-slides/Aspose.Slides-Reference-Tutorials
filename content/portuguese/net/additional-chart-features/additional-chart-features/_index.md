@@ -34,7 +34,7 @@ using Aspose.Slides.Charts;
 using System;
 ```
 
-## Exemplo 1: Obter intervalo de dados do gráfico
+## Exemplo 1: obter intervalo de dados do gráfico
 
 Neste exemplo, demonstraremos como recuperar o intervalo de dados de um gráfico em uma apresentação do PowerPoint usando Aspose.Slides for .NET.
 

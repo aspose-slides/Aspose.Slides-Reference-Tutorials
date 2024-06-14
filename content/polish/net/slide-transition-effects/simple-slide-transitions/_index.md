@@ -88,7 +88,7 @@ W tym samouczku nauczyłeś się używać Aspose.Slides dla .NET do tworzenia ur
 
  Stosując przejścia takie jak „Koło” i „Grzebień”, możesz ożywić swoje slajdy i sprawić, że Twoje prezentacje będą bardziej wciągające. Nie zapomnij zbadać[dokumentacja](https://reference.aspose.com/slides/net/) aby uzyskać więcej szczegółów i funkcji Aspose.Slides dla .NET.
 
-Masz pytania lub potrzebujesz dalszej pomocy? Sprawdź forum społeczności Aspose.Slides[Tutaj](https://forum.aspose.com/).
+ Masz pytania lub potrzebujesz dalszej pomocy? Sprawdź forum społeczności Aspose.Slides[Tutaj](https://forum.aspose.com/).
 
 ## Często zadawane pytania
 

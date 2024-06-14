@@ -33,7 +33,7 @@ if (!isExists)
 string presentationFileName = Path.Combine(dataDir, "AnimationShapesExample.pptx");
 using (Presentation pres = new Presentation(presentationFileName))
 {
-    //الكود الخاص بك لمزيد من الإجراءات موجود هنا
+    // الكود الخاص بك لمزيد من الإجراءات موجود هنا
 }
 ```
 ## الخطوة 2: التكرار من خلال الشرائح وتأثيرات الرسوم المتحركة

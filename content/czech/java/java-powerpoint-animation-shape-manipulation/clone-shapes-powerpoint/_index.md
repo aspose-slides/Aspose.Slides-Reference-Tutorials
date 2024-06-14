@@ -12,13 +12,13 @@ V tomto tutoriálu prozkoumáme, jak klonovat tvary v prezentacích PowerPoint p
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující předpoklady:
 1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit. Nejnovější verzi si můžete stáhnout a nainstalovat z[webová stránka](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Knihovna Aspose.Slides for Java: Stáhněte si a zahrňte knihovnu Aspose.Slides for Java do svého projektu Java. Odkaz ke stažení najdete[tady](https://releases.aspose.com/slides/java/).
+2. Knihovna Aspose.Slides for Java: Stáhněte si a zahrňte knihovnu Aspose.Slides for Java do svého projektu Java. Odkaz ke stažení najdete[tady](https://releases.aspose.com/slides/java/).
 
 ## Importujte balíčky
 Chcete-li začít, budete muset importovat potřebné balíčky do svého projektu Java. Tyto balíčky poskytují funkce potřebné pro práci s prezentacemi PowerPoint pomocí Aspose.Slides for Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Načtěte prezentaci
  Nejprve musíte načíst prezentaci PowerPoint obsahující tvary, které chcete klonovat. Použijte`Presentation` třídy k načtení zdrojové prezentace.

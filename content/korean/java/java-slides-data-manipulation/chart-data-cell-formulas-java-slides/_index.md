@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/chart-data-cell-formulas-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 차트 데이터 셀 수식으로 작업하는 방법을 살펴보겠습니다. Aspose.Slides를 사용하면 데이터 셀에 대한 수식 설정을 포함하여 PowerPoint 프레젠테이션에서 차트를 만들고 조작할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Aspose.Slides for Java 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -21,7 +21,7 @@ url: /ko/java/data-manipulation/chart-data-cell-formulas-java-slides/
 먼저 새 PowerPoint 프레젠테이션을 만들고 여기에 차트를 추가해 보겠습니다.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Java 슬라이드의 차트 데이터 셀 수식에 대한 완전한 소스 코드
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

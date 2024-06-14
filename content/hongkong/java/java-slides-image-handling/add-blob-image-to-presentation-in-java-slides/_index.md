@@ -10,7 +10,7 @@ url: /zh-hant/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 
 ## 將 Blob 影像新增至 Java 簡報中的簡介投影片
 
-在本綜合指南中，我們將探討如何使用 Java 投影片將 Blob 影像新增至簡報中。 Aspose.Slides for Java 提供了以程式設計方式操作 PowerPoint 簡報的強大功能。在本教程結束時，您將清楚地了解如何將 Blob 圖像合併到簡報中。讓我們深入了解一下吧！
+在本綜合指南中，我們將探討如何使用 Java 投影片將 Blob 影像新增至簡報中。 Aspose.Slides for Java 提供了以程式設計方式操作 PowerPoint 簡報的強大功能。在本教程結束時，您將清楚地了解如何將 Blob 圖像合併到簡報中。讓我們深入了解吧！
 
 ## 先決條件
 
@@ -110,7 +110,7 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
 
 ## 結論
 
-恭喜！您已經成功學習如何使用 Aspose.Slides 將 Blob 圖像新增至 Java Slides 中的簡報。當您需要使用自訂影像增強簡報時，這項技能非常寶貴。嘗試使用不同的圖像和佈局來創建視覺上令人驚嘆的幻燈片。
+恭喜！您已經成功學習如何使用 Aspose.Slides 將 Blob 圖像新增至 Java Slides 的簡報。當您需要使用自訂影像增強簡報時，這項技能非常寶貴。嘗試使用不同的圖像和佈局來創建視覺上令人驚嘆的幻燈片。
 
 ## 常見問題解答
 

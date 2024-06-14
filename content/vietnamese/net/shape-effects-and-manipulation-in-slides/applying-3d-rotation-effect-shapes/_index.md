@@ -11,7 +11,7 @@ url: /vi/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effec
 Tạo các slide thuyết trình hấp dẫn và năng động là một khía cạnh quan trọng của giao tiếp hiệu quả. Aspose.Slides for .NET cung cấp một bộ công cụ mạnh mẽ để nâng cao bản trình bày của bạn, bao gồm khả năng áp dụng hiệu ứng xoay 3D cho các hình dạng. Trong hướng dẫn này, chúng ta sẽ hướng dẫn quy trình áp dụng hiệu ứng xoay 3D cho các hình dạng trong các trang trình bày bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Slides cho .NET. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Slides cho .NET. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/slides/net/).
 - Môi trường phát triển: Thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio, để viết và chạy mã của bạn.
 ## Nhập không gian tên
 Trong dự án .NET của bạn, hãy nhập các vùng tên cần thiết để tận dụng chức năng của Aspose.Slides. Bao gồm các không gian tên sau vào đầu mã của bạn:

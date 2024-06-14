@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
 ```csharp
     ISlide sld = pres.Slides[0];
 ```
-## Passaggio 4: aggiungi una forma automatica di tipo linea
+## Passaggio 4: aggiungere una forma automatica di tipo riga
 ```csharp
     IAutoShape shp = sld.Shapes.AddAutoShape(ShapeType.Line, 50, 150, 300, 0);
 ```
@@ -71,7 +71,7 @@ In conclusione, Aspose.Slides per .NET consente agli sviluppatori di portare le 
 ### D: È disponibile una prova gratuita per Aspose.Slides?
  R: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
 ### D: Dove posso trovare supporto per Aspose.Slides?
-R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e le discussioni della comunità.
+ R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e le discussioni della comunità.
 ### D: Come posso ottenere una licenza temporanea per Aspose.Slides?
  R: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso acquistare Aspose.Slides per .NET?

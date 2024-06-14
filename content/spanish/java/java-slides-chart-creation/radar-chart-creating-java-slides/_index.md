@@ -21,7 +21,7 @@ En este tutorial, lo guiaremos a través del proceso de creación de un gráfico
 Comencemos configurando una nueva presentación de PowerPoint y agregándole una diapositiva.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Código fuente completo para la creación de gráficos radiales en diapositivas Java
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Añadiendo nueva serie
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Ahora completando datos de series
+	// Ahora completando datos de series
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Establecer color de serie
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Ahora completando datos de otra serie
+	//Ahora completando datos de otra serie
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -267,4 +267,4 @@ Consulte el "Paso 5" para personalizar las etiquetas y el formato de los ejes, i
 
 ### ¿Cómo guardo el gráfico en un formato de archivo diferente?
 
- Puede cambiar el formato de salida modificando la extensión del archivo en el`outPath` variable y utilizando el adecuado`SaveFormat` . Por ejemplo, para guardar como PDF, utilice`SaveFormat.Pdf`.
+Puede cambiar el formato de salida modificando la extensión del archivo en el`outPath` variable y utilizando el adecuado`SaveFormat` . Por ejemplo, para guardar como PDF, utilice`SaveFormat.Pdf`.

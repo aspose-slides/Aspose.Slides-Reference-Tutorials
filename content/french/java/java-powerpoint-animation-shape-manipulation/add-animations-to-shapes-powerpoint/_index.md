@@ -19,7 +19,7 @@ Avant de plonger dans le didacticiel, assurons-nous que vous disposez de tout ce
 Pour commencer, vous devrez importer les packages nécessaires pour Aspose.Slides et les autres classes Java requises.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -107,4 +107,4 @@ Aspose.Slides prend en charge Java SE 6 et supérieur.
 ### Comment ajouter différentes animations à plusieurs formes ?
 Vous pouvez ajouter différentes animations à plusieurs formes en répétant les étapes pour chaque forme et en spécifiant différents effets selon vos besoins.
 ### Où puis-je trouver plus d’exemples et de documentation ?
- Vérifiez[Documentation](https://reference.aspose.com/slides/java/) et[forum d'entraide](https://forum.aspose.com/c/slides/11) pour plus d'exemples et d'aide.
+ Vérifiez[Documentation](https://reference.aspose.com/slides/java/) et[forum d'entraide](https://forum.aspose.com/c/slides/11)pour plus d'exemples et d'aide.

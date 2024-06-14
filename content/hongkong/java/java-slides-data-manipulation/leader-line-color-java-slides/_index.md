@@ -64,8 +64,8 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Java 投影片中引導線顏色的完整原始碼
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             //取得第一張投影片中的圖表

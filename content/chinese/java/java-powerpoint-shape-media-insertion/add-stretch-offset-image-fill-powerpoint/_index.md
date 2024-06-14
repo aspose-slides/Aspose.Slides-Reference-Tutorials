@@ -17,7 +17,7 @@ url: /zh/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fil
 首先，在您的 Java 项目中导入必要的包：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

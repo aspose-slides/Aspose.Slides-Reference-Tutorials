@@ -8,7 +8,7 @@ weight: 11
 url: /id/net/chart-creation-and-customization/add-layout-slides/
 ---
 
-Di era digital saat ini, membuat presentasi yang berdampak adalah keterampilan yang penting. Presentasi yang terstruktur dengan baik dan menarik secara visual dapat menyampaikan pesan Anda secara efektif. Aspose.Slides for .NET adalah alat canggih yang dapat membantu Anda membuat presentasi menakjubkan dalam waktu singkat. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara menggunakan Aspose.Slides untuk .NET guna menambahkan slide tata letak ke presentasi Anda. Kami akan membagi prosesnya menjadi langkah-langkah yang mudah diikuti, memastikan Anda memahami konsepnya secara menyeluruh. Mari kita mulai!
+Di era digital saat ini, membuat presentasi yang berdampak adalah keterampilan yang penting. Presentasi yang terstruktur dengan baik dan menarik secara visual dapat menyampaikan pesan Anda secara efektif. Aspose.Slides for .NET adalah alat canggih yang dapat membantu Anda membuat presentasi menakjubkan dalam waktu singkat. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara menggunakan Aspose.Slides untuk .NET untuk menambahkan slide tata letak ke presentasi Anda. Kami akan membagi prosesnya menjadi langkah-langkah yang mudah diikuti, memastikan Anda memahami konsepnya secara menyeluruh. Mari kita mulai!
 
 ## Prasyarat
 

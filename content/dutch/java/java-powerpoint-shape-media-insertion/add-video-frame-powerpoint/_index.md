@@ -17,7 +17,7 @@ Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 Eerst moet u de benodigde pakketten importeren om de Aspose.Slides-functionaliteiten in uw Java-code te gebruiken. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Stap 1: Documentmap instellen

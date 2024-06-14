@@ -20,7 +20,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 ## 1. Adım: Sunuyu Yükleyin
 
-Öncelikle değiştirmek istediğiniz grafiği içeren PowerPoint sunumunu yüklemeniz gerekir. Yer değiştirmek`presentationName` PowerPoint dosyanızın yolu ile birlikte.
+ Öncelikle değiştirmek istediğiniz grafiği içeren PowerPoint sunumunu yüklemeniz gerekir. Yer değiştirmek`presentationName` PowerPoint dosyanızın yolu ile birlikte.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Daha sonra sunumdaki grafiğe ve veri etiketlerine erişeceğiz. Bu örnekte gra
 // Grafiği ilk slayttan alın
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Grafiğin serisini alın
+//Grafiğin serisini alın
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // İlk serinin etiketlerini alın
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Son olarak, değiştirilmiş öncü çizgi renkleriyle sunuyu yeni bir dosyaya kaydedin.
 
 ```java
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Java Slaytlarında Lider Çizgi Rengi İçin Tam Kaynak Kodu
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Grafiği ilk slayttan alın
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Grafiğin serisini alın
+            //Grafiğin serisini alın
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // İlk serinin lebellerini edinin
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ Diğer grafik özelliklerine erişmek ve bunları değiştirmek için Aspose.Sli
 
 ### Aspose.Slides for Java'yı ticari bir projede kullanmak için lisansa ihtiyacım var mı?
 
-Evet, Aspose.Slides for Java'yı ticari bir projede kullanmak için genellikle geçerli bir lisansa ihtiyacınız vardır. Aspose, test ve deneme amaçlı ücretsiz değerlendirme lisansı da dahil olmak üzere çeşitli lisanslama seçenekleri sunar. Ancak üretim amaçlı kullanım için uygun ticari lisansı almanız gerekir. Ziyaret edin[Satın Alma Sayfasını Belirleyin](https://purchase.aspose.com/) lisans ayrıntıları için.
+ Evet, Aspose.Slides for Java'yı ticari bir projede kullanmak için genellikle geçerli bir lisansa ihtiyacınız vardır. Aspose, test ve deneme amaçlı ücretsiz değerlendirme lisansı da dahil olmak üzere çeşitli lisanslama seçenekleri sunar. Ancak üretim amaçlı kullanım için uygun ticari lisansı almanız gerekir. Ziyaret edin[Satın Alma Sayfasını Belirleyin](https://purchase.aspose.com/) lisans ayrıntıları için.
 
 ### Aspose.Slides for Java için nasıl teknik destek alabilirim?
 

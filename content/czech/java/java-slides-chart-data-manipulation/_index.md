@@ -53,4 +53,4 @@ Vytvářejte normální grafy v Java Slides pomocí Aspose.Slides pro Java. Podr
 ### [Organizační schéma v Java Slides](./organization-chart-java-slides/)
 Naučte se vytvářet úžasné organizační diagramy v Java Slides pomocí podrobných výukových programů Aspose.Slides. Přizpůsobte a vizualizujte svou organizační strukturu bez námahy.
 ### [Koláčový graf v Java Slides](./pie-chart-java-slides/)
-Naučte se vytvářet úžasné výsečové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vývojáře v jazyce Java.
+Naučte se vytvářet úžasné koláčové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vývojáře v jazyce Java.
